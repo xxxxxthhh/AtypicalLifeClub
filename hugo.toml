@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'  # 部署后请替换为您的域名
+baseURL = 'https://atypicallife.club/'  # 部署后请替换为您的域名
 languageCode = 'zh-cn'
 title = 'Atypical Life Club'
 theme = 'PaperMod'
@@ -55,7 +55,7 @@ enableEmoji = true
   # 首页信息模式
   [params.homeInfoParams]
     Title = "👋 Welcome to Atypical Life Club"
-    Content = "记录非典型的生活、思考与创作"
+    Content = "Documenting unconventional life, thoughts, and creations"
   
   # 社交图标（可按需添加）
   [[params.socialIcons]]
@@ -70,25 +70,25 @@ enableEmoji = true
 [menu]
   [[menu.main]]
     identifier = "posts"
-    name = "📝 文章"
+    name = "📝 Posts"
     url = "/posts/"
     weight = 10
   
   [[menu.main]]
     identifier = "archives"
-    name = "📚 归档"
+    name = "📚 Archives"
     url = "/archives/"
     weight = 20
   
   [[menu.main]]
     identifier = "tags"
-    name = "🏷️ 标签"
+    name = "🏷️ Tags"
     url = "/tags/"
     weight = 30
   
   [[menu.main]]
     identifier = "search"
-    name = "🔍 搜索"
+    name = "🔍 Search"
     url = "/search/"
     weight = 40
 
