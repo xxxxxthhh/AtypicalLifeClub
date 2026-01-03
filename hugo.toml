@@ -1,0 +1,109 @@
+baseURL = 'https://example.org/'  # 部署后请替换为您的域名
+languageCode = 'zh-cn'
+title = 'Atypical Life Club'
+theme = 'PaperMod'
+
+# 启用表情符号
+enableEmoji = true
+
+# 构建配置
+[build]
+  writeStats = true
+
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  minifyOutput = true
+
+[params]
+  # 网站描述
+  description = "一个记录非典型生活的个人博客"
+  author = "Atypical Life Club"
+  
+  # 主题模式：auto, dark, light
+  defaultTheme = "auto"
+  
+  # 启用搜索
+  showSearchButton = true
+  
+  # 显示阅读时间
+  ShowReadingTime = true
+  
+  # 显示分享按钮
+  ShowShareButtons = true
+  
+  # 显示文章导航（上一篇/下一篇）
+  ShowPostNavLinks = true
+  
+  # 显示面包屑导航
+  ShowBreadCrumbs = true
+  
+  # 显示代码复制按钮
+  ShowCodeCopyButtons = true
+  
+  # 显示字数统计
+  ShowWordCount = true
+  
+  # 显示目录
+  ShowToc = true
+  TocOpen = false
+  
+  # 首页信息模式
+  [params.homeInfoParams]
+    Title = "👋 Welcome to Atypical Life Club"
+    Content = "记录非典型的生活、思考与创作"
+  
+  # 社交图标（可按需添加）
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/"
+  
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:your@email.com"
+
+# 菜单配置
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "📝 文章"
+    url = "/posts/"
+    weight = 10
+  
+  [[menu.main]]
+    identifier = "archives"
+    name = "📚 归档"
+    url = "/archives/"
+    weight = 20
+  
+  [[menu.main]]
+    identifier = "tags"
+    name = "🏷️ 标签"
+    url = "/tags/"
+    weight = 30
+  
+  [[menu.main]]
+    identifier = "search"
+    name = "🔍 搜索"
+    url = "/search/"
+    weight = 40
+
+# Markdown 渲染配置
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "monokai"
+  
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # 允许在 Markdown 中使用 HTML
+
+# 输出格式（用于搜索和 RSS）
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
