@@ -60,11 +60,15 @@ enableEmoji = true
   # 社交图标（可按需添加）
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/"
+    url = "https://github.com/xxxxxthhh"
   
   [[params.socialIcons]]
     name = "email"
-    url = "mailto:your@email.com"
+    url = "mailto:kylexu2410@gmail.com"
+  
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/kyx2410"
 
 # 菜单配置
 [menu]
@@ -91,6 +95,12 @@ enableEmoji = true
     name = "🔍 Search"
     url = "/search/"
     weight = 40
+  
+  [[menu.main]]
+    identifier = "about"
+    name = "👤 About"
+    url = "/about/"
+    weight = 50
 
 # Markdown 渲染配置
 [markup]

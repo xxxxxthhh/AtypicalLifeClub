@@ -1,45 +1,54 @@
 ---
-title: "你好，世界！"
-date: 2026-01-03T15:55:00+08:00
+title: "Why I Started This Blog"
+date: 2026-01-03T19:00:00+08:00
 draft: false
-tags: ["开始", "博客"]
-categories: ["日志"]
-description: "这是我的第一篇博客文章"
+tags: ["meta", "personal"]
+categories: ["Thoughts"]
+description: "The origin story of Atypical Life Club — why I decided to document my unconventional mix of tech, investing, and cross-border experiments."
 ---
 
-## 欢迎来到 Atypical Life Club
+After years of collecting notes in Notion, bookmarks in Raindrop, and thoughts scattered across too many messaging apps, I finally decided to consolidate everything into one place.
 
-这是我的第一篇博客文章。🎉
+## The Problem with Private Notes
 
-### 为什么叫"非典型生活俱乐部"？
+Private notes are great until you realize:
 
-因为生活本身就是非典型的，每个人都有自己独特的故事。
+1. **You never revisit them** — They sit there, forgotten
+2. **No feedback loop** — You don't know if your thinking is sound
+3. **No accountability** — Easy to abandon half-baked ideas
 
-### 这个博客会写什么？
+Writing publicly changes the game. It forces you to actually finish thoughts, structure arguments, and consider whether what you're saying makes any sense.
 
-- 📝 日常思考与感悟
-- 📷 生活中的瞬间
-- 💻 技术学习笔记
-- 📚 读书与观影
+## What You'll Find Here
 
-### 一些 Markdown 示例
+This blog covers an **atypical mix** of topics:
 
-> 这是一段引用文字
+### 🖥️ Technology
+Infrastructure, automation, developer tools, and systems thinking. The kind of stuff I work on professionally but also tinker with endlessly at home.
 
-**粗体文字** 和 *斜体文字*
+### 📈 Investing
+US and HK markets, portfolio management experiments, and the occasional deep dive into specific assets. Not financial advice — just documenting my own journey.
 
-```python
-print("Hello, World!")
-```
+### 🌏 Cross-border Life
+Navigating life between different countries, tax systems, and cultural contexts. The logistics nobody talks about.
 
-### 图片示例
+### 📷 Cameras & Travel
+Gear reviews, trip reports, and the art of disappearing from the grid occasionally.
 
-你可以将图片放在 `/static/images/` 目录下，然后这样引用：
+## The Name
 
-```markdown
-![图片描述](/images/your-image.jpg)
-```
+**Atypical Life Club** — because nothing about this mix of interests fits neatly into one category. 
+
+Software engineer who trades options. IT consultant who collects film cameras. Singapore resident who spends too much time researching obscure tax treaties.
+
+If you found this blog, you're probably someone with similarly scattered interests. Welcome to the club.
 
 ---
 
-感谢阅读！
+## What's Next
+
+I'll be migrating some of my older notes and essays here over time. New posts will cover whatever I'm currently obsessing over — no fixed schedule, no content calendar, just genuine exploration.
+
+If any of this resonates, stick around. And if you want to say hi, there's an [About](/about/) page with my contact info.
+
+*Let's see where this goes.*
