@@ -1,6 +1,24 @@
 // Reports data
 const reports = [
     {
+        id: 'amd-2026',
+        company: 'AMD',
+        ticker: 'NASDAQ: AMD',
+        title: 'AMD 深度研究报告 - AI时代的半导体挑战者',
+        summary: '半导体巨头转型AI基础设施提供商，2025年营收346亿美元（+34% YoY）。OpenAI多年合作协议，数据中心业务强劲增长，但估值已充分反映乐观预期。',
+        tags: ['半导体', 'AI加速器', '数据中心', 'CPU/GPU'],
+        category: 'tech',
+        date: '2026-02-04',
+        lastUpdate: '2026-02-04',
+        file: '/research/reports/amd-2026.html',
+        highlights: [
+            '2025年营收346亿美元，同比增长34%',
+            'OpenAI多年合作协议（MI450 GPU）',
+            '数据中心Q4营收54亿美元（+39% YoY）',
+            '市值2400亿美元，PE 121.7倍'
+        ]
+    },
+    {
         id: 'jinpan-2026',
         company: '金盘科技',
         ticker: '688676.SH',
