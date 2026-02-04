@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>测试货币转换</title>
+</head>
+<body>
+    <h1>货币转换测试</h1>
+    <div id="output"></div>
+    
+    <script>
+        // 模拟数据
+        const testData = {
+            rates: {
+                'CNY': 6.94,
+                'SGD': 1.27,
+                'JPY': 155.45,
+                'AUD': 1.44
+            }
+        };
+        
+        function getExchangeRate(baseRate, targetRate, base, target) {
+            console.log(`计算 ${base}/${target}:`);
+            console.log(`  baseRate (USD/${base}): ${baseRate}`);
+            console.log(`  targetRate (USD/${target}): ${targetRate}`);
+            
+            // 如果基础货币是 USD，直接返回目标货币汇率
+            if (base === 'USD') {
+                console.log(`  结果: ${targetRate} (直接返回 USD/${target})`);
+                return targetRate;
+            }
+            // 如果目标货币是 USD，返回基础货币汇率的倒数
+            if (target === 'USD') {
+                const result = 1 / baseRate;
+                console.log(`  结果: ${result} (1 / USD/${base})`);
+                return result;
+            }
+            // 其他情况：通过 USD 作为中间货币转换
+            const result = targetRate / baseRate;
+            console.log(`  结果: ${result} ((USD/${target}) / (USD/${base}))`);
+            return result;
+        }
+        
+        let output = '<pre>';
+        
+        // 测试 1: USD/CNY (应该是 6.94)
+        output += '\n测试 1: USD/CNY\n';
+        const usdCny = getExchangeRate(1, testData.rates['CNY'], 'USD', 'CNY');
+        output += `结果: ${usdCny}\n`;
+        
+        // 测试 2: SGD/CNY (应该是 6.94 / 1.27 = 5.46)
+        output += '\n测试 2: SGD/CNY\n';
+        const sgdCny = getExchangeRate(testData.rates['SGD'], testData.rates['CNY'], 'SGD', 'CNY');
+        output += `结果: ${sgdCny}\n`;
+        
+        // 测试 3: SGD/USD (应该是 1 / 1.27 = 0.787)
+        output += '\n测试 3: SGD/USD\n';
+        const sgdUsd = getExchangeRate(testData.rates['SGD'], 1, 'SGD', 'USD');
+        output += `结果: ${sgdUsd}\n`;
+        
+        output += '</pre>';
+        document.getElementById('output').innerHTML = output;
+    </script>
+</body>
+</html>

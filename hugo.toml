@@ -91,11 +91,23 @@ enableEmoji = true
     weight = 30
   
   [[menu.main]]
+    identifier = "research"
+    name = "📊 Research"
+    url = "/research/"
+    weight = 35
+
+  [[menu.main]]
+    identifier = "currency"
+    name = "💱 Currency"
+    url = "/currency/"
+    weight = 36
+
+  [[menu.main]]
     identifier = "search"
     name = "🔍 Search"
     url = "/search/"
     weight = 40
-  
+
   [[menu.main]]
     identifier = "about"
     name = "👤 About"
