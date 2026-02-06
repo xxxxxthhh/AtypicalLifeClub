@@ -17,6 +17,7 @@ REQUIRED_FIELDS = [
     "company",
     "ticker",
     "title",
+    "titleEn",
     "summary",
     "tags",
     "category",
@@ -74,7 +75,7 @@ def main():
             fail(f"duplicate report id: {report_id}")
         seen_ids.add(report_id)
 
-        for field in ("company", "ticker", "title", "summary", "category"):
+        for field in ("company", "ticker", "title", "titleEn", "summary", "category"):
             ensure_non_empty_string(report[field], f"report[{idx}].{field}")
 
         parse_date(report["date"], f"report[{idx}].date")
@@ -100,9 +101,6 @@ def main():
                 f"report[{idx}].file should be {expected_url}, got: {file_url}"
             )
 
-        if "titleEn" in report:
-            ensure_non_empty_string(report["titleEn"], f"report[{idx}].titleEn")
-
         markdown_files = report["markdownFiles"]
         if not isinstance(markdown_files, dict):
             fail(f"report[{idx}].markdownFiles must be an object")
@@ -117,6 +115,10 @@ def main():
                 fail(
                     f"report[{idx}].markdownFiles.{lang} should start with /invest/research/: {markdown_url}"
                 )
+            if not markdown_url.endswith(".md"):
+                fail(
+                    f"report[{idx}].markdownFiles.{lang} should point to a .md file: {markdown_url}"
+                )
 
             markdown_rel = markdown_url.replace("/invest/research/", "", 1)
             markdown_file = ROOT / markdown_rel
@@ -124,6 +126,11 @@ def main():
                 fail(
                     f"report[{idx}] markdown file not found for {lang}: {markdown_file}"
                 )
+
+        if markdown_files["zh"] == markdown_files["en"]:
+            fail(
+                f"report[{idx}].markdownFiles.zh and .en must be different files"
+            )
 
     print(f"OK: validated {len(reports)} reports in {REPORTS_JSON}")
 

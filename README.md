@@ -95,7 +95,14 @@ cover:
    字段至少包括：`id`、`company`、`ticker`、`title`、`titleEn`、`summary`、`category`、`date`、`lastUpdate`、`file`、`markdownFiles`、`tags`
    - `file` 统一写：`/invest/research/reports/view.html?id=<id>`
    - `markdownFiles` 统一写：`{ "zh": "/invest/research/<zh-report>.md", "en": "/invest/research/<en-report>.md" }`
-3. 本地验证  
+   - `markdownFiles.zh` 与 `markdownFiles.en` 必须是两个不同文件，且都要是完整正文（不能只写摘要版）
+3. 双语存放规范（必须）  
+   - 文件放在：`static/invest/research/`
+   - 命名建议：`<公司中文名>_深度研究报告_<YYYY-MM>.md`（中文）、`<Company>_Deep_Research_Report_<YYYY-MM>.md`（英文）
+   - 中英文需保持同一结构（章节、表格、关键结论一一对应）
+   - 更新任意一语种时，同次提交内同步更新另一语种与 `lastUpdate`
+   - 详情页语言切换由 `?lang=zh|en` 控制，默认 `zh`
+4. 本地验证  
    ```bash
    python3 static/invest/research/validate_reports.py
    hugo server -D
@@ -104,7 +111,7 @@ cover:
    - `http://localhost:1313/invest/research/` 卡片和筛选是否正常
    - 新报告详情页是否可打开并正确渲染
    - 详情页顶部中/英切换按钮可切换内容
-4. 提交并推送
+5. 提交并推送
 
 ### B. 更新汇率模块（手动）
 

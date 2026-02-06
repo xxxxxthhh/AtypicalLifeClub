@@ -42,6 +42,17 @@ static/invest/research/
    - `tags` / `highlights`
 2. 将中英文正文放到 `static/invest/research/*.md`，并在 `markdownFiles` 中映射
 
+## 双语报告约定（必须执行）
+
+- `markdownFiles.zh` 和 `markdownFiles.en` 必须同时存在，且是两个不同的 `.md` 文件。
+- 两个语言版本都必须是完整正文，不接受“卡片中文 + 详情英文摘要”这种拆分。
+- 建议命名：
+  - 中文：`<公司中文名>_深度研究报告_<YYYY-MM>.md`
+  - 英文：`<Company>_Deep_Research_Report_<YYYY-MM>.md`
+- 两个版本需要保持同一章节结构与关键数据口径一致。
+- 详情页支持 `?lang=zh|en`，默认 `zh`。
+- 更新任一语种时，需要同次提交更新另一个语种与 `lastUpdate`。
+
 ## 注意事项
 
 - 首页数据以 `reports.json` 为准，`app.js` 不再硬编码报告列表。
