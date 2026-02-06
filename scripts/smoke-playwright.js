@@ -46,6 +46,24 @@ async function testResearch(page) {
     const tocItems = await page.locator("#tableOfContents li").count();
     assert(tocItems > 0, "report detail should generate TOC");
 
+    const zhButton = page.locator(".lang-btn[data-lang='zh']");
+    const enButton = page.locator(".lang-btn[data-lang='en']");
+    assert(await zhButton.count() === 1, "report detail should render zh language button");
+    assert(await enButton.count() === 1, "report detail should render en language button");
+
+    await enButton.click();
+    await page.waitForTimeout(300);
+    assert(page.url().includes("lang=en"), "language switch should update query to lang=en");
+    const englishContent = await page.locator("#markdownContent").innerText();
+    assert(
+        englishContent.includes("Executive Summary") || englishContent.includes("Investment"),
+        "english report content should be rendered after switching to en"
+    );
+
+    await zhButton.click();
+    await page.waitForTimeout(300);
+    assert(page.url().includes("lang=zh"), "language switch should update query to lang=zh");
+
     await page.goto(`${baseUrl}/research/`, { waitUntil: "domcontentloaded" });
     await page.waitForURL("**/invest/research/");
 }

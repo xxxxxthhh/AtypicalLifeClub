@@ -23,7 +23,7 @@ REQUIRED_FIELDS = [
     "date",
     "lastUpdate",
     "file",
-    "markdownFile"
+    "markdownFiles"
 ]
 
 
@@ -100,19 +100,30 @@ def main():
                 f"report[{idx}].file should be {expected_url}, got: {file_url}"
             )
 
-        markdown_url = report["markdownFile"]
-        ensure_non_empty_string(markdown_url, f"report[{idx}].markdownFile")
-        if not markdown_url.startswith("/invest/research/"):
-            fail(
-                f"report[{idx}].markdownFile should start with /invest/research/: {markdown_url}"
-            )
+        if "titleEn" in report:
+            ensure_non_empty_string(report["titleEn"], f"report[{idx}].titleEn")
 
-        markdown_rel = markdown_url.replace("/invest/research/", "", 1)
-        markdown_file = ROOT / markdown_rel
-        if not markdown_file.exists():
-            fail(
-                f"report[{idx}] markdown file not found: {markdown_file}"
-            )
+        markdown_files = report["markdownFiles"]
+        if not isinstance(markdown_files, dict):
+            fail(f"report[{idx}].markdownFiles must be an object")
+
+        for lang in ("zh", "en"):
+            if lang not in markdown_files:
+                fail(f"report[{idx}].markdownFiles missing language: {lang}")
+
+            markdown_url = markdown_files[lang]
+            ensure_non_empty_string(markdown_url, f"report[{idx}].markdownFiles.{lang}")
+            if not markdown_url.startswith("/invest/research/"):
+                fail(
+                    f"report[{idx}].markdownFiles.{lang} should start with /invest/research/: {markdown_url}"
+                )
+
+            markdown_rel = markdown_url.replace("/invest/research/", "", 1)
+            markdown_file = ROOT / markdown_rel
+            if not markdown_file.exists():
+                fail(
+                    f"report[{idx}] markdown file not found for {lang}: {markdown_file}"
+                )
 
     print(f"OK: validated {len(reports)} reports in {REPORTS_JSON}")
 

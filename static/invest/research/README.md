@@ -32,17 +32,19 @@ static/invest/research/
    - `company`
    - `ticker`
    - `title`
+   - `titleEn`
    - `summary`
    - `category`
    - `date`
    - `lastUpdate`
    - `file`（固定为 `/invest/research/reports/view.html?id=<id>`）
-   - `markdownFile`（如 `/invest/research/<your_report>.md`）
+   - `markdownFiles`（如 `{ "zh": "/invest/research/<zh_report>.md", "en": "/invest/research/<en_report>.md" }`）
    - `tags` / `highlights`
-2. 将正文放到 `static/invest/research/<your_report>.md`
+2. 将中英文正文放到 `static/invest/research/*.md`，并在 `markdownFiles` 中映射
 
 ## 注意事项
 
 - 首页数据以 `reports.json` 为准，`app.js` 不再硬编码报告列表。
+- 详情页顶部支持 `中文 / EN` 切换，默认优先加载中文版本。
 - 主题切换由共享脚本 `/shared/theme-switcher.js` 提供。
 - 研究中心内容仅供个人研究记录，不构成投资建议。

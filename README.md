@@ -92,9 +92,9 @@ cover:
    文件位置：`static/invest/research/*.md`
 2. 更新首页卡片元数据  
    文件位置：`static/invest/research/data/reports.json`  
-   字段至少包括：`id`、`company`、`ticker`、`title`、`summary`、`category`、`date`、`lastUpdate`、`file`、`markdownFile`、`tags`
+   字段至少包括：`id`、`company`、`ticker`、`title`、`titleEn`、`summary`、`category`、`date`、`lastUpdate`、`file`、`markdownFiles`、`tags`
    - `file` 统一写：`/invest/research/reports/view.html?id=<id>`
-   - `markdownFile` 统一写：`/invest/research/<your-report>.md`
+   - `markdownFiles` 统一写：`{ "zh": "/invest/research/<zh-report>.md", "en": "/invest/research/<en-report>.md" }`
 3. 本地验证  
    ```bash
    python3 static/invest/research/validate_reports.py
@@ -103,6 +103,7 @@ cover:
    检查：
    - `http://localhost:1313/invest/research/` 卡片和筛选是否正常
    - 新报告详情页是否可打开并正确渲染
+   - 详情页顶部中/英切换按钮可切换内容
 4. 提交并推送
 
 ### B. 更新汇率模块（手动）

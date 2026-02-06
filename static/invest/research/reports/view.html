@@ -35,6 +35,10 @@
         <article class="report-panel">
             <header class="report-hero">
                 <div class="report-badge">个人研究笔记</div>
+                <div class="language-switch" id="languageSwitch">
+                    <button class="lang-btn" data-lang="zh">中文</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
                 <h1 id="heroTitle">加载中...</h1>
                 <h2 id="heroSubtitle"></h2>
                 <div class="report-meta-info" id="heroMeta"></div>
@@ -45,6 +49,9 @@
 
     <script>
         const REPORTS_DATA_URL = '/invest/research/data/reports.json';
+        const SUPPORTED_LANGS = ['zh', 'en'];
+        let currentReport = null;
+        let currentLang = 'zh';
 
         document.addEventListener('DOMContentLoaded', async () => {
             await loadReport();
@@ -52,7 +59,9 @@
 
         async function loadReport() {
             try {
-                const reportId = new URLSearchParams(window.location.search).get('id');
+                const params = new URLSearchParams(window.location.search);
+                const reportId = params.get('id');
+                const requestedLang = params.get('lang');
                 if (!reportId) {
                     throw new Error('缺少报告 id 参数');
                 }
@@ -68,33 +77,14 @@
                 if (!report) {
                     throw new Error(`未找到报告: ${reportId}`);
                 }
-
-                if (!report.markdownFile) {
-                    throw new Error(`报告缺少 markdownFile 字段: ${reportId}`);
+                if (!report.markdownFiles || typeof report.markdownFiles !== 'object') {
+                    throw new Error(`报告缺少 markdownFiles 字段: ${reportId}`);
                 }
 
-                document.title = `${report.title || '研究报告'} | Invest`;
-                renderHero(report);
-
-                const markdownResponse = await fetch(report.markdownFile, { cache: 'no-store' });
-                if (!markdownResponse.ok) {
-                    throw new Error(`加载 Markdown 失败: HTTP ${markdownResponse.status}`);
-                }
-
-                let markdown = await markdownResponse.text();
-                if (report.stripLeadingH1 !== false) {
-                    markdown = markdown.replace(/^# .*\n+/, '');
-                }
-
-                marked.setOptions({
-                    breaks: true,
-                    gfm: true
-                });
-
-                const html = marked.parse(markdown);
-                document.getElementById('markdownContent').innerHTML = html;
-                generateTOC();
-                addSmoothScrolling();
+                currentReport = report;
+                currentLang = chooseLanguage(requestedLang, report.markdownFiles);
+                bindLanguageSwitch();
+                await renderReport();
             } catch (error) {
                 console.error('Error loading report:', error);
                 document.getElementById('heroTitle').textContent = '报告加载失败';
@@ -105,21 +95,103 @@
             }
         }
 
-        function renderHero(report) {
+        function chooseLanguage(requestedLang, markdownFiles) {
+            if (SUPPORTED_LANGS.includes(requestedLang) && markdownFiles[requestedLang]) {
+                return requestedLang;
+            }
+            if (markdownFiles.zh) return 'zh';
+            if (markdownFiles.en) return 'en';
+            return 'zh';
+        }
+
+        function bindLanguageSwitch() {
+            const root = document.getElementById('languageSwitch');
+            if (!root) return;
+            root.querySelectorAll('.lang-btn').forEach((button) => {
+                button.addEventListener('click', async () => {
+                    const targetLang = button.dataset.lang;
+                    if (!SUPPORTED_LANGS.includes(targetLang) || targetLang === currentLang) {
+                        return;
+                    }
+                    currentLang = targetLang;
+                    await renderReport();
+                });
+            });
+        }
+
+        async function renderReport() {
+            const report = currentReport;
+            const markdownFile = report.markdownFiles[currentLang];
+            if (!markdownFile) {
+                throw new Error(`未配置 ${currentLang} 版本内容`);
+            }
+
+            syncQuery();
+            renderHero(report, currentLang);
+            renderLanguageSwitch(report, currentLang);
+
+            const markdownResponse = await fetch(markdownFile, { cache: 'no-store' });
+            if (!markdownResponse.ok) {
+                throw new Error(`加载 Markdown 失败: HTTP ${markdownResponse.status}`);
+            }
+
+            let markdown = await markdownResponse.text();
+            if (report.stripLeadingH1 !== false) {
+                markdown = markdown.replace(/^# .*\n+/, '');
+            }
+
+            marked.setOptions({
+                breaks: true,
+                gfm: true
+            });
+
+            const html = marked.parse(markdown);
+            document.getElementById('markdownContent').innerHTML = html;
+            generateTOC();
+            addSmoothScrolling();
+        }
+
+        function syncQuery() {
+            const params = new URLSearchParams(window.location.search);
+            params.set('id', currentReport.id);
+            params.set('lang', currentLang);
+            const nextUrl = `${window.location.pathname}?${params.toString()}`;
+            window.history.replaceState({}, '', nextUrl);
+        }
+
+        function renderHero(report, lang) {
             const heroTitle = document.getElementById('heroTitle');
             const heroSubtitle = document.getElementById('heroSubtitle');
             const heroMeta = document.getElementById('heroMeta');
 
-            heroTitle.textContent = report.title || report.company || '研究报告';
+            const title = lang === 'en'
+                ? (report.titleEn || report.title || report.company)
+                : (report.title || report.titleZh || report.company);
+            heroTitle.textContent = title || '研究报告';
             heroSubtitle.textContent = report.company || '';
+            document.title = `${title || 'Research Report'} | Invest`;
 
+            const labels = lang === 'en'
+                ? { date: 'Date', ticker: 'Ticker', update: 'Updated' }
+                : { date: '报告日期', ticker: '标的', update: '更新' };
             const metaItems = [
-                report.date ? `报告日期 ${report.date}` : null,
-                report.ticker ? `标的 ${report.ticker}` : null,
-                report.lastUpdate ? `更新 ${report.lastUpdate}` : null
+                report.date ? `${labels.date} ${report.date}` : null,
+                report.ticker ? `${labels.ticker} ${report.ticker}` : null,
+                report.lastUpdate ? `${labels.update} ${report.lastUpdate}` : null
             ].filter(Boolean);
 
             heroMeta.innerHTML = metaItems.map((item) => `<span>${item}</span>`).join('');
+        }
+
+        function renderLanguageSwitch(report, lang) {
+            const root = document.getElementById('languageSwitch');
+            if (!root) return;
+            root.querySelectorAll('.lang-btn').forEach((button) => {
+                const buttonLang = button.dataset.lang;
+                const available = !!(report.markdownFiles && report.markdownFiles[buttonLang]);
+                button.disabled = !available;
+                button.classList.toggle('active', buttonLang === lang);
+            });
         }
 
         function generateTOC() {
