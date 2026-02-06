@@ -24,6 +24,11 @@ jobs:
           cd static/currency
           python3 update_real_data.py
 
+      - name: Validate currency data file
+        run: |
+          cd static/currency
+          python3 validate_data.py
+
       - name: Commit and push if changed
         run: |
           git config --global user.name 'GitHub Actions Bot'

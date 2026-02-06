@@ -160,6 +160,7 @@ def main():
     output_data = {
         'metadata': {
             'base_currency': BASE_CURRENCY.upper(),
+            'base': BASE_CURRENCY.upper(),
             'currencies': [c.upper() for c in CURRENCIES],
             'total_days': len(historical_data),
             'start_date': historical_data[0]['date'] if historical_data else None,

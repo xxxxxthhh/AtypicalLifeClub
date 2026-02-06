@@ -34,6 +34,7 @@ def fetch_rate_for_date(date_str):
             if len(rates) == len(CURRENCIES):
                 return {
                     'date': date_str,
+                    'base': 'USD',
                     'rates': rates
                 }
             else:
@@ -109,6 +110,7 @@ def main():
     # Build final JSON structure
     output = {
         'metadata': {
+            'base_currency': 'USD',
             'base': 'USD',
             'currencies': CURRENCIES,
             'start_date': start_date.strftime('%Y-%m-%d'),
