@@ -59,7 +59,12 @@ cover:
 │   ├── archives.md     # 归档页面
 │   └── search.md       # 搜索页面
 ├── static/
-│   └── images/         # 静态图片资源
+│   ├── images/         # 静态图片资源
+│   ├── research/       # 研究中心（/research/）
+│   ├── currency/       # 汇率看板（/currency/）
+│   └── shared/         # 跨模块共享脚本
+├── .github/workflows/
+│   └── update-currency-data.yml # 汇率数据自动更新
 ├── themes/
 │   └── PaperMod/       # 主题（作为 Git submodule）
 ├── hugo.toml           # Hugo 配置文件
