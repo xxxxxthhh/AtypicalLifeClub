@@ -8,10 +8,12 @@ import urllib.request
 import json
 import time
 from datetime import datetime, timedelta
+from pathlib import Path
 
 # Configuration
 CURRENCIES = ['CNY', 'SGD', 'JPY', 'AUD']
-OUTPUT_FILE = 'data/historical.json'
+ROOT = Path(__file__).resolve().parent
+OUTPUT_FILE = ROOT / 'data' / 'historical.json'
 DAYS_TO_FETCH = 730  # 2 years of data
 
 def fetch_rate_for_date(date_str):
@@ -124,7 +126,8 @@ def main():
 
     # Save to file
     print(f"\n💾 Saving to {OUTPUT_FILE}...")
-    with open(OUTPUT_FILE, 'w') as f:
+    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(output, f, indent=2)
 
     print(f"✅ Done! Saved {len(historical_data)} days of historical data")

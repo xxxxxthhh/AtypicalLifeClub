@@ -8,11 +8,13 @@
 import json
 import statistics
 from datetime import datetime
+from pathlib import Path
 
 # 配置
 ALERT_THRESHOLD_SIGMA = 2.0  # 红色预警阈值
 WARNING_THRESHOLD_SIGMA = 1.5  # 黄色预警阈值
-DATA_FILE = 'data/historical.json'
+ROOT = Path(__file__).resolve().parent
+DATA_FILE = ROOT / 'data' / 'historical.json'
 
 def load_data():
     """加载历史数据"""

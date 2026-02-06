@@ -7,8 +7,10 @@ Validate currency data file shape and basic integrity constraints.
 import json
 import sys
 from datetime import datetime
+from pathlib import Path
 
-DATA_FILE = "data/historical.json"
+ROOT = Path(__file__).resolve().parent
+DATA_FILE = ROOT / "data" / "historical.json"
 EXPECTED_CURRENCIES = ["CNY", "SGD", "JPY", "AUD"]
 
 
@@ -32,6 +34,9 @@ def assert_numeric(value, field_name):
 
 
 def main():
+    if not DATA_FILE.exists():
+        fail(f"找不到数据文件: {DATA_FILE}")
+
     with open(DATA_FILE, "r", encoding="utf-8") as file:
         data = json.load(file)
 

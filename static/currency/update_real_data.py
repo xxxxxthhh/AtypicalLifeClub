@@ -6,12 +6,13 @@ Uses the same source family as historical bootstrap script (fawazahmed0 API).
 """
 
 import json
-import os
 import urllib.request
 from datetime import datetime
+from pathlib import Path
 
 API_URL = "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json"
-DATA_FILE = "data/historical.json"
+ROOT = Path(__file__).resolve().parent
+DATA_FILE = ROOT / "data" / "historical.json"
 CURRENCIES = ["CNY", "SGD", "JPY", "AUD"]
 BASE_CURRENCY = "USD"
 
@@ -47,7 +48,7 @@ def fetch_current_rates():
 
 def load_historical_data():
     """Load existing historical dataset."""
-    if not os.path.exists(DATA_FILE):
+    if not DATA_FILE.exists():
         return None
 
     try:
@@ -61,7 +62,7 @@ def load_historical_data():
 def save_data(data):
     """Persist dataset."""
     try:
-        os.makedirs(os.path.dirname(DATA_FILE), exist_ok=True)
+        DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
         with open(DATA_FILE, "w", encoding="utf-8") as file:
             json.dump(data, file, ensure_ascii=False, indent=2)
         return True

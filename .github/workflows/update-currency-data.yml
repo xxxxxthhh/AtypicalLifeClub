@@ -20,14 +20,10 @@ jobs:
           python-version: '3.10'
 
       - name: Fetch latest currency data
-        run: |
-          cd static/currency
-          python3 update_real_data.py
+        run: python3 static/currency/update_real_data.py
 
       - name: Validate currency data file
-        run: |
-          cd static/currency
-          python3 validate_data.py
+        run: python3 static/currency/validate_data.py
 
       - name: Commit and push if changed
         run: |

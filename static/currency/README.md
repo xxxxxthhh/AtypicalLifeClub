@@ -33,8 +33,8 @@ hugo server -D
 GitHub Actions：`.github/workflows/update-currency-data.yml`
 
 流程：
-1. 执行 `python3 update_real_data.py`
-2. 执行 `python3 validate_data.py`
+1. 执行 `python3 static/currency/update_real_data.py`
+2. 执行 `python3 static/currency/validate_data.py`
 3. 仅当 `data/historical.json` 有变化时自动提交
 
 默认每天 UTC `00:00` 运行（北京时间 `08:00`），也支持手动触发。
@@ -42,17 +42,15 @@ GitHub Actions：`.github/workflows/update-currency-data.yml`
 ### 手动更新
 
 ```bash
-cd static/currency
-python3 update_real_data.py
-python3 validate_data.py
+python3 static/currency/update_real_data.py
+python3 static/currency/validate_data.py
 ```
 
 ## 首次初始化或重建历史数据
 
 ```bash
-cd static/currency
-python3 fetch_historical_data.py
-python3 validate_data.py
+python3 static/currency/fetch_historical_data.py
+python3 static/currency/validate_data.py
 ```
 
 ## 数据源与 schema
