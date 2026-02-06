@@ -85,27 +85,26 @@ cover:
 
 1. 新增或更新 Markdown 正文  
    文件位置：`static/research/*.md`
-2. 新增或更新详情页壳  
-   文件位置：`static/research/reports/<report-id>.html`  
-   要求：详情页里 `fetch('/research/xxx.md')` 路径必须指向正确 Markdown 文件
-3. 更新首页卡片元数据  
+2. 更新首页卡片元数据  
    文件位置：`static/research/data/reports.json`  
-   字段至少包括：`id`、`company`、`ticker`、`title`、`summary`、`category`、`date`、`lastUpdate`、`file`、`tags`
-4. 本地验证  
+   字段至少包括：`id`、`company`、`ticker`、`title`、`summary`、`category`、`date`、`lastUpdate`、`file`、`markdownFile`、`tags`
+   - `file` 统一写：`/research/reports/view.html?id=<id>`
+   - `markdownFile` 统一写：`/research/<your-report>.md`
+3. 本地验证  
    ```bash
+   python3 static/research/validate_reports.py
    hugo server -D
    ```
    检查：
    - `http://localhost:1313/research/` 卡片和筛选是否正常
    - 新报告详情页是否可打开并正确渲染
-5. 提交并推送
+4. 提交并推送
 
 ### B. 更新汇率模块（手动）
 
 ```bash
-cd static/currency
-python3 update_real_data.py
-python3 validate_data.py
+python3 static/currency/update_real_data.py
+python3 static/currency/validate_data.py
 ```
 
 - `update_real_data.py`：拉取最新数据并按日期 upsert 到 `data/historical.json`
@@ -122,6 +121,21 @@ python3 validate_data.py
 - 主题切换统一使用：`/shared/theme-switcher.js`
 - 不要再复制新的 `theme-switcher.js` 到业务目录
 - 静态子应用资源路径统一使用绝对路径（如 `/research/...`、`/currency/...`）
+
+### E. 本地质量检查（提交前）
+
+```bash
+# 研究中心元数据校验
+python3 static/research/validate_reports.py
+
+# 汇率数据校验
+python3 static/currency/validate_data.py
+
+# 前端冒烟（需先启动 hugo server -D）
+npm install --no-save playwright
+npx playwright install chromium
+node scripts/smoke-playwright.js
+```
 
 ## ☁️ 部署到 Cloudflare Pages
 

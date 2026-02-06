@@ -1,0 +1,60 @@
+name: CI Smoke Checks
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  validate-and-smoke:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.154.2"
+          extended: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Validate research metadata
+        run: python3 static/research/validate_reports.py
+
+      - name: Validate currency data
+        run: python3 static/currency/validate_data.py
+
+      - name: Hugo build check
+        run: hugo --minify
+
+      - name: Install Playwright runtime
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+
+      - name: Run Playwright smoke test
+        run: |
+          hugo server -D --bind 127.0.0.1 --port 1313 >/tmp/hugo.log 2>&1 &
+          HUGO_PID=$!
+          trap 'kill $HUGO_PID 2>/dev/null || true; wait $HUGO_PID 2>/dev/null || true' EXIT
+
+          for i in {1..40}; do
+            if curl -fsS http://127.0.0.1:1313/ >/dev/null; then
+              break
+            fi
+            sleep 1
+          done
+
+          node scripts/smoke-playwright.js
