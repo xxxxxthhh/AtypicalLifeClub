@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 // 加载数据
 async function loadData() {
     try {
-        const response = await fetch('/currency/data/historical.json');
+        const response = await fetch('/invest/currency/data/historical.json');
         if (!response.ok) {
             throw new Error('数据加载失败');
         }

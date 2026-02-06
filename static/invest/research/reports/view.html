@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>研究报告</title>
+    <link rel="stylesheet" href="/invest/theme-adapter.css">
+    <link rel="stylesheet" href="/invest/styles.css">
+    <link rel="stylesheet" href="/invest/research/report-style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <header class="shell-header">
+        <div class="shell-header-inner">
+            <div class="shell-brand">
+                <span class="shell-brand-title">Invest / Research</span>
+                <span class="shell-brand-subtitle">Report Detail</span>
+            </div>
+            <nav class="shell-nav">
+                <a href="/">返回 Blog</a>
+                <a href="/invest/">Invest</a>
+                <a href="/invest/research/" class="active">Research</a>
+                <a href="/invest/currency/">Currency</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="shell report-layout">
+        <aside class="toc-panel">
+            <div class="toc-header">目录</div>
+            <nav id="tableOfContents"></nav>
+            <button class="button" onclick="window.print()">打印报告</button>
+        </aside>
+
+        <article class="report-panel">
+            <header class="report-hero">
+                <div class="report-badge">个人研究笔记</div>
+                <h1 id="heroTitle">加载中...</h1>
+                <h2 id="heroSubtitle"></h2>
+                <div class="report-meta-info" id="heroMeta"></div>
+            </header>
+            <div id="markdownContent"></div>
+        </article>
+    </main>
+
+    <script>
+        const REPORTS_DATA_URL = '/invest/research/data/reports.json';
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            await loadReport();
+        });
+
+        async function loadReport() {
+            try {
+                const reportId = new URLSearchParams(window.location.search).get('id');
+                if (!reportId) {
+                    throw new Error('缺少报告 id 参数');
+                }
+
+                const reportsResponse = await fetch(REPORTS_DATA_URL, { cache: 'no-store' });
+                if (!reportsResponse.ok) {
+                    throw new Error(`加载 reports.json 失败: HTTP ${reportsResponse.status}`);
+                }
+
+                const reports = await reportsResponse.json();
+                const report = reports.find((item) => item.id === reportId);
+
+                if (!report) {
+                    throw new Error(`未找到报告: ${reportId}`);
+                }
+
+                if (!report.markdownFile) {
+                    throw new Error(`报告缺少 markdownFile 字段: ${reportId}`);
+                }
+
+                document.title = `${report.title || '研究报告'} | Invest`;
+                renderHero(report);
+
+                const markdownResponse = await fetch(report.markdownFile, { cache: 'no-store' });
+                if (!markdownResponse.ok) {
+                    throw new Error(`加载 Markdown 失败: HTTP ${markdownResponse.status}`);
+                }
+
+                let markdown = await markdownResponse.text();
+                if (report.stripLeadingH1 !== false) {
+                    markdown = markdown.replace(/^# .*\n+/, '');
+                }
+
+                marked.setOptions({
+                    breaks: true,
+                    gfm: true
+                });
+
+                const html = marked.parse(markdown);
+                document.getElementById('markdownContent').innerHTML = html;
+                generateTOC();
+                addSmoothScrolling();
+            } catch (error) {
+                console.error('Error loading report:', error);
+                document.getElementById('heroTitle').textContent = '报告加载失败';
+                document.getElementById('heroSubtitle').textContent = '';
+                document.getElementById('heroMeta').innerHTML = '';
+                document.getElementById('markdownContent').innerHTML =
+                    `<p style="color: #d43f3a;">${escapeHtml(error.message)}。请返回<a href="/invest/research/">研报中心</a>重试。</p>`;
+            }
+        }
+
+        function renderHero(report) {
+            const heroTitle = document.getElementById('heroTitle');
+            const heroSubtitle = document.getElementById('heroSubtitle');
+            const heroMeta = document.getElementById('heroMeta');
+
+            heroTitle.textContent = report.title || report.company || '研究报告';
+            heroSubtitle.textContent = report.company || '';
+
+            const metaItems = [
+                report.date ? `报告日期 ${report.date}` : null,
+                report.ticker ? `标的 ${report.ticker}` : null,
+                report.lastUpdate ? `更新 ${report.lastUpdate}` : null
+            ].filter(Boolean);
+
+            heroMeta.innerHTML = metaItems.map((item) => `<span>${item}</span>`).join('');
+        }
+
+        function generateTOC() {
+            const content = document.getElementById('markdownContent');
+            const headings = content.querySelectorAll('h2, h3');
+            const toc = document.getElementById('tableOfContents');
+
+            if (!headings.length) {
+                toc.innerHTML = '<p class="toc-empty">无可用目录</p>';
+                return;
+            }
+
+            let tocHTML = '<ul>';
+            headings.forEach((heading, index) => {
+                const id = `section-${index}`;
+                heading.id = id;
+                const level = heading.tagName === 'H2' ? 'toc-level-1' : 'toc-level-2';
+                tocHTML += `<li class="${level}"><a href="#${id}">${escapeHtml(heading.textContent)}</a></li>`;
+            });
+            tocHTML += '</ul>';
+            toc.innerHTML = tocHTML;
+        }
+
+        function addSmoothScrolling() {
+            document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+                anchor.addEventListener('click', function (event) {
+                    event.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        }
+
+        function escapeHtml(value) {
+            return String(value)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+    </script>
+    <script src="/shared/theme-switcher.js"></script>
+</body>
+</html>

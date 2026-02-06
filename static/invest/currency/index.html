@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invest Currency | Atypical Life Club</title>
+    <link rel="stylesheet" href="/invest/theme-adapter.css">
+    <link rel="stylesheet" href="/invest/styles.css">
+    <link rel="stylesheet" href="/invest/currency/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <header class="shell-header">
+        <div class="shell-header-inner">
+            <div class="shell-brand">
+                <span class="shell-brand-title">Invest / Currency</span>
+                <span class="shell-brand-subtitle">FX Tracking & Deviation Monitor</span>
+            </div>
+            <nav class="shell-nav">
+                <a href="/">返回 Blog</a>
+                <a href="/invest/">Invest</a>
+                <a href="/invest/research/">Research</a>
+                <a href="/invest/currency/" class="active">Currency</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="shell">
+        <section class="hero currency-hero">
+            <h1 class="hero-title">汇率追踪</h1>
+            <p class="hero-subtitle">跟踪关键货币对走势、偏离区间和阶段波动，数据由 Action 自动日更。</p>
+        </section>
+
+        <section class="section currency-section">
+            <h2>核心监控卡片</h2>
+            <p>自动展示当前基准货币下的全部对手货币表现。</p>
+            <div class="stats-grid"></div>
+        </section>
+
+        <section class="section currency-section">
+            <h2>参数与图表</h2>
+            <p>切换基准货币、目标货币和时间窗口，图表会同步更新。</p>
+            <div class="controls">
+                <label>
+                    基础货币
+                    <select id="base-currency-select">
+                        <option value="USD">USD (美元)</option>
+                        <option value="CNY">CNY (人民币)</option>
+                        <option value="SGD" selected>SGD (新加坡元)</option>
+                        <option value="JPY">JPY (日元)</option>
+                        <option value="AUD">AUD (澳元)</option>
+                    </select>
+                </label>
+                <label>
+                    目标货币
+                    <select id="currency-select">
+                        <option value="CNY">CNY (人民币)</option>
+                        <option value="SGD">SGD (新加坡元)</option>
+                        <option value="JPY">JPY (日元)</option>
+                        <option value="AUD">AUD (澳元)</option>
+                    </select>
+                </label>
+                <label>
+                    时间范围
+                    <select id="timerange-select">
+                        <option value="30">30天</option>
+                        <option value="90">90天</option>
+                        <option value="180">180天</option>
+                        <option value="365" selected>1年</option>
+                        <option value="730">2年</option>
+                    </select>
+                </label>
+            </div>
+            <div class="chart-container">
+                <canvas id="mainChart"></canvas>
+            </div>
+        </section>
+
+        <section class="section currency-section">
+            <h2>统计摘要</h2>
+            <p>当前货币对的区间统计与偏离参考。</p>
+            <div id="statistics"></div>
+            <div class="currency-footer">
+                <p>最后更新：<span id="last-update">--</span></p>
+                <p>数据来源：fawazahmed0 Currency API</p>
+                <p>仅供个人研究，不构成投资建议。</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="/shared/theme-switcher.js"></script>
+    <script src="/invest/currency/js/main.js"></script>
+</body>
+</html>

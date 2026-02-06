@@ -1,0 +1,143 @@
+.currency-hero {
+    background: linear-gradient(140deg, color-mix(in srgb, var(--entry) 88%, var(--surface-3)), color-mix(in srgb, var(--entry) 90%, var(--surface-2)));
+}
+
+.currency-section + .currency-section {
+    margin-top: 1rem;
+}
+
+.stats-grid {
+    margin-top: 0.85rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.75rem;
+}
+
+.stat-card {
+    border: 1px solid var(--border);
+    border-radius: 11px;
+    background: var(--entry);
+    padding: 0.85rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px -20px color-mix(in srgb, var(--accent) 65%, transparent);
+}
+
+.stat-card.warning {
+    border-color: color-mix(in srgb, #f0ad4e 45%, var(--border));
+    background: color-mix(in srgb, var(--entry) 88%, rgba(240, 173, 78, 0.2));
+}
+
+.stat-card.alert {
+    border-color: color-mix(in srgb, #dc3545 45%, var(--border));
+    background: color-mix(in srgb, var(--entry) 86%, rgba(220, 53, 69, 0.2));
+}
+
+.stat-label {
+    font-size: 0.8rem;
+    color: var(--secondary);
+}
+
+.stat-value {
+    margin-top: 0.28rem;
+    font-size: 1.32rem;
+    font-weight: 700;
+}
+
+.stat-change,
+.stat-deviation {
+    font-size: 0.8rem;
+    color: var(--secondary);
+}
+
+.stat-deviation {
+    margin-top: 0.25rem;
+}
+
+.controls {
+    margin-top: 0.8rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.7rem;
+}
+
+.controls label {
+    display: grid;
+    gap: 0.33rem;
+    color: var(--secondary);
+    font-size: 0.83rem;
+}
+
+.controls select {
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    background: var(--entry);
+    color: var(--primary);
+    padding: 0.42rem 0.52rem;
+    font-size: 0.9rem;
+}
+
+.controls select:focus {
+    outline: 2px solid var(--accent-soft);
+    outline-offset: 1px;
+    border-color: var(--accent);
+}
+
+.chart-container {
+    margin-top: 0.95rem;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: color-mix(in srgb, var(--entry) 93%, var(--surface-2));
+    padding: 0.85rem;
+    overflow-x: auto;
+}
+
+.chart-container canvas {
+    min-height: 260px;
+}
+
+#statistics {
+    margin-top: 0.85rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.7rem;
+}
+
+#statistics .stat-item {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--entry);
+    padding: 0.7rem;
+}
+
+.stat-item-label {
+    color: var(--secondary);
+    font-size: 0.77rem;
+}
+
+.stat-item-value {
+    margin-top: 0.23rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.currency-footer {
+    margin-top: 0.85rem;
+    color: var(--secondary);
+    font-size: 0.8rem;
+    display: grid;
+    gap: 0.2rem;
+}
+
+.currency-footer p {
+    margin: 0;
+}
+
+@media (max-width: 760px) {
+    .chart-container canvas {
+        min-height: 230px;
+    }
+}

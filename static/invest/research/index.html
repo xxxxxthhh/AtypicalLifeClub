@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invest Research | Atypical Life Club</title>
+    <link rel="stylesheet" href="/invest/theme-adapter.css">
+    <link rel="stylesheet" href="/invest/styles.css">
+    <link rel="stylesheet" href="/invest/research/styles.css">
+</head>
+<body>
+    <header class="shell-header">
+        <div class="shell-header-inner">
+            <div class="shell-brand">
+                <span class="shell-brand-title">Invest / Research</span>
+                <span class="shell-brand-subtitle">Company Notes & Deep Dives</span>
+            </div>
+            <nav class="shell-nav">
+                <a href="/">返回 Blog</a>
+                <a href="/invest/">Invest</a>
+                <a href="/invest/research/" class="active">Research</a>
+                <a href="/invest/currency/">Currency</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="shell">
+        <section class="hero research-hero">
+            <h1 class="hero-title">研报中心</h1>
+            <p class="hero-subtitle">统一展示公司研究，按主题筛选，详情页采用统一模板渲染 Markdown。</p>
+            <div class="stat-grid">
+                <div class="stat-card">
+                    <div class="stat-label">研报数量</div>
+                    <div class="stat-value" id="reportCount">--</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">覆盖公司</div>
+                    <div class="stat-value" id="companyCount">--</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">最近更新</div>
+                    <div class="stat-value" id="updateDate">--</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="research-header-row">
+                <h2>报告列表</h2>
+                <div class="filter-buttons" role="tablist" aria-label="研报分类筛选">
+                    <button class="filter-btn active" data-filter="all">全部</button>
+                    <button class="filter-btn" data-filter="nuclear">核能</button>
+                    <button class="filter-btn" data-filter="tech">科技</button>
+                    <button class="filter-btn" data-filter="energy">能源</button>
+                </div>
+            </div>
+            <div class="reports-grid" id="reportsGrid"></div>
+        </section>
+    </main>
+
+    <script src="/shared/theme-switcher.js"></script>
+    <script src="/invest/research/app.js"></script>
+</body>
+</html>

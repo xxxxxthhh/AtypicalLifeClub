@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invest | Atypical Life Club</title>
+    <link rel="stylesheet" href="/invest/theme-adapter.css">
+    <link rel="stylesheet" href="/invest/styles.css">
+</head>
+<body>
+    <header class="shell-header">
+        <div class="shell-header-inner">
+            <div class="shell-brand">
+                <span class="shell-brand-title">Invest</span>
+                <span class="shell-brand-subtitle">Research + Tracking Workspace</span>
+            </div>
+            <nav class="shell-nav">
+                <a href="/">返回 Blog</a>
+                <a href="/invest/" class="active">Invest</a>
+                <a href="/invest/research/">Research</a>
+                <a href="/invest/currency/">Currency</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="shell">
+        <section class="hero">
+            <h1 class="hero-title">统一投资工作台</h1>
+            <p class="hero-subtitle">把研报、汇率和后续追踪模块收敛到一个入口，统一信息架构和交互风格。</p>
+            <div class="stat-grid">
+                <div class="stat-card">
+                    <div class="stat-label">研报总数</div>
+                    <div class="stat-value" id="reportCount">--</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">覆盖标的</div>
+                    <div class="stat-value" id="coverageCount">--</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">汇率样本天数</div>
+                    <div class="stat-value" id="currencyDays">--</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">最近数据更新</div>
+                    <div class="stat-value" id="lastUpdated">--</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>当前模块</h2>
+            <p>先聚焦两条主线：公司研究与汇率跟踪。后续模块可继续以卡片形式扩展。</p>
+            <div class="module-grid">
+                <article class="module-card">
+                    <div class="module-head">
+                        <div class="module-title">Research</div>
+                        <span class="badge">已上线</span>
+                    </div>
+                    <p class="module-description">维护研报列表、标签筛选、统一详情模板和 TOC 阅读体验。</p>
+                    <div class="button-row">
+                        <a href="/invest/research/" class="button primary">进入 Research</a>
+                    </div>
+                </article>
+                <article class="module-card">
+                    <div class="module-head">
+                        <div class="module-title">Currency</div>
+                        <span class="badge">已上线</span>
+                    </div>
+                    <p class="module-description">追踪货币对走势、区间统计和标准差偏离，配合每日自动更新。</p>
+                    <div class="button-row">
+                        <a href="/invest/currency/" class="button primary">进入 Currency</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>规划中的扩展</h2>
+            <p>按同一视觉规范和模块壳继续并入，避免新页面风格割裂。</p>
+            <div class="roadmap-grid">
+                <article class="roadmap-item">
+                    <h3>贵金属追踪</h3>
+                    <p>金银价格、相对强弱和阶段区间统计。</p>
+                </article>
+                <article class="roadmap-item">
+                    <h3>组合观察台</h3>
+                    <p>同一屏里看核心持仓、风险暴露和事件日历。</p>
+                </article>
+                <article class="roadmap-item">
+                    <h3>小项目并入</h3>
+                    <p>以模块卡方式接入，不再独立维护多个入口。</p>
+                </article>
+            </div>
+            <p class="footer-note">仅为个人研究与记录，不构成投资建议。</p>
+        </section>
+    </main>
+
+    <script src="/shared/theme-switcher.js"></script>
+    <script src="/invest/app.js"></script>
+</body>
+</html>

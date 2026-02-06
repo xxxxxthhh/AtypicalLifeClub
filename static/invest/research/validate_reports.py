@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Validate static/research/data/reports.json schema and file references.
+Validate static/invest/research/data/reports.json schema and file references.
 """
 
 import json
@@ -94,7 +94,7 @@ def main():
 
         file_url = report["file"]
         ensure_non_empty_string(file_url, f"report[{idx}].file")
-        expected_url = f"/research/reports/view.html?id={report_id}"
+        expected_url = f"/invest/research/reports/view.html?id={report_id}"
         if file_url != expected_url:
             fail(
                 f"report[{idx}].file should be {expected_url}, got: {file_url}"
@@ -102,12 +102,12 @@ def main():
 
         markdown_url = report["markdownFile"]
         ensure_non_empty_string(markdown_url, f"report[{idx}].markdownFile")
-        if not markdown_url.startswith("/research/"):
+        if not markdown_url.startswith("/invest/research/"):
             fail(
-                f"report[{idx}].markdownFile should start with /research/: {markdown_url}"
+                f"report[{idx}].markdownFile should start with /invest/research/: {markdown_url}"
             )
 
-        markdown_rel = markdown_url.replace("/research/", "", 1)
+        markdown_rel = markdown_url.replace("/invest/research/", "", 1)
         markdown_file = ROOT / markdown_rel
         if not markdown_file.exists():
             fail(

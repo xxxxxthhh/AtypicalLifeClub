@@ -1,5 +1,12 @@
 let reports = [];
-const REPORTS_DATA_URL = '/research/data/reports.json';
+const REPORTS_DATA_URL = '/invest/research/data/reports.json';
+
+const CATEGORY_LABELS = {
+    all: '全部',
+    nuclear: '核能',
+    tech: '科技',
+    energy: '能源'
+};
 
 document.addEventListener('DOMContentLoaded', async () => {
     await loadReportsData();
@@ -39,44 +46,43 @@ function loadReports(filter = 'all') {
         return;
     }
 
-    grid.innerHTML = filteredReports.map((report) => `
-        <div class="report-card" onclick="window.location.href='${report.file}'">
-            <div class="report-header">
-                <div class="report-company">${report.company} ${report.ticker}</div>
-                <h3 class="report-title">${report.title}</h3>
+    grid.innerHTML = filteredReports.map((report) => {
+        const highlights = Array.isArray(report.highlights) ? report.highlights.slice(0, 3) : [];
+        return `
+        <article class="report-card">
+            <div class="report-main">
+                <div class="report-headline">
+                    <div class="report-company">${escapeHtml(report.company)} (${escapeHtml(report.ticker)})</div>
+                    <span class="report-category">${escapeHtml(CATEGORY_LABELS[report.category] || report.category || '其他')}</span>
+                </div>
+                <h3 class="report-title">${escapeHtml(report.title)}</h3>
+                <p class="report-summary">${escapeHtml(report.summary)}</p>
                 <div class="report-meta">
-                    <span>📅 ${report.date}</span>
-                    <span>🔄 ${report.lastUpdate}</span>
+                    <span>报告日期 ${escapeHtml(report.date)}</span>
+                    <span>更新 ${escapeHtml(report.lastUpdate)}</span>
                 </div>
-            </div>
-            <div class="report-body">
-                <p class="report-summary">${report.summary}</p>
                 <div class="report-tags">
-                    ${(report.tags || []).map((tag) => `<span class="tag">${tag}</span>`).join('')}
+                    ${(report.tags || []).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join('')}
                 </div>
-                ${report.highlights ? `
-                    <div class="report-highlights">
-                        <strong>核心要点：</strong>
-                        <ul style="margin-top: 0.5rem; padding-left: 1.5rem; color: var(--text-secondary); font-size: 0.875rem;">
-                            ${report.highlights.map((h) => `<li>${h}</li>`).join('')}
-                        </ul>
-                    </div>
+                ${highlights.length ? `
+                <ul class="report-highlights">
+                    ${highlights.map((h) => `<li>${escapeHtml(h)}</li>`).join('')}
+                </ul>
                 ` : ''}
             </div>
             <div class="report-footer">
-                <a href="${report.file}" class="read-more">
-                    阅读完整报告 →
-                </a>
-                <span class="update-badge">最近更新: ${report.lastUpdate}</span>
+                <a href="${report.file}" class="read-more">阅读完整报告</a>
+                <span class="update-badge">ID: ${escapeHtml(report.id)}</span>
             </div>
-        </div>
-    `).join('');
+        </article>
+    `;
+    }).join('');
 }
 
 function renderEmptyState(message) {
     const grid = document.getElementById('reportsGrid');
     if (!grid) return;
-    grid.innerHTML = `<p style="padding: 1rem; color: var(--secondary);">${message}</p>`;
+    grid.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
 }
 
 function setupFilters() {
@@ -95,8 +101,8 @@ function updateStats() {
     const companyCountEl = document.getElementById('companyCount');
     const updateDateEl = document.getElementById('updateDate');
 
-    reportCountEl.textContent = reports.length;
-    companyCountEl.textContent = new Set(reports.map((r) => r.company)).size;
+    reportCountEl.textContent = String(reports.length);
+    companyCountEl.textContent = String(new Set(reports.map((r) => r.company)).size);
 
     if (!reports.length) {
         updateDateEl.textContent = '--';
@@ -108,4 +114,13 @@ function updateStats() {
     }, reports[0].lastUpdate);
 
     updateDateEl.textContent = latestDate;
+}
+
+function escapeHtml(value) {
+    return String(value)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
 }

@@ -1,11 +1,11 @@
 # Currency Dashboard 维护说明
 
-`/currency/` 已迁移到主博客仓库，不再独立部署。
+`/invest/currency/` 已迁移到主博客仓库，不再独立部署。
 
 ## 目录结构
 
 ```
-static/currency/
+static/invest/currency/
 ├── index.html
 ├── css/style.css
 ├── js/main.js
@@ -24,7 +24,7 @@ static/currency/
 hugo server -D
 ```
 
-访问 `http://localhost:1313/currency/`。
+访问 `http://localhost:1313/invest/currency/`。
 
 ## 数据更新链路
 
@@ -33,8 +33,8 @@ hugo server -D
 GitHub Actions：`.github/workflows/update-currency-data.yml`
 
 流程：
-1. 执行 `python3 static/currency/update_real_data.py`
-2. 执行 `python3 static/currency/validate_data.py`
+1. 执行 `python3 static/invest/currency/update_real_data.py`
+2. 执行 `python3 static/invest/currency/validate_data.py`
 3. 仅当 `data/historical.json` 有变化时自动提交
 
 默认每天 UTC `00:00` 运行（北京时间 `08:00`），也支持手动触发。
@@ -42,15 +42,15 @@ GitHub Actions：`.github/workflows/update-currency-data.yml`
 ### 手动更新
 
 ```bash
-python3 static/currency/update_real_data.py
-python3 static/currency/validate_data.py
+python3 static/invest/currency/update_real_data.py
+python3 static/invest/currency/validate_data.py
 ```
 
 ## 首次初始化或重建历史数据
 
 ```bash
-python3 static/currency/fetch_historical_data.py
-python3 static/currency/validate_data.py
+python3 static/invest/currency/fetch_historical_data.py
+python3 static/invest/currency/validate_data.py
 ```
 
 ## 数据源与 schema

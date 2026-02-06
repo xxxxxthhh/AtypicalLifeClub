@@ -2,8 +2,8 @@
 
 ## 访问入口
 
-- 本地：`http://localhost:1313/currency/`
-- 线上：`https://atypicallife.club/currency/`
+- 本地：`http://localhost:1313/invest/currency/`
+- 线上：`https://atypicallife.club/invest/currency/`
 
 ## 页面功能
 
@@ -17,24 +17,21 @@
 ### 手动拉取最新数据
 
 ```bash
-cd static/currency
-python3 update_real_data.py
-python3 validate_data.py
+python3 static/invest/currency/update_real_data.py
+python3 static/invest/currency/validate_data.py
 ```
 
 ### 手动检查偏离预警
 
 ```bash
-cd static/currency
-python3 check_alerts.py
+python3 static/invest/currency/check_alerts.py
 ```
 
 ### 重建历史数据
 
 ```bash
-cd static/currency
-python3 fetch_historical_data.py
-python3 validate_data.py
+python3 static/invest/currency/fetch_historical_data.py
+python3 static/invest/currency/validate_data.py
 ```
 
 ## 自动任务

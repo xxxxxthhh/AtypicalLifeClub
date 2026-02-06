@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    background: radial-gradient(circle at top right, var(--surface-3), transparent 45%),
+                radial-gradient(circle at top left, var(--surface-2), transparent 38%),
+                var(--theme);
+    color: var(--primary);
+    line-height: 1.65;
+}
+
+a {
+    color: inherit;
+}
+
+.shell {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 1.2rem 2.4rem;
+}
+
+.shell-header {
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    backdrop-filter: blur(10px);
+    background: color-mix(in srgb, var(--theme) 88%, transparent);
+    border-bottom: 1px solid var(--border);
+}
+
+.shell-header-inner {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0.85rem 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.shell-brand {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.shell-brand-title {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.shell-brand-subtitle {
+    font-size: 0.78rem;
+    color: var(--secondary);
+}
+
+.shell-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.shell-nav a {
+    text-decoration: none;
+    font-size: 0.86rem;
+    padding: 0.42rem 0.72rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    color: var(--secondary);
+    transition: all 0.2s ease;
+}
+
+.shell-nav a:hover,
+.shell-nav a.active {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: var(--accent-soft);
+}
+
+.hero {
+    margin-top: 1.5rem;
+    background: linear-gradient(140deg, color-mix(in srgb, var(--entry) 88%, var(--accent-soft)), var(--entry));
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.4rem 1.2rem;
+}
+
+.hero-title {
+    margin: 0;
+    font-size: clamp(1.4rem, 2.2vw, 2rem);
+    line-height: 1.25;
+}
+
+.hero-subtitle {
+    margin: 0.65rem 0 0;
+    color: var(--secondary);
+    font-size: 0.96rem;
+}
+
+.stat-grid {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 0.8rem;
+}
+
+.stat-card {
+    border: 1px solid var(--border);
+    background: var(--entry);
+    border-radius: 10px;
+    padding: 0.85rem;
+}
+
+.stat-label {
+    color: var(--secondary);
+    font-size: 0.78rem;
+}
+
+.stat-value {
+    margin-top: 0.25rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.section {
+    margin-top: 1.3rem;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.15rem;
+}
+
+.section h2 {
+    margin: 0;
+    font-size: 1.15rem;
+}
+
+.section p {
+    margin: 0.55rem 0 0;
+    color: var(--secondary);
+}
+
+.module-grid {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 0.9rem;
+}
+
+.module-card {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem;
+    background: linear-gradient(160deg, var(--entry), color-mix(in srgb, var(--entry) 92%, var(--surface-2)));
+}
+
+.module-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.8rem;
+}
+
+.module-title {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.badge {
+    font-size: 0.74rem;
+    border-radius: 999px;
+    padding: 0.16rem 0.58rem;
+    border: 1px solid var(--border);
+    color: var(--secondary);
+    white-space: nowrap;
+}
+
+.module-description {
+    margin: 0.6rem 0;
+    color: var(--secondary);
+    font-size: 0.9rem;
+}
+
+.button-row {
+    display: flex;
+    gap: 0.55rem;
+    flex-wrap: wrap;
+}
+
+.button {
+    border: 1px solid var(--border);
+    background: var(--entry);
+    color: var(--primary);
+    border-radius: 9px;
+    padding: 0.42rem 0.72rem;
+    text-decoration: none;
+    font-size: 0.84rem;
+    transition: all 0.18s ease;
+}
+
+.button:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.button.primary {
+    border-color: var(--accent);
+    background: var(--accent);
+    color: #fff;
+}
+
+.button.primary:hover {
+    filter: brightness(0.95);
+}
+
+.roadmap-grid {
+    margin-top: 0.85rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 0.7rem;
+}
+
+.roadmap-item {
+    border: 1px dashed var(--tertiary);
+    border-radius: 10px;
+    padding: 0.8rem;
+    background: color-mix(in srgb, var(--entry) 92%, var(--surface-3));
+}
+
+.roadmap-item h3 {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.roadmap-item p {
+    margin: 0.45rem 0 0;
+    color: var(--secondary);
+    font-size: 0.85rem;
+}
+
+.footer-note {
+    margin-top: 1rem;
+    color: var(--secondary);
+    font-size: 0.8rem;
+}
+
+@media (max-width: 760px) {
+    .shell-header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .shell-nav {
+        width: 100%;
+    }
+
+    .shell-nav a {
+        flex: 1;
+        text-align: center;
+    }
+}
