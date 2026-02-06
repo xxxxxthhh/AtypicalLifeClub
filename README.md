@@ -71,6 +71,58 @@ cover:
 └── public/             # 构建产物（由 CI 生成，已 gitignore）
 ```
 
+## 🧩 模块说明
+
+- `/`：主博客（Hugo + PaperMod）
+- `/research/`：研究中心（静态子应用，数据源是 `static/research/data/reports.json`）
+- `/currency/`：汇率看板（静态子应用，数据源是 `static/currency/data/historical.json`）
+
+## 🤖 Agent 操作手册（重点）
+
+下面是给后续 agent 的最小可执行流程。
+
+### A. 更新研究报告（推荐流程）
+
+1. 新增或更新 Markdown 正文  
+   文件位置：`static/research/*.md`
+2. 新增或更新详情页壳  
+   文件位置：`static/research/reports/<report-id>.html`  
+   要求：详情页里 `fetch('/research/xxx.md')` 路径必须指向正确 Markdown 文件
+3. 更新首页卡片元数据  
+   文件位置：`static/research/data/reports.json`  
+   字段至少包括：`id`、`company`、`ticker`、`title`、`summary`、`category`、`date`、`lastUpdate`、`file`、`tags`
+4. 本地验证  
+   ```bash
+   hugo server -D
+   ```
+   检查：
+   - `http://localhost:1313/research/` 卡片和筛选是否正常
+   - 新报告详情页是否可打开并正确渲染
+5. 提交并推送
+
+### B. 更新汇率模块（手动）
+
+```bash
+cd static/currency
+python3 update_real_data.py
+python3 validate_data.py
+```
+
+- `update_real_data.py`：拉取最新数据并按日期 upsert 到 `data/historical.json`
+- `validate_data.py`：校验 schema、日期顺序、货币字段完整性（失败则不要提交）
+
+### C. 汇率模块（自动）
+
+- 工作流：`.github/workflows/update-currency-data.yml`
+- 触发：每天 UTC `00:00`（北京时间 `08:00`）+ 手动触发
+- 流程：更新数据 -> 校验数据 -> 仅在有变更时自动提交
+
+### D. 共用前端约束
+
+- 主题切换统一使用：`/shared/theme-switcher.js`
+- 不要再复制新的 `theme-switcher.js` 到业务目录
+- 静态子应用资源路径统一使用绝对路径（如 `/research/...`、`/currency/...`）
+
 ## ☁️ 部署到 Cloudflare Pages
 
 ### 1. 推送到 GitHub
