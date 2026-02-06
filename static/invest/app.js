@@ -9,23 +9,29 @@ const I18N = {
         brandSubtitle: '研究 + 追踪工作区',
         navBack: '返回 Blog',
         navInvest: 'Invest',
-        navResearch: 'Research',
-        navCurrency: 'Currency',
+        navModules: '模块',
+        navRoadmap: '扩展',
         switchAriaLabel: '语言切换',
         heroTitle: '统一投资工作台',
-        heroSubtitle: '研报与追踪模块统一入口。',
+        heroSubtitle: '统一入口与状态总览。',
         statReports: '研报总数',
         statCoverage: '覆盖标的',
         statDays: '汇率样本天数',
         statUpdated: '最近数据更新',
         currentModulesTitle: '当前模块',
-        currentModulesDesc: '先聚焦研究与汇率两条主线。',
+        currentModulesDesc: '作为主入口，直接进入并查看关键状态。',
         moduleResearchTitle: 'Research',
         moduleResearchDesc: '研报列表、标签筛选、双语详情切换。',
-        moduleResearchButton: '进入 Research',
+        moduleResearchButton: '打开 Research',
         moduleCurrencyTitle: 'Currency',
         moduleCurrencyDesc: '货币对走势、区间统计、偏离监控、自动日更。',
-        moduleCurrencyButton: '进入 Currency',
+        moduleCurrencyButton: '打开 Currency',
+        metricReports: '研报数量',
+        metricCoverage: '覆盖标的',
+        metricDays: '样本天数',
+        metricUpdated: '最近更新',
+        metricStatus: '数据状态',
+        metricStatusValue: '自动日更',
         badgeOnline: '已上线',
         roadmapTitle: '规划中的扩展',
         roadmapDesc: '新模块按同一壳接入。',
@@ -42,23 +48,29 @@ const I18N = {
         brandSubtitle: 'Research + Tracking Workspace',
         navBack: 'Back to Blog',
         navInvest: 'Invest',
-        navResearch: 'Research',
-        navCurrency: 'Currency',
+        navModules: 'Modules',
+        navRoadmap: 'Roadmap',
         switchAriaLabel: 'Language switch',
         heroTitle: 'Unified Invest Workspace',
-        heroSubtitle: 'A single entry for research and tracking modules.',
+        heroSubtitle: 'A single entry with live module status.',
         statReports: 'Research Reports',
         statCoverage: 'Covered Tickers',
         statDays: 'FX Sample Days',
         statUpdated: 'Latest Data Update',
         currentModulesTitle: 'Current Modules',
-        currentModulesDesc: 'Focused on research and currency tracking first.',
+        currentModulesDesc: 'Primary entry to each module with key status at a glance.',
         moduleResearchTitle: 'Research',
         moduleResearchDesc: 'Report list, tag filters, and bilingual detail view.',
         moduleResearchButton: 'Open Research',
         moduleCurrencyTitle: 'Currency',
         moduleCurrencyDesc: 'Pair trends, range stats, deviation monitor, and daily auto updates.',
         moduleCurrencyButton: 'Open Currency',
+        metricReports: 'Reports',
+        metricCoverage: 'Coverage',
+        metricDays: 'Sample Days',
+        metricUpdated: 'Updated',
+        metricStatus: 'Data Status',
+        metricStatusValue: 'Daily Refresh',
         badgeOnline: 'Live',
         roadmapTitle: 'Planned Expansions',
         roadmapDesc: 'New modules plug into the same shell.',
@@ -77,7 +89,8 @@ const statsState = {
     reportCount: '--',
     coverageCount: '--',
     currencyDays: '--',
-    lastUpdatedRaw: null
+    researchUpdatedRaw: null,
+    currencyUpdatedRaw: null
 };
 
 let currentLang = 'zh';
@@ -182,16 +195,46 @@ function bindLanguageSwitch() {
 
 function formatDateTime(value) {
     if (!value) return '--';
+    if (typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value)) {
+        const dateOnly = new Date(`${value}T00:00:00`);
+        if (!Number.isNaN(dateOnly.getTime())) {
+            return dateOnly.toLocaleDateString(currentLang === 'en' ? 'en-US' : 'zh-CN');
+        }
+    }
     const date = new Date(value);
     if (Number.isNaN(date.getTime())) return value;
     return date.toLocaleString(currentLang === 'en' ? 'en-US' : 'zh-CN');
 }
 
+function pickMostRecent(values) {
+    let latestValue = null;
+    let latestTs = -Infinity;
+
+    values.forEach((value) => {
+        if (!value) return;
+        const ts = new Date(value).getTime();
+        if (Number.isNaN(ts)) return;
+        if (ts > latestTs) {
+            latestTs = ts;
+            latestValue = value;
+        }
+    });
+
+    if (latestValue) return latestValue;
+    return values.find((value) => !!value) || null;
+}
+
 function renderStats() {
+    const globalUpdated = pickMostRecent([statsState.researchUpdatedRaw, statsState.currencyUpdatedRaw]);
     setText('reportCount', statsState.reportCount);
     setText('coverageCount', statsState.coverageCount);
     setText('currencyDays', statsState.currencyDays);
-    setText('lastUpdated', formatDateTime(statsState.lastUpdatedRaw));
+    setText('lastUpdated', formatDateTime(globalUpdated));
+    setText('moduleResearchReports', statsState.reportCount);
+    setText('moduleResearchCoverage', statsState.coverageCount);
+    setText('moduleResearchUpdated', formatDateTime(statsState.researchUpdatedRaw));
+    setText('moduleCurrencyDays', statsState.currencyDays);
+    setText('moduleCurrencyUpdated', formatDateTime(statsState.currencyUpdatedRaw));
 }
 
 async function loadResearchStats() {
@@ -203,10 +246,12 @@ async function loadResearchStats() {
 
         statsState.reportCount = String(reports.length);
         statsState.coverageCount = String(new Set(reports.map((r) => r.ticker)).size);
+        statsState.researchUpdatedRaw = pickMostRecent(reports.map((r) => r.lastUpdate || r.date));
     } catch (error) {
         console.error('Failed to load research stats:', error);
         statsState.reportCount = '--';
         statsState.coverageCount = '--';
+        statsState.researchUpdatedRaw = null;
     }
     renderStats();
 }
@@ -221,11 +266,11 @@ async function loadCurrencyStats() {
         const updated = payload?.metadata?.last_updated;
 
         statsState.currencyDays = Number.isFinite(days) ? String(days) : '--';
-        statsState.lastUpdatedRaw = updated || null;
+        statsState.currencyUpdatedRaw = updated || null;
     } catch (error) {
         console.error('Failed to load currency stats:', error);
         statsState.currencyDays = '--';
-        statsState.lastUpdatedRaw = null;
+        statsState.currencyUpdatedRaw = null;
     }
     renderStats();
 }

@@ -14,24 +14,24 @@
                 <span class="shell-brand-title">Invest</span>
                 <span class="shell-brand-subtitle" data-i18n="brandSubtitle">Research + Tracking Workspace</span>
             </div>
-            <nav class="shell-nav">
-                <a href="/" data-i18n="navBack">返回 Blog</a>
-                <a href="/invest/" class="active" data-i18n="navInvest">Invest</a>
-                <a href="/invest/research/" data-i18n="navResearch">Research</a>
-                <a href="/invest/currency/" data-i18n="navCurrency">Currency</a>
-            </nav>
+            <div class="shell-actions">
+                <nav class="shell-nav">
+                    <a href="/" data-i18n="navBack">返回 Blog</a>
+                    <a href="/invest/" class="active" data-i18n="navInvest">Invest</a>
+                    <a href="#modules" data-i18n="navModules">模块</a>
+                    <a href="#roadmap" data-i18n="navRoadmap">扩展</a>
+                </nav>
+                <div class="home-language-switch header-language-switch" id="languageSwitch" role="group" aria-label="Language switch">
+                    <button class="lang-btn" type="button" data-lang="zh">中文</button>
+                    <button class="lang-btn" type="button" data-lang="en">EN</button>
+                </div>
+            </div>
         </div>
     </header>
 
     <main class="shell">
         <section class="hero">
-            <div class="hero-head-row">
-                <h1 class="hero-title" data-i18n="heroTitle">统一投资工作台</h1>
-                <div class="home-language-switch" id="languageSwitch" role="group" aria-label="Language switch">
-                    <button class="lang-btn" type="button" data-lang="zh">中文</button>
-                    <button class="lang-btn" type="button" data-lang="en">EN</button>
-                </div>
-            </div>
+            <h1 class="hero-title" data-i18n="heroTitle">统一投资工作台</h1>
             <p class="hero-subtitle" data-i18n="heroSubtitle">研报与追踪模块统一入口。</p>
             <div class="stat-grid">
                 <div class="stat-card">
@@ -53,7 +53,7 @@
             </div>
         </section>
 
-        <section class="section">
+        <section class="section" id="modules">
             <h2 data-i18n="currentModulesTitle">当前模块</h2>
             <p data-i18n="currentModulesDesc">先聚焦研究与汇率两条主线。</p>
             <div class="module-grid">
@@ -63,8 +63,22 @@
                         <span class="badge" data-i18n="badgeOnline">已上线</span>
                     </div>
                     <p class="module-description" data-i18n="moduleResearchDesc">研报列表、标签筛选、双语详情切换。</p>
+                    <dl class="module-metrics">
+                        <div class="module-metric">
+                            <dt data-i18n="metricReports">研报数量</dt>
+                            <dd id="moduleResearchReports">--</dd>
+                        </div>
+                        <div class="module-metric">
+                            <dt data-i18n="metricCoverage">覆盖标的</dt>
+                            <dd id="moduleResearchCoverage">--</dd>
+                        </div>
+                        <div class="module-metric">
+                            <dt data-i18n="metricUpdated">最近更新</dt>
+                            <dd id="moduleResearchUpdated">--</dd>
+                        </div>
+                    </dl>
                     <div class="button-row">
-                        <a href="/invest/research/" class="button primary" data-i18n="moduleResearchButton">进入 Research</a>
+                        <a href="/invest/research/" class="button primary" data-i18n="moduleResearchButton">打开 Research</a>
                     </div>
                 </article>
                 <article class="module-card">
@@ -73,14 +87,28 @@
                         <span class="badge" data-i18n="badgeOnline">已上线</span>
                     </div>
                     <p class="module-description" data-i18n="moduleCurrencyDesc">货币对走势、区间统计、偏离监控、自动日更。</p>
+                    <dl class="module-metrics">
+                        <div class="module-metric">
+                            <dt data-i18n="metricDays">样本天数</dt>
+                            <dd id="moduleCurrencyDays">--</dd>
+                        </div>
+                        <div class="module-metric">
+                            <dt data-i18n="metricUpdated">最近更新</dt>
+                            <dd id="moduleCurrencyUpdated">--</dd>
+                        </div>
+                        <div class="module-metric">
+                            <dt data-i18n="metricStatus">数据状态</dt>
+                            <dd data-i18n="metricStatusValue">自动日更</dd>
+                        </div>
+                    </dl>
                     <div class="button-row">
-                        <a href="/invest/currency/" class="button primary" data-i18n="moduleCurrencyButton">进入 Currency</a>
+                        <a href="/invest/currency/" class="button primary" data-i18n="moduleCurrencyButton">打开 Currency</a>
                     </div>
                 </article>
             </div>
         </section>
 
-        <section class="section">
+        <section class="section" id="roadmap">
             <h2 data-i18n="roadmapTitle">规划中的扩展</h2>
             <p data-i18n="roadmapDesc">新模块按同一壳接入。</p>
             <div class="roadmap-grid">
