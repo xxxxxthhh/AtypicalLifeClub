@@ -8,124 +8,142 @@
     <link rel="stylesheet" href="/invest/styles.css">
 </head>
 <body>
-    <header class="shell-header">
-        <div class="shell-header-inner">
-            <div class="shell-brand">
-                <span class="shell-brand-title">Invest</span>
-                <span class="shell-brand-subtitle" data-i18n="brandSubtitle">Research + Tracking Workspace</span>
+    <header class="site-header">
+        <div class="header-content">
+            <div class="brand-area">
+                <a href="/" class="back-link" aria-label="Back to Blog">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+                    <span class="back-link-text" data-i18n="navBack">返回 Blog</span>
+                </a>
+                <div class="brand-text">
+                    <span class="brand-title">Invest</span>
+                    <span class="brand-subtitle" data-i18n="brandSubtitle">Research + Tracking Workspace</span>
+                </div>
             </div>
-            <div class="shell-actions">
-                <nav class="shell-nav">
-                    <a href="/" data-i18n="navBack">返回 Blog</a>
-                    <a href="/invest/" class="active" data-i18n="navInvest">Invest</a>
-                    <a href="#modules" data-i18n="navModules">模块</a>
-                    <a href="#roadmap" data-i18n="navRoadmap">扩展</a>
-                </nav>
-                <div class="home-language-switch header-language-switch" id="languageSwitch" role="group" aria-label="Language switch">
-                    <button class="lang-btn" type="button" data-lang="zh">中文</button>
-                    <button class="lang-btn" type="button" data-lang="en">EN</button>
+            
+            <nav class="main-nav">
+                <a href="/invest/" class="nav-item active" data-i18n="navInvest">Invest</a>
+                <a href="#modules" class="nav-item" data-i18n="navModules">Modules</a>
+                <a href="#roadmap" class="nav-item" data-i18n="navRoadmap">Roadmap</a>
+            </nav>
+
+            <div class="header-actions">
+                <div class="lang-switch" id="languageSwitch" role="group" aria-label="Language switch">
+                    <button class="lang-opt" type="button" data-lang="zh">中文</button>
+                    <span class="divider">/</span>
+                    <button class="lang-opt" type="button" data-lang="en">EN</button>
                 </div>
             </div>
         </div>
     </header>
 
-    <main class="shell">
-        <section class="hero">
-            <h1 class="hero-title" data-i18n="heroTitle">统一投资工作台</h1>
-            <p class="hero-subtitle" data-i18n="heroSubtitle">研报与追踪模块统一入口。</p>
-            <div class="stat-grid">
-                <div class="stat-card">
-                    <div class="stat-label" data-i18n="statReports">研报总数</div>
-                    <div class="stat-value" id="reportCount">--</div>
+    <main class="container">
+        <section class="hero-section">
+            <div class="hero-header">
+                <h1 class="page-title" data-i18n="heroTitle">Unified Invest Workspace</h1>
+            </div>
+            
+            <div class="dashboard-strip">
+                <div class="dash-item">
+                    <div class="dash-value" id="reportCount">--</div>
+                    <div class="dash-label" data-i18n="statReports">Total Reports</div>
                 </div>
-                <div class="stat-card">
-                    <div class="stat-label" data-i18n="statCoverage">覆盖标的</div>
-                    <div class="stat-value" id="coverageCount">--</div>
+                <div class="dash-separator"></div>
+                <div class="dash-item">
+                    <div class="dash-value" id="coverageCount">--</div>
+                    <div class="dash-label" data-i18n="statCoverage">Coverage</div>
                 </div>
-                <div class="stat-card">
-                    <div class="stat-label" data-i18n="statDays">汇率样本天数</div>
-                    <div class="stat-value" id="currencyDays">--</div>
+                <div class="dash-separator"></div>
+                <div class="dash-item">
+                    <div class="dash-value" id="currencyDays">--</div>
+                    <div class="dash-label" data-i18n="statDays">History Days</div>
                 </div>
-                <div class="stat-card">
-                    <div class="stat-label" data-i18n="statUpdated">最近数据更新</div>
-                    <div class="stat-value" id="lastUpdated">--</div>
+                <div class="dash-separator"></div>
+                <div class="dash-item">
+                    <div class="dash-value" id="lastUpdated">--</div>
+                    <div class="dash-label" data-i18n="statUpdated">Last Updated</div>
                 </div>
             </div>
         </section>
 
-        <section class="section" id="modules">
-            <h2 data-i18n="currentModulesTitle">当前模块</h2>
-            <p data-i18n="currentModulesDesc">先聚焦研究与汇率两条主线。</p>
-            <div class="module-grid">
-                <article class="module-card">
-                    <div class="module-head">
-                        <div class="module-title" data-i18n="moduleResearchTitle">Research</div>
-                        <span class="badge" data-i18n="badgeOnline">已上线</span>
-                    </div>
-                    <p class="module-description" data-i18n="moduleResearchDesc">研报列表、标签筛选、双语详情切换。</p>
-                    <dl class="module-metrics">
-                        <div class="module-metric">
-                            <dt data-i18n="metricReports">研报数量</dt>
-                            <dd id="moduleResearchReports">--</dd>
+        <section class="content-section" id="modules">
+            <div class="section-header">
+                <h2 data-i18n="currentModulesTitle">Active Modules</h2>
+            </div>
+            <div class="cards-grid">
+                <article class="feature-card">
+                    <div class="card-status" data-i18n="badgeOnline">Live</div>
+                    <div class="card-content">
+                        <h3 class="card-title" data-i18n="moduleResearchTitle">Research</h3>
+                        
+                        <div class="mini-stats">
+                            <div class="stat-pair">
+                                <span class="label" data-i18n="metricReports">Reports</span>
+                                <span class="val" id="moduleResearchReports">--</span>
+                            </div>
+                            <div class="stat-pair">
+                                <span class="label" data-i18n="metricCoverage">Tickers</span>
+                                <span class="val" id="moduleResearchCoverage">--</span>
+                            </div>
+                            <div class="stat-pair">
+                                <span class="label" data-i18n="metricUpdated">Updated</span>
+                                <span class="val" id="moduleResearchUpdated">--</span>
+                            </div>
                         </div>
-                        <div class="module-metric">
-                            <dt data-i18n="metricCoverage">覆盖标的</dt>
-                            <dd id="moduleResearchCoverage">--</dd>
+
+                        <div class="card-action">
+                            <a href="/invest/research/" class="action-btn" data-i18n="moduleResearchButton">Open Research</a>
                         </div>
-                        <div class="module-metric">
-                            <dt data-i18n="metricUpdated">最近更新</dt>
-                            <dd id="moduleResearchUpdated">--</dd>
-                        </div>
-                    </dl>
-                    <div class="button-row">
-                        <a href="/invest/research/" class="button primary" data-i18n="moduleResearchButton">打开 Research</a>
                     </div>
                 </article>
-                <article class="module-card">
-                    <div class="module-head">
-                        <div class="module-title" data-i18n="moduleCurrencyTitle">Currency</div>
-                        <span class="badge" data-i18n="badgeOnline">已上线</span>
-                    </div>
-                    <p class="module-description" data-i18n="moduleCurrencyDesc">货币对走势、区间统计、偏离监控、自动日更。</p>
-                    <dl class="module-metrics">
-                        <div class="module-metric">
-                            <dt data-i18n="metricDays">样本天数</dt>
-                            <dd id="moduleCurrencyDays">--</dd>
+
+                <article class="feature-card">
+                    <div class="card-status" data-i18n="badgeOnline">Live</div>
+                    <div class="card-content">
+                        <h3 class="card-title" data-i18n="moduleCurrencyTitle">Currency</h3>
+                        
+                        <div class="mini-stats">
+                            <div class="stat-pair">
+                                <span class="label" data-i18n="metricDays">Days</span>
+                                <span class="val" id="moduleCurrencyDays">--</span>
+                            </div>
+                            <div class="stat-pair">
+                                <span class="label" data-i18n="metricUpdated">Updated</span>
+                                <span class="val" id="moduleCurrencyUpdated">--</span>
+                            </div>
+                            <div class="stat-pair">
+                                <span class="label" data-i18n="metricStatus">Status</span>
+                                <span class="val" data-i18n="metricStatusValue">Auto</span>
+                            </div>
                         </div>
-                        <div class="module-metric">
-                            <dt data-i18n="metricUpdated">最近更新</dt>
-                            <dd id="moduleCurrencyUpdated">--</dd>
+
+                        <div class="card-action">
+                            <a href="/invest/currency/" class="action-btn" data-i18n="moduleCurrencyButton">Open Currency</a>
                         </div>
-                        <div class="module-metric">
-                            <dt data-i18n="metricStatus">数据状态</dt>
-                            <dd data-i18n="metricStatusValue">自动日更</dd>
-                        </div>
-                    </dl>
-                    <div class="button-row">
-                        <a href="/invest/currency/" class="button primary" data-i18n="moduleCurrencyButton">打开 Currency</a>
                     </div>
                 </article>
             </div>
         </section>
 
-        <section class="section" id="roadmap">
-            <h2 data-i18n="roadmapTitle">规划中的扩展</h2>
-            <p data-i18n="roadmapDesc">新模块按同一壳接入。</p>
-            <div class="roadmap-grid">
-                <article class="roadmap-item">
-                    <h3 data-i18n="roadmapPreciousTitle">贵金属追踪</h3>
-                    <p data-i18n="roadmapPreciousDesc">金银价格与区间统计。</p>
-                </article>
-                <article class="roadmap-item">
-                    <h3 data-i18n="roadmapPortfolioTitle">组合观察台</h3>
-                    <p data-i18n="roadmapPortfolioDesc">持仓、风险暴露、事件日历。</p>
-                </article>
-                <article class="roadmap-item">
-                    <h3 data-i18n="roadmapLabTitle">小项目并入</h3>
-                    <p data-i18n="roadmapLabDesc">统一入口，模块化接入。</p>
-                </article>
+        <section class="content-section" id="roadmap">
+            <div class="section-header">
+                <h2 data-i18n="roadmapTitle">Roadmap</h2>
             </div>
-            <p class="footer-note" data-i18n="footerNote">仅为个人研究与记录，不构成投资建议。</p>
+            <div class="simple-grid">
+                <div class="simple-card">
+                    <h3 data-i18n="roadmapPreciousTitle">Precious Metals</h3>
+                    <p data-i18n="roadmapPreciousDesc">Gold & Silver tracking.</p>
+                </div>
+                <div class="simple-card">
+                    <h3 data-i18n="roadmapPortfolioTitle">Portfolio</h3>
+                    <p data-i18n="roadmapPortfolioDesc">Risk & Exposure.</p>
+                </div>
+                <div class="simple-card">
+                    <h3 data-i18n="roadmapLabTitle">Labs</h3>
+                    <p data-i18n="roadmapLabDesc">Experimental features.</p>
+                </div>
+            </div>
+            <p class="disclaimer" data-i18n="footerNote">Personal research only. Not investment advice.</p>
         </section>
     </main>
 
