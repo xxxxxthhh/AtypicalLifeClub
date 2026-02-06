@@ -3,11 +3,9 @@
     "tags": [
       "a",
       "article",
-      "blockquote",
       "body",
       "button",
       "circle",
-      "code",
       "details",
       "div",
       "em",
@@ -27,10 +25,11 @@
       "meta",
       "nav",
       "noscript",
+      "ol",
       "p",
       "path",
       "polyline",
-      "pre",
+      "rect",
       "script",
       "span",
       "strong",
@@ -38,10 +37,7 @@
       "summary",
       "sup",
       "svg",
-      "table",
-      "td",
       "title",
-      "tr",
       "ul"
     ],
     "classes": [
@@ -67,7 +63,6 @@
       "first-entry",
       "footer",
       "header",
-      "highlight",
       "home-info",
       "inner",
       "list",
@@ -94,22 +89,29 @@
       "top-link"
     ],
     "ids": [
+      "-cameras--travel",
+      "-cross-border-life",
+      "-hi-there",
+      "-investing",
+      "-technology",
       "2026",
       "2026-January",
+      "connect",
       "menu",
       "moon",
       "searchInput",
       "searchResults",
       "searchbox",
       "sun",
+      "the-name",
+      "the-problem-with-private-notes",
       "theme-toggle",
       "top",
       "top-link",
-      "一些-markdown-示例",
-      "为什么叫非典型生活俱乐部",
-      "图片示例",
-      "欢迎来到-atypical-life-club",
-      "这个博客会写什么"
+      "what-this-blog-is-about",
+      "what-youll-find-here",
+      "whats-next",
+      "who-this-is-for"
     ]
   }
 }
