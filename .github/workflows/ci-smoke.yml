@@ -31,10 +31,10 @@ jobs:
           node-version: "20"
 
       - name: Validate research metadata
-        run: python3 static/research/validate_reports.py
+        run: python3 static/invest/research/validate_reports.py
 
       - name: Validate currency data
-        run: python3 static/currency/validate_data.py
+        run: python3 static/invest/currency/validate_data.py
 
       - name: Hugo build check
         run: hugo --minify

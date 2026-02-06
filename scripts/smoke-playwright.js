@@ -14,12 +14,20 @@ function assert(condition, message) {
     }
 }
 
+async function testInvestHome(page) {
+    await page.goto(`${baseUrl}/invest/`, { waitUntil: "networkidle" });
+    await page.waitForSelector(".module-card");
+
+    const moduleCount = await page.locator(".module-card").count();
+    assert(moduleCount >= 2, "invest home should render module cards");
+}
+
 async function testResearch(page) {
-    await page.goto(`${baseUrl}/research/`, { waitUntil: "networkidle" });
+    await page.goto(`${baseUrl}/invest/research/`, { waitUntil: "networkidle" });
     await page.waitForSelector(".report-card");
 
     const cardCount = await page.locator(".report-card").count();
-    assert(cardCount > 0, "research page should have report cards");
+    assert(cardCount > 0, "invest research page should have report cards");
 
     await page.getByRole("button", { name: "能源" }).click();
     await page.waitForSelector("#reportsGrid");
@@ -30,17 +38,20 @@ async function testResearch(page) {
     await page.waitForSelector(".report-card");
 
     const firstHref = await page.locator(".report-card .read-more").first().getAttribute("href");
-    assert(firstHref && firstHref.includes("/research/reports/view.html?id="), "report link should point to unified report template");
+    assert(firstHref && firstHref.includes("/invest/research/reports/view.html?id="), "report link should point to invest report template");
 
     await page.goto(`${baseUrl}${firstHref}`, { waitUntil: "networkidle" });
     await page.waitForSelector("#markdownContent h2, #markdownContent h1");
 
     const tocItems = await page.locator("#tableOfContents li").count();
     assert(tocItems > 0, "report detail should generate TOC");
+
+    await page.goto(`${baseUrl}/research/`, { waitUntil: "domcontentloaded" });
+    await page.waitForURL("**/invest/research/");
 }
 
 async function testCurrency(page) {
-    await page.goto(`${baseUrl}/currency/`, { waitUntil: "networkidle" });
+    await page.goto(`${baseUrl}/invest/currency/`, { waitUntil: "networkidle" });
     await page.waitForSelector(".stat-card");
 
     await page.selectOption("#base-currency-select", "USD");
@@ -59,6 +70,9 @@ async function testCurrency(page) {
         return typeof window.Chart !== "undefined" && !!document.getElementById("mainChart");
     });
     assert(hasChart, "currency dashboard should initialize chart canvas");
+
+    await page.goto(`${baseUrl}/currency/`, { waitUntil: "domcontentloaded" });
+    await page.waitForURL("**/invest/currency/");
 }
 
 async function main() {
@@ -67,6 +81,7 @@ async function main() {
     const page = await context.newPage();
 
     try {
+        await testInvestHome(page);
         await testResearch(page);
         await testCurrency(page);
         console.log("Smoke tests passed.");

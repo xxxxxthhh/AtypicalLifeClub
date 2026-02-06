@@ -60,8 +60,11 @@ cover:
 │   └── search.md       # 搜索页面
 ├── static/
 │   ├── images/         # 静态图片资源
-│   ├── research/       # 研究中心（/research/）
-│   ├── currency/       # 汇率看板（/currency/）
+│   ├── invest/         # Invest 工作台（/invest/）
+│   │   ├── research/   # 研究中心（/invest/research/）
+│   │   └── currency/   # 汇率看板（/invest/currency/）
+│   ├── research/       # 旧路径兼容跳转（-> /invest/research/）
+│   ├── currency/       # 旧路径兼容跳转（-> /invest/currency/）
 │   └── shared/         # 跨模块共享脚本
 ├── .github/workflows/
 │   └── update-currency-data.yml # 汇率数据自动更新
@@ -74,8 +77,10 @@ cover:
 ## 🧩 模块说明
 
 - `/`：主博客（Hugo + PaperMod）
-- `/research/`：研究中心（静态子应用，数据源是 `static/research/data/reports.json`）
-- `/currency/`：汇率看板（静态子应用，数据源是 `static/currency/data/historical.json`）
+- `/invest/`：Invest 统一入口（研究与追踪模块导航）
+- `/invest/research/`：研究中心（数据源 `static/invest/research/data/reports.json`）
+- `/invest/currency/`：汇率看板（数据源 `static/invest/currency/data/historical.json`）
+- `/research/`、`/currency/`：兼容旧链接，自动重定向到 Invest 子路径
 
 ## 🤖 Agent 操作手册（重点）
 
@@ -84,27 +89,27 @@ cover:
 ### A. 更新研究报告（推荐流程）
 
 1. 新增或更新 Markdown 正文  
-   文件位置：`static/research/*.md`
+   文件位置：`static/invest/research/*.md`
 2. 更新首页卡片元数据  
-   文件位置：`static/research/data/reports.json`  
+   文件位置：`static/invest/research/data/reports.json`  
    字段至少包括：`id`、`company`、`ticker`、`title`、`summary`、`category`、`date`、`lastUpdate`、`file`、`markdownFile`、`tags`
-   - `file` 统一写：`/research/reports/view.html?id=<id>`
-   - `markdownFile` 统一写：`/research/<your-report>.md`
+   - `file` 统一写：`/invest/research/reports/view.html?id=<id>`
+   - `markdownFile` 统一写：`/invest/research/<your-report>.md`
 3. 本地验证  
    ```bash
-   python3 static/research/validate_reports.py
+   python3 static/invest/research/validate_reports.py
    hugo server -D
    ```
    检查：
-   - `http://localhost:1313/research/` 卡片和筛选是否正常
+   - `http://localhost:1313/invest/research/` 卡片和筛选是否正常
    - 新报告详情页是否可打开并正确渲染
 4. 提交并推送
 
 ### B. 更新汇率模块（手动）
 
 ```bash
-python3 static/currency/update_real_data.py
-python3 static/currency/validate_data.py
+python3 static/invest/currency/update_real_data.py
+python3 static/invest/currency/validate_data.py
 ```
 
 - `update_real_data.py`：拉取最新数据并按日期 upsert 到 `data/historical.json`
@@ -120,16 +125,16 @@ python3 static/currency/validate_data.py
 
 - 主题切换统一使用：`/shared/theme-switcher.js`
 - 不要再复制新的 `theme-switcher.js` 到业务目录
-- 静态子应用资源路径统一使用绝对路径（如 `/research/...`、`/currency/...`）
+- 静态子应用资源路径统一使用绝对路径（如 `/invest/research/...`、`/invest/currency/...`）
 
 ### E. 本地质量检查（提交前）
 
 ```bash
 # 研究中心元数据校验
-python3 static/research/validate_reports.py
+python3 static/invest/research/validate_reports.py
 
 # 汇率数据校验
-python3 static/currency/validate_data.py
+python3 static/invest/currency/validate_data.py
 
 # 前端冒烟（需先启动 hugo server -D）
 npm install --no-save playwright
