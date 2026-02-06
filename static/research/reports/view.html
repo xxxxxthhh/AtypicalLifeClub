@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>研究报告</title>
+    <link rel="stylesheet" href="/research/theme-adapter.css">
+    <link rel="stylesheet" href="/research/report-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="/research/" class="back-link">← 返回研报中心</a>
+            <div class="nav-actions">
+                <button onclick="window.print()" class="btn-secondary">打印报告</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="report-container">
+        <aside class="toc">
+            <h3>目录</h3>
+            <nav id="tableOfContents"></nav>
+        </aside>
+
+        <main class="report-content" id="reportContent">
+            <div class="report-hero">
+                <div class="report-badge">个人研究笔记</div>
+                <h1 id="heroTitle">加载中...</h1>
+                <h2 id="heroSubtitle"></h2>
+                <div class="report-meta-info" id="heroMeta"></div>
+            </div>
+            <div id="markdownContent"></div>
+        </main>
+    </div>
+
+    <script>
+        const REPORTS_DATA_URL = '/research/data/reports.json';
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            await loadReport();
+        });
+
+        async function loadReport() {
+            try {
+                const reportId = new URLSearchParams(window.location.search).get('id');
+                if (!reportId) {
+                    throw new Error('缺少报告 id 参数');
+                }
+
+                const reportsResponse = await fetch(REPORTS_DATA_URL, { cache: 'no-store' });
+                if (!reportsResponse.ok) {
+                    throw new Error(`加载 reports.json 失败: HTTP ${reportsResponse.status}`);
+                }
+
+                const reports = await reportsResponse.json();
+                const report = reports.find((item) => item.id === reportId);
+
+                if (!report) {
+                    throw new Error(`未找到报告: ${reportId}`);
+                }
+
+                if (!report.markdownFile) {
+                    throw new Error(`报告缺少 markdownFile 字段: ${reportId}`);
+                }
+
+                document.title = report.title || '研究报告';
+                renderHero(report);
+
+                const markdownResponse = await fetch(report.markdownFile, { cache: 'no-store' });
+                if (!markdownResponse.ok) {
+                    throw new Error(`加载 Markdown 失败: HTTP ${markdownResponse.status}`);
+                }
+
+                let markdown = await markdownResponse.text();
+                if (report.stripLeadingH1 !== false) {
+                    markdown = markdown.replace(/^# .*\n+/, '');
+                }
+
+                marked.setOptions({
+                    breaks: true,
+                    gfm: true
+                });
+
+                const html = marked.parse(markdown);
+                document.getElementById('markdownContent').innerHTML = html;
+                generateTOC();
+                addSmoothScrolling();
+            } catch (error) {
+                console.error('Error loading report:', error);
+                document.getElementById('heroTitle').textContent = '报告加载失败';
+                document.getElementById('heroSubtitle').textContent = '';
+                document.getElementById('heroMeta').innerHTML = '';
+                document.getElementById('markdownContent').innerHTML =
+                    `<p style="color: red;">${escapeHtml(error.message)}。请返回<a href="/research/">研报中心</a>重试。</p>`;
+            }
+        }
+
+        function renderHero(report) {
+            const heroTitle = document.getElementById('heroTitle');
+            const heroSubtitle = document.getElementById('heroSubtitle');
+            const heroMeta = document.getElementById('heroMeta');
+
+            heroTitle.textContent = report.title || report.company || '研究报告';
+            heroSubtitle.textContent = report.company || '';
+
+            const metaItems = [
+                report.date ? `📅 报告日期：${report.date}` : null,
+                report.ticker ? `🏢 标的：${report.ticker}` : null,
+                report.lastUpdate ? `🔄 最近更新：${report.lastUpdate}` : null
+            ].filter(Boolean);
+
+            heroMeta.innerHTML = metaItems.map((item) => `<span>${item}</span>`).join('');
+        }
+
+        function generateTOC() {
+            const content = document.getElementById('markdownContent');
+            const headings = content.querySelectorAll('h2, h3');
+            const toc = document.getElementById('tableOfContents');
+
+            if (!headings.length) {
+                toc.innerHTML = '<p style="color: var(--text-secondary); font-size: 0.875rem;">无可用目录</p>';
+                return;
+            }
+
+            let tocHTML = '<ul>';
+            headings.forEach((heading, index) => {
+                const id = `section-${index}`;
+                heading.id = id;
+                const level = heading.tagName === 'H2' ? 'toc-level-1' : 'toc-level-2';
+                tocHTML += `<li class="${level}"><a href="#${id}">${escapeHtml(heading.textContent)}</a></li>`;
+            });
+            tocHTML += '</ul>';
+            toc.innerHTML = tocHTML;
+        }
+
+        function addSmoothScrolling() {
+            document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+                anchor.addEventListener('click', function (event) {
+                    event.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        }
+
+        function escapeHtml(value) {
+            return String(value)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+    </script>
+    <script src="/shared/theme-switcher.js"></script>
+</body>
+</html>

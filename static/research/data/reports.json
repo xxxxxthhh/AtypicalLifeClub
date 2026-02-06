@@ -9,7 +9,8 @@
     "category": "tech",
     "date": "2026-02-04",
     "lastUpdate": "2026-02-04",
-    "file": "/research/reports/amd-2026.html",
+    "file": "/research/reports/view.html?id=amd-2026",
+    "markdownFile": "/research/AMD_Deep_Research_Report_2026-02.md",
     "highlights": [
       "2025年营收346亿美元，同比增长34%",
       "OpenAI多年合作协议（MI450 GPU）",
@@ -27,7 +28,8 @@
     "category": "tech",
     "date": "2026-02-03",
     "lastUpdate": "2026-02-03",
-    "file": "/research/reports/jinpan-2026.html",
+    "file": "/research/reports/view.html?id=jinpan-2026",
+    "markdownFile": "/research/金盘科技_深度研究报告_20260204.md",
     "highlights": [
       "全球干式变压器市场份额25.5%",
       "AIDC订单增长603.68%",
@@ -45,7 +47,8 @@
     "category": "tech",
     "date": "2026-02-03",
     "lastUpdate": "2026-02-03",
-    "file": "/research/reports/paypal-2026.html",
+    "file": "/research/reports/view.html?id=paypal-2026",
+    "markdownFile": "/research/PayPal_Deep_Research_Report_2026-02.md",
     "highlights": [
       "Q4财报未达预期，股价暴跌16.26%",
       "CEO更换：Enrique Lores接任",
@@ -63,7 +66,8 @@
     "category": "nuclear",
     "date": "2026-02-03",
     "lastUpdate": "2026-02-03",
-    "file": "/research/reports/oklo-2026.html",
+    "file": "/research/reports/view.html?id=oklo-2026",
+    "markdownFile": "/research/Oklo_Deep_Research_Report_2026-02.md",
     "highlights": [
       "市值115亿美元，前收入阶段公司",
       "Meta 1.2 GW核能园区合作",
