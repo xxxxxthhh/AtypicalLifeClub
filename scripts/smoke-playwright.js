@@ -16,10 +16,15 @@ function assert(condition, message) {
 
 async function testInvestHome(page) {
     await page.goto(`${baseUrl}/invest/`, { waitUntil: "networkidle" });
-    await page.waitForSelector(".module-card");
+    await page.waitForSelector(".feature-card, .module-card");
 
-    const moduleCount = await page.locator(".module-card").count();
+    const moduleCount = await page.locator(".feature-card, .module-card").count();
     assert(moduleCount >= 2, "invest home should render module cards");
+
+    const researchNav = page.locator("a.nav-item[href='/invest/research/']");
+    const currencyNav = page.locator("a.nav-item[href='/invest/currency/']");
+    assert(await researchNav.count() === 1, "invest home header should render research entry");
+    assert(await currencyNav.count() === 1, "invest home header should render currency entry");
 }
 
 async function testResearch(page) {
