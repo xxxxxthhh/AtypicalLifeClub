@@ -7,9 +7,9 @@ const SUPPORTED_LANGS = ["zh", "en"];
 const I18N = {
   zh: {
     navBack: "返回 Blog",
-    navInvest: "Invest",
-    navResearch: "Research",
-    navCurrency: "Currency",
+    navInvest: "投资",
+    navResearch: "企业调研",
+    navCurrency: "汇率追踪",
     switchAriaLabel: "语言切换",
     heroTitle: "总览",
     statReports: "研报总数",
@@ -17,15 +17,14 @@ const I18N = {
     statDays: "汇率样本天数",
     statUpdated: "最近数据更新",
     currentModulesTitle: "当前模块",
-    moduleResearchTitle: "Research",
-    moduleCurrencyTitle: "Currency",
+    moduleResearchTitle: "企业调研",
+    moduleCurrencyTitle: "汇率追踪",
     metricReports: "研报数量",
     metricCoverage: "覆盖标的",
     metricDays: "样本天数",
     metricUpdated: "最近更新",
     metricStatus: "数据状态",
     metricStatusValue: "自动日更",
-    badgeOnline: "已上线",
     documentTitle: "Invest | Atypical Life Club",
   },
   en: {
@@ -48,7 +47,6 @@ const I18N = {
     metricUpdated: "Updated",
     metricStatus: "Data Status",
     metricStatusValue: "Daily Refresh",
-    badgeOnline: "Live",
     documentTitle: "Invest Workspace | Atypical Life Club",
   },
 };
