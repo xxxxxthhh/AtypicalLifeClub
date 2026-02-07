@@ -1,5 +1,28 @@
 [
   {
+    "id": "copx-2026",
+    "company": "COPX (Global X Copper Miners ETF)",
+    "ticker": "NYSEARCA: COPX",
+    "title": "COPX 深度研究报告 - 铜超级周期的杠杆化敞口",
+    "titleEn": "COPX Deep Research Report - Leveraged Exposure to the Copper Supercycle",
+    "summary": "全球最大纯铜矿ETF，AUM 74亿美元，过去一年回报105%。电气化、AI数据中心、EV三大需求驱动结构性铜超级周期，但短期估值偏高且关税扭曲风险显著。",
+    "tags": ["铜矿", "ETF", "大宗商品", "能源转型"],
+    "category": "energy",
+    "date": "2026-02-07",
+    "lastUpdate": "2026-02-07",
+    "file": "/invest/research/reports/view.html?id=copx-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/COPX_深度研究报告_2026-02.md",
+      "en": "/invest/research/COPX_Deep_Research_Report_2026-02.md"
+    },
+    "highlights": [
+      "过去1年回报+105%，AUM 74亿美元",
+      "铜需求预计到2040年增长50%至4200万吨",
+      "AI数据中心2026年铜需求47.5万吨",
+      "美国232条款关税审查为最大近期催化剂"
+    ]
+  },
+  {
     "id": "amd-2026",
     "company": "AMD",
     "ticker": "NASDAQ: AMD",
