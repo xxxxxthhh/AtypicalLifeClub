@@ -413,10 +413,23 @@ a {
     transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
 }
 
+.card-link {
+    color: inherit;
+    cursor: pointer;
+}
+
 .feature-card:hover {
     transform: translateY(-1.5px);
     border-color: color-mix(in srgb, var(--accent) 42%, var(--border));
     box-shadow: 0 12px 24px color-mix(in srgb, #000 18%, transparent);
+}
+
+.card-link:focus-visible {
+    outline: none;
+    border-color: color-mix(in srgb, var(--accent) 58%, var(--border));
+    box-shadow:
+        0 0 0 2px color-mix(in srgb, var(--accent) 24%, transparent),
+        0 12px 24px color-mix(in srgb, #000 18%, transparent);
 }
 
 .card-status {
@@ -473,58 +486,6 @@ a {
     line-height: 1.35;
     color: var(--primary);
     overflow-wrap: anywhere;
-}
-
-.card-action {
-    margin-top: 0.82rem;
-}
-
-.action-btn {
-    border: 1px solid var(--accent);
-    background: var(--accent);
-    color: #fff;
-    border-radius: 9px;
-    padding: 0.42rem 0.72rem;
-    font-size: 0.84rem;
-    line-height: 1;
-    display: inline-flex;
-    align-items: center;
-    transition: all 0.18s ease;
-}
-
-.action-btn:hover {
-    filter: brightness(0.95);
-}
-
-.simple-grid {
-    margin-top: 0.85rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-    gap: 0.7rem;
-}
-
-.simple-card {
-    border: 1px dashed var(--tertiary);
-    border-radius: 10px;
-    padding: 0.8rem;
-    background: color-mix(in srgb, var(--entry) 92%, var(--surface-3));
-}
-
-.simple-card h3 {
-    margin: 0;
-    font-size: 0.95rem;
-}
-
-.simple-card p {
-    margin: 0.45rem 0 0;
-    color: var(--secondary);
-    font-size: 0.85rem;
-}
-
-.disclaimer {
-    margin-top: 1rem;
-    color: var(--secondary);
-    font-size: 0.8rem;
 }
 
 @media (max-width: 900px) {

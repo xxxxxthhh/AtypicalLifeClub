@@ -17,14 +17,13 @@
                 </a>
                 <div class="brand-text">
                     <span class="brand-title">Invest</span>
-                    <span class="brand-subtitle" data-i18n="brandSubtitle">Research + Tracking Workspace</span>
                 </div>
             </div>
             
             <nav class="main-nav">
                 <a href="/invest/" class="nav-item active" data-i18n="navInvest">Invest</a>
-                <a href="#modules" class="nav-item" data-i18n="navModules">Modules</a>
-                <a href="#roadmap" class="nav-item" data-i18n="navRoadmap">Roadmap</a>
+                <a href="/invest/research/" class="nav-item nav-module" data-i18n="navResearch">Research</a>
+                <a href="/invest/currency/" class="nav-item nav-module" data-i18n="navCurrency">Currency</a>
             </nav>
 
             <div class="header-actions">
@@ -40,7 +39,7 @@
     <main class="container">
         <section class="hero-section">
             <div class="hero-header">
-                <h1 class="page-title" data-i18n="heroTitle">Unified Invest Workspace</h1>
+                <h1 class="page-title" data-i18n="heroTitle">Overview</h1>
             </div>
             
             <div class="dashboard-strip">
@@ -71,7 +70,7 @@
                 <h2 data-i18n="currentModulesTitle">Active Modules</h2>
             </div>
             <div class="cards-grid">
-                <article class="feature-card">
+                <a href="/invest/research/" class="feature-card card-link" aria-label="Open Research module">
                     <div class="card-status" data-i18n="badgeOnline">Live</div>
                     <div class="card-content">
                         <h3 class="card-title" data-i18n="moduleResearchTitle">Research</h3>
@@ -90,14 +89,10 @@
                                 <span class="val" id="moduleResearchUpdated">--</span>
                             </div>
                         </div>
-
-                        <div class="card-action">
-                            <a href="/invest/research/" class="action-btn" data-i18n="moduleResearchButton">Open Research</a>
-                        </div>
                     </div>
-                </article>
+                </a>
 
-                <article class="feature-card">
+                <a href="/invest/currency/" class="feature-card card-link" aria-label="Open Currency module">
                     <div class="card-status" data-i18n="badgeOnline">Live</div>
                     <div class="card-content">
                         <h3 class="card-title" data-i18n="moduleCurrencyTitle">Currency</h3>
@@ -116,34 +111,9 @@
                                 <span class="val" data-i18n="metricStatusValue">Auto</span>
                             </div>
                         </div>
-
-                        <div class="card-action">
-                            <a href="/invest/currency/" class="action-btn" data-i18n="moduleCurrencyButton">Open Currency</a>
-                        </div>
                     </div>
-                </article>
+                </a>
             </div>
-        </section>
-
-        <section class="content-section" id="roadmap">
-            <div class="section-header">
-                <h2 data-i18n="roadmapTitle">Roadmap</h2>
-            </div>
-            <div class="simple-grid">
-                <div class="simple-card">
-                    <h3 data-i18n="roadmapPreciousTitle">Precious Metals</h3>
-                    <p data-i18n="roadmapPreciousDesc">Gold & Silver tracking.</p>
-                </div>
-                <div class="simple-card">
-                    <h3 data-i18n="roadmapPortfolioTitle">Portfolio</h3>
-                    <p data-i18n="roadmapPortfolioDesc">Risk & Exposure.</p>
-                </div>
-                <div class="simple-card">
-                    <h3 data-i18n="roadmapLabTitle">Labs</h3>
-                    <p data-i18n="roadmapLabDesc">Experimental features.</p>
-                </div>
-            </div>
-            <p class="disclaimer" data-i18n="footerNote">Personal research only. Not investment advice.</p>
         </section>
     </main>
 
