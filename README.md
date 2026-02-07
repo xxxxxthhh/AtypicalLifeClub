@@ -144,10 +144,8 @@ python3 static/invest/research/validate_reports.py
 # 汇率数据校验
 python3 static/invest/currency/validate_data.py
 
-# 前端冒烟（需先启动 hugo server -D）
-npm install --no-save playwright
-npx playwright install chromium
-node scripts/smoke-playwright.js
+# Hugo 构建校验
+hugo --minify
 ```
 
 ## ☁️ 部署到 Cloudflare Pages

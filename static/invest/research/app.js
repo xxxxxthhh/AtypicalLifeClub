@@ -48,8 +48,10 @@ function loadReports(filter = 'all') {
 
     grid.innerHTML = filteredReports.map((report) => {
         const highlights = Array.isArray(report.highlights) ? report.highlights.slice(0, 3) : [];
+        const reportHref = escapeHtml(report.file || '');
+        const reportTitle = escapeHtml(report.title || report.company || '研究报告');
         return `
-        <article class="report-card">
+        <article class="report-card report-card-clickable" data-href="${reportHref}" tabindex="0" role="link" aria-label="${reportTitle}">
             <div class="report-main">
                 <div class="report-headline">
                     <div class="report-company">${escapeHtml(report.company)} (${escapeHtml(report.ticker)})</div>
@@ -71,12 +73,14 @@ function loadReports(filter = 'all') {
                 ` : ''}
             </div>
             <div class="report-footer">
-                <a href="${report.file}" class="read-more">阅读完整报告</a>
+                <a href="${reportHref}" class="read-more">阅读完整报告</a>
                 <span class="update-badge">ID: ${escapeHtml(report.id)}</span>
             </div>
         </article>
     `;
     }).join('');
+
+    bindCardNavigation();
 }
 
 function renderEmptyState(message) {
@@ -92,6 +96,25 @@ function setupFilters() {
             filterButtons.forEach((b) => b.classList.remove('active'));
             btn.classList.add('active');
             loadReports(btn.dataset.filter);
+        });
+    });
+}
+
+function bindCardNavigation() {
+    const cards = document.querySelectorAll('.report-card-clickable[data-href]');
+    cards.forEach((card) => {
+        const targetUrl = card.dataset.href;
+        if (!targetUrl) return;
+
+        card.addEventListener('click', (event) => {
+            if (event.target.closest('a, button')) return;
+            window.location.href = targetUrl;
+        });
+
+        card.addEventListener('keydown', (event) => {
+            if (event.key !== 'Enter' && event.key !== ' ') return;
+            event.preventDefault();
+            window.location.href = targetUrl;
         });
     });
 }

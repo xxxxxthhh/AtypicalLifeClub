@@ -56,6 +56,31 @@ a {
     letter-spacing: 0.02em;
 }
 
+.shell-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.36rem;
+    flex-wrap: wrap;
+}
+
+.shell-breadcrumb-link {
+    color: var(--secondary);
+    transition: color 0.2s ease;
+}
+
+.shell-breadcrumb-link:hover,
+.shell-breadcrumb-link:focus-visible {
+    color: var(--accent);
+}
+
+.shell-breadcrumb-separator {
+    color: var(--tertiary);
+}
+
+.shell-breadcrumb-current {
+    color: var(--primary);
+}
+
 .shell-brand-subtitle {
     font-size: 0.78rem;
     color: var(--secondary);
