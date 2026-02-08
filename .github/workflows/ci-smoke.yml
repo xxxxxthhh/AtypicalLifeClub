@@ -31,5 +31,8 @@ jobs:
       - name: Validate currency data
         run: python3 static/invest/currency/validate_data.py
 
+      - name: Validate metals data
+        run: python3 static/invest/metals/validate_data.py
+
       - name: Hugo build check
         run: hugo --minify

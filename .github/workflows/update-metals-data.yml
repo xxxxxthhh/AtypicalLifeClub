@@ -1,0 +1,39 @@
+name: Update Metals Data
+
+on:
+  schedule:
+    # 每天UTC时间01:00运行（北京时间09:00），错开currency更新
+    - cron: '0 1 * * *'
+  workflow_dispatch: # 允许手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install yfinance
+
+      - name: Fetch latest metals data
+        run: python3 static/invest/metals/update_data.py
+
+      - name: Validate metals data file
+        run: python3 static/invest/metals/validate_data.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'actions@github.com'
+          git add static/invest/metals/data/historical.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update metals data - $(date +'%Y-%m-%d')" && git push)
