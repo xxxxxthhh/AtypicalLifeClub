@@ -87,3 +87,33 @@ function normalizeLanguage(value) {
   const lang = String(value || "").toLowerCase();
   return SUPPORTED_LANGS.includes(lang) ? lang : "";
 }
+
+function readSavedLanguage() {
+  try {
+    return normalizeLanguage(window.localStorage.getItem(LANG_STORAGE_KEY));
+  } catch (error) {
+    return "";
+  }
+}
+
+function saveLanguage(lang) {
+  try {
+    window.localStorage.setItem(LANG_STORAGE_KEY, lang);
+  } catch (error) {}
+}
+
+function chooseInitialLanguage() {
+  const params = new URLSearchParams(window.location.search);
+  const fromQuery = normalizeLanguage(params.get(LANG_QUERY_KEY));
+  if (fromQuery) return fromQuery;
+  const fromStorage = readSavedLanguage();
+  if (fromStorage) return fromStorage;
+  return "zh";
+}
+
+function syncLanguageQuery() {
+  const params = new URLSearchParams(window.location.search);
+  params.set(LANG_QUERY_KEY, currentLang);
+  const nextUrl = `${window.location.pathname}?${params.toString()}`;
+  window.history.replaceState({}, "", nextUrl);
+}
