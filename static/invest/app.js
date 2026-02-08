@@ -19,11 +19,8 @@ const I18N = {
     statUpdated: "最近数据更新",
     currentModulesTitle: "当前模块",
     moduleResearchTitle: "企业调研",
-    moduleResearchButton: "打开 Research",
     moduleCurrencyTitle: "汇率追踪",
-    moduleCurrencyButton: "打开 Currency",
     moduleMetalsTitle: "金属追踪",
-    moduleMetalsButton: "打开 Metals",
     metricAssets: "追踪标的",
     metricReports: "研报数量",
     metricCoverage: "覆盖标的",
@@ -46,11 +43,8 @@ const I18N = {
     statUpdated: "Latest Data Update",
     currentModulesTitle: "Current Modules",
     moduleResearchTitle: "Research",
-    moduleResearchButton: "Open Research",
     moduleCurrencyTitle: "Currency",
-    moduleCurrencyButton: "Open Currency",
     moduleMetalsTitle: "Metals",
-    moduleMetalsButton: "Open Metals",
     metricAssets: "Assets",
     metricReports: "Reports",
     metricCoverage: "Coverage",
@@ -76,7 +70,9 @@ let currentLang = "zh";
 
 function setText(id, value) {
   const el = document.getElementById(id);
-  if (el) el.textContent = value;
+  if (el) {
+    el.textContent = value;
+  }
 }
 
 function getMessages() {
@@ -99,15 +95,19 @@ function readSavedLanguage() {
 function saveLanguage(lang) {
   try {
     window.localStorage.setItem(LANG_STORAGE_KEY, lang);
-  } catch (error) {}
+  } catch (error) {
+    // Ignore localStorage failures in private mode / restricted env.
+  }
 }
 
 function chooseInitialLanguage() {
   const params = new URLSearchParams(window.location.search);
   const fromQuery = normalizeLanguage(params.get(LANG_QUERY_KEY));
   if (fromQuery) return fromQuery;
+
   const fromStorage = readSavedLanguage();
   if (fromStorage) return fromStorage;
+
   return "zh";
 }
 
@@ -117,3 +117,194 @@ function syncLanguageQuery() {
   const nextUrl = `${window.location.pathname}?${params.toString()}`;
   window.history.replaceState({}, "", nextUrl);
 }
+
+function renderLanguageSwitch() {
+  const root = document.getElementById("languageSwitch");
+  if (!root) return;
+
+  root.querySelectorAll(".lang-opt").forEach((button) => {
+    button.classList.toggle("active", button.dataset.lang === currentLang);
+    button.setAttribute(
+      "aria-pressed",
+      button.dataset.lang === currentLang ? "true" : "false",
+    );
+  });
+}
+
+function applyTranslations() {
+  const messages = getMessages();
+  document.querySelectorAll("[data-i18n]").forEach((el) => {
+    const key = el.dataset.i18n;
+    if (messages[key]) {
+      el.textContent = messages[key];
+    }
+  });
+
+  const switchRoot = document.getElementById("languageSwitch");
+  if (switchRoot) {
+    switchRoot.setAttribute("aria-label", messages.switchAriaLabel);
+  }
+
+  document.documentElement.lang = currentLang === "zh" ? "zh-CN" : "en";
+  document.title = messages.documentTitle;
+  renderLanguageSwitch();
+  syncLanguageQuery();
+}
+
+function bindLanguageSwitch() {
+  const root = document.getElementById("languageSwitch");
+  if (!root) return;
+
+  root.querySelectorAll(".lang-opt").forEach((button) => {
+    button.addEventListener("click", () => {
+      const targetLang = normalizeLanguage(button.dataset.lang);
+      if (!targetLang || targetLang === currentLang) {
+        return;
+      }
+      currentLang = targetLang;
+      saveLanguage(currentLang);
+      applyTranslations();
+      renderStats();
+    });
+  });
+}
+
+function formatDateTime(value) {
+  if (!value) return "--";
+  if (typeof value === "string" && /^\d{4}-\d{2}-\d{2}$/.test(value)) {
+    const dateOnly = new Date(`${value}T00:00:00`);
+    if (!Number.isNaN(dateOnly.getTime())) {
+      return dateOnly.toLocaleDateString(
+        currentLang === "en" ? "en-US" : "zh-CN",
+      );
+    }
+  }
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return value;
+  return date.toLocaleString(currentLang === "en" ? "en-US" : "zh-CN");
+}
+
+function pickMostRecent(values) {
+  let latestValue = null;
+  let latestTs = -Infinity;
+
+  values.forEach((value) => {
+    if (!value) return;
+    const ts = new Date(value).getTime();
+    if (Number.isNaN(ts)) return;
+    if (ts > latestTs) {
+      latestTs = ts;
+      latestValue = value;
+    }
+  });
+
+  if (latestValue) return latestValue;
+  return values.find((value) => !!value) || null;
+}
+
+function renderStats() {
+  const globalUpdated = pickMostRecent([
+    statsState.researchUpdatedRaw,
+    statsState.currencyUpdatedRaw,
+    statsState.metalsUpdatedRaw,
+  ]);
+
+  setText("reportCount", statsState.reportCount);
+  setText("coverageCount", statsState.coverageCount);
+  setText("currencyDays", statsState.currencyDays);
+  setText("lastUpdated", formatDateTime(globalUpdated));
+
+  setText("moduleResearchReports", statsState.reportCount);
+  setText("moduleResearchCoverage", statsState.coverageCount);
+  setText(
+    "moduleResearchUpdated",
+    formatDateTime(statsState.researchUpdatedRaw),
+  );
+
+  setText("moduleCurrencyDays", statsState.currencyDays);
+  setText(
+    "moduleCurrencyUpdated",
+    formatDateTime(statsState.currencyUpdatedRaw),
+  );
+
+  setText("moduleMetalsAssets", statsState.metalsAssets);
+  setText("moduleMetalsUpdated", formatDateTime(statsState.metalsUpdatedRaw));
+}
+
+async function loadResearchStats() {
+  try {
+    const response = await fetch(REPORTS_URL, { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const reports = await response.json();
+    if (!Array.isArray(reports)) throw new Error("invalid reports data");
+
+    statsState.reportCount = String(reports.length);
+    statsState.coverageCount = String(
+      new Set(reports.map((r) => r.ticker)).size,
+    );
+    statsState.researchUpdatedRaw = pickMostRecent(
+      reports.map((r) => r.lastUpdate || r.date),
+    );
+  } catch (error) {
+    console.error("Failed to load research stats:", error);
+    statsState.reportCount = "--";
+    statsState.coverageCount = "--";
+    statsState.researchUpdatedRaw = null;
+  }
+  renderStats();
+}
+
+async function loadCurrencyStats() {
+  try {
+    const response = await fetch(CURRENCY_URL, { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const payload = await response.json();
+
+    const days = payload?.metadata?.total_days;
+    const updated = payload?.metadata?.last_updated;
+
+    statsState.currencyDays = Number.isFinite(days) ? String(days) : "--";
+    statsState.currencyUpdatedRaw = updated || null;
+  } catch (error) {
+    console.error("Failed to load currency stats:", error);
+    statsState.currencyDays = "--";
+    statsState.currencyUpdatedRaw = null;
+  }
+  renderStats();
+}
+
+async function loadMetalsStats() {
+  try {
+    const response = await fetch(METALS_URL, { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const payload = await response.json();
+
+    const metadata = payload?.metadata || {};
+    const totalMetals = metadata.total_metals;
+    const totalEtfs = metadata.total_etfs;
+    let assets = null;
+
+    if (Number.isFinite(totalMetals) || Number.isFinite(totalEtfs)) {
+      assets =
+        (Number.isFinite(totalMetals) ? totalMetals : 0) +
+        (Number.isFinite(totalEtfs) ? totalEtfs : 0);
+    } else if (payload?.current && typeof payload.current === "object") {
+      assets = Object.keys(payload.current).length;
+    }
+
+    statsState.metalsAssets = Number.isFinite(assets) ? String(assets) : "--";
+    statsState.metalsUpdatedRaw = metadata.last_updated || null;
+  } catch (error) {
+    console.error("Failed to load metals stats:", error);
+    statsState.metalsAssets = "--";
+    statsState.metalsUpdatedRaw = null;
+  }
+  renderStats();
+}
+
+document.addEventListener("DOMContentLoaded", async () => {
+  currentLang = chooseInitialLanguage();
+  applyTranslations();
+  bindLanguageSwitch();
+  await Promise.all([loadResearchStats(), loadCurrencyStats(), loadMetalsStats()]);
+});
