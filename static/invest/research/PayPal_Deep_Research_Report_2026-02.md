@@ -1,8 +1,71 @@
 # PayPal Holdings Inc. (PYPL) Deep Research Report
 
 **Date:** February 4, 2026
+**Last Updated:** February 9, 2026
 **Analyst:** Claude AI (Assisted Research)
 **Disclaimer:** This is not investment advice. This report is for informational purposes only. Conduct your own due diligence before making any investment decisions.
+
+---
+
+## 📌 Weekly Update — February 9, 2026
+
+### Stock Price
+- **Current Price:** $40.42 (as of Feb 7 close)
+- **Weekly Change:** -22% from pre-earnings levels (~$52)
+- **52-Week Context:** Trading near multi-year lows; stock plunged ~20% on Feb 3-4 following Q4 earnings miss and CEO departure
+
+### Key Events This Week
+
+**1. Q4 2025 Earnings Miss (Feb 3)**
+- EPS: $1.23 (missed consensus $1.29 by 4.65%)
+- Revenue: $8.68B (missed consensus $8.79B by 1.25%)
+- Branded checkout growth decelerated sharply to 1% in Q4 (vs 5% in Q3)
+- Full-year 2025: Revenue $33.2B (+4% YoY), TPV $1.79T (+7% YoY)
+- Venmo bright spot: $1.7B revenue (+20% YoY), 67M MAUs (+7% YoY)
+
+**2. CEO Transition Announced (Feb 3)**
+- Alex Chriss stepping down after ~2.5 years as CEO
+- Board cited "pace of change and execution not in line with expectations"
+- Enrique Lores (former HP Inc. CEO, PayPal board chair since July 2024) appointed as new CEO effective March 1, 2026
+- Jamie Miller serving as interim CEO
+- David W. Dorman appointed Independent Board Chair
+
+**3. Weak 2026 Guidance**
+- Company projects low-single-digit decline to slightly positive adjusted profit growth
+- Significantly below analyst expectations of ~8% growth
+- 2026 characterized as a "transition year" focused on resetting strategic execution
+
+**4. Massive Analyst Downgrades (Feb 4)**
+- Morgan Stanley: Reiterated Sell, PT cut to $34 (from $50)
+- Goldman Sachs: PT cut to $41 (from $64)
+- JP Morgan: PT cut to $46 (from $70)
+- Citigroup: PT cut to $42 (from $60)
+- Canaccord Genuity: Downgraded to Hold (from Buy), PT cut to $42 (from $100)
+- HSBC: Downgraded to Hold
+- Consensus now ~$54-64 average PT; overall rating shifted to "Hold"
+
+**5. NEO PAY Partnership (Feb 8)**
+- Strategic partnership with UAE-based digital payments provider NEO PAY
+- Enables merchants across the Emirates to accept PayPal payments
+- Aimed at accelerating cross-border trade for SMBs in the region
+
+**6. Visa+ Venmo Discontinuation**
+- Effective Feb 19, 2026: Users can no longer use Visa+ to send/receive money from Venmo accounts
+
+### Thesis Impact Assessment
+
+**Material changes to investment thesis:**
+
+| Factor | Direction | Detail |
+|--------|-----------|--------|
+| Branded Checkout | ⬇️ Negative | 1% Q4 growth is worse than feared; structural decline accelerating |
+| Leadership | ⚠️ Uncertain | Second CEO change in 2.5 years raises execution risk; Lores' payments experience is limited |
+| Valuation | ⬇️ Lower | Now trading at ~8-9x forward P/E, FCF yield ~16%; deep value territory but could be a value trap |
+| 2026 Guidance | ⬇️ Negative | "Transition year" language signals no near-term catalyst |
+| Venmo | ⬆️ Positive | 20% revenue growth remains the strongest growth vector |
+| Buybacks | ⬆️ Positive | $6B+ expected buybacks in 2025-2026; $15B program completed, retiring ~22.5% of shares since 2022 |
+
+**Updated Verdict:** Thesis remains **NEUTRAL** but conviction shifts slightly more cautious. The magnitude of the earnings miss, branded checkout deceleration (1% is near-stagnation), and second CEO change in rapid succession increase execution risk materially. However, the stock at $40 prices in significant pessimism — 16% FCF yield and ~9x forward P/E provide a margin of safety if new leadership can stabilize branded checkout and continue Venmo monetization. Key watch item: Enrique Lores' first strategic communication post-March 1 will be critical for reassessing the thesis.
 
 ---
 
