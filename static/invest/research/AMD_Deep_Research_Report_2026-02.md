@@ -7,6 +7,62 @@
 
 ---
 
+## 📌 Weekly Update — February 9, 2026
+
+**Stock Price:** $208.44 (as of Feb 7, 2026) | 52-week range: $76.48–$267.08
+
+### Key Developments This Week
+
+**1. Q4 2025 Earnings Beat & Strong Q1 2026 Guidance**
+AMD reported record Q4 2025 results that exceeded analyst expectations on both top and bottom lines:
+- Revenue: $10.3B (+34% YoY) vs. $9.64B consensus
+- Non-GAAP EPS: $1.53 vs. $1.32 consensus
+- Non-GAAP Gross Margin: 57%
+- Data Center revenue: $5.4B (+39% YoY)
+- Full-year 2025 revenue: $34.6B (record)
+
+Q1 2026 guidance of ~$9.8B (±$0.3B) also came in above the $9.37–$9.40B analyst consensus. Stock jumped 7.7% on Feb 6 following the results. CEO Lisa Su reiterated long-term confidence, projecting data center revenue growth of 60%+ annually over the next 3–5 years and AI business reaching "tens of billions" in annual revenue by 2027.
+
+**2. AI Chip Roadmap: MI450 Helios on Track for Q3 2026**
+AMD confirmed the MI450 "Helios" rack-scale systems remain on track for volume shipments starting Q3 2026, with ramp into Q4 2026 and 2027. Key details:
+- Oracle Cloud Infrastructure (OCI) confirmed as launch partner with initial deployment of 50,000 MI450 Series GPUs
+- HPE and Lenovo announced plans to offer Helios systems in 2026
+- MI455X accelerators expected to deliver up to 3 AI exaflops per rack
+- MI440X introduced at CES 2026 for on-premises enterprise AI deployments
+- MI500 series slated for 2027, extending the roadmap
+
+**3. NVIDIA Competition Intensifies**
+NVIDIA announced the "Rubin" R100 platform for 2026, featuring HBM4 memory and targeting AI factories. Goldman Sachs projects NVIDIA data center revenue reaching $500B through 2026. AMD's competitive positioning relies on:
+- Superior memory bandwidth (60% more on MI300X vs. H100)
+- Open-source ROCm software stack to counter CUDA lock-in
+- Growing EPYC CPU attach rate in "agentic AI" workloads
+- Price-performance advantages in inference workloads
+
+**4. Other Notable Developments**
+- Intel announced GPU market re-entry, adding a third competitor in enterprise/cloud AI
+- AMD confirmed HBM and wafer supply secured through multi-year agreements, mitigating 2026 memory shortage concerns
+- Valve Steam Machine (AMD-powered) on track for early 2026 shipment
+- RDNA 5-based SoC for next-gen Xbox in development (2027 launch)
+- ROCm 7.2 released with Ryzen AI 400 Series support
+- Partnership with Generative Bionics for GENE1.0 humanoid robot
+
+### Thesis Impact Assessment
+
+**No material change to investment thesis.** The Q4 beat and strong guidance reinforce the "Cautiously Bullish" stance. Key positives:
+- Data center momentum accelerating faster than expected
+- MI450 Helios timeline holding, with major cloud partner (Oracle) committed
+- Financial execution remains strong (57% gross margin, record FCF)
+
+Key risks to monitor:
+- NVIDIA Rubin platform could reset competitive dynamics in H2 2026
+- Intel GPU re-entry adds competitive pressure
+- Stock at $208 still trades at premium multiples (~36-40x forward P/E)
+- Memory supply constraints could limit GPU production ramp
+
+**Updated Market Cap:** ~$338B (at $208.44/share)
+
+---
+
 ## Executive Summary
 
 **One-Line Thesis:** AMD is executing a multi-year transformation from CPU challenger to diversified AI infrastructure provider, with accelerating data center momentum offset by premium valuation and execution risks.
