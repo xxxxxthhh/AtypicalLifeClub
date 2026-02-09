@@ -1,8 +1,60 @@
 # Oklo Inc. (NYSE: OKLO) Deep Research Report
 
 **Date:** February 4, 2026
+**Last Updated:** February 9, 2026
 **Analyst:** Claude AI (Assisted Research)
 **Disclaimer:** This is not investment advice. This report is for informational purposes only. Conduct your own due diligence before making any investment decisions.
+
+---
+
+## 📌 Weekly Update — February 9, 2026
+
+### Stock Price
+- **Last Close (Feb 6):** $71.10 (+14.42% from prior close of $62.14)
+- **Week Range:** $64.31 – $72.18
+- **Down ~63% from Oct 2025 ATH** of $193.84
+- **Volume:** ~12.7M shares (Feb 6) — elevated activity
+
+### Key Developments This Week
+
+**1. Texas Capital Initiates Coverage (Feb 7)**
+- Rating: **Buy** | Price Target: **$138**
+- Cited Oklo as a key player in advanced nuclear solutions
+- Follows Bank of America's upgrade to Buy (PT $127) on Jan 21
+
+**2. DOE Awards $19M for Spent Fuel Recycling (Feb 7)**
+- Oklo among five companies receiving DOE funding
+- Will advance spent nuclear fuel recycling R&D
+- Supports Oklo's planned $1.68B fuel recycling facility in Oak Ridge, TN
+- Metal fuel production for Aurora reactor targeted for early 2030s
+
+**3. Insider Selling Pressures Stock (Feb 3-5)**
+- CEO Jacob Dewitte and CFO Richard Craig Bealmear sold shares in early February
+- Contributed to an 8.7% single-day drop on Feb 5
+- Stock recovered sharply on Feb 6 (+14.42%)
+
+**4. Meta Partnership Continues to Drive Narrative**
+- 1.2 GW nuclear campus in Ohio with Meta Platforms remains the flagship deal
+- Meta prepaying for power and providing project funding
+- Reconstruction to begin 2026; first phase online by 2030, full completion by 2034
+- Part of broader Meta/TerraPower/Vistra 6.6 GW energy agreement
+
+**5. DOE Criticality Target: July 4, 2026**
+- DOE has set a target for pilot nuclear reactor criticality by July 4, 2026
+- A key near-term milestone that could significantly impact stock sentiment
+
+### Analyst Consensus Shift
+| Firm | Rating | Price Target |
+|------|--------|-------------|
+| Texas Capital (New) | Buy | $138 |
+| Bank of America | Buy | $127 |
+| MarketBeat Consensus | Moderate Buy | — |
+
+### Impact on Investment Thesis
+- **No material change** to core thesis (NEUTRAL with LOW conviction)
+- Bull case strengthened by: Texas Capital initiation, DOE recycling funding, Meta deal execution progress
+- Bear case reinforced by: Insider selling, continued pre-revenue status, stock still ~63% below ATH
+- **Key upcoming catalyst:** DOE criticality target (July 4, 2026) — watch closely
 
 ---
 
