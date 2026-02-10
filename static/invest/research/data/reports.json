@@ -1,5 +1,28 @@
 [
   {
+    "id": "netflix-2026",
+    "company": "Netflix",
+    "ticker": "NASDAQ: NFLX",
+    "title": "Netflix 深度研究报告 - 流媒体帝国的豪赌与转型",
+    "titleEn": "Netflix Deep Research Report - The Streaming Empire's Bold Bet and Transformation",
+    "summary": "全球流媒体龙头，2025年营收$45.2B（+16%），运营利润率29.5%，FCF $9.5B。3.25亿付费用户，广告收入超$1.5B。827亿美元收购华纳兄弟是最大变量，股价从高点回调40%+后Forward PE ~26-29x。",
+    "tags": ["流媒体", "内容平台", "广告", "并购"],
+    "category": "tech",
+    "date": "2026-02-10",
+    "lastUpdate": "2026-02-10",
+    "file": "/invest/research/reports/view.html?id=netflix-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Netflix_深度研究报告_2026-02.md",
+      "en": "/invest/research/Netflix_Deep_Research_Report_2026-02.md"
+    },
+    "highlights": [
+      "2025年营收$45.2B，运营利润率29.5%，FCF $9.5B",
+      "3.25亿付费用户，广告收入超$1.5B（+150% YoY）",
+      "827亿美元收购华纳兄弟，新增~500亿债务",
+      "Forward PE ~26-29x，从高点回调40%+，对比Spotify更具性价比"
+    ]
+  },
+  {
     "id": "spotify-2026",
     "company": "Spotify",
     "ticker": "NYSE: SPOT",
