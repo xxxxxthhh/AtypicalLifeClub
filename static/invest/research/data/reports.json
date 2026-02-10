@@ -164,23 +164,23 @@
     "id": "oklo-2026",
     "company": "Oklo Inc.",
     "ticker": "NYSE: OKLO",
-    "title": "OKLO 详尽调研报告 - 2026年发展前景分析",
-    "titleEn": "OKLO Deep Research Report - 2026 Outlook",
-    "summary": "小型模块化核反应堆开发商，与Meta签署1.2 GW合作项目。2026年将是关键年，监管进展和项目执行将直接影响长期前景。",
+    "title": "OKLO 深度研究报告 - 先进核能的想象力与现实",
+    "titleEn": "OKLO Deep Research Report - Advanced Nuclear's Imagination vs Reality",
+    "summary": "先进核裂变技术公司，零营收、$11.7B市值，$1.2B现金储备。14.7GW+项目管线（含Switch 12GW），Meta 1.2GW俄亥俄核能园区，爱达荷首堆2027-2028年投运。股价从$193高点回调63%至~$71，概率加权估值约$65-85。",
     "tags": ["核能", "SMR", "清洁能源", "AI基础设施"],
     "category": "nuclear",
-    "date": "2026-02-03",
-    "lastUpdate": "2026-02-03",
+    "date": "2026-02-10",
+    "lastUpdate": "2026-02-10",
     "file": "/invest/research/reports/view.html?id=oklo-2026",
     "markdownFiles": {
-      "zh": "/invest/research/OKLO_研究报告_2026.md",
+      "zh": "/invest/research/Oklo_深度研究报告_2026-02.md",
       "en": "/invest/research/Oklo_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "市值115亿美元，前收入阶段公司",
-      "Meta 1.2 GW核能园区合作",
-      "2027-2028年首个反应堆投运",
-      "NRC监管审查关键年"
+      "市值$11.7B，零营收前商业化阶段，现金$1.2B零债务",
+      "14.7GW+管线：Meta 1.2GW + Switch 12GW + 多家数据中心",
+      "爱达荷首堆2025年9月动工，目标2027-2028年投运",
+      "股价从$193高点回调63%至~$71，概率加权估值$65-85"
     ]
   }
 ]
