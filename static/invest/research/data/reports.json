@@ -1,5 +1,28 @@
 [
   {
+    "id": "spotify-2026",
+    "company": "Spotify",
+    "ticker": "NYSE: SPOT",
+    "title": "Spotify 深度研究报告 - 音频科技平台的盈利转型",
+    "titleEn": "Spotify Deep Research Report - Audio Tech Platform's Profitability Transformation",
+    "summary": "全球最大音频流媒体平台，2025年完成盈利转型：运营利润€2.2B（利润率12.8%），FCF €2.9B。7.51亿MAU、2.90亿付费用户，定价权释放+AI驱动增长，但Forward PE ~45x仍需消化高预期。",
+    "tags": ["流媒体", "音频科技", "AI", "订阅经济"],
+    "category": "tech",
+    "date": "2026-02-10",
+    "lastUpdate": "2026-02-10",
+    "file": "/invest/research/reports/view.html?id=spotify-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Spotify_深度研究报告_2026-02.md",
+      "en": "/invest/research/Spotify_Deep_Research_Report_2026-02.md"
+    },
+    "highlights": [
+      "2025年运营利润€2.2B，利润率从-5.6%到+12.8%",
+      "7.51亿MAU、2.90亿付费用户，三轮提价流失率极低",
+      "AI播放列表+有声书+视频播客多元化布局",
+      "Forward PE ~45x，从$785高点回调47%至~$416"
+    ]
+  },
+  {
     "id": "neov-2026",
     "company": "NeoVolta",
     "ticker": "NASDAQ: NEOV",
