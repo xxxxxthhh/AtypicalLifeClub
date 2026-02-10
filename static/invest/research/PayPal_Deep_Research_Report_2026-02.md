@@ -87,8 +87,8 @@
 | P/E (Forward) | 9.2x |
 | Revenue (2025) | $33.2B (+4% YoY) |
 | Operating Margin | 18.0% (2025) |
-| FCF (2025) | $6.4B |
-| FCF Yield | 16% |
+| FCF (2025) | $5.6B |
+| FCF Yield | 14% |
 | Debt/EBITDA | ~1.5x |
 
 **Key Takeaway:** PayPal trades at a significant discount to historical multiples (10-year low P/E) despite solid free cash flow generation and improving profitability. However, the discount reflects real concerns: slowing branded checkout growth (1% in Q4 2025), intensifying competition from Apple Pay/Google Pay, and leadership transition uncertainty. The bull case hinges on successful monetization of Venmo, Fastlane adoption, and margin expansion. The bear case centers on structural market share loss in core branded checkout and inability to compete with device-native wallets.

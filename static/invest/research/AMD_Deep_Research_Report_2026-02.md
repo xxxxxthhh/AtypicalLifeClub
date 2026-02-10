@@ -75,7 +75,7 @@ Key risks to monitor:
 **Quick Stats:**
 | Metric | Value |
 |--------|-------|
-| Market Cap | ~$240B (as of Feb 2026) |
+| Market Cap | ~$338B (at $208.44/share) |
 | P/E (TTM) | 121.7x |
 | P/E (Forward 2026E) | 36-40x |
 | Revenue Growth (2025) | +34% YoY |
