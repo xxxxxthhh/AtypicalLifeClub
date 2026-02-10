@@ -19,7 +19,7 @@
 | Metric | Value |
 |--------|-------|
 | Price (2026/2/10) | ~$81 |
-| Market Cap | ~$35B (post-split adjusted) |
+| Market Cap | ~$350B |
 | P/E (TTM) | ~32x |
 | Forward P/E (2026E) | ~26-29x |
 | 2025 Revenue | $45.2B (+16% YoY) |
