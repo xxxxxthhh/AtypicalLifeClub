@@ -1,5 +1,28 @@
 [
   {
+    "id": "bloom-energy-2026",
+    "company": "Bloom Energy",
+    "ticker": "NYSE: BE",
+    "title": "Bloom Energy 深度研究报告 - AI数据中心电力基础设施的关键玩家",
+    "titleEn": "Bloom Energy Deep Research Report - Critical Power Infrastructure Player for AI Data Centers",
+    "summary": "固体氧化物燃料电池龙头，2025年营收$20.2亿（+37%），Non-GAAP毛利率30.3%，首次GAAP盈亏平衡。$200亿总积压订单，Brookfield $50亿合作，AEP $26.5亿协议。2026年营收指引$31-33亿（+54-63%）。市值~$360亿，EV/Revenue(2026E) ~11x，估值要求近乎完美执行。",
+    "tags": ["燃料电池", "AI数据中心", "清洁能源", "SOFC"],
+    "category": "energy",
+    "date": "2026-02-11",
+    "lastUpdate": "2026-02-11",
+    "file": "/invest/research/reports/view.html?id=bloom-energy-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Bloom_Energy_深度研究报告_2026-02.md",
+      "en": "/invest/research/Bloom_Energy_Deep_Research_Report_2026-02.md"
+    },
+    "highlights": [
+      "2025年营收$20.2亿（+37%），首次GAAP盈亏平衡，Non-GAAP毛利率30.3%",
+      "总积压订单$200亿（产品$60亿+140% YoY），Brookfield $50亿AI数据中心合作",
+      "固定式燃料电池全球市场份额44%，55-90天快速部署 vs 电网3-7年",
+      "2026年营收指引$31-33亿，市值~$360亿，客户集中度和持续稀释是核心风险"
+    ]
+  },
+  {
     "id": "salesforce-2026",
     "company": "Salesforce",
     "ticker": "NASDAQ: CRM",
