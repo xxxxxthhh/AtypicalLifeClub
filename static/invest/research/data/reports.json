@@ -1,5 +1,28 @@
 [
   {
+    "id": "salesforce-2026",
+    "company": "Salesforce",
+    "ticker": "NASDAQ: CRM",
+    "title": "Salesforce 深度研究报告 - CRM霸主的AI转型与估值重估",
+    "titleEn": "Salesforce Deep Research Report - CRM Leader's AI Transformation and Valuation Reset",
+    "summary": "全球CRM霸主，FY2025营收$37.9B（+9%），FCF $12.4B（+31%），Non-GAAP利润率33%。Agentforce ARR $540M（+330%），$80亿收购Informatica。股价从$330跌至~$193（-41%），Forward P/E仅17x，P/S接近10年低位。净留存率降至~100%是核心担忧。",
+    "tags": ["企业软件", "CRM", "AI Agent", "SaaS"],
+    "category": "tech",
+    "date": "2026-02-11",
+    "lastUpdate": "2026-02-11",
+    "file": "/invest/research/reports/view.html?id=salesforce-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Salesforce_深度研究报告_2026-02.md",
+      "en": "/invest/research/Salesforce_Deep_Research_Report_2026-02.md"
+    },
+    "highlights": [
+      "FY2025营收$37.9B，FCF $12.4B（+31%），Non-GAAP利润率33%",
+      "Agentforce ARR $540M（+330% YoY），18,500+笔交易",
+      "$80亿收购Informatica，$500亿回购授权",
+      "股价从$330跌至~$193（-41%），Forward P/E 17x，P/S接近10年低位"
+    ]
+  },
+  {
     "id": "coinbase-2026",
     "company": "Coinbase",
     "ticker": "NASDAQ: COIN",
