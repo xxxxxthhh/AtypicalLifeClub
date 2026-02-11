@@ -1,5 +1,28 @@
 [
   {
+    "id": "coinbase-2026",
+    "company": "Coinbase",
+    "ticker": "NASDAQ: COIN",
+    "title": "Coinbase 深度研究报告 - 加密基础设施垄断者的转型与周期博弈",
+    "titleEn": "Coinbase Deep Research Report - Crypto Infrastructure Monopolist's Transformation and Cycle Play",
+    "summary": "美国最大合规加密交易所，标普500成分股。FY2024营收$6.56B，净利润$3.2B。订阅收入占比提升至40%，9/11个BTC ETF托管方，$29亿收购Deribit。股价从$444跌至~$150，TTM P/E 15x。SEC诉讼已撤销，但SBC $2.1B/年、加密周期不确定性是核心风险。",
+    "tags": ["加密货币", "交易所", "USDC", "衍生品"],
+    "category": "tech",
+    "date": "2026-02-11",
+    "lastUpdate": "2026-02-11",
+    "file": "/invest/research/reports/view.html?id=coinbase-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Coinbase_深度研究报告_2026-02.md",
+      "en": "/invest/research/Coinbase_Deep_Research_Report_2026-02.md"
+    },
+    "highlights": [
+      "FY2024营收$6.56B，净利润$3.2B，标普500成分股",
+      "订阅收入占比40%，9/11个BTC ETF托管方，Deribit $29亿收购",
+      "SEC诉讼已撤销，Base链Q4稳定币交易量$3T",
+      "股价从$444跌至~$150（-65%），TTM P/E 15x，SBC $2.1B/年"
+    ]
+  },
+  {
     "id": "amzn-2026",
     "company": "Amazon",
     "ticker": "NASDAQ: AMZN",
