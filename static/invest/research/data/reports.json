@@ -1,5 +1,28 @@
 [
   {
+    "id": "amzn-2026",
+    "company": "Amazon",
+    "ticker": "NASDAQ: AMZN",
+    "title": "Amazon 深度研究报告 - AI基础设施豪赌与飞轮加速",
+    "titleEn": "Amazon Deep Research Report - The AI Infrastructure Bet and Flywheel Acceleration",
+    "summary": "全球最大电商+云计算巨头，FY2025营收$716.9B（+12%），营业利润$80B，净利润$77.7B。AWS增速重新加速至24%，广告$68.6B（+22%），自研芯片年化收入超$100亿。2026年资本开支指引$200B，FCF从$38B骤降至$11B。P/E 29x，分部估值有上行空间。",
+    "tags": ["云计算", "电商", "AI基础设施", "广告"],
+    "category": "tech",
+    "date": "2026-02-11",
+    "lastUpdate": "2026-02-11",
+    "file": "/invest/research/reports/view.html?id=amzn-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/AMZN_深度研究报告_2026-02.md",
+      "en": "/invest/research/AMZN_Deep_Research_Report_2026-02.md"
+    },
+    "highlights": [
+      "FY2025营收$716.9B，净利润$77.7B（+31% YoY）",
+      "AWS Q4增速24%（13季度最快），年收入$128.7B",
+      "广告收入$68.6B（+22%），自研芯片超$100亿年化收入",
+      "2026年资本开支指引$200B，FCF骤降71%至$11.2B"
+    ]
+  },
+  {
     "id": "netflix-2026",
     "company": "Netflix",
     "ticker": "NASDAQ: NFLX",
