@@ -4,6 +4,8 @@
 **Analyst:** AI-Assisted Research
 **Disclaimer:** This is not investment advice. Do your own due diligence.
 
+> **[2026-02-12 Update]** Updated with Q4 2025 actual earnings data (released Feb 5, 2026). Key additions: Q4 quarterly breakdown, GAAP profitability clarification, 800V DC solution details, 2026 EPS guidance. Strikethrough (~~old~~) marks corrected data.
+
 ---
 
 ## Executive Summary
@@ -59,6 +61,7 @@ This is the defining narrative for Bloom Energy in 2025-2026. The company has re
 
 - **The Problem:** AI training clusters require 50-200+ MW of continuous, reliable power. Grid interconnection timelines have stretched to 3-7 years in many regions. Power availability has become the #1 bottleneck for AI infrastructure buildout.
 - **Bloom's Solution:** On-site, behind-the-meter power generation that can be deployed in 55-90 days, bypassing grid queues entirely.
+- **800V DC Solution [2026-02-12 Update]:** Bloom has introduced an 800-volt DC power architecture as its new product standard. All new server shipments are 800V DC ready (with removable adapter for existing AC environments), connecting fuel cells directly to AI server racks for higher efficiency, reduced waste heat, and smaller footprint. This positions Bloom ahead of the expected industry shift to 800V DC in data centers.
 - **Key Partnerships:**
   - **Brookfield Asset Management:** $5B partnership to deploy fuel cells at AI data centers globally
   - **AEP:** $2.65B agreement for 1 GW of SOFCs with 20-year off-take
@@ -120,22 +123,43 @@ Bloom holds a **44% global market share** in stationary fuel cells — a dominan
 
 The acceleration from ~10% growth in 2023-2024 to 37% in 2025 and guided 54-63% in 2026 reflects the AI data center demand inflection.
 
+### Q4 2025 Quarterly Detail [2026-02-12 Update]
+
+| Metric | Q4 2025 | Notes |
+|--------|---------|-------|
+| Revenue | $777.7M | +35.9% YoY |
+| Non-GAAP Gross Margin | 31.9% | Highest quarterly margin |
+| GAAP Gross Margin | 30.8% | |
+| Non-GAAP Operating Income | $133.0M | |
+| GAAP Operating Income | $87.5M | |
+| Non-GAAP Diluted EPS | $0.45 | Beat consensus |
+| GAAP Net Income | $1.1M | First quarter of GAAP net profitability |
+| Operating Cash Flow | $418.1M | Strong Q4 cash generation |
+| Product Margins | 37% | |
+| Service Margins | ~20% | |
+
+Q4 was the strongest quarter in company history, with revenue representing ~38% of full-year total. The sequential ramp demonstrates manufacturing execution capability.
+
 ### Profitability Trajectory
 
 | Metric | 2023 | 2024 | 2025 | 2026E |
 |--------|------|------|------|-------|
 | GAAP Gross Margin | 14.8% | 27.5% | 29.0% | ~30% |
 | Non-GAAP Gross Margin | 25.8% | 28.7% | 30.3% | ~32% |
-| Non-GAAP Operating Income | — | ~$100M | $221M | $425-475M |
+| Non-GAAP Operating Income | — | ~~$~100M~~ $107.6M | $221M | $425-475M |
+| GAAP Operating Income [Update] | — | — | $72.8M | — |
+| GAAP Net Income [Update] | — | — | ~~breakeven~~ -$87.1M (FY) / +$1.1M (Q4) | — |
 | Operating Cash Flow | — | Positive | $113.9M | ~$200M |
+| Non-GAAP EPS [Update] | — | — | — | $1.33-1.48 |
 
-The company achieved breakeven GAAP profitability in 2025 for the first time — a significant milestone.
+~~The company achieved breakeven GAAP profitability in 2025 for the first time — a significant milestone.~~ **[2026-02-12 Correction]** The company achieved positive GAAP operating income ($72.8M) for FY2025, but still reported a full-year GAAP net loss of -$87.1M (due to interest expense and other below-the-line items). However, Q4 2025 marked the first quarter of GAAP net profitability ($1.1M net income) — a meaningful milestone indicating the path to sustained GAAP profitability.
 
 ### Balance Sheet
 
 - **Cash position:** >$2B following a convertible debt transaction
 - **Debt:** Elevated; debt-to-equity ratio above industry norms
 - **Free Cash Flow:** Positive for second consecutive year in 2025
+- **Q4 2025 Operating Cash Flow [Update]:** $418.1M (strong Q4 cash generation drove full-year total)
 - **CapEx (2026E):** $150-200M (capacity expansion to 2 GW)
 
 ### Backlog — The Growth Visibility
@@ -154,7 +178,7 @@ This backlog provides multi-year revenue visibility, though execution and timing
 |--------|---------|--------|-------|-------|
 | Revenue Growth | 37.3% | 11.2% | ↑ Accelerating | A |
 | Non-GAAP Gross Margin | 30.3% | 25.8% | ↑ Expanding | B+ |
-| Operating Margin | ~11% | Negative | ↑ Inflecting | B |
+| Operating Margin | ~~11% blended~~ 10.9% Non-GAAP / 3.6% GAAP | Negative | ↑ Inflecting | B |
 | FCF Generation | Positive | Negative | ↑ Improving | B |
 | Debt/Equity | High | High | → Stable | C |
 | Revenue Concentration | High (3 customers) | Moderate | ↓ Worsening | C- |
@@ -163,7 +187,7 @@ This backlog provides multi-year revenue visibility, though execution and timing
 
 - ⚠️ **Customer concentration:** Significant portion of 2025 revenue from just 3 customers
 - ⚠️ **Stock-based compensation:** Shares outstanding grew ~3% in 2025, ~7% in 2024, ~14% in 2023 — persistent dilution
-- ⚠️ **GAAP vs Non-GAAP gap:** ~130 bps gross margin gap suggests meaningful SBC and adjustments
+- ⚠️ **GAAP vs Non-GAAP gap:** ~~130 bps gross margin gap suggests meaningful SBC and adjustments~~ [Update] Gap is more significant at the operating/net income level: FY2025 Non-GAAP operating income $221M vs GAAP operating income $72.8M; GAAP net loss -$87.1M despite Non-GAAP profitability
 - ⚠️ **Convertible debt:** Large convertible issuance adds potential future dilution
 - ✅ **No auditor changes or restatements**
 - ✅ **Positive and growing operating cash flow**
@@ -205,6 +229,10 @@ This backlog provides multi-year revenue visibility, though execution and timing
 
 5. **Hydrogen optionality is free.** The SOEC electrolyzer business (Jeju Island demo, SK partnership) represents a potential second growth vector that the market isn't fully pricing.
 
+6. **[2026-02-12 Update] 800V DC architecture positions Bloom for next-gen data centers.** All new shipments are 800V DC ready, anticipating the industry shift from AC to DC power distribution in AI data centers. This could deepen Bloom's integration into customer infrastructure and raise switching costs further.
+
+7. **[2026-02-12 Update] Q4 2025 execution validates the ramp.** Q4 revenue of $777.7M (+35.9% YoY) represented ~38% of full-year revenue, demonstrating the company can deliver accelerating quarterly volumes. Non-GAAP gross margin hit 31.9% in Q4, already approaching the 32% 2026 target.
+
 **Key Assumptions:**
 - AI CapEx cycle continues through 2027+
 - Bloom successfully scales manufacturing to 2 GW by end of 2026
@@ -238,6 +266,7 @@ This backlog provides multi-year revenue visibility, though execution and timing
 - Service cost escalation as installed base grows (fuel cell stack replacements every 5-7 years)
 - Tariff and trade policy risks on manufacturing inputs
 - Short interest elevated in early 2026
+- [2026-02-12 Update] FY2025 GAAP net loss of -$87.1M despite Non-GAAP profitability highlights the gap between adjusted and reported earnings; interest expense on convertible debt is a meaningful drag
 
 **Bear Scenario:** Revenue growth decelerates to 20-30% as capacity constraints bite, margins disappoint due to scaling costs, and the stock de-rates to 5-7x forward revenue, implying 40-50% downside.
 
@@ -274,6 +303,7 @@ This backlog provides multi-year revenue visibility, though execution and timing
 | EV/Revenue (2026E) | ~11x |
 | P/E (TTM) | >1,700x |
 | EV/Non-GAAP Operating Income (2026E) | ~80x |
+| Non-GAAP EPS (2026E) [Update] | $1.33-$1.48 |
 | Analyst Consensus Target | ~$128 (range: $40-$207) |
 
 ### Implied Assumptions at Current Price
@@ -333,7 +363,8 @@ However, the stock's valuation demands near-perfect execution. At ~18x 2025 reve
 ## Appendix
 
 ### Data Sources
-- Bloom Energy Q4 2025 Earnings Release & Investor Presentation
+- Bloom Energy Q4 2025 Earnings Release & Investor Presentation (Feb 5, 2026)
+- Bloom Energy Q4 2025 Press Release — revenue, margins, EPS, cash flow detail [2026-02-12 Update]
 - SEC Filings (10-K, 10-Q)
 - Analyst reports and consensus estimates
 - Industry research (MarketsandMarkets, Grand View Research)
