@@ -1,6 +1,8 @@
 # Coinbase Global (COIN) Deep Research Report
 
-**Date:** February 11, 2026
+**[2026-02-13 Update] Updated with Q4 2025 earnings data (released 2/12 after market close). Q4 revenue $1.78B missed estimates; net loss of $667M ended 8-quarter profitability streak. FY2025 revenue confirmed at $7.18B. Old data marked with ~~strikethrough~~.**
+
+**Date:** February 11, 2026 (Updated: February 13, 2026)
 **Analyst:** AI-Assisted Research
 **Disclaimer:** This report does not constitute investment advice. Please conduct your own due diligence.
 
@@ -12,7 +14,7 @@
 
 **Investment Verdict:**
 - Lean: Cautiously Bullish | Conviction: Medium
-- Key Catalyst: Q4 2025 earnings (releasing 2/12), crypto regulatory legislation progress, BTC price trajectory
+- Key Catalyst: ~~Q4 2025 earnings (releasing 2/12)~~ Q4 2025 earnings released 2/12 — missed estimates, stock -7.9% AH; crypto regulatory legislation progress (GENIUS Act / CLARITY Act), BTC price trajectory
 
 **Quick Stats:**
 
@@ -24,7 +26,12 @@
 | P/E (TTM) | ~15x |
 | P/E (Forward) | ~30x |
 | FY2024 Revenue | $6.56B |
-| FY2025E Revenue | ~$7.2B (+10%) |
+| ~~FY2025E Revenue~~ | ~~$7.2B (+10%)~~ |
+| FY2025 Revenue (Actual) | $7.18B (+9% YoY) |
+| Q4 2025 Revenue | $1.78B (missed est. $1.85B) |
+| Q4 2025 EPS | $0.66 (missed est. $1.05) |
+| Q4 2025 Net Loss | -$667M |
+| FY2025 Trading Volume | $5.2T (+156% YoY) |
 | FY2024 FCF | $2.56B |
 | Cash | $8B+ |
 | Long-term Debt | $5.93B |
@@ -47,7 +54,7 @@ Coinbase's revenue mix is undergoing a structural transformation:
 - Derivatives trading (significantly expanded post-Deribit acquisition)
 
 **Subscription & Services Revenue (~40%):**
-- USDC interest income (largest single item, $355M in Q3 2025)
+- USDC interest income (largest single item, ~~$355M in Q3 2025~~ $364M in Q4 2025; FY2025 stablecoin revenue $1.35B)
 - Staking rewards
 - Custody fees (custodian for 9 of 11 spot Bitcoin ETFs)
 - Coinbase One subscription
@@ -57,6 +64,20 @@ Coinbase's revenue mix is undergoing a structural transformation:
 - Total Revenue: $1.87B (QoQ +25%, YoY +55%)
 - Transaction Revenue: $1.05B (QoQ +37%)
 - Subscription & Services: $747M (QoQ +14%, YoY +34%)
+
+**Q4 2025 Revenue Breakdown (Actual):**
+- Total Revenue: $1.78B (QoQ -5%, YoY -21.6%) — missed analyst estimate of $1.85B
+- Transaction Revenue: $983M (QoQ -6%)
+- Subscription & Services: $727M (QoQ -3%)
+- Consumer Spot Volume: $56B; Institutional Spot Volume: $215B
+- Adjusted EBITDA: $566M
+- Net Loss: -$667M (investment-related losses from crypto portfolio; ended 8-quarter profitability streak)
+
+**FY2025 Full Year:**
+- Total Revenue: $7.18B (+9% YoY)
+- Total Trading Volume: $5.2T (+156% YoY)
+- Crypto Trading Volume Market Share: 6.4% (doubled YoY)
+- Total Operating Expenses: $5.75B (+35% YoY)
 
 ### Key Business Lines
 
@@ -68,13 +89,17 @@ Coinbase's revenue mix is undergoing a structural transformation:
 **2. Deribit Acquisition ($2.9B, completed August 2025)**
 - World's largest crypto options exchange
 - 2024 trading volume exceeded $1 trillion, $30B open interest
-- Contributed $52M revenue in Q3 2025
+- ~~Contributed $52M revenue in Q3 2025~~
+- Deribit achieved all-time high quarter in Q4 2025 under Coinbase ownership
 - Makes Coinbase a comprehensive platform spanning spot, futures, perpetuals, and options
+- Coinbase now the global leader in crypto derivatives by open interest and options volume
 
 **3. USDC Ecosystem**
-- $73.7B in circulation (Q3 2025)
+- ~~$73.7B in circulation (Q3 2025)~~
+- Average USDC market capitalization: $76.2B (FY2025); average USDC balances on Coinbase: $17.8B
 - Coinbase receives 100% interest income on on-platform USDC + 50% off-platform (revenue share with Circle)
-- Coinbase holds ~23% of total USDC supply
+- ~~Coinbase holds ~23% of total USDC supply~~
+- FY2025 stablecoin revenue: $1.35B (within subscription & services)
 
 ---
 
@@ -85,7 +110,7 @@ Coinbase's revenue mix is undergoing a structural transformation:
 | Exchange | Global Spot Market Share | Positioning |
 |----------|------------------------|-------------|
 | Binance | ~38-42% | Global dominant, most comprehensive products |
-| Coinbase | ~5-6% | U.S. compliance leader |
+| Coinbase | ~~~5-6%~~ 6.4% (doubled YoY in 2025) | U.S. compliance leader |
 | Kraken | ~3-4% | Strong in EUR/USD pairs |
 | OKX/Bybit | ~5-8% each | Primarily Asian markets |
 
@@ -100,9 +125,10 @@ Coinbase's revenue mix is undergoing a structural transformation:
    - New York State Trust Company license
 
 2. **Network Effects (Moderate)**
-   - 9.3M monthly active users (Q3 2025)
-   - $516B in platform assets
+   - ~~9.3M monthly active users (Q3 2025)~~
+   - ~~$516B in platform assets~~
    - Custodian for 12% of global crypto market cap
+   - FY2025: all-time highs in total trading volume ($5.2T), crypto market share (6.4%), subscription revenue, and Coinbase One subscribers
 
 3. **Brand & Trust**
    - Default on-ramp for U.S. retail investors
@@ -131,28 +157,34 @@ Coinbase's moat lies not in trading itself, but in its monopolistic position as 
 
 | Metric | Current | 3Y Ago (2022) | Trend | Grade |
 |--------|---------|---------------|-------|-------|
-| Revenue Growth | +10% YoY | -57% YoY | ↗️ Recovery | B |
+| Revenue Growth | ~~+10% YoY~~ +9% YoY (FY2025 confirmed $7.18B) | -57% YoY | ↗️ Recovery | B |
 | Gross Margin | ~85% | ~75% | ↗️ | A |
-| Operating Margin | ~24% (Q3'25) | -108% (2022) | ↗️ Major improvement | B |
-| ROIC | ~15-20% | Negative | ↗️ | B+ |
+| Operating Margin | ~~~24% (Q3'25)~~ Q4'25: negative (net loss -$667M) | -108% (2022) | ↗️↘️ Volatile | B- |
+| ROIC | ~~~15-20%~~ Declining (Q4 net loss) | Negative | ↗️↘️ | C+ |
 | FCF | $2.56B (2024) | -$2.3B (2022) | ↘️ Declining in 2025 | B- |
 | Cash | $8B+ | ~$5B | ↗️ | A |
 | Long-term Debt | $5.93B | ~$3.4B | ↗️ Increasing | C+ |
+| FY2025 OpEx | $5.75B (+35% YoY) | — | ↗️ Rising fast | C |
 
 ### Key Financial Observations
 
 **Positive Signals:**
 - FY2024 revenue $6.56B, net income $3.2B (vs only $95M in 2023) — profitability explosion
+- FY2025 revenue confirmed $7.18B (+9% YoY), with all-time highs in trading volume ($5.2T) and market share (6.4%)
 - Cash reserves $8B+, ample liquidity
 - Subscription revenue share increased from ~25% (2022) to ~40%, improving revenue quality
 - ~85% gross margin reflects high-leverage platform economics
+- Deribit achieved all-time high quarter in Q4 2025
+- First to market with 24/7 U.S. perpetual-style futures; U.S. derivatives market share 4x YoY
 
 **Warning Signals:**
 - ⚠️ SBC at $2.1B/year — 29% of revenue, severely diluting shareholder value
-- ⚠️ 2025 FCF likely declining — Q3 2025 quarterly FCF was negative $785M
+- ⚠️ ~~2025 FCF likely declining — Q3 2025 quarterly FCF was negative $785M~~ Q4 2025 net loss of -$667M confirmed; ended 8-quarter profitability streak (investment-related losses from crypto portfolio)
+- ⚠️ FY2025 operating expenses surged to $5.75B (+35% YoY) — cost growth outpacing revenue growth
 - ⚠️ Long-term debt increased to $5.93B — includes $2.6B convertible notes
 - ⚠️ Highly cyclical revenue — 2022 lesson: revenue can halve and halve again
 - ⚠️ Forward P/E ~30x vs TTM P/E ~15x — market expects significant earnings decline in 2026
+- ⚠️ Q1 2026 guidance: subscription & services revenue $550-630M (below Q4's $727M)
 
 ### Red Flag Check
 
@@ -178,6 +210,7 @@ Coinbase's moat lies not in trading itself, but in its monopolistic position as 
 - Decisive cost-cutting in 2022 bear market (~20% layoffs), saved the company
 - Pursued compliance route, confronted SEC head-on and ultimately prevailed
 - Clear 2026 strategy: "everything exchange" (crypto + equities + commodities + derivatives)
+- 2026 three priorities outlined on Q4 earnings call: (1) Growing the "Everything Exchange", (2) Scaling stablecoins & payments, (3) Increasing on-chain economic activity
 
 **Weaknesses:**
 - Consistent stock selling — sold $291.8M at 2021 listing, continued selling via 10b5-1 plans
@@ -206,7 +239,10 @@ Strong execution, correct strategic direction, but persistent selling and dual-c
 **2. Regulatory Tailwind Arriving**
 - SEC lawsuit dismissed February 2025 — the biggest sword of Damocles removed
 - Trump administration crypto-friendly, SEC formed Crypto Task Force
-- Crypto legislation advancing (CFTC digital commodities bill)
+- ~~Crypto legislation advancing (CFTC digital commodities bill)~~
+- GENIUS Act (stablecoin framework) signed into law July 18, 2025 — landmark legislation requiring 1:1 backing, monthly disclosures; implementing rules due July 2026
+- CLARITY Act (market structure) passed House July 2025, Senate passage anticipated in 2026
+- SEC & CFTC launched "Project Crypto" — joint token taxonomy initiative for 2026
 - Compliant exchanges will capture the greatest regulatory clarity dividend
 
 **3. Institutionalization Wave**
@@ -265,6 +301,9 @@ Strong execution, correct strategic direction, but persistent selling and dual-c
 - Nevada enforcement action against prediction markets (Feb 2026)
 - State-level regulatory fragmentation risk
 - Customer class action lawsuits still ongoing
+- GENIUS Act implementing rules due July 2026 — compliance burden for stablecoin operations
+- Stablecoin rewards remain a contentious flashpoint — banking industry lobbying against crypto platforms offering yield
+- Coinbase temporarily withdrew support for Senate CLARITY Act over stablecoin reward limitations
 
 **Downside Scenario:** If BTC falls to $40-50K and crypto enters a deep bear market, Coinbase revenue could retreat to $4-5B, net income shrinks dramatically, stock price could fall to $80-100.
 
@@ -285,15 +324,21 @@ Strong execution, correct strategic direction, but persistent selling and dual-c
 - When we'll know more: Watch Fed March and June meetings
 
 **3. Deribit Integration Results**
-- Can the $2.9B acquisition deliver expected synergies?
+- ~~Can the $2.9B acquisition deliver expected synergies?~~
+- Q4 2025 was Deribit's all-time high quarter under Coinbase ownership — early integration positive
 - Can derivatives revenue become a stable income source?
-- When we'll know more: H1 2026 quarterly earnings
+- Coinbase now first to market with 24/7 U.S. perpetual-style futures; U.S. derivatives market share 4x YoY
+- When we'll know more: H1 2026 quarterly earnings (full-year derivatives revenue breakdown)
 
 **4. Crypto Regulatory Legislation**
-- Can federal crypto legislation pass in 2026?
+- ~~Can federal crypto legislation pass in 2026?~~
+- GENIUS Act (stablecoin) already signed into law July 2025; implementing rules due July 2026
+- CLARITY Act (market structure) passed House, Senate vote pending in 2026
+- SEC & CFTC "Project Crypto" token taxonomy initiative underway
 - If passed, Coinbase as a compliant platform captures enormous upside
 - If not, state-level fragmented regulation increases costs
-- When we'll know more: 2026 Congressional legislative progress
+- Stablecoin rewards remain a flashpoint — Coinbase withdrew support for Senate CLARITY Act version over this issue
+- When we'll know more: 2026 Congressional legislative progress, GENIUS Act implementing rules (July 2026)
 
 ### Thesis-Breaking Events
 
@@ -335,7 +380,8 @@ Strong execution, correct strategic direction, but persistent selling and dual-c
 
 | Catalyst | Timing | Impact |
 |----------|--------|--------|
-| Q4 2025 Earnings | 2026.2.12 | High — volume and guidance are key |
+| ~~Q4 2025 Earnings~~ | ~~2026.2.12~~ Released 2/12 | ~~High — volume and guidance are key~~ Result: missed estimates, EPS $0.66 vs $1.05 est., revenue $1.78B vs $1.85B est., stock -7.9% AH |
+| Q1 2026 Guidance | Provided 2/12 | Sub & services revenue guided $550-630M (below Q4's $727M) |
 | BTC Price Trajectory | Ongoing | High — directly impacts trading revenue |
 | Fed Meeting | 2026.3 | Medium — rate path affects USDC income |
 
@@ -343,10 +389,11 @@ Strong execution, correct strategic direction, but persistent selling and dual-c
 
 | Catalyst | Timing | Impact |
 |----------|--------|--------|
-| Crypto Regulatory Legislation | 2026 | High — federal bill passage would be major positive |
-| Deribit Integration Results | 2026 H1 | Medium — derivatives revenue growth validation |
+| Crypto Regulatory Legislation | 2026 | High — GENIUS Act implementing rules due July 2026; CLARITY Act Senate vote pending |
+| Deribit Integration Results | 2026 H1 | Medium-High — Q4 2025 was all-time high quarter for Deribit; derivatives revenue growth validation |
 | California DFAL Act | 2026.7 | Medium — compliance cost impact |
 | Kraken IPO | 2026 H1 | Medium — competitive landscape shift |
+| GENIUS Act Implementing Rules | 2026.7.18 | Medium — stablecoin regulatory framework finalized |
 
 ### Long-Term (1-3 Years)
 
@@ -383,7 +430,7 @@ Rationale:
 Given you're gradually building a position, a few thoughts:
 
 1. Dollar-cost averaging is the right approach — crypto cycle uncertainty is too high for concentrated entry
-2. Watch tomorrow's Q4 earnings closely — the most important near-term catalyst, may cause short-term volatility
+2. ~~Watch tomorrow's Q4 earnings closely — the most important near-term catalyst, may cause short-term volatility~~ Q4 earnings released 2/12: missed estimates, stock -7.9% AH. Q1 2026 sub & services guidance $550-630M signals continued softness
 3. Set a mental stop-loss — if BTC breaks below $50K, Coinbase fundamentals deteriorate significantly
 4. Monitor SBC trends — if SBC as % of revenue doesn't decline, long-term shareholder value erodes
 5. Position sizing — given crypto's high volatility, consider keeping Coinbase at no more than 5-8% of portfolio
@@ -421,5 +468,9 @@ Given you're gradually building a position, a few thoughts:
 ### Key Assumptions
 - BTC 2026 average price: $70-100K (base case)
 - Fed cuts rates 1-2 times in 2026 (base case)
-- Crypto legislation makes progress but doesn't pass in 2026 (base case)
-- Deribit annualized revenue contribution $200-400M (base case)
+- ~~Crypto legislation makes progress but doesn't pass in 2026 (base case)~~
+- GENIUS Act implementing rules finalized by July 2026; CLARITY Act Senate vote pending (base case)
+- ~~Deribit annualized revenue contribution $200-400M (base case)~~
+- Deribit Q4 2025 was all-time high quarter; annualized revenue contribution tracking toward upper end of $200-400M range (base case)
+- Q1 2026 subscription & services revenue: $550-630M (management guidance)
+- FY2025 OpEx growth (+35% YoY) moderates in 2026 (base case)
