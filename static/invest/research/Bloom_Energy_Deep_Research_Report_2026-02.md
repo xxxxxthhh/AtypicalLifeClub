@@ -5,6 +5,7 @@
 **Disclaimer:** This is not investment advice. Do your own due diligence.
 
 > **[2026-02-12 Update]** Updated with Q4 2025 actual earnings data (released Feb 5, 2026). Key additions: Q4 quarterly breakdown, GAAP profitability clarification, 800V DC solution details, 2026 EPS guidance. Strikethrough (~~old~~) marks corrected data.
+> **[2026-02-13 Update]** Incremental additions: hyperscaler customer count detail (6 vs 1 YoY), actual FY2025 CapEx ($57M), Brookfield project scope (140 projects), Q4 service margin precision.
 
 ---
 
@@ -63,7 +64,7 @@ This is the defining narrative for Bloom Energy in 2025-2026. The company has re
 - **Bloom's Solution:** On-site, behind-the-meter power generation that can be deployed in 55-90 days, bypassing grid queues entirely.
 - **800V DC Solution [2026-02-12 Update]:** Bloom has introduced an 800-volt DC power architecture as its new product standard. All new server shipments are 800V DC ready (with removable adapter for existing AC environments), connecting fuel cells directly to AI server racks for higher efficiency, reduced waste heat, and smaller footprint. This positions Bloom ahead of the expected industry shift to 800V DC in data centers.
 - **Key Partnerships:**
-  - **Brookfield Asset Management:** $5B partnership to deploy fuel cells at AI data centers globally
+  - **Brookfield Asset Management:** $5B partnership to deploy fuel cells at AI data centers globally (encompassing 140 data center and industrial real estate projects [2026-02-13])
   - **AEP:** $2.65B agreement for 1 GW of SOFCs with 20-year off-take
   - **Oracle:** Powering OCI data centers with rapid deployment
   - **CoreWeave:** On-site power for high-performance AI compute
@@ -136,7 +137,7 @@ The acceleration from ~10% growth in 2023-2024 to 37% in 2025 and guided 54-63% 
 | GAAP Net Income | $1.1M | First quarter of GAAP net profitability |
 | Operating Cash Flow | $418.1M | Strong Q4 cash generation |
 | Product Margins | 37% | |
-| Service Margins | ~20% | |
+| Service Margins | ~~~20%~~ 16.9% GAAP / 19.5% Non-GAAP [2026-02-13] | |
 
 Q4 was the strongest quarter in company history, with revenue representing ~38% of full-year total. The sequential ramp demonstrates manufacturing execution capability.
 
@@ -160,6 +161,7 @@ Q4 was the strongest quarter in company history, with revenue representing ~38% 
 - **Debt:** Elevated; debt-to-equity ratio above industry norms
 - **Free Cash Flow:** Positive for second consecutive year in 2025
 - **Q4 2025 Operating Cash Flow [Update]:** $418.1M (strong Q4 cash generation drove full-year total)
+- **CapEx (FY2025 Actual) [2026-02-13]:** $57M
 - **CapEx (2026E):** $150-200M (capacity expansion to 2 GW)
 
 ### Backlog — The Growth Visibility
@@ -169,8 +171,9 @@ Q4 was the strongest quarter in company history, with revenue representing ~38% 
 | Product Backlog | ~$6B | +140% |
 | Service Backlog | ~$14B | Growing |
 | Total Backlog | ~$20B | Significant increase |
+| Hyperscale/Neocloud Customers in Backlog [2026-02-13] | 6 | vs. 1 a year ago |
 
-This backlog provides multi-year revenue visibility, though execution and timing remain key variables.
+This backlog provides multi-year revenue visibility, though execution and timing remain key variables. Notably, the customer base has diversified significantly — the backlog now includes 6 hyperscale and neocloud end customers, up from just 1 a year prior.
 
 ### Financial Health Matrix
 
@@ -181,7 +184,7 @@ This backlog provides multi-year revenue visibility, though execution and timing
 | Operating Margin | ~~11% blended~~ 10.9% Non-GAAP / 3.6% GAAP | Negative | ↑ Inflecting | B |
 | FCF Generation | Positive | Negative | ↑ Improving | B |
 | Debt/Equity | High | High | → Stable | C |
-| Revenue Concentration | High (3 customers) | Moderate | ↓ Worsening | C- |
+| Revenue Concentration | High (3 customers) | Moderate | ↓ Worsening (but diversifying: 6 hyperscalers in backlog vs 1 YoY [2026-02-13]) | C- |
 
 ### Red Flag Assessment
 
