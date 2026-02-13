@@ -1,5 +1,28 @@
 [
   {
+    "id": "airbnb-2026",
+    "company": "Airbnb",
+    "ticker": "NASDAQ: ABNB",
+    "title": "Airbnb 深度研究报告 - 全球短租霸主的增长再加速之问",
+    "titleEn": "Airbnb Deep Research Report - Can the Global Short-Term Rental Leader Re-Accelerate Growth?",
+    "summary": "全球短租市场领导者，FY2025营收$122亿（+10%），FCF $46亿（利润率38%），533M间夜数。品牌护城河深厚，$60亿回购计划，但增速从40%降至10%，全球监管收紧+Booking.com追赶。P/FCF ~15.5x，Forward P/E ~29x。",
+    "tags": ["在线旅游", "共享经济", "平台经济", "AI"],
+    "category": "tech",
+    "date": "2026-02-13",
+    "lastUpdate": "2026-02-13",
+    "file": "/invest/research/reports/view.html?id=airbnb-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Airbnb_深度研究报告_2026-02.md",
+      "en": "/invest/research/Airbnb_Deep_Research_Report_2026-02.md"
+    },
+    "highlights": [
+      "FY2025营收$122亿（+10%），FCF $46亿（38%利润率），净利润$25亿",
+      "全球短租份额44%，800万+房源，但Booking.com替代住宿已达860万",
+      "Q1 2026指引14-16%增长，AI原生转型+体验/精品酒店品类扩张",
+      "P/FCF ~15.5x合理，P/E ~29x偏高，增长能否重新加速是核心变量"
+    ]
+  },
+  {
     "id": "hims-2026",
     "company": "Hims & Hers Health",
     "ticker": "NYSE: HIMS",
