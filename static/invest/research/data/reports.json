@@ -1,5 +1,28 @@
 [
   {
+    "id": "hims-2026",
+    "company": "Hims & Hers Health",
+    "ticker": "NYSE: HIMS",
+    "title": "Hims & Hers 深度研究报告 - DTC远程医疗领跑者的GLP-1监管风暴",
+    "titleEn": "Hims & Hers Deep Research Report - DTC Telehealth Leader's GLP-1 Regulatory Storm",
+    "summary": "美国DTC远程医疗龙头，FY2025E营收$23.5亿（+58%），250万订阅用户，ARPU $80/月。Novo Nordisk专利诉讼+DOJ调查双重打击，GLP-1业务（~30%收入）面临存亡危机，但非GLP-1核心业务（~70%）依然稳健。股价从高点回调55%+。",
+    "tags": ["远程医疗", "DTC", "GLP-1", "订阅经济"],
+    "category": "tech",
+    "date": "2026-02-13",
+    "lastUpdate": "2026-02-13",
+    "file": "/invest/research/reports/view.html?id=hims-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Hims_Hers_深度研究报告_2026-02.md",
+      "en": "/invest/research/Hims_Hers_Deep_Research_Report_2026-02.md"
+    },
+    "highlights": [
+      "FY2025E营收$23.5亿（+58%），250万订阅用户，月ARPU $80（+19%）",
+      "Novo Nordisk专利诉讼（2026.2.9）+ DOJ调查转介（2026.2.6）",
+      "非GLP-1业务占收入~70%，留存率>85%，核心基本盘稳固",
+      "股价从高点回调55%+，P/S ~2x，监管结果为核心二元变量"
+    ]
+  },
+  {
     "id": "bloom-energy-2026",
     "company": "Bloom Energy",
     "ticker": "NYSE: BE",
