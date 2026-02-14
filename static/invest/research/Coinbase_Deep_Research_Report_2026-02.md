@@ -1,8 +1,10 @@
 # Coinbase Global (COIN) Deep Research Report
 
+**[2026-02-14 Update] Additional Q4 2025 details: cash $11.3B (previously reported $8B+), Q4 FCF $3.07B, combined derivatives volume ~$1.25T, net loss breakdown (crypto unrealized loss $718M + strategic investment loss $395M incl. Circle stake), shareholders' equity $14.8B. Stock rebounded +13-18% on 2/13. Old data marked with ~~strikethrough~~.**
+
 **[2026-02-13 Update] Updated with Q4 2025 earnings data (released 2/12 after market close). Q4 revenue $1.78B missed estimates; net loss of $667M ended 8-quarter profitability streak. FY2025 revenue confirmed at $7.18B. Old data marked with ~~strikethrough~~.**
 
-**Date:** February 11, 2026 (Updated: February 13, 2026)
+**Date:** February 11, 2026 (Updated: February 14, 2026)
 **Analyst:** AI-Assisted Research
 **Disclaimer:** This report does not constitute investment advice. Please conduct your own due diligence.
 
@@ -14,7 +16,7 @@
 
 **Investment Verdict:**
 - Lean: Cautiously Bullish | Conviction: Medium
-- Key Catalyst: ~~Q4 2025 earnings (releasing 2/12)~~ Q4 2025 earnings released 2/12 — missed estimates, stock -7.9% AH; crypto regulatory legislation progress (GENIUS Act / CLARITY Act), BTC price trajectory
+- Key Catalyst: ~~Q4 2025 earnings (releasing 2/12)~~ Q4 2025 earnings released 2/12 — missed estimates, ~~stock -7.9% AH~~ stock initially -7.9% AH then rebounded +13-18% on 2/13 to ~$159-164; crypto regulatory legislation progress (GENIUS Act / CLARITY Act), BTC price trajectory
 
 **Quick Stats:**
 
@@ -33,8 +35,11 @@
 | Q4 2025 Net Loss | -$667M |
 | FY2025 Trading Volume | $5.2T (+156% YoY) |
 | FY2024 FCF | $2.56B |
-| Cash | $8B+ |
-| Long-term Debt | $5.93B |
+| Q4 2025 FCF | $3.07B |
+| FY2025 Operating Cash Flow | $2.4B |
+| Cash | ~~$8B+~~ $11.3B (total available resources $14.1B) |
+| Shareholders' Equity | $14.8B (+44% vs 2024-end) |
+| Long-term Debt | $5.93B (+40.2% vs 2024-end) |
 
 ---
 
@@ -70,8 +75,10 @@ Coinbase's revenue mix is undergoing a structural transformation:
 - Transaction Revenue: $983M (QoQ -6%)
 - Subscription & Services: $727M (QoQ -3%)
 - Consumer Spot Volume: $56B; Institutional Spot Volume: $215B
+- Q4 Operating Expenses: $1.5B (+21.8% YoY, +9% QoQ)
 - Adjusted EBITDA: $566M
-- Net Loss: -$667M (investment-related losses from crypto portfolio; ended 8-quarter profitability streak)
+- Net Loss: -$667M (~~investment-related losses from crypto portfolio~~ breakdown: $718M unrealized crypto portfolio loss + $395M strategic investment loss incl. Circle stake; ended 8-quarter profitability streak)
+- Combined derivatives volume (futures + options incl. Deribit): ~$1.25T
 
 **FY2025 Full Year:**
 - Total Revenue: $7.18B (+9% YoY)
@@ -161,9 +168,10 @@ Coinbase's moat lies not in trading itself, but in its monopolistic position as 
 | Gross Margin | ~85% | ~75% | ↗️ | A |
 | Operating Margin | ~~~24% (Q3'25)~~ Q4'25: negative (net loss -$667M) | -108% (2022) | ↗️↘️ Volatile | B- |
 | ROIC | ~~~15-20%~~ Declining (Q4 net loss) | Negative | ↗️↘️ | C+ |
-| FCF | $2.56B (2024) | -$2.3B (2022) | ↘️ Declining in 2025 | B- |
-| Cash | $8B+ | ~$5B | ↗️ | A |
-| Long-term Debt | $5.93B | ~$3.4B | ↗️ Increasing | C+ |
+| FCF | $2.56B (2024); Q4'25 $3.07B | -$2.3B (2022) | ↗️ Q4 rebound | B |
+| Cash | ~~$8B+~~ $11.3B (total avail. $14.1B) | ~$5B | ↗️ | A+ |
+| Long-term Debt | $5.93B (+40.2% vs 2024) | ~$3.4B | ↗️ Increasing | C+ |
+| Shareholders' Equity | $14.8B (+44% vs 2024) | — | ↗️ | A |
 | FY2025 OpEx | $5.75B (+35% YoY) | — | ↗️ Rising fast | C |
 
 ### Key Financial Observations
@@ -171,7 +179,7 @@ Coinbase's moat lies not in trading itself, but in its monopolistic position as 
 **Positive Signals:**
 - FY2024 revenue $6.56B, net income $3.2B (vs only $95M in 2023) — profitability explosion
 - FY2025 revenue confirmed $7.18B (+9% YoY), with all-time highs in trading volume ($5.2T) and market share (6.4%)
-- Cash reserves $8B+, ample liquidity
+- Cash reserves ~~$8B+~~ $11.3B (total available resources $14.1B), ample liquidity
 - Subscription revenue share increased from ~25% (2022) to ~40%, improving revenue quality
 - ~85% gross margin reflects high-leverage platform economics
 - Deribit achieved all-time high quarter in Q4 2025
@@ -179,7 +187,7 @@ Coinbase's moat lies not in trading itself, but in its monopolistic position as 
 
 **Warning Signals:**
 - ⚠️ SBC at $2.1B/year — 29% of revenue, severely diluting shareholder value
-- ⚠️ ~~2025 FCF likely declining — Q3 2025 quarterly FCF was negative $785M~~ Q4 2025 net loss of -$667M confirmed; ended 8-quarter profitability streak (investment-related losses from crypto portfolio)
+- ⚠️ ~~2025 FCF likely declining — Q3 2025 quarterly FCF was negative $785M~~ Q4 2025 net loss of -$667M confirmed (crypto unrealized loss $718M + strategic investment loss $395M incl. Circle); however Q4 FCF was $3.07B, FY2025 operating cash flow $2.4B
 - ⚠️ FY2025 operating expenses surged to $5.75B (+35% YoY) — cost growth outpacing revenue growth
 - ⚠️ Long-term debt increased to $5.93B — includes $2.6B convertible notes
 - ⚠️ Highly cyclical revenue — 2022 lesson: revenue can halve and halve again
@@ -380,7 +388,7 @@ Strong execution, correct strategic direction, but persistent selling and dual-c
 
 | Catalyst | Timing | Impact |
 |----------|--------|--------|
-| ~~Q4 2025 Earnings~~ | ~~2026.2.12~~ Released 2/12 | ~~High — volume and guidance are key~~ Result: missed estimates, EPS $0.66 vs $1.05 est., revenue $1.78B vs $1.85B est., stock -7.9% AH |
+| ~~Q4 2025 Earnings~~ | ~~2026.2.12~~ Released 2/12 | ~~High — volume and guidance are key~~ Result: missed estimates, EPS $0.66 vs $1.05 est., revenue $1.78B vs $1.85B est., ~~stock -7.9% AH~~ initially -7.9% AH then rebounded +13-18% on 2/13 to ~$159-164 |
 | Q1 2026 Guidance | Provided 2/12 | Sub & services revenue guided $550-630M (below Q4's $727M) |
 | BTC Price Trajectory | Ongoing | High — directly impacts trading revenue |
 | Fed Meeting | 2026.3 | Medium — rate path affects USDC income |
@@ -430,7 +438,7 @@ Rationale:
 Given you're gradually building a position, a few thoughts:
 
 1. Dollar-cost averaging is the right approach — crypto cycle uncertainty is too high for concentrated entry
-2. ~~Watch tomorrow's Q4 earnings closely — the most important near-term catalyst, may cause short-term volatility~~ Q4 earnings released 2/12: missed estimates, stock -7.9% AH. Q1 2026 sub & services guidance $550-630M signals continued softness
+2. ~~Watch tomorrow's Q4 earnings closely — the most important near-term catalyst, may cause short-term volatility~~ Q4 earnings released 2/12: missed estimates, ~~stock -7.9% AH~~ initially -7.9% AH then rebounded +13-18% on 2/13 to ~$159-164. Q1 2026 sub & services guidance $550-630M signals continued softness
 3. Set a mental stop-loss — if BTC breaks below $50K, Coinbase fundamentals deteriorate significantly
 4. Monitor SBC trends — if SBC as % of revenue doesn't decline, long-term shareholder value erodes
 5. Position sizing — given crypto's high volatility, consider keeping Coinbase at no more than 5-8% of portfolio
