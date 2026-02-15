@@ -1,5 +1,28 @@
 [
   {
+    "id": "igv-2026",
+    "company": "IGV (iShares Expanded Tech-Software Sector ETF)",
+    "ticker": "NYSEARCA: IGV",
+    "title": "IGV 深度研究报告 - Software-mageddon后的软件行业ETF抄底机会？",
+    "titleEn": "IGV Deep Research Report - A Buying Opportunity After the Software-mageddon?",
+    "summary": "美国软件行业旗舰ETF，AUM $79亿，持仓119只北美软件股。2026年初遭遇\"Software-mageddon\"，YTD -23.4%，AI颠覆恐慌引发无差别抛售。前10大持仓占60%（MSFT 9.5%、PLTR 8.1%、ORCL 7.9%）。隐含波动率处92百分位，10年年化17%。",
+    "tags": ["ETF", "软件行业", "SaaS", "AI颠覆"],
+    "category": "tech",
+    "date": "2026-02-15",
+    "lastUpdate": "2026-02-15",
+    "file": "/invest/research/reports/view.html?id=igv-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/IGV_深度研究报告_2026-02.md",
+      "en": "/invest/research/IGV_Deep_Research_Report_2026-02.md"
+    },
+    "highlights": [
+      "AUM $79亿，费率0.39%，持仓119只北美软件股，前10占60%",
+      "2026 YTD -23.4%（vs QQQ -2.2%），AI颠覆恐慌引发软件板块定向抛售",
+      "隐含波动率92百分位（极端恐慌），10年年化回报17%，5年仅2-5%",
+      "核心变量：AI增强还是替代现有软件？Q1 2026财报季将提供首批硬数据"
+    ]
+  },
+  {
     "id": "airbnb-2026",
     "company": "Airbnb",
     "ticker": "NASDAQ: ABNB",
