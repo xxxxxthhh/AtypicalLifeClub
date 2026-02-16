@@ -1,14 +1,39 @@
 # Oklo Inc. (NYSE: OKLO) Deep Research Report
 
-**Date:** February 10, 2026
+**Date:** February 10, 2026 | **Last Updated:** February 16, 2026
 **Analyst:** Claude AI (Assisted Research)
 **Disclaimer:** This report does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
+## ⚡ Update — February 16, 2026
+
+**Stock Price:** $65.69 (down ~7.5% from $71 at initial report date)
+**Market Cap:** ~$10.2B
+
+### Key Developments This Week
+
+1. **Meta Partnership Formalized as Binding Agreement:** The Oklo-Meta 1.2GW nuclear campus deal has been confirmed as a binding agreement. The campus will be located on 206 acres in Pike County, Ohio (former DOE land). Meta will provide prepayments and upfront funding for early development and nuclear fuel procurement. Pre-construction and site characterization to begin in 2026, first phase online ~2030, full 1.2GW by 2034. This is a significant de-risking event — moving from a cooperation agreement to a binding commitment with capital backing from Meta.
+
+2. **Analyst Activity:**
+   - Goldman Sachs lowered price target from $106 → $91 (Neutral)
+   - Texas Capital Securities initiated coverage with Buy / $138 PT (Jan 28)
+   - Bank of America raised PT to $127 (Jan 21)
+   - Consensus PT: ~$112.69 across 19 analysts (range: $44–$175)
+
+3. **Insider Selling:** CFO Richard Craig Bealmear sold 9,726 shares for ~$748K in early February, reducing his position by 4.71%.
+
+4. **Stock Decline Context:** OKLO has fallen >30% from its 52-week high of ~$194 (Oct 2025). The pullback reflects broader re-rating of pre-revenue nuclear names on execution timeline concerns, despite the Meta deal strengthening the commercial pipeline.
+
+### Thesis Impact
+
+No material change to investment thesis. The Meta binding agreement is incrementally positive (reduces commercial risk), but the stock decline reflects the market pricing in longer timelines and execution uncertainty. The core tension remains: exceptional pipeline vs. zero revenue and 2-4 year wait for first commercial operations.
+
+---
+
 ## Executive Summary
 
-**One-Line Thesis:** Oklo is one of the most imaginative plays in the advanced nuclear space, with $1.2B in cash, a 14.7GW+ project pipeline, and marquee customers like Meta, but as a zero-revenue pre-commercial company, its $11.7B market cap is built entirely on faith in a 5-10 year vision.
+**One-Line Thesis:** Oklo is one of the most imaginative plays in the advanced nuclear space, with $1.2B in cash, a 14.7GW+ project pipeline, and marquee customers like Meta, but as a zero-revenue pre-commercial company, its ~$10.2B market cap is built entirely on faith in a 5-10 year vision.
 
 **Investment Verdict:**
 - Neutral | Conviction Level: Low (extremely high uncertainty)
@@ -18,8 +43,8 @@
 
 | Metric | Value |
 |--------|-------|
-| Price (2026/2/10) | ~$71 |
-| Market Cap | ~$11.7B |
+| Price (2026/2/16) | ~$65.69 |
+| Market Cap | ~$10.2B |
 | Revenue | $0 (pre-commercial) |
 | Cash & Marketable Securities | ~$1.2B (Q3 2025) |
 | Annual Operating Loss | ~$100-120M (2025E) |
