@@ -7,11 +7,59 @@
 
 ---
 
-## 📌 Weekly Update — February 9, 2026
+## 📌 Weekly Update — February 16, 2026
 
-**Stock Price:** $208.44 (as of Feb 7, 2026) | 52-week range: $76.48–$267.08
+**Stock Price:** $207.32 (as of Feb 16, 2026; +0.67% on day) | 52-week range: $76.48–$267.08
 
 ### Key Developments This Week
+
+**1. AMD-TCS Helios Partnership Expands into India**
+AMD announced an expanded partnership with Tata Consultancy Services (TCS) to deploy its Helios rack-scale AI data center technology in India. Key details:
+- Co-developing an AI-ready data center blueprint supporting up to 200MW capacity
+- Helios deployment includes MI455X GPUs, Venice EPYC CPUs, and Pensando Vulcano NICs
+- CEO Lisa Su attending a global AI summit in New Delhi to support the initiative
+- Strategic move to compete with NVIDIA in India's rapidly growing AI infrastructure market
+
+**2. Arista Networks Signals Workload Shift from NVIDIA to AMD**
+Arista Networks CEO indicated a significant shift in customer workloads toward AMD:
+- AMD now handles 20–25% of Arista's AI workloads, up from just 1% a year ago
+- This is a strong third-party validation of AMD's data center competitiveness
+- News contributed to AMD stock strength while NVIDIA dipped
+
+**3. Insider Sales & Analyst Coverage**
+- CEO Lisa Su sold 125,000 shares on Feb 11; EVP Forrest Norrod sold ~19,450 shares
+- DA Davidson initiated coverage on Feb 13 with a "Neutral" rating
+- Overall analyst sentiment remains positive, citing AMD's increasing market share vs. Intel in PC and server CPUs
+
+**4. MI400 Series & Competitive Landscape Update**
+- MI400 series (CDNA 5 architecture) on track for 2026, targeting 2nm node with 20 PFLOPs FP8 and 432GB HBM4
+- MI440X designed for scalable training/inference in existing data center infrastructure
+- NVIDIA's Rubin platform (H2 2026) expected to deliver 3.3x compute improvement over Blackwell B300
+- Hyperscalers increasingly diversifying GPU suppliers — AMD benefiting from "managed competition" trend
+
+### Thesis Impact Assessment
+
+**No material change to investment thesis.** The TCS-Helios partnership and Arista workload shift are incrementally positive, reinforcing AMD's growing data center traction beyond US hyperscalers.
+
+Key positives:
+- International expansion via TCS partnership validates Helios platform demand
+- Third-party workload data (Arista: 1% → 20-25%) confirms real adoption momentum
+- MI400 roadmap progressing on schedule
+
+Key risks to monitor:
+- Insider selling (Su, Norrod) — likely routine but worth tracking
+- DA Davidson "Neutral" initiation suggests some analysts see limited near-term upside at current valuation
+- NVIDIA Rubin launch in H2 2026 remains the primary competitive threat
+- Stock at ~$207 still trades at premium multiples (~36-40x forward P/E)
+
+**Updated Market Cap:** ~$338B (at $207.32/share)
+
+---
+
+<details>
+<summary>📋 Previous Update — February 9, 2026</summary>
+
+**Stock Price:** $208.44 (as of Feb 7, 2026) | 52-week range: $76.48–$267.08
 
 **1. Q4 2025 Earnings Beat & Strong Q1 2026 Guidance**
 AMD reported record Q4 2025 results that exceeded analyst expectations on both top and bottom lines:
@@ -46,20 +94,9 @@ NVIDIA announced the "Rubin" R100 platform for 2026, featuring HBM4 memory and t
 - ROCm 7.2 released with Ryzen AI 400 Series support
 - Partnership with Generative Bionics for GENE1.0 humanoid robot
 
-### Thesis Impact Assessment
+**Thesis Impact:** No material change. Q4 beat and strong guidance reinforced "Cautiously Bullish" stance.
 
-**No material change to investment thesis.** The Q4 beat and strong guidance reinforce the "Cautiously Bullish" stance. Key positives:
-- Data center momentum accelerating faster than expected
-- MI450 Helios timeline holding, with major cloud partner (Oracle) committed
-- Financial execution remains strong (57% gross margin, record FCF)
-
-Key risks to monitor:
-- NVIDIA Rubin platform could reset competitive dynamics in H2 2026
-- Intel GPU re-entry adds competitive pressure
-- Stock at $208 still trades at premium multiples (~36-40x forward P/E)
-- Memory supply constraints could limit GPU production ramp
-
-**Updated Market Cap:** ~$338B (at $208.44/share)
+</details>
 
 ---
 
