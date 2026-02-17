@@ -31,26 +31,46 @@ Arista Networks CEO indicated a significant shift in customer workloads toward A
 - DA Davidson initiated coverage on Feb 13 with a "Neutral" rating
 - Overall analyst sentiment remains positive, citing AMD's increasing market share vs. Intel in PC and server CPUs
 
-**4. MI400 Series & Competitive Landscape Update**
+**4. SoftBank-AMD Joint GPU Validation for AI Cloud (NEW — Feb 16)**
+SoftBank Corp. and AMD announced a joint validation initiative to integrate AMD Instinct GPUs into next-generation AI infrastructure:
+- Testing AMD Instinct GPU partitioning (up to 8 logical devices per GPU) for multi-tenant AI workloads
+- Targeting SoftBank's new "Infrinia" AI cloud service for AI development computing
+- Enhanced "Orchestrator" platform to dynamically allocate GPU resources across LLM and telecom workloads
+- Live demo scheduled at AMD booth during MWC Barcelona 2026
+- Signals AMD's expanding footprint in telecom-adjacent AI infrastructure beyond traditional hyperscalers
+
+**5. MI400 Series & Competitive Landscape Update**
 - MI400 series (CDNA 5 architecture) on track for 2026, targeting 2nm node with 20 PFLOPs FP8 and 432GB HBM4
 - MI440X designed for scalable training/inference in existing data center infrastructure
 - NVIDIA's Rubin platform (H2 2026) expected to deliver 3.3x compute improvement over Blackwell B300
 - Hyperscalers increasingly diversifying GPU suppliers — AMD benefiting from "managed competition" trend
 
+**6. OpenAI Deal Scope Clarification: 6GW Total, Not Just 1GW**
+- Full deal scope confirmed: up to 6 gigawatts of AMD Instinct GPUs over multiple years — one of the largest AI infrastructure agreements in history
+- Initial phase: 1GW of MI450 Series GPUs starting H2 2026 (previously reported)
+- Deal includes warrant for OpenAI to acquire up to 160M AMD shares, vesting tied to deployment milestones
+- Covers multiple Instinct GPU generations (MI450 and beyond)
+- Represents OpenAI's strategic diversification away from NVIDIA dependency
+- Revenue potential: tens of billions of dollars over the life of the agreement
+
 ### Thesis Impact Assessment
 
-**No material change to investment thesis.** The TCS-Helios partnership and Arista workload shift are incrementally positive, reinforcing AMD's growing data center traction beyond US hyperscalers.
+**No material change to investment thesis.** The TCS-Helios partnership, Arista workload shift, and SoftBank validation are incrementally positive, reinforcing AMD's growing data center traction across geographies and customer segments (hyperscalers, telecom, enterprise).
 
 Key positives:
 - International expansion via TCS partnership validates Helios platform demand
 - Third-party workload data (Arista: 1% → 20-25%) confirms real adoption momentum
+- SoftBank partnership opens telecom AI infrastructure channel
+- OpenAI 6GW total deal scope larger than initially understood — massive long-term revenue anchor
 - MI400 roadmap progressing on schedule
+- MWC Barcelona 2026 upcoming — potential for additional partnership announcements
 
 Key risks to monitor:
 - Insider selling (Su, Norrod) — likely routine but worth tracking
 - DA Davidson "Neutral" initiation suggests some analysts see limited near-term upside at current valuation
 - NVIDIA Rubin launch in H2 2026 remains the primary competitive threat
 - Stock at ~$207 still trades at premium multiples (~36-40x forward P/E)
+- OpenAI warrant dilution (up to 160M shares) if milestones are met
 
 **Updated Market Cap:** ~$338B (at $207.32/share)
 
@@ -323,7 +343,7 @@ Strong execution track record, clear strategic vision, and demonstrated ability 
 **Data Points:**
 - MI300/MI350 deployments accelerating: Q4 2025 data center revenue $5.4B (+39% YoY)
 - Customer wins expanding: Microsoft, Meta, Oracle, OpenAI, xAI, Crusoe confirmed
-- OpenAI multi-year deal: 1GW of MI450 GPUs starting H2 2026 (potentially $3-5B+ annual revenue)
+- OpenAI multi-year deal: up to 6GW of Instinct GPUs total, starting with 1GW MI450 in H2 2026 (tens of billions in lifetime revenue)
 - Wall Street estimates: $10-12B AI GPU revenue by 2026, scaling to "tens of billions" by 2027
 - Oracle 27,000 GPU cluster, Crusoe 13,000 MI355 GPUs ($400M order)
 
