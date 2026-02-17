@@ -1,5 +1,7 @@
 # NeoVolta (NEOV) Deep Research Report
 
+> **[2026-02-17 Update]** Updated with Q2 FY2026 earnings data (quarter ended Dec 31, 2025). Revenue $4.65M (beat estimate), but gross margin declined to 17% and net loss widened to -$5.54M. Georgia factory financing of ~$23M secured.
+
 **Date:** February 9, 2026
 **Ticker:** NASDAQ: NEOV
 **Sector:** Energy Technology / Residential & Commercial Energy Storage
@@ -10,7 +12,7 @@
 
 ## Executive Summary
 
-NeoVolta is a Poway, California-based energy storage company specializing in LiFePO₄ (lithium iron phosphate) battery systems for residential, commercial, and utility-scale applications. The company has demonstrated explosive revenue growth — Q1 FY2026 revenue hit $6.7M, a 1,027% YoY increase — driven by expanding its installer network and launching new products like the neuClick™ modular platform.
+NeoVolta is a Poway, California-based energy storage company specializing in LiFePO₄ (lithium iron phosphate) battery systems for residential, commercial, and utility-scale applications. The company has demonstrated explosive revenue growth — Q1 FY2026 revenue hit $6.7M, a 1,027% YoY increase — driven by expanding its installer network and launching new products like the neuClick™ modular platform. ~~Q1 was the latest data point.~~ Q2 FY2026 revenue came in at $4.65M (beating the $4.40M estimate), bringing H1 FY2026 to $11.30M vs $1.66M YoY. However, gross margin declined to 17% and net loss widened significantly to -$5.54M.
 
 **Key Thesis:** NEOV is a high-growth micro-cap riding the secular tailwind of U.S. residential energy storage adoption, with strategic moves toward domestic manufacturing (Georgia JV with LONGi) that could unlock IRA tax credit advantages. However, the company remains unprofitable, faces intense competition from Tesla/Enphase, and carries execution risk on multiple simultaneous growth initiatives.
 
@@ -61,25 +63,30 @@ NeoVolta uses LiFePO₄ (LFP) chemistry across all products:
 | FY2024 (ended Jun 2024) | $2.65M | — | ~15% |
 | FY2025 (ended Jun 2025) | $8.43M | +218% | 18% |
 | Q1 FY2026 (Sep 2025) | $6.7M | +1,027% | 24% |
-| FY2026E (consensus) | ~$20.9M | +148% | Improving |
+| Q2 FY2026 (Dec 2025) | $4.65M | +335% YoY | 17% |
+| H1 FY2026 (6-month) | $11.30M | +581% YoY | ~21% |
+| FY2026E (consensus) | ~$20.9M | +148% | ~~Improving~~ Mixed |
 | FY2027E (consensus) | ~$22.2M | +6% | — |
 
 **Key observations:**
-- Revenue acceleration is dramatic — 4 consecutive record quarters
-- Gross margin improving from 15% → 18% → 24%, showing operating leverage
-- Q1 FY2026 alone ($6.7M) nearly equals all of FY2025 ($8.43M)
+- ~~Revenue acceleration is dramatic — 4 consecutive record quarters~~ Revenue growth remains strong YoY (+335% in Q2), but Q2 ($4.65M) declined sequentially from Q1 ($6.7M), breaking the consecutive record streak
+- ~~Gross margin improving from 15% → 18% → 24%, showing operating leverage~~ Gross margin trajectory reversed: 15% → 18% → 24% (Q1) → 17% (Q2). Q2 decline partly due to reversal of a prior year reserve
+- H1 FY2026 ($11.30M) already exceeds all of FY2025 ($8.43M)
+- Q2 net loss widened sharply to -$5.54M (vs Q1's -$1.24M), driven by increased operating expenses
 - FY2027 growth consensus (+6%) seems conservative given current trajectory
 
 ### Profitability
 - **Net Loss FY2025:** -$5.03M (-$0.15/share)
 - **Net Loss Q1 FY2026:** -$1.24M (-$0.04/share)
+- ~~**Net Loss Q2 FY2026:** N/A (pending)~~ **Net Loss Q2 FY2026:** -$5.54M (-$0.16/share) — missed estimate of -$0.03 by $0.13
+- **H1 FY2026 Net Loss:** -$6.78M
 - **EPS Estimate FY2026:** -$0.13
 - **EPS Estimate FY2027:** -$0.13 (some analysts expect breakeven ~$400K profit)
-- Still burning cash; path to profitability depends on scale + margin expansion
+- Still burning cash; ~~path to profitability depends on scale + margin expansion~~ Q2 loss widening raises concerns about near-term profitability path
 
 ### Balance Sheet Concerns
 - Micro-cap with limited cash reserves
-- Funding Georgia factory JV requires capital
+- Funding Georgia factory JV requires capital — ~~details unclear~~ ~$23M in financing secured in late 2025/early 2026
 - May need additional equity raises (dilution risk)
 - No long-term debt details publicly available in detail
 
@@ -211,7 +218,7 @@ The U.S. residential energy storage market is valued at ~$2.7B (2024) and projec
 2. **Domestic manufacturing advantage** — Georgia factory positions NEOV to capture IRA domestic content bonuses (40% ITC) that competitors importing from China cannot
 3. **neuClick platform is a game-changer** — Modular, 30-min install, stackable to 60 kWh; solves installer pain points and could accelerate adoption
 4. **Massive TAM** — U.S. residential storage market growing 18-28% CAGR; even capturing 2-3% share = significant revenue
-5. **Margin expansion** — Gross margin improving from 15% → 24%; scale from Georgia factory could push toward 30%+
+5. **Margin expansion** — ~~Gross margin improving from 15% → 24%~~ Gross margin reached 24% in Q1 but pulled back to 17% in Q2; scale from Georgia factory could still push toward 30%+
 6. **Multiple revenue streams emerging** — Residential + C&I + utility-scale + Luminia partnership ($39M pipeline)
 7. **Tariff beneficiary** — 82% tariffs on Chinese batteries make U.S.-assembled products more competitive
 
@@ -222,7 +229,7 @@ The U.S. residential energy storage market is valued at ~$2.7B (2024) and projec
 **"Overhyped micro-cap with execution risk in a market dominated by giants"**
 
 1. **Tesla dominance is real** — 63% market share, massive brand, integrated ecosystem; NeoVolta is a rounding error
-2. **Still unprofitable** — Burning cash with no clear path to sustained profitability; may need dilutive raises
+2. **Still unprofitable** — Burning cash with no clear path to sustained profitability; ~~may need dilutive raises~~ Q2 net loss widened to -$5.54M (vs Q1's -$1.24M), raising dilution concerns
 3. **Georgia factory execution risk** — Building a 2 GWh factory is a massive undertaking for a company doing $20M revenue
 4. **LONGi association is a liability** — FEOC rules could disqualify products from IRA benefits if structure is challenged
 5. **Revenue concentration risk** — A few large deals (Luminia) could create lumpy, unpredictable revenue
@@ -267,7 +274,7 @@ The U.S. residential energy storage market is valued at ~$2.7B (2024) and projec
 ## 9. What We Don't Know (Explicit Uncertainties)
 
 1. **Detailed balance sheet** — Cash position, burn rate, and runway are not fully transparent
-2. **Georgia factory financing** — How exactly is the JV funded? Will NEOV need to raise equity?
+2. **Georgia factory financing** — ~~How exactly is the JV funded? Will NEOV need to raise equity?~~ ~$23M financing secured in late 2025/early 2026; remaining funding needs unclear
 3. **neuClick unit economics** — Gross margin on neuClick vs legacy NV14/NV24 products
 4. **Luminia deal structure** — Non-binding framework; actual conversion rate unknown
 5. **LONGi FEOC compliance** — Whether the 60/20/20 JV structure will withstand regulatory scrutiny
@@ -284,7 +291,7 @@ NeoVolta is a **high-risk, high-reward speculative play** on the U.S. residentia
 ### Key Milestones to Monitor
 - [ ] Georgia factory on-schedule for mid-2026 mass production
 - [ ] neuClick sales volume and customer feedback post-launch
-- [ ] Q2 FY2026 earnings — revenue trajectory and margin trend
+- [x] ~~Q2 FY2026 earnings — revenue trajectory and margin trend~~ **Q2 reported 2/17/2026:** Revenue $4.65M (beat), GM 17% (declined), Net loss -$5.54M (missed)
 - [ ] Luminia deal conversion from non-binding to binding agreement
 - [ ] Any equity raises or dilutive events
 - [ ] IRA domestic content qualification confirmation
