@@ -1,9 +1,66 @@
 # PayPal Holdings Inc. (PYPL) Deep Research Report
 
 **Date:** February 4, 2026
-**Last Updated:** February 9, 2026
+**Last Updated:** February 17, 2026
 **Analyst:** Claude AI (Assisted Research)
 **Disclaimer:** This is not investment advice. This report is for informational purposes only. Conduct your own due diligence before making any investment decisions.
+
+---
+
+## 📌 Weekly Update — February 17, 2026
+
+### Stock Price
+- **Current Price:** $40.29 (as of Feb 13 close)
+- **Weekly Change:** -0.3% WoW (from $40.42 → $40.29); stock remains range-bound near multi-year lows
+- **52-Week Range:** $38.46 – $79.50
+- **Market Cap:** ~$38.4B
+
+### Key Events This Week
+
+**1. Continued Analyst Downgrades**
+- Truist Securities: Maintained Sell, PT slashed to $39 (from $58) on Feb 10
+- Rothschild & Co Redburn: Maintained Sell, PT at $32 — lowest on the Street
+- Zacks moved PYPL to "Strong Sell" rating
+- Consensus: 28 analysts at "Hold"; average PT ~$61, but recent cuts cluster around $34-$46
+
+**2. Securities Investigations Expanding**
+- Multiple law firms (Levi & Korsinsky, Kessler Topaz) probing potential federal securities law violations
+- Focus: whether PayPal timely disclosed deteriorating business trends between Q3 2025 earnings (Oct 28) and Q4 report (Feb 3)
+- No formal SEC action yet, but legal overhang adds to uncertainty
+
+**3. Insider Activity**
+- EVP Frank Keller sold 3,478 shares on Feb 6 (~$139.8K), reducing ownership by 6.32%
+- Senator John Boozman disclosed purchasing PYPL shares on Jan 29 (before earnings); now down ~25% on the trade
+- Net insider sentiment: mildly negative
+
+**4. Agentic AI Travel Partnership**
+- PayPal announced partnership with Sabre and Mindtrip for AI-powered travel commerce
+- Signals strategic push into agentic AI payments — could expand TPV in travel/booking vertical
+- Early-stage initiative; revenue impact likely 2027+
+
+**5. CEO Transition Countdown**
+- Enrique Lores officially takes over as CEO on March 1, 2026 (2 weeks away)
+- Jamie Miller continues as interim CEO
+- No public strategic commentary from Lores yet — market awaits his vision
+
+**6. Visa+ Venmo Discontinuation Imminent**
+- Feb 19 deadline approaching: Visa+ interoperability with Venmo ends
+- Minor impact but signals Visa's competitive positioning against PayPal/Venmo ecosystem
+
+### Thesis Impact Assessment
+
+**Material changes to investment thesis:**
+
+| Factor | Direction | Detail |
+|--------|-----------|--------|
+| Analyst Sentiment | ⬇️ Negative | Downgrades continue; Truist ($39), Rothschild ($32) set new lows; Zacks "Strong Sell" |
+| Legal Risk | ⬇️ Negative | Securities investigations add tail risk; no material financial impact yet but overhang persists |
+| Insider Activity | ⬇️ Mildly Negative | EVP selling post-earnings; no significant insider buying at these levels |
+| AI Strategy | ⬆️ Mildly Positive | Sabre/Mindtrip partnership shows strategic ambition in agentic commerce |
+| Valuation | ➡️ Unchanged | Stock stabilizing at $40; ~8-9x forward P/E, ~16% FCF yield; deep value if execution improves |
+| CEO Transition | ⚠️ Watch | March 1 handover approaching; Lores' first public remarks will be pivotal |
+
+**Updated Verdict:** Thesis remains **NEUTRAL** with slightly increased caution. The stock has stabilized in the $39-41 range post-crash, suggesting the initial panic selling has subsided. However, continued analyst downgrades (Truist $39, Rothschild $32), expanding securities investigations, and insider selling provide no positive catalysts in the near term. The key inflection point remains Enrique Lores' March 1 CEO start and his first strategic communication. Until then, the risk/reward is balanced — deep value metrics ($40 stock, 16% FCF yield, $6B buyback) offset by genuine execution uncertainty and legal overhang. Next major catalyst: Lores' first public remarks as CEO (expected March 2026).
 
 ---
 
