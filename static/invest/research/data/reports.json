@@ -1,5 +1,28 @@
 [
   {
+    "id": "almonty-2026",
+    "company": "Almonty Industries",
+    "ticker": "NASDAQ: ALM / TSX: AII",
+    "title": "Almonty Industries 深度研究报告 - 非中国钨矿霸主的地缘政治豪赌",
+    "titleEn": "Almonty Industries Deep Research Report - The Non-Chinese Tungsten Leader's Geopolitical Bet",
+    "summary": "全球最重要的非中国钨矿生产商，旗舰Sangdong矿2026年初商业化投产。中国钨出口收缩40%+美国国防禁令提供结构性顺风，15年Plansee包销锁定收入下限。但$40亿市值对应TTM仅$2150万收入，EV/2026E Revenue 27-34x，估值已极度拉伸。",
+    "tags": ["钨矿", "关键矿物", "国防", "地缘政治"],
+    "category": "energy",
+    "date": "2026-02-19",
+    "lastUpdate": "2026-02-19",
+    "file": "/invest/research/reports/view.html?id=almonty-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Almonty_Industries_深度研究报告_2026-02.md",
+      "en": "/invest/research/Almonty_Industries_Deep_Research_Report_2026-02.md"
+    },
+    "highlights": [
+      "Sangdong矿2026年初商业化投产，满产后供应全球非中国钨的~40%",
+      "中国钨出口收缩40%，APT价格暴涨至$460/MTU，美国2027年国防禁用中国钨",
+      "Plansee 15年包销$235/MTU底价无上限，内部人持股39%",
+      "市值$40亿，EV/2026E Revenue 27-34x，TTM收入仅$2150万，估值要求完美执行"
+    ]
+  },
+  {
     "id": "igv-2026",
     "company": "IGV (iShares Expanded Tech-Software Sector ETF)",
     "ticker": "NYSEARCA: IGV",
