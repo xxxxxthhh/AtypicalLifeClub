@@ -1,5 +1,28 @@
 [
   {
+    "id": "sk-hynix-2026",
+    "company": "SK hynix",
+    "ticker": "KRX: 000660",
+    "title": "SK hynix 深度研究报告 - HBM垄断者的AI记忆霸权",
+    "titleEn": "SK hynix Deep Research Report - The HBM Monopolist's AI Memory Dominance",
+    "summary": "全球HBM垄断者，53%市场份额+NVIDIA独家绑定。FY2025营收₩97.1万亿（+47%），营业利润₩47.2万亿（+101%），利润率49%。首次超越三星年度利润。Forward P/E仅5.3x，可能是全球半导体中最被低估的标的。韩股上市限制投资途径，EWY ETF是最便捷间接方式。",
+    "tags": ["半导体", "HBM", "AI内存", "韩国"],
+    "category": "tech",
+    "date": "2026-02-25",
+    "lastUpdate": "2026-02-25",
+    "file": "/invest/research/reports/view.html?id=sk-hynix-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/SK_hynix_深度研究报告_2026-02.md",
+      "en": "/invest/research/SK_hynix_Deep_Research_Report_2026-02.md"
+    },
+    "highlights": [
+      "HBM全球份额53%，NVIDIA独家/主要供应商，2026产能已售罄",
+      "FY2025营业利润₩47.2万亿（+101%），利润率49%，首次超越三星",
+      "Forward P/E 5.3x，全球半导体中最被低估的标的之一",
+      "间接投资：EWY ETF（19%权重）、Micron (MU)、直接韩股账户"
+    ]
+  },
+  {
     "id": "almonty-2026",
     "company": "Almonty Industries",
     "ticker": "NASDAQ: ALM / TSX: AII",
