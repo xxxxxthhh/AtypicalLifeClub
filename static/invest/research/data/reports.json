@@ -1,5 +1,28 @@
 [
   {
+    "id": "tempus-ai-2026",
+    "company": "Tempus AI",
+    "ticker": "NASDAQ: TEM",
+    "title": "Tempus AI 深度研究报告 - 精准医疗数据飞轮的高增长与高风险",
+    "titleEn": "Tempus AI Deep Research Report - Precision Medicine Data Flywheel's High Growth and High Risk",
+    "summary": "精准医疗全栈平台，FY2025营收$12.7亿（+83%），有机增速33.5%。诊断+数据授权+AI三位一体飞轮模式，126%净留存率，$11亿合同积压。但GAAP仍亏损，CEO累计减持$1.27亿，做空比例20.6%，P/S ~8x。2026年指引收入$15.9亿、调整后EBITDA $6500万，盈利拐点待验证。",
+    "tags": ["精准医疗", "AI医疗", "基因组学", "数据平台"],
+    "category": "tech",
+    "date": "2026-02-27",
+    "lastUpdate": "2026-02-27",
+    "file": "/invest/research/reports/view.html?id=tempus-ai-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Tempus_AI_深度研究报告_2026-02.md",
+      "en": "/invest/research/Tempus_AI_Deep_Research_Report_2026-02.md"
+    },
+    "highlights": [
+      "FY2025营收$12.7亿（+83%），有机增速33.5%，诊断收入$9.55亿（+111%）",
+      "数据飞轮护城河：126%净留存率，$11亿+合同积压，700万病理切片数据",
+      "2026年指引：收入$15.9亿（+25%），调整后EBITDA ~$6500万（首次盈利）",
+      "CEO累计减持$1.27亿+，双重股权控制60%投票权，做空比例20.6%"
+    ]
+  },
+  {
     "id": "sk-hynix-2026",
     "company": "SK hynix",
     "ticker": "KRX: 000660",
