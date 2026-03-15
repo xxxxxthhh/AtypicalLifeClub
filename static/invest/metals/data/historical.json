@@ -61,39 +61,39 @@
       }
     },
     "lookback_days": 730,
-    "last_updated": "2026-03-14T01:37:39.515509",
+    "last_updated": "2026-03-15T01:37:54.423244",
     "total_metals": 5,
     "total_etfs": 9
   },
   "current": {
     "GC=F": {
-      "price": 5023.1001,
-      "change": -98.6997,
-      "changePct": -1.93,
+      "price": 5061.7002,
+      "change": -60.0996,
+      "changePct": -1.17,
       "date": "2026-03-13"
     },
     "SI=F": {
-      "price": 80.645,
-      "change": -4.78,
-      "changePct": -5.6,
+      "price": 81.343,
+      "change": -4.082,
+      "changePct": -4.78,
       "date": "2026-03-13"
     },
     "PL=F": {
-      "price": 2024.5,
-      "change": -137.3999,
-      "changePct": -6.36,
+      "price": 2042.1,
+      "change": -119.7999,
+      "changePct": -5.54,
       "date": "2026-03-13"
     },
     "PA=F": {
-      "price": 1561.0,
-      "change": -97.0,
-      "changePct": -5.85,
+      "price": 1579.7,
+      "change": -78.3,
+      "changePct": -4.72,
       "date": "2026-03-13"
     },
     "HG=F": {
-      "price": 5.675,
-      "change": -0.1765,
-      "changePct": -3.02,
+      "price": 5.757,
+      "change": -0.0945,
+      "changePct": -1.61,
       "date": "2026-03-13"
     },
     "COPX": {
@@ -2815,7 +2815,7 @@
       },
       {
         "date": "2026-03-13",
-        "close": 5023.1001,
+        "close": 5061.7002,
         "volume": 155259
       }
     ],
@@ -5482,7 +5482,7 @@
       },
       {
         "date": "2026-03-13",
-        "close": 80.645,
+        "close": 81.343,
         "volume": 46984
       }
     ],
@@ -8149,7 +8149,7 @@
       },
       {
         "date": "2026-03-13",
-        "close": 2024.5,
+        "close": 2042.1,
         "volume": 26390
       }
     ],
@@ -10811,7 +10811,7 @@
       },
       {
         "date": "2026-03-13",
-        "close": 1561.0,
+        "close": 1579.7,
         "volume": 3685
       }
     ],
@@ -13478,7 +13478,7 @@
       },
       {
         "date": "2026-03-13",
-        "close": 5.675,
+        "close": 5.757,
         "volume": 36485
       }
     ]
