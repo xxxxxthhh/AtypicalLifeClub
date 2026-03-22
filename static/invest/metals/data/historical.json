@@ -61,39 +61,39 @@
       }
     },
     "lookback_days": 730,
-    "last_updated": "2026-03-21T01:37:18.415635",
+    "last_updated": "2026-03-22T01:37:28.753563",
     "total_metals": 5,
     "total_etfs": 9
   },
   "current": {
     "GC=F": {
-      "price": 4492.0,
-      "change": -164.7002,
-      "changePct": -3.54,
+      "price": 4574.8999,
+      "change": -81.8003,
+      "changePct": -1.76,
       "date": "2026-03-20"
     },
     "SI=F": {
-      "price": 67.81,
-      "change": -5.575,
-      "changePct": -7.6,
+      "price": 69.664,
+      "change": -3.721,
+      "changePct": -5.07,
       "date": "2026-03-20"
     },
     "PL=F": {
-      "price": 1920.1,
-      "change": -70.9,
-      "changePct": -3.56,
+      "price": 1970.5,
+      "change": -20.5,
+      "changePct": -1.03,
       "date": "2026-03-20"
     },
     "PA=F": {
-      "price": 1414.5,
-      "change": -66.0,
-      "changePct": -4.46,
+      "price": 1445.2,
+      "change": -35.3,
+      "changePct": -2.38,
       "date": "2026-03-20"
     },
     "HG=F": {
-      "price": 5.302,
-      "change": -0.219,
-      "changePct": -3.97,
+      "price": 5.3745,
+      "change": -0.1465,
+      "changePct": -2.65,
       "date": "2026-03-20"
     },
     "COPX": {
@@ -2845,7 +2845,7 @@
       },
       {
         "date": "2026-03-20",
-        "close": 4492.0,
+        "close": 4574.8999,
         "volume": 220773
       }
     ],
@@ -5542,7 +5542,7 @@
       },
       {
         "date": "2026-03-20",
-        "close": 67.81,
+        "close": 69.664,
         "volume": 49058
       }
     ],
@@ -8239,7 +8239,7 @@
       },
       {
         "date": "2026-03-20",
-        "close": 1920.1,
+        "close": 1970.5,
         "volume": 20042
       }
     ],
@@ -10931,7 +10931,7 @@
       },
       {
         "date": "2026-03-20",
-        "close": 1414.5,
+        "close": 1445.2,
         "volume": 4887
       }
     ],
@@ -13628,7 +13628,7 @@
       },
       {
         "date": "2026-03-20",
-        "close": 5.302,
+        "close": 5.3745,
         "volume": 50909
       }
     ]
