@@ -7,6 +7,39 @@
 
 ---
 
+## 📌 Update — June 21, 2026
+
+**Update type:** This is a lightweight restart pass for the research workflow. It prioritizes official AMD disclosures and corrects a key customer attribution error in the February version. Historical notes below remain visible, but references to an “OpenAI 6GW” agreement are revised in place with strikethroughs followed by the June 21, 2026 update.
+
+### Latest Official Developments
+
+**1. Q1 2026 results continue to validate the data center thesis**
+AMD reported Q1 2026 revenue of $10.253B, up 38% year over year; GAAP gross margin was 53%, non-GAAP gross margin was 55%; GAAP EPS was $0.84 and non-GAAP EPS was $1.37. Data Center revenue was $5.775B, up 57% year over year, driven by EPYC server CPU demand and ramping Instinct GPU shipments. The company guided Q2 2026 revenue to approximately $11.2B, plus or minus $300M, implying about 46% year-over-year growth at the midpoint, with non-GAAP gross margin around 56%. Source: [AMD Q1 2026 Financial Results](https://ir.amd.com/news-events/press-releases/detail/1284/amd-reports-first-quarter-2026-financial-results).
+
+**2. Important correction: the 6GW agreement is with Meta, not OpenAI**
+On February 24, 2026, AMD and Meta announced a multi-year, multi-generation partnership to deploy up to 6GW of AMD Instinct GPUs. The first 1GW deployment is expected to begin shipping in the second half of 2026 and is based on custom MI450-architecture GPUs, 6th Gen EPYC “Venice” CPUs, ROCm, and the Helios rack-scale architecture. The agreement also includes performance-based warrants for Meta to acquire up to 160M AMD common shares tied to deployment milestones. Source: [AMD and Meta 6GW Partnership](https://ir.amd.com/news-events/press-releases/detail/1279/amd-and-meta-announce-expanded-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus).
+
+**3. Helios/MI450 supply chain is moving into capacity validation**
+On May 21, 2026, AMD announced more than $10B of planned Taiwan ecosystem investment over the next five years to expand advanced packaging and AI infrastructure supply capacity. The disclosure reiterates that the Helios rack-scale platform, MI450X GPUs, and Venice EPYC CPUs are intended to support multi-GW deployments in the second half of 2026. ODM partners including Sanmina, Wiwynn, Wistron, and Inventec are expected to participate in Helios system buildout. Source: [Taiwan Ecosystem Investment](https://ir.amd.com/news-events/press-releases/detail/1286/amd-announces-more-than-10-billion-in-taiwan-ecosystem-investments-to-accelerate-ai-infrastructure).
+
+**4. Venice EPYC has entered TSMC 2nm production ramp**
+AMD also announced that 6th Gen EPYC “Venice” CPUs have entered production ramp on TSMC’s 2nm process, with future production planned at TSMC Arizona. This reinforces AMD’s AI infrastructure platform narrative: CPU + GPU + rack-scale systems, rather than a single accelerator product cycle. Source: [Venice Production Ramp](https://ir.amd.com/news-events/press-releases/detail/1287/amd-announces-production-ramp-of-next-generation-amd-epyc-processor-venice-on-tsmc-2nm-process-technology).
+
+**5. Sovereign AI and regional ecosystem expansion continues**
+On June 8, 2026, AMD announced up to GBP 2B of investment in the United Kingdom over the next five years to support AI innovation, research computing, and talent development, including collaborations with Imperial College London, Oriole Networks, Dell Technologies, and the University of Cambridge. This is not a near-term revenue catalyst, but it strengthens AMD’s channel and institutional positioning in sovereign AI infrastructure. Source: [UK AI Investment](https://ir.amd.com/news-events/press-releases/detail/1288/amd-commits-up-to-2-billion-to-accelerate-ai-innovation-and-research-in-the-united-kingdom).
+
+### Thesis Impact Assessment
+
+**The thesis is modestly stronger, but valuation sensitivity has increased.** Q1 Data Center growth of 57% year over year, strong Q2 guidance, the Meta 6GW partnership, and Helios supply-chain progress support the core thesis that AMD is moving from a CPU/GPU product company toward an AI infrastructure platform vendor. At the same time, the 6GW agreement includes performance-based warrants, Helios/MI450 still needs second-half 2026 delivery validation, and NVIDIA’s software ecosystem and supply-chain scale remain the main constraints.
+
+**Body revision principle:**
+- Keep old judgments visible and mark them with `~~strikethrough~~`.
+- Add the new view immediately after the old view with a `June 21, 2026 update` label.
+- Treat `reports.json` as current display metadata, so it is updated directly rather than redlined.
+- A later full rewrite still needs to refresh valuation, stock price, market cap, and Q1 2026 segment data throughout the report.
+
+---
+
 ## 📌 Weekly Update — February 16, 2026
 
 **Stock Price:** $207.32 (as of Feb 16, 2026; +0.67% on day) | 52-week range: $76.48–$267.08
@@ -45,12 +78,16 @@ SoftBank Corp. and AMD announced a joint validation initiative to integrate AMD 
 - NVIDIA's Rubin platform (H2 2026) expected to deliver 3.3x compute improvement over Blackwell B300
 - Hyperscalers increasingly diversifying GPU suppliers — AMD benefiting from "managed competition" trend
 
-**6. OpenAI Deal Scope Clarification: 6GW Total, Not Just 1GW**
-- Full deal scope confirmed: up to 6 gigawatts of AMD Instinct GPUs over multiple years — one of the largest AI infrastructure agreements in history
-- Initial phase: 1GW of MI450 Series GPUs starting H2 2026 (previously reported)
-- Deal includes warrant for OpenAI to acquire up to 160M AMD shares, vesting tied to deployment milestones
+**6. ~~OpenAI Deal Scope Clarification: 6GW Total, Not Just 1GW~~ Meta 6GW Deal Correction (June 21, 2026)**
+- ~~Full deal scope confirmed: up to 6 gigawatts of AMD Instinct GPUs over multiple years — one of the largest AI infrastructure agreements in history~~
+- **June 21, 2026 update:** AMD’s official 6GW multi-year, multi-generation Instinct GPU agreement is with Meta, not OpenAI.
+- ~~Initial phase: 1GW of MI450 Series GPUs starting H2 2026 (previously reported)~~
+- **June 21, 2026 update:** The first 1GW deployment is expected to begin shipping in H2 2026 and is based on custom MI450-architecture GPUs, Venice EPYC CPUs, ROCm, and Helios rack-scale architecture.
+- ~~Deal includes warrant for OpenAI to acquire up to 160M AMD shares, vesting tied to deployment milestones~~
+- **June 21, 2026 update:** The performance-based warrant counterparty is Meta, with rights to acquire up to 160M AMD common shares tied to deployment milestones.
+- ~~Represents OpenAI's strategic diversification away from NVIDIA dependency~~
+- **June 21, 2026 update:** The confirmed strategic diversification signal belongs to Meta; whether OpenAI is a confirmed large-scale AMD deployment customer needs to be re-verified.
 - Covers multiple Instinct GPU generations (MI450 and beyond)
-- Represents OpenAI's strategic diversification away from NVIDIA dependency
 - Revenue potential: tens of billions of dollars over the life of the agreement
 
 ### Thesis Impact Assessment
@@ -61,7 +98,8 @@ Key positives:
 - International expansion via TCS partnership validates Helios platform demand
 - Third-party workload data (Arista: 1% → 20-25%) confirms real adoption momentum
 - SoftBank partnership opens telecom AI infrastructure channel
-- OpenAI 6GW total deal scope larger than initially understood — massive long-term revenue anchor
+- ~~OpenAI 6GW total deal scope larger than initially understood — massive long-term revenue anchor~~
+- **June 21, 2026 update:** Meta’s up-to-6GW agreement is the verified long-term revenue anchor; OpenAI references should not be treated as confirmed facts until re-verified.
 - MI400 roadmap progressing on schedule
 - MWC Barcelona 2026 upcoming — potential for additional partnership announcements
 
@@ -70,7 +108,8 @@ Key risks to monitor:
 - DA Davidson "Neutral" initiation suggests some analysts see limited near-term upside at current valuation
 - NVIDIA Rubin launch in H2 2026 remains the primary competitive threat
 - Stock at ~$207 still trades at premium multiples (~36-40x forward P/E)
-- OpenAI warrant dilution (up to 160M shares) if milestones are met
+- ~~OpenAI warrant dilution (up to 160M shares) if milestones are met~~
+- **June 21, 2026 update:** Meta warrant dilution risk, up to 160M shares, if deployment milestones are met.
 
 **Updated Market Cap:** ~$338B (at $207.32/share)
 
@@ -126,7 +165,7 @@ NVIDIA announced the "Rubin" R100 platform for 2026, featuring HBM4 memory and t
 
 **Investment Verdict:**
 - **Stance:** Cautiously Bullish with Medium Conviction
-- **Key Catalyst:** OpenAI deployment ramp (H2 2026), MI400 series launch, continued EPYC server share gains
+- **Key Catalyst:** ~~OpenAI deployment ramp (H2 2026)~~ **June 21, 2026 update: Meta’s first 1GW deployment is expected to begin shipping in H2 2026**, MI400 series launch, continued EPYC server share gains
 - **Timeline:** 12-18 months for thesis validation
 
 **Quick Stats:**
@@ -226,7 +265,7 @@ AMD is a **fabless semiconductor company**, meaning it designs chips but outsour
 1. **Technical Execution:** Chiplet architecture, advanced node leadership (TSMC 3nm/4nm)
 2. **x86 License:** Duopoly with Intel in x86 architecture (high switching costs for enterprise)
 3. **Scale Economies:** Growing R&D leverage as revenue scales
-4. **Customer Relationships:** Deep integration with hyperscalers (Microsoft, Meta, Oracle, OpenAI)
+4. **Customer Relationships:** Deep integration with hyperscalers (Microsoft, Meta, Oracle); ~~OpenAI~~ **June 21, 2026 update: OpenAI requires re-verification as a confirmed large-scale deployment customer**
 
 **Weaknesses:**
 1. **Software Ecosystem:** ROCm significantly lags CUDA in maturity (4M CUDA developers vs. targeting 100K ROCm developers by 2026)
@@ -308,7 +347,7 @@ Dr. Lisa Su's tenure represents one of the most successful turnarounds in semico
 1. **Product Execution:** Delivered competitive roadmap against Intel and entered NVIDIA's AI GPU market
 2. **Strategic M&A:** Xilinx acquisition expanded TAM into embedded/FPGA markets
 3. **Financial Discipline:** Transformed AMD from near-bankruptcy to investment-grade balance sheet
-4. **Customer Wins:** Secured hyperscaler partnerships (Microsoft, Meta, Oracle, OpenAI)
+4. **Customer Wins:** Secured hyperscaler partnerships (Microsoft, Meta, Oracle); ~~OpenAI~~ **June 21, 2026 update: OpenAI customer status needs re-verification**
 
 **Management Quality: A**
 
@@ -324,7 +363,8 @@ Dr. Lisa Su's tenure represents one of the most successful turnarounds in semico
 **Communication:**
 - Transparent guidance (raised FY2025 outlook multiple times)
 - Acknowledges competitive challenges (NVIDIA's CUDA moat)
-- Conservative on timelines (OpenAI ramp H2 2026, not earlier)
+- ~~Conservative on timelines (OpenAI ramp H2 2026, not earlier)~~
+- **June 21, 2026 update:** Conservative on timelines for Meta’s first 1GW deployment beginning in H2 2026; OpenAI timing should not be treated as confirmed.
 
 **Overall Management Grade: A**
 
@@ -342,8 +382,10 @@ Strong execution track record, clear strategic vision, and demonstrated ability 
 
 **Data Points:**
 - MI300/MI350 deployments accelerating: Q4 2025 data center revenue $5.4B (+39% YoY)
-- Customer wins expanding: Microsoft, Meta, Oracle, OpenAI, xAI, Crusoe confirmed
-- OpenAI multi-year deal: up to 6GW of Instinct GPUs total, starting with 1GW MI450 in H2 2026 (tens of billions in lifetime revenue)
+- ~~Customer wins expanding: Microsoft, Meta, Oracle, OpenAI, xAI, Crusoe confirmed~~
+- **June 21, 2026 update:** Customer wins expanding: Microsoft, Meta, Oracle, xAI, and Crusoe; OpenAI should be re-verified before being listed as confirmed.
+- ~~OpenAI multi-year deal: up to 6GW of Instinct GPUs total, starting with 1GW MI450 in H2 2026 (tens of billions in lifetime revenue)~~
+- **June 21, 2026 update:** Meta multi-year deal: up to 6GW of Instinct GPUs total, with the first 1GW expected to begin shipping in H2 2026.
 - Wall Street estimates: $10-12B AI GPU revenue by 2026, scaling to "tens of billions" by 2027
 - Oracle 27,000 GPU cluster, Crusoe 13,000 MI355 GPUs ($400M order)
 
@@ -415,7 +457,7 @@ Strong execution track record, clear strategic vision, and demonstrated ability 
 
 **Key Assumptions for Bull Case:**
 1. AI infrastructure spending remains robust through 2026-2027 (no major CapEx cuts)
-2. OpenAI deployment ramps as planned in H2 2026
+2. ~~OpenAI deployment ramps as planned in H2 2026~~ **June 21, 2026 update: Meta’s first 1GW deployment begins shipping as planned in H2 2026**
 3. ROCm software ecosystem continues improving, closing gap with CUDA
 4. TSMC maintains manufacturing leadership and capacity allocation to AMD
 5. No major geopolitical disruption (Taiwan Strait conflict)
@@ -451,7 +493,8 @@ Strong execution track record, clear strategic vision, and demonstrated ability 
 - **Network effects:** More developers → better libraries → more developers
 - AMD must price 15-40% below NVIDIA just to compete, limiting profitability
 - Hyperscalers buying AMD for "diversification" doesn't mean material volume
-- OpenAI deal is 1GW starting H2 2026, but NVIDIA ships that in weeks
+- ~~OpenAI deal is 1GW starting H2 2026, but NVIDIA ships that in weeks~~
+- **June 21, 2026 update:** Meta’s first 1GW starts in H2 2026, but NVIDIA’s scale advantage remains the bear-case benchmark.
 
 **Critical Question:** If NVIDIA maintains 80%+ share, AMD's TAM is structurally capped at $5-10B annually in AI GPUs, not the $20-30B bulls expect.
 
@@ -474,13 +517,16 @@ Strong execution track record, clear strategic vision, and demonstrated ability 
 ### 3. Execution Risks on Critical 2026 Milestones
 
 **Data Points:**
-- OpenAI deployment: Starts H2 2026 (6+ months away), no revenue yet
+- ~~OpenAI deployment: Starts H2 2026 (6+ months away), no revenue yet~~
+- **June 21, 2026 update:** Meta first 1GW deployment starts H2 2026, still requiring revenue and shipment validation.
 - MI400 series launch: 2026 timeline, competing against NVIDIA's Vera Rubin
-- Customer concentration: Heavy dependence on few hyperscalers (Microsoft, Meta, OpenAI)
+- ~~Customer concentration: Heavy dependence on few hyperscalers (Microsoft, Meta, OpenAI)~~
+- **June 21, 2026 update:** Customer concentration: heavy dependence on a few hyperscalers, with Meta as the verified 6GW anchor; OpenAI remains to be re-verified.
 - Recent insider selling: Lisa Su sold $313M since 2021, including $138K in Aug 2025
 
 **Why This Matters:**
-- **OpenAI risk:** If deployment delays or OpenAI shifts strategy (develops own chips), thesis breaks
+- ~~**OpenAI risk:** If deployment delays or OpenAI shifts strategy (develops own chips), thesis breaks~~
+- **June 21, 2026 update:** **Meta deployment risk:** If the first 1GW slips materially or the broader 6GW roadmap shrinks, the AI infrastructure thesis weakens; OpenAI should be treated as an unverified customer assumption.
 - **Product execution:** Any MI400 delay or performance shortfall vs. NVIDIA = lost momentum
 - **Customer concentration:** Top 3-4 customers likely represent 60%+ of AI GPU revenue
 - **Insider selling signal:** C-suite selling at current levels suggests limited near-term upside
@@ -539,7 +585,7 @@ Strong execution track record, clear strategic vision, and demonstrated ability 
 **Key Concerns for Bear Case:**
 1. NVIDIA's moat proves insurmountable; AMD stuck at 5-8% AI GPU share
 2. AI spending bubble pops in late 2026/2027
-3. OpenAI deployment delays or underperforms expectations
+3. ~~OpenAI deployment delays or underperforms expectations~~ **June 21, 2026 update: Meta deployment delays or underperforms expectations; OpenAI customer assumption fails verification**
 4. Geopolitical disruption (Taiwan, China export controls)
 5. Intel mounts credible comeback in server CPUs
 6. Valuation multiple compresses on any growth disappointment
@@ -566,17 +612,19 @@ Strong execution track record, clear strategic vision, and demonstrated ability 
 
 **When We'll Know More:** Q2-Q3 2026 hyperscaler earnings calls will reveal CapEx trajectory for 2027.
 
-### 2. OpenAI Deployment Scale and Timing
+### 2. ~~OpenAI Deployment Scale and Timing~~ Meta Deployment Scale and Timing (June 21, 2026 Update)
 
 **What We Don't Know:**
-- Exact volume and revenue from OpenAI deal (1GW = how many GPUs? What ASP?)
+- ~~Exact volume and revenue from OpenAI deal (1GW = how many GPUs? What ASP?)~~
+- **June 21, 2026 update:** Exact volume and revenue from the Meta deal (1GW = how many GPUs? What ASP?)
 - Will deployment start on time in H2 2026 or slip to 2027?
 - Is this a one-time build-out or recurring annual purchases?
-- Could OpenAI develop own chips or shift to NVIDIA?
+- ~~Could OpenAI develop own chips or shift to NVIDIA?~~
+- **June 21, 2026 update:** Could Meta reduce, delay, or rebalance purchases toward NVIDIA or custom silicon? OpenAI customer status still requires re-verification.
 
-**Why It Matters:** Bulls assume $3-5B annual revenue from OpenAI. If it's $1-2B or delayed, estimates drop 20-30%.
+**Why It Matters:** ~~Bulls assume $3-5B annual revenue from OpenAI. If it's $1-2B or delayed, estimates drop 20-30%.~~ **June 21, 2026 update:** Bulls should anchor near-term deployment assumptions on Meta, not OpenAI; if Meta revenue is smaller or delayed, estimates still face material downside.
 
-**When We'll Know More:** Q3 2026 earnings call should provide OpenAI ramp update.
+**When We'll Know More:** ~~Q3 2026 earnings call should provide OpenAI ramp update.~~ **June 21, 2026 update:** Q3/Q4 2026 earnings calls should provide Meta deployment and MI450/Helios ramp updates.
 
 ### 3. ROCm Software Ecosystem Adoption Rate
 
@@ -614,7 +662,7 @@ Strong execution track record, clear strategic vision, and demonstrated ability 
 ### Thesis-Breaking Events
 
 **Bull Case Invalidated If:**
-- OpenAI deployment delayed beyond Q1 2027 or significantly reduced in scale
+- ~~OpenAI deployment delayed beyond Q1 2027 or significantly reduced in scale~~ **June 21, 2026 update: Meta first 1GW deployment delayed beyond Q1 2027 or broader 6GW roadmap reduced**
 - AMD's AI GPU market share declines YoY in 2026
 - Gross margins compress below 50% (indicating pricing pressure)
 - NVIDIA launches product that widens performance gap back to 40%+
@@ -688,7 +736,7 @@ Strong execution track record, clear strategic vision, and demonstrated ability 
 
 **Negative:**
 - Q1 2026 China revenue decline (already guided)
-- Any OpenAI deployment delay signals
+- ~~Any OpenAI deployment delay signals~~ **June 21, 2026 update: any Meta deployment delay signals**
 - NVIDIA Vera Rubin launch (competitive threat)
 - Hyperscaler CapEx guidance cuts for H2 2026
 
@@ -699,7 +747,7 @@ Strong execution track record, clear strategic vision, and demonstrated ability 
 ### Medium-Term Catalysts (6-18 months, Aug 2026-Aug 2027)
 
 **Positive:**
-- OpenAI deployment ramp begins (H2 2026) — **CRITICAL CATALYST**
+- ~~OpenAI deployment ramp begins (H2 2026) — **CRITICAL CATALYST**~~ **June 21, 2026 update: Meta first 1GW deployment begins shipping in H2 2026 — CRITICAL CATALYST**
 - MI400/MI450 series launch and customer wins
 - Data center segment revenue approaching $25-30B annual run rate
 - Operating margin expansion above 30%
@@ -712,7 +760,7 @@ Strong execution track record, clear strategic vision, and demonstrated ability 
 - Margin compression from competitive pricing pressure
 
 **Key Dates:**
-- Q3 2026 earnings (Oct): OpenAI ramp update
+- ~~Q3 2026 earnings (Oct): OpenAI ramp update~~ **June 21, 2026 update: Q3 2026 earnings (Oct): Meta/Helios ramp update**
 - Q4 2026 earnings (Jan 2027): Full-year 2026 results, 2027 outlook
 
 ### Long-Term Catalysts (18+ months, 2027+)
@@ -754,15 +802,15 @@ AMD stands at a critical inflection point in its transformation from CPU challen
 **Rationale:**
 The bull case is compelling IF:
 1. AI infrastructure spending remains robust through 2027
-2. OpenAI deployment executes as planned
+2. ~~OpenAI deployment executes as planned~~ **June 21, 2026 update: Meta first 1GW deployment executes as planned**
 3. ROCm ecosystem continues improving
 4. No major geopolitical disruptions
 
 However, the current valuation (36-40x forward P/E) leaves little room for disappointment. The risk/reward is roughly balanced, with significant execution dependencies over the next 12-18 months.
 
 **Recommended Approach:**
-- **For existing holders:** Hold with tight monitoring of Q2-Q3 2026 catalysts. Set stop-loss at 20-25% below entry if OpenAI deployment delays or market share declines.
-- **For new investors:** Wait for better entry point (10-15% pullback) or confirmation of OpenAI ramp in Q3 2026 earnings before initiating position.
+- **For existing holders:** Hold with tight monitoring of Q2-Q3 2026 catalysts. Set stop-loss at 20-25% below entry if ~~OpenAI deployment delays~~ **June 21, 2026 update: Meta deployment delays** or market share declines.
+- **For new investors:** Wait for better entry point (10-15% pullback) or confirmation of ~~OpenAI ramp~~ **June 21, 2026 update: Meta/Helios ramp** in Q3 2026 earnings before initiating position.
 - **Position sizing:** Given execution risks and valuation, limit to 3-5% portfolio weight maximum.
 
 ### Confidence Level: Medium (6/10)
@@ -784,14 +832,14 @@ However, the current valuation (36-40x forward P/E) leaves little room for disap
 **Watch Closely:**
 1. **Q1 2026 earnings (April):** Data center revenue growth rate, gross margin trends
 2. **Hyperscaler CapEx guidance:** Any signs of 2027 spending deceleration
-3. **OpenAI deployment updates:** Timeline confirmation, volume indicators
+3. **~~OpenAI deployment updates~~ June 21, 2026 update: Meta deployment updates:** Timeline confirmation, volume indicators
 4. **ROCm adoption metrics:** Developer count, customer case studies
 5. **Competitive dynamics:** NVIDIA product launches, Intel recovery signals
 6. **Geopolitical developments:** Taiwan tensions, China export controls
 7. **Insider trading activity:** Further C-suite selling would be concerning
 
 **Thesis Validation Milestones:**
-- Q3 2026: OpenAI revenue ramp begins (visible in data center segment)
+- ~~Q3 2026: OpenAI revenue ramp begins (visible in data center segment)~~ **June 21, 2026 update: Q3 2026 onward: Meta/Helios revenue ramp should begin showing in data center segment**
 - Q4 2026: Full-year AI GPU revenue exceeds $8-10B
 - 2027: Operating margin expands above 30%, market share reaches 10%+
 
@@ -813,7 +861,7 @@ However, the current valuation (36-40x forward P/E) leaves little room for disap
 
 **Competitive Intelligence:**
 - NVIDIA, Intel earnings reports and presentations
-- Hyperscaler (Microsoft, Meta, Oracle) AI infrastructure disclosures
+- Hyperscaler (Microsoft, Meta, Oracle) AI infrastructure disclosures; **June 21, 2026 update:** OpenAI disclosures should be monitored separately before treating it as confirmed customer evidence
 - Industry publications (Tom's Hardware, TechNewsWorld, Wccftech)
 
 ### Key Assumptions
@@ -874,7 +922,7 @@ However, the current valuation (36-40x forward P/E) leaves little room for disap
 
 **投资判断：**
 - **立场：** 谨慎看多，中等信心
-- **关键催化剂：** OpenAI部署放量（2026下半年）、MI400系列发布、EPYC服务器份额持续增长
+- **关键催化剂：** ~~OpenAI部署放量（2026下半年）~~ **2026-06-21 更新：Meta首个1GW部署预计2026下半年开始出货**、MI400系列发布、EPYC服务器份额持续增长
 - **时间框架：** 12-18个月论证验证期
 
 **快速数据（2025年）：**
@@ -885,7 +933,7 @@ However, the current valuation (36-40x forward P/E) leaves little room for disap
 - 净现金：39亿美元
 
 **牛市观点：**
-1. AI加速器业务拐点已现，客户赢单加速（微软、Meta、Oracle、OpenAI）
+1. AI加速器业务拐点已现，客户赢单加速（微软、Meta、Oracle；~~OpenAI~~ **2026-06-21 更新：OpenAI需重新核验**）
 2. 服务器CPU持续夺取Intel份额，稳定现金流支撑AI投资
 3. 毛利率扩张刚开始，产品组合向高毛利数据中心倾斜
 4. 管理层执行力强，Lisa Su带领AMD市值增长80倍（2014-2026）
@@ -896,11 +944,11 @@ However, the current valuation (36-40x forward P/E) leaves little room for disap
 2. AI基础设施支出可持续性存疑，ROI未经验证
 3. 估值溢价（P/E高于NVIDIA），容错空间极小
 4. 地缘政治风险（台湾、中国出口管制）为生存级威胁
-5. 执行风险：OpenAI部署延迟、MI400竞争力、客户集中度高
+5. 执行风险：~~OpenAI部署延迟~~ **2026-06-21 更新：Meta部署延迟或OpenAI客户假设被证伪**、MI400竞争力、客户集中度高
 
 **关键不确定性：**
 - AI支出2027年是否放缓？
-- OpenAI部署规模和时间是否如期？
+- ~~OpenAI部署规模和时间是否如期？~~ **2026-06-21 更新：Meta部署规模和时间是否如期？OpenAI是否能被重新核验为客户？**
 - ROCm生态能否追上CUDA？
 - 台海地缘风险何时爆发？
 
@@ -911,7 +959,7 @@ However, the current valuation (36-40x forward P/E) leaves little room for disap
 
 **建议：**
 - **现有持仓：** 持有并密切监控2026年Q2-Q3催化剂
-- **新建仓位：** 等待10-15%回调或Q3确认OpenAI放量后再入场
+- **新建仓位：** 等待10-15%回调或Q3确认~~OpenAI放量~~ **2026-06-21 更新：Meta/Helios放量**后再入场
 - **仓位控制：** 鉴于执行风险，建议不超过组合3-5%
 
 **信心水平：** 中等（6/10）
@@ -919,4 +967,3 @@ However, the current valuation (36-40x forward P/E) leaves little room for disap
 ---
 
 **免责声明：** 本报告仅供信息和教育目的，不构成投资建议。投资者应进行独立尽职调查并咨询专业顾问后再做投资决策。
-
