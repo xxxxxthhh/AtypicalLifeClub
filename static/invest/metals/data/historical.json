@@ -61,7 +61,7 @@
       }
     },
     "lookback_days": 730,
-    "last_updated": "2026-06-20T01:47:18.743262",
+    "last_updated": "2026-06-21T01:54:01.089589",
     "total_metals": 5,
     "total_etfs": 9
   },
@@ -121,21 +121,21 @@
       "date": "2026-06-18"
     },
     "DBB": {
-      "price": NaN,
-      "change": NaN,
-      "changePct": NaN,
+      "price": 25.3,
+      "change": 0.07,
+      "changePct": 0.28,
       "date": "2026-06-18"
     },
     "REMX": {
-      "price": NaN,
-      "change": NaN,
-      "changePct": NaN,
+      "price": 95.55,
+      "change": -0.49,
+      "changePct": -0.51,
       "date": "2026-06-18"
     },
     "LIT": {
-      "price": NaN,
-      "change": NaN,
-      "changePct": NaN,
+      "price": 82.15,
+      "change": -0.92,
+      "changePct": -1.11,
       "date": "2026-06-18"
     },
     "PPLT": {
@@ -30355,8 +30355,8 @@
       },
       {
         "date": "2026-06-18",
-        "close": NaN,
-        "volume": 116233
+        "close": 25.3,
+        "volume": 119900
       }
     ],
     "REMX": [
@@ -33317,8 +33317,8 @@
       },
       {
         "date": "2026-06-18",
-        "close": NaN,
-        "volume": 831693
+        "close": 95.55,
+        "volume": 892400
       }
     ],
     "LIT": [
@@ -36279,8 +36279,8 @@
       },
       {
         "date": "2026-06-18",
-        "close": NaN,
-        "volume": 272620
+        "close": 82.15,
+        "volume": 280000
       }
     ],
     "PPLT": [
