@@ -42,6 +42,46 @@ static/invest/research/
    - `tags` / `highlights`
 2. 将中英文正文放到 `static/invest/research/*.md`，并在 `markdownFiles` 中映射
 
+## 版本模型
+
+报告更新分为两种模式，更新前必须先选定模式：
+
+- `incremental`：同一周期内的小范围更新。保留当前 `id` 和 Markdown 文件，在正文中用删除线保留旧判断，并紧跟带日期的新判断；同步更新 `lastUpdate`、`summary`、`highlights`。
+- `full-cycle`：每半年或每年产生的完整新版本；如果公司发生重大变化，也可以提前进入新周期。必须创建新的 `id` 和新的中英文 Markdown 文件，旧版本作为归档保留。
+
+建议字段：
+
+- `period`：报告周期，例如 `2026`、`2026H1`、`2026H2`。
+- `versionType`：`initial`、`incremental` 或 `full-cycle`。
+- `versionLabel`：页面展示用短标签，例如 `2026H2 Full Version`。
+- `isCurrent`：当前公开列表版本为 `true`；旧周期归档版本为 `false`。字段缺省时按 `true` 处理。
+- `supersedes`：新完整版本直接替代的上一版报告 `id`。
+- `diffBase`：本轮完整版本做差异比较时使用的上一周期终版 `id`。通常与 `supersedes` 相同。
+- `previousAnnualReport`：当前详情页展示的上一周期预览对象。
+
+`previousAnnualReport` 只能指向已经保留的真实旧版本报告，不得指向临时摘要 Markdown。最小结构：
+
+```json
+{
+  "id": "amd-2026h1",
+  "label": "2026H1 Full Version",
+  "labelEn": "2026H1 Full Version",
+  "file": "/invest/research/reports/view.html?id=amd-2026h1",
+  "date": "2026-02-04",
+  "lastUpdate": "2026-06-22",
+  "summary": "上一周期中文结论摘要。",
+  "summaryEn": "Previous-cycle conclusion summary."
+}
+```
+
+版本链规则：
+
+- 首页默认只展示当前版本；如果 `reports.json` 同时保留旧版本，旧版本必须显式标记 `isCurrent: false`。
+- 新的 `full-cycle` 版本只和上一周期终版做 diff，不追溯每一次增量更新。
+- 旧版本必须保持可访问，`previousAnnualReport.file` 固定使用 `/invest/research/reports/view.html?id=<old-id>`。
+- 不要用一个“预览摘要文件”伪装旧版本；预览文案放在 metadata，完整旧报告保留在旧版本条目里。
+- 当前周期内的 `incremental` 更新不创建 `previousAnnualReport`，除非该报告本身已经是一个新周期版本并且链接到上一周期终版。
+
 ## 双语报告约定（必须执行）
 
 - `markdownFiles.zh` 和 `markdownFiles.en` 必须同时存在，且是两个不同的 `.md` 文件。
