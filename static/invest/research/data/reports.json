@@ -377,21 +377,24 @@
     "ticker": "NASDAQ: PYPL",
     "title": "PayPal 深度调研报告 - 2025-2026年度分析",
     "titleEn": "PayPal Deep Research Report - 2025-2026 Analysis",
-    "summary": "数字支付巨头面临转型挑战，Q4财报未达预期导致股价暴跌16%。CEO更换、裁员7%、技术基础设施重组，市场份额受Stripe和Apple Pay威胁。",
+    "summary": "2026年6月增量更新：PayPal仍处于价值陷阱 vs 深度价值分歧点。Q1品牌结账约+2%，Venmo支付量约+14%，新CEO Enrique Lores进入执行期并推进三业务重组与约$1.5B降本计划。Nasdaq 6月18日报价$42.51、市值约$37.5B，估值仍低但旧合理价值区间已标记为历史框架。",
     "tags": ["金融科技", "数字支付", "企业转型", "竞争分析"],
     "category": "tech",
     "date": "2026-02-03",
-    "lastUpdate": "2026-02-03",
+    "lastUpdate": "2026-06-22",
+    "period": "2026H1",
+    "versionType": "incremental",
+    "versionLabel": "2026H1 Incremental Update",
     "file": "/invest/research/reports/view.html?id=paypal-2026",
     "markdownFiles": {
       "zh": "/invest/research/PayPal_Research_Report_2026.md",
       "en": "/invest/research/PayPal_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "Q4财报未达预期，股价暴跌16.26%",
-      "CEO更换：Enrique Lores接任",
-      "裁员7%，技术基础设施重组",
-      "面临Stripe和Apple Pay激烈竞争"
+      "2026Q1品牌结账约+2%，较Q4约+1%小幅改善但未确认再加速",
+      "Venmo支付量约+14%，仍是最清晰的增量变现线索之一",
+      "Enrique Lores进入CEO执行期，三业务重组与约$1.5B降本计划待验证",
+      "Nasdaq 2026-06-18报价$42.51，市值约$37.5B；旧估值区间已标记为历史框架"
     ]
   },
   {
