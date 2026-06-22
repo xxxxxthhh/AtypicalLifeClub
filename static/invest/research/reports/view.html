@@ -47,10 +47,10 @@
                             <button class="lang-btn" type="button" data-lang="zh">中文</button>
                             <button class="lang-btn" type="button" data-lang="en">EN</button>
                         </div>
-                        <div class="view-switch" id="viewSwitch" role="group" aria-label="Report view switch" hidden>
-                            <button class="view-btn" type="button" data-view="clean">干净版</button>
-                            <button class="view-btn" type="button" data-view="diff">Diff</button>
-                            <button class="view-btn" type="button" data-view="previous">上一版</button>
+                        <div class="view-switch" id="viewSwitch" role="group" aria-label="Report reading mode" hidden>
+                            <button class="view-btn" type="button" data-view="clean">当前报告</button>
+                            <button class="view-btn" type="button" data-view="diff">变化对照</button>
+                            <button class="view-btn" type="button" data-view="previous">旧版原文</button>
                         </div>
                     </div>
                 </div>
@@ -70,39 +70,39 @@
         const REPORT_VIEWS = ['clean', 'diff', 'previous'];
         const VIEW_LABELS = {
             zh: {
-                clean: '干净版',
-                diff: 'Diff',
-                previous: '上一版',
-                diffTitle: '章节级 Diff',
-                previousMode: '正在查看上一版',
-                diffMode: '已开启章节级 Diff，对比当前与上一版',
-                cleanMode: '当前为干净版；历史追溯请用 Diff 或 上一版。',
+                clean: '当前报告',
+                diff: '变化对照',
+                previous: '旧版原文',
+                diffTitle: '与旧版的章节变化',
+                previousMode: '正在查看旧版原文，不代表当前结论',
+                diffMode: '正在查看相对旧版的章节变化；默认显示当前内容，展开可看旧版。',
+                cleanMode: '正在阅读当前报告，这是默认结论版本。',
                 unchanged: '未变化',
                 added: '新增',
                 modified: '修改',
                 removed: '移除',
-                heading: '上一周期报告',
+                heading: '旧版归档',
                 date: '日期',
                 update: '更新',
-                action: '查看上一版',
+                action: '查看旧版原文',
                 noChanges: '本次对比无章节级差异。',
             },
             en: {
-                clean: 'Clean',
-                diff: 'Diff',
-                previous: 'Previous',
-                diffTitle: 'Section diff',
-                previousMode: 'Viewing previous version',
-                diffMode: 'Section-level diff is enabled.',
-                cleanMode: 'Current clean version is shown. Open Diff / Previous for historical view.',
+                clean: 'Current',
+                diff: 'Changes',
+                previous: 'Archive',
+                diffTitle: 'Section changes',
+                previousMode: 'Viewing the archived prior report, not the current conclusion',
+                diffMode: 'Viewing section changes versus the prior report; cards show current content first.',
+                cleanMode: 'Viewing the current report. This is the default conclusion.',
                 unchanged: 'Unchanged',
                 added: 'Added',
                 modified: 'Modified',
                 removed: 'Removed',
-                heading: 'Previous cycle',
+                heading: 'Prior archive',
                 date: 'Date',
                 update: 'Updated',
-                action: 'View previous version',
+                action: 'Open archive',
                 noChanges: 'No section-level changes were detected.',
             },
         };
@@ -421,7 +421,7 @@
                     </div>
                     ${previousSection ? `
                     <details class="diff-previous">
-                        <summary>${lang === 'en' ? 'Previous version' : '上一版'}</summary>
+                        <summary>${lang === 'en' ? 'Archived content' : '旧版内容'}</summary>
                         <div class="diff-previous-content">
                             ${renderSectionBody(previousSection.content)}
                         </div>
