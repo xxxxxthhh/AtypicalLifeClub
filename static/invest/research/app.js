@@ -27,7 +27,7 @@ async function loadReportsData() {
             throw new Error('reports.json must be an array');
         }
 
-        reports = sortReportsByLatestUpdate(data);
+        reports = sortReportsByLatestUpdate(data.filter(isCurrentReport));
     } catch (error) {
         console.error('Failed to load report metadata:', error);
         reports = [];
@@ -117,6 +117,10 @@ function bindCardNavigation() {
             window.location.href = targetUrl;
         });
     });
+}
+
+function isCurrentReport(report) {
+    return report.isCurrent !== false;
 }
 
 function parseReportDate(value) {
