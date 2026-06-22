@@ -1,14 +1,17 @@
 # Coinbase Global (COIN) Deep Research Report
 
+Coverage date: 2026-02-11
+Last updated: 2026-02-11
+Ticker: NASDAQ: COIN
+Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
+
+---
+
 **[2026-02-14 Update] Additional Q4 2025 details: cash $11.3B (previously reported $8B+), Q4 FCF $3.07B, combined derivatives volume ~$1.25T, net loss breakdown (crypto unrealized loss $718M + strategic investment loss $395M incl. Circle stake), shareholders' equity $14.8B. Stock rebounded +13-18% on 2/13. Old data marked with ~~strikethrough~~.**
 
 **[2026-02-13 Update] Updated with Q4 2025 earnings data (released 2/12 after market close). Q4 revenue $1.78B missed estimates; net loss of $667M ended 8-quarter profitability streak. FY2025 revenue confirmed at $7.18B. Old data marked with ~~strikethrough~~.**
 
-**Date:** February 11, 2026 (Updated: February 14, 2026)
-**Analyst:** AI-Assisted Research
-**Disclaimer:** This report does not constitute investment advice. Please conduct your own due diligence.
 
----
 
 ## Executive Summary
 

@@ -1,12 +1,15 @@
 # Salesforce (CRM) Deep Research Report
 
-> **[2026-02-26 Update]** Updated with FY2026 Q4 earnings data (reported Feb 25, 2026). Key changes: FY2026 full-year actuals confirmed, Agentforce ARR $800M (up from Q3's $540M), combined Agentforce & Data 360 ARR $2.9B+, FY2027 guidance added, FY2030 revenue target raised to $63B, $50B new buyback authorized.
-
-**Date:** February 11, 2026 (Updated: February 26, 2026)
-**Analyst:** AI-Assisted Research
-**Disclaimer:** This report does not constitute investment advice. Please conduct your own due diligence.
+Coverage date: 2026-02-11
+Last updated: 2026-02-11
+Ticker: NASDAQ: CRM
+Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
+
+> **[2026-02-26 Update]** Updated with FY2026 Q4 earnings data (reported Feb 25, 2026). Key changes: FY2026 full-year actuals confirmed, Agentforce ARR $800M (up from Q3's $540M), combined Agentforce & Data 360 ARR $2.9B+, FY2027 guidance added, FY2030 revenue target raised to $63B, $50B new buyback authorized.
+
+
 
 ## Executive Summary
 

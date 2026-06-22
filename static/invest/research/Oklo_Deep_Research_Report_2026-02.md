@@ -1,15 +1,15 @@
 # Oklo Inc. (NYSE: OKLO) Deep Research Report
 
-**Date:** February 10, 2026 | **Last Updated:** February 16, 2026
-**Analyst:** Claude AI (Assisted Research)
-**Disclaimer:** This report does not constitute investment advice. Please conduct your own due diligence.
+Coverage date: 2026-02-10
+Last updated: 2026-02-10
+Ticker: NYSE: OKLO
+Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
 ## ⚡ Update — February 16, 2026
 
 **Stock Price:** $65.69 (down ~7.5% from $71 at initial report date)
-**Market Cap:** ~$10.2B
 
 ### Key Developments This Week
 

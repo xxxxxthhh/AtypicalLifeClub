@@ -1,9 +1,9 @@
 # Amazon.com (AMZN) Deep Research Report
 
-**Date:** February 11, 2026
-**Analyst:** AI-Assisted Research
-**Ticker:** NASDAQ: AMZN
-**Disclaimer:** This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
+Coverage date: 2026-02-11
+Last updated: 2026-02-11
+Ticker: NASDAQ: AMZN
+Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
@@ -31,7 +31,6 @@
 | Operating Margin | 11.2% | 10.8% | +40bps |
 
 **Stock Price:** $206.96 (Feb 10, 2026 close)
-**Market Cap:** ~$2.22T
 **Forward P/E:** ~28.9x (based on FY2025 EPS of $7.17)
 
 ---

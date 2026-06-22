@@ -1,9 +1,9 @@
 # PayPal Holdings Inc. (PYPL) Deep Research Report
 
-**Date:** February 4, 2026
-**Last Updated:** June 22, 2026
-**Analyst:** Claude AI (Assisted Research)
-**Disclaimer:** This is not investment advice. This report is for informational purposes only. Conduct your own due diligence before making any investment decisions.
+Coverage date: 2026-02-03
+Last updated: 2026-06-22
+Ticker: NASDAQ: PYPL
+Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 

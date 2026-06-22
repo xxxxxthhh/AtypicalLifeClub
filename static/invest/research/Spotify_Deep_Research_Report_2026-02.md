@@ -1,8 +1,9 @@
 # Spotify (NYSE: SPOT) Deep Research Report
 
-**Date:** February 10, 2026
-**Analyst:** Claude AI (Assisted Research)
-**Disclaimer:** This report does not constitute investment advice. Please conduct your own due diligence.
+Coverage date: 2026-02-10
+Last updated: 2026-02-10
+Ticker: NYSE: SPOT
+Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 

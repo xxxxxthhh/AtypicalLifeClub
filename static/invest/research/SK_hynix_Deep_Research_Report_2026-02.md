@@ -1,8 +1,9 @@
 # SK hynix Deep Research Report
 
-**Date:** February 25, 2026
-**Analyst:** Claude AI (Research Assistant)
-**Disclaimer:** This report does not constitute investment advice. Please conduct your own due diligence.
+Coverage date: 2026-02-25
+Last updated: 2026-02-25
+Ticker: KRX: 000660
+Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 

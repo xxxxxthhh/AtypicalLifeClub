@@ -1,9 +1,9 @@
 # Advanced Micro Devices (AMD) Deep Research Report
 
-**Original publication date:** February 4, 2026
-**Full rerun date:** June 22, 2026
-**Ticker:** NASDAQ: AMD
-**Disclaimer:** This is not investment advice. This report is for informational and educational purposes only. Conduct your own due diligence before making any investment decisions.
+Coverage date: 2026-02-04
+Last updated: 2026-06-22
+Ticker: NASDAQ: AMD
+Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
@@ -17,7 +17,6 @@
 
 **Updated valuation read-through:** AMD reported Q1 2026 free cash flow of $2.566B. Annualized mechanically, that is about $10.264B, or an FCF yield of roughly **1.2%** on the current market cap. Using FY2025 revenue of $34.6B, Q1 2026 revenue of $10.253B, and implied Q1 2025 revenue of about $7.438B, TTM revenue is roughly **$37.4B**. That implies EV/TTM Sales of about **23.4x**. If FY2026 revenue lands around $45.7-50.0B, EV/Forward Sales would still be roughly **17.6-19.2x**. On Q1 non-GAAP EPS of $1.37 annualized, the stock trades at about **98x**; even at $6.00 of FY2026 non-GAAP EPS, it would still be about **90x**.
 
----
 
 ## Historical Judgment Audit Trail
 

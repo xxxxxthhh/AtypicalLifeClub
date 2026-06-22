@@ -1,14 +1,15 @@
 # NeoVolta (NEOV) Deep Research Report
 
-> **[2026-02-17 Update]** Updated with Q2 FY2026 earnings data (quarter ended Dec 31, 2025). Revenue $4.65M (beat estimate), but gross margin declined to 17% and net loss widened to -$5.54M. Georgia factory financing of ~$23M secured.
-
-**Date:** February 9, 2026
-**Ticker:** NASDAQ: NEOV
-**Sector:** Energy Technology / Residential & Commercial Energy Storage
-**Market Cap:** ~$140M (at ~$4.21/share)
-**Report Type:** Standard Analysis
+Coverage date: 2026-02-09
+Last updated: 2026-02-09
+Ticker: NASDAQ: NEOV
+Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
+
+> **[2026-02-17 Update]** Updated with Q2 FY2026 earnings data (quarter ended Dec 31, 2025). Revenue $4.65M (beat estimate), but gross margin declined to 17% and net loss widened to -$5.54M. Georgia factory financing of ~$23M secured.
+
+
 
 ## Executive Summary
 
@@ -18,7 +19,6 @@ NeoVolta is a Poway, California-based energy storage company specializing in LiF
 
 **Rating:** Speculative — High risk, high potential reward. Suitable for investors with high risk tolerance and a 2-3 year horizon.
 
----
 
 ## 1. Business Overview
 

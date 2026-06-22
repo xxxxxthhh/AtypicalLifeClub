@@ -1,8 +1,9 @@
 # IGV iShares Expanded Tech-Software Sector ETF Deep Research Report
 
-**Date:** February 15, 2026
-**Analyst:** AI-Assisted Research
-**Disclaimer:** This is not investment advice. Do your own due diligence.
+Coverage date: 2026-02-15
+Last updated: 2026-02-15
+Ticker: NYSEARCA: IGV
+Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 

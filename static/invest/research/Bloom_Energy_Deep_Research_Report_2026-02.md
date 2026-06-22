@@ -1,13 +1,15 @@
 # Bloom Energy (NYSE: BE) Deep Research Report
 
-**Date:** February 11, 2026
-**Analyst:** AI-Assisted Research
-**Disclaimer:** This is not investment advice. Do your own due diligence.
+Coverage date: 2026-02-11
+Last updated: 2026-02-11
+Ticker: NYSE: BE
+Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
+
+---
 
 > **[2026-02-12 Update]** Updated with Q4 2025 actual earnings data (released Feb 5, 2026). Key additions: Q4 quarterly breakdown, GAAP profitability clarification, 800V DC solution details, 2026 EPS guidance. Strikethrough (~~old~~) marks corrected data.
 > **[2026-02-13 Update]** Incremental additions: hyperscaler customer count detail (6 vs 1 YoY), actual FY2025 CapEx ($57M), Brookfield project scope (140 projects), Q4 service margin precision.
 
----
 
 ## Executive Summary
 
