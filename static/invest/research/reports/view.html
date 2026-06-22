@@ -33,7 +33,7 @@
 
     <main class="shell report-layout">
         <aside class="toc-panel">
-            <div class="toc-header">目录</div>
+            <div class="toc-header" id="tocHeader">研究模块</div>
             <nav id="tableOfContents"></nav>
             <button class="button" onclick="window.print()">打印报告</button>
         </aside>
@@ -75,8 +75,15 @@
                 previous: '上一版',
                 diffTitle: '变化对照',
                 previousMode: '正在查看上一版原文，不代表当前结论',
-                diffMode: '变化对照显示最新版正文，并把上一版中被替换或移除的内容用删除线标出。',
-                cleanMode: '干净版只使用最新信息，是默认结论版本。',
+                diffMode: '变化对照以固定研究模块展示最新版正文；每个模块可单独展开上一版删除内容。',
+                cleanMode: '干净版是完整最新版，只使用最新信息，不显示历史删除线。',
+                moduleNavTitle: '研究模块',
+                diffSummaryTitle: '模块变化对照',
+                showPreviousDiff: '显示上一版差异',
+                hidePreviousDiff: '隐藏上一版差异',
+                previousModuleContent: '上一版模块内容',
+                removedModule: '当前最新版已不保留该模块内容',
+                noModuleContent: '该模块暂无内容',
                 unchanged: '未变化',
                 added: '新增',
                 modified: '修改',
@@ -96,8 +103,15 @@
                 previous: 'Previous',
                 diffTitle: 'Changes',
                 previousMode: 'Viewing the previous report, not the current conclusion',
-                diffMode: 'Changes mode shows the latest report and marks replaced or removed previous-version content as deleted.',
-                cleanMode: 'Clean mode uses the latest information only. This is the default conclusion.',
+                diffMode: 'Changes mode shows the latest report in fixed research modules; each module can reveal deleted previous-version context.',
+                cleanMode: 'Clean mode is the complete latest report, using current information only and no historical redlines.',
+                moduleNavTitle: 'Research Modules',
+                diffSummaryTitle: 'Module Change Summary',
+                showPreviousDiff: 'Show previous diff',
+                hidePreviousDiff: 'Hide previous diff',
+                previousModuleContent: 'Previous module content',
+                removedModule: 'This module is not retained in the latest report',
+                noModuleContent: 'No content in this module yet',
                 unchanged: 'Unchanged',
                 added: 'Added',
                 modified: 'Modified',
@@ -113,28 +127,96 @@
             },
         };
 
-        const SECTION_KEYWORDS = {
-            zh: {
-                business: ['业务', '商业', '分部', '商业模式', '产业'],
-                competition: ['竞争', '行业', '对手', '生态'],
-                financial: ['财务', '现金流', '资产负债', '财务健康', '营收', '利润', '毛利率'],
-                management: ['管理层', '治理', '高管', '领导', 'ceo'],
-                bull: ['牛市', '乐观', '上行', '看涨'],
-                bear: ['熊市', '悲观', '下行', '风险'],
-                valuation: ['估值', '倍数', 'dcf', 'fair', 'pe', 'ps'],
-                catalysts: ['催化', '监测', '监控', '时间线', '指标'],
+        const REPORT_MODULES = [
+            {
+                id: 'overview',
+                labels: { zh: '摘要与当前判断', en: 'Summary & Current View' },
+                keywords: {
+                    zh: ['执行摘要', '摘要', '更新', '重跑', '最新事实', '事实基础', '当前判断'],
+                    en: ['executive summary', 'summary', 'update', 'rerun', 'fact base', 'current view'],
+                },
             },
-            en: {
-                business: ['business', 'segment', 'commercial', 'model'],
-                competition: ['competition', 'competitor', 'industry'],
-                financial: ['financial', 'cash flow', 'balance sheet', 'earnings', 'revenue'],
-                management: ['management', 'governance', 'ceo', 'executive'],
-                bull: ['bull', 'upside', 'catalyst', 'positive'],
-                bear: ['bear', 'downside', 'risk'],
-                valuation: ['valuation', 'multiple', 'dcf', 'fair'],
-                catalysts: ['catalyst', 'monitoring', 'timeline', 'watchlist'],
+            {
+                id: 'business',
+                labels: { zh: '业务概览', en: 'Business Overview' },
+                keywords: {
+                    zh: ['业务概览', '业务画像', '商业模式', '分部', '做什么', '产品', '平台供应商'],
+                    en: ['business overview', 'business model', 'segment', 'what', 'product', 'platform supplier'],
+                },
             },
-        };
+            {
+                id: 'competition',
+                labels: { zh: '行业与竞争位置', en: 'Industry & Competition' },
+                keywords: {
+                    zh: ['行业', '竞争', '护城河', '市场份额', '生态', '供应链', 'tam', '对手'],
+                    en: ['industry', 'competition', 'competitive', 'competitor', 'moat', 'market share', 'ecosystem', 'supply chain', 'tam'],
+                },
+            },
+            {
+                id: 'financial',
+                labels: { zh: '财务健康度', en: 'Financial Health' },
+                keywords: {
+                    zh: ['财务', '现金流', '资产负债', '营收', '利润', '毛利率', '红旗', '结果'],
+                    en: ['financial', 'cash flow', 'balance sheet', 'revenue', 'earnings', 'margin', 'red flag', 'results'],
+                },
+            },
+            {
+                id: 'management',
+                labels: { zh: '管理层评估', en: 'Management Assessment' },
+                keywords: {
+                    zh: ['管理层', '治理', '高管', '领导', 'ceo', '执行质量'],
+                    en: ['management', 'governance', 'executive', 'ceo', 'execution quality'],
+                },
+            },
+            {
+                id: 'bullBear',
+                labels: { zh: '牛熊论点', en: 'Bull & Bear Cases' },
+                keywords: {
+                    zh: ['牛市', '熊市', '乐观', '悲观', '上行', '下行', '看涨', '看空'],
+                    en: ['bull', 'bear', 'upside', 'downside', 'positive case', 'negative case', 'steel-manned'],
+                },
+            },
+            {
+                id: 'uncertainties',
+                labels: { zh: '关键不确定性', en: 'Key Uncertainties' },
+                keywords: {
+                    zh: ['不确定性', '论点失效', '失效条件', '风险边界'],
+                    en: ['uncertainty', 'uncertainties', 'thesis-breaking', 'failure condition', 'risk boundary'],
+                },
+            },
+            {
+                id: 'valuation',
+                labels: { zh: '估值分析', en: 'Valuation' },
+                keywords: {
+                    zh: ['估值', '倍数', '目标价', '公允价值', '定价'],
+                    en: ['valuation', 'multiple', 'target price', 'fair value', 'pricing'],
+                },
+            },
+            {
+                id: 'catalysts',
+                labels: { zh: '催化剂与监控', en: 'Catalysts & Monitoring' },
+                keywords: {
+                    zh: ['催化', '监测', '监控', '时间线', '指标', '清单'],
+                    en: ['catalyst', 'monitoring', 'watchlist', 'timeline', 'checklist'],
+                },
+            },
+            {
+                id: 'conclusion',
+                labels: { zh: '结论与复盘', en: 'Conclusion & Review' },
+                keywords: {
+                    zh: ['结论', '建议', '复盘', '综合'],
+                    en: ['conclusion', 'recommendation', 'review', 'synthesis'],
+                },
+            },
+            {
+                id: 'appendix',
+                labels: { zh: '附录与来源', en: 'Appendix & Sources' },
+                keywords: {
+                    zh: ['附录', '资料来源', '数据来源', '来源', '假设', '术语'],
+                    en: ['appendix', 'sources', 'data source', 'assumption', 'glossary'],
+                },
+            },
+        ];
 
         let currentReport = null;
         let currentLang = 'zh';
@@ -305,8 +387,9 @@
 
             if (currentView === 'previous' && previousReport) {
                 const previousMarkdown = await fetchReportMarkdown(previousReport, lang);
+                const previousModules = buildReportModules(previousMarkdown, lang);
                 renderModeNotice('previous', report, lang, previousReport);
-                renderMarkdown(previousMarkdown, previousReport);
+                renderModuleReport(previousModules, lang, { mode: 'previous' });
                 return;
             }
 
@@ -315,17 +398,18 @@
                     fetchReportMarkdown(report, lang),
                     fetchReportMarkdown(previousReport, lang),
                 ]);
-                const diff = buildSectionDiff(currentMarkdown, previousMarkdown, lang);
+                const diff = buildModuleDiff(currentMarkdown, previousMarkdown, lang);
                 renderModeNotice('diff', report, lang, previousReport);
                 renderDiffMode(diff, lang);
                 return;
             }
 
             const markdown = await fetchReportMarkdown(report, lang);
+            const currentModules = buildReportModules(markdown, lang);
             if (getPreviousReport(report)) {
                 renderModeNotice('clean', report, lang, previousReport);
             }
-            renderMarkdown(markdown, report);
+            renderModuleReport(currentModules, lang, { mode: 'clean' });
         }
 
         async function fetchReportMarkdown(report, lang) {
@@ -380,27 +464,43 @@
         function renderDiffMode(diff, lang) {
             const labels = VIEW_LABELS[lang] || VIEW_LABELS.en;
             const markdownContent = document.getElementById('markdownContent');
-
-            const sections = diff.sections.map((item) => renderRevisionSection(item, lang));
             const totalSummary = [
-                `${labels.added} ${diff.added.length}`,
-                `${labels.modified} ${diff.modified.length}`,
-                `${labels.removed} ${diff.removed.length}`,
-                `${labels.unchanged} ${diff.unchangedCount}`,
+                `${labels.added} ${diff.counts.added}`,
+                `${labels.modified} ${diff.counts.modified}`,
+                `${labels.removed} ${diff.counts.removed}`,
+                `${labels.unchanged} ${diff.counts.unchanged}`,
             ].join(' / ');
+            const modules = diff.modules
+                .filter((module) => module.hasContent)
+                .map((module) => renderReportModule(module.current, lang, {
+                    mode: 'diff',
+                    status: module.status,
+                    previous: module.previous,
+                    moduleDef: module,
+                }));
 
             markdownContent.innerHTML = `
                 <div class="diff-summary">
-                    <h2>${labels.diffTitle}</h2>
+                    <h2>${labels.diffSummaryTitle}</h2>
                     <p>${escapeHtml(totalSummary)}</p>
                 </div>
-                ${sections.length ? sections.join('') : `<div class="diff-empty">${labels.noChanges}</div>`}
+                ${modules.length ? modules.join('') : `<div class="diff-empty">${labels.noChanges}</div>`}
             `;
-            generateTOC();
+            renderModuleNavigation(diff.modules, lang);
             addSmoothScrolling();
         }
 
-        function renderRevisionSection(item, lang) {
+        function renderModuleReport(modules, lang, options = {}) {
+            const markdownContent = document.getElementById('markdownContent');
+            const visibleModules = modules.filter((module) => module.hasContent);
+            markdownContent.innerHTML = visibleModules.length
+                ? visibleModules.map((module) => renderReportModule(module, lang, options)).join('')
+                : `<div class="diff-empty">${escapeHtml((VIEW_LABELS[lang] || VIEW_LABELS.en).noModuleContent)}</div>`;
+            renderModuleNavigation(modules, lang);
+            addSmoothScrolling();
+        }
+
+        function renderReportModule(module, lang, options = {}) {
             const labels = VIEW_LABELS[lang] || VIEW_LABELS.en;
             const statusLabelMap = {
                 added: labels.added,
@@ -408,65 +508,79 @@
                 removed: labels.removed,
                 unchanged: labels.unchanged,
             };
-
-            const currentSection = item.current;
-            const previousSection = item.previous;
-            const statusText = statusLabelMap[item.status] || item.status;
-            const headingLevel = currentSection ? currentSection.level : (previousSection ? previousSection.level : 2);
-            const headingTag = headingLevel === 3 ? 'h3' : 'h2';
-            const title = item.title || (lang === 'en' ? 'Section' : '章节');
-            const showStatus = item.status !== 'unchanged';
-            const currentContent = currentSection
-                ? `<div class="revision-current">
-                    ${renderSectionBody(currentSection.content)}
-                </div>`
-                : '';
-            const deletedLabel = item.status === 'removed' ? labels.deletedOnly : labels.deletedContent;
-            const deletedContent = previousSection && item.status !== 'unchanged'
-                ? `<div class="revision-deleted">
-                    <div class="revision-deleted-label">${escapeHtml(deletedLabel)}</div>
-                    <del class="revision-deleted-content">
-                        ${renderSectionBody(previousSection.content)}
-                    </del>
-                </div>`
+            const mode = options.mode || 'clean';
+            const moduleDef = options.moduleDef || module;
+            const title = getModuleLabel(moduleDef, lang);
+            const status = options.status || 'clean';
+            const previous = options.previous;
+            const showStatus = mode === 'diff' && status !== 'clean';
+            const statusText = statusLabelMap[status] || status;
+            const sectionsHtml = module && module.hasContent
+                ? module.sections.map((section) => renderModuleSection(section, lang)).join('')
+                : `<p class="diff-empty">${escapeHtml(labels.removedModule)}</p>`;
+            const diffDetails = mode === 'diff' && previous && previous.hasContent && status !== 'unchanged'
+                ? renderModuleDiffDetails(previous, lang)
                 : '';
 
             return `
-                <section class="revision-section revision-section-${item.status}">
-                    <header class="revision-heading">
-                        <${headingTag}>${escapeHtml(title)}</${headingTag}>
+                <section class="report-module report-module-${status}" id="module-${escapeHtml(moduleDef.id)}">
+                    <header class="module-header">
+                        <div>
+                            <div class="module-kicker">${escapeHtml(moduleDef.number || '')}</div>
+                            <h2>${escapeHtml(title)}</h2>
+                        </div>
                         ${showStatus ? `<span class="revision-status">${escapeHtml(statusText)}</span>` : ''}
                     </header>
-                    ${currentContent}
-                    ${deletedContent}
+                    <div class="module-body">${sectionsHtml}</div>
+                    ${diffDetails}
                 </section>
             `;
         }
 
-        function renderSectionBody(content) {
+        function renderModuleSection(section, lang) {
+            if (!section || !section.content) {
+                return '';
+            }
+            if (section.isIntro) {
+                return `<div class="module-section module-section-intro">${renderSectionBody(section.content, lang)}</div>`;
+            }
+            const tagName = section.level >= 3 ? 'h4' : 'h3';
+            return `
+                <section class="module-section">
+                    <${tagName}>${escapeHtml(section.title)}</${tagName}>
+                    ${renderSectionBody(section.content, lang)}
+                </section>
+            `;
+        }
+
+        function renderModuleDiffDetails(previousModule, lang) {
+            const labels = VIEW_LABELS[lang] || VIEW_LABELS.en;
+            return `
+                <details class="module-diff-details">
+                    <summary>
+                        <span class="summary-closed">${escapeHtml(labels.showPreviousDiff)}</span>
+                        <span class="summary-open">${escapeHtml(labels.hidePreviousDiff)}</span>
+                    </summary>
+                    <div class="revision-deleted">
+                        <div class="revision-deleted-label">${escapeHtml(labels.previousModuleContent)}</div>
+                        <del class="revision-deleted-content">
+                            ${previousModule.sections.map((section) => renderModuleSection(section, lang)).join('')}
+                        </del>
+                    </div>
+                </details>
+            `;
+        }
+
+        function renderSectionBody(content, lang) {
+            const labels = VIEW_LABELS[lang] || VIEW_LABELS.en;
             if (!content || !content.trim()) {
-                return `<p class="diff-empty">${content ? '' : '该章节当前为空。'}</p>`;
+                return `<p class="diff-empty">${content ? '' : escapeHtml(labels.noModuleContent)}</p>`;
             }
             marked.setOptions({
                 breaks: true,
                 gfm: true
             });
             return marked.parse(content);
-        }
-
-        function renderMarkdown(markdownText, report) {
-            let markdown = markdownText || '';
-            if (report && report.stripLeadingH1 !== false) {
-                markdown = stripLeadingH1(markdown);
-            }
-            marked.setOptions({
-                breaks: true,
-                gfm: true
-            });
-            const html = marked.parse(markdown);
-            document.getElementById('markdownContent').innerHTML = html;
-            generateTOC();
-            addSmoothScrolling();
         }
 
         function syncQuery() {
@@ -538,24 +652,26 @@
             }
 
             const labels = VIEW_LABELS[lang] || VIEW_LABELS.en;
+            const metadata = report.previousAnnualReport || {};
             const displayLabel = lang === 'en'
-                ? (previous.labelEn || previous.label)
-                : (previous.label || previous.labelEn);
+                ? (metadata.labelEn || metadata.label || previous.titleEn || previous.title)
+                : (metadata.label || metadata.labelEn || previous.title || previous.titleEn);
             const summary = lang === 'en'
-                ? (previous.summaryEn || previous.summary)
-                : (previous.summary || previous.summaryEn);
+                ? (metadata.summaryEn || metadata.summary || previous.summaryEn || previous.summary)
+                : (metadata.summary || metadata.summaryEn || previous.summary || previous.summaryEn);
+            const previousFile = metadata.file || previous.file;
             const metaItems = [
-                previous.date ? `${labels.date} ${previous.date}` : null,
-                previous.lastUpdate ? `${labels.update} ${previous.lastUpdate}` : null
+                (metadata.date || previous.date) ? `${labels.date} ${metadata.date || previous.date}` : null,
+                (metadata.lastUpdate || previous.lastUpdate) ? `${labels.update} ${metadata.lastUpdate || previous.lastUpdate}` : null
             ].filter(Boolean);
 
             root.hidden = false;
             root.innerHTML = `
                 <div class="previous-report-heading">${escapeHtml(labels.heading)}</div>
-                ${displayLabel ? `<a class="previous-report-title" href="${escapeHtml(previous.file)}">${escapeHtml(displayLabel)}</a>` : ''}
+                ${displayLabel ? `<a class="previous-report-title" href="${escapeHtml(previousFile)}">${escapeHtml(displayLabel)}</a>` : ''}
                 ${metaItems.length ? `<div class="previous-report-meta">${metaItems.map((item) => `<span>${escapeHtml(item)}</span>`).join('')}</div>` : ''}
                 ${summary ? `<p>${escapeHtml(summary)}</p>` : ''}
-                <a class="previous-report-action" href="${escapeHtml(previous.file)}">${escapeHtml(labels.action)}</a>
+                <a class="previous-report-action" href="${escapeHtml(previousFile)}">${escapeHtml(labels.action)}</a>
             `;
         }
 
@@ -575,32 +691,41 @@
         }
 
         function splitMarkdownSections(markdown, lang) {
-            const lines = markdown.replace(/\r\n/g, '\n').split('\n');
+            const lines = stripLeadingH1(markdown || '').replace(/\r\n/g, '\n').split('\n');
             const sections = [];
-            const seenKeys = new Map();
             let currentSection = null;
+            let parentModuleKey = 'overview';
             const introBuffer = [];
             const bodyBuffer = [];
+            let sectionIndex = 0;
+
+            const commitIntro = () => {
+                const content = introBuffer.join('\n').trim();
+                if (content) {
+                    sections.push({
+                        id: `intro-${sectionIndex}`,
+                        title: lang === 'en' ? 'Introduction' : '基础信息',
+                        level: 0,
+                        moduleKey: 'overview',
+                        content,
+                        isIntro: true,
+                    });
+                    sectionIndex += 1;
+                }
+                introBuffer.length = 0;
+            };
 
             const commitCurrent = () => {
                 if (!currentSection) {
                     return;
                 }
-                currentSection.content = bodyBuffer.join('\n').trim();
-                sections.push(currentSection);
+                const content = bodyBuffer.join('\n').trim();
+                if (content) {
+                    currentSection.content = content;
+                    sections.push(currentSection);
+                }
                 currentSection = null;
                 bodyBuffer.length = 0;
-            };
-
-            const allocateKey = (baseKey) => {
-                let key = baseKey;
-                let index = 1;
-                while (seenKeys.has(key)) {
-                    index += 1;
-                    key = `${baseKey}__${index}`;
-                }
-                seenKeys.set(key, true);
-                return key;
             };
 
             lines.forEach((line) => {
@@ -628,41 +753,66 @@
                 if (currentSection) {
                     commitCurrent();
                 }
+                commitIntro();
 
                 const title = headingMatch[2].trim();
-                const baseKey = normalizeSectionKey(title, lang);
-                const key = allocateKey(baseKey);
-                if (introBuffer.length && !sections.some((item) => item.key === 'introduction')) {
-                    sections.push({
-                        title: lang === 'en' ? 'Introduction' : '引言',
-                        key: 'introduction',
-                        level: 2,
-                        content: introBuffer.join('\n').trim(),
-                    });
+                const ownModuleKey = resolveModuleKey(title, lang);
+                if (isH2) {
+                    parentModuleKey = ownModuleKey || 'overview';
                 }
-                introBuffer.length = 0;
+                const moduleKey = isH3
+                    ? (parentModuleKey && parentModuleKey !== 'overview'
+                        ? parentModuleKey
+                        : (ownModuleKey || parentModuleKey || 'overview'))
+                    : (ownModuleKey || 'overview');
 
                 currentSection = {
+                    id: `section-${sectionIndex}`,
                     title,
-                    key,
+                    moduleKey,
                     level: isH2 ? 2 : 3,
                     content: '',
                 };
+                sectionIndex += 1;
             });
 
             commitCurrent();
+            commitIntro();
             return sections;
         }
 
-        function normalizeSectionKey(title, lang) {
-            const text = String(title).toLowerCase().replace(/^\s+|\s+$/g, '');
-            const keywords = SECTION_KEYWORDS[lang] || SECTION_KEYWORDS.en;
-            for (const [moduleName, keywordList] of Object.entries(keywords)) {
-                if (keywordList.some((keyword) => text.includes(String(keyword).toLowerCase()))) {
-                    return moduleName;
+        function resolveModuleKey(title, lang) {
+            const text = String(title || '').toLowerCase();
+            for (const moduleDef of REPORT_MODULES) {
+                const keywords = moduleDef.keywords[lang] || moduleDef.keywords.en || [];
+                if (keywords.some((keyword) => text.includes(String(keyword).toLowerCase()))) {
+                    return moduleDef.id;
                 }
             }
-            return `section-${text.replace(/[^a-z0-9一-鿿]+/gu, '-') || 'section'}`;
+            return null;
+        }
+
+        function buildReportModules(markdown, lang) {
+            const moduleMap = new Map(REPORT_MODULES.map((moduleDef, index) => [
+                moduleDef.id,
+                {
+                    ...moduleDef,
+                    number: String(index + 1).padStart(2, '0'),
+                    sections: [],
+                    hasContent: false,
+                },
+            ]));
+
+            splitMarkdownSections(markdown, lang).forEach((section) => {
+                const moduleKey = moduleMap.has(section.moduleKey) ? section.moduleKey : 'overview';
+                moduleMap.get(moduleKey).sections.push(section);
+            });
+
+            return REPORT_MODULES.map((moduleDef) => {
+                const module = moduleMap.get(moduleDef.id);
+                module.hasContent = module.sections.some((section) => !!(section.content && section.content.trim()));
+                return module;
+            });
         }
 
         function normalizeSectionContent(content) {
@@ -673,98 +823,85 @@
                 .toLowerCase();
         }
 
-        function buildSectionDiff(currentMarkdown, previousMarkdown, lang) {
-            const currentSections = splitMarkdownSections(currentMarkdown, lang);
-            const previousSections = splitMarkdownSections(previousMarkdown, lang);
-
-            const previousMap = new Map();
-            previousSections.forEach((section) => {
-                previousMap.set(section.key, section);
-            });
-
-            const usedPreviousKeys = new Set();
-            const added = [];
-            const modified = [];
-            const sections = [];
-            let unchanged = 0;
-
-            currentSections.forEach((currentSection) => {
-                const previousSection = previousMap.get(currentSection.key);
-                if (!previousSection) {
-                    const item = {
-                        status: 'added',
-                        title: currentSection.title,
-                        current: currentSection,
-                        previous: null,
-                    };
-                    added.push(item);
-                    sections.push(item);
-                    return;
-                }
-
-                usedPreviousKeys.add(currentSection.key);
-                if (normalizeSectionContent(currentSection.content) === normalizeSectionContent(previousSection.content)) {
-                    unchanged += 1;
-                    sections.push({
-                        status: 'unchanged',
-                        title: currentSection.title,
-                        current: currentSection,
-                        previous: previousSection,
-                    });
-                    return;
-                }
-
-                const item = {
-                    status: 'modified',
-                    title: currentSection.title,
-                    current: currentSection,
-                    previous: previousSection,
-                };
-                modified.push(item);
-                sections.push(item);
-            });
-
-            const removed = [];
-            previousSections.forEach((previousSection) => {
-                if (!usedPreviousKeys.has(previousSection.key)) {
-                    const item = {
-                        status: 'removed',
-                        title: previousSection.title,
-                        current: null,
-                        previous: previousSection,
-                    };
-                    removed.push(item);
-                    sections.push(item);
-                }
-            });
-
-            return {
-                sections,
-                added,
-                modified,
-                removed,
-                unchangedCount: unchanged,
-            };
+        function normalizeModuleContent(module) {
+            if (!module || !module.hasContent) {
+                return '';
+            }
+            return normalizeSectionContent(module.sections
+                .map((section) => `${section.title}\n${section.content}`)
+                .join('\n\n'));
         }
 
-        function generateTOC() {
-            const content = document.getElementById('markdownContent');
-            const headings = content.querySelectorAll('h2, h3');
-            const toc = document.getElementById('tableOfContents');
+        function buildModuleDiff(currentMarkdown, previousMarkdown, lang) {
+            const currentModules = buildReportModules(currentMarkdown, lang);
+            const previousModules = buildReportModules(previousMarkdown, lang);
+            const previousMap = new Map(previousModules.map((module) => [module.id, module]));
+            const counts = { added: 0, modified: 0, removed: 0, unchanged: 0 };
+            const modules = currentModules.map((currentModule) => {
+                const previousModule = previousMap.get(currentModule.id);
+                let status = 'empty';
+                if (currentModule.hasContent && (!previousModule || !previousModule.hasContent)) {
+                    status = 'added';
+                } else if (!currentModule.hasContent && previousModule && previousModule.hasContent) {
+                    status = 'removed';
+                } else if (currentModule.hasContent && previousModule && previousModule.hasContent) {
+                    status = normalizeModuleContent(currentModule) === normalizeModuleContent(previousModule)
+                        ? 'unchanged'
+                        : 'modified';
+                }
+                if (status !== 'empty') {
+                    counts[status] += 1;
+                }
+                return {
+                    ...currentModule,
+                    current: currentModule,
+                    previous: previousModule,
+                    status,
+                    hasContent: currentModule.hasContent || !!(previousModule && previousModule.hasContent),
+                };
+            });
 
-            if (!headings.length) {
-                toc.innerHTML = '<p class="toc-empty">无可用目录</p>';
+            return { modules, counts };
+        }
+
+        function getModuleLabel(moduleDef, lang) {
+            if (!moduleDef || !moduleDef.labels) {
+                return lang === 'en' ? 'Module' : '模块';
+            }
+            return moduleDef.labels[lang] || moduleDef.labels.en || moduleDef.id;
+        }
+
+        function renderModuleNavigation(modules, lang) {
+            const toc = document.getElementById('tableOfContents');
+            const tocHeader = document.getElementById('tocHeader');
+            const labels = VIEW_LABELS[lang] || VIEW_LABELS.en;
+            const moduleState = new Map((modules || []).map((module) => [module.id, module]));
+
+            if (!toc) {
                 return;
             }
+            if (tocHeader) {
+                tocHeader.textContent = labels.moduleNavTitle;
+            }
 
-            let tocHTML = '<ul>';
-            headings.forEach((heading, index) => {
-                const id = `section-${index}`;
-                heading.id = id;
-                const level = heading.tagName === 'H2' ? 'toc-level-1' : 'toc-level-2';
-                tocHTML += `<li class="${level}"><a href="#${id}">${escapeHtml(heading.textContent)}</a></li>`;
+            let tocHTML = '<ol class="module-nav-list">';
+            REPORT_MODULES.forEach((moduleDef, index) => {
+                const state = moduleState.get(moduleDef.id) || moduleDef;
+                const number = state.number || String(index + 1).padStart(2, '0');
+                const label = getModuleLabel(moduleDef, lang);
+                const hasContent = !!state.hasContent;
+                const statusClass = state.status ? ` module-status-${state.status}` : '';
+                const itemContent = `
+                    <span class="module-nav-number">${escapeHtml(number)}</span>
+                    <span class="module-nav-label">${escapeHtml(label)}</span>
+                `;
+                tocHTML += `<li class="module-nav-item${hasContent ? '' : ' module-nav-missing'}${statusClass}">`;
+                tocHTML += hasContent
+                    ? `<a href="#module-${escapeHtml(moduleDef.id)}">${itemContent}</a>`
+                    : `<span>${itemContent}</span>`;
+                tocHTML += '</li>';
             });
-            tocHTML += '</ul>';
+            tocHTML += '</ol>';
             toc.innerHTML = tocHTML;
         }
 

@@ -22,7 +22,7 @@
     font-weight: 700;
 }
 
-#tableOfContents ul {
+#tableOfContents .module-nav-list {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -30,14 +30,50 @@
     gap: 0.35rem;
 }
 
-#tableOfContents a {
+#tableOfContents a,
+#tableOfContents .module-nav-item > span {
     text-decoration: none;
     color: var(--secondary);
     font-size: 0.82rem;
+    display: grid;
+    grid-template-columns: 2rem minmax(0, 1fr);
+    align-items: start;
+    gap: 0.45rem;
+    border-radius: 8px;
+    padding: 0.34rem 0.4rem;
 }
 
 #tableOfContents a:hover {
     color: var(--accent);
+    background: color-mix(in srgb, var(--accent-soft) 38%, transparent);
+}
+
+.module-nav-number {
+    color: color-mix(in srgb, var(--secondary) 72%, var(--border));
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.module-nav-label {
+    min-width: 0;
+}
+
+.module-nav-missing {
+    opacity: 0.46;
+}
+
+.module-status-added a {
+    border-left: 2px solid #27ae60;
+}
+
+.module-status-modified a {
+    border-left: 2px solid #e67e22;
+}
+
+.module-status-removed a,
+.module-status-removed > span {
+    border-left: 2px solid #c0392b;
 }
 
 .toc-level-2 {
@@ -337,6 +373,93 @@
     font-size: 1rem;
 }
 
+#markdownContent .report-module {
+    scroll-margin-top: 5.8rem;
+    margin: 0 0 1.45rem;
+    padding-bottom: 0.2rem;
+}
+
+#markdownContent .module-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.75rem;
+    border-bottom: 1px solid var(--border);
+    margin: 1.45rem 0 0.65rem;
+    padding-bottom: 0.45rem;
+}
+
+#markdownContent .module-header h2 {
+    margin: 0.08rem 0 0;
+    padding: 0;
+    border: 0;
+    color: var(--primary);
+    font-size: 1.24rem;
+}
+
+.module-kicker {
+    color: color-mix(in srgb, var(--secondary) 74%, var(--border));
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+}
+
+.module-body {
+    display: grid;
+    gap: 0.2rem;
+}
+
+#markdownContent .module-section h3 {
+    margin: 1.05rem 0 0.42rem;
+    color: var(--primary);
+    font-size: 1.02rem;
+}
+
+#markdownContent .module-section h4 {
+    margin: 0.86rem 0 0.34rem;
+    color: var(--primary);
+    font-size: 0.94rem;
+}
+
+.module-section-intro {
+    color: var(--primary);
+}
+
+.module-diff-details {
+    margin: 0.8rem 0 1rem;
+}
+
+.module-diff-details summary {
+    display: inline-flex;
+    align-items: center;
+    min-height: 1.8rem;
+    border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--border));
+    border-radius: 999px;
+    padding: 0.22rem 0.7rem;
+    color: var(--accent);
+    background: color-mix(in srgb, var(--accent-soft) 35%, transparent);
+    font-size: 0.78rem;
+    font-weight: 700;
+    cursor: pointer;
+    user-select: none;
+}
+
+.module-diff-details summary::-webkit-details-marker {
+    display: none;
+}
+
+.module-diff-details .summary-open {
+    display: none;
+}
+
+.module-diff-details[open] .summary-closed {
+    display: none;
+}
+
+.module-diff-details[open] .summary-open {
+    display: inline;
+}
+
 #markdownContent p,
 #markdownContent ul,
 #markdownContent ol,
@@ -530,6 +653,17 @@
         min-height: 1.74rem;
         min-width: 4.2rem;
         font-size: 0.74rem;
+    }
+
+    #markdownContent .module-header {
+        align-items: stretch;
+        flex-direction: column;
+        gap: 0.45rem;
+    }
+
+    .module-diff-details summary {
+        width: 100%;
+        justify-content: center;
     }
 }
 
