@@ -48,10 +48,10 @@
                             <button class="lang-btn" type="button" data-lang="en">EN</button>
                         </div>
                         <div class="view-switch" id="viewSwitch" role="group" aria-label="Report reading mode" hidden>
-                            <button class="view-btn" type="button" data-view="clean">干净版</button>
-                            <button class="view-btn" type="button" data-view="diff">变化对照</button>
-                            <button class="view-btn" type="button" data-view="previous">上一版</button>
+                            <button class="view-btn" type="button" data-view="module">模块阅读</button>
+                            <button class="view-btn" type="button" data-view="full">完整报告</button>
                         </div>
+                        <a class="archive-link" id="archiveLink" href="#" hidden>上一版归档</a>
                     </div>
                 </div>
                 <h1 id="heroTitle">加载中...</h1>
@@ -67,23 +67,21 @@
     <script>
         const REPORTS_DATA_URL = '/invest/research/data/reports.json';
         const SUPPORTED_LANGS = ['zh', 'en'];
-        const REPORT_VIEWS = ['clean', 'diff', 'previous'];
+        const REPORT_VIEWS = ['module', 'full', 'previous'];
         const VIEW_LABELS = {
             zh: {
-                clean: '干净版',
-                diff: '变化对照',
-                previous: '上一版',
-                diffTitle: '变化对照',
+                moduleView: '模块阅读',
+                fullReport: '完整报告',
+                previousArchive: '上一版归档',
                 previousMode: '正在查看上一版原文，不代表当前结论',
-                diffMode: '变化对照以固定研究模块展示最新版正文；每个模块可单独展开上一版删除内容。',
-                cleanMode: '干净版是完整最新版，只使用最新信息，不显示历史删除线。',
                 moduleNavTitle: '研究模块',
                 diffSummaryTitle: '模块变化对照',
-                showPreviousDiff: '显示上一版差异',
-                hidePreviousDiff: '隐藏上一版差异',
+                showPreviousDiff: '显示变化对照',
+                hidePreviousDiff: '隐藏变化对照',
                 previousModuleContent: '上一版模块内容',
                 removedModule: '当前最新版已不保留该模块内容',
                 noModuleContent: '该模块暂无内容',
+                noPreviousModuleContent: '上一版没有对应模块内容',
                 unchanged: '未变化',
                 added: '新增',
                 modified: '修改',
@@ -98,20 +96,18 @@
                 deletedOnly: '上一版已移除内容',
             },
             en: {
-                clean: 'Clean',
-                diff: 'Changes',
-                previous: 'Previous',
-                diffTitle: 'Changes',
+                moduleView: 'Modules',
+                fullReport: 'Full Report',
+                previousArchive: 'Previous Archive',
                 previousMode: 'Viewing the previous report, not the current conclusion',
-                diffMode: 'Changes mode shows the latest report in fixed research modules; each module can reveal deleted previous-version context.',
-                cleanMode: 'Clean mode is the complete latest report, using current information only and no historical redlines.',
                 moduleNavTitle: 'Research Modules',
                 diffSummaryTitle: 'Module Change Summary',
-                showPreviousDiff: 'Show previous diff',
-                hidePreviousDiff: 'Hide previous diff',
+                showPreviousDiff: 'Show changes',
+                hidePreviousDiff: 'Hide changes',
                 previousModuleContent: 'Previous module content',
                 removedModule: 'This module is not retained in the latest report',
                 noModuleContent: 'No content in this module yet',
+                noPreviousModuleContent: 'No matching previous module content',
                 unchanged: 'Unchanged',
                 added: 'Added',
                 modified: 'Modified',
@@ -220,7 +216,9 @@
 
         let currentReport = null;
         let currentLang = 'zh';
-        let currentView = 'clean';
+        let currentView = 'module';
+        let currentModuleId = 'overview';
+        let currentModuleDiffOpen = false;
         let reportsById = new Map();
 
         document.addEventListener('DOMContentLoaded', async () => {
@@ -233,6 +231,8 @@
                 const reportId = params.get('id');
                 const requestedLang = params.get('lang');
                 const requestedView = params.get('view');
+                const requestedModule = params.get('module');
+                const requestedDiff = params.get('diff');
                 if (!reportId) {
                     throw new Error('缺少报告 id 参数');
                 }
@@ -258,8 +258,10 @@
                 }
 
                 currentReport = report;
-                currentView = chooseView(requestedView, report);
                 currentLang = chooseLanguage(requestedLang, report.markdownFiles);
+                currentView = chooseView(requestedView, report);
+                currentModuleId = chooseModule(requestedModule);
+                currentModuleDiffOpen = chooseModuleDiff(requestedView, requestedDiff, report);
                 bindLanguageSwitch(report);
                 bindViewSwitch(report);
                 await renderReport();
@@ -283,16 +285,30 @@
         }
 
         function chooseView(requestedView, report) {
-            if (!hasPreviousAnnualReport(report)) {
-                return 'clean';
-            }
-            if (!getPreviousReport(report)) {
-                return 'clean';
+            if (requestedView === 'clean' || requestedView === 'diff') {
+                return 'module';
             }
             if (REPORT_VIEWS.includes(requestedView)) {
+                if (requestedView === 'previous' && !getPreviousReport(report)) {
+                    return 'module';
+                }
                 return requestedView;
             }
-            return 'clean';
+            return 'module';
+        }
+
+        function chooseModule(requestedModule) {
+            if (REPORT_MODULES.some((moduleDef) => moduleDef.id === requestedModule)) {
+                return requestedModule;
+            }
+            return REPORT_MODULES[0].id;
+        }
+
+        function chooseModuleDiff(requestedView, requestedDiff, report) {
+            if (!getPreviousReport(report)) {
+                return false;
+            }
+            return requestedView === 'diff' || requestedDiff === '1' || requestedDiff === 'true';
         }
 
         function hasPreviousAnnualReport(report) {
@@ -334,22 +350,15 @@
             const root = document.getElementById('viewSwitch');
             if (!root) return;
 
-            const hasPrevious = !!getPreviousReport(report);
-            root.hidden = !hasPrevious;
-            if (!hasPrevious) {
-                currentView = 'clean';
-                return;
-            }
+            root.hidden = false;
 
             root.querySelectorAll('.view-btn').forEach((button) => {
                 const requestedView = button.dataset.view;
                 const labels = VIEW_LABELS[currentLang] || VIEW_LABELS.en;
-                if (requestedView === 'clean') {
-                    button.textContent = labels.clean;
-                } else if (requestedView === 'diff') {
-                    button.textContent = labels.diff;
-                } else if (requestedView === 'previous') {
-                    button.textContent = labels.previous;
+                if (requestedView === 'module') {
+                    button.textContent = labels.moduleView;
+                } else if (requestedView === 'full') {
+                    button.textContent = labels.fullReport;
                 }
 
                 button.onclick = async () => {
@@ -357,6 +366,7 @@
                         return;
                     }
                     currentView = requestedView;
+                    currentModuleDiffOpen = false;
                     await renderReport();
                 };
             });
@@ -367,22 +377,26 @@
             if (!report) {
                 throw new Error('未找到当前报告');
             }
-            if (!getPreviousReport(report)) {
-                currentView = 'clean';
+            if (currentView === 'previous' && !getPreviousReport(report)) {
+                currentView = 'module';
             }
 
-            syncQuery();
             renderHero(report, currentLang);
             renderLanguageSwitch(report, currentLang);
             renderViewSwitch(report, currentLang);
+            renderArchiveLink(report, currentLang);
             renderPreviousReportPreview(report, currentLang);
             await renderReportModeContent(report, currentLang);
+            syncQuery();
         }
 
         async function renderReportModeContent(report, lang) {
             const previousReport = getPreviousReport(report);
-            if ((currentView === 'diff' || currentView === 'previous') && !previousReport) {
-                currentView = 'clean';
+            if (currentView === 'previous' && !previousReport) {
+                currentView = 'module';
+            }
+            if (!previousReport) {
+                currentModuleDiffOpen = false;
             }
 
             if (currentView === 'previous' && previousReport) {
@@ -393,23 +407,32 @@
                 return;
             }
 
-            if (currentView === 'diff' && previousReport) {
+            if (currentView === 'full') {
+                const markdown = await fetchReportMarkdown(report, lang);
+                const currentModules = buildReportModules(markdown, lang);
+                renderModeNotice('full', report, lang, previousReport);
+                renderModuleReport(currentModules, lang, { mode: 'full' });
+                return;
+            }
+
+            if (previousReport) {
                 const [currentMarkdown, previousMarkdown] = await Promise.all([
                     fetchReportMarkdown(report, lang),
                     fetchReportMarkdown(previousReport, lang),
                 ]);
                 const diff = buildModuleDiff(currentMarkdown, previousMarkdown, lang);
-                renderModeNotice('diff', report, lang, previousReport);
-                renderDiffMode(diff, lang);
+                renderModeNotice('module', report, lang, previousReport);
+                renderSingleModule(diff.modules, lang, {
+                    mode: 'module',
+                    includeDiff: currentModuleDiffOpen,
+                });
                 return;
             }
 
             const markdown = await fetchReportMarkdown(report, lang);
             const currentModules = buildReportModules(markdown, lang);
-            if (getPreviousReport(report)) {
-                renderModeNotice('clean', report, lang, previousReport);
-            }
-            renderModuleReport(currentModules, lang, { mode: 'clean' });
+            renderModeNotice('module', report, lang, previousReport);
+            renderSingleModule(currentModules, lang, { mode: 'module' });
         }
 
         async function fetchReportMarkdown(report, lang) {
@@ -435,12 +458,6 @@
             }
 
             const labels = VIEW_LABELS[lang] || VIEW_LABELS.en;
-            if (mode === 'clean') {
-                root.hidden = false;
-                root.textContent = labels.cleanMode;
-                return;
-            }
-
             if (mode === 'previous') {
                 root.hidden = false;
                 const previousLabel = previousReport
@@ -452,42 +469,8 @@
                 return;
             }
 
-            if (mode === 'diff') {
-                root.hidden = false;
-                root.textContent = labels.diffMode;
-            } else {
-                root.hidden = true;
-                root.innerHTML = '';
-            }
-        }
-
-        function renderDiffMode(diff, lang) {
-            const labels = VIEW_LABELS[lang] || VIEW_LABELS.en;
-            const markdownContent = document.getElementById('markdownContent');
-            const totalSummary = [
-                `${labels.added} ${diff.counts.added}`,
-                `${labels.modified} ${diff.counts.modified}`,
-                `${labels.removed} ${diff.counts.removed}`,
-                `${labels.unchanged} ${diff.counts.unchanged}`,
-            ].join(' / ');
-            const modules = diff.modules
-                .filter((module) => module.hasContent)
-                .map((module) => renderReportModule(module.current, lang, {
-                    mode: 'diff',
-                    status: module.status,
-                    previous: module.previous,
-                    moduleDef: module,
-                }));
-
-            markdownContent.innerHTML = `
-                <div class="diff-summary">
-                    <h2>${labels.diffSummaryTitle}</h2>
-                    <p>${escapeHtml(totalSummary)}</p>
-                </div>
-                ${modules.length ? modules.join('') : `<div class="diff-empty">${labels.noChanges}</div>`}
-            `;
-            renderModuleNavigation(diff.modules, lang);
-            addSmoothScrolling();
+            root.hidden = true;
+            root.innerHTML = '';
         }
 
         function renderModuleReport(modules, lang, options = {}) {
@@ -498,6 +481,37 @@
                 : `<div class="diff-empty">${escapeHtml((VIEW_LABELS[lang] || VIEW_LABELS.en).noModuleContent)}</div>`;
             renderModuleNavigation(modules, lang);
             addSmoothScrolling();
+        }
+
+        function renderSingleModule(modules, lang, options = {}) {
+            const markdownContent = document.getElementById('markdownContent');
+            const selectedModule = getSelectedModule(modules);
+            if (!selectedModule) {
+                markdownContent.innerHTML = `<div class="diff-empty">${escapeHtml((VIEW_LABELS[lang] || VIEW_LABELS.en).noModuleContent)}</div>`;
+                renderModuleNavigation(modules, lang);
+                return;
+            }
+
+            currentModuleId = selectedModule.id;
+            markdownContent.innerHTML = renderReportModule(selectedModule.current || selectedModule, lang, {
+                ...options,
+                moduleDef: selectedModule,
+                previous: selectedModule.previous,
+                status: selectedModule.status,
+                allowDiff: !!selectedModule.previous,
+                includeDiff: !!options.includeDiff,
+            });
+            renderModuleNavigation(modules, lang);
+            bindModuleDiffToggle();
+        }
+
+        function getSelectedModule(modules) {
+            const selected = (modules || []).find((module) => module.id === currentModuleId && module.hasContent);
+            if (selected) {
+                return selected;
+            }
+            const firstAvailable = (modules || []).find((module) => module.hasContent);
+            return firstAvailable || null;
         }
 
         function renderReportModule(module, lang, options = {}) {
@@ -513,13 +527,19 @@
             const title = getModuleLabel(moduleDef, lang);
             const status = options.status || 'clean';
             const previous = options.previous;
-            const showStatus = mode === 'diff' && status !== 'clean';
+            const showStatus = (mode === 'diff' || options.allowDiff) && status && !['clean', 'empty'].includes(status);
             const statusText = statusLabelMap[status] || status;
             const sectionsHtml = module && module.hasContent
                 ? module.sections.map((section) => renderModuleSection(section, lang)).join('')
                 : `<p class="diff-empty">${escapeHtml(labels.removedModule)}</p>`;
-            const diffDetails = mode === 'diff' && previous && previous.hasContent && status !== 'unchanged'
-                ? renderModuleDiffDetails(previous, lang)
+            const showDiffToggle = options.allowDiff && currentView === 'module';
+            const diffToggle = showDiffToggle
+                ? `<button class="module-diff-toggle${options.includeDiff ? ' active' : ''}" type="button" id="moduleDiffToggle">
+                    ${escapeHtml(options.includeDiff ? labels.hidePreviousDiff : labels.showPreviousDiff)}
+                </button>`
+                : '';
+            const diffPanel = showDiffToggle && options.includeDiff
+                ? renderModuleDiffPanel(previous, lang)
                 : '';
 
             return `
@@ -529,10 +549,13 @@
                             <div class="module-kicker">${escapeHtml(moduleDef.number || '')}</div>
                             <h2>${escapeHtml(title)}</h2>
                         </div>
-                        ${showStatus ? `<span class="revision-status">${escapeHtml(statusText)}</span>` : ''}
+                        <div class="module-header-actions">
+                            ${showStatus ? `<span class="revision-status">${escapeHtml(statusText)}</span>` : ''}
+                            ${diffToggle}
+                        </div>
                     </header>
                     <div class="module-body">${sectionsHtml}</div>
-                    ${diffDetails}
+                    ${diffPanel}
                 </section>
             `;
         }
@@ -553,22 +576,32 @@
             `;
         }
 
-        function renderModuleDiffDetails(previousModule, lang) {
+        function renderModuleDiffPanel(previousModule, lang) {
             const labels = VIEW_LABELS[lang] || VIEW_LABELS.en;
+            if (!previousModule || !previousModule.hasContent) {
+                return `<div class="module-diff-panel"><p class="diff-empty">${escapeHtml(labels.noPreviousModuleContent)}</p></div>`;
+            }
             return `
-                <details class="module-diff-details">
-                    <summary>
-                        <span class="summary-closed">${escapeHtml(labels.showPreviousDiff)}</span>
-                        <span class="summary-open">${escapeHtml(labels.hidePreviousDiff)}</span>
-                    </summary>
+                <div class="module-diff-panel">
                     <div class="revision-deleted">
                         <div class="revision-deleted-label">${escapeHtml(labels.previousModuleContent)}</div>
                         <del class="revision-deleted-content">
                             ${previousModule.sections.map((section) => renderModuleSection(section, lang)).join('')}
                         </del>
                     </div>
-                </details>
+                </div>
             `;
+        }
+
+        function bindModuleDiffToggle() {
+            const button = document.getElementById('moduleDiffToggle');
+            if (!button) {
+                return;
+            }
+            button.onclick = async () => {
+                currentModuleDiffOpen = !currentModuleDiffOpen;
+                await renderReport();
+            };
         }
 
         function renderSectionBody(content, lang) {
@@ -587,7 +620,19 @@
             const params = new URLSearchParams(window.location.search);
             params.set('id', currentReport.id);
             params.set('lang', currentLang);
-            params.set('view', currentView);
+            if (currentView === 'full' || currentView === 'previous') {
+                params.set('view', currentView);
+                params.delete('module');
+                params.delete('diff');
+            } else {
+                params.delete('view');
+                params.set('module', currentModuleId);
+                if (currentModuleDiffOpen) {
+                    params.set('diff', '1');
+                } else {
+                    params.delete('diff');
+                }
+            }
             const nextUrl = `${window.location.pathname}?${params.toString()}`;
             window.history.replaceState({}, '', nextUrl);
         }
@@ -629,50 +674,50 @@
             root.hidden = false;
             root.querySelectorAll('.view-btn').forEach((button) => {
                 const requestedView = button.dataset.view;
-                if (requestedView === 'clean') {
-                    button.textContent = labels.clean;
-                } else if (requestedView === 'diff') {
-                    button.textContent = labels.diff;
-                } else if (requestedView === 'previous') {
-                    button.textContent = labels.previous;
+                if (requestedView === 'module') {
+                    button.textContent = labels.moduleView;
+                } else if (requestedView === 'full') {
+                    button.textContent = labels.fullReport;
                 }
                 button.classList.toggle('active', button.dataset.view === currentView);
             });
+        }
+
+        function renderArchiveLink(report, lang) {
+            const root = document.getElementById('archiveLink');
+            if (!root) return;
+
+            const previous = getPreviousReport(report);
+            if (!previous) {
+                root.hidden = true;
+                root.removeAttribute('href');
+                return;
+            }
+
+            const metadata = report.previousAnnualReport || {};
+            const labels = VIEW_LABELS[lang] || VIEW_LABELS.en;
+            const previousFile = metadata.file || previous.file || `/invest/research/reports/view.html?id=${previous.id}`;
+            root.hidden = false;
+            root.href = withLang(previousFile, lang);
+            root.textContent = labels.previousArchive;
+        }
+
+        function withLang(url, lang) {
+            try {
+                const parsedUrl = new URL(url, window.location.origin);
+                parsedUrl.searchParams.set('lang', lang);
+                return `${parsedUrl.pathname}?${parsedUrl.searchParams.toString()}`;
+            } catch (error) {
+                return url;
+            }
         }
 
         function renderPreviousReportPreview(report, lang) {
             const root = document.getElementById('previousReportPreview');
             if (!root) return;
 
-            const previous = getPreviousReport(report);
-            if (!previous) {
-                root.hidden = true;
-                root.innerHTML = '';
-                return;
-            }
-
-            const labels = VIEW_LABELS[lang] || VIEW_LABELS.en;
-            const metadata = report.previousAnnualReport || {};
-            const displayLabel = lang === 'en'
-                ? (metadata.labelEn || metadata.label || previous.titleEn || previous.title)
-                : (metadata.label || metadata.labelEn || previous.title || previous.titleEn);
-            const summary = lang === 'en'
-                ? (metadata.summaryEn || metadata.summary || previous.summaryEn || previous.summary)
-                : (metadata.summary || metadata.summaryEn || previous.summary || previous.summaryEn);
-            const previousFile = metadata.file || previous.file;
-            const metaItems = [
-                (metadata.date || previous.date) ? `${labels.date} ${metadata.date || previous.date}` : null,
-                (metadata.lastUpdate || previous.lastUpdate) ? `${labels.update} ${metadata.lastUpdate || previous.lastUpdate}` : null
-            ].filter(Boolean);
-
-            root.hidden = false;
-            root.innerHTML = `
-                <div class="previous-report-heading">${escapeHtml(labels.heading)}</div>
-                ${displayLabel ? `<a class="previous-report-title" href="${escapeHtml(previousFile)}">${escapeHtml(displayLabel)}</a>` : ''}
-                ${metaItems.length ? `<div class="previous-report-meta">${metaItems.map((item) => `<span>${escapeHtml(item)}</span>`).join('')}</div>` : ''}
-                ${summary ? `<p>${escapeHtml(summary)}</p>` : ''}
-                <a class="previous-report-action" href="${escapeHtml(previousFile)}">${escapeHtml(labels.action)}</a>
-            `;
+            root.hidden = true;
+            root.innerHTML = '';
         }
 
         function renderLanguageSwitch(report, lang) {
@@ -891,18 +936,39 @@
                 const label = getModuleLabel(moduleDef, lang);
                 const hasContent = !!state.hasContent;
                 const statusClass = state.status ? ` module-status-${state.status}` : '';
+                const activeClass = currentView === 'module' && moduleDef.id === currentModuleId ? ' active' : '';
                 const itemContent = `
                     <span class="module-nav-number">${escapeHtml(number)}</span>
                     <span class="module-nav-label">${escapeHtml(label)}</span>
                 `;
-                tocHTML += `<li class="module-nav-item${hasContent ? '' : ' module-nav-missing'}${statusClass}">`;
+                tocHTML += `<li class="module-nav-item${hasContent ? '' : ' module-nav-missing'}${statusClass}${activeClass}">`;
                 tocHTML += hasContent
-                    ? `<a href="#module-${escapeHtml(moduleDef.id)}">${itemContent}</a>`
+                    ? `<button type="button" data-module="${escapeHtml(moduleDef.id)}">${itemContent}</button>`
                     : `<span>${itemContent}</span>`;
                 tocHTML += '</li>';
             });
             tocHTML += '</ol>';
             toc.innerHTML = tocHTML;
+            bindModuleNavigation();
+        }
+
+        function bindModuleNavigation() {
+            const toc = document.getElementById('tableOfContents');
+            if (!toc) {
+                return;
+            }
+            toc.querySelectorAll('button[data-module]').forEach((button) => {
+                button.onclick = async () => {
+                    const moduleId = button.dataset.module;
+                    if (!REPORT_MODULES.some((moduleDef) => moduleDef.id === moduleId)) {
+                        return;
+                    }
+                    currentView = 'module';
+                    currentModuleId = moduleId;
+                    currentModuleDiffOpen = false;
+                    await renderReport();
+                };
+            });
         }
 
         function addSmoothScrolling() {

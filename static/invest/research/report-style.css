@@ -31,21 +31,42 @@
 }
 
 #tableOfContents a,
+#tableOfContents button,
 #tableOfContents .module-nav-item > span {
+    appearance: none;
+    -webkit-appearance: none;
+    border: 0;
+    width: 100%;
+    background: transparent;
     text-decoration: none;
     color: var(--secondary);
+    font-family: inherit;
     font-size: 0.82rem;
+    font-weight: 600;
     display: grid;
     grid-template-columns: 2rem minmax(0, 1fr);
     align-items: start;
     gap: 0.45rem;
     border-radius: 8px;
     padding: 0.34rem 0.4rem;
+    text-align: left;
 }
 
-#tableOfContents a:hover {
+#tableOfContents a:hover,
+#tableOfContents button:hover {
     color: var(--accent);
     background: color-mix(in srgb, var(--accent-soft) 38%, transparent);
+    cursor: pointer;
+}
+
+#tableOfContents button:focus-visible {
+    outline: 2px solid color-mix(in srgb, var(--accent) 45%, transparent);
+    outline-offset: 2px;
+}
+
+.module-nav-item.active button {
+    color: var(--accent);
+    background: color-mix(in srgb, var(--accent-soft) 48%, transparent);
 }
 
 .module-nav-number {
@@ -67,11 +88,17 @@
     border-left: 2px solid #27ae60;
 }
 
-.module-status-modified a {
+.module-status-added button {
+    border-left: 2px solid #27ae60;
+}
+
+.module-status-modified a,
+.module-status-modified button {
     border-left: 2px solid #e67e22;
 }
 
 .module-status-removed a,
+.module-status-removed button,
 .module-status-removed > span {
     border-left: 2px solid #c0392b;
 }
@@ -261,6 +288,27 @@
     box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 24%, transparent);
 }
 
+.archive-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 1.86rem;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 0.2rem 0.7rem;
+    color: var(--secondary);
+    background: color-mix(in srgb, var(--entry) 92%, var(--surface-2));
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.archive-link:hover {
+    color: var(--accent);
+    border-color: color-mix(in srgb, var(--accent) 38%, var(--border));
+    background: color-mix(in srgb, var(--accent-soft) 32%, var(--entry));
+}
+
 .report-hero h1 {
     margin: 0.6rem 0 0;
     line-height: 1.35;
@@ -397,6 +445,14 @@
     font-size: 1.24rem;
 }
 
+.module-header-actions {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.45rem;
+}
+
 .module-kicker {
     color: color-mix(in srgb, var(--secondary) 74%, var(--border));
     font-size: 0.72rem;
@@ -425,39 +481,37 @@
     color: var(--primary);
 }
 
-.module-diff-details {
-    margin: 0.8rem 0 1rem;
-}
-
-.module-diff-details summary {
+.module-diff-toggle {
+    appearance: none;
+    -webkit-appearance: none;
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     min-height: 1.8rem;
     border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--border));
     border-radius: 999px;
-    padding: 0.22rem 0.7rem;
+    padding: 0.22rem 0.72rem;
     color: var(--accent);
     background: color-mix(in srgb, var(--accent-soft) 35%, transparent);
+    font-family: inherit;
     font-size: 0.78rem;
     font-weight: 700;
     cursor: pointer;
-    user-select: none;
 }
 
-.module-diff-details summary::-webkit-details-marker {
-    display: none;
+.module-diff-toggle:hover,
+.module-diff-toggle.active {
+    border-color: color-mix(in srgb, var(--accent) 56%, var(--border));
+    background: color-mix(in srgb, var(--accent-soft) 58%, transparent);
 }
 
-.module-diff-details .summary-open {
-    display: none;
+.module-diff-toggle:focus-visible {
+    outline: 2px solid color-mix(in srgb, var(--accent) 42%, transparent);
+    outline-offset: 2px;
 }
 
-.module-diff-details[open] .summary-closed {
-    display: none;
-}
-
-.module-diff-details[open] .summary-open {
-    display: inline;
+.module-diff-panel {
+    margin-top: 0.85rem;
 }
 
 #markdownContent p,
@@ -661,9 +715,13 @@
         gap: 0.45rem;
     }
 
-    .module-diff-details summary {
+    .module-header-actions {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .module-diff-toggle {
         width: 100%;
-        justify-content: center;
     }
 }
 
