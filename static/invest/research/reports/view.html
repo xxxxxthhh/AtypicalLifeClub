@@ -42,15 +42,23 @@
             <header class="report-hero">
                 <div class="report-hero-controls">
                     <div class="report-badge">个人研究笔记</div>
-                    <div class="language-switch" id="languageSwitch" role="group" aria-label="Language switch">
-                        <button class="lang-btn" type="button" data-lang="zh">中文</button>
-                        <button class="lang-btn" type="button" data-lang="en">EN</button>
+                    <div class="switch-group">
+                        <div class="language-switch" id="languageSwitch" role="group" aria-label="Language switch">
+                            <button class="lang-btn" type="button" data-lang="zh">中文</button>
+                            <button class="lang-btn" type="button" data-lang="en">EN</button>
+                        </div>
+                        <div class="view-switch" id="viewSwitch" role="group" aria-label="Report view switch" hidden>
+                            <button class="view-btn" type="button" data-view="clean">干净版</button>
+                            <button class="view-btn" type="button" data-view="diff">Diff</button>
+                            <button class="view-btn" type="button" data-view="previous">上一版</button>
+                        </div>
                     </div>
                 </div>
                 <h1 id="heroTitle">加载中...</h1>
                 <h2 id="heroSubtitle"></h2>
                 <div class="report-meta-info" id="heroMeta"></div>
                 <div class="previous-report-preview" id="previousReportPreview" hidden></div>
+                <div class="mode-notice" id="modeNotice" hidden></div>
             </header>
             <div id="markdownContent"></div>
         </article>
@@ -59,8 +67,73 @@
     <script>
         const REPORTS_DATA_URL = '/invest/research/data/reports.json';
         const SUPPORTED_LANGS = ['zh', 'en'];
+        const REPORT_VIEWS = ['clean', 'diff', 'previous'];
+        const VIEW_LABELS = {
+            zh: {
+                clean: '干净版',
+                diff: 'Diff',
+                previous: '上一版',
+                diffTitle: '章节级 Diff',
+                previousMode: '正在查看上一版',
+                diffMode: '已开启章节级 Diff，对比当前与上一版',
+                cleanMode: '当前为干净版；历史追溯请用 Diff 或 上一版。',
+                unchanged: '未变化',
+                added: '新增',
+                modified: '修改',
+                removed: '移除',
+                heading: '上一周期报告',
+                date: '日期',
+                update: '更新',
+                action: '查看上一版',
+                noChanges: '本次对比无章节级差异。',
+            },
+            en: {
+                clean: 'Clean',
+                diff: 'Diff',
+                previous: 'Previous',
+                diffTitle: 'Section diff',
+                previousMode: 'Viewing previous version',
+                diffMode: 'Section-level diff is enabled.',
+                cleanMode: 'Current clean version is shown. Open Diff / Previous for historical view.',
+                unchanged: 'Unchanged',
+                added: 'Added',
+                modified: 'Modified',
+                removed: 'Removed',
+                heading: 'Previous cycle',
+                date: 'Date',
+                update: 'Updated',
+                action: 'View previous version',
+                noChanges: 'No section-level changes were detected.',
+            },
+        };
+
+        const SECTION_KEYWORDS = {
+            zh: {
+                business: ['业务', '商业', '分部', '商业模式', '产业'],
+                competition: ['竞争', '行业', '对手', '生态'],
+                financial: ['财务', '现金流', '资产负债', '估值', '财务健康'],
+                management: ['管理层', '治理', '高管', '领导', 'ceo'],
+                bull: ['牛市', '乐观', '上行', '看涨'],
+                bear: ['熊市', '悲观', '下行', '风险'],
+                valuation: ['估值', '倍数', 'dcf', 'fair', 'pe', 'ps'],
+                catalysts: ['催化', '监测', '监控', '时间线', '指标'],
+            },
+            en: {
+                business: ['business', 'segment', 'commercial', 'model'],
+                competition: ['competition', 'competitor', 'industry'],
+                financial: ['financial', 'cash flow', 'balance sheet', 'earnings', 'revenue'],
+                management: ['management', 'governance', 'ceo', 'executive'],
+                bull: ['bull', 'upside', 'catalyst', 'positive'],
+                bear: ['bear', 'downside', 'risk'],
+                valuation: ['valuation', 'multiple', 'dcf', 'fair'],
+                catalysts: ['catalyst', 'monitoring', 'timeline', 'watchlist'],
+            },
+        };
+
         let currentReport = null;
         let currentLang = 'zh';
+        let currentView = 'clean';
+        let reportsById = new Map();
 
         document.addEventListener('DOMContentLoaded', async () => {
             await loadReport();
@@ -71,6 +144,7 @@
                 const params = new URLSearchParams(window.location.search);
                 const reportId = params.get('id');
                 const requestedLang = params.get('lang');
+                const requestedView = params.get('view');
                 if (!reportId) {
                     throw new Error('缺少报告 id 参数');
                 }
@@ -81,7 +155,12 @@
                 }
 
                 const reports = await reportsResponse.json();
-                const report = reports.find((item) => item.id === reportId);
+                if (!Array.isArray(reports)) {
+                    throw new Error('reports.json 不是有效数组');
+                }
+
+                reportsById = new Map(reports.map((item) => [item.id, item]));
+                const report = reportsById.get(reportId);
 
                 if (!report) {
                     throw new Error(`未找到报告: ${reportId}`);
@@ -91,8 +170,10 @@
                 }
 
                 currentReport = report;
+                currentView = chooseView(requestedView, report);
                 currentLang = chooseLanguage(requestedLang, report.markdownFiles);
-                bindLanguageSwitch();
+                bindLanguageSwitch(report);
+                bindViewSwitch(report);
                 await renderReport();
             } catch (error) {
                 console.error('Error loading report:', error);
@@ -113,48 +194,262 @@
             return 'zh';
         }
 
-        function bindLanguageSwitch() {
+        function chooseView(requestedView, report) {
+            if (!hasPreviousAnnualReport(report)) {
+                return 'clean';
+            }
+            if (!getPreviousReport(report)) {
+                return 'clean';
+            }
+            if (REPORT_VIEWS.includes(requestedView)) {
+                return requestedView;
+            }
+            return 'clean';
+        }
+
+        function hasPreviousAnnualReport(report) {
+            return !!(report && report.previousAnnualReport && report.previousAnnualReport.id);
+        }
+
+        function getPreviousReport(report) {
+            if (!hasPreviousAnnualReport(report)) {
+                return null;
+            }
+            const metadata = report.previousAnnualReport;
+            const candidate = reportsById.get(metadata.id);
+            if (!candidate || !candidate.markdownFiles) {
+                return null;
+            }
+            return candidate;
+        }
+
+        function bindLanguageSwitch(report) {
             const root = document.getElementById('languageSwitch');
             if (!root) return;
             root.querySelectorAll('.lang-btn').forEach((button) => {
-                button.addEventListener('click', async () => {
+                const targetLang = button.dataset.lang;
+                const available = !!(report.markdownFiles && report.markdownFiles[targetLang]);
+                button.disabled = !available;
+
+                button.onclick = async () => {
                     const targetLang = button.dataset.lang;
-                    if (!SUPPORTED_LANGS.includes(targetLang) || targetLang === currentLang) {
+                    if (!SUPPORTED_LANGS.includes(targetLang) || targetLang === currentLang || !available) {
                         return;
                     }
                     currentLang = targetLang;
                     await renderReport();
-                });
+                };
+            });
+        }
+
+        function bindViewSwitch(report) {
+            const root = document.getElementById('viewSwitch');
+            if (!root) return;
+
+            const hasPrevious = !!getPreviousReport(report);
+            root.hidden = !hasPrevious;
+            if (!hasPrevious) {
+                currentView = 'clean';
+                return;
+            }
+
+            root.querySelectorAll('.view-btn').forEach((button) => {
+                const requestedView = button.dataset.view;
+                const labels = VIEW_LABELS[currentLang] || VIEW_LABELS.en;
+                if (requestedView === 'clean') {
+                    button.textContent = labels.clean;
+                } else if (requestedView === 'diff') {
+                    button.textContent = labels.diff;
+                } else if (requestedView === 'previous') {
+                    button.textContent = labels.previous;
+                }
+
+                button.onclick = async () => {
+                    if (!REPORT_VIEWS.includes(requestedView) || requestedView === currentView) {
+                        return;
+                    }
+                    currentView = requestedView;
+                    await renderReport();
+                };
             });
         }
 
         async function renderReport() {
             const report = currentReport;
-            const markdownFile = report.markdownFiles[currentLang];
-            if (!markdownFile) {
-                throw new Error(`未配置 ${currentLang} 版本内容`);
+            if (!report) {
+                throw new Error('未找到当前报告');
+            }
+            if (!getPreviousReport(report)) {
+                currentView = 'clean';
             }
 
             syncQuery();
             renderHero(report, currentLang);
-            renderPreviousReportPreview(report, currentLang);
             renderLanguageSwitch(report, currentLang);
+            renderViewSwitch(report, currentLang);
+            renderPreviousReportPreview(report, currentLang);
+            await renderReportModeContent(report, currentLang);
+        }
 
-            const markdownResponse = await fetch(markdownFile, { cache: 'no-store' });
-            if (!markdownResponse.ok) {
-                throw new Error(`加载 Markdown 失败: HTTP ${markdownResponse.status}`);
+        async function renderReportModeContent(report, lang) {
+            const previousReport = getPreviousReport(report);
+            if ((currentView === 'diff' || currentView === 'previous') && !previousReport) {
+                currentView = 'clean';
             }
 
-            let markdown = await markdownResponse.text();
-            if (report.stripLeadingH1 !== false) {
-                markdown = markdown.replace(/^# .*\n+/, '');
+            if (currentView === 'previous' && previousReport) {
+                const previousMarkdown = await fetchReportMarkdown(previousReport, lang);
+                renderModeNotice('previous', report, lang, previousReport);
+                renderMarkdown(previousMarkdown, previousReport);
+                return;
             }
 
+            if (currentView === 'diff' && previousReport) {
+                const [currentMarkdown, previousMarkdown] = await Promise.all([
+                    fetchReportMarkdown(report, lang),
+                    fetchReportMarkdown(previousReport, lang),
+                ]);
+                const diff = buildSectionDiff(currentMarkdown, previousMarkdown, lang);
+                renderModeNotice('diff', report, lang, previousReport);
+                renderDiffMode(diff, lang);
+                return;
+            }
+
+            const markdown = await fetchReportMarkdown(report, lang);
+            if (getPreviousReport(report)) {
+                renderModeNotice('clean', report, lang, previousReport);
+            }
+            renderMarkdown(markdown, report);
+        }
+
+        async function fetchReportMarkdown(report, lang) {
+            if (!report || !report.markdownFiles || !report.markdownFiles[lang]) {
+                throw new Error(`未配置 ${lang} 版本内容`);
+            }
+
+            const response = await fetch(report.markdownFiles[lang], { cache: 'no-store' });
+            if (!response.ok) {
+                throw new Error(`加载 Markdown 失败: HTTP ${response.status}`);
+            }
+            return response.text();
+        }
+
+        function renderModeNotice(mode, report, lang, previousReport) {
+            const root = document.getElementById('modeNotice');
+            if (!root) return;
+
+            if (!getPreviousReport(report)) {
+                root.hidden = true;
+                root.innerHTML = '';
+                return;
+            }
+
+            const labels = VIEW_LABELS[lang] || VIEW_LABELS.en;
+            if (mode === 'clean') {
+                root.hidden = false;
+                root.textContent = labels.cleanMode;
+                return;
+            }
+
+            if (mode === 'previous') {
+                root.hidden = false;
+                const previousLabel = previousReport
+                    ? (lang === 'en'
+                        ? (previousReport.titleEn || previousReport.title)
+                        : (previousReport.title || previousReport.titleEn))
+                    : '';
+                root.textContent = `${labels.previousMode}${previousLabel ? `：${previousLabel}` : ''}`;
+                return;
+            }
+
+            if (mode === 'diff') {
+                root.hidden = false;
+                root.textContent = labels.diffMode;
+            } else {
+                root.hidden = true;
+                root.innerHTML = '';
+            }
+        }
+
+        function renderDiffMode(diff, lang) {
+            const labels = VIEW_LABELS[lang] || VIEW_LABELS.en;
+            const markdownContent = document.getElementById('markdownContent');
+
+            const cards = [
+                ...diff.added.map((item) => renderDiffCard(item, lang)),
+                ...diff.modified.map((item) => renderDiffCard(item, lang)),
+                ...diff.removed.map((item) => renderDiffCard(item, lang)),
+            ];
+            const totalSummary = [
+                `${labels.added} ${diff.added.length}`,
+                `${labels.modified} ${diff.modified.length}`,
+                `${labels.removed} ${diff.removed.length}`,
+                `${labels.unchanged} ${diff.unchangedCount}`,
+            ].join(' / ');
+
+            markdownContent.innerHTML = `
+                <div class="diff-summary">
+                    <h2>${labels.diffTitle}</h2>
+                    <p>${escapeHtml(totalSummary)}</p>
+                </div>
+                ${cards.length ? cards.join('') : `<div class="diff-empty">${labels.noChanges}</div>`}
+            `;
+            generateTOC();
+            addSmoothScrolling();
+        }
+
+        function renderDiffCard(item, lang) {
+            const labels = VIEW_LABELS[lang] || VIEW_LABELS.en;
+            const statusLabelMap = {
+                added: labels.added,
+                modified: labels.modified,
+                removed: labels.removed,
+            };
+
+            const currentSection = item.current;
+            const previousSection = item.previous;
+            const statusText = statusLabelMap[item.status] || item.status;
+            return `
+                <section class="diff-card diff-card-${item.status}">
+                    <header class="diff-card-header">
+                        <h3>${escapeHtml(item.title || (lang === 'en' ? 'Section' : '章节'))}</h3>
+                        <span class="diff-status">${escapeHtml(statusText)}</span>
+                    </header>
+                    <div class="diff-current">
+                        <h4>${lang === 'en' ? 'Current' : '当前版本'}</h4>
+                        ${currentSection ? renderSectionBody(currentSection.content) : `<p class="diff-empty">${lang === 'en' ? 'No current content.' : '当前版本无内容。'}</p>`}
+                    </div>
+                    ${previousSection ? `
+                    <details class="diff-previous">
+                        <summary>${lang === 'en' ? 'Previous version' : '上一版'}</summary>
+                        <div class="diff-previous-content">
+                            ${renderSectionBody(previousSection.content)}
+                        </div>
+                    </details>` : ''}
+                </section>
+            `;
+        }
+
+        function renderSectionBody(content) {
+            if (!content || !content.trim()) {
+                return `<p class="diff-empty">${content ? '' : '该章节当前为空。'}</p>`;
+            }
             marked.setOptions({
                 breaks: true,
                 gfm: true
             });
+            return marked.parse(content);
+        }
 
+        function renderMarkdown(markdownText, report) {
+            let markdown = markdownText || '';
+            if (report && report.stripLeadingH1 !== false) {
+                markdown = stripLeadingH1(markdown);
+            }
+            marked.setOptions({
+                breaks: true,
+                gfm: true
+            });
             const html = marked.parse(markdown);
             document.getElementById('markdownContent').innerHTML = html;
             generateTOC();
@@ -165,6 +460,7 @@
             const params = new URLSearchParams(window.location.search);
             params.set('id', currentReport.id);
             params.set('lang', currentLang);
+            params.set('view', currentView);
             const nextUrl = `${window.location.pathname}?${params.toString()}`;
             window.history.replaceState({}, '', nextUrl);
         }
@@ -193,20 +489,42 @@
             heroMeta.innerHTML = metaItems.map((item) => `<span>${item}</span>`).join('');
         }
 
+        function renderViewSwitch(report, lang) {
+            const root = document.getElementById('viewSwitch');
+            if (!root) return;
+            const labels = VIEW_LABELS[lang] || VIEW_LABELS.en;
+
+            if (!getPreviousReport(report)) {
+                root.hidden = true;
+                return;
+            }
+
+            root.hidden = false;
+            root.querySelectorAll('.view-btn').forEach((button) => {
+                const requestedView = button.dataset.view;
+                if (requestedView === 'clean') {
+                    button.textContent = labels.clean;
+                } else if (requestedView === 'diff') {
+                    button.textContent = labels.diff;
+                } else if (requestedView === 'previous') {
+                    button.textContent = labels.previous;
+                }
+                button.classList.toggle('active', button.dataset.view === currentView);
+            });
+        }
+
         function renderPreviousReportPreview(report, lang) {
             const root = document.getElementById('previousReportPreview');
             if (!root) return;
 
-            const previous = report.previousAnnualReport;
-            if (!previous || !previous.file) {
+            const previous = getPreviousReport(report);
+            if (!previous) {
                 root.hidden = true;
                 root.innerHTML = '';
                 return;
             }
 
-            const labels = lang === 'en'
-                ? { heading: 'Previous cycle', date: 'Date', update: 'Updated', action: 'View previous version' }
-                : { heading: '上一周期报告', date: '日期', update: '更新', action: '查看上一版' };
+            const labels = VIEW_LABELS[lang] || VIEW_LABELS.en;
             const displayLabel = lang === 'en'
                 ? (previous.labelEn || previous.label)
                 : (previous.label || previous.labelEn);
@@ -237,6 +555,169 @@
                 button.disabled = !available;
                 button.classList.toggle('active', buttonLang === lang);
             });
+        }
+
+        function stripLeadingH1(markdown) {
+            return markdown.replace(/^\uFEFF?#\s+.*\n+/, '');
+        }
+
+        function splitMarkdownSections(markdown, lang) {
+            const lines = markdown.replace(/\r\n/g, '\n').split('\n');
+            const sections = [];
+            const seenKeys = new Map();
+            let currentSection = null;
+            const introBuffer = [];
+            const bodyBuffer = [];
+
+            const commitCurrent = () => {
+                if (!currentSection) {
+                    return;
+                }
+                currentSection.content = bodyBuffer.join('\n').trim();
+                sections.push(currentSection);
+                currentSection = null;
+                bodyBuffer.length = 0;
+            };
+
+            const allocateKey = (baseKey) => {
+                let key = baseKey;
+                let index = 1;
+                while (seenKeys.has(key)) {
+                    index += 1;
+                    key = `${baseKey}__${index}`;
+                }
+                seenKeys.set(key, true);
+                return key;
+            };
+
+            lines.forEach((line) => {
+                const headingMatch = line.match(/^(#{2,3})\s+(.*)$/);
+                if (!headingMatch) {
+                    if (currentSection) {
+                        bodyBuffer.push(line);
+                    } else if (line.trim()) {
+                        introBuffer.push(line);
+                    }
+                    return;
+                }
+
+                const isH2 = headingMatch[1] === '##';
+                const isH3 = headingMatch[1] === '###';
+                if (!isH2 && !isH3) {
+                    if (currentSection) {
+                        bodyBuffer.push(line);
+                    } else if (line.trim()) {
+                        introBuffer.push(line);
+                    }
+                    return;
+                }
+
+                if (currentSection) {
+                    commitCurrent();
+                }
+
+                const title = headingMatch[2].trim();
+                const baseKey = normalizeSectionKey(title, lang);
+                const key = allocateKey(baseKey);
+                if (introBuffer.length && !sections.some((item) => item.key === 'introduction')) {
+                    sections.push({
+                        title: lang === 'en' ? 'Introduction' : '引言',
+                        key: 'introduction',
+                        level: 2,
+                        content: introBuffer.join('\n').trim(),
+                    });
+                }
+                introBuffer.length = 0;
+
+                currentSection = {
+                    title,
+                    key,
+                    level: isH2 ? 2 : 3,
+                    content: '',
+                };
+            });
+
+            commitCurrent();
+            return sections;
+        }
+
+        function normalizeSectionKey(title, lang) {
+            const text = String(title).toLowerCase().replace(/^\s+|\s+$/g, '');
+            const keywords = SECTION_KEYWORDS[lang] || SECTION_KEYWORDS.en;
+            for (const [moduleName, keywordList] of Object.entries(keywords)) {
+                if (keywordList.some((keyword) => text.includes(String(keyword).toLowerCase()))) {
+                    return moduleName;
+                }
+            }
+            return `section-${text.replace(/[^a-z0-9一-鿿]+/gu, '-') || 'section'}`;
+        }
+
+        function normalizeSectionContent(content) {
+            return String(content || '')
+                .replace(/\r/g, '')
+                .replace(/\s+/g, ' ')
+                .trim()
+                .toLowerCase();
+        }
+
+        function buildSectionDiff(currentMarkdown, previousMarkdown, lang) {
+            const currentSections = splitMarkdownSections(currentMarkdown, lang);
+            const previousSections = splitMarkdownSections(previousMarkdown, lang);
+
+            const previousMap = new Map();
+            previousSections.forEach((section) => {
+                previousMap.set(section.key, section);
+            });
+
+            const usedPreviousKeys = new Set();
+            const added = [];
+            const modified = [];
+            let unchanged = 0;
+
+            currentSections.forEach((currentSection) => {
+                const previousSection = previousMap.get(currentSection.key);
+                if (!previousSection) {
+                    added.push({
+                        status: 'added',
+                        title: currentSection.title,
+                        current: currentSection,
+                        previous: null,
+                    });
+                    return;
+                }
+
+                usedPreviousKeys.add(currentSection.key);
+                if (normalizeSectionContent(currentSection.content) === normalizeSectionContent(previousSection.content)) {
+                    unchanged += 1;
+                    return;
+                }
+
+                modified.push({
+                    status: 'modified',
+                    title: currentSection.title,
+                    current: currentSection,
+                    previous: previousSection,
+                });
+            });
+
+            const removed = [];
+            previousSections.forEach((previousSection) => {
+                if (!usedPreviousKeys.has(previousSection.key)) {
+                    removed.push({
+                        status: 'removed',
+                        title: previousSection.title,
+                        current: null,
+                        previous: previousSection,
+                    });
+                }
+            });
+
+            return {
+                added,
+                modified,
+                removed,
+                unchangedCount: unchanged,
+            };
         }
 
         function generateTOC() {
