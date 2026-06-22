@@ -27,7 +27,7 @@ async function loadReportsData() {
             throw new Error('reports.json must be an array');
         }
 
-        reports = data;
+        reports = sortReportsByLatestUpdate(data);
     } catch (error) {
         console.error('Failed to load report metadata:', error);
         reports = [];
@@ -116,6 +116,25 @@ function bindCardNavigation() {
             event.preventDefault();
             window.location.href = targetUrl;
         });
+    });
+}
+
+function parseReportDate(value) {
+    const timestamp = Date.parse(`${value}T00:00:00Z`);
+    return Number.isNaN(timestamp) ? 0 : timestamp;
+}
+
+function sortReportsByLatestUpdate(list) {
+    return [...list].sort((a, b) => {
+        const updateDiff = parseReportDate(b.lastUpdate) - parseReportDate(a.lastUpdate);
+        if (updateDiff !== 0) return updateDiff;
+
+        const dateDiff = parseReportDate(b.date) - parseReportDate(a.date);
+        if (dateDiff !== 0) return dateDiff;
+
+        const leftKey = a.company || a.id || '';
+        const rightKey = b.company || b.id || '';
+        return leftKey.localeCompare(rightKey);
     });
 }
 
