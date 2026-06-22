@@ -70,6 +70,13 @@
     gap: 0.55rem;
 }
 
+.switch-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.45rem;
+}
+
 .report-badge {
     display: inline-block;
     font-size: 0.72rem;
@@ -99,6 +106,31 @@
 }
 
 .language-switch:focus-within {
+    border-color: color-mix(in srgb, var(--accent) 46%, var(--border));
+    box-shadow:
+        inset 0 1px 0 color-mix(in srgb, #fff 12%, transparent),
+        0 0 0 2px color-mix(in srgb, var(--accent) 22%, transparent),
+        0 6px 14px color-mix(in srgb, var(--accent) 14%, transparent);
+}
+
+.view-switch {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.16rem;
+    padding: 0.2rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: linear-gradient(
+        145deg,
+        color-mix(in srgb, var(--entry) 88%, var(--surface-2)),
+        color-mix(in srgb, var(--entry) 94%, var(--surface-3))
+    );
+    box-shadow:
+        inset 0 1px 0 color-mix(in srgb, #fff 12%, transparent),
+        0 5px 12px color-mix(in srgb, var(--accent) 12%, transparent);
+}
+
+.view-switch:focus-within {
     border-color: color-mix(in srgb, var(--accent) 46%, var(--border));
     box-shadow:
         inset 0 1px 0 color-mix(in srgb, #fff 12%, transparent),
@@ -150,6 +182,47 @@
 .lang-btn:disabled {
     opacity: 0.4;
     cursor: not-allowed;
+}
+
+.view-btn {
+    appearance: none;
+    -webkit-appearance: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    min-height: 1.86rem;
+    min-width: 3rem;
+    padding: 0.2rem 0.78rem;
+    background: transparent;
+    color: var(--secondary);
+    font-family: inherit;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 1;
+    cursor: pointer;
+    transition: color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.view-btn:hover:not(:disabled) {
+    color: var(--primary);
+    background: color-mix(in srgb, var(--surface-2) 88%, var(--entry));
+}
+
+.view-btn.active {
+    background: var(--accent);
+    border-color: color-mix(in srgb, var(--accent) 58%, var(--border));
+    color: #fff;
+    box-shadow: 0 7px 16px color-mix(in srgb, var(--accent) 34%, transparent);
+    transform: translateY(-0.5px);
+}
+
+.view-btn:focus-visible {
+    outline: none;
+    border-color: color-mix(in srgb, var(--accent) 55%, var(--border));
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 24%, transparent);
 }
 
 .report-hero h1 {
@@ -225,6 +298,16 @@
     font-size: 0.84rem;
 }
 
+.mode-notice {
+    margin-top: 0.6rem;
+    border-radius: 9px;
+    padding: 0.45rem 0.65rem;
+    background: color-mix(in srgb, var(--accent-soft) 35%, transparent);
+    border: 1px solid color-mix(in srgb, var(--accent) 25%, var(--border));
+    color: var(--primary);
+    font-size: 0.81rem;
+}
+
 .previous-report-action {
     display: inline-block;
     margin-top: 0.42rem;
@@ -286,6 +369,110 @@
     overflow-x: auto;
 }
 
+#markdownContent .diff-summary {
+    border: 1px solid color-mix(in srgb, var(--accent) 24%, var(--border));
+    border-radius: 10px;
+    padding: 0.65rem 0.8rem;
+    margin-bottom: 0.8rem;
+    background: color-mix(in srgb, var(--accent-soft) 34%, transparent);
+}
+
+#markdownContent .diff-summary h2 {
+    margin: 0 0 0.32rem;
+    color: var(--primary);
+    font-size: 0.95rem;
+}
+
+#markdownContent .diff-summary p {
+    margin: 0;
+    color: var(--primary);
+}
+
+.diff-card {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.72rem 0.82rem;
+    margin-bottom: 0.8rem;
+    background: var(--entry);
+}
+
+.diff-card h3,
+.diff-card h4 {
+    margin: 0.12rem 0 0.28rem;
+}
+
+.diff-card h4 {
+    font-size: 0.8rem;
+    color: var(--secondary);
+}
+
+.diff-card p {
+    margin: 0.42rem 0;
+}
+
+.diff-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.diff-status {
+    font-size: 0.72rem;
+    font-weight: 700;
+    border-radius: 999px;
+    padding: 0.1rem 0.52rem;
+    border: 1px solid var(--border);
+    color: var(--secondary);
+    background: var(--surface-2);
+}
+
+.diff-card-added .diff-status {
+    background: color-mix(in srgb, #27ae60 20%, var(--surface-2));
+    border-color: color-mix(in srgb, #27ae60 55%, var(--border));
+    color: #1e8f50;
+}
+
+.diff-card-modified .diff-status {
+    background: color-mix(in srgb, #e67e22 20%, var(--surface-2));
+    border-color: color-mix(in srgb, #e67e22 55%, var(--border));
+    color: #ba6b10;
+}
+
+.diff-card-removed .diff-status {
+    background: color-mix(in srgb, #c0392b 18%, var(--surface-2));
+    border-color: color-mix(in srgb, #c0392b 52%, var(--border));
+    color: #a93226;
+}
+
+.diff-current {
+    border-top: 1px dashed var(--border);
+    margin-top: 0.5rem;
+    padding-top: 0.45rem;
+}
+
+.diff-previous {
+    margin-top: 0.5rem;
+}
+
+.diff-previous summary {
+    cursor: pointer;
+    font-size: 0.82rem;
+    color: var(--accent);
+}
+
+.diff-previous-content {
+    border-left: 2px solid color-mix(in srgb, var(--accent) 45%, transparent);
+    margin-top: 0.42rem;
+    padding: 0.45rem 0 0.35rem 0.68rem;
+}
+
+.diff-empty {
+    font-size: 0.82rem;
+    color: var(--secondary);
+}
+
 #markdownContent table {
     width: 100%;
     border-collapse: collapse;
@@ -319,10 +506,25 @@
         gap: 0.45rem;
     }
 
+    .switch-group {
+        width: 100%;
+    }
+
+    .language-switch,
+    .view-switch {
+        flex-wrap: wrap;
+    }
+
     .lang-btn {
         min-height: 1.74rem;
         min-width: 2.82rem;
         font-size: 0.76rem;
+    }
+
+    .view-btn {
+        min-height: 1.74rem;
+        min-width: 2.82rem;
+        font-size: 0.74rem;
     }
 }
 

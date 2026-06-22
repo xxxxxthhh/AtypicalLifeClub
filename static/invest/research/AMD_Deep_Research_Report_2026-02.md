@@ -20,18 +20,14 @@ Disclaimer: This report is for informational and research purposes only. It does
 **Previous version:** [View the 2026 pre-rerun version](/invest/research/reports/view.html?id=amd-2026-pre-rerun). The archived version preserves the fuller pre-rerun business overview, industry and competitive analysis, management assessment, bull/bear case, and old valuation framework; this version compares only against that final old version.
 
 
-## Historical Judgment Audit Trail
+## Historical Update Summary
 
-This report follows the incremental revision rule: stale judgments are not silently removed; key invalidated claims are preserved with strikethroughs and immediately followed by the current view.
+This section now summarizes the full rerun deltas as a clean baseline, while the full previous version remains available in the Previous view.
 
-- ~~February view: cautiously bullish, roughly balanced risk/reward, attractive after a 10-15% pullback.~~
-  **June 22, 2026 update:** At roughly $537/share, a 10-15% pullback is not enough to repair the valuation framework. The better use of this report is to monitor whether fundamentals can catch up with the price.
-- ~~Stock price of $207.32, market cap around $338B, and forward P/E around 36-40x.~~
-  **June 22, 2026 update:** The latest verifiable price is approximately **$537.37**, market cap is about **$887B**, EV/TTM Sales is about **23.4x**, and the Q1 annualized non-GAAP P/E is about **98x**.
-- ~~OpenAI was the counterparty to the 6GW Instinct GPU agreement and the warrant for up to 160M AMD shares.~~
-  **June 21, 2026 update:** AMD's official 6GW multi-year, multi-generation Instinct GPU agreement is with **Meta**, and the warrant counterparty is Meta. OpenAI's status as a large-scale AMD deployment customer still requires re-verification.
-- ~~The old fair value / DCF / comps range clustered around $70-250.~~
-  **June 22, 2026 update:** Those ranges are now historical records of the February model. The current price is trading closer to a much more aggressive bull case than to the old base case.
+- Investment stance shifted from “cautiously bullish” to “neutral / watch”: valuation now constrains upside more than fundamentals alone.
+- Valuation references were refreshed from the February framework to the current one: around **$887B** market cap and EV/TTM Sales around **23.4x**.
+- Customer counterparty verification is now tied to AMD’s disclosed 6GW multi-year, multi-generation agreement with **Meta**; OpenAI remains to be reverified at a deployment-meaningful scale.
+- Report structure remains intact for business, competition, management, bull/bear, valuation and catalysts, with the analytical backbone now anchored to **Q1 2026 + Q2 guidance + H2 Meta/Helios delivery validation**.
 
 ---
 
@@ -230,11 +226,11 @@ The following is a reverse-engineering framework, not investment advice or a for
 
 | Old method | Old range | Current treatment |
 |------------|-----------|-------------------|
-| Base DCF | ~~$120-140~~ | Stale; retained only as historical record |
-| Bull DCF | ~~$180-220~~ | Old bull case is now below current market price |
-| Bear DCF | ~~$70-90~~ | Still useful only as a stress-case reference |
-| P/E comps | ~~$100-120~~ | Old forward EPS and multiple inputs are stale |
-| EV/Sales comps | ~~$110-130~~ | Old 5-6x forward sales framework does not match today's AI platform premium |
+| Base DCF | $120-140 | Stale; retained only as historical record |
+| Bull DCF | $180-220 | Old bull case is now below current market price |
+| Bear DCF | $70-90 | Still useful only as a stress-case reference |
+| P/E comps | $100-120 | Old forward EPS and multiple inputs are stale |
+| EV/Sales comps | $110-130 | Old 5-6x forward sales framework does not match today's AI platform premium |
 
 ---
 

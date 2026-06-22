@@ -25,6 +25,16 @@ static/invest/research/
 5. 检查 `http://localhost:1313/invest/research/`
 6. 提交并推送，走博客现有发布链路
 
+详情页支持同一页面三种浏览视图参数：
+
+- `?lang=zh|en` 选择语言（默认中文）
+- `?view=clean|diff|previous` 选择正文视图（默认 `clean`）
+  - `clean`：仅展示当前版本正文（清洁版）
+  - `diff`：按章节展示与上一周期版本差异
+  - `previous`：同页展示上一周期完整正文
+
+`previousAnnualReport` 只在有真实历史版本时展示；没有历史版本的报告不显示视图切换。
+
 ## 新增报告最少改动
 
 1. 在 `data/reports.json` 新增一条记录：
@@ -48,6 +58,7 @@ static/invest/research/
 
 - `incremental`：同一周期内的小范围更新。保留当前 `id` 和 Markdown 文件，在正文中用删除线保留旧判断，并紧跟带日期的新判断；同步更新 `lastUpdate`、`summary`、`highlights`。
 - `full-cycle`：每半年或每年产生的完整新版本；如果公司发生重大变化，也可以提前进入新周期。必须创建新的 `id` 和新的中英文 Markdown 文件，旧版本作为归档保留。
+  - 当前周期正文保持“清洁版”，不在正文内用 `~~...~~` 逐段删除；历史追溯改由详情页 `view=diff|previous` 提供。
 
 建议字段：
 
