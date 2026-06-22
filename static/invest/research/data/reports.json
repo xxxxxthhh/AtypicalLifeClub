@@ -327,11 +327,11 @@
     "ticker": "NASDAQ: AMD",
     "title": "AMD 深度研究报告 - AI时代的半导体挑战者",
     "titleEn": "AMD Deep Research Report - AI Era Semiconductor Challenger",
-    "summary": "半导体巨头转型AI基础设施提供商，Q1 2026营收$102.53亿（+38% YoY），数据中心收入$57.75亿（+57% YoY）。Meta多年6GW Instinct GPU合作与Helios/MI450供应链推进强化平台化叙事，但2026下半年交付、认股权证稀释和估值敏感度仍需跟踪。",
+    "summary": "半导体巨头转型AI基础设施提供商，Q1 2026营收$102.53亿（+38% YoY），数据中心收入$57.75亿（+57% YoY）。Meta多年6GW Instinct GPU合作与Helios/MI450供应链推进强化平台化叙事；但股价升至约$537、市值约$8,870亿后，EV/TTM Sales约23.4x，估值兑现风险显著上升。",
     "tags": ["半导体", "AI加速器", "数据中心", "CPU/GPU"],
     "category": "tech",
     "date": "2026-02-04",
-    "lastUpdate": "2026-06-21",
+    "lastUpdate": "2026-06-22",
     "file": "/invest/research/reports/view.html?id=amd-2026",
     "markdownFiles": {
       "zh": "/invest/research/AMD_深度研究报告_2026-02.md",
@@ -341,7 +341,7 @@
       "Q1 2026营收$102.53亿（+38% YoY），Q2指引中点同比约+46%",
       "数据中心收入$57.75亿（+57% YoY），EPYC和Instinct共同推动",
       "Meta多年6GW Instinct GPU合作，首个1GW预计2026下半年出货",
-      "Helios/MI450供应链推进，后续需重算估值并清理旧OpenAI口径"
+      "股价约$537、市值约$8,870亿；EV/TTM Sales约23.4x，旧估值区间已失效"
     ]
   },
   {

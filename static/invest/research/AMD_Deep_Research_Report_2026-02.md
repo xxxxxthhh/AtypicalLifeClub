@@ -7,6 +7,18 @@
 
 ---
 
+## 📌 Update — June 22, 2026 (Stock Price and Valuation Correction)
+
+**Update type:** The June 21 restart pass corrected customer attribution and official business developments, but it did not update AMD's stock price, market cap, valuation multiples, or price-sensitive risk/reward framing. That was a material omission. This update applies the incremental revision rule to valuation-sensitive claims: stale price/market cap/multiple references remain visible with strikethroughs, followed by updated context in place.
+
+**Current market reference (latest verifiable U.S. close as of June 18, 2026):** AMD closed at approximately **$537.37**. Using an approximate 1.65B diluted share base, market cap is roughly **$887B**. Netting Q1 2026 cash and short-term investments of $12.347B against total debt of $3.224B implies enterprise value of roughly **$878B**. Market data source: [MarketWatch AMD quote](https://www.marketwatch.com/investing/stock/amd) / public market data; financial data source: [AMD Q1 2026 Financial Results](https://ir.amd.com/news-events/press-releases/detail/1284/amd-reports-first-quarter-2026-financial-results).
+
+**Updated valuation implication:** AMD reported Q1 2026 free cash flow of $2.566B. Annualized mechanically, that is about $10.264B, or an FCF yield of roughly **1.2%** on the current market cap. Using FY2025 revenue of $34.6B, Q1 2026 revenue of $10.253B, and implied Q1 2025 revenue of about $7.43B from the disclosed 38% growth rate, TTM revenue is roughly **$37.4B**. That implies EV/TTM Sales of about **23.4x**. If FY2026 revenue lands around $45.7-50.0B, EV/Forward Sales would still be roughly **17.6-19.2x**. On Q1 non-GAAP EPS of $1.37 annualized, the stock trades around **98x** annualized non-GAAP EPS; even at $6.00 of FY2026 non-GAAP EPS, it would still be around **90x**.
+
+**Judgment revision:** The February version and June 21 lightweight update's "cautiously bullish / slightly expensive / roughly balanced risk-reward" framing is no longer adequate. The more accurate current view is: **the fundamental thesis and customer validation have strengthened, but the stock has moved into an extremely high-expectation valuation zone; risk/reward is now dominated by valuation realization risk, and the old $100-250 valuation ranges should not be used as current reference points until the full model is rebuilt.**
+
+---
+
 ## 📌 Update — June 21, 2026
 
 **Update type:** This is a lightweight restart pass for the research workflow. It prioritizes official AMD disclosures and corrects a key customer attribution error in the February version. Historical notes below remain visible, but references to an “OpenAI 6GW” agreement are revised in place with strikethroughs followed by the June 21, 2026 update.
@@ -36,13 +48,15 @@ On June 8, 2026, AMD announced up to GBP 2B of investment in the United Kingdom 
 - Keep old judgments visible and mark them with `~~strikethrough~~`.
 - Add the new view immediately after the old view with a `June 21, 2026 update` label.
 - Treat `reports.json` as current display metadata, so it is updated directly rather than redlined.
-- A later full rewrite still needs to refresh valuation, stock price, market cap, and Q1 2026 segment data throughout the report.
+- ~~A later full rewrite still needs to refresh valuation, stock price, market cap, and Q1 2026 segment data throughout the report.~~
+- **June 22, 2026 update:** Stock price, market cap, EV/Sales, FCF yield, and valuation conclusion have been corrected first. The full DCF and peer-comps model still needs a deeper rebuild.
 
 ---
 
 ## 📌 Weekly Update — February 16, 2026
 
-**Stock Price:** $207.32 (as of Feb 16, 2026; +0.67% on day) | 52-week range: $76.48–$267.08
+**Stock Price:** ~~$207.32 (as of Feb 16, 2026; +0.67% on day) | 52-week range: $76.48–$267.08~~
+**June 22, 2026 update:** AMD's latest verifiable close is approximately **$537.37** (June 18, 2026 U.S. close). The old 52-week range is stale and should not be used as current market context.
 
 ### Key Developments This Week
 
@@ -107,11 +121,13 @@ Key risks to monitor:
 - Insider selling (Su, Norrod) — likely routine but worth tracking
 - DA Davidson "Neutral" initiation suggests some analysts see limited near-term upside at current valuation
 - NVIDIA Rubin launch in H2 2026 remains the primary competitive threat
-- Stock at ~$207 still trades at premium multiples (~36-40x forward P/E)
+- ~~Stock at ~$207 still trades at premium multiples (~36-40x forward P/E)~~
+- **June 22, 2026 update:** At roughly $537/share and about $887B of market cap, AMD trades around 98x Q1 annualized non-GAAP EPS and about 23.4x EV/TTM Sales. Valuation risk has moved from "premium" to "extremely high-expectation pricing."
 - ~~OpenAI warrant dilution (up to 160M shares) if milestones are met~~
 - **June 21, 2026 update:** Meta warrant dilution risk, up to 160M shares, if deployment milestones are met.
 
-**Updated Market Cap:** ~$338B (at $207.32/share)
+**Updated Market Cap:** ~~$338B (at $207.32/share)~~
+**June 22, 2026 update:** Approximately **$887B** using $537.37/share and an approximate 1.65B diluted share base; enterprise value is roughly **$878B** after net cash.
 
 ---
 
@@ -171,14 +187,15 @@ NVIDIA announced the "Rubin" R100 platform for 2026, featuring HBM4 memory and t
 **Quick Stats:**
 | Metric | Value |
 |--------|-------|
-| Market Cap | ~$338B (at $208.44/share) |
-| P/E (TTM) | 121.7x |
-| P/E (Forward 2026E) | 36-40x |
+| Market Cap | ~~$338B (at $208.44/share)~~ **June 22 update: ~$887B at ~$537.37/share** |
+| P/E (TTM / annualized) | ~~121.7x~~ **June 22 update: ~98x Q1 annualized non-GAAP EPS; ~90x if FY2026 non-GAAP EPS reaches $6.00** |
+| EV/Sales | **June 22 update: ~23.4x TTM; ~17.6-19.2x if FY2026 revenue is $45.7-50.0B** |
+| P/E (Forward 2026E) | ~~36-40x~~ **old estimate is stale; current mechanical multiples are far above the old table** |
 | Revenue Growth (2025) | +34% YoY |
 | FCF (2025) | $5.6B |
-| FCF Yield | ~2.3% |
+| FCF Yield | ~~about 2.3%~~ **June 22 update: ~1.2% using Q1 FCF annualized** |
 | Debt/Equity | 0.06 |
-| Net Cash Position | $3.9B |
+| Net Cash Position | ~~$3.9B~~ **June 22 update: ~$9.1B (cash and short-term investments of $12.347B minus total debt of $3.224B)** |
 
 ---
 
@@ -467,8 +484,10 @@ Strong execution track record, clear strategic vision, and demonstrated ability 
 - Revenue: $55-65B (35% CAGR from 2025)
 - Operating Margin: 32-35%
 - EPS: $8-10
-- Stock Price (25x forward earnings): $200-250 (from ~$240 current market cap implies ~$145/share)
-- **Potential Return:** 40-70% over 18-24 months
+- ~~Stock Price (25x forward earnings): $200-250 (from ~$240 current market cap implies ~$145/share)~~
+- **June 22, 2026 update:** At a $537 share price, a 25x forward multiple requires roughly $21.5 of forward EPS to justify the current price. The old bull-case $8-10 EPS would imply $200-250 and is now a historical assumption far below the current market price.
+- ~~**Potential Return:** 40-70% over 18-24 months~~
+- **June 22, 2026 update:** The upside case now requires materially higher revenue scale, margins, and/or a sustained premium multiple than the original model assumed.
 
 ---
 
@@ -551,8 +570,10 @@ Strong execution track record, clear strategic vision, and demonstrated ability 
 ### 5. Valuation Leaves No Room for Error
 
 **Data Points:**
-- Current P/E (TTM): 121.7x
-- Forward P/E (2026E): 36-40x
+- ~~Current P/E (TTM): 121.7x~~
+- **June 22, 2026 update:** Around 98x Q1 annualized non-GAAP EPS, or roughly 90x if FY2026 non-GAAP EPS reaches $6.00.
+- ~~Forward P/E (2026E): 36-40x~~
+- **June 22, 2026 update:** The old forward multiple is stale; current pricing requires a much larger earnings ramp or a permanently higher multiple.
 - NVIDIA forward P/E: ~30-35x (AMD trading at PREMIUM to market leader)
 - Historical AMD P/E range: 15-50x
 - Stock has 30%+ drawdowns historically (multiple times)
@@ -564,10 +585,13 @@ Strong execution track record, clear strategic vision, and demonstrated ability 
 - **Historical volatility:** AMD stock has dropped 30%+ within 2 months multiple times
 
 **Valuation Math:**
-- 2026E EPS: $4.00 (consensus)
+- ~~2026E EPS: $4.00 (consensus)~~
+- **June 22, 2026 update:** The old $4.00 EPS input is stale after Q1 2026; Q1 non-GAAP EPS was $1.37, but the full-year path still needs a fresh model.
 - Bear case multiple: 20-25x (if execution stumbles)
-- Bear case price: $80-100 per share
-- **Downside from current levels: 45-60%**
+- ~~Bear case price: $80-100 per share~~
+- **June 22, 2026 update:** If bear-case EPS remains $3.50-4.00 and the market assigns 20-25x, the mechanical price range is still roughly $70-100, but that now represents a far larger drawdown from $537.
+- ~~**Downside from current levels: 45-60%**~~
+- **June 22, 2026 update:** Downside is no longer captured by the old percentage; the risk is that the prior valuation framework and current stock price are fundamentally out of alignment.
 
 ### 6. Competitive Threats from Multiple Directions
 
@@ -594,8 +618,10 @@ Strong execution track record, clear strategic vision, and demonstrated ability 
 - Revenue: $38-42B (15-20% growth, below expectations)
 - Operating Margin: 22-25% (mix shift disappoints)
 - EPS: $3.50-4.00
-- Stock Price (22x forward earnings): $75-90
-- **Potential Loss:** 40-50% from current levels
+- ~~Stock Price (22x forward earnings): $75-90~~
+- **June 22, 2026 update:** At 22x bear-case EPS of $3.50-4.00, the mechanical range remains about $77-88; relative to the current $537 price, this is not a 40-50% scenario but a severe valuation reset scenario.
+- ~~**Potential Loss:** 40-50% from current levels~~
+- **June 22, 2026 update:** The old loss estimate is stale because "current levels" have changed dramatically.
 
 ---
 
@@ -683,39 +709,49 @@ Strong execution track record, clear strategic vision, and demonstrated ability 
 
 | Method | Value/Share Estimate | Key Assumptions | Confidence |
 |--------|---------------------|-----------------|------------|
-| **DCF (Base Case)** | $120-140 | 25% revenue CAGR 2026-2030, 28% terminal margin, 9% WACC | Medium |
-| **DCF (Bull Case)** | $180-220 | 32% revenue CAGR, 32% terminal margin, AI dominance | Low |
-| **DCF (Bear Case)** | $70-90 | 15% revenue CAGR, 24% terminal margin, limited AI traction | Medium |
-| **P/E Comps (2026E)** | $100-120 | 25-30x forward P/E vs. semiconductor peers | High |
-| **EV/Sales Comps** | $110-130 | 5-6x sales vs. high-growth semis | Medium |
-| **Historical P/E** | $80-160 | 20-40x range (AMD historical volatility) | Medium |
+| **DCF (Base Case)** | ~~$120-140~~ needs rebuild | 25% revenue CAGR 2026-2030, 28% terminal margin, 9% WACC | Medium |
+| **DCF (Bull Case)** | ~~$180-220~~ needs rebuild | 32% revenue CAGR, 32% terminal margin, AI dominance | Low |
+| **DCF (Bear Case)** | ~~$70-90~~ needs rebuild | 15% revenue CAGR, 24% terminal margin, limited AI traction | Medium |
+| **P/E Comps (2026E)** | ~~$100-120~~ stale | 25-30x forward P/E vs. semiconductor peers | High |
+| **EV/Sales Comps** | ~~$110-130~~ stale | 5-6x sales vs. high-growth semis | Medium |
+| **Historical P/E** | ~~$80-160~~ stale | 20-40x range (AMD historical volatility) | Medium |
 
-**Current Price (Feb 4, 2026):** ~$145-150 per share (implied from $240B market cap / 1.65B shares)
+**June 22, 2026 update:** With AMD around $537, the stock is far above every old valuation range in this table. The table should be read only as a historical record of the February model, not as current fair value. The current price embeds a much more aggressive view of AMD's future AI infrastructure revenue, market share, and operating leverage.
+
+**Current Price (Feb 4, 2026):** ~~$145-150 per share (implied from $240B market cap / 1.65B shares)~~
+**June 22, 2026 update:** Latest verifiable close is approximately **$537.37** (June 18, 2026 U.S. close).
 
 **Implied Valuation:**
-- Trading at **36-40x forward 2026 earnings** ($4.00 EPS estimate)
-- Trading at **5.2x forward 2026 sales** ($45.7B revenue estimate)
+- ~~Trading at **36-40x forward 2026 earnings** ($4.00 EPS estimate)~~
+- **June 22, 2026 update:** Trading around **98x Q1 annualized non-GAAP EPS**, or roughly **90x** if FY2026 non-GAAP EPS reaches $6.00.
+- ~~Trading at **5.2x forward 2026 sales** ($45.7B revenue estimate)~~
+- **June 22, 2026 update:** Trading around **23.4x EV/TTM Sales**, or roughly **17.6-19.2x EV/Forward Sales** if FY2026 revenue is $45.7-50.0B.
 - **Premium to NVIDIA** on P/E basis despite weaker competitive position
 
 ### Valuation Assessment
 
-**Fair Value Range:** $100-140 per share
+**Fair Value Range:** ~~$100-140 per share~~
+**June 22, 2026 update:** The old range is stale and should not be used as a current fair value estimate.
 
-**Current Price:** $145-150 per share
+**Current Price:** ~~$145-150 per share~~ **approximately $537.37 as of the June 18, 2026 U.S. close**
 
-**Interpretation:** AMD is trading at the **high end or above fair value**, pricing in optimistic AI execution assumptions. Limited margin of safety.
+**Interpretation:** ~~AMD is trading at the high end or above fair value, pricing in optimistic AI execution assumptions. Limited margin of safety.~~
+**June 22, 2026 update:** AMD is no longer merely at the high end of the old range. The stock now reflects extremely high expectations for AI infrastructure revenue, market share gains, and margin expansion; valuation realization risk is the dominant issue.
 
 **Risk/Reward Analysis:**
-- **Upside to Bull Case:** +40-50% ($200-220)
-- **Downside to Bear Case:** -40-50% ($75-90)
-- **Risk/Reward Ratio:** Roughly symmetric, but downside risks more probable given execution dependencies
+- ~~**Upside to Bull Case:** +40-50% ($200-220)~~
+- **June 22, 2026 update:** The old bull case is below the current share price and is no longer an upside case.
+- ~~**Downside to Bear Case:** -40-50% ($75-90)~~
+- **June 22, 2026 update:** The old bear case would now represent a severe valuation reset from $537, not a normal 40-50% downside case.
+- ~~**Risk/Reward Ratio:** Roughly symmetric, but downside risks more probable given execution dependencies~~
+- **June 22, 2026 update:** Risk/reward is now highly valuation-sensitive and cannot be called symmetric without rebuilding the model.
 
 ### Peer Valuation Comparison
 
 | Company | Forward P/E | EV/Sales | Gross Margin | Revenue Growth | Market Position |
 |---------|-------------|----------|--------------|----------------|-----------------|
 | **NVIDIA** | 30-35x | 18-20x | 75% | 40-50% | AI GPU leader (90% share) |
-| **AMD** | 36-40x | 5.2x | 54-57% | 32% | AI GPU #2 (5-8% share) |
+| **AMD** | ~~36-40x~~ ~98x Q1 annualized non-GAAP EPS | ~~5.2x~~ ~23.4x TTM / ~17.6-19.2x 2026E | 55-56% | Q1 +38%; Q2 guide midpoint ~+46% | AI GPU #2 |
 | **Intel** | 15-20x | 2.5x | 40% | 5-10% | CPU leader (declining) |
 | **Broadcom** | 25-30x | 12-15x | 65% | 20-25% | Diversified infra |
 
@@ -806,11 +842,13 @@ The bull case is compelling IF:
 3. ROCm ecosystem continues improving
 4. No major geopolitical disruptions
 
-However, the current valuation (36-40x forward P/E) leaves little room for disappointment. The risk/reward is roughly balanced, with significant execution dependencies over the next 12-18 months.
+~~However, the current valuation (36-40x forward P/E) leaves little room for disappointment. The risk/reward is roughly balanced, with significant execution dependencies over the next 12-18 months.~~
+**June 22, 2026 update:** However, the current valuation is no longer captured by the old 36-40x framing. At roughly $537/share, the stock demands a much larger earnings ramp or a sustained premium multiple, so the risk/reward is dominated by valuation realization over the next 12-18 months.
 
 **Recommended Approach:**
 - **For existing holders:** Hold with tight monitoring of Q2-Q3 2026 catalysts. Set stop-loss at 20-25% below entry if ~~OpenAI deployment delays~~ **June 21, 2026 update: Meta deployment delays** or market share declines.
-- **For new investors:** Wait for better entry point (10-15% pullback) or confirmation of ~~OpenAI ramp~~ **June 21, 2026 update: Meta/Helios ramp** in Q3 2026 earnings before initiating position.
+- ~~**For new investors:** Wait for better entry point (10-15% pullback) or confirmation of OpenAI ramp in Q3 2026 earnings before initiating position.~~
+- **June 22, 2026 update:** For new investors, a 10-15% pullback would not by itself repair the valuation framework. A better process is to rebuild the model, wait for Q2/Q3 Data Center evidence and Meta/Helios shipment confirmation, or require a valuation reset that can be justified by cash flow and earnings.
 - **Position sizing:** Given execution risks and valuation, limit to 3-5% portfolio weight maximum.
 
 ### Confidence Level: Medium (6/10)
@@ -885,14 +923,14 @@ However, the current valuation (36-40x forward P/E) leaves little room for disap
 
 | Metric | AMD | NVIDIA | Intel | Broadcom |
 |--------|-----|--------|-------|----------|
-| Market Cap | $240B | $2.8T | $180B | $850B |
+| Market Cap | ~~$240B~~ **~$887B June 22 update** | $2.8T | $180B | $850B |
 | 2025 Revenue | $34.6B | $130B+ | $55B | $52B |
 | Revenue Growth | 34% | 45% | 5% | 22% |
 | Gross Margin | 54-57% | 75% | 40% | 65% |
 | Operating Margin | 7.7% (GAAP) | 62% | 8% | 45% |
 | FCF Margin | 16% | 50%+ | 15% | 35% |
-| Net Cash/(Debt) | $3.9B | $30B+ | ($45B) | $10B |
-| Forward P/E | 36-40x | 30-35x | 15-20x | 25-30x |
+| Net Cash/(Debt) | ~~$3.9B~~ **~$9.1B June 22 update** | $30B+ | ($45B) | $10B |
+| Forward P/E | ~~36-40x~~ **~98x Q1 annualized non-GAAP EPS; ~90x if FY2026 non-GAAP EPS is $6.00** | 30-35x | 15-20x | 25-30x |
 | Primary Moat | Moderate | Very Strong | Weakening | Strong |
 
 ### Glossary
@@ -928,9 +966,9 @@ However, the current valuation (36-40x forward P/E) leaves little room for disap
 **快速数据（2025年）：**
 - 营收：346亿美元（+34% YoY）
 - 自由现金流：56亿美元（同比翻倍）
-- 市盈率（TTM）：121.7倍
-- 预期市盈率（2026E）：36-40倍
-- 净现金：39亿美元
+- ~~市盈率（TTM）：121.7倍~~ **2026-06-22 更新：按Q1 Non-GAAP EPS年化约98x**
+- ~~预期市盈率（2026E）：36-40倍~~ **2026-06-22 更新：旧口径失效；若FY2026 Non-GAAP EPS达$6.00仍约90x**
+- ~~净现金：39亿美元~~ **2026-06-22 更新：约91亿美元**
 
 **牛市观点：**
 1. AI加速器业务拐点已现，客户赢单加速（微软、Meta、Oracle；~~OpenAI~~ **2026-06-21 更新：OpenAI需重新核验**）
@@ -953,13 +991,14 @@ However, the current valuation (36-40x forward P/E) leaves little room for disap
 - 台海地缘风险何时爆发？
 
 **估值评估：**
-- 公允价值区间：100-140美元/股
-- 当前价格：145-150美元/股
-- **结论：** 交易于公允价值高端或以上，乐观假设已计价
+- ~~公允价值区间：100-140美元/股~~ **2026-06-22 更新：旧估值区间失效，需要重建模型**
+- ~~当前价格：145-150美元/股~~ **2026-06-22 更新：最近可核验收盘价约$537.37**
+- ~~**结论：** 交易于公允价值高端或以上，乐观假设已计价~~ **2026-06-22 更新：股价已进入极高预期定价区，风险收益主要取决于 AI 收入、Meta/Helios 出货和利润率能否迅速追上估值。**
 
 **建议：**
 - **现有持仓：** 持有并密切监控2026年Q2-Q3催化剂
-- **新建仓位：** 等待10-15%回调或Q3确认~~OpenAI放量~~ **2026-06-21 更新：Meta/Helios放量**后再入场
+- ~~**新建仓位：** 等待10-15%回调或Q3确认OpenAI放量后再入场~~
+- **2026-06-22 更新：** 对新建仓位而言，应先重建估值模型，并等待 Q2/Q3 数据中心收入、Meta/Helios 出货和利润率证据；10-15% 回调不足以单独修复估值风险。
 - **仓位控制：** 鉴于执行风险，建议不超过组合3-5%
 
 **信心水平：** 中等（6/10）
