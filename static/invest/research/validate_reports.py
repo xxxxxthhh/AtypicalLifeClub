@@ -26,6 +26,17 @@ REQUIRED_FIELDS = [
     "file",
     "markdownFiles"
 ]
+VERSION_TYPES = {"initial", "incremental", "full-cycle"}
+PREVIOUS_REPORT_FIELDS = [
+    "id",
+    "label",
+    "labelEn",
+    "file",
+    "date",
+    "lastUpdate",
+    "summary",
+    "summaryEn",
+]
 
 
 def fail(message):
@@ -45,6 +56,81 @@ def ensure_non_empty_string(value, field_name):
         fail(f"{field_name} must be a non-empty string")
 
 
+def validate_report_reference(report_id, field_name, reports_by_id):
+    ensure_non_empty_string(report_id, field_name)
+    if report_id not in reports_by_id:
+        fail(f"{field_name} references unknown report id: {report_id}")
+
+
+def validate_previous_report(report, report_idx, reports_by_id):
+    previous = report["previousAnnualReport"]
+    field_prefix = f"report[{report_idx}].previousAnnualReport"
+    if not isinstance(previous, dict):
+        fail(f"{field_prefix} must be an object")
+
+    for field in PREVIOUS_REPORT_FIELDS:
+        if field not in previous:
+            fail(f"{field_prefix} missing required field: {field}")
+        ensure_non_empty_string(previous[field], f"{field_prefix}.{field}")
+
+    parse_date(previous["date"], f"{field_prefix}.date")
+    parse_date(previous["lastUpdate"], f"{field_prefix}.lastUpdate")
+
+    previous_id = previous["id"]
+    if previous_id == report["id"]:
+        fail(f"{field_prefix}.id must not reference the current report")
+    validate_report_reference(previous_id, f"{field_prefix}.id", reports_by_id)
+
+    expected_file = f"/invest/research/reports/view.html?id={previous_id}"
+    if previous["file"] != expected_file:
+        fail(f"{field_prefix}.file should be {expected_file}, got: {previous['file']}")
+
+    previous_report = reports_by_id[previous_id]
+    if previous_report.get("isCurrent") is not False:
+        fail(f"{field_prefix}.id must reference an archived report with isCurrent=false")
+
+
+def validate_version_metadata(report, report_idx, reports_by_id):
+    version_type = report.get("versionType")
+    if version_type is not None:
+        if version_type not in VERSION_TYPES:
+            fail(
+                f"report[{report_idx}].versionType must be one of "
+                f"{sorted(VERSION_TYPES)}: {version_type}"
+            )
+
+    for field in ("period", "versionLabel"):
+        if field in report:
+            ensure_non_empty_string(report[field], f"report[{report_idx}].{field}")
+
+    if "isCurrent" in report and not isinstance(report["isCurrent"], bool):
+        fail(f"report[{report_idx}].isCurrent must be a boolean when present")
+
+    for field in ("supersedes", "diffBase"):
+        if field in report:
+            validate_report_reference(report[field], f"report[{report_idx}].{field}", reports_by_id)
+            if report[field] == report["id"]:
+                fail(f"report[{report_idx}].{field} must not reference itself")
+
+    has_previous = "previousAnnualReport" in report
+    if has_previous:
+        validate_previous_report(report, report_idx, reports_by_id)
+        if version_type != "full-cycle":
+            fail(
+                f"report[{report_idx}].previousAnnualReport requires "
+                "versionType=full-cycle"
+            )
+
+    if version_type == "full-cycle":
+        for field in ("supersedes", "diffBase", "previousAnnualReport"):
+            if field not in report:
+                fail(f"report[{report_idx}] full-cycle report missing: {field}")
+    elif version_type in {"initial", "incremental"}:
+        for field in ("supersedes", "diffBase"):
+            if field in report:
+                fail(f"report[{report_idx}].{field} requires versionType=full-cycle")
+
+
 def main():
     if not REPORTS_JSON.exists():
         fail(f"missing file: {REPORTS_JSON}")
@@ -58,22 +144,25 @@ def main():
     if not isinstance(reports, list) or not reports:
         fail("reports.json must be a non-empty array")
 
-    seen_ids = set()
+    reports_by_id = {}
     for idx, report in enumerate(reports):
         if not isinstance(report, dict):
             fail(f"report[{idx}] must be an object")
 
+        report_id = report.get("id")
+        ensure_non_empty_string(report_id, f"report[{idx}].id")
+        if not re.fullmatch(r"[a-z0-9-]+", report_id):
+            fail(f"report[{idx}].id should match [a-z0-9-]+: {report_id}")
+        if report_id in reports_by_id:
+            fail(f"duplicate report id: {report_id}")
+        reports_by_id[report_id] = report
+
+    for idx, report in enumerate(reports):
         for field in REQUIRED_FIELDS:
             if field not in report:
                 fail(f"report[{idx}] missing required field: {field}")
 
         report_id = report["id"]
-        ensure_non_empty_string(report_id, f"report[{idx}].id")
-        if not re.fullmatch(r"[a-z0-9-]+", report_id):
-            fail(f"report[{idx}].id should match [a-z0-9-]+: {report_id}")
-        if report_id in seen_ids:
-            fail(f"duplicate report id: {report_id}")
-        seen_ids.add(report_id)
 
         for field in ("company", "ticker", "title", "titleEn", "summary", "category"):
             ensure_non_empty_string(report[field], f"report[{idx}].{field}")
@@ -131,6 +220,8 @@ def main():
             fail(
                 f"report[{idx}].markdownFiles.zh and .en must be different files"
             )
+
+        validate_version_metadata(report, idx, reports_by_id)
 
     print(f"OK: validated {len(reports)} reports in {REPORTS_JSON}")
 
