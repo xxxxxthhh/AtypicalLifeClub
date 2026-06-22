@@ -48,9 +48,9 @@
                             <button class="lang-btn" type="button" data-lang="en">EN</button>
                         </div>
                         <div class="view-switch" id="viewSwitch" role="group" aria-label="Report reading mode" hidden>
-                            <button class="view-btn" type="button" data-view="clean">当前报告</button>
+                            <button class="view-btn" type="button" data-view="clean">干净版</button>
                             <button class="view-btn" type="button" data-view="diff">变化对照</button>
-                            <button class="view-btn" type="button" data-view="previous">旧版原文</button>
+                            <button class="view-btn" type="button" data-view="previous">上一版</button>
                         </div>
                     </div>
                 </div>
@@ -70,40 +70,46 @@
         const REPORT_VIEWS = ['clean', 'diff', 'previous'];
         const VIEW_LABELS = {
             zh: {
-                clean: '当前报告',
+                clean: '干净版',
                 diff: '变化对照',
-                previous: '旧版原文',
-                diffTitle: '与旧版的章节变化',
-                previousMode: '正在查看旧版原文，不代表当前结论',
-                diffMode: '正在查看相对旧版的章节变化；默认显示当前内容，展开可看旧版。',
-                cleanMode: '正在阅读当前报告，这是默认结论版本。',
+                previous: '上一版',
+                diffTitle: '变化对照',
+                previousMode: '正在查看上一版原文，不代表当前结论',
+                diffMode: '变化对照显示最新版正文，并把上一版中被替换或移除的内容用删除线标出。',
+                cleanMode: '干净版只使用最新信息，是默认结论版本。',
                 unchanged: '未变化',
                 added: '新增',
                 modified: '修改',
                 removed: '移除',
-                heading: '旧版归档',
+                heading: '上一版原文',
                 date: '日期',
                 update: '更新',
-                action: '查看旧版原文',
+                action: '打开上一版',
                 noChanges: '本次对比无章节级差异。',
+                currentContent: '最新内容',
+                deletedContent: '上一版删除内容',
+                deletedOnly: '上一版已移除内容',
             },
             en: {
-                clean: 'Current',
+                clean: 'Clean',
                 diff: 'Changes',
-                previous: 'Archive',
-                diffTitle: 'Section changes',
-                previousMode: 'Viewing the archived prior report, not the current conclusion',
-                diffMode: 'Viewing section changes versus the prior report; cards show current content first.',
-                cleanMode: 'Viewing the current report. This is the default conclusion.',
+                previous: 'Previous',
+                diffTitle: 'Changes',
+                previousMode: 'Viewing the previous report, not the current conclusion',
+                diffMode: 'Changes mode shows the latest report and marks replaced or removed previous-version content as deleted.',
+                cleanMode: 'Clean mode uses the latest information only. This is the default conclusion.',
                 unchanged: 'Unchanged',
                 added: 'Added',
                 modified: 'Modified',
                 removed: 'Removed',
-                heading: 'Prior archive',
+                heading: 'Previous report',
                 date: 'Date',
                 update: 'Updated',
-                action: 'Open archive',
+                action: 'Open previous',
                 noChanges: 'No section-level changes were detected.',
+                currentContent: 'Latest content',
+                deletedContent: 'Deleted previous content',
+                deletedOnly: 'Removed previous content',
             },
         };
 
@@ -375,11 +381,7 @@
             const labels = VIEW_LABELS[lang] || VIEW_LABELS.en;
             const markdownContent = document.getElementById('markdownContent');
 
-            const cards = [
-                ...diff.added.map((item) => renderDiffCard(item, lang)),
-                ...diff.modified.map((item) => renderDiffCard(item, lang)),
-                ...diff.removed.map((item) => renderDiffCard(item, lang)),
-            ];
+            const sections = diff.sections.map((item) => renderRevisionSection(item, lang));
             const totalSummary = [
                 `${labels.added} ${diff.added.length}`,
                 `${labels.modified} ${diff.modified.length}`,
@@ -392,40 +394,51 @@
                     <h2>${labels.diffTitle}</h2>
                     <p>${escapeHtml(totalSummary)}</p>
                 </div>
-                ${cards.length ? cards.join('') : `<div class="diff-empty">${labels.noChanges}</div>`}
+                ${sections.length ? sections.join('') : `<div class="diff-empty">${labels.noChanges}</div>`}
             `;
             generateTOC();
             addSmoothScrolling();
         }
 
-        function renderDiffCard(item, lang) {
+        function renderRevisionSection(item, lang) {
             const labels = VIEW_LABELS[lang] || VIEW_LABELS.en;
             const statusLabelMap = {
                 added: labels.added,
                 modified: labels.modified,
                 removed: labels.removed,
+                unchanged: labels.unchanged,
             };
 
             const currentSection = item.current;
             const previousSection = item.previous;
             const statusText = statusLabelMap[item.status] || item.status;
+            const headingLevel = currentSection ? currentSection.level : (previousSection ? previousSection.level : 2);
+            const headingTag = headingLevel === 3 ? 'h3' : 'h2';
+            const title = item.title || (lang === 'en' ? 'Section' : '章节');
+            const showStatus = item.status !== 'unchanged';
+            const currentContent = currentSection
+                ? `<div class="revision-current">
+                    ${renderSectionBody(currentSection.content)}
+                </div>`
+                : '';
+            const deletedLabel = item.status === 'removed' ? labels.deletedOnly : labels.deletedContent;
+            const deletedContent = previousSection && item.status !== 'unchanged'
+                ? `<div class="revision-deleted">
+                    <div class="revision-deleted-label">${escapeHtml(deletedLabel)}</div>
+                    <del class="revision-deleted-content">
+                        ${renderSectionBody(previousSection.content)}
+                    </del>
+                </div>`
+                : '';
+
             return `
-                <section class="diff-card diff-card-${item.status}">
-                    <header class="diff-card-header">
-                        <h3>${escapeHtml(item.title || (lang === 'en' ? 'Section' : '章节'))}</h3>
-                        <span class="diff-status">${escapeHtml(statusText)}</span>
+                <section class="revision-section revision-section-${item.status}">
+                    <header class="revision-heading">
+                        <${headingTag}>${escapeHtml(title)}</${headingTag}>
+                        ${showStatus ? `<span class="revision-status">${escapeHtml(statusText)}</span>` : ''}
                     </header>
-                    <div class="diff-current">
-                        <h4>${lang === 'en' ? 'Current' : '当前版本'}</h4>
-                        ${currentSection ? renderSectionBody(currentSection.content) : `<p class="diff-empty">${lang === 'en' ? 'No current content.' : '当前版本无内容。'}</p>`}
-                    </div>
-                    ${previousSection ? `
-                    <details class="diff-previous">
-                        <summary>${lang === 'en' ? 'Archived content' : '旧版内容'}</summary>
-                        <div class="diff-previous-content">
-                            ${renderSectionBody(previousSection.content)}
-                        </div>
-                    </details>` : ''}
+                    ${currentContent}
+                    ${deletedContent}
                 </section>
             `;
         }
@@ -672,47 +685,61 @@
             const usedPreviousKeys = new Set();
             const added = [];
             const modified = [];
+            const sections = [];
             let unchanged = 0;
 
             currentSections.forEach((currentSection) => {
                 const previousSection = previousMap.get(currentSection.key);
                 if (!previousSection) {
-                    added.push({
+                    const item = {
                         status: 'added',
                         title: currentSection.title,
                         current: currentSection,
                         previous: null,
-                    });
+                    };
+                    added.push(item);
+                    sections.push(item);
                     return;
                 }
 
                 usedPreviousKeys.add(currentSection.key);
                 if (normalizeSectionContent(currentSection.content) === normalizeSectionContent(previousSection.content)) {
                     unchanged += 1;
+                    sections.push({
+                        status: 'unchanged',
+                        title: currentSection.title,
+                        current: currentSection,
+                        previous: previousSection,
+                    });
                     return;
                 }
 
-                modified.push({
+                const item = {
                     status: 'modified',
                     title: currentSection.title,
                     current: currentSection,
                     previous: previousSection,
-                });
+                };
+                modified.push(item);
+                sections.push(item);
             });
 
             const removed = [];
             previousSections.forEach((previousSection) => {
                 if (!usedPreviousKeys.has(previousSection.key)) {
-                    removed.push({
+                    const item = {
                         status: 'removed',
                         title: previousSection.title,
                         current: null,
                         previous: previousSection,
-                    });
+                    };
+                    removed.push(item);
+                    sections.push(item);
                 }
             });
 
             return {
+                sections,
                 added,
                 modified,
                 removed,

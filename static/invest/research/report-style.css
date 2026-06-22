@@ -388,37 +388,42 @@
     color: var(--primary);
 }
 
-.diff-card {
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 0.72rem 0.82rem;
-    margin-bottom: 0.8rem;
-    background: var(--entry);
-}
-
-.diff-card h3,
-.diff-card h4 {
-    margin: 0.12rem 0 0.28rem;
-}
-
-.diff-card h4 {
-    font-size: 0.8rem;
+.diff-empty {
+    font-size: 0.82rem;
     color: var(--secondary);
 }
 
-.diff-card p {
-    margin: 0.42rem 0;
+.revision-section {
+    margin-bottom: 1.2rem;
 }
 
-.diff-card-header {
+.revision-heading {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 0.4rem;
+    gap: 0.5rem;
+    border-bottom: 1px solid var(--border);
+    margin: 1.6rem 0 0.65rem;
+    padding-bottom: 0.35rem;
 }
 
-.diff-status {
+#markdownContent .revision-heading h2,
+#markdownContent .revision-heading h3 {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#markdownContent .revision-heading h2 {
+    font-size: 1.28rem;
+}
+
+#markdownContent .revision-heading h3 {
+    font-size: 1.1rem;
+}
+
+.revision-status {
+    flex: 0 0 auto;
     font-size: 0.72rem;
     font-weight: 700;
     border-radius: 999px;
@@ -428,49 +433,49 @@
     background: var(--surface-2);
 }
 
-.diff-card-added .diff-status {
+.revision-section-added .revision-status {
     background: color-mix(in srgb, #27ae60 20%, var(--surface-2));
     border-color: color-mix(in srgb, #27ae60 55%, var(--border));
     color: #1e8f50;
 }
 
-.diff-card-modified .diff-status {
+.revision-section-modified .revision-status {
     background: color-mix(in srgb, #e67e22 20%, var(--surface-2));
     border-color: color-mix(in srgb, #e67e22 55%, var(--border));
     color: #ba6b10;
 }
 
-.diff-card-removed .diff-status {
+.revision-section-removed .revision-status {
     background: color-mix(in srgb, #c0392b 18%, var(--surface-2));
     border-color: color-mix(in srgb, #c0392b 52%, var(--border));
     color: #a93226;
 }
 
-.diff-current {
-    border-top: 1px dashed var(--border);
-    margin-top: 0.5rem;
-    padding-top: 0.45rem;
+.revision-deleted {
+    margin: 0.75rem 0 1rem;
+    border-left: 3px solid color-mix(in srgb, #c0392b 68%, var(--border));
+    border-radius: 8px;
+    padding: 0.6rem 0.72rem;
+    background: color-mix(in srgb, #c0392b 9%, var(--entry));
 }
 
-.diff-previous {
-    margin-top: 0.5rem;
+.revision-deleted-label {
+    margin-bottom: 0.35rem;
+    color: color-mix(in srgb, #c0392b 78%, var(--secondary));
+    font-size: 0.76rem;
+    font-weight: 700;
 }
 
-.diff-previous summary {
-    cursor: pointer;
-    font-size: 0.82rem;
-    color: var(--accent);
+.revision-deleted-content {
+    display: block;
+    color: color-mix(in srgb, var(--secondary) 86%, #c0392b);
 }
 
-.diff-previous-content {
-    border-left: 2px solid color-mix(in srgb, var(--accent) 45%, transparent);
-    margin-top: 0.42rem;
-    padding: 0.45rem 0 0.35rem 0.68rem;
-}
-
-.diff-empty {
-    font-size: 0.82rem;
-    color: var(--secondary);
+#markdownContent .revision-deleted-content,
+#markdownContent .revision-deleted-content * {
+    text-decoration-line: line-through;
+    text-decoration-thickness: 1.5px;
+    text-decoration-color: color-mix(in srgb, #c0392b 70%, var(--secondary));
 }
 
 #markdownContent table {
