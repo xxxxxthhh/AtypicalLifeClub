@@ -180,6 +180,58 @@
     padding: 0.14rem 0.54rem;
 }
 
+.previous-report-preview {
+    margin-top: 0.8rem;
+    border-left: 3px solid var(--accent);
+    padding: 0.55rem 0 0.55rem 0.75rem;
+    background: color-mix(in srgb, var(--accent-soft) 42%, transparent);
+}
+
+.previous-report-heading {
+    font-size: 0.74rem;
+    font-weight: 700;
+    color: var(--secondary);
+}
+
+.previous-report-title {
+    display: inline-block;
+    margin-top: 0.25rem;
+    color: var(--primary);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.previous-report-title:hover,
+.previous-report-action:hover {
+    color: var(--accent);
+    text-decoration: underline;
+}
+
+.previous-report-meta {
+    margin-top: 0.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.previous-report-meta span {
+    font-size: 0.72rem;
+    color: var(--secondary);
+}
+
+.previous-report-preview p {
+    margin: 0.42rem 0 0;
+    color: var(--content);
+    font-size: 0.84rem;
+}
+
+.previous-report-action {
+    display: inline-block;
+    margin-top: 0.42rem;
+    color: var(--accent);
+    font-size: 0.8rem;
+}
+
 #markdownContent {
     color: var(--content);
     font-size: 0.94rem;

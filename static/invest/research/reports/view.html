@@ -50,6 +50,7 @@
                 <h1 id="heroTitle">加载中...</h1>
                 <h2 id="heroSubtitle"></h2>
                 <div class="report-meta-info" id="heroMeta"></div>
+                <div class="previous-report-preview" id="previousReportPreview" hidden></div>
             </header>
             <div id="markdownContent"></div>
         </article>
@@ -136,6 +137,7 @@
 
             syncQuery();
             renderHero(report, currentLang);
+            renderPreviousReportPreview(report, currentLang);
             renderLanguageSwitch(report, currentLang);
 
             const markdownResponse = await fetch(markdownFile, { cache: 'no-store' });
@@ -189,6 +191,41 @@
             ].filter(Boolean);
 
             heroMeta.innerHTML = metaItems.map((item) => `<span>${item}</span>`).join('');
+        }
+
+        function renderPreviousReportPreview(report, lang) {
+            const root = document.getElementById('previousReportPreview');
+            if (!root) return;
+
+            const previous = report.previousAnnualReport;
+            if (!previous || !previous.file) {
+                root.hidden = true;
+                root.innerHTML = '';
+                return;
+            }
+
+            const labels = lang === 'en'
+                ? { heading: 'Previous cycle', date: 'Date', update: 'Updated', action: 'View previous version' }
+                : { heading: '上一周期报告', date: '日期', update: '更新', action: '查看上一版' };
+            const displayLabel = lang === 'en'
+                ? (previous.labelEn || previous.label)
+                : (previous.label || previous.labelEn);
+            const summary = lang === 'en'
+                ? (previous.summaryEn || previous.summary)
+                : (previous.summary || previous.summaryEn);
+            const metaItems = [
+                previous.date ? `${labels.date} ${previous.date}` : null,
+                previous.lastUpdate ? `${labels.update} ${previous.lastUpdate}` : null
+            ].filter(Boolean);
+
+            root.hidden = false;
+            root.innerHTML = `
+                <div class="previous-report-heading">${escapeHtml(labels.heading)}</div>
+                ${displayLabel ? `<a class="previous-report-title" href="${escapeHtml(previous.file)}">${escapeHtml(displayLabel)}</a>` : ''}
+                ${metaItems.length ? `<div class="previous-report-meta">${metaItems.map((item) => `<span>${escapeHtml(item)}</span>`).join('')}</div>` : ''}
+                ${summary ? `<p>${escapeHtml(summary)}</p>` : ''}
+                <a class="previous-report-action" href="${escapeHtml(previous.file)}">${escapeHtml(labels.action)}</a>
+            `;
         }
 
         function renderLanguageSwitch(report, lang) {
