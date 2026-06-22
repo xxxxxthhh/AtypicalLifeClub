@@ -774,7 +774,7 @@ While not an immediate threat, regulatory risk is asymmetric—downside is signi
 - **Target Price: $30 (27% downside from $41)**
 
 **Catalysts:**
-- Q1 2026 results show branded checkout still at 1% or negative
+- ~~Q1 2026 results show branded checkout still at 1% or negative~~ June 22 update: Q1 showed roughly 2% branded checkout growth; the next bearish confirmation would be Q2/Q3 staying in the 1-2% range or turning negative.
 - Apple announces zero-fee merchant program
 - Major merchant (e.g., Amazon) drops PayPal checkout option
 - CFPB enforcement action
@@ -790,9 +790,9 @@ While not an immediate threat, regulatory risk is asymmetric—downside is signi
 **Why It Matters:** Branded checkout is PayPal's core business and primary moat. If 1% growth is the new normal (or goes negative), the entire investment thesis breaks.
 
 **When We'll Know More:**
-- Q1 2026 results (late April 2026)
-- If branded checkout remains at 1-2%, it's structural
-- If it rebounds to 4-5%, it was temporary (holiday seasonality, macro weakness)
+- ~~Q1 2026 results (late April 2026)~~ June 22 update: Q1 is now published; branded checkout improved only modestly to roughly 2%.
+- If Q2-Q3 remains at 1-2%, the structural-deceleration thesis gains credibility.
+- If Q2-Q3 rebounds to 4-5%, Q4/Q1 weakness looks more temporary.
 
 **What to Watch:**
 - Branded checkout growth rate (absolute number, not just %)
@@ -822,8 +822,8 @@ While not an immediate threat, regulatory risk is asymmetric—downside is signi
 **Why It Matters:** CEO transitions often lead to strategic pivots. Lores could accelerate current strategy, pursue M&A, or shift to pure cost-cutting.
 
 **When We'll Know More:**
-- First earnings call as CEO (Q1 2026 results, late April 2026)
-- Investor Day or strategic update (likely Q2-Q3 2026)
+- ~~First earnings call as CEO (Q1 2026 results, late April 2026)~~ June 22 update: the initial CEO handoff has happened; the next question is measurable execution under the new structure.
+- Investor Day, Q2/Q3 earnings, or strategic update if management provides more concrete medium-term targets.
 
 **What to Watch:**
 - Does he reaffirm or change 2026-2027 guidance?
@@ -870,7 +870,7 @@ While not an immediate threat, regulatory risk is asymmetric—downside is signi
 **Why It Matters:** SBC nearly doubled from $1.2B (2024) to $2.8B (2025), distorting profitability. If SBC stays elevated, true shareholder returns are lower.
 
 **When We'll Know More:**
-- 2026 SBC disclosure (Q1 2026 10-Q filing)
+- Q1/Q2 2026 filing disclosures and updated compensation commentary
 - If SBC normalizes to $1.5-2.0B, it was one-time CEO transition cost
 - If SBC stays at $2.5B+, it's the new normal
 
@@ -891,7 +891,7 @@ While not an immediate threat, regulatory risk is asymmetric—downside is signi
 5. ❌ Major regulatory action (CFPB enforcement, FDIC insurance mandate)
 
 **Bear Case Invalidated If:**
-1. ✅ Branded checkout rebounds to 5%+ growth in Q1-Q2 2026
+1. ✅ Branded checkout rebounds to 5%+ growth in Q2-Q3 2026
 2. ✅ Fastlane adoption accelerates to 5,000+ merchants by end 2026
 3. ✅ New CEO announces transformative M&A (e.g., acquires Stripe competitor)
 4. ✅ Venmo revenue reaches $3B+ by 2027 (from $1.7B today)
@@ -1032,17 +1032,22 @@ While not an immediate threat, regulatory risk is asymmetric—downside is signi
 
 ### Near-Term Catalysts (0-6 Months)
 
-**Q1 2026 Earnings (Late April 2026) - CRITICAL**
-- **What to Watch:** Branded checkout growth rate
-- **Bull Signal:** Rebound to 4-5%+ growth
-- **Bear Signal:** Remains at 1-2% or goes negative
-- **Impact:** High - will determine if Q4 was anomaly or trend
+**~~Q1 2026 Earnings (Late April 2026) - CRITICAL~~ Q1 2026 Earnings Published**
+- **June 22 update:** Q1 has moved from a future catalyst to an observed data point. Branded checkout reportedly improved to roughly 2%, Venmo payment volume grew roughly 14%, and management's Q2 guidance/reorganization commentary still point to an execution reset rather than a confirmed growth reacceleration.
+- **Thesis read-through:** Q1 weakens the most severe cliff-risk case, but it does not validate the bull case because branded checkout did not recover to 4-5%+ growth.
+- **Next evidence:** Q2-Q3 branded checkout trend, Fastlane merchant/TPV disclosure, Venmo monetization, and whether cost savings improve EPS quality.
 
-**New CEO Strategic Update (Q2 2026)**
-- **What to Watch:** Enrique Lores's first strategic commentary
-- **Bull Signal:** Reaffirms growth targets, announces new initiatives
-- **Bear Signal:** Lowers guidance, signals cost-cutting focus
-- **Impact:** High - sets tone for next 2-3 years
+**Q2-Q3 2026 Earnings and Guidance**
+- **What to Watch:** Branded checkout growth rate, transaction margin dollars, Venmo monetization, Fastlane adoption, and updated full-year profit commentary.
+- **Bull Signal:** Branded checkout moves toward mid-single-digit growth while Venmo and margins continue to improve.
+- **Bear Signal:** Branded checkout remains stuck at 1-2%, guidance deteriorates, or cost savings offset weakening revenue quality.
+- **Impact:** High - this will determine whether Q1 was stabilization or just a pause in the deceleration.
+
+**CEO Reorganization and Cost Program Execution**
+- **What to Watch:** Evidence that the three-unit reorganization and roughly $1.5B gross savings plan improve execution speed and EPS quality without starving growth products.
+- **Bull Signal:** Clear product milestones, stable growth investment, and operating leverage that comes from better focus rather than blunt cuts.
+- **Bear Signal:** Cost-cutting becomes the main story while branded checkout and Fastlane remain weak.
+- **Impact:** High - sets the tone for the next 2-3 years.
 
 **Fastlane Adoption Metrics (Ongoing)**
 - **What to Watch:** Number of merchants, TPV contribution
@@ -1231,4 +1236,4 @@ This report was generated using publicly available information and AI-assisted r
 ---
 
 **Report Completed:** February 4, 2026
-**Next Update:** Post Q1 2026 Earnings (Late April 2026)
+**Next Update:** Post Q2 2026 earnings and official filing cross-check
