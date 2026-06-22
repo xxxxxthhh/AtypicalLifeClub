@@ -17,6 +17,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 **Updated valuation read-through:** AMD reported Q1 2026 free cash flow of $2.566B. Annualized mechanically, that is about $10.264B, or an FCF yield of roughly **1.2%** on the current market cap. Using FY2025 revenue of $34.6B, Q1 2026 revenue of $10.253B, and implied Q1 2025 revenue of about $7.438B, TTM revenue is roughly **$37.4B**. That implies EV/TTM Sales of about **23.4x**. If FY2026 revenue lands around $45.7-50.0B, EV/Forward Sales would still be roughly **17.6-19.2x**. On Q1 non-GAAP EPS of $1.37 annualized, the stock trades at about **98x**; even at $6.00 of FY2026 non-GAAP EPS, it would still be about **90x**.
 
+**Previous version:** [View the 2026 pre-rerun version](/invest/research/reports/view.html?id=amd-2026-pre-rerun). The archived version preserves the fuller pre-rerun business overview, industry and competitive analysis, management assessment, bull/bear case, and old valuation framework; this version compares only against that final old version.
+
 
 ## Historical Judgment Audit Trail
 
@@ -63,6 +65,29 @@ Q1 2026 segment performance:
 | Embedded | $873M | +6% | Recovering, but not the valuation driver |
 
 The February report was built around Q4 2025 and FY2025. This full rerun resets the analytical base to **Q1 2026 + Q2 guidance + H2 2026 Meta/Helios delivery validation**.
+
+### 1.3 Baseline Business Profile and Model
+
+AMD is a fabless high-performance computing chip company. Its core assets are not manufacturing capacity, but CPU/GPU/SoC architecture design, chiplet integration, software and hardware roadmaps, and the ability to productize custom platforms for large customers. Manufacturing depends mainly on foundry partners such as TSMC, so AMD has lower capital intensity than an IDM model, while advanced-node, advanced-packaging, and geopolitical supply-chain concentration remain long-term risks.
+
+The four operating segments carry different economics:
+
+| Segment | Role | Economic traits | Current importance |
+|---------|------|-----------------|--------------------|
+| Data Center | EPYC server CPUs + Instinct AI GPUs | High ASPs, concentrated customers, long validation cycles, highest margin upside | Core valuation driver |
+| Client | Ryzen desktop and mobile CPUs | More cyclical; affected by PC shipments and channel inventory | Scale and cash-flow stabilizer |
+| Gaming | Radeon GPUs + semi-custom console chips | Discrete GPU competition is intense; semi-custom follows console cycles | Non-core, but broadens ecosystem reach |
+| Embedded | Xilinx FPGA / adaptive SoC assets | Long product lives, sticky customers, steadier demand profile | Portfolio resilience |
+
+Commercially, AMD sells chips and platform products to OEMs, cloud providers, system integrators, enterprise customers, and distribution channels. The AI data center business looks more like project-based platform selling: customers assess GPU performance, CPU attach, networking and rack architecture, software stack, supply assurance, and total cost of ownership together. Client and gaming remain more standard product-cycle businesses, with stronger exposure to macro demand and channel inventory.
+
+AMD's moat can be separated into three layers:
+
+1. **CPU moat:** the x86 duopoly, EPYC performance-per-watt gains, and cloud qualification cycles give server CPU share gains persistence.
+2. **AI GPU moat:** still much weaker than NVIDIA's; the ROCm / CUDA ecosystem gap remains the biggest constraint. AMD's opening comes from multi-vendor sourcing, price/performance windows, and customized platform partnerships.
+3. **System-level moat:** Helios, MI450/MI455X, 6th Gen EPYC Venice, advanced packaging, and regional supply-chain investments show AMD trying to move from "chip substitute" to "second AI infrastructure platform."
+
+AMD analysis therefore cannot be reduced to the AI GPU line alone. The AI narrative drives valuation elasticity, but EPYC, Client, Embedded, and the Xilinx assets determine whether AMD has enough cash flow and customer depth to move through an AI investment cycle.
 
 ---
 
@@ -122,7 +147,29 @@ AMD's financial health is much stronger than in older AMD cycles. The issue is n
 
 ---
 
-## 4. Bull Case
+## 4. Management and Execution Quality
+
+Lisa Su has served as AMD's CEO since 2014 and led the company from a fragile balance-sheet, product-disadvantaged cyclical semiconductor business into the main x86 server CPU challenger and a credible second-tier AI accelerator platform. Zen, the EPYC roadmap, the Xilinx acquisition, chiplet strategy, and the data center product cadence are the clearest evidence of management execution quality.
+
+Current management strengths:
+
+1. **Roadmap continuity:** CPU and GPU product cadence has avoided major disruptive gaps, and EPYC/Ryzen have already shown multiple cycles of execution.
+2. **Mostly rational capital allocation:** Xilinx expanded AMD's Embedded / FPGA / adaptive computing footprint. The integration cycle is long, but it improves portfolio resilience.
+3. **Relatively disciplined communication:** AMD generally avoids the kind of aggressive far-future extrapolation common in early-stage growth software stories, which matters in a volatile semiconductor cycle.
+4. **Large-customer programs are entering the proof phase:** Meta 6GW, Helios, MI450, and Taiwan/UK ecosystem investments require management to prove system-level delivery in 2026-2027.
+
+Management risks to monitor:
+
+- Dilution from stock compensation and potential Meta warrant milestones.
+- Whether AI platform investment compresses near-term margins.
+- Whether ROCm ecosystem catch-up takes longer than the market expects.
+- If AI capex slows, whether management can adjust inventory, supply commitments, and cost structure quickly enough.
+
+Overall, AMD's management remains high quality within semiconductors, but the current valuation already embeds a meaningful "Lisa Su premium." The next evidence the market needs is not historical reputation, but quarterly proof from Meta/Helios, MI450, EPYC Venice, and ROCm.
+
+---
+
+## 5. Bull Case
 
 The bull case is not that AMD is cheap. It is that AMD can evolve from NVIDIA's secondary alternative into a durable second AI infrastructure platform.
 
@@ -138,7 +185,7 @@ If those conditions hold together, AMD could reach a higher revenue tier in 2027
 
 ---
 
-## 5. Bear Case
+## 6. Bear Case
 
 The bear case is also not that AMD is a bad company. It is that the current price requires near-perfect execution while NVIDIA's ecosystem and scale advantage remain very hard to break.
 
@@ -153,9 +200,9 @@ Main risks:
 
 ---
 
-## 6. Valuation Rerun
+## 7. Valuation Rerun
 
-### 6.1 Current Valuation
+### 7.1 Current Valuation
 
 | Metric | Current read |
 |--------|--------------|
@@ -167,7 +214,7 @@ Main risks:
 | Q1 annualized non-GAAP P/E | About **98x** |
 | FCF yield | About **1.2%** using annualized Q1 FCF |
 
-### 6.2 Scenario Framework, Not a Price Target
+### 7.2 Scenario Framework, Not a Price Target
 
 The following is a reverse-engineering framework, not investment advice or a formal price target.
 
@@ -179,7 +226,7 @@ The following is a reverse-engineering framework, not investment advice or a for
 
 **Interpretation:** The current $537.37 price is already near the lower end of the bull case, not the middle of the base case. Liking AMD as a company and liking the current risk/reward are now two separate conclusions.
 
-### 6.3 Treatment of Old Valuation Ranges
+### 7.3 Treatment of Old Valuation Ranges
 
 | Old method | Old range | Current treatment |
 |------------|-----------|-------------------|
@@ -191,7 +238,7 @@ The following is a reverse-engineering framework, not investment advice or a for
 
 ---
 
-## 7. Catalysts and Monitoring Checklist
+## 8. Catalysts and Monitoring Checklist
 
 Over the next 12-18 months, delivery quality matters more than headline count:
 
@@ -205,7 +252,7 @@ Over the next 12-18 months, delivery quality matters more than headline count:
 
 ---
 
-## 8. Conclusion
+## 9. Conclusion
 
 **Current conclusion:** AMD's company quality and strategic position are stronger than in the February report. But the stock has also moved from "high-valuation growth stock" to "extremely high-expectation pricing." The full rerun changes the report's core stance from "cautiously bullish" to a high-expectation monitoring framework.
 

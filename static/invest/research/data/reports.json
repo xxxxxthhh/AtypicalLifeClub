@@ -322,13 +322,51 @@
     ]
   },
   {
-    "id": "amd-2026",
+    "id": "amd-2026-pre-rerun",
     "company": "AMD",
     "ticker": "NASDAQ: AMD",
     "period": "2026H1",
     "versionType": "incremental",
-    "versionLabel": "2026-06-22 Full Rerun Update",
+    "versionLabel": "2026H1 Pre-rerun Baseline",
+    "isCurrent": false,
+    "title": "AMD 深度研究报告 - 2026H1 重跑前版本",
+    "titleEn": "AMD Deep Research Report - 2026H1 Pre-rerun Version",
+    "summary": "归档的2026H1重跑前基线版本，保留更完整的业务概览、行业竞争、管理层、牛熊论点和旧估值框架，用于审计与对照。",
+    "tags": ["半导体", "AI加速器", "数据中心", "CPU/GPU"],
+    "category": "tech",
+    "date": "2026-02-04",
+    "lastUpdate": "2026-06-22",
+    "file": "/invest/research/reports/view.html?id=amd-2026-pre-rerun",
+    "markdownFiles": {
+      "zh": "/invest/research/AMD_深度研究报告_2026-02_pre_rerun.md",
+      "en": "/invest/research/AMD_Deep_Research_Report_2026-02_pre_rerun.md"
+    },
+    "highlights": [
+      "保留重跑前更完整的业务、竞争、管理层与估值框架",
+      "包含2026-06-21客户口径修正与2026-06-22估值敏感更新",
+      "作为当前完整重跑版本的唯一对照基线"
+    ]
+  },
+  {
+    "id": "amd-2026",
+    "company": "AMD",
+    "ticker": "NASDAQ: AMD",
+    "period": "2026H1",
+    "versionType": "full-cycle",
+    "versionLabel": "2026H1 Full Rerun",
     "isCurrent": true,
+    "supersedes": "amd-2026-pre-rerun",
+    "diffBase": "amd-2026-pre-rerun",
+    "previousAnnualReport": {
+      "id": "amd-2026-pre-rerun",
+      "label": "2026H1 重跑前版本",
+      "labelEn": "2026H1 Pre-rerun Version",
+      "file": "/invest/research/reports/view.html?id=amd-2026-pre-rerun",
+      "date": "2026-02-04",
+      "lastUpdate": "2026-06-22",
+      "summary": "保留重跑前更完整的业务概览、行业竞争、管理层、牛熊论点和旧估值框架，作为本次完整重跑的对照基线。",
+      "summaryEn": "Preserves the fuller pre-rerun business overview, industry and competitive analysis, management assessment, bull/bear case, and old valuation framework as the comparison baseline for this full rerun."
+    },
     "title": "AMD 深度研究报告 - AI时代的半导体挑战者",
     "titleEn": "AMD Deep Research Report - AI Era Semiconductor Challenger",
     "summary": "2026-06-22完整重跑版：AMD Q1 2026营收$102.53亿（+38% YoY），Data Center收入约$58亿（+57% YoY），Meta 6GW与Helios/MI450强化AI基础设施平台叙事；但股价约$537、市值约$8,870亿，EV/TTM Sales约23.4x，当前结论调整为中性/观察：基本面强，估值容错极低。",
