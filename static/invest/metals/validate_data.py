@@ -5,6 +5,7 @@ Validate metals data file shape and basic integrity constraints.
 """
 
 import json
+import math
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -29,7 +30,7 @@ def parse_date(value, field_name):
 
 
 def assert_numeric(value, field_name):
-    if not isinstance(value, (int, float)):
+    if not isinstance(value, (int, float)) or not math.isfinite(value):
         fail(f"{field_name} 不是数字: {value}")
 
 
