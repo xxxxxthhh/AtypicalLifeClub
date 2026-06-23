@@ -1,449 +1,198 @@
 # Oklo Inc. (NYSE: OKLO) Deep Research Report
 
 Coverage date: 2026-02-10
-Last updated: 2026-02-10
+Last updated: 2026-06-23
 Ticker: NYSE: OKLO
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
-## ⚡ Update — February 16, 2026
+## 2026H1 Full Rerun Summary
 
-**Stock Price:** $65.69 (down ~7.5% from $71 at initial report date)
+This report is the full rerun successor to `oklo-2026-pre-rerun`; the archived baseline is available at `/invest/research/reports/view.html?id=oklo-2026-pre-rerun`.
 
-### Key Developments This Week
+**One-line thesis:** Oklo is one of the most imaginative plays in advanced nuclear — ~$1.2B cash, a 14.7GW+ pipeline, and marquee customers like Meta and Switch — but as a zero-revenue, pre-commercial company its ~$10B market cap is built entirely on a 5-10 year vision. The current framework must focus on regulation, first-reactor execution, fuel, customer conversion, and cash runway rather than conventional revenue multiples.
 
-1. **Meta Partnership Formalized as Binding Agreement:** The Oklo-Meta 1.2GW nuclear campus deal has been confirmed as a binding agreement. The campus will be located on 206 acres in Pike County, Ohio (former DOE land). Meta will provide prepayments and upfront funding for early development and nuclear fuel procurement. Pre-construction and site characterization to begin in 2026, first phase online ~2030, full 1.2GW by 2034. This is a significant de-risking event — moving from a cooperation agreement to a binding commitment with capital backing from Meta.
+**Current view:** Neutral / high-volatility watchlist. Nasdaq quote data showed OKLO at roughly **$58.40** on June 22, 2026, with market capitalization around **$10.15B** and a 52-week range of about $44.88-$193.84. The stock is below the February update price of $65.69 and far below its 2025 high, but it still embeds a large commercialization option for a company with no commercial revenue.
 
-2. **Analyst Activity:**
-   - Goldman Sachs lowered price target from $106 → $91 (Neutral)
-   - Texas Capital Securities initiated coverage with Buy / $138 PT (Jan 28)
-   - Bank of America raised PT to $127 (Jan 21)
-   - Consensus PT: ~$112.69 across 19 analysts (range: $44–$175)
+**Changes vs the February report:**
 
-3. **Insider Selling:** CFO Richard Craig Bealmear sold 9,726 shares for ~$748K in early February, reducing his position by 4.71%.
+| Item | February baseline | This rerun (2026-06-22) |
+|------|-------------------|--------------------------|
+| Price anchor (old → now) | ~$65.69 (Feb 16 update) | $58.40 |
+| Market cap (old → now) | ~$10.2B | ~$10.15B |
+| Valuation anchor | probability-weighted ~$65-85; price ≈ fair | watchlist, no current target-price call |
+| Thesis emphasis | pipeline + marquee customers | critical-path execution (NRC, first reactor, fuel, financeable contracts) |
+| Unchanged | $0 revenue, NRC license still pending, ~$1.2B cash framework, most pipeline non-binding, ongoing ATM dilution | same |
 
-4. **Stock Decline Context:** OKLO has fallen >30% from its 52-week high of ~$194 (Oct 2025). The pullback reflects broader re-rating of pre-revenue nuclear names on execution timeline concerns, despite the Meta deal strengthening the commercial pipeline.
-
-### Thesis Impact
-
-No material change to investment thesis. The Meta binding agreement is incrementally positive (reduces commercial risk), but the stock decline reflects the market pricing in longer timelines and execution uncertainty. The core tension remains: exceptional pipeline vs. zero revenue and 2-4 year wait for first commercial operations.
-
----
-
-## Executive Summary
-
-**One-Line Thesis:** Oklo is one of the most imaginative plays in the advanced nuclear space, with $1.2B in cash, a 14.7GW+ project pipeline, and marquee customers like Meta, but as a zero-revenue pre-commercial company, its ~$10.2B market cap is built entirely on faith in a 5-10 year vision.
-
-**Investment Verdict:**
-- Neutral | Conviction Level: Low (extremely high uncertainty)
-- Key Catalyst: NRC license approval + Idaho first reactor progress + Meta Ohio project launch
+**Data framing:** The quantitative detail below carries the FY2025 / Q3 2025 fact base established in the February research (and its Feb 16 update); the price and market-cap anchor is updated to June 22, 2026. Figures dated FY2024/2025 or to specific quarters are the reported baseline, not new H1 2026 actuals, and should be refreshed when Oklo reports subsequent quarters.
 
 **Quick Stats:**
 
 | Metric | Value |
 |--------|-------|
-| Price (2026/2/16) | ~$65.69 |
-| Market Cap | ~$10.2B |
+| Price (2026-06-22) | ~$58.40 |
+| Market Cap (2026-06-22) | ~$10.15B |
+| 52-Week Range | $44.88 - $193.84 |
+| February Update Price | $65.69 (Feb 16) |
 | Revenue | $0 (pre-commercial) |
 | Cash & Marketable Securities | ~$1.2B (Q3 2025) |
-| Annual Operating Loss | ~$100-120M (2025E) |
+| Annual Operating Cash Burn | ~$65-80M (2025 guidance) |
 | Project Pipeline | 14.7GW+ (incl. Switch 12GW) |
 | First Reactor Target | Late 2027 - Early 2028 |
-| 52-Week Range | $17.42 - $193.84 |
-| Shares Outstanding | ~150-156M |
-
----
+| 2025 ATM Equity Raised | ~$540M (dilutive) |
+| Debt | $0 |
 
 ## 1. Business Overview
 
-### Company Profile
+Oklo Inc. was founded in 2013, is headquartered in San Jose, and went public on the NYSE in 2024 via a SPAC merger with AltC Acquisition Corp. (backed by Sam Altman). It designs small advanced fission powerhouses to provide long-duration, low-carbon baseload electricity to data centers, industrial users, and government-linked sites. The model is closer to owning or project-financing plants and selling power than to selling equipment.
 
-Oklo Inc. was founded in 2013 and is headquartered in San Jose, California. It is an advanced nuclear fission technology company co-founded by Jacob DeWitte (CEO) and Caroline Cochran (COO). The company went public on the NYSE in 2024 through a SPAC merger with AltC Acquisition Corp., backed by Sam Altman.
+**Core technology — Aurora Powerhouse (sodium-cooled fast reactor):**
 
-### Core Technology: Aurora Powerhouse
+- Power range: 15-50 MWe (modular, scalable)
+- Fuel: High-Assay Low-Enriched Uranium (HALEU) metallic fuel
+- Design life: 20+ years without refueling; liquid-sodium coolant (non-water-cooled)
+- Footprint ~1 acre; target construction 2-3 years (vs 10-15 years for traditional nuclear)
 
-Aurora is Oklo's flagship product — a sodium-cooled fast neutron reactor:
-- **Power Range:** 15-50 MWe (modular, scalable design)
-- **Fuel Type:** High-Assay Low-Enriched Uranium (HALEU) metallic fuel
-- **Design Life:** 20+ years without refueling
-- **Coolant:** Liquid sodium (non-water-cooled, enhanced safety)
-- **Footprint:** Approximately one acre
-- **Construction Timeline:** Target 2-3 years (far below traditional nuclear's 10-15 years)
+**Business model — "Power-as-a-Service":** Oklo does not sell reactors; it signs 20+ year Power Purchase Agreements (PPAs), builds, operates, and maintains the plants, and bills customers per unit of electricity. Target customers are data centers, industrial users, military bases, and remote communities.
 
-### Business Model
+**Fuel recycling — differentiated option:** Oklo is building the first U.S. nuclear fuel recycling facility in Tennessee, which would convert spent fuel into new fuel and lower long-term fuel cost. It received a $19M DOE R&D grant in February 2026, and subsidiary Atomic Alchemy handles radioisotope production. If it works, the result is a "generate-recycle-regenerate" closed loop. Before first reactor operation, however, financial statements cannot validate unit economics — investors are buying an execution option.
 
-Oklo employs a "Power-as-a-Service" model:
-- Does not sell reactors; signs long-term Power Purchase Agreements (PPAs)
-- Customers pay per unit of electricity consumed, similar to a utility model
-- Oklo handles construction, operation, and maintenance
-- Contract terms typically 20+ years
-- Target customers: data centers, industrial users, military bases, remote communities
+## 2. Industry & Competition
 
-### Fuel Recycling: Differentiated Advantage
+AI data centers have revived demand for firm, low-carbon power; global AI data-center power demand is expected to grow ~3-5x by 2030. Nuclear is one of the few options for 24/7 zero-carbon baseload at scale and can solve intermittency and grid-connection constraints that renewables alone cannot. Meta, Google, Amazon, and Microsoft are all actively pursuing nuclear.
 
-Oklo is building the first U.S. nuclear fuel recycling facility in Tennessee:
-- Converts spent fuel into new fuel, reducing long-term fuel costs
-- Received $19M DOE R&D grant in February 2026
-- Subsidiary Atomic Alchemy handles radioisotope production
-- If successful, creates a "generate-recycle-regenerate" closed loop
+Oklo's differentiation is its fast-reactor design, fuel-recycling narrative, high-profile customer interest, and public-market visibility — but the winning evidence will be NRC approval and reliable first-plant operation.
 
----
+**SMR/advanced-reactor competitive landscape:**
 
-## 2. Project Pipeline & Customers
+| Company | Technology | NRC Status | First Reactor Est. | Key Customer |
+|---------|-----------|------------|--------------------|--------------|
+| **Oklo** | Sodium-cooled fast | COL application pending | 2027-2028 | Meta, Switch |
+| NuScale | Light-water SMR | Design certified | 2029-2030 | UAMPS (cancelled) |
+| TerraPower | Sodium-cooled fast | Construction permit pending | 2030 | PacifiCorp |
+| Kairos Power | Fluoride salt-cooled | Construction permit pending | 2027 | Google |
+| X-energy | High-temp gas-cooled | Design review | 2030 | Dow Chemical |
 
-### Pipeline Overview
+NuScale (the only SMR with a certified design) carries a market cap of only ~$4B, which frames how much "success premium" is embedded in Oklo's valuation. Traditional nuclear majors (Westinghouse, GE Hitachi) are also entering the SMR market.
 
-Oklo's project pipeline has grown from 700MW in July 2023 to 14.7GW+:
+## 3. Financial Health
 
-| Customer | Scale | Type | Status |
-|----------|-------|------|--------|
-| **Switch** | 12 GW | Non-binding Master Agreement | Phased deployment over decades |
-| **Meta** | 1.2 GW | Cooperation Agreement | Pre-construction starting 2026, first phase 2030 |
-| **Equinix** | 500 MW | Pre-agreement | Early stage |
-| **Unnamed Data Centers** | 750 MW | LOI | Two major providers |
-| **Prometheus Hyperscale** | 100 MW | LOI | Data centers |
-| **Diamondback Energy** | 50 MW | LOI | Oil & gas operations |
-| **Idaho First Reactor** | 15-50 MW | DOE Reactor Pilot | Broke ground Sep 2025, target 2027-2028 |
+Oklo's financial health is about cash runway and financing capacity, not income-statement profitability. The February ~$1.2B cash framework suggests no near-term survival issue, but construction-stage projects can absorb capital rapidly.
 
-### Key Project Details
-
-**1. Idaho National Laboratory First Reactor (Most Critical)**
-- Broke ground September 2025
-- Selected for DOE Reactor Pilot Program (RPP)
-- Target: achieve criticality by July 4, 2026 (DOE goal)
-- First commercial Aurora powerhouse
-- Signed power conversion system contract with Siemens Energy
-
-**2. Meta Ohio Nuclear Campus**
-- Located in Pike County, Ohio, 206 acres
-- 1.2 GW total capacity, phased construction
-- Meta providing funding and prepaying for power
-- Pre-construction and site characterization starting 2026
-- First phase operational by 2030, full capacity by 2034
-- Powers Meta's AI supercluster in New Albany
-
-**3. Switch 12GW Agreement**
-- One of the largest corporate clean energy agreements in history
-- Non-binding, phased deployment
-- Multi-decade timeframe
-- Demonstrates massive data center demand for nuclear
-
----
-
-## 3. Regulatory Progress
-
-### NRC Approval Timeline
-
-| Date | Milestone | Status |
-|------|-----------|--------|
-| 2020 | First license application submitted | ❌ Rejected by NRC (insufficient information) |
-| 2024 | Resubmitted Combined License (COL) application | ✅ Submitted |
-| Jul 2025 | Completed NRC pre-application readiness assessment | ✅ Passed |
-| Sep 2025 | NRC accepted Principal Design Criteria (PDC) for accelerated review | ✅ In progress |
-| Early 2026 | PDC draft evaluation expected | ⏳ Pending |
-| 2026-2027 | Combined license approval | ⏳ Critical milestone |
-
-### Regulatory Risk Assessment
-
-- NRC's framework for advanced reactors is still evolving
-- Oklo's 2020 rejection is a significant precedent
-- Accelerated review track is positive but doesn't guarantee approval
-- DOE Reactor Pilot Program may help streamline NRC process
-- Industry-wide HALEU fuel supply bottleneck
-
----
-
-## 4. Financial Analysis
-
-### Financial Status
+**Financial status (February baseline):**
 
 | Metric | Q3 2025 | Q2 2025 | Q4 2024 | Trend |
 |--------|---------|---------|---------|-------|
 | Revenue | $0 | $0 | $0 | — |
-| Operating Loss | $36.3M | $28.0M | $17.8M | ↑ Losses expanding |
-| Cash & Securities | $1.2B | $683M | $275M | ↑ Significantly increased |
-| Total Assets | $1.246B | $731M | ~$300M | ↑ |
+| Operating Loss | $36.3M | $28.0M | $17.8M | Losses expanding |
+| Cash & Securities | $1.2B | $683M | $275M | Sharply higher |
+| Total Assets | $1.246B | $731M | ~$300M | Up |
 | Total Liabilities | $40.6M | — | — | Very low |
 | Debt | $0 | $0 | $0 | Zero debt |
 
-### Cash Runway Analysis
+**Cash runway:** at ~$1.2B cash and 2025 guided operating cash burn of $65-80M, the theoretical runway is long, but CapEx will rise materially as the Idaho and Meta Ohio projects advance, and Oklo raised ~$540M via ATM equity in 2025 (dilutive). No near-term funding pressure, but additional financing is likely before commercialization.
 
-- **Current Cash:** ~$1.2B (Q3 2025)
-- **Annual Operating Cash Burn:** $65-80M (2025 guidance)
-- **Theoretical Runway:** 15-18 years (at current burn rate)
-- **Practical Consideration:** CapEx will increase significantly as Idaho and Meta Ohio projects advance
-- **Funding Method:** Raised ~$540M through ATM equity sales in 2025 (dilutive)
-- **Conclusion:** No near-term funding pressure, but additional financing likely before commercialization
+**Caliber note:** the "15+ year theoretical runway" implied by current burn is misleading on its own — it uses pre-construction operating burn, not project CapEx. Operating loss is also expanding QoQ (Q2 $28M → Q3 $36.3M). These are company-disclosed, February-baseline figures; the real runway depends on construction spend and should be recomputed once project CapEx is reported.
 
-### Red Flag Checklist
+**Red-flag check:** zero revenue / pure cash-burn stage, expanding operating losses, and ongoing ATM dilution are confirmed watch items; most of the pipeline is non-binding (LOI/MPA). Offsetting positives: zero debt, ~$1.2B cash, and transparent burn guidance.
 
-- ⚠️ Zero revenue, pure cash-burn stage
-- ⚠️ Operating losses expanding quarter-over-quarter (Q2 $28M → Q3 $36M)
-- ⚠️ $540M ATM financing in 2025, ongoing shareholder dilution
-- ⚠️ Most pipeline consists of non-binding agreements (LOI/MPA)
-- ✅ Zero debt, clean balance sheet
-- ✅ Ample cash reserves ($1.2B)
-- ✅ Management cash burn guidance is transparent
+## 4. Management & Governance
 
----
+**Leadership:** Jacob DeWitte (CEO/co-founder, MIT nuclear PhD, ex-Argonne); Caroline Cochran (COO/co-founder, MIT nuclear MS); Sam Altman (board member/early investor) lends credibility. Management must coordinate nuclear engineering, regulation, fuel, project finance, and enterprise sales — and the governance risk is that market narrative outruns engineering reality.
 
-## 5. Management Assessment
+**Scorecard:** technical background A; execution B- (the 2020 NRC rejection was a real setback; progress since resubmission is positive but the license is not yet secured); fundraising A (SPAC listing, ~$540M ATM, Meta and other top-tier customers); shareholder alignment B (ATM dilution offset by meaningful insider ownership). **Overall management grade: B+.** The board and executives must convert customer frameworks into licensing, fuel, and financing milestones.
 
-### Leadership Team
+## 5. Bull Case / Upside
 
-- **Jacob DeWitte** (CEO/Co-founder): MIT nuclear engineering PhD, former Argonne National Laboratory
-- **Caroline Cochran** (COO/Co-founder): MIT nuclear engineering MS, operations and regulatory
-- **Sam Altman** (Board member/Early investor): OpenAI CEO, supported Oklo's SPAC listing
+**Core thesis:** Oklo is at the front of an AI-driven nuclear renaissance; a 14.7GW pipeline and marquee customers validate demand, and once the first reactor operates successfully, exponential growth can begin. A single successful plant could reprice the entire pipeline.
 
-### Evaluation
+**Supporting evidence:**
 
-**Technical Background: A**
-- Founding team has solid nuclear engineering academic and research credentials
-- Deep relationships with DOE and national laboratories
+1. **Structural AI power demand:** AI data-center power demand expected to grow 3-5x by 2030; nuclear is the only 24/7 zero-carbon large-scale baseload option; Meta 1.2GW and Switch 12GW frameworks show demand is real.
+2. **First-mover regulatory position:** first to receive a DOE site-use permit for a commercial advanced-fission plant, first to submit a custom advanced-fission combined license to the NRC, and selected for the DOE Reactor Pilot Program; once approval is secured, followers need years to catch up.
+3. **Fuel recycling differentiation:** the first U.S. fuel recycling facility (Tennessee), radioisotope production via Atomic Alchemy, and ongoing DOE funding ($19M, Feb 2026).
+4. **Ample cash, long runway:** ~$1.2B cash, zero debt, plus Meta prepayments for early development and fuel procurement.
+5. **Bullish analyst stance (February frame):** consensus Buy; targets concentrated around $103-122; Bank of America $127 and Canaccord $175 at the high end.
 
-**Execution: B-**
-- 2020 NRC rejection was a significant setback
-- Progress since resubmission has been positive but final license not yet secured
-- Idaho first reactor on track
+**Key assumptions:** NRC approves the combined license in 2026-2027; the Idaho first reactor is operational by 2027-2028; HALEU fuel supply issues are resolved.
 
-**Fundraising Ability: A**
-- Successfully listed via SPAC
-- Raised $540M through ATM in 2025
-- Attracted Meta and other top-tier customers
+**Upside scenario:** first-reactor success + NRC approval + pipeline conversion >30% could push 2030 revenue toward the hundreds of millions and roughly double the market cap toward $20-25B.
 
-**Shareholder Alignment: B**
-- ATM financing continuously dilutes shareholders
-- But management maintains significant ownership
-- Sam Altman's endorsement adds credibility
+## 6. Bear Case / Downside Risk
 
-**Overall Management Grade: B+**
+**Core thesis:** Oklo is an ~$10B "PowerPoint company" — zero revenue, zero operating reactors, zero commercial validation — and nuclear history is littered with delays, cost overruns, and failures.
 
----
+**Supporting evidence:**
 
-## 6. Bull Case 🐂
+1. **Valuation embeds success:** ~$10B market cap on zero revenue; even an optimistic 2030 revenue forecast ($500M-1B) implies extreme growth expectations; NuScale (design-certified) is only ~$4B; the stock essentially pays a "success premium" for unproven technology.
+2. **Technology/execution risk:** Aurora has never run commercially; the 2020 NRC rejection exposed maturity gaps; sodium-cooled fast reactors have historical failures (Japan's Monju, France's Superphénix); the lab-to-commercial "valley of death" is real.
+3. **Inflated pipeline:** 12GW of the 14.7GW comes from a single non-binding Switch agreement; LOI ≠ contract ≠ revenue; binding contract value is small and conversion may be far below expectations.
+4. **Ongoing dilution:** ~$540M ATM in 2025 plus large future CapEx; if the stock falls, financing gets more expensive — a potential vicious cycle.
+5. **Regulatory and fuel risk:** the NRC advanced-reactor framework is still evolving, timelines may slip, and HALEU supply has geopolitical dependencies.
+6. **Intensifying competition:** NuScale (design certified), TerraPower (Gates-backed Natrium in Wyoming), Kairos (DOE-funded, Google), X-energy, and traditional majors.
 
-**Core Thesis:** Oklo is at the forefront of the AI-driven nuclear renaissance, with a 14.7GW pipeline and marquee customers validating demand. Once the first reactor operates successfully, exponential growth begins.
+**Downside scenario:** NRC delays + first-reactor cost overruns + pipeline conversion <10% could shrink the market cap toward $3-5B.
 
-**Supporting Evidence:**
+## 7. Key Uncertainties and Thesis-Breaking Conditions
 
-**1. AI Data Center Nuclear Demand Is Structural**
-- Global AI data center power demand expected to grow 3-5x by 2030
-- Nuclear is the only option for 24/7 stable, zero-carbon, large-scale baseload power
-- Meta, Google, Amazon, Microsoft all actively pursuing nuclear
-- Meta 1.2GW and Switch 12GW contracts prove demand is real
+**What we don't know:** whether Aurora operates as planned (known 2027-2028 at Idaho commissioning); whether the NRC ultimately approves the combined license (2026-2027); real construction cost and timeline; pipeline conversion rate (2026-2028); and HALEU fuel-supply security.
 
-**2. First-Mover Advantage and Regulatory Moat**
-- First company to receive DOE site use permit for commercial advanced fission plant
-- First to submit custom combined license application for advanced fission to NRC
-- Selected for DOE Reactor Pilot Program
-- Once regulatory approval is secured, followers need years to catch up
+**Thesis-breaking conditions:** a second NRC rejection severely damages the bull case; an on-time, on-budget Idaho first reactor sharply weakens the bear case; and a Meta cancellation or major reduction of the Ohio project would call pipeline credibility into question.
 
-**3. Fuel Recycling Is Unique Differentiation**
-- First U.S. nuclear fuel recycling facility (Tennessee)
-- Reduces long-term fuel costs, creates closed loop
-- Radioisotope production (Atomic Alchemy) provides additional revenue stream
-- Ongoing DOE funding ($19M in February 2026)
+## 8. Valuation
 
-**4. Ample Cash, Long Runway**
-- $1.2B cash, zero debt
-- 15+ years runway at current burn rate
-- Meta prepaying for power provides additional funding
+At roughly **$58.40** per share and **$10.15B** market cap, OKLO cannot be valued through P/E or EV/Sales. The right frame is probability-weighted project NAV, discounting each GW of pipeline for licensing probability, capital cost, financing cost, power price, and timing.
 
-**5. Analyst Consensus Is Bullish**
-- Consensus rating: Buy
-- Average target: $103-122 (+45-72% upside)
-- Bank of America target $127, Canaccord Genuity target $175
-
-**Key Assumptions:**
-- NRC approves combined license in 2026-2027
-- Idaho first reactor operational by 2027-2028
-- HALEU fuel supply issues resolved
-
-**Upside Scenario:** First reactor success + NRC approval + pipeline conversion >30%, 2030 revenue could reach hundreds of millions, market cap could double to $20-25B.
-
----
-
-## 7. Bear Case 🐻
-
-**Core Thesis:** Oklo is an $11.7B "PowerPoint company" — zero revenue, zero operating reactors, zero commercial validation. The valuation is built entirely on a 5-10 year vision, and nuclear project history is littered with delays, cost overruns, and failures.
-
-**Supporting Evidence:**
-
-**1. Valuation Is Absurd**
-- $11.7B market cap with zero revenue
-- Even under the most optimistic 2030 revenue forecast ($500M-1B), current valuation implies extreme growth expectations
-- Comparison: NuScale (only SMR with NRC design certification) has market cap of only ~$4B
-- Price/Book ~9-10x, far above industry average of 1.9x
-- Essentially paying a "success premium" for unproven technology
-
-**2. Technology and Execution Risk Is Extreme**
-- Aurora reactor has never operated in a commercial environment
-- 2020 NRC rejection exposed technology maturity gaps
-- Sodium-cooled fast reactors have multiple historical failures (Japan's Monju, France's Superphénix)
-- "Valley of death" risk from lab to commercialization
-- Construction costs and timelines may significantly exceed expectations
-
-**3. Pipeline Is Heavily "Inflated"**
-- 12GW of 14.7GW pipeline comes from a single non-binding Switch agreement
-- Non-binding = customer can walk away at any time
-- LOI (Letter of Intent) ≠ Contract ≠ Revenue
-- Actual binding contract value is minimal
-- Pipeline conversion rate may be far below market expectations
-
-**4. Ongoing Dilution**
-- $540M ATM financing in 2025, diluting shareholders ~20-30%
-- Significant additional CapEx needed before commercialization
-- Each financing round dilutes existing shareholders
-- If stock price drops, financing becomes more expensive, creating a vicious cycle
-
-**5. Regulatory Uncertainty**
-- NRC's advanced reactor approval framework still evolving
-- Approval timeline may be much longer than expected
-- Political environment changes could affect nuclear policy
-- HALEU fuel supply depends on Russia (geopolitical risk)
-
-**6. Competition Intensifying**
-- NuScale already has NRC design certification (Oklo does not)
-- TerraPower (Bill Gates-backed) building Natrium reactor in Wyoming
-- Kairos Power receiving substantial DOE funding
-- X-energy, Terrestrial Energy also advancing
-- Large traditional nuclear companies (Westinghouse, GE Hitachi) entering SMR market
-
-**Downside Scenario:** NRC delays + first reactor cost overruns + pipeline conversion <10%, market cap could shrink to $3-5B (-60~75%).
-
----
-
-## 8. Key Uncertainties
-
-### ❓ What We Don't Know
-
-**1. Can the Aurora Reactor Operate as Planned?**
-- Why it matters: Foundation of the entire investment thesis
-- When we'll know: 2027-2028 Idaho first reactor commissioning
-
-**2. Will NRC Ultimately Approve the Combined License?**
-- Why it matters: No license = no commercial operations
-- When we'll know: 2026-2027
-
-**3. Real Construction Cost and Timeline Data**
-- Why it matters: Nuclear projects historically run over budget and schedule
-- When we'll know: After Idaho first reactor completion
-
-**4. Pipeline Conversion Rate**
-- Why it matters: How much of 14.7GW becomes real contracts and revenue?
-- When we'll know: 2026-2028
-
-**5. HALEU Fuel Supply Chain**
-- Why it matters: Aurora requires HALEU fuel, currently in limited supply
-- When we'll know: 2026-2027 (DOE fuel program progress)
-
-### Thesis-Breaking Events
-
-- If NRC rejects license application again → Bull case severely damaged
-- If Idaho first reactor operates on time and on budget → Bear case significantly weakened
-- If Meta cancels or significantly reduces Ohio project → Pipeline credibility questioned
-
----
-
-## 9. Valuation Context
-
-Traditional valuation methods are nearly inapplicable to Oklo (zero revenue, zero profit). Scenario analysis only:
+**Scenario analysis (2030 outlook):**
 
 | Scenario | Est. 2030 Revenue | Implied Market Cap | Implied Price | Probability |
-|----------|-------------------|-------------------|---------------|-------------|
-| Extremely Bullish | $1B+ | $30-40B | $200-260 | 10% |
+|----------|-------------------|--------------------|---------------|-------------|
+| Extremely bullish | $1B+ | $30-40B | $200-260 | 10% |
 | Bullish | $300-500M | $15-20B | $100-130 | 20% |
 | Base | $100-200M | $8-12B | $50-80 | 35% |
 | Conservative | <$50M | $3-5B | $20-33 | 25% |
 | Failure | $0 | $0.5-1B | $3-7 | 10% |
 
-**Probability-Weighted Valuation:** ~$65-85/share
-**Current Price:** ~$71
-**Conclusion:** Current price roughly within probability-weighted fair value range
+The February probability-weighted central estimate was ~$65-85 (old/historical anchor), against which the current ~$58.40 now sits slightly below the base-case band — consistent with the market pricing longer timelines and execution uncertainty. The February analyst frame was a consensus target around $103-122 (range $14-175), which should be re-derived as licensing and first-reactor evidence arrives. Today's conclusion is simpler than a point target: upside comes from first-reactor and customer-conversion proof; downside comes from any delay in the critical path.
 
-**Analyst Consensus:**
-- Average target: $103-122
-- Range: $14-175
-- Consensus rating: Buy
+## 9. Catalysts & Monitoring
 
-⚠️ Valuation is highly uncertain; for reference only.
+**Near-term (0-6 months):** NRC PDC draft evaluation; Idaho first-reactor construction updates and the DOE pilot-program 2026 criticality target; Meta Ohio pre-construction launch; quarterly cash-burn and pipeline updates; the $19M DOE fuel-recycling grant (Feb 2026).
 
----
+**Medium-term (6-18 months):** NRC combined-license progress; whether the Idaho first reactor reaches criticality on schedule; HALEU supply-chain developments; new customer contracts; potential additional financing.
 
-## 10. Catalysts & Timeline
+**Long-term (18+ months):** Idaho first reactor commercial operation (2027-2028); Meta Ohio first phase (2030 target); fuel-recycling facility completion; the transition from "concept valuation" to "operating cash-flow valuation."
 
-### Near-Term (0-6 months)
-- 📅 NRC PDC draft evaluation release (early 2026)
-- 📅 Idaho first reactor construction progress updates
-- 📅 Meta Ohio pre-construction launch
-- 📅 Q4 2025 earnings (cash burn and pipeline updates)
-- ✅ DOE fuel recycling R&D grant $19M (February 2026)
+**Key monitoring metrics:** NRC licensing milestones; Idaho timing/cost/construction evidence; binding customer contracts and project-finance structures; fuel supply and policy support; quarterly cash burn and dilution.
 
-### Medium-Term (6-18 months)
-- NRC combined license approval progress
-- Whether Idaho first reactor achieves criticality on schedule
-- HALEU fuel supply chain developments
-- New customer contract signings
-- Potential additional financing
+## 10. Conclusion & Review
 
-### Long-Term (18+ months)
-- Idaho first reactor commercial operation (2027-2028)
-- Meta Ohio first phase operational (2030 target)
-- Fuel recycling facility completion
-- Transition from "concept valuation" to "operating cash flow valuation"
-- Potential industry consolidation
+Oklo's strategic story remains alive: ~$1.2B cash, a 14.7GW+ pipeline, marquee customers, and DOE support are all real, and Sam Altman's backing plus structural AI power demand add appeal. Viewed soberly, though, this is still a zero-revenue, zero-operating-reactor company whose valuation rests on a binary outcome — Aurora has never run commercially, the NRC license is unapproved, and most of the pipeline is non-binding.
 
----
+**Lean:** high-conviction, binary event-driven watchlist — not a current target-price call. For monitoring rather than allocation advice: this is not suitable for risk-averse investors; the critical watchpoints are NRC license progress, Idaho first-reactor construction pace, and cash burn; and any position should sit within a risk budget appropriate for a pre-revenue, potentially-50%+-drawdown asset rather than a fixed portfolio weight. **Confidence level: low** — outcome is highly binary (major success or major failure).
 
-## 11. Conclusion
+## 11. Appendix & Sources
 
-Oklo is the most talked-about and imaginative name in the advanced nuclear space. $1.2B in cash, a 14.7GW+ pipeline, marquee customers like Meta and Switch, ongoing DOE support — these are all real positives. Sam Altman's endorsement and the structural demand for nuclear power from AI data centers add further appeal.
+**Project pipeline (February baseline):**
 
-However, viewed soberly: this is a zero-revenue, zero-operating-reactor company with an $11.7B market cap. The Aurora reactor has never operated commercially, the NRC license hasn't been approved, and the vast majority of the 14.7GW pipeline consists of non-binding agreements. Nuclear project history is filled with delays, cost overruns, and failures.
+| Customer | Scale | Type | Status |
+|----------|-------|------|--------|
+| Switch | 12 GW | Non-binding Master Agreement | Phased over decades |
+| Meta | 1.2 GW | Binding agreement (Feb 2026) | Pre-construction 2026, first phase ~2030 |
+| Equinix | 500 MW | Pre-agreement | Early stage |
+| Unnamed data centers | 750 MW | LOI | Two major providers |
+| Prometheus Hyperscale | 100 MW | LOI | Data centers |
+| Diamondback Energy | 50 MW | LOI | Oil & gas |
+| Idaho first reactor | 15-50 MW | DOE Reactor Pilot | Broke ground Sep 2025; target 2027-2028 |
 
-**Our View:**
-- Oklo is a "high-conviction" investment — you either believe in advanced nuclear's future or you don't
-- At ~$71, the stock is roughly at probability-weighted fair value
-- Not suitable for risk-averse investors
-- If investing, keep position size controlled (no more than 3-5% of portfolio) and prepare for potential 50%+ losses
-- Key watchpoints: NRC license progress, Idaho first reactor construction pace, cash burn rate
+**NRC timeline:** 2020 first application rejected (insufficient information); 2024 combined license (COL) resubmitted; Jul 2025 pre-application readiness assessment passed; Sep 2025 Principal Design Criteria accepted for accelerated review; early 2026 PDC draft evaluation; 2026-2027 COL approval (critical milestone).
 
-**Key Changes from Previous Report:**
-- Cash increased from $275M to $1.2B (ATM financing $540M+)
-- Pipeline grew from ~2.1GW to 14.7GW+ (Switch 12GW agreement)
-- Idaho first reactor broke ground
-- Meta Ohio project officially launched
-- Ongoing DOE grants and support
-- Stock price pulled back from $193 high to $71 (-63%)
+**Key assumptions:** NRC approves the COL in 2026-2027; Idaho first reactor operational 2027-2028; HALEU supply mitigated by 2026-2027; AI data-center power demand keeps growing; U.S. nuclear policy stays supportive.
 
-**Confidence Level: Low** — Extremely high uncertainty; outcome is highly binary (major success or major failure).
+**Sources:**
 
----
-
-## Appendix
-
-### Data Sources
-- Oklo Inc. Q2/Q3 2025 Earnings Reports
-- Oklo official press releases and investor presentations
-- NRC public filings
-- DOE announcements
-- Macrotrends, StockAnalysis, MarketBeat financial data
-- Seeking Alpha, Motley Fool analyst reports
-
-### SMR Competitor Comparison
-
-| Company | Technology | NRC Status | First Reactor Est. | Market Cap | Key Customer |
-|---------|-----------|------------|-------------------|------------|-------------|
-| **Oklo** | Sodium-cooled fast | COL application pending | 2027-2028 | ~$11.7B | Meta, Switch |
-| **NuScale** | Light-water SMR | ✅ Design certified | 2029-2030 | ~$4B | UAMPS (cancelled) |
-| **TerraPower** | Sodium-cooled fast | Construction permit pending | 2030 | Private | PacifiCorp |
-| **Kairos Power** | Fluoride salt-cooled | Construction permit pending | 2027 | Private | Google |
-| **X-energy** | High-temp gas-cooled | Design review | 2030 | ~$2B | Dow Chemical |
-
-### Key Assumptions
-- NRC approves Oklo combined license in 2026-2027
-- Idaho first reactor operational 2027-2028
-- HALEU fuel supply issues mitigated by 2026-2027
-- AI data center power demand continues growing
-- U.S. nuclear energy policy remains supportive
+- Archived baseline: `oklo-2026-pre-rerun`
+- Oklo Q2/Q3 2025 earnings, press releases, and investor presentations; NRC public filings; DOE announcements.
+- Nasdaq quote API: OKLO $58.40 and roughly $10.15B market cap on June 22, 2026.
+- IBD coverage of Oklo Q1 2026, fuel, and customer developments: `https://www.investors.com/news/oklo-earnings-q1-oklo-stock-nuclear-stocks/`

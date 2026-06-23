@@ -1,450 +1,184 @@
 # Jinpan Technology (688676.SH) Deep Research Report
 
 Coverage date: 2026-02-03
-Last updated: 2026-02-03
+Last updated: 2026-06-23
 Ticker: 688676.SH
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
-## Executive Summary
+## 2026H1 Full Rerun Summary
 
-**One-line thesis:** Jinpan Technology is a hidden champion in dry-type transformers, transitioning from a traditional manufacturer to a power-equipment solution provider via AI data center demand and solid-state transformer (SST) initiatives, while facing elevated valuation and receivables risks.
+This report is the full rerun successor to `jinpan-2026-pre-rerun`; the archived baseline is available at `/invest/research/reports/view.html?id=jinpan-2026-pre-rerun`.
 
-**Investment verdict:**
-- **Stance:** Cautiously Bullish
-- **Conviction:** Medium
-- **Key Catalysts:** SST commercialization, AIDC order durability, overseas capacity ramp
+**One-line thesis:** Jinpan is a hidden champion in dry-type transformers, upgrading from a traditional manufacturer to a power-equipment solutions provider via AI data centers (AIDC) and solid-state transformers (SST). The 2026H1 debate has shifted from "can the AI/SST story be discovered" to "can a demanding valuation be supported by order conversion, cash flow, and receivable quality."
 
-**Quick financial snapshot:**
+**Current view:** Neutral / watchlist. Eastmoney quote data on June 23, 2026 showed the stock around **RMB 86.00** and market capitalization around **RMB 39.5B**. Using Q1 2026 parent net income of about RMB 112M annualized mechanically, the stock trades around **88x** annualized earnings and about **6.5x** annualized Q1 revenue — still demanding for a manufacturing business with working-capital pressure.
 
-| Metric | Value | Notes |
-|-------|-------|------|
-| Market cap | ~RMB 46.0B | As of Feb 2026 |
-| P/E (TTM) | 69.49x | Well above industry average |
-| P/E (2026E) | 17.6-50x | Wide broker dispersion |
-| P/B | 9.67x | As of Feb 2026 |
-| Revenue growth (9M 2025) | +8.25% YoY | Overseas +30.85%, domestic under pressure |
-| Net profit growth (9M 2025) | +20.27% YoY | Margin improvement driven |
-| Gross margin (9M 2025) | 26.08% | Recovered since 2023 |
-| Net margin (9M 2025) | 9.29% | Operationally stable |
-| ROE (2024) | 14.7% | Down from 16.3% in 2023 |
-| Debt ratio (2024E) | 48-54% | Reasonable range |
+**Changes vs the February report:**
 
----
+| Item | February baseline | This rerun (2026-06-23) |
+|------|-------------------|--------------------------|
+| Price anchor (old → now) | ~RMB 92.80 (Feb 17) | RMB 86.00 |
+| Market cap (old → now) | ~RMB 46B | ~RMB 39.5B |
+| Valuation anchor (old → now) | TTM P/E 69.5x; target RMB 30-35B | Q1-annualized P/E ~88x, P/S ~6.5x; neutral/watchlist |
+| Latest results | 9M2025 revenue +8.25%, net profit +20.27% | Q1 2026 revenue RMB 1.52B (+13.4%), net profit RMB 112M (+4.8%) |
+| Thesis emphasis | can the AI/SST story be discovered | can the valuation be proven by orders/cash/receivables |
+| Unchanged | receivables risk, SST not yet commercially validated, intensifying competition | same |
+
+**Data framing:** The business, industry, and financial detail below carries the FY2024 / 9M2025 fact base established in the February research, plus Q1 2026 headline figures; price and market cap are updated to June 23, 2026. Note: FY2025 full-year results have since been published — the detailed segment, margin, and cash-flow baseline here still reflects 9M2025 and should be reconciled against the FY2025 annual report at the next pass.
+
+**Quick Stats:**
+
+| Metric | Value | Note |
+|--------|-------|------|
+| Price (2026-06-23) | ~RMB 86.00 | Eastmoney |
+| Market Cap (2026-06-23) | ~RMB 39.5B | ~460M shares |
+| Q1 2026 Revenue | RMB 1.52B (+13.4% YoY) | ~RMB 6.09B annualized |
+| Q1 2026 Parent Net Profit | RMB 112M (+4.8% YoY) | ~RMB 450M annualized |
+| Q1-Annualized P/E | ~88x | mechanical |
+| Q1-Annualized P/S | ~6.5x | mechanical |
+| Q1 Gross Margin | ~25.7% | vs ~26% Feb baseline |
+| Asset-Liability Ratio | ~57.8% | vs 48-54% Feb frame |
+| February Report Price | RMB 92.80 (Feb 17) | historical anchor |
 
 ## 1. Business Overview
 
-### 1.1 Core Business
-
-Founded in 1993 and headquartered in Haikou, Jinpan Technology is a leading Chinese dry-type transformer company.
-
-**Traditional business (~70% mix):**
-- **Dry-type transformers** for wind, solar, rail transit, and high-efficiency applications
-  - Global share in wind special dry transformers: 25.5% (2021)
-  - China rail transit share: 34.8%
-  - China high-efficiency segment share: 10.69%
-- **Oil-immersed transformers**
-  - 110/120kV products developed for overseas markets
-
-**Emerging business (~30% mix, rapid growth):**
-- **Data center power solutions:** RMB 974M in 9M 2025, +337.47% YoY
-- **Energy storage systems:** utility-scale, C&I, and residential modules
-- **Digitalization solutions:** digital factory delivery for external clients
-- **Industrial robotics:** Jinpan Robotics (Wuhan) established in 2025
-
-### 1.2 Business Model
-
-**Operating model:** “Smart Manufacturing + Smart Services”
-- 7 digital factories in total (Haikou/Guilin online, 3 Wuhan plants under construction)
-- Deep integration of AI, IoT, big data, and cloud systems
-- Flexible manufacturing for customized delivery
-
-**Customer structure:**
-- **International:** GE, Siemens, Vestas, etc.
-- **Domestic:** renewable operators, grid companies, rail operators
-- **New economy:** cloud and AI data center customers including Microsoft and Amazon (orders disclosed)
-
-**Geographic revenue split (9M 2025):**
-- Overseas revenue: RMB 1.59B, 30.85% mix, fast growth
-- Domestic revenue: under pressure amid intensified competition
-
----
-
-## 2. Industry & Competitive Position
-
-### 2.1 Industry Snapshot
-
-**Global dry-type transformer market:**
-- 2025 size: c. USD 6.83B
-- 2026 estimate: USD 7.18-7.63B
-- 2026-2034 CAGR: c. 6.8%
-- Key drivers:
-  - Rising power demand from urbanization and industrialization
-  - Renewable-grid integration
-  - Data center / AI compute expansion
-  - Safety and environmental regulation favoring oil-free designs
-
-**China market context:**
-- China contributes ~60% of global transformer capacity
-- 2026 output expected above 2.0B kVA
-- “Eastern Data, Western Computing” programs support demand visibility
-- In parts of the value chain, order books reportedly extend into late 2027
-
-**Industry challenges:**
-- Higher upfront cost of dry-type vs oil-immersed alternatives
-- Raw material volatility (e.g., grain-oriented silicon steel)
-- Thermal management and lifecycle maintenance complexity
-
-### 2.2 Competitive Landscape
-
-**Tier 1 (UHV and large transformers):**
-- **TBEA:** strong UHV positioning and full-chain footprint
-- **China XD:** state-backed UHV core supplier
-
-**Tier 2 (dry/specialized transformers):**
-- **Jinpan Technology:** niche leader in dry-type special applications
-- **Shunte Electric:** major dry-type/data-center leader
-- **Sanbian Sci-Tech:** strong in storage transformers
-
-**Jinpan advantages:**
-1. Deep technical accumulation (30+ years, 330 valid patents)
-2. Digitalized manufacturing leadership
-3. Fast customization via digital-twin workflows
-4. Global certifications (UL, KEMA, CE, DNV-GL, CSA)
-5. Long-term partnerships with global industrial customers
-
-**Jinpan disadvantages:**
-1. Scale gap versus large incumbents
-2. Limited UHV exposure versus national champions
-3. Brand recognition still behind state-backed giants
+Founded in 1993 and headquartered in Haikou, Jinpan is a leader in China's dry-type transformer industry. This is a project and manufacturing business — revenue quality depends on delivery, acceptance, receivables, inventory, and customer credit.
 
----
+**Legacy business (~70%):**
 
-## 3. Financial Analysis
+- **Dry-type transformers:** wind, solar, rail transit, energy efficiency. Global share in wind-specific dry transformers ~25.5% (2021); domestic rail-transit share 34.8%; domestic energy-efficiency share 10.69%.
+- **Liquid-immersed transformers:** 110/120kV-class products developed for overseas markets.
 
-### 3.1 Financial Health Matrix
+**Emerging business (~30%, fast-growing):**
 
-| Metric | 2024A | 2023A | 3Y Trend | Peer Position | Grade |
-|-------|-------|-------|---------|--------------|------|
-| Revenue growth | ~8% | - | Stable | Mid | B |
-| Gross margin | 26.08% | recovering | Up | Upper-mid | B+ |
-| Net margin | 9.29% | - | Stable | Mid | B |
-| ROE | 14.7% | 16.3% | Down | Mid | B |
-| Operating cash flow (2024E) | RMB 277M | - | Low base | Weak | C+ |
-| Debt ratio | 48-54% | - | Improving | Healthy | B+ |
+- **Data-center power solutions:** 9M2025 revenue RMB 974M, +337.47% YoY.
+- **Energy storage:** generation/grid-side cascaded storage, C&I and residential.
+- **Digital solutions + industrial robotics:** Jinpan Robotics (Wuhan) subsidiary established in 2025.
 
-**Overall score:** B+ (above average)
+**Manufacturing & customers:** a "smart manufacturing + smart service" model with 7 digital factories built (Haikou and Guilin in production; 3 in Wuhan under construction). International customers include GE, Siemens, and Vestas; AIDC customers include Microsoft and Amazon. 9M2025 overseas revenue was RMB 1.59B (30.85% of total), while domestic was pressured by renewables competition. AIDC orders raise growth and valuation optionality but also increase working-capital intensity, so revenue growth must be read together with cash collection.
 
-### 3.2 Key Trends
+## 2. Industry & Competition
 
-**Revenue structure:**
-- 2024 revenue: RMB 6.901B
-  - Overseas: RMB 1.981B (+79.54%), 28.7% mix
-  - Data-center orders surged in 2024
-- 9M 2025 revenue: RMB 5.194B (+8.25%)
-  - Overseas: RMB 1.59B (30.85% mix)
-  - Data-center revenue: RMB 974M (+337.47%)
-  - Domestic traditional business under pressure
+**Global dry-type transformer market:** ~US$6.83B in 2025, an estimated US$7.18-7.63B in 2026, ~6.8% CAGR 2026-2034; Asia-Pacific is the largest region at 36%, with North America growing fast. Drivers are electricity-demand growth, renewables integration, the data-center/AI buildout, and environmental rules (dry transformers carry no flammable oil). China holds ~60% of global transformer capacity, with some factory order books filled into late 2027.
 
-**Profitability:**
-- Gross margin recovered from 2021-2022 raw material pressure to >26%
-- Net margin remains around ~9%
-- ROE softened due to expansion-phase capital intensity
+**Competitive landscape:**
 
-**Cash flow & working capital:**
-- OCF expected to improve materially from 2024 to 2025
-- Receivables: RMB 3.082B (2024 YE), +7.55% YoY
-- Receivable days extended (2022: 112 days -> 2024: 123 days)
-- Inventory turnover characteristics remain aligned with long project cycles
+| Company | Market Cap | P/E basis | Core Business | Edge |
+|---------|-----------|----------|---------------|------|
+| **Jinpan** | ~RMB 39.5B | ~88x (annualized) | Dry transformers + AIDC | SST tech, digital manufacturing |
+| Shunte Electric | Unlisted | — | Dry HV transformers | Data-center leader |
+| Sanbian Sci-Tech | ~RMB 8B | ~25x | Distribution transformers + storage | Storage transformer leader (orders +120%) |
+| TBEA | ~RMB 80B | ~15x | UHV + renewables full chain | Scale, global (overseas 65%, UHV 33.87%) |
+| China XD | ~RMB 40B | ~20x | UHV equipment | "National team", converter transformer 35% |
 
-**Capital structure:**
-- Debt ratio within a manageable range
-- Fundraising plan (~RMB 1.67B) targets data center power modules, VPI/liquid-immersed transformer projects, and amorphous core initiatives
+**Jinpan's edge:** 30+ years of experience, 330 valid patents (incl. 42 invention patents), 7 digital factories, global certifications (UL/KEMA/CE/DNV-GL), and long-term GE/Siemens relationships. **Weaknesses:** smaller than the giants (2024 revenue RMB 6.9B vs TBEA's RMB 49.1B domestic bookings), absence in UHV, and weaker brand recognition than the "national team." Differentiation must come from reliable delivery, overseas certification, SST commercialization, and repeat orders — not just a thematic label.
 
-### 3.3 Red-Flag Checklist
+## 3. Financial Health
 
-**Accounting / reporting:**
-- [x] Receivables growth pressure needs monitoring
-- [x] OCF quality vs earnings needs continuous verification
-- [ ] Frequent one-off accounting adjustments (no major signal identified)
-- [ ] Auditor instability / major related-party anomalies (no clear red flag found)
+Q1 2026 revenue growth of +13.4% confirms demand, but profit growth (+4.8%) lagged revenue, and operating cash flow remains the first risk. The 25.7% Q1 gross margin is respectable, yet a 57.8% asset-liability ratio plus receivable and inventory pressure mean this is not an asset-light AI beneficiary.
 
-**Governance / operations:**
-- [x] 2024 governance incident involving short-term trading by a supervisor (negative governance signal)
-- [x] Potential customer concentration to large AI/cloud accounts (disclosure granularity limited)
-- [ ] Structural liquidity stress not evident from headline leverage
+**Financial health matrix (Feb baseline + Q1 update):**
 
-**Severity assessment:** Caution (Yellow)
+| Metric | Value | Trend | Grade |
+|--------|-------|-------|-------|
+| Revenue growth | 9M2025 +8.25%; Q1 2026 +13.4% | Recovering | B |
+| Gross margin | 9M2025 26.08%; Q1 25.7% | Stable | B+ |
+| Net margin | 9M2025 9.29% | Stable | B |
+| ROE | 14.7% (2024); 16.3% (2023) | Declining | B |
+| Operating cash flow | RMB 277M (2024), low | To improve | C+ |
+| Receivables | RMB 3.08B at end-2024 (44.7% of revenue), 123-day turnover | Tight | C+ |
+| Asset-liability ratio | 48-54% (2024); 57.8% (Q1) | Rising | B- |
 
----
+**Key trends:** 2024 total revenue was RMB 6.901B, with overseas RMB 1.981B (28.7%, +79.54%) and data-center orders +604% YoY; 9M2025 revenue was RMB 5.194B (+8.25%) with data-center revenue RMB 974M (+337.47%). 2024 net profit was RMB 574M against operating cash flow of only RMB 277M (~48% FCF conversion). A RMB 1.67B raise targets data-center power modules, VPI/liquid-immersed transformers, and amorphous cores.
 
-## 4. Management Assessment
+**Caliber note:** 2024 operating cash flow (RMB 277M) far below net profit (RMB 574M), receivables at 44.7% of revenue, and turnover lengthening from 112 days (2022) to 123 days (2024) are the core evidence of a "strong theme, weak cash" profile. These are company-disclosed February-baseline figures; Q1 2026 operating-cash-flow/revenue was negative and should be recomputed at the interim report.
 
-### 4.1 Core Team Background
+**Red-flag check:** receivables growing faster than revenue and low cash flow are confirmed flags; a 2024 supervisor (Lin Yu) being investigated for short-swing trading and then resigning is a governance negative; under-disclosed concentration in large customers (Microsoft, Amazon) is a watch item. Offsets: still-healthy leverage and gross margin recovering since 2023 (pricing power). **Severity: cautious (single flag — receivables management).**
 
-**Chairman: Li Zhiyuan**
-- Long tenure in power design and enterprise management
-- Built the business over 30+ years
+## 4. Management & Governance
 
-**Rotating President: Yang Xialing**
-- Joined in 1994
-- Rose through frontline operations to management leadership
+**Core team:** Chairman Li Zhiyuan (born 1955, 40+ years in power design and management, leading Jinpan since 1993) and rotating president Yang Xialing (joined 1994, 32-year tenure, grown from the front line). The management is technically oriented and internally cultivated.
 
-**Team profile:**
-- Engineering-oriented leadership
-- High internal promotion ratio
-- Stable executive tenure
+**Execution:** digital transformation (7 digital factories), overseas expansion (Mexico and Poland in production, U.S. in preparation), and new business (AIDC orders +604% in 2024, SST prototype completed in 2025) have all been delivered — though 2024 net profit of RMB 574M fell short of some brokers' RMB 654-773M forecasts. 2024 R&D spend was RMB 353M (~5% of revenue). **Management grade: B+.** Investors should read the technology roadmap together with capex discipline: if SST and AIDC scale into larger delivery, management must prove project selection, customer credit, and capacity-expansion pacing are controlled. An H-share listing could improve financing and investor coverage, but may add short-term cost, disclosure pressure, and re-rating risk; insider-ownership and compensation transparency are detractors.
 
-### 4.2 Execution Assessment
+## 5. Bull Case / Upside
 
-**Track record:**
-- Delivered digital factory rollout
-- Expanded overseas production footprint
-- Captured AIDC growth and advanced SST prototype milestones
-- Some earnings expectations have not always matched aggressive market forecasts
+**Core thesis:** Jinpan stands at the front of the AI-compute wave; through SST and globalization it could achieve a 2026-2027 breakout in both earnings and valuation.
 
-### 4.3 Alignment & Transparency
+**Supporting evidence:**
 
-- Insider holdings and compensation disclosures could be more transparent
-- Regular financial and technology updates are provided
-- Receivables risk communication should be more proactive
+1. **AIDC explosion, first-mover position:** data-center orders +604% in 2024, 9M2025 revenue RMB 974M (+337%); Microsoft and Amazon orders already won; traditional UPS efficiency ~85% vs SST ~98%; SST prototype certified in Q4 2025, expanding overseas in Q1 2026.
+2. **Overseas dividend:** 2024 overseas revenue RMB 1.981B (+79.54%), 9M2025 share 30.85%; Mexico and Poland in production, U.S./Malaysia in preparation; localized production plus certification bypasses trade barriers (North America market est. US$2.64B by 2032).
+3. **Digital manufacturing efficiency:** gross margin recovered from the 2022 trough to 26%+; ~5% R&D ratio above peers; scale effects dilute fixed cost.
 
-### 4.4 Management Rating
+**Key assumptions:** SST large orders — unproven as of June 23, 2026 and now an H2 watchpoint — materialize with a smooth ramp; AIDC demand does not fall off a cliff; U.S./Malaysia plants come online on plan; competitors do not gain a dominant SST edge. **Upside scenario:** 2026 net profit of RMB 1B (+74% vs 2024) at 35-40x P/E implies ~RMB 35-40B market cap — roughly the current RMB 39.5B, i.e. the price already reflects part of the optimism.
 
-**Overall rating: B+**
-- Strengths: industry experience, execution continuity, innovation push
-- Weaknesses: disclosure depth, governance optics, forecast consistency
+## 6. Bear Case / Downside Risk
 
----
+**Core thesis:** the valuation already fully — even excessively — prices future growth; SST commercialization is uncertain; receivables risk and intensifying competition could drive a miss and a re-rating.
 
-## 5. Bull Case (Steel-Manned)
+**Supporting evidence:**
 
-### Core Thesis
+1. **Valuation rich, thin margin of safety:** Q1-annualized P/E ~88x and P/S ~6.5x, far above the manufacturing average (15-25x); manufacturers rarely sustain high P/E (unless they become platforms).
+2. **SST commercialization risk:** prototype just completed, no mass production; 98% is a lab figure; data-center customers demand extreme power reliability with long qualification cycles; ABB, Siemens, and Shunte are also positioning.
+3. **Receivables exposure:** RMB 3.08B at end-2024 (44.7% of revenue), 123-day turnover; operating cash flow persistently below net profit; provisions or a customer default would erode profit and raise leverage.
+4. **Domestic competition + overseas uncertainty:** domestic renewables entering stock competition compresses margins; overseas plants carry high build cost and long ramp; geopolitics can disrupt overseas orders.
 
-Jinpan is positioned to benefit from AI-driven data center power demand and SST commercialization, potentially delivering both earnings and valuation expansion through 2026-2027.
+**Triggers:** SST commercialization failure, AIDC demand peaking, a receivables blow-up, a competitor leapfrog, or macro deterioration. **Downside scenario:** 2026 net profit of RMB 650-700M (below expectations) at 20-25x P/E implies RMB 14-20B market cap (-50% to -65% vs current). The key risk is a "strong theme, weak cash" mix where revenue growth is accompanied by rising receivables, inventory, and capex, and profit does not convert to free cash flow.
 
-### Supporting Evidence
+## 7. Key Uncertainties and Thesis-Breaking Conditions
 
-1. **AIDC demand is scaling rapidly**
-- Data-center orders and revenue growth are highly visible
-- New overseas data-center contracts add growth visibility
+**What we don't know:** SST's real competitiveness (lab 98% vs field performance and cost, known by Q2-Q3 2026); AIDC durability (long-term trend vs short-term bubble — watch Microsoft/Amazon capex); true receivable quality (how much of RMB 3.08B is high-grade, 2026 annual report); overseas capacity profitability (build cost, ramp, utilization, 2H2026-2027); and competitors' strategic moves.
 
-2. **Overseas expansion is becoming a structural driver**
-- Overseas mix is rising with local manufacturing footprint expansion
-- Localization helps mitigate tariff and delivery risks
+**Thesis-breaking signals:** bull invalidated if SST still has no large orders after Q2 2026, AIDC growth falls below 100%, overseas plants slip more than 6 months, or gross margin drops below 24%; bear invalidated if SST orders exceed RMB 1.5B, receivable days shorten below 110, operating cash flow/net profit exceeds 80%, or a new marquee customer (Tesla, Google) signs. A-share thematic rallies amplify short-term volatility, so February's "RMB 90 support" or old target market cap is not a current basis.
 
-3. **Digital manufacturing supports margin resilience**
-- Process digitalization and capacity build-out improve productivity
-- Mix shift toward higher-value products may improve profitability
+## 8. Valuation
 
-### Key Bull Assumptions
+At roughly **RMB 86.00** per share and **RMB 39.5B** market cap (~460M shares), Jinpan is not cheap on reported earnings. Q1 2026 parent net income annualized to ~RMB 450M implies ~**88x** P/E; Q1 revenue annualized to ~RMB 6.09B implies ~**6.5x** P/S.
 
-1. SST moves from prototype to commercial scale on schedule
-2. AI-related capex remains strong through 2027
-3. New overseas plants ramp as planned
-4. Competitive intensity remains manageable in core growth segments
-5. Macro and trade environment remain broadly stable
+**Multi-method valuation (framework, February research frame):**
 
-### Upside Case
+| Method | Target Market Cap | Key Assumptions | Confidence |
+|--------|-------------------|-----------------|------------|
+| P/E (conservative) | RMB 20B | 2026 net profit RMB 800M, 25x | Medium |
+| P/E (neutral) | RMB 28B | 2026 net profit RMB 800M, 35x | Medium |
+| P/E (optimistic) | RMB 40B | 2026 net profit RMB 1B, 40x | Low |
+| Sum-of-the-parts | RMB 32B | Legacy 20x + AIDC 50x | Medium |
+| Peer comparison | RMB 25-35B | vs Shunte, Sanbian | Medium |
 
-- 2026 profit reaches ~RMB 1.0B
-- Market applies higher-growth multiple for AIDC-linked exposure
-- Valuation upside can materialize if execution milestones are hit on time
+**SOTP breakdown:** legacy business 2026 revenue ~RMB 6B × 8% net margin × 20x → RMB 9.6B; AIDC revenue ~RMB 3B × 12% margin × 50x → RMB 18B; other (storage, robotics) net profit ~RMB 160M × 25x → RMB 4B; total ~RMB 31.6B. The current RMB 39.5B sits above that February-frame midpoint, embedding the expectation that AIDC, SST, overseas expansion, and financing improvement all deliver together. **Conclusion:** not cheap; if subsequent quarters' earnings and cash flow do not accelerate, valuation-compression risk remains high.
 
----
+## 9. Catalysts & Monitoring
 
-## 6. Bear Case (Steel-Manned)
+**Near-term (0-6 months):** SST certification and first orders; H-share listing progress (EY engaged as auditor); the 2026 interim report (H1) confirming AIDC growth and reconciling FY2025 results; U.S. plant startup. **Negative:** SST orders below expectations, worsening receivables, competitor product launches.
 
-### Core Thesis
+**Medium-term (6-18 months):** large-scale SST commercial orders; overseas revenue share breaking 40%; gross margin to 28%+; a new marquee customer (Tesla, Google). **Negative:** AIDC demand peaking, rough overseas ramp, trade-war escalation.
 
-Current valuation already discounts substantial future growth. If SST commercialization, cash conversion, or competitive positioning underperform expectations, downside can be significant.
+**Long-term (18+ months):** SST as an industry standard; storage/robotics contributing meaningful profit; entry into UHV.
 
-### Supporting Evidence
+**Key monitoring metrics:** AIDC revenue growth (sustaining 100%+), receivable days (below 115), operating cash flow/net profit (above 70%), gross-margin trend, SST order value (2026 target >RMB 1B), overseas revenue share, and H-share progress.
 
-1. **Valuation leaves little margin of safety**
-- TTM multiple remains elevated versus manufacturing peers
-- High expectations are already embedded in price
+## 10. Conclusion & Review
 
-2. **SST commercialization risk remains real**
-- Prototype success does not guarantee rapid volume adoption
-- Customer qualification cycles in critical power systems are long
+**Company quality: B+.** Moat B (technology + customer stickiness, but rising competition); financial health B (steady profit, but receivables risk); management B+ (strong execution, transparency to improve); growth potential A- (AIDC/SST raise the ceiling); valuation appeal C (rich).
 
-3. **Receivables and cash-conversion pressure**
-- Receivable base and days remain elevated
-- If collection weakens, earnings quality and capital efficiency can deteriorate
+This rerun moves the stance from "cautiously bullish" to **neutral / watchlist** — not because the business logic weakened, but because the bar for valuation and cash-flow proof has risen. This is a monitoring view, not allocation advice: suitable for higher-volatility investors who back the long-term AI-compute trend, not for income-seeking or risk-averse investors; any position should sit within a risk budget appropriate for a high-volatility thematic growth stock rather than a fixed weight. The next review's key question is not whether the stock returns to RMB 90, but whether profit, collection, and confirmed AIDC/SST evidence can support a RMB 39.5B valuation. **Confidence: medium.**
 
-4. **Domestic competition and overseas ramp uncertainty**
-- Price competition can compress margins
-- New factory ramps may take longer and dilute near-term returns
+## 11. Appendix & Sources
 
-### Downside Case
+**Key assumptions (February baseline scenarios):**
 
-- 2026 net profit undershoots market expectations
-- Multiple compresses toward industrial average
-- Large re-rating downside possible in a disappointment scenario
+- **Base (50%):** 2026 revenue RMB 9B (+30%), net profit RMB 800M (+39%), gross margin 26.5%, AIDC revenue RMB 2.5B, overseas share 35%.
+- **Optimistic (25%):** revenue RMB 10B, net profit RMB 1B, gross margin 28%, AIDC RMB 3.5B, overseas 40%.
+- **Pessimistic (25%):** revenue RMB 8B, net profit RMB 650M, gross margin 24%, AIDC RMB 1.5B, overseas 30%.
 
----
+**Sources:**
 
-## 7. Key Uncertainties
+- Archived baseline: `jinpan-2026-pre-rerun`
+- Eastmoney quote endpoint: `https://push2.eastmoney.com/api/qt/stock/get?secid=1.688676`
+- Eastmoney financial indicators endpoint: `https://emweb.securities.eastmoney.com/PC_HSF10/NewFinanceAnalysis/ZYZBAjaxNew?type=0&code=SH688676`
+- Company announcements, broker research, and exchange filings should be the basis for item-by-item future checks.
 
-1. Real-world SST economics and reliability at scale
-2. Durability of AI-data-center capex cycle
-3. Receivables quality and future write-off risk
-4. Profitability of overseas capacity ramp
-5. Competitor strategic response in SST/AIDC
-
-### Thesis-Breaking Events
-
-**Bull thesis invalidation signals:**
-- No sizable SST orders after expected commercialization window
-- AIDC growth slows materially below expected range
-- Margins and cash conversion deteriorate
-
-**Bear thesis invalidation signals:**
-- SST orders exceed high-expectation thresholds
-- Receivable turnover improves materially
-- OCF-to-net-income conversion normalizes at high levels
-
----
-
-## 8. Valuation Analysis
-
-### 8.1 Multi-Method Framework
-
-| Method | Implied Value | Key Assumption | Confidence |
-|-------|---------------|----------------|------------|
-| PE (Conservative) | ~RMB 20.0B | 2026 profit RMB 0.8B, 25x PE | Medium |
-| PE (Base) | ~RMB 28.0B | 2026 profit RMB 0.8B, 35x PE | Medium |
-| PE (Bull) | ~RMB 40.0B | 2026 profit RMB 1.0B, 40x PE | Low |
-| Sum-of-Parts | ~RMB 31.6B | Legacy + AIDC + emerging segments | Medium |
-| Current Market Cap | ~RMB 46.0B | Market pricing | - |
-
-### 8.2 Interpretation
-
-- Current pricing implies optimistic execution assumptions
-- If growth or commercialization pace disappoints, valuation compression risk is material
-- Better entry points may emerge if valuation normalizes
-
----
-
-## 9. Catalysts & Timeline
-
-### Near-Term (0-6 months)
-
-**Potential positives:**
-- SST qualification milestones
-- Annual report validation of AIDC momentum
-- Overseas plant commissioning progress
-
-**Potential negatives:**
-- Slower-than-expected SST order conversion
-- Continued receivables pressure
-- Faster competitive response from peers
-
-### Mid-Term (6-18 months)
-
-**Potential positives:**
-- Larger SST commercial orders
-- Overseas mix rises above target thresholds
-- Margin expansion with digital factory scaling
-
-**Potential negatives:**
-- AI capex slowdown impacts power-equipment demand
-- Overseas utilization lags expectations
-- Trade-policy changes increase overseas volatility
-
-### Long-Term (18+ months)
-
-- SST standardization potential
-- Storage/robotics contribution to profit mix
-- Broader grid and high-voltage opportunity optionality
-
----
-
-## 10. Conclusion & Investment View
-
-### Integrated Assessment
-
-**Quality score:** B+  
-- Moat: B  
-- Financial health: B  
-- Management: B+  
-- Growth optionality: A-  
-- Valuation attractiveness: C
-
-### Investment Stance
-
-**Cautiously Bullish (Medium Conviction)**
-
-- Long-term industrial logic is constructive
-- Near-term valuation requires disciplined risk control
-- Execution milestones should drive position management
-
-### Suggested Approach
-
-- **Aggressive profile:** starter position with milestone-based adds
-- **Balanced profile:** wait for valuation normalization, then scale in
-- **Conservative profile:** wait for further annual-report and cash-flow confirmation
-
-### Monitoring Dashboard
-
-1. AIDC revenue growth trajectory
-2. Receivables turnover trend
-3. OCF / net income conversion
-4. Gross margin direction
-5. SST order conversion and delivery quality
-6. Overseas ramp utilization
-
----
-
-## Appendix
-
-### A. Sources
-
-- Jinpan corporate disclosures and filings
-- Broker research (multiple institutions)
-- Industry market reports and public financial databases
-- Public media coverage and conference disclosures
-
-### B. Key Scenario Assumptions
-
-**Base case (50%):**
-- 2026 revenue ~RMB 9.0B
-- 2026 net profit ~RMB 0.8B
-- Gross margin ~26.5%
-- AIDC revenue ~RMB 2.5B
-- Overseas mix ~35%
-
-**Bull case (25%):**
-- 2026 revenue ~RMB 10.0B
-- 2026 net profit ~RMB 1.0B
-- Gross margin ~28%
-- AIDC revenue ~RMB 3.5B
-- Overseas mix ~40%
-
-**Bear case (25%):**
-- 2026 revenue ~RMB 8.0B
-- 2026 net profit ~RMB 0.65B
-- Gross margin ~24%
-- AIDC revenue ~RMB 1.5B
-- Overseas mix ~30%
-
-### C. Peer Comparison
-
-| Company | Market Cap | TTM PE | Core Business | Key Edge | 2025 Growth |
-|--------|------------|--------|--------------|----------|-------------|
-| Jinpan | RMB 46.0B | 69.5x | Dry transformer + AIDC | SST + digital manufacturing | Net profit +20% |
-| Shunte Electric | N/A | N/A | Dry HV transformer | Data center leadership | N/A |
-| Sanbian | ~RMB 8.0B | ~25x | Distribution + storage transformer | Storage segment strength | Storage orders +120% |
-| TBEA | ~RMB 80.0B | ~15x | UHV + integrated power chain | Scale + globalization | Stable growth |
-| China XD | ~RMB 40.0B | ~20x | UHV complete equipment | State-backed | UHV cycle exposure |
-
----
-
-## Disclaimer
-
-This AI-assisted report is for informational purposes only and should not be treated as investment advice. Information may become outdated over time. Investors should conduct independent due diligence and consult licensed professionals before making decisions.
-
-**Report completed:** February 4, 2026  
-**Suggested next update:** April 2026 (after annual report review)
+**Risk note:** STAR Market (688) stocks have a 20% daily limit and higher volatility than the main board; A-share valuation conventions differ from developed markets; manufacturers are exposed to macro, raw-material, and FX factors.

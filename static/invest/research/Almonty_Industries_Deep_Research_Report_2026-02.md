@@ -1,295 +1,207 @@
 # Almonty Industries Deep Research Report
 
 Coverage date: 2026-02-19
-Last updated: 2026-02-19
+Last updated: 2026-06-23
 Ticker: NASDAQ: ALM / TSX: AII
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
-## Executive Summary
+## 2026H1 Full Rerun Summary
 
-**One-line thesis:** Almonty is the world's most important non-Chinese tungsten producer, with its flagship Sangdong mine just entering commercial production amid a 40% contraction in Chinese tungsten exports and U.S. defense mandates — but a $4B market cap on $21.5M TTM revenue means the stock is priced for perfection.
+This report is the full rerun successor to `almonty-2026-pre-rerun`; the archived baseline is available at `/invest/research/reports/view.html?id=almonty-2026-pre-rerun`.
 
-**Investment Verdict:**
-- Long-term theme (3-5 years): **Bullish**, **medium-high** conviction
-- Near-term entry (current price): **Cautious**, valuation fully reflects or exceeds optimistic expectations
+**One-line thesis:** Almonty is the most important non-Chinese tungsten producer, with its flagship Sangdong mine entering commercial production amid a ~40% contraction in Chinese tungsten exports and U.S. defense mandates — but Nasdaq liquidity, ramp expectations, convertible financing, and geopolitical tungsten premiums have pushed the stock into a "project must deliver" valuation zone.
+
+**Current view:** Neutral / high-risk watchlist. Nasdaq quote data showed ALM at roughly **$18.59** on June 22, 2026, with market capitalization around **$5.29B** and a 52-week range of about $3.16-$24.41. Price and market cap are above the February frame, and the valuation now requires Sangdong execution rather than only strategic scarcity.
+
+**Changes vs the February report:**
+
+| Item | February baseline | This rerun (2026-06-22) |
+|------|-------------------|--------------------------|
+| Market cap (old → now) | ~$4.0B | ~$5.29B |
+| Valuation anchor (old → now) | EV/2026E revenue 27-34x; analyst targets $12-18 | dominated by Sangdong NAV; neutral / high-risk |
+| New since February | — | Q1 2026 results (May 11, 2026); oversubscribed convertible note closed (June 2026); company now states Sangdong >80% of ex-China tungsten at full capacity (Feb frame: ~40%) |
+| Thesis emphasis | strategic scarcity, priced for perfection | "project must deliver": Sangdong execution over scarcity |
+| Unchanged | single-asset concentration, heavy dilution, negative EBITDA, Plansee floor, tungsten-price sensitivity | same |
+
+**Data framing:** The asset, industry, and financial detail below carries the February fact base (TTM/Sep-2025 financials, offtake, reserves); the price and market-cap anchor is updated to June 22, 2026. Q1 2026 results were published May 11, 2026 — figures dated TTM/Sep 2025 are the reported baseline and should be reconciled against the Q1 2026 statements at the next pass.
 
 **Key Metrics:**
 
 | Metric | Value |
 |--------|-------|
+| Price (2026-06-22) | ~$18.59 |
+| Market Cap (2026-06-22) | ~$5.29B |
+| 52-Week Range | $3.16 - $24.41 |
 | Ticker | NASDAQ: ALM / TSX: AII |
-| Market Cap | ~$4.0B USD |
-| Enterprise Value | ~$4.1B USD |
-| Shares Outstanding | ~231M |
-| TTM Revenue | ~$21.5M |
-| 2026E Revenue | $120M - $155M |
-| EV/2026E Revenue | 27-34x |
-| Cash | $111.6M (Sep 2025) |
-| Total Debt | ~$155M |
-| Altman Z-Score | 1.15 (distress zone) |
+| TTM Revenue (Sep 2025) | ~$21.5M |
+| 2026E Revenue | $120M - $155M (+450-620%) |
+| Cash (Sep 2025) | $111.6M |
+| Total Debt | ~$155M (mostly KfW at 2-3%) |
+| Adj. EBITDA (Q3 2025) | -$2.2M |
+| Altman Z-Score | 1.15 (distress zone, pre-production) |
 
----
+## 1. Business Overview
 
-## 1. Company Overview
+Almonty Industries is a Canada-headquartered tungsten miner and one of the largest non-Chinese suppliers, co-founded by CEO Lewis Black and operating 14+ years. Tungsten is critical for defense, hard metals/cutting tools, electronics, and industrial manufacturing; non-China supply carries a strategic premium because China dominates the market. The business is highly concentrated around Sangdong execution; the Plansee/GTP offtake provides some downside protection but does not replace mine ramp, cost control, and financing discipline.
 
-Almonty Industries is a Canada-headquartered tungsten mining company and one of the largest non-Chinese tungsten suppliers globally. Co-founded by CEO Lewis Black, the company has been operating for over 14 years.
-
-### Core Assets
+**Core assets:**
 
 | Asset | Location | Status | Significance |
-|-------|----------|--------|-------------|
-| **Sangdong Tungsten Mine** | South Korea | Commercial production Q1 2026 | Flagship — ~40% of non-Chinese tungsten supply at full capacity |
-| **Panasqueira Mine** | Spain/Portugal | Operating | Existing production |
-| **Gentung-Browns Lake** | Montana, USA | Development | Acquired 2025, targeting H2 2026 production |
+|-------|----------|--------|--------------|
+| Sangdong tungsten mine | South Korea | Commercial production from Q1 2026 | Flagship — a large share of ex-China tungsten supply at full capacity |
+| Panasqueira | Spain/Portugal | Operating | Existing production |
+| Gentung / Browns Lake | Montana, USA | Development (acquired 2025) | Targeting H2 2026 production |
 
----
+**Sangdong — the core value driver.** Milestones: first ore truckload December 2025; commercial production commenced early 2026; the company now states Sangdong could supply more than 80% of global non-China tungsten at full capacity (the February baseline framed it as ~40%); Phase II expansion targeted for 2027 (toward ~460,000+ MTU/year). Surface operations are highly automated.
 
-## 2. Industry Context: Structural Shift in Tungsten Markets
-
-### 2.1 Why Tungsten Matters
-
-Tungsten has the highest melting point of any metal (3,422°C) with extreme density and hardness — an irreplaceable strategic metal:
-
-- **Cemented carbide/cutting tools:** ~65% of global tungsten consumption
-- **Defense:** Armor-piercing rounds, high-density alloys, advanced weapons
-- **Semiconductors/AI:** Interconnect layers, barrier layers, thermal management
-- **EVs:** Tungsten carbide tooling, electrodes, hydrogen fuel cell catalysts
-
-### 2.2 Supply Landscape: Chinese Monopoly Under Pressure
-
-| Factor | Detail |
-|--------|--------|
-| China's market share | 80%+ of global tungsten supply |
-| Export controls | Export licensing since 2025, only 15 firms authorized |
-| Export contraction | Chinese tungsten exports down ~40% YoY |
-| Price impact | Tungsten concentrate up ~150% YoY, APT expected at $460/MTU |
-
-### 2.3 Demand Drivers
-
-- Global tungsten demand expected to grow 25% in 2026
-- Market size from $7.6B to $11.6B by 2035
-- U.S. bans Chinese tungsten in defense applications from 2027
-- U.S. "Project Vault" $12B strategic stockpile program (launched Feb 2026)
-
----
-
-## 3. Sangdong Mine: The Core Value Driver
-
-### 3.1 Project Milestones
-
-- December 2025: First truckload of ore delivered
-- Early 2026: Commercial production commenced
-- Phase I target: ~40% of global non-Chinese tungsten supply at full capacity
-- Phase II expansion: Completion 2027, capacity to 1.2M tonnes/year, 460,000+ MTU annually
-- High automation: Most surface operations automated
-
-### 3.2 Offtake Agreements
-
-#### Plansee/GTP Agreement (Core)
+**Plansee/GTP offtake (core):**
 
 | Term | Detail |
 |------|--------|
 | Duration | Minimum 15 years |
 | Floor price | $235/MTU WO3, no ceiling |
-| Volume | ~50% of production (210,000 MTU/year) |
-| Minimum operating cash flow | $580M over agreement life |
-| Cost overrun guarantee | $20M |
-| Debt service reserve guarantee | $9.8M |
+| Volume | ~50% of production (~210,000 MTU/year) |
+| Minimum operating cash flow | $580M over the agreement life |
+| Cost-overrun / debt-service guarantees | $20M / $9.8M |
 | Plansee ownership | ~16% equity + board seat |
 
-#### U.S. Defense Offtake (TPW/Metal Tech)
+A separate U.S. defense offtake (TPW/Metal Tech) runs a 3-year initial term at a minimum 40 tonnes of tungsten oxide per month, and a molybdenum byproduct (2026 drilling, planned late-2026 plant) could add a revenue stream if economic.
 
-- 3-year initial term
-- Minimum 40 tonnes tungsten oxide per month
+## 2. Industry & Competition
 
-### 3.3 Molybdenum Byproduct
+**Why tungsten matters:** the highest melting point of any metal (3,422°C), extreme density and hardness — irreplaceable in cemented carbide/cutting tools (~65% of consumption), defense (armor-piercing rounds, alloys), semiconductors/AI (interconnect, barrier, thermal), and EVs.
 
-- Large-scale drilling program in 2026 to assess reserves
-- Molybdenum plant construction planned for late 2026
-- Potential additional revenue stream if economically viable
+**Chinese monopoly under pressure:**
 
----
+| Factor | Detail |
+|--------|--------|
+| China's market share | 80%+ of global tungsten supply |
+| Export controls | Licensing since 2025, only 15 firms authorized |
+| Export contraction | Chinese tungsten exports down ~40% YoY |
+| Price impact | Tungsten concentrate up ~150% YoY; APT expected ~$460/MTU |
 
-## 4. Financial Analysis
+**Demand drivers:** global tungsten demand expected to grow ~25% in 2026; market from $7.6B toward $11.6B by 2035; the U.S. bans Chinese tungsten in defense from 2027; and the U.S. "Project Vault" $12B strategic stockpile launched in February 2026.
 
-### 4.1 Revenue
+**Competitive landscape:**
 
-| Period | Revenue | YoY Change |
-|--------|---------|------------|
+| Company | Asset | Status | Threat |
+|---------|-------|--------|--------|
+| Masan Resources | Nui Phao, Vietnam | Operating | High — largest non-China mine, low cost |
+| EQ Resources | Barruecopardo + Mt. Carbine | Operating | Medium |
+| Wolfram | Mittersill, Austria | Operating | Medium — largest European deposit |
+| Pure Tungsten | Ssangjon, South Korea | Target Jun 2026 | Medium — same country |
+| American Tungsten | IMA, Idaho | Drilling | Low — early stage |
+
+Almonty's edge is Sangdong's scale and grade, Korea's proximity to Asian demand, the 15-year Plansee offtake plus U.S. defense offtake, DoD Critical Minerals Forum membership, and Plansee as a ~16% strategic shareholder with a board seat.
+
+## 3. Financial Health
+
+Almonty remains in a project-ramp and financing phase; current revenue and EBITDA cannot yet explain the ~$5.29B market cap. Q1 2026 financial statements and MD&A (published May 11, 2026) are the current reporting baseline, and in June 2026 the company closed an oversubscribed convertible senior note financing.
+
+**Revenue (February baseline):**
+
+| Period | Revenue | YoY |
+|--------|---------|-----|
 | Q1 2025 | $7.9M | +1.3% |
 | Q2 2025 | $7.2M | -9.4% |
 | Q3 2025 | $8.7M | +28% |
 | TTM (Sep 2025) | $21.5M | — |
-| **2026E** | **$120M - $155M** | **+450-620%** |
+| 2026E | $120M - $155M | +450-620% |
 
-### 4.2 Balance Sheet (Sep 2025)
+**Balance sheet (Sep 2025):** cash $111.6M; total debt ~$155M (mostly KfW at 2-3%); debt/equity 1.15; current ratio 2.38; net cash position -$61.5M. Capital raises included a $90M U.S. offering (Jul 2025) and a $129.4M institutional offering (Dec 2025). **Profitability (pre-Sangdong):** Q3 2025 adjusted EBITDA -$2.2M; ROE -57.31%; Altman Z-Score 1.15 (distress zone); Piotroski F-Score 2.
 
-| Metric | Value |
-|--------|-------|
-| Cash | $111.6M |
-| Total Debt | ~$155M (primarily KfW at 2-3%) |
-| Debt/Equity | 1.15 |
-| Current Ratio | 2.38 |
-| Quick Ratio | 2.25 |
-| Net Cash Position | -$61.5M (-$0.27/share) |
+**Caliber note:** the distress-zone Z-Score, negative EBITDA, and ~191x EV/TTM-revenue (February, old) all reflect the pre-production state — they will transform fundamentally only as Sangdong revenue is recognized. Share count rose ~50% over the past year, and Phase II plus Montana may require further financing. These are company-disclosed, February-baseline figures; the Q1 2026 statements (May 11) should be incorporated at the next pass.
 
-**Capital raises:** $90M U.S. offering (Jul 2025) + $129.4M institutional offering (Dec 2025).
+**Red-flag check:** single-asset concentration, ~50% one-year dilution (plus convertible dilution), negative EBITDA, and a distress-zone Z-Score are confirmed flags. Offsets: ample cash ($111.6M), low-cost KfW debt, the Plansee floor price, and aligned insider ownership.
 
-### 4.3 Profitability (Current)
+## 4. Management & Governance
 
-| Metric | Value |
-|--------|-------|
-| Adjusted EBITDA (Q3 2025) | -$2.2M |
-| ROE | -57.31% |
-| ROIC | -9.69% |
-| Altman Z-Score | 1.15 (distress zone) |
-| Piotroski F-Score | 2 |
+**CEO Lewis Black** (chairman & president, 14+ years, co-founder) holds ~8.5-12% directly (largest individual shareholder), bought 50,000 shares in March 2025, and did not sell during a ~250% price appreciation — strong alignment. The board includes Gen. Gustave Perna and Alan Estevez (U.S. national-security/finance) and Dr. Thomas Gutschlag (Deutsche Rohstoff), with ~7.6-year average tenure.
 
-**Note:** Current metrics reflect pre-Sangdong production state. All profitability metrics expected to transform fundamentally as commercial revenue is recognized in 2026.
+**Ownership:** insiders ~39%; Plansee ~16%; institutions ~27% (from ~0% within a year; Van Eck, Driehaus, Hood River). Nasdaq listing improves liquidity and U.S. reach but raises disclosure expectations. The governance task is to prevent geopolitical scarcity from being treated as operating proof — investors need continuous evidence on construction, production, cost, sales, cash collection, and financing terms.
 
-### 4.4 Dilution Risk
+## 5. Bull Case / Upside
 
-Shares outstanding increased ~50% over the past year. Phase II expansion and Montana project may require further financing.
+**Core thesis:** the West needs non-Chinese tungsten and Almonty is the largest supplier; Sangdong's ramp turns a strategic-resource story into a Western tungsten cash-flow platform.
 
----
+**Supporting evidence:**
 
-## 5. Management & Governance
+1. **Geopolitical moat:** China's ~40% export contraction is structural, not cyclical; Almonty is the primary beneficiary.
+2. **Revenue inflection:** a 5-8x jump from TTM to 2026E is relatively high-certainty (the mine is already producing ore).
+3. **Offtake floor:** Plansee's $235/MTU floor provides downside protection even if tungsten prices fall.
+4. **Policy tailwinds:** the U.S. 2027 defense ban and $12B Project Vault are durable policy directions.
+5. **Growth optionality:** Montana, molybdenum, and Phase II provide 2027-2028 catalysts.
+6. **Aligned management:** ~39% insider ownership; the CEO did not sell during the rally.
 
-### CEO Lewis Black (Chairman & President)
+**Key assumptions:** Sangdong ramps on schedule; tungsten prices stay elevated; offtake and U.S./allied procurement support ex-China supply; Nasdaq liquidity lowers the cost of capital. **Upside scenario:** if Sangdong proves production and cost, Almonty re-rates as a Western tungsten cash-flow platform.
 
-- 14+ year tenure, co-founder
-- ~8.5-12% direct ownership, largest individual shareholder
-- Compensation: C$1.97M (44% salary + 56% bonus/options)
-- Purchased 50,000 shares in March 2025; no sales during 250% price appreciation
-- Ownership sufficient to block unauthorized acquisitions
+## 6. Bear Case / Downside Risk
 
-### Board Highlights
+**Core thesis:** a single-asset mining project at a market cap that prices in perfection, where any execution error is amplified.
 
-- Gen. Gustave Perna — U.S. national security background
-- Alan Estevez — Global finance experience
-- Dr. Thomas Gutschlag — Deutsche Rohstoff AG
-- Average tenure: 7.6 years
+**Supporting evidence:**
 
-### Ownership Structure
+1. **Extreme valuation:** EV/2026E revenue of 27-34x (February frame, old) prices in perfection for a miner just entering production.
+2. **Execution risk:** processing-plant stabilization is the key unknown; mining delays are the norm, not the exception.
+3. **Severe dilution:** ~50% share-count increase in one year, plus convertible-note dilution; further financing is likely.
+4. **No positive EBITDA:** still cash-burning, with a distress-zone Z-Score.
+5. **Tungsten-price reversal:** current prices include a panic premium; a Chinese policy reversal could crash prices.
+6. **Single-asset concentration:** nearly all value depends on one mine, with rising competition for the same ex-China supply gap.
 
-| Category | Share |
-|----------|-------|
-| Insiders | 39% |
-| Plansee Group | ~16% |
-| Institutional | ~27% (from 0% within one year) |
-| Key institutions | Van Eck, Driehaus Capital, Hood River Capital |
+**Bear scenario:** if investors reprice Almonty as a conventional mining project rather than a strategic scarcity asset, the multiple compresses materially.
 
----
+## 7. Key Uncertainties and Thesis-Breaking Conditions
 
-## 6. Competitive Landscape
+**What we don't know:** Sangdong commissioning and production ramp; cash cost per unit; the tungsten/APT price trajectory (whether it sustains $400+/MTU); offtake execution and customer payment; financing cost and convertible dilution; Korea operating risk; and geopolitical policy direction.
 
-### Key Non-Chinese Competitors
+**Thesis-breaking conditions:** Sangdong failing to ramp, cash costs above expectations, tungsten prices falling materially, or repeated high-cost financing.
 
-| Company | Asset | Status | Threat Level |
-|---------|-------|--------|-------------|
-| **Masan Resources** | Nui Phao, Vietnam | Operating | High — largest non-Chinese mine, low-cost |
-| **EQ Resources** | Barruecopardo (Spain) + Mt. Carbine (Australia) | Operating | Medium |
-| **Wolfram** | Mittersill, Austria | Operating | Medium — largest European deposit |
-| **Pure Tungsten** | Ssangjon, South Korea | Target Jun 2026 | Medium — same country |
-| **American Tungsten** | IMA, Idaho | Drilling | Low — early stage |
+## 8. Valuation
 
-### Almonty's Competitive Advantages
+At roughly **$18.59** per share and **$5.29B** market cap, ALM is not usefully valued on current revenue or P/E — value is dominated by future Sangdong cash flow. The right framework is project NAV: full-capacity output, tungsten price, cash cost, offtake price, discount rate, and financing dilution — each input can move fair value materially.
 
-1. **Scale:** ~40% of non-Chinese supply at Sangdong full capacity
-2. **Revenue certainty:** 15-year Plansee offtake + U.S. defense offtake
-3. **Geography:** South Korea proximity to Asian demand centers
-4. **Policy alignment:** Member of U.S. DoD Critical Minerals Forum
-5. **Strategic shareholder:** Plansee 16% + board seat
-
----
-
-## 7. Valuation
-
-### Current Multiples
+**Multiples & analyst frame (February historical):**
 
 | Metric | Value |
 |--------|-------|
-| EV/TTM Revenue | ~191x |
-| EV/2026E Revenue ($120M) | ~34x |
-| EV/2026E Revenue ($155M) | ~27x |
+| EV/TTM revenue | ~191x (old) |
+| EV/2026E revenue ($120M / $155M) | ~34x / ~27x (old) |
 | FY2026 EPS estimate | $0.23 |
-| Forward P/E (on $0.23) | ~60x |
+| Analyst targets (Feb) | $12.00 (Oppenheimer) - $18.00 (DA Davidson) (old) |
 
-### Analyst Ratings
+The February analyst targets were below the current price and should be re-derived as Sangdong ramp evidence arrives. Today's price requires Sangdong to become a reliable cash-flow asset.
 
-| Source | Rating | Target |
-|--------|--------|--------|
-| Consensus | Moderate Buy / Strong Buy | $13.38 - $15.95 |
-| DA Davidson | Buy | $18.00 |
-| Oppenheimer | — | $12.00 |
+## 9. Catalysts & Monitoring
 
-The $4B market cap implies Sangdong executes flawlessly, tungsten prices stay elevated, and all expansion projects succeed. EV/2026E Revenue of 27-34x is aggressive for a mining company just entering production.
-
----
-
-## 8. Bull vs. Bear Case
-
-### 🐂 Bull Case
-
-1. **Geopolitical moat** — China's 40% export contraction is structural, not cyclical. Almonty is the primary beneficiary.
-2. **Revenue inflection** — 5-8x revenue jump from TTM to 2026E is high-certainty (mine is already producing ore).
-3. **Offtake floor** — Plansee's $235/MTU floor provides downside protection even if tungsten prices halve.
-4. **Policy tailwinds** — U.S. 2027 defense ban + $12B Project Vault are irreversible policy directions.
-5. **Growth optionality** — Montana project + molybdenum + Phase II provide 2027-2028 growth catalysts.
-6. **Aligned management** — 39% insider ownership, CEO didn't sell during 250% rally.
-
-### 🐻 Bear Case
-
-1. **Extreme valuation** — EV/2026E Revenue 27-34x prices in perfection for a mining company.
-2. **Execution risk** — Processing plant stabilization is the key unknown. Mining delays are the norm, not the exception.
-3. **Severe dilution** — 50% share count increase in one year. Further financing likely for expansion.
-4. **No positive EBITDA** — Still cash-burning, Altman Z-Score in distress zone.
-5. **Tungsten price reversal** — Current prices include panic premium. Chinese policy reversal could crash prices.
-6. **Single-asset concentration** — Nearly all value depends on one mine.
-7. **Rising competition** — Multiple companies targeting the same non-Chinese supply gap.
-
----
-
-## 9. Key Uncertainties & Monitoring Points
+**Monitoring map:**
 
 | Timeline | Event | Importance |
 |----------|-------|-----------|
-| Q1/Q2 2026 | Sangdong first commercial revenue recognition | ⭐⭐⭐⭐⭐ |
-| H1 2026 | Processing plant utilization data | ⭐⭐⭐⭐⭐ |
-| Ongoing | APT price trajectory (sustaining $400+/MTU?) | ⭐⭐⭐⭐ |
-| H2 2026 | Montana project permitting progress | ⭐⭐⭐ |
-| Q4 2026 | Molybdenum drilling results | ⭐⭐⭐ |
-| 2027 | Phase II expansion launch | ⭐⭐⭐⭐ |
+| Q1/Q2 2026 | Sangdong first commercial revenue recognition | High |
+| H1 2026 | Processing-plant utilization data | High |
+| Ongoing | APT price trajectory (sustaining $400+/MTU?) | High |
+| H2 2026 | Montana permitting progress | Medium |
+| Q4 2026 | Molybdenum drilling results | Medium |
+| 2027 | Phase II expansion launch | High |
 
----
+**Near-term (0-6 months):** Sangdong first commercial revenue recognition; processing-plant utilization; APT/tungsten price trajectory; Q2 financial statements, MD&A, and cash balance. **Medium-term (6-18 months):** Montana permitting; molybdenum drilling results; convertible-note terms and dilution. **Long-term (18+ months):** Phase II expansion launch (2027); whether Sangdong becomes a reliable cash-flow asset.
 
-## 10. Overall Assessment
+**Key monitoring metrics:** Sangdong production, cash cost, and commercial revenue; tungsten/APT prices and Chinese export policy; convertible terms and share count; Plansee/GTP offtake execution, customer payments, and inventory.
 
-### Scorecard
+## 10. Conclusion & Review
 
-| Dimension | Score (1-10) | Notes |
-|-----------|-------------|-------|
-| Business Quality | 7/10 | Scarce non-Chinese tungsten asset, but single-mine concentration |
-| Competitive Moat | 8/10 | Geopolitical moat + 15-year offtake + defense customers |
-| Financial Health | 4/10 | Negative EBITDA, heavy dilution, Z-Score warning; but cash-rich |
-| Management | 7/10 | Long tenure, aligned incentives, defense-connected board |
-| Valuation | 3/10 | EV/Revenue 27-34x, priced for perfection or beyond |
-| Catalyst Clarity | 8/10 | Sangdong ramp, tungsten prices, U.S. policy all near-term |
+**Scorecard:** business quality 7/10 (scarce ex-China asset, but single-mine concentration); competitive moat 8/10 (geopolitical moat + 15-year offtake + defense customers); financial health 4/10 (negative EBITDA, heavy dilution, Z-Score warning, but cash-rich); management 7/10 (long tenure, aligned, defense-connected board); valuation 3/10 (priced for perfection or beyond); catalyst clarity 8/10 (Sangdong ramp, tungsten prices, U.S. policy all near-term).
 
-### Bottom Line
+Almonty's strategic scarcity is clearer than in February and Nasdaq liquidity is stronger, but the current $5.29B market cap already capitalizes substantial Sangdong success, and mining projects rarely deliver perfection. This is a monitoring view, not allocation advice: it suits investors comfortable with high volatility who believe in the critical-minerals theme, not those seeking stable cash flow; any position should sit within a risk budget appropriate for a single-asset, high-volatility miner rather than a fixed weight. The rerun stance is **neutral / high-risk watchlist** — track project evidence rather than rely on scarcity alone.
 
-Almonty is a "high-conviction, high-risk" story. The core thesis — the West needs non-Chinese tungsten, and Almonty is the largest supplier — is solid. But a $4B market cap demands near-perfect execution, and mining projects rarely deliver perfection.
+## 11. Appendix & Sources
 
-**Suitable for:**
-- ✅ Investors comfortable with high volatility who believe in the critical minerals secular theme
-- ✅ Existing holders considering adding on pullbacks
+**Sources:**
 
-**Not suitable for:**
-- ❌ Investors seeking stable cash flows or low volatility
-- ❌ New positions at current prices (valuation fully reflects optimism)
-
----
-
-*This report is based on publicly available information and does not constitute investment advice. Investing involves risk — please conduct your own due diligence.*
+- Archived baseline: `almonty-2026-pre-rerun`
+- Almonty financials: `https://almonty.com/investors/financials/`
+- Almonty news: `https://almonty.com/news/`
+- Company filings, offtake announcements, and SEC/SEDAR disclosures for Sangdong, financing, and reserve updates.
+- Nasdaq quote API: ALM $18.59 and roughly $5.29B market cap on June 22, 2026.

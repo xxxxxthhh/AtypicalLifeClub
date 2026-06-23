@@ -6,7 +6,12 @@
     "title": "AAOI 深度研究报告 - AI数据中心光模块高弹性与高估值考验",
     "titleEn": "AAOI Deep Research Report - AI Data Center Optics Upside Meets a Demanding Valuation",
     "summary": "AI数据中心光模块高弹性标的，Q1 2026营收$151.1M（+51%），Data Center收入$81.4M（+154%），800G产品已向大型hyperscale客户首批量产出货。Q2指引收入$180-198M，Q3随产能上线预计显著放大。但GAAP仍亏损、经营现金流-$85.4M，当前EV/TTM Sales约26.6x，客户集中和ATM稀释是核心风险。",
-    "tags": ["光通信", "AI数据中心", "800G/1.6T", "光模块"],
+    "tags": [
+      "光通信",
+      "AI数据中心",
+      "800G/1.6T",
+      "光模块"
+    ],
     "category": "tech",
     "date": "2026-06-23",
     "lastUpdate": "2026-06-23",
@@ -32,7 +37,12 @@
     "title": "Tempus AI 深度研究报告 - 精准医疗数据飞轮的高增长与高风险",
     "titleEn": "Tempus AI Deep Research Report - Precision Medicine Data Flywheel's High Growth and High Risk",
     "summary": "精准医疗全栈平台，FY2025营收$12.7亿（+83%），有机增速33.5%。诊断+数据授权+AI三位一体飞轮模式，126%净留存率，$11亿合同积压。但GAAP仍亏损，CEO累计减持$1.27亿，做空比例20.6%，P/S ~8x。2026年指引收入$15.9亿、调整后EBITDA $6500万，盈利拐点待验证。",
-    "tags": ["精准医疗", "AI医疗", "基因组学", "数据平台"],
+    "tags": [
+      "精准医疗",
+      "AI医疗",
+      "基因组学",
+      "数据平台"
+    ],
     "category": "tech",
     "date": "2026-02-27",
     "lastUpdate": "2026-02-27",
@@ -55,7 +65,12 @@
     "title": "SK hynix 深度研究报告 - HBM垄断者的AI记忆霸权",
     "titleEn": "SK hynix Deep Research Report - The HBM Monopolist's AI Memory Dominance",
     "summary": "全球HBM垄断者，53%市场份额+NVIDIA独家绑定。FY2025营收₩97.1万亿（+47%），营业利润₩47.2万亿（+101%），利润率49%。首次超越三星年度利润。Forward P/E仅5.3x，可能是全球半导体中最被低估的标的。韩股上市限制投资途径，EWY ETF是最便捷间接方式。",
-    "tags": ["半导体", "HBM", "AI内存", "韩国"],
+    "tags": [
+      "半导体",
+      "HBM",
+      "AI内存",
+      "韩国"
+    ],
     "category": "tech",
     "date": "2026-02-25",
     "lastUpdate": "2026-02-25",
@@ -72,27 +87,81 @@
     ]
   },
   {
-    "id": "almonty-2026",
+    "id": "almonty-2026-pre-rerun",
     "company": "Almonty Industries",
     "ticker": "NASDAQ: ALM / TSX: AII",
-    "title": "Almonty Industries 深度研究报告 - 非中国钨矿霸主的地缘政治豪赌",
-    "titleEn": "Almonty Industries Deep Research Report - The Non-Chinese Tungsten Leader's Geopolitical Bet",
-    "summary": "全球最重要的非中国钨矿生产商，旗舰Sangdong矿2026年初商业化投产。中国钨出口收缩40%+美国国防禁令提供结构性顺风，15年Plansee包销锁定收入下限。但$40亿市值对应TTM仅$2150万收入，EV/2026E Revenue 27-34x，估值已极度拉伸。",
-    "tags": ["钨矿", "关键矿物", "国防", "地缘政治"],
+    "title": "Almonty Industries 深度研究报告 - 非中国钨矿霸主的地缘政治豪赌 - 重跑前归档版",
+    "titleEn": "Almonty Industries Deep Research Report - The Non-Chinese Tungsten Leader's Geopolitical Bet - Pre-rerun Archive",
+    "summary": "归档的2026H1重跑前版本，保留Sangdong、钨出口、Plansee/GTP和旧市值/收入倍数框架。",
+    "tags": [
+      "钨矿",
+      "关键矿物",
+      "国防",
+      "地缘政治"
+    ],
     "category": "energy",
     "date": "2026-02-19",
     "lastUpdate": "2026-02-19",
+    "file": "/invest/research/reports/view.html?id=almonty-2026-pre-rerun",
+    "markdownFiles": {
+      "zh": "/invest/research/Almonty_Industries_深度研究报告_2026-02_pre_rerun.md",
+      "en": "/invest/research/Almonty_Industries_Deep_Research_Report_2026-02_pre_rerun.md"
+    },
+    "highlights": [
+      "重跑前归档版本",
+      "保留原始判断与旧估值框架",
+      "作为当前完整重跑版本的对照基线"
+    ],
+    "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the Sangdong, tungsten-export, Plansee/GTP, and old market-cap/revenue-multiple framework.",
+    "isCurrent": false,
+    "period": "2026H1",
+    "versionType": "incremental",
+    "versionLabel": "2026H1 Pre-rerun Baseline"
+  },
+  {
+    "id": "almonty-2026",
+    "company": "Almonty Industries",
+    "ticker": "NASDAQ: ALM / TSX: AII",
+    "title": "Almonty Industries 深度研究报告 - 西方钨供应链稀缺资产的兑现考验",
+    "titleEn": "Almonty Industries Deep Research Report - Western Tungsten Scarcity Asset Execution Test",
+    "summary": "2026-06-23完整重跑版：ALM股价约$18.59、市值约$5.29B；Nasdaq上市和Sangdong战略稀缺性提高关注度，但当前估值要求矿山按计划放量、钨价维持高位且融资稀释可控。",
+    "tags": [
+      "钨矿",
+      "关键矿物",
+      "国防",
+      "地缘政治"
+    ],
+    "category": "energy",
+    "date": "2026-02-19",
+    "lastUpdate": "2026-06-23",
     "file": "/invest/research/reports/view.html?id=almonty-2026",
     "markdownFiles": {
       "zh": "/invest/research/Almonty_Industries_深度研究报告_2026-02.md",
       "en": "/invest/research/Almonty_Industries_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "Sangdong矿2026年初商业化投产，满产后供应全球非中国钨的~40%",
-      "中国钨出口收缩40%，APT价格暴涨至$460/MTU，美国2027年国防禁用中国钨",
-      "Plansee 15年包销$235/MTU底价无上限，内部人持股39%",
-      "市值$40亿，EV/2026E Revenue 27-34x，TTM收入仅$2150万，估值要求完美执行"
-    ]
+      "股价约$18.59、市值约$5.29B，52周区间约$3.16-$24.41",
+      "官方financials页面已列出Q1 2026财报、财务报表和MD&A",
+      "Sangdong满产后预计供应全球非中国钨产量80%以上，是核心价值锚",
+      "结论调整为中性/高风险观察：战略稀缺性强，但项目必须兑现"
+    ],
+    "summaryEn": "June 23, 2026 full rerun: ALM trades around $18.59 with roughly $5.29B market cap. Nasdaq liquidity and Sangdong scarcity improve visibility, but valuation requires mine ramp execution, elevated tungsten prices, and controlled financing dilution.",
+    "period": "2026H1",
+    "versionType": "full-cycle",
+    "versionLabel": "2026H1 Full Rerun",
+    "isCurrent": true,
+    "supersedes": "almonty-2026-pre-rerun",
+    "diffBase": "almonty-2026-pre-rerun",
+    "previousAnnualReport": {
+      "id": "almonty-2026-pre-rerun",
+      "label": "2026H1 重跑前版本",
+      "labelEn": "2026H1 Pre-rerun Version",
+      "file": "/invest/research/reports/view.html?id=almonty-2026-pre-rerun",
+      "date": "2026-02-19",
+      "lastUpdate": "2026-02-19",
+      "summary": "归档的2026H1重跑前版本，保留Sangdong、钨出口、Plansee/GTP和旧市值/收入倍数框架。",
+      "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the Sangdong, tungsten-export, Plansee/GTP, and old market-cap/revenue-multiple framework."
+    }
   },
   {
     "id": "igv-2026",
@@ -101,7 +170,12 @@
     "title": "IGV 深度研究报告 - Software-mageddon后的软件行业ETF抄底机会？",
     "titleEn": "IGV Deep Research Report - A Buying Opportunity After the Software-mageddon?",
     "summary": "美国软件行业旗舰ETF，AUM $79亿，持仓119只北美软件股。2026年初遭遇\"Software-mageddon\"，YTD -23.4%，AI颠覆恐慌引发无差别抛售。前10大持仓占60%（MSFT 9.5%、PLTR 8.1%、ORCL 7.9%）。隐含波动率处92百分位，10年年化17%。",
-    "tags": ["ETF", "软件行业", "SaaS", "AI颠覆"],
+    "tags": [
+      "ETF",
+      "软件行业",
+      "SaaS",
+      "AI颠覆"
+    ],
     "category": "tech",
     "date": "2026-02-15",
     "lastUpdate": "2026-02-15",
@@ -124,7 +198,12 @@
     "title": "Airbnb 深度研究报告 - 全球短租霸主的增长再加速之问",
     "titleEn": "Airbnb Deep Research Report - Can the Global Short-Term Rental Leader Re-Accelerate Growth?",
     "summary": "全球短租市场领导者，FY2025营收$122亿（+10%），FCF $46亿（利润率38%），533M间夜数。品牌护城河深厚，$60亿回购计划，但增速从40%降至10%，全球监管收紧+Booking.com追赶。P/FCF ~15.5x，Forward P/E ~29x。",
-    "tags": ["在线旅游", "共享经济", "平台经济", "AI"],
+    "tags": [
+      "在线旅游",
+      "共享经济",
+      "平台经济",
+      "AI"
+    ],
     "category": "tech",
     "date": "2026-02-13",
     "lastUpdate": "2026-02-13",
@@ -141,50 +220,158 @@
     ]
   },
   {
-    "id": "hims-2026",
+    "id": "hims-2026-pre-rerun",
     "company": "Hims & Hers Health",
     "ticker": "NYSE: HIMS",
-    "title": "Hims & Hers 深度研究报告 - DTC远程医疗领跑者的GLP-1监管风暴",
-    "titleEn": "Hims & Hers Deep Research Report - DTC Telehealth Leader's GLP-1 Regulatory Storm",
-    "summary": "美国DTC远程医疗龙头，FY2025E营收$23.5亿（+58%），250万订阅用户，ARPU $80/月。Novo Nordisk专利诉讼+DOJ调查双重打击，GLP-1业务（~30%收入）面临存亡危机，但非GLP-1核心业务（~70%）依然稳健。股价从高点回调55%+。",
-    "tags": ["远程医疗", "DTC", "GLP-1", "订阅经济"],
+    "title": "Hims & Hers 深度研究报告 - DTC远程医疗领跑者的GLP-1监管风暴 - 重跑前归档版",
+    "titleEn": "Hims & Hers Deep Research Report - DTC Telehealth Leader's GLP-1 Regulatory Storm - Pre-rerun Archive",
+    "summary": "归档的2026H1重跑前版本，保留2月GLP-1监管二元变量和旧收入/估值框架。",
+    "tags": [
+      "远程医疗",
+      "DTC",
+      "GLP-1",
+      "订阅经济"
+    ],
     "category": "tech",
     "date": "2026-02-13",
     "lastUpdate": "2026-02-13",
+    "file": "/invest/research/reports/view.html?id=hims-2026-pre-rerun",
+    "markdownFiles": {
+      "zh": "/invest/research/Hims_Hers_深度研究报告_2026-02_pre_rerun.md",
+      "en": "/invest/research/Hims_Hers_Deep_Research_Report_2026-02_pre_rerun.md"
+    },
+    "highlights": [
+      "重跑前归档版本",
+      "保留原始判断与旧估值框架",
+      "作为当前完整重跑版本的对照基线"
+    ],
+    "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the February GLP-1 regulatory binary and old revenue/valuation framework.",
+    "isCurrent": false,
+    "period": "2026H1",
+    "versionType": "incremental",
+    "versionLabel": "2026H1 Pre-rerun Baseline"
+  },
+  {
+    "id": "hims-2026",
+    "company": "Hims & Hers Health",
+    "ticker": "NYSE: HIMS",
+    "title": "Hims & Hers 深度研究报告 - 增长质量与GLP-1监管考验",
+    "titleEn": "Hims & Hers Deep Research Report - Growth Quality and GLP-1 Regulatory Test",
+    "summary": "2026-06-23完整重跑版：HIMS股价约$33.54、市值约$7.77B；核心订阅平台仍有价值，但GLP-1/复合药监管、非GLP-1增长、获客效率和现金流质量决定当前估值能否成立。",
+    "tags": [
+      "远程医疗",
+      "DTC",
+      "GLP-1",
+      "订阅经济"
+    ],
+    "category": "tech",
+    "date": "2026-02-13",
+    "lastUpdate": "2026-06-23",
     "file": "/invest/research/reports/view.html?id=hims-2026",
     "markdownFiles": {
       "zh": "/invest/research/Hims_Hers_深度研究报告_2026-02.md",
       "en": "/invest/research/Hims_Hers_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "FY2025E营收$23.5亿（+58%），250万订阅用户，月ARPU $80（+19%）",
-      "Novo Nordisk专利诉讼（2026.2.9）+ DOJ调查转介（2026.2.6）",
-      "非GLP-1业务占收入~70%，留存率>85%，核心基本盘稳固",
-      "股价从高点回调55%+，P/S ~2x，监管结果为核心二元变量"
-    ]
+      "股价约$33.54、市值约$7.77B，约3.3x 2月FY2025E收入基线",
+      "非GLP-1订阅业务质量是估值支撑的核心",
+      "GLP-1/复合药监管、Novo/礼来压力和品牌信任仍是主要风险",
+      "结论调整为中性/观察：从增长速度转向增长质量审计"
+    ],
+    "summaryEn": "June 23, 2026 full rerun: HIMS trades around $33.54 with roughly $7.77B market cap. The core subscription platform remains valuable, but GLP-1/compound-drug regulation, non-GLP-1 growth, acquisition efficiency, and cash-flow quality determine the valuation.",
+    "period": "2026H1",
+    "versionType": "full-cycle",
+    "versionLabel": "2026H1 Full Rerun",
+    "isCurrent": true,
+    "supersedes": "hims-2026-pre-rerun",
+    "diffBase": "hims-2026-pre-rerun",
+    "previousAnnualReport": {
+      "id": "hims-2026-pre-rerun",
+      "label": "2026H1 重跑前版本",
+      "labelEn": "2026H1 Pre-rerun Version",
+      "file": "/invest/research/reports/view.html?id=hims-2026-pre-rerun",
+      "date": "2026-02-13",
+      "lastUpdate": "2026-02-13",
+      "summary": "归档的2026H1重跑前版本，保留2月GLP-1监管二元变量和旧收入/估值框架。",
+      "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the February GLP-1 regulatory binary and old revenue/valuation framework."
+    }
+  },
+  {
+    "id": "bloom-energy-2026-pre-rerun",
+    "company": "Bloom Energy",
+    "ticker": "NYSE: BE",
+    "title": "Bloom Energy 深度研究报告 - AI数据中心电力基础设施的关键玩家 - 重跑前归档版",
+    "titleEn": "Bloom Energy Deep Research Report - Critical Power Infrastructure Player for AI Data Centers - Pre-rerun Archive",
+    "summary": "归档的2026H1重跑前版本，保留Q4 2025、Brookfield、800V DC和旧估值框架。",
+    "tags": [
+      "燃料电池",
+      "AI数据中心",
+      "清洁能源",
+      "SOFC"
+    ],
+    "category": "energy",
+    "date": "2026-02-11",
+    "lastUpdate": "2026-02-11",
+    "file": "/invest/research/reports/view.html?id=bloom-energy-2026-pre-rerun",
+    "markdownFiles": {
+      "zh": "/invest/research/Bloom_Energy_深度研究报告_2026-02_pre_rerun.md",
+      "en": "/invest/research/Bloom_Energy_Deep_Research_Report_2026-02_pre_rerun.md"
+    },
+    "highlights": [
+      "重跑前归档版本",
+      "保留原始判断与旧估值框架",
+      "作为当前完整重跑版本的对照基线"
+    ],
+    "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the Q4 2025, Brookfield, 800V DC, and old valuation framework.",
+    "isCurrent": false,
+    "period": "2026H1",
+    "versionType": "incremental",
+    "versionLabel": "2026H1 Pre-rerun Baseline"
   },
   {
     "id": "bloom-energy-2026",
     "company": "Bloom Energy",
     "ticker": "NYSE: BE",
-    "title": "Bloom Energy 深度研究报告 - AI数据中心电力基础设施的关键玩家",
-    "titleEn": "Bloom Energy Deep Research Report - Critical Power Infrastructure Player for AI Data Centers",
-    "summary": "固体氧化物燃料电池龙头，2025年营收$20.2亿（+37%），Non-GAAP毛利率30.3%，首次GAAP盈亏平衡。$200亿总积压订单，Brookfield $50亿合作，AEP $26.5亿协议。2026年营收指引$31-33亿（+54-63%）。市值~$360亿，EV/Revenue(2026E) ~11x，估值要求近乎完美执行。",
-    "tags": ["燃料电池", "AI数据中心", "清洁能源", "SOFC"],
+    "title": "Bloom Energy 深度研究报告 - AI电力基础设施高弹性与极高估值",
+    "titleEn": "Bloom Energy Deep Research Report - AI Power Infrastructure Upside Meets Extreme Valuation",
+    "summary": "2026-06-23完整重跑版：BE股价约$345.85、市值约$98.30B；AI数据中心电力需求和Q1后指引改善强化基本面，但以约$3.2B 2026收入参考，当前市值/收入约31x，估值容错极低。",
+    "tags": [
+      "燃料电池",
+      "AI数据中心",
+      "清洁能源",
+      "SOFC"
+    ],
     "category": "energy",
     "date": "2026-02-11",
-    "lastUpdate": "2026-02-11",
+    "lastUpdate": "2026-06-23",
     "file": "/invest/research/reports/view.html?id=bloom-energy-2026",
     "markdownFiles": {
       "zh": "/invest/research/Bloom_Energy_深度研究报告_2026-02.md",
       "en": "/invest/research/Bloom_Energy_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "2025年营收$20.2亿（+37%），首次GAAP盈亏平衡，Non-GAAP毛利率30.3%",
-      "总积压订单$200亿（产品$60亿+140% YoY），Brookfield $50亿AI数据中心合作",
-      "固定式燃料电池全球市场份额44%，55-90天快速部署 vs 电网3-7年",
-      "2026年营收指引$31-33亿，市值~$360亿，客户集中度和持续稀释是核心风险"
-    ]
+      "股价约$345.85、市值约$98.30B，较2月框架大幅重定价",
+      "AI数据中心现场电力需求强化增长可见度",
+      "以约$3.2B 2026收入参考，市值/收入约31x",
+      "结论调整为中性/观察：基本面强，但估值要求订单、产能、利润率和现金流同时兑现"
+    ],
+    "summaryEn": "June 23, 2026 full rerun: BE trades around $345.85 with roughly $98.30B market cap. AI data-center power demand and improved post-Q1 guidance strengthen the story, but against a roughly $3.2B 2026 revenue reference, market cap/sales is about 31x.",
+    "period": "2026H1",
+    "versionType": "full-cycle",
+    "versionLabel": "2026H1 Full Rerun",
+    "isCurrent": true,
+    "supersedes": "bloom-energy-2026-pre-rerun",
+    "diffBase": "bloom-energy-2026-pre-rerun",
+    "previousAnnualReport": {
+      "id": "bloom-energy-2026-pre-rerun",
+      "label": "2026H1 重跑前版本",
+      "labelEn": "2026H1 Pre-rerun Version",
+      "file": "/invest/research/reports/view.html?id=bloom-energy-2026-pre-rerun",
+      "date": "2026-02-11",
+      "lastUpdate": "2026-02-11",
+      "summary": "归档的2026H1重跑前版本，保留Q4 2025、Brookfield、800V DC和旧估值框架。",
+      "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the Q4 2025, Brookfield, 800V DC, and old valuation framework."
+    }
   },
   {
     "id": "salesforce-2026",
@@ -193,7 +380,12 @@
     "title": "Salesforce 深度研究报告 - CRM霸主的AI转型与估值重估",
     "titleEn": "Salesforce Deep Research Report - CRM Leader's AI Transformation and Valuation Reset",
     "summary": "全球CRM霸主，FY2025营收$37.9B（+9%），FCF $12.4B（+31%），Non-GAAP利润率33%。Agentforce ARR $540M（+330%），$80亿收购Informatica。股价从$330跌至~$193（-41%），Forward P/E仅17x，P/S接近10年低位。净留存率降至~100%是核心担忧。",
-    "tags": ["企业软件", "CRM", "AI Agent", "SaaS"],
+    "tags": [
+      "企业软件",
+      "CRM",
+      "AI Agent",
+      "SaaS"
+    ],
     "category": "tech",
     "date": "2026-02-11",
     "lastUpdate": "2026-02-11",
@@ -210,27 +402,81 @@
     ]
   },
   {
-    "id": "coinbase-2026",
+    "id": "coinbase-2026-pre-rerun",
     "company": "Coinbase",
     "ticker": "NASDAQ: COIN",
-    "title": "Coinbase 深度研究报告 - 加密基础设施垄断者的转型与周期博弈",
-    "titleEn": "Coinbase Deep Research Report - Crypto Infrastructure Monopolist's Transformation and Cycle Play",
-    "summary": "美国最大合规加密交易所，标普500成分股。FY2024营收$6.56B，净利润$3.2B。订阅收入占比提升至40%，9/11个BTC ETF托管方，$29亿收购Deribit。股价从$444跌至~$150，TTM P/E 15x。SEC诉讼已撤销，但SBC $2.1B/年、加密周期不确定性是核心风险。",
-    "tags": ["加密货币", "交易所", "USDC", "衍生品"],
+    "title": "Coinbase 深度研究报告 - 加密基础设施垄断者的转型与周期博弈 - 重跑前归档版",
+    "titleEn": "Coinbase Deep Research Report - Crypto Infrastructure Monopolist's Transformation and Cycle Play - Pre-rerun Archive",
+    "summary": "归档的2026H1重跑前版本，保留Q4/FY2025、交易量、托管、USDC和旧估值框架。",
+    "tags": [
+      "加密货币",
+      "交易所",
+      "USDC",
+      "衍生品"
+    ],
     "category": "tech",
     "date": "2026-02-11",
     "lastUpdate": "2026-02-11",
+    "file": "/invest/research/reports/view.html?id=coinbase-2026-pre-rerun",
+    "markdownFiles": {
+      "zh": "/invest/research/Coinbase_深度研究报告_2026-02_pre_rerun.md",
+      "en": "/invest/research/Coinbase_Deep_Research_Report_2026-02_pre_rerun.md"
+    },
+    "highlights": [
+      "重跑前归档版本",
+      "保留原始判断与旧估值框架",
+      "作为当前完整重跑版本的对照基线"
+    ],
+    "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the Q4/FY2025, trading volume, custody, USDC, and old valuation framework.",
+    "isCurrent": false,
+    "period": "2026H1",
+    "versionType": "incremental",
+    "versionLabel": "2026H1 Pre-rerun Baseline"
+  },
+  {
+    "id": "coinbase-2026",
+    "company": "Coinbase",
+    "ticker": "NASDAQ: COIN",
+    "title": "Coinbase 深度研究报告 - 合规加密基础设施平台",
+    "titleEn": "Coinbase Deep Research Report - Regulated Crypto Infrastructure Platform",
+    "summary": "2026-06-23完整重跑版：COIN股价约$164.84、市值约$43.42B；SEC尾部风险降低、Deribit强化衍生品、标普500纳入提升主流覆盖，但交易量周期、Base/USDC质量和SBC仍决定估值。",
+    "tags": [
+      "加密货币",
+      "交易所",
+      "USDC",
+      "衍生品"
+    ],
+    "category": "tech",
+    "date": "2026-02-11",
+    "lastUpdate": "2026-06-23",
     "file": "/invest/research/reports/view.html?id=coinbase-2026",
     "markdownFiles": {
       "zh": "/invest/research/Coinbase_深度研究报告_2026-02.md",
       "en": "/invest/research/Coinbase_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "FY2024营收$6.56B，净利润$3.2B，标普500成分股",
-      "订阅收入占比40%，9/11个BTC ETF托管方，Deribit $29亿收购",
-      "SEC诉讼已撤销，Base链Q4稳定币交易量$3T",
-      "股价从$444跌至~$150（-65%），TTM P/E 15x，SBC $2.1B/年"
-    ]
+      "股价约$164.84、市值约$43.42B，FY2025收入口径下约6.0x销售额",
+      "SEC诉讼尾部风险下降，标普500纳入改善主流覆盖",
+      "Deribit强化衍生品版图，但并购整合和SBC仍需跟踪",
+      "估值核心从低P/E切换到非交易收入质量和周期韧性"
+    ],
+    "summaryEn": "June 23, 2026 full rerun: COIN trades around $164.84 with roughly $43.42B market cap. Lower SEC tail risk, Deribit, and S&P 500 inclusion improve the platform story, while trading cycles, Base/USDC quality, and SBC still drive valuation.",
+    "period": "2026H1",
+    "versionType": "full-cycle",
+    "versionLabel": "2026H1 Full Rerun",
+    "isCurrent": true,
+    "supersedes": "coinbase-2026-pre-rerun",
+    "diffBase": "coinbase-2026-pre-rerun",
+    "previousAnnualReport": {
+      "id": "coinbase-2026-pre-rerun",
+      "label": "2026H1 重跑前版本",
+      "labelEn": "2026H1 Pre-rerun Version",
+      "file": "/invest/research/reports/view.html?id=coinbase-2026-pre-rerun",
+      "date": "2026-02-11",
+      "lastUpdate": "2026-02-11",
+      "summary": "归档的2026H1重跑前版本，保留Q4/FY2025、交易量、托管、USDC和旧估值框架。",
+      "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the Q4/FY2025, trading volume, custody, USDC, and old valuation framework."
+    }
   },
   {
     "id": "amzn-2026",
@@ -239,7 +485,12 @@
     "title": "Amazon 深度研究报告 - AI基础设施豪赌与飞轮加速",
     "titleEn": "Amazon Deep Research Report - The AI Infrastructure Bet and Flywheel Acceleration",
     "summary": "全球最大电商+云计算巨头，FY2025营收$716.9B（+12%），营业利润$80B，净利润$77.7B。AWS增速重新加速至24%，广告$68.6B（+22%），自研芯片年化收入超$100亿。2026年资本开支指引$200B，FCF从$38B骤降至$11B。P/E 29x，分部估值有上行空间。",
-    "tags": ["云计算", "电商", "AI基础设施", "广告"],
+    "tags": [
+      "云计算",
+      "电商",
+      "AI基础设施",
+      "广告"
+    ],
     "category": "tech",
     "date": "2026-02-11",
     "lastUpdate": "2026-02-11",
@@ -262,7 +513,12 @@
     "title": "Netflix 深度研究报告 - 流媒体帝国的豪赌与转型",
     "titleEn": "Netflix Deep Research Report - The Streaming Empire's Bold Bet and Transformation",
     "summary": "全球流媒体龙头，2025年营收$45.2B（+16%），运营利润率29.5%，FCF $9.5B。3.25亿付费用户，广告收入超$1.5B。827亿美元收购华纳兄弟是最大变量，股价从高点回调40%+后Forward PE ~26-29x。",
-    "tags": ["流媒体", "内容平台", "广告", "并购"],
+    "tags": [
+      "流媒体",
+      "内容平台",
+      "广告",
+      "并购"
+    ],
     "category": "tech",
     "date": "2026-02-10",
     "lastUpdate": "2026-02-10",
@@ -285,7 +541,12 @@
     "title": "Spotify 深度研究报告 - 音频科技平台的盈利转型",
     "titleEn": "Spotify Deep Research Report - Audio Tech Platform's Profitability Transformation",
     "summary": "全球最大音频流媒体平台，2025年完成盈利转型：运营利润€2.2B（利润率12.8%），FCF €2.9B。7.51亿MAU、2.90亿付费用户，定价权释放+AI驱动增长，但Forward PE ~45x仍需消化高预期。",
-    "tags": ["流媒体", "音频科技", "AI", "订阅经济"],
+    "tags": [
+      "流媒体",
+      "音频科技",
+      "AI",
+      "订阅经济"
+    ],
     "category": "tech",
     "date": "2026-02-10",
     "lastUpdate": "2026-02-10",
@@ -308,7 +569,12 @@
     "title": "NeoVolta 深度研究报告 - 美国住宅储能新势力",
     "titleEn": "NeoVolta Deep Research Report - Emerging U.S. Residential Energy Storage Player",
     "summary": "加州储能公司，Q1 FY2026营收670万美元（同比+1,027%）。neuClick模块化平台+佐治亚工厂合资（隆基），押注IRA国产化红利，但仍未盈利且面临特斯拉强势竞争。",
-    "tags": ["储能", "新能源", "LFP电池", "IRA"],
+    "tags": [
+      "储能",
+      "新能源",
+      "LFP电池",
+      "IRA"
+    ],
     "category": "energy",
     "date": "2026-02-09",
     "lastUpdate": "2026-02-09",
@@ -331,7 +597,12 @@
     "title": "COPX 深度研究报告 - 铜超级周期的杠杆化敞口",
     "titleEn": "COPX Deep Research Report - Leveraged Exposure to the Copper Supercycle",
     "summary": "全球最大纯铜矿ETF，AUM 74亿美元，过去一年回报105%。电气化、AI数据中心、EV三大需求驱动结构性铜超级周期，但短期估值偏高且关税扭曲风险显著。",
-    "tags": ["铜矿", "ETF", "大宗商品", "能源转型"],
+    "tags": [
+      "铜矿",
+      "ETF",
+      "大宗商品",
+      "能源转型"
+    ],
     "category": "energy",
     "date": "2026-02-07",
     "lastUpdate": "2026-02-07",
@@ -358,7 +629,12 @@
     "title": "AMD 深度研究报告 - 2026H1 重跑前版本",
     "titleEn": "AMD Deep Research Report - 2026H1 Pre-rerun Version",
     "summary": "归档的2026H1重跑前基线版本，保留更完整的业务概览、行业竞争、管理层、牛熊论点和旧估值框架，用于审计与对照。",
-    "tags": ["半导体", "AI加速器", "数据中心", "CPU/GPU"],
+    "tags": [
+      "半导体",
+      "AI加速器",
+      "数据中心",
+      "CPU/GPU"
+    ],
     "category": "tech",
     "date": "2026-02-04",
     "lastUpdate": "2026-06-22",
@@ -396,7 +672,12 @@
     "title": "AMD 深度研究报告 - AI时代的半导体挑战者",
     "titleEn": "AMD Deep Research Report - AI Era Semiconductor Challenger",
     "summary": "2026-06-22完整重跑版：AMD Q1 2026营收$102.53亿（+38% YoY），Data Center收入约$58亿（+57% YoY），Meta 6GW与Helios/MI450强化AI基础设施平台叙事；但股价约$537、市值约$8,870亿，EV/TTM Sales约23.4x，当前结论调整为中性/观察：基本面强，估值容错极低。",
-    "tags": ["半导体", "AI加速器", "数据中心", "CPU/GPU"],
+    "tags": [
+      "半导体",
+      "AI加速器",
+      "数据中心",
+      "CPU/GPU"
+    ],
     "category": "tech",
     "date": "2026-02-04",
     "lastUpdate": "2026-06-22",
@@ -413,27 +694,81 @@
     ]
   },
   {
-    "id": "jinpan-2026",
+    "id": "jinpan-2026-pre-rerun",
     "company": "金盘科技",
     "ticker": "688676.SH",
-    "title": "金盘科技深度研究报告 - AI数据中心电源设备龙头",
-    "titleEn": "Jinpan Technology Deep Research Report - AI Data Center Power Equipment Leader",
-    "summary": "干式变压器细分市场龙头，全球市场份额25.5%。AIDC业务爆发式增长，数据中心订单同比增长603.68%。前瞻布局固态变压器，已送样英伟达。",
-    "tags": ["电力设备", "AI数据中心", "固态变压器", "科创板"],
+    "title": "金盘科技深度研究报告 - AI数据中心电源设备龙头 - 重跑前归档版",
+    "titleEn": "Jinpan Technology Deep Research Report - AI Data Center Power Equipment Leader - Pre-rerun Archive",
+    "summary": "归档的2026H1重跑前版本，保留2月价格、市值、AIDC/SST和应收账款风险框架，用于审计与对照。",
+    "tags": [
+      "电力设备",
+      "AI数据中心",
+      "固态变压器",
+      "科创板"
+    ],
     "category": "tech",
     "date": "2026-02-03",
     "lastUpdate": "2026-02-03",
+    "file": "/invest/research/reports/view.html?id=jinpan-2026-pre-rerun",
+    "markdownFiles": {
+      "zh": "/invest/research/金盘科技_深度研究报告_20260204_pre_rerun.md",
+      "en": "/invest/research/Jinpan_Technology_Deep_Research_Report_2026-02_pre_rerun.md"
+    },
+    "highlights": [
+      "重跑前归档版本",
+      "保留原始判断与旧估值框架",
+      "作为当前完整重跑版本的对照基线"
+    ],
+    "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the February price, market-cap, AIDC/SST, and receivables-risk framework for audit and comparison.",
+    "isCurrent": false,
+    "period": "2026H1",
+    "versionType": "incremental",
+    "versionLabel": "2026H1 Pre-rerun Baseline"
+  },
+  {
+    "id": "jinpan-2026",
+    "company": "金盘科技",
+    "ticker": "688676.SH",
+    "title": "金盘科技深度研究报告 - AI电力设备的高估值兑现考验",
+    "titleEn": "Jinpan Technology Deep Research Report - AI Power Equipment Execution at a Demanding Valuation",
+    "summary": "2026-06-23完整重跑版：金盘科技2026Q1营收约15.23亿元（+13.4%），归母净利约1.12亿元（+4.8%）；AIDC和SST仍是核心成长线索，但股价约86.00元、市值约395亿元，Q1年化P/E约88x，当前结论调整为中性/观察。",
+    "tags": [
+      "电力设备",
+      "AI数据中心",
+      "固态变压器",
+      "科创板"
+    ],
+    "category": "tech",
+    "date": "2026-02-03",
+    "lastUpdate": "2026-06-23",
     "file": "/invest/research/reports/view.html?id=jinpan-2026",
     "markdownFiles": {
       "zh": "/invest/research/金盘科技_深度研究报告_20260204.md",
       "en": "/invest/research/Jinpan_Technology_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "全球干式变压器市场份额25.5%",
-      "AIDC订单增长603.68%",
-      "固态变压器已送样英伟达",
-      "国家级制造业单项冠军"
-    ]
+      "2026Q1营收约15.23亿元（+13.4%），归母净利约1.12亿元（+4.8%）",
+      "AIDC、SST和海外扩张仍是中长期成长线索，但需要收入确认和回款验证",
+      "股价约86.00元、市值约395亿元，Q1年化P/E约88x",
+      "结论调整为中性/观察：业务质量仍好，估值和现金流验证要求提高"
+    ],
+    "summaryEn": "June 23, 2026 full rerun: Jinpan reported roughly RMB 1.52B of Q1 2026 revenue (+13.4%) and RMB 112M of parent net profit (+4.8%). AIDC and SST remain the growth story, but at about RMB 86.00 per share, RMB 39.5B market cap, and roughly 88x annualized Q1 earnings, the current stance is neutral/watchlist.",
+    "period": "2026H1",
+    "versionType": "full-cycle",
+    "versionLabel": "2026H1 Full Rerun",
+    "isCurrent": true,
+    "supersedes": "jinpan-2026-pre-rerun",
+    "diffBase": "jinpan-2026-pre-rerun",
+    "previousAnnualReport": {
+      "id": "jinpan-2026-pre-rerun",
+      "label": "2026H1 重跑前版本",
+      "labelEn": "2026H1 Pre-rerun Version",
+      "file": "/invest/research/reports/view.html?id=jinpan-2026-pre-rerun",
+      "date": "2026-02-03",
+      "lastUpdate": "2026-02-03",
+      "summary": "归档的2026H1重跑前版本，保留2月价格、市值、AIDC/SST和应收账款风险框架，用于审计与对照。",
+      "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the February price, market-cap, AIDC/SST, and receivables-risk framework for audit and comparison."
+    }
   },
   {
     "id": "paypal-2026",
@@ -442,7 +777,12 @@
     "title": "PayPal 深度调研报告 - 2025-2026年度分析",
     "titleEn": "PayPal Deep Research Report - 2025-2026 Analysis",
     "summary": "2026年6月增量更新：PayPal仍处于价值陷阱 vs 深度价值分歧点。Q1品牌结账约+2%，Venmo支付量约+14%，新CEO Enrique Lores进入执行期并推进三业务重组与约$1.5B降本计划。Nasdaq 6月18日报价$42.51、市值约$37.5B，估值仍低但旧合理价值区间已标记为历史框架。",
-    "tags": ["金融科技", "数字支付", "企业转型", "竞争分析"],
+    "tags": [
+      "金融科技",
+      "数字支付",
+      "企业转型",
+      "竞争分析"
+    ],
     "category": "tech",
     "date": "2026-02-03",
     "lastUpdate": "2026-06-22",
@@ -462,26 +802,80 @@
     ]
   },
   {
-    "id": "oklo-2026",
+    "id": "oklo-2026-pre-rerun",
     "company": "Oklo Inc.",
     "ticker": "NYSE: OKLO",
-    "title": "OKLO 深度研究报告 - 先进核能的想象力与现实",
-    "titleEn": "OKLO Deep Research Report - Advanced Nuclear's Imagination vs Reality",
-    "summary": "先进核裂变技术公司，零营收、$11.7B市值，$1.2B现金储备。14.7GW+项目管线（含Switch 12GW），Meta 1.2GW俄亥俄核能园区，爱达荷首堆2027-2028年投运。股价从$193高点回调63%至~$71，概率加权估值约$65-85。",
-    "tags": ["核能", "SMR", "清洁能源", "AI基础设施"],
+    "title": "OKLO 深度研究报告 - 先进核能的想象力与现实 - 重跑前归档版",
+    "titleEn": "OKLO Deep Research Report - Advanced Nuclear's Imagination vs Reality - Pre-rerun Archive",
+    "summary": "归档的2026H1重跑前版本，保留2月项目管线、目标价、首堆和零收入估值框架。",
+    "tags": [
+      "核能",
+      "SMR",
+      "清洁能源",
+      "AI基础设施"
+    ],
     "category": "nuclear",
     "date": "2026-02-10",
     "lastUpdate": "2026-02-10",
+    "file": "/invest/research/reports/view.html?id=oklo-2026-pre-rerun",
+    "markdownFiles": {
+      "zh": "/invest/research/Oklo_深度研究报告_2026-02_pre_rerun.md",
+      "en": "/invest/research/Oklo_Deep_Research_Report_2026-02_pre_rerun.md"
+    },
+    "highlights": [
+      "重跑前归档版本",
+      "保留原始判断与旧估值框架",
+      "作为当前完整重跑版本的对照基线"
+    ],
+    "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the February pipeline, target-price, first-reactor, and zero-revenue valuation framework.",
+    "isCurrent": false,
+    "period": "2026H1",
+    "versionType": "incremental",
+    "versionLabel": "2026H1 Pre-rerun Baseline"
+  },
+  {
+    "id": "oklo-2026",
+    "company": "Oklo Inc.",
+    "ticker": "NYSE: OKLO",
+    "title": "Oklo 深度研究报告 - 前商业化核能期权与AI电力需求",
+    "titleEn": "Oklo Deep Research Report - Pre-Commercial Nuclear Optionality Meets AI Power Demand",
+    "summary": "2026-06-23完整重跑版：OKLO股价约$58.40、市值约$10.15B；公司仍处首堆商业化前阶段，Meta/Switch等客户需求强化想象空间，但NRC许可、燃料、首堆成本和客户合同转化仍是决定性变量。",
+    "tags": [
+      "核能",
+      "SMR",
+      "清洁能源",
+      "AI基础设施"
+    ],
+    "category": "nuclear",
+    "date": "2026-02-10",
+    "lastUpdate": "2026-06-23",
     "file": "/invest/research/reports/view.html?id=oklo-2026",
     "markdownFiles": {
       "zh": "/invest/research/Oklo_深度研究报告_2026-02.md",
       "en": "/invest/research/Oklo_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "市值$11.7B，零营收前商业化阶段，现金$1.2B零债务",
-      "14.7GW+管线：Meta 1.2GW + Switch 12GW + 多家数据中心",
-      "爱达荷首堆2025年9月动工，目标2027-2028年投运",
-      "股价从$193高点回调63%至~$71，概率加权估值$65-85"
-    ]
+      "股价约$58.40、市值约$10.15B，仍是高波动前商业化核能期权",
+      "AI数据中心电力需求强化长期需求，但公司仍无商业收入",
+      "NRC许可、燃料供应和首堆时间线是核心验证点",
+      "估值不适合用P/E或EV/Sales，需用概率加权项目NAV框架"
+    ],
+    "summaryEn": "June 23, 2026 full rerun: OKLO trades around $58.40 with roughly $10.15B market cap. The company remains pre-commercial; Meta/Switch-like demand strengthens the option value, but NRC licensing, fuel, first-plant cost, and customer conversion remain decisive.",
+    "period": "2026H1",
+    "versionType": "full-cycle",
+    "versionLabel": "2026H1 Full Rerun",
+    "isCurrent": true,
+    "supersedes": "oklo-2026-pre-rerun",
+    "diffBase": "oklo-2026-pre-rerun",
+    "previousAnnualReport": {
+      "id": "oklo-2026-pre-rerun",
+      "label": "2026H1 重跑前版本",
+      "labelEn": "2026H1 Pre-rerun Version",
+      "file": "/invest/research/reports/view.html?id=oklo-2026-pre-rerun",
+      "date": "2026-02-10",
+      "lastUpdate": "2026-02-10",
+      "summary": "归档的2026H1重跑前版本，保留2月项目管线、目标价、首堆和零收入估值框架。",
+      "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the February pipeline, target-price, first-reactor, and zero-revenue valuation framework."
+    }
   }
 ]

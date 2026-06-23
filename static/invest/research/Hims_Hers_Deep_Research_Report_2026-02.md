@@ -1,290 +1,186 @@
 # Hims & Hers Health (NYSE: HIMS) Deep Research Report
 
 Coverage date: 2026-02-13
-Last updated: 2026-02-13
+Last updated: 2026-06-23
 Ticker: NYSE: HIMS
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
-## Executive Summary
+## 2026H1 Full Rerun Summary
 
-**One-Line Thesis:** Hims & Hers is the leading U.S. DTC telehealth platform with a powerful subscription engine, but an escalating GLP-1 regulatory storm and Novo Nordisk patent lawsuit threaten its largest growth driver and cast a shadow over the entire business.
+This report is the full rerun successor to `hims-2026-pre-rerun`; the archived baseline is available at `/invest/research/reports/view.html?id=hims-2026-pre-rerun`.
 
-**Investment Verdict:**
-- Neutral-to-Cautious | Conviction: Medium
-- Key variable: GLP-1 regulatory/litigation outcome will determine the stock's trajectory over the next 12 months
+**One-line thesis:** Hims & Hers is the leading U.S. DTC telehealth platform with a powerful subscription engine, but the 2026H1 debate has shifted from an acute GLP-1 regulatory storm to a growth-quality audit: GLP-1/compound-drug durability, Novo/FDA risk, non-GLP-1 retention, and whether growth converts to cash.
+
+**Current view:** Neutral / watchlist. Nasdaq quote data showed HIMS at roughly **$33.54** on June 22, 2026, with market capitalization around **$7.77B** and a 52-week range of about $13.74-$70.43. The stock has recovered well off the February post-selloff trough, but the market cap still requires proof that the core subscription platform can grow beyond the GLP-1 controversy.
+
+**Changes vs the February report:**
+
+| Item | February baseline | This rerun (2026-06-22) |
+|------|-------------------|--------------------------|
+| Market cap (old → now) | ~$4-5B (Feb trough, post-selloff) | ~$7.77B (recovered) |
+| Valuation anchor (old → now) | P/S ~2x amid a ~55.8% 3-month drawdown | ~3.3x FY2025E revenue ($2.35B); neutral/watchlist |
+| Thesis emphasis | GLP-1 regulatory binary (Novo suit + DOJ referral acute) | growth-quality audit: durability, compliance, cash conversion |
+| Litigation status | Novo suit filed Feb 9; DOJ referral Feb 6 | still pending/unresolved as of this rerun |
+| Unchanged | non-GLP-1 ~70% of revenue, >85% retention, $1.1B convertibles, intensifying competition | same |
+
+**Data framing:** The business and financial detail below carries the FY2025E / Q3 2025 fact base (and the February litigation events) established in the February research; the price and market-cap anchor is updated to June 22, 2026. FY2025 full-year and Q1 2026 results have since been reported and should be reconciled against this baseline at the next pass; figures dated FY2025E / Q3 2025 are not new H1 2026 actuals.
 
 **Quick Stats:**
 
 | Metric | Value |
 |--------|-------|
-| Market Cap | ~$4-5B (Feb 2026, post-selloff) |
+| Price (2026-06-22) | ~$33.54 |
+| Market Cap (2026-06-22) | ~$7.77B |
+| 52-Week Range | $13.74 - $70.43 |
+| Price / FY2025E Revenue | ~3.3x |
 | FY2025E Revenue | $2.34-2.36B (+58-59% YoY) |
 | Q3 2025 Revenue | $599M (+49% YoY) |
 | Q3 2025 Gross Margin | 74% (vs 79% Q3 2024) |
-| Q3 2025 Adj. EBITDA | $78.4M |
+| Q3 2025 Adj. EBITDA | $78.4M (+53% YoY) |
 | Subscribers | ~2.5M (Q3 2025) |
 | Monthly ARPU | $80 (Q3 2025, +19% YoY) |
 | Retention Rate | >85% |
-
----
+| Convertible Notes | $1.1B (0% coupon, 2025) |
 
 ## 1. Business Overview
 
-### Company Profile
+Founded in 2017 and public via SPAC in 2021, Hims & Hers operates a direct-to-consumer telehealth platform spanning online consultation, prescription fulfillment, and medication delivery, with owned-brand treatments and its own pharmacy network (vertical integration from consult to delivery).
 
-Hims & Hers Health was founded in 2017 and went public via SPAC in 2021 (NYSE: HIMS). The company operates a direct-to-consumer telehealth platform offering end-to-end online consultations, prescription fulfillment, and medication delivery across multiple health categories.
+**Core business lines:**
 
-### Core Business Lines
+- **Men's health (Hims):** hair loss (finasteride/minoxidil), ED (sildenafil/tadalafil), skincare.
+- **Women's health (Hers):** birth control, skincare, hair loss, menopause.
+- **Mental health:** online therapy, antidepressant prescriptions.
+- **Weight management:** compounded GLP-1 (semaglutide) — the epicenter of controversy.
+- **Emerging:** testosterone, biomarker testing (Labs), longevity specialty (2026 launch).
 
-- **Men's Health (Hims):** Hair loss (finasteride/minoxidil), ED (sildenafil/tadalafil), skincare
-- **Women's Health (Hers):** Birth control, skincare, hair loss, menopause management
-- **Mental Health:** Online therapy, antidepressant prescriptions
-- **Weight Management:** Compounded GLP-1 (semaglutide injectables) — the current epicenter of controversy
-- **Emerging Categories:** Testosterone health, biomarker testing (Labs), longevity specialty (planned 2026 launch)
+**Business model — subscription-first:** users complete online consultations, receive prescriptions, and subscribe to monthly/quarterly delivery. This yields highly predictable recurring revenue, strong retention (>85%), and steadily rising ARPU ($50 → $64 → $80/month across 2023-2025).
 
-### Business Model
+## 2. Industry & Competition
 
-Subscription-first. Users complete online consultations, receive prescriptions, and subscribe to monthly/quarterly medication delivery. This model delivers:
-- Highly predictable recurring revenue
-- Strong user retention (>85%)
-- Steadily rising ARPU ($50 → $64 → $80/month over 2023-2025)
+**Market size:** the U.S. telehealth market was ~$123.3B in 2024 and is projected to reach ~$455.3B by 2030 (CAGR ~24.68%), driven by demand for convenient, destigmatized care. Telehealth demand remains structurally higher than pre-pandemic, but low-quality platforms have been exposed.
 
-The company also operates its own pharmacy network, achieving vertical integration from consultation to delivery.
+**Competitive landscape:**
 
----
+| Competitor | Positioning | Threat |
+|------------|-------------|--------|
+| Ro (Roman) | Full-category DTC telehealth | High — direct |
+| LifeMD | DTC telehealth platform | Medium-High |
+| Nurx | Women's health focused | Medium |
+| Keeps | Men's hair loss | Medium-Low |
+| Teladoc | Enterprise telehealth, expanding DTC | Medium — indirect |
+| Traditional / Amazon Clinic | Clinics, pharmacies, pharma direct | Low-but-persistent |
 
-## 2. Industry & Competitive Position
+**Moat: moderate.** Strengths: strong brand (esp. younger men), vertical integration lowering cost, 2.5M-subscriber scale, and personalized plans raising switching costs. Weaknesses: core products are generic and undifferentiated, low technology barriers, limited loyalty in price-sensitive categories, and a GLP-1 business that relies on regulatory gray areas. Industry competition is now about compliant medical delivery, not just user growth.
 
-### Market Size
+## 3. Financial Health
 
-- U.S. telehealth market valued at $123.3B in 2024, projected to reach $455.3B by 2030 (CAGR 24.68%)
-- DTC health and wellness market continues to expand, driven by consumer demand for convenient, destigmatized healthcare
+The February baseline used roughly $2.35B of FY2025E revenue and ~2.5M subscribers. At ~$7.77B market cap, HIMS trades at ~3.3x that revenue baseline — not extreme, but revenue quality matters more than the headline multiple.
 
-### Competitive Landscape
-
-| Competitor | Positioning | Threat Level |
-|------------|-------------|--------------|
-| **Ro (Roman)** | Full-category DTC telehealth | High — direct competitor |
-| **LifeMD** | DTC telehealth platform | Medium-High |
-| **Nurx** | Women's health focused | Medium |
-| **Keeps** | Men's hair loss | Medium-Low |
-| **Teladoc** | Enterprise telehealth, expanding DTC | Medium — indirect |
-| **Traditional healthcare** | Brick-and-mortar clinics + pharmacies | Low but persistent |
-
-### Moat Assessment: 🏠 Moderate
-
-**Strengths:**
-- Strong brand recognition, especially among younger male demographics
-- Vertical integration (platform + pharmacy + delivery) reduces costs
-- 2.5M subscribers create meaningful scale advantages
-- Personalized prescription plans increase switching costs
-
-**Weaknesses:**
-- Core products (generic medications) are inherently undifferentiated
-- Low technology barriers — competitors can replicate the model
-- Brand loyalty is limited in price-sensitive categories
-- GLP-1 business relies on regulatory gray areas
-
----
-
-## 3. Financial Analysis
-
-### Growth Trajectory
+**Growth trajectory (February baseline):**
 
 | Metric | FY2023 | FY2024 | FY2025E | Trend |
 |--------|--------|--------|---------|-------|
-| Revenue | ~$870M | ~$1.48B | $2.34-2.36B | 🔺 Strong acceleration |
-| Revenue Growth | ~47% | ~70% | +58-59% | 🔺 High but decelerating |
-| Gross Margin | ~80% | ~78% | ~75% | 🔻 Declining |
-| Subscribers | ~1.5M | ~2.2M | ~2.5M+ | 🔺 Growing but slowing |
-| ARPU (monthly) | ~$50 | ~$64 | ~$80 | 🔺 Strong expansion |
+| Revenue | ~$870M | ~$1.48B | $2.34-2.36B | Strong acceleration |
+| Revenue growth | ~47% | ~70% | +58-59% | High but decelerating |
+| Gross margin | ~80% | ~78% | ~75% | Declining |
+| Subscribers | ~1.5M | ~2.2M | ~2.5M+ | Growing but slowing |
+| ARPU (monthly) | ~$50 | ~$64 | ~$80 | Strong expansion |
 
-### Profitability
+**Profitability & balance sheet:** Q3 2025 adjusted EBITDA was $78.4M (+53% YoY); gross margin compressed from 79% to 74% on higher-cost GLP-1 injectables. The company issued $1.1B of 0%-coupon convertible notes in 2025 for international expansion and R&D, against ~$1.07B cash.
 
-- Q3 2025 net income: $15.8M (vs $75.6M in Q3 2024, which included a significant tax benefit)
-- Q3 2025 adjusted EBITDA: $78.4M (vs $51.1M in Q3 2024, +53%)
-- EPS dropped sharply from $0.32 (Q3 2024) to $0.06 (Q3 2025)
-- Gross margin compression from 79% to 74%, primarily due to higher-cost GLP-1 injectables
+**Caliber note:** Q3 2025 net income of $15.8M looks far below the $75.6M in Q3 2024, but the prior-year quarter included a large one-time tax benefit — so EPS dropping from $0.32 to $0.06 overstates the operating decline; adjusted EBITDA actually rose +53%. These are company-disclosed, February-baseline figures and should be recomputed against FY2025 actuals and Q1 2026.
 
-### Balance Sheet
+**Red-flag check:** steadily declining gross margin (80% → 74%), EPS falling while opex outgrows revenue, $1.1B convertibles raising leverage, and questionable GLP-1 revenue durability are confirmed flags. Offsets: positive cash flow, ample liquidity, and a non-GLP-1 core at ~70% of revenue.
 
-- Issued $1.1B in convertible notes (0% interest) in 2025 for international expansion and R&D
-- Strong liquidity: $1.07B cash
-- Debt burden has increased significantly, requiring sustained high growth to support
+## 4. Management & Governance
 
-### Red Flag Check
+**CEO Andrew Dudum** (founder, leading since 2017) expanded Hims from single-category men's health to a multi-category platform and took an aggressive public stance on the GLP-1 controversy — confronting the FDA and Novo Nordisk and calling the Novo lawsuit a "blatant attack by Big Pharma on consumer choice." Execution on user growth, ARPU, and international expansion (ZAVA acquisition for UK/Germany/France; Canada planned for 2026) is strong; but the aggressive GLP-1 strategy (launching a compounded semaglutide oral pill in Feb 2026 and withdrawing it within days) invited avoidable regulatory and legal risk. **Management grade: B-** — strong operations, questionable GLP-1 judgment. Governance focus has shifted from speed to medical compliance, drug quality, and regulatory communication; convertible-note dilution also affects per-share value when the stock is weak.
 
-- ⚠️ Gross margin declining steadily (80% → 74%), GLP-1 business dragging down overall profitability
-- ⚠️ EPS declining sharply, operating expenses growing faster than revenue
-- ⚠️ $1.1B convertible notes increase financial leverage
-- ⚠️ Sustainability of GLP-1-related revenue is questionable
-- ✅ Cash flow positive, ample liquidity
-- ✅ Non-GLP-1 business accounts for ~70% of revenue — solid core
+## 5. Bull Case / Upside
 
----
+**Core thesis:** the core business (ex-GLP-1) is robust, and the brand plus subscription model is a sustainable engine; the stock overreacted to GLP-1 risk at the February trough.
 
-## 4. Management Assessment
+**Supporting evidence:**
 
-### CEO Andrew Dudum
+1. **Non-GLP-1 is ~70% of revenue:** even if GLP-1 went to zero, ~$1.6B of annual revenue remains in hair loss, ED, skincare, and mental health — categories with minimal regulatory risk.
+2. **ARPU expansion:** $50 → $64 → $80/month, reflecting personalization and cross-sell.
+3. **2.5M subscribers, >85% retention:** highly predictable revenue and stickiness.
+4. **International optionality:** ZAVA gives a European footprint; Canada launch in 2026 reduces U.S. single-market dependence.
+5. **New categories:** testosterone, Labs, and longevity could become the next engines.
 
-- Company founder, leading since 2017
-- Successfully expanded from single-category men's health to multi-category platform
-- Adopted aggressive stance on GLP-1 controversy, publicly confronting FDA and Novo Nordisk
-- Characterized Novo Nordisk lawsuit as a "blatant attack by Big Pharma on consumer choice"
+**Key assumptions:** GLP-1 risk does not spill into other lines; international contributes within 12-18 months; brand keeps acquisition efficient amid competition. **Upside scenario:** if GLP-1 resolves with fines/restrictions (not a total ban) and non-GLP-1 holds 30%+ growth, the stock could re-rate meaningfully from a reset base.
 
-### Strategic Execution
+## 6. Bear Case / Downside Risk
 
-- ✅ Strong execution on user growth and ARPU expansion
-- ✅ International expansion (acquired ZAVA for UK/Germany/France presence, Canada planned for 2026)
-- ⚠️ Overly aggressive GLP-1 strategy triggered regulatory backlash
-- ⚠️ Launched compounded semaglutide oral pill in Feb 2026, forced to withdraw within days
+**Core thesis:** the GLP-1 storm is unresolved and could cascade, while the core advantage (generic drugs + convenient delivery) lacks a true moat.
 
-### Management Grade: B-
+**Supporting evidence:**
 
-Strong operational execution but poor judgment on GLP-1 strategy. The aggressive market approach invited avoidable regulatory and legal risks.
+1. **Novo Nordisk patent lawsuit (filed Feb 9, 2026):** Delaware federal court, seeking a permanent injunction and damages; a loss could terminate the GLP-1 business.
+2. **DOJ referral (Feb 6, 2026):** HHS referred Hims to the DOJ for potential FD&C Act violations — a threat to overall compliance reputation, not just GLP-1.
+3. **Gross-margin deterioration:** 80% → 74% on high-cost injectables and personalization complexity.
+4. **Growth deceleration:** Q3 2025 sequential revenue growth was only ~2.2%, with subscriber growth flattening.
+5. **Convertible dilution:** sustained stock weakness could force large dilution on conversion of the $1.1B notes.
+6. **Competition:** Ro, LifeMD, and others keep closing the gap as traditional systems digitize.
 
----
+**Downside scenario:** if the DOJ formally prosecutes and Novo wins an injunction, GLP-1 (~30% of revenue) goes to zero; combined with brand damage slowing non-GLP-1 growth to 15-20%, the stock could fall materially from current levels.
 
-## 5. 🐂 Bull Case
+## 7. Key Uncertainties and Thesis-Breaking Conditions
 
-**Core Thesis:** Hims & Hers' core business (ex-GLP-1) remains robust, and the brand + subscription model creates a sustainable growth engine. The current stock price has overreacted to GLP-1 risks.
+**What we don't know:** the DOJ trajectory (referral stage in February — escalation to a formal case would reach far beyond GLP-1); the Novo lawsuit timeline (patent cases run 1-3 years, but a preliminary injunction could come within months); the FDA's final compounded-drug policy; and the true growth rate of the non-GLP-1 segment, which disclosures make hard to isolate. The status of these as of this rerun is unresolved and should be re-checked against the latest filings.
 
-**Supporting Evidence:**
+**Thesis-breaking conditions:** bear invalidated if the DOJ referral fizzles and the Novo suit settles; bull severely damaged if the FDA bans GLP-1 compounding entirely and the DOJ formally prosecutes. Other breakers: non-GLP-1 growth slowing, rapid GLP-1 compression with no replacement, a brand-trust-damaging regulatory event, or low-quality growth driven by excessive marketing spend.
 
-1. **Non-GLP-1 business is ~70% of revenue:** Even if GLP-1 business goes to zero, the company retains ~$1.6B in annual revenue from hair loss, ED, skincare, and mental health — categories with minimal regulatory risk
-2. **ARPU continues to expand:** $50 → $64 → $80/month, reflecting successful personalization and cross-selling. User value is deepening
-3. **2.5M subscribers with >85% retention:** Subscription model provides highly predictable revenue with strong user stickiness
-4. **International expansion opens new growth vectors:** ZAVA acquisition provides European footprint (UK, Germany, France), Canada launch in 2026 reduces U.S. single-market dependency
-5. **New category expansion:** Testosterone health, biomarker testing, longevity specialty could become the next growth engines
+## 8. Valuation
 
-**Key Assumptions:**
-- GLP-1 regulatory risk does not spill over to other business lines
-- International expansion contributes meaningful revenue within 12-18 months
-- Brand strength maintains user acquisition efficiency amid rising competition
+At roughly **$33.54** per share and **$7.77B** market cap, HIMS trades at about **3.3x** the February FY2025E revenue baseline of ~$2.35B. That can be reasonable if core non-GLP-1 growth is durable; it should be discounted if weight-management revenue is mostly a high-risk regulatory window.
 
-**Upside Scenario:** If GLP-1 regulatory issues resolve with fines/restrictions (rather than a total ban) and non-GLP-1 business maintains 30%+ growth, the stock could rebound 50-80% from current levels.
-
----
-
-## 6. 🐻 Bear Case
-
-**Core Thesis:** The GLP-1 regulatory storm is far from over and could trigger cascading effects, while the company's core competitive advantages (generic drugs + convenient delivery) lack a true moat.
-
-**Supporting Evidence:**
-
-1. **Novo Nordisk patent lawsuit (Feb 9, 2026):** Filed in Delaware federal court alleging patent infringement, seeking permanent injunction and damages. If Hims loses, the GLP-1 business is terminated entirely
-2. **DOJ investigation (Feb 6, 2026):** HHS referred Hims to the Department of Justice for potential violations of the Federal Food, Drug, and Cosmetic Act. This threatens not just GLP-1 but the company's overall compliance reputation
-3. **Gross margin deterioration:** From 80% to 74%, driven by high-cost GLP-1 injectables and increased operational complexity from personalized solutions
-4. **Growth deceleration signals:** Q3 2025 sequential revenue growth was only 2.2%, subscriber growth flattening — the hypergrowth phase may be ending
-5. **$1.1B convertible notes:** While 0% interest seems favorable, sustained stock price weakness could lead to massive shareholder dilution upon conversion
-6. **Intensifying competition:** Ro, LifeMD, and others continue to close the gap across categories, while traditional healthcare systems accelerate digitization
-
-**Key Risks:**
-- DOJ investigation escalates to formal prosecution, resulting in significant fines and business restrictions
-- Novo Nordisk wins injunction, GLP-1 revenue goes to zero
-- Regulatory uncertainty erodes user trust, spilling over to non-GLP-1 business
-- Convertible debt dilution + growth slowdown creates a "Davis Double Play" downside
-
-**Downside Scenario:** If DOJ formally prosecutes + Novo Nordisk obtains injunction, GLP-1 business (~30% of revenue) goes to zero. Combined with brand reputation damage slowing non-GLP-1 growth to 15-20%, the stock could decline another 30-50%.
-
----
-
-## 7. Key Uncertainties
-
-### ❓ What We Don't Know
-
-1. **DOJ investigation trajectory:** Currently at the "referral" stage — no formal case has been opened. If it escalates to a full investigation/prosecution, the impact extends far beyond GLP-1. Expect clearer signals within 3-6 months.
-
-2. **Novo Nordisk lawsuit timeline and outcome:** Patent litigation typically takes 1-3 years, but a preliminary injunction could come within months. Critical question: Will the court issue a preliminary injunction during litigation?
-
-3. **FDA's final policy on compounded drugs:** The FDA is tightening regulation of compounded GLP-1 drugs, but the final policy framework remains unclear. This affects not just Hims but the entire compounding industry.
-
-4. **True growth rate of non-GLP-1 business:** Company disclosures make it difficult to precisely isolate the growth contributions of GLP-1 vs. non-GLP-1 segments.
-
-### Thesis-Breaking Events
-
-- If DOJ investigation fizzles + Novo Nordisk lawsuit settles → Bear case invalidated
-- If FDA bans GLP-1 compounding entirely + DOJ formally prosecutes → Bull case severely damaged
-
----
-
-## 8. Valuation Context
-
-### Current Valuation
-
-The stock peaked in February 2025 and has declined significantly through early 2026. The 3-month drawdown is approximately 55.8%, with a 34% decline in the most recent month alone.
+**Multi-method valuation (framework, February research frame):**
 
 | Method | Range | Assumptions | Confidence |
 |--------|-------|-------------|------------|
-| P/S (incl. GLP-1) | 1.5-2.5x FY2025E | Peer comparison | Medium |
-| P/S (ex-GLP-1) | 2.5-4x core revenue | Non-GLP-1 only | Medium-High |
-| EV/EBITDA | 15-25x FY2025E | Growth-stage health platform | Medium |
-| DCF (Base) | Highly dependent on GLP-1 assumptions | High uncertainty | Low |
+| P/S (incl. GLP-1) | 1.5-2.5x FY2025E (old) | Peer comparison | Medium |
+| P/S (ex-GLP-1) | 2.5-4x core revenue (old) | Non-GLP-1 only | Medium-High |
+| EV/EBITDA | 15-25x FY2025E (old) | Growth-stage health platform | Medium |
+| DCF (base) | Highly GLP-1-dependent | High uncertainty | Low |
 
-### Peer Comparison
+**Peer comparison:**
 
 | Company | P/S (TTM) | Revenue Growth | Gross Margin |
 |---------|-----------|----------------|--------------|
-| HIMS | ~2x | +49% | 74% |
+| HIMS | ~2-3.3x | +49% | 74% |
 | Teladoc (TDOC) | ~1x | ~3% | ~68% |
 | LifeMD (LFMD) | ~1.5x | ~30% | ~70% |
 
-Hims' growth rate far exceeds peers, but the regulatory risk premium significantly compresses its valuation multiple.
+Hims' growth far exceeds peers, but the regulatory risk premium compresses its multiple. The valuation question is quality-adjusted growth, not a simple cheap/expensive label.
 
----
+## 9. Catalysts & Monitoring
 
-## 9. Catalysts & Timeline
+**Near-term (0-6 months):** whether the DOJ formally opens an investigation (the single most important catalyst); whether Novo seeks a preliminary injunction; the next quarterly results (Q2 2026); further FDA statements on compounded GLP-1.
 
-### Near-Term (0-6 months)
-- ⚡ Whether DOJ formally opens investigation (most critical catalyst)
-- ⚡ Whether Novo Nordisk seeks preliminary injunction
-- ⚡ Q4 2025 earnings (expected Feb-Mar 2026)
-- ⚡ Further FDA policy statements on compounded GLP-1 drugs
+**Medium-term (6-18 months):** international (Europe/Canada) revenue contribution; new-category (testosterone, Labs, longevity) user data; GLP-1 litigation progress; convertible-note dilution impact.
 
-### Medium-Term (6-18 months)
-- International business (Europe/Canada) revenue contribution begins
-- New category (testosterone, Labs, longevity) user growth data
-- GLP-1 litigation progress
-- Convertible note dilution impact on equity
+**Long-term (18+ months):** telehealth consolidation; whether Hims becomes a comprehensive digital-health platform; whether international markets replicate U.S. growth.
 
-### Long-Term (18+ months)
-- Telehealth industry consolidation trends
-- Whether the company successfully transforms into a comprehensive digital health platform
-- Whether international markets can replicate U.S. growth patterns
+**Key monitoring metrics:** subscribers, ARPU, retention, and marketing intensity; non-GLP-1 revenue mix and growth; adjusted EBITDA, free cash flow, and gross margin; convertible notes, SBC, and potential dilution.
 
----
+## 10. Conclusion & Review
 
-## 10. Conclusion
+Hims is a well-executed DTC telehealth company with 2.5M subscribers and a steadily growing non-GLP-1 core (~70% of revenue). But it faces the dual threat of the Novo patent suit and a DOJ referral, which endanger not just GLP-1 but overall brand credibility, and management's aggressive GLP-1 strategy showed questionable judgment.
 
-Hims & Hers is a well-executed DTC telehealth company that has built an impressive base of 2.5 million subscribers in just a few years. The non-GLP-1 business (~70% of revenue) is growing steadily, and the brand and user experience lead the category.
+**Core tension:** excellent core business vs self-inflicted regulatory trouble. This rerun reframes the stock from an acute GLP-1 binary into a growth-quality audit. This is a monitoring view, not allocation advice: the thesis is highly binary and event-driven; any position should sit within a risk budget appropriate for a high-volatility, event-driven asset rather than a fixed weight. The current $7.77B market cap depends on whether revenue is durable, compliant, and convertible into cash flow. **Confidence: medium.**
 
-However, the company faces its most severe challenge since founding: the dual threat of Novo Nordisk's patent lawsuit and a DOJ investigation. These risks threaten not just the GLP-1 business itself but could damage overall brand credibility and user trust. Management's aggressive GLP-1 strategy (launching an oral pill only to withdraw it days later) reveals questionable judgment.
+## 11. Appendix & Sources
 
-**The Core Tension:** Excellent core business vs. self-inflicted regulatory trouble.
+**Key assumptions:** FY2025 revenue per company guidance of $2.34-2.36B; non-GLP-1 ~70% of revenue per management disclosures; retention >85% per company data; international (ZAVA) not yet contributing material revenue.
 
-**What Investors Should Watch:**
-1. Whether the DOJ investigation escalates (the single most important variable)
-2. Whether non-GLP-1 business can sustain 30%+ independent growth
-3. Early data from international expansion
+**Sources:**
 
-The stock has already pulled back significantly. If regulatory risks resolve benignly, there is meaningful upside. But if the DOJ formally prosecutes, downside risk remains substantial. This is a highly binary, event-driven investment thesis.
-
----
-
-## Appendix
-
-### Data Sources
-- Hims & Hers official earnings reports and investor presentations
-- FDA public statements and warning letters
-- Novo Nordisk lawsuit filings (February 9, 2026)
-- HHS/DOJ referral announcement (February 6, 2026)
-- Industry analyst reports
-- Public market data
-
-### Key Assumptions
-- FY2025 revenue based on company guidance of $2.34-2.36B
-- Non-GLP-1 business ~70% share based on management disclosures
-- Retention rate >85% based on company public data
-- International business (ZAVA acquisition) not yet contributing material revenue
+- Archived baseline: `hims-2026-pre-rerun`
+- Hims quarterly results: `https://investors.hims.com/financials/quarterly-results/default.aspx`
+- FDA statements/warning letters; Novo Nordisk lawsuit filings (Feb 9, 2026); HHS/DOJ referral (Feb 6, 2026); industry analyst reports.
+- Nasdaq quote API: HIMS $33.54 and roughly $7.77B market cap on June 22, 2026.
+- IBD coverage of Hims Q1 2026 and guidance: `https://www.investors.com/news/technology/hims-stock-hims-her-health-earnings-q1-2026/`
