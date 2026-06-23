@@ -1,5 +1,31 @@
 [
   {
+    "id": "aaoi-2026",
+    "company": "Applied Optoelectronics",
+    "ticker": "NASDAQ: AAOI",
+    "title": "AAOI 深度研究报告 - AI数据中心光模块高弹性与高估值考验",
+    "titleEn": "AAOI Deep Research Report - AI Data Center Optics Upside Meets a Demanding Valuation",
+    "summary": "AI数据中心光模块高弹性标的，Q1 2026营收$151.1M（+51%），Data Center收入$81.4M（+154%），800G产品已向大型hyperscale客户首批量产出货。Q2指引收入$180-198M，Q3随产能上线预计显著放大。但GAAP仍亏损、经营现金流-$85.4M，当前EV/TTM Sales约26.6x，客户集中和ATM稀释是核心风险。",
+    "tags": ["光通信", "AI数据中心", "800G/1.6T", "光模块"],
+    "category": "tech",
+    "date": "2026-06-23",
+    "lastUpdate": "2026-06-23",
+    "file": "/invest/research/reports/view.html?id=aaoi-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/AAOI_深度研究报告_2026-06.md",
+      "en": "/invest/research/AAOI_Deep_Research_Report_2026-06.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "Q1 2026营收$151.1M（+51%），Data Center收入$81.4M（+154%），占比升至53.9%",
+      "800G产品Q1已向大型hyperscale客户首批量产出货，Q2开始ramp，Q3随产能上线预计显著放大",
+      "Q1末800G transceiver月产能接近100,000只，美国和台湾扩产支撑AI光模块交付",
+      "股价约$171.23、市值约$137亿，EV/TTM Sales约26.6x；GAAP仍亏损、现金流和稀释风险需要严密跟踪"
+    ]
+  },
+  {
     "id": "tempus-ai-2026",
     "company": "Tempus AI",
     "ticker": "NASDAQ: TEM",

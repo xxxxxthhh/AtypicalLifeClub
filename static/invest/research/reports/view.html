@@ -731,12 +731,37 @@
             });
         }
 
-        function stripLeadingH1(markdown) {
-            return markdown.replace(/^\uFEFF?#\s+.*\n+/, '');
+        function stripMarkdownCover(markdown) {
+            const normalized = String(markdown || '').replace(/^\uFEFF?/, '').replace(/\r\n/g, '\n');
+            const withoutTitle = normalized.replace(/^#\s+.*(?:\n+|$)/, '');
+            const coverMatch = withoutTitle.match(/^([\s\S]*?)\n---\s*\n+/);
+            if (!coverMatch) {
+                return withoutTitle;
+            }
+
+            const coverLines = coverMatch[1]
+                .split('\n')
+                .map((line) => line.trim())
+                .filter(Boolean);
+            const coverKeys = [
+                '标的收录日期',
+                '最近更新日期',
+                '代码',
+                '免责声明',
+                'Coverage date',
+                'Last updated',
+                'Ticker',
+                'Disclaimer',
+            ];
+            const isCoverMetadata = coverLines.length > 0
+                && coverLines.length <= 8
+                && coverLines.every((line) => coverKeys.some((key) => line.startsWith(`${key}：`) || line.startsWith(`${key}:`)));
+
+            return isCoverMetadata ? withoutTitle.slice(coverMatch[0].length) : withoutTitle;
         }
 
         function splitMarkdownSections(markdown, lang) {
-            const lines = stripLeadingH1(markdown || '').replace(/\r\n/g, '\n').split('\n');
+            const lines = stripMarkdownCover(markdown).split('\n');
             const sections = [];
             let currentSection = null;
             let parentModuleKey = 'overview';
