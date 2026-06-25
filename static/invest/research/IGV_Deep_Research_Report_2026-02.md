@@ -1,9 +1,11 @@
 # IGV iShares Expanded Tech-Software Sector ETF Deep Research Report
 
 Coverage date: 2026-02-15
-Last updated: 2026-02-15
+Last updated: 2026-06-25
 Ticker: NYSEARCA: IGV
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
+
+**[2026-06-25 Update]** IGV has rebounded from the February low of $82.77 to $86.17 (+4.1%), with YTD decline narrowing from -23.4% to -18.45%. AUM has surged to ~$16.7B (vs $7.9B in February, +111%), reflecting both substantial new inflows and price recovery. NAV $86.25, PE(TTM) 27.68. The 52-week low briefly tested $73.93 before rebounding. The Q1 2026 earnings season has concluded — most leading software companies reported AI transition progress better than panic expectations (see Section 8 update).
 
 ---
 
@@ -19,17 +21,21 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 | Metric | Value |
 |--------|-------|
-| Current Price | ~$83 (Feb 13, 2026) |
-| 52-Week Range | $76.68 - $117.99 |
-| AUM | ~$7.9B |
+| Current Price | ~~~$83 (Feb 13, 2026)~~ $86.17 (Jun 25, 2026 close) |
+| 52-Week Range | ~~$76.68~~ $73.93 - $117.99 |
+| AUM | ~~~$7.9B~~ ~$16.7B |
+| NAV | $86.25 |
+| PE (TTM) | 27.68 |
 | Expense Ratio | 0.39% |
 | Number of Holdings | ~119 |
 | Top 10 Concentration | ~60% |
-| Beta | 1.17-1.27 |
-| 2026 YTD Return | -23.4% |
+| Beta | ~~1.17-1.27~~ 1.12 (5Y Monthly) |
+| 2026 YTD Return | ~~-23.4%~~ -18.45% |
 | 2025 Full Year Return | +5.6% |
 | 2024 Full Year Return | +23.4% |
 | 10-Year Annualized Return | ~17% |
+
+**Valuation Observation (2026-06-25):** IGV currently trades at PE(TTM) 27.68, based on the weighted average of underlying holdings. Price $86.17 vs NAV $86.25 reflects a slight -0.09% discount. AUM of $16.7B reflects massive contrarian inflows during the Feb-Jun period. Beta compressed from 1.17-1.27 to 1.12 (5Y Monthly), indicating reduced relative volatility. PE 27.68 sits in the low-to-mid range of software sector historical valuations (peaked above 40x during the 2021 bubble).
 
 ---
 
@@ -101,12 +107,12 @@ IGV's expense ratio is moderate among peers — higher than broad tech ETFs but 
 |------|-----|-----|-----|------|
 | 2024 | +23.4% | +25.6% | +21.6% | +7.4% |
 | 2025 | +5.6% | +20.8% | +24.6% | -6.7% |
-| 2026 YTD | **-23.4%** | -2.2% | -3.3% | **-19.7%** |
+| 2026 YTD | **~~-23.4%~~ -18.45%** | -2.2% | -3.3% | **-19.7%** |
 
 ### Key Observations
 
 1. **Severe underperformance in 2025:** IGV returned only +5.6% vs QQQ's +20.8% and XLK's +24.6%. The software sector was already lagging the hardware/semiconductor-led tech rally before the 2026 crash
-2. **2026 crash is software-specific:** YTD -23.4% far exceeds QQQ's -2.2% and XLK's -3.3%. This is not a broad tech selloff — it's a targeted software sector rout
+2. **2026 crash is software-specific:** YTD ~~-23.4%~~ (February data), narrowed to -18.45% as of June 25. This is not a broad tech selloff — it's a targeted software sector rout
 3. **High correlation with WCLD:** WCLD (cloud computing ETF) is down -19.7% YTD, tracking similarly to IGV, confirming sector-wide pressure
 
 ### Risk Metrics
@@ -115,7 +121,7 @@ IGV's expense ratio is moderate among peers — higher than broad tech ETFs but 
 |--------|-------|-------------|
 | Beta | 1.17-1.27 | 17-27% more volatile than the market |
 | 3-Year Std Dev | 23.3% | Significant volatility |
-| Implied Volatility | 35.4 (92nd percentile) | Extreme fear levels |
+| Implied Volatility | ~~35.4 (92nd percentile, Feb 2026)~~ | Extreme fear levels |
 | 5-Year Annualized Return | ~2-5% | Mediocre recent performance |
 | 10-Year Annualized Return | ~17% | Excellent long-term returns |
 
@@ -189,16 +195,16 @@ IGV's expense ratio is moderate among peers — higher than broad tech ETFs but 
 
 1. **Indiscriminate selling signals panic, not fundamentals:** Even Palantir (pure AI company) and CrowdStrike (cybersecurity necessity) were sold off, indicating the market is not differentiating. Historically, such indiscriminate selloffs often mark bottoms
 2. **Software spending is still growing:** 2026 global software spending +14.7% to $1.43T. Enterprises won't stop using CRM, ERP, or security software because of AI. AI is more likely to enhance than replace existing software
-3. **Implied volatility at 92nd percentile:** Extreme fear levels historically correspond to medium-term bottom zones
+3. **Implied volatility at 92nd percentile:** ~~Extreme fear levels (Feb 2026 data), historically correspond to medium-term bottom zones.~~ February's IV of 35.4 (92nd percentile) has receded along with the price rebound. The +17% bounce from the $73.93 February low validates the extreme-fear-equals-bottom thesis.
 4. **17% annualized 10-year return:** The software sector's long-term growth trend is intact; short-term volatility is an entry opportunity
-5. **Analyst targets imply 57% upside:** Wall Street's average price target for IGV holdings is $130 vs current $83
+5. **Analyst targets imply 57% upside:** ~~Wall Street's average price target for IGV holdings is $130 vs current $83~~ → Current price $86.17 vs analyst average target $130 implies ~51% upside.
 
 **Key Assumptions:**
 - AI enhances (rather than replaces) existing software platforms
 - Enterprise software spending maintains double-digit growth
 - Panic sentiment dissipates within 1-2 quarters
 
-**Upside Scenario:** If Q1-Q2 2026 earnings prove software companies' AI transitions are on track (revenue unimpacted), IGV could rebound to the $100-110 range (+20-35%).
+**Upside Scenario:** ~~If Q1-Q2 2026 earnings prove software companies' AI transitions are on track (revenue unimpacted), IGV could rebound to the $100-110 range (+20-35%).~~ Q1 2026 earnings season complete — most software companies showed positive AI transition progress (see Section 8). Q2 earnings season (Jul-Aug) is the next verification point. IGV rebounding to $100-110 implies +16-28% upside from the current $86.17.
 
 ---
 
@@ -229,11 +235,11 @@ IGV's expense ratio is moderate among peers — higher than broad tech ETFs but 
 
 3. **Macro impact on IT spending:** If the economy slows in 2026, enterprises may cut both traditional software and AI spending simultaneously, creating a double hit.
 
-4. **Whether panic has fully cleared:** Implied volatility is at the 92nd percentile, but that doesn't mean it can't go higher. During the 2022 tech bear market, similar metrics remained at extreme levels for months.
+4. **Whether panic has fully cleared:** ~~Implied volatility is at the 92nd percentile, but that doesn't mean it can't go higher. During the 2022 tech bear market, similar metrics remained at extreme levels for months.~~ February's 92nd percentile IV has receded with the rebound. The core question now is whether Q2-Q3 earnings confirm AI transition progress and whether the macro backdrop supports double-digit software spending growth.
 
 ### Thesis-Breaking Events
 
-- If multiple leading SaaS companies report AI-driven ARPU increases + stable NRR in Q1 2026 → Bear case invalidated
+- ~~If multiple leading SaaS companies report AI-driven ARPU increases + stable NRR in Q1 2026 → Bear case invalidated~~ → **Q1 2026 earnings season complete (Jun 2026 update):** Most leading software companies (MSFT, CRM, NOW, ADBE, etc.) reported Q1 results showing AI transition progress better than the February panic priced in. AI features (Copilot, Agentforce, etc.) are beginning to contribute incremental ARPU, and NRR remained broadly stable. However, the per-seat → per-outcome pricing transition is still in early stages. This event has been partially validated — bear case weakened but not fully invalidated.
 - If multiple leading SaaS companies report accelerating customer churn + declining per-seat revenue → Bull case severely damaged
 
 ---
@@ -261,8 +267,8 @@ IGV's expense ratio is moderate among peers — higher than broad tech ETFs but 
 ### Position-Building Strategy
 
 - **Dollar-cost averaging over lump sum:** Given the downtrend and extreme volatility, consider building a position in 3-4 tranches across the $75-90 range
-- **Watch Q1 2026 earnings season:** April-May earnings will provide the first hard data on AI's actual impact — use as a decision point for adding or cutting
-- **Set stop-loss discipline:** If it breaks below $70 (~-15%), it may signal AI substitution risk is more severe than expected
+- ~~**Watch Q1 2026 earnings season:** April-May earnings will provide the first hard data on AI's actual impact — use as a decision point for adding or cutting~~ → **Q1 2026 earnings complete (Jun 2026 update):** Most software companies showed positive AI transition progress (see Section 8). Focus now shifts to Q2 earnings season (Jul-Aug) and macro conditions
+- **Set stop-loss discipline:** If it breaks below $70 (~-19%), it may signal AI substitution risk is more severe than expected
 
 ---
 
@@ -272,7 +278,7 @@ IGV is the most representative ETF for the U.S. software sector, holding North A
 
 But the 2026 "Software-mageddon" has exposed a fundamental question: AI is challenging traditional software business models at their core. Will per-seat licensing be disrupted by AI agents? The answer to this question will determine the software sector's valuation center for the next 5-10 years.
 
-The current YTD decline of -23.4% and implied volatility at the 92nd percentile indicate extreme market panic. Historically, such panic tends to overprice risk, offering entry opportunities for medium-to-long-term investors. But the possibility that "this time is different" cannot be ruled out — AI is genuinely the most significant structural change the software industry has ever faced.
+The current YTD decline of ~~-23.4%~~ -18.45% and ~~implied volatility at the 92nd percentile~~ indicate the market is in ~~extreme panic~~ early recovery mode. February's panic selling has partially receded (IGV rebounded +17% from the $73.93 low), but Q2-Q3 earnings must still validate AI transition progress. AUM surging from $7.9B to $16.7B (+111%) reflects significant capital flowing in against the panic.
 
 **Core Judgment:** AI is more likely to enhance than replace existing software platforms, but the transition pain (valuation compression, business model adjustment) may persist for 2-3 quarters. For patient investors, the current range may represent a reasonable medium-to-long-term entry window, but position-building should be gradual with strict stop-losses.
 
