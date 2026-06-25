@@ -299,7 +299,7 @@
     "ticker": "NASDAQ: ABNB",
     "title": "Airbnb 深度研究报告 - 全球短租霸主的增长再加速之问",
     "titleEn": "Airbnb Deep Research Report - Can the Global Short-Term Rental Leader Re-Accelerate Growth?",
-    "summary": "全球短租市场领导者，FY2025营收$122亿（+10%），FCF $46亿（利润率38%），533M间夜数。品牌护城河深厚，$60亿回购计划，但增速从40%降至10%，全球监管收紧+Booking.com追赶。P/FCF ~15.5x，Forward P/E ~29x。",
+    "summary": "Q1 2026营收+17.9%超预期，增长加速叙事获得首个硬数据支撑。但股价已从$119涨至$142.90（+20%），P/E从29x扩至35.4x，P/S 6.8x，TTM杠杆FCF从$46亿降至$31.9亿。市场已部分定价增长改善，利润率压缩和FCF质量需关注。核心张力：增长加速兑现vs估值提前反映。",
     "tags": [
       "在线旅游",
       "共享经济",
@@ -308,18 +308,22 @@
     ],
     "category": "tech",
     "date": "2026-02-13",
-    "lastUpdate": "2026-02-13",
+    "lastUpdate": "2026-06-25",
+    "period": "2026H1",
+    "versionType": "incremental",
+    "versionLabel": "2026H1 Incremental Update",
     "file": "/invest/research/reports/view.html?id=airbnb-2026",
     "markdownFiles": {
       "zh": "/invest/research/Airbnb_深度研究报告_2026-02.md",
       "en": "/invest/research/Airbnb_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "FY2025营收$122亿（+10%），FCF $46亿（38%利润率），净利润$25亿",
-      "全球短租份额44%，800万+房源，但Booking.com替代住宿已达860万",
-      "Q1 2026指引14-16%增长，AI原生转型+体验/精品酒店品类扩张",
-      "P/FCF ~15.5x合理，P/E ~29x偏高，增长能否重新加速是核心变量"
-    ]
+      "股价$142.90、市值$857亿，TTM P/E 35.4x、P/S 6.8x、P/FCF(TTM杠杆) 26.9x（或FY2025基准18.6x）",
+      "Q1 2026营收同比+17.9%（超14-16%指引），增长加速兑现；但盈利增速仅+3.9%，利润率压缩",
+      "TTM杠杆FCF $31.9亿（vs FY2025 $46亿），运营现金流TTM $45.7亿，FCF质量需关注",
+      "核心矛盾：增长加速已初步兑现，但估值已从2月大幅扩张，需要Q2-Q4持续证据支撑"
+    ],
+    "summaryEn": "Q1 2026 revenue +17.9% YoY beat 14-16% guidance, delivering first hard data for the growth acceleration thesis. But the stock has risen from $119 to $142.90 (+20%), P/E expanded from 29x to 35.4x, P/S 6.8x, and TTM levered FCF declined from $4.6B to $3.19B. The market has partially priced in the improvement; margin compression and FCF quality warrant monitoring. Core tension: growth acceleration delivered vs. valuation front-running."
   },
   {
     "id": "hims-2026-pre-rerun",
