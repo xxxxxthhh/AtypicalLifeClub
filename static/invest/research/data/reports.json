@@ -477,7 +477,6 @@
     "ticker": "NASDAQ: CRM",
     "title": "Salesforce 深度研究报告 - CRM霸主的AI转型与估值重估",
     "titleEn": "Salesforce Deep Research Report - CRM Leader's AI Transformation and Valuation Reset",
-    "summary": "全球CRM霸主，FY2025营收$37.9B（+9%），FCF $12.4B（+31%），Non-GAAP利润率33%。Agentforce ARR $540M（+330%），$80亿收购Informatica。股价从$330跌至~$193（-41%），Forward P/E仅17x，P/S接近10年低位。净留存率降至~100%是核心担忧。",
     "tags": [
       "企业软件",
       "CRM",
@@ -486,18 +485,23 @@
     ],
     "category": "tech",
     "date": "2026-02-11",
-    "lastUpdate": "2026-02-11",
+    "lastUpdate": "2026-06-25",
+    "period": "2026H1",
+    "versionType": "incremental",
+    "versionLabel": "2026H1 Incremental Update",
     "file": "/invest/research/reports/view.html?id=salesforce-2026",
     "markdownFiles": {
       "zh": "/invest/research/Salesforce_深度研究报告_2026-02.md",
       "en": "/invest/research/Salesforce_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "FY2025营收$37.9B，FCF $12.4B（+31%），Non-GAAP利润率33%",
-      "Agentforce ARR $540M（+330% YoY），18,500+笔交易",
-      "$80亿收购Informatica，$500亿回购授权",
-      "股价从$330跌至~$193（-41%），Forward P/E 17x，P/S接近10年低位"
-    ]
+      "FY2026营收$41.5B, FCF $14.4B(+16%), Non-GAAP利润率34.1%, GAAP营业利润率20.1%",
+      "Agentforce + Data 360合计ARR $2.9B+(+200%+ YoY), 29,000+笔交易, 交付24亿次工作单元",
+      "$500亿回购授权, FY26回购$12.7B+首次股息; Forward P/E 11.22x, P/S(TTM) 3.32x, 杠杆FCF yield ~13.2%",
+      "YTD -44%, 已是SaaS同行中估值最低; 分析师共识$250(+66%上行), 空头8.61%暗含轧空可能"
+    ],
+    "summaryEn": "Global CRM leader. FY2026 revenue $41.5B (+10%), FCF $14.4B (+16%), Non-GAAP margin 34.1%. Agentforce + Data 360 combined ARR $2.9B+ (+200% YoY). 2026-06-25 update: Stock crashed from $193 to ~$151 (YTD -40%), market cap $125.11B, Forward P/E compressed from ~17x to 11.22x, P/S(TTM) 3.32x, levered FCF yield ~13.2%. Business fundamentals (CRM dominance + margin expansion + $2.9B AI ARR) are intact, but market pricing has reached extreme value territory. Analyst consensus $250 (+66% upside), 8.61% short interest.",
+    "summary": "全球CRM霸主，FY2026营收$41.5B(+10%), FCF $14.4B(+16%), Non-GAAP利润率34.1%。Agentforce + Data 360合计ARR $2.9B+(+200% YoY)。2026-06-25更新: 股价从$193暴跌至~$151(YTD -40%), 市值$1,251亿, Forward P/E从~17x压缩至11.22x, P/S(TTM) 3.32x, 杠杆FCF yield ~13.2%。业务基本面(CRM霸主+利润扩张+$2.9B AI ARR)未变, 但市场定价已进入极端价值区域。分析师共识$250(+66%上行), 空头占比8.61%。"
   },
   {
     "id": "coinbase-2026-pre-rerun",
