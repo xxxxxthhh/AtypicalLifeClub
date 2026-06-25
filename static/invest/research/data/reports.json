@@ -719,7 +719,7 @@
     "ticker": "NYSEARCA: COPX",
     "title": "COPX 深度研究报告 - 铜超级周期的杠杆化敞口",
     "titleEn": "COPX Deep Research Report - Leveraged Exposure to the Copper Supercycle",
-    "summary": "全球最大纯铜矿ETF，AUM 74亿美元，过去一年回报105%。电气化、AI数据中心、EV三大需求驱动结构性铜超级周期，但短期估值偏高且关税扭曲风险显著。",
+    "summary": "全球最大纯铜矿ETF。2026-06-25增量更新：COPX约$76.92、AUM增至$79.9亿(+8%)，加权P/E从30-35x压缩至17.74x（盈利兑现）。铜价突破二月bull case上沿至~$13,531/吨($6.14/lb)，但price基本持平反映关税不确定性。YTD回报从+20.14%回落至+5.45%。COMEX溢价和232条款审查是短期核心变量。",
     "tags": [
       "铜矿",
       "ETF",
@@ -728,18 +728,22 @@
     ],
     "category": "energy",
     "date": "2026-02-07",
-    "lastUpdate": "2026-02-07",
+    "lastUpdate": "2026-06-25",
+    "period": "2026H1",
+    "versionType": "incremental",
+    "versionLabel": "2026H1 Incremental Update",
     "file": "/invest/research/reports/view.html?id=copx-2026",
     "markdownFiles": {
       "zh": "/invest/research/COPX_深度研究报告_2026-02.md",
       "en": "/invest/research/COPX_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "过去1年回报+105%，AUM 74亿美元",
-      "铜需求预计到2040年增长50%至4200万吨",
-      "AI数据中心2026年铜需求47.5万吨",
-      "美国232条款关税审查为最大近期催化剂"
-    ]
+      "COPX约$76.92，AUM增至$79.9亿(+8%)，加权P/E从30-35x压缩至17.74x",
+      "COMEX铜价~$13,531/吨($6.14/lb)，突破二月bull case上沿$13,000/吨",
+      "YTD回报从+20.14%(Feb)回落至+5.45%，价格路径波动剧烈",
+      "232条款关税审查临近（2026年中），COMEX溢价和关税走向是近期最大二元变量"
+    ],
+    "summaryEn": "The largest pure-play copper miners ETF. June 25, 2026 incremental update: COPX trades ~$76.92, AUM grew to $7.99B (+8%), weighted P/E compressed from 30-35x to 17.74x (earnings delivery). Copper at ~$13,531/tonne ($6.14/lb) exceeds February's bull case ceiling, but flat COPX price reflects tariff uncertainty. YTD return down from +20.14% to +5.45%. COMEX premium and Section 232 review are the key near-term variables."
   },
   {
     "id": "amd-2026-pre-rerun",

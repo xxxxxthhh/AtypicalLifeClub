@@ -1,9 +1,40 @@
 # COPX (Global X Copper Miners ETF) Deep Research Report
 
 Coverage date: 2026-02-07
-Last updated: 2026-02-07
+Last updated: 2026-06-25
 Ticker: NYSEARCA: COPX
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
+
+---
+
+## 🔄 2026-06-25 Incremental Update
+
+**Key changes since initial February coverage:**
+
+| Metric | 2026-02-07 | 2026-06-25 | Change |
+|--------|-----------|-----------|--------|
+| COPX Price | ~$76.91 | $76.92 | Essentially flat |
+| AUM | ~$7.4B | $7.99B | +8.0% |
+| Weighted P/E (TTM) | ~30-35x | 17.74x | Significant compression |
+| Dividend Yield | 2.27% | 2.18% | Slightly lower |
+| YTD Return | +20.14% | +5.45% | -14.69pp |
+| 52-Week Range | $30.77–$99.99 | $41.94–$99.99 | Low-end rolled up |
+| Copper (COMEX) | ~$12,000/tonne | ~$13,531/tonne ($6.14/lb) | +12.8% |
+| NAV / Premium | N/A | $76.46 / +0.6% | Slight premium |
+
+**Core observations:**
+
+1. **Copper has broken through February's most bullish forecast.** COMEX copper at ~$6.14/lb (~$13,531/tonne) exceeds the February bull case ceiling of $13,000/tonne. Yet COPX is essentially flat, reflecting: (a) miner earnings have delivered massively (P/E compressed from 30-35x to 17.74x), and (b) the market may be pricing in tariff uncertainty.
+
+2. **AUM continues to grow.** From $7.4B to $7.99B, capital is still flowing into the copper miners theme, signaling sustained institutional conviction in the supercycle narrative.
+
+3. **P/E compression isn't necessarily bearish.** Weighted P/E dropping from 30-35x to 17.74x means elevated copper prices have translated into real earnings growth. If copper sustains $13,000+/tonne, the current valuation has earnings support.
+
+4. **Tariff review is approaching.** The mid-2026 Commerce Department Section 232 review is the largest near-term binary catalyst. Expanded refined copper tariffs → wider COMEX premium; tariff reduction → potential premium collapse.
+
+5. **YTD return down to +5.45%.** February's YTD was +20.14%, indicating significant drawdown and recovery. The price path has been volatile, confirming operational leverage works both ways.
+
+**Investment view update:** The long-term bull thesis is strengthened by copper prices exceeding expectations, but near-term entry still requires attention to tariff policy and COMEX premium risk. With copper above February's bull case, COPX's valuation has fundamental support if prices hold.
 
 ---
 
