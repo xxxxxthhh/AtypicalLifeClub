@@ -36,7 +36,52 @@
     "ticker": "NASDAQ: TEM",
     "title": "Tempus AI 深度研究报告 - 精准医疗数据飞轮的高增长与高风险",
     "titleEn": "Tempus AI Deep Research Report - Precision Medicine Data Flywheel's High Growth and High Risk",
-    "summary": "精准医疗全栈平台，FY2025营收$12.7亿（+83%），有机增速33.5%。诊断+数据授权+AI三位一体飞轮模式，126%净留存率，$11亿合同积压。但GAAP仍亏损，CEO累计减持$1.27亿，做空比例20.6%，P/S ~8x。2026年指引收入$15.9亿、调整后EBITDA $6500万，盈利拐点待验证。",
+    "summary": "精准医疗全栈平台。Q1 2026营收$348.1M（+36.1%，随Ambry并表满一年主要为有机增长），但GAAP净亏损扩大至$1.259亿（EPS -$0.71），现金降至$643.8M；管理层上调FY2026收入指引至$15.9-16.0亿。诊断+数据授权+AI飞轮模式，126%净留存率。当前股价约$51.94、市值约$93亿（2026-06-24收盘，约1.7956亿股），P/S(TTM)约7x。营收加速与亏损扩大并存，CEO累计减持$1.27亿、20.6%做空比例。",
+    "tags": [
+      "精准医疗",
+      "AI医疗",
+      "基因组学",
+      "数据平台"
+    ],
+    "category": "tech",
+    "date": "2026-02-27",
+    "lastUpdate": "2026-06-25",
+    "file": "/invest/research/reports/view.html?id=tempus-ai-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Tempus_AI_深度研究报告_2026-02.md",
+      "en": "/invest/research/Tempus_AI_Deep_Research_Report_2026-02.md"
+    },
+    "highlights": [
+      "Q1 2026营收$348.1M（+36.1%，随Ambry并表满一年主要为有机增长），诊断+34.7%、数据与应用+40.5%（Insights +44.1%）",
+      "Q1 2026 GAAP净亏损扩大至$1.259亿（EPS -$0.71，vs上年-$0.40），现金降至$643.8M；FY2026指引上调至$15.9-16.0亿",
+      "当前锚点：股价$51.94、市值约$93亿、P/S(TTM)约7x（2026-06-24收盘）",
+      "数据飞轮：126%净留存率、$11亿+合同积压；CEO累计减持$1.27亿、双重股权、20.6%做空（2月口径）"
+    ],
+    "summaryEn": "Full-stack precision-medicine platform. Q1 2026 revenue $348.1M (+36.1%, now mostly organic) but GAAP net loss widened to $(125.9)M / -$0.71 EPS and cash fell to $643.8M; management raised FY2026 guidance to $1.59-1.60B. 126% NRR. Current price ~$51.94 / market cap ~$9.3B (2026-06-24 close), P/S(TTM) ~7x. Accelerating topline paired with deepening GAAP losses; CEO cumulative selling $127M, 20.6% short interest.",
+    "period": "2026H1",
+    "versionType": "full-cycle",
+    "versionLabel": "2026H1 Full Rerun",
+    "isCurrent": true,
+    "supersedes": "tempus-ai-2026-pre-rerun",
+    "diffBase": "tempus-ai-2026-pre-rerun",
+    "previousAnnualReport": {
+      "id": "tempus-ai-2026-pre-rerun",
+      "label": "2026H1 重跑前版本",
+      "labelEn": "2026H1 Pre-rerun Version",
+      "file": "/invest/research/reports/view.html?id=tempus-ai-2026-pre-rerun",
+      "date": "2026-02-27",
+      "lastUpdate": "2026-02-27",
+      "summary": "归档的2026H1重跑前版本，保留FY2025收入、诊断/数据分部、数据飞轮护城河和旧市值/估值倍数框架。",
+      "summaryEn": "Archived pre-rerun 2026H1 baseline preserving FY2025 revenue, the diagnostics/data segments, the data-flywheel moat, and the old market-cap/valuation-multiple framework."
+    }
+  },
+  {
+    "id": "tempus-ai-2026-pre-rerun",
+    "company": "Tempus AI",
+    "ticker": "NASDAQ: TEM",
+    "title": "Tempus AI 深度研究报告 - 精准医疗数据飞轮的高增长与高风险 - 重跑前归档版",
+    "titleEn": "Tempus AI Deep Research Report - Precision Medicine Data Flywheel's High Growth and High Risk - Pre-rerun Archive",
+    "summary": "归档的2026H1重跑前版本，保留FY2025收入、诊断/数据分部、数据飞轮护城河和旧市值/估值倍数框架，作为当前完整重跑版本的对照基线。",
     "tags": [
       "精准医疗",
       "AI医疗",
@@ -46,17 +91,21 @@
     "category": "tech",
     "date": "2026-02-27",
     "lastUpdate": "2026-02-27",
-    "file": "/invest/research/reports/view.html?id=tempus-ai-2026",
+    "file": "/invest/research/reports/view.html?id=tempus-ai-2026-pre-rerun",
     "markdownFiles": {
-      "zh": "/invest/research/Tempus_AI_深度研究报告_2026-02.md",
-      "en": "/invest/research/Tempus_AI_Deep_Research_Report_2026-02.md"
+      "zh": "/invest/research/Tempus_AI_深度研究报告_2026-02_pre_rerun.md",
+      "en": "/invest/research/Tempus_AI_Deep_Research_Report_2026-02_pre_rerun.md"
     },
     "highlights": [
-      "FY2025营收$12.7亿（+83%），有机增速33.5%，诊断收入$9.55亿（+111%）",
-      "数据飞轮护城河：126%净留存率，$11亿+合同积压，700万病理切片数据",
-      "2026年指引：收入$15.9亿（+25%），调整后EBITDA ~$6500万（首次盈利）",
-      "CEO累计减持$1.27亿+，双重股权控制60%投票权，做空比例20.6%"
-    ]
+      "重跑前归档版本",
+      "保留原始判断与旧估值框架",
+      "作为当前完整重跑版本的对照基线"
+    ],
+    "summaryEn": "Archived pre-rerun 2026H1 baseline preserving FY2025 revenue, the segment split, the data-flywheel moat, and the old market-cap/valuation-multiple framework as the comparison baseline for the current full rerun.",
+    "isCurrent": false,
+    "period": "2026H1",
+    "versionType": "incremental",
+    "versionLabel": "2026H1 Pre-rerun Baseline"
   },
   {
     "id": "sk-hynix-2026",
