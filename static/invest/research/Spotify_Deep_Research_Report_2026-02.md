@@ -1,7 +1,7 @@
 # Spotify (NYSE: SPOT) Deep Research Report
 
 Coverage date: 2026-02-10
-Last updated: 2026-02-10
+Last updated: 2026-06-25
 Ticker: NYSE: SPOT
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -15,20 +15,22 @@ Disclaimer: This report is for informational and research purposes only. It does
 - Neutral-to-Bullish | Conviction Level: Medium
 - Key Catalyst: 2026 pricing cycle + AI-driven user engagement + advertising recovery
 
-**Quick Stats:**
+**Quick Stats (Incremental update as of 2026/6/25):**
 
-| Metric | Value |
-|--------|-------|
-| Price (2026/2/10) | ~$416 |
-| Market Cap | ~$85B |
-| P/E (TTM) | ~53-66x |
-| Forward P/E (2026E) | ~45x |
-| 2025 Revenue | €17.5B (+13% YoY) |
-| 2025 Operating Income | €2.2B (12.8% margin) |
-| 2025 Free Cash Flow | €2.9B |
-| MAU | 751M (Q4 2025) |
-| Premium Subscribers | 290M (Q4 2025) |
-| 52-Week Range | $405 - $785 |
+| Metric | Value (Feb 2026) | Updated to 2026/6/25 |
+|--------|-----------------|---------------------|
+| Price | ~~~$416~~ | **$442.28** |
+| Market Cap | ~~~$85B~~ | **~$91B** |
+| P/E (TTM) | ~~~53-66x~~ | **~30x** |
+| Forward P/E (2026E) | ~~~45x~~ | **~31x** |
+| Revenue (TTM) | ~~€17.5B (FY2025, +13% YoY)~~ | **~€18.2B (TTM Q1 2026, +8% QoQ)** |
+| Operating Income (TTM) | ~~€2.2B (12.8% margin)~~ | **Op margin 15.77% (TTM)** |
+| Operating Cash Flow (TTM) | ~~€2.9B (FCF, FY2025)~~ | **$3.23B / ~€3.0B (OCF TTM)** |
+| MAU | ~~751M~~ | **761M (Q1 2026)** |
+| Premium Subscribers | 290M (Q4 2025) | Awaiting Q2 update |
+| 52-Week Range | $405 - $785 | **Confirmed: $405 - $785** |
+
+> 📌 **2026/6/25 Incremental Update Note:** Q1 2026 earnings have been reported. TTM earnings improved significantly (Net Income $2.71B, EPS $14.74), compressing P/E from ~53-66x to ~30x. Operating margin improved from 12.8% to 15.77%. MAU reached 761M. Stock recovered to $442 from $416, though still down ~35% YTD. Forward P/E ~31x (vs prior ~45x), valuation pressure has eased considerably.
 
 ---
 
@@ -110,15 +112,21 @@ The global music streaming market was valued at approximately $56.3 billion in 2
 
 **Revenue (€B):**
 - 2022: €11.7B → 2023: €13.2B → 2024: €15.7B → 2025: €17.5B
-- 3-Year CAGR: ~14%
+- ~~3-Year CAGR: ~14%~~ **TTM Q1 2026: ~€18.2B (Q1 YoY +8%)**
 
 **Operating Margin:**
 - 2022: -5.6% → 2023: -3.4% → 2024: +8.7% → 2025: +12.8%
-- Q4 2025 standalone reached 15.5%, an all-time high
+- ~~Q4 2025 standalone reached 15.5%, an all-time high~~ **TTM Q1 2026: 15.77%, continuing to set new highs**
 
 **Free Cash Flow (€B):**
 - 2022: €0.02B → 2023: €0.68B → 2024: €2.3B → 2025: €2.9B
-- From near-zero to nearly €3 billion in three years
+- ~~From near-zero to nearly €3 billion in three years~~ **TTM Q1 2026 OCF: $3.23B (~€3.0B), Net Income $2.71B**
+
+**Q1 2026 Earnings Highlights (reported April 2026):**
+- Quarterly earnings +220% YoY, diluted EPS $14.74 (TTM)
+- MAU surpassed 761 million
+- Operating margin 15.77%, exceeding the prior FY2025 full-year 12.8%
+- Net margin 15.45%, ROE 37.99%
 
 ### Red Flag Checklist
 
@@ -278,9 +286,9 @@ Effective January 1, 2026, Spotify adopted a co-CEO structure:
 | Comps (P/E) | ~$450-550 | vs Netflix/Adobe, 35-45x Forward P/E | Medium |
 | Analyst Consensus | ~$720 | Average target from 34 analysts | Reference |
 
-**Current Price:** ~$416
-**vs Base Case:** ~20% upside
-**vs Analyst Consensus:** ~73% upside (likely overly optimistic)
+**Current Price:** ~~~$416~~ **$442.28**
+**vs Base Case:** ~~~20% upside~~ **~13% upside ($442 vs $500 DCF base)**
+**vs Analyst Consensus:** ~~~73% upside (likely overly optimistic)~~ **~34% upside (target $595 vs $442)**
 
 ⚠️ Valuation provided for context only, not as a recommendation.
 
@@ -290,8 +298,9 @@ Effective January 1, 2026, Spotify adopted a co-CEO structure:
 
 ### Near-Term (0-6 months)
 - ✅ Q4 2025 earnings released (2026/2/10), beat expectations
+- ✅ Q1 2026 earnings released (April 2026), +220% YoY, margin 15.77%
 - 📅 February 2026 US price increase takes effect — watch churn data
-- 📅 Q1 2026 earnings (expected May) — validate post-price-hike retention
+- 📅 Q2 2026 earnings (expected Aug 4) — validate post-price-hike retention
 - 📅 Programmatic ad platform progress
 
 ### Medium-Term (6-18 months)
@@ -312,13 +321,13 @@ Effective January 1, 2026, Spotify adopted a co-CEO structure:
 
 Spotify completed an impressive profitability transformation in 2024-2025, going from chronic losses to €2.2B in annual operating income and €2.9B in free cash flow. This was driven by cost optimization (layoffs + efficiency gains), pricing power (three rounds of increases), and content diversification (podcasts + audiobooks).
 
-However, the current ~$416 price (Forward P/E ~45x) is not cheap. While the stock has pulled back 47% from its $785 peak, the valuation remains above most tech giants. Bulls need to believe Spotify can sustain margin expansion and double-digit growth; bears argue structural royalty cost constraints and competitive pressure will cap upside.
+However, the current ~~~$416~~ **$442** price (~~Forward P/E ~45x~~ **Forward P/E ~31x**) has improved since February. While the stock has pulled back ~~47%~~ **~44%** from its $785 peak, valuation pressure has eased considerably due to rapid earnings growth. Bulls need to believe Spotify can sustain margin expansion and double-digit growth; bears argue structural royalty cost constraints and competitive pressure will cap upside.
 
-**Our View:**
-- Spotify's business quality is genuinely improving — this is not a flash in the pan
-- But valuation needs more time to digest, especially in a high macro-uncertainty environment
-- For long-term investors, the $350-400 range may offer a more attractive entry point
-- Key metrics to watch: net premium subscriber additions, gross margin trajectory, ad business recovery pace
+**Our View (updated 2026/6/25):**
+- Spotify's business quality is genuinely improving — Q1 2026 results (15.77% margin) reinforce this thesis
+- Valuation has compressed from ~45x to ~31x Forward P/E, improving the margin of safety
+- For long-term investors, the ~$442 price is better-supported by data than the ~$416 in February, though upside has narrowed to ~13%
+- Key metrics to watch: net premium subscriber additions, gross margin trajectory, ad business recovery pace, Q2 earnings (Aug 4)
 
 **Confidence Level: Medium** — Business direction is correct, but valuation and macro environment add uncertainty.
 
