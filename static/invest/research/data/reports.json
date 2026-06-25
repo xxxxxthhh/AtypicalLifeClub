@@ -113,7 +113,52 @@
     "ticker": "KRX: 000660",
     "title": "SK hynix 深度研究报告 - HBM垄断者的AI记忆霸权",
     "titleEn": "SK hynix Deep Research Report - The HBM Monopolist's AI Memory Dominance",
-    "summary": "全球HBM垄断者，53%市场份额+NVIDIA独家绑定。FY2025营收₩97.1万亿（+47%），营业利润₩47.2万亿（+101%），利润率49%。首次超越三星年度利润。Forward P/E仅5.3x，可能是全球半导体中最被低估的标的。韩股上市限制投资途径，EWY ETF是最便捷间接方式。",
+    "summary": "全球HBM垄断者（53%份额+NVIDIA绑定），乘AI内存超级周期创纪录。Q1 2026营收₩52.6万亿（+198% YoY）、营业利润₩37.6万亿（72%利润率）、净利₩40.3万亿。自2月以来股价约涨3.5倍、市值突破$1.3万亿（约₩2,070万亿），2月『深度低估』逻辑已基本兑现；TTM P/E约28x、利润率接近周期峰值，论点重心转向峰值可持续性。韩股上市，EWY为便捷间接途径。",
+    "tags": [
+      "半导体",
+      "HBM",
+      "AI内存",
+      "韩国"
+    ],
+    "category": "tech",
+    "date": "2026-02-25",
+    "lastUpdate": "2026-06-25",
+    "file": "/invest/research/reports/view.html?id=sk-hynix-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/SK_hynix_深度研究报告_2026-02.md",
+      "en": "/invest/research/SK_hynix_Deep_Research_Report_2026-02.md"
+    },
+    "highlights": [
+      "Q1 2026创纪录：营收₩52.6万亿（+198% YoY，+60% QoQ）、营业利润₩37.6万亿（72%利润率）、净利₩40.3万亿",
+      "自2月以来股价约涨3.5倍、市值突破$1.3万亿（约₩2,070万亿，价格×约7.08亿股）；TTM P/E约28x，深度价值逻辑已基本兑现",
+      "HBM全球份额53%、NVIDIA主供，未来三年需求已超供给；HBM4E样品H2 2026、量产2027",
+      "72%营业利润率接近周期峰值，均值回归与HBM4竞争是核心风险；韩股上市，EWY为便捷间接途径"
+    ],
+    "summaryEn": "Global HBM monopolist (53% share + NVIDIA lock-in) riding the AI-memory supercycle to records. Q1 2026 revenue ₩52.6T (+198% YoY), operating profit ₩37.6T (72% margin), net ₩40.3T. The stock has ~3.5x'd since February and market cap surpassed $1.3T (~₩2,070T on a price × shares basis), so February's deep-value thesis has largely played out; TTM P/E ~28x and 72% margins are near a cyclical peak, shifting the debate to durability. Korean-listed; EWY is the convenient indirect route.",
+    "period": "2026",
+    "versionType": "full-cycle",
+    "versionLabel": "2026 Full Rerun",
+    "isCurrent": true,
+    "supersedes": "sk-hynix-2026-pre-rerun",
+    "diffBase": "sk-hynix-2026-pre-rerun",
+    "previousAnnualReport": {
+      "id": "sk-hynix-2026-pre-rerun",
+      "label": "2026 重跑前版本",
+      "labelEn": "2026 Pre-rerun Version",
+      "file": "/invest/research/reports/view.html?id=sk-hynix-2026-pre-rerun",
+      "date": "2026-02-25",
+      "lastUpdate": "2026-02-25",
+      "summary": "归档的2026重跑前版本，保留FY2025收入/利润、HBM份额、技术路线图和旧的5.3x深度价值估值框架。",
+      "summaryEn": "Archived pre-rerun 2026 baseline preserving FY2025 revenue/profit, HBM share, the technology roadmap, and the old 5.3x deep-value valuation framework."
+    }
+  },
+  {
+    "id": "sk-hynix-2026-pre-rerun",
+    "company": "SK hynix",
+    "ticker": "KRX: 000660",
+    "title": "SK hynix 深度研究报告 - HBM垄断者的AI记忆霸权 - 重跑前归档版",
+    "titleEn": "SK hynix Deep Research Report - The HBM Monopolist's AI Memory Dominance - Pre-rerun Archive",
+    "summary": "归档的2026重跑前版本，保留FY2025收入/利润、HBM份额、技术路线图和旧的深度价值估值框架，作为当前完整重跑版本的对照基线。",
     "tags": [
       "半导体",
       "HBM",
@@ -123,17 +168,21 @@
     "category": "tech",
     "date": "2026-02-25",
     "lastUpdate": "2026-02-25",
-    "file": "/invest/research/reports/view.html?id=sk-hynix-2026",
+    "file": "/invest/research/reports/view.html?id=sk-hynix-2026-pre-rerun",
     "markdownFiles": {
-      "zh": "/invest/research/SK_hynix_深度研究报告_2026-02.md",
-      "en": "/invest/research/SK_hynix_Deep_Research_Report_2026-02.md"
+      "zh": "/invest/research/SK_hynix_深度研究报告_2026-02_pre_rerun.md",
+      "en": "/invest/research/SK_hynix_Deep_Research_Report_2026-02_pre_rerun.md"
     },
     "highlights": [
-      "HBM全球份额53%，NVIDIA独家/主要供应商，2026产能已售罄",
-      "FY2025营业利润₩47.2万亿（+101%），利润率49%，首次超越三星",
-      "Forward P/E 5.3x，全球半导体中最被低估的标的之一",
-      "间接投资：EWY ETF（19%权重）、Micron (MU)、直接韩股账户"
-    ]
+      "重跑前归档版本",
+      "保留原始判断与旧深度价值估值框架",
+      "作为当前完整重跑版本的对照基线"
+    ],
+    "summaryEn": "Archived pre-rerun 2026 baseline preserving FY2025 revenue/profit, HBM share, the technology roadmap, and the old deep-value valuation framework as the comparison baseline for the current full rerun.",
+    "isCurrent": false,
+    "period": "2026",
+    "versionType": "incremental",
+    "versionLabel": "2026 Pre-rerun Baseline"
   },
   {
     "id": "almonty-2026-pre-rerun",
