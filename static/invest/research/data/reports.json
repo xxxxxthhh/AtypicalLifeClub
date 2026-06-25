@@ -594,7 +594,7 @@
     "ticker": "NASDAQ: AMZN",
     "title": "Amazon 深度研究报告 - AI基础设施豪赌与飞轮加速",
     "titleEn": "Amazon Deep Research Report - The AI Infrastructure Bet and Flywheel Acceleration",
-    "summary": "全球最大电商+云计算巨头，FY2025营收$716.9B（+12%），营业利润$80B，净利润$77.7B。AWS增速重新加速至24%，广告$68.6B（+22%），自研芯片年化收入超$100亿。2026年资本开支指引$200B，FCF从$38B骤降至$11B。P/E 29x，分部估值有上行空间。",
+    "summary": "全球最大电商+云计算巨头。Q1 FY2026营收~$178B(AWS +24%), 营业利润~$22B, 利润引擎加速。$200B CapEx计划推进中, FCF承压但仍为正。当前股价~$228, 市值~$2.48T, P/E ~30x。核心张力: AI基础设施豪赌的回报周期 vs 零售+云+广告三引擎的利润动能。",
     "tags": [
       "云计算",
       "电商",
@@ -603,18 +603,22 @@
     ],
     "category": "tech",
     "date": "2026-02-11",
-    "lastUpdate": "2026-02-11",
+    "lastUpdate": "2026-06-25",
     "file": "/invest/research/reports/view.html?id=amzn-2026",
     "markdownFiles": {
       "zh": "/invest/research/AMZN_深度研究报告_2026-02.md",
       "en": "/invest/research/AMZN_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "FY2025营收$716.9B，净利润$77.7B（+31% YoY）",
-      "AWS Q4增速24%（13季度最快），年收入$128.7B",
-      "广告收入$68.6B（+22%），自研芯片超$100亿年化收入",
-      "2026年资本开支指引$200B，FCF骤降71%至$11.2B"
-    ]
+      "Q1 FY2026 AWS增速维持24%, AI服务年化收入超$150亿",
+      "$200B CapEx大部分投向AI基础设施, 短期FCF受压但长期构筑护城河",
+      "广告收入继续+20%+增长, 成第三利润引擎",
+      "P/E约30x(TTM), EV/EBITDA约18x; 分部估值隐含AWS+SaaS溢价, 零售折价"
+    ],
+    "period": "2026H1",
+    "versionType": "incremental",
+    "versionLabel": "2026H1 Incremental Update",
+    "summaryEn": "Global e-commerce + cloud leader. Q1 FY2026 revenue ~$178B (AWS +24%), op income ~$22B, profit engines accelerating. $200B CapEx plan underway, FCF pressured but positive. Current price ~$228, MC ~$2.48T, P/E ~30x. Core tension: AI infra bet payback timeline vs retail+cloud+ads profit momentum."
   },
   {
     "id": "netflix-2026",
