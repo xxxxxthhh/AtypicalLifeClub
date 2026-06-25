@@ -626,7 +626,7 @@
     "ticker": "NASDAQ: NFLX",
     "title": "Netflix 深度研究报告 - 流媒体帝国的豪赌与转型",
     "titleEn": "Netflix Deep Research Report - The Streaming Empire's Bold Bet and Transformation",
-    "summary": "全球流媒体龙头，2025年营收$45.2B（+16%），运营利润率29.5%，FCF $9.5B。3.25亿付费用户，广告收入超$1.5B。827亿美元收购华纳兄弟是最大变量，股价从高点回调40%+后Forward PE ~26-29x。",
+    "summary": "2026-06-25增量更新：股价$71.82（较2月$81 -11%），市值$302.5B，TTM P/E 23.17x，Forward P/E 22.37x。Q1 2026超预期（营收+16.2% vs指引12-14%，EPS +82.8%），运营利润率升至32.30%。52周区间$71.09-$134.12（-45%）。估值深度压缩，但WBD收购不确定性仍是最大变量。",
     "tags": [
       "流媒体",
       "内容平台",
@@ -635,18 +635,23 @@
     ],
     "category": "tech",
     "date": "2026-02-10",
-    "lastUpdate": "2026-02-10",
+    "lastUpdate": "2026-06-25",
+    "period": "2026H1",
+    "versionType": "incremental",
+    "versionLabel": "2026H1 Incremental Update",
     "file": "/invest/research/reports/view.html?id=netflix-2026",
     "markdownFiles": {
       "zh": "/invest/research/Netflix_深度研究报告_2026-02.md",
       "en": "/invest/research/Netflix_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "2025年营收$45.2B，运营利润率29.5%，FCF $9.5B",
-      "3.25亿付费用户，广告收入超$1.5B（+150% YoY）",
-      "827亿美元收购华纳兄弟，新增~500亿债务",
-      "Forward PE ~26-29x，从高点回调40%+，对比Spotify更具性价比"
-    ]
+      "股价$71.82，市值$302.5B，较2月$81下跌11%，较52周高$134.12下跌45%",
+      "Q1 2026超预期：TTM营收$46.89B（+16.2%），EPS $3.10（+82.8%），运营利润率32.30%",
+      "TTM P/E 23.17x，Forward P/E 22.37x，估值深度压缩至历史低位",
+      "现金$12.29B，债务$16.74B（D/E 53.79%），净债务仅$4.45B",
+      "827亿WBD收购推进中，Q3 2026预期完成；估值折价50%+ vs Spotify"
+    ],
+    "summaryEn": "2026-06-25 incremental update: Price $71.82 (from $81 in Feb, -11%), Market Cap $302.5B, TTM P/E 23.17x, Forward P/E 22.37x. Q1 2026 beat (revenue +16.2% vs 12-14% guidance, EPS +82.8%), operating margin rose to 32.30%. 52-week range $71.09-$134.12 (-45%). Deep-value valuation but WBD acquisition uncertainty is the dominant variable."
   },
   {
     "id": "spotify-2026",
