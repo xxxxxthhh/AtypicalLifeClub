@@ -1,7 +1,7 @@
 # NeoVolta (NEOV) Deep Research Report
 
 Coverage date: 2026-02-09
-Last updated: 2026-02-09
+Last updated: 2026-06-25
 Ticker: NASDAQ: NEOV
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 

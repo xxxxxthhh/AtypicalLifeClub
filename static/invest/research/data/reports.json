@@ -691,7 +691,7 @@
     "ticker": "NASDAQ: NEOV",
     "title": "NeoVolta 深度研究报告 - 美国住宅储能新势力",
     "titleEn": "NeoVolta Deep Research Report - Emerging U.S. Residential Energy Storage Player",
-    "summary": "加州储能公司，Q1 FY2026营收670万美元（同比+1,027%）。neuClick模块化平台+佐治亚工厂合资（隆基），押注IRA国产化红利，但仍未盈利且面临特斯拉强势竞争。",
+    "summary": "Q3 FY2026营收骤降至$2.02M（环比-56%），股价从$4.21暴跌至~$1.93（-54%），公开发行稀释65%。佐治亚工厂推迟至8月底、Infinite Grid $2亿LOI+Needham首次覆盖给予$8目标价提供远期想象空间，但近期基本面严重恶化。P/S(TTM)~5.82x，极高风险。",
     "tags": [
       "储能",
       "新能源",
@@ -700,17 +700,20 @@
     ],
     "category": "energy",
     "date": "2026-02-09",
-    "lastUpdate": "2026-02-09",
+    "lastUpdate": "2026-06-25",
     "file": "/invest/research/reports/view.html?id=neov-2026",
     "markdownFiles": {
       "zh": "/invest/research/NeoVolta_深度研究报告_2026-02.md",
       "en": "/invest/research/NeoVolta_Deep_Research_Report_2026-02.md"
     },
+    "period": "2026H1",
+    "versionType": "incremental",
+    "versionLabel": "2026H1 Incremental Update",
     "highlights": [
-      "Q1 FY2026营收670万美元，同比增长1,027%",
-      "佐治亚工厂合资（隆基），2026年中量产2GWh",
-      "neuClick模块化平台，30分钟安装，可堆叠至60kWh",
-      "估值~6.7x前瞻P/S，仍未盈利，做空比例6.66%"
+      "Q3 FY2026营收骤降至$2.02M（QoQ -56%），连续两个季度大幅萎缩；9个月累计$13.37M",
+      "股价从$4.21暴跌至~$1.93（-54%），公开发行使流通股从~33M增至~54.5M（+65%稀释）",
+      "佐治亚工厂推迟至8月底投产，FEOC合规已确认；Infinite Grid Capital 1.1 GWh LOI（~$2亿）",
+      "Needham 6/17首次覆盖给予买入、$8目标价；TTM P/S ~5.82x，现金$11.48M，跑道约4季度"
     ]
   },
   {
