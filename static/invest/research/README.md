@@ -13,8 +13,29 @@ static/invest/research/
 ├── report-style.css           # 详情页样式
 ├── reports/view.html          # 通用详情页模板
 ├── reports/*.html             # 旧链接兼容跳转页
+├── reviews/                   # 半年度复盘（与研报分开维护，见下）
+│   ├── index.html             # 复盘列表 + 详情渲染器（自带 TOC / 双语 / 主题）
+│   ├── reviews.json           # 复盘卡片元数据（独立目录，不进 reports.json）
+│   └── *_复盘.md / *_Review.md # 复盘正文 Markdown（内嵌静态 SVG 图表）
 └── *.md                       # 报告正文 Markdown
 ```
+
+## 复盘（Reviews）维护
+
+复盘是对覆盖标的的事后归因，**与研报分开**：单独的 `reviews/` 目录、单独的 `reviews.json`，不写入 `reports.json`，因此不会出现在研报列表里。节奏为**每半年一次**（2026H1、2026H2…）。
+
+复盘正文用与研报相同的 Markdown 管线渲染，但有自己的轻量渲染器（`reviews/index.html`），不套用研报的「11 模块」公司报告骨架。图表用**内嵌静态 SVG**（`marked` 不执行 `<script>`，故不能用 Chart.js）：
+
+- SVG 文字用 `fill="currentColor"` 跟随明暗主题；正负条用固定 `#2a78d6`／`#e34948`（两种主题都可读）。
+- 整块 `<figure>…</figure>` 内**不能有空行**，否则 `marked` 会在空行处中断 HTML 块。
+
+新增一期复盘：
+
+1. 写中英文正文 `reviews/<YYYY>H<N>_复盘.md` 与 `reviews/<YYYY>H<N>_Review.md`，把图表 SVG 内嵌进去。
+2. 在 `reviews/reviews.json` 增加一条记录（`id` / `title` / `titleEn` / `period` / `date` / `summary` / `summaryEn` / `tags` / `markdownFiles`）。
+3. 预览 `http://localhost:1313/invest/research/reviews/`，详情页支持 `?id=<id>&lang=zh|en`。
+
+研报首页 `index.html` 顶部有「查看半年度复盘 →」入口指向该目录。
 
 ## 更新流程
 

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>复盘 Reviews | Invest Research</title>
+    <link rel="stylesheet" href="/invest/theme-adapter.css">
+    <link rel="stylesheet" href="/invest/styles.css">
+    <link rel="stylesheet" href="/invest/research/styles.css">
+    <link rel="stylesheet" href="/invest/research/report-style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        #tableOfContents .module-nav-item.review-h3 > a { padding-left: 1.4rem; opacity: 0.85; }
+        #tableOfContents .module-nav-item.active > a { font-weight: 700; color: var(--primary, inherit); }
+        .review-meta-line { font-size: 0.92rem; opacity: 0.78; margin: 0.1rem 0; }
+    </style>
+</head>
+<body>
+    <header class="shell-header">
+        <div class="shell-header-inner">
+            <div class="shell-brand">
+                <div class="shell-brand-title shell-breadcrumb" aria-label="Breadcrumb">
+                    <a class="shell-breadcrumb-link" href="/invest/">Invest</a>
+                    <span class="shell-breadcrumb-separator">/</span>
+                    <a class="shell-breadcrumb-link" href="/invest/research/">Research</a>
+                    <span class="shell-breadcrumb-separator">/</span>
+                    <span class="shell-breadcrumb-current" aria-current="page">复盘 Reviews</span>
+                </div>
+                <span class="shell-brand-subtitle">Semi-annual Reviews</span>
+            </div>
+            <nav class="shell-nav">
+                <a href="/invest/">返回 Invest</a>
+                <a href="/invest/research/">Research</a>
+                <a href="/invest/currency/">Currency</a>
+                <a href="/invest/metals/">Metals</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="shell" id="reviewRoot"></main>
+
+    <script src="/shared/theme-switcher.js"></script>
+    <script>
+        const REVIEWS_DATA_URL = '/invest/research/reviews/reviews.json';
+        const SUPPORTED_LANGS = ['zh', 'en'];
+        let reviews = [];
+
+        document.addEventListener('DOMContentLoaded', init);
+        window.addEventListener('popstate', init);
+
+        async function init() {
+            const root = document.getElementById('reviewRoot');
+            try {
+                if (!reviews.length) {
+                    const res = await fetch(REVIEWS_DATA_URL, { cache: 'no-store' });
+                    if (!res.ok) throw new Error(`加载 reviews.json 失败: HTTP ${res.status}`);
+                    reviews = await res.json();
+                    if (!Array.isArray(reviews)) throw new Error('reviews.json 不是有效数组');
+                }
+                const params = new URLSearchParams(location.search);
+                const id = params.get('id');
+                if (!id) { renderList(root); return; }
+                const review = reviews.find((r) => r.id === id);
+                if (!review) throw new Error(`未找到复盘: ${id}`);
+                await renderDetail(root, review, chooseLang(params.get('lang'), review.markdownFiles));
+            } catch (err) {
+                console.error(err);
+                root.innerHTML = `<section class="section"><p style="color:#d43f3a;">${escapeHtml(err.message)}。请<a href="/invest/research/reviews/">返回复盘列表</a>。</p></section>`;
+            }
+        }
+
+        function chooseLang(requested, files) {
+            if (SUPPORTED_LANGS.includes(requested) && files[requested]) return requested;
+            return files.zh ? 'zh' : 'en';
+        }
+
+        function renderList(root) {
+            const sorted = [...reviews].sort((a, b) => String(b.date).localeCompare(String(a.date)));
+            const cards = sorted.map((r) => `
+                <article class="report-card report-card-clickable" data-href="?id=${encodeURIComponent(r.id)}" tabindex="0" role="link" aria-label="${escapeHtml(r.title)}">
+                    <div class="report-main">
+                        <div class="report-headline">
+                            <div class="report-company">${escapeHtml(r.title)}</div>
+                            <span class="report-category">${escapeHtml(r.period || '复盘')}</span>
+                        </div>
+                        <h3 class="report-title">${escapeHtml(r.titleEn || '')}</h3>
+                        <p class="report-summary">${escapeHtml(r.summary || '')}</p>
+                        <div class="report-meta"><span>发布 ${escapeHtml(r.date || '')}</span></div>
+                        <div class="report-tags">${(r.tags || []).map((t) => `<span class="tag">${escapeHtml(t)}</span>`).join('')}</div>
+                    </div>
+                    <div class="report-footer">
+                        <a href="?id=${encodeURIComponent(r.id)}" class="read-more">阅读复盘</a>
+                        <span class="update-badge">ID: ${escapeHtml(r.id)}</span>
+                    </div>
+                </article>`).join('');
+            root.innerHTML = `
+                <section class="hero research-hero">
+                    <h1 class="hero-title">复盘中心</h1>
+                    <p class="hero-subtitle">每半年一次，对研报中心覆盖标的做一次事后归因：识别了哪些机会、哪些超出/不及预期、方法论上有什么系统性偏差。与研报列表分开维护。</p>
+                </section>
+                <section class="section">
+                    <div class="research-header-row"><h2>复盘列表</h2></div>
+                    <div class="reports-grid">${cards || '<div class="empty-state">暂无复盘。</div>'}</div>
+                </section>`;
+            bindCardNavigation(root);
+        }
+
+        function bindCardNavigation(root) {
+            root.querySelectorAll('.report-card-clickable[data-href]').forEach((card) => {
+                const url = card.dataset.href;
+                card.addEventListener('click', (e) => { if (e.target.closest('a, button')) return; navigate(url); });
+                card.addEventListener('keydown', (e) => { if (e.key !== 'Enter' && e.key !== ' ') return; e.preventDefault(); navigate(url); });
+            });
+            root.querySelectorAll('a[href^="?id="], a[href^="/invest/research/reviews/?id="]').forEach((a) => {
+                a.addEventListener('click', (e) => { e.preventDefault(); navigate(a.getAttribute('href')); });
+            });
+        }
+
+        function navigate(url) {
+            history.pushState({}, '', url);
+            init();
+        }
+
+        async function renderDetail(root, review, lang) {
+            const res = await fetch(review.markdownFiles[lang], { cache: 'no-store' });
+            if (!res.ok) throw new Error(`加载复盘正文失败: HTTP ${res.status}`);
+            const raw = await res.text();
+            const { title, metaLines, body } = stripCover(raw, review, lang);
+
+            marked.setOptions({ gfm: true, breaks: true });
+            const bodyHtml = marked.parse(body);
+
+            root.classList.remove('shell');
+            root.classList.add('shell', 'report-layout');
+            root.innerHTML = `
+                <aside class="toc-panel">
+                    <div class="toc-header">${lang === 'en' ? 'Sections' : '复盘目录'}</div>
+                    <nav id="tableOfContents"></nav>
+                    <a class="button" href="/invest/research/reviews/" id="backToList" style="text-align:center;">${lang === 'en' ? '← All reviews' : '← 复盘列表'}</a>
+                    <button class="button" type="button" onclick="window.print()">${lang === 'en' ? 'Print' : '打印复盘'}</button>
+                </aside>
+                <article class="report-panel">
+                    <header class="report-hero">
+                        <div class="report-hero-controls">
+                            <div class="report-badge">${lang === 'en' ? 'Semi-annual review' : '半年度复盘'}</div>
+                            <div class="switch-group">
+                                <div class="language-switch" id="languageSwitch" role="group" aria-label="Language switch">
+                                    <button class="lang-btn${lang === 'zh' ? ' active' : ''}" type="button" data-lang="zh"${review.markdownFiles.zh ? '' : ' disabled'}>中文</button>
+                                    <button class="lang-btn${lang === 'en' ? ' active' : ''}" type="button" data-lang="en"${review.markdownFiles.en ? '' : ' disabled'}>EN</button>
+                                </div>
+                            </div>
+                        </div>
+                        <h1 id="heroTitle">${escapeHtml(title)}</h1>
+                        <div class="report-meta-info">${metaLines.map((l) => `<p class="review-meta-line">${escapeHtml(l)}</p>`).join('')}</div>
+                    </header>
+                    <div id="markdownContent">${bodyHtml}</div>
+                </article>`;
+
+            buildToc();
+            document.getElementById('backToList').addEventListener('click', (e) => { e.preventDefault(); navigate('/invest/research/reviews/'); });
+            document.querySelectorAll('#languageSwitch .lang-btn').forEach((btn) => {
+                btn.addEventListener('click', () => {
+                    const target = btn.dataset.lang;
+                    if (btn.disabled || target === lang) return;
+                    const url = `?id=${encodeURIComponent(review.id)}&lang=${target}`;
+                    navigate(url);
+                });
+            });
+            document.title = `${title} | Invest Research`;
+            window.scrollTo(0, 0);
+        }
+
+        function stripCover(raw, review, lang) {
+            const lines = raw.replace(/\r\n/g, '\n').split('\n');
+            let sep = lines.findIndex((l) => l.trim() === '---');
+            if (sep === -1) sep = 0;
+            const cover = lines.slice(0, sep);
+            const body = lines.slice(sep + 1).join('\n').trim();
+            let title = (lang === 'en' ? review.titleEn : review.title) || review.title || '';
+            const metaLines = [];
+            cover.forEach((l) => {
+                const t = l.trim();
+                if (!t) return;
+                if (t.startsWith('# ')) { title = t.slice(2).trim(); return; }
+                metaLines.push(t);
+            });
+            return { title, metaLines, body };
+        }
+
+        function buildToc() {
+            const toc = document.getElementById('tableOfContents');
+            const heads = document.querySelectorAll('#markdownContent h2, #markdownContent h3');
+            if (!toc || !heads.length) { if (toc) toc.innerHTML = ''; return; }
+            const items = [];
+            heads.forEach((h, i) => {
+                const id = `sec-${i}`;
+                h.id = id;
+                const isH3 = h.tagName.toLowerCase() === 'h3';
+                const text = h.textContent.trim();
+                const m = text.match(/^([0-9]+\.|[一二三四五六七八九十百]+、)\s*(.*)$/);
+                const num = isH3 ? '' : (m ? m[1].replace(/[.、]$/, '') : String(i + 1));
+                const label = m ? m[2] : text;
+                items.push(`<li class="module-nav-item${isH3 ? ' review-h3' : ''}" data-target="${id}"><a href="#${id}"><span class="module-nav-number">${escapeHtml(num)}</span><span class="module-nav-label">${escapeHtml(label)}</span></a></li>`);
+            });
+            toc.innerHTML = `<ul class="module-nav-list">${items.join('')}</ul>`;
+            toc.querySelectorAll('a[href^="#"]').forEach((a) => {
+                a.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const el = document.getElementById(a.getAttribute('href').slice(1));
+                    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                });
+            });
+            const navItems = [...toc.querySelectorAll('.module-nav-item')];
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (!entry.isIntersecting) return;
+                    navItems.forEach((n) => n.classList.toggle('active', n.dataset.target === entry.target.id));
+                });
+            }, { rootMargin: '0px 0px -75% 0px' });
+            heads.forEach((h) => observer.observe(h));
+        }
+
+        function escapeHtml(value) {
+            return String(value == null ? '' : value)
+                .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+        }
+    </script>
+</body>
+</html>

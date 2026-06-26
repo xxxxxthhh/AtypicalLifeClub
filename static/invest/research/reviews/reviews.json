@@ -1,0 +1,16 @@
+[
+  {
+    "id": "2026h1",
+    "title": "2026 H1 投资标的复盘",
+    "titleEn": "2026 H1 Portfolio Review",
+    "period": "2026H1",
+    "date": "2026-06-26",
+    "summary": "研报中心 20 个标的的半年度事后复盘：主线（AI 基础设施全产业链）识别准确，链条上的算力（AMD +159%）、内存（SK hynix +250%）、电力（Bloom +123%）全部大涨；但回报极度右偏（均值约 +31% vs 中位数约 +2%），且对赢家普遍因「估值已计入」维持中性。唯一方向性误判为 Salesforce（看多却 −22%），唯一叙事性误判为 Netflix 的 WBD。",
+    "summaryEn": "Semi-annual post-hoc review of 20 research-center names: the through-line (the full AI-infrastructure chain) was right — compute (AMD +159%), memory (SK hynix +250%) and power (Bloom +123%) all ran — but returns were heavily right-skewed (mean ~+31% vs median ~+2%) and winners were held neutral on valuation. The one directional miss was Salesforce (bullish yet −22%); the one narrative miss was Netflix's WBD.",
+    "tags": ["半年度复盘", "AI基础设施", "事后归因", "2026H1"],
+    "markdownFiles": {
+      "zh": "/invest/research/reviews/2026H1_复盘.md",
+      "en": "/invest/research/reviews/2026H1_Review.md"
+    }
+  }
+]
