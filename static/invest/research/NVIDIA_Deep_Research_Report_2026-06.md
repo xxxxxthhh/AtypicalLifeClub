@@ -1,9 +1,9 @@
 # NVIDIA (NVDA) Deep Research Report
 
-Coverage start date: 2026-06-26
+Coverage date: 2026-06-26
 Last updated: 2026-06-26
 Ticker: NASDAQ: NVDA
-Disclaimer: This report is for information and research only and is not investment advice. Do your own due diligence. Prices and market caps are point-in-time snapshots; financial figures follow the company's reported basis.
+Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 > **Fiscal-year note:** NVIDIA's fiscal year ends in late January. In this report **FY2026** is the year ended 2026-01-25; **Q1 FY2027** is the quarter ended 2026-04-26 (reported 2026-05-20), the latest quarter as of publication. Unlike the calendar-quarter convention used in this center's other reports, NVIDIA figures always use the company's official fiscal labels.
 
@@ -39,7 +39,7 @@ Disclaimer: This report is for information and research only and is not investme
 | FY2026 gross margin (GAAP / non-GAAP) | 71.1% / 71.3% |
 | Cash & marketable securities | $50.3B |
 | Capital return | +$80B buyback authorization + quarterly dividend $0.01→$0.25 |
-| 2026 AI equity investments (first 4 months) | >$40B (OpenAI $30B, CoreWeave 7%, etc.) |
+| AI ecosystem equity investments / commitments (public reporting) | 2026 H1 public-report estimate >$40B (incl. OpenAI, CoreWeave, etc.); not all of it is company-disclosed cash deployment |
 
 ---
 
@@ -71,8 +71,8 @@ NVIDIA's moat is often reduced to "CUDA lock-in," but it is really three stacked
 
 Competition comes from two directions with very different threat levels:
 
-- **AMD (head-on GPU competitor):** the MI450/MI400 series is a credible "second source," and Meta has committed up to 6GW of MI450 deployments (multi-year contract value estimated ~$60B). But the gap is still vast: NVIDIA's FY2026 Data Center revenue was ~$193.7B vs AMD Instinct's estimated ~$7-8B. AMD is gaining, but the absolute gap is still widening. AMD's value is more "a bargaining chip and supply redundancy for hyperscalers" than a near-term disruptor.
-- **Custom ASICs (the deeper structural threat):** hyperscaler in-house silicon is the more fundamental erosion of NVIDIA's share and pricing power. As design partner, Broadcom's AI ASIC revenue already topped $20B in FY2025, behind Google TPU, Meta MTIA, Microsoft Maia, and — confirmed in early 2026 — OpenAI's and Anthropic's in-house accelerator programs. The logic is direct: for relatively fixed inference workloads, hyperscalers are motivated to replace general-purpose GPUs with cheaper, more power-efficient dedicated chips and reinvest the savings in more compute.
+- **AMD (head-on GPU competitor):** the MI450/MI400 series is a credible "second source," and public reports indicate Meta may deploy up to 6GW of MI450s (multi-year contract value estimated ~$60B). But the gap is still vast: NVIDIA's FY2026 Data Center revenue was ~$193.7B vs AMD Instinct's estimated ~$7-8B. AMD is gaining, but the absolute gap is still widening. AMD's value is more "a bargaining chip and supply redundancy for hyperscalers" than a near-term disruptor.
+- **Custom ASICs (the deeper structural threat):** hyperscaler in-house silicon is the more fundamental erosion of NVIDIA's share and pricing power. As design partner, Broadcom's AI ASIC revenue reportedly topped $20B in FY2025, behind Google TPU, Meta MTIA, Microsoft Maia, and OpenAI / Anthropic in-house accelerator programs. Treat this as a public-reporting / industry-breakdown data point, not a fully company-confirmed customer disclosure; it should be reconciled to Broadcom's official disclosures at the next review. The logic is direct: for relatively fixed inference workloads, hyperscalers are motivated to replace general-purpose GPUs with cheaper, more power-efficient dedicated chips and reinvest the savings in more compute.
 
 **Key judgment:** NVIDIA's lead in **training** and on the **frontier / fast-evolving workloads** is hard to dislodge near-term; but in **inference** and **mature workloads**, custom ASICs will keep eating incremental share. The question is not whether NVIDIA loses leadership, but **what level its share of the total AI-compute pie settles at** as it falls from near-monopoly.
 
@@ -107,7 +107,7 @@ Two implications:
 
 - Cash and marketable securities of **$50.3B**, small debt, positive net cash — a sound structure.
 - Capital return stepped up sharply: a **new $80B buyback authorization** and the quarterly dividend raised from $0.01 to **$0.25** (25x). This usually signals management's high confidence in free-cash-flow durability.
-- But read it alongside the fact that the company also deployed **>$40B** in AI equity investments in the first four months of 2026 (Section 7). "Large buybacks/dividends and large outbound investing at the same time" is not contradictory (FCF is ample), but the direction of the investing (into the customers who buy its chips) is the heart of the valuation debate.
+- But read it alongside 2026 H1 public reports of **>$40B** in AI ecosystem equity investments / commitments (Section 7). "Large buybacks/dividends and large outbound investing at the same time" is not contradictory (FCF is ample), but the direction of the investing (into ecosystem partners / potential customers) is the heart of the valuation debate.
 
 ## 4. Management & Governance
 
@@ -115,7 +115,7 @@ Founder-CEO **Jensen Huang** has led since 1993 and is one of the most successfu
 
 **Governance and points to monitor:**
 
-- **Capital allocation enters a new phase:** from "almost no dividend, asset-light" to "$80B buyback + dividend + >$40B outbound equity investments." The latter (investing in customers/ecosystem) is a new, sizeable capital-allocation bet whose returns need to be validated over coming quarters.
+- **Capital allocation enters a new phase:** from "almost no dividend, asset-light" to "$80B buyback + dividend + large AI ecosystem equity investments / commitments." The latter (investing in customers/ecosystem) is a new, sizeable capital-allocation bet whose returns need to be validated over coming quarters.
 - **Insider selling:** at all-time-high prices, track founder/executive routine (10b5-1) selling cadence as a sentiment/valuation reference, not a short thesis.
 - **Key-person dependence:** strategy is tightly bound to Jensen Huang — a tail consideration to include in long-term governance.
 
@@ -136,15 +136,15 @@ Founder-CEO **Jensen Huang** has led since 1993 and is one of the most successfu
 **Core thesis:** at a $4.76T base, any "AI-capex peak/digestion" signal is amplified; the denominator (earnings expectation), not the numerator (the multiple), is the real risk source.
 
 1. **Law of large numbers + the capex cycle.** Data Center revenue is already running above a $300B annual rate; sustaining high growth requires hyperscalers to **raise capex year after year**. If AI investment ROI disappoints or macro tightens, capex peaks before revenue — and NVIDIA is the highest-beta link in that chain.
-2. **Custom ASICs keep eating inference share.** Broadcom's FY2025 ASIC revenue already topped $20B, tied to nearly every hyperscaler's in-house program. Inference is the larger, more standardized workload — exactly the ASIC home turf.
+2. **Custom ASICs keep eating inference share.** Public reporting indicates Broadcom's FY2025 AI ASIC revenue already topped $20B and that it is involved in multiple hyperscaler in-house programs. Inference is the larger, more standardized workload — exactly the ASIC home turf.
 3. **Structural loss of the China market.** A market once estimated to grow toward ~$50B has had the door shut, and geopolitical risk is two-sided (accelerating China domestic substitution + reversible U.S. policy).
-4. **"Circular financing" concerns.** NVIDIA is investing >$40B into the customers who buy its chips (OpenAI $30B, CoreWeave, etc.) and feeding GAAP profit with a $15.9B mark-up. The structure is being compared to dot-com-era "vendor financing" — if AI private valuations pull back, it creates a double hit of "investment write-downs + slowing end demand."
+4. **"Circular financing" concerns.** Public reports indicate NVIDIA has built large equity-investment or commitment exposure to AI ecosystem partners / potential customers (incl. OpenAI, CoreWeave, etc.), while Q1 GAAP profit includes a $15.9B net gain from equity securities. The structure is being compared to dot-com-era "vendor financing" — if AI private valuations pull back, it creates a double hit of "investment write-downs + slowing end demand."
 5. **Expectations are very high, error tolerance very low.** The market has priced in years of high growth. A single quarter's guidance miss, or one hyperscaler cutting capex, could trigger a sharp valuation reset (see the same-cycle lesson of Salesforce being "narrative-repriced").
 
 ## 7. Key Uncertainties
 
 1. **Sustainability and ROI of AI capex.** Can hyperscaler AI capex be supported by real application revenue / productivity returns? This is the biggest binary variable in the whole chain. When we'll know more: watch each quarter's capex guidance and AI-revenue disclosure from Microsoft/Google/Meta/Amazon.
-2. **The quality of "circular financing."** Are NVIDIA's stakes in OpenAI ($30B, cut from a $100B LOI), CoreWeave (7% stake, $2B @ $87.20/share), IREN, Nebius, etc. "rational ecosystem lock-in" or "manufacturing its own demand"? The key is whether these investees' end demand is real and self-sustaining.
+2. **The quality of "circular financing."** Per public reporting / market breakdowns, NVIDIA has investment or commitment exposure to OpenAI (reported $30B, cut from an earlier $100B LOI), CoreWeave (reported 7% stake, $2B @ $87.20/share), IREN, Nebius, etc.; is this "rational ecosystem lock-in" or "manufacturing its own demand"? The key is whether these investees' end demand is real and self-sustaining. The next review should reconcile this with NVIDIA's official disclosures and investee financing documents.
 3. **The pace of custom-ASIC substitution.** How steep is the migration of inference workloads to ASICs? Can NVIDIA defend with Rubin's efficiency/TCO advantage?
 4. **China policy path.** Will export controls tighten further, hold, or see a "pay-for-access" easing? Either direction materially changes the value of the China option.
 5. **Gross-margin durability.** How long can a 75% gross margin hold under competitive (ASIC/AMD) price pressure and mix shift (systems vs chips)?
@@ -202,8 +202,8 @@ Consistent with this center's stance on AMD, SK hynix and Bloom, **we assign a n
 - [NVIDIA Q1 FY2027 8-K (SEC)](https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000051/q1fy27pr.htm)
 - [NVIDIA FY2026 / Q4 results](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026)
 - Quote & market cap: [Yahoo Finance NVDA](https://finance.yahoo.com/quote/NVDA/), [CompaniesMarketCap NVDA](https://companiesmarketcap.com/nvidia/marketcap/), [Macrotrends market cap/shares](https://www.macrotrends.net/stocks/charts/NVDA/nvidia/market-cap)
-- Competition & valuation comps: Broadcom custom ASIC and AMD MI450 (public reporting, 2026 H1)
-- "Circular financing" / OpenAI stake cut to $30B: public reporting (2026 H1)
+- Competition & valuation comps: Broadcom custom ASIC and AMD MI450 (public reporting / industry breakdowns, 2026 H1; not all items are direct company disclosures)
+- "Circular financing" / reported OpenAI investment or LOI cut to $30B: public reporting (2026 H1; treated as a risk hypothesis pending official-document reconciliation)
 
 **Key assumptions & basis:**
 - Market cap estimated at ~24.30B shares × $195.74; different sources put market cap in the ~$4.7-5.0T range depending on date and methodology.
