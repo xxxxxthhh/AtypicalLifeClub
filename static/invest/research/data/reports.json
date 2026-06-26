@@ -594,7 +594,7 @@
     "ticker": "NASDAQ: AMZN",
     "title": "Amazon 深度研究报告 - AI基础设施豪赌与飞轮加速",
     "titleEn": "Amazon Deep Research Report - The AI Infrastructure Bet and Flywheel Acceleration",
-    "summary": "全球最大电商+云计算巨头。Q1 FY2026营收~$178B(AWS +24%), 营业利润~$22B, 利润引擎加速。$200B CapEx计划推进中, FCF承压但仍为正。当前股价~$228, 市值~$2.48T, P/E ~30x。核心张力: AI基础设施豪赌的回报周期 vs 零售+云+广告三引擎的利润动能。",
+    "summary": "全球最大电商+云计算巨头。Q1 FY2026实际营收$181.5B(+17%, AWS加速至+28%创15季新高), 营业利润$23.9B(13.1%利润率创纪录); 净利润$30.3B含约$16.8B Anthropic投资一次性收益。$200B CapEx计划推进中, FCF承压(TTM $9.8B)。当前股价$228.15, 市值~$2.52T, GAAP P/E 27.75x/正常化~31.6x。核心张力: AI基础设施豪赌的回报周期 vs 零售+云+广告三引擎的利润动能。",
     "tags": [
       "云计算",
       "电商",
@@ -610,15 +610,15 @@
       "en": "/invest/research/AMZN_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "Q1 FY2026 AWS增速维持24%, AI服务年化收入超$150亿",
-      "$200B CapEx大部分投向AI基础设施, 短期FCF受压但长期构筑护城河",
-      "广告收入继续+20%+增长, 成第三利润引擎",
-      "P/E约30x(TTM), EV/EBITDA约18x; 分部估值隐含AWS+SaaS溢价, 零售折价"
+      "Q1 FY2026 AWS加速至+28%(15季新高), AI服务年化收入超$150亿",
+      "$200B CapEx大部分投向AI基础设施, 短期FCF受压(TTM $9.8B)但长期构筑护城河",
+      "Q1营业利润$23.9B(13.1%利润率创纪录); 广告收入继续+20%+增长, 成第三利润引擎",
+      "GAAP P/E 27.75x(含$16.8B Anthropic一次性收益)/正常化~31.6x, EV/EBITDA约16.6x"
     ],
     "period": "2026H1",
     "versionType": "incremental",
     "versionLabel": "2026H1 Incremental Update",
-    "summaryEn": "Global e-commerce + cloud leader. Q1 FY2026 revenue ~$178B (AWS +24%), op income ~$22B, profit engines accelerating. $200B CapEx plan underway, FCF pressured but positive. Current price ~$228, MC ~$2.48T, P/E ~30x. Core tension: AI infra bet payback timeline vs retail+cloud+ads profit momentum."
+    "summaryEn": "Global e-commerce + cloud leader. Q1 FY2026 actuals: revenue $181.5B (+17%, AWS accelerated to +28% — a 15-quarter high), op income $23.9B (record 13.1% margin); net income $30.3B included a ~$16.8B one-time Anthropic investment gain. $200B CapEx plan underway, FCF pressured (TTM $9.8B). Current price $228.15, MC ~$2.52T, GAAP P/E 27.75x / normalized ~31.6x. Core tension: AI infra bet payback timeline vs retail+cloud+ads profit momentum."
   },
   {
     "id": "netflix-2026",

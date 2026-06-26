@@ -24,14 +24,14 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Total Revenue | $716.9B | $638.0B | +12.4% | **$742.8B** |
 | Operating Income | $80.0B | $68.6B | +16.6% | **$85.4B** |
 | Net Income | $77.7B | $59.2B | +31.2% | **$90.8B** |
-| Diluted EPS | $7.17 | $5.53 | +29.7% | **$7.40** |
+| Diluted EPS | $7.17 | $5.53 | +29.7% | **$8.36** |
 | Operating Cash Flow | $139.5B | $115.9B | +20.4% | **$148.5B** |
 | Capital Expenditure | $131.8B | $83.0B | +58.8% | N/A (Q1 pace ~$50B) |
 | Free Cash Flow (TTM) | $11.2B | $38.2B | -70.7% | **$9.8B** (levered) |
 | Operating Margin | 11.2% | 10.8% | +40bps | **11.5%** |
 
 **Stock Price:** ~~$206.96 (Feb 10, 2026)~~ → **$228.15 (Jun 25, 2026 close)**
-**Trailing P/E:** ~~28.9x~~ → **31.60x** (TTM, self-calc MC/NI: $2.52T/$90.8B = 27.75x)
+**Trailing P/E:** ~~28.9x~~ → **27.75x GAAP** ($2.52T / $90.8B TTM net income; TTM diluted EPS $8.36). Note: Q1 2026 net income included a ~$16.8B pre-tax gain on the Anthropic investment; excluding that one-off, normalized TTM EPS ≈ $7.20 and normalized P/E ≈ 31.6x (the figure Yahoo displays).
 
 ---
 
@@ -295,7 +295,7 @@ The balance sheet remains robust. Despite $13B in incremental long-term debt (pr
 |--------|----------|--------------|
 | Stock Price | ~~$206.96~~ | **$228.15** |
 | Market Cap | ~~~$2.22T~~ | **~$2.52T** |
-| P/E (TTM) | ~~28.9x~~ | **31.60x** (Yahoo) / 27.75x (self-calc: $2.52T/$90.8B) |
+| P/E (TTM) | ~~28.9x~~ | **27.75x GAAP** ($2.52T/$90.8B, EPS $8.36) / **~31.6x normalized** (ex ~$16.8B Anthropic gain; = Yahoo) |
 | EV/EBITDA (TTM) | ~~~13.5x~~ | **~16.62x** (self-calc: $2.59T/$155.86B) |
 | P/FCF (TTM) | ~~~198x~~ | **~257x** (FCF further compressed) |
 | P/S (TTM) | ~~3.1x~~ | **3.86x** (Yahoo) / **3.39x** (self-calc: $2.52T/$742.78B) |
@@ -419,17 +419,17 @@ Amazon's P/E and EV/EBITDA are mid-range among mega-cap tech, but P/S is the low
 - Operating Income: $16.5B - $21.5B (vs Q1 2025's $18.4B)
 - FX tailwind of ~180bps
 
-**Q1 2026 Actual Results (Apr 2026):** ✅ BEAT
-- Revenue: **~$181.6B** (estimated, +16.6% YoY — exceeded high end of guidance)
-- Operating Income: Beat the $16.5B-$21.5B range (implied by TTM OpInc $85.4B vs FY2025 $80.0B)
-- Q1 Net Income contribution: significant — TTM net income reached $90.8B (vs FY2025 $77.7B)
-- Quarterly Earnings Growth: **+76.7% YoY** (per Yahoo Finance)
-- Revenue Growth: **+16.6% YoY** (per Yahoo Finance)
+**Q1 2026 Actual Results (reported Apr 29, 2026):** ✅ BEAT
+- Revenue: **$181.5B** (+17% YoY) — beat consensus (~$177.3B) and the high end of guidance
+- Operating Income: **$23.9B** (13.1% margin — a record high), beating the top of the $16.5B-$21.5B guidance range by ~$2.4B
+- Net Income: **$30.3B** (vs $17.1B in Q1 2025, ~+77% YoY); Diluted EPS **$2.78** (vs ~$1.65 est.) — but this **included a ~$16.8B pre-tax gain on the Anthropic investment** that inflated EPS; operating results were independently strong
+- AWS: **+28% YoY** — its fastest growth in 15 quarters
+- TTM impact: net income to $90.8B (vs FY2025 $77.7B), TTM diluted EPS to ~$8.36
 - Q1 2026 capex run-rate: ~$50B (annualizing to ~$200B, confirming the aggressive plan)
 
 **2026-06-25 Assessment:**
 - Q1 2026 was a strong beat across revenue and earnings
-- AWS growth likely sustained >20% (exact breakdown pending full filing analysis)
+- AWS grew +28% YoY — its fastest pace in 15 quarters (re-acceleration confirmed)
 - Advertising growth trajectory intact at 20%+
 - Capex tracking toward $200B annual target — FCF remains compressed at $9.8B TTM
 - Operating margin TTM improved to 11.5% (vs FY2025 11.2%), showing operational leverage
@@ -480,14 +480,14 @@ Amazon is one of the few companies with dual moats in both consumer internet and
 The $200B 2026 capex guidance is the biggest point of debate. We lean toward viewing it as the right strategic choice — in AI infrastructure, scale and first-mover advantage are critical, and Amazon has sufficient cash flow and balance sheet strength to support this investment. However, we acknowledge that if AI demand disappoints or technology trajectories shift materially, returns on this investment could disappoint.
 
 **Key Monitoring Metrics:** ~~(from Feb 2026)~~ → **2026-06-25 status:**
-- ✅ AWS quarterly growth sustains 20%+ — Q4 FY2025 was 24%, Q1 2026 likely sustained >20%
+- ✅ AWS quarterly growth sustains 20%+ — Q4 FY2025 was 24%, Q1 2026 accelerated to 28% (15-quarter high)
 - ✅ Advertising revenue growth sustains 20%+ — trajectory intact per TTM data
 - ✅ Custom chip revenue growth — Trainium+Graviton annualized >$10B confirmed
 - ⚠️ FCF recovery in H2 FY2026 — not yet visible; TTM FCF further declined to $9.8B
-- ✅ Q1 2026 operating income reached guidance midpoint or above — BEAT confirmed (+76.7% earnings growth)
+- ✅ Q1 2026 operating income reached guidance midpoint or above — BEAT confirmed ($23.9B op income, 13.1% record margin)
 - 🆕 TTM operating margin improved to 11.5% (vs FY2025 11.2%)
 - 🆕 Balance sheet strengthened: cash $143B, debt $236B, net debt position of -$93B
-- 🆕 Stock ~18% below 52W high ($278.56), P/E expanded to 31.60x from 28.9x
+- 🆕 Stock ~18% below 52W high ($278.56); GAAP P/E 27.75x / normalized P/E ~31.6x (vs Feb 28.9x)
 
 **2026-06-25 Incremental Assessment:**
 Q1 2026 results validate the core thesis: AWS re-acceleration, advertising momentum, and margin expansion all continue. The $200B capex plan is being executed — Q1 alone saw ~$50B in spending. FCF remains the pain point at $9.8B TTM (levered), but operating cash flow of $148.5B provides ample funding capacity. The stock's ~10% appreciation since February reflects improving fundamentals, though the P/E expansion to 31.60x reduces margin of safety. The cautious bullish stance is maintained — the key debate remains whether $200B in capex translates to sustained competitive advantage or represents overinvestment.
