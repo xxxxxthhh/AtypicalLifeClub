@@ -65,6 +65,7 @@
                 await renderDetail(root, review, chooseLang(params.get('lang'), review.markdownFiles));
             } catch (err) {
                 console.error(err);
+                root.className = 'shell';
                 root.innerHTML = `<section class="section"><p style="color:#d43f3a;">${escapeHtml(err.message)}。请<a href="/invest/research/reviews/">返回复盘列表</a>。</p></section>`;
             }
         }
@@ -75,6 +76,8 @@
         }
 
         function renderList(root) {
+            root.className = 'shell';
+            document.title = '复盘 Reviews | Invest Research';
             const sorted = [...reviews].sort((a, b) => String(b.date).localeCompare(String(a.date)));
             const cards = sorted.map((r) => `
                 <article class="report-card report-card-clickable" data-href="?id=${encodeURIComponent(r.id)}" tabindex="0" role="link" aria-label="${escapeHtml(r.title)}">
@@ -130,8 +133,7 @@
             marked.setOptions({ gfm: true, breaks: true });
             const bodyHtml = marked.parse(body);
 
-            root.classList.remove('shell');
-            root.classList.add('shell', 'report-layout');
+            root.className = 'shell report-layout';
             root.innerHTML = `
                 <aside class="toc-panel">
                     <div class="toc-header">${lang === 'en' ? 'Sections' : '复盘目录'}</div>
