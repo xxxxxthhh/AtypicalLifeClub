@@ -1,9 +1,9 @@
 # GE Vernova (GEV) Deep Research Report
 
-Coverage start date: 2026-06-27
+Coverage date: 2026-06-27
 Last updated: 2026-06-27
 Ticker: NYSE: GEV
-Disclaimer: This report is for information and research only and is not investment advice. Do your own due diligence. Prices and market caps are point-in-time snapshots; financial figures follow the company's reported basis.
+Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 > **Background:** GE Vernova was spun off from General Electric in April 2024, inheriting GE's Power (gas turbines, nuclear, hydro), Electrification (grid equipment) and Wind businesses; its fiscal year is the calendar year. In this report **FY2025** is the year ended 2025-12-31; **Q1 2026** is the quarter ended 2026-03-31 (reported ~2026-04-22), the latest quarter as of publication. Read alongside this center's NVIDIA, Broadcom and Bloom Energy reports — the first two are the "compute side" of AI, while GE Vernova and Bloom are the "power side."
 
@@ -26,7 +26,8 @@ Disclaimer: This report is for information and research only and is not investme
 | 52-week range | $482.20 - $1,181.95 (~+117% over the past year) |
 | EV/2026E adjusted EBITDA | ~45-48x (rich; prices in a multi-year margin ramp) |
 | Forward P/E | high and dispersed (~40-70x, earnings at an inflection) |
-| Q1 2026 revenue | ~$9.3B (beat), adjusted EPS $2.06 (beat $1.88) |
+| Q1 2026 revenue / adjusted EBITDA | $9.34B / $896M (adjusted EBITDA margin 9.6%) |
+| Q1 GAAP net income / EPS basis | $4.75B / $17.44, including ~$4.5B of Prolec GE-related pre-tax M&A net gains; not the operating anchor |
 | Q1 2026 orders | $18.3B; Electrification data-center equipment orders $2.4B (more than all of last year) |
 | Total backlog | $163B (+$13B+ QoQ); 2027 target $200B (pulled forward from 2028) |
 | Gas turbine backlog + slot reservations | targeting ≥110 GW by year-end 2026 |
@@ -34,7 +35,7 @@ Disclaimer: This report is for information and research only and is not investme
 | FY2025 revenue | $38.1B (+9% YoY) |
 | FY2025 adjusted EBITDA / margin | $3.2B / 8.4% |
 | FY2025 operating cash flow / FCF | $5.0B / $3.7B |
-| Cash | $8.8B (net cash, minimal debt) |
+| Cash / senior notes / rough net cash | $10.2B / $2.6B / ~$7.6B (Q1 2026, cash minus senior notes) |
 | Three segments | Power (gas turbines/nuclear/hydro), Electrification (grid, fastest-growing), Wind (still loss-making, a drag) |
 
 ---
@@ -47,9 +48,17 @@ GE Vernova is a global leader in power equipment and electrification, spanning t
 - **Electrification (fastest-growing):** grid equipment — transformers, switchgear, HVDC, grid software. AI data centers, re-electrification and aging-grid replacement all pull demand, and scarcity is even tighter than on the generation side. The company recently acquired Prolec GE (transformers) to strengthen this.
 - **Wind (the drag):** onshore + offshore wind. Hit by policy uncertainty, supply chain and offshore-wind losses, it is the one "problem child" of the three, with segment EBITDA still negative.
 
+**Q1 2026 segment economics:**
+
+| Segment | Q1 orders | Q1 revenue | Segment EBITDA / margin | What it means |
+|---|---:|---:|---:|---|
+| Power | $10.0B (+60%) | $5.0B (+12%) | $811M / 16.3% | Gas-turbine pricing and services orders are pulling through; slot scarcity is showing up in margin |
+| Electrification | $7.1B (+111%) | $3.0B (+61%) | $528M / 17.8% | Strongest grid-equipment engine, book-to-bill ~2.5, with $2.4B of data-center orders |
+| Wind | $1.2B (+87%) | $1.4B (-23%) | -$382M / -26.7% | Still the main drag; offshore wind and tariff/contract losses need continued shrinking |
+
 **The business model:** GE Vernova sells the full set of equipment + long-term service contracts to move electricity "from generation to the data center's door." Within that, **services (maintenance/upgrades of the installed base)** are high-margin, long-cycle stable cash flow, while **equipment (new units)** rides the current super-cycle. The scarcity of slots (production capacity windows) gives it strong pricing power — customers queue to reserve gas-turbine capacity years out.
 
-**Full-year FY2025:** revenue $38.1B (+9%), adjusted EBITDA $3.2B (8.4% margin), FCF $3.7B, cash $8.8B. Margins are still at a low base — exactly the starting point of the "margin ramp" story.
+**Full-year FY2025:** revenue $38.1B (+9%), adjusted EBITDA $3.2B (8.4% margin), FCF $3.7B, cash $8.8B. By Q1 2026, cash had increased to $10.2B while the company issued $2.6B of senior notes partly to finance Prolec GE. Margins are still at a low base — exactly the starting point of the "margin ramp" story.
 
 ## 2. Industry & Competitive Position
 
@@ -75,14 +84,15 @@ This center's Bloom Energy is the "on-site fuel cell" route (campus-scale, fast 
 
 ### 3.1 Q1 2026: orders and backlog are the real story
 
-- Total revenue ~**$9.3B** (beat); adjusted EPS **$2.06** (beat $1.88).
+- Total revenue **$9.34B** (+16%, +7% organic), adjusted EBITDA **$896M**, adjusted EBITDA margin **9.6%** (+390 bps YoY).
+- GAAP net income was **$4.75B** / diluted EPS **$17.44**, but this included roughly **$4.5B** of Prolec GE-related pre-tax M&A net gains; EPS is therefore not the core operating anchor here. Orders, backlog, adjusted EBITDA margin and FCF matter more.
 - **Orders of $18.3B**; backlog grew **$13B+** QoQ to **$163B**; the company pulled its $200B backlog target forward from 2028 **to 2027**.
 - Equipment backlog grew sharply YoY at materially better margins on new bookings — a leading indicator of the "margin ramp."
 - Raised FY2026 guidance: revenue $44.5-45.5B, adjusted EBITDA margin **12-14%** (up 1pp), FCF **$6.5-7.5B** (up from $5.0-5.5B).
 
 ### 3.2 Clean balance sheet, cash flow at an inflection
 
-- Cash of **$8.8B**, minimal debt, a **net-cash** structure — a sharp contrast with Broadcom's $64.9B of debt.
+- Q1 2026 cash balance was **$10.2B**; the company issued **$2.6B of senior notes** partly to finance Prolec GE, leaving rough net cash (cash minus senior notes) of about **$7.6B** — still a sharp contrast with Broadcom's $64.9B of total debt.
 - FCF guidance stepped up from FY2025's $3.7B to FY2026's $6.5-7.5B — cash generation is at a clear inflection.
 - The company has **doubled the dividend + expanded buybacks**, a signal on cash durability.
 
@@ -108,7 +118,7 @@ CEO **Scott Strazik** has led since the spin-off, and management's post-spin exe
 1. **Structural demand, visible for years.** Data centers + re-electrification + reshoring all drive it; backlog $163B → 2027 target $200B, strong visibility.
 2. **Gas-turbine oligopoly + slot scarcity.** Three players dominate, capacity is tight, customers queue to reserve (≥110 GW target), and OEMs hold pricing power.
 3. **Twin inflection in margin and cash.** Adjusted EBITDA margin 8.4% → 12-14% guide, FCF $3.7B → $6.5-7.5B, significant operating leverage.
-4. **Clean balance sheet.** $8.8B net cash, minimal debt, supporting dividend + buyback + M&A.
+4. **Clean balance sheet.** Q1 cash of $10.2B, senior notes of $2.6B and rough net cash of ~$7.6B support dividend + buyback + M&A.
 5. **More "grid infrastructure" than Bloom, more lagged than pure chips.** A longer, more lagged power cycle gives a thicker buffer.
 
 ## 6. Bear Case
@@ -138,7 +148,7 @@ CEO **Scott Strazik** has led since the spin-off, and management's post-spin exe
 
 > The following is valuation "context," not a price target or a buy/sell recommendation.
 
-- **EV/2026E adjusted EBITDA ~45-48x:** on FY2026 guidance (revenue ~$45B × 13% margin ≈ $5.85B adjusted EBITDA), EV ~$275B (market cap − $8.8B net cash). This is a **rich multiple on current EBITDA**, justified only when the multi-year margin ramp and backlog growth are counted in.
+- **EV/2026E adjusted EBITDA ~45-48x:** on FY2026 guidance (revenue ~$45B × 13% margin ≈ $5.85B adjusted EBITDA), EV is roughly ~$276B (market cap − ~$7.6B rough net cash). This is a **rich multiple on current EBITDA**, justified only when the multi-year margin ramp and backlog growth are counted in.
 - **Forward P/E highly dispersed (~40-70x):** because earnings are inflecting fast from a low base, the denominator (forward EPS) is itself widely estimated, so P/E alone is of limited use.
 - **Reading the multiple:** isomorphic with the AI chip stocks — GE Vernova's valuation risk is not "insufficient orders" but whether the **denominator (margin ramp + backlog conversion) delivers on schedule**. The difference from NVIDIA/Broadcom: its cycle is longer and more lagged and its balance sheet cleaner (net cash), but its current earnings base is lower and it depends more heavily on "the ramp delivering."
 
@@ -167,7 +177,7 @@ CEO **Scott Strazik** has led since the spin-off, and management's post-spin exe
 
 ## 10. Conclusion
 
-GE Vernova is the most direct pick-and-shovel of AI's "power side": when NVIDIA/Broadcom stack up the compute, where the electricity comes from and how it reaches the data hall is GE Vernova's business. The moat (gas-turbine oligopoly + grid scarcity + slot scarcity) is real; the inflection in orders (Q1 $18.3B), backlog ($163B → 2027 target $200B) and cash flow (FCF guide raised to $6.5-7.5B) is clear; and the balance sheet is clean ($8.8B net cash). **As with the AI chip stocks, this is not a "are the fundamentals good enough" question.**
+GE Vernova is the most direct pick-and-shovel of AI's "power side": when NVIDIA/Broadcom stack up the compute, where the electricity comes from and how it reaches the data hall is GE Vernova's business. The moat (gas-turbine oligopoly + grid scarcity + slot scarcity) is real; the inflection in orders (Q1 $18.3B), backlog ($163B → 2027 target $200B) and cash flow (FCF guide raised to $6.5-7.5B) is clear; and the balance sheet remains clean (Q1 cash $10.2B, senior notes $2.6B). **As with the AI chip stocks, this is not a "are the fundamentals good enough" question.**
 
 The real tension is that **up ~117% in a year, a $284B market cap already prices in the multi-year story of "margins climbing from 8.4% to the mid-teens and beyond."** It shares the same AI capex cycle as NVIDIA/Broadcom — only it sits on the more-lagged, thicker-buffered power side; its specifics are a lower current earnings base, a heavier dependence on "the margin ramp delivering on schedule," while slot reservations are not firm orders and Wind is still bleeding.
 
@@ -183,8 +193,8 @@ So, consistent with this center's stance on NVIDIA, Broadcom, Bloom and AMD, **w
 
 **Key assumptions & basis:**
 - Market cap estimated at ~269M shares × $1,056.77; sources put market cap in the ~$284-298B range depending on date.
-- EV/2026E adjusted EBITDA is a rough calc on the FY2026 guidance midpoint (revenue ~$45B, ~13% margin → ~$5.85B) and EV ~$275B (market cap − $8.8B net cash).
+- EV/2026E adjusted EBITDA is a rough calc on the FY2026 guidance midpoint (revenue ~$45B, ~13% margin → ~$5.85B) and EV ~$276B (market cap − ~$7.6B rough net cash); rough net cash uses Q1 cash of $10.2B minus $2.6B of Q1 senior notes, with the precise debt schedule to be reconciled against the 10-Q/annual report.
 - Forward P/E is highly dispersed (~40-70x) because earnings are at an inflection; it is not used as a primary anchor.
-- Q1 2026 total revenue ~$9.3B and adjusted EPS $2.06 are per public reporting; segment detail follows the company's filings and should be reconciled to the official 10-Q/annual report at the next review.
+- Q1 2026 total revenue of $9.34B, adjusted EBITDA of $896M, adjusted EBITDA margin of 9.6% and FCF of $4.79B are company-disclosed; GAAP EPS was materially affected by roughly $4.5B of Prolec GE-related pre-tax M&A net gains and is not used as the core valuation anchor.
 - Gas-turbine 110 GW, backlog $163B/$200B, and orders $18.3B are per company disclosure and public reporting; slot reservations include non-firm portions.
 - This report is **initial coverage**; it includes no prior-cycle comparison. Refresh price, guidance and valuation anchors once subsequent quarters are disclosed.
