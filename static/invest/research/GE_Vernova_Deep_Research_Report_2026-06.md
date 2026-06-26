@@ -45,7 +45,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 GE Vernova is a global leader in power equipment and electrification, spanning the "generation-to-transmission" chain across three segments:
 
 - **Power (largest segment):** heavy-duty gas turbines (one of the world's three OEMs), nuclear (GE Hitachi BWRX-300 small modular reactor, SMR), hydro and steam. Gas turbines are the core of the AI-electricity narrative — data centers need dispatchable, fast-to-deploy power, and gas turbines are the first choice.
-- **Electrification (fastest-growing):** grid equipment — transformers, switchgear, HVDC, grid software. AI data centers, re-electrification and aging-grid replacement all pull demand, and scarcity is even tighter than on the generation side. The company recently acquired Prolec GE (transformers) to strengthen this.
+- **Electrification (fastest-growing):** grid equipment — transformers, switchgear, HVDC, grid software. AI data centers, re-electrification and aging-grid replacement all pull demand, and scarcity is even tighter than on the generation side. The company recently acquired Prolec GE, a Mexican transformer manufacturer, from Xignux to strengthen its transformer capacity in North America; the acquisition was partly financed by the $2.6B senior notes issued in Q1 2026 and generated a ~$4.5B non-cash bargain-purchase gain that inflated Q1 GAAP net income (see §3.1).
 - **Wind (the drag):** onshore + offshore wind. Hit by policy uncertainty, supply chain and offshore-wind losses, it is the one "problem child" of the three, with segment EBITDA still negative.
 
 **Q1 2026 segment economics:**
@@ -57,6 +57,8 @@ GE Vernova is a global leader in power equipment and electrification, spanning t
 | Wind | $1.2B (+87%) | $1.4B (-23%) | -$382M / -26.7% | Still the main drag; offshore wind and tariff/contract losses need continued shrinking |
 
 **The business model:** GE Vernova sells the full set of equipment + long-term service contracts to move electricity "from generation to the data center's door." Within that, **services (maintenance/upgrades of the installed base)** are high-margin, long-cycle stable cash flow, while **equipment (new units)** rides the current super-cycle. The scarcity of slots (production capacity windows) gives it strong pricing power — customers queue to reserve gas-turbine capacity years out.
+
+**Wind in context:** The Wind segment's Q1 EBITDA loss of -$382M annualizes to roughly **-$1.5B** — set against FY2026E consolidated adjusted EBITDA of ~$5.85B (guidance midpoint), Wind is currently consuming about **25%** of the company's potential operating profit. This is the single largest headwind to the margin-ramp thesis; any improvement (divestiture, restructuring, or a recovery in offshore wind economics) would directly lift consolidated margins.
 
 **Full-year FY2025:** revenue $38.1B (+9%), adjusted EBITDA $3.2B (8.4% margin), FCF $3.7B, cash $8.8B. By Q1 2026, cash had increased to $10.2B while the company issued $2.6B of senior notes partly to finance Prolec GE. Margins are still at a low base — exactly the starting point of the "margin ramp" story.
 
@@ -73,7 +75,7 @@ GE Vernova is a global leader in power equipment and electrification, spanning t
 The AI data-center bottleneck is spilling over from "chips" to "power":
 
 - **Data-center electricity demand** has become a new growth driver for both Power and Electrification. In Q1 2026, Electrification alone booked **$2.4B** of data-center equipment orders — more than all of last year.
-- **Gas-turbine slot reservations** have become the way data-center/power customers lock future capacity; the company targets ≥**110 GW** of gas-turbine backlog + slot reservations by year-end 2026.
+- **Gas-turbine slot reservations** have become the way data-center/power customers lock future capacity; the company targets ≥**110 GW** of gas-turbine backlog + slot reservations by year-end 2026. Note that the 110 GW figure aggregates both firm equipment backlog and non-binding slot reservations; the company does not regularly disclose the split, making the conversion rate from reservation to firm order a key monitoring variable.
 - **But this ties it to the same AI capex cycle as NVIDIA/Broadcom:** if data-center capex recedes, power-side order momentum is also affected — only the power-side cycle is longer and more lagged, with a thicker buffer.
 
 ### 2.3 Division of labor with Bloom Energy
@@ -148,7 +150,7 @@ CEO **Scott Strazik** has led since the spin-off, and management's post-spin exe
 
 > The following is valuation "context," not a price target or a buy/sell recommendation.
 
-- **EV/2026E adjusted EBITDA ~45-48x:** on FY2026 guidance (revenue ~$45B × 13% margin ≈ $5.85B adjusted EBITDA), EV is roughly ~$276B (market cap − ~$7.6B rough net cash). This is a **rich multiple on current EBITDA**, justified only when the multi-year margin ramp and backlog growth are counted in.
+- **EV/2026E adjusted EBITDA ~45-48x:** on FY2026 guidance (revenue ~$45B × 13% margin ≈ $5.85B adjusted EBITDA), EV is roughly ~$276B (market cap − ~$7.6B rough net cash). This is a **rich multiple on current EBITDA**, justified only when the multi-year margin ramp and backlog growth are counted in. For context, even AI-adjacent industrial peers (Eaton ~30-35x, Siemens Energy ~15-20x) trade at materially lower multiples; GEV's premium is the market's bet on an electricity super-cycle that more than doubles margins from the current ~9.6% base.
 - **Forward P/E highly dispersed (~40-70x):** because earnings are inflecting fast from a low base, the denominator (forward EPS) is itself widely estimated, so P/E alone is of limited use.
 - **Reading the multiple:** isomorphic with the AI chip stocks — GE Vernova's valuation risk is not "insufficient orders" but whether the **denominator (margin ramp + backlog conversion) delivers on schedule**. The difference from NVIDIA/Broadcom: its cycle is longer and more lagged and its balance sheet cleaner (net cash), but its current earnings base is lower and it depends more heavily on "the ramp delivering."
 
