@@ -11,13 +11,13 @@ Disclaimer: This review is a personal research log and post-hoc attribution, not
 
 The defining feature of this half year: **the thematic call was right, but our sizing and valuation stance were systematically too cautious.**
 
-- We correctly identified the key bottleneck layers of AI infrastructure as the through-line — compute (AMD +159%), HBM memory (SK hynix +250%) and distributed power (Bloom Energy +123%) all ran hard.
-- But returns are heavily right-skewed: across 18 comparable names the **mean was ~+32% while the median was ~+3.5%**. A handful of AI-infra winners drove almost all the return; the median name was roughly flat.
+- We correctly identified the key bottleneck layers of AI infrastructure as the through-line — compute (AMD +159%), HBM memory (SK hynix +250%) and distributed power (Bloom Energy +123%, Feb anchor→Jun) all ran hard.
+- But returns are heavily right-skewed: across 18 comparable names the **mean was ~+32% while the median was ~+3.5%**. The mean is pulled up hard by the top three AI-infra winners; the median better reflects the typical name's experience.
 - We held nearly every winner at neutral/cautious on "valuation already prices it in" — thesis right, upside under-captured. That is the classic tension between research discipline and return capture.
 
 <figure style="margin:1.5rem 0;">
 <svg viewBox="0 0 792 648" width="100%" style="height:auto;max-width:792px;font-family:inherit" role="img" aria-label="2026 H1 research universe price moves (Feb anchor to Jun)" xmlns="http://www.w3.org/2000/svg">
-<title>2026 H1 research universe price moves (Feb anchor to Jun)</title><desc>Top: SK hynix +250%, AMD +159%, Bloom Energy +123%. Bottom: NeoVolta -54%, Salesforce -22%.</desc>
+<title>2026 H1 research universe price moves (Feb anchor to Jun)</title><desc>Top: SK hynix +250%, AMD +159%, Bloom Energy +123% on a Feb-anchor-to-June basis. Bottom: NeoVolta -54%, Salesforce -22%.</desc>
 <line x1="226.6" y1="48" x2="226.6" y2="614" stroke="currentColor" stroke-opacity="0.12" stroke-width="1"/>
 <text x="226.6" y="40" text-anchor="middle" font-size="11" fill="currentColor" fill-opacity="0.55">-50%</text>
 <line x1="309.4" y1="44" x2="309.4" y2="614" stroke="currentColor" stroke-opacity="0.45" stroke-width="1.4"/>
@@ -119,7 +119,7 @@ The most useful part of this review is not proving what we got right; it is expo
 
 - **SK hynix (~+250%)** — the cleanest call. In February we explicitly wrote "deep value / extremely undervalued" (forward P/E 5.3x); Q1 2026 operating margin hit a record 72% and the value thesis fully played out. Now re-rated to ~28x TTM P/E; moved to neutral in June.
 - **AMD (+159%)** — February "cautious bull"; AI data center moved from "potential upside" to "the eve of delivery." Thesis delivered, but our valuation caution led us to cut it to neutral in June (~98x P/E).
-- **Bloom Energy (+123%)** — a reflection point: in February we already judged "the AI-power narrative is real but the price prices in execution," yet it more than doubled again. Valuation caution overdone.
+- **Bloom Energy (+123%, Feb anchor→Jun)** — a reflection point: in February we already judged "the AI-power narrative is real but the price prices in execution," yet it more than doubled again. The +123% is not a YTD figure; it is the review-window move from the report's February anchor to the June update price. Valuation caution was overdone.
 - **Hims & Hers (mcap ~+55% to +95%, midpoint ~+73%)** — after the GLP-1 regulatory selloff we held neutral/watch; using the February report's $4-5B market-cap range and the June $7.77B anchor, the rebound clearly beat our cautious view.
 - **Almonty (mcap ~+32%)** — February analyst targets were $12–18 and we flagged "priced for perfection / high risk"; the tungsten geopolitical scarcity delivered and the stock rose to $18.59, above the target band.
 - **Airbnb (+20%)** — we flagged "growth re-acceleration" as the key to holding the multiple; Q1 +17.9% delivered the first leg.
@@ -127,10 +127,10 @@ The most useful part of this review is not proving what we got right; it is expo
 ## 5. Underperformed
 
 - **NeoVolta (−54%)** — the biggest loser, revenue collapsing two quarters running ($6.7M → $4.65M → $2.02M). **But we rated it "speculative / very high risk / tiny position" back in February — the downside was correctly flagged**; the thesis (residential storage growth) died on execution, not on judgment.
-- **Salesforce (−22%, YTD −40%)** — **the one most worth reflecting on**. Our only "bullish + mid-high conviction" call that went the wrong way. Fundamentals are intact (CRM leader + AI ARR $2.9B), but on "AI disrupts SaaS" fear the market priced it for zero growth; consensus target cut from $325 to $250. Lesson: for mature software, "cheap + stable fundamentals" is not itself a catalyst.
+- **Salesforce (−22%, YTD −40%)** — **the one most worth reflecting on**. Our only "bullish + mid-high conviction" call that went the wrong way. Fundamentals are intact (CRM leader + AI ARR $2.9B), but on "AI disrupts SaaS" fear the market priced it for zero growth; consensus target cut from $325 to $250. The deeper issue: we were too optimistic on the Agentforce / Data Cloud AI-beneficiary narrative and underestimated the risk that the market would first compress the entire SaaS multiple stack, then ask company-specific questions later. Lesson: for mature software, "cheap + stable fundamentals" is not itself a catalyst; if the sector narrative is being repriced, individual fundamentals struggle to offset the change in discount rate and valuation frame.
 - **COPX (0%)** — a textbook case of "**right on the commodity, no spread captured**": copper broke above our February bull-case ceiling (+12.8%), but the ETF returned zero because miner operating leverage turned the price move into earnings (P/E compressed from 30–35x to 17.7x) rather than multiple expansion.
 - **Netflix (−11%, 52-week low)** — we briefly built the WBD acquisition into our core narrative; it was later invalidated. M&A speculation should not be a thesis pillar.
-- **Oklo (−11%) / Jinpan Tech (−7%)** — both sat inside the "fairly valued / neutral watch" stance we already had in February — not misjudgments, just confirmation of how violently pre-revenue / high-multiple names swing. Oklo's Feb→Jun review window is $65.69 to $58.40; $193 was a 2025 high, not an H1 internal spike-and-crash.
+- **Oklo (−11%) / Jinpan Tech (−7%)** — both sat inside the "fairly valued / neutral watch" stance we already had in February — not misjudgments, just confirmation of how violently pre-revenue / high-multiple names swing. Oklo's Feb→Jun review window is $65.69 to $58.40; the 2025 high of $193 is only volatility context and is not part of the H1 performance window.
 
 ## 6. Roughly in line (neutral stance held)
 
@@ -157,6 +157,7 @@ The most useful part of this review is not proving what we got right; it is expo
 2. **Treat "fundamentals arrived, stock did not" as its own setup.** Spotify, Amazon and Salesforce show that the market can ignore improving fundamentals unless the name sits in the active theme. H2 catalyst work should break "cheap" into specific drivers: buybacks, guidance raises, product cycles, fund rotation, index weight or narrative repricing.
 3. **Raise the bar for M&A catalysts.** Netflix / WBD shows that takeover speculation can be option value, but not the core thesis. Future work should separate "strategically plausible" from "transactionally verifiable."
 4. **Make coverage breadth serve theme completeness.** The H2 AI queue should add NVIDIA, custom ASICs and AI power infrastructure; existing names should be separated into "revenue-validated" (SK hynix, AAOI, Bloom, AMD) versus "still roadmap-led" (Oklo and similar), so different maturity levels are not blended into one bucket.
+5. **Build a thesis strength / valuation stretch sizing matrix.** The real question is not whether a "strong thesis + expensive valuation" name should be owned, but how it should consume risk budget: high-conviction but stretched names should not automatically mean "do nothing." They should flow into a decision framework for starter positions, staged sizing, explicit invalidation points, core/satellite separation or stop-loss discipline. H2 reviews should record not only how strong the view was, but how that view translated into position sizing.
 
 ## 9. Methodology and sources
 
@@ -164,4 +165,5 @@ The most useful part of this review is not proving what we got right; it is expo
 - SK hynix, Tempus AI, Hims & Hers and Almonty had no explicit February share price, so their moves are estimated on a **market-cap basis** (marked * in the chart). For Hims & Hers, +73% is the midpoint estimate from the $4-5B baseline range to $7.77B, not a single trade price.
 - AAOI is a June 23 initiation ($171.23) with no February baseline and is excluded from the move review.
 - Mean / median are simple (equal-weight) statistics over the 18 comparable names' price moves; based on the rounded labels in the chart they are ~+31.9% / ~+3.5%. They are used only to characterize the distribution and do not represent any portfolio's realized return.
+- Price moves after the review publication date are not included in this edition; the next review will reset around the full 2026 H2 window.
 - Cadence: **once every half year**; the next edition is 2026 H2 (planned for late 2026 / early 2027).

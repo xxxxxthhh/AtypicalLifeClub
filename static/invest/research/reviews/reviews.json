@@ -5,8 +5,8 @@
     "titleEn": "2026 H1 Portfolio Review",
     "period": "2026H1",
     "date": "2026-06-26",
-    "summary": "研报中心 19 个当前标的的半年度事后复盘：AI 基础设施关键瓶颈判断准确，算力（AMD +159%）、HBM 内存（SK hynix +250%）、分布式电力（Bloom +123%）全部大涨；但回报极度右偏（均值约 +32% vs 中位数约 +3.5%），且对赢家普遍因「估值已计入」维持中性。Salesforce 是方向性高信心失误，Netflix/WBD 是叙事性失误；H2 需要补 NVIDIA、电力基础设施和自定义 ASIC。",
-    "summaryEn": "Semi-annual post-hoc review of 19 current research-center names: the AI-infrastructure bottleneck call was right — compute (AMD +159%), HBM memory (SK hynix +250%) and distributed power (Bloom +123%) all ran — but returns were heavily right-skewed (mean ~+32% vs median ~+3.5%) and winners were held neutral on valuation. Salesforce was the directional high-conviction miss; Netflix/WBD was the narrative miss. H2 should add NVIDIA, power infrastructure and custom ASICs.",
+    "summary": "研报中心 19 个当前标的的半年度复盘：AI 基础设施关键瓶颈判断准确（AMD、SK hynix、Bloom），但回报右偏（均值约 +32% vs 中位数约 +3.5%），且赢家多被估值纪律压成中性。Salesforce 暴露 SaaS 被 AI 叙事压估值的系统性风险，Netflix/WBD 暴露 M&A 证据门槛不足。H2 重点是补 NVIDIA、电力基础设施、自定义 ASIC，并建立「强 thesis + 贵估值」仓位矩阵。",
+    "summaryEn": "Semi-annual review of 19 current research-center names: the AI-infrastructure bottleneck call was right (AMD, SK hynix, Bloom), but returns were right-skewed (mean ~+32% vs median ~+3.5%) and winners were often held neutral on valuation. Salesforce exposed the systemic risk of AI-driven SaaS multiple compression; Netflix/WBD exposed a weak M&A evidence bar. H2 priorities are NVIDIA, power infrastructure, custom ASICs and a sizing matrix for strong-thesis / stretched-valuation names.",
     "tags": ["半年度复盘", "AI基础设施", "事后归因", "2026H1"],
     "markdownFiles": {
       "zh": "/invest/research/reviews/2026H1_复盘.md",
