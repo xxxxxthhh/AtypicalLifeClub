@@ -5,7 +5,7 @@ Last updated: 2026-06-25
 Ticker: NYSEARCA: IGV
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
-**[2026-06-25 Update]** IGV has rebounded from the February low of $82.77 to $86.17 (+4.1%), with YTD decline narrowing from -23.4% to -18.45%. AUM has surged to ~$16.7B (vs $7.9B in February, +111%), reflecting both substantial new inflows and price recovery. NAV $86.25, PE(TTM) 27.68. The 52-week low briefly tested $73.93 before rebounding. The Q1 2026 earnings season has concluded — most leading software companies reported AI transition progress better than panic expectations (see Section 8 update).
+**[2026-06-25 Update]** IGV has rebounded from its February 13 close of $82.77 to $86.17 (+4.1%), with YTD decline narrowing from -23.4% to -18.45%. AUM has surged to ~$16.7B (vs $7.9B in February, +111%), reflecting both substantial new inflows and price recovery. NAV $86.25, PE(TTM) 27.68. The 52-week low briefly tested $73.93 before rebounding. The Q1 2026 earnings season has concluded — most leading software companies reported AI transition progress better than panic expectations (see Section 8 update).
 
 ---
 
@@ -119,7 +119,7 @@ IGV's expense ratio is moderate among peers — higher than broad tech ETFs but 
 
 | Metric | Value | Implication |
 |--------|-------|-------------|
-| Beta | 1.17-1.27 | 17-27% more volatile than the market |
+| Beta | ~~1.17-1.27~~ 1.12 (5Y Monthly) | ~~17-27%~~ ~12% more volatile than the market |
 | 3-Year Std Dev | 23.3% | Significant volatility |
 | Implied Volatility | ~~35.4 (92nd percentile, Feb 2026)~~ | Extreme fear levels |
 | 5-Year Annualized Return | ~2-5% | Mediocre recent performance |
@@ -195,7 +195,7 @@ IGV's expense ratio is moderate among peers — higher than broad tech ETFs but 
 
 1. **Indiscriminate selling signals panic, not fundamentals:** Even Palantir (pure AI company) and CrowdStrike (cybersecurity necessity) were sold off, indicating the market is not differentiating. Historically, such indiscriminate selloffs often mark bottoms
 2. **Software spending is still growing:** 2026 global software spending +14.7% to $1.43T. Enterprises won't stop using CRM, ERP, or security software because of AI. AI is more likely to enhance than replace existing software
-3. **Implied volatility at 92nd percentile:** ~~Extreme fear levels (Feb 2026 data), historically correspond to medium-term bottom zones.~~ February's IV of 35.4 (92nd percentile) has receded along with the price rebound. The +17% bounce from the $73.93 February low validates the extreme-fear-equals-bottom thesis.
+3. **Implied volatility at 92nd percentile:** ~~Extreme fear levels (Feb 2026 data), historically correspond to medium-term bottom zones.~~ February's IV of 35.4 (92nd percentile) has receded along with the price rebound. The +17% bounce from the $73.93 52-week low validates the extreme-fear-equals-bottom thesis.
 4. **17% annualized 10-year return:** The software sector's long-term growth trend is intact; short-term volatility is an entry opportunity
 5. **Analyst targets imply 57% upside:** ~~Wall Street's average price target for IGV holdings is $130 vs current $83~~ → Current price $86.17 vs analyst average target $130 implies ~51% upside.
 
