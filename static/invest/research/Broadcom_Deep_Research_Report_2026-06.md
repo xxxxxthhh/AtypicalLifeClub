@@ -29,7 +29,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Semiconductor Solutions | $15.01B (+79% YoY) |
 | Infrastructure Software (VMware, etc.) | $7.18B (+9% YoY) |
 | AI semiconductor revenue | $10.8B (+143% YoY) |
-| AI bookings backlog | >$30B |
+| AI bookings backlog | >$30B (company-disclosed); public-report pipeline estimate reaching ~$73B (see Note below) |
 | Gross margin (GAAP / non-GAAP) | 69.4% / 77.1% |
 | Operating margin (GAAP / non-GAAP) | 48.6% / 67.3% |
 | Adjusted EBITDA | $15.24B (69% of revenue) |
@@ -42,6 +42,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 | FY2027 AI semi target | >$100B |
 | Custom XPU customers / programs | Public reports include Google, Meta, ByteDance, Anthropic, OpenAI and Fujitsu; the $73B backlog is a market estimate, not all official confirmed orders |
 | FY2025 revenue | $63.89B (+24% YoY) |
+
+> **Note on backlog figures:** Throughout this report, two different backlog numbers appear: **>$30B** is the company's own fiscal-quarter disclosure of AI semiconductor bookings backlog (as stated in the Q2 FY2026 earnings release); **~$73B** is a public-reporting / market-breakdown estimate that includes analyst-estimated forward pipeline and multi-year customer commitments, not all of which are official Broadcom-confirmed orders. The gap between them is material — readers should track which number is being referenced in each section.
 
 ---
 
@@ -93,7 +95,7 @@ AI compute silicon competition reduces to "general GPUs (NVIDIA/AMD) vs custom A
 ### 3.2 Cash is huge, but the VMware debt is the other half you must consolidate
 
 - Free cash flow **$10.26B** (46% of revenue) — extremely strong cash generation.
-- But **total debt is $64.9B** (mainly the ~$69B VMware acquisition in 2023). So Broadcom is two stories at once: high AI-semiconductor growth, and a deleveraging project funded by VMware cash + price increases. Interest and debt size are not ignorable in valuation.
+- But **total debt is $64.9B** (mainly the ~$69B VMware acquisition in 2023). Quarterly interest expense runs roughly **$0.9-1.1B** (based on weighted average coupon of ~4-5% implied by recent earnings releases); against $10.26B of quarterly FCF, debt service is manageable but the absolute debt size means sustained deleveraging will consume cash for years. So Broadcom is two stories at once: high AI-semiconductor growth, and a deleveraging project funded by VMware cash + price increases. Interest and debt size are not ignorable in valuation.
 - The company pays a steady dividend and retains buyback capacity, but current capital-allocation priority is balancing **AI investment + debt repayment + dividend**.
 
 ### 3.3 GAAP vs non-GAAP difference is mainly acquisition amortization
@@ -116,7 +118,7 @@ CEO **Hock Tan** is one of the most successful M&A integrators in semiconductor 
 
 **Core thesis:** Broadcom is the "higher-certainty pick-and-shovel" of AI capex — it benefits from hyperscalers building their own chips (the counter-movement to NVIDIA) and has VMware cash underneath.
 
-1. **AI semis accelerating beyond expectations.** Q2 +143%, Q3 guide $16B (+200%), FY2026 AI ~$56B, FY2027 >$100B, with publicly reported customer programs and a $73B backlog estimate supporting visibility; the customer/GW/order details still need quarterly reconciliation to official disclosure.
+1. **AI semis accelerating beyond expectations.** Q2 +143%, Q3 guide $16B (+200%), FY2026 AI ~$56B, and management has set an FY2027 AI target of >$100B. Publicly reported customer programs and a pipeline estimate of ~$73B provide directional visibility, but the >$100B figure is back-end-loaded to FY2027 — tied to a handful of large programs whose on-schedule delivery is not yet verified. Quarterly reconciliation to official Broadcom disclosures is required to track conversion.
 2. **Two engines that hedge each other.** AI silicon provides growth; VMware software provides high-margin cash to deleverage/pay dividends — steadier than a pure-cyclical semi.
 3. **Structurally positioned on the "open ecosystem."** Broadcom is on the beneficiary side of both "Ethernet replaces InfiniBand" and "in-house replaces general GPU."
 4. **Top-tier margins and cash.** Non-GAAP operating margin 67%, FCF 46% of revenue.
