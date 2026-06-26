@@ -102,6 +102,7 @@ Two implications:
 
 1. **Trailing GAAP P/E will be artificially depressed and distorted.** Folding non-cash, non-operating investment gains into net income makes the GAAP-based P/E look cheaper than the true operating earnings power. For NVIDIA's earnings, the **non-GAAP operating basis is more reliable than GAAP**.
 2. **It ties the income statement directly to the AI capital cycle.** When AI valuations rise, NVIDIA's GAAP profit is amplified by the mark-ups; if AI private/public valuations pull back, this flows the other way — a new source of income-statement volatility that moves with the AI cycle.
+3. **Concentration risk in the equity portfolio is not fully transparent.** The CoreWeave stake (~$2B at IPO) accounts for only a fraction of the $15.9B Q1 gain; the bulk likely comes from private-company mark-ups whose valuations are mark-to-model rather than mark-to-market, and whose concentration across a few large positions is not publicly broken out. A concentrated pullback in AI private valuations would flow through GAAP earnings disproportionately.
 
 ### 3.3 Balance sheet solid, capital return turning aggressive
 
@@ -158,7 +159,7 @@ Founder-CEO **Jensen Huang** has led since 1993 and is one of the most successfu
 
 > The following is valuation "context," not a price target or a buy/sell recommendation.
 
-- **Forward P/E ~25x (FY2027E):** the most counter-intuitive part of NVIDIA's valuation — as the world's largest company, its forward multiple is **below** AMD (~58x) and Broadcom (~38x). On +85% growth, the PEG framing is not expensive.
+- **Forward P/E ~25x (FY2027E, Non-GAAP basis):** the most counter-intuitive part of NVIDIA's valuation — as the world's largest company, its forward multiple is **below** AMD (~58x) and Broadcom (~38x). On +85% growth, the PEG framing is not expensive. Note that this is a Non-GAAP consensus estimate; GAAP earnings include large equity mark-ups ($15.9B in Q1 FY2027 alone) that artificially depress the multiple — Non-GAAP is the correct basis here. Also note that the comparison to AMD's ~58x is across very different earnings bases: NVIDIA at 25x sits on a ~$300B+ annualized revenue / $120B+ net income base, while AMD at 58x is priced on earnings that are just inflecting from a much lower base; direct comparison requires this context.
 - **FY2026 GAAP P/E ~40x:** based on $4.76T market cap / $120.1B FY2026 net income. Note that from Q1 FY2027 GAAP net income includes large equity mark-ups, which will distort trailing GAAP P/E lower thereafter — use non-GAAP operating earnings instead.
 - **EV/TTM Sales ~18-19x:** TTM revenue ~$253B (FY2026 $215.9B − Q1 FY26 ~$44B + Q1 FY27 $81.6B); EV ~$4.72T (market cap − ~$42B net cash).
 - **Reading the multiple:** NVIDIA's valuation risk is **not the multiple itself** but the **earnings-expectation denominator** the multiple implies. If the AI super-cycle runs another 2-3 years, the current multiple is low; if capex peaks within 12-18 months, the "high growth" assumption behind a 25x forward P/E gets reset quickly, and multiple and earnings contract together.

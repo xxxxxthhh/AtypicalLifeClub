@@ -1,0 +1,282 @@
+[
+  {
+    "ticker": "NASDAQ: ABNB",
+    "lastUpdate": "2026-06-25",
+    "price": "$142.90",
+    "marketCap": "$85.7B",
+    "thesis": "Airbnb is the global short-term rental market's defining brand and leader. Q1 2026 revenue +17.9% beat expectations, providing the first hard data point supporting the growth re-acceleration narrative, but valuation has expanded from 29x to 35.4x P/E, pricing in much of this improvement. Margins and TTM FCF quality warrant monitoring.",
+    "conviction": "Medium",
+    "catalysts": [
+      "Q2 2026 earnings (expected August 2026) — can full-year growth momentum sustain?",
+      "2026 new product launch cadence (Experiences, AI features)",
+      "FIFA World Cup 2026 + Winter Olympics 2026 demand pulse",
+      "EU short-term rental regulations effective May 2026 — real-world impact assessment",
+      "New category (Experiences, boutique hotels) revenue contribution data",
+      "Booking.com U.S. market share trajectory",
+      "Buyback program execution progress"
+    ],
+    "targetPrice": "Analyst consensus ~$155-160 (~8-12% upside); Bull scenario P/E 30-35x implies ~$160-185"
+  },
+  {
+    "ticker": "NASDAQ: AMZN",
+    "lastUpdate": "2026-06-25",
+    "price": "$228.15",
+    "marketCap": "~$2.52T",
+    "thesis": "Amazon is a compounding machine powered by AWS, advertising, and retail flywheels, with AI investments reshaping its growth trajectory — but a $200B capex bet introduces unprecedented execution risk.",
+    "conviction": "Medium-High",
+    "catalysts": [
+      "AWS AI revenue acceleration (Q4 FY2025 +24% YoY, fastest in 13 quarters)",
+      "Sustained advertising growth (FY2025 $68.6B, +22% YoY)",
+      "2026 capex ROI materialization (~$200B planned)",
+      "Custom chip ecosystem expansion (Trainium2/3/4, Graviton5)",
+      "Prime Video ads and live sports monetization (NBA, NFL, UEFA)",
+      "Q2 2026 earnings — testing normalized P/E ~31.6x"
+    ],
+    "targetPrice": "No explicit price target stated; valuation dependent on $200B capex ROI and AWS growth trajectory"
+  },
+  {
+    "ticker": "NYSE: BE",
+    "lastUpdate": "2026-06-23",
+    "price": "~$345.85",
+    "marketCap": "~$98.30B",
+    "thesis": "Bloom Energy is transitioning from a niche fuel-cell company into a critical AI-infrastructure power provider riding the structural grid-power deficit — but after a large 2026H1 re-rating, the stock has moved from 'high-growth infrastructure premium' to 'priced for near-perfect execution,' so orders, capacity, margins, and capital intensity must now be read on one page.",
+    "conviction": "Medium",
+    "catalysts": [
+      "Quarterly results testing the raised 2026 guidance ($3.1-3.3B)",
+      "Manufacturing-capacity progress toward 2 GW",
+      "New AI/data-center customer announcements",
+      "Tariff impacts on cost structure",
+      "First Brookfield deployments (Europe)",
+      "Hydrogen electrolyzer milestones (Jeju Island)",
+      "Gross-margin trajectory toward 32%+"
+    ],
+    "targetPrice": "No current price target; ~31x 2026 revenue reference. February-frame bull scenario implied $200+ (already exceeded). Stock described as 'strong fundamentals, extremely valuation-sensitive'"
+  },
+  {
+    "ticker": "NASDAQ: COIN",
+    "lastUpdate": "2026-06-23",
+    "price": "~$164.84",
+    "marketCap": "~$43.42B",
+    "thesis": "Coinbase is the monopolistic gateway to U.S. compliant crypto infrastructure, transitioning from a cyclical exchange to a diversified financial platform, but its fundamental dependence on crypto market sentiment is unchanged. The 2026H1 framework depends on trading, stablecoins, Base, custody, derivatives, and regulatory normalization together.",
+    "conviction": "Medium (neutral-to-constructive)",
+    "catalysts": [
+      "BTC price trajectory (directly drives trading revenue)",
+      "Fed meetings (USDC interest income sensitivity)",
+      "Q1 2026 subscription & services guidance of $550-630M",
+      "GENIUS Act implementing rules (due July 2026)",
+      "CLARITY Act Senate vote",
+      "Deribit derivatives-revenue validation",
+      "California DFAL Act (July 2026)",
+      "Potential Kraken IPO reshaping competitive landscape"
+    ],
+    "targetPrice": "Bull scenario $350-450 (BTC $100K+, volume recovery); Bear scenario $80-120 (deep crypto bear). Analyst consensus $290-342"
+  },
+  {
+    "ticker": "NYSEARCA: COPX",
+    "lastUpdate": "2026-06-25",
+    "price": "$76.92",
+    "marketCap": "$7.99B (AUM)",
+    "thesis": "COPX offers leveraged exposure to a structural copper supercycle driven by electrification, AI infrastructure, and energy transition — but after a 105% one-year rally, the risk/reward balance demands careful timing. Copper has broken through February's most bullish forecast (~$13,531/tonne), yet COPX is essentially flat as P/E compressed from 30-35x to 17.74x.",
+    "conviction": "Medium (bullish long-term; cautious near-term)",
+    "catalysts": [
+      "Mid-2026 Commerce Department Section 232 tariff review — largest near-term binary catalyst",
+      "Copper price trajectory (COMEX at ~$13,531/tonne, exceeding February bull case)",
+      "Chinese demand stabilization",
+      "Aluminum substitution dynamics",
+      "AI data center demand (475K tonnes in 2026)",
+      "Supply deficit math (J.P. Morgan: -330K tonnes)"
+    ],
+    "targetPrice": "If copper reaches $13,000-15,000/tonne by late 2026, COPX could see 30-50% additional upside. Bull case strengthened as copper exceeded February ceiling"
+  },
+  {
+    "ticker": "NYSE: HIMS",
+    "lastUpdate": "2026-06-23",
+    "price": "~$33.54",
+    "marketCap": "~$7.77B",
+    "thesis": "Hims & Hers is the leading U.S. DTC telehealth platform with a powerful subscription engine, but the 2026H1 debate has shifted from an acute GLP-1 regulatory storm to a growth-quality audit: GLP-1/compound-drug durability, Novo/FDA risk, non-GLP-1 retention, and whether growth converts to cash.",
+    "conviction": "Medium",
+    "catalysts": [
+      "DOJ investigation status — whether the referral escalates to formal case",
+      "Novo Nordisk patent lawsuit — potential preliminary injunction",
+      "Q2 2026 quarterly results",
+      "FDA statements on compounded GLP-1 policy",
+      "International (Europe/Canada) revenue contribution",
+      "New-category data (testosterone, Labs, longevity)",
+      "Convertible-note dilution impact"
+    ],
+    "targetPrice": "No explicit price target; event-driven binary outcome. P/S ~3.3x FY2025E revenue. Bear case: GLP-1 goes to zero + brand damage"
+  },
+  {
+    "ticker": "BATS: IGV",
+    "lastUpdate": "2026-06-25",
+    "price": "$86.17",
+    "marketCap": "~$16.7B (AUM)",
+    "thesis": "IGV is the flagship U.S. software sector ETF offering concentrated exposure to North America's leading software companies, but the 2026 'Software-mageddon' — a panic selloff driven by AI disruption fears — placed it at a critical inflection point. Q1 2026 earnings showed most software companies' AI transition progress better than panic expectations, and IGV rebounded +17% from the $73.93 low.",
+    "conviction": "Medium",
+    "catalysts": [
+      "Q2 2026 earnings season (Jul-Aug) — next verification point for AI transition progress",
+      "Per-seat → per-outcome SaaS pricing transition",
+      "AI feature ARPU contributions from MSFT Copilot, CRM Agentforce, etc.",
+      "Macro conditions affecting enterprise IT spending",
+      "Net Revenue Retention (NRR) stabilization across SaaS holdings"
+    ],
+    "targetPrice": "Analyst average target for IGV holdings ~$130 (~51% upside). Bull scenario $100-110 (+16-28%). Downside $65-70"
+  },
+  {
+    "ticker": "688676.SH",
+    "lastUpdate": "2026-06-23",
+    "price": "~RMB 86.00",
+    "marketCap": "~RMB 39.5B",
+    "thesis": "Jinpan is a hidden champion in dry-type transformers, upgrading from a traditional manufacturer to a power-equipment solutions provider via AI data centers (AIDC) and solid-state transformers (SST). The 2026H1 debate has shifted from 'can the AI/SST story be discovered' to 'can a demanding valuation be supported by order conversion, cash flow, and receivable quality.'",
+    "conviction": "Medium",
+    "catalysts": [
+      "SST certification and first large orders (H2 2026 watchpoint)",
+      "H-share listing progress (EY engaged as auditor)",
+      "2026 interim report (H1) confirming AIDC growth",
+      "U.S. plant startup",
+      "Overseas revenue share breaking 40%",
+      "Gross margin toward 28%+",
+      "New marquee customer (Tesla, Google)"
+    ],
+    "targetPrice": "Neutral/watchlist — no current target-price call. Old SOTP midpoint ~RMB 31.6B. Current RMB 39.5B above that, embedding optimism. Downside to RMB 14-20B if execution falters"
+  },
+  {
+    "ticker": "NASDAQ: NEOV",
+    "lastUpdate": "2026-06-25",
+    "price": "~$1.93",
+    "marketCap": "~$105M",
+    "thesis": "NeoVolta is a high-risk micro-cap riding the secular tailwind of U.S. residential energy storage adoption, with strategic moves toward domestic manufacturing (Georgia JV with LONGi) that could unlock IRA tax credit advantages. However, accelerating revenue contraction (Q1→Q2→Q3: $6.7M→$4.65M→$2.02M), heavy dilution (+65% shares), and persistent losses have raised the risk profile materially.",
+    "conviction": "Low (speculative)",
+    "catalysts": [
+      "neuClick modular platform shipments (1,000+ pre-orders)",
+      "Georgia factory ramp — slipped to end of August 2026",
+      "Luminia partnership (~$39M equipment revenue pipeline)",
+      "Infinite Grid Capital 1.1 GWh BESS LOI (~$200M, non-binding)",
+      "C&I market entry (250kW/430kWh BESS)",
+      "Needham initiation — Buy, $8 price target (June 17, 2026)",
+      "IRA domestic content bonus (40% ITC)"
+    ],
+    "targetPrice": "Needham price target $8 (+315% upside). Bull case $10-15/share; Base $5-7; Bear $1.50-3"
+  },
+  {
+    "ticker": "NASDAQ: NFLX",
+    "lastUpdate": "2026-06-26",
+    "price": "$71.82",
+    "marketCap": "$302.5B",
+    "thesis": "Netflix is the undisputed global streaming leader with $45.2B revenue and 29.5% operating margin. The WBD acquisition is no longer Netflix's path after declining to raise its offer; the risk-reward now depends on organic growth, advertising monetization, content ROI, live/sports execution, and whether management can replace the lost inorganic IP catalyst.",
+    "conviction": "Medium",
+    "catalysts": [
+      "Advertising business doubling to ~$3B in 2026",
+      "Content ROI and live/sports execution",
+      "Post-WBD capital allocation (buybacks, original IP, licensing)",
+      "Q2-Q4 2026 ad-tier monetization disclosures",
+      "Paramount-WBD competitive dynamics",
+      "Live/sports slate traction"
+    ],
+    "targetPrice": "Analyst consensus target $116 (+43% upside from $71.82). Bull case: 2027 EPS $30+ at 35x P/E implies $100-105. Downside: $55-65"
+  },
+  {
+    "ticker": "NYSE: OKLO",
+    "lastUpdate": "2026-06-23",
+    "price": "~$58.40",
+    "marketCap": "~$10.15B",
+    "thesis": "Oklo is one of the most imaginative plays in advanced nuclear — ~$1.2B cash, a 14.7GW+ pipeline, and marquee customers like Meta and Switch — but as a zero-revenue, pre-commercial company its ~$10B market cap is built entirely on a 5-10 year vision. The current framework must focus on regulation, first-reactor execution, fuel, customer conversion, and cash runway.",
+    "conviction": "Low (binary outcome)",
+    "catalysts": [
+      "NRC PDC draft evaluation (early 2026)",
+      "Idaho first-reactor construction updates and DOE pilot-program 2026 criticality target",
+      "Meta Ohio pre-construction launch",
+      "Quarterly cash-burn and pipeline updates",
+      "HALEU fuel-supply developments",
+      "NRC combined-license progress (critical milestone 2026-2027)",
+      "$19M DOE fuel-recycling grant (Feb 2026)"
+    ],
+    "targetPrice": "No current target-price call. Probability-weighted base case $50-80. February analyst consensus $103-122 (stale). Bull scenario $100-130; Bear $20-33"
+  },
+  {
+    "ticker": "NASDAQ: PYPL",
+    "lastUpdate": "2026-06-22",
+    "price": "$42.51",
+    "marketCap": "~$37.5B",
+    "thesis": "PayPal is a mature digital payments leader facing structural headwinds from intensifying competition and slowing branded checkout growth, trading at historically low valuations that reflect both legitimate concerns about execution and potential market overreaction. Branded checkout improved from ~1% (Q4) to ~2% (Q1 2026), and a new CEO (Lores) is executing a reorganization with ~$1.5B cost savings plan.",
+    "conviction": "Medium",
+    "catalysts": [
+      "Q2 branded checkout growth trajectory",
+      "Venmo monetization (payment volume +14% YoY)",
+      "Fastlane merchant penetration",
+      "Reorganization and ~$1.5B cost savings translating to EPS quality",
+      "Enrique Lores execution under new three-unit structure",
+      "$6B+ buyback program",
+      "Agentic AI payments strategy (Sabre/Mindtrip partnership)"
+    ],
+    "targetPrice": "Old $65-75 fair-value range stale — needs Q2 rebuild. FCF yield ~15-17% at current price. Forward P/E ~8x if 2026 adj. EPS in $5.0-5.5 range"
+  },
+  {
+    "ticker": "NYSE: CRM",
+    "lastUpdate": "2026-06-25",
+    "price": "$150.70",
+    "marketCap": "$125.11B",
+    "thesis": "Salesforce is the undisputed global CRM leader, now embedding AI deeply into its product matrix via Agentforce, transitioning from 'selling software' to 'selling AI workflows.' Stock has crashed from $193 to ~$151 (YTD -40%), Forward P/E from 17x to 11x. The debate has shifted from 'slowing growth at fair valuation' to 'deep value or value trap after the crash.' Business fundamentals (CRM dominance + margin expansion + $2.9B AI ARR) are intact.",
+    "conviction": "Medium-High",
+    "catalysts": [
+      "Agentforce ARR trajectory toward $2B+ (standalone; $800M in Q4 FY2026)",
+      "FY2027 execution and net retention stabilization",
+      "Agentforce + Data 360 combined ARR $2.9B+ (+200%+ YoY) scaling",
+      "$50B buyback authorization (80% of FCF for repurchases)",
+      "Non-GAAP operating margin expansion (34.1% → 34.3% FY27 guided)",
+      "Informatica integration progress"
+    ],
+    "targetPrice": "Analyst consensus target $250 (+66% upside from $150.70). Bull case: Agentforce ARR to $2B+, 25x P/E implies $330+. FCF yield ~11.5%"
+  },
+  {
+    "ticker": "KRX: 000660",
+    "lastUpdate": "2026-06-25",
+    "price": "~₩2,917,000",
+    "marketCap": "~₩2,070T (~$1.3T USD)",
+    "thesis": "SK hynix is the global HBM (High Bandwidth Memory) monopolist (53% share + NVIDIA lock-in), riding the AI-memory supercycle to record results — a 72% operating margin in Q1 2026. But the stock has risen ~3.5x since February and market cap has crossed $1.3T, so February's 'deeply undervalued at a single-digit forward P/E' thesis has largely played out; the debate shifts from 'is it cheap' to 'how durable is the peak.'",
+    "conviction": "Moderate (long-term bullish; near-term neutral)",
+    "catalysts": [
+      "Q2 2026 — whether peak margins (72%) hold and ASPs top out",
+      "HBM4 mass-production progress and Samsung share shifts (H2 2026)",
+      "NVIDIA Rubin GPU launch cadence",
+      "HBM pricing pressure as all three expand HBM4 capacity",
+      "U.S. ADR listing progress",
+      "2027 — whether the memory cycle peaks; HBM4E mass production"
+    ],
+    "targetPrice": "No current target-price call. February's 'deep value' window closed (TTM P/E now ~28x vs 14.2x old). Forward P/E ~13-16x on peak-cycle earnings. Described as 'high-quality franchise at a full-ish price, near a cyclical peak'"
+  },
+  {
+    "ticker": "NYSE: SPOT",
+    "lastUpdate": "2026-06-25",
+    "price": "$442.28",
+    "marketCap": "~$91B",
+    "thesis": "Spotify has successfully transformed from a chronically unprofitable music streaming platform into a profitable 'global audio technology platform.' Q1 2026 operating margin reached 15.77%, P/E compressed from ~53-66x to ~30x as earnings caught up, but current valuation still requires digesting high growth expectations even after a significant pullback.",
+    "conviction": "Medium",
+    "catalysts": [
+      "2026 pricing cycle (February US price hike of $1/month, ~$500M annualized incremental revenue)",
+      "AI-driven user engagement (AI playlists, Smart Shuffle Plus)",
+      "Advertising recovery in H2 2026",
+      "Audiobook integration as third content pillar",
+      "Video podcast growth and Netflix content partnership",
+      "Programmatic ad platform rollout"
+    ],
+    "targetPrice": "DCF base ~$500 (~13% upside from $442). Analyst consensus ~$595 (~34% upside). Bull case: $600-700 if 15%+ operating margin with 15% revenue growth. Downside: $300-350"
+  },
+  {
+    "ticker": "NASDAQ: TEM",
+    "lastUpdate": "2026-06-25",
+    "price": "~$51.94",
+    "marketCap": "~$9.3B",
+    "thesis": "Tempus AI is precision medicine's 'data flywheel' company — collecting data through diagnostic testing, analyzing it with AI, and licensing it to pharma. Revenue keeps compounding fast (Q1 2026 +36.1% organic), but GAAP losses are widening (-$125.9M in Q1), the CEO is a consistent seller ($127M+ cumulative), and short interest exceeds 20%. A high-growth, high-risk proposition.",
+    "conviction": "Moderate (long-term bullish; near-term neutral-to-cautious)",
+    "catalysts": [
+      "MRD Medicare reimbursement (2026 — volume already ~6,500 in Q1, +500% YoY)",
+      "xT CDx FDA approval-pathway migration (raises reimbursement price)",
+      "2026 adjusted EBITDA turning positive (~$65M guidance)",
+      "Merck pharma collaboration (Q1 2026, validates data-licensing demand)",
+      "Japan SB TEMPUS commercialization (2026-2027)",
+      "Q2 2026 — whether +36% pace holds and loss curve bends"
+    ],
+    "targetPrice": "No explicit price target stated. P/S(TTM) ~7x; EV/2026E EBITDA ~150x. Described as 'valuation not cheap for a still-unprofitable company with widening GAAP losses'"
+  }
+]
