@@ -8,16 +8,18 @@ Disclaimer: This report is for informational and research purposes only. It does
 ---
 
 > **[2026-02-17 Update]** Updated with Q2 FY2026 earnings data (quarter ended Dec 31, 2025). Revenue $4.65M (beat estimate), but gross margin declined to 17% and net loss widened to -$5.54M. Georgia factory financing of ~$23M secured.
+>
+> **[2026-06-25 Update]** Updated with Q3 FY2026 earnings (quarter ended Mar 31, 2026) and latest market data. Q3 revenue collapsed to $2.02M (vs Q2 $4.65M, Q1 $6.7M), a second consecutive sharp sequential decline. EPS -$0.08 (beat the -$0.12 estimate). YTD the stock has plunged from $4.21 to ~$1.93 (-54%), market cap down to ~$105M. A public offering raised shares outstanding from ~33M to ~54.5M (heavy dilution). Needham initiated coverage on June 17 with a Buy rating and an $8 price target. Infinite Grid Capital signed a 1.1 GWh BESS supply LOI (~$200M utility-scale). The Georgia factory ramp slipped to end of August. New CFO Jing Nealis appointed; former CFO Steve Bond increased his holdings by 6.3%. TTM revenue $18.07M, P/S ~5.82x.
 
 
 
 ## Executive Summary
 
-NeoVolta is a Poway, California-based energy storage company specializing in LiFePO₄ (lithium iron phosphate) battery systems for residential, commercial, and utility-scale applications. The company has demonstrated explosive revenue growth — Q1 FY2026 revenue hit $6.7M, a 1,027% YoY increase — driven by expanding its installer network and launching new products like the neuClick™ modular platform. ~~Q1 was the latest data point.~~ Q2 FY2026 revenue came in at $4.65M (beating the $4.40M estimate), bringing H1 FY2026 to $11.30M vs $1.66M YoY. However, gross margin declined to 17% and net loss widened significantly to -$5.54M.
+NeoVolta is a Poway, California-based energy storage company specializing in LiFePO₄ (lithium iron phosphate) battery systems for residential, commercial, and utility-scale applications. The company has demonstrated explosive revenue growth — Q1 FY2026 revenue hit $6.7M, a 1,027% YoY increase — driven by expanding its installer network and launching new products like the neuClick™ modular platform. ~~Q1 was the latest data point.~~ Q2 FY2026 revenue came in at $4.65M (beating the $4.40M estimate), bringing H1 FY2026 to $11.30M vs $1.66M YoY. However, gross margin declined to 17% and net loss widened significantly to -$5.54M. **Q3 FY2026 revenue collapsed further to $2.02M**, with revenue contracting sharply for two straight quarters (Q1→Q2→Q3: $6.7M→$4.65M→$2.02M), raising serious questions about growth sustainability. The stock has plunged from its February high of $4.21 to ~$1.93, and a public offering raised shares outstanding from ~33M to ~54.5M (~65% dilution).
 
-**Key Thesis:** NEOV is a high-growth micro-cap riding the secular tailwind of U.S. residential energy storage adoption, with strategic moves toward domestic manufacturing (Georgia JV with LONGi) that could unlock IRA tax credit advantages. However, the company remains unprofitable, faces intense competition from Tesla/Enphase, and carries execution risk on multiple simultaneous growth initiatives.
+**Key Thesis:** NEOV is a high-risk micro-cap riding the secular tailwind of U.S. residential energy storage adoption, with strategic moves toward domestic manufacturing (Georgia JV with LONGi) that could unlock IRA tax credit advantages. However, accelerating revenue contraction, heavy dilution, and persistent losses have raised the risk profile materially. The Georgia factory (now slipped to end-August) plus the Infinite Grid Capital 1.1 GWh LOI (~$200M) provide long-term optionality, but near-term execution risk is very high.
 
-**Rating:** Speculative — High risk, high potential reward. Suitable for investors with high risk tolerance and a 2-3 year horizon.
+**Rating:** Speculative — Very high risk. After the price collapse and heavy dilution, upside is compressed while downside risk remains significant. Suitable only for investors with very high risk tolerance, and only at a very small position size.
 
 
 ## 1. Business Overview
@@ -64,12 +66,13 @@ NeoVolta uses LiFePO₄ (LFP) chemistry across all products:
 | FY2025 (ended Jun 2025) | $8.43M | +218% | 18% |
 | Q1 FY2026 (Sep 2025) | $6.7M | +1,027% | 24% |
 | Q2 FY2026 (Dec 2025) | $4.65M | +335% YoY | 17% |
+| Q3 FY2026 (Mar 2026) | $2.02M | — | — |
 | H1 FY2026 (6-month) | $11.30M | +581% YoY | ~21% |
 | FY2026E (consensus) | ~$20.9M | +148% | ~~Improving~~ Mixed |
 | FY2027E (consensus) | ~$22.2M | +6% | — |
 
 **Key observations:**
-- ~~Revenue acceleration is dramatic — 4 consecutive record quarters~~ Revenue growth remains strong YoY (+335% in Q2), but Q2 ($4.65M) declined sequentially from Q1 ($6.7M), breaking the consecutive record streak
+- ~~Revenue acceleration is dramatic — 4 consecutive record quarters~~ Revenue growth remains strong YoY (+335% in Q2), but Q2 ($4.65M) declined sequentially from Q1 ($6.7M), breaking the consecutive record streak; Q3 dropped further to $2.02M, -56% QoQ, intensifying the revenue contraction
 - ~~Gross margin improving from 15% → 18% → 24%, showing operating leverage~~ Gross margin trajectory reversed: 15% → 18% → 24% (Q1) → 17% (Q2). Q2 decline partly due to reversal of a prior year reserve
 - H1 FY2026 ($11.30M) already exceeds all of FY2025 ($8.43M)
 - Q2 net loss widened sharply to -$5.54M (vs Q1's -$1.24M), driven by increased operating expenses
@@ -79,6 +82,7 @@ NeoVolta uses LiFePO₄ (LFP) chemistry across all products:
 - **Net Loss FY2025:** -$5.03M (-$0.15/share)
 - **Net Loss Q1 FY2026:** -$1.24M (-$0.04/share)
 - ~~**Net Loss Q2 FY2026:** N/A (pending)~~ **Net Loss Q2 FY2026:** -$5.54M (-$0.16/share) — missed estimate of -$0.03 by $0.13
+- **Net Loss Q3 FY2026:** -$2.80M (-$0.08/share) — beat the -$0.12 estimate, but revenue badly missed
 - **H1 FY2026 Net Loss:** -$6.78M
 - **EPS Estimate FY2026:** -$0.13
 - **EPS Estimate FY2027:** -$0.13 (some analysts expect breakeven ~$400K profit)
@@ -87,7 +91,8 @@ NeoVolta uses LiFePO₄ (LFP) chemistry across all products:
 ### Balance Sheet Concerns
 - Micro-cap with limited cash reserves
 - Funding Georgia factory JV requires capital — ~~details unclear~~ ~$23M in financing secured in late 2025/early 2026
-- May need additional equity raises (dilution risk)
+- **Heavy dilution has occurred:** A May 2026 public offering raised shares outstanding from ~33M to ~54.5M (+65%); the shrinking market cap combined with the swelling share count squeezed per-share value from both sides
+- May need additional equity raises (dilution risk now partly realized)
 - No long-term debt details publicly available in detail
 
 ---
@@ -126,9 +131,12 @@ The U.S. residential energy storage market is valued at ~$2.7B (2024) and projec
 
 ### Near-Term (2026)
 1. **neuClick™ shipments** — 1,000+ pre-orders, shipping since Jan 2026
-2. **Georgia factory ramp** — 2 GWh initial capacity, mass production mid-2026
+2. **Georgia factory ramp** — 2 GWh initial capacity, ~~mass production mid-2026~~ slipped to end of August 2026; FEOC compliance confirmed
 3. **Luminia partnership** — potential $39M equipment revenue pipeline
 4. **C&I market entry** — 250kW/430kWh commercial BESS launching
+5. **Infinite Grid Capital LOI** — 1.1 GWh BESS supply letter of intent, ~$200M utility-scale deployment (signed May 2026, non-binding)
+6. **Needham initiation** — Buy rating, $8 price target (June 17, 2026)
+7. **Public offering completed** — raised capital to support the Georgia factory and working capital (dilution realized)
 
 ### Medium-Term (2027-2028)
 5. **Georgia factory scale-up** — 2 GWh → 8 GWh capacity
@@ -242,24 +250,29 @@ The U.S. residential energy storage market is valued at ~$2.7B (2024) and projec
 
 ## 8. Valuation Analysis
 
-### Current Metrics (as of Feb 2026)
+### Current Metrics (as of June 25, 2026)
 | Metric | Value |
 |--------|-------|
-| Share Price | ~$4.21 |
-| Market Cap | ~$140M |
-| Shares Outstanding | ~33M |
-| FY2026E Revenue | ~$20.9M |
-| Forward P/S (FY2026) | ~6.7x |
-| FY2027E Revenue | ~$22.2M |
-| Forward P/S (FY2027) | ~6.3x |
-| EPS FY2026E | -$0.13 |
+| Share Price | ~$1.93 |
+| Market Cap | ~$105M |
+| Shares Outstanding | ~54.5M (post public-offering dilution) |
+| TTM Revenue | $18.07M (Q3 FY2026 + Q2 + Q1 + Q4 FY2025) |
+| P/S (TTM) | ~5.82x ($105.15M / $18.07M) |
+| FY2026E Revenue | ~$15-18M ($13.37M actual Q1-Q3 + Q4 est.) |
+| Forward P/S (FY2026E) | ~6.83x ($105.15M / ~$15.4M) |
+| Enterprise Value | $102.25M |
+| EV/Revenue (TTM) | 5.66x |
+| Cash (mrq) | $11.48M |
+| TTM Net Loss | -$11.46M |
+| Quarterly Burn | ~$2.87M/qtr → ~4 quarters of runway |
+| TTM EPS | -$0.32 |
 | P/E | N/A (unprofitable) |
 
 ### Valuation Context
-- **6.7x forward P/S** is expensive for a hardware company, but not unreasonable for a high-growth energy storage name
-- **Comparable companies:** Enphase trades at ~5-8x P/S; Tesla Energy is embedded in Tesla's overall valuation
-- **Key question:** Can NEOV sustain triple-digit growth? If FY2026 revenue hits $25M+ (above consensus), the P/S compresses to ~5.6x
-- **If Georgia factory delivers:** Revenue could accelerate beyond consensus in FY2027-2028, making current valuation more palatable
+- **Feb→June stock down 54%:** market cap fell from $140M → $105M, but shares outstanding rose from 33M → 54.5M over the same period, so dilution offset part of the valuation compression
+- **P/S ~5.82x (TTM)** is slightly below February's ~6.7x forward P/S, but revenue contraction has worsened the denominator
+- **Needham's $8 target** implies ~315% upside, but rests on an entirely different scenario (Georgia at full capacity + Infinite Grid converting)
+- **The core question:** the current price reflects deep market concern over continued revenue contraction + cash burn; rebutting the bear case requires the Georgia factory to reach successful mass production and the Infinite Grid LOI to convert into a binding contract
 
 ### Scenario Analysis (2-3 Year Horizon)
 
