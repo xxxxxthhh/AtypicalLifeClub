@@ -31,6 +31,38 @@
     ]
   },
   {
+    "id": "gevernova-2026",
+    "company": "GE Vernova",
+    "ticker": "NYSE: GEV",
+    "title": "GE Vernova 深度研究报告 - AI 电力侧的卖铲人与燃气轮机超级周期",
+    "titleEn": "GE Vernova Deep Research Report - The Pick-and-Shovel of AI's Power Side and the Gas-Turbine Super-Cycle",
+    "summary": "AI「电力侧」瓶颈最直接的卖铲人：数据中心电力短缺同时拉动燃气轮机（Power）与电网设备（Electrification）。Q1 2026 订单 $18.3B、backlog $163B（2027 目标 $200B，从 2028 提前），燃气轮机 backlog+slot 预留年底目标 ≥110 GW；上调 FY2026 指引（营收 $44.5-45.5B、调整后 EBITDA 利润率 12-14%、FCF $6.5-7.5B）。利润率正从 FY2025 的 8.4% 向中两位数爬坡。但近一年 +117%、市值约 $2,840 亿，EV/2026E 调整后 EBITDA 约 45-48x，已计入多年爬坡，且与 AI capex 共命运、Wind 仍亏损。净现金 $8.8B。中性/高质量但高预期（观察）。",
+    "summaryEn": "The most direct pick-and-shovel of AI's power-side bottleneck: data-center electricity shortage pulls both gas turbines (Power) and grid equipment (Electrification). Q1 2026 orders $18.3B, backlog $163B (2027 target $200B, pulled forward from 2028), gas-turbine backlog+slots targeting >=110 GW by year-end; raised FY2026 guidance (revenue $44.5-45.5B, adjusted EBITDA margin 12-14%, FCF $6.5-7.5B). Margins are climbing from FY2025's 8.4% toward the mid-teens. But up ~117% in a year at a ~$284B market cap, EV/2026E adjusted EBITDA ~45-48x already prices the multi-year ramp, it shares fate with AI capex, and Wind is still loss-making. $8.8B net cash. Neutral / high-quality-but-high-expectations (watch).",
+    "tags": [
+      "AI电力",
+      "燃气轮机",
+      "电网设备",
+      "电力基础设施"
+    ],
+    "category": "energy",
+    "date": "2026-06-27",
+    "lastUpdate": "2026-06-27",
+    "file": "/invest/research/reports/view.html?id=gevernova-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/GE_Vernova_深度研究报告_2026-06.md",
+      "en": "/invest/research/GE_Vernova_Deep_Research_Report_2026-06.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "Q1 2026 订单 $18.3B，backlog 环比 +$13B+ 至 $163B；2027 目标 $200B（从 2028 提前）；Electrification 数据中心设备订单 $2.4B（超去年全年）",
+      "燃气轮机 backlog + slot 预留 2026 年底目标 ≥110 GW；上调 FY2026 指引：营收 $44.5-45.5B、调整后 EBITDA 利润率 12-14%、FCF $6.5-7.5B",
+      "利润率从 FY2025 的 8.4% 向中两位数爬坡是估值核心变量；净现金 $8.8B、债务极少，与背 $64.9B 债务的 Broadcom 形成对比",
+      "股价约 $1,056.77、市值约 $2,840 亿（近一年 +117%），EV/2026E 调整后 EBITDA 约 45-48x，已计入多年爬坡、与 AI capex 共命运、Wind 仍亏损。中性/观察"
+    ]
+  },
+  {
     "id": "tempus-ai-2026",
     "company": "Tempus AI",
     "ticker": "NASDAQ: TEM",
