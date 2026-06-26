@@ -1008,5 +1008,37 @@
       "summary": "归档的2026H1重跑前版本，保留2月项目管线、目标价、首堆和零收入估值框架。",
       "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the February pipeline, target-price, first-reactor, and zero-revenue valuation framework."
     }
+  },
+  {
+    "id": "broadcom-2026",
+    "company": "Broadcom",
+    "ticker": "NASDAQ: AVGO",
+    "title": "Broadcom 深度研究报告 - 自定义 AI 硅的卖铲人与 VMware 现金机器",
+    "titleEn": "Broadcom Deep Research Report - The Pick-and-Shovel of Custom AI Silicon, Plus a VMware Cash Machine",
+    "summary": "自定义 AI 硅（XPU）最大的卖铲人，正是 NVIDIA 报告点名的最深结构性威胁的承接方；同时握有 VMware 软件现金机器。Q2 FY2026 营收 $22.19B（+48%），AI 半导体 $10.8B（+143%），AI backlog >$30B，FY2027 AI 目标 >$1000 亿（6 家确认客户：Google/Meta/字节/Anthropic/OpenAI/Fujitsu）。但收入兑现后置到 FY2027、客户高度集中、且背 $64.9B 债务（VMware）。市值约 $1.8 万亿、远期 P/E 约 33x，介于 NVIDIA ~25x 与 AMD ~58x 之间。中性/高质量但高预期（观察）。",
+    "summaryEn": "The biggest pick-and-shovel of custom AI silicon (XPUs) - the very threat named in the NVIDIA report - plus a VMware software cash machine. Q2 FY2026 revenue $22.19B (+48%), AI semis $10.8B (+143%), AI backlog >$30B, FY2027 AI target >$100B (6 confirmed customers: Google/Meta/ByteDance/Anthropic/OpenAI/Fujitsu). But delivery is back-loaded to FY2027, customers are concentrated, and it carries $64.9B of debt (VMware). Market cap ~$1.8T, forward P/E ~33x, between NVIDIA ~25x and AMD ~58x. Neutral / high-quality-but-high-expectations (watch).",
+    "tags": [
+      "AI计算",
+      "自定义ASIC",
+      "AI网络",
+      "VMware"
+    ],
+    "category": "tech",
+    "date": "2026-06-26",
+    "lastUpdate": "2026-06-26",
+    "file": "/invest/research/reports/view.html?id=broadcom-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Broadcom_深度研究报告_2026-06.md",
+      "en": "/invest/research/Broadcom_Deep_Research_Report_2026-06.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "Q2 FY2026 营收 $22.19B（+48% YoY），AI 半导体 $10.8B（+143%），AI backlog >$30B；Q3 指引营收 ~$29.4B、AI $16.0B（+200%）",
+      "FY2027 AI 半导体目标 >$1000 亿，6 家确认 XPU 客户（Google/Meta/字节/Anthropic/OpenAI/Fujitsu），$73B backlog——但兑现后置到 FY2027、客户高度集中",
+      "两台引擎：AI 定制硅增长 + VMware 软件现金（非 GAAP 营业利润率 67%、FCF 占收入 46%）；但背 $64.9B 债务",
+      "市值约 $1.8 万亿、远期 P/E 约 33x，介于 NVIDIA ~25x 与 AMD ~58x 之间；风险在 FY2027 兑现分母而非倍数。中性/观察"
+    ]
   }
 ]
