@@ -659,7 +659,7 @@
     "ticker": "NYSE: SPOT",
     "title": "Spotify 深度研究报告 - 全球音频科技平台的盈利转型与估值再评估",
     "titleEn": "Spotify Deep Research Report - The Global Audio Tech Platform's Profitability Transformation and Valuation Reassessment",
-    "summary": "全球最大音频流媒体平台，已完成从长期亏损到盈利的转型。Q1 2026 TTM运营利润率15.77%、MAU 7.61亿、净利$2.71B。2026/6/25增量更新：股价$442、市值~$910亿、Forward P/E ~31x，较2月初次覆盖时P/E从~53-66x大幅压缩。估值压力显著缓解，但上行空间收窄至~13%。",
+    "summary": "全球最大音频流媒体平台，已完成从长期亏损到盈利的转型。Q1 2026 TTM运营利润率15.77%、MAU 7.61亿、净利€2.71B（约$3.0B）。2026/6/25增量更新：股价$442、市值~$910亿、Forward P/E ~31x，较2月初次覆盖时P/E从~53-66x大幅压缩。估值压力显著缓解，但上行空间收窄至~13%。",
     "tags": [
       "流媒体",
       "音频平台",
@@ -677,10 +677,10 @@
     "highlights": [
       "股价$442.28、市值~$910亿，52周$405-$785（2026/6/25）",
       "TTM P/E ~30x（vs 2月~53-66x），Forward P/E ~31x（vs 2月~45x），盈利快速增长推动估值压缩",
-      "Q1 2026 TTM运营利润率15.77%、净利率15.45%、OCF $3.23B，MAU 7.61亿",
+      "Q1 2026 TTM运营利润率15.77%、净利率15.45%、净利€2.71B（约$3.0B）、OCF $3.23B，MAU 7.61亿",
       "2月美国提价$1/月生效，Q2财报（8月4日）是关键验证点"
     ],
-    "summaryEn": "World's largest audio streaming platform, transformed from chronic losses to profitability. Q1 2026 TTM operating margin 15.77%, MAU 761M, net income $2.71B. 2026/6/25 incremental update: price $442, market cap ~$91B, Forward P/E ~31x, compressed from ~53-66x at initial coverage in February. Valuation pressure significantly eased, though upside narrowed to ~13%.",
+    "summaryEn": "World's largest audio streaming platform, transformed from chronic losses to profitability. Q1 2026 TTM operating margin 15.77%, MAU 761M, net income €2.71B (~$3.0B). 2026/6/25 incremental update: price $442, market cap ~$91B, Forward P/E ~31x, compressed from ~53-66x at initial coverage in February. Valuation pressure significantly eased, though upside narrowed to ~13%.",
     "period": "2026H1",
     "versionType": "incremental",
     "versionLabel": "2026H1 Incremental Update"

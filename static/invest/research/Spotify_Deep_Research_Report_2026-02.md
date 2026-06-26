@@ -30,7 +30,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Premium Subscribers | 290M (Q4 2025) | Awaiting Q2 update |
 | 52-Week Range | $405 - $785 | **Confirmed: $405 - $785** |
 
-> 📌 **2026/6/25 Incremental Update Note:** Q1 2026 earnings have been reported. TTM earnings improved significantly (Net Income $2.71B, EPS $14.74), compressing P/E from ~53-66x to ~30x. Operating margin improved from 12.8% to 15.77%. MAU reached 761M. Stock recovered to $442 from $416, though still down ~35% YTD. Forward P/E ~31x (vs prior ~45x), valuation pressure has eased considerably.
+> 📌 **2026/6/25 Incremental Update Note:** Q1 2026 earnings have been reported. TTM earnings improved significantly (Net Income €2.71B / ~$3.0B, EPS $14.74), compressing P/E from ~53-66x to ~30x. Operating margin improved from 12.8% to 15.77%. MAU reached 761M. Stock recovered to $442 from $416, though still down ~35% YTD. Forward P/E ~31x (vs prior ~45x), valuation pressure has eased considerably.
 
 ---
 
@@ -120,7 +120,7 @@ The global music streaming market was valued at approximately $56.3 billion in 2
 
 **Free Cash Flow (€B):**
 - 2022: €0.02B → 2023: €0.68B → 2024: €2.3B → 2025: €2.9B
-- ~~From near-zero to nearly €3 billion in three years~~ **TTM Q1 2026 OCF: $3.23B (~€3.0B), Net Income $2.71B**
+- ~~From near-zero to nearly €3 billion in three years~~ **TTM Q1 2026 OCF: $3.23B (~€3.0B), Net Income €2.71B (~$3.0B)**
 
 **Q1 2026 Earnings Highlights (reported April 2026):**
 - Quarterly earnings +220% YoY, diluted EPS $14.74 (TTM)
@@ -284,7 +284,7 @@ Effective January 1, 2026, Spotify adopted a co-CEO structure:
 | DCF (Bull) | ~$700 | 18% revenue growth, 22% terminal margin | Low |
 | DCF (Bear) | ~$350 | 10% revenue growth, 14% terminal margin | Medium |
 | Comps (P/E) | ~$450-550 | vs Netflix/Adobe, 35-45x Forward P/E | Medium |
-| Analyst Consensus | ~$720 | Average target from 34 analysts | Reference |
+| Analyst Consensus | ~~~$720~~ ~$595 | Average target from 34 analysts (updated 2026/6/25) | Reference |
 
 **Current Price:** ~~~$416~~ **$442.28**
 **vs Base Case:** ~~~20% upside~~ **~13% upside ($442 vs $500 DCF base)**
