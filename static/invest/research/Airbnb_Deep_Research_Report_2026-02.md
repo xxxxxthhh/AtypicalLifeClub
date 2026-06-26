@@ -190,7 +190,7 @@ Best-in-class product and brand capabilities, excellent margin management, but a
 - AI investment translates into measurable operational efficiency gains and UX improvements
 - Global regulation tightens but does not cause a significant contraction in listing supply
 
-**Upside Scenario:** ~~If 2026 revenue growth recovers to 15%+ with margins sustained at 35%+, Forward P/E could re-expand to 30-35x, implying a stock price of $150-170.~~ **Q1 has cleared the 15%+ hurdle. If Q2-Q4 sustain this pace and margins stabilize, P/E of 30-35x implies ~$160-185 (based on TTM EPS $4.04 with potential upward revision).**
+**Upside Scenario:** ~~If 2026 revenue growth recovers to 15%+ with margins sustained at 35%+, Forward P/E could re-expand to 30-35x, implying a stock price of $150-170.~~ **Q1 has cleared the 15%+ hurdle. If Q2-Q4 sustain this pace and margins stabilize, P/E of 30-35x on upwardly-revised forward EPS (~$5.3, vs TTM $4.04) implies ~$160-185.**
 
 ---
 
@@ -246,7 +246,7 @@ Best-in-class product and brand capabilities, excellent margin management, but a
 | Forward P/E (2026E) | **27.78x** | Yahoo Finance analyst consensus | Medium-High |
 | ~~P/FCF~~ P/FCF (TTM Levered FCF) | ~~~15.5x~~ **26.9x** | $85.7B market cap / $3.19B TTM levered FCF | High |
 | P/FCF (FY2025 FCF basis) | **18.6x** | $85.7B market cap / $4.6B FY2025 FCF | High |
-| ~~EV/EBITDA~~ EV/EBITDA (TTM) | ~~~16x~~ **29.1x** | EV $76.23B / TTM EBITDA $2.62B | High |
+| ~~EV/EBITDA~~ EV/EBITDA (TTM) | ~~~16x~~ **29.1x** | EV $76.23B / TTM GAAP EBITDA $2.62B (Feb's ~16x used Adj. EBITDA $4.3B — caliber differs) | High |
 | ~~P/S~~ P/S (TTM) | ~~~5.9x~~ **6.8x** | $85.7B market cap / $12.65B TTM revenue | High |
 
 ### Analyst Consensus
