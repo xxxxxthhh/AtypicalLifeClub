@@ -1,5 +1,36 @@
 [
   {
+    "id": "nvidia-2026",
+    "company": "NVIDIA",
+    "ticker": "NASDAQ: NVDA",
+    "title": "NVIDIA 深度研究报告 - AI 计算中枢的高质量与高预期",
+    "titleEn": "NVIDIA Deep Research Report - The AI Compute Hub, High Quality Meets High Expectations",
+    "summary": "AI 计算革命的绝对中枢，Q1 FY2027 营收 $81.6B（+85% YoY）、数据中心 $75.2B（+92%），且这份创纪录报表在中国数据中心收入归零的前提下完成，Q2 FY2027 指引 $91.0B。反直觉点：作为全球市值第一（约 $4.76 万亿），远期 P/E 约 25x 反而低于 AMD 约 58x、Broadcom 约 38x。风险不在倍数，而在分母——AI 资本开支可持续性、自定义 ASIC 替代、中国结构性丢失与循环融资减值。中性/高质量但高预期（观察）。",
+    "tags": [
+      "AI计算",
+      "GPU",
+      "数据中心",
+      "CUDA"
+    ],
+    "category": "tech",
+    "date": "2026-06-26",
+    "lastUpdate": "2026-06-26",
+    "file": "/invest/research/reports/view.html?id=nvidia-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/NVIDIA_深度研究报告_2026-06.md",
+      "en": "/invest/research/NVIDIA_Deep_Research_Report_2026-06.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "Q1 FY2027 营收 $81.6B（+85% YoY），数据中心 $75.2B（+92%），且在中国数据中心收入归零前提下完成；Q2 FY2027 指引营收 $91.0B",
+      "毛利率回到 75%；新增 $80B 回购 + 季度股息 $0.01→$0.25，FCF 信号强；GAAP EPS $2.39 含 $15.9B 股权未实现收益，须以非 GAAP $1.87 为准",
+      "护城河三重叠加：CUDA 生态 + 全栈系统（GPU+NVLink+网络）+ 年度节奏；结构性威胁来自自定义 ASIC（Broadcom）多于 AMD",
+      "股价约 $195.74、市值约 $4.76 万亿（全球第一），但远期 P/E 约 25x 低于 AMD 约 58x；风险在盈利预期分母而非倍数。中性/观察"
+    ]
+  },
+  {
     "id": "aaoi-2026",
     "company": "Applied Optoelectronics",
     "ticker": "NASDAQ: AAOI",
