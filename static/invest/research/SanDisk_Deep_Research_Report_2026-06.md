@@ -174,7 +174,7 @@ Post-spin management details are pending verification from the company's officia
 
 > The following is valuation "context," not a price target or a buy/sell recommendation.
 
-- **P/S (TTM) ~23-24x:** market cap ~$309.6B / TTM revenue ~$13.2B. For context, even high-multiple semiconductor names trade at substantially lower P/S: NVIDIA ~18-19x, Broadcom ~24-25x, AMD ~17-18x (all on much larger revenue bases). SanDisk at 23-24x P/S on $13B revenue is priced like a high-growth software platform — a demanding standard for a commodity memory business.
+- **P/S (TTM) ~23-24x:** market cap ~$309.6B / TTM revenue ~$13.2B. For context, even high-multiple semiconductor names with far larger revenue bases — NVIDIA ~19x on ~$253B TTM revenue, Broadcom ~24x on ~$75B TTM revenue — trade at or below SanDisk's P/S despite vastly larger scale. SanDisk at 23-24x P/S on $13B revenue is priced like a high-growth software platform — a demanding standard for a commodity memory business.
 - **TTM P/E ~70x:** based on TTM pre-tax earnings of ~$5.2B; the net-income P/E is likely higher. By comparison, NVIDIA trades at ~25x forward, Broadcom at ~33x — SanDisk's earnings multiple is 2-3x higher than the AI chip stocks, despite being in a more cyclical, lower-moat industry.
 - **EV/Sales ~23x:** with minimal debt (~$0.18B), EV is essentially market cap, and EV-based multiples mirror equity-based ones.
 - **Reading the multiple:** SanDisk's valuation is a bet on **NAND cycle duration, not NAND cycle value.** At current multiples, the market is pricing in several years of peak-cycle earnings. If the NAND cycle peaks and margins normalize toward mid-cycle levels, the multiple and earnings contract together — the classic commodity-cycle double compression.
