@@ -15,7 +15,7 @@
 
 **当前判断：** **中性 / 高周期性、高预期（观察）**。SanDisk 在 NAND 上行周期的执行力极为出色，AI 驱动的存储需求有清晰且可量化的顺风（数据中心收入 +233% Q/Q）。但核心矛盾在于：**$3,100 亿市值对应约 $190 亿 FY2026E 营收（约 16 倍 P/S），已定价了持续的顶峰利润率**——而 NAND 价格历史上就是暴涨暴跌的。风险不在"AI 存储需求是不是真的"，而在"NAND 供给追上来、利润率从 78% 正常化时会怎样"。
 
-**当前市场口径（截至 2026-06-27）：** SNDK 近期交易价约 **$1,970-2,090**；按 Q3 FY2026 申报的约 **1.57 亿股**摊薄股本计，市值约 **$3,096 亿**，全球约第 51 位。股价自分拆参考价以来大幅上涨，反映了 NAND 周期复苏叠加市场对纯闪存 AI 标的的重新定价。财务来源：[SanDisk Q3 FY2026 8-K](https://www.sec.gov/Archives/edgar/data/2023554/000162828026028879/sndkq3-26ex991xpressrelease.htm)；行情参考：[CompaniesMarketCap SNDK](https://companiesmarketcap.com/sandisk/marketcap/)、[Yahoo Finance SNDK](https://finance.yahoo.com/quote/SNDK/)。
+**当前市场口径（截至 2026-06-27）：** SNDK 近期交易价约 **$1,970-2,090**；按 Q3 FY2026 申报的约 **1.57 亿股**摊薄股本计，市值约 **$3,096 亿**，全球约第 51 位。52 周区间约 **$40.10 - $2,354.39**——极端区间反映了从个位数参考价到 $3,000 亿+ AI 受益股的分拆后重定价。财务来源：[SanDisk Q3 FY2026 8-K](https://www.sec.gov/Archives/edgar/data/2023554/000162828026028879/sndkq3-26ex991xpressrelease.htm)；行情参考：[CompaniesMarketCap SNDK](https://companiesmarketcap.com/sandisk/marketcap/)、[Yahoo Finance SNDK](https://finance.yahoo.com/quote/SNDK/)。
 
 **关键数据：**
 
