@@ -95,7 +95,7 @@ AI compute silicon competition reduces to "general GPUs (NVIDIA/AMD) vs custom A
 ### 3.2 Cash is huge, but the VMware debt is the other half you must consolidate
 
 - Free cash flow **$10.26B** (46% of revenue) — extremely strong cash generation.
-- But **total debt is $64.9B** (mainly the ~$69B VMware acquisition in 2023). Quarterly interest expense runs roughly **$0.9-1.1B** (based on weighted average coupon of ~4-5% implied by recent earnings releases); against $10.26B of quarterly FCF, debt service is manageable but the absolute debt size means sustained deleveraging will consume cash for years. So Broadcom is two stories at once: high AI-semiconductor growth, and a deleveraging project funded by VMware cash + price increases. Interest and debt size are not ignorable in valuation.
+- But **total debt is $64.9B** (mainly the ~$69B VMware acquisition in 2023). Per Q2 FY2026 official disclosure, interest expense was **$0.78B** (cash interest **$0.70B**); against $10.26B of quarterly FCF, debt service is manageable but the absolute debt size means sustained deleveraging will consume cash for years. So Broadcom is two stories at once: high AI-semiconductor growth, and a deleveraging project funded by VMware cash + price increases. Interest and debt size are not ignorable in valuation.
 - The company pays a steady dividend and retains buyback capacity, but current capital-allocation priority is balancing **AI investment + debt repayment + dividend**.
 
 ### 3.3 GAAP vs non-GAAP difference is mainly acquisition amortization
