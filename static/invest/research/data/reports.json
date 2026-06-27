@@ -1,5 +1,36 @@
 [
   {
+    "id": "nvidia-2026",
+    "company": "NVIDIA",
+    "ticker": "NASDAQ: NVDA",
+    "title": "NVIDIA 深度研究报告 - AI 计算中枢的高质量与高预期",
+    "titleEn": "NVIDIA Deep Research Report - The AI Compute Hub, High Quality Meets High Expectations",
+    "summary": "AI 计算革命的绝对中枢，Q1 FY2027 营收 $81.6B（+85% YoY）、数据中心 $75.2B（+92%），且这份创纪录报表在中国数据中心收入归零的前提下完成，Q2 FY2027 指引 $91.0B。反直觉点：作为全球市值第一（约 $4.76 万亿），远期 P/E 约 25x 反而低于 AMD 约 58x、Broadcom 约 33x。风险不在倍数，而在分母——AI 资本开支可持续性、自定义 ASIC 替代、中国结构性丢失与循环融资减值。中性/高质量但高预期（观察）。",
+    "tags": [
+      "AI计算",
+      "GPU",
+      "数据中心",
+      "CUDA"
+    ],
+    "category": "tech",
+    "date": "2026-06-26",
+    "lastUpdate": "2026-06-26",
+    "file": "/invest/research/reports/view.html?id=nvidia-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/NVIDIA_深度研究报告_2026-06.md",
+      "en": "/invest/research/NVIDIA_Deep_Research_Report_2026-06.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "Q1 FY2027 营收 $81.6B（+85% YoY），数据中心 $75.2B（+92%），且在中国数据中心收入归零前提下完成；Q2 FY2027 指引营收 $91.0B",
+      "毛利率回到 75%；新增 $80B 回购 + 季度股息 $0.01→$0.25，FCF 信号强；GAAP EPS $2.39 含 $15.9B 股权未实现收益，须以非 GAAP $1.87 为准",
+      "护城河三重叠加：CUDA 生态 + 全栈系统（GPU+NVLink+网络）+ 年度节奏；结构性威胁来自自定义 ASIC（Broadcom）多于 AMD",
+      "股价约 $195.74、市值约 $4.76 万亿（全球第一），但远期 P/E 约 25x 低于 AMD 约 58x；风险在盈利预期分母而非倍数。中性/观察"
+    ]
+  },
+  {
     "id": "aaoi-2026",
     "company": "Applied Optoelectronics",
     "ticker": "NASDAQ: AAOI",
@@ -28,6 +59,38 @@
       "800G产品Q1已向大型hyperscale客户首批量产出货，Q2开始ramp，Q3随产能上线预计显著放大",
       "Q1末800G transceiver月产能接近100,000只，美国和台湾扩产支撑AI光模块交付",
       "股价约$171.23、市值约$137亿，EV/TTM Sales约26.6x；GAAP仍亏损、现金流和稀释风险需要严密跟踪"
+    ]
+  },
+  {
+    "id": "gevernova-2026",
+    "company": "GE Vernova",
+    "ticker": "NYSE: GEV",
+    "title": "GE Vernova 深度研究报告 - AI 电力侧的卖铲人与燃气轮机超级周期",
+    "titleEn": "GE Vernova Deep Research Report - The Pick-and-Shovel of AI's Power Side and the Gas-Turbine Super-Cycle",
+    "summary": "AI「电力侧」瓶颈最直接的卖铲人：数据中心电力短缺同时拉动燃气轮机（Power）与电网设备（Electrification）。Q1 2026 订单 $18.3B、backlog $163B（2027 目标 $200B，从 2028 提前），燃气轮机 backlog+slot 预留年底目标 ≥110 GW；Q1 营收 $9.34B、调整后 EBITDA $896M（利润率 9.6%），并上调 FY2026 指引（营收 $44.5-45.5B、调整后 EBITDA 利润率 12-14%、FCF $6.5-7.5B）。利润率正从 FY2025 的 8.4% 向中两位数爬坡。但近一年 +117%、市值约 $2,840 亿，EV/2026E 调整后 EBITDA 约 45-48x，已计入多年爬坡，且与 AI capex 共命运、Wind 仍亏损。Q1 现金 $10.2B、senior notes $2.6B，粗略净现金约 $7.6B。中性/高质量但高预期（观察）。",
+    "summaryEn": "The most direct pick-and-shovel of AI's power-side bottleneck: data-center electricity shortage pulls both gas turbines (Power) and grid equipment (Electrification). Q1 2026 orders $18.3B, backlog $163B (2027 target $200B, pulled forward from 2028), gas-turbine backlog+slots targeting >=110 GW by year-end; Q1 revenue $9.34B and adjusted EBITDA $896M (9.6% margin), with raised FY2026 guidance (revenue $44.5-45.5B, adjusted EBITDA margin 12-14%, FCF $6.5-7.5B). Margins are climbing from FY2025's 8.4% toward the mid-teens. But up ~117% in a year at a ~$284B market cap, EV/2026E adjusted EBITDA ~45-48x already prices the multi-year ramp, it shares fate with AI capex, and Wind is still loss-making. Q1 cash $10.2B, senior notes $2.6B, rough net cash ~$7.6B. Neutral / high-quality-but-high-expectations (watch).",
+    "tags": [
+      "AI电力",
+      "燃气轮机",
+      "电网设备",
+      "电力基础设施"
+    ],
+    "category": "energy",
+    "date": "2026-06-27",
+    "lastUpdate": "2026-06-27",
+    "file": "/invest/research/reports/view.html?id=gevernova-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/GE_Vernova_深度研究报告_2026-06.md",
+      "en": "/invest/research/GE_Vernova_Deep_Research_Report_2026-06.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "Q1 2026 订单 $18.3B，backlog 环比 +$13B+ 至 $163B；2027 目标 $200B（从 2028 提前）；Electrification 数据中心设备订单 $2.4B（超去年全年）",
+      "燃气轮机 backlog + slot 预留 2026 年底目标 ≥110 GW；上调 FY2026 指引：营收 $44.5-45.5B、调整后 EBITDA 利润率 12-14%、FCF $6.5-7.5B",
+      "利润率从 FY2025 的 8.4% 向中两位数爬坡是估值核心变量；Q1 现金 $10.2B、senior notes $2.6B，粗略净现金约 $7.6B，与背 $64.9B 总债务的 Broadcom 形成对比",
+      "股价约 $1,056.77、市值约 $2,840 亿（近一年 +117%），EV/2026E 调整后 EBITDA 约 45-48x，已计入多年爬坡、与 AI capex 共命运、Wind 仍亏损。中性/观察"
     ]
   },
   {
@@ -1008,5 +1071,37 @@
       "summary": "归档的2026H1重跑前版本，保留2月项目管线、目标价、首堆和零收入估值框架。",
       "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the February pipeline, target-price, first-reactor, and zero-revenue valuation framework."
     }
+  },
+  {
+    "id": "broadcom-2026",
+    "company": "Broadcom",
+    "ticker": "NASDAQ: AVGO",
+    "title": "Broadcom 深度研究报告 - 自定义 AI 硅的卖铲人与 VMware 现金机器",
+    "titleEn": "Broadcom Deep Research Report - The Pick-and-Shovel of Custom AI Silicon, Plus a VMware Cash Machine",
+    "summary": "自定义 AI 硅（XPU）最大的卖铲人，正是 NVIDIA 报告点名的最深结构性威胁的承接方；同时握有 VMware 软件现金机器。Q2 FY2026 营收 $22.19B（+48%），AI 半导体 $10.8B（+143%），AI backlog >$30B，FY2027 AI 目标 >$1000 亿；Google/Meta/字节/Anthropic/OpenAI/Fujitsu 等客户项目与 $73B backlog 属公开报道/市场拆解口径，非全部官方确认。但收入兑现后置到 FY2027、客户高度集中、总债务 $64.9B、净债务约 $45B。市值约 $1.8 万亿、远期 P/E 约 33x，介于 NVIDIA ~25x 与 AMD ~58x 之间。中性/高质量但高预期（观察）。",
+    "summaryEn": "The biggest pick-and-shovel of custom AI silicon (XPUs) - the very threat named in the NVIDIA report - plus a VMware software cash machine. Q2 FY2026 revenue $22.19B (+48%), AI semis $10.8B (+143%), AI backlog >$30B, FY2027 AI target >$100B; customer programs such as Google/Meta/ByteDance/Anthropic/OpenAI/Fujitsu and the $73B backlog are public-reporting / market-breakdown inputs, not all official confirmations. Delivery is back-loaded to FY2027, customers are concentrated, total debt is $64.9B and net debt is roughly $45B. Market cap ~$1.8T, forward P/E ~33x, between NVIDIA ~25x and AMD ~58x. Neutral / high-quality-but-high-expectations (watch).",
+    "tags": [
+      "AI计算",
+      "自定义ASIC",
+      "AI网络",
+      "VMware"
+    ],
+    "category": "tech",
+    "date": "2026-06-26",
+    "lastUpdate": "2026-06-26",
+    "file": "/invest/research/reports/view.html?id=broadcom-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Broadcom_深度研究报告_2026-06.md",
+      "en": "/invest/research/Broadcom_Deep_Research_Report_2026-06.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "Q2 FY2026 营收 $22.19B（+48% YoY），AI 半导体 $10.8B（+143%），AI backlog >$30B；Q3 指引营收 ~$29.4B、AI $16.0B（+200%）",
+      "FY2027 AI 半导体目标 >$1000 亿；公开报道涉及 Google/Meta/字节/Anthropic/OpenAI/Fujitsu 等 XPU 项目与 $73B backlog 估算——但兑现后置到 FY2027、客户高度集中，非全部为官方确认订单",
+      "两台引擎：AI 定制硅增长 + VMware 软件现金（非 GAAP 营业利润率 67%、FCF 占收入 46%）；总债务 $64.9B、Q2 期末现金 $19.63B，净债务约 $45B",
+      "市值约 $1.8 万亿、远期 P/E 约 33x，介于 NVIDIA ~25x 与 AMD ~58x 之间；风险在 FY2027 兑现分母而非倍数。中性/观察"
+    ]
   }
 ]
