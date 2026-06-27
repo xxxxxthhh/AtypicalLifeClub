@@ -1008,5 +1008,37 @@
       "summary": "归档的2026H1重跑前版本，保留2月项目管线、目标价、首堆和零收入估值框架。",
       "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the February pipeline, target-price, first-reactor, and zero-revenue valuation framework."
     }
+  },
+  {
+    "id": "sandisk-2026",
+    "company": "SanDisk",
+    "ticker": "NASDAQ: SNDK",
+    "title": "SanDisk 深度研究报告 - NAND寡头格局中的AI存储周期暴露",
+    "titleEn": "SanDisk Deep Research Report - AI Storage Cycle Exposure in the NAND Oligopoly",
+    "summary": "全球最大纯NAND闪存公司。2025年初从Western Digital分拆独立，市值约$3,096亿（全球#51），TTM营收约$132亿。NAND上行周期叠加AI数据中心存储需求爆发推动业绩从FY2025净亏-$8.6亿大幅扭转为TTM税前利润约$52亿。但P/S约24倍、TTM P/E约70倍已将多年超级周期定价——NAND是半导体中周期性最强的子行业之一，历史周期转向时盈利和估值双向收缩。",
+    "tags": [
+      "NAND闪存",
+      "AI存储",
+      "数据中心SSD",
+      "半导体周期"
+    ],
+    "category": "tech",
+    "date": "2026-06-27",
+    "lastUpdate": "2026-06-27",
+    "file": "/invest/research/reports/view.html?id=sandisk-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/SanDisk_深度研究报告_2026-06.md",
+      "en": "/invest/research/SanDisk_Deep_Research_Report_2026-06.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "全球最大纯NAND闪存公司，2025年初从WDC分拆独立，市值约$3,096亿",
+      "TTM营收约$132亿，P/S约24倍；TTM税前利润约$52亿，TTM P/E约70倍",
+      "NAND上行周期+AI数据中心存储需求双重驱动，分拆后杠杆极低（总债务$1.8亿）",
+      "核心风险：NAND周期性极强，当前估值定价于顶峰状态；分拆后首份独立季报细节待对账"
+    ],
+    "summaryEn": "World's largest pure-play NAND flash company, spun off from Western Digital in early 2025. Market cap ~$309.6B (#51 globally), TTM revenue ~$13.2B. NAND up-cycle plus AI data center storage demand have driven a massive earnings swing from FY2025 ~-$0.86B net loss to ~$5.2B TTM pre-tax profit. But ~24x P/S and ~70x TTM P/E price in a multi-year super-cycle — NAND is one of the most cyclical semiconductor sub-sectors, and historical cycle turns have seen both earnings and multiples contract simultaneously."
   }
 ]
