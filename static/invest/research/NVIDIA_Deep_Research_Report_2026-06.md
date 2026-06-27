@@ -5,7 +5,7 @@ Last updated: 2026-06-26
 Ticker: NASDAQ: NVDA
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
-> **Fiscal-year note:** NVIDIA's fiscal year ends in late January. In this report **FY2026** is the year ended 2026-01-25; **Q1 FY2027** is the quarter ended 2026-04-26 (reported 2026-05-20), the latest quarter as of publication. Unlike the calendar-quarter convention used in this center's other reports, NVIDIA figures always use the company's official fiscal labels.
+> **Fiscal-year note:** NVIDIA's fiscal year ends in late January. In this report **FY2026** is the year ended 2026-01-25; **Q1 FY2027** is the quarter ended 2026-04-26 (reported 2026-05-20), the latest quarter as of publication. Unlike the calendar-quarter convention used in this center's other reports, NVIDIA figures always use the company's official fiscal labels. Read alongside this center's Broadcom, AMD, GE Vernova and Bloom Energy reports — NVIDIA and Broadcom form the "compute side" of AI infrastructure, while GE Vernova and Bloom are the "power side"; only together can the full AI-infrastructure chain be assessed.
 
 ---
 
@@ -13,7 +13,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 **One-line thesis:** NVIDIA is the indispensable hub of this AI-compute cycle — the CUDA software ecosystem + a full-stack system (GPU + NVLink + networking) + an annual product cadence form the strongest moat in the market today, and Q1 FY2027 revenue of $81.6B (+85% YoY) with Data Center at $75.2B (+92%) is still accelerating. But it is already the world's most valuable company (~$4.76T), so **the core question is not "is it good" but "at what slope can a base this large keep beating expectations, with zero China Data Center revenue assumed, custom-ASIC competition rising, and the durability of AI capex unproven."**
 
-**Verdict:** **Neutral / high quality but high expectations (watch).** Like AMD, SK hynix and Bloom, this is a name whose fundamentals are strongly validated but whose price already prices in "the AI super-cycle persists for years." One counter-intuitive fact is worth remembering: NVIDIA is the most expensive company by absolute market cap, yet **not the most expensive AI-chip stock by multiple** — a forward P/E of ~25x, below AMD's ~58x and Broadcom's ~38x. The real risk is not a "multiple bubble" but whether the **denominator (the earnings expectation itself)** gets reset by an AI-capex slowdown, customer in-house silicon, and geopolitics.
+**Verdict:** **Neutral / high quality but high expectations (watch).** Like AMD, SK hynix and Bloom, this is a name whose fundamentals are strongly validated but whose price already prices in "the AI super-cycle persists for years." One counter-intuitive fact is worth remembering: NVIDIA is the most expensive company by absolute market cap, yet **not the most expensive AI-chip stock by multiple** — a forward P/E of ~25x, below AMD's ~58x and Broadcom's ~33x. The real risk is not a "multiple bubble" but whether the **denominator (the earnings expectation itself)** gets reset by an AI-capex slowdown, customer in-house silicon, and geopolitics.
 
 **Current market read (as of 2026-06-26):** NVDA last traded around **$195.74**; on ~**24.30B** diluted shares (FY2026 year-end), market cap is ~**$4.76T**, the largest in the world. The 52-week range is ~**$151.49 - $236.54**, leaving the stock ~17% below its 52-week high. Quote sources: [Yahoo Finance NVDA](https://finance.yahoo.com/quote/NVDA/), [CompaniesMarketCap NVDA](https://companiesmarketcap.com/nvidia/marketcap/); financial sources: [NVIDIA Q1 FY2027 press release](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027), [NVIDIA FY2026 results](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026).
 
@@ -24,7 +24,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Price (2026-06-26) | ~$195.74 |
 | Market cap | ~$4.76T (~24.30B shares; world's #1) |
 | 52-week range | $151.49 - $236.54 |
-| Forward P/E (FY2027E) | ~25x (vs AMD ~58x, Broadcom ~38x) |
+| Forward P/E (FY2027E) | ~25x (vs AMD ~58x, Broadcom ~33x) |
 | P/E (FY2026 GAAP) | ~40x ($4.76T / FY2026 net income $120.1B) |
 | EV/TTM Sales | ~18-19x (TTM revenue ~$253B) |
 | Q1 FY2027 revenue | $81.6B (+85% YoY, +20% QoQ) |
@@ -72,7 +72,7 @@ NVIDIA's moat is often reduced to "CUDA lock-in," but it is really three stacked
 Competition comes from two directions with very different threat levels:
 
 - **AMD (head-on GPU competitor):** the MI450/MI400 series is a credible "second source," and public reports indicate Meta may deploy up to 6GW of MI450s (multi-year contract value estimated ~$60B). But the gap is still vast: NVIDIA's FY2026 Data Center revenue was ~$193.7B vs AMD Instinct's estimated ~$7-8B. AMD is gaining, but the absolute gap is still widening. AMD's value is more "a bargaining chip and supply redundancy for hyperscalers" than a near-term disruptor.
-- **Custom ASICs (the deeper structural threat):** hyperscaler in-house silicon is the more fundamental erosion of NVIDIA's share and pricing power. As design partner, Broadcom's AI ASIC revenue reportedly topped $20B in FY2025, behind Google TPU, Meta MTIA, Microsoft Maia, and OpenAI / Anthropic in-house accelerator programs. Treat this as a public-reporting / industry-breakdown data point, not a fully company-confirmed customer disclosure; it should be reconciled to Broadcom's official disclosures at the next review. The logic is direct: for relatively fixed inference workloads, hyperscalers are motivated to replace general-purpose GPUs with cheaper, more power-efficient dedicated chips and reinvest the savings in more compute.
+- **Custom ASICs (the deeper structural threat):** hyperscaler in-house silicon is the more fundamental erosion of NVIDIA's share and pricing power. As design partner, Broadcom's AI ASIC revenue reportedly topped $20B in its FY2025 (Broadcom's fiscal year ended Nov 2025), behind Google TPU, Meta MTIA, Microsoft Maia, and OpenAI / Anthropic in-house accelerator programs. Treat this as a public-reporting / industry-breakdown data point, not a fully company-confirmed customer disclosure; it should be reconciled to Broadcom's official disclosures at the next review. The logic is direct: for relatively fixed inference workloads, hyperscalers are motivated to replace general-purpose GPUs with cheaper, more power-efficient dedicated chips and reinvest the savings in more compute.
 
 **Key judgment:** NVIDIA's lead in **training** and on the **frontier / fast-evolving workloads** is hard to dislodge near-term; but in **inference** and **mature workloads**, custom ASICs will keep eating incremental share. The question is not whether NVIDIA loses leadership, but **what level its share of the total AI-compute pie settles at** as it falls from near-monopoly.
 
@@ -129,7 +129,7 @@ Founder-CEO **Jensen Huang** has led since 1993 and is one of the most successfu
 1. **Strong demand visibility, growth still accelerating.** Q1 FY2027 +85%, with Q2 guidance of $91B implying further sequential expansion — and that is **ex-China**. New demand layers (sovereign AI, enterprise inference, agentic AI) are still opening.
 2. **A three-layer moat (CUDA + systems + cadence) that no one can replicate full-stack near-term.** Even if share falls from monopoly, expansion of the absolute pie can sustain revenue for years.
 3. **Gross margin back to 75%, strong cash generation.** The $80B buyback + 25x dividend hike are hard signals of FCF durability.
-4. **The multiple is not extreme.** ~25x forward, below AMD (~58x) and Broadcom (~38x). "Most expensive absolute market cap" coexists with "a not-expensive relative multiple" — if earnings deliver, the multiple is supported.
+4. **The multiple is not extreme.** ~25x forward, below AMD (~58x) and Broadcom (~33x). "Most expensive absolute market cap" coexists with "a not-expensive relative multiple" — if earnings deliver, the multiple is supported.
 5. **China is pure optionality.** Guidance already assumes China at zero; any easing of export policy is **pure incremental upside** you don't have to pay for.
 
 ## 6. Bear Case
@@ -137,7 +137,7 @@ Founder-CEO **Jensen Huang** has led since 1993 and is one of the most successfu
 **Core thesis:** at a $4.76T base, any "AI-capex peak/digestion" signal is amplified; the denominator (earnings expectation), not the numerator (the multiple), is the real risk source.
 
 1. **Law of large numbers + the capex cycle.** Data Center revenue is already running above a $300B annual rate; sustaining high growth requires hyperscalers to **raise capex year after year**. If AI investment ROI disappoints or macro tightens, capex peaks before revenue — and NVIDIA is the highest-beta link in that chain.
-2. **Custom ASICs keep eating inference share.** Public reporting indicates Broadcom's FY2025 AI ASIC revenue already topped $20B and that it is involved in multiple hyperscaler in-house programs. Inference is the larger, more standardized workload — exactly the ASIC home turf.
+2. **Custom ASICs keep eating inference share.** Public reporting indicates Broadcom's AI ASIC revenue already topped $20B in its FY2025 (Broadcom fiscal year ended Nov 2025) and that it is involved in multiple hyperscaler in-house programs. Inference is the larger, more standardized workload — exactly the ASIC home turf.
 3. **Structural loss of the China market.** A market once estimated to grow toward ~$50B has had the door shut, and geopolitical risk is two-sided (accelerating China domestic substitution + reversible U.S. policy).
 4. **"Circular financing" concerns.** Public reports indicate NVIDIA has built large equity-investment or commitment exposure to AI ecosystem partners / potential customers (incl. OpenAI, CoreWeave, etc.), while Q1 GAAP profit includes a $15.9B net gain from equity securities. The structure is being compared to dot-com-era "vendor financing" — if AI private valuations pull back, it creates a double hit of "investment write-downs + slowing end demand."
 5. **Expectations are very high, error tolerance very low.** The market has priced in years of high growth. A single quarter's guidance miss, or one hyperscaler cutting capex, could trigger a sharp valuation reset (see the same-cycle lesson of Salesforce being "narrative-repriced").
@@ -159,7 +159,7 @@ Founder-CEO **Jensen Huang** has led since 1993 and is one of the most successfu
 
 > The following is valuation "context," not a price target or a buy/sell recommendation.
 
-- **Forward P/E ~25x (FY2027E, Non-GAAP basis):** the most counter-intuitive part of NVIDIA's valuation — as the world's largest company, its forward multiple is **below** AMD (~58x) and Broadcom (~38x). On +85% growth, the PEG framing is not expensive. Note that this is a Non-GAAP consensus estimate; GAAP earnings include large equity mark-ups ($15.9B in Q1 FY2027 alone) that artificially depress the multiple — Non-GAAP is the correct basis here. Also note that the comparison to AMD's ~58x is across very different earnings bases: NVIDIA at 25x sits on a ~$300B+ annualized revenue / $120B+ net income base, while AMD at 58x is priced on earnings that are just inflecting from a much lower base; direct comparison requires this context.
+- **Forward P/E ~25x (FY2027E, Non-GAAP basis):** the most counter-intuitive part of NVIDIA's valuation — as the world's largest company, its forward multiple is **below** AMD (~58x) and Broadcom (~33x). On +85% growth, the PEG framing is not expensive. Note that this is a Non-GAAP consensus estimate; GAAP earnings include large equity mark-ups ($15.9B in Q1 FY2027 alone) that artificially depress the multiple — Non-GAAP is the correct basis here. Also note that the comparison to AMD's ~58x is across very different earnings bases: NVIDIA at 25x sits on a ~$300B+ annualized revenue / $120B+ net income base, while AMD at 58x is priced on earnings that are just inflecting from a much lower base; direct comparison requires this context.
 - **FY2026 GAAP P/E ~40x:** based on $4.76T market cap / $120.1B FY2026 net income. Note that from Q1 FY2027 GAAP net income includes large equity mark-ups, which will distort trailing GAAP P/E lower thereafter — use non-GAAP operating earnings instead.
 - **EV/TTM Sales ~18-19x:** TTM revenue ~$253B (FY2026 $215.9B − Q1 FY26 ~$44B + Q1 FY27 $81.6B); EV ~$4.72T (market cap − ~$42B net cash).
 - **Reading the multiple:** NVIDIA's valuation risk is **not the multiple itself** but the **earnings-expectation denominator** the multiple implies. If the AI super-cycle runs another 2-3 years, the current multiple is low; if capex peaks within 12-18 months, the "high growth" assumption behind a 25x forward P/E gets reset quickly, and multiple and earnings contract together.
@@ -209,6 +209,6 @@ Consistent with this center's stance on AMD, SK hynix and Bloom, **we assign a n
 **Key assumptions & basis:**
 - Market cap estimated at ~24.30B shares × $195.74; different sources put market cap in the ~$4.7-5.0T range depending on date and methodology.
 - TTM revenue ≈ FY2026 $215.9B − Q1 FY26 ~$44B + Q1 FY27 $81.6B ≈ $253B; EV nets out ~$42B of net cash.
-- Forward P/E ~25x, AMD ~58x, Broadcom ~38x reflect a mid-2026 (~May) market read and move with price and expectations.
+- Forward P/E ~25x, AMD ~58x, Broadcom ~33x reflect a mid-2026 (~May) market read and move with price and expectations.
 - Figures labeled FY2026 / Q1 FY2027 are company-reported; competitor figures are public-reporting estimates and should be reconciled to the latest 10-Q/results at the next review.
 - This report is **initial coverage**; it includes no prior-cycle comparison. Refresh price, guidance and valuation anchors once subsequent quarters are disclosed.
