@@ -58,7 +58,7 @@ GE Vernova is a global leader in power equipment and electrification, spanning t
 
 **The business model:** GE Vernova sells the full set of equipment + long-term service contracts to move electricity "from generation to the data center's door." Within that, **services (maintenance/upgrades of the installed base)** are high-margin, long-cycle stable cash flow, while **equipment (new units)** rides the current super-cycle. The scarcity of slots (production capacity windows) gives it strong pricing power — customers queue to reserve gas-turbine capacity years out.
 
-**Wind in context:** The Wind segment's Q1 EBITDA loss of -$382M annualizes to roughly **-$1.5B** — set against FY2026E consolidated adjusted EBITDA of ~$5.85B (guidance midpoint), Wind is currently consuming about **25%** of the company's potential operating profit. This is the single largest headwind to the margin-ramp thesis; any improvement (divestiture, restructuring, or a recovery in offshore wind economics) would directly lift consolidated margins.
+**Wind in context:** The Wind segment posted a Q1 segment EBITDA loss of -$382M, already very close to the FY2026 full-year Wind segment EBITDA loss guidance of approximately -$400M — one quarter nearly exhausts the annual guide, which implies management expects material H2 improvement. Wind remains the largest headwind to the margin-ramp thesis; the key verification point is whether that H2 improvement materializes. Any upside surprise (divestiture, restructuring, or a recovery in offshore wind economics) would directly lift consolidated margins.
 
 **Full-year FY2025:** revenue $38.1B (+9%), adjusted EBITDA $3.2B (8.4% margin), FCF $3.7B, cash $8.8B. By Q1 2026, cash had increased to $10.2B while the company issued $2.6B of senior notes partly to finance Prolec GE. Margins are still at a low base — exactly the starting point of the "margin ramp" story.
 
@@ -150,7 +150,14 @@ CEO **Scott Strazik** has led since the spin-off, and management's post-spin exe
 
 > The following is valuation "context," not a price target or a buy/sell recommendation.
 
-- **EV/2026E adjusted EBITDA ~45-48x:** on FY2026 guidance (revenue ~$45B × 13% margin ≈ $5.85B adjusted EBITDA), EV is roughly ~$276B (market cap − ~$7.6B rough net cash). This is a **rich multiple on current EBITDA**, justified only when the multi-year margin ramp and backlog growth are counted in. For context, even AI-adjacent industrial peers trade at materially lower multiples —<br>*Note: consensus FY2026E Adj EBITDA multiples, as of 2026-06 (Bloomberg/Koyfin); directional reference only, figures may differ across sources/dates:*<br>  - Eaton (ETN) ~30-35x FY2026E Adj EBITDA<br>  - Siemens Energy (ENR.DE) ~15-20x FY2026E Adj EBITDA; GEV's premium is the market's bet on an electricity super-cycle that more than doubles margins from the current ~9.6% base.
+- **EV/2026E adjusted EBITDA ~45-48x:** on FY2026 guidance (revenue ~$45B × 13% margin ≈ $5.85B adjusted EBITDA), EV is roughly ~$276B (market cap − ~$7.6B rough net cash). This is a **rich multiple on current EBITDA**, justified only when the multi-year margin ramp and backlog growth are counted in. For context, even AI-adjacent industrial peers trade at materially lower multiples:
+
+| Peer | FY2026E Adj EBITDA Multiple | Source / Date | Note |
+|---|---|---|---|
+| Eaton (ETN) | ~30-35x | Bloomberg / Koyfin, 2026-06 | Consensus; directional only |
+| Siemens Energy (ENR.DE) | ~15-20x | Bloomberg / Koyfin, 2026-06 | Consensus; directional only |
+
+GEV's premium is the market's bet on an electricity super-cycle that more than doubles margins from the current ~9.6% base.
 - **Forward P/E highly dispersed (~40-70x):** because earnings are inflecting fast from a low base, the denominator (forward EPS) is itself widely estimated, so P/E alone is of limited use.
 - **Reading the multiple:** isomorphic with the AI chip stocks — GE Vernova's valuation risk is not "insufficient orders" but whether the **denominator (margin ramp + backlog conversion) delivers on schedule**. The difference from NVIDIA/Broadcom: its cycle is longer and more lagged and its balance sheet cleaner (net cash), but its current earnings base is lower and it depends more heavily on "the ramp delivering."
 
