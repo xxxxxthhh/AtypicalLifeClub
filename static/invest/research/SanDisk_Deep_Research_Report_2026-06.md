@@ -15,18 +15,18 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 **Verdict:** **Neutral / high cyclicality, high expectations (watch).** SanDisk's execution in the NAND up-cycle is extraordinary, and the AI-driven storage demand story has clear, quantifiable tailwinds (Datacenter revenue +233% Q/Q). But the core tension is that a **$310B market cap on ~$19B FY2026E revenue (~16x P/S) already prices in sustained peak margins** — and NAND pricing is historically boom-bust. The risk is not "is AI storage demand real" but "what happens when NAND supply catches up and margins normalize from 78%."
 
-**Current market read (as of 2026-06-27):** SNDK traded at ~**$2,091** recently; on ~**157M** diluted shares (per Q3 FY2026 filing), implied market cap is ~**$310B**, ranking it ~#51 globally. The 52-week range is ~**$40.10 - $2,354.39** — an extreme range reflecting the post-spin re-rating from a single-digit reference price to a ~$300B+ AI beneficiary. Financial source: [SanDisk Q3 FY2026 8-K](https://www.sec.gov/Archives/edgar/data/2023554/000162828026028879/sndkq3-26ex991xpressrelease.htm); quote references: [CompaniesMarketCap SNDK](https://companiesmarketcap.com/sandisk/marketcap/), [Yahoo Finance SNDK](https://finance.yahoo.com/quote/SNDK/).
+**Current market read (as of 2026-06-27):** SNDK traded around ~**$2,091-2,110** (intraday ~$2,063-2,256 on 2026-06-27); on ~**148M shares outstanding**, market cap is ~**$310B**, and it touched ~**$346B** at the June 25 all-time-high close of ~$2,335 — ranking SanDisk among the ~50 largest companies globally. (The diluted share count is ~**157M**, the basis for per-share earnings; market cap is computed on the lower outstanding-share count.) The 52-week range is ~**$40.10 - $2,354.39** — an extreme range reflecting the post-spin re-rating from a single-digit reference price to a ~$300B+ AI beneficiary. Financial source: [SanDisk Q3 FY2026 8-K](https://www.sec.gov/Archives/edgar/data/2023554/000162828026028879/sndkq3-26ex991xpressrelease.htm); quote references: [CompaniesMarketCap SNDK](https://companiesmarketcap.com/sandisk/marketcap/), [Yahoo Finance SNDK](https://finance.yahoo.com/quote/SNDK/).
 
 **Key data:**
 
 | Metric | Value |
 |--------|-------|
-| Price (late June 2026) | ~$1,970-2,090 |
+| Price (2026-06-27) | ~$2,091-2,110 (intraday $2,063-2,256) |
 | Market cap | ~$309.6B |
-| Diluted shares | ~157M (Q3 FY2026 filing, Apr 3); ~158M guided for Q4 |
+| Diluted shares | ~157M (EPS basis, Q3 FY2026); ~148M shares outstanding (market-cap basis); ~158M guided for Q4 |
 | EV/Sales (FY2026E) | ~16x (FY2026E revenue ~$19.0-19.5B; zero debt) |
 | FY2026E P/S | ~16x |
-| TTM P/E (GAAP) | ~50-55x (TTM net income ~$5.6-6.0B est.) |
+| TTM P/E (GAAP) | ~65-70x (9-mo FY2026 net income $4.53B: Q1 $112M + Q2 $803M + Q3 $3,615M) |
 | Q3 FY2026 revenue | $5.95B (+97% Q/Q, +251% Y/Y) |
 | Q3 FY2026 Datacenter | $1.47B (+233% Q/Q, +645% Y/Y) |
 | Q3 FY2026 Edge | $3.66B (+118% Q/Q) |
@@ -42,6 +42,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Shareholders' equity | $13.78B |
 | YTD (9mo) revenue | $11.28B; YTD non-GAAP EPS $31.32 |
 | Q4 FY2026 guidance | revenue $7.75-8.25B, non-GAAP EPS $30-33, GM 79-81% |
+| Long-term supply backlog (NBM) | ~$42B min. contracted revenue, 5 deals, up to 5-yr; ~$11B financial guarantees; >1/3 of FY2027 bit shipments |
+| Share repurchase authorization | $6.0B (Board-approved, Q3 FY2026) |
 | Primary competitors | Samsung, SK hynix (Solidigm), Micron, Kioxia |
 | CEO | David Goeckeler |
 
@@ -75,11 +77,13 @@ The global NAND flash market is controlled by five major players:
 
 **All five share one characteristic: NAND is brutally cyclical.** Fab capacity takes 2-3 years to build and comes online in large chunks. Demand surges (AI, smartphones, PCs) drive prices up; capacity overshoots drive them down. SanDisk's Q3 FY2026 margins (78.4% gross, 69.1% operating) are extraordinary — and historically, margins at these levels attract capacity expansion that eventually breaks the cycle.
 
-### 2.2 The AI storage thesis: real, quantified, but not structural
+### 2.2 The AI storage thesis: real, quantified, and now partly contracted
 
-SanDisk's Q3 FY2026 Datacenter results validate the AI storage thesis in hard numbers: $1.47B in a single quarter, up 233% sequentially, growing 6.5x year-over-year. Hyperscalers are building AI infrastructure at unprecedented scale, and storage is a companion investment alongside compute. Three "New Business Model" (NBM) agreements signed in Q3 with two more in Q4 further validate enterprise demand visibility.
+SanDisk's Q3 FY2026 Datacenter results validate the AI storage thesis in hard numbers: $1.47B in a single quarter, up 233% sequentially, growing 6.5x year-over-year. Hyperscalers are building AI infrastructure at unprecedented scale, and storage is a companion investment alongside compute.
 
-But NAND's historical cyclicality has not been structurally broken. AI creates a **higher demand floor**, but all five NAND players are adding capacity. The question is whether AI demand growth outruns capacity additions, or whether 78% gross margins are the peak of the cycle.
+**The $42B long-term backlog — NAND's attempt to de-cyclicalize.** The quarter's most consequential development is structural, not merely cyclical: SanDisk has signed five **New Business Model (NBM)** agreements with hyperscale customers (three in Q3, two in early Q4) carrying a **minimum ~$42B of contracted revenue over terms of up to five years**, backed by **~$11B of third-party financial guarantees** (with ~$400M of prepayments already on the Q3 balance sheet; a missed quarterly purchase commitment triggers the guarantee). Management says these deals will cover **more than one-third of FY2027 bit shipments**, with an ambition to exceed 50%; near-term contract pricing is mostly fixed while longer-dated tranches are more variable (CFO Luis Visoso). This is an explicit attempt to break the historical NAND pattern — in which multi-year fab investment collides with quarterly spot pricing — by converting a slice of output into contracted, guarantee-backed revenue. If it holds, it raises the trough of the next down-cycle.
+
+But the cycle is dampened, not abolished. Even at the >50% ambition, roughly half of volume still marks to spot; the $11B of guarantees is a fraction of the $42B backlog; and all five NAND players are adding capacity. The question is whether AI demand growth plus contracted backlog outruns capacity additions, or whether 78% gross margins are simply the peak of this cycle.
 
 ### 2.3 Competitive dynamics: SanDisk's position
 
@@ -120,7 +124,7 @@ This is a "peak of the cycle" print. Revenue nearly doubled sequentially as NAND
 - **Total debt: $0** — the company paid off all $1.9B of legacy debt post-spin. CEO David Goeckeler: "zero-debt balance sheet."
 - **Shareholders' equity: $13.78B.**
 
-The balance sheet is a competitive advantage — in a capital-intensive, cyclical industry, zero debt means no refinancing risk and full capacity to invest through the cycle. The company has also authorized a share repurchase program.
+The balance sheet is a competitive advantage — in a capital-intensive, cyclical industry, zero debt means no refinancing risk and full capacity to invest through the cycle. The Board also authorized a **$6.0B share repurchase program** in Q3 FY2026.
 
 ### 3.3 Guidance implies the cycle is still accelerating
 
@@ -141,7 +145,7 @@ Q4 guidance at $7.75-8.25B implies another ~30-39% sequential revenue growth and
 
 - **Spin-off execution:** paid off all legacy debt, established zero-debt balance sheet, extended Kioxia JV to 2034 — clean execution.
 - **Strategic pivot to Datacenter:** management has explicitly shifted toward "highest-value end markets, led by Datacenter," validated by 233% Q/Q Datacenter growth and NBM agreements.
-- **Capital allocation:** authorized share repurchase program; balancing growth investment with shareholder returns from a zero-debt position.
+- **Capital allocation:** authorized a **$6.0B share repurchase program**; balancing growth investment with shareholder returns from a zero-debt position.
 - **JV governance with Kioxia:** the manufacturing JV extended through 2034 provides long-term supply visibility but requires partner alignment on capacity expansion decisions.
 
 **Management grade: A- (excellent post-spin execution, strategic pivot to Datacenter, fortress balance sheet; capital allocation through the cycle and JV governance remain to be proven over a full cycle).**
@@ -152,7 +156,7 @@ Q4 guidance at $7.75-8.25B implies another ~30-39% sequential revenue growth and
 
 **Core thesis:** AI data centers are generating a structural step-change in storage demand, and SanDisk — as the largest pure-play NAND company with a zero-debt balance sheet — is delivering peak-cycle earnings that may prove more durable than prior NAND cycles.
 
-1. **AI storage demand is quantified and accelerating.** Datacenter revenue +233% Q/Q, +645% Y/Y; three NBM agreements signed in Q3 with two more in Q4 — visibility is strong.
+1. **AI storage demand is quantified, contracted, and accelerating.** Datacenter revenue +233% Q/Q, +645% Y/Y; the five NBM agreements lock in a **~$42B minimum-revenue backlog (up to 5-yr) backed by ~$11B of guarantees**, covering >1/3 of FY2027 shipments — demand visibility no prior NAND cycle had (see §2.2).
 2. **Margins are at software-company levels.** 78.4% gross margin, 69.1% operating margin, $3.0B quarterly FCF — if AI demand extends the cycle, these margins can persist longer than skeptics expect.
 3. **Zero debt, massive cash generation.** $3.74B cash, no debt, $3.0B quarterly FCF — SanDisk can fund growth, buybacks, and dividends simultaneously.
 4. **JV with Kioxia provides structural cost advantage.** Shared fab investment means capex is just 0.8% of revenue in Q3 ($45M on $5.95B).
@@ -164,7 +168,7 @@ Q4 guidance at $7.75-8.25B implies another ~30-39% sequential revenue growth and
 
 **Core thesis:** NAND is cyclical, and at $310B on peak-cycle earnings, the stock is priced for margins that history says will mean-revert — when they do, the downside from peak-cycle multiples is severe.
 
-1. **78-80% gross margins are unsustainable.** Every prior NAND cycle has seen margins revert sharply as capacity comes online. At peak-cycle margins, even a normalization to 50-55% gross margin (still excellent by historical standards) would cut earnings significantly.
+1. **78-80% gross margins are unsustainable.** Every prior NAND cycle has seen margins revert sharply as capacity comes online. At peak-cycle margins, even a normalization to 50-55% gross margin (still excellent by historical standards) would cut earnings significantly. The $42B NBM backlog softens but does not remove this: it covers only ~1/3 of FY2027 volume (longer-dated tranches are variable-priced), so the majority of NAND output still marks to spot as ASPs roll over.
 2. **No full-year guidance — only one quarter at a time.** Management provided Q4 guidance but no FY2027 outlook. The lack of visibility beyond one quarter in a cyclical industry is a risk.
 3. **No DRAM buffer.** When NAND prices fall, SanDisk has no other memory product to offset — unlike Samsung, SK hynix, and Micron.
 4. **JV dependency limits autonomy in capacity decisions.** Major fab investments require Kioxia alignment; Kioxia's own strategic priorities (potential IPO, Japanese government interests) may not always align with SanDisk shareholders.
@@ -192,9 +196,9 @@ Q4 guidance at $7.75-8.25B implies another ~30-39% sequential revenue growth and
 > The following is valuation "context," not a price target or a buy/sell recommendation.
 
 - **FY2026E P/S ~16x:** market cap ~$309.6B / FY2026E revenue ~$19.0-19.5B (YTD $11.28B + Q4 guidance $7.75-8.25B). For context: NVIDIA ~19x on ~$253B TTM revenue, Broadcom ~24x on ~$75B TTM revenue. SanDisk at 16x P/S on $19B revenue is priced between these AI chip leaders — despite being in a more cyclical, lower-moat industry. Note that the 16x is on **peak-cycle** revenue; in a NAND down-cycle, revenue can contract 20-40%, and P/S on normalized revenue would be substantially higher.
-- **TTM P/E ~50-55x (GAAP, estimated):** based on TTM net income of approximately $5.6-6.0B (estimated from YTD $3,615M Q3 + prior quarters). By comparison, NVIDIA trades at ~25x forward, Broadcom at ~33x — SanDisk's earnings multiple is 1.5-2x higher despite far greater cyclicality. However, on a **forward** basis (if Q4 annualized: $30-33 EPS × 4 ≈ $120-132), the forward P/E drops to ~15-16x — explaining the bull case. The bear case is that the forward estimate rests on peak-cycle EPS that will not annualize.
+- **TTM P/E ~65-70x (GAAP):** 9-month FY2026 GAAP net income was **$4.53B** (Q1 $112M + Q2 $803M + Q3 $3,615M), so TTM net income is ~$4.5-4.8B and the trailing P/E on ~$310B market cap is ~65-70x (and ~73x against the late-June high). By comparison, NVIDIA trades at ~25x forward and Broadcom at ~33x — SanDisk's *trailing* multiple is ~2x+ higher, though largely because the cycle just inflected and the back quarters were trough earnings. However, on a **forward** basis (if Q4 annualized: $30-33 EPS × 4 ≈ $120-132), the forward P/E drops to ~15-16x — explaining the bull case. The bear case is that the forward estimate rests on peak-cycle EPS that will not annualize.
 - **EV/Sales ~16x:** with zero debt and $3.74B cash, EV is ~$306B — essentially market cap. EV-based multiples mirror equity-based ones.
-- **Reading the multiple:** SanDisk's valuation is a pure bet on **NAND cycle duration.** At 16x peak-cycle P/S and ~15-16x annualized forward P/E, the stock looks reasonable — but only if current earnings are sustainable. If margins normalize to mid-cycle levels, both the multiple and earnings contract — the classic commodity-cycle double compression. The bull case is that AI structurally extends the cycle; the bear case is that history repeats.
+- **Reading the multiple:** SanDisk's valuation is largely a bet on **NAND cycle duration.** At 16x peak-cycle P/S and ~15-16x annualized forward P/E, the stock looks reasonable — but only if current earnings are sustainable. If margins normalize to mid-cycle levels, both the multiple and earnings contract — the classic commodity-cycle double compression. The new variable is the **$42B NBM backlog**: if contracted, guarantee-backed revenue genuinely raises the cycle trough, the double compression is partially capped; if it merely re-times the same cyclical revenue, the bear math holds. The bull case is that AI plus contracts structurally extend the cycle; the bear case is that history repeats.
 
 **Scenario framing (illustrative, not a forecast):**
 - **Base (~50%):** NAND up-cycle extends through FY2027, AI storage demand continues, margins gradually ease from 78-80% toward 60-65% — still well above mid-cycle. The stock's P/S compresses toward 10-12x as growth decelerates; the stock tracks earnings with declining beta.
@@ -231,7 +235,7 @@ SanDisk has delivered one of the most extraordinary quarterly prints in semicond
 
 **The numbers are extraordinary — which is precisely the risk.** 78-80% gross margins in NAND flash are not a new structural plateau; they are a signal of where we are in the cycle. Every prior NAND cycle has seen margins at these levels attract capacity expansion that eventually breaks the cycle. The question is not whether SanDisk is an exceptional operator (it is), but whether the market is pricing in "peak margins forever" or "peak margins for a while."
 
-At ~16x FY2026E P/S and an annualized forward P/E of ~15-16x, the stock does not screen as obviously overvalued — if the cycle extends into FY2027. But on any normalized mid-cycle basis, both revenue and margins are substantially lower, and the valuation on normalized earnings is far more demanding. The bet is a timing bet on the NAND cycle, not a quality bet on the company.
+At ~16x FY2026E P/S and an annualized forward P/E of ~15-16x, the stock does not screen as obviously overvalued — if the cycle extends into FY2027. But on any normalized mid-cycle basis, both revenue and margins are substantially lower, and the valuation on normalized earnings is far more demanding. The $42B NBM backlog is the bull's strongest structural card — contracted, guarantee-backed revenue that could raise the cycle trough — but it still covers only ~1/3 of FY2027 volume, so the bet remains largely a timing bet on the NAND cycle, not yet a quality bet on a de-cyclicalized company.
 
 Consistent with this center's stance on NVIDIA, Broadcom, GE Vernova, and Bloom Energy — "high quality but high expectations" — **we assign a neutral / high-cyclicality, high-expectations (watch) view**: bullish on the AI storage demand theme and SanDisk's execution with medium conviction; neutral on near-term entry given the extreme cyclicality of NAND and a valuation that, while not extreme on peak earnings, embeds significant cycle-duration risk. This fills the "NAND storage" coverage gap — only by putting compute (NVIDIA/Broadcom), power (GE Vernova/Bloom), and storage (SanDisk) in one frame can the complete AI infrastructure chain be assessed.
 
@@ -242,14 +246,15 @@ Consistent with this center's stance on NVIDIA, Broadcom, GE Vernova, and Bloom 
 **Primary sources:**
 - [SanDisk Q3 FY2026 8-K / Press Release (SEC)](https://www.sec.gov/Archives/edgar/data/2023554/000162828026028879/sndkq3-26ex991xpressrelease.htm) — quarter ended April 3, 2026, reported April 30, 2026
 - [SanDisk Q3 FY2026 earnings release (IR site)](https://investor.sandisk.com/news-releases/news-release-details/sandisk-reports-fiscal-third-quarter-2026-financial-results)
+- SanDisk Q3 FY2026 earnings call & 8-K — $6.0B buyback authorization; the ~$42B NBM long-term supply backlog, ~$11B financial guarantees, and >1/3 FY2027 bit-shipment coverage (management commentary)
 - Market cap reference: [CompaniesMarketCap SNDK](https://companiesmarketcap.com/sandisk/marketcap/), [Yahoo Finance SNDK](https://finance.yahoo.com/quote/SNDK/)
 - Company/product information: [SanDisk official website](https://www.sandisk.com/)
 - Spin-off background: SEC filings, public reporting on Western Digital's 2023 spin-off announcement and February 2025 completion
 
 **Key assumptions & basis:**
-- Market cap ~$309.6B per CompaniesMarketCap (late June 2026); diluted shares ~157M per Q3 FY2026 filing (April 3, 2026), ~158M guided for Q4. Implied price ~$1,970; actual quoted price may differ intraday.
+- Market cap ~$309.6B per CompaniesMarketCap (late June 2026) ≈ ~148M shares outstanding × ~$2,091; it reached ~$346B at the June 25 all-time-high close (~$2,335). Diluted share count ~157M is the per-share-earnings basis ($3,615M ÷ $23.03); ~158M guided for Q4.
 - FY2026E revenue ~$19.0-19.5B = YTD 9-month $11,283M + Q4 guidance midpoint ~$8,000M. FY2026E P/S ~16x.
-- TTM net income estimated at ~$5.6-6.0B (Q3 $3,615M + estimated Q1-Q2 TTM contribution); reconcile to official TTM disclosure at next review.
+- 9-month FY2026 GAAP net income $4.53B (Q1 $112M + Q2 $803M + Q3 $3,615M); TTM net income ~$4.5-4.8B including Q4 FY2025. Trailing GAAP P/E ~65-70x; the back quarters were trough earnings, so the trailing multiple overstates run-rate profitability.
 - Forward P/E (annualized Q4) = $30-33 EPS × 4 ≈ $120-132; at $309.6B / 157M shares = ~$1,972 price, forward P/E ≈ 15-16x. This is an illustrative annualization, not a forecast.
-- Q3 FY2026 segment data, margins, cash flow, and balance sheet figures are directly from the April 30, 2026 8-K Exhibit 99.1.
+- Q3 FY2026 segment data, margins, cash flow, and balance sheet figures are directly from the April 30, 2026 8-K Exhibit 99.1. The $6.0B buyback is Board-authorized per the 8-K; the ~$42B NBM backlog, ~$11B guarantees, and >1/3 FY2027 coverage are management's Q3 FY2026 earnings-call disclosures (not financial-statement line items) and should be reconciled as contracts are filed.
 - This report is **initial coverage**; it includes no prior-cycle standalone comparison. Refresh price, guidance, and valuation anchors once Q4 FY2026 results and FY2027 guidance are disclosed.
