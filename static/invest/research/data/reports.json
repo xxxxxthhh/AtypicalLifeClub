@@ -94,6 +94,38 @@
     ]
   },
   {
+    "id": "sandisk-2026",
+    "company": "SanDisk",
+    "ticker": "NASDAQ: SNDK",
+    "title": "SanDisk 深度研究报告 - NAND寡头格局中的AI存储周期暴露",
+    "titleEn": "SanDisk Deep Research Report - AI Storage Cycle Exposure in the NAND Oligopoly",
+    "summary": "Q3 FY2026营收$59.5亿（+97% Q/Q），数据中心$14.67亿（+233% Q/Q），GAAP毛利率78.4%、营业利润率69.1%、GAAP EPS $23.03，FCF单季$29.9亿，零债务。Q4指引营收$77.5-82.5亿、Non-GAAP EPS $30-33、毛利率79-81%。FY2026E P/S约16倍，但NAND是半导体中周期性最强的子行业之一，78-80%的顶峰毛利率不可持续，周期转向时盈利与估值双向收缩。",
+    "tags": [
+      "NAND闪存",
+      "AI存储",
+      "数据中心SSD",
+      "半导体周期"
+    ],
+    "category": "tech",
+    "date": "2026-06-27",
+    "lastUpdate": "2026-06-27",
+    "file": "/invest/research/reports/view.html?id=sandisk-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/SanDisk_深度研究报告_2026-06.md",
+      "en": "/invest/research/SanDisk_Deep_Research_Report_2026-06.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "全球最大纯NAND闪存公司，2025年初从WDC分拆独立，市值约$3,096亿",
+      "Q3 FY2026营收$59.5亿（+97% Q/Q），数据中心$14.67亿（+233% Q/Q），GAAP毛利率78.4%、营业利润率69.1%、EPS $23.03，FCF $29.9亿，零负债。Q4指引营收$77.5-82.5亿、Non-GAAP EPS $30-33、毛利率79-81%。约16倍FY2026E P/S，但NAND周期性极强，78%+毛利率不可持续",
+      "NAND上行周期+AI数据中心存储需求双重驱动，零负债、单季FCF $29.9亿",
+      "核心风险：NAND周期性极强，78%+顶峰毛利率不可持续；周期转向时盈利与估值双向收缩"
+    ],
+    "summaryEn": "Q3 FY2026 revenue $5.95B (+97% Q/Q), Datacenter $1.47B (+233% Q/Q), GAAP GM 78.4%, OM 69.1%, GAAP EPS $23.03, FCF $2.99B, zero debt. Q4 guidance $7.75-8.25B, Non-GAAP EPS $30-33, GM 79-81%. ~16x FY2026E P/S, but NAND is one of the most cyclical semiconductor sub-sectors — 78-80% peak margins are unsustainable and cycle turns see both earnings and multiples contract."
+  },
+  {
     "id": "tempus-ai-2026",
     "company": "Tempus AI",
     "ticker": "NASDAQ: TEM",
