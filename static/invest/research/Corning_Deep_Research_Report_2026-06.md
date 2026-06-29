@@ -1,7 +1,7 @@
 # Corning (GLW) Deep Research Report
 
 Coverage date: 2026-06-29
-Last updated: 2026-06-29
+Last updated: 2026-06-30
 Ticker: NYSE: GLW
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence. All prices and market caps are point-in-time snapshots; financial figures are per company disclosure unless noted otherwise.
 
@@ -15,13 +15,13 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 **Verdict:** **Neutral / high-quality franchise, high expectations (watch).** The AI-optical demand is real, contracted, and partly customer-funded — a genuinely differentiated setup. But the stock has re-rated ~4x off its 52-week low to ~**$221** (~**$190B** market cap, ~**71x** 2026E core EPS), and the sell-side average price target actually sits **below** the market price. The question is not whether AI optical demand is real (it is) but how much of a multi-year, flawless-execution Springboard ramp is already in the price.
 
-**Current market read (latest market-data snapshot, ~2026-06-28, reflecting the prior trading session):** GLW was last quoted around ~**$221** (Google Finance; 52-week range **$51.32 - $230.50** — an ~4x re-rating on the AI-optical theme). Market cap ~**$190B**; with ~$9.0B total debt and ~$1.8B cash (net debt ~$7.2B), enterprise value is ~**$197B**. Dividend ~$0.28/quarter (~0.5% yield). Financial source: [Corning Q1 2026 results (IR)](https://investor.corning.com/financials/quarterly-results/default.aspx); quote references: [Yahoo Finance GLW](https://finance.yahoo.com/quote/GLW/), [Google Finance GLW](https://www.google.com/finance/beta/quote/GLW:NYSE).
+**Current market read (market-data snapshot pulled 2026-06-28, reflecting the 2026-06-26 U.S. close — 06-27/06-28 were a weekend):** GLW was last quoted around ~**$221** (Google Finance; 52-week range **$51.32 - $230.50** — an ~4x re-rating on the AI-optical theme). Market cap ~**$190B**; with ~$9.0B total debt and ~$1.8B cash (net debt ~$7.2B), enterprise value is ~**$197B**. Dividend ~$0.28/quarter (~0.5% yield). Financial source: [Corning Q1 2026 results (IR)](https://investor.corning.com/financials/quarterly-results/default.aspx); quote references: [Yahoo Finance GLW](https://finance.yahoo.com/quote/GLW/), [Google Finance GLW](https://www.google.com/finance/beta/quote/GLW:NYSE).
 
 **Key data:**
 
 | Metric | Value |
 |--------|-------|
-| Price (latest snapshot, ~2026-06-28; prior trading session) | ~$221 (Google Finance) |
+| Price (snapshot 2026-06-28 = 2026-06-26 U.S. close) | ~$221 (Google Finance) |
 | 52-week range | $51.32 - $230.50 |
 | Market cap | ~$190B |
 | Net debt / EV | ~$7.2B net debt ($9.0B debt − $1.8B cash); EV ~$197B |
@@ -241,7 +241,7 @@ Consistent with this center's stance on NVIDIA, Broadcom, GE Vernova, Bloom Ener
 - Quote references: [Yahoo Finance GLW](https://finance.yahoo.com/quote/GLW/), [Google Finance GLW](https://www.google.com/finance/beta/quote/GLW:NYSE)
 
 **Key assumptions & basis:**
-- Price ~$221 (Google Finance, ~2026-06-28 snapshot reflecting the prior trading session) and 52-week range $51.32-$230.50; market cap ~$190B. Actual quoted price may differ intraday.
+- Price ~$221 (Google Finance snapshot pulled 2026-06-28, a weekend, reflecting the 2026-06-26 U.S. close) and 52-week range $51.32-$230.50; market cap ~$190B. Actual quoted price may differ intraday.
 - Q1 2026 (quarter ended March 31, 2026): core sales $4,345M, GAAP net sales $4,144M; segment, margin, EPS, cash-flow and balance-sheet figures per Corning's Q1 2026 disclosure. Segments reflect the **Q1 2026 restructuring** into five reportable segments (Optical Communications, Glass Innovations, Automotive, Solar, Life Sciences & Emerging Growth).
 - Core vs GAAP: Corning reports "core" measures (which adjust for currency hedging, restructuring and certain non-cash/one-time items) alongside GAAP; Q1 2026 core EPS $0.70 vs GAAP EPS $0.43.
 - Forward P/E uses consensus core EPS ~$3.12 (2026E) and ~$3.86 (2027E); EV/Sales uses consensus core revenue ~$16.1B (2026E) and ~$18.0B (2027E). Net debt ~$7.2B = ~$9.0B total debt − ~$1.8B cash → EV ~$197B.
