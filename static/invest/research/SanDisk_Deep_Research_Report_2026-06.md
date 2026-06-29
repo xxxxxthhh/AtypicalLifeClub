@@ -1,7 +1,7 @@
 # SanDisk (SNDK) Deep Research Report
 
 Coverage date: 2026-06-27
-Last updated: 2026-06-27
+Last updated: 2026-06-29
 Ticker: NASDAQ: SNDK
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence. All prices and market caps are point-in-time snapshots; financial figures are per company disclosure unless noted otherwise.
 
@@ -15,13 +15,13 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 **Verdict:** **Neutral / high cyclicality, high expectations (watch).** SanDisk's execution in the NAND up-cycle is extraordinary, and the AI-driven storage demand story has clear, quantifiable tailwinds (Datacenter revenue +233% Q/Q). But the core tension is that a **$310B market cap on ~$19B FY2026E revenue (~16x P/S) already prices in sustained peak margins** — and NAND pricing is historically boom-bust. The risk is not "is AI storage demand real" but "what happens when NAND supply catches up and margins normalize from 78%."
 
-**Current market read (as of 2026-06-27):** SNDK traded around ~**$2,091-2,110** (intraday ~$2,063-2,256 on 2026-06-27); on ~**148M shares outstanding**, market cap is ~**$310B**, and it touched ~**$346B** at the June 25 all-time-high close of ~$2,335 — ranking SanDisk among the ~50 largest companies globally. (The diluted share count is ~**157M**, the basis for per-share earnings; market cap is computed on the lower outstanding-share count.) The 52-week range is ~**$40.10 - $2,354.39** — an extreme range reflecting the post-spin re-rating from a single-digit reference price to a ~$300B+ AI beneficiary. Financial source: [SanDisk Q3 FY2026 8-K](https://www.sec.gov/Archives/edgar/data/2023554/000162828026028879/sndkq3-26ex991xpressrelease.htm); quote references: [CompaniesMarketCap SNDK](https://companiesmarketcap.com/sandisk/marketcap/), [Yahoo Finance SNDK](https://finance.yahoo.com/quote/SNDK/).
+**Current market read (latest market-data snapshot, ~2026-06-28, reflecting the prior trading session):** SNDK was last quoted around ~**$2,091**, market cap ~**$309.6B** (CompaniesMarketCap); it had set an all-time-high close of ~$2,335 (~$346B) on June 25. Computed on ~**148M shares outstanding**, this ranks SanDisk among the ~50 largest companies globally. (The diluted share count is ~**157M**, the basis for per-share earnings.) The 52-week range is ~**$40.10 - $2,354.39** — an extreme range reflecting the post-spin re-rating from a single-digit reference price to a ~$300B+ AI beneficiary. Financial source: [SanDisk Q3 FY2026 8-K](https://www.sec.gov/Archives/edgar/data/2023554/000162828026028879/sndkq3-26ex991xpressrelease.htm); quote references: [CompaniesMarketCap SNDK](https://companiesmarketcap.com/sandisk/marketcap/), [Yahoo Finance SNDK](https://finance.yahoo.com/quote/SNDK/).
 
 **Key data:**
 
 | Metric | Value |
 |--------|-------|
-| Price (2026-06-27) | ~$2,091-2,110 (intraday $2,063-2,256) |
+| Price (latest snapshot, ~2026-06-28) | ~$2,091 (CompaniesMarketCap; prior trading session) |
 | Market cap | ~$309.6B |
 | Diluted shares | ~157M (EPS basis, Q3 FY2026); ~148M shares outstanding (market-cap basis); ~158M guided for Q4 |
 | EV/Sales (FY2026E) | ~16x (FY2026E revenue ~$19.0-19.5B; zero debt) |
@@ -81,7 +81,7 @@ The global NAND flash market is controlled by five major players:
 
 SanDisk's Q3 FY2026 Datacenter results validate the AI storage thesis in hard numbers: $1.47B in a single quarter, up 233% sequentially, growing 6.5x year-over-year. Hyperscalers are building AI infrastructure at unprecedented scale, and storage is a companion investment alongside compute.
 
-**The $42B long-term backlog — NAND's attempt to de-cyclicalize.** The quarter's most consequential development is structural, not merely cyclical: SanDisk has signed five **New Business Model (NBM)** agreements with hyperscale customers (three in Q3, two in early Q4) carrying a **minimum ~$42B of contracted revenue over terms of up to five years**, backed by **~$11B of third-party financial guarantees** (with ~$400M of prepayments already on the Q3 balance sheet; a missed quarterly purchase commitment triggers the guarantee). Management says these deals will cover **more than one-third of FY2027 bit shipments**, with an ambition to exceed 50%; near-term contract pricing is mostly fixed while longer-dated tranches are more variable (CFO Luis Visoso). This is an explicit attempt to break the historical NAND pattern — in which multi-year fab investment collides with quarterly spot pricing — by converting a slice of output into contracted, guarantee-backed revenue. If it holds, it raises the trough of the next down-cycle.
+**The $42B long-term backlog — NAND's attempt to de-cyclicalize.** The quarter's most consequential development is structural, not merely cyclical: SanDisk has signed five **New Business Model (NBM)** agreements with hyperscale customers (three in Q3, two in early Q4) carrying a **minimum ~$42B of contracted revenue over terms of up to five years**, backed by **~$11B of third-party financial guarantees** (with ~$400M of prepayments already on the Q3 balance sheet; a missed quarterly purchase commitment triggers the guarantee). Management says these deals will cover **more than one-third of FY2027 bit shipments**, with an ambition to exceed 50%; near-term contract pricing is mostly fixed while longer-dated tranches are more variable (CFO Luis Visoso). This is an explicit attempt to break the historical NAND pattern — in which multi-year fab investment collides with quarterly spot pricing — by converting a slice of output into contracted, guarantee-backed revenue. If it holds, it raises the trough of the next down-cycle. *(Caliber: the existence of the NBM agreements and "firm financial commitments" is in the Q3 FY2026 8-K; the specific $42B / $11B / $400M figures, the immediate-trigger mechanism, the fixed-vs-variable pricing split and the >1/3 FY2027 coverage are management's Q3 FY2026 earnings-call statements — see Sources — pending confirmation in the contract filings.)*
 
 But the cycle is dampened, not abolished. Even at the >50% ambition, roughly half of volume still marks to spot; the $11B of guarantees is a fraction of the $42B backlog; and all five NAND players are adding capacity. The question is whether AI demand growth plus contracted backlog outruns capacity additions, or whether 78% gross margins are simply the peak of this cycle.
 
@@ -246,7 +246,8 @@ Consistent with this center's stance on NVIDIA, Broadcom, GE Vernova, and Bloom 
 **Primary sources:**
 - [SanDisk Q3 FY2026 8-K / Press Release (SEC)](https://www.sec.gov/Archives/edgar/data/2023554/000162828026028879/sndkq3-26ex991xpressrelease.htm) — quarter ended April 3, 2026, reported April 30, 2026
 - [SanDisk Q3 FY2026 earnings release (IR site)](https://investor.sandisk.com/news-releases/news-release-details/sandisk-reports-fiscal-third-quarter-2026-financial-results)
-- SanDisk Q3 FY2026 earnings call & 8-K — $6.0B buyback authorization; the ~$42B NBM long-term supply backlog, ~$11B financial guarantees, and >1/3 FY2027 bit-shipment coverage (management commentary)
+- [SanDisk Q3 FY2026 earnings call transcript (Motley Fool)](https://www.fool.com/earnings/call-transcripts/2026/04/30/sandisk-sndk-q3-2026-earnings-transcript/) — source for the NBM specifics: CFO Luis Visoso (~$42B minimum contractual revenue from the three Q3 contracts; >$11B financial guarantees; $400M prepayments; over one-third of FY2027 bits; fixed near-term / variable longer-dated pricing) and CEO David Goeckeler (>50% ambition; missed commitment → immediate financial commitments). The 8-K confirms the five NBM agreements and "firm financial commitments" but not these line items.
+- $6.0B share-repurchase authorization: per the Q3 FY2026 8-K.
 - Market cap reference: [CompaniesMarketCap SNDK](https://companiesmarketcap.com/sandisk/marketcap/), [Yahoo Finance SNDK](https://finance.yahoo.com/quote/SNDK/)
 - Company/product information: [SanDisk official website](https://www.sandisk.com/)
 - Spin-off background: SEC filings, public reporting on Western Digital's 2023 spin-off announcement and February 2025 completion
