@@ -11,17 +11,17 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 ## Executive Summary
 
-**One-line thesis:** Corning is the picks-and-shovels supplier of the physical connective tissue of AI data centers — optical fiber and cable. The company that invented low-loss fiber is now being pulled by a generative-AI buildout so large that its three biggest customers (Meta, NVIDIA, Amazon) have signed multi-year, multi-billion-dollar supply deals — and NVIDIA is even investing up to $3.2B in Corning's equity to fund U.S. capacity. Q1 2026 Optical Communications sales grew **+36% to $1.85B**, and the diversified specialty-glass franchise (display/Gorilla Glass, automotive, solar, life sciences) provides ballast. The "Springboard" plan is delivering margin expansion (core operating margin already at **20.2%**, hit a year early).
+**One-line thesis:** Corning is the picks-and-shovels supplier of the physical connective tissue of AI data centers — optical fiber and cable. The company that invented low-loss fiber is now being pulled by a generative-AI buildout so large that its three biggest customers (Meta, NVIDIA, Amazon) have signed multi-year, multi-billion-dollar supply deals — and NVIDIA has committed a $500M securities purchase, with up to a further $3.2B of *potential*, warrant-based equity investment, to fund U.S. capacity. Q1 2026 Optical Communications sales grew **+36% to $1.85B**, and the diversified specialty-glass franchise (display/Gorilla Glass, automotive, solar, life sciences) provides ballast. The "Springboard" plan is delivering margin expansion (core operating margin already at **20.2%**, hit a year early).
 
 **Verdict:** **Neutral / high-quality franchise, high expectations (watch).** The AI-optical demand is real, contracted, and partly customer-funded — a genuinely differentiated setup. But the stock has re-rated ~4x off its 52-week low to ~**$221** (~**$190B** market cap, ~**71x** 2026E core EPS), and the sell-side average price target actually sits **below** the market price. The question is not whether AI optical demand is real (it is) but how much of a multi-year, flawless-execution Springboard ramp is already in the price.
 
-**Current market read (latest market-data snapshot, late June 2026):** GLW traded around ~**$221** (52-week range **$51.32 - $230.50** — an ~4x re-rating on the AI-optical theme). Market cap ~**$190B**; with ~$9.0B total debt and ~$1.8B cash (net debt ~$7.2B), enterprise value is ~**$197B**. Dividend ~$0.28/quarter (~0.5% yield). Financial source: [Corning Q1 2026 results (IR)](https://investor.corning.com/financials/quarterly-results/default.aspx); quote references: [Yahoo Finance GLW](https://finance.yahoo.com/quote/GLW/), [Google Finance GLW](https://www.google.com/finance/beta/quote/GLW:NYSE).
+**Current market read (latest market-data snapshot, ~2026-06-28, reflecting the prior trading session):** GLW was last quoted around ~**$221** (Google Finance; 52-week range **$51.32 - $230.50** — an ~4x re-rating on the AI-optical theme). Market cap ~**$190B**; with ~$9.0B total debt and ~$1.8B cash (net debt ~$7.2B), enterprise value is ~**$197B**. Dividend ~$0.28/quarter (~0.5% yield). Financial source: [Corning Q1 2026 results (IR)](https://investor.corning.com/financials/quarterly-results/default.aspx); quote references: [Yahoo Finance GLW](https://finance.yahoo.com/quote/GLW/), [Google Finance GLW](https://www.google.com/finance/beta/quote/GLW:NYSE).
 
 **Key data:**
 
 | Metric | Value |
 |--------|-------|
-| Price (latest snapshot, late June 2026) | ~$221 |
+| Price (latest snapshot, ~2026-06-28; prior trading session) | ~$221 (Google Finance) |
 | 52-week range | $51.32 - $230.50 |
 | Market cap | ~$190B |
 | Net debt / EV | ~$7.2B net debt ($9.0B debt − $1.8B cash); EV ~$197B |
@@ -38,7 +38,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Q1 2026 core gross / operating margin | ~39.1% / 20.2% |
 | Q2 2026 guidance | core sales ~$4.6B (+~14%), core EPS $0.73-0.77 (+~25%) |
 | Springboard run-rate targets | ~$20B by end-2026; ~$30B by end-2028; ~$40B by end-2030 |
-| AI optical megadeals | Meta (up to $6B), NVIDIA (up to $3.2B equity + 3 plants), Amazon (multibillion) |
+| AI optical megadeals | Meta (up to $6B); NVIDIA ($500M committed securities purchase + up to $3.2B contingent warrant-based equity, 3 plants); Amazon (multibillion) |
 | CEO / CFO | Wendell Weeks (Chairman & CEO) / Ed Schlesinger (CFO) |
 
 ---
@@ -147,7 +147,7 @@ Q2 guidance implies continued double-digit growth and ~25% EPS gains. The Spring
 
 **Core thesis:** Corning is a uniquely-moated, partly-customer-funded supplier of an indispensable AI input (fiber/cable), with a credible multi-year margin-and-revenue ramp (Springboard).
 
-1. **AI optical demand is contracted, not speculative.** Meta (up to $6B), NVIDIA (up to $3.2B equity + 3 plants), Amazon (multibillion) — multi-year visibility plus a customer co-investing in capacity is a demand signal no ordinary supplier gets.
+1. **AI optical demand is contracted, not speculative.** Meta (up to $6B), NVIDIA ($500M committed + up to $3.2B contingent warrant-based equity, 3 plants), Amazon (multibillion) — multi-year visibility plus a customer co-investing in capacity is a demand signal no ordinary supplier gets.
 2. **Optical is inflecting and capacity is scaling.** +36% Y/Y in Q1; a 10x U.S. optical-connectivity capacity expansion and >50% U.S. fiber capacity increase position Corning to capture the AI buildout.
 3. **Springboard is delivering.** 20% core operating margin hit a year early; the $20B → $30B → $40B run-rate ladder implies sustained double-digit growth with operating leverage.
 4. **Diversification plus independent growth vectors.** Solar (+80%, U.S. polysilicon reshoring) and life sciences add growth; display/Gorilla Glass and automotive provide cash ballast.
@@ -241,7 +241,7 @@ Consistent with this center's stance on NVIDIA, Broadcom, GE Vernova, Bloom Ener
 - Quote references: [Yahoo Finance GLW](https://finance.yahoo.com/quote/GLW/), [Google Finance GLW](https://www.google.com/finance/beta/quote/GLW:NYSE)
 
 **Key assumptions & basis:**
-- Price ~$221 and 52-week range $51.32-$230.50 per late-June 2026 market-data snapshots; market cap ~$190B. Actual quoted price may differ intraday.
+- Price ~$221 (Google Finance, ~2026-06-28 snapshot reflecting the prior trading session) and 52-week range $51.32-$230.50; market cap ~$190B. Actual quoted price may differ intraday.
 - Q1 2026 (quarter ended March 31, 2026): core sales $4,345M, GAAP net sales $4,144M; segment, margin, EPS, cash-flow and balance-sheet figures per Corning's Q1 2026 disclosure. Segments reflect the **Q1 2026 restructuring** into five reportable segments (Optical Communications, Glass Innovations, Automotive, Solar, Life Sciences & Emerging Growth).
 - Core vs GAAP: Corning reports "core" measures (which adjust for currency hedging, restructuring and certain non-cash/one-time items) alongside GAAP; Q1 2026 core EPS $0.70 vs GAAP EPS $0.43.
 - Forward P/E uses consensus core EPS ~$3.12 (2026E) and ~$3.86 (2027E); EV/Sales uses consensus core revenue ~$16.1B (2026E) and ~$18.0B (2027E). Net debt ~$7.2B = ~$9.0B total debt − ~$1.8B cash → EV ~$197B.
