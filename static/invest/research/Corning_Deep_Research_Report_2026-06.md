@@ -5,7 +5,7 @@ Last updated: 2026-06-29
 Ticker: NYSE: GLW
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence. All prices and market caps are point-in-time snapshots; financial figures are per company disclosure unless noted otherwise.
 
-> **Background note:** Corning Incorporated, founded in 1851, is a materials-science company built on 170+ years of glass, ceramics, and optical-physics expertise — it commercialized the first low-loss optical fiber in 1970 and invented Gorilla Glass. This report is **initial coverage**. Read alongside this center's NVIDIA, Broadcom, GE Vernova, Bloom Energy and SanDisk reports — Corning is the **optical-connectivity (fiber & cable) leg** of the AI infrastructure value chain. Note that NVIDIA — itself covered here — is now both a Corning customer and, via a securities-purchase/warrant agreement, a prospective Corning shareholder.
+> **Background note:** Corning Incorporated, founded in 1851, is a materials-science company built on 170+ years of glass, ceramics, and optical-physics expertise — it commercialized the first low-loss optical fiber in 1970 and invented Gorilla Glass. This report is **initial coverage**. Read alongside this center's NVIDIA, Broadcom, GE Vernova, Bloom Energy, SanDisk and AAOI reports — Corning is the **fiber/cable and passive-connectivity materials layer** of the AI optical stack, while AAOI is the active optical-module/transceiver exposure. Note that NVIDIA — itself covered here — is now both a Corning customer and, via a securities-purchase/warrant agreement, a prospective Corning shareholder.
 
 ---
 
@@ -71,11 +71,19 @@ The AI data-center buildout is the dominant driver. Training and inference clust
 
 A customer (NVIDIA) co-investing equity to fund a supplier's capacity is an unusually strong demand signal — and a validation of Corning's process moat.
 
-### 2.2 Competitive landscape
+### 2.2 Relationship to AAOI: adjacent layers, not simple head-to-head rivals
+
+Corning and AAOI both belong in the AI optical-connectivity discussion, but they are not the same exposure. **Corning is closer to the physical medium and passive infrastructure**: optical fiber, cable, connectivity hardware, glass/materials process know-how, and the factory capacity needed to connect racks, buildings, and data-center campuses. **AAOI is closer to the active optical module layer**: lasers, optical components, subassemblies, light engines, transceivers/modules, and equipment that convert and package high-speed optical links for data-center, CATV, telecom and FTTH customers.
+
+A simplified chain looks like this: **glass/materials and fiber/cable capacity (Corning) → cable/connectivity deployment inside and between data centers → active optical transceivers/light engines/switch optics (AAOI, Coherent, Lumentum, InnoLight, Eoptolink and others) → Ethernet switches and GPU systems.** In that sense, Corning is generally upstream/passive and AAOI is downstream/active. This report does **not** assume a verified customer-supplier relationship between the two; the point is product-layer position.
+
+The competitive overlap is therefore mostly thematic, not direct product rivalry. Corning's direct optical competitors are fiber/cable and connectivity players such as Prysmian, Sterlite, Fujikura, Sumitomo and YOFC. AAOI's direct peers are active optics and module suppliers such as Coherent, Lumentum, InnoLight, Eoptolink, Foxconn Interconnect, Source Photonics and others. Both can benefit if hyperscalers keep raising optical intensity per AI cluster; both can suffer if AI networking capex digests. But Corning monetizes meters of fiber/cable and passive connectivity capacity, while AAOI monetizes 800G/1.6T module qualification, yield, shipment volume and ASP.
+
+### 2.3 Competitive landscape
 
 Corning competes in fiber/cable against **Prysmian, Sterlite, Fujikura, Sumitomo, YOFC** and others, and in display against **AGC and Nippon Electric Glass**. Its edge is breadth of materials science plus scale and U.S. manufacturing footprint — increasingly valuable amid supply-chain reshoring and the hyperscalers' preference for domestic, high-density, customized fiber. The capital intensity and process know-how of fiber draw and connectivity create meaningful barriers, but fiber is ultimately a manufactured product subject to pricing pressure when capacity catches up with demand.
 
-### 2.3 Diversification: ballast and dilution
+### 2.4 Diversification: ballast and dilution
 
 The non-optical segments (Glass Innovations, Automotive, Solar, Life Sciences) provide cash-flow ballast and several independent growth vectors — notably Solar (+80%, U.S. polysilicon reshoring). But they also **dilute the headline AI growth rate**: Glass Innovations (+1%) and Automotive (−1%) are mature/declining, so a meaningful share of revenue grows slowly even as Optical accelerates. This is the trade-off versus a pure-play.
 
@@ -217,7 +225,7 @@ Corning has positioned itself at the physical center of the AI buildout: the fib
 
 **The strength is largely in the price.** At ~$221 — roughly 4x the 52-week low — the stock trades at ~71x 2026E core EPS and ~$190B market cap, the richest forward multiple in this center's AI-infrastructure coverage, and *above* the average sell-side target. The bet is on the durability of the AI-optical cycle and multi-year Springboard execution, against the offsets of ~$9B leverage, customer concentration, a capacity-ramp that currently consumes nearly all operating cash flow, and a wide core-vs-GAAP gap.
 
-Consistent with this center's stance on NVIDIA, Broadcom, GE Vernova, Bloom Energy and SanDisk — "high quality but high expectations" — **we assign a neutral / high-quality, high-expectations (watch) view**: constructive on Corning's moat and the contracted AI-optical demand with medium conviction; neutral on near-term entry given a valuation that already discounts years of flawless execution. This fills the **optical-connectivity** leg of the AI infrastructure chain — only by putting compute (NVIDIA/Broadcom), power (GE Vernova/Bloom), memory/storage (SanDisk) and connectivity (Corning) in one frame can the complete chain be assessed.
+Consistent with this center's stance on NVIDIA, Broadcom, GE Vernova, Bloom Energy, SanDisk and AAOI — "high quality but high expectations" — **we assign a neutral / high-quality, high-expectations (watch) view**: constructive on Corning's moat and the contracted AI-optical demand with medium conviction; neutral on near-term entry given a valuation that already discounts years of flawless execution. Corning adds the **fiber/cable and passive-connectivity materials layer** of the AI infrastructure chain; AAOI remains the separate active optical-module/transceiver coverage. Only by putting compute (NVIDIA/Broadcom), power (GE Vernova/Bloom), memory/storage (SanDisk), active optics (AAOI) and passive connectivity (Corning) in one frame can the complete chain be assessed.
 
 ---
 
@@ -229,6 +237,7 @@ Consistent with this center's stance on NVIDIA, Broadcom, GE Vernova, Bloom Ener
 - [NVIDIA and Corning long-term partnership (Corning IR)](https://investor.corning.com/news-and-events/news/news-details/2026/NVIDIA-and-Corning-Announce-Long-Term-Partnership-To-Strengthen-U-S--Manufacturing-for-AI-Infrastructure/default.aspx) — up to $3.2B investment, 3 U.S. plants (CNBC, May 6, 2026)
 - [Corning and Meta up to $6B agreement (Corning IR)](https://investor.corning.com/news-and-events/news/news-details/2026/Corning-and-Meta-Announce-Multiyear-up-to-6-Billion-Agreement-to-Accelerate-US-Data-Center-Buildout/default.aspx)
 - [Amazon–Corning multibillion fiber deal (CNBC, June 8, 2026)](https://www.cnbc.com/2026/06/08/amazon-taps-corning-for-op.html)
+- [AAOI FY2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/1158114/000143774926005875/aaoi20251231_10k.htm) and [AAOI Q1 2026 earnings release](https://www.sec.gov/Archives/edgar/data/1158114/000168316826003562/aaoi_ex9901.htm) — optical modules/transceivers, lasers/components, 800G ramp and competitor context
 - Quote references: [Yahoo Finance GLW](https://finance.yahoo.com/quote/GLW/), [Google Finance GLW](https://www.google.com/finance/beta/quote/GLW:NYSE)
 
 **Key assumptions & basis:**

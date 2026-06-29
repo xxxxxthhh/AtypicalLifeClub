@@ -5,7 +5,7 @@
     "ticker": "NYSE: GLW",
     "title": "康宁 深度研究报告 - AI 基础设施的光连接卖铲人",
     "titleEn": "Corning Deep Research Report - The Optical-Connectivity Pick-and-Shovel of AI Infrastructure",
-    "summary": "AI 数据中心光纤/光缆卖铲人。Q1 2026核心营收$43.45亿（+18%），光通信$18.46亿（+36%，生成式AI驱动），核心EPS $0.70、核心营业利润率20.2%（Springboard目标提前一年达成）；Q2指引核心营收~$46亿、核心EPS $0.73-0.77。三大客户Meta（最多$60亿）、NVIDIA（最多$32亿股权+3座工厂）、Amazon（数十亿美元）签多年期供货协议。但股价约$221、市值约$1,900亿、约71倍2026E核心EPS（卖方均价低于市价），约$90亿债务、AI资本开支周期性是主要风险。中性/高质量但高预期（观察）。",
+    "summary": "AI 数据中心光纤/光缆/被动连接材料层卖铲人，与 AAOI 的有源光模块/transceiver 覆盖互补。Q1 2026核心营收$43.45亿（+18%），光通信$18.46亿（+36%，生成式AI驱动），核心EPS $0.70、核心营业利润率20.2%（Springboard目标提前一年达成）；Q2指引核心营收~$46亿、核心EPS $0.73-0.77。三大客户Meta（最多$60亿）、NVIDIA（最多$32亿股权+3座工厂）、Amazon（数十亿美元）签多年期供货协议。但股价约$221、市值约$1,900亿、约71倍2026E核心EPS（卖方均价低于市价），约$90亿债务、AI资本开支周期性是主要风险。中性/高质量但高预期（观察）。",
     "tags": [
       "光通信",
       "AI基础设施",
@@ -24,12 +24,12 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "AI 基础设施的光连接环节：发明低损耗光纤的康宁，被生成式AI数据中心建设拉动，光通信Q1 2026 +36%至$18.46亿",
+      "AI 基础设施的光纤/光缆/被动连接材料层：发明低损耗光纤的康宁，被生成式AI数据中心建设拉动，光通信Q1 2026 +36%至$18.46亿；与 AAOI 有源光模块/transceiver 覆盖互补",
       "三大客户多年期签约且部分由客户出资：Meta最多$60亿、NVIDIA最多$32亿股权投资+3座美国工厂（美国光连接产能10倍）、Amazon数十亿美元",
       "Springboard计划兑现：核心营业利润率20.2%（提前一年达标），运行率目标2026年底约$200亿、2028约$300亿、2030约$400亿",
       "核心风险：股价约$221（52周$51-230，约4倍重定价）、约71倍2026E核心EPS、卖方均价低于市价；约$90亿债务、AI资本开支周期性与客户集中"
     ],
-    "summaryEn": "AI data-center fiber/cable pick-and-shovel. Q1 2026 core sales $4.35B (+18%), Optical Communications $1.85B (+36%, GenAI-driven), core EPS $0.70, core operating margin 20.2% (Springboard target hit a year early); Q2 guide core sales ~$4.6B, core EPS $0.73-0.77. Meta (up to $6B), NVIDIA (up to $3.2B equity + 3 plants), Amazon (multibillion) signed multi-year supply deals. But at ~$221 / ~$190B market cap and ~71x 2026E core EPS (sell-side avg target below market price), with ~$9B debt and AI-capex cyclicality the key risks. Neutral / high-quality but high expectations (watch)."
+    "summaryEn": "AI data-center fiber/cable/passive-connectivity pick-and-shovel, complementary to AAOI's active optical-module/transceiver exposure. Q1 2026 core sales $4.35B (+18%), Optical Communications $1.85B (+36%, GenAI-driven), core EPS $0.70, core operating margin 20.2% (Springboard target hit a year early); Q2 guide core sales ~$4.6B, core EPS $0.73-0.77. Meta (up to $6B), NVIDIA (up to $3.2B equity + 3 plants), Amazon (multibillion) signed multi-year supply deals. But at ~$221 / ~$190B market cap and ~71x 2026E core EPS (sell-side avg target below market price), with ~$9B debt and AI-capex cyclicality the key risks. Neutral / high-quality but high expectations (watch)."
   },
   {
     "id": "nvidia-2026",
