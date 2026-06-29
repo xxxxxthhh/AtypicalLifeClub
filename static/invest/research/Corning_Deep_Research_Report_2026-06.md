@@ -11,7 +11,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 ## Executive Summary
 
-**One-line thesis:** Corning is the picks-and-shovels supplier of the physical connective tissue of AI data centers — optical fiber and cable. The company that invented low-loss fiber is now being pulled by a generative-AI buildout so large that its three biggest customers (Meta, NVIDIA, Amazon) have signed multi-year, multi-billion-dollar supply deals — and NVIDIA has committed a $500M securities purchase, with up to a further $3.2B of *potential*, warrant-based equity investment, to fund U.S. capacity. Q1 2026 Optical Communications sales grew **+36% to $1.85B**, and the diversified specialty-glass franchise (display/Gorilla Glass, automotive, solar, life sciences) provides ballast. The "Springboard" plan is delivering margin expansion (core operating margin already at **20.2%**, hit a year early).
+**One-line thesis:** Corning is the picks-and-shovels supplier of the physical connective tissue of AI data centers — optical fiber and cable. The company that invented low-loss fiber is now being pulled by a generative-AI buildout so large that its three biggest customers (Meta, NVIDIA, Amazon) have signed multi-year, multi-billion-dollar supply deals — and NVIDIA has taken a warrant position — ~$500M of upfront proceeds now, exercisable to **up to ~$3.2B of equity in total** over time — to fund U.S. capacity. Q1 2026 Optical Communications sales grew **+36% to $1.85B**, and the diversified specialty-glass franchise (display/Gorilla Glass, automotive, solar, life sciences) provides ballast. The "Springboard" plan is delivering margin expansion (core operating margin already at **20.2%**, hit a year early).
 
 **Verdict:** **Neutral / high-quality franchise, high expectations (watch).** The AI-optical demand is real, contracted, and partly customer-funded — a genuinely differentiated setup. But the stock has re-rated ~4x off its 52-week low to ~**$221** (~**$190B** market cap, ~**71x** 2026E core EPS), and the sell-side average price target actually sits **below** the market price. The question is not whether AI optical demand is real (it is) but how much of a multi-year, flawless-execution Springboard ramp is already in the price.
 
@@ -38,7 +38,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Q1 2026 core gross / operating margin | ~39.1% / 20.2% |
 | Q2 2026 guidance | core sales ~$4.6B (+~14%), core EPS $0.73-0.77 (+~25%) |
 | Springboard run-rate targets | ~$20B by end-2026; ~$30B by end-2028; ~$40B by end-2030 |
-| AI optical megadeals | Meta (up to $6B); NVIDIA ($500M committed securities purchase + up to $3.2B contingent warrant-based equity, 3 plants); Amazon (multibillion) |
+| AI optical megadeals | Meta (up to $6B); NVIDIA (warrants: ~$500M upfront, up to ~$3.2B equity in total, 3 plants); Amazon (multibillion) |
 | CEO / CFO | Wendell Weeks (Chairman & CEO) / Ed Schlesinger (CFO) |
 
 ---
@@ -66,7 +66,7 @@ Corning is a **materials-science company** organized, after a Q1 2026 segment re
 The AI data-center buildout is the dominant driver. Training and inference clusters require dense, low-latency interconnect — fiber connects GPUs within racks, racks within data halls, and data centers to one another. Corning's Optical Communications segment grew **+36% Y/Y in Q1 2026**, with generative-AI/enterprise demand the swing factor. What distinguishes this cycle from past telecom cycles is the **degree of customer commitment**:
 
 - **Meta (Jan 2026):** multi-year agreement worth **up to $6B**, anchoring a major expansion of Corning's Hickory, NC optical-cable plant.
-- **NVIDIA (May 2026):** a $500M securities-purchase agreement plus **up to $3.2B of potential equity investment** (warrants), funding **three new U.S. plants** (North Carolina and Texas), a **10x increase** in U.S. optical-connectivity capacity, and ≥3,000 jobs.
+- **NVIDIA (May 2026):** a warrant deal providing **~$500M of upfront aggregate proceeds** (a pre-funded warrant for up to 3M shares plus a traditional warrant for up to **15M shares at $180**), giving NVIDIA the right to invest **up to ~$3.2B of equity in total** over time (warrants ~3-yr expiry). It funds **three new U.S. plants** (North Carolina and Texas), a **10x increase** in U.S. optical-connectivity capacity, and ≥3,000 jobs.
 - **Amazon (June 2026):** a multi-year, **multibillion-dollar** fiber supply deal for U.S. AI data centers (~1,000 jobs).
 
 A customer (NVIDIA) co-investing equity to fund a supplier's capacity is an unusually strong demand signal — and a validation of Corning's process moat.
@@ -147,7 +147,7 @@ Q2 guidance implies continued double-digit growth and ~25% EPS gains. The Spring
 
 **Core thesis:** Corning is a uniquely-moated, partly-customer-funded supplier of an indispensable AI input (fiber/cable), with a credible multi-year margin-and-revenue ramp (Springboard).
 
-1. **AI optical demand is contracted, not speculative.** Meta (up to $6B), NVIDIA ($500M committed + up to $3.2B contingent warrant-based equity, 3 plants), Amazon (multibillion) — multi-year visibility plus a customer co-investing in capacity is a demand signal no ordinary supplier gets.
+1. **AI optical demand is contracted, not speculative.** Meta (up to $6B), NVIDIA (~$500M upfront warrant deal, up to ~$3.2B equity in total; 3 plants), Amazon (multibillion) — multi-year visibility plus a customer co-investing in capacity is a demand signal no ordinary supplier gets.
 2. **Optical is inflecting and capacity is scaling.** +36% Y/Y in Q1; a 10x U.S. optical-connectivity capacity expansion and >50% U.S. fiber capacity increase position Corning to capture the AI buildout.
 3. **Springboard is delivering.** 20% core operating margin hit a year early; the $20B → $30B → $40B run-rate ladder implies sustained double-digit growth with operating leverage.
 4. **Diversification plus independent growth vectors.** Solar (+80%, U.S. polysilicon reshoring) and life sciences add growth; display/Gorilla Glass and automotive provide cash ballast.
@@ -234,7 +234,8 @@ Consistent with this center's stance on NVIDIA, Broadcom, GE Vernova, Bloom Ener
 **Primary sources:**
 - [Corning Q1 2026 quarterly results (IR)](https://investor.corning.com/financials/quarterly-results/default.aspx) — quarter ended March 31, 2026, reported April 2026
 - [Corning (GLW) Q1 2026 earnings call transcript (Motley Fool)](https://www.fool.com/earnings/call-transcripts/2026/04/28/corning-glw-q1-2026-earnings-transcript/) — Springboard run-rate ladder and segment commentary
-- [NVIDIA and Corning long-term partnership (Corning IR)](https://investor.corning.com/news-and-events/news/news-details/2026/NVIDIA-and-Corning-Announce-Long-Term-Partnership-To-Strengthen-U-S--Manufacturing-for-AI-Infrastructure/default.aspx) — up to $3.2B investment, 3 U.S. plants (CNBC, May 6, 2026)
+- [NVIDIA–Corning long-term partnership (Corning IR)](https://investor.corning.com/news-and-events/news/news-details/2026/NVIDIA-and-Corning-Announce-Long-Term-Partnership-To-Strengthen-U-S--Manufacturing-for-AI-Infrastructure/default.aspx) — supports the three new U.S. plants and the ~10x U.S. optical-connectivity capacity expansion.
+- NVIDIA equity/warrant terms — ~$500M upfront aggregate proceeds; a traditional warrant for up to 15M shares at $180 plus a pre-funded warrant for up to 3M shares; **up to ~$3.2B of equity in total**, ~3-yr expiry: [Corning 8-K (SEC, via StockTitan)](https://www.stocktitan.net/sec-filings/GLW/8-k-corning-inc-ny-reports-material-event-aac704cc7740.html); also [CNBC, May 6, 2026](https://www.cnbc.com/2026/05/06/nvidia-corning-optical-factories-nc-texas-ai.html).
 - [Corning and Meta up to $6B agreement (Corning IR)](https://investor.corning.com/news-and-events/news/news-details/2026/Corning-and-Meta-Announce-Multiyear-up-to-6-Billion-Agreement-to-Accelerate-US-Data-Center-Buildout/default.aspx)
 - [Amazon–Corning multibillion fiber deal (CNBC, June 8, 2026)](https://www.cnbc.com/2026/06/08/amazon-taps-corning-for-op.html)
 - [AAOI FY2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/1158114/000143774926005875/aaoi20251231_10k.htm) and [AAOI Q1 2026 earnings release](https://www.sec.gov/Archives/edgar/data/1158114/000168316826003562/aaoi_ex9901.htm) — optical modules/transceivers, lasers/components, 800G ramp and competitor context
