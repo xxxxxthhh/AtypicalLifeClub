@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Infrastructure Coverage Map | Atypical Life Club</title>
+    <meta name="description" content="AI infrastructure coverage map and research methodology for Atypical Life Club research reports.">
+    <link rel="stylesheet" href="/invest/theme-adapter.css">
+    <link rel="stylesheet" href="/invest/styles.css">
+    <link rel="stylesheet" href="/invest/research/styles.css">
+    <style>
+        .coverage-hero {
+            background: linear-gradient(140deg, color-mix(in srgb, var(--entry) 86%, var(--surface-2)), color-mix(in srgb, var(--entry) 88%, var(--surface-3)));
+        }
+
+        .coverage-hero-top {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+
+        .coverage-hero-copy {
+            min-width: 0;
+        }
+
+        .coverage-actions {
+            flex: 0 0 auto;
+        }
+
+        .coverage-section-header {
+            display: grid;
+            gap: 0.35rem;
+        }
+
+        .coverage-section-header p {
+            max-width: 780px;
+        }
+
+        .layer-stack {
+            margin-top: 1rem;
+            display: grid;
+            gap: 0.9rem;
+        }
+
+        .layer-panel {
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            background: linear-gradient(160deg, var(--entry), color-mix(in srgb, var(--entry) 94%, var(--surface-2)));
+            overflow: hidden;
+        }
+
+        .layer-header {
+            padding: 0.9rem;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .layer-title-group {
+            min-width: 0;
+        }
+
+        .layer-title {
+            margin: 0;
+            font-size: 1rem;
+            line-height: 1.35;
+        }
+
+        .layer-description {
+            margin: 0.35rem 0 0;
+            color: var(--secondary);
+            font-size: 0.88rem;
+        }
+
+        .layer-count {
+            flex: 0 0 auto;
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            padding: 0.16rem 0.52rem;
+            color: var(--secondary);
+            background: color-mix(in srgb, var(--entry) 90%, var(--surface-3));
+            font-size: 0.74rem;
+            font-weight: 650;
+        }
+
+        .coverage-card-grid {
+            padding: 0.9rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 0.8rem;
+        }
+
+        .coverage-report-card {
+            display: flex;
+            flex-direction: column;
+            min-height: 230px;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            background: var(--entry);
+            transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+        }
+
+        .coverage-report-card:hover {
+            transform: translateY(-1.5px);
+            border-color: color-mix(in srgb, var(--accent) 42%, var(--border));
+            box-shadow: 0 12px 24px color-mix(in srgb, #000 12%, transparent);
+        }
+
+        .coverage-report-main {
+            padding: 0.85rem;
+            display: grid;
+            gap: 0.58rem;
+        }
+
+        .coverage-report-meta {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.5rem;
+        }
+
+        .coverage-company {
+            color: var(--secondary);
+            font-size: 0.78rem;
+            font-weight: 650;
+        }
+
+        .role-badge {
+            border: 1px solid color-mix(in srgb, var(--accent) 42%, var(--border));
+            border-radius: 999px;
+            padding: 0.13rem 0.5rem;
+            color: var(--accent);
+            background: var(--accent-soft);
+            font-size: 0.72rem;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+
+        .coverage-report-title {
+            margin: 0;
+            font-size: 0.98rem;
+            line-height: 1.36;
+        }
+
+        .coverage-report-summary {
+            margin: 0;
+            color: var(--secondary);
+            font-size: 0.84rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .coverage-report-footer {
+            margin-top: auto;
+            border-top: 1px solid var(--border);
+            padding: 0.72rem 0.85rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.75rem;
+        }
+
+        .logic-list,
+        .method-list,
+        .other-list {
+            margin: 1rem 0 0;
+            padding: 0;
+            list-style: none;
+            display: grid;
+            gap: 0.75rem;
+        }
+
+        .logic-item,
+        .method-item,
+        .other-item {
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            background: color-mix(in srgb, var(--entry) 94%, var(--surface-2));
+        }
+
+        .logic-item {
+            padding: 0.85rem;
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+            gap: 0.85rem;
+        }
+
+        .logic-label {
+            display: block;
+            color: var(--tertiary);
+            font-size: 0.72rem;
+            font-weight: 750;
+            text-transform: uppercase;
+        }
+
+        .logic-text {
+            display: block;
+            margin-top: 0.2rem;
+            color: var(--primary);
+            font-size: 0.88rem;
+        }
+
+        .method-item {
+            padding: 0.85rem;
+        }
+
+        .method-title {
+            margin: 0;
+            font-size: 0.92rem;
+            line-height: 1.35;
+        }
+
+        .method-body {
+            margin: 0.35rem 0 0;
+            color: var(--secondary);
+            font-size: 0.86rem;
+        }
+
+        .other-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.85rem;
+            padding: 0.78rem 0.85rem;
+        }
+
+        .other-title {
+            margin: 0;
+            font-size: 0.9rem;
+            line-height: 1.35;
+        }
+
+        .other-meta {
+            display: block;
+            margin-top: 0.18rem;
+            color: var(--secondary);
+            font-size: 0.76rem;
+        }
+
+        .coverage-footer {
+            margin-top: 1.3rem;
+            color: var(--secondary);
+            font-size: 0.84rem;
+        }
+
+        .footer-actions {
+            margin-top: 0.7rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.55rem;
+        }
+
+        .footer-link {
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            padding: 0.36rem 0.68rem;
+            color: var(--accent);
+            background: var(--entry);
+            font-weight: 650;
+        }
+
+        .footer-link:hover,
+        .footer-link:focus-visible {
+            border-color: var(--accent);
+            background: var(--accent-soft);
+            outline: none;
+        }
+
+        .loading-state {
+            margin-top: 1rem;
+            border: 1px dashed var(--tertiary);
+            border-radius: 10px;
+            padding: 0.95rem;
+            color: var(--secondary);
+            background: color-mix(in srgb, var(--entry) 90%, var(--surface-2));
+        }
+
+        @media (max-width: 760px) {
+            .coverage-hero-top,
+            .layer-header,
+            .other-item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .coverage-actions {
+                width: 100%;
+            }
+
+            .logic-item {
+                grid-template-columns: 1fr;
+            }
+
+            .coverage-card-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="shell-header">
+        <div class="shell-header-inner">
+            <div class="shell-brand">
+                <div class="shell-brand-title shell-breadcrumb" aria-label="Breadcrumb">
+                    <a class="shell-breadcrumb-link" href="/invest/">Invest</a>
+                    <span class="shell-breadcrumb-separator">/</span>
+                    <a class="shell-breadcrumb-link" href="/invest/research/">Research</a>
+                    <span class="shell-breadcrumb-separator">/</span>
+                    <span class="shell-breadcrumb-current" aria-current="page">Coverage Map</span>
+                </div>
+                <span class="shell-brand-subtitle">AI Infrastructure Research Logic</span>
+            </div>
+            <nav class="shell-nav">
+                <a href="/invest/">返回 Invest</a>
+                <a href="/invest/research/">Research</a>
+                <a href="/invest/research/coverage-map.html" class="active">Coverage Map</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="shell">
+        <section class="hero coverage-hero">
+            <div class="coverage-hero-top">
+                <div class="coverage-hero-copy">
+                    <h1 class="hero-title" id="pageTitle">AI 基建覆盖地图</h1>
+                    <p class="hero-subtitle" id="pageSubtitle">我们不是选股，而是把 AI 基建拆成一条有分工的价值链。</p>
+                </div>
+                <div class="coverage-actions">
+                    <div class="lang-switch" id="languageSwitch" role="group" aria-label="Language switch">
+                        <button class="lang-opt active" type="button" data-lang="zh" aria-pressed="true">中文</button>
+                        <span class="divider">/</span>
+                        <button class="lang-opt" type="button" data-lang="en" aria-pressed="false">EN</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="coverage-section-header">
+                <h2 id="mapHeading">AI Infrastructure Coverage Map</h2>
+                <p id="mapIntro">每个层级回答一个不同的问题：需求在哪里出现、瓶颈在哪里形成、哪篇报告负责验证或证伪这条链。</p>
+            </div>
+            <div class="layer-stack" id="layerStack">
+                <div class="loading-state">Loading coverage map...</div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="coverage-section-header">
+                <h2 id="crossCheckHeading">Cross-Check Logic</h2>
+            </div>
+            <ol class="logic-list" id="crossCheckList"></ol>
+        </section>
+
+        <section class="section">
+            <div class="coverage-section-header">
+                <h2 id="methodologyHeading">Research Methodology</h2>
+            </div>
+            <ol class="method-list" id="methodologyList"></ol>
+        </section>
+
+        <section class="section">
+            <div class="coverage-section-header">
+                <h2 id="otherHeading">Other Coverage</h2>
+                <p id="otherIntro">这些报告暂不承担 AI 基建链条验证角色，保留在完整研究覆盖中。</p>
+            </div>
+            <ul class="other-list" id="otherCoverageList"></ul>
+        </section>
+
+        <footer class="coverage-footer">
+            <p id="disclaimerText">免责声明：本页仅用于研究框架展示和信息交流，不构成任何投资建议，请自行完成尽职调查。</p>
+            <div class="footer-actions">
+                <a class="footer-link" href="/invest/research/" id="backToResearch">返回完整报告列表</a>
+            </div>
+        </footer>
+    </main>
+
+    <script src="/shared/theme-switcher.js"></script>
+    <script>
+        const COVERAGE_MAP_URL = "/invest/research/data/coverage-map.json";
+        const REPORTS_DATA_URL = "/invest/research/data/reports.json";
+        const LANG_QUERY_KEY = "lang";
+        const LANG_STORAGE_KEY = "research_coverage_map_lang";
+        const SUPPORTED_LANGS = ["zh", "en"];
+
+        const PAGE_LABELS = {
+            zh: {
+                documentTitle: "AI 基建覆盖地图 | Atypical Life Club",
+                mapHeading: "AI 基建覆盖地图",
+                crossCheckHeading: "Cross-Check Logic",
+                methodologyHeading: "Research Methodology",
+                otherHeading: "Other Coverage",
+                reportCount: "篇报告",
+                readReport: "阅读报告",
+                updated: "更新",
+                ifLabel: "If",
+                thenLabel: "Then",
+                emptyLayers: "暂无可展示的 AI 基建链条报告。",
+                emptyOther: "暂无其他覆盖。",
+                loadError: "Coverage Map 数据加载失败，请稍后重试。",
+                backToResearch: "返回完整报告列表"
+            },
+            en: {
+                documentTitle: "AI Infrastructure Coverage Map | Atypical Life Club",
+                mapHeading: "AI Infrastructure Coverage Map",
+                crossCheckHeading: "Cross-Check Logic",
+                methodologyHeading: "Research Methodology",
+                otherHeading: "Other Coverage",
+                reportCount: "reports",
+                readReport: "Read report",
+                updated: "Updated",
+                ifLabel: "If",
+                thenLabel: "Then",
+                emptyLayers: "No AI infrastructure chain reports to display yet.",
+                emptyOther: "No other coverage.",
+                loadError: "Coverage Map data failed to load. Please try again later.",
+                backToResearch: "Back to full report list"
+            }
+        };
+
+        const state = {
+            coverage: null,
+            reports: []
+        };
+
+        let currentLang = chooseInitialLanguage();
+
+        document.addEventListener("DOMContentLoaded", async () => {
+            bindLanguageSwitch();
+            await loadData();
+            renderPage();
+        });
+
+        async function loadData() {
+            try {
+                const [coverageResponse, reportsResponse] = await Promise.all([
+                    fetch(COVERAGE_MAP_URL, { cache: "no-store" }),
+                    fetch(REPORTS_DATA_URL, { cache: "no-store" })
+                ]);
+
+                if (!coverageResponse.ok) throw new Error(`coverage HTTP ${coverageResponse.status}`);
+                if (!reportsResponse.ok) throw new Error(`reports HTTP ${reportsResponse.status}`);
+
+                const coverage = await coverageResponse.json();
+                const reports = await reportsResponse.json();
+
+                state.coverage = coverage;
+                state.reports = Array.isArray(reports)
+                    ? sortReportsByLatestUpdate(reports.filter(isCurrentReport))
+                    : [];
+            } catch (error) {
+                console.error("Failed to load coverage map:", error);
+                state.coverage = null;
+                state.reports = [];
+            }
+        }
+
+        function renderPage() {
+            const labels = getLabels();
+            document.documentElement.lang = currentLang === "zh" ? "zh-CN" : "en";
+            document.title = labels.documentTitle;
+            renderLanguageSwitch();
+            syncLanguageQuery();
+
+            if (!state.coverage) {
+                renderLoadError(labels.loadError);
+                return;
+            }
+
+            const page = state.coverage.page || {};
+            setText("pageTitle", localize(page.title));
+            setText("pageSubtitle", localize(page.subtitle));
+            setText("mapHeading", labels.mapHeading);
+            setText("mapIntro", localize(page.mapIntro));
+            setText("crossCheckHeading", labels.crossCheckHeading);
+            setText("methodologyHeading", labels.methodologyHeading);
+            setText("otherHeading", labels.otherHeading);
+            setText("otherIntro", localize(page.otherIntro));
+            setText("disclaimerText", localize(page.disclaimer));
+            setText("backToResearch", labels.backToResearch);
+
+            renderLayers();
+            renderCrossChecks();
+            renderMethodology();
+            renderOtherCoverage();
+        }
+
+        function renderLayers() {
+            const root = document.getElementById("layerStack");
+            if (!root) return;
+
+            const layers = Array.isArray(state.coverage.layers) ? state.coverage.layers : [];
+            const html = layers.map(renderLayer).filter(Boolean).join("");
+            root.innerHTML = html || `<div class="empty-state">${escapeHtml(getLabels().emptyLayers)}</div>`;
+        }
+
+        function renderLayer(layer) {
+            const layerReports = state.reports.filter((report) => report.chainLayer === layer.id);
+            if (!layerReports.length) return "";
+
+            const labels = getLabels();
+            const cards = layerReports.map(renderReportCard).join("");
+            const countText = `${layerReports.length} ${labels.reportCount}`;
+
+            return `
+                <article class="layer-panel" data-layer="${escapeHtml(layer.id)}">
+                    <div class="layer-header">
+                        <div class="layer-title-group">
+                            <h3 class="layer-title">${escapeHtml(localize(layer.title))}</h3>
+                            <p class="layer-description">${escapeHtml(localize(layer.description))}</p>
+                        </div>
+                        <span class="layer-count">${escapeHtml(countText)}</span>
+                    </div>
+                    <div class="coverage-card-grid">
+                        ${cards}
+                    </div>
+                </article>
+            `;
+        }
+
+        function renderReportCard(report) {
+            const labels = getLabels();
+            const role = findRole(report.chainRole);
+            const roleBadge = role
+                ? `<span class="role-badge" title="${escapeHtml(localize(role.description))}">${escapeHtml(localize(role.label))}</span>`
+                : "";
+            const title = currentLang === "en"
+                ? report.titleEn || report.title || report.company
+                : report.title || report.titleEn || report.company;
+            const summary = currentLang === "en"
+                ? report.summaryEn || report.summary || ""
+                : report.summary || report.summaryEn || "";
+            const href = report.file || "#";
+
+            return `
+                <article class="coverage-report-card">
+                    <div class="coverage-report-main">
+                        <div class="coverage-report-meta">
+                            <span class="coverage-company">${escapeHtml(report.company || "")} (${escapeHtml(report.ticker || "")})</span>
+                            ${roleBadge}
+                        </div>
+                        <h4 class="coverage-report-title">${escapeHtml(title)}</h4>
+                        <p class="coverage-report-summary">${escapeHtml(summary)}</p>
+                    </div>
+                    <div class="coverage-report-footer">
+                        <a class="read-more" href="${escapeHtml(href)}">${escapeHtml(labels.readReport)}</a>
+                        <span class="update-badge">${escapeHtml(labels.updated)} ${escapeHtml(report.lastUpdate || report.date || "")}</span>
+                    </div>
+                </article>
+            `;
+        }
+
+        function renderCrossChecks() {
+            const root = document.getElementById("crossCheckList");
+            if (!root) return;
+
+            const checks = Array.isArray(state.coverage.crossChecks) ? state.coverage.crossChecks : [];
+            root.innerHTML = checks.map((item) => `
+                <li class="logic-item">
+                    <span>
+                        <span class="logic-label">${escapeHtml(getLabels().ifLabel)}</span>
+                        <span class="logic-text">${escapeHtml(localize(item.if))}</span>
+                    </span>
+                    <span>
+                        <span class="logic-label">${escapeHtml(getLabels().thenLabel)}</span>
+                        <span class="logic-text">${escapeHtml(localize(item.then))}</span>
+                    </span>
+                </li>
+            `).join("");
+        }
+
+        function renderMethodology() {
+            const root = document.getElementById("methodologyList");
+            if (!root) return;
+
+            const items = Array.isArray(state.coverage.methodology) ? state.coverage.methodology : [];
+            root.innerHTML = items.map((item) => `
+                <li class="method-item">
+                    <h3 class="method-title">${escapeHtml(localize(item.title))}</h3>
+                    <p class="method-body">${escapeHtml(localize(item.body))}</p>
+                </li>
+            `).join("");
+        }
+
+        function renderOtherCoverage() {
+            const root = document.getElementById("otherCoverageList");
+            if (!root) return;
+
+            const otherReports = state.reports.filter((report) => !report.chainLayer);
+            if (!otherReports.length) {
+                root.innerHTML = `<li class="empty-state">${escapeHtml(getLabels().emptyOther)}</li>`;
+                return;
+            }
+
+            root.innerHTML = otherReports.map((report) => {
+                const title = currentLang === "en"
+                    ? report.titleEn || report.title || report.company
+                    : report.title || report.titleEn || report.company;
+                const meta = `${report.company || ""} (${report.ticker || ""}) · ${getLabels().updated} ${report.lastUpdate || report.date || ""}`;
+                return `
+                    <li class="other-item">
+                        <span>
+                            <h3 class="other-title">${escapeHtml(title)}</h3>
+                            <span class="other-meta">${escapeHtml(meta)}</span>
+                        </span>
+                        <a class="read-more" href="${escapeHtml(report.file || "#")}">${escapeHtml(getLabels().readReport)}</a>
+                    </li>
+                `;
+            }).join("");
+        }
+
+        function renderLoadError(message) {
+            setText("pageTitle", getLabels().mapHeading);
+            setText("pageSubtitle", message);
+            const fallback = `<div class="empty-state">${escapeHtml(message)}</div>`;
+            setHtml("layerStack", fallback);
+            setHtml("crossCheckList", "");
+            setHtml("methodologyList", "");
+            setHtml("otherCoverageList", fallback);
+        }
+
+        function findRole(roleId) {
+            if (!roleId || !state.coverage || !Array.isArray(state.coverage.roles)) return null;
+            return state.coverage.roles.find((role) => role.id === roleId) || null;
+        }
+
+        function isCurrentReport(report) {
+            return report && report.isCurrent !== false;
+        }
+
+        function parseReportDate(value) {
+            const timestamp = Date.parse(`${value}T00:00:00Z`);
+            return Number.isNaN(timestamp) ? 0 : timestamp;
+        }
+
+        function sortReportsByLatestUpdate(list) {
+            return [...list].sort((a, b) => {
+                const updateDiff = parseReportDate(b.lastUpdate) - parseReportDate(a.lastUpdate);
+                if (updateDiff !== 0) return updateDiff;
+
+                const dateDiff = parseReportDate(b.date) - parseReportDate(a.date);
+                if (dateDiff !== 0) return dateDiff;
+
+                const leftKey = a.company || a.id || "";
+                const rightKey = b.company || b.id || "";
+                return leftKey.localeCompare(rightKey);
+            });
+        }
+
+        function localize(value) {
+            if (!value) return "";
+            if (typeof value === "string") return value;
+            return value[currentLang] || value.zh || value.en || "";
+        }
+
+        function getLabels() {
+            return PAGE_LABELS[currentLang] || PAGE_LABELS.zh;
+        }
+
+        function setText(id, value) {
+            const element = document.getElementById(id);
+            if (element) element.textContent = value || "";
+        }
+
+        function setHtml(id, value) {
+            const element = document.getElementById(id);
+            if (element) element.innerHTML = value;
+        }
+
+        function normalizeLanguage(value) {
+            const lang = String(value || "").toLowerCase();
+            return SUPPORTED_LANGS.includes(lang) ? lang : "";
+        }
+
+        function chooseInitialLanguage() {
+            const params = new URLSearchParams(window.location.search);
+            const queryLang = normalizeLanguage(params.get(LANG_QUERY_KEY));
+            if (queryLang) return queryLang;
+
+            try {
+                const savedLang = normalizeLanguage(window.localStorage.getItem(LANG_STORAGE_KEY));
+                if (savedLang) return savedLang;
+            } catch (error) {
+                return "zh";
+            }
+
+            return "zh";
+        }
+
+        function syncLanguageQuery() {
+            const params = new URLSearchParams(window.location.search);
+            params.set(LANG_QUERY_KEY, currentLang);
+            window.history.replaceState({}, "", `${window.location.pathname}?${params.toString()}`);
+        }
+
+        function bindLanguageSwitch() {
+            const root = document.getElementById("languageSwitch");
+            if (!root) return;
+
+            root.querySelectorAll(".lang-opt").forEach((button) => {
+                button.addEventListener("click", () => {
+                    const nextLang = normalizeLanguage(button.dataset.lang);
+                    if (!nextLang || nextLang === currentLang) return;
+                    currentLang = nextLang;
+                    try {
+                        window.localStorage.setItem(LANG_STORAGE_KEY, currentLang);
+                    } catch (error) {
+                        // localStorage may be unavailable in private or restricted browser contexts.
+                    }
+                    renderPage();
+                });
+            });
+        }
+
+        function renderLanguageSwitch() {
+            const root = document.getElementById("languageSwitch");
+            if (!root) return;
+
+            root.querySelectorAll(".lang-opt").forEach((button) => {
+                const active = button.dataset.lang === currentLang;
+                button.classList.toggle("active", active);
+                button.setAttribute("aria-pressed", active ? "true" : "false");
+            });
+        }
+
+        function escapeHtml(value) {
+            return String(value)
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#39;");
+        }
+    </script>
+</body>
+</html>
