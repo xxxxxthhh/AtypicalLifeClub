@@ -117,7 +117,7 @@ VRT tells us whether data-center power and cooling equipment is moving through t
 | Non-GAAP diluted EPS | $0.87 | Q2 guide implies continuation |
 | Operating cash flow | $1.69B | Cash conversion was very strong |
 
-The Q2 2026 guide calls for about $2.8B of revenue and 46-47% non-GAAP operating margin, with non-GAAP diluted EPS around $0.88. That guide keeps ANET on a high-30s revenue-growth run-rate while maintaining very high profitability.
+The Q2 2026 guide calls for about $2.8B of revenue and 46-47% non-GAAP operating margin, with non-GAAP diluted EPS around $0.88. Against Q2 2025 revenue of $2.205B, that implies roughly 27% year-over-year growth - still robust, but a step down from Q1 2026's 35.1% - while maintaining very high profitability.
 
 ### FY2025 baseline
 
@@ -224,6 +224,7 @@ But the stock already understands much of that. At roughly $206.6B of market cap
 - Arista Networks Form 10-Q for quarter ended March 31, 2026: <https://www.sec.gov/Archives/edgar/data/1596532/000159653226000078/anet-20260331.htm>
 - Arista Networks FY2025 Form 10-K: <https://www.sec.gov/Archives/edgar/data/1596532/000159653226000013/anet-20251231.htm>
 - Arista Networks Q4/FY2025 earnings release, Exhibit 99.1 to Form 8-K filed February 12, 2026: <https://www.sec.gov/Archives/edgar/data/1596532/000159653226000010/ex991q425-earningsrelease.htm>
+- Arista Networks Q2 2025 earnings release, Exhibit 99.1 to Form 8-K filed August 5, 2025: <https://www.sec.gov/Archives/edgar/data/1596532/000159653225000214/ex991q225-earningsrelease.htm>
 - CompaniesMarketCap ANET market capitalization page, including June 29, 2026 end-of-day market cap: <https://companiesmarketcap.com/arista-networks/marketcap/>
 - Nasdaq ANET market activity page used as a market-data cross-reference: <https://www.nasdaq.com/market-activity/stocks/anet>
 
