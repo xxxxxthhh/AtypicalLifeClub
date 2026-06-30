@@ -1,0 +1,230 @@
+# Vertiv (VRT) Deep Research Report
+
+Coverage date: 2026-06-30
+Last updated: 2026-06-30
+Ticker: NYSE: VRT
+Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence. All prices and market caps are point-in-time snapshots; financial figures are per company disclosure unless noted otherwise.
+
+> **Background note:** Vertiv Holdings (formerly Emerson Network Power) provides the power, thermal/cooling, and IT-infrastructure hardware and services that sit *inside* the data center — UPS, switchgear/busbar, air and liquid cooling, integrated racks, prefabricated modules, and lifecycle services. It went public in 2020 via a SPAC led by David Cote (ex-Honeywell CEO). This report is **initial coverage**, and it is framed deliberately as a **demand "dashboard"** for this center's AI-infrastructure chain: read alongside NVIDIA, Broadcom, Corning, GE Vernova, Bloom Energy and SanDisk. Vertiv answers "how does power and heat actually get into the room and the rack" — and its orders/backlog are among the most real-time, hardest-to-fake reads on whether the AI data-center buildout is genuinely proceeding versus merely being announced.
+
+---
+
+## Executive Summary
+
+**One-line thesis:** Vertiv is the picks-and-shovels supplier of data-center power and thermal management — the layer between "where the electricity comes from" (GE Vernova / Bloom / Oklo) and "the chips that consume it" (NVIDIA / Broadcom). As AI racks jump from ~10kW to 100kW+ and force the industry from air to liquid cooling, Vertiv's Q1 2026 print shows the pull: revenue **+30% to $2.65B** (+23% organic, Americas +44% organic), adjusted operating margin **20.8%** (+430bps), adjusted EPS **$1.17** (+83%), and a **$15.0B backlog** (+109% Y/Y). The order book is the tell: it is being booked far faster than it ships.
+
+**Verdict:** **Neutral / high-quality franchise, high expectations (watch).** Vertiv is arguably the cleanest single barometer of AI-capex *velocity*, and execution (margin, FCF, backlog) is excellent. But the stock has roughly **tripled in a year** to ~**$304** (~**$117B** market cap, ~**48x** FY2026E adjusted EPS, ~**80x** trailing GAAP), so it already prices in years of sustained buildout. The debate is not whether AI data-center demand is real (the backlog proves it) but whether the *pace* holds — because Vertiv's high-beta order book cuts both ways.
+
+**Current market read (latest market-data snapshot, 2026-06-26 close; 06-27/06-28 weekend):** VRT closed ~**$304** on 2026-06-26, having pulled back from a recent all-time high near ~**$333** (~$325 on 06-25). On ~**384M** shares, market cap is ~**$117B** (~$128B at the ~$333 high); with ~$3.26B total debt and ~$2.50B cash (net debt ~**$0.76B**), enterprise value is ~**$118B**. The stock is up ~**100% YTD** and ~3x over the past year. Financial source: [Vertiv Q1 2026 8-K (SEC)](https://www.sec.gov/Archives/edgar/data/0001674101/000162828026026379/q12026exhibit991vrt04222026.htm); quote references: [Yahoo Finance VRT](https://finance.yahoo.com/quote/VRT/), [StockAnalysis VRT](https://stockanalysis.com/stocks/vrt/).
+
+**Key data:**
+
+| Metric | Value |
+|--------|-------|
+| Price (2026-06-26 close) | ~$304 (off a ~$333 recent high) |
+| Market cap | ~$117B (~384M shares; ~$128B at the high) |
+| Net debt / EV | ~$0.76B net debt ($3.26B debt − $2.50B cash); EV ~$118B |
+| Forward P/E | ~48x (FY2026E adj EPS $6.30-6.40); ~54x (FY2026E GAAP $5.60-5.70) |
+| Trailing P/E (GAAP) | ~80x |
+| EV/EBITDA (FY2026E, est.) | ~33-35x; EV/Sales ~8.5x |
+| Q1 2026 net sales | $2,650M (+30% Y/Y; +23% organic, +4% M&A, +3% FX) |
+| Q1 2026 Americas organic | +44% |
+| Q1 2026 adj operating margin | 20.8% (+430bps Y/Y) |
+| Q1 2026 adj diluted EPS | $1.17 (+83%); GAAP net income $390M (+137%) |
+| Q1 2026 adj free cash flow | $653M (+147%) |
+| Backlog | $15.0B (Q4 2025, +109% Y/Y); book-to-bill well above 1x |
+| FY2026 guidance (raised) | revenue $13.5-14.0B (organic +29-31%); adj EPS $6.30-6.40 (+51% mid); adj op margin ~23.3% |
+| Liquid-cooling share (2025) | ~11% (≈ tied with Schneider; top-5 ~35%) |
+| Primary competitors | Schneider Electric, Eaton, Modine, Rittal, Stulz |
+| CEO / Exec Chairman | Giordano "Gio" Albertazzi / David Cote |
+
+---
+
+## 1. Business Overview
+
+Vertiv designs, manufactures and services the **critical digital infrastructure** inside data centers, communication networks, and commercial/industrial facilities. Its offerings span four functional areas, sold globally and reported in three geographic segments (**Americas, Asia Pacific, EMEA**):
+
+- **Power management:** UPS systems, switchgear, busbar/busway, power distribution, DC power — the equipment that conditions and routes electricity from the building feed to the rack. Bolstered by recent acquisitions in switchgear/busbar (e.g., E&I/Powerbar).
+- **Thermal management (the growth engine):** air cooling (CRAC/CRAH, chillers) and, increasingly, **liquid cooling** — the CoolChip CDU family (70kW–1,350kW), direct-to-chip cold plates, and immersion. This is where AI density (100kW+ racks) is forcing a generational shift.
+- **Integrated rack & modular solutions:** prefabricated, factory-integrated power+cooling modules that compress data-center construction time — increasingly valued as hyperscalers race to energize capacity.
+- **Services & spares:** installation, monitoring, maintenance, lifecycle management — a recurring, higher-margin annuity attached to the installed base.
+
+**The business model:** Vertiv sells mission-critical hardware where downtime is catastrophic, then attaches multi-year service. Revenue is **order-driven and increasingly long-cycle**: large hyperscale projects are booked into backlog and recognized as built, so **orders and backlog lead revenue by several quarters** — which is exactly what makes Vertiv a forward read on the buildout. Q1 2026 adjusted FCF of $653M (+147%) shows the model converts growth to cash as it scales.
+
+---
+
+## 2. Industry & Competitive Position
+
+### 2.1 The AI density shift: air → liquid, the key inflection
+
+AI accelerators have pushed rack power density from ~10–15kW (traditional) toward **100kW+** (GB200/GB300-class racks), beyond what air cooling can dissipate. This forces **liquid cooling** (direct-to-chip today, immersion emerging) from a niche into a default for AI halls. The data-center liquid-cooling market is estimated at ~**$4–7B in 2026**, growing to ~**$27B by 2033 (~31% CAGR)**. Vertiv is a front-runner with a full portfolio (CDUs, direct-to-chip, immersion) and the power+thermal+integration breadth to sell the whole "grey space." This is the structural tailwind beneath the +30% revenue and the $15B backlog.
+
+### 2.2 Competitive landscape: a two-horse race, with diversified giants closing in
+
+| Player | Position | Note |
+|--------|----------|------|
+| **Vertiv** | ~11% liquid-cooling share (2025); leader in DC power+thermal | Most AI-data-center-pure of the majors |
+| **Schneider Electric** | ~12%, ≈ tied with Vertiv | Larger, more diversified (electrification) |
+| **Eaton** | Closing in; bought Boyd Thermal (Mar 2026) | Diversified electrical; grid + DC |
+| **Others** | Rittal, Stulz, Modine, Boyd | Top-5 ≈ 35% combined |
+
+Vertiv and Schneider are "virtually tied" (Dell'Oro), with the top-5 holding ~35% — a **consolidated but contested** market. Vertiv's edge is focus and portfolio breadth (power + thermal + integrated modular + services under one roof); the risk is that diversified giants (Schneider, Eaton) with deeper electrical franchises and balance sheets press hard, and that cooling hardware faces price competition as capacity expands.
+
+### 2.3 Why Vertiv is the chain's "dashboard"
+
+Vertiv sits at a chokepoint where AI-capex intentions become physical commitments: a hyperscaler cannot energize GPUs without power and cooling gear, and that gear is **ordered before the chips ship**. So Vertiv's **orders, book-to-bill and backlog are a leading, hard-to-fake indicator** of buildout velocity — cross-validating the demand assumptions embedded in this center's NVIDIA, Broadcom, Corning, GE Vernova and Bloom reports. A $15.0B backlog (+109%) and book-to-bill well above 1x say the pipeline is still filling faster than it drains. The corollary: a sharp deceleration in Vertiv orders would be one of the **earliest warnings** for the entire AI-infrastructure chain.
+
+---
+
+## 3. Financial Health
+
+### 3.1 Q1 2026: growth, margin and cash all inflecting up
+
+| Metric | Q1 2026 | Q1 2025 | Change |
+|--------|---------|---------|--------|
+| Net sales | $2,650M | ~$2,036M | +30% (+23% organic) |
+| Adj operating profit | $551M | ~$336M | +64% |
+| Adj operating margin | 20.8% | ~16.5% | +430bps |
+| GAAP operating profit | $440M | — | — |
+| GAAP net income | $390M | ~$165M | +137% |
+| Adj diluted EPS | $1.17 | $0.64 | +83% |
+| Adj free cash flow | $653M | ~$264M | +147% |
+
+The print is high quality: growth is **mostly organic** (+23%), margin expansion is structural (operating leverage + mix toward higher-value thermal/integrated), and cash conversion is strong (adj FCF $653M). Americas organic +44% reflects the U.S. hyperscale buildout directly.
+
+### 3.2 Balance sheet & cash: modest leverage, self-funding growth
+
+- **Cash ~$2.50B; total debt ~$3.26B; net debt ~$0.76B** — light leverage (net debt < 0.3x FY2026E EBITDA), a meaningful contrast to the heavier balance sheets elsewhere in the chain.
+- **Adjusted FCF $653M in Q1** (+147%), funding capacity expansion, bolt-on M&A (switchgear/busbar, thermal) and buybacks/dividend without balance-sheet strain.
+- Capital intensity is moderate (assembly/integration, not fabs), so incremental AI demand drops through to cash efficiently.
+
+### 3.3 Guidance: raised, and implying sustained momentum
+
+| Metric | FY2026 guidance (raised) |
+|--------|--------------------------|
+| Net sales | $13.5B – $14.0B (organic +29–31%) |
+| Adj operating margin | ~23.3% |
+| GAAP diluted EPS | $5.60 – $5.70 |
+| Adj diluted EPS | $6.30 – $6.40 (+51% at midpoint) |
+
+Management *raised* full-year guidance on the Q1 print, implying ~30% organic growth and continued margin expansion to ~23%. The raise — on top of a record backlog — is the clearest signal that the order momentum is being converted, not just promised.
+
+---
+
+## 4. Management & Governance
+
+**CEO Giordano "Gio" Albertazzi** (CEO since Jan 2023, long-time Vertiv/Emerson operator) leads execution; **Executive Chairman David Cote** (ex-Honeywell CEO, who took Vertiv public) anchors capital allocation and discipline; **CFO David Fallon**. Observations:
+
+- **Operating execution:** margin +430bps Y/Y and adj FCF +147% show the team is converting the AI surge into profit and cash, not just revenue — the key test for a hardware scaler.
+- **Capital allocation:** bolt-on M&A into adjacent high-value areas (switchgear/busbar, thermal) plus buybacks and a dividend; net debt kept light through a hyper-growth phase.
+- **Cyclical memory:** this management has run Vertiv through the slower pre-AI cycle, which matters — the franchise is not a pure-play startup riding one wave.
+- **Watch item:** the gap between GAAP and adjusted figures (GAAP EPS $5.60-5.70 vs adj $6.30-6.40) — track what "adjusted" excludes (amortization, stock comp, restructuring) over time.
+
+**Management grade: A- (excellent operating conversion of the AI surge, disciplined balance sheet, experienced through-cycle leadership; the test ahead is sustaining margin and order quality as competition and scale intensify).**
+
+---
+
+## 5. Bull Case
+
+**Core thesis:** Vertiv is a high-quality, well-run beneficiary of a multi-year, density-driven shift in data-center power and cooling, with the backlog and guidance to prove the demand is contracted, not hoped-for.
+
+1. **The backlog is the proof.** $15.0B (+109% Y/Y) and book-to-bill well above 1x mean demand is being booked faster than shipped — multi-quarter forward visibility no ordinary capital-goods firm has.
+2. **Liquid cooling is a generational inflection.** 100kW+ AI racks force air→liquid; Vertiv has the full portfolio (CDU 70kW-1,350kW, direct-to-chip, immersion) in a ~31% CAGR market.
+3. **Margins and cash are inflecting structurally.** Adj op margin 20.8% (+430bps) heading to ~23.3%; adj FCF +147% — operating leverage plus mix, self-funding growth on light leverage.
+4. **Breadth = wallet share.** Power + thermal + integrated modular + services under one roof lets Vertiv sell the whole grey space and attach recurring service — stickier than point-product rivals.
+5. **Cleanest AI-capex velocity read.** As a chokepoint between power and chips, Vertiv's order book is a leading indicator the rest of the chain lacks — and right now it is accelerating.
+
+---
+
+## 6. Bear Case
+
+**Core thesis:** at ~$117B and ~48x forward adjusted EPS after a ~3x year, Vertiv prices in years of uninterrupted hyperscale buildout — and its high-beta order book means any deceleration hits hard and early.
+
+1. **Valuation leaves no slack.** ~48x FY2026E adj EPS, ~54x GAAP, ~80x trailing, ~8.5x EV/Sales — priced for sustained ~30% growth; any wobble in AI-capex pace de-rates it fast.
+2. **High beta to AI capex — both ways.** The same order book that signals strength would signal weakness first: a hyperscaler digestion phase, project delays, or capex reprioritization show up in Vertiv orders before almost anywhere else.
+3. **Order lumpiness & book-to-bill optics.** A book-to-bill near ~2.9x in a standout quarter is not a run-rate; large lumpy hyperscale orders make quarter-to-quarter order growth volatile and easy to misread.
+4. **Competition from diversified giants.** Schneider (≈ tied) and Eaton (Boyd Thermal, Mar 2026) have deeper electrical franchises and balance sheets; cooling hardware can face pricing pressure as capacity floods in.
+5. **Customer concentration / cyclicality.** Hyperscaler demand is concentrated; data-center capex has historically been cyclical, and Vertiv carries some net debt into any downturn (less than peers, but not net cash).
+
+---
+
+## 7. Key Uncertainties
+
+1. **Durability of order momentum.** Is book-to-bill sustainably >1x, or did a few mega-orders flatter recent quarters? When we'll know: quarterly orders/book-to-bill and backlog conversion.
+2. **Liquid-cooling share & margin under competition.** Can Vertiv hold ~11% share and ~23% margin as Schneider/Eaton press and cooling capacity expands? Watch segment margin and competitive design wins.
+3. **AI-capex cycle.** The whole thesis rests on hyperscaler capex staying elevated; a digestion phase is the single biggest swing factor (this is exactly what the **CoreWeave / neocloud** coverage is meant to stress-test).
+4. **Mix & margin ceiling.** How much further can adjusted margin expand before mix/competition cap it? Track incremental margins.
+5. **M&A integration.** Bolt-ons (switchgear/busbar, thermal) must integrate without diluting returns.
+
+**Thesis-breaking events:**
+- If **book-to-bill falls below 1x** for two consecutive quarters, the buildout-velocity thesis is challenged (and it is an early warning for the whole chain).
+- If a **major hyperscaler pauses or stretches** data-center capex, Vertiv orders decelerate first.
+- If **liquid-cooling pricing/margin compresses** as competitors add capacity, the margin-expansion leg breaks.
+
+---
+
+## 8. Valuation Context
+
+> The following is valuation "context," not a price target or a buy/sell recommendation.
+
+- **Forward P/E ~48x (FY2026E adjusted) / ~54x (GAAP):** on guidance of adj EPS $6.30-6.40 and GAAP $5.60-5.70 at ~$304. Richer than the compute names (NVIDIA ~25x, Broadcom ~33x forward) but below Corning's ~71x — reasonable *if* ~30% growth persists, demanding if it doesn't.
+- **Trailing P/E ~80x:** reflects how far earnings still are from the forward run-rate; the multiple only "works" on the forward ramp.
+- **EV/EBITDA ~33-35x (FY2026E, est.) / EV/Sales ~8.5x:** EV ~$118B (market cap ~$117B + net debt ~$0.76B) on ~$13.75B revenue and ~$3.4-3.5B est. adj EBITDA. Premium capital-goods multiples that embed continued double-digit growth and margin expansion.
+- **Reading the multiple:** Vertiv's valuation is a bet on **the duration and pace of the AI data-center buildout.** The backlog de-risks the next several quarters; the multiple is underwritten by the years *after* that. If buildout velocity holds, EPS grows into the multiple; if it digests, both earnings cadence and the multiple compress — a high-beta double.
+
+**Scenario framing (illustrative, not a forecast):**
+- **Base (~50%):** AI buildout stays strong through 2027, backlog converts, margins reach ~23%+ and grind higher; the stock tracks ~30% earnings growth as the multiple slowly compresses.
+- **Bull (~25%):** liquid-cooling adoption + integrated-modular share accelerate, book-to-bill stays >1.5x, margins beat; Vertiv re-rates as the indispensable AI-infrastructure compounder.
+- **Bear (~25%):** hyperscale capex digests, orders decelerate, competition pressures cooling margins; a high-multiple, high-beta name de-rates 35-50% as the order book rolls over.
+
+---
+
+## 9. Catalysts & Monitoring Checklist
+
+**Near-term (0-6 months):**
+- Q2 2026 results (~late July 2026): organic growth, **orders/book-to-bill**, backlog trend, margin, guidance.
+- Hyperscaler capex guidance (MSFT, META, GOOG, AMZN) — Vertiv demand is derivative of total AI-infrastructure spend.
+- Liquid-cooling design wins / new CDU/immersion product traction.
+
+**Medium-term (6-18 months):**
+- Backlog conversion to revenue and the path to ~23%+ margin; incremental margins.
+- Competitive share vs Schneider/Eaton (esp. post-Boyd Thermal integration).
+- Free-cash-flow trajectory and capital-return cadence.
+
+**Long-term (18+ months):**
+- Whether liquid cooling becomes the default AI standard and Vertiv holds share.
+- The next data-center capex cycle phase — still expanding, stabilizing, or digesting?
+- Mix shift toward services/recurring and its margin effect.
+
+**Metrics to monitor continuously:** orders & book-to-bill, backlog, organic growth by region, adj operating margin, adj FCF, net debt, hyperscaler capex, liquid-cooling share.
+
+---
+
+## 10. Conclusion
+
+Vertiv is the most direct, real-time read on whether the AI data-center buildout is actually happening: power and cooling gear is ordered before the chips ship, and Vertiv's order book is filling faster than it empties — a $15.0B backlog (+109%), +30% revenue, +430bps margin, and a *raised* full-year guide. As a franchise it is high quality: experienced through-cycle management, structural margin expansion, strong cash conversion, and light leverage. Within this center's chain it plays a unique double role — both a beneficiary *and* the **dashboard** that cross-checks the demand assumptions in NVIDIA, Broadcom, Corning, GE Vernova and Bloom.
+
+**The quality is largely in the price.** At ~$304 — roughly triple a year ago — Vertiv trades at ~48x FY2026E adjusted EPS (~80x trailing) and ~$117B, pricing in years of sustained ~30% growth. The bet is on the *pace* of the buildout, and Vertiv's high-beta order book is the same instrument on the way down as on the way up: it would flash the warning first.
+
+Consistent with this center's stance on NVIDIA, Broadcom, Corning, GE Vernova, Bloom Energy and SanDisk — "high quality but high expectations" — **we assign a neutral / high-quality, high-expectations (watch) view**: constructive on Vertiv's franchise and the contracted backlog with medium conviction; neutral on near-term entry given a valuation that already discounts years of flawless buildout. Use Vertiv as the chain's velocity gauge — and pair it with the CoreWeave / neocloud risk anchor, which tests whether that velocity is real economic demand or leverage-fueled.
+
+---
+
+## Appendix: Sources & Assumptions
+
+**Primary sources:**
+- [Vertiv Q1 2026 results 8-K / press release (SEC)](https://www.sec.gov/Archives/edgar/data/0001674101/000162828026026379/q12026exhibit991vrt04222026.htm) — quarter ended March 31, 2026, reported April 22, 2026
+- [Vertiv Q1 2026 results (IR)](https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-First-Quarter-with-Diluted-EPS-Growth-of-136-Adjusted-Diluted-EPS-Growth-of-83-Raises-Full-Year-Guidance/default.aspx) — revenue, margin, EPS, raised FY2026 guidance
+- [Vertiv Q4 2025 results 8-K (SEC)](https://www.sec.gov/Archives/edgar/data/0001674101/000167410126000006/exhibit991vrt02112026.htm) — $15.0B backlog (+109%), book-to-bill
+- [Vertiv Q1 2026 10-Q (SEC)](https://www.sec.gov/Archives/edgar/data/0001674101/000162828026026556/vrt-20260331.htm) — balance sheet (debt, cash)
+- Quote/valuation references: [Yahoo Finance VRT](https://finance.yahoo.com/quote/VRT/), [StockAnalysis VRT](https://stockanalysis.com/stocks/vrt/)
+- Liquid-cooling market/share: Dell'Oro Group / MarketsandMarkets data as cited by industry press
+
+**Key assumptions & basis:**
+- Price ~$304 = 2026-06-26 U.S. close (off a recent ATH ~$333 / ~$325 on 06-25); ~384M shares → market cap ~$117B (~$128B at the high). Actual quoted price may differ intraday.
+- Net debt ~$0.76B = ~$3.26B total debt − ~$2.50B cash → EV ~$118B.
+- Q1 2026 (quarter ended Mar 31, 2026): net sales $2,650M (+30%, +23% organic), adj operating margin 20.8%, adj diluted EPS $1.17, GAAP net income $390M, adj FCF $653M — per the April 22, 2026 8-K. "Adjusted" excludes amortization of intangibles, stock comp, restructuring and certain items; track the GAAP-vs-adjusted gap.
+- Backlog $15.0B (+109% Y/Y) and book-to-bill are Q4 2025 figures (reported Feb 2026); reconcile to the latest quarter as reported. A single-quarter book-to-bill near ~2.9x reflects lumpy large orders and is not a run-rate.
+- Forward multiples use FY2026E guidance: adj EPS $6.30-6.40, GAAP EPS $5.60-5.70, revenue $13.5-14.0B, adj op margin ~23.3%; EV/EBITDA uses an estimated ~$3.4-3.5B FY2026E adj EBITDA (revenue × ~24% + D&A) and is approximate.
+- Liquid-cooling share ~11% (2025, ≈ tied with Schneider ~12%; top-5 ~35%) per Dell'Oro/industry data; market ~$4-7B (2026) → ~$27B (2033, ~31% CAGR).
+- This report is **initial coverage**; refresh price, orders/backlog, margin and guidance at the next quarterly result.
