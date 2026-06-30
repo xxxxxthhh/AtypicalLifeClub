@@ -1,5 +1,37 @@
 [
   {
+    "id": "arista-2026",
+    "company": "Arista Networks",
+    "ticker": "NYSE: ANET",
+    "title": "Arista Networks 深度研究报告 - AI 集群开放以太网 fabric 的系统软件卖铲人",
+    "titleEn": "Arista Networks Deep Research Report - The Open Ethernet Fabric of AI Clusters",
+    "summary": "AI 集群网络层首次覆盖：Arista 是开放以太网/AI spine/scale-out 网络的系统软件卖铲人，正面回答 NVIDIA Spectrum-X/InfiniBand/NVLink 一体化 vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet 生态的路线之争。Q1 2026 营收 $2.709B(+35.1%)、GAAP/非GAAP营业利润率 42.7%/47.8%、非GAAP EPS $0.87、经营现金流 $1.69B；Q2 指引营收约 $2.8B。FY2025 Cloud and AI Titans/AI Specialty Providers 占收入 48%/20%，Core AI/Cloud/Data Center Networking 占 65%。但两大匿名终端客户合计约 42% 收入(26%/16%)、高度依赖 Broadcom merchant silicon，且 Jun 29 2026 市值约 $206.6B、约 56x TTM GAAP P/E、约 47x 当前非GAAP EPS运行率。中性/高质量但高预期(观察)。",
+    "tags": [
+      "AI网络",
+      "以太网",
+      "数据中心",
+      "云基础设施"
+    ],
+    "category": "tech",
+    "date": "2026-06-30",
+    "lastUpdate": "2026-06-30",
+    "file": "/invest/research/reports/view.html?id=arista-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Arista_Networks_深度研究报告_2026-06.md",
+      "en": "/invest/research/Arista_Networks_Deep_Research_Report_2026-06.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "AI 集群网络层补位：ANET 不是光模块/光纤层，而是开放以太网交换系统、EOS、CloudVision、遥测与 AI fabric 控制点；可交叉校验 NVDA/AVGO/AAOI/GLW/VRT/CRWV",
+      "Q1 2026 营收 $2.709B(+35.1%)、非GAAP营业利润率 47.8%、非GAAP EPS $0.87、经营现金流 $1.69B；现金+可交易证券约 $12.35B、基本无债，Q2 指引收入约 $2.8B",
+      "路线之争：NVIDIA 一体化网络栈(Spectrum-X/InfiniBand/NVLink) vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet；ANET 更像 Broadcom 生态客户/伙伴，而非直接替代",
+      "核心风险：两大匿名终端客户合计约 42% 收入(26%/16%)、主要依赖 Broadcom merchant silicon；市值约 $206.6B、约 56x TTM GAAP P/E、约 47x 当前非GAAP EPS运行率，估值容错率低"
+    ],
+    "summaryEn": "Initial coverage of the AI cluster networking layer: Arista is the open Ethernet / AI spine / scale-out systems-software pick-and-shovel, directly testing NVIDIA Spectrum-X/InfiniBand/NVLink integration vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet. Q1 2026 revenue was $2.709B (+35.1%), GAAP/non-GAAP operating margin 42.7%/47.8%, non-GAAP EPS $0.87, and operating cash flow $1.69B; Q2 guide is about $2.8B revenue. FY2025 Cloud and AI Titans / AI Specialty Providers were 48%/20% of revenue, and Core AI/Cloud/Data Center Networking was 65%. But two anonymous end customers were ~42% of revenue (26%/16%), Arista is highly reliant on Broadcom merchant silicon, and at the Jun 29 2026 market cap of ~$206.6B the stock trades around 56x TTM GAAP earnings and ~47x current non-GAAP EPS run-rate. Neutral / high-quality but high expectations (watch)."
+  },
+  {
     "id": "coreweave-2026",
     "company": "CoreWeave",
     "ticker": "NASDAQ: CRWV",
