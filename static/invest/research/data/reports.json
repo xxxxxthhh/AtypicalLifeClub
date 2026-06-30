@@ -5,7 +5,7 @@
     "ticker": "NYSE: VRT",
     "title": "Vertiv 深度研究报告 - AI 数据中心电力与散热的卖铲人（建设速度仪表盘）",
     "titleEn": "Vertiv Deep Research Report - The Power & Cooling Pick-and-Shovel of AI Data Centers (Buildout Dashboard)",
-    "summary": "数据中心电力与热管理（含液冷）卖铲人，位于『电从哪来』(GEV/Bloom)与『芯片』(NVDA/AVGO)之间，是 AI 建设速度最实时的『仪表盘』。Q1 2026 营收$26.5亿(+30%，有机+23%、美洲有机+44%)、调整后营业利润率20.8%(+430bps)、调整后EPS $1.17(+83%)、调整后FCF $6.53亿(+147%)；backlog $150亿(+109%)、book-to-bill 远高于1。FY2026指引上调至营收$135-140亿、调整后EPS $6.30-6.40。但股价一年约3倍至~$304、市值~$1,170亿、~48倍前瞻调整后EPS(~80倍滚动)，已定价多年持续建设；高beta订单簿是双刃剑。中性/高质量但高预期(观察)。",
+    "summary": "数据中心电力与热管理（含液冷）卖铲人，位于『电从哪来』(GEV/Bloom)与『芯片』(NVDA/AVGO)之间，是 AI 建设速度最实时的『仪表盘』。Q1 2026 营收$26.5亿(+30%，有机+23%、美洲有机+44%)、调整后营业利润率20.8%(+430bps)、调整后EPS $1.17(+83%)、调整后FCF $6.53亿(+147%)；最新披露的 Q4 2025 backlog $150亿(+109%)、book-to-bill ~2.9x。FY2026指引上调至营收$135-140亿、调整后EPS $6.30-6.40。但股价一年约3倍至$306.97、市值~$1,179亿、~48倍前瞻调整后EPS(~80倍滚动)，已定价多年持续建设；高beta订单簿是双刃剑。中性/高质量但高预期(观察)。",
     "tags": [
       "数据中心",
       "AI基础设施",
@@ -25,11 +25,11 @@
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
       "AI 数据中心电力+热管理(含液冷)卖铲人，是建设速度最实时、最难造假的『仪表盘』，可交叉校验 NVDA/AVGO/GLW/GEV/Bloom 的需求假设",
-      "Q1 2026 营收$26.5亿(+30%、有机+23%、美洲+44%)、调整后营业利润率20.8%(+430bps)、调整后EPS $1.17(+83%)、调整后FCF $6.53亿(+147%)；backlog $150亿(+109%)，FY2026指引上调",
-      "液冷代际拐点(100kW+ 机柜，~31% CAGR市场)；Vertiv 份额~11%、与施耐德并列；轻杠杆(净债务~$7.6亿)自我造血",
-      "核心风险：股价一年约3倍、~48倍前瞻调整后EPS(~80倍滚动)、~$1,170亿，已定价多年建设；高beta订单簿双向，AI资本开支消化/竞争(施耐德/伊顿)是主要风险"
+      "Q1 2026 营收$26.5亿(+30%、有机+23%、美洲+44%)、调整后营业利润率20.8%(+430bps)、调整后EPS $1.17(+83%)、调整后FCF $6.53亿(+147%)；Q4 2025 backlog $150亿(+109%)、book-to-bill ~2.9x，FY2026指引上调",
+      "液冷代际拐点(100kW+ 机柜)；Vertiv 是一线电力+热管理供应商，但公开份额/TAM估算口径分散，需按行业来源跟踪；轻杠杆(净债务~$7.6亿)自我造血",
+      "核心风险：股价一年约3倍至$306.97、~48倍前瞻调整后EPS(~80倍滚动)、市值~$1,179亿，已定价多年建设；高beta订单簿双向，AI资本开支消化/竞争(施耐德/伊顿)是主要风险"
     ],
-    "summaryEn": "Power & thermal (incl. liquid cooling) pick-and-shovel for data centers, sitting between 'where power comes from' (GEV/Bloom) and 'the chips' (NVDA/AVGO) — the most real-time 'dashboard' of AI buildout velocity. Q1 2026 revenue $2.65B (+30%, +23% organic, Americas +44%), adj operating margin 20.8% (+430bps), adj EPS $1.17 (+83%), adj FCF $653M (+147%); backlog $15.0B (+109%), book-to-bill well above 1x. FY2026 guidance raised to revenue $13.5-14.0B, adj EPS $6.30-6.40. But the stock ~3x'd in a year to ~$304 / ~$117B / ~48x forward adj EPS (~80x trailing), pricing in years of sustained buildout; the high-beta order book cuts both ways. Neutral / high-quality but high expectations (watch)."
+    "summaryEn": "Power & thermal (incl. liquid cooling) pick-and-shovel for data centers, sitting between 'where power comes from' (GEV/Bloom) and 'the chips' (NVDA/AVGO) — the most real-time 'dashboard' of AI buildout velocity. Q1 2026 revenue $2.65B (+30%, +23% organic, Americas +44%), adj operating margin 20.8% (+430bps), adj EPS $1.17 (+83%), adj FCF $653M (+147%); latest disclosed Q4 2025 backlog was $15.0B (+109%) with book-to-bill ~2.9x. FY2026 guidance raised to revenue $13.5-14.0B, adj EPS $6.30-6.40. But the stock ~3x'd in a year to $306.97 / ~$117.9B / ~48x forward adj EPS (~80x trailing), pricing in years of sustained buildout; the high-beta order book cuts both ways. Neutral / high-quality but high expectations (watch)."
   },
   {
     "id": "corning-2026",
