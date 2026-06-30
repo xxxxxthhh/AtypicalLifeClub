@@ -5,7 +5,7 @@
     "ticker": "NASDAQ: CRWV",
     "title": "CoreWeave 深度研究报告 - AI 建设的风险锚：真实需求还是杠杆与循环融资？",
     "titleEn": "CoreWeave Deep Research Report - The AI Buildout's Risk Anchor: Real Demand or Leverage & Circular Financing?",
-    "summary": "本中心 AI 基础设施书的『风险锚』，刻意以熊市为主轴写。GPU『neocloud』，一边是 $994 亿 RPO backlog 与 56% 调整后 EBITDA，一边是扩大的 GAAP 净亏损（Q1 2026 −$7.4 亿）、约 $350 亿债务、$310-350 亿 2026 资本开支（约 3 倍营收）。客户集中（微软约占 FY2025 收入 67%），NVIDIA 同时是供应商+股东（$20 亿@$87）+$63 亿产能兜底（循环性）。Q1 2026 营收 $21 亿(+112%)，FY2026 指引营收 $120-130 亿、退出 ARR $180-190 亿。股价已较 2025 峰值回落约 47% 至约 $96、市值约 $520 亿、净债务约 $330 亿(占 EV 37%)。中心问题：是真实经济需求还是被杠杆催起的提前囤货？高风险/偏熊（回避-观察）。",
+    "summary": "本中心 AI 基础设施书的『风险锚』，刻意以熊市为主轴写。GPU『neocloud』，一边是 $994 亿公司定义收入 backlog（RPO + 其他承诺客户合同金额）与 56% 调整后 EBITDA，一边是扩大的 GAAP 净亏损（Q1 2026 −$7.4 亿）、约 $249 亿债务、约 $100 亿经营租赁负债、$310-350 亿 2026 资本开支（约 3 倍营收）。客户集中（微软历史上收入占比 >60%；CNBC 引 2024 年为 62%），NVIDIA 同时是供应商+股东（$20 亿@$87）+$63 亿产能兜底（循环性）。Q1 2026 营收 $20.78 亿(+112%)，FY2026 指引营收 $120-130 亿。股价已较 2025 峰值回落约 47% 至约 $96、市值约 $520 亿、经营租赁前金融净债务约 $229 亿、含经营租赁净义务栈约 $329 亿。中心问题：是真实经济需求还是被杠杆催起的提前囤货？高风险/偏熊（回避-观察）。",
     "tags": [
       "AI云",
       "AI基础设施",
@@ -25,11 +25,11 @@
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
       "本中心 AI 基础设施书的『风险锚』，以熊市为主轴：检验 AI 建设是真实经济需求、还是被杠杆与循环融资吹起的提前囤货——四条 kill-criterion 的读数回传整本书",
-      "矛盾核心：$994 亿 RPO + 56% 调整后 EBITDA vs 扩大的 GAAP 净亏损(Q1'26 −$7.4 亿)、约 $350 亿债务、$310-350 亿 2026 资本开支(约 3 倍营收)；GPU 6 年折旧寿命有争议",
-      "循环性：微软约占 FY2025 收入 67%；NVIDIA 是供应商+股东($20 亿@$87)+$63 亿产能兜底(最后买家至 2032)；微软自建(MAI)、OpenAI 分散、Core Scientific 收购被否",
-      "股价已较 2025 峰值回落约 47% 至约 $96、市值约 $520 亿、净债务约 $330 亿(占 EV 37%)；偿付能力敏感、高 beta 杠杆期权。高风险/偏熊(回避-观察)"
+      "矛盾核心：$994 亿公司定义收入 backlog + 56% 调整后 EBITDA vs 扩大的 GAAP 净亏损(Q1'26 −$7.4 亿)、约 $249 亿债务、约 $100 亿经营租赁负债、$310-350 亿 2026 资本开支(约 3 倍营收)；GPU 6 年折旧寿命有争议",
+      "循环性：微软历史上收入占比 >60%；NVIDIA 是供应商+股东($20 亿@$87)+$63 亿产能兜底(最后买家至 2032)；微软自建(MAI)、OpenAI 分散、Core Scientific 收购被否",
+      "股价已较 2025 峰值回落约 47% 至约 $96、市值约 $520 亿、经营租赁前金融净债务约 $229 亿、含经营租赁净义务栈约 $329 亿；偿付能力敏感、高 beta 杠杆期权。高风险/偏熊(回避-观察)"
     ],
-    "summaryEn": "The AI-infra book's 'risk anchor', written deliberately bear-led. A GPU 'neocloud' that pairs a $99.4B RPO backlog and 56% adjusted EBITDA with a widening GAAP net loss (Q1 2026 -$740M), ~$35B debt, and $31-35B of 2026 capex (~3x revenue). Customer-concentrated (Microsoft ~67% of FY2025 revenue); NVIDIA is supplier + shareholder ($2B at $87) + $6.3B capacity backstop (circularity). Q1 2026 revenue $2.1B (+112%); FY2026 guide revenue $12-13B, exit ARR $18-19B. The stock is already ~47% off 2025 peaks at ~$96, market cap ~$52B, net debt ~$33B (~37% of EV). Central question: real economic demand or leverage-fueled pre-stocking? High-risk / bear-leaning (avoid-to-watch)."
+    "summaryEn": "The AI-infra book's 'risk anchor', written deliberately bear-led. A GPU 'neocloud' that pairs a $99.4B company-defined revenue backlog (RPO plus other committed-contract amounts) and 56% adjusted EBITDA with a widening GAAP net loss (Q1 2026 -$740M), ~$24.9B debt, ~$10.1B operating lease liabilities, and $31-35B of 2026 capex (~3x revenue). Customer-concentrated (Microsoft historically >60% of revenue; CNBC cited 62% for 2024); NVIDIA is supplier + shareholder ($2B at $87) + $6.3B capacity backstop (circularity). Q1 2026 revenue $2.078B (+112%); FY2026 guide revenue $12-13B. The stock is already ~47% off 2025 peaks at ~$96, market cap ~$52B, financial net debt ~$22.9B before operating leases and ~$32.9B net obligation stack incl. operating leases. Central question: real economic demand or leverage-fueled pre-stocking? High-risk / bear-leaning (avoid-to-watch)."
   },
   {
     "id": "corning-2026",
