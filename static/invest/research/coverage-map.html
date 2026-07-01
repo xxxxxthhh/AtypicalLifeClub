@@ -381,12 +381,11 @@
     </main>
 
     <script src="/shared/theme-switcher.js"></script>
+    <script src="/shared/report-utils.js"></script>
+    <script src="/shared/lang-switch.js"></script>
     <script>
         const COVERAGE_MAP_URL = "/invest/research/data/coverage-map.json";
         const REPORTS_DATA_URL = "/invest/research/data/reports.json";
-        const LANG_QUERY_KEY = "lang";
-        const LANG_STORAGE_KEY = "research_coverage_map_lang";
-        const SUPPORTED_LANGS = ["zh", "en"];
 
         const PAGE_LABELS = {
             zh: {
@@ -464,8 +463,8 @@
             const labels = getLabels();
             document.documentElement.lang = currentLang === "zh" ? "zh-CN" : "en";
             document.title = labels.documentTitle;
-            renderLanguageSwitch();
-            syncLanguageQuery();
+            renderLanguageSwitchUI(currentLang);
+            syncLanguageQuery(currentLang);
 
             if (!state.coverage) {
                 renderLoadError(labels.loadError);
@@ -629,29 +628,6 @@
             return state.coverage.roles.find((role) => role.id === roleId) || null;
         }
 
-        function isCurrentReport(report) {
-            return report && report.isCurrent !== false;
-        }
-
-        function parseReportDate(value) {
-            const timestamp = Date.parse(`${value}T00:00:00Z`);
-            return Number.isNaN(timestamp) ? 0 : timestamp;
-        }
-
-        function sortReportsByLatestUpdate(list) {
-            return [...list].sort((a, b) => {
-                const updateDiff = parseReportDate(b.lastUpdate) - parseReportDate(a.lastUpdate);
-                if (updateDiff !== 0) return updateDiff;
-
-                const dateDiff = parseReportDate(b.date) - parseReportDate(a.date);
-                if (dateDiff !== 0) return dateDiff;
-
-                const leftKey = a.company || a.id || "";
-                const rightKey = b.company || b.id || "";
-                return leftKey.localeCompare(rightKey);
-            });
-        }
-
         function localize(value) {
             if (!value) return "";
             if (typeof value === "string") return value;
@@ -672,32 +648,6 @@
             if (element) element.innerHTML = value;
         }
 
-        function normalizeLanguage(value) {
-            const lang = String(value || "").toLowerCase();
-            return SUPPORTED_LANGS.includes(lang) ? lang : "";
-        }
-
-        function chooseInitialLanguage() {
-            const params = new URLSearchParams(window.location.search);
-            const queryLang = normalizeLanguage(params.get(LANG_QUERY_KEY));
-            if (queryLang) return queryLang;
-
-            try {
-                const savedLang = normalizeLanguage(window.localStorage.getItem(LANG_STORAGE_KEY));
-                if (savedLang) return savedLang;
-            } catch (error) {
-                return "zh";
-            }
-
-            return "zh";
-        }
-
-        function syncLanguageQuery() {
-            const params = new URLSearchParams(window.location.search);
-            params.set(LANG_QUERY_KEY, currentLang);
-            window.history.replaceState({}, "", `${window.location.pathname}?${params.toString()}`);
-        }
-
         function bindLanguageSwitch() {
             const root = document.getElementById("languageSwitch");
             if (!root) return;
@@ -707,34 +657,10 @@
                     const nextLang = normalizeLanguage(button.dataset.lang);
                     if (!nextLang || nextLang === currentLang) return;
                     currentLang = nextLang;
-                    try {
-                        window.localStorage.setItem(LANG_STORAGE_KEY, currentLang);
-                    } catch (error) {
-                        // localStorage may be unavailable in private or restricted browser contexts.
-                    }
+                    saveLanguage(currentLang);
                     renderPage();
                 });
             });
-        }
-
-        function renderLanguageSwitch() {
-            const root = document.getElementById("languageSwitch");
-            if (!root) return;
-
-            root.querySelectorAll(".lang-opt").forEach((button) => {
-                const active = button.dataset.lang === currentLang;
-                button.classList.toggle("active", active);
-                button.setAttribute("aria-pressed", active ? "true" : "false");
-            });
-        }
-
-        function escapeHtml(value) {
-            return String(value)
-                .replace(/&/g, "&amp;")
-                .replace(/</g, "&lt;")
-                .replace(/>/g, "&gt;")
-                .replace(/"/g, "&quot;")
-                .replace(/'/g, "&#39;");
         }
     </script>
 </body>

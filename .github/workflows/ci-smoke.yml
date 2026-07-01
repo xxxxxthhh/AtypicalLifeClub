@@ -28,6 +28,9 @@ jobs:
       - name: Validate research metadata
         run: python3 static/invest/research/validate_reports.py
 
+      - name: Validate coverage map
+        run: python3 static/invest/research/validate_coverage_map.py
+
       - name: Validate currency data
         run: python3 static/invest/currency/validate_data.py
 

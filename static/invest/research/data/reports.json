@@ -141,6 +141,7 @@
     "title": "NVIDIA 深度研究报告 - AI 计算中枢的高质量与高预期",
     "titleEn": "NVIDIA Deep Research Report - The AI Compute Hub, High Quality Meets High Expectations",
     "summary": "AI 计算革命的绝对中枢，Q1 FY2027 营收 $81.6B（+85% YoY）、数据中心 $75.2B（+92%），且这份创纪录报表在中国数据中心收入归零的前提下完成，Q2 FY2027 指引 $91.0B。反直觉点：作为全球市值第一（约 $4.76 万亿），远期 P/E 约 25x 反而低于 AMD 约 58x、Broadcom 约 33x。风险不在倍数，而在分母——AI 资本开支可持续性、自定义 ASIC 替代、中国结构性丢失与循环融资减值。中性/高质量但高预期（观察）。",
+    "summaryEn": "The absolute center of the AI compute revolution. Q1 FY2027 revenue was $81.6B (+85% YoY), Data Center was $75.2B (+92%), and the record print came despite China data-center revenue going to zero; Q2 FY2027 guidance is $91.0B. The counterintuitive point: as the world's largest company by market cap (~$4.76T), NVIDIA trades around ~25x forward P/E, below AMD at ~58x and Broadcom at ~33x. The risk is not the multiple, but the denominator: AI capex durability, custom ASIC substitution, structural China loss, and circular-financing impairment. Neutral / high-quality but high expectations (watch).",
     "tags": [
       "AI计算",
       "GPU",
@@ -173,6 +174,7 @@
     "title": "AAOI 深度研究报告 - AI数据中心光模块高弹性与高估值考验",
     "titleEn": "AAOI Deep Research Report - AI Data Center Optics Upside Meets a Demanding Valuation",
     "summary": "AI数据中心光模块高弹性标的，Q1 2026营收$151.1M（+51%），Data Center收入$81.4M（+154%），800G产品已向大型hyperscale客户首批量产出货。Q2指引收入$180-198M，Q3随产能上线预计显著放大。但GAAP仍亏损、经营现金流-$85.4M，当前EV/TTM Sales约26.6x，客户集中和ATM稀释是核心风险。",
+    "summaryEn": "High-beta AI data-center optical-module exposure. Q1 2026 revenue was $151.1M (+51%), Data Center revenue was $81.4M (+154%), and 800G products began initial mass-production shipments to a large hyperscale customer. Q2 guidance is $180-198M, with Q3 expected to step up as capacity comes online. But GAAP remains loss-making, operating cash flow was -$85.4M, current EV/TTM Sales is about 26.6x, and customer concentration plus ATM dilution are core risks.",
     "tags": [
       "光通信",
       "AI数据中心",
@@ -1043,6 +1045,7 @@
     "title": "AMD 深度研究报告 - AI时代的半导体挑战者",
     "titleEn": "AMD Deep Research Report - AI Era Semiconductor Challenger",
     "summary": "2026-06-22完整重跑版：AMD Q1 2026营收$102.53亿（+38% YoY），Data Center收入约$58亿（+57% YoY），Meta 6GW与Helios/MI450强化AI基础设施平台叙事；但股价约$537、市值约$8,870亿，EV/TTM Sales约23.4x，当前结论调整为中性/观察：基本面强，估值容错极低。",
+    "summaryEn": "June 22, 2026 full rerun: AMD Q1 2026 revenue was $10.253B (+38% YoY), Data Center revenue was about $5.8B (+57% YoY), and Meta's 6GW Instinct GPU partnership plus Helios/MI450 strengthen the AI infrastructure platform story. But at roughly $537 per share, ~$887B market cap, and ~23.4x EV/TTM Sales, the conclusion is neutral/watch: fundamentals are stronger, but valuation tolerance is very low.",
     "tags": [
       "半导体",
       "AI加速器",

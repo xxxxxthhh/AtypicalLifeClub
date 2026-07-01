@@ -78,14 +78,6 @@ def require_string(value: Json, label: str) -> str:
     return value
 
 
-def optional_bool(value: Json, label: str) -> bool | None:
-    if value is None:
-        return None
-    if not isinstance(value, bool):
-        fail(f"{label} must be a boolean when present")
-    return value
-
-
 def read_entries(root: dict[str, Json], key: str) -> list[dict[str, Json]]:
     items = require_list(root.get(key), f"coverage-map.json.{key}")
     entries: list[dict[str, Json]] = []
@@ -99,11 +91,6 @@ def read_ids(entries: list[dict[str, Json]], label: str) -> list[str]:
     for index, entry in enumerate(entries):
         ids.append(require_string(entry.get("id"), f"{label}[{index}].id"))
     return ids
-
-
-def is_current_report(report: dict[str, Json]) -> bool:
-    current = optional_bool(report.get("isCurrent"), "report.isCurrent")
-    return current is not False
 
 
 def validate_layer_and_role_ids(coverage: dict[str, Json]) -> None:
@@ -121,7 +108,6 @@ def validate_layer_and_role_ids(coverage: dict[str, Json]) -> None:
 def validate_report_metadata(reports: list[dict[str, Json]], coverage: dict[str, Json]) -> None:
     layer_ids = set(read_ids(read_entries(coverage, "layers"), "layers"))
     role_ids = set(read_ids(read_entries(coverage, "roles"), "roles"))
-    current_foundry_ids: list[str] = []
 
     for index, report in enumerate(reports):
         report_id = require_string(report.get("id"), f"report[{index}].id")
@@ -131,8 +117,6 @@ def validate_report_metadata(reports: list[dict[str, Json]], coverage: dict[str,
             layer = require_string(chain_layer, f"report[{index}].chainLayer")
             if layer not in layer_ids:
                 fail(f"{report_id} has unknown chainLayer: {layer}")
-            if layer == "foundry" and is_current_report(report):
-                current_foundry_ids.append(report_id)
 
         chain_role = report.get("chainRole")
         if chain_role is not None:
@@ -141,9 +125,6 @@ def validate_report_metadata(reports: list[dict[str, Json]], coverage: dict[str,
                 fail(f"{report_id} has unknown chainRole: {role}")
             if role == "supplier-layer":
                 fail(f"{report_id} uses forbidden chainRole supplier-layer")
-
-    if current_foundry_ids:
-        fail(f"foundry layer should be empty for now: {current_foundry_ids}")
 
 
 def validate_page_wiring() -> None:
