@@ -13,17 +13,17 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 **One-line thesis:** Nebius is the "clean" neocloud — hyper-growth (Q1 2026 revenue **+684%**, AI-cloud ARR **$1.92B** exiting Q1), **positive** adjusted EBITDA and **$2.3B of operating cash flow**, funded by ~**$9.3B of cash**, customer prepayments and convertibles rather than CoreWeave-style GPU-collateralized leverage — but it is priced for perfection (~**17-19x** EV/2026E revenue), its GAAP profit is an accounting artifact of a non-cash ClickHouse mark, and it is quietly accumulating the **same** hyperscaler concentration (Microsoft + Meta) and **same** NVIDIA circularity it is supposed to be the diversified answer to.
 
-**Verdict:** **High-quality-but-high-expectations / high-risk (watch).** This is *not* written bear-led like CoreWeave — Nebius is a genuinely stronger balance sheet and a more integrated, more optionality-rich business. But "stronger than the risk anchor" is not "safe": at ~$60-66B the market already awards Nebius roughly **3x CoreWeave's revenue multiple**, so the entire quality premium — self-funding, vertical integration, ClickHouse/Toloka optionality, Nasdaq-100 membership — is in the price, and the execution bar (a **$20-25B** 2026 capex ramp against $3.0-3.4B of revenue) is extreme. Own it, if at all, as a high-beta long on the AI buildout — and read it against CoreWeave as the tell for whether neocloud risk is *financial* or *fundamental*.
+**Verdict:** **High-quality-but-high-expectations / high-risk (watch).** This is *not* written bear-led like CoreWeave — Nebius is a genuinely stronger balance sheet and a more integrated, more optionality-rich business. But "stronger than the risk anchor" is not "safe": at ~$60-66B the market already awards Nebius roughly **3x CoreWeave's revenue multiple**, so the entire quality premium — self-funding, vertical integration, ClickHouse/Toloka optionality, Nasdaq-100 membership — is in the price, and the execution bar (a **$20-25B** 2026 capex ramp against $3.0-3.4B of revenue) is extreme. Analytically, this belongs in the book as a monitored, high-beta AI-buildout exposure rather than a margin-of-safety value case — and it should be read against CoreWeave as the tell for whether neocloud risk is *financial* or *fundamental*.
 
-**Current market read (latest snapshot, 2026-07-01):** NBIS ~**$240** (a volatile, high-beta name; it printed ~**$256** and ~**$66B** market cap around its June-22 Nasdaq-100 inclusion, and is up roughly **+165-185% YTD**). On ~**252M** shares (≈253.9M issued), market cap is ~**$61B** at ~$240 (~$60-66B across late-June/early-July). The Q1 2026 balance sheet shows ~**$9.3B cash** against ~**$8.4B** of non-current debt — of which ~$4.34B is convertible notes and ~$2.0B is a prefunded-warrant instrument (quasi-equity, associated with NVIDIA's $2B strategic investment) — leaving Nebius roughly **net-cash-neutral to ~$5B net cash** depending on treatment, and an enterprise value of roughly **$56-61B**, i.e., at or just below market cap. This is the polar opposite of CoreWeave's ~$23-33B net-obligation stack. Sources: [Nebius Q1 2026 press release (SEC 6-K)](https://www.sec.gov/Archives/edgar/data/0001513845/000110465926064092/nbis-20260331xex99d2.htm); quote references: [Yahoo Finance NBIS](https://finance.yahoo.com/quote/NBIS/), [StockAnalysis NBIS](https://stockanalysis.com/stocks/nbis/), [Macrotrends NBIS market cap](https://www.macrotrends.net/stocks/charts/NBIS/nebius-group/market-cap).
+**Current market read (latest snapshot, 2026-07-01):** NBIS ~**$240** (a volatile, high-beta name; it printed ~**$256** and ~**$66B** market cap around its June-22 Nasdaq-100 inclusion, and is up roughly **+165-185% YTD**). On ~**253.9M shares outstanding** (issued and outstanding, excluding treasury, at Mar. 31, 2026), market cap is ~**$61B** at ~$240 (~$60-66B across late-June/early-July). The Q1 2026 balance sheet shows ~**$9.3B cash** against ~**$8.4B** of non-current debt and ~**$1.0B** of operating lease liabilities; within non-current debt, ~$4.34B is convertible notes and ~$2.0B is a prefunded-warrant instrument (quasi-equity, associated with NVIDIA's $2B strategic investment). On a financial-debt basis, Nebius is roughly **net-cash-neutral to ~$5B net cash** depending on prefunded-warrant treatment; after operating leases, it is roughly **lease-adjusted neutral to ~$4B net cash**. EV is therefore roughly **$57-61B**, still dramatically cleaner than CoreWeave's ~$23-33B net-obligation stack but not a pure no-liability net-cash story. Sources: [Nebius Q1 2026 press release (SEC 6-K)](https://www.sec.gov/Archives/edgar/data/0001513845/000110465926064092/nbis-20260331xex99d2.htm); quote references: [Yahoo Finance NBIS](https://finance.yahoo.com/quote/NBIS/), [StockAnalysis NBIS](https://stockanalysis.com/stocks/nbis/), [Macrotrends NBIS market cap](https://www.macrotrends.net/stocks/charts/NBIS/nebius-group/market-cap).
 
 **Key data:**
 
 | Metric | Value |
 |--------|-------|
 | Price (2026-07-01) | ~$240 (high-beta; ~$256 near June-22 Nasdaq-100 inclusion; ~+165-185% YTD) |
-| Market cap / EV | ~$61B / ~$56-61B EV (~252M shares; ~$60-66B cap across late-June/early-July) |
-| Net cash | ~$9.3B cash vs ~$8.4B non-current debt → roughly net-cash-neutral to ~$5B net cash (treatment-dependent) |
+| Market cap / EV | ~$61B / ~$57-61B EV (~253.9M shares outstanding; ~$60-66B cap across late-June/early-July) |
+| Net position | ~$9.3B cash vs ~$8.4B non-current debt plus ~$1.0B operating lease liabilities → financial net-cash-neutral to ~$5B net cash; lease-adjusted neutral to ~$4B net cash (treatment-dependent) |
 | Q1 2026 revenue | $399.0M (+684% Y/Y); Nebius AI Cloud $389.7M (+841%, 98% of total) |
 | Q1 2026 GAAP net income | +$621.2M — **but** driven by a $780.6M non-cash investment revaluation gain (ClickHouse); operating result was a **−$128.0M loss** |
 | Q1 2026 adj EBITDA | $129.5M (32% group margin; Nebius AI Cloud margin 45%) — first positive quarter |
@@ -32,7 +32,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Q1 2026 capex | $2,472.9M |
 | FY2026 guidance | revenue $3.0-3.4B; exit ARR $7-9B; group adj EBITDA margin ~40%; **capex $20-25B** (raised from $16-20B) |
 | Contracted power | ~3.5 GW now, targeting >4 GW by year-end; >75% owned |
-| Anchor contracts | Microsoft up to ~$17.4B (up to ~$19.4B) to 2031; Meta up to ~$27B ($12B dedicated + up to $15B, from early 2027) + prior $3B |
+| Anchor contracts | Company-disclosed Microsoft contract value about ~$17.4B (potentially ~$19.4B) to 2031; Meta up to ~$27B ($12B dedicated + up to $15B, from early 2027) + prior $3B |
 | NVIDIA ties (circularity) | supplier + shareholder ($2B strategic investment, Mar 2026) + Vera Rubin early access |
 | Non-core assets / optionality | ClickHouse stake (~$15B round); Toloka (deconsolidated Q2 2025, equity stake); Avride (AV); TripleTen (edtech) |
 | CEO / founder | Arkady Volozh (Yandex founder); dual-class (A/B) |
@@ -69,7 +69,7 @@ Neoclouds (CoreWeave, Nebius, Crusoe, Lambda, Nscale) exist because AI labs need
 
 | Dimension | CoreWeave (risk anchor) | Nebius (this report) |
 |-----------|-------------------------|----------------------|
-| Balance sheet | ~$25B debt + ~$10B op leases; ~$23-33B net obligations | ~$9.3B cash vs ~$8.4B non-current debt; ~net-cash to ~$5B net cash |
+| Balance sheet | ~$25B debt + ~$10B op leases; ~$23-33B net obligations | ~$9.3B cash vs ~$8.4B non-current debt plus ~$1.0B op leases; financial net-cash-neutral, lease-adjusted neutral to ~$4B net cash |
 | GAAP result (latest Q) | −$740M net loss | −$128M operating loss (net income +$621M on a non-cash mark) |
 | Adj EBITDA | +$1.2B (56%) | +$129.5M (32% group; 45% cloud) |
 | Operating cash flow | negative / capex-consuming | **+$2.3B** (prepayment-aided) |
@@ -84,7 +84,7 @@ The read-through: Nebius shows that a neocloud **can** scale on a clean balance 
 
 The tempting story is "CoreWeave = concentrated & circular, Nebius = diversified & clean." The data only half-supports it:
 
-- **Concentration is rising, not falling.** Nebius's growth is now anchored by two hyperscalers: **Microsoft** (up to ~$17.4B, up to ~$19.4B, to 2031, out of the Vineland NJ site) and **Meta** (up to ~**$27B** — $12B dedicated Vera Rubin capacity from early 2027 plus up to $15B additional — on top of a prior $3B). Combined, that is ~**$46B** of signed hyperscaler commitments. As these ramp through 2027, Nebius is acquiring precisely the **customer-concentration** profile that makes CoreWeave fragile. Management stresses it is "intentional about pairing these key strategic relationships with a diversified core" — a claim to verify, not assume.
+- **Concentration is rising, not falling.** Nebius's growth is now anchored by two hyperscalers: **Microsoft** (company-disclosed 6-K contract value of about ~$17.4B through 2031, potentially about ~$19.4B if Microsoft acquires additional services/capacity, out of the Vineland NJ site) and **Meta** (up to ~**$27B** — $12B dedicated Vera Rubin capacity from early 2027 plus up to $15B additional — on top of a prior $3B). Combined, that is ~**$46B** of company-disclosed hyperscaler commitments/ceilings. As these ramp through 2027, Nebius is acquiring precisely the **customer-concentration** profile that makes CoreWeave fragile. Management stresses it is "intentional about pairing these key strategic relationships with a diversified core" — a claim to verify, not assume.
 - **The NVIDIA circularity is identical.** NVIDIA is Nebius's **supplier + shareholder** ($2B strategic investment, March 2026) — the exact supplier-shareholder overlap flagged as a circularity risk at CoreWeave. So NVIDIA-ecosystem circularity is a **sector feature**, not a CoreWeave idiosyncrasy — an important cross-check finding for the whole book.
 
 ### 2.3 What Nebius actually has that CoreWeave does not
@@ -115,7 +115,7 @@ Two things must be held together. First, the **operating leverage is real**: adj
 ### 3.2 Balance sheet: the clean-neocloud case, with honest caveats
 
 - **Cash ~$9.3B** at March 31, 2026, after a Q1 that added a **$4.34B convertible-notes** placement (a $2.59B 1.25% tranche due 2031 and a $1.75B 2.625% tranche due 2033) and a **$2.0B prefunded-warrant instrument** (quasi-equity, associated with NVIDIA's $2B investment). Non-current debt is ~**$8.4B**.
-- **Net position:** treating only the convertibles as debt, Nebius is ~**$5B net cash**; treating the entire ~$8.4B non-current balance as debt, it is ~net-cash-neutral (~$0.9B net cash). Either way it is **nothing like CoreWeave's ~$23-33B net-obligation stack** — there is no GPU-collateralized SPV term-loan tower here, and no "revenue and collateral fail together" knot.
+- **Net position:** treating only the convertibles as debt, Nebius is ~**$5B net cash before leases** and ~**$4B net cash after operating leases**; treating the entire ~$8.4B non-current balance as debt, it is ~net-cash-neutral before leases (~$0.9B net cash) and roughly neutral/slightly net-obligation after leases. Either way it is **nothing like CoreWeave's ~$23-33B net-obligation stack** — there is no GPU-collateralized SPV term-loan tower here, and no "revenue and collateral fail together" knot — but the clean-balance-sheet claim should be read on both financial-debt and lease-adjusted bases.
 - **Capex funding:** management says **>90% of the projected 2026 capex range is already secured by cash and contractual commitments**, with additional asset-backed financing expected against the Meta and Microsoft contracts and an untapped ATM as backup. That is a materially safer funding stack than CoreWeave's — but $20-25B is still an enormous, largely irreversible bet, and the prepayment tailwind that produced $2.3B of Q1 operating cash flow is front-loaded.
 
 ### 3.3 Red-flag check
@@ -123,7 +123,7 @@ Two things must be held together. First, the **operating leverage is real**: adj
 | Flag | Reading |
 |------|---------|
 | GAAP earnings quality | **Amber** — net income flattered by a large non-cash investment mark; watch operating income ex-marks. |
-| Leverage | **Green** — near-net-cash; converts are low-coupon and long-dated. |
+| Leverage | **Green/Amber** — financial debt is near-neutral and converts are low-coupon/long-dated, but operating leases add ~$1.0B and capex funding still depends on prepayments/ABS/markets. |
 | Customer concentration | **Amber & worsening** — Microsoft + Meta dominate the forward ramp. |
 | Related-party / circularity | **Amber** — NVIDIA is supplier + shareholder (same flag as CoreWeave). |
 | Dilution | **Amber** — convertibles + up to 25M-share ATM + dual-class structure. |
@@ -150,7 +150,7 @@ Two things must be held together. First, the **operating leverage is real**: adj
 **Core thesis (steel-manned — "what must be true"):** AI-compute demand is real and supply-constrained; Nebius can scale into $7-9B exit ARR (and beyond) **without** CoreWeave-style leverage, because it is operating-cash-flow positive, self-funds capex from cash/prepayments/convertibles, owns its capacity, and has blue-chip contracted demand plus monetizable optionality.
 
 1. **Self-funded hyper-growth.** +684% revenue, positive adjusted EBITDA, +$2.3B operating cash flow, ~$9.3B cash, and >90% of 2026 capex pre-secured — growth without a solvency question.
-2. **Blue-chip contracted demand.** ~$46B of Microsoft + Meta commitments (Meta on NVIDIA Vera Rubin from early 2027), plus "4+ customers competing for every GPU" in the core cloud.
+2. **Blue-chip contracted demand.** ~$46B of company-disclosed Microsoft + Meta commitments/ceilings (Meta on NVIDIA Vera Rubin from early 2027), plus "4+ customers competing for every GPU" in the core cloud.
 3. **Vertical integration & owned power** (>75%) → cost/performance/deployment edge and less landlord dependence than asset-light peers.
 4. **Optionality worth real money.** ClickHouse (marked up $780.6M in a quarter), Toloka, Avride, TripleTen — none of which CoreWeave has.
 5. **NVIDIA alignment + index tailwind.** $2B NVIDIA investment and Vera Rubin early access; **Nasdaq-100 inclusion (June 22, 2026)** adds passive demand and legitimacy.
@@ -176,7 +176,7 @@ Two things must be held together. First, the **operating leverage is real**: adj
 
 Framed as the **cross-checks on CoreWeave** — what Nebius tells us about whether neocloud risk is financial or fundamental:
 
-1. **Model vs balance sheet (the core cross-check).** If **both** Nebius (net cash) and CoreWeave (levered) keep converting backlog/ARR at high utilization, demand is real and CoreWeave's risk was mostly its *balance sheet*. If **Nebius's** utilization or pricing also cracks, the problem is *sector demand*, and the whole AI-infra long book should de-risk. *Watch:* ARR conversion, utilization, and rental pricing at both names.
+1. **Model vs balance sheet (the core cross-check).** If **both** Nebius (financial-debt near-neutral, much cleaner lease-adjusted obligations) and CoreWeave (levered) keep converting backlog/ARR at high utilization, demand is real and CoreWeave's risk was mostly its *balance sheet*. If **Nebius's** utilization or pricing also cracks, the problem is *sector demand*, and the whole AI-infra long book should de-risk. *Watch:* ARR conversion, utilization, and rental pricing at both names.
 2. **Concentration convergence.** Does Nebius's Microsoft+Meta revenue share climb toward CoreWeave's >60% single-customer profile as the mega-deals ramp in 2027? *Watch:* customer-concentration disclosures.
 3. **Earnings quality.** How much of future "profit" is operating vs non-cash investment marks? *Watch:* operating income turning sustainably positive **ex-marks**; any reversal of the ClickHouse valuation.
 4. **Funding durability.** Does the ">90% secured" 2026 capex claim survive a tighter capital market? *Watch:* ABS issuance against Microsoft/Meta, ATM usage, convertible terms, prepayment cadence.
@@ -188,10 +188,10 @@ Framed as the **cross-checks on CoreWeave** — what Nebius tells us about wheth
 
 ## 8. Valuation Context
 
-> This is valuation "context," not a price target or a buy/sell recommendation. For a hyper-growth, near-net-cash name, the trailing multiple is meaningless; the operative lens is forward revenue/ARR against execution risk.
+> This is valuation "context," not a price target or a buy/sell recommendation. For a hyper-growth, cleaner-balance-sheet name, the trailing multiple is meaningless; the operative lens is forward revenue/ARR against execution risk.
 
-- **Forward multiples:** on ~$56-61B EV, Nebius trades at ~**17-19x** 2026E revenue ($3.0-3.4B) and ~**7-7.5x** exit-2026 ARR ($7-9B). Trailing P/S is not meaningful given +684% growth.
-- **Quality premium, quantified.** CoreWeave trades at ~6x EV/2026E revenue **with** ~$23-33B of net obligations; Nebius at ~17-19x **with** near-net-cash. The market is paying roughly **3x the revenue multiple** for the cleaner balance sheet, positive cash generation, vertical integration, and optionality. That premium is rational in direction and demanding in size — it prices Nebius as *the* winning independent neocloud.
+- **Forward multiples:** on ~$57-61B EV, Nebius trades at ~**17-19x** 2026E revenue ($3.0-3.4B) and ~**7-7.5x** exit-2026 ARR ($7-9B). Trailing P/S is not meaningful given +684% growth.
+- **Quality premium, quantified.** CoreWeave trades at ~6x EV/2026E revenue **with** ~$23-33B of net obligations; Nebius at ~17-19x **with** a financial-debt-neutral / much cleaner lease-adjusted balance sheet. The market is paying roughly **3x the revenue multiple** for the cleaner balance sheet, positive cash generation, vertical integration, and optionality. That premium is rational in direction and demanding in size — it prices Nebius as *the* winning independent neocloud.
 - **Optionality is partly free.** The ClickHouse/Toloka/Avride/TripleTen stakes carry value not captured in a cloud-only multiple (the ClickHouse mark alone was $780.6M in Q1) — a modest offset to the headline multiple.
 - **Reading it:** Nebius is priced as the quality compounder of the neocloud group — which means the risk is not solvency (as at CoreWeave) but **expectations**. It works if the $7-9B ARR ramp and 40% group margins arrive on schedule; it de-rates sharply on any ramp/margin/AI-capex disappointment.
 
@@ -201,7 +201,7 @@ Framed as the **cross-checks on CoreWeave** — what Nebius tells us about wheth
 |--------|---------------|----------------|------------|
 | EV / 2026E revenue | ~17-19x | Revenue $3.0-3.4B delivered | Medium |
 | EV / exit-2026 ARR | ~7-7.5x | Exit ARR $7-9B on schedule | Medium |
-| Balance-sheet floor | near-net-cash | Cash $9.3B vs ~$8.4B non-current debt | High |
+| Balance-sheet floor | financial-debt neutral; lease-adjusted still clean | Cash $9.3B vs ~$8.4B non-current debt plus ~$1.0B operating lease liabilities | High |
 | Sum-of-parts optionality | + non-core stakes | ClickHouse/Toloka/Avride/TripleTen monetized | Low |
 
 **Scenario framing (illustrative, not a forecast):**
@@ -234,11 +234,11 @@ Framed as the **cross-checks on CoreWeave** — what Nebius tells us about wheth
 
 ## 10. Conclusion
 
-Nebius is the **control group** for this center's neocloud thesis. Where CoreWeave is a bear-led solvency test, Nebius is the demonstration that a neocloud **can** scale on a clean balance sheet: +684% revenue, positive adjusted EBITDA, +$2.3B operating cash flow, ~$9.3B cash, near-net-cash, vertical integration, and real optionality. That materially changes the read on the layer — **CoreWeave's fragility is at least partly a financing choice, not an inherent property of the model.**
+Nebius is the **control group** for this center's neocloud thesis. Where CoreWeave is a bear-led solvency test, Nebius is the demonstration that a neocloud **can** scale on a cleaner balance sheet: +684% revenue, positive adjusted EBITDA, +$2.3B operating cash flow, ~$9.3B cash, financial-debt neutrality / modest lease-adjusted obligations, vertical integration, and real optionality. That materially changes the read on the layer — **CoreWeave's fragility is at least partly a financing choice, not an inherent property of the model.**
 
 But the cross-check cuts both ways, and this is the part a bull skips: Nebius is priced for perfection (~17-19x forward revenue, ~3x CoreWeave's multiple), its GAAP profit is a non-cash ClickHouse mark over a −$128M operating loss, its capex intensity is *higher* than CoreWeave's (~7x revenue), and it is accumulating the **same** hyperscaler concentration and the **same** NVIDIA supplier-shareholder circularity it is supposed to be the diversified answer to. So the risks the neocloud layer exists to test — real-vs-financed demand, concentration, circularity, AI-capex durability — are **shared**; only the *balance-sheet* fragility is CoreWeave-specific.
 
-**Our posture is high-quality-but-high-expectations / high-risk (watch).** Nebius is the stronger business and the better-funded neocloud, and it earns a place in the book as the layer's **architecture check** on CoreWeave. But "better than the risk anchor" is a low bar for a stock priced as the category winner. Own it, if at all, as a small, high-beta, consciously-sized long on the AI buildout — and use the **pair** (Nebius clean + CoreWeave levered) as the single most useful tell in the whole center: if both keep converting demand, the buildout is real; if the *clean* one cracks too, the problem was never leverage — it was the demand.
+**Our posture is high-quality-but-high-expectations / high-risk (watch).** Nebius is the stronger business and the better-funded neocloud, and it earns a place in the book as the layer's **architecture check** on CoreWeave. But "better than the risk anchor" is a low bar for a stock priced as the category winner. In this research framework, it should be monitored as a high-beta, high-expectations AI-buildout exposure — and the **pair** (Nebius cleaner + CoreWeave levered) is the single most useful tell in the whole center: if both keep converting demand, the buildout is real; if the *clean* one cracks too, the problem was never leverage — it was the demand.
 
 ---
 
@@ -248,14 +248,14 @@ But the cross-check cuts both ways, and this is the part a bull skips: Nebius is
 - [Nebius Q1 2026 press release / 6-K (SEC EX-99.2)](https://www.sec.gov/Archives/edgar/data/0001513845/000110465926064092/nbis-20260331xex99d2.htm) — quarter ended March 31, 2026, reported May 13, 2026 (revenue, AI-cloud revenue, adj EBITDA, operating loss, net income, investment-revaluation gain, cash, debt, convertibles, prefunded warrants, operating cash flow, capex, ARR, guidance)
 - [Nebius Q1 2026 results (company newsroom)](https://nebius.com/newsroom/nebius-reports-first-quarter-2026-financial-results) — results announcement, 1.2 GW Pennsylvania site, shareholder letter
 - [Nebius (NBIS) Q1 2026 earnings call transcript (Motley Fool)](https://www.fool.com/earnings/call-transcripts/2026/05/13/nebius-nbis-q1-2026-earnings-transcript/) — segment status (Toloka/Avride/TripleTen non-core), ClickHouse mark, concentration commentary, >90%-secured capex, data-center footprint, guidance cadence
-- [Nebius–Microsoft AI infrastructure agreement](https://www.rcrwireless.com/20250910/ai-infrastructure/nebius-microsoft-ai) — up to ~$17.4B (up to ~$19.4B) to 2031, Vineland NJ (announced Sept 2025)
+- [Nebius–Microsoft agreement press release](https://nebius.com/newsroom/nebius-announces-multi-billion-dollar-agreement-with-microsoft-for-ai-infrastructure) and [Form 6-K, Sept. 8, 2025](https://www.sec.gov/Archives/edgar/data/1513845/000110465925088312/tm2525580d1_6k.htm) — dedicated GPU capacity from Vineland, NJ; total contract value about ~$17.4B through 2031, potentially about ~$19.4B if Microsoft acquires additional services/capacity
 - [Meta–Nebius up to $27B agreement (CNBC)](https://www.cnbc.com/2026/03/16/meta-nebius-ai-infrastructure.html) and [Nebius newsroom](https://nebius.com/newsroom/nebius-signs-new-ai-infrastructure-agreement-with-meta) — $12B dedicated Vera Rubin capacity from early 2027 + up to $15B additional; prior $3B (Dec 2025)
 - Quote/valuation references: [Yahoo Finance NBIS](https://finance.yahoo.com/quote/NBIS/), [StockAnalysis NBIS](https://stockanalysis.com/stocks/nbis/), [Macrotrends NBIS market cap](https://www.macrotrends.net/stocks/charts/NBIS/nebius-group/market-cap)
 
 **Key assumptions & basis:**
-- Price ~$240 = latest available 2026-07-01 quote; a high-beta name that printed ~$256 and ~$66B market cap around its June-22, 2026 Nasdaq-100 inclusion and is up roughly +165-185% YTD. Market cap ~$61B at ~$240 on ~252M shares (≈253.9M issued at Mar 31, 2026; verify against the latest 20-F/6-K — dual-class A/B, and convertibles/ATM are dilutive). Actual quoted price may differ intraday.
-- Balance sheet (Mar 31, 2026): cash and equivalents ~$9,298M; non-current debt ~$8,432M, including a $4,337.5M convertible-notes placement ($2.59B 1.25% due 2031 + $1.75B 2.625% due 2033) and a ~$2,000M prefunded-warrant instrument (quasi-equity, associated with NVIDIA's $2B March-2026 strategic investment). Net position ranges from ~net-cash-neutral (~$0.9B net cash treating all non-current debt as debt) to ~$5B net cash (treating only convertibles as debt); EV ~$56-61B. Recompute against the filed statements.
+- Price ~$240 = latest available 2026-07-01 quote; a high-beta name that printed ~$256 and ~$66B market cap around its June-22, 2026 Nasdaq-100 inclusion and is up roughly +165-185% YTD. Market cap ~$61B at ~$240 on ~253.9M shares outstanding (issued and outstanding, excluding treasury, at Mar. 31, 2026; verify against the latest 20-F/6-K — dual-class A/B, and convertibles/ATM are dilutive). Actual quoted price may differ intraday.
+- Balance sheet (Mar 31, 2026): cash and equivalents ~$9,298M; non-current debt ~$8,432M, including a $4,337.5M convertible-notes placement ($2.59B 1.25% due 2031 + $1.75B 2.625% due 2033) and a ~$2,000M prefunded-warrant instrument (quasi-equity, associated with NVIDIA's $2B March-2026 strategic investment); operating lease liabilities were ~$1,046M. Net position ranges from ~net-cash-neutral before leases / slightly net-obligation after leases if all non-current debt is treated as debt, to ~$5B net cash before leases / ~$4B net cash after leases if only convertibles are treated as debt; EV ~$57-61B. Recompute against the filed statements.
 - Q1 2026 (quarter ended Mar 31, 2026, reported May 13): revenue $399.0M (+684%), Nebius AI Cloud $389.7M (+841%), adjusted EBITDA +$129.5M (32% group; 45% cloud), **loss from operations −$128.0M**, net income from continuing operations +$621.2M driven by a **$780.6M non-cash gain on revaluation of equity investments** (chiefly ClickHouse), operating cash flow +$2,258M (prepayment-aided), capex $2,472.9M, core AI-cloud ARR $1.92B exiting Q1. "Adjusted EBITDA" excludes D&A, SBC and one-offs; the operating loss and cash flow are the conservative caliber.
 - FY2026 guidance: revenue $3.0-3.4B, exit ARR $7-9B, group adjusted EBITDA margin ~40%, capex $20-25B (raised from $16-20B); contracted power ~3.5 GW targeting >4 GW by year-end, >75% owned; >90% of 2026 capex said to be secured by cash and contractual commitments — per company/CNBC/transcript.
-- Contract figures (Microsoft up to ~$17.4B/$19.4B; Meta up to ~$27B + prior $3B; NVIDIA $2B investment) are multi-year ceilings/commitments, not booked revenue.
+- Contract figures (company-disclosed Microsoft value about ~$17.4B/$19.4B; Meta up to ~$27B + prior $3B; NVIDIA $2B investment) are multi-year ceilings/commitments, not booked revenue.
 - This report is **initial coverage** and framed as the **cross-check ("architecture check") on the CoreWeave risk anchor**. Refresh price, ARR/utilization, operating income ex-marks, concentration, capex funding, and non-core marks at the next quarterly result.
