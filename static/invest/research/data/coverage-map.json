@@ -1,0 +1,366 @@
+{
+  "page": {
+    "title": {
+      "zh": "AI 基建覆盖地图",
+      "en": "AI Infrastructure Coverage Map"
+    },
+    "subtitle": {
+      "zh": "我们不是选股，而是把 AI 基建拆成一条有分工的价值链。",
+      "en": "We are not picking stocks; we are decomposing AI infrastructure into a value chain with distinct jobs."
+    },
+    "mapIntro": {
+      "zh": "每个层级回答一个不同的问题：需求在哪里出现、瓶颈在哪里形成、哪篇报告负责验证或证伪这条链。",
+      "en": "Each layer answers a different question: where demand appears, where bottlenecks form, and which report validates or falsifies the chain."
+    },
+    "otherIntro": {
+      "zh": "这些报告暂不承担 AI 基建链条验证角色，保留在完整研究覆盖中。",
+      "en": "These reports do not currently carry an AI-infrastructure chain-validation role, but remain part of the broader research coverage."
+    },
+    "disclaimer": {
+      "zh": "免责声明：本页仅用于研究框架展示和信息交流，不构成任何投资建议，请自行完成尽职调查。",
+      "en": "Disclaimer: This page is for research-framework display and information exchange only. It does not constitute investment advice. Please conduct your own due diligence."
+    }
+  },
+  "layers": [
+    {
+      "id": "foundry",
+      "title": {
+        "zh": "晶圆代工",
+        "en": "Foundry"
+      },
+      "description": {
+        "zh": "未来用于承接 TSM 等制造层验证；当前配置保留，但页面隐藏空层。",
+        "en": "Reserved for manufacturing-layer checks such as TSM. Kept in the config now, hidden on the page while empty."
+      }
+    },
+    {
+      "id": "compute",
+      "title": {
+        "zh": "计算平台",
+        "en": "Compute Platform"
+      },
+      "description": {
+        "zh": "GPU、加速卡和系统平台，是 AI 资本开支叙事的收入与利润核心。",
+        "en": "GPUs, accelerators, and system platforms - the revenue and profit core of the AI capex narrative."
+      }
+    },
+    {
+      "id": "custom-merchant-silicon",
+      "title": {
+        "zh": "自定义与商用硅",
+        "en": "Custom and Merchant Silicon"
+      },
+      "description": {
+        "zh": "ASIC、XPU 与 merchant silicon，用来检验 hyperscaler 自研和开放生态对通用 GPU 的替代强度。",
+        "en": "ASICs, XPUs, and merchant silicon that test hyperscaler in-house silicon and open-ecosystem substitution against general GPUs."
+      }
+    },
+    {
+      "id": "memory-storage",
+      "title": {
+        "zh": "内存与存储",
+        "en": "Memory and Storage"
+      },
+      "description": {
+        "zh": "HBM、NAND 与数据中心 SSD，负责验证 AI 工作负载是否真的转化为位元、带宽和周期利润。",
+        "en": "HBM, NAND, and data-center SSDs validate whether AI workloads convert into bits, bandwidth, and cycle profits."
+      }
+    },
+    {
+      "id": "networking",
+      "title": {
+        "zh": "网络架构",
+        "en": "Networking Architecture"
+      },
+      "description": {
+        "zh": "以太网、交换系统和网络软件，校验 AI 集群架构路线，而不只是算力芯片出货。",
+        "en": "Ethernet, switching systems, and network software validate AI cluster architecture, not just accelerator shipments."
+      }
+    },
+    {
+      "id": "optical",
+      "title": {
+        "zh": "光连接",
+        "en": "Optical Connectivity"
+      },
+      "description": {
+        "zh": "有源光模块、光纤、光缆和被动连接材料，观察 AI 集群扩容是否穿透到物理连接层。",
+        "en": "Active modules, fiber, cable, and passive connectivity materials show whether AI cluster expansion reaches the physical link layer."
+      }
+    },
+    {
+      "id": "power",
+      "title": {
+        "zh": "电力与能源",
+        "en": "Power and Energy"
+      },
+      "description": {
+        "zh": "燃气轮机、电网、燃料电池、核能、电力设备和储能，是 AI 数据中心最硬的外部约束。",
+        "en": "Gas turbines, grid equipment, fuel cells, nuclear, electrical equipment, and storage are the hard external constraints for AI data centers."
+      }
+    },
+    {
+      "id": "datacenter-facility",
+      "title": {
+        "zh": "数据中心设施",
+        "en": "Data-Center Facility"
+      },
+      "description": {
+        "zh": "电力管理、UPS、热管理与液冷，是建设速度和机柜功率密度最实时的仪表盘。",
+        "en": "Power management, UPS, thermal management, and liquid cooling form the real-time dashboard for buildout speed and rack density."
+      }
+    },
+    {
+      "id": "resources",
+      "title": {
+        "zh": "上游资源",
+        "en": "Upstream Resources"
+      },
+      "description": {
+        "zh": "铜、钨等关键资源层，用于约束电网、设备、国防与制造链条的上游可得性。",
+        "en": "Copper, tungsten, and other critical resources constrain upstream availability for grids, equipment, defense, and manufacturing."
+      }
+    },
+    {
+      "id": "demand-risk",
+      "title": {
+        "zh": "需求与融资风险",
+        "en": "Demand and Financing Risk"
+      },
+      "description": {
+        "zh": "用高杠杆 GPU 云和客户集中度检验需求是否真实，而不是由融资、循环交易和提前囤货放大。",
+        "en": "Uses leveraged GPU cloud and customer concentration to test whether demand is real, rather than amplified by financing, circularity, and pre-stocking."
+      }
+    }
+  ],
+  "roles": [
+    {
+      "id": "dashboard",
+      "label": {
+        "zh": "仪表盘",
+        "en": "Dashboard"
+      },
+      "description": {
+        "zh": "最实时地观察 AI 建设速度和订单质量。",
+        "en": "Tracks AI buildout velocity and order quality in near real time."
+      }
+    },
+    {
+      "id": "risk-anchor",
+      "label": {
+        "zh": "风险锚",
+        "en": "Risk anchor"
+      },
+      "description": {
+        "zh": "若该报告被证伪，整条 AI 基建书都必须重新校准。",
+        "en": "If this report is falsified, the whole AI-infra book must be recalibrated."
+      }
+    },
+    {
+      "id": "architecture-check",
+      "label": {
+        "zh": "架构校验",
+        "en": "Architecture check"
+      },
+      "description": {
+        "zh": "验证不同技术路线之间的真实采用强度。",
+        "en": "Tests real adoption strength across competing architecture paths."
+      }
+    },
+    {
+      "id": "common-constraint",
+      "label": {
+        "zh": "公共约束",
+        "en": "Common constraint"
+      },
+      "description": {
+        "zh": "横跨多个层级的瓶颈或共同约束变量。",
+        "en": "A bottleneck or shared constraint that cuts across multiple layers."
+      }
+    }
+  ],
+  "crossChecks": [
+    {
+      "if": {
+        "zh": "如果 GPU/ASIC 收入继续加速，但网络、光连接和设施订单没有同步确认",
+        "en": "If GPU/ASIC revenue keeps accelerating but networking, optical, and facility orders do not confirm it"
+      },
+      "then": {
+        "zh": "则优先怀疑提前囤货、客户集中或节奏错配，而不是直接上调长期需求。",
+        "en": "then first suspect pre-stocking, customer concentration, or timing mismatch before lifting long-term demand assumptions."
+      }
+    },
+    {
+      "if": {
+        "zh": "如果 Vertiv、GE Vernova 或 Bloom 的订单/积压开始降温",
+        "en": "If orders or backlog at Vertiv, GE Vernova, or Bloom begin to cool"
+      },
+      "then": {
+        "zh": "则 AI 数据中心建设速度可能低于芯片端叙事，需要下调交付节奏。",
+        "en": "then AI data-center buildout speed may lag the chip-side narrative, and delivery cadence should be marked down."
+      }
+    },
+    {
+      "if": {
+        "zh": "如果 Broadcom 的自定义硅与 Arista 的开放以太网生态同时变强",
+        "en": "If Broadcom custom silicon and Arista's open Ethernet ecosystem strengthen together"
+      },
+      "then": {
+        "zh": "则 NVIDIA 一体化栈的增速和利润率需要接受更严格的架构压力测试。",
+        "en": "then NVIDIA's integrated-stack growth and margin assumptions need a stricter architecture stress test."
+      }
+    },
+    {
+      "if": {
+        "zh": "如果 HBM/NAND 利润率达到周期高位，但终端 AI 需求确认不足",
+        "en": "If HBM/NAND margins hit cyclical highs without enough end-demand confirmation"
+      },
+      "then": {
+        "zh": "则内存与存储报告应从供给短缺切换到周期均值回归风险。",
+        "en": "then memory and storage coverage should pivot from shortage upside to cyclical mean-reversion risk."
+      }
+    },
+    {
+      "if": {
+        "zh": "如果 CoreWeave 的 backlog、资本开支、租赁和融资成本同时恶化",
+        "en": "If CoreWeave's backlog, capex, leases, and financing cost deteriorate together"
+      },
+      "then": {
+        "zh": "则整本 AI 基建书要提高对循环融资和真实需求不足的权重。",
+        "en": "then the whole AI-infra book should raise the weight on circular financing and insufficient real demand."
+      }
+    },
+    {
+      "if": {
+        "zh": "如果铜、钨、电网设备或本地电力约束继续收紧",
+        "en": "If copper, tungsten, grid equipment, or local power constraints keep tightening"
+      },
+      "then": {
+        "zh": "则数据中心扩张上限可能先被资源和施工约束决定，而不是由芯片供给决定。",
+        "en": "then data-center expansion may be capped first by resources and construction constraints, not chip supply."
+      }
+    }
+  ],
+  "methodology": [
+    {
+      "title": {
+        "zh": "1. 先拆链条，再看公司",
+        "en": "1. Chain first, company second"
+      },
+      "body": {
+        "zh": "每篇报告先说明它在 AI 基建链条中的位置，再讨论公司质量、估值和风险。",
+        "en": "Each report first states where it sits in the AI-infra chain, then discusses company quality, valuation, and risk."
+      }
+    },
+    {
+      "title": {
+        "zh": "2. 使用 12 段研究结构",
+        "en": "2. Use a twelve-module structure"
+      },
+      "body": {
+        "zh": "完整报告围绕摘要、业务、行业竞争、财务健康、管理层、bull/bear、关键不确定性、估值、催化剂、结论、复盘和来源展开。",
+        "en": "Full reports cover summary, business, industry and competition, financial health, management, bull/bear, key uncertainties, valuation, catalysts, conclusion, review, and sources."
+      }
+    },
+    {
+      "title": {
+        "zh": "3. Bull 与 bear 都要钢人化",
+        "en": "3. Steelman both bull and bear cases"
+      },
+      "body": {
+        "zh": "强观点必须能说明自己错在哪里；看多与看空都要给出能被数据推翻的版本。",
+        "en": "A strong view must explain how it could be wrong; both bull and bear cases need versions that data can overturn."
+      }
+    },
+    {
+      "title": {
+        "zh": "4. 一手来源优先",
+        "en": "4. Prefer primary sources"
+      },
+      "body": {
+        "zh": "财报、10-K/10-Q、8-K、电话会、投资者材料和公司公告优先，媒体与卖方只作补充线索。",
+        "en": "Earnings releases, 10-K/10-Q, 8-K, calls, investor materials, and company announcements come first; media and sell-side work are secondary leads."
+      }
+    },
+    {
+      "title": {
+        "zh": "5. 数字要带日期和口径",
+        "en": "5. Numbers need dates and definitions"
+      },
+      "body": {
+        "zh": "价格、市值、倍数、backlog、订单和利润率都要说明时间点与口径，避免把快照写成永恒事实。",
+        "en": "Price, market cap, multiples, backlog, orders, and margins need dates and definitions so snapshots do not read like permanent facts."
+      }
+    },
+    {
+      "title": {
+        "zh": "6. 估值只作上下文",
+        "en": "6. Valuation is context only"
+      },
+      "body": {
+        "zh": "估值用于判断容错率、预期和情景位置，不发布目标价，也不把研究页写成交易建议。",
+        "en": "Valuation frames margin of error, expectations, and scenario position. It does not produce target prices or turn the page into trading advice."
+      }
+    },
+    {
+      "title": {
+        "zh": "7. 角色不是标签，是验证任务",
+        "en": "7. Roles are validation jobs"
+      },
+      "body": {
+        "zh": "仪表盘、风险锚、架构校验和公共约束代表报告在整条链中的工作，而不是营销分类。",
+        "en": "Dashboard, risk anchor, architecture check, and common constraint describe what a report does for the chain, not a marketing category."
+      }
+    },
+    {
+      "title": {
+        "zh": "8. Cross-check 优先于单点叙事",
+        "en": "8. Cross-checks beat one-point narratives"
+      },
+      "body": {
+        "zh": "一个公司报表变强不等于全链条变强，必须看上下游是否给出同方向证据。",
+        "en": "One stronger company print does not prove the whole chain; upstream and downstream evidence must point the same way."
+      }
+    },
+    {
+      "title": {
+        "zh": "9. 风险锚用来证伪",
+        "en": "9. Risk anchors are for falsification"
+      },
+      "body": {
+        "zh": "风险锚不是为了悲观，而是为了在需求、杠杆和循环交易出问题时及时重估整本书。",
+        "en": "A risk anchor is not pessimism for its own sake; it forces a book-wide rethink when demand, leverage, or circularity breaks."
+      }
+    },
+    {
+      "title": {
+        "zh": "10. 中英文同步",
+        "en": "10. Keep Chinese and English synced"
+      },
+      "body": {
+        "zh": "中英文版本要同步结构、关键数字、判断和风险，不允许一个语言版本保留旧观点。",
+        "en": "Chinese and English versions must stay synced in structure, key numbers, judgments, and risks; no language version should preserve stale views."
+      }
+    },
+    {
+      "title": {
+        "zh": "11. 保留判断演化",
+        "en": "11. Preserve judgment history"
+      },
+      "body": {
+        "zh": "重跑、增量更新和归档版本要能追踪观点如何变化，而不是静默覆盖旧判断。",
+        "en": "Reruns, incremental updates, and archived versions should show how views changed rather than silently overwrite old judgments."
+      }
+    },
+    {
+      "title": {
+        "zh": "12. 结论保持可复盘",
+        "en": "12. Conclusions must be reviewable"
+      },
+      "body": {
+        "zh": "每个结论都要能回到监控清单和下一次验证节点，方便后续复盘而不是只留下态度。",
+        "en": "Every conclusion should point back to a monitoring checklist and next verification node, leaving a review trail rather than just an opinion."
+      }
+    }
+  ]
+}

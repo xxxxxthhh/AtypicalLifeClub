@@ -1,9 +1,6 @@
 const REPORTS_URL = "/invest/research/data/reports.json";
 const CURRENCY_URL = "/invest/currency/data/historical.json";
 const METALS_URL = "/invest/metals/data/historical.json";
-const LANG_QUERY_KEY = "lang";
-const LANG_STORAGE_KEY = "invest_home_lang";
-const SUPPORTED_LANGS = ["zh", "en"];
 
 const I18N = {
   zh: {
@@ -20,9 +17,16 @@ const I18N = {
     statUpdated: "最近数据更新",
     currentModulesTitle: "当前模块",
     moduleResearchTitle: "企业调研",
+    moduleCoverageMapTitle: "覆盖地图",
     moduleCurrencyTitle: "汇率追踪",
     moduleMetalsTitle: "金属追踪",
     metricAssets: "追踪标的",
+    metricFramework: "框架",
+    metricAiInfraValue: "AI 基建",
+    metricLogic: "逻辑",
+    metricCrossCheckValue: "交叉校验",
+    metricMethod: "方法",
+    metricMethodValue: "12 段结构",
     metricReports: "研报数量",
     metricCoverage: "覆盖标的",
     metricDays: "样本天数",
@@ -45,9 +49,16 @@ const I18N = {
     statUpdated: "Latest Data Update",
     currentModulesTitle: "Current Modules",
     moduleResearchTitle: "Research",
+    moduleCoverageMapTitle: "Coverage Map",
     moduleCurrencyTitle: "Currency",
     moduleMetalsTitle: "Metals",
     metricAssets: "Assets",
+    metricFramework: "Framework",
+    metricAiInfraValue: "AI Infra",
+    metricLogic: "Logic",
+    metricCrossCheckValue: "Cross-check",
+    metricMethod: "Method",
+    metricMethodValue: "12 Modules",
     metricReports: "Reports",
     metricCoverage: "Coverage",
     metricDays: "Sample Days",
@@ -81,58 +92,6 @@ function getMessages() {
   return I18N[currentLang] || I18N.zh;
 }
 
-function normalizeLanguage(value) {
-  const lang = String(value || "").toLowerCase();
-  return SUPPORTED_LANGS.includes(lang) ? lang : "";
-}
-
-function readSavedLanguage() {
-  try {
-    return normalizeLanguage(window.localStorage.getItem(LANG_STORAGE_KEY));
-  } catch (error) {
-    return "";
-  }
-}
-
-function saveLanguage(lang) {
-  try {
-    window.localStorage.setItem(LANG_STORAGE_KEY, lang);
-  } catch (error) {
-    // Ignore localStorage failures in private mode / restricted env.
-  }
-}
-
-function chooseInitialLanguage() {
-  const params = new URLSearchParams(window.location.search);
-  const fromQuery = normalizeLanguage(params.get(LANG_QUERY_KEY));
-  if (fromQuery) return fromQuery;
-
-  const fromStorage = readSavedLanguage();
-  if (fromStorage) return fromStorage;
-
-  return "zh";
-}
-
-function syncLanguageQuery() {
-  const params = new URLSearchParams(window.location.search);
-  params.set(LANG_QUERY_KEY, currentLang);
-  const nextUrl = `${window.location.pathname}?${params.toString()}`;
-  window.history.replaceState({}, "", nextUrl);
-}
-
-function renderLanguageSwitch() {
-  const root = document.getElementById("languageSwitch");
-  if (!root) return;
-
-  root.querySelectorAll(".lang-opt").forEach((button) => {
-    button.classList.toggle("active", button.dataset.lang === currentLang);
-    button.setAttribute(
-      "aria-pressed",
-      button.dataset.lang === currentLang ? "true" : "false",
-    );
-  });
-}
-
 function applyTranslations() {
   const messages = getMessages();
   document.querySelectorAll("[data-i18n]").forEach((el) => {
@@ -149,8 +108,8 @@ function applyTranslations() {
 
   document.documentElement.lang = currentLang === "zh" ? "zh-CN" : "en";
   document.title = messages.documentTitle;
-  renderLanguageSwitch();
-  syncLanguageQuery();
+  renderLanguageSwitchUI(currentLang);
+  syncLanguageQuery(currentLang);
 }
 
 function bindLanguageSwitch() {

@@ -29,7 +29,9 @@
       "路线之争：NVIDIA 一体化网络栈(Spectrum-X/InfiniBand/NVLink) vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet；ANET 更像 Broadcom 生态客户/伙伴，而非直接替代",
       "核心风险：两大匿名终端客户合计约 42% 收入(26%/16%)、主要依赖 Broadcom merchant silicon；市值约 $206.6B、约 56x TTM GAAP P/E、约 47x 当前非GAAP EPS运行率，估值容错率低"
     ],
-    "summaryEn": "Initial coverage of the AI cluster networking layer: Arista is the open Ethernet / AI spine / scale-out systems-software pick-and-shovel, directly testing NVIDIA Spectrum-X/InfiniBand/NVLink integration vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet. Q1 2026 revenue was $2.709B (+35.1%), GAAP/non-GAAP operating margin 42.7%/47.8%, non-GAAP EPS $0.87, and operating cash flow $1.69B; Q2 guide is about $2.8B revenue. FY2025 Cloud and AI Titans / AI Specialty Providers were 48%/20% of revenue, and Core AI/Cloud/Data Center Networking was 65%. But two anonymous end customers were ~42% of revenue (26%/16%), Arista is highly reliant on Broadcom merchant silicon, and at the Jun 29 2026 market cap of ~$206.6B the stock trades around 56x TTM GAAP earnings and ~47x current non-GAAP EPS run-rate. Neutral / high-quality but high expectations (watch)."
+    "summaryEn": "Initial coverage of the AI cluster networking layer: Arista is the open Ethernet / AI spine / scale-out systems-software pick-and-shovel, directly testing NVIDIA Spectrum-X/InfiniBand/NVLink integration vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet. Q1 2026 revenue was $2.709B (+35.1%), GAAP/non-GAAP operating margin 42.7%/47.8%, non-GAAP EPS $0.87, and operating cash flow $1.69B; Q2 guide is about $2.8B revenue. FY2025 Cloud and AI Titans / AI Specialty Providers were 48%/20% of revenue, and Core AI/Cloud/Data Center Networking was 65%. But two anonymous end customers were ~42% of revenue (26%/16%), Arista is highly reliant on Broadcom merchant silicon, and at the Jun 29 2026 market cap of ~$206.6B the stock trades around 56x TTM GAAP earnings and ~47x current non-GAAP EPS run-rate. Neutral / high-quality but high expectations (watch).",
+    "chainLayer": "networking",
+    "chainRole": "architecture-check"
   },
   {
     "id": "coreweave-2026",
@@ -61,7 +63,9 @@
       "循环性：微软历史上收入占比 >60%；NVIDIA 是供应商+股东($20 亿@$87)+$63 亿产能兜底(最后买家至 2032)；微软自建(MAI)、OpenAI 分散、Core Scientific 收购被否",
       "股价已较 2025 峰值回落约 47% 至约 $96、市值约 $520 亿、经营租赁前金融净债务约 $229 亿、含经营租赁净义务栈约 $329 亿；偿付能力敏感、高 beta 杠杆期权。高风险/偏熊(回避-观察)"
     ],
-    "summaryEn": "The AI-infra book's 'risk anchor', written deliberately bear-led. A GPU 'neocloud' that pairs a $99.4B company-defined revenue backlog (RPO plus other committed-contract amounts) and 56% adjusted EBITDA with a widening GAAP net loss (Q1 2026 -$740M), ~$24.9B debt, ~$10.1B operating lease liabilities, and $31-35B of 2026 capex (~3x revenue). Customer-concentrated (Microsoft historically >60% of revenue; CNBC cited 62% for 2024); NVIDIA is supplier + shareholder ($2B at $87) + $6.3B capacity backstop (circularity). Q1 2026 revenue $2.078B (+112%); FY2026 guide revenue $12-13B. The stock is already ~47% off 2025 peaks at ~$96, market cap ~$52B, financial net debt ~$22.9B before operating leases and ~$32.9B net obligation stack incl. operating leases. Central question: real economic demand or leverage-fueled pre-stocking? High-risk / bear-leaning (avoid-to-watch)."
+    "summaryEn": "The AI-infra book's 'risk anchor', written deliberately bear-led. A GPU 'neocloud' that pairs a $99.4B company-defined revenue backlog (RPO plus other committed-contract amounts) and 56% adjusted EBITDA with a widening GAAP net loss (Q1 2026 -$740M), ~$24.9B debt, ~$10.1B operating lease liabilities, and $31-35B of 2026 capex (~3x revenue). Customer-concentrated (Microsoft historically >60% of revenue; CNBC cited 62% for 2024); NVIDIA is supplier + shareholder ($2B at $87) + $6.3B capacity backstop (circularity). Q1 2026 revenue $2.078B (+112%); FY2026 guide revenue $12-13B. The stock is already ~47% off 2025 peaks at ~$96, market cap ~$52B, financial net debt ~$22.9B before operating leases and ~$32.9B net obligation stack incl. operating leases. Central question: real economic demand or leverage-fueled pre-stocking? High-risk / bear-leaning (avoid-to-watch).",
+    "chainLayer": "demand-risk",
+    "chainRole": "risk-anchor"
   },
   {
     "id": "vertiv-2026",
@@ -93,7 +97,9 @@
       "液冷代际拐点(100kW+ 机柜)；Vertiv 是一线电力+热管理供应商，但公开份额/TAM估算口径分散，需按行业来源跟踪；轻杠杆(净债务~$7.6亿)自我造血",
       "核心风险：股价一年约3倍至$306.97、~48倍前瞻调整后EPS(~80倍滚动)、市值~$1,179亿，已定价多年建设；高beta订单簿双向，AI资本开支消化/竞争(施耐德/伊顿)是主要风险"
     ],
-    "summaryEn": "Power & thermal (incl. liquid cooling) pick-and-shovel for data centers, sitting between 'where power comes from' (GEV/Bloom) and 'the chips' (NVDA/AVGO) — the most real-time 'dashboard' of AI buildout velocity. Q1 2026 revenue $2.65B (+30%, +23% organic, Americas +44%), adj operating margin 20.8% (+430bps), adj EPS $1.17 (+83%), adj FCF $653M (+147%); latest disclosed Q4 2025 backlog was $15.0B (+109%) with book-to-bill ~2.9x. FY2026 guidance raised to revenue $13.5-14.0B, adj EPS $6.30-6.40. But the stock ~3x'd in a year to $306.97 / ~$117.9B / ~48x forward adj EPS (~80x trailing), pricing in years of sustained buildout; the high-beta order book cuts both ways. Neutral / high-quality but high expectations (watch)."
+    "summaryEn": "Power & thermal (incl. liquid cooling) pick-and-shovel for data centers, sitting between 'where power comes from' (GEV/Bloom) and 'the chips' (NVDA/AVGO) — the most real-time 'dashboard' of AI buildout velocity. Q1 2026 revenue $2.65B (+30%, +23% organic, Americas +44%), adj operating margin 20.8% (+430bps), adj EPS $1.17 (+83%), adj FCF $653M (+147%); latest disclosed Q4 2025 backlog was $15.0B (+109%) with book-to-bill ~2.9x. FY2026 guidance raised to revenue $13.5-14.0B, adj EPS $6.30-6.40. But the stock ~3x'd in a year to $306.97 / ~$117.9B / ~48x forward adj EPS (~80x trailing), pricing in years of sustained buildout; the high-beta order book cuts both ways. Neutral / high-quality but high expectations (watch).",
+    "chainLayer": "datacenter-facility",
+    "chainRole": "dashboard"
   },
   {
     "id": "corning-2026",
@@ -125,7 +131,8 @@
       "Springboard计划兑现：核心营业利润率20.2%（提前一年达标），运行率目标2026年底约$200亿、2028约$300亿、2030约$400亿",
       "核心风险：股价约$221（52周$51-230，约4倍重定价）、约71倍2026E核心EPS、卖方均价低于市价；约$90亿债务、AI资本开支周期性与客户集中"
     ],
-    "summaryEn": "AI data-center fiber/cable/passive-connectivity pick-and-shovel, complementary to AAOI's active optical-module/transceiver exposure. Q1 2026 core sales $4.35B (+18%), Optical Communications $1.85B (+36%, GenAI-driven), core EPS $0.70, core operating margin 20.2% (Springboard target hit a year early); Q2 guide core sales ~$4.6B, core EPS $0.73-0.77. Meta (up to $6B), NVIDIA (~$500M upfront, up to ~$3.2B equity in total via warrants, 3 plants), Amazon (multibillion) signed multi-year supply deals. But at ~$221 / ~$190B market cap and ~71x 2026E core EPS (sell-side avg target below market price), with ~$9B debt and AI-capex cyclicality the key risks. Neutral / high-quality but high expectations (watch)."
+    "summaryEn": "AI data-center fiber/cable/passive-connectivity pick-and-shovel, complementary to AAOI's active optical-module/transceiver exposure. Q1 2026 core sales $4.35B (+18%), Optical Communications $1.85B (+36%, GenAI-driven), core EPS $0.70, core operating margin 20.2% (Springboard target hit a year early); Q2 guide core sales ~$4.6B, core EPS $0.73-0.77. Meta (up to $6B), NVIDIA (~$500M upfront, up to ~$3.2B equity in total via warrants, 3 plants), Amazon (multibillion) signed multi-year supply deals. But at ~$221 / ~$190B market cap and ~71x 2026E core EPS (sell-side avg target below market price), with ~$9B debt and AI-capex cyclicality the key risks. Neutral / high-quality but high expectations (watch).",
+    "chainLayer": "optical"
   },
   {
     "id": "nvidia-2026",
@@ -134,6 +141,7 @@
     "title": "NVIDIA 深度研究报告 - AI 计算中枢的高质量与高预期",
     "titleEn": "NVIDIA Deep Research Report - The AI Compute Hub, High Quality Meets High Expectations",
     "summary": "AI 计算革命的绝对中枢，Q1 FY2027 营收 $81.6B（+85% YoY）、数据中心 $75.2B（+92%），且这份创纪录报表在中国数据中心收入归零的前提下完成，Q2 FY2027 指引 $91.0B。反直觉点：作为全球市值第一（约 $4.76 万亿），远期 P/E 约 25x 反而低于 AMD 约 58x、Broadcom 约 33x。风险不在倍数，而在分母——AI 资本开支可持续性、自定义 ASIC 替代、中国结构性丢失与循环融资减值。中性/高质量但高预期（观察）。",
+    "summaryEn": "The absolute center of the AI compute revolution. Q1 FY2027 revenue was $81.6B (+85% YoY), Data Center was $75.2B (+92%), and the record print came despite China data-center revenue going to zero; Q2 FY2027 guidance is $91.0B. The counterintuitive point: as the world's largest company by market cap (~$4.76T), NVIDIA trades around ~25x forward P/E, below AMD at ~58x and Broadcom at ~33x. The risk is not the multiple, but the denominator: AI capex durability, custom ASIC substitution, structural China loss, and circular-financing impairment. Neutral / high-quality but high expectations (watch).",
     "tags": [
       "AI计算",
       "GPU",
@@ -156,7 +164,8 @@
       "毛利率回到 75%；新增 $80B 回购 + 季度股息 $0.01→$0.25，FCF 信号强；GAAP EPS $2.39 含 $15.9B 股权未实现收益，须以非 GAAP $1.87 为准",
       "护城河三重叠加：CUDA 生态 + 全栈系统（GPU+NVLink+网络）+ 年度节奏；结构性威胁来自自定义 ASIC（Broadcom）多于 AMD",
       "股价约 $195.74、市值约 $4.76 万亿（全球第一），但远期 P/E 约 25x 低于 AMD 约 58x；风险在盈利预期分母而非倍数。中性/观察"
-    ]
+    ],
+    "chainLayer": "compute"
   },
   {
     "id": "aaoi-2026",
@@ -165,6 +174,7 @@
     "title": "AAOI 深度研究报告 - AI数据中心光模块高弹性与高估值考验",
     "titleEn": "AAOI Deep Research Report - AI Data Center Optics Upside Meets a Demanding Valuation",
     "summary": "AI数据中心光模块高弹性标的，Q1 2026营收$151.1M（+51%），Data Center收入$81.4M（+154%），800G产品已向大型hyperscale客户首批量产出货。Q2指引收入$180-198M，Q3随产能上线预计显著放大。但GAAP仍亏损、经营现金流-$85.4M，当前EV/TTM Sales约26.6x，客户集中和ATM稀释是核心风险。",
+    "summaryEn": "High-beta AI data-center optical-module exposure. Q1 2026 revenue was $151.1M (+51%), Data Center revenue was $81.4M (+154%), and 800G products began initial mass-production shipments to a large hyperscale customer. Q2 guidance is $180-198M, with Q3 expected to step up as capacity comes online. But GAAP remains loss-making, operating cash flow was -$85.4M, current EV/TTM Sales is about 26.6x, and customer concentration plus ATM dilution are core risks.",
     "tags": [
       "光通信",
       "AI数据中心",
@@ -187,7 +197,8 @@
       "800G产品Q1已向大型hyperscale客户首批量产出货，Q2开始ramp，Q3随产能上线预计显著放大",
       "Q1末800G transceiver月产能接近100,000只，美国和台湾扩产支撑AI光模块交付",
       "股价约$171.23、市值约$137亿，EV/TTM Sales约26.6x；GAAP仍亏损、现金流和稀释风险需要严密跟踪"
-    ]
+    ],
+    "chainLayer": "optical"
   },
   {
     "id": "gevernova-2026",
@@ -219,7 +230,8 @@
       "燃气轮机 backlog + slot 预留 2026 年底目标 ≥110 GW；上调 FY2026 指引：营收 $44.5-45.5B、调整后 EBITDA 利润率 12-14%、FCF $6.5-7.5B",
       "利润率从 FY2025 的 8.4% 向中两位数爬坡是估值核心变量；Q1 现金 $10.2B、senior notes $2.6B，粗略净现金约 $7.6B，与背 $64.9B 总债务的 Broadcom 形成对比",
       "股价约 $1,056.77、市值约 $2,840 亿（近一年 +117%），EV/2026E 调整后 EBITDA 约 45-48x，已计入多年爬坡、与 AI capex 共命运、Wind 仍亏损。中性/观察"
-    ]
+    ],
+    "chainLayer": "power"
   },
   {
     "id": "sandisk-2026",
@@ -252,7 +264,8 @@
       "五份NBM长期供货协议锁定约$420亿最低合同收入、>$110亿财务担保、覆盖FY2027逾1/3 bit出货（管理层电话会口径，待合同披露），是『去周期化』核心尝试；并授权$60亿股份回购",
       "核心风险：NAND周期性极强，78%+顶峰毛利率不可持续；周期转向时盈利与估值双向收缩"
     ],
-    "summaryEn": "Q3 FY2026 revenue $5.95B (+97% Q/Q), Datacenter $1.47B (+233% Q/Q), GAAP GM 78.4%, OM 69.1%, GAAP EPS $23.03, FCF $2.99B, zero debt. Five NBM long-term supply agreements lock in ~$42B minimum contracted revenue (per management's earnings call) and a $6B buyback was authorized. Q4 guidance $7.75-8.25B, Non-GAAP EPS $30-33, GM 79-81%. ~16x FY2026E P/S, but NAND is one of the most cyclical semiconductor sub-sectors — 78-80% peak margins are unsustainable and cycle turns see both earnings and multiples contract."
+    "summaryEn": "Q3 FY2026 revenue $5.95B (+97% Q/Q), Datacenter $1.47B (+233% Q/Q), GAAP GM 78.4%, OM 69.1%, GAAP EPS $23.03, FCF $2.99B, zero debt. Five NBM long-term supply agreements lock in ~$42B minimum contracted revenue (per management's earnings call) and a $6B buyback was authorized. Q4 guidance $7.75-8.25B, Non-GAAP EPS $30-33, GM 79-81%. ~16x FY2026E P/S, but NAND is one of the most cyclical semiconductor sub-sectors — 78-80% peak margins are unsustainable and cycle turns see both earnings and multiples contract.",
+    "chainLayer": "memory-storage"
   },
   {
     "id": "tempus-ai-2026",
@@ -374,7 +387,8 @@
       "lastUpdate": "2026-02-25",
       "summary": "归档的2026重跑前版本，保留FY2025收入/利润、HBM份额、技术路线图和旧的5.3x深度价值估值框架。",
       "summaryEn": "Archived pre-rerun 2026 baseline preserving FY2025 revenue/profit, HBM share, the technology roadmap, and the old 5.3x deep-value valuation framework."
-    }
+    },
+    "chainLayer": "memory-storage"
   },
   {
     "id": "sk-hynix-2026-pre-rerun",
@@ -483,7 +497,8 @@
       "lastUpdate": "2026-02-19",
       "summary": "归档的2026H1重跑前版本，保留Sangdong、钨出口、Plansee/GTP和旧市值/收入倍数框架。",
       "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the Sangdong, tungsten-export, Plansee/GTP, and old market-cap/revenue-multiple framework."
-    }
+    },
+    "chainLayer": "resources"
   },
   {
     "id": "igv-2026",
@@ -701,7 +716,8 @@
       "lastUpdate": "2026-02-11",
       "summary": "归档的2026H1重跑前版本，保留Q4 2025、Brookfield、800V DC和旧估值框架。",
       "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the Q4 2025, Brookfield, 800V DC, and old valuation framework."
-    }
+    },
+    "chainLayer": "power"
   },
   {
     "id": "salesforce-2026",
@@ -939,7 +955,8 @@
       "佐治亚工厂推迟至8月底投产，FEOC合规已确认；Infinite Grid Capital 1.1 GWh LOI（~$2亿）",
       "Needham 6/17首次覆盖给予买入、$8目标价；TTM P/S ~5.82x，现金$11.48M，跑道约4季度"
     ],
-    "summaryEn": "Q3 FY2026 revenue collapsed to $2.02M (-56% QoQ); the stock has crashed from $4.21 to ~$1.93 (-54%), with a public offering diluting shares ~65%. The Georgia factory slipped to end-August, while Infinite Grid's ~$200M 1.1 GWh LOI and Needham's initiation at an $8 target offer long-term optionality — but near-term fundamentals have deteriorated badly. P/S(TTM) ~5.82x, very high risk."
+    "summaryEn": "Q3 FY2026 revenue collapsed to $2.02M (-56% QoQ); the stock has crashed from $4.21 to ~$1.93 (-54%), with a public offering diluting shares ~65%. The Georgia factory slipped to end-August, while Infinite Grid's ~$200M 1.1 GWh LOI and Needham's initiation at an $8 target offer long-term optionality — but near-term fundamentals have deteriorated badly. P/S(TTM) ~5.82x, very high risk.",
+    "chainLayer": "power"
   },
   {
     "id": "copx-2026",
@@ -971,7 +988,8 @@
       "YTD回报从+20.14%(Feb)回落至+5.45%，价格路径波动剧烈",
       "232条款关税审查临近（2026年中），COMEX溢价和关税走向是近期最大二元变量"
     ],
-    "summaryEn": "The largest pure-play copper miners ETF. June 25, 2026 incremental update: COPX trades ~$76.92, AUM grew to $7.99B (+8%), weighted P/E compressed from 30-35x to 17.74x (earnings delivery). Copper at ~$13,531/tonne ($6.14/lb) exceeds February's bull case ceiling, but flat COPX price reflects tariff uncertainty. YTD return down from +20.14% to +5.45%. COMEX premium and Section 232 review are the key near-term variables."
+    "summaryEn": "The largest pure-play copper miners ETF. June 25, 2026 incremental update: COPX trades ~$76.92, AUM grew to $7.99B (+8%), weighted P/E compressed from 30-35x to 17.74x (earnings delivery). Copper at ~$13,531/tonne ($6.14/lb) exceeds February's bull case ceiling, but flat COPX price reflects tariff uncertainty. YTD return down from +20.14% to +5.45%. COMEX premium and Section 232 review are the key near-term variables.",
+    "chainLayer": "resources"
   },
   {
     "id": "amd-2026-pre-rerun",
@@ -1027,6 +1045,7 @@
     "title": "AMD 深度研究报告 - AI时代的半导体挑战者",
     "titleEn": "AMD Deep Research Report - AI Era Semiconductor Challenger",
     "summary": "2026-06-22完整重跑版：AMD Q1 2026营收$102.53亿（+38% YoY），Data Center收入约$58亿（+57% YoY），Meta 6GW与Helios/MI450强化AI基础设施平台叙事；但股价约$537、市值约$8,870亿，EV/TTM Sales约23.4x，当前结论调整为中性/观察：基本面强，估值容错极低。",
+    "summaryEn": "June 22, 2026 full rerun: AMD Q1 2026 revenue was $10.253B (+38% YoY), Data Center revenue was about $5.8B (+57% YoY), and Meta's 6GW Instinct GPU partnership plus Helios/MI450 strengthen the AI infrastructure platform story. But at roughly $537 per share, ~$887B market cap, and ~23.4x EV/TTM Sales, the conclusion is neutral/watch: fundamentals are stronger, but valuation tolerance is very low.",
     "tags": [
       "半导体",
       "AI加速器",
@@ -1046,7 +1065,8 @@
       "Q1 2026营收$102.53亿（+38% YoY），Data Center约$58亿（+57% YoY）",
       "Meta多年6GW Instinct GPU合作，首个1GW预计2026下半年出货，是H2验证核心",
       "股价约$537、市值约$8,870亿；EV/TTM Sales约23.4x，当前价格接近bull case下沿"
-    ]
+    ],
+    "chainLayer": "compute"
   },
   {
     "id": "jinpan-2026-pre-rerun",
@@ -1123,7 +1143,8 @@
       "lastUpdate": "2026-02-03",
       "summary": "归档的2026H1重跑前版本，保留2月价格、市值、AIDC/SST和应收账款风险框架，用于审计与对照。",
       "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the February price, market-cap, AIDC/SST, and receivables-risk framework for audit and comparison."
-    }
+    },
+    "chainLayer": "power"
   },
   {
     "id": "paypal-2026",
@@ -1231,7 +1252,8 @@
       "lastUpdate": "2026-02-10",
       "summary": "归档的2026H1重跑前版本，保留2月项目管线、目标价、首堆和零收入估值框架。",
       "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the February pipeline, target-price, first-reactor, and zero-revenue valuation framework."
-    }
+    },
+    "chainLayer": "power"
   },
   {
     "id": "broadcom-2026",
@@ -1263,6 +1285,7 @@
       "FY2027 AI 半导体目标 >$1000 亿；公开报道涉及 Google/Meta/字节/Anthropic/OpenAI/Fujitsu 等 XPU 项目与 $73B backlog 估算——但兑现后置到 FY2027、客户高度集中，非全部为官方确认订单",
       "两台引擎：AI 定制硅增长 + VMware 软件现金（非 GAAP 营业利润率 67%、FCF 占收入 46%）；总债务 $64.9B、Q2 期末现金 $19.63B，净债务约 $45B",
       "市值约 $1.8 万亿、远期 P/E 约 33x，介于 NVIDIA ~25x 与 AMD ~58x 之间；风险在 FY2027 兑现分母而非倍数。中性/观察"
-    ]
+    ],
+    "chainLayer": "custom-merchant-silicon"
   }
 ]
