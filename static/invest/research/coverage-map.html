@@ -37,6 +37,114 @@
             max-width: 780px;
         }
 
+        .chain-graph-shell {
+            margin-top: 1rem;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            background: linear-gradient(160deg, var(--entry), color-mix(in srgb, var(--entry) 94%, var(--surface-2)));
+            overflow: hidden;
+        }
+
+        .chain-graph-scroll {
+            overflow-x: auto;
+            scrollbar-width: thin;
+        }
+
+        .chain-graph-svg {
+            display: block;
+            max-width: none;
+            color: var(--primary);
+            font-family: inherit;
+        }
+
+        .chain-lane-bg {
+            fill: color-mix(in srgb, var(--entry) 96%, var(--surface-2));
+        }
+
+        .chain-lane-bg-alt {
+            fill: color-mix(in srgb, var(--entry) 92%, var(--surface-3));
+        }
+
+        .chain-lane-divider {
+            stroke: var(--border);
+            stroke-width: 1;
+        }
+
+        .chain-lane-label {
+            fill: var(--secondary);
+            font-size: 11px;
+            font-weight: 750;
+            text-transform: uppercase;
+        }
+
+        .chain-lane-count {
+            fill: var(--tertiary);
+            font-size: 10px;
+            font-weight: 650;
+        }
+
+        .chain-edge {
+            fill: none;
+            stroke: color-mix(in srgb, var(--accent) 55%, var(--border));
+            stroke-width: 1.7;
+            stroke-linecap: round;
+            opacity: 0.74;
+        }
+
+        .chain-edge-dashed {
+            stroke-dasharray: 6 6;
+        }
+
+        .chain-node-link {
+            text-decoration: none;
+        }
+
+        .chain-node-rect {
+            fill: var(--entry);
+            stroke: color-mix(in srgb, var(--accent) 36%, var(--border));
+            stroke-width: 1.2;
+        }
+
+        .chain-node-link:hover .chain-node-rect,
+        .chain-node-link:focus-visible .chain-node-rect {
+            fill: var(--accent-soft);
+            stroke: var(--accent);
+        }
+
+        .chain-node-planned .chain-node-rect {
+            fill: color-mix(in srgb, var(--entry) 90%, var(--surface-3));
+            stroke: var(--tertiary);
+            stroke-dasharray: 5 4;
+        }
+
+        .chain-node-ticker {
+            fill: var(--primary);
+            font-size: 12px;
+            font-weight: 800;
+        }
+
+        .chain-node-name {
+            fill: var(--secondary);
+            font-size: 10px;
+            font-weight: 620;
+        }
+
+        .chain-node-role {
+            fill: var(--accent);
+            font-size: 9px;
+            font-weight: 750;
+        }
+
+        .chain-node-planned .chain-node-role {
+            fill: var(--tertiary);
+        }
+
+        .chain-graph-caption {
+            margin: 0.6rem 0 0;
+            color: var(--secondary);
+            font-size: 0.78rem;
+        }
+
         .layer-stack {
             margin-top: 1rem;
             display: grid;
@@ -281,6 +389,10 @@
         }
 
         @media (max-width: 760px) {
+            .chain-section {
+                display: none;
+            }
+
             .coverage-hero-top,
             .layer-header,
             .other-item {
@@ -341,6 +453,17 @@
             </div>
         </section>
 
+        <section class="section chain-section" aria-labelledby="chainGraphHeading">
+            <div class="coverage-section-header">
+                <h2 id="chainGraphHeading">Chain Graph</h2>
+                <p id="chainGraphIntro">The chain graph shows current AI-infra validation reports and planned coverage gaps.</p>
+            </div>
+            <div class="chain-graph-shell" id="chainGraph">
+                <div class="loading-state">Loading chain graph...</div>
+            </div>
+            <p class="chain-graph-caption" id="chainGraphCaption"></p>
+        </section>
+
         <section class="section">
             <div class="coverage-section-header">
                 <h2 id="mapHeading">AI Infrastructure Coverage Map</h2>
@@ -392,6 +515,10 @@
         const PAGE_LABELS = {
             zh: {
                 documentTitle: "AI 基建覆盖地图 | Atypical Life Club",
+                chainGraphHeading: "链条图谱",
+                chainGraphIntro: "上方节点展示当前承担验证任务的报告，虚线节点展示下一批计划补齐的链条缺口。",
+                chainGraphCaption: "实线为现有 related 关系；风险锚与架构校验之间的关系用虚线表示。计划节点只暴露覆盖缺口，不生成下方报告卡片。",
+                plannedBadge: "计划中",
                 mapHeading: "AI 基建覆盖地图",
                 crossCheckHeading: "Cross-Check Logic",
                 methodologyHeading: "Research Methodology",
@@ -408,6 +535,10 @@
             },
             en: {
                 documentTitle: "AI Infrastructure Coverage Map | Atypical Life Club",
+                chainGraphHeading: "Chain Graph",
+                chainGraphIntro: "The graph shows current validation reports plus planned gaps in the AI-infrastructure chain.",
+                chainGraphCaption: "Solid lines are existing related links; risk-anchor to architecture-check links are dashed. Planned nodes expose coverage gaps only and do not create report cards below.",
+                plannedBadge: "Planned",
                 mapHeading: "AI Infrastructure Coverage Map",
                 crossCheckHeading: "Cross-Check Logic",
                 methodologyHeading: "Research Methodology",
@@ -427,6 +558,16 @@
         const state = {
             coverage: null,
             reports: []
+        };
+
+        const CHAIN_GRAPH_LAYOUT = {
+            marginX: 22,
+            top: 62,
+            laneWidth: 156,
+            nodeWidth: 124,
+            nodeHeight: 56,
+            nodeGap: 12,
+            bottom: 30
         };
 
         let currentLang = chooseInitialLanguage();
@@ -476,6 +617,9 @@
             const page = state.coverage.page || {};
             setText("pageTitle", localize(page.title));
             setText("pageSubtitle", localize(page.subtitle));
+            setText("chainGraphHeading", labels.chainGraphHeading);
+            setText("chainGraphIntro", labels.chainGraphIntro);
+            setText("chainGraphCaption", labels.chainGraphCaption);
             setText("mapHeading", labels.mapHeading);
             setText("mapIntro", localize(page.mapIntro));
             setText("crossCheckHeading", labels.crossCheckHeading);
@@ -485,10 +629,214 @@
             setText("disclaimerText", localize(page.disclaimer));
             setText("backToResearch", labels.backToResearch);
 
+            renderChainGraph();
             renderLayers();
             renderCrossChecks();
             renderMethodology();
             renderOtherCoverage();
+        }
+
+        function renderChainGraph() {
+            const root = document.getElementById("chainGraph");
+            if (!root) return;
+
+            const layers = Array.isArray(state.coverage.layers) ? state.coverage.layers : [];
+            const planned = Array.isArray(state.coverage.planned) ? state.coverage.planned : [];
+            const chainReports = sortGraphReports(state.reports.filter((report) => report.chainLayer));
+            const entries = layers
+                .map((layer) => ({
+                    layer,
+                    reports: chainReports.filter((report) => report.chainLayer === layer.id),
+                    planned: planned.filter((item) => item.layer === layer.id)
+                }))
+                .filter((entry) => entry.reports.length || entry.planned.length);
+
+            if (!entries.length) {
+                root.innerHTML = `<div class="empty-state">${escapeHtml(getLabels().emptyLayers)}</div>`;
+                return;
+            }
+
+            const layout = CHAIN_GRAPH_LAYOUT;
+            const maxRows = Math.max(...entries.map((entry) => entry.reports.length + entry.planned.length), 1);
+            const width = Math.max(980, layout.marginX * 2 + entries.length * layout.laneWidth);
+            const height = layout.top + maxRows * (layout.nodeHeight + layout.nodeGap) + layout.bottom;
+            const nodes = [];
+            const nodesByReportId = new Map();
+
+            entries.forEach((entry, laneIndex) => {
+                const x = layout.marginX + laneIndex * layout.laneWidth + layout.laneWidth / 2;
+                const laneNodes = [
+                    ...entry.reports.map((report) => ({ kind: "report", report, layer: entry.layer })),
+                    ...entry.planned.map((item, index) => ({ kind: "planned", item, layer: entry.layer, index }))
+                ];
+
+                laneNodes.forEach((node, rowIndex) => {
+                    const placed = {
+                        ...node,
+                        x,
+                        y: layout.top + rowIndex * (layout.nodeHeight + layout.nodeGap)
+                    };
+                    nodes.push(placed);
+                    if (placed.kind === "report") nodesByReportId.set(placed.report.id, placed);
+                });
+            });
+
+            const edges = collectGraphEdges(chainReports, nodesByReportId);
+            const laneMarkup = entries.map((entry, laneIndex) => renderGraphLane(entry, laneIndex, height)).join("");
+            const edgeMarkup = edges.map(renderGraphEdge).join("");
+            const nodeMarkup = nodes.map(renderGraphNode).join("");
+
+            root.innerHTML = `
+                <div class="chain-graph-scroll">
+                    <svg class="chain-graph-svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="chainGraphSvgTitle">
+                        <title id="chainGraphSvgTitle">${escapeHtml(getLabels().chainGraphHeading)}</title>
+                        ${laneMarkup}
+                        ${edgeMarkup}
+                        ${nodeMarkup}
+                    </svg>
+                </div>
+            `;
+        }
+
+        function renderGraphLane(entry, laneIndex, height) {
+            const layout = CHAIN_GRAPH_LAYOUT;
+            const x = layout.marginX + laneIndex * layout.laneWidth;
+            const centerX = x + layout.laneWidth / 2;
+            const reportCount = entry.reports.length;
+            const plannedCount = entry.planned.length;
+            const countText = plannedCount
+                ? `${reportCount} + ${plannedCount}`
+                : `${reportCount}`;
+
+            return `
+                <g class="chain-lane" data-layer="${escapeHtml(entry.layer.id)}">
+                    <rect class="chain-lane-bg ${laneIndex % 2 ? "chain-lane-bg-alt" : ""}" x="${x}" y="0" width="${layout.laneWidth}" height="${height}"></rect>
+                    <line class="chain-lane-divider" x1="${x + layout.laneWidth}" y1="0" x2="${x + layout.laneWidth}" y2="${height}"></line>
+                    <text class="chain-lane-label" x="${centerX}" y="24" text-anchor="middle">${escapeHtml(trimGraphText(localize(entry.layer.title), 18))}</text>
+                    <text class="chain-lane-count" x="${centerX}" y="41" text-anchor="middle">${escapeHtml(countText)}</text>
+                </g>
+            `;
+        }
+
+        function renderGraphEdge(edge) {
+            const layout = CHAIN_GRAPH_LAYOUT;
+            const x1 = edge.source.x;
+            const y1 = edge.source.y + layout.nodeHeight / 2;
+            const x2 = edge.target.x;
+            const y2 = edge.target.y + layout.nodeHeight / 2;
+            const className = edge.dashed ? "chain-edge chain-edge-dashed" : "chain-edge";
+
+            if (Math.abs(x2 - x1) < 1) {
+                const offset = 58;
+                return `<path class="${className}" d="M ${x1} ${y1} C ${x1 + offset} ${y1}, ${x2 + offset} ${y2}, ${x2} ${y2}"></path>`;
+            }
+
+            const direction = x2 > x1 ? 1 : -1;
+            const control = Math.max(52, Math.abs(x2 - x1) * 0.38);
+            return `<path class="${className}" d="M ${x1} ${y1} C ${x1 + direction * control} ${y1}, ${x2 - direction * control} ${y2}, ${x2} ${y2}"></path>`;
+        }
+
+        function renderGraphNode(node) {
+            return node.kind === "planned"
+                ? renderPlannedNode(node)
+                : renderReportNode(node);
+        }
+
+        function renderReportNode(node) {
+            const report = node.report;
+            const layout = CHAIN_GRAPH_LAYOUT;
+            const left = node.x - layout.nodeWidth / 2;
+            const top = node.y;
+            const role = findRole(report.chainRole);
+            const roleLabel = role ? localize(role.label) : "";
+            const title = `${report.company || report.id} (${report.ticker || ""})`;
+
+            return `
+                <a class="chain-node-link" href="${escapeHtml(reportUrl(report))}">
+                    <g class="chain-node chain-node-report" transform="translate(${left} ${top})">
+                        <title>${escapeHtml(title)}</title>
+                        <rect class="chain-node-rect" x="0" y="0" width="${layout.nodeWidth}" height="${layout.nodeHeight}" rx="8"></rect>
+                        <text class="chain-node-ticker" x="10" y="18">${escapeHtml(trimGraphText(shortTicker(report.ticker), 15))}</text>
+                        <text class="chain-node-name" x="10" y="34">${escapeHtml(trimGraphText(report.company || report.id, 20))}</text>
+                        ${roleLabel ? `<text class="chain-node-role" x="10" y="49">${escapeHtml(trimGraphText(roleLabel, 22))}</text>` : ""}
+                    </g>
+                </a>
+            `;
+        }
+
+        function renderPlannedNode(node) {
+            const layout = CHAIN_GRAPH_LAYOUT;
+            const left = node.x - layout.nodeWidth / 2;
+            const top = node.y;
+            const ticker = node.item.ticker || "";
+            const label = localize(node.item.label) || ticker;
+
+            return `
+                <g class="chain-node chain-node-planned" transform="translate(${left} ${top})">
+                    <title>${escapeHtml(label)}</title>
+                    <rect class="chain-node-rect" x="0" y="0" width="${layout.nodeWidth}" height="${layout.nodeHeight}" rx="8"></rect>
+                    <text class="chain-node-ticker" x="10" y="18">${escapeHtml(trimGraphText(ticker, 15))}</text>
+                    <text class="chain-node-name" x="10" y="34">${escapeHtml(trimGraphText(label, 20))}</text>
+                    <text class="chain-node-role" x="10" y="49">${escapeHtml(getLabels().plannedBadge)}</text>
+                </g>
+            `;
+        }
+
+        function collectGraphEdges(reports, nodesByReportId) {
+            const reportsById = new Map(reports.map((report) => [report.id, report]));
+            const seen = new Set();
+            const edges = [];
+
+            reports.forEach((sourceReport) => {
+                const related = Array.isArray(sourceReport.related) ? sourceReport.related : [];
+                related.forEach((targetId) => {
+                    const targetReport = reportsById.get(targetId);
+                    if (!targetReport) return;
+
+                    const key = [sourceReport.id, targetReport.id].sort().join("::");
+                    if (seen.has(key)) return;
+                    seen.add(key);
+
+                    const source = nodesByReportId.get(sourceReport.id);
+                    const target = nodesByReportId.get(targetReport.id);
+                    if (!source || !target) return;
+
+                    const roles = new Set([sourceReport.chainRole, targetReport.chainRole].filter(Boolean));
+                    edges.push({
+                        source,
+                        target,
+                        dashed: roles.has("risk-anchor") && roles.has("architecture-check")
+                    });
+                });
+            });
+
+            return edges;
+        }
+
+        function sortGraphReports(reports) {
+            return [...reports].sort((left, right) => {
+                const layerDiff = String(left.chainLayer || "").localeCompare(String(right.chainLayer || ""));
+                if (layerDiff) return layerDiff;
+                return shortTicker(left.ticker).localeCompare(shortTicker(right.ticker), undefined, { numeric: true });
+            });
+        }
+
+        function reportUrl(report) {
+            const base = report.file || `/invest/research/reports/view.html?id=${report.id}`;
+            const joiner = base.includes("?") ? "&" : "?";
+            return `${base}${joiner}lang=${currentLang}`;
+        }
+
+        function shortTicker(value) {
+            const text = String(value || "").trim();
+            const withoutExchange = text.includes(":") ? text.split(":").slice(1).join(":").trim() : text;
+            return withoutExchange.replace(/\s*\/.*$/, "").trim() || text;
+        }
+
+        function trimGraphText(value, maxLength) {
+            const text = String(value || "").trim();
+            if (text.length <= maxLength) return text;
+            return `${text.slice(0, Math.max(1, maxLength - 1))}…`;
         }
 
         function renderLayers() {
@@ -536,7 +884,7 @@
             const summary = currentLang === "en"
                 ? report.summaryEn || report.summary || ""
                 : report.summary || report.summaryEn || "";
-            const href = report.file || "#";
+            const href = reportUrl(report);
 
             return `
                 <article class="coverage-report-card">
@@ -619,6 +967,7 @@
             setText("pageTitle", getLabels().mapHeading);
             setText("pageSubtitle", message);
             const fallback = `<div class="empty-state">${escapeHtml(message)}</div>`;
+            setHtml("chainGraph", fallback);
             setHtml("layerStack", fallback);
             setHtml("crossCheckList", "");
             setHtml("methodologyList", "");

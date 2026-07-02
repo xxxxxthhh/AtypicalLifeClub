@@ -65,6 +65,180 @@
             color: var(--content);
         }
 
+        .viz-module {
+            margin-top: 1rem;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            background: linear-gradient(160deg, var(--entry), color-mix(in srgb, var(--entry) 94%, var(--surface-2)));
+            overflow: hidden;
+        }
+
+        .viz-module-header {
+            padding: 0.75rem 0.9rem 0;
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .viz-caption {
+            margin: 0;
+            color: var(--secondary);
+            font-size: 0.8rem;
+        }
+
+        .viz-scroll {
+            overflow-x: auto;
+            padding: 0.75rem 0.9rem 0.9rem;
+        }
+
+        .viz-svg {
+            display: block;
+            min-width: 720px;
+            width: 100%;
+            height: auto;
+            color: var(--secondary);
+            font-variant-numeric: tabular-nums;
+        }
+
+        .viz-axis {
+            stroke: var(--border);
+            stroke-width: 1;
+        }
+
+        .viz-gridline {
+            stroke: color-mix(in srgb, var(--border) 72%, transparent);
+            stroke-width: 1;
+        }
+
+        .viz-marker {
+            stroke: var(--secondary);
+            stroke-width: 1.2;
+            stroke-dasharray: 4 4;
+        }
+
+        .viz-dot {
+            fill: color-mix(in srgb, var(--accent) 64%, var(--entry));
+            stroke: var(--entry);
+            stroke-width: 1.5;
+            transition: transform 0.18s ease, fill 0.18s ease;
+        }
+
+        .viz-dot-link:hover .viz-dot,
+        .viz-dot-link:focus .viz-dot {
+            fill: var(--accent);
+            transform: translateY(-1px);
+        }
+
+        .viz-label {
+            fill: var(--secondary);
+            font-size: 11px;
+        }
+
+        .viz-count {
+            fill: var(--content);
+            font-size: 12px;
+            font-weight: 650;
+            text-anchor: middle;
+        }
+
+        .event-chip-row {
+            padding: 0 0.9rem 0.9rem;
+        }
+
+        .event-chip-row a {
+            text-decoration: none;
+        }
+
+        .matrix-scroll {
+            margin-top: 1rem;
+            overflow-x: auto;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            background: var(--entry);
+        }
+
+        .matrix-table {
+            width: 100%;
+            min-width: 760px;
+            border-collapse: collapse;
+            font-size: 0.78rem;
+        }
+
+        .matrix-table th,
+        .matrix-table td {
+            border-bottom: 1px solid color-mix(in srgb, var(--border) 64%, transparent);
+            border-right: 1px solid color-mix(in srgb, var(--border) 64%, transparent);
+            padding: 0.42rem;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .matrix-table tr:last-child th,
+        .matrix-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .matrix-table th:last-child,
+        .matrix-table td:last-child {
+            border-right: none;
+        }
+
+        .matrix-theme {
+            min-width: 150px;
+            text-align: left;
+            color: var(--content);
+            font-weight: 650;
+            background: color-mix(in srgb, var(--entry) 94%, var(--surface-2));
+        }
+
+        .matrix-layer {
+            color: var(--secondary);
+            font-weight: 650;
+            background: color-mix(in srgb, var(--entry) 94%, var(--surface-3));
+            white-space: nowrap;
+        }
+
+        .matrix-cell {
+            min-width: 56px;
+            height: 42px;
+        }
+
+        .matrix-cell-button {
+            width: 100%;
+            min-height: 34px;
+            border: 1px solid transparent;
+            border-radius: 8px;
+            color: var(--content);
+            font-weight: 750;
+            cursor: pointer;
+            transition: transform 0.16s ease, border-color 0.16s ease;
+        }
+
+        .matrix-cell-button:hover,
+        .matrix-cell-button:focus-visible {
+            outline: none;
+            transform: translateY(-1px);
+            border-color: color-mix(in srgb, var(--accent) 46%, var(--border));
+        }
+
+        .matrix-density-1 {
+            background: color-mix(in srgb, var(--accent) 14%, var(--entry));
+        }
+
+        .matrix-density-2 {
+            background: color-mix(in srgb, var(--accent) 22%, var(--entry));
+        }
+
+        .matrix-density-4 {
+            background: color-mix(in srgb, var(--accent) 32%, var(--entry));
+        }
+
+        .matrix-cell-empty {
+            color: var(--tertiary);
+        }
+
         /* --- view 1: verdict board --- */
         .verdict-stack {
             margin-top: 1rem;
@@ -363,6 +537,14 @@
             .criteria-table td:nth-child(3) {
                 display: none;
             }
+
+            .viz-module {
+                display: grid;
+            }
+
+            .viz-svg {
+                min-width: 680px;
+            }
         }
     </style>
 </head>
@@ -411,8 +593,21 @@
                 <h2 id="verdictHeading">Verdict Board</h2>
                 <p id="verdictIntro">按链条层级列出每篇报告的公开立场、价格快照日期与所反映的财报期。</p>
             </div>
+            <div class="viz-module" id="freshnessStrip">
+                <div class="loading-state">Loading freshness strip...</div>
+            </div>
             <div class="verdict-stack" id="verdictStack">
                 <div class="loading-state">Loading dashboard...</div>
+            </div>
+        </section>
+
+        <section class="section" id="nextCheckSection">
+            <div class="monitor-section-header">
+                <h2 id="nextCheckHeading">Next-Check Timeline</h2>
+                <p id="nextCheckIntro">按月份排列所有可定期复核的监控项；事件驱动项保留为独立入口。</p>
+            </div>
+            <div class="viz-module" id="nextCheckTimeline">
+                <div class="loading-state">Loading next-check timeline...</div>
             </div>
         </section>
 
@@ -436,6 +631,14 @@
                 </div>
             </div>
             <div class="criteria-stack" id="criteriaStack"></div>
+        </section>
+
+        <section class="section" id="themeMatrixSection">
+            <div class="monitor-section-header">
+                <h2 id="matrixHeading">Theme × Layer Matrix</h2>
+                <p id="matrixIntro">按主题和链条层级查看监控注意力密度；计数跟随当前论点方向筛选。</p>
+            </div>
+            <div id="themeLayerMatrix"></div>
         </section>
 
         <section class="section">
@@ -470,6 +673,17 @@
                 factNote: "事实看板：仅展示各报告已发布的触发条件与最新读数，不作红绿灯式信号判断。",
                 verdictHeading: "判断与新鲜度总览",
                 verdictIntro: "按链条层级列出每篇报告的公开立场、价格快照日期与所反映的财报期。",
+                freshnessCaption: "价格快照日期越靠左越早；圆点只表达日期，不表达好坏。",
+                todayLabel: "今天",
+                nextCheckHeading: "下次核查时间轴",
+                nextCheckIntro: "按月份排列所有可定期复核的监控项；事件驱动项保留为独立入口。",
+                nextCheckCaption: "圆点按当前论点方向筛选；月份早于本月只是位置事实，不使用警示色。",
+                thisMonthLabel: "本月",
+                eventDrivenLabel: (n) => `事件驱动 · ${n} 项`,
+                matrixHeading: "主题 × 层级矩阵",
+                matrixIntro: "按主题和链条层级查看监控注意力密度；计数跟随当前论点方向筛选。",
+                matrixCaption: "点击非空单元格会切到按主题分组，并滚动到对应主题。",
+                matrixEmpty: "当前筛选下没有可展示的监控项。",
                 criteriaHeading: "Kill-Criteria 看板",
                 criteriaIntro: "所有报告的监控项汇总为一张可筛选清单：指标、触发条件、最新读数与下次核查节点。",
                 spotlightHeading: "风险锚对照",
@@ -523,6 +737,17 @@
                 factNote: "Factual board: shows each report's published triggers and latest readings only — no traffic-light status judgments.",
                 verdictHeading: "Verdict Board",
                 verdictIntro: "Each report's published stance, price-snapshot date, and reported fiscal period, grouped by chain layer.",
+                freshnessCaption: "Older price snapshots sit farther left; dots encode date only, not quality.",
+                todayLabel: "today",
+                nextCheckHeading: "Next-Check Timeline",
+                nextCheckIntro: "Monitoring items with dateable reads are bucketed by month; event-driven checks stay first-class.",
+                nextCheckCaption: "Dots follow the active thesis filter; months before this month are positional facts, not warning colors.",
+                thisMonthLabel: "this month",
+                eventDrivenLabel: (n) => `Event-driven · ${n} item${n === 1 ? "" : "s"}`,
+                matrixHeading: "Theme × Layer Matrix",
+                matrixIntro: "Monitoring density by theme and chain layer; counts follow the active thesis filter.",
+                matrixCaption: "Click a non-empty cell to group the criteria board by theme and jump to that theme.",
+                matrixEmpty: "No monitoring items under the current filter.",
                 criteriaHeading: "Kill-Criteria Board",
                 criteriaIntro: "All monitoring items flattened into one filterable list: metric, trigger, latest reading, next check.",
                 spotlightHeading: "Risk-Anchor Spotlight",
@@ -626,8 +851,12 @@
             setText("factNote", labels.factNote);
             setText("verdictHeading", labels.verdictHeading);
             setText("verdictIntro", labels.verdictIntro);
+            setText("nextCheckHeading", labels.nextCheckHeading);
+            setText("nextCheckIntro", labels.nextCheckIntro);
             setText("criteriaHeading", labels.criteriaHeading);
             setText("criteriaIntro", labels.criteriaIntro);
+            setText("matrixHeading", labels.matrixHeading);
+            setText("matrixIntro", labels.matrixIntro);
             setText("spotlightHeading", labels.spotlightHeading);
             setText("spotlightIntro", labels.spotlightIntro);
             setText("groupLabel", labels.groupLabel);
@@ -640,14 +869,20 @@
             setText("toCoverageMap", labels.toCoverageMap);
 
             if (state.loadFailed) {
+                document.getElementById("freshnessStrip").innerHTML = `<div class="empty-state">${escapeHtml(labels.loadError)}</div>`;
                 document.getElementById("verdictStack").innerHTML = `<div class="empty-state">${escapeHtml(labels.loadError)}</div>`;
+                document.getElementById("nextCheckTimeline").innerHTML = "";
                 document.getElementById("criteriaStack").innerHTML = "";
+                document.getElementById("themeLayerMatrix").innerHTML = "";
                 document.getElementById("spotlightGrid").innerHTML = "";
                 return;
             }
 
+            renderFreshnessStrip();
             renderVerdictBoard();
+            renderNextCheckTimeline();
             renderCriteriaBoard();
+            renderThemeLayerMatrix();
             renderSpotlight();
         }
 
@@ -672,6 +907,219 @@
             if (!report.stance) return "";
             const text = labels.stances[report.stance] || report.stance;
             return `<span class="chip chip-stance">${escapeHtml(text)}</span>`;
+        }
+
+        function currentUtcDay() {
+            const now = new Date();
+            return new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
+        }
+
+        function addDays(date, days) {
+            return new Date(date.getTime() + days * 86400000);
+        }
+
+        function addMonths(date, months) {
+            return new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth() + months, 1));
+        }
+
+        function dateFromYmd(value) {
+            const timestamp = parseReportDate(value);
+            return timestamp ? new Date(timestamp) : null;
+        }
+
+        function dateFromYm(value) {
+            const match = String(value || "").match(/^(\d{4})-(0[1-9]|1[0-2])$/);
+            if (!match) return null;
+            return new Date(Date.UTC(Number(match[1]), Number(match[2]) - 1, 1));
+        }
+
+        function monthKey(date) {
+            const month = String(date.getUTCMonth() + 1).padStart(2, "0");
+            return `${date.getUTCFullYear()}-${month}`;
+        }
+
+        function monthRange(start, end) {
+            const months = [];
+            let cursor = new Date(Date.UTC(start.getUTCFullYear(), start.getUTCMonth(), 1));
+            const last = new Date(Date.UTC(end.getUTCFullYear(), end.getUTCMonth(), 1));
+            while (cursor.getTime() <= last.getTime()) {
+                months.push(monthKey(cursor));
+                cursor = addMonths(cursor, 1);
+            }
+            return months;
+        }
+
+        function scaledX(date, start, end, width, padding) {
+            const span = Math.max(1, end.getTime() - start.getTime());
+            const ratio = (date.getTime() - start.getTime()) / span;
+            return padding + ratio * (width - padding * 2);
+        }
+
+        function labelX(x, width, edgePadding = 40) {
+            return Math.max(edgePadding, Math.min(width - edgePadding, x));
+        }
+
+        function assignStackRows(items, minGap) {
+            const rows = [];
+            return items
+                .slice()
+                .sort((a, b) => a.x - b.x)
+                .map((item) => {
+                    let rowIndex = rows.findIndex((row) => row.every((x) => Math.abs(x - item.x) >= minGap));
+                    if (rowIndex === -1) {
+                        rowIndex = rows.length;
+                        rows.push([]);
+                    }
+                    rows[rowIndex].push(item.x);
+                    return { ...item, stackRow: rowIndex };
+                });
+        }
+
+        function renderFreshnessStrip() {
+            const root = document.getElementById("freshnessStrip");
+            const labels = getLabels();
+            if (!root) return;
+
+            const datedReports = state.chainReports
+                .map((report) => ({ report, date: dateFromYmd(report.priceAsOf) }))
+                .filter(({ date }) => date);
+            if (!datedReports.length) {
+                root.innerHTML = `<div class="empty-state">${escapeHtml(labels.emptyBoard)}</div>`;
+                return;
+            }
+
+            const minDate = new Date(Math.min(...datedReports.map(({ date }) => date.getTime())));
+            const today = currentUtcDay();
+            const start = addDays(minDate, -14);
+            const end = today.getTime() > minDate.getTime() ? today : addDays(minDate, 1);
+            const width = 760;
+            const padding = 54;
+            const points = assignStackRows(datedReports.map(({ report, date }) => ({
+                report,
+                date,
+                x: scaledX(date, start, end, width, padding)
+            })), 16);
+            const rowCount = Math.max(1, ...points.map((point) => point.stackRow + 1));
+            const plotBottom = 58 + rowCount * 14;
+            const height = plotBottom + 34;
+            const months = monthRange(start, end);
+            const monthLines = months.map((key) => {
+                const date = dateFromYm(key);
+                const x = scaledX(date, start, end, width, padding);
+                return `
+                    <line class="viz-gridline" x1="${x.toFixed(1)}" y1="18" x2="${x.toFixed(1)}" y2="${plotBottom}" />
+                    <text class="viz-label" x="${labelX(x, width).toFixed(1)}" y="${height - 10}" text-anchor="middle">${escapeHtml(key)}</text>
+                `;
+            }).join("");
+            const todayX = scaledX(today, start, end, width, padding);
+            const dots = points.map(({ report, date, x, stackRow }) => {
+                const y = plotBottom - 16 - stackRow * 14;
+                const title = `${report.company || report.id} · ${report.ticker || ""} · ${report.priceAsOf}`;
+                return `
+                    <a class="viz-dot-link" href="#verdict-${escapeHtml(report.id)}">
+                        <title>${escapeHtml(title)}</title>
+                        <circle class="viz-dot" cx="${x.toFixed(1)}" cy="${y}" r="5.5" />
+                    </a>
+                `;
+            }).join("");
+
+            root.innerHTML = `
+                <div class="viz-module-header">
+                    <p class="viz-caption">${escapeHtml(labels.freshnessCaption)}</p>
+                    <span class="chip">${escapeHtml(labels.reportsCount(points.length))}</span>
+                </div>
+                <div class="viz-scroll">
+                    <svg class="viz-svg" viewBox="0 0 ${width} ${height}" role="img" aria-label="${escapeHtml(labels.verdictHeading)}">
+                        ${monthLines}
+                        <line class="viz-axis" x1="${padding}" y1="${plotBottom}" x2="${width - padding}" y2="${plotBottom}" />
+                        <line class="viz-marker" x1="${todayX.toFixed(1)}" y1="14" x2="${todayX.toFixed(1)}" y2="${plotBottom}" />
+                        <text class="viz-label" x="${Math.min(width - 34, todayX + 8).toFixed(1)}" y="26">${escapeHtml(labels.todayLabel)}</text>
+                        ${dots}
+                    </svg>
+                </div>
+            `;
+        }
+
+        function renderNextCheckTimeline() {
+            const root = document.getElementById("nextCheckTimeline");
+            const labels = getLabels();
+            if (!root) return;
+
+            const entries = collectMonitoringItems();
+            const dated = entries
+                .map((entry) => ({ ...entry, date: dateFromYm(entry.item.nextCheckDate) }))
+                .filter(({ date }) => date);
+            const undated = entries.filter(({ item }) => !dateFromYm(item.nextCheckDate));
+            if (!dated.length && !undated.length) {
+                root.innerHTML = `<div class="empty-state">${escapeHtml(labels.emptyBoard)}</div>`;
+                return;
+            }
+
+            const currentMonth = new Date(Date.UTC(currentUtcDay().getUTCFullYear(), currentUtcDay().getUTCMonth(), 1));
+            const monthTimes = dated.map(({ date }) => date.getTime());
+            const startDate = new Date(Math.min(currentMonth.getTime(), ...(monthTimes.length ? monthTimes : [currentMonth.getTime()])));
+            const endDate = new Date(Math.max(currentMonth.getTime(), ...(monthTimes.length ? monthTimes : [currentMonth.getTime()])));
+            const months = monthRange(startDate, endDate);
+            const width = Math.max(760, 128 + months.length * 86);
+            const padding = 62;
+            const monthStep = months.length > 1 ? (width - padding * 2) / (months.length - 1) : 0;
+            const xByMonth = new Map(months.map((key, index) => [key, months.length > 1 ? padding + index * monthStep : width / 2]));
+            const byMonth = new Map();
+            dated.forEach((entry) => {
+                const key = monthKey(entry.date);
+                if (!byMonth.has(key)) byMonth.set(key, []);
+                byMonth.get(key).push(entry);
+            });
+            const maxBucket = Math.max(1, ...Array.from(byMonth.values()).map((items) => items.length));
+            const plotBottom = 62 + maxBucket * 14;
+            const height = plotBottom + 36;
+            const currentKey = monthKey(currentMonth);
+            const grid = months.map((key) => {
+                const x = xByMonth.get(key);
+                const count = byMonth.get(key)?.length || 0;
+                return `
+                    <line class="viz-gridline" x1="${x.toFixed(1)}" y1="20" x2="${x.toFixed(1)}" y2="${plotBottom}" />
+                    ${count ? `<text class="viz-count" x="${x.toFixed(1)}" y="28">${count}</text>` : ""}
+                    <text class="viz-label" x="${labelX(x, width).toFixed(1)}" y="${height - 10}" text-anchor="middle">${escapeHtml(key)}</text>
+                `;
+            }).join("");
+            const dots = Array.from(byMonth.entries()).map(([key, items]) => {
+                const x = xByMonth.get(key);
+                return items
+                    .slice()
+                    .sort((a, b) => localize(a.item.metric).localeCompare(localize(b.item.metric)))
+                    .map((entry, index) => {
+                        const y = plotBottom - 16 - index * 14;
+                        const title = `${entry.report.company || entry.report.id} · ${localize(entry.item.metric)}`;
+                        return `
+                            <a class="viz-dot-link" href="#crit-${escapeHtml(entry.report.id)}-${escapeHtml(entry.item.id)}">
+                                <title>${escapeHtml(title)}</title>
+                                <circle class="viz-dot" cx="${x.toFixed(1)}" cy="${y}" r="5.5" />
+                            </a>
+                        `;
+                    }).join("");
+            }).join("");
+            const currentX = xByMonth.get(currentKey) || width / 2;
+            const eventChip = undated.length
+                ? `<a class="chip" href="#criteriaHeading">${escapeHtml(labels.eventDrivenLabel(undated.length))}</a>`
+                : `<span class="chip">${escapeHtml(labels.eventDrivenLabel(0))}</span>`;
+
+            root.innerHTML = `
+                <div class="viz-module-header">
+                    <p class="viz-caption">${escapeHtml(labels.nextCheckCaption)}</p>
+                    <span class="chip">${escapeHtml(labels.itemsCount(entries.length))}</span>
+                </div>
+                <div class="viz-scroll">
+                    <svg class="viz-svg" viewBox="0 0 ${width} ${height}" role="img" aria-label="${escapeHtml(labels.nextCheckHeading)}">
+                        ${grid}
+                        <line class="viz-axis" x1="${padding}" y1="${plotBottom}" x2="${width - padding}" y2="${plotBottom}" />
+                        <line class="viz-marker" x1="${currentX.toFixed(1)}" y1="14" x2="${currentX.toFixed(1)}" y2="${plotBottom}" />
+                        <text class="viz-label" x="${Math.min(width - 70, currentX + 8).toFixed(1)}" y="44">${escapeHtml(labels.thisMonthLabel)}</text>
+                        ${dots}
+                    </svg>
+                </div>
+                <div class="event-chip-row">${eventChip}</div>
+            `;
         }
 
         /* ---------- view 1: verdict board ---------- */
@@ -717,7 +1165,7 @@
         function renderVerdictRow(report) {
             const labels = getLabels();
             return `
-                <div class="verdict-row">
+                <div class="verdict-row" id="verdict-${escapeHtml(report.id)}">
                     <div class="verdict-name">
                         <a href="${escapeHtml(reportUrl(report))}">${escapeHtml(report.company || report.id)}</a>
                         <span class="verdict-ticker">${escapeHtml(report.ticker || "")}</span>
@@ -744,8 +1192,7 @@
         function bindBoardControls() {
             document.querySelectorAll("#groupControls button").forEach((btn) => {
                 btn.addEventListener("click", () => {
-                    state.groupMode = btn.dataset.group;
-                    document.querySelectorAll("#groupControls button").forEach((b) => b.classList.toggle("active", b === btn));
+                    setGroupMode(btn.dataset.group);
                     renderCriteriaBoard();
                 });
             });
@@ -753,8 +1200,17 @@
                 btn.addEventListener("click", () => {
                     state.thesisFilter = btn.dataset.thesis;
                     document.querySelectorAll("#thesisControls button").forEach((b) => b.classList.toggle("active", b === btn));
+                    renderNextCheckTimeline();
                     renderCriteriaBoard();
+                    renderThemeLayerMatrix();
                 });
+            });
+        }
+
+        function setGroupMode(mode) {
+            state.groupMode = mode === "theme" ? "theme" : "report";
+            document.querySelectorAll("#groupControls button").forEach((btn) => {
+                btn.classList.toggle("active", btn.dataset.group === state.groupMode);
             });
         }
 
@@ -783,25 +1239,29 @@
             entries.forEach((entry) => {
                 let key;
                 let title;
+                let anchor;
                 if (state.groupMode === "theme") {
                     // theme is the ONLY grouping key; untagged items fall back to their report group.
                     if (entry.item.theme) {
                         key = `theme:${entry.item.theme}`;
                         title = labels.themes[entry.item.theme] || entry.item.theme;
+                        anchor = `crit-group-theme-${entry.item.theme}`;
                     } else {
                         key = `report:${entry.report.id}`;
                         title = `${labels.ungroupedTheme} · ${entry.report.company}`;
+                        anchor = `crit-group-report-${entry.report.id}`;
                     }
                 } else {
                     key = `report:${entry.report.id}`;
                     title = `${entry.report.company} (${entry.report.ticker || entry.report.id})`;
+                    anchor = `crit-group-report-${entry.report.id}`;
                 }
-                if (!groups.has(key)) groups.set(key, { title, entries: [] });
+                if (!groups.has(key)) groups.set(key, { title, anchor, entries: [] });
                 groups.get(key).entries.push(entry);
             });
 
             root.innerHTML = Array.from(groups.values()).map((group) => `
-                <article class="criteria-group">
+                <article class="criteria-group" id="${escapeHtml(group.anchor)}">
                     <div class="criteria-group-header">
                         <h3 class="criteria-group-title">${escapeHtml(group.title)}</h3>
                         <span class="chip">${escapeHtml(labels.itemsCount(group.entries.length))}</span>
@@ -830,7 +1290,7 @@
                 ? `<span class="chip">${escapeHtml(labels.themes[item.theme] || item.theme)}</span>`
                 : "";
             return `
-                <tr>
+                <tr id="crit-${escapeHtml(report.id)}-${escapeHtml(item.id)}">
                     <td>
                         <span class="criteria-metric">${escapeHtml(localize(item.metric))}</span>
                         <a class="criteria-report-link" href="${escapeHtml(reportUrl(report))}">${escapeHtml(report.company)} · ${escapeHtml(report.ticker || report.id)}</a>
@@ -841,6 +1301,90 @@
                     <td class="criteria-next">${escapeHtml(item.nextCheck || "—")}</td>
                 </tr>
             `;
+        }
+
+        function renderThemeLayerMatrix() {
+            const root = document.getElementById("themeLayerMatrix");
+            const labels = getLabels();
+            if (!root) return;
+
+            const entries = collectMonitoringItems();
+            if (!entries.length) {
+                root.innerHTML = `<div class="empty-state">${escapeHtml(labels.matrixEmpty)}</div>`;
+                return;
+            }
+
+            const layerIds = state.layers
+                .map((layer) => layer.id)
+                .filter((id) => state.chainReports.some((report) => report.chainLayer === id));
+            const layerTitles = new Map(state.layers.map((layer) => [layer.id, localize(layer.title)]));
+            const themeEntries = Object.keys(labels.themes)
+                .filter((theme) => entries.some(({ item }) => item.theme === theme));
+            const hasUntagged = entries.some(({ item }) => !item.theme);
+            if (hasUntagged) themeEntries.push("untagged");
+
+            const counts = new Map();
+            entries.forEach(({ report, item }) => {
+                const theme = item.theme || "untagged";
+                const key = `${theme}|${report.chainLayer}`;
+                counts.set(key, (counts.get(key) || 0) + 1);
+            });
+
+            const header = layerIds.map((layerId) => `
+                <th class="matrix-layer" scope="col">${escapeHtml(layerTitles.get(layerId) || layerId)}</th>
+            `).join("");
+            const rows = themeEntries.map((theme) => {
+                const themeTitle = theme === "untagged"
+                    ? labels.ungroupedTheme
+                    : labels.themes[theme] || theme;
+                const cells = layerIds.map((layerId) => {
+                    const count = counts.get(`${theme}|${layerId}`) || 0;
+                    if (!count) return `<td class="matrix-cell matrix-cell-empty">—</td>`;
+                    const bucket = count >= 4 ? 4 : count >= 2 ? 2 : 1;
+                    return `
+                        <td class="matrix-cell">
+                            <button class="matrix-cell-button matrix-density-${bucket}" type="button" data-matrix-theme="${escapeHtml(theme)}" title="${escapeHtml(themeTitle)} · ${escapeHtml(layerTitles.get(layerId) || layerId)}">${count}</button>
+                        </td>
+                    `;
+                }).join("");
+                return `
+                    <tr>
+                        <th class="matrix-theme" scope="row">${escapeHtml(themeTitle)}</th>
+                        ${cells}
+                    </tr>
+                `;
+            }).join("");
+
+            root.innerHTML = `
+                <p class="viz-caption">${escapeHtml(labels.matrixCaption)}</p>
+                <div class="matrix-scroll">
+                    <table class="matrix-table">
+                        <thead>
+                            <tr>
+                                <th class="matrix-theme" scope="col"></th>
+                                ${header}
+                            </tr>
+                        </thead>
+                        <tbody>${rows}</tbody>
+                    </table>
+                </div>
+            `;
+            bindMatrixCells();
+        }
+
+        function bindMatrixCells() {
+            document.querySelectorAll("[data-matrix-theme]").forEach((button) => {
+                button.addEventListener("click", () => {
+                    const theme = button.dataset.matrixTheme;
+                    setGroupMode("theme");
+                    renderCriteriaBoard();
+                    requestAnimationFrame(() => {
+                        const id = theme === "untagged" ? null : `crit-group-theme-${theme}`;
+                        const target = id ? document.getElementById(id) : document.getElementById("criteriaHeading");
+                        if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+                    });
+                });
+            });
         }
 
         /* ---------- view 3: risk-anchor spotlight ---------- */

@@ -53,6 +53,7 @@ THEME_VALUES = {
     "valuation",
 }
 MONITORING_ITEM_ID_RE = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
+NEXT_CHECK_DATE_RE = re.compile(r"\d{4}-(0[1-9]|1[0-2])")
 BILINGUAL_KEYS = ("zh", "en")
 # Chain requirement (spec A.7 step 3): stance/priceAsOf/reportedPeriod/monitoring[]
 # are mandatory for current chainLayer reports. Enabled only after the backfill so
@@ -189,6 +190,12 @@ def validate_monitoring(report, report_idx):
             fail(f"{item_prefix}.thesis must be one of {sorted(THESIS_VALUES)}: {thesis}")
 
         ensure_non_empty_string(item.get("nextCheck"), f"{item_prefix}.nextCheck")
+
+        next_check_date = item.get("nextCheckDate")
+        if next_check_date is not None:
+            ensure_non_empty_string(next_check_date, f"{item_prefix}.nextCheckDate")
+            if not NEXT_CHECK_DATE_RE.fullmatch(next_check_date):
+                fail(f"{item_prefix}.nextCheckDate must be YYYY-MM: {next_check_date}")
 
         theme = item.get("theme")
         if theme is not None and theme not in THEME_VALUES:

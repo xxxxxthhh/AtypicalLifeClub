@@ -56,7 +56,8 @@
           "zh": "Nebius 经营现金流 +$22.6 亿、AI 云 ARR $19.2 亿放量",
           "en": "Nebius OCF +$2.26B; AI-cloud ARR $1.92B ramping"
         },
-        "nextCheck": "2026-Q2 财报 / Q2 earnings"
+        "nextCheck": "2026-Q2 财报 / Q2 earnings",
+        "nextCheckDate": "2026-08"
       },
       {
         "id": "concentration-convergence",
@@ -74,7 +75,8 @@
           "zh": "微软最高约 $194 亿 + Meta 最高约 $270 亿（公司披露承诺/上限），2027 放量",
           "en": "Microsoft up to ~$19.4B + Meta up to ~$27B (company-disclosed ceilings) ramping into 2027"
         },
-        "nextCheck": "2026-Q2 集中度披露 / concentration disclosures"
+        "nextCheck": "2026-Q2 集中度披露 / concentration disclosures",
+        "nextCheckDate": "2026-08"
       },
       {
         "id": "earnings-quality-ex-marks",
@@ -92,7 +94,8 @@
           "zh": "Q1 净利 $6.21 亿 = $7.806 亿 ClickHouse 重估盖过 −$1.28 亿经营亏损",
           "en": "Q1 net income $621M = $780.6M ClickHouse mark over a −$128M operating loss"
         },
-        "nextCheck": "2026-Q2 剔除重估经营利润 / operating income ex-marks"
+        "nextCheck": "2026-Q2 剔除重估经营利润 / operating income ex-marks",
+        "nextCheckDate": "2026-08"
       },
       {
         "id": "funding-durability",
@@ -190,7 +193,8 @@
           "zh": "FY2025 两大客户合计约 42% 收入",
           "en": "two customers were ~42% of FY2025 revenue"
         },
-        "nextCheck": "2026-Q2 财报客户披露 / Q2 customer disclosures"
+        "nextCheck": "2026-Q2 财报客户披露 / Q2 customer disclosures",
+        "nextCheckDate": "2026-08"
       },
       {
         "id": "open-ethernet-vs-integrated",
@@ -244,7 +248,8 @@
           "zh": "市值约 $206.6B（2026-06-29）；约 56x TTM GAAP P/E、约 47x 非 GAAP 运行率",
           "en": "market cap ~$206.6B (2026-06-29); ~56x TTM GAAP P/E, ~47x non-GAAP run-rate"
         },
-        "nextCheck": "2026-Q2 财报 / Q2 earnings"
+        "nextCheck": "2026-Q2 财报 / Q2 earnings",
+        "nextCheckDate": "2026-08"
       }
     ]
   },
@@ -305,7 +310,8 @@
           "zh": "$994 亿公司定义收入 backlog vs 约 $21 亿/季确认收入；NVIDIA $63 亿产能兜底至 2032",
           "en": "$99.4B company-defined revenue backlog vs ~$2.1B/qtr recognized; NVIDIA $6.3B capacity backstop to 2032"
         },
-        "nextCheck": "2026-Q2 backlog 转化披露 / conversion disclosures"
+        "nextCheck": "2026-Q2 backlog 转化披露 / conversion disclosures",
+        "nextCheckDate": "2026-08"
       },
       {
         "id": "revenue-quality-circularity",
@@ -420,7 +426,8 @@
           "zh": "Q4 2025 backlog $150 亿（+109%）、book-to-bill 约 2.9x；FY2026 指引上调",
           "en": "Q4 2025 backlog $15.0B (+109%), book-to-bill ~2.9x; FY2026 guidance raised"
         },
-        "nextCheck": "2026-Q2 财报 backlog 披露 / Q2 backlog print"
+        "nextCheck": "2026-Q2 财报 backlog 披露 / Q2 backlog print",
+        "nextCheckDate": "2026-08"
       },
       {
         "id": "valuation-multiple",
@@ -438,7 +445,8 @@
           "zh": "股价一年约 3 倍至 $306.97、市值约 $1,179 亿；FY2026 指引营收 $135-140 亿、调整后 EPS $6.30-6.40",
           "en": "stock ~3x in a year to $306.97, ~$117.9B cap; FY2026 guide $13.5-14.0B revenue, $6.30-6.40 adj EPS"
         },
-        "nextCheck": "2026-Q2 财报 / Q2 earnings"
+        "nextCheck": "2026-Q2 财报 / Q2 earnings",
+        "nextCheckDate": "2026-08"
       },
       {
         "id": "liquid-cooling-competition",
@@ -533,7 +541,8 @@
           "zh": "Q1 2026 光通信 $18.46 亿（+36%，生成式 AI 驱动）；Q2 指引核心营收约 $46 亿",
           "en": "Q1 2026 Optical $1.85B (+36%, GenAI-driven); Q2 guide core sales ~$4.6B"
         },
-        "nextCheck": "2026-Q2 财报 / Q2 earnings"
+        "nextCheck": "2026-Q2 财报 / Q2 earnings",
+        "nextCheckDate": "2026-08"
       },
       {
         "id": "customer-concentration-funding",
@@ -587,7 +596,8 @@
           "zh": "股价约 $221（2026-06-26 收盘）、市值约 $1,900 亿、卖方均价低于市价",
           "en": "stock ~$221 (2026-06-26 close), ~$190B cap, sell-side average below market"
         },
-        "nextCheck": "2026-Q2 财报 / Q2 earnings"
+        "nextCheck": "2026-Q2 财报 / Q2 earnings",
+        "nextCheckDate": "2026-08"
       }
     ]
   },
@@ -648,7 +658,8 @@
           "zh": "Q1 FY2027 数据中心 $75.2B（+92%）、Q2 指引 $91.0B —— 且中国 DC 收入归零下完成",
           "en": "Q1 FY2027 Data Center $75.2B (+92%); Q2 guide $91.0B — with China DC at zero"
         },
-        "nextCheck": "Q2 FY2027 财报（约 2026-08）/ Q2 FY2027 earnings"
+        "nextCheck": "Q2 FY2027 财报（约 2026-08）/ Q2 FY2027 earnings",
+        "nextCheckDate": "2026-08"
       },
       {
         "id": "custom-asic-substitution",
@@ -761,7 +772,8 @@
           "zh": "800G 已向大型 hyperscale 客户首批量产出货；月产能接近 10 万只",
           "en": "800G in initial mass production to a large hyperscaler; ~100k/month capacity"
         },
-        "nextCheck": "2026-Q2/Q3 财报 / Q2-Q3 earnings"
+        "nextCheck": "2026-Q2/Q3 财报 / Q2-Q3 earnings",
+        "nextCheckDate": "2026-08"
       },
       {
         "id": "cash-burn-dilution",
@@ -815,7 +827,8 @@
           "zh": "股价约 $171.23（2026-06-22 收盘）、市值约 $137 亿",
           "en": "stock ~$171.23 (2026-06-22 close), ~$13.7B cap"
         },
-        "nextCheck": "2026-Q2 财报 / Q2 earnings"
+        "nextCheck": "2026-Q2 财报 / Q2 earnings",
+        "nextCheckDate": "2026-08"
       }
     ]
   },
@@ -875,7 +888,8 @@
           "zh": "Q1 订单 $18.3B、backlog $163B（2027 目标 $200B 提前）；电气化 DC 设备订单 $2.4B",
           "en": "Q1 orders $18.3B, backlog $163B (2027 target $200B pulled forward); Electrification DC orders $2.4B"
         },
-        "nextCheck": "2026-Q2 财报 / Q2 earnings"
+        "nextCheck": "2026-Q2 财报 / Q2 earnings",
+        "nextCheckDate": "2026-08"
       },
       {
         "id": "margin-ramp",
@@ -929,7 +943,8 @@
           "zh": "市值约 $2,840 亿（一年 +117%）；净现金约 $7.6B；Wind 仍亏损",
           "en": "~$284B cap (+117% in a year); ~$7.6B net cash; Wind still loss-making"
         },
-        "nextCheck": "2026-Q2 财报 / Q2 earnings"
+        "nextCheck": "2026-Q2 财报 / Q2 earnings",
+        "nextCheckDate": "2026-08"
       }
     ]
   },
@@ -989,7 +1004,8 @@
           "zh": "Q3 FY2026 GAAP 毛利率 78.4%、营业利润率 69.1%；Q4 指引毛利率 79-81%",
           "en": "Q3 FY2026 GAAP GM 78.4%, OM 69.1%; Q4 guide GM 79-81%"
         },
-        "nextCheck": "FY2026-Q4 财报（约 2026-08）/ Q4 FY2026 earnings"
+        "nextCheck": "FY2026-Q4 财报（约 2026-08）/ Q4 FY2026 earnings",
+        "nextCheckDate": "2026-08"
       },
       {
         "id": "nbm-contract-lockin",
@@ -1025,7 +1041,8 @@
           "zh": "数据中心 $14.67 亿（+233% Q/Q）",
           "en": "Datacenter $1.47B (+233% Q/Q)"
         },
-        "nextCheck": "FY2026-Q4 财报 / Q4 print"
+        "nextCheck": "FY2026-Q4 财报 / Q4 print",
+        "nextCheckDate": "2026-08"
       },
       {
         "id": "cycle-derating",
@@ -1192,7 +1209,8 @@
           "zh": "Q1 2026 营业利润 ₩37.6 万亿（72% 利润率）、营收 ₩52.6 万亿（+198%）",
           "en": "Q1 2026 operating profit ₩37.6T (72% margin) on ₩52.6T revenue (+198%)"
         },
-        "nextCheck": "2026-Q2 财报 / Q2 earnings"
+        "nextCheck": "2026-Q2 财报 / Q2 earnings",
+        "nextCheckDate": "2026-08"
       },
       {
         "id": "hbm4-competition",
@@ -1246,7 +1264,8 @@
           "zh": "2 月以来约 3.5 倍、市值约 $1.3 万亿（2026-06-25）；深度价值逻辑已基本兑现",
           "en": "~3.5x since February, ~$1.3T cap (2026-06-25); the deep-value thesis largely played out"
         },
-        "nextCheck": "2026-Q2 财报 / Q2 earnings"
+        "nextCheck": "2026-Q2 财报 / Q2 earnings",
+        "nextCheckDate": "2026-08"
       }
     ]
   },
@@ -1661,7 +1680,8 @@
           "zh": "AI 数据中心电力需求与 Q1 后指引改善强化基本面",
           "en": "AI data-center demand and improved post-Q1 guidance strengthen fundamentals"
         },
-        "nextCheck": "订单公告与 2026-Q2 财报 / order announcements & Q2"
+        "nextCheck": "订单公告与 2026-Q2 财报 / order announcements & Q2",
+        "nextCheckDate": "2026-08"
       },
       {
         "id": "valuation-execution-stack",
@@ -1679,7 +1699,8 @@
           "zh": "股价约 $345.85、市值约 $98.30B（2026-06-22 收盘）；以约 $3.2B 2026 收入参考约 31x",
           "en": "stock ~$345.85, ~$98.30B cap (2026-06-22 close); ~31x vs ~$3.2B 2026 revenue reference"
         },
-        "nextCheck": "2026-Q2 财报 / Q2 earnings"
+        "nextCheck": "2026-Q2 财报 / Q2 earnings",
+        "nextCheckDate": "2026-08"
       },
       {
         "id": "margin-cash-delivery",
@@ -1977,7 +1998,8 @@
           "zh": "投产推迟至 2026 年 8 月底；FEOC 合规已确认",
           "en": "start pushed to end-Aug 2026; FEOC compliance confirmed"
         },
-        "nextCheck": "2026-08 投产确认 / August start confirmation"
+        "nextCheck": "2026-08 投产确认 / August start confirmation",
+        "nextCheckDate": "2026-08"
       },
       {
         "id": "dilution-runway",
@@ -2230,7 +2252,8 @@
           "zh": "Q1 2026 营收 $102.53 亿（+38%）、DC 约 $58 亿（+57%）",
           "en": "Q1 2026 revenue $10.253B (+38%), DC ~$5.8B (+57%)"
         },
-        "nextCheck": "2026-Q2 财报 / Q2 earnings"
+        "nextCheck": "2026-Q2 财报 / Q2 earnings",
+        "nextCheckDate": "2026-08"
       },
       {
         "id": "valuation-tolerance",
@@ -2248,7 +2271,8 @@
           "zh": "股价约 $537（2026-06-18 收盘）、市值约 $8,870 亿",
           "en": "stock ~$537 (2026-06-18 close), ~$887B cap"
         },
-        "nextCheck": "2026-Q2 财报 / Q2 earnings"
+        "nextCheck": "2026-Q2 财报 / Q2 earnings",
+        "nextCheckDate": "2026-08"
       }
     ]
   },
@@ -2349,7 +2373,8 @@
           "zh": "Q1 2026 营收约 15.23 亿元（+13.4%）、归母净利约 1.12 亿元（+4.8%）",
           "en": "Q1 2026 revenue ~RMB1.523B (+13.4%), parent net ~RMB112M (+4.8%)"
         },
-        "nextCheck": "2026 半年报 / H1 report"
+        "nextCheck": "2026 半年报 / H1 report",
+        "nextCheckDate": "2026-08"
       },
       {
         "id": "receivables-cash-quality",
@@ -2367,7 +2392,8 @@
           "zh": "重跑结论强调收入确认与回款验证要求提高",
           "en": "the rerun stresses higher bars for recognition and collections"
         },
-        "nextCheck": "半年报现金流 / H1 cash flow"
+        "nextCheck": "半年报现金流 / H1 cash flow",
+        "nextCheckDate": "2026-08"
       },
       {
         "id": "annualized-pe",
@@ -2385,7 +2411,8 @@
           "zh": "股价约 86.00 元、市值约 395 亿元（2026-06-23 东方财富口径）",
           "en": "stock ~RMB86.00, ~RMB39.5B cap (2026-06-23, Eastmoney)"
         },
-        "nextCheck": "半年报 / H1 report"
+        "nextCheck": "半年报 / H1 report",
+        "nextCheckDate": "2026-08"
       }
     ]
   },

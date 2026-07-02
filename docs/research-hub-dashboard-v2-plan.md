@@ -91,6 +91,13 @@ A quarter/month timeline answering "what should we be checking, and when" — tu
 | fiscal-quarter strings **without** a parenthetical month; windows wider than a quarter ("2026-H2"); "年末披露" | omit |
 | pure event triggers (融资公告 / 232 决定 / LOI→合同 / NRC 里程碑 / 客户公告 / 出口管制动态 …) | omit |
 
+  Same-report sibling rule: when one monitoring item has already established a
+  deterministic month for the same filing event (for example, another
+  `FY2026-Q4` item in that report carries `（约 2026-08）`), sibling monitoring
+  items tied to that exact filing may reuse the same `nextCheckDate`. This is
+  still extraction from the report-level event, not an invitation to infer dates
+  across reports or unrelated fiscal periods.
+
   Expected outcome: most earnings-tied items get a month; event-driven items stay undated. **Both states are first-class** — do not force a date to make the chart fuller. In the PR, list each item's mapping so the reviewer can spot-check against the rules above.
 - **Validator (`validate_reports.py`):** in `validate_monitoring()`, add — `nextCheckDate` (if present) matches the regex. Nothing becomes required; no gate flip. Land the validator change in the same PR **before** the backfill commit so every JSON edit is shape-checked.
 

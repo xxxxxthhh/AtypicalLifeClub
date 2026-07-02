@@ -93,6 +93,12 @@ def read_ids(entries: list[dict[str, Json]], label: str) -> list[str]:
     return ids
 
 
+def require_bilingual_text(value: Json, label: str) -> None:
+    text = require_dict(value, label)
+    require_string(text.get("zh"), f"{label}.zh")
+    require_string(text.get("en"), f"{label}.en")
+
+
 def validate_layer_and_role_ids(coverage: dict[str, Json]) -> None:
     layers = read_ids(read_entries(coverage, "layers"), "layers")
     roles = read_ids(read_entries(coverage, "roles"), "roles")
@@ -103,6 +109,20 @@ def validate_layer_and_role_ids(coverage: dict[str, Json]) -> None:
         fail(f"role ids/order mismatch: {roles}")
     if "supplier-layer" in roles:
         fail("supplier-layer role must not be present")
+
+
+def validate_planned_entries(coverage: dict[str, Json]) -> None:
+    layer_ids = set(read_ids(read_entries(coverage, "layers"), "layers"))
+    planned_raw = coverage.get("planned", [])
+    planned = require_list(planned_raw, "coverage-map.json.planned")
+
+    for index, item in enumerate(planned):
+        entry = require_dict(item, f"coverage-map.json.planned[{index}]")
+        require_string(entry.get("ticker"), f"coverage-map.json.planned[{index}].ticker")
+        layer = require_string(entry.get("layer"), f"coverage-map.json.planned[{index}].layer")
+        if layer not in layer_ids:
+            fail(f"planned[{index}] has unknown layer: {layer}")
+        require_bilingual_text(entry.get("label"), f"coverage-map.json.planned[{index}].label")
 
 
 def validate_report_metadata(reports: list[dict[str, Json]], coverage: dict[str, Json]) -> None:
@@ -144,6 +164,11 @@ def validate_page_wiring() -> None:
     if 'if (!layerReports.length) return "";' not in html:
         fail("coverage-map.html must skip empty layers before rendering")
 
+    if 'id="chainGraph"' not in html:
+        fail("coverage-map.html missing chainGraph container")
+    if "renderChainGraph()" not in html:
+        fail("coverage-map.html must render the chain graph section")
+
 
 def main() -> None:
     coverage = require_dict(load_json(COVERAGE_JSON), "coverage-map.json")
@@ -154,6 +179,7 @@ def main() -> None:
     ]
 
     validate_layer_and_role_ids(coverage)
+    validate_planned_entries(coverage)
     validate_report_metadata(reports, coverage)
     validate_page_wiring()
     print("OK: coverage map metadata and page wiring are valid")
