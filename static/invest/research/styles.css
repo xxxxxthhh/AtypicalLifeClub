@@ -2,6 +2,40 @@
     background: linear-gradient(140deg, color-mix(in srgb, var(--entry) 88%, var(--surface-2)), color-mix(in srgb, var(--entry) 88%, var(--surface-3)));
 }
 
+.hero-links {
+    margin-top: 0.9rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+}
+
+.hero-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    border: 1px solid color-mix(in srgb, var(--accent) 38%, var(--border));
+    border-radius: 999px;
+    padding: 0.42rem 0.9rem;
+    color: var(--accent);
+    background: var(--entry);
+    font-size: 0.86rem;
+    font-weight: 650;
+    text-decoration: none;
+    transition: border-color 0.18s ease, background 0.18s ease, transform 0.18s ease;
+}
+
+.hero-link:hover,
+.hero-link:focus-visible {
+    border-color: var(--accent);
+    background: var(--accent-soft);
+    transform: translateY(-1px);
+    outline: none;
+}
+
+.hero-link-arrow {
+    font-weight: 400;
+}
+
 .research-header-row {
     display: flex;
     align-items: center;
@@ -32,6 +66,60 @@
     border-color: var(--accent);
     color: var(--accent);
     background: var(--accent-soft);
+}
+
+.index-toolbar {
+    margin-top: 0.9rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.report-search {
+    flex: 0 1 240px;
+    min-width: 180px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 0.4rem 0.85rem;
+    background: var(--entry);
+    color: var(--primary);
+    font-size: 0.84rem;
+}
+
+.report-search:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+.letter-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+}
+
+.letter-btn {
+    min-width: 1.7rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--entry);
+    color: var(--secondary);
+    font-size: 0.76rem;
+    padding: 0.24rem 0.3rem;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.letter-btn:hover:not(:disabled),
+.letter-btn.active {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: var(--accent-soft);
+}
+
+.letter-btn:disabled {
+    opacity: 0.35;
+    cursor: default;
 }
 
 .reports-grid {

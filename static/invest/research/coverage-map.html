@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Infrastructure Coverage Map | Atypical Life Club</title>
-    <meta name="description" content="AI infrastructure coverage map and research methodology for Atypical Life Club research reports.">
+    <meta name="description" content="AI infrastructure coverage map and research monitoring for Atypical Life Club research reports.">
     <link rel="stylesheet" href="/invest/theme-adapter.css">
     <link rel="stylesheet" href="/invest/styles.css">
     <link rel="stylesheet" href="/invest/research/styles.css">
@@ -273,8 +273,6 @@
             gap: 0.75rem;
         }
 
-        .logic-list,
-        .method-list,
         .other-list {
             margin: 1rem 0 0;
             padding: 0;
@@ -283,53 +281,10 @@
             gap: 0.75rem;
         }
 
-        .logic-item,
-        .method-item,
         .other-item {
             border: 1px solid var(--border);
             border-radius: 10px;
             background: color-mix(in srgb, var(--entry) 94%, var(--surface-2));
-        }
-
-        .logic-item {
-            padding: 0.85rem;
-            display: grid;
-            grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-            gap: 0.85rem;
-        }
-
-        .logic-label {
-            display: block;
-            color: var(--tertiary);
-            font-size: 0.72rem;
-            font-weight: 750;
-            text-transform: uppercase;
-        }
-
-        .logic-text {
-            display: block;
-            margin-top: 0.2rem;
-            color: var(--primary);
-            font-size: 0.88rem;
-        }
-
-        .method-item {
-            padding: 0.85rem;
-        }
-
-        .method-title {
-            margin: 0;
-            font-size: 0.92rem;
-            line-height: 1.35;
-        }
-
-        .method-body {
-            margin: 0.35rem 0 0;
-            color: var(--secondary);
-            font-size: 0.86rem;
-        }
-
-        .other-item {
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -404,10 +359,6 @@
                 width: 100%;
             }
 
-            .logic-item {
-                grid-template-columns: 1fr;
-            }
-
             .coverage-card-grid {
                 grid-template-columns: 1fr;
             }
@@ -476,20 +427,6 @@
 
         <section class="section">
             <div class="coverage-section-header">
-                <h2 id="crossCheckHeading">Cross-Check Logic</h2>
-            </div>
-            <ol class="logic-list" id="crossCheckList"></ol>
-        </section>
-
-        <section class="section">
-            <div class="coverage-section-header">
-                <h2 id="methodologyHeading">Research Methodology</h2>
-            </div>
-            <ol class="method-list" id="methodologyList"></ol>
-        </section>
-
-        <section class="section">
-            <div class="coverage-section-header">
                 <h2 id="otherHeading">Other Coverage</h2>
                 <p id="otherIntro">这些报告暂不承担 AI 基建链条验证角色，保留在完整研究覆盖中。</p>
             </div>
@@ -520,18 +457,15 @@
                 chainGraphCaption: "实线为现有 related 关系；风险锚与架构校验之间的关系用虚线表示。计划节点只暴露覆盖缺口，不生成下方报告卡片。",
                 plannedBadge: "计划中",
                 mapHeading: "AI 基建覆盖地图",
-                crossCheckHeading: "Cross-Check Logic",
-                methodologyHeading: "Research Methodology",
                 otherHeading: "Other Coverage",
                 reportCount: "篇报告",
                 readReport: "阅读报告",
                 updated: "更新",
-                ifLabel: "If",
-                thenLabel: "Then",
                 emptyLayers: "暂无可展示的 AI 基建链条报告。",
                 emptyOther: "暂无其他覆盖。",
                 loadError: "Coverage Map 数据加载失败，请稍后重试。",
-                backToResearch: "返回完整报告列表"
+                backToResearch: "返回完整报告列表",
+                toMonitoring: "查看全书监控仪表盘"
             },
             en: {
                 documentTitle: "AI Infrastructure Coverage Map | Atypical Life Club",
@@ -540,18 +474,15 @@
                 chainGraphCaption: "Solid lines are existing related links; risk-anchor to architecture-check links are dashed. Planned nodes expose coverage gaps only and do not create report cards below.",
                 plannedBadge: "Planned",
                 mapHeading: "AI Infrastructure Coverage Map",
-                crossCheckHeading: "Cross-Check Logic",
-                methodologyHeading: "Research Methodology",
                 otherHeading: "Other Coverage",
                 reportCount: "reports",
                 readReport: "Read report",
                 updated: "Updated",
-                ifLabel: "If",
-                thenLabel: "Then",
                 emptyLayers: "No AI infrastructure chain reports to display yet.",
                 emptyOther: "No other coverage.",
                 loadError: "Coverage Map data failed to load. Please try again later.",
-                backToResearch: "Back to full report list"
+                backToResearch: "Back to full report list",
+                toMonitoring: "View monitoring dashboard"
             }
         };
 
@@ -622,17 +553,14 @@
             setText("chainGraphCaption", labels.chainGraphCaption);
             setText("mapHeading", labels.mapHeading);
             setText("mapIntro", localize(page.mapIntro));
-            setText("crossCheckHeading", labels.crossCheckHeading);
-            setText("methodologyHeading", labels.methodologyHeading);
             setText("otherHeading", labels.otherHeading);
             setText("otherIntro", localize(page.otherIntro));
             setText("disclaimerText", localize(page.disclaimer));
             setText("backToResearch", labels.backToResearch);
+            setText("toMonitoring", labels.toMonitoring);
 
             renderChainGraph();
             renderLayers();
-            renderCrossChecks();
-            renderMethodology();
             renderOtherCoverage();
         }
 
@@ -904,38 +832,6 @@
             `;
         }
 
-        function renderCrossChecks() {
-            const root = document.getElementById("crossCheckList");
-            if (!root) return;
-
-            const checks = Array.isArray(state.coverage.crossChecks) ? state.coverage.crossChecks : [];
-            root.innerHTML = checks.map((item) => `
-                <li class="logic-item">
-                    <span>
-                        <span class="logic-label">${escapeHtml(getLabels().ifLabel)}</span>
-                        <span class="logic-text">${escapeHtml(localize(item.if))}</span>
-                    </span>
-                    <span>
-                        <span class="logic-label">${escapeHtml(getLabels().thenLabel)}</span>
-                        <span class="logic-text">${escapeHtml(localize(item.then))}</span>
-                    </span>
-                </li>
-            `).join("");
-        }
-
-        function renderMethodology() {
-            const root = document.getElementById("methodologyList");
-            if (!root) return;
-
-            const items = Array.isArray(state.coverage.methodology) ? state.coverage.methodology : [];
-            root.innerHTML = items.map((item) => `
-                <li class="method-item">
-                    <h3 class="method-title">${escapeHtml(localize(item.title))}</h3>
-                    <p class="method-body">${escapeHtml(localize(item.body))}</p>
-                </li>
-            `).join("");
-        }
-
         function renderOtherCoverage() {
             const root = document.getElementById("otherCoverageList");
             if (!root) return;
@@ -969,8 +865,6 @@
             const fallback = `<div class="empty-state">${escapeHtml(message)}</div>`;
             setHtml("chainGraph", fallback);
             setHtml("layerStack", fallback);
-            setHtml("crossCheckList", "");
-            setHtml("methodologyList", "");
             setHtml("otherCoverageList", fallback);
         }
 

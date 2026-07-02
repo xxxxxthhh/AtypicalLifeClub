@@ -1,0 +1,16 @@
+[
+  {
+    "id": "meta-cloud-compute-resale",
+    "date": "2026-07-01",
+    "title": {
+      "zh": "Meta 筹建云业务，外售过剩 AI 算力",
+      "en": "Meta building a cloud business to sell excess AI compute"
+    },
+    "detail": {
+      "zh": "彭博 7 月 1 日报道 Meta 正筹建云业务、对外出售过剩 AI 算力，META 当日涨逾 6%；同日 AI 基建链大面积下跌：MU 跌逾 10%，SNDK/INTC/AMD 跌 6.9%–10.6%，CRWV 跌约 14%，NBIS 跌约 17%；7 月 2 日 SK 海力士领跌韩股。市场首次对「算力供给持续紧张」假设定价出裂缝。",
+      "en": "Bloomberg reported on Jul 1 that Meta is building a cloud business to sell excess AI compute; META rose 6%+ while the AI-infra chain sold off broadly: MU down 10%+, SNDK/INTC/AMD down 6.9%-10.6%, CRWV down ~14%, NBIS down ~17%; SK hynix led Korean declines on Jul 2. First market-wide crack priced into the compute-scarcity assumption."
+    },
+    "crossChecks": ["capacity-resale", "neocloud-financing", "memory-cycle"],
+    "tickers": ["META", "CRWV", "NBIS", "MU", "SNDK", "AMD"]
+  }
+]

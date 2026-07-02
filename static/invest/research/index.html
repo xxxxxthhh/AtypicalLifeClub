@@ -32,9 +32,11 @@
         <section class="hero research-hero">
             <h1 class="hero-title">研报中心</h1>
             <p class="hero-subtitle">统一展示公司研究，按主题筛选，详情页采用统一模板渲染 Markdown。</p>
-            <p class="hero-subtitle" style="margin-top:0.4rem;"><a href="/invest/research/coverage-map.html">查看 AI 基建覆盖地图 / 研究思路 →</a></p>
-            <p class="hero-subtitle" style="margin-top:0.4rem;"><a href="/invest/research/monitoring-dashboard.html">查看全书监控仪表盘 →</a></p>
-            <p class="hero-subtitle" style="margin-top:0.4rem;"><a href="/invest/research/reviews/">查看半年度复盘 →</a></p>
+            <div class="hero-links">
+                <a class="hero-link" href="/invest/research/coverage-map.html">AI 基建覆盖地图 / 研究思路 <span class="hero-link-arrow" aria-hidden="true">→</span></a>
+                <a class="hero-link" href="/invest/research/monitoring-dashboard.html">全书监控仪表盘 <span class="hero-link-arrow" aria-hidden="true">→</span></a>
+                <a class="hero-link" href="/invest/research/reviews/">半年度复盘 <span class="hero-link-arrow" aria-hidden="true">→</span></a>
+            </div>
             <div class="stat-grid">
                 <div class="stat-card">
                     <div class="stat-label">研报数量</div>
@@ -60,6 +62,10 @@
                     <button class="filter-btn" data-filter="tech">科技</button>
                     <button class="filter-btn" data-filter="energy">能源</button>
                 </div>
+            </div>
+            <div class="index-toolbar">
+                <input type="search" id="reportSearch" class="report-search" placeholder="搜索代码 / 公司 / 标题" aria-label="搜索研报">
+                <div class="letter-strip" id="letterStrip" role="group" aria-label="按代码首字母筛选"></div>
             </div>
             <div class="reports-grid" id="reportsGrid"></div>
         </section>

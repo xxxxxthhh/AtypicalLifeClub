@@ -501,6 +501,75 @@
             font-weight: 650;
         }
 
+        /* --- cross-check radar --- */
+        .radar-stack {
+            margin-top: 1rem;
+            display: grid;
+            gap: 0.9rem;
+        }
+
+        .radar-card {
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            background: linear-gradient(160deg, var(--entry), color-mix(in srgb, var(--entry) 94%, var(--surface-2)));
+            overflow: hidden;
+        }
+
+        .radar-rule {
+            padding: 0.8rem 0.9rem;
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+            gap: 0.85rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .radar-rule-label {
+            display: block;
+            color: var(--tertiary);
+            font-size: 0.7rem;
+            font-weight: 750;
+            text-transform: uppercase;
+        }
+
+        .radar-rule-text {
+            display: block;
+            margin-top: 0.2rem;
+            color: var(--content);
+            font-size: 0.86rem;
+        }
+
+        .radar-signal {
+            padding: 0.68rem 0.9rem;
+            border-bottom: 1px solid color-mix(in srgb, var(--border) 55%, transparent);
+            display: grid;
+            gap: 0.3rem;
+            font-size: 0.83rem;
+        }
+
+        .radar-signal:last-child {
+            border-bottom: none;
+        }
+
+        .radar-signal-head {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 0.45rem;
+            font-weight: 650;
+            color: var(--content);
+        }
+
+        .radar-signal p {
+            margin: 0;
+            color: var(--secondary);
+        }
+
+        .radar-empty {
+            padding: 0.68rem 0.9rem;
+            color: var(--tertiary);
+            font-size: 0.8rem;
+        }
+
         .empty-state,
         .loading-state {
             border: 1px dashed var(--border);
@@ -531,6 +600,10 @@
 
             .verdict-row {
                 grid-template-columns: 1fr 1fr;
+            }
+
+            .radar-rule {
+                grid-template-columns: 1fr;
             }
 
             .criteria-table th:nth-child(3),
@@ -601,6 +674,16 @@
             </div>
         </section>
 
+        <section class="section" id="radarSection">
+            <div class="monitor-section-header">
+                <h2 id="radarHeading">Cross-Check Radar</h2>
+                <p id="radarIntro">覆盖地图的链级 if/then 校验规则与实际观察到的链级事件放在同一屏：规则在上，信号记录按日期倒序。</p>
+            </div>
+            <div class="radar-stack" id="radarStack">
+                <div class="loading-state">Loading cross-check radar...</div>
+            </div>
+        </section>
+
         <section class="section" id="nextCheckSection">
             <div class="monitor-section-header">
                 <h2 id="nextCheckHeading">Next-Check Timeline</h2>
@@ -664,6 +747,7 @@
     <script>
         const REPORTS_DATA_URL = "/invest/research/data/reports.json";
         const COVERAGE_MAP_URL = "/invest/research/data/coverage-map.json";
+        const SIGNALS_DATA_URL = "/invest/research/data/signals.json";
 
         const PAGE_LABELS = {
             zh: {
@@ -675,6 +759,11 @@
                 verdictIntro: "按链条层级列出每篇报告的公开立场、价格快照日期与所反映的财报期。",
                 freshnessCaption: "价格快照日期越靠左越早；圆点只表达日期，不表达好坏。",
                 todayLabel: "今天",
+                radarHeading: "交叉校验雷达",
+                radarIntro: "覆盖地图的链级 if/then 校验规则与实际观察到的链级事件放在同一屏：有信号记录的规则排在前面，信号按日期倒序。",
+                ifLabel: "If",
+                thenLabel: "Then",
+                radarNoSignals: "暂无信号记录",
                 nextCheckHeading: "下次核查时间轴",
                 nextCheckIntro: "按月份排列所有可定期复核的监控项；事件驱动项保留为独立入口。",
                 nextCheckCaption: "圆点按当前论点方向筛选；月份早于本月只是位置事实，不使用警示色。",
@@ -739,6 +828,11 @@
                 verdictIntro: "Each report's published stance, price-snapshot date, and reported fiscal period, grouped by chain layer.",
                 freshnessCaption: "Older price snapshots sit farther left; dots encode date only, not quality.",
                 todayLabel: "today",
+                radarHeading: "Cross-Check Radar",
+                radarIntro: "Each chain-level if/then rule from the coverage map, paired with the chain-level events observed against it: rules with recorded signals come first, signals newest-first.",
+                ifLabel: "If",
+                thenLabel: "Then",
+                radarNoSignals: "No recorded signals yet",
                 nextCheckHeading: "Next-Check Timeline",
                 nextCheckIntro: "Monitoring items with dateable reads are bucketed by month; event-driven checks stay first-class.",
                 nextCheckCaption: "Dots follow the active thesis filter; months before this month are positional facts, not warning colors.",
@@ -801,6 +895,8 @@
         const state = {
             layers: [],
             chainReports: [],
+            crossChecks: [],
+            signals: [],
             groupMode: "report",
             thesisFilter: "all"
         };
@@ -816,9 +912,10 @@
 
         async function loadData() {
             try {
-                const [reportsResponse, coverageResponse] = await Promise.all([
+                const [reportsResponse, coverageResponse, signalsResponse] = await Promise.all([
                     fetch(REPORTS_DATA_URL, { cache: "no-store" }),
-                    fetch(COVERAGE_MAP_URL, { cache: "no-store" })
+                    fetch(COVERAGE_MAP_URL, { cache: "no-store" }),
+                    fetch(SIGNALS_DATA_URL, { cache: "no-store" })
                 ]);
 
                 if (!reportsResponse.ok) throw new Error(`reports HTTP ${reportsResponse.status}`);
@@ -826,14 +923,21 @@
 
                 const reports = await reportsResponse.json();
                 const coverage = await coverageResponse.json();
+                const signals = signalsResponse.ok ? await signalsResponse.json() : [];
 
                 state.layers = Array.isArray(coverage.layers) ? coverage.layers : [];
+                state.crossChecks = Array.isArray(coverage.crossChecks) ? coverage.crossChecks : [];
+                state.signals = (Array.isArray(signals) ? signals : [])
+                    .slice()
+                    .sort((a, b) => parseReportDate(b.date) - parseReportDate(a.date));
                 state.chainReports = (Array.isArray(reports) ? reports : [])
                     .filter(isCurrentReport)
                     .filter((r) => r.chainLayer);
             } catch (error) {
                 console.error("Failed to load monitoring dashboard:", error);
                 state.layers = [];
+                state.crossChecks = [];
+                state.signals = [];
                 state.chainReports = [];
                 state.loadFailed = true;
             }
@@ -851,6 +955,8 @@
             setText("factNote", labels.factNote);
             setText("verdictHeading", labels.verdictHeading);
             setText("verdictIntro", labels.verdictIntro);
+            setText("radarHeading", labels.radarHeading);
+            setText("radarIntro", labels.radarIntro);
             setText("nextCheckHeading", labels.nextCheckHeading);
             setText("nextCheckIntro", labels.nextCheckIntro);
             setText("criteriaHeading", labels.criteriaHeading);
@@ -871,6 +977,7 @@
             if (state.loadFailed) {
                 document.getElementById("freshnessStrip").innerHTML = `<div class="empty-state">${escapeHtml(labels.loadError)}</div>`;
                 document.getElementById("verdictStack").innerHTML = `<div class="empty-state">${escapeHtml(labels.loadError)}</div>`;
+                document.getElementById("radarStack").innerHTML = "";
                 document.getElementById("nextCheckTimeline").innerHTML = "";
                 document.getElementById("criteriaStack").innerHTML = "";
                 document.getElementById("themeLayerMatrix").innerHTML = "";
@@ -880,6 +987,7 @@
 
             renderFreshnessStrip();
             renderVerdictBoard();
+            renderRadar();
             renderNextCheckTimeline();
             renderCriteriaBoard();
             renderThemeLayerMatrix();
@@ -1188,6 +1296,62 @@
                     <a class="verdict-link" href="${escapeHtml(reportUrl(report))}">${escapeHtml(labels.readReport)} →</a>
                 </div>
             `;
+        }
+
+        /* ---------- cross-check radar ---------- */
+
+        function renderRadar() {
+            const root = document.getElementById("radarStack");
+            const labels = getLabels();
+            if (!root) return;
+
+            if (!state.crossChecks.length) {
+                root.innerHTML = `<div class="empty-state">${escapeHtml(labels.emptyBoard)}</div>`;
+                return;
+            }
+
+            const cards = state.crossChecks.map((check) => ({
+                check,
+                signals: state.signals.filter((signal) =>
+                    Array.isArray(signal.crossChecks) && signal.crossChecks.includes(check.id))
+            }));
+            // Rules with recorded signals surface first, ranked by their latest signal date.
+            cards.sort((a, b) => latestSignalTime(b.signals) - latestSignalTime(a.signals));
+
+            root.innerHTML = cards.map(({ check, signals }) => {
+                const signalRows = signals.map((signal) => `
+                    <div class="radar-signal">
+                        <div class="radar-signal-head">
+                            <span class="chip">${escapeHtml(signal.date || "")}</span>
+                            <span>${escapeHtml(localize(signal.title))}</span>
+                            ${(Array.isArray(signal.tickers) ? signal.tickers : [])
+                                .map((ticker) => `<span class="chip">${escapeHtml(ticker)}</span>`).join("")}
+                        </div>
+                        <p>${escapeHtml(localize(signal.detail))}</p>
+                    </div>
+                `).join("");
+                return `
+                    <article class="radar-card" id="radar-${escapeHtml(check.id || "")}">
+                        <div class="radar-rule">
+                            <span>
+                                <span class="radar-rule-label">${escapeHtml(labels.ifLabel)}</span>
+                                <span class="radar-rule-text">${escapeHtml(localize(check.if))}</span>
+                            </span>
+                            <span>
+                                <span class="radar-rule-label">${escapeHtml(labels.thenLabel)}</span>
+                                <span class="radar-rule-text">${escapeHtml(localize(check.then))}</span>
+                            </span>
+                        </div>
+                        <div class="radar-signals">
+                            ${signalRows || `<div class="radar-empty">${escapeHtml(labels.radarNoSignals)}</div>`}
+                        </div>
+                    </article>
+                `;
+            }).join("");
+        }
+
+        function latestSignalTime(signals) {
+            return signals.reduce((latest, signal) => Math.max(latest, parseReportDate(signal.date)), 0);
         }
 
         /* ---------- view 2: kill-criteria board ---------- */

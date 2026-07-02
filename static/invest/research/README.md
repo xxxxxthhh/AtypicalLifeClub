@@ -9,10 +9,12 @@ static/invest/research/
 ├── index.html                 # 研究中心首页
 ├── app.js                     # 首页渲染逻辑（读取 reports.json）
 ├── data/reports.json          # 研报卡片元数据（唯一列表入口）
-├── data/coverage-map.json     # AI 基建覆盖地图配置
+├── data/coverage-map.json     # AI 基建覆盖地图配置（层级 / 角色 / crossChecks 校验规则）
+├── data/signals.json          # 交叉校验信号日志（链级事件，引用 crossChecks 的 id）
 ├── validate_reports.py        # 元数据校验脚本
-├── validate_coverage_map.py   # AI 基建覆盖地图校验脚本
+├── validate_coverage_map.py   # 覆盖地图 + 信号日志校验脚本
 ├── coverage-map.html          # AI 基建覆盖地图页面
+├── monitoring-dashboard.html  # 全书监控仪表盘（含交叉校验雷达）
 ├── report-style.css           # 详情页样式
 ├── reports/view.html          # 通用详情页模板
 ├── reports/*.html             # 旧链接兼容跳转页
@@ -45,15 +47,16 @@ static/invest/research/
 1. 添加或更新报告正文：`static/invest/research/*.md`
 2. 在 `static/invest/research/data/reports.json` 增加或更新卡片元数据
 3. 如果报告承担 AI 基建链条验证角色，同步维护 `chainLayer` / `chainRole`，并确认 `data/coverage-map.json` 中已有对应层级或角色
-4. 运行仓库内校验：
+4. 观察到链级事件（例如某超大规模厂商开始外售算力）时，在 `data/signals.json` 追加一条信号：`id` / `date`（YYYY-MM-DD）/ 双语 `title` / 双语 `detail`（含来源与日期）/ `crossChecks`（引用 `coverage-map.json` 中 crossChecks 的 `id`）/ `tickers`。监控仪表盘的「交叉校验雷达」会自动把信号挂到对应规则下；如果事件暴露了框架里没有的校验点，先在 `crossChecks` 里新增规则再记录信号
+5. 运行仓库内校验：
    - `python3 static/invest/research/validate_reports.py`
    - `python3 static/invest/research/validate_coverage_map.py`
-5. 对 full-cycle 重跑、版本链调整或大批量新增报告，额外运行独立发布契约检查：
+6. 对 full-cycle 重跑、版本链调整或大批量新增报告，额外运行独立发布契约检查：
    - `python3 /Users/kyx/.codex/skills/company-research-publishing/scripts/check_research_package.py static/invest/research`
    - 如果只检查单篇报告，可加 `--report-id <id>`
-6. 在仓库根目录预览：`hugo server -D`
-7. 检查 `http://localhost:1313/invest/research/`、`/invest/research/coverage-map.html` 和目标详情页
-8. 提交并推送，走博客现有发布链路
+7. 在仓库根目录预览：`hugo server -D`
+8. 检查 `http://localhost:1313/invest/research/`、`/invest/research/coverage-map.html`、`/invest/research/monitoring-dashboard.html` 和目标详情页
+9. 提交并推送，走博客现有发布链路
 
 详情页支持同一页面三种浏览视图参数：
 

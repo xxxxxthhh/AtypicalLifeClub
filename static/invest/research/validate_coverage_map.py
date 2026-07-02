@@ -4,7 +4,7 @@
 # ///
 # -*- coding: utf-8 -*-
 """
-Validate the AI infrastructure coverage map metadata and page wiring.
+Validate the AI infrastructure coverage map metadata, cross-check signal log, and page wiring.
 
 # ─── How to run ───
 # python3 static/invest/research/validate_coverage_map.py
@@ -13,6 +13,7 @@ Validate the AI infrastructure coverage map metadata and page wiring.
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 from typing import Final, Union
@@ -22,6 +23,7 @@ Json = Union[None, bool, int, float, str, list["Json"], dict[str, "Json"]]
 ROOT: Final = Path(__file__).resolve().parent
 REPORTS_JSON: Final = ROOT / "data" / "reports.json"
 COVERAGE_JSON: Final = ROOT / "data" / "coverage-map.json"
+SIGNALS_JSON: Final = ROOT / "data" / "signals.json"
 COVERAGE_HTML: Final = ROOT / "coverage-map.html"
 
 EXPECTED_LAYERS: Final = [
@@ -125,6 +127,49 @@ def validate_planned_entries(coverage: dict[str, Json]) -> None:
         require_bilingual_text(entry.get("label"), f"coverage-map.json.planned[{index}].label")
 
 
+def validate_cross_checks(coverage: dict[str, Json]) -> set[str]:
+    checks = read_entries(coverage, "crossChecks")
+    ids: set[str] = set()
+    for index, entry in enumerate(checks):
+        check_id = require_string(entry.get("id"), f"coverage-map.json.crossChecks[{index}].id")
+        if check_id in ids:
+            fail(f"duplicate crossCheck id: {check_id}")
+        ids.add(check_id)
+        require_bilingual_text(entry.get("if"), f"coverage-map.json.crossChecks[{index}].if")
+        require_bilingual_text(entry.get("then"), f"coverage-map.json.crossChecks[{index}].then")
+    return ids
+
+
+def validate_signals(check_ids: set[str]) -> None:
+    signals = require_list(load_json(SIGNALS_JSON), "signals.json")
+    seen: set[str] = set()
+    for index, item in enumerate(signals):
+        entry = require_dict(item, f"signals.json[{index}]")
+        signal_id = require_string(entry.get("id"), f"signals.json[{index}].id")
+        if signal_id in seen:
+            fail(f"duplicate signal id: {signal_id}")
+        seen.add(signal_id)
+
+        date = require_string(entry.get("date"), f"signals.json[{index}].date")
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", date):
+            fail(f"signals.json[{index}].date must be YYYY-MM-DD, got: {date}")
+
+        require_bilingual_text(entry.get("title"), f"signals.json[{index}].title")
+        require_bilingual_text(entry.get("detail"), f"signals.json[{index}].detail")
+
+        refs = require_list(entry.get("crossChecks"), f"signals.json[{index}].crossChecks")
+        if not refs:
+            fail(f"signals.json[{index}].crossChecks must reference at least one crossCheck id")
+        for ref_index, ref in enumerate(refs):
+            ref_id = require_string(ref, f"signals.json[{index}].crossChecks[{ref_index}]")
+            if ref_id not in check_ids:
+                fail(f"signals.json[{index}] references unknown crossCheck id: {ref_id}")
+
+        tickers = entry.get("tickers", [])
+        for ticker_index, ticker in enumerate(require_list(tickers, f"signals.json[{index}].tickers")):
+            require_string(ticker, f"signals.json[{index}].tickers[{ticker_index}]")
+
+
 def validate_report_metadata(reports: list[dict[str, Json]], coverage: dict[str, Json]) -> None:
     layer_ids = set(read_ids(read_entries(coverage, "layers"), "layers"))
     role_ids = set(read_ids(read_entries(coverage, "roles"), "roles"))
@@ -180,9 +225,11 @@ def main() -> None:
 
     validate_layer_and_role_ids(coverage)
     validate_planned_entries(coverage)
+    check_ids = validate_cross_checks(coverage)
+    validate_signals(check_ids)
     validate_report_metadata(reports, coverage)
     validate_page_wiring()
-    print("OK: coverage map metadata and page wiring are valid")
+    print("OK: coverage map metadata, signal log, and page wiring are valid")
 
 
 if __name__ == "__main__":

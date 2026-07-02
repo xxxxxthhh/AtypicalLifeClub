@@ -8,10 +8,18 @@ const CATEGORY_LABELS = {
     energy: '能源'
 };
 
+const filterState = {
+    category: 'all',
+    letter: 'all',
+    query: ''
+};
+
 document.addEventListener('DOMContentLoaded', async () => {
     await loadReportsData();
     setupFilters();
-    loadReports();
+    setupSearch();
+    buildLetterStrip();
+    renderReports();
     updateStats();
 });
 
@@ -35,11 +43,34 @@ async function loadReportsData() {
     }
 }
 
-function loadReports(filter = 'all') {
+function tickerLetter(report) {
+    const raw = String(report.ticker || '').trim();
+    const symbol = raw.includes(':') ? raw.split(':').slice(1).join(':') : raw;
+    const first = (symbol.trim() || String(report.company || '').trim()).charAt(0).toUpperCase();
+    return /[A-Z]/.test(first) ? first : '#';
+}
+
+function applyFilters() {
+    const query = filterState.query.trim().toLowerCase();
+    let list = reports.filter((report) => {
+        if (filterState.category !== 'all' && report.category !== filterState.category) return false;
+        if (filterState.letter !== 'all' && tickerLetter(report) !== filterState.letter) return false;
+        if (query) {
+            const haystack = [report.ticker, report.company, report.title, report.titleEn, report.id];
+            if (!haystack.some((value) => String(value || '').toLowerCase().includes(query))) return false;
+        }
+        return true;
+    });
+
+    if (filterState.letter !== 'all') {
+        list = [...list].sort((a, b) => String(a.ticker || '').localeCompare(String(b.ticker || '')));
+    }
+    return list;
+}
+
+function renderReports() {
     const grid = document.getElementById('reportsGrid');
-    const filteredReports = filter === 'all'
-        ? reports
-        : reports.filter((r) => r.category === filter);
+    const filteredReports = applyFilters();
 
     if (!filteredReports.length) {
         renderEmptyState('当前筛选条件下暂无研报。');
@@ -95,7 +126,40 @@ function setupFilters() {
         btn.addEventListener('click', () => {
             filterButtons.forEach((b) => b.classList.remove('active'));
             btn.classList.add('active');
-            loadReports(btn.dataset.filter);
+            filterState.category = btn.dataset.filter;
+            renderReports();
+        });
+    });
+}
+
+function setupSearch() {
+    const input = document.getElementById('reportSearch');
+    if (!input) return;
+    input.addEventListener('input', () => {
+        filterState.query = input.value;
+        renderReports();
+    });
+}
+
+function buildLetterStrip() {
+    const strip = document.getElementById('letterStrip');
+    if (!strip) return;
+
+    const present = new Set(reports.map(tickerLetter));
+    const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+    if (present.has('#')) letters.push('#');
+
+    strip.innerHTML = [
+        `<button class="letter-btn active" type="button" data-letter="all">全部</button>`,
+        ...letters.map((letter) =>
+            `<button class="letter-btn" type="button" data-letter="${letter}" ${present.has(letter) ? '' : 'disabled'}>${letter}</button>`)
+    ].join('');
+
+    strip.querySelectorAll('.letter-btn').forEach((btn) => {
+        btn.addEventListener('click', () => {
+            filterState.letter = btn.dataset.letter;
+            strip.querySelectorAll('.letter-btn').forEach((b) => b.classList.toggle('active', b === btn));
+            renderReports();
         });
     });
 }
