@@ -38,6 +38,27 @@ PREVIOUS_REPORT_FIELDS = [
     "summaryEn",
 ]
 
+# Phase 0 enrichment fields (docs/research-hub-enhancement-plan.md, Part A).
+STANCE_VALUES = {"constructive", "neutral-watch", "high-risk-watch", "bearish-avoid"}
+THESIS_VALUES = {"bull", "bear", "either"}
+THEME_VALUES = {
+    "concentration",
+    "leverage-solvency",
+    "demand",
+    "circularity",
+    "pricing",
+    "optionality",
+    "execution",
+    "regulatory",
+    "valuation",
+}
+MONITORING_ITEM_ID_RE = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
+BILINGUAL_KEYS = ("zh", "en")
+# Chain requirement (spec A.7 step 3): stance/priceAsOf/reportedPeriod/monitoring[]
+# are mandatory for current chainLayer reports. Enabled only after the backfill so
+# the migration never leaves CI red; keep True once flipped.
+ENFORCE_CHAIN_ENRICHMENT = True
+
 
 def fail(message):
     print(f"FAIL: {message}")
@@ -131,6 +152,87 @@ def validate_version_metadata(report, report_idx, reports_by_id):
                 fail(f"report[{report_idx}].{field} requires versionType=full-cycle")
 
 
+def validate_bilingual_text(value, field_name):
+    if not isinstance(value, dict):
+        fail(f"{field_name} must be an object with zh and en")
+    for lang in BILINGUAL_KEYS:
+        ensure_non_empty_string(value.get(lang), f"{field_name}.{lang}")
+
+
+def validate_monitoring(report, report_idx):
+    monitoring = report["monitoring"]
+    prefix = f"report[{report_idx}].monitoring"
+    if not isinstance(monitoring, list) or not monitoring:
+        fail(f"{prefix} must be a non-empty array")
+
+    seen_ids = set()
+    for item_idx, item in enumerate(monitoring):
+        item_prefix = f"{prefix}[{item_idx}]"
+        if not isinstance(item, dict):
+            fail(f"{item_prefix} must be an object")
+
+        item_id = item.get("id")
+        ensure_non_empty_string(item_id, f"{item_prefix}.id")
+        if not MONITORING_ITEM_ID_RE.fullmatch(item_id):
+            fail(f"{item_prefix}.id should be kebab-case ([a-z0-9-]): {item_id}")
+        if item_id in seen_ids:
+            fail(f"{prefix} has duplicate item id: {item_id}")
+        seen_ids.add(item_id)
+
+        for field in ("metric", "trigger", "latest"):
+            if field not in item:
+                fail(f"{item_prefix} missing required field: {field}")
+            validate_bilingual_text(item[field], f"{item_prefix}.{field}")
+
+        thesis = item.get("thesis")
+        if thesis not in THESIS_VALUES:
+            fail(f"{item_prefix}.thesis must be one of {sorted(THESIS_VALUES)}: {thesis}")
+
+        ensure_non_empty_string(item.get("nextCheck"), f"{item_prefix}.nextCheck")
+
+        theme = item.get("theme")
+        if theme is not None and theme not in THEME_VALUES:
+            fail(f"{item_prefix}.theme must be one of {sorted(THEME_VALUES)}: {theme}")
+
+
+def validate_enrichment_fields(report, report_idx, reports_by_id):
+    if "stance" in report and report["stance"] not in STANCE_VALUES:
+        fail(
+            f"report[{report_idx}].stance must be one of "
+            f"{sorted(STANCE_VALUES)}: {report['stance']}"
+        )
+
+    if "priceAsOf" in report:
+        ensure_non_empty_string(report["priceAsOf"], f"report[{report_idx}].priceAsOf")
+        parse_date(report["priceAsOf"], f"report[{report_idx}].priceAsOf")
+
+    if "reportedPeriod" in report:
+        ensure_non_empty_string(report["reportedPeriod"], f"report[{report_idx}].reportedPeriod")
+
+    if "related" in report:
+        related = report["related"]
+        if not isinstance(related, list) or not related:
+            fail(f"report[{report_idx}].related must be a non-empty array when present")
+        if len(set(related)) != len(related):
+            fail(f"report[{report_idx}].related has duplicate ids")
+        for rel_idx, rel_id in enumerate(related):
+            validate_report_reference(rel_id, f"report[{report_idx}].related[{rel_idx}]", reports_by_id)
+            if rel_id == report["id"]:
+                fail(f"report[{report_idx}].related must not reference itself")
+
+    if "monitoring" in report:
+        validate_monitoring(report, report_idx)
+
+    is_current_chain = bool(report.get("chainLayer")) and report.get("isCurrent") is not False
+    if ENFORCE_CHAIN_ENRICHMENT and is_current_chain:
+        for field in ("stance", "priceAsOf", "reportedPeriod", "monitoring"):
+            if field not in report:
+                fail(
+                    f"report[{report_idx}] ({report['id']}) is a current chainLayer "
+                    f"report and must carry enrichment field: {field}"
+                )
+
+
 def main():
     if not REPORTS_JSON.exists():
         fail(f"missing file: {REPORTS_JSON}")
@@ -222,6 +324,7 @@ def main():
             )
 
         validate_version_metadata(report, idx, reports_by_id)
+        validate_enrichment_fields(report, idx, reports_by_id)
 
     print(f"OK: validated {len(reports)} reports in {REPORTS_JSON}")
 
