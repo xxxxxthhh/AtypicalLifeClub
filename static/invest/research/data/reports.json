@@ -31,7 +31,106 @@
     ],
     "summaryEn": "The second report in this center's AI-infra demand-risk layer, serving as the cross-check ('architecture check') on the CoreWeave risk anchor. Nebius is the Amsterdam-HQ, NASDAQ-listed, full-stack AI-cloud (neocloud) successor to the former Yandex. It is CoreWeave's mirror image: Q1 2026 revenue $399.0M (+684%), AI-cloud ARR $1.92B, adjusted EBITDA turned positive at $129.5M, and +$2.3B operating cash flow — funded by ~$9.3B cash, customer prepayments and convertibles rather than GPU-collateralized leverage, with ~$8.4B non-current debt plus ~$1.0B operating lease liabilities against ~$9.3B cash (financial-debt near-neutral; lease-adjusted neutral to ~$4B net cash depending on prefunded-warrant treatment). But GAAP net income of $621M is a $780.6M non-cash ClickHouse revaluation over a −$128M operating loss, and Nebius is accumulating the same hyperscaler concentration (Microsoft up to ~$19.4B + Meta up to ~$27B, ~$46B company-disclosed commitments/ceilings) and the same NVIDIA supplier-shareholder circularity as CoreWeave. Stock ~$240 (2026-07-01; ~$256 around its June-22 Nasdaq-100 inclusion), market cap ~$61B on ~253.9M shares outstanding, ~17-19x EV/2026E revenue (~3x CoreWeave's) and ~7x EV/exit-ARR; 2026 capex $20-25B (~7x revenue). Core read-through: is CoreWeave's fragility a balance-sheet choice or inherent to the neocloud model? Only the solvency fragility is CoreWeave-specific; the demand/concentration/circularity/capex risks are shared across the layer. High-quality-but-high-expectations / high-risk (watch).",
     "chainLayer": "demand-risk",
-    "chainRole": "architecture-check"
+    "chainRole": "architecture-check",
+    "stance": "high-risk-watch",
+    "priceAsOf": "2026-07-01",
+    "reportedPeriod": "Q1 2026",
+    "related": [
+      "coreweave-2026",
+      "nvidia-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "model-vs-balance-sheet",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "模式 vs 资产负债表（核心交叉校验）",
+          "en": "Model vs balance sheet (core cross-check)"
+        },
+        "trigger": {
+          "zh": "Nebius（近净现金）与 CoreWeave（高杠杆）是否都在高利用率下持续转化 ARR/backlog",
+          "en": "do both Nebius (near net cash) and CoreWeave (levered) keep converting ARR/backlog at high utilization"
+        },
+        "latest": {
+          "zh": "Nebius 经营现金流 +$22.6 亿、AI 云 ARR $19.2 亿放量",
+          "en": "Nebius OCF +$2.26B; AI-cloud ARR $1.92B ramping"
+        },
+        "nextCheck": "2026-Q2 财报 / Q2 earnings"
+      },
+      {
+        "id": "concentration-convergence",
+        "thesis": "bear",
+        "theme": "concentration",
+        "metric": {
+          "zh": "集中度收敛",
+          "en": "Concentration convergence"
+        },
+        "trigger": {
+          "zh": "微软+Meta 收入占比向 CoreWeave 的 >60% 单客户画像靠拢",
+          "en": "Microsoft+Meta revenue share climbs toward CoreWeave's >60% single-customer profile"
+        },
+        "latest": {
+          "zh": "微软最高约 $194 亿 + Meta 最高约 $270 亿（公司披露承诺/上限），2027 放量",
+          "en": "Microsoft up to ~$19.4B + Meta up to ~$27B (company-disclosed ceilings) ramping into 2027"
+        },
+        "nextCheck": "2026-Q2 集中度披露 / concentration disclosures"
+      },
+      {
+        "id": "earnings-quality-ex-marks",
+        "thesis": "bear",
+        "theme": "valuation",
+        "metric": {
+          "zh": "盈利质量（剔除重估）",
+          "en": "Earnings quality (ex-marks)"
+        },
+        "trigger": {
+          "zh": "利润持续依赖非现金投资重估而非经营转正",
+          "en": "profit stays driven by non-cash investment marks rather than operations turning positive"
+        },
+        "latest": {
+          "zh": "Q1 净利 $6.21 亿 = $7.806 亿 ClickHouse 重估盖过 −$1.28 亿经营亏损",
+          "en": "Q1 net income $621M = $780.6M ClickHouse mark over a −$128M operating loss"
+        },
+        "nextCheck": "2026-Q2 剔除重估经营利润 / operating income ex-marks"
+      },
+      {
+        "id": "funding-durability",
+        "thesis": "bear",
+        "theme": "leverage-solvency",
+        "metric": {
+          "zh": "融资可持续性",
+          "en": "Funding durability"
+        },
+        "trigger": {
+          "zh": "『>90% 已锁定』的 2026 资本开支（$200-250 亿，约 7 倍营收）在更紧资本市场中失效",
+          "en": "the '>90% secured' 2026 capex ($20-25B, ~7x revenue) breaks in a tighter capital market"
+        },
+        "latest": {
+          "zh": ">90% 已由现金/合同锁定；约 $93 亿现金；预期对微软/Meta 合同做 ABS",
+          "en": ">90% secured by cash/contracts; ~$9.3B cash; ABS expected against Microsoft/Meta contracts"
+        },
+        "nextCheck": "ABS 发行 / ATM 使用 / prepayment 节奏"
+      },
+      {
+        "id": "optionality-crystallization",
+        "thesis": "bull",
+        "theme": "optionality",
+        "metric": {
+          "zh": "非核心期权兑现",
+          "en": "Optionality crystallization"
+        },
+        "trigger": {
+          "zh": "Toloka/Avride/TripleTen/ClickHouse 股权被变现或引入伙伴",
+          "en": "Toloka/Avride/TripleTen/ClickHouse stakes get monetized or partnered"
+        },
+        "latest": {
+          "zh": "ClickHouse 按约 $150 亿轮重估 +$7.806 亿",
+          "en": "ClickHouse marked +$780.6M on a ~$15B round"
+        },
+        "nextCheck": "伙伴/股权出售公告 / stake-sale announcements"
+      }
+    ]
   },
   {
     "id": "arista-2026",
@@ -65,7 +164,89 @@
     ],
     "summaryEn": "Initial coverage of the AI cluster networking layer: Arista is the open Ethernet / AI spine / scale-out systems-software pick-and-shovel, directly testing NVIDIA Spectrum-X/InfiniBand/NVLink integration vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet. Q1 2026 revenue was $2.709B (+35.1%), GAAP/non-GAAP operating margin 42.7%/47.8%, non-GAAP EPS $0.87, and operating cash flow $1.69B; Q2 guide is about $2.8B revenue. FY2025 Cloud and AI Titans / AI Specialty Providers were 48%/20% of revenue, and Core AI/Cloud/Data Center Networking was 65%. But two anonymous end customers were ~42% of revenue (26%/16%), Arista is highly reliant on Broadcom merchant silicon, and at the Jun 29 2026 market cap of ~$206.6B the stock trades around 56x TTM GAAP earnings and ~47x current non-GAAP EPS run-rate. Neutral / high-quality but high expectations (watch).",
     "chainLayer": "networking",
-    "chainRole": "architecture-check"
+    "chainRole": "architecture-check",
+    "stance": "neutral-watch",
+    "priceAsOf": "2026-06-29",
+    "reportedPeriod": "Q1 2026",
+    "related": [
+      "broadcom-2026",
+      "aaoi-2026",
+      "corning-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "customer-concentration",
+        "thesis": "bear",
+        "theme": "concentration",
+        "metric": {
+          "zh": "两大匿名客户集中度",
+          "en": "Two-customer concentration"
+        },
+        "trigger": {
+          "zh": "两大匿名终端客户（合计约 42%，26%/16%）占比进一步上升或订单节奏骤变",
+          "en": "the two anonymous end customers (~42% combined, 26%/16%) rise further or order cadence swings"
+        },
+        "latest": {
+          "zh": "FY2025 两大客户合计约 42% 收入",
+          "en": "two customers were ~42% of FY2025 revenue"
+        },
+        "nextCheck": "2026-Q2 财报客户披露 / Q2 customer disclosures"
+      },
+      {
+        "id": "open-ethernet-vs-integrated",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "开放以太网 vs NVIDIA 一体化栈",
+          "en": "Open Ethernet vs NVIDIA integrated stack"
+        },
+        "trigger": {
+          "zh": "NVIDIA Spectrum-X/InfiniBand/NVLink 一体化侵蚀开放以太网 AI 后端网络份额（或反向获得份额证据）",
+          "en": "NVIDIA Spectrum-X/InfiniBand/NVLink erodes open-Ethernet AI back-end share (or open Ethernet wins clearer share evidence)"
+        },
+        "latest": {
+          "zh": "FY2025 Cloud & AI Titans/AI Specialty 占 48%/20%；Core 收入占 65%；800G 生态推进",
+          "en": "FY2025 Cloud & AI Titans / AI Specialty at 48%/20%; Core 65%; 800G ecosystem advancing"
+        },
+        "nextCheck": "hyperscaler 网络架构公告与 Q2 指引 / architecture announcements & Q2 guide"
+      },
+      {
+        "id": "broadcom-silicon-dependency",
+        "thesis": "bear",
+        "theme": "execution",
+        "metric": {
+          "zh": "Broadcom merchant silicon 依赖",
+          "en": "Broadcom merchant-silicon dependency"
+        },
+        "trigger": {
+          "zh": "Broadcom 供应受限、条款变化或生态位冲突",
+          "en": "Broadcom supply constraints, term changes, or ecosystem conflict"
+        },
+        "latest": {
+          "zh": "交换芯片主要依赖 Broadcom merchant silicon",
+          "en": "switching silicon predominantly sourced from Broadcom"
+        },
+        "nextCheck": "供应链/新品发布 / supply chain & product launches"
+      },
+      {
+        "id": "valuation-tolerance",
+        "thesis": "bear",
+        "theme": "valuation",
+        "metric": {
+          "zh": "估值容错率",
+          "en": "Valuation tolerance"
+        },
+        "trigger": {
+          "zh": "增长或利润率不及预期时高倍数压缩",
+          "en": "multiple compression if growth or margins miss"
+        },
+        "latest": {
+          "zh": "市值约 $206.6B（2026-06-29）；约 56x TTM GAAP P/E、约 47x 非 GAAP 运行率",
+          "en": "market cap ~$206.6B (2026-06-29); ~56x TTM GAAP P/E, ~47x non-GAAP run-rate"
+        },
+        "nextCheck": "2026-Q2 财报 / Q2 earnings"
+      }
+    ]
   },
   {
     "id": "coreweave-2026",
@@ -99,7 +280,88 @@
     ],
     "summaryEn": "The AI-infra book's 'risk anchor', written deliberately bear-led. A GPU 'neocloud' that pairs a $99.4B company-defined revenue backlog (RPO plus other committed-contract amounts) and 56% adjusted EBITDA with a widening GAAP net loss (Q1 2026 -$740M), ~$24.9B debt, ~$10.1B operating lease liabilities, and $31-35B of 2026 capex (~3x revenue). Customer-concentrated (Microsoft historically >60% of revenue; CNBC cited 62% for 2024); NVIDIA is supplier + shareholder ($2B at $87) + $6.3B capacity backstop (circularity). Q1 2026 revenue $2.078B (+112%); FY2026 guide revenue $12-13B. The stock is already ~47% off 2025 peaks at ~$96, market cap ~$52B, financial net debt ~$22.9B before operating leases and ~$32.9B net obligation stack incl. operating leases. Central question: real economic demand or leverage-fueled pre-stocking? High-risk / bear-leaning (avoid-to-watch).",
     "chainLayer": "demand-risk",
-    "chainRole": "risk-anchor"
+    "chainRole": "risk-anchor",
+    "stance": "bearish-avoid",
+    "priceAsOf": "2026-06-29",
+    "reportedPeriod": "Q1 2026",
+    "related": [
+      "nebius-2026",
+      "nvidia-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "real-demand-vs-financing",
+        "thesis": "bear",
+        "theme": "demand",
+        "metric": {
+          "zh": "真实需求 vs 融资（Pillar 1）",
+          "en": "Real demand vs financing (Pillar 1)"
+        },
+        "trigger": {
+          "zh": "确认收入持续落后收入 backlog，且大比例订单由供应商兜底/单一客户支撑",
+          "en": "recognized revenue keeps lagging revenue backlog; a material share of bookings is supplier-backstopped/single-customer"
+        },
+        "latest": {
+          "zh": "$994 亿公司定义收入 backlog vs 约 $21 亿/季确认收入；NVIDIA $63 亿产能兜底至 2032",
+          "en": "$99.4B company-defined revenue backlog vs ~$2.1B/qtr recognized; NVIDIA $6.3B capacity backstop to 2032"
+        },
+        "nextCheck": "2026-Q2 backlog 转化披露 / conversion disclosures"
+      },
+      {
+        "id": "revenue-quality-circularity",
+        "thesis": "bear",
+        "theme": "circularity",
+        "metric": {
+          "zh": "收入质量与循环性（Pillar 2）",
+          "en": "Revenue quality / circularity (Pillar 2)"
+        },
+        "trigger": {
+          "zh": "前二客户维持约 2/3 以上收入，NVIDIA 仍是合约化需求兜底",
+          "en": "top-2 customers stay >~2/3 of revenue; NVIDIA remains a contracted demand backstop"
+        },
+        "latest": {
+          "zh": "微软历史上 >60%（CNBC 引 2024 年 62%）；NVIDIA = 供应商+股东（$20 亿@$87）+兜底",
+          "en": "Microsoft historically >60% (CNBC cited 62% for 2024); NVIDIA = supplier + shareholder ($2B at $87) + backstop"
+        },
+        "nextCheck": "客户集中度 % 与关联方披露 / concentration & related-party disclosures"
+      },
+      {
+        "id": "solvency-gpu-life-stress",
+        "thesis": "bear",
+        "theme": "leverage-solvency",
+        "metric": {
+          "zh": "GPU 寿命压力下的偿付能力（Pillar 3）",
+          "en": "Solvency under GPU-life stress (Pillar 3)"
+        },
+        "trigger": {
+          "zh": "按『GPU 寿命=3 年』压力测算，24 个月债务+租赁/采购义务超过合约+流动性覆盖",
+          "en": "24-month debt service + lease/purchase commitments exceed contracted + liquid coverage under a 'GPU life = 3 years' stress"
+        },
+        "latest": {
+          "zh": "约 $249 亿债务 + 约 $100 亿经营租赁；Q1 利息净额 $5.36 亿（年化约 $21 亿）；GPU 6 年折旧有争议",
+          "en": "~$24.9B debt + ~$10.1B operating leases; Q1 interest net $536M (~$2.1B annualized); 6-yr GPU depreciation contested"
+        },
+        "nextCheck": "到期结构/利息覆盖/折旧政策 / maturities & coverage"
+      },
+      {
+        "id": "self-build-pricing-crack",
+        "thesis": "bear",
+        "theme": "pricing",
+        "metric": {
+          "zh": "自建替代与定价开裂（Pillar 4）",
+          "en": "Self-build substitution / pricing crack (Pillar 4)"
+        },
+        "trigger": {
+          "zh": "头部客户公开削减承诺，或 GPU 租金 ASP 随利用率下滑",
+          "en": "a top customer publicly cuts commitments, or GPU rental ASPs fall alongside utilization"
+        },
+        "latest": {
+          "zh": "微软自建（MAI）、OpenAI 分散至 Stargate/Oracle/Broadcom；Core Scientific 收购被否",
+          "en": "Microsoft self-build (MAI); OpenAI diversifying to Stargate/Oracle/Broadcom; Core Scientific deal rejected"
+        },
+        "nextCheck": "微软/OpenAI 产能表态、租金 ASP 与利用率 / capacity commentary, ASP & utilization"
+      }
+    ]
   },
   {
     "id": "vertiv-2026",
@@ -133,7 +395,88 @@
     ],
     "summaryEn": "Power & thermal (incl. liquid cooling) pick-and-shovel for data centers, sitting between 'where power comes from' (GEV/Bloom) and 'the chips' (NVDA/AVGO) — the most real-time 'dashboard' of AI buildout velocity. Q1 2026 revenue $2.65B (+30%, +23% organic, Americas +44%), adj operating margin 20.8% (+430bps), adj EPS $1.17 (+83%), adj FCF $653M (+147%); latest disclosed Q4 2025 backlog was $15.0B (+109%) with book-to-bill ~2.9x. FY2026 guidance raised to revenue $13.5-14.0B, adj EPS $6.30-6.40. But the stock ~3x'd in a year to $306.97 / ~$117.9B / ~48x forward adj EPS (~80x trailing), pricing in years of sustained buildout; the high-beta order book cuts both ways. Neutral / high-quality but high expectations (watch).",
     "chainLayer": "datacenter-facility",
-    "chainRole": "dashboard"
+    "chainRole": "dashboard",
+    "stance": "neutral-watch",
+    "priceAsOf": "2026-06-29",
+    "reportedPeriod": "Q1 2026",
+    "related": [
+      "gevernova-2026",
+      "bloom-energy-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "orders-backlog-cadence",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "订单与 backlog 节奏（建设速度仪表盘）",
+          "en": "Orders & backlog cadence (buildout dashboard)"
+        },
+        "trigger": {
+          "zh": "订单/backlog 增速与 book-to-bill 明显降温 —— AI 建设减速的最早信号",
+          "en": "orders/backlog growth and book-to-bill cool visibly — the earliest signal of buildout deceleration"
+        },
+        "latest": {
+          "zh": "Q4 2025 backlog $150 亿（+109%）、book-to-bill 约 2.9x；FY2026 指引上调",
+          "en": "Q4 2025 backlog $15.0B (+109%), book-to-bill ~2.9x; FY2026 guidance raised"
+        },
+        "nextCheck": "2026-Q2 财报 backlog 披露 / Q2 backlog print"
+      },
+      {
+        "id": "valuation-multiple",
+        "thesis": "bear",
+        "theme": "valuation",
+        "metric": {
+          "zh": "前瞻倍数",
+          "en": "Forward multiple"
+        },
+        "trigger": {
+          "zh": "增长或利润率不及指引时约 48x 前瞻（约 80x 滚动）倍数压缩",
+          "en": "the ~48x forward (~80x trailing) multiple compresses on any guide miss"
+        },
+        "latest": {
+          "zh": "股价一年约 3 倍至 $306.97、市值约 $1,179 亿；FY2026 指引营收 $135-140 亿、调整后 EPS $6.30-6.40",
+          "en": "stock ~3x in a year to $306.97, ~$117.9B cap; FY2026 guide $13.5-14.0B revenue, $6.30-6.40 adj EPS"
+        },
+        "nextCheck": "2026-Q2 财报 / Q2 earnings"
+      },
+      {
+        "id": "liquid-cooling-competition",
+        "thesis": "bear",
+        "theme": "execution",
+        "metric": {
+          "zh": "液冷竞争与份额",
+          "en": "Liquid-cooling competition & share"
+        },
+        "trigger": {
+          "zh": "施耐德/伊顿在 100kW+ 机柜液冷代际中挤压份额或利润率",
+          "en": "Schneider/Eaton squeeze share or margin through the 100kW+ rack liquid-cooling transition"
+        },
+        "latest": {
+          "zh": "一线电力+热管理供应商；公开份额/TAM 口径分散需按行业来源跟踪",
+          "en": "tier-1 power+thermal supplier; public share/TAM estimates fragmented, track via industry sources"
+        },
+        "nextCheck": "行业份额与订单数据 / industry share & order data"
+      },
+      {
+        "id": "ai-capex-digestion",
+        "thesis": "bear",
+        "theme": "demand",
+        "metric": {
+          "zh": "AI 资本开支消化",
+          "en": "AI capex digestion"
+        },
+        "trigger": {
+          "zh": "hyperscaler capex 指引下修 —— 高 beta 订单簿双向放大",
+          "en": "hyperscaler capex guides get cut — the high-beta order book amplifies both ways"
+        },
+        "latest": {
+          "zh": "Q1 2026 营收 $26.5 亿（+30%、美洲有机 +44%）、调整后 FCF $6.53 亿（+147%）",
+          "en": "Q1 2026 revenue $2.65B (+30%, Americas organic +44%), adj FCF $653M (+147%)"
+        },
+        "nextCheck": "hyperscaler 财报季 capex 指引 / hyperscaler capex guides"
+      }
+    ]
   },
   {
     "id": "corning-2026",
@@ -166,7 +509,87 @@
       "核心风险：股价约$221（52周$51-230，约4倍重定价）、约71倍2026E核心EPS、卖方均价低于市价；约$90亿债务、AI资本开支周期性与客户集中"
     ],
     "summaryEn": "AI data-center fiber/cable/passive-connectivity pick-and-shovel, complementary to AAOI's active optical-module/transceiver exposure. Q1 2026 core sales $4.35B (+18%), Optical Communications $1.85B (+36%, GenAI-driven), core EPS $0.70, core operating margin 20.2% (Springboard target hit a year early); Q2 guide core sales ~$4.6B, core EPS $0.73-0.77. Meta (up to $6B), NVIDIA (~$500M upfront, up to ~$3.2B equity in total via warrants, 3 plants), Amazon (multibillion) signed multi-year supply deals. But at ~$221 / ~$190B market cap and ~71x 2026E core EPS (sell-side avg target below market price), with ~$9B debt and AI-capex cyclicality the key risks. Neutral / high-quality but high expectations (watch).",
-    "chainLayer": "optical"
+    "chainLayer": "optical",
+    "stance": "neutral-watch",
+    "priceAsOf": "2026-06-26",
+    "reportedPeriod": "Q1 2026",
+    "related": [
+      "aaoi-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "optical-genai-pull",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "光通信 GenAI 拉动",
+          "en": "Optical GenAI pull-through"
+        },
+        "trigger": {
+          "zh": "光通信增速失速 —— AI 集群扩容未穿透到物理连接层的证伪信号",
+          "en": "Optical Communications growth stalls — falsifying that AI cluster expansion reaches the physical link layer"
+        },
+        "latest": {
+          "zh": "Q1 2026 光通信 $18.46 亿（+36%，生成式 AI 驱动）；Q2 指引核心营收约 $46 亿",
+          "en": "Q1 2026 Optical $1.85B (+36%, GenAI-driven); Q2 guide core sales ~$4.6B"
+        },
+        "nextCheck": "2026-Q2 财报 / Q2 earnings"
+      },
+      {
+        "id": "customer-concentration-funding",
+        "thesis": "bear",
+        "theme": "concentration",
+        "metric": {
+          "zh": "三大客户合同与客户出资",
+          "en": "Anchor-customer contracts & customer funding"
+        },
+        "trigger": {
+          "zh": "Meta/NVIDIA/Amazon 任一方削减 capex 或重谈多年期供货合同",
+          "en": "any of Meta/NVIDIA/Amazon cuts capex or renegotiates the multi-year supply deals"
+        },
+        "latest": {
+          "zh": "Meta 最多 $60 亿、NVIDIA 前期约 $5 亿 + 权证累计最多约 $32 亿（3 座工厂）、Amazon 数十亿美元",
+          "en": "Meta up to $6B; NVIDIA ~$500M upfront + warrants up to ~$3.2B (3 plants); Amazon multibillion"
+        },
+        "nextCheck": "客户 capex 公告 / customer capex announcements"
+      },
+      {
+        "id": "springboard-runrate",
+        "thesis": "bull",
+        "theme": "execution",
+        "metric": {
+          "zh": "Springboard 运行率兑现",
+          "en": "Springboard run-rate delivery"
+        },
+        "trigger": {
+          "zh": "核心营收运行率向 2026 年底约 $200 亿目标推进（2028 约 $300 亿、2030 约 $400 亿）",
+          "en": "core sales run-rate advances toward ~$20B by end-2026 (~$30B 2028, ~$40B 2030)"
+        },
+        "latest": {
+          "zh": "核心营业利润率 20.2%，Springboard 目标提前一年达成",
+          "en": "core operating margin 20.2%, Springboard target hit a year early"
+        },
+        "nextCheck": "季度核心营收运行率 / quarterly core-sales run-rate"
+      },
+      {
+        "id": "valuation-debt",
+        "thesis": "bear",
+        "theme": "valuation",
+        "metric": {
+          "zh": "倍数与债务",
+          "en": "Multiple & debt"
+        },
+        "trigger": {
+          "zh": "AI 资本开支周期转弱时约 71x 2026E 核心 EPS 倍数压缩；约 $90 亿债务",
+          "en": "the ~71x 2026E core-EPS multiple compresses in an AI-capex downcycle; ~$9B debt"
+        },
+        "latest": {
+          "zh": "股价约 $221（2026-06-26 收盘）、市值约 $1,900 亿、卖方均价低于市价",
+          "en": "stock ~$221 (2026-06-26 close), ~$190B cap, sell-side average below market"
+        },
+        "nextCheck": "2026-Q2 财报 / Q2 earnings"
+      }
+    ]
   },
   {
     "id": "nvidia-2026",
@@ -199,7 +622,89 @@
       "护城河三重叠加：CUDA 生态 + 全栈系统（GPU+NVLink+网络）+ 年度节奏；结构性威胁来自自定义 ASIC（Broadcom）多于 AMD",
       "股价约 $195.74、市值约 $4.76 万亿（全球第一），但远期 P/E 约 25x 低于 AMD 约 58x；风险在盈利预期分母而非倍数。中性/观察"
     ],
-    "chainLayer": "compute"
+    "chainLayer": "compute",
+    "stance": "neutral-watch",
+    "priceAsOf": "2026-06-26",
+    "reportedPeriod": "Q1 FY2027",
+    "related": [
+      "amd-2026",
+      "broadcom-2026",
+      "coreweave-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "ai-capex-durability",
+        "thesis": "bear",
+        "theme": "demand",
+        "metric": {
+          "zh": "AI 资本开支可持续性（分母风险）",
+          "en": "AI capex durability (denominator risk)"
+        },
+        "trigger": {
+          "zh": "hyperscaler capex 指引转弱或数据中心收入环比失速",
+          "en": "hyperscaler capex guides weaken or Data Center revenue stalls sequentially"
+        },
+        "latest": {
+          "zh": "Q1 FY2027 数据中心 $75.2B（+92%）、Q2 指引 $91.0B —— 且中国 DC 收入归零下完成",
+          "en": "Q1 FY2027 Data Center $75.2B (+92%); Q2 guide $91.0B — with China DC at zero"
+        },
+        "nextCheck": "Q2 FY2027 财报（约 2026-08）/ Q2 FY2027 earnings"
+      },
+      {
+        "id": "custom-asic-substitution",
+        "thesis": "bear",
+        "theme": "demand",
+        "metric": {
+          "zh": "自定义 ASIC 替代",
+          "en": "Custom-ASIC substitution"
+        },
+        "trigger": {
+          "zh": "Broadcom XPU 项目放量在推理/成熟负载持续蚕食增量份额",
+          "en": "Broadcom XPU programs keep taking incremental share in inference/mature workloads"
+        },
+        "latest": {
+          "zh": "AVGO FY2027 AI 目标 >$1000 亿；报告判断为最深结构性威胁",
+          "en": "AVGO FY2027 AI target >$100B; flagged as the deepest structural threat"
+        },
+        "nextCheck": "AVGO 季报与客户 ASIC 公告 / AVGO prints & customer ASIC news"
+      },
+      {
+        "id": "china-structural-loss",
+        "thesis": "bear",
+        "theme": "regulatory",
+        "metric": {
+          "zh": "中国结构性丢失",
+          "en": "Structural China loss"
+        },
+        "trigger": {
+          "zh": "出口管制进一步收紧或中国收入无法恢复成为永久缺口",
+          "en": "export controls tighten further or China revenue never recovers"
+        },
+        "latest": {
+          "zh": "中国数据中心收入已归零",
+          "en": "China data-center revenue at zero"
+        },
+        "nextCheck": "出口管制政策动态 / export-control developments"
+      },
+      {
+        "id": "circular-financing-exposure",
+        "thesis": "bear",
+        "theme": "circularity",
+        "metric": {
+          "zh": "循环融资敞口",
+          "en": "Circular-financing exposure"
+        },
+        "trigger": {
+          "zh": "对 neocloud 的股权+兜底安排出现减值或需求兜底被动用",
+          "en": "equity+backstop arrangements with neoclouds get impaired or the demand backstop is drawn"
+        },
+        "latest": {
+          "zh": "CRWV：$20 亿@$87 + $63 亿产能兜底；NBIS：$20 亿战略投资",
+          "en": "CRWV: $2B at $87 + $6.3B capacity backstop; NBIS: $2B strategic investment"
+        },
+        "nextCheck": "CRWV/NBIS 季报读数 / CRWV & NBIS quarterly reads"
+      }
+    ]
   },
   {
     "id": "aaoi-2026",
@@ -232,7 +737,87 @@
       "Q1末800G transceiver月产能接近100,000只，美国和台湾扩产支撑AI光模块交付",
       "股价约$171.23、市值约$137亿，EV/TTM Sales约26.6x；GAAP仍亏损、现金流和稀释风险需要严密跟踪"
     ],
-    "chainLayer": "optical"
+    "chainLayer": "optical",
+    "stance": "neutral-watch",
+    "priceAsOf": "2026-06-22",
+    "reportedPeriod": "Q1 2026",
+    "related": [
+      "corning-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "800g-ramp",
+        "thesis": "bull",
+        "theme": "execution",
+        "metric": {
+          "zh": "800G 放量",
+          "en": "800G ramp"
+        },
+        "trigger": {
+          "zh": "Q2 $180-198M 指引与 Q3 产能上线兑现",
+          "en": "Q2 $180-198M guide delivered and Q3 capacity step-up lands"
+        },
+        "latest": {
+          "zh": "800G 已向大型 hyperscale 客户首批量产出货；月产能接近 10 万只",
+          "en": "800G in initial mass production to a large hyperscaler; ~100k/month capacity"
+        },
+        "nextCheck": "2026-Q2/Q3 财报 / Q2-Q3 earnings"
+      },
+      {
+        "id": "cash-burn-dilution",
+        "thesis": "bear",
+        "theme": "leverage-solvency",
+        "metric": {
+          "zh": "现金消耗与 ATM 稀释",
+          "en": "Cash burn & ATM dilution"
+        },
+        "trigger": {
+          "zh": "经营现金流持续为负叠加增发扩大",
+          "en": "operating cash flow stays negative while issuance expands"
+        },
+        "latest": {
+          "zh": "Q1 经营现金流 −$85.4M；GAAP 仍亏损",
+          "en": "Q1 operating cash flow −$85.4M; GAAP still loss-making"
+        },
+        "nextCheck": "季报现金流与股本 / cash flow & share count"
+      },
+      {
+        "id": "customer-concentration",
+        "thesis": "bear",
+        "theme": "concentration",
+        "metric": {
+          "zh": "hyperscale 客户集中",
+          "en": "Hyperscale customer concentration"
+        },
+        "trigger": {
+          "zh": "单一大客户订单节奏波动",
+          "en": "order cadence swings at the single large customer"
+        },
+        "latest": {
+          "zh": "Data Center 收入 $81.4M（+154%），大型 hyperscale 客户驱动",
+          "en": "Data Center revenue $81.4M (+154%), driven by a large hyperscaler"
+        },
+        "nextCheck": "季报客户披露 / customer disclosures"
+      },
+      {
+        "id": "valuation-tolerance",
+        "thesis": "bear",
+        "theme": "valuation",
+        "metric": {
+          "zh": "EV/Sales 容错",
+          "en": "EV/Sales tolerance"
+        },
+        "trigger": {
+          "zh": "放量不及预期时约 26.6x EV/TTM Sales 压缩",
+          "en": "the ~26.6x EV/TTM Sales compresses if the ramp misses"
+        },
+        "latest": {
+          "zh": "股价约 $171.23（2026-06-22 收盘）、市值约 $137 亿",
+          "en": "stock ~$171.23 (2026-06-22 close), ~$13.7B cap"
+        },
+        "nextCheck": "2026-Q2 财报 / Q2 earnings"
+      }
+    ]
   },
   {
     "id": "gevernova-2026",
@@ -265,7 +850,88 @@
       "利润率从 FY2025 的 8.4% 向中两位数爬坡是估值核心变量；Q1 现金 $10.2B、senior notes $2.6B，粗略净现金约 $7.6B，与背 $64.9B 总债务的 Broadcom 形成对比",
       "股价约 $1,056.77、市值约 $2,840 亿（近一年 +117%），EV/2026E 调整后 EBITDA 约 45-48x，已计入多年爬坡、与 AI capex 共命运、Wind 仍亏损。中性/观察"
     ],
-    "chainLayer": "power"
+    "chainLayer": "power",
+    "stance": "neutral-watch",
+    "priceAsOf": "2026-06-26",
+    "reportedPeriod": "Q1 2026",
+    "related": [
+      "vertiv-2026",
+      "bloom-energy-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "orders-backlog",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "订单与 backlog（电力侧需求）",
+          "en": "Orders & backlog (power-side demand)"
+        },
+        "trigger": {
+          "zh": "订单/backlog 降温 —— AI 数据中心建设速度低于芯片端叙事的信号",
+          "en": "orders/backlog cool — signalling buildout speed lags the chip-side narrative"
+        },
+        "latest": {
+          "zh": "Q1 订单 $18.3B、backlog $163B（2027 目标 $200B 提前）；电气化 DC 设备订单 $2.4B",
+          "en": "Q1 orders $18.3B, backlog $163B (2027 target $200B pulled forward); Electrification DC orders $2.4B"
+        },
+        "nextCheck": "2026-Q2 财报 / Q2 earnings"
+      },
+      {
+        "id": "margin-ramp",
+        "thesis": "bull",
+        "theme": "execution",
+        "metric": {
+          "zh": "利润率爬坡",
+          "en": "Margin ramp"
+        },
+        "trigger": {
+          "zh": "调整后 EBITDA 利润率从 8.4% 向 12-14% 及中两位数爬坡兑现",
+          "en": "adjusted EBITDA margin climbs from 8.4% toward 12-14% and mid-teens"
+        },
+        "latest": {
+          "zh": "Q1 调整后 EBITDA $896M（9.6%）；FY2026 指引上调（12-14%、FCF $6.5-7.5B）",
+          "en": "Q1 adj EBITDA $896M (9.6%); FY2026 guide raised (12-14%, FCF $6.5-7.5B)"
+        },
+        "nextCheck": "季度利润率 / quarterly margins"
+      },
+      {
+        "id": "gas-turbine-slots",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "燃气轮机 backlog+slot",
+          "en": "Gas-turbine backlog + slots"
+        },
+        "trigger": {
+          "zh": "年底 backlog+slot 预留 ≥110 GW 目标兑现",
+          "en": "backlog + slot reservations reach the >=110 GW year-end target"
+        },
+        "latest": {
+          "zh": "2026 年底目标 ≥110 GW",
+          "en": "targeting >=110 GW by end-2026"
+        },
+        "nextCheck": "年末披露 / year-end disclosure"
+      },
+      {
+        "id": "valuation-wind-drag",
+        "thesis": "bear",
+        "theme": "valuation",
+        "metric": {
+          "zh": "倍数与风电拖累",
+          "en": "Multiple & Wind drag"
+        },
+        "trigger": {
+          "zh": "AI capex 消化或 Wind 亏损扩大压缩约 45-48x EV/2026E EBITDA",
+          "en": "AI-capex digestion or wider Wind losses compress the ~45-48x EV/2026E EBITDA"
+        },
+        "latest": {
+          "zh": "市值约 $2,840 亿（一年 +117%）；净现金约 $7.6B；Wind 仍亏损",
+          "en": "~$284B cap (+117% in a year); ~$7.6B net cash; Wind still loss-making"
+        },
+        "nextCheck": "2026-Q2 财报 / Q2 earnings"
+      }
+    ]
   },
   {
     "id": "sandisk-2026",
@@ -299,7 +965,87 @@
       "核心风险：NAND周期性极强，78%+顶峰毛利率不可持续；周期转向时盈利与估值双向收缩"
     ],
     "summaryEn": "Q3 FY2026 revenue $5.95B (+97% Q/Q), Datacenter $1.47B (+233% Q/Q), GAAP GM 78.4%, OM 69.1%, GAAP EPS $23.03, FCF $2.99B, zero debt. Five NBM long-term supply agreements lock in ~$42B minimum contracted revenue (per management's earnings call) and a $6B buyback was authorized. Q4 guidance $7.75-8.25B, Non-GAAP EPS $30-33, GM 79-81%. ~16x FY2026E P/S, but NAND is one of the most cyclical semiconductor sub-sectors — 78-80% peak margins are unsustainable and cycle turns see both earnings and multiples contract.",
-    "chainLayer": "memory-storage"
+    "chainLayer": "memory-storage",
+    "stance": "neutral-watch",
+    "priceAsOf": "2026-06-28",
+    "reportedPeriod": "Q3 FY2026",
+    "related": [
+      "sk-hynix-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "nand-cycle-margin-peak",
+        "thesis": "bear",
+        "theme": "pricing",
+        "metric": {
+          "zh": "NAND 周期顶峰毛利率",
+          "en": "NAND peak-cycle margins"
+        },
+        "trigger": {
+          "zh": "78-80% 顶峰毛利率转向 —— 周期反转时盈利与估值双向收缩",
+          "en": "78-80% peak gross margins roll over — cycle turns hit earnings and multiple together"
+        },
+        "latest": {
+          "zh": "Q3 FY2026 GAAP 毛利率 78.4%、营业利润率 69.1%；Q4 指引毛利率 79-81%",
+          "en": "Q3 FY2026 GAAP GM 78.4%, OM 69.1%; Q4 guide GM 79-81%"
+        },
+        "nextCheck": "FY2026-Q4 财报（约 2026-08）/ Q4 FY2026 earnings"
+      },
+      {
+        "id": "nbm-contract-lockin",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "NBM 长期合同锁定",
+          "en": "NBM long-term contract lock-in"
+        },
+        "trigger": {
+          "zh": "五份 NBM 协议的约 $420 亿最低合同收入（管理层口径）获合同披露与兑现验证",
+          "en": "the ~$42B minimum contracted revenue across five NBM agreements (management framing) gets confirmed in filings and delivery"
+        },
+        "latest": {
+          "zh": "约 $420 亿最低合同收入、>$110 亿财务担保、覆盖 FY2027 逾 1/3 bit 出货；$60 亿回购授权",
+          "en": "~$42B minimum contracted revenue, >$11B financial guarantees, >1/3 of FY2027 bits; $6B buyback authorized"
+        },
+        "nextCheck": "10-K/合同披露 / filings & contract disclosure"
+      },
+      {
+        "id": "datacenter-mix",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "数据中心收入占比",
+          "en": "Data-center mix"
+        },
+        "trigger": {
+          "zh": "数据中心收入持续放量并抬升结构占比",
+          "en": "data-center revenue keeps compounding and lifting mix"
+        },
+        "latest": {
+          "zh": "数据中心 $14.67 亿（+233% Q/Q）",
+          "en": "Datacenter $1.47B (+233% Q/Q)"
+        },
+        "nextCheck": "FY2026-Q4 财报 / Q4 print"
+      },
+      {
+        "id": "cycle-derating",
+        "thesis": "bear",
+        "theme": "valuation",
+        "metric": {
+          "zh": "周期股倍数",
+          "en": "Cyclical multiple"
+        },
+        "trigger": {
+          "zh": "周期转向时约 16x FY2026E P/S 的双杀风险",
+          "en": "the ~16x FY2026E P/S de-rates alongside earnings when the cycle turns"
+        },
+        "latest": {
+          "zh": "市值约 $3,096 亿（快照约 2026-06-28）；零债务、单季 FCF $29.9 亿",
+          "en": "~$309.6B cap (snapshot ~2026-06-28); zero debt, $2.99B quarterly FCF"
+        },
+        "nextCheck": "行业 bit 供需与合同价 / industry bit supply-demand & contract pricing"
+      }
+    ]
   },
   {
     "id": "tempus-ai-2026",
@@ -422,7 +1168,87 @@
       "summary": "归档的2026重跑前版本，保留FY2025收入/利润、HBM份额、技术路线图和旧的5.3x深度价值估值框架。",
       "summaryEn": "Archived pre-rerun 2026 baseline preserving FY2025 revenue/profit, HBM share, the technology roadmap, and the old 5.3x deep-value valuation framework."
     },
-    "chainLayer": "memory-storage"
+    "chainLayer": "memory-storage",
+    "stance": "neutral-watch",
+    "priceAsOf": "2026-06-25",
+    "reportedPeriod": "Q1 2026",
+    "related": [
+      "sandisk-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "margin-mean-reversion",
+        "thesis": "bear",
+        "theme": "pricing",
+        "metric": {
+          "zh": "72% 营业利润率均值回归",
+          "en": "72% operating-margin mean reversion"
+        },
+        "trigger": {
+          "zh": "接近周期峰值的 72% 营业利润率回落",
+          "en": "the near-peak 72% operating margin rolls over"
+        },
+        "latest": {
+          "zh": "Q1 2026 营业利润 ₩37.6 万亿（72% 利润率）、营收 ₩52.6 万亿（+198%）",
+          "en": "Q1 2026 operating profit ₩37.6T (72% margin) on ₩52.6T revenue (+198%)"
+        },
+        "nextCheck": "2026-Q2 财报 / Q2 earnings"
+      },
+      {
+        "id": "hbm4-competition",
+        "thesis": "bear",
+        "theme": "demand",
+        "metric": {
+          "zh": "HBM4 竞争格局",
+          "en": "HBM4 competitive set"
+        },
+        "trigger": {
+          "zh": "三星/美光在 HBM4 世代追近认证与份额",
+          "en": "Samsung/Micron close the HBM4 certification and share gap"
+        },
+        "latest": {
+          "zh": "HBM 全球份额 53%、NVIDIA 主供；HBM4E 样品 H2 2026、量产 2027",
+          "en": "53% HBM share, NVIDIA main supplier; HBM4E samples H2 2026, mass production 2027"
+        },
+        "nextCheck": "客户认证进展 / customer qualification news"
+      },
+      {
+        "id": "nvidia-lockin",
+        "thesis": "either",
+        "theme": "concentration",
+        "metric": {
+          "zh": "NVIDIA 绑定",
+          "en": "NVIDIA lock-in"
+        },
+        "trigger": {
+          "zh": "主供地位或未来三年供需格局变化",
+          "en": "main-supplier status or the 3-year supply-demand balance shifts"
+        },
+        "latest": {
+          "zh": "未来三年需求已超供给（报告口径）",
+          "en": "next-3-year demand already exceeds supply (report framing)"
+        },
+        "nextCheck": "供应协议动态 / supply-agreement developments"
+      },
+      {
+        "id": "rerating-realized",
+        "thesis": "bear",
+        "theme": "valuation",
+        "metric": {
+          "zh": "重估兑现后的估值",
+          "en": "Post-rerating valuation"
+        },
+        "trigger": {
+          "zh": "峰值盈利下修令约 28x TTM P/E 失去支撑",
+          "en": "peak-earnings downgrades undercut the ~28x TTM P/E"
+        },
+        "latest": {
+          "zh": "2 月以来约 3.5 倍、市值约 $1.3 万亿（2026-06-25）；深度价值逻辑已基本兑现",
+          "en": "~3.5x since February, ~$1.3T cap (2026-06-25); the deep-value thesis largely played out"
+        },
+        "nextCheck": "2026-Q2 财报 / Q2 earnings"
+      }
+    ]
   },
   {
     "id": "sk-hynix-2026-pre-rerun",
@@ -532,7 +1358,66 @@
       "summary": "归档的2026H1重跑前版本，保留Sangdong、钨出口、Plansee/GTP和旧市值/收入倍数框架。",
       "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the Sangdong, tungsten-export, Plansee/GTP, and old market-cap/revenue-multiple framework."
     },
-    "chainLayer": "resources"
+    "chainLayer": "resources",
+    "stance": "high-risk-watch",
+    "priceAsOf": "2026-06-22",
+    "reportedPeriod": "Q1 2026",
+    "monitoring": [
+      {
+        "id": "sangdong-ramp",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "Sangdong 放量",
+          "en": "Sangdong ramp"
+        },
+        "trigger": {
+          "zh": "矿山未按计划放量 —— 当前估值的第一前提失效",
+          "en": "the mine misses its ramp plan — the first premise of the current valuation breaks"
+        },
+        "latest": {
+          "zh": "Sangdong 满产后预计供应全球非中国钨产量 80% 以上",
+          "en": "Sangdong at full production expected to supply >80% of non-China tungsten output"
+        },
+        "nextCheck": "季度产量/项目里程碑 / quarterly output & milestones"
+      },
+      {
+        "id": "tungsten-price",
+        "thesis": "bear",
+        "theme": "pricing",
+        "metric": {
+          "zh": "钨价维持高位",
+          "en": "Tungsten price holding high"
+        },
+        "trigger": {
+          "zh": "钨价回落令估值前提失效",
+          "en": "tungsten prices fall, undermining the valuation premise"
+        },
+        "latest": {
+          "zh": "估值要求钨价维持高位（2026-06-23 重跑口径）",
+          "en": "valuation requires elevated tungsten prices (June-23 rerun framing)"
+        },
+        "nextCheck": "钨价与出口管制动态 / tungsten price & export-control news"
+      },
+      {
+        "id": "financing-dilution",
+        "thesis": "bear",
+        "theme": "leverage-solvency",
+        "metric": {
+          "zh": "融资稀释",
+          "en": "Financing dilution"
+        },
+        "trigger": {
+          "zh": "放量前的额外融资显著稀释股东",
+          "en": "pre-ramp financings dilute shareholders materially"
+        },
+        "latest": {
+          "zh": "股价约 $18.59、市值约 $5.29B（2026-06-22）",
+          "en": "stock ~$18.59, ~$5.29B cap (2026-06-22)"
+        },
+        "nextCheck": "融资公告 / financing announcements"
+      }
+    ]
   },
   {
     "id": "igv-2026",
@@ -751,7 +1636,70 @@
       "summary": "归档的2026H1重跑前版本，保留Q4 2025、Brookfield、800V DC和旧估值框架。",
       "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the Q4 2025, Brookfield, 800V DC, and old valuation framework."
     },
-    "chainLayer": "power"
+    "chainLayer": "power",
+    "stance": "neutral-watch",
+    "priceAsOf": "2026-06-22",
+    "reportedPeriod": "Q1 2026",
+    "related": [
+      "vertiv-2026",
+      "gevernova-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "onsite-power-demand",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "AI 现场电力需求",
+          "en": "AI on-site power demand"
+        },
+        "trigger": {
+          "zh": "数据中心现场电力订单持续落地强化增长可见度",
+          "en": "data-center on-site power orders keep landing, extending growth visibility"
+        },
+        "latest": {
+          "zh": "AI 数据中心电力需求与 Q1 后指引改善强化基本面",
+          "en": "AI data-center demand and improved post-Q1 guidance strengthen fundamentals"
+        },
+        "nextCheck": "订单公告与 2026-Q2 财报 / order announcements & Q2"
+      },
+      {
+        "id": "valuation-execution-stack",
+        "thesis": "bear",
+        "theme": "valuation",
+        "metric": {
+          "zh": "约 31x 市销率的四重兑现",
+          "en": "The ~31x P/S four-way delivery bar"
+        },
+        "trigger": {
+          "zh": "订单、产能、利润率、现金流任何一项不兑现即压缩极低的估值容错",
+          "en": "any miss across orders, capacity, margins, or cash flow hits the very low valuation tolerance"
+        },
+        "latest": {
+          "zh": "股价约 $345.85、市值约 $98.30B（2026-06-22 收盘）；以约 $3.2B 2026 收入参考约 31x",
+          "en": "stock ~$345.85, ~$98.30B cap (2026-06-22 close); ~31x vs ~$3.2B 2026 revenue reference"
+        },
+        "nextCheck": "2026-Q2 财报 / Q2 earnings"
+      },
+      {
+        "id": "margin-cash-delivery",
+        "thesis": "bear",
+        "theme": "execution",
+        "metric": {
+          "zh": "利润率与现金流兑现",
+          "en": "Margin & cash delivery"
+        },
+        "trigger": {
+          "zh": "产能爬坡下利润率或经营现金流不及预期",
+          "en": "margins or operating cash flow miss during the capacity ramp"
+        },
+        "latest": {
+          "zh": "2026-06-23 完整重跑维持中性/观察",
+          "en": "June-23 full rerun kept neutral/watch"
+        },
+        "nextCheck": "季度利润率与现金流 / quarterly margins & cash flow"
+      }
+    ]
   },
   {
     "id": "salesforce-2026",
@@ -990,7 +1938,84 @@
       "Needham 6/17首次覆盖给予买入、$8目标价；TTM P/S ~5.82x，现金$11.48M，跑道约4季度"
     ],
     "summaryEn": "Q3 FY2026 revenue collapsed to $2.02M (-56% QoQ); the stock has crashed from $4.21 to ~$1.93 (-54%), with a public offering diluting shares ~65%. The Georgia factory slipped to end-August, while Infinite Grid's ~$200M 1.1 GWh LOI and Needham's initiation at an $8 target offer long-term optionality — but near-term fundamentals have deteriorated badly. P/S(TTM) ~5.82x, very high risk.",
-    "chainLayer": "power"
+    "chainLayer": "power",
+    "stance": "high-risk-watch",
+    "priceAsOf": "2026-06-25",
+    "reportedPeriod": "Q3 FY2026",
+    "monitoring": [
+      {
+        "id": "revenue-collapse",
+        "thesis": "bear",
+        "theme": "demand",
+        "metric": {
+          "zh": "营收连续萎缩",
+          "en": "Revenue contraction"
+        },
+        "trigger": {
+          "zh": "收入未在 FY2026-Q4/FY2027 恢复 —— 近期基本面持续恶化",
+          "en": "revenue fails to recover in Q4 FY2026/FY2027 — near-term fundamentals keep deteriorating"
+        },
+        "latest": {
+          "zh": "Q3 FY2026 营收 $2.02M（QoQ −56%）、连续两季大幅萎缩",
+          "en": "Q3 FY2026 revenue $2.02M (−56% QoQ), second straight big decline"
+        },
+        "nextCheck": "FY2026-Q4 财报 / Q4 FY2026 earnings"
+      },
+      {
+        "id": "georgia-factory",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "佐治亚工厂投产",
+          "en": "Georgia factory start-up"
+        },
+        "trigger": {
+          "zh": "8 月底投产时点再度推迟",
+          "en": "the end-August production start slips again"
+        },
+        "latest": {
+          "zh": "投产推迟至 2026 年 8 月底；FEOC 合规已确认",
+          "en": "start pushed to end-Aug 2026; FEOC compliance confirmed"
+        },
+        "nextCheck": "2026-08 投产确认 / August start confirmation"
+      },
+      {
+        "id": "dilution-runway",
+        "thesis": "bear",
+        "theme": "leverage-solvency",
+        "metric": {
+          "zh": "稀释与现金跑道",
+          "en": "Dilution & cash runway"
+        },
+        "trigger": {
+          "zh": "约 4 个季度跑道内再度增发或现金告急",
+          "en": "another raise or cash squeeze inside the ~4-quarter runway"
+        },
+        "latest": {
+          "zh": "公开发行后流通股 ~33M→~54.5M（+65% 稀释）；现金 $11.48M",
+          "en": "shares ~33M→~54.5M (+65% dilution) after the offering; cash $11.48M"
+        },
+        "nextCheck": "现金与增发公告 / cash & issuance announcements"
+      },
+      {
+        "id": "infinite-grid-conversion",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "Infinite Grid LOI 转化",
+          "en": "Infinite Grid LOI conversion"
+        },
+        "trigger": {
+          "zh": "1.1 GWh（约 $2 亿）LOI 转化为具约束力订单",
+          "en": "the 1.1 GWh (~$200M) LOI converts into binding orders"
+        },
+        "latest": {
+          "zh": "LOI 已签署；Needham 首次覆盖买入、目标价 $8",
+          "en": "LOI signed; Needham initiated at Buy, $8 target"
+        },
+        "nextCheck": "LOI→合同公告 / LOI-to-contract announcements"
+      }
+    ]
   },
   {
     "id": "copx-2026",
@@ -1023,7 +2048,69 @@
       "232条款关税审查临近（2026年中），COMEX溢价和关税走向是近期最大二元变量"
     ],
     "summaryEn": "The largest pure-play copper miners ETF. June 25, 2026 incremental update: COPX trades ~$76.92, AUM grew to $7.99B (+8%), weighted P/E compressed from 30-35x to 17.74x (earnings delivery). Copper at ~$13,531/tonne ($6.14/lb) exceeds February's bull case ceiling, but flat COPX price reflects tariff uncertainty. YTD return down from +20.14% to +5.45%. COMEX premium and Section 232 review are the key near-term variables.",
-    "chainLayer": "resources"
+    "chainLayer": "resources",
+    "stance": "neutral-watch",
+    "priceAsOf": "2026-06-25",
+    "reportedPeriod": "2026-06 (ETF 月度数据 / monthly ETF data)",
+    "related": [
+      "almonty-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "section-232-tariff",
+        "thesis": "either",
+        "theme": "regulatory",
+        "metric": {
+          "zh": "232 条款关税审查",
+          "en": "Section 232 tariff review"
+        },
+        "trigger": {
+          "zh": "2026 年中 232 决定落地 —— 近期最大二元变量",
+          "en": "the mid-2026 Section 232 decision lands — the biggest near-term binary"
+        },
+        "latest": {
+          "zh": "COMEX 铜约 $13,531/吨（$6.14/lb），突破二月 bull case 上沿；COPX 价格持平反映关税不确定性",
+          "en": "COMEX copper ~$13,531/t ($6.14/lb), above February's bull-case ceiling; flat COPX price reflects tariff uncertainty"
+        },
+        "nextCheck": "232 决定 / Section 232 decision"
+      },
+      {
+        "id": "copper-price-transmission",
+        "thesis": "either",
+        "theme": "pricing",
+        "metric": {
+          "zh": "铜价向净值传导",
+          "en": "Copper-to-NAV transmission"
+        },
+        "trigger": {
+          "zh": "关税落地后铜价涨幅是否传导至矿企盈利与 ETF 价格",
+          "en": "post-tariff, whether copper strength transmits into miner earnings and the ETF price"
+        },
+        "latest": {
+          "zh": "YTD 回报从 +20.14% 回落至 +5.45%；AUM $79.9 亿（+8%）",
+          "en": "YTD return faded from +20.14% to +5.45%; AUM $7.99B (+8%)"
+        },
+        "nextCheck": "关税后的价格传导 / post-decision transmission"
+      },
+      {
+        "id": "earnings-delivery",
+        "thesis": "bull",
+        "theme": "valuation",
+        "metric": {
+          "zh": "成分股盈利兑现",
+          "en": "Holdings earnings delivery"
+        },
+        "trigger": {
+          "zh": "加权 P/E 因盈利增长而非价格下跌继续消化",
+          "en": "the weighted P/E keeps compressing via earnings, not price declines"
+        },
+        "latest": {
+          "zh": "加权 P/E 从 30-35x 压缩至 17.74x（盈利兑现）",
+          "en": "weighted P/E compressed from 30-35x to 17.74x (earnings delivery)"
+        },
+        "nextCheck": "成分股财报季 / holdings earnings season"
+      }
+    ]
   },
   {
     "id": "amd-2026-pre-rerun",
@@ -1100,7 +2187,70 @@
       "Meta多年6GW Instinct GPU合作，首个1GW预计2026下半年出货，是H2验证核心",
       "股价约$537、市值约$8,870亿；EV/TTM Sales约23.4x，当前价格接近bull case下沿"
     ],
-    "chainLayer": "compute"
+    "chainLayer": "compute",
+    "stance": "neutral-watch",
+    "priceAsOf": "2026-06-18",
+    "reportedPeriod": "Q1 2026",
+    "related": [
+      "nvidia-2026",
+      "broadcom-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "meta-6gw-ramp",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "Meta 6GW Instinct 合作",
+          "en": "Meta 6GW Instinct partnership"
+        },
+        "trigger": {
+          "zh": "首个 1GW 于 2026 下半年按期出货 —— H2 验证核心",
+          "en": "the first 1GW ships on schedule in H2 2026 — the core H2 test"
+        },
+        "latest": {
+          "zh": "多年 6GW 合作；Helios/MI450 强化平台叙事",
+          "en": "multi-year 6GW deal; Helios/MI450 strengthen the platform story"
+        },
+        "nextCheck": "2026-H2 出货确认 / H2 shipment confirmation"
+      },
+      {
+        "id": "datacenter-growth",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "数据中心增速",
+          "en": "Data Center growth"
+        },
+        "trigger": {
+          "zh": "DC 增速失速将直接打击高预期定价",
+          "en": "a DC growth stall directly hits the high-expectations pricing"
+        },
+        "latest": {
+          "zh": "Q1 2026 营收 $102.53 亿（+38%）、DC 约 $58 亿（+57%）",
+          "en": "Q1 2026 revenue $10.253B (+38%), DC ~$5.8B (+57%)"
+        },
+        "nextCheck": "2026-Q2 财报 / Q2 earnings"
+      },
+      {
+        "id": "valuation-tolerance",
+        "thesis": "bear",
+        "theme": "valuation",
+        "metric": {
+          "zh": "估值容错",
+          "en": "Valuation tolerance"
+        },
+        "trigger": {
+          "zh": "约 23.4x EV/TTM Sales、价格接近 bull case 下沿时的倍数压缩",
+          "en": "multiple compression from ~23.4x EV/TTM Sales with price near the bull-case floor"
+        },
+        "latest": {
+          "zh": "股价约 $537（2026-06-18 收盘）、市值约 $8,870 亿",
+          "en": "stock ~$537 (2026-06-18 close), ~$887B cap"
+        },
+        "nextCheck": "2026-Q2 财报 / Q2 earnings"
+      }
+    ]
   },
   {
     "id": "jinpan-2026-pre-rerun",
@@ -1178,7 +2328,66 @@
       "summary": "归档的2026H1重跑前版本，保留2月价格、市值、AIDC/SST和应收账款风险框架，用于审计与对照。",
       "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the February price, market-cap, AIDC/SST, and receivables-risk framework for audit and comparison."
     },
-    "chainLayer": "power"
+    "chainLayer": "power",
+    "stance": "neutral-watch",
+    "priceAsOf": "2026-06-23",
+    "reportedPeriod": "Q1 2026",
+    "monitoring": [
+      {
+        "id": "aidc-sst-revenue-recognition",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "AIDC/SST 收入确认",
+          "en": "AIDC/SST revenue recognition"
+        },
+        "trigger": {
+          "zh": "AIDC、SST 与海外扩张的订单转化为确认收入",
+          "en": "AIDC, SST, and overseas expansion convert into recognized revenue"
+        },
+        "latest": {
+          "zh": "Q1 2026 营收约 15.23 亿元（+13.4%）、归母净利约 1.12 亿元（+4.8%）",
+          "en": "Q1 2026 revenue ~RMB1.523B (+13.4%), parent net ~RMB112M (+4.8%)"
+        },
+        "nextCheck": "2026 半年报 / H1 report"
+      },
+      {
+        "id": "receivables-cash-quality",
+        "thesis": "bear",
+        "theme": "execution",
+        "metric": {
+          "zh": "回款与现金流质量",
+          "en": "Receivables & cash quality"
+        },
+        "trigger": {
+          "zh": "应收账款回款与经营现金流验证不达标",
+          "en": "receivables collection and operating cash flow fail verification"
+        },
+        "latest": {
+          "zh": "重跑结论强调收入确认与回款验证要求提高",
+          "en": "the rerun stresses higher bars for recognition and collections"
+        },
+        "nextCheck": "半年报现金流 / H1 cash flow"
+      },
+      {
+        "id": "annualized-pe",
+        "thesis": "bear",
+        "theme": "valuation",
+        "metric": {
+          "zh": "年化 P/E",
+          "en": "Annualized P/E"
+        },
+        "trigger": {
+          "zh": "增长不及预期时约 88x Q1 年化 P/E 压缩",
+          "en": "the ~88x annualized-Q1 P/E compresses if growth disappoints"
+        },
+        "latest": {
+          "zh": "股价约 86.00 元、市值约 395 亿元（2026-06-23 东方财富口径）",
+          "en": "stock ~RMB86.00, ~RMB39.5B cap (2026-06-23, Eastmoney)"
+        },
+        "nextCheck": "半年报 / H1 report"
+      }
+    ]
   },
   {
     "id": "paypal-2026",
@@ -1287,7 +2496,87 @@
       "summary": "归档的2026H1重跑前版本，保留2月项目管线、目标价、首堆和零收入估值框架。",
       "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the February pipeline, target-price, first-reactor, and zero-revenue valuation framework."
     },
-    "chainLayer": "power"
+    "chainLayer": "power",
+    "stance": "high-risk-watch",
+    "priceAsOf": "2026-06-22",
+    "reportedPeriod": "Q1 2026",
+    "related": [
+      "gevernova-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "nrc-licensing",
+        "thesis": "either",
+        "theme": "regulatory",
+        "metric": {
+          "zh": "NRC 许可进展",
+          "en": "NRC licensing progress"
+        },
+        "trigger": {
+          "zh": "许可里程碑推进或受阻 —— 首要验证点",
+          "en": "licensing milestones advance or stall — the primary gate"
+        },
+        "latest": {
+          "zh": "仍处首堆商业化前阶段、无商业收入",
+          "en": "still pre-commercial with no commercial revenue"
+        },
+        "nextCheck": "NRC 里程碑 / NRC milestones"
+      },
+      {
+        "id": "first-reactor-cost-timeline",
+        "thesis": "bear",
+        "theme": "execution",
+        "metric": {
+          "zh": "首堆成本与时间线",
+          "en": "First-reactor cost & timeline"
+        },
+        "trigger": {
+          "zh": "首堆成本超支或时间线滑坡",
+          "en": "first-plant cost overruns or schedule slips"
+        },
+        "latest": {
+          "zh": "估值需用概率加权项目 NAV 框架（非 P/E 或 EV/Sales）",
+          "en": "valuation requires a probability-weighted project-NAV frame (not P/E or EV/Sales)"
+        },
+        "nextCheck": "公司项目里程碑 / project milestones"
+      },
+      {
+        "id": "fuel-supply",
+        "thesis": "bear",
+        "theme": "execution",
+        "metric": {
+          "zh": "燃料供应",
+          "en": "Fuel supply"
+        },
+        "trigger": {
+          "zh": "燃料获取安排不落地",
+          "en": "fuel-supply arrangements fail to land"
+        },
+        "latest": {
+          "zh": "燃料供应是核心验证点之一",
+          "en": "fuel supply is one of the decisive checks"
+        },
+        "nextCheck": "燃料协议 / fuel agreements"
+      },
+      {
+        "id": "customer-conversion",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "客户合同转化",
+          "en": "Customer contract conversion"
+        },
+        "trigger": {
+          "zh": "Meta/Switch 类需求转化为具约束力合同",
+          "en": "Meta/Switch-type demand converts into binding contracts"
+        },
+        "latest": {
+          "zh": "股价约 $58.40、市值约 $10.15B（2026-06-22）；需求强化想象空间",
+          "en": "stock ~$58.40, ~$10.15B cap (2026-06-22); demand strengthens the option value"
+        },
+        "nextCheck": "客户合同公告 / customer contract announcements"
+      }
+    ]
   },
   {
     "id": "broadcom-2026",
@@ -1320,6 +2609,88 @@
       "两台引擎：AI 定制硅增长 + VMware 软件现金（非 GAAP 营业利润率 67%、FCF 占收入 46%）；总债务 $64.9B、Q2 期末现金 $19.63B，净债务约 $45B",
       "市值约 $1.8 万亿、远期 P/E 约 33x，介于 NVIDIA ~25x 与 AMD ~58x 之间；风险在 FY2027 兑现分母而非倍数。中性/观察"
     ],
-    "chainLayer": "custom-merchant-silicon"
+    "chainLayer": "custom-merchant-silicon",
+    "stance": "neutral-watch",
+    "priceAsOf": "2026-06-25",
+    "reportedPeriod": "Q2 FY2026",
+    "related": [
+      "nvidia-2026",
+      "arista-2026",
+      "amd-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "fy2027-ai-delivery",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "FY2027 AI 收入兑现",
+          "en": "FY2027 AI revenue delivery"
+        },
+        "trigger": {
+          "zh": ">$1000 亿 FY2027 AI 目标的后置兑现节奏出现缺口",
+          "en": "the back-loaded >$100B FY2027 AI target develops delivery gaps"
+        },
+        "latest": {
+          "zh": "Q2 FY2026 AI 半导体 $10.8B（+143%）、AI backlog >$30B；Q3 指引 AI $16.0B（+200%）",
+          "en": "Q2 FY2026 AI semis $10.8B (+143%), AI backlog >$30B; Q3 guide AI $16.0B (+200%)"
+        },
+        "nextCheck": "季报 AI 收入 / quarterly AI revenue"
+      },
+      {
+        "id": "xpu-customer-concentration",
+        "thesis": "bear",
+        "theme": "concentration",
+        "metric": {
+          "zh": "XPU 客户集中与确认口径",
+          "en": "XPU customer concentration & confirmation basis"
+        },
+        "trigger": {
+          "zh": "集中客户项目延迟/取消，或公开报道口径与官方确认出现落差",
+          "en": "concentrated customer programs slip/cancel, or public-reporting figures diverge from official confirmations"
+        },
+        "latest": {
+          "zh": "Google/Meta/字节/Anthropic/OpenAI/Fujitsu 项目与 $73B backlog 属公开报道/市场拆解口径，非全部官方确认",
+          "en": "Google/Meta/ByteDance/Anthropic/OpenAI/Fujitsu programs and the $73B backlog are public-reporting/market-breakdown inputs, not all officially confirmed"
+        },
+        "nextCheck": "客户项目确认 / customer program confirmations"
+      },
+      {
+        "id": "debt-load",
+        "thesis": "bear",
+        "theme": "leverage-solvency",
+        "metric": {
+          "zh": "债务负担",
+          "en": "Debt load"
+        },
+        "trigger": {
+          "zh": "高利率或现金流波动下去杠杆停滞",
+          "en": "deleveraging stalls under rate or cash-flow pressure"
+        },
+        "latest": {
+          "zh": "总债务 $64.9B、现金 $19.63B、净债务约 $45B；VMware 现金机器（FCF 占收入 46%）",
+          "en": "total debt $64.9B, cash $19.63B, net debt ~$45B; VMware cash machine (FCF 46% of revenue)"
+        },
+        "nextCheck": "季报资产负债表 / quarterly balance sheet"
+      },
+      {
+        "id": "valuation-denominator",
+        "thesis": "bear",
+        "theme": "valuation",
+        "metric": {
+          "zh": "远期 P/E 的分母风险",
+          "en": "Forward-P/E denominator risk"
+        },
+        "trigger": {
+          "zh": "FY2027 兑现不及预期令约 33x 远期 P/E 失去分母支撑",
+          "en": "an FY2027 delivery miss removes the denominator under the ~33x forward P/E"
+        },
+        "latest": {
+          "zh": "市值约 $1.8 万亿（2026-06-25）；介于 NVIDIA ~25x 与 AMD ~58x 之间",
+          "en": "~$1.8T cap (2026-06-25); between NVIDIA ~25x and AMD ~58x"
+        },
+        "nextCheck": "季报 / quarterly earnings"
+      }
+    ]
   }
 ]

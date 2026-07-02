@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoring Dashboard | Atypical Life Club</title>
+    <meta name="description" content="Book-level monitoring dashboard: stances, freshness, and kill-criteria across the AI infrastructure research chain.">
+    <link rel="stylesheet" href="/invest/theme-adapter.css">
+    <link rel="stylesheet" href="/invest/styles.css">
+    <link rel="stylesheet" href="/invest/research/styles.css">
+    <style>
+        .monitor-hero {
+            background: linear-gradient(140deg, color-mix(in srgb, var(--entry) 86%, var(--surface-2)), color-mix(in srgb, var(--entry) 88%, var(--surface-3)));
+        }
+
+        .monitor-hero-top {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+
+        .monitor-hero-copy {
+            min-width: 0;
+        }
+
+        .monitor-actions {
+            flex: 0 0 auto;
+        }
+
+        .monitor-section-header {
+            display: grid;
+            gap: 0.35rem;
+        }
+
+        .monitor-section-header p {
+            max-width: 820px;
+            color: var(--secondary);
+            font-size: 0.9rem;
+            margin: 0;
+        }
+
+        .fact-note {
+            margin-top: 0.4rem;
+            font-size: 0.8rem;
+            color: var(--secondary);
+        }
+
+        /* --- shared chips (all deliberately neutral: factual board, no status colors) --- */
+        .chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.28rem;
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            padding: 0.14rem 0.5rem;
+            font-size: 0.72rem;
+            font-weight: 650;
+            color: var(--secondary);
+            background: color-mix(in srgb, var(--entry) 90%, var(--surface-3));
+            white-space: nowrap;
+        }
+
+        .chip-stance {
+            color: var(--content);
+        }
+
+        /* --- view 1: verdict board --- */
+        .verdict-stack {
+            margin-top: 1rem;
+            display: grid;
+            gap: 0.9rem;
+        }
+
+        .verdict-layer {
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            background: linear-gradient(160deg, var(--entry), color-mix(in srgb, var(--entry) 94%, var(--surface-2)));
+            overflow: hidden;
+        }
+
+        .verdict-layer-header {
+            padding: 0.75rem 0.9rem;
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .verdict-layer-title {
+            margin: 0;
+            font-size: 0.98rem;
+        }
+
+        .verdict-rows {
+            display: grid;
+        }
+
+        .verdict-row {
+            display: grid;
+            grid-template-columns: minmax(180px, 1.4fr) minmax(130px, 1fr) minmax(150px, 1.1fr) minmax(110px, 0.9fr) auto;
+            gap: 0.6rem;
+            align-items: center;
+            padding: 0.62rem 0.9rem;
+            border-bottom: 1px solid color-mix(in srgb, var(--border) 60%, transparent);
+            font-size: 0.86rem;
+        }
+
+        .verdict-row:last-child {
+            border-bottom: none;
+        }
+
+        .verdict-name {
+            min-width: 0;
+        }
+
+        .verdict-name a {
+            font-weight: 650;
+            color: var(--content);
+            text-decoration: none;
+        }
+
+        .verdict-name a:hover {
+            color: var(--accent);
+        }
+
+        .verdict-ticker {
+            display: block;
+            color: var(--secondary);
+            font-size: 0.74rem;
+        }
+
+        .verdict-cell-label {
+            display: block;
+            color: var(--secondary);
+            font-size: 0.68rem;
+        }
+
+        .verdict-link {
+            font-size: 0.78rem;
+            white-space: nowrap;
+        }
+
+        /* --- view 2: kill-criteria board --- */
+        .board-controls {
+            margin-top: 0.9rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.55rem;
+            align-items: center;
+        }
+
+        .board-controls .control-label {
+            font-size: 0.78rem;
+            color: var(--secondary);
+        }
+
+        .control-group {
+            display: inline-flex;
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            overflow: hidden;
+        }
+
+        .control-group button {
+            border: none;
+            background: transparent;
+            color: var(--secondary);
+            font-size: 0.78rem;
+            font-weight: 600;
+            padding: 0.32rem 0.72rem;
+            cursor: pointer;
+        }
+
+        .control-group button.active {
+            background: color-mix(in srgb, var(--accent) 16%, var(--entry));
+            color: var(--content);
+        }
+
+        .criteria-stack {
+            margin-top: 0.9rem;
+            display: grid;
+            gap: 0.9rem;
+        }
+
+        .criteria-group {
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            background: var(--entry);
+            overflow: hidden;
+        }
+
+        .criteria-group-header {
+            padding: 0.7rem 0.9rem;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 0.8rem;
+        }
+
+        .criteria-group-title {
+            margin: 0;
+            font-size: 0.95rem;
+        }
+
+        .criteria-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.83rem;
+        }
+
+        .criteria-table th,
+        .criteria-table td {
+            text-align: left;
+            vertical-align: top;
+            padding: 0.55rem 0.7rem;
+            border-bottom: 1px solid color-mix(in srgb, var(--border) 55%, transparent);
+        }
+
+        .criteria-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .criteria-table th {
+            font-size: 0.72rem;
+            color: var(--secondary);
+            font-weight: 650;
+            white-space: nowrap;
+        }
+
+        .criteria-metric {
+            font-weight: 650;
+            color: var(--content);
+        }
+
+        .criteria-report-link {
+            display: block;
+            font-size: 0.72rem;
+            color: var(--secondary);
+            text-decoration: none;
+            margin-top: 0.15rem;
+        }
+
+        .criteria-report-link:hover {
+            color: var(--accent);
+        }
+
+        .criteria-next {
+            color: var(--secondary);
+            white-space: normal;
+        }
+
+        /* --- view 3: risk-anchor spotlight --- */
+        .spotlight-grid {
+            margin-top: 1rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 0.9rem;
+        }
+
+        .spotlight-col {
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            background: linear-gradient(160deg, var(--entry), color-mix(in srgb, var(--entry) 94%, var(--surface-2)));
+            overflow: hidden;
+        }
+
+        .spotlight-head {
+            padding: 0.8rem 0.9rem;
+            border-bottom: 1px solid var(--border);
+            display: grid;
+            gap: 0.4rem;
+        }
+
+        .spotlight-head h3 {
+            margin: 0;
+            font-size: 0.98rem;
+        }
+
+        .spotlight-head h3 a {
+            color: var(--content);
+            text-decoration: none;
+        }
+
+        .spotlight-head h3 a:hover {
+            color: var(--accent);
+        }
+
+        .spotlight-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+        }
+
+        .spotlight-items {
+            display: grid;
+        }
+
+        .spotlight-item {
+            padding: 0.68rem 0.9rem;
+            border-bottom: 1px solid color-mix(in srgb, var(--border) 55%, transparent);
+            display: grid;
+            gap: 0.28rem;
+            font-size: 0.83rem;
+        }
+
+        .spotlight-item:last-child {
+            border-bottom: none;
+        }
+
+        .spotlight-item-title {
+            display: flex;
+            align-items: center;
+            gap: 0.45rem;
+            font-weight: 650;
+        }
+
+        .spotlight-item p {
+            margin: 0;
+            color: var(--secondary);
+        }
+
+        .spotlight-item p strong {
+            color: var(--content);
+            font-weight: 650;
+        }
+
+        .empty-state,
+        .loading-state {
+            border: 1px dashed var(--border);
+            border-radius: 12px;
+            padding: 1rem;
+            color: var(--secondary);
+            font-size: 0.88rem;
+        }
+
+        .monitor-footer {
+            margin: 2.2rem 0 1rem;
+            display: grid;
+            gap: 0.6rem;
+            color: var(--secondary);
+            font-size: 0.8rem;
+        }
+
+        .footer-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.9rem;
+        }
+
+        @media (max-width: 760px) {
+            .monitor-hero-top {
+                flex-direction: column;
+            }
+
+            .verdict-row {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .criteria-table th:nth-child(3),
+            .criteria-table td:nth-child(3) {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="shell-header">
+        <div class="shell-header-inner">
+            <div class="shell-brand">
+                <div class="shell-brand-title shell-breadcrumb" aria-label="Breadcrumb">
+                    <a class="shell-breadcrumb-link" href="/invest/">Invest</a>
+                    <span class="shell-breadcrumb-separator">/</span>
+                    <a class="shell-breadcrumb-link" href="/invest/research/">Research</a>
+                    <span class="shell-breadcrumb-separator">/</span>
+                    <span class="shell-breadcrumb-current" aria-current="page">Monitoring</span>
+                </div>
+                <span class="shell-brand-subtitle">Book-Level Monitoring Dashboard</span>
+            </div>
+            <nav class="shell-nav">
+                <a href="/invest/">返回 Invest</a>
+                <a href="/invest/research/">Research</a>
+                <a href="/invest/research/coverage-map.html">Coverage Map</a>
+                <a href="/invest/research/monitoring-dashboard.html" class="active">Monitoring</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="shell">
+        <section class="hero monitor-hero">
+            <div class="monitor-hero-top">
+                <div class="monitor-hero-copy">
+                    <h1 class="hero-title" id="pageTitle">全书监控仪表盘</h1>
+                    <p class="hero-subtitle" id="pageSubtitle">把每篇链上报告的判断、数据新鲜度与关键证伪条件放在同一页。</p>
+                    <p class="fact-note" id="factNote">事实看板：仅展示各报告已发布的触发条件与最新读数，不作红绿灯式信号判断。</p>
+                </div>
+                <div class="monitor-actions">
+                    <div class="lang-switch" id="languageSwitch" role="group" aria-label="Language switch">
+                        <button class="lang-opt active" type="button" data-lang="zh" aria-pressed="true">中文</button>
+                        <span class="divider">/</span>
+                        <button class="lang-opt" type="button" data-lang="en" aria-pressed="false">EN</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="monitor-section-header">
+                <h2 id="verdictHeading">Verdict Board</h2>
+                <p id="verdictIntro">按链条层级列出每篇报告的公开立场、价格快照日期与所反映的财报期。</p>
+            </div>
+            <div class="verdict-stack" id="verdictStack">
+                <div class="loading-state">Loading dashboard...</div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="monitor-section-header">
+                <h2 id="criteriaHeading">Kill-Criteria Board</h2>
+                <p id="criteriaIntro">所有报告的监控项汇总为一张可筛选清单：指标、触发条件、最新读数与下次核查节点。</p>
+            </div>
+            <div class="board-controls">
+                <span class="control-label" id="groupLabel">分组</span>
+                <div class="control-group" id="groupControls" role="group">
+                    <button type="button" data-group="report" class="active" id="groupByReportBtn">按报告</button>
+                    <button type="button" data-group="theme" id="groupByThemeBtn">按主题</button>
+                </div>
+                <span class="control-label" id="thesisLabel">论点方向</span>
+                <div class="control-group" id="thesisControls" role="group">
+                    <button type="button" data-thesis="all" class="active" id="thesisAllBtn">全部</button>
+                    <button type="button" data-thesis="bull">Bull</button>
+                    <button type="button" data-thesis="bear">Bear</button>
+                    <button type="button" data-thesis="either">Either</button>
+                </div>
+            </div>
+            <div class="criteria-stack" id="criteriaStack"></div>
+        </section>
+
+        <section class="section">
+            <div class="monitor-section-header">
+                <h2 id="spotlightHeading">Risk-Anchor Spotlight</h2>
+                <p id="spotlightIntro">风险锚与其架构校验对照组并排：同层两份报告的监控项互为读数。</p>
+            </div>
+            <div class="spotlight-grid" id="spotlightGrid"></div>
+        </section>
+
+        <footer class="monitor-footer">
+            <p id="disclaimerText">免责声明：本页仅用于研究框架展示和信息交流，不构成任何投资建议，请自行完成尽职调查。</p>
+            <div class="footer-actions">
+                <a class="footer-link" href="/invest/research/" id="backToResearch">返回完整报告列表</a>
+                <a class="footer-link" href="/invest/research/coverage-map.html" id="toCoverageMap">查看覆盖地图</a>
+            </div>
+        </footer>
+    </main>
+
+    <script src="/shared/theme-switcher.js"></script>
+    <script src="/shared/report-utils.js"></script>
+    <script src="/shared/lang-switch.js"></script>
+    <script>
+        const REPORTS_DATA_URL = "/invest/research/data/reports.json";
+        const COVERAGE_MAP_URL = "/invest/research/data/coverage-map.json";
+
+        const PAGE_LABELS = {
+            zh: {
+                documentTitle: "全书监控仪表盘 | Atypical Life Club",
+                pageTitle: "全书监控仪表盘",
+                pageSubtitle: "把每篇链上报告的判断、数据新鲜度与关键证伪条件放在同一页。",
+                factNote: "事实看板：仅展示各报告已发布的触发条件与最新读数，不作红绿灯式信号判断。",
+                verdictHeading: "判断与新鲜度总览",
+                verdictIntro: "按链条层级列出每篇报告的公开立场、价格快照日期与所反映的财报期。",
+                criteriaHeading: "Kill-Criteria 看板",
+                criteriaIntro: "所有报告的监控项汇总为一张可筛选清单：指标、触发条件、最新读数与下次核查节点。",
+                spotlightHeading: "风险锚对照",
+                spotlightIntro: "风险锚与其架构校验对照组并排：同层两份报告的监控项互为读数。",
+                groupLabel: "分组",
+                groupByReport: "按报告",
+                groupByTheme: "按主题",
+                thesisLabel: "论点方向",
+                thesisAll: "全部",
+                colMetric: "监控指标",
+                colThesis: "方向",
+                colTrigger: "触发条件",
+                colLatest: "最新读数",
+                colNext: "下次核查",
+                priceAsOf: "价格快照",
+                reportedPeriod: "财报期",
+                stanceLabel: "立场",
+                daysAgo: (n) => `${n} 天前`,
+                readReport: "阅读报告",
+                itemsCount: (n) => `${n} 条监控项`,
+                reportsCount: (n) => `${n} 篇报告`,
+                ungroupedTheme: "未标注主题（按报告）",
+                emptyBoard: "暂无携带监控项的链上报告。",
+                loadError: "仪表盘数据加载失败，请稍后重试。",
+                backToResearch: "返回完整报告列表",
+                toCoverageMap: "查看覆盖地图",
+                disclaimer: "免责声明：本页仅用于研究框架展示和信息交流，不构成任何投资建议，请自行完成尽职调查。",
+                stances: {
+                    "constructive": "建设性",
+                    "neutral-watch": "中性 / 观察",
+                    "high-risk-watch": "高风险 / 观察",
+                    "bearish-avoid": "偏熊 / 回避-观察"
+                },
+                themes: {
+                    "concentration": "客户集中",
+                    "leverage-solvency": "杠杆与偿付",
+                    "demand": "需求验证",
+                    "circularity": "循环性",
+                    "pricing": "定价与利润率",
+                    "optionality": "期权价值",
+                    "execution": "执行与交付",
+                    "regulatory": "监管与政策",
+                    "valuation": "估值容错"
+                },
+                theses: { bull: "Bull", bear: "Bear", either: "Either" }
+            },
+            en: {
+                documentTitle: "Book-Level Monitoring Dashboard | Atypical Life Club",
+                pageTitle: "Book-Level Monitoring Dashboard",
+                pageSubtitle: "Every chain report's published stance, data freshness, and thesis-breaking checks on one page.",
+                factNote: "Factual board: shows each report's published triggers and latest readings only — no traffic-light status judgments.",
+                verdictHeading: "Verdict Board",
+                verdictIntro: "Each report's published stance, price-snapshot date, and reported fiscal period, grouped by chain layer.",
+                criteriaHeading: "Kill-Criteria Board",
+                criteriaIntro: "All monitoring items flattened into one filterable list: metric, trigger, latest reading, next check.",
+                spotlightHeading: "Risk-Anchor Spotlight",
+                spotlightIntro: "The risk anchor and its architecture-check control group side by side; each report's monitoring items read on the other.",
+                groupLabel: "Group by",
+                groupByReport: "By report",
+                groupByTheme: "By theme",
+                thesisLabel: "Thesis",
+                thesisAll: "All",
+                colMetric: "Metric",
+                colThesis: "Thesis",
+                colTrigger: "Trigger",
+                colLatest: "Latest reading",
+                colNext: "Next check",
+                priceAsOf: "Price as of",
+                reportedPeriod: "Reported period",
+                stanceLabel: "Stance",
+                daysAgo: (n) => `${n}d ago`,
+                readReport: "Read report",
+                itemsCount: (n) => `${n} monitoring item${n === 1 ? "" : "s"}`,
+                reportsCount: (n) => `${n} report${n === 1 ? "" : "s"}`,
+                ungroupedTheme: "No theme tag (grouped by report)",
+                emptyBoard: "No chain reports with monitoring items yet.",
+                loadError: "Dashboard data failed to load. Please try again later.",
+                backToResearch: "Back to full report list",
+                toCoverageMap: "View coverage map",
+                disclaimer: "Disclaimer: This page is for research-framework display and information exchange only. It does not constitute investment advice. Please conduct your own due diligence.",
+                stances: {
+                    "constructive": "Constructive",
+                    "neutral-watch": "Neutral / watch",
+                    "high-risk-watch": "High-risk / watch",
+                    "bearish-avoid": "Bear-leaning / avoid-watch"
+                },
+                themes: {
+                    "concentration": "Concentration",
+                    "leverage-solvency": "Leverage & solvency",
+                    "demand": "Demand validation",
+                    "circularity": "Circularity",
+                    "pricing": "Pricing & margins",
+                    "optionality": "Optionality",
+                    "execution": "Execution & delivery",
+                    "regulatory": "Regulatory & policy",
+                    "valuation": "Valuation tolerance"
+                },
+                theses: { bull: "Bull", bear: "Bear", either: "Either" }
+            }
+        };
+
+        const SPOTLIGHT_ROLES = ["risk-anchor", "architecture-check"];
+
+        const state = {
+            layers: [],
+            chainReports: [],
+            groupMode: "report",
+            thesisFilter: "all"
+        };
+
+        let currentLang = chooseInitialLanguage();
+
+        document.addEventListener("DOMContentLoaded", async () => {
+            bindLanguageSwitch();
+            bindBoardControls();
+            await loadData();
+            renderPage();
+        });
+
+        async function loadData() {
+            try {
+                const [reportsResponse, coverageResponse] = await Promise.all([
+                    fetch(REPORTS_DATA_URL, { cache: "no-store" }),
+                    fetch(COVERAGE_MAP_URL, { cache: "no-store" })
+                ]);
+
+                if (!reportsResponse.ok) throw new Error(`reports HTTP ${reportsResponse.status}`);
+                if (!coverageResponse.ok) throw new Error(`coverage HTTP ${coverageResponse.status}`);
+
+                const reports = await reportsResponse.json();
+                const coverage = await coverageResponse.json();
+
+                state.layers = Array.isArray(coverage.layers) ? coverage.layers : [];
+                state.chainReports = (Array.isArray(reports) ? reports : [])
+                    .filter(isCurrentReport)
+                    .filter((r) => r.chainLayer);
+            } catch (error) {
+                console.error("Failed to load monitoring dashboard:", error);
+                state.layers = [];
+                state.chainReports = [];
+                state.loadFailed = true;
+            }
+        }
+
+        function renderPage() {
+            const labels = getLabels();
+            document.documentElement.lang = currentLang === "zh" ? "zh-CN" : "en";
+            document.title = labels.documentTitle;
+            renderLanguageSwitchUI(currentLang);
+            syncLanguageQuery(currentLang);
+
+            setText("pageTitle", labels.pageTitle);
+            setText("pageSubtitle", labels.pageSubtitle);
+            setText("factNote", labels.factNote);
+            setText("verdictHeading", labels.verdictHeading);
+            setText("verdictIntro", labels.verdictIntro);
+            setText("criteriaHeading", labels.criteriaHeading);
+            setText("criteriaIntro", labels.criteriaIntro);
+            setText("spotlightHeading", labels.spotlightHeading);
+            setText("spotlightIntro", labels.spotlightIntro);
+            setText("groupLabel", labels.groupLabel);
+            setText("groupByReportBtn", labels.groupByReport);
+            setText("groupByThemeBtn", labels.groupByTheme);
+            setText("thesisLabel", labels.thesisLabel);
+            setText("thesisAllBtn", labels.thesisAll);
+            setText("disclaimerText", labels.disclaimer);
+            setText("backToResearch", labels.backToResearch);
+            setText("toCoverageMap", labels.toCoverageMap);
+
+            if (state.loadFailed) {
+                document.getElementById("verdictStack").innerHTML = `<div class="empty-state">${escapeHtml(labels.loadError)}</div>`;
+                document.getElementById("criteriaStack").innerHTML = "";
+                document.getElementById("spotlightGrid").innerHTML = "";
+                return;
+            }
+
+            renderVerdictBoard();
+            renderCriteriaBoard();
+            renderSpotlight();
+        }
+
+        function reportUrl(report) {
+            const base = report.file || `/invest/research/reports/view.html?id=${report.id}`;
+            const joiner = base.includes("?") ? "&" : "?";
+            return `${base}${joiner}lang=${currentLang}`;
+        }
+
+        function freshnessInfo(report) {
+            const labels = getLabels();
+            if (!report.priceAsOf) return "";
+            // parseReportDate (shared/report-utils.js) returns a millisecond timestamp, 0 on failure.
+            const asOfMs = parseReportDate(report.priceAsOf);
+            if (!asOfMs) return escapeHtml(report.priceAsOf);
+            const days = Math.max(0, Math.round((Date.now() - asOfMs) / 86400000));
+            return `${escapeHtml(report.priceAsOf)} · ${escapeHtml(labels.daysAgo(days))}`;
+        }
+
+        function stanceChip(report) {
+            const labels = getLabels();
+            if (!report.stance) return "";
+            const text = labels.stances[report.stance] || report.stance;
+            return `<span class="chip chip-stance">${escapeHtml(text)}</span>`;
+        }
+
+        /* ---------- view 1: verdict board ---------- */
+
+        function renderVerdictBoard() {
+            const root = document.getElementById("verdictStack");
+            const labels = getLabels();
+            if (!root) return;
+
+            const byLayer = new Map();
+            state.chainReports.forEach((report) => {
+                if (!byLayer.has(report.chainLayer)) byLayer.set(report.chainLayer, []);
+                byLayer.get(report.chainLayer).push(report);
+            });
+
+            const orderedLayerIds = state.layers.map((layer) => layer.id).filter((id) => byLayer.has(id));
+            byLayer.forEach((_, id) => {
+                if (!orderedLayerIds.includes(id)) orderedLayerIds.push(id);
+            });
+
+            const html = orderedLayerIds.map((layerId) => {
+                const layer = state.layers.find((l) => l.id === layerId);
+                const layerTitle = layer ? localize(layer.title) : layerId;
+                const rows = byLayer.get(layerId)
+                    .slice()
+                    .sort((a, b) => (a.company || "").localeCompare(b.company || ""))
+                    .map(renderVerdictRow)
+                    .join("");
+                return `
+                    <article class="verdict-layer">
+                        <div class="verdict-layer-header">
+                            <h3 class="verdict-layer-title">${escapeHtml(layerTitle)}</h3>
+                            <span class="chip">${escapeHtml(labels.reportsCount(byLayer.get(layerId).length))}</span>
+                        </div>
+                        <div class="verdict-rows">${rows}</div>
+                    </article>
+                `;
+            }).join("");
+
+            root.innerHTML = html || `<div class="empty-state">${escapeHtml(labels.emptyBoard)}</div>`;
+        }
+
+        function renderVerdictRow(report) {
+            const labels = getLabels();
+            return `
+                <div class="verdict-row">
+                    <div class="verdict-name">
+                        <a href="${escapeHtml(reportUrl(report))}">${escapeHtml(report.company || report.id)}</a>
+                        <span class="verdict-ticker">${escapeHtml(report.ticker || "")}</span>
+                    </div>
+                    <div>
+                        <span class="verdict-cell-label">${escapeHtml(labels.stanceLabel)}</span>
+                        ${stanceChip(report)}
+                    </div>
+                    <div>
+                        <span class="verdict-cell-label">${escapeHtml(labels.priceAsOf)}</span>
+                        <span>${freshnessInfo(report)}</span>
+                    </div>
+                    <div>
+                        <span class="verdict-cell-label">${escapeHtml(labels.reportedPeriod)}</span>
+                        <span>${escapeHtml(report.reportedPeriod || "—")}</span>
+                    </div>
+                    <a class="verdict-link" href="${escapeHtml(reportUrl(report))}">${escapeHtml(labels.readReport)} →</a>
+                </div>
+            `;
+        }
+
+        /* ---------- view 2: kill-criteria board ---------- */
+
+        function bindBoardControls() {
+            document.querySelectorAll("#groupControls button").forEach((btn) => {
+                btn.addEventListener("click", () => {
+                    state.groupMode = btn.dataset.group;
+                    document.querySelectorAll("#groupControls button").forEach((b) => b.classList.toggle("active", b === btn));
+                    renderCriteriaBoard();
+                });
+            });
+            document.querySelectorAll("#thesisControls button").forEach((btn) => {
+                btn.addEventListener("click", () => {
+                    state.thesisFilter = btn.dataset.thesis;
+                    document.querySelectorAll("#thesisControls button").forEach((b) => b.classList.toggle("active", b === btn));
+                    renderCriteriaBoard();
+                });
+            });
+        }
+
+        function collectMonitoringItems() {
+            const items = [];
+            state.chainReports.forEach((report) => {
+                (Array.isArray(report.monitoring) ? report.monitoring : []).forEach((item) => {
+                    items.push({ report, item });
+                });
+            });
+            return items.filter(({ item }) => state.thesisFilter === "all" || item.thesis === state.thesisFilter);
+        }
+
+        function renderCriteriaBoard() {
+            const root = document.getElementById("criteriaStack");
+            const labels = getLabels();
+            if (!root) return;
+
+            const entries = collectMonitoringItems();
+            if (!entries.length) {
+                root.innerHTML = `<div class="empty-state">${escapeHtml(labels.emptyBoard)}</div>`;
+                return;
+            }
+
+            const groups = new Map();
+            entries.forEach((entry) => {
+                let key;
+                let title;
+                if (state.groupMode === "theme") {
+                    // theme is the ONLY grouping key; untagged items fall back to their report group.
+                    if (entry.item.theme) {
+                        key = `theme:${entry.item.theme}`;
+                        title = labels.themes[entry.item.theme] || entry.item.theme;
+                    } else {
+                        key = `report:${entry.report.id}`;
+                        title = `${labels.ungroupedTheme} · ${entry.report.company}`;
+                    }
+                } else {
+                    key = `report:${entry.report.id}`;
+                    title = `${entry.report.company} (${entry.report.ticker || entry.report.id})`;
+                }
+                if (!groups.has(key)) groups.set(key, { title, entries: [] });
+                groups.get(key).entries.push(entry);
+            });
+
+            root.innerHTML = Array.from(groups.values()).map((group) => `
+                <article class="criteria-group">
+                    <div class="criteria-group-header">
+                        <h3 class="criteria-group-title">${escapeHtml(group.title)}</h3>
+                        <span class="chip">${escapeHtml(labels.itemsCount(group.entries.length))}</span>
+                    </div>
+                    <table class="criteria-table">
+                        <thead>
+                            <tr>
+                                <th>${escapeHtml(labels.colMetric)}</th>
+                                <th>${escapeHtml(labels.colThesis)}</th>
+                                <th>${escapeHtml(labels.colTrigger)}</th>
+                                <th>${escapeHtml(labels.colLatest)}</th>
+                                <th>${escapeHtml(labels.colNext)}</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${group.entries.map(renderCriteriaRow).join("")}
+                        </tbody>
+                    </table>
+                </article>
+            `).join("");
+        }
+
+        function renderCriteriaRow({ report, item }) {
+            const labels = getLabels();
+            const themeChip = item.theme
+                ? `<span class="chip">${escapeHtml(labels.themes[item.theme] || item.theme)}</span>`
+                : "";
+            return `
+                <tr>
+                    <td>
+                        <span class="criteria-metric">${escapeHtml(localize(item.metric))}</span>
+                        <a class="criteria-report-link" href="${escapeHtml(reportUrl(report))}">${escapeHtml(report.company)} · ${escapeHtml(report.ticker || report.id)}</a>
+                    </td>
+                    <td><span class="chip">${escapeHtml(labels.theses[item.thesis] || item.thesis)}</span> ${themeChip}</td>
+                    <td>${escapeHtml(localize(item.trigger))}</td>
+                    <td>${escapeHtml(localize(item.latest))}</td>
+                    <td class="criteria-next">${escapeHtml(item.nextCheck || "—")}</td>
+                </tr>
+            `;
+        }
+
+        /* ---------- view 3: risk-anchor spotlight ---------- */
+
+        function renderSpotlight() {
+            const root = document.getElementById("spotlightGrid");
+            const labels = getLabels();
+            if (!root) return;
+
+            const spotlightReports = state.chainReports.filter((r) => SPOTLIGHT_ROLES.includes(r.chainRole));
+            const byLayer = new Map();
+            spotlightReports.forEach((report) => {
+                if (!byLayer.has(report.chainLayer)) byLayer.set(report.chainLayer, []);
+                byLayer.get(report.chainLayer).push(report);
+            });
+
+            // Only layers where an anchor/check pairing exists (>=2 reports) are a true spotlight;
+            // fall back to showing any layer that has at least a risk anchor.
+            const columns = [];
+            byLayer.forEach((reports) => {
+                if (reports.length >= 2 || reports.some((r) => r.chainRole === "risk-anchor")) {
+                    reports
+                        .slice()
+                        .sort((a, b) => SPOTLIGHT_ROLES.indexOf(a.chainRole) - SPOTLIGHT_ROLES.indexOf(b.chainRole))
+                        .forEach((report) => columns.push(report));
+                }
+            });
+
+            if (!columns.length) {
+                root.innerHTML = `<div class="empty-state">${escapeHtml(labels.emptyBoard)}</div>`;
+                return;
+            }
+
+            root.innerHTML = columns.map((report) => `
+                <article class="spotlight-col">
+                    <div class="spotlight-head">
+                        <h3><a href="${escapeHtml(reportUrl(report))}">${escapeHtml(report.company)} (${escapeHtml(report.ticker || report.id)})</a></h3>
+                        <div class="spotlight-meta">
+                            <span class="chip">${escapeHtml(roleLabel(report.chainRole))}</span>
+                            ${stanceChip(report)}
+                            <span class="chip">${escapeHtml(labels.priceAsOf)} ${freshnessInfo(report)}</span>
+                        </div>
+                    </div>
+                    <div class="spotlight-items">
+                        ${(report.monitoring || []).map((item) => renderSpotlightItem(item)).join("")}
+                    </div>
+                </article>
+            `).join("");
+        }
+
+        function roleLabel(roleId) {
+            if (currentLang === "zh") {
+                return roleId === "risk-anchor" ? "风险锚" : "架构校验";
+            }
+            return roleId === "risk-anchor" ? "Risk anchor" : "Architecture check";
+        }
+
+        function renderSpotlightItem(item) {
+            const labels = getLabels();
+            const themeChip = item.theme
+                ? `<span class="chip">${escapeHtml(labels.themes[item.theme] || item.theme)}</span>`
+                : "";
+            return `
+                <div class="spotlight-item">
+                    <div class="spotlight-item-title">
+                        ${escapeHtml(localize(item.metric))}
+                        <span class="chip">${escapeHtml(labels.theses[item.thesis] || item.thesis)}</span>
+                        ${themeChip}
+                    </div>
+                    <p><strong>${escapeHtml(labels.colTrigger)}:</strong> ${escapeHtml(localize(item.trigger))}</p>
+                    <p><strong>${escapeHtml(labels.colLatest)}:</strong> ${escapeHtml(localize(item.latest))}</p>
+                    <p><strong>${escapeHtml(labels.colNext)}:</strong> ${escapeHtml(item.nextCheck || "—")}</p>
+                </div>
+            `;
+        }
+
+        /* ---------- shared helpers (mirrors coverage-map.html) ---------- */
+
+        function localize(value) {
+            if (!value) return "";
+            if (typeof value === "string") return value;
+            return value[currentLang] || value.zh || value.en || "";
+        }
+
+        function getLabels() {
+            return PAGE_LABELS[currentLang] || PAGE_LABELS.zh;
+        }
+
+        function setText(id, value) {
+            const el = document.getElementById(id);
+            if (el && value) el.textContent = value;
+        }
+
+        function bindLanguageSwitch() {
+            document.querySelectorAll("#languageSwitch .lang-opt").forEach((btn) => {
+                btn.addEventListener("click", () => {
+                    const next = btn.dataset.lang === "en" ? "en" : "zh";
+                    if (next === currentLang) return;
+                    currentLang = next;
+                    saveLanguage(next);
+                    renderPage();
+                });
+            });
+        }
+    </script>
+</body>
+</html>
