@@ -1070,8 +1070,9 @@
                 if (!byMonth.has(key)) byMonth.set(key, []);
                 byMonth.get(key).push(entry);
             });
+            const maxDotsPerColumn = 10;
             const maxBucket = Math.max(1, ...Array.from(byMonth.values()).map((items) => items.length));
-            const plotBottom = 62 + maxBucket * 14;
+            const plotBottom = 62 + Math.min(maxBucket, maxDotsPerColumn) * 14;
             const height = plotBottom + 36;
             const currentKey = monthKey(currentMonth);
             const grid = months.map((key) => {
@@ -1085,16 +1086,18 @@
             }).join("");
             const dots = Array.from(byMonth.entries()).map(([key, items]) => {
                 const x = xByMonth.get(key);
+                const miniColumns = Math.ceil(items.length / maxDotsPerColumn);
                 return items
                     .slice()
                     .sort((a, b) => localize(a.item.metric).localeCompare(localize(b.item.metric)))
                     .map((entry, index) => {
-                        const y = plotBottom - 16 - index * 14;
+                        const dotX = x + Math.floor(index / maxDotsPerColumn) * 14 - (miniColumns - 1) * 7;
+                        const y = plotBottom - 16 - (index % maxDotsPerColumn) * 14;
                         const title = `${entry.report.company || entry.report.id} · ${localize(entry.item.metric)}`;
                         return `
                             <a class="viz-dot-link" href="#crit-${escapeHtml(entry.report.id)}-${escapeHtml(entry.item.id)}">
                                 <title>${escapeHtml(title)}</title>
-                                <circle class="viz-dot" cx="${x.toFixed(1)}" cy="${y}" r="5.5" />
+                                <circle class="viz-dot" cx="${dotX.toFixed(1)}" cy="${y}" r="5.5" />
                             </a>
                         `;
                     }).join("");
