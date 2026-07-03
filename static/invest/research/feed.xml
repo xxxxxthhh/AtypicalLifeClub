@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Atypical Life Club · 研究报告 / Research Reports</title>
+    <link>https://atypicallife.club/invest/research/</link>
+    <description>Company research updates from Atypical Life Club.</description>
+    <language>zh-CN</language>
+    <item>
+      <title>Nebius Group 深度研究报告 - neocloud 的『干净对照组』：对 CoreWeave 风险锚的架构校验 / Nebius Group Deep Research Report - The 'Clean' Neocloud: An Architecture Check on the CoreWeave Risk Anchor</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=nebius-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=nebius-2026#nebius-2026@2026-07-01</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
+      <description>本中心 AI 基础设施书 demand-risk 层的第二篇，作为对 CoreWeave 风险锚的『交叉校验/架构校验』。前身 Yandex 的国际继承者、阿姆斯特丹总部、纳斯达克上市的全栈 AI 云（neocloud）。与 CoreWeave 相反：Q1 2026 营收 $3.99 亿(+684%)、AI 云 ARR $19.2 亿、调整后 EBITDA 转正 $1.295 亿、经营现金流 +$22.6 亿，靠约 $93 亿现金/客户预付款/可转债、而非 GPU 抵押杠杆融资；约 $84 亿非流动债务与约 $10 亿经营租赁负债，对照约 $93 亿现金，金融债务口径近中性、租赁调整后中性至约 $40 亿净现金（取决于预付认股权证处理）。但 GAAP 净利 $6.21 亿实为一笔 $7.806 亿 ClickHouse 非现金重估（经营层面 −$1.28 亿亏损），且正积累与 CoreWeave 同款的超大规模集中（微软最高约 $194 亿 + Meta 最高约 $270 亿，合计约 $460 亿公司披露承诺/上限）与 NVIDIA 供应商+股东循环性。股价约 $240（2026-07-01，6 月 22 日纳指 100 纳入前后约 $256）、市值约 $610 亿、约 2.539 亿流通股，约 17-19x EV/2026E 营收（约 CoreWeave 的 3 倍）、约 7x EV/退出 ARR；2026 资本开支 $200-250 亿(约 7 倍营收)。核心读数：CoreWeave 的脆弱只是资产负债表选择，还是 neocloud 模式的固有属性？答案——只有偿付脆弱是 CoreWeave 独有，需求/集中/循环/资本开支风险是全层共享。高质量但高预期/高风险（观察）。</description>
+    </item>
+    <item>
+      <title>Arista Networks 深度研究报告 - AI 集群开放以太网 fabric 的系统软件卖铲人 / Arista Networks Deep Research Report - The Open Ethernet Fabric of AI Clusters</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=arista-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=arista-2026#arista-2026@2026-06-30</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
+      <description>AI 集群网络层首次覆盖：Arista 是开放以太网/AI spine/scale-out 网络的系统软件卖铲人，正面回答 NVIDIA Spectrum-X/InfiniBand/NVLink 一体化 vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet 生态的路线之争。Q1 2026 营收 $2.709B(+35.1%)、GAAP/非GAAP营业利润率 42.7%/47.8%、非GAAP EPS $0.87、经营现金流 $1.69B；Q2 指引营收约 $2.8B。FY2025 Cloud and AI Titans/AI Specialty Providers 占收入 48%/20%，Core AI/Cloud/Data Center Networking 占 65%。但两大匿名终端客户合计约 42% 收入(26%/16%)、高度依赖 Broadcom merchant silicon，且 Jun 29 2026 市值约 $206.6B、约 56x TTM GAAP P/E、约 47x 当前非GAAP EPS运行率。中性/高质量但高预期(观察)。</description>
+    </item>
+    <item>
+      <title>CoreWeave 深度研究报告 - AI 建设的风险锚：真实需求还是杠杆与循环融资？ / CoreWeave Deep Research Report - The AI Buildout's Risk Anchor: Real Demand or Leverage &amp; Circular Financing?</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=coreweave-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=coreweave-2026#coreweave-2026@2026-06-30</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
+      <description>本中心 AI 基础设施书的『风险锚』，刻意以熊市为主轴写。GPU『neocloud』，一边是 $994 亿公司定义收入 backlog（RPO + 其他承诺客户合同金额）与 56% 调整后 EBITDA，一边是扩大的 GAAP 净亏损（Q1 2026 −$7.4 亿）、约 $249 亿债务、约 $100 亿经营租赁负债、$310-350 亿 2026 资本开支（约 3 倍营收）。客户集中（微软历史上收入占比 &gt;60%；CNBC 引 2024 年为 62%），NVIDIA 同时是供应商+股东（$20 亿@$87）+$63 亿产能兜底（循环性）。Q1 2026 营收 $20.78 亿(+112%)，FY2026 指引营收 $120-130 亿。股价已较 2025 峰值回落约 47% 至约 $96、市值约 $520 亿、经营租赁前金融净债务约 $229 亿、含经营租赁净义务栈约 $329 亿。中心问题：是真实经济需求还是被杠杆催起的提前囤货？高风险/偏熊（回避-观察）。</description>
+    </item>
+    <item>
+      <title>Vertiv 深度研究报告 - AI 数据中心电力与散热的卖铲人（建设速度仪表盘） / Vertiv Deep Research Report - The Power &amp; Cooling Pick-and-Shovel of AI Data Centers (Buildout Dashboard)</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=vertiv-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=vertiv-2026#vertiv-2026@2026-06-30</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
+      <description>数据中心电力与热管理（含液冷）卖铲人，位于『电从哪来』(GEV/Bloom)与『芯片』(NVDA/AVGO)之间，是 AI 建设速度最实时的『仪表盘』。Q1 2026 营收$26.5亿(+30%，有机+23%、美洲有机+44%)、调整后营业利润率20.8%(+430bps)、调整后EPS $1.17(+83%)、调整后FCF $6.53亿(+147%)；最新披露的 Q4 2025 backlog $150亿(+109%)、book-to-bill ~2.9x。FY2026指引上调至营收$135-140亿、调整后EPS $6.30-6.40。但股价一年约3倍至$306.97、市值~$1,179亿、~48倍前瞻调整后EPS(~80倍滚动)，已定价多年持续建设；高beta订单簿是双刃剑。中性/高质量但高预期(观察)。</description>
+    </item>
+    <item>
+      <title>康宁 深度研究报告 - AI 基础设施的光连接卖铲人 / Corning Deep Research Report - The Optical-Connectivity Pick-and-Shovel of AI Infrastructure</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=corning-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=corning-2026#corning-2026@2026-06-30</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
+      <description>AI 数据中心光纤/光缆/被动连接材料层卖铲人，与 AAOI 的有源光模块/transceiver 覆盖互补。Q1 2026核心营收$43.45亿（+18%），光通信$18.46亿（+36%，生成式AI驱动），核心EPS $0.70、核心营业利润率20.2%（Springboard目标提前一年达成）；Q2指引核心营收~$46亿、核心EPS $0.73-0.77。三大客户Meta（最多$60亿）、NVIDIA（前期约$5亿、未来累计最多约$32亿股权的认股权证、3座工厂）、Amazon（数十亿美元）签多年期供货协议。但股价约$221、市值约$1,900亿、约71倍2026E核心EPS（卖方均价低于市价），约$90亿债务、AI资本开支周期性是主要风险。中性/高质量但高预期（观察）。</description>
+    </item>
+    <item>
+      <title>SanDisk 深度研究报告 - NAND寡头格局中的AI存储周期暴露 / SanDisk Deep Research Report - AI Storage Cycle Exposure in the NAND Oligopoly</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=sandisk-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=sandisk-2026#sandisk-2026@2026-06-29</guid>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Q3 FY2026营收$59.5亿（+97% Q/Q），数据中心$14.67亿（+233% Q/Q），GAAP毛利率78.4%、营业利润率69.1%、GAAP EPS $23.03，FCF单季$29.9亿，零债务。五份NBM长期供货协议锁定约$420亿最低合同收入（管理层电话会口径），并授权$60亿回购。Q4指引营收$77.5-82.5亿、Non-GAAP EPS $30-33、毛利率79-81%。FY2026E P/S约16倍，但NAND是半导体中周期性最强的子行业之一，78-80%的顶峰毛利率不可持续，周期转向时盈利与估值双向收缩。</description>
+    </item>
+    <item>
+      <title>GE Vernova 深度研究报告 - AI 电力侧的卖铲人与燃气轮机超级周期 / GE Vernova Deep Research Report - The Pick-and-Shovel of AI's Power Side and the Gas-Turbine Super-Cycle</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=gevernova-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=gevernova-2026#gevernova-2026@2026-06-27</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+      <description>AI「电力侧」瓶颈最直接的卖铲人：数据中心电力短缺同时拉动燃气轮机（Power）与电网设备（Electrification）。Q1 2026 订单 $18.3B、backlog $163B（2027 目标 $200B，从 2028 提前），燃气轮机 backlog+slot 预留年底目标 ≥110 GW；Q1 营收 $9.34B、调整后 EBITDA $896M（利润率 9.6%），并上调 FY2026 指引（营收 $44.5-45.5B、调整后 EBITDA 利润率 12-14%、FCF $6.5-7.5B）。利润率正从 FY2025 的 8.4% 向中两位数爬坡。但近一年 +117%、市值约 $2,840 亿，EV/2026E 调整后 EBITDA 约 45-48x，已计入多年爬坡，且与 AI capex 共命运、Wind 仍亏损。Q1 现金 $10.2B、senior notes $2.6B，粗略净现金约 $7.6B。中性/高质量但高预期（观察）。</description>
+    </item>
+    <item>
+      <title>NVIDIA 深度研究报告 - AI 计算中枢的高质量与高预期 / NVIDIA Deep Research Report - The AI Compute Hub, High Quality Meets High Expectations</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=nvidia-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=nvidia-2026#nvidia-2026@2026-06-26</guid>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+      <description>AI 计算革命的绝对中枢，Q1 FY2027 营收 $81.6B（+85% YoY）、数据中心 $75.2B（+92%），且这份创纪录报表在中国数据中心收入归零的前提下完成，Q2 FY2027 指引 $91.0B。反直觉点：作为全球市值第一（约 $4.76 万亿），远期 P/E 约 25x 反而低于 AMD 约 58x、Broadcom 约 33x。风险不在倍数，而在分母——AI 资本开支可持续性、自定义 ASIC 替代、中国结构性丢失与循环融资减值。中性/高质量但高预期（观察）。</description>
+    </item>
+    <item>
+      <title>Netflix 深度研究报告 - 估值压缩与有机增长再验证 / Netflix Deep Research Report - Valuation Compression and Organic Growth Test</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=netflix-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=netflix-2026#netflix-2026@2026-06-26</guid>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+      <description>2026-06-26更正：WBD不再是Netflix收购催化剂；此前关于WBD交易推进/Q3完成的叙事已撤回。6月25日估值快照仍保留：股价$71.82，市值$302.5B，TTM P/E 23.17x，Forward P/E 22.37x。Q1 2026超预期、运营利润率升至32.30%，但投资论点回到广告变现、内容ROI、直播/体育执行和资本配置。</description>
+    </item>
+    <item>
+      <title>Broadcom 深度研究报告 - 自定义 AI 硅的卖铲人与 VMware 现金机器 / Broadcom Deep Research Report - The Pick-and-Shovel of Custom AI Silicon, Plus a VMware Cash Machine</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=broadcom-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=broadcom-2026#broadcom-2026@2026-06-26</guid>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+      <description>自定义 AI 硅（XPU）最大的卖铲人，正是 NVIDIA 报告点名的最深结构性威胁的承接方；同时握有 VMware 软件现金机器。Q2 FY2026 营收 $22.19B（+48%），AI 半导体 $10.8B（+143%），AI backlog &gt;$30B，FY2027 AI 目标 &gt;$1000 亿；Google/Meta/字节/Anthropic/OpenAI/Fujitsu 等客户项目与 $73B backlog 属公开报道/市场拆解口径，非全部官方确认。但收入兑现后置到 FY2027、客户高度集中、总债务 $64.9B、净债务约 $45B。市值约 $1.8 万亿、远期 P/E 约 33x，介于 NVIDIA ~25x 与 AMD ~58x 之间。中性/高质量但高预期（观察）。</description>
+    </item>
+    <item>
+      <title>Tempus AI 深度研究报告 - 精准医疗数据飞轮的高增长与高风险 / Tempus AI Deep Research Report - Precision Medicine Data Flywheel's High Growth and High Risk</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=tempus-ai-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=tempus-ai-2026#tempus-ai-2026@2026-06-25</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+      <description>精准医疗全栈平台。Q1 2026营收$348.1M（+36.1%，随Ambry并表满一年主要为有机增长），但GAAP净亏损扩大至$1.259亿（EPS -$0.71），现金降至$643.8M；管理层上调FY2026收入指引至$15.9-16.0亿。诊断+数据授权+AI飞轮模式，126%净留存率。当前股价约$51.94、市值约$93亿（2026-06-24收盘，约1.7956亿股），P/S(TTM)约7x。营收加速与亏损扩大并存，CEO累计减持$1.27亿、20.6%做空比例。</description>
+    </item>
+    <item>
+      <title>SK hynix 深度研究报告 - HBM垄断者的AI记忆霸权 / SK hynix Deep Research Report - The HBM Monopolist's AI Memory Dominance</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=sk-hynix-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=sk-hynix-2026#sk-hynix-2026@2026-06-25</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+      <description>全球HBM垄断者（53%份额+NVIDIA绑定），乘AI内存超级周期创纪录。Q1 2026营收₩52.6万亿（+198% YoY）、营业利润₩37.6万亿（72%利润率）、净利₩40.3万亿。自2月以来股价约涨3.5倍、市值突破$1.3万亿（约₩2,070万亿），2月『深度低估』逻辑已基本兑现；TTM P/E约28x、利润率接近周期峰值，论点重心转向峰值可持续性。韩股上市，EWY为便捷间接途径。</description>
+    </item>
+    <item>
+      <title>IGV 深度研究报告 - Software-mageddon后的软件行业ETF抄底机会？ / IGV Deep Research Report - A Buying Opportunity After the Software-mageddon?</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=igv-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=igv-2026#igv-2026@2026-06-25</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+      <description>美国软件行业旗舰ETF。2026-06-25增量更新：价格$86.17（较2月+4.1%），YTD跌幅收窄至-18.45%。AUM从$79亿飙升至$167亿（+111%），反映恐慌中大量逆向资金流入。PE(TTM) 27.68，NAV $86.25。Q1 2026财报季已结束——多数头部软件公司AI转型进展好于恐慌预期，空头论点减弱但未完全失效。</description>
+    </item>
+    <item>
+      <title>Airbnb 深度研究报告 - 全球短租霸主的增长再加速之问 / Airbnb Deep Research Report - Can the Global Short-Term Rental Leader Re-Accelerate Growth?</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=airbnb-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=airbnb-2026#airbnb-2026@2026-06-25</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Q1 2026营收+17.9%超预期，增长加速叙事获得首个硬数据支撑。但股价已从$119涨至$142.90（+20%），P/E从29x扩至35.4x，P/S 6.8x，TTM杠杆FCF从$46亿降至$31.9亿。市场已部分定价增长改善，利润率压缩和FCF质量需关注。核心张力：增长加速兑现vs估值提前反映。</description>
+    </item>
+    <item>
+      <title>Salesforce 深度研究报告 - CRM霸主的AI转型与估值重估 / Salesforce Deep Research Report - CRM Leader's AI Transformation and Valuation Reset</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=salesforce-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=salesforce-2026#salesforce-2026@2026-06-25</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+      <description>全球CRM霸主，FY2026营收$41.5B(+10%), FCF $14.4B(+16%), Non-GAAP利润率34.1%。Agentforce + Data 360合计ARR $2.9B+(+200% YoY)。2026-06-25更新: 股价从$193暴跌至~$151(YTD -40%), 市值$1,251亿, Forward P/E从~17x压缩至11.22x, P/S(TTM) 2.92x, FCF yield ~11.5%。业务基本面(CRM霸主+利润扩张+$2.9B AI ARR)未变, 但市场定价已进入极端价值区域。分析师共识$250(+66%上行), 空头占比8.61%。</description>
+    </item>
+    <item>
+      <title>Amazon 深度研究报告 - AI基础设施豪赌与飞轮加速 / Amazon Deep Research Report - The AI Infrastructure Bet and Flywheel Acceleration</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=amzn-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amzn-2026#amzn-2026@2026-06-25</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+      <description>全球最大电商+云计算巨头。Q1 FY2026实际营收$181.5B(+17%, AWS加速至+28%创15季新高), 营业利润$23.9B(13.1%利润率创纪录); 净利润$30.3B含约$16.8B Anthropic投资一次性收益。$200B CapEx计划推进中, FCF承压(TTM $9.8B)。当前股价$228.15, 市值~$2.52T, GAAP P/E 27.75x/正常化~31.6x。核心张力: AI基础设施豪赌的回报周期 vs 零售+云+广告三引擎的利润动能。</description>
+    </item>
+    <item>
+      <title>Spotify 深度研究报告 - 全球音频科技平台的盈利转型与估值再评估 / Spotify Deep Research Report - The Global Audio Tech Platform's Profitability Transformation and Valuation Reassessment</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=spotify-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=spotify-2026#spotify-2026@2026-06-25</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+      <description>全球最大音频流媒体平台，已完成从长期亏损到盈利的转型。Q1 2026 TTM运营利润率15.77%、MAU 7.61亿、净利€2.71B（约$3.0B）。2026/6/25增量更新：股价$442、市值~$910亿、Forward P/E ~31x，较2月初次覆盖时P/E从~53-66x大幅压缩。估值压力显著缓解，但上行空间收窄至~13%。</description>
+    </item>
+    <item>
+      <title>NeoVolta 深度研究报告 - 美国住宅储能新势力 / NeoVolta Deep Research Report - Emerging U.S. Residential Energy Storage Player</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=neov-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=neov-2026#neov-2026@2026-06-25</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Q3 FY2026营收骤降至$2.02M（环比-56%），股价从$4.21暴跌至~$1.93（-54%），公开发行稀释65%。佐治亚工厂推迟至8月底、Infinite Grid $2亿LOI+Needham首次覆盖给予$8目标价提供远期想象空间，但近期基本面严重恶化。P/S(TTM)~5.82x，极高风险。</description>
+    </item>
+    <item>
+      <title>COPX 深度研究报告 - 铜超级周期的杠杆化敞口 / COPX Deep Research Report - Leveraged Exposure to the Copper Supercycle</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=copx-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=copx-2026#copx-2026@2026-06-25</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+      <description>全球最大纯铜矿ETF。2026-06-25增量更新：COPX约$76.92、AUM增至$79.9亿(+8%)，加权P/E从30-35x压缩至17.74x（盈利兑现）。铜价突破二月bull case上沿至~$13,531/吨($6.14/lb)，但price基本持平反映关税不确定性。YTD回报从+20.14%回落至+5.45%。COMEX溢价和232条款审查是短期核心变量。</description>
+    </item>
+    <item>
+      <title>AAOI 深度研究报告 - AI数据中心光模块高弹性与高估值考验 / AAOI Deep Research Report - AI Data Center Optics Upside Meets a Demanding Valuation</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=aaoi-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=aaoi-2026#aaoi-2026@2026-06-23</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <description>AI数据中心光模块高弹性标的，Q1 2026营收$151.1M（+51%），Data Center收入$81.4M（+154%），800G产品已向大型hyperscale客户首批量产出货。Q2指引收入$180-198M，Q3随产能上线预计显著放大。但GAAP仍亏损、经营现金流-$85.4M，当前EV/TTM Sales约26.6x，客户集中和ATM稀释是核心风险。</description>
+    </item>
+    <item>
+      <title>Almonty Industries 深度研究报告 - 西方钨供应链稀缺资产的兑现考验 / Almonty Industries Deep Research Report - Western Tungsten Scarcity Asset Execution Test</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=almonty-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=almonty-2026#almonty-2026@2026-06-23</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <description>2026-06-23完整重跑版：ALM股价约$18.59、市值约$5.29B；Nasdaq上市和Sangdong战略稀缺性提高关注度，但当前估值要求矿山按计划放量、钨价维持高位且融资稀释可控。</description>
+    </item>
+    <item>
+      <title>Hims &amp; Hers 深度研究报告 - 增长质量与GLP-1监管考验 / Hims &amp; Hers Deep Research Report - Growth Quality and GLP-1 Regulatory Test</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=hims-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=hims-2026#hims-2026@2026-06-23</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <description>2026-06-23完整重跑版：HIMS股价约$33.54、市值约$7.77B；核心订阅平台仍有价值，但GLP-1/复合药监管、非GLP-1增长、获客效率和现金流质量决定当前估值能否成立。</description>
+    </item>
+    <item>
+      <title>Bloom Energy 深度研究报告 - AI电力基础设施高弹性与极高估值 / Bloom Energy Deep Research Report - AI Power Infrastructure Upside Meets Extreme Valuation</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=bloom-energy-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=bloom-energy-2026#bloom-energy-2026@2026-06-23</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <description>2026-06-23完整重跑版：BE股价约$345.85、市值约$98.30B；AI数据中心电力需求和Q1后指引改善强化基本面，但以约$3.2B 2026收入参考，当前市值/收入约31x，估值容错极低。</description>
+    </item>
+    <item>
+      <title>Coinbase 深度研究报告 - 合规加密基础设施平台 / Coinbase Deep Research Report - Regulated Crypto Infrastructure Platform</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=coinbase-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=coinbase-2026#coinbase-2026@2026-06-23</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <description>2026-06-23完整重跑版：COIN股价约$164.84、市值约$43.42B；SEC尾部风险降低、Deribit强化衍生品、标普500纳入提升主流覆盖，但交易量周期、Base/USDC质量和SBC仍决定估值。</description>
+    </item>
+    <item>
+      <title>金盘科技深度研究报告 - AI电力设备的高估值兑现考验 / Jinpan Technology Deep Research Report - AI Power Equipment Execution at a Demanding Valuation</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=jinpan-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=jinpan-2026#jinpan-2026@2026-06-23</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <description>2026-06-23完整重跑版：金盘科技2026Q1营收约15.23亿元（+13.4%），归母净利约1.12亿元（+4.8%）；AIDC和SST仍是核心成长线索，但股价约86.00元、市值约395亿元，Q1年化P/E约88x，当前结论调整为中性/观察。</description>
+    </item>
+    <item>
+      <title>Oklo 深度研究报告 - 前商业化核能期权与AI电力需求 / Oklo Deep Research Report - Pre-Commercial Nuclear Optionality Meets AI Power Demand</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=oklo-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=oklo-2026#oklo-2026@2026-06-23</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <description>2026-06-23完整重跑版：OKLO股价约$58.40、市值约$10.15B；公司仍处首堆商业化前阶段，Meta/Switch等客户需求强化想象空间，但NRC许可、燃料、首堆成本和客户合同转化仍是决定性变量。</description>
+    </item>
+    <item>
+      <title>AMD 深度研究报告 - 2026H1 重跑前版本 / AMD Deep Research Report - 2026H1 Pre-rerun Version</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=amd-2026-pre-rerun</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amd-2026-pre-rerun#amd-2026-pre-rerun@2026-06-22</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
+      <description>归档的2026H1重跑前基线版本，保留更完整的业务概览、行业竞争、管理层、牛熊论点和旧估值框架，用于审计与对照。</description>
+    </item>
+    <item>
+      <title>AMD 深度研究报告 - AI时代的半导体挑战者 / AMD Deep Research Report - AI Era Semiconductor Challenger</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=amd-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amd-2026#amd-2026@2026-06-22</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
+      <description>2026-06-22完整重跑版：AMD Q1 2026营收$102.53亿（+38% YoY），Data Center收入约$58亿（+57% YoY），Meta 6GW与Helios/MI450强化AI基础设施平台叙事；但股价约$537、市值约$8,870亿，EV/TTM Sales约23.4x，当前结论调整为中性/观察：基本面强，估值容错极低。</description>
+    </item>
+    <item>
+      <title>PayPal 深度调研报告 - 2025-2026年度分析 / PayPal Deep Research Report - 2025-2026 Analysis</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=paypal-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=paypal-2026#paypal-2026@2026-06-22</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
+      <description>2026年6月增量更新：PayPal仍处于价值陷阱 vs 深度价值分歧点。Q1品牌结账约+2%，Venmo支付量约+14%，新CEO Enrique Lores进入执行期并推进三业务重组与约$1.5B降本计划。Nasdaq 6月18日报价$42.51、市值约$37.5B，估值仍低但旧合理价值区间已标记为历史框架。</description>
+    </item>
+    <item>
+      <title>Tempus AI 深度研究报告 - 精准医疗数据飞轮的高增长与高风险 - 重跑前归档版 / Tempus AI Deep Research Report - Precision Medicine Data Flywheel's High Growth and High Risk - Pre-rerun Archive</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=tempus-ai-2026-pre-rerun</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=tempus-ai-2026-pre-rerun#tempus-ai-2026-pre-rerun@2026-02-27</guid>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+      <description>归档的2026H1重跑前版本，保留FY2025收入、诊断/数据分部、数据飞轮护城河和旧市值/估值倍数框架，作为当前完整重跑版本的对照基线。</description>
+    </item>
+    <item>
+      <title>SK hynix 深度研究报告 - HBM垄断者的AI记忆霸权 - 重跑前归档版 / SK hynix Deep Research Report - The HBM Monopolist's AI Memory Dominance - Pre-rerun Archive</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=sk-hynix-2026-pre-rerun</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=sk-hynix-2026-pre-rerun#sk-hynix-2026-pre-rerun@2026-02-25</guid>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+      <description>归档的2026重跑前版本，保留FY2025收入/利润、HBM份额、技术路线图和旧的深度价值估值框架，作为当前完整重跑版本的对照基线。</description>
+    </item>
+    <item>
+      <title>Almonty Industries 深度研究报告 - 非中国钨矿霸主的地缘政治豪赌 - 重跑前归档版 / Almonty Industries Deep Research Report - The Non-Chinese Tungsten Leader's Geopolitical Bet - Pre-rerun Archive</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=almonty-2026-pre-rerun</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=almonty-2026-pre-rerun#almonty-2026-pre-rerun@2026-02-19</guid>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+      <description>归档的2026H1重跑前版本，保留Sangdong、钨出口、Plansee/GTP和旧市值/收入倍数框架。</description>
+    </item>
+    <item>
+      <title>Hims &amp; Hers 深度研究报告 - DTC远程医疗领跑者的GLP-1监管风暴 - 重跑前归档版 / Hims &amp; Hers Deep Research Report - DTC Telehealth Leader's GLP-1 Regulatory Storm - Pre-rerun Archive</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=hims-2026-pre-rerun</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=hims-2026-pre-rerun#hims-2026-pre-rerun@2026-02-13</guid>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 GMT</pubDate>
+      <description>归档的2026H1重跑前版本，保留2月GLP-1监管二元变量和旧收入/估值框架。</description>
+    </item>
+    <item>
+      <title>Bloom Energy 深度研究报告 - AI数据中心电力基础设施的关键玩家 - 重跑前归档版 / Bloom Energy Deep Research Report - Critical Power Infrastructure Player for AI Data Centers - Pre-rerun Archive</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=bloom-energy-2026-pre-rerun</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=bloom-energy-2026-pre-rerun#bloom-energy-2026-pre-rerun@2026-02-11</guid>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 GMT</pubDate>
+      <description>归档的2026H1重跑前版本，保留Q4 2025、Brookfield、800V DC和旧估值框架。</description>
+    </item>
+    <item>
+      <title>Coinbase 深度研究报告 - 加密基础设施垄断者的转型与周期博弈 - 重跑前归档版 / Coinbase Deep Research Report - Crypto Infrastructure Monopolist's Transformation and Cycle Play - Pre-rerun Archive</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=coinbase-2026-pre-rerun</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=coinbase-2026-pre-rerun#coinbase-2026-pre-rerun@2026-02-11</guid>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 GMT</pubDate>
+      <description>归档的2026H1重跑前版本，保留Q4/FY2025、交易量、托管、USDC和旧估值框架。</description>
+    </item>
+    <item>
+      <title>OKLO 深度研究报告 - 先进核能的想象力与现实 - 重跑前归档版 / OKLO Deep Research Report - Advanced Nuclear's Imagination vs Reality - Pre-rerun Archive</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=oklo-2026-pre-rerun</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=oklo-2026-pre-rerun#oklo-2026-pre-rerun@2026-02-10</guid>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 GMT</pubDate>
+      <description>归档的2026H1重跑前版本，保留2月项目管线、目标价、首堆和零收入估值框架。</description>
+    </item>
+    <item>
+      <title>金盘科技深度研究报告 - AI数据中心电源设备龙头 - 重跑前归档版 / Jinpan Technology Deep Research Report - AI Data Center Power Equipment Leader - Pre-rerun Archive</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=jinpan-2026-pre-rerun</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=jinpan-2026-pre-rerun#jinpan-2026-pre-rerun@2026-02-03</guid>
+      <pubDate>Tue, 03 Feb 2026 00:00:00 GMT</pubDate>
+      <description>归档的2026H1重跑前版本，保留2月价格、市值、AIDC/SST和应收账款风险框架，用于审计与对照。</description>
+    </item>
+  </channel>
+</rss>

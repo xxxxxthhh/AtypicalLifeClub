@@ -1,5 +1,10 @@
 let reports = [];
+let pricesByReportId = new Map();
 const REPORTS_DATA_URL = '/invest/research/data/reports.json';
+const PRICES_DATA_URL = '/invest/research/data/prices.json';
+const CURRENCY_DATA_URL = '/invest/currency/data/historical.json';
+const METALS_DATA_URL = '/invest/metals/data/historical.json';
+const SIGNALS_DATA_URL = '/invest/research/data/signals.json';
 
 const CATEGORY_LABELS = {
     all: '全部',
@@ -15,12 +20,13 @@ const filterState = {
 };
 
 document.addEventListener('DOMContentLoaded', async () => {
-    await loadReportsData();
+    await Promise.all([loadReportsData(), loadPricesData()]);
     setupFilters();
     setupSearch();
     buildLetterStrip();
     renderReports();
     updateStats();
+    await loadMarketContext();
 });
 
 async function loadReportsData() {
@@ -43,11 +49,88 @@ async function loadReportsData() {
     }
 }
 
+async function loadPricesData() {
+    try {
+        const response = await fetch(PRICES_DATA_URL, { cache: 'no-store' });
+        if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+        }
+
+        const data = await response.json();
+        const entries = Array.isArray(data?.entries) ? data.entries : [];
+        pricesByReportId = new Map(entries
+            .filter((entry) => entry && typeof entry.reportId === 'string')
+            .map((entry) => [entry.reportId, entry]));
+    } catch (error) {
+        console.warn('Failed to load research prices:', error);
+        pricesByReportId = new Map();
+    }
+}
+
 function tickerLetter(report) {
     const raw = String(report.ticker || '').trim();
     const symbol = raw.includes(':') ? raw.split(':').slice(1).join(':') : raw;
     const first = (symbol.trim() || String(report.company || '').trim()).charAt(0).toUpperCase();
     return /[A-Z]/.test(first) ? first : '#';
+}
+
+async function loadMarketContext() {
+    const root = document.getElementById('marketContextStrip');
+    if (!root) return;
+
+    try {
+        const [currencyResponse, metalsResponse, signalsResponse] = await Promise.all([
+            fetch(CURRENCY_DATA_URL, { cache: 'no-store' }),
+            fetch(METALS_DATA_URL, { cache: 'no-store' }),
+            fetch(SIGNALS_DATA_URL, { cache: 'no-store' })
+        ]);
+        if (!currencyResponse.ok || !metalsResponse.ok || !signalsResponse.ok) {
+            throw new Error('market context fetch failed');
+        }
+
+        const [currency, metals, signals] = await Promise.all([
+            currencyResponse.json(),
+            metalsResponse.json(),
+            signalsResponse.json()
+        ]);
+        const cny = currency?.current?.rates?.CNY;
+        const gold = metals?.current?.['GC=F']?.price;
+        const copper = metals?.current?.['HG=F']?.price;
+        const newestSignal = (Array.isArray(signals) ? signals : [])
+            .slice()
+            .sort((a, b) => parseReportDate(b.date) - parseReportDate(a.date))[0];
+        if (![cny, gold, copper].every((value) => typeof value === 'number' && Number.isFinite(value)) || !newestSignal) {
+            throw new Error('market context data incomplete');
+        }
+
+        root.innerHTML = `
+            <a class="market-context-item" href="/invest/currency/">USD/CNY ${formatNumber(cny, 4)}</a>
+            <a class="market-context-item" href="/invest/metals/">Gold ${formatNumber(gold, 1)} · Copper ${formatNumber(copper, 3)}</a>
+            <a class="market-context-item" href="/invest/research/monitoring-dashboard.html#${escapeHtml(signalAnchor(newestSignal))}">最新信号 ${escapeHtml(newestSignal.date || '')} · ${escapeHtml(localizeSignal(newestSignal.title))}</a>
+        `;
+        root.hidden = false;
+    } catch (error) {
+        console.warn('Failed to load market context:', error);
+        root.hidden = true;
+        root.innerHTML = '';
+    }
+}
+
+function formatNumber(value, fractionDigits) {
+    return Number(value).toLocaleString(undefined, {
+        minimumFractionDigits: fractionDigits,
+        maximumFractionDigits: fractionDigits
+    });
+}
+
+function signalAnchor(signal) {
+    return `signal-${String(signal?.id || '').replace(/[^A-Za-z0-9_-]/g, '-')}`;
+}
+
+function localizeSignal(value) {
+    if (!value) return '';
+    if (typeof value === 'string') return value;
+    return value.zh || value.en || '';
 }
 
 function applyFilters() {
@@ -94,6 +177,7 @@ function renderReports() {
                     <span>报告日期 ${escapeHtml(report.date)}</span>
                     <span>更新 ${escapeHtml(report.lastUpdate)}</span>
                 </div>
+                ${renderTrackingChips(report)}
                 <div class="report-tags">
                     ${(report.tags || []).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join('')}
                 </div>
@@ -112,6 +196,40 @@ function renderReports() {
     }).join('');
 
     bindCardNavigation();
+}
+
+function renderTrackingChips(report) {
+    const chips = [renderPriceChip(report), renderRerunChip(report)].filter(Boolean);
+    if (!chips.length) return '';
+    return `<div class="report-price-row">${chips.join('')}</div>`;
+}
+
+function renderPriceChip(report) {
+    const entry = pricesByReportId.get(report.id);
+    if (!entry) return '';
+    if (entry.status === 'missing') {
+        return `<span class="tag price-chip price-chip-muted">无价格数据</span>`;
+    }
+
+    if (typeof entry.changePct !== 'number' || !entry.baseDate) return '';
+    const staleSuffix = entry.status === 'carried-forward' && entry.lastDate
+        ? ` · 数据截至 ${entry.lastDate}`
+        : '';
+    return `<span class="tag price-chip">自报告 ${formatPercent(entry.changePct)}（基准 ${escapeHtml(entry.baseDate)}）${escapeHtml(staleSuffix)}</span>`;
+}
+
+function renderRerunChip(report) {
+    if (!report.chainLayer || !window.ResearchTracking) return '';
+    const item = window.ResearchTracking.buildRerunItem(report, pricesByReportId.get(report.id));
+    if (!item || !item.isCandidate) return '';
+    return '<span class="tag price-chip rerun-chip">复核候选 / rerun candidate</span>';
+}
+
+function formatPercent(value) {
+    if (window.ResearchTracking) return window.ResearchTracking.formatPercent(value);
+    if (typeof value !== 'number' || !Number.isFinite(value)) return '—';
+    const rounded = Math.abs(value) < 0.05 ? 0 : value;
+    return `${rounded > 0 ? '+' : ''}${rounded.toFixed(1)}%`;
 }
 
 function renderEmptyState(message) {

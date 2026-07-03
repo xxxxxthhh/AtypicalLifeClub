@@ -273,7 +273,7 @@
 
         .verdict-row {
             display: grid;
-            grid-template-columns: minmax(180px, 1.4fr) minmax(130px, 1fr) minmax(150px, 1.1fr) minmax(110px, 0.9fr) auto;
+            grid-template-columns: minmax(180px, 1.35fr) minmax(130px, 0.9fr) minmax(150px, 1fr) minmax(110px, 0.8fr) minmax(140px, 1fr) auto;
             gap: 0.6rem;
             align-items: center;
             padding: 0.62rem 0.9rem;
@@ -314,6 +314,104 @@
         .verdict-link {
             font-size: 0.78rem;
             white-space: nowrap;
+        }
+
+        .stance-ledger-scroll {
+            margin-top: 1rem;
+            overflow-x: auto;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            background: var(--entry);
+        }
+
+        .stance-ledger-table {
+            width: 100%;
+            min-width: 920px;
+            border-collapse: collapse;
+            font-size: 0.82rem;
+        }
+
+        .stance-ledger-table th,
+        .stance-ledger-table td {
+            text-align: left;
+            vertical-align: top;
+            padding: 0.55rem 0.7rem;
+            border-bottom: 1px solid color-mix(in srgb, var(--border) 58%, transparent);
+        }
+
+        .stance-ledger-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .stance-ledger-table th {
+            color: var(--secondary);
+            font-size: 0.72rem;
+            font-weight: 650;
+            white-space: nowrap;
+        }
+
+        .ledger-company a {
+            color: var(--content);
+            font-weight: 650;
+            text-decoration: none;
+        }
+
+        .ledger-company a:hover {
+            color: var(--accent);
+        }
+
+        .ledger-subtext {
+            display: block;
+            margin-top: 0.15rem;
+            color: var(--secondary);
+            font-size: 0.72rem;
+        }
+
+        .price-fact {
+            color: var(--content);
+            font-variant-numeric: tabular-nums;
+        }
+
+        .price-fact-muted {
+            color: var(--tertiary);
+        }
+
+        .rerun-queue {
+            margin-top: 1rem;
+            display: grid;
+            gap: 0.65rem;
+        }
+
+        .rerun-row {
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            background: var(--entry);
+            padding: 0.72rem 0.85rem;
+            display: grid;
+            grid-template-columns: minmax(180px, 1.2fr) minmax(0, 2fr) auto;
+            gap: 0.75rem;
+            align-items: center;
+        }
+
+        .rerun-title a {
+            color: var(--content);
+            font-weight: 650;
+            text-decoration: none;
+        }
+
+        .rerun-title a:hover {
+            color: var(--accent);
+        }
+
+        .rerun-facts {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+        }
+
+        .rerun-link {
+            white-space: nowrap;
+            font-size: 0.78rem;
         }
 
         /* --- view 2: kill-criteria board --- */
@@ -602,6 +700,10 @@
                 grid-template-columns: 1fr 1fr;
             }
 
+            .rerun-row {
+                grid-template-columns: 1fr;
+            }
+
             .radar-rule {
                 grid-template-columns: 1fr;
             }
@@ -671,6 +773,26 @@
             </div>
             <div class="verdict-stack" id="verdictStack">
                 <div class="loading-state">Loading dashboard...</div>
+            </div>
+        </section>
+
+        <section class="section" id="stanceLedgerSection">
+            <div class="monitor-section-header">
+                <h2 id="stanceLedgerHeading">Stance Ledger</h2>
+                <p id="stanceLedgerIntro">按报告记录价格基准、最新收盘与自报告以来变化；缺价或沿用旧价不折算为零漂移。</p>
+            </div>
+            <div class="stance-ledger-scroll" id="stanceLedger">
+                <div class="loading-state">Loading stance ledger...</div>
+            </div>
+        </section>
+
+        <section class="section" id="rerunQueueSection">
+            <div class="monitor-section-header">
+                <h2 id="rerunQueueHeading">Rerun Queue</h2>
+                <p id="rerunQueueIntro">队列只排序复核工作：年龄 / 60 + 漂移 / 25；人工决定是否重跑，不自动触发。</p>
+            </div>
+            <div class="rerun-queue" id="rerunQueue">
+                <div class="loading-state">Loading rerun queue...</div>
             </div>
         </section>
 
@@ -744,10 +866,12 @@
     <script src="/shared/theme-switcher.js"></script>
     <script src="/shared/report-utils.js"></script>
     <script src="/shared/lang-switch.js"></script>
+    <script src="/invest/research/tracking-rules.js"></script>
     <script>
         const REPORTS_DATA_URL = "/invest/research/data/reports.json";
         const COVERAGE_MAP_URL = "/invest/research/data/coverage-map.json";
         const SIGNALS_DATA_URL = "/invest/research/data/signals.json";
+        const PRICES_DATA_URL = "/invest/research/data/prices.json";
 
         const PAGE_LABELS = {
             zh: {
@@ -759,6 +883,10 @@
                 verdictIntro: "按链条层级列出每篇报告的公开立场、价格快照日期与所反映的财报期。",
                 freshnessCaption: "价格快照日期越靠左越早；圆点只表达日期，不表达好坏。",
                 todayLabel: "今天",
+                stanceLedgerHeading: "立场价格台账",
+                stanceLedgerIntro: "按报告记录价格基准、最新收盘与自报告以来变化；缺价或沿用旧价不折算为零漂移。",
+                rerunQueueHeading: "复核候选队列",
+                rerunQueueIntro: "队列只排序复核工作：年龄 / 60 + 漂移 / 25；人工决定是否重跑，不自动触发。",
                 radarHeading: "交叉校验雷达",
                 radarIntro: "覆盖地图的链级 if/then 校验规则与实际观察到的链级事件放在同一屏：有信号记录的规则排在前面，信号按日期倒序。",
                 ifLabel: "If",
@@ -790,6 +918,24 @@
                 priceAsOf: "价格快照",
                 reportedPeriod: "财报期",
                 stanceLabel: "立场",
+                priceFact: "价格事实",
+                priceUnavailable: "无价格数据",
+                priceStatusOk: "最新",
+                priceStatusCarried: "沿用旧价",
+                priceDataAsOf: (date) => `数据截至 ${date}`,
+                rerunCandidate: "复核候选",
+                rerunNoCandidates: "当前无复核候选",
+                rerunAgeFact: (days) => `价格基准 ${days} 天前`,
+                rerunDriftFact: (value) => `期间 ${value}`,
+                rerunScoreFact: (score) => `分数 ${score}`,
+                rerunUnknownScore: "年龄 / 60 + ?",
+                lastRead: (date) => `最近读数 ${date}`,
+                colCompany: "公司",
+                colReportDate: "报告日期",
+                colBaseDate: "价格基准日",
+                colChangeSinceReport: "自报告变化",
+                colPriceAsOf: "最近收盘",
+                colLastUpdate: "最后尝试",
                 daysAgo: (n) => `${n} 天前`,
                 readReport: "阅读报告",
                 itemsCount: (n) => `${n} 条监控项`,
@@ -828,6 +974,10 @@
                 verdictIntro: "Each report's published stance, price-snapshot date, and reported fiscal period, grouped by chain layer.",
                 freshnessCaption: "Older price snapshots sit farther left; dots encode date only, not quality.",
                 todayLabel: "today",
+                stanceLedgerHeading: "Stance Price Ledger",
+                stanceLedgerIntro: "Report-level price basis, latest close, and change since publication; missing or carried-forward data never becomes zero drift.",
+                rerunQueueHeading: "Rerun Queue",
+                rerunQueueIntro: "The queue ranks rerun work only: age / 60 + drift / 25; a human decides whether to rerun, nothing fires automatically.",
                 radarHeading: "Cross-Check Radar",
                 radarIntro: "Each chain-level if/then rule from the coverage map, paired with the chain-level events observed against it: rules with recorded signals come first, signals newest-first.",
                 ifLabel: "If",
@@ -859,6 +1009,24 @@
                 priceAsOf: "Price as of",
                 reportedPeriod: "Reported period",
                 stanceLabel: "Stance",
+                priceFact: "Price fact",
+                priceUnavailable: "No price data",
+                priceStatusOk: "Fresh",
+                priceStatusCarried: "Carried forward",
+                priceDataAsOf: (date) => `Data as of ${date}`,
+                rerunCandidate: "Rerun candidate",
+                rerunNoCandidates: "No rerun candidates",
+                rerunAgeFact: (days) => `Price base ${days}d ago`,
+                rerunDriftFact: (value) => `${value} since`,
+                rerunScoreFact: (score) => `Score ${score}`,
+                rerunUnknownScore: "age / 60 + ?",
+                lastRead: (date) => `Last read ${date}`,
+                colCompany: "Company",
+                colReportDate: "Report date",
+                colBaseDate: "Price basis",
+                colChangeSinceReport: "Change since report",
+                colPriceAsOf: "Latest close",
+                colLastUpdate: "Last attempt",
                 daysAgo: (n) => `${n}d ago`,
                 readReport: "Read report",
                 itemsCount: (n) => `${n} monitoring item${n === 1 ? "" : "s"}`,
@@ -897,6 +1065,7 @@
             chainReports: [],
             crossChecks: [],
             signals: [],
+            pricesByReportId: new Map(),
             groupMode: "report",
             thesisFilter: "all"
         };
@@ -912,10 +1081,11 @@
 
         async function loadData() {
             try {
-                const [reportsResponse, coverageResponse, signalsResponse] = await Promise.all([
+                const [reportsResponse, coverageResponse, signalsResponse, pricesResponse] = await Promise.all([
                     fetch(REPORTS_DATA_URL, { cache: "no-store" }),
                     fetch(COVERAGE_MAP_URL, { cache: "no-store" }),
-                    fetch(SIGNALS_DATA_URL, { cache: "no-store" })
+                    fetch(SIGNALS_DATA_URL, { cache: "no-store" }),
+                    fetch(PRICES_DATA_URL, { cache: "no-store" }).catch(() => null)
                 ]);
 
                 if (!reportsResponse.ok) throw new Error(`reports HTTP ${reportsResponse.status}`);
@@ -924,6 +1094,7 @@
                 const reports = await reportsResponse.json();
                 const coverage = await coverageResponse.json();
                 const signals = signalsResponse.ok ? await signalsResponse.json() : [];
+                const prices = await optionalJson(pricesResponse);
 
                 state.layers = Array.isArray(coverage.layers) ? coverage.layers : [];
                 state.crossChecks = Array.isArray(coverage.crossChecks) ? coverage.crossChecks : [];
@@ -933,14 +1104,34 @@
                 state.chainReports = (Array.isArray(reports) ? reports : [])
                     .filter(isCurrentReport)
                     .filter((r) => r.chainLayer);
+                state.pricesByReportId = indexPriceEntries(prices);
+                state.loadFailed = false;
             } catch (error) {
                 console.error("Failed to load monitoring dashboard:", error);
                 state.layers = [];
                 state.crossChecks = [];
                 state.signals = [];
                 state.chainReports = [];
+                state.pricesByReportId = new Map();
                 state.loadFailed = true;
             }
+        }
+
+        async function optionalJson(response) {
+            if (!response || !response.ok) return null;
+            try {
+                return await response.json();
+            } catch (error) {
+                console.warn("Failed to parse optional price data:", error);
+                return null;
+            }
+        }
+
+        function indexPriceEntries(data) {
+            const entries = Array.isArray(data?.entries) ? data.entries : [];
+            return new Map(entries
+                .filter((entry) => entry && typeof entry.reportId === "string")
+                .map((entry) => [entry.reportId, entry]));
         }
 
         function renderPage() {
@@ -955,6 +1146,10 @@
             setText("factNote", labels.factNote);
             setText("verdictHeading", labels.verdictHeading);
             setText("verdictIntro", labels.verdictIntro);
+            setText("stanceLedgerHeading", labels.stanceLedgerHeading);
+            setText("stanceLedgerIntro", labels.stanceLedgerIntro);
+            setText("rerunQueueHeading", labels.rerunQueueHeading);
+            setText("rerunQueueIntro", labels.rerunQueueIntro);
             setText("radarHeading", labels.radarHeading);
             setText("radarIntro", labels.radarIntro);
             setText("nextCheckHeading", labels.nextCheckHeading);
@@ -977,6 +1172,8 @@
             if (state.loadFailed) {
                 document.getElementById("freshnessStrip").innerHTML = `<div class="empty-state">${escapeHtml(labels.loadError)}</div>`;
                 document.getElementById("verdictStack").innerHTML = `<div class="empty-state">${escapeHtml(labels.loadError)}</div>`;
+                document.getElementById("stanceLedger").innerHTML = `<div class="empty-state">${escapeHtml(labels.loadError)}</div>`;
+                document.getElementById("rerunQueue").innerHTML = `<div class="empty-state">${escapeHtml(labels.loadError)}</div>`;
                 document.getElementById("radarStack").innerHTML = "";
                 document.getElementById("nextCheckTimeline").innerHTML = "";
                 document.getElementById("criteriaStack").innerHTML = "";
@@ -987,6 +1184,8 @@
 
             renderFreshnessStrip();
             renderVerdictBoard();
+            renderStanceLedger();
+            renderRerunQueue();
             renderRadar();
             renderNextCheckTimeline();
             renderCriteriaBoard();
@@ -1015,6 +1214,82 @@
             if (!report.stance) return "";
             const text = labels.stances[report.stance] || report.stance;
             return `<span class="chip chip-stance">${escapeHtml(text)}</span>`;
+        }
+
+        function priceEntry(report) {
+            return state.pricesByReportId.get(report.id) || null;
+        }
+
+        function formatPercent(value) {
+            if (typeof value !== "number" || !Number.isFinite(value)) return "—";
+            const rounded = Math.abs(value) < 0.05 ? 0 : value;
+            return `${rounded > 0 ? "+" : ""}${rounded.toFixed(1)}%`;
+        }
+
+        function formatClose(entry) {
+            if (!entry || typeof entry.lastClose !== "number" || !Number.isFinite(entry.lastClose)) return "—";
+            const close = entry.lastClose >= 100 ? entry.lastClose.toLocaleString(undefined, { maximumFractionDigits: 2 }) : entry.lastClose.toLocaleString(undefined, { maximumFractionDigits: 4 });
+            return entry.currency ? `${close} ${entry.currency}` : close;
+        }
+
+        function priceStatusChip(entry) {
+            const labels = getLabels();
+            if (!entry || entry.status === "missing") {
+                return `<span class="chip">${escapeHtml(labels.priceUnavailable)}</span>`;
+            }
+            if (entry.status === "carried-forward") {
+                return `<span class="chip">${escapeHtml(labels.priceStatusCarried)}</span>`;
+            }
+            return `<span class="chip">${escapeHtml(labels.priceStatusOk)}</span>`;
+        }
+
+        function priceFact(report) {
+            const labels = getLabels();
+            const entry = priceEntry(report);
+            if (!entry || entry.status === "missing") {
+                return `<span class="price-fact price-fact-muted">${escapeHtml(labels.priceUnavailable)}</span>`;
+            }
+            const staleText = entry.status === "carried-forward" && entry.lastDate
+                ? `<span class="ledger-subtext">${escapeHtml(labels.priceDataAsOf(entry.lastDate))}</span>`
+                : "";
+            return `
+                <span class="price-fact">${escapeHtml(formatPercent(entry.changePct))} · ${escapeHtml(formatClose(entry))}</span>
+                ${staleText}
+            `;
+        }
+
+        function priceSortValue(report) {
+            const entry = priceEntry(report);
+            if (!entry || entry.status === "missing" || typeof entry.changePct !== "number") return -1;
+            return Math.abs(entry.changePct);
+        }
+
+        function signalAnchor(signal) {
+            return `signal-${String(signal?.id || "").replace(/[^A-Za-z0-9_-]/g, "-")}`;
+        }
+
+        function reportForTicker(ticker) {
+            const text = String(ticker || "").trim().toUpperCase();
+            if (!text) return null;
+            return state.chainReports.find((report) => {
+                const priceSymbol = String(report.priceSymbol || "").trim().toUpperCase();
+                const displayTicker = String(report.ticker || "").toUpperCase();
+                return priceSymbol === text || displayTicker.includes(text);
+            }) || null;
+        }
+
+        function latestSignalForMonitoringRef(reportId, itemId) {
+            const ref = `${reportId}:${itemId}`;
+            return state.signals
+                .filter((signal) => Array.isArray(signal.monitoringRefs) && signal.monitoringRefs.includes(ref))
+                .sort((a, b) => parseReportDate(b.date) - parseReportDate(a.date))[0] || null;
+        }
+
+        function lastReadChip(report, item) {
+            const labels = getLabels();
+            const signal = latestSignalForMonitoringRef(report.id, item.id);
+            if (!signal) return "";
+            return `<a class="chip" href="#${escapeHtml(signalAnchor(signal))}">${escapeHtml(labels.lastRead(signal.date || ""))}</a>`;
         }
 
         function currentUtcDay() {
@@ -1293,8 +1568,138 @@
                         <span class="verdict-cell-label">${escapeHtml(labels.reportedPeriod)}</span>
                         <span>${escapeHtml(report.reportedPeriod || "—")}</span>
                     </div>
+                    <div>
+                        <span class="verdict-cell-label">${escapeHtml(labels.priceFact)}</span>
+                        ${priceFact(report)}
+                    </div>
                     <a class="verdict-link" href="${escapeHtml(reportUrl(report))}">${escapeHtml(labels.readReport)} →</a>
                 </div>
+            `;
+        }
+
+        function renderStanceLedger() {
+            const root = document.getElementById("stanceLedger");
+            const labels = getLabels();
+            if (!root) return;
+
+            if (!state.chainReports.length) {
+                root.innerHTML = `<div class="empty-state">${escapeHtml(labels.emptyBoard)}</div>`;
+                return;
+            }
+
+            const rows = state.chainReports
+                .slice()
+                .sort((a, b) => {
+                    const priceDiff = priceSortValue(b) - priceSortValue(a);
+                    if (priceDiff !== 0) return priceDiff;
+                    return (a.company || "").localeCompare(b.company || "");
+                })
+                .map(renderStanceLedgerRow)
+                .join("");
+
+            root.innerHTML = `
+                <table class="stance-ledger-table">
+                    <thead>
+                        <tr>
+                            <th>${escapeHtml(labels.colCompany)}</th>
+                            <th>${escapeHtml(labels.stanceLabel)}</th>
+                            <th>${escapeHtml(labels.colReportDate)}</th>
+                            <th>${escapeHtml(labels.colBaseDate)}</th>
+                            <th>${escapeHtml(labels.colChangeSinceReport)}</th>
+                            <th>${escapeHtml(labels.colPriceAsOf)}</th>
+                            <th>${escapeHtml(labels.colLastUpdate)}</th>
+                        </tr>
+                    </thead>
+                    <tbody>${rows}</tbody>
+                </table>
+            `;
+        }
+
+        function renderStanceLedgerRow(report) {
+            const labels = getLabels();
+            const entry = priceEntry(report);
+            const hasPrice = entry && entry.status !== "missing";
+            const statusLine = hasPrice && entry.status === "carried-forward" && entry.lastDate
+                ? `<span class="ledger-subtext">${escapeHtml(labels.priceDataAsOf(entry.lastDate))}</span>`
+                : "";
+            return `
+                <tr>
+                    <td class="ledger-company">
+                        <a href="${escapeHtml(reportUrl(report))}">${escapeHtml(report.company || report.id)}</a>
+                        <span class="ledger-subtext">${escapeHtml(report.ticker || report.priceSymbol || report.id)}</span>
+                    </td>
+                    <td>${stanceChip(report)}</td>
+                    <td>${escapeHtml(report.date || "—")}</td>
+                    <td>${escapeHtml(hasPrice ? entry.baseDate || "—" : "—")}</td>
+                    <td>${hasPrice ? `<span class="price-fact">${escapeHtml(formatPercent(entry.changePct))}</span>` : `<span class="price-fact-muted">${escapeHtml(labels.priceUnavailable)}</span>`}</td>
+                    <td>
+                        ${hasPrice ? `<span class="price-fact">${escapeHtml(formatClose(entry))}</span><span class="ledger-subtext">${escapeHtml(entry.lastDate || "—")}</span>` : `<span class="price-fact-muted">${escapeHtml(labels.priceUnavailable)}</span>`}
+                    </td>
+                    <td>
+                        ${priceStatusChip(entry)}
+                        <span class="ledger-subtext">${escapeHtml(entry?.attemptedAt || "—")}</span>
+                        ${statusLine}
+                    </td>
+                </tr>
+            `;
+        }
+
+        function rerunItem(report) {
+            if (!window.ResearchTracking) return null;
+            return window.ResearchTracking.buildRerunItem(report, priceEntry(report));
+        }
+
+        function renderRerunQueue() {
+            const root = document.getElementById("rerunQueue");
+            const labels = getLabels();
+            if (!root) return;
+
+            const items = state.chainReports
+                .map(rerunItem)
+                .filter((item) => item && item.shouldList)
+                .sort((a, b) => {
+                    if (a.isCandidate !== b.isCandidate) return a.isCandidate ? -1 : 1;
+                    const scoreDiff = b.score - a.score;
+                    if (scoreDiff !== 0) return scoreDiff;
+                    return (a.report.company || "").localeCompare(b.report.company || "");
+                });
+
+            if (!items.length) {
+                root.innerHTML = `<div class="empty-state">${escapeHtml(labels.rerunNoCandidates)}</div>`;
+                return;
+            }
+
+            root.innerHTML = items.map(renderRerunRow).join("");
+        }
+
+        function renderRerunRow(item) {
+            const labels = getLabels();
+            const report = item.report;
+            const entry = item.priceEntry;
+            const scoreText = item.untracked
+                ? labels.rerunUnknownScore
+                : labels.rerunScoreFact(item.score.toFixed(2));
+            const driftChip = item.untracked
+                ? `<span class="chip">${escapeHtml(labels.priceUnavailable)}</span>`
+                : `<span class="chip">${escapeHtml(labels.rerunDriftFact(formatPercent(entry.changePct)))}</span>`;
+            const staleChip = entry && entry.status === "carried-forward" && entry.lastDate
+                ? `<span class="chip">${escapeHtml(labels.priceDataAsOf(entry.lastDate))}</span>`
+                : "";
+            return `
+                <article class="rerun-row">
+                    <div class="rerun-title">
+                        <a href="${escapeHtml(reportUrl(report))}">${escapeHtml(report.company || report.id)}</a>
+                        <span class="ledger-subtext">${escapeHtml(report.ticker || report.priceSymbol || report.id)}</span>
+                    </div>
+                    <div class="rerun-facts">
+                        ${item.isCandidate ? `<span class="chip">${escapeHtml(labels.rerunCandidate)}</span>` : ""}
+                        <span class="chip">${escapeHtml(labels.rerunAgeFact(item.ageDays))}</span>
+                        ${driftChip}
+                        <span class="chip">${escapeHtml(scoreText)}</span>
+                        ${staleChip}
+                    </div>
+                    <a class="rerun-link" href="${escapeHtml(reportUrl(report))}">${escapeHtml(labels.readReport)} →</a>
+                </article>
             `;
         }
 
@@ -1317,15 +1722,16 @@
             }));
             // Rules with recorded signals surface first, ranked by their latest signal date.
             cards.sort((a, b) => latestSignalTime(b.signals) - latestSignalTime(a.signals));
+            const anchoredSignals = new Set();
 
             root.innerHTML = cards.map(({ check, signals }) => {
                 const signalRows = signals.map((signal) => `
-                    <div class="radar-signal">
+                    <div class="radar-signal"${signalAnchorAttribute(signal, anchoredSignals)}>
                         <div class="radar-signal-head">
                             <span class="chip">${escapeHtml(signal.date || "")}</span>
                             <span>${escapeHtml(localize(signal.title))}</span>
                             ${(Array.isArray(signal.tickers) ? signal.tickers : [])
-                                .map((ticker) => `<span class="chip">${escapeHtml(ticker)}</span>`).join("")}
+                                .map(renderSignalTicker).join("")}
                         </div>
                         <p>${escapeHtml(localize(signal.detail))}</p>
                     </div>
@@ -1348,6 +1754,19 @@
                     </article>
                 `;
             }).join("");
+        }
+
+        function signalAnchorAttribute(signal, anchoredSignals) {
+            const id = signal?.id;
+            if (!id || anchoredSignals.has(id)) return "";
+            anchoredSignals.add(id);
+            return ` id="${escapeHtml(signalAnchor(signal))}"`;
+        }
+
+        function renderSignalTicker(ticker) {
+            const report = reportForTicker(ticker);
+            if (!report) return `<span class="chip">${escapeHtml(ticker)}</span>`;
+            return `<a class="chip" href="${escapeHtml(reportUrl(report))}">${escapeHtml(ticker)}</a>`;
         }
 
         function latestSignalTime(signals) {
@@ -1456,13 +1875,14 @@
             const themeChip = item.theme
                 ? `<span class="chip">${escapeHtml(labels.themes[item.theme] || item.theme)}</span>`
                 : "";
+            const readChip = lastReadChip(report, item);
             return `
                 <tr id="crit-${escapeHtml(report.id)}-${escapeHtml(item.id)}">
                     <td>
                         <span class="criteria-metric">${escapeHtml(localize(item.metric))}</span>
                         <a class="criteria-report-link" href="${escapeHtml(reportUrl(report))}">${escapeHtml(report.company)} · ${escapeHtml(report.ticker || report.id)}</a>
                     </td>
-                    <td><span class="chip">${escapeHtml(labels.theses[item.thesis] || item.thesis)}</span> ${themeChip}</td>
+                    <td><span class="chip">${escapeHtml(labels.theses[item.thesis] || item.thesis)}</span> ${themeChip} ${readChip}</td>
                     <td>${escapeHtml(localize(item.trigger))}</td>
                     <td>${escapeHtml(localize(item.latest))}</td>
                     <td class="criteria-next">${escapeHtml(item.nextCheck || "—")}</td>

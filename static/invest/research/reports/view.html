@@ -59,6 +59,7 @@
                 <div class="report-meta-info" id="heroMeta"></div>
                 <div class="previous-report-preview" id="previousReportPreview" hidden></div>
                 <div class="mode-notice" id="modeNotice" hidden></div>
+                <div class="related-signals" id="relatedSignals" hidden></div>
             </header>
             <div id="markdownContent"></div>
         </article>
@@ -66,6 +67,7 @@
 
     <script>
         const REPORTS_DATA_URL = '/invest/research/data/reports.json';
+        const SIGNALS_DATA_URL = '/invest/research/data/signals.json';
         const SUPPORTED_LANGS = ['zh', 'en'];
         const REPORT_VIEWS = ['module', 'full', 'previous'];
         const VIEW_LABELS = {
@@ -79,6 +81,8 @@
                 showPreviousDiff: '显示变化对照',
                 hidePreviousDiff: '隐藏变化对照',
                 previousModuleContent: '上一版模块内容',
+                relatedSignals: '相关信号',
+                openSignal: '打开信号',
                 removedModule: '当前最新版已不保留该模块内容',
                 noModuleContent: '该模块暂无内容',
                 noPreviousModuleContent: '上一版没有对应模块内容',
@@ -105,6 +109,8 @@
                 showPreviousDiff: 'Show changes',
                 hidePreviousDiff: 'Hide changes',
                 previousModuleContent: 'Previous module content',
+                relatedSignals: 'Related signals',
+                openSignal: 'Open signal',
                 removedModule: 'This module is not retained in the latest report',
                 noModuleContent: 'No content in this module yet',
                 noPreviousModuleContent: 'No matching previous module content',
@@ -220,6 +226,7 @@
         let currentModuleId = 'overview';
         let currentModuleDiffOpen = false;
         let reportsById = new Map();
+        let signalEntries = [];
 
         document.addEventListener('DOMContentLoaded', async () => {
             await loadReport();
@@ -237,7 +244,10 @@
                     throw new Error('缺少报告 id 参数');
                 }
 
-                const reportsResponse = await fetch(REPORTS_DATA_URL, { cache: 'no-store' });
+                const [reportsResponse, signalsResponse] = await Promise.all([
+                    fetch(REPORTS_DATA_URL, { cache: 'no-store' }),
+                    fetch(SIGNALS_DATA_URL, { cache: 'no-store' }).catch(() => null),
+                ]);
                 if (!reportsResponse.ok) {
                     throw new Error(`加载 reports.json 失败: HTTP ${reportsResponse.status}`);
                 }
@@ -247,6 +257,7 @@
                     throw new Error('reports.json 不是有效数组');
                 }
 
+                signalEntries = await optionalSignals(signalsResponse);
                 reportsById = new Map(reports.map((item) => [item.id, item]));
                 const report = reportsById.get(reportId);
 
@@ -272,6 +283,17 @@
                 document.getElementById('heroMeta').innerHTML = '';
                 document.getElementById('markdownContent').innerHTML =
                     `<p style="color: #d43f3a;">${escapeHtml(error.message)}。请返回<a href="/invest/research/">研报中心</a>重试。</p>`;
+            }
+        }
+
+        async function optionalSignals(response) {
+            if (!response || !response.ok) return [];
+            try {
+                const data = await response.json();
+                return Array.isArray(data) ? data : [];
+            } catch (error) {
+                console.warn('Failed to load related signals:', error);
+                return [];
             }
         }
 
@@ -386,6 +408,7 @@
             renderViewSwitch(report, currentLang);
             renderArchiveLink(report, currentLang);
             renderPreviousReportPreview(report, currentLang);
+            renderRelatedSignals(report, currentLang);
             await renderReportModeContent(report, currentLang);
             syncQuery();
         }
@@ -718,6 +741,67 @@
 
             root.hidden = true;
             root.innerHTML = '';
+        }
+
+        function renderRelatedSignals(report, lang) {
+            const root = document.getElementById('relatedSignals');
+            if (!root) return;
+
+            const labels = VIEW_LABELS[lang] || VIEW_LABELS.en;
+            const signals = relatedSignalsForReport(report)
+                .sort((a, b) => parseDateMs(b.date) - parseDateMs(a.date));
+            if (!signals.length) {
+                root.hidden = true;
+                root.innerHTML = '';
+                return;
+            }
+
+            root.hidden = false;
+            root.innerHTML = `
+                <div class="related-signals-title">${escapeHtml(labels.relatedSignals)}</div>
+                <div class="related-signals-list">
+                    ${signals.map((signal) => `
+                        <a class="related-signal" href="${escapeHtml(signalDashboardUrl(signal, lang))}">
+                            <span class="related-signal-date">${escapeHtml(signal.date || '')}</span>
+                            <span>${escapeHtml(localizeSignal(signal.title, lang))}</span>
+                            <span class="related-signal-action">${escapeHtml(labels.openSignal)} →</span>
+                        </a>
+                    `).join('')}
+                </div>
+            `;
+        }
+
+        function relatedSignalsForReport(report) {
+            return signalEntries.filter((signal) => {
+                if (Object.prototype.hasOwnProperty.call(signal, 'reportIds')) {
+                    return Array.isArray(signal.reportIds) && signal.reportIds.includes(report.id);
+                }
+                const tickers = Array.isArray(signal.tickers) ? signal.tickers : [];
+                const priceSymbol = String(report.priceSymbol || '').trim().toUpperCase();
+                return Boolean(priceSymbol && tickers.some((ticker) => String(ticker || '').trim().toUpperCase() === priceSymbol));
+            });
+        }
+
+        function signalDashboardUrl(signal, lang) {
+            const params = new URLSearchParams();
+            params.set('lang', lang);
+            return `/invest/research/monitoring-dashboard.html?${params.toString()}#${signalAnchor(signal)}`;
+        }
+
+        function signalAnchor(signal) {
+            return `signal-${String(signal && signal.id ? signal.id : '').replace(/[^A-Za-z0-9_-]/g, '-')}`;
+        }
+
+        function localizeSignal(value, lang) {
+            if (!value) return '';
+            if (typeof value === 'string') return value;
+            return value[lang] || value.zh || value.en || '';
+        }
+
+        function parseDateMs(value) {
+            const date = new Date(value);
+            const time = date.getTime();
+            return Number.isNaN(time) ? 0 : time;
         }
 
         function renderLanguageSwitch(report, lang) {

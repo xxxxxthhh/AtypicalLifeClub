@@ -122,6 +122,41 @@
     cursor: default;
 }
 
+.market-context-strip {
+    margin: 1rem 0 0;
+    padding: 0.62rem 0;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    align-items: center;
+}
+
+.market-context-strip[hidden] {
+    display: none;
+}
+
+.market-context-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 0.16rem 0.58rem;
+    color: var(--secondary);
+    background: color-mix(in srgb, var(--entry) 90%, var(--surface-2));
+    font-size: 0.76rem;
+    font-weight: 650;
+    text-decoration: none;
+    font-variant-numeric: tabular-nums;
+}
+
+.market-context-item:hover {
+    border-color: color-mix(in srgb, var(--accent) 42%, var(--border));
+    color: var(--accent);
+}
+
 .reports-grid {
     margin-top: 1rem;
     display: grid;
@@ -216,6 +251,25 @@
     border: 1px solid var(--border);
     padding: 0.13rem 0.5rem;
     color: var(--secondary);
+}
+
+.report-price-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+}
+
+.price-chip {
+    background: color-mix(in srgb, var(--entry) 88%, var(--surface-2));
+    font-variant-numeric: tabular-nums;
+}
+
+.price-chip-muted {
+    color: var(--tertiary);
+}
+
+.rerun-chip {
+    color: var(--content);
 }
 
 .report-highlights {

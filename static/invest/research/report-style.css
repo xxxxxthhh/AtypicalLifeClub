@@ -150,6 +150,48 @@
     border: 1px solid color-mix(in srgb, var(--accent) 26%, var(--border));
 }
 
+.related-signals {
+    margin-top: 0.85rem;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: color-mix(in srgb, var(--entry) 92%, var(--surface-2));
+    padding: 0.72rem;
+    display: grid;
+    gap: 0.55rem;
+}
+
+.related-signals-title {
+    color: var(--secondary);
+    font-size: 0.78rem;
+    font-weight: 750;
+}
+
+.related-signals-list {
+    display: grid;
+    gap: 0.4rem;
+}
+
+.related-signal {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    gap: 0.55rem;
+    align-items: center;
+    color: var(--content);
+    text-decoration: none;
+    font-size: 0.82rem;
+}
+
+.related-signal:hover {
+    color: var(--accent);
+}
+
+.related-signal-date,
+.related-signal-action {
+    color: var(--secondary);
+    font-size: 0.72rem;
+    white-space: nowrap;
+}
+
 .language-switch {
     display: inline-flex;
     align-items: center;

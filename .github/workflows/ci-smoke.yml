@@ -31,6 +31,15 @@ jobs:
       - name: Validate coverage map
         run: python3 static/invest/research/validate_coverage_map.py
 
+      - name: Validate research prices
+        run: python3 static/invest/research/validate_prices.py
+
+      - name: Generate research RSS feed
+        run: python3 static/invest/research/generate_feed.py
+
+      - name: Check research RSS feed is synced
+        run: git diff --exit-code static/invest/research/feed.xml
+
       - name: Validate currency data
         run: python3 static/invest/currency/validate_data.py
 

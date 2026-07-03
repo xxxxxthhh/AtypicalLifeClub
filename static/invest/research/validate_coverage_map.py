@@ -140,8 +140,29 @@ def validate_cross_checks(coverage: dict[str, Json]) -> set[str]:
     return ids
 
 
-def validate_signals(check_ids: set[str]) -> None:
+def report_monitoring_ids(reports: list[dict[str, Json]]) -> tuple[set[str], dict[str, set[str]]]:
+    report_ids: set[str] = set()
+    monitoring_by_report: dict[str, set[str]] = {}
+    for index, report in enumerate(reports):
+        report_id = require_string(report.get("id"), f"reports.json[{index}].id")
+        report_ids.add(report_id)
+        monitoring_ids: set[str] = set()
+        monitoring = report.get("monitoring", [])
+        if isinstance(monitoring, list):
+            for item_index, item in enumerate(monitoring):
+                if isinstance(item, dict):
+                    item_id = item.get("id")
+                    if isinstance(item_id, str) and item_id.strip():
+                        monitoring_ids.add(item_id)
+                    else:
+                        fail(f"reports.json[{index}].monitoring[{item_index}].id must be a non-empty string")
+        monitoring_by_report[report_id] = monitoring_ids
+    return report_ids, monitoring_by_report
+
+
+def validate_signals(check_ids: set[str], reports: list[dict[str, Json]]) -> None:
     signals = require_list(load_json(SIGNALS_JSON), "signals.json")
+    report_ids, monitoring_by_report = report_monitoring_ids(reports)
     seen: set[str] = set()
     for index, item in enumerate(signals):
         entry = require_dict(item, f"signals.json[{index}]")
@@ -168,6 +189,23 @@ def validate_signals(check_ids: set[str]) -> None:
         tickers = entry.get("tickers", [])
         for ticker_index, ticker in enumerate(require_list(tickers, f"signals.json[{index}].tickers")):
             require_string(ticker, f"signals.json[{index}].tickers[{ticker_index}]")
+
+        signal_report_ids = entry.get("reportIds", [])
+        for ref_index, ref in enumerate(require_list(signal_report_ids, f"signals.json[{index}].reportIds")):
+            report_id = require_string(ref, f"signals.json[{index}].reportIds[{ref_index}]")
+            if report_id not in report_ids:
+                fail(f"signals.json[{index}] references unknown report id: {report_id}")
+
+        monitoring_refs = entry.get("monitoringRefs", [])
+        for ref_index, ref in enumerate(require_list(monitoring_refs, f"signals.json[{index}].monitoringRefs")):
+            monitoring_ref = require_string(ref, f"signals.json[{index}].monitoringRefs[{ref_index}]")
+            if ":" not in monitoring_ref:
+                fail(f"signals.json[{index}].monitoringRefs[{ref_index}] must be reportId:monitoringId")
+            report_id, monitoring_id = monitoring_ref.split(":", 1)
+            if report_id not in report_ids:
+                fail(f"signals.json[{index}] references unknown report id in monitoringRef: {report_id}")
+            if monitoring_id not in monitoring_by_report.get(report_id, set()):
+                fail(f"signals.json[{index}] references unknown monitoring id: {monitoring_ref}")
 
 
 def validate_report_metadata(reports: list[dict[str, Json]], coverage: dict[str, Json]) -> None:
@@ -226,7 +264,7 @@ def main() -> None:
     validate_layer_and_role_ids(coverage)
     validate_planned_entries(coverage)
     check_ids = validate_cross_checks(coverage)
-    validate_signals(check_ids)
+    validate_signals(check_ids, reports)
     validate_report_metadata(reports, coverage)
     validate_page_wiring()
     print("OK: coverage map metadata, signal log, and page wiring are valid")

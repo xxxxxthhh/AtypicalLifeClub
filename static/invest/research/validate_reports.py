@@ -54,6 +54,7 @@ THEME_VALUES = {
 }
 MONITORING_ITEM_ID_RE = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
 NEXT_CHECK_DATE_RE = re.compile(r"\d{4}-(0[1-9]|1[0-2])")
+PRICE_SYMBOL_RE = re.compile(r"[A-Z0-9.\-=]+")
 BILINGUAL_KEYS = ("zh", "en")
 # Chain requirement (spec A.7 step 3): stance/priceAsOf/reportedPeriod/monitoring[]
 # are mandatory for current chainLayer reports. Enabled only after the backfill so
@@ -203,6 +204,11 @@ def validate_monitoring(report, report_idx):
 
 
 def validate_enrichment_fields(report, report_idx, reports_by_id):
+    if "priceSymbol" in report:
+        ensure_non_empty_string(report["priceSymbol"], f"report[{report_idx}].priceSymbol")
+        if not PRICE_SYMBOL_RE.fullmatch(report["priceSymbol"]):
+            fail(f"report[{report_idx}].priceSymbol is not Yahoo-compatible: {report['priceSymbol']}")
+
     if "stance" in report and report["stance"] not in STANCE_VALUES:
         fail(
             f"report[{report_idx}].stance must be one of "
@@ -238,6 +244,21 @@ def validate_enrichment_fields(report, report_idx, reports_by_id):
                     f"report[{report_idx}] ({report['id']}) is a current chainLayer "
                     f"report and must carry enrichment field: {field}"
                 )
+
+
+def validate_price_symbol_uniqueness(reports):
+    seen = {}
+    for idx, report in enumerate(reports):
+        is_current_chain = bool(report.get("chainLayer")) and report.get("isCurrent") is not False
+        symbol = report.get("priceSymbol")
+        if not is_current_chain or symbol is None:
+            continue
+        if symbol in seen:
+            fail(
+                f"report[{idx}].priceSymbol duplicates current-chain report "
+                f"{seen[symbol]}: {symbol}"
+            )
+        seen[symbol] = report["id"]
 
 
 def main():
@@ -333,6 +354,7 @@ def main():
         validate_version_metadata(report, idx, reports_by_id)
         validate_enrichment_fields(report, idx, reports_by_id)
 
+    validate_price_symbol_uniqueness(reports)
     print(f"OK: validated {len(reports)} reports in {REPORTS_JSON}")
 
 

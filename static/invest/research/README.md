@@ -51,12 +51,22 @@ static/invest/research/
 5. 运行仓库内校验：
    - `python3 static/invest/research/validate_reports.py`
    - `python3 static/invest/research/validate_coverage_map.py`
+   - `python3 static/invest/research/generate_feed.py`
+   - `git diff --exit-code static/invest/research/feed.xml`
 6. 对 full-cycle 重跑、版本链调整或大批量新增报告，额外运行独立发布契约检查：
    - `python3 /Users/kyx/.codex/skills/company-research-publishing/scripts/check_research_package.py static/invest/research`
    - 如果只检查单篇报告，可加 `--report-id <id>`
 7. 在仓库根目录预览：`hugo server -D`
 8. 检查 `http://localhost:1313/invest/research/`、`/invest/research/coverage-map.html`、`/invest/research/monitoring-dashboard.html` 和目标详情页
 9. 提交并推送，走博客现有发布链路
+
+## 追踪与复核规则
+
+监控台的复核候选队列只用于排序复核工作，不会自动触发重跑。队列公式固定为 `ageDays / 60 + driftPct / 25`，其中 `ageDays` 来自报告的 `priceAsOf`，`driftPct` 来自 `data/prices.json` 的 `changePct` 绝对值；`ageDays > 60` 或 `driftPct >= 25` 会成为复核候选。缺失价格是一等状态：在队列里显示为 `无价格数据`，只按年龄项排序，不折算成 `0%` 漂移。
+
+Batch-2 的未完成重跑 backlog 也进入同一套队列视角。队列给出排序，人决定是否重跑；不要把队列结果解释成投资信号或自动发布条件。
+
+信号日志 `data/signals.json` 是 append-only。每当一个 monitoring item 有了新的读数（定期 `nextCheckDate` 或事件驱动触发），同一轮更新需要追加 signal，并用 `reportIds` 指向受影响报告、用 `monitoringRefs` 写明 `reportId:monitoringItemId`。如果报告更新是由某个监控读数触发，先或同时追加对应 signal，再更新报告正文和 metadata。
 
 详情页支持同一页面三种浏览视图参数：
 
