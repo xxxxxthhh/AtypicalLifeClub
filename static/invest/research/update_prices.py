@@ -194,7 +194,7 @@ def build_failure_entry(
 
 def entry_is_stale(entry: PriceEntry, max_age_days: int = MAX_CARRIED_FORWARD_DAYS) -> bool:
     if entry.get("status") == "missing":
-        return False
+        return True
     try:
         last_date = parse_day(entry.get("lastDate"), "lastDate")
         attempted_at = parse_day(entry.get("attemptedAt"), "attemptedAt")
@@ -279,7 +279,7 @@ def main() -> None:
     stale_entries = [entry for entry in entries if entry_is_stale(entry)]
     if stale_entries:
         names = ", ".join(str(entry.get("symbol")) for entry in stale_entries)
-        fail(f"carried-forward prices older than {MAX_CARRIED_FORWARD_DAYS} days: {names}")
+        fail(f"missing or stale price data requires attention: {names}")
 
 
 if __name__ == "__main__":

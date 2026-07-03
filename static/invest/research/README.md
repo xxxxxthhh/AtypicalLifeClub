@@ -47,7 +47,7 @@ static/invest/research/
 1. 添加或更新报告正文：`static/invest/research/*.md`
 2. 在 `static/invest/research/data/reports.json` 增加或更新卡片元数据
 3. 如果报告承担 AI 基建链条验证角色，同步维护 `chainLayer` / `chainRole`，并确认 `data/coverage-map.json` 中已有对应层级或角色
-4. 观察到链级事件（例如某超大规模厂商开始外售算力）时，在 `data/signals.json` 追加一条信号：`id` / `date`（YYYY-MM-DD）/ 双语 `title` / 双语 `detail`（含来源与日期）/ `crossChecks`（引用 `coverage-map.json` 中 crossChecks 的 `id`）/ `tickers`。监控仪表盘的「交叉校验雷达」会自动把信号挂到对应规则下；如果事件暴露了框架里没有的校验点，先在 `crossChecks` 里新增规则再记录信号
+4. 观察到链级事件（例如某超大规模厂商开始外售算力）时，在 `data/signals.json` 追加一条信号：`id` / `date`（YYYY-MM-DD）/ 双语 `title` / 双语 `detail`（含来源与日期）/ `crossChecks`（引用 `coverage-map.json` 中 crossChecks 的 `id`）/ `tickers`。监控仪表盘的「交叉校验雷达」会自动把信号挂到对应规则下；如果事件暴露了框架里没有的校验点，先在 `crossChecks` 里新增规则再记录信号。`tickers[]` 需要反链到覆盖报告或价格台账时，使用报告里的 `priceSymbol` 写法（例如 `000660.KS`、`688676.SS`）；只是事件里提到的未覆盖公司或主题标签，可以保持普通短代码写法（例如 `META`、`MU`）
 5. 运行仓库内校验：
    - `python3 static/invest/research/validate_reports.py`
    - `python3 static/invest/research/validate_coverage_map.py`

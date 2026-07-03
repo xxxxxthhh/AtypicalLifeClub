@@ -64,6 +64,16 @@ class PriceEntryTests(unittest.TestCase):
 
         self.assertTrue(update_prices.entry_is_stale(entry, max_age_days=10))
 
+    def test_entry_is_stale_when_price_status_is_missing(self):
+        entry = {
+            "reportId": "nebius-2026",
+            "symbol": "BAD",
+            "status": "missing",
+            "attemptedAt": "2026-07-03",
+        }
+
+        self.assertTrue(update_prices.entry_is_stale(entry, max_age_days=10))
+
 
 if __name__ == "__main__":
     unittest.main()
