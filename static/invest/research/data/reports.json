@@ -1,5 +1,147 @@
 [
   {
+    "id": "oracle-2026",
+    "company": "Oracle",
+    "ticker": "NYSE: ORCL",
+    "priceSymbol": "ORCL",
+    "title": "Oracle 深度研究报告 - AI 云 RPO 仪表盘与资本开支融资压力",
+    "titleEn": "Oracle Deep Research Report - AI Cloud RPO Dashboard and Capex Financing Pressure",
+    "summary": "AI 基础设施书 demand-risk 层的 RPO/backlog 仪表盘：Oracle 正从成熟数据库/企业软件公司变成高资本强度 AI 云基础设施平台。FY2026 Q4 收入 $19.18B(+21%)、OCI 收入 $5.8B(+93%)、RPO 达 $638B(+363%)，需求读数极强；但 FY2026 capex $55.66B、自由现金流 -$23.69B、FY2027 capex 指引可达 $90-95B，且公司需要约 $40B 债务+股权融资。当前股价 $140.27（2026-07-02 收盘）、市值约 $404B、企业价值约 $502B，对应约 7.5x TTM EV/Sales 和约 22x EV/TTM 营业利润。高风险观察 / 订单质量仪表盘：关键不是订单多不多，而是 RPO 能否按期转化为高回报现金流。",
+    "summaryEn": "The RPO/backlog dashboard for the AI-infrastructure book's demand-risk layer: Oracle is changing from a mature database and enterprise-software company into a capital-intensive AI-cloud infrastructure platform. FY2026 Q4 revenue was $19.18B (+21%), OCI revenue was $5.8B (+93%), and RPO reached $638B (+363%), making the demand readout very strong. But FY2026 capex was $55.66B, free cash flow was -$23.69B, FY2027 capex could reach $90-95B, and the company expects roughly $40B of debt and equity financing. At $140.27 (Jul 2, 2026 close), roughly $404B market cap, and about $502B enterprise value, ORCL trades near 7.5x TTM EV/Sales and about 22x EV/TTM operating income. High-risk watch / order-quality dashboard: the key question is whether RPO converts into high-return cash flow on schedule.",
+    "tags": [
+      "AI云",
+      "企业软件",
+      "RPO",
+      "数据中心"
+    ],
+    "category": "tech",
+    "date": "2026-07-04",
+    "lastUpdate": "2026-07-04",
+    "file": "/invest/research/reports/view.html?id=oracle-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Oracle_深度研究报告_2026-07.md",
+      "en": "/invest/research/Oracle_Deep_Research_Report_2026-07.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "demand-risk 层的 RPO/backlog 仪表盘：FY2026 Q4 RPO $638B(+363%，环比 +$85B)，OCI 收入 $5.8B(+93%)，验证 AI 云需求是否穿透到订单簿",
+      "现金流和融资压力同样极端：FY2026 capex $55.66B、FCF -$23.69B；FY2027 capex 指引 $90-95B，另需约 $40B 债务+股权融资，含 $20B ATM 股权发行",
+      "当前 $140.27（2026-07-02 收盘）、约 $404B 市值、约 $502B 企业价值，对应约 7.5x TTM EV/Sales、约 22x EV/TTM 营业利润；传统软件利润表与 AI 基建资产负债表叙事并存",
+      "核心监控不是『订单多不多』，而是 RPO 转化、客户集中、OCI 毛利/ROIC、capex 是否按时变成可售 capacity，以及融资是否伤害股东"
+    ],
+    "chainLayer": "demand-risk",
+    "chainRole": "dashboard",
+    "stance": "high-risk-watch",
+    "priceAsOf": "2026-07-02",
+    "reportedPeriod": "FY2026 Q4",
+    "related": [
+      "coreweave-2026",
+      "nebius-2026",
+      "nvidia-2026",
+      "broadcom-2026",
+      "vertiv-2026",
+      "gevernova-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "rpo-conversion-quality",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "RPO 转化质量",
+          "en": "RPO conversion quality"
+        },
+        "trigger": {
+          "zh": "12 个月/13-36 个月 RPO 转化比例走弱，或新增 RPO 依赖少数超大 AI 客户",
+          "en": "12-month / 13-36-month RPO conversion weakens, or new RPO depends on a few very large AI customers"
+        },
+        "latest": {
+          "zh": "FY2026 Q4 RPO $638B，约 +363%，环比增加约 $85B",
+          "en": "FY2026 Q4 RPO $638B, about +363%, up about $85B sequentially"
+        },
+        "nextCheck": "FY2027 Q1 RPO 转化 / Q1 FY2027 RPO conversion",
+        "nextCheckDate": "2026-09"
+      },
+      {
+        "id": "capex-financing-burden",
+        "thesis": "bear",
+        "theme": "leverage-solvency",
+        "metric": {
+          "zh": "资本开支与融资负担",
+          "en": "Capex and financing burden"
+        },
+        "trigger": {
+          "zh": "FY2027 capex 超过 $95B，或约 $40B 新融资成本/稀释高于预期",
+          "en": "FY2027 capex exceeds $95B, or the roughly $40B financing need becomes more costly or dilutive than expected"
+        },
+        "latest": {
+          "zh": "FY2026 capex $55.66B、FCF -$23.69B；FY2027 capex 指引 $90-95B，融资约 $40B",
+          "en": "FY2026 capex $55.66B and FCF -$23.69B; FY2027 capex guide $90-95B with about $40B financing"
+        },
+        "nextCheck": "capex 指引与 ATM/债务执行 / capex guide and ATM/debt execution",
+        "nextCheckDate": "2026-09"
+      },
+      {
+        "id": "oci-growth-margin",
+        "thesis": "bull",
+        "theme": "valuation",
+        "metric": {
+          "zh": "OCI 增长与利润率/ROIC",
+          "en": "OCI growth and margin / ROIC"
+        },
+        "trigger": {
+          "zh": "OCI 收入继续 70%+ 增长，同时毛利率或 ROIC 披露改善",
+          "en": "OCI revenue keeps growing 70%+ while margin or ROIC disclosures improve"
+        },
+        "latest": {
+          "zh": "FY2026 Q4 OCI 收入 $5.8B，约 +93%；管理层目标 OCI 稳态高 20% ROIC",
+          "en": "FY2026 Q4 OCI revenue $5.8B, about +93%; management frames steady-state OCI ROIC in the high-20s"
+        },
+        "nextCheck": "FY2027 Q1 OCI 增长 / Q1 FY2027 OCI growth",
+        "nextCheckDate": "2026-09"
+      },
+      {
+        "id": "customer-concentration",
+        "thesis": "bear",
+        "theme": "concentration",
+        "metric": {
+          "zh": "AI 云客户集中",
+          "en": "AI-cloud customer concentration"
+        },
+        "trigger": {
+          "zh": "RPO 或 OCI 增长显示对一两个 AI 大客户过度依赖",
+          "en": "RPO or OCI growth shows overdependence on one or two large AI customers"
+        },
+        "latest": {
+          "zh": "市场关注 OpenAI 等超大 AI 合同对 RPO 的集中度影响；公司尚需更细披露",
+          "en": "Investors are focused on how large AI contracts such as OpenAI may concentrate RPO; finer disclosure is still needed"
+        },
+        "nextCheck": "10-K/10-Q 客户集中披露 / 10-K and 10-Q concentration disclosures"
+      },
+      {
+        "id": "data-center-power-delivery",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "数据中心、电力与 GPU 交付",
+          "en": "Data-center, power, and GPU delivery"
+        },
+        "trigger": {
+          "zh": "施工、电力、冷却、网络或 GPU 交付延迟导致 capex 先走、收入后移",
+          "en": "construction, power, cooling, networking, or GPU delivery delays make capex arrive before revenue"
+        },
+        "latest": {
+          "zh": "FY2027 $90-95B capex 需要数据中心、电力和 GPU 容量同步上线",
+          "en": "FY2027 capex of $90-95B requires data centers, power, and GPU capacity to come online together"
+        },
+        "nextCheck": "数据中心上线与 capex/OCI 节奏 / capacity go-lives and capex/OCI cadence",
+        "nextCheckDate": "2026-09"
+      }
+    ]
+  },
+  {
     "id": "nebius-2026",
     "company": "Nebius Group",
     "ticker": "NASDAQ: NBIS",

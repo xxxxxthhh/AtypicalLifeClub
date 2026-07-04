@@ -213,14 +213,6 @@
       }
     },
     {
-      "ticker": "ORCL",
-      "layer": "demand-risk",
-      "label": {
-        "zh": "ORCL RPO/积压校验缺口",
-        "en": "ORCL RPO/backlog check gap"
-      }
-    },
-    {
       "ticker": "MRVL",
       "layer": "custom-merchant-silicon",
       "label": {

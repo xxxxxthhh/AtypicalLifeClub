@@ -1,5 +1,31 @@
 [
   {
+    "id": "oracle-rpo-capex-fy2026",
+    "date": "2026-06-11",
+    "title": {
+      "zh": "Oracle RPO 升至 $638B，AI capex 与融资压力同步上升",
+      "en": "Oracle RPO rises to $638B as AI capex and financing pressure rise"
+    },
+    "detail": {
+      "zh": "Oracle FY2026 Q4 RPO 达 $638B（约 +363%，环比 +$85B），OCI 收入 $5.8B（约 +93%），强化 AI 云需求读数；但 FY2026 capex $55.66B、FCF -$23.69B，FY2027 capex 指引 $90-95B，且公司计划约 $40B 债务+股权融资。该信号用于校验 backlog 是否能转化为高回报现金流，而不是简单把大订单当作无风险需求。",
+      "en": "Oracle FY2026 Q4 RPO reached $638B (about +363%, +$85B sequentially), and OCI revenue was $5.8B (about +93%), strengthening the AI-cloud demand readout. But FY2026 capex was $55.66B, FCF was -$23.69B, FY2027 capex is guided at $90-95B, and the company expects roughly $40B of debt and equity financing. This signal tests whether backlog converts into high-return cash flow rather than treating large orders as risk-free demand."
+    },
+    "crossChecks": ["neocloud-financing", "buildout-orders", "chip-vs-downstream"],
+    "tickers": ["ORCL", "CRWV", "NBIS", "NVDA", "AVGO"],
+    "reportIds": ["oracle-2026", "coreweave-2026", "nebius-2026", "nvidia-2026", "broadcom-2026"],
+    "monitoringRefs": [
+      "oracle-2026:rpo-conversion-quality",
+      "oracle-2026:capex-financing-burden",
+      "oracle-2026:oci-growth-margin",
+      "oracle-2026:customer-concentration",
+      "coreweave-2026:real-demand-vs-financing",
+      "coreweave-2026:revenue-quality-circularity",
+      "nebius-2026:model-vs-balance-sheet",
+      "nebius-2026:funding-durability",
+      "broadcom-2026:fy2027-ai-delivery"
+    ]
+  },
+  {
     "id": "meta-cloud-compute-resale",
     "date": "2026-07-01",
     "title": {
