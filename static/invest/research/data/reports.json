@@ -1,5 +1,144 @@
 [
   {
+    "id": "marvell-2026",
+    "company": "Marvell Technology",
+    "ticker": "NASDAQ: MRVL",
+    "priceSymbol": "MRVL",
+    "title": "Marvell Technology 深度研究报告 - Broadcom 之外的 custom ASIC 与光互连架构校验",
+    "titleEn": "Marvell Technology Deep Research Report - Custom ASIC and Optical Interconnect Check Beyond Broadcom",
+    "summary": "AI 基础设施书 custom-merchant-silicon 层补位：Marvell 是 Broadcom 之外的自定义 ASIC/XPU、光互连和 NVIDIA NVLink Fusion 对照组。FY2027 Q1 收入约 $2.42B，公开报道数据中心收入约 $1.83B；管理层公开展望 FY2027/FY2028 收入约 $11.5B/$16.5B。NVIDIA $2B 投资 + NVLink Fusion、Celestial AI $3.25B 收购、AWS Trainium/Microsoft Maia 机会共同抬高长期想象空间。但当前 $245.29（2026-07-02 收盘）、市值约 $214.6B、约 19x FY2027E EV/Sales，执行容错率很低。高风险观察 / custom ASIC 架构校验。",
+    "summaryEn": "Custom-merchant-silicon coverage for the AI-infrastructure book: Marvell is the custom ASIC / XPU, optical interconnect, and NVIDIA NVLink Fusion cross-check outside Broadcom. FY2027 Q1 revenue was about $2.42B, public reports put data-center revenue near $1.83B, and management's public outlook frames FY2027 / FY2028 revenue around $11.5B / $16.5B. NVIDIA's $2B investment plus NVLink Fusion, the $3.25B Celestial AI acquisition, and AWS Trainium / Microsoft Maia opportunities all expand long-term optionality. But at $245.29 (Jul 2, 2026 close), about $214.6B market cap, and roughly 19x FY2027E EV/Sales, execution tolerance is low. High-risk watch / custom ASIC architecture check.",
+    "tags": [
+      "AI计算",
+      "自定义ASIC",
+      "光互连",
+      "AI网络"
+    ],
+    "category": "tech",
+    "date": "2026-07-04",
+    "lastUpdate": "2026-07-04",
+    "file": "/invest/research/reports/view.html?id=marvell-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Marvell_深度研究报告_2026-07.md",
+      "en": "/invest/research/Marvell_Deep_Research_Report_2026-07.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "custom-merchant-silicon 层补位：MRVL 是 Broadcom 之外的 custom ASIC/XPU + optical interconnect + NVLink Fusion 架构校验，对照 hyperscaler 自研 silicon 是否扩散到更多供应商",
+      "FY2027 Q1 收入约 $2.42B、毛利 $1.26B、营业利润 $350M、FCF $483M；公开报道当前季度指引约 $2.7B 收入和 $0.93 EPS",
+      "管理层公开展望 FY2027/FY2028 收入约 $11.5B/$16.5B；NVIDIA $2B 投资和 NVLink Fusion 合作把 MRVL 从 GPU 替代者变成 NVIDIA 兼容生态供应商",
+      "当前 $245.29（2026-07-02 收盘）、市值约 $214.6B、EV/FY2027E Sales 约 19x。高风险观察：AWS/Microsoft 项目、Celestial AI 整合和估值分母必须兑现"
+    ],
+    "chainLayer": "custom-merchant-silicon",
+    "chainRole": "architecture-check",
+    "stance": "high-risk-watch",
+    "priceAsOf": "2026-07-02",
+    "reportedPeriod": "FY2027 Q1",
+    "related": [
+      "broadcom-2026",
+      "nvidia-2026",
+      "arista-2026",
+      "amd-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "custom-asic-design-wins",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "Custom ASIC / XPU 设计胜出转收入",
+          "en": "Custom ASIC / XPU design wins converting to revenue"
+        },
+        "trigger": {
+          "zh": "FY2027 data center revenue 每季加速，且 AWS/Microsoft/更多 hyperscaler 项目确认放量",
+          "en": "FY2027 data-center revenue accelerates each quarter and AWS / Microsoft / additional hyperscaler programs ramp"
+        },
+        "latest": {
+          "zh": "公开报道 FY2027/FY2028 收入展望约 $11.5B/$16.5B",
+          "en": "public reports frame FY2027 / FY2028 revenue outlook around $11.5B / $16.5B"
+        },
+        "nextCheck": "FY2027 Q2 财报 / FY2027 Q2 earnings",
+        "nextCheckDate": "2026-08"
+      },
+      {
+        "id": "aws-microsoft-concentration",
+        "thesis": "bear",
+        "theme": "concentration",
+        "metric": {
+          "zh": "AWS/Microsoft custom silicon 集中度",
+          "en": "AWS / Microsoft custom silicon concentration"
+        },
+        "trigger": {
+          "zh": "Trainium/Maia 项目份额下降或代际切换导致 revenue ramp 延迟",
+          "en": "Trainium / Maia share loss or generational transition delays the revenue ramp"
+        },
+        "latest": {
+          "zh": "公开报道对 Amazon Trainium 3、Microsoft Maia ramp 和客户可见度存在分歧",
+          "en": "public reports show debate around Amazon Trainium 3, Microsoft Maia ramp, and customer visibility"
+        },
+        "nextCheck": "客户项目披露 / customer program disclosures"
+      },
+      {
+        "id": "nvlink-fusion-economics",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "NVLink Fusion 合作经济性",
+          "en": "NVLink Fusion partnership economics"
+        },
+        "trigger": {
+          "zh": "NVIDIA $2B 投资与 NVLink Fusion 从生态公告转为可确认收入和毛利贡献",
+          "en": "NVIDIA's $2B investment and NVLink Fusion move from ecosystem announcement to recognized revenue and margin contribution"
+        },
+        "latest": {
+          "zh": "Marvell 将提供 custom XPU 和 NVLink-compatible scale-up networking",
+          "en": "Marvell is expected to provide custom XPUs and NVLink-compatible scale-up networking"
+        },
+        "nextCheck": "NVLink Fusion 产品化 / productization milestones",
+        "nextCheckDate": "2026-12"
+      },
+      {
+        "id": "celestial-ai-integration",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "Celestial AI photonic fabric 整合",
+          "en": "Celestial AI photonic-fabric integration"
+        },
+        "trigger": {
+          "zh": "Celestial AI revenue milestone 或大客户设计导入提前/延后",
+          "en": "Celestial AI revenue milestones or large-customer design-ins arrive earlier or later than expected"
+        },
+        "latest": {
+          "zh": "$3.25B 收购增强 silicon photonics/photonic fabric，显著收入贡献偏 FY2028 后",
+          "en": "$3.25B acquisition strengthens silicon photonics / photonic fabric; material revenue contribution is later-dated"
+        },
+        "nextCheck": "整合与 revenue milestone / integration and revenue milestones"
+      },
+      {
+        "id": "valuation-revenue-ramp",
+        "thesis": "bear",
+        "theme": "valuation",
+        "metric": {
+          "zh": "高 forward EV/Sales 的收入分母风险",
+          "en": "Revenue-denominator risk at high forward EV/Sales"
+        },
+        "trigger": {
+          "zh": "FY2027/FY2028 收入展望下修，使约 19x FY2027E EV/Sales 失去分母支撑",
+          "en": "FY2027 / FY2028 revenue outlook is cut, removing denominator support from roughly 19x FY2027E EV/Sales"
+        },
+        "latest": {
+          "zh": "股价 $245.29、市值约 $214.6B；公开 FY2027E 收入框架约 $11.5B",
+          "en": "$245.29 share price and about $214.6B cap; public FY2027E revenue frame around $11.5B"
+        },
+        "nextCheck": "FY2027 每季指引 / quarterly FY2027 guidance",
+        "nextCheckDate": "2026-08"
+      }
+    ]
+  },
+  {
     "id": "nebius-2026",
     "company": "Nebius Group",
     "ticker": "NASDAQ: NBIS",

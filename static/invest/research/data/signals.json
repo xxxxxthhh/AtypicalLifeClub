@@ -1,5 +1,31 @@
 [
   {
+    "id": "marvell-custom-asic-optical-ramp",
+    "date": "2026-05-28",
+    "title": {
+      "zh": "Marvell 上修 FY2027/FY2028 展望，custom ASIC 与光互连进入架构校验位",
+      "en": "Marvell raises FY2027/FY2028 outlook as custom ASIC and optical interconnect enter the architecture check"
+    },
+    "detail": {
+      "zh": "公开报道显示 Marvell 将 FY2027/FY2028 收入展望上修至约 $11.5B/$16.5B，数据中心收入约 $1.83B，且 NVIDIA $2B 投资与 NVLink Fusion 合作、Celestial AI 光互连收购共同强化其 AI custom silicon/optical 路线。该信号用于交叉校验 Broadcom 自定义 XPU 叙事是否扩散到更多供应商，以及 optical interconnect 是否成为 AI 集群新瓶颈。",
+      "en": "Public reports indicate Marvell raised FY2027 / FY2028 revenue outlook to about $11.5B / $16.5B, with data-center revenue around $1.83B. NVIDIA's $2B investment plus NVLink Fusion and the Celestial AI optical-interconnect acquisition strengthen its AI custom silicon / optical path. This signal cross-checks whether Broadcom's custom XPU narrative is spreading to more suppliers and whether optical interconnect is becoming a new AI-cluster bottleneck."
+    },
+    "crossChecks": ["custom-silicon-ethernet", "chip-vs-downstream", "buildout-orders"],
+    "tickers": ["MRVL", "AVGO", "NVDA", "ANET", "AMD"],
+    "reportIds": ["marvell-2026", "broadcom-2026", "nvidia-2026", "arista-2026", "amd-2026"],
+    "monitoringRefs": [
+      "marvell-2026:custom-asic-design-wins",
+      "marvell-2026:aws-microsoft-concentration",
+      "marvell-2026:nvlink-fusion-economics",
+      "marvell-2026:valuation-revenue-ramp",
+      "broadcom-2026:fy2027-ai-delivery",
+      "broadcom-2026:xpu-customer-concentration",
+      "nvidia-2026:custom-asic-substitution",
+      "arista-2026:open-ethernet-vs-integrated",
+      "amd-2026:datacenter-growth"
+    ]
+  },
+  {
     "id": "meta-cloud-compute-resale",
     "date": "2026-07-01",
     "title": {

@@ -221,14 +221,6 @@
       }
     },
     {
-      "ticker": "MRVL",
-      "layer": "custom-merchant-silicon",
-      "label": {
-        "zh": "MRVL 自定义 ASIC 校验缺口",
-        "en": "MRVL custom-ASIC check gap"
-      }
-    },
-    {
       "ticker": "COHR",
       "layer": "optical",
       "label": {
