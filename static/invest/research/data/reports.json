@@ -1,5 +1,144 @@
 [
   {
+    "id": "micron-2026",
+    "company": "Micron Technology",
+    "ticker": "NASDAQ: MU",
+    "priceSymbol": "MU",
+    "title": "Micron Technology 深度研究报告 - AI memory 周期的 HBM/DRAM/NAND 仪表盘",
+    "titleEn": "Micron Technology Deep Research Report - HBM, DRAM, and NAND Dashboard for the AI Memory Cycle",
+    "summary": "AI 基础设施书 memory-storage 层补位：Micron 是 HBM、DDR5、数据中心 SSD 和长期供货协议共同构成的 AI 供给瓶颈仪表盘。FY2026 Q3 收入 $41.46B、毛利率约 84.6%、营业利润 $33.32B、净利润 $28.24B，Q4 指引收入 $49-51B、调整后 EPS $30-32、毛利率约 86%。HBM 产能公开报道显示已售罄至 2026，16 个战略客户协议中 14 个最低合同收入约 $100B、约 $22B 现金存款/承诺。当前 $975.56（2026-07-02 收盘）、市值约 $1.10T，判断为高风险观察 / memory-cycle 仪表盘：业务质量和订单可见度更强，但 memory 周期和估值压缩风险仍不能忽视。",
+    "summaryEn": "Memory-storage coverage for the AI-infrastructure book: Micron is the dashboard for HBM, DDR5, data-center SSDs, and long-term supply agreements as AI supply constraints move into memory. FY2026 Q3 revenue was $41.46B, gross margin about 84.6%, operating income $33.32B, and net income $28.24B; Q4 guidance is $49-51B revenue, $30-32 adjusted EPS, and about 86% gross margin. Public reports say HBM capacity is sold out through 2026, and 14 of 16 strategic customer agreements have about $100B of minimum contract revenue plus roughly $22B deposits / commitments. At $975.56 (Jul 2, 2026 close) and about $1.10T market cap, the stance is high-risk watch / memory-cycle dashboard: quality and visibility are stronger, but memory cyclicality and valuation compression still matter.",
+    "tags": [
+      "HBM",
+      "DRAM",
+      "NAND",
+      "AI基础设施"
+    ],
+    "category": "tech",
+    "date": "2026-07-04",
+    "lastUpdate": "2026-07-04",
+    "file": "/invest/research/reports/view.html?id=micron-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Micron_深度研究报告_2026-07.md",
+      "en": "/invest/research/Micron_Deep_Research_Report_2026-07.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "memory-storage 层补位：MU 用 HBM sold-out、DRAM/NAND 价格、数据中心 SSD 和 SCA 长期协议校验 AI 需求是否穿透到 memory bit/带宽/价格",
+      "FY2026 Q3 收入 $41.46B、毛利率约 84.6%、营业利润 $33.32B、净利润 $28.24B、FCF $17.56B；Q4 指引收入 $49-51B、EPS $30-32、毛利率约 86%",
+      "16 个 SCA 中 14 个最低合同收入约 $100B，约 $22B 存款/承诺；公开报道显示 HBM 产能售罄至 2026，且只能满足约 50%-66% 客户需求",
+      "当前 $975.56（2026-07-02 收盘）、市值约 $1.10T、净现金约 $19.6B，TTM P/E 约 22x、EV/TTM Sales 约 12x。高风险观察：结构性短缺 vs 周期均值回归"
+    ],
+    "chainLayer": "memory-storage",
+    "chainRole": "dashboard",
+    "stance": "high-risk-watch",
+    "priceAsOf": "2026-07-02",
+    "reportedPeriod": "FY2026 Q3",
+    "related": [
+      "sk-hynix-2026",
+      "sandisk-2026",
+      "nvidia-2026",
+      "amd-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "hbm-supply-tightness",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "HBM 供给紧张度",
+          "en": "HBM supply tightness"
+        },
+        "trigger": {
+          "zh": "HBM 2027 订单簿继续填充，或客户需求仍只能满足约 50%-66%",
+          "en": "HBM 2027 order book keeps filling, or MU can still satisfy only about 50%-66% of customer demand"
+        },
+        "latest": {
+          "zh": "公开报道显示 HBM 产能售罄至 2026，2027 订单簿快速填充",
+          "en": "public reports indicate HBM capacity is sold out through 2026 and 2027 books are filling"
+        },
+        "nextCheck": "FY2026 Q4 HBM 评论 / FY2026 Q4 HBM commentary",
+        "nextCheckDate": "2026-09"
+      },
+      {
+        "id": "strategic-customer-agreements",
+        "thesis": "either",
+        "theme": "pricing",
+        "metric": {
+          "zh": "SCA 长期协议与价格 floor",
+          "en": "SCA long-term agreements and price floors"
+        },
+        "trigger": {
+          "zh": "SCA 收入占比上升并稳定毛利率，或客户/监管对高价供货协议反弹",
+          "en": "SCA revenue mix rises and stabilizes margin, or customers / regulators push back on high-price supply agreements"
+        },
+        "latest": {
+          "zh": "16 个 SCA；14 个最低合同收入约 $100B，约 $22B 现金存款/承诺",
+          "en": "16 SCAs; 14 with about $100B minimum contract revenue and about $22B deposits / commitments"
+        },
+        "nextCheck": "SCA 收入与客户 deposits / SCA revenue and customer deposits",
+        "nextCheckDate": "2026-09"
+      },
+      {
+        "id": "dram-nand-pricing",
+        "thesis": "either",
+        "theme": "pricing",
+        "metric": {
+          "zh": "DRAM/NAND 合约价",
+          "en": "DRAM / NAND contract pricing"
+        },
+        "trigger": {
+          "zh": "月度 DRAM/NAND 价格连续走弱，或继续上行确认供给短缺",
+          "en": "monthly DRAM / NAND prices weaken for several months, or keep rising and confirm supply shortage"
+        },
+        "latest": {
+          "zh": "6 月 DRAM 约 +3%、NAND 约 +2.4%",
+          "en": "June DRAM up about 3% and NAND up about 2.4%"
+        },
+        "nextCheck": "月度合约价 / monthly contract pricing"
+      },
+      {
+        "id": "capex-supply-response",
+        "thesis": "bear",
+        "theme": "execution",
+        "metric": {
+          "zh": "capex 与 bit supply 响应",
+          "en": "Capex and bit-supply response"
+        },
+        "trigger": {
+          "zh": "2027/2028 新供给释放快于 AI 需求，或韩国/美国扩产导致价格转弱",
+          "en": "2027 / 2028 new supply arrives faster than AI demand, or Korea / U.S. expansion weakens pricing"
+        },
+        "latest": {
+          "zh": "Idaho/New York 扩产在路上，但有效供给主要滞后到 2027/2030 后",
+          "en": "Idaho / New York expansions are underway, but effective supply mostly lags into 2027 / 2030 and beyond"
+        },
+        "nextCheck": "行业 capex 与 bit supply / industry capex and bit supply"
+      },
+      {
+        "id": "valuation-cycle-risk",
+        "thesis": "bear",
+        "theme": "valuation",
+        "metric": {
+          "zh": "估值与周期顶点风险",
+          "en": "Valuation and cycle-peak risk"
+        },
+        "trigger": {
+          "zh": "毛利率从 80%+ 向历史均值回归，导致 EPS 分母和估值倍数同步收缩",
+          "en": "gross margin falls from 80%+ toward historical levels, compressing both EPS denominator and valuation multiple"
+        },
+        "latest": {
+          "zh": "股价 $975.56、市值约 $1.10T；Q3 毛利率约 84.6%、Q4 指引约 86%",
+          "en": "$975.56 share price and about $1.10T cap; Q3 gross margin about 84.6%, Q4 guide about 86%"
+        },
+        "nextCheck": "FY2026 Q4 毛利率与 FY2027 指引 / Q4 margin and FY2027 guide",
+        "nextCheckDate": "2026-09"
+      }
+    ]
+  },
+  {
     "id": "nebius-2026",
     "company": "Nebius Group",
     "ticker": "NASDAQ: NBIS",

@@ -1,5 +1,32 @@
 [
   {
+    "id": "micron-memory-supercycle-fy2026",
+    "date": "2026-06-25",
+    "title": {
+      "zh": "Micron Q3 收入 $41.46B，HBM/DRAM/NAND 共同验证 memory 瓶颈",
+      "en": "Micron Q3 revenue $41.46B as HBM, DRAM, and NAND validate the memory bottleneck"
+    },
+    "detail": {
+      "zh": "Micron FY2026 Q3 收入 $41.46B、毛利率约 84.6%，Q4 指引收入 $49-51B；公开报道显示 HBM 产能售罄至 2026，16 个 SCA 中 14 个最低合同收入约 $100B，6 月 DRAM/NAND 价格仍上涨。该信号用于检验 AI 需求是否真正穿透到 memory bit/带宽/价格，同时监控周期顶点和估值压缩风险。",
+      "en": "Micron FY2026 Q3 revenue was $41.46B with about 84.6% gross margin, and Q4 guidance is $49-51B. Public reports indicate HBM capacity is sold out through 2026, 14 of 16 SCAs carry about $100B of minimum contract revenue, and June DRAM / NAND prices were still rising. This signal tests whether AI demand is truly reaching memory bits, bandwidth, and pricing while monitoring cycle-peak and valuation-compression risk."
+    },
+    "crossChecks": ["memory-cycle", "chip-vs-downstream", "capacity-resale"],
+    "tickers": ["MU", "000660.KS", "SNDK", "NVDA", "AMD"],
+    "reportIds": ["micron-2026", "sk-hynix-2026", "sandisk-2026", "nvidia-2026", "amd-2026"],
+    "monitoringRefs": [
+      "micron-2026:hbm-supply-tightness",
+      "micron-2026:strategic-customer-agreements",
+      "micron-2026:dram-nand-pricing",
+      "micron-2026:valuation-cycle-risk",
+      "sk-hynix-2026:margin-mean-reversion",
+      "sk-hynix-2026:hbm4-competition",
+      "sandisk-2026:nand-cycle-margin-peak",
+      "sandisk-2026:cycle-derating",
+      "nvidia-2026:ai-capex-durability",
+      "amd-2026:datacenter-growth"
+    ]
+  },
+  {
     "id": "meta-cloud-compute-resale",
     "date": "2026-07-01",
     "title": {

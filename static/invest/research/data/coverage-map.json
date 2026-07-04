@@ -189,14 +189,6 @@
       }
     },
     {
-      "ticker": "MU",
-      "layer": "memory-storage",
-      "label": {
-        "zh": "MU 内存周期缺口",
-        "en": "MU memory-cycle gap"
-      }
-    },
-    {
       "ticker": "CEG/VST",
       "layer": "power",
       "label": {
