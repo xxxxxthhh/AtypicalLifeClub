@@ -205,14 +205,6 @@
       }
     },
     {
-      "ticker": "META",
-      "layer": "demand-risk",
-      "label": {
-        "zh": "META 需求锚缺口",
-        "en": "META demand-anchor gap"
-      }
-    },
-    {
       "ticker": "ORCL",
       "layer": "demand-risk",
       "label": {

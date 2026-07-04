@@ -12,8 +12,10 @@
     },
     "crossChecks": ["capacity-resale", "neocloud-financing", "memory-cycle"],
     "tickers": ["META", "CRWV", "NBIS", "MU", "SNDK", "AMD", "000660.KS"],
-    "reportIds": ["coreweave-2026", "nebius-2026", "sandisk-2026", "amd-2026", "sk-hynix-2026"],
+    "reportIds": ["meta-2026", "coreweave-2026", "nebius-2026", "sandisk-2026", "amd-2026", "sk-hynix-2026"],
     "monitoringRefs": [
+      "meta-2026:capacity-resale-pivot",
+      "meta-2026:capex-intensity",
       "coreweave-2026:real-demand-vs-financing",
       "coreweave-2026:revenue-quality-circularity",
       "coreweave-2026:self-build-pricing-crack",
