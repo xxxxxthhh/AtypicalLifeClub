@@ -1,7 +1,7 @@
 # Oracle (ORCL) Deep Research Report
 
 Coverage date: 2026-07-04
-Last updated: 2026-07-04
+Last updated: 2026-07-05
 Ticker: NYSE: ORCL
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -13,7 +13,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 **One-line thesis:** Oracle is changing from a mature database and enterprise-software company into a capital-intensive AI-cloud infrastructure platform: FY2026 Q4 revenue was $19.18B (+21%), OCI revenue was $5.8B (+93%), and RPO reached $638B (+363%), making the demand readout very strong. But FY2026 capex was $55.66B, free cash flow was -$23.69B, FY2027 capex could reach $90-95B, and the company expects to raise about $40B of new debt and equity financing. This is not ordinary SaaS backlog; it is an AI-infrastructure order book with leverage and construction risk.
 
-**Current view:** **High-risk watch / order-quality dashboard.** ORCL is valuable to the AI-infra chain because it concentrates GPU, networking, optical, power, and data-center demand into a trackable RPO metric. For shareholders, the current $140.27 share price (Jul 2, 2026 close), roughly $404B market cap, and about $502B enterprise value imply about 7.5x TTM EV/Sales and about 22x EV/TTM operating income, while free cash flow is still -$23.69B. The key question is not whether orders are large. It is whether those orders convert into high-return cash flow on schedule.
+**Current view:** **High-risk watch / order-quality dashboard.** ORCL is valuable to the AI-infra chain because it concentrates GPU, networking, optical, power, and data-center demand into a trackable RPO metric. For shareholders, the current $140.27 share price (Jul 2, 2026 close), roughly $404B market cap, about $124.30B of net debt on a total-debt-minus-cash-and-ST-investments basis, and about $528B enterprise value imply about 7.8x TTM EV/Sales and about 23.5x EV/TTM operating income, while free cash flow is still -$23.69B. The key question is not whether orders are large. It is whether those orders convert into high-return cash flow on schedule.
 
 **Quick stats:**
 
@@ -21,7 +21,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 |--------|-------|
 | Share price | $140.27 (Jul 2, 2026 close, Yahoo/yfinance) |
 | Market cap / shares | About $404B; about 2.88B shares |
-| Enterprise value | About $502B (market cap plus about $98.25B net debt) |
+| Enterprise value | About $528B (market cap plus about $124.30B net debt; total debt $156.19B less cash+ST investments $31.89B) |
 | Latest reported period | FY2026 Q4 (quarter ended May 31, 2026) |
 | Q4 revenue / YoY | $19.18B, about +21% |
 | Q4 OCI revenue / YoY | $5.8B, about +93% |
@@ -76,7 +76,7 @@ Oracle's financial profile has clearly changed: the income statement still looks
 | Operating income | Q4 GAAP operating income $6.96B; non-GAAP about $8.6B | Software profit remains strong | B+ |
 | FCF | FY2026 -$23.69B; Q4 FCF -$1.87B | Capex is already suppressing cash flow materially | C |
 | Capex | FY2026 $55.66B; FY2027 $90-95B | Capital intensity is the main risk | Caution |
-| Balance sheet | Cash+ST investments $31.89B, total debt $156.19B, net debt about $98.25B | High leverage; still needs financing | C |
+| Balance sheet | Cash+ST investments $31.89B, total debt $156.19B, net debt about $124.30B (total debt less cash+ST investments) | High leverage; still needs financing | C |
 | Financing | About $40B FY2027 debt + equity financing | Dilution and interest cost need monitoring | Caution |
 
 RPO quality needs decomposition. Looking only at $638B is too optimistic. Looking only at -$23.69B FCF is too pessimistic. The key questions are:
@@ -117,7 +117,7 @@ The bear case is that Oracle may be buying low-FCF, customer-concentrated, depre
 4. **OCI margins may be below software margins.** Software revenue fell 2%; OCI is growing fast but is capital-intensive and depreciation-heavy, which may pressure blended margins before scale benefits arrive.
 5. **Construction and power constraints matter.** $90-95B of capex does not become revenue automatically. Data centers, power, cooling, networking, and GPU delivery all affect timing.
 
-Downside context: if FY2027 capex lands at the high end, 12-month RPO recognition does not improve, and financing keeps diluting shareholders, the market may assign 5-6x EV/Sales or lower. Against about $67.36B of TTM revenue, today's roughly 7.5x EV/Sales has limited error tolerance.
+Downside context: if FY2027 capex lands at the high end, 12-month RPO recognition does not improve, and financing keeps diluting shareholders, the market may assign 5-6x EV/Sales or lower. Against about $67.36B of TTM revenue, today's roughly 7.8x EV/Sales has limited error tolerance.
 
 ## 7. Key Uncertainties
 
@@ -142,11 +142,11 @@ The following is valuation context, not a target price or recommendation.
 | Method | Current readout | Key assumptions | Interpretation |
 |--------|-----------------|-----------------|----------------|
 | P/S | Market cap about $404B / TTM revenue about $67.36B = about 6.0x | TTM uses FY2026 four quarters | Not cheap for 20%+ growth, but compressed sharply from 2025 highs |
-| EV/Sales | EV about $502B / TTM revenue about $67.36B = about 7.5x | EV uses market cap plus net debt approximation | Leverage makes EV materially higher than equity value |
-| EV / operating income | EV about $502B / TTM operating income about $22.44B = about 22x | GAAP operating income | Acceptable if OCI margin improves; expensive if FCF stays negative |
+| EV/Sales | EV about $528B / TTM revenue about $67.36B = about 7.8x | EV uses market cap plus net debt based on total debt less cash+ST investments | Leverage makes EV materially higher than equity value |
+| EV / operating income | EV about $528B / TTM operating income about $22.44B = about 23.5x | GAAP operating income | Acceptable if OCI margin improves; expensive if FCF stays negative |
 | P/E | Market cap about $404B / TTM net income about $17.09B = about 24x | GAAP TTM net income | EPS does not fully capture future depreciation and financing pressure |
 | FCF yield | FY2026 FCF -$23.69B | Buildout period capex | Traditional FCF valuation is temporarily broken; RPO conversion is the bridge |
-| RPO / EV | $638B RPO / $502B EV = about 1.27x | RPO is not revenue or profit | Huge backlog, but value depends on margin, timing, and financing |
+| RPO / EV | $638B RPO / $528B EV = about 1.21x | RPO is not revenue or profit | Huge backlog, but value depends on margin, timing, and financing |
 
 ORCL is neither a cheap old software stock nor a pure high-growth cloud stock. It is a mature-profit pool using its balance sheet to buy AI-cloud growth. The key valuation variable is the FY2027-FY2029 path from RPO to revenue and then to positive FCF.
 
@@ -177,4 +177,5 @@ The current classification is **high-risk watch / order-quality dashboard**. Do 
 - RPO of $638B, 12-month / 13-36-month RPO recognition mix, FY2026 capex of $55.66B, FY2027 capex up to $95B, customer prepayments / timing differences of $20-25B, and ROIC framing are sourced from MarketWatch: [Oracle's stock slides after earnings](https://www.marketwatch.com/story/oracles-stock-slides-after-earnings-as-the-steep-price-of-ai-spooks-investors-0653b309).
 - Q4 cloud revenue of $9.9B (+47%), software revenue of $6.8B (-2%), RPO +363% YoY, and management commentary about the AI-infrastructure market are sourced from The Times / WSJ syndication: [Oracle Reports Higher Profit on Surging Cloud Revenue](https://www.thetimes.com/business/wsj/article/oracle-profit-cloud-revenue-xq3x5rn2w).
 - ORCL's Jul 2, 2026 close of $140.27, roughly $404B market cap, about 2.88B shares, cash/debt/cash-flow figures, and quarterly financial tables were pulled through Yahoo Finance/yfinance on 2026-07-04. This market-data snapshot can be revised by the data provider and should subsequently be maintained by `static/invest/research/update_prices.py`.
+- This report uses a debt-inclusive EV basis: total debt of $156.19B less cash+ST investments of $31.89B gives net debt of about $124.30B, and roughly $404B market cap plus about $124.30B net debt gives about $528B EV. If a narrower basis excluding some lease / other liability components is used later, it should be footnoted separately and EV/Sales, EV/operating income, and RPO/EV should be recomputed together.
 - This report does not use non-public information. OpenAI, Meta, NVIDIA, and other customer-concentration references are treated as public-reporting and market-concern frameworks, not as confirmed undisclosed contract details.
