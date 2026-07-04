@@ -2,6 +2,30 @@
   "generatedAt": "2026-07-04",
   "entries": [
     {
+      "reportId": "constellation-energy-2026",
+      "symbol": "CEG",
+      "status": "ok",
+      "attemptedAt": "2026-07-04",
+      "baseDate": "2026-07-02",
+      "basePrice": 239.25,
+      "lastDate": "2026-07-02",
+      "lastClose": 239.25,
+      "changePct": 0.0,
+      "currency": "USD"
+    },
+    {
+      "reportId": "vistra-2026",
+      "symbol": "VST",
+      "status": "ok",
+      "attemptedAt": "2026-07-04",
+      "baseDate": "2026-07-02",
+      "basePrice": 151.05,
+      "lastDate": "2026-07-02",
+      "lastClose": 151.05,
+      "changePct": 0.0,
+      "currency": "USD"
+    },
+    {
       "reportId": "nebius-2026",
       "symbol": "NBIS",
       "status": "ok",

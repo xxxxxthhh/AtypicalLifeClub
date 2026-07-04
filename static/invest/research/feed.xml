@@ -6,6 +6,20 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>Constellation Energy 深度研究报告 - AI 电力约束的核电 PPA 锚 / Constellation Energy Deep Research Report - Nuclear PPA Anchor for the AI Power Constraint</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=constellation-energy-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=constellation-energy-2026#constellation-energy-2026@2026-07-04</guid>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施 power 层核电公共约束覆盖。Constellation 不是 GPU 供应商，而是验证 hyperscaler 是否愿意为 24/7、低碳、可靠电力签长期合同。2026Q1 收入 $11.12B、净利润 $1.59B，报道 EPS $2.74、核电发电量约 44,666 GWh，公司维持 2026 EPS 指引 $11-12；Microsoft/Crane Clean Energy Center（Three Mile Island Unit 1）重启目标指向 2027，Meta 也已与 CEG 签过约 1.1GW 核电 PPA。当前 $239.25（2026-07-02 收盘）、市值约 $85.4B、企业价值约 $107B，估值已经反映 AI 电力稀缺，后续应重点验证 PPA 执行、Crane restart 监管路径、PJM 容量价格和资产负债表资本纪律。中性观察 / power common-constraint。</description>
+    </item>
+    <item>
+      <title>Vistra 深度研究报告 - AI 电力约束的核电与燃气高 beta 仪表盘 / Vistra Deep Research Report - Nuclear and Gas High-Beta Dashboard for AI Power</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=vistra-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=vistra-2026#vistra-2026@2026-07-04</guid>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施 power 层的高 beta 仪表盘，与 Constellation Energy 成对覆盖。Vistra 同时拥有核电、燃气和零售/merchant power 暴露，用来验证 AI 数据中心需求是否从『清洁 baseload PPA』扩散到『可调度燃气容量、PJM/Texas 容量价值和现有发电资产重定价』。2026Q1 收入 $5.64B、净利润 $1.03B、营业利润 $1.50B、FCF $316M；Meta 20 年核电协议覆盖 Perry、Davis-Besse 与 Beaver Valley uprates，公开报道约 2.2GW；$4B Cogentrix 收购将增加约 5,500MW 燃气容量，预计 2026 年中后期完成。当前 $151.05（2026-07-02 收盘）、市值约 $50.9B、EV 约 $70.2B、约 3.6x EV/TTM sales；估值低于 CEG，但杠杆、气价、监管和容量市场波动更高。高风险观察 / power dashboard。</description>
+    </item>
+    <item>
       <title>Nebius Group 深度研究报告 - neocloud 的『干净对照组』：对 CoreWeave 风险锚的架构校验 / Nebius Group Deep Research Report - The 'Clean' Neocloud: An Architecture Check on the CoreWeave Risk Anchor</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=nebius-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=nebius-2026#nebius-2026@2026-07-01</guid>

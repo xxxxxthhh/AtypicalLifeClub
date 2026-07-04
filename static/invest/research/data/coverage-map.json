@@ -197,14 +197,6 @@
       }
     },
     {
-      "ticker": "CEG/VST",
-      "layer": "power",
-      "label": {
-        "zh": "CEG/VST 电力约束缺口",
-        "en": "CEG/VST power-constraint gap"
-      }
-    },
-    {
       "ticker": "META",
       "layer": "demand-risk",
       "label": {

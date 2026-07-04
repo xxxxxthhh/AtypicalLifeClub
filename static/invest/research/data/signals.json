@@ -1,5 +1,40 @@
 [
   {
+    "id": "ai-power-capacity-procurement-2026",
+    "date": "2026-05-20",
+    "title": {
+      "zh": "PJM 提前数据中心容量采购，CEG/VST 电力约束进入市场机制",
+      "en": "PJM accelerates data-center capacity procurement as CEG/VST move the power constraint into market mechanisms"
+    },
+    "detail": {
+      "zh": "PJM 将数据中心容量采购提前至 2026-09，CEG/VST/NRG 等电力股随之反应；同时 CEG 通过 Microsoft/Crane restart 和 Meta 约 1.1GW 核电 PPA 验证长期清洁电力合同化，VST 通过 Meta 核电协议与 Cogentrix 约 5,500MW 燃气容量验证可调度容量价值。这个信号测试 AI 电力需求能否从叙事转换为容量价格、PPA 和现有发电资产重定价。",
+      "en": "PJM moved data-center capacity procurement up to Sep 2026 and power equities such as CEG/VST/NRG reacted. CEG tests long-term clean-power contracting through Microsoft/Crane restart and Meta's about 1.1GW nuclear PPA, while VST tests dispatchable-capacity value through Meta nuclear PPAs and the roughly 5,500MW Cogentrix gas-capacity acquisition. The signal tests whether AI power demand converts from narrative into capacity prices, PPAs and repricing of existing generation assets."
+    },
+    "crossChecks": ["buildout-orders", "resource-constraints", "chip-vs-downstream"],
+    "tickers": ["CEG", "VST", "GEV", "VRT", "OKLO", "BE"],
+    "reportIds": [
+      "constellation-energy-2026",
+      "vistra-2026",
+      "gevernova-2026",
+      "vertiv-2026",
+      "oklo-2026",
+      "bloom-energy-2026"
+    ],
+    "monitoringRefs": [
+      "constellation-energy-2026:nuclear-ppa-execution",
+      "constellation-energy-2026:crane-restart-regulatory",
+      "constellation-energy-2026:pjm-capacity-pricing",
+      "vistra-2026:meta-nuclear-ppa",
+      "vistra-2026:cogentrix-integration",
+      "vistra-2026:gas-capacity-market",
+      "gevernova-2026:orders-backlog",
+      "gevernova-2026:gas-turbine-slots",
+      "vertiv-2026:orders-backlog-cadence",
+      "oklo-2026:customer-conversion",
+      "bloom-energy-2026:onsite-power-demand"
+    ]
+  },
+  {
     "id": "meta-cloud-compute-resale",
     "date": "2026-07-01",
     "title": {

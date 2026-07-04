@@ -1,5 +1,286 @@
 [
   {
+    "id": "constellation-energy-2026",
+    "company": "Constellation Energy",
+    "ticker": "NASDAQ: CEG",
+    "priceSymbol": "CEG",
+    "title": "Constellation Energy 深度研究报告 - AI 电力约束的核电 PPA 锚",
+    "titleEn": "Constellation Energy Deep Research Report - Nuclear PPA Anchor for the AI Power Constraint",
+    "summary": "AI 基础设施 power 层核电公共约束覆盖。Constellation 不是 GPU 供应商，而是验证 hyperscaler 是否愿意为 24/7、低碳、可靠电力签长期合同。2026Q1 收入 $11.12B、净利润 $1.59B，报道 EPS $2.74、核电发电量约 44,666 GWh，公司维持 2026 EPS 指引 $11-12；Microsoft/Crane Clean Energy Center（Three Mile Island Unit 1）重启目标指向 2027，Meta 也已与 CEG 签过约 1.1GW 核电 PPA。当前 $239.25（2026-07-02 收盘）、市值约 $85.4B、企业价值约 $107B，估值已经反映 AI 电力稀缺，后续应重点验证 PPA 执行、Crane restart 监管路径、PJM 容量价格和资产负债表资本纪律。中性观察 / power common-constraint。",
+    "tags": [
+      "AI电力",
+      "核电",
+      "数据中心",
+      "PPA"
+    ],
+    "category": "tech",
+    "date": "2026-07-04",
+    "lastUpdate": "2026-07-04",
+    "file": "/invest/research/reports/view.html?id=constellation-energy-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Constellation_Energy_深度研究报告_2026-07.md",
+      "en": "/invest/research/Constellation_Energy_Deep_Research_Report_2026-07.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "补齐 AI 基建 power 层核电公共约束：CEG 用既有核电 fleet、长期 PPA 和 PJM 容量价格验证 AI 数据中心是否真的愿意为稳定清洁电力付溢价",
+      "2026Q1 收入 $11.12B、净利润 $1.59B、报道 EPS $2.74，核电发电量约 44,666 GWh，公司维持 2026 EPS 指引 $11-12",
+      "Microsoft/Crane Clean Energy Center（Three Mile Island Unit 1）重启目标指向 2027，Meta 约 1.1GW 核电 PPA 说明 hyperscaler 电力需求正在合同化",
+      "当前 $239.25（2026-07-02）、市值约 $85.4B、EV 约 $107B、约 3.6x EV/TTM sales；质量高但 AI power 溢价已明显，需要持续验证监管、PJM 容量价格和资本纪律"
+    ],
+    "summaryEn": "Initial coverage of the nuclear common-constraint in the AI-infrastructure power layer. Constellation is not a GPU supplier; it tests whether hyperscalers are willing to sign long-term contracts for 24/7, low-carbon, reliable power. Q1 2026 revenue was $11.12B, net income $1.59B, reported EPS $2.74, nuclear generation about 44,666 GWh, and management maintained 2026 EPS guidance of $11-12. Microsoft/Crane Clean Energy Center (Three Mile Island Unit 1) restart targets 2027, and Meta has also signed about a 1.1GW nuclear PPA with Constellation. At $239.25 (2026-07-02 close), about $85.4B market cap and about $107B enterprise value, the stock already embeds an AI-power scarcity premium. The key checks are PPA execution, Crane restart regulation, PJM capacity pricing and balance-sheet discipline. Neutral watch / power common constraint.",
+    "chainLayer": "power",
+    "chainRole": "common-constraint",
+    "stance": "neutral-watch",
+    "priceAsOf": "2026-07-02",
+    "reportedPeriod": "2026Q1",
+    "related": [
+      "vistra-2026",
+      "gevernova-2026",
+      "oklo-2026",
+      "vertiv-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "nuclear-ppa-execution",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "核电 PPA 合同化",
+          "en": "Nuclear PPA conversion"
+        },
+        "trigger": {
+          "zh": "Microsoft/Meta 等 hyperscaler PPA 容量、价格和上线时间继续明确",
+          "en": "Microsoft/Meta and other hyperscaler PPAs gain clearer capacity, price and start-date terms"
+        },
+        "latest": {
+          "zh": "Meta 约 1.1GW 核电 PPA；Microsoft/Crane restart 目标 2027",
+          "en": "Meta about 1.1GW nuclear PPA; Microsoft/Crane restart targets 2027"
+        },
+        "nextCheck": "PPA 细节与上线进度 / PPA terms and delivery timing",
+        "nextCheckDate": "2026-12"
+      },
+      {
+        "id": "crane-restart-regulatory",
+        "thesis": "either",
+        "theme": "regulatory",
+        "metric": {
+          "zh": "Crane/Three Mile Island 重启审批",
+          "en": "Crane/Three Mile Island restart approvals"
+        },
+        "trigger": {
+          "zh": "FERC/NRC/州层面审批、成本分摊或居民电价争议加速或延误",
+          "en": "FERC/NRC/state approvals, cost allocation or retail-rate disputes accelerate or delay the restart"
+        },
+        "latest": {
+          "zh": "Crane Clean Energy Center 目标 2027 重启",
+          "en": "Crane Clean Energy Center targets a 2027 restart"
+        },
+        "nextCheck": "监管进度 / regulatory milestones",
+        "nextCheckDate": "2026-12"
+      },
+      {
+        "id": "pjm-capacity-pricing",
+        "thesis": "either",
+        "theme": "pricing",
+        "metric": {
+          "zh": "PJM 容量价格",
+          "en": "PJM capacity pricing"
+        },
+        "trigger": {
+          "zh": "PJM 数据中心容量采购提前至 2026-09 后，容量价格明显上行或回落",
+          "en": "PJM's accelerated data-center capacity procurement in Sep 2026 drives a clear rise or fade in capacity prices"
+        },
+        "latest": {
+          "zh": "PJM 已将数据中心容量采购节奏提前至 2026-09",
+          "en": "PJM has moved data-center capacity procurement forward to Sep 2026"
+        },
+        "nextCheck": "PJM 容量拍卖/采购结果",
+        "nextCheckDate": "2026-09"
+      },
+      {
+        "id": "debt-capex-discipline",
+        "thesis": "bear",
+        "theme": "leverage-solvency",
+        "metric": {
+          "zh": "净债务与 capex 纪律",
+          "en": "Net debt and capex discipline"
+        },
+        "trigger": {
+          "zh": "核电延寿、重启或 uprate 投入导致净债务和 FCF 压力扩大",
+          "en": "life-extension, restart or uprate spending expands net debt and FCF pressure"
+        },
+        "latest": {
+          "zh": "Q1 净债务约 $21.7B，EV 约 $107B",
+          "en": "Q1 net debt about $21.7B; EV about $107B"
+        },
+        "nextCheck": "2026-Q2 现金流与债务 / Q2 cash flow and debt",
+        "nextCheckDate": "2026-08"
+      },
+      {
+        "id": "ai-power-valuation-risk",
+        "thesis": "bear",
+        "theme": "valuation",
+        "metric": {
+          "zh": "AI 电力估值溢价",
+          "en": "AI-power valuation premium"
+        },
+        "trigger": {
+          "zh": "AI capex 或数据中心建设预期下修，但 CEG 仍按高电力稀缺溢价交易",
+          "en": "AI capex or data-center buildout expectations get cut while CEG still trades on a large power-scarcity premium"
+        },
+        "latest": {
+          "zh": "$239.25、约 $85.4B 市值、约 3.6x EV/TTM sales",
+          "en": "$239.25, about $85.4B market cap and about 3.6x EV/TTM sales"
+        },
+        "nextCheck": "AI capex 指引与电力股估值 / AI capex guides and power-equity multiples"
+      }
+    ]
+  },
+  {
+    "id": "vistra-2026",
+    "company": "Vistra",
+    "ticker": "NYSE: VST",
+    "priceSymbol": "VST",
+    "title": "Vistra 深度研究报告 - AI 电力约束的核电与燃气高 beta 仪表盘",
+    "titleEn": "Vistra Deep Research Report - Nuclear and Gas High-Beta Dashboard for AI Power",
+    "summary": "AI 基础设施 power 层的高 beta 仪表盘，与 Constellation Energy 成对覆盖。Vistra 同时拥有核电、燃气和零售/merchant power 暴露，用来验证 AI 数据中心需求是否从『清洁 baseload PPA』扩散到『可调度燃气容量、PJM/Texas 容量价值和现有发电资产重定价』。2026Q1 收入 $5.64B、净利润 $1.03B、营业利润 $1.50B、FCF $316M；Meta 20 年核电协议覆盖 Perry、Davis-Besse 与 Beaver Valley uprates，公开报道约 2.2GW；$4B Cogentrix 收购将增加约 5,500MW 燃气容量，预计 2026 年中后期完成。当前 $151.05（2026-07-02 收盘）、市值约 $50.9B、EV 约 $70.2B、约 3.6x EV/TTM sales；估值低于 CEG，但杠杆、气价、监管和容量市场波动更高。高风险观察 / power dashboard。",
+    "tags": [
+      "AI电力",
+      "核电",
+      "燃气发电",
+      "数据中心"
+    ],
+    "category": "tech",
+    "date": "2026-07-04",
+    "lastUpdate": "2026-07-04",
+    "file": "/invest/research/reports/view.html?id=vistra-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Vistra_深度研究报告_2026-07.md",
+      "en": "/invest/research/Vistra_Deep_Research_Report_2026-07.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "与 CEG 成对覆盖 power 层：VST 是核电 + 燃气 + merchant power 的高 beta 仪表盘，检验 AI 电力需求是否扩散到可调度容量",
+      "2026Q1 收入 $5.64B、净利润 $1.03B、营业利润 $1.50B、FCF $316M；Q1 净债务约 $19.3B",
+      "Meta 20 年核电协议覆盖 Perry、Davis-Besse、Beaver Valley uprates，公开报道约 2.2GW；$4B Cogentrix 收购将增加约 5,500MW 燃气容量",
+      "当前 $151.05（2026-07-02）、市值约 $50.9B、EV 约 $70.2B、约 3.6x EV/TTM sales；估值低于 CEG，但气价、监管、杠杆和容量市场回撤风险更高"
+    ],
+    "summaryEn": "High-beta dashboard coverage for the AI-infrastructure power layer, paired with Constellation Energy. Vistra combines nuclear, gas and retail/merchant-power exposure, testing whether AI data-center demand spreads from clean baseload PPAs into dispatchable gas capacity, PJM/Texas capacity value and the repricing of existing generation assets. Q1 2026 revenue was $5.64B, net income $1.03B, operating income $1.50B and FCF $316M. Meta's 20-year nuclear agreement covers Perry, Davis-Besse and Beaver Valley uprates, with public reporting around 2.2GW; the $4B Cogentrix deal would add about 5,500MW of gas capacity and is expected to close in mid-to-late 2026. At $151.05 (2026-07-02 close), about $50.9B market cap, about $70.2B EV and about 3.6x EV/TTM sales, Vistra trades below Constellation but carries more leverage, gas, regulatory and capacity-market risk. High-risk watch / power dashboard.",
+    "chainLayer": "power",
+    "chainRole": "dashboard",
+    "stance": "high-risk-watch",
+    "priceAsOf": "2026-07-02",
+    "reportedPeriod": "2026Q1",
+    "related": [
+      "constellation-energy-2026",
+      "gevernova-2026",
+      "bloom-energy-2026",
+      "oklo-2026",
+      "vertiv-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "meta-nuclear-ppa",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "Meta 核电 PPA 执行",
+          "en": "Meta nuclear PPA execution"
+        },
+        "trigger": {
+          "zh": "Perry、Davis-Besse、Beaver Valley uprates 的容量、价格、监管和上线节奏更明确",
+          "en": "capacity, price, regulatory and delivery cadence for Perry, Davis-Besse and Beaver Valley uprates becomes clearer"
+        },
+        "latest": {
+          "zh": "Meta 20 年核电协议，公开报道约 2.2GW",
+          "en": "Meta 20-year nuclear agreement, public reporting around 2.2GW"
+        },
+        "nextCheck": "PPA 与 uprate 进度 / PPA and uprate progress",
+        "nextCheckDate": "2026-12"
+      },
+      {
+        "id": "cogentrix-integration",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "Cogentrix 收购整合",
+          "en": "Cogentrix acquisition integration"
+        },
+        "trigger": {
+          "zh": "$4B 交易按期完成并把约 5,500MW 燃气容量转化为数据中心/容量市场收益，或出现延期和协同落空",
+          "en": "the $4B deal closes on time and converts about 5,500MW of gas capacity into data-center/capacity-market value, or suffers delays and missed synergies"
+        },
+        "latest": {
+          "zh": "交易预计 2026 年中后期完成",
+          "en": "deal expected to close in mid-to-late 2026"
+        },
+        "nextCheck": "交易完成与协同指引 / close and synergy guidance",
+        "nextCheckDate": "2026-12"
+      },
+      {
+        "id": "gas-capacity-market",
+        "thesis": "either",
+        "theme": "pricing",
+        "metric": {
+          "zh": "燃气与容量市场价格",
+          "en": "Gas and capacity-market pricing"
+        },
+        "trigger": {
+          "zh": "PJM/Texas 数据中心负荷带动容量价格或可调度电源价值继续上行，或容量溢价快速回落",
+          "en": "PJM/Texas data-center load pushes capacity prices or dispatchable generation value higher, or the capacity premium fades quickly"
+        },
+        "latest": {
+          "zh": "PJM 数据中心容量采购提前至 2026-09",
+          "en": "PJM data-center capacity procurement moved up to Sep 2026"
+        },
+        "nextCheck": "PJM/Texas 容量价格",
+        "nextCheckDate": "2026-09"
+      },
+      {
+        "id": "leverage-fcf-discipline",
+        "thesis": "bear",
+        "theme": "leverage-solvency",
+        "metric": {
+          "zh": "杠杆与 FCF 纪律",
+          "en": "Leverage and FCF discipline"
+        },
+        "trigger": {
+          "zh": "Cogentrix、capex、回购或燃料/运营波动导致净债务/EBITDA 和 FCF 压力上升",
+          "en": "Cogentrix, capex, buybacks or fuel/operating volatility raises net-debt/EBITDA and FCF pressure"
+        },
+        "latest": {
+          "zh": "Q1 净债务约 $19.3B，FCF $316M",
+          "en": "Q1 net debt about $19.3B; FCF $316M"
+        },
+        "nextCheck": "2026-Q2 债务与 FCF / Q2 debt and FCF",
+        "nextCheckDate": "2026-08"
+      },
+      {
+        "id": "merchant-power-valuation",
+        "thesis": "bear",
+        "theme": "valuation",
+        "metric": {
+          "zh": "merchant power 估值波动",
+          "en": "Merchant-power valuation volatility"
+        },
+        "trigger": {
+          "zh": "AI 电力需求预期或容量价格回落时，VST 的高 beta 估值更快收缩",
+          "en": "Vistra's high-beta multiple compresses faster if AI power-demand expectations or capacity prices roll over"
+        },
+        "latest": {
+          "zh": "$151.05、约 $50.9B 市值、约 $70.2B EV",
+          "en": "$151.05, about $50.9B market cap and about $70.2B EV"
+        },
+        "nextCheck": "电力股估值与容量价格 / power-equity multiples and capacity prices"
+      }
+    ]
+  },
+  {
     "id": "nebius-2026",
     "company": "Nebius Group",
     "ticker": "NASDAQ: NBIS",
