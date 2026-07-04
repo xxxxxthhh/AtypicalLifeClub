@@ -179,72 +179,7 @@
       }
     }
   ],
-  "planned": [
-    {
-      "ticker": "TSM",
-      "layer": "foundry",
-      "label": {
-        "zh": "TSM 制造层缺口",
-        "en": "TSM foundry gap"
-      }
-    },
-    {
-      "ticker": "MU",
-      "layer": "memory-storage",
-      "label": {
-        "zh": "MU 内存周期缺口",
-        "en": "MU memory-cycle gap"
-      }
-    },
-    {
-      "ticker": "CEG/VST",
-      "layer": "power",
-      "label": {
-        "zh": "CEG/VST 电力约束缺口",
-        "en": "CEG/VST power-constraint gap"
-      }
-    },
-    {
-      "ticker": "META",
-      "layer": "demand-risk",
-      "label": {
-        "zh": "META 需求锚缺口",
-        "en": "META demand-anchor gap"
-      }
-    },
-    {
-      "ticker": "ORCL",
-      "layer": "demand-risk",
-      "label": {
-        "zh": "ORCL RPO/积压校验缺口",
-        "en": "ORCL RPO/backlog check gap"
-      }
-    },
-    {
-      "ticker": "MRVL",
-      "layer": "custom-merchant-silicon",
-      "label": {
-        "zh": "MRVL 自定义 ASIC 校验缺口",
-        "en": "MRVL custom-ASIC check gap"
-      }
-    },
-    {
-      "ticker": "COHR",
-      "layer": "optical",
-      "label": {
-        "zh": "COHR 光模块缺口",
-        "en": "COHR optical-module gap"
-      }
-    },
-    {
-      "ticker": "DLR",
-      "layer": "datacenter-facility",
-      "label": {
-        "zh": "DLR 数据中心租赁校验缺口",
-        "en": "DLR data-center lease check gap"
-      }
-    }
-  ],
+  "planned": [],
   "crossChecks": [
     {
       "id": "chip-vs-downstream",

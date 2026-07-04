@@ -216,6 +216,114 @@
       "lastClose": 360.45,
       "changePct": -4.9,
       "currency": "USD"
+    },
+    {
+      "reportId": "tsmc-2026",
+      "symbol": "TSM",
+      "status": "ok",
+      "attemptedAt": "2026-07-04",
+      "baseDate": "2026-07-02",
+      "basePrice": 434.16,
+      "lastDate": "2026-07-02",
+      "lastClose": 434.16,
+      "changePct": 0.0,
+      "currency": "USD"
+    },
+    {
+      "reportId": "micron-2026",
+      "symbol": "MU",
+      "status": "ok",
+      "attemptedAt": "2026-07-04",
+      "baseDate": "2026-07-02",
+      "basePrice": 975.56,
+      "lastDate": "2026-07-02",
+      "lastClose": 975.56,
+      "changePct": 0.0,
+      "currency": "USD"
+    },
+    {
+      "reportId": "constellation-energy-2026",
+      "symbol": "CEG",
+      "status": "ok",
+      "attemptedAt": "2026-07-04",
+      "baseDate": "2026-07-02",
+      "basePrice": 239.25,
+      "lastDate": "2026-07-02",
+      "lastClose": 239.25,
+      "changePct": 0.0,
+      "currency": "USD"
+    },
+    {
+      "reportId": "vistra-2026",
+      "symbol": "VST",
+      "status": "ok",
+      "attemptedAt": "2026-07-04",
+      "baseDate": "2026-07-02",
+      "basePrice": 151.05,
+      "lastDate": "2026-07-02",
+      "lastClose": 151.05,
+      "changePct": 0.0,
+      "currency": "USD"
+    },
+    {
+      "reportId": "meta-2026",
+      "symbol": "META",
+      "status": "ok",
+      "attemptedAt": "2026-07-04",
+      "baseDate": "2026-07-02",
+      "basePrice": 582.9,
+      "lastDate": "2026-07-02",
+      "lastClose": 582.9,
+      "changePct": 0.0,
+      "currency": "USD"
+    },
+    {
+      "reportId": "oracle-2026",
+      "symbol": "ORCL",
+      "status": "ok",
+      "attemptedAt": "2026-07-04",
+      "baseDate": "2026-07-02",
+      "basePrice": 140.27,
+      "lastDate": "2026-07-02",
+      "lastClose": 140.27,
+      "changePct": 0.0,
+      "currency": "USD"
+    },
+    {
+      "reportId": "marvell-2026",
+      "symbol": "MRVL",
+      "status": "ok",
+      "attemptedAt": "2026-07-04",
+      "baseDate": "2026-07-02",
+      "basePrice": 245.29,
+      "lastDate": "2026-07-02",
+      "lastClose": 245.29,
+      "changePct": 0.0,
+      "currency": "USD"
+    },
+    {
+      "reportId": "coherent-2026",
+      "symbol": "COHR",
+      "status": "ok",
+      "attemptedAt": "2026-07-04",
+      "baseDate": "2026-07-02",
+      "basePrice": 333.36,
+      "lastDate": "2026-07-02",
+      "lastClose": 333.36,
+      "changePct": 0.0,
+      "currency": "USD"
+    },
+    {
+      "reportId": "digital-realty-2026",
+      "symbol": "DLR",
+      "status": "ok",
+      "attemptedAt": "2026-07-04",
+      "baseDate": "2026-07-02",
+      "basePrice": 173.3,
+      "lastDate": "2026-07-02",
+      "lastClose": 173.3,
+      "changePct": 0.0,
+      "currency": "USD"
     }
   ]
 }
