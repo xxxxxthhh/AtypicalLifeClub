@@ -181,14 +181,6 @@
   ],
   "planned": [
     {
-      "ticker": "TSM",
-      "layer": "foundry",
-      "label": {
-        "zh": "TSM 制造层缺口",
-        "en": "TSM foundry gap"
-      }
-    },
-    {
       "ticker": "MU",
       "layer": "memory-storage",
       "label": {

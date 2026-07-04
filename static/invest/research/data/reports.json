@@ -1,5 +1,144 @@
 [
   {
+    "id": "tsmc-2026",
+    "company": "Taiwan Semiconductor Manufacturing Company",
+    "ticker": "NYSE: TSM / TWSE: 2330",
+    "priceSymbol": "TSM",
+    "title": "TSMC 深度研究报告 - AI 基建链的先进制程与封装公共约束",
+    "titleEn": "TSMC Deep Research Report - The Advanced-Node and Packaging Constraint in AI Infrastructure",
+    "summary": "AI 基础设施书 foundry 层补位：TSMC 是整条链最硬的制造瓶颈，而不是又一个芯片设计公司。2026Q1 收入 $35.90B、毛利率 66.2%、营业利润率 58.1%，Q2 指引 $39.0-40.2B；Jan-May 2026 月度收入合计 NT$1.962T（+30.0%），May 收入 NT$416.975B（+30.1%）。AI/HPC 需求已经穿透到晶圆收入、先进节点和先进封装；但 ADR $434.16（2026-07-02 收盘）、市值约 $2.25T、2026E EV/Sales 约 14x，已经把『多年 AI megatrend + TSMC 稀缺性』放进了很高预期。中性观察 / 高质量但高预期；链内角色是 foundry 层 common-constraint。",
+    "summaryEn": "Foundry-layer coverage for the AI-infrastructure book: TSMC is the hard manufacturing bottleneck in the chain, not another chip designer. 2026Q1 revenue was $35.90B, gross margin was 66.2%, operating margin was 58.1%, and Q2 guidance is $39.0-40.2B; Jan-May 2026 revenue reached NT$1.962T (+30.0%), and May revenue was NT$416.975B (+30.1%). AI/HPC demand has reached wafer revenue, advanced nodes, and advanced packaging. But at a $434.16 ADR close on Jul 2, 2026, roughly $2.25T market cap, and about 14x 2026E EV/Sales, expectations are already high. Neutral watch / high quality but high expectations; chain role is foundry common constraint.",
+    "tags": [
+      "晶圆代工",
+      "AI基础设施",
+      "先进制程",
+      "先进封装"
+    ],
+    "category": "tech",
+    "date": "2026-07-04",
+    "lastUpdate": "2026-07-04",
+    "file": "/invest/research/reports/view.html?id=tsmc-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/TSMC_深度研究报告_2026-07.md",
+      "en": "/invest/research/TSMC_Deep_Research_Report_2026-07.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "foundry 层补位：TSMC 是 AI 基建链的制造公共约束，用先进制程、CoWoS/3DFabric、N3/N2 和客户排产验证 AI 需求是否真的穿透到上游制造瓶颈",
+      "2026Q1 收入 $35.90B、毛利率 66.2%、营业利润率 58.1%；Q2 指引 $39.0-40.2B，Jan-May 2026 收入 NT$1.962T（+30.0%）",
+      "公开资料显示 HPC 约占 Q1 收入 61%，7nm 及以下先进节点约占 wafer revenue 74%；2026 capex $52-56B，重点投向先进制程、先进封装和全球制造扩建",
+      "当前 ADR $434.16（2026-07-02 收盘）、市值约 $2.25T、净现金约 $75B，2026E EV/Sales 约 14x。高质量但高预期，核心监控是利用率、N3/N2、CoWoS、客户集中和海外 fab 毛利拖累"
+    ],
+    "chainLayer": "foundry",
+    "chainRole": "common-constraint",
+    "stance": "neutral-watch",
+    "priceAsOf": "2026-07-02",
+    "reportedPeriod": "2026Q1",
+    "related": [
+      "nvidia-2026",
+      "broadcom-2026",
+      "amd-2026",
+      "sk-hynix-2026",
+      "arista-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "advanced-node-utilization",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "先进制程利用率与收入 mix",
+          "en": "Advanced-node utilization and revenue mix"
+        },
+        "trigger": {
+          "zh": "7nm 及以下先进节点占比或月度收入明显低于 Q2/全年增长轨迹",
+          "en": "7nm-and-below mix or monthly revenue falls materially below Q2 / full-year trajectory"
+        },
+        "latest": {
+          "zh": "2026Q1 先进节点约占 wafer revenue 74%；Jan-May 收入 NT$1.962T，约 +30.0%",
+          "en": "advanced nodes were about 74% of wafer revenue in 2026Q1; Jan-May revenue NT$1.962T, about +30.0%"
+        },
+        "nextCheck": "月度收入与 2026Q2 财报 / monthly revenue and 2026Q2 results",
+        "nextCheckDate": "2026-07"
+      },
+      {
+        "id": "n3-n2-ramp",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "N3/N2 ramp 与良率",
+          "en": "N3 / N2 ramp and yield"
+        },
+        "trigger": {
+          "zh": "N3/N2 ramp 低于客户排产或新节点折旧/良率拖累超预期",
+          "en": "N3 / N2 ramp misses customer schedules, or depreciation / yield drag is worse than expected"
+        },
+        "latest": {
+          "zh": "2026Q1 3nm 约 25%、5nm 约 36%；N2 已 ramp 但尚未确认收入",
+          "en": "3nm was about 25% and 5nm about 36% of 2026Q1 wafer revenue; N2 is ramping but not yet revenue-recognized"
+        },
+        "nextCheck": "节点收入 mix / node revenue mix",
+        "nextCheckDate": "2026-07"
+      },
+      {
+        "id": "cowos-3dfabric-capacity",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "CoWoS/3DFabric 先进封装产能",
+          "en": "CoWoS / 3DFabric advanced-packaging capacity"
+        },
+        "trigger": {
+          "zh": "先进封装仍卡住 AI accelerator 交付，或扩产后供给瓶颈转向 HBM/基板/客户需求",
+          "en": "advanced packaging keeps constraining AI accelerator delivery, or expansion shifts the bottleneck to HBM / substrates / end demand"
+        },
+        "latest": {
+          "zh": "AI accelerator 供给不只取决于 wafer，也取决于 CoWoS/3DFabric 与 HBM 连接",
+          "en": "AI accelerator supply depends not only on wafers but also on CoWoS / 3DFabric and HBM integration"
+        },
+        "nextCheck": "先进封装扩产与客户交付 / packaging expansion and customer delivery cadence"
+      },
+      {
+        "id": "customer-concentration",
+        "thesis": "bear",
+        "theme": "concentration",
+        "metric": {
+          "zh": "NVIDIA/Apple/AI ASIC 客户集中",
+          "en": "NVIDIA / Apple / AI ASIC customer concentration"
+        },
+        "trigger": {
+          "zh": "最大客户或少数 AI 客户排产变化造成先进节点利用率波动",
+          "en": "largest-customer or a few AI-customer schedule changes cause advanced-node utilization swings"
+        },
+        "latest": {
+          "zh": "公开报道显示 NVIDIA/Apple 是最核心客户之一；AI ASIC 客户也在争抢先进节点",
+          "en": "public reports identify NVIDIA / Apple among the most important customers, while AI ASIC customers compete for advanced nodes"
+        },
+        "nextCheck": "年报/20-F 客户集中披露 / annual report and 20-F concentration disclosures"
+      },
+      {
+        "id": "overseas-fab-margin-drag",
+        "thesis": "bear",
+        "theme": "valuation",
+        "metric": {
+          "zh": "海外 fab 成本与毛利拖累",
+          "en": "Overseas fab cost and margin drag"
+        },
+        "trigger": {
+          "zh": "Arizona/Japan/Germany ramp 成本无法通过定价转嫁，导致结构性毛利率低于 60%",
+          "en": "Arizona / Japan / Germany ramp cost cannot be passed through, pushing structural gross margin below 60%"
+        },
+        "latest": {
+          "zh": "2026Q1 毛利率 66.2%，Q2 指引 65.5-67.5%；海外扩产仍在前期",
+          "en": "2026Q1 gross margin 66.2%, Q2 guide 65.5-67.5%; overseas expansion is still early"
+        },
+        "nextCheck": "季度毛利率与海外 fab ramp / quarterly gross margin and overseas fab ramp"
+      }
+    ]
+  },
+  {
     "id": "nebius-2026",
     "company": "Nebius Group",
     "ticker": "NASDAQ: NBIS",

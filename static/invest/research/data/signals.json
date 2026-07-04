@@ -1,5 +1,29 @@
 [
   {
+    "id": "tsmc-advanced-node-tightness-2026",
+    "date": "2026-06-10",
+    "title": {
+      "zh": "TSMC Jan-May 收入 +30%，先进制程与封装继续定义 AI 供给上限",
+      "en": "TSMC Jan-May revenue +30% as advanced nodes and packaging define AI supply"
+    },
+    "detail": {
+      "zh": "TSMC 官方月度收入显示 Jan-May 2026 合计 NT$1.962T（+30.0%），May 收入 NT$416.975B（+30.1%）。结合 2026Q1 $35.90B 收入、66.2% 毛利率、HPC/先进节点高占比和 $52-56B capex，foundry 层仍是 AI accelerator 供给的核心公共约束。该信号用于交叉校验 NVDA/AVGO/AMD/MRVL 设计端收入与 CoWoS/N3/N2 产能是否一致。",
+      "en": "TSMC's official monthly revenue shows Jan-May 2026 revenue of NT$1.962T (+30.0%) and May revenue of NT$416.975B (+30.1%). Together with 2026Q1 revenue of $35.90B, 66.2% gross margin, high HPC / advanced-node mix, and $52-56B capex, the foundry layer remains the common constraint for AI accelerator supply. This signal cross-checks whether NVDA / AVGO / AMD / MRVL design-side revenue aligns with CoWoS / N3 / N2 capacity."
+    },
+    "crossChecks": ["chip-vs-downstream", "custom-silicon-ethernet", "memory-cycle"],
+    "tickers": ["TSM", "NVDA", "AVGO", "AMD", "MRVL", "000660.KS"],
+    "reportIds": ["tsmc-2026", "nvidia-2026", "broadcom-2026", "amd-2026", "sk-hynix-2026"],
+    "monitoringRefs": [
+      "tsmc-2026:advanced-node-utilization",
+      "tsmc-2026:n3-n2-ramp",
+      "tsmc-2026:cowos-3dfabric-capacity",
+      "nvidia-2026:ai-capex-durability",
+      "broadcom-2026:fy2027-ai-delivery",
+      "amd-2026:datacenter-growth",
+      "sk-hynix-2026:hbm4-competition"
+    ]
+  },
+  {
     "id": "meta-cloud-compute-resale",
     "date": "2026-07-01",
     "title": {
