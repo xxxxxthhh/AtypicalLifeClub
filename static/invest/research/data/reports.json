@@ -1,5 +1,146 @@
 [
   {
+    "id": "coherent-2026",
+    "company": "Coherent",
+    "ticker": "NYSE: COHR",
+    "priceSymbol": "COHR",
+    "title": "Coherent 深度研究报告 - AI 光连接层的全栈光子仪表盘",
+    "titleEn": "Coherent Deep Research Report - Full-Stack Photonics Dashboard for AI Optical Connectivity",
+    "summary": "AI 基础设施 optical 层核心光模块/光器件覆盖。Coherent 不是解释 GPU 单价，而是验证 AI 集群网络扩容是否真正穿透到高速光连接、激光器、InP/SiPh 与 CPO/NPO 路线。Q3 FY2026 收入 $1.81B（+21% YoY，pro forma +27%）、非 GAAP 毛利率 39.6%、非 GAAP EPS $1.41；Datacenter & Communications 收入约 $1.362B，占 pro forma 收入约 75%，同比约 +41%。NVIDIA 2026-03 宣布向 Coherent 投资 $2B，并包含多年、数十亿美元采购承诺和未来产能访问权；公司材料给出 1.6T/3.2T/6.4T ZR/ZR+、CPO/NPO、光电路交换与多轨热管理路线。当前 $333.36（2026-07-02 收盘）、市值约 $65.2B、EV 约 $66.8B，估值已经反映 AI optics supercycle。高风险观察 / optical dashboard。",
+    "tags": [
+      "AI光连接",
+      "光模块",
+      "硅光",
+      "数据中心"
+    ],
+    "category": "tech",
+    "date": "2026-07-04",
+    "lastUpdate": "2026-07-04",
+    "file": "/invest/research/reports/view.html?id=coherent-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Coherent_深度研究报告_2026-07.md",
+      "en": "/invest/research/Coherent_Deep_Research_Report_2026-07.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "补齐 optical 层核心大票：COHR 用高速光连接、激光器、InP/SiPh、CPO/NPO 和光电路交换验证 AI 集群带宽需求是否穿透到光层",
+      "Q3 FY2026 收入 $1.81B（+21% YoY；pro forma +27%）、非 GAAP 毛利率 39.6%、非 GAAP EPS $1.41；Datacenter & Communications 约 $1.362B，占 pro forma 收入约 75%，同比约 +41%",
+      "NVIDIA 2026-03 宣布向 Coherent 投资 $2B，并包含多年、数十亿美元采购承诺和未来产能访问权；Coherent 路线包含 1.6T/3.2T/6.4T ZR/ZR+ 与 CPO/NPO 引擎",
+      "当前 $333.36（2026-07-02）、市值约 $65.2B、EV 约 $66.8B、约 10.1x EV/TTM sales；链内质量高，但 Q3 FCF -$383M 和估值容错率是核心风险"
+    ],
+    "summaryEn": "Core optical-module and photonics coverage for the AI-infrastructure optical layer. Coherent does not explain GPU ASPs; it tests whether AI cluster network expansion is reaching high-speed optical connectivity, lasers, InP/SiPh and CPO/NPO architectures. Q3 FY2026 revenue was $1.81B (+21% YoY; +27% pro forma), non-GAAP gross margin was 39.6%, and non-GAAP EPS was $1.41. Datacenter & Communications revenue was about $1.362B, roughly 75% of pro forma revenue and about +41% YoY. In March 2026, NVIDIA announced a $2B investment in Coherent, including a multi-year, multi-billion-dollar purchase commitment and future capacity access rights; Coherent's roadmap includes 1.6T/3.2T/6.4T ZR/ZR+ and CPO/NPO engines. At $333.36 (2026-07-02 close), about $65.2B market cap and about $66.8B EV, the stock already prices an AI-optics supercycle. High-risk watch / optical dashboard.",
+    "chainLayer": "optical",
+    "chainRole": "dashboard",
+    "stance": "high-risk-watch",
+    "priceAsOf": "2026-07-02",
+    "reportedPeriod": "FY2026 Q3",
+    "related": [
+      "nvidia-2026",
+      "aaoi-2026",
+      "corning-2026",
+      "arista-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "nvidia-optics-lta",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "NVIDIA 光学采购承诺兑现",
+          "en": "NVIDIA optical purchase-commitment conversion"
+        },
+        "trigger": {
+          "zh": "多年、数十亿美元采购承诺转化为 backlog、收入和产能预付款",
+          "en": "multi-year, multi-billion-dollar purchase commitments convert into backlog, revenue and capacity prepayments"
+        },
+        "latest": {
+          "zh": "NVIDIA 2026-03 宣布投资 $2B，并取得未来产能访问权",
+          "en": "NVIDIA announced a $2B investment in Mar 2026 with future capacity access rights"
+        },
+        "nextCheck": "FY2026 Q4 财报与订单披露 / Q4 earnings and order disclosures",
+        "nextCheckDate": "2026-08"
+      },
+      {
+        "id": "datacenter-communications-mix",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "Datacenter & Communications 收入占比",
+          "en": "Datacenter & Communications revenue mix"
+        },
+        "trigger": {
+          "zh": "数据中心通信收入继续增长，同时不稀释毛利率",
+          "en": "datacenter communications revenue keeps growing without diluting gross margin"
+        },
+        "latest": {
+          "zh": "Q3 约 $1.362B，占 pro forma 收入约 75%，同比约 +41%",
+          "en": "Q3 about $1.362B, roughly 75% of pro forma revenue and about +41% YoY"
+        },
+        "nextCheck": "FY2026 Q4 segment mix",
+        "nextCheckDate": "2026-08"
+      },
+      {
+        "id": "inp-capacity-ramp",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "InP 与 6-inch 平台产能",
+          "en": "InP and 6-inch platform capacity"
+        },
+        "trigger": {
+          "zh": "内部 InP 产出按计划年底翻倍、2027 再翻倍，并带来良率/毛利改善；或产能爬坡拖延",
+          "en": "internal InP output doubles by year-end and more than doubles again by 2027 with yield/margin improvement, or the ramp slips"
+        },
+        "latest": {
+          "zh": "公司称 6-inch 平台生产 EML、CW lasers 与 photodiodes",
+          "en": "company says the 6-inch platform produces EMLs, CW lasers and photodiodes"
+        },
+        "nextCheck": "产能与毛利更新 / capacity and margin update",
+        "nextCheckDate": "2026-12"
+      },
+      {
+        "id": "cpo-npo-roadmap",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "CPO/NPO 与 1.6T+ 路线兑现",
+          "en": "CPO/NPO and 1.6T+ roadmap conversion"
+        },
+        "trigger": {
+          "zh": "1.6T/3.2T/6.4T ZR/ZR+、CPO/NPO 与 optical circuit switch 进入新收入阶段",
+          "en": "1.6T/3.2T/6.4T ZR/ZR+, CPO/NPO and optical circuit switching enter the new-revenue phase"
+        },
+        "latest": {
+          "zh": "公司材料指向 H2 2026/H1 2027 的新增长窗口",
+          "en": "company materials point to H2 2026/H1 2027 as new-growth windows"
+        },
+        "nextCheck": "产品出货与客户平台公告 / product shipments and customer-platform announcements",
+        "nextCheckDate": "2026-12"
+      },
+      {
+        "id": "valuation-fcf-risk",
+        "thesis": "bear",
+        "theme": "valuation",
+        "metric": {
+          "zh": "估值与 FCF 容错率",
+          "en": "Valuation and FCF tolerance"
+        },
+        "trigger": {
+          "zh": "收入增长依赖负 FCF、库存/应收上升或 capex 扩张，而估值仍维持高倍数",
+          "en": "growth relies on negative FCF, inventory/receivable build or capex expansion while the multiple stays elevated"
+        },
+        "latest": {
+          "zh": "Q3 FCF -$383M；约 $65.2B 市值、约 10.1x EV/TTM sales",
+          "en": "Q3 FCF -$383M; about $65.2B market cap and about 10.1x EV/TTM sales"
+        },
+        "nextCheck": "FY2026 Q4 cash flow and working capital",
+        "nextCheckDate": "2026-08"
+      }
+    ]
+  },
+  {
     "id": "nebius-2026",
     "company": "Nebius Group",
     "ticker": "NASDAQ: NBIS",

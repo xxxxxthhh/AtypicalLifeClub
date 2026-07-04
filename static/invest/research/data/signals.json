@@ -1,5 +1,38 @@
 [
   {
+    "id": "nvidia-coherent-optics-partnership-2026",
+    "date": "2026-03-02",
+    "title": {
+      "zh": "NVIDIA 投资 Coherent，AI 光连接从模块叙事进入产能锁定",
+      "en": "NVIDIA invests in Coherent as AI optical connectivity moves from module narrative to capacity lock-up"
+    },
+    "detail": {
+      "zh": "NVIDIA 宣布向 Coherent 投资 $2B，并包含多年、数十亿美元采购承诺和未来先进激光/光网络产能访问权；Coherent Q3 FY2026 Datacenter & Communications 收入约 $1.362B，占 pro forma 收入约 75%。这个信号把 AAOI/GLW 的 optical 需求、ANET 的开放以太网架构和 NVDA 的下一代 AI factory 光互连路线连接起来：如果收入、产能和 FCF 同步兑现，光连接是实约束；如果只有估值先行，则需警惕 AI optics 过度定价。",
+      "en": "NVIDIA announced a $2B investment in Coherent with a multi-year, multi-billion-dollar purchase commitment and future access to advanced laser/optical-networking capacity. Coherent's Q3 FY2026 Datacenter & Communications revenue was about $1.362B, roughly 75% of pro forma revenue. This signal links AAOI/GLW optical demand, ANET's open-Ethernet architecture check and NVDA's next-generation AI-factory optical-interconnect roadmap: if revenue, capacity and FCF validate together, optics is a real constraint; if valuation moves first, AI optics may be overpricing the cycle."
+    },
+    "crossChecks": ["chip-vs-downstream", "custom-silicon-ethernet", "buildout-orders"],
+    "tickers": ["COHR", "NVDA", "LITE", "AAOI", "GLW", "ANET"],
+    "reportIds": [
+      "coherent-2026",
+      "nvidia-2026",
+      "aaoi-2026",
+      "corning-2026",
+      "arista-2026"
+    ],
+    "monitoringRefs": [
+      "coherent-2026:nvidia-optics-lta",
+      "coherent-2026:datacenter-communications-mix",
+      "coherent-2026:inp-capacity-ramp",
+      "coherent-2026:valuation-fcf-risk",
+      "nvidia-2026:ai-capex-durability",
+      "nvidia-2026:circular-financing-exposure",
+      "aaoi-2026:800g-ramp",
+      "aaoi-2026:valuation-tolerance",
+      "corning-2026:optical-genai-pull",
+      "arista-2026:open-ethernet-vs-integrated"
+    ]
+  },
+  {
     "id": "meta-cloud-compute-resale",
     "date": "2026-07-01",
     "title": {

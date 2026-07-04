@@ -2,6 +2,18 @@
   "generatedAt": "2026-07-04",
   "entries": [
     {
+      "reportId": "coherent-2026",
+      "symbol": "COHR",
+      "status": "ok",
+      "attemptedAt": "2026-07-04",
+      "baseDate": "2026-07-02",
+      "basePrice": 333.36,
+      "lastDate": "2026-07-02",
+      "lastClose": 333.36,
+      "changePct": 0.0,
+      "currency": "USD"
+    },
+    {
       "reportId": "nebius-2026",
       "symbol": "NBIS",
       "status": "ok",

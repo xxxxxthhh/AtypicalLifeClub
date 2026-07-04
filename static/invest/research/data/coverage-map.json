@@ -229,14 +229,6 @@
       }
     },
     {
-      "ticker": "COHR",
-      "layer": "optical",
-      "label": {
-        "zh": "COHR 光模块缺口",
-        "en": "COHR optical-module gap"
-      }
-    },
-    {
       "ticker": "DLR",
       "layer": "datacenter-facility",
       "label": {
