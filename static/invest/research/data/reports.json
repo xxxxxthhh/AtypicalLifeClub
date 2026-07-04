@@ -4,9 +4,9 @@
     "company": "Constellation Energy",
     "ticker": "NASDAQ: CEG",
     "priceSymbol": "CEG",
-    "title": "Constellation Energy 深度研究报告 - AI 电力约束的核电 PPA 锚",
-    "titleEn": "Constellation Energy Deep Research Report - Nuclear PPA Anchor for the AI Power Constraint",
-    "summary": "AI 基础设施 power 层核电公共约束覆盖。Constellation 不是 GPU 供应商，而是验证 hyperscaler 是否愿意为 24/7、低碳、可靠电力签长期合同。2026Q1 收入 $11.12B、净利润 $1.59B，报道 EPS $2.74、核电发电量约 44,666 GWh，公司维持 2026 EPS 指引 $11-12；Microsoft/Crane Clean Energy Center（Three Mile Island Unit 1）重启目标指向 2027，Meta 也已与 CEG 签过约 1.1GW 核电 PPA。当前 $239.25（2026-07-02 收盘）、市值约 $85.4B、企业价值约 $107B，估值已经反映 AI 电力稀缺，后续应重点验证 PPA 执行、Crane restart 监管路径、PJM 容量价格和资产负债表资本纪律。中性观察 / power common-constraint。",
+    "title": "Constellation Energy 深度研究报告 - AI 电力约束的核电与 Calpine 综合电力锚",
+    "titleEn": "Constellation Energy Deep Research Report - Nuclear and Calpine Integrated Power Anchor for AI",
+    "summary": "AI 基础设施 power 层可调度电力公共约束覆盖。Constellation 不是 GPU 供应商，也不再是纯核电故事；2026-01-07 完成 Calpine 后，它是核电主导、叠加天然气/地热容量的综合电力平台。2026Q1 收入 $11.12B、净利润 $1.59B，报道 EPS $2.74、核电发电量约 44,666 GWh，公司维持 2026 EPS 指引 $11-12；Microsoft/Crane Clean Energy Center（Three Mile Island Unit 1）重启目标指向 2027，Meta 也已与 CEG 签过约 1.1GW 核电 PPA，Calpine 则带来约 55GW 合并平台里的可调度容量与 powered-land optionality。当前 $239.25（2026-07-02 收盘）、市值约 $85.4B、企业价值约 $107B，估值已经反映 AI 电力稀缺，后续应重点验证 PPA 执行、Crane restart 监管路径、Calpine 整合、PJM 容量价格和资产负债表资本纪律。中性观察 / power common-constraint。",
     "tags": [
       "AI电力",
       "核电",
@@ -15,7 +15,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-04",
+    "lastUpdate": "2026-07-05",
     "file": "/invest/research/reports/view.html?id=constellation-energy-2026",
     "markdownFiles": {
       "zh": "/invest/research/Constellation_Energy_深度研究报告_2026-07.md",
@@ -25,12 +25,12 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "补齐 AI 基建 power 层核电公共约束：CEG 用既有核电 fleet、长期 PPA 和 PJM 容量价格验证 AI 数据中心是否真的愿意为稳定清洁电力付溢价",
+      "补齐 AI 基建 power 层可调度电力公共约束：CEG 用既有核电 fleet、Calpine 天然气/地热容量、长期 PPA 和 PJM 容量价格验证 AI 数据中心是否真的愿意为稳定清洁电力与可调度容量付溢价",
       "2026Q1 收入 $11.12B、净利润 $1.59B、报道 EPS $2.74，核电发电量约 44,666 GWh，公司维持 2026 EPS 指引 $11-12",
-      "Microsoft/Crane Clean Energy Center（Three Mile Island Unit 1）重启目标指向 2027，Meta 约 1.1GW 核电 PPA 说明 hyperscaler 电力需求正在合同化",
-      "当前 $239.25（2026-07-02）、市值约 $85.4B、EV 约 $107B、约 3.6x EV/TTM sales；质量高但 AI power 溢价已明显，需要持续验证监管、PJM 容量价格和资本纪律"
+      "Microsoft/Crane Clean Energy Center（Three Mile Island Unit 1）重启目标指向 2027，Meta 约 1.1GW 核电 PPA 说明 hyperscaler 电力需求正在合同化；Calpine 把叙事从纯核电扩展到可调度容量",
+      "当前 $239.25（2026-07-02）、市值约 $85.4B、EV 约 $107B、约 3.6x EV/TTM sales；质量高但 AI power 溢价已明显，需要持续验证监管、Calpine 整合、PJM 容量价格和资本纪律"
     ],
-    "summaryEn": "Initial coverage of the nuclear common-constraint in the AI-infrastructure power layer. Constellation is not a GPU supplier; it tests whether hyperscalers are willing to sign long-term contracts for 24/7, low-carbon, reliable power. Q1 2026 revenue was $11.12B, net income $1.59B, reported EPS $2.74, nuclear generation about 44,666 GWh, and management maintained 2026 EPS guidance of $11-12. Microsoft/Crane Clean Energy Center (Three Mile Island Unit 1) restart targets 2027, and Meta has also signed about a 1.1GW nuclear PPA with Constellation. At $239.25 (2026-07-02 close), about $85.4B market cap and about $107B enterprise value, the stock already embeds an AI-power scarcity premium. The key checks are PPA execution, Crane restart regulation, PJM capacity pricing and balance-sheet discipline. Neutral watch / power common constraint.",
+    "summaryEn": "Initial coverage of the dispatchable-power common constraint in the AI-infrastructure power layer. Constellation is not a GPU supplier, and it is no longer a pure nuclear story; after closing Calpine on Jan. 7, 2026, it is a nuclear-led integrated power platform with added natural-gas and geothermal capacity. Q1 2026 revenue was $11.12B, net income $1.59B, reported EPS $2.74, nuclear generation about 44,666 GWh, and management maintained 2026 EPS guidance of $11-12. Microsoft/Crane Clean Energy Center (Three Mile Island Unit 1) restart targets 2027, Meta has signed about a 1.1GW nuclear PPA with Constellation, and Calpine adds dispatchable-capacity and powered-land optionality to a roughly 55GW combined platform. At $239.25 (2026-07-02 close), about $85.4B market cap and about $107B enterprise value, the stock already embeds an AI-power scarcity premium. The key checks are PPA execution, Crane restart regulation, Calpine integration, PJM capacity pricing and balance-sheet discipline. Neutral watch / power common constraint.",
     "chainLayer": "power",
     "chainRole": "common-constraint",
     "stance": "neutral-watch",
@@ -105,18 +105,18 @@
         "thesis": "bear",
         "theme": "leverage-solvency",
         "metric": {
-          "zh": "净债务与 capex 纪律",
-          "en": "Net debt and capex discipline"
+          "zh": "Calpine 整合、净债务与 capex 纪律",
+          "en": "Calpine integration, net debt and capex discipline"
         },
         "trigger": {
-          "zh": "核电延寿、重启或 uprate 投入导致净债务和 FCF 压力扩大",
-          "en": "life-extension, restart or uprate spending expands net debt and FCF pressure"
+          "zh": "Calpine 整合、核电延寿、重启或 uprate 投入导致净债务和 FCF 压力扩大",
+          "en": "Calpine integration, life-extension, restart or uprate spending expands net debt and FCF pressure"
         },
         "latest": {
-          "zh": "Q1 净债务约 $21.7B，EV 约 $107B",
-          "en": "Q1 net debt about $21.7B; EV about $107B"
+          "zh": "Calpine 已于 2026-01-07 完成；Q1 净债务约 $21.7B，EV 约 $107B",
+          "en": "Calpine closed on Jan. 7, 2026; Q1 net debt about $21.7B; EV about $107B"
         },
-        "nextCheck": "2026-Q2 现金流与债务 / Q2 cash flow and debt",
+        "nextCheck": "2026-Q2 整合、现金流与债务 / Q2 integration, cash flow and debt",
         "nextCheckDate": "2026-08"
       },
       {
@@ -146,7 +146,7 @@
     "priceSymbol": "VST",
     "title": "Vistra 深度研究报告 - AI 电力约束的核电与燃气高 beta 仪表盘",
     "titleEn": "Vistra Deep Research Report - Nuclear and Gas High-Beta Dashboard for AI Power",
-    "summary": "AI 基础设施 power 层的高 beta 仪表盘，与 Constellation Energy 成对覆盖。Vistra 同时拥有核电、燃气和零售/merchant power 暴露，用来验证 AI 数据中心需求是否从『清洁 baseload PPA』扩散到『可调度燃气容量、PJM/Texas 容量价值和现有发电资产重定价』。2026Q1 收入 $5.64B、净利润 $1.03B、营业利润 $1.50B、FCF $316M；Meta 20 年核电协议覆盖 Perry、Davis-Besse 与 Beaver Valley uprates，公开报道约 2.2GW；$4B Cogentrix 收购将增加约 5,500MW 燃气容量，预计 2026 年中后期完成。当前 $151.05（2026-07-02 收盘）、市值约 $50.9B、EV 约 $70.2B、约 3.6x EV/TTM sales；估值低于 CEG，但杠杆、气价、监管和容量市场波动更高。高风险观察 / power dashboard。",
+    "summary": "AI 基础设施 power 层的高 beta 仪表盘，与 Constellation Energy 成对覆盖。Vistra 同时拥有核电、燃气和零售/merchant power 暴露，用来验证 AI 数据中心需求是否从『清洁 baseload PPA』扩散到『可调度燃气容量、PJM/Texas 容量价值和现有发电资产重定价』。2026Q1 收入 $5.64B、净利润 $1.03B、营业利润 $1.50B、FCF $316M；Meta 20 年核电协议覆盖 Perry、Davis-Besse 与 Beaver Valley uprates，公开报道约 2.2GW；Cogentrix 交易主口径约 $4B net purchase price，公开 seller-side 报道也有约 $4.7B total consideration 口径，将增加约 5,500MW 燃气容量，预计 2026 年中后期完成。当前 $151.05（2026-07-02 收盘）、市值约 $50.9B、EV 约 $70.2B、约 3.6x EV/TTM sales；估值低于 CEG，但杠杆、气价、监管和容量市场波动更高。高风险观察 / power dashboard。",
     "tags": [
       "AI电力",
       "核电",
@@ -155,7 +155,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-04",
+    "lastUpdate": "2026-07-05",
     "file": "/invest/research/reports/view.html?id=vistra-2026",
     "markdownFiles": {
       "zh": "/invest/research/Vistra_深度研究报告_2026-07.md",
@@ -167,10 +167,10 @@
     "highlights": [
       "与 CEG 成对覆盖 power 层：VST 是核电 + 燃气 + merchant power 的高 beta 仪表盘，检验 AI 电力需求是否扩散到可调度容量",
       "2026Q1 收入 $5.64B、净利润 $1.03B、营业利润 $1.50B、FCF $316M；Q1 净债务约 $19.3B",
-      "Meta 20 年核电协议覆盖 Perry、Davis-Besse、Beaver Valley uprates，公开报道约 2.2GW；$4B Cogentrix 收购将增加约 5,500MW 燃气容量",
+      "Meta 20 年核电协议覆盖 Perry、Davis-Besse、Beaver Valley uprates，公开报道约 2.2GW；Cogentrix 交易主口径约 $4B net purchase price，seller-side 公开报道也有约 $4.7B total consideration 口径，将增加约 5,500MW 燃气容量",
       "当前 $151.05（2026-07-02）、市值约 $50.9B、EV 约 $70.2B、约 3.6x EV/TTM sales；估值低于 CEG，但气价、监管、杠杆和容量市场回撤风险更高"
     ],
-    "summaryEn": "High-beta dashboard coverage for the AI-infrastructure power layer, paired with Constellation Energy. Vistra combines nuclear, gas and retail/merchant-power exposure, testing whether AI data-center demand spreads from clean baseload PPAs into dispatchable gas capacity, PJM/Texas capacity value and the repricing of existing generation assets. Q1 2026 revenue was $5.64B, net income $1.03B, operating income $1.50B and FCF $316M. Meta's 20-year nuclear agreement covers Perry, Davis-Besse and Beaver Valley uprates, with public reporting around 2.2GW; the $4B Cogentrix deal would add about 5,500MW of gas capacity and is expected to close in mid-to-late 2026. At $151.05 (2026-07-02 close), about $50.9B market cap, about $70.2B EV and about 3.6x EV/TTM sales, Vistra trades below Constellation but carries more leverage, gas, regulatory and capacity-market risk. High-risk watch / power dashboard.",
+    "summaryEn": "High-beta dashboard coverage for the AI-infrastructure power layer, paired with Constellation Energy. Vistra combines nuclear, gas and retail/merchant-power exposure, testing whether AI data-center demand spreads from clean baseload PPAs into dispatchable gas capacity, PJM/Texas capacity value and the repricing of existing generation assets. Q1 2026 revenue was $5.64B, net income $1.03B, operating income $1.50B and FCF $316M. Meta's 20-year nuclear agreement covers Perry, Davis-Besse and Beaver Valley uprates, with public reporting around 2.2GW; the Cogentrix transaction is framed at about a $4B net purchase price, while public seller-side reporting has also framed it near $4.7B total consideration, and would add about 5,500MW of gas capacity with an expected mid-to-late 2026 close. At $151.05 (2026-07-02 close), about $50.9B market cap, about $70.2B EV and about 3.6x EV/TTM sales, Vistra trades below Constellation but carries more leverage, gas, regulatory and capacity-market risk. High-risk watch / power dashboard.",
     "chainLayer": "power",
     "chainRole": "dashboard",
     "stance": "high-risk-watch",
@@ -212,8 +212,8 @@
           "en": "Cogentrix acquisition integration"
         },
         "trigger": {
-          "zh": "$4B 交易按期完成并把约 5,500MW 燃气容量转化为数据中心/容量市场收益，或出现延期和协同落空",
-          "en": "the $4B deal closes on time and converts about 5,500MW of gas capacity into data-center/capacity-market value, or suffers delays and missed synergies"
+          "zh": "约 $4B net purchase price（seller-side 公开报道约 $4.7B total consideration）交易按期完成并把约 5,500MW 燃气容量转化为数据中心/容量市场收益，或出现延期和协同落空",
+          "en": "the about $4B net-purchase-price deal (public seller-side reporting also frames it near $4.7B total consideration) closes on time and converts about 5,500MW of gas capacity into data-center/capacity-market value, or suffers delays and missed synergies"
         },
         "latest": {
           "zh": "交易预计 2026 年中后期完成",

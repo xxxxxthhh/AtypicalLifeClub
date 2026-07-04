@@ -1,7 +1,7 @@
 # Vistra (VST) Deep Research Report
 
 Coverage date: 2026-07-04
-Last updated: 2026-07-04
+Last updated: 2026-07-05
 Ticker: NYSE: VST
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -11,7 +11,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 > **Framework note:** This report pairs with Constellation Energy in the AI-infrastructure book's power layer. Vistra is the more mixed power-constraint name: nuclear plus gas plus capacity expansion, testing whether data centers need a combination of clean baseload and dispatchable generation.
 
-**One-line thesis:** VST is the nuclear-plus-gas operating-leverage name in the AI power constraint. 2026Q1 revenue was $5.64B, net income was $1.03B, and FCF was $316M. Meta's 20-year nuclear agreements cover Perry, Davis-Besse, and Beaver Valley uprates, with public reports framing about 2.2GW. The $4B Cogentrix acquisition adds about 5,500MW of gas capacity. At $151.05 (Jul 2, 2026 close), about $50.9B market cap, and about $70.2B enterprise value, VST is cheaper than CEG but carries higher leverage and more gas / market-price exposure.
+**One-line thesis:** VST is the nuclear-plus-gas operating-leverage name in the AI power constraint. 2026Q1 revenue was $5.64B, net income was $1.03B, and FCF was $316M. Meta's 20-year nuclear agreements cover Perry, Davis-Besse, and Beaver Valley uprates, with public reports framing about 2.2GW. The Cogentrix transaction is framed at about a $4B net purchase price, while public seller-side reporting has also framed it near $4.7B total consideration, and adds about 5,500MW of gas capacity. At $151.05 (Jul 2, 2026 close), about $50.9B market cap, and about $70.2B enterprise value, VST is cheaper than CEG but carries higher leverage and more gas / market-price exposure.
 
 **Current view:** **High-risk watch / power dashboard.** VST's chain role is to test whether AI power demand spreads from nuclear PPAs into existing gas capacity, PJM / ISO capacity value, and dispatchable generation. If Meta, Texas data-center contracts, and Cogentrix integration deliver, VST has strong power-portfolio leverage. If gas prices, regulation, debt, or capacity markets roll over, the downside is faster too.
 
@@ -26,7 +26,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Q1 revenue / net income | $5.64B / $1.03B |
 | Q1 operating income / FCF | $1.50B / $316M |
 | Meta nuclear agreements | 20-year agreements; Perry, Davis-Besse, Beaver Valley uprates; public reports frame about 2.2GW |
-| Cogentrix | $4B acquisition, about 5,500MW gas capacity, expected mid-to-late 2026 close |
+| Cogentrix | About $4B net purchase price; public seller-side reporting also frames it near $4.7B total consideration; about 5,500MW gas capacity, expected mid-to-late 2026 close |
 | Chain role | power dashboard: nuclear PPAs, gas capacity, capacity markets, leverage |
 
 ## 1. Business And Chain Role
@@ -88,5 +88,5 @@ The current classification is **high-risk watch / power dashboard**. VST is usef
 - 2026Q1 revenue of $5.64B, net income of $1.03B, FCF of $316M, cash / debt / cash-flow tables, and the Jul 2, 2026 close of $151.05 with roughly $50.9B market cap were pulled through Yahoo Finance/yfinance on 2026-07-04.
 - Meta's 20-year nuclear PPAs with Vistra, Perry / Davis-Besse / Beaver Valley uprates, and Meta's role as a major U.S. corporate nuclear buyer are sourced from Axios: https://www.axios.com/2026/01/09/meta-nuclear-deal-vistra-terrapower-oklo.
 - Meta's 6GW+ nuclear framework and Vistra's roughly 2.2GW existing-nuclear contribution are sourced from Tom's Hardware: https://www.tomshardware.com/tech-industry/artificial-intelligence/meta-inks-deals-to-supply-a-staggering-6-gigawatts-in-nuclear-power-for-data-center-ambitions-enough-wattage-to-supply-5-million-homes.
-- Cogentrix's $4B acquisition, roughly 5,500MW gas capacity, transaction valuation, and data-center demand background are sourced from Barron's: https://www.barrons.com/articles/vistra-stock-price-deal-cogentrix-3000d9df.
+- Cogentrix's transaction is framed at about a $4B net purchase price, while public seller-side reporting has also framed it near $4.7B total consideration; roughly 5,500MW gas capacity, transaction valuation, and data-center demand background are sourced from Barron's and should be reconciled against final debt / cash / stock treatment at close: https://www.barrons.com/articles/vistra-stock-price-deal-cogentrix-3000d9df.
 - PJM's acceleration of data-center capacity procurement and VST / CEG / NRG market reaction are sourced from MarketWatch: https://www.marketwatch.com/story/constellations-and-vistras-stocks-rally-as-power-grid-operator-speeds-up-data-center-deals-67b95021.

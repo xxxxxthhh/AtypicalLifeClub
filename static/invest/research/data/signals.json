@@ -7,8 +7,8 @@
       "en": "PJM accelerates data-center capacity procurement as CEG/VST move the power constraint into market mechanisms"
     },
     "detail": {
-      "zh": "PJM 将数据中心容量采购提前至 2026-09，CEG/VST/NRG 等电力股随之反应；同时 CEG 通过 Microsoft/Crane restart 和 Meta 约 1.1GW 核电 PPA 验证长期清洁电力合同化，VST 通过 Meta 核电协议与 Cogentrix 约 5,500MW 燃气容量验证可调度容量价值。这个信号测试 AI 电力需求能否从叙事转换为容量价格、PPA 和现有发电资产重定价。",
-      "en": "PJM moved data-center capacity procurement up to Sep 2026 and power equities such as CEG/VST/NRG reacted. CEG tests long-term clean-power contracting through Microsoft/Crane restart and Meta's about 1.1GW nuclear PPA, while VST tests dispatchable-capacity value through Meta nuclear PPAs and the roughly 5,500MW Cogentrix gas-capacity acquisition. The signal tests whether AI power demand converts from narrative into capacity prices, PPAs and repricing of existing generation assets."
+      "zh": "PJM 将数据中心容量采购提前至 2026-09，CEG/VST/NRG 等电力股随之反应；同时 CEG 通过 Microsoft/Crane restart、Meta 约 1.1GW 核电 PPA 和 Calpine 可调度容量验证长期电力合同化，VST 通过 Meta 核电协议与 Cogentrix 约 5,500MW 燃气容量（约 $4B net purchase price，seller-side 公开报道约 $4.7B total consideration）验证可调度容量价值。这个信号测试 AI 电力需求能否从叙事转换为容量价格、PPA 和现有发电资产重定价。",
+      "en": "PJM moved data-center capacity procurement up to Sep 2026 and power equities such as CEG/VST/NRG reacted. CEG tests long-term power contracting through Microsoft/Crane restart, Meta's about 1.1GW nuclear PPA, and Calpine dispatchable capacity, while VST tests dispatchable-capacity value through Meta nuclear PPAs and the roughly 5,500MW Cogentrix gas-capacity acquisition (about $4B net purchase price, with public seller-side reporting near $4.7B total consideration). The signal tests whether AI power demand converts from narrative into capacity prices, PPAs and repricing of existing generation assets."
     },
     "crossChecks": ["buildout-orders", "resource-constraints", "chip-vs-downstream"],
     "tickers": ["CEG", "VST", "GEV", "VRT", "OKLO", "BE"],
@@ -24,6 +24,7 @@
       "constellation-energy-2026:nuclear-ppa-execution",
       "constellation-energy-2026:crane-restart-regulatory",
       "constellation-energy-2026:pjm-capacity-pricing",
+      "constellation-energy-2026:debt-capex-discipline",
       "vistra-2026:meta-nuclear-ppa",
       "vistra-2026:cogentrix-integration",
       "vistra-2026:gas-capacity-market",
