@@ -36,7 +36,7 @@ Equinix 是全球数字基础设施 REIT，核心是 IBX retail colocation、int
 | 资产/变量 | 当前读数 | AI 基建含义 |
 |-----------|----------|-------------|
 | Platform Equinix | 10,500+ 客户、507,000+ interconnections | moat 是互联密度，而不只是 MW |
-| Interconnection revenue | 2026Q1 $446M，对照 2025Q1 $393M | AI/云/网络 proximity 正在反映到 recurring revenue |
+| Interconnection revenue | 2026Q1 $446M，对照 2025Q1 $393M（as-reported +13.5%） | AI/云/网络 proximity 正在反映到 recurring revenue |
 | MRR / cabinet proxy | MRR reported YoY +12%；2025 增加 23,250 个 retail cabinets | 监控 cabinet growth 是否伴随 revenue yield，而不只是 footprint |
 | xScale JVs | xScale JV equity investments 合计 $678M；Hampton campus 以 $459M consideration 转入 AMER 3 JV | 以较轻资产方式参与 hyperscale capacity |
 | AI deal signal | Q1 largest deals 约 60% 与 AI 相关 | 直接观察 enterprise 与 service-provider AI 部署 |

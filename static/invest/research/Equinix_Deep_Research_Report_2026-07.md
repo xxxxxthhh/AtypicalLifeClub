@@ -36,7 +36,7 @@ Equinix is a global digital-infrastructure REIT focused on IBX retail colocation
 | Asset / variable | Current readout | AI-infra meaning |
 |------------------|-----------------|------------------|
 | Platform Equinix | 10,500+ customers and 507,000+ interconnections | Interconnection density is the moat, not just megawatts |
-| Interconnection revenue | Q1 2026 $446M versus $393M in Q1 2025 | AI/cloud/network proximity is showing up in recurring revenue |
+| Interconnection revenue | Q1 2026 $446M versus $393M in Q1 2025 (+13.5% as reported) | AI/cloud/network proximity is showing up in recurring revenue |
 | MRR / cabinet proxy | MRR +12% reported YoY; 23,250 retail cabinets added in 2025 | Track whether cabinet growth comes with revenue yield, not just footprint |
 | xScale JVs | Total xScale JV equity investments $678M; Hampton campus sold to AMER 3 JV for $459M consideration | Capital-light participation in hyperscale capacity |
 | AI deal signal | About 60% of largest Q1 deals were AI-related | Direct read on enterprise and service-provider AI deployment |

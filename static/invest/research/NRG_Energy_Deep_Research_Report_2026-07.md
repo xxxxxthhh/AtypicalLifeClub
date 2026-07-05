@@ -21,7 +21,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 |--------|-------|
 | Share price | $136.70 (Jul 2, 2026 close, Yahoo/yfinance basis) |
 | Market cap / shares | About $28.8B; about 211.0M shares |
-| Enterprise value | About $52.7B, including about $23.2B net debt |
+| Enterprise value | About $52.7B, including about $23.0B net debt plus about $0.7B of other EV adjustments in the yfinance snapshot |
 | Latest reported period | 2026Q1 |
 | Q1 revenue / GAAP net income | $10.26B / $125M |
 | Q1 adjusted EBITDA / FCFbG | $1.08B / $(66)M |
@@ -74,7 +74,7 @@ Bear case:
 | Method | Current readout | Interpretation |
 |--------|-----------------|----------------|
 | Market cap | About $28.8B | Smaller equity base than CEG/VST, with high power-cycle sensitivity |
-| EV | About $52.7B | EV captures the post-LS-Power debt load better than equity value alone |
+| EV | About $52.7B | EV captures the post-LS-Power debt load, plus other EV adjustments, better than equity value alone |
 | Price / 2026 adjusted EPS | About 15.4x midpoint guidance ($8.90) | Reasonable only if LS Power and retail/Vivint support the growth plan |
 | EV / 2026 adjusted EBITDA | About 9.4x midpoint guidance ($5.575B) | Lower than many AI infrastructure names, but with commodity and leverage risk |
 | Deal multiple check | LS Power was framed at 7.5x 2026 EV/EBITDA and about 50% of new-build replacement cost | The bull case depends on scarcity value, not just accounting accretion |
