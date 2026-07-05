@@ -145,6 +145,7 @@
     },
     "crossChecks": [
       "buildout-orders",
+      "merchant-power-capacity",
       "resource-constraints",
       "chip-vs-downstream"
     ],
@@ -327,6 +328,7 @@
     },
     "crossChecks": [
       "buildout-orders",
+      "facility-interconnection-leasing",
       "resource-constraints",
       "neocloud-financing"
     ],

@@ -204,6 +204,17 @@
       }
     },
     {
+      "id": "merchant-power-capacity",
+      "if": {
+        "zh": "如果核电 PPA 继续变强，但燃气容量、C&I VPP、ERCOT/PJM 容量价格或零售电力利润率没有同步确认",
+        "en": "If nuclear PPAs keep strengthening but gas capacity, C&I VPPs, ERCOT/PJM capacity prices, or retail power margins do not confirm"
+      },
+      "then": {
+        "zh": "则 AI 电力约束应被视为更窄的清洁 baseload 叙事，而不是全电力系统的 merchant capacity 重估。",
+        "en": "then treat the AI power constraint as a narrower clean-baseload story, not a full-system merchant-capacity repricing."
+      }
+    },
+    {
       "id": "custom-silicon-ethernet",
       "if": {
         "zh": "如果 Broadcom 的自定义硅与 Arista 的开放以太网生态同时变强",
@@ -245,6 +256,17 @@
       "then": {
         "zh": "则数据中心扩张上限可能先被资源和施工约束决定，而不是由芯片供给决定。",
         "en": "then data-center expansion may be capped first by resources and construction constraints, not chip supply."
+      }
+    },
+    {
+      "id": "facility-interconnection-leasing",
+      "if": {
+        "zh": "如果数据中心租赁/backlog 增长，但 interconnection、MRR/cabinet yield 或 xScale/retail colocation 指标没有同步改善",
+        "en": "If data-center leasing/backlog grows but interconnection, MRR/cabinet yield, or xScale/retail colocation metrics do not improve with it"
+      },
+      "then": {
+        "zh": "则优先把需求解释为 hyperscale shell / powered-land 集中，而不是广泛的网络密集型 AI 部署。",
+        "en": "then first read demand as hyperscale shell / powered-land concentration, not broad network-dense AI deployment."
       }
     },
     {
