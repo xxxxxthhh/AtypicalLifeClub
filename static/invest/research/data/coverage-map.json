@@ -201,56 +201,7 @@
       }
     }
   ],
-  "planned": [
-    {
-      "ticker": "ASML",
-      "layer": "semicap-equipment",
-      "label": {
-        "zh": "ASML 光刻与 EUV/High-NA 公共约束缺口",
-        "en": "ASML lithography and EUV/High-NA common-constraint gap"
-      }
-    },
-    {
-      "ticker": "AMAT",
-      "layer": "semicap-equipment",
-      "label": {
-        "zh": "AMAT 沉积/刻蚀/先进封装设备缺口",
-        "en": "AMAT deposition/etch/advanced-packaging equipment gap"
-      }
-    },
-    {
-      "ticker": "LRCX",
-      "layer": "semicap-equipment",
-      "label": {
-        "zh": "LRCX 刻蚀与沉积设备缺口",
-        "en": "LRCX etch and deposition equipment gap"
-      }
-    },
-    {
-      "ticker": "KLAC",
-      "layer": "semicap-equipment",
-      "label": {
-        "zh": "KLAC 过程控制与良率仪表盘缺口",
-        "en": "KLAC process-control and yield-dashboard gap"
-      }
-    },
-    {
-      "ticker": "SNPS",
-      "layer": "eda-ip",
-      "label": {
-        "zh": "SNPS EDA/IP 与 Ansys 集成缺口",
-        "en": "SNPS EDA/IP and Ansys integration gap"
-      }
-    },
-    {
-      "ticker": "CDNS",
-      "layer": "eda-ip",
-      "label": {
-        "zh": "CDNS EDA/IP、backlog 与 AI 设计流缺口",
-        "en": "CDNS EDA/IP, backlog, and AI design-flow gap"
-      }
-    }
-  ],
+  "planned": [],
   "crossChecks": [
     {
       "id": "chip-vs-downstream",
@@ -349,6 +300,17 @@
       "then": {
         "zh": "则优先重估算力供给紧张假设和 GPU 云的定价权，而不是把新增供给当作需求证据。",
         "en": "then re-test the compute-scarcity assumption and GPU-cloud pricing power first, rather than reading new supply as demand evidence."
+      }
+    },
+    {
+      "id": "semicap-eda-capex-commitment",
+      "if": {
+        "zh": "如果 foundry、memory 或 custom silicon capex 继续上修，但 EUV、刻蚀/沉积、过程控制和 EDA/IP backlog 没有同步确认",
+        "en": "If foundry, memory, or custom-silicon capex keeps rising but EUV, etch/deposition, process control, and EDA/IP backlog do not confirm"
+      },
+      "then": {
+        "zh": "则应把下游 capex 视为宣布或预算中的产能，而不是已承诺、可制造、可设计完成的 AI 供给。",
+        "en": "then treat downstream capex as announced or budgeted capacity, not committed, manufacturable, design-complete AI supply."
       }
     }
   ]

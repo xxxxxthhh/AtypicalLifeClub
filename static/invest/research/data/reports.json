@@ -1,5 +1,863 @@
 [
   {
+    "id": "asml-2026",
+    "company": "ASML Holding",
+    "ticker": "NASDAQ: ASML / Euronext Amsterdam: ASML",
+    "priceSymbol": "ASML",
+    "title": "ASML 深度研究报告 - EUV / High-NA 作为设备层公共约束",
+    "titleEn": "ASML Deep Research Report - EUV / High-NA as the Equipment-Layer Common Constraint",
+    "summary": "AI 基础设施 semicap-equipment 层的公共约束：ASML 验证 foundry / memory capex 是否真正穿过光刻、EUV、High-NA、长期协议和出口管制这道最硬瓶颈。Q1 2026 net sales EUR 8.767B、gross margin 53.0%、net income EUR 2.757B；FY2026 指引 net sales EUR 36-40B、gross margin 51-53%。Q4 2025 net bookings EUR 13.158B，其中 EUV EUR 7.4B，年末 backlog EUR 38.797B。当前 ADR $1,769.32（2026-07-02）、市值约 $681.9B，按 EUR/USD 1.1440 和 FY2026 sales 中点折算，约 15.6x EV/2026E sales。中性观察：垄断质量极高，但估值已经资本化持续 EUV/High-NA 稀缺和出口管制可控。",
+    "summaryEn": "Common-constraint coverage for the AI-infrastructure semicap-equipment layer. ASML tests whether foundry and memory capex truly passes through lithography, EUV, High-NA, long-term agreements, and export controls. Q1 2026 net sales were EUR 8.767B, gross margin was 53.0%, and net income was EUR 2.757B; FY2026 guidance is EUR 36-40B net sales and 51-53% gross margin. Q4 2025 net bookings were EUR 13.158B, including EUR 7.4B EUV, and year-end backlog was EUR 38.797B. At $1,769.32 per ADR (2026-07-02), about $681.9B market cap, and EUR/USD 1.1440, ASML trades around 15.6x EV/2026E sales at the FY2026 sales midpoint. Neutral watch: monopoly quality is exceptional, but the valuation already capitalizes durable EUV/High-NA scarcity and manageable export controls.",
+    "tags": [
+      "半导体设备",
+      "EUV",
+      "AI基础设施",
+      "光刻"
+    ],
+    "category": "tech",
+    "date": "2026-07-05",
+    "lastUpdate": "2026-07-05",
+    "file": "/invest/research/reports/view.html?id=asml-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/ASML_深度研究报告_2026-07.md",
+      "en": "/invest/research/ASML_Deep_Research_Report_2026-07.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "P2 设备层公共约束：ASML 用 EUV/High-NA、backlog、installed-base service 和出口管制验证 AI capex 是否进入最硬工具瓶颈",
+      "Q1 2026 net sales EUR 8.767B、gross margin 53.0%、net income EUR 2.757B；FY2026 指引 EUR 36-40B net sales、51-53% gross margin",
+      "Q4 2025 net bookings EUR 13.158B，其中 EUV EUR 7.4B；2025 年末 backlog EUR 38.797B",
+      "当前 ADR $1,769.32、市值约 $681.9B，约 15.6x EV/2026E sales；质量极高但估值容错率低"
+    ],
+    "chainLayer": "semicap-equipment",
+    "chainRole": "common-constraint",
+    "stance": "neutral-watch",
+    "priceAsOf": "2026-07-02",
+    "reportedPeriod": "2026Q1 / Q4 2025 bookings",
+    "related": [
+      "tsmc-2026",
+      "micron-2026",
+      "sk-hynix-2026",
+      "applied-materials-2026",
+      "lam-research-2026",
+      "kla-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "euv-high-na-orders",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "EUV / High-NA 订单节奏",
+          "en": "EUV / High-NA order cadence"
+        },
+        "trigger": {
+          "zh": "EUV bookings 维持强势并支持 2026+ 客户长期协议",
+          "en": "EUV bookings stay strong and support 2026+ customer long-term agreements"
+        },
+        "latest": {
+          "zh": "Q4 2025 net bookings EUR 13.158B，其中 EUV EUR 7.4B",
+          "en": "Q4 2025 net bookings were EUR 13.158B, including EUR 7.4B EUV"
+        },
+        "nextCheck": "Q2 2026 orders and customer-capacity commentary",
+        "nextCheckDate": "2026-07"
+      },
+      {
+        "id": "backlog-conversion",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "Backlog 转收入",
+          "en": "Backlog-to-revenue conversion"
+        },
+        "trigger": {
+          "zh": "EUR 38.797B backlog 按 2026-2027 转收入且不出现取消/延期",
+          "en": "EUR 38.797B backlog converts into 2026-2027 revenue without cancellations or delays"
+        },
+        "latest": {
+          "zh": "2025 年末 backlog EUR 38.797B",
+          "en": "year-end 2025 backlog was EUR 38.797B"
+        },
+        "nextCheck": "quarterly backlog and revenue conversion",
+        "nextCheckDate": "2026-07"
+      },
+      {
+        "id": "export-control-china",
+        "thesis": "bear",
+        "theme": "regulatory",
+        "metric": {
+          "zh": "出口管制与中国可出货市场",
+          "en": "Export controls and China shippable market"
+        },
+        "trigger": {
+          "zh": "出口管制收紧导致系统出货、服务或客户计划下调",
+          "en": "tighter export controls reduce system shipments, service access, or customer plans"
+        },
+        "latest": {
+          "zh": "公司称 FY2026 指引区间已纳入出口管制讨论的潜在结果",
+          "en": "FY2026 guidance range incorporates possible export-control discussion outcomes"
+        },
+        "nextCheck": "export-control and geography disclosures",
+        "nextCheckDate": "2026-07"
+      },
+      {
+        "id": "installed-base-services",
+        "thesis": "bull",
+        "theme": "pricing",
+        "metric": {
+          "zh": "Installed-base management sales",
+          "en": "Installed-base management sales"
+        },
+        "trigger": {
+          "zh": "服务收入维持增长并缓冲系统订单周期",
+          "en": "service revenue keeps growing and cushions system-order cyclicality"
+        },
+        "latest": {
+          "zh": "Q1 installed-base management sales EUR 2.488B",
+          "en": "Q1 installed-base management sales were EUR 2.488B"
+        },
+        "nextCheck": "installed-base service growth",
+        "nextCheckDate": "2026-07"
+      },
+      {
+        "id": "valuation-backlog-quality",
+        "thesis": "bear",
+        "theme": "valuation",
+        "metric": {
+          "zh": "估值与 backlog 质量",
+          "en": "Valuation and backlog quality"
+        },
+        "trigger": {
+          "zh": "约 15.6x 2026E sales 下，订单或毛利率失误会触发估值下修",
+          "en": "around 15.6x 2026E sales leaves valuation exposed to order or margin misses"
+        },
+        "latest": {
+          "zh": "ADR $1,769.32、市值约 $681.9B，EV/2026E sales 约 15.6x",
+          "en": "$1,769.32 ADR, about $681.9B market cap, about 15.6x EV/2026E sales"
+        },
+        "nextCheck": "price, backlog and margin reset",
+        "nextCheckDate": "2026-07"
+      }
+    ]
+  },
+  {
+    "id": "applied-materials-2026",
+    "company": "Applied Materials",
+    "ticker": "NASDAQ: AMAT",
+    "priceSymbol": "AMAT",
+    "title": "Applied Materials 深度研究报告 - AI 扩产的广谱半导体设备仪表盘",
+    "titleEn": "Applied Materials Deep Research Report - Broad Semicap Dashboard For AI Capacity Buildout",
+    "summary": "AI 基础设施 semicap-equipment 层的广谱设备仪表盘：AMAT 验证 AI 需求是否不只卡在 EUV，而是扩散到 deposition、etch、advanced packaging、DRAM 和服务。FY2026 Q2 收入 $7.91B、GAAP gross margin 49.9%、non-GAAP EPS $2.86；Semiconductor Systems 收入 $5.965B，其中 foundry/logic/other 67%、DRAM 29%。Q3 指引收入 $8.950B +/- $500M、non-GAAP EPS $3.36 +/- $0.20。当前 $603.04、市值约 $478.8B、EV 约 $477.8B，约 13.3x EV/Q3 annualized sales、约 36.8x forward EPS。中性观察：上行周期强，但中国/台湾暴露和估值容错率都高。",
+    "summaryEn": "Broad equipment dashboard for the AI-infrastructure semicap-equipment layer. AMAT tests whether AI demand is spreading beyond EUV into deposition, etch, advanced packaging, DRAM, and services. Q2 FY2026 revenue was $7.91B, GAAP gross margin was 49.9%, and non-GAAP EPS was $2.86; Semiconductor Systems revenue was $5.965B, with foundry/logic/other at 67% and DRAM at 29%. Q3 guidance is $8.950B revenue +/- $500M and non-GAAP EPS of $3.36 +/- $0.20. At $603.04, about $478.8B market cap and $477.8B EV, AMAT trades around 13.3x EV/Q3 annualized sales and 36.8x forward EPS. Neutral watch: the upcycle is strong, but China/Taiwan exposure and valuation tolerance are both elevated.",
+    "tags": [
+      "半导体设备",
+      "AI基础设施",
+      "先进封装",
+      "DRAM"
+    ],
+    "category": "tech",
+    "date": "2026-07-05",
+    "lastUpdate": "2026-07-05",
+    "file": "/invest/research/reports/view.html?id=applied-materials-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Applied_Materials_深度研究报告_2026-07.md",
+      "en": "/invest/research/Applied_Materials_Deep_Research_Report_2026-07.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "补齐广谱设备仪表盘：AMAT 验证 AI capex 是否进入 deposition、etch、advanced packaging、DRAM 和服务",
+      "FY2026 Q2 revenue $7.91B、Semiconductor Systems $5.965B，foundry/logic/other 67%、DRAM 29%",
+      "Q3 指引 revenue $8.950B +/- $500M、non-GAAP EPS $3.36 +/- $0.20",
+      "当前 $603.04、EV 约 $477.8B，约 13.3x Q3 annualized sales；中国/台湾暴露需要持续监控"
+    ],
+    "chainLayer": "semicap-equipment",
+    "chainRole": "dashboard",
+    "stance": "neutral-watch",
+    "priceAsOf": "2026-07-02",
+    "reportedPeriod": "FY2026 Q2",
+    "related": [
+      "asml-2026",
+      "lam-research-2026",
+      "kla-2026",
+      "tsmc-2026",
+      "micron-2026",
+      "sk-hynix-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "semiconductor-systems-growth",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "Semiconductor Systems 增长",
+          "en": "Semiconductor Systems growth"
+        },
+        "trigger": {
+          "zh": "系统收入与 operating margin 继续确认广谱 WFE 上行",
+          "en": "systems revenue and operating margin continue confirming a broad WFE upcycle"
+        },
+        "latest": {
+          "zh": "Q2 Semiconductor Systems revenue $5.965B、operating margin 35.1%",
+          "en": "Q2 Semiconductor Systems revenue was $5.965B with 35.1% operating margin"
+        },
+        "nextCheck": "FY2026 Q3 earnings",
+        "nextCheckDate": "2026-08"
+      },
+      {
+        "id": "foundry-dram-mix",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "Foundry/logic 与 DRAM mix",
+          "en": "Foundry/logic and DRAM mix"
+        },
+        "trigger": {
+          "zh": "foundry/logic 与 DRAM 同时保持强势，验证先进逻辑和 HBM 需求",
+          "en": "foundry/logic and DRAM both stay strong, validating advanced logic and HBM demand"
+        },
+        "latest": {
+          "zh": "Q2 mix: foundry/logic/other 67%、DRAM 29%、Flash 4%",
+          "en": "Q2 mix: foundry/logic/other 67%, DRAM 29%, Flash 4%"
+        },
+        "nextCheck": "segment and end-market mix",
+        "nextCheckDate": "2026-08"
+      },
+      {
+        "id": "china-taiwan-exposure",
+        "thesis": "bear",
+        "theme": "regulatory",
+        "metric": {
+          "zh": "中国/台湾收入暴露",
+          "en": "China/Taiwan revenue exposure"
+        },
+        "trigger": {
+          "zh": "出口管制或客户节奏影响中国/台湾收入",
+          "en": "export controls or customer timing affect China/Taiwan revenue"
+        },
+        "latest": {
+          "zh": "Q2 geography: Taiwan 27%、China 27%、Korea 20%",
+          "en": "Q2 geography: Taiwan 27%, China 27%, Korea 20%"
+        },
+        "nextCheck": "geographic revenue and restrictions",
+        "nextCheckDate": "2026-08"
+      },
+      {
+        "id": "q3-guidance-conversion",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "Q3 指引兑现",
+          "en": "Q3 guidance conversion"
+        },
+        "trigger": {
+          "zh": "收入接近或高于 $8.95B 中点，且 EPS / margin 不失速",
+          "en": "revenue approaches or exceeds the $8.95B midpoint without EPS / margin slippage"
+        },
+        "latest": {
+          "zh": "Q3 指引 revenue $8.950B +/- $500M、non-GAAP EPS $3.36 +/- $0.20",
+          "en": "Q3 guidance is $8.950B revenue +/- $500M and non-GAAP EPS $3.36 +/- $0.20"
+        },
+        "nextCheck": "FY2026 Q3 results",
+        "nextCheckDate": "2026-08"
+      },
+      {
+        "id": "supply-chain-readiness",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "供应链和库存准备度",
+          "en": "Supply-chain and inventory readiness"
+        },
+        "trigger": {
+          "zh": "提高 build plan、inventory 和 logistics capacity 后，订单兑现而非形成库存风险",
+          "en": "higher build plan, inventory, and logistics capacity convert to orders rather than inventory risk"
+        },
+        "latest": {
+          "zh": "管理层称已提高 build plan、inventory 和 logistics capacity",
+          "en": "management said it increased build plan, inventory, and logistics capacity"
+        },
+        "nextCheck": "inventory and supply-chain update",
+        "nextCheckDate": "2026-08"
+      }
+    ]
+  },
+  {
+    "id": "lam-research-2026",
+    "company": "Lam Research",
+    "ticker": "NASDAQ: LRCX",
+    "priceSymbol": "LRCX",
+    "title": "Lam Research 深度研究报告 - AI 内存与先进逻辑的刻蚀/沉积校验",
+    "titleEn": "Lam Research Deep Research Report - Etch And Deposition Check On AI Memory And Advanced Logic",
+    "summary": "AI 基础设施 semicap-equipment 层的刻蚀/沉积仪表盘：LRCX 验证 HBM、先进 DRAM、3D 结构和领先逻辑是否提高 process-tool intensity。2026 年 3 月季度收入 $5.841B、GAAP gross margin 49.8%、non-GAAP EPS $1.47；Systems revenue $3.731B，customer-support-related and other revenue $2.111B。6 月季度指引收入 $6.60B +/- $400M、gross margin 50.5%、operating margin 36.5%。当前 $351.41、市值约 $439.5B、EV 约 $438.4B，约 16.6x EV/June-quarter annualized sales。中性观察：AI process intensity 强，但中国 34% 收入暴露和估值都高。",
+    "summaryEn": "Etch/deposition dashboard for the AI-infrastructure semicap-equipment layer. LRCX tests whether HBM, advanced DRAM, 3D structures, and leading-edge logic are raising process-tool intensity. March 2026 quarter revenue was $5.841B, GAAP gross margin was 49.8%, and non-GAAP EPS was $1.47; Systems revenue was $3.731B and customer-support-related and other revenue was $2.111B. June-quarter guidance is $6.60B revenue +/- $400M, 50.5% gross margin, and 36.5% operating margin. At $351.41, about $439.5B market cap and $438.4B EV, LRCX trades around 16.6x EV/June-quarter annualized sales. Neutral watch: AI process intensity is strong, but China exposure at 34% of revenue and valuation are both high.",
+    "tags": [
+      "半导体设备",
+      "刻蚀",
+      "沉积",
+      "HBM"
+    ],
+    "category": "tech",
+    "date": "2026-07-05",
+    "lastUpdate": "2026-07-05",
+    "file": "/invest/research/reports/view.html?id=lam-research-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Lam_Research_深度研究报告_2026-07.md",
+      "en": "/invest/research/Lam_Research_Deep_Research_Report_2026-07.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "补齐刻蚀/沉积仪表盘：LRCX 验证 AI 内存与先进逻辑是否提高 process-tool intensity",
+      "2026 年 3 月季度 revenue $5.841B、non-GAAP EPS $1.47；Systems revenue $3.731B",
+      "6 月季度指引 revenue $6.60B +/- $400M、operating margin 36.5%",
+      "当前 $351.41、EV 约 $438.4B，约 16.6x June-quarter annualized sales；China 34% 是核心风险"
+    ],
+    "chainLayer": "semicap-equipment",
+    "chainRole": "dashboard",
+    "stance": "neutral-watch",
+    "priceAsOf": "2026-07-02",
+    "reportedPeriod": "March 2026 quarter",
+    "related": [
+      "asml-2026",
+      "applied-materials-2026",
+      "kla-2026",
+      "tsmc-2026",
+      "micron-2026",
+      "sk-hynix-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "etch-deposition-ai-demand",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "刻蚀/沉积 AI 需求",
+          "en": "Etch/deposition AI demand"
+        },
+        "trigger": {
+          "zh": "Systems revenue 继续增长，验证 HBM/先进逻辑 process intensity",
+          "en": "Systems revenue keeps growing, validating HBM / advanced-logic process intensity"
+        },
+        "latest": {
+          "zh": "Systems revenue $3.731B",
+          "en": "Systems revenue was $3.731B"
+        },
+        "nextCheck": "June-quarter results",
+        "nextCheckDate": "2026-07"
+      },
+      {
+        "id": "china-korea-taiwan-mix",
+        "thesis": "bear",
+        "theme": "regulatory",
+        "metric": {
+          "zh": "China/Korea/Taiwan mix",
+          "en": "China/Korea/Taiwan mix"
+        },
+        "trigger": {
+          "zh": "中国收入或出口限制转弱，或 Korea/Taiwan HBM/逻辑需求不再补位",
+          "en": "China revenue or export limits weaken, or Korea/Taiwan HBM / logic demand fails to offset"
+        },
+        "latest": {
+          "zh": "Q revenue mix: China 34%、Korea 23%、Taiwan 23%",
+          "en": "quarter revenue mix: China 34%, Korea 23%, Taiwan 23%"
+        },
+        "nextCheck": "geography and customer mix",
+        "nextCheckDate": "2026-07"
+      },
+      {
+        "id": "japan-deferred-revenue",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "Deferred revenue 与日本验收",
+          "en": "Deferred revenue and Japan acceptance"
+        },
+        "trigger": {
+          "zh": "对日本 future revenue shipments 按计划验收并确认收入",
+          "en": "shipments to Japan for future revenue are accepted and recognized on plan"
+        },
+        "latest": {
+          "zh": "Deferred revenue $2.22B；Japan future revenue shipments 约 $434M",
+          "en": "deferred revenue was $2.22B; Japan future-revenue shipments were about $434M"
+        },
+        "nextCheck": "acceptance and deferred revenue update",
+        "nextCheckDate": "2026-07"
+      },
+      {
+        "id": "june-quarter-guidance",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "6 月季度指引兑现",
+          "en": "June-quarter guidance conversion"
+        },
+        "trigger": {
+          "zh": "收入接近 $6.60B 中点且 operating margin 接近 36.5%",
+          "en": "revenue approaches the $6.60B midpoint and operating margin approaches 36.5%"
+        },
+        "latest": {
+          "zh": "June-quarter guide: revenue $6.60B +/- $400M、operating margin 36.5% +/- 1pct",
+          "en": "June-quarter guide: revenue $6.60B +/- $400M and operating margin 36.5% +/- 1 point"
+        },
+        "nextCheck": "June-quarter print",
+        "nextCheckDate": "2026-07"
+      },
+      {
+        "id": "service-resilience",
+        "thesis": "bull",
+        "theme": "pricing",
+        "metric": {
+          "zh": "服务与 installed-base 韧性",
+          "en": "Service and installed-base resilience"
+        },
+        "trigger": {
+          "zh": "customer-support-related and other revenue 维持韧性，说明装机利用率健康",
+          "en": "customer-support-related and other revenue remains resilient, indicating healthy installed-base utilization"
+        },
+        "latest": {
+          "zh": "customer-support-related and other revenue $2.111B",
+          "en": "customer-support-related and other revenue was $2.111B"
+        },
+        "nextCheck": "service revenue trend",
+        "nextCheckDate": "2026-07"
+      }
+    ]
+  },
+  {
+    "id": "kla-2026",
+    "company": "KLA",
+    "ticker": "NASDAQ: KLAC",
+    "priceSymbol": "KLAC",
+    "title": "KLA 深度研究报告 - AI 产能的过程控制与良率仪表盘",
+    "titleEn": "KLA Deep Research Report - Process-Control And Yield Dashboard For AI Capacity",
+    "summary": "AI 基础设施 semicap-equipment 层的过程控制/良率仪表盘：KLAC 验证 AI 扩产是否不只是装机，而是投入 inspection、metrology 和 process-control 来形成可制造良率。FY2026 Q3 revenue $3.416B、GAAP EPS $9.12、non-GAAP EPS $9.40（公司 as-reported 口径）；Semiconductor Process Control revenue $3.084B。季度 operating cash flow $707.5M、FCF $622.3M；LTM FCF $4.01B。当前 $235.55、市值约 $307.7B、EV 约 $308.9B；因当前市场数据与披露 EPS 疑似拆股基准不同，估值以约 22.6x EV/Q3 annualized revenue 和约 1.3% LTM FCF yield 观察。中性观察：质量极高，但估值对 WFE 降温很敏感。",
+    "summaryEn": "Process-control and yield dashboard for the AI-infrastructure semicap-equipment layer. KLAC tests whether AI capacity is not just installed, but supported by inspection, metrology, and process control that make advanced capacity yieldable. FY2026 Q3 revenue was $3.416B, GAAP EPS was $9.12, and non-GAAP EPS was $9.40 on the company's as-reported basis; Semiconductor Process Control revenue was $3.084B. Quarterly operating cash flow was $707.5M and FCF was $622.3M; LTM FCF was $4.01B. At $235.55, about $307.7B market cap and $308.9B EV, valuation is best viewed through about 22.6x EV/Q3 annualized revenue and about 1.3% LTM FCF yield because current market data and filing EPS appear to use different split bases. Neutral watch: quality is exceptional, but the multiple is sensitive to WFE cooling.",
+    "tags": [
+      "半导体设备",
+      "过程控制",
+      "良率",
+      "AI基础设施"
+    ],
+    "category": "tech",
+    "date": "2026-07-05",
+    "lastUpdate": "2026-07-05",
+    "file": "/invest/research/reports/view.html?id=kla-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/KLA_深度研究报告_2026-07.md",
+      "en": "/invest/research/KLA_Deep_Research_Report_2026-07.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "补齐过程控制/良率仪表盘：KLAC 验证 AI 扩产是否能变成可制造产能",
+      "FY2026 Q3 revenue $3.416B，Semiconductor Process Control revenue $3.084B",
+      "季度 FCF $622.3M，LTM FCF $4.01B；新增 $7B 回购授权",
+      "当前 $235.55、EV 约 $308.9B，约 22.6x Q3 annualized revenue；质量高但倍数敏感"
+    ],
+    "chainLayer": "semicap-equipment",
+    "chainRole": "dashboard",
+    "stance": "neutral-watch",
+    "priceAsOf": "2026-07-02",
+    "reportedPeriod": "FY2026 Q3",
+    "related": [
+      "asml-2026",
+      "applied-materials-2026",
+      "lam-research-2026",
+      "tsmc-2026",
+      "micron-2026",
+      "sk-hynix-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "process-control-revenue",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "Semiconductor Process Control revenue",
+          "en": "Semiconductor Process Control revenue"
+        },
+        "trigger": {
+          "zh": "过程控制收入继续增长并验证先进制造良率需求",
+          "en": "process-control revenue keeps growing and validates advanced-manufacturing yield demand"
+        },
+        "latest": {
+          "zh": "Q3 Semiconductor Process Control revenue $3.084B",
+          "en": "Q3 Semiconductor Process Control revenue was $3.084B"
+        },
+        "nextCheck": "next quarterly segment update",
+        "nextCheckDate": "2026-07"
+      },
+      {
+        "id": "ai-growth-vectors",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "AI 增长向量",
+          "en": "AI growth vectors"
+        },
+        "trigger": {
+          "zh": "foundry/logic、memory、advanced packaging 和 services 同步保持强势",
+          "en": "foundry/logic, memory, advanced packaging, and services all remain strong"
+        },
+        "latest": {
+          "zh": "管理层明确提到 AI ecosystem across foundry/logic, memory, advanced packaging and services",
+          "en": "management explicitly cited AI ecosystem growth across foundry/logic, memory, advanced packaging, and services"
+        },
+        "nextCheck": "CY2026 demand commentary",
+        "nextCheckDate": "2026-07"
+      },
+      {
+        "id": "fcf-capital-return",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "FCF 与 capital return",
+          "en": "FCF and capital return"
+        },
+        "trigger": {
+          "zh": "FCF 支撑 dividend / buyback，且不掩盖周期转弱",
+          "en": "FCF supports dividends / buybacks without masking cycle weakness"
+        },
+        "latest": {
+          "zh": "Q3 FCF $622.3M，LTM FCF $4.01B；新增 $7B 回购授权",
+          "en": "Q3 FCF was $622.3M, LTM FCF was $4.01B, and a new $7B repurchase authorization was approved"
+        },
+        "nextCheck": "cash flow and buyback update",
+        "nextCheckDate": "2026-07"
+      },
+      {
+        "id": "segment-breadth",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "Segment breadth",
+          "en": "Segment breadth"
+        },
+        "trigger": {
+          "zh": "Specialty Semiconductor Process 与 PCB/Component Inspection 不拖累核心增长",
+          "en": "Specialty Semiconductor Process and PCB / Component Inspection do not drag core growth"
+        },
+        "latest": {
+          "zh": "Q3 Specialty Semiconductor Process $164.0M，PCB and Component Inspection $167.6M",
+          "en": "Q3 Specialty Semiconductor Process was $164.0M and PCB / Component Inspection was $167.6M"
+        },
+        "nextCheck": "segment mix update",
+        "nextCheckDate": "2026-07"
+      },
+      {
+        "id": "cy2026-outlook",
+        "thesis": "bear",
+        "theme": "valuation",
+        "metric": {
+          "zh": "CY2026 outlook 与估值容错",
+          "en": "CY2026 outlook and valuation tolerance"
+        },
+        "trigger": {
+          "zh": "WFE 或过程控制需求降温，使高 EV/sales 与低 FCF yield 难以维持",
+          "en": "WFE or process-control demand cools, making high EV/sales and low FCF yield hard to sustain"
+        },
+        "latest": {
+          "zh": "约 22.6x EV/Q3 annualized revenue、约 1.3% LTM FCF yield",
+          "en": "about 22.6x EV/Q3 annualized revenue and about 1.3% LTM FCF yield"
+        },
+        "nextCheck": "guidance and valuation reset",
+        "nextCheckDate": "2026-07"
+      }
+    ]
+  },
+  {
+    "id": "synopsys-2026",
+    "company": "Synopsys",
+    "ticker": "NASDAQ: SNPS",
+    "priceSymbol": "SNPS",
+    "title": "Synopsys 深度研究报告 - AI 芯片设计的 EDA/IP 与仿真约束",
+    "titleEn": "Synopsys Deep Research Report - EDA/IP And Simulation Constraint For AI Silicon Design",
+    "summary": "AI 基础设施 eda-ip 层的公共约束：SNPS 验证 AI silicon 需求是否穿透到 design automation、verification、simulation、IP blocks 和 system-level complexity。FY2026 Q2 revenue $2.276B（去年同期 $1.604B）、GAAP EPS $0.09、non-GAAP EPS $3.35；FY2026 指引 revenue $9.625-9.705B、non-GAAP EPS $14.72-14.80、FCF 约 $2.0B。指引包含约 $2.96B Ansys revenue，并假设没有进一步 export-control / Entity List 变化。当前 $437.16、市值约 $83.7B、EV 约 $92.1B，约 9.5x EV/FY2026E sales、约 29.6x non-GAAP P/E。中性观察：AI 复杂度支撑长期逻辑，但 Ansys 整合和出口风险需要验证。",
+    "summaryEn": "Common-constraint coverage for the AI-infrastructure eda-ip layer. SNPS tests whether AI silicon demand is flowing into design automation, verification, simulation, IP blocks, and system-level complexity. Q2 FY2026 revenue was $2.276B versus $1.604B a year ago, GAAP EPS was $0.09, and non-GAAP EPS was $3.35; FY2026 guidance is $9.625-9.705B revenue, $14.72-14.80 non-GAAP EPS, and about $2.0B FCF. Guidance includes about $2.96B of Ansys revenue and assumes no further export-control / Entity List changes. At $437.16, about $83.7B market cap and $92.1B EV, SNPS trades around 9.5x EV/FY2026E sales and 29.6x non-GAAP P/E. Neutral watch: AI complexity supports the thesis, but Ansys integration and export risk need verification.",
+    "tags": [
+      "EDA",
+      "半导体IP",
+      "AI芯片",
+      "仿真"
+    ],
+    "category": "tech",
+    "date": "2026-07-05",
+    "lastUpdate": "2026-07-05",
+    "file": "/invest/research/reports/view.html?id=synopsys-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Synopsys_深度研究报告_2026-07.md",
+      "en": "/invest/research/Synopsys_Deep_Research_Report_2026-07.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "补齐 EDA/IP 公共约束：SNPS 验证 AI design starts 与复杂度是否进入 design automation、verification、simulation 和 IP",
+      "FY2026 Q2 revenue $2.276B、non-GAAP EPS $3.35；FY2026 revenue 指引 $9.625-9.705B",
+      "FY2026 指引包含约 $2.96B Ansys revenue，且假设没有进一步 export-control / Entity List 变化",
+      "当前 $437.16、EV 约 $92.1B，约 9.5x FY2026E sales、约 29.6x non-GAAP P/E"
+    ],
+    "chainLayer": "eda-ip",
+    "chainRole": "common-constraint",
+    "stance": "neutral-watch",
+    "priceAsOf": "2026-07-02",
+    "reportedPeriod": "FY2026 Q2",
+    "related": [
+      "cadence-2026",
+      "nvidia-2026",
+      "broadcom-2026",
+      "amd-2026",
+      "tsmc-2026",
+      "marvell-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "ansys-integration",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "Ansys 整合",
+          "en": "Ansys integration"
+        },
+        "trigger": {
+          "zh": "Ansys revenue 与 simulation 协同扩大平台，而不是稀释执行",
+          "en": "Ansys revenue and simulation synergies expand the platform rather than dilute execution"
+        },
+        "latest": {
+          "zh": "FY2026 指引包含约 $2.96B Ansys revenue，包括约 $60M channel/accounting impact",
+          "en": "FY2026 guidance includes about $2.96B of Ansys revenue, including about $60M channel/accounting impact"
+        },
+        "nextCheck": "Q3 FY2026 integration update",
+        "nextCheckDate": "2026-08"
+      },
+      {
+        "id": "design-automation-growth",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "Design Automation 增长",
+          "en": "Design Automation growth"
+        },
+        "trigger": {
+          "zh": "AI architecture diversity 推动 verification、manufacturing software 和 system integration 需求",
+          "en": "AI architecture diversity drives verification, manufacturing software, and system-integration demand"
+        },
+        "latest": {
+          "zh": "Q2 revenue $2.276B，高于指引；管理层强调 AI scaling 和系统复杂度",
+          "en": "Q2 revenue was $2.276B, above guidance; management emphasized AI scaling and system complexity"
+        },
+        "nextCheck": "segment and product demand update",
+        "nextCheckDate": "2026-08"
+      },
+      {
+        "id": "design-ip-pullthrough",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "Design IP 拉动",
+          "en": "Design IP pull-through"
+        },
+        "trigger": {
+          "zh": "memory interface IP、embedded memories、security IP 与 processors 随 custom AI silicon 扩散",
+          "en": "memory interface IP, embedded memories, security IP, and processors spread with custom AI silicon"
+        },
+        "latest": {
+          "zh": "Design IP 包括 wired/memory interface IP、embedded memories、security IP 和 embedded processors",
+          "en": "Design IP includes wired/memory interface IP, embedded memories, security IP, and embedded processors"
+        },
+        "nextCheck": "IP segment update",
+        "nextCheckDate": "2026-08"
+      },
+      {
+        "id": "export-control-assumption",
+        "thesis": "bear",
+        "theme": "regulatory",
+        "metric": {
+          "zh": "出口管制假设",
+          "en": "Export-control assumption"
+        },
+        "trigger": {
+          "zh": "进一步 export-control / Entity List 变化破坏指引前提",
+          "en": "further export-control / Entity List changes disrupt guidance assumptions"
+        },
+        "latest": {
+          "zh": "公司指引假设没有进一步 export-control / Entity List 变化",
+          "en": "company guidance assumes no further export-control / Entity List changes"
+        },
+        "nextCheck": "regulatory disclosures",
+        "nextCheckDate": "2026-08"
+      },
+      {
+        "id": "fcf-conversion",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "FCF 转化",
+          "en": "FCF conversion"
+        },
+        "trigger": {
+          "zh": "约 $2.0B FY2026 FCF 指引兑现，并随整合噪音下降改善",
+          "en": "about $2.0B FY2026 FCF guidance is delivered and improves as integration noise fades"
+        },
+        "latest": {
+          "zh": "FY2026 operating cash flow 指引约 $2.3B，FCF 约 $2.0B",
+          "en": "FY2026 operating cash flow guidance is about $2.3B and FCF about $2.0B"
+        },
+        "nextCheck": "cash flow update",
+        "nextCheckDate": "2026-08"
+      }
+    ]
+  },
+  {
+    "id": "cadence-2026",
+    "company": "Cadence Design Systems",
+    "ticker": "NASDAQ: CDNS",
+    "priceSymbol": "CDNS",
+    "title": "Cadence Design Systems 深度研究报告 - AI 设计复杂度的 EDA/IP backlog 仪表盘",
+    "titleEn": "Cadence Design Systems Deep Research Report - EDA/IP Backlog Dashboard For AI Design Complexity",
+    "summary": "AI 基础设施 eda-ip 层的 backlog / execution 仪表盘：CDNS 验证 AI demand 是否出现在 design automation、IP、simulation、backlog、RPO 和 agentic design workflows。Q1 2026 revenue $1.474B、non-GAAP operating margin 44.7%、non-GAAP EPS $1.96；季度末 backlog $8.0B，未来 12 个月预计从 RPO 确认收入 $4.0B。FY2026 指引 revenue $6.125-6.225B、non-GAAP EPS $7.85-7.95。当前 $373.14、市值约 $102.9B、EV 约 $104.5B，约 16.9x EV/FY2026E sales、约 47.2x non-GAAP P/E。中性观察：质量高但估值要求 backlog、IP 和 AI design-flow adoption 都干净兑现。",
+    "summaryEn": "Backlog / execution dashboard for the AI-infrastructure eda-ip layer. CDNS tests whether AI demand is visible in design automation, IP, simulation, backlog, RPO, and agentic design workflows. Q1 2026 revenue was $1.474B, non-GAAP operating margin was 44.7%, and non-GAAP EPS was $1.96; quarter-end backlog was $8.0B and next-12-month RPO revenue was $4.0B. FY2026 guidance is $6.125-6.225B revenue and $7.85-7.95 non-GAAP EPS. At $373.14, about $102.9B market cap and $104.5B EV, CDNS trades around 16.9x EV/FY2026E sales and 47.2x non-GAAP P/E. Neutral watch: quality is high, but valuation requires clean backlog, IP, and AI design-flow adoption.",
+    "tags": [
+      "EDA",
+      "半导体IP",
+      "AI芯片",
+      "设计自动化"
+    ],
+    "category": "tech",
+    "date": "2026-07-05",
+    "lastUpdate": "2026-07-05",
+    "file": "/invest/research/reports/view.html?id=cadence-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Cadence_Design_Systems_深度研究报告_2026-07.md",
+      "en": "/invest/research/Cadence_Design_Systems_Deep_Research_Report_2026-07.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "补齐 EDA/IP backlog 仪表盘：CDNS 验证 AI 复杂度是否进入 backlog、RPO、IP 和 agentic design flow",
+      "Q1 2026 revenue $1.474B、non-GAAP operating margin 44.7%、non-GAAP EPS $1.96",
+      "季度末 backlog $8.0B，next-12-month RPO revenue $4.0B；IP revenue 同比 +22%",
+      "当前 $373.14、EV 约 $104.5B，约 16.9x FY2026E sales、约 47.2x non-GAAP P/E"
+    ],
+    "chainLayer": "eda-ip",
+    "chainRole": "dashboard",
+    "stance": "neutral-watch",
+    "priceAsOf": "2026-07-02",
+    "reportedPeriod": "2026Q1",
+    "related": [
+      "synopsys-2026",
+      "nvidia-2026",
+      "broadcom-2026",
+      "amd-2026",
+      "tsmc-2026",
+      "marvell-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "backlog-rpo-conversion",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "Backlog / RPO 转化",
+          "en": "Backlog / RPO conversion"
+        },
+        "trigger": {
+          "zh": "$8.0B backlog 与 $4.0B next-12-month RPO 按指引转收入",
+          "en": "$8.0B backlog and $4.0B next-12-month RPO convert into guided revenue"
+        },
+        "latest": {
+          "zh": "Q1 2026 quarter-end backlog $8.0B，next-12-month RPO revenue $4.0B",
+          "en": "Q1 2026 quarter-end backlog was $8.0B and next-12-month RPO revenue was $4.0B"
+        },
+        "nextCheck": "Q2 2026 results",
+        "nextCheckDate": "2026-07"
+      },
+      {
+        "id": "agentic-design-workflow",
+        "thesis": "bull",
+        "theme": "optionality",
+        "metric": {
+          "zh": "Agentic design workflow",
+          "en": "Agentic design workflow"
+        },
+        "trigger": {
+          "zh": "AgentStack / ChipStack / ViraStack / InnoStack 从产品叙事转为可衡量采用",
+          "en": "AgentStack / ChipStack / ViraStack / InnoStack move from product narrative to measurable adoption"
+        },
+        "latest": {
+          "zh": "管理层强调 AgentStack 与 Super Agents 集成",
+          "en": "management emphasized AgentStack and Super Agents integration"
+        },
+        "nextCheck": "AI design-flow product adoption",
+        "nextCheckDate": "2026-07"
+      },
+      {
+        "id": "ip-hbm-serdes-growth",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "IP / HBM / SerDes 增长",
+          "en": "IP / HBM / SerDes growth"
+        },
+        "trigger": {
+          "zh": "IP revenue 继续由 AI infrastructure、HBM、PCIe、SerDes 拉动",
+          "en": "IP revenue keeps being pulled by AI infrastructure, HBM, PCIe, and SerDes"
+        },
+        "latest": {
+          "zh": "Q1 IP business 同比 +22%，受 AI infrastructure、HPC、automotive 驱动",
+          "en": "Q1 IP business grew 22% YoY, driven by AI infrastructure, HPC, and automotive"
+        },
+        "nextCheck": "IP and protocol demand update",
+        "nextCheckDate": "2026-07"
+      },
+      {
+        "id": "hexagon-physical-ai",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "Hexagon / Physical AI 整合",
+          "en": "Hexagon / Physical AI integration"
+        },
+        "trigger": {
+          "zh": "Hexagon D&E 扩展 system simulation 而不稀释 margin",
+          "en": "Hexagon D&E expands system simulation without diluting margins"
+        },
+        "latest": {
+          "zh": "System Design and Analysis revenue 同比 +18%，Hexagon D&E 增加 structural / multibody dynamics",
+          "en": "System Design and Analysis revenue grew 18% YoY; Hexagon D&E adds structural / multibody dynamics"
+        },
+        "nextCheck": "SDA and Hexagon integration update",
+        "nextCheckDate": "2026-07"
+      },
+      {
+        "id": "valuation-execution",
+        "thesis": "bear",
+        "theme": "valuation",
+        "metric": {
+          "zh": "估值与执行容错率",
+          "en": "Valuation and execution tolerance"
+        },
+        "trigger": {
+          "zh": "约 47x FY2026E non-GAAP EPS 下，backlog、margin 或 AI adoption 任一失误都会放大",
+          "en": "at around 47x FY2026E non-GAAP EPS, any backlog, margin, or AI-adoption miss is amplified"
+        },
+        "latest": {
+          "zh": "约 16.9x EV/FY2026E sales、约 47.2x non-GAAP P/E",
+          "en": "about 16.9x EV/FY2026E sales and 47.2x non-GAAP P/E"
+        },
+        "nextCheck": "valuation reset and guidance update",
+        "nextCheckDate": "2026-07"
+      }
+    ]
+  },
+  {
     "id": "nrg-2026",
     "company": "NRG Energy",
     "ticker": "NYSE: NRG",

@@ -2,6 +2,78 @@
   "generatedAt": "2026-07-05",
   "entries": [
     {
+      "reportId": "asml-2026",
+      "symbol": "ASML",
+      "status": "ok",
+      "attemptedAt": "2026-07-05",
+      "baseDate": "2026-07-02",
+      "basePrice": 1769.3199,
+      "lastDate": "2026-07-02",
+      "lastClose": 1769.3199,
+      "changePct": 0.0,
+      "currency": "USD"
+    },
+    {
+      "reportId": "applied-materials-2026",
+      "symbol": "AMAT",
+      "status": "ok",
+      "attemptedAt": "2026-07-05",
+      "baseDate": "2026-07-02",
+      "basePrice": 603.04,
+      "lastDate": "2026-07-02",
+      "lastClose": 603.04,
+      "changePct": 0.0,
+      "currency": "USD"
+    },
+    {
+      "reportId": "lam-research-2026",
+      "symbol": "LRCX",
+      "status": "ok",
+      "attemptedAt": "2026-07-05",
+      "baseDate": "2026-07-02",
+      "basePrice": 351.41,
+      "lastDate": "2026-07-02",
+      "lastClose": 351.41,
+      "changePct": 0.0,
+      "currency": "USD"
+    },
+    {
+      "reportId": "kla-2026",
+      "symbol": "KLAC",
+      "status": "ok",
+      "attemptedAt": "2026-07-05",
+      "baseDate": "2026-07-02",
+      "basePrice": 235.55,
+      "lastDate": "2026-07-02",
+      "lastClose": 235.55,
+      "changePct": 0.0,
+      "currency": "USD"
+    },
+    {
+      "reportId": "synopsys-2026",
+      "symbol": "SNPS",
+      "status": "ok",
+      "attemptedAt": "2026-07-05",
+      "baseDate": "2026-07-02",
+      "basePrice": 437.16,
+      "lastDate": "2026-07-02",
+      "lastClose": 437.16,
+      "changePct": 0.0,
+      "currency": "USD"
+    },
+    {
+      "reportId": "cadence-2026",
+      "symbol": "CDNS",
+      "status": "ok",
+      "attemptedAt": "2026-07-05",
+      "baseDate": "2026-07-02",
+      "basePrice": 373.14,
+      "lastDate": "2026-07-02",
+      "lastClose": 373.14,
+      "changePct": 0.0,
+      "currency": "USD"
+    },
+    {
       "reportId": "nrg-2026",
       "symbol": "NRG",
       "status": "ok",

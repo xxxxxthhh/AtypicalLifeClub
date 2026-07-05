@@ -6,6 +6,48 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>ASML 深度研究报告 - EUV / High-NA 作为设备层公共约束 / ASML Deep Research Report - EUV / High-NA as the Equipment-Layer Common Constraint</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=asml-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=asml-2026#asml-2026@2026-07-05</guid>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施 semicap-equipment 层的公共约束：ASML 验证 foundry / memory capex 是否真正穿过光刻、EUV、High-NA、长期协议和出口管制这道最硬瓶颈。Q1 2026 net sales EUR 8.767B、gross margin 53.0%、net income EUR 2.757B；FY2026 指引 net sales EUR 36-40B、gross margin 51-53%。Q4 2025 net bookings EUR 13.158B，其中 EUV EUR 7.4B，年末 backlog EUR 38.797B。当前 ADR $1,769.32（2026-07-02）、市值约 $681.9B，按 EUR/USD 1.1440 和 FY2026 sales 中点折算，约 15.6x EV/2026E sales。中性观察：垄断质量极高，但估值已经资本化持续 EUV/High-NA 稀缺和出口管制可控。</description>
+    </item>
+    <item>
+      <title>Applied Materials 深度研究报告 - AI 扩产的广谱半导体设备仪表盘 / Applied Materials Deep Research Report - Broad Semicap Dashboard For AI Capacity Buildout</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=applied-materials-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=applied-materials-2026#applied-materials-2026@2026-07-05</guid>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施 semicap-equipment 层的广谱设备仪表盘：AMAT 验证 AI 需求是否不只卡在 EUV，而是扩散到 deposition、etch、advanced packaging、DRAM 和服务。FY2026 Q2 收入 $7.91B、GAAP gross margin 49.9%、non-GAAP EPS $2.86；Semiconductor Systems 收入 $5.965B，其中 foundry/logic/other 67%、DRAM 29%。Q3 指引收入 $8.950B +/- $500M、non-GAAP EPS $3.36 +/- $0.20。当前 $603.04、市值约 $478.8B、EV 约 $477.8B，约 13.3x EV/Q3 annualized sales、约 36.8x forward EPS。中性观察：上行周期强，但中国/台湾暴露和估值容错率都高。</description>
+    </item>
+    <item>
+      <title>Lam Research 深度研究报告 - AI 内存与先进逻辑的刻蚀/沉积校验 / Lam Research Deep Research Report - Etch And Deposition Check On AI Memory And Advanced Logic</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=lam-research-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=lam-research-2026#lam-research-2026@2026-07-05</guid>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施 semicap-equipment 层的刻蚀/沉积仪表盘：LRCX 验证 HBM、先进 DRAM、3D 结构和领先逻辑是否提高 process-tool intensity。2026 年 3 月季度收入 $5.841B、GAAP gross margin 49.8%、non-GAAP EPS $1.47；Systems revenue $3.731B，customer-support-related and other revenue $2.111B。6 月季度指引收入 $6.60B +/- $400M、gross margin 50.5%、operating margin 36.5%。当前 $351.41、市值约 $439.5B、EV 约 $438.4B，约 16.6x EV/June-quarter annualized sales。中性观察：AI process intensity 强，但中国 34% 收入暴露和估值都高。</description>
+    </item>
+    <item>
+      <title>KLA 深度研究报告 - AI 产能的过程控制与良率仪表盘 / KLA Deep Research Report - Process-Control And Yield Dashboard For AI Capacity</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=kla-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=kla-2026#kla-2026@2026-07-05</guid>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施 semicap-equipment 层的过程控制/良率仪表盘：KLAC 验证 AI 扩产是否不只是装机，而是投入 inspection、metrology 和 process-control 来形成可制造良率。FY2026 Q3 revenue $3.416B、GAAP EPS $9.12、non-GAAP EPS $9.40（公司 as-reported 口径）；Semiconductor Process Control revenue $3.084B。季度 operating cash flow $707.5M、FCF $622.3M；LTM FCF $4.01B。当前 $235.55、市值约 $307.7B、EV 约 $308.9B；因当前市场数据与披露 EPS 疑似拆股基准不同，估值以约 22.6x EV/Q3 annualized revenue 和约 1.3% LTM FCF yield 观察。中性观察：质量极高，但估值对 WFE 降温很敏感。</description>
+    </item>
+    <item>
+      <title>Synopsys 深度研究报告 - AI 芯片设计的 EDA/IP 与仿真约束 / Synopsys Deep Research Report - EDA/IP And Simulation Constraint For AI Silicon Design</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=synopsys-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=synopsys-2026#synopsys-2026@2026-07-05</guid>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施 eda-ip 层的公共约束：SNPS 验证 AI silicon 需求是否穿透到 design automation、verification、simulation、IP blocks 和 system-level complexity。FY2026 Q2 revenue $2.276B（去年同期 $1.604B）、GAAP EPS $0.09、non-GAAP EPS $3.35；FY2026 指引 revenue $9.625-9.705B、non-GAAP EPS $14.72-14.80、FCF 约 $2.0B。指引包含约 $2.96B Ansys revenue，并假设没有进一步 export-control / Entity List 变化。当前 $437.16、市值约 $83.7B、EV 约 $92.1B，约 9.5x EV/FY2026E sales、约 29.6x non-GAAP P/E。中性观察：AI 复杂度支撑长期逻辑，但 Ansys 整合和出口风险需要验证。</description>
+    </item>
+    <item>
+      <title>Cadence Design Systems 深度研究报告 - AI 设计复杂度的 EDA/IP backlog 仪表盘 / Cadence Design Systems Deep Research Report - EDA/IP Backlog Dashboard For AI Design Complexity</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=cadence-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=cadence-2026#cadence-2026@2026-07-05</guid>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施 eda-ip 层的 backlog / execution 仪表盘：CDNS 验证 AI demand 是否出现在 design automation、IP、simulation、backlog、RPO 和 agentic design workflows。Q1 2026 revenue $1.474B、non-GAAP operating margin 44.7%、non-GAAP EPS $1.96；季度末 backlog $8.0B，未来 12 个月预计从 RPO 确认收入 $4.0B。FY2026 指引 revenue $6.125-6.225B、non-GAAP EPS $7.85-7.95。当前 $373.14、市值约 $102.9B、EV 约 $104.5B，约 16.9x EV/FY2026E sales、约 47.2x non-GAAP P/E。中性观察：质量高但估值要求 backlog、IP 和 AI design-flow adoption 都干净兑现。</description>
+    </item>
+    <item>
       <title>NRG Energy 深度研究报告 - AI 电力需求是否穿透到 merchant gas 与零售电力 / NRG Energy Deep Research Report - Does AI Power Demand Reach Merchant Gas and Retail Power?</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=nrg-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=nrg-2026#nrg-2026@2026-07-05</guid>
@@ -312,34 +354,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=hims-2026-pre-rerun#hims-2026-pre-rerun@2026-02-13</guid>
       <pubDate>Fri, 13 Feb 2026 00:00:00 GMT</pubDate>
       <description>归档的2026H1重跑前版本，保留2月GLP-1监管二元变量和旧收入/估值框架。</description>
-    </item>
-    <item>
-      <title>Bloom Energy 深度研究报告 - AI数据中心电力基础设施的关键玩家 - 重跑前归档版 / Bloom Energy Deep Research Report - Critical Power Infrastructure Player for AI Data Centers - Pre-rerun Archive</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=bloom-energy-2026-pre-rerun</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=bloom-energy-2026-pre-rerun#bloom-energy-2026-pre-rerun@2026-02-11</guid>
-      <pubDate>Wed, 11 Feb 2026 00:00:00 GMT</pubDate>
-      <description>归档的2026H1重跑前版本，保留Q4 2025、Brookfield、800V DC和旧估值框架。</description>
-    </item>
-    <item>
-      <title>Coinbase 深度研究报告 - 加密基础设施垄断者的转型与周期博弈 - 重跑前归档版 / Coinbase Deep Research Report - Crypto Infrastructure Monopolist's Transformation and Cycle Play - Pre-rerun Archive</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=coinbase-2026-pre-rerun</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=coinbase-2026-pre-rerun#coinbase-2026-pre-rerun@2026-02-11</guid>
-      <pubDate>Wed, 11 Feb 2026 00:00:00 GMT</pubDate>
-      <description>归档的2026H1重跑前版本，保留Q4/FY2025、交易量、托管、USDC和旧估值框架。</description>
-    </item>
-    <item>
-      <title>OKLO 深度研究报告 - 先进核能的想象力与现实 - 重跑前归档版 / OKLO Deep Research Report - Advanced Nuclear's Imagination vs Reality - Pre-rerun Archive</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=oklo-2026-pre-rerun</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=oklo-2026-pre-rerun#oklo-2026-pre-rerun@2026-02-10</guid>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 GMT</pubDate>
-      <description>归档的2026H1重跑前版本，保留2月项目管线、目标价、首堆和零收入估值框架。</description>
-    </item>
-    <item>
-      <title>金盘科技深度研究报告 - AI数据中心电源设备龙头 - 重跑前归档版 / Jinpan Technology Deep Research Report - AI Data Center Power Equipment Leader - Pre-rerun Archive</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=jinpan-2026-pre-rerun</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=jinpan-2026-pre-rerun#jinpan-2026-pre-rerun@2026-02-03</guid>
-      <pubDate>Tue, 03 Feb 2026 00:00:00 GMT</pubDate>
-      <description>归档的2026H1重跑前版本，保留2月价格、市值、AIDC/SST和应收账款风险框架，用于审计与对照。</description>
     </item>
   </channel>
 </rss>

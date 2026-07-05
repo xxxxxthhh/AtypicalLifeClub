@@ -1,5 +1,59 @@
 [
   {
+    "id": "semicap-eda-ai-capex-commitment-2026",
+    "date": "2026-07-05",
+    "title": {
+      "zh": "ASML/AMAT/LRCX/KLAC/SNPS/CDNS 补齐 AI capex 的设备与 EDA 确认层",
+      "en": "ASML/AMAT/LRCX/KLAC/SNPS/CDNS complete the equipment and EDA confirmation layer for AI capex"
+    },
+    "detail": {
+      "zh": "P2 新增六个上游确认点：ASML Q4 2025 net bookings EUR 13.158B（EUV EUR 7.4B）和 backlog EUR 38.797B；AMAT Q2 FY2026 revenue $7.91B 且 Q3 指引 $8.95B；LRCX March quarter revenue $5.841B 且 June guide $6.60B；KLAC Q3 Semiconductor Process Control revenue $3.084B；SNPS FY2026 revenue 指引 $9.625-9.705B（含 Ansys）；CDNS backlog $8.0B、next-12-month RPO revenue $4.0B。这个信号用来验证 AI 资本开支是否从芯片/云/数据中心叙事进入工具订单、良率控制、EDA/IP 与设计复杂度；若这些读数降温，上游 capex 可能只是预算或公告，而非已承诺可制造供给。",
+      "en": "P2 adds six upstream confirmation points: ASML Q4 2025 net bookings of EUR 13.158B (EUR 7.4B EUV) and EUR 38.797B backlog; AMAT Q2 FY2026 revenue of $7.91B and Q3 guidance of $8.95B; LRCX March-quarter revenue of $5.841B and June-quarter guide of $6.60B; KLAC Q3 Semiconductor Process Control revenue of $3.084B; SNPS FY2026 revenue guidance of $9.625-9.705B including Ansys; and CDNS backlog of $8.0B with $4.0B next-12-month RPO revenue. This signal tests whether AI capex has moved from chip/cloud/data-center narrative into tool orders, yield control, EDA/IP, and design complexity; if these readings cool, upstream capex may be budgeted or announced rather than committed manufacturable supply."
+    },
+    "crossChecks": [
+      "semicap-eda-capex-commitment",
+      "chip-vs-downstream",
+      "memory-cycle",
+      "custom-silicon-ethernet"
+    ],
+    "tickers": [
+      "ASML",
+      "AMAT",
+      "LRCX",
+      "KLAC",
+      "SNPS",
+      "CDNS",
+      "TSM",
+      "MU",
+      "000660.KS",
+      "NVDA",
+      "AVGO",
+      "AMD"
+    ],
+    "reportIds": [
+      "asml-2026",
+      "applied-materials-2026",
+      "lam-research-2026",
+      "kla-2026",
+      "synopsys-2026",
+      "cadence-2026"
+    ],
+    "monitoringRefs": [
+      "asml-2026:euv-high-na-orders",
+      "asml-2026:backlog-conversion",
+      "applied-materials-2026:semiconductor-systems-growth",
+      "applied-materials-2026:q3-guidance-conversion",
+      "lam-research-2026:etch-deposition-ai-demand",
+      "lam-research-2026:june-quarter-guidance",
+      "kla-2026:process-control-revenue",
+      "kla-2026:fcf-capital-return",
+      "synopsys-2026:ansys-integration",
+      "synopsys-2026:design-automation-growth",
+      "cadence-2026:backlog-rpo-conversion",
+      "cadence-2026:ip-hbm-serdes-growth"
+    ]
+  },
+  {
     "id": "meta-cloud-compute-resale",
     "date": "2026-07-01",
     "title": {
