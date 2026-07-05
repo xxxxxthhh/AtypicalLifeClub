@@ -1,5 +1,35 @@
 [
   {
+    "id": "smh-2026",
+    "company": "SMH (VanEck Semiconductor ETF)",
+    "ticker": "NASDAQ: SMH",
+    "title": "SMH 深度研究报告 - AI 半导体链条的基准篮子",
+    "titleEn": "SMH Deep Research Report - Benchmark Sleeve For The AI Semiconductor Chain",
+    "summary": "VanEck 半导体 ETF，是 AI 半导体链条的 benchmark/control sleeve，而不是 coverage-map 单一链条节点。发行人页面 2026-07-02 显示 NAV $592.26、总资产 $68.82B、总费率 0.35%；2026-07-01 持仓 26 只，前十大包括 NVDA 18.41%、TSM 9.18%、AMD 5.57%、AMAT 5.49%、AVGO 5.49%、MU 5.39%、KLAC 5.10%、LRCX 4.97%、ASML 4.96%、INTC 4.92%。定位为 lite benchmark / neutral control sleeve，用来比较单公司报告是否只是半导体 beta。",
+    "summaryEn": "VanEck semiconductor ETF used as the AI-semiconductor chain benchmark/control sleeve, not as a single coverage-map node. The issuer page showed NAV $592.26, total net assets $68.82B, and 0.35% total expense ratio as of July 2, 2026; July 1 holdings numbered 26, led by NVDA 18.41%, TSM 9.18%, AMD 5.57%, AMAT 5.49%, AVGO 5.49%, MU 5.39%, KLAC 5.10%, LRCX 4.97%, ASML 4.96%, and INTC 4.92%. Classified as a lite benchmark / neutral control sleeve for separating single-name thesis evidence from broad semis beta.",
+    "tags": [
+      "ETF",
+      "半导体",
+      "AI基建",
+      "benchmark"
+    ],
+    "category": "tech",
+    "date": "2026-07-06",
+    "lastUpdate": "2026-07-06",
+    "coverageTier": "lite",
+    "versionType": "initial",
+    "file": "/invest/research/reports/view.html?id=smh-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/SMH_深度研究报告_2026-07.md",
+      "en": "/invest/research/SMH_Deep_Research_Report_2026-07.md"
+    },
+    "highlights": [
+      "SMH 不进 coverage-map planned[]：它是 broad semiconductor beta / benchmark ETF，不是单一 chainLayer 节点",
+      "发行人页面 2026-07-02 显示 NAV $592.26、总资产 $68.82B、总费率 0.35%，2026-07-01 持仓 26 只",
+      "前十大集中在 NVDA、TSM、AMD、AMAT、AVGO、MU、KLAC、LRCX、ASML、INTC，用来校验单公司报告是否只是半导体 beta"
+    ]
+  },
+  {
     "id": "asml-2026",
     "company": "ASML Holding",
     "ticker": "NASDAQ: ASML / Euronext Amsterdam: ASML",
@@ -16,7 +46,7 @@
     ],
     "category": "tech",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-05",
+    "lastUpdate": "2026-07-06",
     "file": "/invest/research/reports/view.html?id=asml-2026",
     "markdownFiles": {
       "zh": "/invest/research/ASML_深度研究报告_2026-07.md",
@@ -32,6 +62,7 @@
       "当前 ADR $1,769.32、市值约 $681.9B，约 15.6x EV/2026E sales；质量极高但估值容错率低"
     ],
     "chainLayer": "semicap-equipment",
+    "coverageTier": "full",
     "chainRole": "common-constraint",
     "stance": "neutral-watch",
     "priceAsOf": "2026-07-02",
@@ -159,7 +190,7 @@
     ],
     "category": "tech",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-05",
+    "lastUpdate": "2026-07-06",
     "file": "/invest/research/reports/view.html?id=applied-materials-2026",
     "markdownFiles": {
       "zh": "/invest/research/Applied_Materials_深度研究报告_2026-07.md",
@@ -175,6 +206,7 @@
       "当前 $603.04、EV 约 $477.8B，约 13.3x Q3 annualized sales；中国/台湾暴露需要持续监控"
     ],
     "chainLayer": "semicap-equipment",
+    "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "neutral-watch",
     "priceAsOf": "2026-07-02",
@@ -302,7 +334,7 @@
     ],
     "category": "tech",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-05",
+    "lastUpdate": "2026-07-06",
     "file": "/invest/research/reports/view.html?id=lam-research-2026",
     "markdownFiles": {
       "zh": "/invest/research/Lam_Research_深度研究报告_2026-07.md",
@@ -318,6 +350,7 @@
       "当前 $351.41、EV 约 $438.4B，约 16.6x June-quarter annualized sales；China 34% 是核心风险"
     ],
     "chainLayer": "semicap-equipment",
+    "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "neutral-watch",
     "priceAsOf": "2026-07-02",
@@ -445,7 +478,7 @@
     ],
     "category": "tech",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-05",
+    "lastUpdate": "2026-07-06",
     "file": "/invest/research/reports/view.html?id=kla-2026",
     "markdownFiles": {
       "zh": "/invest/research/KLA_深度研究报告_2026-07.md",
@@ -461,6 +494,7 @@
       "当前 $235.55、EV 约 $308.9B，约 22.6x Q3 annualized revenue；质量高但倍数敏感"
     ],
     "chainLayer": "semicap-equipment",
+    "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "neutral-watch",
     "priceAsOf": "2026-07-02",
@@ -588,7 +622,7 @@
     ],
     "category": "tech",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-05",
+    "lastUpdate": "2026-07-06",
     "file": "/invest/research/reports/view.html?id=synopsys-2026",
     "markdownFiles": {
       "zh": "/invest/research/Synopsys_深度研究报告_2026-07.md",
@@ -604,6 +638,7 @@
       "当前 $437.16、EV 约 $92.1B，约 9.5x FY2026E sales、约 29.6x non-GAAP P/E"
     ],
     "chainLayer": "eda-ip",
+    "coverageTier": "full",
     "chainRole": "common-constraint",
     "stance": "neutral-watch",
     "priceAsOf": "2026-07-02",
@@ -731,7 +766,7 @@
     ],
     "category": "tech",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-05",
+    "lastUpdate": "2026-07-06",
     "file": "/invest/research/reports/view.html?id=cadence-2026",
     "markdownFiles": {
       "zh": "/invest/research/Cadence_Design_Systems_深度研究报告_2026-07.md",
@@ -747,6 +782,7 @@
       "当前 $373.14、EV 约 $104.5B，约 16.9x FY2026E sales、约 47.2x non-GAAP P/E"
     ],
     "chainLayer": "eda-ip",
+    "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "neutral-watch",
     "priceAsOf": "2026-07-02",
@@ -873,7 +909,7 @@
     ],
     "category": "energy",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-05",
+    "lastUpdate": "2026-07-06",
     "file": "/invest/research/reports/view.html?id=nrg-2026",
     "markdownFiles": {
       "zh": "/invest/research/NRG_Energy_深度研究报告_2026-07.md",
@@ -890,6 +926,7 @@
     ],
     "summaryEn": "Merchant plus retail power dashboard for the AI-infrastructure power layer. NRG is not a pure nuclear-PPA name; it tests whether data-center power demand spreads into ordinary merchant capacity through the post-LS-Power roughly 25GW generation platform, CPower's roughly 6GW C&I VPP, Texas/PJM capacity markets, and Reliant/Vivint retail/home-services economics. Q1 2026 revenue was $10.26B, GAAP net income was $125M, adjusted EBITDA was $1.08B, and FCFbG was -$66M; 2026 guidance is adjusted EBITDA $5.325-5.825B, adjusted EPS $7.90-9.90, and FCFbG $2.8-3.3B. The LS Power deal was framed at about $12.0B enterprise value, 18 gas plants, about 13GW, CPower about 6GW and 2,000+ C&I customers, and is now reflected in 2026 results. At $136.70 (2026-07-02 close), about $28.8B market cap and about $52.7B EV, NRG trades around 15.4x the midpoint of 2026 adjusted EPS guidance and about 9.4x the midpoint of 2026 adjusted EBITDA guidance. High-risk watch: NRG has disclosed data-center / large-load optionality, not a named hyperscaler PPA; the key monitors are contract conversion, ERCOT/PJM capacity pricing, retail/Vivint margin and deleveraging.",
     "chainLayer": "power",
+    "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "high-risk-watch",
     "priceAsOf": "2026-07-02",
@@ -1014,7 +1051,7 @@
     ],
     "category": "tech",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-05",
+    "lastUpdate": "2026-07-06",
     "file": "/invest/research/reports/view.html?id=eqix-2026",
     "markdownFiles": {
       "zh": "/invest/research/Equinix_深度研究报告_2026-07.md",
@@ -1031,6 +1068,7 @@
     ],
     "summaryEn": "DLR's paired check in the AI-infrastructure data-center facility layer. EQIX uses Platform Equinix interconnection, retail colocation, xScale JVs and AFFO/share to test whether AI demand is more than hyperscale shell leasing. Q1 2026 revenue was $2.444B (+10% reported YoY), operating income was $577M, net income was $415M, adjusted EBITDA was $1.245B, and AFFO/share was $10.79. MRR grew 12% reported / 10% normalized constant-currency YoY, annualized gross bookings were $378M, annualized presales were about $140M, and about 60% of largest deals were AI-related. The 2025 annual report disclosed 280 data centers, 10,500+ customers and 507,000+ interconnections, while Q1 2026 interconnection revenue was $446M. At $1,002.02 (2026-07-02), about $98.8B market cap and about $120.8B EV, EQIX trades around 23.5x the midpoint of 2026 AFFO/share guidance and about 11.9x 2026 revenue guidance. Neutral watch: high quality but high valuation; key monitors are interconnection revenue, AI bookings/presales, xScale economics, MRR/cabinet yield and power availability.",
     "chainLayer": "datacenter-facility",
+    "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "neutral-watch",
     "priceAsOf": "2026-07-02",
@@ -1172,6 +1210,7 @@
     ],
     "summaryEn": "The second report in this center's AI-infra demand-risk layer, serving as the cross-check ('architecture check') on the CoreWeave risk anchor. Nebius is the Amsterdam-HQ, NASDAQ-listed, full-stack AI-cloud (neocloud) successor to the former Yandex. It is CoreWeave's mirror image: Q1 2026 revenue $399.0M (+684%), AI-cloud ARR $1.92B, adjusted EBITDA turned positive at $129.5M, and +$2.3B operating cash flow — funded by ~$9.3B cash, customer prepayments and convertibles rather than GPU-collateralized leverage, with ~$8.4B non-current debt plus ~$1.0B operating lease liabilities against ~$9.3B cash (financial-debt near-neutral; lease-adjusted neutral to ~$4B net cash depending on prefunded-warrant treatment). But GAAP net income of $621M is a $780.6M non-cash ClickHouse revaluation over a −$128M operating loss, and Nebius is accumulating the same hyperscaler concentration (Microsoft up to ~$19.4B + Meta up to ~$27B, ~$46B company-disclosed commitments/ceilings) and the same NVIDIA supplier-shareholder circularity as CoreWeave. Stock ~$240 (2026-07-01; ~$256 around its June-22 Nasdaq-100 inclusion), market cap ~$61B on ~253.9M shares outstanding, ~17-19x EV/2026E revenue (~3x CoreWeave's) and ~7x EV/exit-ARR; 2026 capex $20-25B (~7x revenue). Core read-through: is CoreWeave's fragility a balance-sheet choice or inherent to the neocloud model? Only the solvency fragility is CoreWeave-specific; the demand/concentration/circularity/capex risks are shared across the layer. High-quality-but-high-expectations / high-risk (watch).",
     "chainLayer": "demand-risk",
+    "coverageTier": "full",
     "chainRole": "architecture-check",
     "stance": "high-risk-watch",
     "priceAsOf": "2026-07-01",
@@ -1309,6 +1348,7 @@
     ],
     "summaryEn": "Initial coverage of the AI cluster networking layer: Arista is the open Ethernet / AI spine / scale-out systems-software pick-and-shovel, directly testing NVIDIA Spectrum-X/InfiniBand/NVLink integration vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet. Q1 2026 revenue was $2.709B (+35.1%), GAAP/non-GAAP operating margin 42.7%/47.8%, non-GAAP EPS $0.87, and operating cash flow $1.69B; Q2 guide is about $2.8B revenue. FY2025 Cloud and AI Titans / AI Specialty Providers were 48%/20% of revenue, and Core AI/Cloud/Data Center Networking was 65%. But two anonymous end customers were ~42% of revenue (26%/16%), Arista is highly reliant on Broadcom merchant silicon, and at the Jun 29 2026 market cap of ~$206.6B the stock trades around 56x TTM GAAP earnings and ~47x current non-GAAP EPS run-rate. Neutral / high-quality but high expectations (watch).",
     "chainLayer": "networking",
+    "coverageTier": "full",
     "chainRole": "architecture-check",
     "stance": "neutral-watch",
     "priceAsOf": "2026-06-29",
@@ -1428,6 +1468,7 @@
     ],
     "summaryEn": "The AI-infra book's 'risk anchor', written deliberately bear-led. A GPU 'neocloud' that pairs a $99.4B company-defined revenue backlog (RPO plus other committed-contract amounts) and 56% adjusted EBITDA with a widening GAAP net loss (Q1 2026 -$740M), ~$24.9B debt, ~$10.1B operating lease liabilities, and $31-35B of 2026 capex (~3x revenue). Customer-concentrated (Microsoft historically >60% of revenue; CNBC cited 62% for 2024); NVIDIA is supplier + shareholder ($2B at $87) + $6.3B capacity backstop (circularity). Q1 2026 revenue $2.078B (+112%); FY2026 guide revenue $12-13B. The stock is already ~47% off 2025 peaks at ~$96, market cap ~$52B, financial net debt ~$22.9B before operating leases and ~$32.9B net obligation stack incl. operating leases. Central question: real economic demand or leverage-fueled pre-stocking? High-risk / bear-leaning (avoid-to-watch).",
     "chainLayer": "demand-risk",
+    "coverageTier": "full",
     "chainRole": "risk-anchor",
     "stance": "bearish-avoid",
     "priceAsOf": "2026-06-29",
@@ -1545,6 +1586,7 @@
     ],
     "summaryEn": "Power & thermal (incl. liquid cooling) pick-and-shovel for data centers, sitting between 'where power comes from' (GEV/Bloom) and 'the chips' (NVDA/AVGO) — the most real-time 'dashboard' of AI buildout velocity. Q1 2026 revenue $2.65B (+30%, +23% organic, Americas +44%), adj operating margin 20.8% (+430bps), adj EPS $1.17 (+83%), adj FCF $653M (+147%); latest disclosed Q4 2025 backlog was $15.0B (+109%) with book-to-bill ~2.9x. FY2026 guidance raised to revenue $13.5-14.0B, adj EPS $6.30-6.40. But the stock ~3x'd in a year to $306.97 / ~$117.9B / ~48x forward adj EPS (~80x trailing), pricing in years of sustained buildout; the high-beta order book cuts both ways. Neutral / high-quality but high expectations (watch).",
     "chainLayer": "datacenter-facility",
+    "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "neutral-watch",
     "priceAsOf": "2026-06-29",
@@ -1663,6 +1705,7 @@
     ],
     "summaryEn": "AI data-center fiber/cable/passive-connectivity pick-and-shovel, complementary to AAOI's active optical-module/transceiver exposure. Q1 2026 core sales $4.35B (+18%), Optical Communications $1.85B (+36%, GenAI-driven), core EPS $0.70, core operating margin 20.2% (Springboard target hit a year early); Q2 guide core sales ~$4.6B, core EPS $0.73-0.77. Meta (up to $6B), NVIDIA (~$500M upfront, up to ~$3.2B equity in total via warrants, 3 plants), Amazon (multibillion) signed multi-year supply deals. But at ~$221 / ~$190B market cap and ~71x 2026E core EPS (sell-side avg target below market price), with ~$9B debt and AI-capex cyclicality the key risks. Neutral / high-quality but high expectations (watch).",
     "chainLayer": "optical",
+    "coverageTier": "full",
     "stance": "neutral-watch",
     "priceAsOf": "2026-06-26",
     "reportedPeriod": "Q1 2026",
@@ -1779,6 +1822,7 @@
       "股价约 $195.74、市值约 $4.76 万亿（全球第一），但远期 P/E 约 25x 低于 AMD 约 58x；风险在盈利预期分母而非倍数。中性/观察"
     ],
     "chainLayer": "compute",
+    "coverageTier": "full",
     "stance": "neutral-watch",
     "priceAsOf": "2026-06-26",
     "reportedPeriod": "Q1 FY2027",
@@ -1896,6 +1940,7 @@
       "股价约$171.23、市值约$137亿，EV/TTM Sales约26.6x；GAAP仍亏损、现金流和稀释风险需要严密跟踪"
     ],
     "chainLayer": "optical",
+    "coverageTier": "full",
     "stance": "neutral-watch",
     "priceAsOf": "2026-06-22",
     "reportedPeriod": "Q1 2026",
@@ -2012,6 +2057,7 @@
       "股价约 $1,056.77、市值约 $2,840 亿（近一年 +117%），EV/2026E 调整后 EBITDA 约 45-48x，已计入多年爬坡、与 AI capex 共命运、Wind 仍亏损。中性/观察"
     ],
     "chainLayer": "power",
+    "coverageTier": "full",
     "stance": "neutral-watch",
     "priceAsOf": "2026-06-26",
     "reportedPeriod": "Q1 2026",
@@ -2130,6 +2176,7 @@
     ],
     "summaryEn": "Q3 FY2026 revenue $5.95B (+97% Q/Q), Datacenter $1.47B (+233% Q/Q), GAAP GM 78.4%, OM 69.1%, GAAP EPS $23.03, FCF $2.99B, zero debt. Five NBM long-term supply agreements lock in ~$42B minimum contracted revenue (per management's earnings call) and a $6B buyback was authorized. Q4 guidance $7.75-8.25B, Non-GAAP EPS $30-33, GM 79-81%. ~16x FY2026E P/S, but NAND is one of the most cyclical semiconductor sub-sectors — 78-80% peak margins are unsustainable and cycle turns see both earnings and multiples contract.",
     "chainLayer": "memory-storage",
+    "coverageTier": "full",
     "stance": "neutral-watch",
     "priceAsOf": "2026-06-28",
     "reportedPeriod": "Q3 FY2026",
@@ -2336,6 +2383,7 @@
       "summaryEn": "Archived pre-rerun 2026 baseline preserving FY2025 revenue/profit, HBM share, the technology roadmap, and the old 5.3x deep-value valuation framework."
     },
     "chainLayer": "memory-storage",
+    "coverageTier": "full",
     "stance": "neutral-watch",
     "priceAsOf": "2026-06-25",
     "reportedPeriod": "Q1 2026",
@@ -2529,6 +2577,7 @@
       "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the Sangdong, tungsten-export, Plansee/GTP, and old market-cap/revenue-multiple framework."
     },
     "chainLayer": "resources",
+    "coverageTier": "full",
     "stance": "high-risk-watch",
     "priceAsOf": "2026-06-22",
     "reportedPeriod": "Q1 2026",
@@ -2808,6 +2857,7 @@
       "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the Q4 2025, Brookfield, 800V DC, and old valuation framework."
     },
     "chainLayer": "power",
+    "coverageTier": "full",
     "stance": "neutral-watch",
     "priceAsOf": "2026-06-22",
     "reportedPeriod": "Q1 2026",
@@ -3113,6 +3163,7 @@
     ],
     "summaryEn": "Q3 FY2026 revenue collapsed to $2.02M (-56% QoQ); the stock has crashed from $4.21 to ~$1.93 (-54%), with a public offering diluting shares ~65%. The Georgia factory slipped to end-August, while Infinite Grid's ~$200M 1.1 GWh LOI and Needham's initiation at an $8 target offer long-term optionality — but near-term fundamentals have deteriorated badly. P/S(TTM) ~5.82x, very high risk.",
     "chainLayer": "power",
+    "coverageTier": "full",
     "stance": "high-risk-watch",
     "priceAsOf": "2026-06-25",
     "reportedPeriod": "Q3 FY2026",
@@ -3225,6 +3276,7 @@
     ],
     "summaryEn": "The largest pure-play copper miners ETF. June 25, 2026 incremental update: COPX trades ~$76.92, AUM grew to $7.99B (+8%), weighted P/E compressed from 30-35x to 17.74x (earnings delivery). Copper at ~$13,531/tonne ($6.14/lb) exceeds February's bull case ceiling, but flat COPX price reflects tariff uncertainty. YTD return down from +20.14% to +5.45%. COMEX premium and Section 232 review are the key near-term variables.",
     "chainLayer": "resources",
+    "coverageTier": "lite",
     "stance": "neutral-watch",
     "priceAsOf": "2026-06-25",
     "reportedPeriod": "2026-06 (ETF 月度数据 / monthly ETF data)",
@@ -3365,6 +3417,7 @@
       "股价约$537、市值约$8,870亿；EV/TTM Sales约23.4x，当前价格接近bull case下沿"
     ],
     "chainLayer": "compute",
+    "coverageTier": "full",
     "stance": "neutral-watch",
     "priceAsOf": "2026-06-18",
     "reportedPeriod": "Q1 2026",
@@ -3509,6 +3562,7 @@
       "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the February price, market-cap, AIDC/SST, and receivables-risk framework for audit and comparison."
     },
     "chainLayer": "power",
+    "coverageTier": "full",
     "stance": "neutral-watch",
     "priceAsOf": "2026-06-23",
     "reportedPeriod": "Q1 2026",
@@ -3681,6 +3735,7 @@
       "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the February pipeline, target-price, first-reactor, and zero-revenue valuation framework."
     },
     "chainLayer": "power",
+    "coverageTier": "full",
     "stance": "high-risk-watch",
     "priceAsOf": "2026-06-22",
     "reportedPeriod": "Q1 2026",
@@ -3795,6 +3850,7 @@
       "市值约 $1.8 万亿、远期 P/E 约 33x，介于 NVIDIA ~25x 与 AMD ~58x 之间；风险在 FY2027 兑现分母而非倍数。中性/观察"
     ],
     "chainLayer": "custom-merchant-silicon",
+    "coverageTier": "full",
     "stance": "neutral-watch",
     "priceAsOf": "2026-06-25",
     "reportedPeriod": "Q2 FY2026",
@@ -3911,6 +3967,7 @@
       "当前 ADR $434.16（2026-07-02 收盘）、市值约 $2.25T、净现金约 $75B，2026E EV/Sales 约 14x。高质量但高预期，核心监控是利用率、N3/N2、CoWoS、客户集中和海外 fab 毛利拖累"
     ],
     "chainLayer": "foundry",
+    "coverageTier": "full",
     "chainRole": "common-constraint",
     "stance": "neutral-watch",
     "priceAsOf": "2026-07-02",
@@ -4050,6 +4107,7 @@
       "当前 $975.56（2026-07-02 收盘）、市值约 $1.10T、净现金约 $19.6B，TTM P/E 约 22x、EV/TTM Sales 约 12x。高风险观察：结构性短缺 vs 周期均值回归"
     ],
     "chainLayer": "memory-storage",
+    "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "high-risk-watch",
     "priceAsOf": "2026-07-02",
@@ -4172,7 +4230,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-05",
+    "lastUpdate": "2026-07-06",
     "file": "/invest/research/reports/view.html?id=constellation-energy-2026",
     "markdownFiles": {
       "zh": "/invest/research/Constellation_Energy_深度研究报告_2026-07.md",
@@ -4189,6 +4247,7 @@
     ],
     "summaryEn": "Initial coverage of the dispatchable-power common constraint in the AI-infrastructure power layer. Constellation is not a GPU supplier, and it is no longer a pure nuclear story; after closing Calpine on Jan. 7, 2026, it is a nuclear-led integrated power platform with added natural-gas and geothermal capacity. Q1 2026 revenue was $11.12B, net income $1.59B, reported EPS $2.74, nuclear generation about 44,666 GWh, and management maintained 2026 EPS guidance of $11-12. Microsoft/Crane Clean Energy Center (Three Mile Island Unit 1) restart targets 2027, Meta has signed about a 1.1GW nuclear PPA with Constellation, and Calpine adds dispatchable-capacity and powered-land optionality to a roughly 55GW combined platform. At $239.25 (2026-07-02 close), about $85.4B market cap and about $107B enterprise value, the stock already embeds an AI-power scarcity premium. The key checks are PPA execution, Crane restart regulation, Calpine integration, PJM capacity pricing and balance-sheet discipline. Neutral watch / power common constraint.",
     "chainLayer": "power",
+    "coverageTier": "full",
     "chainRole": "common-constraint",
     "stance": "neutral-watch",
     "priceAsOf": "2026-07-02",
@@ -4312,7 +4371,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-05",
+    "lastUpdate": "2026-07-06",
     "file": "/invest/research/reports/view.html?id=vistra-2026",
     "markdownFiles": {
       "zh": "/invest/research/Vistra_深度研究报告_2026-07.md",
@@ -4329,6 +4388,7 @@
     ],
     "summaryEn": "High-beta dashboard coverage for the AI-infrastructure power layer, paired with Constellation Energy. Vistra combines nuclear, gas and retail/merchant-power exposure, testing whether AI data-center demand spreads from clean baseload PPAs into dispatchable gas capacity, PJM/Texas capacity value and the repricing of existing generation assets. Q1 2026 revenue was $5.64B, net income $1.03B, operating income $1.50B and FCF $316M. Meta's 20-year nuclear agreement covers Perry, Davis-Besse and Beaver Valley uprates, with public reporting around 2.2GW; the Cogentrix transaction is framed at about a $4B net purchase price, while public seller-side reporting has also framed it near $4.7B total consideration, and would add about 5,500MW of gas capacity with an expected mid-to-late 2026 close. At $151.05 (2026-07-02 close), about $50.9B market cap, about $70.2B EV and about 3.6x EV/TTM sales, Vistra trades below Constellation but carries more leverage, gas, regulatory and capacity-market risk. High-risk watch / power dashboard.",
     "chainLayer": "power",
+    "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "high-risk-watch",
     "priceAsOf": "2026-07-02",
@@ -4470,6 +4530,7 @@
     ],
     "summaryEn": "Demand-anchor coverage for this center's AI-infrastructure demand-risk layer: Meta is not a GPU/HBM/power/optical supplier, but one of the most important end customers in the chain. Q1 2026 revenue was $56.31B (+33%), operating income $22.87B, operating cash flow $32.23B, and free cash flow $13.23B, showing the ad engine can still fund AI buildout. But Meta raised its 2026 capex guide to $125-145B and was reported in early July to be considering Meta Compute, a business that could sell excess AI compute. At $582.90 (Jul 2 2026 close), market cap is about $1.48T, around 6.9x TTM sales and about 17x EV/TTM operating income; annualized Q1 EPS excluding an approximately $8B tax benefit implies roughly 20x earnings. Core read-through: if Meta capex keeps being absorbed by advertising and AI products, AI-infra demand is validated; if compute resale signals oversupply or insufficient internal demand, CoreWeave/Nebius, HBM, optical, and power-chain scarcity assumptions need to be marked down. Neutral / high-quality but high capex risk (watch).",
     "chainLayer": "demand-risk",
+    "coverageTier": "full",
     "chainRole": "common-constraint",
     "stance": "neutral-watch",
     "priceAsOf": "2026-07-02",
@@ -4610,6 +4671,7 @@
       "核心监控不是『订单多不多』，而是 RPO 转化、客户集中、OCI 毛利/ROIC、capex 是否按时变成可售 capacity，以及融资是否伤害股东"
     ],
     "chainLayer": "demand-risk",
+    "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "high-risk-watch",
     "priceAsOf": "2026-07-02",
@@ -4752,6 +4814,7 @@
       "当前 $245.29（2026-07-02 收盘）、市值约 $214.6B、EV/FY2027E Sales 约 19x。高风险观察：AWS/Microsoft 项目、Celestial AI 整合和估值分母必须兑现"
     ],
     "chainLayer": "custom-merchant-silicon",
+    "coverageTier": "full",
     "chainRole": "architecture-check",
     "stance": "high-risk-watch",
     "priceAsOf": "2026-07-02",
@@ -4874,7 +4937,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-04",
+    "lastUpdate": "2026-07-06",
     "file": "/invest/research/reports/view.html?id=coherent-2026",
     "markdownFiles": {
       "zh": "/invest/research/Coherent_深度研究报告_2026-07.md",
@@ -4891,6 +4954,7 @@
     ],
     "summaryEn": "Core optical-module and photonics coverage for the AI-infrastructure optical layer. Coherent does not explain GPU ASPs; it tests whether AI cluster network expansion is reaching high-speed optical connectivity, lasers, InP/SiPh and CPO/NPO architectures. Q3 FY2026 revenue was $1.81B (+21% YoY; +27% pro forma), non-GAAP gross margin was 39.6%, and non-GAAP EPS was $1.41. Datacenter & Communications revenue was about $1.362B, roughly 75% of pro forma revenue and about +41% YoY. In March 2026, NVIDIA announced a $2B investment in Coherent, including a multi-year, multi-billion-dollar purchase commitment and future capacity access rights; Coherent's roadmap includes 1.6T/3.2T/6.4T ZR/ZR+ and CPO/NPO engines. At $333.36 (2026-07-02 close), about $65.2B market cap and about $66.8B EV, the stock already prices an AI-optics supercycle. High-risk watch / optical dashboard.",
     "chainLayer": "optical",
+    "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "high-risk-watch",
     "priceAsOf": "2026-07-02",
@@ -5015,7 +5079,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-04",
+    "lastUpdate": "2026-07-06",
     "file": "/invest/research/reports/view.html?id=digital-realty-2026",
     "markdownFiles": {
       "zh": "/invest/research/Digital_Realty_深度研究报告_2026-07.md",
@@ -5032,6 +5096,7 @@
     ],
     "summaryEn": "Leasing and interconnection demand check for the AI-infrastructure data-center facility layer. DLR does not directly explain GPUs, optical modules or power equipment; it tests whether AI data-center demand converts into real leases, backlog, interconnection nodes and development capacity. Q1 2026 revenue was $1.64B (about +16% YoY), Core FFO/share was $2.04 and AFFO/share was $1.92. The company signed $707M of annualized GAAP base-rent bookings at 100% share, or $423M at DLR share, including $98M from the 0-1MW plus interconnection category (+42% YoY). Signed-but-not-commenced backlog was $1.8B at 100% share and $1.0B at DLR share, with a 19-month weighted-average commencement lag. At $173.30 (2026-07-02 close), about $62.0B market cap and about $77.6B EV, DLR trades around 21x 2026 Core FFO guidance and about 12.2x EV/TTM revenue. Neutral watch / data-center facility dashboard.",
     "chainLayer": "datacenter-facility",
+    "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "neutral-watch",
     "priceAsOf": "2026-07-02",

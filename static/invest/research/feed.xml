@@ -6,74 +6,95 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>SMH 深度研究报告 - AI 半导体链条的基准篮子 / SMH Deep Research Report - Benchmark Sleeve For The AI Semiconductor Chain</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=smh-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=smh-2026#smh-2026@2026-07-06</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description>VanEck 半导体 ETF，是 AI 半导体链条的 benchmark/control sleeve，而不是 coverage-map 单一链条节点。发行人页面 2026-07-02 显示 NAV $592.26、总资产 $68.82B、总费率 0.35%；2026-07-01 持仓 26 只，前十大包括 NVDA 18.41%、TSM 9.18%、AMD 5.57%、AMAT 5.49%、AVGO 5.49%、MU 5.39%、KLAC 5.10%、LRCX 4.97%、ASML 4.96%、INTC 4.92%。定位为 lite benchmark / neutral control sleeve，用来比较单公司报告是否只是半导体 beta。</description>
+    </item>
+    <item>
       <title>ASML 深度研究报告 - EUV / High-NA 作为设备层公共约束 / ASML Deep Research Report - EUV / High-NA as the Equipment-Layer Common Constraint</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=asml-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=asml-2026#asml-2026@2026-07-05</guid>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=asml-2026#asml-2026@2026-07-06</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
       <description>AI 基础设施 semicap-equipment 层的公共约束：ASML 验证 foundry / memory capex 是否真正穿过光刻、EUV、High-NA、长期协议和出口管制这道最硬瓶颈。Q1 2026 net sales EUR 8.767B、gross margin 53.0%、net income EUR 2.757B；FY2026 指引 net sales EUR 36-40B、gross margin 51-53%。Q4 2025 net bookings EUR 13.158B，其中 EUV EUR 7.4B，年末 backlog EUR 38.797B。当前 ADR $1,769.32（2026-07-02）、市值约 $681.9B，按 EUR/USD 1.1440 和 FY2026 sales 中点折算，约 15.6x EV/2026E sales。中性观察：垄断质量极高，但估值已经资本化持续 EUV/High-NA 稀缺和出口管制可控。</description>
     </item>
     <item>
       <title>Applied Materials 深度研究报告 - AI 扩产的广谱半导体设备仪表盘 / Applied Materials Deep Research Report - Broad Semicap Dashboard For AI Capacity Buildout</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=applied-materials-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=applied-materials-2026#applied-materials-2026@2026-07-05</guid>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=applied-materials-2026#applied-materials-2026@2026-07-06</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
       <description>AI 基础设施 semicap-equipment 层的广谱设备仪表盘：AMAT 验证 AI 需求是否不只卡在 EUV，而是扩散到 deposition、etch、advanced packaging、DRAM 和服务。FY2026 Q2 收入 $7.91B、GAAP gross margin 49.9%、non-GAAP EPS $2.86；Semiconductor Systems 收入 $5.965B，其中 foundry/logic/other 67%、DRAM 29%。Q3 指引收入 $8.950B +/- $500M、non-GAAP EPS $3.36 +/- $0.20。当前 $603.04、市值约 $478.8B、EV 约 $477.8B，约 13.3x EV/Q3 annualized sales、约 36.8x forward EPS。中性观察：上行周期强，但中国/台湾暴露和估值容错率都高。</description>
     </item>
     <item>
       <title>Lam Research 深度研究报告 - AI 内存与先进逻辑的刻蚀/沉积校验 / Lam Research Deep Research Report - Etch And Deposition Check On AI Memory And Advanced Logic</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=lam-research-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=lam-research-2026#lam-research-2026@2026-07-05</guid>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=lam-research-2026#lam-research-2026@2026-07-06</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
       <description>AI 基础设施 semicap-equipment 层的刻蚀/沉积仪表盘：LRCX 验证 HBM、先进 DRAM、3D 结构和领先逻辑是否提高 process-tool intensity。2026 年 3 月季度收入 $5.841B、GAAP gross margin 49.8%、non-GAAP EPS $1.47；Systems revenue $3.731B，customer-support-related and other revenue $2.111B。6 月季度指引收入 $6.60B +/- $400M、gross margin 50.5%、operating margin 36.5%。当前 $351.41、市值约 $439.5B、EV 约 $438.4B，约 16.6x EV/June-quarter annualized sales。中性观察：AI process intensity 强，但中国 34% 收入暴露和估值都高。</description>
     </item>
     <item>
       <title>KLA 深度研究报告 - AI 产能的过程控制与良率仪表盘 / KLA Deep Research Report - Process-Control And Yield Dashboard For AI Capacity</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=kla-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=kla-2026#kla-2026@2026-07-05</guid>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=kla-2026#kla-2026@2026-07-06</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
       <description>AI 基础设施 semicap-equipment 层的过程控制/良率仪表盘：KLAC 验证 AI 扩产是否不只是装机，而是投入 inspection、metrology 和 process-control 来形成可制造良率。FY2026 Q3 revenue $3.416B、GAAP EPS $9.12、non-GAAP EPS $9.40（公司 as-reported 口径）；Semiconductor Process Control revenue $3.084B。季度 operating cash flow $707.5M、FCF $622.3M；LTM FCF $4.01B。当前 $235.55、市值约 $307.7B、EV 约 $308.9B；因当前市场数据与披露 EPS 疑似拆股基准不同，估值以约 22.6x EV/Q3 annualized revenue 和约 1.3% LTM FCF yield 观察。中性观察：质量极高，但估值对 WFE 降温很敏感。</description>
     </item>
     <item>
       <title>Synopsys 深度研究报告 - AI 芯片设计的 EDA/IP 与仿真约束 / Synopsys Deep Research Report - EDA/IP And Simulation Constraint For AI Silicon Design</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=synopsys-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=synopsys-2026#synopsys-2026@2026-07-05</guid>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=synopsys-2026#synopsys-2026@2026-07-06</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
       <description>AI 基础设施 eda-ip 层的公共约束：SNPS 验证 AI silicon 需求是否穿透到 design automation、verification、simulation、IP blocks 和 system-level complexity。FY2026 Q2 revenue $2.276B（去年同期 $1.604B）、GAAP EPS $0.09、non-GAAP EPS $3.35；FY2026 指引 revenue $9.625-9.705B、non-GAAP EPS $14.72-14.80、FCF 约 $2.0B。指引包含约 $2.96B Ansys revenue，并假设没有进一步 export-control / Entity List 变化。当前 $437.16、市值约 $83.7B、EV 约 $92.1B，约 9.5x EV/FY2026E sales、约 29.6x non-GAAP P/E。中性观察：AI 复杂度支撑长期逻辑，但 Ansys 整合和出口风险需要验证。</description>
     </item>
     <item>
       <title>Cadence Design Systems 深度研究报告 - AI 设计复杂度的 EDA/IP backlog 仪表盘 / Cadence Design Systems Deep Research Report - EDA/IP Backlog Dashboard For AI Design Complexity</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=cadence-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=cadence-2026#cadence-2026@2026-07-05</guid>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=cadence-2026#cadence-2026@2026-07-06</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
       <description>AI 基础设施 eda-ip 层的 backlog / execution 仪表盘：CDNS 验证 AI demand 是否出现在 design automation、IP、simulation、backlog、RPO 和 agentic design workflows。Q1 2026 revenue $1.474B、non-GAAP operating margin 44.7%、non-GAAP EPS $1.96；季度末 backlog $8.0B，未来 12 个月预计从 RPO 确认收入 $4.0B。FY2026 指引 revenue $6.125-6.225B、non-GAAP EPS $7.85-7.95。当前 $373.14、市值约 $102.9B、EV 约 $104.5B，约 16.9x EV/FY2026E sales、约 47.2x non-GAAP P/E。中性观察：质量高但估值要求 backlog、IP 和 AI design-flow adoption 都干净兑现。</description>
     </item>
     <item>
       <title>NRG Energy 深度研究报告 - AI 电力需求是否穿透到 merchant gas 与零售电力 / NRG Energy Deep Research Report - Does AI Power Demand Reach Merchant Gas and Retail Power?</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=nrg-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=nrg-2026#nrg-2026@2026-07-05</guid>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=nrg-2026#nrg-2026@2026-07-06</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
       <description>AI 基础设施 power 层的 merchant + retail dashboard：NRG 不是核电 PPA 纯标的，而是用 LS Power 后约 25GW 发电平台、CPower 约 6GW C&amp;I VPP、Texas/PJM capacity 与 Reliant/Vivint 零售/家庭服务来验证数据中心电力需求是否扩散到普通 merchant capacity。2026Q1 收入 $10.26B、GAAP 净利润 $125M、调整后 EBITDA $1.08B、FCFbG -$66M；2026 指引调整后 EBITDA $5.325-5.825B、调整后 EPS $7.90-9.90、FCFbG $2.8-3.3B。LS Power 交易约 $12.0B enterprise value、18 座燃气电厂、约 13GW、CPower 约 6GW 和 2,000+ C&amp;I 客户，已经反映在 2026 业绩口径中。当前 $136.70（2026-07-02 收盘）、市值约 $28.8B、EV 约 $52.7B，约 15.4x 2026 调整后 EPS 指引中点、约 9.4x 2026 调整后 EBITDA 指引中点。高风险观察：NRG 披露的是数据中心/large-load optionality，尚不是具名 hyperscaler PPA，核心监控是合同转化、ERCOT/PJM 容量价格、零售/Vivint margin 与去杠杆。</description>
     </item>
     <item>
       <title>Equinix 深度研究报告 - AI 数据中心设施层的互联溢价仪表盘 / Equinix Deep Research Report - The Interconnection-Premium Dashboard for AI Data-Center Facilities</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=eqix-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=eqix-2026#eqix-2026@2026-07-05</guid>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=eqix-2026#eqix-2026@2026-07-06</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
       <description>AI 基础设施 datacenter-facility 层的 DLR 对照组：EQIX 用 Platform Equinix interconnection、retail colocation、xScale JV 和 AFFO/share 来验证 AI 需求是否不只是 hyperscale shell leasing。2026Q1 收入 $2.444B（reported YoY +10%）、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；MRR 同比 +12% reported / +10% normalized constant currency，annualized gross bookings $378M，annualized presales 约 $140M，largest deals 约 60% AI-related。2025 年报披露 280 个数据中心、10,500+ 客户、507,000+ interconnections，Q1 2026 interconnection revenue $446M。当前 $1,002.02（2026-07-02）、市值约 $98.8B、EV 约 $120.8B，约 23.5x 2026 AFFO/share 指引中点、约 11.9x 2026 revenue 指引。中性观察：质量高但估值高，关键监控是 interconnection revenue、AI bookings/presales、xScale economics、MRR/cabinet yield 与 power availability。</description>
     </item>
     <item>
       <title>Constellation Energy 深度研究报告 - AI 电力约束的核电与 Calpine 综合电力锚 / Constellation Energy Deep Research Report - Nuclear and Calpine Integrated Power Anchor for AI</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=constellation-energy-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=constellation-energy-2026#constellation-energy-2026@2026-07-05</guid>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=constellation-energy-2026#constellation-energy-2026@2026-07-06</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
       <description>AI 基础设施 power 层可调度电力公共约束覆盖。Constellation 不是 GPU 供应商，也不再是纯核电故事；2026-01-07 完成 Calpine 后，它是核电主导、叠加天然气/地热容量的综合电力平台。2026Q1 收入 $11.12B、净利润 $1.59B，报道 EPS $2.74、核电发电量约 44,666 GWh，公司维持 2026 EPS 指引 $11-12；Microsoft/Crane Clean Energy Center（Three Mile Island Unit 1）重启目标指向 2027，Meta 也已与 CEG 签过约 1.1GW 核电 PPA，Calpine 则带来约 55GW 合并平台里的可调度容量与 powered-land optionality。当前 $239.25（2026-07-02 收盘）、市值约 $85.4B、企业价值约 $107B，估值已经反映 AI 电力稀缺，后续应重点验证 PPA 执行、Crane restart 监管路径、Calpine 整合、PJM 容量价格和资产负债表资本纪律。中性观察 / power common-constraint。</description>
     </item>
     <item>
       <title>Vistra 深度研究报告 - AI 电力约束的核电与燃气高 beta 仪表盘 / Vistra Deep Research Report - Nuclear and Gas High-Beta Dashboard for AI Power</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=vistra-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=vistra-2026#vistra-2026@2026-07-05</guid>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=vistra-2026#vistra-2026@2026-07-06</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
       <description>AI 基础设施 power 层的高 beta 仪表盘，与 Constellation Energy 成对覆盖。Vistra 同时拥有核电、燃气和零售/merchant power 暴露，用来验证 AI 数据中心需求是否从『清洁 baseload PPA』扩散到『可调度燃气容量、PJM/Texas 容量价值和现有发电资产重定价』。2026Q1 收入 $5.64B、净利润 $1.03B、营业利润 $1.50B、FCF $316M；Meta 20 年核电协议覆盖 Perry、Davis-Besse 与 Beaver Valley uprates，公开报道约 2.2GW；Cogentrix 交易主口径约 $4B net purchase price，公开 seller-side 报道也有约 $4.7B total consideration 口径，将增加约 5,500MW 燃气容量，预计 2026 年中后期完成。当前 $151.05（2026-07-02 收盘）、市值约 $50.9B、EV 约 $70.2B、约 3.6x EV/TTM sales；估值低于 CEG，但杠杆、气价、监管和容量市场波动更高。高风险观察 / power dashboard。</description>
+    </item>
+    <item>
+      <title>Coherent 深度研究报告 - AI 光连接层的全栈光子仪表盘 / Coherent Deep Research Report - Full-Stack Photonics Dashboard for AI Optical Connectivity</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=coherent-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=coherent-2026#coherent-2026@2026-07-06</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施 optical 层核心光模块/光器件覆盖。Coherent 不是解释 GPU 单价，而是验证 AI 集群网络扩容是否真正穿透到高速光连接、激光器、InP/SiPh 与 CPO/NPO 路线。Q3 FY2026 收入 $1.81B（+21% YoY，pro forma +27%）、非 GAAP 毛利率 39.6%、非 GAAP EPS $1.41；Datacenter &amp; Communications 收入约 $1.362B，占 pro forma 收入约 75%，同比约 +41%。NVIDIA 2026-03 宣布向 Coherent 投资 $2B，并包含多年、数十亿美元采购承诺和未来产能访问权；公司材料给出 1.6T/3.2T/6.4T ZR/ZR+、CPO/NPO、光电路交换与多轨热管理路线。当前 $333.36（2026-07-02 收盘）、市值约 $65.2B、EV 约 $66.8B，估值已经反映 AI optics supercycle。高风险观察 / optical dashboard。</description>
+    </item>
+    <item>
+      <title>Digital Realty 深度研究报告 - AI 数据中心租赁与互联需求仪表盘 / Digital Realty Deep Research Report - Leasing and Interconnection Dashboard for AI Data Centers</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=digital-realty-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=digital-realty-2026#digital-realty-2026@2026-07-06</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施 datacenter-facility 层的租赁/互联需求校验。DLR 不直接解释 GPU、光模块或电力设备，而是验证 AI 数据中心需求是否转化为真实租约、backlog、互联节点和开发容量。Q1 2026 收入 $1.64B（约 +16% YoY）、Core FFO/share $2.04、AFFO/share $1.92；公司签下 $707M 年化 GAAP base rent 的 bookings（100% share），DLR share 为 $423M，其中 0-1MW + interconnection 贡献 $98M、同比 +42%；季度末 signed-but-not-commenced backlog 为 $1.8B（100% share）/ $1.0B（DLR share），加权平均开租滞后 19 个月。当前 $173.30（2026-07-02 收盘）、市值约 $62.0B、EV 约 $77.6B，估值约 21x 2026 Core FFO 指引、约 12.2x EV/TTM revenue。中性观察 / datacenter-facility dashboard。</description>
     </item>
     <item>
       <title>Oracle 深度研究报告 - AI 云 RPO 仪表盘与资本开支融资压力 / Oracle Deep Research Report - AI Cloud RPO Dashboard and Capex Financing Pressure</title>
@@ -109,20 +130,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=marvell-2026#marvell-2026@2026-07-04</guid>
       <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
       <description>AI 基础设施书 custom-merchant-silicon 层补位：Marvell 是 Broadcom 之外的自定义 ASIC/XPU、光互连和 NVIDIA NVLink Fusion 对照组。FY2027 Q1 收入约 $2.42B，公开报道数据中心收入约 $1.83B；管理层公开展望 FY2027/FY2028 收入约 $11.5B/$16.5B。NVIDIA $2B 投资 + NVLink Fusion、Celestial AI $3.25B 收购、AWS Trainium/Microsoft Maia 机会共同抬高长期想象空间。但当前 $245.29（2026-07-02 收盘）、市值约 $214.6B、约 19x FY2027E EV/Sales，执行容错率很低。高风险观察 / custom ASIC 架构校验。</description>
-    </item>
-    <item>
-      <title>Coherent 深度研究报告 - AI 光连接层的全栈光子仪表盘 / Coherent Deep Research Report - Full-Stack Photonics Dashboard for AI Optical Connectivity</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=coherent-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=coherent-2026#coherent-2026@2026-07-04</guid>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施 optical 层核心光模块/光器件覆盖。Coherent 不是解释 GPU 单价，而是验证 AI 集群网络扩容是否真正穿透到高速光连接、激光器、InP/SiPh 与 CPO/NPO 路线。Q3 FY2026 收入 $1.81B（+21% YoY，pro forma +27%）、非 GAAP 毛利率 39.6%、非 GAAP EPS $1.41；Datacenter &amp; Communications 收入约 $1.362B，占 pro forma 收入约 75%，同比约 +41%。NVIDIA 2026-03 宣布向 Coherent 投资 $2B，并包含多年、数十亿美元采购承诺和未来产能访问权；公司材料给出 1.6T/3.2T/6.4T ZR/ZR+、CPO/NPO、光电路交换与多轨热管理路线。当前 $333.36（2026-07-02 收盘）、市值约 $65.2B、EV 约 $66.8B，估值已经反映 AI optics supercycle。高风险观察 / optical dashboard。</description>
-    </item>
-    <item>
-      <title>Digital Realty 深度研究报告 - AI 数据中心租赁与互联需求仪表盘 / Digital Realty Deep Research Report - Leasing and Interconnection Dashboard for AI Data Centers</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=digital-realty-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=digital-realty-2026#digital-realty-2026@2026-07-04</guid>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施 datacenter-facility 层的租赁/互联需求校验。DLR 不直接解释 GPU、光模块或电力设备，而是验证 AI 数据中心需求是否转化为真实租约、backlog、互联节点和开发容量。Q1 2026 收入 $1.64B（约 +16% YoY）、Core FFO/share $2.04、AFFO/share $1.92；公司签下 $707M 年化 GAAP base rent 的 bookings（100% share），DLR share 为 $423M，其中 0-1MW + interconnection 贡献 $98M、同比 +42%；季度末 signed-but-not-commenced backlog 为 $1.8B（100% share）/ $1.0B（DLR share），加权平均开租滞后 19 个月。当前 $173.30（2026-07-02 收盘）、市值约 $62.0B、EV 约 $77.6B，估值约 21x 2026 Core FFO 指引、约 12.2x EV/TTM revenue。中性观察 / datacenter-facility dashboard。</description>
     </item>
     <item>
       <title>Nebius Group 深度研究报告 - neocloud 的『干净对照组』：对 CoreWeave 风险锚的架构校验 / Nebius Group Deep Research Report - The 'Clean' Neocloud: An Architecture Check on the CoreWeave Risk Anchor</title>
@@ -347,13 +354,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=almonty-2026-pre-rerun#almonty-2026-pre-rerun@2026-02-19</guid>
       <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
       <description>归档的2026H1重跑前版本，保留Sangdong、钨出口、Plansee/GTP和旧市值/收入倍数框架。</description>
-    </item>
-    <item>
-      <title>Hims &amp; Hers 深度研究报告 - DTC远程医疗领跑者的GLP-1监管风暴 - 重跑前归档版 / Hims &amp; Hers Deep Research Report - DTC Telehealth Leader's GLP-1 Regulatory Storm - Pre-rerun Archive</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=hims-2026-pre-rerun</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=hims-2026-pre-rerun#hims-2026-pre-rerun@2026-02-13</guid>
-      <pubDate>Fri, 13 Feb 2026 00:00:00 GMT</pubDate>
-      <description>归档的2026H1重跑前版本，保留2月GLP-1监管二元变量和旧收入/估值框架。</description>
     </item>
   </channel>
 </rss>

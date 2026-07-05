@@ -93,6 +93,7 @@
                 removed: '移除',
                 heading: '上一版原文',
                 date: '日期',
+                tier: '层级',
                 update: '更新',
                 action: '打开上一版',
                 noChanges: '本次对比无章节级差异。',
@@ -121,6 +122,7 @@
                 removed: 'Removed',
                 heading: 'Previous report',
                 date: 'Date',
+                tier: 'Tier',
                 update: 'Updated',
                 action: 'Open previous',
                 noChanges: 'No section-level changes were detected.',
@@ -698,16 +700,33 @@
             }
 
             const labels = lang === 'en'
-                ? { date: 'Date', ticker: 'Ticker', update: 'Updated' }
-                : { date: '报告日期', ticker: '标的', update: '更新' };
+                ? { date: 'Date', ticker: 'Ticker', tier: 'Tier', update: 'Updated' }
+                : { date: '报告日期', ticker: '标的', tier: '层级', update: '更新' };
             const metaItems = [
                 report.date ? `${labels.date} ${report.date}` : null,
                 report.ticker ? `${labels.ticker} ${report.ticker}` : null,
+                report.coverageTier ? `${labels.tier} ${coverageTierLabel(report.coverageTier, lang)}` : null,
                 report.lastUpdate ? `${labels.update} ${report.lastUpdate}` : null
             ].filter(Boolean);
 
-            heroMeta.innerHTML = metaItems.map((item) => `<span>${item}</span>`).join('');
+            heroMeta.innerHTML = metaItems.map((item) => `<span>${escapeHtml(item)}</span>`).join('');
             renderReportStance(report, lang);
+        }
+
+        function coverageTierLabel(tier, lang) {
+            const labels = {
+                zh: {
+                    seed: '初览',
+                    lite: '精简',
+                    full: '完整',
+                },
+                en: {
+                    seed: 'Seed',
+                    lite: 'Lite',
+                    full: 'Full',
+                },
+            };
+            return labels[lang]?.[tier] || tier;
         }
 
         function renderReportStance(report, lang) {

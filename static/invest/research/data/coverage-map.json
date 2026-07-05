@@ -56,6 +56,17 @@
       }
     },
     {
+      "id": "advanced-packaging",
+      "title": {
+        "zh": "先进封装",
+        "en": "Advanced Packaging"
+      },
+      "description": {
+        "zh": "OSAT、封装产能、基板与 HBM 集成，用来检验 CoWoS / 2.5D / chiplet 是否成为 foundry 与内存之后的真实瓶颈。",
+        "en": "OSAT, packaging capacity, substrates, and HBM integration test whether CoWoS / 2.5D / chiplets are the real bottleneck after foundry and memory."
+      }
+    },
+    {
       "id": "compute",
       "title": {
         "zh": "计算平台",
@@ -97,6 +108,17 @@
       "description": {
         "zh": "以太网、交换系统和网络软件，校验 AI 集群架构路线，而不只是算力芯片出货。",
         "en": "Ethernet, switching systems, and network software validate AI cluster architecture, not just accelerator shipments."
+      }
+    },
+    {
+      "id": "interconnect",
+      "title": {
+        "zh": "芯片互连",
+        "en": "Chip Interconnect"
+      },
+      "description": {
+        "zh": "PCIe/CXL retimer、信号完整性与机架内外互连，检验 GPU 集群 fan-out 是否形成区别于以太网与光模块的独立约束。",
+        "en": "PCIe/CXL retimers, signal integrity, and rack-scale interconnect test whether GPU-cluster fan-out creates a constraint distinct from Ethernet and optical links."
       }
     },
     {
@@ -201,7 +223,48 @@
       }
     }
   ],
-  "planned": [],
+  "planned": [
+    {
+      "ticker": "CCJ",
+      "layer": "resources",
+      "label": {
+        "zh": "铀燃料周期：检验 OKLO 与核电基荷叙事的上游约束",
+        "en": "Uranium fuel cycle: upstream constraint check for OKLO and nuclear baseload"
+      }
+    },
+    {
+      "ticker": "MP",
+      "layer": "resources",
+      "label": {
+        "zh": "稀土磁材：延续 Almonty 的战略金属与政策链条",
+        "en": "Rare-earth magnets: extends the Almonty strategic-metals and policy chain"
+      }
+    },
+    {
+      "ticker": "ALAB",
+      "layer": "interconnect",
+      "label": {
+        "zh": "PCIe/CXL retimer 与机架互连：检验 GPU 集群 fan-out 是否成为独立瓶颈",
+        "en": "PCIe/CXL retimers and rack interconnect: tests GPU-cluster fan-out as a distinct bottleneck"
+      }
+    },
+    {
+      "ticker": "PWR",
+      "layer": "power",
+      "label": {
+        "zh": "电网 EPC 与输配建设：检验电力设备订单能否变成可交付容量",
+        "en": "Grid EPC and transmission buildout: tests whether power-equipment orders become deliverable capacity"
+      }
+    },
+    {
+      "ticker": "AMKR",
+      "layer": "advanced-packaging",
+      "label": {
+        "zh": "先进封装 / OSAT：检验 CoWoS、HBM 集成与基板是否是后端瓶颈",
+        "en": "Advanced packaging / OSAT: tests CoWoS, HBM integration, and substrate bottlenecks"
+      }
+    }
+  ],
   "crossChecks": [
     {
       "id": "chip-vs-downstream",
@@ -311,6 +374,39 @@
       "then": {
         "zh": "则应把下游 capex 视为宣布或预算中的产能，而不是已承诺、可制造、可设计完成的 AI 供给。",
         "en": "then treat downstream capex as announced or budgeted capacity, not committed, manufacturable, design-complete AI supply."
+      }
+    },
+    {
+      "id": "advanced-packaging-chokepoint",
+      "if": {
+        "zh": "如果 TSM/HBM/ASIC 需求强劲，但 OSAT、先进封装或基板产能没有同步确认",
+        "en": "If TSM/HBM/ASIC demand stays strong but OSAT, advanced-packaging, or substrate capacity does not confirm it"
+      },
+      "then": {
+        "zh": "则 AI 芯片交付瓶颈可能在后端封装而非晶圆或设计端，需要下修可交付供给节奏。",
+        "en": "then the AI-chip delivery bottleneck may sit in back-end packaging rather than wafers or design, and deliverable supply cadence should be marked down."
+      }
+    },
+    {
+      "id": "interconnect-fanout-constraint",
+      "if": {
+        "zh": "如果 GPU、以太网交换和光连接继续扩张，但 PCIe/CXL retimer 与机架互连读数不跟随",
+        "en": "If GPUs, Ethernet switching, and optical connectivity keep expanding but PCIe/CXL retimer and rack-interconnect readings do not follow"
+      },
+      "then": {
+        "zh": "则集群扩张可能仍由传统网络/光层吸收，独立互连瓶颈叙事需要降权。",
+        "en": "then cluster expansion may still be absorbed by traditional networking/optical layers, and the standalone interconnect-bottleneck thesis should be discounted."
+      }
+    },
+    {
+      "id": "grid-epc-delivery",
+      "if": {
+        "zh": "如果 GEV、VRT、CEG/VST/NRG 的电力需求读数变强，但电网 EPC backlog、输配建设和项目执行没有同步确认",
+        "en": "If GEV, VRT, and CEG/VST/NRG power-demand readings strengthen but grid-EPC backlog, transmission buildout, and project execution do not confirm"
+      },
+      "then": {
+        "zh": "则电力瓶颈更可能卡在并网和施工交付，而不是设备订单或发电资产估值本身。",
+        "en": "then the power bottleneck is more likely grid interconnection and construction delivery, not equipment orders or generation-asset valuation alone."
       }
     }
   ]

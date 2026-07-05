@@ -27,6 +27,7 @@ REQUIRED_FIELDS = [
     "markdownFiles"
 ]
 VERSION_TYPES = {"initial", "incremental", "full-cycle"}
+COVERAGE_TIER_VALUES = {"seed", "lite", "full"}
 PREVIOUS_REPORT_FIELDS = [
     "id",
     "label",
@@ -56,10 +57,12 @@ MONITORING_ITEM_ID_RE = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
 NEXT_CHECK_DATE_RE = re.compile(r"\d{4}-(0[1-9]|1[0-2])")
 PRICE_SYMBOL_RE = re.compile(r"[A-Z0-9.\-=]+")
 BILINGUAL_KEYS = ("zh", "en")
+MARKDOWN_URL_PREFIX = "/invest/research/"
 # Chain requirement (spec A.7 step 3): stance/priceAsOf/reportedPeriod/monitoring[]
 # are mandatory for current chainLayer reports. Enabled only after the backfill so
 # the migration never leaves CI red; keep True once flipped.
 ENFORCE_CHAIN_ENRICHMENT = True
+ENFORCE_COVERAGE_TIER = True
 
 
 def fail(message):
@@ -203,6 +206,80 @@ def validate_monitoring(report, report_idx):
             fail(f"{item_prefix}.theme must be one of {sorted(THEME_VALUES)}: {theme}")
 
 
+def is_current_chain_report(report):
+    return bool(report.get("chainLayer")) and report.get("isCurrent") is not False
+
+
+def is_etf_report(report):
+    return "ETF" in report.get("tags", [])
+
+
+def resolve_markdown_file(markdown_url, field_name):
+    ensure_non_empty_string(markdown_url, field_name)
+    if not markdown_url.startswith(MARKDOWN_URL_PREFIX):
+        fail(f"{field_name} should start with {MARKDOWN_URL_PREFIX}: {markdown_url}")
+    if not markdown_url.endswith(".md"):
+        fail(f"{field_name} should point to a .md file: {markdown_url}")
+
+    markdown_rel = markdown_url.replace(MARKDOWN_URL_PREFIX, "", 1)
+    markdown_file = (ROOT / markdown_rel).resolve()
+    try:
+        markdown_file.relative_to(ROOT)
+    except ValueError:
+        fail(f"{field_name} must stay under {ROOT}: {markdown_url}")
+    return markdown_file
+
+
+def markdown_has_table(markdown_url, field_name):
+    markdown_file = resolve_markdown_file(markdown_url, field_name)
+    if not markdown_file.exists():
+        fail(f"{field_name} markdown file not found: {markdown_file}")
+    with open(markdown_file, "r", encoding="utf-8") as file:
+        return any(re.match(r"\s*\|.*\|", line) for line in file)
+
+
+def validate_coverage_tier(report, report_idx):
+    coverage_tier = report.get("coverageTier")
+    is_current_chain = is_current_chain_report(report)
+
+    if coverage_tier is None:
+        if ENFORCE_COVERAGE_TIER and is_current_chain:
+            fail(
+                f"report[{report_idx}] ({report['id']}) is a current chainLayer "
+                "report and must carry coverageTier"
+            )
+        return
+
+    if coverage_tier not in COVERAGE_TIER_VALUES:
+        fail(
+            f"report[{report_idx}].coverageTier must be one of "
+            f"{sorted(COVERAGE_TIER_VALUES)}: {coverage_tier}"
+        )
+
+    version_type = report.get("versionType")
+    is_etf = is_etf_report(report)
+    if version_type == "full-cycle" and coverage_tier != "full" and not is_etf:
+        fail(f"report[{report_idx}].coverageTier must be full for full-cycle reports")
+    if coverage_tier in {"seed", "lite"} and version_type not in {"initial", "incremental"} and not is_etf:
+        fail(
+            f"report[{report_idx}].coverageTier={coverage_tier} is only valid "
+            "for initial/incremental reports"
+        )
+
+    if not is_current_chain or coverage_tier not in {"lite", "full"} or is_etf:
+        return
+
+    markdown_files = report.get("markdownFiles", {})
+    for lang in ("zh", "en"):
+        markdown_url = markdown_files.get(lang)
+        field_name = f"report[{report_idx}].markdownFiles.{lang}"
+        if not markdown_has_table(markdown_url, field_name):
+            fail(
+                f"report[{report_idx}] ({report['id']}) coverageTier={coverage_tier} "
+                f"requires at least one markdown table in {lang}"
+            )
+
+
 def validate_enrichment_fields(report, report_idx, reports_by_id):
     if "priceSymbol" in report:
         ensure_non_empty_string(report["priceSymbol"], f"report[{report_idx}].priceSymbol")
@@ -236,7 +313,9 @@ def validate_enrichment_fields(report, report_idx, reports_by_id):
     if "monitoring" in report:
         validate_monitoring(report, report_idx)
 
-    is_current_chain = bool(report.get("chainLayer")) and report.get("isCurrent") is not False
+    validate_coverage_tier(report, report_idx)
+
+    is_current_chain = is_current_chain_report(report)
     if ENFORCE_CHAIN_ENRICHMENT and is_current_chain:
         for field in ("stance", "priceAsOf", "reportedPeriod", "monitoring"):
             if field not in report:
@@ -329,18 +408,8 @@ def main():
                 fail(f"report[{idx}].markdownFiles missing language: {lang}")
 
             markdown_url = markdown_files[lang]
-            ensure_non_empty_string(markdown_url, f"report[{idx}].markdownFiles.{lang}")
-            if not markdown_url.startswith("/invest/research/"):
-                fail(
-                    f"report[{idx}].markdownFiles.{lang} should start with /invest/research/: {markdown_url}"
-                )
-            if not markdown_url.endswith(".md"):
-                fail(
-                    f"report[{idx}].markdownFiles.{lang} should point to a .md file: {markdown_url}"
-                )
-
-            markdown_rel = markdown_url.replace("/invest/research/", "", 1)
-            markdown_file = ROOT / markdown_rel
+            field_name = f"report[{idx}].markdownFiles.{lang}"
+            markdown_file = resolve_markdown_file(markdown_url, field_name)
             if not markdown_file.exists():
                 fail(
                     f"report[{idx}] markdown file not found for {lang}: {markdown_file}"

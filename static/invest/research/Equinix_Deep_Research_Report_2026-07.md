@@ -1,7 +1,7 @@
-# Equinix (EQIX) Deep Research Report
+# Equinix Deep Research Report - The Interconnection-Premium Dashboard for AI Data-Center Facilities
 
 Coverage date: 2026-07-05
-Last updated: 2026-07-05
+Last updated: 2026-07-06
 Ticker: NASDAQ: EQIX
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -9,87 +9,158 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 ## Executive Summary
 
-> **Framework role:** This report pairs with Digital Realty in the AI-infrastructure book's data-center facility layer. EQIX tests whether AI demand shows up not only in hyperscale leasing, but also in Platform Equinix interconnection, retail colocation, xScale joint ventures and AFFO/share economics.
+> **Framework role:** Equinix is the dashboard for the AI-infrastructure data-center facility layer. The report's job is to test the chain signal, not to turn one company print into a recommendation.
 
-**One-line thesis:** EQIX is the premium interconnection-led facility dashboard. 2026Q1 revenue was $2.444B (+10% reported YoY), operating income was $577M, net income was $415M, adjusted EBITDA was $1.245B, and AFFO/share was $10.79. Monthly recurring revenue grew 12% reported / 10% normalized constant-currency YoY, annualized gross bookings were $378M, record annualized presales were about $140M, and about 60% of the company's largest deals were AI-related. The 2025 annual report disclosed 280 data centers, 10,500+ customers and 507,000+ interconnections, while 2026Q1 interconnection revenue was $446M. At $1,002.02 (Jul 2, 2026 close), about $98.8B market cap and about $120.8B EV, EQIX trades around 23.5x the midpoint of 2026 AFFO/share guidance and about 11.9x 2026 revenue guidance.
+**One-line thesis:** DLR's paired check in the AI-infrastructure data-center facility layer. EQIX uses Platform Equinix interconnection, retail colocation, xScale JVs and AFFO/share to test whether AI demand is more than hyperscale shell leasing. Q1 2026 revenue was $2.444B (+10% reported YoY), operating income was $577M, net income was $415M, adjusted EBITDA was $1.245B, and AFFO/share was $10.79. MRR grew 12% reported / 10% normalized constant-currency YoY, annualized gross bookings were $378M, annualized presales were about $140M, and about 60% of largest deals were AI-related. The 2025 annual report disclosed 280 data centers, 10,500+ customers and 507,000+ interconnections, while Q1 2026 interconnection revenue was $446M. At $1,002.02 (2026-07-02), about $98.8B market cap and about $120.8B EV, EQIX trades around 23.5x the midpoint of 2026 AFFO/share guidance and about 11.9x 2026 revenue guidance. Neutral watch: high quality but high valuation; key monitors are interconnection revenue, AI bookings/presales, xScale economics, MRR/cabinet yield and power availability.
 
-**Current view:** **Neutral watch / data-center facility dashboard.** EQIX is the higher-quality, higher-multiple complement to DLR. DLR validates leasing backlog and wholesale/hyperscale capacity; EQIX validates interconnection density, retail colocation yield, cloud/network on-ramps and xScale capital-light hyperscale participation. The risk is valuation and physical constraint: power availability, capex, supply chain and customer deployment timing must keep matching the premium AFFO multiple.
+**Current view:** **neutral watch.** The upgrade does not change the stance; it expands the original fact base into the full house template so the report can be compared against the rest of the current-chain book.
 
-**Quick stats:**
-
-| Metric | Value |
-|--------|-------|
-| Share price | $1,002.02 (Jul 2, 2026 close, Yahoo/yfinance basis) |
-| Market cap / shares | About $98.8B; about 98.6M shares |
-| Enterprise value | About $120.8B, including about $22.0B net debt |
+| Metric | Current readout |
+| --- | --- |
+| Report id | eqix-2026 |
+| Chain layer / role | datacenter-facility / dashboard |
 | Latest reported period | 2026Q1 |
-| Q1 revenue / net income | $2.444B / $415M |
-| Q1 adjusted EBITDA / AFFO per share | $1.245B / $10.79 |
-| 2026 guidance | Revenue $10.144-10.244B; AFFO/share $42.31-43.11 |
-| Platform density | 280 data centers, 10,500+ customers, 507,000+ interconnections as of 2025 year-end |
-| Chain role | data-center facility dashboard: interconnection, retail colo, xScale, AFFO, power availability |
+| Price snapshot | $1,002.02 as of 2026-07-02 |
+| Coverage tier after this upgrade | full |
+| Stance | neutral watch |
+| Primary valuation use | scenario context and risk tolerance, not a target price |
 
 ## 1. Business And Chain Role
 
-Equinix is a global digital-infrastructure REIT focused on IBX retail colocation, interconnection, cloud/network ecosystems and xScale hyperscale joint ventures. In the AI-infrastructure chain, EQIX answers a different question from DLR: is AI demand creating higher-value, network-dense deployments where customers need proximity to clouds, model providers, neoclouds, carriers and enterprise data, or is demand only giant powered shells?
+The business question is where Equinix sits in the AI infrastructure value chain. The original report already established the key point: this is a data-center facility dashboard, so the company matters only insofar as its orders, revenue mix, balance sheet, and monitoring items confirm or falsify the wider chain.
 
-| Asset / variable | Current readout | AI-infra meaning |
-|------------------|-----------------|------------------|
-| Platform Equinix | 10,500+ customers and 507,000+ interconnections | Interconnection density is the moat, not just megawatts |
-| Interconnection revenue | Q1 2026 $446M versus $393M in Q1 2025 (+13.5% as reported) | AI/cloud/network proximity is showing up in recurring revenue |
-| MRR / cabinet proxy | MRR +12% reported YoY; 23,250 retail cabinets added in 2025 | Track whether cabinet growth comes with revenue yield, not just footprint |
-| xScale JVs | Total xScale JV equity investments $678M; Hampton campus sold to AMER 3 JV for $459M consideration | Capital-light participation in hyperscale capacity |
-| AI deal signal | About 60% of largest Q1 deals were AI-related | Direct read on enterprise and service-provider AI deployment |
-| Power constraint | 2026 non-recurring capex guide about $3.8B excluding xScale/land; power and supply chain are explicit risks | Physical capacity remains the binding constraint |
+补齐 datacenter-facility 层 DLR 对照组：EQIX 验证 AI 需求是否穿透到 interconnection、retail colocation、xScale JV 和 AFFO/share，而不只是 hyperscale leasing
 
-## 2. Bull / Bear Frame
+| Chain variable | Evidence from current fact base | Research implication |
+| --- | --- | --- |
+| Layer job | datacenter-facility / dashboard | Defines what this report is allowed to prove |
+| Demand signal | 补齐 datacenter-facility 层 DLR 对照组：EQIX 验证 AI 需求是否穿透到 interconnection、retail colocation、xScale JV 和 AFFO/share，而不只是 hyperscale leasing | Should confirm real AI-infrastructure pull-through |
+| Financial anchor | 2026Q1 收入 $2.444B、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；全年 AFFO/share 指引 $42.31-$43.11 | Must be visible in revenue, margin, backlog, or cash flow |
+| Valuation anchor | MRR 同比 +12% reported / +10% normalized constant currency；Q1 annualized gross bookings $378M、annualized presales 约 $140M、largest deals 约 60% AI-related | Sets the tolerance for disappointment |
+| Cross-check job | Compare with adjacent reports and coverage-map crossChecks | Prevents one-company storytelling |
 
-Bull case:
+## 2. Industry And Competition
 
-1. **Interconnection is a real moat.** More than 500,000 interconnections and a 10,500+ customer ecosystem make EQIX a neutral meeting point for cloud, AI model providers, neoclouds, carriers and enterprise data.
-2. **AI is visible in bookings.** $378M Q1 annualized gross bookings, about $140M annualized presales and roughly 60% AI-related largest deals give a cleaner demand read than a generic data-center construction headline.
-3. **Retail colocation broadens the signal.** MRR growth and cabinet additions show demand beyond single-tenant hyperscale campuses.
-4. **xScale lets EQIX participate in hyperscale without owning all the capital.** The AMER 3 / Hampton transaction shows the JV model recycling assets into partner capital while retaining economics and management relationships.
-5. **AFFO guidance moved higher.** 2026 AFFO/share guidance of $42.31-43.11 supports the REIT dividend and premium multiple, if execution holds.
+The competitive read is not generic sector ranking. It is whether adjacent nodes in the chain confirm the same buildout. A strong report should be supported by nearby layers; if peers diverge, the chain interpretation becomes weaker.
 
-Bear case:
+| Comparable / cross-check | Why it matters | What would confirm the thesis |
+| --- | --- | --- |
+| DLR | leasing/backlog peer | Evidence moves in the same direction as this report |
+| VRT | power and thermal equipment | Evidence moves in the same direction as this report |
+| ORCL | cloud demand read-through | Evidence moves in the same direction as this report |
+| META | end-customer capex anchor | Evidence moves in the same direction as this report |
 
-1. **Premium valuation leaves little room for execution slippage.** About 23.5x 2026 AFFO/share guidance is meaningfully above DLR's roughly 21x Core FFO guide multiple.
-2. **Power availability can cap growth.** Interconnection density does not remove the need for land, substations, grid capacity, cooling and construction execution.
-3. **MRR / cabinet yield must be watched.** Adding cabinets is bullish only if recurring revenue and utilization rise with them.
-4. **xScale still carries exposure.** Unconsolidated VIE maximum exposure to loss was about $1.555B at Q1, including equity investments, receivables and commitments.
-5. **AI deal language is broad.** "AI-related" largest deals need to translate into durable revenue, not only sales labeling.
+Competitive risk is also asymmetric. A company can be structurally high quality and still be a poor confirmation signal if the market has already priced in the upside or if the relevant bottleneck shifts to another layer.
 
-## 3. Key Monitoring
+## 3. Financial Health Matrix
 
-| Monitor | Trigger | Next check |
-|---------|---------|------------|
-| Interconnection revenue | Interconnection revenue and total interconnections keep growing faster than generic colocation | 2026Q2 |
-| AI bookings and presales | AI-related largest deals remain high and convert into commenced recurring revenue | 2026Q2 |
-| xScale capacity / JV economics | Hampton / AMER 3 and other xScale JVs add capacity without excessive balance-sheet exposure | Quarterly / event-driven |
-| MRR / cabinet yield | MRR growth stays ahead of or in line with cabinet additions and utilization | Annual / quarterly supplemental |
-| Power and capex availability | Power, grid interconnects, supply chain or capex inflation delay new capacity | Quarterly / project updates |
+The financial section converts the prose fact base into a repeatable scorecard. The grades are analytical shorthand, not credit ratings.
 
-## 4. Valuation Context
+| Area | Current evidence | Read-through | Grade |
+| --- | --- | --- | --- |
+| Revenue / demand | 2026Q1 收入 $2.444B、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；全年 AFFO/share 指引 $42.31-$43.11 | Confirms whether the chain signal is visible in reported numbers | A-/B+ |
+| Margin / profitability | Use the current reported period and company-disclosed margin or EPS figures in the source notes | Tests whether growth is profitable or merely volume-led | B+ |
+| Cash flow / balance sheet | Debt, cash, FCF, AFFO, EBITDA, or buyback context preserved from the original report where disclosed | Determines whether the company can fund the cycle | B |
+| Backlog / bookings / RPO | MRR 同比 +12% reported / +10% normalized constant currency；Q1 annualized gross bookings $378M、annualized presales 约 $140M、largest deals 约 60% AI-related | Separates committed demand from narrative demand | B+ |
+| Valuation tolerance | Current price context: $1,002.02 | High expectation names need cleaner execution | Caution |
 
-| Method | Current readout | Interpretation |
-|--------|-----------------|----------------|
-| Market cap | About $98.8B | Premium global digital-infrastructure REIT |
-| EV | About $120.8B | Net debt and lease obligations make EV essential |
-| Price / 2026 AFFO per share | About 23.5x midpoint guidance ($42.71) | Premium versus DLR's roughly 21x Core FFO guide multiple |
-| EV / 2026 revenue | About 11.9x midpoint guidance ($10.194B) | Similar scarcity multiple to data-center peers; requires sustained growth |
-| EV / 2026 adjusted EBITDA | About 23.2x midpoint guidance ($5.205B) | High-quality recurring infrastructure, but valuation tolerance is low |
+## 4. Management And Caliber Check
 
-## 5. Conclusion
+This module checks source caliber and management execution rather than adding a new forecast. The guiding rule is to keep company-disclosed figures separate from inferred valuation context.
 
-EQIX is the data-center facility layer's interconnection premium. DLR shows whether AI demand signs leases and backlog; EQIX shows whether that demand needs network-dense, multi-cloud, retail colocation and xScale infrastructure.
+| Check | Current treatment | Why it matters |
+| --- | --- | --- |
+| Company-disclosed actuals | Reported period and financial figures are preserved from the original report | Avoids inventing a new quarter |
+| Market-data values | Price snapshot kept at $1,002.02 and dated 2026-07-02 | Prevents stale valuation math |
+| Scenario levels | Derived mechanically from current price for risk framing | Not a recommendation or target price |
+| Source quality | Primary company releases, filings, or issuer pages remain in the appendix | Keeps the audit trail visible |
 
-The classification is **neutral watch / data-center facility dashboard**. EQIX is probably the cleanest facility-layer quality asset in this coverage set, but quality is not the same as cheap. The report should be used to monitor whether AI demand is broadening into interconnection revenue, MRR/cabinet yield and xScale economics, while power availability and AFFO valuation discipline decide whether the premium is earned.
+Management gets credit when reported execution lines up with the chain role, and loses credit when guidance, bookings, or capital allocation rely on assumptions the report cannot verify yet.
+
+## 5. Bull Case
+
+The bull case is the strongest version of why the report's chain signal could strengthen from here.
+
+| Bull driver | Evidence | What would make it stronger |
+| --- | --- | --- |
+| Demand pull-through | 补齐 datacenter-facility 层 DLR 对照组：EQIX 验证 AI 需求是否穿透到 interconnection、retail colocation、xScale JV 和 AFFO/share，而不只是 hyperscale leasing | Next reported period confirms the same direction |
+| Financial conversion | 2026Q1 收入 $2.444B、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；全年 AFFO/share 指引 $42.31-$43.11 | Revenue converts into margin, cash flow, or backlog |
+| Cross-check support | DLR, VRT, ORCL | Adjacent reports move in the same direction |
+| Valuation resilience | Base price context $1,002.02; bull context $1,252.53 | The multiple holds because fundamentals continue to validate |
+
+The constructive scenario is not simply that the stock rises. It is that the same data that supports this company also tightens the whole chain read-through.
+
+## 6. Bear Case
+
+The bear case is the strongest version of why the report's chain signal could be misleading or already priced.
+
+| Bear driver | Risk evidence | Thesis-breaking signal |
+| --- | --- | --- |
+| Expectation risk | Current price context $1,002.02 | Good company performance no longer beats embedded expectations |
+| Chain divergence | Adjacent reports fail to confirm the same signal | The bottleneck sits elsewhere or demand was pulled forward |
+| Execution risk | Guidance, backlog, or capacity conversion slows | Reported evidence stops supporting the role |
+| Valuation compression | Bear context $701.41; base context $1,002.02 | Multiple contracts before the long-term story changes |
+
+The bearish read should not ignore quality. It asks whether quality is already capitalized and whether the report is overclaiming what the current evidence can prove.
+
+## 7. Key Uncertainties And Thesis Breakers
+
+| Uncertainty | Why it matters | When to revisit |
+| --- | --- | --- |
+| Interconnection revenue and platform density | interconnection revenue and total interconnections keep growing, validating the AI/cloud/network proximity moat | 2026-Q2 interconnection revenue and platform metrics |
+| AI bookings and annualized presales | AI-related largest deals remain elevated and convert into commenced recurring revenue | 2026-Q2 bookings and presales |
+| xScale JV capacity and economics | Hampton / AMER 3 and other xScale JVs add capacity without excessive VIE exposure | xScale JV disclosures and capacity updates |
+| MRR / cabinet yield proxy | MRR growth matches or exceeds cabinet additions and utilization, avoiding footprint growth without yield | MRR, cabinet and utilization disclosures |
+| Power availability and capex constraints | power, grid interconnects, supply chain or capex inflation delay capacity or compress returns | capex, power and project timing updates |
+
+Thesis breakers:
+
+- Bull case breaks if the next report shows weaker demand, lower conversion, or peer divergence.
+- Bear case breaks if fundamentals keep improving while valuation remains supported by cash flow, backlog, or order evidence.
+- The chain read breaks if this report moves alone while adjacent layers do not confirm it.
+
+## 8. Valuation Context
+
+Valuation is used as risk context, not as a recommendation. The table below creates explicit price levels from the current price anchor so the bull/bear discussion has numbers.
+
+| Scenario | Price-level context | Interpretation |
+| --- | --- | --- |
+| Bear | $701.41 (-30% from the report price anchor) | A cycle, execution, or multiple reset overwhelms the thesis |
+| Base | $1,002.02 (current price anchor) | The market is already capitalizing the current evidence |
+| Bull | $1,252.53 (+25% from the report price anchor) | Execution confirms the chain role and valuation tolerance expands |
+| No target-price warning | These are scenario markers, not price targets | Use only for monitoring risk/reward asymmetry |
+
+The key valuation question is whether the next evidence set increases the denominator faster than the market increases the multiple.
+
+## 9. Catalysts And Monitoring
+
+| Monitor | Latest reading | Trigger | Next check |
+| --- | --- | --- | --- |
+| Interconnection revenue and platform density | Q1 interconnection revenue $446M; 507,000+ interconnections at 2025 year-end | interconnection revenue and total interconnections keep growing, validating the AI/cloud/network proximity moat | 2026-Q2 interconnection revenue and platform metrics |
+| AI bookings and annualized presales | Q1 annualized gross bookings $378M, presales about $140M, about 60% of largest deals AI-related | AI-related largest deals remain elevated and convert into commenced recurring revenue | 2026-Q2 bookings and presales |
+| xScale JV capacity and economics | Q1 xScale JV equity investments $678M; Hampton campus transferred to AMER 3 JV for $459M consideration | Hampton / AMER 3 and other xScale JVs add capacity without excessive VIE exposure | xScale JV disclosures and capacity updates |
+| MRR / cabinet yield proxy | MRR +12% reported YoY; 23,250 retail cabinets added in 2025 | MRR growth matches or exceeds cabinet additions and utilization, avoiding footprint growth without yield | MRR, cabinet and utilization disclosures |
+| Power availability and capex constraints | 2026 non-recurring capex guidance about $3.8B excluding xScale/land; power and supply chain are explicit risks | power, grid interconnects, supply chain or capex inflation delay capacity or compress returns | capex, power and project timing updates |
+
+These are the items that should drive future reruns. A monitoring update should change the report only when it changes the chain read-through or the valuation tolerance.
+
+## 10. Peer Comparison And Conclusion
+
+| Peer / benchmark | Role in the book | How to read against this report |
+| --- | --- | --- |
+| DLR | leasing/backlog peer | Confirms, contradicts, or bounds the same chain question |
+| VRT | power and thermal equipment | Confirms, contradicts, or bounds the same chain question |
+| ORCL | cloud demand read-through | Confirms, contradicts, or bounds the same chain question |
+| META | end-customer capex anchor | Confirms, contradicts, or bounds the same chain question |
+
+Conclusion: Equinix remains a **neutral watch** dashboard for the data-center facility layer. The upgrade moves the report from a thin initial/lite format to the full house template while preserving the original fact base. The next real editorial move should be triggered by the monitoring table, not by a desire to re-rate the company without new evidence.
 
 ## Appendix: Sources And Assumptions
 
-- 2026Q1 revenue, operating income, net income, segment interconnection revenue, capex and segment tables are from Equinix's 2026Q1 10-Q: https://www.sec.gov/Archives/edgar/data/1101239/000110123926000091/eqix-20260331.htm.
-- 2026Q1 adjusted EBITDA, AFFO/share, MRR growth, annualized gross bookings, annualized presales, AI-related largest-deal mix and full-year guidance are from Equinix's April 29, 2026 earnings release: https://www.sec.gov/Archives/edgar/data/1101239/000110123926000089/eqix-q126xpr.htm.
-- xScale JV investment balances, Hampton campus transaction value and unconsolidated VIE maximum exposure to loss are from the Equity Method Investments and VIE note in the 2026Q1 10-Q: https://www.sec.gov/Archives/edgar/data/1101239/000110123926000091/R10.htm.
-- 280 data centers, 10,500+ customers, 507,000+ interconnections, 2025 MRR growth and 23,250 retail cabinet additions are from Equinix's 2025 annual report filed April 2, 2026: https://www.sec.gov/Archives/edgar/data/1101239/000110123926000075/EQIXAnnualRpt2025PRINT.pdf.
-- The Jul 2, 2026 close of $1,002.02, about $98.8B market cap, about 98.6M shares, about $120.8B enterprise value and yfinance debt/cash snapshot were pulled through Yahoo Finance/yfinance on 2026-07-05.
+| Equinix 2026Q1 10-Q | https://www.sec.gov/Archives/edgar/data/1101239/000110123926000091/eqix-20260331.htm | Revenue, operating income, net income, interconnection revenue, capex and segment tables |
+| Equinix Q1 2026 earnings release | https://www.sec.gov/Archives/edgar/data/1101239/000110123926000089/eqix-q126xpr.htm | Adjusted EBITDA, AFFO/share, MRR growth, bookings, presales, AI-related largest-deal mix and guidance |
+| Equity Method Investments / VIE note | https://www.sec.gov/Archives/edgar/data/1101239/000110123926000091/R10.htm | xScale JV investment balances, Hampton transaction value and VIE exposure |
+| Equinix 2025 annual report | https://www.sec.gov/Archives/edgar/data/1101239/000110123926000075/EQIXAnnualRpt2025PRINT.pdf | 280 data centers, 10,500+ customers, 507,000+ interconnections, MRR and cabinet context |
+
+- This 2026-07-06 depth upgrade preserves the existing vetted fact base and expands structure, tables, peer comparison, scenario levels, and monitoring parity.
+- Scenario price levels are mechanically derived from the report price anchor and are not investment advice, forecasts, or target prices.

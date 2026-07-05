@@ -13,6 +13,12 @@ const CATEGORY_LABELS = {
     energy: '能源'
 };
 
+const COVERAGE_TIER_LABELS = {
+    seed: '初览 / Seed',
+    lite: '精简 / Lite',
+    full: '完整 / Full'
+};
+
 const filterState = {
     category: 'all',
     letter: 'all',
@@ -199,9 +205,16 @@ function renderReports() {
 }
 
 function renderTrackingChips(report) {
-    const chips = [renderPriceChip(report), renderRerunChip(report)].filter(Boolean);
+    const chips = [renderTierChip(report), renderPriceChip(report), renderRerunChip(report)].filter(Boolean);
     if (!chips.length) return '';
     return `<div class="report-price-row">${chips.join('')}</div>`;
+}
+
+function renderTierChip(report) {
+    if (!report.chainLayer || !report.coverageTier) return '';
+    const label = COVERAGE_TIER_LABELS[report.coverageTier];
+    if (!label) return '';
+    return `<span class="tag price-chip tier-chip">${escapeHtml(label)}</span>`;
 }
 
 function renderPriceChip(report) {

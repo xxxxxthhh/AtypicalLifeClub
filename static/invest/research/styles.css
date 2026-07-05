@@ -272,6 +272,11 @@
     color: var(--content);
 }
 
+.tier-chip {
+    color: var(--content);
+    font-weight: 650;
+}
+
 .report-highlights {
     margin: 0;
     color: var(--secondary);
