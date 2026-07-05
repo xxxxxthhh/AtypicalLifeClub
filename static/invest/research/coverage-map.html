@@ -9,8 +9,63 @@
     <link rel="stylesheet" href="/invest/styles.css">
     <link rel="stylesheet" href="/invest/research/styles.css">
     <style>
+        body.coverage-map-page {
+            --coverage-bg: #f5f6f9;
+            --coverage-panel: #ffffff;
+            --coverage-panel-2: #fbfcfe;
+            --coverage-ink: #14171c;
+            --coverage-ink-2: #3b4048;
+            --coverage-muted: #6b7079;
+            --coverage-faint: #a7abb3;
+            --coverage-line: #e7e9ee;
+            --coverage-line-2: #d5d9e0;
+            --coverage-grid: rgba(20, 24, 32, 0.045);
+            --coverage-mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+
+            --theme: var(--coverage-bg);
+            --entry: var(--coverage-panel);
+            --primary: var(--coverage-ink);
+            --content: var(--coverage-ink-2);
+            --secondary: var(--coverage-muted);
+            --tertiary: var(--coverage-faint);
+            --border: var(--coverage-line);
+            --surface-2: rgba(47, 111, 237, 0.04);
+            --surface-3: rgba(15, 157, 140, 0.08);
+
+            background: var(--coverage-bg);
+            color: var(--coverage-ink);
+            line-height: 1.6;
+        }
+
+        [data-theme="dark"] body.coverage-map-page,
+        body.coverage-map-page.dark {
+            --coverage-bg: #0d0f13;
+            --coverage-panel: #161a20;
+            --coverage-panel-2: #1b2027;
+            --coverage-ink: #eceef1;
+            --coverage-ink-2: #c3c7ce;
+            --coverage-muted: #8a8f98;
+            --coverage-faint: #565b63;
+            --coverage-line: #272c34;
+            --coverage-line-2: #363c45;
+            --coverage-grid: rgba(255, 255, 255, 0.04);
+
+            --accent: #6f9dff;
+            --accent-soft: rgba(111, 157, 255, 0.14);
+            --accent-alt: #4fc7b6;
+            --surface-2: rgba(111, 157, 255, 0.14);
+            --surface-3: rgba(79, 199, 182, 0.15);
+        }
+
         .coverage-hero {
-            background: linear-gradient(140deg, color-mix(in srgb, var(--entry) 86%, var(--surface-2)), color-mix(in srgb, var(--entry) 88%, var(--surface-3)));
+            margin-top: 1.6rem;
+            border-radius: 16px;
+            padding: 2rem 1.8rem 1.6rem;
+            background:
+                linear-gradient(var(--coverage-grid) 1px, transparent 1px),
+                linear-gradient(90deg, var(--coverage-grid) 1px, transparent 1px),
+                linear-gradient(155deg, var(--coverage-panel), var(--coverage-panel-2));
+            background-size: 26px 26px, 26px 26px, auto;
         }
 
         .coverage-hero-top {
@@ -28,121 +83,231 @@
             flex: 0 0 auto;
         }
 
-        .coverage-section-header {
-            display: grid;
-            gap: 0.35rem;
+        .coverage-map-page .research-hero-kicker {
+            font-family: var(--coverage-mono);
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
         }
 
-        .coverage-section-header p {
+        .coverage-map-page .research-command-hero .hero-title {
+            margin-top: 0.7rem;
+            max-width: 22ch;
+            font-size: clamp(1.7rem, 3.4vw, 2.5rem);
+            line-height: 1.1;
+            letter-spacing: 0;
+            font-weight: 750;
+        }
+
+        .coverage-map-page .research-command-hero .hero-subtitle {
+            margin-top: 0.7rem;
+            max-width: 60ch;
+            font-size: 1rem;
+        }
+
+        .coverage-map-page .research-hero-stat-grid {
+            margin-top: 1.5rem;
+            gap: 0.9rem;
+            max-width: 760px;
+        }
+
+        .coverage-map-page .research-stat-card {
+            border-radius: 12px;
+            background: color-mix(in srgb, var(--coverage-panel) 70%, transparent);
+            padding: 0.85rem 0.95rem;
+        }
+
+        .coverage-map-page .research-stat-value {
+            font-size: 1.9rem;
+            letter-spacing: 0;
+        }
+
+        .coverage-map-page .research-stat-label {
+            font-family: var(--coverage-mono);
+            font-size: 0.68rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        .coverage-map-page .section {
+            margin-top: 2.4rem;
+            padding: 0;
+            border: 0;
+            border-radius: 0;
+            background: transparent;
+        }
+
+        .coverage-map-page .research-section-header p {
             max-width: 780px;
         }
 
-        .chain-graph-shell {
+        .chain-board-shell {
             margin-top: 1rem;
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            background: linear-gradient(160deg, var(--entry), color-mix(in srgb, var(--entry) 94%, var(--surface-2)));
-            overflow: hidden;
-        }
-
-        .chain-graph-scroll {
+            border: 1px solid var(--coverage-line);
+            border-radius: 14px;
+            background: var(--coverage-panel);
             overflow-x: auto;
             scrollbar-width: thin;
         }
 
-        .chain-graph-svg {
-            display: block;
-            max-width: none;
-            color: var(--primary);
-            font-family: inherit;
+        .chain-board {
+            display: flex;
+            align-items: stretch;
+            min-width: max-content;
+            padding: 0.2rem;
         }
 
-        .chain-lane-bg {
-            fill: color-mix(in srgb, var(--entry) 96%, var(--surface-2));
+        .chain-lane {
+            flex: 0 0 180px;
+            width: 180px;
+            padding: 0.9rem 0.85rem;
+            border-right: 1px solid var(--coverage-line);
         }
 
-        .chain-lane-bg-alt {
-            fill: color-mix(in srgb, var(--entry) 92%, var(--surface-3));
+        .chain-lane:last-child {
+            border-right: 0;
         }
 
-        .chain-lane-divider {
-            stroke: var(--border);
-            stroke-width: 1;
+        .chain-lane-kicker {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
         }
 
-        .chain-lane-label {
-            fill: var(--secondary);
-            font-size: 11px;
-            font-weight: 750;
-            text-transform: uppercase;
+        .chain-lane-index {
+            color: var(--coverage-faint);
+            font-family: var(--coverage-mono);
+            font-size: 0.64rem;
+            font-weight: 700;
+        }
+
+        .chain-lane-dot {
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: var(--accent);
+        }
+
+        .chain-lane-title {
+            min-height: 2.1em;
+            margin-top: 0.3rem;
+            color: var(--coverage-ink);
+            font-size: 0.82rem;
+            font-weight: 700;
+            line-height: 1.25;
         }
 
         .chain-lane-count {
-            fill: var(--tertiary);
-            font-size: 10px;
-            font-weight: 650;
+            margin-top: 0.15rem;
+            color: var(--coverage-muted);
+            font-family: var(--coverage-mono);
+            font-size: 0.62rem;
+            letter-spacing: 0.06em;
         }
 
-        .chain-edge {
-            fill: none;
-            stroke: color-mix(in srgb, var(--accent) 55%, var(--border));
-            stroke-width: 1.7;
-            stroke-linecap: round;
-            opacity: 0.74;
+        .chain-lane-nodes {
+            margin-top: 0.7rem;
+            display: grid;
+            gap: 0.35rem;
         }
 
-        .chain-edge-dashed {
-            stroke-dasharray: 6 6;
+        .chain-node-card {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.4rem;
+            min-height: 2rem;
+            border: 1px solid var(--coverage-line);
+            border-radius: 8px;
+            padding: 0.35rem 0.5rem;
+            background: var(--coverage-panel-2);
+            color: inherit;
+            transition: opacity 0.18s ease, border-color 0.18s ease, background 0.18s ease, transform 0.18s ease;
         }
 
-        .chain-node-link {
-            text-decoration: none;
+        .chain-node-card:hover,
+        .chain-node-card:focus-visible {
+            border-color: var(--role-color, var(--accent));
+            background: color-mix(in srgb, var(--role-color, var(--accent)) 9%, var(--coverage-panel-2));
+            outline: none;
+            transform: translateY(-1px);
         }
 
-        .chain-node-rect {
-            fill: var(--entry);
-            stroke: color-mix(in srgb, var(--accent) 36%, var(--border));
-            stroke-width: 1.2;
-        }
-
-        .chain-node-link:hover .chain-node-rect,
-        .chain-node-link:focus-visible .chain-node-rect {
-            fill: var(--accent-soft);
-            stroke: var(--accent);
-        }
-
-        .chain-node-planned .chain-node-rect {
-            fill: color-mix(in srgb, var(--entry) 90%, var(--surface-3));
-            stroke: var(--tertiary);
-            stroke-dasharray: 5 4;
+        .chain-node-card.role-common-constraint,
+        .chain-node-card.role-risk-anchor,
+        .chain-node-card.role-architecture-check {
+            border-color: color-mix(in srgb, var(--role-color) 52%, var(--coverage-line));
+            background: color-mix(in srgb, var(--role-color) 4%, var(--coverage-panel-2));
         }
 
         .chain-node-ticker {
-            fill: var(--primary);
-            font-size: 12px;
-            font-weight: 800;
-        }
-
-        .chain-node-name {
-            fill: var(--secondary);
-            font-size: 10px;
-            font-weight: 620;
+            font-family: var(--coverage-mono);
+            font-size: 0.74rem;
+            font-weight: 700;
+            letter-spacing: 0.01em;
         }
 
         .chain-node-role {
-            fill: var(--accent);
-            font-size: 9px;
-            font-weight: 750;
+            color: var(--role-color, var(--coverage-faint));
+            font-family: var(--coverage-mono);
+            font-size: 0.58rem;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            text-align: right;
         }
 
-        .chain-node-planned .chain-node-role {
-            fill: var(--tertiary);
+        .chain-node-muted {
+            opacity: 0.28;
+        }
+
+        .chain-node-planned {
+            border-style: dashed;
+            color: var(--coverage-muted);
+        }
+
+        .role-common-constraint {
+            --role-color: var(--accent);
+        }
+
+        .role-risk-anchor {
+            --role-color: var(--accent-alt);
+        }
+
+        .role-architecture-check {
+            --role-color: color-mix(in srgb, var(--accent-alt) 65%, var(--accent));
+        }
+
+        .role-dashboard {
+            --role-color: var(--coverage-muted);
+        }
+
+        .chain-board-legend {
+            margin-top: 0.7rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.7rem;
+            align-items: center;
+        }
+
+        .chain-board-legend-item {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            color: var(--coverage-muted);
+            font-size: 0.74rem;
+        }
+
+        .chain-board-legend-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 2px;
+            background: var(--role-color, var(--accent));
         }
 
         .chain-graph-caption {
-            margin: 0.6rem 0 0;
-            color: var(--secondary);
-            font-size: 0.78rem;
+            display: none;
         }
 
         .layer-stack {
@@ -152,19 +317,54 @@
         }
 
         .layer-panel {
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            background: linear-gradient(160deg, var(--entry), color-mix(in srgb, var(--entry) 94%, var(--surface-2)));
+            border: 1px solid var(--coverage-line);
+            border-radius: 14px;
+            background: var(--coverage-panel);
             overflow: hidden;
         }
 
         .layer-header {
+            appearance: none;
+            -webkit-appearance: none;
+            width: 100%;
+            border: 0;
             padding: 0.9rem;
             display: flex;
             align-items: flex-start;
             justify-content: space-between;
             gap: 1rem;
-            border-bottom: 1px solid var(--border);
+            background: transparent;
+            color: inherit;
+            font: inherit;
+            text-align: left;
+            cursor: pointer;
+        }
+
+        .layer-header:hover,
+        .layer-header:focus-visible {
+            background: color-mix(in srgb, var(--accent-soft) 34%, transparent);
+            outline: none;
+        }
+
+        .layer-heading-line {
+            display: flex;
+            align-items: center;
+            gap: 0.55rem;
+        }
+
+        .layer-code {
+            color: var(--accent);
+            font-family: var(--coverage-mono);
+            font-size: 0.68rem;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+        }
+
+        .layer-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--accent);
         }
 
         .layer-title-group {
@@ -194,8 +394,27 @@
             font-weight: 650;
         }
 
+        .layer-header-actions {
+            flex: 0 0 auto;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.45rem;
+        }
+
+        .layer-chevron {
+            color: var(--coverage-faint);
+            font-family: var(--coverage-mono);
+            font-size: 0.9rem;
+            line-height: 1;
+            transition: transform 0.18s ease;
+        }
+
+        .layer-panel:not(.is-open) .layer-chevron {
+            transform: rotate(-90deg);
+        }
+
         .coverage-card-grid {
-            padding: 0.9rem;
+            padding: 0 0.9rem 0.9rem;
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
             gap: 0.8rem;
@@ -204,17 +423,20 @@
         .coverage-report-card {
             display: flex;
             flex-direction: column;
-            min-height: 230px;
-            border: 1px solid var(--border);
-            border-radius: 10px;
-            background: var(--entry);
+            min-height: 176px;
+            border: 1px solid var(--coverage-line);
+            border-radius: 11px;
+            background: var(--coverage-panel-2);
+            color: inherit;
             transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
         }
 
-        .coverage-report-card:hover {
+        .coverage-report-card:hover,
+        .coverage-report-card:focus-visible {
             transform: translateY(-1.5px);
             border-color: color-mix(in srgb, var(--accent) 42%, var(--border));
             box-shadow: 0 12px 24px color-mix(in srgb, #000 12%, transparent);
+            outline: none;
         }
 
         .coverage-report-main {
@@ -225,36 +447,97 @@
 
         .coverage-report-meta {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             justify-content: space-between;
             gap: 0.5rem;
         }
 
+        .coverage-report-name {
+            min-width: 0;
+            display: grid;
+            gap: 0.1rem;
+        }
+
+        .coverage-report-ticker {
+            color: var(--coverage-ink);
+            font-family: var(--coverage-mono);
+            font-size: 1.2rem;
+            font-weight: 750;
+            line-height: 1;
+            letter-spacing: 0.01em;
+        }
+
         .coverage-company {
             color: var(--secondary);
-            font-size: 0.78rem;
-            font-weight: 650;
+            font-size: 0.76rem;
+            font-weight: 600;
+            line-height: 1.35;
         }
 
         .role-badge {
-            border: 1px solid color-mix(in srgb, var(--accent) 42%, var(--border));
+            border: 1px solid var(--role-color, color-mix(in srgb, var(--accent) 42%, var(--border)));
             border-radius: 999px;
             padding: 0.13rem 0.5rem;
-            color: var(--accent);
-            background: var(--accent-soft);
-            font-size: 0.72rem;
+            color: var(--role-color, var(--accent));
+            background: transparent;
+            font-family: var(--coverage-mono);
+            font-size: 0.66rem;
             font-weight: 700;
+            letter-spacing: 0.02em;
             white-space: nowrap;
         }
 
-        .coverage-report-title {
-            margin: 0;
-            font-size: 0.98rem;
-            line-height: 1.36;
+        .cross-check-grid {
+            margin-top: 1.2rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 0.85rem;
+        }
+
+        .cross-check-card {
+            border: 1px solid var(--coverage-line);
+            border-radius: 12px;
+            background: var(--coverage-panel);
+            overflow: hidden;
+        }
+
+        .cross-check-inner {
+            padding: 0.9rem 1rem;
+            display: grid;
+            gap: 0.7rem;
+        }
+
+        .cross-check-label {
+            color: var(--accent-alt);
+            font-family: var(--coverage-mono);
+            font-size: 0.64rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        .cross-check-label.then {
+            color: var(--accent);
+        }
+
+        .cross-check-card p {
+            margin: 0.2rem 0 0;
+            color: var(--coverage-ink);
+            font-size: 0.88rem;
+            line-height: 1.5;
+        }
+
+        .cross-check-card .then-copy {
+            color: var(--coverage-ink-2);
+        }
+
+        .cross-check-rule {
+            height: 1px;
+            background: var(--coverage-line);
         }
 
         .coverage-report-summary {
-            margin: 0;
+            margin: 0.08rem 0 0;
             color: var(--secondary);
             font-size: 0.84rem;
             display: -webkit-box;
@@ -271,6 +554,30 @@
             align-items: center;
             justify-content: space-between;
             gap: 0.75rem;
+        }
+
+        .coverage-stance {
+            color: var(--accent);
+            font-family: var(--coverage-mono);
+            font-size: 0.72rem;
+            font-weight: 750;
+            letter-spacing: 0.03em;
+        }
+
+        .coverage-stance.high-risk-watch {
+            color: var(--accent-alt);
+        }
+
+        .coverage-stance.bearish-avoid {
+            color: color-mix(in srgb, var(--accent-alt) 56%, var(--accent));
+        }
+
+        .coverage-report-date {
+            color: var(--coverage-muted);
+            font-family: var(--coverage-mono);
+            font-size: 0.72rem;
+            font-weight: 650;
+            white-space: nowrap;
         }
 
         .other-list {
@@ -344,10 +651,6 @@
         }
 
         @media (max-width: 760px) {
-            .chain-section {
-                display: none;
-            }
-
             .coverage-hero-top,
             .layer-header,
             .other-item {
@@ -355,17 +658,45 @@
                 align-items: flex-start;
             }
 
-            .coverage-actions {
+            .coverage-map-page .shell-header-inner {
+                align-items: flex-start;
+                flex-direction: column;
+            }
+
+            .coverage-map-page .shell-nav {
                 width: 100%;
+                justify-content: space-between;
+            }
+
+            .coverage-map-page .shell,
+            .coverage-map-page .shell-header-inner {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+
+            .coverage-map-page .research-command-hero .hero-title {
+                font-size: clamp(1.55rem, 9vw, 2.1rem);
+            }
+
+            .chain-board-shell {
+                margin-left: -1rem;
+                margin-right: -1rem;
+                border-left: 0;
+                border-right: 0;
+                border-radius: 0;
             }
 
             .coverage-card-grid {
                 grid-template-columns: 1fr;
             }
+
+            .cross-check-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
-<body>
+<body class="coverage-map-page research-reference-page">
     <header class="shell-header">
         <div class="shell-header-inner">
             <div class="shell-brand">
@@ -378,46 +709,59 @@
                 </div>
                 <span class="shell-brand-subtitle">AI Infrastructure Research Logic</span>
             </div>
-            <nav class="shell-nav">
-                <a href="/invest/">返回 Invest</a>
-                <a href="/invest/research/">Research</a>
-                <a href="/invest/research/coverage-map.html" class="active">Coverage Map</a>
-                <a href="/invest/research/monitoring-dashboard.html">Monitoring</a>
+            <nav class="shell-nav" aria-label="Page controls">
+                <div class="lang-switch" id="languageSwitch" role="group" aria-label="Language switch">
+                    <button class="lang-opt active" type="button" data-lang="zh" aria-pressed="true">中文</button>
+                    <span class="divider">/</span>
+                    <button class="lang-opt" type="button" data-lang="en" aria-pressed="false">EN</button>
+                </div>
+                <button class="research-theme-toggle" id="researchThemeToggle" type="button" aria-label="切换主题">
+                    <span class="research-theme-mark" aria-hidden="true"></span>
+                </button>
             </nav>
         </div>
     </header>
 
     <main class="shell">
-        <section class="hero coverage-hero">
-            <div class="coverage-hero-top">
-                <div class="coverage-hero-copy">
+        <section class="hero research-command-hero coverage-hero">
+            <div class="research-hero-top coverage-hero-top">
+                <div class="research-hero-copy coverage-hero-copy">
+                    <div class="research-hero-kicker" id="pageKicker">AI INFRASTRUCTURE / COVERAGE</div>
                     <h1 class="hero-title" id="pageTitle">AI 基建覆盖地图</h1>
                     <p class="hero-subtitle" id="pageSubtitle">我们不是选股，而是把 AI 基建拆成一条有分工的价值链。</p>
-                </div>
-                <div class="coverage-actions">
-                    <div class="lang-switch" id="languageSwitch" role="group" aria-label="Language switch">
-                        <button class="lang-opt active" type="button" data-lang="zh" aria-pressed="true">中文</button>
-                        <span class="divider">/</span>
-                        <button class="lang-opt" type="button" data-lang="en" aria-pressed="false">EN</button>
+                    <div class="research-hero-stat-grid" id="coverageStats" aria-label="Coverage map statistics">
+                        <div class="research-stat-card">
+                            <div class="research-stat-value">--</div>
+                            <div class="research-stat-label">Loading</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="section chain-section" aria-labelledby="chainGraphHeading">
-            <div class="coverage-section-header">
-                <h2 id="chainGraphHeading">Chain Graph</h2>
+            <div class="research-section-header">
+                <div class="research-section-titlebar">
+                    <span class="research-section-number">01</span>
+                    <h2 id="chainGraphHeading">Chain Graph</h2>
+                    <span class="research-section-rule" aria-hidden="true"></span>
+                </div>
                 <p id="chainGraphIntro">The chain graph shows current AI-infra validation reports and planned coverage gaps.</p>
             </div>
-            <div class="chain-graph-shell" id="chainGraph">
+            <div class="research-toolbar" id="roleFilterBar" aria-label="Research role filter"></div>
+            <div class="chain-board-shell" id="chainGraph">
                 <div class="loading-state">Loading chain graph...</div>
             </div>
             <p class="chain-graph-caption" id="chainGraphCaption"></p>
         </section>
 
         <section class="section">
-            <div class="coverage-section-header">
-                <h2 id="mapHeading">AI Infrastructure Coverage Map</h2>
+            <div class="research-section-header">
+                <div class="research-section-titlebar">
+                    <span class="research-section-number">02</span>
+                    <h2 id="mapHeading">AI Infrastructure Coverage Map</h2>
+                    <span class="research-section-rule" aria-hidden="true"></span>
+                </div>
                 <p id="mapIntro">每个层级回答一个不同的问题：需求在哪里出现、瓶颈在哪里形成、哪篇报告负责验证或证伪这条链。</p>
             </div>
             <div class="layer-stack" id="layerStack">
@@ -425,9 +769,25 @@
             </div>
         </section>
 
+        <section class="section" aria-labelledby="checkHeading">
+            <div class="research-section-header">
+                <div class="research-section-titlebar">
+                    <span class="research-section-number alt">03</span>
+                    <h2 id="checkHeading">Cross-Check Logic</h2>
+                    <span class="research-section-rule" aria-hidden="true"></span>
+                </div>
+                <p id="checkIntro">Chain-level if / then rules tie readings across layers together.</p>
+            </div>
+            <div class="cross-check-grid" id="crossCheckGrid"></div>
+        </section>
+
         <section class="section">
-            <div class="coverage-section-header">
-                <h2 id="otherHeading">Other Coverage</h2>
+            <div class="research-section-header">
+                <div class="research-section-titlebar">
+                    <span class="research-section-number">04</span>
+                    <h2 id="otherHeading">Other Coverage</h2>
+                    <span class="research-section-rule" aria-hidden="true"></span>
+                </div>
                 <p id="otherIntro">这些报告暂不承担 AI 基建链条验证角色，保留在完整研究覆盖中。</p>
             </div>
             <ul class="other-list" id="otherCoverageList"></ul>
@@ -452,12 +812,24 @@
         const PAGE_LABELS = {
             zh: {
                 documentTitle: "AI 基建覆盖地图 | Atypical Life Club",
+                pageKicker: "AI 基础设施 · 研究覆盖",
                 chainGraphHeading: "链条图谱",
-                chainGraphIntro: "上方节点展示当前承担验证任务的报告，虚线节点展示下一批计划补齐的链条缺口。",
-                chainGraphCaption: "实线为现有 related 关系；风险锚与架构校验之间的关系用虚线表示。计划节点只暴露覆盖缺口，不生成下方报告卡片。",
+                heroSubtitle: "把 AI 基建拆成一条有分工的价值链，追踪每一层的验证与证伪。",
+                chainGraphIntro: "我们不是选股，而是把 AI 基建拆成一条有分工的价值链——每一列是一个层级，每个节点是负责验证或证伪该层的报告。",
+                chainGraphCaption: "横向链条按研究层级排列；筛选角色时，非匹配节点会降低透明度，但仍保留链条位置，便于看缺口。",
                 plannedBadge: "计划中",
                 mapHeading: "AI 基建覆盖地图",
                 otherHeading: "Other Coverage",
+                checkHeading: "交叉校验逻辑",
+                checkIntro: "链级 if / then 规则，把不同层级的读数绑在一起，防止单点叙事被过度解读。",
+                ifLabel: "IF",
+                thenLabel: "THEN",
+                layerStat: "链条层级",
+                reportStat: "覆盖报告",
+                roleStat: "链条角色",
+                checkStat: "交叉校验",
+                roleFilterLabel: "按角色",
+                allRoles: "全部",
                 reportCount: "篇报告",
                 readReport: "阅读报告",
                 updated: "更新",
@@ -469,12 +841,24 @@
             },
             en: {
                 documentTitle: "AI Infrastructure Coverage Map | Atypical Life Club",
+                pageKicker: "AI Infrastructure · Coverage",
                 chainGraphHeading: "Chain Graph",
-                chainGraphIntro: "The graph shows current validation reports plus planned gaps in the AI-infrastructure chain.",
-                chainGraphCaption: "Solid lines are existing related links; risk-anchor to architecture-check links are dashed. Planned nodes expose coverage gaps only and do not create report cards below.",
+                heroSubtitle: "Decompose AI infrastructure into a value chain with distinct jobs, and track validation and falsification at every layer.",
+                chainGraphIntro: "We are not picking stocks; we decompose AI infrastructure into a value chain with distinct jobs — each column is a layer, each node a report that validates or falsifies it.",
+                chainGraphCaption: "The horizontal chain preserves layer position. When a role is selected, non-matching nodes dim but remain visible so gaps are still legible.",
                 plannedBadge: "Planned",
                 mapHeading: "AI Infrastructure Coverage Map",
                 otherHeading: "Other Coverage",
+                checkHeading: "Cross-Check Logic",
+                checkIntro: "Chain-level if / then rules tie readings across layers together, so no single-point narrative gets over-read.",
+                ifLabel: "IF",
+                thenLabel: "THEN",
+                layerStat: "Chain layers",
+                reportStat: "Reports",
+                roleStat: "Chain roles",
+                checkStat: "Cross-checks",
+                roleFilterLabel: "By role",
+                allRoles: "All",
                 reportCount: "reports",
                 readReport: "Read report",
                 updated: "Updated",
@@ -488,23 +872,16 @@
 
         const state = {
             coverage: null,
-            reports: []
-        };
-
-        const CHAIN_GRAPH_LAYOUT = {
-            marginX: 22,
-            top: 62,
-            laneWidth: 156,
-            nodeWidth: 124,
-            nodeHeight: 56,
-            nodeGap: 12,
-            bottom: 30
+            reports: [],
+            roleFilter: "all",
+            openLayers: {}
         };
 
         let currentLang = chooseInitialLanguage();
 
         document.addEventListener("DOMContentLoaded", async () => {
             bindLanguageSwitch();
+            bindThemeToggle();
             await loadData();
             renderPage();
         });
@@ -538,6 +915,7 @@
             document.documentElement.lang = currentLang === "zh" ? "zh-CN" : "en";
             document.title = labels.documentTitle;
             renderLanguageSwitchUI(currentLang);
+            syncThemeButton();
             syncLanguageQuery(currentLang);
 
             if (!state.coverage) {
@@ -546,22 +924,93 @@
             }
 
             const page = state.coverage.page || {};
+            setText("pageKicker", labels.pageKicker);
             setText("pageTitle", localize(page.title));
-            setText("pageSubtitle", localize(page.subtitle));
+            setText("pageSubtitle", labels.heroSubtitle || localize(page.subtitle));
             setText("chainGraphHeading", labels.chainGraphHeading);
             setText("chainGraphIntro", labels.chainGraphIntro);
             setText("chainGraphCaption", labels.chainGraphCaption);
             setText("mapHeading", labels.mapHeading);
             setText("mapIntro", localize(page.mapIntro));
+            setText("checkHeading", labels.checkHeading);
+            setText("checkIntro", labels.checkIntro);
             setText("otherHeading", labels.otherHeading);
             setText("otherIntro", localize(page.otherIntro));
             setText("disclaimerText", localize(page.disclaimer));
             setText("backToResearch", labels.backToResearch);
             setText("toMonitoring", labels.toMonitoring);
 
+            renderCoverageStats();
+            renderRoleFilters();
             renderChainGraph();
             renderLayers();
+            renderCrossChecks();
             renderOtherCoverage();
+        }
+
+        function chainReports() {
+            return state.reports.filter((report) => report.chainLayer);
+        }
+
+        function roleFilterOptions() {
+            const labels = getLabels();
+            const roles = Array.isArray(state.coverage?.roles) ? state.coverage.roles : [];
+            const orderedRoleIds = ["common-constraint", "risk-anchor", "architecture-check", "dashboard"];
+            const orderedRoles = [
+                ...orderedRoleIds.map((roleId) => roles.find((role) => role.id === roleId)).filter(Boolean),
+                ...roles.filter((role) => !orderedRoleIds.includes(role.id))
+            ];
+            return [
+                { id: "all", label: labels.allRoles },
+                ...orderedRoles.map((role) => ({ id: role.id, label: localize(role.label) }))
+            ];
+        }
+
+        function roleMatches(report) {
+            return state.roleFilter === "all" || report.chainRole === state.roleFilter;
+        }
+
+        function renderCoverageStats() {
+            const root = document.getElementById("coverageStats");
+            if (!root || !state.coverage) return;
+            const labels = getLabels();
+            const reports = chainReports();
+            const roleCount = new Set(reports.map((report) => report.chainRole).filter(Boolean)).size;
+            const stats = [
+                { value: String((Array.isArray(state.coverage.layers) ? state.coverage.layers : []).length), label: labels.layerStat },
+                { value: String(reports.length), label: labels.reportStat },
+                { value: String(roleCount), label: labels.roleStat },
+                { value: String((Array.isArray(state.coverage.crossChecks) ? state.coverage.crossChecks : []).length), label: labels.checkStat }
+            ];
+
+            root.innerHTML = stats.map((stat) => `
+                <div class="research-stat-card">
+                    <div class="research-stat-value">${escapeHtml(stat.value)}</div>
+                    <div class="research-stat-label">${escapeHtml(stat.label)}</div>
+                </div>
+            `).join("");
+        }
+
+        function renderRoleFilters() {
+            const root = document.getElementById("roleFilterBar");
+            if (!root || !state.coverage) return;
+            const labels = getLabels();
+            root.innerHTML = `
+                <span class="research-toolbar-label">${escapeHtml(labels.roleFilterLabel)}</span>
+                ${roleFilterOptions().map((option) => `
+                    <button class="research-chip-btn${option.id === state.roleFilter ? " active" : ""}" type="button" data-role-filter="${escapeHtml(option.id)}" aria-pressed="${option.id === state.roleFilter ? "true" : "false"}">${escapeHtml(option.label)}</button>
+                `).join("")}
+            `;
+            root.querySelectorAll("[data-role-filter]").forEach((button) => {
+                button.addEventListener("click", () => {
+                    const role = button.getAttribute("data-role-filter") || "all";
+                    if (role === state.roleFilter) return;
+                    state.roleFilter = role;
+                    renderRoleFilters();
+                    renderChainGraph();
+                    renderLayers();
+                });
+            });
         }
 
         function renderChainGraph() {
@@ -584,169 +1033,151 @@
                 return;
             }
 
-            const layout = CHAIN_GRAPH_LAYOUT;
-            const maxRows = Math.max(...entries.map((entry) => entry.reports.length + entry.planned.length), 1);
-            const width = Math.max(980, layout.marginX * 2 + entries.length * layout.laneWidth);
-            const height = layout.top + maxRows * (layout.nodeHeight + layout.nodeGap) + layout.bottom;
-            const nodes = [];
-            const nodesByReportId = new Map();
-
-            entries.forEach((entry, laneIndex) => {
-                const x = layout.marginX + laneIndex * layout.laneWidth + layout.laneWidth / 2;
-                const laneNodes = [
-                    ...entry.reports.map((report) => ({ kind: "report", report, layer: entry.layer })),
-                    ...entry.planned.map((item, index) => ({ kind: "planned", item, layer: entry.layer, index }))
-                ];
-
-                laneNodes.forEach((node, rowIndex) => {
-                    const placed = {
-                        ...node,
-                        x,
-                        y: layout.top + rowIndex * (layout.nodeHeight + layout.nodeGap)
-                    };
-                    nodes.push(placed);
-                    if (placed.kind === "report") nodesByReportId.set(placed.report.id, placed);
-                });
-            });
-
-            const edges = collectGraphEdges(chainReports, nodesByReportId);
-            const laneMarkup = entries.map((entry, laneIndex) => renderGraphLane(entry, laneIndex, height)).join("");
-            const edgeMarkup = edges.map(renderGraphEdge).join("");
-            const nodeMarkup = nodes.map(renderGraphNode).join("");
-
             root.innerHTML = `
-                <div class="chain-graph-scroll">
-                    <svg class="chain-graph-svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="chainGraphSvgTitle">
-                        <title id="chainGraphSvgTitle">${escapeHtml(getLabels().chainGraphHeading)}</title>
-                        ${laneMarkup}
-                        ${edgeMarkup}
-                        ${nodeMarkup}
-                    </svg>
+                <div class="chain-board" role="list" aria-label="${escapeHtml(getLabels().chainGraphHeading)}">
+                    ${entries.map(renderBoardLane).join("")}
+                </div>
+            `;
+            renderBoardLegend();
+        }
+
+        function renderBoardLane(entry, laneIndex) {
+            const laneNodes = [
+                ...entry.reports.map((report) => renderBoardReportNode(report)),
+                ...entry.planned.map((item) => renderBoardPlannedNode(item))
+            ].join("");
+            const nodeCount = entry.reports.length + entry.planned.length;
+            const countText = `${layerCode(entry.layer.id)} · ${nodeCount}`;
+
+            return `
+                <div class="chain-lane" role="listitem" data-layer="${escapeHtml(entry.layer.id)}">
+                    <div class="chain-lane-kicker">
+                        <span class="chain-lane-index">${String(laneIndex + 1).padStart(2, "0")}</span>
+                        <span class="chain-lane-dot" aria-hidden="true"></span>
+                    </div>
+                    <div class="chain-lane-title">${escapeHtml(localize(entry.layer.title))}</div>
+                    <div class="chain-lane-count">${escapeHtml(countText)}</div>
+                    <div class="chain-lane-nodes">
+                        ${laneNodes}
+                    </div>
                 </div>
             `;
         }
 
-        function renderGraphLane(entry, laneIndex, height) {
-            const layout = CHAIN_GRAPH_LAYOUT;
-            const x = layout.marginX + laneIndex * layout.laneWidth;
-            const centerX = x + layout.laneWidth / 2;
-            const reportCount = entry.reports.length;
-            const plannedCount = entry.planned.length;
-            const countText = plannedCount
-                ? `${reportCount} + ${plannedCount}`
-                : `${reportCount}`;
-
-            return `
-                <g class="chain-lane" data-layer="${escapeHtml(entry.layer.id)}">
-                    <rect class="chain-lane-bg ${laneIndex % 2 ? "chain-lane-bg-alt" : ""}" x="${x}" y="0" width="${layout.laneWidth}" height="${height}"></rect>
-                    <line class="chain-lane-divider" x1="${x + layout.laneWidth}" y1="0" x2="${x + layout.laneWidth}" y2="${height}"></line>
-                    <text class="chain-lane-label" x="${centerX}" y="24" text-anchor="middle">${escapeHtml(trimGraphText(localize(entry.layer.title), 18))}</text>
-                    <text class="chain-lane-count" x="${centerX}" y="41" text-anchor="middle">${escapeHtml(countText)}</text>
-                </g>
-            `;
-        }
-
-        function renderGraphEdge(edge) {
-            const layout = CHAIN_GRAPH_LAYOUT;
-            const x1 = edge.source.x;
-            const y1 = edge.source.y + layout.nodeHeight / 2;
-            const x2 = edge.target.x;
-            const y2 = edge.target.y + layout.nodeHeight / 2;
-            const className = edge.dashed ? "chain-edge chain-edge-dashed" : "chain-edge";
-
-            if (Math.abs(x2 - x1) < 1) {
-                const offset = 58;
-                return `<path class="${className}" d="M ${x1} ${y1} C ${x1 + offset} ${y1}, ${x2 + offset} ${y2}, ${x2} ${y2}"></path>`;
-            }
-
-            const direction = x2 > x1 ? 1 : -1;
-            const control = Math.max(52, Math.abs(x2 - x1) * 0.38);
-            return `<path class="${className}" d="M ${x1} ${y1} C ${x1 + direction * control} ${y1}, ${x2 - direction * control} ${y2}, ${x2} ${y2}"></path>`;
-        }
-
-        function renderGraphNode(node) {
-            return node.kind === "planned"
-                ? renderPlannedNode(node)
-                : renderReportNode(node);
-        }
-
-        function renderReportNode(node) {
-            const report = node.report;
-            const layout = CHAIN_GRAPH_LAYOUT;
-            const left = node.x - layout.nodeWidth / 2;
-            const top = node.y;
+        function renderBoardReportNode(report) {
             const role = findRole(report.chainRole);
-            const roleLabel = role ? localize(role.label) : "";
-            const title = `${report.company || report.id} (${report.ticker || ""})`;
+            const roleLabel = role ? localize(role.label) : (currentLang === "zh" ? "覆盖" : "Coverage");
+            const mutedClass = roleMatches(report) ? "" : " chain-node-muted";
+            const className = `chain-node-card ${roleClass(report.chainRole)}${mutedClass}`;
+            const title = `${report.company || report.id} · ${shortTicker(report.ticker)}`;
 
             return `
-                <a class="chain-node-link" href="${escapeHtml(reportUrl(report))}">
-                    <g class="chain-node chain-node-report" transform="translate(${left} ${top})">
-                        <title>${escapeHtml(title)}</title>
-                        <rect class="chain-node-rect" x="0" y="0" width="${layout.nodeWidth}" height="${layout.nodeHeight}" rx="8"></rect>
-                        <text class="chain-node-ticker" x="10" y="18">${escapeHtml(trimGraphText(shortTicker(report.ticker), 15))}</text>
-                        <text class="chain-node-name" x="10" y="34">${escapeHtml(trimGraphText(report.company || report.id, 20))}</text>
-                        ${roleLabel ? `<text class="chain-node-role" x="10" y="49">${escapeHtml(trimGraphText(roleLabel, 22))}</text>` : ""}
-                    </g>
+                <a class="${className}" href="${escapeHtml(reportUrl(report))}" title="${escapeHtml(title)}">
+                    <span class="chain-node-ticker">${escapeHtml(shortTicker(report.ticker))}</span>
+                    <span class="chain-node-role">${escapeHtml(roleLabel)}</span>
                 </a>
             `;
         }
 
-        function renderPlannedNode(node) {
-            const layout = CHAIN_GRAPH_LAYOUT;
-            const left = node.x - layout.nodeWidth / 2;
-            const top = node.y;
-            const ticker = node.item.ticker || "";
-            const label = localize(node.item.label) || ticker;
+        function renderBoardPlannedNode(item) {
+            const ticker = item.ticker || "";
+            const label = localize(item.label) || ticker || getLabels().plannedBadge;
 
             return `
-                <g class="chain-node chain-node-planned" transform="translate(${left} ${top})">
-                    <title>${escapeHtml(label)}</title>
-                    <rect class="chain-node-rect" x="0" y="0" width="${layout.nodeWidth}" height="${layout.nodeHeight}" rx="8"></rect>
-                    <text class="chain-node-ticker" x="10" y="18">${escapeHtml(trimGraphText(ticker, 15))}</text>
-                    <text class="chain-node-name" x="10" y="34">${escapeHtml(trimGraphText(label, 20))}</text>
-                    <text class="chain-node-role" x="10" y="49">${escapeHtml(getLabels().plannedBadge)}</text>
-                </g>
+                <span class="chain-node-card chain-node-planned" title="${escapeHtml(label)}">
+                    <span class="chain-node-ticker">${escapeHtml(shortTicker(ticker))}</span>
+                    <span class="chain-node-role">${escapeHtml(getLabels().plannedBadge)}</span>
+                </span>
             `;
         }
 
-        function collectGraphEdges(reports, nodesByReportId) {
-            const reportsById = new Map(reports.map((report) => [report.id, report]));
-            const seen = new Set();
-            const edges = [];
+        function renderBoardLegend() {
+            const caption = document.getElementById("chainGraphCaption");
+            if (!caption || !state.coverage || !Array.isArray(state.coverage.roles)) return;
+            const order = ["common-constraint", "risk-anchor", "architecture-check", "dashboard"];
+            const roles = order
+                .map((roleId) => state.coverage.roles.find((role) => role.id === roleId))
+                .filter(Boolean);
+            const legend = roles.map((role) => `
+                <span class="chain-board-legend-item ${roleClass(role.id)}">
+                    <span class="chain-board-legend-dot" aria-hidden="true"></span>
+                    ${escapeHtml(localize(role.label))}
+                </span>
+            `).join("");
 
-            reports.forEach((sourceReport) => {
-                const related = Array.isArray(sourceReport.related) ? sourceReport.related : [];
-                related.forEach((targetId) => {
-                    const targetReport = reportsById.get(targetId);
-                    if (!targetReport) return;
+            caption.innerHTML = `
+                <span>${escapeHtml(getLabels().chainGraphCaption)}</span>
+                <span class="chain-board-legend">${legend}</span>
+            `;
+        }
 
-                    const key = [sourceReport.id, targetReport.id].sort().join("::");
-                    if (seen.has(key)) return;
-                    seen.add(key);
+        function roleClass(roleId) {
+            if (roleId === "common-constraint") return "role-common-constraint";
+            if (roleId === "risk-anchor") return "role-risk-anchor";
+            if (roleId === "architecture-check") return "role-architecture-check";
+            if (roleId === "dashboard") return "role-dashboard";
+            return "role-coverage";
+        }
 
-                    const source = nodesByReportId.get(sourceReport.id);
-                    const target = nodesByReportId.get(targetReport.id);
-                    if (!source || !target) return;
-
-                    const roles = new Set([sourceReport.chainRole, targetReport.chainRole].filter(Boolean));
-                    edges.push({
-                        source,
-                        target,
-                        dashed: roles.has("risk-anchor") && roles.has("architecture-check")
-                    });
-                });
-            });
-
-            return edges;
+        function layerCode(layerId) {
+            const codes = {
+                "semicap-equipment": "P2",
+                "eda-ip": "P2",
+                foundry: "P1",
+                compute: "P0",
+                "custom-merchant-silicon": "P0",
+                "memory-storage": "P1",
+                networking: "P1",
+                optical: "P1",
+                power: "P1",
+                "datacenter-facility": "P1",
+                resources: "P3",
+                "demand-risk": "P0"
+            };
+            return codes[layerId] || "AI";
         }
 
         function sortGraphReports(reports) {
             return [...reports].sort((left, right) => {
                 const layerDiff = String(left.chainLayer || "").localeCompare(String(right.chainLayer || ""));
                 if (layerDiff) return layerDiff;
+                const rankDiff = reportLayerRank(left) - reportLayerRank(right);
+                if (rankDiff) return rankDiff;
                 return shortTicker(left.ticker).localeCompare(shortTicker(right.ticker), undefined, { numeric: true });
             });
+        }
+
+        function sortLayerReports(reports) {
+            return [...reports].sort((left, right) => {
+                const rankDiff = reportLayerRank(left) - reportLayerRank(right);
+                if (rankDiff) return rankDiff;
+                return shortTicker(left.ticker).localeCompare(shortTicker(right.ticker), undefined, { numeric: true });
+            });
+        }
+
+        function reportLayerRank(report) {
+            const order = preferredTickerOrder(report.chainLayer);
+            const ticker = shortTicker(report.ticker);
+            const index = order.indexOf(ticker);
+            return index === -1 ? 999 : index;
+        }
+
+        function preferredTickerOrder(layerId) {
+            const orders = {
+                "semicap-equipment": ["ASML", "AMAT", "LRCX", "KLAC"],
+                "eda-ip": ["SNPS", "CDNS"],
+                foundry: ["TSM"],
+                compute: ["NVDA", "AMD"],
+                "custom-merchant-silicon": ["AVGO", "MRVL"],
+                "memory-storage": ["MU", "000660", "SNDK"],
+                networking: ["ANET"],
+                optical: ["GLW", "COHR", "AAOI"],
+                power: ["CEG", "VST", "NRG", "GEV", "BE", "OKLO"],
+                "datacenter-facility": ["EQIX", "VRT", "DLR"],
+                resources: ["ALM", "COPX"],
+                "demand-risk": ["CRWV", "NBIS", "META", "ORCL"]
+            };
+            return orders[layerId] || [];
         }
 
         function reportUrl(report) {
@@ -761,10 +1192,25 @@
             return withoutExchange.replace(/\s*\/.*$/, "").trim() || text;
         }
 
-        function trimGraphText(value, maxLength) {
+        function stanceLabel(value) {
+            const labels = {
+                zh: {
+                    "neutral-watch": "中性 · 观察",
+                    "high-risk-watch": "高风险观察",
+                    "bearish-avoid": "看空 · 回避"
+                },
+                en: {
+                    "neutral-watch": "Neutral · Watch",
+                    "high-risk-watch": "High-Risk Watch",
+                    "bearish-avoid": "Bearish · Avoid"
+                }
+            };
+            return labels[currentLang]?.[value] || value || "";
+        }
+
+        function compactDate(value) {
             const text = String(value || "").trim();
-            if (text.length <= maxLength) return text;
-            return `${text.slice(0, Math.max(1, maxLength - 1))}…`;
+            return /^\d{4}-\d{2}/.test(text) ? text.slice(0, 7) : text;
         }
 
         function renderLayers() {
@@ -774,62 +1220,104 @@
             const layers = Array.isArray(state.coverage.layers) ? state.coverage.layers : [];
             const html = layers.map(renderLayer).filter(Boolean).join("");
             root.innerHTML = html || `<div class="empty-state">${escapeHtml(getLabels().emptyLayers)}</div>`;
+            root.querySelectorAll("[data-layer-toggle]").forEach((button) => {
+                button.addEventListener("click", () => {
+                    const layerId = button.dataset.layerToggle;
+                    if (!layerId) return;
+                    state.openLayers[layerId] = state.openLayers[layerId] === false;
+                    renderLayers();
+                });
+            });
         }
 
         function renderLayer(layer) {
-            const layerReports = state.reports.filter((report) => report.chainLayer === layer.id);
+            const layerReports = sortLayerReports(state.reports.filter((report) => report.chainLayer === layer.id && roleMatches(report)));
             if (!layerReports.length) return "";
 
             const labels = getLabels();
             const cards = layerReports.map(renderReportCard).join("");
             const countText = `${layerReports.length} ${labels.reportCount}`;
+            const isOpen = state.openLayers[layer.id] !== false;
 
             return `
-                <article class="layer-panel" data-layer="${escapeHtml(layer.id)}">
-                    <div class="layer-header">
+                <article class="layer-panel ${isOpen ? "is-open" : ""}" data-layer="${escapeHtml(layer.id)}">
+                    <button class="layer-header" type="button" data-layer-toggle="${escapeHtml(layer.id)}" aria-expanded="${isOpen ? "true" : "false"}">
                         <div class="layer-title-group">
-                            <h3 class="layer-title">${escapeHtml(localize(layer.title))}</h3>
+                            <div class="layer-heading-line">
+                                <span class="layer-code">${escapeHtml(layerCode(layer.id))}</span>
+                                <span class="layer-dot" aria-hidden="true"></span>
+                                <h3 class="layer-title">${escapeHtml(localize(layer.title))}</h3>
+                            </div>
                             <p class="layer-description">${escapeHtml(localize(layer.description))}</p>
                         </div>
-                        <span class="layer-count">${escapeHtml(countText)}</span>
-                    </div>
-                    <div class="coverage-card-grid">
-                        ${cards}
-                    </div>
+                        <span class="layer-header-actions">
+                            <span class="layer-count">${escapeHtml(countText)}</span>
+                            <span class="layer-chevron" aria-hidden="true">⌄</span>
+                        </span>
+                    </button>
+                    ${isOpen ? `<div class="coverage-card-grid">${cards}</div>` : ""}
                 </article>
             `;
         }
 
         function renderReportCard(report) {
-            const labels = getLabels();
             const role = findRole(report.chainRole);
             const roleBadge = role
-                ? `<span class="role-badge" title="${escapeHtml(localize(role.description))}">${escapeHtml(localize(role.label))}</span>`
+                ? `<span class="role-badge ${roleClass(report.chainRole)}" title="${escapeHtml(localize(role.description))}">${escapeHtml(localize(role.label))}</span>`
                 : "";
-            const title = currentLang === "en"
-                ? report.titleEn || report.title || report.company
-                : report.title || report.titleEn || report.company;
             const summary = currentLang === "en"
                 ? report.summaryEn || report.summary || ""
                 : report.summary || report.summaryEn || "";
             const href = reportUrl(report);
+            const stance = report.stance || "neutral-watch";
+            const date = compactDate(report.lastUpdate || report.date);
 
             return `
-                <article class="coverage-report-card">
+                <a class="coverage-report-card" href="${escapeHtml(href)}">
                     <div class="coverage-report-main">
                         <div class="coverage-report-meta">
-                            <span class="coverage-company">${escapeHtml(report.company || "")} (${escapeHtml(report.ticker || "")})</span>
+                            <span class="coverage-report-name">
+                                <span class="coverage-report-ticker">${escapeHtml(shortTicker(report.ticker || report.priceSymbol || report.id))}</span>
+                                <span class="coverage-company">${escapeHtml(report.company || report.id)}</span>
+                            </span>
                             ${roleBadge}
                         </div>
-                        <h4 class="coverage-report-title">${escapeHtml(title)}</h4>
                         <p class="coverage-report-summary">${escapeHtml(summary)}</p>
                     </div>
                     <div class="coverage-report-footer">
-                        <a class="read-more" href="${escapeHtml(href)}">${escapeHtml(labels.readReport)}</a>
-                        <span class="update-badge">${escapeHtml(labels.updated)} ${escapeHtml(report.lastUpdate || report.date || "")}</span>
+                        <span class="coverage-stance ${escapeHtml(stance)}">${escapeHtml(stanceLabel(stance))}</span>
+                        <span class="coverage-report-date">${escapeHtml(date)}</span>
+                    </div>
+                </a>
+            `;
+        }
+
+        function renderCrossChecks() {
+            const root = document.getElementById("crossCheckGrid");
+            if (!root) return;
+
+            const checks = Array.isArray(state.coverage?.crossChecks) ? state.coverage.crossChecks : [];
+            if (!checks.length) {
+                root.innerHTML = `<div class="empty-state">${escapeHtml(getLabels().emptyLayers)}</div>`;
+                return;
+            }
+
+            const labels = getLabels();
+            root.innerHTML = checks.map((check) => `
+                <article class="cross-check-card">
+                    <div class="cross-check-inner">
+                        <div>
+                            <span class="cross-check-label">${escapeHtml(labels.ifLabel)}</span>
+                            <p>${escapeHtml(localize(check.if))}</p>
+                        </div>
+                        <div class="cross-check-rule" aria-hidden="true"></div>
+                        <div>
+                            <span class="cross-check-label then">${escapeHtml(labels.thenLabel)}</span>
+                            <p class="then-copy">${escapeHtml(localize(check.then))}</p>
+                        </div>
                     </div>
                 </article>
-            `;
+            `).join("");
         }
 
         function renderOtherCoverage() {
@@ -865,6 +1353,7 @@
             const fallback = `<div class="empty-state">${escapeHtml(message)}</div>`;
             setHtml("chainGraph", fallback);
             setHtml("layerStack", fallback);
+            setHtml("crossCheckGrid", fallback);
             setHtml("otherCoverageList", fallback);
         }
 
@@ -906,6 +1395,44 @@
                     renderPage();
                 });
             });
+        }
+
+        function bindThemeToggle() {
+            const button = document.getElementById("researchThemeToggle");
+            if (!button) return;
+            button.addEventListener("click", () => {
+                const nextTheme = getCurrentTheme() === "dark" ? "light" : "dark";
+                setTheme(nextTheme);
+                syncThemeButton();
+            });
+            syncThemeButton();
+        }
+
+        function getCurrentTheme() {
+            try {
+                return window.localStorage.getItem("pref-theme") === "dark" ? "dark" : "light";
+            } catch (error) {
+                return document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light";
+            }
+        }
+
+        function setTheme(theme) {
+            const normalized = theme === "dark" ? "dark" : "light";
+            document.documentElement.setAttribute("data-theme", normalized);
+            document.body.classList.toggle("dark", normalized === "dark");
+            try {
+                window.localStorage.setItem("pref-theme", normalized);
+            } catch (error) {
+                void error;
+            }
+        }
+
+        function syncThemeButton() {
+            const button = document.getElementById("researchThemeToggle");
+            if (!button) return;
+            const dark = document.documentElement.getAttribute("data-theme") === "dark" || document.body.classList.contains("dark");
+            button.setAttribute("aria-pressed", dark ? "true" : "false");
+            button.setAttribute("aria-label", currentLang === "zh" ? "切换主题" : "Toggle theme");
         }
     </script>
 </body>

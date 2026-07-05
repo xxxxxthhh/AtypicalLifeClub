@@ -1,5 +1,5 @@
 .research-hero {
-    background: linear-gradient(140deg, color-mix(in srgb, var(--entry) 88%, var(--surface-2)), color-mix(in srgb, var(--entry) 88%, var(--surface-3)));
+    padding-bottom: 1.35rem;
 }
 
 .hero-links {

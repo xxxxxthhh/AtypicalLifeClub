@@ -23,6 +23,22 @@ A quiet research command center: information-dense, bilingual, and deliberately 
 | Accent/soft | `--accent-soft` | `rgba(47, 111, 237, 0.12)` | `rgba(121, 164, 255, 0.22)` | Active controls, selected chips |
 | Accent/secondary | `--accent-alt` | `#0f9d8c` | `#59c8b9` | Rare secondary structural accent |
 
+### Coverage Map Handoff Tokens
+
+The `coverage-map.html` reference uses a tighter standalone research canvas. Page-scoped coverage tokens may override the shared shell on that route:
+
+| Role | Token | Light | Dark | Usage |
+|------|-------|-------|------|-------|
+| Coverage/page | `--coverage-bg` | `#f5f6f9` | `#0d0f13` | Coverage map background |
+| Coverage/panel | `--coverage-panel` | `#ffffff` | `#161a20` | Header, hero, lanes, cards |
+| Coverage/raised panel | `--coverage-panel-2` | `#fbfcfe` | `#1b2027` | Node cards and secondary card bodies |
+| Coverage/ink | `--coverage-ink` | `#14171c` | `#eceef1` | Primary titles on the coverage route |
+| Coverage/body | `--coverage-ink-2` | `#3b4048` | `#c3c7ce` | Dense card copy on the coverage route |
+| Coverage/muted | `--coverage-muted` | `#6b7079` | `#8a8f98` | Metadata, captions, inactive controls |
+| Coverage/faint | `--coverage-faint` | `#a7abb3` | `#565b63` | Breadcrumb separators and lane indices |
+| Coverage/line | `--coverage-line` | `#e7e9ee` | `#272c34` | Handoff-style dividers and panel borders |
+| Coverage/grid | `--coverage-grid` | `rgba(20, 24, 32, 0.045)` | `rgba(255, 255, 255, 0.04)` | 26px hero grid overlay |
+
 ### Rules
 
 - Do not encode investment judgment with red, green, amber, or stance-colored visuals.
@@ -95,9 +111,38 @@ All spacing is based on the existing 4px rhythm.
 ### Inline SVG Data View
 
 - **Structure**: one SVG in a named module container with text fallback/loading state.
-- **Variants**: freshness strip, next-check timeline, chain graph, density matrix support.
+- **Variants**: freshness strip, next-check timeline, density matrix support.
 - **States**: loading/error handled by the parent page; hover/focus through links or clickable SVG groups.
 - **Accessibility**: each SVG has a localized heading/description nearby and per-mark `<title>` tooltips.
+
+### Coverage Chain Board
+
+- **Structure**: horizontally scrolling lane board with 180px layer lanes, mono lane index, layer code, node cards, and a compact role legend.
+- **Variants**: current report node, planned gap node, dimmed non-matching role node.
+- **States**: role filter preserves all lane positions while lowering opacity on non-matching nodes; links keep hover/focus affordance.
+- **Accessibility**: board uses real DOM links and list semantics, not a rasterized graph or screenshot.
+
+### Research Command Hero
+
+- **Structure**: bordered hero panel with a mono kicker, title, explanatory copy, and a compact stat grid.
+- **Surface**: tonal panel with a faint 26px grid overlay using `--surface-2`, `--surface-3`, and `--border`.
+- **Variants**: research index, coverage map, monitoring dashboard, report detail.
+- **States**: loading stats use `--` placeholders; no stance colors or market-signal colors in the hero.
+- **Accessibility**: stats are plain text, not icons; hero text must remain readable with Chinese and English copy.
+
+### Research Role Filter
+
+- **Structure**: inline button group above chain/map views.
+- **Variants**: all, common constraint, risk anchor, architecture check, dashboard.
+- **States**: active uses `--accent-soft` and `--accent`; inactive uses bordered neutral chips; focus rings are visible.
+- **Behavior**: filtering may dim graph nodes and reduce card lists, but should not imply positive/negative investment judgment.
+
+### Module Reader Shell
+
+- **Structure**: sticky left module navigation, segmented reading-mode controls, one bordered report panel, and module sections.
+- **Variants**: module view, full report, previous archive, diff comparison.
+- **States**: active module uses accent-soft tonal fill; missing modules remain visible but muted.
+- **Accessibility**: module buttons update the URL query and remain keyboard operable.
 
 ## 6. Motion & Interaction
 

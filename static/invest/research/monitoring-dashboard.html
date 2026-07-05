@@ -9,8 +9,12 @@
     <link rel="stylesheet" href="/invest/styles.css">
     <link rel="stylesheet" href="/invest/research/styles.css">
     <style>
+        body.monitoring-page {
+            --research-shell-width: 1200px;
+        }
+
         .monitor-hero {
-            background: linear-gradient(140deg, color-mix(in srgb, var(--entry) 86%, var(--surface-2)), color-mix(in srgb, var(--entry) 88%, var(--surface-3)));
+            padding-bottom: 1.35rem;
         }
 
         .monitor-hero-top {
@@ -28,6 +32,14 @@
             flex: 0 0 auto;
         }
 
+        .monitoring-page .section {
+            margin-top: 2.4rem;
+            padding: 0;
+            border: 0;
+            border-radius: 0;
+            background: transparent;
+        }
+
         .monitor-section-header {
             display: grid;
             gap: 0.35rem;
@@ -41,9 +53,32 @@
         }
 
         .fact-note {
-            margin-top: 0.4rem;
-            font-size: 0.8rem;
-            color: var(--secondary);
+            margin-top: 0.6rem;
+        }
+
+        .monitoring-page .research-stat-card {
+            display: grid;
+            gap: 0.42rem;
+            border-radius: 12px;
+            background: color-mix(in srgb, var(--entry) 78%, transparent);
+            padding: 0.82rem 0.9rem;
+        }
+
+        .monitoring-page .research-stat-value {
+            order: 2;
+            color: var(--primary);
+            font-size: 1.72rem;
+            letter-spacing: 0;
+        }
+
+        .monitoring-page .research-stat-label {
+            order: 1;
+            margin: 0;
+            font-family: var(--research-mono);
+            font-size: 0.66rem;
+            font-weight: 750;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
         }
 
         /* --- shared chips (all deliberately neutral: factual board, no status colors) --- */
@@ -723,7 +758,7 @@
         }
     </style>
 </head>
-<body>
+<body class="research-reference-page monitoring-page">
     <header class="shell-header">
         <div class="shell-header-inner">
             <div class="shell-brand">
@@ -736,36 +771,44 @@
                 </div>
                 <span class="shell-brand-subtitle">Book-Level Monitoring Dashboard</span>
             </div>
-            <nav class="shell-nav">
-                <a href="/invest/">返回 Invest</a>
-                <a href="/invest/research/">Research</a>
-                <a href="/invest/research/coverage-map.html">Coverage Map</a>
-                <a href="/invest/research/monitoring-dashboard.html" class="active">Monitoring</a>
+            <nav class="shell-nav" aria-label="Page controls">
+                <div class="lang-switch" id="languageSwitch" role="group" aria-label="Language switch">
+                    <button class="lang-opt active" type="button" data-lang="zh" aria-pressed="true">中文</button>
+                    <span class="divider">/</span>
+                    <button class="lang-opt" type="button" data-lang="en" aria-pressed="false">EN</button>
+                </div>
+                <button class="research-theme-toggle" id="researchThemeToggle" type="button" aria-label="切换主题">
+                    <span class="research-theme-mark" aria-hidden="true"></span>
+                </button>
             </nav>
         </div>
     </header>
 
     <main class="shell">
-        <section class="hero monitor-hero">
-            <div class="monitor-hero-top">
-                <div class="monitor-hero-copy">
+        <section class="hero research-command-hero monitor-hero">
+            <div class="research-hero-top monitor-hero-top">
+                <div class="research-hero-copy monitor-hero-copy">
+                    <div class="research-hero-kicker" id="pageKicker">BOOK MONITORING · RESEARCH</div>
                     <h1 class="hero-title" id="pageTitle">全书监控仪表盘</h1>
                     <p class="hero-subtitle" id="pageSubtitle">把每篇链上报告的判断、数据新鲜度与关键证伪条件放在同一页。</p>
-                    <p class="fact-note" id="factNote">事实看板：仅展示各报告已发布的触发条件与最新读数，不作红绿灯式信号判断。</p>
-                </div>
-                <div class="monitor-actions">
-                    <div class="lang-switch" id="languageSwitch" role="group" aria-label="Language switch">
-                        <button class="lang-opt active" type="button" data-lang="zh" aria-pressed="true">中文</button>
-                        <span class="divider">/</span>
-                        <button class="lang-opt" type="button" data-lang="en" aria-pressed="false">EN</button>
+                    <p class="fact-note research-fact-note" id="factNote">事实看板：仅展示各报告已发布的触发条件与最新读数，不作红绿灯式信号判断。</p>
+                    <div class="research-hero-stat-grid" id="monitorStats" aria-label="Monitoring dashboard statistics">
+                        <div class="research-stat-card">
+                            <div class="research-stat-value">--</div>
+                            <div class="research-stat-label">Loading</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="section">
-            <div class="monitor-section-header">
-                <h2 id="verdictHeading">Verdict Board</h2>
+            <div class="monitor-section-header research-section-header">
+                <div class="research-section-titlebar">
+                    <span class="research-section-number">01</span>
+                    <h2 id="verdictHeading">Verdict Board</h2>
+                    <span class="research-section-rule" aria-hidden="true"></span>
+                </div>
                 <p id="verdictIntro">按链条层级列出每篇报告的公开立场、价格快照日期与所反映的财报期。</p>
             </div>
             <div class="viz-module" id="freshnessStrip">
@@ -777,8 +820,12 @@
         </section>
 
         <section class="section" id="stanceLedgerSection">
-            <div class="monitor-section-header">
-                <h2 id="stanceLedgerHeading">Stance Ledger</h2>
+            <div class="monitor-section-header research-section-header">
+                <div class="research-section-titlebar">
+                    <span class="research-section-number">02</span>
+                    <h2 id="stanceLedgerHeading">Stance Ledger</h2>
+                    <span class="research-section-rule" aria-hidden="true"></span>
+                </div>
                 <p id="stanceLedgerIntro">按报告记录价格基准、最新收盘与自报告以来变化；缺价或沿用旧价不折算为零漂移。</p>
             </div>
             <div class="stance-ledger-scroll" id="stanceLedger">
@@ -787,8 +834,12 @@
         </section>
 
         <section class="section" id="rerunQueueSection">
-            <div class="monitor-section-header">
-                <h2 id="rerunQueueHeading">Rerun Queue</h2>
+            <div class="monitor-section-header research-section-header">
+                <div class="research-section-titlebar">
+                    <span class="research-section-number alt">03</span>
+                    <h2 id="rerunQueueHeading">Rerun Queue</h2>
+                    <span class="research-section-rule" aria-hidden="true"></span>
+                </div>
                 <p id="rerunQueueIntro">队列只排序复核工作：年龄 / 60 + 漂移 / 25；人工决定是否重跑，不自动触发。</p>
             </div>
             <div class="rerun-queue" id="rerunQueue">
@@ -797,8 +848,12 @@
         </section>
 
         <section class="section" id="radarSection">
-            <div class="monitor-section-header">
-                <h2 id="radarHeading">Cross-Check Radar</h2>
+            <div class="monitor-section-header research-section-header">
+                <div class="research-section-titlebar">
+                    <span class="research-section-number alt">04</span>
+                    <h2 id="radarHeading">Cross-Check Radar</h2>
+                    <span class="research-section-rule" aria-hidden="true"></span>
+                </div>
                 <p id="radarIntro">覆盖地图的链级 if/then 校验规则与实际观察到的链级事件放在同一屏：规则在上，信号记录按日期倒序。</p>
             </div>
             <div class="radar-stack" id="radarStack">
@@ -807,8 +862,12 @@
         </section>
 
         <section class="section" id="nextCheckSection">
-            <div class="monitor-section-header">
-                <h2 id="nextCheckHeading">Next-Check Timeline</h2>
+            <div class="monitor-section-header research-section-header">
+                <div class="research-section-titlebar">
+                    <span class="research-section-number">05</span>
+                    <h2 id="nextCheckHeading">Next-Check Timeline</h2>
+                    <span class="research-section-rule" aria-hidden="true"></span>
+                </div>
                 <p id="nextCheckIntro">按月份排列所有可定期复核的监控项；事件驱动项保留为独立入口。</p>
             </div>
             <div class="viz-module" id="nextCheckTimeline">
@@ -817,8 +876,12 @@
         </section>
 
         <section class="section">
-            <div class="monitor-section-header">
-                <h2 id="criteriaHeading">Kill-Criteria Board</h2>
+            <div class="monitor-section-header research-section-header">
+                <div class="research-section-titlebar">
+                    <span class="research-section-number">06</span>
+                    <h2 id="criteriaHeading">Kill-Criteria Board</h2>
+                    <span class="research-section-rule" aria-hidden="true"></span>
+                </div>
                 <p id="criteriaIntro">所有报告的监控项汇总为一张可筛选清单：指标、触发条件、最新读数与下次核查节点。</p>
             </div>
             <div class="board-controls">
@@ -839,16 +902,24 @@
         </section>
 
         <section class="section" id="themeMatrixSection">
-            <div class="monitor-section-header">
-                <h2 id="matrixHeading">Theme × Layer Matrix</h2>
+            <div class="monitor-section-header research-section-header">
+                <div class="research-section-titlebar">
+                    <span class="research-section-number alt">07</span>
+                    <h2 id="matrixHeading">Theme × Layer Matrix</h2>
+                    <span class="research-section-rule" aria-hidden="true"></span>
+                </div>
                 <p id="matrixIntro">按主题和链条层级查看监控注意力密度；计数跟随当前论点方向筛选。</p>
             </div>
             <div id="themeLayerMatrix"></div>
         </section>
 
         <section class="section">
-            <div class="monitor-section-header">
-                <h2 id="spotlightHeading">Risk-Anchor Spotlight</h2>
+            <div class="monitor-section-header research-section-header">
+                <div class="research-section-titlebar">
+                    <span class="research-section-number alt">08</span>
+                    <h2 id="spotlightHeading">Risk-Anchor Spotlight</h2>
+                    <span class="research-section-rule" aria-hidden="true"></span>
+                </div>
                 <p id="spotlightIntro">风险锚与其架构校验对照组并排：同层两份报告的监控项互为读数。</p>
             </div>
             <div class="spotlight-grid" id="spotlightGrid"></div>
@@ -876,9 +947,14 @@
         const PAGE_LABELS = {
             zh: {
                 documentTitle: "全书监控仪表盘 | Atypical Life Club",
+                pageKicker: "全书监控 · 研究台账",
                 pageTitle: "全书监控仪表盘",
                 pageSubtitle: "把每篇链上报告的判断、数据新鲜度与关键证伪条件放在同一页。",
                 factNote: "事实看板：仅展示各报告已发布的触发条件与最新读数，不作红绿灯式信号判断。",
+                chainReportsStat: "链上报告",
+                monitoringItemsStat: "监控项",
+                rerunStat: "复核候选",
+                signalStat: "信号记录",
                 verdictHeading: "判断与新鲜度总览",
                 verdictIntro: "按链条层级列出每篇报告的公开立场、价格快照日期与所反映的财报期。",
                 freshnessCaption: "价格快照日期越靠左越早；圆点只表达日期，不表达好坏。",
@@ -967,9 +1043,14 @@
             },
             en: {
                 documentTitle: "Book-Level Monitoring Dashboard | Atypical Life Club",
+                pageKicker: "Book Monitoring · Research Ledger",
                 pageTitle: "Book-Level Monitoring Dashboard",
                 pageSubtitle: "Every chain report's published stance, data freshness, and thesis-breaking checks on one page.",
                 factNote: "Factual board: shows each report's published triggers and latest readings only — no traffic-light status judgments.",
+                chainReportsStat: "Chain reports",
+                monitoringItemsStat: "Monitor items",
+                rerunStat: "Rerun candidates",
+                signalStat: "Signals",
                 verdictHeading: "Verdict Board",
                 verdictIntro: "Each report's published stance, price-snapshot date, and reported fiscal period, grouped by chain layer.",
                 freshnessCaption: "Older price snapshots sit farther left; dots encode date only, not quality.",
@@ -1074,6 +1155,7 @@
 
         document.addEventListener("DOMContentLoaded", async () => {
             bindLanguageSwitch();
+            bindThemeToggle();
             bindBoardControls();
             await loadData();
             renderPage();
@@ -1139,8 +1221,10 @@
             document.documentElement.lang = currentLang === "zh" ? "zh-CN" : "en";
             document.title = labels.documentTitle;
             renderLanguageSwitchUI(currentLang);
+            syncThemeButton();
             syncLanguageQuery(currentLang);
 
+            setText("pageKicker", labels.pageKicker);
             setText("pageTitle", labels.pageTitle);
             setText("pageSubtitle", labels.pageSubtitle);
             setText("factNote", labels.factNote);
@@ -1168,6 +1252,7 @@
             setText("disclaimerText", labels.disclaimer);
             setText("backToResearch", labels.backToResearch);
             setText("toCoverageMap", labels.toCoverageMap);
+            renderMonitorStats();
 
             if (state.loadFailed) {
                 document.getElementById("freshnessStrip").innerHTML = `<div class="empty-state">${escapeHtml(labels.loadError)}</div>`;
@@ -1191,6 +1276,32 @@
             renderCriteriaBoard();
             renderThemeLayerMatrix();
             renderSpotlight();
+        }
+
+        function renderMonitorStats() {
+            const root = document.getElementById("monitorStats");
+            if (!root) return;
+            const labels = getLabels();
+            const monitoringCount = state.chainReports.reduce((sum, report) => {
+                const items = Array.isArray(report.monitoring) ? report.monitoring : [];
+                return sum + items.length;
+            }, 0);
+            const rerunCount = state.chainReports
+                .map(rerunItem)
+                .filter((item) => item && item.isCandidate)
+                .length;
+            const stats = [
+                { value: String(state.chainReports.length), label: labels.chainReportsStat },
+                { value: String(monitoringCount), label: labels.monitoringItemsStat },
+                { value: String(rerunCount), label: labels.rerunStat },
+                { value: String(state.signals.length), label: labels.signalStat }
+            ];
+            root.innerHTML = stats.map((stat) => `
+                <div class="research-stat-card">
+                    <div class="research-stat-value">${escapeHtml(stat.value)}</div>
+                    <div class="research-stat-label">${escapeHtml(stat.label)}</div>
+                </div>
+            `).join("");
         }
 
         function reportUrl(report) {
@@ -2075,6 +2186,44 @@
                     renderPage();
                 });
             });
+        }
+
+        function bindThemeToggle() {
+            const button = document.getElementById("researchThemeToggle");
+            if (!button) return;
+            button.addEventListener("click", () => {
+                const nextTheme = getCurrentTheme() === "dark" ? "light" : "dark";
+                setTheme(nextTheme);
+                syncThemeButton();
+            });
+            syncThemeButton();
+        }
+
+        function getCurrentTheme() {
+            try {
+                return window.localStorage.getItem("pref-theme") === "dark" ? "dark" : "light";
+            } catch (error) {
+                return document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light";
+            }
+        }
+
+        function setTheme(theme) {
+            const normalized = theme === "dark" ? "dark" : "light";
+            document.documentElement.setAttribute("data-theme", normalized);
+            document.body.classList.toggle("dark", normalized === "dark");
+            try {
+                window.localStorage.setItem("pref-theme", normalized);
+            } catch (error) {
+                void error;
+            }
+        }
+
+        function syncThemeButton() {
+            const button = document.getElementById("researchThemeToggle");
+            if (!button) return;
+            const dark = document.documentElement.getAttribute("data-theme") === "dark" || document.body.classList.contains("dark");
+            button.setAttribute("aria-pressed", dark ? "true" : "false");
+            button.setAttribute("aria-label", currentLang === "zh" ? "切换主题" : "Toggle theme");
         }
     </script>
 </body>
