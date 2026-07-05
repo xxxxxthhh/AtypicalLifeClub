@@ -27,6 +27,8 @@ SIGNALS_JSON: Final = ROOT / "data" / "signals.json"
 COVERAGE_HTML: Final = ROOT / "coverage-map.html"
 
 EXPECTED_LAYERS: Final = [
+    "semicap-equipment",
+    "eda-ip",
     "foundry",
     "compute",
     "custom-merchant-silicon",

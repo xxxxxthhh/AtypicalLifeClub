@@ -23,6 +23,28 @@
   },
   "layers": [
     {
+      "id": "semicap-equipment",
+      "title": {
+        "zh": "半导体设备",
+        "en": "Semicap Equipment"
+      },
+      "description": {
+        "zh": "光刻、沉积、刻蚀、过程控制与先进封装设备，用来检验 AI 资本开支是否真正进入工具订单和交付瓶颈。",
+        "en": "Lithography, deposition, etch, process control, and advanced-packaging tools test whether AI capex is truly entering equipment orders and delivery bottlenecks."
+      }
+    },
+    {
+      "id": "eda-ip",
+      "title": {
+        "zh": "EDA 与 IP",
+        "en": "EDA and IP"
+      },
+      "description": {
+        "zh": "设计自动化、验证、仿真与半导体 IP，用来验证架构复杂度、AI 芯片设计启动和先进节点迁移。",
+        "en": "Design automation, verification, simulation, and semiconductor IP validate architecture complexity, AI chip design starts, and advanced-node migration."
+      }
+    },
+    {
       "id": "foundry",
       "title": {
         "zh": "晶圆代工",
@@ -179,7 +201,56 @@
       }
     }
   ],
-  "planned": [],
+  "planned": [
+    {
+      "ticker": "ASML",
+      "layer": "semicap-equipment",
+      "label": {
+        "zh": "ASML 光刻与 EUV/High-NA 公共约束缺口",
+        "en": "ASML lithography and EUV/High-NA common-constraint gap"
+      }
+    },
+    {
+      "ticker": "AMAT",
+      "layer": "semicap-equipment",
+      "label": {
+        "zh": "AMAT 沉积/刻蚀/先进封装设备缺口",
+        "en": "AMAT deposition/etch/advanced-packaging equipment gap"
+      }
+    },
+    {
+      "ticker": "LRCX",
+      "layer": "semicap-equipment",
+      "label": {
+        "zh": "LRCX 刻蚀与沉积设备缺口",
+        "en": "LRCX etch and deposition equipment gap"
+      }
+    },
+    {
+      "ticker": "KLAC",
+      "layer": "semicap-equipment",
+      "label": {
+        "zh": "KLAC 过程控制与良率仪表盘缺口",
+        "en": "KLAC process-control and yield-dashboard gap"
+      }
+    },
+    {
+      "ticker": "SNPS",
+      "layer": "eda-ip",
+      "label": {
+        "zh": "SNPS EDA/IP 与 Ansys 集成缺口",
+        "en": "SNPS EDA/IP and Ansys integration gap"
+      }
+    },
+    {
+      "ticker": "CDNS",
+      "layer": "eda-ip",
+      "label": {
+        "zh": "CDNS EDA/IP、backlog 与 AI 设计流缺口",
+        "en": "CDNS EDA/IP, backlog, and AI design-flow gap"
+      }
+    }
+  ],
   "crossChecks": [
     {
       "id": "chip-vs-downstream",
