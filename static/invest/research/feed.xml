@@ -6,6 +6,20 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>NRG Energy 深度研究报告 - AI 电力需求是否穿透到 merchant gas 与零售电力 / NRG Energy Deep Research Report - Does AI Power Demand Reach Merchant Gas and Retail Power?</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=nrg-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=nrg-2026#nrg-2026@2026-07-05</guid>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施 power 层的 merchant + retail dashboard：NRG 不是核电 PPA 纯标的，而是用 LS Power 后约 25GW 发电平台、CPower 约 6GW C&amp;I VPP、Texas/PJM capacity 与 Reliant/Vivint 零售/家庭服务来验证数据中心电力需求是否扩散到普通 merchant capacity。2026Q1 收入 $10.26B、GAAP 净利润 $125M、调整后 EBITDA $1.08B、FCFbG -$66M；2026 指引调整后 EBITDA $5.325-5.825B、调整后 EPS $7.90-9.90、FCFbG $2.8-3.3B。LS Power 交易约 $12.0B enterprise value、18 座燃气电厂、约 13GW、CPower 约 6GW 和 2,000+ C&amp;I 客户，已经反映在 2026 业绩口径中。当前 $136.70（2026-07-02 收盘）、市值约 $28.8B、EV 约 $52.7B，约 15.4x 2026 调整后 EPS 指引中点、约 9.4x 2026 调整后 EBITDA 指引中点。高风险观察：NRG 披露的是数据中心/large-load optionality，尚不是具名 hyperscaler PPA，核心监控是合同转化、ERCOT/PJM 容量价格、零售/Vivint margin 与去杠杆。</description>
+    </item>
+    <item>
+      <title>Equinix 深度研究报告 - AI 数据中心设施层的互联溢价仪表盘 / Equinix Deep Research Report - The Interconnection-Premium Dashboard for AI Data-Center Facilities</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=eqix-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=eqix-2026#eqix-2026@2026-07-05</guid>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施 datacenter-facility 层的 DLR 对照组：EQIX 用 Platform Equinix interconnection、retail colocation、xScale JV 和 AFFO/share 来验证 AI 需求是否不只是 hyperscale shell leasing。2026Q1 收入 $2.444B（reported YoY +10%）、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；MRR 同比 +12% reported / +10% normalized constant currency，annualized gross bookings $378M，annualized presales 约 $140M，largest deals 约 60% AI-related。2025 年报披露 280 个数据中心、10,500+ 客户、507,000+ interconnections，Q1 2026 interconnection revenue $446M。当前 $1,002.02（2026-07-02）、市值约 $98.8B、EV 约 $120.8B，约 23.5x 2026 AFFO/share 指引中点、约 11.9x 2026 revenue 指引。中性观察：质量高但估值高，关键监控是 interconnection revenue、AI bookings/presales、xScale economics、MRR/cabinet yield 与 power availability。</description>
+    </item>
+    <item>
       <title>Constellation Energy 深度研究报告 - AI 电力约束的核电与 Calpine 综合电力锚 / Constellation Energy Deep Research Report - Nuclear and Calpine Integrated Power Anchor for AI</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=constellation-energy-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=constellation-energy-2026#constellation-energy-2026@2026-07-05</guid>

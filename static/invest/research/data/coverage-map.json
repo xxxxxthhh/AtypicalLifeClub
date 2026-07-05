@@ -179,24 +179,7 @@
       }
     }
   ],
-  "planned": [
-    {
-      "ticker": "NRG",
-      "layer": "power",
-      "label": {
-        "zh": "NRG 商业电力与零售电力缺口",
-        "en": "NRG merchant and retail power gap"
-      }
-    },
-    {
-      "ticker": "EQIX",
-      "layer": "datacenter-facility",
-      "label": {
-        "zh": "EQIX 互联与零售托管缺口",
-        "en": "EQIX interconnection and retail colocation gap"
-      }
-    }
-  ],
+  "planned": [],
   "crossChecks": [
     {
       "id": "chip-vs-downstream",

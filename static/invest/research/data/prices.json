@@ -2,6 +2,30 @@
   "generatedAt": "2026-07-05",
   "entries": [
     {
+      "reportId": "nrg-2026",
+      "symbol": "NRG",
+      "status": "ok",
+      "attemptedAt": "2026-07-05",
+      "baseDate": "2026-07-02",
+      "basePrice": 136.7,
+      "lastDate": "2026-07-02",
+      "lastClose": 136.7,
+      "changePct": 0.0,
+      "currency": "USD"
+    },
+    {
+      "reportId": "eqix-2026",
+      "symbol": "EQIX",
+      "status": "ok",
+      "attemptedAt": "2026-07-05",
+      "baseDate": "2026-07-02",
+      "basePrice": 1002.02,
+      "lastDate": "2026-07-02",
+      "lastClose": 1002.02,
+      "changePct": 0.0,
+      "currency": "USD"
+    },
+    {
       "reportId": "nebius-2026",
       "symbol": "NBIS",
       "status": "ok",
