@@ -29,14 +29,14 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 The business question is where ASML Holding sits in the AI infrastructure value chain. The original report already established the key point: this is a semiconductor equipment common constraint, so the company matters only insofar as its orders, revenue mix, balance sheet, and monitoring items confirm or falsify the wider chain.
 
-P2 设备层公共约束：ASML 用 EUV/High-NA、backlog、installed-base service 和出口管制验证 AI capex 是否进入最硬工具瓶颈
+P2 equipment-layer common constraint: ASML uses EUV/High-NA, backlog, installed-base service and export controls to test whether AI capex is entering the hardest tool bottleneck.
 
 | Chain variable | Evidence from current fact base | Research implication |
 | --- | --- | --- |
 | Layer job | semicap-equipment / common-constraint | Defines what this report is allowed to prove |
-| Demand signal | P2 设备层公共约束：ASML 用 EUV/High-NA、backlog、installed-base service 和出口管制验证 AI capex 是否进入最硬工具瓶颈 | Should confirm real AI-infrastructure pull-through |
-| Financial anchor | Q1 2026 net sales EUR 8.767B、gross margin 53.0%、net income EUR 2.757B；FY2026 指引 EUR 36-40B net sales、51-53% gross margin | Must be visible in revenue, margin, backlog, or cash flow |
-| Valuation anchor | Q4 2025 net bookings EUR 13.158B，其中 EUV EUR 7.4B；2025 年末 backlog EUR 38.797B | Sets the tolerance for disappointment |
+| Demand signal | P2 equipment-layer common constraint: ASML uses EUV/High-NA, backlog, installed-base service and export controls to test whether AI capex is entering the hardest tool bottleneck | Should confirm real AI-infrastructure pull-through |
+| Financial anchor | Q1 2026 net sales EUR 8.767B, gross margin 53.0%, net income EUR 2.757B; FY2026 guidance EUR 36-40B net sales and 51-53% gross margin | Must be visible in revenue, margin, backlog, or cash flow |
+| Valuation anchor | Q4 2025 net bookings EUR 13.158B, including EUR 7.4B EUV; year-end 2025 backlog EUR 38.797B | Sets the tolerance for disappointment |
 | Cross-check job | Compare with adjacent reports and coverage-map crossChecks | Prevents one-company storytelling |
 
 ## 2. Industry And Competition
@@ -58,10 +58,10 @@ The financial section converts the prose fact base into a repeatable scorecard. 
 
 | Area | Current evidence | Read-through | Grade |
 | --- | --- | --- | --- |
-| Revenue / demand | Q1 2026 net sales EUR 8.767B、gross margin 53.0%、net income EUR 2.757B；FY2026 指引 EUR 36-40B net sales、51-53% gross margin | Confirms whether the chain signal is visible in reported numbers | A-/B+ |
+| Revenue / demand | Q1 2026 net sales EUR 8.767B, gross margin 53.0%, net income EUR 2.757B; FY2026 guidance EUR 36-40B net sales and 51-53% gross margin | Confirms whether the chain signal is visible in reported numbers | A-/B+ |
 | Margin / profitability | Use the current reported period and company-disclosed margin or EPS figures in the source notes | Tests whether growth is profitable or merely volume-led | B+ |
 | Cash flow / balance sheet | Debt, cash, FCF, AFFO, EBITDA, or buyback context preserved from the original report where disclosed | Determines whether the company can fund the cycle | B |
-| Backlog / bookings / RPO | Q4 2025 net bookings EUR 13.158B，其中 EUV EUR 7.4B；2025 年末 backlog EUR 38.797B | Separates committed demand from narrative demand | B+ |
+| Backlog / bookings / RPO | Q4 2025 net bookings EUR 13.158B, including EUR 7.4B EUV; year-end 2025 backlog EUR 38.797B | Separates committed demand from narrative demand | B+ |
 | Valuation tolerance | Current price context: $1,769.32 | High expectation names need cleaner execution | Caution |
 
 ## 4. Management And Caliber Check
@@ -83,8 +83,8 @@ The bull case is the strongest version of why the report's chain signal could st
 
 | Bull driver | Evidence | What would make it stronger |
 | --- | --- | --- |
-| Demand pull-through | P2 设备层公共约束：ASML 用 EUV/High-NA、backlog、installed-base service 和出口管制验证 AI capex 是否进入最硬工具瓶颈 | Next reported period confirms the same direction |
-| Financial conversion | Q1 2026 net sales EUR 8.767B、gross margin 53.0%、net income EUR 2.757B；FY2026 指引 EUR 36-40B net sales、51-53% gross margin | Revenue converts into margin, cash flow, or backlog |
+| Demand pull-through | P2 equipment-layer common constraint: ASML uses EUV/High-NA, backlog, installed-base service and export controls to test whether AI capex is entering the hardest tool bottleneck | Next reported period confirms the same direction |
+| Financial conversion | Q1 2026 net sales EUR 8.767B, gross margin 53.0%, net income EUR 2.757B; FY2026 guidance EUR 36-40B net sales and 51-53% gross margin | Revenue converts into margin, cash flow, or backlog |
 | Cross-check support | AMAT, LRCX, KLAC | Adjacent reports move in the same direction |
 | Valuation resilience | Base price context $1,769.32; bull context $2,211.65 | The multiple holds because fundamentals continue to validate |
 

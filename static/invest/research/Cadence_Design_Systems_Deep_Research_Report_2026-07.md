@@ -29,14 +29,14 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 The business question is where Cadence Design Systems sits in the AI infrastructure value chain. The original report already established the key point: this is a EDA/IP dashboard, so the company matters only insofar as its orders, revenue mix, balance sheet, and monitoring items confirm or falsify the wider chain.
 
-补齐 EDA/IP backlog 仪表盘：CDNS 验证 AI 复杂度是否进入 backlog、RPO、IP 和 agentic design flow
+EDA/IP backlog-dashboard fill-in: CDNS tests whether AI complexity is entering backlog, RPO, IP and agentic design flows.
 
 | Chain variable | Evidence from current fact base | Research implication |
 | --- | --- | --- |
 | Layer job | eda-ip / dashboard | Defines what this report is allowed to prove |
-| Demand signal | 补齐 EDA/IP backlog 仪表盘：CDNS 验证 AI 复杂度是否进入 backlog、RPO、IP 和 agentic design flow | Should confirm real AI-infrastructure pull-through |
+| Demand signal | EDA/IP backlog-dashboard fill-in: CDNS tests whether AI complexity is entering backlog, RPO, IP and agentic design flows | Should confirm real AI-infrastructure pull-through |
 | Financial anchor | Q1 2026 revenue $1.474B、non-GAAP operating margin 44.7%、non-GAAP EPS $1.96 | Must be visible in revenue, margin, backlog, or cash flow |
-| Valuation anchor | 季度末 backlog $8.0B，next-12-month RPO revenue $4.0B；IP revenue 同比 +22% | Sets the tolerance for disappointment |
+| Valuation anchor | Quarter-end backlog $8.0B, next-12-month RPO revenue $4.0B; IP revenue +22% YoY | Sets the tolerance for disappointment |
 | Cross-check job | Compare with adjacent reports and coverage-map crossChecks | Prevents one-company storytelling |
 
 ## 2. Industry And Competition
@@ -61,7 +61,7 @@ The financial section converts the prose fact base into a repeatable scorecard. 
 | Revenue / demand | Q1 2026 revenue $1.474B、non-GAAP operating margin 44.7%、non-GAAP EPS $1.96 | Confirms whether the chain signal is visible in reported numbers | A-/B+ |
 | Margin / profitability | Use the current reported period and company-disclosed margin or EPS figures in the source notes | Tests whether growth is profitable or merely volume-led | B+ |
 | Cash flow / balance sheet | Debt, cash, FCF, AFFO, EBITDA, or buyback context preserved from the original report where disclosed | Determines whether the company can fund the cycle | B |
-| Backlog / bookings / RPO | 季度末 backlog $8.0B，next-12-month RPO revenue $4.0B；IP revenue 同比 +22% | Separates committed demand from narrative demand | B+ |
+| Backlog / bookings / RPO | Quarter-end backlog $8.0B, next-12-month RPO revenue $4.0B; IP revenue +22% YoY | Separates committed demand from narrative demand | B+ |
 | Valuation tolerance | Current price context: $373.14 | High expectation names need cleaner execution | Caution |
 
 ## 4. Management And Caliber Check
@@ -83,7 +83,7 @@ The bull case is the strongest version of why the report's chain signal could st
 
 | Bull driver | Evidence | What would make it stronger |
 | --- | --- | --- |
-| Demand pull-through | 补齐 EDA/IP backlog 仪表盘：CDNS 验证 AI 复杂度是否进入 backlog、RPO、IP 和 agentic design flow | Next reported period confirms the same direction |
+| Demand pull-through | EDA/IP backlog-dashboard fill-in: CDNS tests whether AI complexity is entering backlog, RPO, IP and agentic design flows | Next reported period confirms the same direction |
 | Financial conversion | Q1 2026 revenue $1.474B、non-GAAP operating margin 44.7%、non-GAAP EPS $1.96 | Revenue converts into margin, cash flow, or backlog |
 | Cross-check support | SNPS, TSM, AVGO | Adjacent reports move in the same direction |
 | Valuation resilience | Base price context $373.14; bull context $466.42 | The multiple holds because fundamentals continue to validate |

@@ -29,14 +29,14 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 The business question is where Coherent sits in the AI infrastructure value chain. The original report already established the key point: this is a optical connectivity dashboard, so the company matters only insofar as its orders, revenue mix, balance sheet, and monitoring items confirm or falsify the wider chain.
 
-补齐 optical 层核心大票：COHR 用高速光连接、激光器、InP/SiPh、CPO/NPO 和光电路交换验证 AI 集群带宽需求是否穿透到光层
+Optical-layer core large-cap fill-in: COHR uses high-speed optical connectivity, lasers, InP/SiPh, CPO/NPO and optical circuit switching to test whether AI-cluster bandwidth demand is reaching the optical layer.
 
 | Chain variable | Evidence from current fact base | Research implication |
 | --- | --- | --- |
 | Layer job | optical / dashboard | Defines what this report is allowed to prove |
-| Demand signal | 补齐 optical 层核心大票：COHR 用高速光连接、激光器、InP/SiPh、CPO/NPO 和光电路交换验证 AI 集群带宽需求是否穿透到光层 | Should confirm real AI-infrastructure pull-through |
-| Financial anchor | Q3 FY2026 收入 $1.81B（+21% YoY；pro forma +27%）、非 GAAP 毛利率 39.6%、非 GAAP EPS $1.41；Datacenter & Communications 约 $1.362B，占 pro forma 收入约 75%，同比约 +41% | Must be visible in revenue, margin, backlog, or cash flow |
-| Valuation anchor | NVIDIA 2026-03 宣布向 Coherent 投资 $2B，并包含多年、数十亿美元采购承诺和未来产能访问权；Coherent 路线包含 1.6T/3.2T/6.4T ZR/ZR+ 与 CPO/NPO 引擎 | Sets the tolerance for disappointment |
+| Demand signal | Optical-layer core large-cap fill-in: COHR uses high-speed optical connectivity, lasers, InP/SiPh, CPO/NPO and optical circuit switching to test whether AI-cluster bandwidth demand is reaching the optical layer | Should confirm real AI-infrastructure pull-through |
+| Financial anchor | Q3 FY2026 revenue $1.81B (+21% YoY; pro forma +27%), non-GAAP gross margin 39.6%, non-GAAP EPS $1.41; Datacenter & Communications about $1.362B, roughly 75% of pro forma revenue and about +41% YoY | Must be visible in revenue, margin, backlog, or cash flow |
+| Valuation anchor | NVIDIA announced a $2B investment in Coherent in Mar 2026, including multi-year, multi-billion-dollar purchase commitments and future capacity access rights; Coherent's roadmap includes 1.6T/3.2T/6.4T ZR/ZR+ and CPO/NPO engines | Sets the tolerance for disappointment |
 | Cross-check job | Compare with adjacent reports and coverage-map crossChecks | Prevents one-company storytelling |
 
 ## 2. Industry And Competition
@@ -58,10 +58,10 @@ The financial section converts the prose fact base into a repeatable scorecard. 
 
 | Area | Current evidence | Read-through | Grade |
 | --- | --- | --- | --- |
-| Revenue / demand | Q3 FY2026 收入 $1.81B（+21% YoY；pro forma +27%）、非 GAAP 毛利率 39.6%、非 GAAP EPS $1.41；Datacenter & Communications 约 $1.362B，占 pro forma 收入约 75%，同比约 +41% | Confirms whether the chain signal is visible in reported numbers | A-/B+ |
+| Revenue / demand | Q3 FY2026 revenue $1.81B (+21% YoY; pro forma +27%), non-GAAP gross margin 39.6%, non-GAAP EPS $1.41; Datacenter & Communications about $1.362B, roughly 75% of pro forma revenue and about +41% YoY | Confirms whether the chain signal is visible in reported numbers | A-/B+ |
 | Margin / profitability | Use the current reported period and company-disclosed margin or EPS figures in the source notes | Tests whether growth is profitable or merely volume-led | B+ |
 | Cash flow / balance sheet | Debt, cash, FCF, AFFO, EBITDA, or buyback context preserved from the original report where disclosed | Determines whether the company can fund the cycle | B |
-| Backlog / bookings / RPO | NVIDIA 2026-03 宣布向 Coherent 投资 $2B，并包含多年、数十亿美元采购承诺和未来产能访问权；Coherent 路线包含 1.6T/3.2T/6.4T ZR/ZR+ 与 CPO/NPO 引擎 | Separates committed demand from narrative demand | B+ |
+| Backlog / bookings / RPO | NVIDIA announced a $2B investment in Coherent in Mar 2026, including multi-year, multi-billion-dollar purchase commitments and future capacity access rights; Coherent's roadmap includes 1.6T/3.2T/6.4T ZR/ZR+ and CPO/NPO engines | Separates committed demand from narrative demand | B+ |
 | Valuation tolerance | Current price context: $333.36 | High expectation names need cleaner execution | Caution |
 
 ## 4. Management And Caliber Check
@@ -83,8 +83,8 @@ The bull case is the strongest version of why the report's chain signal could st
 
 | Bull driver | Evidence | What would make it stronger |
 | --- | --- | --- |
-| Demand pull-through | 补齐 optical 层核心大票：COHR 用高速光连接、激光器、InP/SiPh、CPO/NPO 和光电路交换验证 AI 集群带宽需求是否穿透到光层 | Next reported period confirms the same direction |
-| Financial conversion | Q3 FY2026 收入 $1.81B（+21% YoY；pro forma +27%）、非 GAAP 毛利率 39.6%、非 GAAP EPS $1.41；Datacenter & Communications 约 $1.362B，占 pro forma 收入约 75%，同比约 +41% | Revenue converts into margin, cash flow, or backlog |
+| Demand pull-through | Optical-layer core large-cap fill-in: COHR uses high-speed optical connectivity, lasers, InP/SiPh, CPO/NPO and optical circuit switching to test whether AI-cluster bandwidth demand is reaching the optical layer | Next reported period confirms the same direction |
+| Financial conversion | Q3 FY2026 revenue $1.81B (+21% YoY; pro forma +27%), non-GAAP gross margin 39.6%, non-GAAP EPS $1.41; Datacenter & Communications about $1.362B, roughly 75% of pro forma revenue and about +41% YoY | Revenue converts into margin, cash flow, or backlog |
 | Cross-check support | AAOI, GLW, ANET | Adjacent reports move in the same direction |
 | Valuation resilience | Base price context $333.36; bull context $416.70 | The multiple holds because fundamentals continue to validate |
 
@@ -107,10 +107,10 @@ The bearish read should not ignore quality. It asks whether quality is already c
 
 | Uncertainty | Why it matters | When to revisit |
 | --- | --- | --- |
-| NVIDIA optical purchase-commitment conversion | multi-year, multi-billion-dollar purchase commitments convert into backlog, revenue and capacity prepayments | FY2026 Q4 财报与订单披露 / Q4 earnings and order disclosures |
+| NVIDIA optical purchase-commitment conversion | multi-year, multi-billion-dollar purchase commitments convert into backlog, revenue and capacity prepayments | Q4 earnings and order disclosures |
 | Datacenter & Communications revenue mix | datacenter communications revenue keeps growing without diluting gross margin | FY2026 Q4 segment mix |
-| InP and 6-inch platform capacity | internal InP output doubles by year-end and more than doubles again by 2027 with yield/margin improvement, or the ramp slips | 产能与毛利更新 / capacity and margin update |
-| CPO/NPO and 1.6T+ roadmap conversion | 1.6T/3.2T/6.4T ZR/ZR+, CPO/NPO and optical circuit switching enter the new-revenue phase | 产品出货与客户平台公告 / product shipments and customer-platform announcements |
+| InP and 6-inch platform capacity | internal InP output doubles by year-end and more than doubles again by 2027 with yield/margin improvement, or the ramp slips | capacity and margin update |
+| CPO/NPO and 1.6T+ roadmap conversion | 1.6T/3.2T/6.4T ZR/ZR+, CPO/NPO and optical circuit switching enter the new-revenue phase | product shipments and customer-platform announcements |
 | Valuation and FCF tolerance | growth relies on negative FCF, inventory/receivable build or capex expansion while the multiple stays elevated | FY2026 Q4 cash flow and working capital |
 
 Thesis breakers:
@@ -136,10 +136,10 @@ The key valuation question is whether the next evidence set increases the denomi
 
 | Monitor | Latest reading | Trigger | Next check |
 | --- | --- | --- | --- |
-| NVIDIA optical purchase-commitment conversion | NVIDIA announced a $2B investment in Mar 2026 with future capacity access rights | multi-year, multi-billion-dollar purchase commitments convert into backlog, revenue and capacity prepayments | FY2026 Q4 财报与订单披露 / Q4 earnings and order disclosures |
+| NVIDIA optical purchase-commitment conversion | NVIDIA announced a $2B investment in Mar 2026 with future capacity access rights | multi-year, multi-billion-dollar purchase commitments convert into backlog, revenue and capacity prepayments | Q4 earnings and order disclosures |
 | Datacenter & Communications revenue mix | Q3 about $1.362B, roughly 75% of pro forma revenue and about +41% YoY | datacenter communications revenue keeps growing without diluting gross margin | FY2026 Q4 segment mix |
-| InP and 6-inch platform capacity | company says the 6-inch platform produces EMLs, CW lasers and photodiodes | internal InP output doubles by year-end and more than doubles again by 2027 with yield/margin improvement, or the ramp slips | 产能与毛利更新 / capacity and margin update |
-| CPO/NPO and 1.6T+ roadmap conversion | company materials point to H2 2026/H1 2027 as new-growth windows | 1.6T/3.2T/6.4T ZR/ZR+, CPO/NPO and optical circuit switching enter the new-revenue phase | 产品出货与客户平台公告 / product shipments and customer-platform announcements |
+| InP and 6-inch platform capacity | company says the 6-inch platform produces EMLs, CW lasers and photodiodes | internal InP output doubles by year-end and more than doubles again by 2027 with yield/margin improvement, or the ramp slips | capacity and margin update |
+| CPO/NPO and 1.6T+ roadmap conversion | company materials point to H2 2026/H1 2027 as new-growth windows | 1.6T/3.2T/6.4T ZR/ZR+, CPO/NPO and optical circuit switching enter the new-revenue phase | product shipments and customer-platform announcements |
 | Valuation and FCF tolerance | Q3 FCF -$383M; about $65.2B market cap and about 10.1x EV/TTM sales | growth relies on negative FCF, inventory/receivable build or capex expansion while the multiple stays elevated | FY2026 Q4 cash flow and working capital |
 
 These are the items that should drive future reruns. A monitoring update should change the report only when it changes the chain read-through or the valuation tolerance.

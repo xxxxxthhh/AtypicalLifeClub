@@ -29,14 +29,14 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 The business question is where Equinix sits in the AI infrastructure value chain. The original report already established the key point: this is a data-center facility dashboard, so the company matters only insofar as its orders, revenue mix, balance sheet, and monitoring items confirm or falsify the wider chain.
 
-补齐 datacenter-facility 层 DLR 对照组：EQIX 验证 AI 需求是否穿透到 interconnection、retail colocation、xScale JV 和 AFFO/share，而不只是 hyperscale leasing
+Data-center-facility layer DLR counterpart fill-in: EQIX tests whether AI demand reaches interconnection, retail colocation, xScale JVs and AFFO/share, not only hyperscale leasing.
 
 | Chain variable | Evidence from current fact base | Research implication |
 | --- | --- | --- |
 | Layer job | datacenter-facility / dashboard | Defines what this report is allowed to prove |
-| Demand signal | 补齐 datacenter-facility 层 DLR 对照组：EQIX 验证 AI 需求是否穿透到 interconnection、retail colocation、xScale JV 和 AFFO/share，而不只是 hyperscale leasing | Should confirm real AI-infrastructure pull-through |
-| Financial anchor | 2026Q1 收入 $2.444B、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；全年 AFFO/share 指引 $42.31-$43.11 | Must be visible in revenue, margin, backlog, or cash flow |
-| Valuation anchor | MRR 同比 +12% reported / +10% normalized constant currency；Q1 annualized gross bookings $378M、annualized presales 约 $140M、largest deals 约 60% AI-related | Sets the tolerance for disappointment |
+| Demand signal | Data-center-facility layer DLR counterpart fill-in: EQIX tests whether AI demand reaches interconnection, retail colocation, xScale JVs and AFFO/share, not only hyperscale leasing | Should confirm real AI-infrastructure pull-through |
+| Financial anchor | Q1 2026 revenue $2.444B, operating income $577M, net income $415M, adjusted EBITDA $1.245B, AFFO/share $10.79; full-year AFFO/share guidance $42.31-$43.11 | Must be visible in revenue, margin, backlog, or cash flow |
+| Valuation anchor | MRR +12% reported / +10% normalized constant-currency YoY; Q1 annualized gross bookings $378M, annualized presales about $140M, largest deals about 60% AI-related | Sets the tolerance for disappointment |
 | Cross-check job | Compare with adjacent reports and coverage-map crossChecks | Prevents one-company storytelling |
 
 ## 2. Industry And Competition
@@ -58,10 +58,10 @@ The financial section converts the prose fact base into a repeatable scorecard. 
 
 | Area | Current evidence | Read-through | Grade |
 | --- | --- | --- | --- |
-| Revenue / demand | 2026Q1 收入 $2.444B、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；全年 AFFO/share 指引 $42.31-$43.11 | Confirms whether the chain signal is visible in reported numbers | A-/B+ |
+| Revenue / demand | Q1 2026 revenue $2.444B, operating income $577M, net income $415M, adjusted EBITDA $1.245B, AFFO/share $10.79; full-year AFFO/share guidance $42.31-$43.11 | Confirms whether the chain signal is visible in reported numbers | A-/B+ |
 | Margin / profitability | Use the current reported period and company-disclosed margin or EPS figures in the source notes | Tests whether growth is profitable or merely volume-led | B+ |
 | Cash flow / balance sheet | Debt, cash, FCF, AFFO, EBITDA, or buyback context preserved from the original report where disclosed | Determines whether the company can fund the cycle | B |
-| Backlog / bookings / RPO | MRR 同比 +12% reported / +10% normalized constant currency；Q1 annualized gross bookings $378M、annualized presales 约 $140M、largest deals 约 60% AI-related | Separates committed demand from narrative demand | B+ |
+| Backlog / bookings / RPO | MRR +12% reported / +10% normalized constant-currency YoY; Q1 annualized gross bookings $378M, annualized presales about $140M, largest deals about 60% AI-related | Separates committed demand from narrative demand | B+ |
 | Valuation tolerance | Current price context: $1,002.02 | High expectation names need cleaner execution | Caution |
 
 ## 4. Management And Caliber Check
@@ -83,8 +83,8 @@ The bull case is the strongest version of why the report's chain signal could st
 
 | Bull driver | Evidence | What would make it stronger |
 | --- | --- | --- |
-| Demand pull-through | 补齐 datacenter-facility 层 DLR 对照组：EQIX 验证 AI 需求是否穿透到 interconnection、retail colocation、xScale JV 和 AFFO/share，而不只是 hyperscale leasing | Next reported period confirms the same direction |
-| Financial conversion | 2026Q1 收入 $2.444B、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；全年 AFFO/share 指引 $42.31-$43.11 | Revenue converts into margin, cash flow, or backlog |
+| Demand pull-through | Data-center-facility layer DLR counterpart fill-in: EQIX tests whether AI demand reaches interconnection, retail colocation, xScale JVs and AFFO/share, not only hyperscale leasing | Next reported period confirms the same direction |
+| Financial conversion | Q1 2026 revenue $2.444B, operating income $577M, net income $415M, adjusted EBITDA $1.245B, AFFO/share $10.79; full-year AFFO/share guidance $42.31-$43.11 | Revenue converts into margin, cash flow, or backlog |
 | Cross-check support | DLR, VRT, ORCL | Adjacent reports move in the same direction |
 | Valuation resilience | Base price context $1,002.02; bull context $1,252.53 | The multiple holds because fundamentals continue to validate |
 

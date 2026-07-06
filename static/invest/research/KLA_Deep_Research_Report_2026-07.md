@@ -29,14 +29,14 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 The business question is where KLA sits in the AI infrastructure value chain. The original report already established the key point: this is a semiconductor equipment dashboard, so the company matters only insofar as its orders, revenue mix, balance sheet, and monitoring items confirm or falsify the wider chain.
 
-补齐过程控制/良率仪表盘：KLAC 验证 AI 扩产是否能变成可制造产能
+Process-control/yield dashboard fill-in: KLAC tests whether AI capacity expansion can become manufacturable capacity.
 
 | Chain variable | Evidence from current fact base | Research implication |
 | --- | --- | --- |
 | Layer job | semicap-equipment / dashboard | Defines what this report is allowed to prove |
-| Demand signal | 补齐过程控制/良率仪表盘：KLAC 验证 AI 扩产是否能变成可制造产能 | Should confirm real AI-infrastructure pull-through |
+| Demand signal | Process-control/yield dashboard fill-in: KLAC tests whether AI capacity expansion can become manufacturable capacity | Should confirm real AI-infrastructure pull-through |
 | Financial anchor | FY2026 Q3 revenue $3.416B，Semiconductor Process Control revenue $3.084B | Must be visible in revenue, margin, backlog, or cash flow |
-| Valuation anchor | 季度 FCF $622.3M，LTM FCF $4.01B；新增 $7B 回购授权 | Sets the tolerance for disappointment |
+| Valuation anchor | Quarterly FCF $622.3M, LTM FCF $4.01B; new $7B buyback authorization | Sets the tolerance for disappointment |
 | Cross-check job | Compare with adjacent reports and coverage-map crossChecks | Prevents one-company storytelling |
 
 ## 2. Industry And Competition
@@ -61,7 +61,7 @@ The financial section converts the prose fact base into a repeatable scorecard. 
 | Revenue / demand | FY2026 Q3 revenue $3.416B，Semiconductor Process Control revenue $3.084B | Confirms whether the chain signal is visible in reported numbers | A-/B+ |
 | Margin / profitability | Use the current reported period and company-disclosed margin or EPS figures in the source notes | Tests whether growth is profitable or merely volume-led | B+ |
 | Cash flow / balance sheet | Debt, cash, FCF, AFFO, EBITDA, or buyback context preserved from the original report where disclosed | Determines whether the company can fund the cycle | B |
-| Backlog / bookings / RPO | 季度 FCF $622.3M，LTM FCF $4.01B；新增 $7B 回购授权 | Separates committed demand from narrative demand | B+ |
+| Backlog / bookings / RPO | Quarterly FCF $622.3M, LTM FCF $4.01B; new $7B buyback authorization | Separates committed demand from narrative demand | B+ |
 | Valuation tolerance | Current price context: $235.55 | High expectation names need cleaner execution | Caution |
 
 ## 4. Management And Caliber Check
@@ -83,7 +83,7 @@ The bull case is the strongest version of why the report's chain signal could st
 
 | Bull driver | Evidence | What would make it stronger |
 | --- | --- | --- |
-| Demand pull-through | 补齐过程控制/良率仪表盘：KLAC 验证 AI 扩产是否能变成可制造产能 | Next reported period confirms the same direction |
+| Demand pull-through | Process-control/yield dashboard fill-in: KLAC tests whether AI capacity expansion can become manufacturable capacity | Next reported period confirms the same direction |
 | Financial conversion | FY2026 Q3 revenue $3.416B，Semiconductor Process Control revenue $3.084B | Revenue converts into margin, cash flow, or backlog |
 | Cross-check support | ASML, AMAT, LRCX | Adjacent reports move in the same direction |
 | Valuation resilience | Base price context $235.55; bull context $294.44 | The multiple holds because fundamentals continue to validate |

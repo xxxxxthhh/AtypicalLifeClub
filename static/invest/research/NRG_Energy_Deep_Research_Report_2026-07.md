@@ -29,14 +29,14 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 The business question is where NRG Energy sits in the AI infrastructure value chain. The original report already established the key point: this is a power and energy dashboard, so the company matters only insofar as its orders, revenue mix, balance sheet, and monitoring items confirm or falsify the wider chain.
 
-补齐 power 层 merchant + retail dashboard：NRG 验证 AI/data-center 电力需求是否从核电 PPA 扩散到燃气容量、C&I VPP、ERCOT/PJM 容量市场和零售电力
+Power-layer merchant + retail dashboard fill-in: NRG tests whether AI/data-center power demand is spreading from nuclear PPAs into gas capacity, C&I VPP, ERCOT/PJM capacity markets and retail power.
 
 | Chain variable | Evidence from current fact base | Research implication |
 | --- | --- | --- |
 | Layer job | power / dashboard | Defines what this report is allowed to prove |
-| Demand signal | 补齐 power 层 merchant + retail dashboard：NRG 验证 AI/data-center 电力需求是否从核电 PPA 扩散到燃气容量、C&I VPP、ERCOT/PJM 容量市场和零售电力 | Should confirm real AI-infrastructure pull-through |
-| Financial anchor | LS Power 交易约 $12.0B enterprise value，增加 18 座燃气电厂、约 13GW，并带入 CPower 约 6GW C&I VPP 平台和 2,000+ C&I 客户；总发电容量扩大到约 25GW | Must be visible in revenue, margin, backlog, or cash flow |
-| Valuation anchor | 2026Q1 收入 $10.26B、GAAP 净利润 $125M、调整后 EBITDA $1.08B、FCFbG -$66M；2026 指引调整后 EBITDA $5.325-5.825B、调整后 EPS $7.90-9.90、FCFbG $2.8-3.3B | Sets the tolerance for disappointment |
+| Demand signal | Power-layer merchant + retail dashboard fill-in: NRG tests whether AI/data-center power demand is spreading from nuclear PPAs into gas capacity, C&I VPP, ERCOT/PJM capacity markets and retail power | Should confirm real AI-infrastructure pull-through |
+| Financial anchor | LS Power transaction at about $12.0B enterprise value adds 18 gas plants, about 13GW, CPower's roughly 6GW C&I VPP platform and 2,000+ C&I customers; total generation capacity expands to about 25GW | Must be visible in revenue, margin, backlog, or cash flow |
+| Valuation anchor | Q1 2026 revenue $10.26B, GAAP net income $125M, adjusted EBITDA $1.08B, FCFbG -$66M; 2026 guidance adjusted EBITDA $5.325-5.825B, adjusted EPS $7.90-9.90, FCFbG $2.8-3.3B | Sets the tolerance for disappointment |
 | Cross-check job | Compare with adjacent reports and coverage-map crossChecks | Prevents one-company storytelling |
 
 ## 2. Industry And Competition
@@ -58,10 +58,10 @@ The financial section converts the prose fact base into a repeatable scorecard. 
 
 | Area | Current evidence | Read-through | Grade |
 | --- | --- | --- | --- |
-| Revenue / demand | LS Power 交易约 $12.0B enterprise value，增加 18 座燃气电厂、约 13GW，并带入 CPower 约 6GW C&I VPP 平台和 2,000+ C&I 客户；总发电容量扩大到约 25GW | Confirms whether the chain signal is visible in reported numbers | A-/B+ |
+| Revenue / demand | LS Power transaction at about $12.0B enterprise value adds 18 gas plants, about 13GW, CPower's roughly 6GW C&I VPP platform and 2,000+ C&I customers; total generation capacity expands to about 25GW | Confirms whether the chain signal is visible in reported numbers | A-/B+ |
 | Margin / profitability | Use the current reported period and company-disclosed margin or EPS figures in the source notes | Tests whether growth is profitable or merely volume-led | B+ |
 | Cash flow / balance sheet | Debt, cash, FCF, AFFO, EBITDA, or buyback context preserved from the original report where disclosed | Determines whether the company can fund the cycle | B |
-| Backlog / bookings / RPO | 2026Q1 收入 $10.26B、GAAP 净利润 $125M、调整后 EBITDA $1.08B、FCFbG -$66M；2026 指引调整后 EBITDA $5.325-5.825B、调整后 EPS $7.90-9.90、FCFbG $2.8-3.3B | Separates committed demand from narrative demand | B+ |
+| Backlog / bookings / RPO | Q1 2026 revenue $10.26B, GAAP net income $125M, adjusted EBITDA $1.08B, FCFbG -$66M; 2026 guidance adjusted EBITDA $5.325-5.825B, adjusted EPS $7.90-9.90, FCFbG $2.8-3.3B | Separates committed demand from narrative demand | B+ |
 | Valuation tolerance | Current price context: $136.70 | High expectation names need cleaner execution | Caution |
 
 ## 4. Management And Caliber Check
@@ -83,8 +83,8 @@ The bull case is the strongest version of why the report's chain signal could st
 
 | Bull driver | Evidence | What would make it stronger |
 | --- | --- | --- |
-| Demand pull-through | 补齐 power 层 merchant + retail dashboard：NRG 验证 AI/data-center 电力需求是否从核电 PPA 扩散到燃气容量、C&I VPP、ERCOT/PJM 容量市场和零售电力 | Next reported period confirms the same direction |
-| Financial conversion | LS Power 交易约 $12.0B enterprise value，增加 18 座燃气电厂、约 13GW，并带入 CPower 约 6GW C&I VPP 平台和 2,000+ C&I 客户；总发电容量扩大到约 25GW | Revenue converts into margin, cash flow, or backlog |
+| Demand pull-through | Power-layer merchant + retail dashboard fill-in: NRG tests whether AI/data-center power demand is spreading from nuclear PPAs into gas capacity, C&I VPP, ERCOT/PJM capacity markets and retail power | Next reported period confirms the same direction |
+| Financial conversion | LS Power transaction at about $12.0B enterprise value adds 18 gas plants, about 13GW, CPower's roughly 6GW C&I VPP platform and 2,000+ C&I customers; total generation capacity expands to about 25GW | Revenue converts into margin, cash flow, or backlog |
 | Cross-check support | CEG, VST, GEV | Adjacent reports move in the same direction |
 | Valuation resilience | Base price context $136.70; bull context $170.88 | The multiple holds because fundamentals continue to validate |
 

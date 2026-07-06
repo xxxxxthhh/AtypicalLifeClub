@@ -29,14 +29,14 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 The business question is where Digital Realty sits in the AI infrastructure value chain. The original report already established the key point: this is a data-center facility dashboard, so the company matters only insofar as its orders, revenue mix, balance sheet, and monitoring items confirm or falsify the wider chain.
 
-补齐 datacenter-facility 层租赁校验：DLR 把上游 chip/neocloud/buildout 叙事接到真实租约、backlog、cross-connects 和开发容量
+Data-center-facility leasing-check fill-in: DLR connects upstream chip/neocloud/buildout narratives to real leases, backlog, cross-connects and development capacity.
 
 | Chain variable | Evidence from current fact base | Research implication |
 | --- | --- | --- |
 | Layer job | datacenter-facility / dashboard | Defines what this report is allowed to prove |
-| Demand signal | 补齐 datacenter-facility 层租赁校验：DLR 把上游 chip/neocloud/buildout 叙事接到真实租约、backlog、cross-connects 和开发容量 | Should confirm real AI-infrastructure pull-through |
-| Financial anchor | Q1 2026 收入 $1.64B、Core FFO/share $2.04、AFFO/share $1.92；2026 Core FFO/share 指引上调至 $8.00-$8.10 | Must be visible in revenue, margin, backlog, or cash flow |
-| Valuation anchor | Q1 bookings $707M（100% share）/$423M（DLR share），其中 0-1MW + interconnection $98M、同比 +42%；backlog $1.8B（100% share）/$1.0B（DLR share），开租滞后 19 个月 | Sets the tolerance for disappointment |
+| Demand signal | Data-center-facility leasing-check fill-in: DLR connects upstream chip/neocloud/buildout narratives to real leases, backlog, cross-connects and development capacity | Should confirm real AI-infrastructure pull-through |
+| Financial anchor | Q1 2026 revenue $1.64B, Core FFO/share $2.04, AFFO/share $1.92; 2026 Core FFO/share guidance raised to $8.00-$8.10 | Must be visible in revenue, margin, backlog, or cash flow |
+| Valuation anchor | Q1 bookings $707M (100% share) / $423M (DLR share), including $98M from 0-1MW + interconnection (+42% YoY); backlog $1.8B (100% share) / $1.0B (DLR share), with a 19-month lease-commencement lag | Sets the tolerance for disappointment |
 | Cross-check job | Compare with adjacent reports and coverage-map crossChecks | Prevents one-company storytelling |
 
 ## 2. Industry And Competition
@@ -58,10 +58,10 @@ The financial section converts the prose fact base into a repeatable scorecard. 
 
 | Area | Current evidence | Read-through | Grade |
 | --- | --- | --- | --- |
-| Revenue / demand | Q1 2026 收入 $1.64B、Core FFO/share $2.04、AFFO/share $1.92；2026 Core FFO/share 指引上调至 $8.00-$8.10 | Confirms whether the chain signal is visible in reported numbers | A-/B+ |
+| Revenue / demand | Q1 2026 revenue $1.64B, Core FFO/share $2.04, AFFO/share $1.92; 2026 Core FFO/share guidance raised to $8.00-$8.10 | Confirms whether the chain signal is visible in reported numbers | A-/B+ |
 | Margin / profitability | Use the current reported period and company-disclosed margin or EPS figures in the source notes | Tests whether growth is profitable or merely volume-led | B+ |
 | Cash flow / balance sheet | Debt, cash, FCF, AFFO, EBITDA, or buyback context preserved from the original report where disclosed | Determines whether the company can fund the cycle | B |
-| Backlog / bookings / RPO | Q1 bookings $707M（100% share）/$423M（DLR share），其中 0-1MW + interconnection $98M、同比 +42%；backlog $1.8B（100% share）/$1.0B（DLR share），开租滞后 19 个月 | Separates committed demand from narrative demand | B+ |
+| Backlog / bookings / RPO | Q1 bookings $707M (100% share) / $423M (DLR share), including $98M from 0-1MW + interconnection (+42% YoY); backlog $1.8B (100% share) / $1.0B (DLR share), with a 19-month lease-commencement lag | Separates committed demand from narrative demand | B+ |
 | Valuation tolerance | Current price context: $173.30 | High expectation names need cleaner execution | Caution |
 
 ## 4. Management And Caliber Check
@@ -83,8 +83,8 @@ The bull case is the strongest version of why the report's chain signal could st
 
 | Bull driver | Evidence | What would make it stronger |
 | --- | --- | --- |
-| Demand pull-through | 补齐 datacenter-facility 层租赁校验：DLR 把上游 chip/neocloud/buildout 叙事接到真实租约、backlog、cross-connects 和开发容量 | Next reported period confirms the same direction |
-| Financial conversion | Q1 2026 收入 $1.64B、Core FFO/share $2.04、AFFO/share $1.92；2026 Core FFO/share 指引上调至 $8.00-$8.10 | Revenue converts into margin, cash flow, or backlog |
+| Demand pull-through | Data-center-facility leasing-check fill-in: DLR connects upstream chip/neocloud/buildout narratives to real leases, backlog, cross-connects and development capacity | Next reported period confirms the same direction |
+| Financial conversion | Q1 2026 revenue $1.64B, Core FFO/share $2.04, AFFO/share $1.92; 2026 Core FFO/share guidance raised to $8.00-$8.10 | Revenue converts into margin, cash flow, or backlog |
 | Cross-check support | EQIX, VRT, ORCL | Adjacent reports move in the same direction |
 | Valuation resilience | Base price context $173.30; bull context $216.62 | The multiple holds because fundamentals continue to validate |
 

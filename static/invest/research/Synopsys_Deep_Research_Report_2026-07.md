@@ -29,14 +29,14 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 The business question is where Synopsys sits in the AI infrastructure value chain. The original report already established the key point: this is a EDA/IP common constraint, so the company matters only insofar as its orders, revenue mix, balance sheet, and monitoring items confirm or falsify the wider chain.
 
-补齐 EDA/IP 公共约束：SNPS 验证 AI design starts 与复杂度是否进入 design automation、verification、simulation 和 IP
+EDA/IP common-constraint fill-in: SNPS tests whether AI design starts and complexity are reaching design automation, verification, simulation and IP.
 
 | Chain variable | Evidence from current fact base | Research implication |
 | --- | --- | --- |
 | Layer job | eda-ip / common-constraint | Defines what this report is allowed to prove |
-| Demand signal | 补齐 EDA/IP 公共约束：SNPS 验证 AI design starts 与复杂度是否进入 design automation、verification、simulation 和 IP | Should confirm real AI-infrastructure pull-through |
-| Financial anchor | FY2026 Q2 revenue $2.276B、non-GAAP EPS $3.35；FY2026 revenue 指引 $9.625-9.705B | Must be visible in revenue, margin, backlog, or cash flow |
-| Valuation anchor | FY2026 指引包含约 $2.96B Ansys revenue，且假设没有进一步 export-control / Entity List 变化 | Sets the tolerance for disappointment |
+| Demand signal | EDA/IP common-constraint fill-in: SNPS tests whether AI design starts and complexity are reaching design automation, verification, simulation and IP | Should confirm real AI-infrastructure pull-through |
+| Financial anchor | FY2026 Q2 revenue $2.276B, non-GAAP EPS $3.35; FY2026 revenue guidance $9.625-9.705B | Must be visible in revenue, margin, backlog, or cash flow |
+| Valuation anchor | FY2026 guidance includes about $2.96B of Ansys revenue and assumes no further export-control / Entity List changes | Sets the tolerance for disappointment |
 | Cross-check job | Compare with adjacent reports and coverage-map crossChecks | Prevents one-company storytelling |
 
 ## 2. Industry And Competition
@@ -58,10 +58,10 @@ The financial section converts the prose fact base into a repeatable scorecard. 
 
 | Area | Current evidence | Read-through | Grade |
 | --- | --- | --- | --- |
-| Revenue / demand | FY2026 Q2 revenue $2.276B、non-GAAP EPS $3.35；FY2026 revenue 指引 $9.625-9.705B | Confirms whether the chain signal is visible in reported numbers | A-/B+ |
+| Revenue / demand | FY2026 Q2 revenue $2.276B, non-GAAP EPS $3.35; FY2026 revenue guidance $9.625-9.705B | Confirms whether the chain signal is visible in reported numbers | A-/B+ |
 | Margin / profitability | Use the current reported period and company-disclosed margin or EPS figures in the source notes | Tests whether growth is profitable or merely volume-led | B+ |
 | Cash flow / balance sheet | Debt, cash, FCF, AFFO, EBITDA, or buyback context preserved from the original report where disclosed | Determines whether the company can fund the cycle | B |
-| Backlog / bookings / RPO | FY2026 指引包含约 $2.96B Ansys revenue，且假设没有进一步 export-control / Entity List 变化 | Separates committed demand from narrative demand | B+ |
+| Backlog / bookings / RPO | FY2026 guidance includes about $2.96B of Ansys revenue and assumes no further export-control / Entity List changes | Separates committed demand from narrative demand | B+ |
 | Valuation tolerance | Current price context: $437.16 | High expectation names need cleaner execution | Caution |
 
 ## 4. Management And Caliber Check
@@ -83,8 +83,8 @@ The bull case is the strongest version of why the report's chain signal could st
 
 | Bull driver | Evidence | What would make it stronger |
 | --- | --- | --- |
-| Demand pull-through | 补齐 EDA/IP 公共约束：SNPS 验证 AI design starts 与复杂度是否进入 design automation、verification、simulation 和 IP | Next reported period confirms the same direction |
-| Financial conversion | FY2026 Q2 revenue $2.276B、non-GAAP EPS $3.35；FY2026 revenue 指引 $9.625-9.705B | Revenue converts into margin, cash flow, or backlog |
+| Demand pull-through | EDA/IP common-constraint fill-in: SNPS tests whether AI design starts and complexity are reaching design automation, verification, simulation and IP | Next reported period confirms the same direction |
+| Financial conversion | FY2026 Q2 revenue $2.276B, non-GAAP EPS $3.35; FY2026 revenue guidance $9.625-9.705B | Revenue converts into margin, cash flow, or backlog |
 | Cross-check support | CDNS, TSM, AVGO | Adjacent reports move in the same direction |
 | Valuation resilience | Base price context $437.16; bull context $546.45 | The multiple holds because fundamentals continue to validate |
 

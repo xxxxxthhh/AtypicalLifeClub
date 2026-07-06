@@ -29,14 +29,14 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 The business question is where Lam Research sits in the AI infrastructure value chain. The original report already established the key point: this is a semiconductor equipment dashboard, so the company matters only insofar as its orders, revenue mix, balance sheet, and monitoring items confirm or falsify the wider chain.
 
-补齐刻蚀/沉积仪表盘：LRCX 验证 AI 内存与先进逻辑是否提高 process-tool intensity
+Etch/deposition dashboard fill-in: LRCX tests whether AI memory and advanced logic are raising process-tool intensity.
 
 | Chain variable | Evidence from current fact base | Research implication |
 | --- | --- | --- |
 | Layer job | semicap-equipment / dashboard | Defines what this report is allowed to prove |
-| Demand signal | 补齐刻蚀/沉积仪表盘：LRCX 验证 AI 内存与先进逻辑是否提高 process-tool intensity | Should confirm real AI-infrastructure pull-through |
-| Financial anchor | 2026 年 3 月季度 revenue $5.841B、non-GAAP EPS $1.47；Systems revenue $3.731B | Must be visible in revenue, margin, backlog, or cash flow |
-| Valuation anchor | 6 月季度指引 revenue $6.60B +/- $400M、operating margin 36.5% | Sets the tolerance for disappointment |
+| Demand signal | Etch/deposition dashboard fill-in: LRCX tests whether AI memory and advanced logic are raising process-tool intensity | Should confirm real AI-infrastructure pull-through |
+| Financial anchor | March 2026 quarter revenue $5.841B, non-GAAP EPS $1.47; Systems revenue $3.731B | Must be visible in revenue, margin, backlog, or cash flow |
+| Valuation anchor | June quarter guidance revenue $6.60B +/- $400M and operating margin 36.5% | Sets the tolerance for disappointment |
 | Cross-check job | Compare with adjacent reports and coverage-map crossChecks | Prevents one-company storytelling |
 
 ## 2. Industry And Competition
@@ -58,10 +58,10 @@ The financial section converts the prose fact base into a repeatable scorecard. 
 
 | Area | Current evidence | Read-through | Grade |
 | --- | --- | --- | --- |
-| Revenue / demand | 2026 年 3 月季度 revenue $5.841B、non-GAAP EPS $1.47；Systems revenue $3.731B | Confirms whether the chain signal is visible in reported numbers | A-/B+ |
+| Revenue / demand | March 2026 quarter revenue $5.841B, non-GAAP EPS $1.47; Systems revenue $3.731B | Confirms whether the chain signal is visible in reported numbers | A-/B+ |
 | Margin / profitability | Use the current reported period and company-disclosed margin or EPS figures in the source notes | Tests whether growth is profitable or merely volume-led | B+ |
 | Cash flow / balance sheet | Debt, cash, FCF, AFFO, EBITDA, or buyback context preserved from the original report where disclosed | Determines whether the company can fund the cycle | B |
-| Backlog / bookings / RPO | 6 月季度指引 revenue $6.60B +/- $400M、operating margin 36.5% | Separates committed demand from narrative demand | B+ |
+| Backlog / bookings / RPO | June quarter guidance revenue $6.60B +/- $400M and operating margin 36.5% | Separates committed demand from narrative demand | B+ |
 | Valuation tolerance | Current price context: $351.41 | High expectation names need cleaner execution | Caution |
 
 ## 4. Management And Caliber Check
@@ -83,8 +83,8 @@ The bull case is the strongest version of why the report's chain signal could st
 
 | Bull driver | Evidence | What would make it stronger |
 | --- | --- | --- |
-| Demand pull-through | 补齐刻蚀/沉积仪表盘：LRCX 验证 AI 内存与先进逻辑是否提高 process-tool intensity | Next reported period confirms the same direction |
-| Financial conversion | 2026 年 3 月季度 revenue $5.841B、non-GAAP EPS $1.47；Systems revenue $3.731B | Revenue converts into margin, cash flow, or backlog |
+| Demand pull-through | Etch/deposition dashboard fill-in: LRCX tests whether AI memory and advanced logic are raising process-tool intensity | Next reported period confirms the same direction |
+| Financial conversion | March 2026 quarter revenue $5.841B, non-GAAP EPS $1.47; Systems revenue $3.731B | Revenue converts into margin, cash flow, or backlog |
 | Cross-check support | AMAT, KLAC, MU | Adjacent reports move in the same direction |
 | Valuation resilience | Base price context $351.41; bull context $439.26 | The multiple holds because fundamentals continue to validate |
 

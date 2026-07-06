@@ -29,14 +29,14 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 The business question is where Applied Materials sits in the AI infrastructure value chain. The original report already established the key point: this is a semiconductor equipment dashboard, so the company matters only insofar as its orders, revenue mix, balance sheet, and monitoring items confirm or falsify the wider chain.
 
-补齐广谱设备仪表盘：AMAT 验证 AI capex 是否进入 deposition、etch、advanced packaging、DRAM 和服务
+Broad equipment-dashboard fill-in: AMAT tests whether AI capex is reaching deposition, etch, advanced packaging, DRAM and services.
 
 | Chain variable | Evidence from current fact base | Research implication |
 | --- | --- | --- |
 | Layer job | semicap-equipment / dashboard | Defines what this report is allowed to prove |
-| Demand signal | 补齐广谱设备仪表盘：AMAT 验证 AI capex 是否进入 deposition、etch、advanced packaging、DRAM 和服务 | Should confirm real AI-infrastructure pull-through |
+| Demand signal | Broad equipment-dashboard fill-in: AMAT tests whether AI capex is reaching deposition, etch, advanced packaging, DRAM and services | Should confirm real AI-infrastructure pull-through |
 | Financial anchor | FY2026 Q2 revenue $7.91B、Semiconductor Systems $5.965B，foundry/logic/other 67%、DRAM 29% | Must be visible in revenue, margin, backlog, or cash flow |
-| Valuation anchor | Q3 指引 revenue $8.950B +/- $500M、non-GAAP EPS $3.36 +/- $0.20 | Sets the tolerance for disappointment |
+| Valuation anchor | Q3 guidance revenue $8.950B +/- $500M and non-GAAP EPS $3.36 +/- $0.20 | Sets the tolerance for disappointment |
 | Cross-check job | Compare with adjacent reports and coverage-map crossChecks | Prevents one-company storytelling |
 
 ## 2. Industry And Competition
@@ -61,7 +61,7 @@ The financial section converts the prose fact base into a repeatable scorecard. 
 | Revenue / demand | FY2026 Q2 revenue $7.91B、Semiconductor Systems $5.965B，foundry/logic/other 67%、DRAM 29% | Confirms whether the chain signal is visible in reported numbers | A-/B+ |
 | Margin / profitability | Use the current reported period and company-disclosed margin or EPS figures in the source notes | Tests whether growth is profitable or merely volume-led | B+ |
 | Cash flow / balance sheet | Debt, cash, FCF, AFFO, EBITDA, or buyback context preserved from the original report where disclosed | Determines whether the company can fund the cycle | B |
-| Backlog / bookings / RPO | Q3 指引 revenue $8.950B +/- $500M、non-GAAP EPS $3.36 +/- $0.20 | Separates committed demand from narrative demand | B+ |
+| Backlog / bookings / RPO | Q3 guidance revenue $8.950B +/- $500M and non-GAAP EPS $3.36 +/- $0.20 | Separates committed demand from narrative demand | B+ |
 | Valuation tolerance | Current price context: $603.04 | High expectation names need cleaner execution | Caution |
 
 ## 4. Management And Caliber Check
@@ -83,7 +83,7 @@ The bull case is the strongest version of why the report's chain signal could st
 
 | Bull driver | Evidence | What would make it stronger |
 | --- | --- | --- |
-| Demand pull-through | 补齐广谱设备仪表盘：AMAT 验证 AI capex 是否进入 deposition、etch、advanced packaging、DRAM 和服务 | Next reported period confirms the same direction |
+| Demand pull-through | Broad equipment-dashboard fill-in: AMAT tests whether AI capex is reaching deposition, etch, advanced packaging, DRAM and services | Next reported period confirms the same direction |
 | Financial conversion | FY2026 Q2 revenue $7.91B、Semiconductor Systems $5.965B，foundry/logic/other 67%、DRAM 29% | Revenue converts into margin, cash flow, or backlog |
 | Cross-check support | ASML, LRCX, KLAC | Adjacent reports move in the same direction |
 | Valuation resilience | Base price context $603.04; bull context $753.80 | The multiple holds because fundamentals continue to validate |

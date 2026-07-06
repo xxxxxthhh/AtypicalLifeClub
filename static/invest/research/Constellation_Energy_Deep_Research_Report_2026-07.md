@@ -29,14 +29,14 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 The business question is where Constellation Energy sits in the AI infrastructure value chain. The original report already established the key point: this is a power and energy common constraint, so the company matters only insofar as its orders, revenue mix, balance sheet, and monitoring items confirm or falsify the wider chain.
 
-补齐 AI 基建 power 层可调度电力公共约束：CEG 用既有核电 fleet、Calpine 天然气/地热容量、长期 PPA 和 PJM 容量价格验证 AI 数据中心是否真的愿意为稳定清洁电力与可调度容量付溢价
+Dispatchable-power common-constraint fill-in for the AI-infrastructure power layer: CEG uses its existing nuclear fleet, Calpine gas/geothermal capacity, long-term PPAs and PJM capacity prices to test whether AI data centers are truly willing to pay a premium for firm clean power and dispatchable capacity.
 
 | Chain variable | Evidence from current fact base | Research implication |
 | --- | --- | --- |
 | Layer job | power / common-constraint | Defines what this report is allowed to prove |
-| Demand signal | 补齐 AI 基建 power 层可调度电力公共约束：CEG 用既有核电 fleet、Calpine 天然气/地热容量、长期 PPA 和 PJM 容量价格验证 AI 数据中心是否真的愿意为稳定清洁电力与可调度容量付溢价 | Should confirm real AI-infrastructure pull-through |
-| Financial anchor | 2026Q1 收入 $11.12B、净利润 $1.59B、报道 EPS $2.74，核电发电量约 44,666 GWh，公司维持 2026 EPS 指引 $11-12 | Must be visible in revenue, margin, backlog, or cash flow |
-| Valuation anchor | Microsoft/Crane Clean Energy Center（Three Mile Island Unit 1）重启目标指向 2027，Meta 约 1.1GW 核电 PPA 说明 hyperscaler 电力需求正在合同化；Calpine 把叙事从纯核电扩展到可调度容量 | Sets the tolerance for disappointment |
+| Demand signal | Dispatchable-power common-constraint fill-in for the AI-infrastructure power layer: CEG uses its existing nuclear fleet, Calpine gas/geothermal capacity, long-term PPAs and PJM capacity prices to test whether AI data centers are truly willing to pay a premium for firm clean power and dispatchable capacity | Should confirm real AI-infrastructure pull-through |
+| Financial anchor | Q1 2026 revenue $11.12B, net income $1.59B, reported EPS $2.74, nuclear generation about 44,666 GWh; company maintained 2026 EPS guidance of $11-12 | Must be visible in revenue, margin, backlog, or cash flow |
+| Valuation anchor | Microsoft/Crane Clean Energy Center (Three Mile Island Unit 1) restart target points to 2027, and Meta's about 1.1GW nuclear PPA shows hyperscaler power demand being contracted; Calpine expands the story from pure nuclear to dispatchable capacity | Sets the tolerance for disappointment |
 | Cross-check job | Compare with adjacent reports and coverage-map crossChecks | Prevents one-company storytelling |
 
 ## 2. Industry And Competition
@@ -58,10 +58,10 @@ The financial section converts the prose fact base into a repeatable scorecard. 
 
 | Area | Current evidence | Read-through | Grade |
 | --- | --- | --- | --- |
-| Revenue / demand | 2026Q1 收入 $11.12B、净利润 $1.59B、报道 EPS $2.74，核电发电量约 44,666 GWh，公司维持 2026 EPS 指引 $11-12 | Confirms whether the chain signal is visible in reported numbers | A-/B+ |
+| Revenue / demand | Q1 2026 revenue $11.12B, net income $1.59B, reported EPS $2.74, nuclear generation about 44,666 GWh; company maintained 2026 EPS guidance of $11-12 | Confirms whether the chain signal is visible in reported numbers | A-/B+ |
 | Margin / profitability | Use the current reported period and company-disclosed margin or EPS figures in the source notes | Tests whether growth is profitable or merely volume-led | B+ |
 | Cash flow / balance sheet | Debt, cash, FCF, AFFO, EBITDA, or buyback context preserved from the original report where disclosed | Determines whether the company can fund the cycle | B |
-| Backlog / bookings / RPO | Microsoft/Crane Clean Energy Center（Three Mile Island Unit 1）重启目标指向 2027，Meta 约 1.1GW 核电 PPA 说明 hyperscaler 电力需求正在合同化；Calpine 把叙事从纯核电扩展到可调度容量 | Separates committed demand from narrative demand | B+ |
+| Backlog / bookings / RPO | Microsoft/Crane Clean Energy Center (Three Mile Island Unit 1) restart target points to 2027, and Meta's about 1.1GW nuclear PPA shows hyperscaler power demand being contracted; Calpine expands the story from pure nuclear to dispatchable capacity | Separates committed demand from narrative demand | B+ |
 | Valuation tolerance | Current price context: $239.25 | High expectation names need cleaner execution | Caution |
 
 ## 4. Management And Caliber Check
@@ -83,8 +83,8 @@ The bull case is the strongest version of why the report's chain signal could st
 
 | Bull driver | Evidence | What would make it stronger |
 | --- | --- | --- |
-| Demand pull-through | 补齐 AI 基建 power 层可调度电力公共约束：CEG 用既有核电 fleet、Calpine 天然气/地热容量、长期 PPA 和 PJM 容量价格验证 AI 数据中心是否真的愿意为稳定清洁电力与可调度容量付溢价 | Next reported period confirms the same direction |
-| Financial conversion | 2026Q1 收入 $11.12B、净利润 $1.59B、报道 EPS $2.74，核电发电量约 44,666 GWh，公司维持 2026 EPS 指引 $11-12 | Revenue converts into margin, cash flow, or backlog |
+| Demand pull-through | Dispatchable-power common-constraint fill-in for the AI-infrastructure power layer: CEG uses its existing nuclear fleet, Calpine gas/geothermal capacity, long-term PPAs and PJM capacity prices to test whether AI data centers are truly willing to pay a premium for firm clean power and dispatchable capacity | Next reported period confirms the same direction |
+| Financial conversion | Q1 2026 revenue $11.12B, net income $1.59B, reported EPS $2.74, nuclear generation about 44,666 GWh; company maintained 2026 EPS guidance of $11-12 | Revenue converts into margin, cash flow, or backlog |
 | Cross-check support | VST, NRG, OKLO | Adjacent reports move in the same direction |
 | Valuation resilience | Base price context $239.25; bull context $299.06 | The multiple holds because fundamentals continue to validate |
 
@@ -107,11 +107,11 @@ The bearish read should not ignore quality. It asks whether quality is already c
 
 | Uncertainty | Why it matters | When to revisit |
 | --- | --- | --- |
-| Nuclear PPA conversion | Microsoft/Meta and other hyperscaler PPAs gain clearer capacity, price and start-date terms | PPA 细节与上线进度 / PPA terms and delivery timing |
-| Crane/Three Mile Island restart approvals | FERC/NRC/state approvals, cost allocation or retail-rate disputes accelerate or delay the restart | 监管进度 / regulatory milestones |
-| PJM capacity pricing | PJM's accelerated data-center capacity procurement in Sep 2026 drives a clear rise or fade in capacity prices | PJM 容量拍卖/采购结果 |
-| Calpine integration, net debt and capex discipline | Calpine integration, life-extension, restart or uprate spending expands net debt and FCF pressure | 2026-Q2 整合、现金流与债务 / Q2 integration, cash flow and debt |
-| AI-power valuation premium | AI capex or data-center buildout expectations get cut while CEG still trades on a large power-scarcity premium | AI capex 指引与电力股估值 / AI capex guides and power-equity multiples |
+| Nuclear PPA conversion | Microsoft/Meta and other hyperscaler PPAs gain clearer capacity, price and start-date terms | PPA terms and delivery timing |
+| Crane/Three Mile Island restart approvals | FERC/NRC/state approvals, cost allocation or retail-rate disputes accelerate or delay the restart | regulatory milestones |
+| PJM capacity pricing | PJM's accelerated data-center capacity procurement in Sep 2026 drives a clear rise or fade in capacity prices | PJM capacity auction/procurement results |
+| Calpine integration, net debt and capex discipline | Calpine integration, life-extension, restart or uprate spending expands net debt and FCF pressure | Q2 integration, cash flow and debt |
+| AI-power valuation premium | AI capex or data-center buildout expectations get cut while CEG still trades on a large power-scarcity premium | AI capex guides and power-equity multiples |
 
 Thesis breakers:
 
@@ -136,11 +136,11 @@ The key valuation question is whether the next evidence set increases the EPS an
 
 | Monitor | Latest reading | Trigger | Next check |
 | --- | --- | --- | --- |
-| Nuclear PPA conversion | Meta about 1.1GW nuclear PPA; Microsoft/Crane restart targets 2027 | Microsoft/Meta and other hyperscaler PPAs gain clearer capacity, price and start-date terms | PPA 细节与上线进度 / PPA terms and delivery timing |
-| Crane/Three Mile Island restart approvals | Crane Clean Energy Center targets a 2027 restart | FERC/NRC/state approvals, cost allocation or retail-rate disputes accelerate or delay the restart | 监管进度 / regulatory milestones |
-| PJM capacity pricing | PJM has moved data-center capacity procurement forward to Sep 2026 | PJM's accelerated data-center capacity procurement in Sep 2026 drives a clear rise or fade in capacity prices | PJM 容量拍卖/采购结果 |
-| Calpine integration, net debt and capex discipline | Calpine closed on Jan. 7, 2026; Q1 net debt about $21.7B; EV about $107B | Calpine integration, life-extension, restart or uprate spending expands net debt and FCF pressure | 2026-Q2 整合、现金流与债务 / Q2 integration, cash flow and debt |
-| AI-power valuation premium | $239.25, about $85.4B market cap and about 3.6x EV/TTM sales | AI capex or data-center buildout expectations get cut while CEG still trades on a large power-scarcity premium | AI capex 指引与电力股估值 / AI capex guides and power-equity multiples |
+| Nuclear PPA conversion | Meta about 1.1GW nuclear PPA; Microsoft/Crane restart targets 2027 | Microsoft/Meta and other hyperscaler PPAs gain clearer capacity, price and start-date terms | PPA terms and delivery timing |
+| Crane/Three Mile Island restart approvals | Crane Clean Energy Center targets a 2027 restart | FERC/NRC/state approvals, cost allocation or retail-rate disputes accelerate or delay the restart | regulatory milestones |
+| PJM capacity pricing | PJM has moved data-center capacity procurement forward to Sep 2026 | PJM's accelerated data-center capacity procurement in Sep 2026 drives a clear rise or fade in capacity prices | PJM capacity auction/procurement results |
+| Calpine integration, net debt and capex discipline | Calpine closed on Jan. 7, 2026; Q1 net debt about $21.7B; EV about $107B | Calpine integration, life-extension, restart or uprate spending expands net debt and FCF pressure | Q2 integration, cash flow and debt |
+| AI-power valuation premium | $239.25, about $85.4B market cap and about 3.6x EV/TTM sales | AI capex or data-center buildout expectations get cut while CEG still trades on a large power-scarcity premium | AI capex guides and power-equity multiples |
 
 These are the items that should drive future reruns. A monitoring update should change the report only when it changes the chain read-through or the valuation tolerance.
 
