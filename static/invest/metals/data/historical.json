@@ -61,40 +61,40 @@
       }
     },
     "lookback_days": 730,
-    "last_updated": "2026-07-04T04:35:54.153159",
+    "last_updated": "2026-07-06T05:13:01.039627",
     "total_metals": 5,
     "total_etfs": 9
   },
   "current": {
     "GC=F": {
-      "price": 4187.2998,
-      "change": 126.1997,
-      "changePct": 3.11,
-      "date": "2026-07-03"
+      "price": 4169.1001,
+      "change": -18.1997,
+      "changePct": -0.43,
+      "date": "2026-07-06"
     },
     "SI=F": {
-      "price": 62.815,
-      "change": 2.74,
-      "changePct": 4.56,
-      "date": "2026-07-03"
+      "price": 62.285,
+      "change": -0.53,
+      "changePct": -0.84,
+      "date": "2026-07-06"
     },
     "PL=F": {
       "price": 1651.9,
-      "change": 47.8,
-      "changePct": 2.98,
-      "date": "2026-07-03"
+      "change": 0.0,
+      "changePct": 0.0,
+      "date": "2026-07-06"
     },
     "PA=F": {
       "price": 1272.5,
-      "change": 46.0,
-      "changePct": 3.75,
-      "date": "2026-07-03"
+      "change": 0.0,
+      "changePct": 0.0,
+      "date": "2026-07-06"
     },
     "HG=F": {
-      "price": 6.224,
-      "change": 0.0575,
-      "changePct": 0.93,
-      "date": "2026-07-03"
+      "price": 6.211,
+      "change": -0.013,
+      "changePct": -0.21,
+      "date": "2026-07-06"
     },
     "COPX": {
       "price": 76.65,
@@ -3287,6 +3287,11 @@
         "date": "2026-07-03",
         "close": 4187.2998,
         "volume": 54673
+      },
+      {
+        "date": "2026-07-06",
+        "close": 4169.1001,
+        "volume": 76787
       }
     ],
     "SI=F": [
@@ -6424,6 +6429,11 @@
         "date": "2026-07-03",
         "close": 62.815,
         "volume": 13752
+      },
+      {
+        "date": "2026-07-06",
+        "close": 62.285,
+        "volume": 20039
       }
     ],
     "PL=F": [
@@ -9556,6 +9566,11 @@
         "date": "2026-07-03",
         "close": 1651.9,
         "volume": 5119
+      },
+      {
+        "date": "2026-07-06",
+        "close": 1651.9,
+        "volume": 7048
       }
     ],
     "PA=F": [
@@ -12683,6 +12698,11 @@
         "date": "2026-07-03",
         "close": 1272.5,
         "volume": 1398
+      },
+      {
+        "date": "2026-07-06",
+        "close": 1272.5,
+        "volume": 1759
       }
     ],
     "HG=F": [
@@ -15820,6 +15840,11 @@
         "date": "2026-07-03",
         "close": 6.224,
         "volume": 9483
+      },
+      {
+        "date": "2026-07-06",
+        "close": 6.211,
+        "volume": 13214
       }
     ]
   },
