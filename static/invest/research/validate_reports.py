@@ -75,7 +75,7 @@ def fail(message):
 def parse_date(value, field_name):
     try:
         datetime.strptime(value, "%Y-%m-%d")
-    except ValueError:
+    except (TypeError, ValueError):
         fail(f"{field_name} is not YYYY-MM-DD: {value}")
 
 
