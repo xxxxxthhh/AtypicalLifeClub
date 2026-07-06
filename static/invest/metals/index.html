@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,13 +18,18 @@
                     <span class="shell-breadcrumb-separator">/</span>
                     <span class="shell-breadcrumb-current" aria-current="page">Metals</span>
                 </div>
-                <span class="shell-brand-subtitle">Precious Metals & ETF Tracker</span>
+                <span class="shell-brand-subtitle" data-i18n="shellSubtitle">Precious Metals & ETF Tracker</span>
             </div>
             <nav class="shell-nav">
-                <a href="/invest/">返回 Invest</a>
+                <a href="/invest/" data-i18n="navBack">Back to Invest</a>
                 <a href="/invest/research/">Research</a>
                 <a href="/invest/currency/">Currency</a>
                 <a href="/invest/metals/" class="active">Metals</a>
+                <div class="lang-switch" id="languageSwitch" role="group" aria-label="Language switch">
+                    <button class="lang-opt" type="button" data-lang="zh" aria-pressed="false">中文</button>
+                    <span class="divider">/</span>
+                    <button class="lang-opt active" type="button" data-lang="en" aria-pressed="true">EN</button>
+                </div>
             </nav>
         </div>
     </header>
@@ -32,21 +37,21 @@
     <main class="shell">
         <!-- Hero -->
         <section class="hero-section">
-            <h1 class="page-title">金属追踪</h1>
-            <p class="page-subtitle">贵金属现货 & 金属相关 ETF · 数据由 Action 自动日更</p>
+            <h1 class="page-title" data-i18n="heroTitle">Metals Tracker</h1>
+            <p class="page-subtitle" data-i18n="heroSubtitle">Precious metals spot prices & metal-related ETFs · Data refreshes automatically</p>
         </section>
 
         <!-- Monitoring Cards -->
         <section class="section">
             <div class="section-header">
-                <h2>贵金属现货</h2>
+                <h2 data-i18n="metalsTitle">Precious Metal Spot Prices</h2>
             </div>
             <div class="cards-grid" id="metalsCards"></div>
         </section>
 
         <section class="section">
             <div class="section-header">
-                <h2>金属 ETF</h2>
+                <h2 data-i18n="etfTitle">Metal ETFs</h2>
             </div>
             <div class="cards-grid" id="etfCards"></div>
         </section>
@@ -54,16 +59,16 @@
         <!-- Chart Section -->
         <section class="section">
             <div class="section-header">
-                <h2>价格走势</h2>
+                <h2 data-i18n="chartTitle">Price Trend</h2>
             </div>
             <div class="controls">
                 <select id="symbolSelect"></select>
                 <select id="rangeSelect">
-                    <option value="30">30天</option>
-                    <option value="90" selected>90天</option>
-                    <option value="180">180天</option>
-                    <option value="365">1年</option>
-                    <option value="730">2年</option>
+                    <option value="30">30 days</option>
+                    <option value="90" selected>90 days</option>
+                    <option value="180">180 days</option>
+                    <option value="365">1 year</option>
+                    <option value="730">2 years</option>
                 </select>
             </div>
             <div class="chart-container">
@@ -75,16 +80,16 @@
         <!-- Comparison Section -->
         <section class="section">
             <div class="section-header">
-                <h2>对比模式</h2>
-                <p class="section-hint">选择标的进行归一化对比（最多5个）</p>
+                <h2 data-i18n="compareTitle">Comparison Mode</h2>
+                <p class="section-hint" data-i18n="compareHint">Select assets for normalized comparison (up to 5)</p>
             </div>
             <div class="compare-toggles" id="compareToggles"></div>
             <div class="controls">
                 <select id="compareRange">
-                    <option value="30">30天</option>
-                    <option value="90" selected>90天</option>
-                    <option value="180">180天</option>
-                    <option value="365">1年</option>
+                    <option value="30">30 days</option>
+                    <option value="90" selected>90 days</option>
+                    <option value="180">180 days</option>
+                    <option value="365">1 year</option>
                 </select>
             </div>
             <div class="chart-container">
@@ -93,12 +98,13 @@
         </section>
 
         <footer class="page-footer">
-            <p>数据来源: Yahoo Finance · 最后更新: <span id="lastUpdated">--</span></p>
-            <p>仅供个人研究参考，不构成投资建议。</p>
+            <p><span data-i18n="dataSource">Data source: Yahoo Finance</span> · <span data-i18n="lastUpdated">Last updated</span>: <span id="lastUpdated">--</span></p>
+            <p data-i18n="disclaimer">For personal research only. Not investment advice.</p>
         </footer>
     </main>
 
     <script src="/shared/theme-switcher.js"></script>
+    <script src="/shared/lang-switch.js"></script>
     <script src="/invest/metals/js/main.js"></script>
 </body>
 </html>

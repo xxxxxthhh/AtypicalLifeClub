@@ -9,15 +9,84 @@ let priceChart = null;
 let compareChart = null;
 let selectedSymbol = "GC=F";
 let compareSymbols = ["GC=F", "SI=F"];
+let currentLang = chooseInitialLanguage();
 
 const COLORS = [
   "#667eea", "#ed8936", "#38a169", "#e53e3e",
   "#9f7aea", "#3182ce", "#d69e2e", "#dd6b20",
 ];
 
+const RANGE_OPTIONS = [30, 90, 180, 365, 730];
+const COMPARE_RANGE_OPTIONS = [30, 90, 180, 365];
+
+const I18N = {
+  zh: {
+    documentTitle: "Metals | Invest | Atypical Life Club",
+    shellSubtitle: "贵金属与 ETF 跟踪",
+    navBack: "返回 Invest",
+    heroTitle: "金属追踪",
+    heroSubtitle: "贵金属现货 & 金属相关 ETF · 数据由 Action 自动日更",
+    metalsTitle: "贵金属现货",
+    etfTitle: "金属 ETF",
+    chartTitle: "价格走势",
+    compareTitle: "对比模式",
+    compareHint: "选择标的进行归一化对比（最多5个）",
+    dataSource: "数据来源: Yahoo Finance",
+    lastUpdated: "最后更新",
+    disclaimer: "仅供个人研究参考，不构成投资建议。",
+    preciousMetals: "贵金属",
+    mean: "均值",
+    target: "标的",
+    current: "当前",
+    stdDev: "标准差",
+    high: "最高",
+    low: "最低",
+    normalized: "归一化 (起点=100)",
+    rangeLabels: {
+      30: "30天",
+      90: "90天",
+      180: "180天",
+      365: "1年",
+      730: "2年",
+    },
+  },
+  en: {
+    documentTitle: "Metals | Invest | Atypical Life Club",
+    shellSubtitle: "Precious Metals & ETF Tracker",
+    navBack: "Back to Invest",
+    heroTitle: "Metals Tracker",
+    heroSubtitle: "Precious metals spot prices & metal-related ETFs · Data refreshes automatically",
+    metalsTitle: "Precious Metal Spot Prices",
+    etfTitle: "Metal ETFs",
+    chartTitle: "Price Trend",
+    compareTitle: "Comparison Mode",
+    compareHint: "Select assets for normalized comparison (up to 5)",
+    dataSource: "Data source: Yahoo Finance",
+    lastUpdated: "Last updated",
+    disclaimer: "For personal research only. Not investment advice.",
+    preciousMetals: "Precious Metals",
+    mean: "Mean",
+    target: "Asset",
+    current: "Current",
+    stdDev: "Standard deviation",
+    high: "High",
+    low: "Low",
+    normalized: "Normalized (start = 100)",
+    rangeLabels: {
+      30: "30 days",
+      90: "90 days",
+      180: "180 days",
+      365: "1 year",
+      730: "2 years",
+    },
+  },
+};
+
 // === Init ===
 async function init() {
   try {
+    bindLanguageSwitch();
+    applyStaticTranslations();
     const resp = await fetch("/invest/metals/data/historical.json");
     DATA = await resp.json();
     document.getElementById("lastUpdated").textContent =
@@ -79,11 +148,12 @@ document.addEventListener("DOMContentLoaded", init);
 // === Populate Symbol Select ===
 function populateSymbolSelect() {
   const sel = document.getElementById("symbolSelect");
+  sel.innerHTML = "";
   const metals = Object.keys(DATA.metadata.metals);
   const etfs = Object.keys(DATA.metadata.etfs);
 
   const grpM = document.createElement("optgroup");
-  grpM.label = "贵金属";
+  grpM.label = t("preciousMetals");
   metals.forEach(s => {
     const opt = document.createElement("option");
     opt.value = s;
@@ -99,6 +169,7 @@ function populateSymbolSelect() {
     const opt = document.createElement("option");
     opt.value = s;
     opt.textContent = `${s} - ${getSymbolName(s)}`;
+    if (s === selectedSymbol) opt.selected = true;
     grpE.appendChild(opt);
   });
   sel.appendChild(grpE);
@@ -178,7 +249,7 @@ function updateChart() {
 
   if (stats) {
     datasets.push({
-      label: "Mean",
+      label: t("mean"),
       data: Array(closes.length).fill(stats.mean),
       borderColor: "#38a169",
       borderDash: [6, 3],
@@ -226,27 +297,27 @@ function updateStatsGrid(stats) {
   if (!stats) { el.innerHTML = ""; return; }
   el.innerHTML = `
     <div class="stats-item">
-      <div class="stats-label">标的</div>
+      <div class="stats-label">${t("target")}</div>
       <div class="stats-value">${getSymbolName(selectedSymbol)}</div>
     </div>
     <div class="stats-item">
-      <div class="stats-label">当前</div>
+      <div class="stats-label">${t("current")}</div>
       <div class="stats-value">${formatPrice(stats.current)}</div>
     </div>
     <div class="stats-item">
-      <div class="stats-label">均值</div>
+      <div class="stats-label">${t("mean")}</div>
       <div class="stats-value">${formatPrice(stats.mean)}</div>
     </div>
     <div class="stats-item">
-      <div class="stats-label">标准差</div>
+      <div class="stats-label">${t("stdDev")}</div>
       <div class="stats-value">${formatPrice(stats.stdDev)}</div>
     </div>
     <div class="stats-item">
-      <div class="stats-label">最高</div>
+      <div class="stats-label">${t("high")}</div>
       <div class="stats-value">${formatPrice(stats.max)}</div>
     </div>
     <div class="stats-item">
-      <div class="stats-label">最低</div>
+      <div class="stats-label">${t("low")}</div>
       <div class="stats-value">${formatPrice(stats.min)}</div>
     </div>
   `;
@@ -344,7 +415,7 @@ function compareChartOptions() {
           callback: (v) => v.toFixed(0),
         },
         grid: { color: "rgba(0,0,0,0.05)" },
-        title: { display: true, text: "归一化 (起点=100)", font: { size: 11 } },
+        title: { display: true, text: t("normalized"), font: { size: 11 } },
       },
     },
   };
@@ -365,5 +436,58 @@ function bindEvents() {
 
   document.getElementById("compareRange").addEventListener("change", () => {
     updateCompareChart();
+  });
+}
+
+function labels() {
+  return I18N[currentLang] || I18N.en;
+}
+
+function t(key) {
+  return labels()[key] || key;
+}
+
+function applyStaticTranslations() {
+  const activeLabels = labels();
+  document.documentElement.lang = currentLang === "zh" ? "zh-CN" : "en";
+  document.title = activeLabels.documentTitle;
+  renderLanguageSwitchUI(currentLang);
+  syncLanguageQuery(currentLang);
+
+  document.querySelectorAll("[data-i18n]").forEach((el) => {
+    const value = activeLabels[el.dataset.i18n];
+    if (value !== undefined) el.textContent = value;
+  });
+  refreshRangeLabels("rangeSelect", RANGE_OPTIONS);
+  refreshRangeLabels("compareRange", COMPARE_RANGE_OPTIONS);
+}
+
+function refreshRangeLabels(selectId, options) {
+  const select = document.getElementById(selectId);
+  if (!select) return;
+  options.forEach((value) => {
+    const option = select.querySelector(`option[value="${value}"]`);
+    if (option) option.textContent = labels().rangeLabels[value] || String(value);
+  });
+}
+
+function bindLanguageSwitch() {
+  const root = document.getElementById("languageSwitch");
+  if (!root) return;
+  root.querySelectorAll(".lang-opt").forEach((button) => {
+    button.addEventListener("click", () => {
+      const nextLang = normalizeLanguage(button.dataset.lang);
+      if (!nextLang || nextLang === currentLang) return;
+      currentLang = nextLang;
+      saveLanguage(currentLang);
+      applyStaticTranslations();
+      if (!DATA) return;
+      populateSymbolSelect();
+      renderMetalsCards();
+      renderEtfCards();
+      renderCompareToggles();
+      updateChart();
+      updateCompareChart();
+    });
   });
 }

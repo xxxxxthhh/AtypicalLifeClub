@@ -5,12 +5,117 @@ let currentChart = null;
 let selectedBaseCurrency = 'SGD';
 let selectedTargetCurrency = 'CNY';
 let selectedTimeRange = 365;
+let currentLang = chooseInitialLanguage();
 
 const CURRENCIES = ['USD', 'CNY', 'SGD', 'JPY', 'AUD'];
+const TIME_RANGE_OPTIONS = [30, 90, 180, 365, 730];
+
+const I18N = {
+    zh: {
+        documentTitle: 'Invest Currency | Atypical Life Club',
+        shellSubtitle: '汇率追踪与偏离监控',
+        navBack: '返回 Invest',
+        heroTitle: '汇率追踪',
+        heroSubtitle: '跟踪关键货币对走势、偏离区间和阶段波动，数据由 Action 自动日更。',
+        cardsTitle: '核心监控卡片',
+        cardsIntro: '自动展示当前基准货币下的全部对手货币表现。',
+        controlsTitle: '参数与图表',
+        controlsIntro: '切换基准货币、目标货币和时间窗口，图表会同步更新。',
+        baseCurrency: '基础货币',
+        targetCurrency: '目标货币',
+        timeRange: '时间范围',
+        statsTitle: '统计摘要',
+        statsIntro: '当前货币对的区间统计与偏离参考。',
+        lastUpdated: '最后更新',
+        dataSource: '数据来源：fawazahmed0 Currency API',
+        disclaimer: '仅供个人研究，不构成投资建议。',
+        dataLoadError: '数据加载失败，请刷新页面重试',
+        deviation: '偏差',
+        mean: '均值',
+        upperBand1: '均值 + 1σ',
+        lowerBand1: '均值 - 1σ',
+        upperBand2: '均值 + 2σ',
+        lowerBand2: '均值 - 2σ',
+        dateAxis: '日期',
+        rateAxis: '汇率',
+        pair: '货币对',
+        currentRate: '当前汇率',
+        average: '平均值',
+        stdDev: '标准差',
+        max: '最高值',
+        min: '最低值',
+        currencyLabels: {
+            USD: 'USD (美元)',
+            CNY: 'CNY (人民币)',
+            SGD: 'SGD (新加坡元)',
+            JPY: 'JPY (日元)',
+            AUD: 'AUD (澳元)'
+        },
+        rangeLabels: {
+            30: '30天',
+            90: '90天',
+            180: '180天',
+            365: '1年',
+            730: '2年'
+        },
+        dateLocale: 'zh-CN'
+    },
+    en: {
+        documentTitle: 'Invest Currency | Atypical Life Club',
+        shellSubtitle: 'FX Tracking & Deviation Monitor',
+        navBack: 'Back to Invest',
+        heroTitle: 'Currency Tracker',
+        heroSubtitle: 'Track key FX pairs, deviation bands, and period volatility. Data refreshes automatically.',
+        cardsTitle: 'Core Monitor Cards',
+        cardsIntro: 'Shows every counter-currency under the selected base currency.',
+        controlsTitle: 'Controls & Chart',
+        controlsIntro: 'Change the base currency, target currency, and time window to update the chart.',
+        baseCurrency: 'Base Currency',
+        targetCurrency: 'Target Currency',
+        timeRange: 'Time Range',
+        statsTitle: 'Statistical Summary',
+        statsIntro: 'Period statistics and deviation reference for the selected pair.',
+        lastUpdated: 'Last updated',
+        dataSource: 'Data source: fawazahmed0 Currency API',
+        disclaimer: 'For personal research only. Not investment advice.',
+        dataLoadError: 'Data failed to load. Please refresh and try again.',
+        deviation: 'Deviation',
+        mean: 'Mean',
+        upperBand1: 'Mean + 1σ',
+        lowerBand1: 'Mean - 1σ',
+        upperBand2: 'Mean + 2σ',
+        lowerBand2: 'Mean - 2σ',
+        dateAxis: 'Date',
+        rateAxis: 'Exchange rate',
+        pair: 'Pair',
+        currentRate: 'Current rate',
+        average: 'Average',
+        stdDev: 'Standard deviation',
+        max: 'High',
+        min: 'Low',
+        currencyLabels: {
+            USD: 'USD (US dollar)',
+            CNY: 'CNY (Chinese yuan)',
+            SGD: 'SGD (Singapore dollar)',
+            JPY: 'JPY (Japanese yen)',
+            AUD: 'AUD (Australian dollar)'
+        },
+        rangeLabels: {
+            30: '30 days',
+            90: '90 days',
+            180: '180 days',
+            365: '1 year',
+            730: '2 years'
+        },
+        dateLocale: 'en-US'
+    }
+};
 
 // 初始化
 document.addEventListener('DOMContentLoaded', async () => {
     console.log('Dashboard 初始化...');
+    bindLanguageSwitch();
+    applyStaticTranslations();
 
     // 加载数据
     await loadData();
@@ -36,7 +141,7 @@ async function loadData() {
         console.log('数据加载成功:', historicalData.metadata);
     } catch (error) {
         console.error('加载数据失败:', error);
-        alert('数据加载失败，请刷新页面重试');
+        alert(t('dataLoadError'));
     }
 }
 
@@ -88,14 +193,7 @@ function updateTargetCurrencyOptions() {
 
 // 获取货币标签
 function getCurrencyLabel(currency) {
-    const labels = {
-        'USD': 'USD (美元)',
-        'CNY': 'CNY (人民币)',
-        'SGD': 'SGD (新加坡元)',
-        'JPY': 'JPY (日元)',
-        'AUD': 'AUD (澳元)'
-    };
-    return labels[currency] || currency;
+    return labels().currencyLabels[currency] || currency;
 }
 
 // 计算货币对汇率（支持任意基础货币）
@@ -160,7 +258,7 @@ function updateStatCards() {
             <div class="stat-label">${pairName}</div>
             <div class="stat-value">${stats.current.toFixed(4)}</div>
             <div class="stat-change">${changeSymbol} ${Math.abs(changePercent)}%</div>
-            <div class="stat-deviation">偏差: ${deviation.toFixed(2)}σ</div>
+            <div class="stat-deviation">${t('deviation')}: ${deviation.toFixed(2)}σ</div>
         `;
     });
 
@@ -226,7 +324,7 @@ function updateChart() {
                     tension: 0.4
                 },
                 {
-                    label: '均值',
+                    label: t('mean'),
                     data: chartData.mean,
                     borderColor: '#48bb78',
                     borderWidth: 2,
@@ -235,7 +333,7 @@ function updateChart() {
                     pointRadius: 0
                 },
                 {
-                    label: '均值 + 1σ',
+                    label: t('upperBand1'),
                     data: chartData.upperBand1,
                     borderColor: '#f6ad55',
                     borderWidth: 1,
@@ -244,7 +342,7 @@ function updateChart() {
                     pointRadius: 0
                 },
                 {
-                    label: '均值 - 1σ',
+                    label: t('lowerBand1'),
                     data: chartData.lowerBand1,
                     borderColor: '#f6ad55',
                     borderWidth: 1,
@@ -253,7 +351,7 @@ function updateChart() {
                     pointRadius: 0
                 },
                 {
-                    label: '均值 + 2σ',
+                    label: t('upperBand2'),
                     data: chartData.upperBand2,
                     borderColor: '#fc8181',
                     borderWidth: 1,
@@ -262,7 +360,7 @@ function updateChart() {
                     pointRadius: 0
                 },
                 {
-                    label: '均值 - 2σ',
+                    label: t('lowerBand2'),
                     data: chartData.lowerBand2,
                     borderColor: '#fc8181',
                     borderWidth: 1,
@@ -297,7 +395,7 @@ function updateChart() {
                     display: true,
                     title: {
                         display: true,
-                        text: '日期'
+                        text: t('dateAxis')
                     },
                     ticks: {
                         maxRotation: 45,
@@ -311,7 +409,7 @@ function updateChart() {
                     display: true,
                     title: {
                         display: true,
-                        text: '汇率'
+                        text: t('rateAxis')
                     },
                     ticks: {
                         font: {
@@ -360,27 +458,27 @@ function updateStatistics() {
 
     const statsHtml = `
         <div class="stat-item">
-            <div class="stat-item-label">货币对</div>
+            <div class="stat-item-label">${t('pair')}</div>
             <div class="stat-item-value">${pairName}</div>
         </div>
         <div class="stat-item">
-            <div class="stat-item-label">当前汇率</div>
+            <div class="stat-item-label">${t('currentRate')}</div>
             <div class="stat-item-value">${stats.current.toFixed(4)}</div>
         </div>
         <div class="stat-item">
-            <div class="stat-item-label">平均值</div>
+            <div class="stat-item-label">${t('average')}</div>
             <div class="stat-item-value">${stats.mean.toFixed(4)}</div>
         </div>
         <div class="stat-item">
-            <div class="stat-item-label">标准差</div>
+            <div class="stat-item-label">${t('stdDev')}</div>
             <div class="stat-item-value">${stats.stdDev.toFixed(4)}</div>
         </div>
         <div class="stat-item">
-            <div class="stat-item-label">最高值</div>
+            <div class="stat-item-label">${t('max')}</div>
             <div class="stat-item-value">${stats.max.toFixed(4)}</div>
         </div>
         <div class="stat-item">
-            <div class="stat-item-label">最低值</div>
+            <div class="stat-item-label">${t('min')}</div>
             <div class="stat-item-value">${stats.min.toFixed(4)}</div>
         </div>
     `;
@@ -393,6 +491,60 @@ function updateLastUpdateTime() {
     if (historicalData && historicalData.metadata) {
         const lastUpdate = historicalData.metadata.last_updated;
         const date = new Date(lastUpdate);
-        document.getElementById('last-update').textContent = date.toLocaleString('zh-CN');
+        document.getElementById('last-update').textContent = date.toLocaleString(labels().dateLocale);
     }
+}
+
+function labels() {
+    return I18N[currentLang] || I18N.en;
+}
+
+function t(key) {
+    return labels()[key] || key;
+}
+
+function applyStaticTranslations() {
+    const activeLabels = labels();
+    document.documentElement.lang = currentLang === 'zh' ? 'zh-CN' : 'en';
+    document.title = activeLabels.documentTitle;
+    renderLanguageSwitchUI(currentLang);
+    syncLanguageQuery(currentLang);
+
+    document.querySelectorAll('[data-i18n]').forEach((el) => {
+        const value = activeLabels[el.dataset.i18n];
+        if (value !== undefined) el.textContent = value;
+    });
+    refreshCurrencySelectLabels();
+    refreshTimeRangeLabels();
+}
+
+function refreshCurrencySelectLabels() {
+    document.querySelectorAll('#base-currency-select option, #currency-select option').forEach((option) => {
+        option.textContent = getCurrencyLabel(option.value);
+    });
+}
+
+function refreshTimeRangeLabels() {
+    const select = document.getElementById('timerange-select');
+    if (!select) return;
+    TIME_RANGE_OPTIONS.forEach((value) => {
+        const option = select.querySelector(`option[value="${value}"]`);
+        if (option) option.textContent = labels().rangeLabels[value] || String(value);
+    });
+}
+
+function bindLanguageSwitch() {
+    const root = document.getElementById('languageSwitch');
+    if (!root) return;
+    root.querySelectorAll('.lang-opt').forEach((button) => {
+        button.addEventListener('click', () => {
+            const nextLang = normalizeLanguage(button.dataset.lang);
+            if (!nextLang || nextLang === currentLang) return;
+            currentLang = nextLang;
+            saveLanguage(currentLang);
+            applyStaticTranslations();
+            updateTargetCurrencyOptions();
+            updateDashboard();
+        });
+    });
 }

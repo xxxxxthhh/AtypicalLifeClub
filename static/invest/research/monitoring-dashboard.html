@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -773,11 +773,11 @@
             </div>
             <nav class="shell-nav" aria-label="Page controls">
                 <div class="lang-switch" id="languageSwitch" role="group" aria-label="Language switch">
-                    <button class="lang-opt active" type="button" data-lang="zh" aria-pressed="true">中文</button>
+                    <button class="lang-opt" type="button" data-lang="zh" aria-pressed="false">中文</button>
                     <span class="divider">/</span>
-                    <button class="lang-opt" type="button" data-lang="en" aria-pressed="false">EN</button>
+                    <button class="lang-opt active" type="button" data-lang="en" aria-pressed="true">EN</button>
                 </div>
-                <button class="research-theme-toggle" id="researchThemeToggle" type="button" aria-label="切换主题">
+                <button class="research-theme-toggle" id="researchThemeToggle" type="button" aria-label="Toggle theme">
                     <span class="research-theme-mark" aria-hidden="true"></span>
                 </button>
             </nav>
@@ -1508,7 +1508,7 @@
             const todayX = scaledX(today, start, end, width, padding);
             const dots = points.map(({ report, date, x, stackRow }) => {
                 const y = plotBottom - 16 - stackRow * 14;
-                const title = `${report.company || report.id} · ${report.ticker || ""} · ${report.priceAsOf}`;
+                const title = `${reportCompanyName(report)} · ${report.ticker || ""} · ${report.priceAsOf}`;
                 return `
                     <a class="viz-dot-link" href="#verdict-${escapeHtml(report.id)}">
                         <title>${escapeHtml(title)}</title>
@@ -1587,7 +1587,7 @@
                     .map((entry, index) => {
                         const dotX = x + Math.floor(index / maxDotsPerColumn) * 14 - (miniColumns - 1) * 7;
                         const y = plotBottom - 16 - (index % maxDotsPerColumn) * 14;
-                        const title = `${entry.report.company || entry.report.id} · ${localize(entry.item.metric)}`;
+                        const title = `${reportCompanyName(entry.report)} · ${localize(entry.item.metric)}`;
                         return `
                             <a class="viz-dot-link" href="#crit-${escapeHtml(entry.report.id)}-${escapeHtml(entry.item.id)}">
                                 <title>${escapeHtml(title)}</title>
@@ -1664,7 +1664,7 @@
             return `
                 <div class="verdict-row" id="verdict-${escapeHtml(report.id)}">
                     <div class="verdict-name">
-                        <a href="${escapeHtml(reportUrl(report))}">${escapeHtml(report.company || report.id)}</a>
+                        <a href="${escapeHtml(reportUrl(report))}">${escapeHtml(reportCompanyName(report))}</a>
                         <span class="verdict-ticker">${escapeHtml(report.ticker || "")}</span>
                     </div>
                     <div>
@@ -1677,7 +1677,7 @@
                     </div>
                     <div>
                         <span class="verdict-cell-label">${escapeHtml(labels.reportedPeriod)}</span>
-                        <span>${escapeHtml(report.reportedPeriod || "—")}</span>
+                        <span>${escapeHtml(displayPlainText(report.reportedPeriod) || "—")}</span>
                     </div>
                     <div>
                         <span class="verdict-cell-label">${escapeHtml(labels.priceFact)}</span>
@@ -1736,7 +1736,7 @@
             return `
                 <tr>
                     <td class="ledger-company">
-                        <a href="${escapeHtml(reportUrl(report))}">${escapeHtml(report.company || report.id)}</a>
+                        <a href="${escapeHtml(reportUrl(report))}">${escapeHtml(reportCompanyName(report))}</a>
                         <span class="ledger-subtext">${escapeHtml(report.ticker || report.priceSymbol || report.id)}</span>
                     </td>
                     <td>${stanceChip(report)}</td>
@@ -1799,7 +1799,7 @@
             return `
                 <article class="rerun-row">
                     <div class="rerun-title">
-                        <a href="${escapeHtml(reportUrl(report))}">${escapeHtml(report.company || report.id)}</a>
+                        <a href="${escapeHtml(reportUrl(report))}">${escapeHtml(reportCompanyName(report))}</a>
                         <span class="ledger-subtext">${escapeHtml(report.ticker || report.priceSymbol || report.id)}</span>
                     </div>
                     <div class="rerun-facts">
@@ -1945,12 +1945,12 @@
                         anchor = `crit-group-theme-${entry.item.theme}`;
                     } else {
                         key = `report:${entry.report.id}`;
-                        title = `${labels.ungroupedTheme} · ${entry.report.company}`;
+                        title = `${labels.ungroupedTheme} · ${reportCompanyName(entry.report)}`;
                         anchor = `crit-group-report-${entry.report.id}`;
                     }
                 } else {
                     key = `report:${entry.report.id}`;
-                    title = `${entry.report.company} (${entry.report.ticker || entry.report.id})`;
+                    title = `${reportCompanyName(entry.report)} (${entry.report.ticker || entry.report.id})`;
                     anchor = `crit-group-report-${entry.report.id}`;
                 }
                 if (!groups.has(key)) groups.set(key, { title, anchor, entries: [] });
@@ -1991,12 +1991,12 @@
                 <tr id="crit-${escapeHtml(report.id)}-${escapeHtml(item.id)}">
                     <td>
                         <span class="criteria-metric">${escapeHtml(localize(item.metric))}</span>
-                        <a class="criteria-report-link" href="${escapeHtml(reportUrl(report))}">${escapeHtml(report.company)} · ${escapeHtml(report.ticker || report.id)}</a>
+                        <a class="criteria-report-link" href="${escapeHtml(reportUrl(report))}">${escapeHtml(reportCompanyName(report))} · ${escapeHtml(report.ticker || report.id)}</a>
                     </td>
                     <td><span class="chip">${escapeHtml(labels.theses[item.thesis] || item.thesis)}</span> ${themeChip} ${readChip}</td>
                     <td>${escapeHtml(localize(item.trigger))}</td>
                     <td>${escapeHtml(localize(item.latest))}</td>
-                    <td class="criteria-next">${escapeHtml(item.nextCheck || "—")}</td>
+                    <td class="criteria-next">${escapeHtml(displayPlainText(item.nextCheck) || "—")}</td>
                 </tr>
             `;
         }
@@ -2119,7 +2119,7 @@
             root.innerHTML = columns.map((report) => `
                 <article class="spotlight-col">
                     <div class="spotlight-head">
-                        <h3><a href="${escapeHtml(reportUrl(report))}">${escapeHtml(report.company)} (${escapeHtml(report.ticker || report.id)})</a></h3>
+                        <h3><a href="${escapeHtml(reportUrl(report))}">${escapeHtml(reportCompanyName(report))} (${escapeHtml(report.ticker || report.id)})</a></h3>
                         <div class="spotlight-meta">
                             <span class="chip">${escapeHtml(roleLabel(report.chainRole))}</span>
                             ${stanceChip(report)}
@@ -2154,7 +2154,7 @@
                     </div>
                     <p><strong>${escapeHtml(labels.colTrigger)}:</strong> ${escapeHtml(localize(item.trigger))}</p>
                     <p><strong>${escapeHtml(labels.colLatest)}:</strong> ${escapeHtml(localize(item.latest))}</p>
-                    <p><strong>${escapeHtml(labels.colNext)}:</strong> ${escapeHtml(item.nextCheck || "—")}</p>
+                    <p><strong>${escapeHtml(labels.colNext)}:</strong> ${escapeHtml(displayPlainText(item.nextCheck) || "—")}</p>
                 </div>
             `;
         }
@@ -2163,12 +2163,36 @@
 
         function localize(value) {
             if (!value) return "";
-            if (typeof value === "string") return value;
-            return value[currentLang] || value.zh || value.en || "";
+            if (typeof value === "string") return currentLang === "en" ? englishFromMixedString(value) : value;
+            if (currentLang === "en") return value.en || "";
+            return value.zh || value.en || "";
+        }
+
+        function reportCompanyName(report) {
+            const company = report.company || report.id || "";
+            if (currentLang !== "en" || !containsCjk(company)) return company;
+            const derived = String(report.titleEn || "").split(" Deep Research Report")[0].trim();
+            return derived || report.ticker || report.id || company;
+        }
+
+        function containsCjk(value) {
+            return /[\u3400-\u9fff]/u.test(String(value || ""));
+        }
+
+        function englishFromMixedString(value) {
+            const text = String(value || "");
+            if (!containsCjk(text)) return text;
+            const englishPart = text.split("/").map((part) => part.trim()).reverse().find((part) => part && !containsCjk(part) && /[A-Za-z]/.test(part));
+            return englishPart || "";
+        }
+
+        function displayPlainText(value) {
+            if (currentLang === "en") return englishFromMixedString(value);
+            return value || "";
         }
 
         function getLabels() {
-            return PAGE_LABELS[currentLang] || PAGE_LABELS.zh;
+            return PAGE_LABELS[currentLang] || PAGE_LABELS.en;
         }
 
         function setText(id, value) {

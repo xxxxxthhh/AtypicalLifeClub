@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -711,11 +711,11 @@
             </div>
             <nav class="shell-nav" aria-label="Page controls">
                 <div class="lang-switch" id="languageSwitch" role="group" aria-label="Language switch">
-                    <button class="lang-opt active" type="button" data-lang="zh" aria-pressed="true">中文</button>
+                    <button class="lang-opt" type="button" data-lang="zh" aria-pressed="false">中文</button>
                     <span class="divider">/</span>
-                    <button class="lang-opt" type="button" data-lang="en" aria-pressed="false">EN</button>
+                    <button class="lang-opt active" type="button" data-lang="en" aria-pressed="true">EN</button>
                 </div>
-                <button class="research-theme-toggle" id="researchThemeToggle" type="button" aria-label="切换主题">
+                <button class="research-theme-toggle" id="researchThemeToggle" type="button" aria-label="Toggle theme">
                     <span class="research-theme-mark" aria-hidden="true"></span>
                 </button>
             </nav>
@@ -727,8 +727,8 @@
             <div class="research-hero-top coverage-hero-top">
                 <div class="research-hero-copy coverage-hero-copy">
                     <div class="research-hero-kicker" id="pageKicker">AI INFRASTRUCTURE / COVERAGE</div>
-                    <h1 class="hero-title" id="pageTitle">AI 基建覆盖地图</h1>
-                    <p class="hero-subtitle" id="pageSubtitle">我们不是选股，而是把 AI 基建拆成一条有分工的价值链。</p>
+                    <h1 class="hero-title" id="pageTitle">AI Infrastructure Coverage Map</h1>
+                    <p class="hero-subtitle" id="pageSubtitle">This map breaks AI infrastructure into a researchable value chain.</p>
                     <div class="research-hero-stat-grid" id="coverageStats" aria-label="Coverage map statistics">
                         <div class="research-stat-card">
                             <div class="research-stat-value">--</div>
@@ -1069,7 +1069,7 @@
             const roleLabel = role ? localize(role.label) : (currentLang === "zh" ? "覆盖" : "Coverage");
             const mutedClass = roleMatches(report) ? "" : " chain-node-muted";
             const className = `chain-node-card ${roleClass(report.chainRole)}${mutedClass}`;
-            const title = `${report.company || report.id} · ${shortTicker(report.ticker)}`;
+            const title = `${reportCompanyName(report)} · ${shortTicker(report.ticker)}`;
 
             return `
                 <a class="${className}" href="${escapeHtml(reportUrl(report))}" title="${escapeHtml(title)}">
@@ -1280,7 +1280,7 @@
                         <div class="coverage-report-meta">
                             <span class="coverage-report-name">
                                 <span class="coverage-report-ticker">${escapeHtml(shortTicker(report.ticker || report.priceSymbol || report.id))}</span>
-                                <span class="coverage-company">${escapeHtml(report.company || report.id)}</span>
+                                <span class="coverage-company">${escapeHtml(reportCompanyName(report))}</span>
                             </span>
                             ${roleBadge}
                         </div>
@@ -1334,16 +1334,16 @@
 
             root.innerHTML = otherReports.map((report) => {
                 const title = currentLang === "en"
-                    ? report.titleEn || report.title || report.company
-                    : report.title || report.titleEn || report.company;
-                const meta = `${report.company || ""} (${report.ticker || ""}) · ${getLabels().updated} ${report.lastUpdate || report.date || ""}`;
+                    ? report.titleEn || report.title || reportCompanyName(report)
+                    : report.title || report.titleEn || reportCompanyName(report);
+                const meta = `${reportCompanyName(report)} (${report.ticker || ""}) · ${getLabels().updated} ${report.lastUpdate || report.date || ""}`;
                 return `
                     <li class="other-item">
                         <span>
                             <h3 class="other-title">${escapeHtml(title)}</h3>
                             <span class="other-meta">${escapeHtml(meta)}</span>
                         </span>
-                        <a class="read-more" href="${escapeHtml(report.file || "#")}">${escapeHtml(getLabels().readReport)}</a>
+                        <a class="read-more" href="${escapeHtml(reportUrl(report))}">${escapeHtml(getLabels().readReport)}</a>
                     </li>
                 `;
             }).join("");
@@ -1366,12 +1366,31 @@
 
         function localize(value) {
             if (!value) return "";
-            if (typeof value === "string") return value;
-            return value[currentLang] || value.zh || value.en || "";
+            if (typeof value === "string") return currentLang === "en" ? englishFromMixedString(value) : value;
+            if (currentLang === "en") return value.en || "";
+            return value.zh || value.en || "";
+        }
+
+        function reportCompanyName(report) {
+            const company = report.company || report.id || "";
+            if (currentLang !== "en" || !containsCjk(company)) return company;
+            const derived = String(report.titleEn || "").split(" Deep Research Report")[0].trim();
+            return derived || shortTicker(report.ticker || report.priceSymbol || report.id) || company;
+        }
+
+        function containsCjk(value) {
+            return /[\u3400-\u9fff]/u.test(String(value || ""));
+        }
+
+        function englishFromMixedString(value) {
+            const text = String(value || "");
+            if (!containsCjk(text)) return text;
+            const englishPart = text.split("/").map((part) => part.trim()).reverse().find((part) => part && !containsCjk(part) && /[A-Za-z]/.test(part));
+            return englishPart || "";
         }
 
         function getLabels() {
-            return PAGE_LABELS[currentLang] || PAGE_LABELS.zh;
+            return PAGE_LABELS[currentLang] || PAGE_LABELS.en;
         }
 
         function setText(id, value) {

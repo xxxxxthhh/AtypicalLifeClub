@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,13 +18,18 @@
                     <span class="shell-breadcrumb-separator">/</span>
                     <span class="shell-breadcrumb-current" aria-current="page">Research</span>
                 </div>
-                <span class="shell-brand-subtitle">Company Notes & Deep Dives</span>
+                <span class="shell-brand-subtitle" data-i18n="shellSubtitle">Company Notes & Deep Dives</span>
             </div>
             <nav class="shell-nav">
-                <a href="/invest/">返回 Invest</a>
+                <a href="/invest/" data-i18n="navBack">Back to Invest</a>
                 <a href="/invest/research/" class="active">Research</a>
                 <a href="/invest/currency/">Currency</a>
                 <a href="/invest/metals/">Metals</a>
+                <div class="lang-switch" id="languageSwitch" role="group" aria-label="Language switch">
+                    <button class="lang-opt" type="button" data-lang="zh" aria-pressed="false">中文</button>
+                    <span class="divider">/</span>
+                    <button class="lang-opt active" type="button" data-lang="en" aria-pressed="true">EN</button>
+                </div>
             </nav>
         </div>
     </header>
@@ -32,26 +37,26 @@
     <main class="shell">
         <section class="hero research-command-hero research-hero">
             <div class="research-hero-kicker">INVEST / RESEARCH</div>
-            <h1 class="hero-title">研报中心</h1>
-            <p class="hero-subtitle">统一展示公司研究，按主题筛选，详情页采用统一模板渲染 Markdown。</p>
+            <h1 class="hero-title" data-i18n="heroTitle">Research Center</h1>
+            <p class="hero-subtitle" data-i18n="heroSubtitle">Browse company research by theme. Report detail pages render Markdown through one shared reader.</p>
             <div class="hero-links">
-                <a class="hero-link" href="/invest/research/coverage-map.html">AI 基建覆盖地图 / 研究思路 <span class="hero-link-arrow" aria-hidden="true">→</span></a>
-                <a class="hero-link" href="/invest/research/monitoring-dashboard.html">全书监控仪表盘 <span class="hero-link-arrow" aria-hidden="true">→</span></a>
-                <a class="hero-link" href="/invest/research/reviews/">半年度复盘 <span class="hero-link-arrow" aria-hidden="true">→</span></a>
-                <a class="hero-link" href="/invest/research/feed.xml">RSS 订阅 <span class="hero-link-arrow" aria-hidden="true">→</span></a>
+                <a class="hero-link" href="/invest/research/coverage-map.html" data-i18n="coverageLink">AI Infrastructure Coverage Map <span class="hero-link-arrow" aria-hidden="true">→</span></a>
+                <a class="hero-link" href="/invest/research/monitoring-dashboard.html" data-i18n="monitoringLink">Book-Level Monitoring Dashboard <span class="hero-link-arrow" aria-hidden="true">→</span></a>
+                <a class="hero-link" href="/invest/research/reviews/" data-i18n="reviewsLink">Semiannual Reviews <span class="hero-link-arrow" aria-hidden="true">→</span></a>
+                <a class="hero-link" href="/invest/research/feed.xml" data-i18n="rssLink">RSS Feed <span class="hero-link-arrow" aria-hidden="true">→</span></a>
             </div>
             <div class="research-hero-stat-grid">
                 <div class="research-stat-card">
                     <div class="research-stat-value" id="reportCount">--</div>
-                    <div class="research-stat-label">研报数量</div>
+                    <div class="research-stat-label" data-i18n="statReports">Reports</div>
                 </div>
                 <div class="research-stat-card">
                     <div class="research-stat-value" id="companyCount">--</div>
-                    <div class="research-stat-label">覆盖公司</div>
+                    <div class="research-stat-label" data-i18n="statCompanies">Companies</div>
                 </div>
                 <div class="research-stat-card">
                     <div class="research-stat-value" id="updateDate">--</div>
-                    <div class="research-stat-label">最近更新</div>
+                    <div class="research-stat-label" data-i18n="statUpdated">Latest Update</div>
                 </div>
             </div>
         </section>
@@ -60,23 +65,24 @@
 
         <section class="section">
             <div class="research-header-row">
-                <h2>报告列表</h2>
-                <div class="filter-buttons" role="tablist" aria-label="研报分类筛选">
-                    <button class="filter-btn active" data-filter="all">全部</button>
-                    <button class="filter-btn" data-filter="nuclear">核能</button>
-                    <button class="filter-btn" data-filter="tech">科技</button>
-                    <button class="filter-btn" data-filter="energy">能源</button>
+                <h2 data-i18n="listTitle">Report List</h2>
+                <div class="filter-buttons" role="tablist" aria-label="Research category filter" data-i18n-aria-label="filterAria">
+                    <button class="filter-btn active" data-filter="all" data-i18n="filterAll">All</button>
+                    <button class="filter-btn" data-filter="nuclear" data-i18n="filterNuclear">Nuclear</button>
+                    <button class="filter-btn" data-filter="tech" data-i18n="filterTech">Technology</button>
+                    <button class="filter-btn" data-filter="energy" data-i18n="filterEnergy">Energy</button>
                 </div>
             </div>
             <div class="index-toolbar">
-                <input type="search" id="reportSearch" class="report-search" placeholder="搜索代码 / 公司 / 标题" aria-label="搜索研报">
-                <div class="letter-strip" id="letterStrip" role="group" aria-label="按代码首字母筛选"></div>
+                <input type="search" id="reportSearch" class="report-search" placeholder="Search ticker / company / title" aria-label="Search reports" data-i18n-placeholder="searchPlaceholder" data-i18n-aria-label="searchAria">
+                <div class="letter-strip" id="letterStrip" role="group" aria-label="Filter by ticker initial" data-i18n-aria-label="letterAria"></div>
             </div>
             <div class="reports-grid" id="reportsGrid"></div>
         </section>
     </main>
 
     <script src="/shared/theme-switcher.js"></script>
+    <script src="/shared/lang-switch.js"></script>
     <script src="/shared/report-utils.js"></script>
     <script src="/invest/research/tracking-rules.js"></script>
     <script src="/invest/research/app.js"></script>

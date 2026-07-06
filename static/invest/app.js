@@ -65,7 +65,7 @@ const statsState = {
   metalsUpdatedRaw: null,
 };
 
-let currentLang = "zh";
+let currentLang = "en";
 
 function setText(id, value) {
   const el = document.getElementById(id);
@@ -75,7 +75,7 @@ function setText(id, value) {
 }
 
 function getMessages() {
-  return I18N[currentLang] || I18N.zh;
+  return I18N[currentLang] || I18N.en;
 }
 
 function applyTranslations() {

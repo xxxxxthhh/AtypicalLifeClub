@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>复盘 Reviews | Invest Research</title>
+    <title>Reviews | Invest Research</title>
     <link rel="stylesheet" href="/invest/theme-adapter.css">
     <link rel="stylesheet" href="/invest/styles.css">
     <link rel="stylesheet" href="/invest/research/styles.css">
@@ -24,15 +24,20 @@
                     <span class="shell-breadcrumb-separator">/</span>
                     <a class="shell-breadcrumb-link" href="/invest/research/">Research</a>
                     <span class="shell-breadcrumb-separator">/</span>
-                    <span class="shell-breadcrumb-current" aria-current="page">复盘 Reviews</span>
+                    <span class="shell-breadcrumb-current" aria-current="page" id="breadcrumbCurrent">Reviews</span>
                 </div>
-                <span class="shell-brand-subtitle">Semi-annual Reviews</span>
+                <span class="shell-brand-subtitle" id="shellSubtitle">Semi-annual Reviews</span>
             </div>
             <nav class="shell-nav">
-                <a href="/invest/">返回 Invest</a>
+                <a href="/invest/" id="navBack">Back to Invest</a>
                 <a href="/invest/research/">Research</a>
                 <a href="/invest/currency/">Currency</a>
                 <a href="/invest/metals/">Metals</a>
+                <div class="lang-switch" id="pageLanguageSwitch" role="group" aria-label="Language switch">
+                    <button class="lang-opt" type="button" data-lang="zh" aria-pressed="false">中文</button>
+                    <span class="divider">/</span>
+                    <button class="lang-opt active" type="button" data-lang="en" aria-pressed="true">EN</button>
+                </div>
             </nav>
         </div>
     </header>
@@ -42,10 +47,63 @@
     <script src="/shared/theme-switcher.js"></script>
     <script>
         const REVIEWS_DATA_URL = '/invest/research/reviews/reviews.json';
+        const LANG_QUERY_KEY = 'lang';
+        const LANG_STORAGE_KEY = 'invest_home_lang';
         const SUPPORTED_LANGS = ['zh', 'en'];
+        const PAGE_LABELS = {
+            zh: {
+                documentTitle: '复盘 Reviews | Invest Research',
+                breadcrumbCurrent: '复盘 Reviews',
+                shellSubtitle: '半年度复盘',
+                navBack: '返回 Invest',
+                loadReviewsError: (status) => `加载 reviews.json 失败: HTTP ${status}`,
+                invalidReviews: 'reviews.json 不是有效数组',
+                missingReview: (id) => `未找到复盘: ${id}`,
+                errorSuffix: '请返回复盘列表。',
+                backToList: '返回复盘列表',
+                fallbackPeriod: '复盘',
+                published: '发布',
+                readReview: '阅读复盘',
+                listHeroTitle: '复盘中心',
+                listHeroSubtitle: '每半年一次，对研报中心覆盖标的做一次事后归因：识别了哪些机会、哪些超出/不及预期、方法论上有什么系统性偏差。与研报列表分开维护。',
+                listTitle: '复盘列表',
+                empty: '暂无复盘。',
+                sections: '复盘目录',
+                allReviews: '← 复盘列表',
+                print: '打印复盘',
+                badge: '半年度复盘'
+            },
+            en: {
+                documentTitle: 'Reviews | Invest Research',
+                breadcrumbCurrent: 'Reviews',
+                shellSubtitle: 'Semi-annual Reviews',
+                navBack: 'Back to Invest',
+                loadReviewsError: (status) => `Failed to load reviews.json: HTTP ${status}`,
+                invalidReviews: 'reviews.json is not a valid array',
+                missingReview: (id) => `Review not found: ${id}`,
+                errorSuffix: 'Please return to the review list.',
+                backToList: 'review list',
+                fallbackPeriod: 'Review',
+                published: 'Published',
+                readReview: 'Read review',
+                listHeroTitle: 'Review Center',
+                listHeroSubtitle: 'Semi-annual postmortems for research-center coverage: what worked, what surprised us, and where the method showed systematic bias. Kept separate from the report list.',
+                listTitle: 'Review List',
+                empty: 'No reviews yet.',
+                sections: 'Sections',
+                allReviews: '← All reviews',
+                print: 'Print',
+                badge: 'Semi-annual review'
+            }
+        };
         let reviews = [];
+        let currentLang = chooseInitialLanguage();
 
-        document.addEventListener('DOMContentLoaded', init);
+        document.addEventListener('DOMContentLoaded', () => {
+            bindPageLanguageSwitch();
+            applyShellLanguage();
+            init();
+        });
         window.addEventListener('popstate', init);
 
         async function init() {
@@ -53,57 +111,66 @@
             try {
                 if (!reviews.length) {
                     const res = await fetch(REVIEWS_DATA_URL, { cache: 'no-store' });
-                    if (!res.ok) throw new Error(`加载 reviews.json 失败: HTTP ${res.status}`);
+                    if (!res.ok) throw new Error(t('loadReviewsError', res.status));
                     reviews = await res.json();
-                    if (!Array.isArray(reviews)) throw new Error('reviews.json 不是有效数组');
+                    if (!Array.isArray(reviews)) throw new Error(t('invalidReviews'));
                 }
                 const params = new URLSearchParams(location.search);
+                const requestedLang = params.get('lang');
+                currentLang = normalizeLanguage(requestedLang) || currentLang;
+                applyShellLanguage();
                 const id = params.get('id');
                 if (!id) { renderList(root); return; }
                 const review = reviews.find((r) => r.id === id);
-                if (!review) throw new Error(`未找到复盘: ${id}`);
-                await renderDetail(root, review, chooseLang(params.get('lang'), review.markdownFiles));
+                if (!review) throw new Error(t('missingReview', id));
+                const lang = chooseLang(currentLang, review.markdownFiles);
+                currentLang = lang;
+                applyShellLanguage();
+                await renderDetail(root, review, lang);
             } catch (err) {
                 console.error(err);
                 root.className = 'shell';
-                root.innerHTML = `<section class="section"><p style="color:#d43f3a;">${escapeHtml(err.message)}。请<a href="/invest/research/reviews/">返回复盘列表</a>。</p></section>`;
+                root.innerHTML = `<section class="section"><p style="color:#d43f3a;">${escapeHtml(err.message)}. ${escapeHtml(t('errorSuffix'))} <a href="${escapeHtml(listUrl())}">${escapeHtml(t('backToList'))}</a>.</p></section>`;
             }
         }
 
         function chooseLang(requested, files) {
             if (SUPPORTED_LANGS.includes(requested) && files[requested]) return requested;
-            return files.zh ? 'zh' : 'en';
+            return files.en ? 'en' : 'zh';
         }
 
         function renderList(root) {
             root.className = 'shell';
-            document.title = '复盘 Reviews | Invest Research';
+            document.title = t('documentTitle');
             const sorted = [...reviews].sort((a, b) => String(b.date).localeCompare(String(a.date)));
-            const cards = sorted.map((r) => `
-                <article class="report-card report-card-clickable" data-href="?id=${encodeURIComponent(r.id)}" tabindex="0" role="link" aria-label="${escapeHtml(r.title)}">
+            const lang = currentLang;
+            const cards = sorted.map((r) => {
+                const tags = lang === 'zh' ? (r.tags || []) : [];
+                return `
+                <article class="report-card report-card-clickable" data-href="${escapeHtml(reviewUrl(r.id, lang))}" tabindex="0" role="link" aria-label="${escapeHtml(reviewTitle(r, lang))}">
                     <div class="report-main">
                         <div class="report-headline">
-                            <div class="report-company">${escapeHtml(r.title)}</div>
-                            <span class="report-category">${escapeHtml(r.period || '复盘')}</span>
+                            <div class="report-company">${escapeHtml(reviewTitle(r, lang))}</div>
+                            <span class="report-category">${escapeHtml(r.period || t('fallbackPeriod'))}</span>
                         </div>
-                        <h3 class="report-title">${escapeHtml(r.titleEn || '')}</h3>
-                        <p class="report-summary">${escapeHtml(r.summary || '')}</p>
-                        <div class="report-meta"><span>发布 ${escapeHtml(r.date || '')}</span></div>
-                        <div class="report-tags">${(r.tags || []).map((t) => `<span class="tag">${escapeHtml(t)}</span>`).join('')}</div>
+                        <p class="report-summary">${escapeHtml(reviewSummary(r, lang))}</p>
+                        <div class="report-meta"><span>${escapeHtml(t('published'))} ${escapeHtml(r.date || '')}</span></div>
+                        <div class="report-tags">${tags.map((t) => `<span class="tag">${escapeHtml(t)}</span>`).join('')}</div>
                     </div>
                     <div class="report-footer">
-                        <a href="?id=${encodeURIComponent(r.id)}" class="read-more">阅读复盘</a>
+                        <a href="${escapeHtml(reviewUrl(r.id, lang))}" class="read-more">${escapeHtml(t('readReview'))}</a>
                         <span class="update-badge">ID: ${escapeHtml(r.id)}</span>
                     </div>
-                </article>`).join('');
+                </article>`;
+            }).join('');
             root.innerHTML = `
                 <section class="hero research-hero">
-                    <h1 class="hero-title">复盘中心</h1>
-                    <p class="hero-subtitle">每半年一次，对研报中心覆盖标的做一次事后归因：识别了哪些机会、哪些超出/不及预期、方法论上有什么系统性偏差。与研报列表分开维护。</p>
+                    <h1 class="hero-title">${escapeHtml(t('listHeroTitle'))}</h1>
+                    <p class="hero-subtitle">${escapeHtml(t('listHeroSubtitle'))}</p>
                 </section>
                 <section class="section">
-                    <div class="research-header-row"><h2>复盘列表</h2></div>
-                    <div class="reports-grid">${cards || '<div class="empty-state">暂无复盘。</div>'}</div>
+                    <div class="research-header-row"><h2>${escapeHtml(t('listTitle'))}</h2></div>
+                    <div class="reports-grid">${cards || `<div class="empty-state">${escapeHtml(t('empty'))}</div>`}</div>
                 </section>`;
             bindCardNavigation(root);
         }
@@ -125,6 +192,8 @@
         }
 
         async function renderDetail(root, review, lang) {
+            currentLang = lang;
+            applyShellLanguage();
             const res = await fetch(review.markdownFiles[lang], { cache: 'no-store' });
             if (!res.ok) throw new Error(`加载复盘正文失败: HTTP ${res.status}`);
             const raw = await res.text();
@@ -136,19 +205,19 @@
             root.className = 'shell report-layout';
             root.innerHTML = `
                 <aside class="toc-panel">
-                    <div class="toc-header">${lang === 'en' ? 'Sections' : '复盘目录'}</div>
+                    <div class="toc-header">${escapeHtml(t('sections'))}</div>
                     <nav id="tableOfContents"></nav>
-                    <a class="button" href="/invest/research/reviews/" id="backToList" style="text-align:center;">${lang === 'en' ? '← All reviews' : '← 复盘列表'}</a>
-                    <button class="button" type="button" onclick="window.print()">${lang === 'en' ? 'Print' : '打印复盘'}</button>
+                    <a class="button" href="${escapeHtml(listUrl(lang))}" id="backToList" style="text-align:center;">${escapeHtml(t('allReviews'))}</a>
+                    <button class="button" type="button" onclick="window.print()">${escapeHtml(t('print'))}</button>
                 </aside>
                 <article class="report-panel">
                     <header class="report-hero">
                         <div class="report-hero-controls">
-                            <div class="report-badge">${lang === 'en' ? 'Semi-annual review' : '半年度复盘'}</div>
+                            <div class="report-badge">${escapeHtml(t('badge'))}</div>
                             <div class="switch-group">
                                 <div class="language-switch" id="languageSwitch" role="group" aria-label="Language switch">
-                                    <button class="lang-btn${lang === 'zh' ? ' active' : ''}" type="button" data-lang="zh"${review.markdownFiles.zh ? '' : ' disabled'}>中文</button>
-                                    <button class="lang-btn${lang === 'en' ? ' active' : ''}" type="button" data-lang="en"${review.markdownFiles.en ? '' : ' disabled'}>EN</button>
+                                    <button class="lang-btn${lang === 'zh' ? ' active' : ''}" type="button" data-lang="zh" aria-pressed="${lang === 'zh' ? 'true' : 'false'}"${review.markdownFiles.zh ? '' : ' disabled'}>中文</button>
+                                    <button class="lang-btn${lang === 'en' ? ' active' : ''}" type="button" data-lang="en" aria-pressed="${lang === 'en' ? 'true' : 'false'}"${review.markdownFiles.en ? '' : ' disabled'}>EN</button>
                                 </div>
                             </div>
                         </div>
@@ -164,7 +233,9 @@
                 btn.addEventListener('click', () => {
                     const target = btn.dataset.lang;
                     if (btn.disabled || target === lang) return;
-                    const url = `?id=${encodeURIComponent(review.id)}&lang=${target}`;
+                    currentLang = target;
+                    saveLanguage(target);
+                    const url = reviewUrl(review.id, target);
                     navigate(url);
                 });
             });
@@ -187,6 +258,84 @@
                 metaLines.push(t);
             });
             return { title, metaLines, body };
+        }
+
+        function labels() {
+            return PAGE_LABELS[currentLang] || PAGE_LABELS.en;
+        }
+
+        function t(key, ...args) {
+            const value = labels()[key];
+            return typeof value === 'function' ? value(...args) : value || key;
+        }
+
+        function normalizeLanguage(value) {
+            const lang = String(value || '').toLowerCase();
+            return SUPPORTED_LANGS.includes(lang) ? lang : '';
+        }
+
+        function chooseInitialLanguage() {
+            const params = new URLSearchParams(location.search);
+            const fromQuery = normalizeLanguage(params.get(LANG_QUERY_KEY));
+            if (fromQuery) return fromQuery;
+            try {
+                const fromStorage = normalizeLanguage(localStorage.getItem(LANG_STORAGE_KEY));
+                if (fromStorage) return fromStorage;
+            } catch (error) {
+                // localStorage may be unavailable in private or restricted browser contexts.
+            }
+            return 'en';
+        }
+
+        function saveLanguage(lang) {
+            try {
+                localStorage.setItem(LANG_STORAGE_KEY, lang);
+            } catch (error) {
+                // localStorage may be unavailable in private or restricted browser contexts.
+            }
+        }
+
+        function applyShellLanguage() {
+            document.documentElement.lang = currentLang === 'zh' ? 'zh-CN' : 'en';
+            document.title = t('documentTitle');
+            document.getElementById('breadcrumbCurrent').textContent = t('breadcrumbCurrent');
+            document.getElementById('shellSubtitle').textContent = t('shellSubtitle');
+            document.getElementById('navBack').textContent = t('navBack');
+            document.querySelectorAll('#pageLanguageSwitch .lang-opt').forEach((button) => {
+                const active = button.dataset.lang === currentLang;
+                button.classList.toggle('active', active);
+                button.setAttribute('aria-pressed', active ? 'true' : 'false');
+            });
+        }
+
+        function bindPageLanguageSwitch() {
+            document.querySelectorAll('#pageLanguageSwitch .lang-opt').forEach((button) => {
+                button.addEventListener('click', () => {
+                    const nextLang = normalizeLanguage(button.dataset.lang);
+                    if (!nextLang || nextLang === currentLang) return;
+                    currentLang = nextLang;
+                    saveLanguage(currentLang);
+                    const params = new URLSearchParams(location.search);
+                    params.set('lang', currentLang);
+                    navigate(`${location.pathname}?${params.toString()}`);
+                });
+            });
+        }
+
+        function reviewTitle(review, lang = currentLang) {
+            return lang === 'en' ? review.titleEn || review.title || '' : review.title || review.titleEn || '';
+        }
+
+        function reviewSummary(review, lang = currentLang) {
+            return lang === 'en' ? review.summaryEn || review.summary || '' : review.summary || review.summaryEn || '';
+        }
+
+        function reviewUrl(id, lang = currentLang) {
+            return `?id=${encodeURIComponent(id)}&lang=${encodeURIComponent(lang)}`;
+        }
+
+        function listUrl(lang = currentLang) {
+            return `/invest/research/reviews/?lang=${encodeURIComponent(lang)}`;
         }
 
         function buildToc() {

@@ -20,7 +20,7 @@ function chooseInitialLanguage() {
         // localStorage may be unavailable in private or restricted browser contexts.
     }
 
-    return "zh";
+    return "en";
 }
 
 function saveLanguage(lang) {

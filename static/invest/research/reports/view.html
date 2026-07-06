@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>研究报告</title>
+    <title>Research Report</title>
     <link rel="stylesheet" href="/invest/theme-adapter.css">
     <link rel="stylesheet" href="/invest/styles.css">
     <link rel="stylesheet" href="/invest/research/report-style.css">
@@ -29,7 +29,7 @@
                     <span class="divider">/</span>
                     <button class="lang-btn" type="button" data-lang="en">EN</button>
                 </div>
-                <button class="research-theme-toggle" id="researchThemeToggle" type="button" aria-label="切换主题">
+                <button class="research-theme-toggle" id="researchThemeToggle" type="button" aria-label="Toggle theme">
                     <span class="research-theme-mark" aria-hidden="true"></span>
                 </button>
             </nav>
@@ -38,24 +38,24 @@
 
     <main class="shell report-layout">
         <aside class="toc-panel">
-            <div class="toc-header" id="tocHeader">研究模块</div>
+            <div class="toc-header" id="tocHeader">Research Modules</div>
             <nav id="tableOfContents"></nav>
             <div class="toc-controls">
                 <div class="view-switch toc-view-switch" id="viewSwitch" role="group" aria-label="Report reading mode" hidden>
-                    <button class="view-btn" type="button" data-view="module">模块阅读</button>
-                    <button class="view-btn" type="button" data-view="full">完整报告</button>
+                    <button class="view-btn" type="button" data-view="module">Module View</button>
+                    <button class="view-btn" type="button" data-view="full">Full Report</button>
                 </div>
-                <a class="archive-link" id="archiveLink" href="#" hidden>上一版归档</a>
+                <a class="archive-link" id="archiveLink" href="#" hidden>Previous Archive</a>
             </div>
         </aside>
 
         <article class="report-panel">
             <header class="report-hero">
                 <div class="report-hero-controls">
-                    <div class="report-badge">个人研究笔记</div>
+                    <div class="report-badge">Personal Research Note</div>
                     <div class="report-stance" id="reportStance" hidden></div>
                 </div>
-                <h1 id="heroTitle">加载中...</h1>
+                <h1 id="heroTitle">Loading...</h1>
                 <h2 id="heroSubtitle"></h2>
                 <div class="report-meta-info" id="heroMeta"></div>
                 <div class="previous-report-preview" id="previousReportPreview" hidden></div>
@@ -224,7 +224,7 @@
         ];
 
         let currentReport = null;
-        let currentLang = 'zh';
+        let currentLang = 'en';
         let currentView = 'module';
         let currentModuleId = 'overview';
         let currentModuleDiffOpen = false;
@@ -322,9 +322,9 @@
             if (SUPPORTED_LANGS.includes(requestedLang) && markdownFiles[requestedLang]) {
                 return requestedLang;
             }
-            if (markdownFiles.zh) return 'zh';
             if (markdownFiles.en) return 'en';
-            return 'zh';
+            if (markdownFiles.zh) return 'zh';
+            return 'en';
         }
 
         function chooseView(requestedView, report) {
@@ -691,7 +691,8 @@
             const title = lang === 'en'
                 ? (report.titleEn || report.title || report.company)
                 : (report.title || report.titleZh || report.company);
-            heroTitle.textContent = title || '研究报告';
+            document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+            heroTitle.textContent = title || (lang === 'en' ? 'Research Report' : '研究报告');
             heroSubtitle.textContent = report.company || '';
             document.title = `${title || 'Research Report'} | Invest`;
             const breadcrumbCurrent = document.getElementById('reportBreadcrumbCurrent');
@@ -882,7 +883,9 @@
                 const buttonLang = button.dataset.lang;
                 const available = !!(report.markdownFiles && report.markdownFiles[buttonLang]);
                 button.disabled = !available;
-                button.classList.toggle('active', buttonLang === lang);
+                const active = buttonLang === lang;
+                button.classList.toggle('active', active);
+                button.setAttribute('aria-pressed', active ? 'true' : 'false');
             });
         }
 
