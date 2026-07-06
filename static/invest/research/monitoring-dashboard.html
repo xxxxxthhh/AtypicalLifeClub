@@ -100,6 +100,14 @@
             color: var(--content);
         }
 
+        .verdict-distribution {
+            margin: 0.4rem 0 0;
+            color: var(--secondary);
+            font-family: var(--research-mono, ui-monospace, "SF Mono", Menlo, Consolas, monospace);
+            font-size: 0.76rem;
+            letter-spacing: 0.02em;
+        }
+
         .viz-module {
             margin-top: 1rem;
             border: 1px solid var(--border);
@@ -809,7 +817,8 @@
                     <h2 id="verdictHeading">Verdict Board</h2>
                     <span class="research-section-rule" aria-hidden="true"></span>
                 </div>
-                <p id="verdictIntro">按链条层级列出每篇报告的公开立场、价格快照日期与所反映的财报期。</p>
+                <p id="verdictIntro">按立场（看多 → 回避）分组列出每篇报告的公开判断、确信度、价格快照日期与所反映的财报期。</p>
+                <p class="verdict-distribution" id="verdictDistribution" hidden></p>
             </div>
             <div class="viz-module" id="freshnessStrip">
                 <div class="loading-state">Loading freshness strip...</div>
@@ -956,7 +965,9 @@
                 rerunStat: "复核候选",
                 signalStat: "信号记录",
                 verdictHeading: "判断与新鲜度总览",
-                verdictIntro: "按链条层级列出每篇报告的公开立场、价格快照日期与所反映的财报期。",
+                verdictIntro: "按立场（看多 → 回避）分组列出每篇报告的公开判断、确信度、价格快照日期与所反映的财报期。",
+                distributionLabel: "立场分布",
+                noStanceLabel: "未标注立场",
                 freshnessCaption: "价格快照日期越靠左越早；圆点只表达日期，不表达好坏。",
                 todayLabel: "今天",
                 stanceLedgerHeading: "立场价格台账",
@@ -1023,10 +1034,17 @@
                 toCoverageMap: "查看覆盖地图",
                 disclaimer: "免责声明：本页仅用于研究框架展示和信息交流，不构成任何投资建议，请自行完成尽职调查。",
                 stances: {
-                    "constructive": "建设性",
-                    "neutral-watch": "中性 / 观察",
-                    "high-risk-watch": "高风险 / 观察",
-                    "bearish-avoid": "偏熊 / 回避-观察"
+                    "bullish": "看多",
+                    "constructive": "偏多",
+                    "neutral-watch": "中性观察",
+                    "cautious": "谨慎",
+                    "high-risk-watch": "高风险观察",
+                    "bearish-avoid": "回避"
+                },
+                convictions: {
+                    "high": "高确信",
+                    "medium": "中确信",
+                    "low": "低确信"
                 },
                 themes: {
                     "concentration": "客户集中",
@@ -1052,7 +1070,9 @@
                 rerunStat: "Rerun candidates",
                 signalStat: "Signals",
                 verdictHeading: "Verdict Board",
-                verdictIntro: "Each report's published stance, price-snapshot date, and reported fiscal period, grouped by chain layer.",
+                verdictIntro: "Each report's published stance and conviction, price-snapshot date, and reported fiscal period, grouped by stance (bullish → avoid).",
+                distributionLabel: "Stance distribution",
+                noStanceLabel: "No stance",
                 freshnessCaption: "Older price snapshots sit farther left; dots encode date only, not quality.",
                 todayLabel: "today",
                 stanceLedgerHeading: "Stance Price Ledger",
@@ -1119,10 +1139,17 @@
                 toCoverageMap: "View coverage map",
                 disclaimer: "Disclaimer: This page is for research-framework display and information exchange only. It does not constitute investment advice. Please conduct your own due diligence.",
                 stances: {
+                    "bullish": "Bullish",
                     "constructive": "Constructive",
-                    "neutral-watch": "Neutral / watch",
-                    "high-risk-watch": "High-risk / watch",
-                    "bearish-avoid": "Bear-leaning / avoid-watch"
+                    "neutral-watch": "Neutral",
+                    "cautious": "Cautious",
+                    "high-risk-watch": "High-Risk Watch",
+                    "bearish-avoid": "Avoid"
+                },
+                convictions: {
+                    "high": "High conviction",
+                    "medium": "Medium conviction",
+                    "low": "Low conviction"
                 },
                 themes: {
                     "concentration": "Concentration",
@@ -1323,7 +1350,11 @@
         function stanceChip(report) {
             const labels = getLabels();
             if (!report.stance) return "";
-            const text = labels.stances[report.stance] || report.stance;
+            const stanceText = labels.stances[report.stance] || report.stance;
+            const convictionText = report.conviction
+                ? labels.convictions[report.conviction] || report.conviction
+                : "";
+            const text = convictionText ? `${stanceText} · ${convictionText}` : stanceText;
             return `<span class="chip chip-stance">${escapeHtml(text)}</span>`;
         }
 
@@ -1621,26 +1652,39 @@
 
         /* ---------- view 1: verdict board ---------- */
 
+        // Stance v2 board order (bullish -> avoid); the legacy value stays readable
+        // until the backfill retires it from top-level stances.
+        const STANCE_BOARD_ORDER = [
+            "bullish",
+            "constructive",
+            "neutral-watch",
+            "cautious",
+            "high-risk-watch",
+            "bearish-avoid"
+        ];
+
         function renderVerdictBoard() {
             const root = document.getElementById("verdictStack");
             const labels = getLabels();
             if (!root) return;
 
-            const byLayer = new Map();
+            const byStance = new Map();
             state.chainReports.forEach((report) => {
-                if (!byLayer.has(report.chainLayer)) byLayer.set(report.chainLayer, []);
-                byLayer.get(report.chainLayer).push(report);
+                const stance = report.stance || "none";
+                if (!byStance.has(stance)) byStance.set(stance, []);
+                byStance.get(stance).push(report);
             });
 
-            const orderedLayerIds = state.layers.map((layer) => layer.id).filter((id) => byLayer.has(id));
-            byLayer.forEach((_, id) => {
-                if (!orderedLayerIds.includes(id)) orderedLayerIds.push(id);
+            const orderedStances = STANCE_BOARD_ORDER.filter((stance) => byStance.has(stance));
+            byStance.forEach((_, stance) => {
+                if (!orderedStances.includes(stance)) orderedStances.push(stance);
             });
 
-            const html = orderedLayerIds.map((layerId) => {
-                const layer = state.layers.find((l) => l.id === layerId);
-                const layerTitle = layer ? localize(layer.title) : layerId;
-                const rows = byLayer.get(layerId)
+            const html = orderedStances.map((stance) => {
+                const stanceTitle = stance === "none"
+                    ? labels.noStanceLabel
+                    : labels.stances[stance] || stance;
+                const rows = byStance.get(stance)
                     .slice()
                     .sort((a, b) => (a.company || "").localeCompare(b.company || ""))
                     .map(renderVerdictRow)
@@ -1648,8 +1692,8 @@
                 return `
                     <article class="verdict-layer">
                         <div class="verdict-layer-header">
-                            <h3 class="verdict-layer-title">${escapeHtml(layerTitle)}</h3>
-                            <span class="chip">${escapeHtml(labels.reportsCount(byLayer.get(layerId).length))}</span>
+                            <h3 class="verdict-layer-title">${escapeHtml(stanceTitle)}</h3>
+                            <span class="chip">${escapeHtml(labels.reportsCount(byStance.get(stance).length))}</span>
                         </div>
                         <div class="verdict-rows">${rows}</div>
                     </article>
@@ -1657,6 +1701,27 @@
             }).join("");
 
             root.innerHTML = html || `<div class="empty-state">${escapeHtml(labels.emptyBoard)}</div>`;
+            renderVerdictDistribution(byStance);
+        }
+
+        function renderVerdictDistribution(byStance) {
+            const root = document.getElementById("verdictDistribution");
+            const labels = getLabels();
+            if (!root) return;
+            if (!state.chainReports.length) {
+                root.hidden = true;
+                root.textContent = "";
+                return;
+            }
+            // Plain counts, zeros included for the v2 enum: the imbalance is the point.
+            const parts = STANCE_BOARD_ORDER
+                .filter((stance) => stance !== "high-risk-watch" || byStance.has(stance))
+                .map((stance) => `${labels.stances[stance] || stance} ${(byStance.get(stance) || []).length}`);
+            if (byStance.has("none")) {
+                parts.push(`${labels.noStanceLabel} ${byStance.get("none").length}`);
+            }
+            root.hidden = false;
+            root.textContent = `${labels.distributionLabel}: ${parts.join(" · ")}`;
         }
 
         function renderVerdictRow(report) {

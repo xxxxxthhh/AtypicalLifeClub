@@ -41,7 +41,14 @@ PREVIOUS_REPORT_FIELDS = [
 ]
 
 # Phase 0 enrichment fields (docs/research-hub-enhancement-plan.md, Part A).
-STANCE_VALUES = {"constructive", "neutral-watch", "high-risk-watch", "bearish-avoid"}
+# v5 stance schema (docs/research-hub-v5-stance-conviction-plan.md, Track 1):
+# the 5-value skew-shaped enum replaces the legacy 4-value set; legacy values stay
+# tolerated (top-level while ENFORCE_STANCE_V2 is off, stanceHistory forever).
+STANCE_V2_VALUES = {"bullish", "constructive", "neutral-watch", "cautious", "bearish-avoid"}
+LEGACY_STANCE_VALUES = {"constructive", "neutral-watch", "high-risk-watch", "bearish-avoid"}
+STANCE_VALUES = STANCE_V2_VALUES | LEGACY_STANCE_VALUES
+CONVICTION_VALUES = {"high", "medium", "low"}
+STANCE_TRIGGER_KEYS = {"upgrade", "downgrade"}
 THESIS_VALUES = {"bull", "bear", "either"}
 THEME_VALUES = {
     "concentration",
@@ -65,11 +72,22 @@ MARKDOWN_URL_PREFIX = "/invest/research/"
 # the migration never leaves CI red; keep True once flipped.
 ENFORCE_CHAIN_ENRICHMENT = True
 ENFORCE_COVERAGE_TIER = True
+# Stance v2 requirements (spec §2.3): warn-first while the 35 current-chain reports
+# are backfilled report-by-report; flip to True once they all pass. Structural checks
+# on the new fields stay hard regardless of the flag — only the presence/migration
+# requirements are gated (same rollout pattern as ENFORCE_CHAIN_ENRICHMENT).
+ENFORCE_STANCE_V2 = False
 
 
 def fail(message):
     print(f"FAIL: {message}")
     sys.exit(1)
+
+
+def stance_v2_issue(message):
+    if ENFORCE_STANCE_V2:
+        fail(message)
+    print(f"WARN: {message}")
 
 
 def parse_date(value, field_name):
@@ -208,6 +226,102 @@ def validate_monitoring(report, report_idx):
             fail(f"{item_prefix}.theme must be one of {sorted(THEME_VALUES)}: {theme}")
 
 
+def validate_stance_triggers(report, report_idx):
+    triggers = report["stanceTriggers"]
+    prefix = f"report[{report_idx}].stanceTriggers"
+    if not isinstance(triggers, dict) or not triggers:
+        fail(f"{prefix} must be a non-empty object")
+    for key in triggers:
+        if key not in STANCE_TRIGGER_KEYS:
+            fail(f"{prefix} has unknown key (allowed: {sorted(STANCE_TRIGGER_KEYS)}): {key}")
+    for key, value in triggers.items():
+        validate_bilingual_text(value, f"{prefix}.{key}")
+
+
+def validate_stance_history(report, report_idx):
+    history = report["stanceHistory"]
+    prefix = f"report[{report_idx}].stanceHistory"
+    if not isinstance(history, list) or not history:
+        fail(f"{prefix} must be a non-empty array")
+
+    previous_date = None
+    for entry_idx, entry in enumerate(history):
+        entry_prefix = f"{prefix}[{entry_idx}]"
+        if not isinstance(entry, dict):
+            fail(f"{entry_prefix} must be an object")
+
+        is_last = entry_idx == len(history) - 1
+        # Legacy carve-out (spec §2.3): history is evidence and is never rewritten, so
+        # non-last entries may keep legacy stance values and omit conviction.
+        allowed_stances = STANCE_V2_VALUES if is_last else STANCE_VALUES
+        stance = entry.get("stance")
+        if stance not in allowed_stances:
+            fail(
+                f"{entry_prefix}.stance must be one of "
+                f"{sorted(allowed_stances)}: {stance}"
+            )
+
+        conviction = entry.get("conviction")
+        if is_last or conviction is not None:
+            if conviction not in CONVICTION_VALUES:
+                fail(
+                    f"{entry_prefix}.conviction must be one of "
+                    f"{sorted(CONVICTION_VALUES)}: {conviction}"
+                )
+
+        entry_date = entry.get("date")
+        ensure_non_empty_string(entry_date, f"{entry_prefix}.date")
+        parse_date(entry_date, f"{entry_prefix}.date")
+        if previous_date is not None and entry_date < previous_date:
+            fail(f"{prefix} dates must be ascending: {previous_date} -> {entry_date}")
+        previous_date = entry_date
+
+        price = entry.get("price")
+        if isinstance(price, bool) or not isinstance(price, (int, float)) or price <= 0:
+            fail(f"{entry_prefix}.price must be a positive number: {price}")
+
+    last = history[-1]
+    if "stance" in report and last.get("stance") != report["stance"]:
+        fail(
+            f"{prefix} last entry stance must match top-level stance: "
+            f"{last.get('stance')} != {report['stance']}"
+        )
+    if "conviction" in report and last.get("conviction") != report["conviction"]:
+        fail(
+            f"{prefix} last entry conviction must match top-level conviction: "
+            f"{last.get('conviction')} != {report['conviction']}"
+        )
+
+
+def validate_stance_v2_requirements(report, report_idx):
+    """Warn-first stance v2 requirements for current-chain reports (spec §2.3).
+
+    Archived (isCurrent=false) and non-chain reports are exempt; their old
+    top-level stance values stay tolerated via STANCE_VALUES.
+    """
+    if not is_current_chain_report(report):
+        return
+
+    label = f"report[{report_idx}] ({report['id']})"
+    stance = report.get("stance")
+    if stance is not None and stance not in STANCE_V2_VALUES:
+        stance_v2_issue(
+            f"{label}.stance uses legacy value '{stance}'; migrate to one of "
+            f"{sorted(STANCE_V2_VALUES)} (see docs/research-hub-v5-stance-conviction-plan.md §2.2)"
+        )
+
+    for field in ("conviction", "stanceRationale", "stanceHistory"):
+        if field not in report:
+            stance_v2_issue(f"{label} is a current chainLayer report and must carry {field}")
+
+    triggers = report.get("stanceTriggers")
+    if not isinstance(triggers, dict) or "downgrade" not in triggers:
+        stance_v2_issue(f"{label} must carry stanceTriggers.downgrade (zh+en)")
+    # Neutral tax (spec locked decision 3): neutral also names its upgrade trigger.
+    if stance == "neutral-watch" and (not isinstance(triggers, dict) or "upgrade" not in triggers):
+        stance_v2_issue(f"{label} stance=neutral-watch also requires stanceTriggers.upgrade (zh+en)")
+
+
 def is_current_chain_report(report):
     return bool(report.get("chainLayer")) and report.get("isCurrent") is not False
 
@@ -309,6 +423,26 @@ def validate_enrichment_fields(report, report_idx, reports_by_id):
             f"{sorted(STANCE_VALUES)}: {report['stance']}"
         )
 
+    if "conviction" in report and report["conviction"] not in CONVICTION_VALUES:
+        fail(
+            f"report[{report_idx}].conviction must be one of "
+            f"{sorted(CONVICTION_VALUES)}: {report['conviction']}"
+        )
+
+    if "stanceRationale" in report:
+        validate_bilingual_text(report["stanceRationale"], f"report[{report_idx}].stanceRationale")
+
+    if "stanceTriggers" in report:
+        validate_stance_triggers(report, report_idx)
+
+    if "stanceHistory" in report:
+        validate_stance_history(report, report_idx)
+
+    # Benchmark-only reports (e.g. smh-2026, spec §4.1a): schema-tolerated now,
+    # consumed by the Track 3 price pipeline later.
+    if "benchmark" in report and not isinstance(report["benchmark"], bool):
+        fail(f"report[{report_idx}].benchmark must be a boolean when present")
+
     if "priceAsOf" in report:
         ensure_non_empty_string(report["priceAsOf"], f"report[{report_idx}].priceAsOf")
         parse_date(report["priceAsOf"], f"report[{report_idx}].priceAsOf")
@@ -340,6 +474,8 @@ def validate_enrichment_fields(report, report_idx, reports_by_id):
                     f"report[{report_idx}] ({report['id']}) is a current chainLayer "
                     f"report and must carry enrichment field: {field}"
                 )
+
+    validate_stance_v2_requirements(report, report_idx)
 
 
 def validate_price_symbol_uniqueness(reports):

@@ -55,6 +55,7 @@
                     <div class="report-badge">Personal Research Note</div>
                     <div class="report-stance" id="reportStance" hidden></div>
                 </div>
+                <p class="report-stance-rationale" id="reportStanceRationale" hidden></p>
                 <h1 id="heroTitle">Loading...</h1>
                 <h2 id="heroSubtitle"></h2>
                 <div class="report-meta-info" id="heroMeta"></div>
@@ -732,27 +733,57 @@
 
         function renderReportStance(report, lang) {
             const root = document.getElementById('reportStance');
+            const rationaleRoot = document.getElementById('reportStanceRationale');
             if (!root) return;
             if (!report.stance) {
                 root.hidden = true;
                 root.textContent = '';
+                if (rationaleRoot) {
+                    rationaleRoot.hidden = true;
+                    rationaleRoot.textContent = '';
+                }
                 return;
             }
+            // Stance v2 labels (research-hub v5) + legacy enum still carried by data.
             const labels = {
                 zh: {
-                    'neutral-watch': 'NEUTRAL · 观察',
-                    'high-risk-watch': 'HIGH RISK · 观察',
-                    'bearish-avoid': 'BEARISH · 回避',
+                    'bullish': '看多',
+                    'constructive': '偏多',
+                    'neutral-watch': '中性观察',
+                    'cautious': '谨慎',
+                    'high-risk-watch': '高风险观察',
+                    'bearish-avoid': '回避',
                 },
                 en: {
-                    'neutral-watch': 'NEUTRAL · Watch',
-                    'high-risk-watch': 'HIGH RISK · Watch',
-                    'bearish-avoid': 'BEARISH · Avoid',
+                    'bullish': 'Bullish',
+                    'constructive': 'Constructive',
+                    'neutral-watch': 'Neutral',
+                    'cautious': 'Cautious',
+                    'high-risk-watch': 'High-Risk Watch',
+                    'bearish-avoid': 'Avoid',
                 },
             };
+            const convictionLabels = {
+                zh: { high: '高确信', medium: '中确信', low: '低确信' },
+                en: { high: 'High conviction', medium: 'Medium conviction', low: 'Low conviction' },
+            };
+            const stanceText = labels[lang]?.[report.stance] || labels.en[report.stance] || report.stance;
+            const convictionText = report.conviction
+                ? convictionLabels[lang]?.[report.conviction] || convictionLabels.en[report.conviction] || report.conviction
+                : '';
             root.hidden = false;
             root.className = `report-stance ${report.stance}`;
-            root.textContent = labels[lang]?.[report.stance] || report.stance;
+            root.textContent = convictionText ? `${stanceText} · ${convictionText}` : stanceText;
+
+            if (rationaleRoot) {
+                const rationale = report.stanceRationale
+                    ? (lang === 'en'
+                        ? report.stanceRationale.en || report.stanceRationale.zh
+                        : report.stanceRationale.zh || report.stanceRationale.en)
+                    : '';
+                rationaleRoot.hidden = !rationale;
+                rationaleRoot.textContent = rationale || '';
+            }
         }
 
         function shortTicker(value) {

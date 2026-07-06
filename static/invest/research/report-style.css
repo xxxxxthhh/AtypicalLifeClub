@@ -211,6 +211,13 @@ body.report-detail-page [hidden] {
     letter-spacing: 0.03em;
 }
 
+.report-stance-rationale {
+    margin: 0.45rem 0 0;
+    color: var(--secondary);
+    font-size: 0.82rem;
+    line-height: 1.5;
+}
+
 .related-signals {
     margin-top: 0.85rem;
     border: 1px solid var(--border);

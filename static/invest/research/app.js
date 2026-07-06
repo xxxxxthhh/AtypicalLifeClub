@@ -24,6 +24,40 @@ const CATEGORY_LABELS = {
     }
 };
 
+// Stance v2 labels (research-hub v5): chips must keep reading the legacy enum
+// (high-risk-watch) until the backfill retires it from top-level stances.
+const STANCE_LABELS = {
+    zh: {
+        'bullish': '看多',
+        'constructive': '偏多',
+        'neutral-watch': '中性观察',
+        'cautious': '谨慎',
+        'high-risk-watch': '高风险观察',
+        'bearish-avoid': '回避'
+    },
+    en: {
+        'bullish': 'Bullish',
+        'constructive': 'Constructive',
+        'neutral-watch': 'Neutral',
+        'cautious': 'Cautious',
+        'high-risk-watch': 'High-Risk Watch',
+        'bearish-avoid': 'Avoid'
+    }
+};
+
+const CONVICTION_LABELS = {
+    zh: {
+        high: '高确信',
+        medium: '中确信',
+        low: '低确信'
+    },
+    en: {
+        high: 'High conviction',
+        medium: 'Medium conviction',
+        low: 'Low conviction'
+    }
+};
+
 const COVERAGE_TIER_LABELS = {
     zh: {
         seed: '初览 / Seed',
@@ -298,9 +332,19 @@ function renderReports() {
 }
 
 function renderTrackingChips(report) {
-    const chips = [renderTierChip(report), renderPriceChip(report), renderRerunChip(report)].filter(Boolean);
+    const chips = [renderStanceChip(report), renderTierChip(report), renderPriceChip(report), renderRerunChip(report)].filter(Boolean);
     if (!chips.length) return '';
     return `<div class="report-price-row">${chips.join('')}</div>`;
+}
+
+function renderStanceChip(report) {
+    if (!report.stance) return '';
+    const stance = STANCE_LABELS[currentLang]?.[report.stance] || STANCE_LABELS.en[report.stance] || report.stance;
+    const conviction = report.conviction
+        ? CONVICTION_LABELS[currentLang]?.[report.conviction] || CONVICTION_LABELS.en[report.conviction] || report.conviction
+        : '';
+    const text = conviction ? `${stance} · ${conviction}` : stance;
+    return `<span class="tag price-chip stance-chip">${escapeHtml(text)}</span>`;
 }
 
 function renderTierChip(report) {

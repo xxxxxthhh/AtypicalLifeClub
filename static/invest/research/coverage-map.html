@@ -1195,19 +1195,27 @@
         }
 
         function stanceLabel(value) {
+            // Stance v2 labels (research-hub v5); legacy high-risk-watch stays readable
+            // until the backfill retires it from top-level stances.
             const labels = {
                 zh: {
-                    "neutral-watch": "中性 · 观察",
+                    "bullish": "看多",
+                    "constructive": "偏多",
+                    "neutral-watch": "中性观察",
+                    "cautious": "谨慎",
                     "high-risk-watch": "高风险观察",
-                    "bearish-avoid": "看空 · 回避"
+                    "bearish-avoid": "回避"
                 },
                 en: {
-                    "neutral-watch": "Neutral · Watch",
+                    "bullish": "Bullish",
+                    "constructive": "Constructive",
+                    "neutral-watch": "Neutral",
+                    "cautious": "Cautious",
                     "high-risk-watch": "High-Risk Watch",
-                    "bearish-avoid": "Bearish · Avoid"
+                    "bearish-avoid": "Avoid"
                 }
             };
-            return labels[currentLang]?.[value] || value || "";
+            return labels[currentLang]?.[value] || labels.en[value] || value || "";
         }
 
         function compactDate(value) {
