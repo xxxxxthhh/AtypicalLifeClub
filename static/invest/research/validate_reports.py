@@ -3,6 +3,7 @@
 """
 Validate static/invest/research/data/reports.json schema and file references.
 """
+# noqa: SIZE_OK - legacy single-file publishing validator; split in dedicated cleanup.
 
 import json
 import re
@@ -56,6 +57,7 @@ THEME_VALUES = {
 MONITORING_ITEM_ID_RE = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
 NEXT_CHECK_DATE_RE = re.compile(r"\d{4}-(0[1-9]|1[0-2])")
 PRICE_SYMBOL_RE = re.compile(r"[A-Z0-9.\-=]+")
+ENGLISH_MARKDOWN_CJK_RE = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]")
 BILINGUAL_KEYS = ("zh", "en")
 MARKDOWN_URL_PREFIX = "/invest/research/"
 # Chain requirement (spec A.7 step 3): stance/priceAsOf/reportedPeriod/monitoring[]
@@ -73,7 +75,7 @@ def fail(message):
 def parse_date(value, field_name):
     try:
         datetime.strptime(value, "%Y-%m-%d")
-    except Exception:
+    except ValueError:
         fail(f"{field_name} is not YYYY-MM-DD: {value}")
 
 
@@ -236,6 +238,21 @@ def markdown_has_table(markdown_url, field_name):
         fail(f"{field_name} markdown file not found: {markdown_file}")
     with open(markdown_file, "r", encoding="utf-8") as file:
         return any(re.match(r"\s*\|.*\|", line) for line in file)
+
+
+def validate_english_markdown(markdown_file, field_name):
+    with open(markdown_file, "r", encoding="utf-8") as file:
+        for line_no, line in enumerate(file, start=1):
+            if not ENGLISH_MARKDOWN_CJK_RE.search(line):
+                continue
+
+            snippet = line.strip()
+            if len(snippet) > 120:
+                snippet = f"{snippet[:117]}..."
+            fail(
+                f"{field_name} contains CJK text at "
+                f"{markdown_file.name}:{line_no}: {snippet}"
+            )
 
 
 def validate_coverage_tier(report, report_idx):
@@ -414,6 +431,8 @@ def main():
                 fail(
                     f"report[{idx}] markdown file not found for {lang}: {markdown_file}"
                 )
+            if lang == "en" and report.get("isCurrent") is not False:
+                validate_english_markdown(markdown_file, field_name)
 
         if markdown_files["zh"] == markdown_files["en"]:
             fail(
