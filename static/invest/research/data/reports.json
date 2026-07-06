@@ -3163,7 +3163,7 @@
     ],
     "summaryEn": "Q3 FY2026 revenue collapsed to $2.02M (-56% QoQ); the stock has crashed from $4.21 to ~$1.93 (-54%), with a public offering diluting shares ~65%. The Georgia factory slipped to end-August, while Infinite Grid's ~$200M 1.1 GWh LOI and Needham's initiation at an $8 target offer long-term optionality — but near-term fundamentals have deteriorated badly. P/S(TTM) ~5.82x, very high risk.",
     "chainLayer": "power",
-    "coverageTier": "full",
+    "coverageTier": "lite",
     "stance": "high-risk-watch",
     "priceAsOf": "2026-06-25",
     "reportedPeriod": "Q3 FY2026",
