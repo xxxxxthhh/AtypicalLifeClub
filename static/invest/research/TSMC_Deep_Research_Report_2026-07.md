@@ -1,7 +1,7 @@
 # TSMC (TSM) Deep Research Report
 
 Coverage date: 2026-07-04
-Last updated: 2026-07-04
+Last updated: 2026-07-07
 Ticker: NYSE: TSM / TWSE: 2330
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -13,7 +13,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 **One-line thesis:** TSMC is the manufacturing common constraint for the AI-infrastructure chain. 2026Q1 revenue was $35.90B, gross margin was 66.2%, operating margin was 58.1%, Q2 guidance is $39.0-40.2B, and Jan-May 2026 monthly revenue reached NT$1.962T (+30.0%), showing that AI/HPC demand has already reached wafer revenue. But at a $434.16 ADR close on Jul 2, 2026, roughly $2.25T market cap, and about 14x 2026E EV/Sales, the stock already embeds very high expectations for the multiyear AI manufacturing bottleneck.
 
-**Current view:** **Neutral watch / high quality but high expectations.** TSMC's quality is unusually high: advanced-node share, customer lock-in, pricing power, cash flow, net cash, and process roadmap are all strong. This report's job, however, is not to prove that TSMC is a good company. It is to use TSMC as the whole-chain calibration point: NVIDIA, AMD, Broadcom, Marvell, and other AI-chip revenue stories become more credible only if TSMC's advanced processes and CoWoS / 3DFabric capacity remain tight.
+**Current view:** **Neutral watch / medium conviction: high quality, mostly priced in.** TSMC's quality is unusually high: advanced-node share, customer lock-in, pricing power, cash flow, net cash, and process roadmap are all strong. This report's job, however, is not to prove that TSMC is a good company. It is to use TSMC as the whole-chain calibration point: NVIDIA, AMD, Broadcom, Marvell, and other AI-chip revenue stories become more credible only if TSMC's advanced processes and CoWoS / 3DFabric capacity remain tight.
 
 **Quick stats:**
 
@@ -138,6 +138,16 @@ The following is valuation context, not a target price or recommendation.
 | FCF | TTM still strong, but capex remains high | FCF is not the issue; reinvestment return is |
 | Relative position | Higher quality than Intel / Samsung foundry; more manufacturing-constrained than NVIDIA | Valuation depends on persistent AI supply scarcity |
 
+**Scenario grid:**
+
+| Scenario | Driver assumptions (growth / margin / multiple regime) | Valuation implication (rich / fair / cheap vs today) | Probability weight |
+|----------|--------------------------------------------------------|------------------------------------------------------|--------------------|
+| Bull | 2026 revenue reaches or exceeds the roughly $158B public frame; 2027-2028 revenue CAGR stays in the mid-20s; gross margin remains about 62-66%; N3 / N2 and CoWoS stay tight enough to support a low-teens EV/Sales premium | The Jul 2 price looks fair-to-slightly cheap only if AI scarcity stays visible in utilization, pricing, and packaging lead times | 30% |
+| Base | 2026 revenue grows above 30%; 2027-2028 revenue CAGR settles around 20-22%; gross margin remains about 60-64%; overseas fab drag is manageable; the EV/Sales premium fades toward about 10x | The Jul 2 price largely prices in the base case: TSMC deserves a premium, but there is limited margin of safety | 50% |
+| Bear | AI customer order cadence normalizes; revenue growth falls to the low-to-mid teens; gross margin trends below 60% from overseas fabs, N2 depreciation, or weaker utilization; EV/Sales re-rates to high-single digits | The Jul 2 price would be rich; the main risk is multiple compression rather than balance-sheet stress | 20% |
+
+**What's priced in & the expectation gap:** At the $434.16 ADR close on Jul 2, 2026, TSMC traded at roughly 14x 2026E EV/Sales. If that premium multiple normalizes toward about 10x over three years and the required return is 8%, the reverse-multiple frame implies about `(14 / 10)^(1/3) x 1.08 - 1`, or roughly **21% revenue CAGR**. Our base case is close to that, not clearly above it: revenue growth above 30% in 2026, then about 20-22% through 2028 with gross margin still mostly above 60%. That leaves quality very high but the expectation gap balanced at the current dated price.
+
 TSMC should not be valued only with a legacy foundry-cycle frame, but it should not get NVIDIA's fabless premium either. It is closer to a long-duration option on global leading-edge logic scarcity. The risk is that the option is no longer cheap.
 
 ## 9. Catalysts & Timeline
@@ -155,9 +165,13 @@ Structured monitoring should focus on advanced-node utilization, N3 / N2 ramp, C
 
 ## 10. Conclusion
 
-TSMC is necessary coverage for the foundry layer. It tells us whether AI-infrastructure demand is truly reaching the upstream manufacturing bottleneck. If monthly revenue, advanced-node mix, N3 / N2, and advanced packaging stay tight, the AI capex narrative is more credible. If those indicators loosen, design-company growth and neocloud backlog both need recalibration.
+TSMC is necessary coverage for the foundry layer. Its chain-validation job is to tell us whether AI-infrastructure demand is truly reaching the upstream manufacturing bottleneck. If monthly revenue, advanced-node mix, N3 / N2, and advanced packaging stay tight, the AI capex narrative is more credible. If those indicators loosen, design-company growth and neocloud backlog both need recalibration.
 
-The current classification is **neutral watch / high quality but high expectations**. TSMC remains a world-class asset, but near a $2.25T market cap, the investment question cannot stop at "great company." In this framework, it is most useful as the common-constraint monitor for whether advanced process and packaging capacity remain the real bottleneck in the AI supply chain.
+The expectation gap is balanced: at a $434.16 ADR and roughly 14x 2026E EV/Sales, the market is underwriting about a 21% three-year revenue CAGR with 60%+ gross margin; our base case is close rather than clearly above it.
+
+The current stance is **neutral watch, medium conviction**. The 30% bull / 50% base / 20% bear grid says the company is still exceptional, but the base case is already mostly capitalized at the current dated price. Neutral is therefore not a lack of view: it is the conclusion that TSMC's quality and its valuation are currently in rough balance.
+
+Upgrade trigger: move to constructive if monthly revenue, Q2 results, N3 / N2 mix, and CoWoS commentary push the base case meaningfully above the roughly 21% implied CAGR while gross margin remains above 60% and the valuation multiple does not expand further. Downgrade trigger: move to cautious if monthly revenue or Q2 results fall below the full-year trajectory, advanced-node / packaging tightness eases, or overseas fab / N2 costs push the structural gross-margin path below 60%.
 
 ## Appendix: Sources & Assumptions
 
@@ -166,3 +180,4 @@ The current classification is **neutral watch / high quality but high expectatio
 - HPC at about 61% of 2026Q1 revenue, advanced nodes at about 74% of wafer revenue, 5nm / 3nm mix, 2026 capex of $52-56B, full-year growth above 30% / roughly $158B public frame, NVIDIA / Apple concentration, and the N3 / N2 / CoWoS expansion frame are sourced from Tom's Hardware's 2026Q1 coverage: https://www.tomshardware.com/tech-industry/semiconductors/tsmc-ups-revenue-guidance-and-capex-buoyed-by-multiyear-ai-megatrend-warns-middle-east-conflict-may-impact-profitability-as-costs-increase.
 - May 2026 sales, Q2 revenue guidance, advanced-process supply constraints, and June 4 shareholder-meeting reiteration are sourced from Investor's Business Daily: https://www.investors.com/news/technology/tsm-stock-tsmc-may-2026-sales/.
 - TSM's Jul 2, 2026 ADR close of $434.16, roughly $2.25T market cap, about 5.19B ADR-equivalent shares, and Q1 cash/debt/cash-flow tables were pulled through Yahoo Finance/yfinance on 2026-07-04. This market-data snapshot can be revised by the data provider and should subsequently be maintained by `static/invest/research/update_prices.py`.
+- The v5 scenario grid and priced-in paragraph use the same Jul 2, 2026 market snapshot and the public roughly $158B 2026 revenue frame. The reverse-multiple math is a framing device for expectations, not a target price.

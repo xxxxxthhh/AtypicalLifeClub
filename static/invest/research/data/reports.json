@@ -3941,8 +3941,8 @@
     "priceSymbol": "TSM",
     "title": "TSMC 深度研究报告 - AI 基建链的先进制程与封装公共约束",
     "titleEn": "TSMC Deep Research Report - The Advanced-Node and Packaging Constraint in AI Infrastructure",
-    "summary": "AI 基础设施书 foundry 层补位：TSMC 是整条链最硬的制造瓶颈，而不是又一个芯片设计公司。2026Q1 收入 $35.90B、毛利率 66.2%、营业利润率 58.1%，Q2 指引 $39.0-40.2B；Jan-May 2026 月度收入合计 NT$1.962T（+30.0%），May 收入 NT$416.975B（+30.1%）。AI/HPC 需求已经穿透到晶圆收入、先进节点和先进封装；但 ADR $434.16（2026-07-02 收盘）、市值约 $2.25T、2026E EV/Sales 约 14x，已经把『多年 AI megatrend + TSMC 稀缺性』放进了很高预期。中性观察 / 高质量但高预期；链内角色是 foundry 层 common-constraint。",
-    "summaryEn": "Foundry-layer coverage for the AI-infrastructure book: TSMC is the hard manufacturing bottleneck in the chain, not another chip designer. 2026Q1 revenue was $35.90B, gross margin was 66.2%, operating margin was 58.1%, and Q2 guidance is $39.0-40.2B; Jan-May 2026 revenue reached NT$1.962T (+30.0%), and May revenue was NT$416.975B (+30.1%). AI/HPC demand has reached wafer revenue, advanced nodes, and advanced packaging. But at a $434.16 ADR close on Jul 2, 2026, roughly $2.25T market cap, and about 14x 2026E EV/Sales, expectations are already high. Neutral watch / high quality but high expectations; chain role is foundry common constraint.",
+    "summary": "AI 基础设施书 foundry 层补位：TSMC 是整条链最硬的制造瓶颈，而不是又一个芯片设计公司。2026Q1 收入 $35.90B、毛利率 66.2%、营业利润率 58.1%，Q2 指引 $39.0-40.2B；Jan-May 2026 月度收入合计 NT$1.962T（+30.0%），May 收入 NT$416.975B（+30.1%）。AI/HPC 需求已经穿透到晶圆收入、先进节点和先进封装；但 ADR $434.16（2026-07-02 收盘）、市值约 $2.25T、2026E EV/Sales 约 14x，约定价未来三年 ~21% 收入 CAGR 与 60%+ 毛利。中性观察 / 中确信：高质量但基本被定价；链内角色是 foundry 层 common-constraint。",
+    "summaryEn": "Foundry-layer coverage for the AI-infrastructure book: TSMC is the hard manufacturing bottleneck in the chain, not another chip designer. 2026Q1 revenue was $35.90B, gross margin was 66.2%, operating margin was 58.1%, and Q2 guidance is $39.0-40.2B; Jan-May 2026 revenue reached NT$1.962T (+30.0%), and May revenue was NT$416.975B (+30.1%). AI/HPC demand has reached wafer revenue, advanced nodes, and advanced packaging. But at a $434.16 ADR close on Jul 2, 2026, roughly $2.25T market cap, and about 14x 2026E EV/Sales, the market is underwriting about 21% three-year revenue CAGR with 60%+ gross margin. Neutral watch / medium conviction: high quality but mostly priced in; chain role is foundry common constraint.",
     "tags": [
       "晶圆代工",
       "AI基础设施",
@@ -3951,7 +3951,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-04",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=tsmc-2026",
     "markdownFiles": {
       "zh": "/invest/research/TSMC_深度研究报告_2026-07.md",
@@ -3964,12 +3964,35 @@
       "foundry 层补位：TSMC 是 AI 基建链的制造公共约束，用先进制程、CoWoS/3DFabric、N3/N2 和客户排产验证 AI 需求是否真的穿透到上游制造瓶颈",
       "2026Q1 收入 $35.90B、毛利率 66.2%、营业利润率 58.1%；Q2 指引 $39.0-40.2B，Jan-May 2026 收入 NT$1.962T（+30.0%）",
       "公开资料显示 HPC 约占 Q1 收入 61%，7nm 及以下先进节点约占 wafer revenue 74%；2026 capex $52-56B，重点投向先进制程、先进封装和全球制造扩建",
-      "当前 ADR $434.16（2026-07-02 收盘）、市值约 $2.25T、净现金约 $75B，2026E EV/Sales 约 14x。高质量但高预期，核心监控是利用率、N3/N2、CoWoS、客户集中和海外 fab 毛利拖累"
+      "当前 ADR $434.16（2026-07-02 收盘）、市值约 $2.25T、净现金约 $75B，2026E EV/Sales 约 14x；30/50/20 情景权重推导为中性观察 / 中确信，核心监控是利用率、N3/N2、CoWoS、客户集中和海外 fab 毛利拖累"
     ],
     "chainLayer": "foundry",
     "coverageTier": "full",
     "chainRole": "common-constraint",
     "stance": "neutral-watch",
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 $434.16 ADR、约 14x 2026E EV/Sales 计，市场大致定价了未来三年约 21% 收入 CAGR 和 60%+ 毛利；我们的 base case 与此接近，因此维持中性观察。",
+      "en": "At the $434.16 ADR and roughly 14x 2026E EV/Sales, the market is underwriting about a 21% three-year revenue CAGR with 60%+ gross margin; our base case is close, so the stance remains neutral watch."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "月度收入、Q2 财报、N3/N2 mix 与 CoWoS 评论把 base case 明确推到约 21% 隐含 CAGR 以上，同时毛利率维持 60%+ 且估值倍数未进一步扩张",
+        "en": "monthly revenue, Q2 results, N3 / N2 mix, and CoWoS commentary push the base case clearly above the roughly 21% implied CAGR while gross margin remains above 60% and the valuation multiple does not expand further"
+      },
+      "downgrade": {
+        "zh": "月度收入或 Q2 财报低于全年轨迹、先进节点/封装紧张度缓解，或海外 fab / N2 成本把结构性毛利率路径压到 60% 以下",
+        "en": "monthly revenue or Q2 results fall below the full-year trajectory, advanced-node / packaging tightness eases, or overseas fab / N2 costs push the structural gross-margin path below 60%"
+      }
+    },
+    "stanceHistory": [
+      {
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "date": "2026-07-02",
+        "price": 434.16
+      }
+    ],
     "priceAsOf": "2026-07-02",
     "reportedPeriod": "2026Q1",
     "related": [
