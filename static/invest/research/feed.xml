@@ -34,6 +34,34 @@
       <description>AI 基础设施 semicap-equipment 层的过程控制/良率仪表盘：KLAC 验证 AI 扩产是否不只是装机，而是投入 inspection、metrology 和 process-control 来形成可制造良率。FY2026 Q3 revenue $3.416B、GAAP EPS $9.12、non-GAAP EPS $9.40（公司 as-reported 口径）；Semiconductor Process Control revenue $3.084B。季度 operating cash flow $707.5M、FCF $622.3M；LTM FCF $4.01B。当前 $235.55、市值约 $307.7B、EV 约 $308.9B；因当前市场数据与披露 EPS 疑似拆股基准不同，估值以约 22.6x EV/Q3 annualized revenue 和约 1.3% LTM FCF yield 观察。谨慎 / 中确信：质量极高，但倍数对任何 WFE 或 process-control 降温都很敏感。</description>
     </item>
     <item>
+      <title>Synopsys 深度研究报告 - AI 芯片设计的 EDA/IP 与仿真约束 / Synopsys Deep Research Report - EDA/IP And Simulation Constraint For AI Silicon Design</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=synopsys-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=synopsys-2026#synopsys-2026@2026-07-07</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施 eda-ip 层的公共约束：SNPS 验证 AI silicon 需求是否穿透到 design automation、verification、simulation、IP blocks 和 system-level complexity。FY2026 Q2 revenue $2.276B（去年同期 $1.604B）、GAAP EPS $0.09、non-GAAP EPS $3.35；FY2026 指引 revenue $9.625-9.705B、non-GAAP EPS $14.72-14.80、FCF 约 $2.0B。指引包含约 $2.96B Ansys revenue，并假设没有进一步 export-control / Entity List 变化。当前 $437.16、市值约 $83.7B、EV 约 $92.1B，约 9.5x EV/FY2026E sales、约 29.6x non-GAAP P/E。偏多 / 中确信：AI EDA/IP durability 与 Ansys 仿真资产让基准情景略高于市场隐含要求，但整合、出口和客户周期性仍限制确信度。</description>
+    </item>
+    <item>
+      <title>Cadence Design Systems 深度研究报告 - AI 设计复杂度的 EDA/IP backlog 仪表盘 / Cadence Design Systems Deep Research Report - EDA/IP Backlog Dashboard For AI Design Complexity</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=cadence-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=cadence-2026#cadence-2026@2026-07-07</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施 eda-ip 层的 backlog / execution 仪表盘：CDNS 验证 AI demand 是否出现在 design automation、IP、simulation、backlog、RPO 和 agentic design workflows。Q1 2026 revenue $1.474B、non-GAAP operating margin 44.7%、non-GAAP EPS $1.96；季度末 backlog $8.0B，未来 12 个月预计从 RPO 确认收入 $4.0B。FY2026 指引 revenue $6.125-6.225B、non-GAAP EPS $7.85-7.95。当前 $373.14、市值约 $102.9B、EV 约 $104.5B，约 16.9x EV/FY2026E sales、约 47.2x non-GAAP P/E。谨慎 / 中确信：质量高，但这个 multiple 已经要求 backlog、IP、agentic design-flow adoption 与 Hexagon/Physical AI 整合同时干净兑现。</description>
+    </item>
+    <item>
+      <title>NVIDIA 深度研究报告 - AI 计算中枢的高质量与高预期 / NVIDIA Deep Research Report - The AI Compute Hub, High Quality Meets High Expectations</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=nvidia-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=nvidia-2026#nvidia-2026@2026-07-07</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+      <description>v5 回填：NVIDIA 仍是 AI compute profit pool 的中枢，Q1 FY2027 营收 $81.6B、Data Center $75.2B，且 China data-center revenue 归零后仍兑现强增长。以 $192.53、约 $4.68T 市值和 mid-20s forward P/E 计，市场定价的不是泛泛 AI CAGR，而是 GPU+networking+systems+software 继续保护盈利分母。30% 牛市 / 50% 基准 / 20% 熊市情景给出温和正偏斜，因此改为偏多 / 中确信；风险仍是 hyperscaler capex、自定义 ASIC、中国和循环融资减值。</description>
+    </item>
+    <item>
+      <title>AMD 深度研究报告 - AI时代的半导体挑战者 / AMD Deep Research Report - AI Era Semiconductor Challenger</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=amd-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amd-2026#amd-2026@2026-07-07</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+      <description>v5 回填：AMD Q1 2026 营收 $10.253B、Data Center 约 $5.8B，Meta 6GW、Helios/MI450、EPYC 与 ROCm 让 AI infrastructure 第二平台叙事更强。但以 $537.37、约 $878B EV 和约 23.4x EV/TTM Sales 计，市场已经提前定价 Meta/Helios、MI450、ROCm 改善、Data Center 增长和利润率扩张；20% 牛市 / 40% 基准 / 40% 熊市情景给出负偏斜，因此改为谨慎 / 中确信。</description>
+    </item>
+    <item>
       <title>Oklo 深度研究报告 - 前商业化核能期权与AI电力需求 / Oklo Deep Research Report - Pre-Commercial Nuclear Optionality Meets AI Power Demand</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=oklo-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=oklo-2026#oklo-2026@2026-07-07</guid>
@@ -60,20 +88,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=smh-2026#smh-2026@2026-07-06</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
       <description>VanEck 半导体 ETF，是 AI 半导体链条的 benchmark/control sleeve，而不是 coverage-map 单一链条节点。发行人页面 2026-07-02 显示 NAV $592.26、总资产 $68.82B、总费率 0.35%；2026-07-01 持仓 26 只，前十大包括 NVDA 18.41%、TSM 9.18%、AMD 5.57%、AMAT 5.49%、AVGO 5.49%、MU 5.39%、KLAC 5.10%、LRCX 4.97%、ASML 4.96%、INTC 4.92%。定位为 lite benchmark / neutral control sleeve，用来比较单公司报告是否只是半导体 beta。</description>
-    </item>
-    <item>
-      <title>Synopsys 深度研究报告 - AI 芯片设计的 EDA/IP 与仿真约束 / Synopsys Deep Research Report - EDA/IP And Simulation Constraint For AI Silicon Design</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=synopsys-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=synopsys-2026#synopsys-2026@2026-07-06</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施 eda-ip 层的公共约束：SNPS 验证 AI silicon 需求是否穿透到 design automation、verification、simulation、IP blocks 和 system-level complexity。FY2026 Q2 revenue $2.276B（去年同期 $1.604B）、GAAP EPS $0.09、non-GAAP EPS $3.35；FY2026 指引 revenue $9.625-9.705B、non-GAAP EPS $14.72-14.80、FCF 约 $2.0B。指引包含约 $2.96B Ansys revenue，并假设没有进一步 export-control / Entity List 变化。当前 $437.16、市值约 $83.7B、EV 约 $92.1B，约 9.5x EV/FY2026E sales、约 29.6x non-GAAP P/E。中性观察：AI 复杂度支撑长期逻辑，但 Ansys 整合和出口风险需要验证。</description>
-    </item>
-    <item>
-      <title>Cadence Design Systems 深度研究报告 - AI 设计复杂度的 EDA/IP backlog 仪表盘 / Cadence Design Systems Deep Research Report - EDA/IP Backlog Dashboard For AI Design Complexity</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=cadence-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=cadence-2026#cadence-2026@2026-07-06</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施 eda-ip 层的 backlog / execution 仪表盘：CDNS 验证 AI demand 是否出现在 design automation、IP、simulation、backlog、RPO 和 agentic design workflows。Q1 2026 revenue $1.474B、non-GAAP operating margin 44.7%、non-GAAP EPS $1.96；季度末 backlog $8.0B，未来 12 个月预计从 RPO 确认收入 $4.0B。FY2026 指引 revenue $6.125-6.225B、non-GAAP EPS $7.85-7.95。当前 $373.14、市值约 $102.9B、EV 约 $104.5B，约 16.9x EV/FY2026E sales、约 47.2x non-GAAP P/E。中性观察：质量高但估值要求 backlog、IP 和 AI design-flow adoption 都干净兑现。</description>
     </item>
     <item>
       <title>NRG Energy 深度研究报告 - AI 电力需求是否穿透到 merchant gas 与零售电力 / NRG Energy Deep Research Report - Does AI Power Demand Reach Merchant Gas and Retail Power?</title>
@@ -186,13 +200,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=gevernova-2026#gevernova-2026@2026-06-27</guid>
       <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
       <description>AI「电力侧」瓶颈最直接的卖铲人：数据中心电力短缺同时拉动燃气轮机（Power）与电网设备（Electrification）。Q1 2026 订单 $18.3B、backlog $163B（2027 目标 $200B，从 2028 提前），燃气轮机 backlog+slot 预留年底目标 ≥110 GW；Q1 营收 $9.34B、调整后 EBITDA $896M（利润率 9.6%），并上调 FY2026 指引（营收 $44.5-45.5B、调整后 EBITDA 利润率 12-14%、FCF $6.5-7.5B）。利润率正从 FY2025 的 8.4% 向中两位数爬坡。但近一年 +117%、市值约 $2,840 亿，EV/2026E 调整后 EBITDA 约 45-48x，已计入多年爬坡，且与 AI capex 共命运、Wind 仍亏损。Q1 现金 $10.2B、senior notes $2.6B，粗略净现金约 $7.6B。中性/高质量但高预期（观察）。</description>
-    </item>
-    <item>
-      <title>NVIDIA 深度研究报告 - AI 计算中枢的高质量与高预期 / NVIDIA Deep Research Report - The AI Compute Hub, High Quality Meets High Expectations</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=nvidia-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=nvidia-2026#nvidia-2026@2026-06-26</guid>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
-      <description>AI 计算革命的绝对中枢，Q1 FY2027 营收 $81.6B（+85% YoY）、数据中心 $75.2B（+92%），且这份创纪录报表在中国数据中心收入归零的前提下完成，Q2 FY2027 指引 $91.0B。反直觉点：作为全球市值第一（约 $4.76 万亿），远期 P/E 约 25x 反而低于 AMD 约 58x、Broadcom 约 33x。风险不在倍数，而在分母——AI 资本开支可持续性、自定义 ASIC 替代、中国结构性丢失与循环融资减值。中性/高质量但高预期（观察）。</description>
     </item>
     <item>
       <title>Netflix 深度研究报告 - 估值压缩与有机增长再验证 / Netflix Deep Research Report - Valuation Compression and Organic Growth Test</title>
@@ -319,13 +326,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amd-2026-pre-rerun#amd-2026-pre-rerun@2026-06-22</guid>
       <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
       <description>归档的2026H1重跑前基线版本，保留更完整的业务概览、行业竞争、管理层、牛熊论点和旧估值框架，用于审计与对照。</description>
-    </item>
-    <item>
-      <title>AMD 深度研究报告 - AI时代的半导体挑战者 / AMD Deep Research Report - AI Era Semiconductor Challenger</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=amd-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amd-2026#amd-2026@2026-06-22</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description>2026-06-22完整重跑版：AMD Q1 2026营收$102.53亿（+38% YoY），Data Center收入约$58亿（+57% YoY），Meta 6GW与Helios/MI450强化AI基础设施平台叙事；但股价约$537、市值约$8,870亿，EV/TTM Sales约23.4x，当前结论调整为中性/观察：基本面强，估值容错极低。</description>
     </item>
     <item>
       <title>PayPal 深度调研报告 - 2025-2026年度分析 / PayPal Deep Research Report - 2025-2026 Analysis</title>

@@ -714,8 +714,8 @@
     "priceSymbol": "SNPS",
     "title": "Synopsys 深度研究报告 - AI 芯片设计的 EDA/IP 与仿真约束",
     "titleEn": "Synopsys Deep Research Report - EDA/IP And Simulation Constraint For AI Silicon Design",
-    "summary": "AI 基础设施 eda-ip 层的公共约束：SNPS 验证 AI silicon 需求是否穿透到 design automation、verification、simulation、IP blocks 和 system-level complexity。FY2026 Q2 revenue $2.276B（去年同期 $1.604B）、GAAP EPS $0.09、non-GAAP EPS $3.35；FY2026 指引 revenue $9.625-9.705B、non-GAAP EPS $14.72-14.80、FCF 约 $2.0B。指引包含约 $2.96B Ansys revenue，并假设没有进一步 export-control / Entity List 变化。当前 $437.16、市值约 $83.7B、EV 约 $92.1B，约 9.5x EV/FY2026E sales、约 29.6x non-GAAP P/E。中性观察：AI 复杂度支撑长期逻辑，但 Ansys 整合和出口风险需要验证。",
-    "summaryEn": "Common-constraint coverage for the AI-infrastructure eda-ip layer. SNPS tests whether AI silicon demand is flowing into design automation, verification, simulation, IP blocks, and system-level complexity. Q2 FY2026 revenue was $2.276B versus $1.604B a year ago, GAAP EPS was $0.09, and non-GAAP EPS was $3.35; FY2026 guidance is $9.625-9.705B revenue, $14.72-14.80 non-GAAP EPS, and about $2.0B FCF. Guidance includes about $2.96B of Ansys revenue and assumes no further export-control / Entity List changes. At $437.16, about $83.7B market cap and $92.1B EV, SNPS trades around 9.5x EV/FY2026E sales and 29.6x non-GAAP P/E. Neutral watch: AI complexity supports the thesis, but Ansys integration and export risk need verification.",
+    "summary": "AI 基础设施 eda-ip 层的公共约束：SNPS 验证 AI silicon 需求是否穿透到 design automation、verification、simulation、IP blocks 和 system-level complexity。FY2026 Q2 revenue $2.276B（去年同期 $1.604B）、GAAP EPS $0.09、non-GAAP EPS $3.35；FY2026 指引 revenue $9.625-9.705B、non-GAAP EPS $14.72-14.80、FCF 约 $2.0B。指引包含约 $2.96B Ansys revenue，并假设没有进一步 export-control / Entity List 变化。当前 $437.16、市值约 $83.7B、EV 约 $92.1B，约 9.5x EV/FY2026E sales、约 29.6x non-GAAP P/E。偏多 / 中确信：AI EDA/IP durability 与 Ansys 仿真资产让基准情景略高于市场隐含要求，但整合、出口和客户周期性仍限制确信度。",
+    "summaryEn": "Common-constraint coverage for the AI-infrastructure eda-ip layer. SNPS tests whether AI silicon demand is flowing into design automation, verification, simulation, IP blocks, and system-level complexity. Q2 FY2026 revenue was $2.276B versus $1.604B a year ago, GAAP EPS was $0.09, and non-GAAP EPS was $3.35; FY2026 guidance is $9.625-9.705B revenue, $14.72-14.80 non-GAAP EPS, and about $2.0B FCF. Guidance includes about $2.96B of Ansys revenue and assumes no further export-control / Entity List changes. At $437.16, about $83.7B market cap and $92.1B EV, SNPS trades around 9.5x EV/FY2026E sales and 29.6x non-GAAP P/E. Constructive / medium conviction: AI EDA/IP durability and the Ansys simulation asset put the base case slightly above what the market embeds, but integration, export, and customer-cycle risks keep conviction capped.",
     "tags": [
       "EDA",
       "半导体IP",
@@ -724,7 +724,7 @@
     ],
     "category": "tech",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-06",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=synopsys-2026",
     "markdownFiles": {
       "zh": "/invest/research/Synopsys_深度研究报告_2026-07.md",
@@ -737,12 +737,40 @@
       "补齐 EDA/IP 公共约束：SNPS 验证 AI design starts 与复杂度是否进入 design automation、verification、simulation 和 IP",
       "FY2026 Q2 revenue $2.276B、non-GAAP EPS $3.35；FY2026 revenue 指引 $9.625-9.705B",
       "FY2026 指引包含约 $2.96B Ansys revenue，且假设没有进一步 export-control / Entity List 变化",
-      "当前 $437.16、EV 约 $92.1B，约 9.5x FY2026E sales、约 29.6x non-GAAP P/E"
+      "当前 $437.16、EV 约 $92.1B，约 9.5x FY2026E sales、约 29.6x non-GAAP P/E；v5 偏多 / 中确信"
     ],
     "chainLayer": "eda-ip",
     "coverageTier": "full",
     "chainRole": "common-constraint",
-    "stance": "neutral-watch",
+    "stance": "constructive",
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 $437.16、约 9.5x EV/FY2026E sales 和约 29.6x non-GAAP P/E 计，市场已经要求 AI EDA/IP durability、Ansys 并表和 FCF 修复，但我们的基准情景认为 simulation pull-through、Design IP 和 verification 复杂度仍略高于这个隐含要求。",
+      "en": "At $437.16, roughly 9.5x EV/FY2026E sales, and about 29.6x non-GAAP P/E, the market already requires AI EDA/IP durability, Ansys consolidation, and FCF repair, but our base case sees simulation pull-through, Design IP, and verification complexity running slightly ahead of that embedded requirement."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若 Q3 FY2026 显示 Ansys revenue 与 simulation 协同按计划转化、Design Automation 和 Design IP 同时加速，FCF 向约 $2.0B 指引兑现，且没有新增 export-control / Entity List 冲击，则上调至 bullish。",
+        "en": "Move to bullish if Q3 FY2026 shows Ansys revenue and simulation synergies converting on plan, Design Automation and Design IP accelerating together, FCF tracking the roughly $2.0B guide, and no new export-control / Entity List shock."
+      },
+      "downgrade": {
+        "zh": "若 Ansys 整合稀释执行、Design IP 或 Design Automation 增长低于 AI 复杂度叙事、FCF 低于约 $2.0B 指引，或新增 export-control / Entity List 变化破坏 FY2026 指引，则下调至 neutral-watch 或 cautious。",
+        "en": "Move to neutral-watch or cautious if Ansys integration dilutes execution, Design IP or Design Automation growth falls short of the AI-complexity narrative, FCF misses the roughly $2.0B guide, or a new export-control / Entity List change breaks FY2026 guidance."
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-07-02",
+        "stance": "neutral-watch",
+        "price": 437.16
+      },
+      {
+        "date": "2026-07-02",
+        "stance": "constructive",
+        "conviction": "medium",
+        "price": 437.16
+      }
+    ],
     "priceAsOf": "2026-07-02",
     "reportedPeriod": "FY2026 Q2",
     "related": [
@@ -858,8 +886,8 @@
     "priceSymbol": "CDNS",
     "title": "Cadence Design Systems 深度研究报告 - AI 设计复杂度的 EDA/IP backlog 仪表盘",
     "titleEn": "Cadence Design Systems Deep Research Report - EDA/IP Backlog Dashboard For AI Design Complexity",
-    "summary": "AI 基础设施 eda-ip 层的 backlog / execution 仪表盘：CDNS 验证 AI demand 是否出现在 design automation、IP、simulation、backlog、RPO 和 agentic design workflows。Q1 2026 revenue $1.474B、non-GAAP operating margin 44.7%、non-GAAP EPS $1.96；季度末 backlog $8.0B，未来 12 个月预计从 RPO 确认收入 $4.0B。FY2026 指引 revenue $6.125-6.225B、non-GAAP EPS $7.85-7.95。当前 $373.14、市值约 $102.9B、EV 约 $104.5B，约 16.9x EV/FY2026E sales、约 47.2x non-GAAP P/E。中性观察：质量高但估值要求 backlog、IP 和 AI design-flow adoption 都干净兑现。",
-    "summaryEn": "Backlog / execution dashboard for the AI-infrastructure eda-ip layer. CDNS tests whether AI demand is visible in design automation, IP, simulation, backlog, RPO, and agentic design workflows. Q1 2026 revenue was $1.474B, non-GAAP operating margin was 44.7%, and non-GAAP EPS was $1.96; quarter-end backlog was $8.0B and next-12-month RPO revenue was $4.0B. FY2026 guidance is $6.125-6.225B revenue and $7.85-7.95 non-GAAP EPS. At $373.14, about $102.9B market cap and $104.5B EV, CDNS trades around 16.9x EV/FY2026E sales and 47.2x non-GAAP P/E. Neutral watch: quality is high, but valuation requires clean backlog, IP, and AI design-flow adoption.",
+    "summary": "AI 基础设施 eda-ip 层的 backlog / execution 仪表盘：CDNS 验证 AI demand 是否出现在 design automation、IP、simulation、backlog、RPO 和 agentic design workflows。Q1 2026 revenue $1.474B、non-GAAP operating margin 44.7%、non-GAAP EPS $1.96；季度末 backlog $8.0B，未来 12 个月预计从 RPO 确认收入 $4.0B。FY2026 指引 revenue $6.125-6.225B、non-GAAP EPS $7.85-7.95。当前 $373.14、市值约 $102.9B、EV 约 $104.5B，约 16.9x EV/FY2026E sales、约 47.2x non-GAAP P/E。谨慎 / 中确信：质量高，但这个 multiple 已经要求 backlog、IP、agentic design-flow adoption 与 Hexagon/Physical AI 整合同时干净兑现。",
+    "summaryEn": "Backlog / execution dashboard for the AI-infrastructure eda-ip layer. CDNS tests whether AI demand is visible in design automation, IP, simulation, backlog, RPO, and agentic design workflows. Q1 2026 revenue was $1.474B, non-GAAP operating margin was 44.7%, and non-GAAP EPS was $1.96; quarter-end backlog was $8.0B and next-12-month RPO revenue was $4.0B. FY2026 guidance is $6.125-6.225B revenue and $7.85-7.95 non-GAAP EPS. At $373.14, about $102.9B market cap and $104.5B EV, CDNS trades around 16.9x EV/FY2026E sales and 47.2x non-GAAP P/E. Cautious / medium conviction: quality is high, but this multiple already requires backlog, IP, agentic design-flow adoption, and Hexagon / Physical AI integration to all execute cleanly.",
     "tags": [
       "EDA",
       "半导体IP",
@@ -868,7 +896,7 @@
     ],
     "category": "tech",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-06",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=cadence-2026",
     "markdownFiles": {
       "zh": "/invest/research/Cadence_Design_Systems_深度研究报告_2026-07.md",
@@ -881,12 +909,40 @@
       "补齐 EDA/IP backlog 仪表盘：CDNS 验证 AI 复杂度是否进入 backlog、RPO、IP 和 agentic design flow",
       "Q1 2026 revenue $1.474B、non-GAAP operating margin 44.7%、non-GAAP EPS $1.96",
       "季度末 backlog $8.0B，next-12-month RPO revenue $4.0B；IP revenue 同比 +22%",
-      "当前 $373.14、EV 约 $104.5B，约 16.9x FY2026E sales、约 47.2x non-GAAP P/E"
+      "当前 $373.14、EV 约 $104.5B，约 16.9x FY2026E sales、约 47.2x non-GAAP P/E；v5 谨慎 / 中确信"
     ],
     "chainLayer": "eda-ip",
     "coverageTier": "full",
     "chainRole": "dashboard",
-    "stance": "neutral-watch",
+    "stance": "cautious",
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 $373.14、约 16.9x EV/FY2026E sales 和约 47.2x non-GAAP P/E 计，市场已经要求 backlog/RPO、IP/HBM/SerDes、agentic design workflow 与 Hexagon/Physical AI 整合同时兑现；我们的基准情景同意质量和方向，但认为当前 multiple 留给执行误差的空间很小。",
+      "en": "At $373.14, roughly 16.9x EV/FY2026E sales, and about 47.2x non-GAAP P/E, the market already requires backlog/RPO, IP/HBM/SerDes, agentic design workflow, and Hexagon / Physical AI integration to all execute; our base case agrees on quality and direction, but today's multiple leaves little room for execution error."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若 Q2 2026 证明 $8.0B backlog 与 $4.0B next-12-month RPO 干净转收入，IP/HBM/SerDes 与 AgentStack 采用可量化，且 EV/FY2026E sales 从约 16.9x 消化而不是继续扩张，则上调至 neutral-watch 或 constructive。",
+        "en": "Move to neutral-watch or constructive if Q2 2026 proves the $8.0B backlog and $4.0B next-12-month RPO are cleanly converting to revenue, IP/HBM/SerDes and AgentStack adoption are measurable, and EV/FY2026E sales is absorbed from roughly 16.9x rather than expanding further."
+      },
+      "downgrade": {
+        "zh": "若 backlog/RPO 转化低于指引、IP 增速放缓、Hexagon/Physical AI 稀释 margin，或在约 47x FY2026E non-GAAP EPS 上出现任一执行失误，则下调至 bearish-avoid。",
+        "en": "Move to bearish-avoid if backlog/RPO conversion misses guidance, IP growth slows, Hexagon / Physical AI dilutes margin, or any execution miss appears at roughly 47x FY2026E non-GAAP EPS."
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-07-02",
+        "stance": "neutral-watch",
+        "price": 373.14
+      },
+      {
+        "date": "2026-07-02",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 373.14
+      }
+    ],
     "priceAsOf": "2026-07-02",
     "reportedPeriod": "2026Q1",
     "related": [
@@ -1898,8 +1954,8 @@
     "priceSymbol": "NVDA",
     "title": "NVIDIA 深度研究报告 - AI 计算中枢的高质量与高预期",
     "titleEn": "NVIDIA Deep Research Report - The AI Compute Hub, High Quality Meets High Expectations",
-    "summary": "AI 计算革命的绝对中枢，Q1 FY2027 营收 $81.6B（+85% YoY）、数据中心 $75.2B（+92%），且这份创纪录报表在中国数据中心收入归零的前提下完成，Q2 FY2027 指引 $91.0B。反直觉点：作为全球市值第一（约 $4.76 万亿），远期 P/E 约 25x 反而低于 AMD 约 58x、Broadcom 约 33x。风险不在倍数，而在分母——AI 资本开支可持续性、自定义 ASIC 替代、中国结构性丢失与循环融资减值。中性/高质量但高预期（观察）。",
-    "summaryEn": "The absolute center of the AI compute revolution. Q1 FY2027 revenue was $81.6B (+85% YoY), Data Center was $75.2B (+92%), and the record print came despite China data-center revenue going to zero; Q2 FY2027 guidance is $91.0B. The counterintuitive point: as the world's largest company by market cap (~$4.76T), NVIDIA trades around ~25x forward P/E, below AMD at ~58x and Broadcom at ~33x. The risk is not the multiple, but the denominator: AI capex durability, custom ASIC substitution, structural China loss, and circular-financing impairment. Neutral / high-quality but high expectations (watch).",
+    "summary": "v5 回填：NVIDIA 仍是 AI compute profit pool 的中枢，Q1 FY2027 营收 $81.6B、Data Center $75.2B，且 China data-center revenue 归零后仍兑现强增长。以 $192.53、约 $4.68T 市值和 mid-20s forward P/E 计，市场定价的不是泛泛 AI CAGR，而是 GPU+networking+systems+software 继续保护盈利分母。30% 牛市 / 50% 基准 / 20% 熊市情景给出温和正偏斜，因此改为偏多 / 中确信；风险仍是 hyperscaler capex、自定义 ASIC、中国和循环融资减值。",
+    "summaryEn": "July 7, 2026 v5 update: NVIDIA remains the center of the AI compute profit pool. Q1 FY2027 revenue was $81.6B and Data Center was $75.2B even with China data-center revenue at zero. At $192.53, about $4.68T market cap, and a mid-20s forward P/E, the market is underwriting GPU+networking+systems+software protection of the earnings denominator, not a generic AI CAGR. A 30% bull / 50% base / 20% bear grid gives modest positive skew, so stance moves to constructive / medium conviction; the risks remain hyperscaler capex, custom ASICs, China, and circular-financing impairments.",
     "tags": [
       "AI计算",
       "GPU",
@@ -1908,7 +1964,7 @@
     ],
     "category": "tech",
     "date": "2026-06-26",
-    "lastUpdate": "2026-06-26",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=nvidia-2026",
     "markdownFiles": {
       "zh": "/invest/research/NVIDIA_深度研究报告_2026-06.md",
@@ -1925,7 +1981,7 @@
     ],
     "chainLayer": "compute",
     "coverageTier": "full",
-    "stance": "neutral-watch",
+    "stance": "constructive",
     "priceAsOf": "2026-06-26",
     "reportedPeriod": "Q1 FY2027",
     "related": [
@@ -2006,6 +2062,34 @@
           "en": "CRWV: $2B at $87 + $6.3B capacity backstop; NBIS: $2B strategic investment"
         },
         "nextCheck": "CRWV/NBIS 季报读数 / CRWV & NBIS quarterly reads"
+      }
+    ],
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 $192.53、约 $4.68T 市值和 mid-20s forward P/E 计，市场定价的是 accelerator profit pool 持续扩张，而不只是泛泛的 AI CAGR；我们的基准情景认为 rack/system attach、networking/software moat 与年度平台节奏仍能保护盈利分母，同时 custom ASIC 和 China 风险尚未足以抵消该优势。",
+      "en": "At $192.53, roughly $4.68T market cap, and a mid-20s forward P/E, the market is pricing continued accelerator profit-pool expansion rather than a generic AI CAGR; our base case sees rack/system attach, networking/software moat, and the annual platform cadence still protecting the earnings denominator, while custom ASIC and China risks are not yet large enough to offset that advantage."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "升级触发条件：若 Q2 FY2027 兑现 $91.0B revenue guide、Data Center sequential slope 与 75% non-GAAP gross margin 同时保持，rack/system attach 与 networking/software attach 扩大 profit pool，且 ASIC/China/circular-financing 风险没有抬头，则上调至 bullish。",
+        "en": "Move to bullish if Q2 FY2027 delivers the $91.0B revenue guide, Data Center sequential slope and 75% non-GAAP gross margin both hold, rack/system attach and networking/software attach expand the profit pool, and ASIC/China/circular-financing risks do not rise."
+      },
+      "downgrade": {
+        "zh": "降级触发条件：若 hyperscaler capex 连续转弱、Data Center revenue 环比失速、custom ASIC 在推理/成熟负载持续夺取增量 profit pool，或中国/投资组合减值重置盈利分母，则下调至 neutral-watch 或 cautious。",
+        "en": "Move to neutral-watch or cautious if hyperscaler capex weakens for consecutive quarters, Data Center revenue stalls sequentially, custom ASICs keep taking incremental profit pool in inference/mature workloads, or China / portfolio impairments reset the earnings denominator."
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-06-26",
+        "stance": "neutral-watch",
+        "price": 192.53
+      },
+      {
+        "date": "2026-07-07",
+        "stance": "constructive",
+        "conviction": "medium",
+        "price": 192.53
       }
     ]
   },
@@ -3496,8 +3580,8 @@
     },
     "title": "AMD 深度研究报告 - AI时代的半导体挑战者",
     "titleEn": "AMD Deep Research Report - AI Era Semiconductor Challenger",
-    "summary": "2026-06-22完整重跑版：AMD Q1 2026营收$102.53亿（+38% YoY），Data Center收入约$58亿（+57% YoY），Meta 6GW与Helios/MI450强化AI基础设施平台叙事；但股价约$537、市值约$8,870亿，EV/TTM Sales约23.4x，当前结论调整为中性/观察：基本面强，估值容错极低。",
-    "summaryEn": "June 22, 2026 full rerun: AMD Q1 2026 revenue was $10.253B (+38% YoY), Data Center revenue was about $5.8B (+57% YoY), and Meta's 6GW Instinct GPU partnership plus Helios/MI450 strengthen the AI infrastructure platform story. But at roughly $537 per share, ~$887B market cap, and ~23.4x EV/TTM Sales, the conclusion is neutral/watch: fundamentals are stronger, but valuation tolerance is very low.",
+    "summary": "v5 回填：AMD Q1 2026 营收 $10.253B、Data Center 约 $5.8B，Meta 6GW、Helios/MI450、EPYC 与 ROCm 让 AI infrastructure 第二平台叙事更强。但以 $537.37、约 $878B EV 和约 23.4x EV/TTM Sales 计，市场已经提前定价 Meta/Helios、MI450、ROCm 改善、Data Center 增长和利润率扩张；20% 牛市 / 40% 基准 / 40% 熊市情景给出负偏斜，因此改为谨慎 / 中确信。",
+    "summaryEn": "July 7, 2026 v5 update: AMD Q1 2026 revenue was $10.253B and Data Center was about $5.8B, while Meta 6GW, Helios/MI450, EPYC, and ROCm strengthen the second-platform AI infrastructure story. But at $537.37, about $878B EV, and roughly 23.4x EV/TTM Sales, the market already prices Meta/Helios, MI450, ROCm improvement, Data Center growth, and margin expansion; a 20% bull / 40% base / 40% bear grid gives negative skew, moving stance to cautious / medium conviction.",
     "tags": [
       "半导体",
       "AI加速器",
@@ -3506,7 +3590,7 @@
     ],
     "category": "tech",
     "date": "2026-02-04",
-    "lastUpdate": "2026-06-22",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=amd-2026",
     "markdownFiles": {
       "zh": "/invest/research/AMD_深度研究报告_2026-02.md",
@@ -3520,7 +3604,7 @@
     ],
     "chainLayer": "compute",
     "coverageTier": "full",
-    "stance": "neutral-watch",
+    "stance": "cautious",
     "priceAsOf": "2026-06-18",
     "reportedPeriod": "Q1 2026",
     "related": [
@@ -3583,6 +3667,34 @@
         },
         "nextCheck": "2026-Q2 财报 / Q2 earnings",
         "nextCheckDate": "2026-08"
+      }
+    ],
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 $537.37、约 $8,780 亿 EV 和约 23.4x EV/TTM Sales 计，市场已经把 Meta/Helios、MI450、ROCm 改善、Data Center 增速和利润率扩张放进价格；我们的基准情景同意基本面变强，但认为这些证据尚不足以覆盖当前 multiple，因此预期差偏负。",
+      "en": "At $537.37, roughly $878B EV, and about 23.4x EV/TTM Sales, the market already prices Meta/Helios, MI450, ROCm improvement, Data Center growth, and margin expansion; our base case agrees that fundamentals are stronger, but the evidence is not yet enough to cover the current multiple, so the expectation gap is negative."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若 2026H2 首个 1GW Meta deployment 按期出货并进入收入、Data Center 增速和 56%+ non-GAAP gross margin 同时兑现，ROCm/Helios 证明可重复客户迁移，且 EV/TTM Sales 从约 23.4x 被收入分母消化，则上调至 neutral-watch 或 constructive。",
+        "en": "Move to neutral-watch or constructive if the first 1GW Meta deployment ships on schedule in H2 2026 and enters revenue, Data Center growth and 56%+ non-GAAP gross margin both deliver, ROCm/Helios prove repeatable customer migration, and EV/TTM Sales is absorbed from roughly 23.4x by the revenue denominator."
+      },
+      "downgrade": {
+        "zh": "若 Meta 1GW 或 6GW 路径延期/缩小、Data Center 增速低于公司整体、ROCm 没有可审计迁移证据，或 custom ASIC/NVIDIA Rubin 压缩 AMD 的 rack-level 性价比窗口，则下调至 bearish-avoid。",
+        "en": "Move to bearish-avoid if the Meta 1GW or 6GW path is delayed/reduced, Data Center growth falls below company-level growth, ROCm lacks auditable migration evidence, or custom ASICs / NVIDIA Rubin compress AMD's rack-level price-performance window."
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-06-18",
+        "stance": "neutral-watch",
+        "price": 537.37
+      },
+      {
+        "date": "2026-07-07",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 537.37
       }
     ]
   },

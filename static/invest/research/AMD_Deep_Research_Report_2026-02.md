@@ -1,7 +1,7 @@
 # Advanced Micro Devices (AMD) Deep Research Report
 
 Coverage date: 2026-02-04
-Last updated: 2026-06-22
+Last updated: 2026-07-07
 Ticker: NASDAQ: AMD
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -11,7 +11,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 **One-line thesis:** AMD's fundamental evidence is stronger than it was in the February report, and the data center / AI infrastructure story has moved from optionality toward delivery validation. But at roughly **$537.37** per share and about **$887B** of market capitalization, the stock has already priced in very aggressive 2026-2027 execution.
 
-**Current view:** Downgrade the old "cautiously bullish" framing to **Neutral / watchlist: stronger fundamentals, very low valuation margin for error**. The key question is no longer whether AMD has improved; it is whether the current price already discounts Meta/Helios, MI450, EPYC, ROCm progress, and margin expansion all at once.
+**Current view:** The v5 backfill moves the view further to **cautious / medium conviction**. The key question is no longer whether AMD has improved; it is whether the current price already discounts Meta/Helios, MI450, EPYC, ROCm progress, rack-level systemization, and margin expansion all at once. The 20% bull / 40% base / 40% bear scenario grid points to negative skew at today's price.
 
 **Current market reference (latest verifiable U.S. close as of June 18, 2026):** AMD closed at approximately **$537.37**. Using an approximate 1.65B diluted share base, market cap is roughly **$887B**. Netting Q1 2026 cash and short-term investments of $12.347B against total debt of $3.224B implies enterprise value of roughly **$878B**. Market data source: [MarketWatch AMD quote](https://www.marketwatch.com/investing/stock/amd); financial data source: [AMD Q1 2026 Financial Results](https://ir.amd.com/news-events/press-releases/detail/1284/amd-reports-first-quarter-2026-financial-results).
 
@@ -39,7 +39,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 This section now summarizes the full rerun deltas as a clean baseline, while the full previous version remains available in the Previous view.
 
-- Investment stance shifted from “cautiously bullish” to “neutral / watch”: valuation now constrains upside more than fundamentals alone.
+- Investment stance shifted from “cautiously bullish” to “neutral / watch,” and the 2026-07-07 v5 backfill now expresses it as “cautious / medium conviction”: valuation constrains upside more than fundamentals alone.
 - Valuation references were refreshed from the February framework to the current one: around **$887B** market cap and EV/TTM Sales around **23.4x**.
 - Customer counterparty verification is now tied to AMD’s disclosed 6GW multi-year, multi-generation agreement with **Meta**; OpenAI remains to be reverified at a deployment-meaningful scale.
 - Report structure remains intact for business, competition, financial health, management, bull/bear, key uncertainties, valuation, catalysts, and conclusion, with the analytical backbone now anchored to **Q1 2026 + Q2 guidance + H2 Meta/Helios delivery validation**.
@@ -282,11 +282,11 @@ Main risks:
 2. **AI spending cycle:** 2026 hyperscaler AI capex ~$450B with unproven ROI; if growth decelerates from ~40% to 15%, AMD AI GPU revenue could peak around $8-10B instead of $20B+.
 3. **Execution and concentration:** the top 3-4 customers could be 60%+ of AI GPU revenue; Meta's first 1GW still awaits H2 2026 validation; AMD has a history of delays (Vega, Radeon VII).
 4. **Geopolitics and supply chain:** 100% TSMC dependency; China MI308 requires annual licensing, and Q1 2026 China revenue was well below Q4 2025; regulatory change could erase ~$1-2B of revenue at once; a Taiwan Strait conflict scenario could cut revenue 15-20% and reprice the stock 40-50%.
-5. **Valuation cushion:** the historical P/E range is ~15-50x, and the stock has repeatedly drawn down 30%+; at bear 2027 revenue $38-42B, 22-25% operating margin, EPS $3.5-4.0, and a historical 22x basis, the mechanical price is about $77-88.
+5. **Valuation cushion:** the historical P/E range is ~15-50x, and the stock has repeatedly drawn down 30%+; if bear 2027 revenue of $38-42B, 22-25% operating margin, and EPS of $3.5-4.0 prove right, the market would compress both the EPS denominator and the multiple rather than just one variable.
 
 ---
 
-## 7. Valuation Rerun
+## 7. Current Market Frame
 
 ### 7.1 Current Valuation
 
@@ -300,19 +300,7 @@ Main risks:
 | Q1 annualized non-GAAP P/E | About **98x** |
 | FCF yield | About **1.2%** using annualized Q1 FCF |
 
-### 7.2 Scenario Framework, Not a Price Target
-
-The following is a reverse-engineering framework, not investment advice or a formal price target.
-
-| Scenario | Key assumptions | Mechanical range |
-|----------|-----------------|------------------|
-| Bear | 2027 revenue $45-50B, EPS $5-7, market assigns 25-35x; limited AI share gains | About $150-280 |
-| Base | 2027 revenue $65-75B, EPS $8-11, market assigns 35-45x; Meta/Helios executes but does not reshape the industry | About $330-500 |
-| Bull | 2027-2028 revenue $90-110B, EPS $14-20, market sustains 40-50x; AMD becomes the durable #2 AI platform | About $550-900 |
-
-**Interpretation:** The current $537.37 price is already near the lower end of the bull case, not the middle of the base case. Liking AMD as a company and liking the current risk/reward are now two separate conclusions.
-
-### 7.3 Treatment of Old Valuation Ranges
+### 7.2 Treatment of Old Valuation Ranges
 
 | Old method | Old range | Current treatment |
 |------------|-----------|-------------------|
@@ -322,7 +310,7 @@ The following is a reverse-engineering framework, not investment advice or a for
 | P/E comps | $100-120 | Old forward EPS and multiple inputs are stale |
 | EV/Sales comps | $110-130 | Old 5-6x forward sales framework does not match today's AI platform premium |
 
-### 7.4 Peer Valuation Comparison (February baseline; AMD row updated to current)
+### 7.3 Peer Valuation Comparison (February baseline; AMD row updated to current)
 
 | Company | Forward P/E | EV/Sales | Gross margin | Growth | Position |
 |---------|-------------|----------|--------------|--------|----------|
@@ -335,7 +323,23 @@ Supplemental market cap and revenue (February baseline; AMD updated): AMD market
 
 ---
 
-## 8. Catalysts and Monitoring Checklist
+## 8. Valuation Scenario Grid And Priced-In Expectations
+
+Valuation is used for expectations calibration, not investment advice. v5 no longer uses mechanical price ranges; it uses the AI accelerator profit pool, rack/system attach, software ecosystem, custom-ASIC pressure, and multiple regime to state what the current $537.37 price embeds.
+
+**Scenario grid:**
+
+| Scenario | Driver assumptions (profit pool / attach / software / multiple regime) | Valuation implication (rich / fair / cheap vs today) | Subjective probability weight |
+| --- | --- | --- | --- |
+| Bull | Meta's first 1GW ships in H2 2026 and enters revenue, with the 6GW path expanding; MI450/Helios moves AMD from GPU supplier to rack-level system attach; ROCm shows repeatable migration in inference and private cloud; EPYC plus AI accelerator profit pool lifts Data Center margin; the market sustains a high-growth platform multiple | Today becomes fair only if AMD proves it is a durable AI infrastructure platform, not merely the second supplier | 20% |
+| Base | Meta 1GW begins validation but revenue recognition ramps gradually; Data Center keeps outgrowing the company, non-GAAP gross margin holds around 55-57%; ROCm improves but remains behind CUDA; Helios/MI450 strengthen the system narrative but customer concentration remains high; custom ASICs and NVIDIA Rubin cap share gains; the multiple is gradually absorbed by the revenue denominator | Today is full: fundamentals keep improving, but most of the improvement is already capitalized by $537.37 and roughly 23.4x EV/TTM Sales | 40% |
+| Bear | Meta 1GW or the 6GW path slips or shrinks; Data Center growth falls below company growth or gross margin moves back toward 50%; ROCm lacks auditable migration evidence; custom ASICs and NVIDIA Rubin compress AMD's rack-level price/performance window; the market cuts AI accelerator share, EPS denominator, and multiple together | Today looks rich: the risk is that the second-platform narrative cannot support the current multiple | 40% |
+
+**What's priced in & the expectation gap:** At the $537.37 close on Jun 18, 2026, roughly $878B EV, and about 23.4x EV/TTM Sales, the market is not pricing ordinary GPU CAGR; it is pricing AMD's move from merchant GPU supplier to rack-level AI infrastructure platform. Meta 6GW, Helios/MI450, ROCm, EPYC attach, and margin expansion all need evidence in H2 2026-2027. Our base case accepts that AMD's fundamentals are materially stronger, but $537.37 already capitalizes most of the Meta/Helios and platform-improvement evidence upfront; with 20% bull / 40% base / 40% bear weights, the expectation gap is negative.
+
+---
+
+## 9. Catalysts, Monitoring, and Key Uncertainties
 
 Over the next 12-18 months, delivery quality matters more than headline count:
 
@@ -347,17 +351,15 @@ Over the next 12-18 months, delivery quality matters more than headline count:
 6. Net share count after stock compensation, buybacks, and Meta warrant milestones.
 7. Whether NVIDIA Rubin / Vera Rubin compresses AMD's performance or price-performance window.
 
-### 8.1 Key Timeline and Run-Rate Targets (February baseline)
+### 9.1 Key Timeline and Run-Rate Targets (February baseline)
 
 - **Key dates:** late April 2026 Q1 results (reported), June Computex (products and roadmap), Q3 (around October) Meta/Helios shipment update, Q4 (January 2027) full-year results and 2027 guidance.
 - **Milestone thresholds:** Data Center moving toward a $25-30B annual run rate; AI GPU revenue around $8-10B in 2026; non-GAAP operating margin above 30% by 2027; AI accelerator share toward 10%+ by end of 2026.
 - **Product cadence:** MI400 series (CDNA 5) targeting 2nm, 20 PFLOPs FP8, 432GB HBM4; MI455X up to ~3 AI exaflops per rack; MI500 series planned for 2027; NVIDIA Rubin (H2 2026) about +3.3x compute over Blackwell B300.
 
----
+### 9.2 Key Uncertainties and Thesis-Breaking Conditions
 
-## 9. Key Uncertainties and Thesis-Breaking Conditions
-
-### 9.1 AI Infrastructure Spending Sustainability
+#### 9.2.1 AI Infrastructure Spending Sustainability
 
 AMD's current valuation is highly dependent on hyperscalers and large internet customers continuing to expand AI infrastructure capex. The open questions are:
 
@@ -367,7 +369,7 @@ AMD's current valuation is highly dependent on hyperscalers and large internet c
 
 If AI capex growth decelerates sharply, AMD may be more exposed than NVIDIA because it is still the second supplier trying to earn platform status.
 
-### 9.2 Meta Deployment Scale, Timing, and Economics
+#### 9.2.2 Meta Deployment Scale, Timing, and Economics
 
 Meta 6GW is the most important verified customer anchor, but several variables remain open:
 
@@ -378,7 +380,7 @@ Meta 6GW is the most important verified customer anchor, but several variables r
 
 The 6GW headline should not be mechanically translated into near-term revenue. The key evidence is whether Q3/Q4 2026 results show shipment, revenue, and margin validation together.
 
-### 9.3 ROCm and Software Ecosystem
+#### 9.2.3 ROCm and Software Ecosystem
 
 ROCm remains the main bottleneck between hardware substitution and platform substitution. Watch:
 
@@ -388,7 +390,7 @@ ROCm remains the main bottleneck between hardware substitution and platform subs
 
 If ROCm progresses more slowly than expected, AMD can still benefit from supply-chain diversification, but the platform premium should compress.
 
-### 9.4 Competition and Supply Chain
+#### 9.2.4 Competition and Supply Chain
 
 Competitive risk is broader than NVIDIA alone:
 
@@ -397,7 +399,7 @@ Competitive risk is broader than NVIDIA alone:
 - Hyperscaler custom ASICs could reduce the long-term TAM for merchant GPUs.
 - Advanced-node and advanced-packaging supply remain heavily tied to TSMC and Taiwan; geopolitical risk cannot be diversified away by near-term earnings strength.
 
-### 9.5 Thesis-Breaking Conditions
+#### 9.2.5 Thesis-Breaking Conditions
 
 **Bull case invalidation signals:**
 
@@ -419,11 +421,13 @@ Competitive risk is broader than NVIDIA alone:
 
 ## 10. Conclusion
 
-**Current conclusion:** AMD's company quality and strategic position are stronger than in the February report. But the stock has also moved from "high-valuation growth stock" to "extremely high-expectation pricing." The full rerun changes the report's core stance from "cautiously bullish" to a high-expectation monitoring framework.
+**Current conclusion:** AMD's chain-validation job is to test whether the AI accelerator second platform is real: Meta 6GW, Helios/MI450, ROCm, EPYC attach, TSMC/packaging supply, and customer concentration all have to prove AMD can move from chip supplier to rack-level AI infrastructure platform.
 
-**For existing holders:** The key evidence to track is Q2/Q3 Data Center revenue, Meta/Helios shipment evidence, and gross margin. A miss in any of those areas could matter disproportionately.
+**Expectation gap:** At $537.37, roughly $878B EV, and about 23.4x EV/TTM Sales, the market already prices Meta/Helios, MI450, ROCm improvement, Data Center growth, and margin expansion; our base case agrees that fundamentals are stronger, but the evidence is not yet enough to cover the current multiple, so the expectation gap is negative.
 
-**For new capital:** The old "wait for a 10-15% pullback" framework is no longer enough. The cleaner threshold is either more fundamental proof or a valuation that can be explained more directly by cash flow and EPS.
+**The current stance is cautious, medium conviction.** The 20% bull / 40% base / 40% bear scenario grid gives negative skew: the bull case requires AMD to prove it is a durable AI infrastructure platform, the base case is already mostly capitalized at the current price, and the bear case comes from any key Meta/ROCm/rack-level price-performance evidence falling short. Conviction is medium because Q1/Q2 guidance, Data Center growth, and Meta 6GW evidence are clear, but H2 2026 shipment and software-ecosystem proof are still pending.
+
+**Move to neutral-watch or constructive if the first 1GW Meta deployment ships on schedule in H2 2026 and enters revenue, Data Center growth and 56%+ non-GAAP gross margin both deliver, ROCm/Helios prove repeatable customer migration, and EV/TTM Sales is absorbed from roughly 23.4x by the revenue denominator. Move to bearish-avoid if the Meta 1GW or 6GW path is delayed/reduced, Data Center growth falls below company-level growth, ROCm lacks auditable migration evidence, or custom ASICs / NVIDIA Rubin compress AMD's rack-level price-performance window.**
 
 **Review windows:** Recheck after Q2 2026 results for Data Center and gross margin; recheck after Q3/Q4 2026 for Meta/Helios shipment evidence.
 
