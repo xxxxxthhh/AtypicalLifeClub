@@ -55,11 +55,25 @@
       <description>AI 基础设施 datacenter-facility 层的 DLR 对照组：EQIX 用 Platform Equinix interconnection、retail colocation、xScale JV 和 AFFO/share 来验证 AI 需求是否不只是 hyperscale shell leasing。2026Q1 收入 $2.444B（reported YoY +10%）、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；MRR 同比 +12% reported / +10% normalized constant currency，annualized gross bookings $378M，annualized presales 约 $140M，largest deals 约 60% AI-related。2025 年报披露 280 个数据中心、10,500+ 客户、507,000+ interconnections，Q1 2026 interconnection revenue $446M。当前 $1,002.02（2026-07-02）、市值约 $98.8B、EV 约 $120.8B，约 23.5x 2026 AFFO/share 指引中点、约 11.9x 2026 revenue 指引。中性观察 / 中确信：质量高但估值高，关键监控是 interconnection revenue、AI bookings/presales、xScale economics、MRR/cabinet yield 与 power availability。</description>
     </item>
     <item>
+      <title>Nebius Group 深度研究报告 - neocloud 的『干净对照组』：对 CoreWeave 风险锚的架构校验 / Nebius Group Deep Research Report - The 'Clean' Neocloud: An Architecture Check on the CoreWeave Risk Anchor</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=nebius-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=nebius-2026#nebius-2026@2026-07-07</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+      <description>本中心 AI 基础设施书 demand-risk 层的第二篇，作为对 CoreWeave 风险锚的『交叉校验/架构校验』。前身 Yandex 的国际继承者、阿姆斯特丹总部、纳斯达克上市的全栈 AI 云（neocloud）。与 CoreWeave 相反：Q1 2026 营收 $3.99 亿(+684%)、AI 云 ARR $19.2 亿、调整后 EBITDA 转正 $1.295 亿、经营现金流 +$22.6 亿，靠约 $93 亿现金/客户预付款/可转债、而非 GPU 抵押杠杆融资；约 $84 亿非流动债务与约 $10 亿经营租赁负债，对照约 $93 亿现金，金融债务口径近中性、租赁调整后中性至约 $40 亿净现金（取决于预付认股权证处理）。但 GAAP 净利 $6.21 亿实为一笔 $7.806 亿 ClickHouse 非现金重估（经营层面 −$1.28 亿亏损），且正积累与 CoreWeave 同款的超大规模集中（微软最高约 $194 亿 + Meta 最高约 $270 亿，合计约 $460 亿公司披露承诺/上限）与 NVIDIA 供应商+股东循环性。股价约 $240（2026-07-01，6 月 22 日纳指 100 纳入前后约 $256）、市值约 $610 亿、约 2.539 亿流通股，约 17-19x EV/2026E 营收（约 CoreWeave 的 3 倍）、约 7x EV/退出 ARR；2026 资本开支 $200-250 亿(约 7 倍营收)。核心读数：CoreWeave 的脆弱只是资产负债表选择，还是 neocloud 模式的固有属性？答案——只有偿付脆弱是 CoreWeave 独有，需求/集中/循环/资本开支风险是全层共享。2026-07-07 v5 更新：以 2026-07-06 收盘 $213.02 为锚，30% 牛市 / 40% 基准 / 30% 熊市情景网格给出略偏负预期差，当前迁移为谨慎 / 中确信。</description>
+    </item>
+    <item>
       <title>Arista Networks 深度研究报告 - AI 集群开放以太网 fabric 的系统软件卖铲人 / Arista Networks Deep Research Report - The Open Ethernet Fabric of AI Clusters</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=arista-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=arista-2026#arista-2026@2026-07-07</guid>
       <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
       <description>AI 集群网络层首次覆盖：Arista 是开放以太网/AI spine/scale-out 网络的系统软件卖铲人，正面回答 NVIDIA Spectrum-X/InfiniBand/NVLink 一体化 vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet 生态的路线之争。Q1 2026 营收 $2.709B(+35.1%)、GAAP/非GAAP营业利润率 42.7%/47.8%、非GAAP EPS $0.87、经营现金流 $1.69B；Q2 指引营收约 $2.8B。FY2025 Cloud and AI Titans/AI Specialty Providers 占收入 48%/20%，Core AI/Cloud/Data Center Networking 占 65%。但两大匿名终端客户合计约 42% 收入(26%/16%)、高度依赖 Broadcom merchant silicon，且 Jun 29 2026 市值约 $206.6B、约 56x TTM GAAP P/E、约 47x 当前非GAAP EPS运行率。neutral-watch / 中等确信：高质量，但大多已定价。</description>
+    </item>
+    <item>
+      <title>CoreWeave 深度研究报告 - AI 建设的风险锚：真实需求还是杠杆与循环融资？ / CoreWeave Deep Research Report - The AI Buildout's Risk Anchor: Real Demand or Leverage &amp; Circular Financing?</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=coreweave-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=coreweave-2026#coreweave-2026@2026-07-07</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+      <description>本中心 AI 基础设施书的『风险锚』，刻意以熊市为主轴写。GPU『neocloud』，一边是 $994 亿公司定义收入 backlog（RPO + 其他承诺客户合同金额）与 56% 调整后 EBITDA，一边是扩大的 GAAP 净亏损（Q1 2026 −$7.4 亿）、约 $249 亿债务、约 $100 亿经营租赁负债、$310-350 亿 2026 资本开支（约 3 倍营收）。客户集中（微软历史上收入占比 &gt;60%；CNBC 引 2024 年为 62%），NVIDIA 同时是供应商+股东（$20 亿@$87）+$63 亿产能兜底（循环性）。Q1 2026 营收 $20.78 亿(+112%)，FY2026 指引营收 $120-130 亿。股价已较 2025 峰值回落约 47% 至约 $96、市值约 $520 亿、经营租赁前金融净债务约 $229 亿、含经营租赁净义务栈约 $329 亿。中心问题：是真实经济需求还是被杠杆催起的提前囤货？2026-07-07 v5 更新：以 2026-07-06 收盘 $86.46 为锚，20% 牛市 / 30% 基准 / 50% 熊市情景网格给出负预期差，维持 bearish-avoid / 中确信。</description>
     </item>
     <item>
       <title>Vertiv 深度研究报告 - AI 数据中心电力与散热的卖铲人（建设速度仪表盘） / Vertiv Deep Research Report - The Power &amp; Cooling Pick-and-Shovel of AI Data Centers (Buildout Dashboard)</title>
@@ -139,6 +153,20 @@
       <description>AI 基础设施书 memory-storage 层补位：Micron 是 HBM、DDR5、数据中心 SSD 和长期供货协议共同构成的 AI 供给瓶颈仪表盘。FY2026 Q3 收入 $41.46B、毛利率约 84.6%、营业利润 $33.32B、净利润 $28.24B，Q4 指引收入 $49-51B、调整后 EPS $30-32、毛利率约 86%。HBM 产能公开报道显示已售罄至 2026，16 个战略客户协议中 14 个最低合同收入约 $100B、约 $22B 现金存款/承诺。2026-07-07 v5 更新：当前 $975.56（2026-07-02 收盘）、市值约 $1.10T，20% 牛市 / 50% 基准 / 30% 熊市情景网格给出温和负偏斜，判断改为谨慎 / 中确信：市场隐含通过周期可持续 EPS 约 $65-81，高于我们约 $53 的加权值，周期均值回归风险未被完全定价。</description>
     </item>
     <item>
+      <title>Meta Platforms 深度研究报告 - AI 基建书的需求锚与算力外售压力测试 / Meta Platforms Deep Research Report - Demand Anchor and Compute-Resale Stress Test for the AI-Infra Book</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=meta-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=meta-2026#meta-2026@2026-07-07</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+      <description>本中心 AI 基础设施书 demand-risk 层的需求锚覆盖：Meta 不是 GPU/HBM/电力/光模块供应商，而是整条链最重要的终端买方之一。Q1 2026 收入 $56.31B(+33%)、营业利润 $22.87B、经营现金流 $32.23B、自由现金流 $13.23B，说明广告主业仍能融资 AI 建设；但公司把 2026 capex 指引抬到 $125-145B，且 7 月初被报道考虑推出 Meta Compute、外售过剩 AI 算力。股价 $582.90（2026-07-02 收盘）、市值约 $1.48T、约 6.9x TTM P/S、约 17x EV/TTM 营业利润，按 Q1 剔除约 $8B 税益 EPS 年化约 20x。核心读数：Meta capex 若继续被广告/AI 产品吸收，AI 基建链需求得到支撑；若外售算力意味着供给过剩或内部需求不足，则 CoreWeave/Nebius、HBM、光连接和电力链都要下修稀缺假设。2026-07-07 v5 更新：以 2026-07-06 收盘 $600.29 为锚，30% 牛市 / 50% 基准 / 20% 熊市情景网格接近市场隐含预期，维持 neutral-watch / 中确信。</description>
+    </item>
+    <item>
+      <title>Oracle 深度研究报告 - AI 云 RPO 仪表盘与资本开支融资压力 / Oracle Deep Research Report - AI Cloud RPO Dashboard and Capex Financing Pressure</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=oracle-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=oracle-2026#oracle-2026@2026-07-07</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施书 demand-risk 层的 RPO/backlog 仪表盘：Oracle 正从成熟数据库/企业软件公司变成高资本强度 AI 云基础设施平台。FY2026 Q4 收入 $19.18B(+21%)、OCI 收入 $5.8B(+93%)、RPO 达 $638B(+363%)，需求读数极强；但 FY2026 capex $55.66B、自由现金流 -$23.69B、FY2027 capex 指引可达 $90-95B，且公司需要约 $40B 债务+股权融资。当前股价 $140.27（2026-07-02 收盘）、市值约 $404B、按总债务 $156.19B 减现金+短投 $31.89B 计算的净债务约 $124.30B、企业价值约 $528B，对应约 7.8x TTM EV/Sales 和约 23.5x EV/TTM 营业利润。2026-07-07 v5 更新：以 2026-07-06 收盘 $143.76 为锚，20% 牛市 / 40% 基准 / 40% 熊市情景网格给出偏负预期差，立场迁移为谨慎 / 中确信；关键不是订单多不多，而是 RPO 能否按期转化为高回报现金流。</description>
+    </item>
+    <item>
       <title>Marvell Technology 深度研究报告 - Broadcom 之外的 custom ASIC 与光互连架构校验 / Marvell Technology Deep Research Report - Custom ASIC and Optical Interconnect Check Beyond Broadcom</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=marvell-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=marvell-2026#marvell-2026@2026-07-07</guid>
@@ -186,34 +214,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=vistra-2026#vistra-2026@2026-07-06</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
       <description>AI 基础设施 power 层的高 beta 仪表盘，与 Constellation Energy 成对覆盖。Vistra 同时拥有核电、燃气和零售/merchant power 暴露，用来验证 AI 数据中心需求是否从『清洁 baseload PPA』扩散到『可调度燃气容量、PJM/Texas 容量价值和现有发电资产重定价』。2026Q1 收入 $5.64B、净利润 $1.03B、营业利润 $1.50B、FCF $316M；Meta 20 年核电协议覆盖 Perry、Davis-Besse 与 Beaver Valley uprates，公开报道约 2.2GW；Cogentrix 交易主口径约 $4B net purchase price，公开 seller-side 报道也有约 $4.7B total consideration 口径，将增加约 5,500MW 燃气容量，预计 2026 年中后期完成。当前 $151.05（2026-07-02 收盘）、市值约 $50.9B、EV 约 $70.2B、约 3.6x EV/TTM sales；估值低于 CEG，但杠杆、气价、监管和容量市场波动更高。高风险观察 / power dashboard。</description>
-    </item>
-    <item>
-      <title>Oracle 深度研究报告 - AI 云 RPO 仪表盘与资本开支融资压力 / Oracle Deep Research Report - AI Cloud RPO Dashboard and Capex Financing Pressure</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=oracle-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=oracle-2026#oracle-2026@2026-07-05</guid>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施书 demand-risk 层的 RPO/backlog 仪表盘：Oracle 正从成熟数据库/企业软件公司变成高资本强度 AI 云基础设施平台。FY2026 Q4 收入 $19.18B(+21%)、OCI 收入 $5.8B(+93%)、RPO 达 $638B(+363%)，需求读数极强；但 FY2026 capex $55.66B、自由现金流 -$23.69B、FY2027 capex 指引可达 $90-95B，且公司需要约 $40B 债务+股权融资。当前股价 $140.27（2026-07-02 收盘）、市值约 $404B、按总债务 $156.19B 减现金+短投 $31.89B 计算的净债务约 $124.30B、企业价值约 $528B，对应约 7.8x TTM EV/Sales 和约 23.5x EV/TTM 营业利润。高风险观察 / 订单质量仪表盘：关键不是订单多不多，而是 RPO 能否按期转化为高回报现金流。</description>
-    </item>
-    <item>
-      <title>Meta Platforms 深度研究报告 - AI 基建书的需求锚与算力外售压力测试 / Meta Platforms Deep Research Report - Demand Anchor and Compute-Resale Stress Test for the AI-Infra Book</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=meta-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=meta-2026#meta-2026@2026-07-04</guid>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
-      <description>本中心 AI 基础设施书 demand-risk 层的需求锚覆盖：Meta 不是 GPU/HBM/电力/光模块供应商，而是整条链最重要的终端买方之一。Q1 2026 收入 $56.31B(+33%)、营业利润 $22.87B、经营现金流 $32.23B、自由现金流 $13.23B，说明广告主业仍能融资 AI 建设；但公司把 2026 capex 指引抬到 $125-145B，且 7 月初被报道考虑推出 Meta Compute、外售过剩 AI 算力。股价 $582.90（2026-07-02 收盘）、市值约 $1.48T、约 6.9x TTM P/S、约 17x EV/TTM 营业利润，按 Q1 剔除约 $8B 税益 EPS 年化约 20x。核心读数：Meta capex 若继续被广告/AI 产品吸收，AI 基建链需求得到支撑；若外售算力意味着供给过剩或内部需求不足，则 CoreWeave/Nebius、HBM、光连接和电力链都要下修稀缺假设。中性/高质量但高 capex 风险（观察）。</description>
-    </item>
-    <item>
-      <title>Nebius Group 深度研究报告 - neocloud 的『干净对照组』：对 CoreWeave 风险锚的架构校验 / Nebius Group Deep Research Report - The 'Clean' Neocloud: An Architecture Check on the CoreWeave Risk Anchor</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=nebius-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=nebius-2026#nebius-2026@2026-07-01</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
-      <description>本中心 AI 基础设施书 demand-risk 层的第二篇，作为对 CoreWeave 风险锚的『交叉校验/架构校验』。前身 Yandex 的国际继承者、阿姆斯特丹总部、纳斯达克上市的全栈 AI 云（neocloud）。与 CoreWeave 相反：Q1 2026 营收 $3.99 亿(+684%)、AI 云 ARR $19.2 亿、调整后 EBITDA 转正 $1.295 亿、经营现金流 +$22.6 亿，靠约 $93 亿现金/客户预付款/可转债、而非 GPU 抵押杠杆融资；约 $84 亿非流动债务与约 $10 亿经营租赁负债，对照约 $93 亿现金，金融债务口径近中性、租赁调整后中性至约 $40 亿净现金（取决于预付认股权证处理）。但 GAAP 净利 $6.21 亿实为一笔 $7.806 亿 ClickHouse 非现金重估（经营层面 −$1.28 亿亏损），且正积累与 CoreWeave 同款的超大规模集中（微软最高约 $194 亿 + Meta 最高约 $270 亿，合计约 $460 亿公司披露承诺/上限）与 NVIDIA 供应商+股东循环性。股价约 $240（2026-07-01，6 月 22 日纳指 100 纳入前后约 $256）、市值约 $610 亿、约 2.539 亿流通股，约 17-19x EV/2026E 营收（约 CoreWeave 的 3 倍）、约 7x EV/退出 ARR；2026 资本开支 $200-250 亿(约 7 倍营收)。核心读数：CoreWeave 的脆弱只是资产负债表选择，还是 neocloud 模式的固有属性？答案——只有偿付脆弱是 CoreWeave 独有，需求/集中/循环/资本开支风险是全层共享。高质量但高预期/高风险（观察）。</description>
-    </item>
-    <item>
-      <title>CoreWeave 深度研究报告 - AI 建设的风险锚：真实需求还是杠杆与循环融资？ / CoreWeave Deep Research Report - The AI Buildout's Risk Anchor: Real Demand or Leverage &amp; Circular Financing?</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=coreweave-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=coreweave-2026#coreweave-2026@2026-06-30</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
-      <description>本中心 AI 基础设施书的『风险锚』，刻意以熊市为主轴写。GPU『neocloud』，一边是 $994 亿公司定义收入 backlog（RPO + 其他承诺客户合同金额）与 56% 调整后 EBITDA，一边是扩大的 GAAP 净亏损（Q1 2026 −$7.4 亿）、约 $249 亿债务、约 $100 亿经营租赁负债、$310-350 亿 2026 资本开支（约 3 倍营收）。客户集中（微软历史上收入占比 &gt;60%；CNBC 引 2024 年为 62%），NVIDIA 同时是供应商+股东（$20 亿@$87）+$63 亿产能兜底（循环性）。Q1 2026 营收 $20.78 亿(+112%)，FY2026 指引营收 $120-130 亿。股价已较 2025 峰值回落约 47% 至约 $96、市值约 $520 亿、经营租赁前金融净债务约 $229 亿、含经营租赁净义务栈约 $329 亿。中心问题：是真实经济需求还是被杠杆催起的提前囤货？高风险/偏熊（回避-观察）。</description>
     </item>
     <item>
       <title>GE Vernova 深度研究报告 - AI 电力侧的卖铲人与燃气轮机超级周期 / GE Vernova Deep Research Report - The Pick-and-Shovel of AI's Power Side and the Gas-Turbine Super-Cycle</title>

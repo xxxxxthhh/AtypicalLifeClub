@@ -1,7 +1,7 @@
 # Oracle (ORCL) Deep Research Report
 
 Coverage date: 2026-07-04
-Last updated: 2026-07-05
+Last updated: 2026-07-07
 Ticker: NYSE: ORCL
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -142,13 +142,23 @@ The following is valuation context, not a target price or recommendation.
 | Method | Current readout | Key assumptions | Interpretation |
 |--------|-----------------|-----------------|----------------|
 | P/S | Market cap about $404B / TTM revenue about $67.36B = about 6.0x | TTM uses FY2026 four quarters | Not cheap for 20%+ growth, but compressed sharply from 2025 highs |
-| EV/Sales | EV about $528B / TTM revenue about $67.36B = about 7.8x | EV uses market cap plus net debt based on total debt less cash+ST investments | Leverage makes EV materially higher than equity value |
+| EV/Sales | EV about $528B / TTM revenue about $67.36B = about 7.8x | EV uses market cap plus net debt from total debt less cash+ST investments | Leverage makes EV materially higher than equity value |
 | EV / operating income | EV about $528B / TTM operating income about $22.44B = about 23.5x | GAAP operating income | Acceptable if OCI margin improves; expensive if FCF stays negative |
 | P/E | Market cap about $404B / TTM net income about $17.09B = about 24x | GAAP TTM net income | EPS does not fully capture future depreciation and financing pressure |
 | FCF yield | FY2026 FCF -$23.69B | Buildout period capex | Traditional FCF valuation is temporarily broken; RPO conversion is the bridge |
 | RPO / EV | $638B RPO / $528B EV = about 1.21x | RPO is not revenue or profit | Huge backlog, but value depends on margin, timing, and financing |
 
 ORCL is neither a cheap old software stock nor a pure high-growth cloud stock. It is a mature-profit pool using its balance sheet to buy AI-cloud growth. The key valuation variable is the FY2027-FY2029 path from RPO to revenue and then to positive FCF.
+
+**Scenario grid:**
+
+| Scenario | Driver assumptions (RPO conversion / OCI margin / capex / financing) | Valuation implication (rich / fair / cheap vs today) | Subjective probability weight |
+|----------|------------------------------------------------------------------------|------------------------------------------------------|-------------------------------|
+| Bull | The $638B RPO converts into FY2027-FY2029 OCI revenue on schedule; OCI revenue keeps growing 60-90% and proves high-20s ROIC; FY2027 capex stabilizes at $90-95B and then peaks; roughly $40B of new financing is raised at manageable cost and dilution | The Jul 6, 2026 price of $143.76 would look fair: 7.8x EV / TTM sales and 23.5x EV / TTM operating income are explained by high-quality backlog conversion and FCF repair | 20% |
+| Base | RPO is very strong but conversion stretches out; OCI high growth continues but margin / ROIC disclosure remains limited; FY2027 capex stays elevated and FCF remains negative; debt plus ATM financing is available but raises the shareholder cost | Today's price largely prices order strength but does not fully discount capex and financing burden: the software profit pool provides a floor, while AI-cloud buildout drags on FCF | 40% |
+| Bear | New RPO depends on a few very large customers or customer-provided GPU / prepayment structures; construction, power, or GPU delivery delays put capex ahead of revenue; financing is more expensive or more dilutive; OCI ROIC fails to prove high returns | Today's price would look rich: the market treats backlog as profit, but it first appears as net debt, dilution, and years of negative FCF | 40% |
+
+**What's priced in & the expectation gap:** At the $143.76 close in `prices.json` on Jul 6, 2026, the market is not treating Oracle as a cheap old software stock; it is assigning the $638B RPO a large conversion credit. Today's valuation implies that most of the following must happen in FY2027-FY2029: RPO turns into revenue, OCI proves high ROIC, capex peaks, and financing does not damage shareholders. Our 20% bull / 40% base / 40% bear grid says order reality is strong, but capex and financing execution risk is just as large. The expectation gap is negative, so the legacy high-risk-watch should migrate to cautious rather than remain a generic watch label.
 
 ## 9. Catalysts & Timeline
 
@@ -169,7 +179,13 @@ Oracle is necessary coverage because it concentrates the hardest question in the
 
 For the broader AI-infra book, ORCL is a dashboard. If its $638B RPO converts cleanly, hyperscale AI-cloud demand is much broader than the CoreWeave/Nebius risk-anchor story. If Oracle also runs into financing, customer concentration, or FCF problems, AI-buildout fragility has spread into a larger and more mature platform.
 
-The current classification is **high-risk watch / order-quality dashboard**. Do not become blindly optimistic because RPO is $638B. Do not dismiss the story just because FCF is -$23.69B. The actual decision nodes are FY2027 revenue near $90B, sustained OCI growth, stable capex, non-damaging financing, and backlog moving from commitment to cash.
+Oracle's chain-validation job is to translate AI-cloud demand from "commitment" into "revenue, ROIC, and cash": if RPO converts on schedule and OCI proves high returns, AI-cloud demand is broader than the CoreWeave / Nebius neocloud story; if Oracle also strains under financing, construction, concentration, or FCF, fragility has spread into a larger and more mature platform.
+
+The expectation gap is negative: at $143.76 (Jul 6, 2026 close), the market gives the $638B RPO a large conversion credit; our 20% bull / 40% base / 40% bear grid recognizes demand strength, but does not think the capex and financing burden is fully discounted.
+
+The current stance is **cautious, medium conviction**. Cautious does not deny Oracle's orders; it requires RPO to prove profit and cash. Medium conviction reflects fact clarity: RPO, OCI growth, capex, FCF, and financing need are all quantified, while the true uncertainty is the FY2027-FY2029 conversion sequence.
+
+Upgrade trigger: RPO converts into FY2027 revenue on schedule, OCI revenue keeps growing 60%+ with better margin / ROIC disclosure, FY2027 capex does not move above $95B, roughly $40B of financing is completed with low dilution and manageable rates, and customer concentration does not keep worsening. Downgrade trigger: RPO conversion weakens or depends on a few very large customers, FY2027 capex is raised above $95B, ATM / debt financing cost or dilution is worse than expected, OCI ROIC is not validated, or construction / power / GPU delivery delays push revenue out.
 
 ## Appendix: Sources & Assumptions
 

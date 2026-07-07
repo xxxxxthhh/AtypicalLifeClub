@@ -1,7 +1,7 @@
 # Nebius Group (NASDAQ: NBIS) Deep Research Report
 
 Coverage date: 2026-07-01
-Last updated: 2026-07-01
+Last updated: 2026-07-07
 Ticker: NASDAQ: NBIS
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence. All prices and market caps are point-in-time snapshots; financial figures are per company disclosure unless noted otherwise.
 
@@ -204,10 +204,15 @@ Framed as the **cross-checks on CoreWeave** — what Nebius tells us about wheth
 | Balance-sheet floor | financial-debt neutral; lease-adjusted still clean | Cash $9.3B vs ~$8.4B non-current debt plus ~$1.0B operating lease liabilities | High |
 | Sum-of-parts optionality | + non-core stakes | ClickHouse/Toloka/Avride/TripleTen monetized | Low |
 
-**Scenario framing (illustrative, not a forecast):**
-- **Bull (~30%):** ARR ramps to the high end, margins hit ~40%, marks hold; the premium multiple persists or expands and the equity re-rates above the ~$256 June highs.
-- **Base (~45%):** strong growth but the stock churns as it grows into a rich multiple, hostage to AI-capex sentiment and quarterly ramp cadence.
-- **Bear (~25%):** AI-capex digestion and/or a private-mark reversal compress multiple and sentiment 40-60% from the highs, balance sheet intact.
+**Scenario grid:**
+
+| Scenario | Driver assumptions (capacity contracts / project NAV / financing / margin) | Valuation implication (rich / fair / cheap vs today) | Subjective probability weight |
+|----------|----------------------------------------------------------------------------|------------------------------------------------------|-------------------------------|
+| Bull | Microsoft and Meta commitments convert into high-utilization revenue on schedule; 2026 exit ARR of $7-9B is delivered; more than 90% secured funding for $20-25B of capex remains effective; group margin approaches about 40%; ClickHouse / Toloka / Avride / TripleTen optionality partly crystallizes | The Jul 6, 2026 price of $213.02 would look fair to slightly cheap: the project-NAV premium is validated by contracted capacity and non-core optionality together | 30% |
+| Base | Demand is real but concentrated; Microsoft / Meta ramps are not perfectly linear; ARR lands near the middle of the range, margins improve but operating profit ex-marks still needs proof; ABS / prepayment / convertible funding remains available at higher cost; non-core stakes are valuation cushions | Today's price largely prices the optimistic end of this scenario: the quality premium is rational, but 17-19x 2026E revenue and 7-7.5x exit ARR leave little room for execution misses | 40% |
+| Bear | AI capex digests, customer concentration or Meta self-build / compute resale weakens scarcity; funding costs rise or contract ABS is harder; operating profit ex-marks fails to stay positive; private marks reverse | Today's price would look rich: the balance sheet remains cleaner than CoreWeave's, but project NAV, optionality value, and the multiple can compress together | 30% |
+
+**What's priced in & the expectation gap:** At the $213.02 close in `prices.json` on Jul 6, 2026, Nebius is still priced as "the winning independent neocloud plus non-core optionality," not as a normal cloud-services company. The market-implied requirement is that $7-9B of exit ARR converts into sellable capacity on schedule, margins approach 40%, and Microsoft / Meta contracts can be financed with low friction; our base case accepts real demand and available financing, but discounts concentration and capex slope. The 30% bull / 40% base / 30% bear grid therefore produces a slightly negative expectation gap: this is not a bearish view on the business, but the quality premium is already full at today's dated price.
 
 ---
 
@@ -238,7 +243,13 @@ Nebius is the **control group** for this center's neocloud thesis. Where CoreWea
 
 But the cross-check cuts both ways, and this is the part a bull skips: Nebius is priced for perfection (~17-19x forward revenue, ~3x CoreWeave's multiple), its GAAP profit is a non-cash ClickHouse mark over a −$128M operating loss, its capex intensity is *higher* than CoreWeave's (~7x revenue), and it is accumulating the **same** hyperscaler concentration and the **same** NVIDIA supplier-shareholder circularity it is supposed to be the diversified answer to. So the risks the neocloud layer exists to test — real-vs-financed demand, concentration, circularity, AI-capex durability — are **shared**; only the *balance-sheet* fragility is CoreWeave-specific.
 
-**Our posture is high-quality-but-high-expectations / high-risk (watch).** Nebius is the stronger business and the better-funded neocloud, and it earns a place in the book as the layer's **architecture check** on CoreWeave. But "better than the risk anchor" is a low bar for a stock priced as the category winner. In this research framework, it should be monitored as a high-beta, high-expectations AI-buildout exposure — and the **pair** (Nebius cleaner + CoreWeave levered) is the single most useful tell in the whole center: if both keep converting demand, the buildout is real; if the *clean* one cracks too, the problem was never leverage — it was the demand.
+Nebius's chain-validation job is to decide whether CoreWeave's problem is balance-sheet choice or the neocloud model itself: if Nebius keeps converting Microsoft / Meta contracts into ARR, utilization, and operating profit ex-marks under a cleaner funding structure, CoreWeave's solvency fragility looks more company-specific; if Nebius also cracks on concentration, funding, utilization, or capex returns, the whole layer's demand assumption needs to be marked down.
+
+The expectation gap is slightly negative: at $213.02 (Jul 6, 2026 close), the market is still paying for "the winning independent neocloud plus non-core optionality"; our 30% bull / 40% base / 30% bear grid recognizes the cleaner balance sheet and option value, but still discounts concentration, capex financing, and operating profit ex-marks.
+
+The current stance is **cautious, medium conviction**. Cautious reflects valuation skew: the business is stronger than CoreWeave, but the quality premium is already full. Medium conviction reflects evidence quality: cash, ARR, prepayments / contracts, and the ClickHouse mark are visible; the genuine uncertainty is whether capacity contracts can survive 2026-2027 AI-capex sentiment and funding markets.
+
+Upgrade trigger: Microsoft / Meta contracts convert into high-utilization revenue on schedule, 2026 exit ARR lands in the middle-to-high end of the $7-9B range, operating profit ex-marks stays positive, capex funding does not require dilution on worse terms, and customer concentration does not keep converging toward the CoreWeave profile. Downgrade trigger: Microsoft or Meta ramps are delayed, contract ABS / prepayment funding costs materially worsen, operating profit ex-marks turns negative again, non-core optionality marks reverse, or customer concentration and NVIDIA circularity keep rising and weaken the independent-neocloud story.
 
 ---
 

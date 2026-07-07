@@ -1,7 +1,7 @@
 # CoreWeave (CRWV) Deep Research Report
 
 Coverage date: 2026-06-30
-Last updated: 2026-06-30
+Last updated: 2026-07-07
 Ticker: NASDAQ: CRWV
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence. All prices and market caps are point-in-time snapshots; financial figures are per company disclosure unless noted otherwise.
 
@@ -159,10 +159,15 @@ Framed as the **four kill-criteria** — the observable that would confirm the b
 - **Adjusted vs GAAP:** EV/adj-EBITDA ~15x before operating leases, or ~17x on obligation-adjusted EV (using ~$5B annualized adj EBITDA), can look reasonable; but GAAP is loss-making (−$1.59B TTM) and Q1 interest ($536M) plus GPU depreciation are real cash/collateral facts that adjusted EBITDA omits.
 - **Reading it:** CoreWeave is priced as an option on AI-capex *continuing* — equity (~$52B) is the thin slice above ~$22.9B of financial net debt before operating leases, or ~$32.9B including operating lease liabilities. If demand and refinancing hold, the equity compounds; if either wobbles, the leverage works violently in reverse. This is a **levered call on the AI buildout**, appropriate only as a small, high-risk, deliberately-sized position — and most useful here as the book's **risk thermometer**, not a core long.
 
-**Scenario framing (illustrative, not a forecast):**
-- **Bear / base (~45%):** AI-capex digestion or a customer/refi stumble pressures utilization and the financing flywheel; the levered equity falls 40-70%.
-- **Muddle (~35%):** demand holds but losses/interest persist; the stock churns as it grows into the debt, hostage to capital-market access.
-- **Bull (~20%):** demand stays supply-constrained, diversification + self-funding arrive, GPU value holds; the equity re-rates sharply — and, importantly, **de-risks the entire AI-infra long book**.
+**Scenario grid:**
+
+| Scenario | Driver assumptions (capacity contracts / leverage / GPU residual / refinancing) | Valuation implication (rich / fair / cheap vs today) | Subjective probability weight |
+|----------|----------------------------------------------------------------------------------|------------------------------------------------------|-------------------------------|
+| Bull | The $99.4B company-defined revenue backlog keeps converting into revenue; Microsoft concentration falls as OpenAI / Meta and other customers diversify the customer mix; 6-year GPU depreciation and residual-value assumptions survive utilization evidence; refinancing cost remains manageable and 2026 capex is funded without destructive dilution | The Jul 6, 2026 price of $86.46 would look cheap to fair because equity is a levered call on supply-constrained AI buildout | 20% |
+| Base | Demand is visible, but revenue conversion lags backlog; GAAP losses, interest, and lease obligations keep weighing on FCF; concentration does not fall much; capital markets stay open but on tighter terms | Today's price broadly reflects risk consensus but is not cheap: the equity layer swings above debt / lease obligations and returns depend mostly on the refinancing window | 30% |
+| Bear | AI capex digests or anchor customers self-build / diversify; rental ASPs and utilization fall; GPU residual values and 6-year depreciation are questioned; refinancing cost rises, and NVIDIA backstops plus single-customer exposure are treated as circular demand | Today's price would still look rich: the thin equity layer above about $22.9B of financial net debt and about $32.9B including leases is squeezed by demand, collateral, and capital markets at the same time | 50% |
+
+**What's priced in & the expectation gap:** At the $86.46 close in `prices.json` on Jul 6, 2026, the market has already removed some froth, but still needs three things to hold together: capacity contracts are real, GPU collateral remains financeable, and customer concentration declines. Our base case is not "the stock goes sideways"; it is muddle-through, with visible demand but GAAP losses, interest, leases, and refinancing absorbing much of the value before common equity. The 20% bull / 30% base / 50% bear grid gives a negative expectation gap and supports keeping bearish-avoid rather than treating the drawdown itself as margin of safety.
 
 ---
 
@@ -191,9 +196,13 @@ Framed as the **four kill-criteria** — the observable that would confirm the b
 
 CoreWeave is the most important *negative-space* read in this center's AI-infrastructure book. Its $99.4B company-defined revenue backlog and 56% adjusted-EBITDA margin are the bull's evidence that AI-compute demand is vast and contracted; its widening GAAP loss, ~$25B of financial debt, ~$10B of operating lease liabilities, $31-35B of annual capex, historically >60% Microsoft concentration, and the NVIDIA supplier-shareholder-backstop triangle are the bear's evidence that the growth is bought and circular. Both readings cannot be fully true, which is exactly why it is the chain's risk anchor.
 
-**Our posture is bear-leaning and deliberate.** This is not a "high-quality, high-expectations" franchise like Vertiv or Corning; it is a solvency-sensitive, highly-levered option on AI-capex continuing, where the equity is a thin slice above ~$22.9B of financial net debt before operating leases, or ~$32.9B including operating lease liabilities, and the failure modes (customer, collateral, refinancing) are correlated. The market has already removed much of the froth (the stock is ~$96, ~47% off its highs), so this is less a "short it now" call than a **standing warning instrument**: watch CoreWeave's recognized-revenue conversion, concentration, interest coverage, and GPU residual value as the **earliest, highest-beta signals** of whether the entire AI buildout is real economic demand or financed momentum.
+CoreWeave's chain-validation job is to be this book's risk anchor: it compresses real AI-compute demand, customer concentration, supplier circularity, GPU collateral, lease obligations, and the refinancing window into one balance sheet. If it passes, the AI-infra long book loses one major bear overhang; if it fails, the crack should appear here first.
 
-Read against the rest of the book: if CoreWeave's four kill-criteria stay green, it *removes* a bear overhang from NVIDIA, Broadcom, Corning, GE Vernova, Bloom, SanDisk and Vertiv; if they turn red, CoreWeave is where the crack appears first. **We assign a high-risk / bear-leaning (avoid-to-watch) view** — own it, if at all, only as a small, consciously-sized, high-volatility position, and use it primarily as the dashboard's risk gauge.
+The expectation gap is negative: at $86.46 (Jul 6, 2026 close), the market acknowledges risk but still requires backlog conversion, GPU residual value, and the refinancing window to hold together; our 20% bull / 30% muddle / 50% bear grid puts more weight on correlated customer / collateral / capital-market failure modes.
+
+The current stance is **bearish-avoid, medium conviction**. Medium conviction is not because the demand evidence is weak — the $99.4B company-defined revenue backlog is strong evidence — but because the equity layer is thin and the customer, collateral, supplier-backstop, and refinancing failure modes are highly correlated. It remains useful as a dashboard, but not as a core long.
+
+Upgrade trigger: recognized revenue catches up to backlog for consecutive quarters, customer concentration falls materially, interest coverage and liquidity improve, GPU residual value / utilization supports 6-year depreciation, and refinancing or capex funding is completed at a cost that does not materially dilute shareholders. Downgrade trigger: recognized revenue keeps lagging backlog, Microsoft or top-2 customer concentration stays high, GPU rental ASP / utilization weakens, interest coverage deteriorates, or refinancing can only rely on more expensive debt, NVIDIA backstops, or highly dilutive equity.
 
 ---
 

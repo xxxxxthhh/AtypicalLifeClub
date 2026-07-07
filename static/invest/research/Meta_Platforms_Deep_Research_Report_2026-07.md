@@ -1,7 +1,7 @@
 # Meta Platforms (META) Deep Research Report
 
 Coverage date: 2026-07-04
-Last updated: 2026-07-04
+Last updated: 2026-07-07
 Ticker: NASDAQ: META
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -151,6 +151,16 @@ The following is valuation context, not a target price or recommendation. Meta's
 
 Compared with pure neoclouds, Meta's advantage is that it funds itself with advertising cash flow. Compared with traditional internet platforms, Meta's challenge is that capex intensity increasingly resembles infrastructure. The valuation center ultimately depends on whether the market sees AI capex as high-ROI moat investment or a low-return supply race.
 
+**Scenario grid:**
+
+| Scenario | Driver assumptions (ad growth / AI ROI / capex / compute resale) | Valuation implication (rich / fair / cheap vs today) | Subjective probability weight |
+|----------|-------------------------------------------------------------------|------------------------------------------------------|-------------------------------|
+| Bull | Advertising revenue keeps growing 25-30%+ and operating margin stays above 35%; AI recommendation / ad tools prove high ROI; 2026 capex stays within $125-145B and the 2027 frame declines; if Meta Compute launches, it proves compute monetization rather than idle capacity | The Jul 6, 2026 price of $600.29 can still look fair: roughly 20x annualized EPS excluding the tax benefit is absorbed by sustained growth and FCF repair | 30% |
+| Base | Ad growth normalizes but remains strong; AI capex stays elevated and pressures FCF yield; the compute-resale signal remains ambiguous, interpretable as either monetization or capacity buffer; regulatory noise does not break the ad engine | Today's price is broadly fair but has limited margin of safety: quality is high and the multiple is not extreme, but capex intensity requires the market to keep trusting ROI | 50% |
+| Bear | Advertising growth slows materially or regulation hits targeting / recommendations; capex moves above $145B and 2027 does not decline; Meta Compute confirms large external sales of idle capacity, pressuring GPU rental pricing and neocloud scarcity assumptions; FCF is compressed for years | Today's price would look rich: a mature ad-platform multiple meets infrastructure capex burden, compressing both the FCF multiple and AI-chain valuation | 20% |
+
+**What's priced in & the expectation gap:** At the $600.29 close in `prices.json` on Jul 6, 2026, Meta is not priced as a pure internet company or as pure infrastructure; it is priced as a hybrid in which high-quality ad cash flow funds AI capex and eventually raises ROI. About 17x EV / TTM operating income and roughly 20x annualized EPS excluding the tax benefit are not expensive, but they imply 2026-2027 capex will not permanently consume FCF. Our 30% bull / 50% base / 20% bear grid is close to the market-implied view: skew is near neutral, and the main gap is whether capex enters a visible downshift path in 2027.
+
 ## 9. Catalysts & Timeline
 
 | Catalyst | Timing | Impact |
@@ -170,7 +180,13 @@ Meta is the highest-priority name in this coverage batch because it is no longer
 
 At the company level, Meta quality is high: Q1 2026 revenue growth, margins, operating cash flow, and user scale are all still strong. At the chain level, the signal is more complicated. Meta buys GPUs, signs AMD 6GW commitments, builds MTIA, drives power and data-center demand, and may also sell excess compute externally. The same event can be positive for Meta shareholders, negative for neoclouds, and disruptive for the near-term HBM/optical/power narrative.
 
-The right classification is therefore **neutral / high-quality but high capex risk (watch)**. Do not ignore capex risk just because the ad business is strong. Do not declare the AI bubble broken just because Meta Compute was reported. The next evidence nodes are Q2/Q3 capex, ad growth, external compute disclosure, and AMD/MTIA deployment evidence.
+Meta's chain-validation job is to show whether AI-infra demand is truly absorbed by end applications: if ad-AI ROI, MTIA / AMD delivery, and capex discipline all hold, the GPU / HBM / optical / power demand chain is more credible; if compute resale and elevated capex are symptoms of excess capacity, neocloud and upstream scarcity assumptions need to be marked down.
+
+The expectation gap is near neutral: at $600.29 (Jul 6, 2026 close), the market believes high-quality ad cash flow can fund AI capex and eventually repair FCF; our 30% bull / 50% base / 20% bear grid broadly accepts that quality but requires verification from the 2027 capex path and the Meta Compute signal.
+
+The current stance is **neutral-watch, medium conviction**. Neutral is not a lack of view; evidence is strong on both sides. The ad business and profit quality support the bull case, while capex intensity and compute-resale reports reduce margin of safety. Medium conviction reflects good data quality, with the key variables still pending Q2/Q3 capex, ad-AI ROI, Meta Compute disclosure, and AMD / MTIA deployment evidence.
+
+Upgrade trigger: advertising revenue and operating margin keep clearly outrunning capex growth, 2026 capex stays within $125-145B and the 2027 frame declines, Meta Compute is proven to be high-utilization monetization rather than idle-capacity clearing, and AMD 1GW plus MTIA 400 / 450 deployments progress on schedule. Downgrade trigger: 2026 capex is raised above $145B or the 2027 frame does not decline, advertising growth or margin slows materially, Meta Compute disclosures show large idle / low-price external capacity, or AMD / MTIA delivery delays weaken the internal-ROI case.
 
 ## Appendix: Sources & Assumptions
 

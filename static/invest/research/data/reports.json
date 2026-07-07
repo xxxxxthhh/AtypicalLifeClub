@@ -1365,7 +1365,7 @@
     "priceSymbol": "NBIS",
     "title": "Nebius Group 深度研究报告 - neocloud 的『干净对照组』：对 CoreWeave 风险锚的架构校验",
     "titleEn": "Nebius Group Deep Research Report - The 'Clean' Neocloud: An Architecture Check on the CoreWeave Risk Anchor",
-    "summary": "本中心 AI 基础设施书 demand-risk 层的第二篇，作为对 CoreWeave 风险锚的『交叉校验/架构校验』。前身 Yandex 的国际继承者、阿姆斯特丹总部、纳斯达克上市的全栈 AI 云（neocloud）。与 CoreWeave 相反：Q1 2026 营收 $3.99 亿(+684%)、AI 云 ARR $19.2 亿、调整后 EBITDA 转正 $1.295 亿、经营现金流 +$22.6 亿，靠约 $93 亿现金/客户预付款/可转债、而非 GPU 抵押杠杆融资；约 $84 亿非流动债务与约 $10 亿经营租赁负债，对照约 $93 亿现金，金融债务口径近中性、租赁调整后中性至约 $40 亿净现金（取决于预付认股权证处理）。但 GAAP 净利 $6.21 亿实为一笔 $7.806 亿 ClickHouse 非现金重估（经营层面 −$1.28 亿亏损），且正积累与 CoreWeave 同款的超大规模集中（微软最高约 $194 亿 + Meta 最高约 $270 亿，合计约 $460 亿公司披露承诺/上限）与 NVIDIA 供应商+股东循环性。股价约 $240（2026-07-01，6 月 22 日纳指 100 纳入前后约 $256）、市值约 $610 亿、约 2.539 亿流通股，约 17-19x EV/2026E 营收（约 CoreWeave 的 3 倍）、约 7x EV/退出 ARR；2026 资本开支 $200-250 亿(约 7 倍营收)。核心读数：CoreWeave 的脆弱只是资产负债表选择，还是 neocloud 模式的固有属性？答案——只有偿付脆弱是 CoreWeave 独有，需求/集中/循环/资本开支风险是全层共享。高质量但高预期/高风险（观察）。",
+    "summary": "本中心 AI 基础设施书 demand-risk 层的第二篇，作为对 CoreWeave 风险锚的『交叉校验/架构校验』。前身 Yandex 的国际继承者、阿姆斯特丹总部、纳斯达克上市的全栈 AI 云（neocloud）。与 CoreWeave 相反：Q1 2026 营收 $3.99 亿(+684%)、AI 云 ARR $19.2 亿、调整后 EBITDA 转正 $1.295 亿、经营现金流 +$22.6 亿，靠约 $93 亿现金/客户预付款/可转债、而非 GPU 抵押杠杆融资；约 $84 亿非流动债务与约 $10 亿经营租赁负债，对照约 $93 亿现金，金融债务口径近中性、租赁调整后中性至约 $40 亿净现金（取决于预付认股权证处理）。但 GAAP 净利 $6.21 亿实为一笔 $7.806 亿 ClickHouse 非现金重估（经营层面 −$1.28 亿亏损），且正积累与 CoreWeave 同款的超大规模集中（微软最高约 $194 亿 + Meta 最高约 $270 亿，合计约 $460 亿公司披露承诺/上限）与 NVIDIA 供应商+股东循环性。股价约 $240（2026-07-01，6 月 22 日纳指 100 纳入前后约 $256）、市值约 $610 亿、约 2.539 亿流通股，约 17-19x EV/2026E 营收（约 CoreWeave 的 3 倍）、约 7x EV/退出 ARR；2026 资本开支 $200-250 亿(约 7 倍营收)。核心读数：CoreWeave 的脆弱只是资产负债表选择，还是 neocloud 模式的固有属性？答案——只有偿付脆弱是 CoreWeave 独有，需求/集中/循环/资本开支风险是全层共享。2026-07-07 v5 更新：以 2026-07-06 收盘 $213.02 为锚，30% 牛市 / 40% 基准 / 30% 熊市情景网格给出略偏负预期差，当前迁移为谨慎 / 中确信。",
     "tags": [
       "AI云",
       "AI基础设施",
@@ -1374,7 +1374,7 @@
     ],
     "category": "tech",
     "date": "2026-07-01",
-    "lastUpdate": "2026-07-01",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=nebius-2026",
     "markdownFiles": {
       "zh": "/invest/research/Nebius_深度研究报告_2026-07.md",
@@ -1387,14 +1387,15 @@
       "demand-risk 层第二篇，作为 CoreWeave 风险锚的『架构校验』对照组：一朵用现金/预付款/可转债、而非 GPU 抵押债融资的 neocloud——检验 CoreWeave 的脆弱是模式性的还是资产负债表性的",
       "与 CoreWeave 相反的报表：Q1 2026 营收 $3.99 亿(+684%)、AI 云 ARR $19.2 亿、调整后 EBITDA 转正 $1.295 亿(集团 32%/云 45%)、经营现金流 +$22.6 亿；约 $93 亿现金 vs 约 $84 亿非流动债务 + 约 $10 亿经营租赁负债，金融债务口径近中性、租赁调整后仍显著更轻",
       "但两条警报：GAAP 净利 $6.21 亿实为 $7.806 亿 ClickHouse 非现金重估(经营层面仍 −$1.28 亿亏损)；集中度与循环性在向 CoreWeave 收敛(微软最高约 $194 亿 + Meta 最高约 $270 亿，公司披露承诺/上限；NVIDIA 供应商+$20 亿股东)",
-      "股价约 $240(2026-07-01；6 月 22 日纳指 100 纳入前后约 $256)、市值约 $610 亿、约 2.539 亿流通股；约 17-19x EV/2026E 营收(约 CoreWeave 3 倍)、约 7x EV/退出 ARR；2026 资本开支 $200-250 亿(约 7 倍营收)。高质量但高预期/高风险(观察)"
+      "股价约 $240(2026-07-01；6 月 22 日纳指 100 纳入前后约 $256)、市值约 $610 亿、约 2.539 亿流通股；约 17-19x EV/2026E 营收(约 CoreWeave 3 倍)、约 7x EV/退出 ARR；2026 资本开支 $200-250 亿(约 7 倍营收)。高质量但高预期/高风险(观察)",
+      "2026-07-07 v5 更新：以 2026-07-06 收盘 $213.02 为锚，30% 牛市 / 40% 基准 / 30% 熊市；略偏负预期差，立场迁移为谨慎 / 中确信"
     ],
-    "summaryEn": "The second report in this center's AI-infra demand-risk layer, serving as the cross-check ('architecture check') on the CoreWeave risk anchor. Nebius is the Amsterdam-HQ, NASDAQ-listed, full-stack AI-cloud (neocloud) successor to the former Yandex. It is CoreWeave's mirror image: Q1 2026 revenue $399.0M (+684%), AI-cloud ARR $1.92B, adjusted EBITDA turned positive at $129.5M, and +$2.3B operating cash flow — funded by ~$9.3B cash, customer prepayments and convertibles rather than GPU-collateralized leverage, with ~$8.4B non-current debt plus ~$1.0B operating lease liabilities against ~$9.3B cash (financial-debt near-neutral; lease-adjusted neutral to ~$4B net cash depending on prefunded-warrant treatment). But GAAP net income of $621M is a $780.6M non-cash ClickHouse revaluation over a −$128M operating loss, and Nebius is accumulating the same hyperscaler concentration (Microsoft up to ~$19.4B + Meta up to ~$27B, ~$46B company-disclosed commitments/ceilings) and the same NVIDIA supplier-shareholder circularity as CoreWeave. Stock ~$240 (2026-07-01; ~$256 around its June-22 Nasdaq-100 inclusion), market cap ~$61B on ~253.9M shares outstanding, ~17-19x EV/2026E revenue (~3x CoreWeave's) and ~7x EV/exit-ARR; 2026 capex $20-25B (~7x revenue). Core read-through: is CoreWeave's fragility a balance-sheet choice or inherent to the neocloud model? Only the solvency fragility is CoreWeave-specific; the demand/concentration/circularity/capex risks are shared across the layer. High-quality-but-high-expectations / high-risk (watch).",
+    "summaryEn": "The second report in this center's AI-infra demand-risk layer, serving as the cross-check ('architecture check') on the CoreWeave risk anchor. Nebius is the Amsterdam-HQ, NASDAQ-listed, full-stack AI-cloud (neocloud) successor to the former Yandex. It is CoreWeave's mirror image: Q1 2026 revenue $399.0M (+684%), AI-cloud ARR $1.92B, adjusted EBITDA turned positive at $129.5M, and +$2.3B operating cash flow — funded by ~$9.3B cash, customer prepayments and convertibles rather than GPU-collateralized leverage, with ~$8.4B non-current debt plus ~$1.0B operating lease liabilities against ~$9.3B cash (financial-debt near-neutral; lease-adjusted neutral to ~$4B net cash depending on prefunded-warrant treatment). But GAAP net income of $621M is a $780.6M non-cash ClickHouse revaluation over a −$128M operating loss, and Nebius is accumulating the same hyperscaler concentration (Microsoft up to ~$19.4B + Meta up to ~$27B, ~$46B company-disclosed commitments/ceilings) and the same NVIDIA supplier-shareholder circularity as CoreWeave. Stock ~$240 (2026-07-01; ~$256 around its June-22 Nasdaq-100 inclusion), market cap ~$61B on ~253.9M shares outstanding, ~17-19x EV/2026E revenue (~3x CoreWeave's) and ~7x EV/exit-ARR; 2026 capex $20-25B (~7x revenue). Core read-through: is CoreWeave's fragility a balance-sheet choice or inherent to the neocloud model? Only the solvency fragility is CoreWeave-specific; the demand/concentration/circularity/capex risks are shared across the layer. Jul 7, 2026 v5 update: anchored to the Jul 6, 2026 close of $213.02, the 30% bull / 40% base / 30% bear scenario grid leaves a slightly negative expectation gap; stance migrates to cautious / medium conviction.",
     "chainLayer": "demand-risk",
     "coverageTier": "full",
     "chainRole": "architecture-check",
-    "stance": "high-risk-watch",
-    "priceAsOf": "2026-07-01",
+    "stance": "cautious",
+    "priceAsOf": "2026-07-06",
     "reportedPeriod": "Q1 2026",
     "related": [
       "coreweave-2026",
@@ -1493,6 +1494,34 @@
           "en": "ClickHouse marked +$780.6M on a ~$15B round"
         },
         "nextCheck": "伙伴/股权出售公告 / stake-sale announcements"
+      }
+    ],
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 $213.02（2026-07-06 收盘）计，市场仍在为“胜出独立 neocloud + 非核心期权”付费；30% 牛市 / 40% 基准 / 30% 熊市网格承认更干净资产负债表和期权价值，但认为集中度、capex 融资和剔除重估利润仍需要折价，预期差略偏负。",
+      "en": "At $213.02 (Jul 6, 2026 close), the market is still paying for “the winning independent neocloud plus non-core optionality”; the 30% bull / 40% base / 30% bear grid recognizes the cleaner balance sheet and option value, but still discounts concentration, capex financing, and operating profit ex-marks, leaving a slightly negative expectation gap."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "微软/Meta 合同按期转成高利用率收入，2026 退出 ARR 落在 $70-90 亿区间中高端，剔除重估经营利润持续转正，capex 融资不依赖更差条款稀释，且客户集中度不继续向 CoreWeave 画像收敛",
+        "en": "Microsoft / Meta contracts convert into high-utilization revenue on schedule, 2026 exit ARR lands in the middle-to-high end of the $7-9B range, operating profit ex-marks stays positive, capex funding does not require dilution on worse terms, and customer concentration does not keep converging toward the CoreWeave profile"
+      },
+      "downgrade": {
+        "zh": "微软或 Meta 放量延迟，合同 ABS/预付款融资成本明显恶化，剔除重估利润重新转负，非核心期权重估回撤，或客户集中度与 NVIDIA 循环性继续上升并削弱独立 neocloud 叙事",
+        "en": "Microsoft or Meta ramps are delayed, contract ABS / prepayment funding costs materially worsen, operating profit ex-marks turns negative again, non-core optionality marks reverse, or customer concentration and NVIDIA circularity keep rising and weaken the independent-neocloud story"
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-07-01",
+        "stance": "high-risk-watch",
+        "price": 229.18
+      },
+      {
+        "date": "2026-07-06",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 213.02
       }
     ]
   },
@@ -1646,7 +1675,7 @@
     "priceSymbol": "CRWV",
     "title": "CoreWeave 深度研究报告 - AI 建设的风险锚：真实需求还是杠杆与循环融资？",
     "titleEn": "CoreWeave Deep Research Report - The AI Buildout's Risk Anchor: Real Demand or Leverage & Circular Financing?",
-    "summary": "本中心 AI 基础设施书的『风险锚』，刻意以熊市为主轴写。GPU『neocloud』，一边是 $994 亿公司定义收入 backlog（RPO + 其他承诺客户合同金额）与 56% 调整后 EBITDA，一边是扩大的 GAAP 净亏损（Q1 2026 −$7.4 亿）、约 $249 亿债务、约 $100 亿经营租赁负债、$310-350 亿 2026 资本开支（约 3 倍营收）。客户集中（微软历史上收入占比 >60%；CNBC 引 2024 年为 62%），NVIDIA 同时是供应商+股东（$20 亿@$87）+$63 亿产能兜底（循环性）。Q1 2026 营收 $20.78 亿(+112%)，FY2026 指引营收 $120-130 亿。股价已较 2025 峰值回落约 47% 至约 $96、市值约 $520 亿、经营租赁前金融净债务约 $229 亿、含经营租赁净义务栈约 $329 亿。中心问题：是真实经济需求还是被杠杆催起的提前囤货？高风险/偏熊（回避-观察）。",
+    "summary": "本中心 AI 基础设施书的『风险锚』，刻意以熊市为主轴写。GPU『neocloud』，一边是 $994 亿公司定义收入 backlog（RPO + 其他承诺客户合同金额）与 56% 调整后 EBITDA，一边是扩大的 GAAP 净亏损（Q1 2026 −$7.4 亿）、约 $249 亿债务、约 $100 亿经营租赁负债、$310-350 亿 2026 资本开支（约 3 倍营收）。客户集中（微软历史上收入占比 >60%；CNBC 引 2024 年为 62%），NVIDIA 同时是供应商+股东（$20 亿@$87）+$63 亿产能兜底（循环性）。Q1 2026 营收 $20.78 亿(+112%)，FY2026 指引营收 $120-130 亿。股价已较 2025 峰值回落约 47% 至约 $96、市值约 $520 亿、经营租赁前金融净债务约 $229 亿、含经营租赁净义务栈约 $329 亿。中心问题：是真实经济需求还是被杠杆催起的提前囤货？2026-07-07 v5 更新：以 2026-07-06 收盘 $86.46 为锚，20% 牛市 / 30% 基准 / 50% 熊市情景网格给出负预期差，维持 bearish-avoid / 中确信。",
     "tags": [
       "AI云",
       "AI基础设施",
@@ -1655,7 +1684,7 @@
     ],
     "category": "tech",
     "date": "2026-06-30",
-    "lastUpdate": "2026-06-30",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=coreweave-2026",
     "markdownFiles": {
       "zh": "/invest/research/CoreWeave_深度研究报告_2026-06.md",
@@ -1668,14 +1697,15 @@
       "本中心 AI 基础设施书的『风险锚』，以熊市为主轴：检验 AI 建设是真实经济需求、还是被杠杆与循环融资吹起的提前囤货——四条 kill-criterion 的读数回传整本书",
       "矛盾核心：$994 亿公司定义收入 backlog + 56% 调整后 EBITDA vs 扩大的 GAAP 净亏损(Q1'26 −$7.4 亿)、约 $249 亿债务、约 $100 亿经营租赁负债、$310-350 亿 2026 资本开支(约 3 倍营收)；GPU 6 年折旧寿命有争议",
       "循环性：微软历史上收入占比 >60%；NVIDIA 是供应商+股东($20 亿@$87)+$63 亿产能兜底(最后买家至 2032)；微软自建(MAI)、OpenAI 分散、Core Scientific 收购被否",
-      "股价已较 2025 峰值回落约 47% 至约 $96、市值约 $520 亿、经营租赁前金融净债务约 $229 亿、含经营租赁净义务栈约 $329 亿；偿付能力敏感、高 beta 杠杆期权。高风险/偏熊(回避-观察)"
+      "股价已较 2025 峰值回落约 47% 至约 $96、市值约 $520 亿、经营租赁前金融净债务约 $229 亿、含经营租赁净义务栈约 $329 亿；偿付能力敏感、高 beta 杠杆期权。高风险/偏熊(回避-观察)",
+      "2026-07-07 v5 更新：以 2026-07-06 收盘 $86.46 为锚，20% 牛市 / 30% 基准 / 50% 熊市；负预期差，维持 bearish-avoid / 中确信"
     ],
-    "summaryEn": "The AI-infra book's 'risk anchor', written deliberately bear-led. A GPU 'neocloud' that pairs a $99.4B company-defined revenue backlog (RPO plus other committed-contract amounts) and 56% adjusted EBITDA with a widening GAAP net loss (Q1 2026 -$740M), ~$24.9B debt, ~$10.1B operating lease liabilities, and $31-35B of 2026 capex (~3x revenue). Customer-concentrated (Microsoft historically >60% of revenue; CNBC cited 62% for 2024); NVIDIA is supplier + shareholder ($2B at $87) + $6.3B capacity backstop (circularity). Q1 2026 revenue $2.078B (+112%); FY2026 guide revenue $12-13B. The stock is already ~47% off 2025 peaks at ~$96, market cap ~$52B, financial net debt ~$22.9B before operating leases and ~$32.9B net obligation stack incl. operating leases. Central question: real economic demand or leverage-fueled pre-stocking? High-risk / bear-leaning (avoid-to-watch).",
+    "summaryEn": "The AI-infra book's 'risk anchor', written deliberately bear-led. A GPU 'neocloud' that pairs a $99.4B company-defined revenue backlog (RPO plus other committed-contract amounts) and 56% adjusted EBITDA with a widening GAAP net loss (Q1 2026 -$740M), ~$24.9B debt, ~$10.1B operating lease liabilities, and $31-35B of 2026 capex (~3x revenue). Customer-concentrated (Microsoft historically >60% of revenue; CNBC cited 62% for 2024); NVIDIA is supplier + shareholder ($2B at $87) + $6.3B capacity backstop (circularity). Q1 2026 revenue $2.078B (+112%); FY2026 guide revenue $12-13B. The stock is already ~47% off 2025 peaks at ~$96, market cap ~$52B, financial net debt ~$22.9B before operating leases and ~$32.9B net obligation stack incl. operating leases. Central question: real economic demand or leverage-fueled pre-stocking? Jul 7, 2026 v5 update: anchored to the Jul 6, 2026 close of $86.46, the 20% bull / 30% base / 50% bear scenario grid leaves a negative expectation gap; stance remains bearish-avoid / medium conviction.",
     "chainLayer": "demand-risk",
     "coverageTier": "full",
     "chainRole": "risk-anchor",
     "stance": "bearish-avoid",
-    "priceAsOf": "2026-06-29",
+    "priceAsOf": "2026-07-06",
     "reportedPeriod": "Q1 2026",
     "related": [
       "nebius-2026",
@@ -1754,6 +1784,34 @@
           "en": "Microsoft self-build (MAI); OpenAI diversifying to Stargate/Oracle/Broadcom; Core Scientific deal rejected"
         },
         "nextCheck": "微软/OpenAI 产能表态、租金 ASP 与利用率 / capacity commentary, ASP & utilization"
+      }
+    ],
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 $86.46（2026-07-06 收盘）计，市场已经承认风险，但仍要求 backlog 转化、GPU 残值和再融资窗口同时成立；20% 牛市 / 30% 基准 / 50% 熊市网格把更高权重放在客户/抵押品/资本市场相关失效上，预期差为负。",
+      "en": "At $86.46 (Jul 6, 2026 close), the market acknowledges risk but still requires backlog conversion, GPU residual value, and the refinancing window to hold together; the 20% bull / 30% base / 50% bear grid puts more weight on correlated customer / collateral / capital-market failure modes, leaving a negative expectation gap."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "确认收入连续追上 backlog，客户集中度明显下降，利息覆盖和流动性改善，GPU 残值/利用率支持 6 年折旧，且再融资或资本开支融资以不显著稀释股东的成本完成",
+        "en": "recognized revenue catches up to backlog for consecutive quarters, customer concentration falls materially, interest coverage and liquidity improve, GPU residual value / utilization supports 6-year depreciation, and refinancing or capex funding is completed at a cost that does not materially dilute shareholders"
+      },
+      "downgrade": {
+        "zh": "确认收入继续落后 backlog，微软或前二客户集中度维持高位，GPU 租金 ASP/利用率走弱，利息覆盖恶化，或再融资只能依赖更贵债务、NVIDIA 兜底或高稀释股权",
+        "en": "recognized revenue keeps lagging backlog, Microsoft or top-2 customer concentration stays high, GPU rental ASP / utilization weakens, interest coverage deteriorates, or refinancing can only rely on more expensive debt, NVIDIA backstops, or highly dilutive equity"
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-06-29",
+        "stance": "bearish-avoid",
+        "price": 95.51
+      },
+      {
+        "date": "2026-07-06",
+        "stance": "bearish-avoid",
+        "conviction": "medium",
+        "price": 86.46
       }
     ]
   },
@@ -5002,7 +5060,7 @@
     "priceSymbol": "META",
     "title": "Meta Platforms 深度研究报告 - AI 基建书的需求锚与算力外售压力测试",
     "titleEn": "Meta Platforms Deep Research Report - Demand Anchor and Compute-Resale Stress Test for the AI-Infra Book",
-    "summary": "本中心 AI 基础设施书 demand-risk 层的需求锚覆盖：Meta 不是 GPU/HBM/电力/光模块供应商，而是整条链最重要的终端买方之一。Q1 2026 收入 $56.31B(+33%)、营业利润 $22.87B、经营现金流 $32.23B、自由现金流 $13.23B，说明广告主业仍能融资 AI 建设；但公司把 2026 capex 指引抬到 $125-145B，且 7 月初被报道考虑推出 Meta Compute、外售过剩 AI 算力。股价 $582.90（2026-07-02 收盘）、市值约 $1.48T、约 6.9x TTM P/S、约 17x EV/TTM 营业利润，按 Q1 剔除约 $8B 税益 EPS 年化约 20x。核心读数：Meta capex 若继续被广告/AI 产品吸收，AI 基建链需求得到支撑；若外售算力意味着供给过剩或内部需求不足，则 CoreWeave/Nebius、HBM、光连接和电力链都要下修稀缺假设。中性/高质量但高 capex 风险（观察）。",
+    "summary": "本中心 AI 基础设施书 demand-risk 层的需求锚覆盖：Meta 不是 GPU/HBM/电力/光模块供应商，而是整条链最重要的终端买方之一。Q1 2026 收入 $56.31B(+33%)、营业利润 $22.87B、经营现金流 $32.23B、自由现金流 $13.23B，说明广告主业仍能融资 AI 建设；但公司把 2026 capex 指引抬到 $125-145B，且 7 月初被报道考虑推出 Meta Compute、外售过剩 AI 算力。股价 $582.90（2026-07-02 收盘）、市值约 $1.48T、约 6.9x TTM P/S、约 17x EV/TTM 营业利润，按 Q1 剔除约 $8B 税益 EPS 年化约 20x。核心读数：Meta capex 若继续被广告/AI 产品吸收，AI 基建链需求得到支撑；若外售算力意味着供给过剩或内部需求不足，则 CoreWeave/Nebius、HBM、光连接和电力链都要下修稀缺假设。2026-07-07 v5 更新：以 2026-07-06 收盘 $600.29 为锚，30% 牛市 / 50% 基准 / 20% 熊市情景网格接近市场隐含预期，维持 neutral-watch / 中确信。",
     "tags": [
       "AI基础设施",
       "广告平台",
@@ -5011,7 +5069,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-04",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=meta-2026",
     "markdownFiles": {
       "zh": "/invest/research/Meta_Platforms_深度研究报告_2026-07.md",
@@ -5024,14 +5082,15 @@
       "demand-risk 层需求锚：Meta 是 AI 基建链最大终端买方之一，决定 GPU、HBM、网络、光连接、电力、设施和 neocloud 需求是否真实",
       "Q1 2026 收入 $56.31B(+33%)、营业利润 $22.87B、经营现金流 $32.23B、FCF $13.23B；广告主业仍能支撑大额 AI 投入",
       "核心风险是 capex 斜率：2026 指引 $125-145B；7 月初 Meta Compute / 外售过剩 AI 算力报道使 capacity-resale 成为整本书的关键交叉校验",
-      "股价 $582.90(2026-07-02)、市值约 $1.48T、约 6.9x TTM P/S、约 17x EV/TTM 营业利润；静态倍数不极端，但 FCF/算力价格风险很高。中性/观察"
+      "股价 $582.90(2026-07-02)、市值约 $1.48T、约 6.9x TTM P/S、约 17x EV/TTM 营业利润；静态倍数不极端，但 FCF/算力价格风险很高。中性/观察",
+      "2026-07-07 v5 更新：以 2026-07-06 收盘 $600.29 为锚，30% 牛市 / 50% 基准 / 20% 熊市；接近中性预期差，维持 neutral-watch / 中确信"
     ],
-    "summaryEn": "Demand-anchor coverage for this center's AI-infrastructure demand-risk layer: Meta is not a GPU/HBM/power/optical supplier, but one of the most important end customers in the chain. Q1 2026 revenue was $56.31B (+33%), operating income $22.87B, operating cash flow $32.23B, and free cash flow $13.23B, showing the ad engine can still fund AI buildout. But Meta raised its 2026 capex guide to $125-145B and was reported in early July to be considering Meta Compute, a business that could sell excess AI compute. At $582.90 (Jul 2 2026 close), market cap is about $1.48T, around 6.9x TTM sales and about 17x EV/TTM operating income; annualized Q1 EPS excluding an approximately $8B tax benefit implies roughly 20x earnings. Core read-through: if Meta capex keeps being absorbed by advertising and AI products, AI-infra demand is validated; if compute resale signals oversupply or insufficient internal demand, CoreWeave/Nebius, HBM, optical, and power-chain scarcity assumptions need to be marked down. Neutral / high-quality but high capex risk (watch).",
+    "summaryEn": "Demand-anchor coverage for this center's AI-infrastructure demand-risk layer: Meta is not a GPU/HBM/power/optical supplier, but one of the most important end customers in the chain. Q1 2026 revenue was $56.31B (+33%), operating income $22.87B, operating cash flow $32.23B, and free cash flow $13.23B, showing the ad engine can still fund AI buildout. But Meta raised its 2026 capex guide to $125-145B and was reported in early July to be considering Meta Compute, a business that could sell excess AI compute. At $582.90 (Jul 2 2026 close), market cap is about $1.48T, around 6.9x TTM sales and about 17x EV/TTM operating income; annualized Q1 EPS excluding an approximately $8B tax benefit implies roughly 20x earnings. Core read-through: if Meta capex keeps being absorbed by advertising and AI products, AI-infra demand is validated; if compute resale signals oversupply or insufficient internal demand, CoreWeave/Nebius, HBM, optical, and power-chain scarcity assumptions need to be marked down. Jul 7, 2026 v5 update: anchored to the Jul 6, 2026 close of $600.29, the 30% bull / 50% base / 20% bear scenario grid is close to the market-implied view; stance remains neutral-watch / medium conviction.",
     "chainLayer": "demand-risk",
     "coverageTier": "full",
     "chainRole": "common-constraint",
     "stance": "neutral-watch",
-    "priceAsOf": "2026-07-02",
+    "priceAsOf": "2026-07-06",
     "reportedPeriod": "Q1 2026",
     "related": [
       "coreweave-2026",
@@ -5134,6 +5193,34 @@
         },
         "nextCheck": "监管/诉讼裁决与产品整改 / regulatory or litigation rulings and product remedies"
       }
+    ],
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 $600.29（2026-07-06 收盘）计，市场相信高质量广告现金流可以融资 AI capex，并最终修复 FCF；30% 牛市 / 50% 基准 / 20% 熊市网格基本承认这个质量，但要求 2027 capex 路径和 Meta Compute 信号给出验证，预期差接近中性。",
+      "en": "At $600.29 (Jul 6, 2026 close), the market believes high-quality ad cash flow can fund AI capex and eventually repair FCF; the 30% bull / 50% base / 20% bear grid broadly accepts that quality but requires verification from the 2027 capex path and the Meta Compute signal, leaving the expectation gap near neutral."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "广告收入和营业利润率继续明显跑赢 capex 增速，2026 capex 保持在 $125-145B 且 2027 框架出现回落，Meta Compute 被证明是高利用率货币化而非闲置容量清理，AMD 1GW 和 MTIA 400/450 部署按期推进",
+        "en": "advertising revenue and operating margin keep clearly outrunning capex growth, 2026 capex stays within $125-145B and the 2027 frame declines, Meta Compute is proven to be high-utilization monetization rather than idle-capacity clearing, and AMD 1GW plus MTIA 400 / 450 deployments progress on schedule"
+      },
+      "downgrade": {
+        "zh": "2026 capex 上修到 $145B 以上或 2027 框架不下降，广告增长或利润率明显放缓，Meta Compute 披露显示大量闲置/低价外售 capacity，或 AMD/MTIA 交付延迟削弱内部 ROI 论点",
+        "en": "2026 capex is raised above $145B or the 2027 frame does not decline, advertising growth or margin slows materially, Meta Compute disclosures show large idle / low-price external capacity, or AMD / MTIA delivery delays weaken the internal-ROI case"
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-07-02",
+        "stance": "neutral-watch",
+        "price": 582.9
+      },
+      {
+        "date": "2026-07-06",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 600.29
+      }
     ]
   },
   {
@@ -5143,8 +5230,8 @@
     "priceSymbol": "ORCL",
     "title": "Oracle 深度研究报告 - AI 云 RPO 仪表盘与资本开支融资压力",
     "titleEn": "Oracle Deep Research Report - AI Cloud RPO Dashboard and Capex Financing Pressure",
-    "summary": "AI 基础设施书 demand-risk 层的 RPO/backlog 仪表盘：Oracle 正从成熟数据库/企业软件公司变成高资本强度 AI 云基础设施平台。FY2026 Q4 收入 $19.18B(+21%)、OCI 收入 $5.8B(+93%)、RPO 达 $638B(+363%)，需求读数极强；但 FY2026 capex $55.66B、自由现金流 -$23.69B、FY2027 capex 指引可达 $90-95B，且公司需要约 $40B 债务+股权融资。当前股价 $140.27（2026-07-02 收盘）、市值约 $404B、按总债务 $156.19B 减现金+短投 $31.89B 计算的净债务约 $124.30B、企业价值约 $528B，对应约 7.8x TTM EV/Sales 和约 23.5x EV/TTM 营业利润。高风险观察 / 订单质量仪表盘：关键不是订单多不多，而是 RPO 能否按期转化为高回报现金流。",
-    "summaryEn": "The RPO/backlog dashboard for the AI-infrastructure book's demand-risk layer: Oracle is changing from a mature database and enterprise-software company into a capital-intensive AI-cloud infrastructure platform. FY2026 Q4 revenue was $19.18B (+21%), OCI revenue was $5.8B (+93%), and RPO reached $638B (+363%), making the demand readout very strong. But FY2026 capex was $55.66B, free cash flow was -$23.69B, FY2027 capex could reach $90-95B, and the company expects roughly $40B of debt and equity financing. At $140.27 (Jul 2, 2026 close), roughly $404B market cap, about $124.30B net debt using total debt of $156.19B less cash+ST investments of $31.89B, and about $528B enterprise value, ORCL trades near 7.8x TTM EV/Sales and about 23.5x EV/TTM operating income. High-risk watch / order-quality dashboard: the key question is whether RPO converts into high-return cash flow on schedule.",
+    "summary": "AI 基础设施书 demand-risk 层的 RPO/backlog 仪表盘：Oracle 正从成熟数据库/企业软件公司变成高资本强度 AI 云基础设施平台。FY2026 Q4 收入 $19.18B(+21%)、OCI 收入 $5.8B(+93%)、RPO 达 $638B(+363%)，需求读数极强；但 FY2026 capex $55.66B、自由现金流 -$23.69B、FY2027 capex 指引可达 $90-95B，且公司需要约 $40B 债务+股权融资。当前股价 $140.27（2026-07-02 收盘）、市值约 $404B、按总债务 $156.19B 减现金+短投 $31.89B 计算的净债务约 $124.30B、企业价值约 $528B，对应约 7.8x TTM EV/Sales 和约 23.5x EV/TTM 营业利润。2026-07-07 v5 更新：以 2026-07-06 收盘 $143.76 为锚，20% 牛市 / 40% 基准 / 40% 熊市情景网格给出偏负预期差，立场迁移为谨慎 / 中确信；关键不是订单多不多，而是 RPO 能否按期转化为高回报现金流。",
+    "summaryEn": "The RPO/backlog dashboard for the AI-infrastructure book's demand-risk layer: Oracle is changing from a mature database and enterprise-software company into a capital-intensive AI-cloud infrastructure platform. FY2026 Q4 revenue was $19.18B (+21%), OCI revenue was $5.8B (+93%), and RPO reached $638B (+363%), making the demand readout very strong. But FY2026 capex was $55.66B, free cash flow was -$23.69B, FY2027 capex could reach $90-95B, and the company expects roughly $40B of debt and equity financing. At $140.27 (Jul 2, 2026 close), roughly $404B market cap, about $124.30B net debt using total debt of $156.19B less cash+ST investments of $31.89B, and about $528B enterprise value, ORCL trades near 7.8x TTM EV/Sales and about 23.5x EV/TTM operating income. Jul 7, 2026 v5 update: anchored to the Jul 6, 2026 close of $143.76, the 20% bull / 40% base / 40% bear scenario grid leaves a negative expectation gap; stance migrates to cautious / medium conviction. The key question is whether RPO converts into high-return cash flow on schedule.",
     "tags": [
       "AI云",
       "企业软件",
@@ -5153,7 +5240,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-05",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=oracle-2026",
     "markdownFiles": {
       "zh": "/invest/research/Oracle_深度研究报告_2026-07.md",
@@ -5166,13 +5253,14 @@
       "demand-risk 层的 RPO/backlog 仪表盘：FY2026 Q4 RPO $638B(+363%，环比 +$85B)，OCI 收入 $5.8B(+93%)，验证 AI 云需求是否穿透到订单簿",
       "现金流和融资压力同样极端：FY2026 capex $55.66B、FCF -$23.69B；FY2027 capex 指引 $90-95B，另需约 $40B 债务+股权融资，含 $20B ATM 股权发行",
       "当前 $140.27（2026-07-02 收盘）、约 $404B 市值、约 $124.30B 净债务、约 $528B 企业价值，对应约 7.8x TTM EV/Sales、约 23.5x EV/TTM 营业利润；传统软件利润表与 AI 基建资产负债表叙事并存",
-      "核心监控不是『订单多不多』，而是 RPO 转化、客户集中、OCI 毛利/ROIC、capex 是否按时变成可售 capacity，以及融资是否伤害股东"
+      "核心监控不是『订单多不多』，而是 RPO 转化、客户集中、OCI 毛利/ROIC、capex 是否按时变成可售 capacity，以及融资是否伤害股东",
+      "2026-07-07 v5 更新：以 2026-07-06 收盘 $143.76 为锚，20% 牛市 / 40% 基准 / 40% 熊市；偏负预期差，立场迁移为谨慎 / 中确信"
     ],
     "chainLayer": "demand-risk",
     "coverageTier": "full",
     "chainRole": "dashboard",
-    "stance": "high-risk-watch",
-    "priceAsOf": "2026-07-02",
+    "stance": "cautious",
+    "priceAsOf": "2026-07-06",
     "reportedPeriod": "FY2026 Q4",
     "related": [
       "coreweave-2026",
@@ -5276,6 +5364,34 @@
         },
         "nextCheck": "数据中心上线与 capex/OCI 节奏 / capacity go-lives and capex/OCI cadence",
         "nextCheckDate": "2026-09"
+      }
+    ],
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 $143.76（2026-07-06 收盘）计，市场给 $638B RPO 很高的转化信用；20% 牛市 / 40% 基准 / 40% 熊市网格承认需求强度，但认为 capex 和融资负担尚未被充分折价，预期差偏负。",
+      "en": "At $143.76 (Jul 6, 2026 close), the market gives the $638B RPO a large conversion credit; the 20% bull / 40% base / 40% bear grid recognizes demand strength, but does not think the capex and financing burden is fully discounted, leaving a negative expectation gap."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "RPO 按期转成 FY2027 收入，OCI 收入维持 60%+ 增长且毛利率/ROIC 披露改善，FY2027 capex 不再高于 $95B，约 $40B 融资以低稀释和可承受利率完成，并且客户集中没有继续恶化",
+        "en": "RPO converts into FY2027 revenue on schedule, OCI revenue keeps growing 60%+ with better margin / ROIC disclosure, FY2027 capex does not move above $95B, roughly $40B of financing is completed with low dilution and manageable rates, and customer concentration does not keep worsening"
+      },
+      "downgrade": {
+        "zh": "RPO 转化比例走弱或依赖少数超大客户，FY2027 capex 上修超过 $95B，ATM/债务融资成本或稀释高于预期，OCI ROIC 无法验证，或施工/电力/GPU 交付延迟导致收入后移",
+        "en": "RPO conversion weakens or depends on a few very large customers, FY2027 capex is raised above $95B, ATM / debt financing cost or dilution is worse than expected, OCI ROIC is not validated, or construction / power / GPU delivery delays push revenue out"
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-07-02",
+        "stance": "high-risk-watch",
+        "price": 140.27
+      },
+      {
+        "date": "2026-07-06",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 143.76
       }
     ]
   },
