@@ -1,7 +1,7 @@
 # Marvell Technology (MRVL) Deep Research Report
 
 Coverage date: 2026-07-04
-Last updated: 2026-07-04
+Last updated: 2026-07-07
 Ticker: NASDAQ: MRVL
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -13,7 +13,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 **One-line thesis:** Marvell is a high-upside but high-uncertainty AI custom silicon cross-check. FY2027 Q1 revenue was about $2.42B, public reports put data-center revenue near $1.83B, and management has reportedly lifted FY2027 / FY2028 revenue outlooks to about $11.5B / $16.5B. NVIDIA's $2B investment and NVLink Fusion partnership, the Celestial AI optical-interconnect acquisition, and AWS / Microsoft custom ASIC opportunities all expand long-term optionality. But at $245.29 (Jul 2, 2026 close), roughly $214.6B market cap, and about 19x FY2027E EV/Sales, the error tolerance is low.
 
-**Current view:** **High-risk watch / custom ASIC architecture check.** MRVL is valuable because it cross-checks the Broadcom report. If AVGO represents the higher-certainty route of large-customer XPU plus VMware cash flow, MRVL represents the higher-upside route with more customer diversity, more optical / networking exposure, and weaker project visibility. It adds Amazon Trainium, Microsoft Maia, NVIDIA NVLink Fusion, and silicon photonics to the architecture map.
+**Current view:** **Cautious / medium conviction: negative skew despite real optionality.** MRVL is valuable because it cross-checks the Broadcom report. If AVGO represents the higher-certainty route of large-customer XPU plus VMware cash flow, MRVL represents the higher-upside route with more customer diversity, more optical / networking exposure, and weaker project visibility. The v5 split matters: this is not a low-quality business call, but at the dated price the scenario work says execution risk and valuation denominator risk outweigh the upside optionality.
 
 **Quick stats:**
 
@@ -40,7 +40,7 @@ Marvell is a data-center semiconductor platform company spanning custom ASIC / X
 | Optical / DSP | Strong 800G and 1.6T optical-interconnect demand | Physical connectivity bottleneck for scale-out / scale-up AI clusters |
 | NVLink Fusion | NVIDIA $2B investment and ecosystem access | Custom silicon can attach to NVIDIA fabric rather than fully replace it |
 | Celestial AI | $3.25B acquisition; photonic fabric | Optical interconnect becomes a power and bandwidth solution for next-gen AI clusters |
-| Storage / networking | Legacy data-center controllers, Ethernet, and security chips | Provides base business, but marginal narrative is AI-driven |
+| Storage / networking | Legacy data-center controllers, Ethernet, and security chips | Provides legacy revenue support, but marginal narrative is AI-driven |
 
 MRVL is unusual because it stands between two camps. It helps hyperscalers build custom ASICs that may substitute for NVIDIA GPUs, while its NVLink Fusion work also makes it compatible with NVIDIA's ecosystem. It can benefit from GPU substitution and NVIDIA ecosystem expansion at the same time.
 
@@ -128,18 +128,28 @@ Thesis-breaking conditions:
 
 ## 8. Valuation Context
 
-The following is valuation context, not a target price or recommendation.
+The following is valuation context, not a recommendation. `prices.json` records the dated price anchor as **$245.29** on **2026-07-02**.
 
 | Method | Current readout | Interpretation |
 |--------|-----------------|----------------|
 | Market cap | About $214.6B | Already priced as an AI custom silicon platform |
 | EV | About $215.7B | Net debt is modest; valuation is mostly equity premium |
-| EV/TTM Sales | About 25x | Current revenue base cannot support valuation; forward matters |
+| EV/TTM Sales | About 25x | Current revenue run-rate cannot support valuation; forward matters |
 | EV/FY2027E Sales | About 19x using $11.5B | Low execution tolerance |
-| EV/FY2028E Sales | About 13x using $16.5B | Still high, but explainable if delivered |
+| EV/FY2028E Sales | About 13x using $16.5B | Still high, but explainable only if delivered |
 | FCF yield | TTM FCF about $1.66B, less than 1% of EV | Not a current cash-flow valuation story |
 
-MRVL's valuation is a bet on future revenue slope. It does not have Broadcom's VMware cash flow or NVIDIA's current profit pool. It is more like a high-upside AI architecture option.
+**Scenario grid:**
+
+| Scenario | Driver assumptions (custom ASIC ramp / optical attach / margin / multiple regime) | Valuation implication vs the $245.29 dated price | Probability weight |
+|----------|------------------------------------------------------------------------------------|--------------------------------------------------|--------------------|
+| Bull | AWS, Microsoft, and additional hyperscaler custom ASIC programs ramp together; NVLink Fusion becomes recognized revenue rather than only ecosystem positioning; Celestial AI adds credible FY2028 optical-fabric milestones; FY2028 revenue moves toward the $16.5B frame with improving operating leverage; the market keeps paying an AI-platform EV/Sales premium | The current price can work if MRVL becomes the scarce multi-customer custom-silicon plus optical platform outside Broadcom | 20% |
+| Base | FY2027 revenue moves toward the $11.5B frame but customer/project cadence remains opaque; data-center revenue grows while Celestial AI contribution stays later-dated; operating margin improves gradually but does not yet resemble Broadcom quality; EV/Sales remains high because investors keep paying for optionality | The current price is fair-to-rich: the strategic option is real, but the base case leaves little room for project slippage | 50% |
+| Bear | AWS / Microsoft ramps slip, Broadcom / Alchip / internal teams take more share, NVLink Fusion economics prove limited, Celestial integration is delayed, and FY2027/FY2028 revenue expectations move down; the market re-rates MRVL from AI platform to expensive cyclical semiconductor | The current price would look clearly rich because the revenue denominator and the option multiple would fall together | 30% |
+
+**What's priced in & the expectation gap:** At **$245.29**, about **$215.7B** EV, **19x FY2027E sales** on the public **$11.5B** frame, and **13x FY2028E sales** on the **$16.5B** frame, the market already assumes that the custom ASIC and optical story converts into a much larger revenue base. A reverse sales-multiple check is unforgiving: even if an AI-platform semiconductor multiple normalizes toward **8-10x sales** over three years with an 8% required return, MRVL needs roughly `((19 / 10)^(1/3) x 1.08 - 1) ≈ 34%` to `((19 / 8)^(1/3) x 1.08 - 1) ≈ 44%` annual revenue growth from the FY2027 frame, plus visible margin expansion. Our base case does not clear that bar with enough margin of safety. The expectation gap is negative even though the upside scenario is real.
+
+MRVL's valuation is a bet on future revenue slope. It does not have Broadcom's VMware cash flow or NVIDIA's current profit pool. It is more like a high-upside AI architecture option whose option premium is already expensive.
 
 ## 9. Catalysts & Timeline
 
@@ -156,9 +166,13 @@ Structured monitoring should focus on custom ASIC design wins, AWS / Microsoft p
 
 ## 10. Conclusion
 
-Marvell is necessary custom silicon coverage. Broadcom explains large-scale XPU plus software cash flow. Marvell explains how custom ASIC, optical interconnect, and NVIDIA-compatible ecosystems may evolve together.
+Marvell's chain-validation job is to test whether custom ASIC, optical interconnect, and NVIDIA-compatible ecosystems can evolve into an investable architecture path beyond Broadcom. Broadcom explains large-scale XPU plus software cash flow; Marvell tests the higher-upside but less visible path through AWS Trainium, Microsoft Maia, NVLink Fusion, and silicon photonics.
 
-The current classification is **high-risk watch / custom ASIC architecture check**. MRVL has a valuable strategic position, but the valuation already requires FY2027 / FY2028 growth to land cleanly. Its main role in this framework is to test whether hyperscaler in-house silicon creates an investable path beyond Broadcom, and whether optical interconnect becomes a new core bottleneck in AI clusters.
+The expectation gap is negative: at $245.29 and about 19x FY2027E sales, the market already requires the FY2027/FY2028 revenue ramp to land cleanly and then keep compounding; our base case recognizes the strategic option but does not clear the implied 34-44% annual growth hurdle with enough margin of safety.
+
+The current stance is **cautious, medium conviction**. The 20% bull / 50% base / 30% bear grid separates upside variance from expected skew: MRVL can still be a very important architecture winner, but the dated price gives more weight to execution and multiple-compression risk than to underpriced upside. Medium conviction reflects strong strategic evidence but incomplete customer/project visibility.
+
+Upgrade trigger: move to neutral-watch or constructive if FY2027 data-center revenue accelerates each quarter, AWS/Microsoft and at least one additional hyperscaler program show confirmed ramp evidence, NVLink Fusion produces recognized revenue or margin contribution, and forward EV/Sales falls through revenue growth rather than price weakness. Downgrade trigger: move to bearish-avoid if FY2027/FY2028 revenue outlook is cut, Trainium/Maia ramps slip, NVLink Fusion remains non-economic, Celestial AI milestones move out, or forward EV/Sales stays near the high-teens while data-center growth decelerates.
 
 ## Appendix: Sources & Assumptions
 

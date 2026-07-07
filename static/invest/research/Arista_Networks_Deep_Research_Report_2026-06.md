@@ -1,7 +1,7 @@
 # Arista Networks (NYSE: ANET) Deep Research Report
 
 Coverage date: 2026-06-30
-Last updated: 2026-06-30
+Last updated: 2026-07-07
 Ticker: NYSE: ANET
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence. All prices and market caps are point-in-time snapshots; financial figures are per company disclosure unless noted otherwise.
 
@@ -13,7 +13,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 **One-line thesis:** Arista is the cleanest public-company expression of the open Ethernet side of the AI cluster networking debate - a high-quality, high-margin systems/software franchise whose stock already discounts a large amount of Ethernet share gain.
 
-**Current judgment:** **Neutral / high-quality but high expectations (watch).** I would rather own ANET through a valuation reset or after clearer proof that open Ethernet is taking durable AI back-end share than chase it purely because the narrative is right. The company has the financial profile we want in this book: fast growth, very high margins, large net cash, deep hyperscaler relevance, and a direct read on AI cluster architecture. But the valuation already underwrites multiple years of AI network expansion and excellent execution.
+**Current judgment:** **Neutral watch / medium conviction: high quality, mostly priced in.** I would rather own ANET through a valuation reset or after clearer proof that open Ethernet is taking durable AI back-end share than chase it purely because the narrative is right. The company has the financial profile we want in this book: fast growth, very high margins, large net cash, deep hyperscaler relevance, and a direct read on AI cluster architecture. But the June 29, 2026 price already underwrites multiple years of AI network expansion and excellent execution.
 
 **Why it matters to this coverage structure:** ANET is the network-fabric dashboard for the AI infrastructure book. If Arista keeps expanding deferred revenue/RPO, sustaining 40%+ operating margins, and showing large AI customers choosing Ethernet fabrics, that supports the bull case for Broadcom, AAOI, Corning, Vertiv, and parts of the neocloud demand chain. If Arista decelerates or loses architecture ground to NVIDIA's integrated networking stack, it is an early warning that part of the AI infrastructure book may be overextended.
 
@@ -163,7 +163,7 @@ The Q4/FY2025 release also highlighted operational milestones that matter for cr
 
 ## 8. Valuation Context
 
-Using the June 29, 2026 end-of-day market cap of **$206.62B** and Q1 2026 cash/securities of about **$12.35B**, enterprise value is about **$194B**. With **1.259B** shares outstanding at April 30, 2026, the market cap implies a stock price of roughly **$164/share**.
+Using the June 29, 2026 end-of-day market cap of **$206.62B** and Q1 2026 cash/securities of about **$12.35B**, enterprise value is about **$194B**. With **1.259B** shares outstanding at April 30, 2026, the market cap implies a stock price of roughly **$164/share**; `prices.json` records the dated anchor as **$164.10** on **2026-06-29**.
 
 | Metric | Approximate value | Comment |
 |----|----|----|
@@ -176,6 +176,16 @@ Using the June 29, 2026 end-of-day market cap of **$206.62B** and Q1 2026 cash/s
 | Market cap / TTM GAAP net income | ~56x | High expectations |
 | Current non-GAAP EPS run-rate | ~$3.5 | Q1/Q2 around $0.87-0.88 per quarter |
 | Price / current non-GAAP run-rate EPS | ~47x | Quality priced in |
+
+**Scenario grid:**
+
+| Scenario | Driver assumptions (growth / margin / multiple regime) | Valuation implication vs the $164.10 dated price | Probability weight |
+|----------|---------------------------------------------------------|--------------------------------------------------|--------------------|
+| Bull | Open Ethernet wins durable AI back-end share; Cloud and AI Titans / AI Specialty demand keeps product revenue compounding in the high-20s to low-30s; non-GAAP operating margin holds in the mid-to-high 40s; deferred revenue/RPO continues to convert without concentration shocks; the market keeps paying a premium systems-software multiple | The current price can still be fair-to-slightly cheap if ANET proves it is a multi-year AI fabric compounder rather than a normal networking cycle | 30% |
+| Base | AI networking demand remains strong but Q2-like growth steps down from Q1; open Ethernet and NVIDIA integrated networking both grow; top-customer concentration stays high; non-GAAP operating margin remains around the mid-40s; EV/TTM revenue drifts from ~20x toward a mid-teens premium as growth normalizes | The current price is broadly fair: quality is real, but most of the base case is already capitalized | 50% |
+| Bear | NVIDIA's integrated stack takes more value, one top customer slows or shifts architecture, Broadcom silicon cadence or pricing hurts the roadmap, and AI-scale discounts pull non-GAAP operating margin below 40%; the multiple resets toward a normal high-quality networking frame | The current price would look rich because revenue growth and the premium multiple would compress together | 20% |
+
+**What's priced in & the expectation gap:** At **$164.10** and about **20x EV/TTM revenue**, the market is not pricing ANET as a cyclical switch vendor. If a mature premium networking/software multiple is closer to **10-12x revenue** and investors require roughly **8%** annual return, a three-year reverse-multiple frame implies revenue needs to compound roughly `((20 / 12)^(1/3) x 1.08 - 1) ≈ 28%` to `((20 / 10)^(1/3) x 1.08 - 1) ≈ 36%` while margins stay exceptional. Our base case is near the low end of that implied range, not clearly above it: still strong growth and elite margins, but with concentration and architecture risk. The expectation gap is therefore balanced, not positive.
 
 That valuation can be justified only if several things remain true at once: AI cluster networking demand remains strong, Ethernet wins meaningful share, Arista keeps hyperscaler trust, Broadcom merchant silicon remains available and competitive, and margins do not compress sharply as AI customers scale.
 
@@ -199,9 +209,13 @@ That valuation can be justified only if several things remain true at once: AI c
 
 ## 10. Conclusion
 
-ANET is a necessary addition to the AI infrastructure coverage map because it tells us whether the networking layer is becoming an open Ethernet systems/software opportunity or a vertically integrated accelerator-stack opportunity. It is a high-quality company with a strong balance sheet, exceptional margins, and direct exposure to AI cluster buildouts.
+ANET's chain-validation job is to tell us whether the networking layer is becoming an open Ethernet systems/software opportunity or a vertically integrated accelerator-stack opportunity. If Arista keeps expanding deferred revenue/RPO, sustaining 40%+ operating margins, and showing large AI customers choosing Ethernet fabrics, the open-Ethernet and Broadcom-merchant-silicon side of the book gets stronger. If those indicators weaken, the AI networking profit pool may be migrating toward NVIDIA's integrated stack.
 
-But the stock already understands much of that. At roughly **$206.6B** of market cap, about **$164/share**, about **20x EV/TTM revenue**, and about **47x current non-GAAP run-rate EPS**, the burden of proof sits with the bulls. For now, the best stance is **neutral/watch**: own the quality of the business intellectually, but demand either a better price or stronger proof that open Ethernet share gains are still underappreciated.
+The expectation gap is balanced: at $164.10 and about 20x EV/TTM revenue, the market is underwriting roughly high-20s to mid-30s revenue CAGR for several years with elite margins; our base case is close to the low end of that range, not clearly above it.
+
+The current stance is **neutral watch, medium conviction**. The 30% bull / 50% base / 20% bear grid says ANET is an exceptional business, but the base case is already mostly capitalized at the dated price. Medium conviction reflects unusually clean reported margins, cash, and customer relevance, offset by the unresolved open-Ethernet vs integrated-stack architecture debate.
+
+Upgrade trigger: move to constructive if Q2/Q3 results keep revenue growth above the high-20s, non-GAAP operating margin stays above 45%, deferred revenue/RPO expands, and customer evidence shows open Ethernet gaining AI back-end share without higher concentration. Downgrade trigger: move to cautious if revenue growth falls below the implied high-20s path, non-GAAP operating margin drops below 40% without clear investment explanation, top-customer concentration worsens, or NVIDIA integrated networking takes clearer AI back-end share.
 
 ## Appendix: Sources & Assumptions
 

@@ -1,7 +1,7 @@
 # Coherent 深度研究报告 - AI 光连接层的全栈光子仪表盘
 
 标的收录日期：2026-07-04
-最近更新日期：2026-07-06
+最近更新日期：2026-07-07
 代码：NYSE: COHR
 免责声明：本报告仅用于信息与研究交流，不构成任何投资建议，请自行完成尽职调查。
 
@@ -11,9 +11,9 @@
 
 > **框架角色：** Coherent 是 AI 基建 光连接 层的仪表盘。本报告的任务是验证链条信号，而不是把单一公司数据直接变成投资建议。
 
-**一句话论点：** AI 基础设施 optical 层核心光模块/光器件覆盖。Coherent 不是解释 GPU 单价，而是验证 AI 集群网络扩容是否真正穿透到高速光连接、激光器、InP/SiPh 与 CPO/NPO 路线。Q3 FY2026 收入 $1.81B（+21% YoY，pro forma +27%）、非 GAAP 毛利率 39.6%、非 GAAP EPS $1.41；Datacenter & Communications 收入约 $1.362B，占 pro forma 收入约 75%，同比约 +41%。NVIDIA 2026-03 宣布向 Coherent 投资 $2B，并包含多年、数十亿美元采购承诺和未来产能访问权；公司材料给出 1.6T/3.2T/6.4T ZR/ZR+、CPO/NPO、光电路交换与多轨热管理路线。当前 $333.36（2026-07-02 收盘）、市值约 $65.2B、EV 约 $66.8B，估值已经反映 AI optics supercycle。高风险观察 / optical dashboard。
+**一句话论点：** AI 基础设施 optical 层核心光模块/光器件覆盖。Coherent 不是解释 GPU 单价，而是验证 AI 集群网络扩容是否真正穿透到高速光连接、激光器、InP/SiPh 与 CPO/NPO 路线。Q3 FY2026 收入 $1.81B（+21% YoY，pro forma +27%）、非 GAAP 毛利率 39.6%、非 GAAP EPS $1.41；Datacenter & Communications 收入约 $1.362B，占 pro forma 收入约 75%，同比约 +41%。NVIDIA 2026-03 宣布向 Coherent 投资 $2B，并包含多年、数十亿美元采购承诺和未来产能访问权；公司材料给出 1.6T/3.2T/6.4T ZR/ZR+、CPO/NPO、光电路交换与多轨热管理路线。当前 $333.36（2026-07-02 收盘）、市值约 $65.2B、EV 约 $66.8B，估值已经反映 AI optics supercycle。谨慎 / 低确信 optical dashboard。
 
-**当前判断：** **高风险观察。** 本次升级不改变 stance，而是把原本已核验的事实基础扩展成完整 house template，使它能和当前链条报告横向比较。
+**当前判断：** **谨慎 / 低确信。** v5 升级把方差和偏斜分开：Coherent 是重要的光连接仪表盘，也有真实的 NVIDIA 相关需求证据；但当前日期价格已经资本化了很大一部分 AI optics 周期，而 FCF、产能转化和 peer confirmation 仍需跟上。
 
 | 指标 | 当前读数 |
 | --- | --- |
@@ -22,8 +22,8 @@
 | 最新报告期 | FY2026 Q3 |
 | 价格快照 | $333.36，截至 2026-07-02 |
 | 本次升级后 coverageTier | full |
-| Stance | 高风险观察 |
-| 估值用途 | 情景与风险容错率，不是目标价 |
+| Stance | cautious，低确信 |
+| 估值用途 | 情景与风险容错率，不是单点估值结论 |
 
 ## 1. 业务与链条角色
 
@@ -72,7 +72,7 @@
 | --- | --- | --- |
 | 公司披露 actuals | 报告期和财务数字保留自原报告 | 避免发明新季度 |
 | 市场数据 | 价格快照维持 $333.36，日期 2026-07-02 | 防止 stale valuation math |
-| 情景价格 | 按当前价格机械推导，用于风险框架 | 不是建议或目标价 |
+| 情景价格 | 按当前价格机械推导，用于风险框架 | 不是建议或单点估值结论 |
 | 来源质量 | 公司公告、filing、issuer page 或已列 source 继续留在附录 | 保持审计线索 |
 
 管理层在报告数字和链条角色一致时得分；如果 guidance、bookings 或资本配置依赖本报告无法验证的假设，则需要降权。
@@ -121,14 +121,25 @@
 
 ## 8. 估值背景
 
-估值只作为风险背景，不是投资建议。下表从当前价格锚点推导明确情景价格，让牛熊讨论有数字边界。
+估值只作为风险背景，不是建议。`prices.json` 记录的价格锚点为 **2026-07-02 的 $333.36**。
 
-| 情景 | 价格水平背景 | 解读 |
+| 方法 | 当前读数 | 解读 |
 | --- | --- | --- |
-| Bear | $233.35（较报告价格锚点 -30%） | 周期、执行或倍数重置压过 thesis |
-| Base | $333.36（当前价格锚点） | 市场已资本化当前证据 |
-| Bull | $416.70（较报告价格锚点 +25%） | 执行确认链条角色，估值容错率上升 |
-| 非目标价提示 | 这些是情景标尺，不是目标价 | 只用于监测 risk/reward asymmetry |
+| 股价 / 市值 | $333.36；约 $65.2B | 已经资本化较大的 AI optics 周期 |
+| EV | 约 $66.8B | 相对当前收入规模偏高 |
+| EV/TTM sales | 约 10.1x | 对光硬件公司很高，除非 AI 增长和利润率转化继续加速 |
+| Q3 FCF | -$383M | 增长仍需转化为现金流 |
+| NVIDIA 相关证据 | $2B 投资、多年采购承诺和未来产能访问权 | 需求信号真实，但转化节奏仍重要 |
+
+**情景表：**
+
+| 情景 | 驱动假设（光需求 / 产能 / 利润率 / 现金流状态） | 相对 $333.36 日期价格的估值含义 | 概率权重 |
+| --- | --- | --- | --- |
+| 牛市 | NVIDIA 相关采购承诺转化为 backlog、收入和预付款；Datacenter & Communications 保持 40%+ 增长且不稀释毛利率；InP / 6-inch 产能按计划爬坡；1.6T/3.2T/6.4T 与 CPO/NPO 进入客户平台；营运资本正常化后 FCF 转正 | 若 COHR 成为 AI 集群稀缺的全栈 optical 供应商，当前价格可以被证明合理 | 20% |
+| 基准 | 数据中心光连接继续增长但节奏放缓；NVIDIA 承诺提供可见度但分阶段转化；毛利率维持 30% 后半段到 40% 初段；产能和路线图里程碑正常推进但有普通延迟；扩张期 FCF 仍不平稳 | 当前价格偏合理到偏贵：市场已经资本化很多 optical supercycle | 50% |
+| 熊市 | 采购承诺转化慢于预期，相邻 optical peers 或 ANET 不能确认同一需求，产能 ramp 压迫利润率，FCF 持续为负，市场在长期光学故事被完全证伪前先下调 EV/sales 溢价 | 当前价格会偏贵，因为倍数压缩可能早于链条 thesis 完全破裂 | 30% |
+
+**已经定价的预期与差距：** 在 **$333.36**、约 **$66.8B** EV、约 **10.1x EV/TTM sales** 上，市场已经把 COHR 当作 AI optics supercycle，而不是普通光器件周期股定价。若成熟光硬件溢价倍数更接近 **5-6x sales**，且投资者要求约 **8%** 年回报，反推倍数框架意味着未来数年收入需要约 `((10.1 / 6)^(1/3) x 1.08 - 1) ≈ 28%` 到 `((10.1 / 5)^(1/3) x 1.08 - 1) ≈ 36%` 的年增长，并且利润率和 FCF 同步改善。基准情景确认强需求，但现金流证据还不够，因此预期差距小幅为负。
 
 关键估值问题是：下一组证据能否让 denominator 增长快于市场给的 multiple 增长。
 
@@ -146,14 +157,13 @@
 
 ## 10. 同行比较与结论
 
-| Peer / benchmark | 研究书中的角色 | 与本报告如何对照 |
-| --- | --- | --- |
-| AAOI | active optical module beta | 确认、反驳或限定同一链条问题 |
-| GLW | fiber/cable passive layer | 确认、反驳或限定同一链条问题 |
-| ANET | Ethernet fabric confirmation | 确认、反驳或限定同一链条问题 |
-| NVDA | supplier/customer circularity | 确认、反驳或限定同一链条问题 |
+Coherent 的链条验证任务是检验 AI 集群扩张是否真正穿透到光层。AAOI 应确认 active module beta，GLW 应确认 fiber/cable pull-through，ANET 应确认 Ethernet fabric 密度，NVDA 应确认 supplier/customer circularity。若 COHR 单独移动而相邻 layer 不确认，链条 read-through 就应降权。
 
-结论：Coherent 仍是 光连接 层的 **高风险观察** 仪表盘。本次升级把报告从 thin initial/lite 格式提升到完整 house template，同时保留原本事实基础。下一次真正的编辑动作应由 monitoring table 触发，而不是在没有新证据时重新评级。
+预期差距小幅为负：在 $333.36、约 10.1x EV/TTM sales 上，市场已经要求未来数年收入维持高 20% 至 30% 中段增长，并且利润率和 FCF 改善；我们的基准情景确认需求，但尚未证明现金流转化。
+
+当前 stance 是 **cautious，低确信**。20% 牛市 / 50% 基准 / 30% 熊市情景表说明 optical 信号真实，但当前日期价格已经资本化了很多 supercycle。低确信反映 NVIDIA 采购证据确实存在，且一条强订单路径可能迅速拉平偏斜。
+
+上调触发器：若 NVIDIA 相关采购承诺转化为 backlog、收入和产能预付款，Datacenter & Communications 保持增长且不稀释毛利率，InP / 6-inch 产能按计划爬坡，并且 FCF 转正，则上调至 neutral-watch 或 constructive。下调触发器：若采购承诺转化慢于预期、Datacenter & Communications 增长放缓且毛利率或 FCF 恶化、InP / CPO/NPO 里程碑滑坡，或 AAOI/GLW/ANET 未能确认同一光需求信号，则下调至 bearish-avoid。
 
 ## 附录：来源与假设
 
@@ -162,4 +172,4 @@
 | Coherent 2026-03-02 8-K Exhibit 99.1 | https://www.sec.gov/Archives/edgar/data/820318/000119312526084366/d42735dex991.htm | NVIDIA $2B investment、purchase commitment、capacity access 与 AI optics framing |
 
 - 2026-07-06 深度升级保留原先已核验事实基础，并补齐结构、表格、同行比较、情景价格和 monitoring parity。
-- 情景价格由报告价格锚点机械推导，不构成投资建议、预测或目标价。
+- 情景价格由报告价格锚点机械推导，不构成投资建议、预测或单点估值结论。

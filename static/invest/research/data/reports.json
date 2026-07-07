@@ -1480,7 +1480,7 @@
     "priceSymbol": "ANET",
     "title": "Arista Networks 深度研究报告 - AI 集群开放以太网 fabric 的系统软件卖铲人",
     "titleEn": "Arista Networks Deep Research Report - The Open Ethernet Fabric of AI Clusters",
-    "summary": "AI 集群网络层首次覆盖：Arista 是开放以太网/AI spine/scale-out 网络的系统软件卖铲人，正面回答 NVIDIA Spectrum-X/InfiniBand/NVLink 一体化 vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet 生态的路线之争。Q1 2026 营收 $2.709B(+35.1%)、GAAP/非GAAP营业利润率 42.7%/47.8%、非GAAP EPS $0.87、经营现金流 $1.69B；Q2 指引营收约 $2.8B。FY2025 Cloud and AI Titans/AI Specialty Providers 占收入 48%/20%，Core AI/Cloud/Data Center Networking 占 65%。但两大匿名终端客户合计约 42% 收入(26%/16%)、高度依赖 Broadcom merchant silicon，且 Jun 29 2026 市值约 $206.6B、约 56x TTM GAAP P/E、约 47x 当前非GAAP EPS运行率。中性/高质量但高预期(观察)。",
+    "summary": "AI 集群网络层首次覆盖：Arista 是开放以太网/AI spine/scale-out 网络的系统软件卖铲人，正面回答 NVIDIA Spectrum-X/InfiniBand/NVLink 一体化 vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet 生态的路线之争。Q1 2026 营收 $2.709B(+35.1%)、GAAP/非GAAP营业利润率 42.7%/47.8%、非GAAP EPS $0.87、经营现金流 $1.69B；Q2 指引营收约 $2.8B。FY2025 Cloud and AI Titans/AI Specialty Providers 占收入 48%/20%，Core AI/Cloud/Data Center Networking 占 65%。但两大匿名终端客户合计约 42% 收入(26%/16%)、高度依赖 Broadcom merchant silicon，且 Jun 29 2026 市值约 $206.6B、约 56x TTM GAAP P/E、约 47x 当前非GAAP EPS运行率。neutral-watch / 中等确信：高质量，但大多已定价。",
     "tags": [
       "AI网络",
       "以太网",
@@ -1489,7 +1489,7 @@
     ],
     "category": "tech",
     "date": "2026-06-30",
-    "lastUpdate": "2026-06-30",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=arista-2026",
     "markdownFiles": {
       "zh": "/invest/research/Arista_Networks_深度研究报告_2026-06.md",
@@ -1502,9 +1502,9 @@
       "AI 集群网络层补位：ANET 不是光模块/光纤层，而是开放以太网交换系统、EOS、CloudVision、遥测与 AI fabric 控制点；可交叉校验 NVDA/AVGO/AAOI/GLW/VRT/CRWV",
       "Q1 2026 营收 $2.709B(+35.1%)、非GAAP营业利润率 47.8%、非GAAP EPS $0.87、经营现金流 $1.69B；现金+可交易证券约 $12.35B、基本无债，Q2 指引收入约 $2.8B",
       "路线之争：NVIDIA 一体化网络栈(Spectrum-X/InfiniBand/NVLink) vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet；ANET 更像 Broadcom 生态客户/伙伴，而非直接替代",
-      "核心风险：两大匿名终端客户合计约 42% 收入(26%/16%)、主要依赖 Broadcom merchant silicon；市值约 $206.6B、约 56x TTM GAAP P/E、约 47x 当前非GAAP EPS运行率，估值容错率低"
+      "neutral-watch / 中等确信：价格约 $164.10、约 20x EV/TTM 收入，市场已要求多年高 20% 至 30% 中段增长与优秀利润率，等待更好价格或更强开放以太网份额证据"
     ],
-    "summaryEn": "Initial coverage of the AI cluster networking layer: Arista is the open Ethernet / AI spine / scale-out systems-software pick-and-shovel, directly testing NVIDIA Spectrum-X/InfiniBand/NVLink integration vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet. Q1 2026 revenue was $2.709B (+35.1%), GAAP/non-GAAP operating margin 42.7%/47.8%, non-GAAP EPS $0.87, and operating cash flow $1.69B; Q2 guide is about $2.8B revenue. FY2025 Cloud and AI Titans / AI Specialty Providers were 48%/20% of revenue, and Core AI/Cloud/Data Center Networking was 65%. But two anonymous end customers were ~42% of revenue (26%/16%), Arista is highly reliant on Broadcom merchant silicon, and at the Jun 29 2026 market cap of ~$206.6B the stock trades around 56x TTM GAAP earnings and ~47x current non-GAAP EPS run-rate. Neutral / high-quality but high expectations (watch).",
+    "summaryEn": "Initial coverage of the AI cluster networking layer: Arista is the open Ethernet / AI spine / scale-out systems-software pick-and-shovel, directly testing NVIDIA Spectrum-X/InfiniBand/NVLink integration vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet. Q1 2026 revenue was $2.709B (+35.1%), GAAP/non-GAAP operating margin 42.7%/47.8%, non-GAAP EPS $0.87, and operating cash flow $1.69B; Q2 guide is about $2.8B revenue. FY2025 Cloud and AI Titans / AI Specialty Providers were 48%/20% of revenue, and Core AI/Cloud/Data Center Networking was 65%. But two anonymous end customers were ~42% of revenue (26%/16%), Arista is highly reliant on Broadcom merchant silicon, and at the Jun 29 2026 market cap of ~$206.6B the stock trades around 56x TTM GAAP earnings and ~47x current non-GAAP EPS run-rate. Neutral-watch / medium conviction: high quality, but mostly priced in.",
     "chainLayer": "networking",
     "coverageTier": "full",
     "chainRole": "architecture-check",
@@ -1590,6 +1590,29 @@
         },
         "nextCheck": "2026-Q2 财报 / Q2 earnings",
         "nextCheckDate": "2026-08"
+      }
+    ],
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "在 $164.10、约 20x EV/TTM 收入上，市场大致要求未来数年收入维持高 20% 至 30% 中段复合增长并保持优秀利润率；我们的基准情景接近这个区间低端，因此维持中性观察。",
+      "en": "At $164.10 and about 20x EV/TTM revenue, the market is underwriting roughly high-20s to mid-30s revenue CAGR for several years with elite margins; our base case is close to the low end of that range, so the stance remains neutral watch."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若 Q2/Q3 财报使收入增速保持在高 20% 以上、非 GAAP 营业利润率维持 45% 以上、递延收入/RPO 扩张，并且客户证据显示开放以太网在 AI 后端网络份额提升且集中度未进一步上升，则上调至 constructive。",
+        "en": "move to constructive if Q2/Q3 results keep revenue growth above the high-20s, non-GAAP operating margin stays above 45%, deferred revenue/RPO expands, and customer evidence shows open Ethernet gaining AI back-end share without higher concentration."
+      },
+      "downgrade": {
+        "zh": "若收入增速跌破隐含的高 20% 路径、非 GAAP 营业利润率在缺少明确投资解释的情况下低于 40%、头部客户集中度恶化，或 NVIDIA 一体化网络在 AI 后端拿到更清楚份额，则下调至 cautious。",
+        "en": "move to cautious if revenue growth falls below the implied high-20s path, non-GAAP operating margin drops below 40% without clear investment explanation, top-customer concentration worsens, or NVIDIA integrated networking takes clearer AI back-end share."
+      }
+    },
+    "stanceHistory": [
+      {
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "date": "2026-06-29",
+        "price": 164.1
       }
     ]
   },
@@ -4174,8 +4197,8 @@
     "priceSymbol": "AVGO",
     "title": "Broadcom 深度研究报告 - 自定义 AI 硅的卖铲人与 VMware 现金机器",
     "titleEn": "Broadcom Deep Research Report - The Pick-and-Shovel of Custom AI Silicon, Plus a VMware Cash Machine",
-    "summary": "自定义 AI 硅（XPU）最大的卖铲人，正是 NVIDIA 报告点名的最深结构性威胁的承接方；同时握有 VMware 软件现金机器。Q2 FY2026 营收 $22.19B（+48%），AI 半导体 $10.8B（+143%），AI backlog >$30B，FY2027 AI 目标 >$1000 亿；Google/Meta/字节/Anthropic/OpenAI/Fujitsu 等客户项目与 $73B backlog 属公开报道/市场拆解口径，非全部官方确认。但收入兑现后置到 FY2027、客户高度集中、总债务 $64.9B、净债务约 $45B。市值约 $1.8 万亿、远期 P/E 约 33x，介于 NVIDIA ~25x 与 AMD ~58x 之间。中性/高质量但高预期（观察）。",
-    "summaryEn": "The biggest pick-and-shovel of custom AI silicon (XPUs) - the very threat named in the NVIDIA report - plus a VMware software cash machine. Q2 FY2026 revenue $22.19B (+48%), AI semis $10.8B (+143%), AI backlog >$30B, FY2027 AI target >$100B; customer programs such as Google/Meta/ByteDance/Anthropic/OpenAI/Fujitsu and the $73B backlog are public-reporting / market-breakdown inputs, not all official confirmations. Delivery is back-loaded to FY2027, customers are concentrated, total debt is $64.9B and net debt is roughly $45B. Market cap ~$1.8T, forward P/E ~33x, between NVIDIA ~25x and AMD ~58x. Neutral / high-quality-but-high-expectations (watch).",
+    "summary": "自定义 AI 硅（XPU）最大的卖铲人，正是 NVIDIA 报告点名的最深结构性威胁的承接方；同时握有 VMware 软件现金机器。Q2 FY2026 营收 $22.19B（+48%），AI 半导体 $10.8B（+143%），AI backlog >$30B，FY2027 AI 目标 >$1000 亿；Google/Meta/字节/Anthropic/OpenAI/Fujitsu 等客户项目与 $73B backlog 属公开报道/市场拆解口径，非全部官方确认。但收入兑现后置到 FY2027、客户高度集中、总债务 $64.9B、净债务约 $45B。市值约 $1.8 万亿、远期 P/E 约 33x，介于 NVIDIA ~25x 与 AMD ~58x 之间。neutral-watch / 中等确信：世界级卖铲人，但 FY2027 分母大多已被定价。",
+    "summaryEn": "The biggest pick-and-shovel of custom AI silicon (XPUs) - the very threat named in the NVIDIA report - plus a VMware software cash machine. Q2 FY2026 revenue $22.19B (+48%), AI semis $10.8B (+143%), AI backlog >$30B, FY2027 AI target >$100B; customer programs such as Google/Meta/ByteDance/Anthropic/OpenAI/Fujitsu and the $73B backlog are public-reporting / market-breakdown inputs, not all official confirmations. Delivery is back-loaded to FY2027, customers are concentrated, total debt is $64.9B and net debt is roughly $45B. Market cap ~$1.8T, forward P/E ~33x, between NVIDIA ~25x and AMD ~58x. Neutral-watch / medium conviction: a world-class pick-and-shovel, but the FY2027 denominator is mostly priced in.",
     "tags": [
       "AI计算",
       "自定义ASIC",
@@ -4184,7 +4207,7 @@
     ],
     "category": "tech",
     "date": "2026-06-26",
-    "lastUpdate": "2026-06-26",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=broadcom-2026",
     "markdownFiles": {
       "zh": "/invest/research/Broadcom_深度研究报告_2026-06.md",
@@ -4197,7 +4220,7 @@
       "Q2 FY2026 营收 $22.19B（+48% YoY），AI 半导体 $10.8B（+143%），AI backlog >$30B；Q3 指引营收 ~$29.4B、AI $16.0B（+200%）",
       "FY2027 AI 半导体目标 >$1000 亿；公开报道涉及 Google/Meta/字节/Anthropic/OpenAI/Fujitsu 等 XPU 项目与 $73B backlog 估算——但兑现后置到 FY2027、客户高度集中，非全部为官方确认订单",
       "两台引擎：AI 定制硅增长 + VMware 软件现金（非 GAAP 营业利润率 67%、FCF 占收入 46%）；总债务 $64.9B、Q2 期末现金 $19.63B，净债务约 $45B",
-      "市值约 $1.8 万亿、远期 P/E 约 33x，介于 NVIDIA ~25x 与 AMD ~58x 之间；风险在 FY2027 兑现分母而非倍数。中性/观察"
+      "neutral-watch / 中等确信：$378.91、约 24-25x EV/TTM sales 已定价通向 FY2027 >$100B AI 收入的顺利路径，等待更硬的 XPU 兑现和 backlog 转化证据"
     ],
     "chainLayer": "custom-merchant-silicon",
     "coverageTier": "full",
@@ -4281,6 +4304,29 @@
           "en": "~$1.8T cap (2026-06-25); between NVIDIA ~25x and AMD ~58x"
         },
         "nextCheck": "季报 / quarterly earnings"
+      }
+    ],
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "在 $378.91、约 24-25x EV/TTM sales 上，市场已经定价了通向 FY2027 >$100B AI 半导体的顺利路径和持续的 VMware 现金质量；我们的基准情景同意方向，但保留交付滑坡、客户集中和债务调整后倍数压力。",
+      "en": "At $378.91 and roughly 24-25x EV/TTM sales, the market already prices a clean path toward >$100B FY2027 AI semis plus durable VMware cash; our base case agrees on direction but leaves room for delivery slippage, customer concentration, and debt-adjusted multiple pressure."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若 Q3/Q4 AI 半导体收入和 backlog 转化确认通向 FY2027 >$100B AI 收入的路径、至少一个新增 XPU 客户获得官方确认、VMware 留存保持稳定，且 net debt/EBITDA 持续下降，则上调至 constructive。",
+        "en": "move to constructive if Q3/Q4 AI semi revenue and backlog conversion confirm the path toward >$100B FY2027 AI revenue, at least one additional XPU customer is officially confirmed, VMware retention remains stable, and net debt/EBITDA keeps falling."
+      },
+      "downgrade": {
+        "zh": "若主要 XPU 客户滑坡或切换、AI backlog 停止扩张、VMware 流失显性化，或 FY2027 AI 收入可见度变弱时债务调整后的 EV 仍居高不下，则下调至 cautious。",
+        "en": "move to cautious if a major XPU customer slips or switches, AI backlog stops expanding, VMware churn becomes visible, or debt-adjusted EV remains elevated while FY2027 AI revenue visibility weakens."
+      }
+    },
+    "stanceHistory": [
+      {
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "date": "2026-06-25",
+        "price": 378.91
       }
     ]
   },
@@ -5189,8 +5235,8 @@
     "priceSymbol": "MRVL",
     "title": "Marvell Technology 深度研究报告 - Broadcom 之外的 custom ASIC 与光互连架构校验",
     "titleEn": "Marvell Technology Deep Research Report - Custom ASIC and Optical Interconnect Check Beyond Broadcom",
-    "summary": "AI 基础设施书 custom-merchant-silicon 层补位：Marvell 是 Broadcom 之外的自定义 ASIC/XPU、光互连和 NVIDIA NVLink Fusion 对照组。FY2027 Q1 收入约 $2.42B，公开报道数据中心收入约 $1.83B；管理层公开展望 FY2027/FY2028 收入约 $11.5B/$16.5B。NVIDIA $2B 投资 + NVLink Fusion、Celestial AI $3.25B 收购、AWS Trainium/Microsoft Maia 机会共同抬高长期想象空间。但当前 $245.29（2026-07-02 收盘）、市值约 $214.6B、约 19x FY2027E EV/Sales，执行容错率很低。高风险观察 / custom ASIC 架构校验。",
-    "summaryEn": "Custom-merchant-silicon coverage for the AI-infrastructure book: Marvell is the custom ASIC / XPU, optical interconnect, and NVIDIA NVLink Fusion cross-check outside Broadcom. FY2027 Q1 revenue was about $2.42B, public reports put data-center revenue near $1.83B, and management's public outlook frames FY2027 / FY2028 revenue around $11.5B / $16.5B. NVIDIA's $2B investment plus NVLink Fusion, the $3.25B Celestial AI acquisition, and AWS Trainium / Microsoft Maia opportunities all expand long-term optionality. But at $245.29 (Jul 2, 2026 close), about $214.6B market cap, and roughly 19x FY2027E EV/Sales, execution tolerance is low. High-risk watch / custom ASIC architecture check.",
+    "summary": "AI 基础设施书 custom-merchant-silicon 层补位：Marvell 是 Broadcom 之外的自定义 ASIC/XPU、光互连和 NVIDIA NVLink Fusion 对照组。FY2027 Q1 收入约 $2.42B，公开报道数据中心收入约 $1.83B；管理层公开展望 FY2027/FY2028 收入约 $11.5B/$16.5B。NVIDIA $2B 投资 + NVLink Fusion、Celestial AI $3.25B 收购、AWS Trainium/Microsoft Maia 机会共同抬高长期想象空间。但当前 $245.29（2026-07-02 收盘）、市值约 $214.6B、约 19x FY2027E EV/Sales，执行容错率很低。cautious / 中等确信：真实期权仍在，但当前价格下偏斜为负。",
+    "summaryEn": "Custom-merchant-silicon coverage for the AI-infrastructure book: Marvell is the custom ASIC / XPU, optical interconnect, and NVIDIA NVLink Fusion cross-check outside Broadcom. FY2027 Q1 revenue was about $2.42B, public reports put data-center revenue near $1.83B, and management's public outlook frames FY2027 / FY2028 revenue around $11.5B / $16.5B. NVIDIA's $2B investment plus NVLink Fusion, the $3.25B Celestial AI acquisition, and AWS Trainium / Microsoft Maia opportunities all expand long-term optionality. But at $245.29 (Jul 2, 2026 close), about $214.6B market cap, and roughly 19x FY2027E EV/Sales, execution tolerance is low. Cautious / medium conviction: real optionality remains, but skew is negative at the current price.",
     "tags": [
       "AI计算",
       "自定义ASIC",
@@ -5199,7 +5245,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-04",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=marvell-2026",
     "markdownFiles": {
       "zh": "/invest/research/Marvell_深度研究报告_2026-07.md",
@@ -5212,12 +5258,12 @@
       "custom-merchant-silicon 层补位：MRVL 是 Broadcom 之外的 custom ASIC/XPU + optical interconnect + NVLink Fusion 架构校验，对照 hyperscaler 自研 silicon 是否扩散到更多供应商",
       "FY2027 Q1 收入约 $2.42B、毛利 $1.26B、营业利润 $350M、FCF $483M；公开报道当前季度指引约 $2.7B 收入和 $0.93 EPS",
       "管理层公开展望 FY2027/FY2028 收入约 $11.5B/$16.5B；NVIDIA $2B 投资和 NVLink Fusion 合作把 MRVL 从 GPU 替代者变成 NVIDIA 兼容生态供应商",
-      "当前 $245.29（2026-07-02 收盘）、市值约 $214.6B、EV/FY2027E Sales 约 19x。高风险观察：AWS/Microsoft 项目、Celestial AI 整合和估值分母必须兑现"
+      "cautious / 中等确信：$245.29、约 19x FY2027E EV/Sales 已要求 FY2027/FY2028 ramp 顺利兑现；战略期权真实，但安全边际不足"
     ],
     "chainLayer": "custom-merchant-silicon",
     "coverageTier": "full",
     "chainRole": "architecture-check",
-    "stance": "high-risk-watch",
+    "stance": "cautious",
     "priceAsOf": "2026-07-02",
     "reportedPeriod": "FY2027 Q1",
     "related": [
@@ -5320,6 +5366,34 @@
         "nextCheck": "FY2027 每季指引 / quarterly FY2027 guidance",
         "nextCheckDate": "2026-08"
       }
+    ],
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "在 $245.29、约 19x FY2027E sales 上，市场已经要求 FY2027/FY2028 收入 ramp 顺利兑现并继续复合；我们的基准情景承认战略期权，但不足以用足够安全边际越过隐含的 34-44% 年增长门槛。",
+      "en": "At $245.29 and about 19x FY2027E sales, the market already requires the FY2027/FY2028 revenue ramp to land cleanly and keep compounding; our base case recognizes the strategic option but does not clear the implied 34-44% annual growth hurdle with enough margin of safety."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若 FY2027 data-center revenue 每季加速、AWS/Microsoft 以及至少一个新增 hyperscaler 项目显示确认放量证据、NVLink Fusion 产生可确认收入或毛利贡献，且 forward EV/Sales 通过收入增长而非股价下跌下降，则上调至 neutral-watch 或 constructive。",
+        "en": "move to neutral-watch or constructive if FY2027 data-center revenue accelerates each quarter, AWS/Microsoft and at least one additional hyperscaler program show confirmed ramp evidence, NVLink Fusion produces recognized revenue or margin contribution, and forward EV/Sales falls through revenue growth rather than price weakness."
+      },
+      "downgrade": {
+        "zh": "若 FY2027/FY2028 收入展望下修、Trainium/Maia ramp 滑坡、NVLink Fusion 仍没有经济性、Celestial AI 里程碑后移，或 data-center 增长降速时 forward EV/Sales 仍接近高十几倍，则下调至 bearish-avoid。",
+        "en": "move to bearish-avoid if FY2027/FY2028 revenue outlook is cut, Trainium/Maia ramps slip, NVLink Fusion remains non-economic, Celestial AI milestones move out, or forward EV/Sales stays near the high-teens while data-center growth decelerates."
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-07-02",
+        "stance": "high-risk-watch",
+        "price": 245.29
+      },
+      {
+        "date": "2026-07-02",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 245.29
+      }
     ]
   },
   {
@@ -5329,7 +5403,7 @@
     "priceSymbol": "COHR",
     "title": "Coherent 深度研究报告 - AI 光连接层的全栈光子仪表盘",
     "titleEn": "Coherent Deep Research Report - Full-Stack Photonics Dashboard for AI Optical Connectivity",
-    "summary": "AI 基础设施 optical 层核心光模块/光器件覆盖。Coherent 不是解释 GPU 单价，而是验证 AI 集群网络扩容是否真正穿透到高速光连接、激光器、InP/SiPh 与 CPO/NPO 路线。Q3 FY2026 收入 $1.81B（+21% YoY，pro forma +27%）、非 GAAP 毛利率 39.6%、非 GAAP EPS $1.41；Datacenter & Communications 收入约 $1.362B，占 pro forma 收入约 75%，同比约 +41%。NVIDIA 2026-03 宣布向 Coherent 投资 $2B，并包含多年、数十亿美元采购承诺和未来产能访问权；公司材料给出 1.6T/3.2T/6.4T ZR/ZR+、CPO/NPO、光电路交换与多轨热管理路线。当前 $333.36（2026-07-02 收盘）、市值约 $65.2B、EV 约 $66.8B，估值已经反映 AI optics supercycle。高风险观察 / optical dashboard。",
+    "summary": "AI 基础设施 optical 层核心光模块/光器件覆盖。Coherent 不是解释 GPU 单价，而是验证 AI 集群网络扩容是否真正穿透到高速光连接、激光器、InP/SiPh 与 CPO/NPO 路线。Q3 FY2026 收入 $1.81B（+21% YoY，pro forma +27%）、非 GAAP 毛利率 39.6%、非 GAAP EPS $1.41；Datacenter & Communications 收入约 $1.362B，占 pro forma 收入约 75%，同比约 +41%。NVIDIA 2026-03 宣布向 Coherent 投资 $2B，并包含多年、数十亿美元采购承诺和未来产能访问权；公司材料给出 1.6T/3.2T/6.4T ZR/ZR+、CPO/NPO、光电路交换与多轨热管理路线。当前 $333.36（2026-07-02 收盘）、市值约 $65.2B、EV 约 $66.8B，估值已经反映 AI optics supercycle。cautious / 低确信：需求证据真实，但现金流和倍数容错率偏紧。",
     "tags": [
       "AI光连接",
       "光模块",
@@ -5338,7 +5412,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-06",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=coherent-2026",
     "markdownFiles": {
       "zh": "/invest/research/Coherent_深度研究报告_2026-07.md",
@@ -5351,13 +5425,13 @@
       "补齐 optical 层核心大票：COHR 用高速光连接、激光器、InP/SiPh、CPO/NPO 和光电路交换验证 AI 集群带宽需求是否穿透到光层",
       "Q3 FY2026 收入 $1.81B（+21% YoY；pro forma +27%）、非 GAAP 毛利率 39.6%、非 GAAP EPS $1.41；Datacenter & Communications 约 $1.362B，占 pro forma 收入约 75%，同比约 +41%",
       "NVIDIA 2026-03 宣布向 Coherent 投资 $2B，并包含多年、数十亿美元采购承诺和未来产能访问权；Coherent 路线包含 1.6T/3.2T/6.4T ZR/ZR+ 与 CPO/NPO 引擎",
-      "当前 $333.36（2026-07-02）、市值约 $65.2B、EV 约 $66.8B、约 10.1x EV/TTM sales；链内质量高，但 Q3 FCF -$383M 和估值容错率是核心风险"
+      "cautious / 低确信：$333.36、约 10.1x EV/TTM sales 已定价 AI optics supercycle；Q3 FCF -$383M 和估值容错率是核心风险"
     ],
-    "summaryEn": "Core optical-module and photonics coverage for the AI-infrastructure optical layer. Coherent does not explain GPU ASPs; it tests whether AI cluster network expansion is reaching high-speed optical connectivity, lasers, InP/SiPh and CPO/NPO architectures. Q3 FY2026 revenue was $1.81B (+21% YoY; +27% pro forma), non-GAAP gross margin was 39.6%, and non-GAAP EPS was $1.41. Datacenter & Communications revenue was about $1.362B, roughly 75% of pro forma revenue and about +41% YoY. In March 2026, NVIDIA announced a $2B investment in Coherent, including a multi-year, multi-billion-dollar purchase commitment and future capacity access rights; Coherent's roadmap includes 1.6T/3.2T/6.4T ZR/ZR+ and CPO/NPO engines. At $333.36 (2026-07-02 close), about $65.2B market cap and about $66.8B EV, the stock already prices an AI-optics supercycle. High-risk watch / optical dashboard.",
+    "summaryEn": "Core optical-module and photonics coverage for the AI-infrastructure optical layer. Coherent does not explain GPU ASPs; it tests whether AI cluster network expansion is reaching high-speed optical connectivity, lasers, InP/SiPh and CPO/NPO architectures. Q3 FY2026 revenue was $1.81B (+21% YoY; +27% pro forma), non-GAAP gross margin was 39.6%, and non-GAAP EPS was $1.41. Datacenter & Communications revenue was about $1.362B, roughly 75% of pro forma revenue and about +41% YoY. In March 2026, NVIDIA announced a $2B investment in Coherent, including a multi-year, multi-billion-dollar purchase commitment and future capacity access rights; Coherent's roadmap includes 1.6T/3.2T/6.4T ZR/ZR+ and CPO/NPO engines. At $333.36 (2026-07-02 close), about $65.2B market cap and about $66.8B EV, the stock already prices an AI-optics supercycle. Cautious / low conviction: demand evidence is real, but cash-flow and multiple tolerance are tight.",
     "chainLayer": "optical",
     "coverageTier": "full",
     "chainRole": "dashboard",
-    "stance": "high-risk-watch",
+    "stance": "cautious",
     "priceAsOf": "2026-07-02",
     "reportedPeriod": "FY2026 Q3",
     "related": [
@@ -5461,6 +5535,34 @@
         },
         "nextCheck": "FY2026 Q4 cash flow and working capital",
         "nextCheckDate": "2026-08"
+      }
+    ],
+    "conviction": "low",
+    "stanceRationale": {
+      "zh": "在 $333.36、约 10.1x EV/TTM sales 上，市场已经要求未来数年收入维持高 20% 至 30% 中段增长，并且利润率和 FCF 改善；我们的基准情景确认需求，但尚未证明现金流转化。",
+      "en": "At $333.36 and about 10.1x EV/TTM sales, the market already requires several years of roughly high-20s to mid-30s revenue growth plus margin and FCF improvement; our base case confirms demand but does not yet prove cash-flow conversion."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若 NVIDIA 相关采购承诺转化为 backlog、收入和产能预付款，Datacenter & Communications 保持增长且不稀释毛利率，InP / 6-inch 产能按计划爬坡，并且 FCF 转正，则上调至 neutral-watch 或 constructive。",
+        "en": "move to neutral-watch or constructive if NVIDIA-linked purchase commitments convert into backlog, revenue, and capacity prepayments, Datacenter & Communications keeps growing without gross-margin dilution, InP / 6-inch capacity ramps on plan, and FCF turns positive."
+      },
+      "downgrade": {
+        "zh": "若采购承诺转化慢于预期、Datacenter & Communications 增长放缓且毛利率或 FCF 恶化、InP / CPO/NPO 里程碑滑坡，或 AAOI/GLW/ANET 未能确认同一光需求信号，则下调至 bearish-avoid。",
+        "en": "move to bearish-avoid if purchase commitments convert slower than expected, Datacenter & Communications growth slows while gross margin or FCF deteriorates, InP / CPO/NPO milestones slip, or AAOI/GLW/ANET fail to confirm the same optical demand signal."
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-07-02",
+        "stance": "high-risk-watch",
+        "price": 333.36
+      },
+      {
+        "date": "2026-07-02",
+        "stance": "cautious",
+        "conviction": "low",
+        "price": 333.36
       }
     ]
   },
