@@ -420,6 +420,18 @@
       "lastClose": 173.7,
       "changePct": 0.2,
       "currency": "USD"
+    },
+    {
+      "reportId": "smh-2026",
+      "symbol": "SMH",
+      "status": "ok",
+      "attemptedAt": "2026-07-07",
+      "baseDate": "2026-07-02",
+      "basePrice": 592.29,
+      "lastDate": "2026-07-07",
+      "lastClose": 577.96,
+      "changePct": -2.4,
+      "currency": "USD"
     }
   ]
 }
