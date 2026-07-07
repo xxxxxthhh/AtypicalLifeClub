@@ -937,6 +937,7 @@
             <div class="footer-actions">
                 <a class="footer-link" href="/invest/research/" id="backToResearch">返回完整报告列表</a>
                 <a class="footer-link" href="/invest/research/coverage-map.html" id="toCoverageMap">查看覆盖地图</a>
+                <a class="footer-link" href="/invest/research/verdict-ledger.html" id="toVerdictLedger">判断记录</a>
             </div>
         </footer>
     </main>
@@ -1030,6 +1031,7 @@
                 loadError: "仪表盘数据加载失败，请稍后重试。",
                 backToResearch: "返回完整报告列表",
                 toCoverageMap: "查看覆盖地图",
+                toVerdictLedger: "判断记录",
                 disclaimer: "免责声明：本页仅用于研究框架展示和信息交流，不构成任何投资建议，请自行完成尽职调查。",
                 stances: {
                     "bullish": "看多",
@@ -1135,6 +1137,7 @@
                 loadError: "Dashboard data failed to load. Please try again later.",
                 backToResearch: "Back to full report list",
                 toCoverageMap: "View coverage map",
+                toVerdictLedger: "Verdict Ledger",
                 disclaimer: "Disclaimer: This page is for research-framework display and information exchange only. It does not constitute investment advice. Please conduct your own due diligence.",
                 stances: {
                     "bullish": "Bullish",
@@ -1277,6 +1280,7 @@
             setText("disclaimerText", labels.disclaimer);
             setText("backToResearch", labels.backToResearch);
             setText("toCoverageMap", labels.toCoverageMap);
+            setText("toVerdictLedger", labels.toVerdictLedger);
             renderMonitorStats();
 
             if (state.loadFailed) {

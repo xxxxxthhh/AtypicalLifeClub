@@ -9,6 +9,10 @@ resources/_gen/
 .DS_Store
 Thumbs.db
 
+# Python 缓存（研报校验/生成脚本）
+__pycache__/
+*.pyc
+
 # IDE 配置
 .idea/
 .vscode/

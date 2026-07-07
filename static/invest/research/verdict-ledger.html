@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verdict Ledger | Atypical Life Club</title>
+    <link rel="stylesheet" href="/invest/theme-adapter.css">
+    <link rel="stylesheet" href="/invest/styles.css">
+    <link rel="stylesheet" href="/invest/research/styles.css">
+    <style>
+        .ledger-fact-note {
+            margin-top: 10px;
+            font-size: 0.85rem;
+            color: var(--research-muted);
+            max-width: 70ch;
+        }
+        .ledger-section-intro {
+            color: var(--research-muted);
+            font-size: 0.9rem;
+            margin: 4px 0 16px;
+            max-width: 78ch;
+        }
+        .ledger-table-wrap {
+            overflow-x: auto;
+            border: 1px solid var(--research-line);
+            border-radius: var(--radius, 12px);
+            background: var(--research-panel);
+        }
+        table.ledger-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+            min-width: 720px;
+        }
+        .ledger-table th,
+        .ledger-table td {
+            padding: 10px 14px;
+            text-align: left;
+            border-bottom: 1px solid var(--research-line-2);
+            white-space: nowrap;
+        }
+        .ledger-table th {
+            font-size: 0.72rem;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: var(--research-muted);
+            font-weight: 600;
+        }
+        .ledger-table tbody tr:last-child td { border-bottom: none; }
+        .ledger-table td.num,
+        .ledger-table th.num {
+            text-align: right;
+            font-family: var(--research-mono, ui-monospace, monospace);
+        }
+        .ledger-table th.sortable {
+            cursor: pointer;
+            user-select: none;
+        }
+        .ledger-table th.sortable[aria-sort="descending"]::after { content: " ↓"; }
+        .ledger-table th.sortable[aria-sort="ascending"]::after { content: " ↑"; }
+        .ledger-name a {
+            color: var(--research-ink);
+            font-weight: 600;
+            text-decoration: none;
+        }
+        .ledger-name a:hover { text-decoration: underline; }
+        .ledger-ticker {
+            display: block;
+            font-size: 0.72rem;
+            color: var(--research-muted);
+        }
+        .stance-chip {
+            display: inline-block;
+            padding: 2px 9px;
+            border: 1px solid var(--research-line);
+            border-radius: 999px;
+            font-size: 0.78rem;
+            color: var(--research-ink-2);
+            background: var(--research-faint);
+        }
+        .stance-chip .conv { color: var(--research-muted); }
+        /* Direction is carried by the sign + caret glyph, never by color (DESIGN §2). */
+        .delta .caret { opacity: 0.65; margin-left: 3px; font-size: 0.8em; }
+        .muted-cell { color: var(--research-muted); }
+        .flag-tag {
+            font-size: 0.68rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--research-muted);
+            border: 1px dashed var(--research-line);
+            border-radius: 6px;
+            padding: 1px 6px;
+        }
+        .calibration-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 12px;
+        }
+        .calib-card {
+            border: 1px solid var(--research-line);
+            border-radius: var(--radius, 12px);
+            padding: 12px 14px;
+            background: var(--research-panel);
+        }
+        .calib-card .calib-stance { font-size: 0.8rem; color: var(--research-ink-2); font-weight: 600; }
+        .calib-card .calib-median { font-family: var(--research-mono, monospace); font-size: 1.1rem; margin-top: 4px; }
+        .calib-card .calib-sub { font-size: 0.72rem; color: var(--research-muted); margin-top: 2px; }
+        .calibration-note { color: var(--research-muted); font-size: 0.8rem; margin-top: 12px; }
+        .ledger-links { margin-top: 26px; }
+    </style>
+</head>
+<body class="research-reference-page">
+    <header class="shell-header">
+        <div class="shell-header-inner">
+            <div class="shell-brand">
+                <div class="shell-brand-title shell-breadcrumb" aria-label="Breadcrumb">
+                    <a class="shell-breadcrumb-link" href="/invest/research/">Research</a>
+                    <span class="shell-breadcrumb-separator">/</span>
+                    <span class="shell-breadcrumb-current" aria-current="page">Verdict Ledger</span>
+                </div>
+                <span class="shell-brand-subtitle" id="shellSubtitle">Stance track record vs SMH</span>
+            </div>
+            <nav class="shell-nav">
+                <a href="/invest/research/" id="navBack">Back to Research</a>
+                <a href="/invest/research/monitoring-dashboard.html" id="navMonitoring">Monitoring</a>
+                <div class="lang-switch" id="languageSwitch" role="group" aria-label="Language switch">
+                    <button class="lang-opt" type="button" data-lang="zh" aria-pressed="false">中文</button>
+                    <span class="divider">/</span>
+                    <button class="lang-opt active" type="button" data-lang="en" aria-pressed="true">EN</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="shell">
+        <section class="hero research-command-hero research-hero">
+            <div class="research-hero-kicker" id="pageKicker">VERDICT LEDGER · RESEARCH</div>
+            <h1 class="hero-title" id="pageTitle">Verdict Ledger</h1>
+            <p class="hero-subtitle" id="pageSubtitle">Every published stance scored against the SMH benchmark over the same window, so opinions carry a track record.</p>
+            <p class="ledger-fact-note" id="factNote">Relative return vs SMH is the score; a call that trails the benchmark is a miss even when it is up. Migration rows (the legacy→v5 re-labelling) are shown but excluded from calibration. No red/green — the sign carries direction.</p>
+            <div class="research-hero-stat-grid" id="ledgerStats" aria-label="Verdict ledger statistics">
+                <div class="research-stat-card"><div class="research-stat-value">--</div><div class="research-stat-label">Loading</div></div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="research-header-row">
+                <h2 id="openHeading">Open Calls</h2>
+            </div>
+            <p class="ledger-section-intro" id="openIntro">Live positions: each report's current stance vs SMH since the stance date. Sortable by relative delta.</p>
+            <div class="ledger-table-wrap">
+                <table class="ledger-table" id="openTable">
+                    <thead></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="research-header-row">
+                <h2 id="closedHeading">Closed Intervals</h2>
+            </div>
+            <p class="ledger-section-intro" id="closedIntro">Completed stance windows from stanceHistory. Legacy→v5 re-labellings are flagged "migration" and do not count as calls.</p>
+            <div class="ledger-table-wrap">
+                <table class="ledger-table" id="closedTable">
+                    <thead></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="research-header-row">
+                <h2 id="calibHeading">Calibration</h2>
+            </div>
+            <p class="ledger-section-intro" id="calibIntro">Scored open calls only (pending and migration excluded). Median relative delta per stance and the share of non-neutral calls beating SMH.</p>
+            <div class="calibration-grid" id="calibrationGrid"></div>
+            <p class="calibration-note" id="calibrationNote"></p>
+            <div class="ledger-links hero-links">
+                <a class="hero-link" href="/invest/research/monitoring-dashboard.html" id="linkMonitoring">Book-Level Monitoring Dashboard <span class="hero-link-arrow" aria-hidden="true">→</span></a>
+                <a class="hero-link" href="/invest/research/" id="linkResearch">All reports <span class="hero-link-arrow" aria-hidden="true">→</span></a>
+            </div>
+            <p class="ledger-fact-note" id="disclaimer">This page is for research and information only. It is not investment advice. Please do your own due diligence.</p>
+        </section>
+    </main>
+
+    <script src="/shared/theme-switcher.js"></script>
+    <script src="/shared/report-utils.js"></script>
+    <script src="/shared/lang-switch.js"></script>
+    <script>
+        const REPORTS_DATA_URL = "/invest/research/data/reports.json";
+        const VERDICTS_DATA_URL = "/invest/research/data/verdicts.json";
+
+        const STANCE_ORDER = ["bullish", "constructive", "neutral-watch", "cautious", "bearish-avoid"];
+
+        const PAGE_LABELS = {
+            zh: {
+                documentTitle: "判断记录 | Atypical Life Club",
+                pageKicker: "判断记录 · 研究台账",
+                pageTitle: "判断记录",
+                pageSubtitle: "每一个公开立场都相对 SMH 基准、在同一时间窗内打分，让判断留下可复盘的记录。",
+                factNote: "相对 SMH 的超额收益就是分数：即便绝对上涨，跑输基准也算 miss。迁移行（legacy→v5 改标）会展示但不计入校准。不使用红绿灯——方向由正负号表达。",
+                shellSubtitle: "立场记录 vs SMH",
+                navBack: "返回研报中心",
+                navMonitoring: "监控仪表盘",
+                statBenchmark: "基准",
+                statScored: "已计分",
+                statMedian: "相对中位数",
+                statBeat: "跑赢基准",
+                openHeading: "在场判断",
+                openIntro: "在场仓位：每篇报告的当前立场自 stance 日期以来相对 SMH 的表现，可按相对幅度排序。",
+                closedHeading: "已闭合区间",
+                closedIntro: "来自 stanceHistory 的已完成立场窗口。legacy→v5 改标标注为 migration，不计为一次判断。",
+                calibHeading: "校准",
+                calibIntro: "仅统计已计分的在场判断（pending 与 migration 除外）：各立场相对中位数，以及非中性判断跑赢 SMH 的比例。",
+                colReport: "报告",
+                colStance: "立场",
+                colStanceDate: "立场日期",
+                colPriceAtStance: "立场价",
+                colNow: "最新",
+                colChange: "涨跌",
+                colRelative: "相对 SMH",
+                colDays: "持有天数",
+                colFlag: "状态",
+                colWindow: "窗口",
+                colTransition: "立场变化",
+                stateP: "待计分",
+                migrationTag: "迁移",
+                beatSuffix: (n, d) => `${n}/${d}`,
+                calibMedianLabel: "相对中位数",
+                calibCountLabel: (n) => `${n} 项`,
+                calibBeat: (n, d, pct) => `非中性跑赢 SMH：${n}/${d}（${pct}）`,
+                calibNoScored: "暂无已计分判断（回填后需等待窗口拉开）。",
+                emptyOpen: "暂无在场判断。",
+                emptyClosed: "暂无已闭合区间。",
+                linkMonitoring: "全书监控仪表盘",
+                linkResearch: "全部报告",
+                disclaimer: "免责声明：本页仅用于研究与信息交流，不构成投资建议，请自行完成尽职调查。",
+                loadError: "判断记录加载失败，请稍后重试。",
+                stances: { "bullish": "看多", "constructive": "偏多", "neutral-watch": "中性观察", "cautious": "谨慎", "high-risk-watch": "高风险观察", "bearish-avoid": "回避" },
+                convictions: { "high": "高确信", "medium": "中确信", "low": "低确信" }
+            },
+            en: {
+                documentTitle: "Verdict Ledger | Atypical Life Club",
+                pageKicker: "Verdict Ledger · Research Ledger",
+                pageTitle: "Verdict Ledger",
+                pageSubtitle: "Every published stance scored against the SMH benchmark over the same window, so opinions carry a track record.",
+                factNote: "Relative return vs SMH is the score; a call that trails the benchmark is a miss even when it is up. Migration rows (the legacy→v5 re-labelling) are shown but excluded from calibration. No red/green — the sign carries direction.",
+                shellSubtitle: "Stance track record vs SMH",
+                navBack: "Back to Research",
+                navMonitoring: "Monitoring",
+                statBenchmark: "Benchmark",
+                statScored: "Scored",
+                statMedian: "Median relative",
+                statBeat: "Beating benchmark",
+                openHeading: "Open Calls",
+                openIntro: "Live positions: each report's current stance vs SMH since the stance date. Sortable by relative delta.",
+                closedHeading: "Closed Intervals",
+                closedIntro: "Completed stance windows from stanceHistory. Legacy→v5 re-labellings are flagged \"migration\" and do not count as calls.",
+                calibHeading: "Calibration",
+                calibIntro: "Scored open calls only (pending and migration excluded): median relative delta per stance and the share of non-neutral calls beating SMH.",
+                colReport: "Report",
+                colStance: "Stance",
+                colStanceDate: "Stance date",
+                colPriceAtStance: "Price@stance",
+                colNow: "Now",
+                colChange: "Change",
+                colRelative: "vs SMH",
+                colDays: "Days",
+                colFlag: "State",
+                colWindow: "Window",
+                colTransition: "Transition",
+                stateP: "pending",
+                migrationTag: "migration",
+                beatSuffix: (n, d) => `${n}/${d}`,
+                calibMedianLabel: "Median relative",
+                calibCountLabel: (n) => `${n} calls`,
+                calibBeat: (n, d, pct) => `Non-neutral beating SMH: ${n}/${d} (${pct})`,
+                calibNoScored: "No scored calls yet (windows need to open after the backfill).",
+                emptyOpen: "No open calls.",
+                emptyClosed: "No closed intervals.",
+                linkMonitoring: "Book-Level Monitoring Dashboard",
+                linkResearch: "All reports",
+                disclaimer: "This page is for research and information only. It is not investment advice. Please do your own due diligence.",
+                loadError: "Failed to load the verdict ledger. Please try again later.",
+                stances: { "bullish": "Bullish", "constructive": "Constructive", "neutral-watch": "Neutral", "cautious": "Cautious", "high-risk-watch": "High-Risk Watch", "bearish-avoid": "Avoid" },
+                convictions: { "high": "High conviction", "medium": "Medium conviction", "low": "Low conviction" }
+            }
+        };
+
+        const state = {
+            benchmark: "SMH",
+            reportsById: new Map(),
+            open: [],
+            closed: [],
+            openSortDir: "desc",
+            loadFailed: false
+        };
+
+        let currentLang = chooseInitialLanguage();
+
+        document.addEventListener("DOMContentLoaded", async () => {
+            bindLanguageSwitch();
+            await loadData();
+            renderPage();
+        });
+
+        async function loadData() {
+            try {
+                const [reportsResponse, verdictsResponse] = await Promise.all([
+                    fetch(REPORTS_DATA_URL, { cache: "no-store" }),
+                    fetch(VERDICTS_DATA_URL, { cache: "no-store" })
+                ]);
+                if (!reportsResponse.ok) throw new Error(`reports HTTP ${reportsResponse.status}`);
+                if (!verdictsResponse.ok) throw new Error(`verdicts HTTP ${verdictsResponse.status}`);
+                const reports = await reportsResponse.json();
+                const verdicts = await verdictsResponse.json();
+                state.reportsById = new Map((Array.isArray(reports) ? reports : []).map((r) => [r.id, r]));
+                state.benchmark = verdicts.benchmark || "SMH";
+                state.open = Array.isArray(verdicts.entries) ? verdicts.entries : [];
+                state.closed = Array.isArray(verdicts.closed) ? verdicts.closed : [];
+                state.loadFailed = false;
+            } catch (error) {
+                console.error("Failed to load verdict ledger:", error);
+                state.loadFailed = true;
+            }
+        }
+
+        function renderPage() {
+            const labels = getLabels();
+            document.documentElement.lang = currentLang === "en" ? "en" : "zh";
+            document.title = labels.documentTitle;
+            renderLanguageSwitchUI(currentLang);
+            setText("pageKicker", labels.pageKicker);
+            setText("pageTitle", labels.pageTitle);
+            setText("pageSubtitle", labels.pageSubtitle);
+            setText("factNote", labels.factNote);
+            setText("shellSubtitle", labels.shellSubtitle);
+            setText("navBack", labels.navBack);
+            setText("navMonitoring", labels.navMonitoring);
+            setText("openHeading", labels.openHeading);
+            setText("openIntro", labels.openIntro);
+            setText("closedHeading", labels.closedHeading);
+            setText("closedIntro", labels.closedIntro);
+            setText("calibHeading", labels.calibHeading);
+            setText("calibIntro", labels.calibIntro);
+            setText("linkMonitoring", `${labels.linkMonitoring} `);
+            setText("linkResearch", `${labels.linkResearch} `);
+            setText("disclaimer", labels.disclaimer);
+
+            renderStats();
+            renderOpenTable();
+            renderClosedTable();
+            renderCalibration();
+        }
+
+        function scoredOpen() {
+            return state.open.filter((e) => typeof e.relativePct === "number");
+        }
+
+        function renderStats() {
+            const labels = getLabels();
+            const root = document.getElementById("ledgerStats");
+            const scored = scoredOpen();
+            const nonNeutral = scored.filter((e) => e.stance !== "neutral-watch");
+            const beats = nonNeutral.filter((e) => e.relativePct > 0).length;
+            const medianRel = scored.length ? median(scored.map((e) => e.relativePct)) : null;
+            const beatPct = nonNeutral.length ? `${Math.round((beats / nonNeutral.length) * 100)}%` : "—";
+            const cards = [
+                [state.benchmark, labels.statBenchmark],
+                [String(scored.length), labels.statScored],
+                [medianRel === null ? "—" : signedPct(medianRel), labels.statMedian],
+                [beatPct, labels.statBeat]
+            ];
+            root.innerHTML = cards.map(([value, label]) => `
+                <div class="research-stat-card">
+                    <div class="research-stat-value">${escapeHtml(value)}</div>
+                    <div class="research-stat-label">${escapeHtml(label)}</div>
+                </div>`).join("");
+        }
+
+        function renderOpenTable() {
+            const labels = getLabels();
+            const table = document.getElementById("openTable");
+            const head = table.querySelector("thead");
+            const body = table.querySelector("tbody");
+            head.innerHTML = `
+                <tr>
+                    <th>${escapeHtml(labels.colReport)}</th>
+                    <th>${escapeHtml(labels.colStance)}</th>
+                    <th>${escapeHtml(labels.colStanceDate)}</th>
+                    <th class="num">${escapeHtml(labels.colPriceAtStance)}</th>
+                    <th class="num">${escapeHtml(labels.colNow)}</th>
+                    <th class="num">${escapeHtml(labels.colChange)}</th>
+                    <th class="num sortable" id="sortRelative" role="columnheader" aria-sort="${state.openSortDir === "desc" ? "descending" : "ascending"}">${escapeHtml(labels.colRelative)}</th>
+                    <th class="num">${escapeHtml(labels.colDays)}</th>
+                    <th>${escapeHtml(labels.colFlag)}</th>
+                </tr>`;
+
+            const rows = state.open.slice().sort(openSorter);
+            if (!rows.length) {
+                body.innerHTML = `<tr><td colspan="9" class="muted-cell">${escapeHtml(labels.emptyOpen)}</td></tr>`;
+                return;
+            }
+            body.innerHTML = rows.map((entry) => {
+                const report = state.reportsById.get(entry.reportId);
+                const scored = typeof entry.relativePct === "number";
+                return `
+                    <tr>
+                        <td class="ledger-name">${reportNameCell(report, entry.reportId)}</td>
+                        <td>${stanceChip(entry.stance, entry.conviction)}</td>
+                        <td>${escapeHtml(entry.stanceDate || "—")}</td>
+                        <td class="num">${scored ? formatPrice(entry.priceAtStance) : "—"}</td>
+                        <td class="num">${scored ? formatPrice(entry.lastClose) : "—"}</td>
+                        <td class="num">${scored ? deltaCell(entry.changePct) : "<span class=\"muted-cell\">—</span>"}</td>
+                        <td class="num">${scored ? deltaCell(entry.relativePct) : "<span class=\"muted-cell\">—</span>"}</td>
+                        <td class="num">${Number.isFinite(entry.daysHeld) ? entry.daysHeld : "—"}</td>
+                        <td>${entry.status === "pending" || !scored ? `<span class="flag-tag">${escapeHtml(labels.stateP)}</span>` : (entry.stale ? `<span class="flag-tag">stale</span>` : "")}</td>
+                    </tr>`;
+            }).join("");
+
+            const sortHeader = document.getElementById("sortRelative");
+            if (sortHeader) {
+                sortHeader.addEventListener("click", () => {
+                    state.openSortDir = state.openSortDir === "desc" ? "asc" : "desc";
+                    renderOpenTable();
+                });
+            }
+        }
+
+        function openSorter(a, b) {
+            // Pending rows (no relative delta) always sink to the bottom.
+            const av = typeof a.relativePct === "number" ? a.relativePct : null;
+            const bv = typeof b.relativePct === "number" ? b.relativePct : null;
+            if (av === null && bv === null) return 0;
+            if (av === null) return 1;
+            if (bv === null) return -1;
+            return state.openSortDir === "desc" ? bv - av : av - bv;
+        }
+
+        function renderClosedTable() {
+            const labels = getLabels();
+            const table = document.getElementById("closedTable");
+            const head = table.querySelector("thead");
+            const body = table.querySelector("tbody");
+            head.innerHTML = `
+                <tr>
+                    <th>${escapeHtml(labels.colReport)}</th>
+                    <th>${escapeHtml(labels.colTransition)}</th>
+                    <th>${escapeHtml(labels.colWindow)}</th>
+                    <th class="num">${escapeHtml(labels.colDays)}</th>
+                    <th class="num">${escapeHtml(labels.colChange)}</th>
+                    <th class="num">${escapeHtml(labels.colRelative)}</th>
+                    <th>${escapeHtml(labels.colFlag)}</th>
+                </tr>`;
+            if (!state.closed.length) {
+                body.innerHTML = `<tr><td colspan="7" class="muted-cell">${escapeHtml(labels.emptyClosed)}</td></tr>`;
+                return;
+            }
+            const rows = state.closed.slice().sort((a, b) => (a.startDate < b.startDate ? 1 : -1));
+            body.innerHTML = rows.map((row) => {
+                const report = state.reportsById.get(row.reportId);
+                return `
+                    <tr>
+                        <td class="ledger-name">${reportNameCell(report, row.reportId)}</td>
+                        <td>${escapeHtml(stanceName(row.fromStance))} → ${escapeHtml(stanceName(row.toStance))}</td>
+                        <td class="muted-cell">${escapeHtml(row.startDate)} → ${escapeHtml(row.endDate)}</td>
+                        <td class="num">${Number.isFinite(row.daysHeld) ? row.daysHeld : "—"}</td>
+                        <td class="num">${deltaCell(row.changePct)}</td>
+                        <td class="num">${deltaCell(row.relativePct)}</td>
+                        <td>${row.migration ? `<span class="flag-tag">${escapeHtml(labels.migrationTag)}</span>` : ""}</td>
+                    </tr>`;
+            }).join("");
+        }
+
+        function renderCalibration() {
+            const labels = getLabels();
+            const grid = document.getElementById("calibrationGrid");
+            const note = document.getElementById("calibrationNote");
+            const scored = scoredOpen();
+            if (!scored.length) {
+                grid.innerHTML = "";
+                note.textContent = labels.calibNoScored;
+                return;
+            }
+            const byStance = new Map();
+            scored.forEach((e) => {
+                if (!byStance.has(e.stance)) byStance.set(e.stance, []);
+                byStance.get(e.stance).push(e.relativePct);
+            });
+            const ordered = STANCE_ORDER.filter((s) => byStance.has(s));
+            grid.innerHTML = ordered.map((stance) => {
+                const vals = byStance.get(stance);
+                return `
+                    <div class="calib-card">
+                        <div class="calib-stance">${escapeHtml(stanceName(stance))}</div>
+                        <div class="calib-median">${signedPct(median(vals))}</div>
+                        <div class="calib-sub">${escapeHtml(labels.calibCountLabel(vals.length))}</div>
+                    </div>`;
+            }).join("");
+
+            const nonNeutral = scored.filter((e) => e.stance !== "neutral-watch");
+            const beats = nonNeutral.filter((e) => e.relativePct > 0).length;
+            const pct = nonNeutral.length ? `${Math.round((beats / nonNeutral.length) * 100)}%` : "—";
+            note.textContent = labels.calibBeat(beats, nonNeutral.length, pct);
+        }
+
+        // ─── helpers ───
+        function reportNameCell(report, reportId) {
+            const name = report ? reportCompanyName(report) : reportId;
+            const href = report ? `/invest/research/reports/view.html?id=${encodeURIComponent(reportId)}` : "#";
+            const ticker = report && report.ticker ? report.ticker : "";
+            return `<a href="${escapeHtml(href)}">${escapeHtml(name)}</a>${ticker ? `<span class="ledger-ticker">${escapeHtml(ticker)}</span>` : ""}`;
+        }
+
+        function stanceChip(stance, conviction) {
+            const labels = getLabels();
+            const stanceText = stanceName(stance);
+            const convText = conviction ? labels.convictions[conviction] || conviction : "";
+            return `<span class="stance-chip">${escapeHtml(stanceText)}${convText ? ` · <span class="conv">${escapeHtml(convText)}</span>` : ""}</span>`;
+        }
+
+        function stanceName(stance) {
+            const labels = getLabels();
+            return labels.stances[stance] || stance || "—";
+        }
+
+        function deltaCell(value) {
+            if (typeof value !== "number") return `<span class="muted-cell">—</span>`;
+            const caret = value > 0 ? "▲" : value < 0 ? "▼" : "·";
+            return `<span class="delta">${signedPct(value)}<span class="caret" aria-hidden="true">${caret}</span></span>`;
+        }
+
+        function signedPct(value) {
+            const sign = value > 0 ? "+" : "";
+            return `${sign}${value.toFixed(1)}%`;
+        }
+
+        function formatPrice(value) {
+            if (typeof value !== "number") return "—";
+            if (value >= 1000) return value.toLocaleString("en-US", { maximumFractionDigits: 0 });
+            return value.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        }
+
+        function median(values) {
+            const sorted = values.slice().sort((a, b) => a - b);
+            const mid = Math.floor(sorted.length / 2);
+            const raw = sorted.length % 2 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2;
+            return Math.round(raw * 10) / 10;
+        }
+
+        function reportCompanyName(report) {
+            const company = report.company || report.id || "";
+            if (currentLang !== "en" || !containsCjk(company)) return company;
+            const derived = String(report.titleEn || "").split(" Deep Research Report")[0].trim();
+            return derived || report.ticker || report.id || company;
+        }
+
+        function containsCjk(value) {
+            return /[㐀-鿿]/u.test(String(value || ""));
+        }
+
+        function getLabels() {
+            return PAGE_LABELS[currentLang] || PAGE_LABELS.en;
+        }
+
+        function setText(id, value) {
+            const el = document.getElementById(id);
+            if (el && value != null) el.textContent = value;
+        }
+
+        function bindLanguageSwitch() {
+            document.querySelectorAll("#languageSwitch .lang-opt").forEach((btn) => {
+                btn.addEventListener("click", () => {
+                    const next = btn.dataset.lang === "en" ? "en" : "zh";
+                    if (next === currentLang) return;
+                    currentLang = next;
+                    saveLanguage(next);
+                    renderPage();
+                });
+            });
+        }
+    </script>
+</body>
+</html>
