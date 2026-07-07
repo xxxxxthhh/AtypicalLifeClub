@@ -48,11 +48,25 @@
       <description>AI 基础设施 eda-ip 层的 backlog / execution 仪表盘：CDNS 验证 AI demand 是否出现在 design automation、IP、simulation、backlog、RPO 和 agentic design workflows。Q1 2026 revenue $1.474B、non-GAAP operating margin 44.7%、non-GAAP EPS $1.96；季度末 backlog $8.0B，未来 12 个月预计从 RPO 确认收入 $4.0B。FY2026 指引 revenue $6.125-6.225B、non-GAAP EPS $7.85-7.95。当前 $373.14、市值约 $102.9B、EV 约 $104.5B，约 16.9x EV/FY2026E sales、约 47.2x non-GAAP P/E。谨慎 / 中确信：质量高，但这个 multiple 已经要求 backlog、IP、agentic design-flow adoption 与 Hexagon/Physical AI 整合同时干净兑现。</description>
     </item>
     <item>
+      <title>Equinix 深度研究报告 - AI 数据中心设施层的互联溢价仪表盘 / Equinix Deep Research Report - The Interconnection-Premium Dashboard for AI Data-Center Facilities</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=eqix-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=eqix-2026#eqix-2026@2026-07-07</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施 datacenter-facility 层的 DLR 对照组：EQIX 用 Platform Equinix interconnection、retail colocation、xScale JV 和 AFFO/share 来验证 AI 需求是否不只是 hyperscale shell leasing。2026Q1 收入 $2.444B（reported YoY +10%）、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；MRR 同比 +12% reported / +10% normalized constant currency，annualized gross bookings $378M，annualized presales 约 $140M，largest deals 约 60% AI-related。2025 年报披露 280 个数据中心、10,500+ 客户、507,000+ interconnections，Q1 2026 interconnection revenue $446M。当前 $1,002.02（2026-07-02）、市值约 $98.8B、EV 约 $120.8B，约 23.5x 2026 AFFO/share 指引中点、约 11.9x 2026 revenue 指引。中性观察 / 中确信：质量高但估值高，关键监控是 interconnection revenue、AI bookings/presales、xScale economics、MRR/cabinet yield 与 power availability。</description>
+    </item>
+    <item>
       <title>Arista Networks 深度研究报告 - AI 集群开放以太网 fabric 的系统软件卖铲人 / Arista Networks Deep Research Report - The Open Ethernet Fabric of AI Clusters</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=arista-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=arista-2026#arista-2026@2026-07-07</guid>
       <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
       <description>AI 集群网络层首次覆盖：Arista 是开放以太网/AI spine/scale-out 网络的系统软件卖铲人，正面回答 NVIDIA Spectrum-X/InfiniBand/NVLink 一体化 vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet 生态的路线之争。Q1 2026 营收 $2.709B(+35.1%)、GAAP/非GAAP营业利润率 42.7%/47.8%、非GAAP EPS $0.87、经营现金流 $1.69B；Q2 指引营收约 $2.8B。FY2025 Cloud and AI Titans/AI Specialty Providers 占收入 48%/20%，Core AI/Cloud/Data Center Networking 占 65%。但两大匿名终端客户合计约 42% 收入(26%/16%)、高度依赖 Broadcom merchant silicon，且 Jun 29 2026 市值约 $206.6B、约 56x TTM GAAP P/E、约 47x 当前非GAAP EPS运行率。neutral-watch / 中等确信：高质量，但大多已定价。</description>
+    </item>
+    <item>
+      <title>Vertiv 深度研究报告 - AI 数据中心电力与散热的卖铲人（建设速度仪表盘） / Vertiv Deep Research Report - The Power &amp; Cooling Pick-and-Shovel of AI Data Centers (Buildout Dashboard)</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=vertiv-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=vertiv-2026#vertiv-2026@2026-07-07</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+      <description>数据中心电力与热管理（含液冷）卖铲人，位于『电从哪来』(GEV/Bloom)与『芯片』(NVDA/AVGO)之间，是 AI 建设速度最实时的『仪表盘』。Q1 2026 营收$26.5亿(+30%，有机+23%、美洲有机+44%)、调整后营业利润率20.8%(+430bps)、调整后EPS $1.17(+83%)、调整后FCF $6.53亿(+147%)；最新披露的 Q4 2025 backlog $150亿(+109%)、book-to-bill ~2.9x。FY2026指引上调至营收$135-140亿、调整后EPS $6.30-6.40。但股价一年约3倍至$306.97、市值~$1,179亿、~48倍前瞻调整后EPS(~80倍滚动)，已定价多年持续建设；高beta订单簿是双刃剑。谨慎 / 中确信：高质量业务，但价格隐含几乎完美的建设节奏。</description>
     </item>
     <item>
       <title>康宁 深度研究报告 - AI 基础设施的光连接卖铲人 / Corning Deep Research Report - The Optical-Connectivity Pick-and-Shovel of AI Infrastructure</title>
@@ -139,6 +153,13 @@
       <description>AI 基础设施 optical 层核心光模块/光器件覆盖。Coherent 不是解释 GPU 单价，而是验证 AI 集群网络扩容是否真正穿透到高速光连接、激光器、InP/SiPh 与 CPO/NPO 路线。Q3 FY2026 收入 $1.81B（+21% YoY，pro forma +27%）、非 GAAP 毛利率 39.6%、非 GAAP EPS $1.41；Datacenter &amp; Communications 收入约 $1.362B，占 pro forma 收入约 75%，同比约 +41%。NVIDIA 2026-03 宣布向 Coherent 投资 $2B，并包含多年、数十亿美元采购承诺和未来产能访问权；公司材料给出 1.6T/3.2T/6.4T ZR/ZR+、CPO/NPO、光电路交换与多轨热管理路线。当前 $333.36（2026-07-02 收盘）、市值约 $65.2B、EV 约 $66.8B，估值已经反映 AI optics supercycle。cautious / 低确信：需求证据真实，但现金流和倍数容错率偏紧。</description>
     </item>
     <item>
+      <title>Digital Realty 深度研究报告 - AI 数据中心租赁与互联需求仪表盘 / Digital Realty Deep Research Report - Leasing and Interconnection Dashboard for AI Data Centers</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=digital-realty-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=digital-realty-2026#digital-realty-2026@2026-07-07</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施 datacenter-facility 层的租赁/互联需求校验。DLR 不直接解释 GPU、光模块或电力设备，而是验证 AI 数据中心需求是否转化为真实租约、backlog、互联节点和开发容量。Q1 2026 收入 $1.64B（约 +16% YoY）、Core FFO/share $2.04、AFFO/share $1.92；公司签下 $707M 年化 GAAP base rent 的 bookings（100% share），DLR share 为 $423M，其中 0-1MW + interconnection 贡献 $98M、同比 +42%；季度末 signed-but-not-commenced backlog 为 $1.8B（100% share）/ $1.0B（DLR share），加权平均开租滞后 19 个月。当前 $173.30（2026-07-02 收盘）、市值约 $62.0B、EV 约 $77.6B，估值约 21x 2026 Core FFO 指引、约 12.2x EV/TTM revenue。偏多 / 中确信：backlog 开租与 powered development 给出小幅正偏斜，但杠杆、利率和电力约束仍需监控。</description>
+    </item>
+    <item>
       <title>SMH 深度研究报告 - AI 半导体链条的基准篮子 / SMH Deep Research Report - Benchmark Sleeve For The AI Semiconductor Chain</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=smh-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=smh-2026#smh-2026@2026-07-06</guid>
@@ -153,13 +174,6 @@
       <description>AI 基础设施 power 层的 merchant + retail dashboard：NRG 不是核电 PPA 纯标的，而是用 LS Power 后约 25GW 发电平台、CPower 约 6GW C&amp;I VPP、Texas/PJM capacity 与 Reliant/Vivint 零售/家庭服务来验证数据中心电力需求是否扩散到普通 merchant capacity。2026Q1 收入 $10.26B、GAAP 净利润 $125M、调整后 EBITDA $1.08B、FCFbG -$66M；2026 指引调整后 EBITDA $5.325-5.825B、调整后 EPS $7.90-9.90、FCFbG $2.8-3.3B。LS Power 交易约 $12.0B enterprise value、18 座燃气电厂、约 13GW、CPower 约 6GW 和 2,000+ C&amp;I 客户，已经反映在 2026 业绩口径中。当前 $136.70（2026-07-02 收盘）、市值约 $28.8B、EV 约 $52.7B，约 15.4x 2026 调整后 EPS 指引中点、约 9.4x 2026 调整后 EBITDA 指引中点。高风险观察：NRG 披露的是数据中心/large-load optionality，尚不是具名 hyperscaler PPA，核心监控是合同转化、ERCOT/PJM 容量价格、零售/Vivint margin 与去杠杆。</description>
     </item>
     <item>
-      <title>Equinix 深度研究报告 - AI 数据中心设施层的互联溢价仪表盘 / Equinix Deep Research Report - The Interconnection-Premium Dashboard for AI Data-Center Facilities</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=eqix-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=eqix-2026#eqix-2026@2026-07-06</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施 datacenter-facility 层的 DLR 对照组：EQIX 用 Platform Equinix interconnection、retail colocation、xScale JV 和 AFFO/share 来验证 AI 需求是否不只是 hyperscale shell leasing。2026Q1 收入 $2.444B（reported YoY +10%）、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；MRR 同比 +12% reported / +10% normalized constant currency，annualized gross bookings $378M，annualized presales 约 $140M，largest deals 约 60% AI-related。2025 年报披露 280 个数据中心、10,500+ 客户、507,000+ interconnections，Q1 2026 interconnection revenue $446M。当前 $1,002.02（2026-07-02）、市值约 $98.8B、EV 约 $120.8B，约 23.5x 2026 AFFO/share 指引中点、约 11.9x 2026 revenue 指引。中性观察：质量高但估值高，关键监控是 interconnection revenue、AI bookings/presales、xScale economics、MRR/cabinet yield 与 power availability。</description>
-    </item>
-    <item>
       <title>Constellation Energy 深度研究报告 - AI 电力约束的核电与 Calpine 综合电力锚 / Constellation Energy Deep Research Report - Nuclear and Calpine Integrated Power Anchor for AI</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=constellation-energy-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=constellation-energy-2026#constellation-energy-2026@2026-07-06</guid>
@@ -172,13 +186,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=vistra-2026#vistra-2026@2026-07-06</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
       <description>AI 基础设施 power 层的高 beta 仪表盘，与 Constellation Energy 成对覆盖。Vistra 同时拥有核电、燃气和零售/merchant power 暴露，用来验证 AI 数据中心需求是否从『清洁 baseload PPA』扩散到『可调度燃气容量、PJM/Texas 容量价值和现有发电资产重定价』。2026Q1 收入 $5.64B、净利润 $1.03B、营业利润 $1.50B、FCF $316M；Meta 20 年核电协议覆盖 Perry、Davis-Besse 与 Beaver Valley uprates，公开报道约 2.2GW；Cogentrix 交易主口径约 $4B net purchase price，公开 seller-side 报道也有约 $4.7B total consideration 口径，将增加约 5,500MW 燃气容量，预计 2026 年中后期完成。当前 $151.05（2026-07-02 收盘）、市值约 $50.9B、EV 约 $70.2B、约 3.6x EV/TTM sales；估值低于 CEG，但杠杆、气价、监管和容量市场波动更高。高风险观察 / power dashboard。</description>
-    </item>
-    <item>
-      <title>Digital Realty 深度研究报告 - AI 数据中心租赁与互联需求仪表盘 / Digital Realty Deep Research Report - Leasing and Interconnection Dashboard for AI Data Centers</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=digital-realty-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=digital-realty-2026#digital-realty-2026@2026-07-06</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施 datacenter-facility 层的租赁/互联需求校验。DLR 不直接解释 GPU、光模块或电力设备，而是验证 AI 数据中心需求是否转化为真实租约、backlog、互联节点和开发容量。Q1 2026 收入 $1.64B（约 +16% YoY）、Core FFO/share $2.04、AFFO/share $1.92；公司签下 $707M 年化 GAAP base rent 的 bookings（100% share），DLR share 为 $423M，其中 0-1MW + interconnection 贡献 $98M、同比 +42%；季度末 signed-but-not-commenced backlog 为 $1.8B（100% share）/ $1.0B（DLR share），加权平均开租滞后 19 个月。当前 $173.30（2026-07-02 收盘）、市值约 $62.0B、EV 约 $77.6B，估值约 21x 2026 Core FFO 指引、约 12.2x EV/TTM revenue。中性观察 / datacenter-facility dashboard。</description>
     </item>
     <item>
       <title>Oracle 深度研究报告 - AI 云 RPO 仪表盘与资本开支融资压力 / Oracle Deep Research Report - AI Cloud RPO Dashboard and Capex Financing Pressure</title>
@@ -207,13 +214,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=coreweave-2026#coreweave-2026@2026-06-30</guid>
       <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
       <description>本中心 AI 基础设施书的『风险锚』，刻意以熊市为主轴写。GPU『neocloud』，一边是 $994 亿公司定义收入 backlog（RPO + 其他承诺客户合同金额）与 56% 调整后 EBITDA，一边是扩大的 GAAP 净亏损（Q1 2026 −$7.4 亿）、约 $249 亿债务、约 $100 亿经营租赁负债、$310-350 亿 2026 资本开支（约 3 倍营收）。客户集中（微软历史上收入占比 &gt;60%；CNBC 引 2024 年为 62%），NVIDIA 同时是供应商+股东（$20 亿@$87）+$63 亿产能兜底（循环性）。Q1 2026 营收 $20.78 亿(+112%)，FY2026 指引营收 $120-130 亿。股价已较 2025 峰值回落约 47% 至约 $96、市值约 $520 亿、经营租赁前金融净债务约 $229 亿、含经营租赁净义务栈约 $329 亿。中心问题：是真实经济需求还是被杠杆催起的提前囤货？高风险/偏熊（回避-观察）。</description>
-    </item>
-    <item>
-      <title>Vertiv 深度研究报告 - AI 数据中心电力与散热的卖铲人（建设速度仪表盘） / Vertiv Deep Research Report - The Power &amp; Cooling Pick-and-Shovel of AI Data Centers (Buildout Dashboard)</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=vertiv-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=vertiv-2026#vertiv-2026@2026-06-30</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
-      <description>数据中心电力与热管理（含液冷）卖铲人，位于『电从哪来』(GEV/Bloom)与『芯片』(NVDA/AVGO)之间，是 AI 建设速度最实时的『仪表盘』。Q1 2026 营收$26.5亿(+30%，有机+23%、美洲有机+44%)、调整后营业利润率20.8%(+430bps)、调整后EPS $1.17(+83%)、调整后FCF $6.53亿(+147%)；最新披露的 Q4 2025 backlog $150亿(+109%)、book-to-bill ~2.9x。FY2026指引上调至营收$135-140亿、调整后EPS $6.30-6.40。但股价一年约3倍至$306.97、市值~$1,179亿、~48倍前瞻调整后EPS(~80倍滚动)，已定价多年持续建设；高beta订单簿是双刃剑。中性/高质量但高预期(观察)。</description>
     </item>
     <item>
       <title>GE Vernova 深度研究报告 - AI 电力侧的卖铲人与燃气轮机超级周期 / GE Vernova Deep Research Report - The Pick-and-Shovel of AI's Power Side and the Gas-Turbine Super-Cycle</title>

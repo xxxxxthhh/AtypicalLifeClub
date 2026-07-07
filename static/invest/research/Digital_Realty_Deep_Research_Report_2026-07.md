@@ -1,7 +1,7 @@
 # Digital Realty Deep Research Report - Leasing and Interconnection Dashboard for AI Data Centers
 
 Coverage date: 2026-07-04
-Last updated: 2026-07-06
+Last updated: 2026-07-07
 Ticker: NYSE: DLR
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -11,9 +11,9 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 > **Framework role:** Digital Realty is the dashboard for the AI-infrastructure data-center facility layer. The report's job is to test the chain signal, not to turn one company print into a recommendation.
 
-**One-line thesis:** Leasing and interconnection demand check for the AI-infrastructure data-center facility layer. DLR does not directly explain GPUs, optical modules or power equipment; it tests whether AI data-center demand converts into real leases, backlog, interconnection nodes and development capacity. Q1 2026 revenue was $1.64B (about +16% YoY), Core FFO/share was $2.04 and AFFO/share was $1.92. The company signed $707M of annualized GAAP base-rent bookings at 100% share, or $423M at DLR share, including $98M from the 0-1MW plus interconnection category (+42% YoY). Signed-but-not-commenced backlog was $1.8B at 100% share and $1.0B at DLR share, with a 19-month weighted-average commencement lag. At $173.30 (2026-07-02 close), about $62.0B market cap and about $77.6B EV, DLR trades around 21x 2026 Core FFO guidance and about 12.2x EV/TTM revenue. Neutral watch / data-center facility dashboard.
+**One-line thesis:** Leasing and interconnection demand check for the AI-infrastructure data-center facility layer. DLR does not directly explain GPUs, optical modules or power equipment; it tests whether AI data-center demand converts into real leases, backlog, interconnection nodes and development capacity. Q1 2026 revenue was $1.64B (about +16% YoY), Core FFO/share was $2.04 and AFFO/share was $1.92. The company signed $707M of annualized GAAP base-rent bookings at 100% share, or $423M at DLR share, including $98M from the 0-1MW plus interconnection category (+42% YoY). Signed-but-not-commenced backlog was $1.8B at 100% share and $1.0B at DLR share, with a 19-month weighted-average commencement lag. At $173.30 (2026-07-02 close), about $62.0B market cap and about $77.6B EV, DLR trades around 21x 2026 Core FFO guidance and about 12.2x EV/TTM revenue. Constructive / medium conviction: backlog commencement and powered development create modest positive skew, while leverage, rates and power constraints still need monitoring.
 
-**Current view:** **neutral watch.** The upgrade does not change the stance; it expands the original fact base into the full house template so the report can be compared against the rest of the current-chain book.
+**Current view:** **constructive / medium conviction.** The v5 scenario grid upgrades DLR from the old neutral watch: today's price demands a lot, but Q1 bookings, backlog commencement, 0-1MW/interconnection and >6GW future development put the base/bull blend modestly above market-implied requirements.
 
 | Metric | Current readout |
 | --- | --- |
@@ -22,7 +22,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Latest reported period | 2026Q1 |
 | Price snapshot | $173.30 as of 2026-07-02 |
 | Coverage tier after this upgrade | full |
-| Stance | neutral watch |
+| Stance | constructive / medium conviction |
 | Primary valuation use | scenario context and risk tolerance, not a target price |
 
 ## 1. Business And Chain Role
@@ -72,7 +72,7 @@ This module checks source caliber and management execution rather than adding a 
 | --- | --- | --- |
 | Company-disclosed actuals | Reported period and financial figures are preserved from the original report | Avoids inventing a new quarter |
 | Market-data values | Price snapshot kept at $173.30 and dated 2026-07-02 | Prevents stale valuation math |
-| Scenario levels | Derived mechanically from current price for risk framing | Not a recommendation or target price |
+| Scenario assumptions | Uses backlog commencement, 0-1MW/interconnection, powered shell, power/permitting, leverage and Core FFO multiple regimes to frame expectations | Not a recommendation or target price |
 | Source quality | Primary company releases, filings, or issuer pages remain in the appendix | Keeps the audit trail visible |
 
 Management gets credit when reported execution lines up with the chain role, and loses credit when guidance, bookings, or capital allocation rely on assumptions the report cannot verify yet.
@@ -86,7 +86,7 @@ The bull case is the strongest version of why the report's chain signal could st
 | Demand pull-through | Data-center-facility leasing-check fill-in: DLR connects upstream chip/neocloud/buildout narratives to real leases, backlog, cross-connects and development capacity | Next reported period confirms the same direction |
 | Financial conversion | Q1 2026 revenue $1.64B, Core FFO/share $2.04, AFFO/share $1.92; 2026 Core FFO/share guidance raised to $8.00-$8.10 | Revenue converts into margin, cash flow, or backlog |
 | Cross-check support | EQIX, VRT, ORCL | Adjacent reports move in the same direction |
-| Valuation resilience | Base price context $173.30; bull context $216.62 | The multiple holds because fundamentals continue to validate |
+| Valuation resilience | Backlog commencement, 0-1MW/interconnection and powered development let Core FFO/share growth meet or exceed the implied requirement | The multiple holds because fundamentals continue to validate |
 
 The constructive scenario is not simply that the stock rises. It is that the same data that supports this company also tightens the whole chain read-through.
 
@@ -99,7 +99,7 @@ The bear case is the strongest version of why the report's chain signal could be
 | Expectation risk | Current price context $173.30 | Good company performance no longer beats embedded expectations |
 | Chain divergence | Adjacent reports fail to confirm the same signal | The bottleneck sits elsewhere or demand was pulled forward |
 | Execution risk | Guidance, backlog, or capacity conversion slows | Reported evidence stops supporting the role |
-| Valuation compression | Bear context $121.31; base context $173.30 | Multiple contracts before the long-term story changes |
+| Valuation compression | Lease-up lag, rates/debt cost or power/permitting delays pull Core FFO/share growth below the implied requirement | Multiple contracts before the long-term story changes |
 
 The bearish read should not ignore quality. It asks whether quality is already capitalized and whether the report is overclaiming what the current evidence can prove.
 
@@ -121,16 +121,19 @@ Thesis breakers:
 
 ## 8. Valuation Context
 
-Valuation is used as risk context, not as a recommendation. The table below creates explicit price levels from the current price anchor so the bull/bear discussion has numbers.
+Valuation is used as risk context, not as a recommendation. The table below frames scenarios through backlog commencement, powered shell, 0-1MW/interconnection, development power/permitting, leverage, and Core FFO multiple regimes, not through a point target price.
 
-| Scenario | Price-level context | Interpretation |
-| --- | --- | --- |
-| Bear | $121.31 (-30% from the report price anchor) | A cycle, execution, or multiple reset overwhelms the thesis |
-| Base | $173.30 (current price anchor) | The market is already capitalizing the current evidence |
-| Bull | $216.62 (+25% from the report price anchor) | Execution confirms the chain role and valuation tolerance expands |
-| No target-price warning | These are scenario markers, not price targets | Use only for monitoring risk/reward asymmetry |
+**Scenario grid:**
 
-The key valuation question is whether the next evidence set increases the denominator faster than the market increases the multiple.
+| Scenario | Driver assumptions (lease-up / powered shell / leverage-rates / multiple) | Valuation implication (rich / fair / cheap vs today) | Probability weight |
+| --- | --- | --- | --- |
+| Bull | Q1 $707M bookings and the $1.8B signed-but-not-commenced backlog commence along the 2026/2027/2028+ ladder; 0-1MW plus interconnection keeps growing, proving demand is not only from one large tenant; >6GW future development secures power, permits, and construction capital; Core FFO/share CAGR reaches the mid-teens; P/Core FFO holds a high-teens to low-20s premium | Current price can be digested by FFO growth and looks fair-to-slightly cheap if backlog and powered development both execute | 30% |
+| Base | Backlog commences gradually with about a 19-month lag; AI/cloud bookings remain elevated but stop accelerating; 0-1MW/interconnection remains a validation signal; power/permitting and capital cost add friction; Core FFO/share CAGR is low-to-mid teens; P/Core FFO normalizes toward about 18x | Current price prices the optimistic side of base, but DLR's lease-up evidence can meet or modestly exceed the implied requirement | 50% |
+| Bear | Commencement lag stretches, renewal/pricing spreads weaken; powered shell is delayed by grid, equipment or permitting; interest cost or equity financing dilutes AFFO/Core FFO growth; P/Core FFO falls back to the mid-to-high teens | Current price is rich; risk comes from backlog converting slower than the market requires and REIT multiples compressing with rates | 20% |
+
+**What's priced in & the expectation gap:** At the $173.30 close on Jul 2, 2026 and about 21x 2026 Core FFO guidance, if P/Core FFO normalizes toward about 18x over three years with an 8% required return, the reverse-multiple frame implies about `(21 / 18)^(1/3) x 1.08 - 1`, or roughly **14% Core FFO/share CAGR**. Our base case depends on the $1.8B backlog commencing, 0-1MW/interconnection continuing to grow, and powered development securing power/capital; that can meet or modestly beat the requirement. A 30% bull / 50% base / 20% bear grid gives modest positive skew, but not a high-conviction one-way conclusion.
+
+The key valuation question is whether the next evidence set can grow Core FFO/share and commenced recurring revenue faster than the market's required REIT multiple.
 
 ## 9. Catalysts And Monitoring
 
@@ -153,7 +156,13 @@ These are the items that should drive future reruns. A monitoring update should 
 | ORCL | cloud buildout demand | Confirms, contradicts, or bounds the same chain question |
 | META | end-customer capex anchor | Confirms, contradicts, or bounds the same chain question |
 
-Conclusion: Digital Realty remains a **neutral watch** dashboard for the data-center facility layer. The upgrade moves the report from a thin initial/lite format to the full house template while preserving the original fact base. The next real editorial move should be triggered by the monitoring table, not by a desire to re-rate the company without new evidence.
+Digital Realty is the leasing and interconnection demand dashboard for the data-center facility layer. Its chain-validation job is to test whether AI data-center demand is converting into real leases, signed-but-not-commenced backlog, 0-1MW/interconnection, and powered development, not only upstream chip, neocloud, or buildout narratives.
+
+The expectation gap is modestly positive: at $173.30 and about 21x 2026 Core FFO guidance, the market is underwriting roughly 14% three-year Core FFO/share CAGR; our 30% bull / 50% base / 20% bear grid sees backlog commencement, 0-1MW/interconnection demand, and powered development as capable of meeting or modestly beating that requirement.
+
+The current stance is **constructive, medium conviction**. Constructive comes from the slight positive skew in leasing and backlog evidence, not from ignoring REIT leverage or rate risk. Medium conviction comes from the fact that Q1 bookings, backlog schedule, Core FFO/AFFO metrics, and development-capacity disclosures are auditable, while the 19-month commencement lag and the power/permitting/capital constraints around >6GW future development still limit position-level conviction.
+
+Upgrade trigger: Move to bullish if Q2/Q3 leasing bookings, the $1.8B backlog commencement schedule, 0-1MW/interconnection demand, and >6GW powered development all advance while net debt and interest cost do not dilute Core FFO/share growth. Downgrade trigger: Move to neutral-watch or cautious if backlog commencement lag keeps stretching, renewal/pricing spreads deteriorate, power or permitting delays capacity, or net debt/equity financing pushes Core FFO/share growth below the roughly 14% implied requirement.
 
 ## Appendix: Sources And Assumptions
 
@@ -161,5 +170,5 @@ Conclusion: Digital Realty remains a **neutral watch** dashboard for the data-ce
 | Digital Realty 2026-04-23 8-K Exhibit 99.2 | https://www.sec.gov/Archives/edgar/data/1297996/000110465926047702/dlr-20260423xex99d2.htm | Supplemental capacity, cross-connect and leasing detail |
 | Digital Realty 2026Q1 10-Q | https://www.sec.gov/Archives/edgar/data/1297996/000110465926054255/dlr-20260331x10q.htm | Quarter ended 2026-03-31 filing context |
 
-- This 2026-07-06 depth upgrade preserves the existing vetted fact base and expands structure, tables, peer comparison, scenario levels, and monitoring parity.
-- Scenario price levels are mechanically derived from the report price anchor and are not investment advice, forecasts, or target prices.
+- This 2026-07-06 depth upgrade preserves the existing vetted fact base and expands structure, tables, peer comparison, and monitoring parity.
+- The 2026-07-07 v5 scenario grid and priced-in paragraph use the same 2026-07-02 price-ledger anchor. The reverse P/Core FFO math frames market-implied expectations only; it is not a target price.

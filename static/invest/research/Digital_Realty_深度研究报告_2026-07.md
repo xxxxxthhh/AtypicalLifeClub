@@ -1,7 +1,7 @@
 # Digital Realty 深度研究报告 - AI 数据中心租赁与互联需求仪表盘
 
 标的收录日期：2026-07-04
-最近更新日期：2026-07-06
+最近更新日期：2026-07-07
 代码：NYSE: DLR
 免责声明：本报告仅用于信息与研究交流，不构成任何投资建议，请自行完成尽职调查。
 
@@ -11,9 +11,9 @@
 
 > **框架角色：** Digital Realty 是 AI 基建 数据中心设施 层的仪表盘。本报告的任务是验证链条信号，而不是把单一公司数据直接变成投资建议。
 
-**一句话论点：** AI 基础设施 datacenter-facility 层的租赁/互联需求校验。DLR 不直接解释 GPU、光模块或电力设备，而是验证 AI 数据中心需求是否转化为真实租约、backlog、互联节点和开发容量。Q1 2026 收入 $1.64B（约 +16% YoY）、Core FFO/share $2.04、AFFO/share $1.92；公司签下 $707M 年化 GAAP base rent 的 bookings（100% share），DLR share 为 $423M，其中 0-1MW + interconnection 贡献 $98M、同比 +42%；季度末 signed-but-not-commenced backlog 为 $1.8B（100% share）/ $1.0B（DLR share），加权平均开租滞后 19 个月。当前 $173.30（2026-07-02 收盘）、市值约 $62.0B、EV 约 $77.6B，估值约 21x 2026 Core FFO 指引、约 12.2x EV/TTM revenue。中性观察 / datacenter-facility dashboard。
+**一句话论点：** AI 基础设施 datacenter-facility 层的租赁/互联需求校验。DLR 不直接解释 GPU、光模块或电力设备，而是验证 AI 数据中心需求是否转化为真实租约、backlog、互联节点和开发容量。Q1 2026 收入 $1.64B（约 +16% YoY）、Core FFO/share $2.04、AFFO/share $1.92；公司签下 $707M 年化 GAAP base rent 的 bookings（100% share），DLR share 为 $423M，其中 0-1MW + interconnection 贡献 $98M、同比 +42%；季度末 signed-but-not-commenced backlog 为 $1.8B（100% share）/ $1.0B（DLR share），加权平均开租滞后 19 个月。当前 $173.30（2026-07-02 收盘）、市值约 $62.0B、EV 约 $77.6B，估值约 21x 2026 Core FFO 指引、约 12.2x EV/TTM revenue。偏多 / 中确信：backlog 开租与 powered development 给出小幅正偏斜，但杠杆、利率和电力约束仍需监控。
 
-**当前判断：** **中性观察。** 本次升级不改变 stance，而是把原本已核验的事实基础扩展成完整 house template，使它能和当前链条报告横向比较。
+**当前判断：** **偏多 / 中确信。** v5 情景网格把 DLR 从原先中性观察上调为 constructive：当前价格要求较高，但 Q1 bookings、backlog 开租、0-1MW/interconnection 与 >6GW future development 让基准/牛市组合略高于市场隐含要求。
 
 | 指标 | 当前读数 |
 | --- | --- |
@@ -22,7 +22,7 @@
 | 最新报告期 | 2026Q1 |
 | 价格快照 | $173.30，截至 2026-07-02 |
 | 本次升级后 coverageTier | full |
-| Stance | 中性观察 |
+| Stance | 偏多 / 中确信 |
 | 估值用途 | 情景与风险容错率，不是目标价 |
 
 ## 1. 业务与链条角色
@@ -72,7 +72,7 @@
 | --- | --- | --- |
 | 公司披露 actuals | 报告期和财务数字保留自原报告 | 避免发明新季度 |
 | 市场数据 | 价格快照维持 $173.30，日期 2026-07-02 | 防止 stale valuation math |
-| 情景价格 | 按当前价格机械推导，用于风险框架 | 不是建议或目标价 |
+| 情景假设 | 用 backlog 开租、0-1MW/interconnection、powered shell、电力/许可、杠杆和 Core FFO 倍数刻画预期 | 不是建议或目标价 |
 | 来源质量 | 公司公告、filing、issuer page 或已列 source 继续留在附录 | 保持审计线索 |
 
 管理层在报告数字和链条角色一致时得分；如果 guidance、bookings 或资本配置依赖本报告无法验证的假设，则需要降权。
@@ -86,7 +86,7 @@
 | 需求穿透 | 补齐 datacenter-facility 层租赁校验：DLR 把上游 chip/neocloud/buildout 叙事接到真实租约、backlog、cross-connects 和开发容量 | 下一报告期继续确认同一方向 |
 | 财务转化 | Q1 2026 收入 $1.64B、Core FFO/share $2.04、AFFO/share $1.92；2026 Core FFO/share 指引上调至 $8.00-$8.10 | 收入转化为利润率、现金流或 backlog |
 | 交叉校验支持 | EQIX, VRT, ORCL | 相邻报告同向移动 |
-| 估值韧性 | Base price context $173.30; bull context $216.62 | 基本面继续验证，倍数不收缩 |
+| 估值韧性 | backlog 开租、0-1MW/interconnection 和 powered development 让 Core FFO/share 增长接近或高于隐含要求 | 基本面继续验证，倍数不收缩 |
 
 建设性情景不只是股价上涨，而是支持本公司的同一组数据也让整条链条 read-through 更紧。
 
@@ -99,7 +99,7 @@
 | 预期风险 | 当前价格锚点 $173.30 | 公司表现不错但已经无法超过内嵌预期 |
 | 链条分化 | 相邻报告无法确认同一信号 | 瓶颈在其他 layer，或需求被提前拉动 |
 | 执行风险 | guidance、backlog 或产能转化放缓 | 报告证据停止支持该角色 |
-| 估值压缩 | Bear context $121.31; base context $173.30 | 长期故事未变但倍数先收缩 |
+| 估值压缩 | lease-up lag、利率/债务成本或电力/许可拖延使 Core FFO/share 增长低于隐含要求 | 长期故事未变但倍数先收缩 |
 
 偏空读法不否认公司质量，而是追问质量是否已经被资本化，以及本报告是否过度外推了现有证据。
 
@@ -121,16 +121,19 @@
 
 ## 8. 估值背景
 
-估值只作为风险背景，不是投资建议。下表从当前价格锚点推导明确情景价格，让牛熊讨论有数字边界。
+估值只作为风险背景，不是投资建议。下表用 backlog 开租、powered shell、0-1MW/interconnection、开发电力/许可、杠杆和 Core FFO 倍数刻画情景，不给单点目标价。
 
-| 情景 | 价格水平背景 | 解读 |
-| --- | --- | --- |
-| Bear | $121.31（较报告价格锚点 -30%） | 周期、执行或倍数重置压过 thesis |
-| Base | $173.30（当前价格锚点） | 市场已资本化当前证据 |
-| Bull | $216.62（较报告价格锚点 +25%） | 执行确认链条角色，估值容错率上升 |
-| 非目标价提示 | 这些是情景标尺，不是目标价 | 只用于监测 risk/reward asymmetry |
+**情景网格：**
 
-关键估值问题是：下一组证据能否让 denominator 增长快于市场给的 multiple 增长。
+| 情景 | 驱动假设（lease-up / powered shell / leverage-rates / multiple） | 估值含义（贵 / 合理 / 便宜 vs 现价） | 概率权重 |
+| --- | --- | --- | --- |
+| 牛市情景 | Q1 $707M bookings 和 $1.8B signed-but-not-commenced backlog 按 2026/2027/2028+ 阶梯顺利开租；0-1MW + interconnection 继续增长，证明需求不只来自单一超大租户；>6GW future development 获得电力、许可和建设资本；Core FFO/share CAGR 达到中双位数，P/Core FFO 保持高十几到低二十倍 | 若 backlog 和 powered development 同时兑现，当前价格可被 FFO 增长消化，估值显得合理到略便宜 | 30% |
+| 基准情景 | backlog 按 19 个月左右滞后逐步开租；AI/cloud bookings 保持高位但不再加速；0-1MW/interconnection 维持验证作用；电力/许可和资本成本使开发节奏有摩擦；Core FFO/share CAGR 低到中双位数，P/Core FFO 向约 18x 正常化 | 当前价格大体定价基准偏乐观的一端，但 DLR 的 lease-up 证据可以接近或略高于隐含要求 | 50% |
+| 熊市情景 | commencement lag 拉长，renewal/pricing spreads 走弱；powered shell 因电网、设备或许可推迟；利息成本或股本融资稀释 AFFO/Core FFO 增长；P/Core FFO 回到中高十几倍 | 当前价格偏贵；风险来自 backlog 兑现慢于市场要求和 REIT 倍数受利率压缩 | 20% |
+
+**已定价预期与预期差：** 以 2026-07-02 收盘 $173.30、约 21x 2026 Core FFO 指引计，如果 P/Core FFO 在三年内向约 18x 正常化、要求回报为 8%，反推倍数框架隐含 Core FFO/share CAGR 约为 `(21 / 18)^(1/3) x 1.08 - 1`，即约 **14%**。我们的基准情景依赖 $1.8B backlog 开租、0-1MW/interconnection 继续增长和 powered development 获得电力/资本，能够接近或略高于该要求；30% 牛市 / 50% 基准 / 20% 熊市给出小幅正偏斜，但不是高确信的单边结论。
+
+关键估值问题是：下一组证据能否让 Core FFO/share 和 commenced recurring revenue 增长快于市场给的 REIT 倍数要求。
 
 ## 9. 催化与监测
 
@@ -153,7 +156,13 @@
 | ORCL | cloud buildout demand | 确认、反驳或限定同一链条问题 |
 | META | end-customer capex anchor | 确认、反驳或限定同一链条问题 |
 
-结论：Digital Realty 仍是 数据中心设施 层的 **中性观察** 仪表盘。本次升级把报告从 thin initial/lite 格式提升到完整 house template，同时保留原本事实基础。下一次真正的编辑动作应由 monitoring table 触发，而不是在没有新证据时重新评级。
+Digital Realty 是 数据中心设施 层的租赁与互联需求仪表盘。它的链条验证任务，是判断 AI 数据中心需求是否正在转化为真实租约、signed-but-not-commenced backlog、0-1MW/interconnection 与 powered development，而不只是上游芯片、neocloud 或 buildout 叙事。
+
+预期差小幅为正：以 $173.30、约 21x 2026 Core FFO 指引计，市场大致要求未来三年约 14% Core FFO/share CAGR；我们的 30% 牛市 / 50% 基准 / 20% 熊市情景认为 backlog 开租、0-1MW/interconnection 与 powered development 可以接近或略高于该要求。
+
+当前 stance 是 **偏多，中确信**。偏多来自租赁与 backlog 证据的轻微正偏斜，不是因为 REIT 杠杆或利率风险消失；中确信来自 Q1 bookings、backlog schedule、Core FFO/AFFO 口径和开发容量披露都可复核，但 19 个月开租滞后、>6GW future development 的电力/许可/资本约束仍会限制仓位级确信。
+
+升级触发条件：如果 Q2/Q3 leasing bookings、$1.8B backlog 开租节奏、0-1MW/interconnection 需求与 >6GW powered development 同时推进，且净债务和利息成本没有稀释 Core FFO/share 增长，则上调至 bullish。降级触发条件：如果 backlog commencement lag 继续拉长、renewal/pricing spreads 恶化、开发电力或许可推迟容量，或净债务/股本融资使 Core FFO/share 增长低于约 14% 隐含要求，则下调至 neutral-watch 或 cautious。
 
 ## 附录：来源与假设
 
@@ -161,5 +170,5 @@
 | Digital Realty 2026-04-23 8-K Exhibit 99.2 | https://www.sec.gov/Archives/edgar/data/1297996/000110465926047702/dlr-20260423xex99d2.htm | supplemental capacity、cross-connect 与 leasing detail |
 | Digital Realty 2026Q1 10-Q | https://www.sec.gov/Archives/edgar/data/1297996/000110465926054255/dlr-20260331x10q.htm | 2026-03-31 季度 filing context |
 
-- 2026-07-06 深度升级保留原先已核验事实基础，并补齐结构、表格、同行比较、情景价格和 monitoring parity。
-- 情景价格由报告价格锚点机械推导，不构成投资建议、预测或目标价。
+- 2026-07-06 深度升级保留原先已核验事实基础，并补齐结构、表格、同行比较和 monitoring parity。
+- 2026-07-07 v5 情景网格与已定价预期段落使用同一个 2026-07-02 价格台账锚点。反推 P/Core FFO 只用于说明市场隐含预期，不是目标价。

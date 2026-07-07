@@ -1200,7 +1200,7 @@
     "priceSymbol": "EQIX",
     "title": "Equinix 深度研究报告 - AI 数据中心设施层的互联溢价仪表盘",
     "titleEn": "Equinix Deep Research Report - The Interconnection-Premium Dashboard for AI Data-Center Facilities",
-    "summary": "AI 基础设施 datacenter-facility 层的 DLR 对照组：EQIX 用 Platform Equinix interconnection、retail colocation、xScale JV 和 AFFO/share 来验证 AI 需求是否不只是 hyperscale shell leasing。2026Q1 收入 $2.444B（reported YoY +10%）、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；MRR 同比 +12% reported / +10% normalized constant currency，annualized gross bookings $378M，annualized presales 约 $140M，largest deals 约 60% AI-related。2025 年报披露 280 个数据中心、10,500+ 客户、507,000+ interconnections，Q1 2026 interconnection revenue $446M。当前 $1,002.02（2026-07-02）、市值约 $98.8B、EV 约 $120.8B，约 23.5x 2026 AFFO/share 指引中点、约 11.9x 2026 revenue 指引。中性观察：质量高但估值高，关键监控是 interconnection revenue、AI bookings/presales、xScale economics、MRR/cabinet yield 与 power availability。",
+    "summary": "AI 基础设施 datacenter-facility 层的 DLR 对照组：EQIX 用 Platform Equinix interconnection、retail colocation、xScale JV 和 AFFO/share 来验证 AI 需求是否不只是 hyperscale shell leasing。2026Q1 收入 $2.444B（reported YoY +10%）、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；MRR 同比 +12% reported / +10% normalized constant currency，annualized gross bookings $378M，annualized presales 约 $140M，largest deals 约 60% AI-related。2025 年报披露 280 个数据中心、10,500+ 客户、507,000+ interconnections，Q1 2026 interconnection revenue $446M。当前 $1,002.02（2026-07-02）、市值约 $98.8B、EV 约 $120.8B，约 23.5x 2026 AFFO/share 指引中点、约 11.9x 2026 revenue 指引。中性观察 / 中确信：质量高但估值高，关键监控是 interconnection revenue、AI bookings/presales、xScale economics、MRR/cabinet yield 与 power availability。",
     "tags": [
       "数据中心",
       "互联",
@@ -1209,7 +1209,7 @@
     ],
     "category": "tech",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-06",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=eqix-2026",
     "markdownFiles": {
       "zh": "/invest/research/Equinix_深度研究报告_2026-07.md",
@@ -1224,11 +1224,34 @@
       "MRR 同比 +12% reported / +10% normalized constant currency；Q1 annualized gross bookings $378M、annualized presales 约 $140M、largest deals 约 60% AI-related",
       "2025 年末 280 个数据中心、10,500+ 客户、507,000+ interconnections；当前 $1,002.02、市值约 $98.8B、EV 约 $120.8B、约 23.5x 2026 AFFO/share 指引中点"
     ],
-    "summaryEn": "DLR's paired check in the AI-infrastructure data-center facility layer. EQIX uses Platform Equinix interconnection, retail colocation, xScale JVs and AFFO/share to test whether AI demand is more than hyperscale shell leasing. Q1 2026 revenue was $2.444B (+10% reported YoY), operating income was $577M, net income was $415M, adjusted EBITDA was $1.245B, and AFFO/share was $10.79. MRR grew 12% reported / 10% normalized constant-currency YoY, annualized gross bookings were $378M, annualized presales were about $140M, and about 60% of largest deals were AI-related. The 2025 annual report disclosed 280 data centers, 10,500+ customers and 507,000+ interconnections, while Q1 2026 interconnection revenue was $446M. At $1,002.02 (2026-07-02), about $98.8B market cap and about $120.8B EV, EQIX trades around 23.5x the midpoint of 2026 AFFO/share guidance and about 11.9x 2026 revenue guidance. Neutral watch: high quality but high valuation; key monitors are interconnection revenue, AI bookings/presales, xScale economics, MRR/cabinet yield and power availability.",
+    "summaryEn": "DLR's paired check in the AI-infrastructure data-center facility layer. EQIX uses Platform Equinix interconnection, retail colocation, xScale JVs and AFFO/share to test whether AI demand is more than hyperscale shell leasing. Q1 2026 revenue was $2.444B (+10% reported YoY), operating income was $577M, net income was $415M, adjusted EBITDA was $1.245B, and AFFO/share was $10.79. MRR grew 12% reported / 10% normalized constant-currency YoY, annualized gross bookings were $378M, annualized presales were about $140M, and about 60% of largest deals were AI-related. The 2025 annual report disclosed 280 data centers, 10,500+ customers and 507,000+ interconnections, while Q1 2026 interconnection revenue was $446M. At $1,002.02 (2026-07-02), about $98.8B market cap and about $120.8B EV, EQIX trades around 23.5x the midpoint of 2026 AFFO/share guidance and about 11.9x 2026 revenue guidance. Neutral watch / medium conviction: high quality but high valuation; key monitors are interconnection revenue, AI bookings/presales, xScale economics, MRR/cabinet yield and power availability.",
     "chainLayer": "datacenter-facility",
     "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "neutral-watch",
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 $1,002.02、约 23.5x 2026 AFFO/share 指引中点计，市场大致要求 AFFO/share 未来三年约 14% CAGR，同时维持 interconnection 与 xScale 溢价；我们的 30% 牛市 / 40% 基准 / 30% 熊市情景与此接近，因此维持中性观察。",
+      "en": "At $1,002.02 and about 23.5x the midpoint of 2026 AFFO/share guidance, the market is underwriting roughly 14% three-year AFFO/share CAGR while preserving the interconnection and xScale premium; our 30% bull / 40% base / 30% bear grid is close to that, so the stance remains neutral watch."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "如果 Q2/Q3 interconnection revenue、AI-related bookings/presales 与 xScale lease-up 同时加速，AFFO/share 路径明确高于约 14% 隐含 CAGR，且 power/capex 成本没有压缩 returns，则上调至 constructive。",
+        "en": "Move to constructive if Q2/Q3 interconnection revenue, AI-related bookings/presales, and xScale lease-up accelerate together, the AFFO/share path clearly exceeds the roughly 14% implied CAGR, and power/capex costs do not compress returns."
+      },
+      "downgrade": {
+        "zh": "如果 interconnection revenue 或 MRR/cabinet yield 放缓，AI presales 难以转为 commenced recurring revenue，或 power、capex、利息成本与 xScale VIE 风险使 AFFO/share 增长低于隐含要求，则下调至 cautious。",
+        "en": "Move to cautious if interconnection revenue or MRR/cabinet yield slows, AI presales fail to convert into commenced recurring revenue, or power, capex, interest costs, and xScale VIE exposure push AFFO/share growth below the implied requirement."
+      }
+    },
+    "stanceHistory": [
+      {
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "date": "2026-07-02",
+        "price": 1002.02
+      }
+    ],
     "priceAsOf": "2026-07-02",
     "reportedPeriod": "2026Q1",
     "related": [
@@ -1741,7 +1764,7 @@
     "priceSymbol": "VRT",
     "title": "Vertiv 深度研究报告 - AI 数据中心电力与散热的卖铲人（建设速度仪表盘）",
     "titleEn": "Vertiv Deep Research Report - The Power & Cooling Pick-and-Shovel of AI Data Centers (Buildout Dashboard)",
-    "summary": "数据中心电力与热管理（含液冷）卖铲人，位于『电从哪来』(GEV/Bloom)与『芯片』(NVDA/AVGO)之间，是 AI 建设速度最实时的『仪表盘』。Q1 2026 营收$26.5亿(+30%，有机+23%、美洲有机+44%)、调整后营业利润率20.8%(+430bps)、调整后EPS $1.17(+83%)、调整后FCF $6.53亿(+147%)；最新披露的 Q4 2025 backlog $150亿(+109%)、book-to-bill ~2.9x。FY2026指引上调至营收$135-140亿、调整后EPS $6.30-6.40。但股价一年约3倍至$306.97、市值~$1,179亿、~48倍前瞻调整后EPS(~80倍滚动)，已定价多年持续建设；高beta订单簿是双刃剑。中性/高质量但高预期(观察)。",
+    "summary": "数据中心电力与热管理（含液冷）卖铲人，位于『电从哪来』(GEV/Bloom)与『芯片』(NVDA/AVGO)之间，是 AI 建设速度最实时的『仪表盘』。Q1 2026 营收$26.5亿(+30%，有机+23%、美洲有机+44%)、调整后营业利润率20.8%(+430bps)、调整后EPS $1.17(+83%)、调整后FCF $6.53亿(+147%)；最新披露的 Q4 2025 backlog $150亿(+109%)、book-to-bill ~2.9x。FY2026指引上调至营收$135-140亿、调整后EPS $6.30-6.40。但股价一年约3倍至$306.97、市值~$1,179亿、~48倍前瞻调整后EPS(~80倍滚动)，已定价多年持续建设；高beta订单簿是双刃剑。谨慎 / 中确信：高质量业务，但价格隐含几乎完美的建设节奏。",
     "tags": [
       "数据中心",
       "AI基础设施",
@@ -1750,7 +1773,7 @@
     ],
     "category": "tech",
     "date": "2026-06-30",
-    "lastUpdate": "2026-06-30",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=vertiv-2026",
     "markdownFiles": {
       "zh": "/invest/research/Vertiv_深度研究报告_2026-06.md",
@@ -1765,11 +1788,39 @@
       "液冷代际拐点(100kW+ 机柜)；Vertiv 是一线电力+热管理供应商，但公开份额/TAM估算口径分散，需按行业来源跟踪；轻杠杆(净债务~$7.6亿)自我造血",
       "核心风险：股价一年约3倍至$306.97、~48倍前瞻调整后EPS(~80倍滚动)、市值~$1,179亿，已定价多年建设；高beta订单簿双向，AI资本开支消化/竞争(施耐德/伊顿)是主要风险"
     ],
-    "summaryEn": "Power & thermal (incl. liquid cooling) pick-and-shovel for data centers, sitting between 'where power comes from' (GEV/Bloom) and 'the chips' (NVDA/AVGO) — the most real-time 'dashboard' of AI buildout velocity. Q1 2026 revenue $2.65B (+30%, +23% organic, Americas +44%), adj operating margin 20.8% (+430bps), adj EPS $1.17 (+83%), adj FCF $653M (+147%); latest disclosed Q4 2025 backlog was $15.0B (+109%) with book-to-bill ~2.9x. FY2026 guidance raised to revenue $13.5-14.0B, adj EPS $6.30-6.40. But the stock ~3x'd in a year to $306.97 / ~$117.9B / ~48x forward adj EPS (~80x trailing), pricing in years of sustained buildout; the high-beta order book cuts both ways. Neutral / high-quality but high expectations (watch).",
+    "summaryEn": "Power & thermal (incl. liquid cooling) pick-and-shovel for data centers, sitting between 'where power comes from' (GEV/Bloom) and 'the chips' (NVDA/AVGO) — the most real-time 'dashboard' of AI buildout velocity. Q1 2026 revenue $2.65B (+30%, +23% organic, Americas +44%), adj operating margin 20.8% (+430bps), adj EPS $1.17 (+83%), adj FCF $653M (+147%); latest disclosed Q4 2025 backlog was $15.0B (+109%) with book-to-bill ~2.9x. FY2026 guidance raised to revenue $13.5-14.0B, adj EPS $6.30-6.40. But the stock ~3x'd in a year to $306.97 / ~$117.9B / ~48x forward adj EPS (~80x trailing), pricing in years of sustained buildout; the high-beta order book cuts both ways. Cautious / medium conviction: high-quality franchise, but the price implies a near-perfect buildout pace.",
     "chainLayer": "datacenter-facility",
     "coverageTier": "full",
     "chainRole": "dashboard",
-    "stance": "neutral-watch",
+    "stance": "cautious",
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 $306.97、约 48x FY2026E 调整后 EPS 计，若倍数三年内向约 32x 正常化并要求 8% 回报，市场隐含 EPS CAGR 约 24%；我们的 20% 牛市 / 50% 基准 / 30% 熊市情景需要 backlog、液冷份额和 23%+ 利润率持续兑现才接近该门槛，偏斜转向谨慎。",
+      "en": "At $306.97 and about 48x FY2026E adjusted EPS, if the multiple normalizes toward about 32x over three years with an 8% required return, the market implies roughly 24% EPS CAGR; our 20% bull / 50% base / 30% bear grid needs backlog, liquid-cooling share, and 23%+ margins to keep delivering just to approach that hurdle, so the skew turns cautious."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "如果 Q2/Q3 orders/book-to-bill 维持 >1.5x、backlog 继续增长、液冷/电力设备份额提升且调整后营业利润率高于 23% 指引轨迹，同时前瞻倍数没有继续扩张，则上调至 neutral-watch 或 constructive。",
+        "en": "Move to neutral-watch or constructive if Q2/Q3 orders/book-to-bill stays above 1.5x, backlog keeps growing, liquid-cooling/power-equipment share improves, and adjusted operating margin runs above the 23% guide path without further forward-multiple expansion."
+      },
+      "downgrade": {
+        "zh": "如果 orders/book-to-bill 接近或低于 1x、backlog 开始回落、液冷竞争压低毛利/增量利润率，或 hyperscaler capex 指引进入消化期，则下调至 bearish-avoid。",
+        "en": "Move to bearish-avoid if orders/book-to-bill approaches or falls below 1x, backlog starts rolling over, liquid-cooling competition compresses gross or incremental margin, or hyperscaler capex guidance enters a digestion phase."
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-06-29",
+        "stance": "neutral-watch",
+        "price": 306.97
+      },
+      {
+        "date": "2026-06-29",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 306.97
+      }
+    ],
     "priceAsOf": "2026-06-29",
     "reportedPeriod": "Q1 2026",
     "related": [
@@ -5573,7 +5624,7 @@
     "priceSymbol": "DLR",
     "title": "Digital Realty 深度研究报告 - AI 数据中心租赁与互联需求仪表盘",
     "titleEn": "Digital Realty Deep Research Report - Leasing and Interconnection Dashboard for AI Data Centers",
-    "summary": "AI 基础设施 datacenter-facility 层的租赁/互联需求校验。DLR 不直接解释 GPU、光模块或电力设备，而是验证 AI 数据中心需求是否转化为真实租约、backlog、互联节点和开发容量。Q1 2026 收入 $1.64B（约 +16% YoY）、Core FFO/share $2.04、AFFO/share $1.92；公司签下 $707M 年化 GAAP base rent 的 bookings（100% share），DLR share 为 $423M，其中 0-1MW + interconnection 贡献 $98M、同比 +42%；季度末 signed-but-not-commenced backlog 为 $1.8B（100% share）/ $1.0B（DLR share），加权平均开租滞后 19 个月。当前 $173.30（2026-07-02 收盘）、市值约 $62.0B、EV 约 $77.6B，估值约 21x 2026 Core FFO 指引、约 12.2x EV/TTM revenue。中性观察 / datacenter-facility dashboard。",
+    "summary": "AI 基础设施 datacenter-facility 层的租赁/互联需求校验。DLR 不直接解释 GPU、光模块或电力设备，而是验证 AI 数据中心需求是否转化为真实租约、backlog、互联节点和开发容量。Q1 2026 收入 $1.64B（约 +16% YoY）、Core FFO/share $2.04、AFFO/share $1.92；公司签下 $707M 年化 GAAP base rent 的 bookings（100% share），DLR share 为 $423M，其中 0-1MW + interconnection 贡献 $98M、同比 +42%；季度末 signed-but-not-commenced backlog 为 $1.8B（100% share）/ $1.0B（DLR share），加权平均开租滞后 19 个月。当前 $173.30（2026-07-02 收盘）、市值约 $62.0B、EV 约 $77.6B，估值约 21x 2026 Core FFO 指引、约 12.2x EV/TTM revenue。偏多 / 中确信：backlog 开租与 powered development 给出小幅正偏斜，但杠杆、利率和电力约束仍需监控。",
     "tags": [
       "AI数据中心",
       "REIT",
@@ -5582,7 +5633,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-06",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=digital-realty-2026",
     "markdownFiles": {
       "zh": "/invest/research/Digital_Realty_深度研究报告_2026-07.md",
@@ -5597,11 +5648,39 @@
       "Q1 bookings $707M（100% share）/$423M（DLR share），其中 0-1MW + interconnection $98M、同比 +42%；backlog $1.8B（100% share）/$1.0B（DLR share），开租滞后 19 个月",
       "当前 $173.30（2026-07-02）、市值约 $62.0B、EV 约 $77.6B、约 21x 2026 Core FFO 指引；强需求但估值、杠杆、电力/许可和 backlog commence 是核心风险"
     ],
-    "summaryEn": "Leasing and interconnection demand check for the AI-infrastructure data-center facility layer. DLR does not directly explain GPUs, optical modules or power equipment; it tests whether AI data-center demand converts into real leases, backlog, interconnection nodes and development capacity. Q1 2026 revenue was $1.64B (about +16% YoY), Core FFO/share was $2.04 and AFFO/share was $1.92. The company signed $707M of annualized GAAP base-rent bookings at 100% share, or $423M at DLR share, including $98M from the 0-1MW plus interconnection category (+42% YoY). Signed-but-not-commenced backlog was $1.8B at 100% share and $1.0B at DLR share, with a 19-month weighted-average commencement lag. At $173.30 (2026-07-02 close), about $62.0B market cap and about $77.6B EV, DLR trades around 21x 2026 Core FFO guidance and about 12.2x EV/TTM revenue. Neutral watch / data-center facility dashboard.",
+    "summaryEn": "Leasing and interconnection demand check for the AI-infrastructure data-center facility layer. DLR does not directly explain GPUs, optical modules or power equipment; it tests whether AI data-center demand converts into real leases, backlog, interconnection nodes and development capacity. Q1 2026 revenue was $1.64B (about +16% YoY), Core FFO/share was $2.04 and AFFO/share was $1.92. The company signed $707M of annualized GAAP base-rent bookings at 100% share, or $423M at DLR share, including $98M from the 0-1MW plus interconnection category (+42% YoY). Signed-but-not-commenced backlog was $1.8B at 100% share and $1.0B at DLR share, with a 19-month weighted-average commencement lag. At $173.30 (2026-07-02 close), about $62.0B market cap and about $77.6B EV, DLR trades around 21x 2026 Core FFO guidance and about 12.2x EV/TTM revenue. Constructive / medium conviction: backlog commencement and powered development create modest positive skew, while leverage, rates and power constraints still need monitoring.",
     "chainLayer": "datacenter-facility",
     "coverageTier": "full",
     "chainRole": "dashboard",
-    "stance": "neutral-watch",
+    "stance": "constructive",
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 $173.30、约 21x 2026 Core FFO 指引计，市场大致要求未来三年约 14% Core FFO/share CAGR；我们的 30% 牛市 / 50% 基准 / 20% 熊市情景认为 backlog 开租、0-1MW/interconnection 与 powered development 可以接近或略高于该要求，偏斜小幅为正但仍受杠杆、利率和电力约束限制。",
+      "en": "At $173.30 and about 21x 2026 Core FFO guidance, the market is underwriting roughly 14% three-year Core FFO/share CAGR; our 30% bull / 50% base / 20% bear grid sees backlog commencement, 0-1MW/interconnection demand, and powered development as capable of meeting or modestly beating that requirement, so the skew is modestly positive but still constrained by leverage, rates, and power availability."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "如果 Q2/Q3 leasing bookings、$1.8B backlog 开租节奏、0-1MW/interconnection 需求与 >6GW powered development 同时推进，且净债务和利息成本没有稀释 Core FFO/share 增长，则上调至 bullish。",
+        "en": "Move to bullish if Q2/Q3 leasing bookings, the $1.8B backlog commencement schedule, 0-1MW/interconnection demand, and >6GW powered development all advance while net debt and interest cost do not dilute Core FFO/share growth."
+      },
+      "downgrade": {
+        "zh": "如果 backlog commencement lag 继续拉长、renewal/pricing spreads 恶化、开发电力或许可推迟容量，或净债务/股本融资使 Core FFO/share 增长低于约 14% 隐含要求，则下调至 neutral-watch 或 cautious。",
+        "en": "Move to neutral-watch or cautious if backlog commencement lag keeps stretching, renewal/pricing spreads deteriorate, power or permitting delays capacity, or net debt/equity financing pushes Core FFO/share growth below the roughly 14% implied requirement."
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-07-02",
+        "stance": "neutral-watch",
+        "price": 173.3
+      },
+      {
+        "date": "2026-07-02",
+        "stance": "constructive",
+        "conviction": "medium",
+        "price": 173.3
+      }
+    ],
     "priceAsOf": "2026-07-02",
     "reportedPeriod": "2026Q1",
     "related": [

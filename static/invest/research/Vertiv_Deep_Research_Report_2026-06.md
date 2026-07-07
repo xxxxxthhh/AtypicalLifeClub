@@ -1,7 +1,7 @@
 # Vertiv (VRT) Deep Research Report
 
 Coverage date: 2026-06-30
-Last updated: 2026-06-30
+Last updated: 2026-07-07
 Ticker: NYSE: VRT
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence. All prices and market caps are point-in-time snapshots; financial figures are per company disclosure unless noted otherwise.
 
@@ -13,7 +13,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 **One-line thesis:** Vertiv is the picks-and-shovels supplier of data-center power and thermal management — the layer between "where the electricity comes from" (GE Vernova / Bloom / Oklo) and "the chips that consume it" (NVIDIA / Broadcom). As AI racks jump from ~10kW to 100kW+ and force the industry from air to liquid cooling, Vertiv's Q1 2026 print shows the pull: revenue **+30% to $2.65B** (+23% organic, Americas +44% organic), adjusted operating margin **20.8%** (+430bps), adjusted EPS **$1.17** (+83%); the latest disclosed backlog was **$15.0B** at Q4 2025 (+109% Y/Y, reported February 2026). The order book is the tell, but its date matters: this is the most recent backlog anchor, not a Q1 2026 balance.
 
-**Verdict:** **Neutral / high-quality franchise, high expectations (watch).** Vertiv is arguably the cleanest single barometer of AI-capex *velocity*, and execution (margin, FCF, backlog) is excellent. But the stock has roughly **tripled in a year** to **$306.97** (~**$117.9B** market cap, ~**48x** FY2026E adjusted EPS, ~**80x** trailing GAAP), so it already prices in years of sustained buildout. The debate is not whether AI data-center demand is real (the latest disclosed backlog supports it) but whether the *pace* holds — because Vertiv's high-beta order book cuts both ways.
+**Verdict:** **Cautious / medium conviction: high-quality franchise, but the price implies a near-perfect buildout pace.** Vertiv is arguably the cleanest single barometer of AI-capex *velocity*, and execution (margin, FCF, backlog) is excellent. But the stock has roughly **tripled in a year** to **$306.97** (~**$117.9B** market cap, ~**48x** FY2026E adjusted EPS, ~**80x** trailing GAAP), so it already prices in years of sustained buildout. The debate is not whether AI data-center demand is real (the latest disclosed backlog supports it) but whether the *pace* holds — because Vertiv's high-beta order book cuts both ways.
 
 **Current market read (latest market-data snapshot, 2026-06-29 close):** VRT closed **$306.97** on 2026-06-29, below quote-source/IBD references to a 52-week/all-time high near **$379.94** in May 2026. On ~**384M** shares, market cap is ~**$117.9B** (~$146B at the ~$379.94 high); with ~$3.26B debt securities and finance-lease obligations and ~$2.50B cash (net debt ~**$0.76B**, excluding operating lease liabilities), enterprise value is ~**$118.7B**. The stock is up roughly **100% YTD** and about 3x over the past year. Financial source: [Vertiv Q1 2026 8-K (SEC)](https://www.sec.gov/Archives/edgar/data/0001674101/000162828026026379/q12026exhibit991vrt04222026.htm); quote references: [Yahoo Finance VRT](https://finance.yahoo.com/quote/VRT/), [StockAnalysis VRT](https://stockanalysis.com/stocks/vrt/), [Investor's Business Daily VRT profile](https://www.investors.com/stock-lists/sector-leaders/vertiv-vrt-stock-ai/).
 
@@ -172,10 +172,15 @@ Management *raised* full-year guidance on the Q1 print, implying ~30% organic gr
 - **EV/EBITDA ~34x (FY2026E, est.) / EV/Sales ~8.6x:** EV ~$118.7B (market cap ~$117.9B + net debt ~$0.76B) on ~$13.75B revenue and ~$3.4-3.5B est. adj EBITDA. Premium capital-goods multiples that embed continued double-digit growth and margin expansion.
 - **Reading the multiple:** Vertiv's valuation is a bet on **the duration and pace of the AI data-center buildout.** The backlog de-risks the next several quarters; the multiple is underwritten by the years *after* that. If buildout velocity holds, EPS grows into the multiple; if it digests, both earnings cadence and the multiple compress — a high-beta double.
 
-**Scenario framing (illustrative, not a forecast):**
-- **Base (~50%):** AI buildout stays strong through 2027, backlog converts, margins reach ~23%+ and grind higher; the stock tracks ~30% earnings growth as the multiple slowly compresses.
-- **Bull (~25%):** liquid-cooling adoption + integrated-modular share accelerate, book-to-bill stays >1.5x, margins beat; Vertiv re-rates as the indispensable AI-infrastructure compounder.
-- **Bear (~25%):** hyperscale capex digests, orders decelerate, competition pressures cooling margins; a high-multiple, high-beta name de-rates 35-50% as the order book rolls over.
+**Scenario grid:**
+
+| Scenario | Driver assumptions (backlog / liquid cooling and power equipment / margin / multiple) | Valuation implication (rich / fair / cheap vs today) | Probability weight |
+|----------|---------------------------------------------------------|------------------------------------------------------|--------------------|
+| Bull | Q2/Q3 orders and book-to-bill stay above 1.5x, the $15.0B backlog keeps growing and converts cleanly into revenue; 100kW+ AI racks lift liquid cooling, CDU, direct-to-chip, and power-equipment share; adjusted operating margin beats the 23% guide path and expands toward 24-25%; forward P/E can hold a 35-40x range | Current price looks fair-to-slightly cheap only if backlog, liquid-cooling share, and margin all beat expectations together | 20% |
+| Base | AI buildout remains strong through 2027, but order growth normalizes from the Q4 2025 high; backlog conversion supports high-teens to low-20s EPS CAGR after FY2026; liquid-cooling adoption continues but competition intensifies; adjusted operating margin is about 23-24%; forward P/E normalizes toward about 32x | Current price already discounts the optimistic side of base, and Vertiv needs continued execution to grow into the valuation | 50% |
+| Bear | Hyperscaler capex digests, orders/book-to-bill approaches or falls below 1x, and backlog starts rolling over; Schneider/Eaton and others pressure liquid-cooling and power-equipment price or share; margin expansion stops, EPS CAGR falls to low-teens or worse; forward P/E returns to the 20s | Current price is rich; earnings cadence and multiple can compress together, turning the high-beta order book into a downside warning | 30% |
+
+**What's priced in & the expectation gap:** At the $306.97 close on Jun 29, 2026 and about 48x FY2026E adjusted EPS, if forward P/E normalizes toward about 32x over three years with an 8% required return, the reverse-multiple frame implies about `(48 / 32)^(1/3) x 1.08 - 1`, or roughly **24% EPS CAGR**. Our base case needs backlog, liquid-cooling share, and 23%+ margins to keep delivering just to approach that hurdle; the 20% bull / 50% base / 30% bear blend says business quality is high, but the expectation gap is negative at the current price and the skew turns cautious. This is an expectations frame, not a target price.
 
 ---
 
@@ -206,7 +211,11 @@ Vertiv is the most direct, real-time read on whether the AI data-center buildout
 
 **The quality is largely in the price.** At $306.97 — roughly triple a year ago — Vertiv trades at ~48x FY2026E adjusted EPS (~80x trailing) and ~$117.9B, pricing in years of sustained ~30% growth. The bet is on the *pace* of the buildout, and Vertiv's high-beta order book is the same instrument on the way down as on the way up: it would flash the warning first.
 
-Consistent with this center's stance on NVIDIA, Broadcom, Corning, GE Vernova, Bloom Energy and SanDisk — "high quality but high expectations" — **we assign a neutral / high-quality, high-expectations (watch) view**: constructive on Vertiv's franchise and the latest disclosed backlog with medium conviction; neutral on near-term entry given a valuation that already discounts years of flawless buildout. Use Vertiv as the chain's velocity gauge — and pair it with the CoreWeave / neocloud risk anchor, which tests whether that velocity is real economic demand or leverage-fueled.
+The expectation gap is negative: at $306.97 and about 48x FY2026E adjusted EPS, if the multiple normalizes toward about 32x over three years with an 8% required return, the market implies roughly 24% EPS CAGR; our 20% bull / 50% base / 30% bear grid needs backlog, liquid-cooling share, and 23%+ margins to keep delivering just to approach that hurdle.
+
+The current stance is **cautious, medium conviction**. Cautious does not deny Vertiv's business quality; it recognizes that the price bundles multiple years of fast buildout, order durability, and margin expansion into one assumption. Medium conviction comes from strong Q1 growth, margin, FCF, and Q4 2025 backlog evidence, while Q2/Q3 orders, book-to-bill, and liquid-cooling competition will decide whether Vertiv can sustain the implied EPS hurdle. Use Vertiv as the chain's velocity gauge — and pair it with the CoreWeave / neocloud risk anchor, which tests whether that velocity is real economic demand or leverage-fueled.
+
+Upgrade trigger: Move to neutral-watch or constructive if Q2/Q3 orders/book-to-bill stays above 1.5x, backlog keeps growing, liquid-cooling/power-equipment share improves, and adjusted operating margin runs above the 23% guide path without further forward-multiple expansion. Downgrade trigger: Move to bearish-avoid if orders/book-to-bill approaches or falls below 1x, backlog starts rolling over, liquid-cooling competition compresses gross or incremental margin, or hyperscaler capex guidance enters a digestion phase.
 
 ---
 
@@ -228,4 +237,5 @@ Consistent with this center's stance on NVIDIA, Broadcom, Corning, GE Vernova, B
 - Backlog $15.0B (+109% Y/Y) and book-to-bill are Q4 2025 figures (reported Feb 2026); reconcile to the latest quarter as reported. A single-quarter book-to-bill near ~2.9x reflects lumpy large orders and is not a run-rate.
 - Forward multiples use FY2026E guidance: adj EPS $6.30-6.40, GAAP EPS $5.60-5.70, revenue $13.5-14.0B, adj op margin ~23.3%; EV/EBITDA uses an estimated ~$3.4-3.5B FY2026E adj EBITDA (revenue × ~24% + D&A) and is approximate.
 - Liquid-cooling share/TAM estimates are directional and vary by source definition; the report relies on them to frame the competitive field, not as audited valuation inputs.
+- The 2026-07-07 v5 scenario grid and priced-in paragraph use the same 2026-06-29 price-ledger anchor. The reverse P/E math frames market-implied expectations only; it is not a target price.
 - This report is **initial coverage**; refresh price, orders/backlog, margin and guidance at the next quarterly result.
