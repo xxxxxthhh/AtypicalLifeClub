@@ -1,7 +1,7 @@
 # Applied Materials Deep Research Report - Broad Semicap Dashboard For AI Capacity Buildout
 
 Coverage date: 2026-07-05
-Last updated: 2026-07-06
+Last updated: 2026-07-07
 Ticker: NASDAQ: AMAT
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -11,9 +11,9 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 > **Framework role:** Applied Materials is the dashboard for the AI-infrastructure semiconductor equipment layer. The report's job is to test the chain signal, not to turn one company print into a recommendation.
 
-**One-line thesis:** Broad equipment dashboard for the AI-infrastructure semicap-equipment layer. AMAT tests whether AI demand is spreading beyond EUV into deposition, etch, advanced packaging, DRAM, and services. Q2 FY2026 revenue was $7.91B, GAAP gross margin was 49.9%, and non-GAAP EPS was $2.86; Semiconductor Systems revenue was $5.965B, with foundry/logic/other at 67% and DRAM at 29%. Q3 guidance is $8.950B revenue +/- $500M and non-GAAP EPS of $3.36 +/- $0.20. At $603.04, about $478.8B market cap and $477.8B EV, AMAT trades around 13.3x EV/Q3 annualized sales and 36.8x forward EPS. Neutral watch: the upcycle is strong, but China/Taiwan exposure and valuation tolerance are both elevated.
+**One-line thesis:** Broad equipment dashboard for the AI-infrastructure semicap-equipment layer. AMAT tests whether AI demand is spreading beyond EUV into deposition, etch, advanced packaging, DRAM, and services. Q2 FY2026 revenue was $7.91B, GAAP gross margin was 49.9%, and non-GAAP EPS was $2.86; Semiconductor Systems revenue was $5.965B, with foundry/logic/other at 67% and DRAM at 29%. Q3 guidance is $8.950B revenue +/- $500M and non-GAAP EPS of $3.36 +/- $0.20. At $603.04, about $478.8B market cap and $477.8B EV, AMAT trades around 13.3x EV/Q3 annualized sales and 36.8x forward EPS. Cautious / medium conviction: the upcycle is strong, but China/Taiwan exposure and valuation tolerance leave the scenario skew mildly negative.
 
-**Current view:** **neutral watch.** The upgrade does not change the stance; it expands the original fact base into the full house template so the report can be compared against the rest of the current-chain book.
+**Current view:** **cautious / medium conviction.** AMAT is the broadest WFE dashboard in this batch, but at the July 2 price the market is already paying for AI demand to spread through deposition, etch, advanced packaging, DRAM, and services while China/Taiwan exposure stays manageable.
 
 | Metric | Current readout |
 | --- | --- |
@@ -22,7 +22,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Latest reported period | FY2026 Q2 |
 | Price snapshot | $603.04 as of 2026-07-02 |
 | Coverage tier after this upgrade | full |
-| Stance | neutral watch |
+| Stance | cautious / medium conviction |
 | Primary valuation use | scenario context and risk tolerance, not a target price |
 
 ## 1. Business And Chain Role
@@ -121,16 +121,17 @@ Thesis breakers:
 
 ## 8. Valuation Context
 
-Valuation is used as risk context, not as a recommendation. The table below creates explicit price levels from the current price anchor so the bull/bear discussion has numbers.
+Valuation is used as risk context, not as a recommendation. The v5 question is whether the $603.04 dated price already assumes too much broad WFE pull-through from AI demand.
 
-| Scenario | Price-level context | Interpretation |
-| --- | --- | --- |
-| Bear | $422.13 (-30% from the report price anchor) | A cycle, execution, or multiple reset overwhelms the thesis |
-| Base | $603.04 (current price anchor) | The market is already capitalizing the current evidence |
-| Bull | $753.80 (+25% from the report price anchor) | Execution confirms the chain role and valuation tolerance expands |
-| No target-price warning | These are scenario markers, not price targets | Use only for monitoring risk/reward asymmetry |
+**Scenario grid:**
 
-The key valuation question is whether the next evidence set increases the denominator faster than the market increases the multiple.
+| Scenario | Driver assumptions (WFE breadth, advanced packaging, China/Taiwan exposure, multiple regime) | Valuation implication (rich / fair / cheap vs today) | Subjective probability weight |
+| --- | --- | --- | --- |
+| Bull | AI capex spreads beyond EUV into deposition, etch, advanced packaging, DRAM, and services; Semiconductor Systems grows above the Q3 guide; gross margin and operating margin expand; China/Taiwan customer timing remains clean; low-teens EV/sales is sustained | Current price would look fair only if broad WFE demand stays durable into 2027 and the service/packaging mix improves | 20% |
+| Base | Q3 revenue lands near the $8.95B midpoint; foundry/logic and DRAM both stay healthy; services cushion cyclicality; China/Taiwan exposure remains manageable but caps upside; EV/sales normalizes toward high single digits to low teens | Current price already prices the optimistic end of this case, leaving limited margin for ordinary equipment-cycle disappointment | 50% |
+| Bear | Export controls or customer timing hit China/Taiwan revenue; foundry/logic or DRAM orders normalize; advanced packaging is not enough to offset a WFE pause; inventory and supply-chain build become destocking risk; the multiple resets toward cycle averages | Current price would be rich because the denominator and multiple would both move against the thesis | 30% |
+
+**What's priced in & the expectation gap:** At $603.04, about $477.8B EV, 13.3x EV/Q3 annualized sales, and roughly 36.8x forward EPS, the market is already underwriting a broad WFE upcycle, not merely a single-quarter beat. If a through-cycle equipment frame is closer to 8-10x annualized revenue and investors require about 8% annually, AMAT needs sustained high-teens revenue compounding or a durable low-teens sales multiple. Our 20% bull / 50% base / 30% bear grid puts the weighted view slightly below that embedded expectation because China/Taiwan exposure and multiple tolerance remain elevated. This is an expectations frame, not a target price.
 
 ## 9. Catalysts And Monitoring
 
@@ -153,7 +154,13 @@ These are the items that should drive future reruns. A monitoring update should 
 | KLAC | yield/process control | Confirms, contradicts, or bounds the same chain question |
 | TSM | capex customer signal | Confirms, contradicts, or bounds the same chain question |
 
-Conclusion: Applied Materials remains a **neutral watch** dashboard for the semiconductor equipment layer. The upgrade moves the report from a thin initial/lite format to the full house template while preserving the original fact base. The next real editorial move should be triggered by the monitoring table, not by a desire to re-rate the company without new evidence.
+Applied Materials' chain-validation job is unchanged: it tests whether AI capex is broadening from EUV into deposition, etch, advanced packaging, DRAM, and services rather than remaining a narrow bottleneck story.
+
+The expectation gap is mildly negative: at $603.04, about 13.3x EV/Q3 annualized sales and roughly 36.8x forward EPS, the market already prices a broad WFE upcycle; our 20% bull / 50% base / 30% bear grid leaves the weighted view slightly below that embedded expectation.
+
+The current stance is **cautious, medium conviction**. Cautious reflects scenario skew, not a poor business read: AMAT's breadth is valuable, but the base case already needs strong Q3 conversion, healthy foundry/logic and DRAM mix, and no China/Taiwan shock. Medium conviction reflects the solid Q2 evidence and explicit Q3 guide, offset by the still-cyclical WFE denominator.
+
+Upgrade trigger: move to neutral-watch or constructive if FY2026 Q3 revenue reaches or exceeds the $8.95B midpoint, Semiconductor Systems operating margin stays above 35%, foundry/logic and DRAM mix remain strong together, and China/Taiwan exposure is not hit by export controls or customer timing while the EV/sales multiple does not expand further. Downgrade trigger: move to bearish-avoid if Q3 revenue misses the midpoint, Semiconductor Systems growth or operating margin weakens, China/Taiwan revenue is hit by export controls or customer timing, or the inventory and supply-chain build turns into destocking pressure.
 
 ## Appendix: Sources And Assumptions
 
@@ -161,4 +168,4 @@ Conclusion: Applied Materials remains a **neutral watch** dashboard for the semi
 - Applied Materials Q2 FY2026 earnings release: [Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/6951/000162828026035071/exhibit991q22026earningsre.htm).
 
 - This 2026-07-06 depth upgrade preserves the existing vetted fact base and expands structure, tables, peer comparison, scenario levels, and monitoring parity.
-- Scenario price levels are mechanically derived from the report price anchor and are not investment advice, forecasts, or target prices.
+- The v5 scenario grid and priced-in paragraph use the July 2, 2026 price ledger anchor. The assumption ranges calibrate embedded expectations; they are not target prices.

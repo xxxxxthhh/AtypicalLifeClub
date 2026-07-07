@@ -1,7 +1,7 @@
 # ASML Deep Research Report - EUV / High-NA as the Equipment-Layer Common Constraint
 
 Coverage date: 2026-07-05
-Last updated: 2026-07-06
+Last updated: 2026-07-07
 Ticker: NASDAQ: ASML / Euronext Amsterdam: ASML
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -11,9 +11,9 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 > **Framework role:** ASML Holding is the common constraint for the AI-infrastructure semiconductor equipment layer. The report's job is to test the chain signal, not to turn one company print into a recommendation.
 
-**One-line thesis:** Common-constraint coverage for the AI-infrastructure semicap-equipment layer. ASML tests whether foundry and memory capex truly passes through lithography, EUV, High-NA, long-term agreements, and export controls. Q1 2026 net sales were EUR 8.767B, gross margin was 53.0%, and net income was EUR 2.757B; FY2026 guidance is EUR 36-40B net sales and 51-53% gross margin. Q4 2025 net bookings were EUR 13.158B, including EUR 7.4B EUV, and year-end backlog was EUR 38.797B. At $1,769.32 per ADR (2026-07-02), about $681.9B market cap, and EUR/USD 1.1440, ASML trades around 15.6x EV/2026E sales at the FY2026 sales midpoint. Neutral watch: monopoly quality is exceptional, but the valuation already capitalizes durable EUV/High-NA scarcity and manageable export controls.
+**One-line thesis:** Common-constraint coverage for the AI-infrastructure semicap-equipment layer. ASML tests whether foundry and memory capex truly passes through lithography, EUV, High-NA, long-term agreements, and export controls. Q1 2026 net sales were EUR 8.767B, gross margin was 53.0%, and net income was EUR 2.757B; FY2026 guidance is EUR 36-40B net sales and 51-53% gross margin. Q4 2025 net bookings were EUR 13.158B, including EUR 7.4B EUV, and year-end backlog was EUR 38.797B. At $1,769.32 per ADR (2026-07-02), about $681.9B market cap, and EUR/USD 1.1440, ASML trades around 15.6x EV/2026E sales at the FY2026 sales midpoint. Neutral watch / medium conviction: monopoly quality is exceptional, but the valuation already capitalizes durable EUV/High-NA scarcity and manageable export controls.
 
-**Current view:** **neutral watch.** The upgrade does not change the stance; it expands the original fact base into the full house template so the report can be compared against the rest of the current-chain book.
+**Current view:** **neutral watch / medium conviction.** The v5 scenario grid keeps ASML neutral rather than more bullish: EUV/High-NA scarcity is real, but the July 2 price already embeds a durable WFE bottleneck, clean backlog conversion, and manageable export controls.
 
 | Metric | Current readout |
 | --- | --- |
@@ -22,7 +22,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Latest reported period | 2026Q1 / Q4 2025 bookings |
 | Price snapshot | $1,769.32 as of 2026-07-02 |
 | Coverage tier after this upgrade | full |
-| Stance | neutral watch |
+| Stance | neutral watch / medium conviction |
 | Primary valuation use | scenario context and risk tolerance, not a target price |
 
 ## 1. Business And Chain Role
@@ -121,16 +121,17 @@ Thesis breakers:
 
 ## 8. Valuation Context
 
-Valuation is used as risk context, not as a recommendation. The table below creates explicit price levels from the current price anchor so the bull/bear discussion has numbers.
+Valuation is used as risk context, not as a recommendation. The v5 question is what the $1,769.32 dated price already assumes about EUV / High-NA, WFE intensity, backlog conversion, and China/export risk.
 
-| Scenario | Price-level context | Interpretation |
-| --- | --- | --- |
-| Bear | $1,238.52 (-30% from the report price anchor) | A cycle, execution, or multiple reset overwhelms the thesis |
-| Base | $1,769.32 (current price anchor) | The market is already capitalizing the current evidence |
-| Bull | $2,211.65 (+25% from the report price anchor) | Execution confirms the chain role and valuation tolerance expands |
-| No target-price warning | These are scenario markers, not price targets | Use only for monitoring risk/reward asymmetry |
+**Scenario grid:**
 
-The key valuation question is whether the next evidence set increases the denominator faster than the market increases the multiple.
+| Scenario | Driver assumptions (EUV / High-NA demand, backlog, export controls, multiple regime) | Valuation implication (rich / fair / cheap vs today) | Subjective probability weight |
+| --- | --- | --- | --- |
+| Bull | EUV and High-NA bookings stay tight into 2027; the EUR 38.797B backlog converts cleanly into FY2026-FY2027 revenue; service sales keep growing; export controls remain manageable; through-cycle EV/sales stays in the low-to-mid teens | Current price would look fair to slightly cheap only if WFE remains EUV-constrained and the monopoly premium proves durable | 30% |
+| Base | FY2026 revenue lands in the EUR 36-40B guide; EUV backlog supports revenue but order cadence normalizes; High-NA ramps gradually; China restrictions cap some upside without breaking the model; EV/sales settles around high single digits to low teens | Current price is broadly fair: quality deserves a premium, but most EUV scarcity is already capitalized | 40% |
+| Bear | WFE orders cool after AI customer prebuild; High-NA adoption is slower; export controls reduce China system or service access; backlog conversion slips; the multiple resets toward ordinary equipment-cycle levels | Current price would be rich because both revenue expectations and the through-cycle multiple compress | 30% |
+
+**What's priced in & the expectation gap:** At $1,769.32 and about 15.6x EV/2026E sales, the market already prices EUV / High-NA scarcity, FY2026 revenue of EUR 36-40B, and manageable export controls. If the through-cycle equipment multiple normalizes toward roughly 10-12x sales and investors require about 8% annually, ASML needs either mid-to-high-teens revenue compounding or a sustained monopoly premium to make the current multiple feel easy. Our base case is close to that implied expectation rather than clearly above it, so the expectation gap is balanced. These are assumption ranges for expectations calibration, not a target price.
 
 ## 9. Catalysts And Monitoring
 
@@ -153,7 +154,13 @@ These are the items that should drive future reruns. A monitoring update should 
 | KLAC | process-control dashboard | Confirms, contradicts, or bounds the same chain question |
 | TSM | foundry demand confirmation | Confirms, contradicts, or bounds the same chain question |
 
-Conclusion: ASML Holding remains a **neutral watch** common constraint for the semiconductor equipment layer. The upgrade moves the report from a thin initial/lite format to the full house template while preserving the original fact base. The next real editorial move should be triggered by the monitoring table, not by a desire to re-rate the company without new evidence.
+ASML's chain-validation job is unchanged: it is the common-constraint read on whether AI foundry and memory capex is truly passing through EUV, High-NA, backlog, installed-base service, and export-control gates.
+
+The expectation gap is balanced: at $1,769.32 and about 15.6x EV/2026E sales, the market already prices EUV / High-NA scarcity, FY2026 revenue of EUR 36-40B, and manageable export controls; our 30% bull / 40% base / 30% bear grid keeps the base case close to implied expectations.
+
+The current stance is **neutral watch, medium conviction**. Neutral is not a lack of view: the monopoly quality is exceptional, but the scenario skew is roughly balanced because the price already capitalizes the most important bottleneck benefits. Medium conviction reflects solid order/backlog evidence, offset by the need to verify Q2 order cadence and export-control outcomes.
+
+Upgrade trigger: move to constructive if Q2 2026 orders and customer-capacity commentary show EUV / High-NA bookings staying above the FY2026 revenue run-rate, backlog conversion remains on plan, and export-control updates do not reduce the China service or systems opportunity while the valuation multiple does not expand further. Downgrade trigger: move to cautious if EUV / High-NA bookings slow, the EUR 38.797B backlog shows cancellation or delay risk, China/export-control limits reduce system or installed-base service access, or gross margin slips below the FY2026 51-53% guide.
 
 ## Appendix: Sources And Assumptions
 
@@ -161,4 +168,4 @@ Conclusion: ASML Holding remains a **neutral watch** common constraint for the s
 - ASML Q4 2025 official release: [Q4 2025 financial results](https://www.asml.com/en/news/press-releases/2026/q4-2025-financial-results).
 
 - This 2026-07-06 depth upgrade preserves the existing vetted fact base and expands structure, tables, peer comparison, scenario levels, and monitoring parity.
-- Scenario price levels are mechanically derived from the report price anchor and are not investment advice, forecasts, or target prices.
+- The v5 scenario grid and priced-in paragraph use the same July 2, 2026 market snapshot as the price ledger. The assumption ranges calibrate embedded expectations; they are not target prices.

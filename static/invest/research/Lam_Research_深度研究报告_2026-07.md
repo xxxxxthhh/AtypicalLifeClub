@@ -1,7 +1,7 @@
 # Lam Research 深度研究报告 - AI 内存与先进逻辑的刻蚀/沉积校验
 
 标的收录日期：2026-07-05
-最近更新日期：2026-07-06
+最近更新日期：2026-07-07
 代码：NASDAQ: LRCX
 免责声明：本报告仅用于信息与研究交流，不构成任何投资建议，请自行完成尽职调查。
 
@@ -11,9 +11,9 @@
 
 > **框架角色：** Lam Research 是 AI 基建 半导体设备 层的仪表盘。本报告的任务是验证链条信号，而不是把单一公司数据直接变成投资建议。
 
-**一句话论点：** AI 基础设施 semicap-equipment 层的刻蚀/沉积仪表盘：LRCX 验证 HBM、先进 DRAM、3D 结构和领先逻辑是否提高 process-tool intensity。2026 年 3 月季度收入 $5.841B、GAAP gross margin 49.8%、non-GAAP EPS $1.47；Systems revenue $3.731B，customer-support-related and other revenue $2.111B。6 月季度指引收入 $6.60B +/- $400M、gross margin 50.5%、operating margin 36.5%。当前 $351.41、市值约 $439.5B、EV 约 $438.4B，约 16.6x EV/June-quarter annualized sales。中性观察：AI process intensity 强，但中国 34% 收入暴露和估值都高。
+**一句话论点：** AI 基础设施 semicap-equipment 层的刻蚀/沉积仪表盘：LRCX 验证 HBM、先进 DRAM、3D 结构和领先逻辑是否提高 process-tool intensity。2026 年 3 月季度收入 $5.841B、GAAP gross margin 49.8%、non-GAAP EPS $1.47；Systems revenue $3.731B，customer-support-related and other revenue $2.111B。6 月季度指引收入 $6.60B +/- $400M、gross margin 50.5%、operating margin 36.5%。当前 $351.41、市值约 $439.5B、EV 约 $438.4B，约 16.6x EV/June-quarter annualized sales。中性观察 / 中确信：AI process intensity 强，但中国 34% 收入暴露和估值让偏斜保持均衡。
 
-**当前判断：** **中性观察。** 本次升级不改变 stance，而是把原本已核验的事实基础扩展成完整 house template，使它能和当前链条报告横向比较。
+**当前判断：** **中性观察 / 中确信。** Lam 是这一组里更干净的 AI process-intensity 故事之一，但带日期价格已经假设 Systems 强兑现、服务收入有韧性，且 China/Korea/Taiwan 需求不破裂。
 
 | 指标 | 当前读数 |
 | --- | --- |
@@ -22,7 +22,7 @@
 | 最新报告期 | March 2026 quarter |
 | 价格快照 | $351.41，截至 2026-07-02 |
 | 本次升级后 coverageTier | full |
-| Stance | 中性观察 |
+| Stance | 中性观察 / 中确信 |
 | 估值用途 | 情景与风险容错率，不是目标价 |
 
 ## 1. 业务与链条角色
@@ -121,16 +121,17 @@
 
 ## 8. 估值背景
 
-估值只作为风险背景，不是投资建议。下表从当前价格锚点推导明确情景价格，让牛熊讨论有数字边界。
+估值只作为风险背景，不是投资建议。v5 问题是：$351.41 这个带日期价格是否已经对 HBM、先进 DRAM、3D 结构和领先逻辑带来的刻蚀/沉积强度给了过多信用。
 
-| 情景 | 价格水平背景 | 解读 |
-| --- | --- | --- |
-| Bear | $245.99（较报告价格锚点 -30%） | 周期、执行或倍数重置压过 thesis |
-| Base | $351.41（当前价格锚点） | 市场已资本化当前证据 |
-| Bull | $439.26（较报告价格锚点 +25%） | 执行确认链条角色，估值容错率上升 |
-| 非目标价提示 | 这些是情景标尺，不是目标价 | 只用于监测 risk/reward asymmetry |
+**情景网格：**
 
-关键估值问题是：下一组证据能否让 denominator 增长快于市场给的 multiple 增长。
+| 情景 | 驱动假设（刻蚀/沉积需求、中国 mix、服务、倍数区间） | 估值含义（相对今天偏贵 / 合理 / 便宜） | 主观概率权重 |
+| --- | --- | --- | --- |
+| 牛市情景 | HBM 与先进逻辑工艺步骤继续把 Systems revenue 推到 6 月季度指引之上；operating margin 接近或高于 36.5%；服务收入保持韧性；China/Korea/Taiwan 需求完整；中十几倍 EV/sales 由持久 tool intensity 支撑 | 如果 WFE 周期仍由 process intensity 而不只是装机量驱动，当前价格显得合理到略便宜 | 30% |
+| 基准情景 | 6 月季度收入接近 $6.60B 中点；Systems 与服务都增长但速度正常化；中国仍大但可管理；日本 deferred-revenue 验收推进；EV/sales 向高个位数至低十几倍回落 | 当前价格大体合理，有足够 process-intensity 证据避免负面 stance，但不足以支持明确正偏斜 | 40% |
+| 熊市情景 | 中国收入或出口限制降低出货可见度；Korea/Taiwan HBM 或逻辑需求无法补位；日本验收延后；服务收入走弱；operating margin 低于指引；倍数回到普通工具周期水平 | 当前价格会显得偏贵，因为收入转化和倍数都会低于预期 | 30% |
+
+**已定价预期与预期差：** 以 $351.41、约 $438.4B EV、16.6x EV/June-quarter annualized sales 计，市场正在为 process-tool intensity 在下一轮 WFE 周期里保持高位付费。若 Lam 的通过周期倍数向约 10-12x sales 正常化、投资者要求约 8% 年化回报，当前框架需要持续中到高十位数收入增长，或中十几倍倍数长期成立。我们的 30% 牛市 / 40% 基准 / 30% 熊市情景表让 base case 接近这一隐含预期，因此偏斜均衡。这是预期框架，不是目标价。
 
 ## 9. 催化与监测
 
@@ -153,7 +154,13 @@
 | MU | memory/HBM demand | 确认、反驳或限定同一链条问题 |
 | TSM | logic capex signal | 确认、反驳或限定同一链条问题 |
 
-结论：Lam Research 仍是 半导体设备 层的 **中性观察** 仪表盘。本次升级把报告从 thin initial/lite 格式提升到完整 house template，同时保留原本事实基础。下一次真正的编辑动作应由 monitoring table 触发，而不是在没有新证据时重新评级。
+Lam Research 的链条验证工作不变：它检验 AI memory 和先进逻辑是否把刻蚀/沉积 process intensity 提高到足以支撑更广泛的半导体设备周期。
+
+预期差是均衡的：以 $351.41、约 16.6x EV/June-quarter annualized sales 计，市场已经在为较高 process-tool intensity 付费；我们的 30% 牛市 / 40% 基准 / 30% 熊市情景表让 base case 接近这一隐含预期。
+
+当前 stance 是 **中性观察，中确信**。中性反映真实观点：Lam 有强 AI/HBM process-intensity 证据，但中国暴露、日本验收时点和中十几倍 sales multiple 让风险回报无法明确转正。中确信来自明确的 6 月季度指引和可见服务基盘，同时被出口风险和 WFE 周期敏感性抵消。
+
+升级触发条件：如果 6 月季度收入达到或高于 $6.60B 中点、Systems revenue 持续扩张且 operating margin 接近 36.5%，China/Korea/Taiwan mix 没有出口管制或客户节奏断点，且服务收入保持韧性、估值倍数没有进一步扩张，则上调至 constructive。降级触发条件：如果 Systems revenue 或服务收入走弱、中国收入或出口限制降低出货可见度、日本 deferred-revenue 验收延后，或 operating margin 低于 36.5% 指引而股价仍处于十几倍 EV/sales 框架，则下调至 cautious。
 
 ## 附录：来源与假设
 
@@ -161,4 +168,4 @@
 - Lam Research 2026 年 3 月季度 earnings release：[Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/707549/000070754926000020/lrcx_exhibitx991xq3x2026.htm)。
 
 - 2026-07-06 深度升级保留原先已核验事实基础，并补齐结构、表格、同行比较、情景价格和 monitoring parity。
-- 情景价格由报告价格锚点机械推导，不构成投资建议、预测或目标价。
+- v5 情景网格与已定价预期段落使用 2026 年 7 月 2 日价格台账锚点。假设区间用于校准内嵌预期，不是目标价。

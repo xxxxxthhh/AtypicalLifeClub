@@ -1,7 +1,7 @@
 # KLA Deep Research Report - Process-Control And Yield Dashboard For AI Capacity
 
 Coverage date: 2026-07-05
-Last updated: 2026-07-06
+Last updated: 2026-07-07
 Ticker: NASDAQ: KLAC
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -11,9 +11,9 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 > **Framework role:** KLA is the dashboard for the AI-infrastructure semiconductor equipment layer. The report's job is to test the chain signal, not to turn one company print into a recommendation.
 
-**One-line thesis:** Process-control and yield dashboard for the AI-infrastructure semicap-equipment layer. KLAC tests whether AI capacity is not just installed, but supported by inspection, metrology, and process control that make advanced capacity yieldable. FY2026 Q3 revenue was $3.416B, GAAP EPS was $9.12, and non-GAAP EPS was $9.40 on the company's as-reported basis; Semiconductor Process Control revenue was $3.084B. Quarterly operating cash flow was $707.5M and FCF was $622.3M; LTM FCF was $4.01B. At $235.55, about $307.7B market cap and $308.9B EV, valuation is best viewed through about 22.6x EV/Q3 annualized revenue and about 1.3% LTM FCF yield because current market data and filing EPS appear to use different split bases. Neutral watch: quality is exceptional, but the multiple is sensitive to WFE cooling.
+**One-line thesis:** Process-control and yield dashboard for the AI-infrastructure semicap-equipment layer. KLAC tests whether AI capacity is not just installed, but supported by inspection, metrology, and process control that make advanced capacity yieldable. FY2026 Q3 revenue was $3.416B, GAAP EPS was $9.12, and non-GAAP EPS was $9.40 on the company's as-reported basis; Semiconductor Process Control revenue was $3.084B. Quarterly operating cash flow was $707.5M and FCF was $622.3M; LTM FCF was $4.01B. At $235.55, about $307.7B market cap and $308.9B EV, valuation is best viewed through about 22.6x EV/Q3 annualized revenue and about 1.3% LTM FCF yield because current market data and filing EPS appear to use different split bases. Cautious / medium conviction: quality is exceptional, but the multiple is highly sensitive to any WFE or process-control cooling.
 
-**Current view:** **neutral watch.** The upgrade does not change the stance; it expands the original fact base into the full house template so the report can be compared against the rest of the current-chain book.
+**Current view:** **cautious / medium conviction.** KLA has the strongest process-control quality signal in the batch, but the July 2 price already embeds a large premium for AI yield demand, broad segment strength, and continued FCF support.
 
 | Metric | Current readout |
 | --- | --- |
@@ -22,7 +22,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Latest reported period | FY2026 Q3 |
 | Price snapshot | $235.55 as of 2026-07-02 |
 | Coverage tier after this upgrade | full |
-| Stance | neutral watch |
+| Stance | cautious / medium conviction |
 | Primary valuation use | scenario context and risk tolerance, not a target price |
 
 ## 1. Business And Chain Role
@@ -121,16 +121,17 @@ Thesis breakers:
 
 ## 8. Valuation Context
 
-Valuation is used as risk context, not as a recommendation. The table below creates explicit price levels from the current price anchor so the bull/bear discussion has numbers.
+Valuation is used as risk context, not as a recommendation. The v5 question is whether the $235.55 dated price already assumes too much durable process-control scarcity and FCF resilience.
 
-| Scenario | Price-level context | Interpretation |
-| --- | --- | --- |
-| Bear | $164.88 (-30% from the report price anchor) | A cycle, execution, or multiple reset overwhelms the thesis |
-| Base | $235.55 (current price anchor) | The market is already capitalizing the current evidence |
-| Bull | $294.44 (+25% from the report price anchor) | Execution confirms the chain role and valuation tolerance expands |
-| No target-price warning | These are scenario markers, not price targets | Use only for monitoring risk/reward asymmetry |
+**Scenario grid:**
 
-The key valuation question is whether the next evidence set increases the denominator faster than the market increases the multiple.
+| Scenario | Driver assumptions (process-control demand, segment breadth, FCF, multiple regime) | Valuation implication (rich / fair / cheap vs today) | Subjective probability weight |
+| --- | --- | --- | --- |
+| Bull | Semiconductor Process Control revenue keeps compounding; AI demand stays broad across foundry/logic, memory, advanced packaging, and services; FCF grows faster than revenue; buybacks reduce share count without masking cycle risk; premium EV/sales is sustained | Current price would look fair only if process-control scarcity proves structurally tighter than the broader WFE cycle | 20% |
+| Base | Process-control revenue remains strong but WFE growth normalizes; FCF supports capital return without a new step-up; Specialty Semiconductor Process and PCB / Component Inspection stay contained; EV/sales gradually compresses from the current premium | Current price already capitalizes most of this case; quality is high, but the FCF yield leaves little room for a flat cycle | 40% |
+| Bear | WFE or process-control demand cools; secondary segments drag reported growth; FCF weakens or buybacks consume too much cash; guidance softens; the market rejects a 20x+ annualized-revenue frame | Current price would be rich because the quality premium and the revenue line would reset together | 40% |
+
+**What's priced in & the expectation gap:** At $235.55, about $308.9B EV, roughly 22.6x EV/Q3 annualized revenue, and about 1.3% LTM FCF yield, the market is pricing KLA as a scarce process-control compounder, not merely a cyclical equipment supplier. To justify that frame, the base case needs process-control growth, broad AI vectors, and FCF expansion to persist while the multiple compresses only slowly. Our 20% bull / 40% base / 40% bear grid puts the weighted view below that embedded expectation because a WFE cooling cycle would hit both revenue optics and the premium multiple. This is an expectations frame, not a target price.
 
 ## 9. Catalysts And Monitoring
 
@@ -153,7 +154,13 @@ These are the items that should drive future reruns. A monitoring update should 
 | LRCX | process-tool intensity | Confirms, contradicts, or bounds the same chain question |
 | TSM | advanced-node yield demand | Confirms, contradicts, or bounds the same chain question |
 
-Conclusion: KLA remains a **neutral watch** dashboard for the semiconductor equipment layer. The upgrade moves the report from a thin initial/lite format to the full house template while preserving the original fact base. The next real editorial move should be triggered by the monitoring table, not by a desire to re-rate the company without new evidence.
+KLA's chain-validation job is unchanged: it checks whether AI capacity is becoming yieldable capacity through inspection, metrology, and process control rather than just installed tools.
+
+The expectation gap is negative: at $235.55, roughly 22.6x EV/Q3 annualized revenue and about 1.3% LTM FCF yield, the market is already paying for scarce process-control compounding; our 20% bull / 40% base / 40% bear grid leaves the weighted view below that embedded expectation.
+
+The current stance is **cautious, medium conviction**. Cautious reflects valuation skew, not weak quality: KLA is a premium asset, but the current frame needs process-control demand, broad AI vectors, and FCF support to stay strong while the multiple remains elevated. Medium conviction reflects high-quality reported revenue and cash-flow evidence, offset by the split-basis valuation caveat and WFE-cycle sensitivity.
+
+Upgrade trigger: move to neutral-watch if process-control revenue keeps growing, AI growth vectors across foundry/logic, memory, advanced packaging, and services remain broad, LTM FCF yield improves without a weaker cycle signal, and the EV/sales frame contracts without price-driven downside. Downgrade trigger: move to bearish-avoid if WFE or process-control demand cools, Specialty Semiconductor Process or PCB / Component Inspection starts dragging core growth, FCF no longer supports buybacks/dividends, or valuation remains above 20x annualized revenue while guidance weakens.
 
 ## Appendix: Sources And Assumptions
 
@@ -161,4 +168,4 @@ Conclusion: KLA remains a **neutral watch** dashboard for the semiconductor equi
 - KLA fiscal Q3 2026 earnings release: [Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/319201/000031920126000014/exhibit991earningsrelease3.htm).
 
 - This 2026-07-06 depth upgrade preserves the existing vetted fact base and expands structure, tables, peer comparison, scenario levels, and monitoring parity.
-- Scenario price levels are mechanically derived from the report price anchor and are not investment advice, forecasts, or target prices.
+- The v5 scenario grid and priced-in paragraph use the July 2, 2026 price ledger anchor. The assumption ranges calibrate embedded expectations; they are not target prices.

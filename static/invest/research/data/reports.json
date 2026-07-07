@@ -36,8 +36,8 @@
     "priceSymbol": "ASML",
     "title": "ASML 深度研究报告 - EUV / High-NA 作为设备层公共约束",
     "titleEn": "ASML Deep Research Report - EUV / High-NA as the Equipment-Layer Common Constraint",
-    "summary": "AI 基础设施 semicap-equipment 层的公共约束：ASML 验证 foundry / memory capex 是否真正穿过光刻、EUV、High-NA、长期协议和出口管制这道最硬瓶颈。Q1 2026 net sales EUR 8.767B、gross margin 53.0%、net income EUR 2.757B；FY2026 指引 net sales EUR 36-40B、gross margin 51-53%。Q4 2025 net bookings EUR 13.158B，其中 EUV EUR 7.4B，年末 backlog EUR 38.797B。当前 ADR $1,769.32（2026-07-02）、市值约 $681.9B，按 EUR/USD 1.1440 和 FY2026 sales 中点折算，约 15.6x EV/2026E sales。中性观察：垄断质量极高，但估值已经资本化持续 EUV/High-NA 稀缺和出口管制可控。",
-    "summaryEn": "Common-constraint coverage for the AI-infrastructure semicap-equipment layer. ASML tests whether foundry and memory capex truly passes through lithography, EUV, High-NA, long-term agreements, and export controls. Q1 2026 net sales were EUR 8.767B, gross margin was 53.0%, and net income was EUR 2.757B; FY2026 guidance is EUR 36-40B net sales and 51-53% gross margin. Q4 2025 net bookings were EUR 13.158B, including EUR 7.4B EUV, and year-end backlog was EUR 38.797B. At $1,769.32 per ADR (2026-07-02), about $681.9B market cap, and EUR/USD 1.1440, ASML trades around 15.6x EV/2026E sales at the FY2026 sales midpoint. Neutral watch: monopoly quality is exceptional, but the valuation already capitalizes durable EUV/High-NA scarcity and manageable export controls.",
+    "summary": "AI 基础设施 semicap-equipment 层的公共约束：ASML 验证 foundry / memory capex 是否真正穿过光刻、EUV、High-NA、长期协议和出口管制这道最硬瓶颈。Q1 2026 net sales EUR 8.767B、gross margin 53.0%、net income EUR 2.757B；FY2026 指引 net sales EUR 36-40B、gross margin 51-53%。Q4 2025 net bookings EUR 13.158B，其中 EUV EUR 7.4B，年末 backlog EUR 38.797B。当前 ADR $1,769.32（2026-07-02）、市值约 $681.9B，按 EUR/USD 1.1440 和 FY2026 sales 中点折算，约 15.6x EV/2026E sales。中性观察 / 中确信：垄断质量极高，但估值已经资本化持续 EUV/High-NA 稀缺和出口管制可控。",
+    "summaryEn": "Common-constraint coverage for the AI-infrastructure semicap-equipment layer. ASML tests whether foundry and memory capex truly passes through lithography, EUV, High-NA, long-term agreements, and export controls. Q1 2026 net sales were EUR 8.767B, gross margin was 53.0%, and net income was EUR 2.757B; FY2026 guidance is EUR 36-40B net sales and 51-53% gross margin. Q4 2025 net bookings were EUR 13.158B, including EUR 7.4B EUV, and year-end backlog was EUR 38.797B. At $1,769.32 per ADR (2026-07-02), about $681.9B market cap, and EUR/USD 1.1440, ASML trades around 15.6x EV/2026E sales at the FY2026 sales midpoint. Neutral watch / medium conviction: monopoly quality is exceptional, but the valuation already capitalizes durable EUV/High-NA scarcity and manageable export controls.",
     "tags": [
       "半导体设备",
       "EUV",
@@ -46,7 +46,7 @@
     ],
     "category": "tech",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-06",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=asml-2026",
     "markdownFiles": {
       "zh": "/invest/research/ASML_深度研究报告_2026-07.md",
@@ -65,6 +65,29 @@
     "coverageTier": "full",
     "chainRole": "common-constraint",
     "stance": "neutral-watch",
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 $1,769.32、约 15.6x EV/2026E sales 计，市场已经定价 EUV / High-NA 稀缺、FY2026 EUR 36-40B 收入和出口管制可控；30% 牛市 / 40% 基准 / 30% 熊市情景表显示 base case 接近隐含预期，偏斜均衡。",
+      "en": "At $1,769.32 and about 15.6x EV/2026E sales, the market already prices EUV / High-NA scarcity, FY2026 revenue of EUR 36-40B, and manageable export controls; the 30% bull / 40% base / 30% bear grid leaves the base case close to implied expectations, so skew is balanced."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "如果 Q2 2026 订单与客户产能评论显示 EUV / High-NA bookings 仍高于 FY2026 收入 run-rate，backlog 转收入按计划推进，且出口管制更新没有压缩中国服务或系统机会，同时估值倍数没有进一步扩张，则上调至 constructive。",
+        "en": "move to constructive if Q2 2026 orders and customer-capacity commentary show EUV / High-NA bookings staying above the FY2026 revenue run-rate, backlog conversion remains on plan, and export-control updates do not reduce the China service or systems opportunity while the valuation multiple does not expand further."
+      },
+      "downgrade": {
+        "zh": "如果 EUV / High-NA bookings 放缓、EUR 38.797B backlog 出现取消或延期风险、中国/出口管制限制系统或 installed-base service 可达市场，或毛利率跌破 FY2026 51-53% 指引，则下调至 cautious。",
+        "en": "move to cautious if EUV / High-NA bookings slow, the EUR 38.797B backlog shows cancellation or delay risk, China/export-control limits reduce system or installed-base service access, or gross margin slips below the FY2026 51-53% guide."
+      }
+    },
+    "stanceHistory": [
+      {
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "date": "2026-07-02",
+        "price": 1769.32
+      }
+    ],
     "priceAsOf": "2026-07-02",
     "reportedPeriod": "2026Q1 / Q4 2025 bookings",
     "related": [
@@ -180,8 +203,8 @@
     "priceSymbol": "AMAT",
     "title": "Applied Materials 深度研究报告 - AI 扩产的广谱半导体设备仪表盘",
     "titleEn": "Applied Materials Deep Research Report - Broad Semicap Dashboard For AI Capacity Buildout",
-    "summary": "AI 基础设施 semicap-equipment 层的广谱设备仪表盘：AMAT 验证 AI 需求是否不只卡在 EUV，而是扩散到 deposition、etch、advanced packaging、DRAM 和服务。FY2026 Q2 收入 $7.91B、GAAP gross margin 49.9%、non-GAAP EPS $2.86；Semiconductor Systems 收入 $5.965B，其中 foundry/logic/other 67%、DRAM 29%。Q3 指引收入 $8.950B +/- $500M、non-GAAP EPS $3.36 +/- $0.20。当前 $603.04、市值约 $478.8B、EV 约 $477.8B，约 13.3x EV/Q3 annualized sales、约 36.8x forward EPS。中性观察：上行周期强，但中国/台湾暴露和估值容错率都高。",
-    "summaryEn": "Broad equipment dashboard for the AI-infrastructure semicap-equipment layer. AMAT tests whether AI demand is spreading beyond EUV into deposition, etch, advanced packaging, DRAM, and services. Q2 FY2026 revenue was $7.91B, GAAP gross margin was 49.9%, and non-GAAP EPS was $2.86; Semiconductor Systems revenue was $5.965B, with foundry/logic/other at 67% and DRAM at 29%. Q3 guidance is $8.950B revenue +/- $500M and non-GAAP EPS of $3.36 +/- $0.20. At $603.04, about $478.8B market cap and $477.8B EV, AMAT trades around 13.3x EV/Q3 annualized sales and 36.8x forward EPS. Neutral watch: the upcycle is strong, but China/Taiwan exposure and valuation tolerance are both elevated.",
+    "summary": "AI 基础设施 semicap-equipment 层的广谱设备仪表盘：AMAT 验证 AI 需求是否不只卡在 EUV，而是扩散到 deposition、etch、advanced packaging、DRAM 和服务。FY2026 Q2 收入 $7.91B、GAAP gross margin 49.9%、non-GAAP EPS $2.86；Semiconductor Systems 收入 $5.965B，其中 foundry/logic/other 67%、DRAM 29%。Q3 指引收入 $8.950B +/- $500M、non-GAAP EPS $3.36 +/- $0.20。当前 $603.04、市值约 $478.8B、EV 约 $477.8B，约 13.3x EV/Q3 annualized sales、约 36.8x forward EPS。谨慎 / 中确信：上行周期强，但中国/台湾暴露和估值容错率让情景偏斜略偏负。",
+    "summaryEn": "Broad equipment dashboard for the AI-infrastructure semicap-equipment layer. AMAT tests whether AI demand is spreading beyond EUV into deposition, etch, advanced packaging, DRAM, and services. Q2 FY2026 revenue was $7.91B, GAAP gross margin was 49.9%, and non-GAAP EPS was $2.86; Semiconductor Systems revenue was $5.965B, with foundry/logic/other at 67% and DRAM at 29%. Q3 guidance is $8.950B revenue +/- $500M and non-GAAP EPS of $3.36 +/- $0.20. At $603.04, about $478.8B market cap and $477.8B EV, AMAT trades around 13.3x EV/Q3 annualized sales and 36.8x forward EPS. Cautious / medium conviction: the upcycle is strong, but China/Taiwan exposure and valuation tolerance leave the scenario skew mildly negative.",
     "tags": [
       "半导体设备",
       "AI基础设施",
@@ -190,7 +213,7 @@
     ],
     "category": "tech",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-06",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=applied-materials-2026",
     "markdownFiles": {
       "zh": "/invest/research/Applied_Materials_深度研究报告_2026-07.md",
@@ -208,7 +231,35 @@
     "chainLayer": "semicap-equipment",
     "coverageTier": "full",
     "chainRole": "dashboard",
-    "stance": "neutral-watch",
+    "stance": "cautious",
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 $603.04、约 13.3x EV/Q3 annualized sales 和约 36.8x forward EPS 计，市场已经定价广谱 WFE 上行周期；20% 牛市 / 50% 基准 / 30% 熊市情景表给出的加权判断略低于这一内嵌预期。",
+      "en": "At $603.04, about 13.3x EV/Q3 annualized sales and roughly 36.8x forward EPS, the market already prices a broad WFE upcycle; the 20% bull / 50% base / 30% bear grid leaves the weighted view slightly below that embedded expectation."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "如果 FY2026 Q3 收入达到或高于 $8.95B 中点、Semiconductor Systems operating margin 维持 35% 以上，foundry/logic 与 DRAM mix 同时强劲，且中国/台湾暴露没有受到出口管制或客户节奏冲击，同时 EV/sales 倍数没有进一步扩张，则上调至 neutral-watch 或 constructive。",
+        "en": "move to neutral-watch or constructive if FY2026 Q3 revenue reaches or exceeds the $8.95B midpoint, Semiconductor Systems operating margin stays above 35%, foundry/logic and DRAM mix remain strong together, and China/Taiwan exposure is not hit by export controls or customer timing while the EV/sales multiple does not expand further."
+      },
+      "downgrade": {
+        "zh": "如果 Q3 收入低于中点、Semiconductor Systems 增长或 operating margin 走弱、中国/台湾收入受到出口管制或客户节奏冲击，或库存与供应链扩建转化为去库存压力，则下调至 bearish-avoid。",
+        "en": "move to bearish-avoid if Q3 revenue misses the midpoint, Semiconductor Systems growth or operating margin weakens, China/Taiwan revenue is hit by export controls or customer timing, or the inventory and supply-chain build turns into destocking pressure."
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-07-02",
+        "stance": "neutral-watch",
+        "price": 603.04
+      },
+      {
+        "date": "2026-07-02",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 603.04
+      }
+    ],
     "priceAsOf": "2026-07-02",
     "reportedPeriod": "FY2026 Q2",
     "related": [
@@ -324,8 +375,8 @@
     "priceSymbol": "LRCX",
     "title": "Lam Research 深度研究报告 - AI 内存与先进逻辑的刻蚀/沉积校验",
     "titleEn": "Lam Research Deep Research Report - Etch And Deposition Check On AI Memory And Advanced Logic",
-    "summary": "AI 基础设施 semicap-equipment 层的刻蚀/沉积仪表盘：LRCX 验证 HBM、先进 DRAM、3D 结构和领先逻辑是否提高 process-tool intensity。2026 年 3 月季度收入 $5.841B、GAAP gross margin 49.8%、non-GAAP EPS $1.47；Systems revenue $3.731B，customer-support-related and other revenue $2.111B。6 月季度指引收入 $6.60B +/- $400M、gross margin 50.5%、operating margin 36.5%。当前 $351.41、市值约 $439.5B、EV 约 $438.4B，约 16.6x EV/June-quarter annualized sales。中性观察：AI process intensity 强，但中国 34% 收入暴露和估值都高。",
-    "summaryEn": "Etch/deposition dashboard for the AI-infrastructure semicap-equipment layer. LRCX tests whether HBM, advanced DRAM, 3D structures, and leading-edge logic are raising process-tool intensity. March 2026 quarter revenue was $5.841B, GAAP gross margin was 49.8%, and non-GAAP EPS was $1.47; Systems revenue was $3.731B and customer-support-related and other revenue was $2.111B. June-quarter guidance is $6.60B revenue +/- $400M, 50.5% gross margin, and 36.5% operating margin. At $351.41, about $439.5B market cap and $438.4B EV, LRCX trades around 16.6x EV/June-quarter annualized sales. Neutral watch: AI process intensity is strong, but China exposure at 34% of revenue and valuation are both high.",
+    "summary": "AI 基础设施 semicap-equipment 层的刻蚀/沉积仪表盘：LRCX 验证 HBM、先进 DRAM、3D 结构和领先逻辑是否提高 process-tool intensity。2026 年 3 月季度收入 $5.841B、GAAP gross margin 49.8%、non-GAAP EPS $1.47；Systems revenue $3.731B，customer-support-related and other revenue $2.111B。6 月季度指引收入 $6.60B +/- $400M、gross margin 50.5%、operating margin 36.5%。当前 $351.41、市值约 $439.5B、EV 约 $438.4B，约 16.6x EV/June-quarter annualized sales。中性观察 / 中确信：AI process intensity 强，但中国 34% 收入暴露和估值让偏斜保持均衡。",
+    "summaryEn": "Etch/deposition dashboard for the AI-infrastructure semicap-equipment layer. LRCX tests whether HBM, advanced DRAM, 3D structures, and leading-edge logic are raising process-tool intensity. March 2026 quarter revenue was $5.841B, GAAP gross margin was 49.8%, and non-GAAP EPS was $1.47; Systems revenue was $3.731B and customer-support-related and other revenue was $2.111B. June-quarter guidance is $6.60B revenue +/- $400M, 50.5% gross margin, and 36.5% operating margin. At $351.41, about $439.5B market cap and $438.4B EV, LRCX trades around 16.6x EV/June-quarter annualized sales. Neutral watch / medium conviction: AI process intensity is strong, but China exposure at 34% of revenue and valuation keep the skew balanced.",
     "tags": [
       "半导体设备",
       "刻蚀",
@@ -334,7 +385,7 @@
     ],
     "category": "tech",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-06",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=lam-research-2026",
     "markdownFiles": {
       "zh": "/invest/research/Lam_Research_深度研究报告_2026-07.md",
@@ -353,6 +404,29 @@
     "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "neutral-watch",
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 $351.41、约 16.6x EV/June-quarter annualized sales 计，市场已经在为较高 process-tool intensity 付费；30% 牛市 / 40% 基准 / 30% 熊市情景表让 base case 接近这一隐含预期，偏斜均衡。",
+      "en": "At $351.41 and about 16.6x EV/June-quarter annualized sales, the market is already paying for elevated process-tool intensity; the 30% bull / 40% base / 30% bear grid leaves the base case close to that implied expectation, so skew is balanced."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "如果 6 月季度收入达到或高于 $6.60B 中点、Systems revenue 持续扩张且 operating margin 接近 36.5%，China/Korea/Taiwan mix 没有出口管制或客户节奏断点，且服务收入保持韧性、估值倍数没有进一步扩张，则上调至 constructive。",
+        "en": "move to constructive if June-quarter revenue reaches or exceeds the $6.60B midpoint, Systems revenue keeps expanding with operating margin near 36.5%, China/Korea/Taiwan mix shows no export-control or customer-timing break, and service revenue remains resilient without further multiple expansion."
+      },
+      "downgrade": {
+        "zh": "如果 Systems revenue 或服务收入走弱、中国收入或出口限制降低出货可见度、日本 deferred-revenue 验收延后，或 operating margin 低于 36.5% 指引而股价仍处于十几倍 EV/sales 框架，则下调至 cautious。",
+        "en": "move to cautious if Systems revenue or service revenue weakens, China revenue or export limits reduce shipment visibility, Japan deferred-revenue acceptance slips, or operating margin misses the 36.5% guide while the stock still trades at a mid-teens EV/sales frame."
+      }
+    },
+    "stanceHistory": [
+      {
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "date": "2026-07-02",
+        "price": 351.41
+      }
+    ],
     "priceAsOf": "2026-07-02",
     "reportedPeriod": "March 2026 quarter",
     "related": [
@@ -468,8 +542,8 @@
     "priceSymbol": "KLAC",
     "title": "KLA 深度研究报告 - AI 产能的过程控制与良率仪表盘",
     "titleEn": "KLA Deep Research Report - Process-Control And Yield Dashboard For AI Capacity",
-    "summary": "AI 基础设施 semicap-equipment 层的过程控制/良率仪表盘：KLAC 验证 AI 扩产是否不只是装机，而是投入 inspection、metrology 和 process-control 来形成可制造良率。FY2026 Q3 revenue $3.416B、GAAP EPS $9.12、non-GAAP EPS $9.40（公司 as-reported 口径）；Semiconductor Process Control revenue $3.084B。季度 operating cash flow $707.5M、FCF $622.3M；LTM FCF $4.01B。当前 $235.55、市值约 $307.7B、EV 约 $308.9B；因当前市场数据与披露 EPS 疑似拆股基准不同，估值以约 22.6x EV/Q3 annualized revenue 和约 1.3% LTM FCF yield 观察。中性观察：质量极高，但估值对 WFE 降温很敏感。",
-    "summaryEn": "Process-control and yield dashboard for the AI-infrastructure semicap-equipment layer. KLAC tests whether AI capacity is not just installed, but supported by inspection, metrology, and process control that make advanced capacity yieldable. FY2026 Q3 revenue was $3.416B, GAAP EPS was $9.12, and non-GAAP EPS was $9.40 on the company's as-reported basis; Semiconductor Process Control revenue was $3.084B. Quarterly operating cash flow was $707.5M and FCF was $622.3M; LTM FCF was $4.01B. At $235.55, about $307.7B market cap and $308.9B EV, valuation is best viewed through about 22.6x EV/Q3 annualized revenue and about 1.3% LTM FCF yield because current market data and filing EPS appear to use different split bases. Neutral watch: quality is exceptional, but the multiple is sensitive to WFE cooling.",
+    "summary": "AI 基础设施 semicap-equipment 层的过程控制/良率仪表盘：KLAC 验证 AI 扩产是否不只是装机，而是投入 inspection、metrology 和 process-control 来形成可制造良率。FY2026 Q3 revenue $3.416B、GAAP EPS $9.12、non-GAAP EPS $9.40（公司 as-reported 口径）；Semiconductor Process Control revenue $3.084B。季度 operating cash flow $707.5M、FCF $622.3M；LTM FCF $4.01B。当前 $235.55、市值约 $307.7B、EV 约 $308.9B；因当前市场数据与披露 EPS 疑似拆股基准不同，估值以约 22.6x EV/Q3 annualized revenue 和约 1.3% LTM FCF yield 观察。谨慎 / 中确信：质量极高，但倍数对任何 WFE 或 process-control 降温都很敏感。",
+    "summaryEn": "Process-control and yield dashboard for the AI-infrastructure semicap-equipment layer. KLAC tests whether AI capacity is not just installed, but supported by inspection, metrology, and process control that make advanced capacity yieldable. FY2026 Q3 revenue was $3.416B, GAAP EPS was $9.12, and non-GAAP EPS was $9.40 on the company's as-reported basis; Semiconductor Process Control revenue was $3.084B. Quarterly operating cash flow was $707.5M and FCF was $622.3M; LTM FCF was $4.01B. At $235.55, about $307.7B market cap and $308.9B EV, valuation is best viewed through about 22.6x EV/Q3 annualized revenue and about 1.3% LTM FCF yield because current market data and filing EPS appear to use different split bases. Cautious / medium conviction: quality is exceptional, but the multiple is highly sensitive to any WFE or process-control cooling.",
     "tags": [
       "半导体设备",
       "过程控制",
@@ -478,7 +552,7 @@
     ],
     "category": "tech",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-06",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=kla-2026",
     "markdownFiles": {
       "zh": "/invest/research/KLA_深度研究报告_2026-07.md",
@@ -496,7 +570,35 @@
     "chainLayer": "semicap-equipment",
     "coverageTier": "full",
     "chainRole": "dashboard",
-    "stance": "neutral-watch",
+    "stance": "cautious",
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 $235.55、约 22.6x EV/Q3 annualized revenue 和约 1.3% LTM FCF yield 计，市场已经在为稀缺 process-control 复合增长付费；20% 牛市 / 40% 基准 / 40% 熊市情景表给出的加权判断低于这一内嵌预期。",
+      "en": "At $235.55, roughly 22.6x EV/Q3 annualized revenue and about 1.3% LTM FCF yield, the market is already paying for scarce process-control compounding; the 20% bull / 40% base / 40% bear grid leaves the weighted view below that embedded expectation."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "如果 process-control revenue 持续增长，foundry/logic、memory、advanced packaging 和 services 的 AI 增长向量仍然广泛，LTM FCF yield 在没有周期转弱信号的情况下改善，且 EV/sales 框架通过基本面而不是股价下跌收缩，则上调至 neutral-watch。",
+        "en": "move to neutral-watch if process-control revenue keeps growing, AI growth vectors across foundry/logic, memory, advanced packaging, and services remain broad, LTM FCF yield improves without a weaker cycle signal, and the EV/sales frame contracts without price-driven downside."
+      },
+      "downgrade": {
+        "zh": "如果 WFE 或 process-control demand 降温、Specialty Semiconductor Process 或 PCB / Component Inspection 开始拖累核心增长、FCF 不再支撑 buyback/dividend，或估值仍高于 20x annualized revenue 而指引转弱，则下调至 bearish-avoid。",
+        "en": "move to bearish-avoid if WFE or process-control demand cools, Specialty Semiconductor Process or PCB / Component Inspection starts dragging core growth, FCF no longer supports buybacks/dividends, or valuation remains above 20x annualized revenue while guidance weakens."
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-07-02",
+        "stance": "neutral-watch",
+        "price": 235.55
+      },
+      {
+        "date": "2026-07-02",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 235.55
+      }
+    ],
     "priceAsOf": "2026-07-02",
     "reportedPeriod": "FY2026 Q3",
     "related": [

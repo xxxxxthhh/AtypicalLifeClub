@@ -1,7 +1,7 @@
 # Lam Research Deep Research Report - Etch And Deposition Check On AI Memory And Advanced Logic
 
 Coverage date: 2026-07-05
-Last updated: 2026-07-06
+Last updated: 2026-07-07
 Ticker: NASDAQ: LRCX
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -11,9 +11,9 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 > **Framework role:** Lam Research is the dashboard for the AI-infrastructure semiconductor equipment layer. The report's job is to test the chain signal, not to turn one company print into a recommendation.
 
-**One-line thesis:** Etch/deposition dashboard for the AI-infrastructure semicap-equipment layer. LRCX tests whether HBM, advanced DRAM, 3D structures, and leading-edge logic are raising process-tool intensity. March 2026 quarter revenue was $5.841B, GAAP gross margin was 49.8%, and non-GAAP EPS was $1.47; Systems revenue was $3.731B and customer-support-related and other revenue was $2.111B. June-quarter guidance is $6.60B revenue +/- $400M, 50.5% gross margin, and 36.5% operating margin. At $351.41, about $439.5B market cap and $438.4B EV, LRCX trades around 16.6x EV/June-quarter annualized sales. Neutral watch: AI process intensity is strong, but China exposure at 34% of revenue and valuation are both high.
+**One-line thesis:** Etch/deposition dashboard for the AI-infrastructure semicap-equipment layer. LRCX tests whether HBM, advanced DRAM, 3D structures, and leading-edge logic are raising process-tool intensity. March 2026 quarter revenue was $5.841B, GAAP gross margin was 49.8%, and non-GAAP EPS was $1.47; Systems revenue was $3.731B and customer-support-related and other revenue was $2.111B. June-quarter guidance is $6.60B revenue +/- $400M, 50.5% gross margin, and 36.5% operating margin. At $351.41, about $439.5B market cap and $438.4B EV, LRCX trades around 16.6x EV/June-quarter annualized sales. Neutral watch / medium conviction: AI process intensity is strong, but China exposure at 34% of revenue and valuation keep the skew balanced.
 
-**Current view:** **neutral watch.** The upgrade does not change the stance; it expands the original fact base into the full house template so the report can be compared against the rest of the current-chain book.
+**Current view:** **neutral watch / medium conviction.** Lam has one of the cleaner AI-process-intensity stories in the group, but the dated price already assumes strong Systems conversion, resilient service revenue, and no break in China/Korea/Taiwan demand.
 
 | Metric | Current readout |
 | --- | --- |
@@ -22,7 +22,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Latest reported period | March 2026 quarter |
 | Price snapshot | $351.41 as of 2026-07-02 |
 | Coverage tier after this upgrade | full |
-| Stance | neutral watch |
+| Stance | neutral watch / medium conviction |
 | Primary valuation use | scenario context and risk tolerance, not a target price |
 
 ## 1. Business And Chain Role
@@ -121,16 +121,17 @@ Thesis breakers:
 
 ## 8. Valuation Context
 
-Valuation is used as risk context, not as a recommendation. The table below creates explicit price levels from the current price anchor so the bull/bear discussion has numbers.
+Valuation is used as risk context, not as a recommendation. The v5 question is whether the $351.41 dated price already assumes too much etch/deposition intensity from HBM, advanced DRAM, 3D structures, and leading-edge logic.
 
-| Scenario | Price-level context | Interpretation |
-| --- | --- | --- |
-| Bear | $245.99 (-30% from the report price anchor) | A cycle, execution, or multiple reset overwhelms the thesis |
-| Base | $351.41 (current price anchor) | The market is already capitalizing the current evidence |
-| Bull | $439.26 (+25% from the report price anchor) | Execution confirms the chain role and valuation tolerance expands |
-| No target-price warning | These are scenario markers, not price targets | Use only for monitoring risk/reward asymmetry |
+**Scenario grid:**
 
-The key valuation question is whether the next evidence set increases the denominator faster than the market increases the multiple.
+| Scenario | Driver assumptions (etch/deposition demand, China mix, service, multiple regime) | Valuation implication (rich / fair / cheap vs today) | Subjective probability weight |
+| --- | --- | --- | --- |
+| Bull | HBM and advanced-logic process steps keep lifting Systems revenue above the June-quarter guide; operating margin holds near 36.5% or better; service revenue remains resilient; China/Korea/Taiwan demand stays intact; mid-teens EV/sales is supported by durable tool intensity | Current price would look fair to slightly cheap if the WFE cycle remains process-intensity-led rather than just volume-led | 30% |
+| Base | June-quarter revenue lands near the $6.60B midpoint; Systems and service both grow but at a more normal pace; China remains large but manageable; Japan deferred-revenue acceptance proceeds; EV/sales drifts toward high single digits to low teens | Current price is broadly fair, with enough process-intensity evidence to avoid a negative stance but not enough margin for a clearly positive call | 40% |
+| Bear | China revenue or export limits reduce shipment visibility; Korea/Taiwan HBM or logic demand fails to offset; Japan acceptance slips; service revenue weakens; operating margin misses the guide; the multiple resets toward ordinary tool-cycle levels | Current price would be rich because revenue conversion and the multiple would both disappoint | 30% |
+
+**What's priced in & the expectation gap:** At $351.41, about $438.4B EV, and 16.6x EV/June-quarter annualized sales, the market is paying for process-tool intensity to stay elevated through the next WFE cycle. If Lam's through-cycle multiple normalizes toward roughly 10-12x sales and investors require about 8% annually, the current frame needs sustained mid-to-high-teens revenue growth or a durable mid-teens multiple. Our 30% bull / 40% base / 30% bear grid leaves the base case close to that implied expectation, so the skew is balanced. This is an expectations frame, not a target price.
 
 ## 9. Catalysts And Monitoring
 
@@ -153,7 +154,13 @@ These are the items that should drive future reruns. A monitoring update should 
 | MU | memory/HBM demand | Confirms, contradicts, or bounds the same chain question |
 | TSM | logic capex signal | Confirms, contradicts, or bounds the same chain question |
 
-Conclusion: Lam Research remains a **neutral watch** dashboard for the semiconductor equipment layer. The upgrade moves the report from a thin initial/lite format to the full house template while preserving the original fact base. The next real editorial move should be triggered by the monitoring table, not by a desire to re-rate the company without new evidence.
+Lam Research's chain-validation job is unchanged: it checks whether AI memory and advanced logic are raising etch/deposition process intensity enough to support the wider semicap-equipment cycle.
+
+The expectation gap is balanced: at $351.41 and about 16.6x EV/June-quarter annualized sales, the market is already paying for elevated process-tool intensity; our 30% bull / 40% base / 30% bear grid leaves the base case close to that implied expectation.
+
+The current stance is **neutral watch, medium conviction**. Neutral reflects a real view: Lam has strong AI/HBM process-intensity evidence, but China exposure, Japan acceptance timing, and a mid-teens sales multiple keep the risk/reward from becoming clearly positive. Medium conviction reflects the explicit June-quarter guide and visible service base, offset by export and WFE-cycle sensitivity.
+
+Upgrade trigger: move to constructive if June-quarter revenue reaches or exceeds the $6.60B midpoint, Systems revenue keeps expanding with operating margin near 36.5%, China/Korea/Taiwan mix shows no export-control or customer-timing break, and service revenue remains resilient without further multiple expansion. Downgrade trigger: move to cautious if Systems revenue or service revenue weakens, China revenue or export limits reduce shipment visibility, Japan deferred-revenue acceptance slips, or operating margin misses the 36.5% guide while the stock still trades at a mid-teens EV/sales frame.
 
 ## Appendix: Sources And Assumptions
 
@@ -161,4 +168,4 @@ Conclusion: Lam Research remains a **neutral watch** dashboard for the semicondu
 - Lam Research March 2026 quarter earnings release: [Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/707549/000070754926000020/lrcx_exhibitx991xq3x2026.htm).
 
 - This 2026-07-06 depth upgrade preserves the existing vetted fact base and expands structure, tables, peer comparison, scenario levels, and monitoring parity.
-- Scenario price levels are mechanically derived from the report price anchor and are not investment advice, forecasts, or target prices.
+- The v5 scenario grid and priced-in paragraph use the July 2, 2026 price ledger anchor. The assumption ranges calibrate embedded expectations; they are not target prices.

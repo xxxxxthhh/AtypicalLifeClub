@@ -6,6 +6,34 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>ASML 深度研究报告 - EUV / High-NA 作为设备层公共约束 / ASML Deep Research Report - EUV / High-NA as the Equipment-Layer Common Constraint</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=asml-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=asml-2026#asml-2026@2026-07-07</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施 semicap-equipment 层的公共约束：ASML 验证 foundry / memory capex 是否真正穿过光刻、EUV、High-NA、长期协议和出口管制这道最硬瓶颈。Q1 2026 net sales EUR 8.767B、gross margin 53.0%、net income EUR 2.757B；FY2026 指引 net sales EUR 36-40B、gross margin 51-53%。Q4 2025 net bookings EUR 13.158B，其中 EUV EUR 7.4B，年末 backlog EUR 38.797B。当前 ADR $1,769.32（2026-07-02）、市值约 $681.9B，按 EUR/USD 1.1440 和 FY2026 sales 中点折算，约 15.6x EV/2026E sales。中性观察 / 中确信：垄断质量极高，但估值已经资本化持续 EUV/High-NA 稀缺和出口管制可控。</description>
+    </item>
+    <item>
+      <title>Applied Materials 深度研究报告 - AI 扩产的广谱半导体设备仪表盘 / Applied Materials Deep Research Report - Broad Semicap Dashboard For AI Capacity Buildout</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=applied-materials-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=applied-materials-2026#applied-materials-2026@2026-07-07</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施 semicap-equipment 层的广谱设备仪表盘：AMAT 验证 AI 需求是否不只卡在 EUV，而是扩散到 deposition、etch、advanced packaging、DRAM 和服务。FY2026 Q2 收入 $7.91B、GAAP gross margin 49.9%、non-GAAP EPS $2.86；Semiconductor Systems 收入 $5.965B，其中 foundry/logic/other 67%、DRAM 29%。Q3 指引收入 $8.950B +/- $500M、non-GAAP EPS $3.36 +/- $0.20。当前 $603.04、市值约 $478.8B、EV 约 $477.8B，约 13.3x EV/Q3 annualized sales、约 36.8x forward EPS。谨慎 / 中确信：上行周期强，但中国/台湾暴露和估值容错率让情景偏斜略偏负。</description>
+    </item>
+    <item>
+      <title>Lam Research 深度研究报告 - AI 内存与先进逻辑的刻蚀/沉积校验 / Lam Research Deep Research Report - Etch And Deposition Check On AI Memory And Advanced Logic</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=lam-research-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=lam-research-2026#lam-research-2026@2026-07-07</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施 semicap-equipment 层的刻蚀/沉积仪表盘：LRCX 验证 HBM、先进 DRAM、3D 结构和领先逻辑是否提高 process-tool intensity。2026 年 3 月季度收入 $5.841B、GAAP gross margin 49.8%、non-GAAP EPS $1.47；Systems revenue $3.731B，customer-support-related and other revenue $2.111B。6 月季度指引收入 $6.60B +/- $400M、gross margin 50.5%、operating margin 36.5%。当前 $351.41、市值约 $439.5B、EV 约 $438.4B，约 16.6x EV/June-quarter annualized sales。中性观察 / 中确信：AI process intensity 强，但中国 34% 收入暴露和估值让偏斜保持均衡。</description>
+    </item>
+    <item>
+      <title>KLA 深度研究报告 - AI 产能的过程控制与良率仪表盘 / KLA Deep Research Report - Process-Control And Yield Dashboard For AI Capacity</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=kla-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=kla-2026#kla-2026@2026-07-07</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施 semicap-equipment 层的过程控制/良率仪表盘：KLAC 验证 AI 扩产是否不只是装机，而是投入 inspection、metrology 和 process-control 来形成可制造良率。FY2026 Q3 revenue $3.416B、GAAP EPS $9.12、non-GAAP EPS $9.40（公司 as-reported 口径）；Semiconductor Process Control revenue $3.084B。季度 operating cash flow $707.5M、FCF $622.3M；LTM FCF $4.01B。当前 $235.55、市值约 $307.7B、EV 约 $308.9B；因当前市场数据与披露 EPS 疑似拆股基准不同，估值以约 22.6x EV/Q3 annualized revenue 和约 1.3% LTM FCF yield 观察。谨慎 / 中确信：质量极高，但倍数对任何 WFE 或 process-control 降温都很敏感。</description>
+    </item>
+    <item>
       <title>Oklo 深度研究报告 - 前商业化核能期权与AI电力需求 / Oklo Deep Research Report - Pre-Commercial Nuclear Optionality Meets AI Power Demand</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=oklo-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=oklo-2026#oklo-2026@2026-07-07</guid>
@@ -32,34 +60,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=smh-2026#smh-2026@2026-07-06</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
       <description>VanEck 半导体 ETF，是 AI 半导体链条的 benchmark/control sleeve，而不是 coverage-map 单一链条节点。发行人页面 2026-07-02 显示 NAV $592.26、总资产 $68.82B、总费率 0.35%；2026-07-01 持仓 26 只，前十大包括 NVDA 18.41%、TSM 9.18%、AMD 5.57%、AMAT 5.49%、AVGO 5.49%、MU 5.39%、KLAC 5.10%、LRCX 4.97%、ASML 4.96%、INTC 4.92%。定位为 lite benchmark / neutral control sleeve，用来比较单公司报告是否只是半导体 beta。</description>
-    </item>
-    <item>
-      <title>ASML 深度研究报告 - EUV / High-NA 作为设备层公共约束 / ASML Deep Research Report - EUV / High-NA as the Equipment-Layer Common Constraint</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=asml-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=asml-2026#asml-2026@2026-07-06</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施 semicap-equipment 层的公共约束：ASML 验证 foundry / memory capex 是否真正穿过光刻、EUV、High-NA、长期协议和出口管制这道最硬瓶颈。Q1 2026 net sales EUR 8.767B、gross margin 53.0%、net income EUR 2.757B；FY2026 指引 net sales EUR 36-40B、gross margin 51-53%。Q4 2025 net bookings EUR 13.158B，其中 EUV EUR 7.4B，年末 backlog EUR 38.797B。当前 ADR $1,769.32（2026-07-02）、市值约 $681.9B，按 EUR/USD 1.1440 和 FY2026 sales 中点折算，约 15.6x EV/2026E sales。中性观察：垄断质量极高，但估值已经资本化持续 EUV/High-NA 稀缺和出口管制可控。</description>
-    </item>
-    <item>
-      <title>Applied Materials 深度研究报告 - AI 扩产的广谱半导体设备仪表盘 / Applied Materials Deep Research Report - Broad Semicap Dashboard For AI Capacity Buildout</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=applied-materials-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=applied-materials-2026#applied-materials-2026@2026-07-06</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施 semicap-equipment 层的广谱设备仪表盘：AMAT 验证 AI 需求是否不只卡在 EUV，而是扩散到 deposition、etch、advanced packaging、DRAM 和服务。FY2026 Q2 收入 $7.91B、GAAP gross margin 49.9%、non-GAAP EPS $2.86；Semiconductor Systems 收入 $5.965B，其中 foundry/logic/other 67%、DRAM 29%。Q3 指引收入 $8.950B +/- $500M、non-GAAP EPS $3.36 +/- $0.20。当前 $603.04、市值约 $478.8B、EV 约 $477.8B，约 13.3x EV/Q3 annualized sales、约 36.8x forward EPS。中性观察：上行周期强，但中国/台湾暴露和估值容错率都高。</description>
-    </item>
-    <item>
-      <title>Lam Research 深度研究报告 - AI 内存与先进逻辑的刻蚀/沉积校验 / Lam Research Deep Research Report - Etch And Deposition Check On AI Memory And Advanced Logic</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=lam-research-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=lam-research-2026#lam-research-2026@2026-07-06</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施 semicap-equipment 层的刻蚀/沉积仪表盘：LRCX 验证 HBM、先进 DRAM、3D 结构和领先逻辑是否提高 process-tool intensity。2026 年 3 月季度收入 $5.841B、GAAP gross margin 49.8%、non-GAAP EPS $1.47；Systems revenue $3.731B，customer-support-related and other revenue $2.111B。6 月季度指引收入 $6.60B +/- $400M、gross margin 50.5%、operating margin 36.5%。当前 $351.41、市值约 $439.5B、EV 约 $438.4B，约 16.6x EV/June-quarter annualized sales。中性观察：AI process intensity 强，但中国 34% 收入暴露和估值都高。</description>
-    </item>
-    <item>
-      <title>KLA 深度研究报告 - AI 产能的过程控制与良率仪表盘 / KLA Deep Research Report - Process-Control And Yield Dashboard For AI Capacity</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=kla-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=kla-2026#kla-2026@2026-07-06</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施 semicap-equipment 层的过程控制/良率仪表盘：KLAC 验证 AI 扩产是否不只是装机，而是投入 inspection、metrology 和 process-control 来形成可制造良率。FY2026 Q3 revenue $3.416B、GAAP EPS $9.12、non-GAAP EPS $9.40（公司 as-reported 口径）；Semiconductor Process Control revenue $3.084B。季度 operating cash flow $707.5M、FCF $622.3M；LTM FCF $4.01B。当前 $235.55、市值约 $307.7B、EV 约 $308.9B；因当前市场数据与披露 EPS 疑似拆股基准不同，估值以约 22.6x EV/Q3 annualized revenue 和约 1.3% LTM FCF yield 观察。中性观察：质量极高，但估值对 WFE 降温很敏感。</description>
     </item>
     <item>
       <title>Synopsys 深度研究报告 - AI 芯片设计的 EDA/IP 与仿真约束 / Synopsys Deep Research Report - EDA/IP And Simulation Constraint For AI Silicon Design</title>
