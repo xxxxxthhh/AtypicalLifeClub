@@ -1,7 +1,7 @@
 # GE Vernova (GEV) Deep Research Report
 
 Coverage date: 2026-06-27
-Last updated: 2026-06-27
+Last updated: 2026-07-07
 Ticker: NYSE: GEV
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -13,16 +13,16 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 **One-line thesis:** GE Vernova is the most direct pick-and-shovel of AI's "power-side" bottleneck — the structural electricity shortage created by AI data centers is simultaneously pulling its two core businesses, gas turbines (Power) and grid equipment (Electrification). It sits in a multi-year electricity super-cycle driven by data centers, re-electrification and reshoring; backlog has reached **$163B** (with a 2027 target of $200B, pulled forward from 2028), and margins are climbing from a low base (FY2025 adjusted EBITDA margin was just 8.4%) toward the mid-teens. But the stock is up ~117% over the past year and the valuation already prices in that "multi-year margin ramp."
 
-**Verdict:** **Neutral / high quality but high expectations (watch).** Consistent with this center's stance on NVIDIA, Broadcom, Bloom and AMD. GE Vernova's moat (one of three gas-turbine oligopolists + grid-equipment scarcity + slot scarcity) is real, and the inflection in orders and cash flow is clear; but the core tension is that a **$284B market cap already prices in a story of "margins climbing from 8.4% to the mid-teens, dependent on data-center electricity capex continuing"** — like the AI chip stocks, the risk is not insufficient orders but that the valuation already pays for years of delivery, sharing fate with the same AI capex cycle.
+**Verdict:** **Cautious / medium conviction.** GE Vernova's moat (one of three gas-turbine oligopolists + grid-equipment scarcity + slot scarcity) is real, and the inflection in orders and cash flow is clear; but the core tension is that a **roughly $281B market cap already prices in a story of "margins climbing from 8.4% to the mid-teens, dependent on data-center electricity capex continuing"** — like the AI chip stocks, the risk is not insufficient orders but that the valuation already pays for years of delivery, sharing fate with the same AI capex cycle.
 
-**Current market read (as of 2026-06-26):** GEV last traded around **$1,056.77**; on ~**269M** shares, market cap is ~**$284B**. The 52-week range is ~**$482.20 - $1,181.95**, up ~**117%** over the past year. Valuation is rich: on FY2026 guidance (revenue $44.5-45.5B, adjusted EBITDA margin 12-14%), EV/2026E adjusted EBITDA is ~**45-48x**; the forward P/E varies widely (~40-70x across sources) because earnings are at an inflection. Quote sources: [Yahoo Finance GEV](https://finance.yahoo.com/quote/GEV/), [Macrotrends market cap](https://www.macrotrends.net/stocks/charts/GEV/ge-vernova/market-cap); financial sources: [GE Vernova Q1 2026 results](https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000063/gevpressrelease1q26.htm), [FY2025 results](https://www.gevernova.com/news/press-releases/ge-vernova-reports-fourth-quarter-full-year-2025-financial-results).
+**Current market read (as of 2026-06-26):** GEV's price anchor is **$1,045.17**; on ~**269M** shares, market cap is ~**$281B**. The 52-week range is ~**$482.20 - $1,181.95**, up ~**117%** over the past year. Valuation is rich: on FY2026 guidance (revenue $44.5-45.5B, adjusted EBITDA margin 12-14%), EV/2026E adjusted EBITDA is ~**45-48x**; the forward P/E varies widely (~40-70x across sources) because earnings are at an inflection. Quote sources: [Yahoo Finance GEV](https://finance.yahoo.com/quote/GEV/), [Macrotrends market cap](https://www.macrotrends.net/stocks/charts/GEV/ge-vernova/market-cap); financial sources: [GE Vernova Q1 2026 results](https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000063/gevpressrelease1q26.htm), [FY2025 results](https://www.gevernova.com/news/press-releases/ge-vernova-reports-fourth-quarter-full-year-2025-financial-results).
 
 **Key data:**
 
 | Metric | Value |
 |--------|-------|
-| Price (2026-06-26) | ~$1,056.77 |
-| Market cap | ~$284B (~269M shares) |
+| Price (2026-06-26) | ~$1,045.17 |
+| Market cap | ~$281B (~269M shares) |
 | 52-week range | $482.20 - $1,181.95 (~+117% over the past year) |
 | EV/2026E adjusted EBITDA | ~45-48x (rich; prices in a multi-year margin ramp) |
 | Forward P/E | high and dispersed (~40-70x, earnings at an inflection) |
@@ -161,10 +161,15 @@ GEV's premium is the market's bet on an electricity super-cycle that more than d
 - **Forward P/E highly dispersed (~40-70x):** because earnings are inflecting fast from a low base, the denominator (forward EPS) is itself widely estimated, so P/E alone is of limited use.
 - **Reading the multiple:** isomorphic with the AI chip stocks — GE Vernova's valuation risk is not "insufficient orders" but whether the **denominator (margin ramp + backlog conversion) delivers on schedule**. The difference from NVIDIA/Broadcom: its cycle is longer and more lagged and its balance sheet cleaner (net cash), but its current earnings base is lower and it depends more heavily on "the ramp delivering."
 
-**Scenario framing (illustrative, not a forecast):**
-- **Base (~50%):** the electricity super-cycle continues, margins climb to the mid-teens per guidance, backlog converts steadily, and the multiple digests via earnings rather than further expansion — the stock tracks margin delivery with lower beta.
-- **Bull (~25%):** data-center electricity demand beats + the margin ramp runs faster than guidance + Wind turns positive; earnings and multiple rise together.
-- **Bear (~25%):** an AI-capex peak transmits to power orders + the margin ramp stalls + Wind keeps bleeding; the market re-rates the "multi-year ramp."
+**Scenario grid:**
+
+| Scenario | Driver assumptions (data-center orders / gas-turbine slots / margin / Wind) | Valuation implication (rich / fair / cheap vs today) | Probability weight |
+|----------|------------------------------------------------------------------------------|------------------------------------------------------|--------------------|
+| Bull | Data-center electricity orders keep beating expectations; gas-turbine backlog + slots convert toward the >=110GW target as firm orders; Power / Electrification margins exceed the 12-14% guide range; Wind losses narrow materially or turn positive | The current price would look fair because the market's multi-year margin-ramp bet starts to be proven by both order quality and cash flow | 20% |
+| Base | The electricity super-cycle continues and Q1 orders of $18.3B plus the $163B backlog convert steadily; FY2026 EBITDA margin lands in the 12-14% guide range; data-center orders stay strong but do not accelerate; Wind losses improve but remain a drag | The current price largely prices the base case: asset quality is very high, but valuation needs several years of earnings digestion | 50% |
+| Bear | AI-capex digestion transmits to power orders; slot reservations convert to firm orders more slowly than expected; the margin ramp stalls below 12-14% or delivery costs overrun; Wind keeps bleeding and policy / tariff drag worsens | The current price would look rich, with the roughly 45-48x EV/2026E EBITDA multiple re-rating the multi-year ramp | 30% |
+
+**What's priced in & the expectation gap:** At $1,045.17, roughly $281B market cap, and about 45-48x 2026E adjusted EBITDA, the market already capitalizes gas-turbine slots, the $163B backlog, grid capex, and the margin ramp. If the long-term high-quality industrial multiple normalizes toward 20-25x EBITDA, the same enterprise value requires roughly $11-14B of sustainable EBITDA, versus an FY2026 guide midpoint near $5.85B; in other words, the market needs much more than 2026 guidance delivery and is underwriting several years of margin and backlog conversion that nearly doubles EBITDA. Our base case agrees on asset quality and direction, but does not see a clearly positive gap at today's price; 20% bull / 50% base / 30% bear leaves a mildly negative skew.
 
 ## 9. Catalysts & Monitoring Checklist
 
@@ -186,11 +191,13 @@ GEV's premium is the market's bet on an electricity super-cycle that more than d
 
 ## 10. Conclusion
 
-GE Vernova is the most direct pick-and-shovel of AI's "power side": when NVIDIA/Broadcom stack up the compute, where the electricity comes from and how it reaches the data hall is GE Vernova's business. The moat (gas-turbine oligopoly + grid scarcity + slot scarcity) is real; the inflection in orders (Q1 $18.3B), backlog ($163B → 2027 target $200B) and cash flow (FCF guide raised to $6.5-7.5B) is clear; and the balance sheet remains clean (Q1 cash $10.2B, senior notes $2.6B). **As with the AI chip stocks, this is not a "are the fundamentals good enough" question.**
+GE Vernova's chain-validation job is to test whether AI data-center electricity shortage really reaches gas turbines, grid equipment, HVDC / transformers, and long-term service. It is the most direct pick-and-shovel of AI's "power side": when NVIDIA/Broadcom stack up the compute, where the electricity comes from and how it reaches the data hall is GE Vernova's business. The moat (gas-turbine oligopoly + grid scarcity + slot scarcity) is real; the inflection in orders (Q1 $18.3B), backlog ($163B -> 2027 target $200B) and cash flow (FCF guide raised to $6.5-7.5B) is clear; and the balance sheet remains clean (Q1 cash $10.2B, senior notes $2.6B).
 
-The real tension is that **up ~117% in a year, a $284B market cap already prices in the multi-year story of "margins climbing from 8.4% to the mid-teens and beyond."** It shares the same AI capex cycle as NVIDIA/Broadcom — only it sits on the more-lagged, thicker-buffered power side; its specifics are a lower current earnings base, a heavier dependence on "the margin ramp delivering on schedule," while slot reservations are not firm orders and Wind is still bleeding.
+The expectation gap is mildly negative: at $1,045.17, roughly $281B market cap, and about 45-48x 2026E adjusted EBITDA, the market already capitalizes gas-turbine slots, the $163B backlog, grid capex, and the margin ramp; our base case recognizes the high-quality assets and multi-year demand, but the current price requires EBITDA to keep moving toward a near-doubling over several years, not merely FY2026 guidance delivery.
 
-So, consistent with this center's stance on NVIDIA, Broadcom, Bloom and AMD, **we assign a neutral / high-quality-but-high-expectations (watch) view**: bullish on the long-term theme (electricity super-cycle + oligopoly pricing + margin inflection) with medium conviction; neutral on near-term entry given "valuation already prices the multi-year ramp + shared fate with AI capex + slot-conversion and Wind uncertainty," waiting for harder delivery signals from the margin ramp and backlog conversion. This fills the "power infrastructure" coverage gap flagged by the 2026 H1 review — only by putting the compute side (NVIDIA/Broadcom) and the power side (GE Vernova/Bloom) in one frame can the full AI-infrastructure chain be assessed.
+The current stance is **cautious, medium conviction**. The 20% bull / 50% base / 30% bear grid says GE Vernova's asset quality is very high, but valuation and AI-capex crowding leave a mildly negative skew. Cautious is not a bearish call on the company. It separates the quality of the power-side pick-and-shovel asset from the fact that today's price has already prepaid several years of margin ramp.
+
+Upgrade trigger: Move to neutral-watch or constructive if Q2/Q3 orders and backlog keep growing, gas-turbine backlog + slots convert toward the >=110GW target as firm orders, adjusted EBITDA margin moves above the 12-14% guide range with clear Wind loss reduction, and the valuation multiple does not expand further. Downgrade trigger: Move to bearish-avoid if data-center orders or slot conversion slow, the margin ramp stalls below the 12-14% guide range, Wind losses widen, or AI capex expectations are cut and the roughly 45-48x EV/2026E EBITDA multiple re-rates.
 
 ## Appendix: Sources & Assumptions
 
@@ -201,9 +208,9 @@ So, consistent with this center's stance on NVIDIA, Broadcom, Bloom and AMD, **w
 - Quote & market cap: [Yahoo Finance GEV](https://finance.yahoo.com/quote/GEV/), [Macrotrends market cap](https://www.macrotrends.net/stocks/charts/GEV/ge-vernova/market-cap), [StockAnalysis GEV](https://stockanalysis.com/stocks/gev/statistics/)
 
 **Key assumptions & basis:**
-- Market cap estimated at ~269M shares × $1,056.77; sources put market cap in the ~$284-298B range depending on date.
-- EV/2026E adjusted EBITDA is a rough calc on the FY2026 guidance midpoint (revenue ~$45B, ~13% margin → ~$5.85B) and EV ~$276B (market cap − ~$7.6B rough net cash); rough net cash uses Q1 cash of $10.2B minus $2.6B of Q1 senior notes, with the precise debt schedule to be reconciled against the 10-Q/annual report.
+- Market cap estimated at ~269M shares x $1,045.17; sources put market cap in the ~$281-298B range depending on date.
+- EV/2026E adjusted EBITDA is a rough calc on the FY2026 guidance midpoint (revenue ~$45B, ~13% margin -> ~$5.85B) and EV ~$273-276B (market cap - ~$7.6B rough net cash); rough net cash uses Q1 cash of $10.2B minus $2.6B of Q1 senior notes, with the precise debt schedule to be reconciled against the 10-Q/annual report.
 - Forward P/E is highly dispersed (~40-70x) because earnings are at an inflection; it is not used as a primary anchor.
 - Q1 2026 total revenue of $9.34B, adjusted EBITDA of $896M, adjusted EBITDA margin of 9.6% and FCF of $4.79B are company-disclosed; GAAP EPS was materially affected by roughly $4.5B of Prolec GE-related pre-tax M&A net gains and is not used as the core valuation anchor.
 - Gas-turbine 110 GW, backlog $163B/$200B, and orders $18.3B are per company disclosure and public reporting; slot reservations include non-firm portions.
-- This report is **initial coverage**; it includes no prior-cycle comparison. Refresh price, guidance and valuation anchors once subsequent quarters are disclosed.
+- The v5 scenario grid and priced-in paragraph use the Jun 26, 2026 price anchor of $1,045.17. The weights explain expectation gap and skew; they are not investment advice, forecasts, or target prices.

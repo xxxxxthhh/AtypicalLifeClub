@@ -1058,7 +1058,7 @@
     "priceSymbol": "NRG",
     "title": "NRG Energy 深度研究报告 - AI 电力需求是否穿透到 merchant gas 与零售电力",
     "titleEn": "NRG Energy Deep Research Report - Does AI Power Demand Reach Merchant Gas and Retail Power?",
-    "summary": "AI 基础设施 power 层的 merchant + retail dashboard：NRG 不是核电 PPA 纯标的，而是用 LS Power 后约 25GW 发电平台、CPower 约 6GW C&I VPP、Texas/PJM capacity 与 Reliant/Vivint 零售/家庭服务来验证数据中心电力需求是否扩散到普通 merchant capacity。2026Q1 收入 $10.26B、GAAP 净利润 $125M、调整后 EBITDA $1.08B、FCFbG -$66M；2026 指引调整后 EBITDA $5.325-5.825B、调整后 EPS $7.90-9.90、FCFbG $2.8-3.3B。LS Power 交易约 $12.0B enterprise value、18 座燃气电厂、约 13GW、CPower 约 6GW 和 2,000+ C&I 客户，已经反映在 2026 业绩口径中。当前 $136.70（2026-07-02 收盘）、市值约 $28.8B、EV 约 $52.7B，约 15.4x 2026 调整后 EPS 指引中点、约 9.4x 2026 调整后 EBITDA 指引中点。高风险观察：NRG 披露的是数据中心/large-load optionality，尚不是具名 hyperscaler PPA，核心监控是合同转化、ERCOT/PJM 容量价格、零售/Vivint margin 与去杠杆。",
+    "summary": "2026-07-07 v5更新：NRG仍是AI基础设施power层的merchant + retail dashboard，价格锚点$136.70（2026-07-02）、市值约$28.8B、EV约$52.7B，约15.4x 2026调整后EPS指引中点、约9.4x 2026调整后EBITDA指引中点。20%牛市/50%基准/30%熊市情景显示合同转化尚未证明而杠杆/回购纪律仍是约束，v5立场迁移为谨慎/中确信。",
     "tags": [
       "电力",
       "AI基础设施",
@@ -1067,7 +1067,7 @@
     ],
     "category": "energy",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-06",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=nrg-2026",
     "markdownFiles": {
       "zh": "/invest/research/NRG_Energy_深度研究报告_2026-07.md",
@@ -1080,13 +1080,13 @@
       "补齐 power 层 merchant + retail dashboard：NRG 验证 AI/data-center 电力需求是否从核电 PPA 扩散到燃气容量、C&I VPP、ERCOT/PJM 容量市场和零售电力",
       "LS Power 交易约 $12.0B enterprise value，增加 18 座燃气电厂、约 13GW，并带入 CPower 约 6GW C&I VPP 平台和 2,000+ C&I 客户；总发电容量扩大到约 25GW",
       "2026Q1 收入 $10.26B、GAAP 净利润 $125M、调整后 EBITDA $1.08B、FCFbG -$66M；2026 指引调整后 EBITDA $5.325-5.825B、调整后 EPS $7.90-9.90、FCFbG $2.8-3.3B",
-      "当前 $136.70（2026-07-02）、市值约 $28.8B、EV 约 $52.7B；约 15.4x 2026 调整后 EPS 指引中点、约 9.4x 2026 调整后 EBITDA 指引中点；尚未披露具名 hyperscaler PPA，合同转化和去杠杆是关键"
+      "当前 $136.70（2026-07-02）、市值约 $28.8B、EV 约 $52.7B；20%牛市/50%基准/30%熊市情景推导为谨慎/中确信，合同转化和去杠杆是关键"
     ],
-    "summaryEn": "Merchant plus retail power dashboard for the AI-infrastructure power layer. NRG is not a pure nuclear-PPA name; it tests whether data-center power demand spreads into ordinary merchant capacity through the post-LS-Power roughly 25GW generation platform, CPower's roughly 6GW C&I VPP, Texas/PJM capacity markets, and Reliant/Vivint retail/home-services economics. Q1 2026 revenue was $10.26B, GAAP net income was $125M, adjusted EBITDA was $1.08B, and FCFbG was -$66M; 2026 guidance is adjusted EBITDA $5.325-5.825B, adjusted EPS $7.90-9.90, and FCFbG $2.8-3.3B. The LS Power deal was framed at about $12.0B enterprise value, 18 gas plants, about 13GW, CPower about 6GW and 2,000+ C&I customers, and is now reflected in 2026 results. At $136.70 (2026-07-02 close), about $28.8B market cap and about $52.7B EV, NRG trades around 15.4x the midpoint of 2026 adjusted EPS guidance and about 9.4x the midpoint of 2026 adjusted EBITDA guidance. High-risk watch: NRG has disclosed data-center / large-load optionality, not a named hyperscaler PPA; the key monitors are contract conversion, ERCOT/PJM capacity pricing, retail/Vivint margin and deleveraging.",
+    "summaryEn": "July 7, 2026 v5 update: NRG remains the merchant plus retail dashboard for the AI-infrastructure power layer. The price anchor is $136.70 (Jul 2, 2026), about $28.8B market cap and about $52.7B EV, around 15.4x midpoint 2026 adjusted EPS guidance and 9.4x midpoint 2026 adjusted EBITDA guidance. A 20% bull / 50% base / 30% bear grid shows contract conversion is still unproven while leverage and buyback discipline remain constraints, moving the v5 stance to cautious / medium conviction.",
     "chainLayer": "power",
     "coverageTier": "full",
     "chainRole": "dashboard",
-    "stance": "high-risk-watch",
+    "stance": "cautious",
     "priceAsOf": "2026-07-02",
     "reportedPeriod": "2026Q1",
     "related": [
@@ -1190,6 +1190,34 @@
         },
         "nextCheck": "debt, FCFbG and capital allocation update",
         "nextCheckDate": "2026-08"
+      }
+    ],
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "在$136.70、约15.4x 2026调整后EPS中点和9.4x 2026调整后EBITDA中点上，市场已经定价指引兑现、LS Power整合和部分容量稀缺；20%牛市/50%基准/30%熊市情景显示合同转化尚未证明而杠杆/回购纪律仍是约束，偏斜温和向下。",
+      "en": "At $136.70, about 15.4x midpoint 2026 adjusted EPS and 9.4x midpoint 2026 adjusted EBITDA, the market already prices guidance delivery, LS Power integration, and some capacity scarcity; a 20% bull / 50% base / 30% bear grid shows contract conversion is still unproven while leverage/buyback discipline remains a constraint, leaving a mildly negative skew."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "如果NRG披露具名hyperscaler或tariff-backed C&I供电合同，LS Power/CPower实际EBITDA和协同按计划兑现，ERCOT/PJM容量价格继续上行，且net debt/adjusted EBITDA明确向<3.0x下降，则上调至neutral-watch或constructive。",
+        "en": "Move to neutral-watch or constructive if NRG discloses named hyperscaler or tariff-backed C&I supply contracts, LS Power / CPower realized EBITDA and synergies track plan, ERCOT/PJM capacity prices keep rising, and net debt / adjusted EBITDA clearly moves toward <3.0x."
+      },
+      "downgrade": {
+        "zh": "如果large-load合同仍停留在optionality、CPower或LS Power整合低于交易逻辑、retail/Vivint margin转弱，或回购导致去杠杆停滞，则下调至bearish-avoid。",
+        "en": "Move to bearish-avoid if large-load contracts remain only optionality, CPower or LS Power integration falls short of the deal logic, retail/Vivint margin weakens, or buybacks stall deleveraging."
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-07-02",
+        "stance": "high-risk-watch",
+        "price": 136.7
+      },
+      {
+        "date": "2026-07-02",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 136.7
       }
     ]
   },
@@ -2400,8 +2428,8 @@
     "priceSymbol": "GEV",
     "title": "GE Vernova 深度研究报告 - AI 电力侧的卖铲人与燃气轮机超级周期",
     "titleEn": "GE Vernova Deep Research Report - The Pick-and-Shovel of AI's Power Side and the Gas-Turbine Super-Cycle",
-    "summary": "AI「电力侧」瓶颈最直接的卖铲人：数据中心电力短缺同时拉动燃气轮机（Power）与电网设备（Electrification）。Q1 2026 订单 $18.3B、backlog $163B（2027 目标 $200B，从 2028 提前），燃气轮机 backlog+slot 预留年底目标 ≥110 GW；Q1 营收 $9.34B、调整后 EBITDA $896M（利润率 9.6%），并上调 FY2026 指引（营收 $44.5-45.5B、调整后 EBITDA 利润率 12-14%、FCF $6.5-7.5B）。利润率正从 FY2025 的 8.4% 向中两位数爬坡。但近一年 +117%、市值约 $2,840 亿，EV/2026E 调整后 EBITDA 约 45-48x，已计入多年爬坡，且与 AI capex 共命运、Wind 仍亏损。Q1 现金 $10.2B、senior notes $2.6B，粗略净现金约 $7.6B。中性/高质量但高预期（观察）。",
-    "summaryEn": "The most direct pick-and-shovel of AI's power-side bottleneck: data-center electricity shortage pulls both gas turbines (Power) and grid equipment (Electrification). Q1 2026 orders $18.3B, backlog $163B (2027 target $200B, pulled forward from 2028), gas-turbine backlog+slots targeting >=110 GW by year-end; Q1 revenue $9.34B and adjusted EBITDA $896M (9.6% margin), with raised FY2026 guidance (revenue $44.5-45.5B, adjusted EBITDA margin 12-14%, FCF $6.5-7.5B). Margins are climbing from FY2025's 8.4% toward the mid-teens. But up ~117% in a year at a ~$284B market cap, EV/2026E adjusted EBITDA ~45-48x already prices the multi-year ramp, it shares fate with AI capex, and Wind is still loss-making. Q1 cash $10.2B, senior notes $2.6B, rough net cash ~$7.6B. Neutral / high-quality-but-high-expectations (watch).",
+    "summary": "2026-07-07 v5更新：GE Vernova是AI电力侧最直接的卖铲人，Q1 2026订单$18.3B、backlog $163B、燃气轮机backlog+slot预留年底目标≥110GW，FY2026指引营收$44.5-45.5B、调整后EBITDA利润率12-14%、FCF $6.5-7.5B。价格锚点$1,045.17（2026-06-26）、市值约$2,810亿，约45-48x EV/2026E调整后EBITDA已经资本化多年利润率爬坡；20%牛市/50%基准/30%熊市情景推导为谨慎/中确信。",
+    "summaryEn": "July 7, 2026 v5 update: GE Vernova is the most direct pick-and-shovel of AI power. Q1 2026 orders were $18.3B, backlog was $163B, gas-turbine backlog + slots target >=110GW by year-end, and FY2026 guidance is revenue $44.5-45.5B, adjusted EBITDA margin 12-14%, and FCF $6.5-7.5B. The price anchor is $1,045.17 (Jun 26, 2026), roughly $281B market cap, and about 45-48x EV/2026E adjusted EBITDA already capitalizes a multi-year margin ramp; a 20% bull / 50% base / 30% bear grid leads to cautious / medium conviction.",
     "tags": [
       "AI电力",
       "燃气轮机",
@@ -2410,7 +2438,7 @@
     ],
     "category": "energy",
     "date": "2026-06-27",
-    "lastUpdate": "2026-06-27",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=gevernova-2026",
     "markdownFiles": {
       "zh": "/invest/research/GE_Vernova_深度研究报告_2026-06.md",
@@ -2423,11 +2451,11 @@
       "Q1 2026 订单 $18.3B，backlog 环比 +$13B+ 至 $163B；2027 目标 $200B（从 2028 提前）；Electrification 数据中心设备订单 $2.4B（超去年全年）",
       "燃气轮机 backlog + slot 预留 2026 年底目标 ≥110 GW；上调 FY2026 指引：营收 $44.5-45.5B、调整后 EBITDA 利润率 12-14%、FCF $6.5-7.5B",
       "利润率从 FY2025 的 8.4% 向中两位数爬坡是估值核心变量；Q1 现金 $10.2B、senior notes $2.6B，粗略净现金约 $7.6B，与背 $64.9B 总债务的 Broadcom 形成对比",
-      "股价约 $1,056.77、市值约 $2,840 亿（近一年 +117%），EV/2026E 调整后 EBITDA 约 45-48x，已计入多年爬坡、与 AI capex 共命运、Wind 仍亏损。中性/观察"
+      "股价约 $1,045.17、市值约 $2,810 亿（2026-06-26），EV/2026E 调整后 EBITDA 约 45-48x；20%牛市/50%基准/30%熊市情景推导为谨慎/中确信"
     ],
     "chainLayer": "power",
     "coverageTier": "full",
-    "stance": "neutral-watch",
+    "stance": "cautious",
     "priceAsOf": "2026-06-26",
     "reportedPeriod": "Q1 2026",
     "related": [
@@ -2508,6 +2536,34 @@
         },
         "nextCheck": "2026-Q2 财报 / Q2 earnings",
         "nextCheckDate": "2026-08"
+      }
+    ],
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "在$1,045.17、约$2,810亿市值和约45-48x 2026E调整后EBITDA上，市场已经把燃气轮机slot、$163B backlog、电网capex和利润率爬坡资本化；20%牛市/50%基准/30%熊市情景显示资产质量很高但估值/AI capex拥挤使偏斜温和向下。",
+      "en": "At $1,045.17, roughly $281B market cap, and about 45-48x 2026E adjusted EBITDA, the market already capitalizes gas-turbine slots, the $163B backlog, grid capex, and the margin ramp; a 20% bull / 50% base / 30% bear grid shows very high asset quality but a mildly negative skew from valuation and AI-capex crowding."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "如果Q2/Q3订单和backlog继续增长、燃气轮机backlog+slot向≥110GW目标转化为确定订单，调整后EBITDA利润率高于12-14%指引区间且Wind亏损明显收窄，同时估值倍数不再扩张，则上调至neutral-watch或constructive。",
+        "en": "Move to neutral-watch or constructive if Q2/Q3 orders and backlog keep growing, gas-turbine backlog + slots convert toward the >=110GW target as firm orders, adjusted EBITDA margin moves above the 12-14% guide range with clear Wind loss reduction, and the valuation multiple does not expand further."
+      },
+      "downgrade": {
+        "zh": "如果数据中心订单或slot转化放缓、利润率爬坡停滞在12-14%以下、Wind亏损扩大，或AI capex预期下修导致约45-48x EV/2026E EBITDA重新定价，则下调至bearish-avoid。",
+        "en": "Move to bearish-avoid if data-center orders or slot conversion slow, the margin ramp stalls below the 12-14% guide range, Wind losses widen, or AI capex expectations are cut and the roughly 45-48x EV/2026E EBITDA multiple re-rates."
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-06-26",
+        "stance": "neutral-watch",
+        "price": 1045.17
+      },
+      {
+        "date": "2026-06-26",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 1045.17
       }
     ]
   },
@@ -4777,7 +4833,7 @@
     "priceSymbol": "CEG",
     "title": "Constellation Energy 深度研究报告 - AI 电力约束的核电与 Calpine 综合电力锚",
     "titleEn": "Constellation Energy Deep Research Report - Nuclear and Calpine Integrated Power Anchor for AI",
-    "summary": "AI 基础设施 power 层可调度电力公共约束覆盖。Constellation 不是 GPU 供应商，也不再是纯核电故事；2026-01-07 完成 Calpine 后，它是核电主导、叠加天然气/地热容量的综合电力平台。2026Q1 收入 $11.12B、净利润 $1.59B，报道 EPS $2.74、核电发电量约 44,666 GWh，公司维持 2026 EPS 指引 $11-12；Microsoft/Crane Clean Energy Center（Three Mile Island Unit 1）重启目标指向 2027，Meta 也已与 CEG 签过约 1.1GW 核电 PPA，Calpine 则带来约 55GW 合并平台里的可调度容量与 powered-land optionality。当前 $239.25（2026-07-02 收盘）、市值约 $85.4B、企业价值约 $107B，估值已经反映 AI 电力稀缺，后续应重点验证 PPA 执行、Crane restart 监管路径、Calpine 整合、PJM 容量价格和资产负债表资本纪律。中性观察 / power common-constraint。",
+    "summary": "2026-07-07 v5更新：CEG是AI基础设施power层的核电与Calpine可调度容量锚。价格锚点$239.25（2026-07-02）、市值约$85.4B、EV约$107B，约21x 2026 EPS指引中点和约3.6x EV/TTM sales。30%牛市/50%基准/20%熊市情景显示高质量资产与高预期大致平衡，v5立场为中性观察/中确信。",
     "tags": [
       "AI电力",
       "核电",
@@ -4786,7 +4842,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-06",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=constellation-energy-2026",
     "markdownFiles": {
       "zh": "/invest/research/Constellation_Energy_深度研究报告_2026-07.md",
@@ -4799,9 +4855,9 @@
       "补齐 AI 基建 power 层可调度电力公共约束：CEG 用既有核电 fleet、Calpine 天然气/地热容量、长期 PPA 和 PJM 容量价格验证 AI 数据中心是否真的愿意为稳定清洁电力与可调度容量付溢价",
       "2026Q1 收入 $11.12B、净利润 $1.59B、报道 EPS $2.74，核电发电量约 44,666 GWh，公司维持 2026 EPS 指引 $11-12",
       "Microsoft/Crane Clean Energy Center（Three Mile Island Unit 1）重启目标指向 2027，Meta 约 1.1GW 核电 PPA 说明 hyperscaler 电力需求正在合同化；Calpine 把叙事从纯核电扩展到可调度容量",
-      "当前 $239.25（2026-07-02）、市值约 $85.4B、EV 约 $107B、约 3.6x EV/TTM sales；质量高但 AI power 溢价已明显，需要持续验证监管、Calpine 整合、PJM 容量价格和资本纪律"
+      "当前 $239.25（2026-07-02）、市值约 $85.4B、EV 约 $107B、约 3.6x EV/TTM sales；30%牛市/50%基准/20%熊市情景推导为中性观察/中确信"
     ],
-    "summaryEn": "Initial coverage of the dispatchable-power common constraint in the AI-infrastructure power layer. Constellation is not a GPU supplier, and it is no longer a pure nuclear story; after closing Calpine on Jan. 7, 2026, it is a nuclear-led integrated power platform with added natural-gas and geothermal capacity. Q1 2026 revenue was $11.12B, net income $1.59B, reported EPS $2.74, nuclear generation about 44,666 GWh, and management maintained 2026 EPS guidance of $11-12. Microsoft/Crane Clean Energy Center (Three Mile Island Unit 1) restart targets 2027, Meta has signed about a 1.1GW nuclear PPA with Constellation, and Calpine adds dispatchable-capacity and powered-land optionality to a roughly 55GW combined platform. At $239.25 (2026-07-02 close), about $85.4B market cap and about $107B enterprise value, the stock already embeds an AI-power scarcity premium. The key checks are PPA execution, Crane restart regulation, Calpine integration, PJM capacity pricing and balance-sheet discipline. Neutral watch / power common constraint.",
+    "summaryEn": "July 7, 2026 v5 update: CEG is the nuclear and Calpine dispatchable-capacity anchor for the AI-infrastructure power layer. The price anchor is $239.25 (Jul 2, 2026), about $85.4B market cap and about $107B EV, around 21x midpoint 2026 EPS guidance and about 3.6x EV/TTM sales. A 30% bull / 50% base / 20% bear grid shows high asset quality and high expectations roughly in balance, so the v5 stance is neutral-watch / medium conviction.",
     "chainLayer": "power",
     "coverageTier": "full",
     "chainRole": "common-constraint",
@@ -4909,6 +4965,29 @@
         },
         "nextCheck": "AI capex 指引与电力股估值 / AI capex guides and power-equity multiples"
       }
+    ],
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "在$239.25、约21x 2026 EPS指引中点和约3.6x EV/TTM sales上，市场已经为核电PPA、Calpine可调度容量和PJM容量稀缺付出溢价；30%牛市/50%基准/20%熊市情景显示高质量资产与高预期大致平衡。",
+      "en": "At $239.25, about 21x midpoint 2026 EPS guidance and about 3.6x EV/TTM sales, the market already pays a premium for nuclear PPAs, Calpine dispatchable capacity, and PJM capacity scarcity; a 30% bull / 50% base / 20% bear grid shows high asset quality and high expectations roughly in balance."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "如果Microsoft/Meta等PPA的容量、价格和上线时间更明确，Crane/Three Mile Island重启监管路径按期推进，Calpine整合不推高净债务/FCF压力，且PJM容量价格继续强化，则上调至constructive。",
+        "en": "Move to constructive if Microsoft / Meta and other PPA capacity, price, and start-date terms become clearer, the Crane / Three Mile Island restart regulatory path stays on schedule, Calpine integration does not raise net-debt / FCF pressure, and PJM capacity prices keep strengthening."
+      },
+      "downgrade": {
+        "zh": "如果Crane重启审批或成本分摊延误、Calpine整合抬高杠杆和capex压力，PJM容量价格回落，或AI capex预期下修而CEG仍按高电力稀缺溢价交易，则下调至cautious。",
+        "en": "Move to cautious if Crane restart approvals or cost allocation are delayed, Calpine integration raises leverage and capex pressure, PJM capacity prices fade, or AI capex expectations are cut while CEG still trades on a large power-scarcity premium."
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-07-02",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 239.25
+      }
     ]
   },
   {
@@ -4918,7 +4997,7 @@
     "priceSymbol": "VST",
     "title": "Vistra 深度研究报告 - AI 电力约束的核电与燃气高 beta 仪表盘",
     "titleEn": "Vistra Deep Research Report - Nuclear and Gas High-Beta Dashboard for AI Power",
-    "summary": "AI 基础设施 power 层的高 beta 仪表盘，与 Constellation Energy 成对覆盖。Vistra 同时拥有核电、燃气和零售/merchant power 暴露，用来验证 AI 数据中心需求是否从『清洁 baseload PPA』扩散到『可调度燃气容量、PJM/Texas 容量价值和现有发电资产重定价』。2026Q1 收入 $5.64B、净利润 $1.03B、营业利润 $1.50B、FCF $316M；Meta 20 年核电协议覆盖 Perry、Davis-Besse 与 Beaver Valley uprates，公开报道约 2.2GW；Cogentrix 交易主口径约 $4B net purchase price，公开 seller-side 报道也有约 $4.7B total consideration 口径，将增加约 5,500MW 燃气容量，预计 2026 年中后期完成。当前 $151.05（2026-07-02 收盘）、市值约 $50.9B、EV 约 $70.2B、约 3.6x EV/TTM sales；估值低于 CEG，但杠杆、气价、监管和容量市场波动更高。高风险观察 / power dashboard。",
+    "summary": "2026-07-07 v5更新：VST是AI基础设施power层的nuclear-plus-gas高beta dashboard。价格锚点$151.05（2026-07-02）、市值约$50.9B、EV约$70.2B、约3.6x EV/TTM sales，并含约$19.3B净债务。30%牛市/40%基准/30%熊市情景显示上行真实但下行更快，v5立场迁移为谨慎/中确信。",
     "tags": [
       "AI电力",
       "核电",
@@ -4927,7 +5006,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-06",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=vistra-2026",
     "markdownFiles": {
       "zh": "/invest/research/Vistra_深度研究报告_2026-07.md",
@@ -4940,13 +5019,13 @@
       "与 CEG 成对覆盖 power 层：VST 是核电 + 燃气 + merchant power 的高 beta 仪表盘，检验 AI 电力需求是否扩散到可调度容量",
       "2026Q1 收入 $5.64B、净利润 $1.03B、营业利润 $1.50B、FCF $316M；Q1 净债务约 $19.3B",
       "Meta 20 年核电协议覆盖 Perry、Davis-Besse、Beaver Valley uprates，公开报道约 2.2GW；Cogentrix 交易主口径约 $4B net purchase price，seller-side 公开报道也有约 $4.7B total consideration 口径，将增加约 5,500MW 燃气容量",
-      "当前 $151.05（2026-07-02）、市值约 $50.9B、EV 约 $70.2B、约 3.6x EV/TTM sales；估值低于 CEG，但气价、监管、杠杆和容量市场回撤风险更高"
+      "当前 $151.05（2026-07-02）、市值约 $50.9B、EV 约 $70.2B、约 3.6x EV/TTM sales；30%牛市/40%基准/30%熊市情景推导为谨慎/中确信"
     ],
-    "summaryEn": "High-beta dashboard coverage for the AI-infrastructure power layer, paired with Constellation Energy. Vistra combines nuclear, gas and retail/merchant-power exposure, testing whether AI data-center demand spreads from clean baseload PPAs into dispatchable gas capacity, PJM/Texas capacity value and the repricing of existing generation assets. Q1 2026 revenue was $5.64B, net income $1.03B, operating income $1.50B and FCF $316M. Meta's 20-year nuclear agreement covers Perry, Davis-Besse and Beaver Valley uprates, with public reporting around 2.2GW; the Cogentrix transaction is framed at about a $4B net purchase price, while public seller-side reporting has also framed it near $4.7B total consideration, and would add about 5,500MW of gas capacity with an expected mid-to-late 2026 close. At $151.05 (2026-07-02 close), about $50.9B market cap, about $70.2B EV and about 3.6x EV/TTM sales, Vistra trades below Constellation but carries more leverage, gas, regulatory and capacity-market risk. High-risk watch / power dashboard.",
+    "summaryEn": "July 7, 2026 v5 update: VST is the nuclear-plus-gas high-beta dashboard for the AI-infrastructure power layer. The price anchor is $151.05 (Jul 2, 2026), about $50.9B market cap, about $70.2B EV, about 3.6x EV/TTM sales, and about $19.3B net debt. A 30% bull / 40% base / 30% bear grid shows real upside but faster downside, moving the v5 stance to cautious / medium conviction.",
     "chainLayer": "power",
     "coverageTier": "full",
     "chainRole": "dashboard",
-    "stance": "high-risk-watch",
+    "stance": "cautious",
     "priceAsOf": "2026-07-02",
     "reportedPeriod": "2026Q1",
     "related": [
@@ -5050,6 +5129,34 @@
           "en": "$151.05, about $50.9B market cap and about $70.2B EV"
         },
         "nextCheck": "电力股估值与容量价格 / power-equity multiples and capacity prices"
+      }
+    ],
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "在$151.05、约3.6x EV/TTM sales、约23x TTM GAAP P/E和约$19.3B净债务上，市场已经定价Meta核电PPA、Cogentrix燃气容量和PJM/Texas容量稀缺；30%牛市/40%基准/30%熊市情景显示上行真实但下行更快，偏斜温和向下。",
+      "en": "At $151.05, about 3.6x EV/TTM sales, about 23x TTM GAAP P/E, and about $19.3B net debt, the market already prices Meta nuclear PPAs, Cogentrix gas capacity, and PJM/Texas capacity scarcity; a 30% bull / 40% base / 30% bear grid shows real upside but faster downside, leaving a mildly negative skew."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "如果Meta PPA容量/价格/uprate路径更明确，Cogentrix按期完成并把约5,500MW燃气容量转化为数据中心或容量市场收益，PJM/Texas容量价格继续上行，且FCF支持去杠杆，则上调至neutral-watch或constructive。",
+        "en": "Move to neutral-watch or constructive if Meta PPA capacity / price / uprate path becomes clearer, Cogentrix closes on time and converts about 5,500MW of gas capacity into data-center or capacity-market earnings, PJM/Texas capacity prices keep rising, and FCF supports deleveraging."
+      },
+      "downgrade": {
+        "zh": "如果Cogentrix延期或协同落空、Meta PPA经济性低于预期、PJM/Texas容量溢价回落，或净债务/FCF压力因capex、回购、燃料或监管因素上升，则下调至bearish-avoid。",
+        "en": "Move to bearish-avoid if Cogentrix is delayed or synergies miss, Meta PPA economics disappoint, PJM/Texas capacity premiums fade, or net-debt / FCF pressure rises from capex, buybacks, fuel, or regulation."
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-07-02",
+        "stance": "high-risk-watch",
+        "price": 151.05
+      },
+      {
+        "date": "2026-07-02",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 151.05
       }
     ]
   },

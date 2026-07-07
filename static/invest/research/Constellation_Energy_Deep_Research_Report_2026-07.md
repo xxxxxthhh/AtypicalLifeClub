@@ -1,7 +1,7 @@
 # Constellation Energy Deep Research Report - Nuclear and Calpine Integrated Power Anchor for AI
 
 Coverage date: 2026-07-04
-Last updated: 2026-07-06
+Last updated: 2026-07-07
 Ticker: NASDAQ: CEG
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -11,9 +11,9 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 > **Framework role:** Constellation Energy is the common constraint for the AI-infrastructure power and energy layer. The report's job is to test the chain signal, not to turn one company print into a recommendation.
 
-**One-line thesis:** Initial coverage of the dispatchable-power common constraint in the AI-infrastructure power layer. Constellation is not a GPU supplier, and it is no longer a pure nuclear story; after closing Calpine on Jan. 7, 2026, it is a nuclear-led integrated power platform with added natural-gas and geothermal capacity. Q1 2026 revenue was $11.12B, net income $1.59B, reported EPS $2.74, nuclear generation about 44,666 GWh, and management maintained 2026 EPS guidance of $11-12. Microsoft/Crane Clean Energy Center (Three Mile Island Unit 1) restart targets 2027, Meta has signed about a 1.1GW nuclear PPA with Constellation, and Calpine adds dispatchable-capacity and powered-land optionality to a roughly 55GW combined platform. At $239.25 (2026-07-02 close), about $85.4B market cap and about $107B enterprise value, the stock already embeds an AI-power scarcity premium. The key checks are PPA execution, Crane restart regulation, Calpine integration, PJM capacity pricing and balance-sheet discipline. Neutral watch / power common constraint.
+**One-line thesis:** Initial coverage of the dispatchable-power common constraint in the AI-infrastructure power layer. Constellation is not a GPU supplier, and it is no longer a pure nuclear story; after closing Calpine on Jan. 7, 2026, it is a nuclear-led integrated power platform with added natural-gas and geothermal capacity. Q1 2026 revenue was $11.12B, net income $1.59B, reported EPS $2.74, nuclear generation about 44,666 GWh, and management maintained 2026 EPS guidance of $11-12. Microsoft/Crane Clean Energy Center (Three Mile Island Unit 1) restart targets 2027, Meta has signed about a 1.1GW nuclear PPA with Constellation, and Calpine adds dispatchable-capacity and powered-land optionality to a roughly 55GW combined platform. At $239.25 (2026-07-02 close), about $85.4B market cap and about $107B enterprise value, the stock already embeds an AI-power scarcity premium. The key checks are PPA execution, Crane restart regulation, Calpine integration, PJM capacity pricing and balance-sheet discipline. Neutral watch / medium conviction: a 30% bull / 50% base / 20% bear grid shows high asset quality and high expectations roughly in balance.
 
-**Current view:** **neutral watch.** The upgrade does not change the stance; it expands the original fact base into the full house template so the report can be compared against the rest of the current-chain book.
+**Current view:** **neutral watch, medium conviction.** CEG is the higher-quality nuclear and dispatchable-capacity anchor in the power layer, but $239.25 already pays a visible premium for nuclear PPAs, Calpine, and PJM capacity scarcity.
 
 | Metric | Current readout |
 | --- | --- |
@@ -22,7 +22,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Latest reported period | 2026Q1 |
 | Price snapshot | $239.25 as of 2026-07-02 |
 | Coverage tier after this upgrade | full |
-| Stance | neutral watch |
+| Stance | neutral watch / medium conviction |
 | Primary valuation use | scenario context and risk tolerance, not a target price |
 
 ## 1. Business And Chain Role
@@ -72,7 +72,7 @@ This module checks source caliber and management execution rather than adding a 
 | --- | --- | --- |
 | Company-disclosed actuals | Reported period and financial figures are preserved from the original report | Avoids inventing a new quarter |
 | Market-data values | Price snapshot kept at $239.25 and dated 2026-07-02 | Prevents stale valuation math |
-| Scenario levels | Derived mechanically from current price for risk framing | Not a recommendation or target price |
+| Scenario weights | Used to derive risk/reward skew from bull/base/bear cases | Not a recommendation or target price |
 | Source quality | Primary company releases, filings, or issuer pages remain in the appendix | Keeps the audit trail visible |
 
 Management gets credit when reported execution lines up with the chain role, and loses credit when guidance, bookings, or capital allocation rely on assumptions the report cannot verify yet.
@@ -86,7 +86,7 @@ The bull case is the strongest version of why the report's chain signal could st
 | Demand pull-through | Dispatchable-power common-constraint fill-in for the AI-infrastructure power layer: CEG uses its existing nuclear fleet, Calpine gas/geothermal capacity, long-term PPAs and PJM capacity prices to test whether AI data centers are truly willing to pay a premium for firm clean power and dispatchable capacity | Next reported period confirms the same direction |
 | Financial conversion | Q1 2026 revenue $11.12B, net income $1.59B, reported EPS $2.74, nuclear generation about 44,666 GWh; company maintained 2026 EPS guidance of $11-12 | Revenue converts into margin, cash flow, or backlog |
 | Cross-check support | VST, NRG, OKLO | Adjacent reports move in the same direction |
-| Valuation resilience | Base price context $239.25; bull context $299.06 | The multiple holds because fundamentals continue to validate |
+| Valuation resilience | PPA execution, Calpine integration, PJM capacity pricing and regulatory path all improve together | The multiple holds because fundamentals continue to validate |
 
 The constructive scenario is not simply that the stock rises. It is that the same data that supports this company also tightens the whole chain read-through.
 
@@ -99,7 +99,7 @@ The bear case is the strongest version of why the report's chain signal could be
 | Expectation risk | Current price context $239.25 | Good company performance no longer beats embedded expectations |
 | Chain divergence | Adjacent reports fail to confirm the same signal | The bottleneck sits elsewhere or demand was pulled forward |
 | Execution risk | Guidance, backlog, or capacity conversion slows | Reported evidence stops supporting the role |
-| Valuation compression | Bear context $167.47; base context $239.25 | Multiple contracts before the long-term story changes |
+| Valuation compression | Regulatory delay, lower capacity prices, or balance-sheet pressure rises | Multiple contracts before the long-term story changes |
 
 The bearish read should not ignore quality. It asks whether quality is already capitalized and whether the report is overclaiming what the current evidence can prove.
 
@@ -123,12 +123,15 @@ Thesis breakers:
 
 Valuation is used as risk context, not as a recommendation. The current $239.25 price can be framed against the 2026 EPS guidance range of $11-12, while EV/TTM sales near 3.6x reminds readers that the stock already carries a power-scarcity premium.
 
-| Scenario | Input basis | Price-level context | Interpretation |
+**Scenario grid:**
+
+| Scenario | Driver assumptions (PPA / regulation / capacity pricing / balance sheet) | Valuation implication (rich / fair / cheap vs today) | Probability weight |
 | --- | --- | --- | --- |
-| Bear | 17x low-end 2026 EPS guidance of $11.00 | About $187 | Power scarcity premium fades toward a high-quality utility frame |
-| Base | 21x midpoint 2026 EPS guidance of $11.50 | About $242 | Close to the Jul 2 price; assumes PPA execution and Calpine integration remain on track |
-| Bull | 25x high-end 2026 EPS guidance of $12.00 | About $300 | Requires repeatable hyperscaler contracts, capacity-price support and regulatory progress |
-| EV/sales cross-check | About $107B EV and about 3.6x EV/TTM sales | High for a generator | Not a target price; shows the scarcity option is already being capitalized |
+| Bull | Microsoft / Meta and other hyperscaler PPAs gain clearer capacity, price and start-date terms; Crane / Three Mile Island restart regulation advances; Calpine dispatchable capacity and powered-land optionality are confirmed by PJM capacity pricing; net-debt and FCF pressure stay controlled | The current price would look fair to slightly cheap because CEG earns both 24/7 clean-power and dispatchable-capacity scarcity premiums | 30% |
+| Base | 2026 EPS guidance of $11-12 is delivered; PPAs and Crane restart keep progressing but details remain to be verified; Calpine integration stays on plan, PJM capacity prices are firm but not linearly rising; balance-sheet discipline holds | The current price largely prices the base case: asset quality is high, but the AI-power premium is already visible | 50% |
+| Bear | Crane restart approvals, cost allocation, or retail-rate disputes are delayed; Calpine / capex raises net-debt and FCF pressure; PJM capacity prices fade and AI capex expectations are cut | The current price would look rich, with risk coming from scarcity-premium compression rather than asset-quality collapse | 20% |
+
+**What's priced in & the expectation gap:** At $239.25 and the 2026 EPS guidance midpoint of about $11.50, CEG trades around 21x forward EPS. If the market moved back toward a 16-18x high-quality generator / utility-plus frame, the same price would require about $13-15 of sustainable EPS or a durable capacity-scarcity premium. Our base case recognizes the quality of the nuclear fleet, Calpine, and PPAs, but sees most of the positives already capitalized in the current dated price. The 30% bull / 50% base / 20% bear grid leaves the expectation gap close to balanced, so neutral is the result of the scenario work, not an avoided decision.
 
 The key valuation question is whether the next evidence set increases the EPS and capacity-value denominator faster than the market increases the multiple.
 
@@ -153,7 +156,13 @@ These are the items that should drive future reruns. A monitoring update should 
 | OKLO | nuclear optionality risk anchor | Confirms, contradicts, or bounds the same chain question |
 | GEV | grid/turbine equipment | Confirms, contradicts, or bounds the same chain question |
 
-Conclusion: Constellation Energy remains a **neutral watch** common constraint for the power and energy layer. The upgrade moves the report from a thin initial/lite format to the full house template while preserving the original fact base. The next real editorial move should be triggered by the monitoring table, not by a desire to re-rate the company without new evidence.
+Constellation Energy's chain-validation job is to test whether AI data centers are willing to pay a durable premium for clean baseload, dispatchable capacity, and PJM reliability scarcity. CEG's asset quality is higher than an ordinary generator: the existing nuclear fleet, Microsoft / Meta PPAs, Calpine dispatchable capacity, and PJM capacity prices together make it the power common constraint. The research judgment still has to separate asset quality from valuation.
+
+The expectation gap is close to balanced: at $239.25, about 21x the midpoint of 2026 EPS guidance and about 3.6x EV/TTM sales, the market already pays a premium for nuclear PPAs, Calpine dispatchable capacity, and PJM capacity scarcity; our base case agrees on direction but does not see a clear margin of safety at the current price.
+
+The current stance is **neutral watch, medium conviction**. The 30% bull / 50% base / 20% bear grid says CEG is a high-quality power anchor, but the base case is already mostly capitalized. Neutral is not a lack of view; it is the conclusion that high asset quality and high expectations are roughly in balance here.
+
+Upgrade trigger: Move to constructive if Microsoft / Meta and other PPA capacity, price, and start-date terms become clearer, the Crane / Three Mile Island restart regulatory path stays on schedule, Calpine integration does not raise net-debt / FCF pressure, and PJM capacity prices keep strengthening. Downgrade trigger: Move to cautious if Crane restart approvals or cost allocation are delayed, Calpine integration raises leverage and capex pressure, PJM capacity prices fade, or AI capex expectations are cut while CEG still trades on a large power-scarcity premium.
 
 ## Appendix: Sources And Assumptions
 
@@ -165,4 +174,4 @@ Conclusion: Constellation Energy remains a **neutral watch** common constraint f
 - CEG's Jul 2, 2026 close of $239.25, roughly $85.4B market cap, and cash / debt / cash-flow tables were pulled through Yahoo Finance/yfinance on 2026-07-04.
 
 - This 2026-07-06 depth upgrade preserves the existing vetted fact base and expands structure, tables, peer comparison, scenario levels, and monitoring parity.
-- Scenario price levels are mechanically derived from the report price anchor and are not investment advice, forecasts, or target prices.
+- The v5 scenario grid and priced-in paragraph use the same Jul 2, 2026 price anchor. The weights explain expectation gap and skew; they are not investment advice, forecasts, or target prices.

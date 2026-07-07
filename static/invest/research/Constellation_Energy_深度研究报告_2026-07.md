@@ -1,7 +1,7 @@
 # Constellation Energy 深度研究报告 - AI 电力约束的核电与 Calpine 综合电力锚
 
 标的收录日期：2026-07-04
-最近更新日期：2026-07-06
+最近更新日期：2026-07-07
 代码：NASDAQ: CEG
 免责声明：本报告仅用于信息与研究交流，不构成任何投资建议，请自行完成尽职调查。
 
@@ -11,9 +11,9 @@
 
 > **框架角色：** Constellation Energy 是 AI 基建 电力与能源 层的公共约束。本报告的任务是验证链条信号，而不是把单一公司数据直接变成投资建议。
 
-**一句话论点：** AI 基础设施 power 层可调度电力公共约束覆盖。Constellation 不是 GPU 供应商，也不再是纯核电故事；2026-01-07 完成 Calpine 后，它是核电主导、叠加天然气/地热容量的综合电力平台。2026Q1 收入 $11.12B、净利润 $1.59B，报道 EPS $2.74、核电发电量约 44,666 GWh，公司维持 2026 EPS 指引 $11-12；Microsoft/Crane Clean Energy Center（Three Mile Island Unit 1）重启目标指向 2027，Meta 也已与 CEG 签过约 1.1GW 核电 PPA，Calpine 则带来约 55GW 合并平台里的可调度容量与 powered-land optionality。当前 $239.25（2026-07-02 收盘）、市值约 $85.4B、企业价值约 $107B，估值已经反映 AI 电力稀缺，后续应重点验证 PPA 执行、Crane restart 监管路径、Calpine 整合、PJM 容量价格和资产负债表资本纪律。中性观察 / power common-constraint。
+**一句话论点：** AI 基础设施 power 层可调度电力公共约束覆盖。Constellation 不是 GPU 供应商，也不再是纯核电故事；2026-01-07 完成 Calpine 后，它是核电主导、叠加天然气/地热容量的综合电力平台。2026Q1 收入 $11.12B、净利润 $1.59B，报道 EPS $2.74、核电发电量约 44,666 GWh，公司维持 2026 EPS 指引 $11-12；Microsoft/Crane Clean Energy Center（Three Mile Island Unit 1）重启目标指向 2027，Meta 也已与 CEG 签过约 1.1GW 核电 PPA，Calpine 则带来约 55GW 合并平台里的可调度容量与 powered-land optionality。当前 $239.25（2026-07-02 收盘）、市值约 $85.4B、企业价值约 $107B，估值已经反映 AI 电力稀缺，后续应重点验证 PPA 执行、Crane restart 监管路径、Calpine 整合、PJM 容量价格和资产负债表资本纪律。中性观察 / 中确信：30%牛市/50%基准/20%熊市情景显示高质量资产与高预期大致平衡。
 
-**当前判断：** **中性观察。** 本次升级不改变 stance，而是把原本已核验的事实基础扩展成完整 house template，使它能和当前链条报告横向比较。
+**当前判断：** **中性观察，中确信。** CEG 是 power 层更高质量的核电与可调度容量锚，但 $239.25 已经为核电 PPA、Calpine 和 PJM 容量稀缺付出明显溢价。
 
 | 指标 | 当前读数 |
 | --- | --- |
@@ -22,7 +22,7 @@
 | 最新报告期 | 2026Q1 |
 | 价格快照 | $239.25，截至 2026-07-02 |
 | 本次升级后 coverageTier | full |
-| Stance | 中性观察 |
+| Stance | 中性观察 / 中确信 |
 | 估值用途 | 情景与风险容错率，不是目标价 |
 
 ## 1. 业务与链条角色
@@ -72,7 +72,7 @@
 | --- | --- | --- |
 | 公司披露 actuals | 报告期和财务数字保留自原报告 | 避免发明新季度 |
 | 市场数据 | 价格快照维持 $239.25，日期 2026-07-02 | 防止 stale valuation math |
-| 情景价格 | 按当前价格机械推导，用于风险框架 | 不是建议或目标价 |
+| 情景权重 | 用 bull/base/bear 权重推导风险偏斜 | 不是建议或目标价 |
 | 来源质量 | 公司公告、filing、issuer page 或已列 source 继续留在附录 | 保持审计线索 |
 
 管理层在报告数字和链条角色一致时得分；如果 guidance、bookings 或资本配置依赖本报告无法验证的假设，则需要降权。
@@ -86,7 +86,7 @@
 | 需求穿透 | 补齐 AI 基建 power 层可调度电力公共约束：CEG 用既有核电 fleet、Calpine 天然气/地热容量、长期 PPA 和 PJM 容量价格验证 AI 数据中心是否真的愿意为稳定清洁电力与可调度容量付溢价 | 下一报告期继续确认同一方向 |
 | 财务转化 | 2026Q1 收入 $11.12B、净利润 $1.59B、报道 EPS $2.74，核电发电量约 44,666 GWh，公司维持 2026 EPS 指引 $11-12 | 收入转化为利润率、现金流或 backlog |
 | 交叉校验支持 | VST, NRG, OKLO | 相邻报告同向移动 |
-| 估值韧性 | Base price context $239.25; bull context $299.06 | 基本面继续验证，倍数不收缩 |
+| 估值韧性 | PPA 执行、Calpine 整合、PJM 容量价格和监管路径同时改善 | 基本面继续验证，倍数不收缩 |
 
 建设性情景不只是股价上涨，而是支持本公司的同一组数据也让整条链条 read-through 更紧。
 
@@ -99,7 +99,7 @@
 | 预期风险 | 当前价格锚点 $239.25 | 公司表现不错但已经无法超过内嵌预期 |
 | 链条分化 | 相邻报告无法确认同一信号 | 瓶颈在其他 layer，或需求被提前拉动 |
 | 执行风险 | guidance、backlog 或产能转化放缓 | 报告证据停止支持该角色 |
-| 估值压缩 | Bear context $167.47; base context $239.25 | 长期故事未变但倍数先收缩 |
+| 估值压缩 | 监管延误、容量价格回落或资产负债表压力上升 | 长期故事未变但倍数先收缩 |
 
 偏空读法不否认公司质量，而是追问质量是否已经被资本化，以及本报告是否过度外推了现有证据。
 
@@ -123,12 +123,15 @@
 
 估值只作为风险背景，不是投资建议。当前 $239.25 股价可用 2026 EPS 指引 $11-12 做情景锚定，同时约 3.6x EV/TTM sales 说明市场已经在资本化 power-scarcity premium。
 
-| 情景 | 输入基础 | 价格水平背景 | 解读 |
+**情景网格：**
+
+| 情景 | 驱动假设（PPA / 监管 / 容量价格 / 资产负债表） | 估值含义（贵 / 合理 / 便宜 vs 现价） | 概率权重 |
 | --- | --- | --- | --- |
-| Bear | 17x 2026 EPS 指引低端 $11.00 | 约 $187 | Power scarcity premium 向高质量 utility 框架回落 |
-| Base | 21x 2026 EPS 指引中点 $11.50 | 约 $242 | 接近 2026-07-02 股价；假设 PPA 执行和 Calpine 整合仍按计划推进 |
-| Bull | 25x 2026 EPS 指引高端 $12.00 | 约 $300 | 需要可复制 hyperscaler 合同、容量价格支持和监管推进 |
-| EV/sales 交叉检查 | 约 $107B EV 和约 3.6x EV/TTM sales | 对发电商偏高 | 不是目标价；说明 scarcity option 已经被资本化 |
+| 牛市情景 | Microsoft/Meta 等 hyperscaler PPA 的容量、价格和上线节奏更清晰；Crane/Three Mile Island 重启监管路径推进；Calpine 可调度容量和 powered-land optionality 被 PJM 容量价格确认；净债务和 FCF 压力可控 | 当前价格会显得合理到略便宜，因为 CEG 同时拿到 24/7 clean power 和 dispatchable capacity 的稀缺溢价 | 30% |
+| 基准情景 | 2026 EPS 指引 $11-12 兑现；PPA 与 Crane 重启继续推进但细节仍待验证；Calpine 整合按计划进行，PJM 容量价格偏强但不线性上行；资产负债表纪律维持 | 当前价格大体定价基准情景：资产质量高，但 AI power premium 已经明显 | 50% |
+| 熊市情景 | Crane 重启审批、成本分摊或居民电价争议延误；Calpine/capex 抬高净债务和 FCF 压力；PJM 容量价格回落，AI capex 预期下修 | 当前价格会显得偏贵，风险来自稀缺性溢价压缩而不是资产质量崩坏 | 20% |
+
+**已定价预期与预期差：** 以 $239.25 和 2026 EPS 指引中点约 $11.50 计，CEG 约为 21x forward EPS；若市场回到 16-18x 的高质量发电/utility-plus 框架，同一价格需要约 $13-15 的可持续 EPS 或持续的容量稀缺溢价来支撑。我们的基准情景承认核电 fleet、Calpine 和 PPA 的质量，但认为多数正面要素已被当前带日期价格资本化。30% 牛市 / 50% 基准 / 20% 熊市给出的预期差接近平衡，因此中性是情景工作的结果，而不是回避判断。
 
 关键估值问题是：下一组证据能否让 EPS 和 capacity-value denominator 增长快于市场给的 multiple 增长。
 
@@ -153,7 +156,13 @@
 | OKLO | nuclear optionality risk anchor | 确认、反驳或限定同一链条问题 |
 | GEV | grid/turbine equipment | 确认、反驳或限定同一链条问题 |
 
-结论：Constellation Energy 仍是 电力与能源 层的 **中性观察** 公共约束。本次升级把报告从 thin initial/lite 格式提升到完整 house template，同时保留原本事实基础。下一次真正的编辑动作应由 monitoring table 触发，而不是在没有新证据时重新评级。
+Constellation Energy 的链条验证任务，是判断 AI 数据中心是否愿意为 clean baseload、可调度容量和 PJM 可靠性稀缺支付持久溢价。CEG 的资产质量高于普通发电商：既有核电 fleet、Microsoft/Meta PPA、Calpine 可调度容量和 PJM 容量价格共同构成 power common-constraint。但研究判断必须把资产质量和估值分开。
+
+预期差接近平衡：在 $239.25、约 21x 2026 EPS 指引中点和约 3.6x EV/TTM sales 上，市场已经为核电 PPA、Calpine 可调度容量和 PJM 容量稀缺付出溢价；我们的基准情景认可方向，但不认为当前价格留下明显安全边际。
+
+当前立场是 **中性观察，中确信**。30% 牛市 / 50% 基准 / 20% 熊市的情景网格说明，CEG 是高质量 power anchor，但基准情景已经基本被资本化。中性不是没有观点，而是高质量资产与高预期在当前价格大致平衡。
+
+升级触发条件：如果Microsoft/Meta等PPA的容量、价格和上线时间更明确，Crane/Three Mile Island重启监管路径按期推进，Calpine整合不推高净债务/FCF压力，且PJM容量价格继续强化，则上调至constructive。降级触发条件：如果Crane重启审批或成本分摊延误、Calpine整合抬高杠杆和capex压力，PJM容量价格回落，或AI capex预期下修而CEG仍按高电力稀缺溢价交易，则下调至cautious。
 
 ## 附录：来源与假设
 
@@ -164,5 +173,5 @@
 - Meta 与 Constellation 约 1.1GW 长期核电 PPA 的背景，参考 Axios 报道：https://www.axios.com/2026/01/09/meta-nuclear-deal-vistra-terrapower-oklo。
 - 2026-07-02 CEG 收盘 $239.25、约 $85.4B 市值、现金/债务/现金流与季度财务表，使用 Yahoo Finance/yfinance 于 2026-07-04 拉取。
 
-- 2026-07-06 深度升级保留原先已核验事实基础，并补齐结构、表格、同行比较、情景价格和 monitoring parity。
-- 情景价格由报告价格锚点机械推导，不构成投资建议、预测或目标价。
+- 2026-07-06 深度升级保留原先已核验事实基础，并补齐结构、表格、同行比较、情景权重和 monitoring parity。
+- v5 情景网格与已定价预期段落使用同一个 2026-07-02 价格锚点；权重用于说明预期差和偏斜，不构成投资建议、预测或目标价。
