@@ -1,7 +1,7 @@
 # Micron Technology (MU) Deep Research Report
 
 Coverage date: 2026-07-04
-Last updated: 2026-07-04
+Last updated: 2026-07-07
 Ticker: NASDAQ: MU
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -13,7 +13,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 **One-line thesis:** Micron is in the strongest memory upcycle in its history. FY2026 Q3 revenue was $41.46B, adjusted EPS was about $25.11, gross margin was about 84.6%, and Q4 guidance is $49-51B of revenue. HBM capacity is reportedly sold out through 2026, strategic customer agreements (SCAs) lock part of supply through 2030, and DRAM / NAND prices are still rising. The problem is that at $975.56 (Jul 2, 2026 close) and about $1.10T market cap, the stock already prices in a large dose of "this time is different."
 
-**Current view:** **High-risk watch / memory-cycle dashboard.** MU is valuable to the chain because it simultaneously tests the HBM bottleneck, NAND / SSD pricing, data-center demand, and consumer-market crowd-out. The bull case is that AI training and inference require more memory bandwidth and storage while HBM / DDR5 / SSD supply expands more slowly than demand. The bear case is that memory remains cyclical, and extreme prices / margins invite new capacity, customer substitution, and valuation compression.
+**Current view:** **Cautious / medium conviction: memory-cycle dashboard with negative skew.** MU is valuable to the chain because it simultaneously tests the HBM bottleneck, NAND / SSD pricing, data-center demand, and consumer-market crowd-out. The bull case is that AI training and inference require more memory bandwidth and storage while HBM / DDR5 / SSD supply expands more slowly than demand. The bear case is that memory remains cyclical, and extreme prices / margins invite new capacity, customer substitution, and valuation compression.
 
 **Quick stats:**
 
@@ -140,6 +140,16 @@ The following is valuation context, not a target price or recommendation.
 
 MU's valuation paradox is that current earnings are so strong that P/E looks reasonable. The stronger memory margins become, the more investors have to test whether the denominator is sustainable.
 
+**Scenario grid:**
+
+| Scenario | Driver assumptions (HBM supply / DRAM-NAND cycle position / margin / multiple regime) | Valuation implication (rich / fair / cheap vs today) | Subjective probability weight |
+|----------|----------------------------------------------------------------------------------------|------------------------------------------------------|-------------------------------|
+| Bull | The 2027 HBM order book stays sold out with MU still able to satisfy only about 50%-66% of customer demand; DRAM / NAND contract-price momentum extends through 2027; SCA price floors execute, keeping gross margin at 75%+; the market keeps paying a structural-shortage rather than cyclical multiple | The Jul 2, 2026 price looks fair to slightly cheap only if through-cycle sustainable EPS proves to be at least about $80-100 (the "AI memory toll road" claim holds and the cycle is structurally repealed) | 20% |
+| Base | Supply lag keeps FY2027 revenue growing, but DRAM / NAND price momentum peaks during 2027; gross margin normalizes from 84-86% toward 60-70%; SCAs smooth but do not repeal the cycle; the valuation converges toward a mid-cycle memory frame of 12-15x sustainable EPS | The Jul 2, 2026 price largely prices the optimistic end of this scenario: implied sustainable EPS of about $65-81 sits above our roughly $45-58 range, leaving limited margin of safety | 50% |
+| Bear | 2027 / 2028 new supply lands on top of customer inventories; DRAM / NAND prices roll over early and HBM availability improves; SCAs face customer / regulatory pushback; gross margin drops below 60% toward historical strong-cycle levels, with sustainable EPS around $25-35; the market re-rates MU as a cyclical at its peak, compressing the EPS denominator and the multiple together | The Jul 2, 2026 price would look clearly rich: under double compression the drawdown is far larger than the headline multiple suggests | 30% |
+
+**What's priced in & the expectation gap:** At the $975.56 close on Jul 2, 2026, MU traded at about 22x TTM P/E (TTM EPS about $44.7); on Q4-guide annualized adjusted EPS of about $124, the run-rate P/E is only about `975.56 / 124 ≈ 7.9x`. For a cyclical, "the multiple looks lowest at the top" is the classic cycle-peak signature, so the low run-rate multiple cannot be read as cheapness, and a growth-stock revenue-CAGR reverse frame does not apply — this report's own evidence says cycle risk dominates. Reversing the question instead: if a mid-cycle memory regime of 12-15x sustainable EPS is the right frame, today's price implies through-cycle sustainable EPS of about `$975.56 / 15 ≈ $65` to `$975.56 / 12 ≈ $81` — roughly 1.5-1.8x TTM EPS and 55%-65% of the Q4 annualized run rate. In other words, the market already prices "the run rate fades materially, but the trough never returns to the old regime." Weighting each scenario's sustainable-EPS midpoint (bull about $90, base about $52, bear about $30) at 20% bull / 50% base / 30% bear gives about `0.2 x 90 + 0.5 x 52 + 0.3 x 30 ≈ $53`, below the implied $65-81 band: the expectation gap is negative and the skew points down. This is an expectations frame, not a target price.
+
 ## 9. Catalysts & Timeline
 
 | Catalyst | Timing | Impact |
@@ -155,9 +165,13 @@ Structured monitoring should focus on HBM sold-out status, DRAM / NAND contract 
 
 ## 10. Conclusion
 
-Micron is necessary coverage for the memory-storage layer. AI infrastructure cannot be analyzed only by GPU count; memory bandwidth, HBM supply, DDR5, and data-center SSDs also determine system capability.
+Micron is necessary coverage for the memory-storage layer. Its chain-validation job is to tell us whether AI demand is truly reaching memory bits, bandwidth, and pricing: if HBM stays sold out, DRAM / NAND contract prices hold firm, and SCA revenue mix rises, the AI-infrastructure supply-shortage narrative is more credible; if those indicators weaken, the chain's memory assumptions and downstream accelerator schedules both need recalibration.
 
-The current classification is **high-risk watch / memory-cycle dashboard**. MU's business quality and order visibility are clearly stronger than in prior memory cycles, but the stock and margins are also in unusual territory. In this framework, it should do two jobs: validate whether AI demand is reaching memory bits and pricing, and remind us that memory can still switch from structural shortage to cyclical mean reversion.
+The expectation gap is negative: at $975.56 and about 22x TTM P/E (only about 7.9x on the Q4 annualized run rate), the market is underwriting roughly $65-81 of through-cycle sustainable EPS; our 20/50/30 weighted sustainable EPS is about $53, below that implied band — memory mean-reversion risk is not fully priced.
+
+The current stance is **cautious, medium conviction**. The 20% bull / 50% base / 30% bear grid produces a mildly negative skew: the bull case requires the memory cycle to be structurally repealed, while in the remaining 80% of weight either the gross margin or the valuation multiple has to come down from extreme levels. Medium conviction reflects the evidence quality: the shortage, SCA, and pricing data are solid, and the genuine uncertainty is the timing of the 2027 / 2028 supply response. Cautious is not a bearish call on the business — MU's business quality is the best in its history — it is the judgment that at the current dated price the risk/reward skew points down.
+
+Upgrade trigger: move to neutral-watch or constructive if FY2026 Q4 delivers the $49-51B revenue and roughly 86% gross-margin guide, the 2027 HBM order book stays sold out, SCA revenue mix rises with price floors executing, and monthly DRAM / NAND contract prices hold firm while industry supply additions stay disciplined. Downgrade trigger: move to bearish-avoid if monthly DRAM / NAND contract prices weaken for consecutive months, HBM availability improves faster than customer demand, customer inventories or pushback against SCAs build, or gross-margin guidance falls clearly back from the 80%+ level, confirming the cycle peak.
 
 ## Appendix: Sources & Assumptions
 
@@ -167,3 +181,4 @@ The current classification is **high-risk watch / memory-cycle dashboard**. MU's
 - Sixteen SCAs, 14 with about $100B minimum contract revenue, about $22B deposits / commitments, and gradual supply improvement only in 2028 are sourced from Tom's Hardware: https://www.tomshardware.com/pc-components/dram/micron-inks-long-term-supply-agreements-worth-usd100-billion-says-it-has-no-idea-when-ram-crisis-will-end.
 - June DRAM up about 3%, NAND up about 2.4%, and continuing 2026 supply tightness are sourced from Barron's: https://www.barrons.com/articles/micron-stock-price-memory-chips-27d535f8.
 - MU's Jul 2, 2026 close of $975.56, roughly $1.10T market cap, about 1.13B shares, and Q3 cash/debt/cash-flow tables were pulled through Yahoo Finance/yfinance on 2026-07-04. This market-data snapshot can be revised by the data provider and should subsequently be maintained by `static/invest/research/update_prices.py`.
+- The v5 scenario grid and priced-in paragraph use the same Jul 2, 2026 market snapshot and the FY2026 Q3 actual / Q4 guidance figures. The reverse-multiple math and the implied sustainable-EPS band describe market-implied expectations only — an expectations-calibration frame, not target prices.

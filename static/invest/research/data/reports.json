@@ -4133,8 +4133,8 @@
     "priceSymbol": "MU",
     "title": "Micron Technology 深度研究报告 - AI memory 周期的 HBM/DRAM/NAND 仪表盘",
     "titleEn": "Micron Technology Deep Research Report - HBM, DRAM, and NAND Dashboard for the AI Memory Cycle",
-    "summary": "AI 基础设施书 memory-storage 层补位：Micron 是 HBM、DDR5、数据中心 SSD 和长期供货协议共同构成的 AI 供给瓶颈仪表盘。FY2026 Q3 收入 $41.46B、毛利率约 84.6%、营业利润 $33.32B、净利润 $28.24B，Q4 指引收入 $49-51B、调整后 EPS $30-32、毛利率约 86%。HBM 产能公开报道显示已售罄至 2026，16 个战略客户协议中 14 个最低合同收入约 $100B、约 $22B 现金存款/承诺。当前 $975.56（2026-07-02 收盘）、市值约 $1.10T，判断为高风险观察 / memory-cycle 仪表盘：业务质量和订单可见度更强，但 memory 周期和估值压缩风险仍不能忽视。",
-    "summaryEn": "Memory-storage coverage for the AI-infrastructure book: Micron is the dashboard for HBM, DDR5, data-center SSDs, and long-term supply agreements as AI supply constraints move into memory. FY2026 Q3 revenue was $41.46B, gross margin about 84.6%, operating income $33.32B, and net income $28.24B; Q4 guidance is $49-51B revenue, $30-32 adjusted EPS, and about 86% gross margin. Public reports say HBM capacity is sold out through 2026, and 14 of 16 strategic customer agreements have about $100B of minimum contract revenue plus roughly $22B deposits / commitments. At $975.56 (Jul 2, 2026 close) and about $1.10T market cap, the stance is high-risk watch / memory-cycle dashboard: quality and visibility are stronger, but memory cyclicality and valuation compression still matter.",
+    "summary": "AI 基础设施书 memory-storage 层补位：Micron 是 HBM、DDR5、数据中心 SSD 和长期供货协议共同构成的 AI 供给瓶颈仪表盘。FY2026 Q3 收入 $41.46B、毛利率约 84.6%、营业利润 $33.32B、净利润 $28.24B，Q4 指引收入 $49-51B、调整后 EPS $30-32、毛利率约 86%。HBM 产能公开报道显示已售罄至 2026，16 个战略客户协议中 14 个最低合同收入约 $100B、约 $22B 现金存款/承诺。2026-07-07 v5 更新：当前 $975.56（2026-07-02 收盘）、市值约 $1.10T，20% 牛市 / 50% 基准 / 30% 熊市情景网格给出温和负偏斜，判断改为谨慎 / 中确信：市场隐含通过周期可持续 EPS 约 $65-81，高于我们约 $53 的加权值，周期均值回归风险未被完全定价。",
+    "summaryEn": "Memory-storage coverage for the AI-infrastructure book: Micron is the dashboard for HBM, DDR5, data-center SSDs, and long-term supply agreements as AI supply constraints move into memory. FY2026 Q3 revenue was $41.46B, gross margin about 84.6%, operating income $33.32B, and net income $28.24B; Q4 guidance is $49-51B revenue, $30-32 adjusted EPS, and about 86% gross margin. Public reports say HBM capacity is sold out through 2026, and 14 of 16 strategic customer agreements have about $100B of minimum contract revenue plus roughly $22B deposits / commitments. July 7, 2026 v5 update: at $975.56 (Jul 2, 2026 close) and about $1.10T market cap, a 20% bull / 50% base / 30% bear scenario grid produces a mildly negative skew, so the stance moves to cautious / medium conviction: the market is underwriting roughly $65-81 of through-cycle sustainable EPS versus our about $53 weighted value, so memory mean-reversion risk is not fully priced.",
     "tags": [
       "HBM",
       "DRAM",
@@ -4143,7 +4143,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-04",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=micron-2026",
     "markdownFiles": {
       "zh": "/invest/research/Micron_深度研究报告_2026-07.md",
@@ -4156,12 +4156,40 @@
       "memory-storage 层补位：MU 用 HBM sold-out、DRAM/NAND 价格、数据中心 SSD 和 SCA 长期协议校验 AI 需求是否穿透到 memory bit/带宽/价格",
       "FY2026 Q3 收入 $41.46B、毛利率约 84.6%、营业利润 $33.32B、净利润 $28.24B、FCF $17.56B；Q4 指引收入 $49-51B、EPS $30-32、毛利率约 86%",
       "16 个 SCA 中 14 个最低合同收入约 $100B，约 $22B 存款/承诺；公开报道显示 HBM 产能售罄至 2026，且只能满足约 50%-66% 客户需求",
-      "当前 $975.56（2026-07-02 收盘）、市值约 $1.10T、净现金约 $19.6B，TTM P/E 约 22x、EV/TTM Sales 约 12x。高风险观察：结构性短缺 vs 周期均值回归"
+      "当前 $975.56（2026-07-02 收盘）、市值约 $1.10T、净现金约 $19.6B，TTM P/E 约 22x（Q4 年化 run-rate 仅约 7.9x）。20/50/30 情景网格推导为谨慎 / 中确信：隐含可持续 EPS $65-81 高于我们约 $53 的加权值，负偏斜"
     ],
     "chainLayer": "memory-storage",
     "coverageTier": "full",
     "chainRole": "dashboard",
-    "stance": "high-risk-watch",
+    "stance": "cautious",
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 $975.56、约 22x TTM P/E（Q4 年化 run-rate 仅约 7.9x）计，市场隐含通过周期可持续 EPS 约 $65-81；我们 20% 牛市 / 50% 基准 / 30% 熊市加权的可持续 EPS 约 $53，低于隐含区间，周期均值回归风险未被完全定价，偏斜向下。",
+      "en": "At $975.56 and about 22x TTM P/E (only about 7.9x on the Q4 annualized run rate), the market is underwriting roughly $65-81 of through-cycle sustainable EPS; our 20% bull / 50% base / 30% bear weighted sustainable EPS is about $53, below that implied band, so memory mean-reversion risk is not fully priced and the skew points down."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "FY2026 Q4 兑现 $49-51B 收入与约 86% 毛利率指引，2027 HBM 订单簿继续售罄、SCA 收入占比上升且价格 floor 有效执行，同时月度 DRAM/NAND 合约价不转弱、行业新增供给保持纪律",
+        "en": "FY2026 Q4 delivers the $49-51B revenue and roughly 86% gross-margin guide, the 2027 HBM order book stays sold out, SCA revenue mix rises with price floors executing, and monthly DRAM / NAND contract prices hold firm while industry supply additions stay disciplined"
+      },
+      "downgrade": {
+        "zh": "月度 DRAM/NAND 合约价连续走弱、HBM 可得性改善快于客户需求、客户库存或对 SCA 的反弹升温，或毛利率指引从 80%+ 明显回落，确认周期见顶",
+        "en": "monthly DRAM / NAND contract prices weaken for consecutive months, HBM availability improves faster than customer demand, customer inventories or pushback against SCAs build, or gross-margin guidance falls clearly back from the 80%+ level, confirming the cycle peak"
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-07-02",
+        "stance": "high-risk-watch",
+        "price": 975.56
+      },
+      {
+        "date": "2026-07-02",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 975.56
+      }
+    ],
     "priceAsOf": "2026-07-02",
     "reportedPeriod": "FY2026 Q3",
     "related": [
