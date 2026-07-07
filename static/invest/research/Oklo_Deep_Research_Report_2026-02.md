@@ -1,7 +1,7 @@
 # Oklo Inc. (NYSE: OKLO) Deep Research Report
 
 Coverage date: 2026-02-10
-Last updated: 2026-06-23
+Last updated: 2026-07-07
 Ticker: NYSE: OKLO
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -11,28 +11,29 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 This report is the full rerun successor to `oklo-2026-pre-rerun`; the archived baseline is available at `/invest/research/reports/view.html?id=oklo-2026-pre-rerun`.
 
-**One-line thesis:** Oklo is one of the most imaginative plays in advanced nuclear — ~$1.2B cash, a 14.7GW+ pipeline, and marquee customers like Meta and Switch — but as a zero-revenue, pre-commercial company its ~$10B market cap is built entirely on a 5-10 year vision. The current framework must focus on regulation, first-reactor execution, fuel, customer conversion, and cash runway rather than conventional revenue multiples.
+**One-line thesis:** Oklo is one of the most imaginative plays in advanced nuclear — ~$1.2B cash, a 14.7GW+ pipeline, and marquee customers like Meta and Switch — but as a zero-revenue, pre-commercial company its market cap is built almost entirely on a 5-10 year commercialization option. The current framework must focus on regulation, first-reactor execution, fuel, customer conversion, and cash runway rather than conventional revenue multiples.
 
-**Current view:** Neutral / high-volatility watchlist. Nasdaq quote data showed OKLO at roughly **$58.40** on June 22, 2026, with market capitalization around **$10.15B** and a 52-week range of about $44.88-$193.84. The stock is below the February update price of $65.69 and far below its 2025 high, but it still embeds a large commercialization option for a company with no commercial revenue.
+**Current view:** **Constructive / low conviction: positive-skew venture bet.** The research-hub price ledger shows OKLO at **$52.36** on July 2, 2026, down from the June 22 rerun anchor of **$58.40**; using the same share-count frame, market capitalization is roughly **$9.10B**. The stock still embeds a large commercialization option for a company with no commercial revenue, but the payoff asymmetry is now better expressed as positive skew with low evidence strength rather than the old `high-risk-watch` label.
 
 **Changes vs the February report:**
 
 | Item | February baseline | This rerun (2026-06-22) |
 |------|-------------------|--------------------------|
-| Price anchor (old → now) | ~$65.69 (Feb 16 update) | $58.40 |
-| Market cap (old → now) | ~$10.2B | ~$10.15B |
-| Valuation anchor | probability-weighted ~$65-85; price ≈ fair | watchlist, no current target-price call |
+| Price anchor (old → now) | ~$65.69 (Feb 16 update) | $52.36 (Jul 2, 2026 price ledger; Jun 22 rerun anchor was $58.40) |
+| Market cap (old → now) | ~$10.2B | ~$9.10B |
+| Valuation anchor | probability-weighted ~$65-85; price ≈ fair | v5 scenario grid; positive skew but low conviction |
 | Thesis emphasis | pipeline + marquee customers | critical-path execution (NRC, first reactor, fuel, financeable contracts) |
 | Unchanged | $0 revenue, NRC license still pending, ~$1.2B cash framework, most pipeline non-binding, ongoing ATM dilution | same |
 
-**Data framing:** The quantitative detail below carries the FY2025 / Q3 2025 fact base established in the February research (and its Feb 16 update); the price and market-cap anchor is updated to June 22, 2026. Figures dated FY2024/2025 or to specific quarters are the reported baseline, not new H1 2026 actuals, and should be refreshed when Oklo reports subsequent quarters.
+**Data framing:** The quantitative detail below carries the FY2025 / Q3 2025 fact base established in the February research (and its Feb 16 update); the v5 stance update uses the July 2, 2026 price ledger close. Figures dated FY2024/2025 or to specific quarters are the reported baseline, not new H1 2026 actuals, and should be refreshed when Oklo reports subsequent quarters.
 
 **Quick Stats:**
 
 | Metric | Value |
 |--------|-------|
-| Price (2026-06-22) | ~$58.40 |
-| Market Cap (2026-06-22) | ~$10.15B |
+| Price (2026-07-02) | $52.36 |
+| Market Cap (2026-07-02) | ~$9.10B |
+| 2026H1 rerun anchor | $58.40 (Jun 22, 2026) |
 | 52-Week Range | $44.88 - $193.84 |
 | February Update Price | $65.69 (Feb 16) |
 | Revenue | $0 (pre-commercial) |
@@ -113,7 +114,7 @@ Oklo's financial health is about cash runway and financing capacity, not income-
 2. **First-mover regulatory position:** first to receive a DOE site-use permit for a commercial advanced-fission plant, first to submit a custom advanced-fission combined license to the NRC, and selected for the DOE Reactor Pilot Program; once approval is secured, followers need years to catch up.
 3. **Fuel recycling differentiation:** the first U.S. fuel recycling facility (Tennessee), radioisotope production via Atomic Alchemy, and ongoing DOE funding ($19M, Feb 2026).
 4. **Ample cash, long runway:** ~$1.2B cash, zero debt, plus Meta prepayments for early development and fuel procurement.
-5. **Bullish analyst stance (February frame):** consensus Buy; targets concentrated around $103-122; Bank of America $127 and Canaccord $175 at the high end.
+5. **Capital-market optionality remains live:** public-market interest is still unusually strong for a pre-revenue nuclear company, giving Oklo financing flexibility if technical milestones keep advancing.
 
 **Key assumptions:** NRC approves the combined license in 2026-2027; the Idaho first reactor is operational by 2027-2028; HALEU fuel supply issues are resolved.
 
@@ -142,19 +143,17 @@ Oklo's financial health is about cash runway and financing capacity, not income-
 
 ## 8. Valuation
 
-At roughly **$58.40** per share and **$10.15B** market cap, OKLO cannot be valued through P/E or EV/Sales. The right frame is probability-weighted project NAV, discounting each GW of pipeline for licensing probability, capital cost, financing cost, power price, and timing.
+At **$52.36** per share and roughly **$9.10B** market cap on July 2, 2026, OKLO cannot be valued through P/E or EV/Sales. The right frame is probability-weighted project NAV, discounting each GW of pipeline for licensing probability, capital cost, financing cost, power price, and timing.
 
-**Scenario analysis (2030 outlook):**
+**Scenario grid (2030 project-NAV frame):**
 
-| Scenario | Est. 2030 Revenue | Implied Market Cap | Implied Price | Probability |
-|----------|-------------------|--------------------|---------------|-------------|
-| Extremely bullish | $1B+ | $30-40B | $200-260 | 10% |
-| Bullish | $300-500M | $15-20B | $100-130 | 20% |
-| Base | $100-200M | $8-12B | $50-80 | 35% |
-| Conservative | <$50M | $3-5B | $20-33 | 25% |
-| Failure | $0 | $0.5-1B | $3-7 | 10% |
+| Scenario | Driver assumptions (licensing / first reactor / customer conversion) | Valuation implication (rich / fair / cheap vs today) | Probability weight |
+|----------|---------------------------------------------------------------|------------------------------------------------------|--------------------|
+| Bull | NRC approval arrives in the 2026-2027 window; Idaho reaches criticality close to the 2027-2028 target; HALEU and fuel-recycling paths remain financeable; Meta / Switch-type demand converts into binding project structures | Current cap looks cheap if the market can underwrite a $20-30B project-NAV zone from first-reactor proof and pipeline conversion | 30% |
+| Base | Licensing progresses but timing stretches; the first reactor de-risks the design more slowly; only a few anchor customers become financeable before 2030; dilution continues but cash runway remains adequate | Current cap is roughly fair against an $8-12B project-NAV zone; the option survives, but evidence is not strong enough for high conviction | 40% |
+| Bear | NRC review stalls or requires major redesign; first-reactor cost / schedule slips; HALEU or project finance constrains execution; most of the 14.7GW pipeline stays non-binding | Current cap is rich if the project-NAV zone compresses toward $2-5B, with failure-tail risk below that | 30% |
 
-The February probability-weighted central estimate was ~$65-85 (old/historical anchor), against which the current ~$58.40 now sits slightly below the base-case band — consistent with the market pricing longer timelines and execution uncertainty. The February analyst frame was a consensus target around $103-122 (range $14-175), which should be re-derived as licensing and first-reactor evidence arrives. Today's conclusion is simpler than a point target: upside comes from first-reactor and customer-conversion proof; downside comes from any delay in the critical path.
+**What's priced in & the expectation gap:** At $52.36 and roughly $9.10B market cap, the market is no longer just pricing cash runway; it is underwriting a pre-commercial nuclear option. Using the scenario midpoints above (bull ~$25B, base ~$10B, bear ~$3.5B) and 30% / 40% / 30% weights gives a rough scenario-weighted project-cap reference near **$12.6B**. That sits above the current market cap, so the skew is positive, but nearly all of the value depends on NRC approval, first-reactor execution, fuel, and binding customer conversion. This is a positive-skew setup, not a target price.
 
 ## 9. Catalysts & Monitoring
 
@@ -168,9 +167,13 @@ The February probability-weighted central estimate was ~$65-85 (old/historical a
 
 ## 10. Conclusion & Review
 
-Oklo's strategic story remains alive: ~$1.2B cash, a 14.7GW+ pipeline, marquee customers, and DOE support are all real, and Sam Altman's backing plus structural AI power demand add appeal. Viewed soberly, though, this is still a zero-revenue, zero-operating-reactor company whose valuation rests on a binary outcome — Aurora has never run commercially, the NRC license is unapproved, and most of the pipeline is non-binding.
+Oklo's chain-validation job is to test whether AI power scarcity can reprice pre-commercial advanced nuclear, not only operating generators or grid equipment. If NRC, fuel, first-reactor, and customer-conversion milestones advance, the power constraint is broad enough to finance new nuclear options. If they stall, the AI power story is narrower and should stay with proven generation, grid, and equipment names.
 
-**Lean:** high-conviction, binary event-driven watchlist — not a current target-price call. For monitoring rather than allocation advice: this is not suitable for risk-averse investors; the critical watchpoints are NRC license progress, Idaho first-reactor construction pace, and cash burn; and any position should sit within a risk budget appropriate for a pre-revenue, potentially-50%+-drawdown asset rather than a fixed portfolio weight. **Confidence level: low** — outcome is highly binary (major success or major failure).
+The expectation gap is positive but fragile: at $52.36 and roughly $9.10B market cap, the market is paying for a pre-commercial option; our 30% bull / 40% base / 30% bear grid produces a rough project-cap reference above today's cap, but that reference collapses if NRC or first-reactor milestones slip.
+
+The current stance is **constructive, low conviction**. Constructive reflects skew, not safety: the bull payoff from licensing and first-reactor proof is still large enough to outweigh the base/bear blend. Low conviction reflects the evidence quality: zero commercial revenue, no operating Aurora reactor, non-binding pipeline concentration, and likely future dilution.
+
+Upgrade trigger: move to bullish only if NRC licensing, Idaho first-reactor execution, HALEU / fuel arrangements, and at least one Meta / Switch-type binding customer structure all advance together without forcing dilutive financing at worse terms. Downgrade trigger: move to cautious or bearish-avoid if NRC review stalls, first-reactor cost or schedule breaks, fuel supply remains unresolved, a marquee customer reduces commitment, or quarterly cash burn / dilution rises without milestone progress.
 
 ## 11. Appendix & Sources
 
@@ -195,4 +198,6 @@ Oklo's strategic story remains alive: ~$1.2B cash, a 14.7GW+ pipeline, marquee c
 - Archived baseline: `oklo-2026-pre-rerun`
 - Oklo Q2/Q3 2025 earnings, press releases, and investor presentations; NRC public filings; DOE announcements.
 - Nasdaq quote API: OKLO $58.40 and roughly $10.15B market cap on June 22, 2026.
+- Research-hub price ledger: OKLO $52.36 close on July 2, 2026; the v5 stance update uses this price for the new `stanceHistory[]` entry.
 - IBD coverage of Oklo Q1 2026, fuel, and customer developments: `https://www.investors.com/news/oklo-earnings-q1-oklo-stock-nuclear-stocks/`
+- The v5 scenario grid and priced-in paragraph use a probability-weighted project-NAV frame. The market-cap ranges are assumption ranges for expectation calibration, not target prices.

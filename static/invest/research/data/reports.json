@@ -3696,7 +3696,7 @@
     "priceSymbol": "OKLO",
     "title": "Oklo 深度研究报告 - 前商业化核能期权与AI电力需求",
     "titleEn": "Oklo Deep Research Report - Pre-Commercial Nuclear Optionality Meets AI Power Demand",
-    "summary": "2026-06-23完整重跑版：OKLO股价约$58.40、市值约$10.15B；公司仍处首堆商业化前阶段，Meta/Switch等客户需求强化想象空间，但NRC许可、燃料、首堆成本和客户合同转化仍是决定性变量。",
+    "summary": "2026-07-07 v5试点更新：OKLO 2026-07-02收盘$52.36、市值约$9.10B；30%牛市/40%基准/30%熊市情景给出约$12.6B粗略项目市值参考，偏斜为正，但零收入、无运行首堆、NRC/燃料/客户转化未定使确信度保持低位。",
     "tags": [
       "核能",
       "SMR",
@@ -3705,19 +3705,19 @@
     ],
     "category": "nuclear",
     "date": "2026-02-10",
-    "lastUpdate": "2026-06-23",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=oklo-2026",
     "markdownFiles": {
       "zh": "/invest/research/Oklo_深度研究报告_2026-02.md",
       "en": "/invest/research/Oklo_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "股价约$58.40、市值约$10.15B，仍是高波动前商业化核能期权",
-      "AI数据中心电力需求强化长期需求，但公司仍无商业收入",
-      "NRC许可、燃料供应和首堆时间线是核心验证点",
-      "估值不适合用P/E或EV/Sales，需用概率加权项目NAV框架"
+      "股价$52.36、市值约$9.10B，低于6月22日重跑锚点$58.40",
+      "30%牛市/40%基准/30%熊市项目NAV情景表给出约$12.6B粗略参考",
+      "stance改为偏多/低确信：偏多来自正偏斜，低确信来自零收入、无运行首堆和高执行风险",
+      "NRC许可、燃料供应、首堆时间线和约束性客户结构是核心验证点"
     ],
-    "summaryEn": "June 23, 2026 full rerun: OKLO trades around $58.40 with roughly $10.15B market cap. The company remains pre-commercial; Meta/Switch-like demand strengthens the option value, but NRC licensing, fuel, first-plant cost, and customer conversion remain decisive.",
+    "summaryEn": "July 7, 2026 v5 pilot update: OKLO closed at $52.36 on July 2 with roughly $9.10B market cap. A 30% bull / 40% base / 30% bear scenario grid produces a rough $12.6B project-cap reference, so skew is positive, but conviction stays low because revenue, an operating first reactor, NRC/fuel proof, and binding customer conversion are still missing.",
     "period": "2026H1",
     "versionType": "full-cycle",
     "versionLabel": "2026H1 Full Rerun",
@@ -3736,8 +3736,37 @@
     },
     "chainLayer": "power",
     "coverageTier": "full",
-    "stance": "high-risk-watch",
-    "priceAsOf": "2026-06-22",
+    "chainRole": "risk-anchor",
+    "stance": "constructive",
+    "conviction": "low",
+    "stanceRationale": {
+      "zh": "在$52.36、约$9.10B市值上，市场正在为前商业化核能期权付费；30%牛市/40%基准/30%熊市情景表给出约$12.6B粗略项目市值参考，偏斜为正，但几乎全部价值都依赖NRC批准、首堆执行、燃料和约束性客户转化。",
+      "en": "At $52.36 and roughly $9.10B market cap, the market is paying for a pre-commercial nuclear option; a 30% bull / 40% base / 30% bear grid produces a rough $12.6B project-cap reference, so skew is positive, but nearly all value depends on NRC approval, first-reactor execution, fuel, and binding customer conversion."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "只有当NRC许可、Idaho首堆执行、HALEU/燃料安排，以及至少一个Meta/Switch类型约束性客户结构同时推进，且没有以更差条款强制稀释融资时，才上调至bullish。",
+        "en": "Move to bullish only if NRC licensing, Idaho first-reactor execution, HALEU / fuel arrangements, and at least one Meta / Switch-type binding customer structure all advance together without forcing dilutive financing at worse terms."
+      },
+      "downgrade": {
+        "zh": "若NRC审查停滞、首堆成本或进度失控、燃料供应仍未解决、标杆客户下调承诺，或季度现金消耗/稀释在缺少里程碑的情况下上升，则下调至cautious或bearish-avoid。",
+        "en": "Move to cautious or bearish-avoid if NRC review stalls, first-reactor cost or schedule breaks, fuel supply remains unresolved, a marquee customer reduces commitment, or quarterly cash burn / dilution rises without milestone progress."
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-06-22",
+        "stance": "high-risk-watch",
+        "price": 58.4
+      },
+      {
+        "date": "2026-07-02",
+        "stance": "constructive",
+        "conviction": "low",
+        "price": 52.36
+      }
+    ],
+    "priceAsOf": "2026-07-02",
     "reportedPeriod": "Q1 2026",
     "related": [
       "gevernova-2026"
@@ -3810,8 +3839,8 @@
           "en": "Meta/Switch-type demand converts into binding contracts"
         },
         "latest": {
-          "zh": "股价约 $58.40、市值约 $10.15B（2026-06-22）；需求强化想象空间",
-          "en": "stock ~$58.40, ~$10.15B cap (2026-06-22); demand strengthens the option value"
+          "zh": "股价 $52.36、市值约 $9.10B（2026-07-02）；v5情景表显示正偏斜但低确信",
+          "en": "$52.36 stock, roughly $9.10B cap (2026-07-02); v5 scenario grid shows positive skew but low conviction"
         },
         "nextCheck": "客户合同公告 / customer contract announcements"
       }
