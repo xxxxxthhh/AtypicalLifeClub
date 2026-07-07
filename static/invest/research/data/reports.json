@@ -1837,7 +1837,7 @@
     "priceSymbol": "GLW",
     "title": "康宁 深度研究报告 - AI 基础设施的光连接卖铲人",
     "titleEn": "Corning Deep Research Report - The Optical-Connectivity Pick-and-Shovel of AI Infrastructure",
-    "summary": "AI 数据中心光纤/光缆/被动连接材料层卖铲人，与 AAOI 的有源光模块/transceiver 覆盖互补。Q1 2026核心营收$43.45亿（+18%），光通信$18.46亿（+36%，生成式AI驱动），核心EPS $0.70、核心营业利润率20.2%（Springboard目标提前一年达成）；Q2指引核心营收~$46亿、核心EPS $0.73-0.77。三大客户Meta（最多$60亿）、NVIDIA（前期约$5亿、未来累计最多约$32亿股权的认股权证、3座工厂）、Amazon（数十亿美元）签多年期供货协议。但股价约$221、市值约$1,900亿、约71倍2026E核心EPS（卖方均价低于市价），约$90亿债务、AI资本开支周期性是主要风险。中性/高质量但高预期（观察）。",
+    "summary": "2026-07-07 v5更新：AI 数据中心光纤/光缆/被动连接材料层卖铲人，与 AAOI 的有源光模块/transceiver 覆盖互补。Q1 2026核心营收$43.45亿（+18%），光通信$18.46亿（+36%，生成式AI驱动），核心营业利润率20.2%。三大客户Meta、NVIDIA、Amazon签多年期供货协议且部分客户出资。但$221.05、约71倍2026E核心EPS已资本化多年Springboard执行；30%牛市/40%基准/30%熊市情景显示预期差均衡，维持中性观察/中确信。",
     "tags": [
       "光通信",
       "AI基础设施",
@@ -1846,7 +1846,7 @@
     ],
     "category": "tech",
     "date": "2026-06-29",
-    "lastUpdate": "2026-06-30",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=corning-2026",
     "markdownFiles": {
       "zh": "/invest/research/Corning_深度研究报告_2026-06.md",
@@ -1861,10 +1861,33 @@
       "Springboard计划兑现：核心营业利润率20.2%（提前一年达标），运行率目标2026年底约$200亿、2028约$300亿、2030约$400亿",
       "核心风险：股价约$221（52周$51-230，约4倍重定价）、约71倍2026E核心EPS、卖方均价低于市价；约$90亿债务、AI资本开支周期性与客户集中"
     ],
-    "summaryEn": "AI data-center fiber/cable/passive-connectivity pick-and-shovel, complementary to AAOI's active optical-module/transceiver exposure. Q1 2026 core sales $4.35B (+18%), Optical Communications $1.85B (+36%, GenAI-driven), core EPS $0.70, core operating margin 20.2% (Springboard target hit a year early); Q2 guide core sales ~$4.6B, core EPS $0.73-0.77. Meta (up to $6B), NVIDIA (~$500M upfront, up to ~$3.2B equity in total via warrants, 3 plants), Amazon (multibillion) signed multi-year supply deals. But at ~$221 / ~$190B market cap and ~71x 2026E core EPS (sell-side avg target below market price), with ~$9B debt and AI-capex cyclicality the key risks. Neutral / high-quality but high expectations (watch).",
+    "summaryEn": "July 7, 2026 v5 update: AI data-center fiber/cable/passive-connectivity pick-and-shovel, complementary to AAOI's active optical-module/transceiver exposure. Q1 2026 core sales were $4.35B (+18%), Optical Communications was $1.85B (+36%, GenAI-driven), and core operating margin was 20.2%. Meta, NVIDIA, and Amazon signed multi-year supply deals with partial customer funding. But at $221.05 and about 71x 2026E core EPS, the market already capitalizes years of Springboard execution; a 30% bull / 40% base / 30% bear grid leaves the expectation gap balanced, so stance remains neutral watch / medium conviction.",
     "chainLayer": "optical",
     "coverageTier": "full",
     "stance": "neutral-watch",
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 $221.05、约 71x 2026E 核心 EPS、约 57x 2027E 核心 EPS 计，市场正在定价数年 AI 光连接增长与 Springboard 执行；30% 牛市 / 40% 基准 / 30% 熊市情景认同方向，但认为基准情景已大体被资本化。",
+      "en": "At $221.05, about 71x 2026E core EPS, and about 57x 2027E core EPS, the market is underwriting several years of AI optical growth and Springboard execution; the 30% bull / 40% base / 30% bear grid agrees on direction but sees the base case already largely capitalized."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若 Q2/2026H2 显示光通信继续 30%+ 增长、Springboard 运行率接近 2026 年底约 $200 亿路径，客户出资协议落地且 FCF 在产能爬坡中改善，同时估值倍数不再扩张，则上调至 constructive。",
+        "en": "move to constructive if Q2/H2 2026 shows Optical Communications still growing 30%+, Springboard run rate tracking toward the roughly $20B end-2026 path, customer-funded agreements closing, and FCF improving through the capacity ramp while the valuation multiple does not expand further."
+      },
+      "downgrade": {
+        "zh": "若光通信增速明显低于 AI capex 叙事、Meta/NVIDIA/Amazon 任一方放缓或重谈供货承诺，或净债务/FCF 压力在约 71x 2026E 核心 EPS 估值下加剧，则下调至 cautious。",
+        "en": "move to cautious if Optical Communications growth falls materially below the AI-capex narrative, any of Meta/NVIDIA/Amazon slows or renegotiates supply commitments, or net-debt / FCF pressure worsens at roughly 71x 2026E core EPS."
+      }
+    },
+    "stanceHistory": [
+      {
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "date": "2026-06-26",
+        "price": 221.05
+      }
+    ],
     "priceAsOf": "2026-06-26",
     "reportedPeriod": "Q1 2026",
     "related": [
@@ -2100,8 +2123,8 @@
     "priceSymbol": "AAOI",
     "title": "AAOI 深度研究报告 - AI数据中心光模块高弹性与高估值考验",
     "titleEn": "AAOI Deep Research Report - AI Data Center Optics Upside Meets a Demanding Valuation",
-    "summary": "AI数据中心光模块高弹性标的，Q1 2026营收$151.1M（+51%），Data Center收入$81.4M（+154%），800G产品已向大型hyperscale客户首批量产出货。Q2指引收入$180-198M，Q3随产能上线预计显著放大。但GAAP仍亏损、经营现金流-$85.4M，当前EV/TTM Sales约26.6x，客户集中和ATM稀释是核心风险。",
-    "summaryEn": "High-beta AI data-center optical-module exposure. Q1 2026 revenue was $151.1M (+51%), Data Center revenue was $81.4M (+154%), and 800G products began initial mass-production shipments to a large hyperscale customer. Q2 guidance is $180-198M, with Q3 expected to step up as capacity comes online. But GAAP remains loss-making, operating cash flow was -$85.4M, current EV/TTM Sales is about 26.6x, and customer concentration plus ATM dilution are core risks.",
+    "summary": "2026-07-07 v5更新：AI数据中心光模块高弹性标的，Q1 2026营收$151.1M（+51%），Data Center收入$81.4M（+154%），800G已向大型hyperscale客户首批量产出货。Q2指引$180-198M，Q3随产能上线预计放大。但$171.23和约$13.51B EV已定价从$507M TTM收入迈向2027年$1.5B+收入、35%+毛利率和15%+经营利润率路径；30%牛市/30%基准/40%熊市情景给出负预期差，改为谨慎/中确信。",
+    "summaryEn": "July 7, 2026 v5 update: High-beta AI data-center optical-module exposure. Q1 2026 revenue was $151.1M (+51%), Data Center revenue was $81.4M (+154%), and 800G products began initial mass-production shipments to a large hyperscale customer. Q2 guidance is $180-198M, with Q3 expected to step up as capacity comes online. But $171.23 and about $13.51B EV already price a path from $507M TTM revenue toward $1.5B+ 2027 revenue, 35%+ gross margin, and 15%+ operating margin; a 30% bull / 30% base / 40% bear grid gives a negative expectation gap, moving stance to cautious / medium conviction.",
     "tags": [
       "光通信",
       "AI数据中心",
@@ -2110,7 +2133,7 @@
     ],
     "category": "tech",
     "date": "2026-06-23",
-    "lastUpdate": "2026-06-23",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=aaoi-2026",
     "markdownFiles": {
       "zh": "/invest/research/AAOI_深度研究报告_2026-06.md",
@@ -2127,7 +2150,35 @@
     ],
     "chainLayer": "optical",
     "coverageTier": "full",
-    "stance": "neutral-watch",
+    "stance": "cautious",
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 $171.23 和约 $13.51B EV 计，市场正在定价从约 $507M TTM 收入迈向 2027 年 $1.5B+ 收入、35%+ 毛利率和可信 15%+ 经营利润率路径；30% 牛市 / 30% 基准 / 40% 熊市情景把更高权重放在客户集中、现金流、稀释和产能执行风险上。",
+      "en": "At $171.23 and about $13.51B EV, the market is underwriting a path from roughly $507M TTM revenue toward $1.5B+ 2027 revenue, 35%+ gross margin, and a credible 15%+ operating-margin path; the 30% bull / 30% base / 40% bear grid puts more weight on concentration, cash-flow, dilution, and capacity-execution risk."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若 Q2 收入达到或高于 $198M、Q3 指引显示收入阶跃，毛利率突破 31% 且经营现金流/应收库存压力改善，同时新增 hyperscale 客户降低单一客户集中，则上调至 neutral-watch 或 constructive。",
+        "en": "move to neutral-watch or constructive if Q2 revenue lands at or above $198M, Q3 guidance shows a revenue step-up, gross margin breaks above 31% with operating-cash-flow / receivables-inventory pressure improving, and new hyperscale customers reduce single-customer concentration."
+      },
+      "downgrade": {
+        "zh": "若 Q2 低于 $180M 或 Q3 指引保守、毛利率维持 29-30% 且现金流仍深度为负，或 ATM 稀释继续快于收入证明，则下调至 bearish-avoid。",
+        "en": "move to bearish-avoid if Q2 revenue falls below $180M or Q3 guidance is cautious, gross margin stays at 29-30% with deeply negative cash flow, or ATM dilution continues faster than revenue proof."
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-06-22",
+        "stance": "neutral-watch",
+        "price": 171.23
+      },
+      {
+        "date": "2026-07-07",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 171.23
+      }
+    ],
     "priceAsOf": "2026-06-22",
     "reportedPeriod": "Q1 2026",
     "related": [
@@ -2335,7 +2386,7 @@
     "priceSymbol": "SNDK",
     "title": "SanDisk 深度研究报告 - NAND寡头格局中的AI存储周期暴露",
     "titleEn": "SanDisk Deep Research Report - AI Storage Cycle Exposure in the NAND Oligopoly",
-    "summary": "Q3 FY2026营收$59.5亿（+97% Q/Q），数据中心$14.67亿（+233% Q/Q），GAAP毛利率78.4%、营业利润率69.1%、GAAP EPS $23.03，FCF单季$29.9亿，零债务。五份NBM长期供货协议锁定约$420亿最低合同收入（管理层电话会口径），并授权$60亿回购。Q4指引营收$77.5-82.5亿、Non-GAAP EPS $30-33、毛利率79-81%。FY2026E P/S约16倍，但NAND是半导体中周期性最强的子行业之一，78-80%的顶峰毛利率不可持续，周期转向时盈利与估值双向收缩。",
+    "summary": "v5 回填：SanDisk Q3 FY2026 营收 $5.95B、数据中心 $1.47B、GAAP 毛利率 78.4%、FCF $2.99B、零债务，五份 NBM 长协带来约 $42B 最低合同收入框架。但以 $2,090.71 价格锚点和 Q4 年化 EPS 约 $120-132 计，当前价格在 12-15x memory-cycle 框架下隐含约 $139-174 的通过周期可持续 EPS。20% 牛市 / 40% 基准 / 40% 熊市情景把峰值 NAND 盈利均值回归风险放在前面，因此改为谨慎 / 中确信。",
     "tags": [
       "NAND闪存",
       "AI存储",
@@ -2344,7 +2395,7 @@
     ],
     "category": "tech",
     "date": "2026-06-27",
-    "lastUpdate": "2026-06-29",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=sandisk-2026",
     "markdownFiles": {
       "zh": "/invest/research/SanDisk_深度研究报告_2026-06.md",
@@ -2360,11 +2411,11 @@
       "五份NBM长期供货协议锁定约$420亿最低合同收入、>$110亿财务担保、覆盖FY2027逾1/3 bit出货（管理层电话会口径，待合同披露），是『去周期化』核心尝试；并授权$60亿股份回购",
       "核心风险：NAND周期性极强，78%+顶峰毛利率不可持续；周期转向时盈利与估值双向收缩"
     ],
-    "summaryEn": "Q3 FY2026 revenue $5.95B (+97% Q/Q), Datacenter $1.47B (+233% Q/Q), GAAP GM 78.4%, OM 69.1%, GAAP EPS $23.03, FCF $2.99B, zero debt. Five NBM long-term supply agreements lock in ~$42B minimum contracted revenue (per management's earnings call) and a $6B buyback was authorized. Q4 guidance $7.75-8.25B, Non-GAAP EPS $30-33, GM 79-81%. ~16x FY2026E P/S, but NAND is one of the most cyclical semiconductor sub-sectors — 78-80% peak margins are unsustainable and cycle turns see both earnings and multiples contract.",
+    "summaryEn": "July 7, 2026 v5 update: SanDisk Q3 FY2026 revenue was $5.95B, Datacenter revenue was $1.47B, GAAP gross margin was 78.4%, FCF was $2.99B, and debt was zero; five NBM agreements frame about $42B of minimum contracted revenue. But at the $2,090.71 price anchor and Q4 annualized EPS of about $120-132, the current price implies roughly $139-174 of through-cycle sustainable EPS on a 12-15x memory-cycle framework. A 20% bull / 40% base / 40% bear grid foregrounds peak NAND mean-reversion risk, moving stance to cautious / medium conviction.",
     "chainLayer": "memory-storage",
     "coverageTier": "full",
-    "stance": "neutral-watch",
-    "priceAsOf": "2026-06-28",
+    "stance": "cautious",
+    "priceAsOf": "2026-06-26",
     "reportedPeriod": "Q3 FY2026",
     "related": [
       "sk-hynix-2026"
@@ -2443,6 +2494,34 @@
           "en": "~$309.6B cap (snapshot ~2026-06-28); zero debt, $2.99B quarterly FCF"
         },
         "nextCheck": "行业 bit 供需与合同价 / industry bit supply-demand & contract pricing"
+      }
+    ],
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 $2,090.71 计，市场在 12-15x memory-cycle 框架下隐含约 $139-174 的通过周期可持续 EPS，高于 Q4 年化 EPS 指引约 $120-132；我们的 20% 牛市 / 40% 基准 / 40% 熊市情景网格说明，NBM 结构尚未证明峰值 NAND 盈利可持续。",
+      "en": "At $2,090.71, the market implies roughly $139-174 of through-cycle sustainable EPS on a 12-15x memory-cycle framework, above the Q4 annualized EPS guide of about $120-132; the 20% bull / 40% base / 40% bear grid says the NBM structure has not yet proved peak NAND earnings are sustainable."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若 FY2026 Q4 兑现 $77.5-82.5 亿收入与 79-81% 毛利率指引、NBM 合同披露确认约 $420 亿最低收入且覆盖 FY2027 过半 bit，同时 NAND 合约价和行业 capex 仍显示供给纪律，则上调至 neutral-watch 或 constructive。",
+        "en": "move to neutral-watch or constructive if FY2026 Q4 delivers the $7.75-8.25B revenue and 79-81% gross-margin guide, NBM filings confirm roughly $42B of minimum revenue with coverage moving toward more than half of FY2027 bits, and NAND contract prices plus industry capex still show supply discipline."
+      },
+      "downgrade": {
+        "zh": "若 NAND 合约价连续转弱、毛利率从 78-80% 峰值明显回落、NBM 覆盖或担保条款低于管理层口径，或 SanDisk/铠侠新增产能指向 2027 供给过剩，则下调至 bearish-avoid。",
+        "en": "move to bearish-avoid if NAND contract prices weaken for consecutive periods, gross margin falls materially from the 78-80% peak, NBM coverage or guarantees fall short of management's framing, or SanDisk/Kioxia capacity additions point to 2027 oversupply."
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-06-26",
+        "stance": "neutral-watch",
+        "price": 2090.71
+      },
+      {
+        "date": "2026-07-07",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 2090.71
       }
     ]
   },
@@ -2530,7 +2609,7 @@
     "priceSymbol": "000660.KS",
     "title": "SK hynix 深度研究报告 - HBM垄断者的AI记忆霸权",
     "titleEn": "SK hynix Deep Research Report - The HBM Monopolist's AI Memory Dominance",
-    "summary": "全球HBM垄断者（53%份额+NVIDIA绑定），乘AI内存超级周期创纪录。Q1 2026营收₩52.6万亿（+198% YoY）、营业利润₩37.6万亿（72%利润率）、净利₩40.3万亿。自2月以来股价约涨3.5倍、市值突破$1.3万亿（约₩2,070万亿），2月『深度低估』逻辑已基本兑现；TTM P/E约28x、利润率接近周期峰值，论点重心转向峰值可持续性。韩股上市，EWY为便捷间接途径。",
+    "summary": "v5 回填：SK hynix 仍是全球 HBM 领导者，Q1 2026 营收 ₩52.6T、营业利润 ₩37.6T、营业利润率约 72%，但自 2 月以来股价约上涨 3.5 倍，价格锚点 ₩2,917,000 对应约 28x TTM P/E 和约 16x sales。20% 牛市 / 50% 基准 / 30% 熊市情景说明 HBM 质量真实，但当前价格已经资本化接近峰值的盈利能力，因此改为谨慎 / 中确信。",
     "tags": [
       "半导体",
       "HBM",
@@ -2539,7 +2618,7 @@
     ],
     "category": "tech",
     "date": "2026-02-25",
-    "lastUpdate": "2026-06-25",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=sk-hynix-2026",
     "markdownFiles": {
       "zh": "/invest/research/SK_hynix_深度研究报告_2026-02.md",
@@ -2551,7 +2630,7 @@
       "HBM全球份额53%、NVIDIA主供，未来三年需求已超供给；HBM4E样品H2 2026、量产2027",
       "72%营业利润率接近周期峰值，均值回归与HBM4竞争是核心风险；韩股上市，EWY为便捷间接途径"
     ],
-    "summaryEn": "Global HBM monopolist (53% share + NVIDIA lock-in) riding the AI-memory supercycle to records. Q1 2026 revenue ₩52.6T (+198% YoY), operating profit ₩37.6T (72% margin), net ₩40.3T. The stock has ~3.5x'd since February and market cap surpassed $1.3T (~₩2,070T on a price × shares basis), so February's deep-value thesis has largely played out; TTM P/E ~28x and 72% margins are near a cyclical peak, shifting the debate to durability. Korean-listed; EWY is the convenient indirect route.",
+    "summaryEn": "July 7, 2026 v5 update: SK hynix remains the global HBM leader, with Q1 2026 revenue of ₩52.6T, operating profit of ₩37.6T, and roughly 72% operating margin. But the stock has risen about 3.5x since February, and the ₩2,917,000 price anchor implies about 28x TTM P/E and roughly 16x sales. A 20% bull / 50% base / 30% bear grid says HBM quality is real, but the current price already capitalizes near-peak profitability, moving stance to cautious / medium conviction.",
     "period": "2026",
     "versionType": "full-cycle",
     "versionLabel": "2026 Full Rerun",
@@ -2570,7 +2649,7 @@
     },
     "chainLayer": "memory-storage",
     "coverageTier": "full",
-    "stance": "neutral-watch",
+    "stance": "cautious",
     "priceAsOf": "2026-06-25",
     "reportedPeriod": "Q1 2026",
     "related": [
@@ -2650,6 +2729,34 @@
         },
         "nextCheck": "2026-Q2 财报 / Q2 earnings",
         "nextCheckDate": "2026-08"
+      }
+    ],
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 ₩2,917,000、约 28x TTM P/E、约 16x sales 计，市场定价了结构性更高的 HBM 利润平台；我们的 20% 牛市 / 50% 基准 / 30% 熊市情景网格说明，特许经营卓越，但 72% 利润率更可能先正常化，而不是继续扩张。",
+      "en": "At ₩2,917,000, about 28x TTM P/E, and roughly 16x sales, the market is underwriting a structurally higher HBM profit platform; the 20% bull / 50% base / 30% bear grid says the franchise is excellent, but 72% operating margin is more likely to normalize before it expands again."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若 Q2/H2 财报显示 HBM ASP 与出货继续上行、营业利润率仍接近 70%、Samsung/Micron HBM4 认证未追近，且股价不再扩张到更高 P/S，则上调至 neutral-watch 或 constructive。",
+        "en": "move to neutral-watch or constructive if Q2/H2 results show HBM ASPs and shipments still rising, operating margin stays near 70%, Samsung/Micron HBM4 qualification does not close the gap, and the stock does not expand to a higher P/S multiple."
+      },
+      "downgrade": {
+        "zh": "若营业利润率明显从 72% 回落、HBM4 份额或 NVIDIA 主供地位被 Samsung/Micron 侵蚀，或 ASP/订单开始显示 2027 供给追上需求，则下调至 bearish-avoid。",
+        "en": "move to bearish-avoid if operating margin falls materially from 72%, HBM4 share or NVIDIA primary-supplier status is eroded by Samsung/Micron, or ASP/order data starts to show 2027 supply catching demand."
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-06-25",
+        "stance": "neutral-watch",
+        "price": 2917000.0
+      },
+      {
+        "date": "2026-07-07",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 2917000.0
       }
     ]
   },

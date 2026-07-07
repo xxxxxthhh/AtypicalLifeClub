@@ -1,7 +1,7 @@
 # SK hynix (000660) Deep Research Report
 
 Coverage date: 2026-02-25
-Last updated: 2026-06-25
+Last updated: 2026-07-07
 Ticker: KRX: 000660
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -13,11 +13,11 @@ This report is the full rerun successor to `sk-hynix-2026-pre-rerun`; the archiv
 
 **One-line thesis:** SK hynix is the global HBM (High Bandwidth Memory) monopolist (53% share + NVIDIA lock-in), riding the AI-memory supercycle to record results — a 72% operating margin in Q1 2026. But the stock has risen ~3.5x since February and market cap has crossed $1.3T, so February's "deeply undervalued at a single-digit forward P/E" thesis has largely played out; the debate shifts from "is it cheap" to "how durable is the peak."
 
-**Current view:** Neutral / high-quality but re-rated. Per stockanalysis, 000660 was around **₩2,917,000** on June 25, 2026 on ~708M shares — a market cap of about **₩2,070T (~$1.3T USD)** on a price × shares basis (note: the vendor's own market-cap field lags the latest close, which on a +13% session understates it). The 52-week range is roughly ₩245,000-₩2,986,000, near all-time highs. Fundamentals are exceptionally strong, but the 72% operating margin is almost certainly near a cyclical peak, and valuation has re-rated from deep value to a TTM P/E of ~28x — the forward margin of safety has narrowed materially.
+**Current view:** Cautious / medium conviction after the v5 scenario-grid backfill. Per stockanalysis, 000660 was around **₩2,917,000** on June 25, 2026 on ~708M shares — a market cap of about **₩2,070T (~$1.3T USD)** on a price x shares basis (note: the vendor's own market-cap field lags the latest close, which on a +13% session understates it). The 52-week range is roughly ₩245,000-₩2,986,000, near all-time highs. Fundamentals are exceptionally strong, but the 72% operating margin is almost certainly near a cyclical peak, and valuation has re-rated from deep value to a TTM P/E of ~28x — the forward margin of safety has narrowed materially.
 
 **Investment Verdict:**
-- Long-term theme (3-5 years): **Bullish**, **moderate** conviction (an exceptional franchise, but the valuation has re-rated)
-- Near-term entry: **Neutral**, no longer cheap, margins at a cyclical peak, mean-reversion risk rising
+- Long-term theme (3-5 years): structurally positive on HBM leadership, but cyclical durability must be re-proven
+- Current stance: **Cautious**, **medium** conviction; the 20% bull / 50% base / 30% bear grid says HBM quality is real, but the dated price already capitalizes peak-like profitability
 
 **Changes vs the February report:**
 
@@ -279,7 +279,32 @@ Korean semiconductors are caught in US-China tensions; U.S. export controls on C
 
 ---
 
-## 8. Key Uncertainties, Catalysts & Monitoring Windows
+## 8. Valuation Context
+
+The following is valuation context, not a target price or recommendation.
+
+| Method | Current readout | Interpretation |
+|--------|-----------------|----------------|
+| Price anchor | ₩2,917,000 on 2026-06-25 | Near the 52-week high after a roughly 3.5x move since February |
+| Market cap | About ₩2,070T / ~$1.3T | The deep-value gap has largely closed |
+| TTM P/E | About 28x | No longer a single-digit forward-P/E dislocation |
+| P/S | About 16x | Rich for memory unless HBM materially lifts the through-cycle trough |
+| Profitability | Q1 2026 operating margin 72% | Extraordinary, but likely closer to cycle peak than normalized margin |
+| Balance sheet | About ₩35T net cash | Reduces solvency risk but does not remove earnings-cycle risk |
+
+SK hynix should be framed like Micron: the question is not whether AI memory demand is real, but how much of the HBM supercycle is structural versus a very strong memory cycle. A linear CAGR frame would understate the risk because both the denominator (earnings) and the multiple can compress together when DRAM/HBM supply catches demand.
+
+**Scenario grid:**
+
+| Scenario | Driver assumptions (HBM supply / cycle position / margin / multiple regime) | Valuation implication (rich / fair / cheap vs today) | Probability weight |
+|----------|----------------------------------------------------------------------------|------------------------------------------------------|--------------------|
+| Bull | NVIDIA primary-supplier status holds through HBM4; HBM4E samples in H2 2026 convert smoothly into 2027 volume; Samsung and Micron remain behind in certification; 65-70% operating margins persist longer than a normal memory cycle; the market keeps paying a structural-scarcity multiple | The June 25 price looks fair only if HBM scarcity stays visible into 2027 and through-cycle margins settle far above prior memory peaks | 20% |
+| Base | HBM demand remains supply constrained, but Q1's 72% margin gradually normalizes; HBM4 competition narrows the gap; DRAM/NAND cycle pricing stops accelerating during 2027; the multiple converges toward a high-quality memory leader rather than a monopoly-growth asset | The June 25 price already discounts a generous version of this case: excellent franchise, but limited margin of safety after the rerating | 50% |
+| Bear | Samsung/Micron close HBM4 qualification faster than expected; NVIDIA allocation diversifies; ASPs roll over as 2027 supply catches demand; operating margin falls sharply from 72%; the market re-rates SK hynix as peak-cycle memory | The June 25 price would look rich because peak earnings and peak multiple compress together | 30% |
+
+**What's priced in & the expectation gap:** At ₩2,917,000, about 28x TTM P/E and about 16x sales, the market is underwriting that Q1 2026's HBM-led profit step is not just a spike, but a higher through-cycle plateau. Our base case gives SK hynix credit for durable HBM leadership, yet still assumes the 72% operating margin fades before the market gets another valuation leg. The 20% bull / 50% base / 30% bear grid therefore points to a negative expectation gap: HBM quality is real, but memory mean-reversion risk is not fully priced.
+
+## 9. Key Uncertainties, Catalysts & Monitoring Windows
 
 | Timing | Event | Importance |
 |--------|-------|-----------|
@@ -292,7 +317,7 @@ Korean semiconductors are caught in US-China tensions; U.S. export controls on C
 
 ---
 
-## 9. Overall Assessment
+## 10. Conclusion
 
 ### Scorecard
 
@@ -320,9 +345,17 @@ But the nature of the opportunity has changed since February. Back then the core
 
 **Key watch point:** 2026 Q2 and H2 are the critical windows — whether peak margins hold, whether ASPs come under pressure as HBM4 ramps, and whether Samsung regains share. Fundamental top signals matter more than valuation here: at a cyclical peak, whether the stock looks cheap matters far less than how much longer earnings can keep climbing.
 
+SK hynix's chain-validation job is to test whether AI accelerator demand is still converting into scarce HBM bits, memory pricing power, and supplier concentration. If HBM ASPs, NVIDIA allocation, and HBM4 qualification stay tight, downstream AI capacity claims become more credible. If margins or share begin to normalize, the whole memory-storage layer needs to be recalibrated.
+
+The expectation gap is negative: at ₩2,917,000, about 28x TTM P/E and about 16x sales, the market is underwriting a structurally higher HBM profit plateau; our 20% bull / 50% base / 30% bear grid says the franchise is excellent, but the 72% margin is more likely to normalize than expand.
+
+The current stance is **cautious, medium conviction**. The bull case requires HBM scarcity and NVIDIA lock-in to overwhelm the memory cycle for another leg, while the base and bear cases carry meaningful margin and multiple mean-reversion risk. Medium conviction reflects strong evidence on current HBM leadership and Q1 profitability, offset by uncertainty around HBM4 competition, 2027 supply response, Korean governance, and access friction.
+
+Upgrade trigger: move to neutral-watch or constructive if Q2/H2 results show HBM ASPs and shipments still rising, operating margin stays near 70%, Samsung/Micron HBM4 qualification does not close the gap, and the stock does not expand to a higher P/S multiple. Downgrade trigger: move to bearish-avoid if operating margin falls materially from 72%, HBM4 share or NVIDIA primary-supplier status is eroded by Samsung/Micron, or ASP/order data starts to show 2027 supply catching demand.
+
 ---
 
-## 10. Appendix & Sources
+## 11. Appendix & Sources
 
 **Peer comparison (HBM landscape):**
 

@@ -1,7 +1,7 @@
 # Applied Optoelectronics (AAOI) Deep Research Report
 
 Coverage date: 2026-06-23
-Last updated: 2026-06-23
+Last updated: 2026-07-07
 Ticker: NASDAQ: AAOI
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -12,7 +12,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 **One-line thesis:** AAOI is moving from a CATV recovery story into a potentially material AI data center optical transceiver ramp, but at roughly **$171.23** per share and about **$13.7B** of market capitalization, the stock already discounts a steep H2 2026 capacity ramp and customer adoption curve.
 
 **Current view:**
-- **Stance:** Neutral / watchlist. Fundamental momentum is strong, but valuation margin for error is low.
+- **Stance:** Cautious / medium conviction. Fundamental momentum is strong, but the 30% bull / 30% base / 40% bear v5 grid says the market has already paid for a clean H2 capacity ramp, customer diversification, margin expansion, and cash-flow improvement.
 - **Confidence level:** Medium. The demand signal is visible; financial conversion still needs Q2-Q4 evidence.
 - **Key catalysts:** Q2 2026 revenue guidance of $180-198M, 800G product volume ramp beginning in Q2, larger growth expected from Q3 as capacity comes online, and U.S. / Taiwan manufacturing expansion.
 - **Monitoring window:** H2 2026, with focus on 800G / 1.6T shipments, gross margin, receivables, inventory, and ATM dilution.
@@ -207,15 +207,17 @@ This history is not a prediction but a reminder: today's Digicomm/Microsoft conc
 
 AAOI is best understood through implied assumptions rather than a conventional target price. The company is still loss-making and free-cash-flow negative, so P/E and FCF yield are not very useful. EV/Sales and revenue scenarios better show what the market is underwriting.
 
-| Scenario | 2026 revenue assumption | Relationship to known facts | Approx. EV/Sales |
-|---|---:|---|---:|
-| Conservative ramp | $750M | Q1 $151M + Q2 midpoint $189M, with limited H2 acceleration | ~18.0x |
-| Base ramp | $900M | Q3/Q4 step up as capacity comes online | ~15.0x |
-| Aggressive ramp | $1.1B | High-intensity 800G customer ramp with stable CATV | ~12.3x |
+| Scenario | Driver assumptions (800G ramp / customers / margin-FCF / capacity) | Valuation implication (rich / fair / cheap vs today) | Probability weight |
+|----------|------------------------------------------------------------------|------------------------------------------------------|--------------------|
+| Bull | Q2 revenue lands at or above $198M and Q3 guidance confirms a larger step-up; 800G / early 1.6T shipments expand beyond one hyperscale cadence; gross margin moves above 31% and cash burn eases; U.S. / Taiwan capacity converts into high-return orders without excessive ATM dilution | The $171.23 price starts to look fair only if 2027 revenue can reach $1.5B+ with 35%+ gross margin and a credible 15%+ operating-margin path | 30% |
+| Base | Q2 lands inside the $180-198M guide and Q3 grows, but customer concentration remains high; gross margin improves slowly from 29-30%; operating cash flow remains pressured by receivables/inventory; ATM issuance funds capacity while proof catches up | The current price is rich to fair: even a $900M 2026 revenue path still leaves EV/Sales near 15x and requires 2027 execution to justify it | 30% |
+| Bear | Q2 misses or Q3 guidance disappoints; the large hyperscale customer pauses orders or dual-sources; gross margin stays around 29-30%; operating cash flow remains deeply negative; ATM dilution outpaces revenue proof; capacity comes online into pricing pressure | The current price would be clearly rich because the market would de-rate a loss-making, concentrated optical-module ramp before profitability arrives | 40% |
 
 Based on roughly $13.51B of enterprise value. The implication is direct: even if revenue more than doubles in 2026, AAOI is not cheap. The market is really underwriting continued 2027 growth, gross margin improvement, and operating leverage.
 
 If the company can reach $1.5B+ of revenue in 2027, 35%+ gross margin, and 15%+ operating margin, the current valuation becomes easier to explain. If 2026 revenue lands closer to $700-800M and gross margin stays around 29%-30%, downside risk at the current price is high.
+
+**What's priced in & the expectation gap:** At $171.23 and about $13.51B EV, the market is not merely pricing the Q2 midpoint. It is underwriting that a company with about $507M TTM revenue, negative operating cash flow, and active ATM issuance can scale toward $1.5B+ 2027 revenue, lift gross margin past the low-30s, and convert capacity into operating profit. Our 30% bull / 30% base / 40% bear grid says the expectation gap is negative: the AI optical demand signal is real, but the price already assumes financial conversion that has not yet appeared.
 
 This report does not provide a target price. The next valuation reset should be driven mainly by Q2/Q3 revenue, gross margin, and cash flow evidence, not by TAM narratives alone.
 
@@ -248,11 +250,13 @@ This report does not provide a target price. The next valuation reset should be 
 
 ## 10. Conclusion
 
-AAOI is a classic "right direction, price-sensitive" AI infrastructure supply-chain stock. Operationally, the company has enough evidence to belong in the 800G / 1.6T optical module discussion: Q1 Data Center revenue grew 154% year over year, first volume 800G shipment occurred in Q1, Q2/Q3 have a clear ramp narrative, and U.S. / Taiwan capacity expansion matches supply-chain de-risking themes.
+AAOI's chain-validation job is to test whether AI data-center demand is reaching the active optical-module layer, not just passive fiber or chip-level networking. If 800G / 1.6T shipments, customer count, U.S. / Taiwan capacity, and margin expansion all improve together, the optical bottleneck is real. If the ramp depends on one customer while cash burn and dilution remain high, the chain signal is much weaker.
 
-But the investment view cannot stop at the theme. The company remains loss-making, operating cash flow is negative, gross margin has not clearly expanded, customer concentration is high, and dilution risk is active. At roughly 26.6x EV/TTM Sales, the market has already pulled forward a large amount of future growth.
+The expectation gap is negative: at $171.23 and about $13.51B EV, the market is underwriting a path from roughly $507M TTM revenue toward $1.5B+ 2027 revenue with 35%+ gross margin and a credible 15%+ operating-margin path; our 30% bull / 30% base / 40% bear grid puts more weight on concentration, cash-flow, dilution, and capacity-execution risk than on a clean ramp.
 
-AAOI therefore fits better as a high-volatility watchlist name than as a margin-of-safety value stock. The real confirmation signal is not simply that AI optical demand is large. It is that Q2 hits, Q3 guidance is strong, gross margin improves, cash pressure eases, and dilution is absorbed by high-return capacity. Until that evidence arrives, fundamental upside and valuation risk need to be held together.
+The current stance is **cautious, medium conviction**. The bull case has real upside because 800G demand and manufacturing expansion are tangible. But the bear row carries the highest single weight: AAOI remains loss-making, operating cash flow is negative, customer concentration is high, and the valuation has already pulled forward a lot of future execution. Medium conviction reflects visible demand evidence but incomplete financial conversion.
+
+Upgrade trigger: move to neutral-watch or constructive if Q2 revenue lands at or above $198M, Q3 guidance shows a revenue step-up, gross margin breaks above 31% with operating-cash-flow / receivables-inventory pressure improving, and new hyperscale customers reduce single-customer concentration. Downgrade trigger: move to bearish-avoid if Q2 revenue falls below $180M or Q3 guidance is cautious, gross margin stays at 29-30% with deeply negative cash flow, or ATM dilution continues faster than revenue proof.
 
 ---
 
