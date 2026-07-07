@@ -3028,7 +3028,7 @@
     ],
     "category": "energy",
     "date": "2026-02-19",
-    "lastUpdate": "2026-06-23",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=almonty-2026",
     "markdownFiles": {
       "zh": "/invest/research/Almonty_Industries_深度研究报告_2026-02.md",
@@ -3059,8 +3059,8 @@
     },
     "chainLayer": "resources",
     "coverageTier": "full",
-    "stance": "high-risk-watch",
-    "priceAsOf": "2026-06-22",
+    "stance": "cautious",
+    "priceAsOf": "2026-07-06",
     "reportedPeriod": "Q1 2026",
     "monitoring": [
       {
@@ -3116,6 +3116,34 @@
           "en": "stock ~$18.59, ~$5.29B cap (2026-06-22)"
         },
         "nextCheck": "融资公告 / financing announcements"
+      }
+    ],
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 $16.21、约 $4.6B 市值计，市场仍在资本化非中国钨供应稀缺、Sangdong 成功爬坡和 APT 高价维持；我们的 30% 牛市 / 30% 基准 / 40% 熊市网格显示，矿山特定风险略大于商品可选性。",
+      "en": "At $16.21 and roughly $4.6B market cap, the market is still capitalizing non-China tungsten scarcity, a successful Sangdong ramp, and sustained high APT pricing; our 30% bull / 30% base / 40% bear grid shows mine-specific risk slightly outweighing commodity optionality."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若 Sangdong 按 H2 2026 节奏确认商业收入、选矿厂利用率和现金成本达到管理层框架、APT 价格维持 $400+/MTU，且可转债/客户回款没有带来额外稀释压力，则上调至 neutral-watch 或 constructive。",
+        "en": "Move to neutral-watch or constructive if Sangdong confirms commercial revenue on the H2 2026 cadence, plant utilization and cash cost hit management's frame, APT holds above $400/MTU, and convertibles / customer collections do not create extra dilution pressure."
+      },
+      "downgrade": {
+        "zh": "若 Sangdong 爬坡低于计划、现金成本或回收率偏离、APT 价格跌破 $400/MTU 并持续、Plansee/GTP 包销回款延迟，或新增融资条款继续稀释普通股，则下调至 bearish-avoid。",
+        "en": "Move to bearish-avoid if Sangdong ramp trails plan, cash cost or recovery deviates, APT falls below $400/MTU and stays there, Plansee / GTP offtake cash collection slips, or new financing terms keep diluting common shareholders."
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-06-22",
+        "stance": "high-risk-watch",
+        "price": 18.66
+      },
+      {
+        "date": "2026-07-06",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 16.21
       }
     ]
   },
@@ -3308,7 +3336,7 @@
     ],
     "category": "energy",
     "date": "2026-02-11",
-    "lastUpdate": "2026-06-23",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=bloom-energy-2026",
     "markdownFiles": {
       "zh": "/invest/research/Bloom_Energy_深度研究报告_2026-02.md",
@@ -3339,8 +3367,8 @@
     },
     "chainLayer": "power",
     "coverageTier": "full",
-    "stance": "neutral-watch",
-    "priceAsOf": "2026-06-22",
+    "stance": "cautious",
+    "priceAsOf": "2026-07-06",
     "reportedPeriod": "Q1 2026",
     "related": [
       "vertiv-2026",
@@ -3402,6 +3430,34 @@
           "en": "June-23 full rerun kept neutral/watch"
         },
         "nextCheck": "季度利润率与现金流 / quarterly margins & cash flow"
+      }
+    ],
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 $295.05、约 $84B 市值和约 26x 2026E sales 计，市场仍在定价 AI 电力需求、2 GW 扩产、32%+ 毛利率和客户集中风险同时兑现；我们的 20% 牛市 / 40% 基准 / 40% 熊市网格显示基准与熊市合计权重更高，偏斜向下。",
+      "en": "At $295.05, roughly $84B market cap, and about 26x 2026E sales, the market is still pricing AI-power demand, the 2 GW capacity ramp, 32%+ gross margin, and customer-concentration risk all working; our 20% bull / 40% base / 40% bear grid gives more weight to base-plus-bear than to the clean bull case, so skew points down."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若 H2 2026 交付量验证 2 GW 扩产节奏、产品毛利率稳定在 32%+、服务成本没有吞噬装机利润，且 AI/数据中心客户继续扩散而不是更集中，则上调至 neutral-watch 或 constructive。",
+          "en": "Move to neutral-watch or constructive if H2 2026 deliveries validate the 2 GW capacity-ramp pace, product gross margin holds at 32%+, service cost does not consume installed-fleet economics, and AI / data-center customers broaden rather than concentrate further."
+      },
+      "downgrade": {
+        "zh": "若 AI 电力订单转化慢于积压叙事、产能爬坡带来库存或质量问题、毛利率/自由现金流不能随收入改善，或大客户/再融资风险上升，则下调至 bearish-avoid。",
+        "en": "Move to bearish-avoid if AI-power order conversion lags the backlog narrative, the capacity ramp creates inventory or quality problems, margins / free cash flow fail to improve with revenue, or large-customer / refinancing risk rises."
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-06-22",
+        "stance": "neutral-watch",
+        "price": 345.85
+      },
+      {
+        "date": "2026-07-06",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 295.05
       }
     ]
   },
@@ -3627,7 +3683,7 @@
     ],
     "category": "energy",
     "date": "2026-02-09",
-    "lastUpdate": "2026-06-25",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=neov-2026",
     "markdownFiles": {
       "zh": "/invest/research/NeoVolta_深度研究报告_2026-02.md",
@@ -3645,8 +3701,8 @@
     "summaryEn": "Q3 FY2026 revenue collapsed to $2.02M (-56% QoQ); the stock has crashed from $4.21 to ~$1.93 (-54%), with a public offering diluting shares ~65%. The Georgia factory slipped to end-August, while Infinite Grid's ~$200M 1.1 GWh LOI and Needham's initiation at an $8 target offer long-term optionality — but near-term fundamentals have deteriorated badly. P/S(TTM) ~5.82x, very high risk.",
     "chainLayer": "power",
     "coverageTier": "lite",
-    "stance": "high-risk-watch",
-    "priceAsOf": "2026-06-25",
+    "stance": "cautious",
+    "priceAsOf": "2026-07-06",
     "reportedPeriod": "Q3 FY2026",
     "monitoring": [
       {
@@ -3722,6 +3778,34 @@
         },
         "nextCheck": "LOI→合同公告 / LOI-to-contract announcements"
       }
+    ],
+    "conviction": "low",
+    "stanceRationale": {
+      "zh": "以 $2.72、约 $148M 市值和约 8.2x TTM sales 计，市场已把部分储能期权重新定价回来；我们的 20% 牛市 / 30% 基准 / 50% 熊市网格显示，Georgia/Infinite Grid 可选性不足以抵消收入连续下滑、稀释、亏损和现金跑道风险。",
+      "en": "At $2.72, roughly $148M market cap, and about 8.2x TTM sales, the market has repriced some storage optionality back in; our 20% bull / 30% base / 50% bear grid says Georgia / Infinite Grid optionality is not enough to offset sequential revenue contraction, dilution, losses, and runway risk."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若佐治亚工厂按更新后的 2026 年 8 月底节点量产、neuClick/Infinite Grid 从意向书转为可交付收入、毛利率回到 25%+，且现金跑道在无重大稀释下延长，则上调至 neutral-watch。",
+        "en": "Move to neutral-watch if the Georgia factory reaches volume production around the updated end-August 2026 timing, neuClick / Infinite Grid move from LOI to deliverable revenue, gross margin returns to 25%+, and runway extends without major dilution."
+      },
+      "downgrade": {
+        "zh": "若 Q4/FY2027 收入继续低于 Q3、Luminia/Infinite Grid 仍停留在非约束状态、毛利率低于 20%、现金余额只能覆盖不足 3 个季度，或再次折价融资，则下调至 bearish-avoid。",
+        "en": "Move to bearish-avoid if Q4 / FY2027 revenue remains below Q3, Luminia / Infinite Grid remain non-binding, gross margin stays below 20%, cash covers fewer than 3 quarters, or another discounted financing is required."
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-06-25",
+        "stance": "high-risk-watch",
+        "price": 1.91
+      },
+      {
+        "date": "2026-07-06",
+        "stance": "cautious",
+        "conviction": "low",
+        "price": 2.72
+      }
     ]
   },
   {
@@ -3740,7 +3824,7 @@
     ],
     "category": "energy",
     "date": "2026-02-07",
-    "lastUpdate": "2026-06-25",
+    "lastUpdate": "2026-07-07",
     "period": "2026H1",
     "versionType": "incremental",
     "versionLabel": "2026H1 Incremental Update",
@@ -3758,8 +3842,8 @@
     "summaryEn": "The largest pure-play copper miners ETF. June 25, 2026 incremental update: COPX trades ~$76.92, AUM grew to $7.99B (+8%), weighted P/E compressed from 30-35x to 17.74x (earnings delivery). Copper at ~$13,531/tonne ($6.14/lb) exceeds February's bull case ceiling, but flat COPX price reflects tariff uncertainty. YTD return down from +20.14% to +5.45%. COMEX premium and Section 232 review are the key near-term variables.",
     "chainLayer": "resources",
     "coverageTier": "lite",
-    "stance": "neutral-watch",
-    "priceAsOf": "2026-06-25",
+    "stance": "constructive",
+    "priceAsOf": "2026-07-06",
     "reportedPeriod": "2026-06 (ETF 月度数据 / monthly ETF data)",
     "related": [
       "almonty-2026"
@@ -3818,6 +3902,34 @@
           "en": "weighted P/E compressed from 30-35x to 17.74x (earnings delivery)"
         },
         "nextCheck": "成分股财报季 / holdings earnings season"
+      }
+    ],
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 $78.48 计，铜价已高于 2 月牛市框架而 COPX 仍接近初始锚点；加权 P/E 压缩至 17.74x、AUM 升至约 $7.99B，40% 牛市 / 40% 基准 / 20% 熊市 ETF 因子偏斜为正，但受关税溢价约束。",
+      "en": "At $78.48, copper is above the February bull frame while COPX is still close to the initial anchor; weighted P/E has compressed to 17.74x and AUM has risen to about $7.99B, so the 40% bull / 40% base / 20% bear ETF-factor skew is positive, but constrained by tariff premium."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若铜价在关税扰动消退后仍维持 $12,000-13,000/吨以上、LME/上期所库存继续下降、COPX 维持接近 NAV 且 AUM/资金流入继续增长，则上调至 bullish。",
+        "en": "Move to bullish if copper still holds above $12,000-13,000/tonne after tariff noise fades, LME / SHFE inventories keep falling, COPX stays near NAV, and AUM / inflows keep growing."
+      },
+      "downgrade": {
+        "zh": "若关税溢价回落使 COMEX 铜跌回 $10,000-11,000/吨区间、中国需求或电网投资走弱、库存持续上升，或 COPX 出现明显 NAV 折价和资金流出，则下调至 neutral-watch 或 cautious。",
+        "en": "Move to neutral-watch or cautious if tariff-premium reversal pulls COMEX copper back into the $10,000-11,000/tonne range, China demand or grid spending weakens, inventories keep rising, or COPX develops a visible NAV discount and outflows."
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-06-25",
+        "stance": "neutral-watch",
+        "price": 76.221
+      },
+      {
+        "date": "2026-07-06",
+        "stance": "constructive",
+        "conviction": "medium",
+        "price": 78.48
       }
     ]
   },
@@ -4041,7 +4153,7 @@
     ],
     "category": "tech",
     "date": "2026-02-03",
-    "lastUpdate": "2026-06-23",
+    "lastUpdate": "2026-07-07",
     "file": "/invest/research/reports/view.html?id=jinpan-2026",
     "markdownFiles": {
       "zh": "/invest/research/金盘科技_深度研究报告_20260204.md",
@@ -4073,7 +4185,7 @@
     "chainLayer": "power",
     "coverageTier": "full",
     "stance": "neutral-watch",
-    "priceAsOf": "2026-06-23",
+    "priceAsOf": "2026-07-07",
     "reportedPeriod": "Q1 2026",
     "monitoring": [
       {
@@ -4132,6 +4244,29 @@
         },
         "nextCheck": "半年报 / H1 report",
         "nextCheckDate": "2026-08"
+      }
+    ],
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 83.53 元、约 384 亿元市值、Q1 年化约 85x P/E 和约 6.3x P/S 计，市场已为 AIDC/SST/海外扩张和 H 股融资改善预付较高成功率；我们的 30% 牛市 / 40% 基准 / 30% 熊市网格显示基准情景接近市场隐含，保持中性观察。",
+      "en": "At RMB 83.53, roughly RMB 38.4B market cap, about 85x Q1-annualized P/E, and about 6.3x P/S, the market is already pre-paying for high odds that AIDC / SST / overseas expansion and H-share financing improvement all work; our 30% bull / 40% base / 30% bear grid leaves the base case close to market-implied expectations, so the stance remains neutral watch."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若 2026 H1/H2 报告确认 AIDC 收入继续 100%+ 增长、SST 获得 10-15 亿元级可交付订单、应收周转降至 110 天以内且经营现金流/净利超过 80%，则上调至 constructive。",
+        "en": "Move to constructive if 2026 H1/H2 reports confirm AIDC revenue still growing 100%+, SST wins RMB 1.0-1.5B of deliverable orders, receivable days fall below 110, and operating cash flow / net profit exceeds 80%."
+      },
+      "downgrade": {
+        "zh": "若 AIDC 增速跌破 100%、SST 仍无大额订单、海外工厂延迟超过 6 个月、毛利率低于 24%，或应收账款继续快于收入增长，则下调至 cautious。",
+        "en": "Move to cautious if AIDC growth falls below 100%, SST still has no large orders, overseas plants slip more than 6 months, gross margin falls below 24%, or receivables keep growing faster than revenue."
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-06-23",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 86
       }
     ]
   },

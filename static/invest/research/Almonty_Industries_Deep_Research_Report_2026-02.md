@@ -1,7 +1,7 @@
 # Almonty Industries Deep Research Report
 
 Coverage date: 2026-02-19
-Last updated: 2026-06-23
+Last updated: 2026-07-07
 Ticker: NASDAQ: ALM / TSX: AII
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -13,14 +13,14 @@ This report is the full rerun successor to `almonty-2026-pre-rerun`; the archive
 
 **One-line thesis:** Almonty is the most important non-Chinese tungsten producer, with its flagship Sangdong mine entering commercial production amid a ~40% contraction in Chinese tungsten exports and U.S. defense mandates — but Nasdaq liquidity, ramp expectations, convertible financing, and geopolitical tungsten premiums have pushed the stock into a "project must deliver" valuation zone.
 
-**Current view:** Neutral / high-risk watchlist. Nasdaq quote data showed ALM at roughly **$18.59** on June 22, 2026, with market capitalization around **$5.29B** and a 52-week range of about $3.16-$24.41. Price and market cap are above the February frame, and the valuation now requires Sangdong execution rather than only strategic scarcity.
+**Current view:** Cautious, medium conviction. `prices.json` shows ALM at **$16.21** on the Jul 6, 2026 close; using the Jun 22 price / market-cap frame implies roughly **$4.6B** of current market cap. Tungsten scarcity and the non-China supply option remain real, but today's price still requires Sangdong ramp, cash cost, offtake collection, and dilution risk to all work in Almonty's favor.
 
 **Changes vs the February report:**
 
 | Item | February baseline | This rerun (2026-06-22) |
 |------|-------------------|--------------------------|
 | Market cap (old → now) | ~$4.0B | ~$5.29B |
-| Valuation anchor (old → now) | EV/2026E revenue 27-34x; analyst targets $12-18 | dominated by Sangdong NAV; neutral / high-risk |
+| Valuation anchor (old → now) | EV/2026E revenue 27-34x; old broker frame below later trading prices | dominated by Sangdong NAV; cautious |
 | New since February | — | Q1 2026 results (May 11, 2026); oversubscribed convertible note closed (June 2026); company now states Sangdong >80% of ex-China tungsten at full capacity (Feb frame: ~40%) |
 | Thesis emphasis | strategic scarcity, priced for perfection | "project must deliver": Sangdong execution over scarcity |
 | Unchanged | single-asset concentration, heavy dilution, negative EBITDA, Plansee floor, tungsten-price sensitivity | same |
@@ -160,18 +160,17 @@ Almonty remains in a project-ramp and financing phase; current revenue and EBITD
 
 ## 8. Valuation
 
-At roughly **$18.59** per share and **$5.29B** market cap, ALM is not usefully valued on current revenue or P/E — value is dominated by future Sangdong cash flow. The right framework is project NAV: full-capacity output, tungsten price, cash cost, offtake price, discount rate, and financing dilution — each input can move fair value materially.
+Valuation is expectation calibration, not a target price or recommendation. The current `prices.json` anchor is the **$16.21** Jul 6, 2026 close; using the Jun 22 price / market-cap frame implies roughly **$4.6B** of current market capitalization. ALM is not usefully valued on current revenue or P/E because value is dominated by future Sangdong cash flow. The right framework remains project NAV: full-capacity output, APT / tungsten price, cash cost, offtake price, discount rate, and financing dilution — each input can move the conclusion materially.
 
-**Multiples & analyst frame (February historical):**
+**Scenario grid:**
 
-| Metric | Value |
-|--------|-------|
-| EV/TTM revenue | ~191x (old) |
-| EV/2026E revenue ($120M / $155M) | ~34x / ~27x (old) |
-| FY2026 EPS estimate | $0.23 |
-| Analyst targets (Feb) | $12.00 (Oppenheimer) - $18.00 (DA Davidson) (old) |
+| Scenario | Driver assumptions (tungsten price / Sangdong / cost / financing) | Valuation implication (rich / fair / cheap vs today) | Probability weight |
+|----------|-------------------------------------------------------------------|------------------------------------------------------|--------------------|
+| Bull | APT holds above $400/MTU; Sangdong commercial revenue and plant utilization ramp on the H2 2026 schedule; cash cost comes in below expectations; Plansee / GTP offtake execution is smooth; convertibles do not add another dilution overhang | Today's price can be defended as a scarcity premium for a non-China tungsten asset, but only if mine cash flow validates | 30% |
+| Base | APT stays elevated but volatile; Sangdong commercializes but ramps slower than the ideal curve; cash cost and recovery rate need several quarters of proof; financing terms remain manageable but dilutive | Today's price already capitalizes strategic scarcity and partial ramp success, leaving limited margin of safety | 30% |
+| Bear | APT falls below $400/MTU and stays there; Sangdong output, recovery, or cash cost misses; offtake cash collection slips; new financing keeps diluting common shareholders | Today's price is rich; commodity premium and single-mine execution risk reverse together | 40% |
 
-The February analyst targets were below the current price and should be re-derived as Sangdong ramp evidence arrives. Today's price requires Sangdong to become a reliable cash-flow asset.
+**What's priced in & the expectation gap:** At **$16.21** and roughly **$4.6B** market cap, the market is still capitalizing non-China tungsten scarcity, a successful Sangdong ramp, and sustained high APT pricing. Our 30% bull / 30% base / 40% bear grid accepts the geopolitical tungsten option, but it keeps single-mine ramp, cash cost, offtake collection, and financing dilution on the same page; at the current price, mine-specific risk slightly outweighs commodity optionality, leaving a negative expectation gap.
 
 ## 9. Catalysts & Monitoring
 
@@ -192,9 +191,13 @@ The February analyst targets were below the current price and should be re-deriv
 
 ## 10. Conclusion & Review
 
-**Scorecard:** business quality 7/10 (scarce ex-China asset, but single-mine concentration); competitive moat 8/10 (geopolitical moat + 15-year offtake + defense customers); financial health 4/10 (negative EBITDA, heavy dilution, Z-Score warning, but cash-rich); management 7/10 (long tenure, aligned, defense-connected board); valuation 3/10 (priced for perfection or beyond); catalyst clarity 8/10 (Sangdong ramp, tungsten prices, U.S. policy all near-term).
+Almonty's chain-validation job is to test whether AI, grid, and defense-driven critical-minerals tightness can turn into actual cash flow for a non-China tungsten mine, not just geopolitical scarcity. If Sangdong ramp, APT prices, offtake collection, and financing terms validate together, tungsten becomes a strong resources-layer signal. If any of those pieces slips, single-mine execution risk overwhelms the commodity option.
 
-Almonty's strategic scarcity is clearer than in February and Nasdaq liquidity is stronger, but the current $5.29B market cap already capitalizes substantial Sangdong success, and mining projects rarely deliver perfection. This is a monitoring view, not allocation advice: it suits investors comfortable with high volatility who believe in the critical-minerals theme, not those seeking stable cash flow; any position should sit within a risk budget appropriate for a single-asset, high-volatility miner rather than a fixed weight. The rerun stance is **neutral / high-risk watchlist** — track project evidence rather than rely on scarcity alone.
+The expectation gap is negative: at $16.21 and roughly $4.6B market cap, the market is still capitalizing non-China tungsten scarcity, a successful Sangdong ramp, and sustained high APT pricing; our 30% bull / 30% base / 40% bear grid shows mine-specific risk slightly outweighing commodity optionality.
+
+The current stance is **cautious, medium conviction**. The 30% bull / 30% base / 40% bear grid says the geopolitical tungsten option is real, but today's price already requires Sangdong ramp, cash cost, offtake collection, and financing dilution to all work in Almonty's favor. Medium conviction reflects the evidence quality: tungsten supply constraints and Sangdong's strategic position are clear, while mine ramp, cost, and financing remain high-impact variables.
+
+Upgrade trigger: Move to neutral-watch or constructive if Sangdong confirms commercial revenue on the H2 2026 cadence, plant utilization and cash cost hit management's frame, APT holds above $400/MTU, and convertibles / customer collections do not create extra dilution pressure. Downgrade trigger: Move to bearish-avoid if Sangdong ramp trails plan, cash cost or recovery deviates, APT falls below $400/MTU and stays there, Plansee / GTP offtake cash collection slips, or new financing terms keep diluting common shareholders.
 
 ## 11. Appendix & Sources
 

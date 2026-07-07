@@ -1,7 +1,7 @@
 # Jinpan Technology (688676.SH) Deep Research Report
 
 Coverage date: 2026-02-03
-Last updated: 2026-06-23
+Last updated: 2026-07-07
 Ticker: 688676.SH
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -13,7 +13,7 @@ This report is the full rerun successor to `jinpan-2026-pre-rerun`; the archived
 
 **One-line thesis:** Jinpan is a hidden champion in dry-type transformers, upgrading from a traditional manufacturer to a power-equipment solutions provider via AI data centers (AIDC) and solid-state transformers (SST). The 2026H1 debate has shifted from "can the AI/SST story be discovered" to "can a demanding valuation be supported by order conversion, cash flow, and receivable quality."
 
-**Current view:** Neutral / watchlist. Eastmoney quote data on June 23, 2026 showed the stock around **RMB 86.00** and market capitalization around **RMB 39.5B**. Using Q1 2026 parent net income of about RMB 112M annualized mechanically, the stock trades around **88x** annualized earnings and about **6.5x** annualized Q1 revenue — still demanding for a manufacturing business with working-capital pressure.
+**Current view:** Neutral watch, medium conviction. `prices.json` shows the stock at **RMB 83.53** on Jul 7, 2026; using the Jun 23 price / market-cap frame implies roughly **RMB 38.4B** of current market cap. AIDC, SST, overseas capacity, and potential H-share financing still provide AI-power-equipment optionality, but the current price already asks orders, collections, margin, and capacity to validate together.
 
 **Changes vs the February report:**
 
@@ -21,7 +21,7 @@ This report is the full rerun successor to `jinpan-2026-pre-rerun`; the archived
 |------|-------------------|--------------------------|
 | Price anchor (old → now) | ~RMB 92.80 (Feb 17) | RMB 86.00 |
 | Market cap (old → now) | ~RMB 46B | ~RMB 39.5B |
-| Valuation anchor (old → now) | TTM P/E 69.5x; target RMB 30-35B | Q1-annualized P/E ~88x, P/S ~6.5x; neutral/watchlist |
+| Valuation anchor (old → now) | TTM P/E 69.5x; old valuation frame around RMB 30-35B | Q1-annualized P/E ~85x, P/S ~6.3x; neutral watch |
 | Latest results | 9M2025 revenue +8.25%, net profit +20.27% | Q1 2026 revenue RMB 1.52B (+13.4%), net profit RMB 112M (+4.8%) |
 | Thesis emphasis | can the AI/SST story be discovered | can the valuation be proven by orders/cash/receivables |
 | Unchanged | receivables risk, SST not yet commercially validated, intensifying competition | same |
@@ -136,19 +136,17 @@ Q1 2026 revenue growth of +13.4% confirms demand, but profit growth (+4.8%) lagg
 
 ## 8. Valuation
 
-At roughly **RMB 86.00** per share and **RMB 39.5B** market cap (~460M shares), Jinpan is not cheap on reported earnings. Q1 2026 parent net income annualized to ~RMB 450M implies ~**88x** P/E; Q1 revenue annualized to ~RMB 6.09B implies ~**6.5x** P/S.
+Valuation is expectation calibration, not a target price or recommendation. The current `prices.json` anchor is the **RMB 83.53** Jul 7, 2026 close; using the Jun 23 price / market-cap frame implies roughly **RMB 38.4B** of current market capitalization. Q1 2026 parent net income of RMB 112M annualizes mechanically to about RMB 450M, or roughly **85x** P/E; Q1 revenue of RMB 1.523B annualizes to about RMB 6.09B, or roughly **6.3x** P/S.
 
-**Multi-method valuation (framework, February research frame):**
+**Scenario grid:**
 
-| Method | Target Market Cap | Key Assumptions | Confidence |
-|--------|-------------------|-----------------|------------|
-| P/E (conservative) | RMB 20B | 2026 net profit RMB 800M, 25x | Medium |
-| P/E (neutral) | RMB 28B | 2026 net profit RMB 800M, 35x | Medium |
-| P/E (optimistic) | RMB 40B | 2026 net profit RMB 1B, 40x | Low |
-| Sum-of-the-parts | RMB 32B | Legacy 20x + AIDC 50x | Medium |
-| Peer comparison | RMB 25-35B | vs Shunte, Sanbian | Medium |
+| Scenario | Driver assumptions (AIDC / SST / cash flow / capacity) | Valuation implication (rich / fair / cheap vs today) | Probability weight |
+|----------|--------------------------------------------------------|------------------------------------------------------|--------------------|
+| Bull | AIDC revenue keeps growing 100%+; SST produces RMB 1.0-1.5B of deliverable orders; overseas plants ramp on schedule; receivable days fall below 110; operating cash flow / net profit exceeds 80% | Today's price looks fair-to-slightly cheap because the market can treat Jinpan as an AI-power-equipment platform rather than only a transformer manufacturer | 30% |
+| Base | AIDC stays strong but lumpy; SST order validation slips into H2 2026; overseas capacity releases gradually but needs margin ramp; receivables and cash conversion improve only partly | Today's price largely prices the base case: growth is still real, but the margin of safety is limited | 40% |
+| Bear | AIDC growth falls below 100%; large SST orders remain absent; overseas plants slip more than 6 months; gross margin falls below 24%; receivables keep growing faster than revenue | Today's price is rich; the risk is thematic valuation leading while collections and profit conversion lag | 30% |
 
-**SOTP breakdown:** legacy business 2026 revenue ~RMB 6B × 8% net margin × 20x → RMB 9.6B; AIDC revenue ~RMB 3B × 12% margin × 50x → RMB 18B; other (storage, robotics) net profit ~RMB 160M × 25x → RMB 4B; total ~RMB 31.6B. The current RMB 39.5B sits above that February-frame midpoint, embedding the expectation that AIDC, SST, overseas expansion, and financing improvement all deliver together. **Conclusion:** not cheap; if subsequent quarters' earnings and cash flow do not accelerate, valuation-compression risk remains high.
+**What's priced in & the expectation gap:** At **RMB 83.53**, roughly **RMB 38.4B** market cap, about **85x** Q1-annualized P/E, and about **6.3x** P/S, the market is already pre-paying for high odds that AIDC, SST, overseas expansion, and H-share financing improvement all work. Our base case accepts that these options are real, but it also requires collections and cash flow to improve at the same time; the 30% bull / 40% base / 30% bear grid leaves the current price close to the base case, so the expectation gap is broadly balanced.
 
 ## 9. Catalysts & Monitoring
 
@@ -162,9 +160,13 @@ At roughly **RMB 86.00** per share and **RMB 39.5B** market cap (~460M shares), 
 
 ## 10. Conclusion & Review
 
-**Company quality: B+.** Moat B (technology + customer stickiness, but rising competition); financial health B (steady profit, but receivables risk); management B+ (strong execution, transparency to improve); growth potential A- (AIDC/SST raise the ceiling); valuation appeal C (rich).
+Jinpan's chain-validation job is to test whether AI data-center power-equipment demand can show up in real dry-type transformer, digital-factory, SST, and overseas-capacity orders with cash collection, not merely A-share thematic valuation. If AIDC, SST, overseas plants, and collection quality improve together, the AI-power-equipment constraint becomes more credible. If growth remains mostly revenue and narrative, valuation has to be recalibrated.
 
-This rerun moves the stance from "cautiously bullish" to **neutral / watchlist** — not because the business logic weakened, but because the bar for valuation and cash-flow proof has risen. This is a monitoring view, not allocation advice: suitable for higher-volatility investors who back the long-term AI-compute trend, not for income-seeking or risk-averse investors; any position should sit within a risk budget appropriate for a high-volatility thematic growth stock rather than a fixed weight. The next review's key question is not whether the stock returns to RMB 90, but whether profit, collection, and confirmed AIDC/SST evidence can support a RMB 39.5B valuation. **Confidence: medium.**
+The expectation gap is broadly balanced: at RMB 83.53, roughly RMB 38.4B market cap, about 85x Q1-annualized P/E, and about 6.3x P/S, the market is already pre-paying for high odds that AIDC / SST / overseas expansion and H-share financing improvement all work; our 30% bull / 40% base / 30% bear grid leaves the base case close to market-implied expectations, so the stance remains neutral watch.
+
+The current stance is **neutral watch, medium conviction**. The 30% bull / 40% base / 30% bear grid says the AI-power-equipment optionality is real, but today's price already asks orders, collections, margin, and capacity to validate together. Medium conviction reflects the evidence quality: the AIDC and digital-manufacturing logic is clear, while receivables, cash flow, and SST orders remain the main constraints.
+
+Upgrade trigger: Move to constructive if 2026 H1/H2 reports confirm AIDC revenue still growing 100%+, SST wins RMB 1.0-1.5B of deliverable orders, receivable days fall below 110, and operating cash flow / net profit exceeds 80%. Downgrade trigger: Move to cautious if AIDC growth falls below 100%, SST still has no large orders, overseas plants slip more than 6 months, gross margin falls below 24%, or receivables keep growing faster than revenue.
 
 ## 11. Appendix & Sources
 

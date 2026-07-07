@@ -1,7 +1,7 @@
 # Bloom Energy (NYSE: BE) Deep Research Report
 
 Coverage date: 2026-02-11
-Last updated: 2026-06-23
+Last updated: 2026-07-07
 Ticker: NYSE: BE
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -13,7 +13,7 @@ This report is the full rerun successor to `bloom-energy-2026-pre-rerun`; the ar
 
 **One-line thesis:** Bloom Energy is transitioning from a niche fuel-cell company into a critical AI-infrastructure power provider riding the structural grid-power deficit — but after a large 2026H1 re-rating, the stock has moved from "high-growth infrastructure premium" to "priced for near-perfect execution," so orders, capacity, margins, and capital intensity must now be read on one page.
 
-**Current view:** Neutral / watchlist. Nasdaq quote data showed BE at roughly **$345.85** on the June 22, 2026 close, with market capitalization around **$98.30B**. That close set a fresh high above the trailing 52-week high of about $329.51 (52-week low about $21.41), so the 52-week range lags the latest close. The stock is far above the February framework; the valuation now requires AI power demand, product margin, capacity expansion, and customer concentration to all work in Bloom's favor.
+**Current view:** Cautious, medium conviction. `prices.json` shows BE at **$295.05** on the Jul 6, 2026 close; using the Jun 22 price / market-cap frame implies roughly **$84B** of current market cap. AI-power demand and Bloom's SOFC deployment speed still carry real optionality, but roughly 26x 2026E sales still asks demand, the 2 GW capacity ramp, 32%+ product margin, service costs, and customer-concentration risk to all work in Bloom's favor.
 
 **Changes vs the February report:**
 
@@ -147,17 +147,17 @@ Bloom has moved from years of losses toward profitability; FY2025 revenue was ~$
 
 ## 8. Valuation
 
-At roughly **$345.85** per share and **$98.30B** market cap, BE trades at roughly **31x** a $3.2B 2026 revenue reference. Even with continued fast growth, that multiple requires unusually strong eventual hardware-business profitability and cash conversion. Trailing P/E is not usable given the FY2025 GAAP net loss.
+Valuation is expectation calibration, not a target price or recommendation. The current `prices.json` anchor is the **$295.05** Jul 6, 2026 close; using the Jun 22 price / market-cap frame implies roughly **$84B** of current market capitalization. Against the report's existing **$3.2B** 2026 revenue reference, that is about **26x sales**. This means the market is not merely buying the "AI power" theme; it is pre-paying for orders, capacity, margins, and cash conversion to work together.
 
-**Scenario framework (illustrative, February historical frame):**
+**Scenario grid:**
 
-| Scenario | Implied 2027 Revenue | EV/Revenue | Implied Price (Feb frame) |
-|----------|----------------------|------------|---------------------------|
-| Bull | $5.0B+ | 10x | $200+ |
-| Base | $4.0-4.5B | 8x | $130-160 |
-| Bear | $3.0-3.5B | 5x | $60-80 |
+| Scenario | Driver assumptions (demand / capacity / margin / capital intensity) | Valuation implication (rich / fair / cheap vs today) | Probability weight |
+|----------|---------------------------------------------------------------------|------------------------------------------------------|--------------------|
+| Bull | AI / data-center orders keep converting into delivered revenue; the 2 GW capacity ramp stays on schedule; product gross margin holds at 32%+; service and fuel costs do not consume installed-fleet economics; customers broaden beyond Oracle / CoreWeave-style anchors | Today's price can be justified as a scarcity premium for a high-quality AI-power platform, but only if revenue, margin, and cash flow validate together | 20% |
+| Base | Backlog remains high but converts in phases; capacity expansion creates periodic inventory and working-capital pressure; product margin improves but service cost rises; customer concentration fades slowly | Today's price largely capitalizes the medium-term growth case; company quality improves, but valuation tolerance is thin | 40% |
+| Bear | AI-power orders convert more slowly than the backlog narrative; the 2 GW ramp or supply chain creates quality / cost issues; gross margin stays below 30%; free cash flow remains held back by inventory, service cost, and capex; concentration or financing risk rises | Today's price is rich; the risk is revenue conversion and multiple compression arriving together, not one noisy quarter | 40% |
 
-These February-frame scenarios were illustrative, not price targets — and notably the current ~$345.85 sits above even the old bull-case implied price, underscoring how much "AI power winner" optimism is now embedded. The valuation conclusion moves from February's "high-growth opportunity" to "strong fundamentals, extremely valuation-sensitive."
+**What's priced in & the expectation gap:** At **$295.05** and roughly **$84B** of market cap, Bloom still carries about **26x 2026E sales** as a hardware platform. To make that multiple work, Bloom needs durable AI-power demand plus the 2 GW ramp, 32%+ product margins, service-cost control, and customer diversification. Our base case accepts that demand is real but does not assume every execution item clears at once; the 20% bull / 40% base / 40% bear grid gives more weight to base-plus-bear than to the clean bull case, leaving a negative expectation gap.
 
 ## 9. Catalysts & Monitoring
 
@@ -171,9 +171,13 @@ These February-frame scenarios were illustrative, not price targets — and nota
 
 ## 10. Conclusion & Review
 
-Bloom sits at a genuine inflection: the AI data-center power thesis is structural, backed by ~$20B of backlog and partnerships with Brookfield, AEP, Oracle, and CoreWeave, and the SOFC technology offers a differentiated answer (rapid deployment, high efficiency, fuel flexibility) to a real and worsening grid-constraint problem. But after the re-rating the stock demands near-perfect execution, and customer concentration, dilution, CEO selling, and scaling risk are real.
+Bloom's chain-validation job is to test whether the AI data-center power deficit can become profitable, scalable, financeable distributed generation deployment, not just orders and thematic valuation. If backlog, 2 GW capacity, product margin, and customer breadth all validate, the AI-power constraint keeps transmitting upstream into equipment and on-site generation assets. If those indicators diverge, the power theme has to move from "scarce demand" back to execution and cash flow.
 
-This rerun reframes the stance from February's "high-growth opportunity" to **strong fundamentals, extremely valuation-sensitive**. This is a monitoring view, not allocation advice: the risk/reward is asymmetric and direction depends on conviction in AI-capex durability and manufacturing execution; any position should sit within a risk budget appropriate for a high-volatility, high-multiple asset rather than a fixed weight. The current $98.30B market cap has already capitalized a great deal of future success. **Confidence: medium.**
+The expectation gap is negative: at $295.05, roughly $84B market cap, and about 26x 2026E sales, the market is still pricing AI-power demand, the 2 GW capacity ramp, 32%+ gross margin, and customer-concentration risk all working; our 20% bull / 40% base / 40% bear grid gives more weight to base-plus-bear than to the clean bull case, so skew points down.
+
+The current stance is **cautious, medium conviction**. The 20% bull / 40% base / 40% bear grid says Bloom's AI-power optionality is real, but the current price demands more execution than current economics, capacity evidence, and cash-flow visibility have proven. Medium conviction reflects the evidence quality: backlog and customer signals are credible, while capacity ramp, service cost, free cash flow, and potential dilution are not yet validated together.
+
+Upgrade trigger: Move to neutral-watch or constructive if H2 2026 deliveries validate the 2 GW capacity-ramp pace, product gross margin holds at 32%+, service cost does not consume installed-fleet economics, and AI / data-center customers broaden rather than concentrate further. Downgrade trigger: Move to bearish-avoid if AI-power order conversion lags the backlog narrative, the capacity ramp creates inventory or quality problems, margins / free cash flow fail to improve with revenue, or large-customer / refinancing risk rises.
 
 ## 11. Appendix & Sources
 
