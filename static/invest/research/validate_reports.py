@@ -72,11 +72,13 @@ MARKDOWN_URL_PREFIX = "/invest/research/"
 # the migration never leaves CI red; keep True once flipped.
 ENFORCE_CHAIN_ENRICHMENT = True
 ENFORCE_COVERAGE_TIER = True
-# Stance v2 requirements (spec §2.3): warn-first while the 35 current-chain reports
-# are backfilled report-by-report; flip to True once they all pass. Structural checks
-# on the new fields stay hard regardless of the flag — only the presence/migration
-# requirements are gated (same rollout pattern as ENFORCE_CHAIN_ENRICHMENT).
-ENFORCE_STANCE_V2 = False
+# Stance v2 requirements (spec §2.3): warn-first during the report-by-report backfill,
+# now enforced since all 35 current-chain reports pass; keep True once flipped. This
+# also retires legacy top-level stance values for current-chain reports (history keeps
+# them via the carve-out). Structural checks on the new fields stay hard regardless of
+# the flag — only the presence/migration requirements are gated (same rollout pattern
+# as ENFORCE_CHAIN_ENRICHMENT).
+ENFORCE_STANCE_V2 = True
 
 
 def fail(message):
