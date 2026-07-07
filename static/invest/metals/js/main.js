@@ -23,7 +23,7 @@ const I18N = {
   zh: {
     documentTitle: "Metals | Invest | Atypical Life Club",
     shellSubtitle: "贵金属与 ETF 跟踪",
-    navBack: "返回 Invest",
+    navBack: "返回 Blog",
     heroTitle: "金属追踪",
     heroSubtitle: "贵金属现货 & 金属相关 ETF · 数据由 Action 自动日更",
     metalsTitle: "贵金属现货",
@@ -53,7 +53,7 @@ const I18N = {
   en: {
     documentTitle: "Metals | Invest | Atypical Life Club",
     shellSubtitle: "Precious Metals & ETF Tracker",
-    navBack: "Back to Invest",
+    navBack: "Back to Blog",
     heroTitle: "Metals Tracker",
     heroSubtitle: "Precious metals spot prices & metal-related ETFs · Data refreshes automatically",
     metalsTitle: "Precious Metal Spot Prices",

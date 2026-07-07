@@ -14,7 +14,7 @@ const I18N = {
     zh: {
         documentTitle: 'Invest Currency | Atypical Life Club',
         shellSubtitle: '汇率追踪与偏离监控',
-        navBack: '返回 Invest',
+        navBack: '返回 Blog',
         heroTitle: '汇率追踪',
         heroSubtitle: '跟踪关键货币对走势、偏离区间和阶段波动，数据由 Action 自动日更。',
         cardsTitle: '核心监控卡片',
@@ -63,7 +63,7 @@ const I18N = {
     en: {
         documentTitle: 'Invest Currency | Atypical Life Club',
         shellSubtitle: 'FX Tracking & Deviation Monitor',
-        navBack: 'Back to Invest',
+        navBack: 'Back to Blog',
         heroTitle: 'Currency Tracker',
         heroSubtitle: 'Track key FX pairs, deviation bands, and period volatility. Data refreshes automatically.',
         cardsTitle: 'Core Monitor Cards',

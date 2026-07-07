@@ -75,7 +75,7 @@ const I18N = {
     zh: {
         documentTitle: 'Invest Research | Atypical Life Club',
         shellSubtitle: '公司研究与深度跟踪',
-        navBack: '返回 Invest',
+        navBack: '返回 Blog',
         heroTitle: '研报中心',
         heroSubtitle: '统一展示公司研究，按主题筛选，详情页采用统一模板渲染 Markdown。',
         coverageLink: 'AI 基建覆盖地图 / 研究思路',
@@ -109,7 +109,7 @@ const I18N = {
     en: {
         documentTitle: 'Invest Research | Atypical Life Club',
         shellSubtitle: 'Company Notes & Deep Dives',
-        navBack: 'Back to Invest',
+        navBack: 'Back to Blog',
         heroTitle: 'Research Center',
         heroSubtitle: 'Browse company research by theme. Report detail pages render Markdown through one shared reader.',
         coverageLink: 'AI Infrastructure Coverage Map',

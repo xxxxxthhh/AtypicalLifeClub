@@ -20,8 +20,6 @@
         <div class="shell-header-inner">
             <div class="shell-brand">
                 <div class="shell-brand-title shell-breadcrumb" aria-label="Breadcrumb">
-                    <a class="shell-breadcrumb-link" href="/invest/">Invest</a>
-                    <span class="shell-breadcrumb-separator">/</span>
                     <a class="shell-breadcrumb-link" href="/invest/research/">Research</a>
                     <span class="shell-breadcrumb-separator">/</span>
                     <span class="shell-breadcrumb-current" aria-current="page" id="breadcrumbCurrent">Reviews</span>
@@ -29,7 +27,7 @@
                 <span class="shell-brand-subtitle" id="shellSubtitle">Semi-annual Reviews</span>
             </div>
             <nav class="shell-nav">
-                <a href="/invest/" id="navBack">Back to Invest</a>
+                <a href="/" id="navBack">Back to Blog</a>
                 <a href="/invest/research/">Research</a>
                 <a href="/invest/currency/">Currency</a>
                 <a href="/invest/metals/">Metals</a>
@@ -55,7 +53,7 @@
                 documentTitle: '复盘 Reviews | Invest Research',
                 breadcrumbCurrent: '复盘 Reviews',
                 shellSubtitle: '半年度复盘',
-                navBack: '返回 Invest',
+                navBack: '返回 Blog',
                 loadReviewsError: (status) => `加载 reviews.json 失败: HTTP ${status}`,
                 invalidReviews: 'reviews.json 不是有效数组',
                 missingReview: (id) => `未找到复盘: ${id}`,
@@ -77,7 +75,7 @@
                 documentTitle: 'Reviews | Invest Research',
                 breadcrumbCurrent: 'Reviews',
                 shellSubtitle: 'Semi-annual Reviews',
-                navBack: 'Back to Invest',
+                navBack: 'Back to Blog',
                 loadReviewsError: (status) => `Failed to load reviews.json: HTTP ${status}`,
                 invalidReviews: 'reviews.json is not a valid array',
                 missingReview: (id) => `Review not found: ${id}`,

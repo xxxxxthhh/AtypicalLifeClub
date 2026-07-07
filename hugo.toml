@@ -93,7 +93,7 @@ enableEmoji = true
   [[menu.main]]
     identifier = "invest"
     name = "📈 Invest"
-    url = "/invest/"
+    url = "/invest/research/"
     weight = 35
 
   [[menu.main]]
