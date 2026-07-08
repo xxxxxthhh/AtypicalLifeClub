@@ -118,7 +118,7 @@
                     <span class="shell-breadcrumb-separator">/</span>
                     <span class="shell-breadcrumb-current" aria-current="page">Verdict Ledger</span>
                 </div>
-                <span class="shell-brand-subtitle" id="shellSubtitle">Stance track record vs SMH</span>
+                <span class="shell-brand-subtitle" id="shellSubtitle">Stance track record vs benchmark</span>
             </div>
             <nav class="shell-nav">
                 <a href="/invest/research/" id="navBack">Back to Research</a>
@@ -136,8 +136,8 @@
         <section class="hero research-command-hero research-hero">
             <div class="research-hero-kicker" id="pageKicker">VERDICT LEDGER · RESEARCH</div>
             <h1 class="hero-title" id="pageTitle">Verdict Ledger</h1>
-            <p class="hero-subtitle" id="pageSubtitle">Every published stance scored against the SMH benchmark over the same window, so opinions carry a track record.</p>
-            <p class="ledger-fact-note" id="factNote">Relative return vs SMH is the score; a call that trails the benchmark is a miss even when it is up. Migration rows (the legacy→v5 re-labelling) are shown but excluded from calibration. No red/green — the sign carries direction.</p>
+            <p class="hero-subtitle" id="pageSubtitle">Every published stance scored against its per-layer benchmark over the same window, so opinions carry a track record.</p>
+            <p class="ledger-fact-note" id="factNote">Relative return vs each report's benchmark is the score; a call that trails its benchmark is a miss even when it is up. Every row is labeled with its benchmark; aggregate stats cover the SMH bucket only for now (per-benchmark breakdown coming). Migration rows (the legacy→v5 re-labelling) stay scored vs SMH. No red/green — the sign carries direction.</p>
             <div class="research-hero-stat-grid" id="ledgerStats" aria-label="Verdict ledger statistics">
                 <div class="research-stat-card"><div class="research-stat-value">--</div><div class="research-stat-label">Loading</div></div>
             </div>
@@ -147,7 +147,7 @@
             <div class="research-header-row">
                 <h2 id="openHeading">Open Calls</h2>
             </div>
-            <p class="ledger-section-intro" id="openIntro">Live positions: each report's current stance vs SMH since the stance date. Sortable by relative delta.</p>
+            <p class="ledger-section-intro" id="openIntro">Live positions: each report's current stance vs its benchmark since the stance date. Sortable by relative delta.</p>
             <div class="ledger-table-wrap">
                 <table class="ledger-table" id="openTable">
                     <thead></thead>
@@ -173,7 +173,7 @@
             <div class="research-header-row">
                 <h2 id="calibHeading">Calibration</h2>
             </div>
-            <p class="ledger-section-intro" id="calibIntro">Scored calls (open calls plus non-migration closed intervals). Median relative delta per stance and the share of non-neutral calls beating SMH.</p>
+            <p class="ledger-section-intro" id="calibIntro">Scored calls in the SMH bucket (open calls plus non-migration closed intervals): median relative delta per stance and the share of non-neutral calls beating SMH.</p>
             <div class="calibration-grid" id="calibrationGrid"></div>
             <p class="calibration-note" id="calibrationNote"></p>
             <div class="ledger-links hero-links">
