@@ -129,6 +129,8 @@ def open_call_entry(
     today: date,
 ) -> dict[str, Json]:
     history = report.get("stanceHistory") or []
+    if not history or not isinstance(history[-1], dict):
+        fail(f"{report.get('id')}: stanceHistory must contain at least one entry")
     last = history[-1]
     stance_date = parse_day(last.get("date"), f"{report['id']}.stanceHistory[-1].date")
     price_at_stance = float(last["price"])
@@ -240,7 +242,10 @@ def main() -> None:
         fail("no current-chain reports to score")
 
     symbol = benchmark_symbol(reports)
-    start = min(history_dates(chain)) - timedelta(days=FETCH_BUFFER_DAYS)
+    dates = history_dates(chain)
+    if not dates:
+        fail("current-chain reports have no stanceHistory dates")
+    start = min(dates) - timedelta(days=FETCH_BUFFER_DAYS)
     try:
         quotes, _currency = fetch_quotes(symbol, start, today)
     except Exception as exc:  # network/fetch failure — same convention as update_prices

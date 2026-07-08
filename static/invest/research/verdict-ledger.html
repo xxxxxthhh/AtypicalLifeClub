@@ -173,7 +173,7 @@
             <div class="research-header-row">
                 <h2 id="calibHeading">Calibration</h2>
             </div>
-            <p class="ledger-section-intro" id="calibIntro">Scored open calls only (pending and migration excluded). Median relative delta per stance and the share of non-neutral calls beating SMH.</p>
+            <p class="ledger-section-intro" id="calibIntro">Scored calls (open calls plus non-migration closed intervals). Median relative delta per stance and the share of non-neutral calls beating SMH.</p>
             <div class="calibration-grid" id="calibrationGrid"></div>
             <p class="calibration-note" id="calibrationNote"></p>
             <div class="ledger-links hero-links">
@@ -212,7 +212,7 @@
                 closedHeading: "已闭合区间",
                 closedIntro: "来自 stanceHistory 的已完成立场窗口。legacy→v5 改标标注为 migration，不计为一次判断。",
                 calibHeading: "校准",
-                calibIntro: "仅统计已计分的在场判断（pending 与 migration 除外）：各立场相对中位数，以及非中性判断跑赢 SMH 的比例。",
+                calibIntro: "统计已计分判断（在场 + 非 migration 的已闭合区间）：各立场相对中位数，以及非中性判断跑赢 SMH 的比例。",
                 colReport: "报告",
                 colStance: "立场",
                 colStanceDate: "立场日期",
@@ -224,7 +224,9 @@
                 colFlag: "状态",
                 colWindow: "窗口",
                 colTransition: "立场变化",
-                stateP: "待计分",
+                statePending: "待计分",
+                stateNoPrice: "无价格",
+                stateStale: "过期",
                 migrationTag: "迁移",
                 beatSuffix: (n, d) => `${n}/${d}`,
                 calibMedianLabel: "相对中位数",
@@ -258,7 +260,7 @@
                 closedHeading: "Closed Intervals",
                 closedIntro: "Completed stance windows from stanceHistory. Legacy→v5 re-labellings are flagged \"migration\" and do not count as calls.",
                 calibHeading: "Calibration",
-                calibIntro: "Scored open calls only (pending and migration excluded): median relative delta per stance and the share of non-neutral calls beating SMH.",
+                calibIntro: "Scored calls (open calls plus non-migration closed intervals): median relative delta per stance and the share of non-neutral calls beating SMH.",
                 colReport: "Report",
                 colStance: "Stance",
                 colStanceDate: "Stance date",
@@ -270,7 +272,9 @@
                 colFlag: "State",
                 colWindow: "Window",
                 colTransition: "Transition",
-                stateP: "pending",
+                statePending: "pending",
+                stateNoPrice: "no price",
+                stateStale: "stale",
                 migrationTag: "migration",
                 beatSuffix: (n, d) => `${n}/${d}`,
                 calibMedianLabel: "Median relative",
@@ -328,7 +332,7 @@
 
         function renderPage() {
             const labels = getLabels();
-            document.documentElement.lang = currentLang === "en" ? "en" : "zh";
+            document.documentElement.lang = currentLang === "en" ? "en" : "zh-CN";
             document.title = labels.documentTitle;
             renderLanguageSwitchUI(currentLang);
             setText("pageKicker", labels.pageKicker);
@@ -358,10 +362,24 @@
             return state.open.filter((e) => typeof e.relativePct === "number");
         }
 
+        function calibrationCalls() {
+            const openCalls = scoredOpen().map((entry) => ({
+                stance: entry.stance,
+                relativePct: entry.relativePct
+            }));
+            const closedCalls = state.closed
+                .filter((entry) => !entry.migration && typeof entry.relativePct === "number")
+                .map((entry) => ({
+                    stance: entry.fromStance,
+                    relativePct: entry.relativePct
+                }));
+            return openCalls.concat(closedCalls);
+        }
+
         function renderStats() {
             const labels = getLabels();
             const root = document.getElementById("ledgerStats");
-            const scored = scoredOpen();
+            const scored = calibrationCalls();
             const nonNeutral = scored.filter((e) => e.stance !== "neutral-watch");
             const beats = nonNeutral.filter((e) => e.relativePct > 0).length;
             const medianRel = scored.length ? median(scored.map((e) => e.relativePct)) : null;
@@ -410,12 +428,12 @@
                         <td class="ledger-name">${reportNameCell(report, entry.reportId)}</td>
                         <td>${stanceChip(entry.stance, entry.conviction)}</td>
                         <td>${escapeHtml(entry.stanceDate || "—")}</td>
-                        <td class="num">${scored ? formatPrice(entry.priceAtStance) : "—"}</td>
+                        <td class="num">${formatPrice(entry.priceAtStance)}</td>
                         <td class="num">${scored ? formatPrice(entry.lastClose) : "—"}</td>
                         <td class="num">${scored ? deltaCell(entry.changePct) : "<span class=\"muted-cell\">—</span>"}</td>
                         <td class="num">${scored ? deltaCell(entry.relativePct) : "<span class=\"muted-cell\">—</span>"}</td>
                         <td class="num">${Number.isFinite(entry.daysHeld) ? entry.daysHeld : "—"}</td>
-                        <td>${entry.status === "pending" || !scored ? `<span class="flag-tag">${escapeHtml(labels.stateP)}</span>` : (entry.stale ? `<span class="flag-tag">stale</span>` : "")}</td>
+                        <td>${statusTag(entry, scored)}</td>
                     </tr>`;
             }).join("");
 
@@ -477,7 +495,7 @@
             const labels = getLabels();
             const grid = document.getElementById("calibrationGrid");
             const note = document.getElementById("calibrationNote");
-            const scored = scoredOpen();
+            const scored = calibrationCalls();
             if (!scored.length) {
                 grid.innerHTML = "";
                 note.textContent = labels.calibNoScored;
@@ -523,6 +541,14 @@
         function stanceName(stance) {
             const labels = getLabels();
             return labels.stances[stance] || stance || "—";
+        }
+
+        function statusTag(entry, scored) {
+            const labels = getLabels();
+            if (entry.stale) return `<span class="flag-tag">${escapeHtml(labels.stateStale)}</span>`;
+            if (entry.status === "no-price") return `<span class="flag-tag">${escapeHtml(labels.stateNoPrice)}</span>`;
+            if (entry.status === "pending" || !scored) return `<span class="flag-tag">${escapeHtml(labels.statePending)}</span>`;
+            return "";
         }
 
         function deltaCell(value) {

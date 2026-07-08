@@ -34,7 +34,7 @@ jobs:
         run: python3 static/invest/research/update_verdicts.py
 
       - name: Validate verdict ledger
-        run: python3 static/invest/research/validate_verdicts.py
+        run: python3 static/invest/research/validate_verdicts.py --strict-coverage
 
       - name: Commit and push if changed
         run: |

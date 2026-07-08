@@ -10,6 +10,7 @@ from __future__ import annotations
 import json
 import math
 import sys
+from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
 from typing import Final, Union
@@ -19,6 +20,7 @@ Json = Union[None, bool, int, float, str, list["Json"], dict[str, "Json"]]
 
 ROOT: Final = Path(__file__).resolve().parent
 REPORTS_JSON: Final = ROOT / "data" / "reports.json"
+PRICES_JSON: Final = ROOT / "data" / "prices.json"
 VERDICTS_JSON: Final = ROOT / "data" / "verdicts.json"
 
 STANCE_V2_VALUES: Final = {"bullish", "constructive", "neutral-watch", "cautious", "bearish-avoid"}
@@ -28,6 +30,21 @@ LEGACY_STANCE_VALUES: Final = {"high-risk-watch"}
 STANCE_VALUES: Final = STANCE_V2_VALUES | LEGACY_STANCE_VALUES
 CONVICTION_VALUES: Final = {"high", "medium", "low"}
 PCT_TOLERANCE: Final = 0.15
+PRICE_TOLERANCE: Final = 0.0001
+STRICT_COVERAGE_FLAG: Final = "--strict-coverage"
+
+
+@dataclass(frozen=True, slots=True)
+class ValidationOptions:
+    prices: Json
+    strict_coverage: bool
+
+
+@dataclass(slots=True)
+class OpenEntryValidationState:
+    chain_ids: set[str]
+    seen: set[str]
+    price_entries: dict[str, dict[str, Json]]
 
 
 def fail(message: str) -> None:
@@ -108,6 +125,17 @@ def check_change(start: float, end: float, change_pct: float, label: str) -> Non
         fail(f"{label}.changePct inconsistent: {change_pct} vs expected {expected}")
 
 
+def price_entries_by_id(prices: Json) -> dict[str, dict[str, Json]]:
+    root = require_dict(prices, "prices.json")
+    entries = require_list(root.get("entries"), "prices.json.entries")
+    result: dict[str, dict[str, Json]] = {}
+    for index, item in enumerate(entries):
+        entry = require_dict(item, f"prices.json.entries[{index}]")
+        report_id = require_string(entry.get("reportId"), f"prices.json.entries[{index}].reportId")
+        result[report_id] = entry
+    return result
+
+
 def current_chain_ids(reports: list[Json]) -> set[str]:
     ids: set[str] = set()
     for index, item in enumerate(reports):
@@ -117,14 +145,18 @@ def current_chain_ids(reports: list[Json]) -> set[str]:
     return ids
 
 
-def validate_open_entry(entry: dict[str, Json], index: int, chain_ids: set[str], seen: set[str]) -> None:
+def validate_open_entry(
+    entry: dict[str, Json],
+    index: int,
+    state: OpenEntryValidationState,
+) -> None:
     label = f"verdicts.json.entries[{index}]"
     report_id = require_string(entry.get("reportId"), f"{label}.reportId")
-    if report_id not in chain_ids:
+    if report_id not in state.chain_ids:
         fail(f"{label}.reportId is not a current-chain report: {report_id}")
-    if report_id in seen:
+    if report_id in state.seen:
         fail(f"duplicate open-call reportId: {report_id}")
-    seen.add(report_id)
+    state.seen.add(report_id)
 
     require_enum(entry.get("stance"), STANCE_V2_VALUES, f"{label}.stance")
     require_enum(entry.get("conviction"), CONVICTION_VALUES, f"{label}.conviction")
@@ -153,6 +185,16 @@ def validate_open_entry(entry: dict[str, Json], index: int, chain_ids: set[str],
     if days_held != (last_date - stance_date).days:
         fail(f"{label}.daysHeld inconsistent: {days_held}")
     require_bool(entry.get("stale"), f"{label}.stale")
+
+    price_entry = state.price_entries.get(report_id)
+    if price_entry is None:
+        fail(f"{label}.reportId has scored verdict but no prices.json entry: {report_id}")
+    price_last_date = require_string(price_entry.get("lastDate"), f"prices.json[{report_id}].lastDate")
+    if price_last_date != entry.get("lastDate"):
+        fail(f"{label}.lastDate does not match prices.json for {report_id}: {entry.get('lastDate')} vs {price_last_date}")
+    price_last_close = require_positive_number(price_entry.get("lastClose"), f"prices.json[{report_id}].lastClose")
+    if abs(last_close - price_last_close) > PRICE_TOLERANCE:
+        fail(f"{label}.lastClose does not match prices.json for {report_id}: {last_close} vs {price_last_close}")
 
 
 def validate_closed_entry(entry: dict[str, Json], index: int, chain_ids: set[str]) -> None:
@@ -183,29 +225,58 @@ def validate_closed_entry(entry: dict[str, Json], index: int, chain_ids: set[str
     require_bool(entry.get("migration"), f"{label}.migration")
 
 
-def validate_verdicts_data(data: Json, reports: list[Json]) -> None:
+def validate_verdicts_data(data: Json, reports: list[Json], options: ValidationOptions) -> list[str]:
     root = require_dict(data, "verdicts.json")
-    parse_date(root.get("generatedAt"), "verdicts.json.generatedAt")
+    verdicts_generated_at = parse_date(root.get("generatedAt"), "verdicts.json.generatedAt")
     require_string(root.get("benchmark"), "verdicts.json.benchmark")
     entries = require_list(root.get("entries"), "verdicts.json.entries")
     closed = require_list(root.get("closed"), "verdicts.json.closed")
+    prices_generated_at = parse_date(require_dict(options.prices, "prices.json").get("generatedAt"), "prices.json.generatedAt")
+    if verdicts_generated_at < prices_generated_at:
+        fail(
+            "verdicts.json.generatedAt must not be older than prices.json.generatedAt: "
+            f"{verdicts_generated_at:%Y-%m-%d} vs {prices_generated_at:%Y-%m-%d}"
+        )
 
     chain_ids = current_chain_ids(reports)
-    seen: set[str] = set()
+    state = OpenEntryValidationState(chain_ids=chain_ids, seen=set(), price_entries=price_entries_by_id(options.prices))
     for index, item in enumerate(entries):
-        validate_open_entry(require_dict(item, f"verdicts.json.entries[{index}]"), index, chain_ids, seen)
-    missing = chain_ids - seen
+        validate_open_entry(require_dict(item, f"verdicts.json.entries[{index}]"), index, state)
+    missing = chain_ids - state.seen
+    warnings: list[str] = []
     if missing:
-        fail(f"verdicts.json.entries missing current-chain reports: {sorted(missing)}")
+        message = f"verdicts.json.entries missing current-chain reports: {sorted(missing)}"
+        if options.strict_coverage:
+            fail(message)
+        warnings.append(message)
 
     for index, item in enumerate(closed):
         validate_closed_entry(require_dict(item, f"verdicts.json.closed[{index}]"), index, chain_ids)
+    return warnings
+
+
+def strict_coverage_from_argv(argv: list[str]) -> bool:
+    if not argv:
+        return False
+    if argv == [STRICT_COVERAGE_FLAG]:
+        return True
+    if argv == ["--help"]:
+        print(f"Usage: python3 static/invest/research/validate_verdicts.py [{STRICT_COVERAGE_FLAG}]")
+        sys.exit(0)
+    fail(f"unknown arguments: {argv}")
 
 
 def main() -> None:
     reports = require_list(load_json(REPORTS_JSON), "reports.json")
     verdicts = load_json(VERDICTS_JSON)
-    validate_verdicts_data(verdicts, reports)
+    prices = load_json(PRICES_JSON)
+    warnings = validate_verdicts_data(
+        verdicts,
+        reports,
+        ValidationOptions(prices=prices, strict_coverage=strict_coverage_from_argv(sys.argv[1:])),
+    )
+    for warning in warnings:
+        print(f"WARN: {warning}")
     print(f"OK: validated verdict ledger in {VERDICTS_JSON}")
 
 

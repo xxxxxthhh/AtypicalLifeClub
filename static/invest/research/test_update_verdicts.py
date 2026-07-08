@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-from datetime import date
-from pathlib import Path
+import io
 import sys
 import types
 import unittest
+from contextlib import redirect_stdout
+from datetime import date
+from pathlib import Path
 
 
 sys.modules.setdefault("yfinance", types.SimpleNamespace())
@@ -65,6 +67,11 @@ class OpenCallTests(unittest.TestCase):
         entry = uv.open_call_entry(self.report, None, self.smh, date(2026, 7, 8))
         self.assertEqual(entry["status"], "no-price")
         self.assertNotIn("changePct", entry)
+
+    def test_missing_stance_history_fails_cleanly(self):
+        report = {"id": "broken-2026", "stance": "constructive", "conviction": "medium"}
+        with redirect_stdout(io.StringIO()), self.assertRaises(SystemExit):
+            uv.open_call_entry(report, self.price_entry, self.smh, date(2026, 7, 8))
 
 
 class ClosedIntervalTests(unittest.TestCase):
