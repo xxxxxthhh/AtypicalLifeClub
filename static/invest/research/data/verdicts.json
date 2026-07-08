@@ -8,6 +8,7 @@
       "conviction": "medium",
       "stanceDate": "2026-07-02",
       "priceAtStance": 1769.32,
+      "benchmarkSymbol": "SMH",
       "lastDate": "2026-07-07",
       "lastClose": 1747.28,
       "changePct": -1.2,
@@ -22,6 +23,7 @@
       "conviction": "medium",
       "stanceDate": "2026-07-02",
       "priceAtStance": 603.04,
+      "benchmarkSymbol": "SMH",
       "lastDate": "2026-07-07",
       "lastClose": 554.5,
       "changePct": -8.0,
@@ -36,6 +38,7 @@
       "conviction": "medium",
       "stanceDate": "2026-07-02",
       "priceAtStance": 351.41,
+      "benchmarkSymbol": "SMH",
       "lastDate": "2026-07-07",
       "lastClose": 326.13,
       "changePct": -7.2,
@@ -50,6 +53,7 @@
       "conviction": "medium",
       "stanceDate": "2026-07-02",
       "priceAtStance": 235.55,
+      "benchmarkSymbol": "SMH",
       "lastDate": "2026-07-07",
       "lastClose": 216.47,
       "changePct": -8.1,
@@ -64,6 +68,7 @@
       "conviction": "medium",
       "stanceDate": "2026-07-02",
       "priceAtStance": 437.16,
+      "benchmarkSymbol": "SMH",
       "lastDate": "2026-07-07",
       "lastClose": 436.63,
       "changePct": -0.1,
@@ -78,6 +83,7 @@
       "conviction": "medium",
       "stanceDate": "2026-07-02",
       "priceAtStance": 373.14,
+      "benchmarkSymbol": "SMH",
       "lastDate": "2026-07-07",
       "lastClose": 371.06,
       "changePct": -0.6,
@@ -92,11 +98,12 @@
       "conviction": "medium",
       "stanceDate": "2026-07-02",
       "priceAtStance": 136.7,
+      "benchmarkSymbol": "XLU",
       "lastDate": "2026-07-07",
       "lastClose": 138.01,
       "changePct": 1.0,
-      "benchmarkChangePct": -1.8,
-      "relativePct": 2.8,
+      "benchmarkChangePct": -0.1,
+      "relativePct": 1.1,
       "daysHeld": 5,
       "stale": false
     },
@@ -106,11 +113,12 @@
       "conviction": "medium",
       "stanceDate": "2026-07-02",
       "priceAtStance": 1002.02,
+      "benchmarkSymbol": "SRVR",
       "lastDate": "2026-07-07",
       "lastClose": 1022.93,
       "changePct": 2.1,
-      "benchmarkChangePct": -1.8,
-      "relativePct": 3.9,
+      "benchmarkChangePct": -0.8,
+      "relativePct": 2.9,
       "daysHeld": 5,
       "stale": false
     },
@@ -120,11 +128,12 @@
       "conviction": "medium",
       "stanceDate": "2026-07-06",
       "priceAtStance": 213.02,
+      "benchmarkSymbol": "QQQ",
       "lastDate": "2026-07-07",
       "lastClose": 195.19,
       "changePct": -8.4,
-      "benchmarkChangePct": -3.8,
-      "relativePct": -4.6,
+      "benchmarkChangePct": -1.9,
+      "relativePct": -6.5,
       "daysHeld": 1,
       "stale": false
     },
@@ -134,6 +143,7 @@
       "conviction": "medium",
       "stanceDate": "2026-06-29",
       "priceAtStance": 164.1,
+      "benchmarkSymbol": "SMH",
       "lastDate": "2026-07-07",
       "lastClose": 166.46,
       "changePct": 1.4,
@@ -148,11 +158,12 @@
       "conviction": "medium",
       "stanceDate": "2026-07-06",
       "priceAtStance": 86.46,
+      "benchmarkSymbol": "QQQ",
       "lastDate": "2026-07-07",
       "lastClose": 83.53,
       "changePct": -3.4,
-      "benchmarkChangePct": -3.8,
-      "relativePct": 0.4,
+      "benchmarkChangePct": -1.9,
+      "relativePct": -1.5,
       "daysHeld": 1,
       "stale": false
     },
@@ -162,6 +173,7 @@
       "conviction": "medium",
       "stanceDate": "2026-06-29",
       "priceAtStance": 306.97,
+      "benchmarkSymbol": "SMH",
       "lastDate": "2026-07-07",
       "lastClose": 305.58,
       "changePct": -0.5,
@@ -176,6 +188,7 @@
       "conviction": "medium",
       "stanceDate": "2026-06-26",
       "priceAtStance": 221.05,
+      "benchmarkSymbol": "SMH",
       "lastDate": "2026-07-07",
       "lastClose": 185.38,
       "changePct": -16.1,
@@ -190,6 +203,7 @@
       "conviction": "medium",
       "stanceDate": "2026-07-07",
       "priceAtStance": 192.53,
+      "benchmarkSymbol": "SMH",
       "status": "pending",
       "daysHeld": 1,
       "stale": false
@@ -200,6 +214,7 @@
       "conviction": "medium",
       "stanceDate": "2026-07-07",
       "priceAtStance": 171.23,
+      "benchmarkSymbol": "SMH",
       "status": "pending",
       "daysHeld": 1,
       "stale": false
@@ -210,11 +225,12 @@
       "conviction": "medium",
       "stanceDate": "2026-06-26",
       "priceAtStance": 1045.17,
+      "benchmarkSymbol": "XLU",
       "lastDate": "2026-07-07",
       "lastClose": 1077.08,
       "changePct": 3.1,
-      "benchmarkChangePct": -4.9,
-      "relativePct": 8.0,
+      "benchmarkChangePct": -1.1,
+      "relativePct": 4.2,
       "daysHeld": 11,
       "stale": false
     },
@@ -224,6 +240,7 @@
       "conviction": "medium",
       "stanceDate": "2026-07-07",
       "priceAtStance": 2090.71,
+      "benchmarkSymbol": "SMH",
       "status": "pending",
       "daysHeld": 1,
       "stale": false
@@ -234,11 +251,12 @@
       "conviction": "medium",
       "stanceDate": "2026-07-07",
       "priceAtStance": 2917000.0,
+      "benchmarkSymbol": "SMH",
       "lastDate": "2026-07-08",
       "lastClose": 2076000.0,
       "changePct": -28.8,
-      "benchmarkChangePct": 0.0,
-      "relativePct": -28.8,
+      "benchmarkChangePct": 0.9,
+      "relativePct": -29.7,
       "daysHeld": 1,
       "stale": false
     },
@@ -248,11 +266,12 @@
       "conviction": "medium",
       "stanceDate": "2026-07-06",
       "priceAtStance": 16.21,
+      "benchmarkSymbol": "COPX",
       "lastDate": "2026-07-07",
       "lastClose": 15.2,
       "changePct": -6.2,
-      "benchmarkChangePct": -3.8,
-      "relativePct": -2.4,
+      "benchmarkChangePct": -4.9,
+      "relativePct": -1.3,
       "daysHeld": 1,
       "stale": false
     },
@@ -262,11 +281,12 @@
       "conviction": "medium",
       "stanceDate": "2026-07-06",
       "priceAtStance": 295.05,
+      "benchmarkSymbol": "XLU",
       "lastDate": "2026-07-07",
       "lastClose": 269.57,
       "changePct": -8.6,
-      "benchmarkChangePct": -3.8,
-      "relativePct": -4.8,
+      "benchmarkChangePct": 0.9,
+      "relativePct": -9.5,
       "daysHeld": 1,
       "stale": false
     },
@@ -276,11 +296,12 @@
       "conviction": "low",
       "stanceDate": "2026-07-06",
       "priceAtStance": 2.72,
+      "benchmarkSymbol": "XLU",
       "lastDate": "2026-07-07",
       "lastClose": 2.41,
       "changePct": -11.4,
-      "benchmarkChangePct": -3.8,
-      "relativePct": -7.6,
+      "benchmarkChangePct": 0.9,
+      "relativePct": -12.3,
       "daysHeld": 1,
       "stale": false
     },
@@ -290,6 +311,7 @@
       "conviction": "medium",
       "stanceDate": "2026-07-06",
       "priceAtStance": 78.48,
+      "benchmarkSymbol": "SMH",
       "lastDate": "2026-07-07",
       "lastClose": 74.63,
       "changePct": -4.9,
@@ -304,6 +326,7 @@
       "conviction": "medium",
       "stanceDate": "2026-07-07",
       "priceAtStance": 537.37,
+      "benchmarkSymbol": "SMH",
       "status": "pending",
       "daysHeld": 1,
       "stale": false
@@ -314,11 +337,12 @@
       "conviction": "medium",
       "stanceDate": "2026-06-23",
       "priceAtStance": 86.0,
+      "benchmarkSymbol": "XLU",
       "lastDate": "2026-07-08",
       "lastClose": 77.35,
       "changePct": -10.1,
-      "benchmarkChangePct": -6.5,
-      "relativePct": -3.6,
+      "benchmarkChangePct": 1.2,
+      "relativePct": -11.3,
       "daysHeld": 15,
       "stale": false
     },
@@ -328,11 +352,12 @@
       "conviction": "low",
       "stanceDate": "2026-07-02",
       "priceAtStance": 52.36,
+      "benchmarkSymbol": "XLU",
       "lastDate": "2026-07-07",
       "lastClose": 47.9,
       "changePct": -8.5,
-      "benchmarkChangePct": -1.8,
-      "relativePct": -6.7,
+      "benchmarkChangePct": -0.1,
+      "relativePct": -8.4,
       "daysHeld": 5,
       "stale": false
     },
@@ -342,6 +367,7 @@
       "conviction": "medium",
       "stanceDate": "2026-06-25",
       "priceAtStance": 378.91,
+      "benchmarkSymbol": "SMH",
       "lastDate": "2026-07-07",
       "lastClose": 370.78,
       "changePct": -2.1,
@@ -356,6 +382,7 @@
       "conviction": "medium",
       "stanceDate": "2026-07-02",
       "priceAtStance": 434.16,
+      "benchmarkSymbol": "SMH",
       "lastDate": "2026-07-07",
       "lastClose": 432.57,
       "changePct": -0.4,
@@ -370,6 +397,7 @@
       "conviction": "medium",
       "stanceDate": "2026-07-02",
       "priceAtStance": 975.56,
+      "benchmarkSymbol": "SMH",
       "lastDate": "2026-07-07",
       "lastClose": 938.38,
       "changePct": -3.8,
@@ -384,11 +412,12 @@
       "conviction": "medium",
       "stanceDate": "2026-07-02",
       "priceAtStance": 239.25,
+      "benchmarkSymbol": "XLU",
       "lastDate": "2026-07-07",
       "lastClose": 239.71,
       "changePct": 0.2,
-      "benchmarkChangePct": -1.8,
-      "relativePct": 2.0,
+      "benchmarkChangePct": -0.1,
+      "relativePct": 0.3,
       "daysHeld": 5,
       "stale": false
     },
@@ -398,11 +427,12 @@
       "conviction": "medium",
       "stanceDate": "2026-07-02",
       "priceAtStance": 151.05,
+      "benchmarkSymbol": "XLU",
       "lastDate": "2026-07-07",
       "lastClose": 155.73,
       "changePct": 3.1,
-      "benchmarkChangePct": -1.8,
-      "relativePct": 4.9,
+      "benchmarkChangePct": -0.1,
+      "relativePct": 3.2,
       "daysHeld": 5,
       "stale": false
     },
@@ -412,11 +442,12 @@
       "conviction": "medium",
       "stanceDate": "2026-07-06",
       "priceAtStance": 600.29,
+      "benchmarkSymbol": "QQQ",
       "lastDate": "2026-07-07",
       "lastClose": 615.58,
       "changePct": 2.5,
-      "benchmarkChangePct": -3.8,
-      "relativePct": 6.3,
+      "benchmarkChangePct": -1.9,
+      "relativePct": 4.4,
       "daysHeld": 1,
       "stale": false
     },
@@ -426,11 +457,12 @@
       "conviction": "medium",
       "stanceDate": "2026-07-06",
       "priceAtStance": 143.76,
+      "benchmarkSymbol": "QQQ",
       "lastDate": "2026-07-07",
       "lastClose": 141.6,
       "changePct": -1.5,
-      "benchmarkChangePct": -3.8,
-      "relativePct": 2.3,
+      "benchmarkChangePct": -1.9,
+      "relativePct": 0.4,
       "daysHeld": 1,
       "stale": false
     },
@@ -440,6 +472,7 @@
       "conviction": "medium",
       "stanceDate": "2026-07-02",
       "priceAtStance": 245.29,
+      "benchmarkSymbol": "SMH",
       "lastDate": "2026-07-07",
       "lastClose": 230.7,
       "changePct": -5.9,
@@ -454,6 +487,7 @@
       "conviction": "low",
       "stanceDate": "2026-07-02",
       "priceAtStance": 333.36,
+      "benchmarkSymbol": "SMH",
       "lastDate": "2026-07-07",
       "lastClose": 314.13,
       "changePct": -5.8,
@@ -468,11 +502,12 @@
       "conviction": "medium",
       "stanceDate": "2026-07-02",
       "priceAtStance": 173.3,
+      "benchmarkSymbol": "SRVR",
       "lastDate": "2026-07-07",
       "lastClose": 174.9,
       "changePct": 0.9,
-      "benchmarkChangePct": -1.8,
-      "relativePct": 2.7,
+      "benchmarkChangePct": -0.8,
+      "relativePct": 1.7,
       "daysHeld": 5,
       "stale": false
     }
@@ -491,7 +526,8 @@
       "benchmarkChangePct": 0.0,
       "relativePct": 0.0,
       "daysHeld": 0,
-      "migration": true
+      "migration": true,
+      "benchmarkSymbol": "SMH"
     },
     {
       "reportId": "kla-2026",
@@ -506,7 +542,8 @@
       "benchmarkChangePct": 0.0,
       "relativePct": 0.0,
       "daysHeld": 0,
-      "migration": true
+      "migration": true,
+      "benchmarkSymbol": "SMH"
     },
     {
       "reportId": "synopsys-2026",
@@ -521,7 +558,8 @@
       "benchmarkChangePct": 0.0,
       "relativePct": 0.0,
       "daysHeld": 0,
-      "migration": true
+      "migration": true,
+      "benchmarkSymbol": "SMH"
     },
     {
       "reportId": "cadence-2026",
@@ -536,7 +574,8 @@
       "benchmarkChangePct": 0.0,
       "relativePct": 0.0,
       "daysHeld": 0,
-      "migration": true
+      "migration": true,
+      "benchmarkSymbol": "SMH"
     },
     {
       "reportId": "nrg-2026",
@@ -551,7 +590,8 @@
       "benchmarkChangePct": 0.0,
       "relativePct": 0.0,
       "daysHeld": 0,
-      "migration": true
+      "migration": true,
+      "benchmarkSymbol": "SMH"
     },
     {
       "reportId": "nebius-2026",
@@ -566,7 +606,8 @@
       "benchmarkChangePct": -2.6,
       "relativePct": -4.5,
       "daysHeld": 5,
-      "migration": true
+      "migration": true,
+      "benchmarkSymbol": "SMH"
     },
     {
       "reportId": "coreweave-2026",
@@ -581,7 +622,8 @@
       "benchmarkChangePct": -4.4,
       "relativePct": -5.1,
       "daysHeld": 7,
-      "migration": true
+      "migration": true,
+      "benchmarkSymbol": "SMH"
     },
     {
       "reportId": "vertiv-2026",
@@ -596,7 +638,8 @@
       "benchmarkChangePct": 0.0,
       "relativePct": 0.0,
       "daysHeld": 0,
-      "migration": true
+      "migration": true,
+      "benchmarkSymbol": "SMH"
     },
     {
       "reportId": "nvidia-2026",
@@ -611,7 +654,8 @@
       "benchmarkChangePct": -4.9,
       "relativePct": 4.9,
       "daysHeld": 11,
-      "migration": true
+      "migration": true,
+      "benchmarkSymbol": "SMH"
     },
     {
       "reportId": "aaoi-2026",
@@ -626,7 +670,8 @@
       "benchmarkChangePct": -13.1,
       "relativePct": 13.1,
       "daysHeld": 15,
-      "migration": true
+      "migration": true,
+      "benchmarkSymbol": "SMH"
     },
     {
       "reportId": "gevernova-2026",
@@ -641,7 +686,8 @@
       "benchmarkChangePct": 0.0,
       "relativePct": 0.0,
       "daysHeld": 0,
-      "migration": true
+      "migration": true,
+      "benchmarkSymbol": "SMH"
     },
     {
       "reportId": "sandisk-2026",
@@ -656,7 +702,8 @@
       "benchmarkChangePct": -4.9,
       "relativePct": 4.9,
       "daysHeld": 11,
-      "migration": true
+      "migration": true,
+      "benchmarkSymbol": "SMH"
     },
     {
       "reportId": "sk-hynix-2026",
@@ -671,7 +718,8 @@
       "benchmarkChangePct": -8.7,
       "relativePct": 8.7,
       "daysHeld": 12,
-      "migration": true
+      "migration": true,
+      "benchmarkSymbol": "SMH"
     },
     {
       "reportId": "almonty-2026",
@@ -686,7 +734,8 @@
       "benchmarkChangePct": -9.7,
       "relativePct": -3.4,
       "daysHeld": 14,
-      "migration": true
+      "migration": true,
+      "benchmarkSymbol": "SMH"
     },
     {
       "reportId": "bloom-energy-2026",
@@ -701,7 +750,8 @@
       "benchmarkChangePct": -9.7,
       "relativePct": -5.0,
       "daysHeld": 14,
-      "migration": true
+      "migration": true,
+      "benchmarkSymbol": "SMH"
     },
     {
       "reportId": "neov-2026",
@@ -716,7 +766,8 @@
       "benchmarkChangePct": -5.1,
       "relativePct": 47.5,
       "daysHeld": 11,
-      "migration": true
+      "migration": true,
+      "benchmarkSymbol": "SMH"
     },
     {
       "reportId": "copx-2026",
@@ -731,7 +782,8 @@
       "benchmarkChangePct": -5.1,
       "relativePct": 8.1,
       "daysHeld": 11,
-      "migration": true
+      "migration": true,
+      "benchmarkSymbol": "SMH"
     },
     {
       "reportId": "amd-2026",
@@ -746,7 +798,8 @@
       "benchmarkChangePct": -11.9,
       "relativePct": 11.9,
       "daysHeld": 19,
-      "migration": true
+      "migration": true,
+      "benchmarkSymbol": "SMH"
     },
     {
       "reportId": "oklo-2026",
@@ -761,7 +814,8 @@
       "benchmarkChangePct": -11.5,
       "relativePct": 1.2,
       "daysHeld": 10,
-      "migration": true
+      "migration": true,
+      "benchmarkSymbol": "SMH"
     },
     {
       "reportId": "micron-2026",
@@ -776,7 +830,8 @@
       "benchmarkChangePct": 0.0,
       "relativePct": 0.0,
       "daysHeld": 0,
-      "migration": true
+      "migration": true,
+      "benchmarkSymbol": "SMH"
     },
     {
       "reportId": "vistra-2026",
@@ -791,7 +846,8 @@
       "benchmarkChangePct": 0.0,
       "relativePct": 0.0,
       "daysHeld": 0,
-      "migration": true
+      "migration": true,
+      "benchmarkSymbol": "SMH"
     },
     {
       "reportId": "meta-2026",
@@ -806,7 +862,8 @@
       "benchmarkChangePct": 2.0,
       "relativePct": 1.0,
       "daysHeld": 4,
-      "migration": true
+      "migration": true,
+      "benchmarkSymbol": "SMH"
     },
     {
       "reportId": "oracle-2026",
@@ -821,7 +878,8 @@
       "benchmarkChangePct": 2.0,
       "relativePct": 0.5,
       "daysHeld": 4,
-      "migration": true
+      "migration": true,
+      "benchmarkSymbol": "SMH"
     },
     {
       "reportId": "marvell-2026",
@@ -836,7 +894,8 @@
       "benchmarkChangePct": 0.0,
       "relativePct": 0.0,
       "daysHeld": 0,
-      "migration": true
+      "migration": true,
+      "benchmarkSymbol": "SMH"
     },
     {
       "reportId": "coherent-2026",
@@ -851,7 +910,8 @@
       "benchmarkChangePct": 0.0,
       "relativePct": 0.0,
       "daysHeld": 0,
-      "migration": true
+      "migration": true,
+      "benchmarkSymbol": "SMH"
     },
     {
       "reportId": "digital-realty-2026",
@@ -866,7 +926,8 @@
       "benchmarkChangePct": 0.0,
       "relativePct": 0.0,
       "daysHeld": 0,
-      "migration": true
+      "migration": true,
+      "benchmarkSymbol": "SMH"
     }
   ]
 }
