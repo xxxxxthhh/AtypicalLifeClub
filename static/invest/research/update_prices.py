@@ -93,13 +93,16 @@ def load_reports() -> list[Report]:
     return reports
 
 
-def current_chain_reports(reports: list[Report]) -> list[Report]:
+def priced_reports(reports: list[Report]) -> list[Report]:
+    # Current-chain nodes plus benchmark sleeves (e.g. SMH, spec §4.1a): the Track 3
+    # ledger scores every stance against the benchmark, so the benchmark needs a
+    # normal price entry too. Predicate: (chainLayer OR benchmark) AND current AND priceSymbol.
     selected: list[Report] = []
     for report in reports:
         symbol = report.get("priceSymbol")
         if (
             report.get("isCurrent") is not False
-            and report.get("chainLayer")
+            and (report.get("chainLayer") or report.get("benchmark"))
             and isinstance(symbol, str)
             and symbol.strip()
         ):
@@ -246,7 +249,7 @@ def currency_from_ticker(ticker) -> str | None:
 def build_price_entries(reports: list[Report], attempted_at: date, previous: dict[str, PriceEntry]) -> tuple[list[PriceEntry], int]:
     entries: list[PriceEntry] = []
     failure_count = 0
-    for report in current_chain_reports(reports):
+    for report in priced_reports(reports):
         report_id = report_string(report, "id")
         symbol = report_string(report, "priceSymbol")
         price_as_of = parse_day(report.get("priceAsOf"), f"{report_id}.priceAsOf")

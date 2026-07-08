@@ -30,9 +30,15 @@ jobs:
       - name: Validate research prices
         run: python3 static/invest/research/validate_prices.py
 
+      - name: Generate verdict ledger
+        run: python3 static/invest/research/update_verdicts.py
+
+      - name: Validate verdict ledger
+        run: python3 static/invest/research/validate_verdicts.py --strict-coverage
+
       - name: Commit and push if changed
         run: |
           git config --global user.name 'GitHub Actions Bot'
           git config --global user.email 'actions@github.com'
-          git add static/invest/research/data/prices.json
+          git add static/invest/research/data/prices.json static/invest/research/data/verdicts.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update research price data - $(date +'%Y-%m-%d')" && git push)

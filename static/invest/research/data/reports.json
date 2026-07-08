@@ -18,6 +18,9 @@
     "lastUpdate": "2026-07-06",
     "coverageTier": "lite",
     "versionType": "initial",
+    "benchmark": true,
+    "priceSymbol": "SMH",
+    "priceAsOf": "2026-07-02",
     "file": "/invest/research/reports/view.html?id=smh-2026",
     "markdownFiles": {
       "zh": "/invest/research/SMH_深度研究报告_2026-07.md",

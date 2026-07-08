@@ -34,6 +34,9 @@ jobs:
       - name: Validate research prices
         run: python3 static/invest/research/validate_prices.py
 
+      - name: Validate verdict ledger
+        run: python3 static/invest/research/validate_verdicts.py
+
       - name: Generate research RSS feed
         run: python3 static/invest/research/generate_feed.py
 
