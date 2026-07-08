@@ -15,6 +15,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Final, Union
 
+import calibration_history
+
 
 Json = Union[None, bool, int, float, str, list["Json"], dict[str, "Json"]]
 
@@ -22,6 +24,7 @@ ROOT: Final = Path(__file__).resolve().parent
 REPORTS_JSON: Final = ROOT / "data" / "reports.json"
 PRICES_JSON: Final = ROOT / "data" / "prices.json"
 VERDICTS_JSON: Final = ROOT / "data" / "verdicts.json"
+CALIBRATION_HISTORY_JSON: Final = ROOT / "data" / "calibration-history.json"
 
 STANCE_V2_VALUES: Final = {"bullish", "constructive", "neutral-watch", "cautious", "bearish-avoid"}
 # stanceHistory keeps legacy values for non-last entries (spec §2.3), so a closed
@@ -120,16 +123,31 @@ def require_bool(value: Json, label: str) -> bool:
     return value
 
 
-def check_relative(change_pct: float, benchmark_pct: float, relative_pct: float, label: str) -> None:
+def check_relative(
+    change_pct: float,
+    benchmark_pct: float,
+    relative_pct: float,
+    label: str,
+    relative_field: str = "relativePct",
+) -> None:
     expected = round(change_pct - benchmark_pct, 1)
     if abs(relative_pct - expected) > PCT_TOLERANCE:
-        fail(f"{label}.relativePct inconsistent: {relative_pct} vs expected {expected}")
+        fail(f"{label}.{relative_field} inconsistent: {relative_pct} vs expected {expected}")
 
 
 def check_change(start: float, end: float, change_pct: float, label: str) -> None:
     expected = round((end - start) / start * 100, 1)
     if abs(change_pct - expected) > PCT_TOLERANCE:
         fail(f"{label}.changePct inconsistent: {change_pct} vs expected {expected}")
+
+
+def validate_book_reference(entry: dict[str, Json], change_pct: float, label: str) -> None:
+    book_symbol = require_string(entry.get("bookBenchmarkSymbol"), f"{label}.bookBenchmarkSymbol")
+    if book_symbol != LEGACY_BENCHMARK:
+        fail(f"{label}.bookBenchmarkSymbol must be {LEGACY_BENCHMARK}: {book_symbol}")
+    book_benchmark_pct = require_number(entry.get("bookBenchmarkChangePct"), f"{label}.bookBenchmarkChangePct")
+    book_relative_pct = require_number(entry.get("bookRelativePct"), f"{label}.bookRelativePct")
+    check_relative(change_pct, book_benchmark_pct, book_relative_pct, label, "bookRelativePct")
 
 
 def price_entries_by_id(prices: Json) -> dict[str, dict[str, Json]]:
@@ -255,6 +273,7 @@ def validate_open_entry(
     relative_pct = require_number(entry.get("relativePct"), f"{label}.relativePct")
     check_change(price_at_stance, last_close, change_pct, label)
     check_relative(change_pct, benchmark_pct, relative_pct, label)
+    validate_book_reference(entry, change_pct, label)
 
     days_held = require_number(entry.get("daysHeld"), f"{label}.daysHeld")
     if days_held != (last_date - stance_date).days:
@@ -303,6 +322,7 @@ def validate_closed_entry(
     relative_pct = require_number(entry.get("relativePct"), f"{label}.relativePct")
     check_change(start_price, end_price, change_pct, label)
     check_relative(change_pct, benchmark_pct, relative_pct, label)
+    validate_book_reference(entry, change_pct, label)
 
     if require_number(entry.get("daysHeld"), f"{label}.daysHeld") != (end_date - start_date).days:
         fail(f"{label}.daysHeld inconsistent")
@@ -358,11 +378,19 @@ def strict_coverage_from_argv(argv: list[str]) -> bool:
     fail(f"unknown arguments: {argv}")
 
 
+def validate_calibration_history_data(history: Json, verdicts: Json) -> None:
+    try:
+        calibration_history.validate_history_rows(history, verdicts)
+    except calibration_history.CalibrationHistoryError as exc:
+        fail(str(exc))
+
+
 def main() -> None:
     reports = require_list(load_json(REPORTS_JSON), "reports.json")
     verdicts = load_json(VERDICTS_JSON)
     prices = load_json(PRICES_JSON)
     benchmarks = load_json(BENCHMARKS_JSON)
+    calibration_history_data = load_json(CALIBRATION_HISTORY_JSON)
     warnings = validate_verdicts_data(
         verdicts,
         reports,
@@ -373,6 +401,7 @@ def main() -> None:
             reports_by_id=reports_by_id_map(reports),
         ),
     )
+    validate_calibration_history_data(calibration_history_data, verdicts)
     for warning in warnings:
         print(f"WARN: {warning}")
     print(f"OK: validated verdict ledger in {VERDICTS_JSON}")

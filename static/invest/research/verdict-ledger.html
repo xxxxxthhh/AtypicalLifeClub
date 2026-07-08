@@ -91,10 +91,39 @@
             border-radius: 6px;
             padding: 1px 6px;
         }
-        .calibration-grid {
+        .calibration-buckets {
+            display: grid;
+            gap: 18px;
+        }
+        .calib-bucket {
+            border-top: 1px solid var(--research-line);
+            padding-top: 16px;
+        }
+        .calib-bucket:first-child {
+            border-top: none;
+            padding-top: 0;
+        }
+        .calib-bucket-head {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 10px;
+        }
+        .calib-bucket-title {
+            font-size: 0.92rem;
+            color: var(--research-ink);
+            font-weight: 700;
+        }
+        .calib-bucket-sub {
+            font-size: 0.74rem;
+            color: var(--research-muted);
+            text-align: right;
+        }
+        .calib-card-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-            gap: 12px;
+            gap: 10px;
         }
         .calib-card {
             border: 1px solid var(--research-line);
@@ -106,6 +135,48 @@
         .calib-card .calib-median { font-family: var(--research-mono, monospace); font-size: 1.1rem; margin-top: 4px; }
         .calib-card .calib-sub { font-size: 0.72rem; color: var(--research-muted); margin-top: 2px; }
         .calibration-note { color: var(--research-muted); font-size: 0.8rem; margin-top: 12px; }
+        .book-reference,
+        .drift-panel {
+            margin-top: 18px;
+            border-top: 1px solid var(--research-line);
+            padding-top: 16px;
+        }
+        .ledger-mini-heading {
+            margin: 0 0 8px;
+            font-size: 0.95rem;
+            color: var(--research-ink);
+        }
+        .book-reference-line,
+        .drift-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .metric-pill {
+            border: 1px solid var(--research-line);
+            border-radius: 6px;
+            padding: 6px 8px;
+            background: var(--research-panel);
+            color: var(--research-ink-2);
+            font-size: 0.78rem;
+        }
+        .metric-pill strong {
+            font-family: var(--research-mono, monospace);
+            color: var(--research-ink);
+            font-weight: 700;
+        }
+        .drift-svg {
+            display: block;
+            width: 100%;
+            height: auto;
+            margin-top: 10px;
+            border: 1px solid var(--research-line);
+            border-radius: var(--radius, 12px);
+            background: var(--research-panel);
+        }
+        .drift-grid-line { stroke: var(--research-line-2); stroke-width: 1; }
+        .drift-line-median { fill: none; stroke: var(--research-ink); stroke-width: 2; }
+        .drift-line-beat { fill: none; stroke: var(--research-muted); stroke-width: 2; stroke-dasharray: 5 4; }
         .ledger-links { margin-top: 26px; }
     </style>
 </head>
@@ -137,7 +208,7 @@
             <div class="research-hero-kicker" id="pageKicker">VERDICT LEDGER · RESEARCH</div>
             <h1 class="hero-title" id="pageTitle">Verdict Ledger</h1>
             <p class="hero-subtitle" id="pageSubtitle">Every published stance scored against its per-layer benchmark over the same window, so opinions carry a track record.</p>
-            <p class="ledger-fact-note" id="factNote">Relative return vs each report's benchmark is the score; a call that trails its benchmark is a miss even when it is up. Every row is labeled with its benchmark; aggregate stats cover the SMH bucket only for now (per-benchmark breakdown coming). Migration rows (the legacy→v5 re-labelling) stay scored vs SMH. No red/green — the sign carries direction.</p>
+            <p class="ledger-fact-note" id="factNote">Relative return vs each report's benchmark is the score; a call that trails its benchmark is a miss even when it is up. Calibration is grouped by benchmark bucket, and the book-level SMH reference line keeps the all-calls comparison explicit. Migration rows (the legacy→v5 re-labelling) stay scored vs SMH. No red/green — the sign carries direction.</p>
             <div class="research-hero-stat-grid" id="ledgerStats" aria-label="Verdict ledger statistics">
                 <div class="research-stat-card"><div class="research-stat-value">--</div><div class="research-stat-label">Loading</div></div>
             </div>
@@ -173,9 +244,11 @@
             <div class="research-header-row">
                 <h2 id="calibHeading">Calibration</h2>
             </div>
-            <p class="ledger-section-intro" id="calibIntro">Scored calls in the SMH bucket (open calls plus non-migration closed intervals): median relative delta per stance and the share of non-neutral calls beating SMH.</p>
-            <div class="calibration-grid" id="calibrationGrid"></div>
+            <p class="ledger-section-intro" id="calibIntro">Scored calls are grouped by benchmark bucket: median relative delta per stance, plus each bucket's non-neutral beat-rate. The separate book-level line uses SMH for every scored call.</p>
+            <div class="calibration-buckets" id="calibrationGrid"></div>
             <p class="calibration-note" id="calibrationNote"></p>
+            <div class="book-reference" id="bookReference"></div>
+            <div class="drift-panel" id="driftPanel"></div>
             <div class="ledger-links hero-links">
                 <a class="hero-link" href="/invest/research/monitoring-dashboard.html" id="linkMonitoring">Book-Level Monitoring Dashboard <span class="hero-link-arrow" aria-hidden="true">→</span></a>
                 <a class="hero-link" href="/invest/research/" id="linkResearch">All reports <span class="hero-link-arrow" aria-hidden="true">→</span></a>
@@ -190,10 +263,10 @@
     <script>
         const REPORTS_DATA_URL = "/invest/research/data/reports.json";
         const VERDICTS_DATA_URL = "/invest/research/data/verdicts.json";
+        const BENCHMARKS_DATA_URL = "/invest/research/data/benchmarks.json";
+        const CALIBRATION_HISTORY_DATA_URL = "/invest/research/data/calibration-history.json";
 
         const STANCE_ORDER = ["bullish", "constructive", "neutral-watch", "cautious", "bearish-avoid"];
-        // Book-default benchmark: aggregate stats stay within this one bucket until PR-2
-        // ships the per-benchmark breakdown (spec §2.3).
         const BOOK_BENCHMARK = "SMH";
 
         const PAGE_LABELS = {
@@ -202,20 +275,21 @@
                 pageKicker: "判断记录 · 研究台账",
                 pageTitle: "判断记录",
                 pageSubtitle: "每一个公开立场都相对其分层基准、在同一时间窗内打分，让判断留下可复盘的记录。",
-                factNote: "相对各报告基准的超额收益就是分数：即便绝对上涨，跑输基准也算 miss。每行标注所用基准；聚合统计暂只覆盖 SMH 桶（分层拆分后续上线）。迁移行（legacy→v5 改标）仍按 SMH 计。不使用红绿灯——方向由正负号表达。",
+                factNote: "相对各报告基准的超额收益就是分数：即便绝对上涨，跑输基准也算 miss。校准按 benchmark bucket 分组；单独的全书 SMH 参考线保留所有判断 vs SMH 的比较。迁移行（legacy→v5 改标）仍按 SMH 计。不使用红绿灯——方向由正负号表达。",
                 shellSubtitle: "立场记录 vs 基准",
                 navBack: "返回研报中心",
                 navMonitoring: "监控仪表盘",
                 statBenchmark: "书本默认",
                 statScored: "已计分",
-                statMedian: "相对中位数 · SMH",
-                statBeat: "跑赢 SMH",
+                statBuckets: "基准桶",
+                statMedian: "SMH 中位数",
+                statBeat: "全书跑赢 SMH",
                 openHeading: "在场判断",
                 openIntro: "在场仓位：每篇报告的当前立场自 stance 日期以来相对其基准的表现，可按相对幅度排序。",
                 closedHeading: "已闭合区间",
                 closedIntro: "来自 stanceHistory 的已完成立场窗口。legacy→v5 改标标注为 migration，不计为一次判断。",
                 calibHeading: "校准",
-                calibIntro: "统计 SMH 桶内的已计分判断（在场 + 非 migration 的已闭合区间）：各立场相对中位数，以及非中性判断跑赢 SMH 的比例。",
+                calibIntro: "已计分判断按 benchmark bucket 分组：各立场相对中位数，以及每个桶内非中性判断跑赢该基准的比例。单独的全书参考线统一使用 SMH。",
                 colReport: "报告",
                 colStance: "立场",
                 colStanceDate: "立场日期",
@@ -224,7 +298,7 @@
                 colChange: "涨跌",
                 colRelative: "相对基准",
                 colBenchmark: "基准",
-                bucketNote: (sym) => `仅 ${sym} 桶 · 分层拆分后续上线`,
+                bucketNote: (sym, count) => `${sym} 桶 · ${count} 项`,
                 colDays: "持有天数",
                 colFlag: "状态",
                 colWindow: "窗口",
@@ -236,8 +310,17 @@
                 beatSuffix: (n, d) => `${n}/${d}`,
                 calibMedianLabel: "相对中位数",
                 calibCountLabel: (n) => `${n} 项`,
-                calibBeat: (n, d, pct) => `非中性跑赢 SMH：${n}/${d}（${pct}）`,
+                calibBeat: (n, d, pct, sym) => `非中性跑赢 ${sym}：${n}/${d}（${pct}）`,
                 calibNoScored: "暂无已计分判断（回填后需等待窗口拉开）。",
+                bookReferenceHeading: "全书 SMH 参考线",
+                bookReferenceMetric: (count, median, beats, denom, pct) => `${count} 项 · 中位数 ${median} · 非中性跑赢 SMH ${beats}/${denom}（${pct}）`,
+                driftHeading: "校准漂移",
+                driftIntro: "来自 calibration-history.json 的每日快照。",
+                driftWarming: (count) => `真实历史目前 ${count} 天；积累到 7 天后显示漂移折线。`,
+                driftMedianLabel: "SMH 中位数",
+                driftBeatLabel: "跑赢率",
+                driftDaysLabel: (count) => `${count} 天`,
+                driftNoData: "暂无校准历史。",
                 emptyOpen: "暂无在场判断。",
                 emptyClosed: "暂无已闭合区间。",
                 linkMonitoring: "全书监控仪表盘",
@@ -252,20 +335,21 @@
                 pageKicker: "Verdict Ledger · Research Ledger",
                 pageTitle: "Verdict Ledger",
                 pageSubtitle: "Every published stance scored against its per-layer benchmark over the same window, so opinions carry a track record.",
-                factNote: "Relative return vs each report's benchmark is the score; a call that trails its benchmark is a miss even when it is up. Every row is labeled with its benchmark; aggregate stats cover the SMH bucket only for now (per-benchmark breakdown coming). Migration rows (the legacy→v5 re-labelling) stay scored vs SMH. No red/green — the sign carries direction.",
+                factNote: "Relative return vs each report's benchmark is the score; a call that trails its benchmark is a miss even when it is up. Calibration is grouped by benchmark bucket, and the book-level SMH reference line keeps the all-calls comparison explicit. Migration rows (the legacy→v5 re-labelling) stay scored vs SMH. No red/green — the sign carries direction.",
                 shellSubtitle: "Stance track record vs benchmark",
                 navBack: "Back to Research",
                 navMonitoring: "Monitoring",
                 statBenchmark: "Book default",
                 statScored: "Scored",
-                statMedian: "Median relative · SMH",
-                statBeat: "Beating SMH",
+                statBuckets: "Benchmark buckets",
+                statMedian: "SMH median",
+                statBeat: "Book beating SMH",
                 openHeading: "Open Calls",
                 openIntro: "Live positions: each report's current stance vs its benchmark since the stance date. Sortable by relative delta.",
                 closedHeading: "Closed Intervals",
                 closedIntro: "Completed stance windows from stanceHistory. Legacy→v5 re-labellings are flagged \"migration\" and do not count as calls.",
                 calibHeading: "Calibration",
-                calibIntro: "Scored calls in the SMH bucket (open calls plus non-migration closed intervals): median relative delta per stance and the share of non-neutral calls beating SMH.",
+                calibIntro: "Scored calls are grouped by benchmark bucket: median relative delta per stance, plus each bucket's non-neutral beat-rate. The separate book-level line uses SMH for every scored call.",
                 colReport: "Report",
                 colStance: "Stance",
                 colStanceDate: "Stance date",
@@ -274,7 +358,7 @@
                 colChange: "Change",
                 colRelative: "vs benchmark",
                 colBenchmark: "Benchmark",
-                bucketNote: (sym) => `${sym} bucket · per-benchmark breakdown coming`,
+                bucketNote: (sym, count) => `${sym} bucket · ${count} calls`,
                 colDays: "Days",
                 colFlag: "State",
                 colWindow: "Window",
@@ -286,8 +370,17 @@
                 beatSuffix: (n, d) => `${n}/${d}`,
                 calibMedianLabel: "Median relative",
                 calibCountLabel: (n) => `${n} calls`,
-                calibBeat: (n, d, pct) => `Non-neutral beating SMH: ${n}/${d} (${pct})`,
+                calibBeat: (n, d, pct, sym) => `Non-neutral beating ${sym}: ${n}/${d} (${pct})`,
                 calibNoScored: "No scored calls yet (windows need to open after the backfill).",
+                bookReferenceHeading: "Book-level SMH reference",
+                bookReferenceMetric: (count, median, beats, denom, pct) => `${count} calls · median ${median} · non-neutral beating SMH ${beats}/${denom} (${pct})`,
+                driftHeading: "Calibration Drift",
+                driftIntro: "Daily snapshots from calibration-history.json.",
+                driftWarming: (count) => `${count} real history day${count === 1 ? "" : "s"} so far; the drift line appears after 7 days accrue.`,
+                driftMedianLabel: "SMH median",
+                driftBeatLabel: "Beat-rate",
+                driftDaysLabel: (count) => `${count} days`,
+                driftNoData: "No calibration history yet.",
                 emptyOpen: "No open calls.",
                 emptyClosed: "No closed intervals.",
                 linkMonitoring: "Book-Level Monitoring Dashboard",
@@ -301,6 +394,8 @@
 
         const state = {
             benchmark: "SMH",
+            benchmarks: {},
+            calibrationHistory: [],
             reportsById: new Map(),
             open: [],
             closed: [],
@@ -318,16 +413,24 @@
 
         async function loadData() {
             try {
-                const [reportsResponse, verdictsResponse] = await Promise.all([
+                const [reportsResponse, verdictsResponse, benchmarksResponse, historyResponse] = await Promise.all([
                     fetch(REPORTS_DATA_URL, { cache: "no-store" }),
-                    fetch(VERDICTS_DATA_URL, { cache: "no-store" })
+                    fetch(VERDICTS_DATA_URL, { cache: "no-store" }),
+                    fetch(BENCHMARKS_DATA_URL, { cache: "no-store" }),
+                    fetch(CALIBRATION_HISTORY_DATA_URL, { cache: "no-store" })
                 ]);
                 if (!reportsResponse.ok) throw new Error(`reports HTTP ${reportsResponse.status}`);
                 if (!verdictsResponse.ok) throw new Error(`verdicts HTTP ${verdictsResponse.status}`);
+                if (!benchmarksResponse.ok) throw new Error(`benchmarks HTTP ${benchmarksResponse.status}`);
+                if (!historyResponse.ok) throw new Error(`calibration history HTTP ${historyResponse.status}`);
                 const reports = await reportsResponse.json();
                 const verdicts = await verdictsResponse.json();
+                const benchmarks = await benchmarksResponse.json();
+                const calibrationHistory = await historyResponse.json();
                 state.reportsById = new Map((Array.isArray(reports) ? reports : []).map((r) => [r.id, r]));
                 state.benchmark = verdicts.benchmark || "SMH";
+                state.benchmarks = benchmarks && typeof benchmarks === "object" ? benchmarks : {};
+                state.calibrationHistory = Array.isArray(calibrationHistory) ? calibrationHistory : [];
                 state.open = Array.isArray(verdicts.entries) ? verdicts.entries : [];
                 state.closed = Array.isArray(verdicts.closed) ? verdicts.closed : [];
                 state.loadFailed = false;
@@ -363,6 +466,8 @@
             renderOpenTable();
             renderClosedTable();
             renderCalibration();
+            renderBookReference();
+            renderDriftChart();
         }
 
         function scoredOpen() {
@@ -375,6 +480,7 @@
             const openCalls = scoredOpen().map((entry) => ({
                 stance: entry.stance,
                 relativePct: entry.relativePct,
+                bookRelativePct: entry.bookRelativePct,
                 benchmarkSymbol: entry.benchmarkSymbol
             }));
             const closedCalls = state.closed
@@ -382,30 +488,30 @@
                 .map((entry) => ({
                     stance: entry.fromStance,
                     relativePct: entry.relativePct,
+                    bookRelativePct: entry.bookRelativePct,
                     benchmarkSymbol: entry.benchmarkSymbol
                 }));
             return openCalls.concat(closedCalls);
         }
 
-        // v6 PR-1: medians/beat-rates are only comparable within one yardstick, so
-        // the aggregate stats are restricted to the book-default (SMH) bucket until
-        // PR-2 ships the per-benchmark breakdown. Per-row deltas (self-labeled with
-        // their benchmark) are shown for every call regardless of bucket.
-        function bookBucketCalls() {
-            return allScoredCalls().filter((e) => e.benchmarkSymbol === BOOK_BENCHMARK);
+        function bookReferenceCalls() {
+            return allScoredCalls().filter((entry) => typeof entry.bookRelativePct === "number");
         }
 
         function renderStats() {
             const labels = getLabels();
             const root = document.getElementById("ledgerStats");
-            const bucket = bookBucketCalls();
-            const nonNeutral = bucket.filter((e) => e.stance !== "neutral-watch");
-            const beats = nonNeutral.filter((e) => e.relativePct > 0).length;
-            const medianRel = bucket.length ? median(bucket.map((e) => e.relativePct)) : null;
+            const scored = allScoredCalls();
+            const bookCalls = bookReferenceCalls();
+            const buckets = new Set(scored.map((e) => e.benchmarkSymbol).filter(Boolean)).size;
+            const nonNeutral = bookCalls.filter((e) => e.stance !== "neutral-watch");
+            const beats = nonNeutral.filter((e) => e.bookRelativePct > 0).length;
+            const medianRel = bookCalls.length ? median(bookCalls.map((e) => e.bookRelativePct)) : null;
             const beatPct = nonNeutral.length ? `${Math.round((beats / nonNeutral.length) * 100)}%` : "—";
             const cards = [
                 [state.benchmark, labels.statBenchmark],
-                [String(allScoredCalls().length), labels.statScored],
+                [String(scored.length), labels.statScored],
+                [String(buckets), labels.statBuckets],
                 [medianRel === null ? "—" : signedPct(medianRel), labels.statMedian],
                 [beatPct, labels.statBeat]
             ];
@@ -518,35 +624,150 @@
             const labels = getLabels();
             const grid = document.getElementById("calibrationGrid");
             const note = document.getElementById("calibrationNote");
-            const scored = bookBucketCalls();
+            const scored = allScoredCalls();
             if (!scored.length) {
                 grid.innerHTML = "";
                 note.textContent = labels.calibNoScored;
                 return;
             }
-            const byStance = new Map();
+            const byBenchmark = new Map();
             scored.forEach((e) => {
-                if (!byStance.has(e.stance)) byStance.set(e.stance, []);
-                byStance.get(e.stance).push(e.relativePct);
+                const symbol = e.benchmarkSymbol || "—";
+                if (!byBenchmark.has(symbol)) byBenchmark.set(symbol, []);
+                byBenchmark.get(symbol).push(e);
             });
-            const ordered = STANCE_ORDER.filter((s) => byStance.has(s));
-            grid.innerHTML = ordered.map((stance) => {
-                const vals = byStance.get(stance);
+            const buckets = Array.from(byBenchmark.entries()).sort((a, b) => benchmarkSortKey(a[0]).localeCompare(benchmarkSortKey(b[0])));
+            grid.innerHTML = buckets.map(([symbol, calls]) => {
+                const byStance = new Map();
+                calls.forEach((call) => {
+                    if (!byStance.has(call.stance)) byStance.set(call.stance, []);
+                    byStance.get(call.stance).push(call.relativePct);
+                });
+                const ordered = STANCE_ORDER.filter((s) => byStance.has(s));
+                const nonNeutral = calls.filter((e) => e.stance !== "neutral-watch");
+                const beats = nonNeutral.filter((e) => e.relativePct > 0).length;
+                const beatPct = nonNeutral.length ? `${Math.round((beats / nonNeutral.length) * 100)}%` : "—";
                 return `
-                    <div class="calib-card">
-                        <div class="calib-stance">${escapeHtml(stanceName(stance))}</div>
-                        <div class="calib-median">${signedPct(median(vals))}</div>
-                        <div class="calib-sub">${escapeHtml(labels.calibCountLabel(vals.length))}</div>
-                    </div>`;
+                    <section class="calib-bucket">
+                        <div class="calib-bucket-head">
+                            <div class="calib-bucket-title">${escapeHtml(benchmarkLabel(symbol))}</div>
+                            <div class="calib-bucket-sub">${escapeHtml(labels.calibBeat(beats, nonNeutral.length, beatPct, symbol))}</div>
+                        </div>
+                        <div class="calib-card-grid">
+                            ${ordered.map((stance) => {
+                                const vals = byStance.get(stance);
+                                return `
+                                    <div class="calib-card">
+                                        <div class="calib-stance">${escapeHtml(stanceName(stance))}</div>
+                                        <div class="calib-median">${signedPct(median(vals))}</div>
+                                        <div class="calib-sub">${escapeHtml(labels.calibCountLabel(vals.length))}</div>
+                                    </div>`;
+                            }).join("")}
+                        </div>
+                    </section>`;
             }).join("");
+            note.textContent = buckets.map(([symbol, calls]) => labels.bucketNote(symbol, calls.length)).join(" · ");
+        }
 
-            const nonNeutral = scored.filter((e) => e.stance !== "neutral-watch");
-            const beats = nonNeutral.filter((e) => e.relativePct > 0).length;
+        function renderBookReference() {
+            const labels = getLabels();
+            const root = document.getElementById("bookReference");
+            const calls = bookReferenceCalls();
+            if (!calls.length) {
+                root.innerHTML = "";
+                return;
+            }
+            const nonNeutral = calls.filter((e) => e.stance !== "neutral-watch");
+            const beats = nonNeutral.filter((e) => e.bookRelativePct > 0).length;
             const pct = nonNeutral.length ? `${Math.round((beats / nonNeutral.length) * 100)}%` : "—";
-            note.textContent = `${labels.calibBeat(beats, nonNeutral.length, pct)} · ${labels.bucketNote(BOOK_BENCHMARK)}`;
+            const medianRel = signedPct(median(calls.map((e) => e.bookRelativePct)));
+            root.innerHTML = `
+                <h3 class="ledger-mini-heading">${escapeHtml(labels.bookReferenceHeading)}</h3>
+                <div class="book-reference-line">
+                    <span class="metric-pill">${escapeHtml(labels.bookReferenceMetric(calls.length, medianRel, beats, nonNeutral.length, pct))}</span>
+                </div>`;
+        }
+
+        function renderDriftChart() {
+            const labels = getLabels();
+            const root = document.getElementById("driftPanel");
+            const rows = state.calibrationHistory
+                .filter((row) => row && typeof row.date === "string")
+                .slice()
+                .sort((a, b) => a.date.localeCompare(b.date));
+            if (!rows.length) {
+                root.innerHTML = `
+                    <h3 class="ledger-mini-heading">${escapeHtml(labels.driftHeading)}</h3>
+                    <p class="calibration-note">${escapeHtml(labels.driftNoData)}</p>`;
+                return;
+            }
+            const last = rows[rows.length - 1];
+            const latestMedian = typeof last.medianRelativePct === "number" ? signedPct(last.medianRelativePct) : "—";
+            const latestBeat = typeof last.nonNeutralBeatRate === "number" ? ratePct(last.nonNeutralBeatRate) : "—";
+            if (rows.length < 7) {
+                root.innerHTML = `
+                    <h3 class="ledger-mini-heading">${escapeHtml(labels.driftHeading)}</h3>
+                    <div class="drift-meta">
+                        <span class="metric-pill"><strong>${escapeHtml(latestMedian)}</strong> ${escapeHtml(labels.driftMedianLabel)}</span>
+                        <span class="metric-pill"><strong>${escapeHtml(latestBeat)}</strong> ${escapeHtml(labels.driftBeatLabel)}</span>
+                        <span class="metric-pill">${escapeHtml(labels.driftWarming(rows.length))}</span>
+                    </div>`;
+                return;
+            }
+            const recent = rows.slice(-30);
+            const medianPoints = sparklinePoints(recent, (row) => row.medianRelativePct, 18, 54);
+            const beatPoints = sparklinePoints(recent, (row) => row.nonNeutralBeatRate, 96, 54, [0, 1]);
+            root.innerHTML = `
+                <h3 class="ledger-mini-heading">${escapeHtml(labels.driftHeading)}</h3>
+                <div class="drift-meta">
+                    <span class="metric-pill"><strong>${escapeHtml(latestMedian)}</strong> ${escapeHtml(labels.driftMedianLabel)}</span>
+                    <span class="metric-pill"><strong>${escapeHtml(latestBeat)}</strong> ${escapeHtml(labels.driftBeatLabel)}</span>
+                    <span class="metric-pill">${escapeHtml(labels.driftDaysLabel(recent.length))}</span>
+                </div>
+                <svg class="drift-svg" viewBox="0 0 720 170" role="img" aria-label="${escapeHtml(labels.driftHeading)}">
+                    <line class="drift-grid-line" x1="24" y1="45" x2="696" y2="45"></line>
+                    <line class="drift-grid-line" x1="24" y1="123" x2="696" y2="123"></line>
+                    <polyline class="drift-line-median" points="${escapeHtml(medianPoints)}"></polyline>
+                    <polyline class="drift-line-beat" points="${escapeHtml(beatPoints)}"></polyline>
+                </svg>`;
         }
 
         // ─── helpers ───
+        function benchmarkLabel(symbol) {
+            const meta = state.benchmarks && state.benchmarks.symbols ? state.benchmarks.symbols[symbol] : null;
+            const name = meta && meta.name ? meta.name[currentLang] || meta.name.en || meta.name.zh : "";
+            return name ? `${symbol} · ${name}` : symbol;
+        }
+
+        function benchmarkSortKey(symbol) {
+            if (symbol === BOOK_BENCHMARK) return `0-${symbol}`;
+            return `1-${symbol}`;
+        }
+
+        function ratePct(value) {
+            return `${Math.round(value * 100)}%`;
+        }
+
+        function sparklinePoints(rows, accessor, top, height, fixedDomain) {
+            const values = rows.map(accessor).filter((value) => typeof value === "number");
+            if (!values.length) return "";
+            const domain = fixedDomain || [Math.min(...values), Math.max(...values)];
+            let [min, max] = domain;
+            if (min === max) {
+                min -= 1;
+                max += 1;
+            }
+            const left = 24;
+            const width = 672;
+            return rows.map((row, index) => {
+                const value = accessor(row);
+                if (typeof value !== "number") return null;
+                const x = rows.length === 1 ? left + width : left + (width * index) / (rows.length - 1);
+                const y = top + height - ((value - min) / (max - min)) * height;
+                return `${x.toFixed(1)},${y.toFixed(1)}`;
+            }).filter(Boolean).join(" ");
+        }
+
         function reportNameCell(report, reportId) {
             const name = report ? reportCompanyName(report) : reportId;
             const href = report ? `/invest/research/reports/view.html?id=${encodeURIComponent(reportId)}` : "#";

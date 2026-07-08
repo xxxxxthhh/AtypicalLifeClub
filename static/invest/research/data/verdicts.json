@@ -15,7 +15,10 @@
       "benchmarkChangePct": -1.8,
       "relativePct": 0.6,
       "daysHeld": 5,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -1.8,
+      "bookRelativePct": 0.6
     },
     {
       "reportId": "applied-materials-2026",
@@ -30,7 +33,10 @@
       "benchmarkChangePct": -1.8,
       "relativePct": -6.2,
       "daysHeld": 5,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -1.8,
+      "bookRelativePct": -6.2
     },
     {
       "reportId": "lam-research-2026",
@@ -45,7 +51,10 @@
       "benchmarkChangePct": -1.8,
       "relativePct": -5.4,
       "daysHeld": 5,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -1.8,
+      "bookRelativePct": -5.4
     },
     {
       "reportId": "kla-2026",
@@ -60,7 +69,10 @@
       "benchmarkChangePct": -1.8,
       "relativePct": -6.3,
       "daysHeld": 5,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -1.8,
+      "bookRelativePct": -6.3
     },
     {
       "reportId": "synopsys-2026",
@@ -75,7 +87,10 @@
       "benchmarkChangePct": -1.8,
       "relativePct": 1.7,
       "daysHeld": 5,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -1.8,
+      "bookRelativePct": 1.7
     },
     {
       "reportId": "cadence-2026",
@@ -90,7 +105,10 @@
       "benchmarkChangePct": -1.8,
       "relativePct": 1.2,
       "daysHeld": 5,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -1.8,
+      "bookRelativePct": 1.2
     },
     {
       "reportId": "nrg-2026",
@@ -105,7 +123,10 @@
       "benchmarkChangePct": -0.1,
       "relativePct": 1.1,
       "daysHeld": 5,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -1.8,
+      "bookRelativePct": 2.8
     },
     {
       "reportId": "eqix-2026",
@@ -120,7 +141,10 @@
       "benchmarkChangePct": -0.8,
       "relativePct": 2.9,
       "daysHeld": 5,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -1.8,
+      "bookRelativePct": 3.9
     },
     {
       "reportId": "nebius-2026",
@@ -135,7 +159,10 @@
       "benchmarkChangePct": -1.9,
       "relativePct": -6.5,
       "daysHeld": 1,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -3.8,
+      "bookRelativePct": -4.6
     },
     {
       "reportId": "arista-2026",
@@ -150,7 +177,10 @@
       "benchmarkChangePct": -8.0,
       "relativePct": 9.4,
       "daysHeld": 8,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -8.0,
+      "bookRelativePct": 9.4
     },
     {
       "reportId": "coreweave-2026",
@@ -165,7 +195,10 @@
       "benchmarkChangePct": -1.9,
       "relativePct": -1.5,
       "daysHeld": 1,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -3.8,
+      "bookRelativePct": 0.4
     },
     {
       "reportId": "vertiv-2026",
@@ -180,7 +213,10 @@
       "benchmarkChangePct": -8.0,
       "relativePct": 7.5,
       "daysHeld": 8,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -8.0,
+      "bookRelativePct": 7.5
     },
     {
       "reportId": "corning-2026",
@@ -195,7 +231,10 @@
       "benchmarkChangePct": -4.9,
       "relativePct": -11.2,
       "daysHeld": 11,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -4.9,
+      "bookRelativePct": -11.2
     },
     {
       "reportId": "nvidia-2026",
@@ -232,7 +271,10 @@
       "benchmarkChangePct": -1.1,
       "relativePct": 4.2,
       "daysHeld": 11,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -4.9,
+      "bookRelativePct": 8.0
     },
     {
       "reportId": "sandisk-2026",
@@ -258,7 +300,10 @@
       "benchmarkChangePct": 0.9,
       "relativePct": -29.7,
       "daysHeld": 1,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": 0.9,
+      "bookRelativePct": -29.7
     },
     {
       "reportId": "almonty-2026",
@@ -273,7 +318,10 @@
       "benchmarkChangePct": -4.9,
       "relativePct": -1.3,
       "daysHeld": 1,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -3.8,
+      "bookRelativePct": -2.4
     },
     {
       "reportId": "bloom-energy-2026",
@@ -288,7 +336,10 @@
       "benchmarkChangePct": 0.9,
       "relativePct": -9.5,
       "daysHeld": 1,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -3.8,
+      "bookRelativePct": -4.8
     },
     {
       "reportId": "neov-2026",
@@ -303,7 +354,10 @@
       "benchmarkChangePct": 0.9,
       "relativePct": -12.3,
       "daysHeld": 1,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -3.8,
+      "bookRelativePct": -7.6
     },
     {
       "reportId": "copx-2026",
@@ -318,7 +372,10 @@
       "benchmarkChangePct": -3.8,
       "relativePct": -1.1,
       "daysHeld": 1,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -3.8,
+      "bookRelativePct": -1.1
     },
     {
       "reportId": "amd-2026",
@@ -344,7 +401,10 @@
       "benchmarkChangePct": 1.2,
       "relativePct": -11.3,
       "daysHeld": 15,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -6.5,
+      "bookRelativePct": -3.6
     },
     {
       "reportId": "oklo-2026",
@@ -359,7 +419,10 @@
       "benchmarkChangePct": -0.1,
       "relativePct": -8.4,
       "daysHeld": 5,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -1.8,
+      "bookRelativePct": -6.7
     },
     {
       "reportId": "broadcom-2026",
@@ -374,7 +437,10 @@
       "benchmarkChangePct": -8.7,
       "relativePct": 6.6,
       "daysHeld": 12,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -8.7,
+      "bookRelativePct": 6.6
     },
     {
       "reportId": "tsmc-2026",
@@ -389,7 +455,10 @@
       "benchmarkChangePct": -1.8,
       "relativePct": 1.4,
       "daysHeld": 5,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -1.8,
+      "bookRelativePct": 1.4
     },
     {
       "reportId": "micron-2026",
@@ -404,7 +473,10 @@
       "benchmarkChangePct": -1.8,
       "relativePct": -2.0,
       "daysHeld": 5,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -1.8,
+      "bookRelativePct": -2.0
     },
     {
       "reportId": "constellation-energy-2026",
@@ -419,7 +491,10 @@
       "benchmarkChangePct": -0.1,
       "relativePct": 0.3,
       "daysHeld": 5,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -1.8,
+      "bookRelativePct": 2.0
     },
     {
       "reportId": "vistra-2026",
@@ -434,7 +509,10 @@
       "benchmarkChangePct": -0.1,
       "relativePct": 3.2,
       "daysHeld": 5,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -1.8,
+      "bookRelativePct": 4.9
     },
     {
       "reportId": "meta-2026",
@@ -449,7 +527,10 @@
       "benchmarkChangePct": -1.9,
       "relativePct": 4.4,
       "daysHeld": 1,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -3.8,
+      "bookRelativePct": 6.3
     },
     {
       "reportId": "oracle-2026",
@@ -464,7 +545,10 @@
       "benchmarkChangePct": -1.9,
       "relativePct": 0.4,
       "daysHeld": 1,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -3.8,
+      "bookRelativePct": 2.3
     },
     {
       "reportId": "marvell-2026",
@@ -479,7 +563,10 @@
       "benchmarkChangePct": -1.8,
       "relativePct": -4.1,
       "daysHeld": 5,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -1.8,
+      "bookRelativePct": -4.1
     },
     {
       "reportId": "coherent-2026",
@@ -494,7 +581,10 @@
       "benchmarkChangePct": -1.8,
       "relativePct": -4.0,
       "daysHeld": 5,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -1.8,
+      "bookRelativePct": -4.0
     },
     {
       "reportId": "digital-realty-2026",
@@ -509,7 +599,10 @@
       "benchmarkChangePct": -0.8,
       "relativePct": 1.7,
       "daysHeld": 5,
-      "stale": false
+      "stale": false,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -1.8,
+      "bookRelativePct": 2.7
     }
   ],
   "closed": [
@@ -527,7 +620,10 @@
       "relativePct": 0.0,
       "daysHeld": 0,
       "migration": true,
-      "benchmarkSymbol": "SMH"
+      "benchmarkSymbol": "SMH",
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": 0.0,
+      "bookRelativePct": 0.0
     },
     {
       "reportId": "kla-2026",
@@ -543,7 +639,10 @@
       "relativePct": 0.0,
       "daysHeld": 0,
       "migration": true,
-      "benchmarkSymbol": "SMH"
+      "benchmarkSymbol": "SMH",
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": 0.0,
+      "bookRelativePct": 0.0
     },
     {
       "reportId": "synopsys-2026",
@@ -559,7 +658,10 @@
       "relativePct": 0.0,
       "daysHeld": 0,
       "migration": true,
-      "benchmarkSymbol": "SMH"
+      "benchmarkSymbol": "SMH",
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": 0.0,
+      "bookRelativePct": 0.0
     },
     {
       "reportId": "cadence-2026",
@@ -575,7 +677,10 @@
       "relativePct": 0.0,
       "daysHeld": 0,
       "migration": true,
-      "benchmarkSymbol": "SMH"
+      "benchmarkSymbol": "SMH",
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": 0.0,
+      "bookRelativePct": 0.0
     },
     {
       "reportId": "nrg-2026",
@@ -591,7 +696,10 @@
       "relativePct": 0.0,
       "daysHeld": 0,
       "migration": true,
-      "benchmarkSymbol": "SMH"
+      "benchmarkSymbol": "SMH",
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": 0.0,
+      "bookRelativePct": 0.0
     },
     {
       "reportId": "nebius-2026",
@@ -607,7 +715,10 @@
       "relativePct": -4.5,
       "daysHeld": 5,
       "migration": true,
-      "benchmarkSymbol": "SMH"
+      "benchmarkSymbol": "SMH",
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -2.6,
+      "bookRelativePct": -4.5
     },
     {
       "reportId": "coreweave-2026",
@@ -623,7 +734,10 @@
       "relativePct": -5.1,
       "daysHeld": 7,
       "migration": true,
-      "benchmarkSymbol": "SMH"
+      "benchmarkSymbol": "SMH",
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -4.4,
+      "bookRelativePct": -5.1
     },
     {
       "reportId": "vertiv-2026",
@@ -639,7 +753,10 @@
       "relativePct": 0.0,
       "daysHeld": 0,
       "migration": true,
-      "benchmarkSymbol": "SMH"
+      "benchmarkSymbol": "SMH",
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": 0.0,
+      "bookRelativePct": 0.0
     },
     {
       "reportId": "nvidia-2026",
@@ -655,7 +772,10 @@
       "relativePct": 4.9,
       "daysHeld": 11,
       "migration": true,
-      "benchmarkSymbol": "SMH"
+      "benchmarkSymbol": "SMH",
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -4.9,
+      "bookRelativePct": 4.9
     },
     {
       "reportId": "aaoi-2026",
@@ -671,7 +791,10 @@
       "relativePct": 13.1,
       "daysHeld": 15,
       "migration": true,
-      "benchmarkSymbol": "SMH"
+      "benchmarkSymbol": "SMH",
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -13.1,
+      "bookRelativePct": 13.1
     },
     {
       "reportId": "gevernova-2026",
@@ -687,7 +810,10 @@
       "relativePct": 0.0,
       "daysHeld": 0,
       "migration": true,
-      "benchmarkSymbol": "SMH"
+      "benchmarkSymbol": "SMH",
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": 0.0,
+      "bookRelativePct": 0.0
     },
     {
       "reportId": "sandisk-2026",
@@ -703,7 +829,10 @@
       "relativePct": 4.9,
       "daysHeld": 11,
       "migration": true,
-      "benchmarkSymbol": "SMH"
+      "benchmarkSymbol": "SMH",
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -4.9,
+      "bookRelativePct": 4.9
     },
     {
       "reportId": "sk-hynix-2026",
@@ -719,7 +848,10 @@
       "relativePct": 8.7,
       "daysHeld": 12,
       "migration": true,
-      "benchmarkSymbol": "SMH"
+      "benchmarkSymbol": "SMH",
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -8.7,
+      "bookRelativePct": 8.7
     },
     {
       "reportId": "almonty-2026",
@@ -735,7 +867,10 @@
       "relativePct": -3.4,
       "daysHeld": 14,
       "migration": true,
-      "benchmarkSymbol": "SMH"
+      "benchmarkSymbol": "SMH",
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -9.7,
+      "bookRelativePct": -3.4
     },
     {
       "reportId": "bloom-energy-2026",
@@ -751,7 +886,10 @@
       "relativePct": -5.0,
       "daysHeld": 14,
       "migration": true,
-      "benchmarkSymbol": "SMH"
+      "benchmarkSymbol": "SMH",
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -9.7,
+      "bookRelativePct": -5.0
     },
     {
       "reportId": "neov-2026",
@@ -767,7 +905,10 @@
       "relativePct": 47.5,
       "daysHeld": 11,
       "migration": true,
-      "benchmarkSymbol": "SMH"
+      "benchmarkSymbol": "SMH",
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -5.1,
+      "bookRelativePct": 47.5
     },
     {
       "reportId": "copx-2026",
@@ -783,7 +924,10 @@
       "relativePct": 8.1,
       "daysHeld": 11,
       "migration": true,
-      "benchmarkSymbol": "SMH"
+      "benchmarkSymbol": "SMH",
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -5.1,
+      "bookRelativePct": 8.1
     },
     {
       "reportId": "amd-2026",
@@ -799,7 +943,10 @@
       "relativePct": 11.9,
       "daysHeld": 19,
       "migration": true,
-      "benchmarkSymbol": "SMH"
+      "benchmarkSymbol": "SMH",
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -11.9,
+      "bookRelativePct": 11.9
     },
     {
       "reportId": "oklo-2026",
@@ -815,7 +962,10 @@
       "relativePct": 1.2,
       "daysHeld": 10,
       "migration": true,
-      "benchmarkSymbol": "SMH"
+      "benchmarkSymbol": "SMH",
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -11.5,
+      "bookRelativePct": 1.2
     },
     {
       "reportId": "micron-2026",
@@ -831,7 +981,10 @@
       "relativePct": 0.0,
       "daysHeld": 0,
       "migration": true,
-      "benchmarkSymbol": "SMH"
+      "benchmarkSymbol": "SMH",
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": 0.0,
+      "bookRelativePct": 0.0
     },
     {
       "reportId": "vistra-2026",
@@ -847,7 +1000,10 @@
       "relativePct": 0.0,
       "daysHeld": 0,
       "migration": true,
-      "benchmarkSymbol": "SMH"
+      "benchmarkSymbol": "SMH",
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": 0.0,
+      "bookRelativePct": 0.0
     },
     {
       "reportId": "meta-2026",
@@ -863,7 +1019,10 @@
       "relativePct": 1.0,
       "daysHeld": 4,
       "migration": true,
-      "benchmarkSymbol": "SMH"
+      "benchmarkSymbol": "SMH",
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": 2.0,
+      "bookRelativePct": 1.0
     },
     {
       "reportId": "oracle-2026",
@@ -879,7 +1038,10 @@
       "relativePct": 0.5,
       "daysHeld": 4,
       "migration": true,
-      "benchmarkSymbol": "SMH"
+      "benchmarkSymbol": "SMH",
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": 2.0,
+      "bookRelativePct": 0.5
     },
     {
       "reportId": "marvell-2026",
@@ -895,7 +1057,10 @@
       "relativePct": 0.0,
       "daysHeld": 0,
       "migration": true,
-      "benchmarkSymbol": "SMH"
+      "benchmarkSymbol": "SMH",
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": 0.0,
+      "bookRelativePct": 0.0
     },
     {
       "reportId": "coherent-2026",
@@ -911,7 +1076,10 @@
       "relativePct": 0.0,
       "daysHeld": 0,
       "migration": true,
-      "benchmarkSymbol": "SMH"
+      "benchmarkSymbol": "SMH",
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": 0.0,
+      "bookRelativePct": 0.0
     },
     {
       "reportId": "digital-realty-2026",
@@ -927,7 +1095,10 @@
       "relativePct": 0.0,
       "daysHeld": 0,
       "migration": true,
-      "benchmarkSymbol": "SMH"
+      "benchmarkSymbol": "SMH",
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": 0.0,
+      "bookRelativePct": 0.0
     }
   ]
 }

@@ -57,6 +57,9 @@ def verdict_entry(report_id: str, benchmark_symbol: str = "SMH") -> dict[str, vv
         "changePct": 20.0,
         "benchmarkChangePct": 5.0,
         "relativePct": 15.0,
+        "bookBenchmarkSymbol": "SMH",
+        "bookBenchmarkChangePct": 5.0,
+        "bookRelativePct": 15.0,
         "daysHeld": 5,
         "stale": False,
     }
@@ -75,6 +78,9 @@ def closed_entry(report_id: str, benchmark_symbol: str, migration: bool) -> dict
         "changePct": 10.0,
         "benchmarkChangePct": 4.0,
         "relativePct": 6.0,
+        "bookBenchmarkSymbol": "SMH",
+        "bookBenchmarkChangePct": 4.0,
+        "bookRelativePct": 6.0,
         "daysHeld": 10,
         "migration": migration,
         "benchmarkSymbol": benchmark_symbol,
@@ -126,7 +132,21 @@ class CoverageTests(unittest.TestCase):
         stale["lastClose"] = 11.0
         stale["changePct"] = 10.0
         stale["relativePct"] = 5.0
+        stale["bookRelativePct"] = 5.0
         expect_fail(self, verdicts([stale]), reports, options(prices("alpha"), reports))
+
+    def test_scored_open_entry_requires_book_level_smh_reference(self):
+        reports = [report("nrg", chainLayer="power", priceSymbol="NRG")]
+        missing = copy.deepcopy(verdict_entry("nrg", "XLU"))
+        del missing["bookRelativePct"]
+        expect_fail(self, verdicts([missing]), reports, options(prices("nrg"), reports))
+
+    def test_book_level_relative_must_match_book_benchmark(self):
+        reports = [report("nrg", chainLayer="power", priceSymbol="NRG")]
+        broken = copy.deepcopy(verdict_entry("nrg", "XLU"))
+        broken["bookBenchmarkChangePct"] = 9.0
+        broken["bookRelativePct"] = 15.0
+        expect_fail(self, verdicts([broken]), reports, options(prices("nrg"), reports))
 
 
 class BenchmarkSymbolTests(unittest.TestCase):

@@ -82,8 +82,35 @@ class OpenCallTests(unittest.TestCase):
         self.assertEqual(entry["changePct"], 3.2)  # (1825.07-1769.32)/1769.32
         self.assertEqual(entry["benchmarkChangePct"], 2.0)  # (604.30-592.29)/592.29
         self.assertEqual(entry["relativePct"], 1.2)
+        self.assertEqual(entry["bookBenchmarkSymbol"], "SMH")
+        self.assertEqual(entry["bookBenchmarkChangePct"], 2.0)
+        self.assertEqual(entry["bookRelativePct"], 1.2)
         self.assertEqual(entry["daysHeld"], 4)
         self.assertFalse(entry["stale"])
+
+    def test_open_call_keeps_book_level_smh_reference(self):
+        benchmarks = {
+            "SMH": series("SMH", (date(2026, 7, 2), 500.0), (date(2026, 7, 6), 550.0)),
+            "XLU": series("XLU", (date(2026, 7, 2), 80.0), (date(2026, 7, 6), 84.0)),
+        }
+        report = {
+            "id": "nrg-2026",
+            "stance": "cautious",
+            "conviction": "medium",
+            "stanceHistory": [
+                {"date": "2026-07-02", "stance": "cautious", "conviction": "medium", "price": 100.0}
+            ],
+        }
+        price_entry = {"lastClose": 120.0, "lastDate": "2026-07-06"}
+
+        entry = uv.open_call_entry(report, price_entry, benchmarks, "XLU", date(2026, 7, 8))
+
+        self.assertEqual(entry["benchmarkSymbol"], "XLU")
+        self.assertEqual(entry["benchmarkChangePct"], 5.0)
+        self.assertEqual(entry["relativePct"], 15.0)
+        self.assertEqual(entry["bookBenchmarkSymbol"], "SMH")
+        self.assertEqual(entry["bookBenchmarkChangePct"], 10.0)
+        self.assertEqual(entry["bookRelativePct"], 10.0)
 
     def test_missing_price_yields_no_price_status(self):
         entry = uv.open_call_entry(self.report, None, self.benchmarks, "SMH", date(2026, 7, 8))
@@ -139,7 +166,10 @@ class ClosedIntervalTests(unittest.TestCase):
 
     def test_real_flip_uses_layer_benchmark(self):
         # A non-migration interval (both ends have conviction) scores vs the passed symbol.
-        benchmarks = {"XLU": series("XLU", (date(2026, 6, 22), 80.0), (date(2026, 7, 2), 84.0))}
+        benchmarks = {
+            "SMH": series("SMH", (date(2026, 6, 22), 500.0), (date(2026, 7, 2), 550.0)),
+            "XLU": series("XLU", (date(2026, 6, 22), 80.0), (date(2026, 7, 2), 84.0)),
+        }
         report = {
             "id": "nrg-2026",
             "stanceHistory": [
@@ -151,6 +181,9 @@ class ClosedIntervalTests(unittest.TestCase):
         self.assertFalse(row["migration"])
         self.assertEqual(row["benchmarkSymbol"], "XLU")
         self.assertEqual(row["benchmarkChangePct"], 5.0)  # (84-80)/80
+        self.assertEqual(row["bookBenchmarkSymbol"], "SMH")
+        self.assertEqual(row["bookBenchmarkChangePct"], 10.0)
+        self.assertEqual(row["bookRelativePct"], 0.0)
 
 
 if __name__ == "__main__":

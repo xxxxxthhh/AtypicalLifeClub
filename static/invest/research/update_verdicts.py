@@ -60,6 +60,10 @@ def pct_change(start: float, end: float) -> float:
     return round((end - start) / start * 100, 1)
 
 
+def benchmark_change_pct(series: "BenchmarkSeries", start_date: date, end_date: date) -> float:
+    return pct_change(series.close_on_or_before(start_date), series.close_on_or_before(end_date))
+
+
 @dataclass(frozen=True, slots=True)
 class BenchmarkSeries:
     symbol: str
@@ -194,11 +198,8 @@ def open_call_entry(
         entry["stale"] = False
         return entry
     change_pct = pct_change(price_at_stance, last_close)
-    benchmark = benchmarks[benchmark_symbol]
-    benchmark_change = pct_change(
-        benchmark.close_on_or_before(stance_date),
-        benchmark.close_on_or_before(last_date),
-    )
+    benchmark_change = benchmark_change_pct(benchmarks[benchmark_symbol], stance_date, last_date)
+    book_benchmark_change = benchmark_change_pct(benchmarks[LEGACY_BENCHMARK], stance_date, last_date)
     days_held = (last_date - stance_date).days
     entry.update(
         {
@@ -207,6 +208,9 @@ def open_call_entry(
             "changePct": change_pct,
             "benchmarkChangePct": benchmark_change,
             "relativePct": round(change_pct - benchmark_change, 1),
+            "bookBenchmarkSymbol": LEGACY_BENCHMARK,
+            "bookBenchmarkChangePct": book_benchmark_change,
+            "bookRelativePct": round(change_pct - book_benchmark_change, 1),
             "daysHeld": days_held,
             "stale": days_held > STALE_DAYS and monitoring_overdue(report, today),
         }
@@ -228,16 +232,13 @@ def closed_interval_entries(
         # regardless of the report's current per-layer benchmark. Real (post-v6)
         # flips score against the report's resolved benchmark.
         interval_symbol = LEGACY_BENCHMARK if migration else benchmark_symbol
-        benchmark = benchmarks[interval_symbol]
         start_date = parse_day(start.get("date"), f"{report['id']}.stanceHistory.date")
         end_date = parse_day(end.get("date"), f"{report['id']}.stanceHistory.date")
         start_price = float(start["price"])
         end_price = float(end["price"])
         change_pct = pct_change(start_price, end_price)
-        benchmark_change = pct_change(
-            benchmark.close_on_or_before(start_date),
-            benchmark.close_on_or_before(end_date),
-        )
+        benchmark_change = benchmark_change_pct(benchmarks[interval_symbol], start_date, end_date)
+        book_benchmark_change = benchmark_change_pct(benchmarks[LEGACY_BENCHMARK], start_date, end_date)
         intervals.append(
             {
                 "reportId": report["id"],
@@ -251,6 +252,9 @@ def closed_interval_entries(
                 "changePct": change_pct,
                 "benchmarkChangePct": benchmark_change,
                 "relativePct": round(change_pct - benchmark_change, 1),
+                "bookBenchmarkSymbol": LEGACY_BENCHMARK,
+                "bookBenchmarkChangePct": book_benchmark_change,
+                "bookRelativePct": round(change_pct - book_benchmark_change, 1),
                 "daysHeld": (end_date - start_date).days,
                 "migration": migration,
                 "benchmarkSymbol": interval_symbol,
@@ -298,6 +302,7 @@ def main() -> None:
     needed_symbols: set[str] = set()
     for r in chain:
         needed_symbols.add(resolve_benchmark_symbol(r, benchmarks_cfg))
+    needed_symbols.add(LEGACY_BENCHMARK)
     # Migration intervals are grandfathered to SMH (closed_interval_entries), so
     # ensure that series is fetched even if no open call resolves to it.
     if any(
