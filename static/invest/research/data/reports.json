@@ -1851,6 +1851,11 @@
     "company": "Vertiv",
     "ticker": "NYSE: VRT",
     "priceSymbol": "VRT",
+    "benchmarkSymbol": "SMH",
+    "benchmarkRationale": {
+      "zh": "VRT 是数据中心电力/散热设备制造商，不是 REIT；其所在 datacenter-facility 层默认基准 SRVR（数据中心 REIT 篮子）口径不符。改用书本默认 SMH，衡量这台 AI 建设『仪表盘』相对半导体核心 beta 的增值。",
+      "en": "VRT is a data-center power/cooling equipment maker, not a REIT, so the datacenter-facility layer default (SRVR, a data-center REIT basket) is the wrong yardstick. Scored against the book default SMH instead, to measure this AI-buildout dashboard against the semiconductor core beta."
+    },
     "title": "Vertiv 深度研究报告 - AI 数据中心电力与散热的卖铲人（建设速度仪表盘）",
     "titleEn": "Vertiv Deep Research Report - The Power & Cooling Pick-and-Shovel of AI Data Centers (Buildout Dashboard)",
     "summary": "数据中心电力与热管理（含液冷）卖铲人，位于『电从哪来』(GEV/Bloom)与『芯片』(NVDA/AVGO)之间，是 AI 建设速度最实时的『仪表盘』。Q1 2026 营收$26.5亿(+30%，有机+23%、美洲有机+44%)、调整后营业利润率20.8%(+430bps)、调整后EPS $1.17(+83%)、调整后FCF $6.53亿(+147%)；最新披露的 Q4 2025 backlog $150亿(+109%)、book-to-bill ~2.9x。FY2026指引上调至营收$135-140亿、调整后EPS $6.30-6.40。但股价一年约3倍至$306.97、市值~$1,179亿、~48倍前瞻调整后EPS(~80倍滚动)，已定价多年持续建设；高beta订单簿是双刃剑。谨慎 / 中确信：高质量业务，但价格隐含几乎完美的建设节奏。",
@@ -3816,6 +3821,11 @@
     "company": "COPX (Global X Copper Miners ETF)",
     "ticker": "NYSEARCA: COPX",
     "priceSymbol": "COPX",
+    "benchmarkSymbol": "SMH",
+    "benchmarkRationale": {
+      "zh": "COPX 在书里承担 AI 电气化的资源腿，resources 层默认基准就是 COPX 本身——自我基准会永远算成 0。改用书本默认 SMH，衡量这条资源腿相对半导体核心 beta 的增值；这不是『铜相对铜矿指数』的同类比较。",
+      "en": "COPX is the resources-side expression of AI electrification in this book, and the resources layer default is COPX itself — self-benchmarking would score 0.0 forever. Scored against the book default SMH instead, to measure this resources leg against the semiconductor core beta; the question is not copper-vs-copper-miners."
+    },
     "title": "COPX 深度研究报告 - 铜超级周期的杠杆化敞口",
     "titleEn": "COPX Deep Research Report - Leveraged Exposure to the Copper Supercycle",
     "summary": "全球最大纯铜矿ETF。2026-06-25增量更新：COPX约$76.92、AUM增至$79.9亿(+8%)，加权P/E从30-35x压缩至17.74x（盈利兑现）。铜价突破二月bull case上沿至~$13,531/吨($6.14/lb)，但price基本持平反映关税不确定性。YTD回报从+20.14%回落至+5.45%。COMEX溢价和232条款审查是短期核心变量。",

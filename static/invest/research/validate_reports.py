@@ -79,6 +79,10 @@ ENFORCE_COVERAGE_TIER = True
 # the flag — only the presence/migration requirements are gated (same rollout pattern
 # as ENFORCE_CHAIN_ENRICHMENT).
 ENFORCE_STANCE_V2 = True
+# v6 (docs/research-hub-v6-plan.md §2.1): benchmarks.json sits next to reports.json
+# and drives per-layer benchmark resolution. validate_benchmarks_config() enforces
+# the schema; the resolution mirror lives in update_verdicts.py / validate_verdicts.py.
+BENCHMARKS_JSON = ROOT / "data" / "benchmarks.json"
 
 
 def fail(message):
@@ -328,6 +332,55 @@ def is_current_chain_report(report):
     return bool(report.get("chainLayer")) and report.get("isCurrent") is not False
 
 
+def _resolved_benchmark_default(report, benchmarks_cfg):
+    if not isinstance(benchmarks_cfg, dict):
+        return None
+    layer = report.get("chainLayer")
+    if isinstance(layer, str):
+        layer_defaults = benchmarks_cfg.get("layerDefaults")
+        if isinstance(layer_defaults, dict):
+            sym = layer_defaults.get(layer)
+            if isinstance(sym, str) and sym:
+                return sym
+    default = benchmarks_cfg.get("default")
+    return default if isinstance(default, str) else None
+
+
+def validate_benchmarks_config(benchmarks_cfg):
+    if not isinstance(benchmarks_cfg, dict):
+        fail("benchmarks.json must be an object")
+    default = benchmarks_cfg.get("default")
+    ensure_non_empty_string(default, "benchmarks.json.default")
+    layer_defaults = benchmarks_cfg.get("layerDefaults")
+    if layer_defaults is not None:
+        if not isinstance(layer_defaults, dict):
+            fail("benchmarks.json.layerDefaults must be an object when present")
+        for layer, sym in layer_defaults.items():
+            if not isinstance(layer, str) or not layer:
+                fail(f"benchmarks.json.layerDefaults has non-string key: {layer!r}")
+            if not isinstance(sym, str) or not sym:
+                fail(f"benchmarks.json.layerDefaults[{layer!r}] must be a non-empty string")
+    symbols = benchmarks_cfg.get("symbols")
+    if not isinstance(symbols, dict) or not symbols:
+        fail("benchmarks.json.symbols must be a non-empty object")
+    used = {default}
+    if isinstance(layer_defaults, dict):
+        used |= set(layer_defaults.values())
+    for sym in used:
+        if sym not in symbols:
+            fail(f"benchmarks.json: symbol '{sym}' is used (default or layerDefault) but not defined in .symbols")
+    for sym, meta in symbols.items():
+        if not isinstance(sym, str) or not sym:
+            fail(f"benchmarks.json.symbols has non-string key: {sym!r}")
+        if not isinstance(meta, dict) or "name" not in meta:
+            fail(f"benchmarks.json.symbols[{sym!r}] must have a 'name' object")
+        name = meta["name"]
+        if not isinstance(name, dict) or "zh" not in name or "en" not in name:
+            fail(f"benchmarks.json.symbols[{sym!r}].name must have {{zh, en}}")
+        for lang in ("zh", "en"):
+            ensure_non_empty_string(name[lang], f"benchmarks.json.symbols[{sym!r}].name.{lang}")
+
+
 def is_etf_report(report):
     return "ETF" in report.get("tags", [])
 
@@ -413,7 +466,7 @@ def validate_coverage_tier(report, report_idx):
             )
 
 
-def validate_enrichment_fields(report, report_idx, reports_by_id):
+def validate_enrichment_fields(report, report_idx, reports_by_id, benchmarks_cfg):
     if "priceSymbol" in report:
         ensure_non_empty_string(report["priceSymbol"], f"report[{report_idx}].priceSymbol")
         if not PRICE_SYMBOL_RE.fullmatch(report["priceSymbol"]):
@@ -444,6 +497,40 @@ def validate_enrichment_fields(report, report_idx, reports_by_id):
     # consumed by the Track 3 price pipeline later.
     if "benchmark" in report and not isinstance(report["benchmark"], bool):
         fail(f"report[{report_idx}].benchmark must be a boolean when present")
+
+    # v6 (docs/research-hub-v6-plan.md §2.1): per-report benchmark override. Only
+    # meaningful on current-chain reports; when it differs from the layer/book
+    # default it must carry a bilingual rationale (the audit trail against
+    # benchmark shopping). Rationale without an override is an orphan.
+    if "benchmarkSymbol" in report:
+        ensure_non_empty_string(report["benchmarkSymbol"], f"report[{report_idx}].benchmarkSymbol")
+        symbols = benchmarks_cfg.get("symbols") if isinstance(benchmarks_cfg, dict) else None
+        if isinstance(symbols, dict) and report["benchmarkSymbol"] not in symbols:
+            fail(
+                f"report[{report_idx}].benchmarkSymbol '{report['benchmarkSymbol']}' "
+                "is not defined in benchmarks.json.symbols"
+            )
+        if is_current_chain_report(report):
+            resolved_default = _resolved_benchmark_default(report, benchmarks_cfg)
+            if report["benchmarkSymbol"] != resolved_default:
+                rationale = report.get("benchmarkRationale")
+                if not isinstance(rationale, dict) or "zh" not in rationale or "en" not in rationale:
+                    fail(
+                        f"report[{report_idx}] ({report['id']}) benchmarkSymbol "
+                        f"'{report['benchmarkSymbol']}' overrides the resolved default "
+                        f"'{resolved_default}' and must carry benchmarkRationale.{{zh,en}}"
+                    )
+                validate_bilingual_text(rationale, f"report[{report_idx}].benchmarkRationale")
+        else:
+            fail(
+                f"report[{report_idx}] ({report['id']}) has benchmarkSymbol but is not a "
+                "current-chain report; the override is only meaningful on chain reports"
+            )
+    elif "benchmarkRationale" in report:
+        fail(
+            f"report[{report_idx}] ({report['id']}) has benchmarkRationale without a "
+            "benchmarkSymbol override"
+        )
 
     if "priceAsOf" in report:
         ensure_non_empty_string(report["priceAsOf"], f"report[{report_idx}].priceAsOf")
@@ -521,6 +608,17 @@ def main():
             fail(f"duplicate report id: {report_id}")
         reports_by_id[report_id] = report
 
+    # v6 (docs/research-hub-v6-plan.md §2.1): benchmarks.json drives per-report
+    # override validation below.
+    if not BENCHMARKS_JSON.exists():
+        fail(f"missing file: {BENCHMARKS_JSON}")
+    with open(BENCHMARKS_JSON, "r", encoding="utf-8") as file:
+        try:
+            benchmarks_cfg = json.load(file)
+        except json.JSONDecodeError as exc:
+            fail(f"invalid JSON in {BENCHMARKS_JSON}: {exc}")
+    validate_benchmarks_config(benchmarks_cfg)
+
     for idx, report in enumerate(reports):
         for field in REQUIRED_FIELDS:
             if field not in report:
@@ -578,7 +676,7 @@ def main():
             )
 
         validate_version_metadata(report, idx, reports_by_id)
-        validate_enrichment_fields(report, idx, reports_by_id)
+        validate_enrichment_fields(report, idx, reports_by_id, benchmarks_cfg)
 
     validate_price_symbol_uniqueness(reports)
     print(f"OK: validated {len(reports)} reports in {REPORTS_JSON}")

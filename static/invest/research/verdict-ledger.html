@@ -192,34 +192,39 @@
         const VERDICTS_DATA_URL = "/invest/research/data/verdicts.json";
 
         const STANCE_ORDER = ["bullish", "constructive", "neutral-watch", "cautious", "bearish-avoid"];
+        // Book-default benchmark: aggregate stats stay within this one bucket until PR-2
+        // ships the per-benchmark breakdown (spec §2.3).
+        const BOOK_BENCHMARK = "SMH";
 
         const PAGE_LABELS = {
             zh: {
                 documentTitle: "判断记录 | Atypical Life Club",
                 pageKicker: "判断记录 · 研究台账",
                 pageTitle: "判断记录",
-                pageSubtitle: "每一个公开立场都相对 SMH 基准、在同一时间窗内打分，让判断留下可复盘的记录。",
-                factNote: "相对 SMH 的超额收益就是分数：即便绝对上涨，跑输基准也算 miss。迁移行（legacy→v5 改标）会展示但不计入校准。不使用红绿灯——方向由正负号表达。",
-                shellSubtitle: "立场记录 vs SMH",
+                pageSubtitle: "每一个公开立场都相对其分层基准、在同一时间窗内打分，让判断留下可复盘的记录。",
+                factNote: "相对各报告基准的超额收益就是分数：即便绝对上涨，跑输基准也算 miss。每行标注所用基准；聚合统计暂只覆盖 SMH 桶（分层拆分后续上线）。迁移行（legacy→v5 改标）仍按 SMH 计。不使用红绿灯——方向由正负号表达。",
+                shellSubtitle: "立场记录 vs 基准",
                 navBack: "返回研报中心",
                 navMonitoring: "监控仪表盘",
-                statBenchmark: "基准",
+                statBenchmark: "书本默认",
                 statScored: "已计分",
-                statMedian: "相对中位数",
-                statBeat: "跑赢基准",
+                statMedian: "相对中位数 · SMH",
+                statBeat: "跑赢 SMH",
                 openHeading: "在场判断",
-                openIntro: "在场仓位：每篇报告的当前立场自 stance 日期以来相对 SMH 的表现，可按相对幅度排序。",
+                openIntro: "在场仓位：每篇报告的当前立场自 stance 日期以来相对其基准的表现，可按相对幅度排序。",
                 closedHeading: "已闭合区间",
                 closedIntro: "来自 stanceHistory 的已完成立场窗口。legacy→v5 改标标注为 migration，不计为一次判断。",
                 calibHeading: "校准",
-                calibIntro: "统计已计分判断（在场 + 非 migration 的已闭合区间）：各立场相对中位数，以及非中性判断跑赢 SMH 的比例。",
+                calibIntro: "统计 SMH 桶内的已计分判断（在场 + 非 migration 的已闭合区间）：各立场相对中位数，以及非中性判断跑赢 SMH 的比例。",
                 colReport: "报告",
                 colStance: "立场",
                 colStanceDate: "立场日期",
                 colPriceAtStance: "立场价",
                 colNow: "最新",
                 colChange: "涨跌",
-                colRelative: "相对 SMH",
+                colRelative: "相对基准",
+                colBenchmark: "基准",
+                bucketNote: (sym) => `仅 ${sym} 桶 · 分层拆分后续上线`,
                 colDays: "持有天数",
                 colFlag: "状态",
                 colWindow: "窗口",
@@ -246,28 +251,30 @@
                 documentTitle: "Verdict Ledger | Atypical Life Club",
                 pageKicker: "Verdict Ledger · Research Ledger",
                 pageTitle: "Verdict Ledger",
-                pageSubtitle: "Every published stance scored against the SMH benchmark over the same window, so opinions carry a track record.",
-                factNote: "Relative return vs SMH is the score; a call that trails the benchmark is a miss even when it is up. Migration rows (the legacy→v5 re-labelling) are shown but excluded from calibration. No red/green — the sign carries direction.",
-                shellSubtitle: "Stance track record vs SMH",
+                pageSubtitle: "Every published stance scored against its per-layer benchmark over the same window, so opinions carry a track record.",
+                factNote: "Relative return vs each report's benchmark is the score; a call that trails its benchmark is a miss even when it is up. Every row is labeled with its benchmark; aggregate stats cover the SMH bucket only for now (per-benchmark breakdown coming). Migration rows (the legacy→v5 re-labelling) stay scored vs SMH. No red/green — the sign carries direction.",
+                shellSubtitle: "Stance track record vs benchmark",
                 navBack: "Back to Research",
                 navMonitoring: "Monitoring",
-                statBenchmark: "Benchmark",
+                statBenchmark: "Book default",
                 statScored: "Scored",
-                statMedian: "Median relative",
-                statBeat: "Beating benchmark",
+                statMedian: "Median relative · SMH",
+                statBeat: "Beating SMH",
                 openHeading: "Open Calls",
-                openIntro: "Live positions: each report's current stance vs SMH since the stance date. Sortable by relative delta.",
+                openIntro: "Live positions: each report's current stance vs its benchmark since the stance date. Sortable by relative delta.",
                 closedHeading: "Closed Intervals",
                 closedIntro: "Completed stance windows from stanceHistory. Legacy→v5 re-labellings are flagged \"migration\" and do not count as calls.",
                 calibHeading: "Calibration",
-                calibIntro: "Scored calls (open calls plus non-migration closed intervals): median relative delta per stance and the share of non-neutral calls beating SMH.",
+                calibIntro: "Scored calls in the SMH bucket (open calls plus non-migration closed intervals): median relative delta per stance and the share of non-neutral calls beating SMH.",
                 colReport: "Report",
                 colStance: "Stance",
                 colStanceDate: "Stance date",
                 colPriceAtStance: "Price@stance",
                 colNow: "Now",
                 colChange: "Change",
-                colRelative: "vs SMH",
+                colRelative: "vs benchmark",
+                colBenchmark: "Benchmark",
+                bucketNote: (sym) => `${sym} bucket · per-benchmark breakdown coming`,
                 colDays: "Days",
                 colFlag: "State",
                 colWindow: "Window",
@@ -362,31 +369,43 @@
             return state.open.filter((e) => typeof e.relativePct === "number");
         }
 
-        function calibrationCalls() {
+        // All scored calls (any benchmark) — open scored + non-migration closed.
+        // Each keeps its benchmarkSymbol so downstream never averages across yardsticks.
+        function allScoredCalls() {
             const openCalls = scoredOpen().map((entry) => ({
                 stance: entry.stance,
-                relativePct: entry.relativePct
+                relativePct: entry.relativePct,
+                benchmarkSymbol: entry.benchmarkSymbol
             }));
             const closedCalls = state.closed
                 .filter((entry) => !entry.migration && typeof entry.relativePct === "number")
                 .map((entry) => ({
                     stance: entry.fromStance,
-                    relativePct: entry.relativePct
+                    relativePct: entry.relativePct,
+                    benchmarkSymbol: entry.benchmarkSymbol
                 }));
             return openCalls.concat(closedCalls);
+        }
+
+        // v6 PR-1: medians/beat-rates are only comparable within one yardstick, so
+        // the aggregate stats are restricted to the book-default (SMH) bucket until
+        // PR-2 ships the per-benchmark breakdown. Per-row deltas (self-labeled with
+        // their benchmark) are shown for every call regardless of bucket.
+        function bookBucketCalls() {
+            return allScoredCalls().filter((e) => e.benchmarkSymbol === BOOK_BENCHMARK);
         }
 
         function renderStats() {
             const labels = getLabels();
             const root = document.getElementById("ledgerStats");
-            const scored = calibrationCalls();
-            const nonNeutral = scored.filter((e) => e.stance !== "neutral-watch");
+            const bucket = bookBucketCalls();
+            const nonNeutral = bucket.filter((e) => e.stance !== "neutral-watch");
             const beats = nonNeutral.filter((e) => e.relativePct > 0).length;
-            const medianRel = scored.length ? median(scored.map((e) => e.relativePct)) : null;
+            const medianRel = bucket.length ? median(bucket.map((e) => e.relativePct)) : null;
             const beatPct = nonNeutral.length ? `${Math.round((beats / nonNeutral.length) * 100)}%` : "—";
             const cards = [
                 [state.benchmark, labels.statBenchmark],
-                [String(scored.length), labels.statScored],
+                [String(allScoredCalls().length), labels.statScored],
                 [medianRel === null ? "—" : signedPct(medianRel), labels.statMedian],
                 [beatPct, labels.statBeat]
             ];
@@ -411,13 +430,14 @@
                     <th class="num">${escapeHtml(labels.colNow)}</th>
                     <th class="num">${escapeHtml(labels.colChange)}</th>
                     <th class="num sortable" id="sortRelative" role="columnheader" aria-sort="${state.openSortDir === "desc" ? "descending" : "ascending"}">${escapeHtml(labels.colRelative)}</th>
+                    <th>${escapeHtml(labels.colBenchmark)}</th>
                     <th class="num">${escapeHtml(labels.colDays)}</th>
                     <th>${escapeHtml(labels.colFlag)}</th>
                 </tr>`;
 
             const rows = state.open.slice().sort(openSorter);
             if (!rows.length) {
-                body.innerHTML = `<tr><td colspan="9" class="muted-cell">${escapeHtml(labels.emptyOpen)}</td></tr>`;
+                body.innerHTML = `<tr><td colspan="10" class="muted-cell">${escapeHtml(labels.emptyOpen)}</td></tr>`;
                 return;
             }
             body.innerHTML = rows.map((entry) => {
@@ -432,6 +452,7 @@
                         <td class="num">${scored ? formatPrice(entry.lastClose) : "—"}</td>
                         <td class="num">${scored ? deltaCell(entry.changePct) : "<span class=\"muted-cell\">—</span>"}</td>
                         <td class="num">${scored ? deltaCell(entry.relativePct) : "<span class=\"muted-cell\">—</span>"}</td>
+                        <td>${benchmarkTag(entry.benchmarkSymbol)}</td>
                         <td class="num">${Number.isFinite(entry.daysHeld) ? entry.daysHeld : "—"}</td>
                         <td>${statusTag(entry, scored)}</td>
                     </tr>`;
@@ -469,10 +490,11 @@
                     <th class="num">${escapeHtml(labels.colDays)}</th>
                     <th class="num">${escapeHtml(labels.colChange)}</th>
                     <th class="num">${escapeHtml(labels.colRelative)}</th>
+                    <th>${escapeHtml(labels.colBenchmark)}</th>
                     <th>${escapeHtml(labels.colFlag)}</th>
                 </tr>`;
             if (!state.closed.length) {
-                body.innerHTML = `<tr><td colspan="7" class="muted-cell">${escapeHtml(labels.emptyClosed)}</td></tr>`;
+                body.innerHTML = `<tr><td colspan="8" class="muted-cell">${escapeHtml(labels.emptyClosed)}</td></tr>`;
                 return;
             }
             const rows = state.closed.slice().sort((a, b) => (a.startDate < b.startDate ? 1 : -1));
@@ -486,6 +508,7 @@
                         <td class="num">${Number.isFinite(row.daysHeld) ? row.daysHeld : "—"}</td>
                         <td class="num">${deltaCell(row.changePct)}</td>
                         <td class="num">${deltaCell(row.relativePct)}</td>
+                        <td>${benchmarkTag(row.benchmarkSymbol)}</td>
                         <td>${row.migration ? `<span class="flag-tag">${escapeHtml(labels.migrationTag)}</span>` : ""}</td>
                     </tr>`;
             }).join("");
@@ -495,7 +518,7 @@
             const labels = getLabels();
             const grid = document.getElementById("calibrationGrid");
             const note = document.getElementById("calibrationNote");
-            const scored = calibrationCalls();
+            const scored = bookBucketCalls();
             if (!scored.length) {
                 grid.innerHTML = "";
                 note.textContent = labels.calibNoScored;
@@ -520,7 +543,7 @@
             const nonNeutral = scored.filter((e) => e.stance !== "neutral-watch");
             const beats = nonNeutral.filter((e) => e.relativePct > 0).length;
             const pct = nonNeutral.length ? `${Math.round((beats / nonNeutral.length) * 100)}%` : "—";
-            note.textContent = labels.calibBeat(beats, nonNeutral.length, pct);
+            note.textContent = `${labels.calibBeat(beats, nonNeutral.length, pct)} · ${labels.bucketNote(BOOK_BENCHMARK)}`;
         }
 
         // ─── helpers ───
@@ -541,6 +564,11 @@
         function stanceName(stance) {
             const labels = getLabels();
             return labels.stances[stance] || stance || "—";
+        }
+
+        function benchmarkTag(symbol) {
+            if (!symbol) return `<span class="muted-cell">—</span>`;
+            return `<span class="flag-tag">${escapeHtml(symbol)}</span>`;
         }
 
         function statusTag(entry, scored) {

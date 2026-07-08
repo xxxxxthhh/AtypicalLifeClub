@@ -32,12 +32,17 @@ CONVICTION_VALUES: Final = {"high", "medium", "low"}
 PCT_TOLERANCE: Final = 0.15
 PRICE_TOLERANCE: Final = 0.0001
 STRICT_COVERAGE_FLAG: Final = "--strict-coverage"
+# v6 (docs/research-hub-v6-plan.md §2.1): per-layer benchmark resolution.
+BENCHMARKS_JSON: Final = ROOT / "data" / "benchmarks.json"
+LEGACY_BENCHMARK: Final = "SMH"  # migration intervals are grandfathered to this (§2.2)
 
 
 @dataclass(frozen=True, slots=True)
 class ValidationOptions:
     prices: Json
     strict_coverage: bool
+    benchmarks: Json  # parsed benchmarks.json for resolution recompute + self-ban
+    reports_by_id: dict[str, dict[str, Json]]
 
 
 @dataclass(slots=True)
@@ -45,6 +50,8 @@ class OpenEntryValidationState:
     chain_ids: set[str]
     seen: set[str]
     price_entries: dict[str, dict[str, Json]]
+    benchmarks: Json
+    reports_by_id: dict[str, dict[str, Json]]
 
 
 def fail(message: str) -> None:
@@ -145,6 +152,69 @@ def current_chain_ids(reports: list[Json]) -> set[str]:
     return ids
 
 
+def reports_by_id_map(reports: list[Json]) -> dict[str, dict[str, Json]]:
+    result: dict[str, dict[str, Json]] = {}
+    for item in reports:
+        if isinstance(item, dict) and isinstance(item.get("id"), str):
+            result[item["id"]] = item
+    return result
+
+
+def resolve_benchmark_symbol(report: dict[str, Json], benchmarks: Json) -> str:
+    """Mirror of update_verdicts.resolve_benchmark_symbol for validator use."""
+    bench = require_dict(benchmarks, "benchmarks.json")
+    override = report.get("benchmarkSymbol")
+    if isinstance(override, str) and override:
+        return override
+    layer = report.get("chainLayer")
+    if isinstance(layer, str):
+        layer_defaults = bench.get("layerDefaults")
+        if isinstance(layer_defaults, dict):
+            sym = layer_defaults.get(layer)
+            if isinstance(sym, str) and sym:
+                return sym
+    return require_string(bench.get("default"), "benchmarks.json.default")
+
+
+def is_current_chain_report(report: dict[str, Json]) -> bool:
+    return bool(report.get("chainLayer")) and report.get("isCurrent") is not False
+
+
+def validate_benchmark_symbol(
+    entry: dict[str, Json],
+    report_id: str,
+    label: str,
+    state: OpenEntryValidationState,
+    expected: str | None = None,
+) -> None:
+    """v6 §2.1: benchmarkSymbol required on scored entries, equals the expected
+    resolution, self-benchmark ban scoped to current-chain reports (benchmark-only
+    sleeves exempt). `expected` defaults to the report's resolved benchmark; callers
+    override it for grandfathered migration intervals (spec §2.2 → SMH)."""
+    bench_sym = require_string(entry.get("benchmarkSymbol"), f"{label}.benchmarkSymbol")
+    report = state.reports_by_id.get(report_id)
+    if report is None:
+        fail(f"{label}.reportId not found in reports.json: {report_id}")
+    if expected is None:
+        expected = resolve_benchmark_symbol(report, state.benchmarks)
+    if bench_sym != expected:
+        fail(
+            f"{label}.benchmarkSymbol ({bench_sym}) does not match expected "
+            f"benchmark for {report_id} ({expected})"
+        )
+    # Self-benchmark ban: a current-chain scored report must not resolve to its
+    # own priceSymbol (copx-2026 would otherwise self-score 0.0 forever). The
+    # ban is scoped via is_current_chain_report so benchmark-only sleeves
+    # (smh-2026: benchmark:true, priceSymbol:SMH, no chainLayer) are exempt.
+    if is_current_chain_report(report):
+        price_symbol = report.get("priceSymbol")
+        if isinstance(price_symbol, str) and price_symbol and bench_sym == price_symbol:
+            fail(
+                f"{label}.benchmarkSymbol for {report_id} equals its own "
+                f"priceSymbol ({bench_sym}) — self-benchmark banned (§2.1)"
+            )
+
+
 def validate_open_entry(
     entry: dict[str, Json],
     index: int,
@@ -162,6 +232,11 @@ def validate_open_entry(
     require_enum(entry.get("conviction"), CONVICTION_VALUES, f"{label}.conviction")
     stance_date = parse_date(entry.get("stanceDate"), f"{label}.stanceDate")
     require_positive_number(entry.get("priceAtStance"), f"{label}.priceAtStance")
+
+    # v6 §2.1: benchmarkSymbol required on every entry (resolution is a static
+    # function of the report, not the price state); validate consistency +
+    # self-ban here.
+    validate_benchmark_symbol(entry, report_id, label, state)
 
     # "no-price" (tracker has no close) and "pending" (call newer than the latest
     # close) both carry no scorable delta yet — spec §4.1a / §4.2.
@@ -197,11 +272,20 @@ def validate_open_entry(
         fail(f"{label}.lastClose does not match prices.json for {report_id}: {last_close} vs {price_last_close}")
 
 
-def validate_closed_entry(entry: dict[str, Json], index: int, chain_ids: set[str]) -> None:
+def validate_closed_entry(
+    entry: dict[str, Json], index: int, chain_ids: set[str], state: OpenEntryValidationState
+) -> None:
     label = f"verdicts.json.closed[{index}]"
     report_id = require_string(entry.get("reportId"), f"{label}.reportId")
     if report_id not in chain_ids:
         fail(f"{label}.reportId is not a current-chain report: {report_id}")
+
+    # v6 §2.1/§2.2: closed intervals carry a benchmarkSymbol. Migration intervals
+    # are grandfathered to SMH (relabel of what was actually used, not a rescore);
+    # real flips use the report's resolved per-layer benchmark.
+    migration = entry.get("migration")
+    expected_symbol = LEGACY_BENCHMARK if migration is True else None
+    validate_benchmark_symbol(entry, report_id, label, state, expected=expected_symbol)
 
     require_enum(entry.get("fromStance"), STANCE_VALUES, f"{label}.fromStance")
     require_enum(entry.get("toStance"), STANCE_V2_VALUES, f"{label}.toStance")
@@ -239,7 +323,13 @@ def validate_verdicts_data(data: Json, reports: list[Json], options: ValidationO
         )
 
     chain_ids = current_chain_ids(reports)
-    state = OpenEntryValidationState(chain_ids=chain_ids, seen=set(), price_entries=price_entries_by_id(options.prices))
+    state = OpenEntryValidationState(
+        chain_ids=chain_ids,
+        seen=set(),
+        price_entries=price_entries_by_id(options.prices),
+        benchmarks=options.benchmarks,
+        reports_by_id=options.reports_by_id,
+    )
     for index, item in enumerate(entries):
         validate_open_entry(require_dict(item, f"verdicts.json.entries[{index}]"), index, state)
     missing = chain_ids - state.seen
@@ -251,7 +341,9 @@ def validate_verdicts_data(data: Json, reports: list[Json], options: ValidationO
         warnings.append(message)
 
     for index, item in enumerate(closed):
-        validate_closed_entry(require_dict(item, f"verdicts.json.closed[{index}]"), index, chain_ids)
+        validate_closed_entry(
+            require_dict(item, f"verdicts.json.closed[{index}]"), index, chain_ids, state
+        )
     return warnings
 
 
@@ -270,10 +362,16 @@ def main() -> None:
     reports = require_list(load_json(REPORTS_JSON), "reports.json")
     verdicts = load_json(VERDICTS_JSON)
     prices = load_json(PRICES_JSON)
+    benchmarks = load_json(BENCHMARKS_JSON)
     warnings = validate_verdicts_data(
         verdicts,
         reports,
-        ValidationOptions(prices=prices, strict_coverage=strict_coverage_from_argv(sys.argv[1:])),
+        ValidationOptions(
+            prices=prices,
+            strict_coverage=strict_coverage_from_argv(sys.argv[1:]),
+            benchmarks=benchmarks,
+            reports_by_id=reports_by_id_map(reports),
+        ),
     )
     for warning in warnings:
         print(f"WARN: {warning}")

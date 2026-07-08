@@ -1,0 +1,16 @@
+{
+  "default": "SMH",
+  "layerDefaults": {
+    "power": "XLU",
+    "datacenter-facility": "SRVR",
+    "resources": "COPX",
+    "demand-risk": "QQQ"
+  },
+  "symbols": {
+    "SMH":  { "name": { "zh": "半导体 ETF", "en": "Semiconductors" } },
+    "XLU":  { "name": { "zh": "公用事业 ETF", "en": "Utilities" } },
+    "SRVR": { "name": { "zh": "数据中心/基础设施 REIT ETF", "en": "Data-center & infra REITs" } },
+    "COPX": { "name": { "zh": "铜矿 ETF", "en": "Copper miners" } },
+    "QQQ":  { "name": { "zh": "纳指 100 ETF", "en": "Nasdaq-100" } }
+  }
+}
