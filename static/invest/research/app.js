@@ -1,5 +1,7 @@
 let reports = [];
 let pricesByReportId = new Map();
+let reportsLoadFailed = false;
+let pricesLoadedSuccessfully = false;
 let currentLang = chooseInitialLanguage();
 const REPORTS_DATA_URL = '/invest/research/data/reports.json';
 const PRICES_DATA_URL = '/invest/research/data/prices.json';
@@ -77,7 +79,7 @@ const I18N = {
         shellSubtitle: '公司研究与深度跟踪',
         navBack: '返回 Blog',
         heroTitle: '研报中心',
-        heroSubtitle: '统一展示公司研究，按主题筛选，详情页采用统一模板渲染 Markdown。',
+        heroSubtitle: '先选择阅读路径，再组合筛选当前研究集，同时保留上下文。',
         coverageLink: 'AI 基建覆盖地图 / 研究思路',
         monitoringLink: '全书监控仪表盘',
         ledgerLink: '判断记录',
@@ -86,7 +88,22 @@ const I18N = {
         statReports: '研报数量',
         statCompanies: '覆盖公司',
         statUpdated: '最近更新',
+        pathNavAria: '研究阅读路径',
+        pathChainTitle: '理解产业链',
+        pathChainCopy: '沿着 AI 基建层级阅读，并理解每篇报告承担的验证角色。',
+        pathBrowseTitle: '浏览公司',
+        pathBrowseCopy: '按研究集合与主题筛选最新公司和 ETF 研究。',
+        pathRecentTitle: '查看近期变化',
+        pathRecentCopy: '检查监控信号、复核候选与跨链验证。',
         listTitle: '报告列表',
+        visibleCount: (count) => `显示 ${count} 篇报告`,
+        collectionLabel: '研究集合',
+        collectionAria: '研究集合筛选',
+        collectionAll: '全部研究',
+        collectionChain: '产业链研究',
+        collectionLibrary: '研究资料库',
+        collectionReview: '待复核',
+        categoryLabel: '主题',
         filterAria: '研报分类筛选',
         filterAll: '全部',
         filterNuclear: '核能',
@@ -112,7 +129,7 @@ const I18N = {
         shellSubtitle: 'Company Notes & Deep Dives',
         navBack: 'Back to Blog',
         heroTitle: 'Research Center',
-        heroSubtitle: 'Browse company research by theme. Report detail pages render Markdown through one shared reader.',
+        heroSubtitle: 'Choose a reading path, then narrow the current research set without losing context.',
         coverageLink: 'AI Infrastructure Coverage Map',
         monitoringLink: 'Book-Level Monitoring Dashboard',
         ledgerLink: 'Verdict Ledger',
@@ -121,7 +138,22 @@ const I18N = {
         statReports: 'Reports',
         statCompanies: 'Companies',
         statUpdated: 'Latest Update',
+        pathNavAria: 'Research reading paths',
+        pathChainTitle: 'Understand the chain',
+        pathChainCopy: 'Follow the AI infrastructure layers and the role each report plays.',
+        pathBrowseTitle: 'Browse companies',
+        pathBrowseCopy: 'Filter the latest company and ETF research by collection and theme.',
+        pathRecentTitle: 'Inspect recent changes',
+        pathRecentCopy: 'Review monitoring signals, rerun candidates, and cross-checks.',
         listTitle: 'Report List',
+        visibleCount: (count) => `${count} report${count === 1 ? '' : 's'} shown`,
+        collectionLabel: 'Collection',
+        collectionAria: 'Research collection filter',
+        collectionAll: 'All research',
+        collectionChain: 'Chain book',
+        collectionLibrary: 'Research library',
+        collectionReview: 'Review candidates',
+        categoryLabel: 'Theme',
         filterAria: 'Research category filter',
         filterAll: 'All',
         filterNuclear: 'Nuclear',
@@ -145,6 +177,7 @@ const I18N = {
 };
 
 const filterState = {
+    collection: 'all',
     category: 'all',
     letter: 'all',
     query: ''
@@ -153,12 +186,15 @@ const filterState = {
 document.addEventListener('DOMContentLoaded', async () => {
     bindLanguageSwitch();
     applyStaticTranslations();
-    await Promise.all([loadReportsData(), loadPricesData()]);
+    await loadReportsData();
     setupFilters();
     setupSearch();
     buildLetterStrip();
     renderReports();
     updateStats();
+    void loadPricesData()
+        .then(() => renderReports())
+        .catch((error) => console.error('Failed to render reports after price refresh:', error));
     await loadMarketContext();
 });
 
@@ -175,10 +211,11 @@ async function loadReportsData() {
         }
 
         reports = sortReportsByLatestUpdate(data.filter(isCurrentReport));
+        reportsLoadFailed = false;
     } catch (error) {
         console.error('Failed to load report metadata:', error);
         reports = [];
-        renderEmptyState(t('loadError'));
+        reportsLoadFailed = true;
     }
 }
 
@@ -194,9 +231,11 @@ async function loadPricesData() {
         pricesByReportId = new Map(entries
             .filter((entry) => entry && typeof entry.reportId === 'string')
             .map((entry) => [entry.reportId, entry]));
+        pricesLoadedSuccessfully = true;
     } catch (error) {
         console.warn('Failed to load research prices:', error);
         pricesByReportId = new Map();
+        pricesLoadedSuccessfully = false;
     }
 }
 
@@ -270,6 +309,7 @@ function localizeSignal(value) {
 function applyFilters() {
     const query = filterState.query.trim().toLowerCase();
     let list = reports.filter((report) => {
+        if (!matchesCollection(report)) return false;
         if (filterState.category !== 'all' && report.category !== filterState.category) return false;
         if (filterState.letter !== 'all' && tickerLetter(report) !== filterState.letter) return false;
         if (query) {
@@ -285,8 +325,30 @@ function applyFilters() {
     return list;
 }
 
+function matchesCollection(report) {
+    if (filterState.collection === 'all') return true;
+    if (filterState.collection === 'chain') return Boolean(report.chainLayer);
+
+    if (filterState.collection === 'library') return isLibraryReportIncludingBenchmarkOnly(report);
+
+    if (filterState.collection === 'review') {
+        if (!pricesLoadedSuccessfully || !window.ResearchTracking) return false;
+        return window.ResearchTracking.isRerunCandidate(report, pricesByReportId.get(report.id));
+    }
+
+    return true;
+}
+
+function isLibraryReportIncludingBenchmarkOnly(report) {
+    return !report.chainLayer;
+}
+
 function renderReports() {
     const grid = document.getElementById('reportsGrid');
+    if (reportsLoadFailed) {
+        renderEmptyState(t('loadError'));
+        return;
+    }
     const filteredReports = applyFilters();
 
     if (!filteredReports.length) {
@@ -330,6 +392,7 @@ function renderReports() {
     `;
     }).join('');
 
+    updateVisibleResultCount(grid.querySelectorAll('.report-card').length);
     bindCardNavigation();
 }
 
@@ -371,9 +434,8 @@ function renderPriceChip(report) {
 }
 
 function renderRerunChip(report) {
-    if (!report.chainLayer || !window.ResearchTracking) return '';
-    const item = window.ResearchTracking.buildRerunItem(report, pricesByReportId.get(report.id));
-    if (!item || !item.isCandidate) return '';
+    if (!pricesLoadedSuccessfully || !window.ResearchTracking) return '';
+    if (!window.ResearchTracking.isRerunCandidate(report, pricesByReportId.get(report.id))) return '';
     return `<span class="tag price-chip rerun-chip">${escapeHtml(t('rerunCandidate'))}</span>`;
 }
 
@@ -388,15 +450,29 @@ function renderEmptyState(message) {
     const grid = document.getElementById('reportsGrid');
     if (!grid) return;
     grid.innerHTML = `<div class="empty-state">${escapeHtml(message)}</div>`;
+    updateVisibleResultCount(0);
+}
+
+function updateVisibleResultCount(count) {
+    const root = document.getElementById('visibleResultCount');
+    if (root) root.textContent = t('visibleCount', count);
 }
 
 function setupFilters() {
-    const filterButtons = document.querySelectorAll('.filter-btn');
-    filterButtons.forEach((btn) => {
-        btn.addEventListener('click', () => {
-            filterButtons.forEach((b) => b.classList.remove('active'));
-            btn.classList.add('active');
-            filterState.category = btn.dataset.filter;
+    setupExclusiveFilter('[data-collection]', 'collection', 'collection');
+    setupExclusiveFilter('[data-filter]', 'category', 'filter');
+}
+
+function setupExclusiveFilter(selector, stateKey, datasetKey) {
+    const buttons = document.querySelectorAll(selector);
+    buttons.forEach((button) => {
+        button.addEventListener('click', () => {
+            buttons.forEach((candidate) => {
+                const active = candidate === button;
+                candidate.classList.toggle('active', active);
+                candidate.setAttribute('aria-pressed', active ? 'true' : 'false');
+            });
+            filterState[stateKey] = button.dataset[datasetKey];
             renderReports();
         });
     });
@@ -521,9 +597,9 @@ function reportTags(report) {
 
 function reportHighlights(report) {
     if (currentLang === 'en') {
-        return Array.isArray(report.highlightsEn) ? report.highlightsEn.slice(0, 3) : [];
+        return Array.isArray(report.highlightsEn) ? report.highlightsEn.slice(0, 2) : [];
     }
-    return Array.isArray(report.highlights) ? report.highlights.slice(0, 3) : [];
+    return Array.isArray(report.highlights) ? report.highlights.slice(0, 2) : [];
 }
 
 function containsCjk(value) {
@@ -536,8 +612,10 @@ function reportUrl(report) {
 
 function withLang(url) {
     const [baseAndQuery, hash = ''] = String(url || '').split('#');
-    const joiner = baseAndQuery.includes('?') ? '&' : '?';
-    const href = `${baseAndQuery}${joiner}lang=${currentLang}`;
+    const [base, query = ''] = baseAndQuery.split('?');
+    const params = new URLSearchParams(query);
+    params.set('lang', currentLang);
+    const href = `${base}?${params.toString()}`;
     return hash ? `${href}#${hash}` : href;
 }
 
@@ -547,6 +625,7 @@ function applyStaticTranslations() {
     document.title = activeLabels.documentTitle;
     renderLanguageSwitchUI(currentLang);
     syncLanguageQuery(currentLang);
+    updateLocalizedLinks();
 
     document.querySelectorAll('[data-i18n]').forEach((el) => {
         const key = el.dataset.i18n;
@@ -567,6 +646,12 @@ function applyStaticTranslations() {
     document.querySelectorAll('[data-i18n-aria-label]').forEach((el) => {
         const value = activeLabels[el.dataset.i18nAriaLabel];
         if (value !== undefined) el.setAttribute('aria-label', value);
+    });
+}
+
+function updateLocalizedLinks() {
+    document.querySelectorAll('[data-lang-href]').forEach((link) => {
+        link.setAttribute('href', withLang(link.dataset.langHref));
     });
 }
 

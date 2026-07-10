@@ -137,6 +137,20 @@ All spacing is based on the existing 4px rhythm.
 - **States**: active uses `--accent-soft` and `--accent`; inactive uses bordered neutral chips; focus rings are visible.
 - **Behavior**: filtering may dim graph nodes and reduce card lists, but should not imply positive/negative investment judgment.
 
+### Research Reading Path
+
+- **Structure**: three sibling anchor panels that state a reader task, its scope, and the destination: understand the chain, browse companies, or inspect recent changes.
+- **Surface**: default border and tonal background only; the arrow and focus treatment use `--accent` without encoding investment judgment.
+- **States**: hover and keyboard focus use the existing micro-motion and focus-ring rules; internal list navigation stays on the current language state.
+- **Accessibility**: each panel is one descriptive link with a localized task title and supporting sentence; the group has a localized navigation label.
+
+### Research Collection Filter
+
+- **Structure**: an exclusive button group for all, chain book, research library, and review candidates, composed with category, ticker-initial, and search controls.
+- **Semantics**: `chain` means a current report with `chainLayer`; reports without `chainLayer`, including benchmark-only ETF research, belong to `library`; `review` is determined by the shared rerun rule.
+- **States**: active buttons use `--accent-soft` and `--accent`; every button exposes `aria-pressed`, and the localized visible-result count updates through a polite status region.
+- **Accessibility**: controls remain native buttons, keep visible focus, and never reset another active filter when composed.
+
 ### Module Reader Shell
 
 - **Structure**: sticky left module navigation, segmented reading-mode controls, one bordered report panel, and module sections.

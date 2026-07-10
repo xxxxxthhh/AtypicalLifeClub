@@ -54,6 +54,11 @@
         };
     }
 
+    function isRerunCandidate(report, priceEntry, today = currentUtcDay()) {
+        if (!report || !report.chainLayer) return false;
+        return Boolean(buildRerunItem(report, priceEntry, today)?.isCandidate);
+    }
+
     function formatPercent(value) {
         if (typeof value !== 'number' || !Number.isFinite(value)) return '—';
         const rounded = Math.abs(value) < 0.05 ? 0 : value;
@@ -64,6 +69,7 @@
         RERUN_AGE_DAYS,
         RERUN_DRIFT_PCT,
         buildRerunItem,
+        isRerunCandidate,
         formatPercent
     };
 }());

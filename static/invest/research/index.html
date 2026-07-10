@@ -36,12 +36,10 @@
         <section class="hero research-command-hero research-hero">
             <div class="research-hero-kicker">RESEARCH</div>
             <h1 class="hero-title" data-i18n="heroTitle">Research Center</h1>
-            <p class="hero-subtitle" data-i18n="heroSubtitle">Browse company research by theme. Report detail pages render Markdown through one shared reader.</p>
+            <p class="hero-subtitle" data-i18n="heroSubtitle">Choose a reading path, then narrow the current research set without losing context.</p>
             <div class="hero-links">
-                <a class="hero-link" href="/invest/research/coverage-map.html" data-i18n="coverageLink">AI Infrastructure Coverage Map <span class="hero-link-arrow" aria-hidden="true">→</span></a>
-                <a class="hero-link" href="/invest/research/monitoring-dashboard.html" data-i18n="monitoringLink">Book-Level Monitoring Dashboard <span class="hero-link-arrow" aria-hidden="true">→</span></a>
-                <a class="hero-link" href="/invest/research/verdict-ledger.html" data-i18n="ledgerLink">Verdict Ledger <span class="hero-link-arrow" aria-hidden="true">→</span></a>
-                <a class="hero-link" href="/invest/research/reviews/" data-i18n="reviewsLink">Semiannual Reviews <span class="hero-link-arrow" aria-hidden="true">→</span></a>
+                <a class="hero-link" href="/invest/research/verdict-ledger.html?lang=en" data-lang-href="/invest/research/verdict-ledger.html" data-i18n="ledgerLink">Verdict Ledger <span class="hero-link-arrow" aria-hidden="true">→</span></a>
+                <a class="hero-link" href="/invest/research/reviews/?lang=en" data-lang-href="/invest/research/reviews/" data-i18n="reviewsLink">Semiannual Reviews <span class="hero-link-arrow" aria-hidden="true">→</span></a>
                 <a class="hero-link" href="/invest/research/feed.xml" data-i18n="rssLink">RSS Feed <span class="hero-link-arrow" aria-hidden="true">→</span></a>
             </div>
             <div class="research-hero-stat-grid">
@@ -60,16 +58,58 @@
             </div>
         </section>
 
+        <nav class="reading-paths" aria-label="Research reading paths" data-i18n-aria-label="pathNavAria">
+            <a class="reading-path" href="/invest/research/coverage-map.html?lang=en" data-lang-href="/invest/research/coverage-map.html">
+                <span class="reading-path-index" aria-hidden="true">01</span>
+                <span class="reading-path-copy">
+                    <strong data-i18n="pathChainTitle">Understand the chain</strong>
+                    <span data-i18n="pathChainCopy">Follow the AI infrastructure layers and the role each report plays.</span>
+                </span>
+                <span class="reading-path-arrow" aria-hidden="true">→</span>
+            </a>
+            <a class="reading-path" href="#report-list">
+                <span class="reading-path-index" aria-hidden="true">02</span>
+                <span class="reading-path-copy">
+                    <strong data-i18n="pathBrowseTitle">Browse companies</strong>
+                    <span data-i18n="pathBrowseCopy">Filter the latest company and ETF research by collection and theme.</span>
+                </span>
+                <span class="reading-path-arrow" aria-hidden="true">↓</span>
+            </a>
+            <a class="reading-path" href="/invest/research/monitoring-dashboard.html?lang=en" data-lang-href="/invest/research/monitoring-dashboard.html">
+                <span class="reading-path-index" aria-hidden="true">03</span>
+                <span class="reading-path-copy">
+                    <strong data-i18n="pathRecentTitle">Inspect recent changes</strong>
+                    <span data-i18n="pathRecentCopy">Review monitoring signals, rerun candidates, and cross-checks.</span>
+                </span>
+                <span class="reading-path-arrow" aria-hidden="true">→</span>
+            </a>
+        </nav>
+
         <section class="market-context-strip" id="marketContextStrip" hidden></section>
 
-        <section class="section">
+        <section class="section" id="report-list">
             <div class="research-header-row">
                 <h2 data-i18n="listTitle">Report List</h2>
-                <div class="filter-buttons" role="tablist" aria-label="Research category filter" data-i18n-aria-label="filterAria">
-                    <button class="filter-btn active" data-filter="all" data-i18n="filterAll">All</button>
-                    <button class="filter-btn" data-filter="nuclear" data-i18n="filterNuclear">Nuclear</button>
-                    <button class="filter-btn" data-filter="tech" data-i18n="filterTech">Technology</button>
-                    <button class="filter-btn" data-filter="energy" data-i18n="filterEnergy">Energy</button>
+                <p class="visible-result-count" id="visibleResultCount" role="status" aria-live="polite">--</p>
+            </div>
+            <div class="filter-rail">
+                <div class="filter-set">
+                    <span class="filter-label" data-i18n="collectionLabel">Collection</span>
+                    <div class="filter-buttons collection-buttons" role="group" aria-label="Research collection filter" data-i18n-aria-label="collectionAria">
+                        <button class="filter-btn active" type="button" data-collection="all" data-i18n="collectionAll" aria-pressed="true">All research</button>
+                        <button class="filter-btn" type="button" data-collection="chain" data-i18n="collectionChain" aria-pressed="false">Chain book</button>
+                        <button class="filter-btn" type="button" data-collection="library" data-i18n="collectionLibrary" aria-pressed="false">Research library</button>
+                        <button class="filter-btn" type="button" data-collection="review" data-i18n="collectionReview" aria-pressed="false">Review candidates</button>
+                    </div>
+                </div>
+                <div class="filter-set">
+                    <span class="filter-label" data-i18n="categoryLabel">Theme</span>
+                    <div class="filter-buttons" role="group" aria-label="Research category filter" data-i18n-aria-label="filterAria">
+                        <button class="filter-btn active" type="button" data-filter="all" data-i18n="filterAll" aria-pressed="true">All</button>
+                        <button class="filter-btn" type="button" data-filter="nuclear" data-i18n="filterNuclear" aria-pressed="false">Nuclear</button>
+                        <button class="filter-btn" type="button" data-filter="tech" data-i18n="filterTech" aria-pressed="false">Technology</button>
+                        <button class="filter-btn" type="button" data-filter="energy" data-i18n="filterEnergy" aria-pressed="false">Energy</button>
+                    </div>
                 </div>
             </div>
             <div class="index-toolbar">

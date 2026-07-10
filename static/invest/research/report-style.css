@@ -791,6 +791,14 @@ body.report-detail-page [hidden] {
     text-align: left;
 }
 
+:lang(zh) #markdownContent th:first-child,
+:lang(zh) #markdownContent td:first-child {
+    min-width: 5em;
+    width: auto;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
 #markdownContent blockquote {
     border-left: 3px solid var(--accent);
     padding-left: 0.6rem;
