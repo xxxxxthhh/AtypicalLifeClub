@@ -7,7 +7,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 ---
 
-## Executive Summary
+## Executive Summary <!-- report-module:overview -->
 
 > **Framework role:** ASML Holding is the common constraint for the AI-infrastructure semiconductor equipment layer. The report's job is to test the chain signal, not to turn one company print into a recommendation.
 
@@ -25,7 +25,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Stance | neutral watch / medium conviction |
 | Primary valuation use | scenario context and risk tolerance, not a target price |
 
-## 1. Business And Chain Role
+## 1. Business And Chain Role <!-- report-module:business -->
 
 The business question is where ASML Holding sits in the AI infrastructure value chain. The original report already established the key point: this is a semiconductor equipment common constraint, so the company matters only insofar as its orders, revenue mix, balance sheet, and monitoring items confirm or falsify the wider chain.
 
@@ -39,7 +39,7 @@ P2 equipment-layer common constraint: ASML uses EUV/High-NA, backlog, installed-
 | Valuation anchor | Q4 2025 net bookings EUR 13.158B, including EUR 7.4B EUV; year-end 2025 backlog EUR 38.797B | Sets the tolerance for disappointment |
 | Cross-check job | Compare with adjacent reports and coverage-map crossChecks | Prevents one-company storytelling |
 
-## 2. Industry And Competition
+## 2. Industry And Competition <!-- report-module:competition -->
 
 The competitive read is not generic sector ranking. It is whether adjacent nodes in the chain confirm the same buildout. A strong report should be supported by nearby layers; if peers diverge, the chain interpretation becomes weaker.
 
@@ -52,7 +52,7 @@ The competitive read is not generic sector ranking. It is whether adjacent nodes
 
 Competitive risk is also asymmetric. A company can be structurally high quality and still be a poor confirmation signal if the market has already priced in the upside or if the relevant bottleneck shifts to another layer.
 
-## 3. Financial Health Matrix
+## 3. Financial Health Matrix <!-- report-module:financial -->
 
 The financial section converts the prose fact base into a repeatable scorecard. The grades are analytical shorthand, not credit ratings.
 
@@ -64,7 +64,7 @@ The financial section converts the prose fact base into a repeatable scorecard. 
 | Backlog / bookings / RPO | Q4 2025 net bookings EUR 13.158B, including EUR 7.4B EUV; year-end 2025 backlog EUR 38.797B | Separates committed demand from narrative demand | B+ |
 | Valuation tolerance | Current price context: $1,769.32 | High expectation names need cleaner execution | Caution |
 
-## 4. Management And Caliber Check
+## 4. Management And Caliber Check <!-- report-module:management -->
 
 This module checks source caliber and management execution rather than adding a new forecast. The guiding rule is to keep company-disclosed figures separate from inferred valuation context.
 
@@ -77,7 +77,7 @@ This module checks source caliber and management execution rather than adding a 
 
 Management gets credit when reported execution lines up with the chain role, and loses credit when guidance, bookings, or capital allocation rely on assumptions the report cannot verify yet.
 
-## 5. Bull Case
+## 5. Bull Case <!-- report-module:bullBear -->
 
 The bull case is the strongest version of why the report's chain signal could strengthen from here.
 
@@ -90,7 +90,7 @@ The bull case is the strongest version of why the report's chain signal could st
 
 The constructive scenario is not simply that the stock rises. It is that the same data that supports this company also tightens the whole chain read-through.
 
-## 6. Bear Case
+## 6. Bear Case <!-- report-module:bullBear -->
 
 The bear case is the strongest version of why the report's chain signal could be misleading or already priced.
 
@@ -103,7 +103,7 @@ The bear case is the strongest version of why the report's chain signal could be
 
 The bearish read should not ignore quality. It asks whether quality is already capitalized and whether the report is overclaiming what the current evidence can prove.
 
-## 7. Key Uncertainties And Thesis Breakers
+## 7. Key Uncertainties And Thesis Breakers <!-- report-module:uncertainties -->
 
 | Uncertainty | Why it matters | When to revisit |
 | --- | --- | --- |
@@ -119,7 +119,7 @@ Thesis breakers:
 - Bear case breaks if fundamentals keep improving while valuation remains supported by cash flow, backlog, or order evidence.
 - The chain read breaks if this report moves alone while adjacent layers do not confirm it.
 
-## 8. Valuation Context
+## 8. Valuation Context <!-- report-module:valuation -->
 
 Valuation is used as risk context, not as a recommendation. The v5 question is what the $1,769.32 dated price already assumes about EUV / High-NA, WFE intensity, backlog conversion, and China/export risk.
 
@@ -133,7 +133,7 @@ Valuation is used as risk context, not as a recommendation. The v5 question is w
 
 **What's priced in & the expectation gap:** At $1,769.32 and about 15.6x EV/2026E sales, the market already prices EUV / High-NA scarcity, FY2026 revenue of EUR 36-40B, and manageable export controls. If the through-cycle equipment multiple normalizes toward roughly 10-12x sales and investors require about 8% annually, ASML needs either mid-to-high-teens revenue compounding or a sustained monopoly premium to make the current multiple feel easy. Our base case is close to that implied expectation rather than clearly above it, so the expectation gap is balanced. These are assumption ranges for expectations calibration, not a target price.
 
-## 9. Catalysts And Monitoring
+## 9. Catalysts And Monitoring <!-- report-module:catalysts -->
 
 | Monitor | Latest reading | Trigger | Next check |
 | --- | --- | --- | --- |
@@ -145,7 +145,7 @@ Valuation is used as risk context, not as a recommendation. The v5 question is w
 
 These are the items that should drive future reruns. A monitoring update should change the report only when it changes the chain read-through or the valuation tolerance.
 
-## 10. Peer Comparison And Conclusion
+## 10. Peer Comparison And Conclusion <!-- report-module:conclusion -->
 
 | Peer / benchmark | Role in the book | How to read against this report |
 | --- | --- | --- |
@@ -162,7 +162,7 @@ The current stance is **neutral watch, medium conviction**. Neutral is not a lac
 
 Upgrade trigger: move to constructive if Q2 2026 orders and customer-capacity commentary show EUV / High-NA bookings staying above the FY2026 revenue run-rate, backlog conversion remains on plan, and export-control updates do not reduce the China service or systems opportunity while the valuation multiple does not expand further. Downgrade trigger: move to cautious if EUV / High-NA bookings slow, the EUR 38.797B backlog shows cancellation or delay risk, China/export-control limits reduce system or installed-base service access, or gross margin slips below the FY2026 51-53% guide.
 
-## Appendix: Sources And Assumptions
+## Appendix: Sources And Assumptions <!-- report-module:appendix -->
 
 - ASML Q1 2026 official release: [Q1 2026 financial results](https://www.asml.com/en/news/press-releases/2026/q1-2026-financial-results).
 - ASML Q4 2025 official release: [Q4 2025 financial results](https://www.asml.com/en/news/press-releases/2026/q4-2025-financial-results).

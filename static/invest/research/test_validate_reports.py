@@ -8,6 +8,7 @@ unrelated enrichment checks run.
 """
 import io
 import sys
+import tempfile
 import unittest
 from contextlib import redirect_stdout
 from pathlib import Path
@@ -34,6 +35,73 @@ BILINGUAL = {"zh": "理由", "en": "reason"}
 def expect_fail(test, fn):
     with redirect_stdout(io.StringIO()), test.assertRaises(SystemExit):
         fn()
+
+
+def capture_fail(test, fn):
+    output = io.StringIO()
+    with redirect_stdout(output), test.assertRaises(SystemExit):
+        fn()
+    return output.getvalue()
+
+
+class ModuleContractValidationTests(unittest.TestCase):
+    def assert_contract_failure(self, heading, reason):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            markdown_file = Path(temp_dir) / "fixture.md"
+            markdown_file.write_text(
+                "# Test report\n\n" + heading + "\nBody.\n",
+                encoding="utf-8",
+            )
+            output = capture_fail(
+                self,
+                lambda: vr.validate_module_contract(
+                    markdown_file,
+                    "heading-comment-v1",
+                    "report[0].markdownFiles.en",
+                ),
+            )
+
+        self.assertIn("fixture.md:3", output)
+        self.assertIn(reason, output)
+
+    def test_valid_h2_markers_pass(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            markdown_file = Path(temp_dir) / "fixture.md"
+            markdown_file.write_text(
+                "# Test report\n\n"
+                "## Durable economics <!-- report-module:business -->\n"
+                "Body.\n\n"
+                "### Valuation vocabulary stays inherited\n"
+                "Nested body.\n",
+                encoding="utf-8",
+            )
+
+            vr.validate_module_contract(
+                markdown_file,
+                "heading-comment-v1",
+                "report[0].markdownFiles.en",
+            )
+
+    def test_missing_marker_fails_with_file_and_line(self):
+        self.assert_contract_failure("## Durable economics", "missing")
+
+    def test_duplicate_marker_fails_with_file_and_line(self):
+        self.assert_contract_failure(
+            "## Durable economics <!-- report-module:business --> <!-- report-module:financial -->",
+            "duplicate",
+        )
+
+    def test_malformed_marker_fails_with_file_and_line(self):
+        self.assert_contract_failure(
+            "## Durable economics <!-- report-module: business -->",
+            "malformed",
+        )
+
+    def test_unknown_marker_fails_with_file_and_line(self):
+        self.assert_contract_failure(
+            "## Durable economics <!-- report-module:operations -->",
+            "unknown",
+        )
 
 
 class BenchmarksConfigTests(unittest.TestCase):

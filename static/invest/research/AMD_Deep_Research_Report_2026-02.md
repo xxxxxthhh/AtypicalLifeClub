@@ -7,7 +7,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 ---
 
-## June 22, 2026 Full Rerun Summary
+## June 22, 2026 Full Rerun Summary <!-- report-module:overview -->
 
 **One-line thesis:** AMD's fundamental evidence is stronger than it was in the February report, and the data center / AI infrastructure story has moved from optionality toward delivery validation. But at roughly **$537.37** per share and about **$887B** of market capitalization, the stock has already priced in very aggressive 2026-2027 execution.
 
@@ -35,7 +35,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 | FY2025 free cash flow | $5.6B | $5.6B |
 
 
-## Historical Update Summary
+## Historical Update Summary <!-- report-module:overview -->
 
 This section now summarizes the full rerun deltas as a clean baseline, while the full previous version remains available in the Previous view.
 
@@ -46,7 +46,7 @@ This section now summarizes the full rerun deltas as a clean baseline, while the
 
 ---
 
-## 1. Current Fact Base
+## 1. Current Fact Base <!-- report-module:business -->
 
 ### 1.1 Q1 2026 Financial Results
 
@@ -117,7 +117,7 @@ Q4 2025 non-GAAP operating margin was about 28%; Q4 2025 total revenue was about
 
 ---
 
-## 2. Business and Competitive Position
+## 2. Business and Competitive Position <!-- report-module:competition -->
 
 ### 2.1 AMD Is Moving From Chip Supplier to AI Infrastructure Platform Vendor
 
@@ -162,7 +162,7 @@ These are not near-term earnings catalysts by themselves. They are evidence that
 
 ---
 
-## 3. Financial Health
+## 3. Financial Health <!-- report-module:financial -->
 
 ### 3.1 Current Quality Scorecard
 
@@ -208,7 +208,7 @@ Overall financial-health grade **B+**: strong growth and cash flow with very low
 
 ---
 
-## 4. Management and Execution Quality
+## 4. Management and Execution Quality <!-- report-module:management -->
 
 Lisa Su has served as AMD's CEO since 2014 and led the company from a fragile balance-sheet, product-disadvantaged cyclical semiconductor business into the main x86 server CPU challenger and a credible second-tier AI accelerator platform. Zen, the EPYC roadmap, the Xilinx acquisition, chiplet strategy, and the data center product cadence are the clearest evidence of management execution quality.
 
@@ -239,7 +239,7 @@ Management grade **A**.
 
 ---
 
-## 5. Bull Case
+## 5. Bull Case <!-- report-module:bullBear -->
 
 The bull case is not that AMD is cheap. It is that AMD can evolve from NVIDIA's secondary alternative into a durable second AI infrastructure platform.
 
@@ -263,7 +263,7 @@ If those conditions hold together, AMD could reach a higher revenue tier in 2027
 
 ---
 
-## 6. Bear Case
+## 6. Bear Case <!-- report-module:bullBear -->
 
 The bear case is also not that AMD is a bad company. It is that the current price requires near-perfect execution while NVIDIA's ecosystem and scale advantage remain very hard to break.
 
@@ -286,7 +286,7 @@ Main risks:
 
 ---
 
-## 7. Current Market Frame
+## 7. Current Market Frame <!-- report-module:valuation -->
 
 ### 7.1 Current Valuation
 
@@ -323,7 +323,7 @@ Supplemental market cap and revenue (February baseline; AMD updated): AMD market
 
 ---
 
-## 8. Valuation Scenario Grid And Priced-In Expectations
+## 8. Valuation Scenario Grid And Priced-In Expectations <!-- report-module:valuation -->
 
 Valuation is used for expectations calibration, not investment advice. v5 no longer uses mechanical price ranges; it uses the AI accelerator profit pool, rack/system attach, software ecosystem, custom-ASIC pressure, and multiple regime to state what the current $537.37 price embeds.
 
@@ -339,7 +339,7 @@ Valuation is used for expectations calibration, not investment advice. v5 no lon
 
 ---
 
-## 9. Catalysts, Monitoring, and Key Uncertainties
+## 9. Catalysts, Monitoring, and Key Uncertainties <!-- report-module:catalysts -->
 
 Over the next 12-18 months, delivery quality matters more than headline count:
 
@@ -419,7 +419,7 @@ Competitive risk is broader than NVIDIA alone:
 
 ---
 
-## 10. Conclusion
+## 10. Conclusion <!-- report-module:conclusion -->
 
 **Current conclusion:** AMD's chain-validation job is to test whether the AI accelerator second platform is real: Meta 6GW, Helios/MI450, ROCm, EPYC attach, TSMC/packaging supply, and customer concentration all have to prove AMD can move from chip supplier to rack-level AI infrastructure platform.
 
@@ -433,7 +433,7 @@ Competitive risk is broader than NVIDIA alone:
 
 ---
 
-## Appendix
+## Appendix <!-- report-module:appendix -->
 
 ### A. Data Sources and Verification Approach
 
@@ -475,7 +475,7 @@ Market data uses the latest verifiable U.S. close as of June 18, 2026. Valuation
 
 ---
 
-## Sources
+## Sources <!-- report-module:appendix -->
 
 - [AMD Q1 2026 Financial Results](https://ir.amd.com/news-events/press-releases/detail/1284/amd-reports-first-quarter-2026-financial-results)
 - [AMD and Meta 6GW Partnership](https://ir.amd.com/news-events/press-releases/detail/1279/amd-and-meta-announce-expanded-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus)

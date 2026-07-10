@@ -3,6 +3,8 @@
 """
 Validate static/invest/research/data/reports.json schema and file references.
 """
+from __future__ import annotations
+
 # noqa: SIZE_OK - legacy single-file publishing validator; split in dedicated cleanup.
 
 import json
@@ -65,6 +67,23 @@ MONITORING_ITEM_ID_RE = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
 NEXT_CHECK_DATE_RE = re.compile(r"\d{4}-(0[1-9]|1[0-2])")
 PRICE_SYMBOL_RE = re.compile(r"[A-Z0-9.\-=]+")
 ENGLISH_MARKDOWN_CJK_RE = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]")
+REPORT_MODULE_CONTRACT = "heading-comment-v1"
+REPORT_MODULE_IDS = {
+    "overview",
+    "business",
+    "competition",
+    "financial",
+    "management",
+    "bullBear",
+    "uncertainties",
+    "valuation",
+    "catalysts",
+    "conclusion",
+    "appendix",
+}
+REPORT_MODULE_MARKER_RE = re.compile(
+    r"^##\s+(.+?)\s+<!-- report-module:([A-Za-z][A-Za-z0-9-]*) -->\s*$"
+)
 BILINGUAL_KEYS = ("zh", "en")
 MARKDOWN_URL_PREFIX = "/invest/research/"
 # Chain requirement (spec A.7 step 3): stance/priceAsOf/reportedPeriod/monitoring[]
@@ -424,6 +443,59 @@ def validate_english_markdown(markdown_file, field_name):
             )
 
 
+def validate_module_contract(
+    markdown_file: Path,
+    module_contract: str | None,
+    field_name: str,
+) -> None:
+    if module_contract is None:
+        return
+    if module_contract != REPORT_MODULE_CONTRACT:
+        fail(
+            f"{field_name} uses unsupported module contract: "
+            f"{module_contract}"
+        )
+
+    with open(markdown_file, "r", encoding="utf-8") as file:
+        for line_no, raw_line in enumerate(file, start=1):
+            line = raw_line.rstrip("\n")
+            heading_match = re.match(r"^(#{2,3})\s+", line)
+            marker_count = line.count("report-module")
+            location = f"{markdown_file.name}:{line_no}"
+
+            if heading_match is None or heading_match.group(1) != "##":
+                if marker_count:
+                    fail(
+                        f"{field_name} has malformed report-module marker at "
+                        f"{location}: markers belong on H2 headings"
+                    )
+                continue
+            if marker_count == 0:
+                fail(
+                    f"{field_name} has missing report-module marker at "
+                    f"{location}"
+                )
+            if marker_count > 1:
+                fail(
+                    f"{field_name} has duplicate report-module markers at "
+                    f"{location}"
+                )
+
+            marker_match = REPORT_MODULE_MARKER_RE.fullmatch(line)
+            if marker_match is None:
+                fail(
+                    f"{field_name} has malformed report-module marker at "
+                    f"{location}; expected <!-- report-module:<id> --> at "
+                    "the end of the H2"
+                )
+            module_id = marker_match.group(2)
+            if module_id not in REPORT_MODULE_IDS:
+                fail(
+                    f"{field_name} has unknown report module id "
+                    f"'{module_id}' at {location}"
+                )
+
+
 def validate_coverage_tier(report, report_idx):
     coverage_tier = report.get("coverageTier")
     is_current_chain = is_current_chain_report(report)
@@ -656,6 +728,13 @@ def main():
         if not isinstance(markdown_files, dict):
             fail(f"report[{idx}].markdownFiles must be an object")
 
+        module_contract = report.get("moduleContract")
+        if module_contract is not None and module_contract != REPORT_MODULE_CONTRACT:
+            fail(
+                f"report[{idx}].moduleContract must be "
+                f"'{REPORT_MODULE_CONTRACT}': {module_contract}"
+            )
+
         for lang in ("zh", "en"):
             if lang not in markdown_files:
                 fail(f"report[{idx}].markdownFiles missing language: {lang}")
@@ -669,6 +748,7 @@ def main():
                 )
             if lang == "en" and report.get("isCurrent") is not False:
                 validate_english_markdown(markdown_file, field_name)
+            validate_module_contract(markdown_file, module_contract, field_name)
 
         if markdown_files["zh"] == markdown_files["en"]:
             fail(

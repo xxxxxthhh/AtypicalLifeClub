@@ -55,6 +55,7 @@
       "zh": "/invest/research/ASML_深度研究报告_2026-07.md",
       "en": "/invest/research/ASML_Deep_Research_Report_2026-07.md"
     },
+    "moduleContract": "heading-comment-v1",
     "period": "2026H1",
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
@@ -4016,6 +4017,7 @@
       "zh": "/invest/research/AMD_深度研究报告_2026-02.md",
       "en": "/invest/research/AMD_Deep_Research_Report_2026-02.md"
     },
+    "moduleContract": "heading-comment-v1",
     "highlights": [
       "完整重跑后结论调整为中性/观察：基本面增强，但估值容错极低",
       "Q1 2026营收$102.53亿（+38% YoY），Data Center约$58亿（+57% YoY）",

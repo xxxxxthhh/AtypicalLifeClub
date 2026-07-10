@@ -65,7 +65,13 @@
         </article>
     </main>
 
-    <script>
+    <script type="module">
+        import {
+            buildModuleDiff,
+            buildReportModules,
+            REPORT_MODULES,
+        } from './report-module-parser.mjs';
+
         const REPORTS_DATA_URL = '/invest/research/data/reports.json';
         const SIGNALS_DATA_URL = '/invest/research/data/signals.json';
         const SUPPORTED_LANGS = ['zh', 'en'];
@@ -131,96 +137,6 @@
             },
         };
 
-        const REPORT_MODULES = [
-            {
-                id: 'overview',
-                labels: { zh: '摘要与当前判断', en: 'Summary & Current View' },
-                keywords: {
-                    zh: ['执行摘要', '摘要', '更新', '重跑', '最新事实', '事实基础', '当前判断'],
-                    en: ['executive summary', 'summary', 'update', 'rerun', 'fact base', 'current view'],
-                },
-            },
-            {
-                id: 'business',
-                labels: { zh: '业务概览', en: 'Business Overview' },
-                keywords: {
-                    zh: ['业务概览', '业务画像', '商业模式', '分部', '做什么', '产品', '平台供应商'],
-                    en: ['business overview', 'business model', 'segment', 'what', 'product', 'platform supplier'],
-                },
-            },
-            {
-                id: 'competition',
-                labels: { zh: '行业与竞争位置', en: 'Industry & Competition' },
-                keywords: {
-                    zh: ['行业', '竞争', '护城河', '市场份额', '生态', '供应链', 'tam', '对手'],
-                    en: ['industry', 'competition', 'competitive', 'competitor', 'moat', 'market share', 'ecosystem', 'supply chain', 'tam'],
-                },
-            },
-            {
-                id: 'financial',
-                labels: { zh: '财务健康度', en: 'Financial Health' },
-                keywords: {
-                    zh: ['财务', '现金流', '资产负债', '营收', '利润', '毛利率', '红旗', '结果'],
-                    en: ['financial', 'cash flow', 'balance sheet', 'revenue', 'earnings', 'margin', 'red flag', 'results'],
-                },
-            },
-            {
-                id: 'management',
-                labels: { zh: '管理层评估', en: 'Management Assessment' },
-                keywords: {
-                    zh: ['管理层', '治理', '高管', '领导', 'ceo', '执行质量'],
-                    en: ['management', 'governance', 'executive', 'ceo', 'execution quality'],
-                },
-            },
-            {
-                id: 'bullBear',
-                labels: { zh: '牛熊论点', en: 'Bull & Bear Cases' },
-                keywords: {
-                    zh: ['牛市', '熊市', '乐观', '悲观', '上行', '下行', '看涨', '看空'],
-                    en: ['bull', 'bear', 'upside', 'downside', 'positive case', 'negative case', 'steel-manned'],
-                },
-            },
-            {
-                id: 'uncertainties',
-                labels: { zh: '关键不确定性', en: 'Key Uncertainties' },
-                keywords: {
-                    zh: ['不确定性', '论点失效', '失效条件', '风险边界'],
-                    en: ['uncertainty', 'uncertainties', 'thesis-breaking', 'failure condition', 'risk boundary'],
-                },
-            },
-            {
-                id: 'valuation',
-                labels: { zh: '估值分析', en: 'Valuation' },
-                keywords: {
-                    zh: ['估值', '倍数', '目标价', '公允价值', '定价'],
-                    en: ['valuation', 'multiple', 'target price', 'fair value', 'pricing'],
-                },
-            },
-            {
-                id: 'catalysts',
-                labels: { zh: '催化剂与监控', en: 'Catalysts & Monitoring' },
-                keywords: {
-                    zh: ['催化', '监测', '监控', '时间线', '指标', '清单'],
-                    en: ['catalyst', 'monitoring', 'watchlist', 'timeline', 'checklist'],
-                },
-            },
-            {
-                id: 'conclusion',
-                labels: { zh: '结论与复盘', en: 'Conclusion & Review' },
-                keywords: {
-                    zh: ['结论', '建议', '复盘', '综合'],
-                    en: ['conclusion', 'recommendation', 'review', 'synthesis'],
-                },
-            },
-            {
-                id: 'appendix',
-                labels: { zh: '附录与来源', en: 'Appendix & Sources' },
-                keywords: {
-                    zh: ['附录', '资料来源', '数据来源', '来源', '假设', '术语'],
-                    en: ['appendix', 'sources', 'data source', 'assumption', 'glossary'],
-                },
-            },
-        ];
 
         let currentReport = null;
         let currentLang = 'en';
@@ -445,7 +361,11 @@
 
             if (currentView === 'previous' && previousReport) {
                 const previousMarkdown = await fetchReportMarkdown(previousReport, lang);
-                const previousModules = buildReportModules(previousMarkdown, lang);
+                const previousModules = buildReportModules(
+                    previousMarkdown,
+                    lang,
+                    previousReport.moduleContract,
+                );
                 renderModeNotice('previous', report, lang, previousReport);
                 renderModuleReport(previousModules, lang, { mode: 'previous' });
                 return;
@@ -453,7 +373,7 @@
 
             if (currentView === 'full') {
                 const markdown = await fetchReportMarkdown(report, lang);
-                const currentModules = buildReportModules(markdown, lang);
+                const currentModules = buildReportModules(markdown, lang, report.moduleContract);
                 renderModeNotice('full', report, lang, previousReport);
                 renderModuleReport(currentModules, lang, { mode: 'full' });
                 return;
@@ -464,7 +384,11 @@
                     fetchReportMarkdown(report, lang),
                     fetchReportMarkdown(previousReport, lang),
                 ]);
-                const diff = buildModuleDiff(currentMarkdown, previousMarkdown, lang);
+                const diff = buildModuleDiff(currentMarkdown, previousMarkdown, {
+                    lang,
+                    currentContract: report.moduleContract,
+                    previousContract: previousReport.moduleContract,
+                });
                 renderModeNotice('module', report, lang, previousReport);
                 renderSingleModule(diff.modules, lang, {
                     mode: 'module',
@@ -474,7 +398,7 @@
             }
 
             const markdown = await fetchReportMarkdown(report, lang);
-            const currentModules = buildReportModules(markdown, lang);
+            const currentModules = buildReportModules(markdown, lang, report.moduleContract);
             renderModeNotice('module', report, lang, previousReport);
             renderSingleModule(currentModules, lang, { mode: 'module' });
         }
@@ -956,208 +880,6 @@
             button.setAttribute('aria-label', currentLang === 'zh' ? '切换主题' : 'Toggle theme');
         }
 
-        function stripMarkdownCover(markdown) {
-            const normalized = String(markdown || '').replace(/^\uFEFF?/, '').replace(/\r\n/g, '\n');
-            const withoutTitle = normalized.replace(/^#\s+.*(?:\n+|$)/, '');
-            const coverMatch = withoutTitle.match(/^([\s\S]*?)\n---\s*\n+/);
-            if (!coverMatch) {
-                return withoutTitle;
-            }
-
-            const coverLines = coverMatch[1]
-                .split('\n')
-                .map((line) => line.trim())
-                .filter(Boolean);
-            const coverKeys = [
-                '标的收录日期',
-                '最近更新日期',
-                '代码',
-                '免责声明',
-                'Coverage date',
-                'Last updated',
-                'Ticker',
-                'Disclaimer',
-            ];
-            const isCoverMetadata = coverLines.length > 0
-                && coverLines.length <= 8
-                && coverLines.every((line) => coverKeys.some((key) => line.startsWith(`${key}：`) || line.startsWith(`${key}:`)));
-
-            return isCoverMetadata ? withoutTitle.slice(coverMatch[0].length) : withoutTitle;
-        }
-
-        function splitMarkdownSections(markdown, lang) {
-            const lines = stripMarkdownCover(markdown).split('\n');
-            const sections = [];
-            let currentSection = null;
-            let parentModuleKey = 'overview';
-            const introBuffer = [];
-            const bodyBuffer = [];
-            let sectionIndex = 0;
-
-            const commitIntro = () => {
-                const content = introBuffer.join('\n').trim();
-                if (content) {
-                    sections.push({
-                        id: `intro-${sectionIndex}`,
-                        title: lang === 'en' ? 'Introduction' : '基础信息',
-                        level: 0,
-                        moduleKey: 'overview',
-                        content,
-                        isIntro: true,
-                    });
-                    sectionIndex += 1;
-                }
-                introBuffer.length = 0;
-            };
-
-            const commitCurrent = () => {
-                if (!currentSection) {
-                    return;
-                }
-                const content = bodyBuffer.join('\n').trim();
-                if (content) {
-                    currentSection.content = content;
-                    sections.push(currentSection);
-                }
-                currentSection = null;
-                bodyBuffer.length = 0;
-            };
-
-            lines.forEach((line) => {
-                const headingMatch = line.match(/^(#{2,3})\s+(.*)$/);
-                if (!headingMatch) {
-                    if (currentSection) {
-                        bodyBuffer.push(line);
-                    } else if (line.trim()) {
-                        introBuffer.push(line);
-                    }
-                    return;
-                }
-
-                const isH2 = headingMatch[1] === '##';
-                const isH3 = headingMatch[1] === '###';
-                if (!isH2 && !isH3) {
-                    if (currentSection) {
-                        bodyBuffer.push(line);
-                    } else if (line.trim()) {
-                        introBuffer.push(line);
-                    }
-                    return;
-                }
-
-                if (currentSection) {
-                    commitCurrent();
-                }
-                commitIntro();
-
-                const title = headingMatch[2].trim();
-                const ownModuleKey = resolveModuleKey(title, lang);
-                if (isH2) {
-                    parentModuleKey = ownModuleKey || 'overview';
-                }
-                const moduleKey = isH3
-                    ? (parentModuleKey && parentModuleKey !== 'overview'
-                        ? parentModuleKey
-                        : (ownModuleKey || parentModuleKey || 'overview'))
-                    : (ownModuleKey || 'overview');
-
-                currentSection = {
-                    id: `section-${sectionIndex}`,
-                    title,
-                    moduleKey,
-                    level: isH2 ? 2 : 3,
-                    content: '',
-                };
-                sectionIndex += 1;
-            });
-
-            commitCurrent();
-            commitIntro();
-            return sections;
-        }
-
-        function resolveModuleKey(title, lang) {
-            const text = String(title || '').toLowerCase();
-            for (const moduleDef of REPORT_MODULES) {
-                const keywords = moduleDef.keywords[lang] || moduleDef.keywords.en || [];
-                if (keywords.some((keyword) => text.includes(String(keyword).toLowerCase()))) {
-                    return moduleDef.id;
-                }
-            }
-            return null;
-        }
-
-        function buildReportModules(markdown, lang) {
-            const moduleMap = new Map(REPORT_MODULES.map((moduleDef, index) => [
-                moduleDef.id,
-                {
-                    ...moduleDef,
-                    number: String(index + 1).padStart(2, '0'),
-                    sections: [],
-                    hasContent: false,
-                },
-            ]));
-
-            splitMarkdownSections(markdown, lang).forEach((section) => {
-                const moduleKey = moduleMap.has(section.moduleKey) ? section.moduleKey : 'overview';
-                moduleMap.get(moduleKey).sections.push(section);
-            });
-
-            return REPORT_MODULES.map((moduleDef) => {
-                const module = moduleMap.get(moduleDef.id);
-                module.hasContent = module.sections.some((section) => !!(section.content && section.content.trim()));
-                return module;
-            });
-        }
-
-        function normalizeSectionContent(content) {
-            return String(content || '')
-                .replace(/\r/g, '')
-                .replace(/\s+/g, ' ')
-                .trim()
-                .toLowerCase();
-        }
-
-        function normalizeModuleContent(module) {
-            if (!module || !module.hasContent) {
-                return '';
-            }
-            return normalizeSectionContent(module.sections
-                .map((section) => `${section.title}\n${section.content}`)
-                .join('\n\n'));
-        }
-
-        function buildModuleDiff(currentMarkdown, previousMarkdown, lang) {
-            const currentModules = buildReportModules(currentMarkdown, lang);
-            const previousModules = buildReportModules(previousMarkdown, lang);
-            const previousMap = new Map(previousModules.map((module) => [module.id, module]));
-            const counts = { added: 0, modified: 0, removed: 0, unchanged: 0 };
-            const modules = currentModules.map((currentModule) => {
-                const previousModule = previousMap.get(currentModule.id);
-                let status = 'empty';
-                if (currentModule.hasContent && (!previousModule || !previousModule.hasContent)) {
-                    status = 'added';
-                } else if (!currentModule.hasContent && previousModule && previousModule.hasContent) {
-                    status = 'removed';
-                } else if (currentModule.hasContent && previousModule && previousModule.hasContent) {
-                    status = normalizeModuleContent(currentModule) === normalizeModuleContent(previousModule)
-                        ? 'unchanged'
-                        : 'modified';
-                }
-                if (status !== 'empty') {
-                    counts[status] += 1;
-                }
-                return {
-                    ...currentModule,
-                    current: currentModule,
-                    previous: previousModule,
-                    status,
-                    hasContent: currentModule.hasContent || !!(previousModule && previousModule.hasContent),
-                };
-            });
-
-            return { modules, counts };
-        }
 
         function getModuleLabel(moduleDef, lang) {
             if (!moduleDef || !moduleDef.labels) {
