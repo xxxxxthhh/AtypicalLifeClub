@@ -25,6 +25,17 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run research Python unit tests
+        run: python3 -m unittest discover -s static/invest/research -p "test_*.py"
+
+      - name: Run research JavaScript unit tests
+        run: node --test static/invest/research/reports/report-module-parser.test.mjs static/invest/research/test_tracking_rules.mjs
+
       - name: Validate research metadata
         run: python3 static/invest/research/validate_reports.py
 
