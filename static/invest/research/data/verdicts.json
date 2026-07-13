@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12",
+  "generatedAt": "2026-07-13",
   "benchmark": "SMH",
   "entries": [
     {
@@ -315,15 +315,15 @@
       "stanceDate": "2026-07-07",
       "priceAtStance": 2917000.0,
       "benchmarkSymbol": "SMH",
-      "lastDate": "2026-07-10",
-      "lastClose": 2180000.0,
-      "changePct": -25.3,
+      "lastDate": "2026-07-13",
+      "lastClose": 1899000.0,
+      "changePct": -34.9,
       "benchmarkChangePct": 5.1,
-      "relativePct": -30.4,
+      "relativePct": -40.0,
       "bookBenchmarkSymbol": "SMH",
       "bookBenchmarkChangePct": 5.1,
-      "bookRelativePct": -30.4,
-      "daysHeld": 3,
+      "bookRelativePct": -40.0,
+      "daysHeld": 6,
       "stale": false
     },
     {
@@ -423,15 +423,15 @@
       "stanceDate": "2026-06-23",
       "priceAtStance": 86.0,
       "benchmarkSymbol": "XLU",
-      "lastDate": "2026-07-10",
-      "lastClose": 77.81,
-      "changePct": -9.5,
+      "lastDate": "2026-07-13",
+      "lastClose": 73.43,
+      "changePct": -14.6,
       "benchmarkChangePct": 0.8,
-      "relativePct": -10.3,
+      "relativePct": -15.4,
       "bookBenchmarkSymbol": "SMH",
       "bookBenchmarkChangePct": -1.8,
-      "bookRelativePct": -7.7,
-      "daysHeld": 17,
+      "bookRelativePct": -12.8,
+      "daysHeld": 20,
       "stale": false
     },
     {
