@@ -6159,5 +6159,168 @@
         "nextCheckDate": "2026-08"
       }
     ]
+  },
+  {
+    "id": "minimax-2026",
+    "company": "MiniMax Group",
+    "ticker": "HKEX: 0100",
+    "priceSymbol": "0100.HK",
+    "title": "MiniMax Group 深度研究报告 - 应用层需求验证与高估值压力测试",
+    "titleEn": "MiniMax Group Deep Research Report - Application-Layer Demand Validation and Valuation Stress Test",
+    "summary": "首次覆盖 MiniMax 作为 AI 基础设施研究簿的应用层需求风险锚。FY2025 收入 US$79.0M、同比 +158.9%，毛利率由 12.2% 升至 25.4%，海外收入占 73%；但调整后净亏损 US$250.9M、经营现金流流出 US$279.6M。以 HK$261.00（2026-07-15）、配售后 349.235M 股和形式净现金估算，市值约 HK$91.2B、P/S 约 147.9x、EV/FY2025 Sales 约 111.0x。业务增长得到验证，但当前价格要求接近 69% 的四年收入 CAGR，首次观点为谨慎 / 低确信。",
+    "summaryEn": "Initial coverage of MiniMax as the application-layer demand-risk anchor for the AI-infrastructure research book. FY2025 revenue was US$79.0M, up 158.9%, gross margin improved from 12.2% to 25.4%, and international revenue reached 73%. Adjusted net loss was US$250.9M and operating cash outflow was US$279.6M. At HK$261.00 on 2026-07-15, 349.235M post-placement shares, and estimated pro forma net cash, market capitalization is about HK$91.2B, price-to-sales about 147.9x, and EV/FY2025 sales about 111.0x. Growth is real, but the price requires close to 69% four-year revenue CAGR; initial stance is cautious / low conviction.",
+    "tags": [
+      "基础模型",
+      "生成式AI",
+      "多模态",
+      "AI应用"
+    ],
+    "category": "tech",
+    "date": "2026-07-15",
+    "lastUpdate": "2026-07-15",
+    "file": "/invest/research/reports/view.html?id=minimax-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/MiniMax_深度研究报告_2026-07.md",
+      "en": "/invest/research/MiniMax_Deep_Research_Report_2026-07.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "moduleContract": "heading-comment-v1",
+    "highlights": [
+      "FY2025 收入 US$79.0M、同比 +158.9%，毛利率由 12.2% 升至 25.4%，海外收入占 73%",
+      "2025 年前九个月 AI-native 产品平均 MAU 27.6M、付费用户 1.77M；消费产品收入占 FY2025 的 67.2%，平台/企业占 32.8%",
+      "调整后净亏损 US$250.9M、经营现金流流出 US$279.6M；研发费用约为收入 3.2 倍，商业化仍依赖外部资本",
+      "当前 HK$261.00、配售后市值约 HK$91.2B、P/S 约 147.9x、EV/FY2025 Sales 约 111.0x；谨慎 / 低确信"
+    ],
+    "chainLayer": "demand-risk",
+    "coverageTier": "full",
+    "chainRole": "risk-anchor",
+    "stance": "cautious",
+    "conviction": "low",
+    "stanceRationale": {
+      "zh": "以 HK$261.00、配售后约 HK$91.2B 市值和约 111.0x EV/FY2025 Sales 计，市场隐含未来四年收入 CAGR 接近 69%，同时要求毛利率与现金消耗持续改善。收入、全球用户和毛利率改善是真实正面证据，但消费产品单位经济、研发强度与连续融资尚未支持更积极观点。",
+      "en": "At HK$261.00, about HK$91.2B of post-placement market capitalization, and about 111.0x EV/FY2025 sales, the market implies close to 69% four-year revenue CAGR together with sustained gross-margin and cash-burn improvement. Revenue, global users, and gross-margin gains are real, but consumer unit economics, R&D intensity, and repeated financing do not yet support a more positive stance."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若后续报告显示收入增长维持 80% 以上、总毛利率超过 40%、平台占比和付费客户持续提高，经营现金消耗降至收入 100% 以下，且至少 24 个月无需再次大额股权融资，则上调至 neutral-watch 或 constructive。",
+        "en": "Move to neutral-watch or constructive if later reporting shows revenue growth above 80%, consolidated gross margin above 40%, continued platform-mix and paying-customer gains, operating cash burn below 100% of revenue, and at least 24 months without another large equity raise."
+      },
+      "downgrade": {
+        "zh": "若收入增速跌破 50%、总毛利率停留在 25% 附近、经营现金消耗继续超过收入 200%，或可转债/奖励计划后仍需追加大额配售，则下调至 bearish-avoid；重大 IP 禁令、赔偿或关键市场限制同样触发下调。",
+        "en": "Move to bearish-avoid if revenue growth falls below 50%, consolidated gross margin remains near 25%, operating cash burn stays above 200% of revenue, or another large placement follows the bond or awards. A material IP injunction, damages award, or key-market restriction also triggers a downgrade."
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-07-15",
+        "stance": "cautious",
+        "conviction": "low",
+        "price": 261.0
+      }
+    ],
+    "priceAsOf": "2026-07-15",
+    "reportedPeriod": "FY2025 + 2026-07 financing",
+    "related": [
+      "meta-2026",
+      "oracle-2026",
+      "coreweave-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "revenue-mix-and-growth",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "收入增速与产品/平台结构",
+          "en": "Revenue growth and product/platform mix"
+        },
+        "trigger": {
+          "zh": "2026 年消费付费与平台收入同时保持 >80% 增长，或总增速降至 <50%",
+          "en": "consumer paid demand and platform revenue both grow above 80% in 2026, or total growth falls below 50%"
+        },
+        "latest": {
+          "zh": "FY2025 收入 US$79.0M、+158.9%；产品占 67.2%，平台/企业占 32.8%",
+          "en": "FY2025 revenue US$79.0M, +158.9%; products 67.2%, platform and enterprise 32.8%"
+        },
+        "nextCheck": "2026 interim results",
+        "nextCheckDate": "2026-08"
+      },
+      {
+        "id": "unit-economics",
+        "thesis": "either",
+        "theme": "pricing",
+        "metric": {
+          "zh": "毛利率与现金消耗",
+          "en": "Gross margin and cash burn"
+        },
+        "trigger": {
+          "zh": "总毛利率 >40% 且现金消耗/收入 <100%，或毛利率停滞且现金消耗仍 >200% 收入",
+          "en": "gross margin exceeds 40% and cash burn falls below 100% of revenue, or margin stalls while burn remains above 200% of revenue"
+        },
+        "latest": {
+          "zh": "FY2025 毛利率 25.4%；经营现金流 -US$279.6M",
+          "en": "FY2025 gross margin 25.4%; operating cash flow negative US$279.6M"
+        },
+        "nextCheck": "2026 interim results",
+        "nextCheckDate": "2026-08"
+      },
+      {
+        "id": "paying-user-conversion",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "付费用户、留存与 ARPU",
+          "en": "Paying users, retention, and ARPU"
+        },
+        "trigger": {
+          "zh": "付费用户和 ARPU 增速持续超过 MAU，证明消费流量转为高质量收入",
+          "en": "paying users and ARPU consistently grow faster than MAU, showing that consumer traffic becomes higher-quality revenue"
+        },
+        "latest": {
+          "zh": "9M25 AI-native 平均 MAU 27.6M、付费用户 1.77M",
+          "en": "9M25 AI-native average MAU 27.6M and 1.77M paying users"
+        },
+        "nextCheck": "consumer KPI disclosure",
+        "nextCheckDate": "2026-08"
+      },
+      {
+        "id": "funding-dilution",
+        "thesis": "bear",
+        "theme": "leverage-solvency",
+        "metric": {
+          "zh": "现金跑道、融资与完全摊薄股本",
+          "en": "Cash runway, financing, and fully diluted shares"
+        },
+        "trigger": {
+          "zh": "单位经济未改善前继续大额股权融资，或可转债/奖励导致显著额外稀释",
+          "en": "large equity financing continues before unit economics improve, or the bond and awards create material additional dilution"
+        },
+        "latest": {
+          "zh": "35.6M 股配售完成后总股本 349.235M；拟议 CB 全额转股约新增 19.403M 股",
+          "en": "349.235M shares after the completed 35.6M-share placement; full proposed bond conversion would add about 19.403M shares"
+        },
+        "nextCheck": "bond closing and financing updates"
+      },
+      {
+        "id": "ip-regulatory-exposure",
+        "thesis": "bear",
+        "theme": "regulatory",
+        "metric": {
+          "zh": "知识产权诉讼与内容监管",
+          "en": "IP litigation and content regulation"
+        },
+        "trigger": {
+          "zh": "Hailuo 诉讼出现禁令、重大赔偿，或关键市场限制产品分发",
+          "en": "Hailuo litigation produces an injunction or material damages, or a key market restricts product distribution"
+        },
+        "latest": {
+          "zh": "FY2025 未计提拨备，结果与损失仍无法可靠估计",
+          "en": "no FY2025 provision; outcome and loss remain not reliably estimable"
+        },
+        "nextCheck": "event-driven legal and regulatory updates"
+      }
+    ]
   }
 ]

@@ -172,8 +172,8 @@
         "en": "Demand and Financing Risk"
       },
       "description": {
-        "zh": "用高杠杆 GPU 云和客户集中度检验需求是否真实，而不是由融资、循环交易和提前囤货放大。",
-        "en": "Uses leveraged GPU cloud and customer concentration to test whether demand is real, rather than amplified by financing, circularity, and pre-stocking."
+        "zh": "用高杠杆 GPU 云、客户集中度和基础模型应用变现检验需求是否真实，而不是由融资、循环交易、补贴流量和提前囤货放大。",
+        "en": "Uses leveraged GPU cloud, customer concentration, and foundation-model application monetization to test whether demand is real, rather than amplified by financing, circularity, subsidized traffic, and pre-stocking."
       }
     }
   ],
@@ -407,6 +407,17 @@
       "then": {
         "zh": "则电力瓶颈更可能卡在并网和施工交付，而不是设备订单或发电资产估值本身。",
         "en": "then the power bottleneck is more likely grid interconnection and construction delivery, not equipment orders or generation-asset valuation alone."
+      }
+    },
+    {
+      "id": "application-monetization",
+      "if": {
+        "zh": "如果基础模型公司的用户、token 与收入快速增长，但毛利率、付费转化和经营现金流没有同步改善",
+        "en": "If foundation-model users, tokens, and revenue grow quickly but gross margin, paid conversion, and operating cash flow do not improve with them"
+      },
+      "then": {
+        "zh": "则不能把 token throughput 当作上游 AI 基建回报的高质量确认，应提高推理单位经济、补贴需求与循环融资风险权重。",
+        "en": "then do not treat token throughput as high-quality validation of upstream AI-infrastructure returns; raise the weight on inference unit economics, subsidized demand, and circular funding risk."
       }
     }
   ]

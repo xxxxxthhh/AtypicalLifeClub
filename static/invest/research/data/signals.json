@@ -1,5 +1,31 @@
 [
   {
+    "id": "minimax-application-monetization-gap-2026",
+    "date": "2026-07-14",
+    "title": {
+      "zh": "MiniMax 高增长验证应用需求，但单位经济与融资仍未闭环",
+      "en": "MiniMax validates application demand, but unit economics and funding remain open"
+    },
+    "detail": {
+      "zh": "MiniMax FY2025 收入 US$79.0M、同比 +158.9%，毛利率由 12.2% 升至 25.4%，但调整后净亏损 US$250.9M、经营现金流流出 US$279.6M。公司于 2026-07-14 完成 35.6M 股配售，净募资约 HK$9.491B。该信号确认基础模型在消费产品和 API 层有真实付费需求，同时表明 token 与收入增长尚未形成自我融资；若毛利率、付费转化和现金消耗不能同步改善，上游 AI 基建需求仍可能由补贴与外部资本放大。",
+      "en": "MiniMax FY2025 revenue was US$79.0M, up 158.9%, and gross margin improved from 12.2% to 25.4%, but adjusted net loss was US$250.9M and operating cash outflow was US$279.6M. The company completed a 35.6M-share placement on 2026-07-14 for about HK$9.491B of net proceeds. This confirms real paid foundation-model demand across consumer products and APIs, while showing that token and revenue growth are not yet self-funding. If gross margin, paid conversion, and cash burn do not improve together, upstream AI-infrastructure demand may still be amplified by subsidies and external capital."
+    },
+    "crossChecks": [
+      "application-monetization",
+      "neocloud-financing"
+    ],
+    "tickers": [
+      "0100.HK"
+    ],
+    "reportIds": [
+      "minimax-2026"
+    ],
+    "monitoringRefs": [
+      "minimax-2026:unit-economics",
+      "minimax-2026:funding-dilution"
+    ]
+  },
+  {
     "id": "tsmc-june-revenue-q2-in-range-2026",
     "date": "2026-07-13",
     "title": {

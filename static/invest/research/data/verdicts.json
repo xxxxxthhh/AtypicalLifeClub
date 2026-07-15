@@ -631,6 +631,17 @@
       "bookRelativePct": 3.8,
       "daysHeld": 11,
       "stale": false
+    },
+    {
+      "reportId": "minimax-2026",
+      "stance": "cautious",
+      "conviction": "low",
+      "stanceDate": "2026-07-15",
+      "priceAtStance": 261.0,
+      "benchmarkSymbol": "QQQ",
+      "status": "pending",
+      "daysHeld": 0,
+      "stale": false
     }
   ],
   "closed": [

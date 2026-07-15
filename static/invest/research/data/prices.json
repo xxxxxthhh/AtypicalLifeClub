@@ -432,6 +432,18 @@
       "lastClose": 177.92,
       "changePct": 2.7,
       "currency": "USD"
+    },
+    {
+      "reportId": "minimax-2026",
+      "symbol": "0100.HK",
+      "status": "ok",
+      "attemptedAt": "2026-07-15",
+      "baseDate": "2026-07-15",
+      "basePrice": 261.0,
+      "lastDate": "2026-07-15",
+      "lastClose": 261.0,
+      "changePct": 0.0,
+      "currency": "HKD"
     }
   ]
 }
