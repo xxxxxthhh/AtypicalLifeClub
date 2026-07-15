@@ -2802,11 +2802,11 @@
   {
     "id": "sk-hynix-2026",
     "company": "SK hynix",
-    "ticker": "KRX: 000660",
+    "ticker": "KRX: 000660 / NASDAQ: SKHY",
     "priceSymbol": "000660.KS",
     "title": "SK hynix 深度研究报告 - HBM垄断者的AI记忆霸权",
     "titleEn": "SK hynix Deep Research Report - The HBM Monopolist's AI Memory Dominance",
-    "summary": "v5 回填：SK hynix 仍是全球 HBM 领导者，Q1 2026 营收 ₩52.6T、营业利润 ₩37.6T、营业利润率约 72%，但自 2 月以来股价约上涨 3.5 倍，价格锚点 ₩2,917,000 对应约 28x TTM P/E 和约 16x sales。20% 牛市 / 50% 基准 / 30% 熊市情景说明 HBM 质量真实，但当前价格已经资本化接近峰值的盈利能力，因此改为谨慎 / 中确信。",
+    "summary": "v5 回填：SK hynix 仍是全球 HBM 领导者，Q1 2026 营收 ₩52.6T、营业利润 ₩37.6T、营业利润率约 72%，但自 2 月以来股价约上涨 3.5 倍，价格锚点 ₩2,917,000 对应约 28x TTM P/E 和约 16x sales。20% 牛市 / 50% 基准 / 30% 熊市情景说明 HBM 质量真实，但当前价格已经资本化接近峰值的盈利能力，因此改为谨慎 / 中确信。2026-07-10 最终 SEC 424B4 确认 1.779 亿份 SKHY ADS 按 $149 发行、预计净募资约 $26.2B，用于韩国生产设施与 EUV 扫描仪；该事件改善可达性并强化 capex 执行证据，但不刷新 2026-06-25 估值快照。",
     "tags": [
       "半导体",
       "HBM",
@@ -2815,7 +2815,7 @@
     ],
     "category": "tech",
     "date": "2026-02-25",
-    "lastUpdate": "2026-07-07",
+    "lastUpdate": "2026-07-15",
     "file": "/invest/research/reports/view.html?id=sk-hynix-2026",
     "markdownFiles": {
       "zh": "/invest/research/SK_hynix_深度研究报告_2026-02.md",
@@ -2825,9 +2825,9 @@
       "Q1 2026创纪录：营收₩52.6万亿（+198% YoY，+60% QoQ）、营业利润₩37.6万亿（72%利润率）、净利₩40.3万亿",
       "自2月以来股价约涨3.5倍、市值突破$1.3万亿（约₩2,070万亿，价格×约7.08亿股）；TTM P/E约28x，深度价值逻辑已基本兑现",
       "HBM全球份额53%、NVIDIA主供，未来三年需求已超供给；HBM4E样品H2 2026、量产2027",
-      "72%营业利润率接近周期峰值，均值回归与HBM4竞争是核心风险；韩股上市，EWY为便捷间接途径"
+      "72%营业利润率接近周期峰值，均值回归与HBM4竞争是核心风险；2026-07-10 起可通过 NASDAQ: SKHY ADS 直接获得美国市场敞口"
     ],
-    "summaryEn": "July 7, 2026 v5 update: SK hynix remains the global HBM leader, with Q1 2026 revenue of ₩52.6T, operating profit of ₩37.6T, and roughly 72% operating margin. But the stock has risen about 3.5x since February, and the ₩2,917,000 price anchor implies about 28x TTM P/E and roughly 16x sales. A 20% bull / 50% base / 30% bear grid says HBM quality is real, but the current price already capitalizes near-peak profitability, moving stance to cautious / medium conviction.",
+    "summaryEn": "July 7, 2026 v5 update: SK hynix remains the global HBM leader, with Q1 2026 revenue of ₩52.6T, operating profit of ₩37.6T, and roughly 72% operating margin. But the stock has risen about 3.5x since February, and the ₩2,917,000 price anchor implies about 28x TTM P/E and roughly 16x sales. A 20% bull / 50% base / 30% bear grid says HBM quality is real, but the current price already capitalizes near-peak profitability, moving stance to cautious / medium conviction. The final SEC 424B4 dated 2026-07-10 confirms 177.9M SKHY ADSs at $149 and about $26.2B estimated net proceeds for Korean production facilities and EUV scanners; this improves access and strengthens capex-execution evidence without refreshing the 2026-06-25 valuation snapshot.",
     "period": "2026",
     "versionType": "full-cycle",
     "versionLabel": "2026 Full Rerun",
@@ -2921,8 +2921,8 @@
           "en": "peak-earnings downgrades undercut the ~28x TTM P/E"
         },
         "latest": {
-          "zh": "2 月以来约 3.5 倍、市值约 $1.3 万亿（2026-06-25）；深度价值逻辑已基本兑现",
-          "en": "~3.5x since February, ~$1.3T cap (2026-06-25); the deep-value thesis largely played out"
+          "zh": "2 月以来约 3.5 倍、市值约 $1.3 万亿（2026-06-25）的估值快照不变；2026-07-10 最终 SEC 424B4 确认 1.779 亿份 ADS 按 $149 发行、预计净募资约 $26.2B，用于韩国生产设施和 EUV 扫描仪",
+          "en": "the valuation snapshot remains ~3.5x since February and ~$1.3T cap as of 2026-06-25; the final SEC 424B4 dated 2026-07-10 confirms 177.9M ADSs at $149 and about $26.2B estimated net proceeds for Korean production facilities and EUV scanners"
         },
         "nextCheck": "2026-Q2 财报 / Q2 earnings",
         "nextCheckDate": "2026-08"
@@ -4652,8 +4652,8 @@
     "priceSymbol": "TSM",
     "title": "TSMC 深度研究报告 - AI 基建链的先进制程与封装公共约束",
     "titleEn": "TSMC Deep Research Report - The Advanced-Node and Packaging Constraint in AI Infrastructure",
-    "summary": "AI 基础设施书 foundry 层补位：TSMC 是整条链最硬的制造瓶颈，而不是又一个芯片设计公司。2026Q1 收入 $35.90B、毛利率 66.2%、营业利润率 58.1%，Q2 指引 $39.0-40.2B；Jan-May 2026 月度收入合计 NT$1.962T（+30.0%），May 收入 NT$416.975B（+30.1%）。AI/HPC 需求已经穿透到晶圆收入、先进节点和先进封装；但 ADR $434.16（2026-07-02 收盘）、市值约 $2.25T、2026E EV/Sales 约 14x，约定价未来三年 ~21% 收入 CAGR 与 60%+ 毛利。中性观察 / 中确信：高质量但基本被定价；链内角色是 foundry 层 common-constraint。",
-    "summaryEn": "Foundry-layer coverage for the AI-infrastructure book: TSMC is the hard manufacturing bottleneck in the chain, not another chip designer. 2026Q1 revenue was $35.90B, gross margin was 66.2%, operating margin was 58.1%, and Q2 guidance is $39.0-40.2B; Jan-May 2026 revenue reached NT$1.962T (+30.0%), and May revenue was NT$416.975B (+30.1%). AI/HPC demand has reached wafer revenue, advanced nodes, and advanced packaging. But at a $434.16 ADR close on Jul 2, 2026, roughly $2.25T market cap, and about 14x 2026E EV/Sales, the market is underwriting about 21% three-year revenue CAGR with 60%+ gross margin. Neutral watch / medium conviction: high quality but mostly priced in; chain role is foundry common constraint.",
+    "summary": "AI 基础设施书 foundry 层补位：TSMC 是整条链最硬的制造瓶颈，而不是又一个芯片设计公司。2026Q1 收入 $35.90B、毛利率 66.2%、营业利润率 58.1%，Q2 指引 $39.0-40.2B；SEC 6-K 显示 June 收入 NT$442.68B（+67.9%）、Jan-Jun NT$2,404.48B（+35.6%），Q2 月度合计按 31.7 指引汇率折算约 $40.1B，落在指引区间内。AI/HPC 需求已经穿透到晶圆收入、先进节点和先进封装；但 ADR $434.16（2026-07-02 收盘）、市值约 $2.25T、2026E EV/Sales 约 14x，约定价未来三年 ~21% 收入 CAGR 与 60%+ 毛利。中性观察 / 中确信：高质量但基本被定价；链内角色是 foundry 层 common-constraint。",
+    "summaryEn": "Foundry-layer coverage for the AI-infrastructure book: TSMC is the hard manufacturing bottleneck in the chain, not another chip designer. 2026Q1 revenue was $35.90B, gross margin was 66.2%, operating margin was 58.1%, and Q2 guidance is $39.0-40.2B. The SEC 6-K reports June revenue of NT$442.68B (+67.9%) and Jan-Jun revenue of NT$2,404.48B (+35.6%); the monthly Q2 total converts to about $40.1B at the 31.7 guidance FX rate, within the range. AI/HPC demand has reached wafer revenue, advanced nodes, and advanced packaging. But at a $434.16 ADR close on Jul 2, 2026, roughly $2.25T market cap, and about 14x 2026E EV/Sales, the market is underwriting about 21% three-year revenue CAGR with 60%+ gross margin. Neutral watch / medium conviction: high quality but mostly priced in; chain role is foundry common constraint.",
     "tags": [
       "晶圆代工",
       "AI基础设施",
@@ -4662,7 +4662,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-07",
+    "lastUpdate": "2026-07-15",
     "file": "/invest/research/reports/view.html?id=tsmc-2026",
     "markdownFiles": {
       "zh": "/invest/research/TSMC_深度研究报告_2026-07.md",
@@ -4727,8 +4727,8 @@
           "en": "7nm-and-below mix or monthly revenue falls materially below Q2 / full-year trajectory"
         },
         "latest": {
-          "zh": "2026Q1 先进节点约占 wafer revenue 74%；Jan-May 收入 NT$1.962T，约 +30.0%",
-          "en": "advanced nodes were about 74% of wafer revenue in 2026Q1; Jan-May revenue NT$1.962T, about +30.0%"
+          "zh": "2026Q1 先进节点约占 wafer revenue 74%；SEC 6-K 显示 6 月收入 NT$442.68B（同比 +67.9%）、Jan-Jun NT$2,404.48B（+35.6%）；Q2 月度合计按 31.7 指引汇率折算约 $40.1B，落在 $39.0-40.2B 区间内，分部 mix 待 07-16 财报",
+          "en": "advanced nodes were about 74% of wafer revenue in 2026Q1; the SEC 6-K reports June revenue of NT$442.68B (+67.9% YoY) and Jan-Jun revenue of NT$2,404.48B (+35.6%); the monthly Q2 total converts to about $40.1B at the 31.7 guidance FX rate, within the $39.0-40.2B range, with segment mix due in the 07-16 results"
         },
         "nextCheck": "月度收入与 2026Q2 财报 / monthly revenue and 2026Q2 results",
         "nextCheckDate": "2026-07"
@@ -4815,8 +4815,8 @@
     "priceSymbol": "MU",
     "title": "Micron Technology 深度研究报告 - AI memory 周期的 HBM/DRAM/NAND 仪表盘",
     "titleEn": "Micron Technology Deep Research Report - HBM, DRAM, and NAND Dashboard for the AI Memory Cycle",
-    "summary": "AI 基础设施书 memory-storage 层补位：Micron 是 HBM、DDR5、数据中心 SSD 和长期供货协议共同构成的 AI 供给瓶颈仪表盘。FY2026 Q3 收入 $41.46B、毛利率约 84.6%、营业利润 $33.32B、净利润 $28.24B，Q4 指引收入 $49-51B、调整后 EPS $30-32、毛利率约 86%。HBM 产能公开报道显示已售罄至 2026，16 个战略客户协议中 14 个最低合同收入约 $100B、约 $22B 现金存款/承诺。2026-07-07 v5 更新：当前 $975.56（2026-07-02 收盘）、市值约 $1.10T，20% 牛市 / 50% 基准 / 30% 熊市情景网格给出温和负偏斜，判断改为谨慎 / 中确信：市场隐含通过周期可持续 EPS 约 $65-81，高于我们约 $53 的加权值，周期均值回归风险未被完全定价。",
-    "summaryEn": "Memory-storage coverage for the AI-infrastructure book: Micron is the dashboard for HBM, DDR5, data-center SSDs, and long-term supply agreements as AI supply constraints move into memory. FY2026 Q3 revenue was $41.46B, gross margin about 84.6%, operating income $33.32B, and net income $28.24B; Q4 guidance is $49-51B revenue, $30-32 adjusted EPS, and about 86% gross margin. Public reports say HBM capacity is sold out through 2026, and 14 of 16 strategic customer agreements have about $100B of minimum contract revenue plus roughly $22B deposits / commitments. July 7, 2026 v5 update: at $975.56 (Jul 2, 2026 close) and about $1.10T market cap, a 20% bull / 50% base / 30% bear scenario grid produces a mildly negative skew, so the stance moves to cautious / medium conviction: the market is underwriting roughly $65-81 of through-cycle sustainable EPS versus our about $53 weighted value, so memory mean-reversion risk is not fully priced.",
+    "summary": "AI 基础设施书 memory-storage 层补位：Micron 是 HBM、DDR5、数据中心 SSD 和长期供货协议共同构成的 AI 供给瓶颈仪表盘。FY2026 Q3 收入 $41.46B、毛利率约 84.6%、营业利润 $33.32B、净利润 $28.24B，Q4 指引收入 $49-51B、调整后 EPS $30-32、毛利率约 86%。HBM 产能公开报道显示已售罄至 2026，16 个战略客户协议中 14 个最低合同收入约 $100B、约 $22B 现金存款/承诺。2026-07-07 v5 更新：当前 $975.56（2026-07-02 收盘）、市值约 $1.10T，20% 牛市 / 50% 基准 / 30% 熊市情景网格给出温和负偏斜，判断改为谨慎 / 中确信。2026-07-09 官方公告最多 $3B 的美国供应链投入、拟向 GlobalWafers 融资 $500M 并签 10 年 300mm 原始硅片协议，强化长期供给响应证据，但不代表新增 bit supply 已上线，也不刷新 2026-07-02 估值快照。",
+    "summaryEn": "Memory-storage coverage for the AI-infrastructure book: Micron is the dashboard for HBM, DDR5, data-center SSDs, and long-term supply agreements as AI supply constraints move into memory. FY2026 Q3 revenue was $41.46B, gross margin about 84.6%, operating income $33.32B, and net income $28.24B; Q4 guidance is $49-51B revenue, $30-32 adjusted EPS, and about 86% gross margin. Public reports say HBM capacity is sold out through 2026, and 14 of 16 strategic customer agreements have about $100B of minimum contract revenue plus roughly $22B deposits / commitments. July 7, 2026 v5 update: at $975.56 (Jul 2, 2026 close) and about $1.10T market cap, a 20% bull / 50% base / 30% bear grid moves the stance to cautious / medium conviction. Micron's official 2026-07-09 release adds up to $3B of U.S. supply-chain investment, proposed $500M GlobalWafers financing, and a 10-year 300mm raw-wafer agreement; this strengthens long-term supply-response evidence without putting new bit supply online or refreshing the 2026-07-02 valuation snapshot.",
     "tags": [
       "HBM",
       "DRAM",
@@ -4825,7 +4825,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-07",
+    "lastUpdate": "2026-07-15",
     "file": "/invest/research/reports/view.html?id=micron-2026",
     "markdownFiles": {
       "zh": "/invest/research/Micron_深度研究报告_2026-07.md",
@@ -4950,8 +4950,8 @@
           "en": "2027 / 2028 new supply arrives faster than AI demand, or Korea / U.S. expansion weakens pricing"
         },
         "latest": {
-          "zh": "Idaho/New York 扩产在路上，但有效供给主要滞后到 2027/2030 后",
-          "en": "Idaho / New York expansions are underway, but effective supply mostly lags into 2027 / 2030 and beyond"
+          "zh": "Idaho/New York 扩产在路上；Micron 2026-07-09 宣布最多 $3B 的美国供应链投入（含拟向 GlobalWafers 融资 $500M 与 10 年 300mm 原始硅片协议），并在纽约 fab 浇筑首块混凝土；有效供给仍主要滞后到 2027/2030 后",
+          "en": "Idaho / New York expansions are underway; on 2026-07-09 Micron announced up to $3B of U.S. supply-chain investment, including proposed $500M financing for GlobalWafers and a 10-year 300mm raw-wafer agreement, and poured first concrete at its New York fab; effective supply still mostly lags into 2027 / 2030 and beyond"
         },
         "nextCheck": "行业 capex 与 bit supply / industry capex and bit supply"
       },

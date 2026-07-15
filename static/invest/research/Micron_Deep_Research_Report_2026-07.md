@@ -1,7 +1,7 @@
 # Micron Technology (MU) Deep Research Report
 
 Coverage date: 2026-07-04
-Last updated: 2026-07-07
+Last updated: 2026-07-15
 Ticker: NASDAQ: MU
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -163,6 +163,8 @@ MU's valuation paradox is that current earnings are so strong that P/E looks rea
 
 Structured monitoring should focus on HBM sold-out status, DRAM / NAND contract prices, SCA revenue mix, customer deposits, capex / bit supply, inventory, and gross-margin normalization.
 
+**2026-07-15 monitoring update (no stance change):** Micron's official Jul 9 release announced up to $3B to strengthen the U.S. semiconductor supply chain, including proposed $500M financing for GlobalWafers and a 10-year 300mm raw-wafer supply agreement; the financing and agreement remain subject to definitive documents, regulatory approvals, and other conditions. The company separately poured first concrete at its New York fab and reiterated plans to invest more than $250B in the United States through 2035. This strengthens evidence of a supply response after 2027 / 2030, but does not mean incremental bit supply is online and does not refresh this report's Jul 2, 2026 valuation snapshot. The cautious / medium-conviction stance is unchanged.
+
 ## 10. Conclusion
 
 Micron is necessary coverage for the memory-storage layer. Its chain-validation job is to tell us whether AI demand is truly reaching memory bits, bandwidth, and pricing: if HBM stays sold out, DRAM / NAND contract prices hold firm, and SCA revenue mix rises, the AI-infrastructure supply-shortage narrative is more credible; if those indicators weaken, the chain's memory assumptions and downstream accelerator schedules both need recalibration.
@@ -180,5 +182,6 @@ Upgrade trigger: move to neutral-watch or constructive if FY2026 Q4 delivers the
 - HBM sold out through 2026, ability to satisfy about 50%-66% of demand, and the three-vendor HBM market frame are sourced from The Times: https://www.thetimes.com/business/technology/article/micron-semiconductor-ai-stock-volatile-7ftpl8v2j.
 - Sixteen SCAs, 14 with about $100B minimum contract revenue, about $22B deposits / commitments, and gradual supply improvement only in 2028 are sourced from Tom's Hardware: https://www.tomshardware.com/pc-components/dram/micron-inks-long-term-supply-agreements-worth-usd100-billion-says-it-has-no-idea-when-ram-crisis-will-end.
 - June DRAM up about 3%, NAND up about 2.4%, and continuing 2026 supply tightness are sourced from Barron's: https://www.barrons.com/articles/micron-stock-price-memory-chips-27d535f8.
+- Micron's up-to-$3B U.S. supply-chain commitment, proposed $500M GlobalWafers financing, and 10-year 300mm raw-wafer agreement are sourced from the company's official 2026-07-09 release: https://investors.micron.com/node/50766/pdf. First concrete at the New York fab and the more-than-$250B U.S. investment framework through 2035 are sourced from the company's official release: https://investors.micron.com/node/50776/pdf.
 - MU's Jul 2, 2026 close of $975.56, roughly $1.10T market cap, about 1.13B shares, and Q3 cash/debt/cash-flow tables were pulled through Yahoo Finance/yfinance on 2026-07-04. This market-data snapshot can be revised by the data provider and should subsequently be maintained by `static/invest/research/update_prices.py`.
 - The v5 scenario grid and priced-in paragraph use the same Jul 2, 2026 market snapshot and the FY2026 Q3 actual / Q4 guidance figures. The reverse-multiple math and the implied sustainable-EPS band describe market-implied expectations only — an expectations-calibration frame, not target prices.

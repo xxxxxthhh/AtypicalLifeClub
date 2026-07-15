@@ -1,5 +1,100 @@
 [
   {
+    "id": "tsmc-june-revenue-q2-in-range-2026",
+    "date": "2026-07-13",
+    "title": {
+      "zh": "TSMC 6 月收入 NT$442.68B，Q2 按官方指引汇率折算落在区间内",
+      "en": "TSMC posts NT$442.68B June revenue, with Q2 landing within guidance at the official planning FX rate"
+    },
+    "detail": {
+      "zh": "TSMC 2026-07-13 提交的 SEC 6-K 显示，6 月收入 NT$442.68B（同比 +67.9%），Jan-Jun 合计 NT$2,404.48B（同比 +35.6%）；据月度收入相加，Q2 约 NT$1.270T，按公司 Q1 财报给出的 31.7 NT$/US$ 规划汇率折算约 US$40.1B，落在 US$39.0-40.2B 指引区间内，并非超指引。该读数确认 foundry 收入仍处强劲轨迹，但不能单独证明先进节点利用率、CoWoS 排产或客户结构；这些项目及毛利率需等待 2026-07-16 的完整 Q2 财报。",
+      "en": "TSMC's SEC 6-K filed on 2026-07-13 reports June revenue of NT$442.68B (+67.9% YoY) and Jan-Jun revenue of NT$2,404.48B (+35.6%). Summing the monthly figures gives roughly NT$1.270T for Q2, or about US$40.1B at the NT$31.7/US$ planning rate in the company's Q1 release—within the US$39.0-40.2B guidance range, not above it. The reading confirms a strong foundry revenue trajectory, but by itself does not establish advanced-node utilization, CoWoS bookings, or customer mix; those items and margins await the full Q2 release on 2026-07-16."
+    },
+    "crossChecks": [
+      "chip-vs-downstream",
+      "advanced-packaging-chokepoint"
+    ],
+    "tickers": [
+      "TSM",
+      "NVDA",
+      "AVGO",
+      "AMD",
+      "MRVL"
+    ],
+    "reportIds": [
+      "tsmc-2026"
+    ],
+    "monitoringRefs": [
+      "tsmc-2026:advanced-node-utilization"
+    ]
+  },
+  {
+    "id": "memory-capacity-capital-2026-07",
+    "date": "2026-07-10",
+    "title": {
+      "zh": "Micron 扩大美国供应链承诺，SK hynix 以 ADS 融资支持韩国 fab 与 EUV",
+      "en": "Micron expands U.S. supply-chain commitments as SK hynix funds Korean fabs and EUV through an ADS offering"
+    },
+    "detail": {
+      "zh": "Micron 2026-07-09 官方公告最多投入 $3B 强化美国半导体供应链，其中拟向 GlobalWafers 提供 $500M 融资并签订 10 年 300mm 原始硅片供应协议；融资与协议仍以最终文件、监管批准等条件为前提。Micron 同期在纽约 fab 浇筑首块混凝土，并重申到 2035 年在美国投入超过 $250B 的计划。SK hynix 2026-07-10 最终 SEC 424B4 则确认以每 ADS $149 发行 177.9M 份 ADS、预计净募资约 $26.2B，拟在 2027 年 12 月前用于韩国生产设施及 EUV 扫描仪。两项资本动作强化 memory 供给响应证据，但尚不等于新增 bit supply 已经上线。",
+      "en": "Micron's official 2026-07-09 release announced up to $3B to strengthen the U.S. semiconductor supply chain, including proposed $500M financing for GlobalWafers and a 10-year 300mm raw-wafer supply agreement; the financing and agreement remain subject to definitive documents, regulatory approvals, and other conditions. Micron separately poured first concrete at its New York fab and reiterated plans to invest more than $250B in the United States through 2035. SK hynix's final SEC 424B4 dated 2026-07-10 confirms 177.9M ADSs at $149 each and estimated net proceeds of about $26.2B, intended for Korean production facilities and EUV scanners through December 2027. The two capital actions strengthen evidence of a memory supply response, but do not mean incremental bit supply is already online."
+    },
+    "crossChecks": [
+      "memory-cycle",
+      "semicap-eda-capex-commitment"
+    ],
+    "tickers": [
+      "MU",
+      "000660.KS",
+      "SKHY",
+      "ASML"
+    ],
+    "reportIds": [
+      "micron-2026",
+      "sk-hynix-2026"
+    ],
+    "monitoringRefs": [
+      "micron-2026:capex-supply-response",
+      "sk-hynix-2026:rerating-realized"
+    ]
+  },
+  {
+    "id": "samsung-memory-preliminary-profit-2026q2",
+    "date": "2026-07-07",
+    "title": {
+      "zh": "三星 Q2 初步营业利润约 ₩89.4T，分部归因待正式财报",
+      "en": "Samsung guides to about KRW 89.4T of preliminary Q2 operating profit, with segment attribution still pending"
+    },
+    "detail": {
+      "zh": "三星电子 2026-07-07 官方初步业绩指引给出 Q2 合并销售额约 ₩171T、营业利润约 ₩89.4T。该公告只提供合并预估，尚无 memory、foundry、mobile 等分部拆分，因此在 2026-07-30 正式业绩发布前，不把利润跳升直接归因于 AI memory/HBM。它作为 memory-cycle 的预警读数：若正式分部数据确认 memory 价格与利润率同步走高，将加强周期高景气信号；若利润来自其他分部，则需下调其对 memory 论点的权重。",
+      "en": "Samsung Electronics' official preliminary earnings guidance on 2026-07-07 puts consolidated Q2 sales at about KRW 171T and operating profit at about KRW 89.4T. The release provides only consolidated estimates, with no split for memory, foundry, mobile, or other segments, so the profit increase is not attributed directly to AI memory or HBM before the full results on 2026-07-30. It is an early memory-cycle reading: confirmation that memory pricing and margins rose together would strengthen the high-cycle signal, while profit concentrated elsewhere would reduce its weight in the memory thesis."
+    },
+    "crossChecks": [
+      "memory-cycle",
+      "chip-vs-downstream"
+    ],
+    "tickers": [
+      "005930.KS",
+      "000660.KS",
+      "MU",
+      "SNDK",
+      "NVDA"
+    ],
+    "reportIds": [
+      "micron-2026",
+      "sk-hynix-2026",
+      "sandisk-2026"
+    ],
+    "monitoringRefs": [
+      "micron-2026:dram-nand-pricing",
+      "micron-2026:valuation-cycle-risk",
+      "sk-hynix-2026:margin-mean-reversion",
+      "sk-hynix-2026:rerating-realized",
+      "sandisk-2026:nand-cycle-margin-peak",
+      "sandisk-2026:cycle-derating"
+    ]
+  },
+  {
     "id": "semicap-eda-ai-capex-commitment-2026",
     "date": "2026-07-05",
     "title": {

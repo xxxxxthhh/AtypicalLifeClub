@@ -6,6 +6,27 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>SK hynix 深度研究报告 - HBM垄断者的AI记忆霸权 / SK hynix Deep Research Report - The HBM Monopolist's AI Memory Dominance</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=sk-hynix-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=sk-hynix-2026#sk-hynix-2026@2026-07-15</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+      <description>v5 回填：SK hynix 仍是全球 HBM 领导者，Q1 2026 营收 ₩52.6T、营业利润 ₩37.6T、营业利润率约 72%，但自 2 月以来股价约上涨 3.5 倍，价格锚点 ₩2,917,000 对应约 28x TTM P/E 和约 16x sales。20% 牛市 / 50% 基准 / 30% 熊市情景说明 HBM 质量真实，但当前价格已经资本化接近峰值的盈利能力，因此改为谨慎 / 中确信。2026-07-10 最终 SEC 424B4 确认 1.779 亿份 SKHY ADS 按 $149 发行、预计净募资约 $26.2B，用于韩国生产设施与 EUV 扫描仪；该事件改善可达性并强化 capex 执行证据，但不刷新 2026-06-25 估值快照。</description>
+    </item>
+    <item>
+      <title>TSMC 深度研究报告 - AI 基建链的先进制程与封装公共约束 / TSMC Deep Research Report - The Advanced-Node and Packaging Constraint in AI Infrastructure</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=tsmc-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=tsmc-2026#tsmc-2026@2026-07-15</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施书 foundry 层补位：TSMC 是整条链最硬的制造瓶颈，而不是又一个芯片设计公司。2026Q1 收入 $35.90B、毛利率 66.2%、营业利润率 58.1%，Q2 指引 $39.0-40.2B；SEC 6-K 显示 June 收入 NT$442.68B（+67.9%）、Jan-Jun NT$2,404.48B（+35.6%），Q2 月度合计按 31.7 指引汇率折算约 $40.1B，落在指引区间内。AI/HPC 需求已经穿透到晶圆收入、先进节点和先进封装；但 ADR $434.16（2026-07-02 收盘）、市值约 $2.25T、2026E EV/Sales 约 14x，约定价未来三年 ~21% 收入 CAGR 与 60%+ 毛利。中性观察 / 中确信：高质量但基本被定价；链内角色是 foundry 层 common-constraint。</description>
+    </item>
+    <item>
+      <title>Micron Technology 深度研究报告 - AI memory 周期的 HBM/DRAM/NAND 仪表盘 / Micron Technology Deep Research Report - HBM, DRAM, and NAND Dashboard for the AI Memory Cycle</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=micron-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=micron-2026#micron-2026@2026-07-15</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施书 memory-storage 层补位：Micron 是 HBM、DDR5、数据中心 SSD 和长期供货协议共同构成的 AI 供给瓶颈仪表盘。FY2026 Q3 收入 $41.46B、毛利率约 84.6%、营业利润 $33.32B、净利润 $28.24B，Q4 指引收入 $49-51B、调整后 EPS $30-32、毛利率约 86%。HBM 产能公开报道显示已售罄至 2026，16 个战略客户协议中 14 个最低合同收入约 $100B、约 $22B 现金存款/承诺。2026-07-07 v5 更新：当前 $975.56（2026-07-02 收盘）、市值约 $1.10T，20% 牛市 / 50% 基准 / 30% 熊市情景网格给出温和负偏斜，判断改为谨慎 / 中确信。2026-07-09 官方公告最多 $3B 的美国供应链投入、拟向 GlobalWafers 融资 $500M 并签 10 年 300mm 原始硅片协议，强化长期供给响应证据，但不代表新增 bit supply 已上线，也不刷新 2026-07-02 估值快照。</description>
+    </item>
+    <item>
       <title>ASML 深度研究报告 - EUV / High-NA 作为设备层公共约束 / ASML Deep Research Report - EUV / High-NA as the Equipment-Layer Common Constraint</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=asml-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=asml-2026#asml-2026@2026-07-07</guid>
@@ -125,13 +146,6 @@
       <description>v5 回填：SanDisk Q3 FY2026 营收 $5.95B、数据中心 $1.47B、GAAP 毛利率 78.4%、FCF $2.99B、零债务，五份 NBM 长协带来约 $42B 最低合同收入框架。但以 $2,090.71 价格锚点和 Q4 年化 EPS 约 $120-132 计，当前价格在 12-15x memory-cycle 框架下隐含约 $139-174 的通过周期可持续 EPS。20% 牛市 / 40% 基准 / 40% 熊市情景把峰值 NAND 盈利均值回归风险放在前面，因此改为谨慎 / 中确信。</description>
     </item>
     <item>
-      <title>SK hynix 深度研究报告 - HBM垄断者的AI记忆霸权 / SK hynix Deep Research Report - The HBM Monopolist's AI Memory Dominance</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=sk-hynix-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=sk-hynix-2026#sk-hynix-2026@2026-07-07</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
-      <description>v5 回填：SK hynix 仍是全球 HBM 领导者，Q1 2026 营收 ₩52.6T、营业利润 ₩37.6T、营业利润率约 72%，但自 2 月以来股价约上涨 3.5 倍，价格锚点 ₩2,917,000 对应约 28x TTM P/E 和约 16x sales。20% 牛市 / 50% 基准 / 30% 熊市情景说明 HBM 质量真实，但当前价格已经资本化接近峰值的盈利能力，因此改为谨慎 / 中确信。</description>
-    </item>
-    <item>
       <title>Almonty Industries 深度研究报告 - 西方钨供应链稀缺资产的兑现考验 / Almonty Industries Deep Research Report - Western Tungsten Scarcity Asset Execution Test</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=almonty-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=almonty-2026#almonty-2026@2026-07-07</guid>
@@ -186,20 +200,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=broadcom-2026#broadcom-2026@2026-07-07</guid>
       <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
       <description>自定义 AI 硅（XPU）最大的卖铲人，正是 NVIDIA 报告点名的最深结构性威胁的承接方；同时握有 VMware 软件现金机器。Q2 FY2026 营收 $22.19B（+48%），AI 半导体 $10.8B（+143%），AI backlog &gt;$30B，FY2027 AI 目标 &gt;$1000 亿；Google/Meta/字节/Anthropic/OpenAI/Fujitsu 等客户项目与 $73B backlog 属公开报道/市场拆解口径，非全部官方确认。但收入兑现后置到 FY2027、客户高度集中、总债务 $64.9B、净债务约 $45B。市值约 $1.8 万亿、远期 P/E 约 33x，介于 NVIDIA ~25x 与 AMD ~58x 之间。neutral-watch / 中等确信：世界级卖铲人，但 FY2027 分母大多已被定价。</description>
-    </item>
-    <item>
-      <title>TSMC 深度研究报告 - AI 基建链的先进制程与封装公共约束 / TSMC Deep Research Report - The Advanced-Node and Packaging Constraint in AI Infrastructure</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=tsmc-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=tsmc-2026#tsmc-2026@2026-07-07</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施书 foundry 层补位：TSMC 是整条链最硬的制造瓶颈，而不是又一个芯片设计公司。2026Q1 收入 $35.90B、毛利率 66.2%、营业利润率 58.1%，Q2 指引 $39.0-40.2B；Jan-May 2026 月度收入合计 NT$1.962T（+30.0%），May 收入 NT$416.975B（+30.1%）。AI/HPC 需求已经穿透到晶圆收入、先进节点和先进封装；但 ADR $434.16（2026-07-02 收盘）、市值约 $2.25T、2026E EV/Sales 约 14x，约定价未来三年 ~21% 收入 CAGR 与 60%+ 毛利。中性观察 / 中确信：高质量但基本被定价；链内角色是 foundry 层 common-constraint。</description>
-    </item>
-    <item>
-      <title>Micron Technology 深度研究报告 - AI memory 周期的 HBM/DRAM/NAND 仪表盘 / Micron Technology Deep Research Report - HBM, DRAM, and NAND Dashboard for the AI Memory Cycle</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=micron-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=micron-2026#micron-2026@2026-07-07</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施书 memory-storage 层补位：Micron 是 HBM、DDR5、数据中心 SSD 和长期供货协议共同构成的 AI 供给瓶颈仪表盘。FY2026 Q3 收入 $41.46B、毛利率约 84.6%、营业利润 $33.32B、净利润 $28.24B，Q4 指引收入 $49-51B、调整后 EPS $30-32、毛利率约 86%。HBM 产能公开报道显示已售罄至 2026，16 个战略客户协议中 14 个最低合同收入约 $100B、约 $22B 现金存款/承诺。2026-07-07 v5 更新：当前 $975.56（2026-07-02 收盘）、市值约 $1.10T，20% 牛市 / 50% 基准 / 30% 熊市情景网格给出温和负偏斜，判断改为谨慎 / 中确信：市场隐含通过周期可持续 EPS 约 $65-81，高于我们约 $53 的加权值，周期均值回归风险未被完全定价。</description>
     </item>
     <item>
       <title>Constellation Energy 深度研究报告 - AI 电力约束的核电与 Calpine 综合电力锚 / Constellation Energy Deep Research Report - Nuclear and Calpine Integrated Power Anchor for AI</title>

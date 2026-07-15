@@ -1,8 +1,8 @@
 # SK hynix (000660) Deep Research Report
 
 Coverage date: 2026-02-25
-Last updated: 2026-07-07
-Ticker: KRX: 000660
+Last updated: 2026-07-15
+Ticker: KRX: 000660 / NASDAQ: SKHY
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
@@ -199,11 +199,17 @@ HBM4 is the key inflection point:
 
 ---
 
-## 6. Investment Routes for Non-Korean Investors
+## 6. Investment Routes
 
-SK hynix is listed on KRX only. No U.S. ADR exists (under consideration). Available options:
+SK hynix continues to trade on KRX; since 2026-07-10, investors can also obtain direct U.S.-market exposure through the NASDAQ: SKHY ADSs. The main routes are:
 
-### 6.1 ETF Route (Most Convenient)
+### 6.1 NASDAQ ADS (Most Direct U.S.-Market Route)
+
+- The final SEC 424B4 confirms 177.9M ADSs at $149 each and estimated net proceeds of about $26.2B
+- Proceeds are intended for Korean production facilities and EUV scanners through December 2027
+- The ADSs improve access but do not refresh this report's Korean-share valuation snapshot dated 2026-06-25; investors should still check the ADS ratio, liquidity, and pricing differences before trading
+
+### 6.2 ETF Route (Diversified Exposure)
 
 | ETF | SK hynix Weight | Notes | Expense Ratio |
 |-----|----------------|-------|---------------|
@@ -211,16 +217,16 @@ SK hynix is listed on KRX only. No U.S. ADR exists (under consideration). Availa
 | **AGIX** | Exposure | KraneShares AI & Technology ETF | 0.68% |
 | **Xtrackers MSCI Korea** | ~19% | Europe-listed, UCITS-compliant | 0.65% |
 
-**EWY is the most direct option**, but note: you're also buying Samsung, Hyundai, and the Korean economy.
+**EWY is a convenient diversified option**, but note that it also buys Samsung, Hyundai, and the Korean economy. SKHY ADSs provide a shorter route when direct SK hynix exposure is the objective.
 
-### 6.2 Parent Company: SK Square (071050.KS)
+### 6.3 Parent Company: SK Square (071050.KS)
 
 - Holds ~20% of SK hynix
 - Trades at a typical holding-company discount (30-50%)
 - Effectively buying SK hynix at a discount
 - Also requires a Korean brokerage account
 
-### 6.3 Related U.S.-Listed Beneficiaries
+### 6.4 Related U.S.-Listed Beneficiaries
 
 | Stock | Thesis | Notes |
 |-------|--------|-------|
@@ -230,7 +236,7 @@ SK hynix is listed on KRX only. No U.S. ADR exists (under consideration). Availa
 | **Lam Research (LRCX)** | Equipment supplier | Etch and deposition |
 | **ASML** | Lithography | All advanced memory requires it |
 
-### 6.4 Direct Korean Brokerage
+### 6.5 Direct Korean Brokerage
 
 - Interactive Brokers supports KRX
 - Buy 000660.KS directly
@@ -312,8 +318,10 @@ SK hynix should be framed like Micron: the question is not whether AI memory dem
 | 2026 Q2 | Whether peak margins hold and ASPs top out | ⭐⭐⭐⭐⭐ |
 | 2026 H2 | HBM4 mass-production progress and Samsung share shifts | ⭐⭐⭐⭐⭐ |
 | Ongoing | NVIDIA Rubin GPU launch cadence | ⭐⭐⭐⭐ |
-| Ongoing | U.S. ADR listing progress | ⭐⭐⭐ |
+| 2026-07-10 | SKHY ADS offering completed and Nasdaq trading began; monitoring shifts to fab / EUV deployment of proceeds | ✓ integrated |
 | 2027 | Whether the memory cycle peaks; HBM4E mass production | ⭐⭐⭐⭐⭐ |
+
+**2026-07-15 monitoring update (no stance change):** SK hynix's final SEC 424B4 confirms 177.9M ADSs at $149 each and estimated net proceeds of about $26.2B, intended for Korean production facilities and EUV scanners through December 2027. The event improves U.S. investor access and strengthens evidence of capex execution, but it is not a new Korean-share valuation snapshot. This report explicitly retains the ₩2,917,000 valuation anchor dated 2026-06-25; the cautious / medium-conviction stance is unchanged.
 
 ---
 
@@ -328,8 +336,8 @@ SK hynix should be framed like Micron: the question is not whether AI memory dem
 | Financial Health | 10/10 | Record earnings, ₩35T net cash |
 | Management | 6/10 | Chaebol governance, but capital allocation and returns improving |
 | Valuation | 6/10 | Re-rated from deep value to TTM ~28x / P/S ~16x; margin of safety narrowed |
-| Investability | 5/10 | Korean-listed only, indirect routes have friction |
-| Catalyst Clarity | 8/10 | HBM4 ramp, NVIDIA Rubin, potential ADR listing |
+| Investability | 8/10 | In addition to the KRX ordinary shares, NASDAQ: SKHY ADSs provide direct U.S.-market exposure from 2026-07-10 |
+| Catalyst Clarity | 8/10 | HBM4 ramp, NVIDIA Rubin, and fab / EUV execution after the SKHY raise |
 
 ### Bottom Line
 
@@ -340,7 +348,7 @@ But the nature of the opportunity has changed since February. Back then the core
 **Risk-matching characteristics (descriptive, not investment advice):**
 - Cycle position: currently in the high-boom phase of the memory supercycle, with peak margins and peak valuation together — highly sensitive to the cycle turning
 - Valuation: the deep-value window has closed; this is now closer to "owning a high-quality monopolist at a full-ish price," calling for a risk budget that can absorb cyclical swings
-- Access: Korean-listed; U.S. investors go via EWY/Interactive Brokers or hold directly, or use Micron (MU) as the closest proxy
+- Access: U.S. investors can hold NASDAQ: SKHY ADSs directly, or use the KRX ordinary shares, EWY, or Micron (MU) for different forms of exposure
 - Governance and geopolitics: the chaebol discount and US-China tensions are structural backdrops to factor in beforehand
 
 **Key watch point:** 2026 Q2 and H2 are the critical windows — whether peak margins hold, whether ASPs come under pressure as HBM4 ramps, and whether Samsung regains share. Fundamental top signals matter more than valuation here: at a cyclical peak, whether the stock looks cheap matters far less than how much longer earnings can keep climbing.
@@ -364,7 +372,7 @@ Upgrade trigger: move to neutral-watch or constructive if Q2/H2 results show HBM
 | HBM share | 53% | ~35% | ~12% |
 | HBM position | Leader, NVIDIA primary | Catching up, HBM4 accelerating | #3, U.S. policy support |
 | Advanced packaging | 12-18 month lead | Catching up | Relatively behind |
-| Access for U.S. investors | KRX / EWY indirect | KRX / EWY indirect | U.S.-listed direct (MU) |
+| Access for U.S. investors | NASDAQ: SKHY ADS / KRX / EWY | KRX / EWY indirect | U.S.-listed direct (MU) |
 
 **Key assumptions:** FY2025 revenue ₩97.1T and operating profit ₩47.2T (49% margin) are the company's reported annual baseline; Q1 2026 actuals (revenue ₩52.6T, operating profit ₩37.6T / 72%, net ₩40.3T, net cash ₩35T) are from the 2026-04-23 results; the valuation anchor is the 2026-06-25 close of ₩2,917,000 / ~₩2,070T market cap (~708M shares); FY2026E earnings are derived from the Q1 run-rate with wide dispersion, and the 72% margin is treated as a cyclical peak; HBM share and market sizes are the February frame, to be refreshed on later disclosures.
 
@@ -372,6 +380,7 @@ Upgrade trigger: move to neutral-watch or constructive if Q2/H2 results show HBM
 
 - Archived baseline: `sk-hynix-2026-pre-rerun`
 - SK hynix 1Q26 results (2026-04-23): `https://news.skhynix.com/q1-2026-business-results/`
+- SK hynix final ADS terms, estimated net proceeds, and Korean fab / EUV use of proceeds (SEC 424B4, 2026-07-10): `https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm`
 - SK hynix investor relations and quarterly results; KRX/DART disclosures
 - Price / shares / 52-week range: `https://stockanalysis.com/quote/krx/000660/` (000660 ₩2,917,000, ~708M shares → market cap ~₩2,070T on a price × shares basis, 52-week ₩245,000-₩2,986,000, 2026-06-25; the site's own market-cap field lags the latest close)
 - Industry HBM share and market sizes are third-party forecasts (February frame); subsequent-quarter figures should be taken from company filings and KRX/DART disclosures

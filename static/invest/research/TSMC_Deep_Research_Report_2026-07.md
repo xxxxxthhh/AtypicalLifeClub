@@ -1,7 +1,7 @@
 # TSMC (TSM) Deep Research Report
 
 Coverage date: 2026-07-04
-Last updated: 2026-07-07
+Last updated: 2026-07-15
 Ticker: NYSE: TSM / TWSE: 2330
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -163,6 +163,8 @@ TSMC should not be valued only with a legacy foundry-cycle frame, but it should 
 
 Structured monitoring should focus on advanced-node utilization, N3 / N2 ramp, CoWoS / 3DFabric capacity, customer concentration, overseas-fab margin drag, and geopolitical / resource disruption.
 
+**2026-07-15 monitoring update (no stance change):** TSMC's SEC 6-K filed on Jul 13 reports June revenue of NT$442.68B (+67.9% YoY) and Jan-Jun revenue of NT$2,404.48B (+35.6%). Summing the monthly figures gives roughly NT$1.270T for Q2, or about $40.1B at the NT$31.7/US$ planning rate in the company's Q1 release—within the $39.0-40.2B guidance range, not above it. The reading supports a strong foundry revenue trajectory, but advanced-node mix, CoWoS bookings, and margins await the full Q2 release on Jul 16. This update does not refresh the Jul 2, 2026 valuation snapshot; the neutral-watch / medium-conviction stance is unchanged.
+
 ## 10. Conclusion
 
 TSMC is necessary coverage for the foundry layer. Its chain-validation job is to tell us whether AI-infrastructure demand is truly reaching the upstream manufacturing bottleneck. If monthly revenue, advanced-node mix, N3 / N2, and advanced packaging stay tight, the AI capex narrative is more credible. If those indicators loosen, design-company growth and neocloud backlog both need recalibration.
@@ -177,6 +179,7 @@ Upgrade trigger: move to constructive if monthly revenue, Q2 results, N3 / N2 mi
 
 - 2026Q1 actual revenue of $35.90B, gross margin of 66.2%, operating margin of 58.1%, and 2026Q2 revenue / gross-margin / operating-margin guidance are sourced from TSMC's official 2026Q1 Financial Results page: https://investor.tsmc.com/english/quarterly-results/2026/q1.
 - Jan-May 2026 monthly revenue, May 2026 revenue of NT$416.975B, Jan-May total of NT$1.962T, and +30.0% YoY growth are sourced from TSMC's official 2026 Monthly Revenue page: https://investor.tsmc.com/english/monthly-revenue/2026.
+- June 2026 revenue of NT$442.68B and Jan-Jun revenue of NT$2,404.48B (+35.6% YoY) are sourced from TSMC's SEC 6-K filed on 2026-07-13: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000447/tsm-revenue20260713.htm. The roughly NT$1.270T Q2 total is the sum of monthly revenue; about $40.1B uses the NT$31.7/US$ planning rate in the official Q1 guidance.
 - HPC at about 61% of 2026Q1 revenue, advanced nodes at about 74% of wafer revenue, 5nm / 3nm mix, 2026 capex of $52-56B, full-year growth above 30% / roughly $158B public frame, NVIDIA / Apple concentration, and the N3 / N2 / CoWoS expansion frame are sourced from Tom's Hardware's 2026Q1 coverage: https://www.tomshardware.com/tech-industry/semiconductors/tsmc-ups-revenue-guidance-and-capex-buoyed-by-multiyear-ai-megatrend-warns-middle-east-conflict-may-impact-profitability-as-costs-increase.
 - May 2026 sales, Q2 revenue guidance, advanced-process supply constraints, and June 4 shareholder-meeting reiteration are sourced from Investor's Business Daily: https://www.investors.com/news/technology/tsm-stock-tsmc-may-2026-sales/.
 - TSM's Jul 2, 2026 ADR close of $434.16, roughly $2.25T market cap, about 5.19B ADR-equivalent shares, and Q1 cash/debt/cash-flow tables were pulled through Yahoo Finance/yfinance on 2026-07-04. This market-data snapshot can be revised by the data provider and should subsequently be maintained by `static/invest/research/update_prices.py`.
