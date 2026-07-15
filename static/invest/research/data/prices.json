@@ -439,9 +439,9 @@
       "status": "ok",
       "attemptedAt": "2026-07-15",
       "baseDate": "2026-07-15",
-      "basePrice": 261.0,
+      "basePrice": 260.6,
       "lastDate": "2026-07-15",
-      "lastClose": 261.0,
+      "lastClose": 260.6,
       "changePct": 0.0,
       "currency": "HKD"
     }

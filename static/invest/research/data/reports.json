@@ -3449,7 +3449,7 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "若 H2 2026 交付量验证 2 GW 扩产节奏、产品毛利率稳定在 32%+、服务成本没有吞噬装机利润，且 AI/数据中心客户继续扩散而不是更集中，则上调至 neutral-watch 或 constructive。",
-          "en": "Move to neutral-watch or constructive if H2 2026 deliveries validate the 2 GW capacity-ramp pace, product gross margin holds at 32%+, service cost does not consume installed-fleet economics, and AI / data-center customers broaden rather than concentrate further."
+        "en": "Move to neutral-watch or constructive if H2 2026 deliveries validate the 2 GW capacity-ramp pace, product gross margin holds at 32%+, service cost does not consume installed-fleet economics, and AI / data-center customers broaden rather than concentrate further."
       },
       "downgrade": {
         "zh": "若 AI 电力订单转化慢于积压叙事、产能爬坡带来库存或质量问题、毛利率/自由现金流不能随收入改善，或大客户/再融资风险上升，则下调至 bearish-avoid。",
@@ -6167,8 +6167,8 @@
     "priceSymbol": "0100.HK",
     "title": "MiniMax Group 深度研究报告 - 应用层需求验证与高估值压力测试",
     "titleEn": "MiniMax Group Deep Research Report - Application-Layer Demand Validation and Valuation Stress Test",
-    "summary": "首次覆盖 MiniMax 作为 AI 基础设施研究簿的应用层需求风险锚。FY2025 收入 US$79.0M、同比 +158.9%，毛利率由 12.2% 升至 25.4%，海外收入占 73%；但调整后净亏损 US$250.9M、经营现金流流出 US$279.6M。以 HK$261.00（2026-07-15）、配售后 349.235M 股和形式净现金估算，市值约 HK$91.2B、P/S 约 147.9x、EV/FY2025 Sales 约 111.0x。业务增长得到验证，但当前价格要求接近 69% 的四年收入 CAGR，首次观点为谨慎 / 低确信。",
-    "summaryEn": "Initial coverage of MiniMax as the application-layer demand-risk anchor for the AI-infrastructure research book. FY2025 revenue was US$79.0M, up 158.9%, gross margin improved from 12.2% to 25.4%, and international revenue reached 73%. Adjusted net loss was US$250.9M and operating cash outflow was US$279.6M. At HK$261.00 on 2026-07-15, 349.235M post-placement shares, and estimated pro forma net cash, market capitalization is about HK$91.2B, price-to-sales about 147.9x, and EV/FY2025 sales about 111.0x. Growth is real, but the price requires close to 69% four-year revenue CAGR; initial stance is cautious / low conviction.",
+    "summary": "首次覆盖 MiniMax 作为 AI 基础设施研究簿的应用层需求风险锚。FY2025 收入 US$79.0M、同比 +158.9%，毛利率由 12.2% 升至 25.4%，海外收入占 73%；但调整后净亏损 US$250.9M、经营现金流流出 US$279.6M。以 HK$260.60（2026-07-15）、配售后 349.235M 股和形式净现金估算，市值约 HK$91.0B、P/S 约 147.6x、EV/FY2025 Sales 约 110.8x。业务增长得到验证，但当前价格要求接近 69% 的四年收入 CAGR，首次观点为谨慎 / 低确信。",
+    "summaryEn": "Initial coverage of MiniMax as the application-layer demand-risk anchor for the AI-infrastructure research book. FY2025 revenue was US$79.0M, up 158.9%, gross margin improved from 12.2% to 25.4%, and international revenue reached 73%. Adjusted net loss was US$250.9M and operating cash outflow was US$279.6M. At HK$260.60 on 2026-07-15, 349.235M post-placement shares, and estimated pro forma net cash, market capitalization is about HK$91.0B, price-to-sales about 147.6x, and EV/FY2025 sales about 110.8x. Growth is real, but the price requires close to 69% four-year revenue CAGR; initial stance is cautious / low conviction.",
     "tags": [
       "基础模型",
       "生成式AI",
@@ -6191,7 +6191,7 @@
       "FY2025 收入 US$79.0M、同比 +158.9%，毛利率由 12.2% 升至 25.4%，海外收入占 73%",
       "2025 年前九个月 AI-native 产品平均 MAU 27.6M、付费用户 1.77M；消费产品收入占 FY2025 的 67.2%，平台/企业占 32.8%",
       "调整后净亏损 US$250.9M、经营现金流流出 US$279.6M；研发费用约为收入 3.2 倍，商业化仍依赖外部资本",
-      "当前 HK$261.00、配售后市值约 HK$91.2B、P/S 约 147.9x、EV/FY2025 Sales 约 111.0x；谨慎 / 低确信"
+      "当前 HK$260.60、配售后市值约 HK$91.0B、P/S 约 147.6x、EV/FY2025 Sales 约 110.8x；谨慎 / 低确信"
     ],
     "chainLayer": "demand-risk",
     "coverageTier": "full",
@@ -6199,8 +6199,8 @@
     "stance": "cautious",
     "conviction": "low",
     "stanceRationale": {
-      "zh": "以 HK$261.00、配售后约 HK$91.2B 市值和约 111.0x EV/FY2025 Sales 计，市场隐含未来四年收入 CAGR 接近 69%，同时要求毛利率与现金消耗持续改善。收入、全球用户和毛利率改善是真实正面证据，但消费产品单位经济、研发强度与连续融资尚未支持更积极观点。",
-      "en": "At HK$261.00, about HK$91.2B of post-placement market capitalization, and about 111.0x EV/FY2025 sales, the market implies close to 69% four-year revenue CAGR together with sustained gross-margin and cash-burn improvement. Revenue, global users, and gross-margin gains are real, but consumer unit economics, R&D intensity, and repeated financing do not yet support a more positive stance."
+      "zh": "以 HK$260.60、配售后约 HK$91.0B 市值和约 110.8x EV/FY2025 Sales 计，市场隐含未来四年收入 CAGR 接近 69%，同时要求毛利率与现金消耗持续改善。收入、全球用户和毛利率改善是真实正面证据，但消费产品单位经济、研发强度与连续融资尚未支持更积极观点。",
+      "en": "At HK$260.60, about HK$91.0B of post-placement market capitalization, and about 110.8x EV/FY2025 sales, the market implies close to 69% four-year revenue CAGR together with sustained gross-margin and cash-burn improvement. Revenue, global users, and gross-margin gains are real, but consumer unit economics, R&D intensity, and repeated financing do not yet support a more positive stance."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -6217,7 +6217,7 @@
         "date": "2026-07-15",
         "stance": "cautious",
         "conviction": "low",
-        "price": 261.0
+        "price": 260.6
       }
     ],
     "priceAsOf": "2026-07-15",
