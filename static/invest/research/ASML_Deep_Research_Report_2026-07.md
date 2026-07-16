@@ -1,7 +1,7 @@
 # ASML Deep Research Report - EUV / High-NA as the Equipment-Layer Common Constraint
 
 Coverage date: 2026-07-05
-Last updated: 2026-07-07
+Last updated: 2026-07-15
 Ticker: NASDAQ: ASML / Euronext Amsterdam: ASML
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -15,11 +15,13 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 **Current view:** **neutral watch / medium conviction.** The v5 scenario grid keeps ASML neutral rather than more bullish: EUV/High-NA scarcity is real, but the July 2 price already embeds a durable WFE bottleneck, clean backlog conversion, and manageable export controls.
 
+**2026-07-15 monitoring update (no stance change):** ASML reported Q2 2026 net sales of EUR 9.326B, net income of EUR 2.918B, 54.0% gross margin, and EUR 2.762B of Installed Base Management sales; FY2026 guidance was raised for the second time this year to EUR 43-45B net sales and 54-56% gross margin. Management said H1 order intake was strong and plans to add 30% to both 2027 low-NA EUV and DUV immersion capacity versus 2026, while investigating another 30% for each in 2028. The release disclosed neither quarterly net bookings nor backlog, so it strengthens equipment-side confirmation without proving that customer-specific capex is fully committed or that backlog has no cancellations or delays. This update does not refresh the Jul 2, 2026 valuation snapshot; the neutral-watch / medium-conviction stance is unchanged.
+
 | Metric | Current readout |
 | --- | --- |
 | Report id | asml-2026 |
 | Chain layer / role | semicap-equipment / common-constraint |
-| Latest reported period | 2026Q1 / Q4 2025 bookings |
+| Latest reported period | 2026Q2 / Q4 2025 bookings |
 | Price snapshot | $1,769.32 as of 2026-07-02 |
 | Coverage tier after this upgrade | full |
 | Stance | neutral watch / medium conviction |
@@ -107,10 +109,10 @@ The bearish read should not ignore quality. It asks whether quality is already c
 
 | Uncertainty | Why it matters | When to revisit |
 | --- | --- | --- |
-| EUV / High-NA order cadence | EUV bookings stay strong and support 2026+ customer long-term agreements | Q2 2026 orders and customer-capacity commentary |
-| Backlog-to-revenue conversion | EUR 38.797B backlog converts into 2026-2027 revenue without cancellations or delays | quarterly backlog and revenue conversion |
+| EUV / High-NA order cadence | EUV bookings stay strong and support 2026+ customer long-term agreements | Q3 2026 shipments and customer-capacity commentary |
+| Backlog-to-revenue conversion | EUR 38.797B backlog converts into 2026-2027 revenue without cancellations or delays | Q3 2026 revenue and any backlog-conversion disclosure |
 | Export controls and China shippable market | tighter export controls reduce system shipments, service access, or customer plans | export-control and geography disclosures |
-| Installed-base management sales | service revenue keeps growing and cushions system-order cyclicality | installed-base service growth |
+| Installed-base management sales | service revenue keeps growing and cushions system-order cyclicality | Q3 2026 installed-base service growth |
 | Valuation and backlog quality | around 15.6x 2026E sales leaves valuation exposed to order or margin misses | price, backlog and margin reset |
 
 Thesis breakers:
@@ -137,10 +139,10 @@ Valuation is used as risk context, not as a recommendation. The v5 question is w
 
 | Monitor | Latest reading | Trigger | Next check |
 | --- | --- | --- | --- |
-| EUV / High-NA order cadence | Q4 2025 net bookings were EUR 13.158B, including EUR 7.4B EUV | EUV bookings stay strong and support 2026+ customer long-term agreements | Q2 2026 orders and customer-capacity commentary |
-| Backlog-to-revenue conversion | year-end 2025 backlog was EUR 38.797B | EUR 38.797B backlog converts into 2026-2027 revenue without cancellations or delays | quarterly backlog and revenue conversion |
+| EUV / High-NA order cadence | H1 order intake was strong; ASML plans 30% more 2027 low-NA EUV and DUV immersion capacity, but did not disclose quarterly net bookings | EUV bookings stay strong and support 2026+ customer long-term agreements | Q3 2026 shipments and customer-capacity commentary |
+| Backlog-to-revenue conversion | Q2 net sales were EUR 9.326B at 54.0% gross margin; FY2026 guidance is EUR 43-45B / 54-56%, but backlog was not disclosed | EUR 38.797B backlog converts into 2026-2027 revenue without cancellations or delays | Q3 2026 revenue and any backlog-conversion disclosure |
 | Export controls and China shippable market | FY2026 guidance range incorporates possible export-control discussion outcomes | tighter export controls reduce system shipments, service access, or customer plans | export-control and geography disclosures |
-| Installed-base management sales | Q1 installed-base management sales were EUR 2.488B | service revenue keeps growing and cushions system-order cyclicality | installed-base service growth |
+| Installed-base management sales | Q2 Installed Base Management sales were EUR 2.762B (EUR 2.488B in Q1) | service revenue keeps growing and cushions system-order cyclicality | Q3 2026 installed-base service growth |
 | Valuation and backlog quality | $1,769.32 ADR, about $681.9B market cap, about 15.6x EV/2026E sales | around 15.6x 2026E sales leaves valuation exposed to order or margin misses | price, backlog and margin reset |
 
 These are the items that should drive future reruns. A monitoring update should change the report only when it changes the chain read-through or the valuation tolerance.
@@ -160,12 +162,16 @@ The expectation gap is balanced: at $1,769.32 and about 15.6x EV/2026E sales, th
 
 The current stance is **neutral watch, medium conviction**. Neutral is not a lack of view: the monopoly quality is exceptional, but the scenario skew is roughly balanced because the price already capitalizes the most important bottleneck benefits. Medium conviction reflects solid order/backlog evidence, offset by the need to verify Q2 order cadence and export-control outcomes.
 
+2026-07-15 review: Q2 revenue, margin, guidance, and capacity plans all lean favorable, but quarterly net bookings and backlog were not disclosed, and this monitoring update did not redo the current valuation or a full export-control review. The existing upgrade condition is therefore not fully met, and the stance does not change.
+
 Upgrade trigger: move to constructive if Q2 2026 orders and customer-capacity commentary show EUV / High-NA bookings staying above the FY2026 revenue run-rate, backlog conversion remains on plan, and export-control updates do not reduce the China service or systems opportunity while the valuation multiple does not expand further. Downgrade trigger: move to cautious if EUV / High-NA bookings slow, the EUR 38.797B backlog shows cancellation or delay risk, China/export-control limits reduce system or installed-base service access, or gross margin slips below the FY2026 51-53% guide.
 
 ## Appendix: Sources And Assumptions <!-- report-module:appendix -->
 
 - ASML Q1 2026 official release: [Q1 2026 financial results](https://www.asml.com/en/news/press-releases/2026/q1-2026-financial-results).
 - ASML Q4 2025 official release: [Q4 2025 financial results](https://www.asml.com/en/news/press-releases/2026/q4-2025-financial-results).
+- ASML's Q2 results, Q3/FY2026 guidance, system sales, and 2027-2028 capacity plans come from the company's official issuer announcement published through Euronext on 2026-07-15: [Q2 2026 financial results](https://live.euronext.com/en/products/equities/company-news/2026-07-15-asml-reports-eu93-billion-total-net-sales-and-eu29).
 
 - This 2026-07-06 depth upgrade preserves the existing vetted fact base and expands structure, tables, peer comparison, scenario levels, and monitoring parity.
 - The v5 scenario grid and priced-in paragraph use the same July 2, 2026 market snapshot as the price ledger. The assumption ranges calibrate embedded expectations; they are not target prices.
+- The 2026-07-15 update records only Q2 facts and monitoring readings; the July 2, 2026 valuation snapshot above was not recomputed and should not be read as a current July 15 valuation.

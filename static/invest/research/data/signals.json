@@ -1,5 +1,31 @@
 [
   {
+    "id": "asml-q2-capacity-commitment-2026",
+    "date": "2026-07-15",
+    "title": {
+      "zh": "ASML Q2 2026 二次上调全年指引并计划扩充 EUV/DUV 产能，加强设备侧 capex 确认",
+      "en": "ASML raises FY2026 guidance again and plans more EUV/DUV capacity, strengthening equipment-side capex confirmation"
+    },
+    "detail": {
+      "zh": "ASML 2026-07-15 Q2 2026 官方业绩显示：Q2 net sales EUR 9.326B、net income EUR 2.918B、gross margin 54.0%，installed-base management sales EUR 2.762B（Q1 为 EUR 2.488B），销售 86 套新光刻系统和 5 套二手系统。Q3 指引为 net sales EUR 11.0-12.0B、gross margin 55-57%；FY2026 指引年内第二次上调至 net sales EUR 43-45B、gross margin 54-56%。管理层称上半年订单流强劲，并计划把 2027 年 low-NA EUV 产能较 2026 年约 65 套增加 30%、DUV immersion 产能较约 130 套增加 30%，同时研究 2028 年再各增加 30%。本次发布未披露季度 net bookings 或 backlog，因此该读数加强 semicap-eda-capex-commitment 的设备侧确认，但不能单独证明客户特定 capex 已全部承诺、backlog 没有取消或延期，或整条 AI 供给已可制造。",
+      "en": "ASML's official Q2 2026 results dated 2026-07-15 report EUR 9.326B net sales, EUR 2.918B net income, 54.0% gross margin, EUR 2.762B of Installed Base Management sales (EUR 2.488B in Q1), and 86 new plus five used lithography systems sold. Q3 guidance is EUR 11.0-12.0B net sales at 55-57% gross margin; FY2026 guidance was raised for the second time this year to EUR 43-45B net sales at 54-56% gross margin. Management said H1 order intake was strong and plans to add 30% to 2027 low-NA EUV capacity versus about 65 systems in 2026 and 30% to DUV immersion capacity versus about 130, while investigating another 30% for each in 2028. The release disclosed neither quarterly net bookings nor backlog, so the reading strengthens the equipment-side confirmation for semicap-eda-capex-commitment but does not by itself prove that customer-specific capex is fully committed, that backlog has no cancellations or delays, or that the entire AI supply buildout is manufacturable."
+    },
+    "crossChecks": [
+      "semicap-eda-capex-commitment"
+    ],
+    "tickers": [
+      "ASML"
+    ],
+    "reportIds": [
+      "asml-2026"
+    ],
+    "monitoringRefs": [
+      "asml-2026:euv-high-na-orders",
+      "asml-2026:backlog-conversion",
+      "asml-2026:installed-base-services"
+    ]
+  },
+  {
     "id": "minimax-application-monetization-gap-2026",
     "date": "2026-07-14",
     "title": {

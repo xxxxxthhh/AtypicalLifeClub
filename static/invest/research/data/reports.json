@@ -39,8 +39,8 @@
     "priceSymbol": "ASML",
     "title": "ASML 深度研究报告 - EUV / High-NA 作为设备层公共约束",
     "titleEn": "ASML Deep Research Report - EUV / High-NA as the Equipment-Layer Common Constraint",
-    "summary": "AI 基础设施 semicap-equipment 层的公共约束：ASML 验证 foundry / memory capex 是否真正穿过光刻、EUV、High-NA、长期协议和出口管制这道最硬瓶颈。Q1 2026 net sales EUR 8.767B、gross margin 53.0%、net income EUR 2.757B；FY2026 指引 net sales EUR 36-40B、gross margin 51-53%。Q4 2025 net bookings EUR 13.158B，其中 EUV EUR 7.4B，年末 backlog EUR 38.797B。当前 ADR $1,769.32（2026-07-02）、市值约 $681.9B，按 EUR/USD 1.1440 和 FY2026 sales 中点折算，约 15.6x EV/2026E sales。中性观察 / 中确信：垄断质量极高，但估值已经资本化持续 EUV/High-NA 稀缺和出口管制可控。",
-    "summaryEn": "Common-constraint coverage for the AI-infrastructure semicap-equipment layer. ASML tests whether foundry and memory capex truly passes through lithography, EUV, High-NA, long-term agreements, and export controls. Q1 2026 net sales were EUR 8.767B, gross margin was 53.0%, and net income was EUR 2.757B; FY2026 guidance is EUR 36-40B net sales and 51-53% gross margin. Q4 2025 net bookings were EUR 13.158B, including EUR 7.4B EUV, and year-end backlog was EUR 38.797B. At $1,769.32 per ADR (2026-07-02), about $681.9B market cap, and EUR/USD 1.1440, ASML trades around 15.6x EV/2026E sales at the FY2026 sales midpoint. Neutral watch / medium conviction: monopoly quality is exceptional, but the valuation already capitalizes durable EUV/High-NA scarcity and manageable export controls.",
+    "summary": "AI 基础设施 semicap-equipment 层的公共约束：ASML 验证 foundry / memory capex 是否真正穿过光刻、EUV、High-NA、长期协议和出口管制这道最硬瓶颈。Q2 2026 net sales EUR 9.326B、gross margin 54.0%、net income EUR 2.918B；FY2026 指引第二次上调至 net sales EUR 43-45B、gross margin 54-56%，并计划把 2027 年 low-NA EUV 与 DUV immersion 产能各较 2026 年增加 30%。本次监测没有季度 net bookings 或 backlog 披露，因此只加强设备侧确认，不证明客户特定 capex 已全部承诺。ADR $1,769.32、约 15.6x EV/2026E sales 仍是基于当时 EUR 36-40B 指引的 2026-07-02 初始估值快照，本次不刷新估值或立场；维持中性观察 / 中确信。",
+    "summaryEn": "Common-constraint coverage for the AI-infrastructure semicap-equipment layer. ASML tests whether foundry and memory capex truly passes through lithography, EUV, High-NA, long-term agreements, and export controls. Q2 2026 net sales were EUR 9.326B, gross margin was 54.0%, and net income was EUR 2.918B; FY2026 guidance was raised for the second time to EUR 43-45B net sales and 54-56% gross margin, while ASML plans to add 30% to both 2027 low-NA EUV and DUV immersion capacity versus 2026. The update disclosed neither quarterly net bookings nor backlog, so it strengthens equipment-side confirmation without proving that customer-specific capex is fully committed. The $1,769.32 ADR and roughly 15.6x EV/2026E sales remain the dated 2026-07-02 initial valuation snapshot based on the then EUR 36-40B guide; this update does not refresh valuation or stance, which remains neutral watch / medium conviction.",
     "tags": [
       "半导体设备",
       "EUV",
@@ -49,7 +49,7 @@
     ],
     "category": "tech",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-07",
+    "lastUpdate": "2026-07-15",
     "file": "/invest/research/reports/view.html?id=asml-2026",
     "markdownFiles": {
       "zh": "/invest/research/ASML_深度研究报告_2026-07.md",
@@ -61,9 +61,9 @@
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
       "P2 设备层公共约束：ASML 用 EUV/High-NA、backlog、installed-base service 和出口管制验证 AI capex 是否进入最硬工具瓶颈",
-      "Q1 2026 net sales EUR 8.767B、gross margin 53.0%、net income EUR 2.757B；FY2026 指引 EUR 36-40B net sales、51-53% gross margin",
+      "Q2 2026 net sales EUR 9.326B、gross margin 54.0%、net income EUR 2.918B；FY2026 指引第二次上调至 EUR 43-45B net sales、54-56% gross margin",
       "Q4 2025 net bookings EUR 13.158B，其中 EUV EUR 7.4B；2025 年末 backlog EUR 38.797B",
-      "当前 ADR $1,769.32、市值约 $681.9B，约 15.6x EV/2026E sales；质量极高但估值容错率低"
+      "2026-07-02 初始估值快照为 ADR $1,769.32、约 15.6x EV/2026E sales（基于当时 EUR 36-40B 指引）；本次监测不刷新估值或立场"
     ],
     "chainLayer": "semicap-equipment",
     "coverageTier": "full",
@@ -93,7 +93,7 @@
       }
     ],
     "priceAsOf": "2026-07-02",
-    "reportedPeriod": "2026Q1 / Q4 2025 bookings",
+    "reportedPeriod": "2026Q2 / Q4 2025 bookings",
     "related": [
       "tsmc-2026",
       "micron-2026",
@@ -116,11 +116,11 @@
           "en": "EUV bookings stay strong and support 2026+ customer long-term agreements"
         },
         "latest": {
-          "zh": "Q4 2025 net bookings EUR 13.158B，其中 EUV EUR 7.4B",
-          "en": "Q4 2025 net bookings were EUR 13.158B, including EUR 7.4B EUV"
+          "zh": "Q2 2026（2026-07-15）：管理层称上半年订单流强劲，并计划把 2027 年 low-NA EUV（2026 年约 65 套）与 DUV immersion（约 130 套）产能各增加 30%，同时研究 2028 年再各增 30%；本次未披露季度 net bookings",
+          "en": "Q2 2026 (2026-07-15): management said H1 order intake was strong and plans to add 30% to 2027 low-NA EUV capacity (about 65 systems in 2026) and DUV immersion capacity (about 130), while investigating another 30% for each in 2028; quarterly net bookings were not disclosed"
         },
-        "nextCheck": "Q2 2026 orders and customer-capacity commentary",
-        "nextCheckDate": "2026-07"
+        "nextCheck": "Q3 2026 shipments and customer-capacity commentary",
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "backlog-conversion",
@@ -135,11 +135,11 @@
           "en": "EUR 38.797B backlog converts into 2026-2027 revenue without cancellations or delays"
         },
         "latest": {
-          "zh": "2025 年末 backlog EUR 38.797B",
-          "en": "year-end 2025 backlog was EUR 38.797B"
+          "zh": "Q2 2026 net sales EUR 9.326B、gross margin 54.0%；FY2026 指引第二次上调至 net sales EUR 43-45B、gross margin 54-56%，但本次未披露 backlog，无法直接验证取消或延期状态",
+          "en": "Q2 2026 net sales were EUR 9.326B at 54.0% gross margin; FY2026 guidance was raised for the second time to EUR 43-45B net sales at 54-56% gross margin, but backlog was not disclosed, so cancellation or delay status cannot be directly verified"
         },
-        "nextCheck": "quarterly backlog and revenue conversion",
-        "nextCheckDate": "2026-07"
+        "nextCheck": "Q3 2026 revenue and any backlog-conversion disclosure",
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "export-control-china",
@@ -173,11 +173,11 @@
           "en": "service revenue keeps growing and cushions system-order cyclicality"
         },
         "latest": {
-          "zh": "Q1 installed-base management sales EUR 2.488B",
-          "en": "Q1 installed-base management sales were EUR 2.488B"
+          "zh": "Q2 2026 installed-base management sales EUR 2.762B（Q1 为 EUR 2.488B）",
+          "en": "Q2 2026 installed-base management sales were EUR 2.762B (Q1 was EUR 2.488B)"
         },
-        "nextCheck": "installed-base service growth",
-        "nextCheckDate": "2026-07"
+        "nextCheck": "Q3 2026 installed-base service growth",
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "valuation-backlog-quality",
