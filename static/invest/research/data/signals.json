@@ -1,5 +1,39 @@
 [
   {
+    "id": "tsmc-q2-results-capex-raise-2026",
+    "date": "2026-07-16",
+    "title": {
+      "zh": "TSMC Q2 2026 毛利率 67.7% 高于指引，并把 2026 capex 上调至 $60-64B",
+      "en": "TSMC posts 67.7% Q2 gross margin above guidance and raises 2026 capex to $60-64B"
+    },
+    "detail": {
+      "zh": "TSMC 2026-07-16 官方 Q2 2026 财报与业绩会材料显示：Q2 收入 NT$1,270.38B（同比 +36.0%）、US$40.20B（同比 +33.7%），落在 US$39.0-40.2B 指引区间上沿；毛利率 67.7%（高于 65.5-67.5% 指引）、营业利润率 60.3%、净利润 NT$706.56B（同比 +77.4%）、EPS NT$27.25。晶圆收入中 2nm 首次贡献 3%、3nm 30%、5nm 33%、7nm 11%，7nm 及以下合计 77%（Q1 为 74%）；HPC 收入环比 +20%、占 Q2 收入 66%。管理层把全年收入增速展望上调至略高于 40%，并把 2026 capex 从原 $52-56B 区间上调至 $60-64B；Q3 指引收入 US$44.6-45.8B、毛利率 65-67%、营业利润率 56-58%（按 32 NT$/US$）。该读数确认 foundry 层需求与资本预算同步上行，为 semicap 设备链提供客户侧读数；但官方 Q2 新闻稿、演示稿和管理报告没有量化 CoWoS 排产，因此不能单独证明先进封装瓶颈已经缓解。",
+      "en": "TSMC's official Q2 2026 results and earnings-conference materials dated 2026-07-16 report revenue of NT$1,270.38B (+36.0% YoY), or US$40.20B (+33.7% YoY), at the top of the US$39.0-40.2B guidance range, with 67.7% gross margin above the 65.5-67.5% guide, 60.3% operating margin, NT$706.56B net income (+77.4% YoY), and NT$27.25 EPS. Within wafer revenue, 2nm contributed 3% for the first time, 3nm 30%, 5nm 33%, and 7nm 11%, putting 7nm-and-below at 77% (74% in Q1); HPC revenue rose 20% QoQ to 66% of Q2 revenue. Management lifted full-year revenue growth to slightly above 40% and raised 2026 capex from the prior $52-56B range to $60-64B, while guiding Q3 to US$44.6-45.8B revenue, 65-67% gross margin, and 56-58% operating margin at NT$32/US$. The reading confirms that foundry-layer demand and capital budgets are rising together, providing a customer-side reading for the semicap equipment chain; but the official Q2 release, presentation, and management report do not quantify CoWoS scheduling, so the reading alone does not prove that the advanced-packaging bottleneck has eased."
+    },
+    "crossChecks": [
+      "chip-vs-downstream",
+      "semicap-eda-capex-commitment"
+    ],
+    "tickers": [
+      "TSM",
+      "NVDA",
+      "AVGO",
+      "AMD",
+      "ASML",
+      "AMAT",
+      "LRCX",
+      "KLAC"
+    ],
+    "reportIds": [
+      "tsmc-2026"
+    ],
+    "monitoringRefs": [
+      "tsmc-2026:advanced-node-utilization",
+      "tsmc-2026:n3-n2-ramp",
+      "tsmc-2026:overseas-fab-margin-drag"
+    ]
+  },
+  {
     "id": "asml-q2-capacity-commitment-2026",
     "date": "2026-07-15",
     "title": {

@@ -4652,8 +4652,8 @@
     "priceSymbol": "TSM",
     "title": "TSMC 深度研究报告 - AI 基建链的先进制程与封装公共约束",
     "titleEn": "TSMC Deep Research Report - The Advanced-Node and Packaging Constraint in AI Infrastructure",
-    "summary": "AI 基础设施书 foundry 层补位：TSMC 是整条链最硬的制造瓶颈，而不是又一个芯片设计公司。2026Q1 收入 $35.90B、毛利率 66.2%、营业利润率 58.1%，Q2 指引 $39.0-40.2B；SEC 6-K 显示 June 收入 NT$442.68B（+67.9%）、Jan-Jun NT$2,404.48B（+35.6%），Q2 月度合计按 31.7 指引汇率折算约 $40.1B，落在指引区间内。AI/HPC 需求已经穿透到晶圆收入、先进节点和先进封装；但 ADR $434.16（2026-07-02 收盘）、市值约 $2.25T、2026E EV/Sales 约 14x，约定价未来三年 ~21% 收入 CAGR 与 60%+ 毛利。中性观察 / 中确信：高质量但基本被定价；链内角色是 foundry 层 common-constraint。",
-    "summaryEn": "Foundry-layer coverage for the AI-infrastructure book: TSMC is the hard manufacturing bottleneck in the chain, not another chip designer. 2026Q1 revenue was $35.90B, gross margin was 66.2%, operating margin was 58.1%, and Q2 guidance is $39.0-40.2B. The SEC 6-K reports June revenue of NT$442.68B (+67.9%) and Jan-Jun revenue of NT$2,404.48B (+35.6%); the monthly Q2 total converts to about $40.1B at the 31.7 guidance FX rate, within the range. AI/HPC demand has reached wafer revenue, advanced nodes, and advanced packaging. But at a $434.16 ADR close on Jul 2, 2026, roughly $2.25T market cap, and about 14x 2026E EV/Sales, the market is underwriting about 21% three-year revenue CAGR with 60%+ gross margin. Neutral watch / medium conviction: high quality but mostly priced in; chain role is foundry common constraint.",
+    "summary": "AI 基础设施书 foundry 层补位：TSMC 是整条链最硬的制造瓶颈，而不是又一个芯片设计公司。2026Q2 收入 US$40.20B（同比 +33.7%）落在指引区间上沿，毛利率 67.7% 高于 65.5-67.5% 指引；2nm 首次贡献 3% wafer revenue、7nm 及以下占 77%，HPC 占收入 66%。管理层把全年收入增速展望上调至略高于 40%，并把 2026 capex 从原 $52-56B 区间上调至 $60-64B；Q3 指引 US$44.6-45.8B。AI/HPC 需求已经穿透到晶圆收入和先进节点。ADR $434.16（2026-07-02 收盘）、约 $2.25T 市值、约 14x 2026E EV/Sales 仍是初始估值快照，本次监测不刷新估值或立场；维持中性观察 / 中确信，链内角色是 foundry 层 common-constraint。",
+    "summaryEn": "Foundry-layer coverage for the AI-infrastructure book: TSMC is the hard manufacturing bottleneck in the chain, not another chip designer. Q2 2026 revenue was US$40.20B (+33.7% YoY), at the top of guidance, with gross margin of 67.7% above the 65.5-67.5% guide; 2nm contributed 3% of wafer revenue for the first time, 7nm-and-below reached 77%, and HPC was 66% of revenue. Management lifted full-year revenue growth to slightly above 40% and raised 2026 capex from the prior $52-56B range to $60-64B, while guiding Q3 revenue to US$44.6-45.8B. AI/HPC demand has reached wafer revenue and advanced nodes. The $434.16 ADR close on Jul 2, 2026, roughly $2.25T market cap, and about 14x 2026E EV/Sales remain the dated initial valuation snapshot; this monitoring update does not refresh valuation or stance, which remains neutral watch / medium conviction with a foundry common-constraint chain role.",
     "tags": [
       "晶圆代工",
       "AI基础设施",
@@ -4662,7 +4662,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-15",
+    "lastUpdate": "2026-07-16",
     "file": "/invest/research/reports/view.html?id=tsmc-2026",
     "markdownFiles": {
       "zh": "/invest/research/TSMC_深度研究报告_2026-07.md",
@@ -4673,9 +4673,9 @@
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
       "foundry 层补位：TSMC 是 AI 基建链的制造公共约束，用先进制程、CoWoS/3DFabric、N3/N2 和客户排产验证 AI 需求是否真的穿透到上游制造瓶颈",
-      "2026Q1 收入 $35.90B、毛利率 66.2%、营业利润率 58.1%；Q2 指引 $39.0-40.2B，Jan-May 2026 收入 NT$1.962T（+30.0%）",
-      "公开资料显示 HPC 约占 Q1 收入 61%，7nm 及以下先进节点约占 wafer revenue 74%；2026 capex $52-56B，重点投向先进制程、先进封装和全球制造扩建",
-      "当前 ADR $434.16（2026-07-02 收盘）、市值约 $2.25T、净现金约 $75B，2026E EV/Sales 约 14x；30/50/20 情景权重推导为中性观察 / 中确信，核心监控是利用率、N3/N2、CoWoS、客户集中和海外 fab 毛利拖累"
+      "2026Q2 收入 US$40.20B（同比 +33.7%）、毛利率 67.7%、营业利润率 60.3%；Q3 指引 US$44.6-45.8B，全年收入增速展望上调至略高于 40%",
+      "Q2 财报显示 HPC 占收入 66%（环比 +20%），7nm 及以下先进节点占 wafer revenue 77%、2nm 首次贡献 3%；2026 capex 从原 $52-56B 区间上调至 $60-64B",
+      "2026-07-02 初始估值快照为 ADR $434.16、市值约 $2.25T、约 14x 2026E EV/Sales；本次监测不刷新估值或立场，维持中性观察 / 中确信，核心监控是利用率、N3/N2、CoWoS、客户集中和海外 fab 毛利拖累"
     ],
     "chainLayer": "foundry",
     "coverageTier": "full",
@@ -4688,12 +4688,12 @@
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "月度收入、Q2 财报、N3/N2 mix 与 CoWoS 评论把 base case 明确推到约 21% 隐含 CAGR 以上，同时毛利率维持 60%+ 且估值倍数未进一步扩张",
-        "en": "monthly revenue, Q2 results, N3 / N2 mix, and CoWoS commentary push the base case clearly above the roughly 21% implied CAGR while gross margin remains above 60% and the valuation multiple does not expand further"
+        "zh": "月度收入、Q3 财报、N3/N2 mix 与 CoWoS 评论把 base case 明确推到约 21% 隐含 CAGR 以上，同时毛利率维持 60%+ 且估值倍数未进一步扩张",
+        "en": "monthly revenue, Q3 results, N3 / N2 mix, and CoWoS commentary push the base case clearly above the roughly 21% implied CAGR while gross margin remains above 60% and the valuation multiple does not expand further"
       },
       "downgrade": {
-        "zh": "月度收入或 Q2 财报低于全年轨迹、先进节点/封装紧张度缓解，或海外 fab / N2 成本把结构性毛利率路径压到 60% 以下",
-        "en": "monthly revenue or Q2 results fall below the full-year trajectory, advanced-node / packaging tightness eases, or overseas fab / N2 costs push the structural gross-margin path below 60%"
+        "zh": "月度收入或 Q3 财报低于全年轨迹、先进节点/封装紧张度缓解，或海外 fab / N2 成本把结构性毛利率路径压到 60% 以下",
+        "en": "monthly revenue or Q3 results fall below the full-year trajectory, advanced-node / packaging tightness eases, or overseas fab / N2 costs push the structural gross-margin path below 60%"
       }
     },
     "stanceHistory": [
@@ -4705,7 +4705,7 @@
       }
     ],
     "priceAsOf": "2026-07-02",
-    "reportedPeriod": "2026Q1",
+    "reportedPeriod": "2026Q2",
     "related": [
       "nvidia-2026",
       "broadcom-2026",
@@ -4723,15 +4723,15 @@
           "en": "Advanced-node utilization and revenue mix"
         },
         "trigger": {
-          "zh": "7nm 及以下先进节点占比或月度收入明显低于 Q2/全年增长轨迹",
-          "en": "7nm-and-below mix or monthly revenue falls materially below Q2 / full-year trajectory"
+          "zh": "7nm 及以下先进节点占比或月度收入明显低于 Q3/全年增长轨迹",
+          "en": "7nm-and-below mix or monthly revenue falls materially below Q3 / full-year trajectory"
         },
         "latest": {
-          "zh": "2026Q1 先进节点约占 wafer revenue 74%；SEC 6-K 显示 6 月收入 NT$442.68B（同比 +67.9%）、Jan-Jun NT$2,404.48B（+35.6%）；Q2 月度合计按 31.7 指引汇率折算约 $40.1B，落在 $39.0-40.2B 区间内，分部 mix 待 07-16 财报",
-          "en": "advanced nodes were about 74% of wafer revenue in 2026Q1; the SEC 6-K reports June revenue of NT$442.68B (+67.9% YoY) and Jan-Jun revenue of NT$2,404.48B (+35.6%); the monthly Q2 total converts to about $40.1B at the 31.7 guidance FX rate, within the $39.0-40.2B range, with segment mix due in the 07-16 results"
+          "zh": "2026Q2 财报（2026-07-16）：收入 US$40.20B（同比 +33.7%），落在 $39.0-40.2B 指引区间上沿；7nm 及以下先进节点占 wafer revenue 77%（Q1 为 74%）；HPC 收入环比 +20%、占 Q2 收入 66%；Q3 指引 US$44.6-45.8B",
+          "en": "Q2 2026 results (2026-07-16): revenue was US$40.20B (+33.7% YoY), at the top of the $39.0-40.2B guidance range; 7nm-and-below nodes were 77% of wafer revenue (74% in Q1); HPC revenue rose 20% QoQ to 66% of Q2 revenue; Q3 guidance is US$44.6-45.8B"
         },
-        "nextCheck": "月度收入与 2026Q2 财报 / monthly revenue and 2026Q2 results",
-        "nextCheckDate": "2026-07"
+        "nextCheck": "月度收入与 2026Q3 财报 / monthly revenue and 2026Q3 results",
+        "nextCheckDate": "2026-08"
       },
       {
         "id": "n3-n2-ramp",
@@ -4746,11 +4746,11 @@
           "en": "N3 / N2 ramp misses customer schedules, or depreciation / yield drag is worse than expected"
         },
         "latest": {
-          "zh": "2026Q1 3nm 约 25%、5nm 约 36%；N2 已 ramp 但尚未确认收入",
-          "en": "3nm was about 25% and 5nm about 36% of 2026Q1 wafer revenue; N2 is ramping but not yet revenue-recognized"
+          "zh": "2026Q2 wafer revenue 中 2nm 首次贡献 3%、3nm 30%、5nm 33%；管理报告显示 inventory days 从 80 天升至 87 天，主要由于 N2 ramp",
+          "en": "2nm contributed 3% of Q2 2026 wafer revenue for the first time, with 3nm at 30% and 5nm at 33%; the management report says inventory days rose from 80 to 87, primarily due to the N2 ramp"
         },
-        "nextCheck": "节点收入 mix / node revenue mix",
-        "nextCheckDate": "2026-07"
+        "nextCheck": "节点收入 mix 与 2026Q3 财报 / node revenue mix and 2026Q3 results",
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "cowos-3dfabric-capacity",
@@ -4801,10 +4801,11 @@
           "en": "Arizona / Japan / Germany ramp cost cannot be passed through, pushing structural gross margin below 60%"
         },
         "latest": {
-          "zh": "2026Q1 毛利率 66.2%，Q2 指引 65.5-67.5%；海外扩产仍在前期",
-          "en": "2026Q1 gross margin 66.2%, Q2 guide 65.5-67.5%; overseas expansion is still early"
+          "zh": "2026Q2 毛利率 67.7%，高于 65.5-67.5% 指引；Q3 指引 65-67%（按 32 NT$/US$）；官方管理报告称成本改善与更高利用率带来的增益被海外 fab 稀释部分抵消",
+          "en": "Q2 2026 gross margin was 67.7%, above the 65.5-67.5% guide; Q3 guidance is 65-67% at NT$32/US$; the official management report says overseas-fab dilution partly offset cost improvements and higher utilization"
         },
-        "nextCheck": "季度毛利率与海外 fab ramp / quarterly gross margin and overseas fab ramp"
+        "nextCheck": "季度毛利率与海外 fab ramp / quarterly gross margin and overseas fab ramp",
+        "nextCheckDate": "2026-10"
       }
     ]
   },

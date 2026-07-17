@@ -6,6 +6,13 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>TSMC 深度研究报告 - AI 基建链的先进制程与封装公共约束 / TSMC Deep Research Report - The Advanced-Node and Packaging Constraint in AI Infrastructure</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=tsmc-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=tsmc-2026#tsmc-2026@2026-07-16</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施书 foundry 层补位：TSMC 是整条链最硬的制造瓶颈，而不是又一个芯片设计公司。2026Q2 收入 US$40.20B（同比 +33.7%）落在指引区间上沿，毛利率 67.7% 高于 65.5-67.5% 指引；2nm 首次贡献 3% wafer revenue、7nm 及以下占 77%，HPC 占收入 66%。管理层把全年收入增速展望上调至略高于 40%，并把 2026 capex 从原 $52-56B 区间上调至 $60-64B；Q3 指引 US$44.6-45.8B。AI/HPC 需求已经穿透到晶圆收入和先进节点。ADR $434.16（2026-07-02 收盘）、约 $2.25T 市值、约 14x 2026E EV/Sales 仍是初始估值快照，本次监测不刷新估值或立场；维持中性观察 / 中确信，链内角色是 foundry 层 common-constraint。</description>
+    </item>
+    <item>
       <title>ASML 深度研究报告 - EUV / High-NA 作为设备层公共约束 / ASML Deep Research Report - EUV / High-NA as the Equipment-Layer Common Constraint</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=asml-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=asml-2026#asml-2026@2026-07-15</guid>
@@ -18,13 +25,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=sk-hynix-2026#sk-hynix-2026@2026-07-15</guid>
       <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
       <description>v5 回填：SK hynix 仍是全球 HBM 领导者，Q1 2026 营收 ₩52.6T、营业利润 ₩37.6T、营业利润率约 72%，但自 2 月以来股价约上涨 3.5 倍，价格锚点 ₩2,917,000 对应约 28x TTM P/E 和约 16x sales。20% 牛市 / 50% 基准 / 30% 熊市情景说明 HBM 质量真实，但当前价格已经资本化接近峰值的盈利能力，因此改为谨慎 / 中确信。2026-07-10 最终 SEC 424B4 确认 1.779 亿份 SKHY ADS 按 $149 发行、预计净募资约 $26.2B，用于韩国生产设施与 EUV 扫描仪；该事件改善可达性并强化 capex 执行证据，但不刷新 2026-06-25 估值快照。</description>
-    </item>
-    <item>
-      <title>TSMC 深度研究报告 - AI 基建链的先进制程与封装公共约束 / TSMC Deep Research Report - The Advanced-Node and Packaging Constraint in AI Infrastructure</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=tsmc-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=tsmc-2026#tsmc-2026@2026-07-15</guid>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施书 foundry 层补位：TSMC 是整条链最硬的制造瓶颈，而不是又一个芯片设计公司。2026Q1 收入 $35.90B、毛利率 66.2%、营业利润率 58.1%，Q2 指引 $39.0-40.2B；SEC 6-K 显示 June 收入 NT$442.68B（+67.9%）、Jan-Jun NT$2,404.48B（+35.6%），Q2 月度合计按 31.7 指引汇率折算约 $40.1B，落在指引区间内。AI/HPC 需求已经穿透到晶圆收入、先进节点和先进封装；但 ADR $434.16（2026-07-02 收盘）、市值约 $2.25T、2026E EV/Sales 约 14x，约定价未来三年 ~21% 收入 CAGR 与 60%+ 毛利。中性观察 / 中确信：高质量但基本被定价；链内角色是 foundry 层 common-constraint。</description>
     </item>
     <item>
       <title>Micron Technology 深度研究报告 - AI memory 周期的 HBM/DRAM/NAND 仪表盘 / Micron Technology Deep Research Report - HBM, DRAM, and NAND Dashboard for the AI Memory Cycle</title>
