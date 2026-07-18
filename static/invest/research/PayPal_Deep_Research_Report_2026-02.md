@@ -595,10 +595,10 @@ PayPal is a deeply undervalued cash-generating machine trading at low multiples 
 **1. Valuation is Historically Cheap (High Conviction)**
 
 **Data:**
-- Forward P/E: 9.2x vs 10-year average of 25-30x
-- P/S Ratio: 1.2x vs historical 5-8x
-- FCF Yield: 16% vs S&P 500 average of 3-4%
-- EV/EBITDA: ~6-7x vs historical 15-20x
+- ~~Forward P/E: 9.2x vs 10-year average of 25-30x~~ **[2026-07-17] historical February basis; no current forward-P/E conclusion is offered while the takeover situation is unresolved and the Q2 model is pending rebuild.**
+- ~~P/S Ratio: 1.2x vs historical 5-8x~~ **[2026-07-17] historical February basis, not a current comparison.**
+- ~~FCF Yield: 16% vs S&P 500 average of 3-4%~~ **[2026-07-17] old basis; at $56.56 the rough yield is ~11%-13% using the 2025 FCF range, pending a Q2 rebuild and not presented as downside protection.**
+- ~~EV/EBITDA: ~6-7x vs historical 15-20x~~ **[2026-07-17] historical February estimate, not a current comparison.**
 
 **Argument:** Even if PayPal never grows again, a high FCF yield ~~(16%, old basis)~~ provides attractive returns. The market is pricing in permanent structural decline, but PayPal still processes $1.79T annually with 438M active accounts. ~~A reversion to even 15x P/E (still below historical average) implies 50%+ upside from $41 to $60+.~~ **[2026-07-17] the old 16% FCF yield and the price-upside math are stale — the fundamental frame is superseded by the takeover situation (see July 17 update); at $56.56 the FCF yield is ~11%-13%.**
 
