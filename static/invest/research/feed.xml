@@ -6,6 +6,13 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>Nebius Group 深度研究报告 - neocloud 的『干净对照组』：对 CoreWeave 风险锚的架构校验 / Nebius Group Deep Research Report - The 'Clean' Neocloud: An Architecture Check on the CoreWeave Risk Anchor</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=nebius-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=nebius-2026#nebius-2026@2026-07-17</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
+      <description>本中心 AI 基础设施书 demand-risk 层的第二篇，作为对 CoreWeave 风险锚的『交叉校验/架构校验』。前身 Yandex 的国际继承者、阿姆斯特丹总部、纳斯达克上市的全栈 AI 云（neocloud）。与 CoreWeave 相反：Q1 2026 营收 $3.99 亿(+684%)、AI 云 ARR $19.2 亿、调整后 EBITDA 转正 $1.295 亿、经营现金流 +$22.6 亿，靠约 $93 亿现金/客户预付款/可转债、而非 GPU 抵押杠杆融资；约 $84 亿非流动债务与约 $10 亿经营租赁负债，对照约 $93 亿现金，金融债务口径近中性、租赁调整后中性至约 $40 亿净现金（取决于预付认股权证处理）。但 GAAP 净利 $6.21 亿实为一笔 $7.806 亿 ClickHouse 非现金重估（经营层面 −$1.28 亿亏损），且正积累与 CoreWeave 同款的超大规模集中（微软最高约 $194 亿 + Meta 最高约 $270 亿，合计约 $460 亿公司披露承诺/上限）与 NVIDIA 供应商+股东循环性。股价约 $240（2026-07-01，6 月 22 日纳指 100 纳入前后约 $256）、市值约 $610 亿、约 2.539 亿流通股，约 17-19x EV/2026E 营收（约 CoreWeave 的 3 倍）、约 7x EV/退出 ARR；2026 资本开支 $200-250 亿(约 7 倍营收)。核心读数：CoreWeave 的脆弱只是资产负债表选择，还是 neocloud 模式的固有属性？答案——只有偿付脆弱是 CoreWeave 独有，需求/集中/循环/资本开支风险是全层共享。2026-07-07 v5 更新：以 2026-07-06 收盘 $213.02 为锚，30% 牛市 / 40% 基准 / 30% 熊市情景网格给出略偏负预期差，当前迁移为谨慎 / 中确信。2026-07-17 监测更新：公司签订首笔约 $7.75 亿资产级担保融资；客户未具名，可复制性仍是公司预期，本次不刷新 2026-07-06 估值快照或谨慎 / 中确信立场。</description>
+    </item>
+    <item>
       <title>TSMC 深度研究报告 - AI 基建链的先进制程与封装公共约束 / TSMC Deep Research Report - The Advanced-Node and Packaging Constraint in AI Infrastructure</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=tsmc-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=tsmc-2026#tsmc-2026@2026-07-16</guid>
@@ -88,13 +95,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=eqix-2026#eqix-2026@2026-07-07</guid>
       <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
       <description>AI 基础设施 datacenter-facility 层的 DLR 对照组：EQIX 用 Platform Equinix interconnection、retail colocation、xScale JV 和 AFFO/share 来验证 AI 需求是否不只是 hyperscale shell leasing。2026Q1 收入 $2.444B（reported YoY +10%）、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；MRR 同比 +12% reported / +10% normalized constant currency，annualized gross bookings $378M，annualized presales 约 $140M，largest deals 约 60% AI-related。2025 年报披露 280 个数据中心、10,500+ 客户、507,000+ interconnections，Q1 2026 interconnection revenue $446M。当前 $1,002.02（2026-07-02）、市值约 $98.8B、EV 约 $120.8B，约 23.5x 2026 AFFO/share 指引中点、约 11.9x 2026 revenue 指引。中性观察 / 中确信：质量高但估值高，关键监控是 interconnection revenue、AI bookings/presales、xScale economics、MRR/cabinet yield 与 power availability。</description>
-    </item>
-    <item>
-      <title>Nebius Group 深度研究报告 - neocloud 的『干净对照组』：对 CoreWeave 风险锚的架构校验 / Nebius Group Deep Research Report - The 'Clean' Neocloud: An Architecture Check on the CoreWeave Risk Anchor</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=nebius-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=nebius-2026#nebius-2026@2026-07-07</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
-      <description>本中心 AI 基础设施书 demand-risk 层的第二篇，作为对 CoreWeave 风险锚的『交叉校验/架构校验』。前身 Yandex 的国际继承者、阿姆斯特丹总部、纳斯达克上市的全栈 AI 云（neocloud）。与 CoreWeave 相反：Q1 2026 营收 $3.99 亿(+684%)、AI 云 ARR $19.2 亿、调整后 EBITDA 转正 $1.295 亿、经营现金流 +$22.6 亿，靠约 $93 亿现金/客户预付款/可转债、而非 GPU 抵押杠杆融资；约 $84 亿非流动债务与约 $10 亿经营租赁负债，对照约 $93 亿现金，金融债务口径近中性、租赁调整后中性至约 $40 亿净现金（取决于预付认股权证处理）。但 GAAP 净利 $6.21 亿实为一笔 $7.806 亿 ClickHouse 非现金重估（经营层面 −$1.28 亿亏损），且正积累与 CoreWeave 同款的超大规模集中（微软最高约 $194 亿 + Meta 最高约 $270 亿，合计约 $460 亿公司披露承诺/上限）与 NVIDIA 供应商+股东循环性。股价约 $240（2026-07-01，6 月 22 日纳指 100 纳入前后约 $256）、市值约 $610 亿、约 2.539 亿流通股，约 17-19x EV/2026E 营收（约 CoreWeave 的 3 倍）、约 7x EV/退出 ARR；2026 资本开支 $200-250 亿(约 7 倍营收)。核心读数：CoreWeave 的脆弱只是资产负债表选择，还是 neocloud 模式的固有属性？答案——只有偿付脆弱是 CoreWeave 独有，需求/集中/循环/资本开支风险是全层共享。2026-07-07 v5 更新：以 2026-07-06 收盘 $213.02 为锚，30% 牛市 / 40% 基准 / 30% 熊市情景网格给出略偏负预期差，当前迁移为谨慎 / 中确信。</description>
     </item>
     <item>
       <title>Arista Networks 深度研究报告 - AI 集群开放以太网 fabric 的系统软件卖铲人 / Arista Networks Deep Research Report - The Open Ethernet Fabric of AI Clusters</title>

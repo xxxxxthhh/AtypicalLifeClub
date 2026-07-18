@@ -1,5 +1,30 @@
 [
   {
+    "id": "nebius-secured-debt-facility-2026-07",
+    "date": "2026-07-17",
+    "title": {
+      "zh": "Nebius 签订首笔约 $7.75 亿高级担保融资，为 neocloud 资产级融资提供首个实证",
+      "en": "Nebius enters first ~$775M senior secured facility, providing first evidence of neocloud asset-level funding"
+    },
+    "detail": {
+      "zh": "据 Nebius Group 2026-07-17 公司公告，公司签订首笔约 US$775M 高级担保债务融资，以已部署 GPU 基础设施及一家未具名投资级客户合同现金流作支持，2030-10-31 到期、定价 SOFR + 2.50%；公司称交易获显著超额认购，且该 facility 与客户合同现金流合计覆盖标的 GPU 部署资本开支的 100% 以上。这是资产级融资已落地的一个数据点，需与本层融资风险锚 CoreWeave 对照。证据边界：客户未具名，不能将本笔 facility 直接归因于微软或 Meta；Nebius 另称该结构可用于其他长期部署，并以微软、Meta 等客户超过 $400 亿的新增合同收入作为潜在基础，但可复制性与未来类似条款仍是公司预期。约 $7.75 亿仅相当于 $200-250 亿 2026 capex 区间的约 3.1%-3.9%，且公告未披露提款状态、费用、契约或摊还结构。",
+      "en": "Per Nebius Group's 2026-07-17 company release, Nebius entered its first senior secured debt facility for approximately US$775M, backed by deployed GPU infrastructure and contracted cash flows from an unnamed investment-grade customer, due 2030-10-31 and priced at SOFR + 2.50%. The company says the transaction was significantly oversubscribed and that the facility, together with the customer agreement's cash flows, covers more than 100% of the capex for the underlying GPU deployment. This is one observed datapoint that asset-level financing has been arranged and should be read against CoreWeave as the layer's financing risk anchor. Evidence limits: the customer is unnamed, so the present facility cannot be attributed directly to Microsoft or Meta. Nebius separately says the structure can support other long-term deployments and points to more than $40B of additional contracted revenue from customers such as Microsoft and Meta, but repeatability and similarly attractive future terms remain company expectations. Approximately $775M is only about 3.1%-3.9% of the $20-25B 2026 capex range, and the release does not disclose drawdown status, fees, covenants, or amortization."
+    },
+    "crossChecks": [
+      "neocloud-financing"
+    ],
+    "tickers": [
+      "NBIS",
+      "CRWV"
+    ],
+    "reportIds": [
+      "nebius-2026"
+    ],
+    "monitoringRefs": [
+      "nebius-2026:funding-durability"
+    ]
+  },
+  {
     "id": "tsmc-q2-results-capex-raise-2026",
     "date": "2026-07-16",
     "title": {

@@ -1397,7 +1397,7 @@
     "priceSymbol": "NBIS",
     "title": "Nebius Group 深度研究报告 - neocloud 的『干净对照组』：对 CoreWeave 风险锚的架构校验",
     "titleEn": "Nebius Group Deep Research Report - The 'Clean' Neocloud: An Architecture Check on the CoreWeave Risk Anchor",
-    "summary": "本中心 AI 基础设施书 demand-risk 层的第二篇，作为对 CoreWeave 风险锚的『交叉校验/架构校验』。前身 Yandex 的国际继承者、阿姆斯特丹总部、纳斯达克上市的全栈 AI 云（neocloud）。与 CoreWeave 相反：Q1 2026 营收 $3.99 亿(+684%)、AI 云 ARR $19.2 亿、调整后 EBITDA 转正 $1.295 亿、经营现金流 +$22.6 亿，靠约 $93 亿现金/客户预付款/可转债、而非 GPU 抵押杠杆融资；约 $84 亿非流动债务与约 $10 亿经营租赁负债，对照约 $93 亿现金，金融债务口径近中性、租赁调整后中性至约 $40 亿净现金（取决于预付认股权证处理）。但 GAAP 净利 $6.21 亿实为一笔 $7.806 亿 ClickHouse 非现金重估（经营层面 −$1.28 亿亏损），且正积累与 CoreWeave 同款的超大规模集中（微软最高约 $194 亿 + Meta 最高约 $270 亿，合计约 $460 亿公司披露承诺/上限）与 NVIDIA 供应商+股东循环性。股价约 $240（2026-07-01，6 月 22 日纳指 100 纳入前后约 $256）、市值约 $610 亿、约 2.539 亿流通股，约 17-19x EV/2026E 营收（约 CoreWeave 的 3 倍）、约 7x EV/退出 ARR；2026 资本开支 $200-250 亿(约 7 倍营收)。核心读数：CoreWeave 的脆弱只是资产负债表选择，还是 neocloud 模式的固有属性？答案——只有偿付脆弱是 CoreWeave 独有，需求/集中/循环/资本开支风险是全层共享。2026-07-07 v5 更新：以 2026-07-06 收盘 $213.02 为锚，30% 牛市 / 40% 基准 / 30% 熊市情景网格给出略偏负预期差，当前迁移为谨慎 / 中确信。",
+    "summary": "本中心 AI 基础设施书 demand-risk 层的第二篇，作为对 CoreWeave 风险锚的『交叉校验/架构校验』。前身 Yandex 的国际继承者、阿姆斯特丹总部、纳斯达克上市的全栈 AI 云（neocloud）。与 CoreWeave 相反：Q1 2026 营收 $3.99 亿(+684%)、AI 云 ARR $19.2 亿、调整后 EBITDA 转正 $1.295 亿、经营现金流 +$22.6 亿，靠约 $93 亿现金/客户预付款/可转债、而非 GPU 抵押杠杆融资；约 $84 亿非流动债务与约 $10 亿经营租赁负债，对照约 $93 亿现金，金融债务口径近中性、租赁调整后中性至约 $40 亿净现金（取决于预付认股权证处理）。但 GAAP 净利 $6.21 亿实为一笔 $7.806 亿 ClickHouse 非现金重估（经营层面 −$1.28 亿亏损），且正积累与 CoreWeave 同款的超大规模集中（微软最高约 $194 亿 + Meta 最高约 $270 亿，合计约 $460 亿公司披露承诺/上限）与 NVIDIA 供应商+股东循环性。股价约 $240（2026-07-01，6 月 22 日纳指 100 纳入前后约 $256）、市值约 $610 亿、约 2.539 亿流通股，约 17-19x EV/2026E 营收（约 CoreWeave 的 3 倍）、约 7x EV/退出 ARR；2026 资本开支 $200-250 亿(约 7 倍营收)。核心读数：CoreWeave 的脆弱只是资产负债表选择，还是 neocloud 模式的固有属性？答案——只有偿付脆弱是 CoreWeave 独有，需求/集中/循环/资本开支风险是全层共享。2026-07-07 v5 更新：以 2026-07-06 收盘 $213.02 为锚，30% 牛市 / 40% 基准 / 30% 熊市情景网格给出略偏负预期差，当前迁移为谨慎 / 中确信。2026-07-17 监测更新：公司签订首笔约 $7.75 亿资产级担保融资；客户未具名，可复制性仍是公司预期，本次不刷新 2026-07-06 估值快照或谨慎 / 中确信立场。",
     "tags": [
       "AI云",
       "AI基础设施",
@@ -1406,7 +1406,7 @@
     ],
     "category": "tech",
     "date": "2026-07-01",
-    "lastUpdate": "2026-07-07",
+    "lastUpdate": "2026-07-17",
     "file": "/invest/research/reports/view.html?id=nebius-2026",
     "markdownFiles": {
       "zh": "/invest/research/Nebius_深度研究报告_2026-07.md",
@@ -1422,7 +1422,7 @@
       "股价约 $240(2026-07-01；6 月 22 日纳指 100 纳入前后约 $256)、市值约 $610 亿、约 2.539 亿流通股；约 17-19x EV/2026E 营收(约 CoreWeave 3 倍)、约 7x EV/退出 ARR；2026 资本开支 $200-250 亿(约 7 倍营收)。高质量但高预期/高风险(观察)",
       "2026-07-07 v5 更新：以 2026-07-06 收盘 $213.02 为锚，30% 牛市 / 40% 基准 / 30% 熊市；略偏负预期差，立场迁移为谨慎 / 中确信"
     ],
-    "summaryEn": "The second report in this center's AI-infra demand-risk layer, serving as the cross-check ('architecture check') on the CoreWeave risk anchor. Nebius is the Amsterdam-HQ, NASDAQ-listed, full-stack AI-cloud (neocloud) successor to the former Yandex. It is CoreWeave's mirror image: Q1 2026 revenue $399.0M (+684%), AI-cloud ARR $1.92B, adjusted EBITDA turned positive at $129.5M, and +$2.3B operating cash flow — funded by ~$9.3B cash, customer prepayments and convertibles rather than GPU-collateralized leverage, with ~$8.4B non-current debt plus ~$1.0B operating lease liabilities against ~$9.3B cash (financial-debt near-neutral; lease-adjusted neutral to ~$4B net cash depending on prefunded-warrant treatment). But GAAP net income of $621M is a $780.6M non-cash ClickHouse revaluation over a −$128M operating loss, and Nebius is accumulating the same hyperscaler concentration (Microsoft up to ~$19.4B + Meta up to ~$27B, ~$46B company-disclosed commitments/ceilings) and the same NVIDIA supplier-shareholder circularity as CoreWeave. Stock ~$240 (2026-07-01; ~$256 around its June-22 Nasdaq-100 inclusion), market cap ~$61B on ~253.9M shares outstanding, ~17-19x EV/2026E revenue (~3x CoreWeave's) and ~7x EV/exit-ARR; 2026 capex $20-25B (~7x revenue). Core read-through: is CoreWeave's fragility a balance-sheet choice or inherent to the neocloud model? Only the solvency fragility is CoreWeave-specific; the demand/concentration/circularity/capex risks are shared across the layer. Jul 7, 2026 v5 update: anchored to the Jul 6, 2026 close of $213.02, the 30% bull / 40% base / 30% bear scenario grid leaves a slightly negative expectation gap; stance migrates to cautious / medium conviction.",
+    "summaryEn": "The second report in this center's AI-infra demand-risk layer, serving as the cross-check ('architecture check') on the CoreWeave risk anchor. Nebius is the Amsterdam-HQ, NASDAQ-listed, full-stack AI-cloud (neocloud) successor to the former Yandex. It is CoreWeave's mirror image: Q1 2026 revenue $399.0M (+684%), AI-cloud ARR $1.92B, adjusted EBITDA turned positive at $129.5M, and +$2.3B operating cash flow — funded by ~$9.3B cash, customer prepayments and convertibles rather than GPU-collateralized leverage, with ~$8.4B non-current debt plus ~$1.0B operating lease liabilities against ~$9.3B cash (financial-debt near-neutral; lease-adjusted neutral to ~$4B net cash depending on prefunded-warrant treatment). But GAAP net income of $621M is a $780.6M non-cash ClickHouse revaluation over a −$128M operating loss, and Nebius is accumulating the same hyperscaler concentration (Microsoft up to ~$19.4B + Meta up to ~$27B, ~$46B company-disclosed commitments/ceilings) and the same NVIDIA supplier-shareholder circularity as CoreWeave. Stock ~$240 (2026-07-01; ~$256 around its June-22 Nasdaq-100 inclusion), market cap ~$61B on ~253.9M shares outstanding, ~17-19x EV/2026E revenue (~3x CoreWeave's) and ~7x EV/exit-ARR; 2026 capex $20-25B (~7x revenue). Core read-through: is CoreWeave's fragility a balance-sheet choice or inherent to the neocloud model? Only the solvency fragility is CoreWeave-specific; the demand/concentration/circularity/capex risks are shared across the layer. Jul 7, 2026 v5 update: anchored to the Jul 6, 2026 close of $213.02, the 30% bull / 40% base / 30% bear scenario grid leaves a slightly negative expectation gap; stance migrates to cautious / medium conviction. Jul. 17, 2026 monitoring update: Nebius entered its first approximately $775M asset-level secured facility; the customer is unnamed and repeatability remains an issuer expectation. This update does not refresh the Jul. 6 valuation snapshot or the cautious / medium-conviction stance.",
     "chainLayer": "demand-risk",
     "coverageTier": "full",
     "chainRole": "architecture-check",
@@ -1504,10 +1504,10 @@
           "en": "the '>90% secured' 2026 capex ($20-25B, ~7x revenue) breaks in a tighter capital market"
         },
         "latest": {
-          "zh": ">90% 已由现金/合同锁定；约 $93 亿现金；预期对微软/Meta 合同做 ABS",
-          "en": ">90% secured by cash/contracts; ~$9.3B cash; ABS expected against Microsoft/Meta contracts"
+          "zh": "2026-07-17 公司公告签订首笔约 $7.75 亿高级担保融资：以已部署 GPU 基础设施和未具名投资级客户合同现金流支持，SOFR+2.50%、2030-10-31 到期；公司称显著超额认购，且与客户现金流合计覆盖标的 GPU 部署 capex >100%。客户未具名；公司另称结构可复制到微软/Meta 等 >$400 亿新增合同收入，但这仍是未来融资预期。规模相对 $200-250 亿 2026 capex 仍小；此前披露框架：>90% 已由现金/合同锁定，约 $93 亿现金",
+          "en": "Nebius announced 2026-07-17 that it entered its first senior secured facility (~$775M), backed by deployed GPU infrastructure and an unnamed investment-grade customer's contracted cash flows, priced at SOFR+2.50% and due 2030-10-31; the company says it was significantly oversubscribed and, together with customer cash flows, covers >100% of the underlying GPU-deployment capex. The customer is unnamed; the issuer separately says the structure could be repeated against >$40B of additional contracted revenue from customers such as Microsoft/Meta, but that remains a future financing expectation. Small vs $20-25B 2026 capex; prior disclosed frame: >90% secured by cash/contracts and ~$9.3B cash"
         },
-        "nextCheck": "ABS 发行 / ATM 使用 / prepayment 节奏"
+        "nextCheck": "额外资产级融资；提款/契约/费用披露；ATM 使用与预付款节奏 / additional asset-level facilities; drawdown, covenant and fee disclosures; ATM use and prepayment cadence"
       },
       {
         "id": "optionality-crystallization",
