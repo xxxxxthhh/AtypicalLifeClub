@@ -1,7 +1,7 @@
 # Amazon.com (AMZN) Deep Research Report
 
 Coverage date: 2026-02-11
-Last updated: 2026-06-25
+Last updated: 2026-07-17
 Ticker: NASDAQ: AMZN
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -277,6 +277,8 @@ This is the central question for understanding Amazon's current investment thesi
 | Net Cash | $57.4B | $48.6B |
 
 The balance sheet remains robust. Despite $13B in incremental long-term debt (primarily to fund AI investments), $123B in cash + marketable securities far exceeds debt levels. FY2025 saw $25B in new debt issuance and $15.3B in repayments.
+
+> **[2026-07-17 update | financing event]** On **2026-07-09 Amazon completed ~$24.923B of multi-tranche senior unsecured notes** ($750M floating-rate notes plus fixed-rate tranches at ~4.60%–6.25%, maturities 2029–2066; underwriting agreement 2026-07-07), with net proceeds ~$24.867B earmarked for capex and AI infrastructure — and it stated it does not plan further 2026 debt. This materially raises long-term debt from the FY2025 $65.6B, so **net debt / EV should be rebuilt after Q2 2026 earnings (2026-07-30)** — the net-debt, EV/EBITDA, and EV/Revenue figures in the table above and the valuation below are on a 2026-06-25 basis, do not include this issuance, and should be treated as pending update. Source: Amazon 8-K (2026-07-09, multi-tranche notes); Globe and Mail / StockTitan / GuruFocus coverage.
 
 ### 5.5 Shareholder Returns
 

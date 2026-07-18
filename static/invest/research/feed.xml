@@ -13,6 +13,27 @@
       <description>本中心 AI 基础设施书 demand-risk 层的第二篇，作为对 CoreWeave 风险锚的『交叉校验/架构校验』。前身 Yandex 的国际继承者、阿姆斯特丹总部、纳斯达克上市的全栈 AI 云（neocloud）。与 CoreWeave 相反：Q1 2026 营收 $3.99 亿(+684%)、AI 云 ARR $19.2 亿、调整后 EBITDA 转正 $1.295 亿、经营现金流 +$22.6 亿，靠约 $93 亿现金/客户预付款/可转债、而非 GPU 抵押杠杆融资；约 $84 亿非流动债务与约 $10 亿经营租赁负债，对照约 $93 亿现金，金融债务口径近中性、租赁调整后中性至约 $40 亿净现金（取决于预付认股权证处理）。但 GAAP 净利 $6.21 亿实为一笔 $7.806 亿 ClickHouse 非现金重估（经营层面 −$1.28 亿亏损），且正积累与 CoreWeave 同款的超大规模集中（微软最高约 $194 亿 + Meta 最高约 $270 亿，合计约 $460 亿公司披露承诺/上限）与 NVIDIA 供应商+股东循环性。股价约 $240（2026-07-01，6 月 22 日纳指 100 纳入前后约 $256）、市值约 $610 亿、约 2.539 亿流通股，约 17-19x EV/2026E 营收（约 CoreWeave 的 3 倍）、约 7x EV/退出 ARR；2026 资本开支 $200-250 亿(约 7 倍营收)。核心读数：CoreWeave 的脆弱只是资产负债表选择，还是 neocloud 模式的固有属性？答案——只有偿付脆弱是 CoreWeave 独有，需求/集中/循环/资本开支风险是全层共享。2026-07-07 v5 更新：以 2026-07-06 收盘 $213.02 为锚，30% 牛市 / 40% 基准 / 30% 熊市情景网格给出略偏负预期差，当前迁移为谨慎 / 中确信。2026-07-17 监测更新：公司签订首笔约 $7.75 亿资产级担保融资；客户未具名，可复制性仍是公司预期，本次不刷新 2026-07-06 估值快照或谨慎 / 中确信立场。</description>
     </item>
     <item>
+      <title>Amazon 深度研究报告 - AI基础设施豪赌与飞轮加速 / Amazon Deep Research Report - The AI Infrastructure Bet and Flywheel Acceleration</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=amzn-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amzn-2026#amzn-2026@2026-07-17</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
+      <description>全球最大电商+云计算巨头。Q1 FY2026实际营收$181.5B(+17%, AWS加速至+28%创15季新高), 营业利润$23.9B(13.1%利润率创纪录); 净利润$30.3B含约$16.8B Anthropic投资一次性收益。$200B CapEx计划推进中, FCF承压(TTM $9.8B)。估值快照(2026-06-25)：股价$228.15、市值~$2.52T、GAAP P/E 27.75x/正常化~31.6x。核心张力: AI基础设施豪赌的回报周期 vs 零售+云+广告三引擎的利润动能。2026-07-17：完成约$24.9B高级票据发行(AI capex融资，公司称2026年不再增发债)，净债务/EV口径待Q2财报(07-30)后重建。</description>
+    </item>
+    <item>
+      <title>Netflix 深度研究报告 - 估值压缩与有机增长再验证 / Netflix Deep Research Report - Valuation Compression and Organic Growth Test</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=netflix-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=netflix-2026#netflix-2026@2026-07-17</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
+      <description>2026-07-17更新（Q2 2026财报）：Q2营收$12.56B（+13.4%）、运营利润率33.4%、净利$3.4B、EPS $0.80；FY2026营收指引收窄至$51.0–51.4B，Q3指引$12.86B（+11.7%）低于约$13B预期，财报后股价单日-7.3%。市场数据：股价$68.95、市值约$290.3B、TTM P/E约23.4x、Forward P/E约18.1x、P/S约6.0x。公司进一步缩减观看量披露；投资论点仍在广告变现、内容ROI、直播/体育执行与资本配置。</description>
+    </item>
+    <item>
+      <title>PayPal 深度调研报告 - 2025-2026年度分析 / PayPal Deep Research Report - 2025-2026 Analysis</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=paypal-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=paypal-2026#paypal-2026@2026-07-17</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
+      <description>2026-07-17更新（发展中收购要约）：据Reuters/CNBC/Bloomberg等报道（2026-07-15），Stripe与Advent对PayPal提出非请自来收购要约，约$60.50/股、整体估值超$53B、溢价约28%、约$50B承诺融资；PayPal尚未回应，董事会最快2026-07-20开会。PYPL 7-15单日约+16%，7-17收$56.56。交易明朗前，此前基于基本面的合理价值框架被并购动态暂时取代；本轮不因股价改变立场、不给新公允价，属事实性登记。</description>
+    </item>
+    <item>
       <title>TSMC 深度研究报告 - AI 基建链的先进制程与封装公共约束 / TSMC Deep Research Report - The Advanced-Node and Packaging Constraint in AI Infrastructure</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=tsmc-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=tsmc-2026#tsmc-2026@2026-07-16</guid>
@@ -265,13 +286,6 @@
       <description>VanEck 半导体 ETF，是 AI 半导体链条的 benchmark/control sleeve，而不是 coverage-map 单一链条节点。发行人页面 2026-07-02 显示 NAV $592.26、总资产 $68.82B、总费率 0.35%；2026-07-01 持仓 26 只，前十大包括 NVDA 18.41%、TSM 9.18%、AMD 5.57%、AMAT 5.49%、AVGO 5.49%、MU 5.39%、KLAC 5.10%、LRCX 4.97%、ASML 4.96%、INTC 4.92%。定位为 lite benchmark / neutral control sleeve，用来比较单公司报告是否只是半导体 beta。</description>
     </item>
     <item>
-      <title>Netflix 深度研究报告 - 估值压缩与有机增长再验证 / Netflix Deep Research Report - Valuation Compression and Organic Growth Test</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=netflix-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=netflix-2026#netflix-2026@2026-06-26</guid>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
-      <description>2026-06-26更正：WBD不再是Netflix收购催化剂；此前关于WBD交易推进/Q3完成的叙事已撤回。6月25日估值快照仍保留：股价$71.82，市值$302.5B，TTM P/E 23.17x，Forward P/E 22.37x。Q1 2026超预期、运营利润率升至32.30%，但投资论点回到广告变现、内容ROI、直播/体育执行和资本配置。</description>
-    </item>
-    <item>
       <title>Tempus AI 深度研究报告 - 精准医疗数据飞轮的高增长与高风险 / Tempus AI Deep Research Report - Precision Medicine Data Flywheel's High Growth and High Risk</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=tempus-ai-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=tempus-ai-2026#tempus-ai-2026@2026-06-25</guid>
@@ -300,13 +314,6 @@
       <description>全球CRM霸主，FY2026营收$41.5B(+10%), FCF $14.4B(+16%), Non-GAAP利润率34.1%。Agentforce + Data 360合计ARR $2.9B+(+200% YoY)。2026-06-25更新: 股价从$193暴跌至~$151(YTD -40%), 市值$1,251亿, Forward P/E从~17x压缩至11.22x, P/S(TTM) 2.92x, FCF yield ~11.5%。业务基本面(CRM霸主+利润扩张+$2.9B AI ARR)未变, 但市场定价已进入极端价值区域。分析师共识$250(+66%上行), 空头占比8.61%。</description>
     </item>
     <item>
-      <title>Amazon 深度研究报告 - AI基础设施豪赌与飞轮加速 / Amazon Deep Research Report - The AI Infrastructure Bet and Flywheel Acceleration</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=amzn-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amzn-2026#amzn-2026@2026-06-25</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
-      <description>全球最大电商+云计算巨头。Q1 FY2026实际营收$181.5B(+17%, AWS加速至+28%创15季新高), 营业利润$23.9B(13.1%利润率创纪录); 净利润$30.3B含约$16.8B Anthropic投资一次性收益。$200B CapEx计划推进中, FCF承压(TTM $9.8B)。当前股价$228.15, 市值~$2.52T, GAAP P/E 27.75x/正常化~31.6x。核心张力: AI基础设施豪赌的回报周期 vs 零售+云+广告三引擎的利润动能。</description>
-    </item>
-    <item>
       <title>Spotify 深度研究报告 - 全球音频科技平台的盈利转型与估值再评估 / Spotify Deep Research Report - The Global Audio Tech Platform's Profitability Transformation and Valuation Reassessment</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=spotify-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=spotify-2026#spotify-2026@2026-06-25</guid>
@@ -333,13 +340,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amd-2026-pre-rerun#amd-2026-pre-rerun@2026-06-22</guid>
       <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
       <description>归档的2026H1重跑前基线版本，保留更完整的业务概览、行业竞争、管理层、牛熊论点和旧估值框架，用于审计与对照。</description>
-    </item>
-    <item>
-      <title>PayPal 深度调研报告 - 2025-2026年度分析 / PayPal Deep Research Report - 2025-2026 Analysis</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=paypal-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=paypal-2026#paypal-2026@2026-06-22</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <description>2026年6月增量更新：PayPal仍处于价值陷阱 vs 深度价值分歧点。Q1品牌结账约+2%，Venmo支付量约+14%，新CEO Enrique Lores进入执行期并推进三业务重组与约$1.5B降本计划。Nasdaq 6月18日报价$42.51、市值约$37.5B，估值仍低但旧合理价值区间已标记为历史框架。</description>
     </item>
     <item>
       <title>Tempus AI 深度研究报告 - 精准医疗数据飞轮的高增长与高风险 - 重跑前归档版 / Tempus AI Deep Research Report - Precision Medicine Data Flywheel's High Growth and High Risk - Pre-rerun Archive</title>

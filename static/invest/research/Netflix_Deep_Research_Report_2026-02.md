@@ -1,7 +1,8 @@
 # Netflix (NASDAQ: NFLX) Deep Research Report
 
 Coverage date: 2026-02-10
-Last updated: 2026-06-26
+Last updated: 2026-07-17
+> **2026-07-17 Incremental Update (Q2 2026 earnings):** Netflix reported Q2 2026 after the close on 2026-07-16. Revenue **$12.56B (+13.4% YoY)**, operating income **$4.2B (+11% YoY)**, operating margin **33.4%** (34.1% in Q2'25), net income **$3.4B**, diluted EPS **$0.80**. FY2026 revenue guidance narrowed to **$51.0–51.4B** with operating margin held at **31.5%**; Q3 2026 revenue guided to **+11.7% at $12.86B**, below the ~$13B consensus, and the stock fell ~**-7.3%** the next session. Management also announced a further scale-back of viewership disclosure; H1 2026 member view time was 97B+ hours (+2% YoY). Market data (2026-07-17): price **$68.95**, market cap ~**$290.3B**, TTM P/E **≈23.4x**, Forward P/E **≈18.1x**, P/S(TTM) **≈6.0x**. Source: Netflix Q2 2026 shareholder letter / 8-K (2026-07-16).
 > **2026-06-25 Incremental Update:** Price $71.82 (from $81 in Feb, -11%), Market Cap $302.5B, Q1 2026 reported (TTM revenue $46.89B, +16.2% YoY quarterly; TTM EPS $3.10, +82.8% YoY quarterly); TTM P/E 23.17x, Forward P/E 22.37x, operating margin rose to 32.30%. 52-week low $71.09. ~~WBD acquisition progressing, price reflects deep pessimism.~~ **2026-06-26 correction:** The WBD acquisition frame is stale. After WBD deemed Paramount Skydance's higher bid superior, Netflix declined to raise its offer; WBD is no longer a Netflix catalyst. The thesis now rests on organic ads, content ROI, live/sports execution, and capital allocation.
 Ticker: NASDAQ: NFLX
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
@@ -18,25 +19,29 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 **Quick Stats:**
 
-| Metric | Value (2026-02) | Value (2026-06-25 Update) |
+| Metric | Value (2026-02) | Value (2026-07-17 Update, incl. Q2 2026) |
 |--------|----------------|---------------------------|
-| Price | ~~~$81~~ | $71.82 (-11.4% from Feb) |
-| Market Cap | ~~~$350B~~ | $302.5B |
-| P/E (TTM) | ~~~32x~~ | 23.17x (self-calc: $71.82 / $3.10 EPS) |
-| Forward P/E | ~~~26-29x~~ | 22.37x |
-| P/S (TTM) | — | 6.63x ($302.5B / $46.89B = 6.45x self-calc) |
-| P/B | — | 9.72x ($71.82 / $7.39 BVPS) |
-| EV/EBITDA | — | 21.32x self-calc ($304.58B / $14.29B) |
-| TTM Revenue | ~~$45.2B~~ | $46.89B (incl. Q1 2026, +16.2% YoY quarterly) |
+| Price | ~~~$81~~ | ~~$71.82~~ **$68.95** (-7.3% single session post-Q2) |
+| Market Cap | ~~~$350B~~ | ~~$302.5B~~ **~$290.3B** |
+| P/E (TTM) | ~~~32x~~ | ~~23.17x~~ **≈23.4x** (self-calc: $68.95 / $2.95 TTM EPS) |
+| Forward P/E | ~~~26-29x~~ | ~~22.37x~~ **≈18.1x** |
+| P/S (TTM) | — | ~~6.45x~~ **≈6.0x** ($290.3B / $48.37B TTM revenue) |
+| P/B | — | ~~9.72x~~ **≈9.33x** ($68.95 / $7.39 BVPS) |
+| EV/EBITDA | — | 21.32x (2026-06-25 baseline frame, not rebuilt for Q2) |
+| TTM Revenue | ~~$45.2B~~ | ~~$46.89B~~ **$48.37B** (incl. Q2 2026) |
+| Q2 2026 Quarterly Revenue | — | **$12.56B (+13.4% YoY)** |
 | FY2025 Revenue | $45.2B (+16% YoY) | Unchanged |
-| TTM Operating Margin | ~~29.5%~~ | 32.30% |
-| TTM Net Income | — | $13.37B, margin 28.52% |
-| TTM OCF | — | $12.65B; FCF ≤ OCF (CapEx ~$2B, FCF ~$10.7B est.) |
-| Cash / Debt | — | Cash $12.29B / Total Debt $16.74B (D/E 53.79%) |
-| TTM Diluted EPS | — | $3.10 (post 10:1 split, 2025-11-17) |
-| Paid Subscribers | 325M (Q4 2025) | Unchanged (awaiting Q2 2026) |
-| Ad Revenue | >$1.5B (2025) | Unchanged (awaiting FY2026) |
-| 52-Week Range | ~~$79 - $135+~~ | $71.09 - $134.12 (-45.02% YoY) |
+| FY2026 Revenue Guidance | — | **$51.0–51.4B** (narrowed), operating margin **31.5%** |
+| Q3 2026 Revenue Guidance | — | **$12.86B (+11.7% YoY)**, below ~$13B consensus |
+| Q2 Operating Margin | — | **33.4%** (34.1% in Q2'25) |
+| TTM Operating Margin | ~~29.5%~~ | 32.30% (2026-06-25 basis) |
+| TTM Net Income | — | ~~$13.37B~~ Q2 quarterly net income **$3.4B** (EPS $0.80) |
+| TTM OCF | — | $12.65B (2026-06-25 basis); FCF ≤ OCF |
+| Cash / Debt | — | ~~Cash $12.29B / Total Debt $16.74B~~ **Cash $9.13B / Total Debt $14.31B (net debt ~$5.18B)** |
+| TTM Diluted EPS | — | ~~$3.10~~ **$2.95** (incl. Q2; Q2 quarterly $0.80, all post 10:1 split) |
+| Paid Subscribers | 325M (Q4 2025) | Subscriber count no longer reported; H1 2026 member view time **97B+ hours (+2% YoY)**, viewership disclosure further reduced |
+| Ad Revenue | >$1.5B (2025) | 2026 target to double to ~$3B (full-year TBD) |
+| 52-Week Range | ~~$79 - $135+~~ | ~$68.95, down ~49% from 52-week high $134.12 |
 
 ---
 
@@ -126,6 +131,8 @@ The global video streaming market was valued at approximately $811B in 2025, pro
 | Content Spend | — | $18B | $16.2B | ↑ Controlled growth | B+ |
 
 > **[2026-06-25 Update]** Q1 2026 reported: TTM revenue $46.89B (Q1 +16.2% YoY), TTM net income $13.37B (28.52% margin), TTM OCF $12.65B. Operating margin rose from 29.5% (FY2025) to 32.30% (TTM). Cash $12.29B vs debt $16.74B, net debt only $4.45B.
+>
+> **[2026-07-17 Update | Q2 2026 earnings]** Q2 2026 revenue **$12.56B (+13.4% YoY)**, operating income **$4.2B (+11% YoY)**, operating margin **33.4%** (34.1% in Q2'25, a slight YoY step-down), net income **$3.4B**, diluted EPS **$0.80**. TTM revenue rose to ~**$48.37B**. Market data as of 2026-07-17: cash ~**$9.13B** / total debt ~**$14.31B** (net debt ~$5.18B, up modestly vs Q1). FY2026 revenue guidance narrowed to **$51.0–51.4B**, operating margin **31.5%**; Q3 2026 revenue guided to **$12.86B (+11.7%)**, below the ~$13B consensus. Source: Netflix Q2 2026 shareholder letter / 8-K (2026-07-16).
 
 ### Key Financial Trends
 
@@ -302,19 +309,21 @@ The global video streaming market was valued at approximately $811B in 2025, pro
 
 ## 8. Valuation Context
 
-### Current Valuation Snapshot (2026-06-25)
+### Current Valuation Snapshot (2026-07-17)
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| Price | $71.82 | Near 52-week low $71.09 |
-| Market Cap | $302.5B | Down 14% from Feb $350B |
-| TTM P/E | 23.17x | Self-calc: $71.82 / $3.10 |
-| Forward P/E | 22.37x | Yahoo Finance |
-| P/S (TTM) | 6.45x | Self-calc: $302.5B / $46.89B |
-| P/B | 9.72x | $71.82 / $7.39 BVPS |
-| EV/EBITDA | 21.32x | Self-calc: $304.58B / $14.29B |
-| PEG Ratio | 1.41 | 5-year expected |
-| FCF Yield (est.) | ~3.5% | FCF ~$10.7B / MC $302.5B |
+| Price | $68.95 | -7.3% single session after 2026-07-16 Q2 print (prior close $74.35) |
+| Market Cap | ~$290.3B | ~4.21B shares (post 10:1 split basis) |
+| TTM P/E | ≈23.4x | Self-calc: $68.95 / $2.95 TTM EPS |
+| Forward P/E | ≈18.1x | Market data (Forward EPS ≈$3.82) |
+| P/S (TTM) | ≈6.0x | Self-calc: $290.3B / $48.37B TTM revenue |
+| P/B | ≈9.33x | $68.95 / $7.39 BVPS |
+| Cash / Debt | $9.13B / $14.31B | Net debt ~$5.18B |
+| EV/EBITDA | 21.32x (baseline frame) | 2026-06-25 basis, not rebuilt for Q2, treat as stale reference |
+| FCF Yield (est.) | ~3.7% | FCF ~$10.7B (2026-06-25 basis) / MC $290.3B |
+
+> **Historical snapshot (2026-06-25, superseded by the table above):** Price $71.82, market cap $302.5B, TTM P/E 23.17x, Forward P/E 22.37x, P/S 6.45x, EV/EBITDA 21.32x ($304.58B / $14.29B), PEG 1.41.
 
 ### Valuation Methods (Original Feb framework, updated to current price)
 
@@ -326,8 +335,8 @@ The global video streaming market was valued at approximately $811B in 2025, pro
 | Comps (P/E) | ~~$85-100~~ → $68-78 | 22-25x Forward P/E (market has re-rated from 30-35x downward) | Medium |
 | Analyst Consensus | ~~~$116~~ → TBD | — | Reference |
 
-**Current Price:** ~~~$81~~ **$71.82**
-**vs Base Case:** ~25-32% upside (was 11-17%, widened due to price decline)
+**Current Price:** ~~~$81~~ ~~$71.82~~ **$68.95 (2026-07-17)**
+**vs Base Case:** ~30-38% upside (widened as the price fell further; the $90-95 DCF base is the Feb framework, not rebuilt for Q2 — treat as stale reference)
 **vs Bear Case:** Roughly flat ($65-70)
 
 > **[2026-06-25 Update; corrected 2026-06-26]** Price fell another 11% from $81 in Feb to $71.82, further compressing valuation. At 23.17x TTM P/E and 22.37x Forward P/E for a company with 32.30% operating margin that's still improving, the market is pricing in considerable pessimism. The key question is no longer WBD integration; it is whether Netflix can convert ads, live events, and original IP into enough growth to justify a re-rating.
@@ -339,8 +348,9 @@ The global video streaming market was valued at approximately $811B in 2025, pro
 ### Near-Term (0-6 months)
 - ❌ ~~WBD shareholder vote / Netflix deal closing path~~ — **2026-06-26 correction:** Netflix exited the WBD bidding process; remove from Netflix catalyst list
 - ✅ ~~Q1 2026 earnings (expected April)~~ — Reported: revenue +16.2% YoY, EPS +82.8% YoY, operating margin 32.30%
-- 📅 Q2 2026 earnings (expected July), validate growth trend and ad business progress
-- 📅 Ad-tier monetization and live/sports slate progress
+- ✅ ~~Q2 2026 earnings (expected July)~~ — **[2026-07-16 reported]** Revenue $12.56B (+13.4%), operating margin 33.4%, EPS $0.80; FY2026 revenue guidance narrowed to $51.0–51.4B.
+- ⚠️ **[2026-07-16]** Q3 2026 revenue guidance $12.86B (+11.7%) below the ~$13B consensus; stock -7.3% on the print — decelerating growth is the new near-term pressure point
+- 📅 Ad-tier monetization and live/sports slate progress (viewership disclosure being cut back — falling transparency to monitor)
 - 📅 Paramount-WBD regulatory review as a competitive-field variable, not a Netflix-owned catalyst
 - 🆕 **[2026-06-26]** Stock near 52-week low; market needs a post-WBD growth narrative
 
@@ -362,17 +372,18 @@ The global video streaming market was valued at approximately $811B in 2025, pro
 
 ## 10. Conclusion
 
-Netflix delivered an outstanding 2025: $45.2B revenue (+16%), 29.5% operating margin, $9.5B free cash flow, and 325M paid subscribers. Q1 2026 continued the momentum: TTM revenue $46.89B (+16.2%), operating margin further expanded to 32.30%, net income $13.37B.
+Netflix delivered an outstanding 2025: $45.2B revenue (+16%), 29.5% operating margin, $9.5B free cash flow, and 325M paid subscribers. Q1 2026 continued the momentum: TTM revenue $46.89B (+16.2%), operating margin further expanded to 32.30%, net income $13.37B. **[2026-07-17 update]** Q2 2026 revenue $12.56B (+13.4%), operating margin 33.4%, EPS $0.80, TTM revenue up to ~$48.37B; but Q3 revenue guidance of $12.86B (+11.7%) came in below consensus, making the quarter-by-quarter deceleration the new focal debate.
 
 ~~However, the $82.7B WBD acquisition is fundamentally changing the company's risk profile. If integration succeeds, Netflix will own an unrivaled content empire; if it fails, it could become a debt-laden legacy media conglomerate. This is a high-risk, high-reward bet.~~ **2026-06-26 correction:** WBD is no longer a Netflix deal. The removal of deal debt and integration risk is positive, but Netflix also loses the most visible shortcut to deeper franchise IP. The debate shifts back to organic execution.
 
-**Our View (Updated 2026-06-26):**
-- At $71.82 (TTM P/E 23.17x, Forward P/E 22.37x), the stock already reflects considerable pessimism, down 45% from 52-week high $134.12
+**Our View (Updated 2026-07-17):**
+- At **$68.95** (TTM P/E ≈23.4x, Forward P/E ≈18.1x), the priced-in pessimism has deepened further since June, down ~49% from the 52-week high $134.12; Q2 growth held up but the soft Q3 guide means a re-rating needs stronger evidence from ads and content ROI
+- ~~At $71.82 (TTM P/E 23.17x, Forward P/E 22.37x), the stock already reflects considerable pessimism, down 45% from 52-week high $134.12~~ (2026-06-25 basis, superseded by the line above)
 - Q1 2026 beat expectations (revenue +16.2% vs 12-14% guidance, EPS +82.8%), showing fundamental resilience
 - Operating margin improved from 29.5% to 32.30%, profitability continues strengthening
 - Compared to Spotify (Forward P/E ~31x after Spotify's own June update), Netflix still trades at a lower multiple, but the gap is no longer the old 50%+ discount frame
 - WBD is no longer the dominant Netflix uncertainty; the next milestones are Q2/Q3 results, ad-tier progress, live/sports traction, and post-WBD capital allocation
-- If you believe Netflix can replace the lost WBD catalyst organically, $71.82 offers a more attractive entry than $81 in February
+- If you believe Netflix can replace the lost WBD catalyst organically, **$68.95** offers a lower entry than $81 in February or ~~$71.82~~ in June (but you must accept the slower-growth reality)
 - If you wanted WBD-driven IP expansion, the thesis now requires more patience and stronger evidence
 
 **Spotify vs Netflix Comparison (Updated 2026-06-26):**
