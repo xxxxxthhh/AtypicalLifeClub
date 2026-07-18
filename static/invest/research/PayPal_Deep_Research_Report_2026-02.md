@@ -156,7 +156,7 @@ The February 9 and February 17 updates below are retained as historical audit tr
 |--------|-----------|--------|
 | Branded Checkout | ⬇️ Negative | 1% Q4 growth is worse than feared; structural decline accelerating |
 | Leadership | ⚠️ Uncertain | Second CEO change in 2.5 years raises execution risk; Lores' payments experience is limited |
-| Valuation | ⬇️ Lower | Now trading at ~8-9x forward P/E, FCF yield ~16%; deep value territory but could be a value trap |
+| Valuation | ⬇️ Lower | ~~Now trading at ~8-9x forward P/E, FCF yield ~16%~~ (historical Feb 2026 basis); deep value territory but could be a value trap |
 | 2026 Guidance | ⬇️ Negative | "Transition year" language signals no near-term catalyst |
 | Venmo | ⬆️ Positive | 20% revenue growth remains the strongest growth vector |
 | Buybacks | ⬆️ Positive | $6B+ expected buybacks in 2025-2026; $15B program completed, retiring ~22.5% of shares since 2022 |
@@ -588,7 +588,7 @@ Gross Payment Volume (GPV)
 
 ### Core Thesis
 
-PayPal is a deeply undervalued cash-generating machine trading at 10-year low multiples (9-10x forward P/E, 16% FCF yield) due to temporary execution issues and market overreaction. The company retains dominant market share (43-45% globally), has multiple growth vectors (Fastlane, Venmo, BNPL), and can drive significant shareholder value through aggressive buybacks and margin expansion even with modest revenue growth.
+PayPal is a deeply undervalued cash-generating machine trading at low multiples ~~(9-10x forward P/E, 16% FCF yield)~~ **[2026-07-17] old-basis multiples/yield, superseded by the takeover situation (see July 17 update); at $56.56 the FCF yield is ~11%-13%** due to temporary execution issues and market overreaction. The company retains dominant market share (43-45% globally), has multiple growth vectors (Fastlane, Venmo, BNPL), and can drive significant shareholder value through aggressive buybacks and margin expansion even with modest revenue growth.
 
 ### Supporting Evidence
 
@@ -600,7 +600,7 @@ PayPal is a deeply undervalued cash-generating machine trading at 10-year low mu
 - FCF Yield: 16% vs S&P 500 average of 3-4%
 - EV/EBITDA: ~6-7x vs historical 15-20x
 
-**Argument:** Even if PayPal never grows again, a 16% FCF yield provides attractive returns. The market is pricing in permanent structural decline, but PayPal still processes $1.79T annually with 438M active accounts. ~~A reversion to even 15x P/E (still below historical average) implies 50%+ upside from $41 to $60+.~~ **[2026-07-17] the old price-upside math is stale — the fundamental frame is superseded by the takeover situation (see July 17 update).**
+**Argument:** Even if PayPal never grows again, a high FCF yield ~~(16%, old basis)~~ provides attractive returns. The market is pricing in permanent structural decline, but PayPal still processes $1.79T annually with 438M active accounts. ~~A reversion to even 15x P/E (still below historical average) implies 50%+ upside from $41 to $60+.~~ **[2026-07-17] the old 16% FCF yield and the price-upside math are stale — the fundamental frame is superseded by the takeover situation (see July 17 update); at $56.56 the FCF yield is ~11%-13%.**
 
 **2. Venmo Monetization is Early Innings (Medium Conviction)**
 
@@ -979,7 +979,7 @@ While not an immediate threat, regulatory risk is asymmetric—downside is signi
 | Mastercard | 32x | 25x | 18x | 3.0% |
 | Block (Square) | 18x | 12x | 2.5x | 5.5% |
 | Fiserv | 22x | 14x | 4.5x | 4.0% |
-| **PayPal** | **~~9.2x~~ roughly around 8x if 2026 adjusted EPS stays near $5.0-$5.5** | **6.5x historical estimate** | **1.2x historical estimate** | **roughly 15%-17% using June 2026 market cap and 2025 FCF range** |
+| **PayPal** | **~~9.2x~~ roughly around 8x if 2026 adjusted EPS stays near $5.0-$5.5** | **6.5x historical estimate** | **1.2x historical estimate** | **~~roughly 15%-17% using June 2026 market cap~~ old basis; ~11%-13% at the $56.56 current price, pending Q2 rebuild** |
 
 **Analysis:** PayPal trades at a 50-70% discount to payment processor peers. Even applying a conservative 15x P/E (half of Visa/Mastercard) implies $80+ per share.
 
@@ -1134,7 +1134,7 @@ While not an immediate threat, regulatory risk is asymmetric—downside is signi
 
 ### Investment Summary
 
-PayPal Holdings (PYPL) presents a **classic value trap vs deep value debate**. The company trades at 10-year low multiples (9x forward P/E, 16% FCF yield) despite generating $6.4B in annual free cash flow and maintaining 43-45% global market share in online payments. However, the discount reflects legitimate concerns: core branded checkout growth decelerated to 1% in Q4 2025, competition from Apple Pay and Google Pay is intensifying, and a sudden CEO change creates execution uncertainty.
+PayPal Holdings (PYPL) presents a **classic value trap vs deep value debate**. The company trades at low multiples ~~(9x forward P/E, 16% FCF yield)~~ **[2026-07-17] old-basis multiples/yield — superseded by the takeover situation (see July 17 update)** despite generating $6.4B in annual free cash flow and maintaining 43-45% global market share in online payments. However, the discount reflects legitimate concerns: core branded checkout growth decelerated to 1% in Q4 2025, competition from Apple Pay and Google Pay is intensifying, and a sudden CEO change creates execution uncertainty.
 
 **June 22 update:** the "value trap vs deep value" framing still holds, but the inputs have shifted. Branded checkout reportedly improved only modestly to roughly 2% growth in Q1, Venmo remains a positive offset, and the CEO change has moved from event risk to execution risk. The stock still screens cheap at $42.51 and roughly $37.5B market cap, but the old $65-$75 valuation range is stale until the model is rebuilt.
 
@@ -1157,7 +1157,7 @@ We rate PayPal **NEUTRAL** because:
 4. ❌ Fastlane adoption (1,000 merchants) is too early to validate
 
 **Why Not Bearish:**
-1. ✅ Valuation remains cheap on a rough cash-flow screen (about 15%-17% FCF yield using the 2025 FCF range and June 2026 market cap)
+1. ✅ Valuation screens cheap on a rough cash-flow basis. ~~(about 15%-17% FCF yield using the 2025 FCF range and June 2026 market cap)~~ **[2026-07-17] old-basis FCF yield; at the $56.56 current price it is ~11%-13%, and the fundamental frame is superseded by the takeover situation pending a Q2 rebuild**
 2. ✅ Fortress balance sheet with $6B annual FCF and minimal debt
 3. ✅ Buybacks and cost discipline can support per-share economics if revenue does not deteriorate
 4. ✅ Multiple growth vectors (Venmo, BNPL, Fastlane) could surprise
