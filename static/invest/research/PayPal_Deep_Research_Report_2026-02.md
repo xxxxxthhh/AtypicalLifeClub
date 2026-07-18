@@ -9,9 +9,10 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 ## Update — July 17, 2026 (Stripe/Advent takeover offer)
 
-> **⚠️ Developing event, not yet confirmed by PayPal.** Per Reuters/CNBC/Bloomberg/Axios/TechCrunch (2026-07-15), **Stripe and private-equity firm Advent International jointly submitted an unsolicited offer to acquire PayPal at ~$60.50/share, valuing it at more than $53B — a ~28% premium to the prior close — backed by roughly $50B of committed bank financing**; the proposal would split PayPal 50/50 between Stripe and Advent with no plan to break it up. **PayPal has not responded**, and its board was reported to meet as soon as **2026-07-20**. The report drove PYPL up ~**+16%** on 2026-07-15.
+> **⚠️ Developing event.** Per Reuters/CNBC/Bloomberg/Axios/TechCrunch (2026-07-15), **Stripe and private-equity firm Advent International jointly submitted an unsolicited offer to acquire PayPal at ~$60.50/share, valuing it at more than $53B — a ~28% premium to the prior close — backed by roughly $50B of committed bank financing**; the proposal would split PayPal 50/50 between Stripe and Advent with no plan to break it up. The report drove PYPL up ~**+16%** on 2026-07-15.
+> **[2026-07-16 development]** Per a Reuters follow-up exclusive, **PayPal's board views the offer as inadequate / undervaluing the company** — citing that the price does not reflect the value management could create by completing its turnaround, plus **uncertainty over financing and regulatory approval** (the board is examining whether the bidders can complete financing, how regulators would view the combination, and how long approval could take) — potentially setting up negotiations. PayPal has **not formally responded**, and the consortium remains the most serious bidder and still interested in a deal.
 
-> **Valuation impact:** As of the **2026-07-17 close of $56.56**, the stock sits between the $60.50 offer and the ~$46 pre-bid level, pricing deal-completion probability rather than pure fundamentals. **Until the situation clarifies, the report's prior fundamentals-based fair-value framework (the old $65–75 range and the 6/22 FCF/PE observations) should be treated as temporarily superseded by M&A dynamics and not used as the current conclusion.** This update does not change the investment stance on the price move and does not set a new fair value; it is a factual entry pending the board's stance, any competing bidders, and the antitrust path.
+> **Valuation impact:** As of the **2026-07-17 close of $56.56**, the stock sits between the $60.50 offer and the ~$46 pre-bid level, pricing deal-completion probability rather than pure fundamentals. **Until the situation clarifies, the report's prior fundamentals-based fair-value framework (the old fair-value range, the 6/22 FCF/PE observations, and the bull/bear scenario target prices in the body) should be treated as wholly superseded by M&A dynamics and not used as the current conclusion.** This update does not change the investment stance on the price move and does not set a new fair value; it is a factual entry pending the board's formal response, any competing bidders, and the antitrust path.
 
 > **Sources:** Reuters/CNBC/Bloomberg/Axios/TechCrunch, 2026-07-15; PYPL quote 2026-07-17 (market data). Related but separate: PayPal joined the Visa/Mastercard-backed Open USD stablecoin consortium and is winding down PayPal Ventures (restructuring).
 
@@ -599,7 +600,7 @@ PayPal is a deeply undervalued cash-generating machine trading at 10-year low mu
 - FCF Yield: 16% vs S&P 500 average of 3-4%
 - EV/EBITDA: ~6-7x vs historical 15-20x
 
-**Argument:** Even if PayPal never grows again, a 16% FCF yield provides attractive returns. The market is pricing in permanent structural decline, but PayPal still processes $1.79T annually with 438M active accounts. A reversion to even 15x P/E (still below historical average) implies 50%+ upside from $41 to $60+.
+**Argument:** Even if PayPal never grows again, a 16% FCF yield provides attractive returns. The market is pricing in permanent structural decline, but PayPal still processes $1.79T annually with 438M active accounts. ~~A reversion to even 15x P/E (still below historical average) implies 50%+ upside from $41 to $60+.~~ **[2026-07-17] the old price-upside math is stale — the fundamental frame is superseded by the takeover situation (see July 17 update).**
 
 **2. Venmo Monetization is Early Innings (Medium Conviction)**
 
@@ -664,7 +665,7 @@ PayPal is a deeply undervalued cash-generating machine trading at 10-year low mu
 - Shares Outstanding: 650M (30% reduction from buybacks)
 - EPS: $10.30
 - P/E Multiple: 15x (still below historical average)
-- **Target Price: $155 (3.7x upside from $41)**
+- ~~**Target Price: $155 (3.7x upside from $41)**~~ **[2026-07-17] stale bull-case target — superseded by the takeover situation, not a current target**
 
 **Catalysts:**
 - Fastlane adoption exceeds expectations (5,000+ merchants by end 2026)
@@ -774,14 +775,14 @@ While not an immediate threat, regulatory risk is asymmetric—downside is signi
 - Shares Outstanding: 700M (buybacks slow as stock stays depressed)
 - EPS: $7.00
 - P/E Multiple: 8x (value trap multiple for declining business)
-- **Target Price: $56 (36% upside from $41, but takes 2+ years)**
+- ~~**Target Price: $56 (36% upside from $41, but takes 2+ years)**~~ **[2026-07-17] stale bear-case target — superseded by the takeover situation, not a current target**
 
 **Alternative Downside (10% Probability):**
 - Branded checkout accelerates decline to -5% annually
 - Revenue declines to $28B by 2027
 - EPS: $5.00
 - P/E Multiple: 6x (terminal decline)
-- **Target Price: $30 (27% downside from $41)**
+- ~~**Target Price: $30 (27% downside from $41)**~~ **[2026-07-17] stale bear-case target — superseded by the takeover situation, not a current target**
 
 **Catalysts:**
 - ~~Q1 2026 results show branded checkout still at 1% or negative~~ June 22 update: Q1 showed roughly 2% branded checkout growth; the next bearish confirmation would be Q2/Q3 staying in the 1-2% range or turning negative.
@@ -1034,7 +1035,7 @@ While not an immediate threat, regulatory risk is asymmetric—downside is signi
 
 **Implied Upside:** ~~55-80% to fair value~~ stale until the valuation model is rebuilt with Q1/Q2 and official filing data.
 
-**Key Takeaway:** PayPal is trading at a significant discount to intrinsic value across multiple valuation methods. Even conservative assumptions (5% revenue growth, 20% margins, 12x P/E) imply 60%+ upside. However, the discount reflects real risks: branded checkout decline, competitive pressure, and execution uncertainty. The stock is cheap for a reason, but may be oversold.
+**Key Takeaway:** ~~PayPal is trading at a significant discount to intrinsic value across multiple valuation methods. Even conservative assumptions (5% revenue growth, 20% margins, 12x P/E) imply 60%+ upside.~~ **[2026-07-17] the old "60%+ upside" intrinsic-value math is stale — the fundamental valuation frame is superseded by the takeover situation (see July 17 update).** The discount reflects real risks: branded checkout decline, competitive pressure, and execution uncertainty. The stock is cheap for a reason, but may be oversold.
 
 ---
 
@@ -1139,7 +1140,7 @@ PayPal Holdings (PYPL) presents a **classic value trap vs deep value debate**. T
 
 ### The Bull Case in One Paragraph
 
-PayPal is a deeply undervalued cash machine that can drive 15-20% annual EPS growth through aggressive buybacks (15% of market cap annually) and margin expansion (18% → 22%) even with modest 4-5% revenue growth. Venmo monetization is in early innings ($25/user today vs $69/user for Cash App), Fastlane could stabilize branded checkout if adoption accelerates, and the stock could easily re-rate to 15x P/E (still below historical average) for 100%+ upside to $80-90.
+PayPal is a deeply undervalued cash machine that can drive 15-20% annual EPS growth through aggressive buybacks (15% of market cap annually) and margin expansion (18% → 22%) even with modest 4-5% revenue growth. Venmo monetization is in early innings ($25/user today vs $69/user for Cash App), Fastlane could stabilize branded checkout if adoption accelerates, and the stock could re-rate toward a higher P/E. ~~the stock could easily re-rate to 15x P/E (still below historical average) for 100%+ upside to $80-90.~~ **[2026-07-17] the old "100%+ upside to $80-90" price conclusion is stale — superseded by the takeover situation (offer $60.50, stock $56.56 on 2026-07-17).**
 
 ### The Bear Case in One Paragraph
 

@@ -3585,7 +3585,7 @@
     "ticker": "NASDAQ: AMZN",
     "title": "Amazon 深度研究报告 - AI基础设施豪赌与飞轮加速",
     "titleEn": "Amazon Deep Research Report - The AI Infrastructure Bet and Flywheel Acceleration",
-    "summary": "全球最大电商+云计算巨头。Q1 FY2026实际营收$181.5B(+17%, AWS加速至+28%创15季新高), 营业利润$23.9B(13.1%利润率创纪录); 净利润$30.3B含约$16.8B Anthropic投资一次性收益。$200B CapEx计划推进中, FCF承压(TTM $9.8B)。估值快照(2026-06-25)：股价$228.15、市值~$2.52T、GAAP P/E 27.75x/正常化~31.6x。核心张力: AI基础设施豪赌的回报周期 vs 零售+云+广告三引擎的利润动能。2026-07-17：完成约$24.9B高级票据发行(AI capex融资，公司称2026年不再增发债)，净债务/EV口径待Q2财报(07-30)后重建。",
+    "summary": "全球最大电商+云计算巨头。Q1 FY2026实际营收$181.5B(+17%, AWS加速至+28%创15季新高), 营业利润$23.9B(13.1%利润率创纪录); 净利润$30.3B含约$16.8B Anthropic投资一次性收益。$200B CapEx计划推进中, FCF承压(TTM $9.8B)。估值快照(2026-06-25)：股价$228.15、市值~$2.52T、GAAP P/E 27.75x/正常化~31.6x。核心张力: AI基础设施豪赌的回报周期 vs 零售+云+广告三引擎的利润动能。2026-07-17：完成约$24.9B高级票据发行(招股书用途为一般公司用途，非专项AI；处于$200B AI capex周期)，净债务/EV口径待Q2财报(07-30)后重建。",
     "tags": [
       "云计算",
       "电商",
@@ -3605,12 +3605,12 @@
       "$200B CapEx大部分投向AI基础设施, 短期FCF受压(TTM $9.8B)但长期构筑护城河",
       "Q1营业利润$23.9B(13.1%利润率创纪录); 广告收入继续+20%+增长, 成第三利润引擎",
       "GAAP P/E 27.75x(含$16.8B Anthropic一次性收益)/正常化~31.6x, EV/EBITDA约16.6x",
-      "2026-07-17：完成约$24.923B多档高级票据发行(2026-07-09；利率约4.60%-6.25%，2029-2066到期)，主要用于AI基础设施；长期债务较FY2025的$65.6B上升，EV口径待Q2重建"
+      "2026-07-17：完成约$24.923B多档高级票据发行(2026-07-09；利率约4.60%-6.25%，2029-2066到期)；招股书用途为一般公司用途(非专项AI基础设施)；长期债务较FY2025的$65.6B上升，EV口径待Q2重建"
     ],
     "period": "2026H1",
     "versionType": "incremental",
     "versionLabel": "2026H1 Incremental Update",
-    "summaryEn": "Global e-commerce + cloud leader. Q1 FY2026 actuals: revenue $181.5B (+17%, AWS accelerated to +28% — a 15-quarter high), op income $23.9B (record 13.1% margin); net income $30.3B included a ~$16.8B one-time Anthropic investment gain. $200B CapEx plan underway, FCF pressured (TTM $9.8B). Valuation snapshot (2026-06-25): price $228.15, MC ~$2.52T, GAAP P/E 27.75x / normalized ~31.6x. Core tension: AI infra bet payback timeline vs retail+cloud+ads profit momentum. 2026-07-17: completed ~$24.9B senior notes (AI capex financing; no further 2026 debt planned); net debt / EV to be rebuilt after Q2 earnings (07-30)."
+    "summaryEn": "Global e-commerce + cloud leader. Q1 FY2026 actuals: revenue $181.5B (+17%, AWS accelerated to +28% — a 15-quarter high), op income $23.9B (record 13.1% margin); net income $30.3B included a ~$16.8B one-time Anthropic investment gain. $200B CapEx plan underway, FCF pressured (TTM $9.8B). Valuation snapshot (2026-06-25): price $228.15, MC ~$2.52T, GAAP P/E 27.75x / normalized ~31.6x. Core tension: AI infra bet payback timeline vs retail+cloud+ads profit momentum. 2026-07-17: completed ~$24.9B senior notes (424B5 use-of-proceeds is general corporate purposes, not AI-earmarked; amid its ~$200B AI capex cycle); net debt / EV to be rebuilt after Q2 earnings (07-30)."
   },
   {
     "id": "netflix-2026",
@@ -4292,7 +4292,7 @@
     "ticker": "NASDAQ: PYPL",
     "title": "PayPal 深度调研报告 - 2025-2026年度分析",
     "titleEn": "PayPal Deep Research Report - 2025-2026 Analysis",
-    "summary": "2026-07-17更新（发展中收购要约）：据Reuters/CNBC/Bloomberg等报道（2026-07-15），Stripe与Advent对PayPal提出非请自来收购要约，约$60.50/股、整体估值超$53B、溢价约28%、约$50B承诺融资；PayPal尚未回应，董事会最快2026-07-20开会。PYPL 7-15单日约+16%，7-17收$56.56。交易明朗前，此前基于基本面的合理价值框架被并购动态暂时取代；本轮不因股价改变立场、不给新公允价，属事实性登记。",
+    "summary": "2026-07-17更新（发展中收购要约）：据Reuters等报道，Stripe与Advent对PayPal提出非请自来收购要约，约$60.50/股、整体估值超$53B、溢价约28%、约$50B承诺融资（2026-07-15）；7-16 Reuters后续：PayPal董事会初步认为报价不充分/低估公司，并关注融资与监管不确定性，尚未正式答复。PYPL 7-15单日约+16%，7-17收$56.56。交易明朗前，此前基于基本面的合理价值框架与正文牛/熊情景目标价被并购动态整体取代；本轮不因股价改变立场、不给新公允价，属事实性登记。",
     "tags": [
       "金融科技",
       "数字支付",
@@ -4312,9 +4312,9 @@
     },
     "highlights": [
       "2026-07-15 Stripe/Advent 非请自来收购要约：约$60.50/股、超$53B、溢价约28%、约$50B承诺融资，拟50/50持股不拆分",
-      "PayPal 尚未回应；据报道董事会最快 2026-07-20 开会讨论；PYPL 7-15 单日约+16%",
+      "2026-07-16 进展：PayPal董事会初步认为报价不充分/低估公司，并关注融资落实与监管审批不确定性，或为谈判埋伏笔；尚未正式答复",
       "2026-07-17 收$56.56，介于要约价$60.50与要约前约$46之间，反映交易达成概率定价",
-      "交易明朗前旧的基本面合理价值区间（$65-75 及6-22的FCF/PE观察）暂被并购动态取代，不作当前结论",
+      "交易明朗前，旧的基本面合理价值框架与正文牛/熊情景目标价被并购动态整体取代，不作当前结论",
       "相关但独立：加入Visa/Mastercard支持的Open USD稳定币联盟；关闭PayPal Ventures（重组提效）"
     ]
   },

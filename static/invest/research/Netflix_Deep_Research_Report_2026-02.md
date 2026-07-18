@@ -213,10 +213,10 @@ The global video streaming market was valued at approximately $811B in 2025, pro
 - Advertising is pure incremental profit with minimal marginal cost
 
 **3. Valuation Has Significantly Corrected**
-- 40%+ pullback from highs, Forward P/E down to 22.37x in the June 25 snapshot
+- 40%+ pullback from highs (2026-07-17 price $68.95, ~-49% from the 52-week high); use the "Current Valuation Snapshot (2026-07-17)" in Section 8 for multiples (old ~~Forward P/E 22.37x~~ is stale)
 - Below 5-year average P/E (37-46x)
-- For a company with 29.5% operating margin and 16% revenue growth, 26x Forward P/E is not expensive
-- Analyst consensus target $116 (+43% upside)
+- ~~For a company with 29.5% operating margin and 16% revenue growth, 26x Forward P/E is not expensive~~ **[2026-07-17] the old "26x is not expensive" multiple argument is stale, not rebuilt for Q2**
+- ~~Analyst consensus target $116 (+43% upside)~~ **[2026-07-17] the old consensus target and upside are stale and not rebuilt this cycle (the price move is only a review trigger, not a new investment call)**
 
 **4. Cash Flow Machine**
 - 2025 FCF of $9.5B, FCF Yield ~5-6%
@@ -325,19 +325,20 @@ The global video streaming market was valued at approximately $811B in 2025, pro
 
 > **Historical snapshot (2026-06-25, superseded by the table above):** Price $71.82, market cap $302.5B, TTM P/E 23.17x, Forward P/E 22.37x, P/S 6.45x, EV/EBITDA 21.32x ($304.58B / $14.29B), PEG 1.41.
 
-### Valuation Methods (Original Feb framework, updated to current price)
+### Valuation Methods (Feb framework — ⚠️ NOT rebuilt for Q2 2026, fully stale)
 
-| Method | Implied Value/Share | Key Assumptions | Confidence |
+> **⚠️ [2026-07-17] The DCF, comps, and target below are the February framework, do not incorporate Q2 2026 actuals or new guidance, and are fully stale — not a current conclusion.** This cycle only refreshes facts and the current valuation snapshot; any fair value / upside must be produced from a rebuilt DCF, which this report does not provide this cycle. The price move is only a review trigger, not a new investment call.
+
+| Method (stale) | Implied Value/Share (old, do not use) | Key Assumptions | Status |
 |--------|-------------------|-----------------|------------|
-| DCF (Base) | ~$90-95 | 13% revenue growth for 3 years, 30% terminal margin, 9% WACC | Medium |
-| DCF (Bull) | ~$120 | 15% revenue growth, ad/live execution, stronger content ROI, 33% terminal margin | Low |
-| DCF (Bear) | ~$65-70 | 10% revenue growth, weaker content differentiation, margin compression to 25% | Medium |
-| Comps (P/E) | ~~$85-100~~ → $68-78 | 22-25x Forward P/E (market has re-rated from 30-35x downward) | Medium |
-| Analyst Consensus | ~~~$116~~ → TBD | — | Reference |
+| DCF (Base) | ~~~$90-95~~ | 13% revenue growth for 3 years, 30% terminal margin, 9% WACC | Stale, needs rebuild |
+| DCF (Bull) | ~~~$120~~ | 15% revenue growth, ad/live execution, stronger content ROI, 33% terminal margin | Stale, needs rebuild |
+| DCF (Bear) | ~~~$65-70~~ | 10% revenue growth, weaker content differentiation, margin compression to 25% | Stale, needs rebuild |
+| Comps (P/E) | ~~$85-100 → $68-78~~ | old 22-25x Forward P/E framework | Stale, needs rebuild |
+| Analyst Consensus | ~~~$116~~ | — | Stale, needs update |
 
 **Current Price:** ~~~$81~~ ~~$71.82~~ **$68.95 (2026-07-17)**
-**vs Base Case:** ~30-38% upside (widened as the price fell further; the $90-95 DCF base is the Feb framework, not rebuilt for Q2 — treat as stale reference)
-**vs Bear Case:** Roughly flat ($65-70)
+**Scenario conclusion:** ~~prior 25-32% / 30-38% upside~~ **stale — no upside/downside conclusion is offered until the DCF is rebuilt.**
 
 > **[2026-06-25 Update; corrected 2026-06-26]** Price fell another 11% from $81 in Feb to $71.82, further compressing valuation. At 23.17x TTM P/E and 22.37x Forward P/E for a company with 32.30% operating margin that's still improving, the market is pricing in considerable pessimism. The key question is no longer WBD integration; it is whether Netflix can convert ads, live events, and original IP into enough growth to justify a re-rating.
 
@@ -383,14 +384,14 @@ Netflix delivered an outstanding 2025: $45.2B revenue (+16%), 29.5% operating ma
 - Operating margin improved from 29.5% to 32.30%, profitability continues strengthening
 - Compared to Spotify (Forward P/E ~31x after Spotify's own June update), Netflix still trades at a lower multiple, but the gap is no longer the old 50%+ discount frame
 - WBD is no longer the dominant Netflix uncertainty; the next milestones are Q2/Q3 results, ad-tier progress, live/sports traction, and post-WBD capital allocation
-- If you believe Netflix can replace the lost WBD catalyst organically, **$68.95** offers a lower entry than $81 in February or ~~$71.82~~ in June (but you must accept the slower-growth reality)
+- ~~If you believe Netflix can replace the lost WBD catalyst organically, the current price offers a lower entry~~ **[2026-07-17] entry/upside conclusion withdrawn (old framing):** the price is lower than $81 in February or ~~$71.82~~ in June, now **$68.95**, but whether that is an opportunity depends on growth stabilizing and a rebuilt valuation model; this report offers no entry/upside call this cycle
 - If you wanted WBD-driven IP expansion, the thesis now requires more patience and stronger evidence
 
 **Spotify vs Netflix Comparison (Updated 2026-06-26):**
 
 | Dimension | Netflix | Spotify | Advantage |
 |-----------|---------|---------|-----------|
-| Forward P/E | ~~~26-29x~~ → 22.37x | ~31x | Netflix |
+| Forward P/E | ~~~26-29x~~ ~~22.37x~~ ≈18.1x (2026-07-17) | ~31x | Netflix |
 | Operating Margin | ~~29.5%~~ → 32.30% | 15.77% | Netflix |
 | TTM Revenue Growth | +16.2% | ~8% Q1 YoY / ~13% FY2025 | Netflix |
 | Moat Strength | 🏰 Strong | 🏠 Moderate | Netflix |
@@ -423,7 +424,7 @@ Netflix delivered an outstanding 2025: $45.2B revenue (+16%), 29.5% operating ma
 | 2025 Revenue | $45.2B | ~$22B* | N/A | €17.5B |
 | Operating Margin | 29.5% | ~5-8%* | N/A | 12.8% |
 | Content Spend | $18B | ~$15B* | ~$12B* | N/A (royalties) |
-| Forward P/E | 22.37x | ~22x (overall) | N/A | ~31x |
+| Forward P/E | ~~22.37x~~ ≈18.1x (2026-07-17) | ~22x (overall) | N/A | ~31x |
 
 *Disney DTC and Amazon Prime Video are parent company segments; figures are estimates
 
