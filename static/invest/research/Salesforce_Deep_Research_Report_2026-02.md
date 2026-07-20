@@ -2,7 +2,7 @@
 
 Coverage date: 2026-02-11
 Last updated: 2026-06-25
-Ticker: NASDAQ: CRM
+Ticker: NYSE: CRM
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---

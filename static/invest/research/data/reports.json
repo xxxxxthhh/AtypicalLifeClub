@@ -3159,7 +3159,7 @@
   {
     "id": "igv-2026",
     "company": "IGV (iShares Expanded Tech-Software Sector ETF)",
-    "ticker": "NYSEARCA: IGV",
+    "ticker": "CBOE BZX: IGV",
     "title": "IGV 深度研究报告 - Software-mageddon后的软件行业ETF抄底机会？",
     "titleEn": "IGV Deep Research Report - A Buying Opportunity After the Software-mageddon?",
     "summary": "美国软件行业旗舰ETF。2026-06-25增量更新：价格$86.17（较2月+4.1%），YTD跌幅收窄至-18.45%。AUM从$79亿飙升至$167亿（+111%），反映恐慌中大量逆向资金流入。PE(TTM) 27.68，NAV $86.25。Q1 2026财报季已结束——多数头部软件公司AI转型进展好于恐慌预期，空头论点减弱但未完全失效。",
@@ -3473,7 +3473,7 @@
   {
     "id": "salesforce-2026",
     "company": "Salesforce",
-    "ticker": "NASDAQ: CRM",
+    "ticker": "NYSE: CRM",
     "title": "Salesforce 深度研究报告 - CRM霸主的AI转型与估值重估",
     "titleEn": "Salesforce Deep Research Report - CRM Leader's AI Transformation and Valuation Reset",
     "tags": [

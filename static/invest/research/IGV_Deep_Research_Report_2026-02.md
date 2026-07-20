@@ -2,7 +2,7 @@
 
 Coverage date: 2026-02-15
 Last updated: 2026-06-25
-Ticker: NYSEARCA: IGV
+Ticker: CBOE BZX: IGV
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 **[2026-06-25 Update]** IGV has rebounded from its February 13 close of $82.77 to $86.17 (+4.1%), with YTD decline narrowing from -23.4% to -18.45%. AUM has surged to ~$16.7B (vs $7.9B in February, +111%), reflecting both substantial new inflows and price recovery. NAV $86.25, PE(TTM) 27.68. The 52-week low briefly tested $73.93 before rebounding. The Q1 2026 earnings season has concluded — most leading software companies reported AI transition progress better than panic expectations (see Section 8 update).
