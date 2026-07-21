@@ -1181,5 +1181,96 @@
         }
       }
     }
+  },
+  {
+    "date": "2026-07-21",
+    "scoredCount": 36,
+    "medianRelativePct": -6.4,
+    "nonNeutralBeatRate": 0.2692307692307692,
+    "byBenchmark": {
+      "COPX": {
+        "scoredCount": 1,
+        "medianRelativePct": -8.2,
+        "nonNeutralBeatRate": 0.0,
+        "byStance": {
+          "cautious": {
+            "scoredCount": 1,
+            "medianRelativePct": -8.2
+          }
+        }
+      },
+      "QQQ": {
+        "scoredCount": 5,
+        "medianRelativePct": -11.8,
+        "nonNeutralBeatRate": 0.0,
+        "byStance": {
+          "neutral-watch": {
+            "scoredCount": 1,
+            "medianRelativePct": 11.3
+          },
+          "cautious": {
+            "scoredCount": 3,
+            "medianRelativePct": -11.9
+          },
+          "bearish-avoid": {
+            "scoredCount": 1,
+            "medianRelativePct": -11.8
+          }
+        }
+      },
+      "SMH": {
+        "scoredCount": 20,
+        "medianRelativePct": -6.2,
+        "nonNeutralBeatRate": 0.21428571428571427,
+        "byStance": {
+          "constructive": {
+            "scoredCount": 3,
+            "medianRelativePct": 1.6
+          },
+          "neutral-watch": {
+            "scoredCount": 6,
+            "medianRelativePct": 1.1
+          },
+          "cautious": {
+            "scoredCount": 11,
+            "medianRelativePct": -7.2
+          }
+        }
+      },
+      "SRVR": {
+        "scoredCount": 2,
+        "medianRelativePct": 4.2,
+        "nonNeutralBeatRate": 1.0,
+        "byStance": {
+          "constructive": {
+            "scoredCount": 1,
+            "medianRelativePct": 4.3
+          },
+          "neutral-watch": {
+            "scoredCount": 1,
+            "medianRelativePct": 4.1
+          }
+        }
+      },
+      "XLU": {
+        "scoredCount": 8,
+        "medianRelativePct": -9.4,
+        "nonNeutralBeatRate": 0.3333333333333333,
+        "byStance": {
+          "constructive": {
+            "scoredCount": 1,
+            "medianRelativePct": -18.9
+          },
+          "neutral-watch": {
+            "scoredCount": 2,
+            "medianRelativePct": -9.2
+          },
+          "cautious": {
+            "scoredCount": 5,
+            "medianRelativePct": -2.7
+          }
+        }
+      }
+    }
   }
 ]
