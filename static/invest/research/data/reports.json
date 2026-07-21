@@ -2728,7 +2728,7 @@
     "ticker": "NASDAQ: TEM",
     "title": "Tempus AI 深度研究报告 - 精准医疗数据飞轮的高增长与高风险",
     "titleEn": "Tempus AI Deep Research Report - Precision Medicine Data Flywheel's High Growth and High Risk",
-    "summary": "精准医疗全栈平台。Q1 2026营收$348.1M（+36.1%，随Ambry并表满一年主要为有机增长），但GAAP净亏损扩大至$1.259亿（EPS -$0.71），现金降至$643.8M；管理层上调FY2026收入指引至$15.9-16.0亿。诊断+数据授权+AI飞轮模式，126%净留存率。当前股价约$51.94、市值约$93亿（2026-06-24收盘，约1.7956亿股），P/S(TTM)约7x。营收加速与亏损扩大并存，CEO累计减持$1.27亿、20.6%做空比例。",
+    "summary": "2026-07-21更新：Tempus于2026-07-20签署最终协议，拟以每股$16.25收购尚未持有的Personalis（PSNL），扣除现有持股后企业价值约$15亿；默认换股、换股比率上限0.3356，Tempus可选择最多50%现金，预计2026年末至2027年初交割，仍须股东、监管及其他批准。交易尚未交割，Personalis备考结果与最终对价未并入。独立口径按TEM 2026-07-20收盘$48.41、约1.79565亿股计算：市值约$86.9亿、P/S(TTM)约6.4x；Q1 2026营收$348.1M（+36.1%）、GAAP净亏损$125.9M，投资判断未变。",
     "tags": [
       "精准医疗",
       "AI医疗",
@@ -2737,19 +2737,19 @@
     ],
     "category": "tech",
     "date": "2026-02-27",
-    "lastUpdate": "2026-06-25",
+    "lastUpdate": "2026-07-21",
     "file": "/invest/research/reports/view.html?id=tempus-ai-2026",
     "markdownFiles": {
       "zh": "/invest/research/Tempus_AI_深度研究报告_2026-02.md",
       "en": "/invest/research/Tempus_AI_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "Q1 2026营收$348.1M（+36.1%，随Ambry并表满一年主要为有机增长），诊断+34.7%、数据与应用+40.5%（Insights +44.1%）",
-      "Q1 2026 GAAP净亏损扩大至$1.259亿（EPS -$0.71，vs上年-$0.40），现金降至$643.8M；FY2026指引上调至$15.9-16.0亿",
-      "当前锚点：股价$51.94、市值约$93亿、P/S(TTM)约7x（2026-06-24收盘）",
-      "数据飞轮：126%净留存率、$11亿+合同积压；CEO累计减持$1.27亿、双重股权、20.6%做空（2月口径）"
+      "Personalis待完成交易：每股$16.25、扣除现有持股后企业价值约$15亿；默认换股且比率上限0.3356，可选择最多50%现金，预计2026年末至2027年初交割",
+      "Q1 2026营收$348.1M（+36.1%），GAAP净亏损扩大至$1.259亿（EPS -$0.71）；FY2026收入指引$15.9-16.0亿",
+      "独立估值锚点：TEM 2026-07-20收盘$48.41、市值约$86.9亿、P/S(TTM)约6.4x；Personalis尚未交割，未并入备考数字",
+      "数据飞轮：126%净留存率、$11亿+合同积压；CEO累计减持$1.27亿、双重股权、20.6%做空（2月口径）；投资判断未变"
     ],
-    "summaryEn": "Full-stack precision-medicine platform. Q1 2026 revenue $348.1M (+36.1%, now mostly organic) but GAAP net loss widened to $(125.9)M / -$0.71 EPS and cash fell to $643.8M; management raised FY2026 guidance to $1.59-1.60B. 126% NRR. Current price ~$51.94 / market cap ~$9.3B (2026-06-24 close), P/S(TTM) ~7x. Accelerating topline paired with deepening GAAP losses; CEO cumulative selling $127M, 20.6% short interest.",
+    "summaryEn": "Updated 2026-07-21: Tempus signed a definitive agreement on 2026-07-20 to acquire the Personalis shares it does not already own for $16.25 per share and about $1.5B of enterprise value net of Tempus's existing stake. Stock is the default consideration, the exchange ratio is capped at 0.3356, and Tempus may elect up to 50% cash; closing is expected in late 2026 or early 2027, subject to shareholder, regulatory, and other approvals. The pending transaction and final consideration are excluded from pro forma figures. On a standalone basis, TEM's 2026-07-20 close of $48.41 and about 179.565M shares imply an $8.69B market cap and about 6.4x TTM P/S. Q1 2026 revenue was $348.1M (+36.1%) and GAAP net loss was $(125.9)M. The investment view is unchanged.",
     "period": "2026H1",
     "versionType": "full-cycle",
     "versionLabel": "2026H1 Full Rerun",
