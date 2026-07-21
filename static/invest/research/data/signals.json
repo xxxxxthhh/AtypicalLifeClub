@@ -1,5 +1,25 @@
 [
   {
+    "id": "korea-semiconductor-exports-2026-07-1-20",
+    "date": "2026-07-21",
+    "title": {
+      "zh": "韩国关税厅 7 月 1–20 日通关速报：半导体出口 221 亿美元，创 7 月同期历史新高",
+      "en": "Korea Customs 1–20 July provisional data: semiconductor exports $22.1B, a record for the July 1–20 period"
+    },
+    "detail": {
+      "zh": "据韩国关税厅（Korea Customs Service）2026-07-21 发布的《2026년 7월 1일 ~ 7월 20일 수출입 현황 [잠정치]》：7 月 1–20 日出口 549.33 亿美元、同比 +52.3%（上年同期 360.58 亿美元），进口 427.15 亿美元、同比 +20.0%，贸易顺差 122 亿美元；其中半导体出口 221 亿美元，为 7 月 1–20 日口径历史最高。该发布同时列示：工作日数由 2025 年的 15.5 日降至 2026 年的 14.5 日，日均出口额由 23.3 亿美元升至 37.9 亿美元、同比 +62.9%；年初至 7 月 20 日累计出口 5,512.81 亿美元、同比 +48.7%。作为高频、国家级读数，这一数据用于交叉验证 memory-cycle：韩国是 HBM/DRAM/NAND 的主要出口地，出口金额可与厂商侧的毛利与定价叙事对照。证据边界：该数据为通关基准“잠정치”（暂定值），后续可能修订；口径为出口“金额”而非出货量或 bit 数，无法据此区分价格与数量贡献；为覆盖全部韩国半导体出口商的国家级合计，未拆分 HBM、传统 DRAM 与 NAND，也未披露客户或终端应用结构；因 2026 年工作日数少于上年，标题 +52.3% 低估了日均口径的实际增速（+62.9%）；数据仅反映自韩国报关出口的金额，不等同于终端客户的实际消化或 sell-through。另需说明：关税厅网页正文未能取到该发布的品目明细表，故本条仅采用可在原始发布中直接核对的数字。",
+      "en": "Per the Korea Customs Service (관세청) provisional release \"2026년 7월 1일 ~ 7월 20일 수출입 현황 [잠정치]\", published 2026-07-21: exports for 1–20 July were $54.933B, +52.3% YoY (versus $36.058B in the same period a year earlier); imports were $42.715B, +20.0%; and the trade surplus was $12.2B. Semiconductor exports were $22.1B, a record high for the 1–20 July basis. The same release states that working days fell from 15.5 in 2025 to 14.5 in 2026, that average daily exports rose from $2.33B to $3.79B (+62.9%), and that year-to-date exports through 20 July were $551.281B, +48.7%. As a high-frequency, country-level reading this cross-checks memory-cycle: Korea is a primary export origin for HBM, DRAM and NAND, so export value can be read against producer-side margin and pricing narratives. Evidence limits: the data are customs-clearance-basis provisional figures (잠정치) and may be revised; the measure is export value, not volume or bit shipments, so price and quantity contributions cannot be separated; it is a national aggregate across all Korean semiconductor exporters with no HBM / conventional DRAM / NAND split and no customer or end-application breakdown; because 2026 had fewer working days, the headline +52.3% understates the daily-average pace (+62.9%); and the figures record value shipped out of Korea, which is not the same as end-customer consumption or sell-through. Note also that the item-level product table in this release was not retrievable from the Korea Customs Service web page body, so this entry uses only figures directly verifiable in the primary release."
+    },
+    "crossChecks": [
+      "memory-cycle"
+    ],
+    "tickers": [
+      "000660.KS",
+      "MU",
+      "SNDK"
+    ]
+  },
+  {
     "id": "nebius-secured-debt-facility-2026-07",
     "date": "2026-07-17",
     "title": {
