@@ -1,5 +1,38 @@
 [
   {
+    "id": "gevernova-q2-2026-orders-backlog-slots",
+    "date": "2026-07-22",
+    "title": {
+      "zh": "GE Vernova Q2 2026：订单 $24.2B、backlog $176B，燃气 backlog+预留合计 116 GW，FCF 指引上调 $5B",
+      "en": "GE Vernova Q2 2026: orders $24.2B, backlog $176B, gas backlog + reservations total 116 GW, FCF guide raised $5B"
+    },
+    "detail": {
+      "zh": "据 GE Vernova 2026-07-22 官方 Q2 2026 业绩发布与 Form 10-Q：Q2 订单 $24.2B（有机 +88%，由 Power 与 Electrification 拉动），收入 $11.1B（+22%、有机 +12%），总 RPO backlog 环比 +$13.0B 至 $176B。燃气设备合计数由 100 GW 增至 116 GW，其中 53 GW 为设备 backlog、63 GW 为 slot reservation agreements；Q2 新签 18 GW slot 预留与 2 GW 订单，将 10 GW 既有预留转为订单并交付 3 GW，年底合计目标由≥110 GW上调至≥125 GW。Electrification 数据中心订单上半年累计超过 $5B，超过 2025 全年总额的两倍。调整后 EBITDA $1.2B、利润率 11.3%（有机 +340bps）；FY2026 收入/FCF 指引升至 $45.5-46.5B/$11.5-12.5B，利润率指引维持 12-14%。Wind Q2 EBITDA 亏损 $275M（上年同期 $165M、Q1 $382M），全年约 $400M 亏损指引维持不变。作为 buildout-orders 与 grid-epc-delivery 读数，订单/backlog 增强确认电力需求已穿透到设备侧，但不验证并网、施工或最终交付。证据边界：63 GW 预留尚未计入设备 backlog，转化率不能由单一时点推导；>$5B 为上半年累计而非单季；Q2 11.3% 仍低于全年指引区间；上半年 FCF 显著受益于营运资金和客户预付款，而全年 FCF 仍是前瞻指引。本条不含投资建议、评级或价格目标；gevernova-2026 的价格锚点与估值仍为 2026-06-26 快照，本次未重估。",
+      "en": "Per GE Vernova's official Q2 2026 release and Form 10-Q dated 2026-07-22: Q2 orders were $24.2B (+88% organic, led by Power and Electrification), revenue was $11.1B (+22%, +12% organic), and total RPO backlog rose $13.0B sequentially to $176B. The combined gas-equipment total grew from 100 GW to 116 GW, comprising 53 GW of equipment backlog and 63 GW of slot reservation agreements. In Q2 the company signed 18 GW of new reservations and 2 GW of orders, converted 10 GW of prior reservations to orders, shipped 3 GW, and raised the combined year-end target from >=110 GW to >=125 GW. Electrification data-center orders exceeded $5B YTD, more than twice the full-year 2025 total. Adjusted EBITDA was $1.2B at an 11.3% margin (+340 bps organic); FY2026 revenue/FCF guidance rose to $45.5-46.5B/$11.5-12.5B while the margin guide stayed at 12-14%. Wind Q2 EBITDA loss was $275M (vs $165M a year ago and $382M in Q1), with the approximately $400M full-year loss guide maintained. As a buildout-orders and grid-epc-delivery reading, stronger orders/backlog confirm that power demand is reaching equipment, but do not validate interconnection, construction, or final delivery. Evidence limits: the 63 GW of reservations is not yet equipment backlog and a point-in-time snapshot cannot establish conversion; >$5B is a first-half cumulative figure, not one quarter; Q2's 11.3% margin remains below the full-year guide range; and first-half FCF benefited materially from working capital and customer down payments while full-year FCF remains forward guidance. This is factual monitoring, not investment advice, a rating, or a price target; gevernova-2026's valuation remains the dated 2026-06-26 snapshot and was not re-marked."
+    },
+    "crossChecks": [
+      "buildout-orders",
+      "grid-epc-delivery"
+    ],
+    "tickers": [
+      "GEV",
+      "VRT",
+      "BE",
+      "CEG",
+      "VST",
+      "NRG"
+    ],
+    "reportIds": [
+      "gevernova-2026"
+    ],
+    "monitoringRefs": [
+      "gevernova-2026:orders-backlog",
+      "gevernova-2026:margin-ramp",
+      "gevernova-2026:gas-turbine-slots",
+      "gevernova-2026:valuation-wind-drag"
+    ]
+  },
+  {
     "id": "korea-semiconductor-exports-2026-07-1-20",
     "date": "2026-07-21",
     "title": {

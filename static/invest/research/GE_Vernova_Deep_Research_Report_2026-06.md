@@ -1,21 +1,25 @@
 # GE Vernova (GEV) Deep Research Report
 
 Coverage date: 2026-06-27
-Last updated: 2026-07-07
+Last updated: 2026-07-23
 Ticker: NYSE: GEV
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
-> **Background:** GE Vernova was spun off from General Electric in April 2024, inheriting GE's Power (gas turbines, nuclear, hydro), Electrification (grid equipment) and Wind businesses; its fiscal year is the calendar year. In this report **FY2025** is the year ended 2025-12-31; **Q1 2026** is the quarter ended 2026-03-31 (reported ~2026-04-22), the latest quarter as of publication. Read alongside this center's NVIDIA, Broadcom and Bloom Energy reports — the first two are the "compute side" of AI, while GE Vernova and Bloom are the "power side."
+> **Background:** GE Vernova was spun off from General Electric in April 2024, inheriting GE's Power (gas turbines, nuclear, hydro), Electrification (grid equipment) and Wind businesses; its fiscal year is the calendar year. In this report **FY2025** is the year ended 2025-12-31. The original valuation frame used Q1 2026 and a 2026-06-26 price snapshot; operating monitoring is now updated through **Q2 2026**, the quarter ended 2026-06-30 and reported 2026-07-22. Read alongside this center's NVIDIA, Broadcom and Bloom Energy reports — the first two are the "compute side" of AI, while GE Vernova and Bloom are the "power side."
 
 ---
 
 ## Executive Summary
 
-**One-line thesis:** GE Vernova is the most direct pick-and-shovel of AI's "power-side" bottleneck — the structural electricity shortage created by AI data centers is simultaneously pulling its two core businesses, gas turbines (Power) and grid equipment (Electrification). It sits in a multi-year electricity super-cycle driven by data centers, re-electrification and reshoring; backlog has reached **$163B** (with a 2027 target of $200B, pulled forward from 2028), and margins are climbing from a low base (FY2025 adjusted EBITDA margin was just 8.4%) toward the mid-teens. But the stock is up ~117% over the past year and the valuation already prices in that "multi-year margin ramp."
+**One-line thesis:** GE Vernova is the most direct pick-and-shovel of AI's "power-side" bottleneck — the structural electricity shortage created by AI data centers is simultaneously pulling its two core businesses, gas turbines (Power) and grid equipment (Electrification). It sits in a multi-year electricity super-cycle driven by data centers, re-electrification and reshoring; backlog reached **$176B in Q2 2026** (with a 2027 target of $200B, pulled forward from 2028), and margins are climbing from a low base (FY2025 adjusted EBITDA margin was just 8.4%) toward the mid-teens. But the dated valuation snapshot already prices in that "multi-year margin ramp."
 
 **Verdict:** **Cautious / medium conviction.** GE Vernova's moat (one of three gas-turbine oligopolists + grid-equipment scarcity + slot scarcity) is real, and the inflection in orders and cash flow is clear; but the core tension is that a **roughly $281B market cap already prices in a story of "margins climbing from 8.4% to the mid-teens, dependent on data-center electricity capex continuing"** — like the AI chip stocks, the risk is not insufficient orders but that the valuation already pays for years of delivery, sharing fate with the same AI capex cycle.
 
-**Current market read (as of 2026-06-26):** GEV's price anchor is **$1,045.17**; on ~**269M** shares, market cap is ~**$281B**. The 52-week range is ~**$482.20 - $1,181.95**, up ~**117%** over the past year. Valuation is rich: on FY2026 guidance (revenue $44.5-45.5B, adjusted EBITDA margin 12-14%), EV/2026E adjusted EBITDA is ~**45-48x**; the forward P/E varies widely (~40-70x across sources) because earnings are at an inflection. Quote sources: [Yahoo Finance GEV](https://finance.yahoo.com/quote/GEV/), [Macrotrends market cap](https://www.macrotrends.net/stocks/charts/GEV/ge-vernova/market-cap); financial sources: [GE Vernova Q1 2026 results](https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000063/gevpressrelease1q26.htm), [FY2025 results](https://www.gevernova.com/news/press-releases/ge-vernova-reports-fourth-quarter-full-year-2025-financial-results).
+**Current market read (as of 2026-06-26):** GEV's price anchor is **$1,045.17**; on ~**269M** shares, market cap is ~**$281B**. The 52-week range is ~**$482.20 - $1,181.95**, up ~**117%** over the past year. Valuation is rich: on FY2026 guidance (revenue $44.5-45.5B, adjusted EBITDA margin 12-14% — **pre-Q2 guidance; see the Q2 2026 update below, where revenue was raised to $45.5-46.5B with the margin guide unchanged; the multiple is not re-marked**), EV/2026E adjusted EBITDA is ~**45-48x**; the forward P/E varies widely (~40-70x across sources) because earnings are at an inflection. Quote sources: [Yahoo Finance GEV](https://finance.yahoo.com/quote/GEV/), [Macrotrends market cap](https://www.macrotrends.net/stocks/charts/GEV/ge-vernova/market-cap); financial sources: [GE Vernova Q1 2026 results](https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000063/gevpressrelease1q26.htm), [FY2025 results](https://www.gevernova.com/news/press-releases/ge-vernova-reports-fourth-quarter-full-year-2025-financial-results).
+
+> **Q2 2026 radar update (2026-07-22 — monitoring-only; valuation/stance not re-marked):** GE Vernova released Q2 2026 results on 2026-07-22. Orders were **$24.2B (+88% organic)**, revenue **$11.1B (+22%, +12% organic)**, total backlog rose **+$13B QoQ to $176B**, and Gas Power equipment backlog + slot reservation agreements grew from **100 GW to 116 GW**: **53 GW of equipment backlog and 63 GW of slot reservations**. The year-end target was raised from ≥110 GW to **≥125 GW**. Electrification data-center orders reached **>$5B year-to-date, more than double the full-year 2025 total**, and adjusted EBITDA was **$1.2B at an 11.3% margin** (+340 bps organic). FY2026 guidance was raised to revenue **$45.5-46.5B** (from $44.5-45.5B) and FCF **$11.5-12.5B** (from $6.5-7.5B); the **adjusted EBITDA-margin guide was left unchanged at 12-14%**, and Q2's 11.3% remains below that range. Wind's Q2 segment EBITDA loss widened year over year to **$275M from $165M**, while improving sequentially from Q1's $382M loss; the company maintained its approximately $400M FY2026 Wind-loss guide.
+>
+> **Boundary:** this is an incremental radar update to operating readings only. The price anchor ($1,045.17), market cap (~$281B), EV/2026E multiple (~45-48x) and every valuation/scenario figure below remain **as of 2026-06-26 and reference the pre-Q2 FY2026 guidance**; they have not been re-marked, and stance/conviction are unchanged. Pre-Q2 inputs still shown below for context are superseded as follows: backlog $163B → $176B; gas backlog + slots ≥110 GW → 53 GW backlog + 63 GW reservations (116 GW total) / ≥125 GW target; FY revenue $44.5-45.5B → $45.5-46.5B; FCF $6.5-7.5B → $11.5-12.5B (adjusted EBITDA-margin guide unchanged at 12-14%). YTD FCF benefited materially from working capital, especially customer down payments at Power and Electrification; guidance remains forward-looking. Sources: [GE Vernova Q2 2026 results (2026-07-22)](https://www.gevernova.com/news/articles/ge-vernova-releases-second-quarter-2026-financial-results) and [Q2 2026 Form 10-Q](https://www.gevernova.com/sites/default/files/gev_webcast_10q_07222026.pdf).
 
 **Key data:**
 
@@ -29,9 +33,9 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Q1 2026 revenue / adjusted EBITDA | $9.34B / $896M (adjusted EBITDA margin 9.6%) |
 | Q1 GAAP net income / EPS basis | $4.75B / $17.44, including ~$4.5B of Prolec GE-related pre-tax M&A net gains; not the operating anchor |
 | Q1 2026 orders | $18.3B; Electrification data-center equipment orders $2.4B (more than all of last year) |
-| Total backlog | $163B (+$13B+ QoQ); 2027 target $200B (pulled forward from 2028) |
-| Gas turbine backlog + slot reservations | targeting ≥110 GW by year-end 2026 |
-| FY2026 guidance (raised) | revenue $44.5-45.5B, adjusted EBITDA margin 12-14%, FCF $6.5-7.5B |
+| Total backlog | ~~$163B (Q1)~~ → **$176B (Q2 2026)** (+$13B QoQ); 2027 target $200B (pulled forward from 2028) |
+| Gas turbine backlog + slot reservations | ~~≥110 GW year-end target~~ → **53 GW equipment backlog + 63 GW slot reservations = 116 GW (Q2 2026); year-end target raised to ≥125 GW** |
+| FY2026 guidance | revenue ~~$44.5-45.5B~~ → **$45.5-46.5B (Q2 2026)**, adjusted EBITDA margin 12-14% (unchanged), FCF ~~$6.5-7.5B~~ → **$11.5-12.5B (Q2 2026)** |
 | FY2025 revenue | $38.1B (+9% YoY) |
 | FY2025 adjusted EBITDA / margin | $3.2B / 8.4% |
 | FY2025 operating cash flow / FCF | $5.0B / $3.7B |
@@ -75,7 +79,7 @@ GE Vernova is a global leader in power equipment and electrification, spanning t
 The AI data-center bottleneck is spilling over from "chips" to "power":
 
 - **Data-center electricity demand** has become a new growth driver for both Power and Electrification. In Q1 2026, Electrification alone booked **$2.4B** of data-center equipment orders — more than all of last year.
-- **Gas-turbine slot reservations** have become the way data-center/power customers lock future capacity; the company targets ≥**110 GW** of gas-turbine backlog + slot reservations by year-end 2026. Note that the 110 GW figure aggregates both firm equipment backlog and non-binding slot reservations; the company does not regularly disclose the split, making the conversion rate from reservation to firm order a key monitoring variable.
+- **Gas-turbine slot reservations** have become the way data-center/power customers lock future capacity. ~~The company targeted ≥110 GW of combined backlog + reservations for year-end 2026, without a regular split.~~ **2026-07-22 update:** the company disclosed **53 GW of equipment backlog and 63 GW of slot reservation agreements (116 GW total)** after converting 10 GW of prior reservations into orders, and raised the year-end target to ≥**125 GW**. Reservations are not yet included in equipment backlog and timing can move before conversion, so conversion quality remains a key monitoring variable; they should not be described simply as "non-binding."
 - **But this ties it to the same AI capex cycle as NVIDIA/Broadcom:** if data-center capex recedes, power-side order momentum is also affected — only the power-side cycle is longer and more lagged, with a thicker buffer.
 
 ### 2.3 Division of labor with Bloom Energy
@@ -117,9 +121,9 @@ CEO **Scott Strazik** has led since the spin-off, and management's post-spin exe
 
 **Core thesis:** a multi-year electricity super-cycle + oligopoly pricing power + a margin inflection make GE Vernova a higher-certainty pick-and-shovel of AI's power side.
 
-1. **Structural demand, visible for years.** Data centers + re-electrification + reshoring all drive it; backlog $163B → 2027 target $200B, strong visibility.
-2. **Gas-turbine oligopoly + slot scarcity.** Three players dominate, capacity is tight, customers queue to reserve (≥110 GW target), and OEMs hold pricing power.
-3. **Twin inflection in margin and cash.** Adjusted EBITDA margin 8.4% → 12-14% guide, FCF $3.7B → $6.5-7.5B, significant operating leverage.
+1. **Structural demand, visible for years.** Data centers + re-electrification + reshoring all drive it; backlog reached $176B in Q2 2026 against a 2027 target of $200B, supporting visibility.
+2. **Gas-turbine oligopoly + slot scarcity.** Three players dominate, capacity is tight, and 53 GW of equipment backlog plus 63 GW of reservations support a raised ≥125 GW year-end target.
+3. **Twin inflection in margin and cash.** Adjusted EBITDA margin is moving from 8.4% toward the unchanged 12-14% guide, while FY2026 FCF guidance rose to $11.5-12.5B; YTD cash flow benefited materially from customer down payments.
 4. **Clean balance sheet.** Q1 cash of $10.2B, senior notes of $2.6B and rough net cash of ~$7.6B support dividend + buyback + M&A.
 5. **More "grid infrastructure" than Bloom, more lagged than pure chips.** A longer, more lagged power cycle gives a thicker buffer.
 
@@ -129,15 +133,15 @@ CEO **Scott Strazik** has led since the spin-off, and management's post-spin exe
 
 1. **Rich valuation.** EV/2026E adjusted EBITDA ~45-48x and a high, dispersed forward P/E; the current price requires the margin ramp to deliver "on schedule or better."
 2. **Shares fate with AI capex.** Data-center electricity orders are the current incremental driver; if AI capex recedes (the same-source risk as NVIDIA/Broadcom), order momentum is hit with a lag.
-3. **Slot reservations ≠ firm orders.** A meaningful part of the 110 GW is reservations/frameworks — convertible but not all locked; cancellation/deferral risk exists.
-4. **Wind is still bleeding.** Offshore-wind losses and policy (subsidy/tariff) uncertainty are an ongoing drag.
+3. **Slot reservations ≠ equipment backlog.** Of the Q2 116 GW combined total, 63 GW was in slot reservation agreements and 53 GW in equipment backlog; conversion and timing risk remain even though customers provide deposits.
+4. **Wind is still bleeding.** Q2 segment EBITDA loss widened year over year to $275M from $165M, although it improved from Q1's $382M loss; the maintained approximately $400M full-year loss guide requires a sharp H2 improvement.
 5. **Execution and capacity risk.** Large-scale expansion during the super-cycle tests supply chain, labor and delivery quality; power equipment has a history of over-expansion cycles.
 
 ## 7. Key Uncertainties
 
 1. **The slope of the margin ramp.** Will 8.4% → mid-teens deliver on schedule, and how high can it go? When we'll know more: quarterly segment EBITDA margin and new-bookings margin.
 2. **Durability of data-center electricity capex.** The binary AI-capex variable shared with NVIDIA/Broadcom — the power side lags but is not immune.
-3. **Slot-reservation conversion.** How much of the 110 GW target ultimately converts into firm equipment orders and revenue?
+3. **Slot-reservation conversion.** How much of the Q2 63 GW of reservations converts into equipment backlog and revenue, and can the combined total reach the raised ≥125 GW year-end target?
 4. **The path for Wind.** Will offshore wind be further shrunk, divested or written down? Impact on overall margin.
 5. **Policy and tariffs.** IRA/subsidy changes and tariffs on equipment cost and wind economics.
 
@@ -163,6 +167,8 @@ GEV's premium is the market's bet on an electricity super-cycle that more than d
 
 **Scenario grid:**
 
+> **Frozen valuation frame:** this grid and its 20% / 50% / 30% weights remain the 2026-06-26 valuation exercise using Q1 inputs, the then-≥110 GW target, and the pre-Q2 FY2026 guide. They were not rerun for the Q2 monitoring update; use the dated Q2 operating block above for current backlog, reservations, guidance, and Wind readings.
+
 | Scenario | Driver assumptions (data-center orders / gas-turbine slots / margin / Wind) | Valuation implication (rich / fair / cheap vs today) | Probability weight |
 |----------|------------------------------------------------------------------------------|------------------------------------------------------|--------------------|
 | Bull | Data-center electricity orders keep beating expectations; gas-turbine backlog + slots convert toward the >=110GW target as firm orders; Power / Electrification margins exceed the 12-14% guide range; Wind losses narrow materially or turn positive | The current price would look fair because the market's multi-year margin-ramp bet starts to be proven by both order quality and cash flow | 20% |
@@ -174,8 +180,8 @@ GEV's premium is the market's bet on an electricity super-cycle that more than d
 ## 9. Catalysts & Monitoring Checklist
 
 **Near-term (0-6 months):**
-- Q2 2026 results (~July 2026): whether orders and backlog continue, and the margin/FCF guide.
-- Conversion of gas-turbine slot reservations into firm orders (progress toward the ≥110 GW target).
+- ~~Q2 2026 results (~July 2026): whether orders and backlog continue, and the margin/FCF guide.~~ **2026-07-22 update:** Q2 orders/backlog strengthened and revenue/FCF guidance rose; next check is Q3 2026 results on 2026-10-28.
+- Conversion of the 63 GW of Q2 slot reservations into equipment backlog, and progress toward the raised ≥125 GW combined year-end target.
 - Large data-center-related orders (Power / Electrification).
 
 **Medium-term (6-18 months):**
@@ -191,17 +197,19 @@ GEV's premium is the market's bet on an electricity super-cycle that more than d
 
 ## 10. Conclusion
 
-GE Vernova's chain-validation job is to test whether AI data-center electricity shortage really reaches gas turbines, grid equipment, HVDC / transformers, and long-term service. It is the most direct pick-and-shovel of AI's "power side": when NVIDIA/Broadcom stack up the compute, where the electricity comes from and how it reaches the data hall is GE Vernova's business. The moat (gas-turbine oligopoly + grid scarcity + slot scarcity) is real; the inflection in orders (Q1 $18.3B), backlog ($163B -> 2027 target $200B) and cash flow (FCF guide raised to $6.5-7.5B) is clear; and the balance sheet remains clean (Q1 cash $10.2B, senior notes $2.6B).
+GE Vernova's chain-validation job is to test whether AI data-center electricity shortage really reaches gas turbines, grid equipment, HVDC / transformers, and long-term service. It is the most direct pick-and-shovel of AI's "power side": when NVIDIA/Broadcom stack up the compute, where the electricity comes from and how it reaches the data hall is GE Vernova's business. The moat (gas-turbine oligopoly + grid scarcity + slot scarcity) is real; Q2 orders reached $24.2B, backlog reached $176B, and FY2026 FCF guidance rose to $11.5-12.5B. The split between 53 GW of equipment backlog and 63 GW of reservations, plus Wind's $275M Q2 loss, keeps conversion and execution risk visible.
 
 The expectation gap is mildly negative: at $1,045.17, roughly $281B market cap, and about 45-48x 2026E adjusted EBITDA, the market already capitalizes gas-turbine slots, the $163B backlog, grid capex, and the margin ramp; our base case recognizes the high-quality assets and multi-year demand, but the current price requires EBITDA to keep moving toward a near-doubling over several years, not merely FY2026 guidance delivery.
 
 The current stance is **cautious, medium conviction**. The 20% bull / 50% base / 30% bear grid says GE Vernova's asset quality is very high, but valuation and AI-capex crowding leave a mildly negative skew. Cautious is not a bearish call on the company. It separates the quality of the power-side pick-and-shovel asset from the fact that today's price has already prepaid several years of margin ramp.
 
-Upgrade trigger: Move to neutral-watch or constructive if Q2/Q3 orders and backlog keep growing, gas-turbine backlog + slots convert toward the >=110GW target as firm orders, adjusted EBITDA margin moves above the 12-14% guide range with clear Wind loss reduction, and the valuation multiple does not expand further. Downgrade trigger: Move to bearish-avoid if data-center orders or slot conversion slow, the margin ramp stalls below the 12-14% guide range, Wind losses widen, or AI capex expectations are cut and the roughly 45-48x EV/2026E EBITDA multiple re-rates.
+Upgrade trigger: Move to neutral-watch or constructive only after a current valuation review if Q3/Q4 orders and backlog keep growing, the 63 GW of Q2 reservations convert into equipment backlog while the combined total progresses toward ≥125 GW, adjusted EBITDA margin moves above the 12-14% guide range with clear Wind loss reduction, and the valuation multiple does not expand further. Downgrade trigger: Move to bearish-avoid after a current thesis/valuation review if data-center orders or slot conversion slow, the margin ramp stalls below the 12-14% guide range, Wind losses fail to improve toward the maintained FY2026 guide, or AI capex expectations are cut and the dated roughly 45-48x EV/2026E EBITDA multiple re-rates. Q2's mixed Wind reading does not silently change the stance in this monitoring-only update.
 
 ## Appendix: Sources & Assumptions
 
 **Primary sources:**
+- [GE Vernova Q2 2026 earnings release](https://www.gevernova.com/sites/default/files/gev_webcast_pressrelease_07222026.pdf) (quarter ended 2026-06-30, reported 2026-07-22)
+- [GE Vernova Q2 2026 Form 10-Q](https://www.gevernova.com/sites/default/files/gev_webcast_10q_07222026.pdf)
 - [GE Vernova Q1 2026 results 8-K (SEC)](https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000063/gevpressrelease1q26.htm) (quarter ended 2026-03-31, reported ~2026-04-22)
 - [GE Vernova FY2025 results](https://www.gevernova.com/news/press-releases/ge-vernova-reports-fourth-quarter-full-year-2025-financial-results)
 - [GE Vernova Q1 2026 earnings call transcript (Motley Fool)](https://www.fool.com/earnings/call-transcripts/2026/04/22/ge-vernova-gev-q1-2026-earnings-transcript/)
@@ -212,5 +220,5 @@ Upgrade trigger: Move to neutral-watch or constructive if Q2/Q3 orders and backl
 - EV/2026E adjusted EBITDA is a rough calc on the FY2026 guidance midpoint (revenue ~$45B, ~13% margin -> ~$5.85B) and EV ~$273-276B (market cap - ~$7.6B rough net cash); rough net cash uses Q1 cash of $10.2B minus $2.6B of Q1 senior notes, with the precise debt schedule to be reconciled against the 10-Q/annual report.
 - Forward P/E is highly dispersed (~40-70x) because earnings are at an inflection; it is not used as a primary anchor.
 - Q1 2026 total revenue of $9.34B, adjusted EBITDA of $896M, adjusted EBITDA margin of 9.6% and FCF of $4.79B are company-disclosed; GAAP EPS was materially affected by roughly $4.5B of Prolec GE-related pre-tax M&A net gains and is not used as the core valuation anchor.
-- Gas-turbine 110 GW, backlog $163B/$200B, and orders $18.3B are per company disclosure and public reporting; slot reservations include non-firm portions.
+- Q2 operating readings are company-disclosed: orders $24.2B, RPO backlog $176.284B, 53 GW of gas equipment backlog, 63 GW of slot reservations, and a ≥125 GW combined year-end target. Slot reservations are not yet equipment backlog; the release also disclosed 10 GW of conversion from reservations to orders during Q2.
 - The v5 scenario grid and priced-in paragraph use the Jun 26, 2026 price anchor of $1,045.17. The weights explain expectation gap and skew; they are not investment advice, forecasts, or target prices.

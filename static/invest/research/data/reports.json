@@ -2437,8 +2437,8 @@
     "priceSymbol": "GEV",
     "title": "GE Vernova 深度研究报告 - AI 电力侧的卖铲人与燃气轮机超级周期",
     "titleEn": "GE Vernova Deep Research Report - The Pick-and-Shovel of AI's Power Side and the Gas-Turbine Super-Cycle",
-    "summary": "2026-07-07 v5更新：GE Vernova是AI电力侧最直接的卖铲人，Q1 2026订单$18.3B、backlog $163B、燃气轮机backlog+slot预留年底目标≥110GW，FY2026指引营收$44.5-45.5B、调整后EBITDA利润率12-14%、FCF $6.5-7.5B。价格锚点$1,045.17（2026-06-26）、市值约$2,810亿，约45-48x EV/2026E调整后EBITDA已经资本化多年利润率爬坡；20%牛市/50%基准/30%熊市情景推导为谨慎/中确信。",
-    "summaryEn": "July 7, 2026 v5 update: GE Vernova is the most direct pick-and-shovel of AI power. Q1 2026 orders were $18.3B, backlog was $163B, gas-turbine backlog + slots target >=110GW by year-end, and FY2026 guidance is revenue $44.5-45.5B, adjusted EBITDA margin 12-14%, and FCF $6.5-7.5B. The price anchor is $1,045.17 (Jun 26, 2026), roughly $281B market cap, and about 45-48x EV/2026E adjusted EBITDA already capitalizes a multi-year margin ramp; a 20% bull / 50% base / 30% bear grid leads to cautious / medium conviction.",
+    "summary": "2026-07-23 雷达更新（Q2 监测）：GE Vernova Q2 2026 订单 $24.2B（有机 +88%）、总 backlog 环比 +$13B 至 $176B；燃气设备的 53 GW backlog + 63 GW slot 预留合计 116 GW，年底目标上调至 ≥125 GW。调整后 EBITDA $1.2B（利润率 11.3%），FY2026 营收/FCF 指引升至 $45.5-46.5B/$11.5-12.5B，利润率指引维持 12-14%；Wind Q2 亏损同比扩大、环比改善。价格锚点 $1,045.17、市值约 $2,810 亿、约 45-48x EV/2026E 调整后 EBITDA 均为 2026-06-26 口径，本次未重估，继续为谨慎/中确信。",
+    "summaryEn": "July 23, 2026 radar update (Q2 monitoring): GE Vernova reported Q2 orders of $24.2B (+88% organic) and total backlog up $13B QoQ to $176B. Gas equipment totaled 116 GW: 53 GW of backlog plus 63 GW of slot reservations; the year-end target rose to >=125 GW. Adjusted EBITDA was $1.2B (11.3% margin), FY2026 revenue/FCF guidance rose to $45.5-46.5B/$11.5-12.5B, and the margin guide stayed at 12-14%; Wind's Q2 loss widened YoY but improved sequentially. The $1,045.17 price anchor, ~$281B market cap, and ~45-48x EV/2026E adjusted EBITDA remain the dated 2026-06-26 frame and are not re-marked here; stance remains cautious / medium conviction.",
     "tags": [
       "AI电力",
       "燃气轮机",
@@ -2447,7 +2447,7 @@
     ],
     "category": "energy",
     "date": "2026-06-27",
-    "lastUpdate": "2026-07-07",
+    "lastUpdate": "2026-07-23",
     "file": "/invest/research/reports/view.html?id=gevernova-2026",
     "markdownFiles": {
       "zh": "/invest/research/GE_Vernova_深度研究报告_2026-06.md",
@@ -2457,8 +2457,8 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "Q1 2026 订单 $18.3B，backlog 环比 +$13B+ 至 $163B；2027 目标 $200B（从 2028 提前）；Electrification 数据中心设备订单 $2.4B（超去年全年）",
-      "燃气轮机 backlog + slot 预留 2026 年底目标 ≥110 GW；上调 FY2026 指引：营收 $44.5-45.5B、调整后 EBITDA 利润率 12-14%、FCF $6.5-7.5B",
+      "Q2 2026 订单 $24.2B（有机 +88%），backlog 环比 +$13B 至 $176B；2027 目标 $200B（从 2028 提前）；Electrification 数据中心订单上半年累计 >$5B（超过 2025 全年总额两倍）",
+      "燃气设备 53 GW backlog + 63 GW slot 预留合计 116 GW（年底目标上调至 ≥125 GW）；上调 FY2026 指引：营收 $45.5-46.5B、FCF $11.5-12.5B（调整后 EBITDA 利润率指引维持 12-14%）",
       "利润率从 FY2025 的 8.4% 向中两位数爬坡是估值核心变量；Q1 现金 $10.2B、senior notes $2.6B，粗略净现金约 $7.6B，与背 $64.9B 总债务的 Broadcom 形成对比",
       "股价约 $1,045.17、市值约 $2,810 亿（2026-06-26），EV/2026E 调整后 EBITDA 约 45-48x；20%牛市/50%基准/30%熊市情景推导为谨慎/中确信"
     ],
@@ -2466,7 +2466,7 @@
     "coverageTier": "full",
     "stance": "cautious",
     "priceAsOf": "2026-06-26",
-    "reportedPeriod": "Q1 2026",
+    "reportedPeriod": "Q2 2026",
     "related": [
       "vertiv-2026",
       "bloom-energy-2026"
@@ -2485,11 +2485,11 @@
           "en": "orders/backlog cool — signalling buildout speed lags the chip-side narrative"
         },
         "latest": {
-          "zh": "Q1 订单 $18.3B、backlog $163B（2027 目标 $200B 提前）；电气化 DC 设备订单 $2.4B",
-          "en": "Q1 orders $18.3B, backlog $163B (2027 target $200B pulled forward); Electrification DC orders $2.4B"
+          "zh": "Q2（2026-07-22）订单 $24.2B（有机 +88%）、backlog 环比 +$13B 至 $176B（2027 目标 $200B）；电气化数据中心订单上半年累计 >$5B（超过 2025 全年总额两倍）",
+          "en": "Q2 (2026-07-22) orders $24.2B (+88% organic), backlog +$13B QoQ to $176B (2027 target $200B); Electrification data-center orders >$5B YTD (more than 2x the full-year 2025 total)"
         },
-        "nextCheck": "2026-Q2 财报 / Q2 earnings",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "2026-Q3 财报 / Q3 earnings",
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "margin-ramp",
@@ -2504,8 +2504,8 @@
           "en": "adjusted EBITDA margin climbs from 8.4% toward 12-14% and mid-teens"
         },
         "latest": {
-          "zh": "Q1 调整后 EBITDA $896M（9.6%）；FY2026 指引上调（12-14%、FCF $6.5-7.5B）",
-          "en": "Q1 adj EBITDA $896M (9.6%); FY2026 guide raised (12-14%, FCF $6.5-7.5B)"
+          "zh": "Q2（2026-07-22）调整后 EBITDA $1.2B（利润率 11.3%，有机 +340bps）；FY2026 指引上调至营收 $45.5-46.5B、FCF $11.5-12.5B，EBITDA 利润率指引维持 12-14%（Q2 11.3% 仍低于该区间）",
+          "en": "Q2 (2026-07-22) adj EBITDA $1.2B (11.3% margin, +340bps organic); FY2026 guide raised to revenue $45.5-46.5B and FCF $11.5-12.5B, with the EBITDA-margin guide unchanged at 12-14% (Q2 11.3% still below the range)"
         },
         "nextCheck": "季度利润率 / quarterly margins"
       },
@@ -2518,12 +2518,12 @@
           "en": "Gas-turbine backlog + slots"
         },
         "trigger": {
-          "zh": "年底 backlog+slot 预留 ≥110 GW 目标兑现",
-          "en": "backlog + slot reservations reach the >=110 GW year-end target"
+          "zh": "63 GW slot 预留向设备 backlog 转化，且年底 backlog+预留合计数达到上调后的 ≥125 GW",
+          "en": "the 63 GW of slot reservations convert into equipment backlog and the combined year-end total reaches the raised >=125 GW target"
         },
         "latest": {
-          "zh": "2026 年底目标 ≥110 GW",
-          "en": "targeting >=110 GW by end-2026"
+          "zh": "Q2（2026-07-22）燃气设备合计 116 GW：53 GW 设备 backlog + 63 GW slot 预留；Q2 将 10 GW 既有预留转为订单，年底合计目标上调至 ≥125 GW",
+          "en": "Q2 (2026-07-22) gas equipment totaled 116 GW: 53 GW of equipment backlog plus 63 GW of slot reservations; 10 GW of prior reservations converted to orders in Q2 and the combined year-end target rose to >=125 GW"
         },
         "nextCheck": "年末披露 / year-end disclosure"
       },
@@ -2540,11 +2540,11 @@
           "en": "AI-capex digestion or wider Wind losses compress the ~45-48x EV/2026E EBITDA"
         },
         "latest": {
-          "zh": "市值约 $2,840 亿（一年 +117%）；净现金约 $7.6B；Wind 仍亏损",
-          "en": "~$284B cap (+117% in a year); ~$7.6B net cash; Wind still loss-making"
+          "zh": "估值仍冻结在 2026-06-26 快照；Wind Q2 EBITDA 亏损 $275M（上年同期 $165M、Q1 $382M），FY2026 全年约 $400M 亏损指引维持不变",
+          "en": "Valuation remains frozen at the 2026-06-26 snapshot; Wind Q2 EBITDA loss was $275M (vs $165M a year ago and $382M in Q1), while the approximately $400M FY2026 loss guide was maintained"
         },
-        "nextCheck": "2026-Q2 财报 / Q2 earnings",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "2026-Q3 财报 / Q3 earnings",
+        "nextCheckDate": "2026-10"
       }
     ],
     "conviction": "medium",
@@ -2554,12 +2554,12 @@
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "如果Q2/Q3订单和backlog继续增长、燃气轮机backlog+slot向≥110GW目标转化为确定订单，调整后EBITDA利润率高于12-14%指引区间且Wind亏损明显收窄，同时估值倍数不再扩张，则上调至neutral-watch或constructive。",
-        "en": "Move to neutral-watch or constructive if Q2/Q3 orders and backlog keep growing, gas-turbine backlog + slots convert toward the >=110GW target as firm orders, adjusted EBITDA margin moves above the 12-14% guide range with clear Wind loss reduction, and the valuation multiple does not expand further."
+        "zh": "仅在完成当前估值复核后，如果Q3/Q4订单和backlog继续增长、63 GW slot预留转为设备backlog且合计数向≥125 GW推进，调整后EBITDA利润率高于12-14%指引区间且Wind亏损明显收窄，同时估值倍数不再扩张，则上调至neutral-watch或constructive。",
+        "en": "Move to neutral-watch or constructive only after a current valuation review if Q3/Q4 orders and backlog keep growing, the 63 GW of Q2 slot reservations convert into equipment backlog while the combined total progresses toward >=125 GW, adjusted EBITDA margin moves above the 12-14% guide range with clear Wind loss reduction, and the valuation multiple does not expand further."
       },
       "downgrade": {
-        "zh": "如果数据中心订单或slot转化放缓、利润率爬坡停滞在12-14%以下、Wind亏损扩大，或AI capex预期下修导致约45-48x EV/2026E EBITDA重新定价，则下调至bearish-avoid。",
-        "en": "Move to bearish-avoid if data-center orders or slot conversion slow, the margin ramp stalls below the 12-14% guide range, Wind losses widen, or AI capex expectations are cut and the roughly 45-48x EV/2026E EBITDA multiple re-rates."
+        "zh": "在完成当前论点/估值复核后，如果数据中心订单或slot转化放缓、利润率爬坡停滞在12-14%以下、Wind亏损未能向维持不变的FY2026指引改善，或AI capex预期下修导致明确标注日期的约45-48x EV/2026E EBITDA重新定价，则下调至bearish-avoid。",
+        "en": "Move to bearish-avoid after a current thesis/valuation review if data-center orders or slot conversion slow, the margin ramp stalls below the 12-14% guide range, Wind losses fail to improve toward the maintained FY2026 guide, or AI capex expectations are cut and the dated roughly 45-48x EV/2026E EBITDA multiple re-rates."
       }
     },
     "stanceHistory": [
