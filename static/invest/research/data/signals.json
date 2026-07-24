@@ -677,5 +677,30 @@
       "coreweave-2026:real-demand-vs-financing",
       "nebius-2026:model-vs-balance-sheet"
     ]
+  },
+  {
+    "id": "alphabet-q2-2026-capex-raise",
+    "date": "2026-07-22",
+    "title": {
+      "zh": "Alphabet Q2 2026：季度资本开支 $44.9B（同比约翻倍），FY2026 capex 指引上调至 $195-205B，Google Cloud +82% 至 $24.8B",
+      "en": "Alphabet Q2 2026: quarterly capex $44.9B (about doubled YoY), FY2026 capex guide raised to $195-205B, Google Cloud +82% to $24.8B"
+    },
+    "detail": {
+      "zh": "据 Alphabet 2026-07-22 官方 Q2 2026 业绩发布（SEC 8-K 附件 99.1，报告期为截至 2026-06-30 的季度）与同日财报电话会：季度总收入 $119.8B（同比 +24%、按固定汇率 +23%），其中 Google Services $94.5B（+15%）、Google Cloud 分部收入 $24.8B（+82%，管理层称主要由 GCP 驱动，核心 GCP、企业级 AI 解决方案与 AI 基础设施均为重要驱动）；Google Cloud 经营利润 $8.8B、经营利润率 35.6%（去年同期 20.7%），合并经营利润 $40.8B、经营利润率 34%（同比 +2 个百分点、+30%）。现金流量表口径的季度资本开支（购置物业及设备）由去年同期 $22.4B 升至 $44.9B（约 +100%），上半年累计 $80.6B（去年同期 $39.6B）；同期经营现金流 $39.1B，扣除资本开支后的自由现金流为 -$5.9B。在电话会上，CFO Anat Ashkenazi 将 FY2026 资本开支指引由此前的 $180-190B 上调至 $195-205B，并称上调主要由于加快交付产能以满足增长中的需求；本季技术基础设施投资约 60% 用于服务器、40% 用于数据中心与网络设备。作为 chip-vs-downstream 与 application-monetization 读数，这是超大规模厂商资本开支与云货币化同时走强的确认信号：需求侧（算力采购、服务器占比）在加速，Cloud +82% 与分部经营利润率扩张同向，但集团自由现金流已经转负。证据边界：$44.9B 为 PP&E 现金支出，并非在任何具体在覆盖供应商处的已签订单，无法据此推断 NVDA/AVGO/VRT/GEV 各自的份额、交付或并网节奏；$195-205B 为前瞻指引而非已实现数；本季稀释每股收益 $9.11、归母净利润 $112.1B 受约 $98.0B 权益证券未实现收益（其他收益）显著抬高，不代表经营盈利能力；+82% 是 Google Cloud 分部收入增速，本次披露未单列 GCP 子业务的收入或利润率；公司在 6 月通过普通股与强制可转换优先股募得净额约 $49.6B，所得用于一般公司用途（包括扩张 AI 基础设施与全球算力）；另签订最高 $40B 的 ATM 股票分销协议，但截至 6 月 30 日尚未据此售股，且该 ATM 所得主要拟用于员工股权授予相关税款。本条为事实性监测，不含投资建议、评级或价格目标；Alphabet 未在覆盖范围内，本条不更新任何在覆盖报告的监测读数、估值或立场。",
+      "en": "Per Alphabet's official Q2 2026 results dated 2026-07-22 (SEC 8-K Exhibit 99.1, quarter ended 2026-06-30) and the same-day earnings call: quarterly total revenues were $119.8B (+24% YoY, +23% constant currency), with Google Services $94.5B (+15%) and Google Cloud segment revenue $24.8B (+82%, driven primarily by GCP, with core GCP, enterprise AI solutions, and AI infrastructure all important drivers). Google Cloud operating income was $8.8B at a 35.6% operating margin (20.7% a year ago), while consolidated operating income was $40.8B at a 34% margin (+2 percentage points YoY, +30%). Cash-flow-statement quarterly capital expenditures (purchases of property and equipment) rose from $22.4B a year ago to $44.9B (about +100%), with first-half capex of $80.6B (vs $39.6B a year ago); quarterly operating cash flow was $39.1B and free cash flow after capex was -$5.9B. On the call, CFO Anat Ashkenazi raised FY2026 capex guidance to $195-205B from $180-190B, saying the increase was primarily due to accelerated delivery of capacity to meet growing demand; approximately 60% of the quarter's technical-infrastructure investment was in servers and 40% in data centers and networking equipment. As a chip-vs-downstream and application-monetization reading, this confirms hyperscaler capex and cloud monetization strengthening together: the demand side (compute purchasing, server mix) is accelerating, and Cloud's +82% growth came with segment operating-margin expansion, although consolidated free cash flow turned negative. Evidence limits: the $44.9B is PP&E cash spend, not a booked order at any specific covered supplier, so it cannot establish the share, delivery, or interconnection cadence captured by NVDA/AVGO/VRT/GEV; the $195-205B is forward guidance, not actuals; the quarter's $9.11 diluted EPS and $112.1B net income are materially inflated by about $98.0B of unrealized gains on equity securities in other income and do not represent operating profitability; the +82% is Google Cloud segment revenue growth, while the disclosure does not separately provide GCP sub-business revenue or margin; in June the company raised about $49.6B of net proceeds through common and mandatory convertible preferred stock for general corporate purposes, including capital expenditures to scale AI infrastructure and global compute. Separately, it entered an at-the-market equity distribution agreement for up to $40B, but had sold no shares under it as of June 30 and primarily intends those proceeds for tax obligations associated with employee equity grants. This is factual monitoring, not investment advice, a rating, or a price target; Alphabet is not in coverage, and this entry does not update any covered report's monitoring reading, valuation, or stance."
+    },
+    "crossChecks": [
+      "chip-vs-downstream",
+      "buildout-orders",
+      "application-monetization"
+    ],
+    "tickers": [
+      "GOOGL",
+      "GOOG",
+      "AVGO",
+      "NVDA",
+      "VRT",
+      "GEV"
+    ]
   }
 ]
