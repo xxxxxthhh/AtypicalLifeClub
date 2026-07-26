@@ -1,5 +1,25 @@
 [
   {
+    "id": "sk-group-nvidia-ai-factory-memory-loi-2026",
+    "date": "2026-07-24",
+    "title": {
+      "zh": "SK 集团与 NVIDIA 将 AI 基建及内存合作框定为 $500B+ 并签署 LOI；SK Telecom 规划最高 2 GW AI Cloud",
+      "en": "SK Group and NVIDIA frame AI-infrastructure and memory collaboration at $500B+ and sign LOIs; SK Telecom plans up to 2 GW AI Cloud"
+    },
+    "detail": {
+      "zh": "据 NVIDIA 2026-07-24 官方发布与 SK Telecom 2026-07-25 官方发布：SK 集团与 NVIDIA 宣布规划一项以「$500-billion-plus（5000 亿美元以上）」表述的综合合作，并签署意向书（LOI），范围从 AI 工厂建设延伸至 AI 内存供应。SK Telecom 规划在韩国建设最高 2 GW 的 AI Cloud，采用 NVIDIA DSX 平台及由 SK hynix HBM4 支持的 NVIDIA Vera Rubin 加速计算，首座 AI 工厂计划于 2027 年上线；NVIDIA 与 SK hynix 的长期 AI 内存合作则以稳定下一代内存供应，并共同研发和优化包括 HBM 在内的下一代方案为目标。作为 memory-cycle 与 chip-vs-downstream 读数，这是一项意向阶段的下游设施与内存需求规划信号，而不是已兑现的订单或交付确认。证据边界：两份官方材料把 $500B+ 称为 initiative/合作框架，未给出可逐项核对的资本开支预算；材料披露的是 LOI，未披露已执行的采购合同、具约束力的支出时间表、订单数量/价格、HBM4 分配或收入确认时点；最高 2 GW 是规划容量，尚未部署；首座工厂仅计划于 2027 年上线。该韩国项目不能外推至美国电网/PJM/ERCOT 标的，也不能据此推断 Micron、SanDisk 或其他未被点名供应商的份额。本条仅记录链条事实，不更新 nvidia-2026 或 sk-hynix-2026 的报告监测读数、估值、立场或确信度。",
+      "en": "Per NVIDIA's official July 24, 2026 release and SK Telecom's official July 25, 2026 release, SK Group and NVIDIA announced plans for a comprehensive collaboration framed as a \"$500-billion-plus\" initiative and signed letters of intent spanning AI-factory construction through AI-memory supply. SK Telecom plans an AI Cloud of up to 2 GW in Korea using the NVIDIA DSX platform and NVIDIA Vera Rubin accelerated computing powered by SK hynix HBM4, with the first AI factory planned to come online in 2027. NVIDIA and SK hynix's long-term AI-memory partnership aims to secure stable next-generation memory supply and to codevelop and optimize next-generation solutions including HBM. As a memory-cycle and chip-vs-downstream reading, this is an intent-stage downstream-facility and memory-demand planning signal, not confirmation of booked orders or delivered capacity. Evidence limits: the official materials describe $500B+ as an initiative/collaboration framework without an itemized capex budget; they disclose LOIs but no executed purchase contracts, binding spend schedule, order quantities or pricing, HBM4 allocation, or revenue-recognition timing; up to 2 GW is planned capacity, not deployed capacity; and the first factory is only planned for 2027. The Korea-based project does not read through to U.S. grid/PJM/ERCOT names and cannot establish share for Micron, SanDisk, or other suppliers not named in the releases. This chain-level factual log does not update the monitoring readings, valuation, stance, or conviction of nvidia-2026 or sk-hynix-2026."
+    },
+    "crossChecks": [
+      "memory-cycle",
+      "chip-vs-downstream"
+    ],
+    "tickers": [
+      "NVDA",
+      "000660.KS"
+    ]
+  },
+  {
     "id": "gevernova-q2-2026-orders-backlog-slots",
     "date": "2026-07-22",
     "title": {
