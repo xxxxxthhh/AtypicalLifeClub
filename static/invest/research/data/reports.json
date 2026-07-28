@@ -890,8 +890,8 @@
     "priceSymbol": "CDNS",
     "title": "Cadence Design Systems 深度研究报告 - AI 设计复杂度的 EDA/IP backlog 仪表盘",
     "titleEn": "Cadence Design Systems Deep Research Report - EDA/IP Backlog Dashboard For AI Design Complexity",
-    "summary": "AI 基础设施 eda-ip 层的 backlog / execution 仪表盘：CDNS 验证 AI demand 是否出现在 design automation、IP、simulation、backlog、RPO 和 agentic design workflows。Q1 2026 revenue $1.474B、non-GAAP operating margin 44.7%、non-GAAP EPS $1.96；季度末 backlog $8.0B，未来 12 个月预计从 RPO 确认收入 $4.0B。FY2026 指引 revenue $6.125-6.225B、non-GAAP EPS $7.85-7.95。当前 $373.14、市值约 $102.9B、EV 约 $104.5B，约 16.9x EV/FY2026E sales、约 47.2x non-GAAP P/E。谨慎 / 中确信：质量高，但这个 multiple 已经要求 backlog、IP、agentic design-flow adoption 与 Hexagon/Physical AI 整合同时干净兑现。",
-    "summaryEn": "Backlog / execution dashboard for the AI-infrastructure eda-ip layer. CDNS tests whether AI demand is visible in design automation, IP, simulation, backlog, RPO, and agentic design workflows. Q1 2026 revenue was $1.474B, non-GAAP operating margin was 44.7%, and non-GAAP EPS was $1.96; quarter-end backlog was $8.0B and next-12-month RPO revenue was $4.0B. FY2026 guidance is $6.125-6.225B revenue and $7.85-7.95 non-GAAP EPS. At $373.14, about $102.9B market cap and $104.5B EV, CDNS trades around 16.9x EV/FY2026E sales and 47.2x non-GAAP P/E. Cautious / medium conviction: quality is high, but this multiple already requires backlog, IP, agentic design-flow adoption, and Hexagon / Physical AI integration to all execute cleanly.",
+    "summary": "AI 基础设施 eda-ip 层的 backlog / execution 仪表盘：CDNS 验证 AI demand 是否出现在 design automation、IP、simulation、backlog、RPO 和 agentic design workflows。2026Q2 财报（2026-07-27）：revenue $1.584B（同比 +24%）、non-GAAP operating margin 45.5%、non-GAAP EPS $2.11；季度末 backlog $8.1B（公司口径 record），未来 12 个月预计从 RPO 确认收入 $4.2B；Core EDA / Semiconductor IP / System Design & Analysis 收入分别同比 +18% / 超过 +40% / +37%。管理层把 FY2026 指引上修至 revenue $6.26-6.34B（约 +19% YoY）、non-GAAP EPS $8.05-8.15、operating cash flow 约 $2B。$373.14、市值约 $102.9B、EV 约 $104.5B、约 16.9x EV/sales 与约 47.2x non-GAAP P/E 均是基于当时 Q1 指引（revenue $6.125-6.225B、EPS $7.85-7.95）的 2026-07-02 初始估值快照，本次监测不刷新估值或立场；维持谨慎 / 中确信。",
+    "summaryEn": "Backlog / execution dashboard for the AI-infrastructure eda-ip layer. CDNS tests whether AI demand is visible in design automation, IP, simulation, backlog, RPO, and agentic design workflows. Q2 2026 results (July 27, 2026): revenue was $1.584B (up 24% YoY), non-GAAP operating margin was 45.5%, and non-GAAP EPS was $2.11; quarter-end backlog was $8.1B (a company-stated record), next-12-month RPO revenue was $4.2B, and Core EDA / Semiconductor IP / System Design & Analysis revenue grew 18% / more than 40% / 37% YoY. Management raised FY2026 guidance to $6.26-6.34B revenue (about +19% YoY), $8.05-8.15 non-GAAP EPS, and about $2B operating cash flow. The $373.14 price, about $102.9B market cap, $104.5B EV, ~16.9x EV/sales, and ~47.2x non-GAAP P/E are the July 2, 2026 initial valuation snapshot based on the then-current Q1 guide ($6.125-6.225B revenue and $7.85-7.95 EPS); this monitoring pass does not refresh valuation or stance and keeps Cautious / medium conviction.",
     "tags": [
       "EDA",
       "半导体IP",
@@ -900,7 +900,7 @@
     ],
     "category": "tech",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-07",
+    "lastUpdate": "2026-07-28",
     "file": "/invest/research/reports/view.html?id=cadence-2026",
     "markdownFiles": {
       "zh": "/invest/research/Cadence_Design_Systems_深度研究报告_2026-07.md",
@@ -911,9 +911,9 @@
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
       "补齐 EDA/IP backlog 仪表盘：CDNS 验证 AI 复杂度是否进入 backlog、RPO、IP 和 agentic design flow",
-      "Q1 2026 revenue $1.474B、non-GAAP operating margin 44.7%、non-GAAP EPS $1.96",
-      "季度末 backlog $8.0B，next-12-month RPO revenue $4.0B；IP revenue 同比 +22%",
-      "当前 $373.14、EV 约 $104.5B，约 16.9x FY2026E sales、约 47.2x non-GAAP P/E；v5 谨慎 / 中确信"
+      "2026Q2（2026-07-27）revenue $1.584B（同比 +24%）、non-GAAP operating margin 45.5%、non-GAAP EPS $2.11",
+      "季度末 backlog $8.1B（公司口径 record，环比约持平于 Q1 $8.0B），next-12-month RPO revenue $4.2B；Core EDA / IP / SDA 收入同比 +18% / 超过 +40% / +37%，FY2026 指引上修",
+      "$373.14、EV 约 $104.5B、约 16.9x EV/sales、约 47.2x non-GAAP P/E 为基于当时 Q1 指引的 2026-07-02 估值快照（本次不刷新）；维持谨慎 / 中确信"
     ],
     "chainLayer": "eda-ip",
     "coverageTier": "full",
@@ -921,17 +921,17 @@
     "stance": "cautious",
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 $373.14、约 16.9x EV/FY2026E sales 和约 47.2x non-GAAP P/E 计，市场已经要求 backlog/RPO、IP/HBM/SerDes、agentic design workflow 与 Hexagon/Physical AI 整合同时兑现；我们的基准情景同意质量和方向，但认为当前 multiple 留给执行误差的空间很小。",
-      "en": "At $373.14, roughly 16.9x EV/FY2026E sales, and about 47.2x non-GAAP P/E, the market already requires backlog/RPO, IP/HBM/SerDes, agentic design workflow, and Hexagon / Physical AI integration to all execute; our base case agrees on quality and direction, but today's multiple leaves little room for execution error."
+      "zh": "在基于当时 Q1 指引的 2026-07-02 估值快照中，$373.14 对应约 16.9x EV/sales 和约 47.2x non-GAAP P/E，要求 backlog/RPO、IP、agentic design workflow 与 Hexagon/Physical AI 整合同时兑现；本次只更新经营读数，不用旧价格对新指引重新估值。",
+      "en": "In the July 2, 2026 valuation snapshot based on the then-current Q1 guide, $373.14 corresponded to roughly 16.9x EV/sales and about 47.2x non-GAAP P/E, requiring backlog/RPO, IP, agentic design workflow, and Hexagon / Physical AI integration to all execute; this pass updates operating evidence only and does not revalue new guidance using the old price."
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "若 Q2 2026 证明 $8.0B backlog 与 $4.0B next-12-month RPO 干净转收入，IP/HBM/SerDes 与 AgentStack 采用可量化，且 EV/FY2026E sales 从约 16.9x 消化而不是继续扩张，则上调至 neutral-watch 或 constructive。",
-        "en": "Move to neutral-watch or constructive if Q2 2026 proves the $8.0B backlog and $4.0B next-12-month RPO are cleanly converting to revenue, IP/HBM/SerDes and AgentStack adoption are measurable, and EV/FY2026E sales is absorbed from roughly 16.9x rather than expanding further."
+        "zh": "若 Q3 2026 继续证明 $8.1B backlog 与 $4.2B next-12-month RPO 干净转收入，Star IP 与 AI Super Agents 采用保持可量化，且一次单独的当前估值复核显示 EV/sales 已从 2026-07-02 的约 16.9x 消化而不是继续扩张，则上调至 neutral-watch 或 constructive。",
+        "en": "Move to neutral-watch or constructive if Q3 2026 continues to show the $8.1B backlog and $4.2B next-12-month RPO converting cleanly, Star IP and AI Super Agent adoption remain measurable, and a separate current valuation review shows EV/sales has been absorbed from the roughly 16.9x July 2, 2026 frame rather than expanding."
       },
       "downgrade": {
-        "zh": "若 backlog/RPO 转化低于指引、IP 增速放缓、Hexagon/Physical AI 稀释 margin，或在约 47x FY2026E non-GAAP EPS 上出现任一执行失误，则下调至 bearish-avoid。",
-        "en": "Move to bearish-avoid if backlog/RPO conversion misses guidance, IP growth slows, Hexagon / Physical AI dilutes margin, or any execution miss appears at roughly 47x FY2026E non-GAAP EPS."
+        "zh": "若 backlog/RPO 转化低于指引、IP 增速放缓、Hexagon/Physical AI 稀释 margin，或在 2026-07-02 的约 47x non-GAAP P/E 估值框架下出现任一执行失误，则下调至 bearish-avoid。",
+        "en": "Move to bearish-avoid if backlog/RPO conversion misses guidance, IP growth slows, Hexagon / Physical AI dilutes margin, or any execution miss appears against the roughly 47x non-GAAP P/E July 2, 2026 valuation frame."
       }
     },
     "stanceHistory": [
@@ -948,7 +948,7 @@
       }
     ],
     "priceAsOf": "2026-07-02",
-    "reportedPeriod": "2026Q1",
+    "reportedPeriod": "2026Q2",
     "related": [
       "synopsys-2026",
       "nvidia-2026",
@@ -967,15 +967,15 @@
           "en": "Backlog / RPO conversion"
         },
         "trigger": {
-          "zh": "$8.0B backlog 与 $4.0B next-12-month RPO 按指引转收入",
-          "en": "$8.0B backlog and $4.0B next-12-month RPO convert into guided revenue"
+          "zh": "$8.1B backlog 与 $4.2B next-12-month RPO 按上修后的指引转收入",
+          "en": "$8.1B backlog and $4.2B next-12-month RPO convert into the raised guidance"
         },
         "latest": {
-          "zh": "Q1 2026 quarter-end backlog $8.0B，next-12-month RPO revenue $4.0B",
-          "en": "Q1 2026 quarter-end backlog was $8.0B and next-12-month RPO revenue was $4.0B"
+          "zh": "2026Q2 财报（2026-07-27）：quarter-end backlog $8.1B（公司口径 record，环比约持平于 Q1 $8.0B），next-12-month RPO revenue $4.2B（Q1 为 $4.0B）；Q2 revenue $1.584B（同比 +24%）、non-GAAP EPS $2.11，FY2026 指引上修至 revenue $6.26-6.34B、non-GAAP EPS $8.05-8.15。读数与转化方向一致，但公司未披露 backlog 的 gross additions / burn 明细，不能据此直接量化转化率。",
+          "en": "Q2 2026 results (2026-07-27): quarter-end backlog was $8.1B (a company-stated record, roughly flat vs Q1's $8.0B) and next-12-month RPO revenue was $4.2B (Q1 was $4.0B); Q2 revenue was $1.584B (+24% YoY) with non-GAAP EPS $2.11, and FY2026 guidance was raised to $6.26-6.34B revenue and $8.05-8.15 non-GAAP EPS. The reading is consistent with conversion, but the company did not disclose backlog gross additions or burn, so it does not directly quantify a conversion rate."
         },
-        "nextCheck": "Q2 2026 results",
-        "nextCheckDate": "2026-07"
+        "nextCheck": "Q3 2026 results",
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "agentic-design-workflow",
@@ -990,11 +990,11 @@
           "en": "AgentStack / ChipStack / ViraStack / InnoStack move from product narrative to measurable adoption"
         },
         "latest": {
-          "zh": "管理层强调 AgentStack 与 Super Agents 集成",
-          "en": "management emphasized AgentStack and Super Agents integration"
+          "zh": "2026Q2 财报（2026-07-27）称 AI Super Agents 已出现 early traction 与初步客户结果，但未量化 agentic design workflow 的收入贡献。",
+          "en": "The Q2 2026 release (2026-07-27) cited early traction and initial customer results for AI Super Agents but did not quantify agentic design-workflow revenue contribution."
         },
         "nextCheck": "AI design-flow product adoption",
-        "nextCheckDate": "2026-07"
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "ip-hbm-serdes-growth",
@@ -1009,11 +1009,11 @@
           "en": "IP revenue keeps being pulled by AI infrastructure, HBM, PCIe, and SerDes"
         },
         "latest": {
-          "zh": "Q1 IP business 同比 +22%，受 AI infrastructure、HPC、automotive 驱动",
-          "en": "Q1 IP business grew 22% YoY, driven by AI infrastructure, HPC, and automotive"
+          "zh": "2026Q2（2026-07-27）：Semiconductor IP 收入同比超过 +40%，公司归因于 Star IP、与 Intel 的重要协议及其他领先半导体客户 wins；官方未把本季 IP 增长拆分到 HBM、PCIe 或 SerDes。",
+          "en": "Q2 2026 (2026-07-27): Semiconductor IP revenue grew more than 40% YoY, attributed to Star IP, a significant Intel agreement, and other leading-semiconductor wins; the company did not split this quarter's IP growth among HBM, PCIe, or SerDes."
         },
-        "nextCheck": "IP and protocol demand update",
-        "nextCheckDate": "2026-07"
+        "nextCheck": "Q3 2026 results",
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "hexagon-physical-ai",
@@ -1028,11 +1028,11 @@
           "en": "Hexagon D&E expands system simulation without diluting margins"
         },
         "latest": {
-          "zh": "System Design and Analysis revenue 同比 +18%，Hexagon D&E 增加 structural / multibody dynamics",
-          "en": "System Design and Analysis revenue grew 18% YoY; Hexagon D&E adds structural / multibody dynamics"
+          "zh": "2026Q2（2026-07-27）：System Design & Analysis 收入同比 +37%，公司归因于 PCB、advanced packaging 采用与 Hexagon D&E 整合；官方未单列 Hexagon 对 margin 的稀释数据。",
+          "en": "Q2 2026 (2026-07-27): System Design & Analysis revenue grew 37% YoY, attributed to PCB and advanced-packaging adoption plus Hexagon D&E integration; the release did not isolate Hexagon margin dilution."
         },
-        "nextCheck": "SDA and Hexagon integration update",
-        "nextCheckDate": "2026-07"
+        "nextCheck": "Q3 2026 results",
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "valuation-execution",
@@ -1043,15 +1043,15 @@
           "en": "Valuation and execution tolerance"
         },
         "trigger": {
-          "zh": "约 47x FY2026E non-GAAP EPS 下，backlog、margin 或 AI adoption 任一失误都会放大",
-          "en": "at around 47x FY2026E non-GAAP EPS, any backlog, margin, or AI-adoption miss is amplified"
+          "zh": "在 2026-07-02 的约 47x non-GAAP P/E 估值框架下，backlog、margin 或 AI adoption 任一失误都会放大",
+          "en": "against the roughly 47x non-GAAP P/E July 2, 2026 frame, any backlog, margin, or AI-adoption miss is amplified"
         },
         "latest": {
-          "zh": "约 16.9x EV/FY2026E sales、约 47.2x non-GAAP P/E",
-          "en": "about 16.9x EV/FY2026E sales and 47.2x non-GAAP P/E"
+          "zh": "基于当时 Q1 指引的 2026-07-02 快照：约 16.9x EV/sales、约 47.2x non-GAAP P/E；本次未用旧价格对 Q2 新指引重算",
+          "en": "July 2, 2026 snapshot based on the then-current Q1 guide: about 16.9x EV/sales and 47.2x non-GAAP P/E; this pass did not recompute new Q2 guidance using the old price"
         },
         "nextCheck": "valuation reset and guidance update",
-        "nextCheckDate": "2026-07"
+        "nextCheckDate": "2026-10"
       }
     ]
   },
@@ -6000,7 +6000,7 @@
     "priceSymbol": "DLR",
     "title": "Digital Realty 深度研究报告 - AI 数据中心租赁与互联需求仪表盘",
     "titleEn": "Digital Realty Deep Research Report - Leasing and Interconnection Dashboard for AI Data Centers",
-    "summary": "AI 基础设施 datacenter-facility 层的租赁/互联需求校验。DLR 不直接解释 GPU、光模块或电力设备，而是验证 AI 数据中心需求是否转化为真实租约、backlog、互联节点和开发容量。Q1 2026 收入 $1.64B（约 +16% YoY）、Core FFO/share $2.04、AFFO/share $1.92；公司签下 $707M 年化 GAAP base rent 的 bookings（100% share），DLR share 为 $423M，其中 0-1MW + interconnection 贡献 $98M、同比 +42%；季度末 signed-but-not-commenced backlog 为 $1.8B（100% share）/ $1.0B（DLR share），加权平均开租滞后 19 个月。当前 $173.30（2026-07-02 收盘）、市值约 $62.0B、EV 约 $77.6B，估值约 21x 2026 Core FFO 指引、约 12.2x EV/TTM revenue。偏多 / 中确信：backlog 开租与 powered development 给出小幅正偏斜，但杠杆、利率和电力约束仍需监控。",
+    "summary": "AI 基础设施 datacenter-facility 层的租赁/互联需求校验。DLR 不直接解释 GPU、光模块或电力设备，而是验证 AI 数据中心需求是否转化为真实租约、backlog、互联节点和开发容量。2026Q2 财报（2026-07-23）：Core FFO/share（ex net promote）$2.13、cash renewal spread +25.4%；公司签下 $307M 年化 GAAP base rent 的 bookings（100% share）/ $208M（DLR share），其中 0-1MW + interconnection 贡献 $108M、占 DLR-share bookings 的 52%；季度末 signed-but-not-commenced backlog 为 record $1.9B（100% share）/ $1.4B（DLR share），但后者含约 $380M 收购相关增量，不能全部解释为本季有机签约；新签租约加权平均开租滞后从 19 个月收窄至 9 个月，future-development capacity 升至约 9GW。管理层把 2026 Core FFO/share（ex net promote）指引从 $8.00-8.10 上修至 $8.15-8.20。$173.30、市值约 $62.0B、EV 约 $77.6B、约 21x P/Core FFO 与约 12.2x EV/TTM revenue 均为基于当时 Q1 $8.00-8.10 指引的 2026-07-02 初始估值快照，本次监测不刷新估值或立场；维持偏多 / 中确信。",
     "tags": [
       "AI数据中心",
       "REIT",
@@ -6009,7 +6009,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-07",
+    "lastUpdate": "2026-07-28",
     "file": "/invest/research/reports/view.html?id=digital-realty-2026",
     "markdownFiles": {
       "zh": "/invest/research/Digital_Realty_深度研究报告_2026-07.md",
@@ -6020,24 +6020,24 @@
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
       "补齐 datacenter-facility 层租赁校验：DLR 把上游 chip/neocloud/buildout 叙事接到真实租约、backlog、cross-connects 和开发容量",
-      "Q1 2026 收入 $1.64B、Core FFO/share $2.04、AFFO/share $1.92；2026 Core FFO/share 指引上调至 $8.00-$8.10",
-      "Q1 bookings $707M（100% share）/$423M（DLR share），其中 0-1MW + interconnection $98M、同比 +42%；backlog $1.8B（100% share）/$1.0B（DLR share），开租滞后 19 个月",
-      "当前 $173.30（2026-07-02）、市值约 $62.0B、EV 约 $77.6B、约 21x 2026 Core FFO 指引；强需求但估值、杠杆、电力/许可和 backlog commence 是核心风险"
+      "2026Q2（2026-07-23）Core FFO/share（ex net promote）$2.13、cash renewal spread +25.4%；2026 Core FFO/share 指引上修至 $8.15-8.20（ex net promote，Q1 为 $8.00-8.10）",
+      "Q2 bookings $307M（100% share）/$208M（DLR share），环比低于 Q1；0-1MW + interconnection $108M、占 DLR-share bookings 的 52%；backlog $1.9B/$1.4B，但 DLR-share 口径含约 $380M 收购相关增量，开租滞后收窄至 9 个月",
+      "$173.30、市值约 $62.0B、EV 约 $77.6B、约 21x P/Core FFO 为基于当时 Q1 $8.00-8.10 指引的 2026-07-02 估值快照（本次不刷新）；强需求但估值、杠杆、电力/许可和 backlog commence 是核心风险"
     ],
-    "summaryEn": "Leasing and interconnection demand check for the AI-infrastructure data-center facility layer. DLR does not directly explain GPUs, optical modules or power equipment; it tests whether AI data-center demand converts into real leases, backlog, interconnection nodes and development capacity. Q1 2026 revenue was $1.64B (about +16% YoY), Core FFO/share was $2.04 and AFFO/share was $1.92. The company signed $707M of annualized GAAP base-rent bookings at 100% share, or $423M at DLR share, including $98M from the 0-1MW plus interconnection category (+42% YoY). Signed-but-not-commenced backlog was $1.8B at 100% share and $1.0B at DLR share, with a 19-month weighted-average commencement lag. At $173.30 (2026-07-02 close), about $62.0B market cap and about $77.6B EV, DLR trades around 21x 2026 Core FFO guidance and about 12.2x EV/TTM revenue. Constructive / medium conviction: backlog commencement and powered development create modest positive skew, while leverage, rates and power constraints still need monitoring.",
+    "summaryEn": "Leasing and interconnection demand check for the AI-infrastructure data-center facility layer. DLR does not directly explain GPUs, optical modules or power equipment; it tests whether AI data-center demand converts into real leases, backlog, interconnection nodes and development capacity. Q2 2026 results (July 23, 2026): Core FFO/share (excluding net promote) was $2.13 and cash renewal spreads were +25.4%. The company signed $307M of annualized GAAP base-rent bookings at 100% share, or $208M at DLR share, including $108M from 0-1MW plus interconnection, or 52% of DLR-share bookings. Signed-but-not-commenced backlog was a record $1.9B at 100% share and $1.4B at DLR share, but the latter included about $380M of acquisition-related incremental backlog and cannot be read entirely as organic quarterly leasing; the weighted-average commencement lag narrowed from 19 months to nine months and future-development capacity rose to about 9GW. Management raised 2026 Core FFO/share (excluding net promote) guidance from $8.00-8.10 to $8.15-8.20. The $173.30 price, about $62.0B market cap, $77.6B EV, ~21x P/Core FFO, and ~12.2x EV/TTM revenue are the July 2, 2026 initial valuation snapshot based on the then-current Q1 $8.00-8.10 guide; this monitoring pass does not refresh valuation or stance and keeps Constructive / medium conviction.",
     "chainLayer": "datacenter-facility",
     "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "constructive",
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 $173.30、约 21x 2026 Core FFO 指引计，市场大致要求未来三年约 14% Core FFO/share CAGR；我们的 30% 牛市 / 50% 基准 / 20% 熊市情景认为 backlog 开租、0-1MW/interconnection 与 powered development 可以接近或略高于该要求，偏斜小幅为正但仍受杠杆、利率和电力约束限制。",
-      "en": "At $173.30 and about 21x 2026 Core FFO guidance, the market is underwriting roughly 14% three-year Core FFO/share CAGR; our 30% bull / 50% base / 20% bear grid sees backlog commencement, 0-1MW/interconnection demand, and powered development as capable of meeting or modestly beating that requirement, so the skew is modestly positive but still constrained by leverage, rates, and power availability."
+      "zh": "在基于当时 Q1 $8.00-8.10 指引的 2026-07-02 估值快照中，$173.30 与约 21x P/Core FFO 隐含未来三年约 14% Core FFO/share CAGR；本次只更新经营读数，不用旧价格对 Q2 新指引重新估值，维持原偏多 / 中确信结论。",
+      "en": "In the July 2, 2026 valuation snapshot based on the then-current Q1 $8.00-8.10 guide, $173.30 and about 21x P/Core FFO implied roughly 14% three-year Core FFO/share CAGR; this pass updates operating evidence only, does not revalue the Q2 guide using the old price, and keeps the prior constructive / medium-conviction conclusion."
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "如果 Q2/Q3 leasing bookings、$1.8B backlog 开租节奏、0-1MW/interconnection 需求与 >6GW powered development 同时推进，且净债务和利息成本没有稀释 Core FFO/share 增长，则上调至 bullish。",
-        "en": "Move to bullish if Q2/Q3 leasing bookings, the $1.8B backlog commencement schedule, 0-1MW/interconnection demand, and >6GW powered development all advance while net debt and interest cost do not dilute Core FFO/share growth."
+        "zh": "若 Q3/Q4 leasing bookings 保持高位、剔除约 $380M 收购增量后仍能看到 $1.9B backlog 的开租进展，0-1MW/interconnection 需求与约 9GW future development 同时推进，且净债务和利息成本没有稀释 Core FFO/share 增长，则上调至 bullish。",
+        "en": "Move to bullish if Q3/Q4 leasing bookings remain elevated, the $1.9B backlog shows commencement progress after accounting for the roughly $380M acquisition increment, 0-1MW/interconnection demand and about 9GW of future development both advance, and net debt and interest cost do not dilute Core FFO/share growth."
       },
       "downgrade": {
         "zh": "如果 backlog commencement lag 继续拉长、renewal/pricing spreads 恶化、开发电力或许可推迟容量，或净债务/股本融资使 Core FFO/share 增长低于约 14% 隐含要求，则下调至 neutral-watch 或 cautious。",
@@ -6058,7 +6058,7 @@
       }
     ],
     "priceAsOf": "2026-07-02",
-    "reportedPeriod": "2026Q1",
+    "reportedPeriod": "2026Q2",
     "related": [
       "coreweave-2026",
       "nebius-2026",
@@ -6079,11 +6079,11 @@
           "en": "new lease signings remain elevated without pricing or renewal-spread deterioration"
         },
         "latest": {
-          "zh": "Q1 bookings $707M（100% share）/$423M（DLR share）",
-          "en": "Q1 bookings $707M at 100% share / $423M at DLR share"
+          "zh": "2026Q2 财报（2026-07-23）：bookings $307M（100% share）/$208M（DLR share），环比低于 Q1 的 $707M/$423M（Q1 为异常大季度）；其中 0-1MW + interconnection 为 record $108M、占 DLR-share bookings 的 52%。同期 backlog 为 $1.9B/$1.4B，但 DLR-share 口径含约 $380M 收购相关增量。",
+          "en": "Q2 2026 results (2026-07-23): bookings were $307M at 100% share / $208M at DLR share, down QoQ from Q1's $707M/$423M (Q1 was unusually large); 0-1MW plus interconnection was a record $108M, or 52% of DLR-share bookings. Backlog was $1.9B/$1.4B, but the DLR-share measure included about $380M of acquisition-related incremental backlog."
         },
-        "nextCheck": "2026-Q2 leasing update",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "2026-Q3 leasing update",
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "backlog-commencement-lag",
@@ -6094,15 +6094,15 @@
           "en": "Backlog-to-revenue conversion"
         },
         "trigger": {
-          "zh": "$1.8B signed-but-not-commenced backlog 按 2026/2027/2028+ 阶梯开租，或滞后扩大",
-          "en": "$1.8B signed-but-not-commenced backlog commences along the 2026/2027/2028+ ladder, or lag expands"
+          "zh": "$1.9B signed-but-not-commenced backlog 在剔除收购增量后仍按 2026/2027/2028+ 阶梯开租，或滞后扩大",
+          "en": "$1.9B signed-but-not-commenced backlog continues to commence along the 2026/2027/2028+ ladder after accounting for acquisition additions, or lag expands"
         },
         "latest": {
-          "zh": "Q1 新签租约加权平均开租滞后 19 个月",
-          "en": "Q1 new leases had a 19-month weighted-average commencement lag"
+          "zh": "2026Q2 新签租约加权平均开租滞后收窄至 9 个月（Q1 为 19 个月）；季度末 backlog $1.9B（100% share）/$1.4B（DLR share），其中 DLR-share 口径含约 $380M 收购相关增量。",
+          "en": "Q2 2026 new leases had a nine-month weighted-average commencement lag (Q1 was 19 months); quarter-end backlog was $1.9B at 100% share / $1.4B at DLR share, with the DLR-share measure including about $380M of acquisition-related incremental backlog."
         },
-        "nextCheck": "2026-Q2 backlog schedule",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "2026-Q3 backlog schedule",
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "interconnection-0-1mw",
@@ -6117,11 +6117,11 @@
           "en": "smaller-scale and interconnection bookings keep growing, proving demand is not only from single large tenants"
         },
         "latest": {
-          "zh": "Q1 0-1MW + interconnection bookings $98M，同比 +42%",
-          "en": "Q1 0-1MW plus interconnection bookings $98M, +42% YoY"
+          "zh": "2026Q2 0-1MW + interconnection bookings 为 record $108M（Q1 为 $98M），占 DLR-share bookings 的 52%；同期 cash renewal spread +25.4%。",
+          "en": "Q2 2026 0-1MW plus interconnection bookings were a record $108M (Q1 was $98M), representing 52% of DLR-share bookings; cash renewal rate increases were +25.4% in the quarter."
         },
-        "nextCheck": "2026-Q2 product mix",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "2026-Q3 product mix",
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "development-power-capacity",
@@ -6132,15 +6132,15 @@
           "en": "Development capacity, power and permitting"
         },
         "trigger": {
-          "zh": ">6GW future development 获得电力、许可和建设资本，或因电网/设备/资本约束放慢",
-          "en": ">6GW future development secures power, permits and capital, or slows due to grid/equipment/capital constraints"
+          "zh": "约 9GW future development 获得电力、许可和建设资本，或因电网/设备/资本约束放慢",
+          "en": "about 9GW of future development secures power, permits and capital, or slows due to grid/equipment/capital constraints"
         },
         "latest": {
-          "zh": "约 3GW in-place + 约 6GW future development，总 IT capacity 约 9GW",
-          "en": "about 3GW in-place plus about 6GW future development; about 9GW total IT capacity"
+          "zh": "2026Q2 presentation（2026-07-23）：约 3GW in-place + 约 9GW future development，总 IT capacity 约 12GW；future development 的兑现仍取决于电力、许可与资本。",
+          "en": "Q2 2026 presentation (2026-07-23): about 3GW in-place plus about 9GW future development, or about 12GW total IT capacity; conversion of future development still depends on power, permitting, and capital."
         },
-        "nextCheck": "development pipeline updates",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "Q3 2026 development pipeline update",
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "leverage-valuation-risk",
@@ -6155,8 +6155,8 @@
           "en": "net debt, interest cost or equity dilution rises while backlog conversion disappoints"
         },
         "latest": {
-          "zh": "净债务约 $15.6B；$173.30、约 $62.0B 市值、约 21x 2026 Core FFO 指引",
-          "en": "net debt about $15.6B; $173.30, about $62.0B market cap, around 21x 2026 Core FFO guide"
+          "zh": "2026-07-02 估值快照：净债务约 $15.6B；$173.30、约 $62.0B 市值、基于当时 Q1 $8.00-8.10 指引约 21x P/Core FFO",
+          "en": "July 2, 2026 valuation snapshot: net debt about $15.6B; $173.30, about $62.0B market cap, and around 21x P/Core FFO based on the then-current Q1 $8.00-8.10 guide"
         },
         "nextCheck": "debt, equity issuance and Core FFO guide",
         "nextCheckDate": "2026-08"

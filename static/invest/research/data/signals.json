@@ -1,5 +1,32 @@
 [
   {
+    "id": "cadence-q2-2026-eda-backlog-guidance",
+    "date": "2026-07-27",
+    "title": {
+      "zh": "Cadence Q2 2026：backlog 创纪录 $8.1B、next-12-month RPO $4.2B，上修 FY2026 指引",
+      "en": "Cadence Q2 2026: record $8.1B backlog and $4.2B next-12-month RPO, FY2026 guidance raised"
+    },
+    "detail": {
+      "zh": "据 Cadence 官方 Q2 2026 财报（SEC 8-K Exhibit 99.01/99.02，2026-07-27）：Q2 revenue $1,584.5M（同比 +24.2%，Q2 2025 为 $1,275.4M）、GAAP 营业利润率 28.4%、non-GAAP 营业利润率 45.5%、GAAP 摊薄 EPS $1.33、non-GAAP 摊薄 EPS $2.11。季度末 backlog 为公司口径 record $8.1B（环比 Q1 $8.0B 约持平），未来 12 个月预计从 remaining performance obligations 确认收入 $4.2B（Q1 为 $4.0B）。公司披露 Core EDA / Semiconductor IP / System Design & Analysis 收入分别同比 +18% / 超过 +40% / +37%；IP 增长归因于 Star IP、与 Intel 的重要协议及其他领先半导体客户 wins，SDA 增长归因于 PCB、advanced packaging 与 Hexagon D&E 整合。管理层上修 FY2026 指引：revenue 增速展望约 +19% YoY（区间 $6.26-6.34B）、non-GAAP EPS 中值 $8.10（区间 $8.05-8.15）、operating cash flow 约 $2B；Q3 2026 收入指引 $1.595-1.625B。作为 semicap-eda-capex-commitment 的确认性读数，EDA/IP backlog 与 RPO 在下游 capex 上修的同时没有背离，但这只降低、不能消除“预算尚未转成可设计完成供给”的风险。证据边界：backlog 环比约持平，官方未量化 agentic workflow 收入，也未把本季 IP 增长拆分到 HBM、PCIe 或 SerDes；backlog 与 RPO 为公司自定义口径。本条更新 cadence-2026 的 monitoring、reportedPeriod 与已过期 trigger wording，但不刷新其基于当时 Q1 指引的 2026-07-02 估值快照、stance 或 conviction；同层 synopsys-2026 的财政季历与披露节奏不同，本读数不据此更新 SNPS。",
+      "en": "Per Cadence's official Q2 2026 results (SEC 8-K Exhibits 99.01/99.02, 2026-07-27): Q2 revenue was $1,584.5M (+24.2% YoY vs $1,275.4M in Q2 2025), GAAP operating margin 28.4%, non-GAAP operating margin 45.5%, GAAP diluted EPS $1.33, and non-GAAP diluted EPS $2.11. Quarter-end backlog was a company-stated record $8.1B (roughly flat vs Q1's $8.0B), and revenue expected within 12 months from remaining performance obligations was $4.2B (Q1 was $4.0B). The company reported Core EDA / Semiconductor IP / System Design & Analysis revenue growth of 18% / more than 40% / 37% YoY; it attributed IP growth to Star IP, a significant Intel agreement, and other leading-semiconductor wins, and SDA growth to PCB, advanced packaging, and Hexagon D&E integration. Management raised FY2026 guidance to about 19% YoY revenue growth ($6.26-6.34B), non-GAAP EPS of $8.10 at the midpoint ($8.05-8.15), and about $2B operating cash flow; Q3 2026 revenue guidance is $1.595-1.625B. As a confirmatory semicap-eda-capex-commitment reading, EDA/IP backlog and RPO did not diverge from rising downstream capex, reducing but not eliminating the risk that budgets have yet to become design-complete supply. Evidence limits: total backlog was roughly flat QoQ, the company did not quantify agentic-workflow revenue or split this quarter's IP growth among HBM, PCIe, or SerDes, and backlog/RPO are company-defined measures. This entry updates cadence-2026's monitoring, reportedPeriod, and stale trigger wording but does not refresh its 2026-07-02 valuation snapshot based on the then-current Q1 guide, stance, or conviction; same-layer synopsys-2026 has a different fiscal calendar and disclosure cadence and is not updated on this reading."
+    },
+    "crossChecks": [
+      "semicap-eda-capex-commitment"
+    ],
+    "tickers": [
+      "CDNS"
+    ],
+    "reportIds": [
+      "cadence-2026"
+    ],
+    "monitoringRefs": [
+      "cadence-2026:backlog-rpo-conversion",
+      "cadence-2026:agentic-design-workflow",
+      "cadence-2026:ip-hbm-serdes-growth",
+      "cadence-2026:hexagon-physical-ai"
+    ]
+  },
+  {
     "id": "sk-group-nvidia-ai-factory-memory-loi-2026",
     "date": "2026-07-24",
     "title": {
@@ -17,6 +44,33 @@
     "tickers": [
       "NVDA",
       "000660.KS"
+    ]
+  },
+  {
+    "id": "digital-realty-q2-2026-leasing-backlog",
+    "date": "2026-07-23",
+    "title": {
+      "zh": "Digital Realty Q2 2026：backlog 创纪录 $1.9B、开租滞后收窄至 9 个月，上修 Core FFO 指引",
+      "en": "Digital Realty Q2 2026: record $1.9B backlog, commencement lag down to nine months, Core FFO guidance raised"
+    },
+    "detail": {
+      "zh": "据 Digital Realty 官方 Q2 2026 财报（SEC 8-K Exhibit 99.1/99.2，2026-07-23）：Core FFO/share（ex net promote）$2.13（Q1 为 $2.04、2Q25 为 $1.87）、cash 口径 renewal 租金涨幅 +25.4%。季度签下 bookings $307M 年化 GAAP base rent（100% share）/ $208M（DLR share），其中 0-1MW + interconnection 贡献 $108M、占 DLR-share bookings 的 52%；季度末 signed-but-not-commenced backlog 为公司口径 record $1.9B（100% share）/ $1.4B（DLR share），但 DLR-share backlog 含约 $380M 来自收购三座北弗吉尼亚数据中心 64% 权益的增量，不能把 record 全部解释为本季有机签约。新签租约加权平均开租滞后从 19 个月收窄至 9 个月；管理层把 2026 Core FFO/share（ex net promote）指引从 $8.00-8.10 上修至 $8.15-8.20、Constant-Currency 口径上修至 $8.10-8.15。Q2 presentation 还把 in-place / future-development IT capacity 更新为约 3GW / 9GW（合计约 12GW）。作为 facility-interconnection-leasing 读数，创纪录的 0-1MW/interconnection bookings 与 renewal spread 支持网络密集型需求并非只有 hyperscale shell；record backlog 本身因收购增量不能单独承担这一结论。证据边界：季度 bookings 环比从 Q1 的 $707M/$423M 明显回落（Q1 为异常大季度），单季 bookings 波动大；backlog 兑现和 9GW future development 仍取决于电力、许可与资本；bookings/backlog 为公司自定义年化 GAAP base rent 口径。本条更新 digital-realty-2026 的 monitoring、reportedPeriod 与已过期 trigger wording，但不刷新其基于当时 Q1 指引的 2026-07-02 估值快照、stance 或 conviction。",
+      "en": "Per Digital Realty's official Q2 2026 results (SEC 8-K Exhibits 99.1/99.2, 2026-07-23): Core FFO/share (excluding net promote) was $2.13 (Q1 was $2.04; 2Q25 was $1.87) and cash renewal rate increases were +25.4%. The company signed $307M of annualized GAAP base-rent bookings at 100% share / $208M at DLR share, including $108M from 0-1MW plus interconnection, or 52% of DLR-share bookings. Quarter-end signed-but-not-commenced backlog was a company-stated record $1.9B at 100% share / $1.4B at DLR share, but DLR-share backlog included about $380M added by the acquisition of a 64% interest in three Northern Virginia data centers, so the record cannot be read entirely as organic quarterly leasing. The weighted-average commencement lag on new leases narrowed from 19 months to nine months. Management raised 2026 Core FFO/share (excluding net promote) guidance from $8.00-8.10 to $8.15-8.20 and the Constant-Currency measure to $8.10-8.15. The Q2 presentation also updated in-place / future-development IT capacity to about 3GW / 9GW, or about 12GW total. As a facility-interconnection-leasing reading, record 0-1MW/interconnection bookings and renewal spreads support network-dense demand beyond hyperscale shell; the record backlog itself cannot carry that conclusion because of the acquisition increment. Evidence limits: quarterly bookings stepped down materially from Q1's $707M/$423M (Q1 was unusually large), single-quarter bookings are lumpy, backlog commencement and 9GW of future development still depend on power, permitting, and capital, and bookings/backlog are company-defined annualized GAAP base-rent measures. This entry updates digital-realty-2026's monitoring, reportedPeriod, and stale trigger wording but does not refresh its 2026-07-02 valuation snapshot based on the then-current Q1 guide, stance, or conviction."
+    },
+    "crossChecks": [
+      "facility-interconnection-leasing"
+    ],
+    "tickers": [
+      "DLR"
+    ],
+    "reportIds": [
+      "digital-realty-2026"
+    ],
+    "monitoringRefs": [
+      "digital-realty-2026:ai-lease-bookings",
+      "digital-realty-2026:backlog-commencement-lag",
+      "digital-realty-2026:interconnection-0-1mw",
+      "digital-realty-2026:development-power-capacity"
     ]
   },
   {
