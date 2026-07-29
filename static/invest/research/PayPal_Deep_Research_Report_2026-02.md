@@ -1,9 +1,23 @@
 # PayPal Holdings Inc. (PYPL) Deep Research Report
 
 Coverage date: 2026-02-03
-Last updated: 2026-07-17
+Last updated: 2026-07-28
 Ticker: NASDAQ: PYPL
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
+
+---
+
+## Update — July 28, 2026 (Q2 2026 results · primary-source 8-K/10-Q)
+
+> **Event:** On **2026-07-28** PayPal reported **fiscal Q2 2026 results (quarter ended June 30, 2026)** and filed an [8-K with Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/1633917/000163391726000080/pypl-20260728.htm) and a [10-Q](https://www.sec.gov/Archives/edgar/data/1633917/000163391726000082/pypl-20260630.htm) with the SEC. Figures below are on a primary-source basis.
+
+> **Q2'26 key figures (primary source):** Net revenues **+5% to $8.7B** (FX-neutral +3%); transaction margin dollars (TM$) **+1% to $3.9B** (ex interest on customer balances +3% to $3.6B); GAAP operating income −5% to $1.4B, non-GAAP operating income −8% to $1.5B; GAAP operating margin **16.4% (−171 bps)**, non-GAAP operating margin **17.4% (−248 bps)**; **GAAP EPS $1.25 (−3%), non-GAAP EPS $1.38 (−1%)**. Operating: TPV **+10% to $486.4B** (FXN +9%), payment transactions +8% to 6.8B, active accounts +0.3% to **439M** (−0.04% sequentially). Cash flow: operating cash flow $2.0B, free cash flow $1.8B. Balance sheet: cash & investments $15.3B, debt $13.4B; in Q2 repurchased ~**33M shares / returned $1.5B** (trailing-12-month ~111M shares / $6.0B). The board declared a quarterly dividend of **$0.14/share** (payable Sept 25).
+
+> **Guidance (primary source):** **FY'26 non-GAAP EPS raised to ~$5.38** (prior framing "low-single-digit decline to slightly positive"; FY'25 was $5.31); FY'26 GAAP EPS reaffirmed at "mid-single-digit decline"; 3Q'26 GAAP and non-GAAP EPS both guided to a low-single-digit decline. **Note:** ~$5.38 sits *within* the "2026 adjusted EPS ~$5.0–5.5" band this report already assumed in the 6/22 update — it **confirms** that assumption rather than changing the valuation frame.
+
+> **Impact on report and stance:** This closes the "Q2 guidance" item flagged in the 6/22 update: actual results now exist and full-year non-GAAP EPS guidance moved from a qualitative range to about $5.38. The quarter was stronger than PayPal's own May guide — Q2 non-GAAP EPS declined 1% year over year versus the prior guide of approximately 9% — and management said branded checkout had further stabilized while Venmo and Braintree momentum continued. These operating results do **not** establish a change in the separate M&A process described in the July 17 update. **The M&A holding posture is maintained:** this pass changes neither stance nor fair value and does not introduce a new price snapshot; the July 17 price/offer frame below remains explicitly historical.
+
+> **Sources:** PayPal, [*Reports Second Quarter 2026 Results*](https://s205.q4cdn.com/875401827/files/doc_financials/2026/q2/PYPL-2Q-26-Earnings-Release.pdf), [8-K and Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/1633917/000163391726000080/pypl-20260728.htm), and [10-Q](https://www.sec.gov/Archives/edgar/data/1633917/000163391726000082/pypl-20260630.htm) (SEC EDGAR accessions 0001633917-26-000080 / -000082, 2026-07-28).
 
 ---
 
