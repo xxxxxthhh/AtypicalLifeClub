@@ -1,5 +1,58 @@
 [
   {
+    "id": "corning-q2-2026-optical-genai-pull",
+    "date": "2026-07-28",
+    "title": {
+      "zh": "Corning Q2 2026：光通信 $2.072B（同比 +32%）、Enterprise Networks +65%，Gen AI 产品销售更快",
+      "en": "Corning Q2 2026: Optical Communications $2.072B (+32% YoY), Enterprise Networks +65%, Gen AI product sales faster"
+    },
+    "detail": {
+      "zh": "据 Corning 官方 Q2 2026 财报（Corning 投资者关系新闻稿，2026-07-28，季度截至 2026-06-30）：core sales $4.74B（同比 +17%）、core EPS $0.78（同比 +30%）；GAAP net sales $4.51B、GAAP EPS $0.64；核心营业利润率 20.9%，调整后自由现金流 $1.42B。Optical Communications 净销售额 $2.072B，同比 +32%、环比约 +12%（Q1 为 $1.846B），其中 Enterprise Networks 同比 +65%，公司称 Gen AI 产品销售增长“明显更快”。管理层给出 Q3 2026 指引：core sales $4.9-5.0B、core EPS $0.85-0.89。作为 chip-vs-downstream 读数，光/物理链路层继续确认 AI 集群扩张，而非背离（该监测项触发条件为“光通信增速失速”，本季未触发）。证据边界：公司未披露 Gen AI 产品销售的具体金额（仅称增长“明显更快”）；Optical Communications 整体同比增速从 Q1 的 +36% 放缓至 Q2 的 +32%，但 Enterprise Networks 同比 +65%，因此结构比表头数字更关键；此前（2026-05）宣布的、与 NVIDIA 相关的美国光连接产能 10 倍扩张与三座工厂计划为既有产能承诺的重申，并非新订单。本条更新 corning-2026 的 optical-genai-pull 监测读数、reportedPeriod 与 lastUpdate，但不刷新其 2026-06-26 估值快照（约 71x 2026E 核心 EPS）、股价、年度 EPS 估计、stance 或 conviction；财报后单纯的股价变动不构成可记录信号。",
+      "en": "Per Corning's official Q2 2026 results (Corning Investor Relations press release, July 28, 2026; quarter ended June 30, 2026): core sales were $4.74B (+17% YoY) and core EPS was $0.78 (+30% YoY); GAAP net sales were $4.51B and GAAP EPS was $0.64; core operating margin was 20.9% and adjusted free cash flow was $1.42B. Optical Communications net sales were $2.072B, +32% YoY and about +12% sequentially (Q1 was $1.846B), with Enterprise Networks +65% and the company saying Gen AI product sales grew “significantly faster.” Management guided Q3 2026 to core sales of $4.9-5.0B and core EPS of $0.85-0.89. As a chip-vs-downstream reading, the optical/physical-link layer continued to confirm AI-cluster expansion rather than diverge from it (the monitoring trigger, “Optical Communications growth stalls,” was not met). Evidence limits: Corning did not disclose a dollar figure for Gen AI product sales (only that they grew “significantly faster”); total Optical Communications YoY growth decelerated from +36% in Q1 to +32% in Q2 even as Enterprise Networks ran +65%, so the mix matters as much as the headline; and the previously announced (May 2026) NVIDIA-linked 10x U.S. optical-connectivity capacity and three-plant plan is a prior capacity commitment reiterated here, not a new order. This entry updates corning-2026's optical-genai-pull monitoring reading, reportedPeriod, and lastUpdate but does not refresh its June 26, 2026 valuation snapshot (about 71x 2026E core EPS), share price, annual EPS estimate, stance, or conviction; any post-earnings share-price move alone is not a loggable signal."
+    },
+    "crossChecks": [
+      "chip-vs-downstream"
+    ],
+    "tickers": [
+      "GLW"
+    ],
+    "reportIds": [
+      "corning-2026"
+    ],
+    "monitoringRefs": [
+      "corning-2026:optical-genai-pull"
+    ]
+  },
+  {
+    "id": "kla-q4-fy2026-process-control-guidance",
+    "date": "2026-07-28",
+    "title": {
+      "zh": "KLA FY2026 Q4：营收 $3.658B、Process Control $3.257B，9 月季度指引约 $4.0B",
+      "en": "KLA Q4 FY2026: revenue $3.658B, Process Control $3.257B, September-quarter guide about $4.0B"
+    },
+    "detail": {
+      "zh": "据 KLA 官方 FY2026 Q4 财报与拆股公告（KLA 投资者关系，2026-07-28；季度截至 2026-06-30）：总营收 $3,658M（高于指引中值，较 Q3 的 $3,416M 环比约 +7%）。Semiconductor Process Control 收入 $3,257M（Q3 为 $3,084M）、Specialty Semiconductor Process $160M（Q3 $164.0M）、PCB and Component Inspection $241M（Q3 $167.6M）。GAAP 净利润 $1,363M、non-GAAP 净利润 $1,386M。KLA 的 1 拆 10 于 2026-06-11 生效；Q4 财报已追溯调整所有股数与每股数据，GAAP / non-GAAP 摊薄 EPS 为 $1.04 / $1.05，Q3 比较数为 $0.91 / $0.94；4 月原始 Q3 财报的 $9.12 / $9.40 为拆股前口径，并非冲突。季度经营现金流 $906.4M、自由现金流 $817.1M，后者较上年同期 $1.065B 下降约 23%；全年 FY2026 FCF $3.767B，较 FY2025 的 $3.747B 增长约 0.5%；季度分红 $305.3M、回购 $571.0M。管理层给出 9 月季度（FY2027 Q1）指引：营收 $4.0B ± $200M、non-GAAP 摊薄 EPS $1.16 ± $0.10、non-GAAP 毛利率 62.5%。CEO 称需求处于“AI 基础设施扩张的关键路径”，点名 leading-edge foundry/logic、memory 与 advanced packaging。作为 semicap-eda-capex-commitment 与 chip-vs-downstream 读数，process-control 收入随下游 AI capex 同步上行而非背离，$4.0B 前瞻指引延续这一走势。证据边界：财报未给出 Q4 同比营收增速百分比，本条环比对比由上一季数字推导；process-control 需求可能领先或滞后 WFE 支出，一次季度指引不能独立证实 CY2026 WFE 全年强度；分部与营收为公司自定义口径；季度 FCF 同比下降，而全年 FCF 仅小幅增长。本条更新 kla-2026 的 process-control-revenue、ai-growth-vectors、segment-breadth、fcf-capital-return 与 cy2026-outlook 监测读数、reportedPeriod（FY2026 Q3 → FY2026 Q4）与 lastUpdate，但不刷新其 2026-07-02 估值快照（约 22.6x EV/annualized revenue、约 1.3% LTM FCF yield）、stance 或 conviction；财报后单纯的股价变动不构成可记录信号。",
+      "en": "Per KLA's official Q4 fiscal 2026 results and stock-split announcement (KLA Investor Relations, July 28, 2026; quarter ended June 30, 2026): total revenue was $3,658M (above the guidance midpoint; about +7% sequentially versus Q3's $3,416M). Semiconductor Process Control revenue was $3,257M (Q3 was $3,084M), Specialty Semiconductor Process was $160M (Q3 $164.0M), and PCB and Component Inspection was $241M (Q3 $167.6M). GAAP net income was $1,363M and non-GAAP net income was $1,386M. KLA's ten-for-one split became effective June 11, 2026; the Q4 release retroactively adjusted all share and per-share values, reporting GAAP / non-GAAP diluted EPS of $1.04 / $1.05 and Q3 comparatives of $0.91 / $0.94, while the original April Q3 release's $9.12 / $9.40 was pre-split rather than conflicting. Quarterly operating cash flow was $906.4M and free cash flow was $817.1M, with FCF down about 23% from $1.065B a year earlier; full-year FY2026 FCF was $3.767B, about 0.5% above FY2025's $3.747B; the company paid $305.3M of dividends and repurchased $571.0M of stock in the quarter. Management guided the September quarter (fiscal Q1 2027) to revenue of $4.0B +/- $200M, non-GAAP diluted EPS of $1.16 +/- $0.10, and non-GAAP gross margin of 62.5%. The CEO framed demand as on “the critical path of AI infrastructure expansion,” citing leading-edge foundry/logic, memory, and advanced packaging. As a semicap-eda-capex-commitment and chip-vs-downstream reading, process-control revenue kept rising alongside downstream AI capex rather than diverging, and the $4.0B forward guide extends that. Evidence limits: the release did not state Q4 YoY revenue growth percentages, so the sequential comparisons here are derived from prior-quarter figures; process-control demand can lead or lag wafer-fab-equipment spending, and one quarterly guide does not by itself confirm sustained CY2026 WFE; segment and revenue figures are company-defined; and quarterly FCF declined YoY while full-year FCF grew only slightly. This entry updates kla-2026's process-control-revenue, ai-growth-vectors, segment-breadth, fcf-capital-return, and cy2026-outlook monitoring readings, reportedPeriod (FY2026 Q3 -> FY2026 Q4), and lastUpdate, but does not refresh its July 2, 2026 valuation snapshot (about 22.6x EV/annualized revenue and about 1.3% LTM FCF yield), stance, or conviction; any post-earnings share-price move alone is not a loggable signal."
+    },
+    "crossChecks": [
+      "semicap-eda-capex-commitment",
+      "chip-vs-downstream"
+    ],
+    "tickers": [
+      "KLAC"
+    ],
+    "reportIds": [
+      "kla-2026"
+    ],
+    "monitoringRefs": [
+      "kla-2026:process-control-revenue",
+      "kla-2026:ai-growth-vectors",
+      "kla-2026:segment-breadth",
+      "kla-2026:fcf-capital-return",
+      "kla-2026:cy2026-outlook"
+    ]
+  },
+  {
     "id": "cadence-q2-2026-eda-backlog-guidance",
     "date": "2026-07-27",
     "title": {

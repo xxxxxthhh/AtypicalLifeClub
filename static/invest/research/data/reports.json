@@ -546,8 +546,8 @@
     "priceSymbol": "KLAC",
     "title": "KLA 深度研究报告 - AI 产能的过程控制与良率仪表盘",
     "titleEn": "KLA Deep Research Report - Process-Control And Yield Dashboard For AI Capacity",
-    "summary": "AI 基础设施 semicap-equipment 层的过程控制/良率仪表盘：KLAC 验证 AI 扩产是否不只是装机，而是投入 inspection、metrology 和 process-control 来形成可制造良率。FY2026 Q3 revenue $3.416B、GAAP EPS $9.12、non-GAAP EPS $9.40（公司 as-reported 口径）；Semiconductor Process Control revenue $3.084B。季度 operating cash flow $707.5M、FCF $622.3M；LTM FCF $4.01B。当前 $235.55、市值约 $307.7B、EV 约 $308.9B；因当前市场数据与披露 EPS 疑似拆股基准不同，估值以约 22.6x EV/Q3 annualized revenue 和约 1.3% LTM FCF yield 观察。谨慎 / 中确信：质量极高，但倍数对任何 WFE 或 process-control 降温都很敏感。",
-    "summaryEn": "Process-control and yield dashboard for the AI-infrastructure semicap-equipment layer. KLAC tests whether AI capacity is not just installed, but supported by inspection, metrology, and process control that make advanced capacity yieldable. FY2026 Q3 revenue was $3.416B, GAAP EPS was $9.12, and non-GAAP EPS was $9.40 on the company's as-reported basis; Semiconductor Process Control revenue was $3.084B. Quarterly operating cash flow was $707.5M and FCF was $622.3M; LTM FCF was $4.01B. At $235.55, about $307.7B market cap and $308.9B EV, valuation is best viewed through about 22.6x EV/Q3 annualized revenue and about 1.3% LTM FCF yield because current market data and filing EPS appear to use different split bases. Cautious / medium conviction: quality is exceptional, but the multiple is highly sensitive to any WFE or process-control cooling.",
+    "summary": "2026-07-28 监测更新：AI 基础设施 semicap-equipment 层的过程控制/良率仪表盘。FY2026 Q4（季度截至 2026-06-30）：总营收 $3.658B（较 Q3 的 $3.416B 环比约 +7%）；Semiconductor Process Control revenue $3.257B；Specialty Semiconductor Process $160M、PCB / Component Inspection $241M。季度自由现金流 $817.1M，较上年同期 $1.065B 下降约 23%；全年 FY2026 FCF $3.767B，较 FY2025 的 $3.747B 增长约 0.5%。KLA 的 1 拆 10 于 2026-06-11 生效，Q4 财报已追溯调整所有股数与每股数据：Q4 GAAP / non-GAAP 摊薄 EPS $1.04 / $1.05，Q3 比较数 $0.91 / $0.94；4 月原始 Q3 财报的 $9.12 / $9.40 为拆股前口径。管理层给出 9 月季度（FY2027 Q1）指引：营收 $4.0B ± $200M、non-GAAP 摊薄 EPS $1.16。$235.55、约 22.6x EV/annualized revenue 与约 1.3% LTM FCF yield 为 2026-07-02 初始估值快照；本次监测不刷新估值、stance 或 conviction，维持谨慎 / 中确信。",
+    "summaryEn": "July 28, 2026 monitoring update: process-control and yield dashboard for the AI-infrastructure semicap-equipment layer. Q4 fiscal 2026 (quarter ended June 30, 2026): total revenue was $3.658B (about +7% sequentially vs Q3's $3.416B); Semiconductor Process Control revenue was $3.257B; Specialty Semiconductor Process was $160M and PCB / Component Inspection was $241M. Quarterly free cash flow was $817.1M, down about 23% from $1.065B a year earlier, while full-year FY2026 FCF was $3.767B, about 0.5% above FY2025's $3.747B. KLA's ten-for-one split became effective June 11, 2026, and the Q4 release retroactively adjusted all share and per-share values: Q4 GAAP / non-GAAP diluted EPS were $1.04 / $1.05 and Q3 comparatives were $0.91 / $0.94; the original April Q3 release's $9.12 / $9.40 was pre-split. Management guided the September quarter (fiscal Q1 2027) to revenue of $4.0B +/- $200M with non-GAAP diluted EPS of $1.16. The $235.55 price and about 22.6x EV/annualized revenue with about 1.3% LTM FCF yield are the July 2, 2026 initial valuation snapshot; this monitoring pass does not refresh valuation, stance, or conviction and keeps cautious / medium conviction.",
     "tags": [
       "半导体设备",
       "过程控制",
@@ -556,7 +556,7 @@
     ],
     "category": "tech",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-07",
+    "lastUpdate": "2026-07-28",
     "file": "/invest/research/reports/view.html?id=kla-2026",
     "markdownFiles": {
       "zh": "/invest/research/KLA_深度研究报告_2026-07.md",
@@ -567,9 +567,9 @@
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
       "补齐过程控制/良率仪表盘：KLAC 验证 AI 扩产是否能变成可制造产能",
-      "FY2026 Q3 revenue $3.416B，Semiconductor Process Control revenue $3.084B",
-      "季度 FCF $622.3M，LTM FCF $4.01B；新增 $7B 回购授权",
-      "当前 $235.55、EV 约 $308.9B，约 22.6x Q3 annualized revenue；质量高但倍数敏感"
+      "FY2026 Q4（2026-07-28）总营收 $3.658B（环比约 +7%），Semiconductor Process Control revenue $3.257B（Q3 为 $3.084B）；9 月季度指引营收约 $4.0B ± $200M、non-GAAP EPS $1.16",
+      "季度 FCF $817.1M（同比约 -23%）、全年 FCF $3.767B（约 +0.5%）；季度分红 $305.3M、回购 $571.0M",
+      "约 22.6x annualized revenue、约 1.3% LTM FCF yield 为 2026-07-02（约 $235.55）估值快照（本次不刷新）；质量高但倍数对 WFE/过程控制降温敏感"
     ],
     "chainLayer": "semicap-equipment",
     "coverageTier": "full",
@@ -577,8 +577,8 @@
     "stance": "cautious",
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 $235.55、约 22.6x EV/Q3 annualized revenue 和约 1.3% LTM FCF yield 计，市场已经在为稀缺 process-control 复合增长付费；20% 牛市 / 40% 基准 / 40% 熊市情景表给出的加权判断低于这一内嵌预期。",
-      "en": "At $235.55, roughly 22.6x EV/Q3 annualized revenue and about 1.3% LTM FCF yield, the market is already paying for scarce process-control compounding; the 20% bull / 40% base / 40% bear grid leaves the weighted view below that embedded expectation."
+      "zh": "在 2026-07-02 估值快照中，以 $235.55、约 22.6x EV/annualized revenue 和约 1.3% LTM FCF yield 计，市场已经在为稀缺 process-control 复合增长付费；20% 牛市 / 40% 基准 / 40% 熊市情景表给出的加权判断低于这一内嵌预期。本次监测仅更新经营证据（FY2026 Q4），不用当前价格重新估值。",
+      "en": "In the July 2, 2026 valuation snapshot, at $235.55, about 22.6x EV/annualized revenue and about 1.3% LTM FCF yield, the market is already paying for scarce process-control compounding; the 20% bull / 40% base / 40% bear grid weights below that embedded expectation. This monitoring pass updates operating evidence only (Q4 fiscal 2026) and does not re-value using a current price."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -604,7 +604,7 @@
       }
     ],
     "priceAsOf": "2026-07-02",
-    "reportedPeriod": "FY2026 Q3",
+    "reportedPeriod": "FY2026 Q4",
     "related": [
       "asml-2026",
       "applied-materials-2026",
@@ -627,11 +627,11 @@
           "en": "process-control revenue keeps growing and validates advanced-manufacturing yield demand"
         },
         "latest": {
-          "zh": "Q3 Semiconductor Process Control revenue $3.084B",
-          "en": "Q3 Semiconductor Process Control revenue was $3.084B"
+          "zh": "FY2026 Q4（2026-07-28）：Semiconductor Process Control revenue $3.257B，高于 Q3 的 $3.084B（环比约 +5.6%）。触发条件（过程控制收入持续增长）成立。",
+          "en": "Q4 fiscal 2026 (July 28, 2026): Semiconductor Process Control revenue was $3.257B, up from Q3's $3.084B (about +5.6% sequentially). The trigger (process-control revenue keeps growing) held."
         },
         "nextCheck": "next quarterly segment update",
-        "nextCheckDate": "2026-07"
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "ai-growth-vectors",
@@ -646,11 +646,11 @@
           "en": "foundry/logic, memory, advanced packaging, and services all remain strong"
         },
         "latest": {
-          "zh": "管理层明确提到 AI ecosystem across foundry/logic, memory, advanced packaging and services",
-          "en": "management explicitly cited AI ecosystem growth across foundry/logic, memory, advanced packaging, and services"
+          "zh": "FY2026 Q4（2026-07-28）：CEO 称需求处于 AI 基础设施扩张的关键路径，点名 leading-edge foundry/logic、memory 与 advanced packaging；9 月季度约 $4.0B 指引延续这一走势。财报未按终端市场量化收入。",
+          "en": "Q4 fiscal 2026 (July 28, 2026): the CEO framed demand as on the critical path of AI infrastructure expansion, citing leading-edge foundry/logic, memory, and advanced packaging; the September-quarter guide of $4.0B extends the trajectory. The release did not quantify revenue by end market."
         },
         "nextCheck": "CY2026 demand commentary",
-        "nextCheckDate": "2026-07"
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "fcf-capital-return",
@@ -665,11 +665,11 @@
           "en": "FCF supports dividends / buybacks without masking cycle weakness"
         },
         "latest": {
-          "zh": "Q3 FCF $622.3M，LTM FCF $4.01B；新增 $7B 回购授权",
-          "en": "Q3 FCF was $622.3M, LTM FCF was $4.01B, and a new $7B repurchase authorization was approved"
+          "zh": "FY2026 Q4（2026-07-28）：季度经营现金流 $906.4M、自由现金流 $817.1M，较上年同期 $1.065B 下降约 23%；全年 FY2026 FCF $3.767B，较 FY2025 的 $3.747B 增长约 0.5%。季度分红 $305.3M、回购 $571.0M（全年分红 $1.06B、回购 $2.29B）。",
+          "en": "Q4 fiscal 2026 (July 28, 2026): quarterly operating cash flow was $906.4M and free cash flow was $817.1M, down about 23% from $1.065B a year earlier; full-year FY2026 FCF was $3.767B, about 0.5% above FY2025's $3.747B. The company paid $305.3M of dividends and repurchased $571.0M of stock in the quarter ($1.06B dividends and $2.29B buybacks for the full year)."
         },
         "nextCheck": "cash flow and buyback update",
-        "nextCheckDate": "2026-07"
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "segment-breadth",
@@ -684,11 +684,11 @@
           "en": "Specialty Semiconductor Process and PCB / Component Inspection do not drag core growth"
         },
         "latest": {
-          "zh": "Q3 Specialty Semiconductor Process $164.0M，PCB and Component Inspection $167.6M",
-          "en": "Q3 Specialty Semiconductor Process was $164.0M and PCB / Component Inspection was $167.6M"
+          "zh": "FY2026 Q4（2026-07-28）：Specialty Semiconductor Process $160M（Q3 为 $164.0M，约持平）、PCB / Component Inspection $241M（Q3 为 $167.6M，明显上升）；两者均未拖累核心增长。",
+          "en": "Q4 fiscal 2026 (July 28, 2026): Specialty Semiconductor Process was $160M (Q3 was $164.0M, roughly flat) and PCB / Component Inspection was $241M (Q3 was $167.6M, up sharply); neither dragged core growth."
         },
         "nextCheck": "segment mix update",
-        "nextCheckDate": "2026-07"
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "cy2026-outlook",
@@ -703,11 +703,11 @@
           "en": "WFE or process-control demand cools, making high EV/sales and low FCF yield hard to sustain"
         },
         "latest": {
-          "zh": "约 22.6x EV/Q3 annualized revenue、约 1.3% LTM FCF yield",
-          "en": "about 22.6x EV/Q3 annualized revenue and about 1.3% LTM FCF yield"
+          "zh": "2026-07-02 冻结快照：约 22.6x EV/annualized revenue、约 1.3% LTM FCF yield。本次监测不刷新该快照——9 月季度 $4.0B ± $200M 指引指向需求延续而非降温，但重新评级需一次单独的当前价格估值复核，财报后单纯的股价变动不构成可记录信号。",
+          "en": "Frozen July 2, 2026 snapshot: about 22.6x EV/annualized revenue and about 1.3% LTM FCF yield. This monitoring pass does not refresh the snapshot - the September-quarter guide of $4.0B +/- $200M points to continued demand rather than cooling, but a separate current-price valuation review is required before re-rating, and any post-earnings share-price move alone is not a loggable signal."
         },
         "nextCheck": "guidance and valuation reset",
-        "nextCheckDate": "2026-07"
+        "nextCheckDate": "2026-10"
       }
     ]
   },
@@ -2006,7 +2006,7 @@
     "priceSymbol": "GLW",
     "title": "康宁 深度研究报告 - AI 基础设施的光连接卖铲人",
     "titleEn": "Corning Deep Research Report - The Optical-Connectivity Pick-and-Shovel of AI Infrastructure",
-    "summary": "2026-07-07 v5更新：AI 数据中心光纤/光缆/被动连接材料层卖铲人，与 AAOI 的有源光模块/transceiver 覆盖互补。Q1 2026核心营收$43.45亿（+18%），光通信$18.46亿（+36%，生成式AI驱动），核心营业利润率20.2%。三大客户Meta、NVIDIA、Amazon签多年期供货协议且部分客户出资。但$221.05、约71倍2026E核心EPS已资本化多年Springboard执行；30%牛市/40%基准/30%熊市情景显示预期差均衡，维持中性观察/中确信。",
+    "summary": "2026-07-28 监测更新：AI 数据中心光纤/光缆/被动连接材料层卖铲人，与 AAOI 的有源光模块/transceiver 覆盖互补。Q2 2026 财报（季度截至 2026-06-30）：core sales $4.74B（同比 +17%）、core EPS $0.78（同比 +30%）；GAAP net sales $4.51B、GAAP EPS $0.64。Optical Communications 净销售额 $2.072B（同比 +32%、较 Q1 的 $1.846B 环比约 +12%），其中 Enterprise Networks +65%、公司称 Gen AI 产品销售增长明显更快；核心营业利润率 20.9%，调整后自由现金流 $1.42B。管理层给出 Q3 2026 指引 core sales $4.9-5.0B、core EPS $0.85-0.89。$221.05、约 71x 2026E 核心 EPS 为 2026-06-26 初始估值快照；本次监测增加经营证据，但不刷新股价、年度 EPS 估计、估值倍数、stance 或 conviction，维持中性观察 / 中确信。",
     "tags": [
       "光通信",
       "AI基础设施",
@@ -2015,7 +2015,7 @@
     ],
     "category": "tech",
     "date": "2026-06-29",
-    "lastUpdate": "2026-07-07",
+    "lastUpdate": "2026-07-28",
     "file": "/invest/research/reports/view.html?id=corning-2026",
     "markdownFiles": {
       "zh": "/invest/research/Corning_深度研究报告_2026-06.md",
@@ -2025,28 +2025,28 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "AI 基础设施的光纤/光缆/被动连接材料层：发明低损耗光纤的康宁，被生成式AI数据中心建设拉动，光通信Q1 2026 +36%至$18.46亿；与 AAOI 有源光模块/transceiver 覆盖互补",
-      "三大客户多年期签约且部分由客户出资：Meta最多$60亿、NVIDIA（前期约$5亿、未来累计最多约$32亿股权的认股权证，资助3座美国工厂、美国光连接产能10倍）、Amazon数十亿美元",
-      "Springboard计划兑现：核心营业利润率20.2%（提前一年达标），运行率目标2026年底约$200亿、2028约$300亿、2030约$400亿",
-      "核心风险：股价约$221（52周$51-230，约4倍重定价）、约71倍2026E核心EPS、卖方均价低于市价；约$90亿债务、AI资本开支周期性与客户集中"
+      "AI 基础设施的光纤/光缆/被动连接材料层：2026Q2（2026-07-28）光通信净销售额 $20.72 亿（同比 +32%、环比约 +12%），Enterprise Networks +65%、Gen AI 产品销售更快；core sales $47.4 亿（+17%）、core EPS $0.78（+30%），Q3 指引 core sales $49-50 亿",
+      "三大客户多年期签约且部分由客户出资：Meta 最多 $60 亿、NVIDIA（前期约 $5 亿、未来累计最多约 $32 亿股权的认股权证，资助 3 座美国工厂、美国光连接产能 10 倍）、Amazon 数十亿美元（NVIDIA/三厂/10 倍为 2026-05 既有承诺，Q2 财报重申）",
+      "Springboard 计划推进：2026Q2 核心营业利润率 20.9%、调整后自由现金流 $14.2 亿；运行率目标 2026 年底约 $200 亿、2028 约 $300 亿、2030 约 $400 亿",
+      "核心风险：约 71x 2026E 核心 EPS 为 2026-06-26（约 $221）估值快照、卖方均价低于市价（本次不刷新）；约 $90 亿债务、AI 资本开支周期性与客户集中"
     ],
-    "summaryEn": "July 7, 2026 v5 update: AI data-center fiber/cable/passive-connectivity pick-and-shovel, complementary to AAOI's active optical-module/transceiver exposure. Q1 2026 core sales were $4.35B (+18%), Optical Communications was $1.85B (+36%, GenAI-driven), and core operating margin was 20.2%. Meta, NVIDIA, and Amazon signed multi-year supply deals with partial customer funding. But at $221.05 and about 71x 2026E core EPS, the market already capitalizes years of Springboard execution; a 30% bull / 40% base / 30% bear grid leaves the expectation gap balanced, so stance remains neutral watch / medium conviction.",
+    "summaryEn": "July 28, 2026 monitoring update: AI data-center fiber/cable/passive-connectivity pick-and-shovel, complementary to AAOI's active optical-module/transceiver exposure. Q2 2026 results (quarter ended June 30, 2026): core sales were $4.74B (+17% YoY) and core EPS was $0.78 (+30% YoY); GAAP net sales were $4.51B and GAAP EPS was $0.64. Optical Communications net sales were $2.072B (+32% YoY, about +12% sequentially from Q1's $1.846B), with Enterprise Networks +65% and the company saying Gen AI product sales grew significantly faster; core operating margin was 20.9% and adjusted free cash flow was $1.42B. Management guided Q3 2026 to core sales of $4.9-5.0B and core EPS of $0.85-0.89. The $221.05 price and about 71x 2026E core EPS are the June 26, 2026 initial valuation snapshot; this monitoring pass adds operating evidence but does not refresh the share price, annual EPS estimate, valuation multiple, stance, or conviction, and keeps neutral watch / medium conviction.",
     "chainLayer": "optical",
     "coverageTier": "full",
     "stance": "neutral-watch",
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 $221.05、约 71x 2026E 核心 EPS、约 57x 2027E 核心 EPS 计，市场正在定价数年 AI 光连接增长与 Springboard 执行；30% 牛市 / 40% 基准 / 30% 熊市情景认同方向，但认为基准情景已大体被资本化。",
-      "en": "At $221.05, about 71x 2026E core EPS, and about 57x 2027E core EPS, the market is underwriting several years of AI optical growth and Springboard execution; the 30% bull / 40% base / 30% bear grid agrees on direction but sees the base case already largely capitalized."
+      "zh": "在 2026-06-26 估值快照中，以 $221.05、约 71x 2026E 核心 EPS、约 57x 2027E 核心 EPS 计，市场正在定价数年 AI 光连接增长与 Springboard 执行；30% 牛市 / 40% 基准 / 30% 熊市情景认同方向，但认为基准情景已大体被资本化。本次监测仅更新经营证据（Q2 2026），不用当前价格重新估值。",
+      "en": "In the June 26, 2026 valuation snapshot, at $221.05, about 71x 2026E core EPS, and about 57x 2027E core EPS, the market is underwriting several years of AI optical growth and Springboard execution; the 30% bull / 40% base / 30% bear grid agrees on direction but sees the base case already largely capitalized. This monitoring pass updates operating evidence only (Q2 2026) and does not re-value using a current price."
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "若 Q2/2026H2 显示光通信继续 30%+ 增长、Springboard 运行率接近 2026 年底约 $200 亿路径，客户出资协议落地且 FCF 在产能爬坡中改善，同时估值倍数不再扩张，则上调至 constructive。",
-        "en": "move to constructive if Q2/H2 2026 shows Optical Communications still growing 30%+, Springboard run rate tracking toward the roughly $20B end-2026 path, customer-funded agreements closing, and FCF improving through the capacity ramp while the valuation multiple does not expand further."
+        "zh": "若 2026 下半年光通信继续约 30%+ 增长（Q2 2026 为 +32%）、Springboard 运行率接近 2026 年底约 $200 亿路径、客户出资协议落地且 FCF 在产能爬坡中改善，并且一次单独的当前价格估值复核显示倍数从 2026-06-26 框架消化而非继续扩张，则上调至 constructive。",
+        "en": "move to constructive if H2 2026 continues to show Optical Communications growing around 30%+ (Q2 2026 was +32%), Springboard run rate tracking toward the roughly $20B end-2026 path, customer-funded agreements closing, and FCF improving through the capacity ramp, and a separate current-price valuation review shows the multiple absorbed from the June 26, 2026 frame rather than expanding."
       },
       "downgrade": {
-        "zh": "若光通信增速明显低于 AI capex 叙事、Meta/NVIDIA/Amazon 任一方放缓或重谈供货承诺，或净债务/FCF 压力在约 71x 2026E 核心 EPS 估值下加剧，则下调至 cautious。",
-        "en": "move to cautious if Optical Communications growth falls materially below the AI-capex narrative, any of Meta/NVIDIA/Amazon slows or renegotiates supply commitments, or net-debt / FCF pressure worsens at roughly 71x 2026E core EPS."
+        "zh": "若光通信增速明显低于 AI capex 叙事、Meta/NVIDIA/Amazon 任一方放缓或重谈供货承诺，或净债务/FCF 压力在 2026-06-26 约 71x 2026E 核心 EPS 估值框架下加剧，则下调至 cautious。",
+        "en": "move to cautious if Optical Communications growth falls materially below the AI-capex narrative, any of Meta/NVIDIA/Amazon slows or renegotiates supply commitments, or net-debt / FCF pressure worsens against the roughly 71x 2026E core-EPS June 26, 2026 frame."
       }
     },
     "stanceHistory": [
@@ -2058,7 +2058,7 @@
       }
     ],
     "priceAsOf": "2026-06-26",
-    "reportedPeriod": "Q1 2026",
+    "reportedPeriod": "Q2 2026",
     "related": [
       "aaoi-2026"
     ],
@@ -2072,15 +2072,15 @@
           "en": "Optical GenAI pull-through"
         },
         "trigger": {
-          "zh": "光通信增速失速 —— AI 集群扩容未穿透到物理连接层的证伪信号",
-          "en": "Optical Communications growth stalls — falsifying that AI cluster expansion reaches the physical link layer"
+          "zh": "光通信增速朝持平回落并连续两个季度（报告第 7 节 thesis-breaking 口径）—— AI 集群扩容未穿透到物理连接层的证伪信号",
+          "en": "Optical Communications growth stalls toward flat for two consecutive quarters (the report's Section 7 thesis-breaking line) - falsifying that AI cluster expansion reaches the physical link layer"
         },
         "latest": {
-          "zh": "Q1 2026 光通信 $18.46 亿（+36%，生成式 AI 驱动）；Q2 指引核心营收约 $46 亿",
-          "en": "Q1 2026 Optical $1.85B (+36%, GenAI-driven); Q2 guide core sales ~$4.6B"
+          "zh": "2026Q2（2026-07-28）：Optical Communications 净销售额 $2.072B，同比 +32%、环比约 +12%（Q1 为 $1.846B、+36%），其中 Enterprise Networks +65%，公司称 Gen AI 产品销售增长明显更快；Q3 2026 指引 core sales $4.9-5.0B。触发条件（光通信增速失速）未触发。证据边界：整体光通信同比增速放缓至 +32%，而 AI 权重更高的 Enterprise Networks 加速至 +65%；康宁未单独披露 Gen AI 产品销售的具体金额。",
+          "en": "Q2 2026 (July 28, 2026): Optical Communications net sales were $2.072B, +32% YoY and about +12% sequentially (Q1 was $1.846B at +36%), with Enterprise Networks +65% and the company saying Gen AI product sales grew significantly faster; Q3 2026 guidance is core sales $4.9-5.0B. The trigger (Optical Communications growth stalls) was not met. Evidence limits: total optical YoY decelerated to +32% while the AI-heavy Enterprise Networks accelerated to +65%, and Corning did not disclose a dollar figure for Gen AI product sales specifically."
         },
-        "nextCheck": "2026-Q2 财报 / Q2 earnings",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "2026-Q3 财报 / Q3 earnings",
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "customer-concentration-funding",
@@ -2113,8 +2113,8 @@
           "en": "core sales run-rate advances toward ~$20B by end-2026 (~$30B 2028, ~$40B 2030)"
         },
         "latest": {
-          "zh": "核心营业利润率 20.2%，Springboard 目标提前一年达成",
-          "en": "core operating margin 20.2%, Springboard target hit a year early"
+          "zh": "2026Q2 core sales $4.74B（年化约 $190 亿，向 2026 年底约 $200 亿目标推进）；核心营业利润率 20.9%，调整后自由现金流 $1.42B。管理层称 Q2 在上修后的 Springboard 计划上取得进展。",
+          "en": "Q2 2026 core sales were $4.74B (about a $19B annualized run rate, tracking toward the ~$20B end-2026 target); core operating margin was 20.9% and adjusted free cash flow was $1.42B. Management said Q2 demonstrated progress on the recently upgraded Springboard plan."
         },
         "nextCheck": "季度核心营收运行率 / quarterly core-sales run-rate"
       },
@@ -2131,11 +2131,11 @@
           "en": "the ~71x 2026E core-EPS multiple compresses in an AI-capex downcycle; ~$9B debt"
         },
         "latest": {
-          "zh": "股价约 $221（2026-06-26 收盘）、市值约 $1,900 亿、卖方均价低于市价",
-          "en": "stock ~$221 (2026-06-26 close), ~$190B cap, sell-side average below market"
+          "zh": "2026-06-26 冻结快照：股价约 $221（2026-06-26 收盘）、市值约 $1,900 亿、约 71x 2026E 核心 EPS、卖方均价低于市价。本次监测增加 Q2 2026 经营证据，但不刷新股价、年度 EPS 估计或由此得到的倍数；财报后单纯的股价变动不构成可记录信号，重新评级需一次单独的当前价格估值复核。",
+          "en": "Frozen June 26, 2026 snapshot: stock ~$221 (2026-06-26 close), ~$190B cap, about 71x 2026E core EPS, sell-side average below market. This monitoring pass adds Q2 2026 operating evidence but does not refresh the share price, annual EPS estimate, or resulting multiple; any post-earnings share-price move alone is not a loggable signal, and a separate current-price valuation review is required before re-rating."
         },
-        "nextCheck": "2026-Q2 财报 / Q2 earnings",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "2026-Q3 财报 / Q3 earnings",
+        "nextCheckDate": "2026-10"
       }
     ]
   },

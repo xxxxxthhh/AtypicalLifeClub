@@ -1,7 +1,7 @@
 # Corning (GLW) Deep Research Report
 
 Coverage date: 2026-06-29
-Last updated: 2026-07-07
+Last updated: 2026-07-28
 Ticker: NYSE: GLW
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence. All prices and market caps are point-in-time snapshots; financial figures are per company disclosure unless noted otherwise.
 
@@ -13,9 +13,11 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 **One-line thesis:** Corning is the picks-and-shovels supplier of the physical connective tissue of AI data centers — optical fiber and cable. The company that invented low-loss fiber is now being pulled by a generative-AI buildout so large that its three biggest customers (Meta, NVIDIA, Amazon) have signed multi-year, multi-billion-dollar supply deals — and NVIDIA has taken a warrant position — ~$500M of upfront proceeds now, exercisable to **up to ~$3.2B of equity in total** over time — to fund U.S. capacity. Q1 2026 Optical Communications sales grew **+36% to $1.85B**, and the diversified specialty-glass franchise (display/Gorilla Glass, automotive, solar, life sciences) provides ballast. The "Springboard" plan is delivering margin expansion (core operating margin already at **20.2%**, hit a year early).
 
+> **2026-07-28 factual update (Q2 2026, quarter ended June 30, 2026):** Corning reported core sales of **$4.74B (+17% YoY)** and core EPS of **$0.78 (+30% YoY)** (GAAP net sales $4.51B, GAAP EPS $0.64). **Optical Communications net sales were $2.072B (+32% YoY, ~+12% sequentially from Q1's $1.846B)**, with **Enterprise Networks +65%** and the company saying Gen AI product sales grew "significantly faster." Core operating margin was **20.9%** and adjusted free cash flow was **$1.42B**. Management guided **Q3 2026** to core sales of **$4.9-5.0B** and core EPS of **$0.85-0.89**. The $221.05 price and ~71x 2026E core EPS below are the **frozen June 26, 2026 valuation snapshot**; this monitoring pass adds operating evidence but does **not** refresh the share price, annual EPS estimate, valuation multiple, stance, or conviction. Stance stays **neutral watch / medium conviction**.
+
 **Verdict:** **Neutral watch / medium conviction.** The AI-optical demand is real, contracted, and partly customer-funded, a genuinely differentiated setup. But the stock has re-rated about 4x off its 52-week low to **$221.05** (about **$190B** market cap and about **71x** 2026E core EPS), and the v5 scenario grid says the base case is largely in the price.
 
-**Current market read (market-data snapshot pulled 2026-06-28, reflecting the 2026-06-26 U.S. close — 06-27/06-28 were a weekend):** GLW was last quoted around ~**$221** (Google Finance; 52-week range **$51.32 - $230.50** — an ~4x re-rating on the AI-optical theme). Market cap ~**$190B**; with ~$9.0B total debt and ~$1.8B cash (net debt ~$7.2B), enterprise value is ~**$197B**. Dividend ~$0.28/quarter (~0.5% yield). Financial source: [Corning Q1 2026 results (IR)](https://investor.corning.com/financials/quarterly-results/default.aspx); quote references: [Yahoo Finance GLW](https://finance.yahoo.com/quote/GLW/), [Google Finance GLW](https://www.google.com/finance/beta/quote/GLW:NYSE).
+**Current market read (frozen market-data snapshot pulled 2026-06-28, reflecting the 2026-06-26 U.S. close — 06-27/06-28 were a weekend; not refreshed in the 2026-07-28 monitoring pass):** GLW was last quoted around ~**$221** (Google Finance; 52-week range **$51.32 - $230.50** — an ~4x re-rating on the AI-optical theme). Market cap ~**$190B**; with ~$9.0B total debt and ~$1.8B cash (net debt ~$7.2B), enterprise value is ~**$197B**. Dividend ~$0.28/quarter (~0.5% yield). Financial source: [Corning Q1 2026 results (IR)](https://investor.corning.com/financials/quarterly-results/default.aspx); quote references: [Yahoo Finance GLW](https://finance.yahoo.com/quote/GLW/), [Google Finance GLW](https://www.google.com/finance/beta/quote/GLW:NYSE).
 
 **Key data:**
 
@@ -36,7 +38,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Q1 2026 Life Sciences & Emerging Growth | $272M (flat) |
 | Q1 2026 core EPS | $0.70 (+30% Y/Y); GAAP EPS $0.43 |
 | Q1 2026 core gross / operating margin | ~39.1% / 20.2% |
-| Q2 2026 guidance | core sales ~$4.6B (+~14%), core EPS $0.73-0.77 (+~25%) |
+| Q2 2026 (reported 2026-07-28) | ~~guide: core sales ~$4.6B, core EPS $0.73-0.77~~ **actual: core sales $4.74B (+17%), core EPS $0.78 (+30%); Optical $2.072B (+32%), Enterprise Networks +65%** |
+| Q3 2026 guidance | core sales $4.9-5.0B, core EPS $0.85-0.89 |
 | Springboard run-rate targets | ~$20B by end-2026; ~$30B by end-2028; ~$40B by end-2030 |
 | AI optical megadeals | Meta (up to $6B); NVIDIA (warrants: ~$500M upfront, up to ~$3.2B equity in total, 3 plants); Amazon (multibillion) |
 | CEO / CFO | Wendell Weeks (Chairman & CEO) / Ed Schlesinger (CFO) |
@@ -107,7 +110,9 @@ The non-optical segments (Glass Innovations, Automotive, Solar, Life Sciences) p
 | Core net income / EPS | $612M / $0.70 | $467M / $0.54 | +30% EPS |
 | GAAP net income / EPS | $371M / $0.43 | $157M / $0.18 | — |
 
-The print shows the Springboard thesis working: revenue growth led by Optical, with **core operating margin reaching 20.2%** (the Springboard target, achieved a year ahead of plan) and core EPS up 30%.
+The Q1 print showed the Springboard thesis working: revenue growth led by Optical, with **core operating margin reaching 20.2%** (the Springboard target, achieved a year ahead of plan) and core EPS up 30%. Q2 extended that evidence with **core operating margin of 20.9%**.
+
+**Q2 2026 factual update (reported 2026-07-28):** core sales were **$4.74B (+17% YoY)** and core EPS **$0.78 (+30% YoY)**, both above the prior Q2 guide, with **Optical Communications at $2.072B (+32% YoY, ~+12% sequentially)** and **Enterprise Networks +65%**; the company said Gen AI product sales grew "significantly faster" but gave no standalone dollar figure. Core gross margin was **39.6%**, core operating margin was **20.9%**, GAAP operating cash flow was **$1.72B**, and adjusted free cash flow was **$1.42B**. The Q1 2026 tables below remain the last fully broken-out quarter in this report.
 
 ### 3.2 Cash flow and balance sheet: leveraged, capacity-hungry
 
@@ -119,8 +124,9 @@ The print shows the Springboard thesis working: revenue growth led by Optical, w
 
 | Metric | Target / Guidance |
 |--------|-------------------|
-| Q2 2026 core sales | ~$4.6B (+~14% Y/Y) |
-| Q2 2026 core EPS | $0.73 - $0.77 (+~25% Y/Y) |
+| Q2 2026 core sales | ~~guide ~$4.6B~~ **actual $4.74B (+17% Y/Y), reported 2026-07-28** |
+| Q2 2026 core EPS | ~~guide $0.73 - $0.77~~ **actual $0.78 (+30% Y/Y)** |
+| Q3 2026 core sales / EPS | $4.9-5.0B / $0.85-0.89 (guide) |
 | Run-rate by end-2026 | ~$20B annualized sales (15% CAGR from Q4 2023) |
 | Run-rate by end-2028 | ~$30B annualized sales (upgraded May 2026) |
 | Run-rate by end-2030 | ~$40B annualized sales (upgraded May 2026) |
@@ -199,14 +205,14 @@ Q2 guidance implies continued double-digit growth and ~25% EPS gains. The Spring
 | Base | AI optical demand stays strong through 2027, but growth decelerates from the first surge; Springboard tracks rather than beats the run-rate ladder; margins hold around 20%; customer funding offsets but does not eliminate capex/working-capital needs; the multiple compresses as EPS grows | The current price mostly capitalizes this case: the business is better than before, but the stock needs steady execution to grow into the multiple | 40% |
 | Bear | AI capex digests, one anchor customer slows or renegotiates, optical growth falls below the narrative, capacity-ramp costs and net debt pressure FCF, and the core-vs-GAAP earnings gap remains wide; the market de-rates GLW from a 71x 2026E core-EPS multiple toward a mid-cycle materials multiple | The current price would be rich because both earnings expectations and the multiple would reset | 30% |
 
-**What's priced in & the expectation gap:** At $221.05, about 71x 2026E core EPS and about 57x 2027E core EPS, the market is underwriting that the AI optical buildout and Springboard run-rate ladder remain on track for several years. Our 30% bull / 40% base / 30% bear grid agrees that Corning's passive-connectivity position is real, but the base case does not clearly exceed what the current dated price already capitalizes. The expectation gap is balanced rather than positive.
+**What's priced in & the expectation gap:** In the frozen June 26, 2026 snapshot, at $221.05, about 71x 2026E core EPS and about 57x 2027E core EPS, the market is underwriting that the AI optical buildout and Springboard run-rate ladder remain on track for several years. Our 30% bull / 40% base / 30% bear grid agrees that Corning's passive-connectivity position is real, but the base case does not clearly exceed what that dated price already capitalizes. The expectation gap is balanced rather than positive. *(The 2026-07-28 monitoring pass adds Q2 operating evidence but does not refresh the share price, annual EPS estimate, or resulting multiple; any post-earnings share-price move alone is not a loggable signal.)*
 
 ---
 
 ## 9. Catalysts & Monitoring Checklist
 
 **Near-term (0-6 months):**
-- Q2 2026 results (~late July 2026): delivery against ~$4.6B / $0.73-0.77 guidance and Optical growth.
+- Q3 2026 results: delivery against $4.9-5.0B core-sales and $0.85-0.89 core-EPS guidance, with Optical growth and core operating margin durability.
 - Hyperscaler capex guidance (MSFT, META, GOOG, AMZN) — optical demand is derivative of total AI infrastructure spend.
 - New or expanded optical supply deals; close and terms of the NVIDIA equity investment.
 
@@ -228,17 +234,18 @@ Q2 guidance implies continued double-digit growth and ~25% EPS gains. The Spring
 
 Corning's chain-validation job is to test whether AI data-center demand is reaching the passive optical layer: the fiber, cable, and physical connectivity that let clusters scale. If Optical Communications growth, anchor-customer funding, Springboard margin execution, and FCF recovery all hold, AI infrastructure demand is reaching well beyond chips. If those indicators fade, the optical buildout is more cyclical than structural.
 
-The expectation gap is balanced: at $221.05, about 71x 2026E core EPS and about 57x 2027E core EPS, the market is underwriting several years of AI optical growth and Springboard execution; our 30% bull / 40% base / 30% bear grid agrees on the direction but sees the base case already largely capitalized.
+The expectation gap is balanced: in the frozen June 26, 2026 snapshot, at $221.05, about 71x 2026E core EPS and about 57x 2027E core EPS, the market is underwriting several years of AI optical growth and Springboard execution; our 30% bull / 40% base / 30% bear grid agrees on the direction but sees the base case already largely capitalized. The 2026-07-28 monitoring pass updates Q2 operating evidence (Optical +32%, Enterprise Networks +65%) without re-valuing on a current price.
 
 The current stance is **neutral watch, medium conviction**. Neutral is not indecision: the bull case has real support from customer-funded capacity and +36% Optical growth, while the bear case has real support from a very rich multiple, leverage, customer concentration, and capacity-cycle risk. Medium conviction reflects high-quality evidence on demand and contracts, but limited valuation margin of safety at the dated price.
 
-Upgrade trigger: move to constructive if Q2/H2 2026 shows Optical Communications still growing 30%+, Springboard run rate tracking toward the roughly $20B end-2026 path, customer-funded agreements closing, and FCF improving through the capacity ramp while the valuation multiple does not expand further. Downgrade trigger: move to cautious if Optical Communications growth falls materially below the AI-capex narrative, any of Meta/NVIDIA/Amazon slows or renegotiates supply commitments, or net-debt / FCF pressure worsens at roughly 71x 2026E core EPS.
+Upgrade trigger: move to constructive if H2 2026 continues to show Optical Communications growing around 30%+ (Q2 2026 was +32%), Springboard run rate tracking toward the roughly $20B end-2026 path, customer-funded agreements closing, and FCF improving through the capacity ramp, and a separate current-price valuation review shows the multiple absorbed from the June 26, 2026 frame rather than expanding. Downgrade trigger: move to cautious if Optical Communications growth falls materially below the AI-capex narrative, any of Meta/NVIDIA/Amazon slows or renegotiates supply commitments, or net-debt / FCF pressure worsens against the roughly 71x 2026E core-EPS June 26, 2026 frame.
 
 ---
 
 ## Appendix: Sources & Assumptions
 
 **Primary sources:**
+- [Corning Q2 2026 financial results (IR)](https://investor.corning.com/news-and-events/news/news-details/2026/Cornings-Strong-Second-Quarter-2026-Financial-Results1-Demonstrate-Progress-on-Recently-Upgraded-Springboard-Plan/default.aspx) — quarter ended June 30, 2026; core sales, margins, cash flow, segment results, and Q3 guidance
 - [Corning Q1 2026 quarterly results (IR)](https://investor.corning.com/financials/quarterly-results/default.aspx) — quarter ended March 31, 2026, reported April 2026
 - [Corning (GLW) Q1 2026 earnings call transcript (Motley Fool)](https://www.fool.com/earnings/call-transcripts/2026/04/28/corning-glw-q1-2026-earnings-transcript/) — Springboard run-rate ladder and segment commentary
 - [NVIDIA–Corning long-term partnership (Corning IR)](https://investor.corning.com/news-and-events/news/news-details/2026/NVIDIA-and-Corning-Announce-Long-Term-Partnership-To-Strengthen-U-S--Manufacturing-for-AI-Infrastructure/default.aspx) — supports the three new U.S. plants and the ~10x U.S. optical-connectivity capacity expansion.

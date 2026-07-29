@@ -6,11 +6,25 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>KLA 深度研究报告 - AI 产能的过程控制与良率仪表盘 / KLA Deep Research Report - Process-Control And Yield Dashboard For AI Capacity</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=kla-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=kla-2026#kla-2026@2026-07-28</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description>2026-07-28 监测更新：AI 基础设施 semicap-equipment 层的过程控制/良率仪表盘。FY2026 Q4（季度截至 2026-06-30）：总营收 $3.658B（较 Q3 的 $3.416B 环比约 +7%）；Semiconductor Process Control revenue $3.257B；Specialty Semiconductor Process $160M、PCB / Component Inspection $241M。季度自由现金流 $817.1M，较上年同期 $1.065B 下降约 23%；全年 FY2026 FCF $3.767B，较 FY2025 的 $3.747B 增长约 0.5%。KLA 的 1 拆 10 于 2026-06-11 生效，Q4 财报已追溯调整所有股数与每股数据：Q4 GAAP / non-GAAP 摊薄 EPS $1.04 / $1.05，Q3 比较数 $0.91 / $0.94；4 月原始 Q3 财报的 $9.12 / $9.40 为拆股前口径。管理层给出 9 月季度（FY2027 Q1）指引：营收 $4.0B ± $200M、non-GAAP 摊薄 EPS $1.16。$235.55、约 22.6x EV/annualized revenue 与约 1.3% LTM FCF yield 为 2026-07-02 初始估值快照；本次监测不刷新估值、stance 或 conviction，维持谨慎 / 中确信。</description>
+    </item>
+    <item>
       <title>Cadence Design Systems 深度研究报告 - AI 设计复杂度的 EDA/IP backlog 仪表盘 / Cadence Design Systems Deep Research Report - EDA/IP Backlog Dashboard For AI Design Complexity</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=cadence-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=cadence-2026#cadence-2026@2026-07-28</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
       <description>AI 基础设施 eda-ip 层的 backlog / execution 仪表盘：CDNS 验证 AI demand 是否出现在 design automation、IP、simulation、backlog、RPO 和 agentic design workflows。2026Q2 财报（2026-07-27）：revenue $1.584B（同比 +24%）、non-GAAP operating margin 45.5%、non-GAAP EPS $2.11；季度末 backlog $8.1B（公司口径 record），未来 12 个月预计从 RPO 确认收入 $4.2B；Core EDA / Semiconductor IP / System Design &amp; Analysis 收入分别同比 +18% / 超过 +40% / +37%。管理层把 FY2026 指引上修至 revenue $6.26-6.34B（约 +19% YoY）、non-GAAP EPS $8.05-8.15、operating cash flow 约 $2B。$373.14、市值约 $102.9B、EV 约 $104.5B、约 16.9x EV/sales 与约 47.2x non-GAAP P/E 均是基于当时 Q1 指引（revenue $6.125-6.225B、EPS $7.85-7.95）的 2026-07-02 初始估值快照，本次监测不刷新估值或立场；维持谨慎 / 中确信。</description>
+    </item>
+    <item>
+      <title>康宁 深度研究报告 - AI 基础设施的光连接卖铲人 / Corning Deep Research Report - The Optical-Connectivity Pick-and-Shovel of AI Infrastructure</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=corning-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=corning-2026#corning-2026@2026-07-28</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description>2026-07-28 监测更新：AI 数据中心光纤/光缆/被动连接材料层卖铲人，与 AAOI 的有源光模块/transceiver 覆盖互补。Q2 2026 财报（季度截至 2026-06-30）：core sales $4.74B（同比 +17%）、core EPS $0.78（同比 +30%）；GAAP net sales $4.51B、GAAP EPS $0.64。Optical Communications 净销售额 $2.072B（同比 +32%、较 Q1 的 $1.846B 环比约 +12%），其中 Enterprise Networks +65%、公司称 Gen AI 产品销售增长明显更快；核心营业利润率 20.9%，调整后自由现金流 $1.42B。管理层给出 Q3 2026 指引 core sales $4.9-5.0B、core EPS $0.85-0.89。$221.05、约 71x 2026E 核心 EPS 为 2026-06-26 初始估值快照；本次监测增加经营证据，但不刷新股价、年度 EPS 估计、估值倍数、stance 或 conviction，维持中性观察 / 中确信。</description>
     </item>
     <item>
       <title>PayPal 深度调研报告 - 2025-2026年度分析 / PayPal Deep Research Report - 2025-2026 Analysis</title>
@@ -111,13 +125,6 @@
       <description>AI 基础设施 semicap-equipment 层的刻蚀/沉积仪表盘：LRCX 验证 HBM、先进 DRAM、3D 结构和领先逻辑是否提高 process-tool intensity。2026 年 3 月季度收入 $5.841B、GAAP gross margin 49.8%、non-GAAP EPS $1.47；Systems revenue $3.731B，customer-support-related and other revenue $2.111B。6 月季度指引收入 $6.60B +/- $400M、gross margin 50.5%、operating margin 36.5%。当前 $351.41、市值约 $439.5B、EV 约 $438.4B，约 16.6x EV/June-quarter annualized sales。中性观察 / 中确信：AI process intensity 强，但中国 34% 收入暴露和估值让偏斜保持均衡。</description>
     </item>
     <item>
-      <title>KLA 深度研究报告 - AI 产能的过程控制与良率仪表盘 / KLA Deep Research Report - Process-Control And Yield Dashboard For AI Capacity</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=kla-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=kla-2026#kla-2026@2026-07-07</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施 semicap-equipment 层的过程控制/良率仪表盘：KLAC 验证 AI 扩产是否不只是装机，而是投入 inspection、metrology 和 process-control 来形成可制造良率。FY2026 Q3 revenue $3.416B、GAAP EPS $9.12、non-GAAP EPS $9.40（公司 as-reported 口径）；Semiconductor Process Control revenue $3.084B。季度 operating cash flow $707.5M、FCF $622.3M；LTM FCF $4.01B。当前 $235.55、市值约 $307.7B、EV 约 $308.9B；因当前市场数据与披露 EPS 疑似拆股基准不同，估值以约 22.6x EV/Q3 annualized revenue 和约 1.3% LTM FCF yield 观察。谨慎 / 中确信：质量极高，但倍数对任何 WFE 或 process-control 降温都很敏感。</description>
-    </item>
-    <item>
       <title>Synopsys 深度研究报告 - AI 芯片设计的 EDA/IP 与仿真约束 / Synopsys Deep Research Report - EDA/IP And Simulation Constraint For AI Silicon Design</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=synopsys-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=synopsys-2026#synopsys-2026@2026-07-07</guid>
@@ -158,13 +165,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=vertiv-2026#vertiv-2026@2026-07-07</guid>
       <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
       <description>数据中心电力与热管理（含液冷）卖铲人，位于『电从哪来』(GEV/Bloom)与『芯片』(NVDA/AVGO)之间，是 AI 建设速度最实时的『仪表盘』。Q1 2026 营收$26.5亿(+30%，有机+23%、美洲有机+44%)、调整后营业利润率20.8%(+430bps)、调整后EPS $1.17(+83%)、调整后FCF $6.53亿(+147%)；最新披露的 Q4 2025 backlog $150亿(+109%)、book-to-bill ~2.9x。FY2026指引上调至营收$135-140亿、调整后EPS $6.30-6.40。但股价一年约3倍至$306.97、市值~$1,179亿、~48倍前瞻调整后EPS(~80倍滚动)，已定价多年持续建设；高beta订单簿是双刃剑。谨慎 / 中确信：高质量业务，但价格隐含几乎完美的建设节奏。</description>
-    </item>
-    <item>
-      <title>康宁 深度研究报告 - AI 基础设施的光连接卖铲人 / Corning Deep Research Report - The Optical-Connectivity Pick-and-Shovel of AI Infrastructure</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=corning-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=corning-2026#corning-2026@2026-07-07</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
-      <description>2026-07-07 v5更新：AI 数据中心光纤/光缆/被动连接材料层卖铲人，与 AAOI 的有源光模块/transceiver 覆盖互补。Q1 2026核心营收$43.45亿（+18%），光通信$18.46亿（+36%，生成式AI驱动），核心营业利润率20.2%。三大客户Meta、NVIDIA、Amazon签多年期供货协议且部分客户出资。但$221.05、约71倍2026E核心EPS已资本化多年Springboard执行；30%牛市/40%基准/30%熊市情景显示预期差均衡，维持中性观察/中确信。</description>
     </item>
     <item>
       <title>NVIDIA 深度研究报告 - AI 计算中枢的高质量与高预期 / NVIDIA Deep Research Report - The AI Compute Hub, High Quality Meets High Expectations</title>
