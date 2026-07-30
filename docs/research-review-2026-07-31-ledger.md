@@ -130,7 +130,8 @@ Status: `done` / `pending` / `raised` (waiting on a question).
 | bloom-energy-2026 | A | Q2 2026 integration + re-anchor $295.05→$163.75, ~26x→~11.9x | done (stance raised in Q1) |
 | aaoi-2026 | A | re-anchor $171.23→$76.52, EV/S ~26.6x→~11.7x | done (stance raised in Q1) |
 | sandisk-2026 | A | re-anchor $2,090.71→$1,015.89, P/S ~16x→~7.8x; expectation gap **inverted** | done (stance raised in Q1) |
-| sk-hynix, corning, marvell, coherent, almonty, nebius, coreweave, oklo, lam-research, kla, neov, applied-materials, vertiv, micron | A | re-anchor | pending |
+| sk-hynix-2026 | A | re-anchor ₩2,917,000→₩1,401,000; P/S ~16x→~5.3x, now **below** February's 6.3x; TTM P/E left stale (bridge undisclosed) | done (stance raised in Q1) |
+| corning, marvell, coherent, almonty, nebius, coreweave, oklo, lam-research, kla, neov, applied-materials, vertiv, micron | A | re-anchor | pending |
 | amd, minimax, oracle, jinpan, smh, synopsys, gevernova, tsmc, asml, cadence | B | number refresh only | pending |
 | nrg, dlr, ceg, vistra, arista, copx, meta, broadcom, nvidia, eqix | C | confirm nothing reads as current | pending |
 | tempus-ai, spotify, salesforce, paypal, netflix, igv, hims, coinbase, amzn, airbnb | untracked | verify no stale valuation claim | pending |

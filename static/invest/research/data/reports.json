@@ -2855,9 +2855,9 @@
     "company": "SK hynix",
     "ticker": "KRX: 000660 / NASDAQ: SKHY",
     "priceSymbol": "000660.KS",
-    "title": "SK hynix 深度研究报告 - HBM垄断者的AI记忆霸权",
-    "titleEn": "SK hynix Deep Research Report - The HBM Monopolist's AI Memory Dominance",
-    "summary": "2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30，公司披露口径）：营收 ₩79.32 万亿（+257% YoY）、营业利润 ₩60.54 万亿（营业利润率 76%）、净利润 ₩93.92 万亿（公司称净利率 118%），创季度历史新高，H1 累计营收首破 ₩100 万亿；DRAM 与 NAND 价格环比均显著上行，Q2 起 HBM4 量产出货，已与约 10 家客户签订多年期 LTA、称需求超供给。新闻稿未拆分从营业利润 ₩60.54 万亿到净利润 ₩93.92 万亿之间的桥接项。下文 2026-06-25（₩2,917,000）估值快照与 stance 不因本次监测刷新。v5 回填：SK hynix 仍是全球 HBM 领导者，Q1 2026 营收 ₩52.6T、营业利润 ₩37.6T、营业利润率约 72%，但自 2 月以来股价约上涨 3.5 倍，价格锚点 ₩2,917,000 对应约 28x TTM P/E 和约 16x sales。20% 牛市 / 50% 基准 / 30% 熊市情景说明 HBM 质量真实，但当前价格已经资本化接近峰值的盈利能力，因此改为谨慎 / 中确信。2026-07-10 最终 SEC 424B4 确认 1.779 亿份 SKHY ADS 按 $149 发行、预计净募资约 $26.2B，用于韩国生产设施与 EUV 扫描仪；该事件改善可达性并强化 capex 执行证据，但不刷新 2026-06-25 估值快照。",
+    "title": "SK hynix 深度研究报告 - HBM 垄断地位与周期顶点的再定价",
+    "titleEn": "SK hynix Deep Research Report - HBM Leadership and a Cyclical-Peak Repricing",
+    "summary": "2026-07-31 估值敏感完整更新（兑现 07-30 监测所声明的待办）：000660 收于 ₩1,401,000（2026-07-29），较 6 月锚点 −52.0%，市值约 ₩994.5 万亿（约 $6,840 亿）。倍数由两个方向同时压低——股价下跌，且 Q2 的 ₩79.32 万亿使 TTM 收入近乎翻倍至约 ₩189.2 万亿——P/S 降至约 5.3x，**低于 2 月“深度低估”判断时的 6.3x**，价值缺口比 2 月起点更宽。TTM P/E 刻意不予重述：Q2 净利润 ₩93.92 万亿高于当季收入，桥接未披露。分母仍是 76% 营业利润率下的周期顶点收入，持久性问题未被回撤触及，故维持谨慎/中确信、网格不重新加权。",
     "tags": [
       "半导体",
       "HBM",
@@ -2866,19 +2866,20 @@
     ],
     "category": "tech",
     "date": "2026-02-25",
-    "lastUpdate": "2026-07-30",
+    "lastUpdate": "2026-07-31",
     "file": "/invest/research/reports/view.html?id=sk-hynix-2026",
     "markdownFiles": {
       "zh": "/invest/research/SK_hynix_深度研究报告_2026-02.md",
       "en": "/invest/research/SK_hynix_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "Q2 2026创新高（2026-07-30监测）：营收₩79.32万亿（+257% YoY）、营业利润₩60.54万亿（76%利润率）、净利润₩93.92万亿（公司称118%净利率）；H1累计营收首破₩100万亿。Q1 2026为营收₩52.6万亿、营业利润₩37.6万亿（72%利润率）",
-      "自2月以来股价约涨3.5倍、市值突破$1.3万亿（约₩2,070万亿，价格×约7.08亿股）；TTM P/E约28x，深度价值逻辑已基本兑现",
-      "HBM全球份额53%、NVIDIA主供，Q2 2026起HBM4量产出货（H2加速）、HBM4E已完成样品；已与约10家客户签多年期LTA、称需求超供给",
-      "72%营业利润率接近周期峰值，均值回归与HBM4竞争是核心风险；2026-07-10 起可通过 NASDAQ: SKHY ADS 直接获得美国市场敞口"
+      "股价 ₩1,401,000（2026-07-29 收盘），较 6 月 25 日锚点 −52.0%；市值约 ₩994.5 万亿（约 $6,840 亿）",
+      "P/S（TTM）降至约 5.3x，低于 2 月“深度低估”时的 6.3x——价值缺口比 2 月起点更宽",
+      "倍数双向压低：股价下跌 + Q2 的 ₩79.32 万亿使 TTM 收入近乎翻倍至约 ₩189.2 万亿",
+      "TTM P/E 刻意不重述：Q2 净利润 ₩93.92 万亿高于当季收入，营业利润至净利润桥接未披露",
+      "维持谨慎/中确信：分母为 76% 营业利润率下的周期顶点收入，持久性问题未被回撤解决"
     ],
-    "summaryEn": "July 30, 2026 monitoring update (Q2 2026, quarter ended June 30, 2026, per company disclosure): revenue ₩79.32T (+257% YoY), operating profit ₩60.54T (76% operating margin), and net profit ₩93.92T (the company states a 118% net margin), an all-time quarterly high, with first-half revenue crossing ₩100T for the first time; DRAM and NAND prices both rose significantly quarter over quarter, HBM4 mass shipments began in Q2, and the company finalized multi-year LTAs with about 10 customers and said demand exceeds supply. The release did not itemize what bridges the ₩60.54T operating profit to the ₩93.92T net profit. The June 25, 2026 (₩2,917,000) valuation snapshot and stance below are not refreshed by this monitoring pass. July 7, 2026 v5 update: SK hynix remains the global HBM leader, with Q1 2026 revenue of ₩52.6T, operating profit of ₩37.6T, and roughly 72% operating margin. But the stock has risen about 3.5x since February, and the ₩2,917,000 price anchor implies about 28x TTM P/E and roughly 16x sales. A 20% bull / 50% base / 30% bear grid says HBM quality is real, but the current price already capitalizes near-peak profitability, moving stance to cautious / medium conviction. The final SEC 424B4 dated 2026-07-10 confirms 177.9M SKHY ADSs at $149 and about $26.2B estimated net proceeds for Korean production facilities and EUV scanners; this improves access and strengthens capex-execution evidence without refreshing the 2026-06-25 valuation snapshot.",
+    "summaryEn": "July 31, 2026 valuation-sensitive full update, discharging the follow-up the July 30 monitoring pass said was still owed: 000660 closed at ₩1,401,000 on 2026-07-29, -52.0% from the June anchor, for about ₩994.5T market cap (~$684B). The multiple fell from both directions - the price declined while Q2's ₩79.32T roughly doubled TTM revenue to about ₩189.2T - taking P/S to about 5.3x, BELOW the 6.3x that accompanied February's \"deeply undervalued\" call, so the value gap is wider than at the February starting point. TTM P/E is deliberately not restated: Q2 net profit of ₩93.92T exceeds quarterly revenue and the bridge is undisclosed. The denominator is still peak-cycle revenue at a 76% operating margin and the durability question is untouched by the drawdown, so the cautious / medium-conviction stance holds and the grid was not re-weighted.",
     "period": "2026",
     "versionType": "full-cycle",
     "versionLabel": "2026 Full Rerun",
@@ -2898,7 +2899,7 @@
     "chainLayer": "memory-storage",
     "coverageTier": "full",
     "stance": "cautious",
-    "priceAsOf": "2026-06-25",
+    "priceAsOf": "2026-07-29",
     "reportedPeriod": "Q2 2026",
     "related": [
       "sandisk-2026"
@@ -2977,12 +2978,31 @@
         },
         "nextCheck": "2026-Q3 财报 / Q3 earnings",
         "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "scenario-grid-reweight-pending",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "情景网格权重与立场重新裁定（未决，P/S 已低于 2 月起点）",
+          "en": "Scenario-grid re-weight and stance re-judgement (open; P/S now below the February starting point)"
+        },
+        "trigger": {
+          "zh": "Q3 2026 业绩（2026-10-27）给出 76% 营业利润率的持久性证据，并披露净利润桥接后，重新加权 20/50/30 网格并裁定立场",
+          "en": "re-weight the 20/50/30 grid and re-judge the stance once Q3 2026 results (2026-10-27) test the durability of the 76% operating margin and disclose the net-profit bridge"
+        },
+        "latest": {
+          "zh": "2026-07-31 重新锚定后 P/S 约 5.3x（旧口径约 16x），低于 2 月 6.3x；TTM P/E 因桥接未披露而失效；网格与立场刻意未改",
+          "en": "after the 2026-07-31 re-anchor P/S is ~5.3x (old caliber ~16x), below February's 6.3x; TTM P/E is stale because the bridge is undisclosed; grid and stance deliberately unchanged"
+        },
+        "nextCheck": "Q3 2026 业绩与所有者决策 / Q3 2026 results and owner decision",
+        "nextCheckDate": "2026-10"
       }
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 ₩2,917,000、约 28x TTM P/E、约 16x sales 计，市场定价了结构性更高的 HBM 利润平台；我们的 20% 牛市 / 50% 基准 / 30% 熊市情景网格说明，特许经营卓越，但 72% 利润率更可能先正常化，而不是继续扩张。",
-      "en": "At ₩2,917,000, about 28x TTM P/E, and roughly 16x sales, the market is underwriting a structurally higher HBM profit platform; the 20% bull / 50% base / 30% bear grid says the franchise is excellent, but 72% operating margin is more likely to normalize before it expands again."
+      "zh": "原负预期差建立在约 28x TTM P/E 与约 16x P/S 之上。按 2026-07-29 收盘 ₩1,401,000，P/S 降至约 5.3x（低于 2 月 6.3x），该算术依据消失，估值层面的安全边际实际上已恢复。但分母是 76% 营业利润率下的周期顶点收入，顶点盈利上的低倍数正是内存周期的典型陷阱；且 TTM P/E 因桥接未披露而无法重算。持久性问题未被回撤回答，故维持谨慎/中确信为待决策暂挂，等待 Q3 2026（2026-10-27）。",
+      "en": "The negative expectation gap rested on ~28x TTM P/E and ~16x P/S. At the 2026-07-29 close of ₩1,401,000, P/S falls to about 5.3x - below February's 6.3x - so that arithmetic basis is gone and the valuation margin of safety is in fact restored. But the denominator is peak-cycle revenue at a 76% operating margin, and a low multiple on peak earnings is the classic memory-cycle trap; TTM P/E also cannot be recomputed because the bridge is undisclosed. The durability question is unanswered by the drawdown, so cautious / medium conviction is held as a pending-decision hold ahead of Q3 2026 results on 2026-10-27."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -3005,6 +3025,12 @@
         "stance": "cautious",
         "conviction": "medium",
         "price": 2917000.0
+      },
+      {
+        "date": "2026-07-29",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 1401000
       }
     ]
   },
