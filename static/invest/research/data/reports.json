@@ -5793,8 +5793,8 @@
     "priceSymbol": "MRVL",
     "title": "Marvell Technology 深度研究报告 - Broadcom 之外的 custom ASIC 与光互连架构校验",
     "titleEn": "Marvell Technology Deep Research Report - Custom ASIC and Optical Interconnect Check Beyond Broadcom",
-    "summary": "AI 基础设施书 custom-merchant-silicon 层补位：Marvell 是 Broadcom 之外的自定义 ASIC/XPU、光互连和 NVIDIA NVLink Fusion 对照组。FY2027 Q1 收入约 $2.42B，公开报道数据中心收入约 $1.83B；管理层公开展望 FY2027/FY2028 收入约 $11.5B/$16.5B。NVIDIA $2B 投资 + NVLink Fusion、Celestial AI $3.25B 收购、AWS Trainium/Microsoft Maia 机会共同抬高长期想象空间。但当前 $245.29（2026-07-02 收盘）、市值约 $214.6B、约 19x FY2027E EV/Sales，执行容错率很低。cautious / 中等确信：真实期权仍在，但当前价格下偏斜为负。",
-    "summaryEn": "Custom-merchant-silicon coverage for the AI-infrastructure book: Marvell is the custom ASIC / XPU, optical interconnect, and NVIDIA NVLink Fusion cross-check outside Broadcom. FY2027 Q1 revenue was about $2.42B, public reports put data-center revenue near $1.83B, and management's public outlook frames FY2027 / FY2028 revenue around $11.5B / $16.5B. NVIDIA's $2B investment plus NVLink Fusion, the $3.25B Celestial AI acquisition, and AWS Trainium / Microsoft Maia opportunities all expand long-term optionality. But at $245.29 (Jul 2, 2026 close), about $214.6B market cap, and roughly 19x FY2027E EV/Sales, execution tolerance is low. Cautious / medium conviction: real optionality remains, but skew is negative at the current price.",
+    "summary": "2026-07-31 估值重新锚定：MRVL 收于 $163.40（2026-07-29），较 7 月 2 日锚点 −33.4%，市值约 $143.1B、EV 约 $144.5B。按报告自身收入情景重算，EV/Sales 现约 12.6x（FY2027 $11.5B）、约 8.8x（FY2028 $16.5B），较重定价前显著下降。报告“这不是便宜的半导体股”的判断按旧倍数校准，在当前水平已是实质不同的主张。本期无新季报（业绩 2026-08-27），custom ASIC 订单转化与光互连 attach 等执行项未被回撤解决，维持谨慎/中确信，网格未重新加权。",
+    "summaryEn": "July 31, 2026 valuation re-anchor: MRVL closed at $163.40 on 2026-07-29, -33.4% from the July 2 anchor, for about $143.1B market cap and ~$144.5B enterprise value. Recomputed on the report's own revenue scenarios, EV/Sales is now ~12.6x on an $11.5B FY2027 outcome and ~8.8x on the $16.5B FY2028 case, well below the pre-repricing frame. The report's 'not a cheap semiconductor stock' judgement was calibrated to the old multiple and is a materially different claim at current levels. No new quarter was reported (results due 2026-08-27) and the execution questions - custom-ASIC socket conversion and optical attach - were untouched by the drawdown, so the cautious / medium-conviction stance holds and the grid was not re-weighted.",
     "tags": [
       "AI计算",
       "自定义ASIC",
@@ -5803,7 +5803,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-07",
+    "lastUpdate": "2026-07-31",
     "file": "/invest/research/reports/view.html?id=marvell-2026",
     "markdownFiles": {
       "zh": "/invest/research/Marvell_深度研究报告_2026-07.md",
@@ -5813,16 +5813,17 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "custom-merchant-silicon 层补位：MRVL 是 Broadcom 之外的 custom ASIC/XPU + optical interconnect + NVLink Fusion 架构校验，对照 hyperscaler 自研 silicon 是否扩散到更多供应商",
-      "FY2027 Q1 收入约 $2.42B、毛利 $1.26B、营业利润 $350M、FCF $483M；公开报道当前季度指引约 $2.7B 收入和 $0.93 EPS",
-      "管理层公开展望 FY2027/FY2028 收入约 $11.5B/$16.5B；NVIDIA $2B 投资和 NVLink Fusion 合作把 MRVL 从 GPU 替代者变成 NVIDIA 兼容生态供应商",
-      "cautious / 中等确信：$245.29、约 19x FY2027E EV/Sales 已要求 FY2027/FY2028 ramp 顺利兑现；战略期权真实，但安全边际不足"
+      "股价 $163.40（2026-07-29 收盘），较 7 月 2 日锚点 −33.4%；市值约 $143.1B、EV 约 $144.5B",
+      "EV/Sales 现约 12.6x（FY2027 $11.5B）、FY2028 口径约 8.8x，较重定价前显著下降",
+      "“这不是便宜的半导体股”按旧倍数校准，当前水平下已是实质不同的主张",
+      "本期无新季报：Marvell 业绩定于 2026-08-27，执行问题未解决也未恶化",
+      "维持谨慎/中确信：倍数下降放松了隐含增长门槛，但网格与立场待所有者裁定"
     ],
     "chainLayer": "custom-merchant-silicon",
     "coverageTier": "full",
     "chainRole": "architecture-check",
     "stance": "cautious",
-    "priceAsOf": "2026-07-02",
+    "priceAsOf": "2026-07-29",
     "reportedPeriod": "FY2027 Q1",
     "related": [
       "broadcom-2026",
@@ -5923,12 +5924,31 @@
         },
         "nextCheck": "FY2027 每季指引 / quarterly FY2027 guidance",
         "nextCheckDate": "2026-08"
+      },
+      {
+        "id": "scenario-grid-reweight-pending",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "情景网格权重与立场重新裁定（未决）",
+          "en": "Scenario-grid re-weight and stance re-judgement (open)"
+        },
+        "trigger": {
+          "zh": "2026-08-27 业绩给出 custom ASIC ramp 与数据中心收入证据后，重新加权情景网格并裁定立场",
+          "en": "re-weight the scenario grid and re-judge the stance after the 2026-08-27 print shows custom-ASIC ramp and data-center revenue"
+        },
+        "latest": {
+          "zh": "2026-07-31 重新锚定后 EV/Sales 约 12.6x FY2027E（旧口径约 19x）；网格与立场刻意未改",
+          "en": "after the 2026-07-31 re-anchor EV/Sales is ~12.6x FY2027E (old caliber ~19x); grid and stance deliberately unchanged"
+        },
+        "nextCheck": "2026-08-27 业绩与所有者决策 / 2026-08-27 results and owner decision",
+        "nextCheckDate": "2026-08"
       }
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "在 $245.29、约 19x FY2027E sales 上，市场已经要求 FY2027/FY2028 收入 ramp 顺利兑现并继续复合；我们的基准情景承认战略期权，但不足以用足够安全边际越过隐含的 34-44% 年增长门槛。",
-      "en": "At $245.29 and about 19x FY2027E sales, the market already requires the FY2027/FY2028 revenue ramp to land cleanly and keep compounding; our base case recognizes the strategic option but does not clear the implied 34-44% annual growth hurdle with enough margin of safety."
+      "zh": "负预期差原本建立在约 19x FY2027E EV/Sales 与由此隐含的 34-44% 年增长门槛之上。按 2026-07-29 收盘 $163.40，EV/Sales 约 12.6x，该门槛明显下移，算术依据减弱。但 custom ASIC 订单转化、光互连 attach 与利润率等执行不确定性完全未变，故维持谨慎/中确信为待决策暂挂，等待 2026-08-27 业绩。",
+      "en": "The negative expectation gap rested on ~19x FY2027E EV/Sales and the 34-44% implied annual growth bar that followed from it. At the 2026-07-29 close of $163.40, EV/Sales is ~12.6x and that bar drops materially, weakening the arithmetic basis. But custom-ASIC socket conversion, optical attach and margin execution are entirely unchanged, so cautious / medium conviction is held as a pending-decision hold ahead of the 2026-08-27 print."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -5951,6 +5971,12 @@
         "stance": "cautious",
         "conviction": "medium",
         "price": 245.29
+      },
+      {
+        "date": "2026-07-29",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 163.4
       }
     ]
   },

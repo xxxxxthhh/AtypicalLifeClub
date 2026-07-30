@@ -41,6 +41,13 @@
       <description>2026-07-31 估值敏感更新：Q2 2026 收入 $1.0654B（同比 +165.5%，首个十亿美元季度）、非 GAAP 毛利率 34.3%、非 GAAP 摊薄 EPS $0.78，FY2026 指引上调至收入 $3.9-4.2B、非 GAAP EPS $2.55-2.85。同时价格锚点重设为 2026-07-29 收盘 $163.75、市值约 $48B，对应上调后指引中值约 11.9x —— 倍数折损过半（股价 -44%、收入基数 +27% 同时发生）。牛市情景的 32%+ 毛利率门槛已达成，但 2 GW 扩产仍待 H2 2026 交付量验证；本次维持谨慎/中确信为待决策暂挂，情景网格权重未重新加权。</description>
     </item>
     <item>
+      <title>Marvell Technology 深度研究报告 - Broadcom 之外的 custom ASIC 与光互连架构校验 / Marvell Technology Deep Research Report - Custom ASIC and Optical Interconnect Check Beyond Broadcom</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=marvell-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=marvell-2026#marvell-2026@2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description>2026-07-31 估值重新锚定：MRVL 收于 $163.40（2026-07-29），较 7 月 2 日锚点 −33.4%，市值约 $143.1B、EV 约 $144.5B。按报告自身收入情景重算，EV/Sales 现约 12.6x（FY2027 $11.5B）、约 8.8x（FY2028 $16.5B），较重定价前显著下降。报告“这不是便宜的半导体股”的判断按旧倍数校准，在当前水平已是实质不同的主张。本期无新季报（业绩 2026-08-27），custom ASIC 订单转化与光互连 attach 等执行项未被回撤解决，维持谨慎/中确信，网格未重新加权。</description>
+    </item>
+    <item>
       <title>Lam Research 深度研究报告 - AI 内存与先进逻辑的刻蚀/沉积校验 / Lam Research Deep Research Report - Etch And Deposition Check On AI Memory And Advanced Logic</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=lam-research-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=lam-research-2026#lam-research-2026@2026-07-30</guid>
@@ -270,13 +277,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=oracle-2026#oracle-2026@2026-07-07</guid>
       <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
       <description>AI 基础设施书 demand-risk 层的 RPO/backlog 仪表盘：Oracle 正从成熟数据库/企业软件公司变成高资本强度 AI 云基础设施平台。FY2026 Q4 收入 $19.18B(+21%)、OCI 收入 $5.8B(+93%)、RPO 达 $638B(+363%)，需求读数极强；但 FY2026 capex $55.66B、自由现金流 -$23.69B、FY2027 capex 指引可达 $90-95B，且公司需要约 $40B 债务+股权融资。当前股价 $140.27（2026-07-02 收盘）、市值约 $404B、按总债务 $156.19B 减现金+短投 $31.89B 计算的净债务约 $124.30B、企业价值约 $528B，对应约 7.8x TTM EV/Sales 和约 23.5x EV/TTM 营业利润。2026-07-07 v5 更新：以 2026-07-06 收盘 $143.76 为锚，20% 牛市 / 40% 基准 / 40% 熊市情景网格给出偏负预期差，立场迁移为谨慎 / 中确信；关键不是订单多不多，而是 RPO 能否按期转化为高回报现金流。</description>
-    </item>
-    <item>
-      <title>Marvell Technology 深度研究报告 - Broadcom 之外的 custom ASIC 与光互连架构校验 / Marvell Technology Deep Research Report - Custom ASIC and Optical Interconnect Check Beyond Broadcom</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=marvell-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=marvell-2026#marvell-2026@2026-07-07</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施书 custom-merchant-silicon 层补位：Marvell 是 Broadcom 之外的自定义 ASIC/XPU、光互连和 NVIDIA NVLink Fusion 对照组。FY2027 Q1 收入约 $2.42B，公开报道数据中心收入约 $1.83B；管理层公开展望 FY2027/FY2028 收入约 $11.5B/$16.5B。NVIDIA $2B 投资 + NVLink Fusion、Celestial AI $3.25B 收购、AWS Trainium/Microsoft Maia 机会共同抬高长期想象空间。但当前 $245.29（2026-07-02 收盘）、市值约 $214.6B、约 19x FY2027E EV/Sales，执行容错率很低。cautious / 中等确信：真实期权仍在，但当前价格下偏斜为负。</description>
     </item>
     <item>
       <title>Coherent 深度研究报告 - AI 光连接层的全栈光子仪表盘 / Coherent Deep Research Report - Full-Stack Photonics Dashboard for AI Optical Connectivity</title>
