@@ -379,8 +379,8 @@
     "priceSymbol": "LRCX",
     "title": "Lam Research 深度研究报告 - AI 内存与先进逻辑的刻蚀/沉积校验",
     "titleEn": "Lam Research Deep Research Report - Etch And Deposition Check On AI Memory And Advanced Logic",
-    "summary": "AI 基础设施 semicap-equipment 层的刻蚀/沉积仪表盘：LRCX 验证 HBM、先进 DRAM、3D 结构和领先逻辑是否提高 process-tool intensity。2026 年 3 月季度收入 $5.841B、GAAP gross margin 49.8%、non-GAAP EPS $1.47；Systems revenue $3.731B，customer-support-related and other revenue $2.111B。6 月季度指引收入 $6.60B +/- $400M、gross margin 50.5%、operating margin 36.5%。当前 $351.41、市值约 $439.5B、EV 约 $438.4B，约 16.6x EV/June-quarter annualized sales。中性观察 / 中确信：AI process intensity 强，但中国 34% 收入暴露和估值让偏斜保持均衡。",
-    "summaryEn": "Etch/deposition dashboard for the AI-infrastructure semicap-equipment layer. LRCX tests whether HBM, advanced DRAM, 3D structures, and leading-edge logic are raising process-tool intensity. March 2026 quarter revenue was $5.841B, GAAP gross margin was 49.8%, and non-GAAP EPS was $1.47; Systems revenue was $3.731B and customer-support-related and other revenue was $2.111B. June-quarter guidance is $6.60B revenue +/- $400M, 50.5% gross margin, and 36.5% operating margin. At $351.41, about $439.5B market cap and $438.4B EV, LRCX trades around 16.6x EV/June-quarter annualized sales. Neutral watch / medium conviction: AI process intensity is strong, but China exposure at 34% of revenue and valuation keep the skew balanced.",
+    "summary": "2026-07-30 监测更新：AI 基础设施 semicap-equipment 层的刻蚀/沉积仪表盘。FY2026 Q4（6 月季度，截至 2026-06-28）：营收 $6.72B（环比 +15%、同比 +30%），non-GAAP gross margin 52.0%（GAAP 51.7%）、non-GAAP operating margin 38.4%（GAAP 37.4%）、non-GAAP 摊薄 EPS $1.82（GAAP $1.81）；Systems revenue $4.250B、customer support-related and other revenue $2.472B；deferred revenue 升至 $2.43B。管理层给出 9 月季度（FY2027 Q1）指引：营收 $8.10B +/- $400M、gross margin 52.0% +/- 1%、non-GAAP 摊薄 EPS $2.15 +/- $0.15。公司称创下 revenue、operating margin 与 EPS 纪录，并称广泛的 AI 驱动需求正在重塑半导体市场；新闻稿未把需求具体归因到 NAND、DRAM 或先进逻辑。$351.41、约 16.6x EV/annualized sales 为 2026-07-02 初始估值快照；本次监测不刷新股价、年度 EPS 估计、估值倍数、stance 或 conviction，维持中性观察 / 中确信。",
+    "summaryEn": "July 30, 2026 monitoring update: etch/deposition dashboard for the AI-infrastructure semicap-equipment layer. Q4 fiscal 2026 (June quarter, ended June 28, 2026): revenue was $6.72B (+15% sequentially, +30% year over year), non-GAAP gross margin 52.0% (GAAP 51.7%), non-GAAP operating margin 38.4% (GAAP 37.4%), and non-GAAP diluted EPS $1.82 (GAAP $1.81); Systems revenue was $4.250B and customer support-related and other revenue was $2.472B; deferred revenue rose to $2.43B. Management guided the September quarter (fiscal Q1 2027) to revenue of $8.10B +/- $400M, 52.0% +/- 1% gross margin, and non-GAAP diluted EPS of $2.15 +/- $0.15. The company said it set records for revenue, operating margin, and EPS and that broad AI-driven demand is reshaping the semiconductor market; the release did not attribute demand specifically to NAND, DRAM, or advanced logic. The $351.41 price and about 16.6x EV/annualized sales are the July 2, 2026 initial valuation snapshot; this monitoring pass does not refresh the share price, annual EPS estimate, valuation multiple, stance, or conviction and keeps neutral watch / medium conviction.",
     "tags": [
       "半导体设备",
       "刻蚀",
@@ -389,7 +389,7 @@
     ],
     "category": "tech",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-07",
+    "lastUpdate": "2026-07-30",
     "file": "/invest/research/reports/view.html?id=lam-research-2026",
     "markdownFiles": {
       "zh": "/invest/research/Lam_Research_深度研究报告_2026-07.md",
@@ -400,9 +400,9 @@
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
       "补齐刻蚀/沉积仪表盘：LRCX 验证 AI 内存与先进逻辑是否提高 process-tool intensity",
-      "2026 年 3 月季度 revenue $5.841B、non-GAAP EPS $1.47；Systems revenue $3.731B",
-      "6 月季度指引 revenue $6.60B +/- $400M、operating margin 36.5%",
-      "当前 $351.41、EV 约 $438.4B，约 16.6x June-quarter annualized sales；China 34% 是核心风险"
+      "FY2026 Q4（6 月季度）revenue $6.72B（+30% Y/Y）、non-GAAP EPS $1.82；Systems revenue $4.250B（2026-07-30 监测）",
+      "9 月季度指引 revenue $8.10B +/- $400M、non-GAAP EPS $2.15 +/- $0.15；deferred revenue 升至 $2.43B",
+      "$351.41、EV 约 $438.4B、约 16.6x annualized sales 为 2026-07-02 冻结估值快照；China 34% 是核心风险"
     ],
     "chainLayer": "semicap-equipment",
     "coverageTier": "full",
@@ -432,7 +432,7 @@
       }
     ],
     "priceAsOf": "2026-07-02",
-    "reportedPeriod": "March 2026 quarter",
+    "reportedPeriod": "June 2026 quarter",
     "related": [
       "asml-2026",
       "applied-materials-2026",
@@ -455,11 +455,11 @@
           "en": "Systems revenue keeps growing, validating HBM / advanced-logic process intensity"
         },
         "latest": {
-          "zh": "Systems revenue $3.731B",
-          "en": "Systems revenue was $3.731B"
+          "zh": "Systems revenue $4.250B（6 月季度；环比 +14%、同比 +24%，上年同期 $3.438B）",
+          "en": "Systems revenue was $4.250B in the June 2026 quarter (+14% Q/Q, +24% Y/Y from $3.438B)"
         },
-        "nextCheck": "June-quarter results",
-        "nextCheckDate": "2026-07"
+        "nextCheck": "September-quarter results",
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "china-korea-taiwan-mix",
@@ -474,11 +474,11 @@
           "en": "China revenue or export limits weaken, or Korea/Taiwan HBM / logic demand fails to offset"
         },
         "latest": {
-          "zh": "Q revenue mix: China 34%、Korea 23%、Taiwan 23%",
-          "en": "quarter revenue mix: China 34%, Korea 23%, Taiwan 23%"
+          "zh": "6 月季度收入地区分布：Taiwan 27%、China 26%、Korea 20%、Japan 9%、US 9%",
+          "en": "June 2026 quarter revenue mix: Taiwan 27%, China 26%, Korea 20%, Japan 9%, US 9%"
         },
         "nextCheck": "geography and customer mix",
-        "nextCheckDate": "2026-07"
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "japan-deferred-revenue",
@@ -493,11 +493,11 @@
           "en": "shipments to Japan for future revenue are accepted and recognized on plan"
         },
         "latest": {
-          "zh": "Deferred revenue $2.22B；Japan future revenue shipments 约 $434M",
-          "en": "deferred revenue was $2.22B; Japan future-revenue shipments were about $434M"
+          "zh": "Deferred revenue 升至 $2.43B；日本 future-revenue shipments 约 $490.2M（3 月季度 $434.3M）",
+          "en": "deferred revenue rose to $2.43B; Japan future-revenue shipments were about $490.2M (vs $434.3M in the March quarter)"
         },
         "nextCheck": "acceptance and deferred revenue update",
-        "nextCheckDate": "2026-07"
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "june-quarter-guidance",
@@ -512,11 +512,11 @@
           "en": "revenue approaches the $6.60B midpoint and operating margin approaches 36.5%"
         },
         "latest": {
-          "zh": "June-quarter guide: revenue $6.60B +/- $400M、operating margin 36.5% +/- 1pct",
-          "en": "June-quarter guide: revenue $6.60B +/- $400M and operating margin 36.5% +/- 1 point"
+          "zh": "6 月季度实报：营收 $6.72B（环比 +15%、同比 +30%）、non-GAAP operating margin 38.4%（GAAP 37.4%）、non-GAAP EPS $1.82，均高于指引；9 月季度指引营收 $8.10B +/- $400M、non-GAAP EPS $2.15 +/- $0.15",
+          "en": "June quarter actual: revenue $6.72B (+15% Q/Q, +30% Y/Y), non-GAAP operating margin 38.4% (GAAP 37.4%), non-GAAP EPS $1.82, all above guide; September-quarter guide is revenue $8.10B +/- $400M and non-GAAP EPS $2.15 +/- $0.15"
         },
-        "nextCheck": "June-quarter print",
-        "nextCheckDate": "2026-07"
+        "nextCheck": "September-quarter print",
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "service-resilience",
@@ -531,11 +531,11 @@
           "en": "customer-support-related and other revenue remains resilient, indicating healthy installed-base utilization"
         },
         "latest": {
-          "zh": "customer-support-related and other revenue $2.111B",
-          "en": "customer-support-related and other revenue was $2.111B"
+          "zh": "customer support-related and other revenue $2.472B（6 月季度；同比 +42.6%）",
+          "en": "customer support-related and other revenue was $2.472B in the June 2026 quarter (+42.6% Y/Y)"
         },
         "nextCheck": "service revenue trend",
-        "nextCheckDate": "2026-07"
+        "nextCheckDate": "2026-10"
       }
     ]
   },
@@ -1232,7 +1232,7 @@
     "priceSymbol": "EQIX",
     "title": "Equinix 深度研究报告 - AI 数据中心设施层的互联溢价仪表盘",
     "titleEn": "Equinix Deep Research Report - The Interconnection-Premium Dashboard for AI Data-Center Facilities",
-    "summary": "AI 基础设施 datacenter-facility 层的 DLR 对照组：EQIX 用 Platform Equinix interconnection、retail colocation、xScale JV 和 AFFO/share 来验证 AI 需求是否不只是 hyperscale shell leasing。2026Q1 收入 $2.444B（reported YoY +10%）、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；MRR 同比 +12% reported / +10% normalized constant currency，annualized gross bookings $378M，annualized presales 约 $140M，largest deals 约 60% AI-related。2025 年报披露 280 个数据中心、10,500+ 客户、507,000+ interconnections，Q1 2026 interconnection revenue $446M。当前 $1,002.02（2026-07-02）、市值约 $98.8B、EV 约 $120.8B，约 23.5x 2026 AFFO/share 指引中点、约 11.9x 2026 revenue 指引。中性观察 / 中确信：质量高但估值高，关键监控是 interconnection revenue、AI bookings/presales、xScale economics、MRR/cabinet yield 与 power availability。",
+    "summary": "2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30）：收入 $2.625B（同比 +16%，包含一次性 xScale fees）、recurring revenue $2.377B（MRR 同比 +11%）、AFFO $1.168B（+20%）、AFFO/share $11.78（+19%）；Q2 新增 interconnections 创纪录 9,700 个、annualized gross bookings $424M（+23%）。管理层上调 FY2026 指引与长期展望。互联、bookings 与 MRR 同向走强，facility-interconnection-leasing 证伪条件未触发；这些指标与网络密集部署一致，但公司未将其具体归因于 AI，不能作为 AI 因果证明。下文 $1,002.02（2026-07-02）估值快照与 stance 不因本次监测刷新。AI 基础设施 datacenter-facility 层的 DLR 对照组：EQIX 用 Platform Equinix interconnection、retail colocation、xScale JV 和 AFFO/share 来验证 AI 需求是否不只是 hyperscale shell leasing。2026Q1 收入 $2.444B（reported YoY +10%）、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；MRR 同比 +12% reported / +10% normalized constant currency，annualized gross bookings $378M，annualized presales 约 $140M，largest deals 约 60% AI-related。2025 年报披露 280 个数据中心、10,500+ 客户、507,000+ interconnections，Q1 2026 interconnection revenue $446M。当前 $1,002.02（2026-07-02）、市值约 $98.8B、EV 约 $120.8B，约 23.5x 2026 AFFO/share 指引中点、约 11.9x 2026 revenue 指引。中性观察 / 中确信：质量高但估值高，关键监控是 interconnection revenue、AI bookings/presales、xScale economics、MRR/cabinet yield 与 power availability。",
     "tags": [
       "数据中心",
       "互联",
@@ -1241,7 +1241,7 @@
     ],
     "category": "tech",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-07",
+    "lastUpdate": "2026-07-30",
     "file": "/invest/research/reports/view.html?id=eqix-2026",
     "markdownFiles": {
       "zh": "/invest/research/Equinix_深度研究报告_2026-07.md",
@@ -1256,7 +1256,7 @@
       "MRR 同比 +12% reported / +10% normalized constant currency；Q1 annualized gross bookings $378M、annualized presales 约 $140M、largest deals 约 60% AI-related",
       "2025 年末 280 个数据中心、10,500+ 客户、507,000+ interconnections；当前 $1,002.02、市值约 $98.8B、EV 约 $120.8B、约 23.5x 2026 AFFO/share 指引中点"
     ],
-    "summaryEn": "DLR's paired check in the AI-infrastructure data-center facility layer. EQIX uses Platform Equinix interconnection, retail colocation, xScale JVs and AFFO/share to test whether AI demand is more than hyperscale shell leasing. Q1 2026 revenue was $2.444B (+10% reported YoY), operating income was $577M, net income was $415M, adjusted EBITDA was $1.245B, and AFFO/share was $10.79. MRR grew 12% reported / 10% normalized constant-currency YoY, annualized gross bookings were $378M, annualized presales were about $140M, and about 60% of largest deals were AI-related. The 2025 annual report disclosed 280 data centers, 10,500+ customers and 507,000+ interconnections, while Q1 2026 interconnection revenue was $446M. At $1,002.02 (2026-07-02), about $98.8B market cap and about $120.8B EV, EQIX trades around 23.5x the midpoint of 2026 AFFO/share guidance and about 11.9x 2026 revenue guidance. Neutral watch / medium conviction: high quality but high valuation; key monitors are interconnection revenue, AI bookings/presales, xScale economics, MRR/cabinet yield and power availability.",
+    "summaryEn": "July 30, 2026 monitoring update (Q2 2026, quarter ended June 30, 2026): revenue was $2.625B (+16% YoY, including one-time xScale fees), recurring revenue $2.377B (MRR +11%), AFFO $1.168B (+20%), and AFFO/share $11.78 (+19%); Q2 added a record 9,700 net interconnections and annualized gross bookings were $424M (+23%). Management raised FY2026 guidance and its long-term outlook. Interconnection, bookings, and MRR strengthened together, so the facility-interconnection-leasing falsifier was not triggered; the metrics are consistent with network-dense deployment, but the company did not attribute them specifically to AI and they are not causal proof of AI demand. The $1,002.02 (Jul 2, 2026) valuation snapshot and stance below are not refreshed by this monitoring pass. DLR's paired check in the AI-infrastructure data-center facility layer. EQIX uses Platform Equinix interconnection, retail colocation, xScale JVs and AFFO/share to test whether AI demand is more than hyperscale shell leasing. Q1 2026 revenue was $2.444B (+10% reported YoY), operating income was $577M, net income was $415M, adjusted EBITDA was $1.245B, and AFFO/share was $10.79. MRR grew 12% reported / 10% normalized constant-currency YoY, annualized gross bookings were $378M, annualized presales were about $140M, and about 60% of largest deals were AI-related. The 2025 annual report disclosed 280 data centers, 10,500+ customers and 507,000+ interconnections, while Q1 2026 interconnection revenue was $446M. At $1,002.02 (2026-07-02), about $98.8B market cap and about $120.8B EV, EQIX trades around 23.5x the midpoint of 2026 AFFO/share guidance and about 11.9x 2026 revenue guidance. Neutral watch / medium conviction: high quality but high valuation; key monitors are interconnection revenue, AI bookings/presales, xScale economics, MRR/cabinet yield and power availability.",
     "chainLayer": "datacenter-facility",
     "coverageTier": "full",
     "chainRole": "dashboard",
@@ -1285,7 +1285,7 @@
       }
     ],
     "priceAsOf": "2026-07-02",
-    "reportedPeriod": "2026Q1",
+    "reportedPeriod": "2026Q2",
     "related": [
       "digital-realty-2026",
       "coreweave-2026",
@@ -1306,11 +1306,11 @@
           "en": "interconnection revenue and total interconnections keep growing, validating the AI/cloud/network proximity moat"
         },
         "latest": {
-          "zh": "Q1 interconnection revenue $446M；2025 年末 507,000+ interconnections",
-          "en": "Q1 interconnection revenue $446M; 507,000+ interconnections at 2025 year-end"
+          "zh": "Q2 2026 新增 interconnections 创纪录 9,700 个（Q1 interconnection revenue $446M、2025 年末 507,000+ 为上次披露的收入/存量口径）",
+          "en": "Q2 2026 added a record 9,700 net interconnections (the last disclosed revenue/stock figures were Q1 interconnection revenue $446M and 507,000+ interconnections at 2025 year-end)"
         },
-        "nextCheck": "2026-Q2 interconnection revenue and platform metrics",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "2026-Q3 interconnection revenue and platform metrics",
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "ai-bookings-presales",
@@ -1325,11 +1325,11 @@
           "en": "AI-related largest deals remain elevated and convert into commenced recurring revenue"
         },
         "latest": {
-          "zh": "Q1 annualized gross bookings $378M、presales 约 $140M、largest deals 约 60% AI-related",
-          "en": "Q1 annualized gross bookings $378M, presales about $140M, about 60% of largest deals AI-related"
+          "zh": "Q2 2026 annualized gross bookings $424M（同比 +23%）；Q1 presales 约 $140M、largest deals 约 60% AI-related 为上次披露口径",
+          "en": "Q2 2026 annualized gross bookings $424M (+23% YoY); the last disclosed presales (~$140M) and about-60%-AI-related largest deals were Q1 figures"
         },
-        "nextCheck": "2026-Q2 bookings and presales",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "2026-Q3 bookings and presales",
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "xscale-jv-economics",
@@ -1363,11 +1363,11 @@
           "en": "MRR growth matches or exceeds cabinet additions and utilization, avoiding footprint growth without yield"
         },
         "latest": {
-          "zh": "MRR 同比 +12% reported；2025 增加 23,250 个 retail cabinets",
-          "en": "MRR +12% reported YoY; 23,250 retail cabinets added in 2025"
+          "zh": "Q2 2026 MRR 同比 +11%（reported 与 normalized constant currency 一致）；recurring revenue $2.377B（Q1 为 +12% reported / +10% normalized）",
+          "en": "Q2 2026 MRR +11% YoY (consistent on as-reported and normalized constant-currency bases); recurring revenue $2.377B (Q1 was +12% reported / +10% normalized)"
         },
         "nextCheck": "MRR, cabinet and utilization disclosures",
-        "nextCheckDate": "2026-08"
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "power-capex-availability",
@@ -1859,7 +1859,7 @@
     },
     "title": "Vertiv 深度研究报告 - AI 数据中心电力与散热的卖铲人（建设速度仪表盘）",
     "titleEn": "Vertiv Deep Research Report - The Power & Cooling Pick-and-Shovel of AI Data Centers (Buildout Dashboard)",
-    "summary": "数据中心电力与热管理（含液冷）卖铲人，位于『电从哪来』(GEV/Bloom)与『芯片』(NVDA/AVGO)之间，是 AI 建设速度最实时的『仪表盘』。Q1 2026 营收$26.5亿(+30%，有机+23%、美洲有机+44%)、调整后营业利润率20.8%(+430bps)、调整后EPS $1.17(+83%)、调整后FCF $6.53亿(+147%)；最新披露的 Q4 2025 backlog $150亿(+109%)、book-to-bill ~2.9x。FY2026指引上调至营收$135-140亿、调整后EPS $6.30-6.40。但股价一年约3倍至$306.97、市值~$1,179亿、~48倍前瞻调整后EPS(~80倍滚动)，已定价多年持续建设；高beta订单簿是双刃剑。谨慎 / 中确信：高质量业务，但价格隐含几乎完美的建设节奏。",
+    "summary": "2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30）：净销售额 $32.74亿（+24%、有机 +18%），调整后营业利润率 22.6%（+410bps），摊薄 EPS $1.27（+53%）、调整后摊薄 EPS $1.52（+60%），经营现金流 $11.0亿、调整后 FCF $9.25亿（+234%）。管理层全面上调 FY2026 指引：净销售额 $138-142亿（有机 +31%）、调整后 EPS $6.65-6.75、调整后 FCF $24-26亿。该财报未量化本季订单/backlog。下文 $306.97（2026-06-29）估值快照与 stance 不因本次监测刷新。数据中心电力与热管理（含液冷）卖铲人，位于『电从哪来』(GEV/Bloom)与『芯片』(NVDA/AVGO)之间，是 AI 建设速度最实时的『仪表盘』。Q1 2026 营收$26.5亿(+30%，有机+23%、美洲有机+44%)、调整后营业利润率20.8%(+430bps)、调整后EPS $1.17(+83%)、调整后FCF $6.53亿(+147%)；最新披露的 Q4 2025 backlog $150亿(+109%)、book-to-bill ~2.9x。FY2026指引上调至营收$135-140亿、调整后EPS $6.30-6.40。但股价一年约3倍至$306.97、市值~$1,179亿、~48倍前瞻调整后EPS(~80倍滚动)，已定价多年持续建设；高beta订单簿是双刃剑。谨慎 / 中确信：高质量业务，但价格隐含几乎完美的建设节奏。",
     "tags": [
       "数据中心",
       "AI基础设施",
@@ -1868,7 +1868,7 @@
     ],
     "category": "tech",
     "date": "2026-06-30",
-    "lastUpdate": "2026-07-07",
+    "lastUpdate": "2026-07-30",
     "file": "/invest/research/reports/view.html?id=vertiv-2026",
     "markdownFiles": {
       "zh": "/invest/research/Vertiv_深度研究报告_2026-06.md",
@@ -1883,7 +1883,7 @@
       "液冷代际拐点(100kW+ 机柜)；Vertiv 是一线电力+热管理供应商，但公开份额/TAM估算口径分散，需按行业来源跟踪；轻杠杆(净债务~$7.6亿)自我造血",
       "核心风险：股价一年约3倍至$306.97、~48倍前瞻调整后EPS(~80倍滚动)、市值~$1,179亿，已定价多年建设；高beta订单簿双向，AI资本开支消化/竞争(施耐德/伊顿)是主要风险"
     ],
-    "summaryEn": "Power & thermal (incl. liquid cooling) pick-and-shovel for data centers, sitting between 'where power comes from' (GEV/Bloom) and 'the chips' (NVDA/AVGO) — the most real-time 'dashboard' of AI buildout velocity. Q1 2026 revenue $2.65B (+30%, +23% organic, Americas +44%), adj operating margin 20.8% (+430bps), adj EPS $1.17 (+83%), adj FCF $653M (+147%); latest disclosed Q4 2025 backlog was $15.0B (+109%) with book-to-bill ~2.9x. FY2026 guidance raised to revenue $13.5-14.0B, adj EPS $6.30-6.40. But the stock ~3x'd in a year to $306.97 / ~$117.9B / ~48x forward adj EPS (~80x trailing), pricing in years of sustained buildout; the high-beta order book cuts both ways. Cautious / medium conviction: high-quality franchise, but the price implies a near-perfect buildout pace.",
+    "summaryEn": "July 30, 2026 monitoring update (Q2 2026, quarter ended June 30, 2026): net sales were $3.274B (+24%, +18% organic), adjusted operating margin 22.6% (+410bps), diluted EPS $1.27 (+53%) and adjusted diluted EPS $1.52 (+60%), operating cash flow $1.10B, and adjusted FCF $925M (+234%). Management raised FY2026 guidance across all metrics: net sales $13.8-14.2B (+31% organic), adjusted EPS $6.65-6.75, and adjusted FCF $2.4-2.6B. The release did not quantify this quarter's orders/backlog. The $306.97 (Jun 29, 2026) valuation snapshot and stance below are not refreshed by this monitoring pass. Power & thermal (incl. liquid cooling) pick-and-shovel for data centers, sitting between 'where power comes from' (GEV/Bloom) and 'the chips' (NVDA/AVGO) — the most real-time 'dashboard' of AI buildout velocity. Q1 2026 revenue $2.65B (+30%, +23% organic, Americas +44%), adj operating margin 20.8% (+430bps), adj EPS $1.17 (+83%), adj FCF $653M (+147%); latest disclosed Q4 2025 backlog was $15.0B (+109%) with book-to-bill ~2.9x. FY2026 guidance raised to revenue $13.5-14.0B, adj EPS $6.30-6.40. But the stock ~3x'd in a year to $306.97 / ~$117.9B / ~48x forward adj EPS (~80x trailing), pricing in years of sustained buildout; the high-beta order book cuts both ways. Cautious / medium conviction: high-quality franchise, but the price implies a near-perfect buildout pace.",
     "chainLayer": "datacenter-facility",
     "coverageTier": "full",
     "chainRole": "dashboard",
@@ -1917,7 +1917,7 @@
       }
     ],
     "priceAsOf": "2026-06-29",
-    "reportedPeriod": "Q1 2026",
+    "reportedPeriod": "Q2 2026",
     "related": [
       "gevernova-2026",
       "bloom-energy-2026"
@@ -1936,11 +1936,11 @@
           "en": "orders/backlog growth and book-to-bill cool visibly — the earliest signal of buildout deceleration"
         },
         "latest": {
-          "zh": "Q4 2025 backlog $150 亿（+109%）、book-to-bill 约 2.9x；FY2026 指引上调",
-          "en": "Q4 2025 backlog $15.0B (+109%), book-to-bill ~2.9x; FY2026 guidance raised"
+          "zh": "Q2 2026 财报未量化本季订单/backlog；管理层称需求强劲并全面上调 FY2026 指引（净销售额 $138-142亿、有机 +31%）。上次披露 backlog 为 Q4 2025 的 $150 亿（+109%）、book-to-bill 约 2.9x",
+          "en": "the Q2 2026 release did not quantify this quarter's orders/backlog; management cited strong demand and raised FY2026 guidance across the board (net sales $13.8-14.2B, +31% organic). The last disclosed backlog was Q4 2025's $15.0B (+109%) with book-to-bill ~2.9x"
         },
-        "nextCheck": "2026-Q2 财报 backlog 披露 / Q2 backlog print",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "2026-Q3 财报 backlog 披露 / Q3 backlog print",
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "valuation-multiple",
@@ -1955,8 +1955,8 @@
           "en": "the ~48x forward (~80x trailing) multiple compresses on any guide miss"
         },
         "latest": {
-          "zh": "股价一年约 3 倍至 $306.97、市值约 $1,179 亿；FY2026 指引营收 $135-140 亿、调整后 EPS $6.30-6.40",
-          "en": "stock ~3x in a year to $306.97, ~$117.9B cap; FY2026 guide $13.5-14.0B revenue, $6.30-6.40 adj EPS"
+          "zh": "股价一年约 3 倍至 $306.97、市值约 $1,179 亿（2026-06-29 冻结快照）；FY2026 指引已于 Q2 2026 上调至净销售额 $138-142 亿、调整后 EPS $6.65-6.75（约 48x 前瞻倍数系基于快照日的 $6.30-6.40 口径）",
+          "en": "stock ~3x in a year to $306.97, ~$117.9B cap (frozen 2026-06-29 snapshot); the FY2026 guide was raised in Q2 2026 to $13.8-14.2B revenue and $6.65-6.75 adj EPS (the ~48x forward multiple is on the snapshot-date $6.30-6.40 basis)"
         },
         "nextCheck": "2026-Q2 财报 / Q2 earnings",
         "nextCheckDate": "2026-08"
@@ -1992,8 +1992,8 @@
           "en": "hyperscaler capex guides get cut — the high-beta order book amplifies both ways"
         },
         "latest": {
-          "zh": "Q1 2026 营收 $26.5 亿（+30%、美洲有机 +44%）、调整后 FCF $6.53 亿（+147%）",
-          "en": "Q1 2026 revenue $2.65B (+30%, Americas organic +44%), adj FCF $653M (+147%)"
+          "zh": "Q2 2026 净销售额 $32.74 亿（+24%、有机 +18%）、调整后营业利润率 22.6%（+410bps）、调整后 EPS $1.52（+60%）、调整后 FCF $9.25 亿（+234%）；FY2026 指引上调至净销售额 $138-142 亿（有机 +31%）、调整后 EPS $6.65-6.75、调整后 FCF $24-26 亿",
+          "en": "Q2 2026 net sales $3.274B (+24%, +18% organic), adj operating margin 22.6% (+410bps), adj EPS $1.52 (+60%), adj FCF $925M (+234%); FY2026 guide raised to net sales $13.8-14.2B (+31% organic), adj EPS $6.65-6.75, adj FCF $2.4-2.6B"
         },
         "nextCheck": "hyperscaler 财报季 capex 指引 / hyperscaler capex guides"
       }
@@ -2806,7 +2806,7 @@
     "priceSymbol": "000660.KS",
     "title": "SK hynix 深度研究报告 - HBM垄断者的AI记忆霸权",
     "titleEn": "SK hynix Deep Research Report - The HBM Monopolist's AI Memory Dominance",
-    "summary": "v5 回填：SK hynix 仍是全球 HBM 领导者，Q1 2026 营收 ₩52.6T、营业利润 ₩37.6T、营业利润率约 72%，但自 2 月以来股价约上涨 3.5 倍，价格锚点 ₩2,917,000 对应约 28x TTM P/E 和约 16x sales。20% 牛市 / 50% 基准 / 30% 熊市情景说明 HBM 质量真实，但当前价格已经资本化接近峰值的盈利能力，因此改为谨慎 / 中确信。2026-07-10 最终 SEC 424B4 确认 1.779 亿份 SKHY ADS 按 $149 发行、预计净募资约 $26.2B，用于韩国生产设施与 EUV 扫描仪；该事件改善可达性并强化 capex 执行证据，但不刷新 2026-06-25 估值快照。",
+    "summary": "2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30，公司披露口径）：营收 ₩79.32 万亿（+257% YoY）、营业利润 ₩60.54 万亿（营业利润率 76%）、净利润 ₩93.92 万亿（公司称净利率 118%），创季度历史新高，H1 累计营收首破 ₩100 万亿；DRAM 与 NAND 价格环比均显著上行，Q2 起 HBM4 量产出货，已与约 10 家客户签订多年期 LTA、称需求超供给。新闻稿未拆分从营业利润 ₩60.54 万亿到净利润 ₩93.92 万亿之间的桥接项。下文 2026-06-25（₩2,917,000）估值快照与 stance 不因本次监测刷新。v5 回填：SK hynix 仍是全球 HBM 领导者，Q1 2026 营收 ₩52.6T、营业利润 ₩37.6T、营业利润率约 72%，但自 2 月以来股价约上涨 3.5 倍，价格锚点 ₩2,917,000 对应约 28x TTM P/E 和约 16x sales。20% 牛市 / 50% 基准 / 30% 熊市情景说明 HBM 质量真实，但当前价格已经资本化接近峰值的盈利能力，因此改为谨慎 / 中确信。2026-07-10 最终 SEC 424B4 确认 1.779 亿份 SKHY ADS 按 $149 发行、预计净募资约 $26.2B，用于韩国生产设施与 EUV 扫描仪；该事件改善可达性并强化 capex 执行证据，但不刷新 2026-06-25 估值快照。",
     "tags": [
       "半导体",
       "HBM",
@@ -2815,19 +2815,19 @@
     ],
     "category": "tech",
     "date": "2026-02-25",
-    "lastUpdate": "2026-07-15",
+    "lastUpdate": "2026-07-30",
     "file": "/invest/research/reports/view.html?id=sk-hynix-2026",
     "markdownFiles": {
       "zh": "/invest/research/SK_hynix_深度研究报告_2026-02.md",
       "en": "/invest/research/SK_hynix_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "Q1 2026创纪录：营收₩52.6万亿（+198% YoY，+60% QoQ）、营业利润₩37.6万亿（72%利润率）、净利₩40.3万亿",
+      "Q2 2026创新高（2026-07-30监测）：营收₩79.32万亿（+257% YoY）、营业利润₩60.54万亿（76%利润率）、净利润₩93.92万亿（公司称118%净利率）；H1累计营收首破₩100万亿。Q1 2026为营收₩52.6万亿、营业利润₩37.6万亿（72%利润率）",
       "自2月以来股价约涨3.5倍、市值突破$1.3万亿（约₩2,070万亿，价格×约7.08亿股）；TTM P/E约28x，深度价值逻辑已基本兑现",
-      "HBM全球份额53%、NVIDIA主供，未来三年需求已超供给；HBM4E样品H2 2026、量产2027",
+      "HBM全球份额53%、NVIDIA主供，Q2 2026起HBM4量产出货（H2加速）、HBM4E已完成样品；已与约10家客户签多年期LTA、称需求超供给",
       "72%营业利润率接近周期峰值，均值回归与HBM4竞争是核心风险；2026-07-10 起可通过 NASDAQ: SKHY ADS 直接获得美国市场敞口"
     ],
-    "summaryEn": "July 7, 2026 v5 update: SK hynix remains the global HBM leader, with Q1 2026 revenue of ₩52.6T, operating profit of ₩37.6T, and roughly 72% operating margin. But the stock has risen about 3.5x since February, and the ₩2,917,000 price anchor implies about 28x TTM P/E and roughly 16x sales. A 20% bull / 50% base / 30% bear grid says HBM quality is real, but the current price already capitalizes near-peak profitability, moving stance to cautious / medium conviction. The final SEC 424B4 dated 2026-07-10 confirms 177.9M SKHY ADSs at $149 and about $26.2B estimated net proceeds for Korean production facilities and EUV scanners; this improves access and strengthens capex-execution evidence without refreshing the 2026-06-25 valuation snapshot.",
+    "summaryEn": "July 30, 2026 monitoring update (Q2 2026, quarter ended June 30, 2026, per company disclosure): revenue ₩79.32T (+257% YoY), operating profit ₩60.54T (76% operating margin), and net profit ₩93.92T (the company states a 118% net margin), an all-time quarterly high, with first-half revenue crossing ₩100T for the first time; DRAM and NAND prices both rose significantly quarter over quarter, HBM4 mass shipments began in Q2, and the company finalized multi-year LTAs with about 10 customers and said demand exceeds supply. The release did not itemize what bridges the ₩60.54T operating profit to the ₩93.92T net profit. The June 25, 2026 (₩2,917,000) valuation snapshot and stance below are not refreshed by this monitoring pass. July 7, 2026 v5 update: SK hynix remains the global HBM leader, with Q1 2026 revenue of ₩52.6T, operating profit of ₩37.6T, and roughly 72% operating margin. But the stock has risen about 3.5x since February, and the ₩2,917,000 price anchor implies about 28x TTM P/E and roughly 16x sales. A 20% bull / 50% base / 30% bear grid says HBM quality is real, but the current price already capitalizes near-peak profitability, moving stance to cautious / medium conviction. The final SEC 424B4 dated 2026-07-10 confirms 177.9M SKHY ADSs at $149 and about $26.2B estimated net proceeds for Korean production facilities and EUV scanners; this improves access and strengthens capex-execution evidence without refreshing the 2026-06-25 valuation snapshot.",
     "period": "2026",
     "versionType": "full-cycle",
     "versionLabel": "2026 Full Rerun",
@@ -2848,7 +2848,7 @@
     "coverageTier": "full",
     "stance": "cautious",
     "priceAsOf": "2026-06-25",
-    "reportedPeriod": "Q1 2026",
+    "reportedPeriod": "Q2 2026",
     "related": [
       "sandisk-2026"
     ],
@@ -2866,11 +2866,11 @@
           "en": "the near-peak 72% operating margin rolls over"
         },
         "latest": {
-          "zh": "Q1 2026 营业利润 ₩37.6 万亿（72% 利润率）、营收 ₩52.6 万亿（+198%）",
-          "en": "Q1 2026 operating profit ₩37.6T (72% margin) on ₩52.6T revenue (+198%)"
+          "zh": "Q2 2026 营业利润 ₩60.54 万亿（营业利润率 76%）、营收 ₩79.32 万亿（+257% YoY），净利润 ₩93.92 万亿（公司称净利率 118%），创季度历史新高；新闻稿未拆分从营业利润 ₩60.54 万亿到净利润 ₩93.92 万亿的桥接项。Q1 2026 为 ₩37.6 万亿营业利润（72% 利润率）/ ₩52.6 万亿营收",
+          "en": "Q2 2026 operating profit ₩60.54T (76% operating margin) on ₩79.32T revenue (+257% YoY), and net profit ₩93.92T (company-stated 118% net margin), an all-time quarterly high; the release did not itemize what bridges the ₩60.54T operating profit to the ₩93.92T net profit. Q1 2026 was ₩37.6T operating profit (72% margin) on ₩52.6T revenue"
         },
-        "nextCheck": "2026-Q2 财报 / Q2 earnings",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "2026-Q3 财报 / Q3 earnings",
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "hbm4-competition",
@@ -2885,8 +2885,8 @@
           "en": "Samsung/Micron close the HBM4 certification and share gap"
         },
         "latest": {
-          "zh": "HBM 全球份额 53%、NVIDIA 主供；HBM4E 样品 H2 2026、量产 2027",
-          "en": "53% HBM share, NVIDIA main supplier; HBM4E samples H2 2026, mass production 2027"
+          "zh": "公司于 Q2 2026 开始 HBM4 量产出货、H2 加速；HBM4E 已于 H1 2026 完成样品出货。此前披露 HBM 全球份额约 53%、NVIDIA 主供；三星/美光 HBM4 认证进度未在本次新闻稿中说明",
+          "en": "the company began HBM4 mass shipments in Q2 2026, ramping in H2; HBM4E completed sample shipments in H1 2026. Previously disclosed ~53% global HBM share with NVIDIA as main supplier; Samsung/Micron HBM4 qualification progress was not addressed in this release"
         },
         "nextCheck": "客户认证进展 / customer qualification news"
       },
@@ -2903,8 +2903,8 @@
           "en": "main-supplier status or the 3-year supply-demand balance shifts"
         },
         "latest": {
-          "zh": "未来三年需求已超供给（报告口径）",
-          "en": "next-3-year demand already exceeds supply (report framing)"
+          "zh": "Q2 2026 新闻稿：已与约 10 家客户（含关键战略伙伴）签订多年期长期供货协议（LTA），并称客户需求超过供给能力；LTA 的具体数量、期限与定价未披露",
+          "en": "Q2 2026 release: SK hynix finalized multi-year long-term agreements (LTAs) with about 10 customers (including key strategic partners) and stated customer demand exceeds supply capability; LTA volumes, durations, and pricing were not disclosed"
         },
         "nextCheck": "供应协议动态 / supply-agreement developments"
       },
@@ -2924,8 +2924,8 @@
           "zh": "2 月以来约 3.5 倍、市值约 $1.3 万亿（2026-06-25）的估值快照不变；2026-07-10 最终 SEC 424B4 确认 1.779 亿份 ADS 按 $149 发行、预计净募资约 $26.2B，用于韩国生产设施和 EUV 扫描仪",
           "en": "the valuation snapshot remains ~3.5x since February and ~$1.3T cap as of 2026-06-25; the final SEC 424B4 dated 2026-07-10 confirms 177.9M ADSs at $149 and about $26.2B estimated net proceeds for Korean production facilities and EUV scanners"
         },
-        "nextCheck": "2026-Q2 财报 / Q2 earnings",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "2026-Q3 财报 / Q3 earnings",
+        "nextCheckDate": "2026-10"
       }
     ],
     "conviction": "medium",
@@ -5321,7 +5321,7 @@
     "priceSymbol": "META",
     "title": "Meta Platforms 深度研究报告 - AI 基建书的需求锚与算力外售压力测试",
     "titleEn": "Meta Platforms Deep Research Report - Demand Anchor and Compute-Resale Stress Test for the AI-Infra Book",
-    "summary": "本中心 AI 基础设施书 demand-risk 层的需求锚覆盖：Meta 不是 GPU/HBM/电力/光模块供应商，而是整条链最重要的终端买方之一。Q1 2026 收入 $56.31B(+33%)、营业利润 $22.87B、经营现金流 $32.23B、自由现金流 $13.23B，说明广告主业仍能融资 AI 建设；但公司把 2026 capex 指引抬到 $125-145B，且 7 月初被报道考虑推出 Meta Compute、外售过剩 AI 算力。股价 $582.90（2026-07-02 收盘）、市值约 $1.48T、约 6.9x TTM P/S、约 17x EV/TTM 营业利润，按 Q1 剔除约 $8B 税益 EPS 年化约 20x。核心读数：Meta capex 若继续被广告/AI 产品吸收，AI 基建链需求得到支撑；若外售算力意味着供给过剩或内部需求不足，则 CoreWeave/Nebius、HBM、光连接和电力链都要下修稀缺假设。2026-07-07 v5 更新：以 2026-07-06 收盘 $600.29 为锚，30% 牛市 / 50% 基准 / 20% 熊市情景网格接近市场隐含预期，维持 neutral-watch / 中确信。",
+    "summary": "2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30）：收入 $60.80B（同比 +28%）、营业利润 $18.775B、营业利润率 31%（去年同期 43%）、净利润 $15.848B（同比 -14%）、摊薄 EPS $6.18；总成本费用 $42.026B（同比 +55%）。经营现金流 $31.862B（+25%），但 $31.078B capex 把自由现金流压至 $0.784B（-91%）；FY2026 capex 指引收窄至 $130-145B。application-monetization 是混合读数：收入与经营现金流增长，营业利润率、净利润与 FCF 恶化。下文 $600.29（2026-07-06）估值快照、stance 与 conviction 不因本次监测刷新。本中心 AI 基础设施书 demand-risk 层的需求锚覆盖：Meta 不是 GPU/HBM/电力/光模块供应商，而是整条链最重要的终端买方之一。Q1 2026 收入 $56.31B(+33%)、营业利润 $22.87B、经营现金流 $32.23B、自由现金流 $13.23B，说明广告主业仍能融资 AI 建设；但公司把 2026 capex 指引抬到 $125-145B，且 7 月初被报道考虑推出 Meta Compute、外售过剩 AI 算力。股价 $582.90（2026-07-02 收盘）、市值约 $1.48T、约 6.9x TTM P/S、约 17x EV/TTM 营业利润，按 Q1 剔除约 $8B 税益 EPS 年化约 20x。核心读数：Meta capex 若继续被广告/AI 产品吸收，AI 基建链需求得到支撑；若外售算力意味着供给过剩或内部需求不足，则 CoreWeave/Nebius、HBM、光连接和电力链都要下修稀缺假设。2026-07-07 v5 更新：以 2026-07-06 收盘 $600.29 为锚，30% 牛市 / 50% 基准 / 20% 熊市情景网格接近市场隐含预期，维持 neutral-watch / 中确信。",
     "tags": [
       "AI基础设施",
       "广告平台",
@@ -5330,7 +5330,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-07",
+    "lastUpdate": "2026-07-30",
     "file": "/invest/research/reports/view.html?id=meta-2026",
     "markdownFiles": {
       "zh": "/invest/research/Meta_Platforms_深度研究报告_2026-07.md",
@@ -5346,13 +5346,13 @@
       "股价 $582.90(2026-07-02)、市值约 $1.48T、约 6.9x TTM P/S、约 17x EV/TTM 营业利润；静态倍数不极端，但 FCF/算力价格风险很高。中性/观察",
       "2026-07-07 v5 更新：以 2026-07-06 收盘 $600.29 为锚，30% 牛市 / 50% 基准 / 20% 熊市；接近中性预期差，维持 neutral-watch / 中确信"
     ],
-    "summaryEn": "Demand-anchor coverage for this center's AI-infrastructure demand-risk layer: Meta is not a GPU/HBM/power/optical supplier, but one of the most important end customers in the chain. Q1 2026 revenue was $56.31B (+33%), operating income $22.87B, operating cash flow $32.23B, and free cash flow $13.23B, showing the ad engine can still fund AI buildout. But Meta raised its 2026 capex guide to $125-145B and was reported in early July to be considering Meta Compute, a business that could sell excess AI compute. At $582.90 (Jul 2 2026 close), market cap is about $1.48T, around 6.9x TTM sales and about 17x EV/TTM operating income; annualized Q1 EPS excluding an approximately $8B tax benefit implies roughly 20x earnings. Core read-through: if Meta capex keeps being absorbed by advertising and AI products, AI-infra demand is validated; if compute resale signals oversupply or insufficient internal demand, CoreWeave/Nebius, HBM, optical, and power-chain scarcity assumptions need to be marked down. Jul 7, 2026 v5 update: anchored to the Jul 6, 2026 close of $600.29, the 30% bull / 50% base / 20% bear scenario grid is close to the market-implied view; stance remains neutral-watch / medium conviction.",
+    "summaryEn": "July 30, 2026 monitoring update (Q2 2026, quarter ended June 30, 2026): revenue was $60.80B (+28% YoY), operating income $18.775B, operating margin 31% (down from 43%), net income $15.848B (-14%), and diluted EPS $6.18; total costs were $42.026B (+55%). Operating cash flow was $31.862B (+25%), but $31.078B of capex compressed free cash flow to $0.784B (-91%); FY2026 capex guidance narrowed to $130-145B. Application-monetization is a mixed read: revenue and operating cash flow grew, while operating margin, net income, and FCF deteriorated. The $600.29 (Jul 6, 2026) valuation snapshot, stance, and conviction below are not refreshed by this monitoring pass. Demand-anchor coverage for this center's AI-infrastructure demand-risk layer: Meta is not a GPU/HBM/power/optical supplier, but one of the most important end customers in the chain. Q1 2026 revenue was $56.31B (+33%), operating income $22.87B, operating cash flow $32.23B, and free cash flow $13.23B, showing the ad engine can still fund AI buildout. But Meta raised its 2026 capex guide to $125-145B and was reported in early July to be considering Meta Compute, a business that could sell excess AI compute. At $582.90 (Jul 2 2026 close), market cap is about $1.48T, around 6.9x TTM sales and about 17x EV/TTM operating income; annualized Q1 EPS excluding an approximately $8B tax benefit implies roughly 20x earnings. Core read-through: if Meta capex keeps being absorbed by advertising and AI products, AI-infra demand is validated; if compute resale signals oversupply or insufficient internal demand, CoreWeave/Nebius, HBM, optical, and power-chain scarcity assumptions need to be marked down. Jul 7, 2026 v5 update: anchored to the Jul 6, 2026 close of $600.29, the 30% bull / 50% base / 20% bear scenario grid is close to the market-implied view; stance remains neutral-watch / medium conviction.",
     "chainLayer": "demand-risk",
     "coverageTier": "full",
     "chainRole": "common-constraint",
     "stance": "neutral-watch",
     "priceAsOf": "2026-07-06",
-    "reportedPeriod": "Q1 2026",
+    "reportedPeriod": "Q2 2026",
     "related": [
       "coreweave-2026",
       "nebius-2026",
@@ -5375,11 +5375,11 @@
           "en": "2026 capex guide moves above $145B or early 2027 framing does not decline"
         },
         "latest": {
-          "zh": "Q1 2026 后公司将全年 capex 指引上调至 $125-145B",
-          "en": "after Q1 2026, the company raised full-year capex guidance to $125-145B"
+          "zh": "Q2 2026 季度 capex $31.078B（含融资租赁本金：$30.116B PP&E + $0.962B）；FY2026 指引收窄至 $130-145B（下限自 $125B 上调、上限不变）",
+          "en": "Q2 2026 quarterly capex was $31.078B including finance-lease principal ($30.116B property and equipment + $0.962B); FY2026 guidance narrowed to $130-145B (low end raised from $125B, high end unchanged)"
         },
-        "nextCheck": "2026-Q2 财报与 capex 指引 / Q2 earnings and capex guide",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "2026-Q3 财报与 capex 指引 / Q3 earnings and capex guide",
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "capacity-resale-pivot",
@@ -5412,11 +5412,11 @@
           "en": "revenue and ad pricing/impressions keep outrunning capex growth while operating margin stays above 35%"
         },
         "latest": {
-          "zh": "Q1 2026 收入 $56.31B(+33%)、营业利润率约 40.6%",
-          "en": "Q1 2026 revenue was $56.31B (+33%) with about 40.6% operating margin"
+          "zh": "Q2 2026 收入 $60.80B（+28%）、营业利润率 31%（去年同期 43%）、净利润 -14%；经营现金流 $31.862B（+25%），但 capex $31.078B 使 FCF 降至 $0.784B（-91%），为混合读数",
+          "en": "Q2 2026 revenue was $60.80B (+28%), operating margin 31% (down from 43%), and net income -14%; operating cash flow rose 25% to $31.862B, but $31.078B of capex cut FCF 91% to $0.784B, a mixed reading"
         },
-        "nextCheck": "2026-Q2 收入、广告指标与利润率 / Q2 revenue, ad metrics, and margin",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "2026-Q3 收入、广告指标与利润率 / Q3 revenue, ad metrics, and margin",
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "supplier-diversification-delivery",

@@ -1,7 +1,7 @@
 # Meta Platforms（META）深度研究报告
 
 标的收录日期：2026-07-04
-最近更新日期：2026-07-07
+最近更新日期：2026-07-30
 代码：NASDAQ: META
 免责声明：本报告仅用于信息与研究交流，不构成任何投资建议，请自行完成尽职调查。
 
@@ -10,6 +10,8 @@
 ## 执行摘要
 
 > **框架定位：** 本报告是 AI 基础设施书 demand-risk 层的「需求锚」覆盖。Meta 不是 GPU、HBM、光模块、电力设备或 neocloud 供应商；它是整条链最重要的终端买方之一。若 Meta 的资本开支继续扩张并被广告/AI 产品收入吸收，NVIDIA、AMD、Broadcom、SK hynix、SanDisk、Vertiv、GE Vernova、CoreWeave 和 Nebius 的需求叙事都会得到支撑。若 Meta 开始把过剩算力外售，或显著削减外部采购，整条「算力持续稀缺」假设都要重估。
+
+> **2026-07-30 事实更新（Q2 2026，季度截至 2026-06-30）：** Meta 收入 **$60.80B（同比 +28%）**、营业利润 **$18.775B**、营业利润率 **31%**（去年同期 43%）、净利润 **$15.848B（同比 -14%）**、摊薄 EPS **$6.18**。总成本费用 **$42.026B（同比 +55%）**，其中含 **$2.40B 法律相关支出**与 **$1.18B 遣散费**。季度经营现金流 **$31.862B（同比 +25%）**，但 **$31.078B** capex（$30.116B PP&E + $0.962B 融资租赁本金）把自由现金流压至 **$0.784B（同比 -91%）**。**FY2026 capex 指引收窄至 $130-145B**（下限自 $125B 上调、上限不变）。Family daily active people **约 36.0 亿（同比 +3%）**；员工 75,472（同比 -1%）。**核心读数：application-monetization / ad-ai-roi 是混合信号——收入和经营现金流增长，但营业利润率、净利润与自由现金流恶化，FCF 主要被接近翻倍的 capex 压缩。** 下文 $600.29（2026-07-06）、约 20x 剔除税益年化 EPS 为**冻结的 2026-07-06 估值快照**；本次监测增加经营证据，但**不**刷新股价、年度 EPS 估计、估值倍数、stance 或 conviction。立场维持 **中性 / neutral-watch、中确信**。营业利润率的同比下滑使既有估值/立场论述可能产生偏差，因此本报告只更新监测读数，并注明 meta-2026 需要一次单独的、估值敏感的完整更新。
 
 **一句话论点：** Meta 仍是全球最强的广告现金流机器之一，但在 AI 基建书里更重要的角色已经从「大客户」变成「需求真伪探针」：它一边用 Q1 2026 $56.31B 收入、约 $22.9B 营业利润和约 $13.2B 自由现金流证明自己能融资 AI 建设，另一边又把 2026 capex 指引抬到 $125-145B，并被报道考虑出售过剩 AI 算力，这会同时验证和威胁整个 AI 基建链。
 
@@ -21,14 +23,14 @@
 |------|------|
 | 股价 | $582.90（2026-07-02 收盘，Yahoo/yfinance 口径） |
 | 市值 / 股本 | 约 $1.48T；约 25.38 亿股 |
-| 最新财报口径 | Q1 2026 |
-| Q1 收入 / 同比 | $56.31B，约 +33% |
-| Q1 营业利润 / 营业利润率 | $22.87B，约 40.6% |
+| 最新财报口径 | ~~Q1 2026~~ **Q2 2026（2026-07-30 监测）** |
+| Q1 收入 / 同比 | ~~$56.31B，约 +33%~~ **Q2 2026 收入 $60.80B，约 +28%** |
+| Q1 营业利润 / 营业利润率 | ~~$22.87B，约 40.6%~~ **Q2 2026 营业利润 $18.775B，营业利润率 31%（去年同期 43%）；净利润 $15.848B（-14%）、EPS $6.18** |
 | Q1 净利润 / EPS | $26.77B / $10.44；剔除约 $8B 税益后 EPS 约 $7.31 |
-| Q1 经营现金流 / capex / FCF | $32.23B / $19.00B / $13.23B |
+| 经营现金流 / capex / FCF | ~~Q1：$32.23B / $19.00B / $13.23B~~ **Q2：$31.862B / $31.078B / $0.784B（OCF +25%、FCF -91% YoY）** |
 | 现金+短投 / 总债务 / 净债务 | $81.18B / $86.77B / 约 $35.32B 净债务（Yahoo/yfinance 口径） |
-| 2026 capex 指引 | $125-145B |
-| 用户规模 | 2026 年 3 月 Family daily active people 约 35.6 亿 |
+| 2026 capex 指引 | ~~$125-145B~~ **$130-145B（Q2 2026 收窄，下限上调）；Q2 季度 capex $31.078B（含融资租赁）** |
+| 用户规模 | ~~2026 年 3 月 Family daily active people 约 35.6 亿~~ **2026 年 6 月 Family daily active people 约 36.0 亿（+3%）** |
 | 链内角色 | demand-risk 层 common constraint：终端需求、算力外售、capex ROI |
 
 ## 1. 业务概览
@@ -159,7 +161,7 @@ Mark Zuckerberg 的控制权是双刃剑。好处是 Meta 可以在 2022-2023 �
 | 基准情景 | 广告增长正常化但仍强；AI capex 继续高位，FCF yield 受压；外售算力信号保持模糊，既可解释为货币化也可解释为容量缓冲；监管噪音不破坏广告引擎 | 现价大体合理但安全边际有限：质量高、倍数不极端，capex 强度要求市场继续相信 ROI | 50% |
 | 熊市情景 | 广告增长明显放缓或监管冲击定位/推荐；capex 高于 $145B 且 2027 不下降；Meta Compute 确认大量外售闲置容量，压低 GPU 租金和 neocloud 稀缺假设；FCF 多年受压 | 现价会显得偏贵：成熟广告平台倍数遇到基础设施 capex 负担，FCF 倍数和 AI 链估值同时压缩 | 20% |
 
-**已定价预期与预期差：** 以 `prices.json` 的 2026-07-06 收盘 $600.29 计，市场给 Meta 的不是纯互联网估值，也不是纯基建估值，而是"高质量广告现金流可以融资 AI capex 并提高 ROI"的混合估值。当前约 17x EV/TTM 营业利润和约 20x 剔除税益年化 EPS 不昂贵，但隐含 2026-2027 capex 不会永久吞噬 FCF。我们的 30% 牛市 / 50% 基准 / 20% 熊市网格基本贴近市场隐含预期：偏斜接近中性，关键差异在 capex 是否在 2027 进入可见回落路径。
+**已定价预期与预期差：** 以 `prices.json` 的 2026-07-06 收盘 $600.29 计，市场给 Meta 的不是纯互联网估值，也不是纯基建估值，而是"高质量广告现金流可以融资 AI capex 并提高 ROI"的混合估值。当前约 17x EV/TTM 营业利润和约 20x 剔除税益年化 EPS 不昂贵，但隐含 2026-2027 capex 不会永久吞噬 FCF。我们的 30% 牛市 / 50% 基准 / 20% 熊市网格基本贴近市场隐含预期：偏斜接近中性，关键差异在 capex 是否在 2027 进入可见回落路径。*（本次 2026-07-30 监测增加 Q2 2026 经营证据——收入 $60.80B、营业利润率从 43% 降至 31%、净利润 -14%、季度 capex $31.078B、FY2026 指引收窄至 $130-145B——但**不**刷新 $600.29 股价、年度 EPS 估计或由此得到的倍数、stance 或 conviction；财报后单纯的股价变动不构成可记录信号。**注意：本季营业利润率同比大幅下滑，使上文基于约 40% 营业利润率与 Q1 EPS 的估值/预期差论述可能不再贴合；按 fail-closed 原则，本次仅更新监测读数，meta-2026 需要一次单独的、以当前价格为基准的估值敏感完整更新，才能重设情景网格与预期差。）*
 
 ## 9. 催化剂与时间线
 
@@ -190,6 +192,7 @@ Meta 的链条验证任务，是判断 AI 基建需求能否被终端应用真�
 
 ## 附录：来源与假设
 
+- Q2 2026（季度截至 2026-06-30）收入、营业利润/利润率、净利润、EPS、经营现金流、自由现金流、季度 capex、FY2026 capex 指引、DAP 与一次性项目，来自 Meta 官方 Q2 2026 业绩发布（Meta Investor Relations，2026-07-29）：[Meta Reports Second Quarter 2026 Results](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx)。
 - Q1 2026 收入、净利润、EPS、capex 指引、daily active people 等，交叉参考 AP 对 Meta Q1 2026 财报的报道：[Meta beats revenue expectations, boosts capital spending forecast for 2026](https://apnews.com/article/ff680fbd0cfad7319fd19a68a33200ee)。
 - Q1 capex 指引上修、剔除税益 EPS 约 $7.31、投资者对 AI spending 的反应，参考 Investor's Business Daily 与 Business Insider 财报报道：[IBD Q1 2026 earnings](https://www.investors.com/news/technology/meta-stock-q1-2026-earnings/)、[Business Insider Q1 recap](https://www.businessinsider.com/meta-q1-earnings-updates-ai-muse-spark-mark-zuckerberg-2026-4)。
 - Family of Apps 收入约 $55.9B、Reality Labs 收入约 $402M，参考 Android Central 对 Meta Q1 2026 earnings table 的报道：[Meta's Q1 2026 earnings are in](https://www.androidcentral.com/apps-software/meta/meta-q1-2026-earnings)。

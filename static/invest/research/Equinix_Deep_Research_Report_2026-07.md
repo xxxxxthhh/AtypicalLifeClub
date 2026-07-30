@@ -1,7 +1,7 @@
 # Equinix Deep Research Report - The Interconnection-Premium Dashboard for AI Data-Center Facilities
 
 Coverage date: 2026-07-05
-Last updated: 2026-07-07
+Last updated: 2026-07-30
 Ticker: NASDAQ: EQIX
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -11,6 +11,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 > **Framework role:** Equinix is the dashboard for the AI-infrastructure data-center facility layer. The report's job is to test the chain signal, not to turn one company print into a recommendation.
 
+> **2026-07-30 factual update (Q2 2026, quarter ended June 30, 2026):** Equinix reported revenue of **$2.625B (+16% YoY, including one-time xScale fees)**, recurring revenue of **$2.377B** (MRR **+11% YoY**), AFFO of **$1.168B (+20%)**, and AFFO/share of **$11.78 (+19%)**. **Q2 added a record 9,700 net interconnections** and annualized gross bookings were **$424M (+23%)**. Management raised **FY2026 guidance** (revenue $10.205-10.285B, adjusted EBITDA $5.21-5.27B, AFFO/share $42.69-43.29, total capex $5.0-6.0B) and its long-term outlook. As a facility-interconnection-leasing reading, interconnection, bookings, and MRR strengthened together, so the rule's falsifier was not triggered. Those metrics are consistent with network-dense deployment, but the release did not attribute them specifically to AI and they are not causal proof that AI demand reached that layer. The $1,002.02 price and ~23.5x 2026 AFFO/share below are the **frozen July 2, 2026 valuation snapshot**; this monitoring pass adds operating evidence but does **not** refresh the share price, AFFO estimate, valuation multiple, stance, or conviction. Stance stays **neutral watch / medium conviction**.
+
 **One-line thesis:** DLR's paired check in the AI-infrastructure data-center facility layer. EQIX uses Platform Equinix interconnection, retail colocation, xScale JVs and AFFO/share to test whether AI demand is more than hyperscale shell leasing. Q1 2026 revenue was $2.444B (+10% reported YoY), operating income was $577M, net income was $415M, adjusted EBITDA was $1.245B, and AFFO/share was $10.79. MRR grew 12% reported / 10% normalized constant-currency YoY, annualized gross bookings were $378M, annualized presales were about $140M, and about 60% of largest deals were AI-related. The 2025 annual report disclosed 280 data centers, 10,500+ customers and 507,000+ interconnections, while Q1 2026 interconnection revenue was $446M. At $1,002.02 (2026-07-02), about $98.8B market cap and about $120.8B EV, EQIX trades around 23.5x the midpoint of 2026 AFFO/share guidance and about 11.9x 2026 revenue guidance. Neutral watch / medium conviction: high quality but high valuation; key monitors are interconnection revenue, AI bookings/presales, xScale economics, MRR/cabinet yield and power availability.
 
 **Current view:** **neutral watch / medium conviction.** The v5 scenario grid says EQIX's platform quality, interconnection density, and xScale option value are roughly capitalized at the current price; the next interconnection, AI bookings/presales, and AFFO/share evidence set must break that balance.
@@ -19,8 +21,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 | --- | --- |
 | Report id | eqix-2026 |
 | Chain layer / role | datacenter-facility / dashboard |
-| Latest reported period | 2026Q1 |
-| Price snapshot | $1,002.02 as of 2026-07-02 |
+| Latest reported period | ~~2026Q1~~ **2026Q2 (2026-07-30 monitoring)** |
+| Price snapshot | $1,002.02 as of 2026-07-02 (frozen snapshot, not refreshed this pass) |
 | Coverage tier after this upgrade | full |
 | Stance | neutral watch / medium conviction |
 | Primary valuation use | scenario context and risk tolerance, not a target price |
@@ -131,7 +133,7 @@ Valuation is used as risk context, not as a recommendation. The table below fram
 | Base | MRR grows high-single to low-teens; AI bookings/presales commence normally but stop accelerating; xScale remains a capacity option while returns need more proof; 2026 non-recurring capex around $3.8B, interest cost, and power availability offset part of the growth; P/AFFO fades toward about a 20x premium multiple | Current price largely capitalizes the base case: EQIX quality is high, but margin of safety is limited | 40% |
 | Bear | AI presales convert slower than expected, and interconnection or MRR/cabinet yield slows; power, grid interconnects, supply chain or capex inflation delays capacity; xScale JV or interest costs compress AFFO/share growth; P/AFFO returns to the high-teens | Current price would be rich; the risk is growth below the implied requirement plus multiple compression, not a broken platform | 30% |
 
-**What's priced in & the expectation gap:** At the $1,002.02 close on Jul 2, 2026 and about 23.5x the midpoint of 2026 AFFO/share guidance, if the P/AFFO premium normalizes toward about 20x over three years with an 8% required return, the reverse-multiple frame implies about `(23.5 / 20)^(1/3) x 1.08 - 1`, or roughly **14% AFFO/share CAGR**. Our base case needs MRR, AI presales, xScale lease-up and AFFO/share to hold low-teens growth together, close to but not clearly above that implied requirement. EQIX is therefore a high-quality platform, but the expectation gap is roughly balanced at the current dated price.
+**What's priced in & the expectation gap:** At the $1,002.02 close on Jul 2, 2026 and about 23.5x the midpoint of 2026 AFFO/share guidance, if the P/AFFO premium normalizes toward about 20x over three years with an 8% required return, the reverse-multiple frame implies about `(23.5 / 20)^(1/3) x 1.08 - 1`, or roughly **14% AFFO/share CAGR**. Our base case needs MRR, AI presales, xScale lease-up and AFFO/share to hold low-teens growth together, close to but not clearly above that implied requirement. EQIX is therefore a high-quality platform, but the expectation gap is roughly balanced at the current dated price. *(The 2026-07-30 monitoring pass adds Q2 2026 operating evidence — revenue $2.625B (+16%), AFFO/share $11.78 (+19%), a record 9,700 net interconnections, gross bookings $424M (+23%), and raised FY2026 guidance and long-term outlook — but does **not** refresh the $1,002.02 share price, AFFO estimate, valuation multiple, stance, or conviction. The raised AFFO/share guide ($42.69-43.29 vs the prior $42.31-43.11) modestly lowers the multiple implied by the July 2 price, so moving the valuation frame forward would require a separate current-price valuation review; any post-earnings share-price move alone is not a loggable signal.)*
 
 The key valuation question is whether the next evidence set can grow AFFO/share and platform density faster than the market's required P/AFFO premium.
 
@@ -139,10 +141,10 @@ The key valuation question is whether the next evidence set can grow AFFO/share 
 
 | Monitor | Latest reading | Trigger | Next check |
 | --- | --- | --- | --- |
-| Interconnection revenue and platform density | Q1 interconnection revenue $446M; 507,000+ interconnections at 2025 year-end | interconnection revenue and total interconnections keep growing, validating the AI/cloud/network proximity moat | 2026-Q2 interconnection revenue and platform metrics |
-| AI bookings and annualized presales | Q1 annualized gross bookings $378M, presales about $140M, about 60% of largest deals AI-related | AI-related largest deals remain elevated and convert into commenced recurring revenue | 2026-Q2 bookings and presales |
+| Interconnection revenue and platform density | ~~Q1 interconnection revenue $446M; 507,000+ interconnections at 2025 year-end~~ **Q2 2026 added a record 9,700 net interconnections (the last disclosed revenue/stock figures were Q1 interconnection revenue $446M and 507,000+ at 2025 year-end)** | interconnection revenue and total interconnections keep growing, validating the AI/cloud/network proximity moat | 2026-Q3 interconnection revenue and platform metrics |
+| AI bookings and annualized presales | ~~Q1 annualized gross bookings $378M, presales about $140M, about 60% of largest deals AI-related~~ **Q2 2026 annualized gross bookings $424M (+23% YoY); the last disclosed presales (~$140M) and ~60%-AI-related largest deals were Q1 figures** | AI-related largest deals remain elevated and convert into commenced recurring revenue | 2026-Q3 bookings and presales |
 | xScale JV capacity and economics | Q1 xScale JV equity investments $678M; Hampton campus transferred to AMER 3 JV for $459M consideration | Hampton / AMER 3 and other xScale JVs add capacity without excessive VIE exposure | xScale JV disclosures and capacity updates |
-| MRR / cabinet yield proxy | MRR +12% reported YoY; 23,250 retail cabinets added in 2025 | MRR growth matches or exceeds cabinet additions and utilization, avoiding footprint growth without yield | MRR, cabinet and utilization disclosures |
+| MRR / cabinet yield proxy | ~~MRR +12% reported YoY; 23,250 retail cabinets added in 2025~~ **Q2 2026 MRR +11% YoY (as-reported and normalized constant-currency); recurring revenue $2.377B** | MRR growth matches or exceeds cabinet additions and utilization, avoiding footprint growth without yield | MRR, cabinet and utilization disclosures |
 | Power availability and capex constraints | 2026 non-recurring capex guidance about $3.8B excluding xScale/land; power and supply chain are explicit risks | power, grid interconnects, supply chain or capex inflation delay capacity or compress returns | capex, power and project timing updates |
 
 These are the items that should drive future reruns. A monitoring update should change the report only when it changes the chain read-through or the valuation tolerance.
@@ -167,6 +169,7 @@ Upgrade trigger: Move to constructive if Q2/Q3 interconnection revenue, AI-relat
 ## Appendix: Sources And Assumptions
 
 | Equinix 2026Q1 10-Q | https://www.sec.gov/Archives/edgar/data/1101239/000110123926000091/eqix-20260331.htm | Revenue, operating income, net income, interconnection revenue, capex and segment tables |
+| Equinix Q2 2026 results (newsroom) | https://newsroom.equinix.com/2026-07-29-Equinix-Reports-Second-Quarter-Results,-Raises-2026-Guidance-and-Long-Term-Outlook | Issued 2026-07-29, quarter ended June 30, 2026: revenue $2.625B, recurring revenue, AFFO/share, MRR, record net interconnections, annualized gross bookings, and raised FY2026 guidance / long-term outlook |
 | Equinix Q1 2026 earnings release | https://www.sec.gov/Archives/edgar/data/1101239/000110123926000089/eqix-q126xpr.htm | Adjusted EBITDA, AFFO/share, MRR growth, bookings, presales, AI-related largest-deal mix and guidance |
 | Equity Method Investments / VIE note | https://www.sec.gov/Archives/edgar/data/1101239/000110123926000091/R10.htm | xScale JV investment balances, Hampton transaction value and VIE exposure |
 | Equinix 2025 annual report | https://www.sec.gov/Archives/edgar/data/1101239/000110123926000075/EQIXAnnualRpt2025PRINT.pdf | 280 data centers, 10,500+ customers, 507,000+ interconnections, MRR and cabinet context |

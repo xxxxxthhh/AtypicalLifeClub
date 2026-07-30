@@ -1,7 +1,7 @@
 # Equinix 深度研究报告 - AI 数据中心设施层的互联溢价仪表盘
 
 标的收录日期：2026-07-05
-最近更新日期：2026-07-07
+最近更新日期：2026-07-30
 代码：NASDAQ: EQIX
 免责声明：本报告仅用于信息与研究交流，不构成任何投资建议，请自行完成尽职调查。
 
@@ -11,6 +11,8 @@
 
 > **框架角色：** Equinix 是 AI 基建 数据中心设施 层的仪表盘。本报告的任务是验证链条信号，而不是把单一公司数据直接变成投资建议。
 
+> **2026-07-30 事实更新（Q2 2026，季度截至 2026-06-30）：** Equinix 收入 **$2.625B（同比 +16%，包含一次性 xScale fees）**、recurring revenue **$2.377B**（MRR 同比 **+11%**）、AFFO **$1.168B（+20%）**、AFFO/share **$11.78（+19%）**。**Q2 新增 interconnections 创纪录 9,700 个**、annualized gross bookings **$424M（+23%）**。管理层上调 **FY2026 指引**（收入 $10.205-10.285B、调整后 EBITDA $5.21-5.27B、AFFO/share $42.69-43.29、总 capex $5.0-6.0B）与长期展望。作为 facility-interconnection-leasing 读数，interconnection、bookings 与 MRR 同向走强，因此规则的证伪条件本季未触发。这些指标与网络密集部署一致，但新闻稿没有将其具体归因于 AI，不能作为 AI 需求穿透到该层的因果证明。下文 $1,002.02、约 23.5x 2026 AFFO/share 为**冻结的 2026-07-02 估值快照**；本次监测增加经营证据，但**不**刷新股价、AFFO 估计、估值倍数、stance 或 conviction。立场维持 **中性观察 / 中确信**。
+
 **一句话论点：** AI 基础设施 datacenter-facility 层的 DLR 对照组：EQIX 用 Platform Equinix interconnection、retail colocation、xScale JV 和 AFFO/share 来验证 AI 需求是否不只是 hyperscale shell leasing。2026Q1 收入 $2.444B（reported YoY +10%）、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；MRR 同比 +12% reported / +10% normalized constant currency，annualized gross bookings $378M，annualized presales 约 $140M，largest deals 约 60% AI-related。2025 年报披露 280 个数据中心、10,500+ 客户、507,000+ interconnections，Q1 2026 interconnection revenue $446M。当前 $1,002.02（2026-07-02）、市值约 $98.8B、EV 约 $120.8B，约 23.5x 2026 AFFO/share 指引中点、约 11.9x 2026 revenue 指引。中性观察 / 中确信：质量高但估值高，关键监控是 interconnection revenue、AI bookings/presales、xScale economics、MRR/cabinet yield 与 power availability。
 
 **当前判断：** **中性观察 / 中确信。** v5 情景网格显示 EQIX 的平台质量、互联密度和 xScale 期权大体被当前价格资本化；需要下一轮 interconnection、AI bookings/presales 与 AFFO/share 证据才能打破平衡。
@@ -19,8 +21,8 @@
 | --- | --- |
 | Report id | eqix-2026 |
 | 链条层级 / 角色 | datacenter-facility / dashboard |
-| 最新报告期 | 2026Q1 |
-| 价格快照 | $1,002.02，截至 2026-07-02 |
+| 最新报告期 | ~~2026Q1~~ **2026Q2（2026-07-30 监测）** |
+| 价格快照 | $1,002.02，截至 2026-07-02（冻结快照，本次不刷新） |
 | 本次升级后 coverageTier | full |
 | Stance | 中性观察 / 中确信 |
 | 估值用途 | 情景与风险容错率，不是目标价 |
@@ -131,7 +133,7 @@
 | 基准情景 | MRR 维持高个位数到低十几位数增长；AI bookings/presales 正常开租但不再加速；xScale 提供容量期权但回报率需要继续观察；2026 non-recurring capex 约 $3.8B、利息成本和 power availability 抵消部分增长；P/AFFO 向约 20x 溢价倍数收敛 | 当前价格大致已经资本化基准情景：EQIX 质量高，但安全边际有限 | 40% |
 | 熊市情景 | AI presales 转化慢于预期，interconnection 或 MRR/cabinet yield 放缓；power、grid interconnect、供应链或 capex inflation 推迟容量；xScale JV 或利息成本压缩 AFFO/share 增长；P/AFFO 回到高十几倍 | 当前价格会显得偏贵；风险主要来自增长低于隐含要求与倍数收缩，而不是平台质量消失 | 30% |
 
-**已定价预期与预期差：** 以 2026-07-02 收盘 $1,002.02、约 23.5x 2026 AFFO/share 指引中点计，如果 P/AFFO 溢价倍数三年内向约 20x 正常化、要求回报为 8%，反推倍数框架隐含 AFFO/share CAGR 约为 `(23.5 / 20)^(1/3) x 1.08 - 1`，即约 **14%**。我们的基准情景需要 MRR、AI presales、xScale lease-up 与 AFFO/share 共同维持低十几位数增长，和这个隐含要求接近但不明显高于它。因此 EQIX 是高质量、强平台，但在当前带日期价格下预期差大体均衡。
+**已定价预期与预期差：** 以 2026-07-02 收盘 $1,002.02、约 23.5x 2026 AFFO/share 指引中点计，如果 P/AFFO 溢价倍数三年内向约 20x 正常化、要求回报为 8%，反推倍数框架隐含 AFFO/share CAGR 约为 `(23.5 / 20)^(1/3) x 1.08 - 1`，即约 **14%**。我们的基准情景需要 MRR、AI presales、xScale lease-up 与 AFFO/share 共同维持低十几位数增长，和这个隐含要求接近但不明显高于它。因此 EQIX 是高质量、强平台，但在当前带日期价格下预期差大体均衡。*（本次 2026-07-30 监测增加 Q2 2026 经营证据——收入 $2.625B（+16%）、AFFO/share $11.78（+19%）、创纪录 9,700 净增 interconnections、gross bookings $424M（+23%）、FY2026 指引与长期展望上调——但**不**刷新 $1,002.02 股价、AFFO 估计、估值倍数、stance 或 conviction。上调后的 AFFO/share 指引（$42.69-43.29 vs 此前 $42.31-43.11）使 2026-07-02 价格对应倍数小幅下移，若据此前移估值框架需一次单独的、以当前价格为基准的估值复核；财报后单纯的股价变动不构成可记录信号。）*
 
 关键估值问题是：下一组证据能否让 AFFO/share 与平台密度增长快于市场给的 P/AFFO 溢价要求。
 
@@ -139,10 +141,10 @@
 
 | 监测项 | 最新读数 | 触发器 | 下次检查 |
 | --- | --- | --- | --- |
-| Interconnection revenue 与平台密度 | Q1 interconnection revenue $446M；2025 年末 507,000+ interconnections | interconnection revenue 和 total interconnections 继续增长，验证 AI/云/网络 proximity moat | 2026-Q2 interconnection revenue and platform metrics |
-| AI bookings 与 annualized presales | Q1 annualized gross bookings $378M、presales 约 $140M、largest deals 约 60% AI-related | AI-related largest deals 维持高位并转化为 commenced recurring revenue | 2026-Q2 bookings and presales |
+| Interconnection revenue 与平台密度 | ~~Q1 interconnection revenue $446M；2025 年末 507,000+ interconnections~~ **Q2 2026 新增 interconnections 创纪录 9,700 个（Q1 interconnection revenue $446M、2025 年末 507,000+ 为上次收入/存量口径）** | interconnection revenue 和 total interconnections 继续增长，验证 AI/云/网络 proximity moat | 2026-Q3 interconnection revenue and platform metrics |
+| AI bookings 与 annualized presales | ~~Q1 annualized gross bookings $378M、presales 约 $140M、largest deals 约 60% AI-related~~ **Q2 2026 annualized gross bookings $424M（+23% Y/Y）；presales 约 $140M、largest deals 约 60% AI-related 为 Q1 口径** | AI-related largest deals 维持高位并转化为 commenced recurring revenue | 2026-Q3 bookings and presales |
 | xScale JV capacity 与经济性 | Q1 xScale JV equity investments $678M；Hampton campus $459M consideration 转入 AMER 3 JV | Hampton / AMER 3 与其他 xScale JVs 增加容量，同时不过度扩大 VIE 风险暴露 | xScale JV disclosures and capacity updates |
-| MRR / cabinet yield proxy | MRR 同比 +12% reported；2025 增加 23,250 个 retail cabinets | MRR 增长高于或匹配 cabinet additions 与 utilization，避免只扩 footprint 不扩收益 | MRR, cabinet and utilization disclosures |
+| MRR / cabinet yield proxy | ~~MRR 同比 +12% reported；2025 增加 23,250 个 retail cabinets~~ **Q2 2026 MRR 同比 +11%（reported 与 normalized constant currency 一致）；recurring revenue $2.377B** | MRR 增长高于或匹配 cabinet additions 与 utilization，避免只扩 footprint 不扩收益 | MRR, cabinet and utilization disclosures |
 | 电力可得性与 capex 约束 | 2026 non-recurring capex 指引约 $3.8B（不含 xScale/land），power 与 supply chain 为明确风险 | power、grid interconnect、供应链或 capex inflation 推迟 capacity 或压缩 returns | capex, power and project timing updates |
 
 未来 rerun 应由这些项目触发。只有当 monitoring update 改变链条 read-through 或估值容错率时，报告才需要实质更新。
@@ -166,6 +168,7 @@ Equinix 仍是 数据中心设施 层的互联溢价仪表盘。它的链条验�
 
 ## 附录：来源与假设
 
+| Equinix Q2 2026 results (newsroom) | https://newsroom.equinix.com/2026-07-29-Equinix-Reports-Second-Quarter-Results,-Raises-2026-Guidance-and-Long-Term-Outlook | 2026-07-29 发布，季度截至 2026-06-30：revenue $2.625B、recurring revenue、AFFO/share、MRR、record net interconnections、annualized gross bookings 与上调后的 FY2026 指引/长期展望 |
 | Equinix 2026Q1 10-Q | https://www.sec.gov/Archives/edgar/data/1101239/000110123926000091/eqix-20260331.htm | revenue、operating income、net income、interconnection revenue、capex 与 segment tables |
 | Equinix Q1 2026 earnings release | https://www.sec.gov/Archives/edgar/data/1101239/000110123926000089/eqix-q126xpr.htm | adjusted EBITDA、AFFO/share、MRR growth、bookings、presales、AI-related largest-deal mix 与 guidance |
 | Equity Method Investments / VIE note | https://www.sec.gov/Archives/edgar/data/1101239/000110123926000091/R10.htm | xScale JV investment balances、Hampton transaction value 与 VIE exposure |

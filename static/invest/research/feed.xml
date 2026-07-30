@@ -6,6 +6,41 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>Lam Research 深度研究报告 - AI 内存与先进逻辑的刻蚀/沉积校验 / Lam Research Deep Research Report - Etch And Deposition Check On AI Memory And Advanced Logic</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=lam-research-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=lam-research-2026#lam-research-2026@2026-07-30</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <description>2026-07-30 监测更新：AI 基础设施 semicap-equipment 层的刻蚀/沉积仪表盘。FY2026 Q4（6 月季度，截至 2026-06-28）：营收 $6.72B（环比 +15%、同比 +30%），non-GAAP gross margin 52.0%（GAAP 51.7%）、non-GAAP operating margin 38.4%（GAAP 37.4%）、non-GAAP 摊薄 EPS $1.82（GAAP $1.81）；Systems revenue $4.250B、customer support-related and other revenue $2.472B；deferred revenue 升至 $2.43B。管理层给出 9 月季度（FY2027 Q1）指引：营收 $8.10B +/- $400M、gross margin 52.0% +/- 1%、non-GAAP 摊薄 EPS $2.15 +/- $0.15。公司称创下 revenue、operating margin 与 EPS 纪录，并称广泛的 AI 驱动需求正在重塑半导体市场；新闻稿未把需求具体归因到 NAND、DRAM 或先进逻辑。$351.41、约 16.6x EV/annualized sales 为 2026-07-02 初始估值快照；本次监测不刷新股价、年度 EPS 估计、估值倍数、stance 或 conviction，维持中性观察 / 中确信。</description>
+    </item>
+    <item>
+      <title>Equinix 深度研究报告 - AI 数据中心设施层的互联溢价仪表盘 / Equinix Deep Research Report - The Interconnection-Premium Dashboard for AI Data-Center Facilities</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=eqix-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=eqix-2026#eqix-2026@2026-07-30</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <description>2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30）：收入 $2.625B（同比 +16%，包含一次性 xScale fees）、recurring revenue $2.377B（MRR 同比 +11%）、AFFO $1.168B（+20%）、AFFO/share $11.78（+19%）；Q2 新增 interconnections 创纪录 9,700 个、annualized gross bookings $424M（+23%）。管理层上调 FY2026 指引与长期展望。互联、bookings 与 MRR 同向走强，facility-interconnection-leasing 证伪条件未触发；这些指标与网络密集部署一致，但公司未将其具体归因于 AI，不能作为 AI 因果证明。下文 $1,002.02（2026-07-02）估值快照与 stance 不因本次监测刷新。AI 基础设施 datacenter-facility 层的 DLR 对照组：EQIX 用 Platform Equinix interconnection、retail colocation、xScale JV 和 AFFO/share 来验证 AI 需求是否不只是 hyperscale shell leasing。2026Q1 收入 $2.444B（reported YoY +10%）、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；MRR 同比 +12% reported / +10% normalized constant currency，annualized gross bookings $378M，annualized presales 约 $140M，largest deals 约 60% AI-related。2025 年报披露 280 个数据中心、10,500+ 客户、507,000+ interconnections，Q1 2026 interconnection revenue $446M。当前 $1,002.02（2026-07-02）、市值约 $98.8B、EV 约 $120.8B，约 23.5x 2026 AFFO/share 指引中点、约 11.9x 2026 revenue 指引。中性观察 / 中确信：质量高但估值高，关键监控是 interconnection revenue、AI bookings/presales、xScale economics、MRR/cabinet yield 与 power availability。</description>
+    </item>
+    <item>
+      <title>Vertiv 深度研究报告 - AI 数据中心电力与散热的卖铲人（建设速度仪表盘） / Vertiv Deep Research Report - The Power &amp; Cooling Pick-and-Shovel of AI Data Centers (Buildout Dashboard)</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=vertiv-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=vertiv-2026#vertiv-2026@2026-07-30</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <description>2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30）：净销售额 $32.74亿（+24%、有机 +18%），调整后营业利润率 22.6%（+410bps），摊薄 EPS $1.27（+53%）、调整后摊薄 EPS $1.52（+60%），经营现金流 $11.0亿、调整后 FCF $9.25亿（+234%）。管理层全面上调 FY2026 指引：净销售额 $138-142亿（有机 +31%）、调整后 EPS $6.65-6.75、调整后 FCF $24-26亿。该财报未量化本季订单/backlog。下文 $306.97（2026-06-29）估值快照与 stance 不因本次监测刷新。数据中心电力与热管理（含液冷）卖铲人，位于『电从哪来』(GEV/Bloom)与『芯片』(NVDA/AVGO)之间，是 AI 建设速度最实时的『仪表盘』。Q1 2026 营收$26.5亿(+30%，有机+23%、美洲有机+44%)、调整后营业利润率20.8%(+430bps)、调整后EPS $1.17(+83%)、调整后FCF $6.53亿(+147%)；最新披露的 Q4 2025 backlog $150亿(+109%)、book-to-bill ~2.9x。FY2026指引上调至营收$135-140亿、调整后EPS $6.30-6.40。但股价一年约3倍至$306.97、市值~$1,179亿、~48倍前瞻调整后EPS(~80倍滚动)，已定价多年持续建设；高beta订单簿是双刃剑。谨慎 / 中确信：高质量业务，但价格隐含几乎完美的建设节奏。</description>
+    </item>
+    <item>
+      <title>SK hynix 深度研究报告 - HBM垄断者的AI记忆霸权 / SK hynix Deep Research Report - The HBM Monopolist's AI Memory Dominance</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=sk-hynix-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=sk-hynix-2026#sk-hynix-2026@2026-07-30</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <description>2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30，公司披露口径）：营收 ₩79.32 万亿（+257% YoY）、营业利润 ₩60.54 万亿（营业利润率 76%）、净利润 ₩93.92 万亿（公司称净利率 118%），创季度历史新高，H1 累计营收首破 ₩100 万亿；DRAM 与 NAND 价格环比均显著上行，Q2 起 HBM4 量产出货，已与约 10 家客户签订多年期 LTA、称需求超供给。新闻稿未拆分从营业利润 ₩60.54 万亿到净利润 ₩93.92 万亿之间的桥接项。下文 2026-06-25（₩2,917,000）估值快照与 stance 不因本次监测刷新。v5 回填：SK hynix 仍是全球 HBM 领导者，Q1 2026 营收 ₩52.6T、营业利润 ₩37.6T、营业利润率约 72%，但自 2 月以来股价约上涨 3.5 倍，价格锚点 ₩2,917,000 对应约 28x TTM P/E 和约 16x sales。20% 牛市 / 50% 基准 / 30% 熊市情景说明 HBM 质量真实，但当前价格已经资本化接近峰值的盈利能力，因此改为谨慎 / 中确信。2026-07-10 最终 SEC 424B4 确认 1.779 亿份 SKHY ADS 按 $149 发行、预计净募资约 $26.2B，用于韩国生产设施与 EUV 扫描仪；该事件改善可达性并强化 capex 执行证据，但不刷新 2026-06-25 估值快照。</description>
+    </item>
+    <item>
+      <title>Meta Platforms 深度研究报告 - AI 基建书的需求锚与算力外售压力测试 / Meta Platforms Deep Research Report - Demand Anchor and Compute-Resale Stress Test for the AI-Infra Book</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=meta-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=meta-2026#meta-2026@2026-07-30</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <description>2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30）：收入 $60.80B（同比 +28%）、营业利润 $18.775B、营业利润率 31%（去年同期 43%）、净利润 $15.848B（同比 -14%）、摊薄 EPS $6.18；总成本费用 $42.026B（同比 +55%）。经营现金流 $31.862B（+25%），但 $31.078B capex 把自由现金流压至 $0.784B（-91%）；FY2026 capex 指引收窄至 $130-145B。application-monetization 是混合读数：收入与经营现金流增长，营业利润率、净利润与 FCF 恶化。下文 $600.29（2026-07-06）估值快照、stance 与 conviction 不因本次监测刷新。本中心 AI 基础设施书 demand-risk 层的需求锚覆盖：Meta 不是 GPU/HBM/电力/光模块供应商，而是整条链最重要的终端买方之一。Q1 2026 收入 $56.31B(+33%)、营业利润 $22.87B、经营现金流 $32.23B、自由现金流 $13.23B，说明广告主业仍能融资 AI 建设；但公司把 2026 capex 指引抬到 $125-145B，且 7 月初被报道考虑推出 Meta Compute、外售过剩 AI 算力。股价 $582.90（2026-07-02 收盘）、市值约 $1.48T、约 6.9x TTM P/S、约 17x EV/TTM 营业利润，按 Q1 剔除约 $8B 税益 EPS 年化约 20x。核心读数：Meta capex 若继续被广告/AI 产品吸收，AI 基建链需求得到支撑；若外售算力意味着供给过剩或内部需求不足，则 CoreWeave/Nebius、HBM、光连接和电力链都要下修稀缺假设。2026-07-07 v5 更新：以 2026-07-06 收盘 $600.29 为锚，30% 牛市 / 50% 基准 / 20% 熊市情景网格接近市场隐含预期，维持 neutral-watch / 中确信。</description>
+    </item>
+    <item>
       <title>KLA 深度研究报告 - AI 产能的过程控制与良率仪表盘 / KLA Deep Research Report - Process-Control And Yield Dashboard For AI Capacity</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=kla-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=kla-2026#kla-2026@2026-07-28</guid>
@@ -90,13 +125,6 @@
       <description>AI 基础设施 semicap-equipment 层的公共约束：ASML 验证 foundry / memory capex 是否真正穿过光刻、EUV、High-NA、长期协议和出口管制这道最硬瓶颈。Q2 2026 net sales EUR 9.326B、gross margin 54.0%、net income EUR 2.918B；FY2026 指引第二次上调至 net sales EUR 43-45B、gross margin 54-56%，并计划把 2027 年 low-NA EUV 与 DUV immersion 产能各较 2026 年增加 30%。本次监测没有季度 net bookings 或 backlog 披露，因此只加强设备侧确认，不证明客户特定 capex 已全部承诺。ADR $1,769.32、约 15.6x EV/2026E sales 仍是基于当时 EUR 36-40B 指引的 2026-07-02 初始估值快照，本次不刷新估值或立场；维持中性观察 / 中确信。</description>
     </item>
     <item>
-      <title>SK hynix 深度研究报告 - HBM垄断者的AI记忆霸权 / SK hynix Deep Research Report - The HBM Monopolist's AI Memory Dominance</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=sk-hynix-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=sk-hynix-2026#sk-hynix-2026@2026-07-15</guid>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
-      <description>v5 回填：SK hynix 仍是全球 HBM 领导者，Q1 2026 营收 ₩52.6T、营业利润 ₩37.6T、营业利润率约 72%，但自 2 月以来股价约上涨 3.5 倍，价格锚点 ₩2,917,000 对应约 28x TTM P/E 和约 16x sales。20% 牛市 / 50% 基准 / 30% 熊市情景说明 HBM 质量真实，但当前价格已经资本化接近峰值的盈利能力，因此改为谨慎 / 中确信。2026-07-10 最终 SEC 424B4 确认 1.779 亿份 SKHY ADS 按 $149 发行、预计净募资约 $26.2B，用于韩国生产设施与 EUV 扫描仪；该事件改善可达性并强化 capex 执行证据，但不刷新 2026-06-25 估值快照。</description>
-    </item>
-    <item>
       <title>Micron Technology 深度研究报告 - AI memory 周期的 HBM/DRAM/NAND 仪表盘 / Micron Technology Deep Research Report - HBM, DRAM, and NAND Dashboard for the AI Memory Cycle</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=micron-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=micron-2026#micron-2026@2026-07-15</guid>
@@ -118,13 +146,6 @@
       <description>AI 基础设施 semicap-equipment 层的广谱设备仪表盘：AMAT 验证 AI 需求是否不只卡在 EUV，而是扩散到 deposition、etch、advanced packaging、DRAM 和服务。FY2026 Q2 收入 $7.91B、GAAP gross margin 49.9%、non-GAAP EPS $2.86；Semiconductor Systems 收入 $5.965B，其中 foundry/logic/other 67%、DRAM 29%。Q3 指引收入 $8.950B +/- $500M、non-GAAP EPS $3.36 +/- $0.20。当前 $603.04、市值约 $478.8B、EV 约 $477.8B，约 13.3x EV/Q3 annualized sales、约 36.8x forward EPS。谨慎 / 中确信：上行周期强，但中国/台湾暴露和估值容错率让情景偏斜略偏负。</description>
     </item>
     <item>
-      <title>Lam Research 深度研究报告 - AI 内存与先进逻辑的刻蚀/沉积校验 / Lam Research Deep Research Report - Etch And Deposition Check On AI Memory And Advanced Logic</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=lam-research-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=lam-research-2026#lam-research-2026@2026-07-07</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施 semicap-equipment 层的刻蚀/沉积仪表盘：LRCX 验证 HBM、先进 DRAM、3D 结构和领先逻辑是否提高 process-tool intensity。2026 年 3 月季度收入 $5.841B、GAAP gross margin 49.8%、non-GAAP EPS $1.47；Systems revenue $3.731B，customer-support-related and other revenue $2.111B。6 月季度指引收入 $6.60B +/- $400M、gross margin 50.5%、operating margin 36.5%。当前 $351.41、市值约 $439.5B、EV 约 $438.4B，约 16.6x EV/June-quarter annualized sales。中性观察 / 中确信：AI process intensity 强，但中国 34% 收入暴露和估值让偏斜保持均衡。</description>
-    </item>
-    <item>
       <title>Synopsys 深度研究报告 - AI 芯片设计的 EDA/IP 与仿真约束 / Synopsys Deep Research Report - EDA/IP And Simulation Constraint For AI Silicon Design</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=synopsys-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=synopsys-2026#synopsys-2026@2026-07-07</guid>
@@ -139,13 +160,6 @@
       <description>2026-07-07 v5更新：NRG仍是AI基础设施power层的merchant + retail dashboard，价格锚点$136.70（2026-07-02）、市值约$28.8B、EV约$52.7B，约15.4x 2026调整后EPS指引中点、约9.4x 2026调整后EBITDA指引中点。20%牛市/50%基准/30%熊市情景显示合同转化尚未证明而杠杆/回购纪律仍是约束，v5立场迁移为谨慎/中确信。</description>
     </item>
     <item>
-      <title>Equinix 深度研究报告 - AI 数据中心设施层的互联溢价仪表盘 / Equinix Deep Research Report - The Interconnection-Premium Dashboard for AI Data-Center Facilities</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=eqix-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=eqix-2026#eqix-2026@2026-07-07</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施 datacenter-facility 层的 DLR 对照组：EQIX 用 Platform Equinix interconnection、retail colocation、xScale JV 和 AFFO/share 来验证 AI 需求是否不只是 hyperscale shell leasing。2026Q1 收入 $2.444B（reported YoY +10%）、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；MRR 同比 +12% reported / +10% normalized constant currency，annualized gross bookings $378M，annualized presales 约 $140M，largest deals 约 60% AI-related。2025 年报披露 280 个数据中心、10,500+ 客户、507,000+ interconnections，Q1 2026 interconnection revenue $446M。当前 $1,002.02（2026-07-02）、市值约 $98.8B、EV 约 $120.8B，约 23.5x 2026 AFFO/share 指引中点、约 11.9x 2026 revenue 指引。中性观察 / 中确信：质量高但估值高，关键监控是 interconnection revenue、AI bookings/presales、xScale economics、MRR/cabinet yield 与 power availability。</description>
-    </item>
-    <item>
       <title>Arista Networks 深度研究报告 - AI 集群开放以太网 fabric 的系统软件卖铲人 / Arista Networks Deep Research Report - The Open Ethernet Fabric of AI Clusters</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=arista-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=arista-2026#arista-2026@2026-07-07</guid>
@@ -158,13 +172,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=coreweave-2026#coreweave-2026@2026-07-07</guid>
       <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
       <description>本中心 AI 基础设施书的『风险锚』，刻意以熊市为主轴写。GPU『neocloud』，一边是 $994 亿公司定义收入 backlog（RPO + 其他承诺客户合同金额）与 56% 调整后 EBITDA，一边是扩大的 GAAP 净亏损（Q1 2026 −$7.4 亿）、约 $249 亿债务、约 $100 亿经营租赁负债、$310-350 亿 2026 资本开支（约 3 倍营收）。客户集中（微软历史上收入占比 &gt;60%；CNBC 引 2024 年为 62%），NVIDIA 同时是供应商+股东（$20 亿@$87）+$63 亿产能兜底（循环性）。Q1 2026 营收 $20.78 亿(+112%)，FY2026 指引营收 $120-130 亿。股价已较 2025 峰值回落约 47% 至约 $96、市值约 $520 亿、经营租赁前金融净债务约 $229 亿、含经营租赁净义务栈约 $329 亿。中心问题：是真实经济需求还是被杠杆催起的提前囤货？2026-07-07 v5 更新：以 2026-07-06 收盘 $86.46 为锚，20% 牛市 / 30% 基准 / 50% 熊市情景网格给出负预期差，维持 bearish-avoid / 中确信。</description>
-    </item>
-    <item>
-      <title>Vertiv 深度研究报告 - AI 数据中心电力与散热的卖铲人（建设速度仪表盘） / Vertiv Deep Research Report - The Power &amp; Cooling Pick-and-Shovel of AI Data Centers (Buildout Dashboard)</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=vertiv-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=vertiv-2026#vertiv-2026@2026-07-07</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
-      <description>数据中心电力与热管理（含液冷）卖铲人，位于『电从哪来』(GEV/Bloom)与『芯片』(NVDA/AVGO)之间，是 AI 建设速度最实时的『仪表盘』。Q1 2026 营收$26.5亿(+30%，有机+23%、美洲有机+44%)、调整后营业利润率20.8%(+430bps)、调整后EPS $1.17(+83%)、调整后FCF $6.53亿(+147%)；最新披露的 Q4 2025 backlog $150亿(+109%)、book-to-bill ~2.9x。FY2026指引上调至营收$135-140亿、调整后EPS $6.30-6.40。但股价一年约3倍至$306.97、市值~$1,179亿、~48倍前瞻调整后EPS(~80倍滚动)，已定价多年持续建设；高beta订单簿是双刃剑。谨慎 / 中确信：高质量业务，但价格隐含几乎完美的建设节奏。</description>
     </item>
     <item>
       <title>NVIDIA 深度研究报告 - AI 计算中枢的高质量与高预期 / NVIDIA Deep Research Report - The AI Compute Hub, High Quality Meets High Expectations</title>
@@ -256,13 +263,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=vistra-2026#vistra-2026@2026-07-07</guid>
       <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
       <description>2026-07-07 v5更新：VST是AI基础设施power层的nuclear-plus-gas高beta dashboard。价格锚点$151.05（2026-07-02）、市值约$50.9B、EV约$70.2B、约3.6x EV/TTM sales，并含约$19.3B净债务。30%牛市/40%基准/30%熊市情景显示上行真实但下行更快，v5立场迁移为谨慎/中确信。</description>
-    </item>
-    <item>
-      <title>Meta Platforms 深度研究报告 - AI 基建书的需求锚与算力外售压力测试 / Meta Platforms Deep Research Report - Demand Anchor and Compute-Resale Stress Test for the AI-Infra Book</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=meta-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=meta-2026#meta-2026@2026-07-07</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
-      <description>本中心 AI 基础设施书 demand-risk 层的需求锚覆盖：Meta 不是 GPU/HBM/电力/光模块供应商，而是整条链最重要的终端买方之一。Q1 2026 收入 $56.31B(+33%)、营业利润 $22.87B、经营现金流 $32.23B、自由现金流 $13.23B，说明广告主业仍能融资 AI 建设；但公司把 2026 capex 指引抬到 $125-145B，且 7 月初被报道考虑推出 Meta Compute、外售过剩 AI 算力。股价 $582.90（2026-07-02 收盘）、市值约 $1.48T、约 6.9x TTM P/S、约 17x EV/TTM 营业利润，按 Q1 剔除约 $8B 税益 EPS 年化约 20x。核心读数：Meta capex 若继续被广告/AI 产品吸收，AI 基建链需求得到支撑；若外售算力意味着供给过剩或内部需求不足，则 CoreWeave/Nebius、HBM、光连接和电力链都要下修稀缺假设。2026-07-07 v5 更新：以 2026-07-06 收盘 $600.29 为锚，30% 牛市 / 50% 基准 / 20% 熊市情景网格接近市场隐含预期，维持 neutral-watch / 中确信。</description>
     </item>
     <item>
       <title>Oracle 深度研究报告 - AI 云 RPO 仪表盘与资本开支融资压力 / Oracle Deep Research Report - AI Cloud RPO Dashboard and Capex Financing Pressure</title>

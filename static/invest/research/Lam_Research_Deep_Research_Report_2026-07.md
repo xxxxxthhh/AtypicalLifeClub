@@ -1,7 +1,7 @@
 # Lam Research Deep Research Report - Etch And Deposition Check On AI Memory And Advanced Logic
 
 Coverage date: 2026-07-05
-Last updated: 2026-07-07
+Last updated: 2026-07-30
 Ticker: NASDAQ: LRCX
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -11,6 +11,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 > **Framework role:** Lam Research is the dashboard for the AI-infrastructure semiconductor equipment layer. The report's job is to test the chain signal, not to turn one company print into a recommendation.
 
+> **2026-07-30 factual update (Q4 fiscal 2026, June quarter ended June 28, 2026):** Lam reported revenue of **$6.72B (+15% sequentially, +30% YoY)**, non-GAAP gross margin **52.0%** (GAAP 51.7%), non-GAAP operating margin **38.4%** (GAAP 37.4%), and non-GAAP diluted EPS **$1.82** (GAAP $1.81; net income $2.28B). **Systems revenue was $4.250B** (+24% YoY, +14% sequentially) and **customer support-related and other revenue was $2.472B** (+42.6% YoY); **deferred revenue rose to $2.43B** (from $2.22B in the March quarter), with Japan future-revenue shipments of about $490.2M. June-quarter revenue mix was Taiwan 27%, China 26%, Korea 20%. Management guided the **September quarter (fiscal Q1 2027)** to revenue of **$8.10B +/- $400M**, gross margin **52.0% +/- 1%**, and non-GAAP diluted EPS of **$2.15 +/- $0.15**. CEO Tim Archer said Lam set records for revenue, operating margin, and EPS in the June quarter as "AI-driven demand continues to reshape the semiconductor industry." The $351.41 price and ~16.6x EV/annualized sales below are the **frozen July 2, 2026 valuation snapshot**; this monitoring pass adds operating evidence but does **not** refresh the share price, annual EPS estimate, valuation multiple, stance, or conviction. Stance stays **neutral watch / medium conviction**.
+
 **One-line thesis:** Etch/deposition dashboard for the AI-infrastructure semicap-equipment layer. LRCX tests whether HBM, advanced DRAM, 3D structures, and leading-edge logic are raising process-tool intensity. March 2026 quarter revenue was $5.841B, GAAP gross margin was 49.8%, and non-GAAP EPS was $1.47; Systems revenue was $3.731B and customer-support-related and other revenue was $2.111B. June-quarter guidance is $6.60B revenue +/- $400M, 50.5% gross margin, and 36.5% operating margin. At $351.41, about $439.5B market cap and $438.4B EV, LRCX trades around 16.6x EV/June-quarter annualized sales. Neutral watch / medium conviction: AI process intensity is strong, but China exposure at 34% of revenue and valuation keep the skew balanced.
 
 **Current view:** **neutral watch / medium conviction.** Lam has one of the cleaner AI-process-intensity stories in the group, but the dated price already assumes strong Systems conversion, resilient service revenue, and no break in China/Korea/Taiwan demand.
@@ -19,8 +21,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 | --- | --- |
 | Report id | lam-research-2026 |
 | Chain layer / role | semicap-equipment / dashboard |
-| Latest reported period | March 2026 quarter |
-| Price snapshot | $351.41 as of 2026-07-02 |
+| Latest reported period | ~~March 2026 quarter~~ **June 2026 quarter (2026-07-30 monitoring)** |
+| Price snapshot | $351.41 as of 2026-07-02 (frozen snapshot, not refreshed this pass) |
 | Coverage tier after this upgrade | full |
 | Stance | neutral watch / medium conviction |
 | Primary valuation use | scenario context and risk tolerance, not a target price |
@@ -131,17 +133,17 @@ Valuation is used as risk context, not as a recommendation. The v5 question is w
 | Base | June-quarter revenue lands near the $6.60B midpoint; Systems and service both grow but at a more normal pace; China remains large but manageable; Japan deferred-revenue acceptance proceeds; EV/sales drifts toward high single digits to low teens | Current price is broadly fair, with enough process-intensity evidence to avoid a negative stance but not enough margin for a clearly positive call | 40% |
 | Bear | China revenue or export limits reduce shipment visibility; Korea/Taiwan HBM or logic demand fails to offset; Japan acceptance slips; service revenue weakens; operating margin misses the guide; the multiple resets toward ordinary tool-cycle levels | Current price would be rich because revenue conversion and the multiple would both disappoint | 30% |
 
-**What's priced in & the expectation gap:** At $351.41, about $438.4B EV, and 16.6x EV/June-quarter annualized sales, the market is paying for process-tool intensity to stay elevated through the next WFE cycle. If Lam's through-cycle multiple normalizes toward roughly 10-12x sales and investors require about 8% annually, the current frame needs sustained mid-to-high-teens revenue growth or a durable mid-teens multiple. Our 30% bull / 40% base / 30% bear grid leaves the base case close to that implied expectation, so the skew is balanced. This is an expectations frame, not a target price.
+**What's priced in & the expectation gap:** At $351.41, about $438.4B EV, and 16.6x EV/June-quarter annualized sales, the market is paying for process-tool intensity to stay elevated through the next WFE cycle. If Lam's through-cycle multiple normalizes toward roughly 10-12x sales and investors require about 8% annually, the current frame needs sustained mid-to-high-teens revenue growth or a durable mid-teens multiple. Our 30% bull / 40% base / 30% bear grid leaves the base case close to that implied expectation, so the skew is balanced. This is an expectations frame, not a target price. *(The 2026-07-30 monitoring pass adds June-quarter operating evidence — record revenue of $6.72B, Systems revenue of $4.250B, and a $8.10B September-quarter guide midpoint — but does not refresh the share price, annual EPS estimate, or resulting multiple; any post-earnings share-price move alone is not a loggable signal. The September guide is about +21% sequentially over the June actual, so moving the valuation frame forward would require a separate current-price valuation review.)*
 
 ## 9. Catalysts And Monitoring
 
 | Monitor | Latest reading | Trigger | Next check |
 | --- | --- | --- | --- |
-| Etch/deposition AI demand | Systems revenue was $3.731B | Systems revenue keeps growing, validating HBM / advanced-logic process intensity | June-quarter results |
-| China/Korea/Taiwan mix | quarter revenue mix: China 34%, Korea 23%, Taiwan 23% | China revenue or export limits weaken, or Korea/Taiwan HBM / logic demand fails to offset | geography and customer mix |
-| Deferred revenue and Japan acceptance | deferred revenue was $2.22B; Japan future-revenue shipments were about $434M | shipments to Japan for future revenue are accepted and recognized on plan | acceptance and deferred revenue update |
-| June-quarter guidance conversion | June-quarter guide: revenue $6.60B +/- $400M and operating margin 36.5% +/- 1 point | revenue approaches the $6.60B midpoint and operating margin approaches 36.5% | June-quarter print |
-| Service and installed-base resilience | customer-support-related and other revenue was $2.111B | customer-support-related and other revenue remains resilient, indicating healthy installed-base utilization | service revenue trend |
+| Etch/deposition AI demand | ~~Systems revenue was $3.731B~~ **Systems revenue was $4.250B in the June 2026 quarter (+14% Q/Q, +24% Y/Y)** | Systems revenue keeps growing, validating HBM / advanced-logic process intensity | September-quarter results |
+| China/Korea/Taiwan mix | ~~quarter revenue mix: China 34%, Korea 23%, Taiwan 23%~~ **June 2026 quarter: Taiwan 27%, China 26%, Korea 20%, Japan 9%, US 9%** | China revenue or export limits weaken, or Korea/Taiwan HBM / logic demand fails to offset | geography and customer mix |
+| Deferred revenue and Japan acceptance | ~~deferred revenue was $2.22B; Japan future-revenue shipments were about $434M~~ **deferred revenue rose to $2.43B; Japan future-revenue shipments were about $490.2M** | shipments to Japan for future revenue are accepted and recognized on plan | acceptance and deferred revenue update |
+| June-quarter guidance conversion | ~~June-quarter guide: revenue $6.60B +/- $400M and operating margin 36.5% +/- 1 point~~ **June quarter actual: revenue $6.72B (+30% Y/Y), non-GAAP operating margin 38.4%, non-GAAP EPS $1.82, all above guide; September-quarter guide $8.10B +/- $400M revenue and $2.15 +/- $0.15 non-GAAP EPS** | revenue approaches the $6.60B midpoint and operating margin approaches 36.5% | September-quarter print |
+| Service and installed-base resilience | ~~customer-support-related and other revenue was $2.111B~~ **customer support-related and other revenue was $2.472B in the June 2026 quarter (+42.6% Y/Y)** | customer-support-related and other revenue remains resilient, indicating healthy installed-base utilization | service revenue trend |
 
 These are the items that should drive future reruns. A monitoring update should change the report only when it changes the chain read-through or the valuation tolerance.
 
@@ -164,6 +166,7 @@ Upgrade trigger: move to constructive if June-quarter revenue reaches or exceeds
 
 ## Appendix: Sources And Assumptions
 
+- Lam Research June 2026 quarter (Q4 fiscal 2026) earnings release (issued 2026-07-29, quarter ended June 28, 2026): [Lam Research IR press release](https://newsroom.lamresearch.com/2026-07-29-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-June-28,-2026) — revenue, GAAP/non-GAAP margins and EPS, Systems/service split, deferred revenue, regional mix, and September-quarter guidance.
 - Lam Research March 2026 quarter 10-Q: [SEC filing](https://www.sec.gov/Archives/edgar/data/707549/000070754926000022/lrcx-20260329.htm).
 - Lam Research March 2026 quarter earnings release: [Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/707549/000070754926000020/lrcx_exhibitx991xq3x2026.htm).
 

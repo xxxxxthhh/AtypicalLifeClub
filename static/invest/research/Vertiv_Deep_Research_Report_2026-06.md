@@ -1,7 +1,7 @@
 # Vertiv (VRT) Deep Research Report
 
 Coverage date: 2026-06-30
-Last updated: 2026-07-07
+Last updated: 2026-07-30
 Ticker: NYSE: VRT
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence. All prices and market caps are point-in-time snapshots; financial figures are per company disclosure unless noted otherwise.
 
@@ -10,6 +10,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 ---
 
 ## Executive Summary
+
+> **2026-07-30 factual update (Q2 2026, quarter ended June 30, 2026):** Vertiv reported net sales of **$3.274B (+24%, +18% organic)**, adjusted operating margin **22.6% (+410bps)**, diluted EPS **$1.27 (+53%)** and adjusted diluted EPS **$1.52 (+60%)**; operating cash flow was **$1.10B (+241%)** and adjusted free cash flow **$925M (+234%)**. Management raised **FY2026 guidance** across all metrics: net sales **$13.8-14.2B (+31% organic)**, adjusted EPS **$6.65-6.75**, and adjusted FCF **$2.4-2.6B**. **The release did not quantify this quarter's orders/backlog** (the last disclosed backlog remains Q4 2025's $15.0B with book-to-bill ~2.9x); organic revenue and the guide raise confirm a positive demand direction, but the buildout-orders orders/backlog falsifier cannot be tested from this release and the latest quantified read awaits a later disclosure. The $306.97 price and ~48x FY2026E ($6.30-6.40 prior-guide basis) below are the **frozen June 29, 2026 valuation snapshot**; this monitoring pass adds operating evidence but does **not** refresh the share price, valuation multiple, stance, or conviction. Stance stays **cautious / medium conviction**. Note: the raised $6.65-6.75 guide lowers the forward multiple implied by the June 29 price, so moving the valuation frame forward would require a separate current-price valuation review.
 
 **One-line thesis:** Vertiv is the picks-and-shovels supplier of data-center power and thermal management — the layer between "where the electricity comes from" (GE Vernova / Bloom / Oklo) and "the chips that consume it" (NVIDIA / Broadcom). As AI racks jump from ~10kW to 100kW+ and force the industry from air to liquid cooling, Vertiv's Q1 2026 print shows the pull: revenue **+30% to $2.65B** (+23% organic, Americas +44% organic), adjusted operating margin **20.8%** (+430bps), adjusted EPS **$1.17** (+83%); the latest disclosed backlog was **$15.0B** at Q4 2025 (+109% Y/Y, reported February 2026). The order book is the tell, but its date matters: this is the most recent backlog anchor, not a Q1 2026 balance.
 
@@ -27,13 +29,13 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Forward P/E | ~48x (FY2026E adj EPS $6.30-6.40); ~54x (FY2026E GAAP $5.60-5.70) |
 | Trailing P/E (GAAP) | ~80x |
 | EV/EBITDA (FY2026E, est.) | ~34x; EV/Sales ~8.6x |
-| Q1 2026 net sales | $2,650M (+30% Y/Y; +23% organic, +4% M&A, +3% FX) |
-| Q1 2026 Americas organic | +44% |
-| Q1 2026 adj operating margin | 20.8% (+430bps Y/Y) |
-| Q1 2026 adj diluted EPS | $1.17 (+83%); GAAP net income $390M (+137%) |
-| Q1 2026 adj free cash flow | $653M (+147%) |
-| Backlog | $15.0B (Q4 2025, +109% Y/Y); book-to-bill well above 1x |
-| FY2026 guidance (raised) | revenue $13.5-14.0B (organic +29-31%); adj EPS $6.30-6.40 (+51% mid); adj op margin ~23.3% |
+| Q1 2026 net sales | ~~$2,650M (+30% Y/Y; +23% organic, +4% M&A, +3% FX)~~ **Q2 2026 net sales $3,274M (+24% Y/Y; +18% organic)** |
+| Q1 2026 Americas organic | +44% (Q1; Q2 Americas-organic not separately broken out) |
+| Q1 2026 adj operating margin | ~~20.8% (+430bps Y/Y)~~ **Q2 2026 adj operating margin 22.6% (+410bps Y/Y)** |
+| Q1 2026 adj diluted EPS | ~~$1.17 (+83%); GAAP net income $390M (+137%)~~ **Q2 2026 adj diluted EPS $1.52 (+60%); diluted EPS $1.27 (+53%)** |
+| Q1 2026 adj free cash flow | ~~$653M (+147%)~~ **Q2 2026 adj free cash flow $925M (+234%); operating cash flow $1.10B** |
+| Backlog | ~~$15.0B (Q4 2025, +109% Y/Y); book-to-bill well above 1x~~ **Q2 2026 release did not quantify orders/backlog; last disclosed remains Q4 2025's $15.0B (+109% Y/Y), book-to-bill ~2.9x** |
+| FY2026 guidance (raised) | ~~revenue $13.5-14.0B (organic +29-31%); adj EPS $6.30-6.40 (+51% mid); adj op margin ~23.3%~~ **Raised in Q2 2026: net sales $13.8-14.2B (organic +31%); adj EPS $6.65-6.75; adj FCF $2.4-2.6B** |
 | Liquid-cooling position | Directionally a leading vendor; public share/TAM estimates vary and are treated as industry estimates, not audited company disclosure |
 | Primary competitors | Schneider Electric, Eaton, Modine, Rittal, Stulz |
 | CEO / Exec Chairman | Giordano "Gio" Albertazzi / David Cote |
@@ -180,7 +182,7 @@ Management *raised* full-year guidance on the Q1 print, implying ~30% organic gr
 | Base | AI buildout remains strong through 2027, but order growth normalizes from the Q4 2025 high; backlog conversion supports high-teens to low-20s EPS CAGR after FY2026; liquid-cooling adoption continues but competition intensifies; adjusted operating margin is about 23-24%; forward P/E normalizes toward about 32x | Current price already discounts the optimistic side of base, and Vertiv needs continued execution to grow into the valuation | 50% |
 | Bear | Hyperscaler capex digests, orders/book-to-bill approaches or falls below 1x, and backlog starts rolling over; Schneider/Eaton and others pressure liquid-cooling and power-equipment price or share; margin expansion stops, EPS CAGR falls to low-teens or worse; forward P/E returns to the 20s | Current price is rich; earnings cadence and multiple can compress together, turning the high-beta order book into a downside warning | 30% |
 
-**What's priced in & the expectation gap:** At the $306.97 close on Jun 29, 2026 and about 48x FY2026E adjusted EPS, if forward P/E normalizes toward about 32x over three years with an 8% required return, the reverse-multiple frame implies about `(48 / 32)^(1/3) x 1.08 - 1`, or roughly **24% EPS CAGR**. Our base case needs backlog, liquid-cooling share, and 23%+ margins to keep delivering just to approach that hurdle; the 20% bull / 50% base / 30% bear blend says business quality is high, but the expectation gap is negative at the current price and the skew turns cautious. This is an expectations frame, not a target price.
+**What's priced in & the expectation gap:** At the $306.97 close on Jun 29, 2026 and about 48x FY2026E adjusted EPS, if forward P/E normalizes toward about 32x over three years with an 8% required return, the reverse-multiple frame implies about `(48 / 32)^(1/3) x 1.08 - 1`, or roughly **24% EPS CAGR**. Our base case needs backlog, liquid-cooling share, and 23%+ margins to keep delivering just to approach that hurdle; the 20% bull / 50% base / 30% bear blend says business quality is high, but the expectation gap is negative at the current price and the skew turns cautious. This is an expectations frame, not a target price. *(The 2026-07-30 monitoring pass adds Q2 2026 operating evidence — net sales $3.274B (+24%, +18% organic), adjusted operating margin 22.6%, adjusted FCF $925M, and a FY2026 guide raised to $6.65-6.75 adjusted EPS — but does **not** refresh the $306.97 share price, valuation multiple, stance, or conviction; the release did not quantify orders/backlog. The raised guide lowers the June-29 forward multiple from ~48x ($6.30-6.40 basis) to ~46x ($6.65-6.75 basis), so moving the valuation frame forward would require a separate current-price valuation review; any post-earnings share-price move alone is not a loggable signal.)*
 
 ---
 
@@ -222,6 +224,7 @@ Upgrade trigger: Move to neutral-watch or constructive if Q2/Q3 orders/book-to-b
 ## Appendix: Sources & Assumptions
 
 **Primary sources:**
+- [Vertiv Q2 2026 results press release (PR Newswire)](https://www.prnewswire.com/news-releases/vertiv-reports-strong-second-quarter-2026-with-diluted-eps-growth-of-53-adjusted-diluted-eps-growth-of-60-raises-full-year-2026-guidance-across-all-key-metrics-302837598.html) — quarter ended June 30, 2026, reported July 29, 2026: net sales, margins, EPS, cash flow, and the raised FY2026 guidance (the release did not quantify this quarter's orders/backlog)
 - [Vertiv Q1 2026 results 8-K / press release (SEC)](https://www.sec.gov/Archives/edgar/data/0001674101/000162828026026379/q12026exhibit991vrt04222026.htm) — quarter ended March 31, 2026, reported April 22, 2026
 - [Vertiv Q1 2026 results (IR)](https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-First-Quarter-with-Diluted-EPS-Growth-of-136-Adjusted-Diluted-EPS-Growth-of-83-Raises-Full-Year-Guidance/default.aspx) — revenue, margin, EPS, raised FY2026 guidance
 - [Vertiv Q4 2025 results 8-K (SEC)](https://www.sec.gov/Archives/edgar/data/0001674101/000167410126000006/exhibit991vrt02112026.htm) — $15.0B backlog (+109%), book-to-bill

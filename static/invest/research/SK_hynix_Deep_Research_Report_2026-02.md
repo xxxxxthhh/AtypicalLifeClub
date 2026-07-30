@@ -1,7 +1,7 @@
 # SK hynix (000660) Deep Research Report
 
 Coverage date: 2026-02-25
-Last updated: 2026-07-15
+Last updated: 2026-07-30
 Ticker: KRX: 000660 / NASDAQ: SKHY
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -15,6 +15,8 @@ This report is the full rerun successor to `sk-hynix-2026-pre-rerun`; the archiv
 
 **Current view:** Cautious / medium conviction after the v5 scenario-grid backfill. Per stockanalysis, 000660 was around **₩2,917,000** on June 25, 2026 on ~708M shares — a market cap of about **₩2,070T (~$1.3T USD)** on a price x shares basis (note: the vendor's own market-cap field lags the latest close, which on a +13% session understates it). The 52-week range is roughly ₩245,000-₩2,986,000, near all-time highs. Fundamentals are exceptionally strong, but the 72% operating margin is almost certainly near a cyclical peak, and valuation has re-rated from deep value to a TTM P/E of ~28x — the forward margin of safety has narrowed materially.
 
+> **2026-07-30 factual update (Q2 2026, quarter ended June 30, 2026, per company disclosure):** SK hynix reported revenue of **₩79.32T (+257% YoY)**, operating profit of **₩60.54T (76% operating margin)**, and net profit of **₩93.92T (company-stated 118% net margin)** — an all-time quarterly high, with first-half revenue crossing **₩100T** for the first time. DRAM and NAND prices both rose significantly QoQ; the company **began HBM4 mass shipments in Q2** (ramping in H2), HBM4E completed sample shipments in H1, and it finalized **multi-year LTAs with about 10 customers**, stating customer demand exceeds supply capability. Period-end cash was ~₩88T and net cash ~₩69.4T. **Evidence limits: the release did not itemize what bridges the ₩60.54T operating profit to the ₩93.92T net profit (the composition by which net profit exceeds revenue is undisclosed); LTA volumes, durations, and pricing were also not disclosed.** (Q1 2026 comparison: revenue ₩52.6T, operating profit ₩37.6T, 72% margin.) The ₩2,917,000 price and ~28x TTM P/E below are the **frozen June 25, 2026 valuation snapshot**; this monitoring pass adds operating evidence but does **not** refresh the share price, earnings estimate, valuation multiple, stance, or conviction. Stance stays **cautious / medium conviction**. Because operating margin rising further to 76% makes the existing peak-cycle valuation text potentially misleading, this report takes the fail-closed branch and updates monitoring readings only; sk-hynix-2026 needs a separate valuation-sensitive full update.
+
 **Investment Verdict:**
 - Long-term theme (3-5 years): structurally positive on HBM leadership, but cyclical durability must be re-proven
 - Current stance: **Cautious**, **medium** conviction; the 20% bull / 50% base / 30% bear grid says HBM quality is real, but the dated price already capitalizes peak-like profitability
@@ -27,7 +29,7 @@ This report is the full rerun successor to `sk-hynix-2026-pre-rerun`; the archiv
 | TTM P/E (old → now) | 14.2x (old caliber) | ~28x |
 | Forward P/E (old → now) | 5.3x (old caliber, deep value) | re-rated to mid-teens (FY2026E; see body) |
 | 52-week range (old → now) | ₩162,700 - ₩931,000 (old) | ₩245,000 - ₩2,986,000 |
-| Q1 2026 actuals (new) | not yet reported in February frame | revenue ₩52.6T (+198% YoY, +60% QoQ), operating profit ₩37.6T (72% margin), net ₩40.3T; net cash ₩35T |
+| Latest-quarter actuals (new) | not yet reported in February frame | Q2 2026 (2026-07-30 monitoring): revenue ₩79.32T (+257% YoY), operating profit ₩60.54T (76% margin), net profit ₩93.92T (company-stated 118% net margin, bridge undisclosed); period-end net cash ~₩69.4T. (Q1 2026 comparison: revenue ₩52.6T, operating profit ₩37.6T, net ₩40.3T) |
 | Thesis emphasis | deep value (extreme undervaluation) | value gap has closed — now "a high-quality franchise at a full-ish price, at a cyclical peak" |
 | Unchanged | 53% HBM share + NVIDIA lock-in, technology lead, memory cyclicality and the Korea discount remain structural | same |
 
@@ -40,8 +42,8 @@ This report is the full rerun successor to `sk-hynix-2026-pre-rerun`; the archiv
 | Ticker | KRX: 000660 |
 | Current Price (2026-06-25) | ~₩2,917,000 |
 | Market Cap | ~₩2,070T (~$1.3T USD; ₩2,917,000 × ~708M shares) |
-| Q1 2026 Revenue | ₩52.6T (+198% YoY, +60% QoQ) |
-| Q1 2026 Operating Profit / Margin | ₩37.6T / 72% |
+| Latest-quarter Revenue (2026-07-30 monitoring) | ₩79.32T (Q2 2026, +257% YoY; Q1 2026 was ₩52.6T) |
+| Latest-quarter Operating Profit / Margin | ₩60.54T / 76% (Q2 2026; Q1 was ₩37.6T / 72%); net profit ₩93.92T (company-stated 118% net margin; op-profit→net-profit bridge undisclosed) |
 | Q1 2026 Net Profit | ₩40.3T (77% net margin) |
 | FY2025 Revenue | ₩97.1T (~$67B), +47% YoY |
 | FY2025 Operating Profit | ₩47.2T (~$32.3B), +101% YoY |
@@ -118,6 +120,9 @@ The three together control 100% of HBM capacity; SK hynix + Samsung control 90%.
 | **FY2025** | **₩97.1T** | **₩47.2T** | **49%** |
 | Q4 2025 | ₩32.8T | ₩19.2T | 58% |
 | **Q1 2026** | **₩52.6T** | **₩37.6T** | **72%** |
+| **Q2 2026** (2026-07-30 monitoring) | **₩79.32T** | **₩60.54T** | **76%** |
+
+**Q2 2026 factual update (reported 2026-07-29):** Q2 2026 revenue ₩79.32T (+257% YoY), operating profit ₩60.54T (76% margin), and net profit ₩93.92T (company-stated 118% net margin) set an all-time quarterly high, with first-half revenue crossing ₩100T; the release did not itemize what bridges the ₩60.54T operating profit to the ₩93.92T net profit. Q1 2026 and earlier remain the fully broken-out periods below.
 
 **Milestone:** FY2025 surpassed Samsung Electronics in annual profit for the first time (Samsung OP: ₩43.6T). Q1 2026 revenue crossed ₩50T for the first time; a single quarter of ₩37.6T operating profit is already ~80% of the entire FY2025 (₩47.2T), with net profit ₩40.3T (77% net margin) — the memory supercycle running white-hot.
 
@@ -144,7 +149,7 @@ Recomputed at the June 25, 2026 close of ₩2,917,000 (market cap ~₩2,070T = p
 | P/S (TTM) | ~16x |
 | Dividend Yield | ~0.3% |
 
-**Assessment:** February's "single-digit forward P/E, deeply undervalued" thesis has largely played out — the stock is up ~3.5x and has re-rated to a TTM P/E of ~28x and P/S ~16x. Even if the forward earnings explosion compresses the forward P/E to the mid-teens, that rests on a 72% peak-cycle margin; P/S ~16x, well above February's 6.3x, signals valuation is now full-to-rich. In short: the franchise remains exceptional, but the "buy a monopolist at half price" window has closed — this is now closer to "owning a high-quality franchise at a full-ish price, near a cyclical peak."
+**Assessment:** February's "single-digit forward P/E, deeply undervalued" thesis has largely played out — the stock is up ~3.5x and has re-rated to a TTM P/E of ~28x and P/S ~16x. Even if the forward earnings explosion compresses the forward P/E to the mid-teens, that rests on a 72% peak-cycle margin; P/S ~16x, well above February's 6.3x, signals valuation is now full-to-rich. In short: the franchise remains exceptional, but the "buy a monopolist at half price" window has closed — this is now closer to "owning a high-quality franchise at a full-ish price, near a cyclical peak." *(The 2026-07-30 monitoring pass adds Q2 2026 operating evidence — revenue ₩79.32T, operating margin rising further to 76%, multi-year LTAs with ~10 customers, and HBM4 mass shipments — but does **not** refresh the ₩2,917,000 share price, earnings estimate, TTM/forward multiple, stance, or conviction. **Note: operating margin rising from 72% to 76%, plus an undisclosed bridge that leaves net profit above revenue, means the valuation text above — built on ~28x TTM P/E / ~16x P/S and a 72% peak margin — may no longer fit; under the fail-closed rule this pass updates monitoring readings only, and sk-hynix-2026 needs a separate current-price, new-disclosure valuation-sensitive full update.** Any post-earnings share-price move alone is not a loggable signal.)*
 
 ---
 
@@ -379,6 +384,7 @@ Upgrade trigger: move to neutral-watch or constructive if Q2/H2 results show HBM
 **Sources:**
 
 - Archived baseline: `sk-hynix-2026-pre-rerun`
+- SK hynix 2Q26 results (2026-07-29, quarter ended 2026-06-30): `https://news.skhynix.com/en/q2-2026-business-results/` — revenue ₩79.32T, operating profit ₩60.54T (76%), net profit ₩93.92T, first-half revenue >₩100T, DRAM/NAND pricing, HBM4 mass shipments, multi-year LTAs with ~10 customers (the release did not itemize the operating-profit-to-net-profit bridge)
 - SK hynix 1Q26 results (2026-04-23): `https://news.skhynix.com/q1-2026-business-results/`
 - SK hynix final ADS terms, estimated net proceeds, and Korean fab / EUV use of proceeds (SEC 424B4, 2026-07-10): `https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm`
 - SK hynix investor relations and quarterly results; KRX/DART disclosures

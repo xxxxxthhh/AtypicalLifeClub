@@ -1,7 +1,7 @@
 # Meta Platforms (META) Deep Research Report
 
 Coverage date: 2026-07-04
-Last updated: 2026-07-07
+Last updated: 2026-07-30
 Ticker: NASDAQ: META
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -10,6 +10,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 ## Executive Summary
 
 > **Framework note:** This report is the demand anchor in the AI-infrastructure book's demand-risk layer. Meta is not a GPU, HBM, optical, power-equipment, or neocloud supplier. It is one of the most important end customers in the chain. If Meta keeps expanding capex and absorbs that spend through advertising and AI products, the demand narratives for NVIDIA, AMD, Broadcom, SK hynix, SanDisk, Vertiv, GE Vernova, CoreWeave, and Nebius get support. If Meta starts reselling excess compute or cuts outside procurement materially, the whole compute-scarcity assumption needs to be retested.
+
+> **2026-07-30 factual update (Q2 2026, quarter ended June 30, 2026):** Meta reported revenue of **$60.80B (+28% YoY)**, operating income of **$18.775B**, an operating margin of **31%** (down from 43% a year ago), net income of **$15.848B (-14% YoY)**, and diluted EPS of **$6.18**. Total costs and expenses were **$42.026B (+55% YoY)**, including **$2.40B of legal-related charges** and **$1.18B of severance** in G&A. Quarterly operating cash flow was **$31.862B (+25% YoY)**, but **$31.078B** of capex including finance-lease principal ($30.116B property and equipment + $0.962B) compressed free cash flow to **$0.784B (-91% YoY)**. The **FY2026 capex guide was narrowed to $130-145B** (low end raised from $125B, high end unchanged). Family daily active people were **about 3.60B (+3% YoY)**, and headcount was 75,472 (-1% YoY). **Core read-through: the application-monetization / ad-ai-roi signal is mixed—revenue and operating cash flow grew, while operating margin, net income, and free cash flow deteriorated, with FCF primarily compressed by near-doubled capex.** The $600.29 (Jul 6, 2026) price and ~20x annualized EPS ex-tax-benefit below are the **frozen July 6, 2026 valuation snapshot**; this monitoring pass adds operating evidence but does **not** refresh the share price, annual EPS estimate, valuation multiple, stance, or conviction. Stance stays **neutral-watch / medium conviction**. Because the year-over-year margin decline makes the existing valuation/stance text potentially misleading, this report takes the fail-closed branch: it updates the monitoring readings only and notes in the appendix that meta-2026 needs a separate valuation-sensitive full update.
 
 **One-line thesis:** Meta remains one of the strongest advertising cash-flow machines in the world, but inside the AI-infra book its role has shifted from "large customer" to "demand-verification probe": Q1 2026 revenue of $56.31B, operating income of about $22.9B, and free cash flow of about $13.2B show it can fund AI buildout, while its $125-145B 2026 capex guide and reports that it may sell excess AI compute simultaneously validate and threaten the whole AI-infrastructure chain.
 
@@ -21,14 +23,14 @@ Disclaimer: This report is for informational and research purposes only. It does
 |--------|-------|
 | Share price | $582.90 (Jul 2, 2026 close, Yahoo/yfinance) |
 | Market cap / shares | About $1.48T; about 2.538B shares |
-| Latest reported period | Q1 2026 |
-| Q1 revenue / YoY | $56.31B, about +33% |
-| Q1 operating income / margin | $22.87B, about 40.6% |
+| Latest reported period | ~~Q1 2026~~ **Q2 2026 (2026-07-30 monitoring)** |
+| Q1 revenue / YoY | ~~$56.31B, about +33%~~ **Q2 2026 revenue $60.80B, about +28%** |
+| Q1 operating income / margin | ~~$22.87B, about 40.6%~~ **Q2 2026 operating income $18.775B, margin 31% (43% a year ago); net income $15.848B (-14%), EPS $6.18** |
 | Q1 net income / EPS | $26.77B / $10.44; about $7.31 EPS excluding an $8B tax benefit |
-| Q1 operating cash flow / capex / FCF | $32.23B / $19.00B / $13.23B |
+| Operating cash flow / capex / FCF | ~~Q1: $32.23B / $19.00B / $13.23B~~ **Q2: $31.862B / $31.078B / $0.784B (OCF +25%, FCF -91% YoY)** |
 | Cash+ST investments / total debt / net debt | $81.18B / $86.77B / about $35.32B net debt (Yahoo/yfinance) |
-| 2026 capex guide | $125-145B |
-| User scale | About 3.56B Family daily active people in Mar 2026 |
+| 2026 capex guide | ~~$125-145B~~ **$130-145B (narrowed in Q2 2026, low end raised); Q2 quarterly capex $31.078B (incl. finance leases)** |
+| User scale | ~~About 3.56B Family daily active people in Mar 2026~~ **About 3.60B Family daily active people in Jun 2026 (+3%)** |
 | Chain role | demand-risk common constraint: end demand, compute resale, capex ROI |
 
 ## 1. Business Overview
@@ -159,7 +161,7 @@ Compared with pure neoclouds, Meta's advantage is that it funds itself with adve
 | Base | Ad growth normalizes but remains strong; AI capex stays elevated and pressures FCF yield; the compute-resale signal remains ambiguous, interpretable as either monetization or capacity buffer; regulatory noise does not break the ad engine | Today's price is broadly fair but has limited margin of safety: quality is high and the multiple is not extreme, but capex intensity requires the market to keep trusting ROI | 50% |
 | Bear | Advertising growth slows materially or regulation hits targeting / recommendations; capex moves above $145B and 2027 does not decline; Meta Compute confirms large external sales of idle capacity, pressuring GPU rental pricing and neocloud scarcity assumptions; FCF is compressed for years | Today's price would look rich: a mature ad-platform multiple meets infrastructure capex burden, compressing both the FCF multiple and AI-chain valuation | 20% |
 
-**What's priced in & the expectation gap:** At the $600.29 close in `prices.json` on Jul 6, 2026, Meta is not priced as a pure internet company or as pure infrastructure; it is priced as a hybrid in which high-quality ad cash flow funds AI capex and eventually raises ROI. About 17x EV / TTM operating income and roughly 20x annualized EPS excluding the tax benefit are not expensive, but they imply 2026-2027 capex will not permanently consume FCF. Our 30% bull / 50% base / 20% bear grid is close to the market-implied view: skew is near neutral, and the main gap is whether capex enters a visible downshift path in 2027.
+**What's priced in & the expectation gap:** At the $600.29 close in `prices.json` on Jul 6, 2026, Meta is not priced as a pure internet company or as pure infrastructure; it is priced as a hybrid in which high-quality ad cash flow funds AI capex and eventually raises ROI. About 17x EV / TTM operating income and roughly 20x annualized EPS excluding the tax benefit are not expensive, but they imply 2026-2027 capex will not permanently consume FCF. Our 30% bull / 50% base / 20% bear grid is close to the market-implied view: skew is near neutral, and the main gap is whether capex enters a visible downshift path in 2027. *(The 2026-07-30 monitoring pass adds Q2 2026 operating evidence — revenue $60.80B, operating margin down from 43% to 31%, net income -14%, quarterly capex $31.078B, and a FY2026 guide narrowed to $130-145B — but does **not** refresh the $600.29 share price, annual EPS estimate, resulting multiple, stance, or conviction; any post-earnings share-price move alone is not a loggable signal. **Note: the sharp year-over-year margin decline means the valuation/expectation-gap text above, premised on ~40% operating margin and Q1 EPS, may no longer fit; under the fail-closed rule this pass updates monitoring readings only, and meta-2026 needs a separate current-price valuation-sensitive full update to reset the scenario grid and expectation gap.)*
 
 ## 9. Catalysts & Timeline
 
@@ -190,6 +192,7 @@ Upgrade trigger: advertising revenue and operating margin keep clearly outrunnin
 
 ## Appendix: Sources & Assumptions
 
+- Q2 2026 (quarter ended June 30, 2026) revenue, operating income/margin, net income, EPS, operating cash flow, free cash flow, quarterly capex, FY2026 capex guide, DAP, and one-time items are from Meta's official Q2 2026 results (Meta Investor Relations, 2026-07-29): [Meta Reports Second Quarter 2026 Results](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx).
 - Q1 2026 revenue, net income, EPS, capex guide, and daily active people are cross-checked against AP's coverage of Meta's Q1 2026 results: [Meta beats revenue expectations, boosts capital spending forecast for 2026](https://apnews.com/article/ff680fbd0cfad7319fd19a68a33200ee).
 - Capex-guide raise, ex-tax-benefit EPS of about $7.31, and investor reaction to AI spending are cross-checked against Investor's Business Daily and Business Insider: [IBD Q1 2026 earnings](https://www.investors.com/news/technology/meta-stock-q1-2026-earnings/), [Business Insider Q1 recap](https://www.businessinsider.com/meta-q1-earnings-updates-ai-muse-spark-mark-zuckerberg-2026-4).
 - Family of Apps revenue of about $55.9B and Reality Labs revenue of about $402M are sourced from Android Central's report on Meta's Q1 2026 earnings table: [Meta's Q1 2026 earnings are in](https://www.androidcentral.com/apps-software/meta/meta-q1-2026-earnings).
