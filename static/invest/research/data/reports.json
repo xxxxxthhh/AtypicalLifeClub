@@ -3336,7 +3336,7 @@
     "priceSymbol": "BE",
     "title": "Bloom Energy 深度研究报告 - AI电力基础设施高弹性与极高估值",
     "titleEn": "Bloom Energy Deep Research Report - AI Power Infrastructure Upside Meets Extreme Valuation",
-    "summary": "2026-06-23完整重跑版：BE股价约$345.85、市值约$98.30B；AI数据中心电力需求和Q1后指引改善强化基本面，但以约$3.2B 2026收入参考，当前市值/收入约31x，估值容错极低。",
+    "summary": "2026-07-31 估值敏感更新：Q2 2026 收入 $1.0654B（同比 +165.5%，首个十亿美元季度）、非 GAAP 毛利率 34.3%、非 GAAP 摊薄 EPS $0.78，FY2026 指引上调至收入 $3.9-4.2B、非 GAAP EPS $2.55-2.85。同时价格锚点重设为 2026-07-29 收盘 $163.75、市值约 $48B，对应上调后指引中值约 11.9x —— 较此前的约 26x 折损过半（股价 -44%、收入基数 +27% 同时发生）。牛市情景的 32%+ 毛利率门槛已达成，但 2 GW 扩产仍待 H2 2026 交付量验证；本次维持谨慎/中确信为待决策暂挂，情景网格权重未重新加权。",
     "tags": [
       "燃料电池",
       "AI数据中心",
@@ -3345,19 +3345,20 @@
     ],
     "category": "energy",
     "date": "2026-02-11",
-    "lastUpdate": "2026-07-07",
+    "lastUpdate": "2026-07-31",
     "file": "/invest/research/reports/view.html?id=bloom-energy-2026",
     "markdownFiles": {
       "zh": "/invest/research/Bloom_Energy_深度研究报告_2026-02.md",
       "en": "/invest/research/Bloom_Energy_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "股价约$345.85、市值约$98.30B，较2月框架大幅重定价",
-      "AI数据中心现场电力需求强化增长可见度",
-      "以约$3.2B 2026收入参考，市值/收入约31x",
-      "结论调整为中性/观察：基本面强，但估值要求订单、产能、利润率和现金流同时兑现"
+      "Q2 2026 首个十亿美元季度：收入 $1.0654B（同比 +165.5%），非 GAAP 毛利率 34.3%、非 GAAP EPS $0.78",
+      "FY2026 指引上调：收入 $3.9-4.2B（原 $3.1-3.3B）、非 GAAP 经营利润 $800-900M、非 GAAP EPS $2.55-2.85",
+      "估值重新锚定：$163.75（2026-07-29）、市值约 $48B、约 11.9x 上调后指引中值，较此前约 26x 折损过半",
+      "牛市情景的 32%+ 产品毛利率门槛已达成；2 GW 扩产仍待 H2 2026 交付量验证，触发条件仅部分满足",
+      "维持谨慎/中确信属待决策暂挂：情景网格权重与立场未重新裁定，已提交所有者决策"
     ],
-    "summaryEn": "June 23, 2026 full rerun: BE trades around $345.85 with roughly $98.30B market cap. AI data-center power demand and improved post-Q1 guidance strengthen the story, but against a roughly $3.2B 2026 revenue reference, market cap/sales is about 31x.",
+    "summaryEn": "July 31, 2026 valuation-sensitive update: Q2 2026 revenue $1.0654B (+165.5% YoY, first billion-dollar quarter), non-GAAP gross margin 34.3%, non-GAAP diluted EPS $0.78, and FY2026 guidance raised to $3.9-4.2B revenue and $2.55-2.85 non-GAAP EPS. The price anchor is re-set to the 2026-07-29 close of $163.75 and roughly $48B market cap, about 11.9x the raised guidance midpoint - less than half the prior ~26x, as a 44% price decline and a 27% guidance raise landed together. The bull case's 32%+ gross-margin bar was cleared, but the 2 GW ramp still awaits H2 2026 delivery volumes; the cautious / medium-conviction stance is held pending a decision and the scenario grid was deliberately not re-weighted.",
     "period": "2026H1",
     "versionType": "full-cycle",
     "versionLabel": "2026H1 Full Rerun",
@@ -3377,8 +3378,8 @@
     "chainLayer": "power",
     "coverageTier": "full",
     "stance": "cautious",
-    "priceAsOf": "2026-07-06",
-    "reportedPeriod": "Q1 2026",
+    "priceAsOf": "2026-07-29",
+    "reportedPeriod": "Q2 2026",
     "related": [
       "vertiv-2026",
       "gevernova-2026"
@@ -3397,30 +3398,30 @@
           "en": "data-center on-site power orders keep landing, extending growth visibility"
         },
         "latest": {
-          "zh": "AI 数据中心电力需求与 Q1 后指引改善强化基本面",
-          "en": "AI data-center demand and improved post-Q1 guidance strengthen fundamentals"
+          "zh": "Q2 2026 收入 $1.0654B（同比 +165.5%，首个十亿美元季度），产品收入同比 +215.4%；FY2026 指引上调至 $3.9-4.2B",
+          "en": "Q2 2026 revenue $1.0654B (+165.5% YoY, first billion-dollar quarter), product revenue +215.4%; FY2026 guide raised to $3.9-4.2B"
         },
-        "nextCheck": "订单公告与 2026-Q2 财报 / order announcements & Q2",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "Q3 2026 财报 / Q3 2026 results",
+        "nextCheckDate": "2026-11"
       },
       {
         "id": "valuation-execution-stack",
         "thesis": "bear",
         "theme": "valuation",
         "metric": {
-          "zh": "约 31x 市销率的四重兑现",
-          "en": "The ~31x P/S four-way delivery bar"
+          "zh": "约 11.9x 市销率的四重兑现",
+          "en": "The ~11.9x P/S four-way delivery bar"
         },
         "trigger": {
           "zh": "订单、产能、利润率、现金流任何一项不兑现即压缩极低的估值容错",
           "en": "any miss across orders, capacity, margins, or cash flow hits the very low valuation tolerance"
         },
         "latest": {
-          "zh": "股价约 $345.85、市值约 $98.30B（2026-06-22 收盘）；以约 $3.2B 2026 收入参考约 31x",
-          "en": "stock ~$345.85, ~$98.30B cap (2026-06-22 close); ~31x vs ~$3.2B 2026 revenue reference"
+          "zh": "股价 $163.75、市值约 $48B（2026-07-29 收盘）；对应上调后 FY2026 指引中值 $4.05B 约 11.9x（此前为约 26x / 约 31x）",
+          "en": "stock $163.75, ~$48B cap (2026-07-29 close); ~11.9x the raised FY2026 guide midpoint of $4.05B (prior frames ~26x / ~31x)"
         },
-        "nextCheck": "2026-Q2 财报 / Q2 earnings",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "Q3 2026 财报 / Q3 2026 results",
+        "nextCheckDate": "2026-11"
       },
       {
         "id": "margin-cash-delivery",
@@ -3435,16 +3436,36 @@
           "en": "margins or operating cash flow miss during the capacity ramp"
         },
         "latest": {
-          "zh": "2026-06-23 完整重跑维持中性/观察",
-          "en": "June-23 full rerun kept neutral/watch"
+          "zh": "Q2 2026 非 GAAP 毛利率 34.3%（GAAP 33.4%）已越过 32% 门槛；非 GAAP 经营利润 $239.6M、调整后 EBITDA $253.4M、现金 $2.667B",
+          "en": "Q2 2026 non-GAAP gross margin 34.3% (GAAP 33.4%) cleared the 32% bar; non-GAAP operating income $239.6M, adj. EBITDA $253.4M, cash $2.667B"
         },
-        "nextCheck": "季度利润率与现金流 / quarterly margins & cash flow"
+        "nextCheck": "季度利润率与现金流 / quarterly margins & cash flow",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "scenario-grid-reweight-pending",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "情景网格权重与立场重新裁定（未决）",
+          "en": "Scenario-grid re-weight and stance re-judgement (open)"
+        },
+        "trigger": {
+          "zh": "H2 2026 交付量验证 2 GW 扩产，且服务成本/客户集中度恢复披露后，重新加权 20/40/40 网格并裁定立场",
+          "en": "re-weight the 20/40/40 grid and re-judge the stance once H2 2026 delivery volumes validate the 2 GW ramp and service cost / customer concentration are disclosed again"
+        },
+        "latest": {
+          "zh": "2026-07-31 已重新锚定价格与倍数，但网格权重与立场刻意未改，等待所有者决策（见 docs/research-review-2026-07-31-questions.md）",
+          "en": "the 2026-07-31 pass re-anchored price and multiple but deliberately left the grid weights and stance unchanged, pending an owner decision (see docs/research-review-2026-07-31-questions.md)"
+        },
+        "nextCheck": "H2 2026 交付量与所有者决策 / H2 2026 deliveries and owner decision",
+        "nextCheckDate": "2026-11"
       }
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 $295.05、约 $84B 市值和约 26x 2026E sales 计，市场仍在定价 AI 电力需求、2 GW 扩产、32%+ 毛利率和客户集中风险同时兑现；我们的 20% 牛市 / 40% 基准 / 40% 熊市网格显示基准与熊市合计权重更高，偏斜向下。",
-      "en": "At $295.05, roughly $84B market cap, and about 26x 2026E sales, the market is still pricing AI-power demand, the 2 GW capacity ramp, 32%+ gross margin, and customer-concentration risk all working; our 20% bull / 40% base / 40% bear grid gives more weight to base-plus-bear than to the clean bull case, so skew points down."
+      "zh": "此前的负预期差是一个关于约 26x 2026E sales 的算术判断。按 2026-07-29 收盘 $163.75、市值约 $48B、对应上调后 $3.9-4.2B 指引约 11.9x，该倍数已折损过半，负预期差的依据消失；Q2 亦已越过 32%+ 毛利率门槛并以收入同比 +165.5% 证明订单转化。但 2 GW 扩产需 H2 2026 交付量验证，服务成本与客户集中度在 Q2 未披露，故本次维持谨慎/中确信为待决策暂挂，20/40/40 网格未重新加权。",
+      "en": "The prior negative expectation gap was an arithmetic claim about ~26x 2026E sales. At the 2026-07-29 close of $163.75, roughly $48B market cap, and about 11.9x the raised $3.9-4.2B guide, that multiple has more than halved and the basis for the negative gap is gone; Q2 also cleared the 32%+ gross-margin bar and demonstrated order conversion at +165.5% revenue growth. But the 2 GW ramp still requires H2 2026 delivery validation, and service cost and customer concentration were not disclosed in Q2, so the cautious / medium-conviction stance is held pending a decision and the 20/40/40 grid was not re-weighted."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -3467,6 +3488,12 @@
         "stance": "cautious",
         "conviction": "medium",
         "price": 295.05
+      },
+      {
+        "date": "2026-07-29",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 163.75
       }
     ]
   },
