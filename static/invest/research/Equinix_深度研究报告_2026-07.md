@@ -1,7 +1,7 @@
 # Equinix 深度研究报告 - AI 数据中心设施层的互联溢价仪表盘
 
 标的收录日期：2026-07-05
-最近更新日期：2026-07-30
+最近更新日期：2026-07-31
 代码：NASDAQ: EQIX
 免责声明：本报告仅用于信息与研究交流，不构成任何投资建议，请自行完成尽职调查。
 
@@ -16,6 +16,8 @@
 **一句话论点：** AI 基础设施 datacenter-facility 层的 DLR 对照组：EQIX 用 Platform Equinix interconnection、retail colocation、xScale JV 和 AFFO/share 来验证 AI 需求是否不只是 hyperscale shell leasing。2026Q1 收入 $2.444B（reported YoY +10%）、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；MRR 同比 +12% reported / +10% normalized constant currency，annualized gross bookings $378M，annualized presales 约 $140M，largest deals 约 60% AI-related。2025 年报披露 280 个数据中心、10,500+ 客户、507,000+ interconnections，Q1 2026 interconnection revenue $446M。当前 $1,002.02（2026-07-02）、市值约 $98.8B、EV 约 $120.8B，约 23.5x 2026 AFFO/share 指引中点、约 11.9x 2026 revenue 指引。中性观察 / 中确信：质量高但估值高，关键监控是 interconnection revenue、AI bookings/presales、xScale economics、MRR/cabinet yield 与 power availability。
 
 **当前判断：** **中性观察 / 中确信。** v5 情景网格显示 EQIX 的平台质量、互联密度和 xScale 期权大体被当前价格资本化；需要下一轮 interconnection、AI bookings/presales 与 AFFO/share 证据才能打破平衡。
+
+> **2026-07-31 价格复核。** EQIX 于 **2026-07-29**（最后一个已完成交易日）收于 **$1,008.02**，对照下文标注日期的 **$1,002.02** 锚点为 **+0.6%**。因此下文标注日期的锚点在该误差范围内依然准确，估值框架、情景网格、立场与确信度均不变。已在 2026-07-31 全覆盖复核中核对确认，无需修改。
 
 | 指标 | 当前读数 |
 | --- | --- |

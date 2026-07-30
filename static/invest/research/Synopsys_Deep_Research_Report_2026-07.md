@@ -1,7 +1,7 @@
 # Synopsys Deep Research Report - EDA/IP And Simulation Constraint For AI Silicon Design
 
 Coverage date: 2026-07-05
-Last updated: 2026-07-07
+Last updated: 2026-07-31
 Ticker: NASDAQ: SNPS
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -14,6 +14,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 **One-line thesis:** Common-constraint coverage for the AI-infrastructure eda-ip layer. SNPS tests whether AI silicon demand is flowing into design automation, verification, simulation, IP blocks, and system-level complexity. Q2 FY2026 revenue was $2.276B versus $1.604B a year ago, GAAP EPS was $0.09, and non-GAAP EPS was $3.35; FY2026 guidance is $9.625-9.705B revenue, $14.72-14.80 non-GAAP EPS, and about $2.0B FCF. Guidance includes about $2.96B of Ansys revenue and assumes no further export-control / Entity List changes. At $437.16, about $83.7B market cap and $92.1B EV, SNPS trades around 9.5x EV/FY2026E sales and 29.6x non-GAAP P/E. Constructive / medium conviction: AI EDA/IP durability and the Ansys simulation asset put the base case slightly above what the market embeds, but integration, export, and customer-cycle risks keep conviction capped.
 
 **Current view:** **constructive / medium conviction.** The v5 scenario grid decomposes the old neutral watch view: SNPS is less crowded than CDNS on valuation, Ansys joins simulation to EDA/IP durability in one platform, and the 30% bull / 50% base / 20% bear weights create a modest positive skew; FY2026 Ansys integration, export-control assumptions, and customer design cycles still need verification.
+
+> **2026-07-31 price check (no new quarter integrated in this pass).** SNPS closed at **$373.69** on **2026-07-29**, the last completed session, versus the **$437.16** anchor dated below — a **-14.5%** move during the verified July 2026 chain-wide AI-infrastructure repricing. The dated price, market-cap and multiple figures below remain correct **as of their stated dates** and are not rewritten here, but they are no longer current *levels*; read them as of their labels. The drift is below this report's own rerun threshold (25%), so the valuation frame, scenario grid, stance and conviction are unchanged and `priceAsOf` is deliberately left in place so the report stays in the normal rerun queue.
 
 | Metric | Current readout |
 | --- | --- |

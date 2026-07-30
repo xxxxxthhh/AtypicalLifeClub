@@ -1,7 +1,7 @@
 # Meta Platforms (META) Deep Research Report
 
 Coverage date: 2026-07-04
-Last updated: 2026-07-30
+Last updated: 2026-07-31
 Ticker: NASDAQ: META
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -16,6 +16,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 **One-line thesis:** Meta remains one of the strongest advertising cash-flow machines in the world, but inside the AI-infra book its role has shifted from "large customer" to "demand-verification probe": Q1 2026 revenue of $56.31B, operating income of about $22.9B, and free cash flow of about $13.2B show it can fund AI buildout, while its $125-145B 2026 capex guide and reports that it may sell excess AI compute simultaneously validate and threaten the whole AI-infrastructure chain.
 
 **Current view:** **Neutral / high-quality but high capex risk (watch).** For Meta as a company, the advertising engine, distribution base, and cash-flow quality remain strong. For the AI-infra chain, Meta is a mandatory demand anchor. At $582.90 (Jul 2, 2026 close) and roughly $1.48T of market value, the stock trades around 6.9x TTM sales, about 17x EV/TTM operating income, and about 20x annualized Q1 EPS after excluding an approximately $8B tax benefit. The static multiple is not extreme; the real risk is whether $125-145B of annual capex compresses free cash flow and AI-compute pricing.
+
+> **2026-07-31 price check.** META closed at **$585.61** on **2026-07-29** (last completed session) versus the **$600.29** anchor dated below, a **-2.4%** move. The dated anchors below therefore remain accurate to within that margin and the valuation frame, scenario grid, stance and conviction are unchanged. Reviewed and confirmed in the 2026-07-31 full-coverage pass; no edit was required.
 
 **Quick stats:**
 

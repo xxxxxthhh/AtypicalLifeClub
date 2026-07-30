@@ -1,7 +1,7 @@
 # NRG Energy Deep Research Report - Does AI Power Demand Reach Merchant Gas and Retail Power?
 
 Coverage date: 2026-07-05
-Last updated: 2026-07-07
+Last updated: 2026-07-31
 Ticker: NYSE: NRG
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -14,6 +14,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 **One-line thesis:** Merchant plus retail power dashboard for the AI-infrastructure power layer. NRG is not a pure nuclear-PPA name; it tests whether data-center power demand spreads into ordinary merchant capacity through the post-LS-Power roughly 25GW generation platform, CPower's roughly 6GW C&I VPP, Texas/PJM capacity markets, and Reliant/Vivint retail/home-services economics. Q1 2026 revenue was $10.26B, GAAP net income was $125M, adjusted EBITDA was $1.08B, and FCFbG was -$66M; 2026 guidance is adjusted EBITDA $5.325-5.825B, adjusted EPS $7.90-9.90, and FCFbG $2.8-3.3B. The LS Power deal was framed at about $12.0B enterprise value, 18 gas plants, about 13GW, CPower about 6GW and 2,000+ C&I customers, and is now reflected in 2026 results. At $136.70 (2026-07-02 close), about $28.8B market cap and about $52.7B EV, NRG trades around 15.4x the midpoint of 2026 adjusted EPS guidance and about 9.4x the midpoint of 2026 adjusted EBITDA guidance. Cautious / medium conviction: a 20% bull / 50% base / 30% bear grid shows contract conversion is still unproven while leverage/buyback discipline remains a constraint, leaving a mildly negative skew.
 
 **Current view:** **cautious, medium conviction.** NRG's asset quality and dispatchable-capacity optionality are real, but before named hyperscaler or tariff-backed C&I contracts appear, the current valuation already capitalizes guidance delivery, LS Power integration, and some capacity scarcity.
+
+> **2026-07-31 price check.** NRG closed at **$124.23** on **2026-07-29** (last completed session) versus the **$136.70** anchor dated below, a **-9.1%** move. The dated anchors below therefore remain accurate to within that margin and the valuation frame, scenario grid, stance and conviction are unchanged. Reviewed and confirmed in the 2026-07-31 full-coverage pass; no edit was required.
 
 | Metric | Current readout |
 | --- | --- |

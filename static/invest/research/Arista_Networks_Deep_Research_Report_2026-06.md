@@ -1,7 +1,7 @@
 # Arista Networks (NYSE: ANET) Deep Research Report
 
 Coverage date: 2026-06-30
-Last updated: 2026-07-07
+Last updated: 2026-07-31
 Ticker: NYSE: ANET
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence. All prices and market caps are point-in-time snapshots; financial figures are per company disclosure unless noted otherwise.
 
@@ -18,6 +18,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 **Why it matters to this coverage structure:** ANET is the network-fabric dashboard for the AI infrastructure book. If Arista keeps expanding deferred revenue/RPO, sustaining 40%+ operating margins, and showing large AI customers choosing Ethernet fabrics, that supports the bull case for Broadcom, AAOI, Corning, Vertiv, and parts of the neocloud demand chain. If Arista decelerates or loses architecture ground to NVIDIA's integrated networking stack, it is an early warning that part of the AI infrastructure book may be overextended.
 
 **Current market read:** CompaniesMarketCap/Nasdaq showed an end-of-day market cap of **$206.62B** on June 29, 2026. Using Arista's 1.259B shares outstanding at April 30, 2026, that implies about **$164/share**. With Q1 2026 cash plus marketable securities of about **$12.35B** and no meaningful financial debt line, enterprise value is about **$194B**.
+
+> **2026-07-31 price check.** ANET closed at **$157.97** on **2026-07-29** (last completed session) versus the **$164.10** anchor dated below, a **-3.7%** move. The dated anchors below therefore remain accurate to within that margin and the valuation frame, scenario grid, stance and conviction are unchanged. Reviewed and confirmed in the 2026-07-31 full-coverage pass; no edit was required.
 
 **Key data:**
 

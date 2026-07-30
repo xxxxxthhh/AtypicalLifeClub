@@ -1,7 +1,7 @@
 # Oracle (ORCL) Deep Research Report
 
 Coverage date: 2026-07-04
-Last updated: 2026-07-07
+Last updated: 2026-07-31
 Ticker: NYSE: ORCL
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -14,6 +14,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 **One-line thesis:** Oracle is changing from a mature database and enterprise-software company into a capital-intensive AI-cloud infrastructure platform: FY2026 Q4 revenue was $19.18B (+21%), OCI revenue was $5.8B (+93%), and RPO reached $638B (+363%), making the demand readout very strong. But FY2026 capex was $55.66B, free cash flow was -$23.69B, FY2027 capex could reach $90-95B, and the company expects to raise about $40B of new debt and equity financing. This is not ordinary SaaS backlog; it is an AI-infrastructure order book with leverage and construction risk.
 
 **Current view:** **High-risk watch / order-quality dashboard.** ORCL is valuable to the AI-infra chain because it concentrates GPU, networking, optical, power, and data-center demand into a trackable RPO metric. For shareholders, the current $140.27 share price (Jul 2, 2026 close), roughly $404B market cap, about $124.30B of net debt on a total-debt-minus-cash-and-ST-investments basis, and about $528B enterprise value imply about 7.8x TTM EV/Sales and about 23.5x EV/TTM operating income, while free cash flow is still -$23.69B. The key question is not whether orders are large. It is whether those orders convert into high-return cash flow on schedule.
+
+> **2026-07-31 price check (no new quarter integrated in this pass).** ORCL closed at **$117.74** on **2026-07-29**, the last completed session, versus the **$143.26** anchor dated below — a **-17.8%** move during the verified July 2026 chain-wide AI-infrastructure repricing. The dated price, market-cap and multiple figures below remain correct **as of their stated dates** and are not rewritten here, but they are no longer current *levels*; read them as of their labels. The drift is below this report's own rerun threshold (25%), so the valuation frame, scenario grid, stance and conviction are unchanged and `priceAsOf` is deliberately left in place so the report stays in the normal rerun queue.
 
 **Quick stats:**
 

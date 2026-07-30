@@ -1,7 +1,7 @@
 # Vistra (VST) Deep Research Report
 
 Coverage date: 2026-07-04
-Last updated: 2026-07-07
+Last updated: 2026-07-31
 Ticker: NYSE: VST
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -12,6 +12,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 > **Framework note:** Vistra pairs with Constellation in the AI-infrastructure book's power layer. It is the higher-beta nuclear-plus-gas dashboard, testing whether data centers need a mixed stack of clean baseload, dispatchable gas, capacity-market exposure, and balance-sheet risk.
 
 **One-line thesis:** VST is the nuclear-plus-gas operating-leverage name in the AI power constraint, and the current v5 stance is **cautious / medium conviction**. 2026Q1 revenue was $5.64B, net income was $1.03B, operating income was $1.50B, and FCF was $316M. Meta's 20-year nuclear agreements cover Perry, Davis-Besse, and Beaver Valley uprates, with public reports framing about 2.2GW. The Cogentrix transaction is framed at about a $4B net purchase price, while public seller-side reporting has also framed it near $4.7B total consideration, and adds about 5,500MW of gas capacity with expected mid-to-late 2026 close.
+
+> **2026-07-31 price check.** VST closed at **$142.81** on **2026-07-29** (last completed session) versus the **$151.05** anchor dated below, a **-5.5%** move. The dated anchors below therefore remain accurate to within that margin and the valuation frame, scenario grid, stance and conviction are unchanged. Reviewed and confirmed in the 2026-07-31 full-coverage pass; no edit was required.
 
 At $151.05 on Jul 2, 2026, VST represented about $50.9B of market cap and about $70.2B of enterprise value, including about $19.3B net debt. It is cheaper than CEG on enterprise value, but riskier because it has more merchant power, gas, leverage, and transaction integration exposure. The report's job is to test whether AI power demand spreads from named nuclear PPAs into gas capacity, PJM/Texas capacity value, and dispatchable generation. If Meta execution, Cogentrix integration and capacity prices validate, VST has strong operating leverage. If gas prices, regulation, debt, or capacity markets roll over, the downside is faster too.
 

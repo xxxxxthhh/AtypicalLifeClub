@@ -1,7 +1,7 @@
 # Cadence Design Systems Deep Research Report - EDA/IP Backlog Dashboard For AI Design Complexity
 
 Coverage date: 2026-07-05
-Last updated: 2026-07-28
+Last updated: 2026-07-31
 Ticker: NASDAQ: CDNS
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -14,6 +14,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 **One-line thesis:** Backlog / execution dashboard for the AI-infrastructure eda-ip layer. CDNS tests whether AI demand is visible in design automation, IP, simulation, backlog, RPO, and agentic design workflows. ~~Q1 2026 revenue was $1.474B, non-GAAP operating margin was 44.7%, and non-GAAP EPS was $1.96; quarter-end backlog was $8.0B and next-12-month RPO revenue was $4.0B. FY2026 guidance is $6.125-6.225B revenue and $7.85-7.95 non-GAAP EPS.~~ **2026-07-27 factual update:** Q2 2026 revenue was $1.584B (up 24% YoY), non-GAAP operating margin 45.5%, non-GAAP EPS $2.11; quarter-end backlog was $8.1B (a company-stated record) and next-12-month RPO revenue was $4.2B; Core EDA / Semiconductor IP / System Design & Analysis revenue grew 18% / more than 40% / 37% YoY; FY2026 guidance was raised to $6.26-6.34B revenue, $8.05-8.15 non-GAAP EPS, and about $2B operating cash flow. The $373.14 price, about $102.9B market cap, $104.5B EV, ~16.9x EV/sales, and ~47.2x non-GAAP P/E are the July 2, 2026 initial valuation snapshot based on the then-current Q1 guide ($6.125-6.225B revenue and $7.85-7.95 EPS); this pass does not revalue the new Q2 guide using the old price. Cautious / medium conviction is unchanged.
 
 **Current view:** **cautious / medium conviction.** The v5 scenario grid remains the frozen July 2, 2026 valuation frame: at $373.14, about 16.9x EV/sales and 47.2x non-GAAP P/E using the then-current Q1 guide, the price had capitalized most of the good news from backlog, RPO, IP, and agentic design workflows. Q2 operating evidence improved, but a separate current-price valuation review is required before changing the stance.
+
+> **2026-07-31 price check (no new quarter integrated in this pass).** CDNS closed at **$332.76** on **2026-07-29**, the last completed session, versus the **$373.14** anchor dated below — a **-10.8%** move during the verified July 2026 chain-wide AI-infrastructure repricing. The dated price, market-cap and multiple figures below remain correct **as of their stated dates** and are not rewritten here, but they are no longer current *levels*; read them as of their labels. The drift is below this report's own rerun threshold (25%), so the valuation frame, scenario grid, stance and conviction are unchanged and `priceAsOf` is deliberately left in place so the report stays in the normal rerun queue.
 
 | Metric | Current readout |
 | --- | --- |

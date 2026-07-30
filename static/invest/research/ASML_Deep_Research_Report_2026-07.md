@@ -1,7 +1,7 @@
 # ASML Deep Research Report - EUV / High-NA as the Equipment-Layer Common Constraint
 
 Coverage date: 2026-07-05
-Last updated: 2026-07-15
+Last updated: 2026-07-31
 Ticker: NASDAQ: ASML / Euronext Amsterdam: ASML
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -14,6 +14,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 **One-line thesis:** Common-constraint coverage for the AI-infrastructure semicap-equipment layer. ASML tests whether foundry and memory capex truly passes through lithography, EUV, High-NA, long-term agreements, and export controls. Q1 2026 net sales were EUR 8.767B, gross margin was 53.0%, and net income was EUR 2.757B; FY2026 guidance is EUR 36-40B net sales and 51-53% gross margin. Q4 2025 net bookings were EUR 13.158B, including EUR 7.4B EUV, and year-end backlog was EUR 38.797B. At $1,769.32 per ADR (2026-07-02), about $681.9B market cap, and EUR/USD 1.1440, ASML trades around 15.6x EV/2026E sales at the FY2026 sales midpoint. Neutral watch / medium conviction: monopoly quality is exceptional, but the valuation already capitalizes durable EUV/High-NA scarcity and manageable export controls.
 
 **Current view:** **neutral watch / medium conviction.** The v5 scenario grid keeps ASML neutral rather than more bullish: EUV/High-NA scarcity is real, but the July 2 price already embeds a durable WFE bottleneck, clean backlog conversion, and manageable export controls.
+
+> **2026-07-31 price check (no new quarter integrated in this pass).** ASML closed at **$1,550.69** on **2026-07-29**, the last completed session, versus the **$1,767.02** anchor dated below — a **-12.2%** move during the verified July 2026 chain-wide AI-infrastructure repricing. The dated price, market-cap and multiple figures below remain correct **as of their stated dates** and are not rewritten here, but they are no longer current *levels*; read them as of their labels. The drift is below this report's own rerun threshold (25%), so the valuation frame, scenario grid, stance and conviction are unchanged and `priceAsOf` is deliberately left in place so the report stays in the normal rerun queue.
 
 **2026-07-15 monitoring update (no stance change):** ASML reported Q2 2026 net sales of EUR 9.326B, net income of EUR 2.918B, 54.0% gross margin, and EUR 2.762B of Installed Base Management sales; FY2026 guidance was raised for the second time this year to EUR 43-45B net sales and 54-56% gross margin. Management said H1 order intake was strong and plans to add 30% to both 2027 low-NA EUV and DUV immersion capacity versus 2026, while investigating another 30% for each in 2028. The release disclosed neither quarterly net bookings nor backlog, so it strengthens equipment-side confirmation without proving that customer-specific capex is fully committed or that backlog has no cancellations or delays. This update does not refresh the Jul 2, 2026 valuation snapshot; the neutral-watch / medium-conviction stance is unchanged.
 

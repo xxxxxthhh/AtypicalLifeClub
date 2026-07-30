@@ -1,7 +1,7 @@
 # Advanced Micro Devices (AMD) Deep Research Report
 
 Coverage date: 2026-02-04
-Last updated: 2026-07-07
+Last updated: 2026-07-31
 Ticker: NASDAQ: AMD
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -14,6 +14,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 **Current view:** The v5 backfill moves the view further to **cautious / medium conviction**. The key question is no longer whether AMD has improved; it is whether the current price already discounts Meta/Helios, MI450, EPYC, ROCm progress, rack-level systemization, and margin expansion all at once. The 20% bull / 40% base / 40% bear scenario grid points to negative skew at today's price.
 
 **Current market reference (latest verifiable U.S. close as of June 18, 2026):** AMD closed at approximately **$537.37**. Using an approximate 1.65B diluted share base, market cap is roughly **$887B**. Netting Q1 2026 cash and short-term investments of $12.347B against total debt of $3.224B implies enterprise value of roughly **$878B**. Market data source: [MarketWatch AMD quote](https://www.marketwatch.com/investing/stock/amd); financial data source: [AMD Q1 2026 Financial Results](https://ir.amd.com/news-events/press-releases/detail/1284/amd-reports-first-quarter-2026-financial-results).
+
+> **2026-07-31 price check (no new quarter integrated in this pass).** AMD closed at **$429.56** on **2026-07-29**, the last completed session, versus the **$537.37** anchor dated below — a **-20.1%** move during the verified July 2026 chain-wide AI-infrastructure repricing. The dated price, market-cap and multiple figures below remain correct **as of their stated dates** and are not rewritten here, but they are no longer current *levels*; read them as of their labels. The drift is below this report's own rerun threshold (25%), so the valuation frame, scenario grid, stance and conviction are unchanged and `priceAsOf` is deliberately left in place so the report stays in the normal rerun queue.
 
 **Updated valuation read-through:** AMD reported Q1 2026 free cash flow of $2.566B. Annualized mechanically, that is about $10.264B, or an FCF yield of roughly **1.2%** on the current market cap. Using FY2025 revenue of $34.6B, Q1 2026 revenue of $10.253B, and implied Q1 2025 revenue of about $7.438B, TTM revenue is roughly **$37.4B**. That implies EV/TTM Sales of about **23.4x**. If FY2026 revenue lands around $45.7-50.0B, EV/Forward Sales would still be roughly **17.6-19.2x**. On Q1 non-GAAP EPS of $1.37 annualized, the stock trades at about **98x**; even at $6.00 of FY2026 non-GAAP EPS, it would still be about **90x**.
 

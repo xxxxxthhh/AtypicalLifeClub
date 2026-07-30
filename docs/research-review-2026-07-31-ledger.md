@@ -132,9 +132,10 @@ Status: `done` / `pending` / `raised` (waiting on a question).
 | sandisk-2026 | A | re-anchor $2,090.71→$1,015.89, P/S ~16x→~7.8x; expectation gap **inverted** | done (stance raised in Q1) |
 | sk-hynix-2026 | A | re-anchor ₩2,917,000→₩1,401,000; P/S ~16x→~5.3x, now **below** February's 6.3x; TTM P/E left stale (bridge undisclosed) | done (stance raised in Q1) |
 | corning-2026 | A | re-anchor $221.05→$124.05; fwd P/E ~71x→~39.8x; "richest multiple in coverage" claim retired; sell-side-target bear pillar inverted | done (stance raised in Q1) |
-| marvell, coherent, almonty, nebius, coreweave, oklo, lam-research, kla, neov, applied-materials, vertiv, micron | A | re-anchor | pending |
-| amd, minimax, oracle, jinpan, smh, synopsys, gevernova, tsmc, asml, cadence | B | number refresh only | pending |
-| nrg, dlr, ceg, vistra, arista, copx, meta, broadcom, nvidia, eqix | C | confirm nothing reads as current | pending |
+| marvell-2026 | A | re-anchor $245.29→$163.40; EV/Sales ~19x→~12.6x (FY2027E) | done (stance raised in Q1) |
+| coherent, almonty, nebius, coreweave, oklo, lam-research, kla, neov, applied-materials, vertiv, micron | A | re-anchor | pending |
+| amd, minimax, oracle, jinpan, smh, synopsys, gevernova, tsmc, asml, cadence | B | dated 2026-07-31 price-check note in both languages + summary prefix with the 07-29 close; `priceAsOf` deliberately NOT moved | done |
+| nrg, dlr, ceg, vistra, arista, copx, meta, broadcom, nvidia, eqix | C | verified: existing anchors are properly dated and within noise; dated confirmation note added, no analytical edit required | done |
 | tempus-ai, spotify, salesforce, paypal, netflix, igv, hims, coinbase, amzn, airbnb | untracked | verify no stale valuation claim | pending |
 
 ## Chain-level signal

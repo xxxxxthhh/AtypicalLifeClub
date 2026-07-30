@@ -1,7 +1,7 @@
 # COPX (Global X Copper Miners ETF) Deep Research Report
 
 Coverage date: 2026-02-07
-Last updated: 2026-07-07
+Last updated: 2026-07-31
 Ticker: NYSEARCA: COPX
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -35,6 +35,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 5. **YTD return down to +5.45%.** February's YTD was +20.14%, indicating significant drawdown and recovery. The price path has been volatile, confirming operational leverage works both ways.
 
 **Investment view update:** Constructive, medium conviction. The long-term copper thesis is strengthened by copper prices exceeding expectations, COPX's price remains close to the February anchor, and weighted P/E has compressed to 17.74x, showing miner earnings have partly caught up; the near-term watch items are tariff policy, the COMEX premium, NAV deviation, and fund flows.
+
+> **2026-07-31 price check.** COPX closed at **$76.14** on **2026-07-29** (last completed session) versus the **$78.48** anchor dated below, a **-3.0%** move. The dated anchors below therefore remain accurate to within that margin and the valuation frame, stance and conviction are unchanged. Reviewed and confirmed in the 2026-07-31 full-coverage pass; no edit was required.
 
 ---
 

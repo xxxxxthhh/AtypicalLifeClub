@@ -1,7 +1,7 @@
 # Digital Realty 深度研究报告 - AI 数据中心租赁与互联需求仪表盘
 
 标的收录日期：2026-07-04
-最近更新日期：2026-07-28
+最近更新日期：2026-07-31
 代码：NYSE: DLR
 免责声明：本报告仅用于信息与研究交流，不构成任何投资建议，请自行完成尽职调查。
 
@@ -14,6 +14,8 @@
 **一句话论点：** AI 基础设施 datacenter-facility 层的租赁/互联需求校验。DLR 不直接解释 GPU、光模块或电力设备，而是验证 AI 数据中心需求是否转化为真实租约、backlog、互联节点和开发容量。~~Q1 2026 收入 $1.64B（约 +16% YoY）、Core FFO/share $2.04、AFFO/share $1.92；公司签下 $707M 年化 GAAP base rent 的 bookings（100% share），DLR share 为 $423M，其中 0-1MW + interconnection 贡献 $98M、同比 +42%；季度末 signed-but-not-commenced backlog 为 $1.8B（100% share）/ $1.0B（DLR share），加权平均开租滞后 19 个月。~~ **2026-07-23 事实更新：** Q2 2026 Core FFO/share（ex net promote）$2.13、cash renewal spread +25.4%；bookings $307M（100% share）/ $208M（DLR share，环比低于 Q1），其中 0-1MW + interconnection 创纪录达到 $108M，占 DLR-share bookings 的 52%。季度末 signed-but-not-commenced backlog 为 record $1.9B（100% share）/ $1.4B（DLR share），但后者包含约 $380M 收购带入的增量 backlog，不能全部视为季度有机租赁；加权平均开租滞后从 19 个月收窄至 9 个月，in-place / future-development 容量约为 3GW / 9GW。管理层把 2026 Core FFO/share（ex net promote）指引从 $8.00-8.10 上修至 $8.15-8.20。$173.30、约 $62.0B 市值、$77.6B EV、约 21x P/Core FFO 与约 12.2x EV/TTM revenue 均为 2026-07-02 初始估值快照，使用当时 Q1 的 $8.00-8.10 指引；本次不把旧价格与 Q2 新指引混用。维持偏多 / 中确信。
 
 **当前判断：** **偏多 / 中确信。** v5 估值网格冻结于 2026-07-02。Q2 经营证据好坏参半但净正面：总 bookings 环比回落，0-1MW/interconnection 却创纪录并占 DLR-share bookings 的 52%，renewal spread 改善、开租滞后收窄、future-development 容量增至约 9GW；backlog 纪录则部分来自收购。改变立场前需要单独完成当前价格估值复核。
+
+> **2026-07-31 价格复核。** DLR 于 **2026-07-29**（最后一个已完成交易日）收于 **$188.18**，对照下文标注日期的 **$173.30** 锚点为 **+8.6%**。因此下文标注日期的锚点在该误差范围内依然准确，估值框架、情景网格、立场与确信度均不变。已在 2026-07-31 全覆盖复核中核对确认，无需修改。
 
 | 指标 | 当前读数 |
 | --- | --- |

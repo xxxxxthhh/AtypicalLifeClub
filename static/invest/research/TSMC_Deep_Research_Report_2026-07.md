@@ -1,7 +1,7 @@
 # TSMC (TSM) Deep Research Report
 
 Coverage date: 2026-07-04
-Last updated: 2026-07-16
+Last updated: 2026-07-31
 Ticker: NYSE: TSM / TWSE: 2330
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -14,6 +14,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 **One-line thesis:** TSMC is the manufacturing common constraint for the AI-infrastructure chain. ~~2026Q1 revenue was $35.90B, gross margin was 66.2%, operating margin was 58.1%, Q2 guidance was $39.0-40.2B, and Jan-May 2026 monthly revenue reached NT$1.962T (+30.0%).~~ **2026-07-16 factual update:** Q2 revenue was US$40.20B (+33.7% YoY), at the top of guidance, with 67.7% gross margin above the guided range; 2nm contributed 3% of wafer revenue for the first time, 7nm-and-below reached 77%, and HPC was 66% of revenue. The Jul 2 valuation snapshot remains unchanged and is not refreshed by this monitoring update.
 
 **Current view:** **Neutral watch / medium conviction: high quality, mostly priced in.** TSMC's quality is unusually high: advanced-node share, customer lock-in, pricing power, cash flow, net cash, and process roadmap are all strong. This report's job, however, is not to prove that TSMC is a good company. It is to use TSMC as the whole-chain calibration point: NVIDIA, AMD, Broadcom, Marvell, and other AI-chip revenue stories become more credible only if TSMC's advanced processes and CoWoS / 3DFabric capacity remain tight.
+
+> **2026-07-31 price check (no new quarter integrated in this pass).** TSM closed at **$374.67** on **2026-07-29**, the last completed session, versus the **$434.16** anchor dated below — a **-13.7%** move during the verified July 2026 chain-wide AI-infrastructure repricing. The dated price, market-cap and multiple figures below remain correct **as of their stated dates** and are not rewritten here, but they are no longer current *levels*; read them as of their labels. The drift is below this report's own rerun threshold (25%), so the valuation frame, scenario grid, stance and conviction are unchanged and `priceAsOf` is deliberately left in place so the report stays in the normal rerun queue.
 
 **Quick stats:**
 

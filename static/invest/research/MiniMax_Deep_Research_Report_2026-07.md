@@ -1,7 +1,7 @@
 # MiniMax Group Deep Research Report: Application-Layer Demand Validation and Valuation Stress Test
 
 Coverage date: 2026-07-15
-Last updated: 2026-07-15
+Last updated: 2026-07-31
 Ticker: HKEX: 0100
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -30,6 +30,8 @@ MiniMax sits in the `demand-risk` layer as a `risk-anchor`. It does not validate
 Pro forma net cash adds the company-defined US$1.050B cash balance at FY2025 year end, HK$5.293B of IPO net proceeds, and HK$9.491B from the placement completed on 2026-07-14, then deducts US$35.5M of bank and other borrowings at an approximate 7.8 HKD/USD rate. This is an **upper-bound snapshot before 2026 operating burn and use of proceeds**, not an audited cash balance as of 2026-07-15.
 
 **Current view: cautious / low conviction.** Business evidence is positive: revenue grew 158.9%, gross margin improved by 13.2 percentage points, international revenue was 73%, and paid consumer-product users reached 1.77M in the first nine months of 2025. Valuation, however, requires roughly **69% revenue CAGR over four years**, with sustained gross-margin expansion and lower cash burn. Recent equity financing removes near-term liquidity pressure but also shows that training, inference, and global commercialization remain externally funded.
+
+> **2026-07-31 price check (no new quarter integrated in this pass).** 0100.HK closed at **212.80** on **2026-07-29**, the last completed session, versus the **260.60** anchor dated below — a **-18.3%** move during the verified July 2026 chain-wide AI-infrastructure repricing. The dated price, market-cap and multiple figures below remain correct **as of their stated dates** and are not rewritten here, but they are no longer current *levels*; read them as of their labels. The drift is below this report's own rerun threshold (25%), so the valuation frame, scenario grid, stance and conviction are unchanged and `priceAsOf` is deliberately left in place so the report stays in the normal rerun queue.
 
 ## 2. Business Overview and Segment Economics <!-- report-module:business -->
 

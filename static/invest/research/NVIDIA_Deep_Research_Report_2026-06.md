@@ -1,7 +1,7 @@
 # NVIDIA (NVDA) Deep Research Report
 
 Coverage date: 2026-06-26
-Last updated: 2026-07-07
+Last updated: 2026-07-31
 Ticker: NASDAQ: NVDA
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -16,6 +16,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 **Verdict:** **Constructive / medium conviction.** The v5 scenario grid separates skew from conviction: NVIDIA's accelerator profit pool, rack/system attach, networking/software moat, and annual platform cadence still make the base case positively skewed; custom ASICs, China at zero, AI capex slope, and circular-financing impairment would reset the earnings denominator, so the stance does not move to bullish.
 
 **Current market read (as of 2026-06-26):** the Research Hub price ledger anchors NVDA at a **$192.53** close; on ~**24.30B** diluted shares (FY2026 year-end), market cap is ~**$4.68T**, the largest in the world. The 52-week range is ~**$151.49 - $236.54**, leaving the stock ~19% below its 52-week high. Quote sources: [Yahoo Finance NVDA](https://finance.yahoo.com/quote/NVDA/), [CompaniesMarketCap NVDA](https://companiesmarketcap.com/nvidia/marketcap/); financial sources: [NVIDIA Q1 FY2027 press release](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027), [NVIDIA FY2026 results](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026).
+
+> **2026-07-31 price check.** NVDA closed at **$190.01** on **2026-07-29** (last completed session) versus the **$192.53** anchor dated below, a **-1.3%** move. The dated anchors below therefore remain accurate to within that margin and the valuation frame, scenario grid, stance and conviction are unchanged. Reviewed and confirmed in the 2026-07-31 full-coverage pass; no edit was required.
 
 **Key data:**
 
