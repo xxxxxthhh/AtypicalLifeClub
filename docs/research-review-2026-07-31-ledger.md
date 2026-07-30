@@ -2,8 +2,8 @@
 
 Branch: `codex/full-report-review-2026-07-31`
 
-Scope: all 48 live reports in `static/invest/research/data/reports.json`
-(56 entries minus 8 `*-pre-rerun` archival versions).
+Scope: all **47 live reports** in `static/invest/research/data/reports.json`
+(56 entries minus 9 `*-pre-rerun` archival versions). **All 47 were reviewed and carry `lastUpdate: 2026-07-31`.**
 
 ## Method and the two data-integrity findings that shaped this pass
 
@@ -133,7 +133,17 @@ Status: `done` / `pending` / `raised` (waiting on a question).
 | sk-hynix-2026 | A | re-anchor ₩2,917,000→₩1,401,000; P/S ~16x→~5.3x, now **below** February's 6.3x; TTM P/E left stale (bridge undisclosed) | done (stance raised in Q1) |
 | corning-2026 | A | re-anchor $221.05→$124.05; fwd P/E ~71x→~39.8x; "richest multiple in coverage" claim retired; sell-side-target bear pillar inverted | done (stance raised in Q1) |
 | marvell-2026 | A | re-anchor $245.29→$163.40; EV/Sales ~19x→~12.6x (FY2027E) | done (stance raised in Q1) |
-| coherent, almonty, nebius, coreweave, oklo, lam-research, kla, neov, applied-materials, vertiv, micron | A | re-anchor | pending |
+| coherent-2026 | A | re-anchor $333.36→$222.05 (−33.4%); P/S ~6.6x, EV/S ~6.7x | done |
+| nebius-2026 | A | re-anchor $213.02→$148.22 (−30.4%); P/S ~37.2x | done |
+| coreweave-2026 | A | re-anchor $86.46→$60.82 (−29.7%); on ~$35.1B debt the EV multiple fell far less than the share price | done |
+| oklo-2026 | A | re-anchor $52.36→$36.84 (−29.6%); pre-revenue, so ~$2.2B cash vs ~$6.4B cap makes most of the value the deployment option | done |
+| lam-research-2026 | A | re-anchor $351.41→$252.35 (−28.2%); supplies the price refresh the 07-30 monitoring note explicitly deferred | done |
+| kla-2026 | A | re-anchor $235.55→$170.19 (−27.7%); Q4 FY2026 operating data from 07-28 unchanged | done |
+| applied-materials-2026 | A | re-anchor $603.04→$436.45 (−27.6%); P/S ~11.9x | done |
+| vertiv-2026 | A | re-anchor $306.97→$223.04 (−27.3%); Q2 data from 07-30 unchanged | done |
+| micron-2026 | A | re-anchor $975.41→$739.00 (−24.2%); peak-cycle margin caution unaffected by a price move | done |
+| neov-2026 | A | re-anchor $2.72→$1.97 (−27.6%); micro-cap, <$100M, thin liquidity — price carries little information | done |
+| almonty-2026 | A | re-anchor $16.21→$10.95 (−32.4%); ~62x sales is a placeholder for the Sangdong ramp, NAV framing remains the right lens | done |
 | amd, minimax, oracle, jinpan, smh, synopsys, gevernova, tsmc, asml, cadence | B | dated 2026-07-31 price-check note in both languages + summary prefix with the 07-29 close; `priceAsOf` deliberately NOT moved | done |
 | nrg, dlr, ceg, vistra, arista, copx, meta, broadcom, nvidia, eqix | C | verified: existing anchors are properly dated and within noise; dated confirmation note added, no analytical edit required | done |
 | hims-2026 | untracked / A | **−25.5%**, found only by manual check. Re-anchored $33.54→$25.00, ~3.3x→~2.7x the FY2025E revenue baseline. Idiosyncratic, NOT part of the AI-infra repricing | done (stance raised in Q1) |
@@ -151,3 +161,22 @@ Logged **once**, not per report: `ai-infra-chain-wide-repricing-2026-07` in `sig
 new `chain-wide-repricing` rule added to `coverage-map.json` (the framework had no rule covering a
 simultaneous multi-layer repricing). A single name's post-earnings move remains non-loggable per
 existing convention.
+
+
+## Completion
+
+**47 / 47 live reports reviewed and updated**, every one bilingual and validated.
+
+Verification run on the finished branch:
+- `validate_reports.py`, `validate_prices.py`, `validate_verdicts.py`, `validate_coverage_map.py` — all pass.
+- `check_research_package.py` across **all 47** reports — 0 failures.
+- `check_research_package.py --valuation-sensitive` on every Tier A report — passes, with the
+  current price required in both language files and the old anchor asserted absent from metadata.
+- `generate_feed.py` regenerated; verdict ledger and calibration history rebuilt off the refreshed
+  price ledger.
+- Full-cycle bodies (bloom, sk-hynix, almonty, oklo, hims, coinbase, amd, jinpan, tempus-ai) confirmed
+  free of `~~` strikethrough, as the skill requires.
+
+**What was deliberately NOT done, and why:** no stance was changed and no scenario grid was
+re-weighted. The drawdown changed the price being paid; it did not answer any of the execution
+questions the stances rest on. That judgment belongs to the owner and is Q1 of the questions doc.

@@ -1,7 +1,7 @@
 # Nebius Group (NASDAQ: NBIS) Deep Research Report
 
 Coverage date: 2026-07-01
-Last updated: 2026-07-17
+Last updated: 2026-07-31
 Ticker: NASDAQ: NBIS
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence. All prices and market caps are point-in-time snapshots; financial figures are per company disclosure unless noted otherwise.
 
@@ -14,6 +14,10 @@ Disclaimer: This report is for informational and research purposes only. It does
 ## Executive Summary
 
 **One-line thesis:** Nebius is the "clean" neocloud — hyper-growth (Q1 2026 revenue **+684%**, AI-cloud ARR **$1.92B** exiting Q1), **positive** adjusted EBITDA and **$2.3B of operating cash flow**, funded by ~**$9.3B of cash**, customer prepayments and convertibles rather than CoreWeave-style GPU-collateralized leverage — but it is priced for perfection (~**17-19x** EV/2026E revenue), its GAAP profit is an accounting artifact of a non-cash ClickHouse mark, and it is quietly accumulating the **same** hyperscaler concentration (Microsoft + Meta) and **same** NVIDIA circularity it is supposed to be the diversified answer to.
+
+> **2026-07-31 valuation re-anchor.** NBIS closed at **$148.22** on **2026-07-29**, the last completed session, **-30.4%** from the old $213.02 anchor dated 2026-07-06. This is part of the verified July 2026 chain-wide AI-infrastructure repricing — checked for corporate actions and confirmed a real price move. Recomputed at the new price: market cap about **$32.7B**, enterprise value about **$32.9B**, P/S (TTM) about **37.2x**, EV/Sales (TTM) about **37.5x**. The dated price, market-cap and multiple figures below are **superseded as levels**; read them as of their labels.
+>
+> The scenario grid's relative verdicts and probability weights were written against the old price and are **not re-weighted here** — the drawdown changed what is being paid, not the execution questions the grid is about. Stance and conviction are unchanged and raised under Q1 of the review questions doc. Nebius reports Q2 2026 on 2026-08-12.
 
 **Verdict:** **High-quality-but-high-expectations / high-risk (watch).** This is *not* written bear-led like CoreWeave — Nebius is a genuinely stronger balance sheet and a more integrated, more optionality-rich business. But "stronger than the risk anchor" is not "safe": at ~$60-66B the market already awards Nebius roughly **3x CoreWeave's revenue multiple**, so the entire quality premium — self-funding, vertical integration, ClickHouse/Toloka optionality, Nasdaq-100 membership — is in the price, and the execution bar (a **$20-25B** 2026 capex ramp against $3.0-3.4B of revenue) is extreme. Analytically, this belongs in the book as a monitored, high-beta AI-buildout exposure rather than a margin-of-safety value case — and it should be read against CoreWeave as the tell for whether neocloud risk is *financial* or *fundamental*.
 
@@ -212,11 +216,11 @@ Framed as the **cross-checks on CoreWeave** — what Nebius tells us about wheth
 
 | Scenario | Driver assumptions (capacity contracts / project NAV / financing / margin) | Valuation implication (rich / fair / cheap vs today) | Subjective probability weight |
 |----------|----------------------------------------------------------------------------|------------------------------------------------------|-------------------------------|
-| Bull | Microsoft and Meta commitments convert into high-utilization revenue on schedule; 2026 exit ARR of $7-9B is delivered; more than 90% secured funding for $20-25B of capex remains effective; group margin approaches about 40%; ClickHouse / Toloka / Avride / TripleTen optionality partly crystallizes | The Jul 6, 2026 price of $213.02 would look fair to slightly cheap: the project-NAV premium is validated by contracted capacity and non-core optionality together | 30% |
+| Bull | Microsoft and Meta commitments convert into high-utilization revenue on schedule; 2026 exit ARR of $7-9B is delivered; more than 90% secured funding for $20-25B of capex remains effective; group margin approaches about 40%; ClickHouse / Toloka / Avride / TripleTen optionality partly crystallizes | The Jul 6, 2026 price of (old caliber) $213.02 would look fair to slightly cheap: the project-NAV premium is validated by contracted capacity and non-core optionality together | 30% |
 | Base | Demand is real but concentrated; Microsoft / Meta ramps are not perfectly linear; ARR lands near the middle of the range, margins improve but operating profit ex-marks still needs proof; ABS / prepayment / convertible funding remains available at higher cost; non-core stakes are valuation cushions | Today's price largely prices the optimistic end of this scenario: the quality premium is rational, but 17-19x 2026E revenue and 7-7.5x exit ARR leave little room for execution misses | 40% |
 | Bear | AI capex digests, customer concentration or Meta self-build / compute resale weakens scarcity; funding costs rise or contract ABS is harder; operating profit ex-marks fails to stay positive; private marks reverse | Today's price would look rich: the balance sheet remains cleaner than CoreWeave's, but project NAV, optionality value, and the multiple can compress together | 30% |
 
-**What's priced in & the expectation gap:** At the $213.02 close in `prices.json` on Jul 6, 2026, Nebius is still priced as "the winning independent neocloud plus non-core optionality," not as a normal cloud-services company. The market-implied requirement is that $7-9B of exit ARR converts into sellable capacity on schedule, margins approach 40%, and Microsoft / Meta contracts can be financed with low friction; our base case accepts real demand and available financing, but discounts concentration and capex slope. The 30% bull / 40% base / 30% bear grid therefore produces a slightly negative expectation gap: this is not a bearish view on the business, but the quality premium is already full at today's dated price.
+**What's priced in & the expectation gap:** At the (old caliber) $213.02 close in `prices.json` on Jul 6, 2026, Nebius is still priced as "the winning independent neocloud plus non-core optionality," not as a normal cloud-services company. The market-implied requirement is that $7-9B of exit ARR converts into sellable capacity on schedule, margins approach 40%, and Microsoft / Meta contracts can be financed with low friction; our base case accepts real demand and available financing, but discounts concentration and capex slope. The 30% bull / 40% base / 30% bear grid therefore produces a slightly negative expectation gap: this is not a bearish view on the business, but the quality premium is already full at today's dated price.
 
 ---
 
@@ -249,7 +253,7 @@ But the cross-check cuts both ways, and this is the part a bull skips: Nebius is
 
 Nebius's chain-validation job is to decide whether CoreWeave's problem is balance-sheet choice or the neocloud model itself: if Nebius keeps converting Microsoft / Meta contracts into ARR, utilization, and operating profit ex-marks under a cleaner funding structure, CoreWeave's solvency fragility looks more company-specific; if Nebius also cracks on concentration, funding, utilization, or capex returns, the whole layer's demand assumption needs to be marked down.
 
-The expectation gap is slightly negative: at $213.02 (Jul 6, 2026 close), the market is still paying for "the winning independent neocloud plus non-core optionality"; our 30% bull / 40% base / 30% bear grid recognizes the cleaner balance sheet and option value, but still discounts concentration, capex financing, and operating profit ex-marks.
+The expectation gap is slightly negative: at (old caliber) $213.02 (Jul 6, 2026 close), the market is still paying for "the winning independent neocloud plus non-core optionality"; our 30% bull / 40% base / 30% bear grid recognizes the cleaner balance sheet and option value, but still discounts concentration, capex financing, and operating profit ex-marks.
 
 The current stance is **cautious, medium conviction**. Cautious reflects valuation skew: the business is stronger than CoreWeave, but the quality premium is already full. Medium conviction reflects evidence quality: cash, ARR, prepayments / contracts, and the ClickHouse mark are visible; the genuine uncertainty is whether capacity contracts can survive 2026-2027 AI-capex sentiment and funding markets.
 

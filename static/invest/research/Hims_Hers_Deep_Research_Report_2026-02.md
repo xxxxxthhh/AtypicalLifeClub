@@ -15,7 +15,7 @@ This report is the full rerun successor to `hims-2026-pre-rerun`; the archived b
 
 **Current view:** Neutral / watchlist. Nasdaq quote data showed HIMS at roughly **(old caliber) $33.54** on June 22, 2026, with market capitalization around **$7.77B** and a 52-week range of about $13.74-$70.43. The stock has recovered well off the February post-selloff trough, but the market cap still requires proof that the core subscription platform can grow beyond the GLP-1 controversy.
 
-> **2026-07-31 valuation re-anchor.** HIMS closed at **$25.00** on **2026-07-29** (last completed US session), **−25.5%** from the (old caliber) $33.54 anchor dated June 22, 2026. On ~251.5M shares that is a market cap of about **$6.29B**, against ~$7.77B before. Measured the same way this report measured, HIMS now trades at about **2.7x** the February FY2025E revenue baseline of ~$2.35B, versus the **~3.3x** stated below.
+> **2026-07-31 valuation re-anchor.** HIMS closed at **$25.00** on **2026-07-29** (last completed US session), **−25.5%** from the old $33.54 anchor dated June 22, 2026. On ~251.5M shares that is a market cap of about **$6.29B**, against ~$7.77B before. Measured the same way this report measured, HIMS now trades at about **2.7x** the February FY2025E revenue baseline of ~$2.35B, versus the **~3.3x** stated below.
 >
 > The move crosses this coverage's 25% rerun threshold, but note it is **not** part of the July 2026 AI-infrastructure repricing — HIMS is a consumer-health name and the decline is idiosyncratic. This pass did not establish a cause, and no company disclosure was issued in the window; **Hims & Hers is scheduled to report Q2 2026 on 2026-08-10**, which is the next real evidence.
 >

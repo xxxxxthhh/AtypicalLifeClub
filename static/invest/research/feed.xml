@@ -20,6 +20,27 @@
       <description>【2026-07-31 价格复核：ASML 于 2026-07-29 收于 $1,550.69，较本报告锚点 -12.2%；下方数字按其标注日期阅读，估值框架与立场不变。】AI 基础设施 semicap-equipment 层的公共约束：ASML 验证 foundry / memory capex 是否真正穿过光刻、EUV、High-NA、长期协议和出口管制这道最硬瓶颈。Q2 2026 net sales EUR 9.326B、gross margin 54.0%、net income EUR 2.918B；FY2026 指引第二次上调至 net sales EUR 43-45B、gross margin 54-56%，并计划把 2027 年 low-NA EUV 与 DUV immersion 产能各较 2026 年增加 30%。本次监测没有季度 net bookings 或 backlog 披露，因此只加强设备侧确认，不证明客户特定 capex 已全部承诺。ADR $1,769.32、约 15.6x EV/2026E sales 仍是基于当时 EUR 36-40B 指引的 2026-07-02 初始估值快照，本次不刷新估值或立场；维持中性观察 / 中确信。</description>
     </item>
     <item>
+      <title>Applied Materials 深度研究报告 - AI 扩产的广谱半导体设备仪表盘 / Applied Materials Deep Research Report - Broad Semicap Dashboard For AI Capacity Buildout</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=applied-materials-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=applied-materials-2026#applied-materials-2026@2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description>2026-07-31 估值重新锚定：AMAT 收于 $436.45（2026-07-29 收盘），较 2026-07-02 锚点 -27.6%，市值约 $346.5B、企业价值约 $345.6B、P/S（TTM）约 11.9x。属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价（已排除公司行为）。下文标注日期的价格、市值与倍数数字作为水平已被取代。情景网格权重与立场本次不重新裁定——回撤改变的是所支付的价格，而非网格所针对的执行问题；下一次实质证据为 2026-08-13 业绩。</description>
+    </item>
+    <item>
+      <title>Lam Research 深度研究报告 - AI 内存与先进逻辑的刻蚀/沉积校验 / Lam Research Deep Research Report - Etch And Deposition Check On AI Memory And Advanced Logic</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=lam-research-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=lam-research-2026#lam-research-2026@2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description>2026-07-31 估值重新锚定：LRCX 收于 $252.35（2026-07-29 收盘），较 2026-07-02 锚点 -28.2%，市值约 $315.6B、企业价值约 $314.6B、P/S（TTM）约 14.6x。属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价（已排除公司行为）。下文标注日期的价格、市值与倍数数字作为水平已被取代。情景网格权重与立场本次不重新裁定——回撤改变的是所支付的价格，而非网格所针对的执行问题；下一次实质证据为 2026-10-21 业绩。</description>
+    </item>
+    <item>
+      <title>KLA 深度研究报告 - AI 产能的过程控制与良率仪表盘 / KLA Deep Research Report - Process-Control And Yield Dashboard For AI Capacity</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=kla-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=kla-2026#kla-2026@2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description>2026-07-31 估值重新锚定：KLAC 收于 $170.19（2026-07-29 收盘），较 2026-07-02 锚点 -27.7%，市值约 $222.3B、企业价值约 $223.3B、P/S（TTM）约 16.4x。属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价（已排除公司行为）。下文标注日期的价格、市值与倍数数字作为水平已被取代。情景网格权重与立场本次不重新裁定——回撤改变的是所支付的价格，而非网格所针对的执行问题；下一次实质证据为 2026-10-28 业绩。</description>
+    </item>
+    <item>
       <title>Synopsys 深度研究报告 - AI 芯片设计的 EDA/IP 与仿真约束 / Synopsys Deep Research Report - EDA/IP And Simulation Constraint For AI Silicon Design</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=synopsys-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=synopsys-2026#synopsys-2026@2026-07-31</guid>
@@ -48,11 +69,32 @@
       <description>2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30）：收入 $2.625B（同比 +16%，包含一次性 xScale fees）、recurring revenue $2.377B（MRR 同比 +11%）、AFFO $1.168B（+20%）、AFFO/share $11.78（+19%）；Q2 新增 interconnections 创纪录 9,700 个、annualized gross bookings $424M（+23%）。管理层上调 FY2026 指引与长期展望。互联、bookings 与 MRR 同向走强，facility-interconnection-leasing 证伪条件未触发；这些指标与网络密集部署一致，但公司未将其具体归因于 AI，不能作为 AI 因果证明。下文 $1,002.02（2026-07-02）估值快照与 stance 不因本次监测刷新。AI 基础设施 datacenter-facility 层的 DLR 对照组：EQIX 用 Platform Equinix interconnection、retail colocation、xScale JV 和 AFFO/share 来验证 AI 需求是否不只是 hyperscale shell leasing。2026Q1 收入 $2.444B（reported YoY +10%）、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；MRR 同比 +12% reported / +10% normalized constant currency，annualized gross bookings $378M，annualized presales 约 $140M，largest deals 约 60% AI-related。2025 年报披露 280 个数据中心、10,500+ 客户、507,000+ interconnections，Q1 2026 interconnection revenue $446M。当前 $1,002.02（2026-07-02）、市值约 $98.8B、EV 约 $120.8B，约 23.5x 2026 AFFO/share 指引中点、约 11.9x 2026 revenue 指引。中性观察 / 中确信：质量高但估值高，关键监控是 interconnection revenue、AI bookings/presales、xScale economics、MRR/cabinet yield 与 power availability。</description>
     </item>
     <item>
+      <title>Nebius Group 深度研究报告 - neocloud 的『干净对照组』：对 CoreWeave 风险锚的架构校验 / Nebius Group Deep Research Report - The 'Clean' Neocloud: An Architecture Check on the CoreWeave Risk Anchor</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=nebius-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=nebius-2026#nebius-2026@2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description>2026-07-31 估值重新锚定：NBIS 收于 $148.22（2026-07-29 收盘），较 2026-07-06 锚点 -30.4%，市值约 $32.7B、企业价值约 $32.9B、P/S（TTM）约 37.2x。属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价（已排除公司行为）。下文标注日期的价格、市值与倍数数字作为水平已被取代。情景网格权重与立场本次不重新裁定——回撤改变的是所支付的价格，而非网格所针对的执行问题；下一次实质证据为 2026-08-12 业绩。</description>
+    </item>
+    <item>
       <title>Arista Networks 深度研究报告 - AI 集群开放以太网 fabric 的系统软件卖铲人 / Arista Networks Deep Research Report - The Open Ethernet Fabric of AI Clusters</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=arista-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=arista-2026#arista-2026@2026-07-31</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
       <description>AI 集群网络层首次覆盖：Arista 是开放以太网/AI spine/scale-out 网络的系统软件卖铲人，正面回答 NVIDIA Spectrum-X/InfiniBand/NVLink 一体化 vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet 生态的路线之争。Q1 2026 营收 $2.709B(+35.1%)、GAAP/非GAAP营业利润率 42.7%/47.8%、非GAAP EPS $0.87、经营现金流 $1.69B；Q2 指引营收约 $2.8B。FY2025 Cloud and AI Titans/AI Specialty Providers 占收入 48%/20%，Core AI/Cloud/Data Center Networking 占 65%。但两大匿名终端客户合计约 42% 收入(26%/16%)、高度依赖 Broadcom merchant silicon，且 Jun 29 2026 市值约 $206.6B、约 56x TTM GAAP P/E、约 47x 当前非GAAP EPS运行率。neutral-watch / 中等确信：高质量，但大多已定价。</description>
+    </item>
+    <item>
+      <title>CoreWeave 深度研究报告 - AI 建设的风险锚：真实需求还是杠杆与循环融资？ / CoreWeave Deep Research Report - The AI Buildout's Risk Anchor: Real Demand or Leverage &amp; Circular Financing?</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=coreweave-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=coreweave-2026#coreweave-2026@2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description>2026-07-31 估值重新锚定：CRWV 收于 $60.82（2026-07-29 收盘），较 2026-07-06 锚点 -29.7%，市值约 $27.2B、企业价值约 $60.1B、P/S（TTM）约 4.4x。属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价（已排除公司行为）。下文标注日期的价格、市值与倍数数字作为水平已被取代。情景网格权重与立场本次不重新裁定——回撤改变的是所支付的价格，而非网格所针对的执行问题；下一次实质证据为 2026-08-11 业绩。</description>
+    </item>
+    <item>
+      <title>Vertiv 深度研究报告 - AI 数据中心电力与散热的卖铲人（建设速度仪表盘） / Vertiv Deep Research Report - The Power &amp; Cooling Pick-and-Shovel of AI Data Centers (Buildout Dashboard)</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=vertiv-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=vertiv-2026#vertiv-2026@2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description>2026-07-31 估值重新锚定：VRT 收于 $223.04（2026-07-29 收盘），较 2026-06-29 锚点 -27.3%，市值约 $85.7B、企业价值约 $85.8B、P/S（TTM）约 7.5x。属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价（已排除公司行为）。下文标注日期的价格、市值与倍数数字作为水平已被取代。情景网格权重与立场本次不重新裁定——回撤改变的是所支付的价格，而非网格所针对的执行问题；下一次实质证据为 2026-10-21 业绩。</description>
     </item>
     <item>
       <title>康宁 深度研究报告 - AI 基础设施的光连接卖铲人 / Corning Deep Research Report - The Optical-Connectivity Pick-and-Shovel of AI Infrastructure</title>
@@ -102,6 +144,13 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=sk-hynix-2026#sk-hynix-2026@2026-07-31</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
       <description>2026-07-31 估值敏感完整更新（兑现 07-30 监测所声明的待办）：000660 收于 ₩1,401,000（2026-07-29），较 6 月锚点 −52.0%，市值约 ₩994.5 万亿（约 $6,840 亿）。倍数由两个方向同时压低——股价下跌，且 Q2 的 ₩79.32 万亿使 TTM 收入近乎翻倍至约 ₩189.2 万亿——P/S 降至约 5.3x，**低于 2 月“深度低估”判断时的 6.3x**，价值缺口比 2 月起点更宽。TTM P/E 刻意不予重述：Q2 净利润 ₩93.92 万亿高于当季收入，桥接未披露。分母仍是 76% 营业利润率下的周期顶点收入，持久性问题未被回撤触及，故维持谨慎/中确信、网格不重新加权。</description>
+    </item>
+    <item>
+      <title>Almonty Industries 深度研究报告 - 西方钨供应链稀缺资产的兑现考验 / Almonty Industries Deep Research Report - Western Tungsten Scarcity Asset Execution Test</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=almonty-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=almonty-2026#almonty-2026@2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description>2026-07-31 估值重新锚定：ALM 收于 $10.95（2026-07-29 收盘），较 2026-07-06 锚点 -32.4%，市值约 $3.1B、企业价值约 $3.0B、P/S（TTM）约 62.1x。属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价（已排除公司行为）。下文标注日期的价格、市值与倍数数字作为水平已被取代。情景网格权重与立场本次不重新裁定——回撤改变的是所支付的价格，而非网格所针对的执行问题；下一次实质证据为 2026-11 业绩。</description>
     </item>
     <item>
       <title>IGV 深度研究报告 - Software-mageddon后的软件行业ETF抄底机会？ / IGV Deep Research Report - A Buying Opportunity After the Software-mageddon?</title>
@@ -167,6 +216,13 @@
       <description>全球最大音频流媒体平台，已完成从长期亏损到盈利的转型。Q1 2026 TTM运营利润率15.77%、MAU 7.61亿、净利€2.71B（约$3.0B）。2026/6/25增量更新：股价$442、市值~$910亿、Forward P/E ~31x，较2月初次覆盖时P/E从~53-66x大幅压缩。估值压力显著缓解，但上行空间收窄至~13%。</description>
     </item>
     <item>
+      <title>NeoVolta 深度研究报告 - 美国住宅储能新势力 / NeoVolta Deep Research Report - Emerging U.S. Residential Energy Storage Player</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=neov-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=neov-2026#neov-2026@2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description>2026-07-31 估值重新锚定：NEOV 收于 $1.97（2026-07-29 收盘），较 2026-07-06 锚点 -27.6%，市值约 $84M、企业价值约 $74M、P/S（TTM）约 4.7x。属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价（已排除公司行为）。下文标注日期的价格、市值与倍数数字作为水平已被取代。情景网格权重与立场本次不重新裁定——回撤改变的是所支付的价格，而非网格所针对的执行问题；下一次实质证据为 2026-08-26 业绩。</description>
+    </item>
+    <item>
       <title>COPX 深度研究报告 - 铜超级周期的杠杆化敞口 / COPX Deep Research Report - Leveraged Exposure to the Copper Supercycle</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=copx-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=copx-2026#copx-2026@2026-07-31</guid>
@@ -195,6 +251,13 @@
       <description>2026-07-28更新（Q2 2026业绩，一手8-K/10-Q）：Q2营收+5%至$8.7B、非GAAP EPS $1.38（GAAP $1.25）、TPV+10%至$486.4B、活跃账户4.39亿；FY26非GAAP EPS指引上调至约$5.38（此前口径为“低个位数下滑至微增”，落在6-22已假设的$5.0-5.5区间内）。经营结果不证明并购进程发生变化；并购动态仍整体取代基本面估值框架，本轮不改立场、不给新公允价或新价格快照。背景（2026-07-17）：Stripe/Advent非请自来收购要约约$60.50/股、超$53B、溢价约28%、约$50B承诺融资；董事会初步认为报价不充分、尚未正式答复；PYPL 7-17收$56.56。</description>
     </item>
     <item>
+      <title>Oklo 深度研究报告 - 前商业化核能期权与AI电力需求 / Oklo Deep Research Report - Pre-Commercial Nuclear Optionality Meets AI Power Demand</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=oklo-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=oklo-2026#oklo-2026@2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description>2026-07-31 估值重新锚定：OKLO 收于 $36.84（2026-07-29 收盘），较 2026-07-02 锚点 -29.6%，市值约 $6.4B、企业价值约 $4.2B。属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价（已排除公司行为）。下文标注日期的价格、市值与倍数数字作为水平已被取代。情景网格权重与立场本次不重新裁定——回撤改变的是所支付的价格，而非网格所针对的执行问题；下一次实质证据为 2026-08-07 业绩。</description>
+    </item>
+    <item>
       <title>Broadcom 深度研究报告 - 自定义 AI 硅的卖铲人与 VMware 现金机器 / Broadcom Deep Research Report - The Pick-and-Shovel of Custom AI Silicon, Plus a VMware Cash Machine</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=broadcom-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=broadcom-2026#broadcom-2026@2026-07-31</guid>
@@ -207,6 +270,13 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=tsmc-2026#tsmc-2026@2026-07-31</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
       <description>【2026-07-31 价格复核：TSM 于 2026-07-29 收于 $374.67，较本报告锚点 -13.7%；下方数字按其标注日期阅读，估值框架与立场不变。】AI 基础设施书 foundry 层补位：TSMC 是整条链最硬的制造瓶颈，而不是又一个芯片设计公司。2026Q2 收入 US$40.20B（同比 +33.7%）落在指引区间上沿，毛利率 67.7% 高于 65.5-67.5% 指引；2nm 首次贡献 3% wafer revenue、7nm 及以下占 77%，HPC 占收入 66%。管理层把全年收入增速展望上调至略高于 40%，并把 2026 capex 从原 $52-56B 区间上调至 $60-64B；Q3 指引 US$44.6-45.8B。AI/HPC 需求已经穿透到晶圆收入和先进节点。ADR $434.16（2026-07-02 收盘）、约 $2.25T 市值、约 14x 2026E EV/Sales 仍是初始估值快照，本次监测不刷新估值或立场；维持中性观察 / 中确信，链内角色是 foundry 层 common-constraint。</description>
+    </item>
+    <item>
+      <title>Micron Technology 深度研究报告 - AI memory 周期的 HBM/DRAM/NAND 仪表盘 / Micron Technology Deep Research Report - HBM, DRAM, and NAND Dashboard for the AI Memory Cycle</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=micron-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=micron-2026#micron-2026@2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description>2026-07-31 估值重新锚定：MU 收于 $739.00（2026-07-29 收盘），较 2026-07-02 锚点 -24.2%，市值约 $834.6B、企业价值约 $815.0B、P/S（TTM）约 9.2x。属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价（已排除公司行为）。下文标注日期的价格、市值与倍数数字作为水平已被取代。情景网格权重与立场本次不重新裁定——回撤改变的是所支付的价格，而非网格所针对的执行问题；下一次实质证据为 2026-09-23 业绩。</description>
     </item>
     <item>
       <title>Constellation Energy 深度研究报告 - AI 电力约束的核电与 Calpine 综合电力锚 / Constellation Energy Deep Research Report - Nuclear and Calpine Integrated Power Anchor for AI</title>
@@ -244,6 +314,13 @@
       <description>2026-07-31 估值重新锚定：MRVL 收于 $163.40（2026-07-29），较 7 月 2 日锚点 −33.4%，市值约 $143.1B、EV 约 $144.5B。按报告自身收入情景重算，EV/Sales 现约 12.6x（FY2027 $11.5B）、约 8.8x（FY2028 $16.5B），较重定价前显著下降。报告“这不是便宜的半导体股”的判断按旧倍数校准，在当前水平已是实质不同的主张。本期无新季报（业绩 2026-08-27），custom ASIC 订单转化与光互连 attach 等执行项未被回撤解决，维持谨慎/中确信，网格未重新加权。</description>
     </item>
     <item>
+      <title>Coherent 深度研究报告 - AI 光连接层的全栈光子仪表盘 / Coherent Deep Research Report - Full-Stack Photonics Dashboard for AI Optical Connectivity</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=coherent-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=coherent-2026#coherent-2026@2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description>2026-07-31 估值重新锚定：COHR 收于 $222.05（2026-07-29 收盘），较 2026-07-02 锚点 -33.4%，市值约 $43.4B、企业价值约 $44.4B、P/S（TTM）约 6.6x。属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价（已排除公司行为）。下文标注日期的价格、市值与倍数数字作为水平已被取代。情景网格权重与立场本次不重新裁定——回撤改变的是所支付的价格，而非网格所针对的执行问题；下一次实质证据为 2026-08-12 业绩。</description>
+    </item>
+    <item>
       <title>Digital Realty 深度研究报告 - AI 数据中心租赁与互联需求仪表盘 / Digital Realty Deep Research Report - Leasing and Interconnection Dashboard for AI Data Centers</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=digital-realty-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=digital-realty-2026#digital-realty-2026@2026-07-31</guid>
@@ -256,83 +333,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=minimax-2026#minimax-2026@2026-07-31</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
       <description>【2026-07-31 价格复核：0100.HK 于 2026-07-29 收于 $212.80，较本报告锚点 -18.3%；下方数字按其标注日期阅读，估值框架与立场不变。】首次覆盖 MiniMax 作为 AI 基础设施研究簿的应用层需求风险锚。FY2025 收入 US$79.0M、同比 +158.9%，毛利率由 12.2% 升至 25.4%，海外收入占 73%；但调整后净亏损 US$250.9M、经营现金流流出 US$279.6M。以 HK$260.60（2026-07-15）、配售后 349.235M 股和形式净现金估算，市值约 HK$91.0B、P/S 约 147.6x、EV/FY2025 Sales 约 110.8x。业务增长得到验证，但当前价格要求接近 69% 的四年收入 CAGR，首次观点为谨慎 / 低确信。</description>
-    </item>
-    <item>
-      <title>Lam Research 深度研究报告 - AI 内存与先进逻辑的刻蚀/沉积校验 / Lam Research Deep Research Report - Etch And Deposition Check On AI Memory And Advanced Logic</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=lam-research-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=lam-research-2026#lam-research-2026@2026-07-30</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <description>2026-07-30 监测更新：AI 基础设施 semicap-equipment 层的刻蚀/沉积仪表盘。FY2026 Q4（6 月季度，截至 2026-06-28）：营收 $6.72B（环比 +15%、同比 +30%），non-GAAP gross margin 52.0%（GAAP 51.7%）、non-GAAP operating margin 38.4%（GAAP 37.4%）、non-GAAP 摊薄 EPS $1.82（GAAP $1.81）；Systems revenue $4.250B、customer support-related and other revenue $2.472B；deferred revenue 升至 $2.43B。管理层给出 9 月季度（FY2027 Q1）指引：营收 $8.10B +/- $400M、gross margin 52.0% +/- 1%、non-GAAP 摊薄 EPS $2.15 +/- $0.15。公司称创下 revenue、operating margin 与 EPS 纪录，并称广泛的 AI 驱动需求正在重塑半导体市场；新闻稿未把需求具体归因到 NAND、DRAM 或先进逻辑。$351.41、约 16.6x EV/annualized sales 为 2026-07-02 初始估值快照；本次监测不刷新股价、年度 EPS 估计、估值倍数、stance 或 conviction，维持中性观察 / 中确信。</description>
-    </item>
-    <item>
-      <title>Vertiv 深度研究报告 - AI 数据中心电力与散热的卖铲人（建设速度仪表盘） / Vertiv Deep Research Report - The Power &amp; Cooling Pick-and-Shovel of AI Data Centers (Buildout Dashboard)</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=vertiv-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=vertiv-2026#vertiv-2026@2026-07-30</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <description>2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30）：净销售额 $32.74亿（+24%、有机 +18%），调整后营业利润率 22.6%（+410bps），摊薄 EPS $1.27（+53%）、调整后摊薄 EPS $1.52（+60%），经营现金流 $11.0亿、调整后 FCF $9.25亿（+234%）。管理层全面上调 FY2026 指引：净销售额 $138-142亿（有机 +31%）、调整后 EPS $6.65-6.75、调整后 FCF $24-26亿。该财报未量化本季订单/backlog。下文 $306.97（2026-06-29）估值快照与 stance 不因本次监测刷新。数据中心电力与热管理（含液冷）卖铲人，位于『电从哪来』(GEV/Bloom)与『芯片』(NVDA/AVGO)之间，是 AI 建设速度最实时的『仪表盘』。Q1 2026 营收$26.5亿(+30%，有机+23%、美洲有机+44%)、调整后营业利润率20.8%(+430bps)、调整后EPS $1.17(+83%)、调整后FCF $6.53亿(+147%)；最新披露的 Q4 2025 backlog $150亿(+109%)、book-to-bill ~2.9x。FY2026指引上调至营收$135-140亿、调整后EPS $6.30-6.40。但股价一年约3倍至$306.97、市值~$1,179亿、~48倍前瞻调整后EPS(~80倍滚动)，已定价多年持续建设；高beta订单簿是双刃剑。谨慎 / 中确信：高质量业务，但价格隐含几乎完美的建设节奏。</description>
-    </item>
-    <item>
-      <title>KLA 深度研究报告 - AI 产能的过程控制与良率仪表盘 / KLA Deep Research Report - Process-Control And Yield Dashboard For AI Capacity</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=kla-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=kla-2026#kla-2026@2026-07-28</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description>2026-07-28 监测更新：AI 基础设施 semicap-equipment 层的过程控制/良率仪表盘。FY2026 Q4（季度截至 2026-06-30）：总营收 $3.658B（较 Q3 的 $3.416B 环比约 +7%）；Semiconductor Process Control revenue $3.257B；Specialty Semiconductor Process $160M、PCB / Component Inspection $241M。季度自由现金流 $817.1M，较上年同期 $1.065B 下降约 23%；全年 FY2026 FCF $3.767B，较 FY2025 的 $3.747B 增长约 0.5%。KLA 的 1 拆 10 于 2026-06-11 生效，Q4 财报已追溯调整所有股数与每股数据：Q4 GAAP / non-GAAP 摊薄 EPS $1.04 / $1.05，Q3 比较数 $0.91 / $0.94；4 月原始 Q3 财报的 $9.12 / $9.40 为拆股前口径。管理层给出 9 月季度（FY2027 Q1）指引：营收 $4.0B ± $200M、non-GAAP 摊薄 EPS $1.16。$235.55、约 22.6x EV/annualized revenue 与约 1.3% LTM FCF yield 为 2026-07-02 初始估值快照；本次监测不刷新估值、stance 或 conviction，维持谨慎 / 中确信。</description>
-    </item>
-    <item>
-      <title>Nebius Group 深度研究报告 - neocloud 的『干净对照组』：对 CoreWeave 风险锚的架构校验 / Nebius Group Deep Research Report - The 'Clean' Neocloud: An Architecture Check on the CoreWeave Risk Anchor</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=nebius-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=nebius-2026#nebius-2026@2026-07-17</guid>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
-      <description>本中心 AI 基础设施书 demand-risk 层的第二篇，作为对 CoreWeave 风险锚的『交叉校验/架构校验』。前身 Yandex 的国际继承者、阿姆斯特丹总部、纳斯达克上市的全栈 AI 云（neocloud）。与 CoreWeave 相反：Q1 2026 营收 $3.99 亿(+684%)、AI 云 ARR $19.2 亿、调整后 EBITDA 转正 $1.295 亿、经营现金流 +$22.6 亿，靠约 $93 亿现金/客户预付款/可转债、而非 GPU 抵押杠杆融资；约 $84 亿非流动债务与约 $10 亿经营租赁负债，对照约 $93 亿现金，金融债务口径近中性、租赁调整后中性至约 $40 亿净现金（取决于预付认股权证处理）。但 GAAP 净利 $6.21 亿实为一笔 $7.806 亿 ClickHouse 非现金重估（经营层面 −$1.28 亿亏损），且正积累与 CoreWeave 同款的超大规模集中（微软最高约 $194 亿 + Meta 最高约 $270 亿，合计约 $460 亿公司披露承诺/上限）与 NVIDIA 供应商+股东循环性。股价约 $240（2026-07-01，6 月 22 日纳指 100 纳入前后约 $256）、市值约 $610 亿、约 2.539 亿流通股，约 17-19x EV/2026E 营收（约 CoreWeave 的 3 倍）、约 7x EV/退出 ARR；2026 资本开支 $200-250 亿(约 7 倍营收)。核心读数：CoreWeave 的脆弱只是资产负债表选择，还是 neocloud 模式的固有属性？答案——只有偿付脆弱是 CoreWeave 独有，需求/集中/循环/资本开支风险是全层共享。2026-07-07 v5 更新：以 2026-07-06 收盘 $213.02 为锚，30% 牛市 / 40% 基准 / 30% 熊市情景网格给出略偏负预期差，当前迁移为谨慎 / 中确信。2026-07-17 监测更新：公司签订首笔约 $7.75 亿资产级担保融资；客户未具名，可复制性仍是公司预期，本次不刷新 2026-07-06 估值快照或谨慎 / 中确信立场。</description>
-    </item>
-    <item>
-      <title>Micron Technology 深度研究报告 - AI memory 周期的 HBM/DRAM/NAND 仪表盘 / Micron Technology Deep Research Report - HBM, DRAM, and NAND Dashboard for the AI Memory Cycle</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=micron-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=micron-2026#micron-2026@2026-07-15</guid>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施书 memory-storage 层补位：Micron 是 HBM、DDR5、数据中心 SSD 和长期供货协议共同构成的 AI 供给瓶颈仪表盘。FY2026 Q3 收入 $41.46B、毛利率约 84.6%、营业利润 $33.32B、净利润 $28.24B，Q4 指引收入 $49-51B、调整后 EPS $30-32、毛利率约 86%。HBM 产能公开报道显示已售罄至 2026，16 个战略客户协议中 14 个最低合同收入约 $100B、约 $22B 现金存款/承诺。2026-07-07 v5 更新：当前 $975.56（2026-07-02 收盘）、市值约 $1.10T，20% 牛市 / 50% 基准 / 30% 熊市情景网格给出温和负偏斜，判断改为谨慎 / 中确信。2026-07-09 官方公告最多 $3B 的美国供应链投入、拟向 GlobalWafers 融资 $500M 并签 10 年 300mm 原始硅片协议，强化长期供给响应证据，但不代表新增 bit supply 已上线，也不刷新 2026-07-02 估值快照。</description>
-    </item>
-    <item>
-      <title>Applied Materials 深度研究报告 - AI 扩产的广谱半导体设备仪表盘 / Applied Materials Deep Research Report - Broad Semicap Dashboard For AI Capacity Buildout</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=applied-materials-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=applied-materials-2026#applied-materials-2026@2026-07-07</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施 semicap-equipment 层的广谱设备仪表盘：AMAT 验证 AI 需求是否不只卡在 EUV，而是扩散到 deposition、etch、advanced packaging、DRAM 和服务。FY2026 Q2 收入 $7.91B、GAAP gross margin 49.9%、non-GAAP EPS $2.86；Semiconductor Systems 收入 $5.965B，其中 foundry/logic/other 67%、DRAM 29%。Q3 指引收入 $8.950B +/- $500M、non-GAAP EPS $3.36 +/- $0.20。当前 $603.04、市值约 $478.8B、EV 约 $477.8B，约 13.3x EV/Q3 annualized sales、约 36.8x forward EPS。谨慎 / 中确信：上行周期强，但中国/台湾暴露和估值容错率让情景偏斜略偏负。</description>
-    </item>
-    <item>
-      <title>CoreWeave 深度研究报告 - AI 建设的风险锚：真实需求还是杠杆与循环融资？ / CoreWeave Deep Research Report - The AI Buildout's Risk Anchor: Real Demand or Leverage &amp; Circular Financing?</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=coreweave-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=coreweave-2026#coreweave-2026@2026-07-07</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
-      <description>本中心 AI 基础设施书的『风险锚』，刻意以熊市为主轴写。GPU『neocloud』，一边是 $994 亿公司定义收入 backlog（RPO + 其他承诺客户合同金额）与 56% 调整后 EBITDA，一边是扩大的 GAAP 净亏损（Q1 2026 −$7.4 亿）、约 $249 亿债务、约 $100 亿经营租赁负债、$310-350 亿 2026 资本开支（约 3 倍营收）。客户集中（微软历史上收入占比 &gt;60%；CNBC 引 2024 年为 62%），NVIDIA 同时是供应商+股东（$20 亿@$87）+$63 亿产能兜底（循环性）。Q1 2026 营收 $20.78 亿(+112%)，FY2026 指引营收 $120-130 亿。股价已较 2025 峰值回落约 47% 至约 $96、市值约 $520 亿、经营租赁前金融净债务约 $229 亿、含经营租赁净义务栈约 $329 亿。中心问题：是真实经济需求还是被杠杆催起的提前囤货？2026-07-07 v5 更新：以 2026-07-06 收盘 $86.46 为锚，20% 牛市 / 30% 基准 / 50% 熊市情景网格给出负预期差，维持 bearish-avoid / 中确信。</description>
-    </item>
-    <item>
-      <title>Almonty Industries 深度研究报告 - 西方钨供应链稀缺资产的兑现考验 / Almonty Industries Deep Research Report - Western Tungsten Scarcity Asset Execution Test</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=almonty-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=almonty-2026#almonty-2026@2026-07-07</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
-      <description>2026-06-23完整重跑版：ALM股价约$18.59、市值约$5.29B；Nasdaq上市和Sangdong战略稀缺性提高关注度，但当前估值要求矿山按计划放量、钨价维持高位且融资稀释可控。</description>
-    </item>
-    <item>
-      <title>NeoVolta 深度研究报告 - 美国住宅储能新势力 / NeoVolta Deep Research Report - Emerging U.S. Residential Energy Storage Player</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=neov-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=neov-2026#neov-2026@2026-07-07</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Q3 FY2026营收骤降至$2.02M（环比-56%），股价从$4.21暴跌至~$1.93（-54%），公开发行稀释65%。佐治亚工厂推迟至8月底、Infinite Grid $2亿LOI+Needham首次覆盖给予$8目标价提供远期想象空间，但近期基本面严重恶化。P/S(TTM)~5.82x，极高风险。</description>
-    </item>
-    <item>
-      <title>Oklo 深度研究报告 - 前商业化核能期权与AI电力需求 / Oklo Deep Research Report - Pre-Commercial Nuclear Optionality Meets AI Power Demand</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=oklo-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=oklo-2026#oklo-2026@2026-07-07</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
-      <description>2026-07-07 v5试点更新：OKLO 2026-07-02收盘$52.36、市值约$9.10B；30%牛市/40%基准/30%熊市情景给出约$12.6B粗略项目市值参考，偏斜为正，但零收入、无运行首堆、NRC/燃料/客户转化未定使确信度保持低位。</description>
-    </item>
-    <item>
-      <title>Coherent 深度研究报告 - AI 光连接层的全栈光子仪表盘 / Coherent Deep Research Report - Full-Stack Photonics Dashboard for AI Optical Connectivity</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=coherent-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=coherent-2026#coherent-2026@2026-07-07</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施 optical 层核心光模块/光器件覆盖。Coherent 不是解释 GPU 单价，而是验证 AI 集群网络扩容是否真正穿透到高速光连接、激光器、InP/SiPh 与 CPO/NPO 路线。Q3 FY2026 收入 $1.81B（+21% YoY，pro forma +27%）、非 GAAP 毛利率 39.6%、非 GAAP EPS $1.41；Datacenter &amp; Communications 收入约 $1.362B，占 pro forma 收入约 75%，同比约 +41%。NVIDIA 2026-03 宣布向 Coherent 投资 $2B，并包含多年、数十亿美元采购承诺和未来产能访问权；公司材料给出 1.6T/3.2T/6.4T ZR/ZR+、CPO/NPO、光电路交换与多轨热管理路线。当前 $333.36（2026-07-02 收盘）、市值约 $65.2B、EV 约 $66.8B，估值已经反映 AI optics supercycle。cautious / 低确信：需求证据真实，但现金流和倍数容错率偏紧。</description>
     </item>
     <item>
       <title>AMD 深度研究报告 - 2026H1 重跑前版本 / AMD Deep Research Report - 2026H1 Pre-rerun Version</title>

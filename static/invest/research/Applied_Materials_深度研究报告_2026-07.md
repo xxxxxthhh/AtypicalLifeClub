@@ -1,7 +1,7 @@
 # Applied Materials 深度研究报告 - AI 扩产的广谱半导体设备仪表盘
 
 标的收录日期：2026-07-05
-最近更新日期：2026-07-07
+最近更新日期：2026-07-31
 代码：NASDAQ: AMAT
 免责声明：本报告仅用于信息与研究交流，不构成任何投资建议，请自行完成尽职调查。
 
@@ -11,7 +11,11 @@
 
 > **框架角色：** Applied Materials 是 AI 基建 半导体设备 层的仪表盘。本报告的任务是验证链条信号，而不是把单一公司数据直接变成投资建议。
 
-**一句话论点：** AI 基础设施 semicap-equipment 层的广谱设备仪表盘：AMAT 验证 AI 需求是否不只卡在 EUV，而是扩散到 deposition、etch、advanced packaging、DRAM 和服务。FY2026 Q2 收入 $7.91B、GAAP gross margin 49.9%、non-GAAP EPS $2.86；Semiconductor Systems 收入 $5.965B，其中 foundry/logic/other 67%、DRAM 29%。Q3 指引收入 $8.950B +/- $500M、non-GAAP EPS $3.36 +/- $0.20。当前 $603.04、市值约 $478.8B、EV 约 $477.8B，约 13.3x EV/Q3 annualized sales、约 36.8x forward EPS。谨慎 / 中确信：上行周期强，但中国/台湾暴露和估值容错率让情景偏斜略偏负。
+**一句话论点：** AI 基础设施 semicap-equipment 层的广谱设备仪表盘：AMAT 验证 AI 需求是否不只卡在 EUV，而是扩散到 deposition、etch、advanced packaging、DRAM 和服务。FY2026 Q2 收入 $7.91B、GAAP gross margin 49.9%、non-GAAP EPS $2.86；Semiconductor Systems 收入 $5.965B，其中 foundry/logic/other 67%、DRAM 29%。Q3 指引收入 $8.950B +/- $500M、non-GAAP EPS $3.36 +/- $0.20。当前 （旧口径）$603.04、市值约 $478.8B、EV 约 $477.8B，约 13.3x EV/Q3 annualized sales、约 36.8x forward EPS。谨慎 / 中确信：上行周期强，但中国/台湾暴露和估值容错率让情景偏斜略偏负。
+
+> **2026-07-31 估值重新锚定。** AMAT 于 **2026-07-29**（最后一个已完成交易日）收于 **$436.45**，较 2026-07-02 标注的旧$603.04 锚点 **-27.6%**。这属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价——已检查公司行为并确认为真实价格变动。按新价格重算：市值约 **$346.5B**，企业价值约 **$345.6B**，P/S（TTM）约 **11.9x**、EV/Sales（TTM）约 **11.9x**。下文标注日期的价格、市值与倍数数字**作为水平已被取代**，请按其标签阅读。
+>
+> 情景网格的相对结论与概率权重写作于旧价格之下，本次**不重新加权**——回撤改变的是所支付的价格，而不是网格所针对的执行问题。立场与确信度不变，相关决策提交复核问题文档 Q1。 Applied Materials 定于 2026-08-13 发布 FY2026 Q3 业绩。
 
 **当前判断：** **谨慎 / 中确信。** AMAT 是这一批里最广谱的 WFE 仪表盘，但在 7 月 2 日价格上，市场已经为 AI 需求穿透 deposition、etch、advanced packaging、DRAM 和服务、且中国/台湾暴露可控付费。
 
@@ -20,7 +24,7 @@
 | Report id | applied-materials-2026 |
 | 链条层级 / 角色 | semicap-equipment / dashboard |
 | 最新报告期 | FY2026 Q2 |
-| 价格快照 | $603.04，截至 2026-07-02 |
+| 价格快照 | （旧口径）$603.04，截至 2026-07-02 |
 | 本次升级后 coverageTier | full |
 | Stance | 谨慎 / 中确信 |
 | 估值用途 | 情景与风险容错率，不是目标价 |
@@ -62,7 +66,7 @@
 | 利润率 / 盈利 | 沿用原报告披露的报告期利润率、EPS、EBITDA、AFFO 或 FCF 口径 | 检验增长是有利润还是仅有规模 | B+ |
 | 现金流 / 资产负债表 | 债务、现金、FCF、AFFO、EBITDA 或回购背景保留自原报告披露 | 决定公司能否承受本轮周期 | B |
 | Backlog / bookings / RPO | Q3 指引 revenue $8.950B +/- $500M、non-GAAP EPS $3.36 +/- $0.20 | 区分承诺需求和叙事需求 | B+ |
-| 估值容错率 | 当前价格锚点：$603.04 | 高预期标的必须有更干净的兑现 | Caution |
+| 估值容错率 | 当前价格锚点：（旧口径）$603.04 | 高预期标的必须有更干净的兑现 | Caution |
 
 ## 4. 管理层与口径校验
 
@@ -86,7 +90,7 @@
 | 需求穿透 | 补齐广谱设备仪表盘：AMAT 验证 AI capex 是否进入 deposition、etch、advanced packaging、DRAM 和服务 | 下一报告期继续确认同一方向 |
 | 财务转化 | FY2026 Q2 revenue $7.91B、Semiconductor Systems $5.965B，foundry/logic/other 67%、DRAM 29% | 收入转化为利润率、现金流或 backlog |
 | 交叉校验支持 | ASML, LRCX, KLAC | 相邻报告同向移动 |
-| 估值韧性 | Base price context $603.04; bull context $753.80 | 基本面继续验证，倍数不收缩 |
+| 估值韧性 | Base price context （旧口径）$603.04; bull context $753.80 | 基本面继续验证，倍数不收缩 |
 
 建设性情景不只是股价上涨，而是支持本公司的同一组数据也让整条链条 read-through 更紧。
 
@@ -96,10 +100,10 @@
 
 | 熊市驱动 | 风险证据 | thesis-breaking signal |
 | --- | --- | --- |
-| 预期风险 | 当前价格锚点 $603.04 | 公司表现不错但已经无法超过内嵌预期 |
+| 预期风险 | 当前价格锚点 （旧口径）$603.04 | 公司表现不错但已经无法超过内嵌预期 |
 | 链条分化 | 相邻报告无法确认同一信号 | 瓶颈在其他 layer，或需求被提前拉动 |
 | 执行风险 | guidance、backlog 或产能转化放缓 | 报告证据停止支持该角色 |
-| 估值压缩 | Bear context $422.13; base context $603.04 | 长期故事未变但倍数先收缩 |
+| 估值压缩 | Bear context $422.13; base context （旧口径）$603.04 | 长期故事未变但倍数先收缩 |
 
 偏空读法不否认公司质量，而是追问质量是否已经被资本化，以及本报告是否过度外推了现有证据。
 
@@ -121,17 +125,17 @@
 
 ## 8. 估值背景
 
-估值只作为风险背景，不是投资建议。v5 问题是：$603.04 这个带日期价格是否已经对 AI 需求带来的广谱 WFE 拉动给了过多信用。
+估值只作为风险背景，不是投资建议。v5 问题是：（旧口径）$603.04 这个带日期价格是否已经对 AI 需求带来的广谱 WFE 拉动给了过多信用。
 
 **情景网格：**
 
-| 情景 | 驱动假设（WFE 广度、advanced packaging、中国/台湾暴露、倍数区间） | 估值含义（相对今天偏贵 / 合理 / 便宜） | 主观概率权重 |
+| 情景 | 驱动假设（WFE 广度、advanced packaging、中国/台湾暴露、倍数区间） | 估值含义 *（已失效——写作于旧价格）* | 主观概率权重 |
 | --- | --- | --- | --- |
 | 牛市情景 | AI capex 从 EUV 扩散到 deposition、etch、advanced packaging、DRAM 和服务；Semiconductor Systems 增长高于 Q3 指引；毛利率和 operating margin 扩张；中国/台湾客户节奏保持干净；低十几倍 EV/sales 维持 | 只有当广谱 WFE 需求延续到 2027、服务/封装 mix 改善时，当前价格才显得合理 | 20% |
 | 基准情景 | Q3 收入接近 $8.95B 中点；foundry/logic 与 DRAM 都健康；服务缓冲周期性；中国/台湾暴露仍可控但压住上行；EV/sales 向高个位数至低十几倍正常化 | 当前价格已经定价这个情景偏乐观的一端，对普通设备周期失望的容错率有限 | 50% |
 | 熊市情景 | 出口管制或客户节奏冲击中国/台湾收入；foundry/logic 或 DRAM 订单正常化；advanced packaging 不足以抵消 WFE 暂停；库存与供应链扩建转为去库存风险；倍数回落到周期均值 | 当前价格会显得偏贵，因为 denominator 与 multiple 同时压过 thesis | 30% |
 
-**已定价预期与预期差：** 以 $603.04、约 $477.8B EV、13.3x EV/Q3 annualized sales、约 36.8x forward EPS 计，市场定价的是广谱 WFE 上行周期，而不只是单季 beat。若设备通过周期框架更接近 8-10x annualized revenue、投资者要求约 8% 年化回报，AMAT 需要持续高十位数收入复合增长，或低十几倍 sales 倍数长期成立。我们的 20% 牛市 / 50% 基准 / 30% 熊市情景表给出的加权判断略低于这一内嵌预期，因为中国/台湾暴露和倍数容错率都偏高。这是预期框架，不是目标价。
+**已定价预期与预期差：** 以 （旧口径）$603.04、约 $477.8B EV、13.3x EV/Q3 annualized sales、约 36.8x forward EPS 计，市场定价的是广谱 WFE 上行周期，而不只是单季 beat。若设备通过周期框架更接近 8-10x annualized revenue、投资者要求约 8% 年化回报，AMAT 需要持续高十位数收入复合增长，或低十几倍 sales 倍数长期成立。我们的 20% 牛市 / 50% 基准 / 30% 熊市情景表给出的加权判断略低于这一内嵌预期，因为中国/台湾暴露和倍数容错率都偏高。这是预期框架，不是目标价。
 
 ## 9. 催化与监测
 
@@ -156,7 +160,7 @@
 
 Applied Materials 的链条验证工作不变：它检验 AI capex 是否从 EUV 扩散到 deposition、etch、advanced packaging、DRAM 和服务，而不是停留在单一瓶颈叙事里。
 
-预期差略偏负：以 $603.04、约 13.3x EV/Q3 annualized sales 和约 36.8x forward EPS 计，市场已经定价广谱 WFE 上行周期；我们的 20% 牛市 / 50% 基准 / 30% 熊市情景表给出的加权判断略低于这一内嵌预期。
+预期差略偏负：以 （旧口径）$603.04、约 13.3x EV/Q3 annualized sales 和约 36.8x forward EPS 计，市场已经定价广谱 WFE 上行周期；我们的 20% 牛市 / 50% 基准 / 30% 熊市情景表给出的加权判断略低于这一内嵌预期。
 
 当前 stance 是 **谨慎，中确信**。谨慎反映情景偏斜，不是商业质量差：AMAT 的广度有价值，但 base case 已经需要强劲 Q3 兑现、foundry/logic 和 DRAM mix 健康，且没有中国/台湾冲击。中确信来自扎实的 Q2 证据和明确 Q3 指引，同时 WFE denominator 仍然有周期性。
 
