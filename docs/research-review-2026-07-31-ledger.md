@@ -131,7 +131,8 @@ Status: `done` / `pending` / `raised` (waiting on a question).
 | aaoi-2026 | A | re-anchor $171.23→$76.52, EV/S ~26.6x→~11.7x | done (stance raised in Q1) |
 | sandisk-2026 | A | re-anchor $2,090.71→$1,015.89, P/S ~16x→~7.8x; expectation gap **inverted** | done (stance raised in Q1) |
 | sk-hynix-2026 | A | re-anchor ₩2,917,000→₩1,401,000; P/S ~16x→~5.3x, now **below** February's 6.3x; TTM P/E left stale (bridge undisclosed) | done (stance raised in Q1) |
-| corning, marvell, coherent, almonty, nebius, coreweave, oklo, lam-research, kla, neov, applied-materials, vertiv, micron | A | re-anchor | pending |
+| corning-2026 | A | re-anchor $221.05→$124.05; fwd P/E ~71x→~39.8x; "richest multiple in coverage" claim retired; sell-side-target bear pillar inverted | done (stance raised in Q1) |
+| marvell, coherent, almonty, nebius, coreweave, oklo, lam-research, kla, neov, applied-materials, vertiv, micron | A | re-anchor | pending |
 | amd, minimax, oracle, jinpan, smh, synopsys, gevernova, tsmc, asml, cadence | B | number refresh only | pending |
 | nrg, dlr, ceg, vistra, arista, copx, meta, broadcom, nvidia, eqix | C | confirm nothing reads as current | pending |
 | tempus-ai, spotify, salesforce, paypal, netflix, igv, hims, coinbase, amzn, airbnb | untracked | verify no stale valuation claim | pending |

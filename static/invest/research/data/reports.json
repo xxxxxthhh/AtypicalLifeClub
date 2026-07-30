@@ -2006,7 +2006,7 @@
     "priceSymbol": "GLW",
     "title": "康宁 深度研究报告 - AI 基础设施的光连接卖铲人",
     "titleEn": "Corning Deep Research Report - The Optical-Connectivity Pick-and-Shovel of AI Infrastructure",
-    "summary": "2026-07-28 监测更新：AI 数据中心光纤/光缆/被动连接材料层卖铲人，与 AAOI 的有源光模块/transceiver 覆盖互补。Q2 2026 财报（季度截至 2026-06-30）：core sales $4.74B（同比 +17%）、core EPS $0.78（同比 +30%）；GAAP net sales $4.51B、GAAP EPS $0.64。Optical Communications 净销售额 $2.072B（同比 +32%、较 Q1 的 $1.846B 环比约 +12%），其中 Enterprise Networks +65%、公司称 Gen AI 产品销售增长明显更快；核心营业利润率 20.9%，调整后自由现金流 $1.42B。管理层给出 Q3 2026 指引 core sales $4.9-5.0B、core EPS $0.85-0.89。$221.05、约 71x 2026E 核心 EPS 为 2026-06-26 初始估值快照；本次监测增加经营证据，但不刷新股价、年度 EPS 估计、估值倍数、stance 或 conviction，维持中性观察 / 中确信。",
+    "summary": "2026-07-31 估值重新锚定：GLW 收于 $124.05（2026-07-29），较 6 月 26 日锚点 −43.9%，市值约 $1,066 亿、EV 约 $1,138 亿。按报告原有一致预期重算，前瞻 P/E 降至约 39.8 倍（2026E 核心 EPS $3.12）、约 32.1 倍（2027E $3.86），EV/Sales 降至约 7.1 倍 / 6.3 倍。报告此前把当时的前瞻倍数称为本覆盖中最贵者——该说法已废止。07-28 并入的 Q2 2026 经营数据（光通信 +32%、企业网络 +65%、核心 EPS $0.78）不变。Springboard 阶梯与 30%+ 光通信增速的持久性仍未证明，维持中性观察/中确信，网格未重新加权。",
     "tags": [
       "光通信",
       "AI基础设施",
@@ -2015,7 +2015,7 @@
     ],
     "category": "tech",
     "date": "2026-06-29",
-    "lastUpdate": "2026-07-28",
+    "lastUpdate": "2026-07-31",
     "file": "/invest/research/reports/view.html?id=corning-2026",
     "markdownFiles": {
       "zh": "/invest/research/Corning_深度研究报告_2026-06.md",
@@ -2025,12 +2025,13 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "AI 基础设施的光纤/光缆/被动连接材料层：2026Q2（2026-07-28）光通信净销售额 $20.72 亿（同比 +32%、环比约 +12%），Enterprise Networks +65%、Gen AI 产品销售更快；core sales $47.4 亿（+17%）、core EPS $0.78（+30%），Q3 指引 core sales $49-50 亿",
-      "三大客户多年期签约且部分由客户出资：Meta 最多 $60 亿、NVIDIA（前期约 $5 亿、未来累计最多约 $32 亿股权的认股权证，资助 3 座美国工厂、美国光连接产能 10 倍）、Amazon 数十亿美元（NVIDIA/三厂/10 倍为 2026-05 既有承诺，Q2 财报重申）",
-      "Springboard 计划推进：2026Q2 核心营业利润率 20.9%、调整后自由现金流 $14.2 亿；运行率目标 2026 年底约 $200 亿、2028 约 $300 亿、2030 约 $400 亿",
-      "核心风险：约 71x 2026E 核心 EPS 为 2026-06-26（约 $221）估值快照、卖方均价低于市价（本次不刷新）；约 $90 亿债务、AI 资本开支周期性与客户集中"
+      "股价 $124.05（2026-07-29 收盘），较 6 月 26 日锚点 −43.9%；市值约 $1,066 亿、EV 约 $1,138 亿",
+      "前瞻 P/E 现约 39.8 倍（2026E）/ 约 32.1 倍（2027E）；EV/Sales 现约 7.1 倍 / 6.3 倍",
+      "“本覆盖中最贵前瞻倍数”的说法已废止——在约 39.8 倍下不再成立（旧口径已移除）",
+      "Q2 2026 经营数据不变：光通信 +32%、企业网络 +65%、核心 EPS $0.78、核心营业利润率 20.9%",
+      "维持中性观察/中确信：Springboard 阶梯与光通信增速持久性未被回撤解决，网格待裁定"
     ],
-    "summaryEn": "July 28, 2026 monitoring update: AI data-center fiber/cable/passive-connectivity pick-and-shovel, complementary to AAOI's active optical-module/transceiver exposure. Q2 2026 results (quarter ended June 30, 2026): core sales were $4.74B (+17% YoY) and core EPS was $0.78 (+30% YoY); GAAP net sales were $4.51B and GAAP EPS was $0.64. Optical Communications net sales were $2.072B (+32% YoY, about +12% sequentially from Q1's $1.846B), with Enterprise Networks +65% and the company saying Gen AI product sales grew significantly faster; core operating margin was 20.9% and adjusted free cash flow was $1.42B. Management guided Q3 2026 to core sales of $4.9-5.0B and core EPS of $0.85-0.89. The $221.05 price and about 71x 2026E core EPS are the June 26, 2026 initial valuation snapshot; this monitoring pass adds operating evidence but does not refresh the share price, annual EPS estimate, valuation multiple, stance, or conviction, and keeps neutral watch / medium conviction.",
+    "summaryEn": "July 31, 2026 valuation re-anchor: GLW closed at $124.05 on 2026-07-29, -43.9% from the June 26 anchor, for about $106.6B market cap and ~$113.8B enterprise value. Recomputed on the report's own consensus estimates, forward P/E falls to ~39.8x (2026E core EPS $3.12) and ~32.1x (2027E $3.86), with EV/Sales at ~7.1x / ~6.3x. The report's claim that it carried the richest forward multiple in this coverage is retired. The Q2 2026 operating data integrated on 07-28 (Optical +32%, Enterprise Networks +65%, core EPS $0.78) is unchanged. Springboard's ladder and the durability of 30%+ Optical growth remain unproven, so the neutral-watch / medium-conviction stance holds and the grid was not re-weighted.",
     "chainLayer": "optical",
     "coverageTier": "full",
     "stance": "neutral-watch",
@@ -2055,9 +2056,15 @@
         "conviction": "medium",
         "date": "2026-06-26",
         "price": 221.05
+      },
+      {
+        "date": "2026-07-29",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 124.05
       }
     ],
-    "priceAsOf": "2026-06-26",
+    "priceAsOf": "2026-07-29",
     "reportedPeriod": "Q2 2026",
     "related": [
       "aaoi-2026"
@@ -2135,6 +2142,25 @@
           "en": "Frozen June 26, 2026 snapshot: stock ~$221 (2026-06-26 close), ~$190B cap, about 71x 2026E core EPS, sell-side average below market. This monitoring pass adds Q2 2026 operating evidence but does not refresh the share price, annual EPS estimate, or resulting multiple; any post-earnings share-price move alone is not a loggable signal, and a separate current-price valuation review is required before re-rating."
         },
         "nextCheck": "2026-Q3 财报 / Q3 earnings",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "scenario-grid-reweight-pending",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "情景网格权重与立场重新裁定（未决）",
+          "en": "Scenario-grid re-weight and stance re-judgement (open)"
+        },
+        "trigger": {
+          "zh": "2026 下半年光通信增速与 Springboard 运行率给出阶梯兑现证据后，重新加权 30/40/30 网格并裁定立场",
+          "en": "re-weight the 30/40/30 grid and re-judge the stance once H2 2026 Optical growth and the Springboard run-rate test the ladder"
+        },
+        "latest": {
+          "zh": "2026-07-31 重新锚定后前瞻 P/E 约 39.8 倍（旧口径约 71 倍）；网格与立场刻意未改",
+          "en": "after the 2026-07-31 re-anchor forward P/E is ~39.8x (old caliber ~71x); grid and stance deliberately unchanged"
+        },
+        "nextCheck": "Q3 2026 业绩与所有者决策 / Q3 2026 results and owner decision",
         "nextCheckDate": "2026-10"
       }
     ]
