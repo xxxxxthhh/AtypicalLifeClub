@@ -125,7 +125,7 @@ Thesis breakers:
 
 ## 8. Valuation Context
 
-Valuation is used as risk context, not as a recommendation. `prices.json` records the dated price anchor as **(old caliber) $333.36** on **2026-07-02**.
+*Old frame, superseded by the 2026-07-31 re-anchor — the price, market cap, enterprise value and every multiple in this paragraph are old-caliber levels:* Valuation is used as risk context, not as a recommendation. `prices.json` records the dated price anchor as **$333.36** on **2026-07-02**.
 
 | Method | Current readout | Interpretation |
 | --- | --- | --- |
@@ -143,7 +143,7 @@ Valuation is used as risk context, not as a recommendation. `prices.json` record
 | Base | Datacenter optics continues growing but at a slower cadence; NVIDIA commitments support visibility but convert over time; gross margin holds around high-30s to low-40s; capacity and roadmap milestones advance with normal delays; FCF remains uneven during expansion | The current price is fair-to-rich: the market already capitalizes much of the optical supercycle | 50% |
 | Bear | Purchase commitments convert slower than expected, adjacent optical peers or ANET fail to confirm the same demand, capacity ramps pressure margins, FCF stays negative, and the market cuts the EV/sales premium before the long-term optical story is disproved | The current price would look rich because multiple compression can arrive before the chain thesis is fully broken | 30% |
 
-**What's priced in & the expectation gap:** At **(old caliber) $333.36**, about **$66.8B** EV, and about **10.1x EV/TTM sales**, the market is already underwriting an AI-optics supercycle rather than a normal optical-components cycle. If a mature optical-hardware premium multiple is closer to **5-6x sales** and investors require about **8%** annual return, the reverse-multiple frame implies roughly `((10.1 / 6)^(1/3) x 1.08 - 1) ≈ 28%` to `((10.1 / 5)^(1/3) x 1.08 - 1) ≈ 36%` annual revenue growth for several years, plus margin and FCF improvement. The base case confirms strong demand but not enough cash-flow evidence yet, so the expectation gap is mildly negative.
+**What's priced in & the expectation gap:** *Old frame, superseded by the 2026-07-31 re-anchor — the price, market cap, enterprise value and every multiple in this paragraph are old-caliber levels:* At **$333.36**, about **$66.8B** EV, and about **10.1x EV/TTM sales**, the market is already underwriting an AI-optics supercycle rather than a normal optical-components cycle. If a mature optical-hardware premium multiple is closer to **5-6x sales** and investors require about **8%** annual return, the reverse-multiple frame implies roughly `((10.1 / 6)^(1/3) x 1.08 - 1) ≈ 28%` to `((10.1 / 5)^(1/3) x 1.08 - 1) ≈ 36%` annual revenue growth for several years, plus margin and FCF improvement. The base case confirms strong demand but not enough cash-flow evidence yet, so the expectation gap is mildly negative.
 
 The key valuation question is whether the next evidence set increases the denominator faster than the market increases the multiple.
 
@@ -163,7 +163,7 @@ These are the items that should drive future reruns. A monitoring update should 
 
 Coherent's chain-validation job is to test whether AI cluster expansion is truly reaching the optical layer. AAOI should confirm the active-module beta, GLW should confirm fiber/cable pull-through, ANET should confirm Ethernet fabric density, and NVDA should confirm the customer/supplier circularity. If COHR moves alone while adjacent layers do not confirm it, the chain read-through should be discounted.
 
-The expectation gap is mildly negative: at (old caliber) $333.36 and about 10.1x EV/TTM sales, the market already requires several years of roughly high-20s to mid-30s revenue growth plus margin and FCF improvement; our base case confirms demand but does not yet prove cash-flow conversion.
+*Old frame, superseded by the 2026-07-31 re-anchor — the price, market cap, enterprise value and every multiple in this paragraph are old-caliber levels:* The expectation gap is mildly negative: at $333.36 and about 10.1x EV/TTM sales, the market already requires several years of roughly high-20s to mid-30s revenue growth plus margin and FCF improvement; our base case confirms demand but does not yet prove cash-flow conversion.
 
 The current stance is **cautious, low conviction**. The 20% bull / 50% base / 30% bear grid says the optical signal is real, but the dated price already capitalizes much of the supercycle. Low conviction reflects the genuine NVIDIA-linked purchase evidence and the fact that one strong order path could quickly flatten the skew.
 

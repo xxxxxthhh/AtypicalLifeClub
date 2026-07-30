@@ -13,7 +13,7 @@ This report is the full rerun successor to `hims-2026-pre-rerun`; the archived b
 
 **One-line thesis:** Hims & Hers is the leading U.S. DTC telehealth platform with a powerful subscription engine, but the 2026H1 debate has shifted from an acute GLP-1 regulatory storm to a growth-quality audit: GLP-1/compound-drug durability, Novo/FDA risk, non-GLP-1 retention, and whether growth converts to cash.
 
-**Current view:** Neutral / watchlist. Nasdaq quote data showed HIMS at roughly **(old caliber) $33.54** on June 22, 2026, with market capitalization around **$7.77B** and a 52-week range of about $13.74-$70.43. The stock has recovered well off the February post-selloff trough, but the market cap still requires proof that the core subscription platform can grow beyond the GLP-1 controversy.
+**Current view:** *Old frame, superseded by the 2026-07-31 re-anchor — the price, market cap, enterprise value and every multiple in this paragraph are old-caliber levels:* Neutral / watchlist. Nasdaq quote data showed HIMS at roughly **$33.54** on June 22, 2026, with market capitalization around **$7.77B** and a 52-week range of about $13.74-$70.43. The stock has recovered well off the February post-selloff trough, but the market cap still requires proof that the core subscription platform can grow beyond the GLP-1 controversy.
 
 > **2026-07-31 valuation re-anchor.** HIMS closed at **$25.00** on **2026-07-29** (last completed US session), **−25.5%** from the old $33.54 anchor dated June 22, 2026. On ~251.5M shares that is a market cap of about **$6.29B**, against ~$7.77B before. Measured the same way this report measured, HIMS now trades at about **2.7x** the February FY2025E revenue baseline of ~$2.35B, versus the **~3.3x** stated below.
 >

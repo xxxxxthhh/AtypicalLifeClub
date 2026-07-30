@@ -125,7 +125,7 @@ Thesis breakers:
 
 ## 8. Valuation Context
 
-Valuation is used as risk context, not as a recommendation. The v5 question is whether the (old caliber) $235.55 dated price already assumes too much durable process-control scarcity and FCF resilience.
+*Old frame, superseded by the 2026-07-31 re-anchor — the price, market cap, enterprise value and every multiple in this paragraph are old-caliber levels:* Valuation is used as risk context, not as a recommendation. The v5 question is whether the $235.55 dated price already assumes too much durable process-control scarcity and FCF resilience.
 
 **Scenario grid:**
 
@@ -135,7 +135,7 @@ Valuation is used as risk context, not as a recommendation. The v5 question is w
 | Base | Process-control revenue remains strong but WFE growth normalizes; FCF supports capital return without a new step-up; Specialty Semiconductor Process and PCB / Component Inspection stay contained; EV/sales gradually compresses from the current premium | Current price already capitalizes most of this case; quality is high, but the FCF yield leaves little room for a flat cycle | 40% |
 | Bear | WFE or process-control demand cools; secondary segments drag reported growth; FCF weakens or buybacks consume too much cash; guidance softens; the market rejects a 20x+ annualized-revenue frame | Current price would be rich because the quality premium and the revenue line would reset together | 40% |
 
-**What's priced in & the expectation gap:** In the frozen July 2, 2026 snapshot, at (old caliber) $235.55, about $308.9B EV, roughly 22.6x EV/annualized revenue, and about 1.3% LTM FCF yield, the market is pricing KLA as a scarce process-control compounder, not merely a cyclical equipment supplier. To justify that frame, the base case needs process-control growth, broad AI vectors, and FCF expansion to persist while the multiple compresses only slowly. Our 20% bull / 40% base / 40% bear grid puts the weighted view below that embedded expectation because a WFE cooling cycle would hit both revenue optics and the premium multiple. This is an expectations frame, not a target price. *(The Q4 FY2026 print and $4.0B September-quarter guide point to continued demand; the 2026-07-28 monitoring pass does not recompute this multiple on a current price, and any post-earnings share-price move alone is not a loggable signal.)*
+**What's priced in & the expectation gap:** *Old frame, superseded by the 2026-07-31 re-anchor — the price, market cap, enterprise value and every multiple in this paragraph are old-caliber levels:* In the frozen July 2, 2026 snapshot, at $235.55, about $308.9B EV, roughly 22.6x EV/annualized revenue, and about 1.3% LTM FCF yield, the market is pricing KLA as a scarce process-control compounder, not merely a cyclical equipment supplier. To justify that frame, the base case needs process-control growth, broad AI vectors, and FCF expansion to persist while the multiple compresses only slowly. Our 20% bull / 40% base / 40% bear grid puts the weighted view below that embedded expectation because a WFE cooling cycle would hit both revenue optics and the premium multiple. This is an expectations frame, not a target price. *(The Q4 FY2026 print and $4.0B September-quarter guide point to continued demand; the 2026-07-28 monitoring pass does not recompute this multiple on a current price, and any post-earnings share-price move alone is not a loggable signal.)*
 
 ## 9. Catalysts And Monitoring
 

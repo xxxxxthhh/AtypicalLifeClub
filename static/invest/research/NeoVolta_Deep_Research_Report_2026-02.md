@@ -254,7 +254,7 @@ The U.S. residential energy storage market is valued at ~$2.7B (2024) and projec
 
 ## 8. Valuation Analysis
 
-Valuation is expectation calibration, not a target price or recommendation. The current `prices.json` anchor is the **(old caliber) $2.72** Jul 6, 2026 close. Using about 54.5M diluted shares outstanding implies roughly **$148M** of market capitalization; TTM revenue remains **$18.07M**, or about **8.2x** P/S. Against FY2026E revenue of **$15-18M**, forward P/S is roughly **8-10x**. NEOV is still unprofitable, with cash of about $11.48M and quarterly burn around $2.87M, so valuation has to be framed around whether LOIs become cash revenue and whether dilution continues.
+*Old frame, superseded by the 2026-07-31 re-anchor — the price, market cap, enterprise value and every multiple in this paragraph are old-caliber levels:* Valuation is expectation calibration, not a target price or recommendation. The current `prices.json` anchor is the **$2.72** Jul 6, 2026 close. Using about 54.5M diluted shares outstanding implies roughly **$148M** of market capitalization; TTM revenue remains **$18.07M**, or about **8.2x** P/S. Against FY2026E revenue of **$15-18M**, forward P/S is roughly **8-10x**. NEOV is still unprofitable, with cash of about $11.48M and quarterly burn around $2.87M, so valuation has to be framed around whether LOIs become cash revenue and whether dilution continues.
 
 **Scenario grid (lite driver version):**
 
@@ -264,7 +264,7 @@ Valuation is expectation calibration, not a target price or recommendation. The 
 | Base | The factory starts but ramps slowly; LOIs convert into small-batch revenue rather than full projects; gross margin returns to 20-25%; more funding is still needed to support growth | Today's price already prices some rebound and leaves limited room for revenue contraction or dilution | 30% |
 | Bear | Q4 / FY2027 revenue remains below Q3; LOIs stay non-binding; gross margin remains below 20%; cash covers fewer than 3 quarters; another discounted financing is required | Today's price is rich; the risk is thematic rebound arriving before operating evidence | 50% |
 
-**What's priced in & the expectation gap:** At **(old caliber) $2.72**, roughly **$148M** market cap, and about **8.2x TTM sales**, the market has repriced some of the storage optionality back into NEOV. But the latest fact base still shows Q1 / Q2 / Q3 revenue declining sequentially, public-offering dilution, and ongoing losses. Our 20% bull / 30% base / 50% bear grid says the Georgia / Infinite Grid optionality is not enough to offset current economics and financing risk, leaving a negative expectation gap.
+**What's priced in & the expectation gap:** *Old frame, superseded by the 2026-07-31 re-anchor — the price, market cap, enterprise value and every multiple in this paragraph are old-caliber levels:* At **$2.72**, roughly **$148M** market cap, and about **8.2x TTM sales**, the market has repriced some of the storage optionality back into NEOV. But the latest fact base still shows Q1 / Q2 / Q3 revenue declining sequentially, public-offering dilution, and ongoing losses. Our 20% bull / 30% base / 50% bear grid says the Georgia / Infinite Grid optionality is not enough to offset current economics and financing risk, leaving a negative expectation gap.
 
 ---
 
@@ -284,7 +284,7 @@ Valuation is expectation calibration, not a target price or recommendation. The 
 
 NeoVolta's chain-validation job is to test whether U.S. residential / utility storage demand can turn a micro-cap storage company from thematic option into a financeable, deliverable, profitable manufacturer. If the Georgia factory, neuClick, Infinite Grid / Luminia, and IRA domestic-content path all validate, the small-cap storage option still has value. If these items remain LOIs, financing needs, and delayed ramps, the AI / storage theme cannot offset current economics.
 
-The expectation gap is negative: at (old caliber) $2.72, roughly $148M market cap, and about 8.2x TTM sales, the market has repriced some storage optionality back in; our 20% bull / 30% base / 50% bear grid says Georgia / Infinite Grid optionality is not enough to offset sequential revenue contraction, dilution, losses, and runway risk.
+*Old frame, superseded by the 2026-07-31 re-anchor — the price, market cap, enterprise value and every multiple in this paragraph are old-caliber levels:* The expectation gap is negative: at $2.72, roughly $148M market cap, and about 8.2x TTM sales, the market has repriced some storage optionality back in; our 20% bull / 30% base / 50% bear grid says Georgia / Infinite Grid optionality is not enough to offset sequential revenue contraction, dilution, losses, and runway risk.
 
 The current stance is **cautious, low conviction**. The 20% bull / 30% base / 50% bear lite grid says NEOV's upside is mostly in still-unbound projects and factory execution, while the downside is already visible in revenue contraction, public-offering dilution, and cash burn. Low conviction reflects company size, disclosure noise, and the fact that one order or financing event can change the path.
 

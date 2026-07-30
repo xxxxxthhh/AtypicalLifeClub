@@ -17,7 +17,7 @@ This report is the full rerun successor to `almonty-2026-pre-rerun`; the archive
 >
 > The scenario grid's relative verdicts and probability weights were written against the old price and are **not re-weighted here** — the drawdown changed what is being paid, not the execution questions the grid is about. Stance and conviction are unchanged and raised under Q1 of the review questions doc. Almonty is a pre-scale miner: TTM revenue of about $50M against a ~$3.1B market cap means the sales multiple (~62x) is a placeholder for the Sangdong ramp, not a valuation input. The report's own NAV framing remains the right lens.
 
-**Current view:** Cautious, medium conviction. `prices.json` shows ALM at **(old caliber) $16.21** on the Jul 6, 2026 close; using the Jun 22 price / market-cap frame implies roughly **$4.6B** of current market cap. Tungsten scarcity and the non-China supply option remain real, but today's price still requires Sangdong ramp, cash cost, offtake collection, and dilution risk to all work in Almonty's favor.
+**Current view:** *Old frame, superseded by the 2026-07-31 re-anchor — the price, market cap, enterprise value and every multiple in this paragraph are old-caliber levels:* Cautious, medium conviction. `prices.json` shows ALM at **$16.21** on the Jul 6, 2026 close; using the Jun 22 price / market-cap frame implies roughly **$4.6B** of current market cap. Tungsten scarcity and the non-China supply option remain real, but today's price still requires Sangdong ramp, cash cost, offtake collection, and dilution risk to all work in Almonty's favor.
 
 **Changes vs the February report:**
 
@@ -164,7 +164,7 @@ Almonty remains in a project-ramp and financing phase; current revenue and EBITD
 
 ## 8. Valuation
 
-Valuation is expectation calibration, not a target price or recommendation. The current `prices.json` anchor is the **(old caliber) $16.21** Jul 6, 2026 close; using the Jun 22 price / market-cap frame implies roughly **$4.6B** of current market capitalization. ALM is not usefully valued on current revenue or P/E because value is dominated by future Sangdong cash flow. The right framework remains project NAV: full-capacity output, APT / tungsten price, cash cost, offtake price, discount rate, and financing dilution — each input can move the conclusion materially.
+*Old frame, superseded by the 2026-07-31 re-anchor — the price, market cap, enterprise value and every multiple in this paragraph are old-caliber levels:* Valuation is expectation calibration, not a target price or recommendation. The current `prices.json` anchor is the **$16.21** Jul 6, 2026 close; using the Jun 22 price / market-cap frame implies roughly **$4.6B** of current market capitalization. ALM is not usefully valued on current revenue or P/E because value is dominated by future Sangdong cash flow. The right framework remains project NAV: full-capacity output, APT / tungsten price, cash cost, offtake price, discount rate, and financing dilution — each input can move the conclusion materially.
 
 **Scenario grid:**
 
@@ -174,7 +174,7 @@ Valuation is expectation calibration, not a target price or recommendation. The 
 | Base | APT stays elevated but volatile; Sangdong commercializes but ramps slower than the ideal curve; cash cost and recovery rate need several quarters of proof; financing terms remain manageable but dilutive | Today's price already capitalizes strategic scarcity and partial ramp success, leaving limited margin of safety | 30% |
 | Bear | APT falls below $400/MTU and stays there; Sangdong output, recovery, or cash cost misses; offtake cash collection slips; new financing keeps diluting common shareholders | Today's price is rich; commodity premium and single-mine execution risk reverse together | 40% |
 
-**What's priced in & the expectation gap:** At **(old caliber) $16.21** and roughly **$4.6B** market cap, the market is still capitalizing non-China tungsten scarcity, a successful Sangdong ramp, and sustained high APT pricing. Our 30% bull / 30% base / 40% bear grid accepts the geopolitical tungsten option, but it keeps single-mine ramp, cash cost, offtake collection, and financing dilution on the same page; at the current price, mine-specific risk slightly outweighs commodity optionality, leaving a negative expectation gap.
+**What's priced in & the expectation gap:** *Old frame, superseded by the 2026-07-31 re-anchor — the price, market cap, enterprise value and every multiple in this paragraph are old-caliber levels:* At **$16.21** and roughly **$4.6B** market cap, the market is still capitalizing non-China tungsten scarcity, a successful Sangdong ramp, and sustained high APT pricing. Our 30% bull / 30% base / 40% bear grid accepts the geopolitical tungsten option, but it keeps single-mine ramp, cash cost, offtake collection, and financing dilution on the same page; at the current price, mine-specific risk slightly outweighs commodity optionality, leaving a negative expectation gap.
 
 ## 9. Catalysts & Monitoring
 
@@ -197,7 +197,7 @@ Valuation is expectation calibration, not a target price or recommendation. The 
 
 Almonty's chain-validation job is to test whether AI, grid, and defense-driven critical-minerals tightness can turn into actual cash flow for a non-China tungsten mine, not just geopolitical scarcity. If Sangdong ramp, APT prices, offtake collection, and financing terms validate together, tungsten becomes a strong resources-layer signal. If any of those pieces slips, single-mine execution risk overwhelms the commodity option.
 
-The expectation gap is negative: at (old caliber) $16.21 and roughly $4.6B market cap, the market is still capitalizing non-China tungsten scarcity, a successful Sangdong ramp, and sustained high APT pricing; our 30% bull / 30% base / 40% bear grid shows mine-specific risk slightly outweighing commodity optionality.
+*Old frame, superseded by the 2026-07-31 re-anchor — the price, market cap, enterprise value and every multiple in this paragraph are old-caliber levels:* The expectation gap is negative: at $16.21 and roughly $4.6B market cap, the market is still capitalizing non-China tungsten scarcity, a successful Sangdong ramp, and sustained high APT pricing; our 30% bull / 30% base / 40% bear grid shows mine-specific risk slightly outweighing commodity optionality.
 
 The current stance is **cautious, medium conviction**. The 30% bull / 30% base / 40% bear grid says the geopolitical tungsten option is real, but today's price already requires Sangdong ramp, cash cost, offtake collection, and financing dilution to all work in Almonty's favor. Medium conviction reflects the evidence quality: tungsten supply constraints and Sangdong's strategic position are clear, while mine ramp, cost, and financing remain high-impact variables.
 

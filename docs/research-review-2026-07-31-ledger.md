@@ -180,3 +180,29 @@ Verification run on the finished branch:
 **What was deliberately NOT done, and why:** no stance was changed and no scenario grid was
 re-weighted. The drawdown changed the price being paid; it did not answer any of the execution
 questions the stances rest on. That judgment belongs to the owner and is Q1 of the questions doc.
+
+
+## Corrections made during final review
+
+Three issues were caught in review after the main pass and fixed on this branch:
+
+1. **Summary/highlights content loss on the last 11 Tier A reports (regression, fixed).** The
+   batch metadata script *replaced* `summary`/`summaryEn`/`highlights` rather than prefixing them,
+   which deleted just-integrated earnings content — worst on `lam-research-2026` (June-quarter
+   record: revenue $6.72B, non-GAAP EPS $1.82, $8.10B September guide), `kla-2026` (FY2026 Q4) and
+   `vertiv-2026` (Q2 2026). Restored from the prior commit and re-applied with the **prefix**
+   pattern already used for Tier B, so the re-anchor facts lead and the company substance is kept.
+   No shape check could have caught this: they verify that stale anchors are *absent*, never that
+   content is *present*.
+
+2. **`prices.json` anchors contradicted the new `priceAsOf` (fixed).** Moving `priceAsOf` to
+   2026-07-29 on 17 re-anchored reports left the ledger still holding the June/early-July
+   `baseDate`/`basePrice`, so the hub would have rendered e.g. "Corning −43.9% since anchor"
+   against a report whose stated anchor *is* the current price. `validate_prices.py` does not
+   cross-check those two fields. Re-ran the pinned price/verdict/calibration scripts; all 17 now
+   show `baseDate 2026-07-29` and ~0% drift, which is the correct post-re-anchor state.
+
+3. **Automated markers left derived figures reading as live (fixed).** The residual-marking helper
+   tagged the old *price* on a line but left market cap, EV and multiples in the same sentence
+   looking current. 43 prose lines were rescoped so the whole paragraph is labelled old-caliber,
+   rather than just the price token inside it.

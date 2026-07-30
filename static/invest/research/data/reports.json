@@ -207,8 +207,8 @@
     "priceSymbol": "AMAT",
     "title": "Applied Materials 深度研究报告 - AI 扩产的广谱半导体设备仪表盘",
     "titleEn": "Applied Materials Deep Research Report - Broad Semicap Dashboard For AI Capacity Buildout",
-    "summary": "2026-07-31 估值重新锚定：AMAT 收于 $436.45（2026-07-29 收盘），较 2026-07-02 锚点 -27.6%，市值约 $346.5B、企业价值约 $345.6B、P/S（TTM）约 11.9x。属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价（已排除公司行为）。下文标注日期的价格、市值与倍数数字作为水平已被取代。情景网格权重与立场本次不重新裁定——回撤改变的是所支付的价格，而非网格所针对的执行问题；下一次实质证据为 2026-08-13 业绩。",
-    "summaryEn": "July 31, 2026 valuation re-anchor: AMAT closed at $436.45 on 2026-07-29, -27.6% from the 2026-07-02 anchor, for about $346.5B market cap and $345.6B enterprise value, P/S (TTM) about 11.9x. Part of the verified July 2026 chain-wide AI-infrastructure repricing (corporate actions ruled out). The dated price, market-cap and multiple figures in the body are superseded as levels. Scenario-grid weights and the stance are deliberately not re-judged here - the drawdown changed what is being paid, not the execution questions the grid is about; next real evidence is the 2026-08-13 print.",
+    "summary": "【2026-07-31 估值重新锚定：AMAT 于 2026-07-29 收于 $436.45，较原锚点 -27.6%，市值约 $346.5B；情景网格与立场未重新裁定，见问题文档 Q1。】AI 基础设施 semicap-equipment 层的广谱设备仪表盘：AMAT 验证 AI 需求是否不只卡在 EUV，而是扩散到 deposition、etch、advanced packaging、DRAM 和服务。FY2026 Q2 收入 $7.91B、GAAP gross margin 49.9%、non-GAAP EPS $2.86；Semiconductor Systems 收入 $5.965B，其中 foundry/logic/other 67%、DRAM 29%。Q3 指引收入 $8.950B +/- $500M、non-GAAP EPS $3.36 +/- $0.20。当前 旧锚点价格（已移除）、市值约 $478.8B、EV 约 $477.8B，约 13.3x EV/Q3 annualized sales、约 36.8x forward EPS。谨慎 / 中确信：上行周期强，但中国/台湾暴露和估值容错率让情景偏斜略偏负。",
+    "summaryEn": "[2026-07-31 valuation re-anchor: AMAT closed at $436.45 on 2026-07-29, -27.6% from its prior anchor, for about $346.5B market cap; scenario grid and stance not re-judged, see Q1 of the questions doc.] Broad equipment dashboard for the AI-infrastructure semicap-equipment layer. AMAT tests whether AI demand is spreading beyond EUV into deposition, etch, advanced packaging, DRAM, and services. Q2 FY2026 revenue was $7.91B, GAAP gross margin was 49.9%, and non-GAAP EPS was $2.86; Semiconductor Systems revenue was $5.965B, with foundry/logic/other at 67% and DRAM at 29%. Q3 guidance is $8.950B revenue +/- $500M and non-GAAP EPS of $3.36 +/- $0.20. At the old anchor price (removed), about $478.8B market cap and $477.8B EV, AMAT trades around 13.3x EV/Q3 annualized sales and 36.8x forward EPS. Cautious / medium conviction: the upcycle is strong, but China/Taiwan exposure and valuation tolerance leave the scenario skew mildly negative.",
     "tags": [
       "半导体设备",
       "AI基础设施",
@@ -227,11 +227,11 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "股价 $436.45（2026-07-29 收盘），较 2026-07-02 锚点 -27.6%",
-      "重算后市值约 $346.5B、企业价值约 $345.6B、P/S（TTM）约 11.9x",
-      "属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价，已排除拆股等公司行为",
-      "情景网格权重与立场未重新裁定：回撤改变的是价格，不是执行问题",
-      "下一次实质证据：2026-08-13 业绩"
+      "2026-07-31 重新锚定：$436.45（2026-07-29 收盘），较原锚点 -27.6%，市值约 $346.5B",
+      "补齐广谱设备仪表盘：AMAT 验证 AI capex 是否进入 deposition、etch、advanced packaging、DRAM 和服务",
+      "FY2026 Q2 revenue $7.91B、Semiconductor Systems $5.965B，foundry/logic/other 67%、DRAM 29%",
+      "Q3 指引 revenue $8.950B +/- $500M、non-GAAP EPS $3.36 +/- $0.20",
+      "当前 旧锚点价格（已移除）、EV 约 $477.8B，约 13.3x Q3 annualized sales；中国/台湾暴露需要持续监控"
     ],
     "chainLayer": "semicap-equipment",
     "coverageTier": "full",
@@ -405,8 +405,8 @@
     "priceSymbol": "LRCX",
     "title": "Lam Research 深度研究报告 - AI 内存与先进逻辑的刻蚀/沉积校验",
     "titleEn": "Lam Research Deep Research Report - Etch And Deposition Check On AI Memory And Advanced Logic",
-    "summary": "2026-07-31 估值重新锚定：LRCX 收于 $252.35（2026-07-29 收盘），较 2026-07-02 锚点 -28.2%，市值约 $315.6B、企业价值约 $314.6B、P/S（TTM）约 14.6x。属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价（已排除公司行为）。下文标注日期的价格、市值与倍数数字作为水平已被取代。情景网格权重与立场本次不重新裁定——回撤改变的是所支付的价格，而非网格所针对的执行问题；下一次实质证据为 2026-10-21 业绩。",
-    "summaryEn": "July 31, 2026 valuation re-anchor: LRCX closed at $252.35 on 2026-07-29, -28.2% from the 2026-07-02 anchor, for about $315.6B market cap and $314.6B enterprise value, P/S (TTM) about 14.6x. Part of the verified July 2026 chain-wide AI-infrastructure repricing (corporate actions ruled out). The dated price, market-cap and multiple figures in the body are superseded as levels. Scenario-grid weights and the stance are deliberately not re-judged here - the drawdown changed what is being paid, not the execution questions the grid is about; next real evidence is the 2026-10-21 print.",
+    "summary": "【2026-07-31 估值重新锚定：LRCX 于 2026-07-29 收于 $252.35，较原锚点 -28.2%，市值约 $315.6B；情景网格与立场未重新裁定，见问题文档 Q1。】2026-07-30 监测更新：AI 基础设施 semicap-equipment 层的刻蚀/沉积仪表盘。FY2026 Q4（6 月季度，截至 2026-06-28）：营收 $6.72B（环比 +15%、同比 +30%），non-GAAP gross margin 52.0%（GAAP 51.7%）、non-GAAP operating margin 38.4%（GAAP 37.4%）、non-GAAP 摊薄 EPS $1.82（GAAP $1.81）；Systems revenue $4.250B、customer support-related and other revenue $2.472B；deferred revenue 升至 $2.43B。管理层给出 9 月季度（FY2027 Q1）指引：营收 $8.10B +/- $400M、gross margin 52.0% +/- 1%、non-GAAP 摊薄 EPS $2.15 +/- $0.15。公司称创下 revenue、operating margin 与 EPS 纪录，并称广泛的 AI 驱动需求正在重塑半导体市场；新闻稿未把需求具体归因到 NAND、DRAM 或先进逻辑。旧锚点价格（已移除）、约 16.6x EV/annualized sales 为 2026-07-02 初始估值快照；本次监测不刷新股价、年度 EPS 估计、估值倍数、stance 或 conviction，维持中性观察 / 中确信。",
+    "summaryEn": "[2026-07-31 valuation re-anchor: LRCX closed at $252.35 on 2026-07-29, -28.2% from its prior anchor, for about $315.6B market cap; scenario grid and stance not re-judged, see Q1 of the questions doc.] July 30, 2026 monitoring update: etch/deposition dashboard for the AI-infrastructure semicap-equipment layer. Q4 fiscal 2026 (June quarter, ended June 28, 2026): revenue was $6.72B (+15% sequentially, +30% year over year), non-GAAP gross margin 52.0% (GAAP 51.7%), non-GAAP operating margin 38.4% (GAAP 37.4%), and non-GAAP diluted EPS $1.82 (GAAP $1.81); Systems revenue was $4.250B and customer support-related and other revenue was $2.472B; deferred revenue rose to $2.43B. Management guided the September quarter (fiscal Q1 2027) to revenue of $8.10B +/- $400M, 52.0% +/- 1% gross margin, and non-GAAP diluted EPS of $2.15 +/- $0.15. The company said it set records for revenue, operating margin, and EPS and that broad AI-driven demand is reshaping the semiconductor market; the release did not attribute demand specifically to NAND, DRAM, or advanced logic. The the old anchor price (removed) price and about 16.6x EV/annualized sales are the July 2, 2026 initial valuation snapshot; this monitoring pass does not refresh the share price, annual EPS estimate, valuation multiple, stance, or conviction and keeps neutral watch / medium conviction.",
     "tags": [
       "半导体设备",
       "刻蚀",
@@ -425,11 +425,11 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "股价 $252.35（2026-07-29 收盘），较 2026-07-02 锚点 -28.2%",
-      "重算后市值约 $315.6B、企业价值约 $314.6B、P/S（TTM）约 14.6x",
-      "属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价，已排除拆股等公司行为",
-      "情景网格权重与立场未重新裁定：回撤改变的是价格，不是执行问题",
-      "下一次实质证据：2026-10-21 业绩"
+      "2026-07-31 重新锚定：$252.35（2026-07-29 收盘），较原锚点 -28.2%，市值约 $315.6B",
+      "补齐刻蚀/沉积仪表盘：LRCX 验证 AI 内存与先进逻辑是否提高 process-tool intensity",
+      "FY2026 Q4（6 月季度）revenue $6.72B（+30% Y/Y）、non-GAAP EPS $1.82；Systems revenue $4.250B（2026-07-30 监测）",
+      "9 月季度指引 revenue $8.10B +/- $400M、non-GAAP EPS $2.15 +/- $0.15；deferred revenue 升至 $2.43B",
+      "旧锚点价格（已移除）、EV 约 $438.4B、约 16.6x annualized sales 为 2026-07-02 冻结估值快照；China 34% 是核心风险"
     ],
     "chainLayer": "semicap-equipment",
     "coverageTier": "full",
@@ -598,8 +598,8 @@
     "priceSymbol": "KLAC",
     "title": "KLA 深度研究报告 - AI 产能的过程控制与良率仪表盘",
     "titleEn": "KLA Deep Research Report - Process-Control And Yield Dashboard For AI Capacity",
-    "summary": "2026-07-31 估值重新锚定：KLAC 收于 $170.19（2026-07-29 收盘），较 2026-07-02 锚点 -27.7%，市值约 $222.3B、企业价值约 $223.3B、P/S（TTM）约 16.4x。属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价（已排除公司行为）。下文标注日期的价格、市值与倍数数字作为水平已被取代。情景网格权重与立场本次不重新裁定——回撤改变的是所支付的价格，而非网格所针对的执行问题；下一次实质证据为 2026-10-28 业绩。",
-    "summaryEn": "July 31, 2026 valuation re-anchor: KLAC closed at $170.19 on 2026-07-29, -27.7% from the 2026-07-02 anchor, for about $222.3B market cap and $223.3B enterprise value, P/S (TTM) about 16.4x. Part of the verified July 2026 chain-wide AI-infrastructure repricing (corporate actions ruled out). The dated price, market-cap and multiple figures in the body are superseded as levels. Scenario-grid weights and the stance are deliberately not re-judged here - the drawdown changed what is being paid, not the execution questions the grid is about; next real evidence is the 2026-10-28 print.",
+    "summary": "【2026-07-31 估值重新锚定：KLAC 于 2026-07-29 收于 $170.19，较原锚点 -27.7%，市值约 $222.3B；情景网格与立场未重新裁定，见问题文档 Q1。】2026-07-28 监测更新：AI 基础设施 semicap-equipment 层的过程控制/良率仪表盘。FY2026 Q4（季度截至 2026-06-30）：总营收 $3.658B（较 Q3 的 $3.416B 环比约 +7%）；Semiconductor Process Control revenue $3.257B；Specialty Semiconductor Process $160M、PCB / Component Inspection $241M。季度自由现金流 $817.1M，较上年同期 $1.065B 下降约 23%；全年 FY2026 FCF $3.767B，较 FY2025 的 $3.747B 增长约 0.5%。KLA 的 1 拆 10 于 2026-06-11 生效，Q4 财报已追溯调整所有股数与每股数据：Q4 GAAP / non-GAAP 摊薄 EPS $1.04 / $1.05，Q3 比较数 $0.91 / $0.94；4 月原始 Q3 财报的 $9.12 / $9.40 为拆股前口径。管理层给出 9 月季度（FY2027 Q1）指引：营收 $4.0B ± $200M、non-GAAP 摊薄 EPS $1.16。旧锚点价格（已移除）、约 22.6x EV/annualized revenue 与约 1.3% LTM FCF yield 为 2026-07-02 初始估值快照；本次监测不刷新估值、stance 或 conviction，维持谨慎 / 中确信。",
+    "summaryEn": "[2026-07-31 valuation re-anchor: KLAC closed at $170.19 on 2026-07-29, -27.7% from its prior anchor, for about $222.3B market cap; scenario grid and stance not re-judged, see Q1 of the questions doc.] July 28, 2026 monitoring update: process-control and yield dashboard for the AI-infrastructure semicap-equipment layer. Q4 fiscal 2026 (quarter ended June 30, 2026): total revenue was $3.658B (about +7% sequentially vs Q3's $3.416B); Semiconductor Process Control revenue was $3.257B; Specialty Semiconductor Process was $160M and PCB / Component Inspection was $241M. Quarterly free cash flow was $817.1M, down about 23% from $1.065B a year earlier, while full-year FY2026 FCF was $3.767B, about 0.5% above FY2025's $3.747B. KLA's ten-for-one split became effective June 11, 2026, and the Q4 release retroactively adjusted all share and per-share values: Q4 GAAP / non-GAAP diluted EPS were $1.04 / $1.05 and Q3 comparatives were $0.91 / $0.94; the original April Q3 release's $9.12 / $9.40 was pre-split. Management guided the September quarter (fiscal Q1 2027) to revenue of $4.0B +/- $200M with non-GAAP diluted EPS of $1.16. The the old anchor price (removed) price and about 22.6x EV/annualized revenue with about 1.3% LTM FCF yield are the July 2, 2026 initial valuation snapshot; this monitoring pass does not refresh valuation, stance, or conviction and keeps cautious / medium conviction.",
     "tags": [
       "半导体设备",
       "过程控制",
@@ -618,11 +618,11 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "股价 $170.19（2026-07-29 收盘），较 2026-07-02 锚点 -27.7%",
-      "重算后市值约 $222.3B、企业价值约 $223.3B、P/S（TTM）约 16.4x",
-      "属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价，已排除拆股等公司行为",
-      "情景网格权重与立场未重新裁定：回撤改变的是价格，不是执行问题",
-      "下一次实质证据：2026-10-28 业绩"
+      "2026-07-31 重新锚定：$170.19（2026-07-29 收盘），较原锚点 -27.7%，市值约 $222.3B",
+      "补齐过程控制/良率仪表盘：KLAC 验证 AI 扩产是否能变成可制造产能",
+      "FY2026 Q4（2026-07-28）总营收 $3.658B（环比约 +7%），Semiconductor Process Control revenue $3.257B（Q3 为 $3.084B）；9 月季度指引营收约 $4.0B ± $200M、non-GAAP EPS $1.16",
+      "季度 FCF $817.1M（同比约 -23%）、全年 FCF $3.767B（约 +0.5%）；季度分红 $305.3M、回购 $571.0M",
+      "约 22.6x annualized revenue、约 1.3% LTM FCF yield 为 2026-07-02（约 旧锚点价格（已移除））估值快照（本次不刷新）；质量高但倍数对 WFE/过程控制降温敏感"
     ],
     "chainLayer": "semicap-equipment",
     "coverageTier": "full",
@@ -1475,7 +1475,7 @@
     "priceSymbol": "NBIS",
     "title": "Nebius Group 深度研究报告 - neocloud 的『干净对照组』：对 CoreWeave 风险锚的架构校验",
     "titleEn": "Nebius Group Deep Research Report - The 'Clean' Neocloud: An Architecture Check on the CoreWeave Risk Anchor",
-    "summary": "2026-07-31 估值重新锚定：NBIS 收于 $148.22（2026-07-29 收盘），较 2026-07-06 锚点 -30.4%，市值约 $32.7B、企业价值约 $32.9B、P/S（TTM）约 37.2x。属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价（已排除公司行为）。下文标注日期的价格、市值与倍数数字作为水平已被取代。情景网格权重与立场本次不重新裁定——回撤改变的是所支付的价格，而非网格所针对的执行问题；下一次实质证据为 2026-08-12 业绩。",
+    "summary": "【2026-07-31 估值重新锚定：NBIS 于 2026-07-29 收于 $148.22，较原锚点 -30.4%，市值约 $32.7B；情景网格与立场未重新裁定，见问题文档 Q1。】本中心 AI 基础设施书 demand-risk 层的第二篇，作为对 CoreWeave 风险锚的『交叉校验/架构校验』。前身 Yandex 的国际继承者、阿姆斯特丹总部、纳斯达克上市的全栈 AI 云（neocloud）。与 CoreWeave 相反：Q1 2026 营收 $3.99 亿(+684%)、AI 云 ARR $19.2 亿、调整后 EBITDA 转正 $1.295 亿、经营现金流 +$22.6 亿，靠约 $93 亿现金/客户预付款/可转债、而非 GPU 抵押杠杆融资；约 $84 亿非流动债务与约 $10 亿经营租赁负债，对照约 $93 亿现金，金融债务口径近中性、租赁调整后中性至约 $40 亿净现金（取决于预付认股权证处理）。但 GAAP 净利 $6.21 亿实为一笔 $7.806 亿 ClickHouse 非现金重估（经营层面 −$1.28 亿亏损），且正积累与 CoreWeave 同款的超大规模集中（微软最高约 $194 亿 + Meta 最高约 $270 亿，合计约 $460 亿公司披露承诺/上限）与 NVIDIA 供应商+股东循环性。股价约 $240（2026-07-01，6 月 22 日纳指 100 纳入前后约 $256）、市值约 $610 亿、约 2.539 亿流通股，约 17-19x EV/2026E 营收（约 CoreWeave 的 3 倍）、约 7x EV/退出 ARR；2026 资本开支 $200-250 亿(约 7 倍营收)。核心读数：CoreWeave 的脆弱只是资产负债表选择，还是 neocloud 模式的固有属性？答案——只有偿付脆弱是 CoreWeave 独有，需求/集中/循环/资本开支风险是全层共享。2026-07-07 v5 更新：以 2026-07-06 收盘 旧锚点价格（已移除） 为锚，30% 牛市 / 40% 基准 / 30% 熊市情景网格给出略偏负预期差，当前迁移为谨慎 / 中确信。2026-07-17 监测更新：公司签订首笔约 $7.75 亿资产级担保融资；客户未具名，可复制性仍是公司预期，本次不刷新 2026-07-06 估值快照或谨慎 / 中确信立场。",
     "tags": [
       "AI云",
       "AI基础设施",
@@ -1494,13 +1494,13 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "股价 $148.22（2026-07-29 收盘），较 2026-07-06 锚点 -30.4%",
-      "重算后市值约 $32.7B、企业价值约 $32.9B、P/S（TTM）约 37.2x",
-      "属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价，已排除拆股等公司行为",
-      "情景网格权重与立场未重新裁定：回撤改变的是价格，不是执行问题",
-      "下一次实质证据：2026-08-12 业绩"
+      "2026-07-31 重新锚定：$148.22（2026-07-29 收盘），较原锚点 -30.4%，市值约 $32.7B",
+      "demand-risk 层第二篇，作为 CoreWeave 风险锚的『架构校验』对照组：一朵用现金/预付款/可转债、而非 GPU 抵押债融资的 neocloud——检验 CoreWeave 的脆弱是模式性的还是资产负债表性的",
+      "与 CoreWeave 相反的报表：Q1 2026 营收 $3.99 亿(+684%)、AI 云 ARR $19.2 亿、调整后 EBITDA 转正 $1.295 亿(集团 32%/云 45%)、经营现金流 +$22.6 亿；约 $93 亿现金 vs 约 $84 亿非流动债务 + 约 $10 亿经营租赁负债，金融债务口径近中性、租赁调整后仍显著更轻",
+      "但两条警报：GAAP 净利 $6.21 亿实为 $7.806 亿 ClickHouse 非现金重估(经营层面仍 −$1.28 亿亏损)；集中度与循环性在向 CoreWeave 收敛(微软最高约 $194 亿 + Meta 最高约 $270 亿，公司披露承诺/上限；NVIDIA 供应商+$20 亿股东)",
+      "股价约 $240(2026-07-01；6 月 22 日纳指 100 纳入前后约 $256)、市值约 $610 亿、约 2.539 亿流通股；约 17-19x EV/2026E 营收(约 CoreWeave 3 倍)、约 7x EV/退出 ARR；2026 资本开支 $200-250 亿(约 7 倍营收)。高质量但高预期/高风险(观察)"
     ],
-    "summaryEn": "July 31, 2026 valuation re-anchor: NBIS closed at $148.22 on 2026-07-29, -30.4% from the 2026-07-06 anchor, for about $32.7B market cap and $32.9B enterprise value, P/S (TTM) about 37.2x. Part of the verified July 2026 chain-wide AI-infrastructure repricing (corporate actions ruled out). The dated price, market-cap and multiple figures in the body are superseded as levels. Scenario-grid weights and the stance are deliberately not re-judged here - the drawdown changed what is being paid, not the execution questions the grid is about; next real evidence is the 2026-08-12 print.",
+    "summaryEn": "[2026-07-31 valuation re-anchor: NBIS closed at $148.22 on 2026-07-29, -30.4% from its prior anchor, for about $32.7B market cap; scenario grid and stance not re-judged, see Q1 of the questions doc.] The second report in this center's AI-infra demand-risk layer, serving as the cross-check ('architecture check') on the CoreWeave risk anchor. Nebius is the Amsterdam-HQ, NASDAQ-listed, full-stack AI-cloud (neocloud) successor to the former Yandex. It is CoreWeave's mirror image: Q1 2026 revenue $399.0M (+684%), AI-cloud ARR $1.92B, adjusted EBITDA turned positive at $129.5M, and +$2.3B operating cash flow — funded by ~$9.3B cash, customer prepayments and convertibles rather than GPU-collateralized leverage, with ~$8.4B non-current debt plus ~$1.0B operating lease liabilities against ~$9.3B cash (financial-debt near-neutral; lease-adjusted neutral to ~$4B net cash depending on prefunded-warrant treatment). But GAAP net income of $621M is a $780.6M non-cash ClickHouse revaluation over a −$128M operating loss, and Nebius is accumulating the same hyperscaler concentration (Microsoft up to ~$19.4B + Meta up to ~$27B, ~$46B company-disclosed commitments/ceilings) and the same NVIDIA supplier-shareholder circularity as CoreWeave. Stock ~$240 (2026-07-01; ~$256 around its June-22 Nasdaq-100 inclusion), market cap ~$61B on ~253.9M shares outstanding, ~17-19x EV/2026E revenue (~3x CoreWeave's) and ~7x EV/exit-ARR; 2026 capex $20-25B (~7x revenue). Core read-through: is CoreWeave's fragility a balance-sheet choice or inherent to the neocloud model? Only the solvency fragility is CoreWeave-specific; the demand/concentration/circularity/capex risks are shared across the layer. Jul 7, 2026 v5 update: anchored to the Jul 6, 2026 close of 旧锚点价格（已移除）, the 30% bull / 40% base / 30% bear scenario grid leaves a slightly negative expectation gap; stance migrates to cautious / medium conviction. Jul. 17, 2026 monitoring update: Nebius entered its first approximately $775M asset-level secured facility; the customer is unnamed and repeatability remains an issuer expectation. This update does not refresh the Jul. 6 valuation snapshot or the cautious / medium-conviction stance.",
     "chainLayer": "demand-risk",
     "coverageTier": "full",
     "chainRole": "architecture-check",
@@ -1810,7 +1810,7 @@
     "priceSymbol": "CRWV",
     "title": "CoreWeave 深度研究报告 - AI 建设的风险锚：真实需求还是杠杆与循环融资？",
     "titleEn": "CoreWeave Deep Research Report - The AI Buildout's Risk Anchor: Real Demand or Leverage & Circular Financing?",
-    "summary": "2026-07-31 估值重新锚定：CRWV 收于 $60.82（2026-07-29 收盘），较 2026-07-06 锚点 -29.7%，市值约 $27.2B、企业价值约 $60.1B、P/S（TTM）约 4.4x。属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价（已排除公司行为）。下文标注日期的价格、市值与倍数数字作为水平已被取代。情景网格权重与立场本次不重新裁定——回撤改变的是所支付的价格，而非网格所针对的执行问题；下一次实质证据为 2026-08-11 业绩。",
+    "summary": "【2026-07-31 估值重新锚定：CRWV 于 2026-07-29 收于 $60.82，较原锚点 -29.7%，市值约 $27.2B；情景网格与立场未重新裁定，见问题文档 Q1。】本中心 AI 基础设施书的『风险锚』，刻意以熊市为主轴写。GPU『neocloud』，一边是 $994 亿公司定义收入 backlog（RPO + 其他承诺客户合同金额）与 56% 调整后 EBITDA，一边是扩大的 GAAP 净亏损（Q1 2026 −$7.4 亿）、约 $249 亿债务、约 $100 亿经营租赁负债、$310-350 亿 2026 资本开支（约 3 倍营收）。客户集中（微软历史上收入占比 >60%；CNBC 引 2024 年为 62%），NVIDIA 同时是供应商+股东（$20 亿@$87）+$63 亿产能兜底（循环性）。Q1 2026 营收 $20.78 亿(+112%)，FY2026 指引营收 $120-130 亿。股价已较 2025 峰值回落约 47% 至约 $96、市值约 $520 亿、经营租赁前金融净债务约 $229 亿、含经营租赁净义务栈约 $329 亿。中心问题：是真实经济需求还是被杠杆催起的提前囤货？2026-07-07 v5 更新：以 2026-07-06 收盘 旧锚点价格（已移除） 为锚，20% 牛市 / 30% 基准 / 50% 熊市情景网格给出负预期差，维持 bearish-avoid / 中确信。",
     "tags": [
       "AI云",
       "AI基础设施",
@@ -1829,13 +1829,13 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "股价 $60.82（2026-07-29 收盘），较 2026-07-06 锚点 -29.7%",
-      "重算后市值约 $27.2B、企业价值约 $60.1B、P/S（TTM）约 4.4x",
-      "属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价，已排除拆股等公司行为",
-      "情景网格权重与立场未重新裁定：回撤改变的是价格，不是执行问题",
-      "下一次实质证据：2026-08-11 业绩"
+      "2026-07-31 重新锚定：$60.82（2026-07-29 收盘），较原锚点 -29.7%，市值约 $27.2B",
+      "本中心 AI 基础设施书的『风险锚』，以熊市为主轴：检验 AI 建设是真实经济需求、还是被杠杆与循环融资吹起的提前囤货——四条 kill-criterion 的读数回传整本书",
+      "矛盾核心：$994 亿公司定义收入 backlog + 56% 调整后 EBITDA vs 扩大的 GAAP 净亏损(Q1'26 −$7.4 亿)、约 $249 亿债务、约 $100 亿经营租赁负债、$310-350 亿 2026 资本开支(约 3 倍营收)；GPU 6 年折旧寿命有争议",
+      "循环性：微软历史上收入占比 >60%；NVIDIA 是供应商+股东($20 亿@$87)+$63 亿产能兜底(最后买家至 2032)；微软自建(MAI)、OpenAI 分散、Core Scientific 收购被否",
+      "股价已较 2025 峰值回落约 47% 至约 $96、市值约 $520 亿、经营租赁前金融净债务约 $229 亿、含经营租赁净义务栈约 $329 亿；偿付能力敏感、高 beta 杠杆期权。高风险/偏熊(回避-观察)"
     ],
-    "summaryEn": "July 31, 2026 valuation re-anchor: CRWV closed at $60.82 on 2026-07-29, -29.7% from the 2026-07-06 anchor, for about $27.2B market cap and $60.1B enterprise value, P/S (TTM) about 4.4x. Part of the verified July 2026 chain-wide AI-infrastructure repricing (corporate actions ruled out). The dated price, market-cap and multiple figures in the body are superseded as levels. Scenario-grid weights and the stance are deliberately not re-judged here - the drawdown changed what is being paid, not the execution questions the grid is about; next real evidence is the 2026-08-11 print.",
+    "summaryEn": "[2026-07-31 valuation re-anchor: CRWV closed at $60.82 on 2026-07-29, -29.7% from its prior anchor, for about $27.2B market cap; scenario grid and stance not re-judged, see Q1 of the questions doc.] The AI-infra book's 'risk anchor', written deliberately bear-led. A GPU 'neocloud' that pairs a $99.4B company-defined revenue backlog (RPO plus other committed-contract amounts) and 56% adjusted EBITDA with a widening GAAP net loss (Q1 2026 -$740M), ~$24.9B debt, ~$10.1B operating lease liabilities, and $31-35B of 2026 capex (~3x revenue). Customer-concentrated (Microsoft historically >60% of revenue; CNBC cited 62% for 2024); NVIDIA is supplier + shareholder ($2B at $87) + $6.3B capacity backstop (circularity). Q1 2026 revenue $2.078B (+112%); FY2026 guide revenue $12-13B. The stock is already ~47% off 2025 peaks at ~$96, market cap ~$52B, financial net debt ~$22.9B before operating leases and ~$32.9B net obligation stack incl. operating leases. Central question: real economic demand or leverage-fueled pre-stocking? Jul 7, 2026 v5 update: anchored to the Jul 6, 2026 close of the old anchor price (removed), the 20% bull / 30% base / 50% bear scenario grid leaves a negative expectation gap; stance remains bearish-avoid / medium conviction.",
     "chainLayer": "demand-risk",
     "coverageTier": "full",
     "chainRole": "risk-anchor",
@@ -1987,7 +1987,7 @@
     },
     "title": "Vertiv 深度研究报告 - AI 数据中心电力与散热的卖铲人（建设速度仪表盘）",
     "titleEn": "Vertiv Deep Research Report - The Power & Cooling Pick-and-Shovel of AI Data Centers (Buildout Dashboard)",
-    "summary": "2026-07-31 估值重新锚定：VRT 收于 $223.04（2026-07-29 收盘），较 2026-06-29 锚点 -27.3%，市值约 $85.7B、企业价值约 $85.8B、P/S（TTM）约 7.5x。属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价（已排除公司行为）。下文标注日期的价格、市值与倍数数字作为水平已被取代。情景网格权重与立场本次不重新裁定——回撤改变的是所支付的价格，而非网格所针对的执行问题；下一次实质证据为 2026-10-21 业绩。",
+    "summary": "【2026-07-31 估值重新锚定：VRT 于 2026-07-29 收于 $223.04，较原锚点 -27.3%，市值约 $85.7B；情景网格与立场未重新裁定，见问题文档 Q1。】2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30）：净销售额 $32.74亿（+24%、有机 +18%），调整后营业利润率 22.6%（+410bps），摊薄 EPS $1.27（+53%）、调整后摊薄 EPS $1.52（+60%），经营现金流 $11.0亿、调整后 FCF $9.25亿（+234%）。管理层全面上调 FY2026 指引：净销售额 $138-142亿（有机 +31%）、调整后 EPS $6.65-6.75、调整后 FCF $24-26亿。该财报未量化本季订单/backlog。下文 旧锚点价格（已移除）（2026-06-29）估值快照与 stance 不因本次监测刷新。数据中心电力与热管理（含液冷）卖铲人，位于『电从哪来』(GEV/Bloom)与『芯片』(NVDA/AVGO)之间，是 AI 建设速度最实时的『仪表盘』。Q1 2026 营收$26.5亿(+30%，有机+23%、美洲有机+44%)、调整后营业利润率20.8%(+430bps)、调整后EPS $1.17(+83%)、调整后FCF $6.53亿(+147%)；最新披露的 Q4 2025 backlog $150亿(+109%)、book-to-bill ~2.9x。FY2026指引上调至营收$135-140亿、调整后EPS $6.30-6.40。但股价一年约3倍至旧锚点价格（已移除）、市值~$1,179亿、~48倍前瞻调整后EPS(~80倍滚动)，已定价多年持续建设；高beta订单簿是双刃剑。谨慎 / 中确信：高质量业务，但价格隐含几乎完美的建设节奏。",
     "tags": [
       "数据中心",
       "AI基础设施",
@@ -2006,13 +2006,13 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "股价 $223.04（2026-07-29 收盘），较 2026-06-29 锚点 -27.3%",
-      "重算后市值约 $85.7B、企业价值约 $85.8B、P/S（TTM）约 7.5x",
-      "属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价，已排除拆股等公司行为",
-      "情景网格权重与立场未重新裁定：回撤改变的是价格，不是执行问题",
-      "下一次实质证据：2026-10-21 业绩"
+      "2026-07-31 重新锚定：$223.04（2026-07-29 收盘），较原锚点 -27.3%，市值约 $85.7B",
+      "AI 数据中心电力+热管理(含液冷)卖铲人，是建设速度最实时、最难造假的『仪表盘』，可交叉校验 NVDA/AVGO/GLW/GEV/Bloom 的需求假设",
+      "Q1 2026 营收$26.5亿(+30%、有机+23%、美洲+44%)、调整后营业利润率20.8%(+430bps)、调整后EPS $1.17(+83%)、调整后FCF $6.53亿(+147%)；Q4 2025 backlog $150亿(+109%)、book-to-bill ~2.9x，FY2026指引上调",
+      "液冷代际拐点(100kW+ 机柜)；Vertiv 是一线电力+热管理供应商，但公开份额/TAM估算口径分散，需按行业来源跟踪；轻杠杆(净债务~$7.6亿)自我造血",
+      "核心风险：股价一年约3倍至旧锚点价格（已移除）、~48倍前瞻调整后EPS(~80倍滚动)、市值~$1,179亿，已定价多年建设；高beta订单簿双向，AI资本开支消化/竞争(施耐德/伊顿)是主要风险"
     ],
-    "summaryEn": "July 31, 2026 valuation re-anchor: VRT closed at $223.04 on 2026-07-29, -27.3% from the 2026-06-29 anchor, for about $85.7B market cap and $85.8B enterprise value, P/S (TTM) about 7.5x. Part of the verified July 2026 chain-wide AI-infrastructure repricing (corporate actions ruled out). The dated price, market-cap and multiple figures in the body are superseded as levels. Scenario-grid weights and the stance are deliberately not re-judged here - the drawdown changed what is being paid, not the execution questions the grid is about; next real evidence is the 2026-10-21 print.",
+    "summaryEn": "[2026-07-31 valuation re-anchor: VRT closed at $223.04 on 2026-07-29, -27.3% from its prior anchor, for about $85.7B market cap; scenario grid and stance not re-judged, see Q1 of the questions doc.] July 30, 2026 monitoring update (Q2 2026, quarter ended June 30, 2026): net sales were $3.274B (+24%, +18% organic), adjusted operating margin 22.6% (+410bps), diluted EPS $1.27 (+53%) and adjusted diluted EPS $1.52 (+60%), operating cash flow $1.10B, and adjusted FCF $925M (+234%). Management raised FY2026 guidance across all metrics: net sales $13.8-14.2B (+31% organic), adjusted EPS $6.65-6.75, and adjusted FCF $2.4-2.6B. The release did not quantify this quarter's orders/backlog. The 旧锚点价格（已移除） (Jun 29, 2026) valuation snapshot and stance below are not refreshed by this monitoring pass. Power & thermal (incl. liquid cooling) pick-and-shovel for data centers, sitting between 'where power comes from' (GEV/Bloom) and 'the chips' (NVDA/AVGO) — the most real-time 'dashboard' of AI buildout velocity. Q1 2026 revenue $2.65B (+30%, +23% organic, Americas +44%), adj operating margin 20.8% (+430bps), adj EPS $1.17 (+83%), adj FCF $653M (+147%); latest disclosed Q4 2025 backlog was $15.0B (+109%) with book-to-bill ~2.9x. FY2026 guidance raised to revenue $13.5-14.0B, adj EPS $6.30-6.40. But the stock ~3x'd in a year to 旧锚点价格（已移除） / ~$117.9B / ~48x forward adj EPS (~80x trailing), pricing in years of sustained buildout; the high-beta order book cuts both ways. Cautious / medium conviction: high-quality franchise, but the price implies a near-perfect buildout pace.",
     "chainLayer": "datacenter-facility",
     "coverageTier": "full",
     "chainRole": "dashboard",
@@ -3285,7 +3285,7 @@
     "priceSymbol": "ALM",
     "title": "Almonty Industries 深度研究报告 - 西方钨供应链稀缺资产的兑现考验",
     "titleEn": "Almonty Industries Deep Research Report - Western Tungsten Scarcity Asset Execution Test",
-    "summary": "2026-07-31 估值重新锚定：ALM 收于 $10.95（2026-07-29 收盘），较 2026-07-06 锚点 -32.4%，市值约 $3.1B、企业价值约 $3.0B、P/S（TTM）约 62.1x。属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价（已排除公司行为）。下文标注日期的价格、市值与倍数数字作为水平已被取代。情景网格权重与立场本次不重新裁定——回撤改变的是所支付的价格，而非网格所针对的执行问题；下一次实质证据为 2026-11 业绩。",
+    "summary": "【2026-07-31 估值重新锚定：ALM 于 2026-07-29 收于 $10.95，较原锚点 -32.4%，市值约 $3.1B；情景网格与立场未重新裁定，见问题文档 Q1。】2026-06-23完整重跑版：ALM股价约$18.59、市值约$5.29B；Nasdaq上市和Sangdong战略稀缺性提高关注度，但当前估值要求矿山按计划放量、钨价维持高位且融资稀释可控。",
     "tags": [
       "钨矿",
       "关键矿物",
@@ -3301,13 +3301,13 @@
       "en": "/invest/research/Almonty_Industries_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "股价 $10.95（2026-07-29 收盘），较 2026-07-06 锚点 -32.4%",
-      "重算后市值约 $3.1B、企业价值约 $3.0B、P/S（TTM）约 62.1x",
-      "属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价，已排除拆股等公司行为",
-      "情景网格权重与立场未重新裁定：回撤改变的是价格，不是执行问题",
-      "下一次实质证据：2026-11 业绩"
+      "2026-07-31 重新锚定：$10.95（2026-07-29 收盘），较原锚点 -32.4%，市值约 $3.1B",
+      "股价约$18.59、市值约$5.29B，52周区间约$3.16-$24.41",
+      "官方financials页面已列出Q1 2026财报、财务报表和MD&A",
+      "Sangdong满产后预计供应全球非中国钨产量80%以上，是核心价值锚",
+      "结论调整为中性/高风险观察：战略稀缺性强，但项目必须兑现"
     ],
-    "summaryEn": "July 31, 2026 valuation re-anchor: ALM closed at $10.95 on 2026-07-29, -32.4% from the 2026-07-06 anchor, for about $3.1B market cap and $3.0B enterprise value, P/S (TTM) about 62.1x. Part of the verified July 2026 chain-wide AI-infrastructure repricing (corporate actions ruled out). The dated price, market-cap and multiple figures in the body are superseded as levels. Scenario-grid weights and the stance are deliberately not re-judged here - the drawdown changed what is being paid, not the execution questions the grid is about; next real evidence is the 2026-11 print.",
+    "summaryEn": "[2026-07-31 valuation re-anchor: ALM closed at $10.95 on 2026-07-29, -32.4% from its prior anchor, for about $3.1B market cap; scenario grid and stance not re-judged, see Q1 of the questions doc.] June 23, 2026 full rerun: ALM trades around $18.59 with roughly $5.29B market cap. Nasdaq liquidity and Sangdong scarcity improve visibility, but valuation requires mine ramp execution, elevated tungsten prices, and controlled financing dilution.",
     "period": "2026H1",
     "versionType": "full-cycle",
     "versionLabel": "2026H1 Full Rerun",
@@ -3995,7 +3995,7 @@
     "priceSymbol": "NEOV",
     "title": "NeoVolta 深度研究报告 - 美国住宅储能新势力",
     "titleEn": "NeoVolta Deep Research Report - Emerging U.S. Residential Energy Storage Player",
-    "summary": "2026-07-31 估值重新锚定：NEOV 收于 $1.97（2026-07-29 收盘），较 2026-07-06 锚点 -27.6%，市值约 $84M、企业价值约 $74M、P/S（TTM）约 4.7x。属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价（已排除公司行为）。下文标注日期的价格、市值与倍数数字作为水平已被取代。情景网格权重与立场本次不重新裁定——回撤改变的是所支付的价格，而非网格所针对的执行问题；下一次实质证据为 2026-08-26 业绩。",
+    "summary": "【2026-07-31 估值重新锚定：NEOV 于 2026-07-29 收于 $1.97，较原锚点 -27.6%，市值约 $0.1B；情景网格与立场未重新裁定，见问题文档 Q1。】Q3 FY2026营收骤降至$2.02M（环比-56%），股价从$4.21暴跌至~$1.93（-54%），公开发行稀释65%。佐治亚工厂推迟至8月底、Infinite Grid $2亿LOI+Needham首次覆盖给予$8目标价提供远期想象空间，但近期基本面严重恶化。P/S(TTM)~5.82x，极高风险。",
     "tags": [
       "储能",
       "新能源",
@@ -4014,13 +4014,13 @@
     "versionType": "incremental",
     "versionLabel": "2026H1 Incremental Update",
     "highlights": [
-      "股价 $1.97（2026-07-29 收盘），较 2026-07-06 锚点 -27.6%",
-      "重算后市值约 $84M、企业价值约 $74M、P/S（TTM）约 4.7x",
-      "属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价，已排除拆股等公司行为",
-      "情景网格权重与立场未重新裁定：回撤改变的是价格，不是执行问题",
-      "下一次实质证据：2026-08-26 业绩"
+      "2026-07-31 重新锚定：$1.97（2026-07-29 收盘），较原锚点 -27.6%，市值约 $0.1B",
+      "Q3 FY2026营收骤降至$2.02M（QoQ -56%），连续两个季度大幅萎缩；9个月累计$13.37M",
+      "股价从$4.21暴跌至~$1.93（-54%），公开发行使流通股从~33M增至~54.5M（+65%稀释）",
+      "佐治亚工厂推迟至8月底投产，FEOC合规已确认；Infinite Grid Capital 1.1 GWh LOI（~$2亿）",
+      "Needham 6/17首次覆盖给予买入、$8目标价；TTM P/S ~5.82x，现金$11.48M，跑道约4季度"
     ],
-    "summaryEn": "July 31, 2026 valuation re-anchor: NEOV closed at $1.97 on 2026-07-29, -27.6% from the 2026-07-06 anchor, for about $84M market cap and $74M enterprise value, P/S (TTM) about 4.7x. Part of the verified July 2026 chain-wide AI-infrastructure repricing (corporate actions ruled out). The dated price, market-cap and multiple figures in the body are superseded as levels. Scenario-grid weights and the stance are deliberately not re-judged here - the drawdown changed what is being paid, not the execution questions the grid is about; next real evidence is the 2026-08-26 print.",
+    "summaryEn": "[2026-07-31 valuation re-anchor: NEOV closed at $1.97 on 2026-07-29, -27.6% from its prior anchor, for about $0.1B market cap; scenario grid and stance not re-judged, see Q1 of the questions doc.] Q3 FY2026 revenue collapsed to $2.02M (-56% QoQ); the stock has crashed from $4.21 to ~$1.93 (-54%), with a public offering diluting shares ~65%. The Georgia factory slipped to end-August, while Infinite Grid's ~$200M 1.1 GWh LOI and Needham's initiation at an $8 target offer long-term optionality — but near-term fundamentals have deteriorated badly. P/S(TTM) ~5.82x, very high risk.",
     "chainLayer": "power",
     "coverageTier": "lite",
     "stance": "cautious",
@@ -4695,7 +4695,7 @@
     "priceSymbol": "OKLO",
     "title": "Oklo 深度研究报告 - 前商业化核能期权与AI电力需求",
     "titleEn": "Oklo Deep Research Report - Pre-Commercial Nuclear Optionality Meets AI Power Demand",
-    "summary": "2026-07-31 估值重新锚定：OKLO 收于 $36.84（2026-07-29 收盘），较 2026-07-02 锚点 -29.6%，市值约 $6.4B、企业价值约 $4.2B。属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价（已排除公司行为）。下文标注日期的价格、市值与倍数数字作为水平已被取代。情景网格权重与立场本次不重新裁定——回撤改变的是所支付的价格，而非网格所针对的执行问题；下一次实质证据为 2026-08-07 业绩。",
+    "summary": "【2026-07-31 估值重新锚定：OKLO 于 2026-07-29 收于 $36.84，较原锚点 -29.6%，市值约 $6.4B；情景网格与立场未重新裁定，见问题文档 Q1。】2026-07-07 v5试点更新：OKLO 2026-07-02收盘旧锚点价格（已移除）、市值约$9.10B；30%牛市/40%基准/30%熊市情景给出约$12.6B粗略项目市值参考，偏斜为正，但零收入、无运行首堆、NRC/燃料/客户转化未定使确信度保持低位。",
     "tags": [
       "核能",
       "SMR",
@@ -4711,13 +4711,13 @@
       "en": "/invest/research/Oklo_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "股价 $36.84（2026-07-29 收盘），较 2026-07-02 锚点 -29.6%",
-      "重算后市值约 $6.4B、企业价值约 $4.2B",
-      "属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价，已排除拆股等公司行为",
-      "情景网格权重与立场未重新裁定：回撤改变的是价格，不是执行问题",
-      "下一次实质证据：2026-08-07 业绩"
+      "2026-07-31 重新锚定：$36.84（2026-07-29 收盘），较原锚点 -29.6%，市值约 $6.4B",
+      "股价旧锚点价格（已移除）、市值约$9.10B，低于6月22日重跑锚点$58.40",
+      "30%牛市/40%基准/30%熊市项目NAV情景表给出约$12.6B粗略参考",
+      "stance改为偏多/低确信：偏多来自正偏斜，低确信来自零收入、无运行首堆和高执行风险",
+      "NRC许可、燃料供应、首堆时间线和约束性客户结构是核心验证点"
     ],
-    "summaryEn": "July 31, 2026 valuation re-anchor: OKLO closed at $36.84 on 2026-07-29, -29.6% from the 2026-07-02 anchor, for about $6.4B market cap and $4.2B enterprise value. Part of the verified July 2026 chain-wide AI-infrastructure repricing (corporate actions ruled out). The dated price, market-cap and multiple figures in the body are superseded as levels. Scenario-grid weights and the stance are deliberately not re-judged here - the drawdown changed what is being paid, not the execution questions the grid is about; next real evidence is the 2026-08-07 print.",
+    "summaryEn": "[2026-07-31 valuation re-anchor: OKLO closed at $36.84 on 2026-07-29, -29.6% from its prior anchor, for about $6.4B market cap; scenario grid and stance not re-judged, see Q1 of the questions doc.] July 7, 2026 v5 pilot update: OKLO closed at the old anchor price (removed) on July 2 with roughly $9.10B market cap. A 30% bull / 40% base / 30% bear scenario grid produces a rough $12.6B project-cap reference, so skew is positive, but conviction stays low because revenue, an operating first reactor, NRC/fuel proof, and binding customer conversion are still missing.",
     "period": "2026H1",
     "versionType": "full-cycle",
     "versionLabel": "2026H1 Full Rerun",
@@ -5182,8 +5182,8 @@
     "priceSymbol": "MU",
     "title": "Micron Technology 深度研究报告 - AI memory 周期的 HBM/DRAM/NAND 仪表盘",
     "titleEn": "Micron Technology Deep Research Report - HBM, DRAM, and NAND Dashboard for the AI Memory Cycle",
-    "summary": "2026-07-31 估值重新锚定：MU 收于 $739.00（2026-07-29 收盘），较 2026-07-02 锚点 -24.2%，市值约 $834.6B、企业价值约 $815.0B、P/S（TTM）约 9.2x。属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价（已排除公司行为）。下文标注日期的价格、市值与倍数数字作为水平已被取代。情景网格权重与立场本次不重新裁定——回撤改变的是所支付的价格，而非网格所针对的执行问题；下一次实质证据为 2026-09-23 业绩。",
-    "summaryEn": "July 31, 2026 valuation re-anchor: MU closed at $739.00 on 2026-07-29, -24.2% from the 2026-07-02 anchor, for about $834.6B market cap and $815.0B enterprise value, P/S (TTM) about 9.2x. Part of the verified July 2026 chain-wide AI-infrastructure repricing (corporate actions ruled out). The dated price, market-cap and multiple figures in the body are superseded as levels. Scenario-grid weights and the stance are deliberately not re-judged here - the drawdown changed what is being paid, not the execution questions the grid is about; next real evidence is the 2026-09-23 print.",
+    "summary": "【2026-07-31 估值重新锚定：MU 于 2026-07-29 收于 $739.00，较原锚点 -24.2%，市值约 $834.6B；情景网格与立场未重新裁定，见问题文档 Q1。】AI 基础设施书 memory-storage 层补位：Micron 是 HBM、DDR5、数据中心 SSD 和长期供货协议共同构成的 AI 供给瓶颈仪表盘。FY2026 Q3 收入 $41.46B、毛利率约 84.6%、营业利润 $33.32B、净利润 $28.24B，Q4 指引收入 $49-51B、调整后 EPS $30-32、毛利率约 86%。HBM 产能公开报道显示已售罄至 2026，16 个战略客户协议中 14 个最低合同收入约 $100B、约 $22B 现金存款/承诺。2026-07-07 v5 更新：当前 $975.56（2026-07-02 收盘）、市值约 $1.10T，20% 牛市 / 50% 基准 / 30% 熊市情景网格给出温和负偏斜，判断改为谨慎 / 中确信。2026-07-09 官方公告最多 $3B 的美国供应链投入、拟向 GlobalWafers 融资 $500M 并签 10 年 300mm 原始硅片协议，强化长期供给响应证据，但不代表新增 bit supply 已上线，也不刷新 2026-07-02 估值快照。",
+    "summaryEn": "[2026-07-31 valuation re-anchor: MU closed at $739.00 on 2026-07-29, -24.2% from its prior anchor, for about $834.6B market cap; scenario grid and stance not re-judged, see Q1 of the questions doc.] Memory-storage coverage for the AI-infrastructure book: Micron is the dashboard for HBM, DDR5, data-center SSDs, and long-term supply agreements as AI supply constraints move into memory. FY2026 Q3 revenue was $41.46B, gross margin about 84.6%, operating income $33.32B, and net income $28.24B; Q4 guidance is $49-51B revenue, $30-32 adjusted EPS, and about 86% gross margin. Public reports say HBM capacity is sold out through 2026, and 14 of 16 strategic customer agreements have about $100B of minimum contract revenue plus roughly $22B deposits / commitments. July 7, 2026 v5 update: at $975.56 (Jul 2, 2026 close) and about $1.10T market cap, a 20% bull / 50% base / 30% bear grid moves the stance to cautious / medium conviction. Micron's official 2026-07-09 release adds up to $3B of U.S. supply-chain investment, proposed $500M GlobalWafers financing, and a 10-year 300mm raw-wafer agreement; this strengthens long-term supply-response evidence without putting new bit supply online or refreshing the 2026-07-02 valuation snapshot.",
     "tags": [
       "HBM",
       "DRAM",
@@ -5202,11 +5202,11 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "股价 $739.00（2026-07-29 收盘），较 2026-07-02 锚点 -24.2%",
-      "重算后市值约 $834.6B、企业价值约 $815.0B、P/S（TTM）约 9.2x",
-      "属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价，已排除拆股等公司行为",
-      "情景网格权重与立场未重新裁定：回撤改变的是价格，不是执行问题",
-      "下一次实质证据：2026-09-23 业绩"
+      "2026-07-31 重新锚定：$739.00（2026-07-29 收盘），较原锚点 -24.2%，市值约 $834.6B",
+      "memory-storage 层补位：MU 用 HBM sold-out、DRAM/NAND 价格、数据中心 SSD 和 SCA 长期协议校验 AI 需求是否穿透到 memory bit/带宽/价格",
+      "FY2026 Q3 收入 $41.46B、毛利率约 84.6%、营业利润 $33.32B、净利润 $28.24B、FCF $17.56B；Q4 指引收入 $49-51B、EPS $30-32、毛利率约 86%",
+      "16 个 SCA 中 14 个最低合同收入约 $100B，约 $22B 存款/承诺；公开报道显示 HBM 产能售罄至 2026，且只能满足约 50%-66% 客户需求",
+      "当前 $975.56（2026-07-02 收盘）、市值约 $1.10T、净现金约 $19.6B，TTM P/E 约 22x（Q4 年化 run-rate 仅约 7.9x）。20/50/30 情景网格推导为谨慎 / 中确信：隐含可持续 EPS $65-81 高于我们约 $53 的加权值，负偏斜"
     ],
     "chainLayer": "memory-storage",
     "coverageTier": "full",
@@ -6246,7 +6246,7 @@
     "priceSymbol": "COHR",
     "title": "Coherent 深度研究报告 - AI 光连接层的全栈光子仪表盘",
     "titleEn": "Coherent Deep Research Report - Full-Stack Photonics Dashboard for AI Optical Connectivity",
-    "summary": "2026-07-31 估值重新锚定：COHR 收于 $222.05（2026-07-29 收盘），较 2026-07-02 锚点 -33.4%，市值约 $43.4B、企业价值约 $44.4B、P/S（TTM）约 6.6x。属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价（已排除公司行为）。下文标注日期的价格、市值与倍数数字作为水平已被取代。情景网格权重与立场本次不重新裁定——回撤改变的是所支付的价格，而非网格所针对的执行问题；下一次实质证据为 2026-08-12 业绩。",
+    "summary": "【2026-07-31 估值重新锚定：COHR 于 2026-07-29 收于 $222.05，较原锚点 -33.4%，市值约 $43.4B；情景网格与立场未重新裁定，见问题文档 Q1。】AI 基础设施 optical 层核心光模块/光器件覆盖。Coherent 不是解释 GPU 单价，而是验证 AI 集群网络扩容是否真正穿透到高速光连接、激光器、InP/SiPh 与 CPO/NPO 路线。Q3 FY2026 收入 $1.81B（+21% YoY，pro forma +27%）、非 GAAP 毛利率 39.6%、非 GAAP EPS $1.41；Datacenter & Communications 收入约 $1.362B，占 pro forma 收入约 75%，同比约 +41%。NVIDIA 2026-03 宣布向 Coherent 投资 $2B，并包含多年、数十亿美元采购承诺和未来产能访问权；公司材料给出 1.6T/3.2T/6.4T ZR/ZR+、CPO/NPO、光电路交换与多轨热管理路线。当前 旧锚点价格（已移除）（2026-07-02 收盘）、市值约 $65.2B、EV 约 $66.8B，估值已经反映 AI optics supercycle。cautious / 低确信：需求证据真实，但现金流和倍数容错率偏紧。",
     "tags": [
       "AI光连接",
       "光模块",
@@ -6265,13 +6265,13 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "股价 $222.05（2026-07-29 收盘），较 2026-07-02 锚点 -33.4%",
-      "重算后市值约 $43.4B、企业价值约 $44.4B、P/S（TTM）约 6.6x",
-      "属于已核实的 2026 年 7 月 AI 基础设施链条整体重定价，已排除拆股等公司行为",
-      "情景网格权重与立场未重新裁定：回撤改变的是价格，不是执行问题",
-      "下一次实质证据：2026-08-12 业绩"
+      "2026-07-31 重新锚定：$222.05（2026-07-29 收盘），较原锚点 -33.4%，市值约 $43.4B",
+      "补齐 optical 层核心大票：COHR 用高速光连接、激光器、InP/SiPh、CPO/NPO 和光电路交换验证 AI 集群带宽需求是否穿透到光层",
+      "Q3 FY2026 收入 $1.81B（+21% YoY；pro forma +27%）、非 GAAP 毛利率 39.6%、非 GAAP EPS $1.41；Datacenter & Communications 约 $1.362B，占 pro forma 收入约 75%，同比约 +41%",
+      "NVIDIA 2026-03 宣布向 Coherent 投资 $2B，并包含多年、数十亿美元采购承诺和未来产能访问权；Coherent 路线包含 1.6T/3.2T/6.4T ZR/ZR+ 与 CPO/NPO 引擎",
+      "cautious / 低确信：旧锚点价格（已移除）、约 10.1x EV/TTM sales 已定价 AI optics supercycle；Q3 FCF -$383M 和估值容错率是核心风险"
     ],
-    "summaryEn": "July 31, 2026 valuation re-anchor: COHR closed at $222.05 on 2026-07-29, -33.4% from the 2026-07-02 anchor, for about $43.4B market cap and $44.4B enterprise value, P/S (TTM) about 6.6x. Part of the verified July 2026 chain-wide AI-infrastructure repricing (corporate actions ruled out). The dated price, market-cap and multiple figures in the body are superseded as levels. Scenario-grid weights and the stance are deliberately not re-judged here - the drawdown changed what is being paid, not the execution questions the grid is about; next real evidence is the 2026-08-12 print.",
+    "summaryEn": "[2026-07-31 valuation re-anchor: COHR closed at $222.05 on 2026-07-29, -33.4% from its prior anchor, for about $43.4B market cap; scenario grid and stance not re-judged, see Q1 of the questions doc.] Core optical-module and photonics coverage for the AI-infrastructure optical layer. Coherent does not explain GPU ASPs; it tests whether AI cluster network expansion is reaching high-speed optical connectivity, lasers, InP/SiPh and CPO/NPO architectures. Q3 FY2026 revenue was $1.81B (+21% YoY; +27% pro forma), non-GAAP gross margin was 39.6%, and non-GAAP EPS was $1.41. Datacenter & Communications revenue was about $1.362B, roughly 75% of pro forma revenue and about +41% YoY. In March 2026, NVIDIA announced a $2B investment in Coherent, including a multi-year, multi-billion-dollar purchase commitment and future capacity access rights; Coherent's roadmap includes 1.6T/3.2T/6.4T ZR/ZR+ and CPO/NPO engines. At the old anchor price (removed) (2026-07-02 close), about $65.2B market cap and about $66.8B EV, the stock already prices an AI-optics supercycle. Cautious / low conviction: demand evidence is real, but cash-flow and multiple tolerance are tight.",
     "chainLayer": "optical",
     "coverageTier": "full",
     "chainRole": "dashboard",

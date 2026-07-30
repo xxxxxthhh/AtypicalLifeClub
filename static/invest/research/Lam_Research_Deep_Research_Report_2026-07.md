@@ -127,7 +127,7 @@ Thesis breakers:
 
 ## 8. Valuation Context
 
-Valuation is used as risk context, not as a recommendation. The v5 question is whether the (old caliber) $351.41 dated price already assumes too much etch/deposition intensity from HBM, advanced DRAM, 3D structures, and leading-edge logic.
+*Old frame, superseded by the 2026-07-31 re-anchor — the price, market cap, enterprise value and every multiple in this paragraph are old-caliber levels:* Valuation is used as risk context, not as a recommendation. The v5 question is whether the $351.41 dated price already assumes too much etch/deposition intensity from HBM, advanced DRAM, 3D structures, and leading-edge logic.
 
 **Scenario grid:**
 
@@ -137,7 +137,7 @@ Valuation is used as risk context, not as a recommendation. The v5 question is w
 | Base | June-quarter revenue lands near the $6.60B midpoint; Systems and service both grow but at a more normal pace; China remains large but manageable; Japan deferred-revenue acceptance proceeds; EV/sales drifts toward high single digits to low teens | Current price is broadly fair, with enough process-intensity evidence to avoid a negative stance but not enough margin for a clearly positive call | 40% |
 | Bear | China revenue or export limits reduce shipment visibility; Korea/Taiwan HBM or logic demand fails to offset; Japan acceptance slips; service revenue weakens; operating margin misses the guide; the multiple resets toward ordinary tool-cycle levels | Current price would be rich because revenue conversion and the multiple would both disappoint | 30% |
 
-**What's priced in & the expectation gap:** At (old caliber) $351.41, about $438.4B EV, and 16.6x EV/June-quarter annualized sales, the market is paying for process-tool intensity to stay elevated through the next WFE cycle. If Lam's through-cycle multiple normalizes toward roughly 10-12x sales and investors require about 8% annually, the current frame needs sustained mid-to-high-teens revenue growth or a durable mid-teens multiple. Our 30% bull / 40% base / 30% bear grid leaves the base case close to that implied expectation, so the skew is balanced. This is an expectations frame, not a target price. *(The 2026-07-30 monitoring pass adds June-quarter operating evidence — record revenue of $6.72B, Systems revenue of $4.250B, and a $8.10B September-quarter guide midpoint — but does not refresh the share price, annual EPS estimate, or resulting multiple; any post-earnings share-price move alone is not a loggable signal. The September guide is about +21% sequentially over the June actual, so moving the valuation frame forward would require a separate current-price valuation review.)*
+**What's priced in & the expectation gap:** *Old frame, superseded by the 2026-07-31 re-anchor — the price, market cap, enterprise value and every multiple in this paragraph are old-caliber levels:* At $351.41, about $438.4B EV, and 16.6x EV/June-quarter annualized sales, the market is paying for process-tool intensity to stay elevated through the next WFE cycle. If Lam's through-cycle multiple normalizes toward roughly 10-12x sales and investors require about 8% annually, the current frame needs sustained mid-to-high-teens revenue growth or a durable mid-teens multiple. Our 30% bull / 40% base / 30% bear grid leaves the base case close to that implied expectation, so the skew is balanced. This is an expectations frame, not a target price. *(The 2026-07-30 monitoring pass adds June-quarter operating evidence — record revenue of $6.72B, Systems revenue of $4.250B, and a $8.10B September-quarter guide midpoint — but does not refresh the share price, annual EPS estimate, or resulting multiple; any post-earnings share-price move alone is not a loggable signal. The September guide is about +21% sequentially over the June actual, so moving the valuation frame forward would require a separate current-price valuation review.)*
 
 ## 9. Catalysts And Monitoring
 
@@ -162,7 +162,7 @@ These are the items that should drive future reruns. A monitoring update should 
 
 Lam Research's chain-validation job is unchanged: it checks whether AI memory and advanced logic are raising etch/deposition process intensity enough to support the wider semicap-equipment cycle.
 
-The expectation gap is balanced: at (old caliber) $351.41 and about 16.6x EV/June-quarter annualized sales, the market is already paying for elevated process-tool intensity; our 30% bull / 40% base / 30% bear grid leaves the base case close to that implied expectation.
+*Old frame, superseded by the 2026-07-31 re-anchor — the price, market cap, enterprise value and every multiple in this paragraph are old-caliber levels:* The expectation gap is balanced: at $351.41 and about 16.6x EV/June-quarter annualized sales, the market is already paying for elevated process-tool intensity; our 30% bull / 40% base / 30% bear grid leaves the base case close to that implied expectation.
 
 The current stance is **neutral watch, medium conviction**. Neutral reflects a real view: Lam has strong AI/HBM process-intensity evidence, but China exposure, Japan acceptance timing, and a mid-teens sales multiple keep the risk/reward from becoming clearly positive. Medium conviction reflects the explicit June-quarter guide and visible service base, offset by export and WFE-cycle sensitivity.
 
