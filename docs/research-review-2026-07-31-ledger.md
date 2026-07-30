@@ -90,19 +90,54 @@ netflix, igv, hims, coinbase, amzn, airbnb.
   done here; re-weighting a scenario grid or flipping a stance is an editorial judgment and is
   raised in `research-review-2026-07-31-questions.md` instead.
 
+## Tiering — how much treatment each report gets
+
+Uniform treatment would be wrong, not just slow. Stamping "scenario grid stale" on a report that
+moved −2% devalues the marker exactly where it matters. Reports are tiered by whether the drawdown
+broke a *conclusion*, merely a *number*, or nothing:
+
+- **Tier A — conclusion broken** (drift ≥25%, 17 reports). Full treatment: re-anchor price, market
+  cap, EV and every derived multiple; mark the scenario grid's relative verdicts stale; add a
+  `scenario-grid-reweight-pending` monitoring item; move `priceAsOf`; raise the stance under Q1.
+- **Tier B — number stale, conclusion intact** (drift 10–25%). Update the price/market-cap/multiple
+  strings and the date. **No grid marker, no stance question, no pending-monitoring item, and
+  `priceAsOf` is NOT moved** — moving it would reset drift to ~0 and drop the report off the rerun
+  queue without the re-anchor work having been done.
+- **Tier C — nothing material moved** (drift <10%). Confirm no price reads as a current claim; many
+  already carry frozen-snapshot labels from the July passes. Often zero edits.
+- **Untracked (10)** — no `priceSymbol`, no drift signal. Earnings are mostly already integrated;
+  the work is confirming no stale valuation claim reads as live.
+
+## Marker vocabulary (enforced by the checker)
+
+`check_research_package.py` only accepts these as "this value is old" markers:
+`~~ | update | updated | stale | historical | old | 旧 | 历史 | 更新 | 失效 | 不能再 | 需重算 | 需重建`.
+**"prior" / "此前" / "重新锚定" / "原文" do NOT count** and will fail the valuation-sensitive run.
+Standardised on **"old"** (EN) and **"旧"** (ZH).
+
+Two further checker constraints found the hard way:
+- The **last scenario-grid cell must be a bare integer weight** — annotate the header, never the cell.
+- **Metadata has no allowlist.** `summary`, `highlights`, `lastUpdate`, `title`, `titleEn` must not
+  contain old anchors at all. `stanceRationale` and `monitoring[]` are *not* scanned, so they may
+  (and should) retain the old figures to explain the change.
+
 ## Per-report status
 
-Status values: `pending` / `done` / `raised` (blocked on a question for the user).
+Status: `done` / `pending` / `raised` (waiting on a question).
 
-| Report | Action | Status |
-|---|---|---|
-| bloom-energy-2026 | Q2 2026 integration + full valuation re-anchor ($295.05→$163.75, ~26x→~11.9x); grid/stance raised as Q1 | done (stance raised) |
-| (remaining 47) | see batches | pending |
+| Report | Tier | Action | Status |
+|---|---|---|---|
+| bloom-energy-2026 | A | Q2 2026 integration + re-anchor $295.05→$163.75, ~26x→~11.9x | done (stance raised in Q1) |
+| aaoi-2026 | A | re-anchor $171.23→$76.52, EV/S ~26.6x→~11.7x | done (stance raised in Q1) |
+| sandisk-2026 | A | re-anchor $2,090.71→$1,015.89, P/S ~16x→~7.8x; expectation gap **inverted** | done (stance raised in Q1) |
+| sk-hynix, corning, marvell, coherent, almonty, nebius, coreweave, oklo, lam-research, kla, neov, applied-materials, vertiv, micron | A | re-anchor | pending |
+| amd, minimax, oracle, jinpan, smh, synopsys, gevernova, tsmc, asml, cadence | B | number refresh only | pending |
+| nrg, dlr, ceg, vistra, arista, copx, meta, broadcom, nvidia, eqix | C | confirm nothing reads as current | pending |
+| tempus-ai, spotify, salesforce, paypal, netflix, igv, hims, coinbase, amzn, airbnb | untracked | verify no stale valuation claim | pending |
 
-## Checker constraint discovered during the pass
+## Chain-level signal
 
-`check_research_package.py` parses the **last cell of each scenario-grid row as an integer
-probability weight**. Annotating those cells (e.g. `*(stale)* 30%`) fails the scenario-grid
-detector. Staleness markers for a not-re-weighted grid must go in the **header row and a note
-above the table**, never inside the weight cells. Both `aaoi-2026` and `bloom-energy-2026`
-pass with the header-only form.
+Logged **once**, not per report: `ai-infra-chain-wide-repricing-2026-07` in `signals.json`, against a
+new `chain-wide-repricing` rule added to `coverage-map.json` (the framework had no rule covering a
+simultaneous multi-layer repricing). A single name's post-earnings move remains non-loggable per
+existing convention.

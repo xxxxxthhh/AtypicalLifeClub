@@ -8,48 +8,51 @@ Answer them in one pass at the end; nothing here blocks the rest of the review.
 
 ---
 
-## Q1 — Bloom Energy: the stance premise dissolved. Re-judge or hold?
+## Q1 — STRUCTURAL: after a 25–55% decline, does a stance premised on "too expensive" survive?
 
-**Status: raised, stance held unchanged pending your answer.**
+**Status: raised. Every affected stance held unchanged pending your answer. This is one decision
+you make once and I apply across the set — not sixteen separate questions.**
 
-What happened: Bloom reported Q2 2026 on 2026-07-28 and the stock fell over the following
-sessions, so the multiple collapsed from **both** directions at once.
+Seventeen reports fell more than 25% from their own price anchors in July 2026 (verified as a real
+move, no corporate actions). Most of them carried a `cautious` or `bearish-avoid` stance whose
+stated reason was **an arithmetic claim about a multiple**. Those stances were *right* — the
+verdict ledger shows them outperforming their benchmarks on the way down. The problem is that the
+specific arithmetic that justified them no longer holds, because the multiple compressed.
 
-| | Prior frame (2026-07-06) | Now (2026-07-29) |
-|---|---|---|
-| Price | $295.05 | **$163.75** (−44%) |
-| Market cap | ~$84B | **~$48B** |
-| 2026 revenue reference | ~$3.2B | **$4.05B** (raised guide midpoint, +27%) |
-| Market cap / 2026 revenue | ~26x | **~11.9x** |
+Where the arithmetic has been re-checked so far:
 
-The report's `cautious` stance rested on an explicit arithmetic claim: at ~26x sales the price
-"pre-pays for orders, capacity, margins, and cash conversion to work together," producing a
-**negative expectation gap**. At ~11.9x that specific claim does not survive. On top of that,
-Q2 cleared the bull case's own stated bar — **product gross margin 34.3% non-GAAP vs a "32%+"
-requirement** — and demonstrated order conversion at **+165.5% revenue growth**.
+| Report | Stance | The claim that justified it | Status after re-anchoring |
+|---|---|---|---|
+| bloom-energy-2026 | cautious | "~26x 2026E sales pre-pays for everything going right" | **Dissolved.** ~11.9x on *raised* guidance; the 32%+ gross-margin bar it set was cleared (34.3%) |
+| aaoi-2026 | cautious | "~26.6x EV/sales already assumes financial conversion" | **Dissolved.** ~11.7x; execution risks unchanged and unresolved |
+| sandisk-2026 | cautious | "price implies $139–174 sustainable EPS, *above* the $120–132 peak guide" | **Inverted.** Now implies ~$68–85, *below* peak — the market is pricing a trough 35–45% under peak |
 
-But the report's written upgrade trigger requires **H2 2026** delivery volumes to validate the
-2 GW ramp, and Q2 is H1. Service-cost trajectory and customer concentration were **not
-disclosed** in the Q2 release, so two of the four execution items remain unverified.
+The remaining high-drift reports (SK hynix, Corning, Marvell, Coherent, Almonty, Nebius, CoreWeave,
+Oklo, Lam, KLA, NeoVolta, Applied Materials, Vertiv, Micron) are being re-anchored the same way and
+will mostly land in the same place.
 
-I re-anchored all the arithmetic and rewrote the expectation-gap paragraphs, but did **not**
-re-weight the 20/40/40 scenario grid or move the stance — that is your judgment, not a
-mechanical update. The report now says so explicitly, and a
-`scenario-grid-reweight-pending` monitoring item keeps it visible in the queue.
+**The genuine question is which of these two readings you want applied as policy:**
 
-**Options:**
-1. **Hold `cautious` until H2 2026 delivery data** (current state — defensible, trigger not met).
-2. **Move to `neutral-watch`** on the grounds that the negative-gap arithmetic is gone even
-   though the ramp is unproven.
-3. **Re-weight the grid now** (e.g. shift weight from bear toward base) without changing the
-   stance label.
+1. **"The caution has done its job."** A stance premised on valuation should relax when the
+   valuation premise is removed. Under this reading several of these move to `neutral-watch`,
+   and SanDisk arguably further, since its own arithmetic now points the other way.
+2. **"Price falling is not evidence."** None of the *execution* questions were answered by the
+   drawdown — SanDisk's NBM coverage is still unproven, AAOI's customer concentration and cash
+   burn are unchanged, Bloom's 2 GW ramp still awaits H2. A cheaper price on unresolved risk is
+   not the same as resolved risk, especially with ~18 of these names reporting within two weeks
+   (Q2). Under this reading everything holds until the prints land.
 
-My read: option 1 or 2 are both honest; option 2 is arguably more consistent, because holding
-`cautious` while stating in the same report that its arithmetic basis has dissolved is a
-slightly uncomfortable position. I did not take it unilaterally because the stance is the
-product.
+**My recommendation: option 2 for now, then revisit in ~2 weeks**, for one specific reason — the
+drawdown and the upcoming earnings wave are not independent. A market that repriced this hard
+across an entire chain may be anticipating weak prints. Relaxing stances *just before* the
+evidence arrives would be the worst-timed version of this decision. But I have deliberately not
+made that call myself, and the reports say so in-text rather than quietly holding.
 
----
+A third option, if you prefer: **re-weight the scenario grids without moving the stance labels**,
+which records that the valuation leg weakened without asserting a new direction.
+
+Every affected report carries a `scenario-grid-reweight-pending` monitoring item so nothing
+silently drops off the review queue while this is open.
 
 ## Q2 — A large earnings wave lands within days of this pass. Second pass, or let the daily job catch it?
 

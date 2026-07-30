@@ -19,7 +19,7 @@ This report is the full rerun successor to `bloom-energy-2026-pre-rerun`; the ar
 >
 > **Q2 2026 actuals:** revenue **$1.0654B (+165.5% YoY)** — Bloom's first billion-dollar quarter, with product revenue **+215.4% YoY**. GAAP gross margin **33.4%** (from 26.7%); non-GAAP gross margin **34.3%** (from 28.2%). GAAP operating income **$182.2M**; non-GAAP operating income **$239.6M**. Net income to common stockholders **$196.3M**; **GAAP diluted EPS $0.62, non-GAAP diluted EPS $0.78** (vs a ~$0.40 consensus). Adjusted EBITDA **$253.4M**. Cash and cash equivalents at June 30, 2026 were **$2.667B**. **FY2026 guidance was raised to revenue $3.9–4.2B, non-GAAP gross margin ~34%, non-GAAP operating income $800–900M, and non-GAAP EPS $2.55–2.85** — up from the $3.1–3.3B revenue frame this report was written against.
 >
-> **Re-anchored valuation:** at the **2026-07-29 close of $163.75** (the last completed session; the ledger is pinned there because 07-30 was still trading when this pass ran) and roughly **294.5M shares outstanding**, market cap is about **$48B** — against roughly **$84B** at the $295.05 anchor and **$98.3B** at the $345.85 June anchor. Measured the same way this report measured before (market cap / 2026 revenue reference), Bloom now trades at about **11.9x** the raised FY2026 guidance midpoint of $4.05B, versus the **~26x** on a $3.2B reference stated below and the **~31x** in the June rerun. **The multiple has more than halved, driven from both directions at once: the share price fell ~44% while the revenue base guided up ~27%.**
+> **Re-anchored valuation:** at the **2026-07-29 close of $163.75** (the last completed session; the ledger is pinned there because 07-30 was still trading when this pass ran) and roughly **294.5M shares outstanding**, market cap is about **$48B** — against roughly **$84B** at the old $295.05 anchor and **$98.3B** at the old $345.85 June anchor (both superseded). Measured the same way this report measured before (market cap / 2026 revenue reference), Bloom now trades at about **11.9x** the raised FY2026 guidance midpoint of $4.05B, versus the **~26x** on a $3.2B reference stated below and the **~31x** in the June rerun. **The multiple has more than halved, driven from both directions at once: the share price fell ~44% while the revenue base guided up ~27%.**
 >
 > **What this does and does not settle.** The specific bar this report set for the bull case — "product gross margin holds at 32%+" — was cleared in Q2 (34.3% non-GAAP). Order conversion is no longer hypothetical at +165.5% revenue growth. But the report's stated upgrade trigger requires **H2 2026 delivery** validation of the 2 GW ramp, and Q2 is H1, so the trigger is **partially, not fully, met**. Accordingly this pass re-anchors the arithmetic and rewrites the expectation-gap paragraphs, but **does not re-weight the 20/40/40 scenario grid or change the stance**, which stay **cautious / medium conviction** pending the H2 evidence and an owner decision. See §8 and §10 for the re-anchored math and the explicit statement of what is now unresolved.
 
@@ -40,14 +40,14 @@ This report is the full rerun successor to `bloom-energy-2026-pre-rerun`; the ar
 
 | Metric | Value |
 |--------|-------|
-| Price (2026-07-29, re-anchored) | **~$163.75** (prior anchors: $295.05 on 2026-07-06, $345.85 on 2026-06-22) |
-| Market Cap (2026-07-29, re-anchored) | **~$48B** (~294.5M shares outstanding; prior: ~$84B, ~$98.30B) |
+| Price (2026-07-29, re-anchored) | **~$163.75** (old anchors: $295.05 on 2026-07-06, $345.85 on 2026-06-22) |
+| Market Cap (2026-07-29, re-anchored) | **~$48B** (~294.5M shares outstanding; old: ~$84B, ~$98.30B) |
 | 52-Week Range (trailing, lags latest close) | $21.41 - $329.51 |
-| Market Cap / 2026 Revenue (ref., re-anchored) | **~11.9x** on the raised $3.9-4.2B guide (midpoint $4.05B); prior frame ~26x on $3.2B, ~31x in the June rerun |
+| Market Cap / 2026 Revenue (ref., re-anchored) | **~11.9x** on the raised $3.9-4.2B guide (midpoint $4.05B); old frame ~26x on $3.2B, ~31x in the June rerun |
 | Latest-quarter Revenue (2026-07-31 update) | **$1.0654B** (Q2 2026, +165.5% YoY; first billion-dollar quarter) |
 | Latest-quarter Margin / EPS (2026-07-31 update) | non-GAAP gross margin **34.3%**, non-GAAP operating income **$239.6M**, adj. EBITDA **$253.4M**, GAAP diluted EPS **$0.62** / non-GAAP **$0.78** |
 | FY2025 Revenue | $2.02B (+37.3% YoY) |
-| 2026E Revenue | **$3.9-4.2B (raised 2026-07-28)**; the $3.1-3.3B figure used below is the superseded prior guide |
+| 2026E Revenue | **$3.9-4.2B (raised 2026-07-28)**; the $3.1-3.3B figure used below is the superseded old guide |
 | FY2026 Guided Non-GAAP GM / Op Income / EPS | ~34% / $800-900M / $2.55-2.85 |
 | Non-GAAP Gross Margin (2025) | 30.3% |
 | Q4 2025 Revenue | $777.7M (+35.9% YoY) |
@@ -96,7 +96,7 @@ Bloom has moved from years of losses toward profitability; FY2025 revenue was ~$
 | 2023 | 1,334 | +11.2% | 25.8% |
 | 2024 | 1,474 | +10.5% | 28.7% |
 | 2025 | 2,020 | +37.3% | 30.3% |
-| 2026E (prior guide, superseded) | 3,100-3,300 | +54-63% | ~32% |
+| 2026E (old: guide, superseded) | 3,100-3,300 | +54-63% | ~32% |
 | **2026E (raised 2026-07-28)** | **3,900-4,200** | **+93-108%** | **~34%** |
 
 **Q4 2025 detail:** revenue $777.7M (+35.9% YoY, ~38% of full year); non-GAAP gross margin 31.9% (a record); non-GAAP diluted EPS $0.45 (beat); GAAP net income $1.1M (first GAAP-positive quarter); operating cash flow $418.1M.
@@ -164,14 +164,14 @@ Bloom has moved from years of losses toward profitability; FY2025 revenue was ~$
 
 Valuation is expectation calibration, not a target price or recommendation.
 
-**Re-anchored 2026-07-31.** The prior text in this section read: anchor **$295.05** (Jul 6, 2026 close), roughly **$84B** market capitalization, about **26x** the report's $3.2B 2026 revenue reference, with the conclusion that the market was "pre-paying for orders, capacity, margins, and cash conversion to work together." **That arithmetic no longer describes the security.** At the **2026-07-29 close of $163.75** on roughly **294.5M shares outstanding**, market capitalization is about **$48B**, and against the **raised** FY2026 guidance midpoint of **$4.05B** ($3.9-4.2B) the same market-cap/revenue measure is about **11.9x**.
+**Re-anchored 2026-07-31.** The old, now-superseded text in this section read: anchor **$295.05** (Jul 6, 2026 close), roughly **$84B** market capitalization, about **26x** the report's $3.2B 2026 revenue reference, with the conclusion that the market was "pre-paying for orders, capacity, margins, and cash conversion to work together." **That arithmetic no longer describes the security.** At the **2026-07-29 close of $163.75** on roughly **294.5M shares outstanding**, market capitalization is about **$48B**, and against the **raised** FY2026 guidance midpoint of **$4.05B** ($3.9-4.2B) the same market-cap/revenue measure is about **11.9x**.
 
 The move came from both directions simultaneously, which is why the change is larger than the price change alone:
 
 | Frame | Date | Price | Market cap | 2026 revenue reference | Market cap / 2026 revenue |
 |---|---|---|---|---|---|
-| June rerun | 2026-06-22 | $345.85 | ~$98.3B | ~$3.2B | ~31x |
-| Prior anchor | 2026-07-06 | $295.05 | ~$84B | ~$3.2B | ~26x |
+| June rerun (old) | 2026-06-22 | $345.85 | ~$98.3B | ~$3.2B | ~31x |
+| Old anchor (superseded) | 2026-07-06 | $295.05 | ~$84B | ~$3.2B | ~26x |
 | **Re-anchored** | **2026-07-29** | **$163.75** | **~$48B** | **$4.05B (raised guide midpoint)** | **~11.9x** |
 
 Share price −44% from the prior anchor, revenue reference +27% on the raised guide: the multiple has **more than halved**. The premise that carried this section — that the price pre-pays for everything going right — is the premise that has weakened most.
@@ -184,9 +184,9 @@ Share price −44% from the prior anchor, revenue reference +27% on the raised g
 | Base | Backlog remains high but converts in phases; capacity expansion creates periodic inventory and working-capital pressure; product margin improves but service cost rises; customer concentration fades slowly | Today's price largely capitalizes the medium-term growth case; company quality improves, but valuation tolerance is thin | 40% |
 | Bear | AI-power orders convert more slowly than the backlog narrative; the 2 GW ramp or supply chain creates quality / cost issues; gross margin stays below 30%; free cash flow remains held back by inventory, service cost, and capex; concentration or financing risk rises | Today's price is rich; the risk is revenue conversion and multiple compression arriving together, not one noisy quarter | 40% |
 
-**What's priced in & the expectation gap (rewritten 2026-07-31):** At **$163.75** and roughly **$48B** of market cap, Bloom carries about **11.9x** the raised 2026 revenue guide as a hardware platform — not the ~26x the prior version of this paragraph described. Two of the four things that multiple used to require have now shown up in reported numbers: **product gross margin cleared the 32% bar** (34.3% non-GAAP in Q2) and **order conversion is visible in revenue** (+165.5% YoY, first billion-dollar quarter). Two have not: the **2 GW capacity ramp still awaits H2 2026 delivery volumes**, and **service-cost trajectory and customer concentration were not disclosed in the Q2 release**, so both remain on the February baseline.
+**What's priced in & the expectation gap (rewritten 2026-07-31):** At **$163.75** and roughly **$48B** of market cap, Bloom carries about **11.9x** the raised 2026 revenue guide as a hardware platform — not the old ~26x this paragraph previously described. Two of the four things that multiple used to require have now shown up in reported numbers: **product gross margin cleared the 32% bar** (34.3% non-GAAP in Q2) and **order conversion is visible in revenue** (+165.5% YoY, first billion-dollar quarter). Two have not: the **2 GW capacity ramp still awaits H2 2026 delivery volumes**, and **service-cost trajectory and customer concentration were not disclosed in the Q2 release**, so both remain on the February baseline.
 
-The honest statement of the gap is therefore that **its sign is no longer established.** The prior negative expectation gap was an arithmetic claim about ~26x sales; at ~11.9x on raised guidance that specific claim does not survive, while the two unresolved execution items are genuine and unquantified. This pass does not replace it with a positive gap — that would require re-weighting the grid on H2 evidence that does not exist yet. It records that **the basis for the previous negative gap has gone, and the replacement judgment is pending** (see §10 and the review questions doc).
+The honest statement of the gap is therefore that **its sign is no longer established.** The old negative expectation gap was an arithmetic claim about ~26x sales; at ~11.9x on raised guidance that specific claim does not survive, while the two unresolved execution items are genuine and unquantified. This pass does not replace it with a positive gap — that would require re-weighting the grid on H2 evidence that does not exist yet. It records that **the basis for the previous negative gap has gone, and the replacement judgment is pending** (see §10 and the review questions doc).
 
 ## 9. Catalysts & Monitoring
 
@@ -241,5 +241,5 @@ Upgrade trigger: Move to neutral-watch or constructive if H2 2026 deliveries val
 - Price and share-count anchor for the 2026-07-31 re-anchor: BE close **$163.75 on 2026-07-29** (last completed US session) and ~294.5M shares outstanding, per the repo price ledger `static/invest/research/data/prices.json` and market-data lookup. Market cap ~$48B is computed as price x shares outstanding; the ~11.9x figure is that market cap over the $4.05B midpoint of the raised FY2026 revenue guide.
 - Bloom Energy investor relations: `https://investor.bloomenergy.com/`
 - Bloom Energy Q4 2025 earnings release (Feb 5, 2026); SEC filings (10-K/10-Q); analyst reports; industry research.
-- Nasdaq quote API: BE $345.85 and roughly $98.30B market cap on June 22, 2026.
+- Nasdaq quote API (old June anchor, superseded by the 2026-07-31 re-anchor): BE $345.85 and roughly $98.30B market cap on June 22, 2026.
 - WSJ on Bloom's Q1 2026 guidance raise and profit improvement: `https://www.wsj.com/business/earnings/bloom-energy-raises-full-year-guidance-as-profit-climbs-on-digital-power-demand-24daa774`

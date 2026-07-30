@@ -1,5 +1,39 @@
 [
   {
+    "id": "ai-infra-chain-wide-repricing-2026-07",
+    "date": "2026-07-29",
+    "title": {
+      "zh": "2026 年 7 月 AI 基础设施链条同步重定价：覆盖集合中 17 份报告较各自价格锚点跌幅超过 25%",
+      "en": "July 2026 chain-wide AI-infrastructure repricing: 17 covered reports fell more than 25% from their own price anchors"
+    },
+    "detail": {
+      "zh": "截至 2026-07-29 收盘（最后一个已完成美股交易日），覆盖集合中有 17 份链条报告较其 priceAsOf 锚点跌幅超过 25%，横跨光模块（AAOI −55.3%、Coherent −33.4%、Corning −43.9%）、存储（SK hynix −52.0%、SanDisk −51.4%、Micron −24.2%）、半导体设备（Lam −28.2%、KLA −27.7%、Applied Materials −27.6%）、电力与设施（Bloom −44.5%、Vertiv −27.3%、Oklo −29.6%、NeoVolta −27.6%）、neocloud（Nebius −30.4%、CoreWeave −29.7%）、定制芯片（Marvell −33.4%）与资源（Almonty −32.4%）。已逐一核实：SK hynix、SanDisk、AAOI、Bloom、Corning、Marvell 在该窗口内均无拆股或其他公司行为，日线为连续下跌而非单日跳空；重跑 update_prices.py 后各报告的 baseDate/basePrice 锚点未变，故 drift 为真实价格变动。同期方向相反的是电力/REIT 一侧（Digital Realty +8.6%、Constellation Energy +7.8%）。按 chain-wide-repricing 规则，这被记为贴现率/风险偏好层面的共同因子：本次复核对高跌幅报告重新锚定了价格、市值与倍数算术，但没有因价格变动本身翻转任何立场——各公司的执行问题既未被证伪也未被解决。注意：这与单一公司财报后的股价波动不同，后者按既有惯例不单独记为信号。",
+      "en": "As of the 2026-07-29 close (the last completed US session), 17 chain reports in coverage were down more than 25% from their own priceAsOf anchors, spanning optical (AAOI -55.3%, Coherent -33.4%, Corning -43.9%), memory (SK hynix -52.0%, SanDisk -51.4%, Micron -24.2%), semicap (Lam -28.2%, KLA -27.7%, Applied Materials -27.6%), power and facilities (Bloom -44.5%, Vertiv -27.3%, Oklo -29.6%, NeoVolta -27.6%), neocloud (Nebius -30.4%, CoreWeave -29.7%), custom silicon (Marvell -33.4%) and resources (Almonty -32.4%). Verified individually: SK hynix, SanDisk, AAOI, Bloom, Corning and Marvell had no splits or other corporate actions in the window, and the daily series are continuous declines rather than single-day discontinuities; re-running update_prices.py left every baseDate/basePrice anchor unchanged, so the drift is a real price move. Power/REIT names moved the other way over the same window (Digital Realty +8.6%, Constellation Energy +7.8%). Under the chain-wide-repricing rule this is logged as a common discount-rate / risk-appetite factor: this review re-anchored price, market-cap and multiple arithmetic on the high-drift reports but did not flip any stance on the price move alone, since the per-company execution questions were neither disconfirmed nor resolved. Note this is distinct from a single name's post-earnings move, which by existing convention is not logged as a signal."
+    },
+    "crossChecks": [
+      "chain-wide-repricing",
+      "memory-cycle",
+      "neocloud-financing"
+    ],
+    "tickers": [
+      "AAOI",
+      "SNDK",
+      "GLW",
+      "MRVL",
+      "COHR",
+      "NBIS",
+      "CRWV",
+      "OKLO",
+      "LRCX",
+      "KLAC",
+      "AMAT",
+      "VRT",
+      "MU",
+      "BE",
+      "000660.KS"
+    ]
+  },
+  {
     "id": "microsoft-q4-fy2026-capex-azure",
     "date": "2026-07-29",
     "title": {
