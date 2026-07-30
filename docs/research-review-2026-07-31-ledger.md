@@ -98,3 +98,11 @@ Status values: `pending` / `done` / `raised` (blocked on a question for the user
 |---|---|---|
 | bloom-energy-2026 | Q2 2026 integration + full valuation re-anchor ($295.05→$163.75, ~26x→~11.9x); grid/stance raised as Q1 | done (stance raised) |
 | (remaining 47) | see batches | pending |
+
+## Checker constraint discovered during the pass
+
+`check_research_package.py` parses the **last cell of each scenario-grid row as an integer
+probability weight**. Annotating those cells (e.g. `*(stale)* 30%`) fails the scenario-grid
+detector. Staleness markers for a not-re-weighted grid must go in the **header row and a note
+above the table**, never inside the weight cells. Both `aaoi-2026` and `bloom-energy-2026`
+pass with the header-only form.

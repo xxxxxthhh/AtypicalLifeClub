@@ -1,7 +1,7 @@
 # SanDisk (SNDK) Deep Research Report
 
 Coverage date: 2026-06-27
-Last updated: 2026-07-07
+Last updated: 2026-07-31
 Ticker: NASDAQ: SNDK
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence. All prices and market caps are point-in-time snapshots; financial figures are per company disclosure unless noted otherwise.
 
@@ -13,19 +13,21 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 **One-line thesis:** SanDisk is the world's largest pure-play NAND flash company — when AI data centers generate and store petabytes of training data, inference outputs, and model checkpoints, the storage layer beneath the compute is dominated by NAND SSDs. Freshly spun off from Western Digital, SanDisk has delivered a quarter for the record books: Q3 FY2026 revenue of **$5.95B** (+97% Q/Q, +251% Y/Y), GAAP gross margin of **78.4%**, operating margin of **69.1%**, and FCF of **$3.0B** — numbers that look more like a software platform than a memory manufacturer. The market has noticed: market cap has surged to ~**$310B**. But NAND is one of the most cyclical sub-sectors in semiconductors, and the question is not whether these margins are real (they are), but how long they last.
 
-**Verdict:** **Cautious / medium conviction.** SanDisk's execution in the NAND up-cycle is extraordinary, and the AI-driven storage demand story has clear, quantifiable tailwinds (Datacenter revenue +233% Q/Q). But the v5 scenario grid puts more weight on cycle math than on linear growth: a **$310B market cap on ~$19B FY2026E revenue (~16x P/S) already prices in sustained peak margins**, while NAND pricing is historically boom-bust.
+**Verdict:** **Cautious / medium conviction.** SanDisk's execution in the NAND up-cycle is extraordinary, and the AI-driven storage demand story has clear, quantifiable tailwinds (Datacenter revenue +233% Q/Q). ~~But the v5 scenario grid puts more weight on cycle math than on linear growth: a **$310B market cap on ~$19B FY2026E revenue (~16x P/S) already prices in sustained peak margins**, while NAND pricing is historically boom-bust.~~ **2026-07-31 update: the cycle-math premise has inverted.** At the 2026-07-29 close of **$1,015.89** the market cap is about **$150B** on the same ~$19B FY2026E revenue, i.e. about **7.8x P/S** — the market is no longer paying for sustained peak margins, it is pricing a substantial cycle roll-over. NAND pricing is still historically boom-bust; what changed is which side of that the price now assumes.
 
-**Current market read (latest market-data snapshot, ~2026-06-28, reflecting the prior trading session):** SNDK was last quoted around ~**$2,091**, market cap ~**$309.6B** (CompaniesMarketCap); it had set an all-time-high close of ~$2,335 (~$346B) on June 25. Computed on ~**148M shares outstanding**, this ranks SanDisk among the ~50 largest companies globally. (The diluted share count is ~**157M**, the basis for per-share earnings.) The 52-week range is ~**$40.10 - $2,354.39** — an extreme range reflecting the post-spin re-rating from a single-digit reference price to a ~$300B+ AI beneficiary. Financial source: [SanDisk Q3 FY2026 8-K](https://www.sec.gov/Archives/edgar/data/2023554/000162828026028879/sndkq3-26ex991xpressrelease.htm); quote references: [CompaniesMarketCap SNDK](https://companiesmarketcap.com/sandisk/marketcap/), [Yahoo Finance SNDK](https://finance.yahoo.com/quote/SNDK/).
+> **2026-07-31 valuation re-anchor.** No new quarter was reported (SanDisk's next release is scheduled for 2026-08-05), so the operating fact base below is unchanged. SNDK fell from $2,090.71 (2026-06-26 anchor) to **$1,015.89** at the **2026-07-29 close**, **−51.4%**, as part of a broad July 2026 AI-infrastructure and memory drawdown that was verified as a real price move, not a stock split or other corporate action. This pass re-anchors price, market cap and the P/S and P/E frames, and — importantly — records that **the report's central expectation-gap argument has reversed sign**, which is set out in §8. It does **not** re-weight the scenario grid or change the stance, which stay **cautious / medium conviction** pending the 2026-08-05 print and an owner decision.
+
+**Current market read (re-anchored 2026-07-31 to the 2026-07-29 close):** SNDK closed at **$1,015.89** on **2026-07-29**, the last completed U.S. session. On the same ~**148M shares outstanding** that is a market cap of about **$150B**. (The diluted share count is ~**157M**, the basis for per-share earnings.) ~~SNDK was last quoted around ~**$2,091**, market cap ~**$309.6B** (CompaniesMarketCap); it had set an all-time-high close of ~$2,335 (~$346B) on June 25... this ranks SanDisk among the ~50 largest companies globally.~~ The 52-week range is ~**$40.10 - $2,354.39** — an extreme range reflecting the post-spin re-rating from a single-digit reference price, and now a roughly halving from the June peak. Financial source: [SanDisk Q3 FY2026 8-K](https://www.sec.gov/Archives/edgar/data/2023554/000162828026028879/sndkq3-26ex991xpressrelease.htm); quote references: [CompaniesMarketCap SNDK](https://companiesmarketcap.com/sandisk/marketcap/), [Yahoo Finance SNDK](https://finance.yahoo.com/quote/SNDK/).
 
 **Key data:**
 
 | Metric | Value |
 |--------|-------|
-| Price (latest snapshot, ~2026-06-28) | ~$2,091 (CompaniesMarketCap; prior trading session) |
-| Market cap | ~$309.6B |
+| Price (2026-07-29 close, re-anchored) | **~$1,015.89** (prior anchor ~$2,091 at 2026-06-26) |
+| Market cap | **~$150B** (prior ~$309.6B) |
 | Diluted shares | ~157M (EPS basis, Q3 FY2026); ~148M shares outstanding (market-cap basis); ~158M guided for Q4 |
-| EV/Sales (FY2026E) | ~16x (FY2026E revenue ~$19.0-19.5B; zero debt) |
-| FY2026E P/S | ~16x |
+| EV/Sales (FY2026E) | **~7.8x** (FY2026E revenue ~$19.0-19.5B; zero debt); prior ~16x |
+| FY2026E P/S | **~7.8x** (prior ~16x) |
 | TTM P/E (GAAP) | ~65-70x (9-mo FY2026 net income $4.53B: Q1 $112M + Q2 $803M + Q3 $3,615M) |
 | Q3 FY2026 revenue | $5.95B (+97% Q/Q, +251% Y/Y) |
 | Q3 FY2026 Datacenter | $1.47B (+233% Q/Q, +645% Y/Y) |
@@ -202,13 +204,19 @@ Q4 guidance at $7.75-8.25B implies another ~30-39% sequential revenue growth and
 
 **Scenario grid:**
 
-| Scenario | Driver assumptions (NAND pricing / NBM coverage / margin / multiple regime) | Valuation implication (rich / fair / cheap vs today) | Probability weight |
+| Scenario | Driver assumptions (NAND pricing / NBM coverage / margin / multiple regime) | Valuation implication *(stale — written against the ~16x / $2,090.71 frame)* | Probability weight *(stale — not re-weighted)* |
 |----------|----------------------------------------------------------------------------|------------------------------------------------------|--------------------|
 | Bull | AI storage demand accelerates; NAND supply stays disciplined; NBM filings confirm roughly $42B minimum revenue and coverage moves toward more than half of FY2027 bits; 75%+ gross margin persists; the market treats SanDisk as a structural AI storage asset rather than a commodity-cycle name | The $2,090.71 price looks fair only if the NBM structure lifts the trough and extends peak-like margins through FY2027 | 20% |
 | Base | NAND up-cycle extends through FY2027, but gross margin eases from 78-80% toward 60-65%; NBM contracts help but still cover only part of output; P/S compresses toward 10-12x as growth decelerates; buybacks cushion but do not erase cycle risk | The current price largely prices an optimistic version of this scenario: strong execution, but limited cushion if margins normalize | 40% |
 | Bear | NAND oversupply emerges, contract prices decline, Kioxia / SanDisk capacity additions point to looser supply, NBM terms prove less protective than management's framing, and gross margin falls toward 40-50%; the market re-rates SanDisk from AI growth story to commodity cyclical | The current price would be rich because earnings and the multiple would contract together | 40% |
 
-**What's priced in & the expectation gap:** At the $2,090.71 price anchor and Q4 annualized EPS of about $120-132, the stock looks like only about 16x peak run-rate earnings. That is the trap in NAND: at 12-15x through-cycle sustainable EPS, today's price implies roughly `$2,090.71 / 15 ≈ $139` to `$2,090.71 / 12 ≈ $174` of sustainable EPS, above even the Q4 annualized guide. Our 20% bull / 40% base / 40% bear grid says the market is underwriting a structurally higher trough before the NBM evidence has proved it. The expectation gap is therefore negative: AI storage demand is real, but peak-cycle mean reversion is not fully priced.
+⚠️ **Scenario grid not re-weighted in the 2026-07-31 pass.** Every "vs today" verdict above was written against the **$2,090.71 / ~$310B / ~16x** frame and does not follow from the same driver assumptions at **$1,015.89 / ~$150B / ~7.8x**. The driver assumptions themselves remain valid; the valuation verdicts and the 20/40/40 weights are stale and pending an owner decision.
+
+**What's priced in & the expectation gap — this argument has inverted (rewritten 2026-07-31).** The original reasoning ran: ~~at the $2,090.71 price anchor and Q4 annualized EPS of about $120-132, the stock looks like only about 16x peak run-rate earnings; at 12-15x through-cycle sustainable EPS, today's price implies roughly `$2,090.71 / 15 ≈ $139` to `$2,090.71 / 12 ≈ $174` of sustainable EPS, above even the Q4 annualized guide — so the market is underwriting a structurally higher trough before the NBM evidence has proved it, and the expectation gap is negative.~~
+
+Run the identical arithmetic at the re-anchored price and it points the other way. At **$1,015.89** against the same Q4 annualized EPS of about $120-132, the stock is at roughly **8x peak run-rate earnings**. On the same 12-15x through-cycle frame, the price now implies sustainable EPS of about `$1,015.89 / 15 ≈ $68` to `$1,015.89 / 12 ≈ $85` — **materially below**, not above, the $120-132 peak annualized guide. In other words the market has moved from underwriting a *structurally higher* trough to pricing a trough roughly **35-45% below** peak run-rate earnings, which is approximately what the bear row of the grid describes.
+
+**The honest conclusion is that the negative expectation gap this report asserted no longer follows from its own arithmetic — it has reversed sign.** What has *not* changed is the underlying uncertainty: NBM coverage is still unproven, gross margin is still at a cyclical 78-80%, and NAND remains boom-bust. Whether an ~8x peak-earnings multiple is now too cheap depends entirely on where the true trough sits, which is exactly the question the NBM evidence has not yet answered. This pass therefore re-states the arithmetic and flags the inversion rather than flipping the stance on it.
 
 ---
 
@@ -238,7 +246,7 @@ Q4 guidance at $7.75-8.25B implies another ~30-39% sequential revenue growth and
 
 SanDisk's chain-validation job is to test whether AI data-center demand is reaching the storage layer with enough force to change NAND cycle economics. If Datacenter revenue, NAND contract pricing, and NBM commitments keep compounding, the AI infrastructure chain is broader than compute and power. If NAND pricing or margins roll over, storage remains the chain's most cyclical leg.
 
-The expectation gap is negative: at $2,090.71, the market is underwriting roughly $139-174 of through-cycle sustainable EPS on a 12-15x memory-cycle frame, which is above even the Q4 annualized EPS guide of about $120-132; our 20% bull / 40% base / 40% bear grid says the NBM structure has not yet proved that peak NAND earnings are sustainable.
+**2026-07-31 update — this conclusion has inverted.** The prior text read: "The expectation gap is negative: at $2,090.71, the market is underwriting roughly $139-174 of through-cycle sustainable EPS on a 12-15x memory-cycle frame, which is above even the Q4 annualized EPS guide of about $120-132." At the re-anchored **$1,015.89**, the same 12-15x frame implies roughly **$68-85** of sustainable EPS — **below** the $120-132 peak annualized guide rather than above it. The market has swung from pricing a structurally higher trough to pricing a deep one. The NBM structure still has not proved that peak NAND earnings are sustainable, so the *uncertainty* is unchanged; but the *direction* of the expectation gap no longer follows from the report's own math, and the 20/40/40 grid needs re-judging (see the review questions doc).
 
 The current stance is **cautious, medium conviction**. The bull case is powerful because NBM contracts and AI storage demand may raise the next trough. But the base and bear cases carry 80% combined weight and both include gross-margin normalization from the 78-80% zone. Medium conviction reflects strong current evidence in Q3 results, FCF, zero debt, and NBM commitments, offset by the still-unproven durability of NAND pricing and contract protection.
 
@@ -258,8 +266,8 @@ Upgrade trigger: move to neutral-watch or constructive if FY2026 Q4 delivers the
 - Spin-off background: SEC filings, public reporting on Western Digital's 2023 spin-off announcement and February 2025 completion
 
 **Key assumptions & basis:**
-- Market cap ~$309.6B per CompaniesMarketCap (late June 2026) ≈ ~148M shares outstanding × ~$2,091; it reached ~$346B at the June 25 all-time-high close (~$2,335). Diluted share count ~157M is the per-share-earnings basis ($3,615M ÷ $23.03); ~158M guided for Q4.
-- FY2026E revenue ~$19.0-19.5B = YTD 9-month $11,283M + Q4 guidance midpoint ~$8,000M. FY2026E P/S ~16x.
+- **Re-anchored 2026-07-31:** market cap ~**$150B** ≈ ~148M shares outstanding × the **2026-07-29 close of $1,015.89** (repo price ledger `static/invest/research/data/prices.json`; the 07-30 session was still trading when this pass ran and was excluded). ~~Market cap ~$309.6B per CompaniesMarketCap (late June 2026) ≈ ~148M shares outstanding × ~$2,091; it reached ~$346B at the June 25 all-time-high close (~$2,335).~~ Diluted share count ~157M is the per-share-earnings basis ($3,615M ÷ $23.03); ~158M guided for Q4.
+- FY2026E revenue ~$19.0-19.5B = YTD 9-month $11,283M + Q4 guidance midpoint ~$8,000M. FY2026E P/S **~7.8x** (~~~16x~~).
 - 9-month FY2026 GAAP net income $4.53B (Q1 $112M + Q2 $803M + Q3 $3,615M); TTM net income ~$4.5-4.8B including Q4 FY2025. Trailing GAAP P/E ~65-70x; the back quarters were trough earnings, so the trailing multiple overstates run-rate profitability.
 - Forward P/E (annualized Q4) = $30-33 EPS × 4 ≈ $120-132; at $309.6B / 157M shares = ~$1,972 price, forward P/E ≈ 15-16x. This is an illustrative annualization, not a forecast.
 - Q3 FY2026 segment data, margins, cash flow, and balance sheet figures are directly from the April 30, 2026 8-K Exhibit 99.1. The $6.0B buyback is Board-authorized per the 8-K; the ~$42B NBM backlog, ~$11B guarantees, and >1/3 FY2027 coverage are management's Q3 FY2026 earnings-call disclosures (not financial-statement line items) and should be reconciled as contracts are filed.

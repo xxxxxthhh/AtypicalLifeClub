@@ -2292,8 +2292,8 @@
     "priceSymbol": "AAOI",
     "title": "AAOI 深度研究报告 - AI数据中心光模块高弹性与高估值考验",
     "titleEn": "AAOI Deep Research Report - AI Data Center Optics Upside Meets a Demanding Valuation",
-    "summary": "2026-07-07 v5更新：AI数据中心光模块高弹性标的，Q1 2026营收$151.1M（+51%），Data Center收入$81.4M（+154%），800G已向大型hyperscale客户首批量产出货。Q2指引$180-198M，Q3随产能上线预计放大。但$171.23和约$13.51B EV已定价从$507M TTM收入迈向2027年$1.5B+收入、35%+毛利率和15%+经营利润率路径；30%牛市/30%基准/40%熊市情景给出负预期差，改为谨慎/中确信。",
-    "summaryEn": "July 7, 2026 v5 update: High-beta AI data-center optical-module exposure. Q1 2026 revenue was $151.1M (+51%), Data Center revenue was $81.4M (+154%), and 800G products began initial mass-production shipments to a large hyperscale customer. Q2 guidance is $180-198M, with Q3 expected to step up as capacity comes online. But $171.23 and about $13.51B EV already price a path from $507M TTM revenue toward $1.5B+ 2027 revenue, 35%+ gross margin, and 15%+ operating margin; a 30% bull / 30% base / 40% bear grid gives a negative expectation gap, moving stance to cautious / medium conviction.",
+    "summary": "2026-07-31 估值重新锚定：AAOI 自 2026-06-22 的 $171.23 跌至 2026-07-29 收盘 $76.52（−55.3%，本覆盖集合最大跌幅），市值约 $61.4 亿、企业价值约 $59.1 亿。按不变的 $507M TTM 收入，EV/TTM Sales 由约 26.6x 降至约 11.7x，Q2 指引中点年化口径由约 17.9x 降至约 7.8x。本期无新季报（Q2 业绩 2026-08-06 发布），客户集中、经营现金流为负、ATM 稀释与毛利率未扩张等未决项毫无变化——价格下跌并未解决其中任何一项。维持谨慎/中确信，情景网格权重未重新加权。",
+    "summaryEn": "July 31, 2026 valuation re-anchor: AAOI fell from $171.23 (2026-06-22) to a $76.52 close on 2026-07-29 (-55.3%, the largest drawdown in this coverage set), for roughly $6.14B market cap and $5.91B enterprise value. On an unchanged $507M TTM revenue base, EV/TTM Sales drops from ~26.6x to ~11.7x and EV/annualized Q2-guide sales from ~17.9x to ~7.8x. No new quarter was reported (Q2 results are due 2026-08-06), and the unresolved items - customer concentration, negative operating cash flow, ATM dilution and unproven margin expansion - are unchanged; the price decline settled none of them. Stance held at cautious / medium conviction, scenario grid not re-weighted.",
     "tags": [
       "光通信",
       "AI数据中心",
@@ -2302,7 +2302,7 @@
     ],
     "category": "tech",
     "date": "2026-06-23",
-    "lastUpdate": "2026-07-07",
+    "lastUpdate": "2026-07-31",
     "file": "/invest/research/reports/view.html?id=aaoi-2026",
     "markdownFiles": {
       "zh": "/invest/research/AAOI_深度研究报告_2026-06.md",
@@ -2312,18 +2312,19 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "Q1 2026营收$151.1M（+51%），Data Center收入$81.4M（+154%），占比升至53.9%",
-      "800G产品Q1已向大型hyperscale客户首批量产出货，Q2开始ramp，Q3随产能上线预计显著放大",
-      "Q1末800G transceiver月产能接近100,000只，美国和台湾扩产支撑AI光模块交付",
-      "股价约$171.23、市值约$137亿，EV/TTM Sales约26.6x；GAAP仍亏损、现金流和稀释风险需要严密跟踪"
+      "股价 $76.52（2026-07-29 收盘），较 6 月 22 日 $171.23 下跌 55.3%，为本覆盖集合最大跌幅",
+      "估值重新锚定：市值约 $61.4 亿、EV 约 $59.1 亿；EV/TTM Sales 由约 26.6x 降至约 11.7x",
+      "Q2 指引中点年化口径 EV/Sales 由约 17.9x 降至约 7.8x；收入事实基础不变（TTM 约 $507M）",
+      "本期无新季报：Q2 2026 业绩定于 2026-08-06，执行层面问题未解决也未恶化",
+      "维持谨慎/中确信：负预期差的算术依据已消失，但网格权重与立场待所有者裁定"
     ],
     "chainLayer": "optical",
     "coverageTier": "full",
     "stance": "cautious",
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 $171.23 和约 $13.51B EV 计，市场正在定价从约 $507M TTM 收入迈向 2027 年 $1.5B+ 收入、35%+ 毛利率和可信 15%+ 经营利润率路径；30% 牛市 / 30% 基准 / 40% 熊市情景把更高权重放在客户集中、现金流、稀释和产能执行风险上。",
-      "en": "At $171.23 and about $13.51B EV, the market is underwriting a path from roughly $507M TTM revenue toward $1.5B+ 2027 revenue, 35%+ gross margin, and a credible 15%+ operating-margin path; the 30% bull / 30% base / 40% bear grid puts more weight on concentration, cash-flow, dilution, and capacity-execution risk."
+      "zh": "此前的负预期差是一个关于约 26.6x EV/TTM Sales 的算术判断。按 2026-07-29 收盘 $76.52、EV 约 $59.1 亿、EV/TTM Sales 约 11.7x，该倍数已折损过半，负预期差的算术依据消失。但客户集中、经营现金流为负、ATM 稀释与毛利率扩张未证等风险毫无变化，价格下跌并未解决其中任何一项，故维持谨慎/中确信，等待 2026-08-06 的 Q2 业绩与所有者对网格的裁定。",
+      "en": "The prior negative expectation gap was an arithmetic claim about ~26.6x EV/TTM Sales. At the 2026-07-29 close of $76.52, roughly $5.91B EV and ~11.7x EV/TTM Sales, that multiple has more than halved and the arithmetic basis for the negative gap is gone. But customer concentration, negative operating cash flow, ATM dilution and unproven margin expansion are unchanged and the price decline settled none of them, so the stance is held at cautious / medium conviction pending Q2 results on 2026-08-06 and an owner decision on the grid."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -2346,9 +2347,15 @@
         "stance": "cautious",
         "conviction": "medium",
         "price": 171.23
+      },
+      {
+        "date": "2026-07-29",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 76.52
       }
     ],
-    "priceAsOf": "2026-06-22",
+    "priceAsOf": "2026-07-29",
     "reportedPeriod": "Q1 2026",
     "related": [
       "corning-2026"
@@ -2426,6 +2433,25 @@
           "en": "stock ~$171.23 (2026-06-22 close), ~$13.7B cap"
         },
         "nextCheck": "2026-Q2 财报 / Q2 earnings",
+        "nextCheckDate": "2026-08"
+      },
+      {
+        "id": "scenario-grid-reweight-pending",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "情景网格权重与立场重新裁定（未决）",
+          "en": "Scenario-grid re-weight and stance re-judgement (open)"
+        },
+        "trigger": {
+          "zh": "Q2 2026 业绩（2026-08-06）披露 800G 放量、毛利率与现金流后，重新加权 30/30/40 网格并裁定立场",
+          "en": "re-weight the 30/30/40 grid and re-judge the stance after Q2 2026 results (2026-08-06) show 800G ramp, gross margin and cash flow"
+        },
+        "latest": {
+          "zh": "2026-07-31 已重新锚定价格与倍数（EV/TTM Sales 约 26.6x → 约 11.7x），但网格权重与立场刻意未改，等待所有者决策",
+          "en": "the 2026-07-31 pass re-anchored price and multiples (EV/TTM Sales ~26.6x -> ~11.7x) but deliberately left the grid weights and stance unchanged, pending an owner decision"
+        },
+        "nextCheck": "Q2 2026 业绩与所有者决策 / Q2 2026 results and owner decision",
         "nextCheckDate": "2026-08"
       }
     ]
@@ -2583,7 +2609,7 @@
     "priceSymbol": "SNDK",
     "title": "SanDisk 深度研究报告 - NAND寡头格局中的AI存储周期暴露",
     "titleEn": "SanDisk Deep Research Report - AI Storage Cycle Exposure in the NAND Oligopoly",
-    "summary": "v5 回填：SanDisk Q3 FY2026 营收 $5.95B、数据中心 $1.47B、GAAP 毛利率 78.4%、FCF $2.99B、零债务，五份 NBM 长协带来约 $42B 最低合同收入框架。但以 $2,090.71 价格锚点和 Q4 年化 EPS 约 $120-132 计，当前价格在 12-15x memory-cycle 框架下隐含约 $139-174 的通过周期可持续 EPS。20% 牛市 / 40% 基准 / 40% 熊市情景把峰值 NAND 盈利均值回归风险放在前面，因此改为谨慎 / 中确信。",
+    "summary": "2026-07-31 估值重新锚定：SNDK 自 $2,090.71（2026-06-26）跌至 2026-07-29 收盘 $1,015.89（−51.4%），市值约 $1,500 亿，FY2026E P/S 由约 16 倍降至约 7.8 倍。关键发现：本报告的负预期差论证已**反号**——按同样的 12-15x 通过周期框架，当前价格隐含可持续 EPS 约 $68-85，显著低于（而非高于）$120-132 的顶峰年化指引，即市场已转为定价一个比顶峰低约 35-45% 的谷底。底层不确定性未变（NBM 覆盖未证、毛利率仍处 78-80% 高位），故维持谨慎/中确信，网格未重新加权，等待 2026-08-05 业绩。",
     "tags": [
       "NAND闪存",
       "AI存储",
@@ -2592,7 +2618,7 @@
     ],
     "category": "tech",
     "date": "2026-06-27",
-    "lastUpdate": "2026-07-07",
+    "lastUpdate": "2026-07-31",
     "file": "/invest/research/reports/view.html?id=sandisk-2026",
     "markdownFiles": {
       "zh": "/invest/research/SanDisk_深度研究报告_2026-06.md",
@@ -2602,17 +2628,17 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "全球最大纯NAND闪存公司，2025年初从WDC分拆独立，市值约$3,096亿",
-      "Q3 FY2026营收$59.5亿（+97% Q/Q），数据中心$14.67亿（+233% Q/Q），GAAP毛利率78.4%、营业利润率69.1%、EPS $23.03，FCF $29.9亿，零负债。Q4指引营收$77.5-82.5亿、Non-GAAP EPS $30-33、毛利率79-81%。约16倍FY2026E P/S，但NAND周期性极强，78%+毛利率不可持续",
-      "NAND上行周期+AI数据中心存储需求双重驱动，零负债、单季FCF $29.9亿",
-      "五份NBM长期供货协议锁定约$420亿最低合同收入、>$110亿财务担保、覆盖FY2027逾1/3 bit出货（管理层电话会口径，待合同披露），是『去周期化』核心尝试；并授权$60亿股份回购",
-      "核心风险：NAND周期性极强，78%+顶峰毛利率不可持续；周期转向时盈利与估值双向收缩"
+      "股价 $1,015.89（2026-07-29 收盘），较 6 月 26 日 $2,090.71 下跌 51.4%，市值由约 $3,096 亿降至约 $1,500 亿",
+      "FY2026E P/S 由约 16 倍降至约 7.8 倍；按 Q4 年化 EPS $120-132 计约 8x 顶峰 run-rate earnings（此前约 16x）",
+      "负预期差论证已反号：12-15x 框架隐含可持续 EPS 由 $139-174 降至约 $68-85，低于顶峰年化指引",
+      "市场已从定价结构性更高的谷底，转为定价比顶峰低约 35-45% 的谷底——接近熊市行描述",
+      "维持谨慎/中确信：NBM 覆盖与毛利率持久性仍未证明，网格待重新裁定，Q2 业绩 2026-08-05"
     ],
-    "summaryEn": "July 7, 2026 v5 update: SanDisk Q3 FY2026 revenue was $5.95B, Datacenter revenue was $1.47B, GAAP gross margin was 78.4%, FCF was $2.99B, and debt was zero; five NBM agreements frame about $42B of minimum contracted revenue. But at the $2,090.71 price anchor and Q4 annualized EPS of about $120-132, the current price implies roughly $139-174 of through-cycle sustainable EPS on a 12-15x memory-cycle framework. A 20% bull / 40% base / 40% bear grid foregrounds peak NAND mean-reversion risk, moving stance to cautious / medium conviction.",
+    "summaryEn": "July 31, 2026 valuation re-anchor: SNDK fell from $2,090.71 (2026-06-26) to a $1,015.89 close on 2026-07-29 (-51.4%), for roughly $150B market cap and FY2026E P/S of ~7.8x versus ~16x. Key finding: the report's negative expectation-gap argument has INVERTED - on the same 12-15x through-cycle frame the price now implies about $68-85 of sustainable EPS, materially below rather than above the $120-132 peak annualized guide, so the market has moved to pricing a trough roughly 35-45% under peak run-rate earnings. The underlying uncertainty is unchanged (NBM coverage unproven, gross margin still at a cyclical 78-80%), so the stance is held at cautious / medium conviction and the grid was not re-weighted pending the 2026-08-05 print.",
     "chainLayer": "memory-storage",
     "coverageTier": "full",
     "stance": "cautious",
-    "priceAsOf": "2026-06-26",
+    "priceAsOf": "2026-07-29",
     "reportedPeriod": "Q3 FY2026",
     "related": [
       "sk-hynix-2026"
@@ -2691,12 +2717,31 @@
           "en": "~$309.6B cap (snapshot ~2026-06-28); zero debt, $2.99B quarterly FCF"
         },
         "nextCheck": "行业 bit 供需与合同价 / industry bit supply-demand & contract pricing"
+      },
+      {
+        "id": "scenario-grid-reweight-pending",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "情景网格权重与立场重新裁定（未决，预期差已反号）",
+          "en": "Scenario-grid re-weight and stance re-judgement (open; expectation gap inverted)"
+        },
+        "trigger": {
+          "zh": "2026-08-05 业绩披露 NAND 合约价、NBM 覆盖与毛利率后，重新加权 20/40/40 网格并裁定立场",
+          "en": "re-weight the 20/40/40 grid and re-judge the stance after the 2026-08-05 print shows NAND contract pricing, NBM coverage and gross margin"
+        },
+        "latest": {
+          "zh": "2026-07-31 重新锚定后，12-15x 框架隐含可持续 EPS 由 $139-174 降至约 $68-85，负预期差论证反号；网格与立场刻意未改",
+          "en": "after the 2026-07-31 re-anchor the 12-15x frame implies ~$68-85 sustainable EPS versus $139-174 before, inverting the negative-gap argument; grid and stance deliberately left unchanged"
+        },
+        "nextCheck": "2026-08-05 业绩与所有者决策 / 2026-08-05 results and owner decision",
+        "nextCheckDate": "2026-08"
       }
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 $2,090.71 计，市场在 12-15x memory-cycle 框架下隐含约 $139-174 的通过周期可持续 EPS，高于 Q4 年化 EPS 指引约 $120-132；我们的 20% 牛市 / 40% 基准 / 40% 熊市情景网格说明，NBM 结构尚未证明峰值 NAND 盈利可持续。",
-      "en": "At $2,090.71, the market implies roughly $139-174 of through-cycle sustainable EPS on a 12-15x memory-cycle framework, above the Q4 annualized EPS guide of about $120-132; the 20% bull / 40% base / 40% bear grid says the NBM structure has not yet proved peak NAND earnings are sustainable."
+      "zh": "本报告的负预期差原本建立在约 16x 顶峰 run-rate earnings、隐含可持续 EPS $139-174 高于顶峰指引之上。按 2026-07-29 收盘 $1,015.89，同一算术给出约 8x 与隐含可持续 EPS 约 $68-85，低于 $120-132 的顶峰年化指引——论证已反号。但 NBM 覆盖是否抬高谷底、78-80% 毛利率能否延续仍未证明，因此谨慎/中确信作为待决策暂挂保留，等待 2026-08-05 业绩与所有者裁定。",
+      "en": "The negative expectation gap rested on ~16x peak run-rate earnings and implied sustainable EPS of $139-174 sitting above the peak guide. At the 2026-07-29 close of $1,015.89 the same arithmetic gives ~8x and implied sustainable EPS of about $68-85, below the $120-132 peak annualized guide - the argument has inverted. But whether NBM coverage lifts the trough, and whether 78-80% gross margin persists, remain unproven, so cautious / medium conviction is held as a pending-decision hold ahead of the 2026-08-05 print."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -2719,6 +2764,12 @@
         "stance": "cautious",
         "conviction": "medium",
         "price": 2090.71
+      },
+      {
+        "date": "2026-07-29",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 1015.89
       }
     ]
   },
