@@ -1,7 +1,7 @@
 # Airbnb (NASDAQ: ABNB) Deep Research Report
 
 Coverage date: 2026-02-13
-Last updated: 2026-06-25
+Last updated: 2026-07-31
 Ticker: NASDAQ: ABNB
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -12,6 +12,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 ## Executive Summary
 
 **One-Line Thesis:** Airbnb is the global short-term rental market's defining brand and leader. Q1 2026 revenue +17.9% beat expectations, providing the first hard data point supporting the growth re-acceleration narrative, but valuation has expanded from 29x to 35.4x P/E, pricing in much of this improvement. Margins and TTM FCF quality warrant monitoring.
+
+> **2026-07-31 price check (untracked-coverage review).** ABNB closed at **$153.01** on **2026-07-29**, the last completed US session, versus the **$142.90** anchor dated 2026-06-25 — a **+7.1%** move. The dated figures below therefore remain accurate to within that margin and the valuation frame and stance are unchanged. This report has no `priceSymbol`, so it carries no automatic price ledger or drift alert — see Q3 of the review questions doc.
 
 **Investment Verdict:**
 - Neutral-to-Positive | Conviction: Medium

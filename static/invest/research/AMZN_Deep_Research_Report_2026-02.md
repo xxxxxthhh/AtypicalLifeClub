@@ -1,7 +1,7 @@
 # Amazon.com (AMZN) Deep Research Report
 
 Coverage date: 2026-02-11
-Last updated: 2026-07-17
+Last updated: 2026-07-31
 Ticker: NASDAQ: AMZN
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -10,6 +10,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 ## Executive Summary
 
 **One-Line Thesis:** Amazon is a compounding machine powered by AWS, advertising, and retail flywheels, with AI investments reshaping its growth trajectory — but a $200B capex bet introduces unprecedented execution risk.
+
+> **2026-07-31 price check (untracked-coverage review).** AMZN closed at **$226.65** on **2026-07-29**, the last completed US session, versus the **$228.15** anchor dated 2026-06-25 — a **-0.7%** move. The dated figures below therefore remain accurate to within that margin and the valuation frame and stance are unchanged. Amazon is scheduled to report Q2 2026 after the close on 2026-07-30, hours after this review was anchored; no Q2 figures are integrated here. This report has no `priceSymbol`, so it carries no automatic price ledger or drift alert — see Q3 of the review questions doc.
 
 **Investment Verdict:**
 - **Stance:** Cautiously Bullish

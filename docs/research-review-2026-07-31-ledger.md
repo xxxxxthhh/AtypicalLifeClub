@@ -136,7 +136,14 @@ Status: `done` / `pending` / `raised` (waiting on a question).
 | coherent, almonty, nebius, coreweave, oklo, lam-research, kla, neov, applied-materials, vertiv, micron | A | re-anchor | pending |
 | amd, minimax, oracle, jinpan, smh, synopsys, gevernova, tsmc, asml, cadence | B | dated 2026-07-31 price-check note in both languages + summary prefix with the 07-29 close; `priceAsOf` deliberately NOT moved | done |
 | nrg, dlr, ceg, vistra, arista, copx, meta, broadcom, nvidia, eqix | C | verified: existing anchors are properly dated and within noise; dated confirmation note added, no analytical edit required | done |
-| tempus-ai, spotify, salesforce, paypal, netflix, igv, hims, coinbase, amzn, airbnb | untracked | verify no stale valuation claim | pending |
+| hims-2026 | untracked / A | **−25.5%**, found only by manual check. Re-anchored $33.54→$25.00, ~3.3x→~2.7x the FY2025E revenue baseline. Idiosyncratic, NOT part of the AI-infra repricing | done (stance raised in Q1) |
+| salesforce-2026 | untracked / B | **+24.8% UP** — near the rerun threshold and opposite in direction; the report's "down 40% YTD" framing is materially less true | done |
+| spotify-2026 | untracked / B | +18.5% up; direction confirms the July repricing was not market-wide | done |
+| tempus-ai-2026 | untracked / B | −14.2%; reports Q2 after the close on 2026-07-30, hours after this anchor | done |
+| paypal-2026 | untracked / C | +3.2% from its own 2026-07-17 anchor. Q2 already integrated 07-28; Stripe/Advent $60.50 offer already flagged and the fundamentals-based fair-value framework already suspended | done |
+| netflix-2026 | untracked / C | +2.5%. Verified the 10-for-1 split (2025-11-17) predates coverage, so no split adjustment needed | done |
+| coinbase-2026, amzn-2026 | untracked / C | −2.9% / −0.7%; both report after the close on 2026-07-30, hours after this anchor | done |
+| igv-2026, airbnb-2026 | untracked / C | +7.2% / +7.1%; dated anchors within noise | done |
 
 ## Chain-level signal
 

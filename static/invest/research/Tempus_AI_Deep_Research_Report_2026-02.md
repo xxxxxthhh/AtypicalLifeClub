@@ -1,7 +1,7 @@
 # Tempus AI (TEM) Deep Research Report
 
 Coverage date: 2026-02-27
-Last updated: 2026-07-21
+Last updated: 2026-07-31
 Ticker: NASDAQ: TEM
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -18,6 +18,8 @@ This report is the full rerun successor to `tempus-ai-2026-pre-rerun`; the archi
 **One-line thesis:** Tempus AI is precision medicine's "data flywheel" company — collecting data through diagnostic testing, analyzing it with AI, and licensing it to pharma. Revenue keeps compounding fast (Q1 2026 +36%), but GAAP losses are widening, the CEO is a consistent seller, and short interest exceeds 20%. A high-growth, high-risk proposition.
 
 **Current view:** Neutral-to-cautious / high-volatility watchlist. TEM closed at **$48.41 on 2026-07-20**; applying the 179,564,767 Class A plus Class B shares reported outstanding as of 2026-04-30 gives an approximate **$8.69B standalone market cap**. **Q1 2026 (reported May 5, 2026)** confirmed the central tension: revenue accelerated to **$348.1M (+36.1% YoY)** while the GAAP net loss widened to **$(125.9)M / −$0.71 diluted EPS** (from −$0.40 a year earlier) and liquidity was $643.8M; management nonetheless *raised* FY2026 revenue guidance to $1.59-1.60B. Against a TTM revenue base of approximately $1.36B, standalone P/S(TTM) is about **6.4x**. The pending Personalis consideration and pro forma results are excluded.
+
+> **2026-07-31 price check (untracked-coverage review).** TEM closed at **$41.55** on **2026-07-29**, the last completed US session, versus the **$48.41** anchor dated 2026-07-20 — a **-14.2%** move. The dated figures below remain correct as of their labels but are no longer current *levels*; read them as of their dates. Tempus is scheduled to report Q2 2026 after the close on 2026-07-30, hours after this review was anchored, so this pass deliberately integrates no Q2 figures. This report has no `priceSymbol`, so it carries no automatic price ledger or drift alert — see Q3 of the review questions doc.
 
 **Investment Verdict:**
 - Long-term theme (3-5 years): **Bullish**, **moderate** conviction

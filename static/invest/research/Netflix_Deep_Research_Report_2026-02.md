@@ -1,7 +1,7 @@
 # Netflix (NASDAQ: NFLX) Deep Research Report
 
 Coverage date: 2026-02-10
-Last updated: 2026-07-17
+Last updated: 2026-07-31
 > **2026-07-17 Incremental Update (Q2 2026 earnings):** Netflix reported Q2 2026 after the close on 2026-07-16. Revenue **$12.56B (+13.4% YoY)**, operating income **$4.2B (+11% YoY)**, operating margin **33.4%** (34.1% in Q2'25), net income **$3.4B**, diluted EPS **$0.80**. FY2026 revenue guidance narrowed to **$51.0–51.4B** with operating margin held at **31.5%**; Q3 2026 revenue guided to **+11.7% at $12.86B**, below the ~$13B consensus, and the stock fell ~**-7.3%** the next session. Management also announced a further scale-back of viewership disclosure; H1 2026 member view time was 97B+ hours (+2% YoY). Market data (2026-07-17): price **$68.95**, market cap ~**$290.3B**, TTM P/E **≈23.4x**, Forward P/E **≈18.1x**, P/S(TTM) **≈6.0x**. Source: Netflix Q2 2026 shareholder letter / 8-K (2026-07-16).
 > **2026-06-25 Incremental Update:** Price $71.82 (from $81 in Feb, -11%), Market Cap $302.5B, Q1 2026 reported (TTM revenue $46.89B, +16.2% YoY quarterly; TTM EPS $3.10, +82.8% YoY quarterly); TTM P/E 23.17x, Forward P/E 22.37x, operating margin rose to 32.30%. 52-week low $71.09. ~~WBD acquisition progressing, price reflects deep pessimism.~~ **2026-06-26 correction:** The WBD acquisition frame is stale. After WBD deemed Paramount Skydance's higher bid superior, Netflix declined to raise its offer; WBD is no longer a Netflix catalyst. The thesis now rests on organic ads, content ROI, live/sports execution, and capital allocation.
 Ticker: NASDAQ: NFLX
@@ -12,6 +12,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 ## Executive Summary
 
 **One-Line Thesis:** Netflix is the undisputed global streaming leader with $45.2B revenue and 29.5% operating margin in 2025. ~~The $82.7B Warner Bros. Discovery acquisition is reshaping its risk-reward profile.~~ **2026-06-26 correction:** the WBD deal is no longer Netflix's path; the risk-reward now depends on organic growth, advertising monetization, content ROI, and whether management can replace the lost inorganic IP catalyst.
+
+> **2026-07-31 price check (untracked-coverage review).** NFLX closed at **$73.63** on **2026-07-29**, the last completed US session, versus the **$71.82** anchor dated 2026-06-25 — a **+2.5%** move. The dated figures below therefore remain accurate to within that margin and the valuation frame and stance are unchanged. Prices in this report are post-split: Netflix executed a 10-for-1 split on 2025-11-17, before this report's February coverage date, so no split adjustment is required. This report has no `priceSymbol`, so it carries no automatic price ledger or drift alert — see Q3 of the review questions doc.
 
 **Investment Verdict:**
 - Neutral-to-Bullish | Conviction Level: Medium
