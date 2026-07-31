@@ -51,6 +51,9 @@ LEGACY_STANCE_VALUES = {"constructive", "neutral-watch", "high-risk-watch", "bea
 STANCE_VALUES = STANCE_V2_VALUES | LEGACY_STANCE_VALUES
 CONVICTION_VALUES = {"high", "medium", "low"}
 STANCE_TRIGGER_KEYS = {"upgrade", "downgrade"}
+# v6 Track 2 (docs/research-hub-v6-plan.md §3.1): author's grade of monitoring[].latest
+# against monitoring[].trigger. Optional forever — absence means "not yet graded".
+READING_VALUES = {"within", "breached", "unclear"}
 THESIS_VALUES = {"bull", "bear", "either"}
 THEME_VALUES = {
     "concentration",
@@ -98,6 +101,12 @@ ENFORCE_COVERAGE_TIER = True
 # the flag — only the presence/migration requirements are gated (same rollout pattern
 # as ENFORCE_CHAIN_ENRICHMENT).
 ENFORCE_STANCE_V2 = True
+# v6 Track 2 trigger links (spec §3.1): warn-first while the ×35 backfill runs (PR-4).
+# Enforcement target once flipped: every current-chain report's stanceTriggers.downgrade
+# carries >=1 monitoringIds entry. Structural checks on reading/readingAsOf/monitoringIds
+# stay hard regardless of the flag — only the link-presence requirement is gated (third
+# use of the ENFORCE_CHAIN_ENRICHMENT / ENFORCE_STANCE_V2 rollout pattern).
+ENFORCE_TRIGGER_LINKS = False
 # v6 (docs/research-hub-v6-plan.md §2.1): benchmarks.json sits next to reports.json
 # and drives per-layer benchmark resolution. validate_benchmarks_config() enforces
 # the schema; the resolution mirror lives in update_verdicts.py / validate_verdicts.py.
@@ -111,6 +120,12 @@ def fail(message):
 
 def stance_v2_issue(message):
     if ENFORCE_STANCE_V2:
+        fail(message)
+    print(f"WARN: {message}")
+
+
+def trigger_links_issue(message):
+    if ENFORCE_TRIGGER_LINKS:
         fail(message)
     print(f"WARN: {message}")
 
@@ -250,6 +265,21 @@ def validate_monitoring(report, report_idx):
         if theme is not None and theme not in THEME_VALUES:
             fail(f"{item_prefix}.theme must be one of {sorted(THEME_VALUES)}: {theme}")
 
+        # v6 Track 2 (spec §3.1): optional graded reading. readingAsOf is required
+        # iff reading is present — a grade without a date (or vice versa) is invalid.
+        reading = item.get("reading")
+        reading_as_of = item.get("readingAsOf")
+        if reading is not None:
+            if reading not in READING_VALUES:
+                fail(f"{item_prefix}.reading must be one of {sorted(READING_VALUES)}: {reading}")
+            if reading_as_of is None:
+                fail(f"{item_prefix}.readingAsOf is required when reading is present")
+        elif reading_as_of is not None:
+            fail(f"{item_prefix}.readingAsOf requires reading")
+        if reading_as_of is not None:
+            ensure_non_empty_string(reading_as_of, f"{item_prefix}.readingAsOf")
+            parse_date(reading_as_of, f"{item_prefix}.readingAsOf")
+
 
 def validate_stance_triggers(report, report_idx):
     triggers = report["stanceTriggers"]
@@ -259,8 +289,34 @@ def validate_stance_triggers(report, report_idx):
     for key in triggers:
         if key not in STANCE_TRIGGER_KEYS:
             fail(f"{prefix} has unknown key (allowed: {sorted(STANCE_TRIGGER_KEYS)}): {key}")
+
+    # v6 Track 2 (spec §3.1): monitoringIds link a prose trigger to the monitoring
+    # items that watch it; ids must exist in the same report's monitoring[].
+    monitoring = report.get("monitoring")
+    known_ids = {
+        item.get("id")
+        for item in (monitoring if isinstance(monitoring, list) else [])
+        if isinstance(item, dict)
+    }
     for key, value in triggers.items():
         validate_bilingual_text(value, f"{prefix}.{key}")
+        if "monitoringIds" not in value:
+            continue
+        ids_prefix = f"{prefix}.{key}.monitoringIds"
+        monitoring_ids = value["monitoringIds"]
+        if not isinstance(monitoring_ids, list) or not monitoring_ids:
+            fail(f"{ids_prefix} must be a non-empty array when present")
+        seen = set()
+        for id_idx, monitoring_id in enumerate(monitoring_ids):
+            ensure_non_empty_string(monitoring_id, f"{ids_prefix}[{id_idx}]")
+            if monitoring_id in seen:
+                fail(f"{ids_prefix} has duplicate id: {monitoring_id}")
+            seen.add(monitoring_id)
+            if monitoring_id not in known_ids:
+                fail(
+                    f"{ids_prefix} references unknown monitoring item id: "
+                    f"{monitoring_id}"
+                )
 
 
 def validate_stance_history(report, report_idx):
@@ -345,6 +401,26 @@ def validate_stance_v2_requirements(report, report_idx):
     # Neutral tax (spec locked decision 3): neutral also names its upgrade trigger.
     if stance == "neutral-watch" and (not isinstance(triggers, dict) or "upgrade" not in triggers):
         stance_v2_issue(f"{label} stance=neutral-watch also requires stanceTriggers.upgrade (zh+en)")
+
+
+def validate_trigger_link_requirements(report, report_idx):
+    """Warn-first trigger-link requirement for current-chain reports (v6 spec §3.1).
+
+    Enforcement target: stanceTriggers.downgrade links >=1 monitoring item via
+    monitoringIds. reading itself stays optional forever (absence = not yet graded).
+    """
+    if not is_current_chain_report(report):
+        return
+
+    label = f"report[{report_idx}] ({report['id']})"
+    triggers = report.get("stanceTriggers")
+    downgrade = triggers.get("downgrade") if isinstance(triggers, dict) else None
+    monitoring_ids = downgrade.get("monitoringIds") if isinstance(downgrade, dict) else None
+    if not monitoring_ids:
+        trigger_links_issue(
+            f"{label} must link stanceTriggers.downgrade to >=1 monitoring item via "
+            "monitoringIds (see docs/research-hub-v6-plan.md §3.1)"
+        )
 
 
 def is_current_chain_report(report):
@@ -637,6 +713,7 @@ def validate_enrichment_fields(report, report_idx, reports_by_id, benchmarks_cfg
                 )
 
     validate_stance_v2_requirements(report, report_idx)
+    validate_trigger_link_requirements(report, report_idx)
 
 
 def validate_price_symbol_uniqueness(reports):
