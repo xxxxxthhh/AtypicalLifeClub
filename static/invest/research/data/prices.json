@@ -30,11 +30,11 @@
       "symbol": "AMAT",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-30",
-      "basePrice": 501.77,
+      "baseDate": "2026-07-29",
+      "basePrice": 436.45,
       "lastDate": "2026-07-30",
       "lastClose": 501.77,
-      "changePct": 0.0,
+      "changePct": 15.0,
       "currency": "USD"
     },
     {
@@ -42,11 +42,11 @@
       "symbol": "LRCX",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-30",
-      "basePrice": 297.72,
+      "baseDate": "2026-07-29",
+      "basePrice": 252.35,
       "lastDate": "2026-07-30",
       "lastClose": 297.72,
-      "changePct": 0.0,
+      "changePct": 18.0,
       "currency": "USD"
     },
     {
@@ -54,11 +54,11 @@
       "symbol": "KLAC",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-30",
-      "basePrice": 180.33,
+      "baseDate": "2026-07-29",
+      "basePrice": 170.19,
       "lastDate": "2026-07-30",
       "lastClose": 180.33,
-      "changePct": 0.0,
+      "changePct": 6.0,
       "currency": "USD"
     },
     {
@@ -114,11 +114,11 @@
       "symbol": "NBIS",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-30",
-      "basePrice": 188.43,
+      "baseDate": "2026-07-29",
+      "basePrice": 148.22,
       "lastDate": "2026-07-30",
       "lastClose": 188.43,
-      "changePct": 0.0,
+      "changePct": 27.1,
       "currency": "USD"
     },
     {
@@ -138,11 +138,11 @@
       "symbol": "CRWV",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-30",
-      "basePrice": 73.9,
+      "baseDate": "2026-07-29",
+      "basePrice": 60.82,
       "lastDate": "2026-07-30",
       "lastClose": 73.9,
-      "changePct": 0.0,
+      "changePct": 21.5,
       "currency": "USD"
     },
     {
@@ -150,11 +150,11 @@
       "symbol": "VRT",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-30",
-      "basePrice": 227.5,
+      "baseDate": "2026-07-29",
+      "basePrice": 223.04,
       "lastDate": "2026-07-30",
       "lastClose": 227.5,
-      "changePct": 0.0,
+      "changePct": 2.0,
       "currency": "USD"
     },
     {
@@ -162,11 +162,11 @@
       "symbol": "GLW",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-30",
-      "basePrice": 135.22,
+      "baseDate": "2026-07-29",
+      "basePrice": 124.05,
       "lastDate": "2026-07-30",
       "lastClose": 135.22,
-      "changePct": 0.0,
+      "changePct": 9.0,
       "currency": "USD"
     },
     {
@@ -186,11 +186,11 @@
       "symbol": "AAOI",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-30",
-      "basePrice": 90.11,
+      "baseDate": "2026-07-29",
+      "basePrice": 76.52,
       "lastDate": "2026-07-30",
       "lastClose": 90.11,
-      "changePct": 0.0,
+      "changePct": 17.8,
       "currency": "USD"
     },
     {
@@ -210,11 +210,11 @@
       "symbol": "SNDK",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-30",
-      "basePrice": 1279.96,
+      "baseDate": "2026-07-29",
+      "basePrice": 1015.89,
       "lastDate": "2026-07-30",
       "lastClose": 1279.96,
-      "changePct": 0.0,
+      "changePct": 26.0,
       "currency": "USD"
     },
     {
@@ -222,11 +222,11 @@
       "symbol": "000660.KS",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-31",
-      "basePrice": 1718000.0,
+      "baseDate": "2026-07-29",
+      "basePrice": 1401000.0,
       "lastDate": "2026-07-31",
       "lastClose": 1718000.0,
-      "changePct": 0.0,
+      "changePct": 22.6,
       "currency": "KRW"
     },
     {
@@ -234,11 +234,11 @@
       "symbol": "ALM",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-30",
-      "basePrice": 11.67,
+      "baseDate": "2026-07-29",
+      "basePrice": 10.95,
       "lastDate": "2026-07-30",
       "lastClose": 11.67,
-      "changePct": 0.0,
+      "changePct": 6.6,
       "currency": "USD"
     },
     {
@@ -246,11 +246,11 @@
       "symbol": "BE",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-30",
-      "basePrice": 207.12,
+      "baseDate": "2026-07-29",
+      "basePrice": 163.75,
       "lastDate": "2026-07-30",
       "lastClose": 207.12,
-      "changePct": 0.0,
+      "changePct": 26.5,
       "currency": "USD"
     },
     {
@@ -258,11 +258,11 @@
       "symbol": "NEOV",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-30",
-      "basePrice": 2.13,
+      "baseDate": "2026-07-29",
+      "basePrice": 1.97,
       "lastDate": "2026-07-30",
       "lastClose": 2.13,
-      "changePct": 0.0,
+      "changePct": 8.1,
       "currency": "USD"
     },
     {
@@ -306,11 +306,11 @@
       "symbol": "OKLO",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-30",
-      "basePrice": 41.09,
+      "baseDate": "2026-07-29",
+      "basePrice": 36.84,
       "lastDate": "2026-07-30",
       "lastClose": 41.09,
-      "changePct": 0.0,
+      "changePct": 11.5,
       "currency": "USD"
     },
     {
@@ -342,11 +342,11 @@
       "symbol": "MU",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-30",
-      "basePrice": 874.66,
+      "baseDate": "2026-07-29",
+      "basePrice": 739.0,
       "lastDate": "2026-07-30",
       "lastClose": 874.66,
-      "changePct": 0.0,
+      "changePct": 18.4,
       "currency": "USD"
     },
     {
@@ -371,6 +371,18 @@
       "lastDate": "2026-07-30",
       "lastClose": 148.62,
       "changePct": -1.6,
+      "currency": "USD"
+    },
+    {
+      "reportId": "alphabet-2026",
+      "symbol": "GOOG",
+      "status": "ok",
+      "attemptedAt": "2026-07-31",
+      "baseDate": "2026-07-30",
+      "basePrice": 333.68,
+      "lastDate": "2026-07-30",
+      "lastClose": 333.68,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
@@ -414,11 +426,11 @@
       "symbol": "MRVL",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-30",
-      "basePrice": 183.3,
+      "baseDate": "2026-07-29",
+      "basePrice": 163.4,
       "lastDate": "2026-07-30",
       "lastClose": 183.3,
-      "changePct": 0.0,
+      "changePct": 12.2,
       "currency": "USD"
     },
     {
@@ -426,11 +438,11 @@
       "symbol": "COHR",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-30",
-      "basePrice": 249.06,
+      "baseDate": "2026-07-29",
+      "basePrice": 222.05,
       "lastDate": "2026-07-30",
       "lastClose": 249.06,
-      "changePct": 0.0,
+      "changePct": 12.2,
       "currency": "USD"
     },
     {
@@ -453,8 +465,8 @@
       "baseDate": "2026-07-15",
       "basePrice": 260.6,
       "lastDate": "2026-07-31",
-      "lastClose": 229.0,
-      "changePct": -12.1,
+      "lastClose": 230.6,
+      "changePct": -11.5,
       "currency": "HKD"
     }
   ]

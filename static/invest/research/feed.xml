@@ -293,6 +293,13 @@
       <description>2026-07-07 v5更新：VST是AI基础设施power层的nuclear-plus-gas高beta dashboard。价格锚点$151.05（2026-07-02）、市值约$50.9B、EV约$70.2B、约3.6x EV/TTM sales，并含约$19.3B净债务。30%牛市/40%基准/30%熊市情景显示上行真实但下行更快，v5立场迁移为谨慎/中确信。</description>
     </item>
     <item>
+      <title>Alphabet 深度研究报告 - TPU 外部化与 capex 融资质量的架构校验 / Alphabet Deep Research Report - Architecture Check on TPU Externalization and Capex Funding Quality</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=alphabet-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=alphabet-2026#alphabet-2026@2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施书 demand-risk 层的架构校验初始覆盖：本层已有两篇公共约束（Microsoft、Meta）和一篇仪表盘（Oracle），Alphabet 承担只有它能做的买方架构检验——全球最大自研芯片项目开始向第三方出售 TPU 系统，使它同时是商用芯片的前二大客户和竞争者。2026 Q2（季度截至 2026-06-30、07-22 发布）：收入 $119.796B（+24%）、Google Cloud +82% 至 $24.768B 且分部利润率 20.7%→35.6%、Search 及其他 +17%、合并经营利润率 34.0%、收入积压 $519.5B（Cloud $513.9B）。10-Q 首次写明 Cloud 产品收入主要来自 TPU 系统销售，存货半年由 $2.439B 升至 $9.991B。但同一季度自由现金流为 −$5.855B、回购连续两季为 $0（$69.5B 授权未动用）、6 月增发股权净额 $49.6B、股本 12,088M→12,230M，FY2026 capex 指引上调至 $195-205B、2027 年将显著更高。以 2026-07-30 收盘 $333.68 为锚（财报次日 07-23 单日 −6.9%），市值约 $4.081T、约 9.2x TTM 收入、约 26.7x EV/TTM 经营利润、约 73.9x EV/TTM 自由现金流；追溯 GAAP 市盈率约 16.7x 不可用，因 Q2 每股 $9.11 中 $6.26 来自权益证券估值变动，清洗后至少约 29.7x。30% 牛市 / 50% 基准 / 20% 熊市网格读出轻度正偏度但建立在预测之上，初始立场中性观察 / 中确信。</description>
+    </item>
+    <item>
       <title>Microsoft 深度研究报告 - Azure AI 收入与 capex 吸收的需求锚 / Microsoft Deep Research Report - Demand Anchor for Azure AI Revenue vs Capex Absorption</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=microsoft-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=microsoft-2026#microsoft-2026@2026-07-31</guid>
@@ -347,13 +354,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amd-2026-pre-rerun#amd-2026-pre-rerun@2026-06-22</guid>
       <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
       <description>归档的2026H1重跑前基线版本，保留更完整的业务概览、行业竞争、管理层、牛熊论点和旧估值框架，用于审计与对照。</description>
-    </item>
-    <item>
-      <title>Tempus AI 深度研究报告 - 精准医疗数据飞轮的高增长与高风险 - 重跑前归档版 / Tempus AI Deep Research Report - Precision Medicine Data Flywheel's High Growth and High Risk - Pre-rerun Archive</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=tempus-ai-2026-pre-rerun</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=tempus-ai-2026-pre-rerun#tempus-ai-2026-pre-rerun@2026-02-27</guid>
-      <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-      <description>归档的2026H1重跑前版本，保留FY2025收入、诊断/数据分部、数据飞轮护城河和旧市值/估值倍数框架，作为当前完整重跑版本的对照基线。</description>
     </item>
   </channel>
 </rss>
