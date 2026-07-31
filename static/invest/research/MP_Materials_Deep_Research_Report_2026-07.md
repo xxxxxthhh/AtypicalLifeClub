@@ -108,7 +108,7 @@ That last item is the one to watch and it is the least quantified. MP had alread
 
 This is the section that justifies MP's place in this book, and — as with `cameco-2026` — the chain role names the *job*, not the answer.
 
-**The claim under test.** MP is routinely discussed as an AI-infrastructure name. The book's power layer (`constellation-energy-2026`, `vistra-2026`, `nrg-energy-2026`, `gev-2026`), its facility layer (`vertiv-2026`, `equinix-2026`, `digital-realty-2026`) and its compute layer all assume large volumes of motors, pumps, fans, generators and actuators. If NdFeB magnets were a binding input to that buildout, a Western magnet monopolist would be a genuine cross-layer constraint and every one of those reports would need a fuel-style check it currently lacks.
+**The claim under test.** MP is routinely discussed as an AI-infrastructure name. The book's power layer (`constellation-energy-2026`, `vistra-2026`, `nrg-2026`, `gevernova-2026`), its facility layer (`vertiv-2026`, `eqix-2026`, `digital-realty-2026`) and its compute layer all assume large volumes of motors, pumps, fans, generators and actuators. If NdFeB magnets were a binding input to that buildout, a Western magnet monopolist would be a genuine cross-layer constraint and every one of those reports would need a fuel-style check it currently lacks.
 
 **The evidence, stated against the claim:**
 
@@ -132,7 +132,7 @@ Two honest qualifications, because the negative finding should be no stronger th
 
 **What this changes in the other reports.** Three read-throughs:
 
-1. **No power- or facility-layer report needs to add a rare-earth constraint check.** On this evidence there is nothing to grade. That is the same service `cameco-2026` performed for `oklo-2026`'s fuel item — establishing precisely which upstream check is and is not discharged.
+1. **No power- or facility-layer report needs to add a rare-earth constraint check, and the silence is symmetric — measured, not assumed.** `cameco-2026` earned its equivalent claim by checking that `constellation-energy-2026` contains no reference to uranium anywhere in its body, so this report ran the reciprocal check rather than asserting it. Searching all seven power- and facility-layer report bodies in **both** languages — `constellation-energy-2026`, `vistra-2026`, `nrg-2026`, `gevernova-2026`, `vertiv-2026`, `eqix-2026`, `digital-realty-2026` — for "rare earth", "NdFeB" and "magnet", plus their three Chinese equivalents (rare earth, NdFeB, permanent magnet), returns **zero occurrences in all fourteen files**. Neither side of the chain thinks the other is a constraint on it, and now both directions have been checked instead of assumed. There is nothing to grade.
 2. **`almonty-2026` and MP are the same policy trade at different stages, and MP is the better instrument for auditing it.** Almonty's tungsten thesis rests on Sangdong ramping; MP's rests on a contract already signed, already accounted for, and already visible in segment EBITDA. Anyone underwriting "Western critical-minerals reshoring" should read MP's Note 3 first, because it prices what the policy support actually costs the equity holder.
 3. **The AI label on strategic-metals names deserves a standing discount in this book.** MP is the largest and best-documented rare-earth name in the market and its own filings mention data centers zero times across two consecutive filings. That is a reasonable prior to carry into any future rare-earth, lithium or specialty-materials initiation.
 
