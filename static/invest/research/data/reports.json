@@ -4072,7 +4072,7 @@
     "ticker": "NASDAQ: COIN",
     "title": "Coinbase 深度研究报告 - 合规加密基础设施平台",
     "titleEn": "Coinbase Deep Research Report - Regulated Crypto Infrastructure Platform",
-    "summary": "2026-06-23完整重跑版：COIN股价约$164.84、市值约$43.42B；SEC尾部风险降低、Deribit强化衍生品、标普500纳入提升主流覆盖，但交易量周期、Base/USDC质量和SBC仍决定估值。",
+    "summary": "2026-07-31更新并入Q1/Q2 2026财报：COIN盘中约$143.59（2026-07-31 12:44 ET，当日交易时段尚未结束）、市值约$37.9B。Q2收入同比-18.5%、连续三个季度净亏损，但加密交易量市场份额10.3%、订阅占比48%、平台USDC余额$20B均创历史新高；SBC红旗经SEC原始文件核对不成立。",
     "tags": [
       "加密货币",
       "交易所",
@@ -4088,12 +4088,12 @@
       "en": "/invest/research/Coinbase_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "股价约$164.84、市值约$43.42B，FY2025收入口径下约6.0x销售额",
-      "SEC诉讼尾部风险下降，标普500纳入改善主流覆盖",
-      "Deribit强化衍生品版图，但并购整合和SBC仍需跟踪",
-      "估值核心从低P/E切换到非交易收入质量和周期韧性"
+      "盘中约$143.59（2026-07-31 12:44 ET）、市值约$37.9B；TTM收入约6.0x，Q2年化口径约7.8x",
+      "Q2 2026收入$1,220M（同比-18.5%）、净亏损-$359M，调整后EBITDA $208M连续14季为正",
+      "周期面转弱、结构面创高：市场份额10.3%、订阅占比48%、平台USDC余额$20B",
+      "两项判断变化：币价—收入弹性比原模型更陡；SBC红旗经SEC文件核对不成立"
     ],
-    "summaryEn": "June 23, 2026 full rerun: COIN trades around $164.84 with roughly $43.42B market cap. Lower SEC tail risk, Deribit, and S&P 500 inclusion improve the platform story, while trading cycles, Base/USDC quality, and SBC still drive valuation.",
+    "summaryEn": "Updated 2026-07-31 with Q1/Q2 2026 results: COIN at roughly $143.59 intraday (12:44 PM ET on 2026-07-31, session still open) for about $37.9B market cap. Q2 revenue fell 18.5% YoY with a third consecutive quarterly loss, while crypto trading volume market share (10.3%), subscription mix (48%), and platform USDC balances ($20B) all set records; the SBC red flag does not survive verification against primary SEC filings.",
     "period": "2026H1",
     "versionType": "full-cycle",
     "versionLabel": "2026H1 Full Rerun",
