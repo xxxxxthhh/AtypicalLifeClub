@@ -24,6 +24,7 @@ FEED_XML: Final = ROOT / "feed.xml"
 SITE_URL: Final = "https://atypicallife.club"
 CHANNEL_LINK: Final = f"{SITE_URL}/invest/research/"
 CHANNEL_TITLE: Final = "Atypical Life Club · 研究报告 / Research Reports"
+FEED_ITEM_LIMIT: Final = 60
 
 
 def fail(message: str) -> None:
@@ -87,6 +88,20 @@ def item_title(report: dict[str, Json]) -> str:
     return title
 
 
+def feed_rank(report: dict[str, Json]) -> tuple[str, str, str]:
+    # A batch pass stamps the same lastUpdate on most of the book, so lastUpdate
+    # alone leaves the cut decided by position in reports.json. Fall back to the
+    # coverage date (newer coverage first) and finally the id, so membership is
+    # derived from the content and a reordered array cannot change the feed.
+    coverage_date = report.get("date")
+    report_id = report.get("id")
+    return (
+        update_day(report),
+        coverage_date if isinstance(coverage_date, str) else "",
+        report_id if isinstance(report_id, str) else "",
+    )
+
+
 def build_feed(reports: list[dict[str, Json]]) -> ET.ElementTree:
     rss = ET.Element("rss", {"version": "2.0"})
     channel = ET.SubElement(rss, "channel")
@@ -95,7 +110,7 @@ def build_feed(reports: list[dict[str, Json]]) -> ET.ElementTree:
     ET.SubElement(channel, "description").text = "Company research updates from Atypical Life Club."
     ET.SubElement(channel, "language").text = "zh-CN"
 
-    sorted_reports = sorted(reports, key=update_day, reverse=True)[:50]
+    sorted_reports = sorted(reports, key=feed_rank, reverse=True)[:FEED_ITEM_LIMIT]
     for report in sorted_reports:
         report_id = require_string(report, "id")
         day = update_day(report)
