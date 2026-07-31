@@ -77,11 +77,23 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "如果 Q2 2026 订单与客户产能评论显示 EUV / High-NA bookings 仍高于 FY2026 收入 run-rate，backlog 转收入按计划推进，且出口管制更新没有压缩中国服务或系统机会，同时估值倍数没有进一步扩张，则上调至 constructive。",
-        "en": "move to constructive if Q2 2026 orders and customer-capacity commentary show EUV / High-NA bookings staying above the FY2026 revenue run-rate, backlog conversion remains on plan, and export-control updates do not reduce the China service or systems opportunity while the valuation multiple does not expand further."
+        "en": "move to constructive if Q2 2026 orders and customer-capacity commentary show EUV / High-NA bookings staying above the FY2026 revenue run-rate, backlog conversion remains on plan, and export-control updates do not reduce the China service or systems opportunity while the valuation multiple does not expand further.",
+        "monitoringIds": [
+          "euv-high-na-orders",
+          "backlog-conversion",
+          "export-control-china",
+          "valuation-backlog-quality"
+        ]
       },
       "downgrade": {
         "zh": "如果 EUV / High-NA bookings 放缓、EUR 38.797B backlog 出现取消或延期风险、中国/出口管制限制系统或 installed-base service 可达市场，或毛利率跌破 FY2026 51-53% 指引，则下调至 cautious。",
-        "en": "move to cautious if EUV / High-NA bookings slow, the EUR 38.797B backlog shows cancellation or delay risk, China/export-control limits reduce system or installed-base service access, or gross margin slips below the FY2026 51-53% guide."
+        "en": "move to cautious if EUV / High-NA bookings slow, the EUR 38.797B backlog shows cancellation or delay risk, China/export-control limits reduce system or installed-base service access, or gross margin slips below the FY2026 51-53% guide.",
+        "monitoringIds": [
+          "euv-high-na-orders",
+          "backlog-conversion",
+          "export-control-china",
+          "valuation-backlog-quality"
+        ]
       }
     },
     "stanceHistory": [
@@ -126,7 +138,9 @@
           "en": "Q2 2026 (2026-07-15): management said H1 order intake was strong and plans to add 30% to 2027 low-NA EUV capacity (about 65 systems in 2026) and DUV immersion capacity (about 130), while investigating another 30% for each in 2028; quarterly net bookings were not disclosed"
         },
         "nextCheck": "Q3 2026 shipments and customer-capacity commentary",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-07-15"
       },
       {
         "id": "backlog-conversion",
@@ -145,7 +159,9 @@
           "en": "Q2 2026 net sales were EUR 9.326B at 54.0% gross margin; FY2026 guidance was raised for the second time to EUR 43-45B net sales at 54-56% gross margin, but backlog was not disclosed, so cancellation or delay status cannot be directly verified"
         },
         "nextCheck": "Q3 2026 revenue and any backlog-conversion disclosure",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "unclear",
+        "readingAsOf": "2026-07-15"
       },
       {
         "id": "export-control-china",
@@ -251,11 +267,23 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "如果 FY2026 Q3 收入达到或高于 $8.95B 中点、Semiconductor Systems operating margin 维持 35% 以上，foundry/logic 与 DRAM mix 同时强劲，且中国/台湾暴露没有受到出口管制或客户节奏冲击，同时 EV/sales 倍数没有进一步扩张，则上调至 constructive。",
-        "en": "move to constructive if FY2026 Q3 revenue reaches or exceeds the $8.95B midpoint, Semiconductor Systems operating margin stays above 35%, foundry/logic and DRAM mix remain strong together, and China/Taiwan exposure is not hit by export controls or customer timing while the EV/sales multiple does not expand further."
+        "en": "move to constructive if FY2026 Q3 revenue reaches or exceeds the $8.95B midpoint, Semiconductor Systems operating margin stays above 35%, foundry/logic and DRAM mix remain strong together, and China/Taiwan exposure is not hit by export controls or customer timing while the EV/sales multiple does not expand further.",
+        "monitoringIds": [
+          "q3-guidance-conversion",
+          "semiconductor-systems-growth",
+          "foundry-dram-mix",
+          "china-taiwan-exposure"
+        ]
       },
       "downgrade": {
         "zh": "如果 Q3 收入低于中点、Semiconductor Systems 增长或 operating margin 走弱、中国/台湾收入受到出口管制或客户节奏冲击，或库存与供应链扩建转化为去库存压力，则下调至 cautious。",
-        "en": "move to cautious if Q3 revenue misses the midpoint, Semiconductor Systems growth or operating margin weakens, China/Taiwan revenue is hit by export controls or customer timing, or the inventory and supply-chain build turns into destocking pressure."
+        "en": "move to cautious if Q3 revenue misses the midpoint, Semiconductor Systems growth or operating margin weakens, China/Taiwan revenue is hit by export controls or customer timing, or the inventory and supply-chain build turns into destocking pressure.",
+        "monitoringIds": [
+          "q3-guidance-conversion",
+          "semiconductor-systems-growth",
+          "china-taiwan-exposure",
+          "supply-chain-readiness"
+        ]
       }
     },
     "stanceHistory": [
@@ -440,11 +468,24 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "如果 6 月季度收入达到或高于 $6.60B 中点、Systems revenue 持续扩张且 operating margin 接近 36.5%，China/Korea/Taiwan mix 没有出口管制或客户节奏断点，且服务收入保持韧性、估值倍数没有进一步扩张，则上调至 constructive。",
-        "en": "move to constructive if June-quarter revenue reaches or exceeds the $6.60B midpoint, Systems revenue keeps expanding with operating margin near 36.5%, China/Korea/Taiwan mix shows no export-control or customer-timing break, and service revenue remains resilient without further multiple expansion."
+        "en": "move to constructive if June-quarter revenue reaches or exceeds the $6.60B midpoint, Systems revenue keeps expanding with operating margin near 36.5%, China/Korea/Taiwan mix shows no export-control or customer-timing break, and service revenue remains resilient without further multiple expansion.",
+        "monitoringIds": [
+          "etch-deposition-ai-demand",
+          "china-korea-taiwan-mix",
+          "june-quarter-guidance",
+          "service-resilience"
+        ]
       },
       "downgrade": {
         "zh": "如果 Systems revenue 或服务收入走弱、中国收入或出口限制降低出货可见度、日本 deferred-revenue 验收延后，或 operating margin 低于 36.5% 指引而股价仍处于十几倍 EV/sales 框架，则下调至 cautious。",
-        "en": "move to cautious if Systems revenue or service revenue weakens, China revenue or export limits reduce shipment visibility, Japan deferred-revenue acceptance slips, or operating margin misses the 36.5% guide while the stock still trades at a mid-teens EV/sales frame."
+        "en": "move to cautious if Systems revenue or service revenue weakens, China revenue or export limits reduce shipment visibility, Japan deferred-revenue acceptance slips, or operating margin misses the 36.5% guide while the stock still trades at a mid-teens EV/sales frame.",
+        "monitoringIds": [
+          "etch-deposition-ai-demand",
+          "service-resilience",
+          "china-korea-taiwan-mix",
+          "japan-deferred-revenue",
+          "june-quarter-guidance"
+        ]
       }
     },
     "stanceHistory": [
@@ -624,11 +665,23 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "如果 process-control revenue 持续增长，foundry/logic、memory、advanced packaging 和 services 的 AI 增长向量仍然广泛，LTM FCF yield 在没有周期转弱信号的情况下改善，且 EV/sales 框架通过基本面而不是股价下跌收缩，则上调至 constructive。",
-        "en": "move to constructive if process-control revenue keeps growing, AI growth vectors across foundry/logic, memory, advanced packaging, and services remain broad, LTM FCF yield improves without a weaker cycle signal, and the EV/sales frame contracts without price-driven downside."
+        "en": "move to constructive if process-control revenue keeps growing, AI growth vectors across foundry/logic, memory, advanced packaging, and services remain broad, LTM FCF yield improves without a weaker cycle signal, and the EV/sales frame contracts without price-driven downside.",
+        "monitoringIds": [
+          "process-control-revenue",
+          "ai-growth-vectors",
+          "fcf-capital-return",
+          "cy2026-outlook"
+        ]
       },
       "downgrade": {
         "zh": "如果 WFE 或 process-control demand 降温、Specialty Semiconductor Process 或 PCB / Component Inspection 开始拖累核心增长、FCF 不再支撑 buyback/dividend，或估值仍高于 20x annualized revenue 而指引转弱，则下调至 cautious。",
-        "en": "move to cautious if WFE or process-control demand cools, Specialty Semiconductor Process or PCB / Component Inspection starts dragging core growth, FCF no longer supports buybacks/dividends, or valuation remains above 20x annualized revenue while guidance weakens."
+        "en": "move to cautious if WFE or process-control demand cools, Specialty Semiconductor Process or PCB / Component Inspection starts dragging core growth, FCF no longer supports buybacks/dividends, or valuation remains above 20x annualized revenue while guidance weakens.",
+        "monitoringIds": [
+          "process-control-revenue",
+          "segment-breadth",
+          "fcf-capital-return",
+          "cy2026-outlook"
+        ]
       }
     },
     "stanceHistory": [
@@ -688,7 +741,9 @@
           "en": "Q4 fiscal 2026 (July 28, 2026): Semiconductor Process Control revenue was $3.257B, up from Q3's $3.084B (about +5.6% sequentially). The trigger (process-control revenue keeps growing) held."
         },
         "nextCheck": "next quarterly segment update",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-07-28"
       },
       {
         "id": "ai-growth-vectors",
@@ -707,7 +762,9 @@
           "en": "Q4 fiscal 2026 (July 28, 2026): the CEO framed demand as on the critical path of AI infrastructure expansion, citing leading-edge foundry/logic, memory, and advanced packaging; the September-quarter guide of $4.0B extends the trajectory. The release did not quantify revenue by end market."
         },
         "nextCheck": "CY2026 demand commentary",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "unclear",
+        "readingAsOf": "2026-07-28"
       },
       {
         "id": "fcf-capital-return",
@@ -726,7 +783,9 @@
           "en": "Q4 fiscal 2026 (July 28, 2026): quarterly operating cash flow was $906.4M and free cash flow was $817.1M, down about 23% from $1.065B a year earlier; full-year FY2026 FCF was $3.767B, about 0.5% above FY2025's $3.747B. The company paid $305.3M of dividends and repurchased $571.0M of stock in the quarter ($1.06B dividends and $2.29B buybacks for the full year)."
         },
         "nextCheck": "cash flow and buyback update",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "unclear",
+        "readingAsOf": "2026-07-28"
       },
       {
         "id": "segment-breadth",
@@ -745,7 +804,9 @@
           "en": "Q4 fiscal 2026 (July 28, 2026): Specialty Semiconductor Process was $160M (Q3 was $164.0M, roughly flat) and PCB / Component Inspection was $241M (Q3 was $167.6M, up sharply); neither dragged core growth."
         },
         "nextCheck": "segment mix update",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-07-28"
       },
       {
         "id": "cy2026-outlook",
@@ -764,7 +825,9 @@
           "en": "Frozen July 2, 2026 snapshot: about 22.6x EV/annualized revenue and about 1.3% LTM FCF yield. This monitoring pass does not refresh the snapshot - the September-quarter guide of $4.0B +/- $200M points to continued demand rather than cooling, but a separate current-price valuation review is required before re-rating, and any post-earnings share-price move alone is not a loggable signal."
         },
         "nextCheck": "guidance and valuation reset",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-07-28"
       }
     ]
   },
@@ -812,11 +875,25 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "若 Q3 FY2026 显示 Ansys revenue 与 simulation 协同按计划转化、Design Automation 和 Design IP 同时加速，FCF 向约 $2.0B 指引兑现，且没有新增 export-control / Entity List 冲击，则上调至 bullish。",
-        "en": "Move to bullish if Q3 FY2026 shows Ansys revenue and simulation synergies converting on plan, Design Automation and Design IP accelerating together, FCF tracking the roughly $2.0B guide, and no new export-control / Entity List shock."
+        "en": "Move to bullish if Q3 FY2026 shows Ansys revenue and simulation synergies converting on plan, Design Automation and Design IP accelerating together, FCF tracking the roughly $2.0B guide, and no new export-control / Entity List shock.",
+        "monitoringIds": [
+          "ansys-integration",
+          "design-automation-growth",
+          "design-ip-pullthrough",
+          "fcf-conversion",
+          "export-control-assumption"
+        ]
       },
       "downgrade": {
         "zh": "若 Ansys 整合稀释执行、Design IP 或 Design Automation 增长低于 AI 复杂度叙事、FCF 低于约 $2.0B 指引，或新增 export-control / Entity List 变化破坏 FY2026 指引，则下调至 neutral-watch 或 cautious。",
-        "en": "Move to neutral-watch or cautious if Ansys integration dilutes execution, Design IP or Design Automation growth falls short of the AI-complexity narrative, FCF misses the roughly $2.0B guide, or a new export-control / Entity List change breaks FY2026 guidance."
+        "en": "Move to neutral-watch or cautious if Ansys integration dilutes execution, Design IP or Design Automation growth falls short of the AI-complexity narrative, FCF misses the roughly $2.0B guide, or a new export-control / Entity List change breaks FY2026 guidance.",
+        "monitoringIds": [
+          "ansys-integration",
+          "design-automation-growth",
+          "design-ip-pullthrough",
+          "fcf-conversion",
+          "export-control-assumption"
+        ]
       }
     },
     "stanceHistory": [
@@ -990,11 +1067,23 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "若 Q3 2026 继续证明 $8.1B backlog 与 $4.2B next-12-month RPO 干净转收入，Star IP 与 AI Super Agents 采用保持可量化，且 EV/sales 从当前约 14.8x 继续被消化而不是重新扩张，则上调至 constructive。",
-        "en": "Move to constructive if Q3 2026 continues to show the $8.1B backlog and $4.2B next-12-month RPO converting cleanly, Star IP and AI Super Agent adoption remain measurable, and EV/sales keeps being absorbed from the current roughly 14.8x frame rather than expanding."
+        "en": "Move to constructive if Q3 2026 continues to show the $8.1B backlog and $4.2B next-12-month RPO converting cleanly, Star IP and AI Super Agent adoption remain measurable, and EV/sales keeps being absorbed from the current roughly 14.8x frame rather than expanding.",
+        "monitoringIds": [
+          "backlog-rpo-conversion",
+          "agentic-design-workflow",
+          "ip-hbm-serdes-growth",
+          "valuation-execution"
+        ]
       },
       "downgrade": {
         "zh": "若 backlog/RPO 转化低于指引、IP 增速放缓、Hexagon/Physical AI 稀释 margin，或在当前约 41x non-GAAP P/E 估值框架下出现执行失误，则下调至 cautious。",
-        "en": "Move to cautious if backlog/RPO conversion misses guidance, IP growth slows, Hexagon / Physical AI dilutes margin, or an execution miss appears against the current roughly 41x non-GAAP P/E valuation frame."
+        "en": "Move to cautious if backlog/RPO conversion misses guidance, IP growth slows, Hexagon / Physical AI dilutes margin, or an execution miss appears against the current roughly 41x non-GAAP P/E valuation frame.",
+        "monitoringIds": [
+          "backlog-rpo-conversion",
+          "ip-hbm-serdes-growth",
+          "hexagon-physical-ai",
+          "valuation-execution"
+        ]
       }
     },
     "stanceHistory": [
@@ -1044,7 +1133,9 @@
           "en": "Q2 2026 results (2026-07-27): quarter-end backlog was $8.1B (a company-stated record, roughly flat vs Q1's $8.0B) and next-12-month RPO revenue was $4.2B (Q1 was $4.0B); Q2 revenue was $1.584B (+24% YoY) with non-GAAP EPS $2.11, and FY2026 guidance was raised to $6.26-6.34B revenue and $8.05-8.15 non-GAAP EPS. The reading is consistent with conversion, but the company did not disclose backlog gross additions or burn, so it does not directly quantify a conversion rate."
         },
         "nextCheck": "Q3 2026 results",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-07-27"
       },
       {
         "id": "agentic-design-workflow",
@@ -1063,7 +1154,9 @@
           "en": "The Q2 2026 release (2026-07-27) cited early traction and initial customer results for AI Super Agents but did not quantify agentic design-workflow revenue contribution."
         },
         "nextCheck": "AI design-flow product adoption",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "unclear",
+        "readingAsOf": "2026-07-27"
       },
       {
         "id": "ip-hbm-serdes-growth",
@@ -1082,7 +1175,9 @@
           "en": "Q2 2026 (2026-07-27): Semiconductor IP revenue grew more than 40% YoY, attributed to Star IP, a significant Intel agreement, and other leading-semiconductor wins; the company did not split this quarter's IP growth among HBM, PCIe, or SerDes."
         },
         "nextCheck": "Q3 2026 results",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-07-27"
       },
       {
         "id": "hexagon-physical-ai",
@@ -1101,7 +1196,9 @@
           "en": "Q2 2026 (2026-07-27): System Design & Analysis revenue grew 37% YoY, attributed to PCB and advanced-packaging adoption plus Hexagon D&E integration; the release did not isolate Hexagon margin dilution."
         },
         "nextCheck": "Q3 2026 results",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "unclear",
+        "readingAsOf": "2026-07-27"
       },
       {
         "id": "valuation-execution",
@@ -1273,11 +1370,23 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "如果NRG披露具名hyperscaler或tariff-backed C&I供电合同，LS Power/CPower实际EBITDA和协同按计划兑现，ERCOT/PJM容量价格继续上行，且net debt/adjusted EBITDA明确向<3.0x下降，则上调至neutral-watch或constructive。",
-        "en": "Move to neutral-watch or constructive if NRG discloses named hyperscaler or tariff-backed C&I supply contracts, LS Power / CPower realized EBITDA and synergies track plan, ERCOT/PJM capacity prices keep rising, and net debt / adjusted EBITDA clearly moves toward <3.0x."
+        "en": "Move to neutral-watch or constructive if NRG discloses named hyperscaler or tariff-backed C&I supply contracts, LS Power / CPower realized EBITDA and synergies track plan, ERCOT/PJM capacity prices keep rising, and net debt / adjusted EBITDA clearly moves toward <3.0x.",
+        "monitoringIds": [
+          "data-center-contract-conversion",
+          "ls-power-integration",
+          "ercot-pjm-capacity-pricing",
+          "leverage-buyback-discipline"
+        ]
       },
       "downgrade": {
         "zh": "如果large-load合同仍停留在optionality、CPower或LS Power整合低于交易逻辑、retail/Vivint margin转弱，或回购导致去杠杆停滞，则下调至bearish-avoid。",
-        "en": "Move to bearish-avoid if large-load contracts remain only optionality, CPower or LS Power integration falls short of the deal logic, retail/Vivint margin weakens, or buybacks stall deleveraging."
+        "en": "Move to bearish-avoid if large-load contracts remain only optionality, CPower or LS Power integration falls short of the deal logic, retail/Vivint margin weakens, or buybacks stall deleveraging.",
+        "monitoringIds": [
+          "data-center-contract-conversion",
+          "ls-power-integration",
+          "retail-vivint-margin",
+          "leverage-buyback-discipline"
+        ]
       }
     },
     "stanceHistory": [
@@ -1344,11 +1453,24 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "如果 Q2/Q3 interconnection revenue、AI-related bookings/presales 与 xScale lease-up 同时加速，AFFO/share 路径明确高于约 14% 隐含 CAGR，且 power/capex 成本没有压缩 returns，则上调至 constructive。",
-        "en": "Move to constructive if Q2/Q3 interconnection revenue, AI-related bookings/presales, and xScale lease-up accelerate together, the AFFO/share path clearly exceeds the roughly 14% implied CAGR, and power/capex costs do not compress returns."
+        "en": "Move to constructive if Q2/Q3 interconnection revenue, AI-related bookings/presales, and xScale lease-up accelerate together, the AFFO/share path clearly exceeds the roughly 14% implied CAGR, and power/capex costs do not compress returns.",
+        "monitoringIds": [
+          "interconnection-revenue-density",
+          "ai-bookings-presales",
+          "xscale-jv-economics",
+          "power-capex-availability"
+        ]
       },
       "downgrade": {
         "zh": "如果 interconnection revenue 或 MRR/cabinet yield 放缓，AI presales 难以转为 commenced recurring revenue，或 power、capex、利息成本与 xScale VIE 风险使 AFFO/share 增长低于隐含要求，则下调至 cautious。",
-        "en": "Move to cautious if interconnection revenue or MRR/cabinet yield slows, AI presales fail to convert into commenced recurring revenue, or power, capex, interest costs, and xScale VIE exposure push AFFO/share growth below the implied requirement."
+        "en": "Move to cautious if interconnection revenue or MRR/cabinet yield slows, AI presales fail to convert into commenced recurring revenue, or power, capex, interest costs, and xScale VIE exposure push AFFO/share growth below the implied requirement.",
+        "monitoringIds": [
+          "interconnection-revenue-density",
+          "mrr-cabinet-yield",
+          "ai-bookings-presales",
+          "xscale-jv-economics",
+          "power-capex-availability"
+        ]
       }
     },
     "stanceHistory": [
@@ -1588,7 +1710,9 @@
           "zh": "2026-07-17 公司公告签订首笔约 $7.75 亿高级担保融资：以已部署 GPU 基础设施和未具名投资级客户合同现金流支持，SOFR+2.50%、2030-10-31 到期；公司称显著超额认购，且与客户现金流合计覆盖标的 GPU 部署 capex >100%。客户未具名；公司另称结构可复制到微软/Meta 等 >$400 亿新增合同收入，但这仍是未来融资预期。规模相对 $200-250 亿 2026 capex 仍小；此前披露框架：>90% 已由现金/合同锁定，约 $93 亿现金",
           "en": "Nebius announced 2026-07-17 that it entered its first senior secured facility (~$775M), backed by deployed GPU infrastructure and an unnamed investment-grade customer's contracted cash flows, priced at SOFR+2.50% and due 2030-10-31; the company says it was significantly oversubscribed and, together with customer cash flows, covers >100% of the underlying GPU-deployment capex. The customer is unnamed; the issuer separately says the structure could be repeated against >$40B of additional contracted revenue from customers such as Microsoft/Meta, but that remains a future financing expectation. Small vs $20-25B 2026 capex; prior disclosed frame: >90% secured by cash/contracts and ~$9.3B cash"
         },
-        "nextCheck": "额外资产级融资；提款/契约/费用披露；ATM 使用与预付款节奏 / additional asset-level facilities; drawdown, covenant and fee disclosures; ATM use and prepayment cadence"
+        "nextCheck": "额外资产级融资；提款/契约/费用披露；ATM 使用与预付款节奏 / additional asset-level facilities; drawdown, covenant and fee disclosures; ATM use and prepayment cadence",
+        "reading": "within",
+        "readingAsOf": "2026-07-17"
       },
       {
         "id": "optionality-crystallization",
@@ -1617,11 +1741,24 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "微软/Meta 合同按期转成高利用率收入，2026 退出 ARR 落在 $70-90 亿区间中高端，剔除重估经营利润持续转正，capex 融资不依赖更差条款稀释，且客户集中度不继续向 CoreWeave 画像收敛",
-        "en": "Microsoft / Meta contracts convert into high-utilization revenue on schedule, 2026 exit ARR lands in the middle-to-high end of the $7-9B range, operating profit ex-marks stays positive, capex funding does not require dilution on worse terms, and customer concentration does not keep converging toward the CoreWeave profile"
+        "en": "Microsoft / Meta contracts convert into high-utilization revenue on schedule, 2026 exit ARR lands in the middle-to-high end of the $7-9B range, operating profit ex-marks stays positive, capex funding does not require dilution on worse terms, and customer concentration does not keep converging toward the CoreWeave profile",
+        "monitoringIds": [
+          "model-vs-balance-sheet",
+          "earnings-quality-ex-marks",
+          "funding-durability",
+          "concentration-convergence"
+        ]
       },
       "downgrade": {
         "zh": "微软或 Meta 放量延迟，合同 ABS/预付款融资成本明显恶化，剔除重估利润重新转负，非核心期权重估回撤，或客户集中度与 NVIDIA 循环性继续上升并削弱独立 neocloud 叙事",
-        "en": "Microsoft or Meta ramps are delayed, contract ABS / prepayment funding costs materially worsen, operating profit ex-marks turns negative again, non-core optionality marks reverse, or customer concentration and NVIDIA circularity keep rising and weaken the independent-neocloud story"
+        "en": "Microsoft or Meta ramps are delayed, contract ABS / prepayment funding costs materially worsen, operating profit ex-marks turns negative again, non-core optionality marks reverse, or customer concentration and NVIDIA circularity keep rising and weaken the independent-neocloud story",
+        "monitoringIds": [
+          "model-vs-balance-sheet",
+          "funding-durability",
+          "earnings-quality-ex-marks",
+          "optionality-crystallization",
+          "concentration-convergence"
+        ]
       }
     },
     "stanceHistory": [
@@ -1781,11 +1918,20 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "若 Q2/Q3 财报使收入增速保持在高 20% 以上、非 GAAP 营业利润率维持 45% 以上、递延收入/RPO 扩张，并且客户证据显示开放以太网在 AI 后端网络份额提升且集中度未进一步上升，则上调至 constructive。",
-        "en": "move to constructive if Q2/Q3 results keep revenue growth above the high-20s, non-GAAP operating margin stays above 45%, deferred revenue/RPO expands, and customer evidence shows open Ethernet gaining AI back-end share without higher concentration."
+        "en": "move to constructive if Q2/Q3 results keep revenue growth above the high-20s, non-GAAP operating margin stays above 45%, deferred revenue/RPO expands, and customer evidence shows open Ethernet gaining AI back-end share without higher concentration.",
+        "monitoringIds": [
+          "open-ethernet-vs-integrated",
+          "customer-concentration"
+        ]
       },
       "downgrade": {
         "zh": "若收入增速跌破隐含的高 20% 路径、非 GAAP 营业利润率在缺少明确投资解释的情况下低于 40%、头部客户集中度恶化，或 NVIDIA 一体化网络在 AI 后端拿到更清楚份额，则下调至 cautious。",
-        "en": "move to cautious if revenue growth falls below the implied high-20s path, non-GAAP operating margin drops below 40% without clear investment explanation, top-customer concentration worsens, or NVIDIA integrated networking takes clearer AI back-end share."
+        "en": "move to cautious if revenue growth falls below the implied high-20s path, non-GAAP operating margin drops below 40% without clear investment explanation, top-customer concentration worsens, or NVIDIA integrated networking takes clearer AI back-end share.",
+        "monitoringIds": [
+          "customer-concentration",
+          "open-ethernet-vs-integrated",
+          "valuation-tolerance"
+        ]
       }
     },
     "stanceHistory": [
@@ -1929,11 +2075,23 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "确认收入连续追上 backlog，客户集中度明显下降，利息覆盖和流动性改善，GPU 残值/利用率支持 6 年折旧，且再融资或资本开支融资以不显著稀释股东的成本完成",
-        "en": "recognized revenue catches up to backlog for consecutive quarters, customer concentration falls materially, interest coverage and liquidity improve, GPU residual value / utilization supports 6-year depreciation, and refinancing or capex funding is completed at a cost that does not materially dilute shareholders"
+        "en": "recognized revenue catches up to backlog for consecutive quarters, customer concentration falls materially, interest coverage and liquidity improve, GPU residual value / utilization supports 6-year depreciation, and refinancing or capex funding is completed at a cost that does not materially dilute shareholders",
+        "monitoringIds": [
+          "real-demand-vs-financing",
+          "revenue-quality-circularity",
+          "self-build-pricing-crack",
+          "solvency-gpu-life-stress"
+        ]
       },
       "downgrade": {
         "zh": "确认收入继续落后 backlog，微软或前二客户集中度维持高位，GPU 租金 ASP/利用率走弱，利息覆盖恶化，或再融资只能依赖更贵债务、NVIDIA 兜底或高稀释股权",
-        "en": "recognized revenue keeps lagging backlog, Microsoft or top-2 customer concentration stays high, GPU rental ASP / utilization weakens, interest coverage deteriorates, or refinancing can only rely on more expensive debt, NVIDIA backstops, or highly dilutive equity"
+        "en": "recognized revenue keeps lagging backlog, Microsoft or top-2 customer concentration stays high, GPU rental ASP / utilization weakens, interest coverage deteriorates, or refinancing can only rely on more expensive debt, NVIDIA backstops, or highly dilutive equity",
+        "monitoringIds": [
+          "real-demand-vs-financing",
+          "revenue-quality-circularity",
+          "self-build-pricing-crack",
+          "solvency-gpu-life-stress"
+        ]
       }
     },
     "stanceHistory": [
@@ -2016,11 +2174,21 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "如果 Q2/Q3 orders/book-to-bill 维持 >1.5x、backlog 继续增长、液冷/电力设备份额提升且调整后营业利润率高于 23% 指引轨迹，同时前瞻倍数没有继续扩张，则上调至 constructive。",
-        "en": "Move to constructive if Q2/Q3 orders/book-to-bill stays above 1.5x, backlog keeps growing, liquid-cooling/power-equipment share improves, and adjusted operating margin runs above the 23% guide path without further forward-multiple expansion."
+        "en": "Move to constructive if Q2/Q3 orders/book-to-bill stays above 1.5x, backlog keeps growing, liquid-cooling/power-equipment share improves, and adjusted operating margin runs above the 23% guide path without further forward-multiple expansion.",
+        "monitoringIds": [
+          "orders-backlog-cadence",
+          "liquid-cooling-competition",
+          "valuation-multiple"
+        ]
       },
       "downgrade": {
         "zh": "如果 orders/book-to-bill 接近或低于 1x、backlog 开始回落、液冷竞争压低毛利/增量利润率，或 hyperscaler capex 指引进入消化期，则下调至 cautious。",
-        "en": "Move to cautious if orders/book-to-bill approaches or falls below 1x, backlog starts rolling over, liquid-cooling competition compresses gross or incremental margin, or hyperscaler capex guidance enters a digestion phase."
+        "en": "Move to cautious if orders/book-to-bill approaches or falls below 1x, backlog starts rolling over, liquid-cooling competition compresses gross or incremental margin, or hyperscaler capex guidance enters a digestion phase.",
+        "monitoringIds": [
+          "orders-backlog-cadence",
+          "liquid-cooling-competition",
+          "ai-capex-digestion"
+        ]
       }
     },
     "stanceHistory": [
@@ -2179,11 +2347,22 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "若 2026 下半年光通信继续约 30%+ 增长（Q2 2026 为 +32%）、Springboard 运行率接近 2026 年底约 $200 亿路径、客户出资协议落地且 FCF 在产能爬坡中改善，并且一次单独的当前价格估值复核显示倍数从 2026-06-26 框架消化而非继续扩张，则上调至 constructive。",
-        "en": "move to constructive if H2 2026 continues to show Optical Communications growing around 30%+ (Q2 2026 was +32%), Springboard run rate tracking toward the roughly $20B end-2026 path, customer-funded agreements closing, and FCF improving through the capacity ramp, and a separate current-price valuation review shows the multiple absorbed from the June 26, 2026 frame rather than expanding."
+        "en": "move to constructive if H2 2026 continues to show Optical Communications growing around 30%+ (Q2 2026 was +32%), Springboard run rate tracking toward the roughly $20B end-2026 path, customer-funded agreements closing, and FCF improving through the capacity ramp, and a separate current-price valuation review shows the multiple absorbed from the June 26, 2026 frame rather than expanding.",
+        "monitoringIds": [
+          "optical-genai-pull",
+          "springboard-runrate",
+          "customer-concentration-funding",
+          "valuation-debt"
+        ]
       },
       "downgrade": {
         "zh": "若光通信增速明显低于 AI capex 叙事、Meta/NVIDIA/Amazon 任一方放缓或重谈供货承诺，或净债务/FCF 压力在 2026-06-26 约 71x 2026E 核心 EPS 估值框架下加剧，则下调至 cautious。",
-        "en": "move to cautious if Optical Communications growth falls materially below the AI-capex narrative, any of Meta/NVIDIA/Amazon slows or renegotiates supply commitments, or net-debt / FCF pressure worsens against the roughly 71x 2026E core-EPS June 26, 2026 frame."
+        "en": "move to cautious if Optical Communications growth falls materially below the AI-capex narrative, any of Meta/NVIDIA/Amazon slows or renegotiates supply commitments, or net-debt / FCF pressure worsens against the roughly 71x 2026E core-EPS June 26, 2026 frame.",
+        "monitoringIds": [
+          "optical-genai-pull",
+          "customer-concentration-funding",
+          "valuation-debt"
+        ]
       }
     },
     "stanceHistory": [
@@ -2233,7 +2412,9 @@
           "en": "Q2 2026 (July 28, 2026): Optical Communications net sales were $2.072B, +32% YoY and about +12% sequentially (Q1 was $1.846B at +36%), with Enterprise Networks +65% and the company saying Gen AI product sales grew significantly faster; Q3 2026 guidance is core sales $4.9-5.0B. The trigger (Optical Communications growth stalls) was not met. Evidence limits: total optical YoY decelerated to +32% while the AI-heavy Enterprise Networks accelerated to +65%, and Corning did not disclose a dollar figure for Gen AI product sales specifically."
         },
         "nextCheck": "2026-Q3 财报 / Q3 earnings",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-07-28"
       },
       {
         "id": "customer-concentration-funding",
@@ -2269,7 +2450,9 @@
           "zh": "2026Q2 core sales $4.74B（年化约 $190 亿，向 2026 年底约 $200 亿目标推进）；核心营业利润率 20.9%，调整后自由现金流 $1.42B。管理层称 Q2 在上修后的 Springboard 计划上取得进展。",
           "en": "Q2 2026 core sales were $4.74B (about a $19B annualized run rate, tracking toward the ~$20B end-2026 target); core operating margin was 20.9% and adjusted free cash flow was $1.42B. Management said Q2 demonstrated progress on the recently upgraded Springboard plan."
         },
-        "nextCheck": "季度核心营收运行率 / quarterly core-sales run-rate"
+        "nextCheck": "季度核心营收运行率 / quarterly core-sales run-rate",
+        "reading": "within",
+        "readingAsOf": "2026-07-28"
       },
       {
         "id": "valuation-debt",
@@ -2417,11 +2600,23 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "升级触发条件：若 Q2 FY2027 兑现 $91.0B revenue guide、Data Center sequential slope 与 75% non-GAAP gross margin 同时保持，rack/system attach 与 networking/software attach 扩大 profit pool，且 ASIC/China/circular-financing 风险没有抬头，则上调至 bullish。",
-        "en": "Move to bullish if Q2 FY2027 delivers the $91.0B revenue guide, Data Center sequential slope and 75% non-GAAP gross margin both hold, rack/system attach and networking/software attach expand the profit pool, and ASIC/China/circular-financing risks do not rise."
+        "en": "Move to bullish if Q2 FY2027 delivers the $91.0B revenue guide, Data Center sequential slope and 75% non-GAAP gross margin both hold, rack/system attach and networking/software attach expand the profit pool, and ASIC/China/circular-financing risks do not rise.",
+        "monitoringIds": [
+          "ai-capex-durability",
+          "custom-asic-substitution",
+          "china-structural-loss",
+          "circular-financing-exposure"
+        ]
       },
       "downgrade": {
         "zh": "降级触发条件：若 hyperscaler capex 连续转弱、Data Center revenue 环比失速、custom ASIC 在推理/成熟负载持续夺取增量 profit pool，或中国/投资组合减值重置盈利分母，则下调至 neutral-watch 或 cautious。",
-        "en": "Move to neutral-watch or cautious if hyperscaler capex weakens for consecutive quarters, Data Center revenue stalls sequentially, custom ASICs keep taking incremental profit pool in inference/mature workloads, or China / portfolio impairments reset the earnings denominator."
+        "en": "Move to neutral-watch or cautious if hyperscaler capex weakens for consecutive quarters, Data Center revenue stalls sequentially, custom ASICs keep taking incremental profit pool in inference/mature workloads, or China / portfolio impairments reset the earnings denominator.",
+        "monitoringIds": [
+          "ai-capex-durability",
+          "custom-asic-substitution",
+          "china-structural-loss",
+          "circular-financing-exposure"
+        ]
       }
     },
     "stanceHistory": [
@@ -2488,11 +2683,20 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "若 Q2 收入达到或高于 $198M、Q3 指引显示收入阶跃，毛利率突破 31% 且经营现金流/应收库存压力改善，同时新增 hyperscale 客户降低单一客户集中，则上调至 neutral-watch 或 constructive。",
-        "en": "move to neutral-watch or constructive if Q2 revenue lands at or above $198M, Q3 guidance shows a revenue step-up, gross margin breaks above 31% with operating-cash-flow / receivables-inventory pressure improving, and new hyperscale customers reduce single-customer concentration."
+        "en": "move to neutral-watch or constructive if Q2 revenue lands at or above $198M, Q3 guidance shows a revenue step-up, gross margin breaks above 31% with operating-cash-flow / receivables-inventory pressure improving, and new hyperscale customers reduce single-customer concentration.",
+        "monitoringIds": [
+          "800g-ramp",
+          "cash-burn-dilution",
+          "customer-concentration"
+        ]
       },
       "downgrade": {
         "zh": "若 Q2 低于 $180M 或 Q3 指引保守、毛利率维持 29-30% 且现金流仍深度为负，或 ATM 稀释继续快于收入证明，则下调至 bearish-avoid。",
-        "en": "move to bearish-avoid if Q2 revenue falls below $180M or Q3 guidance is cautious, gross margin stays at 29-30% with deeply negative cash flow, or ATM dilution continues faster than revenue proof."
+        "en": "move to bearish-avoid if Q2 revenue falls below $180M or Q3 guidance is cautious, gross margin stays at 29-30% with deeply negative cash flow, or ATM dilution continues faster than revenue proof.",
+        "monitoringIds": [
+          "800g-ramp",
+          "cash-burn-dilution"
+        ]
       }
     },
     "stanceHistory": [
@@ -2665,7 +2869,9 @@
           "en": "Q2 (2026-07-22) orders $24.2B (+88% organic), backlog +$13B QoQ to $176B (2027 target $200B); Electrification data-center orders >$5B YTD (more than 2x the full-year 2025 total)"
         },
         "nextCheck": "2026-Q3 财报 / Q3 earnings",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-07-22"
       },
       {
         "id": "margin-ramp",
@@ -2683,7 +2889,9 @@
           "zh": "Q2（2026-07-22）调整后 EBITDA $1.2B（利润率 11.3%，有机 +340bps）；FY2026 指引上调至营收 $45.5-46.5B、FCF $11.5-12.5B，EBITDA 利润率指引维持 12-14%（Q2 11.3% 仍低于该区间）",
           "en": "Q2 (2026-07-22) adj EBITDA $1.2B (11.3% margin, +340bps organic); FY2026 guide raised to revenue $45.5-46.5B and FCF $11.5-12.5B, with the EBITDA-margin guide unchanged at 12-14% (Q2 11.3% still below the range)"
         },
-        "nextCheck": "季度利润率 / quarterly margins"
+        "nextCheck": "季度利润率 / quarterly margins",
+        "reading": "within",
+        "readingAsOf": "2026-07-22"
       },
       {
         "id": "gas-turbine-slots",
@@ -2701,7 +2909,9 @@
           "zh": "Q2（2026-07-22）燃气设备合计 116 GW：53 GW 设备 backlog + 63 GW slot 预留；Q2 将 10 GW 既有预留转为订单，年底合计目标上调至 ≥125 GW",
           "en": "Q2 (2026-07-22) gas equipment totaled 116 GW: 53 GW of equipment backlog plus 63 GW of slot reservations; 10 GW of prior reservations converted to orders in Q2 and the combined year-end target rose to >=125 GW"
         },
-        "nextCheck": "年末披露 / year-end disclosure"
+        "nextCheck": "年末披露 / year-end disclosure",
+        "reading": "within",
+        "readingAsOf": "2026-07-22"
       },
       {
         "id": "valuation-wind-drag",
@@ -2720,7 +2930,9 @@
           "en": "Valuation remains frozen at the 2026-06-26 snapshot; Wind Q2 EBITDA loss was $275M (vs $165M a year ago and $382M in Q1), while the approximately $400M FY2026 loss guide was maintained"
         },
         "nextCheck": "2026-Q3 财报 / Q3 earnings",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "unclear",
+        "readingAsOf": "2026-07-22"
       }
     ],
     "conviction": "medium",
@@ -2731,11 +2943,23 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "仅在完成当前估值复核后，如果Q3/Q4订单和backlog继续增长、63 GW slot预留转为设备backlog且合计数向≥125 GW推进，调整后EBITDA利润率高于12-14%指引区间且Wind亏损明显收窄，同时估值倍数不再扩张，则上调至neutral-watch或constructive。",
-        "en": "Move to neutral-watch or constructive only after a current valuation review if Q3/Q4 orders and backlog keep growing, the 63 GW of Q2 slot reservations convert into equipment backlog while the combined total progresses toward >=125 GW, adjusted EBITDA margin moves above the 12-14% guide range with clear Wind loss reduction, and the valuation multiple does not expand further."
+        "en": "Move to neutral-watch or constructive only after a current valuation review if Q3/Q4 orders and backlog keep growing, the 63 GW of Q2 slot reservations convert into equipment backlog while the combined total progresses toward >=125 GW, adjusted EBITDA margin moves above the 12-14% guide range with clear Wind loss reduction, and the valuation multiple does not expand further.",
+        "monitoringIds": [
+          "orders-backlog",
+          "gas-turbine-slots",
+          "margin-ramp",
+          "valuation-wind-drag"
+        ]
       },
       "downgrade": {
         "zh": "在完成当前论点/估值复核后，如果数据中心订单或slot转化放缓、利润率爬坡停滞在12-14%以下、Wind亏损未能向维持不变的FY2026指引改善，或AI capex预期下修导致明确标注日期的约45-48x EV/2026E EBITDA重新定价，则下调至bearish-avoid。",
-        "en": "Move to bearish-avoid after a current thesis/valuation review if data-center orders or slot conversion slow, the margin ramp stalls below the 12-14% guide range, Wind losses fail to improve toward the maintained FY2026 guide, or AI capex expectations are cut and the dated roughly 45-48x EV/2026E EBITDA multiple re-rates."
+        "en": "Move to bearish-avoid after a current thesis/valuation review if data-center orders or slot conversion slow, the margin ramp stalls below the 12-14% guide range, Wind losses fail to improve toward the maintained FY2026 guide, or AI capex expectations are cut and the dated roughly 45-48x EV/2026E EBITDA multiple re-rates.",
+        "monitoringIds": [
+          "orders-backlog",
+          "gas-turbine-slots",
+          "margin-ramp",
+          "valuation-wind-drag"
+        ]
       }
     },
     "stanceHistory": [
@@ -2883,11 +3107,19 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "若 FY2026 Q4 兑现 $77.5-82.5 亿收入与 79-81% 毛利率指引、NBM 合同披露确认约 $420 亿最低收入且覆盖 FY2027 过半 bit，同时 NAND 合约价和行业 capex 仍显示供给纪律，则上调至 constructive。",
-        "en": "move to constructive if FY2026 Q4 delivers the $7.75-8.25B revenue and 79-81% gross-margin guide, NBM filings confirm roughly $42B of minimum revenue with coverage moving toward more than half of FY2027 bits, and NAND contract prices plus industry capex still show supply discipline."
+        "en": "move to constructive if FY2026 Q4 delivers the $7.75-8.25B revenue and 79-81% gross-margin guide, NBM filings confirm roughly $42B of minimum revenue with coverage moving toward more than half of FY2027 bits, and NAND contract prices plus industry capex still show supply discipline.",
+        "monitoringIds": [
+          "nand-cycle-margin-peak",
+          "nbm-contract-lockin"
+        ]
       },
       "downgrade": {
         "zh": "若 NAND 合约价连续转弱、毛利率从 78-80% 峰值明显回落、NBM 覆盖或担保条款低于管理层口径，或 SanDisk/铠侠新增产能指向 2027 供给过剩，则下调至 cautious。",
-        "en": "move to cautious if NAND contract prices weaken for consecutive periods, gross margin falls materially from the 78-80% peak, NBM coverage or guarantees fall short of management's framing, or SanDisk/Kioxia capacity additions point to 2027 oversupply."
+        "en": "move to cautious if NAND contract prices weaken for consecutive periods, gross margin falls materially from the 78-80% peak, NBM coverage or guarantees fall short of management's framing, or SanDisk/Kioxia capacity additions point to 2027 oversupply.",
+        "monitoringIds": [
+          "nand-cycle-margin-peak",
+          "nbm-contract-lockin"
+        ]
       }
     },
     "stanceHistory": [
@@ -3135,11 +3367,21 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "若 Q2/H2 财报显示 HBM ASP 与出货继续上行、营业利润率仍接近 70%、Samsung/Micron HBM4 认证未追近，且股价不再扩张到更高 P/S，则上调至 constructive。",
-        "en": "move to constructive if Q2/H2 results show HBM ASPs and shipments still rising, operating margin stays near 70%, Samsung/Micron HBM4 qualification does not close the gap, and the stock does not expand to a higher P/S multiple."
+        "en": "move to constructive if Q2/H2 results show HBM ASPs and shipments still rising, operating margin stays near 70%, Samsung/Micron HBM4 qualification does not close the gap, and the stock does not expand to a higher P/S multiple.",
+        "monitoringIds": [
+          "margin-mean-reversion",
+          "hbm4-competition",
+          "rerating-realized"
+        ]
       },
       "downgrade": {
         "zh": "若营业利润率明显从 72% 回落，或 ASP/订单开始显示 2027 供给追上需求，则下调至 cautious；若 HBM4 份额或 NVIDIA 主供地位被 Samsung/Micron 侵蚀，则下调至 bearish-avoid。",
-        "en": "move to cautious if operating margin falls materially from 72% or ASP/order data starts to show 2027 supply catching demand; move to bearish-avoid if HBM4 share or NVIDIA primary-supplier status is eroded by Samsung/Micron."
+        "en": "move to cautious if operating margin falls materially from 72% or ASP/order data starts to show 2027 supply catching demand; move to bearish-avoid if HBM4 share or NVIDIA primary-supplier status is eroded by Samsung/Micron.",
+        "monitoringIds": [
+          "margin-mean-reversion",
+          "hbm4-competition",
+          "nvidia-lockin"
+        ]
       }
     },
     "stanceHistory": [
@@ -3325,6 +3567,24 @@
         "nextCheck": "钨价与出口管制动态 / tungsten price & export-control news"
       },
       {
+        "id": "offtake-collections",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "Plansee/GTP 承购执行与客户回款",
+          "en": "Plansee/GTP offtake execution and customer collections"
+        },
+        "trigger": {
+          "zh": "承购交付与客户回款按合同节奏落地，或 Plansee/GTP 回款延迟、存货积压",
+          "en": "offtake deliveries and customer payments land on the contracted cadence, or Plansee/GTP collections slip and inventory builds"
+        },
+        "latest": {
+          "zh": "15 年 Plansee 承购带 $235/MTU 地板价、Plansee 持股约 16% 并占董事席位；另有 TPW/Metal Tech 美国国防承购（3 年初始期、每月至少 40 吨氧化钨）。Sangdong 尚未商业化生产，因此还没有可核对的回款记录（2 月事实基准）",
+          "en": "a 15-year Plansee offtake with a US$235/MTU floor price, Plansee holding roughly 16% of equity with a board seat, plus a separate TPW/Metal Tech U.S. defense offtake (3-year initial term, at least 40 tonnes of tungsten oxide per month). Sangdong is not yet in commercial production, so there is no collection record to check against (February fact base)"
+        },
+        "nextCheck": "季度承购交付、应收与存货 / quarterly offtake deliveries, receivables and inventory"
+      },
+      {
         "id": "financing-dilution",
         "thesis": "bear",
         "theme": "leverage-solvency",
@@ -3351,11 +3611,23 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "若 Sangdong 按 H2 2026 节奏确认商业收入、选矿厂利用率和现金成本达到管理层框架、APT 价格维持 $400+/MTU，且可转债/客户回款没有带来额外稀释压力，则上调至 neutral-watch 或 constructive。",
-        "en": "Move to neutral-watch or constructive if Sangdong confirms commercial revenue on the H2 2026 cadence, plant utilization and cash cost hit management's frame, APT holds above $400/MTU, and convertibles / customer collections do not create extra dilution pressure."
+        "en": "Move to neutral-watch or constructive if Sangdong confirms commercial revenue on the H2 2026 cadence, plant utilization and cash cost hit management's frame, APT holds above $400/MTU, and convertibles / customer collections do not create extra dilution pressure.",
+        "monitoringIds": [
+          "sangdong-ramp",
+          "tungsten-price",
+          "offtake-collections",
+          "financing-dilution"
+        ]
       },
       "downgrade": {
         "zh": "若 Sangdong 爬坡低于计划、现金成本或回收率偏离、APT 价格跌破 $400/MTU 并持续、Plansee/GTP 包销回款延迟，或新增融资条款继续稀释普通股，则下调至 bearish-avoid。",
-        "en": "Move to bearish-avoid if Sangdong ramp trails plan, cash cost or recovery deviates, APT falls below $400/MTU and stays there, Plansee / GTP offtake cash collection slips, or new financing terms keep diluting common shareholders."
+        "en": "Move to bearish-avoid if Sangdong ramp trails plan, cash cost or recovery deviates, APT falls below $400/MTU and stays there, Plansee / GTP offtake cash collection slips, or new financing terms keep diluting common shareholders.",
+        "monitoringIds": [
+          "sangdong-ramp",
+          "tungsten-price",
+          "offtake-collections",
+          "financing-dilution"
+        ]
       }
     },
     "stanceHistory": [
@@ -3684,11 +3956,20 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "若 H2 2026 交付量验证 2 GW 扩产节奏、产品毛利率稳定在 32%+、服务成本没有吞噬装机利润，且 AI/数据中心客户继续扩散而不是更集中，则上调至 constructive。",
-        "en": "Move to constructive if H2 2026 deliveries validate the 2 GW capacity-ramp pace, product gross margin holds at 32%+, service cost does not consume installed-fleet economics, and AI / data-center customers broaden rather than concentrate further."
+        "en": "Move to constructive if H2 2026 deliveries validate the 2 GW capacity-ramp pace, product gross margin holds at 32%+, service cost does not consume installed-fleet economics, and AI / data-center customers broaden rather than concentrate further.",
+        "monitoringIds": [
+          "onsite-power-demand",
+          "margin-cash-delivery"
+        ]
       },
       "downgrade": {
         "zh": "若 AI 电力订单转化慢于积压叙事、产能爬坡带来库存或质量问题、毛利率/自由现金流不能随收入改善，或大客户/再融资风险上升，则下调至 bearish-avoid。",
-        "en": "Move to bearish-avoid if AI-power order conversion lags the backlog narrative, the capacity ramp creates inventory or quality problems, margins / free cash flow fail to improve with revenue, or large-customer / refinancing risk rises."
+        "en": "Move to bearish-avoid if AI-power order conversion lags the backlog narrative, the capacity ramp creates inventory or quality problems, margins / free cash flow fail to improve with revenue, or large-customer / refinancing risk rises.",
+        "monitoringIds": [
+          "onsite-power-demand",
+          "margin-cash-delivery",
+          "valuation-execution-stack"
+        ]
       }
     },
     "stanceHistory": [
@@ -4269,11 +4550,21 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "若佐治亚工厂按更新后的 2026 年 8 月底节点量产、neuClick/Infinite Grid 从意向书转为可交付收入、毛利率回到 25%+，且现金跑道在无重大稀释下延长，则上调至 neutral-watch。",
-        "en": "Move to neutral-watch if the Georgia factory reaches volume production around the updated end-August 2026 timing, neuClick / Infinite Grid move from LOI to deliverable revenue, gross margin returns to 25%+, and runway extends without major dilution."
+        "en": "Move to neutral-watch if the Georgia factory reaches volume production around the updated end-August 2026 timing, neuClick / Infinite Grid move from LOI to deliverable revenue, gross margin returns to 25%+, and runway extends without major dilution.",
+        "monitoringIds": [
+          "georgia-factory",
+          "infinite-grid-conversion",
+          "dilution-runway"
+        ]
       },
       "downgrade": {
         "zh": "若 Q4/FY2027 收入继续低于 Q3、Luminia/Infinite Grid 仍停留在非约束状态、毛利率低于 20%、现金余额只能覆盖不足 3 个季度，或再次折价融资，则下调至 bearish-avoid。",
-        "en": "Move to bearish-avoid if Q4 / FY2027 revenue remains below Q3, Luminia / Infinite Grid remain non-binding, gross margin stays below 20%, cash covers fewer than 3 quarters, or another discounted financing is required."
+        "en": "Move to bearish-avoid if Q4 / FY2027 revenue remains below Q3, Luminia / Infinite Grid remain non-binding, gross margin stays below 20%, cash covers fewer than 3 quarters, or another discounted financing is required.",
+        "monitoringIds": [
+          "revenue-collapse",
+          "infinite-grid-conversion",
+          "dilution-runway"
+        ]
       }
     },
     "stanceHistory": [
@@ -4416,11 +4707,19 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "若铜价在关税扰动消退后仍维持 $12,000-13,000/吨以上、LME/上期所库存继续下降、COPX 维持接近 NAV 且 AUM/资金流入继续增长，则上调至 bullish。",
-        "en": "Move to bullish if copper still holds above $12,000-13,000/tonne after tariff noise fades, LME / SHFE inventories keep falling, COPX stays near NAV, and AUM / inflows keep growing."
+        "en": "Move to bullish if copper still holds above $12,000-13,000/tonne after tariff noise fades, LME / SHFE inventories keep falling, COPX stays near NAV, and AUM / inflows keep growing.",
+        "monitoringIds": [
+          "section-232-tariff",
+          "copper-price-transmission"
+        ]
       },
       "downgrade": {
         "zh": "若关税溢价回落使 COMEX 铜跌回 $10,000-11,000/吨区间、中国需求或电网投资走弱、库存持续上升，或 COPX 出现明显 NAV 折价和资金流出，则下调至 neutral-watch 或 cautious。",
-        "en": "Move to neutral-watch or cautious if tariff-premium reversal pulls COMEX copper back into the $10,000-11,000/tonne range, China demand or grid spending weakens, inventories keep rising, or COPX develops a visible NAV discount and outflows."
+        "en": "Move to neutral-watch or cautious if tariff-premium reversal pulls COMEX copper back into the $10,000-11,000/tonne range, China demand or grid spending weakens, inventories keep rising, or COPX develops a visible NAV discount and outflows.",
+        "monitoringIds": [
+          "section-232-tariff",
+          "copper-price-transmission"
+        ]
       }
     },
     "stanceHistory": [
@@ -4568,6 +4867,24 @@
         "nextCheckDate": "2026-08"
       },
       {
+        "id": "rocm-helios-competitiveness",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "ROCm 迁移证据与 Helios 机架级价格性能窗口",
+          "en": "ROCm migration evidence and the Helios rack-level price-performance window"
+        },
+        "trigger": {
+          "zh": "ROCm 出现可审计的客户迁移案例，或迁移证据持续缺位、且定制 ASIC 与 NVIDIA Rubin 压缩 AMD 的机架级价格性能窗口",
+          "en": "ROCm produces auditable customer-migration cases, or migration evidence stays absent while custom ASICs and NVIDIA Rubin compress AMD's rack-level price-performance window"
+        },
+        "latest": {
+          "zh": "CUDA 约 400 万开发者，ROCm 2026 年目标 10 万（约 1/40）；实际性能差距由约 40-50% 收窄至约 10-30%，AMD 通常需低于 NVIDIA 约 15-40% 定价成交；2025 年 NVIDIA AI 加速器份额约 86-90%，AMD 数据中心份额同比反而少约 1 个百分点",
+          "en": "CUDA has roughly 4M developers against ROCm's 100K target for 2026 (about 1/40); the real-world performance gap narrowed from roughly 40-50% to roughly 10-30%, and AMD typically prices roughly 15-40% below NVIDIA to win deals. NVIDIA's AI accelerator share was roughly 86-90% in 2025, while AMD lost about one point of data-center share year over year"
+        },
+        "nextCheck": "2026-H2 迁移案例与 Helios/MI450 出货证据 / H2 2026 migration cases and Helios/MI450 shipment evidence"
+      },
+      {
         "id": "valuation-tolerance",
         "thesis": "bear",
         "theme": "valuation",
@@ -4595,11 +4912,22 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "若 2026H2 首个 1GW Meta deployment 按期出货并进入收入、Data Center 增速和 56%+ non-GAAP gross margin 同时兑现，ROCm/Helios 证明可重复客户迁移，且 EV/TTM Sales 从当前约 21.2x 被收入分母消化（股价下跌造成的倍数下降不算），则上调至 neutral-watch 或 constructive。",
-        "en": "Move to neutral-watch or constructive if the first 1GW Meta deployment ships on schedule in H2 2026 and enters revenue, Data Center growth and 56%+ non-GAAP gross margin both deliver, ROCm/Helios prove repeatable customer migration, and EV/TTM Sales is absorbed from the current roughly 21.2x by the revenue denominator (a multiple decline caused by a falling share price does not count)."
+        "en": "Move to neutral-watch or constructive if the first 1GW Meta deployment ships on schedule in H2 2026 and enters revenue, Data Center growth and 56%+ non-GAAP gross margin both deliver, ROCm/Helios prove repeatable customer migration, and EV/TTM Sales is absorbed from the current roughly 21.2x by the revenue denominator (a multiple decline caused by a falling share price does not count).",
+        "monitoringIds": [
+          "meta-6gw-ramp",
+          "datacenter-growth",
+          "rocm-helios-competitiveness",
+          "valuation-tolerance"
+        ]
       },
       "downgrade": {
         "zh": "若 Meta 1GW 或 6GW 路径延期/缩小、Data Center 增速低于公司整体、ROCm 没有可审计迁移证据，或 custom ASIC/NVIDIA Rubin 压缩 AMD 的 rack-level 性价比窗口，则下调至 bearish-avoid。",
-        "en": "Move to bearish-avoid if the Meta 1GW or 6GW path is delayed/reduced, Data Center growth falls below company-level growth, ROCm lacks auditable migration evidence, or custom ASICs / NVIDIA Rubin compress AMD's rack-level price-performance window."
+        "en": "Move to bearish-avoid if the Meta 1GW or 6GW path is delayed/reduced, Data Center growth falls below company-level growth, ROCm lacks auditable migration evidence, or custom ASICs / NVIDIA Rubin compress AMD's rack-level price-performance window.",
+        "monitoringIds": [
+          "meta-6gw-ramp",
+          "datacenter-growth",
+          "rocm-helios-competitiveness"
+        ]
       }
     },
     "stanceHistory": [
@@ -4771,11 +5099,19 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "若 2026 H1/H2 报告确认 AIDC 收入继续 100%+ 增长、SST 获得 10-15 亿元级可交付订单、应收周转降至 110 天以内且经营现金流/净利超过 80%，则上调至 constructive。",
-        "en": "Move to constructive if 2026 H1/H2 reports confirm AIDC revenue still growing 100%+, SST wins RMB 1.0-1.5B of deliverable orders, receivable days fall below 110, and operating cash flow / net profit exceeds 80%."
+        "en": "Move to constructive if 2026 H1/H2 reports confirm AIDC revenue still growing 100%+, SST wins RMB 1.0-1.5B of deliverable orders, receivable days fall below 110, and operating cash flow / net profit exceeds 80%.",
+        "monitoringIds": [
+          "aidc-sst-revenue-recognition",
+          "receivables-cash-quality"
+        ]
       },
       "downgrade": {
         "zh": "若 AIDC 增速跌破 100%、SST 仍无大额订单、海外工厂延迟超过 6 个月、毛利率低于 24%，或应收账款继续快于收入增长，则下调至 cautious。",
-        "en": "Move to cautious if AIDC growth falls below 100%, SST still has no large orders, overseas plants slip more than 6 months, gross margin falls below 24%, or receivables keep growing faster than revenue."
+        "en": "Move to cautious if AIDC growth falls below 100%, SST still has no large orders, overseas plants slip more than 6 months, gross margin falls below 24%, or receivables keep growing faster than revenue.",
+        "monitoringIds": [
+          "aidc-sst-revenue-recognition",
+          "receivables-cash-quality"
+        ]
       }
     },
     "stanceHistory": [
@@ -4916,11 +5252,25 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "只有当NRC许可、Idaho首堆执行、HALEU/燃料安排，以及至少一个Meta/Switch类型约束性客户结构同时推进，且没有以更差条款强制稀释融资时，才上调至bullish。",
-        "en": "Move to bullish only if NRC licensing, Idaho first-reactor execution, HALEU / fuel arrangements, and at least one Meta / Switch-type binding customer structure all advance together without forcing dilutive financing at worse terms."
+        "en": "Move to bullish only if NRC licensing, Idaho first-reactor execution, HALEU / fuel arrangements, and at least one Meta / Switch-type binding customer structure all advance together without forcing dilutive financing at worse terms.",
+        "monitoringIds": [
+          "nrc-licensing",
+          "first-reactor-cost-timeline",
+          "fuel-supply",
+          "customer-conversion",
+          "cash-burn-dilution"
+        ]
       },
       "downgrade": {
         "zh": "若NRC审查停滞、首堆成本或进度失控、燃料供应仍未解决、标杆客户下调承诺，或季度现金消耗/稀释在缺少里程碑的情况下上升，则下调至cautious或bearish-avoid。",
-        "en": "Move to cautious or bearish-avoid if NRC review stalls, first-reactor cost or schedule breaks, fuel supply remains unresolved, a marquee customer reduces commitment, or quarterly cash burn / dilution rises without milestone progress."
+        "en": "Move to cautious or bearish-avoid if NRC review stalls, first-reactor cost or schedule breaks, fuel supply remains unresolved, a marquee customer reduces commitment, or quarterly cash burn / dilution rises without milestone progress.",
+        "monitoringIds": [
+          "nrc-licensing",
+          "first-reactor-cost-timeline",
+          "fuel-supply",
+          "customer-conversion",
+          "cash-burn-dilution"
+        ]
       }
     },
     "stanceHistory": [
@@ -5029,6 +5379,24 @@
           "en": "$52.36 stock, roughly $9.10B cap (2026-07-02); v5 scenario grid shows positive skew but low conviction"
         },
         "nextCheck": "客户合同公告 / customer contract announcements"
+      },
+      {
+        "id": "cash-burn-dilution",
+        "thesis": "bear",
+        "theme": "leverage-solvency",
+        "metric": {
+          "zh": "季度现金消耗与摊薄",
+          "en": "Quarterly cash burn and dilution"
+        },
+        "trigger": {
+          "zh": "里程碑无进展的情况下季度现金消耗或摊薄上升",
+          "en": "quarterly cash burn or dilution rises without milestone progress"
+        },
+        "latest": {
+          "zh": "2 月基准约 $12 亿现金、零负债；2025 年指引经营性现金消耗 $6,500-8,000 万，经营亏损逐季扩大（Q2 $2,800 万 → Q3 $3,630 万）；2025 年 ATM 增发约 $5.4 亿。报告自身口径提示：所谓 15 年以上跑道用的是建设前经营消耗，未计入 Idaho 与 Meta Ohio 项目资本开支",
+          "en": "roughly US$1.2B of cash and zero debt on the February baseline; 2025 guided operating cash burn of US$65-80M with the operating loss expanding quarter over quarter (Q2 US$28M to Q3 US$36.3M); about US$540M raised via ATM in 2025. The report's own caliber note flags that the implied 15-plus-year runway uses pre-construction operating burn and excludes Idaho and Meta Ohio project capex"
+        },
+        "nextCheck": "季度现金消耗、ATM 增发与项目资本开支披露 / quarterly cash burn, ATM issuance and project-capex disclosure"
       }
     ]
   },
@@ -5112,6 +5480,24 @@
         "nextCheck": "客户项目确认 / customer program confirmations"
       },
       {
+        "id": "vmware-retention",
+        "thesis": "either",
+        "theme": "pricing",
+        "metric": {
+          "zh": "VMware 客户留存与软件现金质量",
+          "en": "VMware customer retention and software cash quality"
+        },
+        "trigger": {
+          "zh": "涨价后出现可见的客户流失潮，软件增长与现金质量走弱",
+          "en": "a visible wave of customer churn follows the price increases, weakening software growth and cash quality"
+        },
+        "latest": {
+          "zh": "Q2 FY2026 基础设施软件收入 $71.8 亿（同比 +9%），相对激进的涨价幅度显得温和；报告指出涨价与捆绑抬升了软件利润率，但引发客户抵触与向 Proxmox/Nutanix 迁移的流失风险，而 VMware 现金正是偿付 $649 亿总债务（净债约 $450 亿）的来源",
+          "en": "Q2 FY2026 Infrastructure Software revenue was US$7.18B (+9% YoY), muted relative to the size of the price increases. The report notes that aggressive price and bundle increases lifted software margins but drew customer pushback and churn risk toward Proxmox/Nutanix, while VMware cash is what services the US$64.9B of total debt (about US$45B net)"
+        },
+        "nextCheck": "季报基础设施软件收入与续约/流失口径 / quarterly Infrastructure Software revenue and renewal/churn commentary"
+      },
+      {
         "id": "debt-load",
         "thesis": "bear",
         "theme": "leverage-solvency",
@@ -5156,11 +5542,24 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "若 Q3/Q4 AI 半导体收入和 backlog 转化确认通向 FY2027 >$100B AI 收入的路径、至少一个新增 XPU 客户获得官方确认、VMware 留存保持稳定，且 net debt/EBITDA 持续下降，则上调至 constructive。",
-        "en": "move to constructive if Q3/Q4 AI semi revenue and backlog conversion confirm the path toward >$100B FY2027 AI revenue, at least one additional XPU customer is officially confirmed, VMware retention remains stable, and net debt/EBITDA keeps falling."
+        "en": "move to constructive if Q3/Q4 AI semi revenue and backlog conversion confirm the path toward >$100B FY2027 AI revenue, at least one additional XPU customer is officially confirmed, VMware retention remains stable, and net debt/EBITDA keeps falling.",
+        "monitoringIds": [
+          "fy2027-ai-delivery",
+          "xpu-customer-concentration",
+          "vmware-retention",
+          "debt-load"
+        ]
       },
       "downgrade": {
         "zh": "若主要 XPU 客户滑坡或切换、AI backlog 停止扩张、VMware 流失显性化，或 FY2027 AI 收入可见度变弱时债务调整后的 EV 仍居高不下，则下调至 cautious。",
-        "en": "move to cautious if a major XPU customer slips or switches, AI backlog stops expanding, VMware churn becomes visible, or debt-adjusted EV remains elevated while FY2027 AI revenue visibility weakens."
+        "en": "move to cautious if a major XPU customer slips or switches, AI backlog stops expanding, VMware churn becomes visible, or debt-adjusted EV remains elevated while FY2027 AI revenue visibility weakens.",
+        "monitoringIds": [
+          "fy2027-ai-delivery",
+          "xpu-customer-concentration",
+          "vmware-retention",
+          "debt-load",
+          "valuation-denominator"
+        ]
       }
     },
     "stanceHistory": [
@@ -5222,11 +5621,23 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "如果月度收入、Q3 财报、N3/N2 mix 与 CoWoS 评论确认 base case 持续高于约 17% 的隐含 CAGR，同时毛利率维持 60%+ 且估值倍数没有重新扩张，则上调至 bullish。",
-        "en": "Move to bullish if monthly revenue, Q3 results, N3 / N2 mix, and CoWoS commentary confirm the base case is holding above the roughly 17% implied CAGR while gross margin remains above 60% and the valuation multiple does not re-expand."
+        "en": "Move to bullish if monthly revenue, Q3 results, N3 / N2 mix, and CoWoS commentary confirm the base case is holding above the roughly 17% implied CAGR while gross margin remains above 60% and the valuation multiple does not re-expand.",
+        "monitoringIds": [
+          "advanced-node-utilization",
+          "n3-n2-ramp",
+          "cowos-3dfabric-capacity",
+          "overseas-fab-margin-drag"
+        ]
       },
       "downgrade": {
         "zh": "如果月度收入或 Q3 财报低于全年轨迹，或先进节点/封装紧张度缓解，则下调至 neutral-watch；如果海外 fab / N2 成本把结构性毛利率路径压到 60% 以下（打破溢价本身而非只是暂停），则下调至 cautious。",
-        "en": "Move to neutral-watch if monthly revenue or Q3 results fall below the full-year trajectory or advanced-node / packaging tightness eases; move to cautious if overseas fab / N2 costs push the structural gross-margin path below 60%, which would break the premium rather than merely pause it."
+        "en": "Move to neutral-watch if monthly revenue or Q3 results fall below the full-year trajectory or advanced-node / packaging tightness eases; move to cautious if overseas fab / N2 costs push the structural gross-margin path below 60%, which would break the premium rather than merely pause it.",
+        "monitoringIds": [
+          "advanced-node-utilization",
+          "n3-n2-ramp",
+          "cowos-3dfabric-capacity",
+          "overseas-fab-margin-drag"
+        ]
       }
     },
     "stanceHistory": [
@@ -5270,7 +5681,9 @@
           "en": "Q2 2026 results (2026-07-16): revenue was US$40.20B (+33.7% YoY), at the top of the $39.0-40.2B guidance range; 7nm-and-below nodes were 77% of wafer revenue (74% in Q1); HPC revenue rose 20% QoQ to 66% of Q2 revenue; Q3 guidance is US$44.6-45.8B"
         },
         "nextCheck": "月度收入与 2026Q3 财报 / monthly revenue and 2026Q3 results",
-        "nextCheckDate": "2026-08"
+        "nextCheckDate": "2026-08",
+        "reading": "within",
+        "readingAsOf": "2026-07-16"
       },
       {
         "id": "n3-n2-ramp",
@@ -5289,7 +5702,9 @@
           "en": "2nm contributed 3% of Q2 2026 wafer revenue for the first time, with 3nm at 30% and 5nm at 33%; the management report says inventory days rose from 80 to 87, primarily due to the N2 ramp"
         },
         "nextCheck": "节点收入 mix 与 2026Q3 财报 / node revenue mix and 2026Q3 results",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-07-16"
       },
       {
         "id": "cowos-3dfabric-capacity",
@@ -5344,7 +5759,9 @@
           "en": "Q2 2026 gross margin was 67.7%, above the 65.5-67.5% guide; Q3 guidance is 65-67% at NT$32/US$; the official management report says overseas-fab dilution partly offset cost improvements and higher utilization"
         },
         "nextCheck": "季度毛利率与海外 fab ramp / quarterly gross margin and overseas fab ramp",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-07-16"
       }
     ]
   },
@@ -5393,11 +5810,24 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "FY2026 Q4 兑现 $49-51B 收入与约 86% 毛利率指引，2027 HBM 订单簿继续售罄、SCA 收入占比上升且价格 floor 有效执行，同时月度 DRAM/NAND 合约价不转弱、行业新增供给保持纪律",
-        "en": "FY2026 Q4 delivers the $49-51B revenue and roughly 86% gross-margin guide, the 2027 HBM order book stays sold out, SCA revenue mix rises with price floors executing, and monthly DRAM / NAND contract prices hold firm while industry supply additions stay disciplined"
+        "en": "FY2026 Q4 delivers the $49-51B revenue and roughly 86% gross-margin guide, the 2027 HBM order book stays sold out, SCA revenue mix rises with price floors executing, and monthly DRAM / NAND contract prices hold firm while industry supply additions stay disciplined",
+        "monitoringIds": [
+          "hbm-supply-tightness",
+          "strategic-customer-agreements",
+          "dram-nand-pricing",
+          "capex-supply-response"
+        ]
       },
       "downgrade": {
         "zh": "月度 DRAM/NAND 合约价连续走弱、HBM 可得性改善快于客户需求、客户库存或对 SCA 的反弹升温，或毛利率指引从 80%+ 明显回落，确认周期见顶",
-        "en": "monthly DRAM / NAND contract prices weaken for consecutive months, HBM availability improves faster than customer demand, customer inventories or pushback against SCAs build, or gross-margin guidance falls clearly back from the 80%+ level, confirming the cycle peak"
+        "en": "monthly DRAM / NAND contract prices weaken for consecutive months, HBM availability improves faster than customer demand, customer inventories or pushback against SCAs build, or gross-margin guidance falls clearly back from the 80%+ level, confirming the cycle peak",
+        "monitoringIds": [
+          "dram-nand-pricing",
+          "hbm-supply-tightness",
+          "capex-supply-response",
+          "strategic-customer-agreements",
+          "valuation-cycle-risk"
+        ]
       }
     },
     "stanceHistory": [
@@ -5492,7 +5922,9 @@
           "zh": "6 月 DRAM 约 +3%、NAND 约 +2.4%；2026-07-30 Amazon Q2 电话会将 2026 年现金资本开支指引由约 $200B 上调至约 $220B，约 $20B 的上调额归因于内存价格上涨而非新增产能（电话会报道口径，财报稿未发布该数字）——买方侧的定价确认",
           "en": "June DRAM up about 3% and NAND up about 2.4%; on the 2026-07-30 Q2 call Amazon raised its 2026 cash-capex guide to about $220B from about $200B and attributed the roughly $20B raise to higher memory prices rather than added capacity (earnings-call coverage; the release publishes neither figure) — buyer-side confirmation of the pricing environment"
         },
-        "nextCheck": "月度合约价 / monthly contract pricing"
+        "nextCheck": "月度合约价 / monthly contract pricing",
+        "reading": "within",
+        "readingAsOf": "2026-07-30"
       },
       {
         "id": "capex-supply-response",
@@ -5510,7 +5942,9 @@
           "zh": "Idaho/New York 扩产在路上；Micron 2026-07-09 宣布最多 $3B 的美国供应链投入（含拟向 GlobalWafers 融资 $500M 与 10 年 300mm 原始硅片协议），并在纽约 fab 浇筑首块混凝土；有效供给仍主要滞后到 2027/2030 后",
           "en": "Idaho / New York expansions are underway; on 2026-07-09 Micron announced up to $3B of U.S. supply-chain investment, including proposed $500M financing for GlobalWafers and a 10-year 300mm raw-wafer agreement, and poured first concrete at its New York fab; effective supply still mostly lags into 2027 / 2030 and beyond"
         },
-        "nextCheck": "行业 capex 与 bit supply / industry capex and bit supply"
+        "nextCheck": "行业 capex 与 bit supply / industry capex and bit supply",
+        "reading": "within",
+        "readingAsOf": "2026-07-09"
       },
       {
         "id": "valuation-cycle-risk",
@@ -5681,11 +6115,23 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "如果Microsoft/Meta等PPA的容量、价格和上线时间更明确，Crane/Three Mile Island重启监管路径按期推进，Calpine整合不推高净债务/FCF压力，且PJM容量价格继续强化，则上调至constructive。",
-        "en": "Move to constructive if Microsoft / Meta and other PPA capacity, price, and start-date terms become clearer, the Crane / Three Mile Island restart regulatory path stays on schedule, Calpine integration does not raise net-debt / FCF pressure, and PJM capacity prices keep strengthening."
+        "en": "Move to constructive if Microsoft / Meta and other PPA capacity, price, and start-date terms become clearer, the Crane / Three Mile Island restart regulatory path stays on schedule, Calpine integration does not raise net-debt / FCF pressure, and PJM capacity prices keep strengthening.",
+        "monitoringIds": [
+          "nuclear-ppa-execution",
+          "crane-restart-regulatory",
+          "debt-capex-discipline",
+          "pjm-capacity-pricing"
+        ]
       },
       "downgrade": {
         "zh": "如果Crane重启审批或成本分摊延误、Calpine整合抬高杠杆和capex压力，PJM容量价格回落，或AI capex预期下修而CEG仍按高电力稀缺溢价交易，则下调至cautious。",
-        "en": "Move to cautious if Crane restart approvals or cost allocation are delayed, Calpine integration raises leverage and capex pressure, PJM capacity prices fade, or AI capex expectations are cut while CEG still trades on a large power-scarcity premium."
+        "en": "Move to cautious if Crane restart approvals or cost allocation are delayed, Calpine integration raises leverage and capex pressure, PJM capacity prices fade, or AI capex expectations are cut while CEG still trades on a large power-scarcity premium.",
+        "monitoringIds": [
+          "crane-restart-regulatory",
+          "debt-capex-discipline",
+          "pjm-capacity-pricing",
+          "ai-power-valuation-risk"
+        ]
       }
     },
     "stanceHistory": [
@@ -5852,11 +6298,23 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "如果Meta PPA容量/价格/uprate路径更明确，Cogentrix按期完成并把约5,500MW燃气容量转化为数据中心或容量市场收益，PJM/Texas容量价格继续上行，且FCF支持去杠杆，则上调至neutral-watch或constructive。",
-        "en": "Move to neutral-watch or constructive if Meta PPA capacity / price / uprate path becomes clearer, Cogentrix closes on time and converts about 5,500MW of gas capacity into data-center or capacity-market earnings, PJM/Texas capacity prices keep rising, and FCF supports deleveraging."
+        "en": "Move to neutral-watch or constructive if Meta PPA capacity / price / uprate path becomes clearer, Cogentrix closes on time and converts about 5,500MW of gas capacity into data-center or capacity-market earnings, PJM/Texas capacity prices keep rising, and FCF supports deleveraging.",
+        "monitoringIds": [
+          "meta-nuclear-ppa",
+          "cogentrix-integration",
+          "gas-capacity-market",
+          "leverage-fcf-discipline"
+        ]
       },
       "downgrade": {
         "zh": "如果Cogentrix延期或协同落空、Meta PPA经济性低于预期、PJM/Texas容量溢价回落，或净债务/FCF压力因capex、回购、燃料或监管因素上升，则下调至bearish-avoid。",
-        "en": "Move to bearish-avoid if Cogentrix is delayed or synergies miss, Meta PPA economics disappoint, PJM/Texas capacity premiums fade, or net-debt / FCF pressure rises from capex, buybacks, fuel, or regulation."
+        "en": "Move to bearish-avoid if Cogentrix is delayed or synergies miss, Meta PPA economics disappoint, PJM/Texas capacity premiums fade, or net-debt / FCF pressure rises from capex, buybacks, fuel, or regulation.",
+        "monitoringIds": [
+          "meta-nuclear-ppa",
+          "cogentrix-integration",
+          "gas-capacity-market",
+          "leverage-fcf-discipline"
+        ]
       }
     },
     "stanceHistory": [
@@ -6233,11 +6691,25 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "Azure 在 FY2027 维持 ≥40% cc 增长且剔除会计顺风后营业利润率保持 ≥45%、TTM FCF 在约 $60B 以上见底回升、RPO 继续复合增长且 OpenAI 占比明显下降、FY2027 capex 路径按指引推进不再上调，则上调至 constructive。",
-        "en": "Azure sustains >=40% cc growth into FY2027 with operating margin holding >=45% excluding the accounting tailwind, TTM FCF troughs above ~$60B and turns up, RPO keeps compounding with the OpenAI share visibly declining, and the FY2027 capex path stays on guide without another step-up - upgrade to constructive."
+        "en": "Azure sustains >=40% cc growth into FY2027 with operating margin holding >=45% excluding the accounting tailwind, TTM FCF troughs above ~$60B and turns up, RPO keeps compounding with the OpenAI share visibly declining, and the FY2027 capex path stays on guide without another step-up - upgrade to constructive.",
+        "monitoringIds": [
+          "azure-growth-vs-capex",
+          "depreciation-policy-tailwind",
+          "fcf-trough",
+          "openai-rpo-concentration",
+          "fy2027-capex-slope"
+        ]
       },
       "downgrade": {
         "zh": "Azure cc 增速减到 30% 出头或更低而 capex 仍在增长、TTM FCF 跌破约 $50B 且没有声明的 capex 下调路径、OpenAI 信用 / 融资 / 重新谈判事件损害订单簿质量、或需要进一步会计变更来维持利润率观感，则下调至 cautious。",
-        "en": "Azure cc growth decelerates to the low-30s or below while capex still grows, TTM FCF breaks below ~$50B with no stated capex downshift, an OpenAI credit / financing / renegotiation event impairs order-book quality, or further accounting changes are needed to sustain margin optics - downgrade to cautious."
+        "en": "Azure cc growth decelerates to the low-30s or below while capex still grows, TTM FCF breaks below ~$50B with no stated capex downshift, an OpenAI credit / financing / renegotiation event impairs order-book quality, or further accounting changes are needed to sustain margin optics - downgrade to cautious.",
+        "monitoringIds": [
+          "azure-growth-vs-capex",
+          "fy2027-capex-slope",
+          "fcf-trough",
+          "openai-rpo-concentration",
+          "depreciation-policy-tailwind"
+        ]
       }
     },
     "stanceHistory": [
@@ -6398,11 +6870,23 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "广告收入和营业利润率继续明显跑赢 capex 增速，2026 capex 保持在 $125-145B 且 2027 框架出现回落，Meta Compute 被证明是高利用率货币化而非闲置容量清理，AMD 1GW 和 MTIA 400/450 部署按期推进",
-        "en": "advertising revenue and operating margin keep clearly outrunning capex growth, 2026 capex stays within $125-145B and the 2027 frame declines, Meta Compute is proven to be high-utilization monetization rather than idle-capacity clearing, and AMD 1GW plus MTIA 400 / 450 deployments progress on schedule"
+        "en": "advertising revenue and operating margin keep clearly outrunning capex growth, 2026 capex stays within $125-145B and the 2027 frame declines, Meta Compute is proven to be high-utilization monetization rather than idle-capacity clearing, and AMD 1GW plus MTIA 400 / 450 deployments progress on schedule",
+        "monitoringIds": [
+          "capex-intensity",
+          "ad-ai-roi",
+          "capacity-resale-pivot",
+          "supplier-diversification-delivery"
+        ]
       },
       "downgrade": {
         "zh": "2026 capex 上修到 $145B 以上或 2027 框架不下降，广告增长或利润率明显放缓，Meta Compute 披露显示大量闲置/低价外售 capacity，或 AMD/MTIA 交付延迟削弱内部 ROI 论点",
-        "en": "2026 capex is raised above $145B or the 2027 frame does not decline, advertising growth or margin slows materially, Meta Compute disclosures show large idle / low-price external capacity, or AMD / MTIA delivery delays weaken the internal-ROI case"
+        "en": "2026 capex is raised above $145B or the 2027 frame does not decline, advertising growth or margin slows materially, Meta Compute disclosures show large idle / low-price external capacity, or AMD / MTIA delivery delays weaken the internal-ROI case",
+        "monitoringIds": [
+          "capex-intensity",
+          "ad-ai-roi",
+          "capacity-resale-pivot",
+          "supplier-diversification-delivery"
+        ]
       }
     },
     "stanceHistory": [
@@ -6576,11 +7060,25 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "RPO 按期转成 FY2027 收入，OCI 收入维持 60%+ 增长且毛利率/ROIC 披露改善，FY2027 capex 不再高于 $95B，约 $40B 融资以低稀释和可承受利率完成，并且客户集中没有继续恶化",
-        "en": "RPO converts into FY2027 revenue on schedule, OCI revenue keeps growing 60%+ with better margin / ROIC disclosure, FY2027 capex does not move above $95B, roughly $40B of financing is completed with low dilution and manageable rates, and customer concentration does not keep worsening"
+        "en": "RPO converts into FY2027 revenue on schedule, OCI revenue keeps growing 60%+ with better margin / ROIC disclosure, FY2027 capex does not move above $95B, roughly $40B of financing is completed with low dilution and manageable rates, and customer concentration does not keep worsening",
+        "monitoringIds": [
+          "rpo-conversion-quality",
+          "customer-concentration",
+          "capex-financing-burden",
+          "oci-growth-margin",
+          "data-center-power-delivery"
+        ]
       },
       "downgrade": {
         "zh": "RPO 转化比例走弱或依赖少数超大客户，FY2027 capex 上修超过 $95B，ATM/债务融资成本或稀释高于预期，OCI ROIC 无法验证，或施工/电力/GPU 交付延迟导致收入后移",
-        "en": "RPO conversion weakens or depends on a few very large customers, FY2027 capex is raised above $95B, ATM / debt financing cost or dilution is worse than expected, OCI ROIC is not validated, or construction / power / GPU delivery delays push revenue out"
+        "en": "RPO conversion weakens or depends on a few very large customers, FY2027 capex is raised above $95B, ATM / debt financing cost or dilution is worse than expected, OCI ROIC is not validated, or construction / power / GPU delivery delays push revenue out",
+        "monitoringIds": [
+          "rpo-conversion-quality",
+          "customer-concentration",
+          "capex-financing-burden",
+          "oci-growth-margin",
+          "data-center-power-delivery"
+        ]
       }
     },
     "stanceHistory": [
@@ -6751,11 +7249,25 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "若 FY2027 data-center revenue 每季加速、AWS/Microsoft 以及至少一个新增 hyperscaler 项目显示确认放量证据、NVLink Fusion 产生可确认收入或毛利贡献，且 forward EV/Sales 通过收入增长而非股价下跌下降，则上调至 neutral-watch 或 constructive。",
-        "en": "move to neutral-watch or constructive if FY2027 data-center revenue accelerates each quarter, AWS/Microsoft and at least one additional hyperscaler program show confirmed ramp evidence, NVLink Fusion produces recognized revenue or margin contribution, and forward EV/Sales falls through revenue growth rather than price weakness."
+        "en": "move to neutral-watch or constructive if FY2027 data-center revenue accelerates each quarter, AWS/Microsoft and at least one additional hyperscaler program show confirmed ramp evidence, NVLink Fusion produces recognized revenue or margin contribution, and forward EV/Sales falls through revenue growth rather than price weakness.",
+        "monitoringIds": [
+          "custom-asic-design-wins",
+          "aws-microsoft-concentration",
+          "nvlink-fusion-economics",
+          "celestial-ai-integration",
+          "valuation-revenue-ramp"
+        ]
       },
       "downgrade": {
         "zh": "若 FY2027/FY2028 收入展望下修、Trainium/Maia ramp 滑坡、NVLink Fusion 仍没有经济性、Celestial AI 里程碑后移，或 data-center 增长降速时 forward EV/Sales 仍接近高十几倍，则下调至 bearish-avoid。",
-        "en": "move to bearish-avoid if FY2027/FY2028 revenue outlook is cut, Trainium/Maia ramps slip, NVLink Fusion remains non-economic, Celestial AI milestones move out, or forward EV/Sales stays near the high-teens while data-center growth decelerates."
+        "en": "move to bearish-avoid if FY2027/FY2028 revenue outlook is cut, Trainium/Maia ramps slip, NVLink Fusion remains non-economic, Celestial AI milestones move out, or forward EV/Sales stays near the high-teens while data-center growth decelerates.",
+        "monitoringIds": [
+          "custom-asic-design-wins",
+          "aws-microsoft-concentration",
+          "nvlink-fusion-economics",
+          "celestial-ai-integration",
+          "valuation-revenue-ramp"
+        ]
       }
     },
     "stanceHistory": [
@@ -6938,11 +7450,24 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "若 NVIDIA 相关采购承诺转化为 backlog、收入和产能预付款，Datacenter & Communications 保持增长且不稀释毛利率，InP / 6-inch 产能按计划爬坡，并且 FCF 转正，则上调至 constructive。",
-        "en": "move to constructive if NVIDIA-linked purchase commitments convert into backlog, revenue, and capacity prepayments, Datacenter & Communications keeps growing without gross-margin dilution, InP / 6-inch capacity ramps on plan, and FCF turns positive."
+        "en": "move to constructive if NVIDIA-linked purchase commitments convert into backlog, revenue, and capacity prepayments, Datacenter & Communications keeps growing without gross-margin dilution, InP / 6-inch capacity ramps on plan, and FCF turns positive.",
+        "monitoringIds": [
+          "nvidia-optics-lta",
+          "datacenter-communications-mix",
+          "inp-capacity-ramp",
+          "valuation-fcf-risk"
+        ]
       },
       "downgrade": {
         "zh": "若采购承诺转化慢于预期、Datacenter & Communications 增长放缓且毛利率或 FCF 恶化、InP / CPO/NPO 里程碑滑坡，或 AAOI/GLW/ANET 未能确认同一光需求信号，则下调至 cautious。",
-        "en": "move to cautious if purchase commitments convert slower than expected, Datacenter & Communications growth slows while gross margin or FCF deteriorates, InP / CPO/NPO milestones slip, or AAOI/GLW/ANET fail to confirm the same optical demand signal."
+        "en": "move to cautious if purchase commitments convert slower than expected, Datacenter & Communications growth slows while gross margin or FCF deteriorates, InP / CPO/NPO milestones slip, or AAOI/GLW/ANET fail to confirm the same optical demand signal.",
+        "monitoringIds": [
+          "nvidia-optics-lta",
+          "datacenter-communications-mix",
+          "inp-capacity-ramp",
+          "cpo-npo-roadmap",
+          "valuation-fcf-risk"
+        ]
       }
     },
     "stanceHistory": [
@@ -7019,11 +7544,24 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "若 Q3/Q4 leasing bookings 保持高位、剔除约 $380M 收购增量后 backlog 仍见开租进展、0-1MW/interconnection 需求与约 9GW future development 同时推进、净债务和利息成本没有稀释 Core FFO/share 增长，且 Core FFO/share 增速或倍数回落把差距收敛到当前约 18.3% 的隐含要求，则上调回 constructive。",
-        "en": "Move back to constructive if Q3/Q4 leasing bookings remain elevated, the backlog shows commencement progress after accounting for the roughly $380M acquisition increment, 0-1MW/interconnection demand and about 9GW of future development both advance, net debt and interest cost do not dilute Core FFO/share growth, and either faster Core FFO/share growth or a multiple reset closes the gap to the roughly 18.3% currently implied requirement."
+        "en": "Move back to constructive if Q3/Q4 leasing bookings remain elevated, the backlog shows commencement progress after accounting for the roughly $380M acquisition increment, 0-1MW/interconnection demand and about 9GW of future development both advance, net debt and interest cost do not dilute Core FFO/share growth, and either faster Core FFO/share growth or a multiple reset closes the gap to the roughly 18.3% currently implied requirement.",
+        "monitoringIds": [
+          "ai-lease-bookings",
+          "backlog-commencement-lag",
+          "interconnection-0-1mw",
+          "development-power-capacity",
+          "leverage-valuation-risk"
+        ]
       },
       "downgrade": {
         "zh": "如果剔除收购增量后的 backlog commencement lag 继续拉长、renewal/pricing spreads 恶化、开发电力或许可推迟容量，或净债务/股本融资使 Core FFO/share 增长进一步低于约 18.3% 的隐含要求，则下调至 cautious。",
-        "en": "Move to cautious if acquisition-adjusted backlog commencement lag keeps stretching, renewal/pricing spreads deteriorate, power or permitting delays capacity, or net debt/equity financing pushes Core FFO/share growth further below the roughly 18.3% implied requirement."
+        "en": "Move to cautious if acquisition-adjusted backlog commencement lag keeps stretching, renewal/pricing spreads deteriorate, power or permitting delays capacity, or net debt/equity financing pushes Core FFO/share growth further below the roughly 18.3% implied requirement.",
+        "monitoringIds": [
+          "backlog-commencement-lag",
+          "ai-lease-bookings",
+          "development-power-capacity",
+          "leverage-valuation-risk"
+        ]
       }
     },
     "stanceHistory": [
@@ -7071,7 +7609,9 @@
           "en": "Q2 2026 results (2026-07-23): bookings were $307M at 100% share / $208M at DLR share, down QoQ from Q1's $707M/$423M (Q1 was unusually large); 0-1MW plus interconnection was a record $108M, or 52% of DLR-share bookings. Backlog was $1.9B/$1.4B, but the DLR-share measure included about $380M of acquisition-related incremental backlog."
         },
         "nextCheck": "2026-Q3 leasing update",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "unclear",
+        "readingAsOf": "2026-07-23"
       },
       {
         "id": "backlog-commencement-lag",
@@ -7090,7 +7630,9 @@
           "en": "Q2 2026 new leases had a nine-month weighted-average commencement lag (Q1 was 19 months); quarter-end backlog was $1.9B at 100% share / $1.4B at DLR share, with the DLR-share measure including about $380M of acquisition-related incremental backlog."
         },
         "nextCheck": "2026-Q3 backlog schedule",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-07-23"
       },
       {
         "id": "interconnection-0-1mw",
@@ -7109,7 +7651,9 @@
           "en": "Q2 2026 0-1MW plus interconnection bookings were a record $108M (Q1 was $98M), representing 52% of DLR-share bookings; cash renewal rate increases were +25.4% in the quarter."
         },
         "nextCheck": "2026-Q3 product mix",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-07-23"
       },
       {
         "id": "development-power-capacity",
@@ -7128,7 +7672,9 @@
           "en": "Q2 2026 presentation (2026-07-23): about 3GW in-place plus about 9GW future development, or about 12GW total IT capacity; conversion of future development still depends on power, permitting, and capital."
         },
         "nextCheck": "Q3 2026 development pipeline update",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "unclear",
+        "readingAsOf": "2026-07-23"
       },
       {
         "id": "leverage-valuation-risk",
@@ -7196,11 +7742,23 @@
     "stanceTriggers": {
       "upgrade": {
         "zh": "若后续报告显示收入增长维持 80% 以上、总毛利率超过 40%、平台占比和付费客户持续提高，经营现金消耗降至收入 100% 以下，且至少 24 个月无需再次大额股权融资，则上调至 neutral-watch 或 constructive。",
-        "en": "Move to neutral-watch or constructive if later reporting shows revenue growth above 80%, consolidated gross margin above 40%, continued platform-mix and paying-customer gains, operating cash burn below 100% of revenue, and at least 24 months without another large equity raise."
+        "en": "Move to neutral-watch or constructive if later reporting shows revenue growth above 80%, consolidated gross margin above 40%, continued platform-mix and paying-customer gains, operating cash burn below 100% of revenue, and at least 24 months without another large equity raise.",
+        "monitoringIds": [
+          "revenue-mix-and-growth",
+          "unit-economics",
+          "paying-user-conversion",
+          "funding-dilution"
+        ]
       },
       "downgrade": {
         "zh": "若收入增速跌破 50%、总毛利率停留在 25% 附近、经营现金消耗继续超过收入 200%，或可转债/奖励计划后仍需追加大额配售，则下调至 bearish-avoid；重大 IP 禁令、赔偿或关键市场限制同样触发下调。",
-        "en": "Move to bearish-avoid if revenue growth falls below 50%, consolidated gross margin remains near 25%, operating cash burn stays above 200% of revenue, or another large placement follows the bond or awards. A material IP injunction, damages award, or key-market restriction also triggers a downgrade."
+        "en": "Move to bearish-avoid if revenue growth falls below 50%, consolidated gross margin remains near 25%, operating cash burn stays above 200% of revenue, or another large placement follows the bond or awards. A material IP injunction, damages award, or key-market restriction also triggers a downgrade.",
+        "monitoringIds": [
+          "revenue-mix-and-growth",
+          "unit-economics",
+          "funding-dilution",
+          "ip-regulatory-exposure"
+        ]
       }
     },
     "stanceHistory": [
