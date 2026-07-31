@@ -276,8 +276,8 @@
         "en": "If HBM/NAND margins hit cyclical highs without enough end-demand confirmation"
       },
       "then": {
-        "zh": "则内存与存储报告应从供给短缺切换到周期均值回归风险。",
-        "en": "then memory and storage coverage should pivot from shortage upside to cyclical mean-reversion risk."
+        "zh": "则内存与存储报告应从供给短缺切换到周期均值回归风险。在检验需求确认这条腿时，买方的成本归因应重于供应商的说法：超大规模厂商把内存涨价计入自身资本计划，是卖方评论无法替代的价格确认。但要对称地读——一个能把内存单列为独立成本冲击的买方，同时具备二次采购、重新议价并将其政治化的信息与动机，因此同一份披露在确认当下定价的同时，也标记了反制的起点。",
+        "en": "then memory and storage coverage should pivot from shortage upside to cyclical mean-reversion risk. Weigh buyer-side cost attribution above supplier claims when testing the demand-confirmation leg: a hyperscaler booking a memory price increase into its own capital plan concedes the price in a way a seller's commentary cannot. Read it symmetrically, though — a buyer able to itemise memory as a discrete cost shock has both the information and the incentive to second-source, renegotiate and politicise it, so the same disclosure that confirms today's pricing also dates the start of the pushback."
       }
     },
     {
