@@ -254,6 +254,18 @@
       "currency": "USD"
     },
     {
+      "reportId": "amzn-2026",
+      "symbol": "AMZN",
+      "status": "ok",
+      "attemptedAt": "2026-07-31",
+      "baseDate": "2026-07-30",
+      "basePrice": 235.5,
+      "lastDate": "2026-07-30",
+      "lastClose": 235.5,
+      "changePct": 0.0,
+      "currency": "USD"
+    },
+    {
       "reportId": "neov-2026",
       "symbol": "NEOV",
       "status": "ok",
@@ -453,8 +465,8 @@
       "baseDate": "2026-07-15",
       "basePrice": 260.6,
       "lastDate": "2026-07-31",
-      "lastClose": 228.2,
-      "changePct": -12.4,
+      "lastClose": 230.6,
+      "changePct": -11.5,
       "currency": "HKD"
     }
   ]

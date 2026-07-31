@@ -195,11 +195,18 @@
       <description>2026-06-23完整重跑版：COIN股价约$164.84、市值约$43.42B；SEC尾部风险降低、Deribit强化衍生品、标普500纳入提升主流覆盖，但交易量周期、Base/USDC质量和SBC仍决定估值。</description>
     </item>
     <item>
-      <title>Amazon 深度研究报告 - AI基础设施豪赌与飞轮加速 / Amazon Deep Research Report - The AI Infrastructure Bet and Flywheel Acceleration</title>
+      <title>Amazon 深度研究报告 - AWS 建设速度与现金吸收的需求仪表盘 / Amazon Deep Research Report - Demand Dashboard for AWS Buildout Velocity and Cash Absorption</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=amzn-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amzn-2026#amzn-2026@2026-07-31</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <description>2026-07-31 Q2/估值更新：Amazon Q2营收$200.606B(+20%)，AWS $42.232B(+37%、18季最快)且分部营业利润$16.621B/利润率39.4%；合并营业利润$27.461B。净利润$62.647B含$53.415B其他收益(主要为Anthropic重估)，不能直接代表经营盈利。TTM经营现金流$161.403B，但PP&amp;E购置净额$169.007B使FCF降至-$7.604B。按2026-07-30 Nasdaq官方收盘$235.50，市值约$2.539T、窄口径EV约$2.545T、EV/TTM sales约3.28x；维持谨慎看多，核心矛盾仍是AWS/广告利润池能否为现金密集型AI扩建提供足够回报。</description>
+      <description>2026H1 全周期重写，把 Amazon 升级为 AI 基础设施书 demand-risk 层的 dashboard 节点。2026 Q2（截至 06-30、07-30 盘后发布）：营收 $200.606B（+20%），AWS $42.232B（+37%、18 季最快、年化运行率 $169B）、分部营业利润 $16.621B / 利润率 39.4%，合并营业利润 $27.461B、利润率创纪录 13.7%，广告 +26%。净利润 $62.647B 含 $53.415B 非经营性其他收益（主要为 Anthropic 重估），不代表经营盈利。TTM 经营现金流 $161.403B，但 PP&amp;E 净购置 $169.007B 使 TTM 自由现金流降至 -$7.604B；据电话会报道全年现金资本开支指引由约 $200B 上调至约 $220B，其中约 $20B 归因于内存涨价而非产能，AWS backlog 达 $496B。估值锚为 2026-07-30 收盘 $235.50，该价格早于盘后财报数小时：市值约 $2.539T、窄口径 EV 约 $2.545T、EV/TTM 销售额约 3.28x（含长期租赁约 3.40x）。30/40/30 情景网格在这个新闻前锚点上读出温和为正的预期差，立场偏多、中确信。</description>
+    </item>
+    <item>
+      <title>Amazon 深度研究报告 - AI基础设施豪赌与飞轮加速 - 入链前归档版 / Amazon Deep Research Report - The AI Infrastructure Bet and Flywheel Acceleration - Pre-chain Archive</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=amzn-2026-pre-chain</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amzn-2026-pre-chain#amzn-2026-pre-chain@2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description>归档的 2026H1 入链前版本，保留 2026-02 首版事实基础、2026 年 7 月的增量红线批注与当时的估值框架，作为全周期重写版的对照基线。</description>
     </item>
     <item>
       <title>Netflix 深度研究报告 - 估值压缩与有机增长再验证 / Netflix Deep Research Report - Valuation Compression and Organic Growth Test</title>
@@ -347,13 +354,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amd-2026-pre-rerun#amd-2026-pre-rerun@2026-06-22</guid>
       <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
       <description>归档的2026H1重跑前基线版本，保留更完整的业务概览、行业竞争、管理层、牛熊论点和旧估值框架，用于审计与对照。</description>
-    </item>
-    <item>
-      <title>Tempus AI 深度研究报告 - 精准医疗数据飞轮的高增长与高风险 - 重跑前归档版 / Tempus AI Deep Research Report - Precision Medicine Data Flywheel's High Growth and High Risk - Pre-rerun Archive</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=tempus-ai-2026-pre-rerun</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=tempus-ai-2026-pre-rerun#tempus-ai-2026-pre-rerun@2026-02-27</guid>
-      <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-      <description>归档的2026H1重跑前版本，保留FY2025收入、诊断/数据分部、数据飞轮护城河和旧市值/估值倍数框架，作为当前完整重跑版本的对照基线。</description>
     </item>
   </channel>
 </rss>

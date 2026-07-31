@@ -363,6 +363,17 @@
       "stale": false
     },
     {
+      "reportId": "amzn-2026",
+      "stance": "constructive",
+      "conviction": "medium",
+      "stanceDate": "2026-07-30",
+      "priceAtStance": 235.5,
+      "benchmarkSymbol": "QQQ",
+      "status": "pending",
+      "daysHeld": 1,
+      "stale": false
+    },
+    {
       "reportId": "neov-2026",
       "stance": "cautious",
       "conviction": "low",
@@ -651,13 +662,13 @@
       "priceAtStance": 260.6,
       "benchmarkSymbol": "QQQ",
       "lastDate": "2026-07-31",
-      "lastClose": 228.2,
-      "changePct": -12.4,
+      "lastClose": 230.6,
+      "changePct": -11.5,
       "benchmarkChangePct": -4.8,
-      "relativePct": -7.6,
+      "relativePct": -6.7,
       "bookBenchmarkSymbol": "SMH",
       "bookBenchmarkChangePct": -8.8,
-      "bookRelativePct": -3.6,
+      "bookRelativePct": -2.7,
       "daysHeld": 16,
       "stale": false
     }
