@@ -3786,9 +3786,11 @@
     "id": "amzn-2026",
     "company": "Amazon",
     "ticker": "NASDAQ: AMZN",
-    "title": "Amazon 深度研究报告 - AI基础设施豪赌与飞轮加速",
-    "titleEn": "Amazon Deep Research Report - The AI Infrastructure Bet and Flywheel Acceleration",
-    "summary": "2026-07-31 Q2/估值更新：Amazon Q2营收$200.606B(+20%)，AWS $42.232B(+37%、18季最快)且分部营业利润$16.621B/利润率39.4%；合并营业利润$27.461B。净利润$62.647B含$53.415B其他收益(主要为Anthropic重估)，不能直接代表经营盈利。TTM经营现金流$161.403B，但PP&E购置净额$169.007B使FCF降至-$7.604B。按2026-07-30 Nasdaq官方收盘$235.50，市值约$2.539T、窄口径EV约$2.545T、EV/TTM sales约3.28x；维持谨慎看多，核心矛盾仍是AWS/广告利润池能否为现金密集型AI扩建提供足够回报。",
+    "priceSymbol": "AMZN",
+    "title": "Amazon 深度研究报告 - AWS 建设速度与现金吸收的需求仪表盘",
+    "titleEn": "Amazon Deep Research Report - Demand Dashboard for AWS Buildout Velocity and Cash Absorption",
+    "summary": "2026H1 全周期重写，把 Amazon 升级为 AI 基础设施书 demand-risk 层的 dashboard 节点。2026 Q2（截至 06-30、07-30 盘后发布）：营收 $200.606B（+20%），AWS $42.232B（+37%、18 季最快、年化运行率 $169B）、分部营业利润 $16.621B / 利润率 39.4%，合并营业利润 $27.461B、利润率创纪录 13.7%，广告 +26%。净利润 $62.647B 含 $53.415B 非经营性其他收益（主要为 Anthropic 重估），不代表经营盈利。TTM 经营现金流 $161.403B，但 PP&E 净购置 $169.007B 使 TTM 自由现金流降至 -$7.604B；据电话会报道全年现金资本开支指引由约 $200B 上调至约 $220B，其中约 $20B 归因于内存涨价而非产能，AWS backlog 达 $496B。估值锚为 2026-07-30 收盘 $235.50，该价格早于盘后财报数小时：市值约 $2.539T、窄口径 EV 约 $2.545T、EV/TTM 销售额约 3.28x（含长期租赁约 3.40x）。30/40/30 情景网格在这个新闻前锚点上读出温和为正的预期差，立场偏多、中确信。",
+    "summaryEn": "2026H1 full-cycle rewrite that promotes Amazon into the AI-infrastructure book's demand-risk layer as its dashboard node. Q2 2026 (quarter ended June 30, reported after the July 30 close): revenue $200.606B (+20%); AWS $42.232B (+37%, fastest in 18 quarters, a $169B annualized run rate) with $16.621B segment operating income at a 39.4% margin; consolidated operating income $27.461B at a record 13.7% margin; advertising +26%. Net income of $62.647B includes $53.415B of non-operating other income, primarily Anthropic marks, and is not an operating-earnings measure. TTM operating cash flow was $161.403B, but $169.007B of net PP&E purchases drove TTM free cash flow to -$7.604B; per earnings-call coverage the full-year cash-capex guide was raised from about $200B to about $220B with roughly $20B attributed to higher memory prices rather than capacity, and the AWS backlog reached $496B. The valuation anchor is the 2026-07-30 close of $235.50, set hours before the after-close release: market cap about $2.539T, narrow EV about $2.545T, EV/TTM sales about 3.28x (about 3.40x including long-term leases). The 30/40/30 grid reads a modestly positive expectation gap at that pre-news anchor; the stance is constructive with medium conviction.",
     "tags": [
       "云计算",
       "电商",
@@ -3800,20 +3802,238 @@
     "lastUpdate": "2026-07-31",
     "file": "/invest/research/reports/view.html?id=amzn-2026",
     "markdownFiles": {
+      "zh": "/invest/research/AMZN_深度研究报告_2026-07.md",
+      "en": "/invest/research/AMZN_Deep_Research_Report_2026-07.md"
+    },
+    "highlights": [
+      "入链：demand-risk 层 dashboard 节点，读数为 AWS 建设速度、订单质量与投入成本结构",
+      "2026 Q2：AWS $42.232B（+37%、18 季最快、年化 $169B）、分部利润率 39.4%；合并营业利润率创纪录 13.7%，广告 +26%",
+      "TTM 经营现金流 $161.403B、PP&E 净购置 $169.007B，TTM 自由现金流 -$7.604B；净资本开支为 TTM 折旧摊销 $75.200B 的 2.25 倍",
+      "据电话会报道：2026 现金资本开支指引约 $220B（自约 $200B 上调，约 $20B 归因于内存涨价）、AWS backlog $496B、Trainium 承诺超 $225B",
+      "净利润 $62.647B 中 $53.415B 为非经营性其他收益；长期债务半年内由 $65.648B 增至 $128.894B，计入长期租赁后净债务约 $100.2B",
+      "锚点 $235.50（2026-07-30 收盘，早于盘后财报）：约 $2.539T 市值、EV/TTM 销售额约 3.28x；30/40/30 网格，偏多 / 中确信"
+    ],
+    "period": "2026H1",
+    "versionType": "full-cycle",
+    "versionLabel": "2026H1 Full Rerun & Chainization",
+    "supersedes": "amzn-2026-pre-chain",
+    "diffBase": "amzn-2026-pre-chain",
+    "previousAnnualReport": {
+      "id": "amzn-2026-pre-chain",
+      "label": "2026H1 入链前归档版",
+      "labelEn": "2026H1 Pre-chain Archive",
+      "file": "/invest/research/reports/view.html?id=amzn-2026-pre-chain",
+      "date": "2026-02-11",
+      "lastUpdate": "2026-07-31",
+      "summary": "归档的入链前版本，保留 2026-02 首版事实基础、2026 年 7 月增量红线与当时的估值框架。",
+      "summaryEn": "Archived pre-chain version preserving the February 2026 fact base, the July 2026 incremental redlines, and that cycle's valuation framework."
+    },
+    "chainLayer": "demand-risk",
+    "coverageTier": "full",
+    "chainRole": "dashboard",
+    "stance": "constructive",
+    "conviction": "medium",
+    "priceAsOf": "2026-07-30",
+    "reportedPeriod": "2026 Q2",
+    "related": [
+      "microsoft-2026",
+      "meta-2026",
+      "oracle-2026",
+      "nvidia-2026",
+      "broadcom-2026",
+      "micron-2026",
+      "coreweave-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "aws-growth-vs-segment-margin",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "AWS 增速与分部利润率",
+          "en": "AWS growth versus segment margin"
+        },
+        "trigger": {
+          "zh": "AWS 同比增速回落至 20% 中段或更低而资本开支仍在上行，或分部利润率跌破 35%",
+          "en": "AWS year-over-year growth falls to the mid-20s or below while capex still rises, or the segment margin breaks below 35%"
+        },
+        "latest": {
+          "zh": "2026 Q2 AWS 收入 $42.232B、+37%（精确 +36.7%），连续第五个季度加速；分部营业利润 $16.621B、利润率 39.4%；TTM 分部利润率 36.8%（据 2026-07-30 官方财报稿）",
+          "en": "Q2 2026 AWS revenue was $42.232B, +37% (+36.7% precisely), a fifth consecutive quarter of acceleration; segment operating income was $16.621B at a 39.4% margin, with a 36.8% TTM segment margin (official release, 2026-07-30)"
+        },
+        "reading": "within",
+        "readingAsOf": "2026-07-30",
+        "nextCheck": "2026 Q3 财报（2026 年 10 月下旬）/ Q3 2026 results (late Oct 2026)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "ttm-free-cash-flow-trough",
+        "thesis": "bear",
+        "theme": "leverage-solvency",
+        "metric": {
+          "zh": "追溯十二个月自由现金流低点",
+          "en": "Trailing twelve-month free-cash-flow trough"
+        },
+        "trigger": {
+          "zh": "TTM 自由现金流不能在 2026 年见底转升，或持续低于 -$25B 且长期债务仍在增长",
+          "en": "TTM free cash flow fails to trough and turn up during 2026, or stays below -$25B while long-term debt keeps growing"
+        },
+        "latest": {
+          "zh": "TTM 自由现金流由 FY2025 年末的 +$11.194B 降至 2026 Q2 的 -$7.604B（TTM 经营现金流 $161.403B − PP&E 净购置 $169.007B）；长期债务半年内由 $65.648B 增至 $128.894B，TTM 长期债务发行所得 $81.925B。上一周期的 2026 下半年修复预期未兑现，且资本开支仍在环比上行",
+          "en": "TTM free cash flow fell from +$11.194B at FY2025 year end to -$7.604B in Q2 2026 (TTM OCF $161.403B minus $169.007B of net PP&E purchases); long-term debt rose from $65.648B to $128.894B in six months on $81.925B of TTM long-term-debt proceeds. The prior cycle's H2-2026 recovery expectation did not materialise and capex is still rising sequentially"
+        },
+        "reading": "unclear",
+        "readingAsOf": "2026-07-30",
+        "nextCheck": "2026 Q3 与 Q4 现金流量表 / Q3 and Q4 2026 cash-flow statements",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "capex-price-versus-capacity-mix",
+        "thesis": "bear",
+        "theme": "pricing",
+        "metric": {
+          "zh": "资本开支上调中的价格与产能之比",
+          "en": "Price-versus-capacity mix inside the capex raise"
+        },
+        "trigger": {
+          "zh": "2027 资本开支指引再度上调而未给出量价拆分，或后续披露显示更大比例的开支增量来自投入价格而非产能",
+          "en": "the 2027 capex guide is raised again without a unit-versus-price split, or later disclosure shows a larger share of the increase coming from input prices rather than capacity"
+        },
+        "latest": {
+          "zh": "据财报电话会报道，2026 全年现金资本开支指引由约 $200B 上调至约 $220B，增量归因于内存价格上涨；官方财报稿未发布资本开支总额或该归因，但其指引风险因子首次点名「资源与供给波动，包括内存芯片」。量价拆分未披露",
+          "en": "per earnings-call coverage the 2026 cash-capex guide was raised from about $200B to about $220B with the increase attributed to higher memory prices; the official release publishes neither the capex total nor that attribution, though its guidance risk factors now name resource and supply volatility including memory chips. No unit-versus-price split is disclosed"
+        },
+        "reading": "unclear",
+        "readingAsOf": "2026-07-30",
+        "nextCheck": "2026 Q4 财报的 2027 资本开支指引与内存厂商价格表述 / 2027 capex guidance at Q4 2026 results and memory-vendor pricing commentary",
+        "nextCheckDate": "2027-02"
+      },
+      {
+        "id": "anthropic-mark-and-circularity",
+        "thesis": "bear",
+        "theme": "circularity",
+        "metric": {
+          "zh": "Anthropic 重估规模与交易对手循环性",
+          "en": "Size of the Anthropic mark and counterparty circularity"
+        },
+        "trigger": {
+          "zh": "Anthropic 相关重估出现实质性回撤，或披露显示 AWS backlog 与该交易对手的集中度过高，而公司仍不披露头寸规模",
+          "en": "an Anthropic-related mark reverses materially, or disclosure shows excessive AWS-backlog concentration on that counterparty while the position size stays undisclosed"
+        },
+        "latest": {
+          "zh": "2026 Q2 非经营性其他收益 $53.415B，财报稿归因为「主要来自我们对 Anthropic 的投资」；同期其他综合收益含 $41.988B 税后可供出售未实现收益（公司未归因），「其他资产」半年内由 $122.607B 增至 $284.132B。账面价值与集中度均未披露；Anthropic 同时承诺最高 5 GW Trainium 产能（电话会报道）",
+          "en": "Q2 2026 non-operating other income was $53.415B, attributed by the release as primarily from Amazon's investments in Anthropic; the same quarter carried a $41.988B after-tax available-for-sale unrealised gain in OCI (unattributed by the company) and Other assets rose from $122.607B to $284.132B in six months. Neither carrying value nor backlog concentration is disclosed; Anthropic has separately committed to as much as 5 GW of Trainium capacity (call coverage)"
+        },
+        "reading": "unclear",
+        "readingAsOf": "2026-07-30",
+        "nextCheck": "2026 Q3 起的 10-Q / 10-K 头寸与集中度披露 / 10-Q and 10-K position and concentration disclosure from Q3 2026"
+      },
+      {
+        "id": "aws-backlog-conversion",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "AWS backlog 转化",
+          "en": "AWS backlog conversion"
+        },
+        "trigger": {
+          "zh": "backlog 增速转为个位数、绝对额下降，或 backlog 增长与 AWS 报告收入之间出现持续背离",
+          "en": "backlog growth decelerates to single digits, the absolute figure declines, or a sustained divergence opens between backlog growth and reported AWS revenue"
+        },
+        "latest": {
+          "zh": "据财报电话会报道，2026 Q2 AWS backlog 达 $496B、以三位数百分比增长，约为 AWS TTM 收入 $148.404B 的 3.3 倍；管理层称 2027 年产能已大部分被预订、2028 年部分产能已被认领。官方财报稿未披露 backlog",
+          "en": "per earnings-call coverage the Q2 2026 AWS backlog reached $496B growing at triple-digit percentages, roughly 3.3x AWS TTM revenue of $148.404B; management said 2027 capacity is largely reserved with some 2028 capacity spoken for. The official release does not disclose backlog"
+        },
+        "reading": "within",
+        "readingAsOf": "2026-07-30",
+        "nextCheck": "各季 backlog 披露与 AWS 收入转化 / quarterly backlog disclosure and AWS revenue conversion",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "trainium-merchant-silicon-substitution",
+        "thesis": "either",
+        "theme": "optionality",
+        "metric": {
+          "zh": "Trainium 对商用加速器的替代",
+          "en": "Trainium substitution against merchant accelerators"
+        },
+        "trigger": {
+          "zh": "Trainium 部署规模明显超出当前承诺节奏、压制 AWS 内部的商用 GPU 份额，或反向出现 Trainium 承诺被推迟、缩减、取消",
+          "en": "Trainium deployment materially outruns the current commitment cadence and displaces merchant-GPU share inside AWS, or conversely Trainium commitments are delayed, cut, or cancelled"
+        },
+        "latest": {
+          "zh": "官方财报稿：芯片业务年化收入运行率超过 $25B、三位数增长；Anthropic 与 OpenAI 各自做出多年期多吉瓦级 Trainium 承诺；Graviton5 全面上市、覆盖前 1,000 大 EC2 客户的 98%、收入承诺环比增长近 3 倍。据电话会报道，Trainium 收入承诺超过 $225B，OpenAI 承诺约 2 GW 并自 2027 年起爬坡。尚无可用于分级的部署量或份额披露",
+          "en": "official release: the chips business exceeded a $25B annual revenue run rate at triple-digit growth; Anthropic and OpenAI each made multi-year, multi-gigawatt Trainium commitments; Graviton5 reached general availability at 98% of the top 1,000 EC2 customers with revenue commitments up nearly 3x sequentially. Per call coverage, Trainium revenue commitments exceed $225B and OpenAI committed to roughly 2 GW ramping from 2027. No deployment-volume or share disclosure exists yet to grade against"
+        },
+        "nextCheck": "Trainium 部署披露与 OpenAI 自 2027 年起的爬坡 / Trainium deployment disclosures and the OpenAI ramp from 2027"
+      }
+    ],
+    "stanceRationale": {
+      "zh": "以 $235.50（2026-07-30 收盘）计，市值约 $2.539T、EV/TTM 销售额约 3.28x（含长期租赁约 3.40x）、市值/TTM 经营现金流约 15.7x；18.9x 的 GAAP 市盈率因投资重估而不具决策价值。关键在于这个锚点比盘后财报早了数小时：它没有包含 AWS +37%、39.4% 分部利润率、$496B backlog，也没有包含上调后的约 $220B 资本开支与 -$7.604B 的 TTM 自由现金流。30% 牛市 / 40% 基准 / 30% 熊市网格在这个新闻前锚点上读出温和为正的预期差 —— 足以支持偏多，但负面项在结构上比表面更糟（约 $20B 的资本开支增量买不到产能，39.4% 是折旧浪潮前的数字），因此不到 bullish。",
+      "en": "At $235.50 (2026-07-30 close) market cap is about $2.539T, EV/TTM sales about 3.28x (about 3.40x including long-term leases), and price/TTM operating cash flow about 15.7x; the 18.9x GAAP P/E is not decision-useful because of investment marks. What matters is that this anchor was set hours before the after-close release: it contains neither AWS +37%, the 39.4% segment margin, and the $496B backlog, nor the raised ~$220B capex guide and the -$7.604B TTM free cash flow. The 30% bull / 40% base / 30% bear grid reads a modestly positive expectation gap at that pre-news anchor - enough for constructive, but not bullish, because the negatives are structurally worse than they look: roughly $20B of the capex increase buys no capacity, and the 39.4% margin is a pre-depreciation-wave figure."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "追溯自由现金流在 2026 年见底并于 2027 年内转正，同时 AWS 维持 30% 以上增速与 37% 以上分部利润率，$496B backlog 在 AWS 报告收入中可见地转化，且 2027 资本开支指引把产能与投入成本通胀分开列示，则上调至 bullish。",
+        "en": "TTM free cash flow troughs in 2026 and turns positive during 2027 while AWS holds growth above 30% with a segment margin above 37%, the $496B backlog converts visibly into reported AWS revenue, and the 2027 capex guide separates capacity from input-cost inflation - upgrade to bullish.",
+        "monitoringIds": [
+          "ttm-free-cash-flow-trough",
+          "aws-growth-vs-segment-margin",
+          "aws-backlog-conversion",
+          "capex-price-versus-capacity-mix"
+        ]
+      },
+      "downgrade": {
+        "zh": "AWS 增速减至 20% 中段而资本开支仍在上行、AWS 分部利润率跌破 35%、追溯自由现金流在 2027 年前持续低于 -$25B 且长期债务仍在增长，或 Anthropic 相关重估出现实质性回撤而公司仍未披露该头寸规模，则下调至 neutral-watch。",
+        "en": "AWS growth decelerates to the mid-20s while capex still rises, the AWS segment margin breaks below 35%, TTM free cash flow stays below -$25B into 2027 with long-term debt still growing, or an Anthropic-related mark reverses materially without disclosure of the position's size - downgrade to neutral-watch.",
+        "monitoringIds": [
+          "ttm-free-cash-flow-trough",
+          "aws-growth-vs-segment-margin",
+          "capex-price-versus-capacity-mix",
+          "anthropic-mark-and-circularity"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-07-31",
+        "stance": "constructive",
+        "conviction": "medium",
+        "price": 235.5
+      }
+    ]
+  },
+  {
+    "id": "amzn-2026-pre-chain",
+    "company": "Amazon",
+    "ticker": "NASDAQ: AMZN",
+    "title": "Amazon 深度研究报告 - AI基础设施豪赌与飞轮加速 - 入链前归档版",
+    "titleEn": "Amazon Deep Research Report - The AI Infrastructure Bet and Flywheel Acceleration - Pre-chain Archive",
+    "summary": "归档的 2026H1 入链前版本，保留 2026-02 首版事实基础、2026 年 7 月的增量红线批注与当时的估值框架，作为全周期重写版的对照基线。",
+    "summaryEn": "Archived pre-chain 2026H1 baseline preserving the February 2026 fact base, the July 2026 incremental redlines, and the valuation framework of that cycle, kept as the comparison baseline for the full-cycle rewrite.",
+    "tags": [
+      "云计算",
+      "电商",
+      "AI基础设施",
+      "广告"
+    ],
+    "category": "tech",
+    "date": "2026-02-11",
+    "lastUpdate": "2026-07-31",
+    "file": "/invest/research/reports/view.html?id=amzn-2026-pre-chain",
+    "markdownFiles": {
       "zh": "/invest/research/AMZN_深度研究报告_2026-02.md",
       "en": "/invest/research/AMZN_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "Q2 FY2026 AWS收入$42.232B(+37%、18季最快)，营业利润$16.621B、利润率39.4%",
-      "AWS AI业务与芯片业务各自年化收入均超过$25B；不据此推断任何供应商份额或订单",
-      "TTM经营现金流$161.403B，但PP&E购置净额$169.007B使TTM FCF降至-$7.604B",
-      "Q2现金/有价证券$122.988B、长期债务$128.894B；净利润受$53.415B Anthropic相关其他收益扭曲",
-      "2026-07-30收盘$235.50：市值约$2.539T、窄口径EV约$2.545T、EV/TTM sales约3.28x；维持谨慎看多"
+      "入链前归档版本，保留原始判断与增量修订轨迹",
+      "包含 2026-02 首版结构与 2026 年 7 月的 Q2、融资事件增量批注",
+      "作为 2026H1 全周期重写版的对照基线"
     ],
+    "isCurrent": false,
     "period": "2026H1",
     "versionType": "incremental",
-    "versionLabel": "2026H1 Incremental Update",
-    "summaryEn": "July 31, 2026 Q2/valuation update: Amazon Q2 revenue was $200.606B (+20%); AWS reached $42.232B (+37%, fastest in 18 quarters) with $16.621B segment operating income / 39.4% margin, and consolidated operating income was $27.461B. Net income of $62.647B included $53.415B of other income, primarily an Anthropic mark-up, and is not a clean operating-earnings measure. TTM operating cash flow was $161.403B, but $169.007B of PP&E purchases net of proceeds/incentives drove FCF to -$7.604B. At the July 30 Nasdaq official close of $235.50, market cap was about $2.539T, narrow EV about $2.545T, and EV/TTM sales about 3.28x. Cautiously bullish stance retained; the core tension remains whether AWS/advertising profit can earn an adequate return on the cash-intensive AI buildout."
+    "versionLabel": "2026H1 Pre-chain Baseline"
   },
   {
     "id": "netflix-2026",
