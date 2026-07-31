@@ -947,8 +947,8 @@
     "priceSymbol": "CDNS",
     "title": "Cadence Design Systems 深度研究报告 - AI 设计复杂度的 EDA/IP backlog 仪表盘",
     "titleEn": "Cadence Design Systems Deep Research Report - EDA/IP Backlog Dashboard For AI Design Complexity",
-    "summary": "【2026-07-31 价格复核：CDNS 于 2026-07-29 收于 $332.76，较本报告锚点 -10.8%；下方数字按其标注日期阅读，估值框架与立场不变。】AI 基础设施 eda-ip 层的 backlog / execution 仪表盘：CDNS 验证 AI demand 是否出现在 design automation、IP、simulation、backlog、RPO 和 agentic design workflows。2026Q2 财报（2026-07-27）：revenue $1.584B（同比 +24%）、non-GAAP operating margin 45.5%、non-GAAP EPS $2.11；季度末 backlog $8.1B（公司口径 record），未来 12 个月预计从 RPO 确认收入 $4.2B；Core EDA / Semiconductor IP / System Design & Analysis 收入分别同比 +18% / 超过 +40% / +37%。管理层把 FY2026 指引上修至 revenue $6.26-6.34B（约 +19% YoY）、non-GAAP EPS $8.05-8.15、operating cash flow 约 $2B。$373.14、市值约 $102.9B、EV 约 $104.5B、约 16.9x EV/sales 与约 47.2x non-GAAP P/E 均是基于当时 Q1 指引（revenue $6.125-6.225B、EPS $7.85-7.95）的 2026-07-02 初始估值快照，本次监测不刷新估值或立场；维持谨慎 / 中确信。",
-    "summaryEn": "[2026-07-31 price check: CDNS closed at $332.76 on 2026-07-29, -10.8% versus this report's anchor; figures below read as of their stated dates, and the valuation frame and stance are unchanged.] Backlog / execution dashboard for the AI-infrastructure eda-ip layer. CDNS tests whether AI demand is visible in design automation, IP, simulation, backlog, RPO, and agentic design workflows. Q2 2026 results (July 27, 2026): revenue was $1.584B (up 24% YoY), non-GAAP operating margin was 45.5%, and non-GAAP EPS was $2.11; quarter-end backlog was $8.1B (a company-stated record), next-12-month RPO revenue was $4.2B, and Core EDA / Semiconductor IP / System Design & Analysis revenue grew 18% / more than 40% / 37% YoY. Management raised FY2026 guidance to $6.26-6.34B revenue (about +19% YoY), $8.05-8.15 non-GAAP EPS, and about $2B operating cash flow. The $373.14 price, about $102.9B market cap, $104.5B EV, ~16.9x EV/sales, and ~47.2x non-GAAP P/E are the July 2, 2026 initial valuation snapshot based on the then-current Q1 guide ($6.125-6.225B revenue and $7.85-7.95 EPS); this monitoring pass does not refresh valuation or stance and keeps Cautious / medium conviction.",
+    "summary": "AI 基础设施 eda-ip 层的 backlog / execution 仪表盘：CDNS 验证 AI demand 是否出现在 design automation、IP、simulation、backlog、RPO 和 agentic design workflows。2026Q2 财报（2026-07-27）：revenue $1.584B（同比 +24%）、non-GAAP operating margin 45.5%、non-GAAP EPS $2.11；季度末 backlog $8.1B（公司口径 record），未来 12 个月预计从 RPO 确认收入 $4.2B；Core EDA / Semiconductor IP / System Design & Analysis 收入分别同比 +18% / 超过 +40% / +37%。管理层把 FY2026 指引上修至 revenue $6.26-6.34B（约 +19% YoY）、non-GAAP EPS $8.05-8.15、operating cash flow 约 $2B。2026-07-31 完成此前推迟的估值复核：以 2026-07-30 收盘 $332.82 计，市值约 $91.8B、EV 约 $93.4B，对照上修后指引约 14.8x EV/sales、约 41.1x non-GAAP P/E。倍数被价格下行与分母上行同时消化，立场由谨慎调整为 neutral-watch / 中确信。",
+    "summaryEn": "Backlog / execution dashboard for the AI-infrastructure eda-ip layer. CDNS tests whether AI demand is visible in design automation, IP, simulation, backlog, RPO, and agentic design workflows. Q2 2026 results (July 27, 2026): revenue was $1.584B (up 24% YoY), non-GAAP operating margin was 45.5%, and non-GAAP EPS was $2.11; quarter-end backlog was $8.1B (a company-stated record), next-12-month RPO revenue was $4.2B, and Core EDA / Semiconductor IP / System Design & Analysis revenue grew 18% / more than 40% / 37% YoY. Management raised FY2026 guidance to $6.26-6.34B revenue (about +19% YoY), $8.05-8.15 non-GAAP EPS, and about $2B operating cash flow. The 2026-07-31 pass completed the previously deferred valuation review: at the $332.82 close on 2026-07-30, market cap is about $91.8B and EV about $93.4B, or about 14.8x EV/sales and about 41.1x non-GAAP P/E against the raised guide. The multiple has been absorbed by a lower price and a higher denominator together, so the stance moves from cautious to neutral-watch / medium conviction.",
     "tags": [
       "EDA",
       "半导体IP",
@@ -970,25 +970,25 @@
       "补齐 EDA/IP backlog 仪表盘：CDNS 验证 AI 复杂度是否进入 backlog、RPO、IP 和 agentic design flow",
       "2026Q2（2026-07-27）revenue $1.584B（同比 +24%）、non-GAAP operating margin 45.5%、non-GAAP EPS $2.11",
       "季度末 backlog $8.1B（公司口径 record，环比约持平于 Q1 $8.0B），next-12-month RPO revenue $4.2B；Core EDA / IP / SDA 收入同比 +18% / 超过 +40% / +37%，FY2026 指引上修",
-      "$373.14、EV 约 $104.5B、约 16.9x EV/sales、约 47.2x non-GAAP P/E 为基于当时 Q1 指引的 2026-07-02 估值快照（本次不刷新）；维持谨慎 / 中确信"
+      "2026-07-30 收盘 $332.82、EV 约 $93.4B，对照上修后指引约 14.8x EV/sales、约 41.1x non-GAAP P/E；立场由谨慎调整为 neutral-watch / 中确信"
     ],
     "chainLayer": "eda-ip",
     "coverageTier": "full",
     "chainRole": "dashboard",
-    "stance": "cautious",
+    "stance": "neutral-watch",
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "在基于当时 Q1 指引的 2026-07-02 估值快照中，$373.14 对应约 16.9x EV/sales 和约 47.2x non-GAAP P/E，要求 backlog/RPO、IP、agentic design workflow 与 Hexagon/Physical AI 整合同时兑现；本次只更新经营读数，不用旧价格对新指引重新估值。",
-      "en": "In the July 2, 2026 valuation snapshot based on the then-current Q1 guide, $373.14 corresponded to roughly 16.9x EV/sales and about 47.2x non-GAAP P/E, requiring backlog/RPO, IP, agentic design workflow, and Hexagon / Physical AI integration to all execute; this pass updates operating evidence only and does not revalue new guidance using the old price."
+      "zh": "以 2026-07-30 收盘 $332.82、市值约 $91.8B、EV 约 $93.4B 计，对照 2026-07-27 上修后的 FY2026 指引约为 14.8x EV/sales、41.1x non-GAAP P/E，而旧的冻结 2026-07-02 框架为约 16.9x / 47.2x。谨慎判断此前几乎完全建立在“价格已前置资本化大部分好消息”这一估值主张上，而该主张已被价格下行与指引/backlog/RPO 上行两个方向同时消化；熊市情景要求的 backlog 转化延迟、IP 增速不足、Hexagon 稀释 margin 在 Q2 均出现相反证据，因此没有独立执行腿支撑谨慎。立场调整为 neutral-watch；不直接到 constructive，因为 Q3 转化确认尚未到位。",
+      "en": "At the $332.82 close on 2026-07-30, about $91.8B market cap and about $93.4B EV, CDNS is roughly 14.8x EV/sales and 41.1x non-GAAP P/E against the FY2026 guide raised on 2026-07-27, versus about 16.9x / 47.2x in the old frozen July 2, 2026 frame. The cautious call rested almost entirely on the valuation claim that the price had capitalized most of the good news, and that claim has been absorbed from both directions at once — a lower price alongside higher guidance, backlog and RPO. The bear case's conditions (backlog slippage, IP undershoot, Hexagon margin dilution) all ran the other way in Q2, so no independent execution leg sustains the cautious stance. The stance moves to neutral-watch, and not to constructive, because Q3 conversion confirmation is still outstanding."
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "若 Q3 2026 继续证明 $8.1B backlog 与 $4.2B next-12-month RPO 干净转收入，Star IP 与 AI Super Agents 采用保持可量化，且一次单独的当前估值复核显示 EV/sales 已从 2026-07-02 的约 16.9x 消化而不是继续扩张，则上调至 neutral-watch 或 constructive。",
-        "en": "Move to neutral-watch or constructive if Q3 2026 continues to show the $8.1B backlog and $4.2B next-12-month RPO converting cleanly, Star IP and AI Super Agent adoption remain measurable, and a separate current valuation review shows EV/sales has been absorbed from the roughly 16.9x July 2, 2026 frame rather than expanding."
+        "zh": "若 Q3 2026 继续证明 $8.1B backlog 与 $4.2B next-12-month RPO 干净转收入，Star IP 与 AI Super Agents 采用保持可量化，且 EV/sales 从当前约 14.8x 继续被消化而不是重新扩张，则上调至 constructive。",
+        "en": "Move to constructive if Q3 2026 continues to show the $8.1B backlog and $4.2B next-12-month RPO converting cleanly, Star IP and AI Super Agent adoption remain measurable, and EV/sales keeps being absorbed from the current roughly 14.8x frame rather than expanding."
       },
       "downgrade": {
-        "zh": "若 backlog/RPO 转化低于指引、IP 增速放缓、Hexagon/Physical AI 稀释 margin，或在 2026-07-02 的约 47x non-GAAP P/E 估值框架下出现任一执行失误，则下调至 bearish-avoid。",
-        "en": "Move to bearish-avoid if backlog/RPO conversion misses guidance, IP growth slows, Hexagon / Physical AI dilutes margin, or any execution miss appears against the roughly 47x non-GAAP P/E July 2, 2026 valuation frame."
+        "zh": "若 backlog/RPO 转化低于指引、IP 增速放缓、Hexagon/Physical AI 稀释 margin，或在当前约 41x non-GAAP P/E 估值框架下出现执行失误，则下调至 cautious。",
+        "en": "Move to cautious if backlog/RPO conversion misses guidance, IP growth slows, Hexagon / Physical AI dilutes margin, or an execution miss appears against the current roughly 41x non-GAAP P/E valuation frame."
       }
     },
     "stanceHistory": [
@@ -1002,9 +1002,15 @@
         "stance": "cautious",
         "conviction": "medium",
         "price": 373.14
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 332.82
       }
     ],
-    "priceAsOf": "2026-07-02",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "2026Q2",
     "related": [
       "synopsys-2026",
@@ -6177,7 +6183,7 @@
     "priceSymbol": "META",
     "title": "Meta Platforms 深度研究报告 - AI 基建书的需求锚与算力外售压力测试",
     "titleEn": "Meta Platforms Deep Research Report - Demand Anchor and Compute-Resale Stress Test for the AI-Infra Book",
-    "summary": "2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30）：收入 $60.80B（同比 +28%）、营业利润 $18.775B、营业利润率 31%（去年同期 43%）、净利润 $15.848B（同比 -14%）、摊薄 EPS $6.18；总成本费用 $42.026B（同比 +55%）。经营现金流 $31.862B（+25%），但 $31.078B capex 把自由现金流压至 $0.784B（-91%）；FY2026 capex 指引收窄至 $130-145B。application-monetization 是混合读数：收入与经营现金流增长，营业利润率、净利润与 FCF 恶化。下文 $600.29（2026-07-06）估值快照、stance 与 conviction 不因本次监测刷新。本中心 AI 基础设施书 demand-risk 层的需求锚覆盖：Meta 不是 GPU/HBM/电力/光模块供应商，而是整条链最重要的终端买方之一。Q1 2026 收入 $56.31B(+33%)、营业利润 $22.87B、经营现金流 $32.23B、自由现金流 $13.23B，说明广告主业仍能融资 AI 建设；但公司把 2026 capex 指引抬到 $125-145B，且 7 月初被报道考虑推出 Meta Compute、外售过剩 AI 算力。股价 $582.90（2026-07-02 收盘）、市值约 $1.48T、约 6.9x TTM P/S、约 17x EV/TTM 营业利润，按 Q1 剔除约 $8B 税益 EPS 年化约 20x。核心读数：Meta capex 若继续被广告/AI 产品吸收，AI 基建链需求得到支撑；若外售算力意味着供给过剩或内部需求不足，则 CoreWeave/Nebius、HBM、光连接和电力链都要下修稀缺假设。2026-07-07 v5 更新：以 2026-07-06 收盘 $600.29 为锚，30% 牛市 / 50% 基准 / 20% 熊市情景网格接近市场隐含预期，维持 neutral-watch / 中确信。",
+    "summary": "2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30）：收入 $60.80B（同比 +28%）、营业利润 $18.775B、营业利润率 31%（去年同期 43%）、净利润 $15.848B（同比 -14%）、摊薄 EPS $6.18；总成本费用 $42.026B（同比 +55%）。经营现金流 $31.862B（+25%），但 $31.078B capex 把自由现金流压至 $0.784B（-91%）；FY2026 capex 指引收窄至 $130-145B。application-monetization 是混合读数：收入与经营现金流增长，营业利润率、净利润与 FCF 恶化。本中心 AI 基础设施书 demand-risk 层的需求锚覆盖：Meta 不是 GPU/HBM/电力/光模块供应商，而是整条链最重要的终端买方之一。2026-07-31 完成此前要求的估值敏感更新：以 2026-07-30 收盘 $539.03 计，市值约 $1.37T、EV 约 $1.41T，约 6.4x TTM P/S、约 15.9x EV/TTM 营业利润，按 Q1 剔除税益 EPS 年化约 18.4x（按 Q2 实际 EPS 年化约 21.8x）。倍数较旧锚点更宽松，但 Q2 已把 capex 吞噬 FCF 的风险变成结果，30% 牛市 / 50% 基准 / 20% 熊市网格的偏斜不再中性，立场由 neutral-watch 调整为谨慎 / 中确信。",
     "tags": [
       "AI基础设施",
       "广告平台",
@@ -6197,17 +6203,17 @@
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
       "demand-risk 层需求锚：Meta 是 AI 基建链最大终端买方之一，决定 GPU、HBM、网络、光连接、电力、设施和 neocloud 需求是否真实",
-      "Q1 2026 收入 $56.31B(+33%)、营业利润 $22.87B、经营现金流 $32.23B、FCF $13.23B；广告主业仍能支撑大额 AI 投入",
-      "核心风险是 capex 斜率：2026 指引 $125-145B；7 月初 Meta Compute / 外售过剩 AI 算力报道使 capacity-resale 成为整本书的关键交叉校验",
-      "股价 $582.90(2026-07-02)、市值约 $1.48T、约 6.9x TTM P/S、约 17x EV/TTM 营业利润；静态倍数不极端，但 FCF/算力价格风险很高。中性/观察",
-      "2026-07-07 v5 更新：以 2026-07-06 收盘 $600.29 为锚，30% 牛市 / 50% 基准 / 20% 熊市；接近中性预期差，维持 neutral-watch / 中确信"
+      "Q2 2026 收入 $60.80B(+28%)、营业利润率 31%（去年同期 43%）、净利润 -14%、摊薄 EPS $6.18",
+      "核心风险已兑现：季度 capex $31.078B 把自由现金流压至 $0.784B（-91%）；FY2026 capex 指引 $130-145B，下限自 $125B 上调，2027 回落路径未见",
+      "2026-07-30 收盘 $539.03、市值约 $1.37T、约 6.4x TTM P/S、约 15.9x EV/TTM 营业利润、约 18.4x 剔除税益年化 EPS；静态倍数不极端但 FCF 风险已显性化",
+      "2026-07-31 重新裁定：倍数变宽松但偏斜转负，立场由 neutral-watch 下调为谨慎 / 中确信"
     ],
-    "summaryEn": "July 30, 2026 monitoring update (Q2 2026, quarter ended June 30, 2026): revenue was $60.80B (+28% YoY), operating income $18.775B, operating margin 31% (down from 43%), net income $15.848B (-14%), and diluted EPS $6.18; total costs were $42.026B (+55%). Operating cash flow was $31.862B (+25%), but $31.078B of capex compressed free cash flow to $0.784B (-91%); FY2026 capex guidance narrowed to $130-145B. Application-monetization is a mixed read: revenue and operating cash flow grew, while operating margin, net income, and FCF deteriorated. The $600.29 (Jul 6, 2026) valuation snapshot, stance, and conviction below are not refreshed by this monitoring pass. Demand-anchor coverage for this center's AI-infrastructure demand-risk layer: Meta is not a GPU/HBM/power/optical supplier, but one of the most important end customers in the chain. Q1 2026 revenue was $56.31B (+33%), operating income $22.87B, operating cash flow $32.23B, and free cash flow $13.23B, showing the ad engine can still fund AI buildout. But Meta raised its 2026 capex guide to $125-145B and was reported in early July to be considering Meta Compute, a business that could sell excess AI compute. At $582.90 (Jul 2 2026 close), market cap is about $1.48T, around 6.9x TTM sales and about 17x EV/TTM operating income; annualized Q1 EPS excluding an approximately $8B tax benefit implies roughly 20x earnings. Core read-through: if Meta capex keeps being absorbed by advertising and AI products, AI-infra demand is validated; if compute resale signals oversupply or insufficient internal demand, CoreWeave/Nebius, HBM, optical, and power-chain scarcity assumptions need to be marked down. Jul 7, 2026 v5 update: anchored to the Jul 6, 2026 close of $600.29, the 30% bull / 50% base / 20% bear scenario grid is close to the market-implied view; stance remains neutral-watch / medium conviction.",
+    "summaryEn": "July 30, 2026 monitoring update (Q2 2026, quarter ended June 30, 2026): revenue was $60.80B (+28% YoY), operating income $18.775B, operating margin 31% (down from 43%), net income $15.848B (-14%), and diluted EPS $6.18; total costs were $42.026B (+55%). Operating cash flow was $31.862B (+25%), but $31.078B of capex compressed free cash flow to $0.784B (-91%); FY2026 capex guidance narrowed to $130-145B. Application-monetization is a mixed read: revenue and operating cash flow grew, while operating margin, net income, and FCF deteriorated. Demand-anchor coverage for this center's AI-infrastructure demand-risk layer: Meta is not a GPU/HBM/power/optical supplier, but one of the most important end customers in the chain. The 2026-07-31 pass completed the previously required valuation-sensitive update: at the $539.03 close on 2026-07-30, market cap is about $1.37T and EV about $1.41T, or about 6.4x TTM sales, 15.9x EV/TTM operating income, and 18.4x annualized Q1 EPS ex-tax-benefit (21.8x on annualized Q2 reported EPS). The multiple is less demanding than at the old anchor, but Q2 turned the risk of capex consuming FCF into an outcome, so the 30% bull / 50% base / 20% bear skew is no longer neutral and the stance moves from neutral-watch to cautious / medium conviction.",
     "chainLayer": "demand-risk",
     "coverageTier": "full",
     "chainRole": "common-constraint",
-    "stance": "neutral-watch",
-    "priceAsOf": "2026-07-06",
+    "stance": "cautious",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "Q2 2026",
     "related": [
       "coreweave-2026",
@@ -6313,17 +6319,17 @@
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 $600.29（2026-07-06 收盘）计，市场相信高质量广告现金流可以融资 AI capex，并最终修复 FCF；30% 牛市 / 50% 基准 / 20% 熊市网格基本承认这个质量，但要求 2027 capex 路径和 Meta Compute 信号给出验证，预期差接近中性。",
-      "en": "At $600.29 (Jul 6, 2026 close), the market believes high-quality ad cash flow can fund AI capex and eventually repair FCF; the 30% bull / 50% base / 20% bear grid broadly accepts that quality but requires verification from the 2027 capex path and the Meta Compute signal, leaving the expectation gap near neutral."
+      "zh": "以 2026-07-30 收盘 $539.03、市值约 $1.37T、EV 约 $1.41T 计，约 15.9x EV/TTM 营业利润与约 18.4x 剔除税益年化 EPS（按 Q2 实际 EPS 年化约 21.8x）较旧锚点更宽松，估值腿并未破裂。真正破裂的是偏斜：neutral-watch 的明示条件是 capex 不会永久吞噬 FCF、且 2027 框架下行，而 Q2 显示营业利润率由 43% 降至 31%（剔除法律与遣散费后约 36.8%）、净利润 -14%、自由现金流 -91% 至 $0.784B、FY2026 capex 下限抬至 $130B 且 2027 路径未见。-10.2% 的价格变动只计入其中一部分，预期差由接近中性转为温和偏负。",
+      "en": "At the $539.03 close on 2026-07-30, about $1.37T market cap and $1.41T EV, roughly 15.9x EV/TTM operating income and 18.4x annualized Q1 EPS ex-tax-benefit (about 21.8x on annualized Q2 reported EPS) are less demanding than at the old anchor, so the valuation leg has not broken. What broke is the skew: neutral-watch explicitly required capex not to permanently consume FCF and the 2027 frame to decline, while Q2 showed operating margin falling from 43% to 31% (about 36.8% excluding legal and severance charges), net income -14%, free cash flow -91% to $0.784B, a FY2026 capex floor raised to $130B, and no visible 2027 path. The -10.2% price move prices only part of that, so the expectation gap moves from near neutral to modestly negative."
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "广告收入和营业利润率继续明显跑赢 capex 增速，2026 capex 保持在 $125-145B 且 2027 框架出现回落，Meta Compute 被证明是高利用率货币化而非闲置容量清理，AMD 1GW 和 MTIA 400/450 部署按期推进",
-        "en": "advertising revenue and operating margin keep clearly outrunning capex growth, 2026 capex stays within $125-145B and the 2027 frame declines, Meta Compute is proven to be high-utilization monetization rather than idle-capacity clearing, and AMD 1GW plus MTIA 400 / 450 deployments progress on schedule"
+        "zh": "若广告收入和营业利润率重新明显跑赢 capex 增速、自由现金流从 Q2 的 $0.784B 低点回升、2026 capex 保持在 $130-145B 指引内且 2027 框架出现回落，Meta Compute 被证明是高利用率货币化而非闲置容量清理，AMD 1GW 和 MTIA 400/450 部署按期推进，则上调回 neutral-watch 或 constructive。",
+        "en": "Move back to neutral-watch or constructive if advertising revenue and operating margin again clearly outrun capex growth, free cash flow recovers from the $0.784B Q2 low, 2026 capex stays inside the $130-145B guide with the 2027 frame declining, Meta Compute is proven to be high-utilization monetization rather than idle-capacity clearing, and AMD 1GW plus MTIA 400 / 450 deployments progress on schedule."
       },
       "downgrade": {
-        "zh": "2026 capex 上修到 $145B 以上或 2027 框架不下降，广告增长或利润率明显放缓，Meta Compute 披露显示大量闲置/低价外售 capacity，或 AMD/MTIA 交付延迟削弱内部 ROI 论点",
-        "en": "2026 capex is raised above $145B or the 2027 frame does not decline, advertising growth or margin slows materially, Meta Compute disclosures show large idle / low-price external capacity, or AMD / MTIA delivery delays weaken the internal-ROI case"
+        "zh": "若 2026 capex 上修到 $145B 以上、自由现金流连续多个季度停留在接近零的水平、营业利润率在剔除一次性项目后继续下滑，或 Meta Compute 披露显示大量闲置/低价外售 capacity、AMD/MTIA 交付延迟削弱内部 ROI 论点，则下调至 bearish-avoid。",
+        "en": "Move to bearish-avoid if 2026 capex is raised above $145B, free cash flow stays near zero for consecutive quarters, operating margin keeps falling after excluding one-off items, or Meta Compute disclosures show large idle / low-price external capacity and AMD / MTIA delivery delays weaken the internal-ROI case."
       }
     },
     "stanceHistory": [
@@ -6337,6 +6343,12 @@
         "stance": "neutral-watch",
         "conviction": "medium",
         "price": 600.29
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 539.03
       }
     ]
   },
