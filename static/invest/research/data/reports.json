@@ -39,8 +39,8 @@
     "priceSymbol": "ASML",
     "title": "ASML 深度研究报告 - EUV / High-NA 作为设备层公共约束",
     "titleEn": "ASML Deep Research Report - EUV / High-NA as the Equipment-Layer Common Constraint",
-    "summary": "【2026-07-31 价格复核：ASML 于 2026-07-29 收于 $1,550.69，较本报告锚点 -12.2%；下方数字按其标注日期阅读，估值框架与立场不变。】AI 基础设施 semicap-equipment 层的公共约束：ASML 验证 foundry / memory capex 是否真正穿过光刻、EUV、High-NA、长期协议和出口管制这道最硬瓶颈。Q2 2026 net sales EUR 9.326B、gross margin 54.0%、net income EUR 2.918B；FY2026 指引第二次上调至 net sales EUR 43-45B、gross margin 54-56%，并计划把 2027 年 low-NA EUV 与 DUV immersion 产能各较 2026 年增加 30%。本次监测没有季度 net bookings 或 backlog 披露，因此只加强设备侧确认，不证明客户特定 capex 已全部承诺。ADR $1,769.32、约 15.6x EV/2026E sales 仍是基于当时 EUR 36-40B 指引的 2026-07-02 初始估值快照，本次不刷新估值或立场；维持中性观察 / 中确信。",
-    "summaryEn": "[2026-07-31 price check: ASML closed at $1,550.69 on 2026-07-29, -12.2% versus this report's anchor; figures below read as of their stated dates, and the valuation frame and stance are unchanged.] Common-constraint coverage for the AI-infrastructure semicap-equipment layer. ASML tests whether foundry and memory capex truly passes through lithography, EUV, High-NA, long-term agreements, and export controls. Q2 2026 net sales were EUR 9.326B, gross margin was 54.0%, and net income was EUR 2.918B; FY2026 guidance was raised for the second time to EUR 43-45B net sales and 54-56% gross margin, while ASML plans to add 30% to both 2027 low-NA EUV and DUV immersion capacity versus 2026. The update disclosed neither quarterly net bookings nor backlog, so it strengthens equipment-side confirmation without proving that customer-specific capex is fully committed. The $1,769.32 ADR and roughly 15.6x EV/2026E sales remain the dated 2026-07-02 initial valuation snapshot based on the then EUR 36-40B guide; this update does not refresh valuation or stance, which remains neutral watch / medium conviction.",
+    "summary": "AI 基础设施 semicap-equipment 层的公共约束：ASML 验证 foundry / memory capex 是否真正穿过光刻、EUV、High-NA、长期协议和出口管制这道最硬瓶颈。Q2 2026 net sales EUR 9.326B、gross margin 54.0%、net income EUR 2.918B；FY2026 指引第二次上调至 net sales EUR 43-45B、gross margin 54-56%，并计划把 2027 年 low-NA EUV 与 DUV immersion 产能各较 2026 年增加 30%。本次监测没有季度 net bookings 或 backlog 披露，因此只加强设备侧确认，不证明客户特定 capex 已全部承诺。2026-07-31 重新锚定至 2026-07-30 收盘 ADR $1,651.44、市值约 $636.5B、约 14.6x EV/2026E sales（旧口径约 15.6x）；倍数仍高于基准情景所设的高个位数至低十几倍区间，且立场并不主要依赖倍数，维持中性观察 / 中确信。",
+    "summaryEn": "Common-constraint coverage for the AI-infrastructure semicap-equipment layer. ASML tests whether foundry and memory capex truly passes through lithography, EUV, High-NA, long-term agreements, and export controls. Q2 2026 net sales were EUR 9.326B, gross margin was 54.0%, and net income was EUR 2.918B; FY2026 guidance was raised for the second time to EUR 43-45B net sales and 54-56% gross margin, while ASML plans to add 30% to both 2027 low-NA EUV and DUV immersion capacity versus 2026. The update disclosed neither quarterly net bookings nor backlog, so it strengthens equipment-side confirmation without proving that customer-specific capex is fully committed. The $1,651.44 ADR and roughly 14.6x EV/2026E sales remain the dated 2026-07-02 initial valuation snapshot based on the then EUR 36-40B guide; this update does not refresh valuation or stance, which remains neutral watch / medium conviction.",
     "tags": [
       "半导体设备",
       "EUV",
@@ -63,7 +63,7 @@
       "P2 设备层公共约束：ASML 用 EUV/High-NA、backlog、installed-base service 和出口管制验证 AI capex 是否进入最硬工具瓶颈",
       "Q2 2026 net sales EUR 9.326B、gross margin 54.0%、net income EUR 2.918B；FY2026 指引第二次上调至 EUR 43-45B net sales、54-56% gross margin",
       "Q4 2025 net bookings EUR 13.158B，其中 EUV EUR 7.4B；2025 年末 backlog EUR 38.797B",
-      "2026-07-02 初始估值快照为 ADR $1,769.32、约 15.6x EV/2026E sales（基于当时 EUR 36-40B 指引）；本次监测不刷新估值或立场"
+      "2026-07-30 收盘 ADR $1,651.44、市值约 $636.5B、约 14.6x EV/2026E sales（旧口径约 15.6x）；维持中性观察 / 中确信"
     ],
     "chainLayer": "semicap-equipment",
     "coverageTier": "full",
@@ -71,8 +71,8 @@
     "stance": "neutral-watch",
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 $1,769.32、约 15.6x EV/2026E sales 计，市场已经定价 EUV / High-NA 稀缺、FY2026 EUR 36-40B 收入和出口管制可控；30% 牛市 / 40% 基准 / 30% 熊市情景表显示 base case 接近隐含预期，偏斜均衡。",
-      "en": "At $1,769.32 and about 15.6x EV/2026E sales, the market already prices EUV / High-NA scarcity, FY2026 revenue of EUR 36-40B, and manageable export controls; the 30% bull / 40% base / 30% bear grid leaves the base case close to implied expectations, so skew is balanced."
+      "zh": "以 $1,651.44、约 14.6x EV/2026E sales 计，市场已经定价 EUV / High-NA 稀缺、FY2026 EUR 36-40B 收入和出口管制可控；30% 牛市 / 40% 基准 / 30% 熊市情景表显示 base case 接近隐含预期，偏斜均衡。",
+      "en": "At $1,651.44 and about 14.6x EV/2026E sales, the market already prices EUV / High-NA scarcity, FY2026 revenue of EUR 36-40B, and manageable export controls; the 30% bull / 40% base / 30% bear grid leaves the base case close to implied expectations, so skew is balanced."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -90,9 +90,15 @@
         "conviction": "medium",
         "date": "2026-07-02",
         "price": 1769.32
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 1651.44
       }
     ],
-    "priceAsOf": "2026-07-02",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "2026Q2 / Q4 2025 bookings",
     "related": [
       "tsmc-2026",
@@ -1295,7 +1301,7 @@
     "priceSymbol": "EQIX",
     "title": "Equinix 深度研究报告 - AI 数据中心设施层的互联溢价仪表盘",
     "titleEn": "Equinix Deep Research Report - The Interconnection-Premium Dashboard for AI Data-Center Facilities",
-    "summary": "2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30）：收入 $2.625B（同比 +16%，包含一次性 xScale fees）、recurring revenue $2.377B（MRR 同比 +11%）、AFFO $1.168B（+20%）、AFFO/share $11.78（+19%）；Q2 新增 interconnections 创纪录 9,700 个、annualized gross bookings $424M（+23%）。管理层上调 FY2026 指引与长期展望。互联、bookings 与 MRR 同向走强，facility-interconnection-leasing 证伪条件未触发；这些指标与网络密集部署一致，但公司未将其具体归因于 AI，不能作为 AI 因果证明。下文 $1,002.02（2026-07-02）估值快照与 stance 不因本次监测刷新。AI 基础设施 datacenter-facility 层的 DLR 对照组：EQIX 用 Platform Equinix interconnection、retail colocation、xScale JV 和 AFFO/share 来验证 AI 需求是否不只是 hyperscale shell leasing。2026Q1 收入 $2.444B（reported YoY +10%）、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；MRR 同比 +12% reported / +10% normalized constant currency，annualized gross bookings $378M，annualized presales 约 $140M，largest deals 约 60% AI-related。2025 年报披露 280 个数据中心、10,500+ 客户、507,000+ interconnections，Q1 2026 interconnection revenue $446M。当前 $1,002.02（2026-07-02）、市值约 $98.8B、EV 约 $120.8B，约 23.5x 2026 AFFO/share 指引中点、约 11.9x 2026 revenue 指引。中性观察 / 中确信：质量高但估值高，关键监控是 interconnection revenue、AI bookings/presales、xScale economics、MRR/cabinet yield 与 power availability。",
+    "summary": "2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30）：收入 $2.625B（同比 +16%，包含一次性 xScale fees）、recurring revenue $2.377B（MRR 同比 +11%）、AFFO $1.168B（+20%）、AFFO/share $11.78（+19%）；Q2 新增 interconnections 创纪录 9,700 个、annualized gross bookings $424M（+23%）。管理层上调 FY2026 指引与长期展望。互联、bookings 与 MRR 同向走强，facility-interconnection-leasing 证伪条件未触发；这些指标与网络密集部署一致，但公司未将其具体归因于 AI，不能作为 AI 因果证明。下文 $1,047.53（2026-07-30 收盘）为重新锚定后的估值基准。AI 基础设施 datacenter-facility 层的 DLR 对照组：EQIX 用 Platform Equinix interconnection、retail colocation、xScale JV 和 AFFO/share 来验证 AI 需求是否不只是 hyperscale shell leasing。2026Q1 收入 $2.444B（reported YoY +10%）、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；MRR 同比 +12% reported / +10% normalized constant currency，annualized gross bookings $378M，annualized presales 约 $140M，largest deals 约 60% AI-related。2025 年报披露 280 个数据中心、10,500+ 客户、507,000+ interconnections，Q1 2026 interconnection revenue $446M。当前 $1,047.53（2026-07-02）、市值约 $103.3B、EV 约 $125.3B，约 24.4x 2026 AFFO/share 指引中点、约 12.2x 2026 revenue 指引。中性观察 / 中确信：质量高但估值高，关键监控是 interconnection revenue、AI bookings/presales、xScale economics、MRR/cabinet yield 与 power availability。",
     "tags": [
       "数据中心",
       "互联",
@@ -1315,19 +1321,19 @@
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
       "补齐 datacenter-facility 层 DLR 对照组：EQIX 验证 AI 需求是否穿透到 interconnection、retail colocation、xScale JV 和 AFFO/share，而不只是 hyperscale leasing",
-      "2026Q1 收入 $2.444B、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；全年 AFFO/share 指引 $42.31-$43.11",
+      "2026Q1 收入 $2.444B、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；全年 AFFO/share 指引上修至 $42.69-$43.29",
       "MRR 同比 +12% reported / +10% normalized constant currency；Q1 annualized gross bookings $378M、annualized presales 约 $140M、largest deals 约 60% AI-related",
-      "2025 年末 280 个数据中心、10,500+ 客户、507,000+ interconnections；当前 $1,002.02、市值约 $98.8B、EV 约 $120.8B、约 23.5x 2026 AFFO/share 指引中点"
+      "2025 年末 280 个数据中心、10,500+ 客户、507,000+ interconnections；当前 $1,047.53、市值约 $103.3B、EV 约 $125.3B、约 24.4x 2026 AFFO/share 指引中点"
     ],
-    "summaryEn": "July 30, 2026 monitoring update (Q2 2026, quarter ended June 30, 2026): revenue was $2.625B (+16% YoY, including one-time xScale fees), recurring revenue $2.377B (MRR +11%), AFFO $1.168B (+20%), and AFFO/share $11.78 (+19%); Q2 added a record 9,700 net interconnections and annualized gross bookings were $424M (+23%). Management raised FY2026 guidance and its long-term outlook. Interconnection, bookings, and MRR strengthened together, so the facility-interconnection-leasing falsifier was not triggered; the metrics are consistent with network-dense deployment, but the company did not attribute them specifically to AI and they are not causal proof of AI demand. The $1,002.02 (Jul 2, 2026) valuation snapshot and stance below are not refreshed by this monitoring pass. DLR's paired check in the AI-infrastructure data-center facility layer. EQIX uses Platform Equinix interconnection, retail colocation, xScale JVs and AFFO/share to test whether AI demand is more than hyperscale shell leasing. Q1 2026 revenue was $2.444B (+10% reported YoY), operating income was $577M, net income was $415M, adjusted EBITDA was $1.245B, and AFFO/share was $10.79. MRR grew 12% reported / 10% normalized constant-currency YoY, annualized gross bookings were $378M, annualized presales were about $140M, and about 60% of largest deals were AI-related. The 2025 annual report disclosed 280 data centers, 10,500+ customers and 507,000+ interconnections, while Q1 2026 interconnection revenue was $446M. At $1,002.02 (2026-07-02), about $98.8B market cap and about $120.8B EV, EQIX trades around 23.5x the midpoint of 2026 AFFO/share guidance and about 11.9x 2026 revenue guidance. Neutral watch / medium conviction: high quality but high valuation; key monitors are interconnection revenue, AI bookings/presales, xScale economics, MRR/cabinet yield and power availability.",
+    "summaryEn": "July 30, 2026 monitoring update (Q2 2026, quarter ended June 30, 2026): revenue was $2.625B (+16% YoY, including one-time xScale fees), recurring revenue $2.377B (MRR +11%), AFFO $1.168B (+20%), and AFFO/share $11.78 (+19%); Q2 added a record 9,700 net interconnections and annualized gross bookings were $424M (+23%). Management raised FY2026 guidance and its long-term outlook. Interconnection, bookings, and MRR strengthened together, so the facility-interconnection-leasing falsifier was not triggered; the metrics are consistent with network-dense deployment, but the company did not attribute them specifically to AI and they are not causal proof of AI demand. The $1,047.53 (Jul 30, 2026 close) is the re-anchored valuation basis by this monitoring pass. DLR's paired check in the AI-infrastructure data-center facility layer. EQIX uses Platform Equinix interconnection, retail colocation, xScale JVs and AFFO/share to test whether AI demand is more than hyperscale shell leasing. Q1 2026 revenue was $2.444B (+10% reported YoY), operating income was $577M, net income was $415M, adjusted EBITDA was $1.245B, and AFFO/share was $10.79. MRR grew 12% reported / 10% normalized constant-currency YoY, annualized gross bookings were $378M, annualized presales were about $140M, and about 60% of largest deals were AI-related. The 2025 annual report disclosed 280 data centers, 10,500+ customers and 507,000+ interconnections, while Q1 2026 interconnection revenue was $446M. At $1,047.53 (2026-07-02), about $103.3B market cap and about $125.3B EV, EQIX trades around 24.4x the midpoint of 2026 AFFO/share guidance and about 12.2x 2026 revenue guidance. Neutral watch / medium conviction: high quality but high valuation; key monitors are interconnection revenue, AI bookings/presales, xScale economics, MRR/cabinet yield and power availability.",
     "chainLayer": "datacenter-facility",
     "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "neutral-watch",
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 $1,002.02、约 23.5x 2026 AFFO/share 指引中点计，市场大致要求 AFFO/share 未来三年约 14% CAGR，同时维持 interconnection 与 xScale 溢价；我们的 30% 牛市 / 40% 基准 / 30% 熊市情景与此接近，因此维持中性观察。",
-      "en": "At $1,002.02 and about 23.5x the midpoint of 2026 AFFO/share guidance, the market is underwriting roughly 14% three-year AFFO/share CAGR while preserving the interconnection and xScale premium; our 30% bull / 40% base / 30% bear grid is close to that, so the stance remains neutral watch."
+      "zh": "以 $1,047.53、约 24.4x 2026 AFFO/share 指引中点计，市场大致要求 AFFO/share 未来三年约 15% CAGR，同时维持 interconnection 与 xScale 溢价；我们的 30% 牛市 / 40% 基准 / 30% 熊市情景与此接近，因此维持中性观察。",
+      "en": "At $1,047.53 and about 24.4x the midpoint of 2026 AFFO/share guidance, the market is underwriting roughly 15% three-year AFFO/share CAGR while preserving the interconnection and xScale premium; our 30% bull / 40% base / 30% bear grid is close to that, so the stance remains neutral watch."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -1345,9 +1351,15 @@
         "conviction": "medium",
         "date": "2026-07-02",
         "price": 1002.02
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 1047.53
       }
     ],
-    "priceAsOf": "2026-07-02",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "2026Q2",
     "related": [
       "digital-realty-2026",
