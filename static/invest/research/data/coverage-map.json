@@ -233,14 +233,6 @@
       }
     },
     {
-      "ticker": "PWR",
-      "layer": "power",
-      "label": {
-        "zh": "电网 EPC 与输配建设：检验电力设备订单能否变成可交付容量",
-        "en": "Grid EPC and transmission buildout: tests whether power-equipment orders become deliverable capacity"
-      }
-    },
-    {
       "ticker": "AMKR",
       "layer": "advanced-packaging",
       "label": {
