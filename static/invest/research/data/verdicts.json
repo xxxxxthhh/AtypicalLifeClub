@@ -454,6 +454,17 @@
       "stale": false
     },
     {
+      "reportId": "mp-2026",
+      "stance": "neutral-watch",
+      "conviction": "medium",
+      "stanceDate": "2026-07-31",
+      "priceAtStance": 41.66,
+      "benchmarkSymbol": "REMX",
+      "status": "pending",
+      "daysHeld": 0,
+      "stale": false
+    },
+    {
       "reportId": "alab-2026",
       "stance": "cautious",
       "conviction": "medium",

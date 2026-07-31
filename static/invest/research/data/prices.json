@@ -506,6 +506,18 @@
       "currency": "USD"
     },
     {
+      "reportId": "mp-2026",
+      "symbol": "MP",
+      "status": "ok",
+      "attemptedAt": "2026-07-31",
+      "baseDate": "2026-07-30",
+      "basePrice": 41.66,
+      "lastDate": "2026-07-30",
+      "lastClose": 41.66,
+      "changePct": 0.0,
+      "currency": "USD"
+    },
+    {
       "reportId": "alab-2026",
       "symbol": "ALAB",
       "status": "ok",
