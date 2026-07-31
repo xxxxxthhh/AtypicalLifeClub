@@ -480,6 +480,18 @@
       "lastClose": 230.6,
       "changePct": -11.5,
       "currency": "HKD"
+    },
+    {
+      "reportId": "cameco-2026",
+      "symbol": "CCJ",
+      "status": "ok",
+      "attemptedAt": "2026-07-31",
+      "baseDate": "2026-07-30",
+      "basePrice": 88.23,
+      "lastDate": "2026-07-30",
+      "lastClose": 88.23,
+      "changePct": 0.0,
+      "currency": "USD"
     }
   ]
 }

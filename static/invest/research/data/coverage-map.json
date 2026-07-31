@@ -225,14 +225,6 @@
   ],
   "planned": [
     {
-      "ticker": "CCJ",
-      "layer": "resources",
-      "label": {
-        "zh": "铀燃料周期：检验 OKLO 与核电基荷叙事的上游约束",
-        "en": "Uranium fuel cycle: upstream constraint check for OKLO and nuclear baseload"
-      }
-    },
-    {
       "ticker": "MP",
       "layer": "resources",
       "label": {

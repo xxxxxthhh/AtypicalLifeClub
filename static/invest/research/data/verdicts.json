@@ -563,6 +563,17 @@
       "bookRelativePct": -2.7,
       "daysHeld": 16,
       "stale": false
+    },
+    {
+      "reportId": "cameco-2026",
+      "stance": "neutral-watch",
+      "conviction": "medium",
+      "stanceDate": "2026-07-31",
+      "priceAtStance": 88.23,
+      "benchmarkSymbol": "URA",
+      "status": "pending",
+      "daysHeld": 0,
+      "stale": false
     }
   ],
   "closed": [
