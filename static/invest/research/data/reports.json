@@ -5880,6 +5880,221 @@
     ]
   },
   {
+    "id": "quanta-services-2026",
+    "company": "Quanta Services, Inc.",
+    "ticker": "NYSE: PWR",
+    "priceSymbol": "PWR",
+    "benchmarkSymbol": "PAVE",
+    "benchmarkRationale": {
+      "zh": "power 层默认基准是 XLU（公用事业）。Quanta 不是公用事业公司——它没有费率基数、没有受监管回报，它的经济由在手订单、技术工人和施工利润率决定，用 XLU 计分等于在问『一家承包商有没有跑赢受监管公用事业』，与本报告的任何一句判断都不相干。实测的差距是决定性的：截至 2026-07-31，PWR 与 XLU 的日收益率相关系数在最近 252 个交易日仅 0.279、504 个交易日 0.337，而与 PAVE（Global X 美国基础设施建设 ETF）分别为 0.635 与 0.654，与 XLI 为 0.598 与 0.603；PAVE 在两个窗口上都优于 XLI，且主题上更贴近『把基础设施建起来的那批公司』。本报告的核心论点正是关于建设与并网这道工序，检验它需要一个自带施工景气 beta 的基准。代价必须写明，而且有两条：其一，PWR 本身就是 PAVE 的前三大持仓（第三方持仓数据给出的权重在 3.7-4.2% 之间且彼此不一致），因此 PWR 自身的波动会带动基准、压缩测得的超额收益；其二，2026 年初至今 PWR +56.0% 而 PAVE 仅 +17.6%，说明基准对今年这轮行情几乎没有解释力，0.635 的相关性仍留下约六成方差无法解释——PAVE 还混入了铁路、骨料、钢铁与机械，跑赢 PAVE 并不能单独证明电网 EPC 的论点。即便如此，与一个相关性只有 0.28 的公用事业指数相比，这仍是明显更诚实的计分尺。PAVE 不是本报告的 priceSymbol，未触发自基准禁令。",
+      "en": "The power layer default is XLU (utilities). Quanta is not a utility - it has no rate base and no regulated return, and its economics are backlog, craft labour and construction margin - so scoring against XLU asks 'did a contractor beat regulated utilities', which bears on no judgment in this report. The measured gap is decisive: to 2026-07-31, PWR's daily-return correlation is only 0.279 over the trailing 252 sessions and 0.337 over 504 against XLU, versus 0.635 and 0.654 against PAVE (the Global X U.S. Infrastructure Development ETF) and 0.598 and 0.603 against XLI. PAVE beats XLI on both windows and is the closer thematic match to 'the companies that physically build infrastructure'. This report's core claim is precisely about the build-and-connect step, and testing it requires a benchmark that carries construction-cycle beta. The cost is stated plainly, and it has two parts. First, PWR is itself a top-three PAVE holding (third-party holdings aggregators put the weight somewhere between 3.7% and 4.2% and disagree with each other), so part of any PWR move is transmitted into the benchmark and mutes measured alpha. Second, PWR is +56.0% year-to-date in 2026 against PAVE's +17.6%, so the benchmark explains almost none of this year's move, and a 0.635 correlation still leaves roughly 60% of variance unexplained - PAVE also bundles rails, aggregates, steel and machinery, so beating PAVE does not by itself validate the grid-EPC thesis. Even so, it is a markedly more honest yardstick than a utilities index correlated 0.28. PAVE is not this report's own priceSymbol, so the self-benchmark ban is not engaged."
+    },
+    "title": "Quanta Services 深度研究报告 - 建设与并网这一层是否卡住了 AI 数据中心通电",
+    "titleEn": "Quanta Services Deep Research Report - Does the Build-and-Connect Layer Gate AI Data-Center Power?",
+    "summary": "AI 基础设施书 power 层的公共约束初始覆盖：该层已有八篇报告，全部关于谁拥有电子或谁造设备，没有一篇覆盖真正把线路架起来、把变电站装好、把场地通上电的那一层。本报告提供这份读数，答案有一部分是否定的：按 2026 年披露，施工劳动力并不是绑定约束——Quanta 在收入同比 +41.2%（2026 Q2 95.57 亿美元）的同时把电力分部营业利润率从 10.1% 提到 11.5%，并在五个月内把全年收入指引从 332.5-337.5 亿美元上调到 393-397 亿美元（+17.9%，其中约 47 亿美元为内生）。绑定约束不长这样。真正指向瓶颈的是 Quanta 自己的资本配置：同一季度以 12.4 亿美元买下 Percheron（路权与许可）、Enerfab（制造加工）、PSD（可移动式变电站）与 Phalcon（数据中心电气），另设 800 kV 断路器合资公司——钱流向前端与长交期硬件。同样重要的是一个否定结论：Quanta 自 2025 Q1 起只报两个分部（可再生能源已并入电力）、不披露数据中心收入、且大量数据中心工作接单即开票从不进入在手订单，因此本书无法把 PWR 当作 AI 需求温度计。公司层面：总在手订单 534.4 亿美元（+49.1%）、12 个月 323.1 亿美元（+61.2%），且增长的是硬的那部分——剩余履约义务 +75.1%，占比由 53.5% 升至 62.8%；上半年自由现金流 10.704 亿美元高于 GAAP 净利润 6.720 亿美元；商誉加无形资产 110.850 亿美元超过股东权益 96.379 亿美元。以 2026-07-30 收盘 657.98 美元为锚（业绩后单日 +17.3%、年初至今 +56.0%），市值约 989 亿美元，按截至 2026-06-30 追溯十二个月约 74.6x 报告盈利、48.5x 调整后净利润、30.2x 企业价值/调整后 EBITDA；按 2026 年指引 39.4x 调整后每股收益、56.4x GAAP 每股收益，而同行只有 15.7-24.7x。30% 牛市 / 40% 基准 / 30% 熊市网格，初始立场中性观察 / 中确信。",
+    "summaryEn": "Initial common-constraint coverage for the AI-infrastructure book's power layer. The layer already holds eight reports and every one is about who owns electrons or who makes equipment; none covers the tier that physically builds the line, sets the substation and energises the site. This report supplies that reading, and part of the answer is negative: on 2026 disclosure, construction labour is not the binding constraint. Quanta grew revenue 41.2% year over year (Q2 2026 revenue of US$9.56B) while expanding Electric-segment operating margin from 10.1% to 11.5%, and raised its full-year revenue guide from US$33.25-33.75B to US$39.3-39.7B in five months (+17.9%, of which roughly US$4.7B is organic). A binding constraint does not behave that way. What does point at a bottleneck is Quanta's own capital allocation: US$1.24B in one quarter for Percheron (right-of-way and permitting), Enerfab (fabrication), PSD (transportable substations) and Phalcon (data-centre electrical), plus an 800 kV circuit-breaker joint venture - the money is going to the front end and to long-lead hardware. A second, equally important finding is negative: Quanta has reported only two segments since Q1 2025 (Renewable Energy was folded into Electric), discloses no data-centre revenue, and books and bills much data-centre work without it ever entering backlog, so this book cannot use PWR as an AI-demand thermometer. At the company level, total backlog is US$53.44B (+49.1%) and 12-month backlog US$32.31B (+61.2%), and the firm component is what grew - remaining performance obligations +75.1%, rising from 53.5% to 62.8% of backlog; H1 free cash flow of US$1,070.4M exceeds GAAP net income of US$672.0M; goodwill plus intangibles of US$11,085.0M exceed equity of US$9,637.9M. Anchored to the 2026-07-30 close of US$657.98 (+17.3% on the day of the print, +56.0% year-to-date), market cap is about US$98.9B at roughly 74.6x trailing reported earnings, 48.5x trailing adjusted net income and 30.2x EV/trailing adjusted EBITDA on the twelve months ended 2026-06-30, and 39.4x guided 2026 adjusted EPS against 56.4x guided GAAP EPS, versus listed peers at 15.7-24.7x. A 30% bull / 40% base / 30% bear grid opens the initiation at neutral-watch / medium conviction.",
+    "tags": [
+      "电网建设",
+      "EPC",
+      "输配电",
+      "AI基础设施"
+    ],
+    "category": "energy",
+    "date": "2026-07-31",
+    "lastUpdate": "2026-07-31",
+    "file": "/invest/research/reports/view.html?id=quanta-services-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Quanta_Services_深度研究报告_2026-07.md",
+      "en": "/invest/research/Quanta_Services_Deep_Research_Report_2026-07.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "并网约束检验的答案是否定的：施工劳动力不卡 AI 数据中心通电——收入 +41.2% 的同时电力分部利润率从 10.1% 升到 11.5%，全年收入指引五个月内上调 17.9%",
+      "Quanta 自己的资本配置指向前端：单季 12.4 亿美元买路权与许可（Percheron）、制造加工（Enerfab）、可移动式变电站（PSD）与数据中心电气（Phalcon），另建 800 kV 断路器合资厂",
+      "本书不能把 PWR 当 AI 温度计：自 2025 Q1 只报两个分部（可再生能源已并入电力）、无数据中心收入披露、大量数据中心工作接单即开票不进在手订单",
+      "在手订单变硬而非变软：总额 534.4 亿美元（+49.1%）、12 个月 323.1 亿美元（+61.2%），剩余履约义务 +75.1% 且占比由 53.5% 升至 62.8%",
+      "股价 657.98 美元（2026-07-30 收盘、业绩后单日 +17.3%）：追溯十二个月约 74.6x 报告盈利 / 48.5x 调整后净利润 / 30.2x 企业价值-调整后 EBITDA，2026 年指引 39.4x 调整后 EPS vs 56.4x GAAP EPS，同行 15.7-24.7x；30/40/30 网格，初始中性观察 / 中确信"
+    ],
+    "chainLayer": "power",
+    "coverageTier": "full",
+    "chainRole": "common-constraint",
+    "stance": "neutral-watch",
+    "conviction": "medium",
+    "priceAsOf": "2026-07-30",
+    "reportedPeriod": "Q2 2026",
+    "related": [
+      "gevernova-2026",
+      "constellation-energy-2026",
+      "vistra-2026",
+      "nrg-2026",
+      "vertiv-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "backlog-quality-mix",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "在手订单的硬/软构成：剩余履约义务相对主服务协议预估订单",
+          "en": "Backlog composition: remaining performance obligations versus estimated MSA orders"
+        },
+        "trigger": {
+          "zh": "剩余履约义务增速落后于主服务协议预估订单，或其占总在手订单比重从 62.8% 回落至约 55%",
+          "en": "remaining performance obligations grow more slowly than estimated MSA orders, or the RPO share of total backlog falls from 62.8% back toward about 55%"
+        },
+        "latest": {
+          "zh": "2026-06-30：总在手订单 534.4 亿美元（同比 +49.1%），12 个月 323.1 亿美元（+61.2%）；其中剩余履约义务 335.5 亿美元同比 +75.1%，主服务协议预估订单 198.9 亿美元仅 +19.2%，硬订单占比由一年前的 53.5% 升至 62.8%。　评级为阈内：本项发布的触发条件是硬订单增速落后于软订单，或其占比回落至约 55%，两者均未发生——硬的那部分增速是软的部分的近四倍。",
+          "en": "At 2026-06-30 total backlog was US$53.44B (+49.1% y/y) and 12-month backlog US$32.31B (+61.2%). Within that, remaining performance obligations of US$33.55B grew 75.1% while estimated MSA and short-term orders of US$19.89B grew 19.2%, lifting the firm share of backlog from 53.5% a year earlier to 62.8%. Graded within: this item's published trigger is RPO growing more slowly than MSA estimates, or the RPO share falling toward 55% - neither happened, and the firm component grew nearly four times as fast as the soft one."
+        },
+        "nextCheck": "2026 Q3 业绩的在手订单对账表（2026 年 10 月下旬）/ the Q3 2026 backlog reconciliation table, late October 2026",
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-06-30"
+      },
+      {
+        "id": "craft-labor-headroom",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "技术工人余量：电力分部营业利润率与收入增速的组合",
+          "en": "Craft-labour headroom: Electric segment operating margin against revenue growth"
+        },
+        "trigger": {
+          "zh": "电力分部营业利润率在追溯四个季度口径上压缩至 10% 以下，同时收入增速放缓；或管理层指引受劳动力限制的交付",
+          "en": "the Electric segment's operating margin compresses below 10% on a trailing-four-quarter basis while revenue growth decelerates, or management guides to labour-constrained delivery"
+        },
+        "latest": {
+          "zh": "2026 Q2 电力分部收入 78.378 亿美元（同比 +43.6%）、营业利润率 11.5%（去年同期 10.1%）；上半年 143.065 亿美元、10.2%（去年 9.2%）。地下与基础设施同期由 6.9% 升至 9.1%，全年收入指引同时被上调 17.9%。　评级为阈内：本项发布的触发条件是利润率压缩至 10% 以下且增速放缓，或管理层指引受劳动力限制——实际是利润率扩张、增速加快、指引上调，三者都与触发条件相反。需注意管理层关于四年学徒周期的说法意味着 2030 年产能由今天的招聘决定，因此本项近端为阈内并不排除远端绑定。",
+          "en": "Q2 2026 Electric revenue was US$7,837.8M (+43.6% y/y) at an 11.5% operating margin against 10.1% a year earlier; H1 revenue was US$14,306.5M at 10.2% against 9.2%. Underground and Infrastructure moved from 6.9% to 9.1% over the same comparison, and the full-year revenue guide was raised 17.9%. Graded within: this item's published trigger is margin compressing below 10% alongside decelerating growth, or management guiding to labour-constrained delivery - what happened is margin expansion, faster growth and a raised guide, the opposite of all three. Note that management's own roughly four-year apprenticeship framing means 2030 capacity is set by today's hiring, so a near-term within reading does not rule out a later binding constraint."
+        },
+        "nextCheck": "2026 Q3 分部利润率与收入增速（2026 年 10 月下旬）/ Q3 2026 segment margin and revenue growth, late October 2026",
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-06-30"
+      },
+      {
+        "id": "organic-vs-acquired-growth",
+        "thesis": "bear",
+        "theme": "execution",
+        "metric": {
+          "zh": "指引上调中内生与并购贡献的分解",
+          "en": "The organic-versus-acquired split of any guidance raise"
+        },
+        "trigger": {
+          "zh": "某次指引上调中公司自己给出的并购贡献占多数，或公司不再对并购贡献给出规模",
+          "en": "the company-sized acquisition contribution is a majority of a guidance raise, or the company stops sizing the acquisition contribution at all"
+        },
+        "latest": {
+          "zh": "2026-07-30 的上调把收入指引中值从 2 月的 335 亿美元抬到 395 亿美元（+60 亿）；公司自己把 Phalcon、Enerfab、Percheron、PSD 四笔并购的 2026 年贡献规模化为收入 12-14 亿美元、调整后 EBITDA 1.20-1.40 亿美元，因此约 47 亿美元（约 78%）归于既有业务。　评级为阈内：并购贡献是少数而非多数，且公司仍在给出规模。但需明确，Quanta 不公布内生增长率，上述 47 亿美元是本报告的推导而非披露——这正是本项存在的原因。",
+          "en": "The 2026-07-30 raise lifted the revenue guide midpoint from February's US$33.5B to US$39.5B (+US$6.0B), and the company itself sizes the FY2026 contribution of Phalcon, Enerfab, Percheron and PSD at US$1.2-1.4B of revenue and US$120-140M of adjusted EBITDA, leaving roughly US$4.7B (about 78%) attributable to the existing business. Graded within: the acquired contribution is a minority of the raise and the company is still sizing it. Note explicitly that Quanta publishes no organic growth rate, so the US$4.7B is this report's derivation rather than a disclosure - which is precisely why this item exists."
+        },
+        "nextCheck": "下一次指引变动及其并购贡献口径（2026 年 10 月下旬）/ the next guidance change and its acquisition-contribution disclosure, late October 2026",
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-07-30"
+      },
+      {
+        "id": "ai-attribution-disclosure",
+        "thesis": "bear",
+        "theme": "concentration",
+        "metric": {
+          "zh": "数据中心 / 科技终端市场的收入归因披露",
+          "en": "Disclosure of data-centre and technology end-market revenue attribution"
+        },
+        "trigger": {
+          "zh": "Quanta 开始把科技/负荷中心收入或在手订单单列，或披露单一客户占收入 10% 以上；在此之前，本书对 PWR 的任何 AI 归因都无法证伪",
+          "en": "Quanta begins disclosing technology or load-centre revenue or backlog as a separate line, or discloses a customer above 10% of revenue; absent that, any AI attribution to PWR in this book stays unfalsifiable"
+        },
+        "latest": {
+          "zh": "截至 2026 Q2：Quanta 自 2025 Q1 起只报两个分部（电力、地下与基础设施），可再生能源基础设施解决方案分部已并入电力且历史期间重述；无数据中心或科技终端市场收入披露；无 10% 以上客户披露；管理层并表示大量数据中心工作接单即开票、从不进入在手订单。　评级为读数不明而非阈内或已触发：本项的触发条件是某项披露出现，而该披露没有出现——这既不能确认也不能否定 AI 归因，而记录这个状态正是本项的意义。",
+          "en": "As of Q2 2026, Quanta reports two segments (Electric, and Underground and Infrastructure); the Renewable Energy Infrastructure Solutions segment was folded into Electric from Q1 2025 with prior periods recast; there is no data-centre or technology end-market revenue disclosure and no customer disclosed above 10%; and management states that much data-centre work is booked and billed without entering backlog. Graded unclear rather than within or breached: this item's trigger is the appearance of a disclosure, and that disclosure has not appeared - which neither confirms nor refutes an AI attribution, and recording that state is the point of the item."
+        },
+        "nextCheck": "2026 年 Form 10-K 的分部与客户集中度披露（2027 年 2 月）/ segment and customer-concentration disclosure in the FY2026 Form 10-K, February 2027",
+        "nextCheckDate": "2027-02",
+        "reading": "unclear",
+        "readingAsOf": "2026-07-30"
+      },
+      {
+        "id": "cash-conversion-tangible-book",
+        "thesis": "bear",
+        "theme": "leverage-solvency",
+        "metric": {
+          "zh": "自由现金流对 GAAP 净利润，以及商誉加无形资产对股东权益",
+          "en": "Free cash flow against GAAP net income, and goodwill plus intangibles against equity"
+        },
+        "trigger": {
+          "zh": "自由现金流连续两个半年度低于 GAAP 净利润，或商誉加无形资产超出股东权益 30% 以上",
+          "en": "free cash flow falls below GAAP net income for two consecutive half-years, or goodwill plus intangibles exceed equity by more than 30%"
+        },
+        "latest": {
+          "zh": "2026 上半年：经营现金流 14.872 亿美元、净资本开支 4.168 亿美元、自由现金流 10.704 亿美元，高于同期 GAAP 净利润 6.720 亿美元；2026-06-30 商誉 78.689 亿加其他无形资产 32.161 亿 = 110.850 亿美元，为股东权益 96.379 亿美元的约 115%（即超出 15%）。　评级为阈内：两条触发条件——连续两个半年度现金流低于净利润、无形资产超出权益 30% 以上——都未达到。但超出 15% 已意味着有形账面权益为负约 14.5 亿美元，距第二条触发线并不遥远。",
+          "en": "For H1 2026, operating cash flow was US$1,487.2M and net capital expenditures US$416.8M, giving free cash flow of US$1,070.4M against GAAP net income of US$672.0M. At 2026-06-30, goodwill of US$7,868.9M plus other intangibles of US$3,216.1M totalled US$11,085.0M, about 115% of the US$9,637.9M of stockholders' equity - an excess of 15%. Graded within: neither published clause is met - free cash flow exceeds net income rather than trailing it, and the intangible excess is 15% rather than above 30%. But the 15% excess already means tangible book equity is roughly negative US$1.45B, so the second clause is not far away."
+        },
+        "nextCheck": "2026 Q3 现金流量表与资产负债表（2026 年 10 月下旬）/ the Q3 2026 cash-flow statement and balance sheet, late October 2026",
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-06-30"
+      },
+      {
+        "id": "guidance-durability-vs-2030-target",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "2027 年指引相对 2030 年调整后每股收益目标的持久性",
+          "en": "Guidance durability: FY2027 guidance against the 2030 adjusted-EPS target"
+        },
+        "trigger": {
+          "zh": "2027 年初始指引隐含的调整后每股收益增速低于十几个百分点的中段，或 2030 年目标未被重申",
+          "en": "initial FY2027 guidance implies adjusted-EPS growth below the mid-teens, or the 2030 target is not reaffirmed"
+        },
+        "latest": {
+          "zh": "2026 年调整后每股收益指引中值 16.70 美元，较 2025 年实际 10.75 美元 +55.3%；投资者日报道的 2030 年目标为 21.60-26.75 美元（第三方报道，该活动未报送 Form 8-K），据此从 2026 年指引起算的隐含年复合增速仅 6.6%-12.5%，低于目标搭建时所依据的 15-20%。　本项暂不评级：2027 年初始指引要到 2027 年 2 月才发布，触发条件的两条都还不可观察，初始覆盖也没有可比对象。",
+          "en": "The FY2026 adjusted-EPS guide midpoint of US$16.70 is +55.3% over the FY2025 actual of US$10.75. The Investor Day 2030 target reported by third parties is US$21.60-26.75 (no Form 8-K was furnished for the event), which from the 2026 guide implies a CAGR of only 6.6-12.5%, below the 15-20% the target was built on. Left ungraded: initial FY2027 guidance is not due until February 2027, so neither clause of the trigger is observable yet and an initiation has nothing to compare against."
+        },
+        "nextCheck": "2026 全年业绩与 2027 财年初始指引（2027 年 2 月）/ FY2026 results and initial FY2027 guidance, February 2027",
+        "nextCheckDate": "2027-02"
+      }
+    ],
+    "stanceRationale": {
+      "zh": "以 657.98 美元（2026-07-30 收盘）计，市场已经把这次业绩完整定价进去——单日 +17.3%、年初至今 +56.0%。经营证据是全书里最强的一档：总在手订单 534.4 亿美元且增长的是硬的那部分（剩余履约义务 +75.1%、占比 53.5% → 62.8%），电力与地下两个分部利润率同时扩张，上半年自由现金流 10.704 亿美元高于 GAAP 净利润 6.720 亿美元，杠杆 1.6x 且穆迪上调至 Baa2。因此『谨慎』是不诚实的——这里没有下行尾部。但倍数也不允许偏多：约 74.6x 追溯报告盈利、48.5x 追溯调整后净利润、30.2x 企业价值/追溯调整后 EBITDA；2026 年指引 39.4x 调整后每股收益，而同一份指引的 GAAP 口径是 56.4x，两者 43.2% 的差额正是制造增长的那些并购所产生的摊销与股权激励；做重叠业务的上市同行只有 15.7-24.7x 前瞻。30/40/30 网格在概率上对称、在幅度上刻意不对称，这本身就是结论：下行分支不是经营塌陷，而是在业务完好前提下倍数向同行压缩，仅此一项算术上约 −40%；上行分支要求盈利长进一个已经是全板块最高的倍数里。确信度定为中而非高，是因为本报告为本书而存在的那个 AI 归因问题，从 Quanta 的备案文件中根本无法回答——两个分部、无数据中心收入行、大量工作不进在手订单。",
+      "en": "At US$657.98 (2026-07-30 close) the market has already priced the print in full - up 17.3% on the day and 56.0% year-to-date. The operating evidence is among the strongest in this book: total backlog of US$53.44B in which the firm component is what grew (remaining performance obligations +75.1%, rising from 53.5% to 62.8% of backlog), margin expansion in both segments, H1 free cash flow of US$1,070.4M against GAAP net income of US$672.0M, leverage at 1.6x and a Moody's upgrade to Baa2. Cautious would therefore be dishonest - there is no downside tail here. But the multiple does not permit constructive either: about 74.6x trailing reported earnings, 48.5x trailing adjusted net income and 30.2x EV to trailing adjusted EBITDA, and 39.4x guided 2026 adjusted EPS against 56.4x the GAAP version of the same guidance - a 43.2% gap that is precisely the amortisation and stock compensation created by the acquisitions that manufacture the growth - while listed peers doing overlapping work sit at 15.7-24.7x forward. The 30/40/30 grid is symmetric in probability and deliberately asymmetric in magnitude, and that is the finding: the bear branch is not an operating collapse but a multiple compression toward peers on an intact business, worth roughly -40% arithmetically, while the bull branch requires earnings to grow into the highest multiple in the sector. Conviction is medium rather than high because the AI-attribution question this report exists to answer for the book is simply unanswerable from Quanta's filings - two segments, no data-centre revenue line, and much of the work never entering backlog."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "2027 年初始指引隐含调整后每股收益继续 20%+ 增长且电力分部营业利润率守在 11% 以上，创纪录的剩余履约义务在没有重大项目减值的情况下转化，剩余履约义务占总在手订单比重守在 60% 以上，且进一步指引上调中内生部分仍占多数，则上调至偏多。",
+        "en": "Upgrade to constructive if initial FY2027 guidance implies continued 20%+ adjusted-EPS growth with the Electric segment holding an 11%+ operating margin, the record remaining performance obligations convert without a material project charge, the RPO share of total backlog holds above 60%, and the organic component remains the majority of any further guidance raise.",
+        "monitoringIds": [
+          "backlog-quality-mix",
+          "craft-labor-headroom",
+          "organic-vs-acquired-growth",
+          "guidance-durability-vs-2030-target"
+        ]
+      },
+      "downgrade": {
+        "zh": "电力分部出现重大项目减值或利润率回吐、2027 年指引隐含调整后每股收益增速低于十几个百分点的中段、硬性剩余履约义务占在手订单比重回落至约 55%、并购成为某次指引上调的主要来源，或自由现金流连续两个半年度低于 GAAP 净利润而商誉与无形资产相对股东权益继续上升，则下调至谨慎。",
+        "en": "Downgrade to cautious on a material project charge or margin reversal in the Electric segment, FY2027 guidance implying sub-mid-teens adjusted-EPS growth, the firm RPO share of backlog falling back toward 55%, acquisitions becoming the majority of a guidance raise, or free cash flow falling below GAAP net income for two consecutive half-years while goodwill and intangibles keep rising against equity.",
+        "monitoringIds": [
+          "backlog-quality-mix",
+          "craft-labor-headroom",
+          "organic-vs-acquired-growth",
+          "ai-attribution-disclosure",
+          "cash-conversion-tangible-book",
+          "guidance-durability-vs-2030-target"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-07-31",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 657.98
+      }
+    ]
+  },
+  {
     "id": "alphabet-2026",
     "company": "Alphabet",
     "ticker": "NASDAQ: GOOG",

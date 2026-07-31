@@ -386,6 +386,18 @@
       "currency": "USD"
     },
     {
+      "reportId": "quanta-services-2026",
+      "symbol": "PWR",
+      "status": "ok",
+      "attemptedAt": "2026-07-31",
+      "baseDate": "2026-07-30",
+      "basePrice": 657.98,
+      "lastDate": "2026-07-30",
+      "lastClose": 657.98,
+      "changePct": 0.0,
+      "currency": "USD"
+    },
+    {
       "reportId": "alphabet-2026",
       "symbol": "GOOG",
       "status": "ok",

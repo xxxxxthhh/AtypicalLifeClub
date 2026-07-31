@@ -344,6 +344,17 @@
       "stale": false
     },
     {
+      "reportId": "quanta-services-2026",
+      "stance": "neutral-watch",
+      "conviction": "medium",
+      "stanceDate": "2026-07-31",
+      "priceAtStance": 657.98,
+      "benchmarkSymbol": "PAVE",
+      "status": "pending",
+      "daysHeld": 0,
+      "stale": false
+    },
+    {
       "reportId": "alphabet-2026",
       "stance": "neutral-watch",
       "conviction": "medium",
