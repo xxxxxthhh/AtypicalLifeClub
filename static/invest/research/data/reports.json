@@ -3585,7 +3585,7 @@
     "ticker": "NASDAQ: AMZN",
     "title": "Amazon 深度研究报告 - AI基础设施豪赌与飞轮加速",
     "titleEn": "Amazon Deep Research Report - The AI Infrastructure Bet and Flywheel Acceleration",
-    "summary": "全球最大电商+云计算巨头。Q1 FY2026实际营收$181.5B(+17%, AWS加速至+28%创15季新高), 营业利润$23.9B(13.1%利润率创纪录); 净利润$30.3B含约$16.8B Anthropic投资一次性收益。$200B CapEx计划推进中, FCF承压(TTM $9.8B)。估值快照(2026-06-25)：股价$228.15、市值~$2.52T、GAAP P/E 27.75x/正常化~31.6x。核心张力: AI基础设施豪赌的回报周期 vs 零售+云+广告三引擎的利润动能。2026-07-17：完成约$24.9B高级票据发行(招股书用途为一般公司用途，非专项AI；处于$200B AI capex周期)，净债务/EV口径待Q2财报(07-30)后重建。",
+    "summary": "2026-07-31 Q2/估值更新：Amazon Q2营收$200.606B(+20%)，AWS $42.232B(+37%、18季最快)且分部营业利润$16.621B/利润率39.4%；合并营业利润$27.461B。净利润$62.647B含$53.415B其他收益(主要为Anthropic重估)，不能直接代表经营盈利。TTM经营现金流$161.403B，但PP&E购置净额$169.007B使FCF降至-$7.604B。按2026-07-30 Nasdaq官方收盘$235.50，市值约$2.539T、窄口径EV约$2.545T、EV/TTM sales约3.28x；维持谨慎看多，核心矛盾仍是AWS/广告利润池能否为现金密集型AI扩建提供足够回报。",
     "tags": [
       "云计算",
       "电商",
@@ -3594,23 +3594,23 @@
     ],
     "category": "tech",
     "date": "2026-02-11",
-    "lastUpdate": "2026-07-17",
+    "lastUpdate": "2026-07-31",
     "file": "/invest/research/reports/view.html?id=amzn-2026",
     "markdownFiles": {
       "zh": "/invest/research/AMZN_深度研究报告_2026-02.md",
       "en": "/invest/research/AMZN_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "Q1 FY2026 AWS加速至+28%(15季新高), AI服务年化收入超$150亿",
-      "$200B CapEx大部分投向AI基础设施, 短期FCF受压(TTM $9.8B)但长期构筑护城河",
-      "Q1营业利润$23.9B(13.1%利润率创纪录); 广告收入继续+20%+增长, 成第三利润引擎",
-      "GAAP P/E 27.75x(含$16.8B Anthropic一次性收益)/正常化~31.6x, EV/EBITDA约16.6x",
-      "2026-07-17：完成约$24.923B多档高级票据发行(2026-07-09；利率约4.60%-6.25%，2029-2066到期)；招股书用途为一般公司用途(非专项AI基础设施)；长期债务较FY2025的$65.6B上升，EV口径待Q2重建"
+      "Q2 FY2026 AWS收入$42.232B(+37%、18季最快)，营业利润$16.621B、利润率39.4%",
+      "AWS AI业务与芯片业务各自年化收入均超过$25B；不据此推断任何供应商份额或订单",
+      "TTM经营现金流$161.403B，但PP&E购置净额$169.007B使TTM FCF降至-$7.604B",
+      "Q2现金/有价证券$122.988B、长期债务$128.894B；净利润受$53.415B Anthropic相关其他收益扭曲",
+      "2026-07-30收盘$235.50：市值约$2.539T、窄口径EV约$2.545T、EV/TTM sales约3.28x；维持谨慎看多"
     ],
     "period": "2026H1",
     "versionType": "incremental",
     "versionLabel": "2026H1 Incremental Update",
-    "summaryEn": "Global e-commerce + cloud leader. Q1 FY2026 actuals: revenue $181.5B (+17%, AWS accelerated to +28% — a 15-quarter high), op income $23.9B (record 13.1% margin); net income $30.3B included a ~$16.8B one-time Anthropic investment gain. $200B CapEx plan underway, FCF pressured (TTM $9.8B). Valuation snapshot (2026-06-25): price $228.15, MC ~$2.52T, GAAP P/E 27.75x / normalized ~31.6x. Core tension: AI infra bet payback timeline vs retail+cloud+ads profit momentum. 2026-07-17: completed ~$24.9B senior notes (424B5 use-of-proceeds is general corporate purposes, not AI-earmarked; amid its ~$200B AI capex cycle); net debt / EV to be rebuilt after Q2 earnings (07-30)."
+    "summaryEn": "July 31, 2026 Q2/valuation update: Amazon Q2 revenue was $200.606B (+20%); AWS reached $42.232B (+37%, fastest in 18 quarters) with $16.621B segment operating income / 39.4% margin, and consolidated operating income was $27.461B. Net income of $62.647B included $53.415B of other income, primarily an Anthropic mark-up, and is not a clean operating-earnings measure. TTM operating cash flow was $161.403B, but $169.007B of PP&E purchases net of proceeds/incentives drove FCF to -$7.604B. At the July 30 Nasdaq official close of $235.50, market cap was about $2.539T, narrow EV about $2.545T, and EV/TTM sales about 3.28x. Cautiously bullish stance retained; the core tension remains whether AWS/advertising profit can earn an adequate return on the cash-intensive AI buildout."
   },
   {
     "id": "netflix-2026",

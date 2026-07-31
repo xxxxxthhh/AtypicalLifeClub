@@ -1,5 +1,32 @@
 [
   {
+    "id": "amazon-q2-2026-aws-capex-cash-conversion",
+    "date": "2026-07-30",
+    "title": {
+      "zh": "Amazon 2026 Q2：AWS +37% 至 $42.232B、分部利润率 39.4%，但 TTM FCF 降至 -$7.604B",
+      "en": "Amazon Q2 2026: AWS +37% to $42.232B at 39.4% segment margin, while TTM FCF fell to -$7.604B"
+    },
+    "detail": {
+      "zh": "据 Amazon 官方 2026 Q2 财报 / Form 8-K Exhibit 99.1（2026-07-30，季度截至 2026-06-30）：总营收 $200.606B（同比 +20%），AWS 分部营收 $42.232B（+37%，18 个季度最快）、营业利润 $16.621B、利润率 39.4%；AWS AI 业务与芯片业务各自年化收入均超过 $25B。合并营业利润 $27.461B，TTM 经营现金流 $161.403B，但 PP&E 购置额扣除出售与激励后为 $169.007B，使 TTM FCF 降至 -$7.604B。Q2 净利润 $62.647B 含 $53.415B 其他收益（主要为 Anthropic 投资重估），不能直接代表经营盈利。作为 chip-vs-downstream / buildout-orders 读数，AWS 增速、分部利润和总量 PP&E 现金支出同向增强，支持超大规模建设需求未失速；作为 application-monetization 读数，AWS AI 年化收入超过 $25B 且 AWS 分部有 39.4% 利润率，强于只有吞吐量而无利润的证据。证据边界：官方财报稿未披露上调后的 FY2026 capex 总额、内存涨价归因、供应商级订单或份额，因此本条不采用媒体转述的约 $220B，也不映射 memory-cycle / capacity-resale，且不推断 NVDA/AVGO/VRT/GEV 的交付或并网节奏。Amazon 已由 amzn-2026 覆盖；该报告同步更新 Q2 事实、资产负债表、日期锚定估值与双语审计轨迹，维持谨慎看多，不改变任何链级 taxonomy。",
+      "en": "Per Amazon's official Q2 2026 release / Form 8-K Exhibit 99.1 (July 30, 2026; quarter ended June 30), total revenue was $200.606B (+20% YoY); AWS segment revenue was $42.232B (+37%, fastest in 18 quarters), operating income was $16.621B, and segment margin was 39.4%. AWS's AI business and chips business each exceeded a $25B annual revenue run rate. Consolidated operating income was $27.461B and TTM operating cash flow was $161.403B, but $169.007B of PP&E purchases net of proceeds and incentives drove TTM FCF to -$7.604B. Q2 net income of $62.647B included $53.415B of other income, primarily an Anthropic investment mark-up, and is not a clean operating-earnings measure. As chip-vs-downstream / buildout-orders evidence, AWS growth, segment profit, and aggregate PP&E cash use strengthened together, supporting that hyperscaler buildout demand has not stalled. As application-monetization evidence, an AWS AI run rate above $25B alongside a 39.4% AWS segment margin is stronger than throughput without profit. Evidence limits: the official release did not disclose a revised FY2026 capex total, memory-price attribution, supplier-level orders, or supplier share. This entry therefore excludes the media-reported roughly $220B figure, does not map the event to memory-cycle or capacity-resale, and does not infer delivery share or interconnection cadence for NVDA/AVGO/VRT/GEV. Amazon is covered by amzn-2026; that report is updated in parallel for Q2 facts, the balance sheet, dated valuation, and bilingual audit trail while retaining the cautiously bullish stance and adding no chain taxonomy."
+    },
+    "crossChecks": [
+      "chip-vs-downstream",
+      "buildout-orders",
+      "application-monetization"
+    ],
+    "tickers": [
+      "AMZN",
+      "NVDA",
+      "AVGO",
+      "VRT",
+      "GEV"
+    ],
+    "reportIds": [
+      "amzn-2026"
+    ]
+  },
+  {
     "id": "microsoft-q4-fy2026-capex-azure",
     "date": "2026-07-29",
     "title": {
