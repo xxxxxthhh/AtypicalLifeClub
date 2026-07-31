@@ -15,9 +15,11 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 > **2026-07-31 valuation re-anchor.** No new quarter was reported (Marvell's next print is scheduled for 2026-08-27), so the operating fact base below is unchanged. MRVL fell from $245.23 (2026-07-02 anchor) to **$163.40** at the **2026-07-29 close**, **−33.4%**, as part of a verified chain-wide July 2026 AI-infrastructure repricing (no corporate actions). On ~875.8M shares that is a market cap of about **$143.1B** (old caliber ~$214.6B) and an enterprise value of about **$144.5B**.
 >
-> Recomputed on the report's own revenue scenarios: EV/Sales is now about **12.6x** on an $11.5B FY2027 outcome and about **8.8x** on the $16.5B FY2028 case — against the old **~19x FY2027E** and **~13x FY2028** stated below. The report's line "this is not a cheap semiconductor stock" was calibrated to ~19x; at ~12.6x it is a materially different claim.
+> Recomputed on the report's own revenue scenarios at that 07-29 trough: EV/Sales was about **12.6x** on an $11.5B FY2027 outcome and about **8.8x** on the $16.5B FY2028 case — against the old **~19x FY2027E** and **~13x FY2028** stated below. *Those are superseded intermediate readings; the current figures are the 07-30 ones in the re-adjudication block below.* The report's line "this is not a cheap semiconductor stock" was calibrated to ~19x; at the current ~14.1x it is a materially different claim.
 >
 > Stance stays **cautious / medium conviction** and the grid is not re-weighted: the execution question — whether the custom-silicon socket wins convert to revenue — is untouched by a price move, and the 2026-08-27 print is the next real evidence. See Q1 of the review questions doc.
+
+> **2026-07-31 stance re-adjudication at the 2026-07-30 close — supersedes the "grid is not re-weighted / pending" language in the old note above.** Owner ruling on Q1 of the review-questions doc (2026-07-31): a published stance and its rationale must hold at the current price — the assessment is re-derived at the latest completed close rather than held open for future evidence. MRVL closed at **$183.30** on **2026-07-30**, +12.2% off the old 2026-07-29 low of $163.40 and **-25.3%** from the old $245.23 anchor. On ~875.8M shares: market cap about **$160.5B**, enterprise value about **$161.9B**; EV/Sales about **14.1x** on the $11.5B FY2027 outlook and about **9.8x** on the $16.5B FY2028 case (old caliber ~19x / ~13x; 07-29 old low ~12.6x / ~8.8x). The 07-30 bounce partially restored the premise: at ~14.1x forward sales — where the denominator is itself the raised outlook, not delivered revenue — the market still pre-pays a clean FY2027 ramp, even though the additional "keep compounding" bar has come down materially. With custom-ASIC socket conversion, optical attach and margin unproven until 2026-08-27, a mildly negative expectation gap survives at the current price in weakened form. **Stance stays cautious (medium conviction) — held on this restated current-price arithmetic, not on the old ~19x claim.** Grid weights (20/50/30) re-checked and retained; this discharges the scenario-grid-reweight-pending monitoring item.
 
 **Current view:** **Cautious / medium conviction: negative skew despite real optionality.** MRVL is valuable because it cross-checks the Broadcom report. If AVGO represents the higher-certainty route of large-customer XPU plus VMware cash flow, MRVL represents the higher-upside route with more customer diversity, more optical / networking exposure, and weaker project visibility. The v5 split matters: this is not a low-quality business call, but at the dated price the scenario work says execution risk and valuation denominator risk outweigh the upside optionality.
 
@@ -25,8 +27,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 | Metric | Value |
 |--------|-------|
-| Share price | **$163.40** (2026-07-29 close); old anchor $245.29 (2026-07-02) |
-| Market cap / shares | **About $143.1B** (2026-07-29); about 875.8M shares. Old caliber ~$214.6B |
+| Share price | **$183.30** (2026-07-30 close); superseded intermediate $163.40 (07-29); old anchor $245.29 (2026-07-02) |
+| Market cap / shares | **About $160.5B** (2026-07-30 close); about 875.8M shares. Superseded intermediate ~$143.1B; old caliber ~$214.6B |
 | Enterprise value | About (old caliber) $215.7B (about $1.1B net debt) |
 | Latest reported period | FY2027 Q1 (quarter ended Apr 30, 2026) |
 | Q1 revenue / gross profit | $2.42B / $1.26B |
@@ -82,9 +84,9 @@ MRVL's financial profile is small revenue base, fast AI growth, high valuation, 
 | FY2027 revenue outlook | Public reports frame about $11.5B | Requires second-half and custom ASIC ramp delivery | A / Caution |
 | FY2028 revenue outlook | Public reports frame about $16.5B | Upside comes from XPU, optics, and Celestial | A / Caution |
 | Balance sheet | Cash+ST investments $3.84B, total debt $5.28B, net debt about $1.12B | Financial risk is manageable | B+ |
-| Valuation | **About $143.1B cap, about 12.6x FY2027E EV/Sales** (old caliber: $214.6B, ~19x) | Tolerance for execution slips is wider than before, but the slip risk is unchanged | Caution |
+| Valuation | **About $160.5B cap, about 14.1x FY2027E EV/Sales** (superseded intermediate ~$143.1B / ~12.6x; old caliber: $214.6B, ~19x) | Tolerance for execution slips is wider than before, but the slip risk is unchanged | Caution |
 
-*Old text, superseded 2026-07-31: "This is not a cheap semiconductor stock. If FY2028 revenue really reaches $16.5B, current EV/Sales is still about 13x. If FY2027 revenue is closer to $11.5B, it is about 19x."* **Re-anchored: at $163.40 and ~$144.5B EV, EV/Sales is about 8.8x on the $16.5B FY2028 case and about 12.6x on an $11.5B FY2027 outcome.** The shape of the argument is unchanged — the multiple still depends entirely on which revenue path lands — but the level no longer supports "not a cheap semiconductor stock" as stated.
+*Old text, superseded 2026-07-31: "This is not a cheap semiconductor stock. If FY2028 revenue really reaches $16.5B, current EV/Sales is still about 13x. If FY2027 revenue is closer to $11.5B, it is about 19x."* **Re-adjudicated: at the 2026-07-30 close of $183.30 and ~$161.9B EV, EV/Sales is about 9.8x on the $16.5B FY2028 case and about 14.1x on an $11.5B FY2027 outcome** (superseded intermediate: ~8.8x / ~12.6x at the 07-29 trough). The shape of the argument is unchanged — the multiple still depends entirely on which revenue path lands — but the level no longer supports "not a cheap semiconductor stock" as stated.
 
 ## 4. Management & Governance
 
@@ -110,7 +112,7 @@ The bear case is that MRVL's story is large, but the near-term financial denomin
 
 1. **Customer-project visibility is low.** AWS Trainium, Microsoft Maia, and generational share shifts remain opaque.
 2. **Broadcom is the stronger competitor.** AVGO has larger custom XPU scale, stronger cash flow, and more customer lock-in.
-3. **Valuation is high — weakened 2026-07-31.** ~~Roughly 19x FY2027E EV/Sales is sensitive to any revenue delay.~~ **At the re-anchored $163.40, EV/Sales is roughly 12.6x FY2027E.** Sensitivity to revenue delay is unchanged in kind but smaller in degree.
+3. **Valuation is high — weakened 2026-07-31.** ~~Roughly 19x FY2027E EV/Sales is sensitive to any revenue delay.~~ **At the re-anchored old 07-29 price of $163.40, EV/Sales was roughly 12.6x FY2027E; about 14.1x at the 07-30 re-adjudication close (see the header).** Sensitivity to revenue delay is unchanged in kind but smaller in degree.
 4. **Celestial AI contribution is later-dated.** The deal strengthens the stack, but meaningful revenue comes later and integration risk exists.
 5. **NVLink Fusion may be ecosystem lock-in rather than profit transfer.** NVIDIA supplies fabric and key system components, so MRVL's bargaining power may be limited.
 
@@ -134,26 +136,26 @@ Thesis-breaking conditions:
 
 ## 8. Valuation Context
 
-The following is valuation context, not a recommendation. **Re-anchored 2026-07-31: the price anchor is the 2026-07-29 close of $163.40** (old anchor $245.29 on 2026-07-02).
+The following is valuation context, not a recommendation. **Re-adjudicated 2026-07-31: the price anchor is the 2026-07-30 close of $183.30** (superseded intermediate: the 07-29 trough close of $163.40; old anchor $245.29 on 2026-07-02).
 
 | Method | Current readout | Interpretation |
 |--------|-----------------|----------------|
-| Market cap | **About $143.1B** (old caliber ~$214.6B) | Still priced as an AI custom silicon platform, at a materially lower multiple |
+| Market cap | **About $160.5B** (superseded intermediate ~$143.1B; old caliber ~$214.6B) | Still priced as an AI custom silicon platform, at a materially lower multiple |
 | EV | About (old caliber) $215.7B | Net debt is modest; valuation is mostly equity premium |
 | EV/TTM Sales | About 25x | Current revenue run-rate cannot support valuation; forward matters |
-| EV/FY2027E Sales | **About 12.6x** using $11.5B; old caliber ~19x | Execution tolerance is wider than before |
-| EV/FY2028E Sales | **About 8.8x** using $16.5B; old caliber ~13x | Still requires delivery to explain |
+| EV/FY2027E Sales | **About 14.1x** using $11.5B; superseded intermediate ~12.6x; old caliber ~19x | Execution tolerance is wider than before |
+| EV/FY2028E Sales | **About 9.8x** using $16.5B; superseded intermediate ~8.8x; old caliber ~13x | Still requires delivery to explain |
 | FCF yield | TTM FCF about $1.66B, less than 1% of EV | Not a current cash-flow valuation story |
 
 **Scenario grid:**
 
-| Scenario | Driver assumptions (custom ASIC ramp / optical attach / margin / multiple regime) | Valuation implication *(stale — written against the $245.29 / ~19x frame)* | Probability weight *(stale — not re-weighted)* |
+| Scenario | Driver assumptions (custom ASIC ramp / optical attach / margin / multiple regime) | Valuation implication *(stale — written against the $245.29 / ~19x frame)* | Probability weight *(stale as written — re-adjudicated 2026-07-31: weights retained)* |
 |----------|------------------------------------------------------------------------------------|--------------------------------------------------|--------------------|
 | Bull | AWS, Microsoft, and additional hyperscaler custom ASIC programs ramp together; NVLink Fusion becomes recognized revenue rather than only ecosystem positioning; Celestial AI adds credible FY2028 optical-fabric milestones; FY2028 revenue moves toward the $16.5B frame with improving operating leverage; the market keeps paying an AI-platform EV/Sales premium | The current price can work if MRVL becomes the scarce multi-customer custom-silicon plus optical platform outside Broadcom | 20% |
 | Base | FY2027 revenue moves toward the $11.5B frame but customer/project cadence remains opaque; data-center revenue grows while Celestial AI contribution stays later-dated; operating margin improves gradually but does not yet resemble Broadcom quality; EV/Sales remains high because investors keep paying for optionality | The current price is fair-to-rich: the strategic option is real, but the base case leaves little room for project slippage | 50% |
 | Bear | AWS / Microsoft ramps slip, Broadcom / Alchip / internal teams take more share, NVLink Fusion economics prove limited, Celestial integration is delayed, and FY2027/FY2028 revenue expectations move down; the market re-rates MRVL from AI platform to expensive cyclical semiconductor | The current price would look clearly rich because the revenue denominator and the option multiple would fall together | 30% |
 
-**What's priced in & the expectation gap (rewritten 2026-07-31):** *Old frame, superseded: $245.29, ~$215.7B EV, 19x FY2027E sales on the public $11.5B frame and 13x FY2028E sales.* At **$163.40**, about **$144.5B** EV, **~12.6x** FY2027E sales and **~8.8x** FY2028E sales, the market requires materially less of the revenue ramp than it did. The implied growth bar that produced the negative gap has dropped with the multiple, so that arithmetic is weakened; the execution questions — custom-ASIC socket conversion, optical attach, and margin — are entirely unchanged and were not resolved by the price move.
+**What's priced in & the expectation gap (rewritten 2026-07-31):** *Old frame, superseded: $245.29, ~$215.7B EV, 19x FY2027E sales on the public $11.5B frame and 13x FY2028E sales.* At the adopted **2026-07-30 close of $183.30**, about **$161.9B** EV, **~14.1x** FY2027E sales and **~9.8x** FY2028E sales, the market requires less of the revenue ramp than it did, but the denominator is still the raised outlook rather than delivered revenue. The implied growth bar that produced the negative gap has dropped with the multiple, so that arithmetic is weakened rather than gone; the execution questions — custom-ASIC socket conversion, optical attach, and margin — are entirely unchanged and were not resolved by the price move.
 
 MRVL's valuation is a bet on future revenue slope. It does not have Broadcom's VMware cash flow or NVIDIA's current profit pool. It is more like a high-upside AI architecture option whose option premium is already expensive.
 
@@ -174,7 +176,7 @@ Structured monitoring should focus on custom ASIC design wins, AWS / Microsoft p
 
 Marvell's chain-validation job is to test whether custom ASIC, optical interconnect, and NVIDIA-compatible ecosystems can evolve into an investable architecture path beyond Broadcom. Broadcom explains large-scale XPU plus software cash flow; Marvell tests the higher-upside but less visible path through AWS Trainium, Microsoft Maia, NVLink Fusion, and silicon photonics.
 
-**2026-07-31 update — the basis for this has changed.** *Old text: the expectation gap is negative: at $245.29 and about 19x FY2027E sales, the market already requires the FY2027/FY2028 revenue ramp to land cleanly and then keep compounding.* At **$163.40** and about **12.6x** FY2027E sales, that implied bar has moved down materially and the arithmetic behind the negative gap is weaker. Execution uncertainty is unchanged; grid and stance are unmoved pending the 2026-08-27 print.
+**2026-07-31 update — the basis for this has changed.** *Old text: the expectation gap is negative: at $245.29 and about 19x FY2027E sales, the market already requires the FY2027/FY2028 revenue ramp to land cleanly and then keep compounding.* At the adopted **2026-07-30 close of $183.30** and about **14.1x** FY2027E sales, that implied bar has moved down materially and the arithmetic behind the negative gap is weaker but still present on an undelivered outlook. Execution uncertainty is unchanged; the grid weights and the cautious stance stand on that restated arithmetic, with the 2026-08-27 print the next test.
 
 The current stance is **cautious, medium conviction**. The 20% bull / 50% base / 30% bear grid separates upside variance from expected skew: MRVL can still be a very important architecture winner, but the dated price gives more weight to execution and multiple-compression risk than to underpriced upside. Medium conviction reflects strong strategic evidence but incomplete customer/project visibility.
 

@@ -10,8 +10,42 @@ Answer them in one pass at the end; nothing here blocks the rest of the review.
 
 ## Q1 — STRUCTURAL: after a 25–55% decline, does a stance premised on "too expensive" survive?
 
-**Status: raised. Every affected stance held unchanged pending your answer. This is one decision
-you make once and I apply across the set — not sixteen separate questions.**
+**Status: ANSWERED 2026-07-31 — owner ruled for option 1, generalized: a report's published
+stance and rationale must be true at the CURRENT price.** A reader at any time must see an
+assessment of the present setup, anchored to the latest completed close — never a stale judgment
+waiting for future evidence. Applied 2026-07-31 across all 17 reports carrying the
+`scenario-grid-reweight-pending` marker (branch `codex/q1-stance-readjudication-2026-07-31`).
+Critically, this was **not** "flip everything cheap": prices bounced hard on 07-30 (SNDK +26%,
+BE +26.5%, NBIS +27%, AMAT +15% — but VRT only +2%), so each report's arithmetic was recomputed
+fresh at the latest completed close (07-30 US; 07-31 KRX for SK hynix) before re-deriving the
+stance. Outcomes:
+
+| Report | Old stance | New stance | One-line reason |
+|---|---|---|---|
+| applied-materials-2026 | cautious | **neutral-watch** | at $501.77, ~11.1x EV/annualized sales sits just above the report's own 8–10x band — the mildly negative gap is gone |
+| lam-research-2026 | neutral-watch | neutral-watch | at $297.72, ~13.8x EV/June-annualized: elevated but no longer stretched; skew still balanced |
+| kla-2026 | cautious | **neutral-watch** | at $180.33, ~17.3x EV/annualized rev vs improved Q4 evidence — the below-embedded-expectation claim fails; premium multiple caps it at neutral |
+| nebius-2026 | cautious | cautious | +27% bounce restored the premise: ~47x P/S is again paying for the winning-neocloud story |
+| coreweave-2026 | bearish-avoid | bearish-avoid | the case is EV-anchored (~$66B on ~$32.9B net debt, only ~−8% from anchor); structural legs unchanged |
+| vertiv-2026 | cautious | **neutral-watch** | at $227.50 / ~34x raised guide, the reverse-multiple frame implies ~10% EPS CAGR, not ~24% — the bar the caution rested on is gone |
+| corning-2026 | neutral-watch | neutral-watch | at $135.22, ~43.4x 2026E core EPS still underwrites multi-year optical growth; neutral remains true |
+| aaoi-2026 | cautious | cautious | multiple arithmetic stays dissolved (~13.8x), but negative OCF, ATM dilution and concentration are independent legs; rationale re-founded |
+| sandisk-2026 | cautious | **neutral-watch** | at $1,279.96 the 12–15x frame implies $85–107 sustainable EPS, still below the $120–132 peak guide — inversion held through the bounce |
+| sk-hynix-2026 | cautious | **neutral-watch** | at ₩1,718,000, P/S ~6.5x ≈ February's 6.3x start; the 28x/16x arithmetic is gone; peak-cycle durability caps it at neutral |
+| almonty-2026 | cautious | cautious | ~66x sales was never the basis — Sangdong execution risk vs the scarcity option is untouched by price |
+| bloom-energy-2026 | cautious | **neutral-watch** | at $207.12, ~15.1x the raised guide vs the ~26x premise, with the report's own 32%+ GM bar cleared (34.3%) |
+| neov-2026 | cautious | cautious | sub-$100M micro-cap; contraction/dilution/runway legs untouched by the price move |
+| oklo-2026 | constructive | constructive | at $41.09 (~$7.1B cap) the positive skew vs the ~$12.6B grid reference is wider than before |
+| micron-2026 | cautious | cautious | at $874.66 implied sustainable EPS $58–73 still exceeds the weighted ~$53 — the gap narrowed but holds |
+| marvell-2026 | cautious | cautious | ~14.1x EV/Sales on the *undelivered* FY2027 outlook still pre-pays a clean ramp; weakened negative gap survives |
+| coherent-2026 | cautious | **neutral-watch** | at $249.06, implied ~16–24% growth is at/below delivered demand evidence; unproven FCF conversion caps it at neutral |
+
+Scenario-grid probability weights were re-checked and retained on all 17 (they encode
+fundamental path probabilities, not the old multiple); the grids' valuation-implication columns
+are marked to be read against the new anchors, and every `scenario-grid-reweight-pending`
+monitoring item is discharged.
+
+*The original question as raised:*
 
 Seventeen reports fell more than 25% from their own price anchors in July 2026 (verified as a real
 move, no corporate actions). Most of them carried a `cautious` or `bearish-avoid` stance whose
@@ -55,6 +89,14 @@ Every affected report carries a `scenario-grid-reweight-pending` monitoring item
 silently drops off the review queue while this is open.
 
 ## Q2 — A large earnings wave lands within days of this pass. Second pass, or let the daily job catch it?
+
+**Status: SUBSUMED by the Q1 ruling (2026-07-31).** Under "the stance must be true at the
+current price", every earnings print is integrated through the normal per-earnings workflow and
+the daily job, and each integration re-derives the assessment at the then-current close — so no
+separate scheduled second pass is needed. The 17 re-adjudicated reports each carry their next
+print date in their monitoring items.
+
+*The original question as raised:*
 
 At the time of this review it is **2026-07-30, mid-session US time**. The review is anchored to
 the **2026-07-29 close** (last completed session). Within the next two weeks a large share of
