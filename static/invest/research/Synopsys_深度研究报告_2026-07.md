@@ -11,18 +11,20 @@
 
 > **框架角色：** Synopsys 是 AI 基建 EDA/IP 层的公共约束。本报告的任务是验证链条信号，而不是把单一公司数据直接变成投资建议。
 
-**一句话论点：** AI 基础设施 eda-ip 层的公共约束：SNPS 验证 AI silicon 需求是否穿透到 design automation、verification、simulation、IP blocks 和 system-level complexity。FY2026 Q2 revenue $2.276B（去年同期 $1.604B）、GAAP EPS $0.09、non-GAAP EPS $3.35；FY2026 指引 revenue $9.625-9.705B、non-GAAP EPS $14.72-14.80、FCF 约 $2.0B。指引包含约 $2.96B Ansys revenue，并假设没有进一步 export-control / Entity List 变化。当前 $437.16、市值约 $83.7B、EV 约 $92.1B，约 9.5x EV/FY2026E sales、约 29.6x non-GAAP P/E。偏多 / 中确信：AI EDA/IP durability 与 Ansys 仿真资产让基准情景略高于市场隐含要求，但整合、出口和客户周期性仍限制确信度。
+**一句话论点：** AI 基础设施 eda-ip 层的公共约束：SNPS 验证 AI silicon 需求是否穿透到 design automation、verification、simulation、IP blocks 和 system-level complexity。FY2026 Q2 revenue $2.276B（去年同期 $1.604B）、GAAP EPS $0.09、non-GAAP EPS $3.35；FY2026 指引 revenue $9.625-9.705B、non-GAAP EPS $14.72-14.80、FCF 约 $2.0B。指引包含约 $2.96B Ansys revenue，并假设没有进一步 export-control / Entity List 变化。以 2026-07-30 收盘 $372.33 计，市值约 $71.3B、EV 约 $79.7B，约 8.2x EV/FY2026E sales、约 25.2x non-GAAP P/E。偏多 / 中确信：AI EDA/IP durability 与 Ansys 仿真资产让基准情景略高于市场隐含要求，但整合、出口和客户周期性仍限制确信度。
 
 **当前判断：** **偏多 / 中确信。** v5 情景网格把旧的中性观察重新拆开：SNPS 的估值没有 CDNS 那么拥挤，Ansys 把 simulation 与 EDA/IP durability 合并到同一个平台，30% 牛市 / 50% 基准 / 20% 熊市的权重给出温和正偏斜；但 FY2026 指引里的 Ansys 整合、export-control 假设和客户设计周期仍需要验证。
 
-> **2026-07-31 价格复核（本次未并入新季报）。** SNPS 于 **2026-07-29**（最后一个已完成交易日）收于 **$373.69**，对照下文标注日期的 **$437.16** 锚点为 **-14.5%**，发生于已核实的 2026 年 7 月 AI 基础设施链条整体重定价期间。下文标注日期的价格、市值与倍数数字**在其标注日期上依然正确**，本次不予改写，但已不是当前*水平*，请按其标签阅读。该幅度低于本报告自身的重跑阈值（25%），因此估值框架、情景网格、立场与确信度均不变；`priceAsOf` 亦刻意保留，使本报告继续留在常规重跑队列中。
+> **旧价格复核批注 —— 按其写法已失效，被下方的重新裁定取代。** ~~2026-07-31 价格复核（本次未并入新季报）：SNPS 于 2026-07-29（最后一个已完成交易日）收于 $373.69，对照下文标注日期的 $437.16 锚点为 -14.5%，发生于已核实的 2026 年 7 月 AI 基础设施链条整体重定价期间。下文标注日期的价格、市值与倍数数字在其标注日期上依然正确，本次不予改写，但已不是当前水平，请按其标签阅读。该幅度低于本报告自身的重跑阈值（25%），因此估值框架、情景网格、立场与确信度均不变；`priceAsOf` 亦刻意保留，使本报告继续留在常规重跑队列中。~~
+
+> **2026-07-31 立场重新裁定（锚定 2026-07-30 收盘）—— 取代上方"按标签阅读、刻意保留 `priceAsOf`"的旧处理方式。** 业主裁决（2026-07-31）：已发布的立场及其理由必须在**当前价格**上成立，因此本报告重新锚定到最后一个已完成收盘，而不是继续对着旧标签阅读。SNPS 于 **2026-07-30** 收于 **$372.33**，较 2026-07-02 的旧锚点 $437.16 为 **-14.8%**。在本报告自身未变的框架上——约 1.915 亿摊薄股本、约 $8.4B 净债务、FY2026 收入指引 $9.625-9.705B、non-GAAP EPS 指引 $14.72-14.80——市值约 **$71.3B**、EV 约 **$79.7B**，**约 8.2x EV/FY2026E sales**、**约 25.2x FY2026E non-GAAP P/E**（旧口径：约 9.5x、约 29.6x）。本次没有改动任何预估或实际值，只改了价格输入。重新推导**强化而非打破了原有前提**：偏多判断建立在"温和正预期差"之上，而市场内嵌要求（AI EDA/IP durability + Ansys 并表 + FCF 修复）对应的同一套指引框架，如今便宜了约 15%，因此该预期差在当前价格上是**变宽**的。**立场维持偏多（中确信）——依据是上述按当前价格重算的算术，而不是旧的约 9.5x / 约 29.6x 说法。** 确信度不上调：上调触发条件要求的是 Q3 FY2026 的执行证据（Ansys 收入转化、FCF 兑现约 $2.0B 指引），价格变动并不提供这类证据。
 
 | 指标 | 当前读数 |
 | --- | --- |
 | Report id | synopsys-2026 |
 | 链条层级 / 角色 | eda-ip / common-constraint |
 | 最新报告期 | FY2026 Q2 |
-| 价格快照 | $437.16，截至 2026-07-02 |
+| 价格快照 | $372.33，截至 2026-07-30 |
 | 本次升级后 coverageTier | full |
 | Stance | 偏多 / 中确信 |
 | 估值用途 | 情景与风险容错率，不是目标价 |
@@ -64,7 +66,7 @@
 | 利润率 / 盈利 | 沿用原报告披露的报告期利润率、EPS、EBITDA、AFFO 或 FCF 口径 | 检验增长是有利润还是仅有规模 | B+ |
 | 现金流 / 资产负债表 | 债务、现金、FCF、AFFO、EBITDA 或回购背景保留自原报告披露 | 决定公司能否承受本轮周期 | B |
 | Backlog / bookings / RPO | FY2026 指引包含约 $2.96B Ansys revenue，且假设没有进一步 export-control / Entity List 变化 | 区分承诺需求和叙事需求 | B+ |
-| 估值容错率 | 当前价格锚点：$437.16 | 高预期标的必须有更干净的兑现 | Caution |
+| 估值容错率 | 当前价格锚点：$372.33（2026-07-30）| 高预期标的必须有更干净的兑现 | Caution |
 
 ## 4. 管理层与口径校验
 
@@ -73,7 +75,7 @@
 | 检查项 | 当前处理 | 为什么重要 |
 | --- | --- | --- |
 | 公司披露 actuals | 报告期和财务数字保留自原报告 | 避免发明新季度 |
-| 市场数据 | 价格快照维持 $437.16，日期 2026-07-02 | 防止 stale valuation math |
+| 市场数据 | 价格快照重新锚定为 $372.33，日期 2026-07-30 | 防止 stale valuation math |
 | 情景假设 | 用增长、利润率、FCF 和 multiple regime 反推市场预期 | 不是建议或目标价 |
 | 来源质量 | 公司公告、filing、issuer page 或已列 source 继续留在附录 | 保持审计线索 |
 
@@ -88,7 +90,7 @@
 | 需求穿透 | 补齐 EDA/IP 公共约束：SNPS 验证 AI design starts 与复杂度是否进入 design automation、verification、simulation 和 IP | 下一报告期继续确认同一方向 |
 | 财务转化 | FY2026 Q2 revenue $2.276B、non-GAAP EPS $3.35；FY2026 revenue 指引 $9.625-9.705B | 收入转化为利润率、现金流或 backlog |
 | 交叉校验支持 | CDNS, TSM, AVGO | 相邻报告同向移动 |
-| 估值韧性 | $437.16 对应约 9.5x EV/FY2026E sales、约 29.6x non-GAAP P/E | 基本面继续验证，倍数不需要扩张也能被分母消化 |
+| 估值韧性 | $372.33 对应约 8.2x EV/FY2026E sales、约 25.2x non-GAAP P/E | 基本面继续验证，倍数不需要扩张也能被分母消化 |
 
 建设性情景不只是股价上涨，而是支持本公司的同一组数据也让整条链条 read-through 更紧。
 
@@ -98,10 +100,10 @@
 
 | 熊市驱动 | 风险证据 | thesis-breaking signal |
 | --- | --- | --- |
-| 预期风险 | 当前价格锚点 $437.16 | 公司表现不错但已经无法超过内嵌预期 |
+| 预期风险 | 当前价格锚点 $372.33（2026-07-30）| 公司表现不错但已经无法超过内嵌预期 |
 | 链条分化 | 相邻报告无法确认同一信号 | 瓶颈在其他 layer，或需求被提前拉动 |
 | 执行风险 | guidance、backlog 或产能转化放缓 | 报告证据停止支持该角色 |
-| 估值压缩 | Ansys 整合、出口限制或客户 design starts 放缓使 9-10x sales 溢价回落 | 长期故事未变但 multiple regime 先收缩 |
+| 估值压缩 | Ansys 整合、出口限制或客户 design starts 放缓使 sales 倍数跌破 2026 年 7 月重定价后约 8.2x 的水平 | 长期故事未变但 multiple regime 先收缩 |
 
 偏空读法不否认公司质量，而是追问质量是否已经被资本化，以及本报告是否过度外推了现有证据。
 
@@ -123,17 +125,17 @@
 
 ## 8. 估值背景
 
-估值只作为风险背景，不是投资建议。v5 不再给单点价格或机械区间，而是用业务假设、multiple regime 和主观概率权重说明当前 $437.16 已经计入了什么。
+估值只作为风险背景，不是投资建议。v5 不再给单点价格或机械区间，而是用业务假设、multiple regime 和主观概率权重说明当前 $372.33 已经计入了什么。
 
 **情景网格：**
 
 | 情景 | 驱动假设（增长 / backlog / margin / multiple regime） | 估值含义（贵 / 合理 / 便宜 vs 现价） | 主观概率权重 |
 | --- | --- | --- |
 | 牛市情景 | Ansys simulation 与 EDA/IP bundle 交叉销售顺利；Design Automation 和 Design IP 随 custom AI silicon 复杂度双加速；FY2026 FCF 约 $2.0B 指引兑现后恢复更高转化；市场继续给高个位数到低十几倍 EV/Sales 的 durable software/IP multiple | 现价会显得合理到略便宜：denominator 由 Ansys、verification 和 IP pull-through 扩大，而 multiple 不必继续扩张 | 30% |
-| 基准情景 | FY2026 revenue $9.625-9.705B 与约 $14.72-14.80 non-GAAP EPS 大体兑现；Ansys 贡献约 $2.96B 但有 channel/accounting 噪音；Design IP/Automation 增长稳健但客户设计周期波动；multiple 从约 9.5x FY2026E sales 向高个位数正常化 | 现价大体合理但有温和正偏斜：市场已经计入 AI EDA/IP durability，但没有完全计入 simulation pull-through 和后续 FCF 恢复 | 50% |
+| 基准情景 | FY2026 revenue $9.625-9.705B 与约 $14.72-14.80 non-GAAP EPS 大体兑现；Ansys 贡献约 $2.96B 但有 channel/accounting 噪音；Design IP/Automation 增长稳健但客户设计周期波动；multiple 维持在 2026 年 7 月重定价后约 8.2x FY2026E sales 的水平而不再扩张 | 现价大体合理但有温和正偏斜：市场已经计入 AI EDA/IP durability，但没有完全计入 simulation pull-through 和后续 FCF 恢复 | 50% |
 | 熊市情景 | Ansys 整合稀释执行或 FCF 转化低于约 $2.0B；export-control / Entity List 变化破坏指引；AI design starts 或客户 tape-out 周期放缓；市场把 SNPS 从稀缺 AI EDA 平台重新按普通 software multiple 定价 | 现价会偏贵：收入仍可能增长，但 multiple 与 FCF 分母同步承压 | 20% |
 
-**已定价预期与预期差：** 以 2026-07-02 收盘 $437.16、EV 约 $92.1B 计，SNPS 约为 9.5x EV/FY2026E sales、约 29.6x FY2026E non-GAAP EPS。这个价格已经要求 AI EDA/IP durability 成立、Ansys revenue 进入 FY2026、且 FCF 暂时承压后能恢复；但与 CDNS 的更高销售倍数相比，SNPS 的 implied multiple regime 仍给 Ansys simulation 与 Design IP pull-through 留出一些分母增长空间。我们的基准情景是 FY2026 指引兑现、Ansys 协同逐步显性化、FCF 恢复滞后一到两个季度；相对当前价格是温和正预期差，而不是无条件便宜。
+**已定价预期与预期差（2026-07-31 按 2026-07-30 收盘重新推导）：** 以 2026-07-30 收盘 $372.33、EV 约 $79.7B 计，SNPS 约为 8.2x EV/FY2026E sales、约 25.2x FY2026E non-GAAP EPS。这个价格已经要求 AI EDA/IP durability 成立、Ansys revenue 进入 FY2026、且 FCF 暂时承压后能恢复；但与 CDNS 的更高销售倍数相比，SNPS 的 implied multiple regime 仍给 Ansys simulation 与 Design IP pull-through 留出一些分母增长空间。我们的基准情景是 FY2026 指引兑现、Ansys 协同逐步显性化、FCF 恢复滞后一到两个季度；相对当前价格是温和正预期差，而不是无条件便宜。
 
 ## 9. 催化与监测
 
@@ -158,7 +160,7 @@
 
 链条验证工作不变：Synopsys 是 EDA/IP 层的公共约束，用来确认 AI silicon 需求是否真正进入 design automation、verification、simulation、IP blocks 和 system-level complexity。
 
-预期差为温和正向：以 $437.16、约 9.5x EV/FY2026E sales 和约 29.6x non-GAAP P/E 计，市场已经要求 AI EDA/IP durability、Ansys 并表和 FCF 修复，但我们的基准情景认为 simulation pull-through、Design IP 和 verification 复杂度仍略高于这个隐含要求。
+预期差为温和正向，且在当前价格上有所变宽：以 $372.33、约 8.2x EV/FY2026E sales 和约 25.2x non-GAAP P/E 计，市场已经要求 AI EDA/IP durability、Ansys 并表和 FCF 修复，但我们的基准情景认为 simulation pull-through、Design IP 和 verification 复杂度仍略高于这个隐含要求。
 
 当前 stance 是 **偏多，中确信**。30% 牛市 / 50% 基准 / 20% 熊市的情景网格给出正偏斜：牛市来自 Ansys+EDA/IP 平台化，基准来自 FY2026 指引兑现和 FCF 恢复，熊市主要来自整合、出口与客户周期性。中确信来自事实基础较扎实，但 Ansys 整合和 export-control 假设仍未完成验证。
 

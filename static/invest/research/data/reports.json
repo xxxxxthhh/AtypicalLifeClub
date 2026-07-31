@@ -769,8 +769,8 @@
     "priceSymbol": "SNPS",
     "title": "Synopsys 深度研究报告 - AI 芯片设计的 EDA/IP 与仿真约束",
     "titleEn": "Synopsys Deep Research Report - EDA/IP And Simulation Constraint For AI Silicon Design",
-    "summary": "【2026-07-31 价格复核：SNPS 于 2026-07-29 收于 $373.69，较本报告锚点 -14.5%；下方数字按其标注日期阅读，估值框架与立场不变。】AI 基础设施 eda-ip 层的公共约束：SNPS 验证 AI silicon 需求是否穿透到 design automation、verification、simulation、IP blocks 和 system-level complexity。FY2026 Q2 revenue $2.276B（去年同期 $1.604B）、GAAP EPS $0.09、non-GAAP EPS $3.35；FY2026 指引 revenue $9.625-9.705B、non-GAAP EPS $14.72-14.80、FCF 约 $2.0B。指引包含约 $2.96B Ansys revenue，并假设没有进一步 export-control / Entity List 变化。当前 $437.16、市值约 $83.7B、EV 约 $92.1B，约 9.5x EV/FY2026E sales、约 29.6x non-GAAP P/E。偏多 / 中确信：AI EDA/IP durability 与 Ansys 仿真资产让基准情景略高于市场隐含要求，但整合、出口和客户周期性仍限制确信度。",
-    "summaryEn": "[2026-07-31 price check: SNPS closed at $373.69 on 2026-07-29, -14.5% versus this report's anchor; figures below read as of their stated dates, and the valuation frame and stance are unchanged.] Common-constraint coverage for the AI-infrastructure eda-ip layer. SNPS tests whether AI silicon demand is flowing into design automation, verification, simulation, IP blocks, and system-level complexity. Q2 FY2026 revenue was $2.276B versus $1.604B a year ago, GAAP EPS was $0.09, and non-GAAP EPS was $3.35; FY2026 guidance is $9.625-9.705B revenue, $14.72-14.80 non-GAAP EPS, and about $2.0B FCF. Guidance includes about $2.96B of Ansys revenue and assumes no further export-control / Entity List changes. At $437.16, about $83.7B market cap and $92.1B EV, SNPS trades around 9.5x EV/FY2026E sales and 29.6x non-GAAP P/E. Constructive / medium conviction: AI EDA/IP durability and the Ansys simulation asset put the base case slightly above what the market embeds, but integration, export, and customer-cycle risks keep conviction capped.",
+    "summary": "AI 基础设施 eda-ip 层的公共约束：SNPS 验证 AI silicon 需求是否穿透到 design automation、verification、simulation、IP blocks 和 system-level complexity。FY2026 Q2 revenue $2.276B（去年同期 $1.604B）、GAAP EPS $0.09、non-GAAP EPS $3.35；FY2026 指引 revenue $9.625-9.705B、non-GAAP EPS $14.72-14.80、FCF 约 $2.0B。指引包含约 $2.96B Ansys revenue，并假设没有进一步 export-control / Entity List 变化。以 2026-07-30 收盘 $372.33 计，市值约 $71.3B、EV 约 $79.7B，约 8.2x EV/FY2026E sales、约 25.2x non-GAAP P/E。偏多 / 中确信：倍数在 2026 年 7 月链条重定价中压缩，同一套指引框架反而更便宜，温和正预期差变宽；但整合、出口和客户周期性仍限制确信度。",
+    "summaryEn": "Common-constraint coverage for the AI-infrastructure eda-ip layer. SNPS tests whether AI silicon demand is flowing into design automation, verification, simulation, IP blocks, and system-level complexity. Q2 FY2026 revenue was $2.276B versus $1.604B a year ago, GAAP EPS was $0.09, and non-GAAP EPS was $3.35; FY2026 guidance is $9.625-9.705B revenue, $14.72-14.80 non-GAAP EPS, and about $2.0B FCF. Guidance includes about $2.96B of Ansys revenue and assumes no further export-control / Entity List changes. At the $372.33 close on 2026-07-30, about $71.3B market cap and $79.7B EV, SNPS trades around 8.2x EV/FY2026E sales and 25.2x non-GAAP P/E. Constructive / medium conviction: the multiple compressed in the July 2026 chain repricing so the same guidance frame is cheaper and the modestly positive expectation gap widens, while integration, export, and customer-cycle risks keep conviction capped.",
     "tags": [
       "EDA",
       "半导体IP",
@@ -792,7 +792,7 @@
       "补齐 EDA/IP 公共约束：SNPS 验证 AI design starts 与复杂度是否进入 design automation、verification、simulation 和 IP",
       "FY2026 Q2 revenue $2.276B、non-GAAP EPS $3.35；FY2026 revenue 指引 $9.625-9.705B",
       "FY2026 指引包含约 $2.96B Ansys revenue，且假设没有进一步 export-control / Entity List 变化",
-      "当前 $437.16、EV 约 $92.1B，约 9.5x FY2026E sales、约 29.6x non-GAAP P/E；v5 偏多 / 中确信"
+      "2026-07-30 收盘 $372.33、EV 约 $79.7B，约 8.2x FY2026E sales、约 25.2x non-GAAP P/E；v5 偏多 / 中确信"
     ],
     "chainLayer": "eda-ip",
     "coverageTier": "full",
@@ -800,8 +800,8 @@
     "stance": "constructive",
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 $437.16、约 9.5x EV/FY2026E sales 和约 29.6x non-GAAP P/E 计，市场已经要求 AI EDA/IP durability、Ansys 并表和 FCF 修复，但我们的基准情景认为 simulation pull-through、Design IP 和 verification 复杂度仍略高于这个隐含要求。",
-      "en": "At $437.16, roughly 9.5x EV/FY2026E sales, and about 29.6x non-GAAP P/E, the market already requires AI EDA/IP durability, Ansys consolidation, and FCF repair, but our base case sees simulation pull-through, Design IP, and verification complexity running slightly ahead of that embedded requirement."
+      "zh": "以 2026-07-30 收盘 $372.33、约 8.2x EV/FY2026E sales 和约 25.2x non-GAAP P/E 计，市场仍然要求 AI EDA/IP durability、Ansys 并表和 FCF 修复，但同一套 FY2026 指引框架在 7 月链条重定价后便宜了约 15%，因此我们基准情景中 simulation pull-through、Design IP 和 verification 复杂度高于隐含要求的那部分预期差反而变宽。",
+      "en": "At the $372.33 close on 2026-07-30, roughly 8.2x EV/FY2026E sales, and about 25.2x non-GAAP P/E, the market still requires AI EDA/IP durability, Ansys consolidation, and FCF repair, but the same FY2026 guidance frame is about 15% cheaper after the July chain repricing, so the gap by which our base case sees simulation pull-through, Design IP, and verification complexity running ahead of that embedded requirement has widened."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -824,9 +824,15 @@
         "stance": "constructive",
         "conviction": "medium",
         "price": 437.16
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "constructive",
+        "conviction": "medium",
+        "price": 372.33
       }
     ],
-    "priceAsOf": "2026-07-02",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "FY2026 Q2",
     "related": [
       "cadence-2026",
@@ -4600,7 +4606,7 @@
     "priceSymbol": "688676.SS",
     "title": "金盘科技深度研究报告 - AI电力设备的高估值兑现考验",
     "titleEn": "Jinpan Technology Deep Research Report - AI Power Equipment Execution at a Demanding Valuation",
-    "summary": "【2026-07-31 价格复核：688676.SS 于 2026-07-29 收于 $68.04，较本报告锚点 -17.2%；下方数字按其标注日期阅读，估值框架与立场不变。】2026-06-23完整重跑版：金盘科技2026Q1营收约15.23亿元（+13.4%），归母净利约1.12亿元（+4.8%）；AIDC和SST仍是核心成长线索，但股价约86.00元、市值约395亿元，Q1年化P/E约88x，当前结论调整为中性/观察。",
+    "summary": "2026-06-23完整重跑版、价格锚点更新至2026-07-31：金盘科技2026Q1营收约15.23亿元（+13.4%），归母净利约1.12亿元（+4.8%）；AIDC和SST仍是核心成长线索。按2026-07-31收盘64.30元、总股本约4.60亿股计，市值约296亿元，Q1年化P/E约66x、P/S约4.9x。7月回撤使乐观情景重新具备上行、悲观情景跌幅收窄，但66x仍远高于制造业区间且三项现金验证未到位，结论维持中性/观察。",
     "tags": [
       "电力设备",
       "AI数据中心",
@@ -4618,10 +4624,10 @@
     "highlights": [
       "2026Q1营收约15.23亿元（+13.4%），归母净利约1.12亿元（+4.8%）",
       "AIDC、SST和海外扩张仍是中长期成长线索，但需要收入确认和回款验证",
-      "股价约86.00元、市值约395亿元，Q1年化P/E约88x",
-      "结论调整为中性/观察：业务质量仍好，估值和现金流验证要求提高"
+      "2026-07-31收盘64.30元、市值约296亿元，Q1年化P/E约66x、P/S约4.9x",
+      "结论维持中性/观察：回撤改善了赔率，但估值仍高于制造业区间、现金流验证未到位"
     ],
-    "summaryEn": "[2026-07-31 price check: 688676.SS closed at $68.04 on 2026-07-29, -17.2% versus this report's anchor; figures below read as of their stated dates, and the valuation frame and stance are unchanged.] June 23, 2026 full rerun: Jinpan reported roughly RMB 1.52B of Q1 2026 revenue (+13.4%) and RMB 112M of parent net profit (+4.8%). AIDC and SST remain the growth story, but at about RMB 86.00 per share, RMB 39.5B market cap, and roughly 88x annualized Q1 earnings, the current stance is neutral/watchlist.",
+    "summaryEn": "June 23, 2026 full rerun with the price anchor updated to 2026-07-31: Jinpan reported roughly RMB 1.52B of Q1 2026 revenue (+13.4%) and RMB 112M of parent net profit (+4.8%). AIDC and SST remain the growth story. At the RMB 64.30 close on 2026-07-31 and about 460M shares, market cap is roughly RMB 29.6B, Q1-annualized P/E about 66x and P/S about 4.9x. The July drawdown restores real headroom to the upside scenario and narrows the downside, but 66x is still far above the manufacturing band and none of the three cash validations has landed, so the stance stays neutral/watchlist.",
     "period": "2026H1",
     "versionType": "full-cycle",
     "versionLabel": "2026H1 Full Rerun",
@@ -4641,7 +4647,7 @@
     "chainLayer": "power",
     "coverageTier": "full",
     "stance": "neutral-watch",
-    "priceAsOf": "2026-07-07",
+    "priceAsOf": "2026-07-31",
     "reportedPeriod": "Q1 2026",
     "monitoring": [
       {
@@ -4704,8 +4710,8 @@
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 83.53 元、约 384 亿元市值、Q1 年化约 85x P/E 和约 6.3x P/S 计，市场已为 AIDC/SST/海外扩张和 H 股融资改善预付较高成功率；我们的 30% 牛市 / 40% 基准 / 30% 熊市网格显示基准情景接近市场隐含，保持中性观察。",
-      "en": "At RMB 83.53, roughly RMB 38.4B market cap, about 85x Q1-annualized P/E, and about 6.3x P/S, the market is already pre-paying for high odds that AIDC / SST / overseas expansion and H-share financing improvement all work; our 30% bull / 40% base / 30% bear grid leaves the base case close to market-implied expectations, so the stance remains neutral watch."
+      "zh": "以 2026-07-31 收盘 64.30 元、约 296 亿元市值、Q1 年化约 66x P/E 和约 4.9x P/S 计，市场仍在为 AIDC/SST/海外扩张和 H 股融资改善预付成功率，但幅度较旧锚点明显下降：乐观情景的 350-400 亿元目标市值重新高出现价约 18-35%，悲观情景的 140-200 亿元跌幅收窄至约 -32%~-53%。30% 牛市 / 40% 基准 / 30% 熊市网格仍显示基准情景接近市场隐含，且 SST 订单、应收回款与现金流转化三项验证一件未到，保持中性观察。",
+      "en": "At the RMB 64.30 close on 2026-07-31, roughly RMB 29.6B market cap, about 66x Q1-annualized P/E, and about 4.9x P/S, the market is still pre-paying for AIDC / SST / overseas expansion and H-share financing improvement, but much less than at the old anchor: the upside scenario's RMB 35-40B target sits about 18-35% above the current price again, and the downside scenario's RMB 14-20B narrows to about -32% to -53%. The 30% bull / 40% base / 30% bear grid still leaves the base case close to market-implied expectations, and none of the three validations — SST orders, receivable collection, cash conversion — has arrived, so the stance remains neutral watch."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -4723,6 +4729,12 @@
         "stance": "neutral-watch",
         "conviction": "medium",
         "price": 86
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 64.3
       }
     ]
   },
@@ -6335,8 +6347,8 @@
     "priceSymbol": "ORCL",
     "title": "Oracle 深度研究报告 - AI 云 RPO 仪表盘与资本开支融资压力",
     "titleEn": "Oracle Deep Research Report - AI Cloud RPO Dashboard and Capex Financing Pressure",
-    "summary": "【2026-07-31 价格复核：ORCL 于 2026-07-29 收于 $117.74，较本报告锚点 -17.8%；下方数字按其标注日期阅读，估值框架与立场不变。】AI 基础设施书 demand-risk 层的 RPO/backlog 仪表盘：Oracle 正从成熟数据库/企业软件公司变成高资本强度 AI 云基础设施平台。FY2026 Q4 收入 $19.18B(+21%)、OCI 收入 $5.8B(+93%)、RPO 达 $638B(+363%)，需求读数极强；但 FY2026 capex $55.66B、自由现金流 -$23.69B、FY2027 capex 指引可达 $90-95B，且公司需要约 $40B 债务+股权融资。当前股价 $140.27（2026-07-02 收盘）、市值约 $404B、按总债务 $156.19B 减现金+短投 $31.89B 计算的净债务约 $124.30B、企业价值约 $528B，对应约 7.8x TTM EV/Sales 和约 23.5x EV/TTM 营业利润。2026-07-07 v5 更新：以 2026-07-06 收盘 $143.76 为锚，20% 牛市 / 40% 基准 / 40% 熊市情景网格给出偏负预期差，立场迁移为谨慎 / 中确信；关键不是订单多不多，而是 RPO 能否按期转化为高回报现金流。",
-    "summaryEn": "[2026-07-31 price check: ORCL closed at $117.74 on 2026-07-29, -17.8% versus this report's anchor; figures below read as of their stated dates, and the valuation frame and stance are unchanged.] The RPO/backlog dashboard for the AI-infrastructure book's demand-risk layer: Oracle is changing from a mature database and enterprise-software company into a capital-intensive AI-cloud infrastructure platform. FY2026 Q4 revenue was $19.18B (+21%), OCI revenue was $5.8B (+93%), and RPO reached $638B (+363%), making the demand readout very strong. But FY2026 capex was $55.66B, free cash flow was -$23.69B, FY2027 capex could reach $90-95B, and the company expects roughly $40B of debt and equity financing. At $140.27 (Jul 2, 2026 close), roughly $404B market cap, about $124.30B net debt using total debt of $156.19B less cash+ST investments of $31.89B, and about $528B enterprise value, ORCL trades near 7.8x TTM EV/Sales and about 23.5x EV/TTM operating income. Jul 7, 2026 v5 update: anchored to the Jul 6, 2026 close of $143.76, the 20% bull / 40% base / 40% bear scenario grid leaves a negative expectation gap; stance migrates to cautious / medium conviction. The key question is whether RPO converts into high-return cash flow on schedule.",
+    "summary": "AI 基础设施书 demand-risk 层的 RPO/backlog 仪表盘：Oracle 正从成熟数据库/企业软件公司变成高资本强度 AI 云基础设施平台。FY2026 Q4 收入 $19.18B(+21%)、OCI 收入 $5.8B(+93%)、RPO 达 $638B(+363%)，需求读数极强；但 FY2026 capex $55.66B、自由现金流 -$23.69B、FY2027 capex 指引可达 $90-95B，且公司需要约 $40B 债务+股权融资。以 2026-07-30 收盘 $127.56 计，市值约 $367B、净债务约 $124.30B、企业价值约 $492B，对应约 7.3x TTM EV/Sales 和约 21.9x EV/TTM 营业利润。20% 牛市 / 40% 基准 / 40% 熊市情景网格仍给出偏负预期差，立场维持谨慎 / 中确信；关键不是订单多不多，而是 RPO 能否按期转化为高回报现金流。",
+    "summaryEn": "The RPO/backlog dashboard for the AI-infrastructure book's demand-risk layer: Oracle is changing from a mature database and enterprise-software company into a capital-intensive AI-cloud infrastructure platform. FY2026 Q4 revenue was $19.18B (+21%), OCI revenue was $5.8B (+93%), and RPO reached $638B (+363%), making the demand readout very strong. But FY2026 capex was $55.66B, free cash flow was -$23.69B, FY2027 capex could reach $90-95B, and the company expects roughly $40B of debt and equity financing. At the $127.56 close on Jul 30, 2026, roughly $367B market cap, about $124.30B net debt, and about $492B enterprise value, ORCL trades at about 7.3x TTM EV/Sales and about 21.9x EV/TTM operating income. The 20% bull / 40% base / 40% bear grid still leaves a negative expectation gap, so the stance stays cautious / medium conviction: the question is not whether orders are large, but whether RPO converts into high-return cash flow on schedule.",
     "tags": [
       "AI云",
       "企业软件",
@@ -6357,15 +6369,15 @@
     "highlights": [
       "demand-risk 层的 RPO/backlog 仪表盘：FY2026 Q4 RPO $638B(+363%，环比 +$85B)，OCI 收入 $5.8B(+93%)，验证 AI 云需求是否穿透到订单簿",
       "现金流和融资压力同样极端：FY2026 capex $55.66B、FCF -$23.69B；FY2027 capex 指引 $90-95B，另需约 $40B 债务+股权融资，含 $20B ATM 股权发行",
-      "当前 $140.27（2026-07-02 收盘）、约 $404B 市值、约 $124.30B 净债务、约 $528B 企业价值，对应约 7.8x TTM EV/Sales、约 23.5x EV/TTM 营业利润；传统软件利润表与 AI 基建资产负债表叙事并存",
+      "2026-07-30 收盘 $127.56、约 $367B 市值、约 $124.30B 净债务、约 $492B 企业价值，对应约 7.3x TTM EV/Sales、约 21.9x EV/TTM 营业利润；传统软件利润表与 AI 基建资产负债表叙事并存",
       "核心监控不是『订单多不多』，而是 RPO 转化、客户集中、OCI 毛利/ROIC、capex 是否按时变成可售 capacity，以及融资是否伤害股东",
-      "2026-07-07 v5 更新：以 2026-07-06 收盘 $143.76 为锚，20% 牛市 / 40% 基准 / 40% 熊市；偏负预期差，立场迁移为谨慎 / 中确信"
+      "2026-07-31 重新裁定：按 2026-07-30 收盘重算后 20% 牛市 / 40% 基准 / 40% 熊市网格仍偏负，立场维持谨慎 / 中确信"
     ],
     "chainLayer": "demand-risk",
     "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "cautious",
-    "priceAsOf": "2026-07-06",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "FY2026 Q4",
     "related": [
       "coreweave-2026",
@@ -6473,8 +6485,8 @@
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 $143.76（2026-07-06 收盘）计，市场给 $638B RPO 很高的转化信用；20% 牛市 / 40% 基准 / 40% 熊市网格承认需求强度，但认为 capex 和融资负担尚未被充分折价，预期差偏负。",
-      "en": "At $143.76 (Jul 6, 2026 close), the market gives the $638B RPO a large conversion credit; the 20% bull / 40% base / 40% bear grid recognizes demand strength, but does not think the capex and financing burden is fully discounted, leaving a negative expectation gap."
+      "zh": "以 $127.56（2026-07-30 收盘）、约 $367B 市值和约 $492B 企业价值计，市场仍给 $638B RPO 很高的转化信用；约 7.3x EV/Sales 与约 21.9x EV/营业利润虽较旧口径压缩，但仍明显高于熊市情景所指的 5-6x 区间。20% 牛市 / 40% 基准 / 40% 熊市网格承认需求强度，但 RPO 转化、FY2027 capex、约 $40B 融资成本与仍为 -$23.69B 的自由现金流都不会被股价变动回答，预期差仍偏负。",
+      "en": "At $127.56 (Jul 30, 2026 close), roughly $367B market cap and about $492B enterprise value, the market still gives the $638B RPO a large conversion credit; about 7.3x EV/Sales and about 21.9x EV/operating income are compressed versus the old caliber but remain well above the 5-6x band named in the bear case. The 20% bull / 40% base / 40% bear grid recognizes demand strength, but RPO conversion, FY2027 capex, the cost of roughly $40B of financing, and free cash flow still at -$23.69B are none of them answered by a price move, so the expectation gap stays negative."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -6497,6 +6509,12 @@
         "stance": "cautious",
         "conviction": "medium",
         "price": 143.76
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 127.56
       }
     ]
   },
@@ -7049,8 +7067,8 @@
     "priceSymbol": "0100.HK",
     "title": "MiniMax Group 深度研究报告 - 应用层需求验证与高估值压力测试",
     "titleEn": "MiniMax Group Deep Research Report - Application-Layer Demand Validation and Valuation Stress Test",
-    "summary": "【2026-07-31 价格复核：0100.HK 于 2026-07-29 收于 $212.80，较本报告锚点 -18.3%；下方数字按其标注日期阅读，估值框架与立场不变。】首次覆盖 MiniMax 作为 AI 基础设施研究簿的应用层需求风险锚。FY2025 收入 US$79.0M、同比 +158.9%，毛利率由 12.2% 升至 25.4%，海外收入占 73%；但调整后净亏损 US$250.9M、经营现金流流出 US$279.6M。以 HK$260.60（2026-07-15）、配售后 349.235M 股和形式净现金估算，市值约 HK$91.0B、P/S 约 147.6x、EV/FY2025 Sales 约 110.8x。业务增长得到验证，但当前价格要求接近 69% 的四年收入 CAGR，首次观点为谨慎 / 低确信。",
-    "summaryEn": "[2026-07-31 price check: 0100.HK closed at $212.80 on 2026-07-29, -18.3% versus this report's anchor; figures below read as of their stated dates, and the valuation frame and stance are unchanged.] Initial coverage of MiniMax as the application-layer demand-risk anchor for the AI-infrastructure research book. FY2025 revenue was US$79.0M, up 158.9%, gross margin improved from 12.2% to 25.4%, and international revenue reached 73%. Adjusted net loss was US$250.9M and operating cash outflow was US$279.6M. At HK$260.60 on 2026-07-15, 349.235M post-placement shares, and estimated pro forma net cash, market capitalization is about HK$91.0B, price-to-sales about 147.6x, and EV/FY2025 sales about 110.8x. Growth is real, but the price requires close to 69% four-year revenue CAGR; initial stance is cautious / low conviction.",
+    "summary": "首次覆盖 MiniMax 作为 AI 基础设施研究簿的应用层需求风险锚。FY2025 收入 US$79.0M、同比 +158.9%，毛利率由 12.2% 升至 25.4%，海外收入占 73%；但调整后净亏损 US$250.9M、经营现金流流出 US$279.6M。以 HK$230.60（2026-07-31 收盘）、配售后 349.235M 股和形式净现金估算，市值约 HK$80.5B、P/S 约 130.6x、EV/FY2025 Sales 约 93.8x，隐含四年收入 CAGR 约 62%。业务增长得到验证，但隐含要求仍高于 50%-60% 的基准情景，首次观点为谨慎 / 低确信。",
+    "summaryEn": "Initial coverage of MiniMax as the application-layer demand-risk anchor for the AI-infrastructure research book. FY2025 revenue was US$79.0M, up 158.9%, gross margin improved from 12.2% to 25.4%, and international revenue reached 73%. Adjusted net loss was US$250.9M and operating cash outflow was US$279.6M. At the HK$230.60 close on 2026-07-31, 349.235M post-placement shares, and estimated pro forma net cash, market capitalization is about HK$80.5B, price-to-sales about 130.6x, and EV/FY2025 sales about 93.8x, implying roughly 62% four-year revenue CAGR. Growth is verified, but the implied requirement still exceeds the 50%-60% base case, so initial coverage is cautious / low conviction.",
     "tags": [
       "基础模型",
       "生成式AI",
@@ -7073,7 +7091,7 @@
       "FY2025 收入 US$79.0M、同比 +158.9%，毛利率由 12.2% 升至 25.4%，海外收入占 73%",
       "2025 年前九个月 AI-native 产品平均 MAU 27.6M、付费用户 1.77M；消费产品收入占 FY2025 的 67.2%，平台/企业占 32.8%",
       "调整后净亏损 US$250.9M、经营现金流流出 US$279.6M；研发费用约为收入 3.2 倍，商业化仍依赖外部资本",
-      "当前 HK$260.60、配售后市值约 HK$91.0B、P/S 约 147.6x、EV/FY2025 Sales 约 110.8x；谨慎 / 低确信"
+      "2026-07-31 收盘 HK$230.60、市值约 HK$80.5B、P/S 约 130.6x、EV/FY2025 Sales 约 93.8x，隐含 CAGR 约 62%；谨慎 / 低确信"
     ],
     "chainLayer": "demand-risk",
     "coverageTier": "full",
@@ -7081,8 +7099,8 @@
     "stance": "cautious",
     "conviction": "low",
     "stanceRationale": {
-      "zh": "以 HK$260.60、配售后约 HK$91.0B 市值和约 110.8x EV/FY2025 Sales 计，市场隐含未来四年收入 CAGR 接近 69%，同时要求毛利率与现金消耗持续改善。收入、全球用户和毛利率改善是真实正面证据，但消费产品单位经济、研发强度与连续融资尚未支持更积极观点。",
-      "en": "At HK$260.60, about HK$91.0B of post-placement market capitalization, and about 110.8x EV/FY2025 sales, the market implies close to 69% four-year revenue CAGR together with sustained gross-margin and cash-burn improvement. Revenue, global users, and gross-margin gains are real, but consumer unit economics, R&D intensity, and repeated financing do not yet support a more positive stance."
+      "zh": "以 2026-07-31 收盘 HK$230.60、配售后约 HK$80.5B 市值和约 93.8x EV/FY2025 Sales 计，代入本报告自身公式，市场隐含未来四年收入 CAGR 约 62%（旧锚点约 69%），仍高于 50%-60% 的基准情景区间，预期差仍为负、只是负得更少。收入、全球用户和毛利率改善是真实正面证据，但消费产品单位经济、研发强度与连续融资尚未支持更积极观点。",
+      "en": "At the HK$230.60 close on 2026-07-31, about HK$80.5B of post-placement market capitalization, and about 93.8x EV/FY2025 sales, this report's own formula implies close to 62% four-year revenue CAGR (about 69% at the old anchor), still above the 50%-60% base-case range, so the expectation gap remains negative though less so. Revenue, global users, and gross-margin gains are real, but consumer unit economics, R&D intensity, and repeated financing do not yet support a more positive stance."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -7100,9 +7118,15 @@
         "stance": "cautious",
         "conviction": "low",
         "price": 260.6
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "cautious",
+        "conviction": "low",
+        "price": 230.6
       }
     ],
-    "priceAsOf": "2026-07-15",
+    "priceAsOf": "2026-07-31",
     "reportedPeriod": "FY2025 + 2026-07 financing",
     "related": [
       "meta-2026",

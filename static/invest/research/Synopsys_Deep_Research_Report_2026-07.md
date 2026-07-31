@@ -11,18 +11,20 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 > **Framework role:** Synopsys is the common constraint for the AI-infrastructure EDA/IP layer. The report's job is to test the chain signal, not to turn one company print into a recommendation.
 
-**One-line thesis:** Common-constraint coverage for the AI-infrastructure eda-ip layer. SNPS tests whether AI silicon demand is flowing into design automation, verification, simulation, IP blocks, and system-level complexity. Q2 FY2026 revenue was $2.276B versus $1.604B a year ago, GAAP EPS was $0.09, and non-GAAP EPS was $3.35; FY2026 guidance is $9.625-9.705B revenue, $14.72-14.80 non-GAAP EPS, and about $2.0B FCF. Guidance includes about $2.96B of Ansys revenue and assumes no further export-control / Entity List changes. At $437.16, about $83.7B market cap and $92.1B EV, SNPS trades around 9.5x EV/FY2026E sales and 29.6x non-GAAP P/E. Constructive / medium conviction: AI EDA/IP durability and the Ansys simulation asset put the base case slightly above what the market embeds, but integration, export, and customer-cycle risks keep conviction capped.
+**One-line thesis:** Common-constraint coverage for the AI-infrastructure eda-ip layer. SNPS tests whether AI silicon demand is flowing into design automation, verification, simulation, IP blocks, and system-level complexity. Q2 FY2026 revenue was $2.276B versus $1.604B a year ago, GAAP EPS was $0.09, and non-GAAP EPS was $3.35; FY2026 guidance is $9.625-9.705B revenue, $14.72-14.80 non-GAAP EPS, and about $2.0B FCF. Guidance includes about $2.96B of Ansys revenue and assumes no further export-control / Entity List changes. At the $372.33 close on 2026-07-30, about $71.3B market cap and $79.7B EV, SNPS trades around 8.2x EV/FY2026E sales and 25.2x non-GAAP P/E. Constructive / medium conviction: AI EDA/IP durability and the Ansys simulation asset put the base case slightly above what the market embeds, but integration, export, and customer-cycle risks keep conviction capped.
 
 **Current view:** **constructive / medium conviction.** The v5 scenario grid decomposes the old neutral watch view: SNPS is less crowded than CDNS on valuation, Ansys joins simulation to EDA/IP durability in one platform, and the 30% bull / 50% base / 20% bear weights create a modest positive skew; FY2026 Ansys integration, export-control assumptions, and customer design cycles still need verification.
 
-> **2026-07-31 price check (no new quarter integrated in this pass).** SNPS closed at **$373.69** on **2026-07-29**, the last completed session, versus the **$437.16** anchor dated below — a **-14.5%** move during the verified July 2026 chain-wide AI-infrastructure repricing. The dated price, market-cap and multiple figures below remain correct **as of their stated dates** and are not rewritten here, but they are no longer current *levels*; read them as of their labels. The drift is below this report's own rerun threshold (25%), so the valuation frame, scenario grid, stance and conviction are unchanged and `priceAsOf` is deliberately left in place so the report stays in the normal rerun queue.
+> **Old price-check note — stale as written, superseded by the re-adjudication below.** ~~2026-07-31 price check (no new quarter integrated in this pass): SNPS closed at $373.69 on 2026-07-29, the last completed session, versus the $437.16 anchor dated below — a -14.5% move during the verified July 2026 chain-wide AI-infrastructure repricing. The dated price, market-cap and multiple figures below remain correct as of their stated dates and are not rewritten here, but they are no longer current levels; read them as of their labels. The drift is below this report's own rerun threshold (25%), so the valuation frame, scenario grid, stance and conviction are unchanged and `priceAsOf` is deliberately left in place so the report stays in the normal rerun queue.~~
+
+> **2026-07-31 stance re-adjudication at the 2026-07-30 close — this replaces the old "figures read as of their labels / `priceAsOf` deliberately left in place" handling above.** Owner ruling (2026-07-31): a published stance and its rationale must hold at the CURRENT price, so the report is re-anchored to the latest completed close rather than left reading against an old label. SNPS closed at **$372.33** on **2026-07-30**, **-14.8%** from the old $437.16 anchor of 2026-07-02. On the report's own unchanged frames — about 191.5M diluted shares, about $8.4B net debt, the $9.625-9.705B FY2026 revenue guide and the $14.72-14.80 non-GAAP EPS guide — market cap is about **$71.3B**, EV about **$79.7B**, **about 8.2x EV/FY2026E sales** and **about 25.2x FY2026E non-GAAP P/E** (old caliber: ~9.5x and ~29.6x). No estimate or actual was changed; only the price input moved. The re-derivation **strengthens rather than breaks the premise**: the constructive call rested on a modestly positive expectation gap against an embedded requirement of AI EDA/IP durability plus Ansys consolidation plus FCF repair, and the same guidance frame is now bought about 15% cheaper, so the gap widens at the current price. **Stance stays constructive (medium conviction) — held on this restated current-price arithmetic, not on the old ~9.5x / ~29.6x claim.** Conviction is not raised, because the upgrade trigger asks for Q3 FY2026 execution evidence (Ansys revenue conversion, FCF tracking the ~$2.0B guide) that a price move does not supply.
 
 | Metric | Current readout |
 | --- | --- |
 | Report id | synopsys-2026 |
 | Chain layer / role | eda-ip / common-constraint |
 | Latest reported period | FY2026 Q2 |
-| Price snapshot | $437.16 as of 2026-07-02 |
+| Price snapshot | $372.33 as of 2026-07-30 |
 | Coverage tier after this upgrade | full |
 | Stance | constructive / medium conviction |
 | Primary valuation use | scenario context and risk tolerance, not a target price |
@@ -64,7 +66,7 @@ The financial section converts the prose fact base into a repeatable scorecard. 
 | Margin / profitability | Use the current reported period and company-disclosed margin or EPS figures in the source notes | Tests whether growth is profitable or merely volume-led | B+ |
 | Cash flow / balance sheet | Debt, cash, FCF, AFFO, EBITDA, or buyback context preserved from the original report where disclosed | Determines whether the company can fund the cycle | B |
 | Backlog / bookings / RPO | FY2026 guidance includes about $2.96B of Ansys revenue and assumes no further export-control / Entity List changes | Separates committed demand from narrative demand | B+ |
-| Valuation tolerance | Current price context: $437.16 | High expectation names need cleaner execution | Caution |
+| Valuation tolerance | Current price context: $372.33 (2026-07-30) | High expectation names need cleaner execution | Caution |
 
 ## 4. Management And Caliber Check
 
@@ -73,7 +75,7 @@ This module checks source caliber and management execution rather than adding a 
 | Check | Current treatment | Why it matters |
 | --- | --- | --- |
 | Company-disclosed actuals | Reported period and financial figures are preserved from the original report | Avoids inventing a new quarter |
-| Market-data values | Price snapshot kept at $437.16 and dated 2026-07-02 | Prevents stale valuation math |
+| Market-data values | Price snapshot re-anchored to $372.33 and dated 2026-07-30 | Prevents stale valuation math |
 | Scenario assumptions | Reverse-engineer market expectations through growth, margin, FCF, and multiple regime | Not a recommendation or target price |
 | Source quality | Primary company releases, filings, or issuer pages remain in the appendix | Keeps the audit trail visible |
 
@@ -88,7 +90,7 @@ The bull case is the strongest version of why the report's chain signal could st
 | Demand pull-through | EDA/IP common-constraint fill-in: SNPS tests whether AI design starts and complexity are reaching design automation, verification, simulation and IP | Next reported period confirms the same direction |
 | Financial conversion | FY2026 Q2 revenue $2.276B, non-GAAP EPS $3.35; FY2026 revenue guidance $9.625-9.705B | Revenue converts into margin, cash flow, or backlog |
 | Cross-check support | CDNS, TSM, AVGO | Adjacent reports move in the same direction |
-| Valuation resilience | $437.16 equals roughly 9.5x EV/FY2026E sales and 29.6x non-GAAP P/E | Fundamentals can absorb the multiple without requiring further expansion |
+| Valuation resilience | $372.33 equals roughly 8.2x EV/FY2026E sales and 25.2x non-GAAP P/E | Fundamentals can absorb the multiple without requiring further expansion |
 
 The constructive scenario is not simply that the stock rises. It is that the same data that supports this company also tightens the whole chain read-through.
 
@@ -98,10 +100,10 @@ The bear case is the strongest version of why the report's chain signal could be
 
 | Bear driver | Risk evidence | Thesis-breaking signal |
 | --- | --- | --- |
-| Expectation risk | Current price context $437.16 | Good company performance no longer beats embedded expectations |
+| Expectation risk | Current price context $372.33 (2026-07-30) | Good company performance no longer beats embedded expectations |
 | Chain divergence | Adjacent reports fail to confirm the same signal | The bottleneck sits elsewhere or demand was pulled forward |
 | Execution risk | Guidance, backlog, or capacity conversion slows | Reported evidence stops supporting the role |
-| Valuation compression | Ansys integration, export limits, or slower customer design starts push the 9-10x sales premium lower | Multiple regime contracts before the long-term story changes |
+| Valuation compression | Ansys integration, export limits, or slower customer design starts push the sales multiple below the roughly 8.2x level reached after the July 2026 repricing | Multiple regime contracts before the long-term story changes |
 
 The bearish read should not ignore quality. It asks whether quality is already capitalized and whether the report is overclaiming what the current evidence can prove.
 
@@ -123,17 +125,17 @@ Thesis breakers:
 
 ## 8. Valuation Context
 
-Valuation is used as risk context, not as a recommendation. v5 no longer uses a single price point or mechanical range; it uses business assumptions, multiple regime, and subjective probability weights to state what the current $437.16 price embeds.
+Valuation is used as risk context, not as a recommendation. v5 no longer uses a single price point or mechanical range; it uses business assumptions, multiple regime, and subjective probability weights to state what the current $372.33 price embeds.
 
 **Scenario grid:**
 
 | Scenario | Driver assumptions (growth / backlog / margin / multiple regime) | Valuation implication (rich / fair / cheap vs today) | Subjective probability weight |
 | --- | --- | --- |
 | Bull | Ansys simulation and the EDA/IP bundle cross-sell smoothly; Design Automation and Design IP both accelerate with custom-AI-silicon complexity; the roughly $2.0B FY2026 FCF guide is delivered and conversion recovers; the market keeps a high-single-digit to low-teens EV/Sales durable software/IP multiple | Today looks fair to slightly cheap: the denominator expands through Ansys, verification, and IP pull-through without requiring multiple expansion | 30% |
-| Base | FY2026 revenue of $9.625-9.705B and about $14.72-14.80 non-GAAP EPS are broadly delivered; Ansys contributes about $2.96B with channel/accounting noise; Design IP / Automation grow steadily but customer design cycles wobble; the multiple normalizes from roughly 9.5x FY2026E sales toward the high single digits | Today is broadly fair with modest positive skew: the market prices AI EDA/IP durability but not all of the simulation pull-through and later FCF recovery | 50% |
+| Base | FY2026 revenue of $9.625-9.705B and about $14.72-14.80 non-GAAP EPS are broadly delivered; Ansys contributes about $2.96B with channel/accounting noise; Design IP / Automation grow steadily but customer design cycles wobble; the multiple holds near the roughly 8.2x FY2026E sales level reached after the July 2026 repricing rather than re-expanding | Today is broadly fair with modest positive skew: the market prices AI EDA/IP durability but not all of the simulation pull-through and later FCF recovery | 50% |
 | Bear | Ansys integration dilutes execution or FCF conversion misses the roughly $2.0B guide; export-control / Entity List changes break guidance; AI design starts or customer tape-out cycles slow; the market rerates SNPS from scarce AI EDA platform toward an ordinary software multiple | Today looks rich: revenue can still grow, but both multiple and FCF denominator come under pressure | 20% |
 
-**What's priced in & the expectation gap:** At the $437.16 close on Jul 2, 2026 and roughly $92.1B EV, SNPS trades at about 9.5x EV/FY2026E sales and 29.6x FY2026E non-GAAP EPS. That price already requires AI EDA/IP durability, Ansys entering FY2026 revenue, and FCF recovering after temporary pressure; versus CDNS's higher sales multiple, however, SNPS's implied multiple regime still leaves some room for Ansys simulation and Design IP pull-through to grow the denominator. Our base case is FY2026 guidance delivery, gradual Ansys synergy visibility, and FCF recovery lagging by one or two quarters; relative to the current dated price, the expectation gap is modestly positive rather than outright cheap.
+**What's priced in & the expectation gap (re-derived 2026-07-31 at the 2026-07-30 close):** At the $372.33 close on Jul 30, 2026 and roughly $79.7B EV, SNPS trades at about 8.2x EV/FY2026E sales and 25.2x FY2026E non-GAAP EPS. That price already requires AI EDA/IP durability, Ansys entering FY2026 revenue, and FCF recovering after temporary pressure; versus CDNS's higher sales multiple, however, SNPS's implied multiple regime still leaves some room for Ansys simulation and Design IP pull-through to grow the denominator. Our base case is FY2026 guidance delivery, gradual Ansys synergy visibility, and FCF recovery lagging by one or two quarters; relative to the current dated price, the expectation gap is modestly positive rather than outright cheap.
 
 ## 9. Catalysts And Monitoring
 
@@ -158,7 +160,7 @@ These are the items that should drive future reruns. A monitoring update should 
 
 The chain-validation job is unchanged: Synopsys is the EDA/IP common constraint, used to test whether AI silicon demand truly reaches design automation, verification, simulation, IP blocks, and system-level complexity.
 
-The expectation gap is modestly positive: at $437.16, roughly 9.5x EV/FY2026E sales, and about 29.6x non-GAAP P/E, the market already requires AI EDA/IP durability, Ansys consolidation, and FCF repair, but our base case sees simulation pull-through, Design IP, and verification complexity running slightly ahead of that embedded requirement.
+The expectation gap is modestly positive and has widened at the current price: at $372.33, roughly 8.2x EV/FY2026E sales, and about 25.2x non-GAAP P/E, the market already requires AI EDA/IP durability, Ansys consolidation, and FCF repair, but our base case sees simulation pull-through, Design IP, and verification complexity running slightly ahead of that embedded requirement.
 
 The current stance is **constructive, medium conviction**. The 30% bull / 50% base / 20% bear scenario grid gives positive skew: the bull case comes from Ansys+EDA/IP platformization, the base case from FY2026 guide delivery and FCF recovery, and the bear case mainly from integration, export, and customer cyclicality. Conviction is medium because the fact base is solid, but Ansys integration and the export-control assumption are not fully verified.
 
