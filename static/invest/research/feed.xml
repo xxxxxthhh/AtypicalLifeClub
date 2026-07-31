@@ -349,11 +349,11 @@
       <description>AI 基础设施 datacenter-facility 层的租赁/互联需求校验。DLR 不直接解释 GPU、光模块或电力设备，而是验证 AI 数据中心需求是否转化为真实租约、backlog、互联节点和开发容量。2026Q2 财报（2026-07-23）：Core FFO/share（ex net promote）$2.13、cash renewal spread +25.4%；公司签下 $307M 年化 GAAP base rent 的 bookings（100% share）/ $208M（DLR share），其中 0-1MW + interconnection 贡献 $108M、占 DLR-share bookings 的 52%；季度末 signed-but-not-commenced backlog 为 record $1.9B（100% share）/ $1.4B（DLR share），但后者含约 $380M 收购相关增量，不能全部解释为本季有机签约；新签租约加权平均开租滞后从 19 个月收窄至 9 个月，future-development capacity 升至约 9GW。管理层把 2026 Core FFO/share（ex net promote）指引从 $8.00-8.10 上修至 $8.15-8.20。$173.30、市值约 $62.0B、EV 约 $77.6B、约 21x P/Core FFO 与约 12.2x EV/TTM revenue 均为基于当时 Q1 $8.00-8.10 指引的 2026-07-02 初始估值快照，本次监测不刷新估值或立场；维持偏多 / 中确信。</description>
     </item>
     <item>
-      <title>MiniMax Group 深度研究报告 - 应用层需求验证与高估值压力测试 / MiniMax Group Deep Research Report - Application-Layer Demand Validation and Valuation Stress Test</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=minimax-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=minimax-2026#minimax-2026@2026-07-31</guid>
+      <title>Astera Labs 深度研究报告 - 机架级 fan-out 是否构成独立瓶颈的架构校验 / Astera Labs Deep Research Report - Architecture Check on Whether Rack-Scale Fan-Out Is a Distinct Bottleneck</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=alab-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=alab-2026#alab-2026@2026-07-31</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <description>【2026-07-31 价格复核：0100.HK 于 2026-07-29 收于 $212.80，较本报告锚点 -18.3%；下方数字按其标注日期阅读，估值框架与立场不变。】首次覆盖 MiniMax 作为 AI 基础设施研究簿的应用层需求风险锚。FY2025 收入 US$79.0M、同比 +158.9%，毛利率由 12.2% 升至 25.4%，海外收入占 73%；但调整后净亏损 US$250.9M、经营现金流流出 US$279.6M。以 HK$260.60（2026-07-15）、配售后 349.235M 股和形式净现金估算，市值约 HK$91.0B、P/S 约 147.6x、EV/FY2025 Sales 约 110.8x。业务增长得到验证，但当前价格要求接近 69% 的四年收入 CAGR，首次观点为谨慎 / 低确信。</description>
+      <description>AI 基础设施书 interconnect 层的首个节点与架构校验初始覆盖：该层此前节点数为零，本报告的任务是检验机架级 fan-out（PCIe/CXL retimer、PCIe 智能 fabric 交换、有源以太网线缆模块）是否构成区别于光连接层（coherent-2026、corning-2026、aaoi-2026）与网络层（arista-2026）的独立瓶颈。结论是分开的：机架级 fan-out 是独立的插槽（独立硅片与 BOM 行、每颗加速器含量超过 $1,000、76.3% 毛利率、两年前不存在的 Scorpio X 320 lane 交换），但不是独立的瓶颈（管理层称供应已备到年底、库存 75 天、无配给；收入 = 加速器出货量 × 配比 × 价格，没有独立周期；渠道与其他机架部件完全相同）。因此本层应被读作架构指标而非卡口约束。最新已报告期间是 2026 Q1（季度截至 2026-03-31、05-05 发布，下一次发布 2026-08-05）：收入 $308.4M（同比 +93%、环比 +14%）、GAAP 毛利率 76.3%、GAAP/非 GAAP 经营利润率 20.1%/36.2%、股权激励 $48.9M（占收入 15.9%）、Q2 指引 $355-365M 与毛利率约 73%。结构性风险清晰：五家直接客户占 Q1 收入约 90%（29%/21%/16%/12%/12%），第一大客户一年内自 12% 升至 29% 并持有 2026 年 2 月最多 3,262,299 股、行权价 $142.82、最大公允价值 $280.0M 的认股权证，按冲减收入处理；且 retimer 功能存在与否取决于 Broadcom、NVIDIA 与超大规模厂商是否选择集成。以 2026-07-30 收盘 $299.69 为锚（当日单日 +20.0%，较 06-30 收盘高点 $483.02 低 38.0%），市值约 $51.37B、企业价值约 $50.19B、约 50.1x EV/追溯收入、约 33x EV/我们自估的 CY2026 收入、约 192x 追溯 GAAP 市盈率、约 146x EV/追溯自由现金流；反推需要约五年 44% 复合增速才能以 8% 年化走到 12 倍收入终值。20% 牛市 / 50% 基准 / 30% 熊市网格读出负偏度，初始立场谨慎 / 中确信。</description>
     </item>
   </channel>
 </rss>

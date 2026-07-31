@@ -7043,6 +7043,236 @@
     ]
   },
   {
+    "id": "alab-2026",
+    "company": "Astera Labs",
+    "ticker": "NASDAQ: ALAB",
+    "priceSymbol": "ALAB",
+    "title": "Astera Labs 深度研究报告 - 机架级 fan-out 是否构成独立瓶颈的架构校验",
+    "titleEn": "Astera Labs Deep Research Report - Architecture Check on Whether Rack-Scale Fan-Out Is a Distinct Bottleneck",
+    "summary": "AI 基础设施书 interconnect 层的首个节点与架构校验初始覆盖：该层此前节点数为零，本报告的任务是检验机架级 fan-out（PCIe/CXL retimer、PCIe 智能 fabric 交换、有源以太网线缆模块）是否构成区别于光连接层（coherent-2026、corning-2026、aaoi-2026）与网络层（arista-2026）的独立瓶颈。结论是分开的：机架级 fan-out 是独立的插槽（独立硅片与 BOM 行、每颗加速器含量超过 $1,000、76.3% 毛利率、两年前不存在的 Scorpio X 320 lane 交换），但不是独立的瓶颈（管理层称供应已备到年底、库存 75 天、无配给；收入 = 加速器出货量 × 配比 × 价格，没有独立周期；渠道与其他机架部件完全相同）。因此本层应被读作架构指标而非卡口约束。最新已报告期间是 2026 Q1（季度截至 2026-03-31、05-05 发布，下一次发布 2026-08-05）：收入 $308.4M（同比 +93%、环比 +14%）、GAAP 毛利率 76.3%、GAAP/非 GAAP 经营利润率 20.1%/36.2%、股权激励 $48.9M（占收入 15.9%）、Q2 指引 $355-365M 与毛利率约 73%。结构性风险清晰：五家直接客户占 Q1 收入约 90%（29%/21%/16%/12%/12%），第一大客户一年内自 12% 升至 29% 并持有 2026 年 2 月最多 3,262,299 股、行权价 $142.82、最大公允价值 $280.0M 的认股权证，按冲减收入处理；且 retimer 功能存在与否取决于 Broadcom、NVIDIA 与超大规模厂商是否选择集成。以 2026-07-30 收盘 $299.69 为锚（当日单日 +20.0%，较 06-30 收盘高点 $483.02 低 38.0%），市值约 $51.37B、企业价值约 $50.19B、约 50.1x EV/追溯收入、约 33x EV/我们自估的 CY2026 收入、约 192x 追溯 GAAP 市盈率、约 146x EV/追溯自由现金流；反推需要约五年 44% 复合增速才能以 8% 年化走到 12 倍收入终值。20% 牛市 / 50% 基准 / 30% 熊市网格读出负偏度，初始立场谨慎 / 中确信。",
+    "summaryEn": "First node and initial architecture-check coverage for the AI-infrastructure book's interconnect layer, which until now had zero nodes. The report's job is to test whether rack-scale fan-out (PCIe/CXL retimers, PCIe smart fabric switches, active Ethernet cable modules) is a bottleneck distinct from the optical layer (coherent-2026, corning-2026, aaoi-2026) and the networking layer (arista-2026). The finding splits the question: rack fan-out is a distinct socket (its own silicon and BOM line, over $1,000 of claimed content per accelerator, a 76.3% gross margin, and in Scorpio X-Series a 320-lane switch that did not exist in the rack two years ago) but not a distinct bottleneck (management says supply is in place through year-end with 75 days of inventory and no allocation; revenue is accelerator units times attach times price with no independent cycle; and it ships through the same channel as every other rack component). The layer is therefore an architecture read, not a constraint read. The latest reported period is Q1 2026 (quarter ended 2026-03-31, reported 05-05; next print 2026-08-05): revenue $308.4M (+93% YoY, +14% QoQ), GAAP gross margin 76.3%, GAAP/non-GAAP operating margin 20.1%/36.2%, stock-based compensation $48.9M or 15.9% of revenue, and Q2 guided to $355-365M at a ~73% gross margin. The structural risks are equally clear: five direct customers were about 90% of Q1 revenue (29%/21%/16%/12%/12%), the top one rose from 12% to 29% in four quarters and holds a February 2026 warrant over up to 3,262,299 shares at $142.82 with a $280.0M maximum fair value that is recognized as contra-revenue, and the merchant retimer socket exists only while Broadcom, NVIDIA and the hyperscalers choose not to integrate it. Anchored to the 2026-07-30 close of $299.69 (+20.0% on the session, 38.0% below the 06-30 closing high of $483.02), market cap is ~$51.37B and enterprise value ~$50.19B, at ~50.1x EV/TTM revenue, ~33x EV on our own CY2026 revenue estimate, ~192x trailing GAAP earnings and ~146x EV/TTM free cash flow; the reverse test needs roughly 44% compound growth for five years to earn 8% a year to a terminal 12x revenue. The 20% bull / 50% base / 30% bear grid reads a negative skew, so the initiation opens at cautious / medium conviction.",
+    "tags": [
+      "AI基础设施",
+      "芯片互连",
+      "PCIe/CXL",
+      "retimer"
+    ],
+    "category": "tech",
+    "date": "2026-07-31",
+    "lastUpdate": "2026-07-31",
+    "file": "/invest/research/reports/view.html?id=alab-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Astera_Labs_深度研究报告_2026-07.md",
+      "en": "/invest/research/Astera_Labs_Deep_Research_Report_2026-07.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "interconnect 层首个节点：本层此前为空，ALAB 以架构校验身份开层，与 broadcom-2026 / marvell-2026 在供给侧配对",
+      "核心结论：机架级 fan-out 是独立的插槽，但不是独立的瓶颈——供应已备到年底、库存 75 天、无配给，收入无独立周期，本层应读作架构指标而非卡口约束",
+      "2026 Q1（下一次发布 2026-08-05）：收入 $308.4M（+93%）、GAAP 毛利率 76.3%、非 GAAP 经营利润率 36.2%、PCIe Gen 6 跨过收入三分之一、Q2 指引 $355-365M",
+      "结构性风险：五家直接客户占 Q1 收入约 90%，第一大客户一年内 12%→29% 并持有最多 3,262,299 股、行权价 $142.82 的权证按冲减收入处理；Broadcom/NVIDIA 随时可集成掉 retiming",
+      "股价 $299.69（2026-07-30 收盘、单日 +20.0%、较 6 月高点 -38.0%）：约 50.1x EV/追溯收入、约 33x EV/CY2026E、约 192x 追溯 GAAP；20/50/30 网格，初始谨慎 / 中确信"
+    ],
+    "chainLayer": "interconnect",
+    "coverageTier": "full",
+    "chainRole": "architecture-check",
+    "stance": "cautious",
+    "conviction": "medium",
+    "priceAsOf": "2026-07-30",
+    "reportedPeriod": "Q1 2026",
+    "related": [
+      "broadcom-2026",
+      "marvell-2026",
+      "arista-2026",
+      "coherent-2026",
+      "nvidia-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "revenue-growth-and-scorpio-mix",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "收入增速与 Scorpio 产品结构",
+          "en": "Revenue growth and Scorpio product mix"
+        },
+        "trigger": {
+          "zh": "同比收入增速降到约 40% 以下，或 Scorpio 未能如管理层所述在 2026 年底成为最大产品线",
+          "en": "Year-over-year revenue growth falls below ~40%, or Scorpio fails to become the largest product line by end-2026 as management guided"
+        },
+        "latest": {
+          "zh": "2026 Q1 收入 $308.4M、同比 +93%、环比 +14%；Q2 指引 $355-365M（环比 +15%-18%，隐含同比约 +88%）；电话会称 PCIe Gen 6 贡献总收入三分之一以上，Scorpio X 系列自 05-05 出货、量产爬坡指引 2026 下半年，并预期 Scorpio 在 2026 年底成为最大产品线、超过 Aries 与 Taurus；公司不披露分产品线收入",
+          "en": "Q1 2026 revenue was $308.4M, +93% YoY and +14% QoQ; Q2 is guided to $355-365M (+15-18% QoQ, implying about +88% YoY); on the call management said PCIe Gen 6 contributed more than one-third of total revenue, that Scorpio X-Series has shipped since 05-05 with production ramp guided to H2 2026, and that Scorpio should become the largest product line by end-2026, surpassing Aries and Taurus; no product-line revenue is disclosed"
+        },
+        "nextCheck": "2026 Q2 财报（2026-08-05）/ Q2 2026 earnings (2026-08-05)",
+        "nextCheckDate": "2026-08",
+        "reading": "within",
+        "readingAsOf": "2026-05-05"
+      },
+      {
+        "id": "gross-margin-trajectory",
+        "thesis": "bear",
+        "theme": "pricing",
+        "metric": {
+          "zh": "权证与结构影响下的毛利率轨迹",
+          "en": "Gross-margin trajectory under warrant and mix effects"
+        },
+        "trigger": {
+          "zh": "非 GAAP 毛利率连续两个季度稳定在约 70% 以下，或权证冲减收入之外再出现新的结构性折让",
+          "en": "Non-GAAP gross margin settles below ~70% for two consecutive quarters, or a new structural discount appears beyond the warrant contra-revenue"
+        },
+        "latest": {
+          "zh": "2026 Q1 GAAP 毛利率 76.3%、非 GAAP 76.4%，环比升约 70 个基点；Q2 指引约 73%，管理层将其中约 200 个基点归因于最近签署的一项客户权证协议的非现金影响",
+          "en": "Q1 2026 GAAP gross margin was 76.3% and non-GAAP 76.4%, up about 70bps sequentially; Q2 is guided to about 73%, with management attributing roughly 200bps of the step-down to a non-cash impact from a recently executed customer warrant agreement"
+        },
+        "nextCheck": "每季毛利率与 Q2 指引兑现情况 / quarterly gross margin and delivery against the Q2 guide",
+        "nextCheckDate": "2026-08",
+        "reading": "within",
+        "readingAsOf": "2026-05-05"
+      },
+      {
+        "id": "customer-concentration",
+        "thesis": "bear",
+        "theme": "concentration",
+        "metric": {
+          "zh": "直接客户集中度",
+          "en": "Direct-customer concentration"
+        },
+        "trigger": {
+          "zh": "第一大客户超过约 35% 的收入占比，或任一 10% 以上客户从集中度表中消失",
+          "en": "The top customer exceeds ~35% of revenue, or any 10%-plus customer drops out of the concentration table"
+        },
+        "latest": {
+          "zh": "2026 Q1 五家直接客户分别占收入 29%、21%、16%、12%、12%（合计约 90%），上年同期为 12%、26%、未达 10%、23%、未达 10%；应收账款集中度 25%、20%、16%、17%、13%；10-Q 指出部分客户是代表终端客户采购的制造伙伴，因此直接客户占比随产能分配变动",
+          "en": "In Q1 2026 five direct customers were 29%, 21%, 16%, 12% and 12% of revenue (about 90% combined), against 12%, 26%, below 10%, 23% and below 10% a year earlier; receivables concentration was 25%, 20%, 16%, 17% and 13%; the 10-Q notes that certain listed customers are manufacturing partners buying on behalf of end customers, so direct-customer shares move with production allocation"
+        },
+        "nextCheck": "每季 10-Q 集中度表 / quarterly 10-Q concentration table",
+        "nextCheckDate": "2026-08",
+        "reading": "within",
+        "readingAsOf": "2026-05-06"
+      },
+      {
+        "id": "customer-warrant-contra-revenue",
+        "thesis": "bear",
+        "theme": "concentration",
+        "metric": {
+          "zh": "客户认股权证的冲减收入规模",
+          "en": "Scale of customer-warrant contra-revenue"
+        },
+        "trigger": {
+          "zh": "单季冲减收入超过收入的约 2%，或公司向第二家客户发出新的采购挂钩权证",
+          "en": "Quarterly contra-revenue exceeds about 2% of revenue, or a new purchase-linked warrant is issued to a second customer"
+        },
+        "latest": {
+          "zh": "2026 年 2 月向既有持有人发出最多 3,262,299 股、行权价 $142.82 的权证，每股授予日公允价值 $85.83、最大合计公允价值 $280.0M，随采购分批解锁；2026 Q1 确认冲减收入 $2,097K（约占收入 0.7%）；此前另有 2022 年 1,484,230 股与 2023 年 831,945 股",
+          "en": "In February 2026 the company issued the existing Holder a warrant over up to 3,262,299 shares at a $142.82 exercise price, with an $85.83 per-share grant-date fair value and a $280.0M maximum total fair value, vesting on purchase tranches; Q1 2026 recognized $2,097K of contra-revenue (about 0.7% of revenue), on top of the 2022 warrant over 1,484,230 shares and the 2023 warrant over 831,945 shares"
+        },
+        "nextCheck": "每季现金流量表的权证冲减收入行与毛利率 / quarterly warrant contra-revenue line in the cash-flow statement and gross margin",
+        "nextCheckDate": "2026-08",
+        "reading": "within",
+        "readingAsOf": "2026-05-06"
+      },
+      {
+        "id": "scale-up-socket-absorption",
+        "thesis": "bear",
+        "theme": "execution",
+        "metric": {
+          "zh": "scale-up 插槽被集成吞并的风险",
+          "en": "Absorption risk on the scale-up socket"
+        },
+        "trigger": {
+          "zh": "某大客户的下一代平台放弃独立 retimer 或 PCIe 交换转用加速器/商用交换厂商的集成硅片，或 Broadcom、Marvell 在 ALAB 现有客户处拿下 scale-up fabric 交换设计导入",
+          "en": "A major customer's next-generation platform drops the discrete retimer or PCIe switch in favour of integrated silicon from the accelerator or merchant-switch vendor, or Broadcom or Marvell wins a scale-up fabric switch design at an existing ALAB customer"
+        },
+        "latest": {
+          "zh": "Scorpio X 系列 320 lane scale-up fabric 交换自 2026-05-05 出货、量产爬坡指引 2026 下半年；与 NVIDIA 及一家超大规模厂商的 NVLink Fusion 设计导入合作指引 2027 年开始贡献收入，UALink 首笔收入同样指引 2027 年；Astera 同时在 NVLink Fusion、开放 PCIe 与 UALink 三条路径上布局，尚无任何一方的量产份额被披露",
+          "en": "The Scorpio X-Series 320-lane scale-up fabric switch has shipped since 2026-05-05 with production ramp guided to H2 2026; NVLink Fusion design-win work with NVIDIA and a hyperscaler is guided to start contributing revenue in 2027, and initial UALink revenue is also guided to 2027; Astera is present on all three paths (NVLink Fusion, open PCIe, UALink) and no production share on any of them is disclosed"
+        },
+        "nextCheck": "各加速器世代的平台发布与竞争者设计导入公告（事件驱动）/ platform announcements at each accelerator generation and competitor design-win news (event-driven)"
+      },
+      {
+        "id": "interconnect-supply-constraint",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "fan-out 是否成为供应受限环节",
+          "en": "Whether fan-out becomes a supply-constrained link"
+        },
+        "trigger": {
+          "zh": "Astera 或同层竞争者声明 retimer 或 fabric 交换处于配给状态、交期显著拉长，或客户集群因互连硅片短缺而延期——任一情况都会把本层从架构读数升级为约束读数",
+          "en": "Astera or a peer states that retimers or fabric switches are on allocation or that lead times have extended materially, or a customer cluster slips for want of interconnect silicon - any of which would upgrade this layer from an architecture read to a constraint read"
+        },
+        "latest": {
+          "zh": "2026 Q1 电话会上管理层称供应已备到年底、后段供应链已分散以应对局部供应挑战、库存 75 天处于舒适水平；库存账面 $60.2M，采购承诺合计仅 $79.6M；没有配给或交期拉长的迹象",
+          "en": "On the Q1 2026 call management said supply is in place through the end of the year, that the back-end supply chain is diversified against pockets of supply challenge, and that 75 days of inventory is a comfortable position; inventory was $60.2M and total purchase commitments only $79.6M, with no sign of allocation or extended lead times"
+        },
+        "nextCheck": "Astera 与同层竞争者每季的供应与交期口径 / quarterly supply and lead-time commentary from Astera and its peers",
+        "nextCheckDate": "2026-08",
+        "reading": "within",
+        "readingAsOf": "2026-05-05"
+      },
+      {
+        "id": "valuation-multiple-vs-growth",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "估值倍数相对增速的位置",
+          "en": "Valuation multiple against the growth rate"
+        },
+        "trigger": {
+          "zh": "EV/前瞻收入在同比增速降到约 40% 以下时仍高于约 30 倍（下调依据），或在增速保持 60% 以上时压缩到约 20 倍以下（上调依据）",
+          "en": "EV/forward revenue stays above ~30x while year-over-year growth decelerates below ~40% (downgrade evidence), or compresses below ~20x while growth holds above 60% (upgrade evidence)"
+        },
+        "latest": {
+          "zh": "以 2026-07-30 收盘 $299.69 计，市值约 $51.37B、企业价值约 $50.19B：约 50.1x EV/追溯收入、约 33x EV/本报告自估的 CY2026 收入、约 22x EV/CY2027E；同期 Q2 指引隐含同比约 +88%；对照 Broadcom 约 24-25x 追溯、Marvell 前瞻约 14.1x、Coherent 约 7.5x",
+          "en": "At the 2026-07-30 close of $299.69 market cap is ~$51.37B and enterprise value ~$50.19B: about 50.1x EV/TTM revenue, about 33x EV on this report's own CY2026 revenue estimate and about 22x on CY2027E, while the Q2 guide implies about +88% YoY; peers stand at about 24-25x trailing for Broadcom, about 14.1x forward for Marvell and about 7.5x for Coherent"
+        },
+        "nextCheck": "每季价格账本与 Q2/Q3 收入实绩 / quarterly price ledger and Q2/Q3 revenue actuals",
+        "nextCheckDate": "2026-08",
+        "reading": "within",
+        "readingAsOf": "2026-07-30"
+      }
+    ],
+    "stanceRationale": {
+      "zh": "以 $299.69（2026-07-30 收盘）计，7 月的 AI 基础设施重定价已把 ALAB 从 07-06 的 $432.74 打到 07-29 的 $249.74（-42.3%），再单日反弹 20.0%，但走完这一轮之后倍数仍以巨大差距高居本覆盖之首：约 50.1x EV/追溯收入、约 33x EV/本报告自估的 CY2026 收入、约 192x 追溯 GAAP 盈利、约 109x 最宽松的前瞻非 GAAP 口径。反推检验是裁决点——以 8% 年化走到 12 倍收入的终值，需要连续五年约 44% 的复合收入增长，不允许任何时点降速到 30% 后段以下。这不是质量判断：93% 增速、76% 毛利率、$342.8M 追溯自由现金流与 $11.8 亿净现金在全书中都属最强一档。它是偏度判断：20/50/30 网格的负偏度同时来自概率与幅度，上行需要含量、Scorpio 份额与 2027 年期权三件事按顺序做对，下行只需要增速正常化或一次集成决策。确信度中而非低，是因为单个季度关不上这么大的缺口，2026-08-05 的业绩不太可能改变算术；中而非高，是因为 2027 年 NVLink Fusion 与 UALink 收入、以及 retimer 功能能否熬过集成，都在当前披露窗口之外。",
+      "en": "At $299.69 (2026-07-30 close) the July AI-infrastructure repricing has already taken ALAB from $432.74 on 07-06 to $249.74 on 07-29 (-42.3%) and then 20.0% higher in a single session - and after that round trip the multiple is still the richest in this coverage by a wide margin: about 50.1x EV/TTM revenue, about 33x EV on this report's own CY2026 revenue estimate, about 192x trailing GAAP earnings and about 109x the most generous forward non-GAAP framing. The reverse test is the discriminator: earning 8% a year to a terminal 12x revenue requires roughly 44% compound revenue growth for five straight years, with no deceleration below the high 30s at any point. This is not a quality judgment - 93% growth, a 76% gross margin, $342.8M of trailing free cash flow and $1.18B of net cash are among the strongest facts in the book. It is a skew judgment: the 20/50/30 grid's negative skew comes from magnitude as well as probability, because the upside needs content, Scorpio share and the 2027 option stack to land in sequence while the downside needs only a normalizing growth rate or a single integration decision. Conviction is medium rather than low because no single quarter closes a gap this size, so the 2026-08-05 print is unlikely to change the arithmetic, and medium rather than high because 2027 NVLink Fusion and UALink revenue, and whether the retimer function survives integration, are both outside the current disclosure window."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "收入增速在 2027 年前保持 60% 以上且 Scorpio 被确认为最大产品线、NVLink Fusion 或 UALink 收入按期在 2027 年到来、权证影响过去后毛利率回到 75% 以上、第一大客户占比回落到约 25% 以下，且 EV/前瞻收入通过增长而非价格压缩到约 20 倍以下，则上调至中性观察。",
+        "en": "Revenue growth holds above 60% into 2027 with Scorpio confirmed as the largest product line, NVLink Fusion or UALink revenue arrives on schedule in 2027, gross margin returns above 75% once the warrant impact laps, the top customer's share falls back below ~25%, and EV/forward revenue compresses below ~20x through growth rather than through price - upgrade to neutral-watch.",
+        "monitoringIds": [
+          "revenue-growth-and-scorpio-mix",
+          "gross-margin-trajectory",
+          "customer-concentration",
+          "scale-up-socket-absorption",
+          "valuation-multiple-vs-growth"
+        ]
+      },
+      "downgrade": {
+        "zh": "同比收入增速降到约 40% 以下、非 GAAP 毛利率稳定在约 70% 以下、某大客户的下一代平台放弃独立 retiming 或 PCIe 交换转用集成硅片、第一大客户超过约 35% 的收入占比，或权证冲减收入在单季超过收入的约 2%，则下调至回避。",
+        "en": "Year-over-year revenue growth decelerates below ~40%, non-GAAP gross margin settles below ~70%, a major customer's next-generation platform drops discrete retiming or PCIe switching for integrated silicon, the top customer exceeds ~35% of revenue, or warrant contra-revenue exceeds about 2% of revenue in a quarter - downgrade to bearish-avoid.",
+        "monitoringIds": [
+          "revenue-growth-and-scorpio-mix",
+          "gross-margin-trajectory",
+          "customer-concentration",
+          "customer-warrant-contra-revenue",
+          "scale-up-socket-absorption"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-07-31",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 299.69
+      }
+    ]
+  },
+  {
     "id": "minimax-2026",
     "company": "MiniMax Group",
     "ticker": "HKEX: 0100",

@@ -241,14 +241,6 @@
       }
     },
     {
-      "ticker": "ALAB",
-      "layer": "interconnect",
-      "label": {
-        "zh": "PCIe/CXL retimer 与机架互连：检验 GPU 集群 fan-out 是否成为独立瓶颈",
-        "en": "PCIe/CXL retimers and rack interconnect: tests GPU-cluster fan-out as a distinct bottleneck"
-      }
-    },
-    {
       "ticker": "PWR",
       "layer": "power",
       "label": {
