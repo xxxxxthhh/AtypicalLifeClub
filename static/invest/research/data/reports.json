@@ -5479,7 +5479,7 @@
     "priceSymbol": "CEG",
     "title": "Constellation Energy 深度研究报告 - AI 电力约束的核电与 Calpine 综合电力锚",
     "titleEn": "Constellation Energy Deep Research Report - Nuclear and Calpine Integrated Power Anchor for AI",
-    "summary": "2026-07-07 v5更新：CEG是AI基础设施power层的核电与Calpine可调度容量锚。价格锚点$239.25（2026-07-02）、市值约$85.4B、EV约$107B，约21x 2026 EPS指引中点和约3.6x EV/TTM sales。30%牛市/50%基准/20%熊市情景显示高质量资产与高预期大致平衡，v5立场为中性观察/中确信。",
+    "summary": "CEG是AI基础设施power层的核电与Calpine可调度容量锚。2026-07-31重新锚定：价格$263.56（2026-07-30收盘）、市值约$94.1B、EV约$116B，约22.9x 2026 EPS指引中点和约3.9x EV/TTM sales。30%牛市/50%基准/20%熊市情景显示高质量资产与更高预期仍大致平衡，但当前价格留下的安全边际更少；立场维持中性观察/中确信。",
     "tags": [
       "AI电力",
       "核电",
@@ -5501,14 +5501,14 @@
       "补齐 AI 基建 power 层可调度电力公共约束：CEG 用既有核电 fleet、Calpine 天然气/地热容量、长期 PPA 和 PJM 容量价格验证 AI 数据中心是否真的愿意为稳定清洁电力与可调度容量付溢价",
       "2026Q1 收入 $11.12B、净利润 $1.59B、报道 EPS $2.74，核电发电量约 44,666 GWh，公司维持 2026 EPS 指引 $11-12",
       "Microsoft/Crane Clean Energy Center（Three Mile Island Unit 1）重启目标指向 2027，Meta 约 1.1GW 核电 PPA 说明 hyperscaler 电力需求正在合同化；Calpine 把叙事从纯核电扩展到可调度容量",
-      "当前 $239.25（2026-07-02）、市值约 $85.4B、EV 约 $107B、约 3.6x EV/TTM sales；30%牛市/50%基准/20%熊市情景推导为中性观察/中确信"
+      "2026-07-30 收盘 $263.56、市值约 $94.1B、EV 约 $116B、约 22.9x 2026 EPS 指引中点、约 3.9x EV/TTM sales；溢价较旧锚点更重，维持中性观察/中确信"
     ],
-    "summaryEn": "July 7, 2026 v5 update: CEG is the nuclear and Calpine dispatchable-capacity anchor for the AI-infrastructure power layer. The price anchor is $239.25 (Jul 2, 2026), about $85.4B market cap and about $107B EV, around 21x midpoint 2026 EPS guidance and about 3.6x EV/TTM sales. A 30% bull / 50% base / 20% bear grid shows high asset quality and high expectations roughly in balance, so the v5 stance is neutral-watch / medium conviction.",
+    "summaryEn": "CEG is the nuclear and Calpine dispatchable-capacity anchor for the AI-infrastructure power layer. Re-anchored on 2026-07-31: the price is $263.56 (Jul 30, 2026 close), about $94.1B market cap and about $116B EV, around 22.9x midpoint 2026 EPS guidance and about 3.9x EV/TTM sales. A 30% bull / 50% base / 20% bear grid still shows high asset quality and now-higher expectations roughly in balance, with even less margin of safety at the current price, so the stance stays neutral-watch / medium conviction.",
     "chainLayer": "power",
     "coverageTier": "full",
     "chainRole": "common-constraint",
     "stance": "neutral-watch",
-    "priceAsOf": "2026-07-02",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "2026Q1",
     "related": [
       "vistra-2026",
@@ -5614,8 +5614,8 @@
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "在$239.25、约21x 2026 EPS指引中点和约3.6x EV/TTM sales上，市场已经为核电PPA、Calpine可调度容量和PJM容量稀缺付出溢价；30%牛市/50%基准/20%熊市情景显示高质量资产与高预期大致平衡。",
-      "en": "At $239.25, about 21x midpoint 2026 EPS guidance and about 3.6x EV/TTM sales, the market already pays a premium for nuclear PPAs, Calpine dispatchable capacity, and PJM capacity scarcity; a 30% bull / 50% base / 20% bear grid shows high asset quality and high expectations roughly in balance."
+      "zh": "在 2026-07-30 收盘 $263.56、约 22.9x 2026 EPS 指引中点和约 3.9x EV/TTM sales 上，市场为核电 PPA、Calpine 可调度容量和 PJM 容量稀缺付出的溢价高于旧锚点：按报告自身 16-18x 高质量发电框架，当前价格需要约 $14.6-16.5 可持续 EPS，而 2026 指引为 $11-12。但本报告的牛市/基准情景没有给出量化 EPS 增速，因此无法证明隐含要求已超出情景集合；同时 AI capex 预期未被下修、Crane 重启未延迟、Calpine 未抬高杠杆、PJM 价格未回落，降级条件均未触发。30%牛市/50%基准/20%熊市网格仍大致平衡，只是安全边际更少，故维持中性观察。",
+      "en": "At the $263.56 close on 2026-07-30, about 22.9x midpoint 2026 EPS guidance and about 3.9x EV/TTM sales, the market pays a larger premium for nuclear PPAs, Calpine dispatchable capacity, and PJM capacity scarcity than at the old anchor: on this report's own 16-18x high-quality-generator frame the price now needs about $14.6-16.5 of sustainable EPS against 2026 guidance of $11-12. But the report states no quantified EPS growth rate for its bull or base case, so the implied requirement cannot be shown to exceed the scenario set; and none of the downgrade conditions has fired — AI capex expectations have not been cut, Crane restart is not delayed, Calpine has not raised leverage, and PJM prices have not faded. The 30% bull / 50% base / 20% bear grid remains roughly balanced with less margin of safety, so the stance stays neutral watch."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -5633,6 +5633,12 @@
         "stance": "neutral-watch",
         "conviction": "medium",
         "price": 239.25
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 263.56
       }
     ]
   },
