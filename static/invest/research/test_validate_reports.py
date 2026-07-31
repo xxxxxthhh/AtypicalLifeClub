@@ -7,6 +7,7 @@ unit tests pin the failure modes, which exit inside the benchmark block before t
 unrelated enrichment checks run.
 """
 import io
+import json
 import sys
 import tempfile
 import unittest
@@ -270,6 +271,30 @@ class TriggerLinkEnforcementTests(unittest.TestCase):
     def test_flag_on_non_chain_report_exempt(self):
         report = {"id": "x-2026", "stanceTriggers": {"downgrade": dict(BILINGUAL)}}
         self.with_flag(True, lambda: vr.validate_trigger_link_requirements(report, 0))  # no raise
+
+
+class TriggerLinkBackfillTests(unittest.TestCase):
+    """PR-4: the flag is flipped on and the shipped book satisfies it.
+
+    These two assertions are what stop the flag from silently regressing to
+    warn-first, and what stop a new current-chain report from landing unlinked.
+    """
+
+    def test_enforcement_flag_is_on(self):
+        self.assertTrue(vr.ENFORCE_TRIGGER_LINKS)
+
+    def test_every_current_chain_report_links_its_downgrade_trigger(self):
+        reports = json.loads(vr.REPORTS_JSON.read_text(encoding="utf-8"))
+        missing = []
+        for report in reports:
+            if not vr.is_current_chain_report(report):
+                continue
+            downgrade = (report.get("stanceTriggers") or {}).get("downgrade") or {}
+            ids = downgrade.get("monitoringIds")
+            known = {item["id"] for item in report.get("monitoring") or []}
+            if not ids or not set(ids).issubset(known):
+                missing.append(report["id"])
+        self.assertEqual(missing, [])
 
 
 if __name__ == "__main__":

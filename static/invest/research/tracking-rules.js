@@ -59,6 +59,67 @@
         return Boolean(buildRerunItem(report, priceEntry, today)?.isCandidate);
     }
 
+    // v6 Track 2 (docs/research-hub-v6-plan.md §3.3): a published trigger that fired
+    // while the stance stayed put. Two conditions only, per spec:
+    //   1. a monitoring item LINKED from stanceTriggers (the union of the upgrade and
+    //      downgrade monitoringIds — not every item in monitoring[]) reads "breached";
+    //   2. the stance has not changed since that item's readingAsOf.
+    // The stance date is the last stanceHistory[] entry (reports.json is authoritative;
+    // verdicts.json is regenerated daily). Same-day boundary: a stance dated exactly on
+    // readingAsOf counts as "not changed since" and still produces a row — only a stance
+    // dated strictly after the grade clears it.
+    function linkedMonitoringIds(report) {
+        const triggers = report && report.stanceTriggers;
+        const ids = new Set();
+        if (!triggers || typeof triggers !== 'object') return ids;
+        ['upgrade', 'downgrade'].forEach((side) => {
+            const value = triggers[side];
+            const list = value && Array.isArray(value.monitoringIds) ? value.monitoringIds : [];
+            list.forEach((id) => ids.add(id));
+        });
+        return ids;
+    }
+
+    function currentStanceDate(report) {
+        const history = report && Array.isArray(report.stanceHistory) ? report.stanceHistory : [];
+        if (!history.length) return null;
+        return history[history.length - 1].date || null;
+    }
+
+    function buildTriggerWatchRows(reports, today = currentUtcDay()) {
+        const rows = [];
+        (Array.isArray(reports) ? reports : []).forEach((report) => {
+            if (!report || !report.chainLayer || report.isCurrent === false) return;
+            const linked = linkedMonitoringIds(report);
+            if (!linked.size) return;
+            const stanceDate = currentStanceDate(report);
+            const breached = (Array.isArray(report.monitoring) ? report.monitoring : []).filter((item) => (
+                item
+                && item.reading === 'breached'
+                && linked.has(item.id)
+                && dateFromYmd(item.readingAsOf)
+                && (!stanceDate || stanceDate <= item.readingAsOf)
+            ));
+            if (!breached.length) return;
+            // The longest-standing breach dates the row.
+            const oldest = breached.slice().sort((a, b) => a.readingAsOf.localeCompare(b.readingAsOf))[0];
+            rows.push({
+                report,
+                reportId: report.id,
+                stance: report.stance,
+                conviction: report.conviction,
+                stanceDate,
+                items: breached,
+                readingAsOf: oldest.readingAsOf,
+                daysSinceBreach: ageDays(oldest.readingAsOf, today)
+            });
+        });
+        return rows.sort((a, b) => (
+            b.daysSinceBreach - a.daysSinceBreach
+            || String(a.reportId).localeCompare(String(b.reportId))
+        ));
+    }
+
     function formatPercent(value) {
         if (typeof value !== 'number' || !Number.isFinite(value)) return '—';
         const rounded = Math.abs(value) < 0.05 ? 0 : value;
@@ -70,6 +131,7 @@
         RERUN_DRIFT_PCT,
         buildRerunItem,
         isRerunCandidate,
+        buildTriggerWatchRows,
         formatPercent
     };
 }());

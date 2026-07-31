@@ -101,12 +101,13 @@ ENFORCE_COVERAGE_TIER = True
 # the flag — only the presence/migration requirements are gated (same rollout pattern
 # as ENFORCE_CHAIN_ENRICHMENT).
 ENFORCE_STANCE_V2 = True
-# v6 Track 2 trigger links (spec §3.1): warn-first while the ×35 backfill runs (PR-4).
-# Enforcement target once flipped: every current-chain report's stanceTriggers.downgrade
-# carries >=1 monitoringIds entry. Structural checks on reading/readingAsOf/monitoringIds
+# v6 Track 2 trigger links (spec §3.1): warn-first during the PR-4 backfill, now
+# enforced since every current-chain report carries the links; keep True once flipped.
+# Enforcement target: every current-chain report's stanceTriggers.downgrade carries
+# >=1 monitoringIds entry. Structural checks on reading/readingAsOf/monitoringIds
 # stay hard regardless of the flag — only the link-presence requirement is gated (third
 # use of the ENFORCE_CHAIN_ENRICHMENT / ENFORCE_STANCE_V2 rollout pattern).
-ENFORCE_TRIGGER_LINKS = False
+ENFORCE_TRIGGER_LINKS = True
 # v6 (docs/research-hub-v6-plan.md §2.1): benchmarks.json sits next to reports.json
 # and drives per-layer benchmark resolution. validate_benchmarks_config() enforces
 # the schema; the resolution mirror lives in update_verdicts.py / validate_verdicts.py.

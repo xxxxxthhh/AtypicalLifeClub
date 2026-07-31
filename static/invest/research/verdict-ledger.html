@@ -229,6 +229,19 @@
 
         <section class="section">
             <div class="research-header-row">
+                <h2 id="triggerWatchHeading">Trigger Watch</h2>
+            </div>
+            <p class="ledger-section-intro" id="triggerWatchIntro">Reports where a monitoring item linked to a published stance trigger reads "breached" and the stance has not moved since that grade. An empty table is the healthy state.</p>
+            <div class="ledger-table-wrap">
+                <table class="ledger-table" id="triggerWatchTable">
+                    <thead></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="research-header-row">
                 <h2 id="closedHeading">Closed Intervals</h2>
             </div>
             <p class="ledger-section-intro" id="closedIntro">Completed stance windows from stanceHistory. Legacy→v5 re-labellings are flagged "migration" and do not count as calls.</p>
@@ -260,6 +273,7 @@
     <script src="/shared/theme-switcher.js"></script>
     <script src="/shared/report-utils.js"></script>
     <script src="/shared/lang-switch.js"></script>
+    <script src="/invest/research/tracking-rules.js"></script>
     <script>
         const REPORTS_DATA_URL = "/invest/research/data/reports.json";
         const VERDICTS_DATA_URL = "/invest/research/data/verdicts.json";
@@ -286,6 +300,13 @@
                 statBeat: "全书跑赢 SMH",
                 openHeading: "在场判断",
                 openIntro: "在场仓位：每篇报告的当前立场自 stance 日期以来相对其基准的表现，可按相对幅度排序。",
+                triggerWatchHeading: "触发监视",
+                triggerWatchIntro: "已与公开立场触发条件挂钩的监测项读数为「已触发」，且自该评级之后立场未变动的报告。表为空即为健康状态。",
+                colBreachedMetric: "已触发指标",
+                colDaysSinceBreach: "触发后天数",
+                colBreachDate: "评级日期",
+                triggerWatchTag: "已触发未复核",
+                emptyTriggerWatch: "暂无已触发未复核的报告。",
                 closedHeading: "已闭合区间",
                 closedIntro: "来自 stanceHistory 的已完成立场窗口。legacy→v5 改标标注为 migration，不计为一次判断。",
                 calibHeading: "校准",
@@ -346,6 +367,13 @@
                 statBeat: "Book beating SMH",
                 openHeading: "Open Calls",
                 openIntro: "Live positions: each report's current stance vs its benchmark since the stance date. Sortable by relative delta.",
+                triggerWatchHeading: "Trigger Watch",
+                triggerWatchIntro: "Reports where a monitoring item linked to a published stance trigger reads \"breached\" and the stance has not moved since that grade. An empty table is the healthy state.",
+                colBreachedMetric: "Breached metric",
+                colDaysSinceBreach: "Days since breach",
+                colBreachDate: "Graded",
+                triggerWatchTag: "breached, not yet re-adjudicated",
+                emptyTriggerWatch: "No breached-and-unreviewed reports.",
                 closedHeading: "Closed Intervals",
                 closedIntro: "Completed stance windows from stanceHistory. Legacy→v5 re-labellings are flagged \"migration\" and do not count as calls.",
                 calibHeading: "Calibration",
@@ -396,6 +424,7 @@
             benchmark: "SMH",
             benchmarks: {},
             calibrationHistory: [],
+            reports: [],
             reportsById: new Map(),
             open: [],
             closed: [],
@@ -427,7 +456,8 @@
                 const verdicts = await verdictsResponse.json();
                 const benchmarks = await benchmarksResponse.json();
                 const calibrationHistory = await historyResponse.json();
-                state.reportsById = new Map((Array.isArray(reports) ? reports : []).map((r) => [r.id, r]));
+                state.reports = Array.isArray(reports) ? reports : [];
+                state.reportsById = new Map(state.reports.map((r) => [r.id, r]));
                 state.benchmark = verdicts.benchmark || "SMH";
                 state.benchmarks = benchmarks && typeof benchmarks === "object" ? benchmarks : {};
                 state.calibrationHistory = Array.isArray(calibrationHistory) ? calibrationHistory : [];
@@ -454,6 +484,8 @@
             setText("navMonitoring", labels.navMonitoring);
             setText("openHeading", labels.openHeading);
             setText("openIntro", labels.openIntro);
+            setText("triggerWatchHeading", labels.triggerWatchHeading);
+            setText("triggerWatchIntro", labels.triggerWatchIntro);
             setText("closedHeading", labels.closedHeading);
             setText("closedIntro", labels.closedIntro);
             setText("calibHeading", labels.calibHeading);
@@ -464,6 +496,7 @@
 
             renderStats();
             renderOpenTable();
+            renderTriggerWatchTable();
             renderClosedTable();
             renderCalibration();
             renderBookReference();
@@ -581,6 +614,48 @@
             if (av === null) return 1;
             if (bv === null) return -1;
             return state.openSortDir === "desc" ? bv - av : av - bv;
+        }
+
+        // v6 Track 2 (spec §3.3): published triggers that fired while the stance stayed
+        // put. Selection lives in tracking-rules.js so the rule is unit-testable; the
+        // page only renders. Factual tone, no judgment colour (DESIGN.md §2) — the
+        // "breached, not yet re-adjudicated" tag reuses the neutral flag-tag style.
+        function renderTriggerWatchTable() {
+            const labels = getLabels();
+            const table = document.getElementById("triggerWatchTable");
+            const head = table.querySelector("thead");
+            const body = table.querySelector("tbody");
+            head.innerHTML = `
+                <tr>
+                    <th>${escapeHtml(labels.colReport)}</th>
+                    <th>${escapeHtml(labels.colStance)}</th>
+                    <th>${escapeHtml(labels.colBreachedMetric)}</th>
+                    <th>${escapeHtml(labels.colBreachDate)}</th>
+                    <th class="num">${escapeHtml(labels.colDaysSinceBreach)}</th>
+                    <th>${escapeHtml(labels.colFlag)}</th>
+                </tr>`;
+            const rows = window.ResearchTracking
+                ? window.ResearchTracking.buildTriggerWatchRows(state.reports)
+                : [];
+            if (!rows.length) {
+                body.innerHTML = `<tr><td colspan="6" class="muted-cell">${escapeHtml(labels.emptyTriggerWatch)}</td></tr>`;
+                return;
+            }
+            body.innerHTML = rows.map((row) => `
+                    <tr>
+                        <td class="ledger-name">${reportNameCell(row.report, row.reportId)}</td>
+                        <td>${stanceChip(row.stance, row.conviction)}</td>
+                        <td>${escapeHtml(row.items.map(monitoringMetricName).join(" · "))}</td>
+                        <td class="muted-cell">${escapeHtml(row.readingAsOf)}</td>
+                        <td class="num">${Number.isFinite(row.daysSinceBreach) ? row.daysSinceBreach : "—"}</td>
+                        <td><span class="flag-tag">${escapeHtml(labels.triggerWatchTag)}</span></td>
+                    </tr>`).join("");
+        }
+
+        function monitoringMetricName(item) {
+            const metric = item && item.metric ? item.metric : null;
+            if (!metric) return item && item.id ? item.id : "—";
+            return metric[currentLang] || metric.en || metric.zh || item.id || "—";
         }
 
         function renderClosedTable() {
