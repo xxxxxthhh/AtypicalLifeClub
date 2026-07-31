@@ -366,11 +366,11 @@
       "reportId": "amzn-2026",
       "stance": "constructive",
       "conviction": "medium",
-      "stanceDate": "2026-07-30",
+      "stanceDate": "2026-07-31",
       "priceAtStance": 235.5,
       "benchmarkSymbol": "QQQ",
       "status": "pending",
-      "daysHeld": 1,
+      "daysHeld": 0,
       "stale": false
     },
     {
