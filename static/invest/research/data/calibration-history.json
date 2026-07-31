@@ -2111,7 +2111,7 @@
       },
       "QQQ": {
         "scoredCount": 7,
-        "medianRelativePct": -5.2,
+        "medianRelativePct": -5.9,
         "nonNeutralBeatRate": 0.3333333333333333,
         "byStance": {
           "neutral-watch": {
@@ -2120,7 +2120,7 @@
           },
           "cautious": {
             "scoredCount": 4,
-            "medianRelativePct": -5.6
+            "medianRelativePct": -6.8
           },
           "bearish-avoid": {
             "scoredCount": 2,
@@ -2173,7 +2173,7 @@
           },
           "neutral-watch": {
             "scoredCount": 2,
-            "medianRelativePct": -3.9
+            "medianRelativePct": -4.6
           },
           "cautious": {
             "scoredCount": 7,

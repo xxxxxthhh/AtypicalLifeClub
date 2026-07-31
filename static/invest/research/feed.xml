@@ -293,6 +293,13 @@
       <description>2026-07-07 v5更新：VST是AI基础设施power层的nuclear-plus-gas高beta dashboard。价格锚点$151.05（2026-07-02）、市值约$50.9B、EV约$70.2B、约3.6x EV/TTM sales，并含约$19.3B净债务。30%牛市/40%基准/30%熊市情景显示上行真实但下行更快，v5立场迁移为谨慎/中确信。</description>
     </item>
     <item>
+      <title>Microsoft 深度研究报告 - Azure AI 收入与 capex 吸收的需求锚 / Microsoft Deep Research Report - Demand Anchor for Azure AI Revenue vs Capex Absorption</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=microsoft-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=microsoft-2026#microsoft-2026@2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施书 demand-risk 层的需求锚初始覆盖：Microsoft 是全球最大 AI capex 买方，本书此前给 GPU/HBM/电力稀缺性打分却没有覆盖这些开支落地的资产负债表。FY2026 Q4（季度截至 2026-06-30，07-29 发布）：收入 $90.007B（+18%）、Azure 及其他云 +43% 加速、FY2026 Azure 收入首破 $100B（+41%）、商业 RPO $678B（+84%）、Q4 含融资租赁 capex $41B（+69%）、FY2026 经营现金流 $182.9B、现金 capex $115.9B、FCF 约 $67B——demand 层最强的 capex 吸收答卷。风险同样清晰：2026 年 1 月披露的 $625B RPO 中约 45% 系于 OpenAI；FY2027 Q1 capex 指引超 $50B；数据中心/办公楼寿命 15→25 年重分类把日历 2026 capex 框架由约 $190B 改列约 $175B。以 2026-07-30 收盘 $451.10 为锚（财报后单日 +15.5%），市值约 $3.35T、约 25.1x 追溯 GAAP EPS、约 10.1x FY2026 收入、约 49x EV/FY2026 FCF。30% 牛市 / 40% 基准 / 30% 熊市网格读出略偏负到中性的预期差，初始立场中性观察 / 中确信。</description>
+    </item>
+    <item>
       <title>Meta Platforms 深度研究报告 - AI 基建书的需求锚与算力外售压力测试 / Meta Platforms Deep Research Report - Demand Anchor and Compute-Resale Stress Test for the AI-Infra Book</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=meta-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=meta-2026#meta-2026@2026-07-31</guid>
@@ -347,13 +354,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=tempus-ai-2026-pre-rerun#tempus-ai-2026-pre-rerun@2026-02-27</guid>
       <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
       <description>归档的2026H1重跑前版本，保留FY2025收入、诊断/数据分部、数据飞轮护城河和旧市值/估值倍数框架，作为当前完整重跑版本的对照基线。</description>
-    </item>
-    <item>
-      <title>SK hynix 深度研究报告 - HBM垄断者的AI记忆霸权 - 重跑前归档版 / SK hynix Deep Research Report - The HBM Monopolist's AI Memory Dominance - Pre-rerun Archive</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=sk-hynix-2026-pre-rerun</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=sk-hynix-2026-pre-rerun#sk-hynix-2026-pre-rerun@2026-02-25</guid>
-      <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
-      <description>归档的2026重跑前版本，保留FY2025收入/利润、HBM份额、技术路线图和旧的深度价值估值框架，作为当前完整重跑版本的对照基线。</description>
     </item>
   </channel>
 </rss>
