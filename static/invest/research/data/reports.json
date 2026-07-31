@@ -6909,7 +6909,7 @@
     "priceSymbol": "DLR",
     "title": "Digital Realty 深度研究报告 - AI 数据中心租赁与互联需求仪表盘",
     "titleEn": "Digital Realty Deep Research Report - Leasing and Interconnection Dashboard for AI Data Centers",
-    "summary": "AI 基础设施 datacenter-facility 层的租赁/互联需求校验。DLR 不直接解释 GPU、光模块或电力设备，而是验证 AI 数据中心需求是否转化为真实租约、backlog、互联节点和开发容量。2026Q2 财报（2026-07-23）：Core FFO/share（ex net promote）$2.13、cash renewal spread +25.4%；公司签下 $307M 年化 GAAP base rent 的 bookings（100% share）/ $208M（DLR share），其中 0-1MW + interconnection 贡献 $108M、占 DLR-share bookings 的 52%；季度末 signed-but-not-commenced backlog 为 record $1.9B（100% share）/ $1.4B（DLR share），但后者含约 $380M 收购相关增量，不能全部解释为本季有机签约；新签租约加权平均开租滞后从 19 个月收窄至 9 个月，future-development capacity 升至约 9GW。管理层把 2026 Core FFO/share（ex net promote）指引从 $8.00-8.10 上修至 $8.15-8.20。$173.30、市值约 $62.0B、EV 约 $77.6B、约 21x P/Core FFO 与约 12.2x EV/TTM revenue 均为基于当时 Q1 $8.00-8.10 指引的 2026-07-02 初始估值快照，本次监测不刷新估值或立场；维持偏多 / 中确信。",
+    "summary": "AI 基础设施 datacenter-facility 层的租赁/互联需求校验。DLR 不直接解释 GPU、光模块或电力设备，而是验证 AI 数据中心需求是否转化为真实租约、backlog、互联节点和开发容量。2026Q2 财报（2026-07-23）：Core FFO/share（ex net promote）$2.13、cash renewal spread +25.4%；公司签下 $307M 年化 GAAP base rent 的 bookings（100% share）/ $208M（DLR share），其中 0-1MW + interconnection 贡献 $108M、占 DLR-share bookings 的 52%；季度末 signed-but-not-commenced backlog 为 record $1.9B（100% share）/ $1.4B（DLR share），但后者含约 $380M 收购相关增量，不能全部解释为本季有机签约；新签租约加权平均开租滞后从 19 个月收窄至 9 个月，future-development capacity 升至约 9GW。管理层把 2026 Core FFO/share（ex net promote）指引从 $8.00-8.10 上修至 $8.15-8.20。2026-07-31 完成此前推迟的当前价格估值复核：以 2026-07-30 收盘 $193.19 计，市值约 $69.1B、EV 约 $84.7B，对照上修后指引约 23.6x P/Core FFO、约 13.3x EV/TTM revenue，隐含要求升至约 18.3% Core FFO/share CAGR，高于中双位数的牛市情景。经营证据依然强劲，但股价跑在前面，立场由偏多调整为 neutral-watch / 中确信。",
     "tags": [
       "AI数据中心",
       "REIT",
@@ -6931,26 +6931,26 @@
       "补齐 datacenter-facility 层租赁校验：DLR 把上游 chip/neocloud/buildout 叙事接到真实租约、backlog、cross-connects 和开发容量",
       "2026Q2（2026-07-23）Core FFO/share（ex net promote）$2.13、cash renewal spread +25.4%；2026 Core FFO/share 指引上修至 $8.15-8.20（ex net promote，Q1 为 $8.00-8.10）",
       "Q2 bookings $307M（100% share）/$208M（DLR share），环比低于 Q1；0-1MW + interconnection $108M、占 DLR-share bookings 的 52%；backlog $1.9B/$1.4B，但 DLR-share 口径含约 $380M 收购相关增量，开租滞后收窄至 9 个月",
-      "$173.30、市值约 $62.0B、EV 约 $77.6B、约 21x P/Core FFO 为基于当时 Q1 $8.00-8.10 指引的 2026-07-02 估值快照（本次不刷新）；强需求但估值、杠杆、电力/许可和 backlog commence 是核心风险"
+      "2026-07-30 收盘 $193.19、市值约 $69.1B、EV 约 $84.7B、约 23.6x P/Core FFO，隐含要求约 18.3% Core FFO/share CAGR；需求仍强但股价已跑在基本面前面，立场下调为 neutral-watch"
     ],
-    "summaryEn": "Leasing and interconnection demand check for the AI-infrastructure data-center facility layer. DLR does not directly explain GPUs, optical modules or power equipment; it tests whether AI data-center demand converts into real leases, backlog, interconnection nodes and development capacity. Q2 2026 results (July 23, 2026): Core FFO/share (excluding net promote) was $2.13 and cash renewal spreads were +25.4%. The company signed $307M of annualized GAAP base-rent bookings at 100% share, or $208M at DLR share, including $108M from 0-1MW plus interconnection, or 52% of DLR-share bookings. Signed-but-not-commenced backlog was a record $1.9B at 100% share and $1.4B at DLR share, but the latter included about $380M of acquisition-related incremental backlog and cannot be read entirely as organic quarterly leasing; the weighted-average commencement lag narrowed from 19 months to nine months and future-development capacity rose to about 9GW. Management raised 2026 Core FFO/share (excluding net promote) guidance from $8.00-8.10 to $8.15-8.20. The $173.30 price, about $62.0B market cap, $77.6B EV, ~21x P/Core FFO, and ~12.2x EV/TTM revenue are the July 2, 2026 initial valuation snapshot based on the then-current Q1 $8.00-8.10 guide; this monitoring pass does not refresh valuation or stance and keeps Constructive / medium conviction.",
+    "summaryEn": "Leasing and interconnection demand check for the AI-infrastructure data-center facility layer. DLR does not directly explain GPUs, optical modules or power equipment; it tests whether AI data-center demand converts into real leases, backlog, interconnection nodes and development capacity. Q2 2026 results (July 23, 2026): Core FFO/share (excluding net promote) was $2.13 and cash renewal spreads were +25.4%. The company signed $307M of annualized GAAP base-rent bookings at 100% share, or $208M at DLR share, including $108M from 0-1MW plus interconnection, or 52% of DLR-share bookings. Signed-but-not-commenced backlog was a record $1.9B at 100% share and $1.4B at DLR share, but the latter included about $380M of acquisition-related incremental backlog and cannot be read entirely as organic quarterly leasing; the weighted-average commencement lag narrowed from 19 months to nine months and future-development capacity rose to about 9GW. Management raised 2026 Core FFO/share (excluding net promote) guidance to $8.15-8.20. The 2026-07-31 pass completed the deferred current-price valuation review: at the $193.19 close on 2026-07-30, market cap is about $69.1B and EV about $84.7B, or about 23.6x P/Core FFO and 13.3x EV/TTM revenue on the raised guide, lifting the implied requirement to roughly 18.3% Core FFO/share CAGR — above the mid-teens bull case. Operating evidence remains strong but the share price has run ahead of it, so the stance moves from constructive to neutral-watch / medium conviction.",
     "chainLayer": "datacenter-facility",
     "coverageTier": "full",
     "chainRole": "dashboard",
-    "stance": "constructive",
+    "stance": "neutral-watch",
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "在基于当时 Q1 $8.00-8.10 指引的 2026-07-02 估值快照中，$173.30 与约 21x P/Core FFO 隐含未来三年约 14% Core FFO/share CAGR；本次只更新经营读数，不用旧价格对 Q2 新指引重新估值，维持原偏多 / 中确信结论。",
-      "en": "In the July 2, 2026 valuation snapshot based on the then-current Q1 $8.00-8.10 guide, $173.30 and about 21x P/Core FFO implied roughly 14% three-year Core FFO/share CAGR; this pass updates operating evidence only, does not revalue the Q2 guide using the old price, and keeps the prior constructive / medium-conviction conclusion."
+      "zh": "以 2026-07-30 收盘 $193.19、市值约 $69.1B 与上修后的 $8.15-8.20 Core FFO/share 指引计，约 23.6x P/Core FFO 代入本报告自身的反推公式（三年内向约 18x 正常化、要求回报 8%），隐含要求约 18.3% Core FFO/share CAGR，高于旧框架的约 14%，也高于中双位数的牛市情景与 Q2 实际 +13.9% 的兑现速度。Q2 经营证据（0-1MW/interconnection 创纪录、renewal spread +25.4%、开租滞后收窄至 9 个月）依然强劲且在改善，因此不下调至谨慎；但价格上涨 11.5% 而指引仅上修约 1.6%，仅重定价一项就把要求推到情景集合之外，偏多不再成立。",
+      "en": "At the $193.19 close on 2026-07-30, about $69.1B market cap and the raised $8.15-8.20 Core FFO/share guide, about 23.6x P/Core FFO feeds this report's own reverse-multiple formula (normalising toward about 18x over three years at an 8% required return) to imply roughly 18.3% Core FFO/share CAGR — up from about 14% in the old frame, and above both the mid-teens bull case and the +13.9% delivered in Q2. Q2 operating evidence (record 0-1MW/interconnection bookings, +25.4% renewal spreads, commencement lag down to nine months) remains strong and improving, so the stance does not move to cautious; but the price rose 11.5% while the guide rose about 1.6%, and the re-rating alone pushed the requirement beyond the scenario set, so constructive no longer holds."
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "若 Q3/Q4 leasing bookings 保持高位、剔除约 $380M 收购增量后仍能看到 $1.9B backlog 的开租进展，0-1MW/interconnection 需求与约 9GW future development 同时推进，且净债务和利息成本没有稀释 Core FFO/share 增长，则上调至 bullish。",
-        "en": "Move to bullish if Q3/Q4 leasing bookings remain elevated, the $1.9B backlog shows commencement progress after accounting for the roughly $380M acquisition increment, 0-1MW/interconnection demand and about 9GW of future development both advance, and net debt and interest cost do not dilute Core FFO/share growth."
+        "zh": "若 Q3/Q4 leasing bookings 保持高位、剔除约 $380M 收购增量后 backlog 仍见开租进展、0-1MW/interconnection 需求与约 9GW future development 同时推进、净债务和利息成本没有稀释 Core FFO/share 增长，且 Core FFO/share 增速或倍数回落把差距收敛到当前约 18.3% 的隐含要求，则上调回 constructive。",
+        "en": "Move back to constructive if Q3/Q4 leasing bookings remain elevated, the backlog shows commencement progress after accounting for the roughly $380M acquisition increment, 0-1MW/interconnection demand and about 9GW of future development both advance, net debt and interest cost do not dilute Core FFO/share growth, and either faster Core FFO/share growth or a multiple reset closes the gap to the roughly 18.3% currently implied requirement."
       },
       "downgrade": {
-        "zh": "如果 backlog commencement lag 继续拉长、renewal/pricing spreads 恶化、开发电力或许可推迟容量，或净债务/股本融资使 Core FFO/share 增长低于约 14% 隐含要求，则下调至 neutral-watch 或 cautious。",
-        "en": "Move to neutral-watch or cautious if backlog commencement lag keeps stretching, renewal/pricing spreads deteriorate, power or permitting delays capacity, or net debt/equity financing pushes Core FFO/share growth below the roughly 14% implied requirement."
+        "zh": "如果剔除收购增量后的 backlog commencement lag 继续拉长、renewal/pricing spreads 恶化、开发电力或许可推迟容量，或净债务/股本融资使 Core FFO/share 增长进一步低于约 18.3% 的隐含要求，则下调至 cautious。",
+        "en": "Move to cautious if acquisition-adjusted backlog commencement lag keeps stretching, renewal/pricing spreads deteriorate, power or permitting delays capacity, or net debt/equity financing pushes Core FFO/share growth further below the roughly 18.3% implied requirement."
       }
     },
     "stanceHistory": [
@@ -6964,9 +6964,15 @@
         "stance": "constructive",
         "conviction": "medium",
         "price": 173.3
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 193.19
       }
     ],
-    "priceAsOf": "2026-07-02",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "2026Q2",
     "related": [
       "coreweave-2026",
