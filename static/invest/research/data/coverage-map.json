@@ -239,14 +239,6 @@
         "zh": "电网 EPC 与输配建设：检验电力设备订单能否变成可交付容量",
         "en": "Grid EPC and transmission buildout: tests whether power-equipment orders become deliverable capacity"
       }
-    },
-    {
-      "ticker": "AMKR",
-      "layer": "advanced-packaging",
-      "label": {
-        "zh": "先进封装 / OSAT：检验 CoWoS、HBM 集成与基板是否是后端瓶颈",
-        "en": "Advanced packaging / OSAT: tests CoWoS, HBM integration, and substrate bottlenecks"
-      }
     }
   ],
   "crossChecks": [

@@ -7759,5 +7759,271 @@
         "price": 299.69
       }
     ]
+  },
+  {
+    "id": "amkr-2026",
+    "company": "Amkor Technology",
+    "ticker": "NASDAQ: AMKR",
+    "priceSymbol": "AMKR",
+    "title": "Amkor Technology 深度研究报告 - 先进封装的瓶颈究竟在 OSAT 还是在代工厂的架构校验",
+    "titleEn": "Amkor Technology Deep Research Report - Architecture Check on Whether the Advanced-Packaging Bottleneck Sits at the OSAT or Inside the Foundry",
+    "summary": "AI 基础设施书 advanced-packaging 层的首个节点与架构校验初始覆盖：该层此前节点数为零，AMKR 开层后本书 schema 不再有空层。本报告的任务是检验“先进封装是 AI 加速器供给的卡口约束”这一说法究竟落在 Amkor 所处的 OSAT 层，还是完全位于台积电 CoWoS / 3DFabric 之内。结论偏向后者：Amkor 标题上 82.0% 的“先进产品”被财报定义为倒装、内存与晶圆级加工，是一个由智能手机主导的口径（通信占收入 42%、计算含 PC 与存储仅 22%）；全网稼动率仅由 50% 区间升到 70% 区间；财报写明没有实质在手订单、客户不提供具约束力预测；Q3 收入指引 $19.5-20.5 亿对 2025 Q3 实绩 $1,987.0M 为同比 -1.9% 至 +3.2%。更具决定性的是方向相反的证据：管理层把 Q3 通信下滑归因于安卓出货量因内存供应约束下降约 20%——Amkor 当下是被内存层卡住，而不是在卡住别人。真实的狭窄例外是地理性的：美国本土先进封装产能确实稀缺，10-Q 披露 2026 年 7 月签署预付款协议、预计 2027 年收到约 $15 亿（报道指认交易对手为 NVIDIA），另约 $3 亿预付款中 $1.0 亿已到账，管理层称亚利桑那一期已完全被承诺，Apple 为锚定客户。最新已报告期间为 2026 Q2（季度截至 2026-06-30、07-27 发布、10-Q 于 07-28 提交）：收入 $1,898.0M（同比 +25.6%）、毛利率由 12.0% 拐到 16.8%、经营利润率 10.5%、EPS $0.70、EBITDA $400M，Q3 指引毛利率 18.5-19.5%、EPS $0.72-0.82。结构性风险同样清晰：Apple 占 FY2025 销售额 29.8%、Qualcomm 11.1%；2026 年资本开支指引 $25-30 亿（FY2025 为 $904.6M），追溯自由现金流 -$172.4M，FY2026E 自由现金流约 -$10 亿至 -$17 亿，管理层已预告亚利桑那稼动不足将在 2027-2028 年同时拖累毛利率与经营利润率。以 2026-07-30 收盘 $48.26 为锚（较 06-22 收盘高点 $93.55 低 48.4%，07-28 单日 -24.7%），市值约 $11.99B、企业价值约 $11.96B、约 21.6x 追溯 GAAP 市盈率、约 1.60x EV/追溯收入、约 8.6x EV/追溯 EBITDA、约 2.58x 市净率；但 EV/（EBITDA 减资本开支）为 $11.96B 除以 $24.6M。30% 牛市 / 40% 基准 / 30% 熊市网格读出接近平衡的偏度，初始立场中性观察 / 中确信。",
+    "summaryEn": "First node and initial architecture-check coverage for the AI-infrastructure book's advanced-packaging layer, which until now had zero nodes; with AMKR no layer in the book's schema is empty. The report's job is to test whether the repeatedly-cited claim that advanced packaging is the binding constraint on AI accelerator supply lands at the OSAT layer where Amkor sits, or entirely inside TSMC's CoWoS/3DFabric. The finding points mostly at the latter: Amkor's headline 82.0% \"advanced products\" is defined by the filing as flip chip, memory and wafer-level processing - a smartphone-led bucket (communications is 42% of revenue; computing, which includes PC/laptop and storage, is only 22%); network utilization improved merely from the 50% range into the 70% range; the filings state there is no material backlog and that customers give no binding forecasts; and Q3 revenue is guided to $1.95-2.05B against $1,987.0M actual in Q3 2025, or -1.9% to +3.2% year over year. More decisive still is evidence pointing the other way: management attributed the guided Q3 decline in communications to Android volumes falling about 20% on memory supply constraints - Amkor is currently being gated by the memory layer rather than gating anyone. The honest exception is geographic: US-located advanced packaging is genuinely scarce, and the 10-Q discloses a July 2026 advance payment agreement under which Amkor expects to receive approximately $1.5 billion in 2027 (coverage identifies the counterparty as NVIDIA), plus about $300M of other advance payments of which $100.0M has been received, with management describing Arizona Phase 1 as fully committed and Apple as anchor customer. The latest reported period is Q2 2026 (quarter ended 2026-06-30, reported 07-27, 10-Q filed 07-28): revenue $1,898.0M (+25.6% YoY), gross margin inflecting from 12.0% to 16.8%, operating margin 10.5%, EPS $0.70 and EBITDA $400M, with Q3 guided to an 18.5-19.5% gross margin and $0.72-0.82 of EPS. The structural risks are equally clear: Apple was 29.8% and Qualcomm 11.1% of FY2025 net sales; 2026 capex is guided to $2.5-3.0B against $904.6M in FY2025; trailing free cash flow is -$172.4M and FY2026E free cash flow is roughly -$1.0B to -$1.7B; and management has pre-announced that underutilized Arizona capacity will drag both gross and operating margin in 2027 and 2028. Anchored to the 2026-07-30 close of $48.26 (48.4% below the 06-22 closing high of $93.55, after a 24.7% single-session fall on 07-28), market cap is about $11.99B and enterprise value about $11.96B, at about 21.6x trailing GAAP earnings, 1.60x EV/TTM revenue, 8.6x EV/TTM EBITDA and 2.58x book - but EV over EBITDA-minus-capex is $11.96B divided by $24.6M. The 30% bull / 40% base / 30% bear grid reads a close-to-balanced skew, so the initiation opens at neutral-watch / medium conviction.",
+    "tags": [
+      "AI基础设施",
+      "先进封装",
+      "OSAT",
+      "CHIPS法案"
+    ],
+    "category": "tech",
+    "date": "2026-07-31",
+    "lastUpdate": "2026-07-31",
+    "file": "/invest/research/reports/view.html?id=amkr-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Amkor_Technology_深度研究报告_2026-07.md",
+      "en": "/invest/research/Amkor_Technology_Deep_Research_Report_2026-07.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "advanced-packaging 层首个节点：本层此前为空，AMKR 以架构校验身份开层，本书 schema 至此不再有空层",
+      "核心结论：AI 先进封装的瓶颈压倒性地是台积电的——82% “先进产品”是含智能手机倒装的口径产物、稼动率仅 70% 区间、无实质在手订单、Q3 指引同比 -1.9% 至 +3.2%；且 Q3 通信下滑源于安卓因内存短缺减产约 20%，Amkor 是被卡住的一方",
+      "真实的狭窄例外是地理：美国本土产能稀缺，10-Q 披露预计 2027 年收到约 $15 亿预付款（报道指认为 NVIDIA），亚利桑那一期已完全被承诺、Apple 为锚定客户",
+      "2026 Q2（07-27 发布）：收入 $1,898.0M（+25.6%）、毛利率 12.0%→16.8%、经营利润率 10.5%、EPS $0.70、EBITDA $400M；Q3 指引毛利率 18.5-19.5%、EPS $0.72-0.82",
+      "结构性风险：Apple 占 FY2025 销售额 29.8%；2026 年资本开支指引 $25-30 亿（FY2025 $904.6M），追溯自由现金流 -$172.4M，管理层预告亚利桑那 2027-2028 年拖累利润率",
+      "股价 $48.26（2026-07-30 收盘、较 6 月高点 -48.4%）：约 21.6x 追溯 GAAP、约 8.6x EV/追溯 EBITDA，但 EV/（EBITDA 减资本开支）为 $11.96B ÷ $24.6M；30/40/30 网格，初始中性观察 / 中确信"
+    ],
+    "chainLayer": "advanced-packaging",
+    "coverageTier": "full",
+    "chainRole": "architecture-check",
+    "stance": "neutral-watch",
+    "conviction": "medium",
+    "priceAsOf": "2026-07-30",
+    "reportedPeriod": "Q2 2026",
+    "related": [
+      "tsmc-2026",
+      "micron-2026",
+      "sk-hynix-2026",
+      "nvidia-2026",
+      "alab-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "revenue-growth-inflection",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "收入增速拐点",
+          "en": "Revenue growth inflection"
+        },
+        "trigger": {
+          "zh": "总收入连续两个季度同比负增长（下调依据），或同比增速回到两位数（上调依据）",
+          "en": "Total revenue growth turns negative year over year for two consecutive quarters (downgrade evidence), or returns to double digits year over year (upgrade evidence)"
+        },
+        "latest": {
+          "zh": "2026 Q2 收入 $1,897.965M，同比 +25.6%、环比 +12.7%，为纪录季度；上半年 $3,582.666M，同比 +26.5%；Q3 指引 $19.5-20.5 亿，对 2025 Q3 实绩 $1,986.968M 为同比 -1.9% 至 +3.2%、中值 +0.7%，环比 +2.7% 至 +8.0%；一个季度接近零增长，尚未出现连续两个季度负增长",
+          "en": "Q2 2026 revenue was $1,897.965M, +25.6% YoY and +12.7% QoQ, a record quarter; H1 was $3,582.666M, +26.5%. Q3 is guided to $1.95-2.05B against $1,986.968M actual in Q3 2025, or -1.9% to +3.2% YoY (midpoint +0.7%) and +2.7% to +8.0% QoQ; one quarter near zero growth, not yet two consecutive negative quarters"
+        },
+        "nextCheck": "2026 Q3 财报（2026 年 10 月下旬）/ Q3 2026 earnings (late October 2026)",
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-07-27"
+      },
+      {
+        "id": "gross-margin-and-utilization",
+        "thesis": "either",
+        "theme": "pricing",
+        "metric": {
+          "zh": "毛利率与工厂稼动率",
+          "en": "Gross margin and factory utilization"
+        },
+        "trigger": {
+          "zh": "毛利率连续两个季度回落到约 15% 以下，或全网稼动率回到 50-60% 区间（下调依据）；毛利率连续两个季度维持在 19% 以上（上调依据）",
+          "en": "Gross margin falls back below ~15% for two consecutive quarters, or network utilization returns to the 50-60% range (downgrade evidence); gross margin holds above 19% for two consecutive quarters (upgrade evidence)"
+        },
+        "latest": {
+          "zh": "毛利率三个季度走出 12.0%（2025 Q2）→ 14.2%（2026 Q1）→ 16.8%（2026 Q2），Q3 指引 18.5-19.5%；管理层在 Q2 电话会称稼动率由 50% 区间提升到 70% 区间、若干技术平台满产（平台未点名），并把 Q2 毛利率提升的约三分之二归因于放量/稼动、三分之一归因于产品结构；Q2 销售成本为材料 52.6%、人工 10.0%、折旧 8.6%、其他制造 12.0%",
+          "en": "Gross margin ran 12.0% (Q2 2025) → 14.2% (Q1 2026) → 16.8% (Q2 2026), with Q3 guided to 18.5-19.5%. On the Q2 call management said utilization improved from the 50% range into the 70% range with several technology platforms at full capacity (the platforms were not named), and attributed roughly two-thirds of the Q2 margin expansion to volume/utilization and one-third to product mix; Q2 cost of sales was 52.6% materials, 10.0% labour, 8.6% depreciation and 12.0% other manufacturing"
+        },
+        "nextCheck": "每季毛利率与 Q3 指引兑现情况 / quarterly gross margin and delivery against the Q3 guide",
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-07-27"
+      },
+      {
+        "id": "capex-and-free-cash-flow",
+        "thesis": "either",
+        "theme": "leverage-solvency",
+        "metric": {
+          "zh": "资本开支相对指引与自由现金流谷底",
+          "en": "Capex against the guide and the free-cash-flow trough"
+        },
+        "trigger": {
+          "zh": "FY2026 资本开支突破 $30 亿指引上限，或 FY2027 资本开支指引超过约 $25 亿；或 2026 下半年现金资本开支显著低于隐含的 $18.1-23.1 亿（意味着指引虚高或亚利桑那滑期）；或净债务超过约 1.5 倍 EBITDA",
+          "en": "FY2026 capex exceeds the $3.0B top of the guide, or FY2027 capex guidance exceeds ~$2.5B; or H2 2026 cash capex tracks materially below the implied $1.81-2.31B (meaning either an inflated guide or Arizona slipping); or net debt exceeds ~1.5x EBITDA"
+        },
+        "latest": {
+          "zh": "FY2026 资本开支指引 $25-30 亿，对比 FY2025 的 $904.6M（占销售额 13.5%）与 FY2024 的 $743.8M（11.8%）；2026 上半年现金资本开支仅 $688.425M，隐含下半年 $18.1-23.1 亿；应付资本开支已由年末 $243.543M 升至 $621.326M，采购义务 $1,465.2M 中 $1,395.1M 在 12 个月内到期；追溯自由现金流 -$172.4M（经营现金流 $1,194.6M 减资本开支 $1,366.9M）；净现金仍为正但仅 $26.5M（现金 $1,551.890M + 短期投资 $960.272M 减债务 $2,485.7M）；下半年实际支出尚无数据",
+          "en": "FY2026 capex is guided to $2.5-3.0B against $904.6M in FY2025 (13.5% of sales) and $743.8M in FY2024 (11.8%). H1 2026 cash capex was only $688.425M, implying $1.81-2.31B in H2; capital expenditures payable has already risen from $243.543M at year-end to $621.326M, and $1,395.1M of the $1,465.2M of purchase obligations falls due within 12 months. Trailing free cash flow is -$172.4M (OCF $1,194.6M less capex $1,366.9M) and net cash is still positive but only $26.5M (cash $1,551.890M plus short-term investments $960.272M less debt $2,485.7M). No H2 spending data exists yet"
+        },
+        "nextCheck": "2026 Q3 与 Q4 现金资本开支相对隐含运行率，及 FY2027 资本开支指引 / Q3 and Q4 2026 cash capex against the implied run-rate, and the FY2027 capex guide",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "customer-concentration-apple",
+        "thesis": "bear",
+        "theme": "concentration",
+        "metric": {
+          "zh": "Apple 与前十大客户集中度",
+          "en": "Apple and top-ten customer concentration"
+        },
+        "trigger": {
+          "zh": "Apple 披露占比超过约 35%，或在没有替代收入的情况下大幅下降；或前十大客户占比回升到约 72% 以上",
+          "en": "Apple's disclosed share exceeds ~35%, or falls sharply without replacement revenue; or top-ten customer concentration rises back above ~72%"
+        },
+        "latest": {
+          "zh": "FY2025 直接销售中 Apple 占 29.8%、Qualcomm 占 11.1%，前十大客户占 72%；前十大占比已连续两个季度改善，2026 Q1 降至 68%、Q2 降至 66%，驱动力是计算与汽车增速快过通信；财报写明公司没有实质在手订单、客户不提供具约束力的需求预测；Apple 于 2026 年 7 月另向 Broadcom 承诺至少 $300 亿用于美国芯片生产，说明其本土化开支分散于多家供应商",
+          "en": "In FY2025 direct sales to Apple were 29.8% and to Qualcomm 11.1% of net sales, with the ten largest customers at 72%. Top-ten concentration has improved for two consecutive quarters, to 68% in Q1 2026 and 66% in Q2 2026, as computing and automotive outgrew communications. The filings state there is no material backlog and that customers provide no binding forecasts. In July 2026 Apple separately committed at least $30 billion to Broadcom for US chip production, showing its onshoring spend is spread across suppliers"
+        },
+        "nextCheck": "每季前十大客户占比，及 FY2026 10-K 的点名客户披露（2027 年 2 月）/ quarterly top-ten percentage, and the named-customer disclosure in the FY2026 10-K (February 2027)",
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-07-27"
+      },
+      {
+        "id": "computing-vs-communications-mix",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "计算相对通信的收入结构",
+          "en": "Computing versus communications revenue mix"
+        },
+        "trigger": {
+          "zh": "计算未能在 2027 年底前达到净销售额的约 30%（下调依据），或通信收入连续超过两个季度下滑（下调依据）；计算达到 30% 且毛利率维持在 19% 以上（上调依据）",
+          "en": "Computing fails to reach ~30% of net sales by end-2027 (downgrade evidence), or communications revenue declines for more than two consecutive quarters (downgrade evidence); computing reaches 30% while gross margin holds above 19% (upgrade evidence)"
+        },
+        "latest": {
+          "zh": "2026 Q2 终端市场为通信 42%、计算 22%、汽车工业 22%、消费 14%（2026 Q1 为 44/21/21/14，2025 Q2 为 40/22/20/18；FY2025 为 46/20/19/15）；管理层指引 Q3 计算收入环比增长近 30%（AI 数据中心需求与 HDFO CPU 上量），同时通信收入下滑，安卓销售已因内存供应约束下降约 20%；计算距 30% 的门槛尚有距离且时间未到，通信仅有一个季度被指引下滑——两条腿一条不可读、一条尚在阈值内",
+          "en": "Q2 2026 end markets were communications 42%, computing 22%, automotive-industrial 22% and consumer 14% (Q1 2026: 44/21/21/14; Q2 2025: 40/22/20/18; FY2025: 46/20/19/15). Management guided Q3 computing revenue to grow nearly 30% sequentially on AI data-center demand and an HDFO CPU ramp, while communications revenue declines with Android sales already down about 20% on memory supply constraints. Computing remains below the 30% threshold with the deadline still far off, and communications has only one guided down quarter - one leg is unreadable and the other is still inside the threshold"
+        },
+        "nextCheck": "每季终端市场分布表与计算收入轨迹 / the quarterly end-market distribution table and the computing revenue trajectory",
+        "nextCheckDate": "2026-10",
+        "reading": "unclear",
+        "readingAsOf": "2026-07-27"
+      },
+      {
+        "id": "arizona-execution-and-margin-drag",
+        "thesis": "bear",
+        "theme": "execution",
+        "metric": {
+          "zh": "亚利桑那执行与 2027-2028 年利润率拖累",
+          "en": "Arizona execution and the 2027-2028 margin drag"
+        },
+        "trigger": {
+          "zh": "亚利桑那一期建设或投产时点自 2027 年年中完工 / 2028 年上半年投产滑期，或一期“完全被承诺”的说法未转化为点名的多年期合约量，或投产后毛利率被拖到 15% 以下",
+          "en": "Arizona Phase 1 construction completion or production start slips from mid-2027 / H1 2028, or the \"fully committed\" Phase 1 claim fails to convert into named multi-year contracted volume, or gross margin is dragged below 15% after start-up"
+        },
+        "latest": {
+          "zh": "一期约 180 万平方英尺建筑面积（报道口径约 75 万平方英尺洁净室），2025 年下半年动工，10-K 称制造预计于 2028 年上半年开始（报道称 2027 年年中完工、2028 年初投产）；截至 2026-06-30 已发生成本 $333.6M，含资本化利息 $5.4M（2025 年内 $128.3M）；两期合计投资由原 $20 亿扩大至 $70 亿，约 3,000 个岗位；管理层在 Q2 电话会称一期已完全被承诺，同时预告未被充分利用的亚利桑那制造将在 2027 与 2028 年同时逆风毛利率与经营利润率；2026 年 5 月签约以约 $33M 购买约 67 英亩追加土地，预计 2026 Q4 交割",
+          "en": "Phase 1 is approximately 1.8 million square feet of building space (about 750,000 square feet of cleanroom per coverage), broke ground in H2 2025, and the 10-K expects manufacturing to begin in the first half of 2028 (coverage says construction completes mid-2027 with production in early 2028). Costs incurred through 2026-06-30 were $333.6M including $5.4M of capitalized interest ($128.3M during 2025). The two-phase investment expanded from $2B to $7B with about 3,000 jobs. On the Q2 call management described Phase 1 as fully committed while pre-announcing that underutilized Arizona manufacturing will be a headwind to both gross and operating margin in 2027 and 2028. In May 2026 Amkor agreed to buy about 67 additional acres for approximately $33M, closing in Q4 2026"
+        },
+        "nextCheck": "每季亚利桑那成本进度与建设里程碑，投产后的稼动率与利润率口径（事件驱动）/ quarterly Arizona cost progress and construction milestones, then utilization and margin commentary after start-up (event-driven)"
+      },
+      {
+        "id": "prepayments-and-subsidy-stack",
+        "thesis": "either",
+        "theme": "optionality",
+        "metric": {
+          "zh": "客户预付款与 CHIPS / 投资税收抵免补贴叠加",
+          "en": "Customer prepayments and the CHIPS / investment-tax-credit subsidy stack"
+        },
+        "trigger": {
+          "zh": "约 $15 亿预付款滑出 2027 年，或 $4.07 亿 CHIPS 直接拨款被削减、终止或追回，或 35% 投资税收抵免在资产投入使用后未体现为可回收利益（下调依据）；预付款按期到账且首笔 CHIPS 拨款或投资税收抵免转为现金（上调依据）",
+          "en": "The ~$1.5B prepayment slips beyond 2027, or the $407M CHIPS direct funding award is reduced, terminated or clawed back, or the 35% investment tax credit is not reflected as a recoverable benefit once assets are placed in service (downgrade evidence); the prepayment arrives on schedule and the first CHIPS disbursement or ITC benefit converts to cash (upgrade evidence)"
+        },
+        "latest": {
+          "zh": "10-Q 披露 2026 年 7 月另行签署预付款协议，预计 2027 年收到约 $15 亿（文件未指名交易对手；报道指认为 NVIDIA，源自 2026-07-23 公布的多年期战略合作）；另预计两年内收到约 $3 亿预付款、收到时均需备用信用证，其中 2026 年 7 月已收到 $1.0 亿；2024 年 12 月签署的 CHIPS 直接资助协议最高 $4.07 亿，以建设与生产里程碑为条件、带审计权与追回条款，**至今一分未收到**；另可享 CHIPS 法案经 OBBBA 修订后对合格美国半导体制造投资的 35% 投资税收抵免，但该抵免挂钩资产投入使用，最早 2028 年",
+          "en": "The 10-Q discloses that in July 2026 Amkor separately entered into an advance payment agreement under which it expects to receive approximately $1.5 billion in 2027 (the filing does not name the counterparty; coverage identifies NVIDIA, from the multi-year strategic partnership announced 2026-07-23). It also expects about $300M of advance payments over two years, all requiring standby letters of credit, of which $100.0M was received in July 2026. The CHIPS Direct Funding Agreement signed December 2024 is for up to $407 million, conditioned on construction and production milestones with audit and clawback rights, and **no funds have been received to date**. Amkor is separately eligible for a 35% investment tax credit on qualified US semiconductor manufacturing investment under the CHIPS Act as amended by the OBBBA, but that credit attaches to property placed in service, so 2028 at the earliest"
+        },
+        "nextCheck": "2027 年现金流量表与合同负债余额、CHIPS 拨款到账公告、投资税收抵免的税务附注处理（事件驱动）/ the 2027 cash-flow statements and contract-liability balance, CHIPS disbursement announcements, and ITC treatment in the tax footnote (event-driven)"
+      },
+      {
+        "id": "packaging-supply-constraint",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "封装层是否成为供给受限环节",
+          "en": "Whether the packaging layer becomes a supply-constrained link"
+        },
+        "trigger": {
+          "zh": "Amkor 或同层竞争者声明先进封装处于配给状态、交期显著拉长，或某个点名的 AI 加速器项目因封装产能不足而延期，或有客户在台积电之外双源 2.5D / HDFO 封装——任一情况都会把本层由架构读数升级为约束读数",
+          "en": "Amkor or a peer states that advanced packaging is on allocation or that lead times have extended materially, or a named AI accelerator program slips for want of packaging capacity, or a customer dual-sources 2.5D / HDFO packaging outside TSMC - any of which would upgrade this layer from an architecture read to a constraint read"
+        },
+        "latest": {
+          "zh": "2026 Q2 全网稼动率由 50% 区间升至 70% 区间，管理层称若干技术平台满产但未点名是哪些；财报写明业务通常不带有任何实质在手订单、客户不提供具约束力预测且存在重复下单；Q3 收入指引对 2025 Q3 实绩为同比 -1.9% 至 +3.2%；且 Q3 通信下滑被归因于安卓因内存供应约束减产约 20%——当前可见的卡口约束在内存层而非封装层；台积电自身 2026 Q2 的财报、演示与管理层报告并未量化 CoWoS 排产",
+          "en": "In Q2 2026 network utilization improved from the 50% range into the 70% range, with management saying several technology platforms were at full capacity but not naming them. The filings state the business typically carries no material backlog, that customers give no binding forecasts and that double booking occurs. Q3 revenue is guided to -1.9% to +3.2% against Q3 2025 actual, and the guided Q3 decline in communications is attributed to Android volumes falling about 20% on memory supply constraints - so the visible binding constraint sits in the memory layer, not the packaging layer. TSMC's own Q2 2026 release, presentation and management report do not quantify CoWoS scheduling"
+        },
+        "nextCheck": "Amkor 与同层竞争者每季的产能、配给与交期口径，以及台积电的 CoWoS / 3DFabric 产能评论（事件驱动）/ quarterly capacity, allocation and lead-time commentary from Amkor and its peers, plus TSMC's CoWoS / 3DFabric capacity commentary (event-driven)"
+      },
+      {
+        "id": "valuation-multiple-vs-capital-cycle",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "估值倍数相对资本周期的位置",
+          "en": "Valuation multiple against the capital cycle"
+        },
+        "trigger": {
+          "zh": "EV/EBITDA 在自由现金流仍为负时升到约 12 倍以上（下调依据），或在自由现金流转正时压缩到约 7 倍以下（上调依据）",
+          "en": "EV/EBITDA rises above ~12x while free cash flow is still negative (downgrade evidence), or compresses below ~7x while free cash flow turns positive (upgrade evidence)"
+        },
+        "latest": {
+          "zh": "以 2026-07-30 收盘 $48.26 与 10-Q 封面 248,452,472 股计，市值约 $11.99B、企业价值约 $11.96B（净现金约 $26.5M）：约 21.6x 追溯 GAAP 市盈率、约 1.60x EV/追溯收入、约 8.6x EV/追溯 EBITDA（$1,391.5M）、约 18.6x EV/追溯经营利润、约 2.58x 市净率、约 18.6x 本报告 FY2026E EPS 约 $2.60；但 EV/（追溯 EBITDA 减追溯资本开支）为 $11.96B ÷ $24.6M，且追溯自由现金流为 -$172.4M；股价较 2026-06-22 收盘高点 $93.55 低 48.4%；提示：约 $15 亿预付款于 2027 年到账后将同时体现为现金与合同负债，简单的“市值减净现金”会把企业价值低估约 $15 亿",
+          "en": "At the 2026-07-30 close of $48.26 and the 248,452,472 shares on the 10-Q cover, market cap is about $11.99B and enterprise value about $11.96B (net cash ~$26.5M): about 21.6x trailing GAAP earnings, 1.60x EV/TTM revenue, 8.6x EV/TTM EBITDA ($1,391.5M), 18.6x EV/TTM operating income, 2.58x book and about 18.6x this report's FY2026E EPS of roughly $2.60. But EV over TTM EBITDA minus TTM capex is $11.96B divided by $24.6M, and trailing free cash flow is -$172.4M. The price is 48.4% below the 2026-06-22 closing high of $93.55. Note for future grading: once the ~$1.5B prepayment lands in 2027 it will sit as cash and as a contract liability simultaneously, so a naive market-cap-minus-net-cash EV will understate enterprise value by about $1.5B"
+        },
+        "nextCheck": "每季价格账本与 Q3/Q4 的 EBITDA 与自由现金流实绩 / quarterly price ledger and Q3/Q4 EBITDA and free-cash-flow actuals",
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-07-30"
+      }
+    ],
+    "stanceRationale": {
+      "zh": "以 $48.26（2026-07-30 收盘）计，这是本覆盖中少见的一个两侧都成立、且互不抵消的局面，因此立场落在中性观察而不是偏多或谨慎。看多的一侧是估值与拐点：股价较 06-22 收盘高点 $93.55 低 48.4%，07-28 单日 -24.7%；约 21.6x 追溯 GAAP、约 8.6x EV/追溯 EBITDA、约 1.60x EV/收入、约 2.58x 市净率；而毛利率三个季度由 12.0% 拐到 16.8% 且 Q3 指引 18.5-19.5%，经营利润率由 6.1% 升到 10.5%，全部基于干净的 GAAP、无非 GAAP EPS 可争。反推检验也不苛刻：以 8% 年化走三年到 8 倍 EV/EBITDA 终值，只需约 11% 的 EBITDA 复合增速，而把 Q3 指引年化已接近 $17 亿——基准情景跨得过去，这就是本次不开谨慎的原因。看空的一侧不是盈利而是所有者盈余：EV/（EBITDA 减资本开支）是 $11.96B 除以 $24.6M，追溯自由现金流 -$172.4M，FY2026E 约 -$10 亿至 -$17 亿（占市值 8-14%），净现金在一致的不含租赁口径下已由 2025 年末约 $5.461 亿降至 $26.5M（期间还募了 $11.5 亿零票息可转债），4 月授权的 $3 亿回购一分未用，而管理层已预告吞掉这些现金的亚利桑那资产将在 2027-2028 年同时拖累毛利率与经营利润率。换句话说，市场没有错误定价 Amkor 的盈利，它是在拒绝为被一项不可逆建设完全吞掉、且 2028 年才开始产出的盈利付钱。确信度为中而非高，是因为决定此事的三个变量——2028 年亚利桑那稼动率、Apple 是否维持在 30% 附近（FY2025 为 29.8%）、内存短缺还要压制占收入 42% 的通信多久——全都在当前披露窗口之外；为中而非低，是因为事实底稿只有三天（Q2 财报 07-27、10-Q 07-28）、是一手的、且以本覆盖标准看异常干净。",
+      "en": "At $48.26 (the 2026-07-30 close) this is one of the rare situations in this coverage where both sides genuinely hold and neither cancels the other, which is why the stance lands at neutral-watch rather than constructive or cautious. The positive side is valuation and inflection: the price is 48.4% below the 06-22 closing high of $93.55 after a 24.7% single-session fall on 07-28, at about 21.6x trailing GAAP earnings, 8.6x EV/TTM EBITDA, 1.60x EV/revenue and 2.58x book, while gross margin inflected from 12.0% to 16.8% over three quarters with 18.5-19.5% guided for Q3 and operating margin rose from 6.1% to 10.5% - all on clean GAAP with no non-GAAP EPS to argue about. The reverse test is undemanding too: earning 8% a year for three years to a terminal 8x EV/EBITDA needs only about 11% compound EBITDA growth, and annualizing the Q3 guide is already near $1.7B. The base case clears that, which is why this is not a cautious initiation. The negative side is not earnings but owner earnings: EV over EBITDA-minus-capex is $11.96B divided by $24.6M, trailing free cash flow is -$172.4M and FY2026E free cash flow is roughly -$1.0B to -$1.7B, or 8-14% of market cap in a single year. Net cash has fallen from about $546.1M at year-end 2025 to $26.5M on a consistent leases-exclusive basis despite raising $1.15B of zero-coupon converts, the $300M buyback authorized in April is entirely unused, and management has pre-announced that the Arizona asset consuming all of this cash will drag both gross and operating margin in 2027 and 2028. Put differently: the market is not mispricing Amkor's earnings, it is declining to pay for earnings that are fully consumed by an irreversible build whose output starts in 2028. Conviction is medium rather than high because the three variables that settle this - Arizona utilization in 2028, whether Apple stays near 30% (29.8% in FY2025), and how long the memory shortage throttles the 42% of revenue that is communications - all sit outside the current disclosure window; and medium rather than low because the fact base is three days old (Q2 results 07-27, 10-Q 07-28), primary, and unusually clean by the standards of this coverage."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "毛利率连续两个季度维持在 19% 以上，同时计算向占收入 30% 增长且总收入回到两位数同比增速；约 $15 亿预付款按期在 2027 年到账，且首笔 CHIPS 拨款或 35% 投资税收抵免转为现金；FY2027 资本开支指引回归到约 $20 亿以下，使自由现金流可见地走在 2029 年转正的路径上；且 Apple 披露占比维持在约 30% 以下而未留下收入缺口——则上调至偏多。",
+        "en": "Gross margin holds above 19% for two consecutive quarters while computing grows toward 30% of revenue and total revenue returns to double-digit year-over-year growth; the ~$1.5B prepayment is received on schedule in 2027 and the first CHIPS disbursement or 35% investment tax credit converts to cash; FY2027 capex guidance normalizes below ~$2.0B so that free cash flow is visibly on a path to positive by 2029; and Apple's disclosed share stays below ~30% without leaving a revenue hole - upgrade to constructive.",
+        "monitoringIds": [
+          "gross-margin-and-utilization",
+          "computing-vs-communications-mix",
+          "revenue-growth-inflection",
+          "prepayments-and-subsidy-stack",
+          "capex-and-free-cash-flow",
+          "customer-concentration-apple"
+        ]
+      },
+      "downgrade": {
+        "zh": "毛利率连续两个季度回落到约 15% 以下，或全网稼动率回到 50-60% 区间；FY2026 资本开支突破 $30 亿指引上限，或 FY2027 资本开支指引超过约 $25 亿；约 $15 亿预付款滑出 2027 年；Apple 披露占比超过约 35%，或在没有替代收入的情况下大幅下降；或总收入连续两个季度同比负增长——则下调至谨慎。",
+        "en": "Gross margin falls back below ~15% for two consecutive quarters or network utilization returns to the 50-60% range; FY2026 capex exceeds the $3.0B top of the guide or FY2027 capex guidance exceeds ~$2.5B; the ~$1.5B prepayment slips beyond 2027; Apple's disclosed share exceeds ~35% or falls sharply without replacement revenue; or total revenue growth turns negative year over year for two consecutive quarters - downgrade to cautious.",
+        "monitoringIds": [
+          "gross-margin-and-utilization",
+          "capex-and-free-cash-flow",
+          "prepayments-and-subsidy-stack",
+          "customer-concentration-apple",
+          "revenue-growth-inflection"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-07-31",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 48.26
+      }
+    ]
   }
 ]

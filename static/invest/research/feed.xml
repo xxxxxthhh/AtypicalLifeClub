@@ -20,6 +20,13 @@
       <description>AI 基础设施书 resources 层的公共约束初始覆盖：电力层用 constellation-energy-2026 和 oklo-2026 押注核电基荷，但前者全文没有出现过『铀』字，后者把 fuel-supply 列为常设监测项却没有上游报告可对照。本报告提供这份读数，结论是否定的：按 2026 年披露，铀矿供应并非绑定约束——现货在 85 美元/磅附近横盘五个月而成交量从 1,200 万磅升至 1,800 万磅，最大的西方生产商 Cameco 自己要买走所卖量的约三分之一（2026 年交付 2,900-3,200 万磅 vs 产量 1,950-2,150 万磅），真正吃紧的是转化与浓缩（转化现货 62.50 美元/kgU 高于北美长期价 55.25 美元/kgU），而卡住先进堆的 HALEU 是 Cameco 不生产的浓缩产品——Cameco 自己的 MD&amp;A 记录的是 Centrus 而非 Cameco 与 Oklo 签署 HALEU 商业协议。公司层面：2026 Q1（季度截至 2026-03-31、05-05 发布）收入 8.45 亿加元（+7%）、调整后 EBITDA 5.09 亿加元（+44%），但平均实现价格仅 66.21 美元/磅，而公司自己的敏感性表显示现货每涨 5 美元/磅调整后净利润反而减少 100 万加元；2026 年收入指引 31.30-33.70 亿加元低于 2025 财年的 34.82 亿加元。以 2026-07-30 收盘 88.23 美元为锚（较 1 月 28 日高点 134.09 美元低 34.2%），市值约 384 亿美元 / 539 亿加元、按截至 2026-06-30 追溯十二个月计约 152x 报告盈利、约 102x 调整后净利润、约 29.9x 企业价值/调整后 EBITDA、股息率 0.19%。30% 牛市 / 40% 基准 / 30% 熊市对称网格，初始立场中性观察 / 中确信。 2026-07-31 更新：Q2 已发布（净利润 0.25 亿加元、调整后净利润 0.77 亿加元、调整后 EBITDA 3.91 亿加元），铀分部指引上调、产量指引不变，不及一致预期源于 Westinghouse 转为 0.10 亿加元净亏损；同日 Westinghouse 就拟议 IPO 保密递交 Form S-1。立场维持中性观察 / 中确信。</description>
     </item>
     <item>
+      <title>Amkor Technology 深度研究报告 - 先进封装的瓶颈究竟在 OSAT 还是在代工厂的架构校验 / Amkor Technology Deep Research Report - Architecture Check on Whether the Advanced-Packaging Bottleneck Sits at the OSAT or Inside the Foundry</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=amkr-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amkr-2026#amkr-2026@2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施书 advanced-packaging 层的首个节点与架构校验初始覆盖：该层此前节点数为零，AMKR 开层后本书 schema 不再有空层。本报告的任务是检验“先进封装是 AI 加速器供给的卡口约束”这一说法究竟落在 Amkor 所处的 OSAT 层，还是完全位于台积电 CoWoS / 3DFabric 之内。结论偏向后者：Amkor 标题上 82.0% 的“先进产品”被财报定义为倒装、内存与晶圆级加工，是一个由智能手机主导的口径（通信占收入 42%、计算含 PC 与存储仅 22%）；全网稼动率仅由 50% 区间升到 70% 区间；财报写明没有实质在手订单、客户不提供具约束力预测；Q3 收入指引 $19.5-20.5 亿对 2025 Q3 实绩 $1,987.0M 为同比 -1.9% 至 +3.2%。更具决定性的是方向相反的证据：管理层把 Q3 通信下滑归因于安卓出货量因内存供应约束下降约 20%——Amkor 当下是被内存层卡住，而不是在卡住别人。真实的狭窄例外是地理性的：美国本土先进封装产能确实稀缺，10-Q 披露 2026 年 7 月签署预付款协议、预计 2027 年收到约 $15 亿（报道指认交易对手为 NVIDIA），另约 $3 亿预付款中 $1.0 亿已到账，管理层称亚利桑那一期已完全被承诺，Apple 为锚定客户。最新已报告期间为 2026 Q2（季度截至 2026-06-30、07-27 发布、10-Q 于 07-28 提交）：收入 $1,898.0M（同比 +25.6%）、毛利率由 12.0% 拐到 16.8%、经营利润率 10.5%、EPS $0.70、EBITDA $400M，Q3 指引毛利率 18.5-19.5%、EPS $0.72-0.82。结构性风险同样清晰：Apple 占 FY2025 销售额 29.8%、Qualcomm 11.1%；2026 年资本开支指引 $25-30 亿（FY2025 为 $904.6M），追溯自由现金流 -$172.4M，FY2026E 自由现金流约 -$10 亿至 -$17 亿，管理层已预告亚利桑那稼动不足将在 2027-2028 年同时拖累毛利率与经营利润率。以 2026-07-30 收盘 $48.26 为锚（较 06-22 收盘高点 $93.55 低 48.4%，07-28 单日 -24.7%），市值约 $11.99B、企业价值约 $11.96B、约 21.6x 追溯 GAAP 市盈率、约 1.60x EV/追溯收入、约 8.6x EV/追溯 EBITDA、约 2.58x 市净率；但 EV/（EBITDA 减资本开支）为 $11.96B 除以 $24.6M。30% 牛市 / 40% 基准 / 30% 熊市网格读出接近平衡的偏度，初始立场中性观察 / 中确信。</description>
+    </item>
+    <item>
       <title>Alphabet 深度研究报告 - TPU 外部化与 capex 融资质量的架构校验 / Alphabet Deep Research Report - Architecture Check on TPU Externalization and Capex Funding Quality</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=alphabet-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=alphabet-2026#alphabet-2026@2026-07-31</guid>
@@ -417,13 +424,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=bloom-energy-2026-pre-rerun#bloom-energy-2026-pre-rerun@2026-02-11</guid>
       <pubDate>Wed, 11 Feb 2026 00:00:00 GMT</pubDate>
       <description>归档的2026H1重跑前版本，保留Q4 2025、Brookfield、800V DC和旧估值框架。</description>
-    </item>
-    <item>
-      <title>OKLO 深度研究报告 - 先进核能的想象力与现实 - 重跑前归档版 / OKLO Deep Research Report - Advanced Nuclear's Imagination vs Reality - Pre-rerun Archive</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=oklo-2026-pre-rerun</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=oklo-2026-pre-rerun#oklo-2026-pre-rerun@2026-02-10</guid>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 GMT</pubDate>
-      <description>归档的2026H1重跑前版本，保留2月项目管线、目标价、首堆和零收入估值框架。</description>
     </item>
   </channel>
 </rss>
