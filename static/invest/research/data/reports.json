@@ -4454,8 +4454,8 @@
     },
     "title": "AMD 深度研究报告 - AI时代的半导体挑战者",
     "titleEn": "AMD Deep Research Report - AI Era Semiconductor Challenger",
-    "summary": "【2026-07-31 价格复核：AMD 于 2026-07-29 收于 $429.56，较本报告锚点 -20.1%；下方数字按其标注日期阅读，估值框架与立场不变。】v5 回填：AMD Q1 2026 营收 $10.253B、Data Center 约 $5.8B，Meta 6GW、Helios/MI450、EPYC 与 ROCm 让 AI infrastructure 第二平台叙事更强。但以 $537.37、约 $878B EV 和约 23.4x EV/TTM Sales 计，市场已经提前定价 Meta/Helios、MI450、ROCm 改善、Data Center 增长和利润率扩张；20% 牛市 / 40% 基准 / 40% 熊市情景给出负偏斜，因此改为谨慎 / 中确信。",
-    "summaryEn": "[2026-07-31 price check: AMD closed at $429.56 on 2026-07-29, -20.1% versus this report's anchor; figures below read as of their stated dates, and the valuation frame and stance are unchanged.] July 7, 2026 v5 update: AMD Q1 2026 revenue was $10.253B and Data Center was about $5.8B, while Meta 6GW, Helios/MI450, EPYC, and ROCm strengthen the second-platform AI infrastructure story. But at $537.37, about $878B EV, and roughly 23.4x EV/TTM Sales, the market already prices Meta/Helios, MI450, ROCm improvement, Data Center growth, and margin expansion; a 20% bull / 40% base / 40% bear grid gives negative skew, moving stance to cautious / medium conviction.",
+    "summary": "v5 回填：AMD Q1 2026 营收 $10.253B、Data Center 约 $5.8B，Meta 6GW、Helios/MI450、EPYC 与 ROCm 让 AI infrastructure 第二平台叙事更强。以 2026-07-30 收盘 $485.39、约 $7,920 亿 EV 和约 21.2x EV/TTM Sales 计，市场依然提前定价 Meta/Helios、MI450、ROCm 改善、Data Center 增长和利润率扩张；按 Q1 Non-GAAP EPS 年化仍约 89x、FCF 收益率约 1.3%。20% 牛市 / 40% 基准 / 40% 熊市情景仍给出负偏斜，维持谨慎 / 中确信。",
+    "summaryEn": "July 7, 2026 v5 update: AMD Q1 2026 revenue was $10.253B and Data Center was about $5.8B, while Meta 6GW, Helios/MI450, EPYC, and ROCm strengthen the second-platform AI infrastructure story. At the $485.39 close on 2026-07-30, about $792B EV, and roughly 21.2x EV/TTM Sales, the market still prices Meta/Helios, MI450, ROCm improvement, Data Center growth, and margin expansion; annualized Q1 non-GAAP EPS is still about 89x with a roughly 1.3% FCF yield. A 20% bull / 40% base / 40% bear grid still gives negative skew, so the stance stays cautious / medium conviction.",
     "tags": [
       "半导体",
       "AI加速器",
@@ -4472,15 +4472,15 @@
     },
     "moduleContract": "heading-comment-v1",
     "highlights": [
-      "完整重跑后结论调整为中性/观察：基本面增强，但估值容错极低",
+      "完整重跑后结论为谨慎/观察：基本面增强，但估值容错依然极低",
       "Q1 2026营收$102.53亿（+38% YoY），Data Center约$58亿（+57% YoY）",
       "Meta多年6GW Instinct GPU合作，首个1GW预计2026下半年出货，是H2验证核心",
-      "股价约$537、市值约$8,870亿；EV/TTM Sales约23.4x，当前价格接近bull case下沿"
+      "2026-07-30 收盘 $485.39、市值约$8,010亿；EV/TTM Sales约21.2x、Q1年化Non-GAAP约89x、FCF收益率约1.3%"
     ],
     "chainLayer": "compute",
     "coverageTier": "full",
     "stance": "cautious",
-    "priceAsOf": "2026-06-18",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "Q1 2026",
     "related": [
       "nvidia-2026",
@@ -4546,13 +4546,13 @@
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 $537.37、约 $8,780 亿 EV 和约 23.4x EV/TTM Sales 计，市场已经把 Meta/Helios、MI450、ROCm 改善、Data Center 增速和利润率扩张放进价格；我们的基准情景同意基本面变强，但认为这些证据尚不足以覆盖当前 multiple，因此预期差偏负。",
-      "en": "At $537.37, roughly $878B EV, and about 23.4x EV/TTM Sales, the market already prices Meta/Helios, MI450, ROCm improvement, Data Center growth, and margin expansion; our base case agrees that fundamentals are stronger, but the evidence is not yet enough to cover the current multiple, so the expectation gap is negative."
+      "zh": "以 2026-07-30 收盘 $485.39、约 $7,920 亿 EV 和约 21.2x EV/TTM Sales 计，市场依然把 Meta/Helios、MI450、ROCm 改善、Data Center 增速和利润率扩张放进价格：按 Q1 Non-GAAP EPS 年化约 89x、即使按 FY2026 $6.00 仍约 81x、FCF 收益率仅约 1.3%。基准情景同意基本面变强，但这些证据仍不足以覆盖当前 multiple，预期差仍偏负。需要指出：倍数由 23.4x 降至 21.2x 完全来自股价下跌，并非升级触发条件所要求的“被收入分母消化”，因此不构成上调理由。",
+      "en": "At the $485.39 close on 2026-07-30, roughly $792B EV, and about 21.2x EV/TTM Sales, the market still prices Meta/Helios, MI450, ROCm improvement, Data Center growth, and margin expansion: annualized Q1 non-GAAP EPS is about 89x, about 81x even on $6.00 of FY2026 EPS, and the FCF yield is only about 1.3%. The base case agrees fundamentals are stronger, but that evidence still does not cover the current multiple, so the expectation gap stays negative. Note explicitly that the fall from 23.4x to 21.2x comes entirely from a lower share price and is not the absorption 'by the revenue denominator' the upgrade trigger requires, so it is not a reason to upgrade."
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "若 2026H2 首个 1GW Meta deployment 按期出货并进入收入、Data Center 增速和 56%+ non-GAAP gross margin 同时兑现，ROCm/Helios 证明可重复客户迁移，且 EV/TTM Sales 从约 23.4x 被收入分母消化，则上调至 neutral-watch 或 constructive。",
-        "en": "Move to neutral-watch or constructive if the first 1GW Meta deployment ships on schedule in H2 2026 and enters revenue, Data Center growth and 56%+ non-GAAP gross margin both deliver, ROCm/Helios prove repeatable customer migration, and EV/TTM Sales is absorbed from roughly 23.4x by the revenue denominator."
+        "zh": "若 2026H2 首个 1GW Meta deployment 按期出货并进入收入、Data Center 增速和 56%+ non-GAAP gross margin 同时兑现，ROCm/Helios 证明可重复客户迁移，且 EV/TTM Sales 从当前约 21.2x 被收入分母消化（股价下跌造成的倍数下降不算），则上调至 neutral-watch 或 constructive。",
+        "en": "Move to neutral-watch or constructive if the first 1GW Meta deployment ships on schedule in H2 2026 and enters revenue, Data Center growth and 56%+ non-GAAP gross margin both deliver, ROCm/Helios prove repeatable customer migration, and EV/TTM Sales is absorbed from the current roughly 21.2x by the revenue denominator (a multiple decline caused by a falling share price does not count)."
       },
       "downgrade": {
         "zh": "若 Meta 1GW 或 6GW 路径延期/缩小、Data Center 增速低于公司整体、ROCm 没有可审计迁移证据，或 custom ASIC/NVIDIA Rubin 压缩 AMD 的 rack-level 性价比窗口，则下调至 bearish-avoid。",
@@ -4570,6 +4570,12 @@
         "stance": "cautious",
         "conviction": "medium",
         "price": 537.37
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 485.39
       }
     ]
   },
