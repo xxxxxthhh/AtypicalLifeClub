@@ -5136,8 +5136,8 @@
     "priceSymbol": "TSM",
     "title": "TSMC 深度研究报告 - AI 基建链的先进制程与封装公共约束",
     "titleEn": "TSMC Deep Research Report - The Advanced-Node and Packaging Constraint in AI Infrastructure",
-    "summary": "【2026-07-31 价格复核：TSM 于 2026-07-29 收于 $374.67，较本报告锚点 -13.7%；下方数字按其标注日期阅读，估值框架与立场不变。】AI 基础设施书 foundry 层补位：TSMC 是整条链最硬的制造瓶颈，而不是又一个芯片设计公司。2026Q2 收入 US$40.20B（同比 +33.7%）落在指引区间上沿，毛利率 67.7% 高于 65.5-67.5% 指引；2nm 首次贡献 3% wafer revenue、7nm 及以下占 77%，HPC 占收入 66%。管理层把全年收入增速展望上调至略高于 40%，并把 2026 capex 从原 $52-56B 区间上调至 $60-64B；Q3 指引 US$44.6-45.8B。AI/HPC 需求已经穿透到晶圆收入和先进节点。ADR $434.16（2026-07-02 收盘）、约 $2.25T 市值、约 14x 2026E EV/Sales 仍是初始估值快照，本次监测不刷新估值或立场；维持中性观察 / 中确信，链内角色是 foundry 层 common-constraint。",
-    "summaryEn": "[2026-07-31 price check: TSM closed at $374.67 on 2026-07-29, -13.7% versus this report's anchor; figures below read as of their stated dates, and the valuation frame and stance are unchanged.] Foundry-layer coverage for the AI-infrastructure book: TSMC is the hard manufacturing bottleneck in the chain, not another chip designer. Q2 2026 revenue was US$40.20B (+33.7% YoY), at the top of guidance, with gross margin of 67.7% above the 65.5-67.5% guide; 2nm contributed 3% of wafer revenue for the first time, 7nm-and-below reached 77%, and HPC was 66% of revenue. Management lifted full-year revenue growth to slightly above 40% and raised 2026 capex from the prior $52-56B range to $60-64B, while guiding Q3 revenue to US$44.6-45.8B. AI/HPC demand has reached wafer revenue and advanced nodes. The $434.16 ADR close on Jul 2, 2026, roughly $2.25T market cap, and about 14x 2026E EV/Sales remain the dated initial valuation snapshot; this monitoring update does not refresh valuation or stance, which remains neutral watch / medium conviction with a foundry common-constraint chain role.",
+    "summary": "AI 基础设施书 foundry 层补位：TSMC 是整条链最硬的制造瓶颈，而不是又一个芯片设计公司。2026Q2 收入 US$40.20B（同比 +33.7%）落在指引区间上沿，毛利率 67.7% 高于 65.5-67.5% 指引；2nm 首次贡献 3% wafer revenue、7nm 及以下占 77%，HPC 占收入 66%。管理层把全年收入增速展望上调至略高于 40%，并把 2026 capex 从原 $52-56B 区间上调至 $60-64B；Q3 指引 US$44.6-45.8B。2026-07-31 重新锚定：ADR $403.31（2026-07-30 收盘）、约 $2.09T 市值、约 12.8x 2026E EV/Sales，隐含收入 CAGR 要求降至约 17%，低于未变的 20-22% 基准情景，预期差转为温和正向，立场由中性观察上调为偏多 / 中确信。",
+    "summaryEn": "Foundry-layer coverage for the AI-infrastructure book: TSMC is the hard manufacturing bottleneck in the chain, not another chip designer. Q2 2026 revenue was US$40.20B (+33.7% YoY), at the top of guidance, with gross margin of 67.7% above the 65.5-67.5% guide; 2nm contributed 3% of wafer revenue for the first time, 7nm-and-below reached 77%, and HPC was 66% of revenue. Management lifted full-year revenue growth to slightly above 40% and raised 2026 capex from the prior $52-56B range to $60-64B, while guiding Q3 revenue to US$44.6-45.8B. Re-anchored on 2026-07-31: the ADR closed at $403.31 on 2026-07-30, about $2.09T market cap and about 12.8x 2026E EV/Sales, cutting the implied revenue CAGR requirement to roughly 17% — below the unchanged 20-22% base case. The expectation gap turns modestly positive, so the stance moves from neutral watch to constructive / medium conviction.",
     "tags": [
       "晶圆代工",
       "AI基础设施",
@@ -5159,25 +5159,25 @@
       "foundry 层补位：TSMC 是 AI 基建链的制造公共约束，用先进制程、CoWoS/3DFabric、N3/N2 和客户排产验证 AI 需求是否真的穿透到上游制造瓶颈",
       "2026Q2 收入 US$40.20B（同比 +33.7%）、毛利率 67.7%、营业利润率 60.3%；Q3 指引 US$44.6-45.8B，全年收入增速展望上调至略高于 40%",
       "Q2 财报显示 HPC 占收入 66%（环比 +20%），7nm 及以下先进节点占 wafer revenue 77%、2nm 首次贡献 3%；2026 capex 从原 $52-56B 区间上调至 $60-64B",
-      "2026-07-02 初始估值快照为 ADR $434.16、市值约 $2.25T、约 14x 2026E EV/Sales；本次监测不刷新估值或立场，维持中性观察 / 中确信，核心监控是利用率、N3/N2、CoWoS、客户集中和海外 fab 毛利拖累"
+      "2026-07-30 收盘 ADR $403.31、市值约 $2.09T、约 12.8x 2026E EV/Sales，隐含要求约 17% 收入 CAGR，低于 20-22% 基准情景；立场上调为偏多 / 中确信"
     ],
     "chainLayer": "foundry",
     "coverageTier": "full",
     "chainRole": "common-constraint",
-    "stance": "neutral-watch",
+    "stance": "constructive",
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 $434.16 ADR、约 14x 2026E EV/Sales 计，市场大致定价了未来三年约 21% 收入 CAGR 和 60%+ 毛利；我们的 base case 与此接近，因此维持中性观察。",
-      "en": "At the $434.16 ADR and roughly 14x 2026E EV/Sales, the market is underwriting about a 21% three-year revenue CAGR with 60%+ gross margin; our base case is close, so the stance remains neutral watch."
+      "zh": "以 2026-07-30 ADR 收盘 $403.31、约 $2.09T 市值和约 12.8x 2026E EV/Sales 计，代入本报告自身的反推公式（三年内向约 10x 正常化、要求回报 8%），隐含收入 CAGR 约 17%，低于旧锚点的约 21%。基准情景本身未变（2026 增速超 30%、2027-2028 约 20-22% CAGR、毛利率大体 60% 以上），因此由“与要求接近”转为“明显高于要求”，预期差转正。确信度保持中等：本次改善来自价格而非新的经营证据，月度收入与 Q3 确认才是进一步提升确信度的依据。",
+      "en": "At the $403.31 ADR close on 2026-07-30, about $2.09T market cap and about 12.8x 2026E EV/Sales, this report's own reverse-multiple formula (normalising toward about 10x over three years at an 8% required return) implies roughly 17% revenue CAGR, down from about 21% at the old anchor. The base case is unchanged (2026 growth above 30%, about 20-22% CAGR through 2028, gross margin mostly above 60%), so it moves from close to the requirement to clearly above it and the expectation gap turns positive. Conviction stays medium: the improvement is price-driven rather than evidence-driven, and monthly revenue plus Q3 confirmation are what would raise it further."
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "月度收入、Q3 财报、N3/N2 mix 与 CoWoS 评论把 base case 明确推到约 21% 隐含 CAGR 以上，同时毛利率维持 60%+ 且估值倍数未进一步扩张",
-        "en": "monthly revenue, Q3 results, N3 / N2 mix, and CoWoS commentary push the base case clearly above the roughly 21% implied CAGR while gross margin remains above 60% and the valuation multiple does not expand further"
+        "zh": "如果月度收入、Q3 财报、N3/N2 mix 与 CoWoS 评论确认 base case 持续高于约 17% 的隐含 CAGR，同时毛利率维持 60%+ 且估值倍数没有重新扩张，则上调至 bullish。",
+        "en": "Move to bullish if monthly revenue, Q3 results, N3 / N2 mix, and CoWoS commentary confirm the base case is holding above the roughly 17% implied CAGR while gross margin remains above 60% and the valuation multiple does not re-expand."
       },
       "downgrade": {
-        "zh": "月度收入或 Q3 财报低于全年轨迹、先进节点/封装紧张度缓解，或海外 fab / N2 成本把结构性毛利率路径压到 60% 以下",
-        "en": "monthly revenue or Q3 results fall below the full-year trajectory, advanced-node / packaging tightness eases, or overseas fab / N2 costs push the structural gross-margin path below 60%"
+        "zh": "如果月度收入或 Q3 财报低于全年轨迹，或先进节点/封装紧张度缓解，则下调至 neutral-watch；如果海外 fab / N2 成本把结构性毛利率路径压到 60% 以下（打破溢价本身而非只是暂停），则下调至 cautious。",
+        "en": "Move to neutral-watch if monthly revenue or Q3 results fall below the full-year trajectory or advanced-node / packaging tightness eases; move to cautious if overseas fab / N2 costs push the structural gross-margin path below 60%, which would break the premium rather than merely pause it."
       }
     },
     "stanceHistory": [
@@ -5186,9 +5186,15 @@
         "conviction": "medium",
         "date": "2026-07-02",
         "price": 434.16
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "constructive",
+        "conviction": "medium",
+        "price": 403.31
       }
     ],
-    "priceAsOf": "2026-07-02",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "2026Q2",
     "related": [
       "nvidia-2026",
