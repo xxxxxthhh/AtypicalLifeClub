@@ -419,6 +419,17 @@
         "zh": "则不能把 token throughput 当作上游 AI 基建回报的高质量确认，应提高推理单位经济、补贴需求与循环融资风险权重。",
         "en": "then do not treat token throughput as high-quality validation of upstream AI-infrastructure returns; raise the weight on inference unit economics, subsidized demand, and circular funding risk."
       }
+    },
+    {
+      "id": "chain-wide-repricing",
+      "if": {
+        "zh": "如果 AI 基础设施链条的多个层级（光模块、存储、半导体设备、电力、neocloud）在没有各自基本面否定证据的情况下同步大幅重定价",
+        "en": "If multiple layers of the AI-infrastructure chain (optical, memory, semicap, power, neocloud) reprice sharply together without layer-specific fundamental disconfirmation"
+      },
+      "then": {
+        "zh": "则应把它当作贴现率/风险偏好层面的共同因子，而不是逐个公司的论点破裂；各报告需要重新锚定估值算术，但不应据此各自翻转立场。",
+        "en": "then treat it as a common discount-rate / risk-appetite factor rather than as per-company thesis breakage; each report needs its valuation arithmetic re-anchored, but stances should not each be flipped on the move alone."
+      }
     }
   ]
 }

@@ -1,7 +1,7 @@
 # Broadcom (AVGO) Deep Research Report
 
 Coverage date: 2026-06-26
-Last updated: 2026-07-07
+Last updated: 2026-07-31
 Ticker: NASDAQ: AVGO
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -16,6 +16,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 **Verdict:** **Neutral watch / medium conviction: high quality, mostly priced in.** Consistent with this center's stance on NVIDIA, AMD and SK hynix. Broadcom's moat (custom-ASIC design IP + networking + software stickiness) is real, and the two-engine model (AI silicon growth + VMware cash) is strong; but the core tension is that a **$1.8T market cap already prices in a >$100B AI number that is back-end-loaded to FY2027 and tied to a small set of publicly reported customer programs**. Like NVIDIA, the risk is not the multiple itself but the denominator: AI capex and custom-silicon order conversion.
 
 **Current market read (as of 2026-06-25):** AVGO last traded around **$378.91**; on ~**4.74B** shares, market cap is ~**$1.80T**. Forward P/E is ~**33x**, between NVIDIA (~25x) and AMD (~58x). Sell-side targets are sentiment inputs only, not valuation anchors for this report. Quote sources: [StockAnalysis AVGO](https://stockanalysis.com/stocks/avgo/), [Yahoo Finance AVGO](https://finance.yahoo.com/quote/AVGO/); financial source: [Broadcom Q2 FY2026 press release](https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial).
+
+> **2026-07-31 price check.** AVGO closed at **$370.32** on **2026-07-29** (last completed session) versus the **$378.91** anchor dated below, a **-2.3%** move. The dated anchors below therefore remain accurate to within that margin and the valuation frame, scenario grid, stance and conviction are unchanged. Reviewed and confirmed in the 2026-07-31 full-coverage pass; no edit was required.
 
 **Key data:**
 

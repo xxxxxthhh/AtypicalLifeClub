@@ -1,7 +1,7 @@
 # IGV iShares Expanded Tech-Software Sector ETF Deep Research Report
 
 Coverage date: 2026-02-15
-Last updated: 2026-06-25
+Last updated: 2026-07-31
 Ticker: CBOE BZX: IGV
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -12,6 +12,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 ## Executive Summary
 
 **One-Line Thesis:** IGV is the flagship U.S. software sector ETF offering concentrated exposure to North America's leading software companies, but the 2026 "Software-mageddon" — a panic selloff driven by AI disruption fears — has sent it down over 23% YTD, placing it at a critical inflection point as AI reshapes the software industry's valuation framework.
+
+> **2026-07-31 price check (untracked-coverage review).** IGV closed at **$92.37** on **2026-07-29**, the last completed US session, versus the **$86.17** anchor dated 2026-06-25 — a **+7.2%** move. The dated figures below therefore remain accurate to within that margin and the valuation frame and stance are unchanged. This report has no `priceSymbol`, so it carries no automatic price ledger or drift alert — see Q3 of the review questions doc.
 
 **Investment Verdict:**
 - Neutral-to-Positive (medium-to-long term) | Conviction: Medium

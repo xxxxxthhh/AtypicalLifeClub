@@ -1,7 +1,7 @@
 # Equinix Deep Research Report - The Interconnection-Premium Dashboard for AI Data-Center Facilities
 
 Coverage date: 2026-07-05
-Last updated: 2026-07-30
+Last updated: 2026-07-31
 Ticker: NASDAQ: EQIX
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -16,6 +16,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 **One-line thesis:** DLR's paired check in the AI-infrastructure data-center facility layer. EQIX uses Platform Equinix interconnection, retail colocation, xScale JVs and AFFO/share to test whether AI demand is more than hyperscale shell leasing. Q1 2026 revenue was $2.444B (+10% reported YoY), operating income was $577M, net income was $415M, adjusted EBITDA was $1.245B, and AFFO/share was $10.79. MRR grew 12% reported / 10% normalized constant-currency YoY, annualized gross bookings were $378M, annualized presales were about $140M, and about 60% of largest deals were AI-related. The 2025 annual report disclosed 280 data centers, 10,500+ customers and 507,000+ interconnections, while Q1 2026 interconnection revenue was $446M. At $1,002.02 (2026-07-02), about $98.8B market cap and about $120.8B EV, EQIX trades around 23.5x the midpoint of 2026 AFFO/share guidance and about 11.9x 2026 revenue guidance. Neutral watch / medium conviction: high quality but high valuation; key monitors are interconnection revenue, AI bookings/presales, xScale economics, MRR/cabinet yield and power availability.
 
 **Current view:** **neutral watch / medium conviction.** The v5 scenario grid says EQIX's platform quality, interconnection density, and xScale option value are roughly capitalized at the current price; the next interconnection, AI bookings/presales, and AFFO/share evidence set must break that balance.
+
+> **2026-07-31 price check.** EQIX closed at **$1,008.02** on **2026-07-29** (last completed session) versus the **$1,002.02** anchor dated below, a **+0.6%** move. The dated anchors below therefore remain accurate to within that margin and the valuation frame, scenario grid, stance and conviction are unchanged. Reviewed and confirmed in the 2026-07-31 full-coverage pass; no edit was required.
 
 | Metric | Current readout |
 | --- | --- |

@@ -1,7 +1,7 @@
 # Cadence Design Systems 深度研究报告 - AI 设计复杂度的 EDA/IP backlog 仪表盘
 
 标的收录日期：2026-07-05
-最近更新日期：2026-07-28
+最近更新日期：2026-07-31
 代码：NASDAQ: CDNS
 免责声明：本报告仅用于信息与研究交流，不构成任何投资建议，请自行完成尽职调查。
 
@@ -14,6 +14,8 @@
 **一句话论点：** AI 基础设施 eda-ip 层的 backlog / execution 仪表盘：CDNS 验证 AI demand 是否出现在 design automation、IP、simulation、backlog、RPO 和 agentic design workflows。~~Q1 2026 revenue $1.474B、non-GAAP operating margin 44.7%、non-GAAP EPS $1.96；季度末 backlog $8.0B，未来 12 个月预计从 RPO 确认收入 $4.0B。FY2026 指引 revenue $6.125-6.225B、non-GAAP EPS $7.85-7.95。~~ **2026-07-27 事实更新：** Q2 2026 revenue $1.584B（同比 +24%）、non-GAAP operating margin 45.5%、non-GAAP EPS $2.11；季度末 backlog $8.1B（公司口径 record），next-12-month RPO revenue $4.2B；Core EDA / Semiconductor IP / System Design & Analysis 收入同比 +18% / 超过 +40% / +37%；FY2026 指引上修至 revenue $6.26-6.34B、non-GAAP EPS $8.05-8.15、operating cash flow 约 $2B。$373.14、市值约 $102.9B、EV 约 $104.5B、约 16.9x EV/sales 与约 47.2x non-GAAP P/E 均为基于当时 Q1 指引（revenue $6.125-6.225B、EPS $7.85-7.95）的 2026-07-02 初始估值快照；本次不使用旧价格对 Q2 新指引重新估值。谨慎 / 中确信维持不变。
 
 **当前判断：** **谨慎 / 中确信。** v5 情景网格保留为 2026-07-02 冻结估值框架：按当时 Q1 指引，$373.14 对应约 16.9x EV/sales 与约 47.2x non-GAAP P/E，已经前置资本化 backlog、RPO、IP 和 agentic design workflows 的大部分好消息。Q2 经营证据改善，但改变立场前仍需单独完成当前价格与估值复核。
+
+> **2026-07-31 价格复核（本次未并入新季报）。** CDNS 于 **2026-07-29**（最后一个已完成交易日）收于 **$332.76**，对照下文标注日期的 **$373.14** 锚点为 **-10.8%**，发生于已核实的 2026 年 7 月 AI 基础设施链条整体重定价期间。下文标注日期的价格、市值与倍数数字**在其标注日期上依然正确**，本次不予改写，但已不是当前*水平*，请按其标签阅读。该幅度低于本报告自身的重跑阈值（25%），因此估值框架、情景网格、立场与确信度均不变；`priceAsOf` 亦刻意保留，使本报告继续留在常规重跑队列中。
 
 | 指标 | 当前读数 |
 | --- | --- |

@@ -1,7 +1,7 @@
 # Coherent Deep Research Report - Full-Stack Photonics Dashboard for AI Optical Connectivity
 
 Coverage date: 2026-07-04
-Last updated: 2026-07-07
+Last updated: 2026-07-31
 Ticker: NYSE: COHR
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -11,7 +11,11 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 > **Framework role:** Coherent is the dashboard for the AI-infrastructure optical connectivity layer. The report's job is to test the chain signal, not to turn one company print into a recommendation.
 
-**One-line thesis:** Core optical-module and photonics coverage for the AI-infrastructure optical layer. Coherent does not explain GPU ASPs; it tests whether AI cluster network expansion is reaching high-speed optical connectivity, lasers, InP/SiPh and CPO/NPO architectures. Q3 FY2026 revenue was $1.81B (+21% YoY; +27% pro forma), non-GAAP gross margin was 39.6%, and non-GAAP EPS was $1.41. Datacenter & Communications revenue was about $1.362B, roughly 75% of pro forma revenue and about +41% YoY. In March 2026, NVIDIA announced a $2B investment in Coherent, including a multi-year, multi-billion-dollar purchase commitment and future capacity access rights; Coherent's roadmap includes 1.6T/3.2T/6.4T ZR/ZR+ and CPO/NPO engines. At $333.36 (2026-07-02 close), about $65.2B market cap and about $66.8B EV, the stock already prices an AI-optics supercycle. Cautious / low-conviction optical dashboard.
+**One-line thesis:** Core optical-module and photonics coverage for the AI-infrastructure optical layer. Coherent does not explain GPU ASPs; it tests whether AI cluster network expansion is reaching high-speed optical connectivity, lasers, InP/SiPh and CPO/NPO architectures. Q3 FY2026 revenue was $1.81B (+21% YoY; +27% pro forma), non-GAAP gross margin was 39.6%, and non-GAAP EPS was $1.41. Datacenter & Communications revenue was about $1.362B, roughly 75% of pro forma revenue and about +41% YoY. In March 2026, NVIDIA announced a $2B investment in Coherent, including a multi-year, multi-billion-dollar purchase commitment and future capacity access rights; Coherent's roadmap includes 1.6T/3.2T/6.4T ZR/ZR+ and CPO/NPO engines. At (old caliber) $333.36 (2026-07-02 close), about $65.2B market cap and about $66.8B EV, the stock already prices an AI-optics supercycle. Cautious / low-conviction optical dashboard.
+
+> **2026-07-31 valuation re-anchor.** COHR closed at **$222.05** on **2026-07-29**, the last completed session, **-33.4%** from the old $333.36 anchor dated 2026-07-02. This is part of the verified July 2026 chain-wide AI-infrastructure repricing — checked for corporate actions and confirmed a real price move. Recomputed at the new price: market cap about **$43.4B**, enterprise value about **$44.4B**, P/S (TTM) about **6.6x**, EV/Sales (TTM) about **6.7x**. The dated price, market-cap and multiple figures below are **superseded as levels**; read them as of their labels.
+>
+> The scenario grid's relative verdicts and probability weights were written against the old price and are **not re-weighted here** — the drawdown changed what is being paid, not the execution questions the grid is about. Stance and conviction are unchanged and raised under Q1 of the review questions doc. Coherent reports fiscal Q4 2026 on 2026-08-12.
 
 **Current view:** **cautious / low conviction.** The v5 upgrade separates variance from skew: Coherent is an important optical dashboard with real NVIDIA-linked demand evidence, but the dated price already capitalizes a large AI-optics cycle while FCF, capacity conversion, and peer confirmation still need to catch up.
 
@@ -20,7 +24,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Report id | coherent-2026 |
 | Chain layer / role | optical / dashboard |
 | Latest reported period | FY2026 Q3 |
-| Price snapshot | $333.36 as of 2026-07-02 |
+| Price snapshot | (old caliber) $333.36 as of 2026-07-02 |
 | Coverage tier after this upgrade | full |
 | Stance | cautious, low conviction |
 | Primary valuation use | scenario context and risk tolerance, not a single-point valuation conclusion |
@@ -62,7 +66,7 @@ The financial section converts the prose fact base into a repeatable scorecard. 
 | Margin / profitability | Use the current reported period and company-disclosed margin or EPS figures in the source notes | Tests whether growth is profitable or merely volume-led | B+ |
 | Cash flow / balance sheet | Debt, cash, FCF, AFFO, EBITDA, or buyback context preserved from the original report where disclosed | Determines whether the company can fund the cycle | B |
 | Backlog / bookings / RPO | NVIDIA announced a $2B investment in Coherent in Mar 2026, including multi-year, multi-billion-dollar purchase commitments and future capacity access rights; Coherent's roadmap includes 1.6T/3.2T/6.4T ZR/ZR+ and CPO/NPO engines | Separates committed demand from narrative demand | B+ |
-| Valuation tolerance | Current price context: $333.36 | High expectation names need cleaner execution | Caution |
+| Valuation tolerance | Current price context: (old caliber) $333.36 | High expectation names need cleaner execution | Caution |
 
 ## 4. Management And Caliber Check
 
@@ -96,10 +100,10 @@ The bear case is the strongest version of why the report's chain signal could be
 
 | Bear driver | Risk evidence | Thesis-breaking signal |
 | --- | --- | --- |
-| Expectation risk | Current price context $333.36 | Good company performance no longer beats embedded expectations |
+| Expectation risk | Current price context (old caliber) $333.36 | Good company performance no longer beats embedded expectations |
 | Chain divergence | Adjacent reports fail to confirm the same signal | The bottleneck sits elsewhere or demand was pulled forward |
 | Execution risk | Guidance, backlog, or capacity conversion slows | Reported evidence stops supporting the role |
-| Valuation compression | Bear context $233.35; base context $333.36 | Multiple contracts before the long-term story changes |
+| Valuation compression | Bear context $233.35; base context (old caliber) $333.36 | Multiple contracts before the long-term story changes |
 
 The bearish read should not ignore quality. It asks whether quality is already capitalized and whether the report is overclaiming what the current evidence can prove.
 
@@ -121,11 +125,11 @@ Thesis breakers:
 
 ## 8. Valuation Context
 
-Valuation is used as risk context, not as a recommendation. `prices.json` records the dated price anchor as **$333.36** on **2026-07-02**.
+*Old frame, superseded by the 2026-07-31 re-anchor — the price, market cap, enterprise value and every multiple in this paragraph are old-caliber levels:* Valuation is used as risk context, not as a recommendation. `prices.json` records the dated price anchor as **$333.36** on **2026-07-02**.
 
 | Method | Current readout | Interpretation |
 | --- | --- | --- |
-| Price / market cap | $333.36; about $65.2B | Already capitalizes a large AI-optics cycle |
+| Price / market cap | (old caliber) $333.36; about $65.2B | Already capitalizes a large AI-optics cycle |
 | EV | About $66.8B | Valuation is high relative to current revenue scale |
 | EV/TTM sales | About 10.1x | High for optical hardware unless AI growth and margin conversion accelerate |
 | Q3 FCF | -$383M | Growth still needs to convert into cash flow |
@@ -133,13 +137,13 @@ Valuation is used as risk context, not as a recommendation. `prices.json` record
 
 **Scenario grid:**
 
-| Scenario | Driver assumptions (optical demand / capacity / margin / cash-flow regime) | Valuation implication vs the $333.36 dated price | Probability weight |
+| Scenario | Driver assumptions (optical demand / capacity / margin / cash-flow regime) | Valuation implication *(stale — written against the old price)* | Probability weight *(stale — not re-weighted 2026-07-31)* |
 | --- | --- | --- | --- |
 | Bull | NVIDIA-linked purchase commitments convert into backlog, revenue, and prepayments; Datacenter & Communications keeps growing 40%+ without gross-margin dilution; InP / 6-inch capacity ramps on time; 1.6T/3.2T/6.4T and CPO/NPO move into customer platforms; FCF turns positive as working capital normalizes | The current price can be justified if COHR becomes the full-stack scarce optical supplier for AI clusters | 20% |
 | Base | Datacenter optics continues growing but at a slower cadence; NVIDIA commitments support visibility but convert over time; gross margin holds around high-30s to low-40s; capacity and roadmap milestones advance with normal delays; FCF remains uneven during expansion | The current price is fair-to-rich: the market already capitalizes much of the optical supercycle | 50% |
 | Bear | Purchase commitments convert slower than expected, adjacent optical peers or ANET fail to confirm the same demand, capacity ramps pressure margins, FCF stays negative, and the market cuts the EV/sales premium before the long-term optical story is disproved | The current price would look rich because multiple compression can arrive before the chain thesis is fully broken | 30% |
 
-**What's priced in & the expectation gap:** At **$333.36**, about **$66.8B** EV, and about **10.1x EV/TTM sales**, the market is already underwriting an AI-optics supercycle rather than a normal optical-components cycle. If a mature optical-hardware premium multiple is closer to **5-6x sales** and investors require about **8%** annual return, the reverse-multiple frame implies roughly `((10.1 / 6)^(1/3) x 1.08 - 1) ≈ 28%` to `((10.1 / 5)^(1/3) x 1.08 - 1) ≈ 36%` annual revenue growth for several years, plus margin and FCF improvement. The base case confirms strong demand but not enough cash-flow evidence yet, so the expectation gap is mildly negative.
+**What's priced in & the expectation gap:** *Old frame, superseded by the 2026-07-31 re-anchor — the price, market cap, enterprise value and every multiple in this paragraph are old-caliber levels:* At **$333.36**, about **$66.8B** EV, and about **10.1x EV/TTM sales**, the market is already underwriting an AI-optics supercycle rather than a normal optical-components cycle. If a mature optical-hardware premium multiple is closer to **5-6x sales** and investors require about **8%** annual return, the reverse-multiple frame implies roughly `((10.1 / 6)^(1/3) x 1.08 - 1) ≈ 28%` to `((10.1 / 5)^(1/3) x 1.08 - 1) ≈ 36%` annual revenue growth for several years, plus margin and FCF improvement. The base case confirms strong demand but not enough cash-flow evidence yet, so the expectation gap is mildly negative.
 
 The key valuation question is whether the next evidence set increases the denominator faster than the market increases the multiple.
 
@@ -159,7 +163,7 @@ These are the items that should drive future reruns. A monitoring update should 
 
 Coherent's chain-validation job is to test whether AI cluster expansion is truly reaching the optical layer. AAOI should confirm the active-module beta, GLW should confirm fiber/cable pull-through, ANET should confirm Ethernet fabric density, and NVDA should confirm the customer/supplier circularity. If COHR moves alone while adjacent layers do not confirm it, the chain read-through should be discounted.
 
-The expectation gap is mildly negative: at $333.36 and about 10.1x EV/TTM sales, the market already requires several years of roughly high-20s to mid-30s revenue growth plus margin and FCF improvement; our base case confirms demand but does not yet prove cash-flow conversion.
+*Old frame, superseded by the 2026-07-31 re-anchor — the price, market cap, enterprise value and every multiple in this paragraph are old-caliber levels:* The expectation gap is mildly negative: at $333.36 and about 10.1x EV/TTM sales, the market already requires several years of roughly high-20s to mid-30s revenue growth plus margin and FCF improvement; our base case confirms demand but does not yet prove cash-flow conversion.
 
 The current stance is **cautious, low conviction**. The 20% bull / 50% base / 30% bear grid says the optical signal is real, but the dated price already capitalizes much of the supercycle. Low conviction reflects the genuine NVIDIA-linked purchase evidence and the fact that one strong order path could quickly flatten the skew.
 

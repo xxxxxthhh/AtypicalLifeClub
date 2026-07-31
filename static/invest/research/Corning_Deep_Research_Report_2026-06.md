@@ -1,7 +1,7 @@
 # Corning (GLW) Deep Research Report
 
 Coverage date: 2026-06-29
-Last updated: 2026-07-28
+Last updated: 2026-07-31
 Ticker: NYSE: GLW
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence. All prices and market caps are point-in-time snapshots; financial figures are per company disclosure unless noted otherwise.
 
@@ -15,9 +15,15 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 > **2026-07-28 factual update (Q2 2026, quarter ended June 30, 2026):** Corning reported core sales of **$4.74B (+17% YoY)** and core EPS of **$0.78 (+30% YoY)** (GAAP net sales $4.51B, GAAP EPS $0.64). **Optical Communications net sales were $2.072B (+32% YoY, ~+12% sequentially from Q1's $1.846B)**, with **Enterprise Networks +65%** and the company saying Gen AI product sales grew "significantly faster." Core operating margin was **20.9%** and adjusted free cash flow was **$1.42B**. Management guided **Q3 2026** to core sales of **$4.9-5.0B** and core EPS of **$0.85-0.89**. The $221.05 price and ~71x 2026E core EPS below are the **frozen June 26, 2026 valuation snapshot**; this monitoring pass adds operating evidence but does **not** refresh the share price, annual EPS estimate, valuation multiple, stance, or conviction. Stance stays **neutral watch / medium conviction**.
 
-**Verdict:** **Neutral watch / medium conviction.** The AI-optical demand is real, contracted, and partly customer-funded, a genuinely differentiated setup. But the stock has re-rated about 4x off its 52-week low to **$221.05** (about **$190B** market cap and about **71x** 2026E core EPS), and the v5 scenario grid says the base case is largely in the price.
+> **2026-07-31 valuation re-anchor — this replaces the frozen June 26, 2026 snapshot referenced above.** GLW closed at **$124.05** on **2026-07-29** (last completed session), **−43.9%** from the $221.05 anchor, as part of a verified chain-wide July 2026 AI-infrastructure repricing (no corporate actions). On ~859.6M shares that is a market cap of about **$106.6B** (old caliber ~$190B) and, on the report's own ~$7.2B net-debt figure, an enterprise value of about **$113.8B** (old ~$197B).
+>
+> Recomputed on the **same** consensus estimates the report already used: forward P/E is now about **39.8x** on 2026E core EPS of ~$3.12 and about **32.1x** on 2027E ~$3.86 (old caliber ~71x / ~57x); EV/Sales is about **7.1x** on 2026E core revenue ~$16.1B and about **6.3x** on 2027E ~$18.0B (old ~12x / ~11x). Q2 2026 operating evidence from the 07-28 pass is unchanged and remains current.
+>
+> **One claim below is specifically retired by this:** the report called the old ~71x "the richest forward multiple in this center's AI-infrastructure coverage." At ~39.8x that is no longer true. Stance stays **neutral watch / medium conviction** and the 30/40/30 grid is not re-weighted — see Q1 of the review questions doc.
 
-**Current market read (frozen market-data snapshot pulled 2026-06-28, reflecting the 2026-06-26 U.S. close — 06-27/06-28 were a weekend; not refreshed in the 2026-07-28 monitoring pass):** GLW was last quoted around ~**$221** (Google Finance; 52-week range **$51.32 - $230.50** — an ~4x re-rating on the AI-optical theme). Market cap ~**$190B**; with ~$9.0B total debt and ~$1.8B cash (net debt ~$7.2B), enterprise value is ~**$197B**. Dividend ~$0.28/quarter (~0.5% yield). Financial source: [Corning Q1 2026 results (IR)](https://investor.corning.com/financials/quarterly-results/default.aspx); quote references: [Yahoo Finance GLW](https://finance.yahoo.com/quote/GLW/), [Google Finance GLW](https://www.google.com/finance/beta/quote/GLW:NYSE).
+**Verdict:** **Neutral watch / medium conviction.** The AI-optical demand is real, contracted, and partly customer-funded, a genuinely differentiated setup. ~~But the stock has re-rated about 4x off its 52-week low to **$221.05** (about **$190B** market cap and about **71x** 2026E core EPS), and the v5 scenario grid says the base case is largely in the price.~~ **2026-07-31 update: at $124.05 (2026-07-29), about $106.6B market cap and about 39.8x 2026E core EPS**, the multiple that carried the "base case is largely in the price" conclusion has fallen by nearly half.
+
+**Current market read (OLD, superseded by the 2026-07-31 re-anchor above — frozen market-data snapshot pulled 2026-06-28, reflecting the 2026-06-26 U.S. close — 06-27/06-28 were a weekend; not refreshed in the 2026-07-28 monitoring pass):** GLW was last quoted around ~**$221** (Google Finance; 52-week range **$51.32 - $230.50** — an ~4x re-rating on the AI-optical theme). Market cap ~**$190B**; with ~$9.0B total debt and ~$1.8B cash (net debt ~$7.2B), enterprise value is ~**$197B**. Dividend ~$0.28/quarter (~0.5% yield). Financial source: [Corning Q1 2026 results (IR)](https://investor.corning.com/financials/quarterly-results/default.aspx); quote references: [Yahoo Finance GLW](https://finance.yahoo.com/quote/GLW/), [Google Finance GLW](https://www.google.com/finance/beta/quote/GLW:NYSE).
 
 **Key data:**
 
@@ -25,11 +31,11 @@ Disclaimer: This report is for informational and research purposes only. It does
 |--------|-------|
 | Price (snapshot 2026-06-28 = 2026-06-26 U.S. close) | ~$221 (Google Finance) |
 | 52-week range | $51.32 - $230.50 |
-| Market cap | ~$190B |
-| Net debt / EV | ~$7.2B net debt ($9.0B debt − $1.8B cash); EV ~$197B |
+| Market cap | **~$106.6B** (2026-07-29); old caliber ~$190B |
+| Net debt / EV | ~$7.2B net debt ($9.0B debt − $1.8B cash); EV **~$113.8B** (old caliber ~$197B) |
 | Dividend | ~$0.28/qtr (~$1.12/yr), ~0.5% yield |
-| Forward P/E | ~71x (2026E core EPS ~$3.12); ~57x (2027E ~$3.86) |
-| EV/Sales | ~12x (2026E core rev ~$16.1B) |
+| Forward P/E | **~39.8x** (2026E core EPS ~$3.12); **~32.1x** (2027E ~$3.86); old caliber ~71x / ~57x |
+| EV/Sales | **~7.1x** (2026E core rev ~$16.1B); old caliber ~12x |
 | Q1 2026 core sales | $4.345B (+18% Y/Y); GAAP net sales $4.144B |
 | Q1 2026 Optical Communications | $1.846B (+36% Y/Y) |
 | Q1 2026 Glass Innovations | $1.420B (+1% Y/Y) |
@@ -163,9 +169,9 @@ Q2 guidance implies continued double-digit growth and ~25% EPS gains. The Spring
 
 ## 6. Bear Case
 
-**Core thesis:** at ~$221 / ~71x 2026E core EPS / ~$190B, a ~4x re-rated stock prices in years of flawless Springboard execution — and the sell-side average target sits *below* the market price.
+**Core thesis (old frame, superseded 2026-07-31 — now ~$124.05 / ~39.8x / ~$106.6B):** at ~$221 / ~71x 2026E core EPS / ~$190B, a ~4x re-rated stock priced in years of flawless Springboard execution — and the sell-side average target sits *below* the market price.
 
-1. **Valuation is demanding and ahead of the Street.** ~71x 2026E and ~57x 2027E core EPS; analyst average targets (~$182-204) are **below** the ~$221 market price — the market is more optimistic than the sell-side.
+1. **Valuation is demanding and ahead of the Street — materially weakened 2026-07-31.** *Old claim:* ~71x 2026E and ~57x 2027E core EPS, with analyst average targets (~$182-204) **below** the ~$221 market price. **At $124.05 the multiple is ~39.8x / ~32.1x and the price now sits well below that same ~$182-204 target range**, so this bear pillar has inverted: the market is no longer more optimistic than the sell side. Whether those targets are still current was not re-verified in this pass.
 2. **AI-capex cyclicality and customer concentration.** Optical growth now leans on a handful of hyperscalers (Meta, NVIDIA, Amazon); if AI capex digests or slows, optical orders are directly exposed.
 3. **Capacity-ramp execution and thin near-term FCF.** A 10x capacity build means elevated capex (Q1 FCF only ~$30M) and ramp costs (solar already flagged "temporarily higher ramp-up costs"); execution risk is real.
 4. **Leverage.** ~$9B debt / ~42% debt-to-capital / ~$7.2B net debt — less flexibility and more rate/refi sensitivity than a net-cash peer.
@@ -192,20 +198,20 @@ Q2 guidance implies continued double-digit growth and ~25% EPS gains. The Spring
 
 > The following is valuation "context," not a price target or a buy/sell recommendation.
 
-- **Forward P/E ~71x (2026E) / ~57x (2027E):** on consensus core EPS of ~$3.12 (2026E) and ~$3.86 (2027E) at ~$221. This is the **richest forward multiple in this center's AI-infrastructure coverage** — for context, NVIDIA trades ~25x forward, Broadcom ~33x, SanDisk ~15-16x annualized forward. Corning's premium reflects both high expected growth and structurally lower margins (~20% operating margin vs. chip peers' far higher), so the same dollar of revenue carries less profit.
-- **EV/Sales ~12x (2026E) / ~11x (2027E):** EV ~$197B (market cap ~$190B + net debt ~$7.2B) on ~$16.1B (2026E) / ~$18.0B (2027E) core revenue.
+- **Forward P/E ~~~71x (2026E) / ~57x (2027E)~~ ~39.8x (2026E) / ~32.1x (2027E), re-anchored 2026-07-31:** on the same consensus core EPS of ~$3.12 (2026E) and ~$3.86 (2027E) at the $124.05 close. ~~This is the **richest forward multiple in this center's AI-infrastructure coverage**~~ — **that claim is retired: at ~39.8x Corning is no longer the richest forward multiple in this coverage.** For context, NVIDIA traded ~25x forward and Broadcom ~33x on the June screen (not re-verified here). Corning's premium reflects both high expected growth and structurally lower margins (~20% operating margin vs. chip peers' far higher), so the same dollar of revenue carries less profit.
+- **EV/Sales ~~~12x (2026E) / ~11x (2027E)~~ ~7.1x (2026E) / ~6.3x (2027E), re-anchored 2026-07-31:** EV ~**$113.8B** (market cap ~$106.6B + net debt ~$7.2B) on ~$16.1B (2026E) / ~$18.0B (2027E) core revenue. Old caliber EV was ~$197B.
 - **The Street is below the market:** average analyst price targets (~$182-204) sit **below** the ~$221 price — i.e., the market has already priced in more than the median analyst. That is a yellow flag worth weighing.
 - **Reading the multiple:** Corning's valuation is a bet on the **durability of the AI-optical cycle and Springboard execution.** If the $30B/$40B run-rate ladder is achieved with ~20%+ margins, today's multiple compresses into growing earnings; if optical demand proves cyclical or the ramp stalls, both earnings and the multiple de-rate.
 
 **Scenario grid:**
 
-| Scenario | Driver assumptions (AI optical demand / customer funding / margin-FCF / capacity cycle) | Valuation implication (rich / fair / cheap vs today) | Probability weight |
+| Scenario | Driver assumptions (AI optical demand / customer funding / margin-FCF / capacity cycle) | Valuation implication *(stale — written against the ~71x / $221.05 frame)* | Probability weight *(stale — not re-weighted)* |
 |----------|------------------------------------------------------------------------------------------|------------------------------------------------------|--------------------|
-| Bull | Optical Communications keeps growing 30%+; Meta / NVIDIA / Amazon commitments close and expand; Springboard runs ahead of the roughly $20B end-2026 and $30B 2028 path; core operating margin stays above 20%; FCF improves despite the U.S. optical-capacity ramp | The $221.05 price can look fair-to-slightly cheap only if Corning becomes a durable AI-infrastructure compounder rather than a cyclical optical supplier | 30% |
+| Bull | Optical Communications keeps growing 30%+; Meta / NVIDIA / Amazon commitments close and expand; Springboard runs ahead of the roughly $20B end-2026 and $30B 2028 path; core operating margin stays above 20%; FCF improves despite the U.S. optical-capacity ramp | (old frame, stale) The $221.05 price can look fair-to-slightly cheap only if Corning becomes a durable AI-infrastructure compounder rather than a cyclical optical supplier | 30% |
 | Base | AI optical demand stays strong through 2027, but growth decelerates from the first surge; Springboard tracks rather than beats the run-rate ladder; margins hold around 20%; customer funding offsets but does not eliminate capex/working-capital needs; the multiple compresses as EPS grows | The current price mostly capitalizes this case: the business is better than before, but the stock needs steady execution to grow into the multiple | 40% |
-| Bear | AI capex digests, one anchor customer slows or renegotiates, optical growth falls below the narrative, capacity-ramp costs and net debt pressure FCF, and the core-vs-GAAP earnings gap remains wide; the market de-rates GLW from a 71x 2026E core-EPS multiple toward a mid-cycle materials multiple | The current price would be rich because both earnings expectations and the multiple would reset | 30% |
+| Bear | AI capex digests, one anchor customer slows or renegotiates, optical growth falls below the narrative, capacity-ramp costs and net debt pressure FCF, and the core-vs-GAAP earnings gap remains wide; the market de-rates GLW from an old 71x 2026E core-EPS multiple toward a mid-cycle materials multiple | The current price would be rich because both earnings expectations and the multiple would reset | 30% |
 
-**What's priced in & the expectation gap:** In the frozen June 26, 2026 snapshot, at $221.05, about 71x 2026E core EPS and about 57x 2027E core EPS, the market is underwriting that the AI optical buildout and Springboard run-rate ladder remain on track for several years. Our 30% bull / 40% base / 30% bear grid agrees that Corning's passive-connectivity position is real, but the base case does not clearly exceed what that dated price already capitalizes. The expectation gap is balanced rather than positive. *(The 2026-07-28 monitoring pass adds Q2 operating evidence but does not refresh the share price, annual EPS estimate, or resulting multiple; any post-earnings share-price move alone is not a loggable signal.)*
+**What's priced in & the expectation gap (rewritten 2026-07-31; the old frame was ~71x at $221.05):** ~~In the frozen June 26, 2026 snapshot, at $221.05, about 71x 2026E core EPS and about 57x 2027E core EPS...the expectation gap is balanced rather than positive.~~ At **$124.05**, about **39.8x** 2026E core EPS and **32.1x** 2027E, the market is underwriting materially less of the AI optical buildout and Springboard ladder than it was. The 30/40/30 grid's "base case already largely capitalized" conclusion was an arithmetic claim about a ~71x multiple and does not survive at ~39.8x. What is unchanged is the execution question — Springboard's ~$20B end-2026 / $30B 2028 ladder and the durability of 30%+ Optical growth are exactly as unproven as before, and Q2's +32% Optical print is one quarter of evidence, not confirmation of the ladder. *(The 2026-07-28 monitoring pass adds Q2 operating evidence but does not refresh the share price, annual EPS estimate, or resulting multiple; any post-earnings share-price move alone is not a loggable signal.)*
 
 ---
 
@@ -234,11 +240,11 @@ Q2 guidance implies continued double-digit growth and ~25% EPS gains. The Spring
 
 Corning's chain-validation job is to test whether AI data-center demand is reaching the passive optical layer: the fiber, cable, and physical connectivity that let clusters scale. If Optical Communications growth, anchor-customer funding, Springboard margin execution, and FCF recovery all hold, AI infrastructure demand is reaching well beyond chips. If those indicators fade, the optical buildout is more cyclical than structural.
 
-The expectation gap is balanced: in the frozen June 26, 2026 snapshot, at $221.05, about 71x 2026E core EPS and about 57x 2027E core EPS, the market is underwriting several years of AI optical growth and Springboard execution; our 30% bull / 40% base / 30% bear grid agrees on the direction but sees the base case already largely capitalized. The 2026-07-28 monitoring pass updates Q2 operating evidence (Optical +32%, Enterprise Networks +65%) without re-valuing on a current price.
+**2026-07-31 update — re-anchored.** *Old text:* the expectation gap is balanced: in the frozen June 26, 2026 snapshot, at $221.05, about 71x 2026E core EPS and about 57x 2027E core EPS, the market is underwriting several years of AI optical growth and Springboard execution; our 30% bull / 40% base / 30% bear grid agrees on the direction but sees the base case already largely capitalized. The 2026-07-28 monitoring pass updates Q2 operating evidence (Optical +32%, Enterprise Networks +65%) without re-valuing on a current price.
 
 The current stance is **neutral watch, medium conviction**. Neutral is not indecision: the bull case has real support from customer-funded capacity and +36% Optical growth, while the bear case has real support from a very rich multiple, leverage, customer concentration, and capacity-cycle risk. Medium conviction reflects high-quality evidence on demand and contracts, but limited valuation margin of safety at the dated price.
 
-Upgrade trigger: move to constructive if H2 2026 continues to show Optical Communications growing around 30%+ (Q2 2026 was +32%), Springboard run rate tracking toward the roughly $20B end-2026 path, customer-funded agreements closing, and FCF improving through the capacity ramp, and a separate current-price valuation review shows the multiple absorbed from the June 26, 2026 frame rather than expanding. Downgrade trigger: move to cautious if Optical Communications growth falls materially below the AI-capex narrative, any of Meta/NVIDIA/Amazon slows or renegotiates supply commitments, or net-debt / FCF pressure worsens against the roughly 71x 2026E core-EPS June 26, 2026 frame.
+Upgrade trigger (old ~71x framing now superseded): move to constructive if H2 2026 continues to show Optical Communications growing around 30%+ (Q2 2026 was +32%), Springboard run rate tracking toward the roughly $20B end-2026 path, customer-funded agreements closing, and FCF improving through the capacity ramp, and a separate current-price valuation review shows the multiple absorbed from the June 26, 2026 frame rather than expanding. Downgrade trigger: move to cautious if Optical Communications growth falls materially below the AI-capex narrative, any of Meta/NVIDIA/Amazon slows or renegotiates supply commitments, or net-debt / FCF pressure worsens against the roughly 71x 2026E core-EPS June 26, 2026 frame.
 
 ---
 
@@ -256,10 +262,10 @@ Upgrade trigger: move to constructive if H2 2026 continues to show Optical Commu
 - Quote references: [Yahoo Finance GLW](https://finance.yahoo.com/quote/GLW/), [Google Finance GLW](https://www.google.com/finance/beta/quote/GLW:NYSE)
 
 **Key assumptions & basis:**
-- Price ~$221 (Google Finance snapshot pulled 2026-06-28, a weekend, reflecting the 2026-06-26 U.S. close) and 52-week range $51.32-$230.50; market cap ~$190B. Actual quoted price may differ intraday.
+- *Old price source, superseded by the 2026-07-31 re-anchor:* ~$221 (Google Finance snapshot pulled 2026-06-28, a weekend, reflecting the 2026-06-26 U.S. close) and 52-week range $51.32-$230.50; market cap ~$190B.
 - Q1 2026 (quarter ended March 31, 2026): core sales $4,345M, GAAP net sales $4,144M; segment, margin, EPS, cash-flow and balance-sheet figures per Corning's Q1 2026 disclosure. Segments reflect the **Q1 2026 restructuring** into five reportable segments (Optical Communications, Glass Innovations, Automotive, Solar, Life Sciences & Emerging Growth).
 - Core vs GAAP: Corning reports "core" measures (which adjust for currency hedging, restructuring and certain non-cash/one-time items) alongside GAAP; Q1 2026 core EPS $0.70 vs GAAP EPS $0.43.
-- Forward P/E uses consensus core EPS ~$3.12 (2026E) and ~$3.86 (2027E); EV/Sales uses consensus core revenue ~$16.1B (2026E) and ~$18.0B (2027E). Net debt ~$7.2B = ~$9.0B total debt − ~$1.8B cash → EV ~$197B.
+- Forward P/E uses consensus core EPS ~$3.12 (2026E) and ~$3.86 (2027E); EV/Sales uses consensus core revenue ~$16.1B (2026E) and ~$18.0B (2027E). Net debt ~$7.2B = ~$9.0B total debt − ~$1.8B cash → EV ~**$113.8B** after the 2026-07-31 re-anchor (old caliber ~$197B).
 - Springboard run-rate targets (~$20B end-2026, ~$30B end-2028, ~$40B end-2030) and the ~20% core operating-margin target are management's plan (upgraded May 2026), not guaranteed outcomes.
 - The Meta (up to $6B), NVIDIA (up to $3.2B equity + 3 plants, 10x U.S. optical capacity) and Amazon (multibillion) figures are per company/press disclosures; deal values are multi-year ceilings/frameworks, not booked revenue, and should be reconciled as they convert.
 - This report is **initial coverage**; refresh price, guidance, segment trends, and Springboard progress at the next quarterly result.

@@ -13,6 +13,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 > **2026-07-31 Q2 update:** Amazon's official Q2 release reported revenue of **$200.606B** (+20% YoY), AWS revenue of **$42.232B** (+37%) and AWS operating income of **$16.621B** (39.4% margin). Consolidated operating income was **$27.461B** (13.7% margin). Q2 net income of **$62.647B** / diluted EPS of **$5.75** included **$53.415B of other income**, primarily an Anthropic investment mark-up, so GAAP net income is not a clean operating-earnings measure. TTM operating cash flow rose to **$161.403B**, but TTM free cash flow fell to **-$7.604B** as PP&E purchases net of proceeds/incentives reached **$169.007B**. The release did not disclose a revised full-year capex total; the separate roughly $220B figure and memory-price attribution reported by media are therefore excluded here. [Amazon Q2 2026 release](https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q2/earnings-result/AMZN-Q2-2026-Earnings-Release.pdf).
 
+> **2026-07-31 price check (untracked-coverage review).** AMZN closed at **$226.65** on **2026-07-29**, the last completed US session, versus the **$228.15** anchor dated 2026-06-25 — a **-0.7%** move. The dated figures below therefore remain accurate to within that margin and the valuation frame and stance are unchanged. Amazon is scheduled to report Q2 2026 after the close on 2026-07-30, hours after this review was anchored; no Q2 figures are integrated here. This report has no `priceSymbol`, so it carries no automatic price ledger or drift alert — see Q3 of the review questions doc.
+
 **Investment Verdict:**
 - **Stance:** Cautiously Bullish
 - **Confidence Level:** Medium-High

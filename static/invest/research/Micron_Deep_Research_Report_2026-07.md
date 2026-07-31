@@ -1,7 +1,7 @@
 # Micron Technology (MU) Deep Research Report
 
 Coverage date: 2026-07-04
-Last updated: 2026-07-15
+Last updated: 2026-07-31
 Ticker: NASDAQ: MU
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -12,6 +12,10 @@ Disclaimer: This report is for informational and research purposes only. It does
 > **Framework note:** This report fills the AI-infrastructure book's memory-storage layer. Micron is not just a memory-cycle stock. It is the dashboard for HBM, DDR5, data-center SSDs, and long-term supply agreements as AI supply constraints move from compute to memory bandwidth and storage. The question is whether AI demand is truly reaching memory bits, bandwidth, and pricing, or whether this is a short-term inventory and pricing shock.
 
 **One-line thesis:** Micron is in the strongest memory upcycle in its history. FY2026 Q3 revenue was $41.46B, adjusted EPS was about $25.11, gross margin was about 84.6%, and Q4 guidance is $49-51B of revenue. HBM capacity is reportedly sold out through 2026, strategic customer agreements (SCAs) lock part of supply through 2030, and DRAM / NAND prices are still rising. The problem is that at $975.56 (Jul 2, 2026 close) and about $1.10T market cap, the stock already prices in a large dose of "this time is different."
+
+> **2026-07-31 valuation re-anchor.** MU closed at **$739.00** on **2026-07-29**, the last completed session, **-24.2%** from the old $975.41 anchor dated 2026-07-02. This is part of the verified July 2026 chain-wide AI-infrastructure repricing — checked for corporate actions and confirmed a real price move. Recomputed at the new price: market cap about **$834.6B**, enterprise value about **$815.0B**, P/S (TTM) about **9.2x**, EV/Sales (TTM) about **9.0x**. The dated price, market-cap and multiple figures below are **superseded as levels**; read them as of their labels.
+>
+> The scenario grid's relative verdicts and probability weights were written against the old price and are **not re-weighted here** — the drawdown changed what is being paid, not the execution questions the grid is about. Stance and conviction are unchanged and raised under Q1 of the review questions doc. Micron's next print is fiscal Q4 2026 on 2026-09-23. Note that the memory-cycle caution in this report rests on peak-cycle margins, which a price decline does not address.
 
 **Current view:** **Cautious / medium conviction: memory-cycle dashboard with negative skew.** MU is valuable to the chain because it simultaneously tests the HBM bottleneck, NAND / SSD pricing, data-center demand, and consumer-market crowd-out. The bull case is that AI training and inference require more memory bandwidth and storage while HBM / DDR5 / SSD supply expands more slowly than demand. The bear case is that memory remains cyclical, and extreme prices / margins invite new capacity, customer substitution, and valuation compression.
 

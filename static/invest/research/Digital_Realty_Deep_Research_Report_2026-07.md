@@ -1,7 +1,7 @@
 # Digital Realty Deep Research Report - Leasing and Interconnection Dashboard for AI Data Centers
 
 Coverage date: 2026-07-04
-Last updated: 2026-07-28
+Last updated: 2026-07-31
 Ticker: NYSE: DLR
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -14,6 +14,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 **One-line thesis:** Leasing and interconnection demand check for the AI-infrastructure data-center facility layer. DLR does not directly explain GPUs, optical modules or power equipment; it tests whether AI data-center demand converts into real leases, backlog, interconnection nodes and development capacity. ~~Q1 2026 revenue was $1.64B (about +16% YoY), Core FFO/share was $2.04 and AFFO/share was $1.92. The company signed $707M of annualized GAAP base-rent bookings at 100% share, or $423M at DLR share, including $98M from the 0-1MW plus interconnection category (+42% YoY). Signed-but-not-commenced backlog was $1.8B at 100% share and $1.0B at DLR share, with a 19-month weighted-average commencement lag.~~ **2026-07-23 factual update:** Q2 2026 Core FFO/share (excluding net promote) was $2.13 and cash renewal spreads were +25.4%; bookings were $307M at 100% share / $208M at DLR share (down QoQ), including a record $108M from 0-1MW plus interconnection, or 52% of DLR-share bookings. Signed-but-not-commenced backlog was a record $1.9B at 100% share / $1.4B at DLR share, but the latter included about $380M of acquisition-related incremental backlog and cannot be read entirely as organic quarterly leasing; the weighted-average commencement lag narrowed from 19 months to nine months, and in-place / future-development capacity was about 3GW / 9GW. Management raised 2026 Core FFO/share (excluding net promote) guidance from $8.00-8.10 to $8.15-8.20. The $173.30 price, about $62.0B market cap, $77.6B EV, ~21x P/Core FFO, and ~12.2x EV/TTM revenue are the July 2, 2026 initial valuation snapshot based on the then-current Q1 $8.00-8.10 guide; this pass does not revalue the Q2 guide using the old price. Constructive / medium conviction is unchanged.
 
 **Current view:** **constructive / medium conviction.** The v5 valuation grid remains frozen to July 2, 2026. Q2 operating evidence was mixed but net-positive: total bookings fell QoQ, while 0-1MW/interconnection was a record 52% of DLR-share bookings, renewal spreads improved, commencement lag narrowed, and future-development capacity rose to about 9GW; the backlog record is partly acquisition-driven. A separate current-price valuation review is required before changing stance.
+
+> **2026-07-31 price check.** DLR closed at **$188.18** on **2026-07-29** (last completed session) versus the **$173.30** anchor dated below, a **+8.6%** move. The dated anchors below therefore remain accurate to within that margin and the valuation frame, scenario grid, stance and conviction are unchanged. Reviewed and confirmed in the 2026-07-31 full-coverage pass; no edit was required.
 
 | Metric | Current readout |
 | --- | --- |

@@ -1,7 +1,7 @@
 # Coinbase Global (COIN) Deep Research Report
 
 Coverage date: 2026-02-11
-Last updated: 2026-06-23
+Last updated: 2026-07-31
 Ticker: NASDAQ: COIN
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -14,6 +14,8 @@ This report is the full rerun successor to `coinbase-2026-pre-rerun`; the archiv
 **One-line thesis:** Coinbase is the monopolistic gateway to U.S. compliant crypto infrastructure, transitioning from a cyclical exchange to a diversified financial platform, but its fundamental dependence on crypto market sentiment is unchanged. The 2026H1 framework is no longer just a trading-volume recovery call — it depends on trading, stablecoins, Base, custody, derivatives, and regulatory normalization together.
 
 **Current view:** Neutral-to-constructive / high-volatility watchlist. Nasdaq quote data showed COIN at about **$164.84** on June 22, 2026, with market capitalization around **$43.42B** and a 52-week range of roughly $139.36-$444.65. The stock remains far below prior highs, regulatory tail risk is lower than in the February frame, but revenue and profit still depend heavily on crypto prices, volumes, and accounting volatility.
+
+> **2026-07-31 price check (untracked-coverage review).** COIN closed at **$160.09** on **2026-07-29**, the last completed US session, versus the **$164.84** anchor dated 2026-06-22 — a **-2.9%** move. The dated figures below therefore remain accurate to within that margin and the valuation frame and stance are unchanged. Coinbase is scheduled to report Q2 2026 after the close on 2026-07-30, hours after this review was anchored; no Q2 figures are integrated here. This report has no `priceSymbol`, so it carries no automatic price ledger or drift alert — see Q3 of the review questions doc.
 
 **Changes vs the February report:**
 

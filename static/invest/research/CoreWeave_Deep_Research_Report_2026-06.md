@@ -1,7 +1,7 @@
 # CoreWeave (CRWV) Deep Research Report
 
 Coverage date: 2026-06-30
-Last updated: 2026-07-07
+Last updated: 2026-07-31
 Ticker: NASDAQ: CRWV
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence. All prices and market caps are point-in-time snapshots; financial figures are per company disclosure unless noted otherwise.
 
@@ -12,6 +12,10 @@ Disclaimer: This report is for informational and research purposes only. It does
 ## Executive Summary
 
 **One-line thesis (the falsification question):** CoreWeave is the cleanest test of whether the AI buildout is real economic demand or financed momentum — it pairs a colossal **$99.4B company-defined revenue backlog** and 56%-margin adjusted EBITDA with a **widening GAAP net loss (−$740M in Q1 2026)**, ~**$24.9B of debt** plus ~**$10.1B of operating lease liabilities**, **$31-35B of 2026 capex**, customer concentration (Microsoft historically >60% of revenue; CNBC cited 62% for 2024), and a supplier, **NVIDIA**, that is simultaneously its chip vendor, a shareholder, and a **$6.3B "buyer of last resort."** If that combination is durable demand, it removes a bear overhang for the whole AI chain; if it is circular and leverage-driven, CoreWeave cracks first.
+
+> **2026-07-31 valuation re-anchor.** CRWV closed at **$60.82** on **2026-07-29**, the last completed session, **-29.7%** from the old $86.46 anchor dated 2026-07-06. This is part of the verified July 2026 chain-wide AI-infrastructure repricing — checked for corporate actions and confirmed a real price move. Recomputed at the new price: market cap about **$27.2B**, enterprise value about **$60.1B**, P/S (TTM) about **4.4x**, EV/Sales (TTM) about **9.7x**. The dated price, market-cap and multiple figures below are **superseded as levels**; read them as of their labels.
+>
+> The scenario grid's relative verdicts and probability weights were written against the old price and are **not re-weighted here** — the drawdown changed what is being paid, not the execution questions the grid is about. Stance and conviction are unchanged and raised under Q1 of the review questions doc. Note the capital structure: on ~$35.1B of total debt the enterprise value is far above market cap, so the EV multiple fell much less than the share price. CoreWeave reports Q2 2026 on 2026-08-11.
 
 **Verdict:** **High-risk / bear-leaning (avoid-to-watch); the chain's risk anchor.** This is not a "high-quality, high-expectations" name like the rest of the book — it is a high-operating-and-financial-leverage bet whose equity (~$52B market cap) sits above ~$22.9B of financial net debt before operating leases, or ~$32.9B including operating lease liabilities (obligation-adjusted EV ~**$85B**). The market has already repriced it: the stock is ~**$96**, down ~**47%** from its 2025 highs and barely above the **$87** NVIDIA paid in January 2026. The bull case is real but narrow; the bear case is the base case.
 
@@ -163,7 +167,7 @@ Framed as the **four kill-criteria** — the observable that would confirm the b
 
 | Scenario | Driver assumptions (capacity contracts / leverage / GPU residual / refinancing) | Valuation implication (rich / fair / cheap vs today) | Subjective probability weight |
 |----------|----------------------------------------------------------------------------------|------------------------------------------------------|-------------------------------|
-| Bull | The $99.4B company-defined revenue backlog keeps converting into revenue; Microsoft concentration falls as OpenAI / Meta and other customers diversify the customer mix; 6-year GPU depreciation and residual-value assumptions survive utilization evidence; refinancing cost remains manageable and 2026 capex is funded without destructive dilution | The Jul 6, 2026 price of $86.46 would look cheap to fair because equity is a levered call on supply-constrained AI buildout | 20% |
+| Bull | The $99.4B company-defined revenue backlog keeps converting into revenue; Microsoft concentration falls as OpenAI / Meta and other customers diversify the customer mix; 6-year GPU depreciation and residual-value assumptions survive utilization evidence; refinancing cost remains manageable and 2026 capex is funded without destructive dilution | The Jul 6, 2026 price of (old caliber) $86.46 would look cheap to fair because equity is a levered call on supply-constrained AI buildout | 20% |
 | Base | Demand is visible, but revenue conversion lags backlog; GAAP losses, interest, and lease obligations keep weighing on FCF; concentration does not fall much; capital markets stay open but on tighter terms | Today's price broadly reflects risk consensus but is not cheap: the equity layer swings above debt / lease obligations and returns depend mostly on the refinancing window | 30% |
 | Bear | AI capex digests or anchor customers self-build / diversify; rental ASPs and utilization fall; GPU residual values and 6-year depreciation are questioned; refinancing cost rises, and NVIDIA backstops plus single-customer exposure are treated as circular demand | Today's price would still look rich: the thin equity layer above about $22.9B of financial net debt and about $32.9B including leases is squeezed by demand, collateral, and capital markets at the same time | 50% |
 

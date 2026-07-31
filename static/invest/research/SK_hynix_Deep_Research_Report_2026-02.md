@@ -1,7 +1,7 @@
 # SK hynix (000660) Deep Research Report
 
 Coverage date: 2026-02-25
-Last updated: 2026-07-30
+Last updated: 2026-07-31
 Ticker: KRX: 000660 / NASDAQ: SKHY
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -11,10 +11,22 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 This report is the full rerun successor to `sk-hynix-2026-pre-rerun`; the archived baseline is available at `/invest/research/reports/view.html?id=sk-hynix-2026-pre-rerun`.
 
-**One-line thesis:** SK hynix is the global HBM (High Bandwidth Memory) monopolist (53% share + NVIDIA lock-in), riding the AI-memory supercycle to record results — a 72% operating margin in Q1 2026. But the stock has risen ~3.5x since February and market cap has crossed $1.3T, so February's "deeply undervalued at a single-digit forward P/E" thesis has largely played out; the debate shifts from "is it cheap" to "how durable is the peak."
+**One-line thesis:** SK hynix is the global HBM (High Bandwidth Memory) monopolist (53% share + NVIDIA lock-in), riding the AI-memory supercycle to record results — a 76% operating margin in Q2 2026. *Old framing, superseded 2026-07-31: the stock had risen ~3.5x since February with market cap above $1.3T, so February's "deeply undervalued" thesis had largely played out.* **After a −52% move to ₩1,401,000 (2026-07-29) and a near-doubling of TTM revenue, P/S is back to ~5.3x — below February's 6.3x.** The debate is no longer "is it cheap"; it is whether peak-cycle revenue and a 76% margin are the right denominator.
 
-**Current view:** Cautious / medium conviction after the v5 scenario-grid backfill. Per stockanalysis, 000660 was around **₩2,917,000** on June 25, 2026 on ~708M shares — a market cap of about **₩2,070T (~$1.3T USD)** on a price x shares basis (note: the vendor's own market-cap field lags the latest close, which on a +13% session understates it). The 52-week range is roughly ₩245,000-₩2,986,000, near all-time highs. Fundamentals are exceptionally strong, but the 72% operating margin is almost certainly near a cyclical peak, and valuation has re-rated from deep value to a TTM P/E of ~28x — the forward margin of safety has narrowed materially.
+**Current view:** Cautious / medium conviction. **Re-anchored 2026-07-31: 000660 closed at ₩1,401,000 on 2026-07-29**, about **₩994.5T** market cap (~$684B) on ~709.9M shares, with **P/S (TTM) ~5.3x**. *Old caliber, superseded: ₩2,917,000 on June 25, 2026, ~₩2,070T (~$1.3T), TTM P/E ~28x, described as re-rated from deep value with a narrowed margin of safety.* The 52-week range is roughly ₩245,000-₩2,986,000. Fundamentals are exceptionally strong, and the **76% Q2 operating margin is almost certainly near a cyclical peak — which is now the whole of the cautious case, since the valuation leg of it has gone.**
 
+> **2026-07-31 valuation-sensitive full update — this discharges the "separate valuation-sensitive full update" that the 2026-07-30 monitoring pass said this report still needed.** The frozen ₩2,917,000 snapshot has been replaced.
+>
+> **Re-anchored:** 000660 closed at **₩1,401,000** on **2026-07-29** (last completed session), **−52.0%** from the June 25 anchor. On ~709.9M shares that is a market cap of about **₩994.5T**, or roughly **$684B** at the 2026-07-29 rate of ~₩1,453/USD — against ~₩2,071T and roughly $1.3T before. Note the won strengthened over the same window (~₩1,593 to ~₩1,453 per USD), so the **USD** decline (~−47%) is smaller than the KRW decline.
+>
+> **The multiple fell from both directions at once.** TTM revenue is now about **₩189.2T** (H1 2026's ₩131.9T — Q1 ₩52.6T plus Q2 ₩79.32T — on top of H2 2025), roughly double the base the old multiple used. Combined with the price decline, **P/S (TTM) is now about 5.3x, versus the ~16x stated below**.
+>
+> **This inverts the report's central valuation claim.** The old assessment below reads: "P/S ~16x, well above February's 6.3x, signals valuation is now full-to-rich," and concludes the "buy a monopolist at half price" window has closed. **At ~5.3x, P/S is now *below* the 6.3x that accompanied February's "deeply undervalued" call.** On this specific measure the deep-value gap has not merely narrowed — it has reopened past its own starting point.
+>
+> **TTM P/E is deliberately NOT restated.** Q2 2026 net profit of ₩93.92T exceeds Q2 revenue of ₩79.32T, and the release did not itemize the bridge. Any TTM P/E built on that figure would be arithmetically valid and analytically meaningless, so the ~28x below is marked stale and left **unreplaced** rather than recomputed on an undisclosed composition. This is the one input that genuinely cannot be refreshed from current disclosure.
+>
+> **Stance and grid unchanged.** Still **cautious / medium conviction**, still a 20/50/30 grid. The peak-cycle question the stance rests on — whether a 76% operating margin can persist — is untouched by a price decline, and Q3 2026 results (2026-10-27) are the next real evidence. The stance is raised under Q1 of the review questions doc rather than moved here.
+>
 > **2026-07-30 factual update (Q2 2026, quarter ended June 30, 2026, per company disclosure):** SK hynix reported revenue of **₩79.32T (+257% YoY)**, operating profit of **₩60.54T (76% operating margin)**, and net profit of **₩93.92T (company-stated 118% net margin)** — an all-time quarterly high, with first-half revenue crossing **₩100T** for the first time. DRAM and NAND prices both rose significantly QoQ; the company **began HBM4 mass shipments in Q2** (ramping in H2), HBM4E completed sample shipments in H1, and it finalized **multi-year LTAs with about 10 customers**, stating customer demand exceeds supply capability. Period-end cash was ~₩88T and net cash ~₩69.4T. **Evidence limits: the release did not itemize what bridges the ₩60.54T operating profit to the ₩93.92T net profit (the composition by which net profit exceeds revenue is undisclosed); LTA volumes, durations, and pricing were also not disclosed.** (Q1 2026 comparison: revenue ₩52.6T, operating profit ₩37.6T, 72% margin.) The ₩2,917,000 price and ~28x TTM P/E below are the **frozen June 25, 2026 valuation snapshot**; this monitoring pass adds operating evidence but does **not** refresh the share price, earnings estimate, valuation multiple, stance, or conviction. Stance stays **cautious / medium conviction**. Because operating margin rising further to 76% makes the existing peak-cycle valuation text potentially misleading, this report takes the fail-closed branch and updates monitoring readings only; sk-hynix-2026 needs a separate valuation-sensitive full update.
 
 **Investment Verdict:**
@@ -40,16 +52,16 @@ This report is the full rerun successor to `sk-hynix-2026-pre-rerun`; the archiv
 | Metric | Value |
 |--------|-------|
 | Ticker | KRX: 000660 |
-| Current Price (2026-06-25) | ~₩2,917,000 |
-| Market Cap | ~₩2,070T (~$1.3T USD; ₩2,917,000 × ~708M shares) |
+| Current Price (2026-07-29, re-anchored) | **~₩1,401,000** (old anchor ₩2,917,000 at 2026-06-25, superseded) |
+| Market Cap | **~₩994.5T (~$684B USD; ₩1,401,000 × ~709.9M shares at ~₩1,453/USD)**; old caliber ~₩2,070T (~$1.3T) |
 | Latest-quarter Revenue (2026-07-30 monitoring) | ₩79.32T (Q2 2026, +257% YoY; Q1 2026 was ₩52.6T) |
 | Latest-quarter Operating Profit / Margin | ₩60.54T / 76% (Q2 2026; Q1 was ₩37.6T / 72%); net profit ₩93.92T (company-stated 118% net margin; op-profit→net-profit bridge undisclosed) |
 | Q1 2026 Net Profit | ₩40.3T (77% net margin) |
 | FY2025 Revenue | ₩97.1T (~$67B), +47% YoY |
 | FY2025 Operating Profit | ₩47.2T (~$32.3B), +101% YoY |
 | Net Cash (end of Q1 2026) | ₩35T (cash ₩54.3T − debt ₩19.3T) |
-| TTM P/E | ~28x |
-| P/S (TTM) | ~16x |
+| TTM P/E | **stale, not restated** — the Q2 operating-profit-to-net-profit bridge is undisclosed (old caliber ~28x) |
+| P/S (TTM) | **~5.3x** on ~₩189.2T TTM revenue (old caliber ~16x) |
 | 52-Week Range | ₩245,000 - ₩2,986,000 |
 | HBM Global Share | 53% (February basis) |
 
@@ -140,16 +152,22 @@ The three together control 100% of HBM capacity; SK hynix + Samsung control 90%.
 
 ### 3.4 Valuation
 
-Recomputed at the June 25, 2026 close of ₩2,917,000 (market cap ~₩2,070T = price × ~708M shares; the data vendor's market-cap field lags the latest close), with TTM now including Q1 2026 (caliber: net cash ~₩35T, so EV is slightly below market cap).
+**Re-anchored 2026-07-31 to the July 29, 2026 close of ₩1,401,000** (market cap ~₩994.5T = price × ~709.9M shares; ~$684B at ~₩1,453/USD), with TTM revenue now including Q2 2026 at about ₩189.2T (caliber: period-end net cash ~₩69.4T, so EV is meaningfully below market cap). *Old caliber, superseded: the June 25, 2026 close of ₩2,917,000 and market cap ~₩2,070T.*
 
 | Metric | Value |
 |--------|-------|
-| TTM P/E | ~28x |
-| Forward P/E (FY2026E) | ~13-16x (on a Q1 run-rate net of ₩130-160T; wide dispersion) |
-| P/S (TTM) | ~16x |
+| TTM P/E | **stale — not restated**; the Q2 operating-profit-to-net-profit bridge is undisclosed (old caliber ~28x) |
+| Forward P/E (FY2026E) | **stale** — same reason; the old ~13-16x rested on a Q1 run-rate that Q2 superseded |
+| P/S (TTM) | **~5.3x** on ~₩189.2T TTM revenue (old caliber ~16x) |
 | Dividend Yield | ~0.3% |
 
-**Assessment:** February's "single-digit forward P/E, deeply undervalued" thesis has largely played out — the stock is up ~3.5x and has re-rated to a TTM P/E of ~28x and P/S ~16x. Even if the forward earnings explosion compresses the forward P/E to the mid-teens, that rests on a 72% peak-cycle margin; P/S ~16x, well above February's 6.3x, signals valuation is now full-to-rich. In short: the franchise remains exceptional, but the "buy a monopolist at half price" window has closed — this is now closer to "owning a high-quality franchise at a full-ish price, near a cyclical peak." *(The 2026-07-30 monitoring pass adds Q2 2026 operating evidence — revenue ₩79.32T, operating margin rising further to 76%, multi-year LTAs with ~10 customers, and HBM4 mass shipments — but does **not** refresh the ₩2,917,000 share price, earnings estimate, TTM/forward multiple, stance, or conviction. **Note: operating margin rising from 72% to 76%, plus an undisclosed bridge that leaves net profit above revenue, means the valuation text above — built on ~28x TTM P/E / ~16x P/S and a 72% peak margin — may no longer fit; under the fail-closed rule this pass updates monitoring readings only, and sk-hynix-2026 needs a separate current-price, new-disclosure valuation-sensitive full update.** Any post-earnings share-price move alone is not a loggable signal.)*
+**Assessment (rewritten 2026-07-31).** The old assessment, now superseded, ran: February's "single-digit forward P/E, deeply undervalued" thesis has largely played out — the stock is up ~3.5x and has re-rated to a TTM P/E of ~28x and P/S ~16x; "P/S ~16x, well above February's 6.3x, signals valuation is now full-to-rich," so the "buy a monopolist at half price" window has closed.
+
+**That conclusion no longer follows from its own inputs.** At the re-anchored ₩1,401,000 close, market cap ~₩994.5T against ~₩189.2T of TTM revenue gives **P/S ~5.3x — below the 6.3x that accompanied February's "deeply undervalued" call.** The multiple fell from both directions: the share price is −52% from the June anchor while TTM revenue roughly doubled as Q2's ₩79.32T entered the trailing window. On this measure the value gap did not merely reopen; it is wider than at the February starting point.
+
+**Two cautions keep this from being a simple "it's cheap again" read.** First, the denominator is peak-cycle revenue at a 76% operating margin — the mean-reversion argument in §6 is about exactly that, and a low P/S on peak revenue is the classic memory-cycle trap this report has warned about throughout. Second, **TTM P/E cannot be honestly restated**: Q2 net profit of ₩93.92T exceeds Q2 revenue of ₩79.32T and the bridge is undisclosed, so the earnings-based multiples are marked stale and left unreplaced rather than recomputed on an unexplained composition.
+
+The stance therefore stays **cautious / medium conviction** and the 20/50/30 grid is not re-weighted: what changed is the price paid, not the durability question, and the durability question is what the stance was about. Q3 2026 results (2026-10-27) are the next real evidence. See Q1 of the review questions doc.
 
 ---
 
@@ -271,7 +289,7 @@ The company has committed to higher returns; record FY2025 dividends. Korea's "V
 ### 🐻 Bear Case
 
 **1. Memory cyclicality + a re-rated valuation (high conviction, weight rising)**
-Memory cycles every 3-4 years. FY2023 was a massive loss (-₩7.7T); Q1 2026 operating margin is already 72% — almost certainly a cyclical peak. Unlike February, the stock is up ~3.5x at P/S ~16x, so valuation no longer provides a cushion; peak margins + peak valuation together make mean reversion the largest downside risk.
+Memory cycles every 3-4 years. FY2023 was a massive loss (-₩7.7T); Q2 2026 operating margin is 76% — almost certainly a cyclical peak. *Old text, superseded 2026-07-31: "Unlike February, the stock is up ~3.5x at P/S ~16x, so valuation no longer provides a cushion; peak margins + peak valuation together make mean reversion the largest downside risk."* **After the −52% move, P/S ~5.3x is below February's 6.3x, so the "peak margins + peak valuation" pairing no longer holds — the valuation cushion has been restored.** Mean reversion in margin remains the largest downside risk, but it is now a margin argument alone rather than a margin-and-multiple argument.
 
 **2. HBM4 competition (moderate-high conviction)**
 Samsung is catching up in HBM4, even reporting faster test speeds. The exclusive premium may shrink in 2026-2027.
@@ -296,10 +314,10 @@ The following is valuation context, not a target price or recommendation.
 
 | Method | Current readout | Interpretation |
 |--------|-----------------|----------------|
-| Price anchor | ₩2,917,000 on 2026-06-25 | Near the 52-week high after a roughly 3.5x move since February |
-| Market cap | About ₩2,070T / ~$1.3T | The deep-value gap has largely closed |
-| TTM P/E | About 28x | No longer a single-digit forward-P/E dislocation |
-| P/S | About 16x | Rich for memory unless HBM materially lifts the through-cycle trough |
+| Price anchor | **₩1,401,000 on 2026-07-29** (old: ₩2,917,000 on 2026-06-25) | −52.0% from the June anchor |
+| Market cap | **About ₩994.5T / ~$684B** (old: ~₩2,070T / ~$1.3T) | The deep-value gap has reopened |
+| TTM P/E | **Stale, not restated** (old caliber ~28x) | The Q2 operating-profit-to-net-profit bridge is undisclosed |
+| P/S | **About 5.3x** (old caliber ~16x) | Below February's 6.3x — but on peak-cycle revenue |
 | Profitability | Q1 2026 operating margin 72% | Extraordinary, but likely closer to cycle peak than normalized margin |
 | Balance sheet | About ₩35T net cash | Reduces solvency risk but does not remove earnings-cycle risk |
 
@@ -313,7 +331,7 @@ SK hynix should be framed like Micron: the question is not whether AI memory dem
 | Base | HBM demand remains supply constrained, but Q1's 72% margin gradually normalizes; HBM4 competition narrows the gap; DRAM/NAND cycle pricing stops accelerating during 2027; the multiple converges toward a high-quality memory leader rather than a monopoly-growth asset | The June 25 price already discounts a generous version of this case: excellent franchise, but limited margin of safety after the rerating | 50% |
 | Bear | Samsung/Micron close HBM4 qualification faster than expected; NVIDIA allocation diversifies; ASPs roll over as 2027 supply catches demand; operating margin falls sharply from 72%; the market re-rates SK hynix as peak-cycle memory | The June 25 price would look rich because peak earnings and peak multiple compress together | 30% |
 
-**What's priced in & the expectation gap:** At ₩2,917,000, about 28x TTM P/E and about 16x sales, the market is underwriting that Q1 2026's HBM-led profit step is not just a spike, but a higher through-cycle plateau. Our base case gives SK hynix credit for durable HBM leadership, yet still assumes the 72% operating margin fades before the market gets another valuation leg. The 20% bull / 50% base / 30% bear grid therefore points to a negative expectation gap: HBM quality is real, but memory mean-reversion risk is not fully priced.
+**What's priced in & the expectation gap (rewritten 2026-07-31):** *Old text, superseded: "At ₩2,917,000, about 28x TTM P/E and about 16x sales, the market is underwriting that Q1 2026's HBM-led profit step is not just a spike, but a higher through-cycle plateau... the expectation gap is negative."* At **₩1,401,000** and about **5.3x TTM sales**, the market is doing close to the opposite: it is pricing the HBM-led profit step as **largely temporary**. **The negative expectation gap asserted here rested on a ~16x multiple and does not survive at ~5.3x.** What the drawdown did *not* do is answer the durability question — a 76% operating margin on peak-cycle revenue is exactly as unproven as before, and a low multiple on peak earnings is the standard memory-cycle trap. So this pass records that the gap's sign is no longer established, keeps the 20/50/30 grid un-re-weighted, and leaves the stance decision to Q1 of the review questions doc.
 
 ## 9. Key Uncertainties, Catalysts & Monitoring Windows
 
@@ -340,7 +358,7 @@ SK hynix should be framed like Micron: the question is not whether AI memory dem
 | Competitive Moat | 8/10 | Tech lead but HBM4 competition rising |
 | Financial Health | 10/10 | Record earnings, ₩35T net cash |
 | Management | 6/10 | Chaebol governance, but capital allocation and returns improving |
-| Valuation | 6/10 | Re-rated from deep value to TTM ~28x / P/S ~16x; margin of safety narrowed |
+| Valuation | 6/10 | **2026-07-31 update: P/S back to ~5.3x (below February's 6.3x), so the valuation margin of safety is restored; but the denominator is peak-cycle revenue, and TTM P/E is stale because the bridge is undisclosed** (old caliber: TTM ~28x / P/S ~16x) |
 | Investability | 8/10 | In addition to the KRX ordinary shares, NASDAQ: SKHY ADSs provide direct U.S.-market exposure from 2026-07-10 |
 | Catalyst Clarity | 8/10 | HBM4 ramp, NVIDIA Rubin, and fab / EUV execution after the SKHY raise |
 
@@ -348,7 +366,7 @@ SK hynix should be framed like Micron: the question is not whether AI memory dem
 
 SK hynix is one of the AI era's most essential "picks and shovels" — if NVIDIA is AI's brain, SK hynix is AI's memory. A single quarter of ₩37.6T operating profit, a 72% margin, and ₩35T net cash prove an extraordinarily powerful earnings machine.
 
-But the nature of the opportunity has changed since February. Back then the core pitch was "a single-digit forward P/E, deeply undervalued." Now the stock is up ~3.5x, market cap has crossed $1.3T, and P/S is ~16x — the deep-value gap has closed. What remains is not "buying it cheap" but judging "how long the peak lasts" — a 72% margin is almost certainly not sustainable through the cycle.
+But the nature of the opportunity has changed since February. Back then the core pitch was "a single-digit forward P/E, deeply undervalued." *Old text, superseded 2026-07-31: "Now the stock is up ~3.5x, market cap has crossed $1.3T, and P/S is ~16x — the deep-value gap has closed."* **After the July −52% drawdown, P/S is ~5.3x — below February's 6.3x — so the valuation margin of safety has in fact been restored.** What remains to judge is not price but cycle position: whether a 76% operating margin on peak-cycle revenue is the right denominator.
 
 **Risk-matching characteristics (descriptive, not investment advice):**
 - Cycle position: currently in the high-boom phase of the memory supercycle, with peak margins and peak valuation together — highly sensitive to the cycle turning
@@ -360,7 +378,7 @@ But the nature of the opportunity has changed since February. Back then the core
 
 SK hynix's chain-validation job is to test whether AI accelerator demand is still converting into scarce HBM bits, memory pricing power, and supplier concentration. If HBM ASPs, NVIDIA allocation, and HBM4 qualification stay tight, downstream AI capacity claims become more credible. If margins or share begin to normalize, the whole memory-storage layer needs to be recalibrated.
 
-The expectation gap is negative: at ₩2,917,000, about 28x TTM P/E and about 16x sales, the market is underwriting a structurally higher HBM profit plateau; our 20% bull / 50% base / 30% bear grid says the franchise is excellent, but the 72% margin is more likely to normalize than expand.
+**2026-07-31 update — this conclusion no longer holds.** The old text read: "The expectation gap is negative: at ₩2,917,000, about 28x TTM P/E and about 16x sales, the market is underwriting a structurally higher HBM profit plateau." At **₩1,401,000** and **P/S ~5.3x** (below February's 6.3x), the multiple that produced that negative gap is gone. The durability question behind the 76% operating margin is entirely untouched by the drawdown, so neither the grid nor the stance was moved; Q3 2026 results and an owner decision are the next steps.
 
 The current stance is **cautious, medium conviction**. The bull case requires HBM scarcity and NVIDIA lock-in to overwhelm the memory cycle for another leg, while the base and bear cases carry meaningful margin and multiple mean-reversion risk. Medium conviction reflects strong evidence on current HBM leadership and Q1 profitability, offset by uncertainty around HBM4 competition, 2027 supply response, Korean governance, and access friction.
 
@@ -379,7 +397,7 @@ Upgrade trigger: move to neutral-watch or constructive if Q2/H2 results show HBM
 | Advanced packaging | 12-18 month lead | Catching up | Relatively behind |
 | Access for U.S. investors | NASDAQ: SKHY ADS / KRX / EWY | KRX / EWY indirect | U.S.-listed direct (MU) |
 
-**Key assumptions:** FY2025 revenue ₩97.1T and operating profit ₩47.2T (49% margin) are the company's reported annual baseline; Q1 2026 actuals (revenue ₩52.6T, operating profit ₩37.6T / 72%, net ₩40.3T, net cash ₩35T) are from the 2026-04-23 results; the valuation anchor is the 2026-06-25 close of ₩2,917,000 / ~₩2,070T market cap (~708M shares); FY2026E earnings are derived from the Q1 run-rate with wide dispersion, and the 72% margin is treated as a cyclical peak; HBM share and market sizes are the February frame, to be refreshed on later disclosures.
+**Key assumptions:** FY2025 revenue ₩97.1T and operating profit ₩47.2T (49% margin) are the company's reported annual baseline; Q1 2026 actuals (revenue ₩52.6T, operating profit ₩37.6T / 72%, net ₩40.3T, net cash ₩35T) are from the 2026-04-23 results; the valuation anchor was re-anchored on 2026-07-31 to the 2026-07-29 close of ₩1,401,000 / ~₩994.5T market cap (~709.9M shares); old caliber was the 2026-06-25 close of ₩2,917,000 / ~₩2,070T; FY2026E earnings are derived from the Q1 run-rate with wide dispersion, and the 72% margin is treated as a cyclical peak; HBM share and market sizes are the February frame, to be refreshed on later disclosures.
 
 **Sources:**
 
@@ -388,7 +406,8 @@ Upgrade trigger: move to neutral-watch or constructive if Q2/H2 results show HBM
 - SK hynix 1Q26 results (2026-04-23): `https://news.skhynix.com/q1-2026-business-results/`
 - SK hynix final ADS terms, estimated net proceeds, and Korean fab / EUV use of proceeds (SEC 424B4, 2026-07-10): `https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm`
 - SK hynix investor relations and quarterly results; KRX/DART disclosures
-- Price / shares / 52-week range: `https://stockanalysis.com/quote/krx/000660/` (000660 ₩2,917,000, ~708M shares → market cap ~₩2,070T on a price × shares basis, 52-week ₩245,000-₩2,986,000, 2026-06-25; the site's own market-cap field lags the latest close)
+- Price / shares / 52-week range (**old source, superseded by the 2026-07-31 re-anchor**): `https://stockanalysis.com/quote/krx/000660/` (000660 ₩2,917,000, ~708M shares → market cap ~₩2,070T on a price × shares basis, 52-week ₩245,000-₩2,986,000, 2026-06-25).
+- **Current price anchor (re-anchored 2026-07-31):** 000660 closed at **₩1,401,000 on 2026-07-29** (last completed session) on ~709.9M shares → market cap ~**₩994.5T**; TTM revenue ~₩189.2T → P/S ~**5.3x**; USD conversion at the 2026-07-29 rate of ~₩1,453/USD. Source: repo price ledger `static/invest/research/data/prices.json` and market-data lookup.
 - Industry HBM share and market sizes are third-party forecasts (February frame); subsequent-quarter figures should be taken from company filings and KRX/DART disclosures
 
 ---

@@ -1,7 +1,7 @@
 # Salesforce (CRM) Deep Research Report
 
 Coverage date: 2026-02-11
-Last updated: 2026-06-25
+Last updated: 2026-07-31
 Ticker: NYSE: CRM
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -16,6 +16,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 ## Executive Summary
 
 **One-Line Thesis:** Salesforce is the undisputed global CRM leader, now embedding AI deeply into its product matrix via Agentforce, transitioning from "selling software" to "selling AI workflows" — ~~but slowing growth and AI monetization pace are the core debates~~ with FY2026 Q4 confirming accelerating AI traction (Agentforce ARR $800M, +169% YoY) though FY2027 guidance slightly disappointed the Street. **2026-06-25 Update:** Stock has crashed from $193 to ~$151 (YTD -40%), Forward P/E from 17x to 11x. The debate has shifted from "slowing growth" to "deep value or value trap." The business fundamentals (CRM dominance + margin expansion + $2.9B AI ARR) are intact, but the market is pricing in near-zero growth.
+
+> **2026-07-31 price check (untracked-coverage review).** CRM closed at **$188.38** on **2026-07-29**, the last completed US session, versus the **$151.00** anchor dated 2026-06-25 — a **+24.8%** move. The dated figures below remain correct as of their labels but are no longer current *levels*; read them as of their dates. This is a +24.8% move UP, close to the report's own 25% rerun threshold, and in the opposite direction to the AI-infrastructure drawdown. The report's June framing described a stock down 40% YTD; that framing is materially less true now. This report has no `priceSymbol`, so it carries no automatic price ledger or drift alert — see Q3 of the review questions doc.
 
 **Investment Verdict:**
 - Lean: Bullish | Conviction: Medium-High

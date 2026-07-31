@@ -1,7 +1,7 @@
 # Hims & Hers Health (NYSE: HIMS) Deep Research Report
 
 Coverage date: 2026-02-13
-Last updated: 2026-06-23
+Last updated: 2026-07-31
 Ticker: NYSE: HIMS
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -13,7 +13,15 @@ This report is the full rerun successor to `hims-2026-pre-rerun`; the archived b
 
 **One-line thesis:** Hims & Hers is the leading U.S. DTC telehealth platform with a powerful subscription engine, but the 2026H1 debate has shifted from an acute GLP-1 regulatory storm to a growth-quality audit: GLP-1/compound-drug durability, Novo/FDA risk, non-GLP-1 retention, and whether growth converts to cash.
 
-**Current view:** Neutral / watchlist. Nasdaq quote data showed HIMS at roughly **$33.54** on June 22, 2026, with market capitalization around **$7.77B** and a 52-week range of about $13.74-$70.43. The stock has recovered well off the February post-selloff trough, but the market cap still requires proof that the core subscription platform can grow beyond the GLP-1 controversy.
+**Current view:** *Old frame, superseded by the 2026-07-31 re-anchor — the price, market cap, enterprise value and every multiple in this paragraph are old-caliber levels:* Neutral / watchlist. Nasdaq quote data showed HIMS at roughly **$33.54** on June 22, 2026, with market capitalization around **$7.77B** and a 52-week range of about $13.74-$70.43. The stock has recovered well off the February post-selloff trough, but the market cap still requires proof that the core subscription platform can grow beyond the GLP-1 controversy.
+
+> **2026-07-31 valuation re-anchor.** HIMS closed at **$25.00** on **2026-07-29** (last completed US session), **−25.5%** from the old $33.54 anchor dated June 22, 2026. On ~251.5M shares that is a market cap of about **$6.29B**, against ~$7.77B before. Measured the same way this report measured, HIMS now trades at about **2.7x** the February FY2025E revenue baseline of ~$2.35B, versus the **~3.3x** stated below.
+>
+> The move crosses this coverage's 25% rerun threshold, but note it is **not** part of the July 2026 AI-infrastructure repricing — HIMS is a consumer-health name and the decline is idiosyncratic. This pass did not establish a cause, and no company disclosure was issued in the window; **Hims & Hers is scheduled to report Q2 2026 on 2026-08-10**, which is the next real evidence.
+>
+> At ~2.7x the revenue baseline the valuation is closer to the ~2.5x low end of the report's own "P/S ex-GLP-1 2.5-4x core revenue" band. Stance stays **neutral / watchlist**: the report's central question was never the multiple but revenue *quality* — the GLP-1 mix, subscriber durability and the regulatory overhang — and none of that was settled by a price decline. Raised under Q1 of the review questions doc.
+>
+> This report has no `priceSymbol`, so it carries no automatic price ledger or drift alert; the drawdown was only found because this pass checked it manually. See Q3 of the review questions doc.
 
 **Changes vs the February report:**
 
@@ -31,10 +39,10 @@ This report is the full rerun successor to `hims-2026-pre-rerun`; the archived b
 
 | Metric | Value |
 |--------|-------|
-| Price (2026-06-22) | ~$33.54 |
-| Market Cap (2026-06-22) | ~$7.77B |
+| Price (2026-07-29, re-anchored) | **~$25.00**; old anchor ~$33.54 (2026-06-22) |
+| Market Cap (2026-07-29, re-anchored) | **~$6.29B**; old caliber ~$7.77B |
 | 52-Week Range | $13.74 - $70.43 |
-| Price / FY2025E Revenue | ~3.3x |
+| Price / FY2025E Revenue | ~(old caliber) 3.3x |
 | FY2025E Revenue | $2.34-2.36B (+58-59% YoY) |
 | Q3 2025 Revenue | $599M (+49% YoY) |
 | Q3 2025 Gross Margin | 74% (vs 79% Q3 2024) |
@@ -77,7 +85,7 @@ Founded in 2017 and public via SPAC in 2021, Hims & Hers operates a direct-to-co
 
 ## 3. Financial Health
 
-The February baseline used roughly $2.35B of FY2025E revenue and ~2.5M subscribers. At ~$7.77B market cap, HIMS trades at ~3.3x that revenue baseline — not extreme, but revenue quality matters more than the headline multiple.
+The February baseline used roughly $2.35B of FY2025E revenue and ~2.5M subscribers. **At the re-anchored ~$6.29B market cap (2026-07-29), HIMS trades at ~2.7x that revenue baseline** (old caliber: ~$7.77B and ~3.3x) — not extreme, but revenue quality matters more than the headline multiple.
 
 **Growth trajectory (February baseline):**
 
@@ -136,7 +144,7 @@ The February baseline used roughly $2.35B of FY2025E revenue and ~2.5M subscribe
 
 ## 8. Valuation
 
-At roughly **$33.54** per share and **$7.77B** market cap, HIMS trades at about **3.3x** the February FY2025E revenue baseline of ~$2.35B. That can be reasonable if core non-GLP-1 growth is durable; it should be discounted if weight-management revenue is mostly a high-risk regulatory window.
+*Old caliber, superseded 2026-07-31: at roughly $33.54 per share and $7.77B market cap, HIMS traded at about 3.3x the February FY2025E revenue baseline of ~$2.35B.* **Re-anchored: at $25.00 and ~$6.29B market cap, HIMS trades at about 2.7x that same ~$2.35B baseline.** That can be reasonable if core non-GLP-1 growth is durable; it should be discounted if weight-management revenue is mostly a high-risk regulatory window.
 
 **Multi-method valuation (framework, February research frame):**
 
@@ -151,7 +159,7 @@ At roughly **$33.54** per share and **$7.77B** market cap, HIMS trades at about 
 
 | Company | P/S (TTM) | Revenue Growth | Gross Margin |
 |---------|-----------|----------------|--------------|
-| HIMS | ~2-3.3x | +49% | 74% |
+| HIMS | ~2-(old caliber) 3.3x | +49% | 74% |
 | Teladoc (TDOC) | ~1x | ~3% | ~68% |
 | LifeMD (LFMD) | ~1.5x | ~30% | ~70% |
 
@@ -171,7 +179,7 @@ Hims' growth far exceeds peers, but the regulatory risk premium compresses its m
 
 Hims is a well-executed DTC telehealth company with 2.5M subscribers and a steadily growing non-GLP-1 core (~70% of revenue). But it faces the dual threat of the Novo patent suit and a DOJ referral, which endanger not just GLP-1 but overall brand credibility, and management's aggressive GLP-1 strategy showed questionable judgment.
 
-**Core tension:** excellent core business vs self-inflicted regulatory trouble. This rerun reframes the stock from an acute GLP-1 binary into a growth-quality audit. This is a monitoring view, not allocation advice: the thesis is highly binary and event-driven; any position should sit within a risk budget appropriate for a high-volatility, event-driven asset rather than a fixed weight. The current $7.77B market cap depends on whether revenue is durable, compliant, and convertible into cash flow. **Confidence: medium.**
+**Core tension:** excellent core business vs self-inflicted regulatory trouble. This rerun reframes the stock from an acute GLP-1 binary into a growth-quality audit. This is a monitoring view, not allocation advice: the thesis is highly binary and event-driven; any position should sit within a risk budget appropriate for a high-volatility, event-driven asset rather than a fixed weight. The current (old caliber) $7.77B market cap depends on whether revenue is durable, compliant, and convertible into cash flow. **Confidence: medium.**
 
 ## 11. Appendix & Sources
 
@@ -182,5 +190,5 @@ Hims is a well-executed DTC telehealth company with 2.5M subscribers and a stead
 - Archived baseline: `hims-2026-pre-rerun`
 - Hims quarterly results: `https://investors.hims.com/financials/quarterly-results/default.aspx`
 - FDA statements/warning letters; Novo Nordisk lawsuit filings (Feb 9, 2026); HHS/DOJ referral (Feb 6, 2026); industry analyst reports.
-- Nasdaq quote API: HIMS $33.54 and roughly $7.77B market cap on June 22, 2026.
+- Nasdaq quote API: HIMS (old caliber) $33.54 and roughly $7.77B market cap on June 22, 2026.
 - IBD coverage of Hims Q1 2026 and guidance: `https://www.investors.com/news/technology/hims-stock-hims-her-health-earnings-q1-2026/`

@@ -1,7 +1,7 @@
 # Constellation Energy Deep Research Report - Nuclear and Calpine Integrated Power Anchor for AI
 
 Coverage date: 2026-07-04
-Last updated: 2026-07-07
+Last updated: 2026-07-31
 Ticker: NASDAQ: CEG
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -14,6 +14,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 **One-line thesis:** Initial coverage of the dispatchable-power common constraint in the AI-infrastructure power layer. Constellation is not a GPU supplier, and it is no longer a pure nuclear story; after closing Calpine on Jan. 7, 2026, it is a nuclear-led integrated power platform with added natural-gas and geothermal capacity. Q1 2026 revenue was $11.12B, net income $1.59B, reported EPS $2.74, nuclear generation about 44,666 GWh, and management maintained 2026 EPS guidance of $11-12. Microsoft/Crane Clean Energy Center (Three Mile Island Unit 1) restart targets 2027, Meta has signed about a 1.1GW nuclear PPA with Constellation, and Calpine adds dispatchable-capacity and powered-land optionality to a roughly 55GW combined platform. At $239.25 (2026-07-02 close), about $85.4B market cap and about $107B enterprise value, the stock already embeds an AI-power scarcity premium. The key checks are PPA execution, Crane restart regulation, Calpine integration, PJM capacity pricing and balance-sheet discipline. Neutral watch / medium conviction: a 30% bull / 50% base / 20% bear grid shows high asset quality and high expectations roughly in balance.
 
 **Current view:** **neutral watch, medium conviction.** CEG is the higher-quality nuclear and dispatchable-capacity anchor in the power layer, but $239.25 already pays a visible premium for nuclear PPAs, Calpine, and PJM capacity scarcity.
+
+> **2026-07-31 price check.** CEG closed at **$257.95** on **2026-07-29** (last completed session) versus the **$239.25** anchor dated below, a **+7.8%** move. The dated anchors below therefore remain accurate to within that margin and the valuation frame, scenario grid, stance and conviction are unchanged. Reviewed and confirmed in the 2026-07-31 full-coverage pass; no edit was required.
 
 | Metric | Current readout |
 | --- | --- |

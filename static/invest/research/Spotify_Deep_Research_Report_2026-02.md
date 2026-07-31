@@ -1,7 +1,7 @@
 # Spotify (NYSE: SPOT) Deep Research Report
 
 Coverage date: 2026-02-10
-Last updated: 2026-06-25
+Last updated: 2026-07-31
 Ticker: NYSE: SPOT
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -10,6 +10,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 ## Executive Summary
 
 **One-Line Thesis:** Spotify has successfully transformed from a chronically unprofitable music streaming platform into a profitable "global audio technology platform," but current valuation still requires digesting high growth expectations even after a significant pullback.
+
+> **2026-07-31 price check (untracked-coverage review).** SPOT closed at **$524.01** on **2026-07-29**, the last completed US session, versus the **$442.28** anchor dated 2026-06-25 — a **+18.5%** move. The dated figures below remain correct as of their labels but are no longer current *levels*; read them as of their dates. Note the direction: Spotify rose over this window while the AI-infrastructure names fell, so the July repricing was not market-wide. This report has no `priceSymbol`, so it carries no automatic price ledger or drift alert — see Q3 of the review questions doc.
 
 **Investment Verdict:**
 - Neutral-to-Bullish | Conviction Level: Medium

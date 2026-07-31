@@ -1,7 +1,7 @@
 # SMH VanEck Semiconductor ETF Deep Research Report - Benchmark Sleeve For The AI Semiconductor Chain
 
 Coverage date: 2026-07-06
-Last updated: 2026-07-06
+Last updated: 2026-07-31
 Ticker: NASDAQ: SMH
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -12,6 +12,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 SMH is the benchmark ETF for the semiconductor side of the AI-infrastructure book. It is not a chain node like ASML, TSMC, NVIDIA, Micron, or Arista. It is a liquid, issuer-defined semiconductor basket that lets the research hub compare single-name thesis risk against broad semis beta.
 
 As of the VanEck issuer page on July 2, 2026, SMH had NAV of $592.26, total net assets of $68.82B, a 0.35% total expense ratio, and a December 20, 2011 inception date. VanEck says the fund seeks to track the MVIS US Listed Semiconductor 25 Index, which covers companies involved in semiconductor production and equipment. Daily holdings as of July 1, 2026 showed 26 holdings, led by NVIDIA 18.41%, TSMC 9.18%, AMD 5.57%, Applied Materials 5.49%, Broadcom 5.49%, Micron 5.39%, KLA 5.10%, Lam Research 4.97%, ASML 4.96%, and Intel 4.92%.
+
+> **2026-07-31 price check.** SMH closed at **$504.22** on **2026-07-29** (last completed session) versus the **$592.29** anchor dated below, a **-14.9%** move. As the benchmark sleeve this is the control reading for the July 2026 chain-wide repricing: the single-name reports in this coverage fell **far more** than the benchmark, so their drawdowns are not explained by semis beta alone. The dated NAV, assets and holdings figures below remain accurate as of their stated dates; the benchmark framing is unchanged.
 
 The current view is **benchmark / neutral control sleeve**. SMH is useful because it captures the whole semis complex in one liquid benchmark, but it should not be treated as proof that any one bottleneck is tight. If a single-name report strongly outperforms or underperforms SMH, that spread becomes a research question: did the company validate a real layer-specific constraint, or did it simply ride the same semiconductor beta?
 

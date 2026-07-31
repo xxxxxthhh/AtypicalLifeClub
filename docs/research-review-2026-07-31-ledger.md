@@ -1,0 +1,208 @@
+# Full research review pass — 2026-07-31
+
+Branch: `codex/full-report-review-2026-07-31`
+
+Scope: all **47 live reports** in `static/invest/research/data/reports.json`
+(56 entries minus 9 `*-pre-rerun` archival versions). **All 47 were reviewed and carry `lastUpdate: 2026-07-31`.**
+
+## Method and the two data-integrity findings that shaped this pass
+
+**1. The July 2026 drawdown is real, not a data artifact.** The whole pass rests on
+`prices.json` drift, so the drift was verified before anything was written. For every large
+mover (SK hynix, SNDK, AAOI, BE, GLW, MRVL) the daily series was pulled across the
+`baseDate`→now window and checked for corporate actions: **no splits, no consolidations,
+no symbol changes**, and the declines are continuous rather than single-day discontinuities.
+Re-running `update_prices.py` left every `baseDate`/`basePrice` anchor unchanged, confirming
+the drift is a genuine price move and not a re-derived base.
+
+**2. The price ledger was pinned to the last completed session.**
+`update_prices.py` takes `attempted_at = datetime.now(timezone.utc).date()` and fetches
+through that day inclusive, with no guard for a session still in progress. Run during US
+market hours it records **live intraday bars as if they were closes**. This pass pins the
+ledger to **2026-07-29**, the last completed US session. (Meta shows why it matters: a true
+07-29 close of $585.61 against a moving 07-30 intraday print of ~$532.80.)
+
+> Follow-up worth considering separately: add a completed-session guard to `update_prices.py`
+> so the daily job cannot record an in-progress bar.
+
+## Earnings status — the key scoping finding
+
+An earnings calendar was built for all covered tickers rather than checking company by
+company. Using "has an actual reported EPS" as the test for *reported* (a scheduled date with
+`eps=nan` is **not** a report):
+
+- **Only one report had an un-integrated reported quarter: `bloom-energy-2026`.**
+  Bloom reported 2026-07-28; the report's `lastUpdate` was 2026-07-07.
+- Every other late-July reporter had already been integrated by the 07-28/07-30 commits
+  (Corning, KLA, Cadence, DLR, PayPal, Vertiv, Lam, Meta, Equinix, SK hynix, GE Vernova,
+  TSMC, ASML, Netflix).
+- **Tempus, Coinbase and Amazon had NOT reported** at the time of this pass — their
+  2026-07-30 dates are scheduled, after the close.
+
+So this pass is overwhelmingly a **valuation-staleness review**, not an earnings-integration
+review.
+
+## Drift vs each report's frozen `priceAsOf` anchor (2026-07-29 closes)
+
+17 reports exceed the repo's own rerun threshold (`tracking-rules.js`: drift ≥25% or age >60d).
+
+| Report | Drift | Anchor → 07-29 close | versionType |
+|---|---|---|---|
+| aaoi-2026 | −55.3% | 171.23 → 76.52 | initial |
+| sk-hynix-2026 | −52.0% | ₩2,917,000 → ₩1,401,000 | full-cycle |
+| sandisk-2026 | −51.4% | 2090.71 → 1015.89 | initial |
+| bloom-energy-2026 | −44.5% | 295.05 → 163.75 | full-cycle |
+| corning-2026 | −43.9% | 221.05 → 124.05 | initial |
+| marvell-2026 | −33.4% | 245.23 → 163.40 | initial |
+| coherent-2026 | −33.4% | 333.36 → 222.05 | initial |
+| almonty-2026 | −32.4% | 16.21 → 10.95 | full-cycle |
+| nebius-2026 | −30.4% | 213.02 → 148.22 | initial |
+| coreweave-2026 | −29.7% | 86.46 → 60.82 | initial |
+| oklo-2026 | −29.6% | 52.36 → 36.84 | full-cycle |
+| lam-research-2026 | −28.2% | 351.41 → 252.35 | initial |
+| kla-2026 | −27.7% | 235.55 → 170.19 | initial |
+| neov-2026 | −27.6% | 2.72 → 1.97 | incremental |
+| applied-materials-2026 | −27.6% | 603.04 → 436.45 | initial |
+| vertiv-2026 | −27.3% | 306.97 → 223.04 | initial |
+| micron-2026 | −24.2% | 975.41 → 739.00 | initial |
+
+Mid-drift (10–25%): amd −20.1, minimax −18.3, oracle −17.8, jinpan −17.2, smh −14.9,
+synopsys −14.5, gevernova −13.9, tsmc −13.7, asml −12.2, cadence −10.8.
+Low-drift (<10%): nrg −9.1, dlr +8.6, ceg +7.8, vistra −5.5, arista −3.7, copx −3.0,
+meta −2.4, broadcom −2.3, nvidia −1.3, eqix +0.6.
+Untracked (no `priceSymbol`, no drift signal): tempus-ai, spotify, salesforce, paypal,
+netflix, igv, hims, coinbase, amzn, airbnb.
+
+## Edit rules applied
+
+- **`versionType=full-cycle` → no `~~` strikethrough in the body** (skill rule, enforced by
+  `check_research_package.py`). Use a dated `> **YYYY-MM-DD ... update:**` block, matching the
+  SK hynix house pattern. Affects: tempus-ai, sk-hynix, almonty, hims, bloom-energy, coinbase,
+  amd, jinpan, oklo.
+- **`initial` / `incremental` → redline allowed** (`~~old~~` + dated replacement), matching the
+  Lam Research house pattern.
+- **Re-anchoring `priceAsOf` without addressing the scenario grid is forbidden here.** It would
+  reset drift to ~0 and silently drop the report off the rerun queue while leaving an
+  un-rebuilt grid live — strictly worse than leaving it queued. Where the math is re-anchored
+  but the scenario *weights* and *stance* are not re-judged, an explicit monitoring marker is
+  added so the report stays visible as unfinished.
+- **Stance changes are not made silently.** Re-anchoring valuation math is mechanical and is
+  done here; re-weighting a scenario grid or flipping a stance is an editorial judgment and is
+  raised in `research-review-2026-07-31-questions.md` instead.
+
+## Tiering — how much treatment each report gets
+
+Uniform treatment would be wrong, not just slow. Stamping "scenario grid stale" on a report that
+moved −2% devalues the marker exactly where it matters. Reports are tiered by whether the drawdown
+broke a *conclusion*, merely a *number*, or nothing:
+
+- **Tier A — conclusion broken** (drift ≥25%, 17 reports). Full treatment: re-anchor price, market
+  cap, EV and every derived multiple; mark the scenario grid's relative verdicts stale; add a
+  `scenario-grid-reweight-pending` monitoring item; move `priceAsOf`; raise the stance under Q1.
+- **Tier B — number stale, conclusion intact** (drift 10–25%). Update the price/market-cap/multiple
+  strings and the date. **No grid marker, no stance question, no pending-monitoring item, and
+  `priceAsOf` is NOT moved** — moving it would reset drift to ~0 and drop the report off the rerun
+  queue without the re-anchor work having been done.
+- **Tier C — nothing material moved** (drift <10%). Confirm no price reads as a current claim; many
+  already carry frozen-snapshot labels from the July passes. Often zero edits.
+- **Untracked (10)** — no `priceSymbol`, no drift signal. Earnings are mostly already integrated;
+  the work is confirming no stale valuation claim reads as live.
+
+## Marker vocabulary (enforced by the checker)
+
+`check_research_package.py` only accepts these as "this value is old" markers:
+`~~ | update | updated | stale | historical | old | 旧 | 历史 | 更新 | 失效 | 不能再 | 需重算 | 需重建`.
+**"prior" / "此前" / "重新锚定" / "原文" do NOT count** and will fail the valuation-sensitive run.
+Standardised on **"old"** (EN) and **"旧"** (ZH).
+
+Two further checker constraints found the hard way:
+- The **last scenario-grid cell must be a bare integer weight** — annotate the header, never the cell.
+- **Metadata has no allowlist.** `summary`, `highlights`, `lastUpdate`, `title`, `titleEn` must not
+  contain old anchors at all. `stanceRationale` and `monitoring[]` are *not* scanned, so they may
+  (and should) retain the old figures to explain the change.
+
+## Per-report status
+
+Status: `done` / `pending` / `raised` (waiting on a question).
+
+| Report | Tier | Action | Status |
+|---|---|---|---|
+| bloom-energy-2026 | A | Q2 2026 integration + re-anchor $295.05→$163.75, ~26x→~11.9x | done (stance raised in Q1) |
+| aaoi-2026 | A | re-anchor $171.23→$76.52, EV/S ~26.6x→~11.7x | done (stance raised in Q1) |
+| sandisk-2026 | A | re-anchor $2,090.71→$1,015.89, P/S ~16x→~7.8x; expectation gap **inverted** | done (stance raised in Q1) |
+| sk-hynix-2026 | A | re-anchor ₩2,917,000→₩1,401,000; P/S ~16x→~5.3x, now **below** February's 6.3x; TTM P/E left stale (bridge undisclosed) | done (stance raised in Q1) |
+| corning-2026 | A | re-anchor $221.05→$124.05; fwd P/E ~71x→~39.8x; "richest multiple in coverage" claim retired; sell-side-target bear pillar inverted | done (stance raised in Q1) |
+| marvell-2026 | A | re-anchor $245.29→$163.40; EV/Sales ~19x→~12.6x (FY2027E) | done (stance raised in Q1) |
+| coherent-2026 | A | re-anchor $333.36→$222.05 (−33.4%); P/S ~6.6x, EV/S ~6.7x | done |
+| nebius-2026 | A | re-anchor $213.02→$148.22 (−30.4%); P/S ~37.2x | done |
+| coreweave-2026 | A | re-anchor $86.46→$60.82 (−29.7%); on ~$35.1B debt the EV multiple fell far less than the share price | done |
+| oklo-2026 | A | re-anchor $52.36→$36.84 (−29.6%); pre-revenue, so ~$2.2B cash vs ~$6.4B cap makes most of the value the deployment option | done |
+| lam-research-2026 | A | re-anchor $351.41→$252.35 (−28.2%); supplies the price refresh the 07-30 monitoring note explicitly deferred | done |
+| kla-2026 | A | re-anchor $235.55→$170.19 (−27.7%); Q4 FY2026 operating data from 07-28 unchanged | done |
+| applied-materials-2026 | A | re-anchor $603.04→$436.45 (−27.6%); P/S ~11.9x | done |
+| vertiv-2026 | A | re-anchor $306.97→$223.04 (−27.3%); Q2 data from 07-30 unchanged | done |
+| micron-2026 | A | re-anchor $975.41→$739.00 (−24.2%); peak-cycle margin caution unaffected by a price move | done |
+| neov-2026 | A | re-anchor $2.72→$1.97 (−27.6%); micro-cap, <$100M, thin liquidity — price carries little information | done |
+| almonty-2026 | A | re-anchor $16.21→$10.95 (−32.4%); ~62x sales is a placeholder for the Sangdong ramp, NAV framing remains the right lens | done |
+| amd, minimax, oracle, jinpan, smh, synopsys, gevernova, tsmc, asml, cadence | B | dated 2026-07-31 price-check note in both languages + summary prefix with the 07-29 close; `priceAsOf` deliberately NOT moved | done |
+| nrg, dlr, ceg, vistra, arista, copx, meta, broadcom, nvidia, eqix | C | verified: existing anchors are properly dated and within noise; dated confirmation note added, no analytical edit required | done |
+| hims-2026 | untracked / A | **−25.5%**, found only by manual check. Re-anchored $33.54→$25.00, ~3.3x→~2.7x the FY2025E revenue baseline. Idiosyncratic, NOT part of the AI-infra repricing | done (stance raised in Q1) |
+| salesforce-2026 | untracked / B | **+24.8% UP** — near the rerun threshold and opposite in direction; the report's "down 40% YTD" framing is materially less true | done |
+| spotify-2026 | untracked / B | +18.5% up; direction confirms the July repricing was not market-wide | done |
+| tempus-ai-2026 | untracked / B | −14.2%; reports Q2 after the close on 2026-07-30, hours after this anchor | done |
+| paypal-2026 | untracked / C | +3.2% from its own 2026-07-17 anchor. Q2 already integrated 07-28; Stripe/Advent $60.50 offer already flagged and the fundamentals-based fair-value framework already suspended | done |
+| netflix-2026 | untracked / C | +2.5%. Verified the 10-for-1 split (2025-11-17) predates coverage, so no split adjustment needed | done |
+| coinbase-2026, amzn-2026 | untracked / C | −2.9% / −0.7%; both report after the close on 2026-07-30, hours after this anchor | done |
+| igv-2026, airbnb-2026 | untracked / C | +7.2% / +7.1%; dated anchors within noise | done |
+
+## Chain-level signal
+
+Logged **once**, not per report: `ai-infra-chain-wide-repricing-2026-07` in `signals.json`, against a
+new `chain-wide-repricing` rule added to `coverage-map.json` (the framework had no rule covering a
+simultaneous multi-layer repricing). A single name's post-earnings move remains non-loggable per
+existing convention.
+
+
+## Completion
+
+**47 / 47 live reports reviewed and updated**, every one bilingual and validated.
+
+Verification run on the finished branch:
+- `validate_reports.py`, `validate_prices.py`, `validate_verdicts.py`, `validate_coverage_map.py` — all pass.
+- `check_research_package.py` across **all 47** reports — 0 failures.
+- `check_research_package.py --valuation-sensitive` on every Tier A report — passes, with the
+  current price required in both language files and the old anchor asserted absent from metadata.
+- `generate_feed.py` regenerated; verdict ledger and calibration history rebuilt off the refreshed
+  price ledger.
+- Full-cycle bodies (bloom, sk-hynix, almonty, oklo, hims, coinbase, amd, jinpan, tempus-ai) confirmed
+  free of `~~` strikethrough, as the skill requires.
+
+**What was deliberately NOT done, and why:** no stance was changed and no scenario grid was
+re-weighted. The drawdown changed the price being paid; it did not answer any of the execution
+questions the stances rest on. That judgment belongs to the owner and is Q1 of the questions doc.
+
+
+## Corrections made during final review
+
+Three issues were caught in review after the main pass and fixed on this branch:
+
+1. **Summary/highlights content loss on the last 11 Tier A reports (regression, fixed).** The
+   batch metadata script *replaced* `summary`/`summaryEn`/`highlights` rather than prefixing them,
+   which deleted just-integrated earnings content — worst on `lam-research-2026` (June-quarter
+   record: revenue $6.72B, non-GAAP EPS $1.82, $8.10B September guide), `kla-2026` (FY2026 Q4) and
+   `vertiv-2026` (Q2 2026). Restored from the prior commit and re-applied with the **prefix**
+   pattern already used for Tier B, so the re-anchor facts lead and the company substance is kept.
+   No shape check could have caught this: they verify that stale anchors are *absent*, never that
+   content is *present*.
+
+2. **`prices.json` anchors contradicted the new `priceAsOf` (fixed).** Moving `priceAsOf` to
+   2026-07-29 on 17 re-anchored reports left the ledger still holding the June/early-July
+   `baseDate`/`basePrice`, so the hub would have rendered e.g. "Corning −43.9% since anchor"
+   against a report whose stated anchor *is* the current price. `validate_prices.py` does not
+   cross-check those two fields. Re-ran the pinned price/verdict/calibration scripts; all 17 now
+   show `baseDate 2026-07-29` and ~0% drift, which is the correct post-re-anchor state.
+
+3. **Automated markers left derived figures reading as live (fixed).** The residual-marking helper
+   tagged the old *price* on a line but left market cap, EV and multiples in the same sentence
+   looking current. 43 prose lines were rescoped so the whole paragraph is labelled old-caliber,
+   rather than just the price token inside it.

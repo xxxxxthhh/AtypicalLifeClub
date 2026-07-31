@@ -1,7 +1,7 @@
 # Jinpan Technology (688676.SH) Deep Research Report
 
 Coverage date: 2026-02-03
-Last updated: 2026-07-07
+Last updated: 2026-07-31
 Ticker: 688676.SH
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -14,6 +14,8 @@ This report is the full rerun successor to `jinpan-2026-pre-rerun`; the archived
 **One-line thesis:** Jinpan is a hidden champion in dry-type transformers, upgrading from a traditional manufacturer to a power-equipment solutions provider via AI data centers (AIDC) and solid-state transformers (SST). The 2026H1 debate has shifted from "can the AI/SST story be discovered" to "can a demanding valuation be supported by order conversion, cash flow, and receivable quality."
 
 **Current view:** Neutral watch, medium conviction. `prices.json` shows the stock at **RMB 83.53** on Jul 7, 2026; using the Jun 23 price / market-cap frame implies roughly **RMB 38.4B** of current market cap. AIDC, SST, overseas capacity, and potential H-share financing still provide AI-power-equipment optionality, but the current price already asks orders, collections, margin, and capacity to validate together.
+
+> **2026-07-31 price check (no new quarter integrated in this pass).** 688676.SS closed at **68.04** on **2026-07-29**, the last completed session, versus the **82.22** anchor dated below — a **-17.2%** move during the verified July 2026 chain-wide AI-infrastructure repricing. The dated price, market-cap and multiple figures below remain correct **as of their stated dates** and are not rewritten here, but they are no longer current *levels*; read them as of their labels. The drift is below this report's own rerun threshold (25%), so the valuation frame, scenario grid, stance and conviction are unchanged and `priceAsOf` is deliberately left in place so the report stays in the normal rerun queue.
 
 **Changes vs the February report:**
 

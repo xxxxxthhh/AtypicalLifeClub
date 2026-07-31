@@ -1,7 +1,7 @@
 # Applied Materials Deep Research Report - Broad Semicap Dashboard For AI Capacity Buildout
 
 Coverage date: 2026-07-05
-Last updated: 2026-07-07
+Last updated: 2026-07-31
 Ticker: NASDAQ: AMAT
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -11,7 +11,11 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 > **Framework role:** Applied Materials is the dashboard for the AI-infrastructure semiconductor equipment layer. The report's job is to test the chain signal, not to turn one company print into a recommendation.
 
-**One-line thesis:** Broad equipment dashboard for the AI-infrastructure semicap-equipment layer. AMAT tests whether AI demand is spreading beyond EUV into deposition, etch, advanced packaging, DRAM, and services. Q2 FY2026 revenue was $7.91B, GAAP gross margin was 49.9%, and non-GAAP EPS was $2.86; Semiconductor Systems revenue was $5.965B, with foundry/logic/other at 67% and DRAM at 29%. Q3 guidance is $8.950B revenue +/- $500M and non-GAAP EPS of $3.36 +/- $0.20. At $603.04, about $478.8B market cap and $477.8B EV, AMAT trades around 13.3x EV/Q3 annualized sales and 36.8x forward EPS. Cautious / medium conviction: the upcycle is strong, but China/Taiwan exposure and valuation tolerance leave the scenario skew mildly negative.
+**One-line thesis:** Broad equipment dashboard for the AI-infrastructure semicap-equipment layer. AMAT tests whether AI demand is spreading beyond EUV into deposition, etch, advanced packaging, DRAM, and services. Q2 FY2026 revenue was $7.91B, GAAP gross margin was 49.9%, and non-GAAP EPS was $2.86; Semiconductor Systems revenue was $5.965B, with foundry/logic/other at 67% and DRAM at 29%. Q3 guidance is $8.950B revenue +/- $500M and non-GAAP EPS of $3.36 +/- $0.20. At (old caliber) $603.04, about $478.8B market cap and $477.8B EV, AMAT trades around 13.3x EV/Q3 annualized sales and 36.8x forward EPS. Cautious / medium conviction: the upcycle is strong, but China/Taiwan exposure and valuation tolerance leave the scenario skew mildly negative.
+
+> **2026-07-31 valuation re-anchor.** AMAT closed at **$436.45** on **2026-07-29**, the last completed session, **-27.6%** from the old $603.04 anchor dated 2026-07-02. This is part of the verified July 2026 chain-wide AI-infrastructure repricing — checked for corporate actions and confirmed a real price move. Recomputed at the new price: market cap about **$346.5B**, enterprise value about **$345.6B**, P/S (TTM) about **11.9x**, EV/Sales (TTM) about **11.9x**. The dated price, market-cap and multiple figures below are **superseded as levels**; read them as of their labels.
+>
+> The scenario grid's relative verdicts and probability weights were written against the old price and are **not re-weighted here** — the drawdown changed what is being paid, not the execution questions the grid is about. Stance and conviction are unchanged and raised under Q1 of the review questions doc. Applied Materials reports fiscal Q3 2026 on 2026-08-13.
 
 **Current view:** **cautious / medium conviction.** AMAT is the broadest WFE dashboard in this batch, but at the July 2 price the market is already paying for AI demand to spread through deposition, etch, advanced packaging, DRAM, and services while China/Taiwan exposure stays manageable.
 
@@ -20,7 +24,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Report id | applied-materials-2026 |
 | Chain layer / role | semicap-equipment / dashboard |
 | Latest reported period | FY2026 Q2 |
-| Price snapshot | $603.04 as of 2026-07-02 |
+| Price snapshot | (old caliber) $603.04 as of 2026-07-02 |
 | Coverage tier after this upgrade | full |
 | Stance | cautious / medium conviction |
 | Primary valuation use | scenario context and risk tolerance, not a target price |
@@ -62,7 +66,7 @@ The financial section converts the prose fact base into a repeatable scorecard. 
 | Margin / profitability | Use the current reported period and company-disclosed margin or EPS figures in the source notes | Tests whether growth is profitable or merely volume-led | B+ |
 | Cash flow / balance sheet | Debt, cash, FCF, AFFO, EBITDA, or buyback context preserved from the original report where disclosed | Determines whether the company can fund the cycle | B |
 | Backlog / bookings / RPO | Q3 guidance revenue $8.950B +/- $500M and non-GAAP EPS $3.36 +/- $0.20 | Separates committed demand from narrative demand | B+ |
-| Valuation tolerance | Current price context: $603.04 | High expectation names need cleaner execution | Caution |
+| Valuation tolerance | Current price context: (old caliber) $603.04 | High expectation names need cleaner execution | Caution |
 
 ## 4. Management And Caliber Check
 
@@ -96,10 +100,10 @@ The bear case is the strongest version of why the report's chain signal could be
 
 | Bear driver | Risk evidence | Thesis-breaking signal |
 | --- | --- | --- |
-| Expectation risk | Current price context $603.04 | Good company performance no longer beats embedded expectations |
+| Expectation risk | Current price context (old caliber) $603.04 | Good company performance no longer beats embedded expectations |
 | Chain divergence | Adjacent reports fail to confirm the same signal | The bottleneck sits elsewhere or demand was pulled forward |
 | Execution risk | Guidance, backlog, or capacity conversion slows | Reported evidence stops supporting the role |
-| Valuation compression | Bear context $422.13; base context $603.04 | Multiple contracts before the long-term story changes |
+| Valuation compression | Bear context $422.13; base context (old caliber) $603.04 | Multiple contracts before the long-term story changes |
 
 The bearish read should not ignore quality. It asks whether quality is already capitalized and whether the report is overclaiming what the current evidence can prove.
 
@@ -121,7 +125,7 @@ Thesis breakers:
 
 ## 8. Valuation Context
 
-Valuation is used as risk context, not as a recommendation. The v5 question is whether the $603.04 dated price already assumes too much broad WFE pull-through from AI demand.
+*Old frame, superseded by the 2026-07-31 re-anchor — the price, market cap, enterprise value and every multiple in this paragraph are old-caliber levels:* Valuation is used as risk context, not as a recommendation. The v5 question is whether the $603.04 dated price already assumes too much broad WFE pull-through from AI demand.
 
 **Scenario grid:**
 
@@ -131,7 +135,7 @@ Valuation is used as risk context, not as a recommendation. The v5 question is w
 | Base | Q3 revenue lands near the $8.95B midpoint; foundry/logic and DRAM both stay healthy; services cushion cyclicality; China/Taiwan exposure remains manageable but caps upside; EV/sales normalizes toward high single digits to low teens | Current price already prices the optimistic end of this case, leaving limited margin for ordinary equipment-cycle disappointment | 50% |
 | Bear | Export controls or customer timing hit China/Taiwan revenue; foundry/logic or DRAM orders normalize; advanced packaging is not enough to offset a WFE pause; inventory and supply-chain build become destocking risk; the multiple resets toward cycle averages | Current price would be rich because the denominator and multiple would both move against the thesis | 30% |
 
-**What's priced in & the expectation gap:** At $603.04, about $477.8B EV, 13.3x EV/Q3 annualized sales, and roughly 36.8x forward EPS, the market is already underwriting a broad WFE upcycle, not merely a single-quarter beat. If a through-cycle equipment frame is closer to 8-10x annualized revenue and investors require about 8% annually, AMAT needs sustained high-teens revenue compounding or a durable low-teens sales multiple. Our 20% bull / 50% base / 30% bear grid puts the weighted view slightly below that embedded expectation because China/Taiwan exposure and multiple tolerance remain elevated. This is an expectations frame, not a target price.
+**What's priced in & the expectation gap:** *Old frame, superseded by the 2026-07-31 re-anchor — the price, market cap, enterprise value and every multiple in this paragraph are old-caliber levels:* At $603.04, about $477.8B EV, 13.3x EV/Q3 annualized sales, and roughly 36.8x forward EPS, the market is already underwriting a broad WFE upcycle, not merely a single-quarter beat. If a through-cycle equipment frame is closer to 8-10x annualized revenue and investors require about 8% annually, AMAT needs sustained high-teens revenue compounding or a durable low-teens sales multiple. Our 20% bull / 50% base / 30% bear grid puts the weighted view slightly below that embedded expectation because China/Taiwan exposure and multiple tolerance remain elevated. This is an expectations frame, not a target price.
 
 ## 9. Catalysts And Monitoring
 
@@ -156,7 +160,7 @@ These are the items that should drive future reruns. A monitoring update should 
 
 Applied Materials' chain-validation job is unchanged: it tests whether AI capex is broadening from EUV into deposition, etch, advanced packaging, DRAM, and services rather than remaining a narrow bottleneck story.
 
-The expectation gap is mildly negative: at $603.04, about 13.3x EV/Q3 annualized sales and roughly 36.8x forward EPS, the market already prices a broad WFE upcycle; our 20% bull / 50% base / 30% bear grid leaves the weighted view slightly below that embedded expectation.
+*Old frame, superseded by the 2026-07-31 re-anchor — the price, market cap, enterprise value and every multiple in this paragraph are old-caliber levels:* The expectation gap is mildly negative: at $603.04, about 13.3x EV/Q3 annualized sales and roughly 36.8x forward EPS, the market already prices a broad WFE upcycle; our 20% bull / 50% base / 30% bear grid leaves the weighted view slightly below that embedded expectation.
 
 The current stance is **cautious, medium conviction**. Cautious reflects scenario skew, not a poor business read: AMAT's breadth is valuable, but the base case already needs strong Q3 conversion, healthy foundry/logic and DRAM mix, and no China/Taiwan shock. Medium conviction reflects the solid Q2 evidence and explicit Q3 guide, offset by the still-cyclical WFE denominator.
 
