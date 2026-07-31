@@ -15,7 +15,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 **Verdict:** **Neutral watch / medium conviction: high quality, mostly priced in.** Consistent with this center's stance on NVIDIA, AMD and SK hynix. Broadcom's moat (custom-ASIC design IP + networking + software stickiness) is real, and the two-engine model (AI silicon growth + VMware cash) is strong; but the core tension is that a **$1.84T market cap already prices in a >$100B AI number that is back-end-loaded to FY2027 and tied to a small set of publicly reported customer programs**. Like NVIDIA, the risk is not the multiple itself but the denominator: AI capex and custom-silicon order conversion.
 
-**Current market read (as of 2026-06-25):** AVGO last traded around **$387.84**; on ~**4.74B** shares, market cap is ~**$1.84T**. Forward P/E is ~**34x**, between NVIDIA (~25x) and AMD (~58x). Sell-side targets are sentiment inputs only, not valuation anchors for this report. Quote sources: [StockAnalysis AVGO](https://stockanalysis.com/stocks/avgo/), [Yahoo Finance AVGO](https://finance.yahoo.com/quote/AVGO/); financial source: [Broadcom Q2 FY2026 press release](https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial).
+**Current market read (2026-07-30 close):** AVGO closed at **$387.84**; on ~**4.74B** shares, market cap is ~**$1.84T**. Forward P/E is ~**34x**, between NVIDIA (~25x) and AMD (~58x). Sell-side targets are sentiment inputs only, not valuation anchors for this report. Quote sources: [StockAnalysis AVGO](https://stockanalysis.com/stocks/avgo/), [Yahoo Finance AVGO](https://finance.yahoo.com/quote/AVGO/); financial source: [Broadcom Q2 FY2026 press release](https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial).
 
 > **Old price-check note — stale as written, superseded by the re-adjudication below.** ~~2026-07-31 price check: AVGO closed at $370.32 on 2026-07-29 versus the $378.91 anchor, a -2.3% move, so the dated anchors below remain accurate within that margin and the valuation frame, scenario grid, stance and conviction are unchanged; no edit was required.~~
 
@@ -153,7 +153,7 @@ CEO **Hock Tan** is one of the most successful M&A integrators in semiconductor 
 
 ## 8. Valuation Context
 
-The following is valuation context, not a recommendation. `prices.json` records the dated price anchor as **$387.84** on **2026-06-25**.
+The following is valuation context, not a recommendation. `prices.json` records the current price anchor as **$387.84** on **2026-07-30**.
 
 | Method | Current readout | Interpretation |
 |--------|-----------------|----------------|
@@ -165,7 +165,7 @@ The following is valuation context, not a recommendation. `prices.json` records 
 
 **Scenario grid:**
 
-| Scenario | Driver assumptions (AI delivery / VMware cash / customer concentration / multiple regime) | Valuation implication vs the $387.84 dated price | Probability weight |
+| Scenario | Driver assumptions (AI delivery / VMware cash / customer concentration / multiple regime) | Valuation implication vs the $387.84 current price (2026-07-30) | Probability weight |
 |----------|---------------------------------------------------------------------------------------------|---------------------------------------------------|--------------------|
 | Bull | The six publicly reported XPU customer programs ship on time, additional customers join, FY2027 AI semis exceed $100B, VMware retention holds, non-GAAP operating margin remains around the high-60s, and the market keeps paying a low-30s earnings multiple | The current price can still be fair-to-slightly cheap because the denominator would grow into the premium | 30% |
 | Base | AI orders deliver broadly on schedule with some slippage; FY2027 AI approaches but does not necessarily exceed $100B; VMware cash funds deleveraging; customer concentration stays high; the multiple holds around the low-30s only if backlog conversion remains visible | The current price is broadly fair and highly evidence-dependent: the stock should track AI-revenue delivery more than multiple expansion | 50% |
@@ -211,8 +211,8 @@ Upgrade trigger: move to constructive if Q3/Q4 AI semi revenue and backlog conve
 - Custom XPU customers & FY2027 target: public reporting and breakdowns (2026 H1, incl. Tom's Hardware, Jon Peddie)
 
 **Key assumptions & basis:**
-- Market cap estimated at ~4.74B shares × $387.84 (share count as of 2025-11-28); sources put market cap in the ~$1.79-1.87T range depending on date.
+- Market cap estimated at ~4.74B shares × $387.84, the 2026-07-30 close (share count as of 2025-11-28); sources put market cap in the ~$1.79-1.87T range depending on date.
 - TTM revenue ≈ FY2025 $63.89B − H1 FY2025 ~$29.96B + H1 FY2026 ($19.31B + $22.19B) ≈ ~$75B; EV adds back ~$45B net debt (total debt $64.9B − Q2 quarter-end cash of $19.63B).
-- Forward P/E ~34x (Yahoo, 2026-06-24), NVIDIA ~25x, AMD ~58x reflect a mid-2026 market read and move with price and expectations.
+- Forward P/E ~34x is computed at the 2026-07-30 close on the same forward-EPS base; the NVIDIA ~25x and AMD ~58x comparators are the older Yahoo 2026-06-24 read and move with price and expectations.
 - The 6-customer XPU list, $73B backlog and per-customer GW commitments are public-reporting estimates; some orders (e.g. the OpenAI $10B) are not officially confirmed. Reconcile to the latest results/official disclosure at the next review.
 - This report is **initial coverage**; it includes no prior-cycle comparison. Refresh price, guidance and valuation anchors once subsequent quarters are disclosed.

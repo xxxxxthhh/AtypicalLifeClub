@@ -167,7 +167,7 @@ The Q4/FY2025 release also highlighted operational milestones that matter for cr
 
 ## 8. Valuation Context
 
-Using the July 30, 2026 market cap of about **$215.3B** and Q1 2026 cash/securities of about **$12.35B**, enterprise value is about **$203B**. With **1.259B** shares outstanding at April 30, 2026, the market cap implies a stock price of roughly **$164/share**; `prices.json` records the dated anchor as **$171.02** on **2026-06-29**.
+Using the July 30, 2026 market cap of about **$215.3B** and Q1 2026 cash/securities of about **$12.35B**, enterprise value is about **$203B**. With **1.259B** shares outstanding at April 30, 2026, the market cap implies a stock price of roughly **$171/share**; `prices.json` records the current anchor as **$171.02** on **2026-07-30**.
 
 | Metric | Approximate value | Comment |
 |----|----|----|
