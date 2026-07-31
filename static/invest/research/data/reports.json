@@ -39,7 +39,7 @@
     "priceSymbol": "ASML",
     "title": "ASML 深度研究报告 - EUV / High-NA 作为设备层公共约束",
     "titleEn": "ASML Deep Research Report - EUV / High-NA as the Equipment-Layer Common Constraint",
-    "summary": "AI 基础设施 semicap-equipment 层的公共约束：ASML 验证 foundry / memory capex 是否真正穿过光刻、EUV、High-NA、长期协议和出口管制这道最硬瓶颈。Q2 2026 net sales EUR 9.326B、gross margin 54.0%、net income EUR 2.918B；FY2026 指引第二次上调至 net sales EUR 43-45B、gross margin 54-56%，并计划把 2027 年 low-NA EUV 与 DUV immersion 产能各较 2026 年增加 30%。本次监测没有季度 net bookings 或 backlog 披露，因此只加强设备侧确认，不证明客户特定 capex 已全部承诺。2026-07-31 重新锚定至 2026-07-30 收盘 ADR $1,651.44、市值约 $636.5B、约 14.6x EV/2026E sales（旧口径约 15.6x）；倍数仍高于基准情景所设的高个位数至低十几倍区间，且立场并不主要依赖倍数，维持中性观察 / 中确信。",
+    "summary": "AI 基础设施 semicap-equipment 层的公共约束：ASML 验证 foundry / memory capex 是否真正穿过光刻、EUV、High-NA、长期协议和出口管制这道最硬瓶颈。Q2 2026 net sales EUR 9.326B、gross margin 54.0%、net income EUR 2.918B；FY2026 指引第二次上调至 net sales EUR 43-45B、gross margin 54-56%，并计划把 2027 年 low-NA EUV 与 DUV immersion 产能各较 2026 年增加 30%。本次监测没有季度 net bookings 或 backlog 披露，因此只加强设备侧确认，不证明客户特定 capex 已全部承诺。2026-07-31 重新锚定至 2026-07-30 收盘 ADR $1,651.44、市值约 $636.5B、约 14.6x EV/2026E sales；倍数仍高于基准情景所设的高个位数至低十几倍区间，且立场并不主要依赖倍数，维持中性观察 / 中确信。",
     "summaryEn": "Common-constraint coverage for the AI-infrastructure semicap-equipment layer. ASML tests whether foundry and memory capex truly passes through lithography, EUV, High-NA, long-term agreements, and export controls. Q2 2026 net sales were EUR 9.326B, gross margin was 54.0%, and net income was EUR 2.918B; FY2026 guidance was raised for the second time to EUR 43-45B net sales and 54-56% gross margin, while ASML plans to add 30% to both 2027 low-NA EUV and DUV immersion capacity versus 2026. The update disclosed neither quarterly net bookings nor backlog, so it strengthens equipment-side confirmation without proving that customer-specific capex is fully committed. The $1,651.44 ADR and roughly 14.6x EV/2026E sales remain the dated 2026-07-02 initial valuation snapshot based on the then EUR 36-40B guide; this update does not refresh valuation or stance, which remains neutral watch / medium conviction.",
     "tags": [
       "半导体设备",
@@ -63,7 +63,7 @@
       "P2 设备层公共约束：ASML 用 EUV/High-NA、backlog、installed-base service 和出口管制验证 AI capex 是否进入最硬工具瓶颈",
       "Q2 2026 net sales EUR 9.326B、gross margin 54.0%、net income EUR 2.918B；FY2026 指引第二次上调至 EUR 43-45B net sales、54-56% gross margin",
       "Q4 2025 net bookings EUR 13.158B，其中 EUV EUR 7.4B；2025 年末 backlog EUR 38.797B",
-      "2026-07-30 收盘 ADR $1,651.44、市值约 $636.5B、约 14.6x EV/2026E sales（旧口径约 15.6x）；维持中性观察 / 中确信"
+      "2026-07-30 收盘 ADR $1,651.44、市值约 $636.5B、约 14.6x EV/2026E sales；维持中性观察 / 中确信"
     ],
     "chainLayer": "semicap-equipment",
     "coverageTier": "full",
@@ -1131,7 +1131,7 @@
     "priceSymbol": "NRG",
     "title": "NRG Energy 深度研究报告 - AI 电力需求是否穿透到 merchant gas 与零售电力",
     "titleEn": "NRG Energy Deep Research Report - Does AI Power Demand Reach Merchant Gas and Retail Power?",
-    "summary": "2026-07-07 v5更新：NRG仍是AI基础设施power层的merchant + retail dashboard，价格锚点$136.70（2026-07-02）、市值约$28.8B、EV约$52.7B，约15.4x 2026调整后EPS指引中点、约9.4x 2026调整后EBITDA指引中点。20%牛市/50%基准/30%熊市情景显示合同转化尚未证明而杠杆/回购纪律仍是约束，v5立场迁移为谨慎/中确信。",
+    "summary": "2026-07-07 v5更新：NRG仍是AI基础设施power层的merchant + retail dashboard，价格锚点$133.97（2026-07-02）、市值约$28.3B、EV约$52.2B，约15.1x 2026调整后EPS指引中点、约9.3x 2026调整后EBITDA指引中点。20%牛市/50%基准/30%熊市情景显示合同转化尚未证明而杠杆/回购纪律仍是约束，v5立场迁移为谨慎/中确信。",
     "tags": [
       "电力",
       "AI基础设施",
@@ -1153,14 +1153,14 @@
       "补齐 power 层 merchant + retail dashboard：NRG 验证 AI/data-center 电力需求是否从核电 PPA 扩散到燃气容量、C&I VPP、ERCOT/PJM 容量市场和零售电力",
       "LS Power 交易约 $12.0B enterprise value，增加 18 座燃气电厂、约 13GW，并带入 CPower 约 6GW C&I VPP 平台和 2,000+ C&I 客户；总发电容量扩大到约 25GW",
       "2026Q1 收入 $10.26B、GAAP 净利润 $125M、调整后 EBITDA $1.08B、FCFbG -$66M；2026 指引调整后 EBITDA $5.325-5.825B、调整后 EPS $7.90-9.90、FCFbG $2.8-3.3B",
-      "当前 $136.70（2026-07-02）、市值约 $28.8B、EV 约 $52.7B；20%牛市/50%基准/30%熊市情景推导为谨慎/中确信，合同转化和去杠杆是关键"
+      "当前 $133.97（2026-07-02）、市值约 $28.3B、EV 约 $52.2B；20%牛市/50%基准/30%熊市情景推导为谨慎/中确信，合同转化和去杠杆是关键"
     ],
-    "summaryEn": "July 7, 2026 v5 update: NRG remains the merchant plus retail dashboard for the AI-infrastructure power layer. The price anchor is $136.70 (Jul 2, 2026), about $28.8B market cap and about $52.7B EV, around 15.4x midpoint 2026 adjusted EPS guidance and 9.4x midpoint 2026 adjusted EBITDA guidance. A 20% bull / 50% base / 30% bear grid shows contract conversion is still unproven while leverage and buyback discipline remain constraints, moving the v5 stance to cautious / medium conviction.",
+    "summaryEn": "July 7, 2026 v5 update: NRG remains the merchant plus retail dashboard for the AI-infrastructure power layer. The price anchor is $133.97 (Jul 2, 2026), about $28.3B market cap and about $52.2B EV, around 15.1x midpoint 2026 adjusted EPS guidance and 9.3x midpoint 2026 adjusted EBITDA guidance. A 20% bull / 50% base / 30% bear grid shows contract conversion is still unproven while leverage and buyback discipline remain constraints, moving the v5 stance to cautious / medium conviction.",
     "chainLayer": "power",
     "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "cautious",
-    "priceAsOf": "2026-07-02",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "2026Q1",
     "related": [
       "vistra-2026",
@@ -1267,8 +1267,8 @@
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "在$136.70、约15.4x 2026调整后EPS中点和9.4x 2026调整后EBITDA中点上，市场已经定价指引兑现、LS Power整合和部分容量稀缺；20%牛市/50%基准/30%熊市情景显示合同转化尚未证明而杠杆/回购纪律仍是约束，偏斜温和向下。",
-      "en": "At $136.70, about 15.4x midpoint 2026 adjusted EPS and 9.4x midpoint 2026 adjusted EBITDA, the market already prices guidance delivery, LS Power integration, and some capacity scarcity; a 20% bull / 50% base / 30% bear grid shows contract conversion is still unproven while leverage/buyback discipline remains a constraint, leaving a mildly negative skew."
+      "zh": "在$133.97、约15.1x 2026调整后EPS中点和9.3x 2026调整后EBITDA中点上，市场已经定价指引兑现、LS Power整合和部分容量稀缺；20%牛市/50%基准/30%熊市情景显示合同转化尚未证明而杠杆/回购纪律仍是约束，偏斜温和向下。",
+      "en": "At $133.97, about 15.1x midpoint 2026 adjusted EPS and 9.3x midpoint 2026 adjusted EBITDA, the market already prices guidance delivery, LS Power integration, and some capacity scarcity; a 20% bull / 50% base / 30% bear grid shows contract conversion is still unproven while leverage/buyback discipline remains a constraint, leaving a mildly negative skew."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -1291,6 +1291,12 @@
         "stance": "cautious",
         "conviction": "medium",
         "price": 136.7
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 133.97
       }
     ]
   },
@@ -1655,7 +1661,7 @@
     "priceSymbol": "ANET",
     "title": "Arista Networks 深度研究报告 - AI 集群开放以太网 fabric 的系统软件卖铲人",
     "titleEn": "Arista Networks Deep Research Report - The Open Ethernet Fabric of AI Clusters",
-    "summary": "AI 集群网络层首次覆盖：Arista 是开放以太网/AI spine/scale-out 网络的系统软件卖铲人，正面回答 NVIDIA Spectrum-X/InfiniBand/NVLink 一体化 vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet 生态的路线之争。Q1 2026 营收 $2.709B(+35.1%)、GAAP/非GAAP营业利润率 42.7%/47.8%、非GAAP EPS $0.87、经营现金流 $1.69B；Q2 指引营收约 $2.8B。FY2025 Cloud and AI Titans/AI Specialty Providers 占收入 48%/20%，Core AI/Cloud/Data Center Networking 占 65%。但两大匿名终端客户合计约 42% 收入(26%/16%)、高度依赖 Broadcom merchant silicon，且 Jun 29 2026 市值约 $206.6B、约 56x TTM GAAP P/E、约 47x 当前非GAAP EPS运行率。neutral-watch / 中等确信：高质量，但大多已定价。",
+    "summary": "AI 集群网络层首次覆盖：Arista 是开放以太网/AI spine/scale-out 网络的系统软件卖铲人，正面回答 NVIDIA Spectrum-X/InfiniBand/NVLink 一体化 vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet 生态的路线之争。Q1 2026 营收 $2.709B(+35.1%)、GAAP/非GAAP营业利润率 42.7%/47.8%、非GAAP EPS $0.87、经营现金流 $1.69B；Q2 指引营收约 $2.8B。FY2025 Cloud and AI Titans/AI Specialty Providers 占收入 48%/20%，Core AI/Cloud/Data Center Networking 占 65%。但两大匿名终端客户合计约 42% 收入(26%/16%)、高度依赖 Broadcom merchant silicon，且 Jun 29 2026 市值约 $206.6B、约 58x TTM GAAP P/E、约 49x 当前非GAAP EPS运行率。neutral-watch / 中等确信：高质量，但大多已定价。",
     "tags": [
       "AI网络",
       "以太网",
@@ -1677,14 +1683,14 @@
       "AI 集群网络层补位：ANET 不是光模块/光纤层，而是开放以太网交换系统、EOS、CloudVision、遥测与 AI fabric 控制点；可交叉校验 NVDA/AVGO/AAOI/GLW/VRT/CRWV",
       "Q1 2026 营收 $2.709B(+35.1%)、非GAAP营业利润率 47.8%、非GAAP EPS $0.87、经营现金流 $1.69B；现金+可交易证券约 $12.35B、基本无债，Q2 指引收入约 $2.8B",
       "路线之争：NVIDIA 一体化网络栈(Spectrum-X/InfiniBand/NVLink) vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet；ANET 更像 Broadcom 生态客户/伙伴，而非直接替代",
-      "neutral-watch / 中等确信：价格约 $164.10、约 20x EV/TTM 收入，市场已要求多年高 20% 至 30% 中段增长与优秀利润率，等待更好价格或更强开放以太网份额证据"
+      "neutral-watch / 中等确信：价格约 $171.02、约 21x EV/TTM 收入，市场已要求多年高 20% 至 30% 中段增长与优秀利润率，等待更好价格或更强开放以太网份额证据"
     ],
-    "summaryEn": "Initial coverage of the AI cluster networking layer: Arista is the open Ethernet / AI spine / scale-out systems-software pick-and-shovel, directly testing NVIDIA Spectrum-X/InfiniBand/NVLink integration vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet. Q1 2026 revenue was $2.709B (+35.1%), GAAP/non-GAAP operating margin 42.7%/47.8%, non-GAAP EPS $0.87, and operating cash flow $1.69B; Q2 guide is about $2.8B revenue. FY2025 Cloud and AI Titans / AI Specialty Providers were 48%/20% of revenue, and Core AI/Cloud/Data Center Networking was 65%. But two anonymous end customers were ~42% of revenue (26%/16%), Arista is highly reliant on Broadcom merchant silicon, and at the Jun 29 2026 market cap of ~$206.6B the stock trades around 56x TTM GAAP earnings and ~47x current non-GAAP EPS run-rate. Neutral-watch / medium conviction: high quality, but mostly priced in.",
+    "summaryEn": "Initial coverage of the AI cluster networking layer: Arista is the open Ethernet / AI spine / scale-out systems-software pick-and-shovel, directly testing NVIDIA Spectrum-X/InfiniBand/NVLink integration vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet. Q1 2026 revenue was $2.709B (+35.1%), GAAP/non-GAAP operating margin 42.7%/47.8%, non-GAAP EPS $0.87, and operating cash flow $1.69B; Q2 guide is about $2.8B revenue. FY2025 Cloud and AI Titans / AI Specialty Providers were 48%/20% of revenue, and Core AI/Cloud/Data Center Networking was 65%. But two anonymous end customers were ~42% of revenue (26%/16%), Arista is highly reliant on Broadcom merchant silicon, and at the Jun 29 2026 market cap of ~$206.6B the stock trades around 58x TTM GAAP earnings and ~49x current non-GAAP EPS run-rate. Neutral-watch / medium conviction: high quality, but mostly priced in.",
     "chainLayer": "networking",
     "coverageTier": "full",
     "chainRole": "architecture-check",
     "stance": "neutral-watch",
-    "priceAsOf": "2026-06-29",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "Q1 2026",
     "related": [
       "broadcom-2026",
@@ -1769,8 +1775,8 @@
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "在 $164.10、约 20x EV/TTM 收入上，市场大致要求未来数年收入维持高 20% 至 30% 中段复合增长并保持优秀利润率；我们的基准情景接近这个区间低端，因此维持中性观察。",
-      "en": "At $164.10 and about 20x EV/TTM revenue, the market is underwriting roughly high-20s to mid-30s revenue CAGR for several years with elite margins; our base case is close to the low end of that range, so the stance remains neutral watch."
+      "zh": "在 $171.02、约 21x EV/TTM 收入上，市场大致要求未来数年收入维持约 30% 至 38% 复合增长并保持优秀利润率；我们的基准情景接近这个区间低端，因此维持中性观察。",
+      "en": "At $171.02 and about 21x EV/TTM revenue, the market is underwriting roughly roughly 30% to 38% revenue CAGR for several years with elite margins; our base case is close to the low end of that range, so the stance remains neutral watch."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -1788,6 +1794,12 @@
         "conviction": "medium",
         "date": "2026-06-29",
         "price": 164.1
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 171.02
       }
     ]
   },
@@ -2287,8 +2299,8 @@
     "priceSymbol": "NVDA",
     "title": "NVIDIA 深度研究报告 - AI 计算中枢的高质量与高预期",
     "titleEn": "NVIDIA Deep Research Report - The AI Compute Hub, High Quality Meets High Expectations",
-    "summary": "v5 回填：NVIDIA 仍是 AI compute profit pool 的中枢，Q1 FY2027 营收 $81.6B、Data Center $75.2B，且 China data-center revenue 归零后仍兑现强增长。以 $192.53、约 $4.68T 市值和 mid-20s forward P/E 计，市场定价的不是泛泛 AI CAGR，而是 GPU+networking+systems+software 继续保护盈利分母。30% 牛市 / 50% 基准 / 20% 熊市情景给出温和正偏斜，因此改为偏多 / 中确信；风险仍是 hyperscaler capex、自定义 ASIC、中国和循环融资减值。",
-    "summaryEn": "July 7, 2026 v5 update: NVIDIA remains the center of the AI compute profit pool. Q1 FY2027 revenue was $81.6B and Data Center was $75.2B even with China data-center revenue at zero. At $192.53, about $4.68T market cap, and a mid-20s forward P/E, the market is underwriting GPU+networking+systems+software protection of the earnings denominator, not a generic AI CAGR. A 30% bull / 50% base / 20% bear grid gives modest positive skew, so stance moves to constructive / medium conviction; the risks remain hyperscaler capex, custom ASICs, China, and circular-financing impairments.",
+    "summary": "v5 回填：NVIDIA 仍是 AI compute profit pool 的中枢，Q1 FY2027 营收 $81.6B、Data Center $75.2B，且 China data-center revenue 归零后仍兑现强增长。以 $195.04、约 $4.74T 市值和 mid-20s forward P/E 计，市场定价的不是泛泛 AI CAGR，而是 GPU+networking+systems+software 继续保护盈利分母。30% 牛市 / 50% 基准 / 20% 熊市情景给出温和正偏斜，因此改为偏多 / 中确信；风险仍是 hyperscaler capex、自定义 ASIC、中国和循环融资减值。",
+    "summaryEn": "July 7, 2026 v5 update: NVIDIA remains the center of the AI compute profit pool. Q1 FY2027 revenue was $81.6B and Data Center was $75.2B even with China data-center revenue at zero. At $195.04, about $4.74T market cap, and a mid-20s forward P/E, the market is underwriting GPU+networking+systems+software protection of the earnings denominator, not a generic AI CAGR. A 30% bull / 50% base / 20% bear grid gives modest positive skew, so stance moves to constructive / medium conviction; the risks remain hyperscaler capex, custom ASICs, China, and circular-financing impairments.",
     "tags": [
       "AI计算",
       "GPU",
@@ -2315,7 +2327,7 @@
     "chainLayer": "compute",
     "coverageTier": "full",
     "stance": "constructive",
-    "priceAsOf": "2026-06-26",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "Q1 FY2027",
     "related": [
       "amd-2026",
@@ -2399,8 +2411,8 @@
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 $192.53、约 $4.68T 市值和 mid-20s forward P/E 计，市场定价的是 accelerator profit pool 持续扩张，而不只是泛泛的 AI CAGR；我们的基准情景认为 rack/system attach、networking/software moat 与年度平台节奏仍能保护盈利分母，同时 custom ASIC 和 China 风险尚未足以抵消该优势。",
-      "en": "At $192.53, roughly $4.68T market cap, and a mid-20s forward P/E, the market is pricing continued accelerator profit-pool expansion rather than a generic AI CAGR; our base case sees rack/system attach, networking/software moat, and the annual platform cadence still protecting the earnings denominator, while custom ASIC and China risks are not yet large enough to offset that advantage."
+      "zh": "以 $195.04、约 $4.74T 市值和 mid-20s forward P/E 计，市场定价的是 accelerator profit pool 持续扩张，而不只是泛泛的 AI CAGR；我们的基准情景认为 rack/system attach、networking/software moat 与年度平台节奏仍能保护盈利分母，同时 custom ASIC 和 China 风险尚未足以抵消该优势。",
+      "en": "At $195.04, roughly $4.74T market cap, and a mid-20s forward P/E, the market is pricing continued accelerator profit-pool expansion rather than a generic AI CAGR; our base case sees rack/system attach, networking/software moat, and the annual platform cadence still protecting the earnings denominator, while custom ASIC and China risks are not yet large enough to offset that advantage."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -2423,6 +2435,12 @@
         "stance": "constructive",
         "conviction": "medium",
         "price": 192.53
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "constructive",
+        "conviction": "medium",
+        "price": 195.04
       }
     ]
   },
@@ -2595,8 +2613,8 @@
     "priceSymbol": "GEV",
     "title": "GE Vernova 深度研究报告 - AI 电力侧的卖铲人与燃气轮机超级周期",
     "titleEn": "GE Vernova Deep Research Report - The Pick-and-Shovel of AI's Power Side and the Gas-Turbine Super-Cycle",
-    "summary": "【2026-07-31 价格复核：GEV 于 2026-07-29 收于 $900.28，较本报告锚点 -13.9%；下方数字按其标注日期阅读，估值框架与立场不变。】2026-07-23 雷达更新（Q2 监测）：GE Vernova Q2 2026 订单 $24.2B（有机 +88%）、总 backlog 环比 +$13B 至 $176B；燃气设备的 53 GW backlog + 63 GW slot 预留合计 116 GW，年底目标上调至 ≥125 GW。调整后 EBITDA $1.2B（利润率 11.3%），FY2026 营收/FCF 指引升至 $45.5-46.5B/$11.5-12.5B，利润率指引维持 12-14%；Wind Q2 亏损同比扩大、环比改善。价格锚点 $1,045.17、市值约 $2,810 亿、约 45-48x EV/2026E 调整后 EBITDA 均为 2026-06-26 口径，本次未重估，继续为谨慎/中确信。",
-    "summaryEn": "[2026-07-31 price check: GEV closed at $900.28 on 2026-07-29, -13.9% versus this report's anchor; figures below read as of their stated dates, and the valuation frame and stance are unchanged.] July 23, 2026 radar update (Q2 monitoring): GE Vernova reported Q2 orders of $24.2B (+88% organic) and total backlog up $13B QoQ to $176B. Gas equipment totaled 116 GW: 53 GW of backlog plus 63 GW of slot reservations; the year-end target rose to >=125 GW. Adjusted EBITDA was $1.2B (11.3% margin), FY2026 revenue/FCF guidance rose to $45.5-46.5B/$11.5-12.5B, and the margin guide stayed at 12-14%; Wind's Q2 loss widened YoY but improved sequentially. The $1,045.17 price anchor, ~$281B market cap, and ~45-48x EV/2026E adjusted EBITDA remain the dated 2026-06-26 frame and are not re-marked here; stance remains cautious / medium conviction.",
+    "summary": "2026-07-23 雷达更新（Q2 监测）：GE Vernova Q2 2026 订单 $24.2B（有机 +88%）、总 backlog 环比 +$13B 至 $176B；燃气设备的 53 GW backlog + 63 GW slot 预留合计 116 GW，年底目标上调至 ≥125 GW。调整后 EBITDA $1.2B（利润率 11.3%），FY2026 营收/FCF 指引升至 $45.5-46.5B/$11.5-12.5B，利润率指引维持 12-14%；Wind Q2 亏损同比扩大、环比改善。价格锚点 $981.98、市值约 $2,640 亿、约 44x EV/2026E 调整后 EBITDA 均为 2026-06-26 口径，本次未重估，继续为谨慎/中确信。",
+    "summaryEn": "July 23, 2026 radar update (Q2 monitoring): GE Vernova reported Q2 orders of $24.2B (+88% organic) and total backlog up $13B QoQ to $176B. Gas equipment totaled 116 GW: 53 GW of backlog plus 63 GW of slot reservations; the year-end target rose to >=125 GW. Adjusted EBITDA was $1.2B (11.3% margin), FY2026 revenue/FCF guidance rose to $45.5-46.5B/$11.5-12.5B, and the margin guide stayed at 12-14%; Wind's Q2 loss widened YoY but improved sequentially. The $981.98 price anchor, ~$264B market cap, and ~44x EV/2026E adjusted EBITDA remain the dated 2026-06-26 frame and are not re-marked here; stance remains cautious / medium conviction.",
     "tags": [
       "AI电力",
       "燃气轮机",
@@ -2618,12 +2636,12 @@
       "Q2 2026 订单 $24.2B（有机 +88%），backlog 环比 +$13B 至 $176B；2027 目标 $200B（从 2028 提前）；Electrification 数据中心订单上半年累计 >$5B（超过 2025 全年总额两倍）",
       "燃气设备 53 GW backlog + 63 GW slot 预留合计 116 GW（年底目标上调至 ≥125 GW）；上调 FY2026 指引：营收 $45.5-46.5B、FCF $11.5-12.5B（调整后 EBITDA 利润率指引维持 12-14%）",
       "利润率从 FY2025 的 8.4% 向中两位数爬坡是估值核心变量；Q1 现金 $10.2B、senior notes $2.6B，粗略净现金约 $7.6B，与背 $64.9B 总债务的 Broadcom 形成对比",
-      "股价约 $1,045.17、市值约 $2,810 亿（2026-06-26），EV/2026E 调整后 EBITDA 约 45-48x；20%牛市/50%基准/30%熊市情景推导为谨慎/中确信"
+      "股价约 $981.98、市值约 $2,640 亿（2026-06-26），EV/2026E 调整后 EBITDA 约 44x；20%牛市/50%基准/30%熊市情景推导为谨慎/中确信"
     ],
     "chainLayer": "power",
     "coverageTier": "full",
     "stance": "cautious",
-    "priceAsOf": "2026-06-26",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "Q2 2026",
     "related": [
       "vertiv-2026",
@@ -2707,8 +2725,8 @@
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "在$1,045.17、约$2,810亿市值和约45-48x 2026E调整后EBITDA上，市场已经把燃气轮机slot、$163B backlog、电网capex和利润率爬坡资本化；20%牛市/50%基准/30%熊市情景显示资产质量很高但估值/AI capex拥挤使偏斜温和向下。",
-      "en": "At $1,045.17, roughly $281B market cap, and about 45-48x 2026E adjusted EBITDA, the market already capitalizes gas-turbine slots, the $163B backlog, grid capex, and the margin ramp; a 20% bull / 50% base / 30% bear grid shows very high asset quality but a mildly negative skew from valuation and AI-capex crowding."
+      "zh": "在$981.98、约$2,810亿市值和约44x 2026E调整后EBITDA上，市场已经把燃气轮机slot、$163B backlog、电网capex和利润率爬坡资本化；20%牛市/50%基准/30%熊市情景显示资产质量很高但估值/AI capex拥挤使偏斜温和向下。",
+      "en": "At $981.98, roughly $264B market cap, and about 44x 2026E adjusted EBITDA, the market already capitalizes gas-turbine slots, the $163B backlog, grid capex, and the margin ramp; a 20% bull / 50% base / 30% bear grid shows very high asset quality but a mildly negative skew from valuation and AI-capex crowding."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -2731,6 +2749,12 @@
         "stance": "cautious",
         "conviction": "medium",
         "price": 1045.17
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 981.98
       }
     ]
   },
@@ -4294,7 +4318,7 @@
     },
     "title": "COPX 深度研究报告 - 铜超级周期的杠杆化敞口",
     "titleEn": "COPX Deep Research Report - Leveraged Exposure to the Copper Supercycle",
-    "summary": "全球最大纯铜矿ETF。2026-06-25增量更新：COPX约$76.92、AUM增至$79.9亿(+8%)，加权P/E从30-35x压缩至17.74x（盈利兑现）。铜价突破二月bull case上沿至~$13,531/吨($6.14/lb)，但price基本持平反映关税不确定性。YTD回报从+20.14%回落至+5.45%。COMEX溢价和232条款审查是短期核心变量。",
+    "summary": "2026-07-31 重新锚定：COPX 于 2026-07-30 收于 $79.50（较前一锚点 +1.3%）。全球最大纯铜矿ETF。2026-06-25 增量更新：AUM增至$79.9亿(+8%)，加权P/E从30-35x压缩至17.74x（盈利兑现）。铜价突破二月bull case上沿至~$13,531/吨($6.14/lb)，但price基本持平反映关税不确定性。YTD回报从+20.14%回落至+5.45%。COMEX溢价和232条款审查是短期核心变量。",
     "tags": [
       "铜矿",
       "ETF",
@@ -4313,7 +4337,8 @@
       "en": "/invest/research/COPX_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "COPX约$76.92，AUM增至$79.9亿(+8%)，加权P/E从30-35x压缩至17.74x",
+      "2026-07-30 收盘 $79.50，仍接近 2 月覆盖价，而铜价已上破 2 月 bull case 上沿；偏多 / 中确信",
+      "AUM增至$79.9亿(+8%)，加权P/E从30-35x压缩至17.74x",
       "COMEX铜价~$13,531/吨($6.14/lb)，突破二月bull case上沿$13,000/吨",
       "YTD回报从+20.14%(Feb)回落至+5.45%，价格路径波动剧烈",
       "232条款关税审查临近（2026年中），COMEX溢价和关税走向是近期最大二元变量"
@@ -4322,7 +4347,7 @@
     "chainLayer": "resources",
     "coverageTier": "lite",
     "stance": "constructive",
-    "priceAsOf": "2026-07-06",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "2026-06 (ETF 月度数据 / monthly ETF data)",
     "related": [
       "almonty-2026"
@@ -4385,8 +4410,8 @@
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 $78.48 计，铜价已高于 2 月牛市框架而 COPX 仍接近初始锚点；加权 P/E 压缩至 17.74x、AUM 升至约 $7.99B，40% 牛市 / 40% 基准 / 20% 熊市 ETF 因子偏斜为正，但受关税溢价约束。",
-      "en": "At $78.48, copper is above the February bull frame while COPX is still close to the initial anchor; weighted P/E has compressed to 17.74x and AUM has risen to about $7.99B, so the 40% bull / 40% base / 20% bear ETF-factor skew is positive, but constrained by tariff premium."
+      "zh": "以 $79.50 计，铜价已高于 2 月牛市框架而 COPX 仍接近初始锚点；加权 P/E 压缩至 17.74x、AUM 升至约 $7.99B，40% 牛市 / 40% 基准 / 20% 熊市 ETF 因子偏斜为正，但受关税溢价约束。",
+      "en": "At $79.50, copper is above the February bull frame while COPX is still close to the initial anchor; weighted P/E has compressed to 17.74x and AUM has risen to about $7.99B, so the 40% bull / 40% base / 20% bear ETF-factor skew is positive, but constrained by tariff premium."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -4409,6 +4434,12 @@
         "stance": "constructive",
         "conviction": "medium",
         "price": 78.48
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "constructive",
+        "conviction": "medium",
+        "price": 79.5
       }
     ]
   },
@@ -5008,8 +5039,8 @@
     "priceSymbol": "AVGO",
     "title": "Broadcom 深度研究报告 - 自定义 AI 硅的卖铲人与 VMware 现金机器",
     "titleEn": "Broadcom Deep Research Report - The Pick-and-Shovel of Custom AI Silicon, Plus a VMware Cash Machine",
-    "summary": "自定义 AI 硅（XPU）最大的卖铲人，正是 NVIDIA 报告点名的最深结构性威胁的承接方；同时握有 VMware 软件现金机器。Q2 FY2026 营收 $22.19B（+48%），AI 半导体 $10.8B（+143%），AI backlog >$30B，FY2027 AI 目标 >$1000 亿；Google/Meta/字节/Anthropic/OpenAI/Fujitsu 等客户项目与 $73B backlog 属公开报道/市场拆解口径，非全部官方确认。但收入兑现后置到 FY2027、客户高度集中、总债务 $64.9B、净债务约 $45B。市值约 $1.8 万亿、远期 P/E 约 33x，介于 NVIDIA ~25x 与 AMD ~58x 之间。neutral-watch / 中等确信：世界级卖铲人，但 FY2027 分母大多已被定价。",
-    "summaryEn": "The biggest pick-and-shovel of custom AI silicon (XPUs) - the very threat named in the NVIDIA report - plus a VMware software cash machine. Q2 FY2026 revenue $22.19B (+48%), AI semis $10.8B (+143%), AI backlog >$30B, FY2027 AI target >$100B; customer programs such as Google/Meta/ByteDance/Anthropic/OpenAI/Fujitsu and the $73B backlog are public-reporting / market-breakdown inputs, not all official confirmations. Delivery is back-loaded to FY2027, customers are concentrated, total debt is $64.9B and net debt is roughly $45B. Market cap ~$1.8T, forward P/E ~33x, between NVIDIA ~25x and AMD ~58x. Neutral-watch / medium conviction: a world-class pick-and-shovel, but the FY2027 denominator is mostly priced in.",
+    "summary": "自定义 AI 硅（XPU）最大的卖铲人，正是 NVIDIA 报告点名的最深结构性威胁的承接方；同时握有 VMware 软件现金机器。Q2 FY2026 营收 $22.19B（+48%），AI 半导体 $10.8B（+143%），AI backlog >$30B，FY2027 AI 目标 >$1000 亿；Google/Meta/字节/Anthropic/OpenAI/Fujitsu 等客户项目与 $73B backlog 属公开报道/市场拆解口径，非全部官方确认。但收入兑现后置到 FY2027、客户高度集中、总债务 $64.9B、净债务约 $45B。市值约 $1.84 万亿、远期 P/E 约 34x，介于 NVIDIA ~25x 与 AMD ~58x 之间。neutral-watch / 中等确信：世界级卖铲人，但 FY2027 分母大多已被定价。",
+    "summaryEn": "The biggest pick-and-shovel of custom AI silicon (XPUs) - the very threat named in the NVIDIA report - plus a VMware software cash machine. Q2 FY2026 revenue $22.19B (+48%), AI semis $10.8B (+143%), AI backlog >$30B, FY2027 AI target >$100B; customer programs such as Google/Meta/ByteDance/Anthropic/OpenAI/Fujitsu and the $73B backlog are public-reporting / market-breakdown inputs, not all official confirmations. Delivery is back-loaded to FY2027, customers are concentrated, total debt is $64.9B and net debt is roughly $45B. Market cap ~$1.84T, forward P/E ~34x, between NVIDIA ~25x and AMD ~58x. Neutral-watch / medium conviction: a world-class pick-and-shovel, but the FY2027 denominator is mostly priced in.",
     "tags": [
       "AI计算",
       "自定义ASIC",
@@ -5031,12 +5062,12 @@
       "Q2 FY2026 营收 $22.19B（+48% YoY），AI 半导体 $10.8B（+143%），AI backlog >$30B；Q3 指引营收 ~$29.4B、AI $16.0B（+200%）",
       "FY2027 AI 半导体目标 >$1000 亿；公开报道涉及 Google/Meta/字节/Anthropic/OpenAI/Fujitsu 等 XPU 项目与 $73B backlog 估算——但兑现后置到 FY2027、客户高度集中，非全部为官方确认订单",
       "两台引擎：AI 定制硅增长 + VMware 软件现金（非 GAAP 营业利润率 67%、FCF 占收入 46%）；总债务 $64.9B、Q2 期末现金 $19.63B，净债务约 $45B",
-      "neutral-watch / 中等确信：$378.91、约 24-25x EV/TTM sales 已定价通向 FY2027 >$100B AI 收入的顺利路径，等待更硬的 XPU 兑现和 backlog 转化证据"
+      "neutral-watch / 中等确信：$387.84、约 24-25x EV/TTM sales 已定价通向 FY2027 >$100B AI 收入的顺利路径，等待更硬的 XPU 兑现和 backlog 转化证据"
     ],
     "chainLayer": "custom-merchant-silicon",
     "coverageTier": "full",
     "stance": "neutral-watch",
-    "priceAsOf": "2026-06-25",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "Q2 FY2026",
     "related": [
       "nvidia-2026",
@@ -5119,8 +5150,8 @@
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "在 $378.91、约 24-25x EV/TTM sales 上，市场已经定价了通向 FY2027 >$100B AI 半导体的顺利路径和持续的 VMware 现金质量；我们的基准情景同意方向，但保留交付滑坡、客户集中和债务调整后倍数压力。",
-      "en": "At $378.91 and roughly 24-25x EV/TTM sales, the market already prices a clean path toward >$100B FY2027 AI semis plus durable VMware cash; our base case agrees on direction but leaves room for delivery slippage, customer concentration, and debt-adjusted multiple pressure."
+      "zh": "在 $387.84、约 24-25x EV/TTM sales 上，市场已经定价了通向 FY2027 >$100B AI 半导体的顺利路径和持续的 VMware 现金质量；我们的基准情景同意方向，但保留交付滑坡、客户集中和债务调整后倍数压力。",
+      "en": "At $387.84 and roughly 24-25x EV/TTM sales, the market already prices a clean path toward >$100B FY2027 AI semis plus durable VMware cash; our base case agrees on direction but leaves room for delivery slippage, customer concentration, and debt-adjusted multiple pressure."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -5138,6 +5169,12 @@
         "conviction": "medium",
         "date": "2026-06-25",
         "price": 378.91
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 387.84
       }
     ]
   },
@@ -5673,7 +5710,7 @@
     "priceSymbol": "VST",
     "title": "Vistra 深度研究报告 - AI 电力约束的核电与燃气高 beta 仪表盘",
     "titleEn": "Vistra Deep Research Report - Nuclear and Gas High-Beta Dashboard for AI Power",
-    "summary": "2026-07-07 v5更新：VST是AI基础设施power层的nuclear-plus-gas高beta dashboard。价格锚点$151.05（2026-07-02）、市值约$50.9B、EV约$70.2B、约3.6x EV/TTM sales，并含约$19.3B净债务。30%牛市/40%基准/30%熊市情景显示上行真实但下行更快，v5立场迁移为谨慎/中确信。",
+    "summary": "2026-07-07 v5更新：VST是AI基础设施power层的nuclear-plus-gas高beta dashboard。价格锚点$148.62（2026-07-30 收盘）、市值约$50.1B、EV约$69.4B、约22.6x TTM GAAP P/E、约3.6x EV/TTM sales，并含约$19.3B净债务。30%牛市/40%基准/30%熊市情景显示上行真实但下行更快，v5立场迁移为谨慎/中确信。",
     "tags": [
       "AI电力",
       "核电",
@@ -5695,14 +5732,14 @@
       "与 CEG 成对覆盖 power 层：VST 是核电 + 燃气 + merchant power 的高 beta 仪表盘，检验 AI 电力需求是否扩散到可调度容量",
       "2026Q1 收入 $5.64B、净利润 $1.03B、营业利润 $1.50B、FCF $316M；Q1 净债务约 $19.3B",
       "Meta 20 年核电协议覆盖 Perry、Davis-Besse、Beaver Valley uprates，公开报道约 2.2GW；Cogentrix 交易主口径约 $4B net purchase price，seller-side 公开报道也有约 $4.7B total consideration 口径，将增加约 5,500MW 燃气容量",
-      "当前 $151.05（2026-07-02）、市值约 $50.9B、EV 约 $70.2B、约 3.6x EV/TTM sales；30%牛市/40%基准/30%熊市情景推导为谨慎/中确信"
+      "2026-07-30 收盘 $148.62、市值约 $50.1B、EV 约 $69.4B、约 22.6x TTM GAAP P/E、约 3.6x EV/TTM sales；30%牛市/40%基准/30%熊市情景推导为谨慎/中确信"
     ],
-    "summaryEn": "July 7, 2026 v5 update: VST is the nuclear-plus-gas high-beta dashboard for the AI-infrastructure power layer. The price anchor is $151.05 (Jul 2, 2026), about $50.9B market cap, about $70.2B EV, about 3.6x EV/TTM sales, and about $19.3B net debt. A 30% bull / 40% base / 30% bear grid shows real upside but faster downside, moving the v5 stance to cautious / medium conviction.",
+    "summaryEn": "July 7, 2026 v5 update: VST is the nuclear-plus-gas high-beta dashboard for the AI-infrastructure power layer. The price anchor is $148.62 (Jul 30, 2026 close), about $50.1B market cap, about $69.4B EV, about 3.6x EV/TTM sales, and about $19.3B net debt. A 30% bull / 40% base / 30% bear grid shows real upside but faster downside, moving the v5 stance to cautious / medium conviction.",
     "chainLayer": "power",
     "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "cautious",
-    "priceAsOf": "2026-07-02",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "2026Q1",
     "related": [
       "constellation-energy-2026",
@@ -5809,8 +5846,8 @@
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "在$151.05、约3.6x EV/TTM sales、约23x TTM GAAP P/E和约$19.3B净债务上，市场已经定价Meta核电PPA、Cogentrix燃气容量和PJM/Texas容量稀缺；30%牛市/40%基准/30%熊市情景显示上行真实但下行更快，偏斜温和向下。",
-      "en": "At $151.05, about 3.6x EV/TTM sales, about 23x TTM GAAP P/E, and about $19.3B net debt, the market already prices Meta nuclear PPAs, Cogentrix gas capacity, and PJM/Texas capacity scarcity; a 30% bull / 40% base / 30% bear grid shows real upside but faster downside, leaving a mildly negative skew."
+      "zh": "在$148.62、约3.6x EV/TTM sales、约22.6x TTM GAAP P/E和约$19.3B净债务上，市场已经定价Meta核电PPA、Cogentrix燃气容量和PJM/Texas容量稀缺；30%牛市/40%基准/30%熊市情景显示上行真实但下行更快，偏斜温和向下。",
+      "en": "At $148.62, about 3.6x EV/TTM sales, about 22.6x TTM GAAP P/E, and about $19.3B net debt, the market already prices Meta nuclear PPAs, Cogentrix gas capacity, and PJM/Texas capacity scarcity; a 30% bull / 40% base / 30% bear grid shows real upside but faster downside, leaving a mildly negative skew."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -5833,6 +5870,12 @@
         "stance": "cautious",
         "conviction": "medium",
         "price": 151.05
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 148.62
       }
     ]
   },

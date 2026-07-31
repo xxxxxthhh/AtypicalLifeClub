@@ -11,18 +11,20 @@
 
 > **框架角色：** NRG Energy 是 AI 基建 电力与能源 层的仪表盘。本报告的任务是验证链条信号，而不是把单一公司数据直接变成投资建议。
 
-**一句话论点：** AI 基础设施 power 层的 merchant + retail dashboard：NRG 不是核电 PPA 纯标的，而是用 LS Power 后约 25GW 发电平台、CPower 约 6GW C&I VPP、Texas/PJM capacity 与 Reliant/Vivint 零售/家庭服务来验证数据中心电力需求是否扩散到普通 merchant capacity。2026Q1 收入 $10.26B、GAAP 净利润 $125M、调整后 EBITDA $1.08B、FCFbG -$66M；2026 指引调整后 EBITDA $5.325-5.825B、调整后 EPS $7.90-9.90、FCFbG $2.8-3.3B。LS Power 交易约 $12.0B enterprise value、18 座燃气电厂、约 13GW、CPower 约 6GW 和 2,000+ C&I 客户，已经反映在 2026 业绩口径中。当前 $136.70（2026-07-02 收盘）、市值约 $28.8B、EV 约 $52.7B，约 15.4x 2026 调整后 EPS 指引中点、约 9.4x 2026 调整后 EBITDA 指引中点。谨慎 / 中确信：20%牛市/50%基准/30%熊市情景显示合同转化尚未证明而杠杆/回购纪律仍是约束，偏斜温和向下。
+**一句话论点：** AI 基础设施 power 层的 merchant + retail dashboard：NRG 不是核电 PPA 纯标的，而是用 LS Power 后约 25GW 发电平台、CPower 约 6GW C&I VPP、Texas/PJM capacity 与 Reliant/Vivint 零售/家庭服务来验证数据中心电力需求是否扩散到普通 merchant capacity。2026Q1 收入 $10.26B、GAAP 净利润 $125M、调整后 EBITDA $1.08B、FCFbG -$66M；2026 指引调整后 EBITDA $5.325-5.825B、调整后 EPS $7.90-9.90、FCFbG $2.8-3.3B。LS Power 交易约 $12.0B enterprise value、18 座燃气电厂、约 13GW、CPower 约 6GW 和 2,000+ C&I 客户，已经反映在 2026 业绩口径中。以 2026-07-30 收盘 $133.97 计、市值约 $28.3B、EV 约 $52.2B，约 15.1x 2026 调整后 EPS 指引中点、约 9.3x 2026 调整后 EBITDA 指引中点。谨慎 / 中确信：20%牛市/50%基准/30%熊市情景显示合同转化尚未证明而杠杆/回购纪律仍是约束，偏斜温和向下。
 
 **当前判断：** **谨慎，中确信。** NRG 的资产质量和可调度容量 optionality 真实，但在具名 hyperscaler 或 tariff-backed C&I 合同出现前，当前估值已经资本化了指引兑现、LS Power 整合和部分容量稀缺。
 
-> **2026-07-31 价格复核。** NRG 于 **2026-07-29**（最后一个已完成交易日）收于 **$124.23**，对照下文标注日期的 **$136.70** 锚点为 **-9.1%**。因此下文标注日期的锚点在该误差范围内依然准确，估值框架、情景网格、立场与确信度均不变。已在 2026-07-31 全覆盖复核中核对确认，无需修改。
+> **旧价格复核批注 —— 按其写法已失效，被下方的重新裁定取代。** ~~2026-07-31 价格复核：NRG 于 2026-07-29 收于 $124.23，对照 $136.70 锚点为 -9.1%，因此下文锚点在该误差范围内依然准确，估值框架、情景网格、立场与确信度均不变，无需修改。~~
+
+> **2026-07-31 立场重新裁定（锚定 2026-07-30 收盘）。** 业主裁决（2026-07-31）：已发布的立场及其理由必须在**当前价格**上成立。NRG 于 **2026-07-30** 收于 **$133.97**，较 2026-07-02 的旧锚点 $136.70 为 **-2.0%**。按约 2.11 亿股与约 $23.9B 净债务计，市值约 **$28.3B**（旧约 $28.8B）、企业价值约 **$52.2B**（旧约 $52.7B）；对照未变的 2026 指引，约为 **15.1x** 调整后 EPS 中点（旧约 15.4x）、约 **9.3x** 调整后 EBITDA 中点（旧约 9.4x）。这是诚实的低漂移结论：2.0% 的变动只让倍数移动约五分之一个单位，判断没有任何改变。温和偏负的预期差在于市场已经为指引兑现、LS Power 整合和部分容量稀缺付费，而 large-load 合同仍停留在 optionality 而非已签量——这是合同问题，不是价格问题。**立场维持谨慎（中确信），已述倍数经过实算确认而非简单顺延。**
 
 | 指标 | 当前读数 |
 | --- | --- |
 | Report id | nrg-2026 |
 | 链条层级 / 角色 | power / dashboard |
 | 最新报告期 | 2026Q1 |
-| 价格快照 | $136.70，截至 2026-07-02 |
+| 价格快照 | $133.97，截至 2026-07-30 |
 | 本次升级后 coverageTier | full |
 | Stance | 谨慎 / 中确信 |
 | 估值用途 | 情景与风险容错率，不是目标价 |
@@ -64,7 +66,7 @@
 | 利润率 / 盈利 | 沿用原报告披露的报告期利润率、EPS、EBITDA、AFFO 或 FCF 口径 | 检验增长是有利润还是仅有规模 | B+ |
 | 现金流 / 资产负债表 | 债务、现金、FCF、AFFO、EBITDA 或回购背景保留自原报告披露 | 决定公司能否承受本轮周期 | B |
 | Backlog / bookings / RPO | 2026Q1 收入 $10.26B、GAAP 净利润 $125M、调整后 EBITDA $1.08B、FCFbG -$66M；2026 指引调整后 EBITDA $5.325-5.825B、调整后 EPS $7.90-9.90、FCFbG $2.8-3.3B | 区分承诺需求和叙事需求 | B+ |
-| 估值容错率 | 当前价格锚点：$136.70 | 高预期标的必须有更干净的兑现 | Caution |
+| 估值容错率 | 当前价格锚点：$133.97（2026-07-30） | 高预期标的必须有更干净的兑现 | Caution |
 
 ## 4. 管理层与口径校验
 
@@ -73,7 +75,7 @@
 | 检查项 | 当前处理 | 为什么重要 |
 | --- | --- | --- |
 | 公司披露 actuals | 报告期和财务数字保留自原报告 | 避免发明新季度 |
-| 市场数据 | 价格快照维持 $136.70，日期 2026-07-02 | 防止 stale valuation math |
+| 市场数据 | 价格快照重新锚定为 $133.97，日期 2026-07-30 | 防止 stale valuation math |
 | 情景权重 | 用 bull/base/bear 权重推导风险偏斜 | 不是建议或目标价 |
 | 来源质量 | 公司公告、filing、issuer page 或已列 source 继续留在附录 | 保持审计线索 |
 
@@ -98,7 +100,7 @@
 
 | 熊市驱动 | 风险证据 | thesis-breaking signal |
 | --- | --- | --- |
-| 预期风险 | 当前价格锚点 $136.70 | 公司表现不错但已经无法超过内嵌预期 |
+| 预期风险 | 当前价格锚点 $133.97（2026-07-30） | 公司表现不错但已经无法超过内嵌预期 |
 | 链条分化 | 相邻报告无法确认同一信号 | 瓶颈在其他 layer，或需求被提前拉动 |
 | 执行风险 | guidance、backlog 或产能转化放缓 | 报告证据停止支持该角色 |
 | 估值压缩 | 合同转化不足、容量价格回落或去杠杆停滞 | 长期故事未变但倍数先收缩 |
@@ -123,7 +125,7 @@
 
 ## 8. 估值背景
 
-估值只作为风险背景，不是投资建议。当前 $136.70 股价约等于 2026 adjusted EPS 指引中点的 15.4x，也约等于 2026 adjusted EBITDA 指引中点的 9.4x，因此本节关注市场已经为哪些经营假设付费，而不是给出单点价格。
+估值只作为风险背景，不是投资建议。当前 $133.97 股价约等于 2026 adjusted EPS 指引中点的 15.1x，也约等于 2026 adjusted EBITDA 指引中点的 9.3x，因此本节关注市场已经为哪些经营假设付费，而不是给出单点价格。
 
 **情景网格：**
 
@@ -133,7 +135,7 @@
 | 基准情景 | 2026 adjusted EBITDA/EPS 指引兑现，LS Power 整合可信；数据中心仍主要是 optionality 而不是具名 PPA；PJM/ERCOT 容量价格偏强但波动；零售/Vivint 可守，去杠杆节奏缓慢 | 当前价格大体定价了基准情景：资产更有价值，但安全边际有限 | 50% |
 | 熊市情景 | large-load 合同停留在营销叙事；CPower monetization 或 LS Power plant availability 低于预期；容量价格或 Texas/PJM 监管回落；retail/Vivint margin 受供电成本和客户流失挤压，回购拖慢去杠杆 | 当前价格会显得偏贵，主要风险是容量稀缺倍数和杠杆容错率同时收缩 | 30% |
 
-**已定价预期与预期差：** 在 $136.70、约 15.4x 2026 adjusted EPS 指引中点和约 9.4x 2026 adjusted EBITDA 指引中点上，市场已经不只是按普通 merchant generator 给 NRG 定价，而是在为 LS Power 整合、容量稀缺、CPower VPP 和未来 large-load 合同转化付费。我们的基准情景同意指引和整合可信，但尚未把 data-center optionality 当作已签约现金流；20% 牛市 / 50% 基准 / 30% 熊市的权重说明，除非下一批证据同时证明合同转化和去杠杆，预期差仍温和偏负。
+**已定价预期与预期差（2026-07-31 按 2026-07-30 收盘重新推导）：** 在 $133.97、约 15.1x 2026 adjusted EPS 指引中点和约 9.3x 2026 adjusted EBITDA 指引中点上，市场已经不只是按普通 merchant generator 给 NRG 定价，而是在为 LS Power 整合、容量稀缺、CPower VPP 和未来 large-load 合同转化付费。我们的基准情景同意指引和整合可信，但尚未把 data-center optionality 当作已签约现金流；20% 牛市 / 50% 基准 / 30% 熊市的权重说明，除非下一批证据同时证明合同转化和去杠杆，预期差仍温和偏负。
 
 关键估值问题是：下一组证据能否让 EPS 和 EBITDA denominator 增长快于市场给的 multiple 增长。
 
@@ -160,7 +162,7 @@
 
 NRG Energy 的链条验证任务，是判断 AI 数据中心电力需求是否真的从 nuclear PPA 扩散到 merchant gas、C&I VPP、ERCOT/PJM 容量价格和零售电力。若 NRG 能把 large-load optionality 转为具名合同，同时让 LS Power、CPower、retail/Vivint 和去杠杆同向改善，power 层的 read-through 会比 CEG/VST 的核电叙事更宽；若这些证据缺席，它只是一个被 AI 电力主题重估过的 merchant power 平台。
 
-预期差温和偏负：在 $136.70、约 15.4x 2026 adjusted EPS 指引中点和 9.4x 2026 adjusted EBITDA 指引中点上，市场已经定价指引兑现、LS Power 整合和部分容量稀缺；我们的基准情景认可资产质量，但尚未把未签约的 data-center optionality 视为已兑现现金流。
+预期差温和偏负：在 2026-07-30 收盘 $133.97、约 15.1x 2026 adjusted EPS 指引中点和 9.3x 2026 adjusted EBITDA 指引中点上，市场已经定价指引兑现、LS Power 整合和部分容量稀缺；我们的基准情景认可资产质量，但尚未把未签约的 data-center optionality 视为已兑现现金流。
 
 当前立场是 **谨慎，中确信**。20% 牛市 / 50% 基准 / 30% 熊市的情景网格给出温和负偏斜：牛市需要合同转化、容量价格、零售/Vivint 和去杠杆同时站上同一边；基准情景接近当前价格；熊市则由杠杆、容量价格和回购纪律放大。谨慎不是否认 NRG 的资产价值，而是把资产质量和当前估值/执行容错率分开看。
 
@@ -173,7 +175,7 @@ NRG Energy 的链条验证任务，是判断 AI 数据中心电力需求是否�
 - LS Power 交易价值、18 座燃气电厂、约 13GW、约 25GW pro forma generation capacity、CPower 约 6GW、交易对价和目标杠杆，参考 NRG 2025-05-12 transaction release：https://www.sec.gov/Archives/edgar/data/1013871/000110465925047007/tm2514561d1_ex99-1.htm。
 - PJM 数据中心容量采购提前与 CEG/VST/NRG 市场反应，参考 MarketWatch：https://www.marketwatch.com/story/constellations-and-vistras-stocks-rally-as-power-grid-operator-speeds-up-data-center-deals-67b95021。
 - T.H. Wharton 2026 年 6 月投运、456MW 公开报道，参考 Axios Houston；下一次 NRG 季报需复核正式口径：https://www.axios.com/local/houston/2026/06/11/nrg-energy-opens-first-new-power-plant-in-a-decade。
-- 2026-07-02 收盘 $136.70、市值约 $28.8B、股本约 2.11 亿股、EV 约 $52.7B 与 yfinance debt/cash snapshot，使用 Yahoo Finance/yfinance 于 2026-07-05 拉取。
+- 价格锚点为 2026-07-30 收盘 $133.97、市值约 $28.3B、股本约 2.11 亿股、EV 约 $52.2B；debt/cash snapshot 沿用 2026-07-05 经 Yahoo Finance/yfinance 拉取的口径。
 
 - 2026-07-06 深度升级保留原先已核验事实基础，并补齐结构、表格、同行比较、情景权重和 monitoring parity。
 - v5 情景网格与已定价预期段落使用同一个 2026-07-02 价格锚点；权重用于说明预期差和偏斜，不构成投资建议、预测或目标价。

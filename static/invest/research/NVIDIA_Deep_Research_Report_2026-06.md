@@ -11,23 +11,25 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 ## Executive Summary
 
-**One-line thesis:** NVIDIA is the indispensable hub of this AI-compute cycle — the CUDA software ecosystem + a full-stack system (GPU + NVLink + networking) + an annual product cadence form the strongest moat in the market today, and Q1 FY2027 revenue of $81.6B (+85% YoY) with Data Center at $75.2B (+92%) is still accelerating. But it is already the world's most valuable company (~$4.68T), so **the core question is not "is it good" but "at what slope can a base this large keep beating expectations, with zero China Data Center revenue assumed, custom-ASIC competition rising, and the durability of AI capex unproven."**
+**One-line thesis:** NVIDIA is the indispensable hub of this AI-compute cycle — the CUDA software ecosystem + a full-stack system (GPU + NVLink + networking) + an annual product cadence form the strongest moat in the market today, and Q1 FY2027 revenue of $81.6B (+85% YoY) with Data Center at $75.2B (+92%) is still accelerating. But it is already the world's most valuable company (~$4.74T), so **the core question is not "is it good" but "at what slope can a base this large keep beating expectations, with zero China Data Center revenue assumed, custom-ASIC competition rising, and the durability of AI capex unproven."**
 
 **Verdict:** **Constructive / medium conviction.** The v5 scenario grid separates skew from conviction: NVIDIA's accelerator profit pool, rack/system attach, networking/software moat, and annual platform cadence still make the base case positively skewed; custom ASICs, China at zero, AI capex slope, and circular-financing impairment would reset the earnings denominator, so the stance does not move to bullish.
 
-**Current market read (as of 2026-06-26):** the Research Hub price ledger anchors NVDA at a **$192.53** close; on ~**24.30B** diluted shares (FY2026 year-end), market cap is ~**$4.68T**, the largest in the world. The 52-week range is ~**$151.49 - $236.54**, leaving the stock ~19% below its 52-week high. Quote sources: [Yahoo Finance NVDA](https://finance.yahoo.com/quote/NVDA/), [CompaniesMarketCap NVDA](https://companiesmarketcap.com/nvidia/marketcap/); financial sources: [NVIDIA Q1 FY2027 press release](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027), [NVIDIA FY2026 results](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026).
+**Current market read (as of 2026-06-26):** the Research Hub price ledger now anchors NVDA at the **$195.04** close of 2026-07-30; on ~**24.30B** diluted shares (FY2026 year-end), market cap is ~**$4.74T**, the largest in the world. The 52-week range is ~**$151.49 - $236.54**, leaving the stock ~19% below its 52-week high. Quote sources: [Yahoo Finance NVDA](https://finance.yahoo.com/quote/NVDA/), [CompaniesMarketCap NVDA](https://companiesmarketcap.com/nvidia/marketcap/); financial sources: [NVIDIA Q1 FY2027 press release](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027), [NVIDIA FY2026 results](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026).
 
-> **2026-07-31 price check.** NVDA closed at **$190.01** on **2026-07-29** (last completed session) versus the **$192.53** anchor dated below, a **-1.3%** move. The dated anchors below therefore remain accurate to within that margin and the valuation frame, scenario grid, stance and conviction are unchanged. Reviewed and confirmed in the 2026-07-31 full-coverage pass; no edit was required.
+> **Old price-check note — stale as written, superseded by the re-adjudication below.** ~~2026-07-31 price check: NVDA closed at $190.01 on 2026-07-29 versus the $192.53 anchor, a -1.3% move, so the dated anchors below remain accurate within that margin and the valuation frame, scenario grid, stance and conviction are unchanged; no edit was required.~~
+
+> **2026-07-31 stance re-adjudication at the 2026-07-30 close.** Owner ruling (2026-07-31): a published stance and its rationale must hold at the CURRENT price. NVDA closed at **$195.04** on **2026-07-30**, **+1.3%** above the old $192.53 anchor of 2026-06-26. On about 24.30B diluted shares, market cap is about **$4.74T** (old about $4.68T), and the forward multiple stays in the **mid-20s** (about 25.3x on the same forward-EPS frame, versus about 25x before). This is a case where the honest outcome is that almost nothing moved: a 1.3% price change does not shift a mid-20s forward multiple out of its stated band, and the report's stated multiples remain accurate as written. A constructive stance receives the same scrutiny as a cautious one, so the check was run rather than assumed — the expectation gap remains modestly positive because the accelerator-profit-pool argument rests on rack/system attach, networking and software moat, and the annualised revenue slope, none of which a 1.3% move touches. **Stance stays constructive (medium conviction), explicitly confirmed at the current close rather than carried over from an old anchor.**
 
 **Key data:**
 
 | Metric | Value |
 |--------|-------|
-| Price (2026-06-26) | $192.53 |
-| Market cap | ~$4.68T (~24.30B shares; world's #1) |
+| Price (2026-07-30) | $195.04 |
+| Market cap | ~$4.74T (~24.30B shares; world's #1) |
 | 52-week range | $151.49 - $236.54 |
 | Forward P/E (FY2027E) | ~25x (vs AMD ~58x, Broadcom ~33x) |
-| P/E (FY2026 GAAP) | ~39x ($4.68T / FY2026 net income $120.1B) |
+| P/E (FY2026 GAAP) | ~39x ($4.74T / FY2026 net income $120.1B) |
 | EV/TTM Sales | ~18-19x (TTM revenue ~$253B) |
 | Q1 FY2027 revenue | $81.6B (+85% YoY, +20% QoQ) |
 | Q1 FY2027 Data Center | $75.2B (+92% YoY, +21% QoQ) |
@@ -136,7 +138,7 @@ Founder-CEO **Jensen Huang** has led since 1993 and is one of the most successfu
 
 ## 6. Bear Case
 
-**Core thesis:** at a $4.68T base, any "AI-capex peak/digestion" signal is amplified; the denominator (earnings expectation), not the numerator (the multiple), is the real risk source.
+**Core thesis:** at a $4.74T base, any "AI-capex peak/digestion" signal is amplified; the denominator (earnings expectation), not the numerator (the multiple), is the real risk source.
 
 1. **Law of large numbers + the capex cycle.** Data Center revenue is already running above a $300B annual rate; sustaining high growth requires hyperscalers to **raise capex year after year**. If AI investment ROI disappoints or macro tightens, capex peaks before revenue — and NVIDIA is the highest-beta link in that chain.
 2. **Custom ASICs keep eating inference share.** Public reporting indicates Broadcom's AI ASIC revenue already topped $20B in its FY2025 (Broadcom fiscal year ended Nov 2025) and that it is involved in multiple hyperscaler in-house programs. Inference is the larger, more standardized workload — exactly the ASIC home turf.
@@ -162,7 +164,7 @@ Founder-CEO **Jensen Huang** has led since 1993 and is one of the most successfu
 > The following is valuation "context," not a price target or a buy/sell recommendation.
 
 - **Forward P/E ~25x (FY2027E, Non-GAAP basis):** the most counter-intuitive part of NVIDIA's valuation — as the world's largest company, its forward multiple is **below** AMD (~58x) and Broadcom (~33x). On +85% growth, the PEG framing is not expensive. Note that this is a Non-GAAP consensus estimate; GAAP earnings include large equity mark-ups ($15.9B in Q1 FY2027 alone) that artificially depress the multiple — Non-GAAP is the correct basis here. Also note that the comparison to AMD's ~58x is across very different earnings bases: NVIDIA at 25x sits on a ~$300B+ annualized revenue / $120B+ net income base, while AMD at 58x is priced on earnings that are just inflecting from a much lower base; direct comparison requires this context.
-- **FY2026 GAAP P/E ~39x:** based on $4.68T market cap / $120.1B FY2026 net income. Note that from Q1 FY2027 GAAP net income includes large equity mark-ups, which will distort trailing GAAP P/E lower thereafter — use non-GAAP operating earnings instead.
+- **FY2026 GAAP P/E ~39x:** based on $4.74T market cap / $120.1B FY2026 net income. Note that from Q1 FY2027 GAAP net income includes large equity mark-ups, which will distort trailing GAAP P/E lower thereafter — use non-GAAP operating earnings instead.
 - **EV/TTM Sales ~18-19x:** TTM revenue ~$253B (FY2026 $215.9B − Q1 FY26 ~$44B + Q1 FY27 $81.6B); EV ~$4.72T (market cap − ~$42B net cash).
 - **Reading the multiple:** NVIDIA's valuation risk is **not the multiple itself** but the **earnings-expectation denominator** the multiple implies. If the AI super-cycle runs another 2-3 years, the current multiple is low; if capex peaks within 12-18 months, the "high growth" assumption behind a 25x forward P/E gets reset quickly, and multiple and earnings contract together.
 
@@ -174,7 +176,7 @@ Founder-CEO **Jensen Huang** has led since 1993 and is one of the most successfu
 | Base | Q2 FY2027 broadly delivers the $91.0B guide, Data Center growth slows but remains strong; rack/system attach and the networking/software moat offset some GPU ASP normalization; custom ASICs take incremental share in inference and mature workloads; China remains near zero; the multiple stays in the mid- to high-20s | Today is fair to slightly cheap: the market prices an AI super-cycle but has not fully capitalized the protection that system attach plus software/networking moat provide to the profit pool | 50% |
 | Bear | hyperscaler capex weakens for consecutive quarters, Data Center revenue stalls sequentially; custom ASICs accelerate substitution in inference and mature workloads; China becomes a larger permanent gap; OpenAI/CoreWeave-type investments or demand backstops create impairment / circular-financing concerns; forward P/E and the earnings denominator reset together | Today looks rich: the risk is not the multiple alone but simultaneous compression in earnings expectations and multiple | 20% |
 
-**What's priced in & the expectation gap:** At the $192.53 close on Jun 26, 2026 and roughly $4.68T market cap, the market is not pricing a generic AI CAGR; it is pricing a combined GPU+networking+systems+software machine that protects the accelerator profit pool. A mid-20s forward P/E does not look extreme because the denominator already sits on a $300B+ annualized revenue / $120B+ profit base; the real implied ask is Q2's $91.0B revenue guide, 75% gross margin, rack/system attach, and networking/software moat continuing to defend the profit pool while custom ASIC and China risks do not quickly reset the denominator. Our base case says those conditions mostly hold, leaving a modestly positive expectation gap at today's price.
+**What's priced in & the expectation gap (re-derived 2026-07-31 at the 2026-07-30 close):** At the $195.04 close on Jul 30, 2026 and roughly $4.74T market cap, the market is not pricing a generic AI CAGR; it is pricing a combined GPU+networking+systems+software machine that protects the accelerator profit pool. A mid-20s forward P/E does not look extreme because the denominator already sits on a $300B+ annualized revenue / $120B+ profit base; the real implied ask is Q2's $91.0B revenue guide, 75% gross margin, rack/system attach, and networking/software moat continuing to defend the profit pool while custom ASIC and China risks do not quickly reset the denominator. Our base case says those conditions mostly hold, leaving a modestly positive expectation gap at today's price.
 
 ## 9. Catalysts & Monitoring Checklist
 
@@ -199,7 +201,7 @@ Founder-CEO **Jensen Huang** has led since 1993 and is one of the most successfu
 
 NVIDIA's chain-validation job is to test whether the AI compute profit pool remains led by general-purpose accelerators, rack/system attach, NVLink/networking, and the CUDA/software moat, rather than being reset by hyperscaler custom ASICs, the China gap, or capex digestion. Q1 FY2027 growth of +85% with China at zero validates demand strength; the remaining question is whether that strength keeps protecting the earnings denominator.
 
-The expectation gap is modestly positive: at $192.53, roughly $4.68T market cap, and a mid-20s forward P/E, the market is pricing continued accelerator profit-pool expansion rather than a generic AI CAGR; our base case sees rack/system attach, networking/software moat, and the annual platform cadence still protecting the earnings denominator, while custom ASIC and China risks are not yet large enough to offset that advantage.
+The expectation gap is modestly positive: at the $195.04 close on Jul 30, 2026, roughly $4.74T market cap, and a mid-20s forward P/E, the market is pricing continued accelerator profit-pool expansion rather than a generic AI CAGR; our base case sees rack/system attach, networking/software moat, and the annual platform cadence still protecting the earnings denominator, while custom ASIC and China risks are not yet large enough to offset that advantage.
 
 The current stance is **constructive, medium conviction**. The 30% bull / 50% base / 20% bear scenario grid gives positive skew: the bull case comes from profit-pool expansion, system attach, and software/networking moat; the base case comes from Q2 guide delivery and gradual custom-ASIC penetration; the bear case comes from capex, ASIC, China, and circular financing compressing the earnings denominator together. Conviction is medium because financial and ecosystem evidence are very strong, but customer capex and ASIC substitution remain high-impact variables.
 
@@ -216,7 +218,7 @@ Move to bullish if Q2 FY2027 delivers the $91.0B revenue guide, Data Center sequ
 - "Circular financing" / reported OpenAI investment or LOI cut to $30B: public reporting (2026 H1; treated as a risk hypothesis pending official-document reconciliation)
 
 **Key assumptions & basis:**
-- Market cap estimated at ~24.30B shares × $192.53; different sources put market cap in the ~$4.6-5.0T range depending on date and methodology.
+- Market cap estimated at ~24.30B shares × $195.04; different sources put market cap in the ~$4.6-5.0T range depending on date and methodology.
 - TTM revenue ≈ FY2026 $215.9B − Q1 FY26 ~$44B + Q1 FY27 $81.6B ≈ $253B; EV nets out ~$42B of net cash.
 - Forward P/E ~25x, AMD ~58x, Broadcom ~33x reflect a mid-2026 (~May) market read and move with price and expectations.
 - Figures labeled FY2026 / Q1 FY2027 are company-reported; competitor figures are public-reporting estimates and should be reconciled to the latest 10-Q/results at the next review.

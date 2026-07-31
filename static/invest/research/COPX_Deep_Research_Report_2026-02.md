@@ -36,7 +36,9 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 **Investment view update:** Constructive, medium conviction. The long-term copper thesis is strengthened by copper prices exceeding expectations, COPX's price remains close to the February anchor, and weighted P/E has compressed to 17.74x, showing miner earnings have partly caught up; the near-term watch items are tariff policy, the COMEX premium, NAV deviation, and fund flows.
 
-> **2026-07-31 price check.** COPX closed at **$76.14** on **2026-07-29** (last completed session) versus the **$78.48** anchor dated below, a **-3.0%** move. The dated anchors below therefore remain accurate to within that margin and the valuation frame, stance and conviction are unchanged. Reviewed and confirmed in the 2026-07-31 full-coverage pass; no edit was required.
+> **Old price-check note — stale as written, superseded by the re-adjudication below.** ~~2026-07-31 price check: COPX closed at $76.14 on 2026-07-29 versus the $78.48 anchor, a -3.0% move, so the dated anchors below remain accurate within that margin and the valuation frame, stance and conviction are unchanged; no edit was required.~~
+
+> **2026-07-31 stance re-adjudication at the 2026-07-30 close.** Owner ruling (2026-07-31): a published stance and its rationale must hold at the CURRENT price. COPX closed at **$79.50** on **2026-07-30**, **+1.3%** above the old $78.48 anchor of 2026-07-06. This is an ETF, so there is no company market cap or EPS to recompute; the price-dependent claim is that COPX still sits close to its February coverage price while copper trades above the February bull frame, and that claim holds unchanged at $79.50. The fund statistics quoted below — weighted P/E of 17.74x, about $7.99B of AUM and NAV of $76.46 — are issuer-published figures carrying their own 2026-06-25 date and are not derived from the COPX price, so they are not restated here; they remain accurate as of that label. **Stance stays constructive (medium conviction), explicitly confirmed at the current close.** A bullish stance is checked as hard as a cautious one, and the check found no arithmetic that a 1.3% move disturbs: the downgrade trigger asks for tariff-premium reversal pulling COMEX copper back to $10,000-11,000/tonne, rising inventories, or a visible NAV discount and outflows, and none of those is a price-level question about COPX itself.
 
 ---
 
@@ -352,7 +354,7 @@ Copper reached record highs of ~$12,000/tonne in early 2026, driven by:
 
 ## 8. Valuation Context
 
-An ETF does not have single-company revenue, margin, or project NAV, so this uses the v5 ETF variant: commodity scenario first, then fund premium / flow skew. The current `prices.json` anchor is the **$78.48** Jul 6, 2026 close; Jun 25 fund data still showed about **$7.99B** of AUM, **17.74x** weighted P/E, **$76.46** NAV, and a slight **0.6%** premium. The question is not a COPX target price; it is whether copper prices and flows still support miner earnings.
+An ETF does not have single-company revenue, margin, or project NAV, so this uses the v5 ETF variant: commodity scenario first, then fund premium / flow skew. The current `prices.json` anchor is the **$79.50** Jul 30, 2026 close; Jun 25 fund data still showed about **$7.99B** of AUM, **17.74x** weighted P/E, **$76.46** NAV, and a slight **0.6%** premium. The question is not a COPX target price; it is whether copper prices and flows still support miner earnings.
 
 **Commodity scenario and fund-factor skew:**
 
@@ -362,7 +364,7 @@ An ETF does not have single-company revenue, margin, or project NAV, so this use
 | Base | Copper chops at high levels; tariff premium partially fades but does not break the $11,000-12,000/tonne fundamental band; China demand is mixed, with grid / AI offsetting property drag | COPX premium stays near zero, AUM is stable, and miner earnings stay high without rapid further upgrades | Today's price is broadly fair; the long-term thesis remains, but short-term beta mostly comes from copper volatility | 40% |
 | Bear | COMEX premium fades and copper falls back into the $10,000-11,000/tonne range; China demand or grid spending weakens; inventories rise; new mine supply arrives faster than expected | COPX develops a visible NAV discount or outflows; miner earnings revise down and weighted P/E rises again | Today's price is rich because the ETF amplifies both copper and miner-profit downside | 20% |
 
-**What's priced in & the expectation gap:** At the **$78.48** price anchor, COPX remains close to the February coverage price even though copper has broken above the prior bull range. Fund weighted P/E has compressed from 30-35x to **17.74x**, and AUM has risen to about **$7.99B**. That means part of the elevated copper price has become miner earnings rather than only thematic multiple expansion. The 40% bull / 40% base / 20% bear ETF-factor skew is positive, with tariff premium and flow reversal as the main risks.
+**What's priced in & the expectation gap (re-confirmed 2026-07-31 at the 2026-07-30 close):** At the **$79.50** price anchor, COPX remains close to the February coverage price even though copper has broken above the prior bull range. Fund weighted P/E has compressed from 30-35x to **17.74x**, and AUM has risen to about **$7.99B**. That means part of the elevated copper price has become miner earnings rather than only thematic multiple expansion. The 40% bull / 40% base / 20% bear ETF-factor skew is positive, with tariff premium and flow reversal as the main risks.
 
 ---
 
@@ -392,7 +394,7 @@ An ETF does not have single-company revenue, margin, or project NAV, so this use
 
 COPX's chain-validation job is to test whether AI, grid, and electrification-driven copper demand can keep supporting miner earnings, not one mine project. As an ETF, it simultaneously tests commodity price, miner operating leverage, NAV premium, and fund flows. If elevated copper prices become earnings while capital keeps flowing in, the resources-layer signal strengthens. If tariff premium or China demand reverses, the ETF quickly amplifies downside.
 
-The expectation gap is positive but constrained by tariff premium: at $78.48, copper is above the February bull frame while COPX is still close to the initial anchor; weighted P/E has compressed to 17.74x and AUM has risen to about $7.99B, showing earnings are catching up faster than the ETF price. Our 40% bull / 40% base / 20% bear ETF-factor skew is positive.
+The expectation gap is positive but constrained by tariff premium: at the $79.50 close on Jul 30, 2026, copper is above the February bull frame while COPX is still close to the initial anchor; weighted P/E has compressed to 17.74x and AUM has risen to about $7.99B, showing earnings are catching up faster than the ETF price. Our 40% bull / 40% base / 20% bear ETF-factor skew is positive.
 
 The current stance is **constructive, medium conviction**. The 40% bull / 40% base / 20% bear ETF variant says copper optionality and fund flows still skew positive, while single-mine execution risk is diversified away. Medium conviction reflects the risk that high copper prices include tariff / COMEX premium; if that premium fades or inventories rise, miner earnings and fund flows can weaken together.
 
