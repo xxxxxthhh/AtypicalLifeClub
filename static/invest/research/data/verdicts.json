@@ -547,17 +547,6 @@
       "stale": false
     },
     {
-      "reportId": "alab-2026",
-      "stance": "cautious",
-      "conviction": "medium",
-      "stanceDate": "2026-07-31",
-      "priceAtStance": 299.69,
-      "benchmarkSymbol": "SMH",
-      "status": "pending",
-      "daysHeld": 0,
-      "stale": false
-    },
-    {
       "reportId": "minimax-2026",
       "stance": "cautious",
       "conviction": "low",
@@ -573,6 +562,28 @@
       "bookBenchmarkChangePct": -8.8,
       "bookRelativePct": -2.7,
       "daysHeld": 16,
+      "stale": false
+    },
+    {
+      "reportId": "cameco-2026",
+      "stance": "neutral-watch",
+      "conviction": "medium",
+      "stanceDate": "2026-07-31",
+      "priceAtStance": 88.23,
+      "benchmarkSymbol": "URA",
+      "status": "pending",
+      "daysHeld": 0,
+      "stale": false
+    },
+    {
+      "reportId": "alab-2026",
+      "stance": "cautious",
+      "conviction": "medium",
+      "stanceDate": "2026-07-31",
+      "priceAtStance": 299.69,
+      "benchmarkSymbol": "SMH",
+      "status": "pending",
+      "daysHeld": 0,
       "stale": false
     }
   ],

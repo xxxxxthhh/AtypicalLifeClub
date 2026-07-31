@@ -13,6 +13,13 @@
       <description>AI 基础设施书 demand-risk 层的需求锚初始覆盖：Microsoft 是全球最大 AI capex 买方，本书此前给 GPU/HBM/电力稀缺性打分却没有覆盖这些开支落地的资产负债表。FY2026 Q4（季度截至 2026-06-30，07-29 发布）：收入 $90.007B（+18%）、Azure 及其他云 +43% 加速、FY2026 Azure 收入首破 $100B（+41%）、商业 RPO $678B（+84%）、Q4 含融资租赁 capex $41B（+69%）、FY2026 经营现金流 $182.9B、现金 capex $115.9B、FCF 约 $67B——demand 层最强的 capex 吸收答卷。风险同样清晰：2026 年 1 月披露的 $625B RPO 中约 45% 系于 OpenAI；FY2027 Q1 capex 指引超 $50B；数据中心/办公楼寿命 15→25 年重分类把日历 2026 capex 框架由约 $190B 改列约 $175B。以 2026-07-30 收盘 $451.10 为锚（财报后单日 +15.5%），市值约 $3.35T、约 25.1x 追溯 GAAP EPS、约 10.1x FY2026 收入、约 49x EV/FY2026 FCF。30% 牛市 / 40% 基准 / 30% 熊市网格读出略偏负到中性的预期差，初始立场中性观察 / 中确信。</description>
     </item>
     <item>
+      <title>Cameco 深度研究报告 - 核燃料循环对核电基荷叙事的上游约束检验 / Cameco Deep Research Report - Upstream Constraint Check on the Nuclear Baseload Story</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=cameco-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=cameco-2026#cameco-2026@2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施书 resources 层的公共约束初始覆盖：电力层用 constellation-energy-2026 和 oklo-2026 押注核电基荷，但前者全文没有出现过『铀』字，后者把 fuel-supply 列为常设监测项却没有上游报告可对照。本报告提供这份读数，结论是否定的：按 2026 年披露，铀矿供应并非绑定约束——现货在 85 美元/磅附近横盘五个月而成交量从 1,200 万磅升至 1,800 万磅，最大的西方生产商 Cameco 自己要买走所卖量的约三分之一（2026 年交付 2,900-3,200 万磅 vs 产量 1,950-2,150 万磅），真正吃紧的是转化与浓缩（转化现货 62.50 美元/kgU 高于北美长期价 55.25 美元/kgU），而卡住先进堆的 HALEU 是 Cameco 不生产的浓缩产品——Cameco 自己的 MD&amp;A 记录的是 Centrus 而非 Cameco 与 Oklo 签署 HALEU 商业协议。公司层面：2026 Q1（季度截至 2026-03-31、05-05 发布）收入 8.45 亿加元（+7%）、调整后 EBITDA 5.09 亿加元（+44%），但平均实现价格仅 66.21 美元/磅，而公司自己的敏感性表显示现货每涨 5 美元/磅调整后净利润反而减少 100 万加元；2026 年收入指引 31.30-33.70 亿加元低于 2025 财年的 34.82 亿加元。以 2026-07-30 收盘 88.23 美元为锚（较 1 月 28 日高点 134.09 美元低 34.2%），市值约 384 亿美元 / 539 亿加元、约 82.9x 追溯报告盈利、约 71.0x 追溯调整后净利润、约 25.8x 企业价值/追溯调整后 EBITDA、股息率 0.19%。30% 牛市 / 40% 基准 / 30% 熊市对称网格，初始立场中性观察 / 中确信。</description>
+    </item>
+    <item>
       <title>Alphabet 深度研究报告 - TPU 外部化与 capex 融资质量的架构校验 / Alphabet Deep Research Report - Architecture Check on TPU Externalization and Capex Funding Quality</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=alphabet-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=alphabet-2026#alphabet-2026@2026-07-31</guid>
@@ -417,13 +424,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=oklo-2026-pre-rerun#oklo-2026-pre-rerun@2026-02-10</guid>
       <pubDate>Tue, 10 Feb 2026 00:00:00 GMT</pubDate>
       <description>归档的2026H1重跑前版本，保留2月项目管线、目标价、首堆和零收入估值框架。</description>
-    </item>
-    <item>
-      <title>金盘科技深度研究报告 - AI数据中心电源设备龙头 - 重跑前归档版 / Jinpan Technology Deep Research Report - AI Data Center Power Equipment Leader - Pre-rerun Archive</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=jinpan-2026-pre-rerun</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=jinpan-2026-pre-rerun#jinpan-2026-pre-rerun@2026-02-03</guid>
-      <pubDate>Tue, 03 Feb 2026 00:00:00 GMT</pubDate>
-      <description>归档的2026H1重跑前版本，保留2月价格、市值、AIDC/SST和应收账款风险框架，用于审计与对照。</description>
     </item>
   </channel>
 </rss>

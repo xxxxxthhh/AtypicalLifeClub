@@ -1,0 +1,307 @@
+# Cameco (CCJ) Deep Research Report
+
+Coverage date: 2026-07-31
+Last updated: 2026-07-31
+Ticker: NYSE: CCJ
+Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
+
+---
+
+## Executive Summary
+
+> **Framework note:** Cameco joins the AI-infrastructure book's **resources** layer as a **common constraint**. Its job is not to be the layer's biggest company; it is to run one specific cross-layer test that no report in this coverage has yet run. The power layer leans on nuclear baseload — `constellation-energy-2026` is that layer's common constraint, `oklo-2026` is its risk anchor — and both reports argue about megawatts, licensing, PPAs and capital. Neither checks the fuel. `constellation-energy-2026` does not contain the word uranium anywhere in its body. `oklo-2026` carries `fuel-supply` as a standing monitoring item and states that HALEU supply "has geopolitical dependencies," but has no upstream report to grade it against. This report supplies that upstream reading, and it is allowed to come back negative: an honest "fuel is not the binding constraint" is worth as much to the book as a warning would be.
+
+**One-line thesis:** Cameco is the western world's largest and lowest-cost uranium producer, sitting on the highest-grade orebodies in the industry, with a 49% stake in Westinghouse attached to a US government program valued at "at least US$80 billion" — and it is a structurally muted way to own the uranium price. Its own Q1 2026 disclosure shows an average realized price of **US$66.21/lb** against a US$84.25 spot and a US$91.50 long-term indicator, and a sensitivity table in which a **US$5/lb rise in spot lowers** adjusted net earnings by C$1 million and cash flow by C$16 million.
+
+**Current view:** **Neutral-watch, medium conviction.** The asset base is not in question and the fuel-cycle position is genuinely strategic. The price is the problem, and so is the shape of the contract book. At US$88.23 (2026-07-30 close) the market caps this at about **US$38.4B / C$53.9B**, or roughly **82.9x** trailing-twelve-month reported earnings, **71.0x** trailing adjusted net earnings and **25.8x** EV to trailing adjusted EBITDA, on a company whose own 2026 revenue guidance of C$3,130-3,370M sits **below** its FY2025 revenue of C$3,482M. Everything that makes the bull case attractive — the 2029-2030 contracting slots, the term price at a 14-year high, the Westinghouse AP1000 program — is dated 2028 and later. Everything on the bear side is already printed in the filings.
+
+**Timing note:** Cameco scheduled its Q2 2026 results for release before markets opened on **Friday, 2026-07-31**. As of **2026-07-31 05:12 EDT**, no Q2 6-K had been filed on EDGAR and no Q2 release was retrievable. This report is therefore anchored to the **Q1 2026** reported quarter and to the **2026-07-30** close, which is itself the last pre-print session. The Q2 print is the first monitoring item in this report and it lands within hours of publication.
+
+**Quick stats:**
+
+| Metric | Value |
+|--------|-------|
+| Share price | US$88.23 (Jul 30, 2026 close, NYSE, Yahoo/yfinance); July path US$89.33 / 87.86 / 89.35 / 86.96 / 84.57 / 88.23 through Jul 30 |
+| Trailing-year close range | US$70.47 (2025-08-20) – US$134.09 (2026-01-28); today is **34.2% below** the January closing high and 25.2% above the August low |
+| Market cap / shares | About US$38.4B; C$53.9B at USDCAD 1.40358 (Jul 30, 2026). 435,532,978 common shares plus one Class B share outstanding at 2026-05-01 |
+| Reporting currency | **Canadian dollars.** Every Cameco figure below is C$ unless marked US$; the share price and market cap are US$ (NYSE line) |
+| Latest reported period | Q1 2026, quarter ended 2026-03-31 (reported 2026-05-05) |
+| Q1 revenue / net earnings / ANE | C$845M (+7%) / C$131M (+87%) / C$203M (>+100%); adjusted EBITDA C$509M (+44%) |
+| Q1 uranium segment | Production 6.2M lb (our share, +3%); sales 7.8M lb (+13%); revenue C$712M (+15%); adjusted EBITDA C$423M (+48%) |
+| Q1 average realized uranium price | **US$66.21/lb** (+6%) / C$91.26/lb (+2%), against a Mar-31 spot of US$84.25 and a long-term indicator of US$91.50 |
+| Q1 production cost | Produced C$34.05/lb total (C$23.02 cash + C$11.03 non-cash); purchased C$110.42/lb on 0.2M lb; blended C$36.44/lb |
+| Contract book | Commitments to deliver an average of about **28M lb/year from 2026 through 2030**, above that average in 2026-2028 and below it in 2029-2030 |
+| 2026 guidance | Production 19.5-21.5M lb (our share); deliveries 29-32M lb; revenue C$3,130-3,370M; realized price C$85.00-89.00/lb; unit cost of sales C$61.50-65.00/lb; capex C$490-540M |
+| Westinghouse (49%, equity method) | Q1 net loss C$46M, our-share adjusted EBITDA C$122M (+33%); FY2026 guide US$370-430M against FY2025's C$780M, or about US$558M at the 2025 average USDCAD of 1.3975 — a decline of roughly 23-34%. Cameco guides Westinghouse in US dollars and equity-accounts the actual in Canadian dollars, so the conversion is unavoidable |
+| Balance sheet | C$1.1B cash and short-term investments, C$1.0B total debt, C$1.0B undrawn revolver at 2026-03-31; C$1.6B of financial assurances outstanding |
+| Capital returns | Annual dividend C$0.24/share (raised in Nov 2025, a year ahead of plan) — a **0.19%** yield at the anchor price; no buyback |
+| Chain role | resources **common constraint**: does uranium, conversion or enrichment gate the nuclear baseload the power layer assumes? |
+
+## 1. Business Overview
+
+Cameco reports three segments, and the interesting thing about the mix is that the segment carrying roughly a third of segment-level earnings power does not appear in revenue at all.
+
+| Segment / line | Q1 2026 readout | Economic meaning | Chain relevance |
+|----------------|-----------------|------------------|-----------------|
+| Uranium | Revenue C$712M (+15%); gross profit C$259M (+28%); adjusted EBITDA C$423M (+48%); production 6.2M lb, sales 7.8M lb | The core: mining and selling U3O8 under long-dated contracts | The layer's direct read on physical fuel availability and price transmission |
+| Fuel services | Revenue C$134M (−1%); adjusted EBITDA C$54M (−28%), margin 40% from 56%; production 3.3M kgU, sales 2.8M kgU | UF6 conversion, UO2 conversion, CANDU fuel bundles | Conversion is the fuel-cycle step where western capacity is genuinely tight |
+| Westinghouse (49%, equity method) | Net loss C$46M (our share); adjusted EBITDA C$122M (+33%); adjusted free cash flow C$72M; capex C$50M | Reactor technology, fuel fabrication, reactor services — consolidated nowhere, only equity-picked-up | The AP1000 franchise that connects Cameco to the reactor-build cycle |
+| Corporate / other | Q1 adjusted EBITDA drag of C$90M; total administration C$122M (from C$59M), of which C$55M is the increase in share-based compensation | Overheads plus a share-price-linked compensation charge | Explains why consolidated adjusted EBITDA is well below the sum of segments |
+| Consolidated | Revenue C$845M; gross profit C$302M; net earnings C$131M; adjusted EBITDA C$509M; cash **used** in operations C$22M | A quarter of higher volumes and better price, with a working-capital outflow | — |
+| JV Inkai (Kazakhstan, equity method) | 100%-basis production 2.5M lb in Q1; 2026 target 10.4M lb with a 4.2M lb Cameco purchase allocation | Cameco buys its share at a 5% discount to spot and books the economics through equity earnings | The reason a higher spot price *raises* Cameco's costs |
+| Global Laser Enrichment | Q1 R&D of C$14M, mainly GLE-related | An ownership interest in a laser-enrichment venture; no revenue | The only enrichment optionality Cameco holds, and it is pre-commercial |
+
+Three structural points matter for this book.
+
+**First, Cameco's own earnings are only loosely coupled to the uranium price.** The Q1 average realized price was US$66.21/lb — 79% of the US$84.25 spot and 72% of the US$91.50 long-term indicator at the same date. That gap is deliberate: the portfolio mixes base-escalated contracts priced when they were signed with market-related contracts that carry floors and ceilings. Management's disclosure is explicit that at current price levels "many of the market-related sales contracts we have delivered into or are delivering into this year are subject to ceiling prices."
+
+**Second, the largest western producer is a large buyer of uranium.** Against 2026 production of 19.5-21.5M lb (our share), Cameco has committed to deliver 29-32M lb, expects around 8M lb of committed purchases including JV Inkai, and reserves the option to buy up to 3M lb more on the market. Roughly a third of what it sells this year, it does not mine. It held 9.1M lb of inventory at an average cost of C$50.24/lb on 2026-03-31 and borrowed 750,000 lb under product loan facilities in Q1.
+
+**Third, Westinghouse is a third of the earnings power and none of the revenue.** Trailing-twelve-month adjusted EBITDA decomposes (our own arithmetic, see §9 and the appendix) into roughly C$1,392M uranium, C$198M fuel services, C$810M Westinghouse and about C$−315M corporate — so Westinghouse is about a third of the segment sum while contributing a *net loss* in Q1 under IFRS, because C$97M of quarterly depreciation and C$47M of finance costs sit below the EBITDA line. Any earnings multiple computed on Cameco's reported net income is measuring a company that structurally under-reports its second-largest asset.
+
+## 2. Industry & Competitive Position
+
+**Cost position.** Cameco's competitive claim is grade, not scale. Estimated average life-of-mine operating costs are C$21.72/lb at McArthur River/Key Lake and C$23.94/lb at Cigar Lake, against a Q1 blended produced-and-purchased cost of C$36.44/lb and a realized price of C$91.26/lb. Cigar Lake alone holds proven and probable reserves of 172.4M lb U3O8 (100% basis, at 2025-12-31) and has produced about 174.5M lb since 2014. In July 2026 Cameco and Orano bought out TEPCO's 5% joint-venture interest; Cameco's share rose 2.871 points to **57.418%** for about C$115.75M, with Orano at 42.582%.
+
+**The price structure is the story.** Cameco publishes month-end industry averages from UxC and TradeTech, and the first half of 2026 shows spot and term moving in opposite directions:
+
+| Month (2026) | Spot (US$/lb) | Long-term (US$/lb) | Term minus spot |
+|--------------|---------------|--------------------|-----------------|
+| January | 94.28 | 89.00 | −5.28 |
+| February | 86.95 | 90.00 | +3.05 |
+| March | 84.25 | 91.50 | +7.25 |
+| April | 86.35 | 91.50 | +5.15 |
+| May | 84.18 | 94.00 | +9.82 |
+| June | 85.00 | 95.50 | **+10.50** |
+
+Spot went sideways for five months while the long-term indicator rose every single month to a level Cameco describes as approaching its highest since 2012 in constant dollars. That is the signature of utilities paying up for *secured* supply rather than scrambling for *available* supply — a security-of-supply premium, not a scarcity premium.
+
+**Fuel-cycle position across the chain:**
+
+| Fuel-cycle step | Cameco's position | What the Q1 2026 evidence says |
+|-----------------|-------------------|--------------------------------|
+| Mining (U3O8) | Largest western producer; tier-one grade; 19.5-21.5M lb guided for 2026 | Supply is adequate enough that Cameco itself buys ~8M lb and can add 3M lb from the market |
+| Conversion (UF6) | Port Hope; 13-14M kgU guided across the fuel services segment | Conversion spot at US$62.50/kgU sits **above** the North American long-term price of US$55.25/kgU — an inversion that signals genuine near-term tightness |
+| Enrichment (SWU) | **No commercial position.** An interest in pre-commercial Global Laser Enrichment | Urenco added ~350,000 SWU at New Mexico toward a 700,000 SWU expansion through 2027; Centrus picked Fluor as EPC for the Piketon expansion |
+| HALEU (advanced-reactor fuel) | **None** | Cameco's own MD&A records that **Centrus**, not Cameco, "entered into a commercial agreement with Oklo Inc. … to support future HALEU supply" |
+| Fuel fabrication | Through Westinghouse (49%) and CANDU bundles | Fabrication capacity follows the reactor fleet, not the mine |
+| Reactor technology | Westinghouse AP1000, 49% owned | DOE conditional commitment of up to US$17.5B for long-lead items for up to 10 AP1000s |
+| Physical inventory demand | Competitor for spot pounds | The Sprott Physical Uranium Trust raised over US$700M and bought about 6M lb in 2026, taking its position past 81M lb |
+
+**New supply is arriving, not stalling.** Since the prior quarter Denison's Phoenix and NexGen's Rook I both received CNSC construction approval; Bannerman secured up to US$321.5M from CNNC for Etango in Namibia against a 60% offtake to China; Uranium Energy started production at Burke Hollow; and Solstice is lifting Metropolis Works conversion output above 10M kgU in 2026, roughly 20% above planned 2024 levels, while studying a second US conversion plant. Meanwhile Kazakhstan approved a national strategy targeting 6.0 GWe by 2040 and 8.4 GWe by 2050, including a strategic uranium reserve of about 100,000 tU — roughly 260M lb U3O8, or more than a decade of Cameco's annual output withdrawn into a state stockpile. That last item is the single most credible physical-tightness argument available, and it is a policy intention rather than a purchase order.
+
+## 3. The Upstream-Constraint Test: Does Fuel Gate the Nuclear Buildout?
+
+This is the section that justifies Cameco's place in this book, and it is the reason its chain role is common constraint rather than dashboard: the question is whether one input gates several layers at once, and the label describes the *job*, not the answer.
+
+**The claim under test.** The power layer's reports assume that nuclear baseload can scale into AI demand. `oklo-2026` prices a 14.7 GW+ pipeline with fuel listed among four decisive checks. `constellation-energy-2026` prices a roughly 55 GW platform, a Crane Clean Energy Center restart and a Meta PPA — and never mentions fuel at all. If uranium, conversion or enrichment were binding, both valuations would be wrong in the same direction, and the book would need to say so.
+
+**The evidence, stated against the claim:**
+
+| Observable | Q1-Q2 2026 disclosure | What it does and does not prove |
+|------------|------------------------|---------------------------------|
+| Spot price path | US$94.28 in January to US$85.00 in June, flat for five months, while quarterly spot volume rose to 18M lb from 12M lb a year earlier | More pounds traded at a lower price. That is not what a physically constrained market looks like. It does not rule out a squeeze later. |
+| Term price path | US$89.00 to US$95.50 over six consecutive months, approaching a 14-year high in constant dollars | Utilities are paying a premium for *secured* multi-year supply. Security-of-supply pricing, not scarcity pricing. |
+| Cameco's own purchasing | Delivers 29-32M lb in 2026 while producing 19.5-21.5M lb; about 8M lb of committed purchases plus optional market purchases of up to 3M lb | The largest western producer can routinely source a third of its book in the market. If pounds were scarce, this would be impossible. |
+| Producer behaviour | "Selective in committing our unencumbered, in-ground uranium inventory," commitments deliberately below average in 2029-2030 | Cameco is rationing its own sales, not rationed by geology. Withheld supply is a pricing strategy, not a shortage. |
+| Where the tightness actually is | Conversion spot US$62.50/kgU above the North American long-term price of US$55.25/kgU; MD&A says downstream service uncertainty "delayed a meaningful return to the procurement of the uranium" | The binding fuel-cycle step in 2026 is **conversion and enrichment**, and uranium procurement has been waiting on it — the reverse of the usual assumption. |
+| The HALEU question | Cameco has no enrichment revenue and no HALEU. Its MD&A records Centrus signing with Oklo for future HALEU supply | The resources layer's largest name is structurally unable to relieve `oklo-2026`'s fuel-supply item. That check belongs to enrichment capacity, not to mine supply. |
+| Physical fragility | Two disruptions in one quarter: Key Lake/McArthur River halted May 10 by a collapsed bridge on the supply route, back to full production May 27; Cigar Lake suspended July 1 by an acid-plant failure at Orano's McClean Lake mill, resumed July 14 | Mine supply is fragile on a two-week timescale and self-healing on a one-quarter timescale. Neither event moved 2026 guidance. |
+| What the state chose to finance | DOE's conditional commitment of up to US$17.5B is for **long-lead items** — forgings, pumps, vessels — for up to 10 AP1000s, not for fuel | A revealed preference. When the US government picked the bottleneck to unblock, it picked heavy manufacturing, not the mine. |
+
+**The answer, stated plainly.** On 2026 evidence, **uranium mine supply is not the binding constraint on the nuclear baseload the power layer assumes.** Pounds are available at a price that has been flat for five months, and the world's largest western producer buys a third of what it sells. The fuel-cycle steps that are genuinely tight are **conversion and enrichment**, and the specific fuel that gates advanced reactors — HALEU — is an enrichment product Cameco does not make. The constraints that actually bind the buildout are further downstream still: reactor construction capital, long-lead heavy manufacturing, and licensing throughput.
+
+**What this changes in the other reports.** Three concrete read-throughs:
+
+1. **`oklo-2026`'s `fuel-supply` monitoring item should be graded against enrichment capacity, not uranium supply.** The relevant evidence is Centrus's Piketon expansion, its Oklo agreement, and DOE HALEU allocation — none of which Cameco can supply or substitute for. Covering the largest uranium miner does *not* discharge that check, and this report says so rather than pretending otherwise.
+2. **`constellation-energy-2026`'s silence on fuel is, on this evidence, defensible.** An operating LWR fleet buys enriched fuel under multi-year contracts and is insulated from spot. The absence is a gap in completeness, not an error in valuation.
+3. **The security-of-supply premium is real and it accrues to term sellers, not spot sellers.** A term price 12% above spot and rising is exactly the environment in which Cameco's *2029-2030* uncommitted slots are valuable — which is a statement about 2029, not about 2026.
+
+**The honest counter-case.** Three things could make this answer wrong within the report's horizon. Kazakhstan's 100,000 tU strategic reserve would remove more than a decade of Cameco's output from the market if it were actually bought. Non-utility buyers — Cameco reports that energy-intensive and hard-to-abate industries have begun contacting fuel suppliers directly — are a demand source with no historical base rate. And the term market transmits scarcity with a two-to-three-year lag, so a squeeze that begins in 2026 shows up in deliveries in 2029, which is precisely where Cameco has left its book open.
+
+## 4. Financial Analysis
+
+Q1 2026 is a good quarter on the income statement and a poor one on the cash-flow statement.
+
+| Metric | Current readout | Interpretation | Grade |
+|--------|-----------------|----------------|-------|
+| Revenue growth | Q1 C$845M (+7%); TTM C$3,538M (derived) | Growth is volume-and-mix, not price; 2026 guidance of C$3,130-3,370M is **below** FY2025's C$3,482M | C |
+| Uranium segment margin | Q1 gross profit C$259M on C$712M revenue (36.4%); adjusted EBITDA C$423M (+48%) | The core asset is genuinely high-margin at C$34.05/lb produced cost against a C$91.26/lb realized price | A |
+| Fuel services | Adjusted EBITDA C$54M (−28%), margin 40% from 56%; realized price C$48.53/kgU (−14%) | The segment sitting closest to the real bottleneck is the one whose margin fell | C |
+| Westinghouse | Our-share net loss C$46M; adjusted EBITDA C$122M (+33%); FY2026 guide US$370-430M against FY2025's C$780M, which is about US$558M at the 2025 average USDCAD of 1.3975 | Guided down roughly 23-34% year over year on a like-currency comparison: 2025 included a US$171.5M our-share Dukovany-linked distribution management says will not repeat | B− |
+| Earnings quality | Q1 net earnings C$131M against adjusted net earnings C$203M; the C$72M gap is mostly C$53M of share-based compensation and C$40M of derivative adjustments | Share-based compensation swung C$55M year over year purely on the Q1 share-price move — a mark-to-market of the stock, booked as an expense | C+ |
+| Cash generation | Q1 cash **used** in operations C$22M, C$132M worse than Q1 2025, on working capital and taxes paid; TTM operating cash flow C$1,276M (derived) | Quarterly cash flow is lumpy by design; the TTM figure is the one to use | B |
+| Price sensitivity | +US$5/lb spot: revenue +C$20M, ANE **−C$1M**, cash flow **−C$16M**. −US$5/lb: revenue −C$36M, ANE −C$11M, cash flow **+C$4M** | The single most counter-intuitive disclosure in the file: in 2026 Cameco is close to *short* the uranium price on earnings, because ceilings cap sales while JV Inkai purchases float with spot | Caution |
+| Balance sheet | C$1.1B cash and short-term investments against C$1.0B total debt; C$1.0B revolver undrawn to Oct 2029; ~C$2.8B of unsecured lines | Roughly net-cash. Genuine strategic patience is affordable | A− |
+| Off-balance-sheet | C$1.6B of financial assurances (from C$1.5B), lifted by the Rabbit Lake reclamation update; C$559M of cash and letters of credit still held by the CRA | Reclamation and tax collateral are real claims on liquidity, not accounting artefacts | B |
+| Capital returns | C$0.24/share annual dividend, raised in Nov 2025 a year ahead of plan; no buyback disclosed | A **0.19%** yield at US$88.23. Shareholders are being paid in optionality, not cash | C |
+| Foreign exchange | 2026 guidance assumes 1.33 USDCAD; the actual rate on 2026-07-30 was **1.40358**. A one-cent move is worth about C$17M of revenue; US$1.21B is hedged for 2026 at 1.36 | The weaker Canadian dollar is a mechanical tailwind to guided C$ revenue that has nothing to do with uranium | B+ |
+
+Resources- and power-layer cross-reference (each column at its own reported period; not restated):
+
+| Metric | Cameco (Q1 2026) | Almonty (`almonty-2026`) | COPX (`copx-2026`) | Oklo (`oklo-2026`) | Constellation (`constellation-energy-2026`) |
+|--------|------------------|--------------------------|--------------------|--------------------|---------------------------------------------|
+| Layer / role | resources / common constraint | resources | resources | power / risk anchor | power / common constraint |
+| Coverage tier | full | full | lite | full | full |
+| Stance at last update | neutral-watch / medium | cautious | constructive | constructive / low | neutral-watch / medium |
+| What it constrains | Nuclear fuel supply | Tungsten, defense and manufacturing inputs | Copper for grid and electrification | Advanced-reactor deployment | Dispatchable nuclear-led capacity |
+| Commodity linkage | Muted: realized US$66.21/lb against US$84.25 spot | Direct offtake pricing | Direct basket exposure | None; pre-revenue | Hedged through PPAs |
+| Price anchor used here | US$88.23 (2026-07-30) | see report | see report | US$41.09 (2026-07-30) | US$239.25 (2026-07-02) |
+
+Red-flag check:
+
+| Red flag | Current status | What to re-check |
+|----------|----------------|------------------|
+| Revenue guided below prior year | 2026 guidance C$3,130-3,370M against FY2025 C$3,482M, on deliveries of 29-32M lb against 33M lb in 2025 | Whether 2027 deliveries recover, and at what realized price |
+| Earnings multiple against the cycle | About 82.9x TTM reported earnings and 71.0x TTM adjusted net earnings | Whether realized price converges toward the term indicator by 2028-2029 |
+| Price upside does not reach the P&L | Cameco's own sensitivity: +US$5/lb spot cuts ANE by C$1M and cash flow by C$16M | The quarterly realized price against the term indicator; the sensitivity table each quarter |
+| Equity-method opacity | Westinghouse and JV Inkai are both equity-accounted; Westinghouse contributes about a third of segment adjusted EBITDA and a net loss | Our-share adjusted EBITDA and distributions, not reported net income |
+| Operational fragility | Two site disruptions inside one quarter; an extended Key Lake mill shutdown is planned for Q3 2026 | Whether the Q3 tie-in completes on schedule; whether 19.5-21.5M lb holds |
+| Compensation-linked earnings noise | Share-based compensation rose C$55M year over year on the Q1 share-price move alone | The gap between reported and adjusted net earnings each quarter |
+| Tax dispute overhang | 2003-2006 finally resolved in Cameco's favour after the Supreme Court dismissed the CRA's leave application; C$559M still held; 2007-2019 positions outstanding | Return of the C$559M, and any new CRA position |
+
+## 5. Management & Governance
+
+Tim Gitzel's Cameco has been run on one idea for a decade: sell less than you can produce, and sell it later. The 2026 filings are the cleanest statement of that idea in the company's history, and they are simultaneously the clearest statement of its cost.
+
+The discipline is real and it is quantified. Commitments average about 28M lb per year from 2026 through 2030, deliberately above that average in 2026-2028 and below it in 2029-2030, so that the open slots sit in the years where the company expects better terms. The company describes itself as "selective in committing our unencumbered, in-ground uranium inventory and UF6 conversion capacity." That is a capital-allocation decision disguised as a marketing policy, and on the evidence of the term price rising every month of H1 2026 it has been the right one.
+
+The cost of that discipline is equally quantified, and management does not hide it. The price-sensitivity table published every quarter is an unusually honest artefact: it shows that if spot doubled to US$160/lb and the contract book stayed exactly as it was on 2026-03-31, the 2026 realized price would be **US$70/lb** rather than US$66. Very few companies publish a table demonstrating that their headline commodity's upside does not reach them.
+
+Two decisions in this cycle deserve to be named precisely. Buying out TEPCO's 5% Cigar Lake interest for about C$115.75M, lifting Cameco to 57.418%, is the cheapest incremental tier-one uranium available anywhere — a licensed, permitted, operating orebody with 172.4M lb of reserves, bought at a price the company can fund out of a single quarter's segment EBITDA. And raising the dividend to C$0.24 a year ahead of plan, while the stock yields 0.19%, is a gesture rather than a capital-return policy; shareholders should read it as such.
+
+Disclosure quality is genuinely high, and this report's medium conviction is calibrated to it:
+
+| Disclosure | Assessment |
+|------------|------------|
+| Realized-price sensitivity table across US$40-160/lb spot and 2026-2030 delivery years | Best-in-class. It is the exhibit that makes this report possible and it works against management's own narrative |
+| Contract-book shape (about 28M lb/year, weighted to 2026-2028) | Strong on direction, deliberately vague on volume by year and on ceiling levels |
+| Cost per pound, produced and purchased, reconciled to cost of sales | Strong; life-of-mine unit costs disclosed per site |
+| Westinghouse | Adequate but thin: our-share EBITDA, D&A, finance costs and capex, no order book, no segment revenue split we can safely use |
+| Westinghouse five-year outlook | **Withdrawn.** Management eliminated the five-year growth outlook and now guides Westinghouse for the current year only |
+| JV Inkai economics | Honest and complicated: production booked as a purchase at spot less 5%, with the benefit arriving as a dividend a year later |
+| Uranium market data | Cameco republishes UxC and TradeTech month-end averages on its own site — useful, and secondary rather than filed |
+
+Two governance watch items follow. First, the withdrawal of the Westinghouse five-year outlook removes the only forward frame investors had for the asset that carries a third of segment earnings power, at exactly the moment the DOE program makes its trajectory most uncertain — defensible, and it lowers what an outsider can underwrite. Second, share-based compensation now swings consolidated administration expense by tens of millions on the share price alone (C$122M of total administration in Q1 against C$59M a year earlier), which means reported earnings partly measure the stock rather than the business.
+
+## 6. Bull Case
+
+The bull case is that Cameco owns the scarcest thing in a fuel cycle the world has decided it needs, that its contract book is deliberately open in the years when that scarcity is most likely to price, and that a US government reactor program is about to convert a 49% equity stake into a franchise.
+
+1. **The term price is telling you what the next contracts cost.** The long-term indicator rose every month of H1 2026 to US$95.50/lb, approaching its highest level since 2012 in constant dollars, while spot went sideways. Cameco's sensitivity table says that if spot holds around US$100/lb, its 2029 realized price is roughly US$85/lb and its 2030 price roughly US$87/lb, against US$67 in 2026. The re-rating is contractual, not speculative — it just takes until 2029.
+2. **The 2029-2030 book is intentionally empty.** Commitments are below the five-year average in exactly those years, and management says it expects "to continue layering in volumes that capture greater future upside using market-related pricing mechanisms." That is optionality that a producer with a full book does not have.
+3. **The assets are irreplaceable and getting cheaper per pound.** McArthur River/Key Lake and Cigar Lake carry life-of-mine operating costs of C$21.72/lb and C$23.94/lb. The TEPCO buyout added 2.871 points of Cigar Lake for about C$115.75M. New western supply takes a decade: Denison's Phoenix and NexGen's Rook I only received *construction* approval this year and still need operating licences.
+4. **Westinghouse is a call option the market is not paying for.** The US government partnership signed in October 2025 carries an aggregate investment value of at least US$80B; DOE's June 2026 conditional commitment provides up to US$17.5B toward long-lead items for up to 10 AP1000s, with the loan expected to be repaid from long-lead-item sales as partners reach final investment decisions. Cameco's 49% share is carried at equity-method book value and produced a net loss last quarter.
+5. **Demand is broadening beyond utilities.** Cameco reports non-utility, energy-intensive and hard-to-abate industrial buyers contacting fuel suppliers directly to understand procurement. 38 countries have pledged to triple nuclear capacity; the World Nuclear Association's inaugural outlook puts 2050 capacity at up to 1,446 GWe against the 1,200 GWe declaration target.
+
+Upside frame: if the term price holds above US$95/lb and Cameco fills its 2029-2030 slots at market-related terms, uranium-segment realized prices in the mid-US$80s against low-C$30s production costs would roughly double segment gross margin per pound versus 2026, and a Westinghouse franchise generating US$600M+ of our-share adjusted EBITDA with an AP1000 order book would deserve a visible sum-of-parts value rather than an equity-method footnote.
+
+## 7. Bear Case
+
+The bear case is not that Cameco is a bad company. It is that at US$88.23 you are paying a growth-asset multiple for a business whose own filings say its earnings will not follow the uranium price for another three years, and whose 2026 revenue is guided down.
+
+1. **The multiple is not supported by anything in the current file.** About 82.9x trailing reported earnings, 71.0x trailing adjusted net earnings, 25.8x EV to trailing adjusted EBITDA and roughly 16.6x guided 2026 revenue, for a company guiding revenue *below* the prior year on deliveries of 29-32M lb against 33M lb in 2025.
+2. **Uranium upside actively hurts near-term earnings.** Cameco's own disclosure: +US$5/lb on spot means +C$20M revenue, **−C$1M** adjusted net earnings and **−C$16M** cash flow, because ceilings cap the sales side while JV Inkai purchases at spot less 5% float upward. Buying CCJ as a levered uranium call is, on 2026 mechanics, backwards.
+3. **The gap between price and realization is structural, not temporary.** Realized US$66.21/lb against a US$91.50 term indicator is a 28% discount, and the sensitivity table shows it closing only slowly: even at a US$120/lb spot, 2027's realized price is US$76 and 2028's is US$84.
+4. **Westinghouse is guided down and its outlook window was shortened.** FY2026 our-share adjusted EBITDA of US$370-430M against FY2025's C$780M — about US$558M at the 2025 average USDCAD of 1.3975, so a like-currency decline of roughly 23-34% — with the five-year outlook withdrawn. The guide itself assumes Westinghouse and the US government "enter into definitive agreements" and that work advances on at least one project during the year — conditions that were still unmet as of the June 23 announcement, which was explicitly a *conditional* commitment.
+5. **The operating base is fragile in ways that do not show up in reserves.** Two disruptions in one quarter — a collapsed bridge and a third party's sulfuric acid plant — halted the world's two best uranium mines. Neither was Cameco's fault and neither moved guidance, which is precisely the point: a producer this concentrated has a thin margin between "no impact" and "guidance cut," and an extended Key Lake mill shutdown is already scheduled for Q3 2026.
+6. **Supply is responding.** Phoenix and Rook I cleared construction approval, Burke Hollow started up, Etango secured Chinese funding against a 60% offtake, and Solstice is expanding conversion by about 20%. The 2029-2030 slots that carry the bull case are the same years the new supply is scheduled to arrive.
+
+Downside frame: if the term price stalls near US$90/lb and Cameco fills 2029-2030 at terms similar to today's book, TTM adjusted EBITDA of roughly C$2.1B does not grow much before 2029. A de-rate to 15-18x EV/adjusted EBITDA — still a full multiple for a miner — implies roughly C$32-38B of enterprise value, or about **US$51-62 per share** on 435.5M shares at 1.40358, some 30-42% below the anchor and back toward the 2025 lows.
+
+## 8. Key Uncertainties
+
+| Uncertainty | Why it matters | When we will know |
+|-------------|----------------|-------------------|
+| What did Q2 2026 print? | The report's own base period is one quarter stale by design; consensus expected a materially weaker quarter than Q1 | 2026-07-31, pre-market — within hours of publication |
+| Does the term price hold above US$95/lb? | It is the price Cameco's 2029-2030 slots will reference; the entire bull case is a duration bet on it | Monthly UxC/TradeTech averages |
+| At what terms does the 2029-2030 book fill? | Market-related mechanisms with high ceilings preserve the option; base-escalated fills destroy it | Quarterly contracting commentary and the sensitivity table |
+| Do Westinghouse and the US government sign definitive agreements? | FY2026 Westinghouse guidance explicitly assumes it, and the DOE commitment is conditional | Event-driven; DOE and Westinghouse announcements |
+| Does the Key Lake Q3 tie-in complete on schedule? | An extended shutdown for new infrastructure; failure would put 19.5-21.5M lb at risk | Q3 2026 results, late Oct/Nov 2026 |
+| Does conversion tightness spread upstream to uranium? | The MD&A's own causal story is that downstream uncertainty *delayed* uranium procurement; the reversal is the bull trigger | Conversion spot versus long-term prices; utility RFP flow |
+| Does the CRA return the C$559M? | Cash and letters of credit held against a dispute now resolved in Cameco's favour for 2003-2006 | Event-driven; no timeline disclosed |
+
+Thesis-breaking conditions:
+
+- **Bear case breaks:** the term indicator holds above US$95/lb into 2027 while Cameco fills 2029-2030 at market-related terms with high ceilings, the quarterly realized price starts converging toward the term price, Westinghouse signs definitive DOE agreements and delivers at or above the top of its US$370-430M guide, and production holds at 19.5-21.5M lb through the Key Lake tie-in.
+- **Bull case breaks:** the term indicator falls back toward or below spot, the 2029-2030 slots fill at base-escalated pricing, Westinghouse's definitive agreements slip past 2026 or its guide is cut, or a production disruption forces a guidance reduction.
+
+## 9. Valuation Context
+
+The following is valuation context, not a target price or recommendation. All arithmetic uses the 2026-07-30 NYSE close of **US$88.23** and 435,532,978 common shares outstanding at 2026-05-01, giving a market capitalization of about **US$38.4B**, or **C$53.9B** at the 2026-07-30 USDCAD rate of 1.40358. Cameco reports in Canadian dollars, so every multiple below is computed with both sides in C$. Trailing-twelve-month figures are the four quarters ended 2026-03-31, **derived by this report** as FY2025 minus Q1 2025 plus Q1 2026: revenue C$3,538M, reported net earnings C$651M, adjusted net earnings C$760M, adjusted EBITDA C$2,085M, operating cash flow C$1,276M. Enterprise value uses net cash of about C$0.1B (C$1.1B of cash and short-term investments less C$1.0B of total debt at 2026-03-31), giving an EV of about C$53.8B.
+
+| Method | Current readout | Key assumptions | Interpretation |
+|--------|-----------------|-----------------|----------------|
+| P / TTM revenue | C$53.9B / C$3,538M = **~15.2x** | TTM derived as above | Extreme for a producer whose revenue is guided lower next year |
+| P / TTM reported earnings | C$53.9B / C$651M = **~82.9x** | IFRS net earnings attributable to equity holders | Inflated by share-linked compensation and derivative marks; still not defensible on its own |
+| P / TTM adjusted net earnings | C$53.9B / C$760M = **~71.0x** | Company-defined ANE, the cleaner series | The honest earnings multiple, and it is very full |
+| EV / TTM adjusted EBITDA | C$53.8B / C$2,085M = **~25.8x** | Includes the equity-accounted contribution from Westinghouse and JV Inkai | The most meaningful single multiple; a mid-20s figure for a mining company assumes a large step-up |
+| P / 2026E guided revenue | C$53.9B / C$3,250M midpoint = ~16.6x | Company guidance of C$3,130-3,370M | Forward multiple is *higher* than trailing, because guided revenue falls |
+| Operating cash flow yield | C$1,276M / C$53.9B = **~2.4%** | TTM operating cash flow, derived | Guided 2026 capex of C$490-540M consumes roughly 40% of it |
+| Dividend yield | C$0.24 / C$123.84 per share = **~0.19%** | Annual dividend; share price converted at 1.40358 | Effectively no cash return; the equity is entirely a duration bet |
+| Segment earnings mix | Uranium C$1,392M, fuel services C$198M, Westinghouse C$810M, corporate C$−315M | Our own TTM segment arithmetic, same construction as above | About a third of segment earnings power is equity-accounted and invisible in revenue |
+| Implied per-pound value | C$53.8B EV / 20.5M lb midpoint 2026 production = about C$2,626 per annual pound | Production guidance midpoint, our share | A capitalization rate that only works on volumes and prices well beyond 2026 |
+| Sensitivity to the anchor | A 10% move in the share price moves the EV/adjusted EBITDA multiple by about 2.5 turns | Same TTM denominator | The stock has already moved 34.2% from its January high, so the multiple is path-dependent |
+
+**Cameco's own realized-price sensitivity (US$/lb, at 2026-03-31, rounded to the nearest US$1):** this table is the most load-bearing exhibit in the report. It shows, in the company's own numbers, that near-term realizations barely respond to the uranium price while 2029-2030 realizations respond strongly — the bear case and the bull case in one grid. It assumes the contract portfolio stays exactly as it was on 2026-03-31 and 2% US inflation escalation, and it is not a forecast.
+
+| Delivery year | Spot US$40 | Spot US$60 | Spot US$80 | Spot US$100 | Spot US$120 | Spot US$140 | Spot US$160 |
+|---------------|-----------|-----------|-----------|------------|------------|------------|------------|
+| 2026 | 55 | 60 | 66 | 67 | 68 | 69 | 70 |
+| 2027 | 46 | 57 | 69 | 74 | 76 | 78 | 79 |
+| 2028 | 49 | 59 | 72 | 79 | 84 | 88 | 92 |
+| 2029 | 52 | 61 | 74 | 85 | 90 | 95 | 99 |
+| 2030 | 53 | 63 | 76 | 87 | 93 | 99 | 105 |
+
+Read the top row and the bottom row together: quadrupling spot from US$40 to US$160 moves the 2026 realization by US$15/lb, and the 2030 realization by US$52/lb. Cameco's operating leverage to uranium is a 2029 asset.
+
+**Scenario grid:**
+
+| Scenario | Driver assumptions (term price / 2029-2030 contracting / Westinghouse / operations) | Valuation implication versus today | Subjective probability weight |
+|----------|--------------------------------------------------------------------------------------|------------------------------------|-------------------------------|
+| Bull | Term indicator holds above US$95/lb and grinds higher; 2029-2030 slots fill at market-related terms with high ceilings, putting realizations in the mid-US$80s; Westinghouse signs definitive DOE agreements and the AP1000 program converts to orders; production holds through the Key Lake tie-in | US$88.23 proves cheap: a 2029-2030 earnings step-up plus a visible Westinghouse franchise justify paying today's multiple on trailing numbers | 30% |
+| Base | Term indicator holds around US$90-95/lb; realizations converge slowly along the published sensitivity path; Westinghouse lands inside its US$370-430M guide with the DOE program advancing but slipping; production meets 19.5-21.5M lb | Full, with limited margin of safety: ~25.8x EV/adjusted EBITDA and a 0.19% yield already pay for the duration bet | 40% |
+| Bear | Term indicator stalls near US$90/lb or retreats toward spot; new supply from Phoenix, Rook I, Burke Hollow and Etango lands into the same 2029-2030 window; Westinghouse guidance is cut or definitive agreements slip; one disruption forces a production cut | De-rates toward 15-18x EV/adjusted EBITDA, roughly C$32-38B of EV or about US$51-62 per share | 30% |
+
+**What's priced in & the expectation gap:** the market has already done a great deal of repricing. CCJ closed at US$134.09 on 2026-01-28 and at US$88.23 on 2026-07-30 — **−34.2%** — while the monthly average uranium spot price fell only from US$94.28 in January to US$85.00 in June, about −9.9%. The equity de-rated roughly three and a half times as much as the commodity, which means the froth argument is weaker now than it was in January. What is priced in at ~25.8x EV/adjusted EBITDA: that realizations converge toward the term price on schedule, that Westinghouse's DOE program converts, and that production holds. What is *not* obviously priced in either direction: whether the 2029-2030 slots fill at high-ceiling market-related terms or at flat escalated ones — the single variable that decides whether this is a 2029 earnings story or a permanently capped one.
+
+The grid's arithmetic skew is symmetric by construction (30% against 30%), and that symmetry is the finding rather than a hedge. The two sides differ in *timing and evidence quality*, not in probability: everything supporting the upside is dated 2028-2030 and conditional on contracts not yet signed, while everything supporting the downside — the multiple, the guided revenue decline, the negative earnings sensitivity to spot, the withdrawn Westinghouse outlook, the 0.19% yield — is already printed in filings dated 2026. A symmetric grid whose positive side is entirely deferred is the definition of neutral-watch, which is where this initiation opens.
+
+## 10. Catalysts & Timeline
+
+| Catalyst | Timing | Impact |
+|----------|--------|--------|
+| Q2 2026 results and MD&A, including the refreshed realized-price sensitivity table | 2026-07-31, pre-market | The immediate test; also the first quarterly update to the report's central exhibit |
+| Monthly UxC/TradeTech term-price prints | Monthly | The bull case is a duration bet on this series holding above US$95/lb |
+| Key Lake mill extended maintenance shutdown and new-infrastructure tie-in | Q3 2026 | Execution risk against the 19.5-21.5M lb guide; also adds future supply flexibility |
+| Westinghouse and US government definitive agreements under the October 2025 partnership | Event-driven | Explicitly assumed in FY2026 Westinghouse guidance; the DOE's US$17.5B commitment is conditional on it |
+| First AP1000 partner final investment decision under the DOE long-lead-item structure | Event-driven | Each project requires about US$1B of upfront equity, US$500M from each side, before DOE funds are drawn |
+| Q3 2026 results: whether contracting volumes land in 2029-2030 and on what mechanisms | Late Oct / Nov 2026 | The variable that decides between the bull and bear frames |
+| CRA return of the C$559M of cash and letters of credit | Event-driven; no timeline disclosed | A one-off liquidity release, not an earnings event |
+
+The structured monitoring fields focus on six readouts: the imminent Q2 print, the term-versus-spot spread, the realized-price gap and its 2029-2030 optionality, contract-book depth, Westinghouse's DOE conversion, and mine-supply reliability.
+
+## 11. Conclusion
+
+Cameco enters this book as the resources layer's common constraint, and the value it adds is a negative finding delivered with the evidence attached. The power layer's two anchors assume nuclear baseload scales; neither checks its fuel; and on 2026 disclosure the fuel is not what stops it. Uranium spot has been flat around US$85/lb for five months on rising volumes, the largest western producer buys roughly a third of what it sells, new mines and conversion capacity are being approved and expanded, and when the US government picked a bottleneck to unblock with US$17.5B it picked heavy manufacturing for AP1000s, not the mine. The fuel-cycle steps that are actually tight are conversion and enrichment — and the specific fuel that gates advanced reactors, HALEU, is an enrichment product Cameco does not make. `oklo-2026`'s fuel-supply check therefore does not get discharged by this report; it belongs to Centrus, Urenco and DOE allocation, and this report's job was to establish that precisely.
+
+At the chain level the read is constructive for the power layer and neutral for the resources layer. Cameco's own MD&A supplies the cross-check that `oklo-2026` could not supply for itself: Centrus signed a commercial HALEU agreement with Oklo, and Centrus selected an EPC partner for the Piketon expansion. That is a genuine advance on Oklo's fuel item, recorded in a filing rather than a press release, and it points the check at enrichment.
+
+At the company level Cameco is exactly what it claims to be: the best orebodies in the industry, a genuinely disciplined contract book, roughly net cash, and a 49% Westinghouse stake attached to a US government program with an aggregate investment value of at least US$80B. Management publishes a quarterly table that undercuts its own equity story, which is rare and creditable.
+
+At the stock level the discipline point is simple. The company's own numbers say that even a quadrupling of spot would lift the 2026 realized price by US$15/lb, and that a US$5/lb rise in spot *lowers* adjusted net earnings. Paying about 71x trailing adjusted net earnings and 25.8x EV to trailing adjusted EBITDA, for a 0.19% yield, on revenue guided below last year, is paying today for 2029. That may well work — the 2029-2030 slots are genuinely open and the term price is genuinely at a 14-year high — but it is a duration bet, and it should be priced as one.
+
+The initiation stance is **neutral-watch, medium conviction**, from a symmetric 30% bull / 40% base / 30% bear grid. Medium, not high, because Cameco's disclosure quality is unusually good and the central mechanism — contractual price lag — is published quarterly by the company itself, so the analysis rests on primary evidence rather than inference. Neutral-watch, not cautious, because the asset base and the balance sheet remove the downside tail that a "cautious" rating should imply, and not constructive, because every reason to be constructive is dated 2029.
+
+Upgrade trigger: the long-term price indicator holds above US$95/lb into 2027 while Cameco fills its 2029-2030 slots at market-related terms with high ceilings, the quarterly realized price begins converging toward the term indicator, and Westinghouse signs definitive US government agreements and delivers at or above the top of its US$370-430M guidance — upgrade to constructive. Downgrade trigger: the Q2 or a subsequent print shows realized price and contracting deteriorating against the published sensitivity path, the term indicator falls back toward spot, the 2029-2030 book fills at base-escalated pricing, Westinghouse guidance is cut or its definitive agreements slip past 2026, or a production disruption forces a cut to the 19.5-21.5M lb guide — downgrade to cautious.
+
+## Appendix: Sources & Assumptions
+
+- Q1 2026 consolidated figures (revenue C$845M, gross profit C$302M, net earnings attributable to equity holders C$131M, basic and diluted EPS C$0.30, adjusted net earnings C$203M and C$0.47 per diluted share, adjusted EBITDA C$509M, cash used in operations C$22M), segment figures (uranium revenue C$712M, gross profit C$259M, earnings before income taxes C$358M, adjusted EBITDA C$423M, production 6.2M lb, sales 7.8M lb, average realized price US$66.21/lb and C$91.26/lb; fuel services revenue C$134M, earnings before income taxes C$44M, adjusted EBITDA C$54M at a 40% margin, production 3.3M kgU, sales 2.8M kgU, average realized price C$48.53/kgU; Westinghouse our-share net loss C$46M, adjusted EBITDA C$122M, adjusted free cash flow C$72M), unit costs (produced cash cost C$23.02/lb, non-cash C$11.03/lb, total C$34.05/lb; purchased C$110.42/lb on 0.2M lb; blended produced-and-purchased C$36.44/lb on 6.4M lb; cash cost per pound C$25.75), site production (McArthur River/Key Lake 5.0M lb packaged, 3.5M lb our share; Cigar Lake 4.9M lb, 2.7M lb our share; JV Inkai 2.5M lb on a 100% basis), inventory (9.1M lb at an average cost of C$50.24/lb, plus 750,000 lb borrowed under product loan facilities), the balance sheet (C$1.1B of cash, cash equivalents and short-term investments; C$1.0B of total debt; a C$1.0B undrawn revolving facility maturing 2029-10-01; about C$2.8B of unsecured lines; C$1.6B of financial assurances), distributions (US$49M from Westinghouse in Q1 2026; US$124M net from JV Inkai in April 2026), the contract book (commitments averaging about 28M lb per year from 2026 through 2030, above average in 2026-2028 and below in 2029-2030), the 2026 outlook (production 19.5-21.5M lb our share; Cigar Lake 17.5-18.0M lb and McArthur River/Key Lake 14-16.5M lb on a 100% basis; deliveries 29-32M lb; consolidated revenue C$3,130-3,370M with uranium C$2,540-2,730M and fuel services C$590-630M; average realized price C$85.00-89.00/lb; unit cost of sales C$61.50-65.00/lb; fuel services production and sales 13-14M kgU at C$31.50-33.50/kgU; capital expenditures C$490-540M; direct administration C$245-260M; exploration C$30-35M; research and development C$50-55M; committed purchases about 8M lb and market purchases up to 3M lb; Westinghouse our-share adjusted EBITDA US$370-430M and capital expenditures US$160-200M against US$147M in 2025), the revenue/ANE/cash-flow sensitivity to a US$5/lb move in spot, the expected realized-price sensitivity table across US$40-160/lb spot for 2026-2030 delivery years, the FX assumptions (1.33 USDCAD in guidance; US$1.21B hedged for 2026 at 1.36; about C$17M of revenue per one-cent move), life-of-mine unit operating costs (C$21.72/lb at McArthur River/Key Lake, C$23.94/lb at Cigar Lake), the Westinghouse ownership structure (Cameco 49%, Brookfield 51%, equity method in Canadian dollars), the Q1 market data (spot US$84.25/lb and long-term US$91.50/lb at 2026-03-31; spot volume 18M lb against 12M lb; long-term contracting 19M lb against 18M lb; conversion spot US$62.50/kgU and North American long-term US$55.25/kgU), the supply and demand developments cited in §2 and §3 (SPUT, Denison Phoenix, NexGen Rook I, Bannerman Etango, Uranium Energy Burke Hollow, Solstice Metropolis Works, Urenco New Mexico, Centrus Piketon and its commercial agreement with Oklo, IAEA reactor counts, the World Nuclear Association outlook, the Kazakhstan strategy and its 100,000 tU reserve), the share count (435,532,978 common shares and one Class B share at 2026-05-01), the CRA transfer-pricing status and the C$559M held, and the planned extended Key Lake mill shutdown in Q3 2026 are all from Cameco's official Q1 2026 disclosure filed on Form 6-K dated 2026-05-05: [Q1 2026 news release](https://www.sec.gov/Archives/edgar/data/1009001/000119312526205080/d103546dex991.htm) and [Q1 2026 MD&A](https://www.sec.gov/Archives/edgar/data/1009001/000119312526205080/d103546dex992.htm).
+- FY2025 comparatives used to derive trailing-twelve-month figures (revenue C$3,482M, gross profit C$970M, net earnings attributable to equity holders C$590M, EPS C$1.35, adjusted net earnings C$627M and C$1.44 per diluted share, adjusted EBITDA C$1,929M, cash provided by operations C$1,408M; uranium segment revenue C$2,874M and adjusted EBITDA C$1,255M; fuel services revenue C$562M and adjusted EBITDA C$219M; Westinghouse our-share net earnings C$58M and adjusted EBITDA C$780M; cash and short-term investments C$1.2B against C$1.0B of debt at 2025-12-31), the dividend increase to C$0.24 per common share in November 2025, the October 2025 Westinghouse distribution of US$350M of which US$171.5M was Cameco's share tied to Dukovany, and the October 2025 strategic partnership with the US government carrying an aggregate investment value of at least US$80B are from Cameco's FY2025 results, filed on Form 6-K dated 2026-02-13: [FY2025 news release](https://www.sec.gov/Archives/edgar/data/1009001/000119312526049832/d34107dex991.htm).
+- The 2026 operating events are from Cameco's own news releases filed on Form 6-K: the May 27, 2026 resumption of McArthur River/Key Lake after the Smoothstone River Bridge collapse, with the consolidated 19.5-21.5M lb outlook unchanged ([2026-05-28 filing](https://www.sec.gov/Archives/edgar/data/1009001/000119312526243228/d162807dex991.htm)); the June 1, 2026 agreement to acquire TEPCO Resources' 5% Cigar Lake interest for about C$115.75M, including Cigar Lake's 172.4M lb of proven and probable reserves, 26.3M lb of measured and indicated resources and 20.0M lb of inferred resources on a 100% basis at 2025-12-31, about 174.5M lb produced since 2014, and the CLExt work to extend mine life to 2036 ([2026-06-01 filing](https://www.sec.gov/Archives/edgar/data/1009001/000119312526251389/d131530dex991.htm)); the June 23, 2026 DOE conditional commitment of up to US$17.5B for long-lead items for up to 10 AP1000 reactors, including the special-purpose-vehicle structure and the roughly US$500M-per-side equity requirement ([2026-06-23 filing](https://www.sec.gov/Archives/edgar/data/1009001/000119312526279269/d83887dex991.htm)); the July 1, 2026 Cigar Lake suspension caused by the sulfuric acid plant at Orano's McClean Lake mill ([2026-07-02 filing](https://www.sec.gov/Archives/edgar/data/1009001/000119312526293855/d21040dex991.htm)); the July 2, 2026 closing that lifted Cameco to 57.418% of Cigar Lake against Orano's 42.582% ([2026-07-06 filing](https://www.sec.gov/Archives/edgar/data/1009001/000119312526295796/d95710dex991.htm)); and the July 14, 2026 resumption of Cigar Lake production with the 17.5-18.0M lb outlook intact ([2026-07-15 filing](https://www.sec.gov/Archives/edgar/data/1009001/000119312526304516/d113725dex991.htm)).
+- **Company-published market data rather than filed figures, labelled as such:** the 2026 monthly average uranium spot and long-term prices used in §2 and §9 (January US$94.28/US$89.00, February US$86.95/US$90.00, March US$84.25/US$91.50, April US$86.35/US$91.50, May US$84.18/US$94.00, June US$85.00/US$95.50) are from Cameco's own market page, which states that "Cameco calculates industry average prices from the month-end prices published by UxC and TradeTech": [Cameco uranium price page](https://www.cameco.com/invest/markets/uranium-price). **Third-party coverage rather than a company or filed source, labelled as such:** a late-July 2026 spot reading of about US$86.42/lb dated 2026-07-30 is from [carboncredits.com](https://carboncredits.com/uranium-prices-today/) and is used only as directional corroboration that spot remained near US$85/lb after the June month-end average; no figure in this report depends on it. The observation that Cameco is roughly 22-23% of the Global X Uranium ETF (URA) and that Oklo is roughly 5-6% of it, used in the benchmark rationale, is from third-party ETF-holdings coverage and is approximate.
+- **Derived by this report, not company disclosure:** the trailing-twelve-month figures for the four quarters ended 2026-03-31 are computed as FY2025 minus Q1 2025 plus Q1 2026 — revenue C$3,482M − C$789M + C$845M = C$3,538M; net earnings C$590M − C$70M + C$131M = C$651M; adjusted net earnings C$627M − C$70M + C$203M = C$760M; adjusted EBITDA C$1,929M − C$353M + C$509M = C$2,085M; operating cash flow C$1,408M − C$110M + (−C$22M) = C$1,276M. The TTM segment decomposition uses the same construction: uranium C$1,255M − C$286M + C$423M = C$1,392M; fuel services C$219M − C$75M + C$54M = C$198M; Westinghouse our-share C$780M − C$92M + C$122M = C$810M; the residual corporate drag of about C$−315M is the difference between the segment sum and consolidated adjusted EBITDA. Per-share amounts are not strictly additive across periods, so derived per-share figures are approximate. This report deliberately does **not** use Cameco's disclosed Westinghouse revenue line, because the published table is ambiguous as to whether it is stated on a 49% or a 100% basis; only our-share net earnings and adjusted EBITDA, which are unambiguously labelled, are used.
+- Share price (US$88.23, the 2026-07-30 NYSE close), the July 2026 price path (US$89.33 on 07-23, US$87.86 on 07-24, US$89.35 on 07-27, US$86.96 on 07-28, US$84.57 on 07-29 and US$88.23 on 07-30), the trailing-year closing range (US$70.47 on 2025-08-20 to US$134.09 on 2026-01-28, with intraday extremes of US$68.96 on 2025-08-20 and US$135.24 on 2026-01-29), the USDCAD rate of 1.40358 on 2026-07-30, the 2025 calendar-year average USDCAD of 1.3975 (the mean of 257 daily closes, used only to state Westinghouse's FY2025 our-share adjusted EBITDA of C$780M as approximately US$558M so that it can be compared like-for-like with the FY2026 guide, which Cameco publishes in US dollars), and the benchmark comparison figures used in the benchmark rationale (CCJ −34.2% versus URA −35.7%, COPX −13.6%, XLU +3.1% and SMH +29.3% from the 2026-01-28 close to the 2026-07-30 close, with daily-return correlations to CCJ of 0.92 for URA, 0.74 for COPX and 0.58 for SMH) were pulled via Yahoo Finance/yfinance on 2026-07-31. Market capitalization (~US$38.4B / ~C$53.9B), enterprise value (~C$53.8B) and every multiple are computed from the verified close and the 435,532,978 share count disclosed in the Q1 2026 MD&A, and are labelled with the 2026-07-30 anchor date. US markets had not opened for the 2026-07-31 session at the time of writing, so 2026-07-30 is the last completed close. This market-data snapshot can be revised by the data provider and is subsequently maintained by `static/invest/research/update_prices.py`.
+- As of 2026-07-31 05:12 EDT, Cameco's Q2 2026 results had not been filed on EDGAR (the most recent filing was the 6-K dated 2026-07-15) and were not retrievable from the company's newsroom or from third-party coverage. Cameco's Q1 2026 news release states the intention to report Q2 before markets open on 2026-07-31. This report is therefore anchored to Q1 2026 and carries the Q2 print as an ungraded monitoring item.
+- Peer and cross-report figures for Oklo, Constellation Energy, Almonty and COPX are from the `oklo-2026`, `constellation-energy-2026`, `almonty-2026` and `copx-2026` reports in this hub, each stated at its own reported period and not restated to a common calendar. The observation that `constellation-energy-2026` contains no reference to uranium or fuel supply is a direct check of that report's own Markdown body. This report does not use non-public information.

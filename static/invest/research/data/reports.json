@@ -7206,6 +7206,212 @@
     ]
   },
   {
+    "id": "cameco-2026",
+    "company": "Cameco Corporation",
+    "ticker": "NYSE: CCJ",
+    "priceSymbol": "CCJ",
+    "benchmarkSymbol": "URA",
+    "benchmarkRationale": {
+      "zh": "resources 层默认基准是 COPX（铜矿）。铜与铀由完全不同的驱动因素定价——铜看中国建筑、电网资本开支与 232 条款关税，铀看反应堆重启、长约签订与浓缩/转化产能——用 COPX 计分实际上是在问『铀有没有跑赢铜』，与本报告的任何一句判断都不相干。实测也支持：自 2026-01-28 收盘至 2026-07-30 收盘，CCJ −34.2%、URA −35.7%、COPX −13.6%；CCJ 与 URA 的日收益率相关系数 0.92，与 COPX 只有 0.74。本报告的核心论点恰恰是『Cameco 是一个被压抑的铀敞口』（实现价 66.21 美元 vs 现货 84.25 美元，现货每涨 5 美元反而使调整后净利润下降），要检验这句话，基准必须自带铀的 beta。代价必须写明：CCJ 约占 URA 的 22-23%（Oklo 另占约 5-6%），因此 CCJ 自身的波动会带动基准、压缩测得的超额收益；我们接受这份衰减，也不愿把一家铀矿商拿去和铜矿指数比。URA 不是本报告的 priceSymbol，未触发自基准禁令。",
+      "en": "The resources layer default is COPX (copper miners). Copper and uranium are priced by unrelated drivers - copper by Chinese construction, grid capex and Section 232 tariffs; uranium by reactor restarts, long-term contracting and enrichment/conversion capacity - so scoring against COPX asks 'did uranium beat copper', which bears on no judgment in this report. The measurement agrees: from the 2026-01-28 close to the 2026-07-30 close, CCJ was -34.2%, URA -35.7% and COPX -13.6%, and CCJ's daily-return correlation is 0.92 to URA against 0.74 to COPX. This report's core claim is precisely that Cameco is a muted expression of uranium (realized US$66.21/lb against an US$84.25 spot, with a US$5/lb rise in spot lowering adjusted net earnings), and testing that claim requires a benchmark that carries uranium beta. The cost is stated plainly: CCJ is roughly 22-23% of URA (Oklo is a further ~5-6%), so part of any CCJ move is transmitted into the benchmark and mutes measured alpha. We accept that muting rather than score a uranium miner against a copper index. URA is not this report's own priceSymbol, so the self-benchmark ban is not engaged."
+    },
+    "title": "Cameco 深度研究报告 - 核燃料循环对核电基荷叙事的上游约束检验",
+    "titleEn": "Cameco Deep Research Report - Upstream Constraint Check on the Nuclear Baseload Story",
+    "summary": "AI 基础设施书 resources 层的公共约束初始覆盖：电力层用 constellation-energy-2026 和 oklo-2026 押注核电基荷，但前者全文没有出现过『铀』字，后者把 fuel-supply 列为常设监测项却没有上游报告可对照。本报告提供这份读数，结论是否定的：按 2026 年披露，铀矿供应并非绑定约束——现货在 85 美元/磅附近横盘五个月而成交量从 1,200 万磅升至 1,800 万磅，最大的西方生产商 Cameco 自己要买走所卖量的约三分之一（2026 年交付 2,900-3,200 万磅 vs 产量 1,950-2,150 万磅），真正吃紧的是转化与浓缩（转化现货 62.50 美元/kgU 高于北美长期价 55.25 美元/kgU），而卡住先进堆的 HALEU 是 Cameco 不生产的浓缩产品——Cameco 自己的 MD&A 记录的是 Centrus 而非 Cameco 与 Oklo 签署 HALEU 商业协议。公司层面：2026 Q1（季度截至 2026-03-31、05-05 发布）收入 8.45 亿加元（+7%）、调整后 EBITDA 5.09 亿加元（+44%），但平均实现价格仅 66.21 美元/磅，而公司自己的敏感性表显示现货每涨 5 美元/磅调整后净利润反而减少 100 万加元；2026 年收入指引 31.30-33.70 亿加元低于 2025 财年的 34.82 亿加元。以 2026-07-30 收盘 88.23 美元为锚（较 1 月 28 日高点 134.09 美元低 34.2%），市值约 384 亿美元 / 539 亿加元、约 82.9x 追溯报告盈利、约 71.0x 追溯调整后净利润、约 25.8x 企业价值/追溯调整后 EBITDA、股息率 0.19%。30% 牛市 / 40% 基准 / 30% 熊市对称网格，初始立场中性观察 / 中确信。",
+    "summaryEn": "Initial common-constraint coverage for the AI-infrastructure book's resources layer. The power layer bets on nuclear baseload through constellation-energy-2026 and oklo-2026, but the former never mentions uranium anywhere in its body and the latter carries fuel-supply as a standing monitoring item with no upstream report to grade it against. This report supplies that reading, and the answer is negative: on 2026 disclosure, uranium mine supply is not the binding constraint. Spot went sideways near US$85/lb for five months while quarterly volume rose from 12M to 18M lb, and Cameco - the largest western producer - buys roughly a third of what it sells (29-32M lb of 2026 deliveries against 19.5-21.5M lb of production). The genuinely tight steps are conversion and enrichment (conversion spot at US$62.50/kgU sits above the North American long-term price of US$55.25/kgU), and HALEU, the fuel that gates advanced reactors, is an enrichment product Cameco does not make - its own MD&A records Centrus, not Cameco, signing a HALEU agreement with Oklo. At the company level, Q1 2026 (quarter ended 2026-03-31, reported 05-05) delivered revenue of C$845M (+7%) and adjusted EBITDA of C$509M (+44%), but the average realized price was only US$66.21/lb, and Cameco's own sensitivity table shows a US$5/lb rise in spot lowering adjusted net earnings by C$1M; 2026 revenue guidance of C$3,130-3,370M sits below FY2025's C$3,482M. Anchored to the 2026-07-30 close of US$88.23 (34.2% below the January 28 high of US$134.09), market cap is ~US$38.4B / C$53.9B at ~82.9x trailing reported earnings, ~71.0x trailing adjusted net earnings, ~25.8x EV/trailing adjusted EBITDA and a 0.19% dividend yield. A symmetric 30% bull / 40% base / 30% bear grid opens the initiation at neutral-watch / medium conviction.",
+    "tags": [
+      "核能",
+      "铀",
+      "燃料循环",
+      "AI基础设施"
+    ],
+    "category": "nuclear",
+    "date": "2026-07-31",
+    "lastUpdate": "2026-07-31",
+    "file": "/invest/research/reports/view.html?id=cameco-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Cameco_深度研究报告_2026-07.md",
+      "en": "/invest/research/Cameco_Deep_Research_Report_2026-07.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "上游约束检验的答案是否定的：铀矿供应不卡核电基荷，真正紧的是转化与浓缩；HALEU 属于 Centrus/Urenco/DOE，不属于 Cameco",
+      "oklo-2026 的 fuel-supply 监测项应改按浓缩产能评级——Cameco 的 MD&A 记录的是 Centrus 与 Oklo 签 HALEU 协议；constellation-energy-2026 全文无『铀』字",
+      "2026 Q1 收入 8.45 亿加元（+7%）、调整后 EBITDA 5.09 亿加元（+44%），但实现价格仅 66.21 美元/磅 vs 现货 84.25、长期价 91.50 美元",
+      "公司自公布的敏感性：现货每涨 5 美元/磅，调整后净利润 −100 万加元、现金流 −1,600 万加元；即使现货翻两番到 160 美元，2026 实现价也只到 70 美元",
+      "股价 88.23 美元（2026-07-30 收盘、较 1 月高点 −34.2%）：约 71.0x 追溯调整后净利润、约 25.8x 企业价值/调整后 EBITDA、股息率 0.19%；30/40/30 对称网格，初始中性观察 / 中确信"
+    ],
+    "chainLayer": "resources",
+    "coverageTier": "full",
+    "chainRole": "common-constraint",
+    "stance": "neutral-watch",
+    "conviction": "medium",
+    "priceAsOf": "2026-07-30",
+    "reportedPeriod": "Q1 2026",
+    "related": [
+      "oklo-2026",
+      "constellation-energy-2026",
+      "almonty-2026",
+      "copx-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "q2-2026-print",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "2026 Q2 业绩与刷新后的敏感性表",
+          "en": "Q2 2026 results and the refreshed sensitivity table"
+        },
+        "trigger": {
+          "zh": "Q2 实现价格、交付量或合同签订相对 Q1 公布的敏感性路径恶化，或 2026 年指引被下调",
+          "en": "Q2 realized price, deliveries or contracting deteriorate against the sensitivity path published in Q1, or 2026 guidance is cut"
+        },
+        "latest": {
+          "zh": "截至 2026-07-31 05:12 美东时间，EDGAR 上尚无 Q2 的 6-K 备案（最近一份为 2026-07-15），公司新闻室与第三方渠道也无法取得；Cameco 的 Q1 新闻稿写明计划于 2026-07-31 美股开盘前发布",
+          "en": "As of 2026-07-31 05:12 EDT no Q2 6-K had been filed on EDGAR (the most recent was dated 2026-07-15) and nothing was retrievable from the newsroom or third-party coverage; Cameco's Q1 release states the intention to report before markets open on 2026-07-31"
+        },
+        "nextCheck": "2026-07-31 盘前的 Q2 业绩与 MD&A / Q2 results and MD&A, pre-market 2026-07-31",
+        "nextCheckDate": "2026-07"
+      },
+      {
+        "id": "term-vs-spot-spread",
+        "thesis": "bull",
+        "theme": "pricing",
+        "metric": {
+          "zh": "长期价指标与现货的价差",
+          "en": "Long-term price indicator versus spot"
+        },
+        "trigger": {
+          "zh": "长期价指标回落至现货附近或以下，或连续两个季度停在约 90 美元/磅以下",
+          "en": "the long-term indicator falls back toward or below spot, or stalls below about US$90/lb for two consecutive quarters"
+        },
+        "latest": {
+          "zh": "2026 上半年长期价连续六个月上涨：1 月 89.00 至 6 月 95.50 美元/磅，同期现货由 94.28 降至 85.00 美元并横盘五个月；6 月价差 +10.50 美元，Cameco 称长期价以不变价计接近 2012 年以来最高（来源为 Cameco 转载的 UxC/TradeTech 月末均价）",
+          "en": "the long-term price rose in each of the first six months of 2026, from US$89.00 in January to US$95.50 in June, while spot fell from US$94.28 to US$85.00 and went sideways for five months; the June spread was +US$10.50 and Cameco describes the long-term price as approaching its highest since 2012 in constant dollars (source: Cameco's republished UxC/TradeTech month-end averages)"
+        },
+        "nextCheck": "每月 UxC/TradeTech 月末均价 / monthly UxC and TradeTech month-end averages",
+        "reading": "within",
+        "readingAsOf": "2026-06-30"
+      },
+      {
+        "id": "realized-vs-market-price-gap",
+        "thesis": "bear",
+        "theme": "pricing",
+        "metric": {
+          "zh": "实现价格与市场价格的缺口及其 2029-2030 期权",
+          "en": "The realized-versus-market price gap and its 2029-2030 optionality"
+        },
+        "trigger": {
+          "zh": "季度实现价格未能随交付年份推移向长期价指标收敛，或公司刷新后的敏感性表把 2029-2030 年的高现货实现价格下调",
+          "en": "the quarterly realized price fails to converge toward the long-term indicator as delivery years roll forward, or the company's refreshed sensitivity table lowers the 2029-2030 realizations at high spot prices"
+        },
+        "latest": {
+          "zh": "2026 Q1 实现价格 66.21 美元/磅，为同日现货 84.25 美元的 79%、长期价 91.50 美元的 72%；2026-03-31 敏感性表显示现货 160 美元时 2026 年实现价仅 70 美元，而 2030 年可达 105 美元——近端被封顶、远端期权完好；本项的两条触发条件目前都还不可观察——收敛需要至少两个季度的实现价格序列，而敏感性表的对比需要一份此前季度的表格，初始覆盖没有，因此本次评为 unclear 而非 within",
+          "en": "Q1 2026 realized US$66.21/lb, 79% of the same-day US$84.25 spot and 72% of the US$91.50 long-term price; the 2026-03-31 sensitivity table shows a US$160 spot producing only US$70 of 2026 realization but US$105 in 2030 - the near end is capped and the far-dated option is intact. Both clauses of this trigger are not yet observable - convergence needs at least two quarters of realized-price prints, and comparing sensitivity tables needs a prior-quarter table that an initiation does not have - so this reads unclear rather than within"
+        },
+        "nextCheck": "每季 MD&A 的实现价格与刷新后的敏感性表 / quarterly MD&A realized price and refreshed sensitivity table",
+        "reading": "unclear",
+        "readingAsOf": "2026-05-05"
+      },
+      {
+        "id": "contract-book-depth",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "五年交付承诺量与 2029-2030 空档的填充条款",
+          "en": "Five-year delivery commitments and the terms on which 2029-2030 fills"
+        },
+        "trigger": {
+          "zh": "五年年均承诺量跌破约 2,500 万磅，或 2029-2030 年的空档以基准递增（而非带高上限的市场挂钩）定价填满",
+          "en": "the five-year average commitment falls below about 25M lb, or the 2029-2030 slots fill at base-escalated rather than high-ceiling market-related pricing"
+        },
+        "latest": {
+          "zh": "2026-03-31 时点：2026 至 2030 年年均约 2,800 万磅交付承诺，2026-2028 年高于该均值、2029-2030 年低于该均值；管理层表示预期继续以市场挂钩机制铺入能捕捉更大上行的量",
+          "en": "at 2026-03-31, commitments average about 28M lb per year from 2026 through 2030, above that average in 2026-2028 and below it in 2029-2030, with management saying it expects to keep layering in volumes that capture greater upside using market-related mechanisms"
+        },
+        "nextCheck": "每季 MD&A 的合同签订说明 / quarterly MD&A contracting commentary",
+        "reading": "within",
+        "readingAsOf": "2026-05-05"
+      },
+      {
+        "id": "westinghouse-doe-conversion",
+        "thesis": "bull",
+        "theme": "optionality",
+        "metric": {
+          "zh": "Westinghouse 与美国政府最终协议及 AP1000 订单转化",
+          "en": "Westinghouse-US government definitive agreements and AP1000 order conversion"
+        },
+        "trigger": {
+          "zh": "最终协议滑出 2026 年、能源部有条件承诺失效，或 Westinghouse 权益口径调整后 EBITDA 指引 3.70-4.30 亿美元被下调",
+          "en": "definitive agreements slip past 2026, the DOE conditional commitment lapses, or the US$370-430M our-share Westinghouse adjusted EBITDA guide is cut"
+        },
+        "latest": {
+          "zh": "2025 年 10 月与美国政府签署战略伙伴关系，总投资价值至少 800 亿美元；2026-06-23 能源部就至多 10 台 AP1000 的长周期设备给出至多 175 亿美元的有条件承诺，尚需技术、法律、环境与财务条件与最终协议；2026 年 Westinghouse 指引本身即以签署最终协议、年内至少一个项目开工为假设；2026 Q1 权益口径净亏损 4,600 万加元、调整后 EBITDA 1.22 亿加元；公司已撤回 Westinghouse 五年展望",
+          "en": "the October 2025 US government strategic partnership carries an aggregate investment value of at least US$80B; on 2026-06-23 the DOE gave a conditional commitment of up to US$17.5B for long-lead items for up to 10 AP1000s, still subject to technical, legal, environmental and financial conditions and to definitive agreements; the FY2026 Westinghouse guide itself assumes those agreements are signed and that work advances on at least one project this year; Q1 2026 showed an our-share net loss of C$46M on adjusted EBITDA of C$122M; the five-year Westinghouse outlook has been withdrawn"
+        },
+        "nextCheck": "能源部与 Westinghouse 的最终协议公告及首个 AP1000 最终投资决定（事件驱动）/ DOE and Westinghouse definitive-agreement announcements and the first AP1000 FID (event-driven)"
+      },
+      {
+        "id": "mine-supply-reliability",
+        "thesis": "bear",
+        "theme": "execution",
+        "metric": {
+          "zh": "矿山供应可靠性与 2026 年产量指引",
+          "en": "Mine-supply reliability against the 2026 production guide"
+        },
+        "trigger": {
+          "zh": "任何一次中断迫使把 1,950-2,150 万磅（权益）的 2026 年产量指引下调，或 Key Lake 选厂 Q3 延长停修未能按期完成",
+          "en": "any disruption forces a cut to the 19.5-21.5M lb (our share) 2026 production guide, or the Q3 Key Lake mill extended shutdown fails to complete on schedule"
+        },
+        "latest": {
+          "zh": "一个季度内两次中断且均已恢复：McArthur River/Key Lake 于 5 月 10 日因 Smoothstone River 桥梁垮塌中断补给、5 月 27 日恢复满产；Cigar Lake 于 7 月 1 日因 Orano 的 McClean Lake 选厂硫酸装置故障停产、7 月 14 日恢复。合并 1,950-2,150 万磅与 Cigar Lake 1,750-1,800 万磅（100% 口径）展望均未改动；Key Lake 选厂的延长停修排在 2026 Q3",
+          "en": "two disruptions in one quarter, both resolved: McArthur River/Key Lake lost its supply route when the Smoothstone River Bridge partially collapsed on May 10 and returned to full production on May 27; Cigar Lake was suspended on July 1 by the sulfuric acid plant at Orano's McClean Lake mill and resumed on July 14. Neither the consolidated 19.5-21.5M lb outlook nor Cigar Lake's 17.5-18.0M lb (100% basis) outlook was changed; the extended Key Lake mill shutdown is scheduled for Q3 2026"
+        },
+        "nextCheck": "2026 Q3 业绩与任何运营更新公告 / Q3 2026 results and any operations update releases",
+        "reading": "within",
+        "readingAsOf": "2026-07-14"
+      }
+    ],
+    "stanceRationale": {
+      "zh": "以 88.23 美元（2026-07-30 收盘）计，市场已经把 CCJ 从 1 月 28 日的 134.09 美元下调了 34.2%，而同期铀现货月均价只从 94.28 美元降到 85.00 美元（约 −9.9%）——股权重估幅度约为商品的三倍半，因此单纯的『泡沫』论据已经弱了很多。但折价本身不等于机会：约 82.9x 追溯报告盈利、约 71.0x 追溯调整后净利润、约 25.8x 企业价值/追溯调整后 EBITDA、约 16.6x 2026 年指引收入，加上 0.19% 的股息率，仍然假设实现价格会按期向长期价收敛、Westinghouse 的能源部计划会转化。30/40/30 的对称网格是结论而不是骑墙：两侧差在时点与证据质量而非概率——支撑上行的一切（2029-2030 空档、95.50 美元的长期价、800 亿美元的 AP1000 计划）都标注在 2028 年之后且以尚未签署的合同为前提；支撑下行的一切（倍数、低于上年的收入指引、现货每涨 5 美元反而使调整后净利润下降、被撤回的 Westinghouse 五年展望）已经印在 2026 年的备案文件里。因此初始立场为中性观察而非偏多；是中性观察而非谨慎，则因为一级矿体与净现金资产负债表消除了『谨慎』本应隐含的下行尾部。",
+      "en": "At US$88.23 (2026-07-30 close) the market has already marked CCJ down 34.2% from US$134.09 on January 28, while the monthly average uranium spot price fell only from US$94.28 to US$85.00 (about -9.9%) - the equity de-rated roughly three and a half times as much as the commodity, so the simple froth argument is much weaker than it was. But the de-rating is not by itself an opportunity: ~82.9x trailing reported earnings, ~71.0x trailing adjusted net earnings, ~25.8x EV/trailing adjusted EBITDA, ~16.6x guided 2026 revenue and a 0.19% dividend yield still assume that realized prices converge toward the term price on schedule and that Westinghouse's DOE program converts. The symmetric 30/40/30 grid is the finding rather than a hedge: the two sides differ in timing and evidence quality, not probability - everything supporting the upside (the 2029-2030 slots, the US$95.50 term price, the US$80B AP1000 program) is dated 2028 or later and conditional on contracts not yet signed, while everything supporting the downside (the multiple, revenue guided below the prior year, adjusted net earnings falling when spot rises US$5/lb, the withdrawn five-year Westinghouse outlook) is already printed in filings dated 2026. Hence neutral-watch rather than constructive - and neutral-watch rather than cautious, because tier-one orebodies and a roughly net-cash balance sheet remove the downside tail a cautious rating should imply."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "长期价指标在 2027 年前守在 95 美元/磅以上，同时 Cameco 以带高上限的市场挂钩条款填满 2029-2030 空档、季度实现价格开始向长期价指标收敛，Westinghouse 签署与美国政府的最终协议并交付到 3.70-4.30 亿美元指引上沿或以上，且产量在 Key Lake 接入期间守住 1,950-2,150 万磅，则上调至偏多。",
+        "en": "Upgrade to constructive if the long-term indicator holds above US$95/lb into 2027 while Cameco fills its 2029-2030 slots at high-ceiling market-related terms and the quarterly realized price begins converging toward the term indicator, Westinghouse signs definitive US government agreements and delivers at or above the top of its US$370-430M guide, and production holds at 19.5-21.5M lb through the Key Lake tie-in.",
+        "monitoringIds": [
+          "term-vs-spot-spread",
+          "realized-vs-market-price-gap",
+          "contract-book-depth",
+          "westinghouse-doe-conversion"
+        ]
+      },
+      "downgrade": {
+        "zh": "Q2 或后续财报显示实现价格与合同签订相对已公布的敏感性路径恶化、长期价指标回落至现货附近、2029-2030 合同簿以基准递增定价填满、Westinghouse 指引被下调或其最终协议滑出 2026 年，或一次生产中断迫使下调 1,950-2,150 万磅指引，则下调至谨慎。",
+        "en": "Downgrade to cautious if the Q2 or a subsequent print shows realized price and contracting deteriorating against the published sensitivity path, the long-term indicator falls back toward spot, the 2029-2030 book fills at base-escalated pricing, Westinghouse guidance is cut or its definitive agreements slip past 2026, or a production disruption forces a cut to the 19.5-21.5M lb guide.",
+        "monitoringIds": [
+          "q2-2026-print",
+          "realized-vs-market-price-gap",
+          "contract-book-depth",
+          "westinghouse-doe-conversion",
+          "mine-supply-reliability"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-07-31",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 88.23
+      }
+    ]
+  },
+  {
     "id": "alab-2026",
     "company": "Astera Labs",
     "ticker": "NASDAQ: ALAB",
