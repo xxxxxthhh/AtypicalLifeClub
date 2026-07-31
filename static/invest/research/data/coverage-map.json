@@ -225,14 +225,6 @@
   ],
   "planned": [
     {
-      "ticker": "MP",
-      "layer": "resources",
-      "label": {
-        "zh": "稀土磁材：延续 Almonty 的战略金属与政策链条",
-        "en": "Rare-earth magnets: extends the Almonty strategic-metals and policy chain"
-      }
-    },
-    {
       "ticker": "PWR",
       "layer": "power",
       "label": {

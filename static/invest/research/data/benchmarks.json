@@ -12,6 +12,7 @@
     "SRVR": { "name": { "zh": "数据中心/基础设施 REIT ETF", "en": "Data-center & infra REITs" } },
     "COPX": { "name": { "zh": "铜矿 ETF", "en": "Copper miners" } },
     "URA":  { "name": { "zh": "铀矿 ETF", "en": "Uranium miners" } },
+    "REMX": { "name": { "zh": "稀土与战略金属 ETF", "en": "Rare earth & strategic metals" } },
     "QQQ":  { "name": { "zh": "纳指 100 ETF", "en": "Nasdaq-100" } }
   }
 }
