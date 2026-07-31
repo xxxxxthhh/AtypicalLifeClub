@@ -463,6 +463,17 @@
       "status": "pending",
       "daysHeld": 0,
       "stale": false
+    },
+    {
+      "reportId": "amkr-2026",
+      "stance": "neutral-watch",
+      "conviction": "medium",
+      "stanceDate": "2026-07-31",
+      "priceAtStance": 48.26,
+      "benchmarkSymbol": "SMH",
+      "status": "pending",
+      "daysHeld": 0,
+      "stale": false
     }
   ],
   "closed": [

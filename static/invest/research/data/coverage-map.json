@@ -231,14 +231,6 @@
         "zh": "稀土磁材：延续 Almonty 的战略金属与政策链条",
         "en": "Rare-earth magnets: extends the Almonty strategic-metals and policy chain"
       }
-    },
-    {
-      "ticker": "AMKR",
-      "layer": "advanced-packaging",
-      "label": {
-        "zh": "先进封装 / OSAT：检验 CoWoS、HBM 集成与基板是否是后端瓶颈",
-        "en": "Advanced packaging / OSAT: tests CoWoS, HBM integration, and substrate bottlenecks"
-      }
     }
   ],
   "crossChecks": [

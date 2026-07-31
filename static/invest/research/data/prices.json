@@ -516,6 +516,18 @@
       "lastClose": 299.69,
       "changePct": 0.0,
       "currency": "USD"
+    },
+    {
+      "reportId": "amkr-2026",
+      "symbol": "AMKR",
+      "status": "ok",
+      "attemptedAt": "2026-07-31",
+      "baseDate": "2026-07-30",
+      "basePrice": 48.26,
+      "lastDate": "2026-07-30",
+      "lastClose": 48.26,
+      "changePct": 0.0,
+      "currency": "USD"
     }
   ]
 }
