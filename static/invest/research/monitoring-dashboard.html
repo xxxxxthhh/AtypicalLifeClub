@@ -567,6 +567,17 @@
             white-space: normal;
         }
 
+        /* v6 trigger loop: grade chip stays a neutral text chip (DESIGN.md — no
+           red/green/amber judgment colors; the word carries the meaning). */
+        .reading-grade {
+            margin-top: 0.3rem;
+        }
+
+        .reading-grade .reading-ungraded {
+            font-size: 0.72rem;
+            color: var(--secondary);
+        }
+
         /* --- view 3: risk-anchor spotlight --- */
         .spotlight-grid {
             margin-top: 1rem;
@@ -1027,6 +1038,13 @@
                 itemsCount: (n) => `${n} 条监控项`,
                 reportsCount: (n) => `${n} 篇报告`,
                 ungroupedTheme: "未标注主题（按报告）",
+                readingUngraded: "读数未评级",
+                readingGraded: (text, date) => `${text} · ${date}`,
+                readings: {
+                    "within": "阈内",
+                    "breached": "已触发",
+                    "unclear": "读数不明"
+                },
                 emptyBoard: "暂无携带监控项的链上报告。",
                 loadError: "仪表盘数据加载失败，请稍后重试。",
                 backToResearch: "返回完整报告列表",
@@ -1133,6 +1151,13 @@
                 itemsCount: (n) => `${n} monitoring item${n === 1 ? "" : "s"}`,
                 reportsCount: (n) => `${n} report${n === 1 ? "" : "s"}`,
                 ungroupedTheme: "No theme tag (grouped by report)",
+                readingUngraded: "Not yet graded",
+                readingGraded: (text, date) => `${text} · ${date}`,
+                readings: {
+                    "within": "Within",
+                    "breached": "Breached",
+                    "unclear": "Unclear"
+                },
                 emptyBoard: "No chain reports with monitoring items yet.",
                 loadError: "Dashboard data failed to load. Please try again later.",
                 backToResearch: "Back to full report list",
@@ -2062,10 +2087,25 @@
                     </td>
                     <td><span class="chip">${escapeHtml(labels.theses[item.thesis] || item.thesis)}</span> ${themeChip} ${readChip}</td>
                     <td>${escapeHtml(localize(item.trigger))}</td>
-                    <td>${escapeHtml(localize(item.latest))}</td>
+                    <td>
+                        ${escapeHtml(localize(item.latest))}
+                        <div class="reading-grade">${readingGradeChip(item)}</div>
+                    </td>
                     <td class="criteria-next">${escapeHtml(displayPlainText(item.nextCheck) || "—")}</td>
                 </tr>
             `;
+        }
+
+        // v6 trigger loop (spec §3.1): author-graded reading of latest vs trigger.
+        // Absence of reading is a first-class state — "not yet graded", never a color.
+        function readingGradeChip(item) {
+            const labels = getLabels();
+            if (!item.reading) {
+                return `<span class="reading-ungraded">${escapeHtml(labels.readingUngraded)}</span>`;
+            }
+            const text = labels.readings[item.reading] || item.reading;
+            const dated = item.readingAsOf ? labels.readingGraded(text, item.readingAsOf) : text;
+            return `<span class="chip">${escapeHtml(dated)}</span>`;
         }
 
         function renderThemeLayerMatrix() {
