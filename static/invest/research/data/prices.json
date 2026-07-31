@@ -225,8 +225,8 @@
       "baseDate": "2026-07-29",
       "basePrice": 1401000.0,
       "lastDate": "2026-07-31",
-      "lastClose": 1635000.0,
-      "changePct": 16.7,
+      "lastClose": 1705000.0,
+      "changePct": 21.7,
       "currency": "KRW"
     },
     {
@@ -297,8 +297,8 @@
       "baseDate": "2026-07-07",
       "basePrice": 82.22,
       "lastDate": "2026-07-31",
-      "lastClose": 67.75,
-      "changePct": -17.6,
+      "lastClose": 66.16,
+      "changePct": -19.5,
       "currency": "CNY"
     },
     {
@@ -441,8 +441,8 @@
       "baseDate": "2026-07-15",
       "basePrice": 260.6,
       "lastDate": "2026-07-31",
-      "lastClose": 234.6,
-      "changePct": -10.0,
+      "lastClose": 230.6,
+      "changePct": -11.5,
       "currency": "HKD"
     }
   ]
