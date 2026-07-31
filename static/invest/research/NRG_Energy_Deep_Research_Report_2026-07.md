@@ -11,18 +11,20 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 > **Framework role:** NRG Energy is the dashboard for the AI-infrastructure power and energy layer. The report's job is to test the chain signal, not to turn one company print into a recommendation.
 
-**One-line thesis:** Merchant plus retail power dashboard for the AI-infrastructure power layer. NRG is not a pure nuclear-PPA name; it tests whether data-center power demand spreads into ordinary merchant capacity through the post-LS-Power roughly 25GW generation platform, CPower's roughly 6GW C&I VPP, Texas/PJM capacity markets, and Reliant/Vivint retail/home-services economics. Q1 2026 revenue was $10.26B, GAAP net income was $125M, adjusted EBITDA was $1.08B, and FCFbG was -$66M; 2026 guidance is adjusted EBITDA $5.325-5.825B, adjusted EPS $7.90-9.90, and FCFbG $2.8-3.3B. The LS Power deal was framed at about $12.0B enterprise value, 18 gas plants, about 13GW, CPower about 6GW and 2,000+ C&I customers, and is now reflected in 2026 results. At $136.70 (2026-07-02 close), about $28.8B market cap and about $52.7B EV, NRG trades around 15.4x the midpoint of 2026 adjusted EPS guidance and about 9.4x the midpoint of 2026 adjusted EBITDA guidance. Cautious / medium conviction: a 20% bull / 50% base / 30% bear grid shows contract conversion is still unproven while leverage/buyback discipline remains a constraint, leaving a mildly negative skew.
+**One-line thesis:** Merchant plus retail power dashboard for the AI-infrastructure power layer. NRG is not a pure nuclear-PPA name; it tests whether data-center power demand spreads into ordinary merchant capacity through the post-LS-Power roughly 25GW generation platform, CPower's roughly 6GW C&I VPP, Texas/PJM capacity markets, and Reliant/Vivint retail/home-services economics. Q1 2026 revenue was $10.26B, GAAP net income was $125M, adjusted EBITDA was $1.08B, and FCFbG was -$66M; 2026 guidance is adjusted EBITDA $5.325-5.825B, adjusted EPS $7.90-9.90, and FCFbG $2.8-3.3B. The LS Power deal was framed at about $12.0B enterprise value, 18 gas plants, about 13GW, CPower about 6GW and 2,000+ C&I customers, and is now reflected in 2026 results. At $133.97 (2026-07-30 close), about $28.3B market cap and about $52.2B EV, NRG trades around 15.1x the midpoint of 2026 adjusted EPS guidance and about 9.3x the midpoint of 2026 adjusted EBITDA guidance. Cautious / medium conviction: a 20% bull / 50% base / 30% bear grid shows contract conversion is still unproven while leverage/buyback discipline remains a constraint, leaving a mildly negative skew.
 
 **Current view:** **cautious, medium conviction.** NRG's asset quality and dispatchable-capacity optionality are real, but before named hyperscaler or tariff-backed C&I contracts appear, the current valuation already capitalizes guidance delivery, LS Power integration, and some capacity scarcity.
 
-> **2026-07-31 price check.** NRG closed at **$124.23** on **2026-07-29** (last completed session) versus the **$136.70** anchor dated below, a **-9.1%** move. The dated anchors below therefore remain accurate to within that margin and the valuation frame, scenario grid, stance and conviction are unchanged. Reviewed and confirmed in the 2026-07-31 full-coverage pass; no edit was required.
+> **Old price-check note — stale as written, superseded by the re-adjudication below.** ~~2026-07-31 price check: NRG closed at $124.23 on 2026-07-29 versus the $136.70 anchor, a -9.1% move, so the dated anchors below remain accurate within that margin and the valuation frame, scenario grid, stance and conviction are unchanged; no edit was required.~~
+
+> **2026-07-31 stance re-adjudication at the 2026-07-30 close.** Owner ruling (2026-07-31): a published stance and its rationale must hold at the CURRENT price. NRG closed at **$133.97** on **2026-07-30**, **-2.0%** from the old $136.70 anchor of 2026-07-02. On about 211.0M shares and about $23.9B of net debt, market cap is about **$28.3B** (old about $28.8B) and enterprise value about **$52.2B** (old about $52.7B); against unchanged 2026 guidance that is about **15.1x** midpoint adjusted EPS (old about 15.4x) and about **9.3x** midpoint adjusted EBITDA (old about 9.4x). This is the honest low-drift outcome: a 2.0% move shifts the multiples by roughly a fifth of a turn and changes nothing about the judgment. The mildly negative expectation gap was that the market already prices guidance delivery, LS Power integration and some capacity scarcity while large-load contracts remain optionality rather than signed volume — and that is a contracting question, not a price question. **Stance stays cautious (medium conviction), with the stated multiples confirmed rather than merely carried over.**
 
 | Metric | Current readout |
 | --- | --- |
 | Report id | nrg-2026 |
 | Chain layer / role | power / dashboard |
 | Latest reported period | 2026Q1 |
-| Price snapshot | $136.70 as of 2026-07-02 |
+| Price snapshot | $133.97 as of 2026-07-30 |
 | Coverage tier after this upgrade | full |
 | Stance | cautious / medium conviction |
 | Primary valuation use | scenario context and risk tolerance, not a target price |
@@ -64,7 +66,7 @@ The financial section converts the prose fact base into a repeatable scorecard. 
 | Margin / profitability | Use the current reported period and company-disclosed margin or EPS figures in the source notes | Tests whether growth is profitable or merely volume-led | B+ |
 | Cash flow / balance sheet | Debt, cash, FCF, AFFO, EBITDA, or buyback context preserved from the original report where disclosed | Determines whether the company can fund the cycle | B |
 | Backlog / bookings / RPO | Q1 2026 revenue $10.26B, GAAP net income $125M, adjusted EBITDA $1.08B, FCFbG -$66M; 2026 guidance adjusted EBITDA $5.325-5.825B, adjusted EPS $7.90-9.90, FCFbG $2.8-3.3B | Separates committed demand from narrative demand | B+ |
-| Valuation tolerance | Current price context: $136.70 | High expectation names need cleaner execution | Caution |
+| Valuation tolerance | Current price context: $133.97 (2026-07-30) | High expectation names need cleaner execution | Caution |
 
 ## 4. Management And Caliber Check
 
@@ -73,7 +75,7 @@ This module checks source caliber and management execution rather than adding a 
 | Check | Current treatment | Why it matters |
 | --- | --- | --- |
 | Company-disclosed actuals | Reported period and financial figures are preserved from the original report | Avoids inventing a new quarter |
-| Market-data values | Price snapshot kept at $136.70 and dated 2026-07-02 | Prevents stale valuation math |
+| Market-data values | Price snapshot re-anchored to $133.97 and dated 2026-07-30 | Prevents stale valuation math |
 | Scenario weights | Used to derive risk/reward skew from bull/base/bear cases | Not a recommendation or target price |
 | Source quality | Primary company releases, filings, or issuer pages remain in the appendix | Keeps the audit trail visible |
 
@@ -98,7 +100,7 @@ The bear case is the strongest version of why the report's chain signal could be
 
 | Bear driver | Risk evidence | Thesis-breaking signal |
 | --- | --- | --- |
-| Expectation risk | Current price context $136.70 | Good company performance no longer beats embedded expectations |
+| Expectation risk | Current price context $133.97 (2026-07-30) | Good company performance no longer beats embedded expectations |
 | Chain divergence | Adjacent reports fail to confirm the same signal | The bottleneck sits elsewhere or demand was pulled forward |
 | Execution risk | Guidance, backlog, or capacity conversion slows | Reported evidence stops supporting the role |
 | Valuation compression | Contract conversion disappoints, capacity prices fade, or deleveraging stalls | Multiple contracts before the long-term story changes |
@@ -123,7 +125,7 @@ Thesis breakers:
 
 ## 8. Valuation Context
 
-Valuation is used as risk context, not as a recommendation. The current $136.70 price equals about 15.4x the midpoint of 2026 adjusted EPS guidance and about 9.4x the midpoint of 2026 adjusted EBITDA guidance, so this section asks what operating assumptions the market has already paid for rather than producing a single-point price.
+Valuation is used as risk context, not as a recommendation. The current $133.97 price equals about 15.1x the midpoint of 2026 adjusted EPS guidance and about 9.3x the midpoint of 2026 adjusted EBITDA guidance, so this section asks what operating assumptions the market has already paid for rather than producing a single-point price.
 
 **Scenario grid:**
 
@@ -133,7 +135,7 @@ Valuation is used as risk context, not as a recommendation. The current $136.70 
 | Base | 2026 adjusted EBITDA/EPS guidance is delivered and LS Power integration is credible; data-center demand remains mainly optionality rather than named PPAs; PJM/ERCOT capacity prices stay firm but volatile; retail/Vivint holds up and deleveraging is slow | The current price largely capitalizes the base case: the assets are more valuable, but the margin of safety is limited | 50% |
 | Bear | Large-load contracts remain marketing optionality; CPower monetization or LS Power plant availability undershoots; capacity prices or Texas/PJM regulation roll over; retail/Vivint margin is squeezed by supply costs and customer churn while buybacks slow deleveraging | The current price would look rich, with capacity-scarcity multiples and leverage tolerance contracting together | 30% |
 
-**What's priced in & the expectation gap:** At $136.70, about 15.4x midpoint 2026 adjusted EPS and about 9.4x midpoint 2026 adjusted EBITDA, the market is no longer pricing NRG as an ordinary merchant generator; it is paying for LS Power integration, capacity scarcity, CPower VPP optionality, and future large-load contract conversion. Our base case agrees that guidance and integration are credible, but does not treat data-center optionality as signed cash flow yet. The 20% bull / 50% base / 30% bear weighting leaves the expectation gap mildly negative unless the next evidence set proves contract conversion and deleveraging together.
+**What's priced in & the expectation gap (re-derived 2026-07-31 at the 2026-07-30 close):** At $133.97, about 15.1x midpoint 2026 adjusted EPS and about 9.3x midpoint 2026 adjusted EBITDA, the market is no longer pricing NRG as an ordinary merchant generator; it is paying for LS Power integration, capacity scarcity, CPower VPP optionality, and future large-load contract conversion. Our base case agrees that guidance and integration are credible, but does not treat data-center optionality as signed cash flow yet. The 20% bull / 50% base / 30% bear weighting leaves the expectation gap mildly negative unless the next evidence set proves contract conversion and deleveraging together.
 
 The key valuation question is whether the next evidence set increases the earnings and EBITDA denominator faster than the market increases the multiple.
 
@@ -160,7 +162,7 @@ These are the items that should drive future reruns. A monitoring update should 
 
 NRG Energy's chain-validation job is to test whether AI data-center power demand really spreads from nuclear PPAs into merchant gas, C&I VPP, ERCOT/PJM capacity prices, and retail power. If NRG converts large-load optionality into named contracts while LS Power, CPower, retail/Vivint, and deleveraging improve together, the power-layer read-through becomes broader than the CEG/VST nuclear story. If that evidence remains absent, it is a merchant power platform already re-rated by the AI electricity theme.
 
-The expectation gap is mildly negative: at $136.70, about 15.4x midpoint 2026 adjusted EPS and 9.4x midpoint 2026 adjusted EBITDA, the market already prices guidance delivery, LS Power integration, and some capacity scarcity; our base case recognizes the asset quality but does not treat unsigned data-center optionality as realized cash flow.
+The expectation gap is mildly negative: at the $133.97 close on Jul 30, 2026, about 15.1x midpoint 2026 adjusted EPS and 9.3x midpoint 2026 adjusted EBITDA, the market already prices guidance delivery, LS Power integration, and some capacity scarcity; our base case recognizes the asset quality but does not treat unsigned data-center optionality as realized cash flow.
 
 The current stance is **cautious, medium conviction**. The 20% bull / 50% base / 30% bear grid produces a mildly negative skew: the bull case requires contract conversion, capacity prices, retail/Vivint, and deleveraging to move together; the base case is close to the current price; the bear case is amplified by leverage, capacity pricing, and buyback discipline. Cautious is not a denial of NRG's asset value. It separates asset quality from current valuation and execution tolerance.
 
@@ -173,7 +175,7 @@ Upgrade trigger: Move to neutral-watch or constructive if NRG discloses named hy
 - LS Power transaction value, 18 gas facilities, about 13GW, about 25GW pro forma generation capacity, CPower's roughly 6GW platform, consideration mix, and target leverage comments are from NRG's May 12, 2025 transaction release: https://www.sec.gov/Archives/edgar/data/1013871/000110465925047007/tm2514561d1_ex99-1.htm.
 - PJM's accelerated data-center capacity procurement and the CEG/VST/NRG market reaction are sourced from MarketWatch: https://www.marketwatch.com/story/constellations-and-vistras-stocks-rally-as-power-grid-operator-speeds-up-data-center-deals-67b95021.
 - The T.H. Wharton June 2026 opening and the 456MW public reporting are sourced from Axios Houston and should be reconciled against the next NRG quarterly filing: https://www.axios.com/local/houston/2026/06/11/nrg-energy-opens-first-new-power-plant-in-a-decade.
-- The Jul 2, 2026 close of $136.70, about $28.8B market cap, about 211.0M shares, about $52.7B enterprise value, and yfinance debt/cash snapshot were pulled through Yahoo Finance/yfinance on 2026-07-05.
+- The price anchor is the Jul 30, 2026 close of $133.97, about $28.3B market cap, about 211.0M shares and about $52.2B enterprise value; the debt/cash snapshot carries the caliber pulled through Yahoo Finance/yfinance on 2026-07-05.
 
 - This 2026-07-06 depth upgrade preserves the existing vetted fact base and expands structure, tables, peer comparison, scenario levels, and monitoring parity.
 - The v5 scenario grid and priced-in paragraph use the same Jul 2, 2026 price anchor. The weights explain expectation gap and skew; they are not investment advice, forecasts, or target prices.

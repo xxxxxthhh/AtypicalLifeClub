@@ -13,33 +13,35 @@ This report is the full rerun successor to `jinpan-2026-pre-rerun`; the archived
 
 **One-line thesis:** Jinpan is a hidden champion in dry-type transformers, upgrading from a traditional manufacturer to a power-equipment solutions provider via AI data centers (AIDC) and solid-state transformers (SST). The 2026H1 debate has shifted from "can the AI/SST story be discovered" to "can a demanding valuation be supported by order conversion, cash flow, and receivable quality."
 
-**Current view:** Neutral watch, medium conviction. `prices.json` shows the stock at **RMB 83.53** on Jul 7, 2026; using the Jun 23 price / market-cap frame implies roughly **RMB 38.4B** of current market cap. AIDC, SST, overseas capacity, and potential H-share financing still provide AI-power-equipment optionality, but the current price already asks orders, collections, margin, and capacity to validate together.
+**Current view:** Neutral watch, medium conviction. `prices.json` shows the stock at **RMB 64.30** on Jul 31, 2026; on about 460M shares that implies roughly **RMB 29.6B** of current market cap. AIDC, SST, overseas capacity, and potential H-share financing still provide AI-power-equipment optionality; after the July drawdown the price asks materially less of orders, collections, margin, and capacity validating together, though the requirement has not disappeared.
 
-> **2026-07-31 price check (no new quarter integrated in this pass).** 688676.SS closed at **68.04** on **2026-07-29**, the last completed session, versus the **82.22** anchor dated below — a **-17.2%** move during the verified July 2026 chain-wide AI-infrastructure repricing. The dated price, market-cap and multiple figures below remain correct **as of their stated dates** and are not rewritten here, but they are no longer current *levels*; read them as of their labels. The drift is below this report's own rerun threshold (25%), so the valuation frame, scenario grid, stance and conviction are unchanged and `priceAsOf` is deliberately left in place so the report stays in the normal rerun queue.
+> **Old price-check note — stale, and no longer usable as a current basis.** An earlier note recorded that 688676.SS closed at 68.04 on 2026-07-29, -17.2% versus the old 82.22 anchor, and on that basis claimed the valuation frame, scenario grid, stance and conviction were unchanged, that `priceAsOf` was deliberately left in place, and that the figures below should be read as of their labels. That old handling is superseded in full by the re-adjudication below.
+
+> **2026-07-31 stance re-adjudication at the 2026-07-31 close.** Owner ruling (2026-07-31): a published stance and its rationale must hold at the CURRENT price, so the report is re-anchored to the latest completed close rather than left reading against an old label. 688676.SS closed at **RMB 64.30** on **2026-07-31**, **-21.8%** from the old RMB 82.22 anchor of 2026-07-07. On the report's own unchanged frames — about 460M shares, Q1 2026 parent net income of RMB 112M annualizing to about RMB 450M, and Q1 revenue of RMB 1.523B annualizing to about RMB 6.09B — market cap is about **RMB 29.6B** (old caliber about RMB 38.4-39.5B), Q1-annualized P/E about **66x** (old about 85-88x) and P/S about **4.9x** (old about 6.3-6.5x). No estimate or actual was changed; only the price input moved. **What this drawdown changes is the odds, not the thesis:** the upside scenario's RMB 35-40B target market cap was previously described as roughly equal to the then-current RMB 39.5B — that is, already priced in — and now sits about 18-35% above RMB 29.6B, so it carries real upside again; the downside scenario's RMB 14-20B narrows from about -50% to -65% to about -32% to -53%. But 66x annualized earnings is still far above the 15-25x manufacturing band, and none of the three validations — large SST orders, receivable collection, operating cash conversion — has yet arrived. The expectation gap therefore moves from mildly negative back to broadly balanced, which is exactly what neutral watch describes. **Stance stays neutral watch (medium conviction) — held on this restated current-price arithmetic, not on the old ~85x / ~6.3x claim.** It is not upgraded to constructive: the upgrade trigger asks for H1/H2 confirmation of AIDC growth, SST orders, receivable days, and cash conversion, and a price drawdown supplies none of that.
 
 **Changes vs the February report:**
 
-| Item | February baseline | This rerun (2026-06-23) |
+| Item | February baseline | This rerun (price anchor updated to 2026-07-31) |
 |------|-------------------|--------------------------|
-| Price anchor (old → now) | ~RMB 92.80 (Feb 17) | RMB 86.00 |
-| Market cap (old → now) | ~RMB 46B | ~RMB 39.5B |
-| Valuation anchor (old → now) | TTM P/E 69.5x; old valuation frame around RMB 30-35B | Q1-annualized P/E ~85x, P/S ~6.3x; neutral watch |
+| Price anchor (old → now) | ~RMB 92.80 (Feb 17) | RMB 64.30 (2026-07-31) |
+| Market cap (old → now) | ~RMB 46B | ~RMB 29.6B |
+| Valuation anchor (old → now) | TTM P/E 69.5x; old valuation frame around RMB 30-35B | Q1-annualized P/E ~66x, P/S ~4.9x; neutral watch |
 | Latest results | 9M2025 revenue +8.25%, net profit +20.27% | Q1 2026 revenue RMB 1.52B (+13.4%), net profit RMB 112M (+4.8%) |
 | Thesis emphasis | can the AI/SST story be discovered | can the valuation be proven by orders/cash/receivables |
 | Unchanged | receivables risk, SST not yet commercially validated, intensifying competition | same |
 
-**Data framing:** The business, industry, and financial detail below carries the FY2024 / 9M2025 fact base established in the February research, plus Q1 2026 headline figures; price and market cap are updated to June 23, 2026. Note: FY2025 full-year results have since been published — the detailed segment, margin, and cash-flow baseline here still reflects 9M2025 and should be reconciled against the FY2025 annual report at the next pass.
+**Data framing:** The business, industry, and financial detail below carries the FY2024 / 9M2025 fact base established in the February research, plus Q1 2026 headline figures; price and market cap are updated to the July 31, 2026 close. Note: FY2025 full-year results have since been published — the detailed segment, margin, and cash-flow baseline here still reflects 9M2025 and should be reconciled against the FY2025 annual report at the next pass.
 
 **Quick Stats:**
 
 | Metric | Value | Note |
 |--------|-------|------|
-| Price (2026-06-23) | ~RMB 86.00 | Eastmoney |
-| Market Cap (2026-06-23) | ~RMB 39.5B | ~460M shares |
+| Price (2026-07-31) | RMB 64.30 | Price ledger / Yahoo Finance |
+| Market Cap (2026-07-31) | ~RMB 29.6B | ~460M shares |
 | Q1 2026 Revenue | RMB 1.52B (+13.4% YoY) | ~RMB 6.09B annualized |
 | Q1 2026 Parent Net Profit | RMB 112M (+4.8% YoY) | ~RMB 450M annualized |
-| Q1-Annualized P/E | ~88x | mechanical |
-| Q1-Annualized P/S | ~6.5x | mechanical |
+| Q1-Annualized P/E | ~66x | mechanical |
+| Q1-Annualized P/S | ~4.9x | mechanical |
 | Q1 Gross Margin | ~25.7% | vs ~26% Feb baseline |
 | Asset-Liability Ratio | ~57.8% | vs 48-54% Feb frame |
 | February Report Price | RMB 92.80 (Feb 17) | historical anchor |
@@ -69,7 +71,7 @@ Founded in 1993 and headquartered in Haikou, Jinpan is a leader in China's dry-t
 
 | Company | Market Cap | P/E basis | Core Business | Edge |
 |---------|-----------|----------|---------------|------|
-| **Jinpan** | ~RMB 39.5B | ~88x (annualized) | Dry transformers + AIDC | SST tech, digital manufacturing |
+| **Jinpan** | ~RMB 29.6B | ~66x (annualized) | Dry transformers + AIDC | SST tech, digital manufacturing |
 | Shunte Electric | Unlisted | — | Dry HV transformers | Data-center leader |
 | Sanbian Sci-Tech | ~RMB 8B | ~25x | Distribution transformers + storage | Storage transformer leader (orders +120%) |
 | TBEA | ~RMB 80B | ~15x | UHV + renewables full chain | Scale, global (overseas 65%, UHV 33.87%) |
@@ -115,7 +117,7 @@ Q1 2026 revenue growth of +13.4% confirms demand, but profit growth (+4.8%) lagg
 2. **Overseas dividend:** 2024 overseas revenue RMB 1.981B (+79.54%), 9M2025 share 30.85%; Mexico and Poland in production, U.S./Malaysia in preparation; localized production plus certification bypasses trade barriers (North America market est. US$2.64B by 2032).
 3. **Digital manufacturing efficiency:** gross margin recovered from the 2022 trough to 26%+; ~5% R&D ratio above peers; scale effects dilute fixed cost.
 
-**Key assumptions:** SST large orders — unproven as of June 23, 2026 and now an H2 watchpoint — materialize with a smooth ramp; AIDC demand does not fall off a cliff; U.S./Malaysia plants come online on plan; competitors do not gain a dominant SST edge. **Upside scenario:** 2026 net profit of RMB 1B (+74% vs 2024) at 35-40x P/E implies ~RMB 35-40B market cap — roughly the current RMB 39.5B, i.e. the price already reflects part of the optimism.
+**Key assumptions:** SST large orders — unproven as of June 23, 2026 and now an H2 watchpoint — materialize with a smooth ramp; AIDC demand does not fall off a cliff; U.S./Malaysia plants come online on plan; competitors do not gain a dominant SST edge. **Upside scenario:** 2026 net profit of RMB 1B (+74% vs 2024) at 35-40x P/E implies ~RMB 35-40B market cap — about 18-35% above the RMB 29.6B market cap at the 2026-07-31 close, so after the July drawdown the upside scenario carries real headroom again rather than being pre-priced.
 
 ## 6. Bear Case / Downside Risk
 
@@ -123,12 +125,12 @@ Q1 2026 revenue growth of +13.4% confirms demand, but profit growth (+4.8%) lagg
 
 **Supporting evidence:**
 
-1. **Valuation rich, thin margin of safety:** Q1-annualized P/E ~88x and P/S ~6.5x, far above the manufacturing average (15-25x); manufacturers rarely sustain high P/E (unless they become platforms).
+1. **Valuation still rich, margin of safety still thin:** at the 2026-07-31 close, Q1-annualized P/E is ~66x and P/S ~4.9x — clearly compressed from the old ~88x / ~6.5x caliber, but still far above the manufacturing average (15-25x); manufacturers rarely sustain high P/E (unless they become platforms).
 2. **SST commercialization risk:** prototype just completed, no mass production; 98% is a lab figure; data-center customers demand extreme power reliability with long qualification cycles; ABB, Siemens, and Shunte are also positioning.
 3. **Receivables exposure:** RMB 3.08B at end-2024 (44.7% of revenue), 123-day turnover; operating cash flow persistently below net profit; provisions or a customer default would erode profit and raise leverage.
 4. **Domestic competition + overseas uncertainty:** domestic renewables entering stock competition compresses margins; overseas plants carry high build cost and long ramp; geopolitics can disrupt overseas orders.
 
-**Triggers:** SST commercialization failure, AIDC demand peaking, a receivables blow-up, a competitor leapfrog, or macro deterioration. **Downside scenario:** 2026 net profit of RMB 650-700M (below expectations) at 20-25x P/E implies RMB 14-20B market cap (-50% to -65% vs current). The key risk is a "strong theme, weak cash" mix where revenue growth is accompanied by rising receivables, inventory, and capex, and profit does not convert to free cash flow.
+**Triggers:** SST commercialization failure, AIDC demand peaking, a receivables blow-up, a competitor leapfrog, or macro deterioration. **Downside scenario:** 2026 net profit of RMB 650-700M (below expectations) at 20-25x P/E implies RMB 14-20B market cap (-32% to -53% versus the RMB 29.6B market cap at the 2026-07-31 close). The key risk is a "strong theme, weak cash" mix where revenue growth is accompanied by rising receivables, inventory, and capex, and profit does not convert to free cash flow.
 
 ## 7. Key Uncertainties and Thesis-Breaking Conditions
 
@@ -138,7 +140,7 @@ Q1 2026 revenue growth of +13.4% confirms demand, but profit growth (+4.8%) lagg
 
 ## 8. Valuation
 
-Valuation is expectation calibration, not a target price or recommendation. The current `prices.json` anchor is the **RMB 83.53** Jul 7, 2026 close; using the Jun 23 price / market-cap frame implies roughly **RMB 38.4B** of current market capitalization. Q1 2026 parent net income of RMB 112M annualizes mechanically to about RMB 450M, or roughly **85x** P/E; Q1 revenue of RMB 1.523B annualizes to about RMB 6.09B, or roughly **6.3x** P/S.
+Valuation is expectation calibration, not a target price or recommendation. The current `prices.json` anchor is the **RMB 64.30** Jul 31, 2026 close; on about 460M shares that implies roughly **RMB 29.6B** of current market capitalization. Q1 2026 parent net income of RMB 112M annualizes mechanically to about RMB 450M, or roughly **66x** P/E; Q1 revenue of RMB 1.523B annualizes to about RMB 6.09B, or roughly **4.9x** P/S.
 
 **Scenario grid:**
 
@@ -148,7 +150,7 @@ Valuation is expectation calibration, not a target price or recommendation. The 
 | Base | AIDC stays strong but lumpy; SST order validation slips into H2 2026; overseas capacity releases gradually but needs margin ramp; receivables and cash conversion improve only partly | Today's price largely prices the base case: growth is still real, but the margin of safety is limited | 40% |
 | Bear | AIDC growth falls below 100%; large SST orders remain absent; overseas plants slip more than 6 months; gross margin falls below 24%; receivables keep growing faster than revenue | Today's price is rich; the risk is thematic valuation leading while collections and profit conversion lag | 30% |
 
-**What's priced in & the expectation gap:** At **RMB 83.53**, roughly **RMB 38.4B** market cap, about **85x** Q1-annualized P/E, and about **6.3x** P/S, the market is already pre-paying for high odds that AIDC, SST, overseas expansion, and H-share financing improvement all work. Our base case accepts that these options are real, but it also requires collections and cash flow to improve at the same time; the 30% bull / 40% base / 30% bear grid leaves the current price close to the base case, so the expectation gap is broadly balanced.
+**What's priced in & the expectation gap (re-derived 2026-07-31 at that day's close):** At **RMB 64.30**, roughly **RMB 29.6B** market cap, about **66x** Q1-annualized P/E, and about **4.9x** P/S, the market is still pre-paying for AIDC, SST, overseas expansion, and H-share financing improvement, but it pre-pays materially less than at the old anchor. Our base case accepts that these options are real and still requires collections and cash flow to improve at the same time; the 30% bull / 40% base / 30% bear grid now has a bull case with real headroom and a narrower bear drawdown, leaving the current price close to the base case, so the expectation gap is broadly balanced.
 
 ## 9. Catalysts & Monitoring
 
@@ -164,7 +166,7 @@ Valuation is expectation calibration, not a target price or recommendation. The 
 
 Jinpan's chain-validation job is to test whether AI data-center power-equipment demand can show up in real dry-type transformer, digital-factory, SST, and overseas-capacity orders with cash collection, not merely A-share thematic valuation. If AIDC, SST, overseas plants, and collection quality improve together, the AI-power-equipment constraint becomes more credible. If growth remains mostly revenue and narrative, valuation has to be recalibrated.
 
-The expectation gap is broadly balanced: at RMB 83.53, roughly RMB 38.4B market cap, about 85x Q1-annualized P/E, and about 6.3x P/S, the market is already pre-paying for high odds that AIDC / SST / overseas expansion and H-share financing improvement all work; our 30% bull / 40% base / 30% bear grid leaves the base case close to market-implied expectations, so the stance remains neutral watch.
+The expectation gap is broadly balanced: at the RMB 64.30 close on 2026-07-31, roughly RMB 29.6B market cap, about 66x Q1-annualized P/E, and about 4.9x P/S, the market is still pre-paying for AIDC / SST / overseas expansion and H-share financing improvement, though less than at the old anchor; our 30% bull / 40% base / 30% bear grid still leaves the base case close to market-implied expectations, so the stance remains neutral watch.
 
 The current stance is **neutral watch, medium conviction**. The 30% bull / 40% base / 30% bear grid says the AI-power-equipment optionality is real, but today's price already asks orders, collections, margin, and capacity to validate together. Medium conviction reflects the evidence quality: the AIDC and digital-manufacturing logic is clear, while receivables, cash flow, and SST orders remain the main constraints.
 

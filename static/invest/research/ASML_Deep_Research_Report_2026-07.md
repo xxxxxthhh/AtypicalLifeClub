@@ -11,11 +11,13 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 > **Framework role:** ASML Holding is the common constraint for the AI-infrastructure semiconductor equipment layer. The report's job is to test the chain signal, not to turn one company print into a recommendation.
 
-**One-line thesis:** Common-constraint coverage for the AI-infrastructure semicap-equipment layer. ASML tests whether foundry and memory capex truly passes through lithography, EUV, High-NA, long-term agreements, and export controls. Q1 2026 net sales were EUR 8.767B, gross margin was 53.0%, and net income was EUR 2.757B; FY2026 guidance is EUR 36-40B net sales and 51-53% gross margin. Q4 2025 net bookings were EUR 13.158B, including EUR 7.4B EUV, and year-end backlog was EUR 38.797B. At $1,769.32 per ADR (2026-07-02), about $681.9B market cap, and EUR/USD 1.1440, ASML trades around 15.6x EV/2026E sales at the FY2026 sales midpoint. Neutral watch / medium conviction: monopoly quality is exceptional, but the valuation already capitalizes durable EUV/High-NA scarcity and manageable export controls.
+**One-line thesis:** Common-constraint coverage for the AI-infrastructure semicap-equipment layer. ASML tests whether foundry and memory capex truly passes through lithography, EUV, High-NA, long-term agreements, and export controls. Q1 2026 net sales were EUR 8.767B, gross margin was 53.0%, and net income was EUR 2.757B; FY2026 guidance is EUR 36-40B net sales and 51-53% gross margin. Q4 2025 net bookings were EUR 13.158B, including EUR 7.4B EUV, and year-end backlog was EUR 38.797B. At the $1,651.44 ADR close on 2026-07-30, about $636.5B market cap, and EUR/USD 1.1440, ASML trades around 14.6x EV/2026E sales at the FY2026 sales midpoint. Neutral watch / medium conviction: monopoly quality is exceptional, but the valuation already capitalizes durable EUV/High-NA scarcity and manageable export controls.
 
 **Current view:** **neutral watch / medium conviction.** The v5 scenario grid keeps ASML neutral rather than more bullish: EUV/High-NA scarcity is real, but the July 2 price already embeds a durable WFE bottleneck, clean backlog conversion, and manageable export controls.
 
-> **2026-07-31 price check (no new quarter integrated in this pass).** ASML closed at **$1,550.69** on **2026-07-29**, the last completed session, versus the **$1,767.02** anchor dated below — a **-12.2%** move during the verified July 2026 chain-wide AI-infrastructure repricing. The dated price, market-cap and multiple figures below remain correct **as of their stated dates** and are not rewritten here, but they are no longer current *levels*; read them as of their labels. The drift is below this report's own rerun threshold (25%), so the valuation frame, scenario grid, stance and conviction are unchanged and `priceAsOf` is deliberately left in place so the report stays in the normal rerun queue.
+> **Old price-check note — stale as written, superseded by the re-adjudication below.** ~~2026-07-31 price check: ASML closed at $1,550.69 on 2026-07-29 versus the $1,767.02 anchor, a -12.2% move; figures below read as of their labels, and the valuation frame, scenario grid, stance and conviction are unchanged with `priceAsOf` deliberately left in place.~~
+
+> **2026-07-31 stance re-adjudication at the 2026-07-30 close.** Owner ruling (2026-07-31): a published stance and its rationale must hold at the CURRENT price. ASML closed at **$1,651.44** on **2026-07-30**, **-6.7%** from the old $1,769.32 body anchor of 2026-07-02 and **-6.5%** from the $1,767.03 the price ledger carried for the same date; this pass reconciles both onto the current close. On about 385.4M ADR-equivalent shares, market cap is about **$636.5B** (old about $681.9B) and EV/2026E sales about **14.6x** (old about 15.6x); the scenario price contexts, which the report sets mechanically at +25% and -30% of the base anchor, become about **$2,064** bull and about **$1,156** bear. No estimate or actual was changed; only the price input moved. **The premise survives at the new level rather than breaking.** The base case is that FY2026 revenue lands in the EUR 36-40B guide with EV/sales settling toward high single digits to low teens, and 14.6x is still above that band, so the finding that most EUV scarcity is already capitalised continues to hold — just with modestly more tolerance for an order or margin miss than at 15.6x. The stance also does not rest mainly on the multiple: EUV / High-NA booking cadence, conversion of the EUR 38.797B backlog, and China export-control exposure are all untouched by a price move. **Stance stays neutral watch (medium conviction) — held on this restated current-price arithmetic, not on the old ~15.6x claim.**
 
 **2026-07-15 monitoring update (no stance change):** ASML reported Q2 2026 net sales of EUR 9.326B, net income of EUR 2.918B, 54.0% gross margin, and EUR 2.762B of Installed Base Management sales; FY2026 guidance was raised for the second time this year to EUR 43-45B net sales and 54-56% gross margin. Management said H1 order intake was strong and plans to add 30% to both 2027 low-NA EUV and DUV immersion capacity versus 2026, while investigating another 30% for each in 2028. The release disclosed neither quarterly net bookings nor backlog, so it strengthens equipment-side confirmation without proving that customer-specific capex is fully committed or that backlog has no cancellations or delays. This update does not refresh the Jul 2, 2026 valuation snapshot; the neutral-watch / medium-conviction stance is unchanged.
 
@@ -24,7 +26,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Report id | asml-2026 |
 | Chain layer / role | semicap-equipment / common-constraint |
 | Latest reported period | 2026Q2 / Q4 2025 bookings |
-| Price snapshot | $1,769.32 as of 2026-07-02 |
+| Price snapshot | $1,651.44 as of 2026-07-30 |
 | Coverage tier after this upgrade | full |
 | Stance | neutral watch / medium conviction |
 | Primary valuation use | scenario context and risk tolerance, not a target price |
@@ -66,7 +68,7 @@ The financial section converts the prose fact base into a repeatable scorecard. 
 | Margin / profitability | Use the current reported period and company-disclosed margin or EPS figures in the source notes | Tests whether growth is profitable or merely volume-led | B+ |
 | Cash flow / balance sheet | Debt, cash, FCF, AFFO, EBITDA, or buyback context preserved from the original report where disclosed | Determines whether the company can fund the cycle | B |
 | Backlog / bookings / RPO | Q4 2025 net bookings EUR 13.158B, including EUR 7.4B EUV; year-end 2025 backlog EUR 38.797B | Separates committed demand from narrative demand | B+ |
-| Valuation tolerance | Current price context: $1,769.32 | High expectation names need cleaner execution | Caution |
+| Valuation tolerance | Current price context: $1,651.44 (2026-07-30) | High expectation names need cleaner execution | Caution |
 
 ## 4. Management And Caliber Check <!-- report-module:management -->
 
@@ -75,7 +77,7 @@ This module checks source caliber and management execution rather than adding a 
 | Check | Current treatment | Why it matters |
 | --- | --- | --- |
 | Company-disclosed actuals | Reported period and financial figures are preserved from the original report | Avoids inventing a new quarter |
-| Market-data values | Price snapshot kept at $1,769.32 and dated 2026-07-02 | Prevents stale valuation math |
+| Market-data values | Price snapshot re-anchored to $1,651.44 and dated 2026-07-30 | Prevents stale valuation math |
 | Scenario levels | Derived mechanically from current price for risk framing | Not a recommendation or target price |
 | Source quality | Primary company releases, filings, or issuer pages remain in the appendix | Keeps the audit trail visible |
 
@@ -90,7 +92,7 @@ The bull case is the strongest version of why the report's chain signal could st
 | Demand pull-through | P2 equipment-layer common constraint: ASML uses EUV/High-NA, backlog, installed-base service and export controls to test whether AI capex is entering the hardest tool bottleneck | Next reported period confirms the same direction |
 | Financial conversion | Q1 2026 net sales EUR 8.767B, gross margin 53.0%, net income EUR 2.757B; FY2026 guidance EUR 36-40B net sales and 51-53% gross margin | Revenue converts into margin, cash flow, or backlog |
 | Cross-check support | AMAT, LRCX, KLAC | Adjacent reports move in the same direction |
-| Valuation resilience | Base price context $1,769.32; bull context $2,211.65 | The multiple holds because fundamentals continue to validate |
+| Valuation resilience | Base price context $1,651.44; bull context about $2,064 | The multiple holds because fundamentals continue to validate |
 
 The constructive scenario is not simply that the stock rises. It is that the same data that supports this company also tightens the whole chain read-through.
 
@@ -100,10 +102,10 @@ The bear case is the strongest version of why the report's chain signal could be
 
 | Bear driver | Risk evidence | Thesis-breaking signal |
 | --- | --- | --- |
-| Expectation risk | Current price context $1,769.32 | Good company performance no longer beats embedded expectations |
+| Expectation risk | Current price context $1,651.44 (2026-07-30) | Good company performance no longer beats embedded expectations |
 | Chain divergence | Adjacent reports fail to confirm the same signal | The bottleneck sits elsewhere or demand was pulled forward |
 | Execution risk | Guidance, backlog, or capacity conversion slows | Reported evidence stops supporting the role |
-| Valuation compression | Bear context $1,238.52; base context $1,769.32 | Multiple contracts before the long-term story changes |
+| Valuation compression | Bear context about $1,156; base context $1,651.44 | Multiple contracts before the long-term story changes |
 
 The bearish read should not ignore quality. It asks whether quality is already capitalized and whether the report is overclaiming what the current evidence can prove.
 
@@ -115,7 +117,7 @@ The bearish read should not ignore quality. It asks whether quality is already c
 | Backlog-to-revenue conversion | EUR 38.797B backlog converts into 2026-2027 revenue without cancellations or delays | Q3 2026 revenue and any backlog-conversion disclosure |
 | Export controls and China shippable market | tighter export controls reduce system shipments, service access, or customer plans | export-control and geography disclosures |
 | Installed-base management sales | service revenue keeps growing and cushions system-order cyclicality | Q3 2026 installed-base service growth |
-| Valuation and backlog quality | around 15.6x 2026E sales leaves valuation exposed to order or margin misses | price, backlog and margin reset |
+| Valuation and backlog quality | around 14.6x 2026E sales still leaves valuation exposed to order or margin misses | price, backlog and margin reset |
 
 Thesis breakers:
 
@@ -125,7 +127,7 @@ Thesis breakers:
 
 ## 8. Valuation Context <!-- report-module:valuation -->
 
-Valuation is used as risk context, not as a recommendation. The v5 question is what the $1,769.32 dated price already assumes about EUV / High-NA, WFE intensity, backlog conversion, and China/export risk.
+Valuation is used as risk context, not as a recommendation. The v5 question is what the $1,651.44 current price already assumes about EUV / High-NA, WFE intensity, backlog conversion, and China/export risk.
 
 **Scenario grid:**
 
@@ -135,7 +137,7 @@ Valuation is used as risk context, not as a recommendation. The v5 question is w
 | Base | FY2026 revenue lands in the EUR 36-40B guide; EUV backlog supports revenue but order cadence normalizes; High-NA ramps gradually; China restrictions cap some upside without breaking the model; EV/sales settles around high single digits to low teens | Current price is broadly fair: quality deserves a premium, but most EUV scarcity is already capitalized | 40% |
 | Bear | WFE orders cool after AI customer prebuild; High-NA adoption is slower; export controls reduce China system or service access; backlog conversion slips; the multiple resets toward ordinary equipment-cycle levels | Current price would be rich because both revenue expectations and the through-cycle multiple compress | 30% |
 
-**What's priced in & the expectation gap:** At $1,769.32 and about 15.6x EV/2026E sales, the market already prices EUV / High-NA scarcity, FY2026 revenue of EUR 36-40B, and manageable export controls. If the through-cycle equipment multiple normalizes toward roughly 10-12x sales and investors require about 8% annually, ASML needs either mid-to-high-teens revenue compounding or a sustained monopoly premium to make the current multiple feel easy. Our base case is close to that implied expectation rather than clearly above it, so the expectation gap is balanced. These are assumption ranges for expectations calibration, not a target price.
+**What's priced in & the expectation gap (re-derived 2026-07-31 at the 2026-07-30 close):** At $1,651.44 and about 14.6x EV/2026E sales, the market already prices EUV / High-NA scarcity, FY2026 revenue of EUR 36-40B, and manageable export controls. If the through-cycle equipment multiple normalizes toward roughly 10-12x sales and investors require about 8% annually, ASML needs either mid-to-high-teens revenue compounding or a sustained monopoly premium to make the current multiple feel easy. Our base case is close to that implied expectation rather than clearly above it, so the expectation gap is balanced. These are assumption ranges for expectations calibration, not a target price.
 
 ## 9. Catalysts And Monitoring <!-- report-module:catalysts -->
 
@@ -145,7 +147,7 @@ Valuation is used as risk context, not as a recommendation. The v5 question is w
 | Backlog-to-revenue conversion | Q2 net sales were EUR 9.326B at 54.0% gross margin; FY2026 guidance is EUR 43-45B / 54-56%, but backlog was not disclosed | EUR 38.797B backlog converts into 2026-2027 revenue without cancellations or delays | Q3 2026 revenue and any backlog-conversion disclosure |
 | Export controls and China shippable market | FY2026 guidance range incorporates possible export-control discussion outcomes | tighter export controls reduce system shipments, service access, or customer plans | export-control and geography disclosures |
 | Installed-base management sales | Q2 Installed Base Management sales were EUR 2.762B (EUR 2.488B in Q1) | service revenue keeps growing and cushions system-order cyclicality | Q3 2026 installed-base service growth |
-| Valuation and backlog quality | $1,769.32 ADR, about $681.9B market cap, about 15.6x EV/2026E sales | around 15.6x 2026E sales leaves valuation exposed to order or margin misses | price, backlog and margin reset |
+| Valuation and backlog quality | $1,651.44 ADR, about $636.5B market cap, about 14.6x EV/2026E sales | around 14.6x 2026E sales still leaves valuation exposed to order or margin misses | price, backlog and margin reset |
 
 These are the items that should drive future reruns. A monitoring update should change the report only when it changes the chain read-through or the valuation tolerance.
 
@@ -160,7 +162,7 @@ These are the items that should drive future reruns. A monitoring update should 
 
 ASML's chain-validation job is unchanged: it is the common-constraint read on whether AI foundry and memory capex is truly passing through EUV, High-NA, backlog, installed-base service, and export-control gates.
 
-The expectation gap is balanced: at $1,769.32 and about 15.6x EV/2026E sales, the market already prices EUV / High-NA scarcity, FY2026 revenue of EUR 36-40B, and manageable export controls; our 30% bull / 40% base / 30% bear grid keeps the base case close to implied expectations.
+The expectation gap is balanced: at the $1,651.44 close on Jul 30, 2026 and about 14.6x EV/2026E sales, the market still prices EUV / High-NA scarcity, FY2026 revenue of EUR 36-40B, and manageable export controls; our 30% bull / 40% base / 30% bear grid keeps the base case close to implied expectations, with modestly more tolerance than at the old 15.6x.
 
 The current stance is **neutral watch, medium conviction**. Neutral is not a lack of view: the monopoly quality is exceptional, but the scenario skew is roughly balanced because the price already capitalizes the most important bottleneck benefits. Medium conviction reflects solid order/backlog evidence, offset by the need to verify Q2 order cadence and export-control outcomes.
 

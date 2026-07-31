@@ -39,8 +39,8 @@
     "priceSymbol": "ASML",
     "title": "ASML 深度研究报告 - EUV / High-NA 作为设备层公共约束",
     "titleEn": "ASML Deep Research Report - EUV / High-NA as the Equipment-Layer Common Constraint",
-    "summary": "【2026-07-31 价格复核：ASML 于 2026-07-29 收于 $1,550.69，较本报告锚点 -12.2%；下方数字按其标注日期阅读，估值框架与立场不变。】AI 基础设施 semicap-equipment 层的公共约束：ASML 验证 foundry / memory capex 是否真正穿过光刻、EUV、High-NA、长期协议和出口管制这道最硬瓶颈。Q2 2026 net sales EUR 9.326B、gross margin 54.0%、net income EUR 2.918B；FY2026 指引第二次上调至 net sales EUR 43-45B、gross margin 54-56%，并计划把 2027 年 low-NA EUV 与 DUV immersion 产能各较 2026 年增加 30%。本次监测没有季度 net bookings 或 backlog 披露，因此只加强设备侧确认，不证明客户特定 capex 已全部承诺。ADR $1,769.32、约 15.6x EV/2026E sales 仍是基于当时 EUR 36-40B 指引的 2026-07-02 初始估值快照，本次不刷新估值或立场；维持中性观察 / 中确信。",
-    "summaryEn": "[2026-07-31 price check: ASML closed at $1,550.69 on 2026-07-29, -12.2% versus this report's anchor; figures below read as of their stated dates, and the valuation frame and stance are unchanged.] Common-constraint coverage for the AI-infrastructure semicap-equipment layer. ASML tests whether foundry and memory capex truly passes through lithography, EUV, High-NA, long-term agreements, and export controls. Q2 2026 net sales were EUR 9.326B, gross margin was 54.0%, and net income was EUR 2.918B; FY2026 guidance was raised for the second time to EUR 43-45B net sales and 54-56% gross margin, while ASML plans to add 30% to both 2027 low-NA EUV and DUV immersion capacity versus 2026. The update disclosed neither quarterly net bookings nor backlog, so it strengthens equipment-side confirmation without proving that customer-specific capex is fully committed. The $1,769.32 ADR and roughly 15.6x EV/2026E sales remain the dated 2026-07-02 initial valuation snapshot based on the then EUR 36-40B guide; this update does not refresh valuation or stance, which remains neutral watch / medium conviction.",
+    "summary": "AI 基础设施 semicap-equipment 层的公共约束：ASML 验证 foundry / memory capex 是否真正穿过光刻、EUV、High-NA、长期协议和出口管制这道最硬瓶颈。Q2 2026 net sales EUR 9.326B、gross margin 54.0%、net income EUR 2.918B；FY2026 指引第二次上调至 net sales EUR 43-45B、gross margin 54-56%，并计划把 2027 年 low-NA EUV 与 DUV immersion 产能各较 2026 年增加 30%。本次监测没有季度 net bookings 或 backlog 披露，因此只加强设备侧确认，不证明客户特定 capex 已全部承诺。2026-07-31 重新锚定至 2026-07-30 收盘 ADR $1,651.44、市值约 $636.5B、约 14.6x EV/2026E sales；倍数仍高于基准情景所设的高个位数至低十几倍区间，且立场并不主要依赖倍数，维持中性观察 / 中确信。",
+    "summaryEn": "Common-constraint coverage for the AI-infrastructure semicap-equipment layer. ASML tests whether foundry and memory capex truly passes through lithography, EUV, High-NA, long-term agreements, and export controls. Q2 2026 net sales were EUR 9.326B, gross margin was 54.0%, and net income was EUR 2.918B; FY2026 guidance was raised for the second time to EUR 43-45B net sales and 54-56% gross margin, while ASML plans to add 30% to both 2027 low-NA EUV and DUV immersion capacity versus 2026. The update disclosed neither quarterly net bookings nor backlog, so it strengthens equipment-side confirmation without proving that customer-specific capex is fully committed. The $1,651.44 ADR and roughly 14.6x EV/2026E sales remain the dated 2026-07-02 initial valuation snapshot based on the then EUR 36-40B guide; this update does not refresh valuation or stance, which remains neutral watch / medium conviction.",
     "tags": [
       "半导体设备",
       "EUV",
@@ -63,7 +63,7 @@
       "P2 设备层公共约束：ASML 用 EUV/High-NA、backlog、installed-base service 和出口管制验证 AI capex 是否进入最硬工具瓶颈",
       "Q2 2026 net sales EUR 9.326B、gross margin 54.0%、net income EUR 2.918B；FY2026 指引第二次上调至 EUR 43-45B net sales、54-56% gross margin",
       "Q4 2025 net bookings EUR 13.158B，其中 EUV EUR 7.4B；2025 年末 backlog EUR 38.797B",
-      "2026-07-02 初始估值快照为 ADR $1,769.32、约 15.6x EV/2026E sales（基于当时 EUR 36-40B 指引）；本次监测不刷新估值或立场"
+      "2026-07-30 收盘 ADR $1,651.44、市值约 $636.5B、约 14.6x EV/2026E sales；维持中性观察 / 中确信"
     ],
     "chainLayer": "semicap-equipment",
     "coverageTier": "full",
@@ -71,8 +71,8 @@
     "stance": "neutral-watch",
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 $1,769.32、约 15.6x EV/2026E sales 计，市场已经定价 EUV / High-NA 稀缺、FY2026 EUR 36-40B 收入和出口管制可控；30% 牛市 / 40% 基准 / 30% 熊市情景表显示 base case 接近隐含预期，偏斜均衡。",
-      "en": "At $1,769.32 and about 15.6x EV/2026E sales, the market already prices EUV / High-NA scarcity, FY2026 revenue of EUR 36-40B, and manageable export controls; the 30% bull / 40% base / 30% bear grid leaves the base case close to implied expectations, so skew is balanced."
+      "zh": "以 $1,651.44、约 14.6x EV/2026E sales 计，市场已经定价 EUV / High-NA 稀缺、FY2026 EUR 36-40B 收入和出口管制可控；30% 牛市 / 40% 基准 / 30% 熊市情景表显示 base case 接近隐含预期，偏斜均衡。",
+      "en": "At $1,651.44 and about 14.6x EV/2026E sales, the market already prices EUV / High-NA scarcity, FY2026 revenue of EUR 36-40B, and manageable export controls; the 30% bull / 40% base / 30% bear grid leaves the base case close to implied expectations, so skew is balanced."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -90,9 +90,15 @@
         "conviction": "medium",
         "date": "2026-07-02",
         "price": 1769.32
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 1651.44
       }
     ],
-    "priceAsOf": "2026-07-02",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "2026Q2 / Q4 2025 bookings",
     "related": [
       "tsmc-2026",
@@ -769,8 +775,8 @@
     "priceSymbol": "SNPS",
     "title": "Synopsys 深度研究报告 - AI 芯片设计的 EDA/IP 与仿真约束",
     "titleEn": "Synopsys Deep Research Report - EDA/IP And Simulation Constraint For AI Silicon Design",
-    "summary": "【2026-07-31 价格复核：SNPS 于 2026-07-29 收于 $373.69，较本报告锚点 -14.5%；下方数字按其标注日期阅读，估值框架与立场不变。】AI 基础设施 eda-ip 层的公共约束：SNPS 验证 AI silicon 需求是否穿透到 design automation、verification、simulation、IP blocks 和 system-level complexity。FY2026 Q2 revenue $2.276B（去年同期 $1.604B）、GAAP EPS $0.09、non-GAAP EPS $3.35；FY2026 指引 revenue $9.625-9.705B、non-GAAP EPS $14.72-14.80、FCF 约 $2.0B。指引包含约 $2.96B Ansys revenue，并假设没有进一步 export-control / Entity List 变化。当前 $437.16、市值约 $83.7B、EV 约 $92.1B，约 9.5x EV/FY2026E sales、约 29.6x non-GAAP P/E。偏多 / 中确信：AI EDA/IP durability 与 Ansys 仿真资产让基准情景略高于市场隐含要求，但整合、出口和客户周期性仍限制确信度。",
-    "summaryEn": "[2026-07-31 price check: SNPS closed at $373.69 on 2026-07-29, -14.5% versus this report's anchor; figures below read as of their stated dates, and the valuation frame and stance are unchanged.] Common-constraint coverage for the AI-infrastructure eda-ip layer. SNPS tests whether AI silicon demand is flowing into design automation, verification, simulation, IP blocks, and system-level complexity. Q2 FY2026 revenue was $2.276B versus $1.604B a year ago, GAAP EPS was $0.09, and non-GAAP EPS was $3.35; FY2026 guidance is $9.625-9.705B revenue, $14.72-14.80 non-GAAP EPS, and about $2.0B FCF. Guidance includes about $2.96B of Ansys revenue and assumes no further export-control / Entity List changes. At $437.16, about $83.7B market cap and $92.1B EV, SNPS trades around 9.5x EV/FY2026E sales and 29.6x non-GAAP P/E. Constructive / medium conviction: AI EDA/IP durability and the Ansys simulation asset put the base case slightly above what the market embeds, but integration, export, and customer-cycle risks keep conviction capped.",
+    "summary": "AI 基础设施 eda-ip 层的公共约束：SNPS 验证 AI silicon 需求是否穿透到 design automation、verification、simulation、IP blocks 和 system-level complexity。FY2026 Q2 revenue $2.276B（去年同期 $1.604B）、GAAP EPS $0.09、non-GAAP EPS $3.35；FY2026 指引 revenue $9.625-9.705B、non-GAAP EPS $14.72-14.80、FCF 约 $2.0B。指引包含约 $2.96B Ansys revenue，并假设没有进一步 export-control / Entity List 变化。以 2026-07-30 收盘 $372.33 计，市值约 $71.3B、EV 约 $79.7B，约 8.2x EV/FY2026E sales、约 25.2x non-GAAP P/E。偏多 / 中确信：倍数在 2026 年 7 月链条重定价中压缩，同一套指引框架反而更便宜，温和正预期差变宽；但整合、出口和客户周期性仍限制确信度。",
+    "summaryEn": "Common-constraint coverage for the AI-infrastructure eda-ip layer. SNPS tests whether AI silicon demand is flowing into design automation, verification, simulation, IP blocks, and system-level complexity. Q2 FY2026 revenue was $2.276B versus $1.604B a year ago, GAAP EPS was $0.09, and non-GAAP EPS was $3.35; FY2026 guidance is $9.625-9.705B revenue, $14.72-14.80 non-GAAP EPS, and about $2.0B FCF. Guidance includes about $2.96B of Ansys revenue and assumes no further export-control / Entity List changes. At the $372.33 close on 2026-07-30, about $71.3B market cap and $79.7B EV, SNPS trades around 8.2x EV/FY2026E sales and 25.2x non-GAAP P/E. Constructive / medium conviction: the multiple compressed in the July 2026 chain repricing so the same guidance frame is cheaper and the modestly positive expectation gap widens, while integration, export, and customer-cycle risks keep conviction capped.",
     "tags": [
       "EDA",
       "半导体IP",
@@ -792,7 +798,7 @@
       "补齐 EDA/IP 公共约束：SNPS 验证 AI design starts 与复杂度是否进入 design automation、verification、simulation 和 IP",
       "FY2026 Q2 revenue $2.276B、non-GAAP EPS $3.35；FY2026 revenue 指引 $9.625-9.705B",
       "FY2026 指引包含约 $2.96B Ansys revenue，且假设没有进一步 export-control / Entity List 变化",
-      "当前 $437.16、EV 约 $92.1B，约 9.5x FY2026E sales、约 29.6x non-GAAP P/E；v5 偏多 / 中确信"
+      "2026-07-30 收盘 $372.33、EV 约 $79.7B，约 8.2x FY2026E sales、约 25.2x non-GAAP P/E；v5 偏多 / 中确信"
     ],
     "chainLayer": "eda-ip",
     "coverageTier": "full",
@@ -800,8 +806,8 @@
     "stance": "constructive",
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 $437.16、约 9.5x EV/FY2026E sales 和约 29.6x non-GAAP P/E 计，市场已经要求 AI EDA/IP durability、Ansys 并表和 FCF 修复，但我们的基准情景认为 simulation pull-through、Design IP 和 verification 复杂度仍略高于这个隐含要求。",
-      "en": "At $437.16, roughly 9.5x EV/FY2026E sales, and about 29.6x non-GAAP P/E, the market already requires AI EDA/IP durability, Ansys consolidation, and FCF repair, but our base case sees simulation pull-through, Design IP, and verification complexity running slightly ahead of that embedded requirement."
+      "zh": "以 2026-07-30 收盘 $372.33、约 8.2x EV/FY2026E sales 和约 25.2x non-GAAP P/E 计，市场仍然要求 AI EDA/IP durability、Ansys 并表和 FCF 修复，但同一套 FY2026 指引框架在 7 月链条重定价后便宜了约 15%，因此我们基准情景中 simulation pull-through、Design IP 和 verification 复杂度高于隐含要求的那部分预期差反而变宽。",
+      "en": "At the $372.33 close on 2026-07-30, roughly 8.2x EV/FY2026E sales, and about 25.2x non-GAAP P/E, the market still requires AI EDA/IP durability, Ansys consolidation, and FCF repair, but the same FY2026 guidance frame is about 15% cheaper after the July chain repricing, so the gap by which our base case sees simulation pull-through, Design IP, and verification complexity running ahead of that embedded requirement has widened."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -824,9 +830,15 @@
         "stance": "constructive",
         "conviction": "medium",
         "price": 437.16
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "constructive",
+        "conviction": "medium",
+        "price": 372.33
       }
     ],
-    "priceAsOf": "2026-07-02",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "FY2026 Q2",
     "related": [
       "cadence-2026",
@@ -941,8 +953,8 @@
     "priceSymbol": "CDNS",
     "title": "Cadence Design Systems 深度研究报告 - AI 设计复杂度的 EDA/IP backlog 仪表盘",
     "titleEn": "Cadence Design Systems Deep Research Report - EDA/IP Backlog Dashboard For AI Design Complexity",
-    "summary": "【2026-07-31 价格复核：CDNS 于 2026-07-29 收于 $332.76，较本报告锚点 -10.8%；下方数字按其标注日期阅读，估值框架与立场不变。】AI 基础设施 eda-ip 层的 backlog / execution 仪表盘：CDNS 验证 AI demand 是否出现在 design automation、IP、simulation、backlog、RPO 和 agentic design workflows。2026Q2 财报（2026-07-27）：revenue $1.584B（同比 +24%）、non-GAAP operating margin 45.5%、non-GAAP EPS $2.11；季度末 backlog $8.1B（公司口径 record），未来 12 个月预计从 RPO 确认收入 $4.2B；Core EDA / Semiconductor IP / System Design & Analysis 收入分别同比 +18% / 超过 +40% / +37%。管理层把 FY2026 指引上修至 revenue $6.26-6.34B（约 +19% YoY）、non-GAAP EPS $8.05-8.15、operating cash flow 约 $2B。$373.14、市值约 $102.9B、EV 约 $104.5B、约 16.9x EV/sales 与约 47.2x non-GAAP P/E 均是基于当时 Q1 指引（revenue $6.125-6.225B、EPS $7.85-7.95）的 2026-07-02 初始估值快照，本次监测不刷新估值或立场；维持谨慎 / 中确信。",
-    "summaryEn": "[2026-07-31 price check: CDNS closed at $332.76 on 2026-07-29, -10.8% versus this report's anchor; figures below read as of their stated dates, and the valuation frame and stance are unchanged.] Backlog / execution dashboard for the AI-infrastructure eda-ip layer. CDNS tests whether AI demand is visible in design automation, IP, simulation, backlog, RPO, and agentic design workflows. Q2 2026 results (July 27, 2026): revenue was $1.584B (up 24% YoY), non-GAAP operating margin was 45.5%, and non-GAAP EPS was $2.11; quarter-end backlog was $8.1B (a company-stated record), next-12-month RPO revenue was $4.2B, and Core EDA / Semiconductor IP / System Design & Analysis revenue grew 18% / more than 40% / 37% YoY. Management raised FY2026 guidance to $6.26-6.34B revenue (about +19% YoY), $8.05-8.15 non-GAAP EPS, and about $2B operating cash flow. The $373.14 price, about $102.9B market cap, $104.5B EV, ~16.9x EV/sales, and ~47.2x non-GAAP P/E are the July 2, 2026 initial valuation snapshot based on the then-current Q1 guide ($6.125-6.225B revenue and $7.85-7.95 EPS); this monitoring pass does not refresh valuation or stance and keeps Cautious / medium conviction.",
+    "summary": "AI 基础设施 eda-ip 层的 backlog / execution 仪表盘：CDNS 验证 AI demand 是否出现在 design automation、IP、simulation、backlog、RPO 和 agentic design workflows。2026Q2 财报（2026-07-27）：revenue $1.584B（同比 +24%）、non-GAAP operating margin 45.5%、non-GAAP EPS $2.11；季度末 backlog $8.1B（公司口径 record），未来 12 个月预计从 RPO 确认收入 $4.2B；Core EDA / Semiconductor IP / System Design & Analysis 收入分别同比 +18% / 超过 +40% / +37%。管理层把 FY2026 指引上修至 revenue $6.26-6.34B（约 +19% YoY）、non-GAAP EPS $8.05-8.15、operating cash flow 约 $2B。2026-07-31 完成此前推迟的估值复核：以 2026-07-30 收盘 $332.82 计，市值约 $91.8B、EV 约 $93.4B，对照上修后指引约 14.8x EV/sales、约 41.1x non-GAAP P/E。倍数被价格下行与分母上行同时消化，立场由谨慎调整为 neutral-watch / 中确信。",
+    "summaryEn": "Backlog / execution dashboard for the AI-infrastructure eda-ip layer. CDNS tests whether AI demand is visible in design automation, IP, simulation, backlog, RPO, and agentic design workflows. Q2 2026 results (July 27, 2026): revenue was $1.584B (up 24% YoY), non-GAAP operating margin was 45.5%, and non-GAAP EPS was $2.11; quarter-end backlog was $8.1B (a company-stated record), next-12-month RPO revenue was $4.2B, and Core EDA / Semiconductor IP / System Design & Analysis revenue grew 18% / more than 40% / 37% YoY. Management raised FY2026 guidance to $6.26-6.34B revenue (about +19% YoY), $8.05-8.15 non-GAAP EPS, and about $2B operating cash flow. The 2026-07-31 pass completed the previously deferred valuation review: at the $332.82 close on 2026-07-30, market cap is about $91.8B and EV about $93.4B, or about 14.8x EV/sales and about 41.1x non-GAAP P/E against the raised guide. The multiple has been absorbed by a lower price and a higher denominator together, so the stance moves from cautious to neutral-watch / medium conviction.",
     "tags": [
       "EDA",
       "半导体IP",
@@ -964,25 +976,25 @@
       "补齐 EDA/IP backlog 仪表盘：CDNS 验证 AI 复杂度是否进入 backlog、RPO、IP 和 agentic design flow",
       "2026Q2（2026-07-27）revenue $1.584B（同比 +24%）、non-GAAP operating margin 45.5%、non-GAAP EPS $2.11",
       "季度末 backlog $8.1B（公司口径 record，环比约持平于 Q1 $8.0B），next-12-month RPO revenue $4.2B；Core EDA / IP / SDA 收入同比 +18% / 超过 +40% / +37%，FY2026 指引上修",
-      "$373.14、EV 约 $104.5B、约 16.9x EV/sales、约 47.2x non-GAAP P/E 为基于当时 Q1 指引的 2026-07-02 估值快照（本次不刷新）；维持谨慎 / 中确信"
+      "2026-07-30 收盘 $332.82、EV 约 $93.4B，对照上修后指引约 14.8x EV/sales、约 41.1x non-GAAP P/E；立场由谨慎调整为 neutral-watch / 中确信"
     ],
     "chainLayer": "eda-ip",
     "coverageTier": "full",
     "chainRole": "dashboard",
-    "stance": "cautious",
+    "stance": "neutral-watch",
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "在基于当时 Q1 指引的 2026-07-02 估值快照中，$373.14 对应约 16.9x EV/sales 和约 47.2x non-GAAP P/E，要求 backlog/RPO、IP、agentic design workflow 与 Hexagon/Physical AI 整合同时兑现；本次只更新经营读数，不用旧价格对新指引重新估值。",
-      "en": "In the July 2, 2026 valuation snapshot based on the then-current Q1 guide, $373.14 corresponded to roughly 16.9x EV/sales and about 47.2x non-GAAP P/E, requiring backlog/RPO, IP, agentic design workflow, and Hexagon / Physical AI integration to all execute; this pass updates operating evidence only and does not revalue new guidance using the old price."
+      "zh": "以 2026-07-30 收盘 $332.82、市值约 $91.8B、EV 约 $93.4B 计，对照 2026-07-27 上修后的 FY2026 指引约为 14.8x EV/sales、41.1x non-GAAP P/E，而旧的冻结 2026-07-02 框架为约 16.9x / 47.2x。谨慎判断此前几乎完全建立在“价格已前置资本化大部分好消息”这一估值主张上，而该主张已被价格下行与指引/backlog/RPO 上行两个方向同时消化；熊市情景要求的 backlog 转化延迟、IP 增速不足、Hexagon 稀释 margin 在 Q2 均出现相反证据，因此没有独立执行腿支撑谨慎。立场调整为 neutral-watch；不直接到 constructive，因为 Q3 转化确认尚未到位。",
+      "en": "At the $332.82 close on 2026-07-30, about $91.8B market cap and about $93.4B EV, CDNS is roughly 14.8x EV/sales and 41.1x non-GAAP P/E against the FY2026 guide raised on 2026-07-27, versus about 16.9x / 47.2x in the old frozen July 2, 2026 frame. The cautious call rested almost entirely on the valuation claim that the price had capitalized most of the good news, and that claim has been absorbed from both directions at once — a lower price alongside higher guidance, backlog and RPO. The bear case's conditions (backlog slippage, IP undershoot, Hexagon margin dilution) all ran the other way in Q2, so no independent execution leg sustains the cautious stance. The stance moves to neutral-watch, and not to constructive, because Q3 conversion confirmation is still outstanding."
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "若 Q3 2026 继续证明 $8.1B backlog 与 $4.2B next-12-month RPO 干净转收入，Star IP 与 AI Super Agents 采用保持可量化，且一次单独的当前估值复核显示 EV/sales 已从 2026-07-02 的约 16.9x 消化而不是继续扩张，则上调至 neutral-watch 或 constructive。",
-        "en": "Move to neutral-watch or constructive if Q3 2026 continues to show the $8.1B backlog and $4.2B next-12-month RPO converting cleanly, Star IP and AI Super Agent adoption remain measurable, and a separate current valuation review shows EV/sales has been absorbed from the roughly 16.9x July 2, 2026 frame rather than expanding."
+        "zh": "若 Q3 2026 继续证明 $8.1B backlog 与 $4.2B next-12-month RPO 干净转收入，Star IP 与 AI Super Agents 采用保持可量化，且 EV/sales 从当前约 14.8x 继续被消化而不是重新扩张，则上调至 constructive。",
+        "en": "Move to constructive if Q3 2026 continues to show the $8.1B backlog and $4.2B next-12-month RPO converting cleanly, Star IP and AI Super Agent adoption remain measurable, and EV/sales keeps being absorbed from the current roughly 14.8x frame rather than expanding."
       },
       "downgrade": {
-        "zh": "若 backlog/RPO 转化低于指引、IP 增速放缓、Hexagon/Physical AI 稀释 margin，或在 2026-07-02 的约 47x non-GAAP P/E 估值框架下出现任一执行失误，则下调至 bearish-avoid。",
-        "en": "Move to bearish-avoid if backlog/RPO conversion misses guidance, IP growth slows, Hexagon / Physical AI dilutes margin, or any execution miss appears against the roughly 47x non-GAAP P/E July 2, 2026 valuation frame."
+        "zh": "若 backlog/RPO 转化低于指引、IP 增速放缓、Hexagon/Physical AI 稀释 margin，或在当前约 41x non-GAAP P/E 估值框架下出现执行失误，则下调至 cautious。",
+        "en": "Move to cautious if backlog/RPO conversion misses guidance, IP growth slows, Hexagon / Physical AI dilutes margin, or an execution miss appears against the current roughly 41x non-GAAP P/E valuation frame."
       }
     },
     "stanceHistory": [
@@ -996,9 +1008,15 @@
         "stance": "cautious",
         "conviction": "medium",
         "price": 373.14
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 332.82
       }
     ],
-    "priceAsOf": "2026-07-02",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "2026Q2",
     "related": [
       "synopsys-2026",
@@ -1113,7 +1131,7 @@
     "priceSymbol": "NRG",
     "title": "NRG Energy 深度研究报告 - AI 电力需求是否穿透到 merchant gas 与零售电力",
     "titleEn": "NRG Energy Deep Research Report - Does AI Power Demand Reach Merchant Gas and Retail Power?",
-    "summary": "2026-07-07 v5更新：NRG仍是AI基础设施power层的merchant + retail dashboard，价格锚点$136.70（2026-07-02）、市值约$28.8B、EV约$52.7B，约15.4x 2026调整后EPS指引中点、约9.4x 2026调整后EBITDA指引中点。20%牛市/50%基准/30%熊市情景显示合同转化尚未证明而杠杆/回购纪律仍是约束，v5立场迁移为谨慎/中确信。",
+    "summary": "2026-07-07 v5更新：NRG仍是AI基础设施power层的merchant + retail dashboard，价格锚点$133.97（2026-07-02）、市值约$28.3B、EV约$52.2B，约15.1x 2026调整后EPS指引中点、约9.3x 2026调整后EBITDA指引中点。20%牛市/50%基准/30%熊市情景显示合同转化尚未证明而杠杆/回购纪律仍是约束，v5立场迁移为谨慎/中确信。",
     "tags": [
       "电力",
       "AI基础设施",
@@ -1135,14 +1153,14 @@
       "补齐 power 层 merchant + retail dashboard：NRG 验证 AI/data-center 电力需求是否从核电 PPA 扩散到燃气容量、C&I VPP、ERCOT/PJM 容量市场和零售电力",
       "LS Power 交易约 $12.0B enterprise value，增加 18 座燃气电厂、约 13GW，并带入 CPower 约 6GW C&I VPP 平台和 2,000+ C&I 客户；总发电容量扩大到约 25GW",
       "2026Q1 收入 $10.26B、GAAP 净利润 $125M、调整后 EBITDA $1.08B、FCFbG -$66M；2026 指引调整后 EBITDA $5.325-5.825B、调整后 EPS $7.90-9.90、FCFbG $2.8-3.3B",
-      "当前 $136.70（2026-07-02）、市值约 $28.8B、EV 约 $52.7B；20%牛市/50%基准/30%熊市情景推导为谨慎/中确信，合同转化和去杠杆是关键"
+      "当前 $133.97（2026-07-02）、市值约 $28.3B、EV 约 $52.2B；20%牛市/50%基准/30%熊市情景推导为谨慎/中确信，合同转化和去杠杆是关键"
     ],
-    "summaryEn": "July 7, 2026 v5 update: NRG remains the merchant plus retail dashboard for the AI-infrastructure power layer. The price anchor is $136.70 (Jul 2, 2026), about $28.8B market cap and about $52.7B EV, around 15.4x midpoint 2026 adjusted EPS guidance and 9.4x midpoint 2026 adjusted EBITDA guidance. A 20% bull / 50% base / 30% bear grid shows contract conversion is still unproven while leverage and buyback discipline remain constraints, moving the v5 stance to cautious / medium conviction.",
+    "summaryEn": "July 7, 2026 v5 update: NRG remains the merchant plus retail dashboard for the AI-infrastructure power layer. The price anchor is $133.97 (Jul 2, 2026), about $28.3B market cap and about $52.2B EV, around 15.1x midpoint 2026 adjusted EPS guidance and 9.3x midpoint 2026 adjusted EBITDA guidance. A 20% bull / 50% base / 30% bear grid shows contract conversion is still unproven while leverage and buyback discipline remain constraints, moving the v5 stance to cautious / medium conviction.",
     "chainLayer": "power",
     "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "cautious",
-    "priceAsOf": "2026-07-02",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "2026Q1",
     "related": [
       "vistra-2026",
@@ -1249,8 +1267,8 @@
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "在$136.70、约15.4x 2026调整后EPS中点和9.4x 2026调整后EBITDA中点上，市场已经定价指引兑现、LS Power整合和部分容量稀缺；20%牛市/50%基准/30%熊市情景显示合同转化尚未证明而杠杆/回购纪律仍是约束，偏斜温和向下。",
-      "en": "At $136.70, about 15.4x midpoint 2026 adjusted EPS and 9.4x midpoint 2026 adjusted EBITDA, the market already prices guidance delivery, LS Power integration, and some capacity scarcity; a 20% bull / 50% base / 30% bear grid shows contract conversion is still unproven while leverage/buyback discipline remains a constraint, leaving a mildly negative skew."
+      "zh": "在$133.97、约15.1x 2026调整后EPS中点和9.3x 2026调整后EBITDA中点上，市场已经定价指引兑现、LS Power整合和部分容量稀缺；20%牛市/50%基准/30%熊市情景显示合同转化尚未证明而杠杆/回购纪律仍是约束，偏斜温和向下。",
+      "en": "At $133.97, about 15.1x midpoint 2026 adjusted EPS and 9.3x midpoint 2026 adjusted EBITDA, the market already prices guidance delivery, LS Power integration, and some capacity scarcity; a 20% bull / 50% base / 30% bear grid shows contract conversion is still unproven while leverage/buyback discipline remains a constraint, leaving a mildly negative skew."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -1273,6 +1291,12 @@
         "stance": "cautious",
         "conviction": "medium",
         "price": 136.7
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 133.97
       }
     ]
   },
@@ -1283,7 +1307,7 @@
     "priceSymbol": "EQIX",
     "title": "Equinix 深度研究报告 - AI 数据中心设施层的互联溢价仪表盘",
     "titleEn": "Equinix Deep Research Report - The Interconnection-Premium Dashboard for AI Data-Center Facilities",
-    "summary": "2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30）：收入 $2.625B（同比 +16%，包含一次性 xScale fees）、recurring revenue $2.377B（MRR 同比 +11%）、AFFO $1.168B（+20%）、AFFO/share $11.78（+19%）；Q2 新增 interconnections 创纪录 9,700 个、annualized gross bookings $424M（+23%）。管理层上调 FY2026 指引与长期展望。互联、bookings 与 MRR 同向走强，facility-interconnection-leasing 证伪条件未触发；这些指标与网络密集部署一致，但公司未将其具体归因于 AI，不能作为 AI 因果证明。下文 $1,002.02（2026-07-02）估值快照与 stance 不因本次监测刷新。AI 基础设施 datacenter-facility 层的 DLR 对照组：EQIX 用 Platform Equinix interconnection、retail colocation、xScale JV 和 AFFO/share 来验证 AI 需求是否不只是 hyperscale shell leasing。2026Q1 收入 $2.444B（reported YoY +10%）、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；MRR 同比 +12% reported / +10% normalized constant currency，annualized gross bookings $378M，annualized presales 约 $140M，largest deals 约 60% AI-related。2025 年报披露 280 个数据中心、10,500+ 客户、507,000+ interconnections，Q1 2026 interconnection revenue $446M。当前 $1,002.02（2026-07-02）、市值约 $98.8B、EV 约 $120.8B，约 23.5x 2026 AFFO/share 指引中点、约 11.9x 2026 revenue 指引。中性观察 / 中确信：质量高但估值高，关键监控是 interconnection revenue、AI bookings/presales、xScale economics、MRR/cabinet yield 与 power availability。",
+    "summary": "2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30）：收入 $2.625B（同比 +16%，包含一次性 xScale fees）、recurring revenue $2.377B（MRR 同比 +11%）、AFFO $1.168B（+20%）、AFFO/share $11.78（+19%）；Q2 新增 interconnections 创纪录 9,700 个、annualized gross bookings $424M（+23%）。管理层上调 FY2026 指引与长期展望。互联、bookings 与 MRR 同向走强，facility-interconnection-leasing 证伪条件未触发；这些指标与网络密集部署一致，但公司未将其具体归因于 AI，不能作为 AI 因果证明。下文 $1,047.53（2026-07-30 收盘）为重新锚定后的估值基准。AI 基础设施 datacenter-facility 层的 DLR 对照组：EQIX 用 Platform Equinix interconnection、retail colocation、xScale JV 和 AFFO/share 来验证 AI 需求是否不只是 hyperscale shell leasing。2026Q1 收入 $2.444B（reported YoY +10%）、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；MRR 同比 +12% reported / +10% normalized constant currency，annualized gross bookings $378M，annualized presales 约 $140M，largest deals 约 60% AI-related。2025 年报披露 280 个数据中心、10,500+ 客户、507,000+ interconnections，Q1 2026 interconnection revenue $446M。当前 $1,047.53（2026-07-02）、市值约 $103.3B、EV 约 $125.3B，约 24.4x 2026 AFFO/share 指引中点、约 12.2x 2026 revenue 指引。中性观察 / 中确信：质量高但估值高，关键监控是 interconnection revenue、AI bookings/presales、xScale economics、MRR/cabinet yield 与 power availability。",
     "tags": [
       "数据中心",
       "互联",
@@ -1303,19 +1327,19 @@
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
       "补齐 datacenter-facility 层 DLR 对照组：EQIX 验证 AI 需求是否穿透到 interconnection、retail colocation、xScale JV 和 AFFO/share，而不只是 hyperscale leasing",
-      "2026Q1 收入 $2.444B、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；全年 AFFO/share 指引 $42.31-$43.11",
+      "2026Q1 收入 $2.444B、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；全年 AFFO/share 指引上修至 $42.69-$43.29",
       "MRR 同比 +12% reported / +10% normalized constant currency；Q1 annualized gross bookings $378M、annualized presales 约 $140M、largest deals 约 60% AI-related",
-      "2025 年末 280 个数据中心、10,500+ 客户、507,000+ interconnections；当前 $1,002.02、市值约 $98.8B、EV 约 $120.8B、约 23.5x 2026 AFFO/share 指引中点"
+      "2025 年末 280 个数据中心、10,500+ 客户、507,000+ interconnections；当前 $1,047.53、市值约 $103.3B、EV 约 $125.3B、约 24.4x 2026 AFFO/share 指引中点"
     ],
-    "summaryEn": "July 30, 2026 monitoring update (Q2 2026, quarter ended June 30, 2026): revenue was $2.625B (+16% YoY, including one-time xScale fees), recurring revenue $2.377B (MRR +11%), AFFO $1.168B (+20%), and AFFO/share $11.78 (+19%); Q2 added a record 9,700 net interconnections and annualized gross bookings were $424M (+23%). Management raised FY2026 guidance and its long-term outlook. Interconnection, bookings, and MRR strengthened together, so the facility-interconnection-leasing falsifier was not triggered; the metrics are consistent with network-dense deployment, but the company did not attribute them specifically to AI and they are not causal proof of AI demand. The $1,002.02 (Jul 2, 2026) valuation snapshot and stance below are not refreshed by this monitoring pass. DLR's paired check in the AI-infrastructure data-center facility layer. EQIX uses Platform Equinix interconnection, retail colocation, xScale JVs and AFFO/share to test whether AI demand is more than hyperscale shell leasing. Q1 2026 revenue was $2.444B (+10% reported YoY), operating income was $577M, net income was $415M, adjusted EBITDA was $1.245B, and AFFO/share was $10.79. MRR grew 12% reported / 10% normalized constant-currency YoY, annualized gross bookings were $378M, annualized presales were about $140M, and about 60% of largest deals were AI-related. The 2025 annual report disclosed 280 data centers, 10,500+ customers and 507,000+ interconnections, while Q1 2026 interconnection revenue was $446M. At $1,002.02 (2026-07-02), about $98.8B market cap and about $120.8B EV, EQIX trades around 23.5x the midpoint of 2026 AFFO/share guidance and about 11.9x 2026 revenue guidance. Neutral watch / medium conviction: high quality but high valuation; key monitors are interconnection revenue, AI bookings/presales, xScale economics, MRR/cabinet yield and power availability.",
+    "summaryEn": "July 30, 2026 monitoring update (Q2 2026, quarter ended June 30, 2026): revenue was $2.625B (+16% YoY, including one-time xScale fees), recurring revenue $2.377B (MRR +11%), AFFO $1.168B (+20%), and AFFO/share $11.78 (+19%); Q2 added a record 9,700 net interconnections and annualized gross bookings were $424M (+23%). Management raised FY2026 guidance and its long-term outlook. Interconnection, bookings, and MRR strengthened together, so the facility-interconnection-leasing falsifier was not triggered; the metrics are consistent with network-dense deployment, but the company did not attribute them specifically to AI and they are not causal proof of AI demand. The $1,047.53 (Jul 30, 2026 close) is the re-anchored valuation basis by this monitoring pass. DLR's paired check in the AI-infrastructure data-center facility layer. EQIX uses Platform Equinix interconnection, retail colocation, xScale JVs and AFFO/share to test whether AI demand is more than hyperscale shell leasing. Q1 2026 revenue was $2.444B (+10% reported YoY), operating income was $577M, net income was $415M, adjusted EBITDA was $1.245B, and AFFO/share was $10.79. MRR grew 12% reported / 10% normalized constant-currency YoY, annualized gross bookings were $378M, annualized presales were about $140M, and about 60% of largest deals were AI-related. The 2025 annual report disclosed 280 data centers, 10,500+ customers and 507,000+ interconnections, while Q1 2026 interconnection revenue was $446M. At $1,047.53 (2026-07-02), about $103.3B market cap and about $125.3B EV, EQIX trades around 24.4x the midpoint of 2026 AFFO/share guidance and about 12.2x 2026 revenue guidance. Neutral watch / medium conviction: high quality but high valuation; key monitors are interconnection revenue, AI bookings/presales, xScale economics, MRR/cabinet yield and power availability.",
     "chainLayer": "datacenter-facility",
     "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "neutral-watch",
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 $1,002.02、约 23.5x 2026 AFFO/share 指引中点计，市场大致要求 AFFO/share 未来三年约 14% CAGR，同时维持 interconnection 与 xScale 溢价；我们的 30% 牛市 / 40% 基准 / 30% 熊市情景与此接近，因此维持中性观察。",
-      "en": "At $1,002.02 and about 23.5x the midpoint of 2026 AFFO/share guidance, the market is underwriting roughly 14% three-year AFFO/share CAGR while preserving the interconnection and xScale premium; our 30% bull / 40% base / 30% bear grid is close to that, so the stance remains neutral watch."
+      "zh": "以 $1,047.53、约 24.4x 2026 AFFO/share 指引中点计，市场大致要求 AFFO/share 未来三年约 15% CAGR，同时维持 interconnection 与 xScale 溢价；我们的 30% 牛市 / 40% 基准 / 30% 熊市情景与此接近，因此维持中性观察。",
+      "en": "At $1,047.53 and about 24.4x the midpoint of 2026 AFFO/share guidance, the market is underwriting roughly 15% three-year AFFO/share CAGR while preserving the interconnection and xScale premium; our 30% bull / 40% base / 30% bear grid is close to that, so the stance remains neutral watch."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -1333,9 +1357,15 @@
         "conviction": "medium",
         "date": "2026-07-02",
         "price": 1002.02
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 1047.53
       }
     ],
-    "priceAsOf": "2026-07-02",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "2026Q2",
     "related": [
       "digital-realty-2026",
@@ -1631,7 +1661,7 @@
     "priceSymbol": "ANET",
     "title": "Arista Networks 深度研究报告 - AI 集群开放以太网 fabric 的系统软件卖铲人",
     "titleEn": "Arista Networks Deep Research Report - The Open Ethernet Fabric of AI Clusters",
-    "summary": "AI 集群网络层首次覆盖：Arista 是开放以太网/AI spine/scale-out 网络的系统软件卖铲人，正面回答 NVIDIA Spectrum-X/InfiniBand/NVLink 一体化 vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet 生态的路线之争。Q1 2026 营收 $2.709B(+35.1%)、GAAP/非GAAP营业利润率 42.7%/47.8%、非GAAP EPS $0.87、经营现金流 $1.69B；Q2 指引营收约 $2.8B。FY2025 Cloud and AI Titans/AI Specialty Providers 占收入 48%/20%，Core AI/Cloud/Data Center Networking 占 65%。但两大匿名终端客户合计约 42% 收入(26%/16%)、高度依赖 Broadcom merchant silicon，且 Jun 29 2026 市值约 $206.6B、约 56x TTM GAAP P/E、约 47x 当前非GAAP EPS运行率。neutral-watch / 中等确信：高质量，但大多已定价。",
+    "summary": "AI 集群网络层首次覆盖：Arista 是开放以太网/AI spine/scale-out 网络的系统软件卖铲人，正面回答 NVIDIA Spectrum-X/InfiniBand/NVLink 一体化 vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet 生态的路线之争。Q1 2026 营收 $2.709B(+35.1%)、GAAP/非GAAP营业利润率 42.7%/47.8%、非GAAP EPS $0.87、经营现金流 $1.69B；Q2 指引营收约 $2.8B。FY2025 Cloud and AI Titans/AI Specialty Providers 占收入 48%/20%，Core AI/Cloud/Data Center Networking 占 65%。但两大匿名终端客户合计约 42% 收入(26%/16%)、高度依赖 Broadcom merchant silicon，且 Jun 29 2026 市值约 $206.6B、约 58x TTM GAAP P/E、约 49x 当前非GAAP EPS运行率。neutral-watch / 中等确信：高质量，但大多已定价。",
     "tags": [
       "AI网络",
       "以太网",
@@ -1653,14 +1683,14 @@
       "AI 集群网络层补位：ANET 不是光模块/光纤层，而是开放以太网交换系统、EOS、CloudVision、遥测与 AI fabric 控制点；可交叉校验 NVDA/AVGO/AAOI/GLW/VRT/CRWV",
       "Q1 2026 营收 $2.709B(+35.1%)、非GAAP营业利润率 47.8%、非GAAP EPS $0.87、经营现金流 $1.69B；现金+可交易证券约 $12.35B、基本无债，Q2 指引收入约 $2.8B",
       "路线之争：NVIDIA 一体化网络栈(Spectrum-X/InfiniBand/NVLink) vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet；ANET 更像 Broadcom 生态客户/伙伴，而非直接替代",
-      "neutral-watch / 中等确信：价格约 $164.10、约 20x EV/TTM 收入，市场已要求多年高 20% 至 30% 中段增长与优秀利润率，等待更好价格或更强开放以太网份额证据"
+      "neutral-watch / 中等确信：价格约 $171.02、约 21x EV/TTM 收入，市场已要求多年高 20% 至 30% 中段增长与优秀利润率，等待更好价格或更强开放以太网份额证据"
     ],
-    "summaryEn": "Initial coverage of the AI cluster networking layer: Arista is the open Ethernet / AI spine / scale-out systems-software pick-and-shovel, directly testing NVIDIA Spectrum-X/InfiniBand/NVLink integration vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet. Q1 2026 revenue was $2.709B (+35.1%), GAAP/non-GAAP operating margin 42.7%/47.8%, non-GAAP EPS $0.87, and operating cash flow $1.69B; Q2 guide is about $2.8B revenue. FY2025 Cloud and AI Titans / AI Specialty Providers were 48%/20% of revenue, and Core AI/Cloud/Data Center Networking was 65%. But two anonymous end customers were ~42% of revenue (26%/16%), Arista is highly reliant on Broadcom merchant silicon, and at the Jun 29 2026 market cap of ~$206.6B the stock trades around 56x TTM GAAP earnings and ~47x current non-GAAP EPS run-rate. Neutral-watch / medium conviction: high quality, but mostly priced in.",
+    "summaryEn": "Initial coverage of the AI cluster networking layer: Arista is the open Ethernet / AI spine / scale-out systems-software pick-and-shovel, directly testing NVIDIA Spectrum-X/InfiniBand/NVLink integration vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet. Q1 2026 revenue was $2.709B (+35.1%), GAAP/non-GAAP operating margin 42.7%/47.8%, non-GAAP EPS $0.87, and operating cash flow $1.69B; Q2 guide is about $2.8B revenue. FY2025 Cloud and AI Titans / AI Specialty Providers were 48%/20% of revenue, and Core AI/Cloud/Data Center Networking was 65%. But two anonymous end customers were ~42% of revenue (26%/16%), Arista is highly reliant on Broadcom merchant silicon, and at the Jun 29 2026 market cap of ~$206.6B the stock trades around 58x TTM GAAP earnings and ~49x current non-GAAP EPS run-rate. Neutral-watch / medium conviction: high quality, but mostly priced in.",
     "chainLayer": "networking",
     "coverageTier": "full",
     "chainRole": "architecture-check",
     "stance": "neutral-watch",
-    "priceAsOf": "2026-06-29",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "Q1 2026",
     "related": [
       "broadcom-2026",
@@ -1745,8 +1775,8 @@
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "在 $164.10、约 20x EV/TTM 收入上，市场大致要求未来数年收入维持高 20% 至 30% 中段复合增长并保持优秀利润率；我们的基准情景接近这个区间低端，因此维持中性观察。",
-      "en": "At $164.10 and about 20x EV/TTM revenue, the market is underwriting roughly high-20s to mid-30s revenue CAGR for several years with elite margins; our base case is close to the low end of that range, so the stance remains neutral watch."
+      "zh": "在 $171.02、约 21x EV/TTM 收入上，市场大致要求未来数年收入维持约 30% 至 38% 复合增长并保持优秀利润率；我们的基准情景接近这个区间低端，因此维持中性观察。",
+      "en": "At $171.02 and about 21x EV/TTM revenue, the market is underwriting roughly roughly 30% to 38% revenue CAGR for several years with elite margins; our base case is close to the low end of that range, so the stance remains neutral watch."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -1764,6 +1794,12 @@
         "conviction": "medium",
         "date": "2026-06-29",
         "price": 164.1
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 171.02
       }
     ]
   },
@@ -2263,8 +2299,8 @@
     "priceSymbol": "NVDA",
     "title": "NVIDIA 深度研究报告 - AI 计算中枢的高质量与高预期",
     "titleEn": "NVIDIA Deep Research Report - The AI Compute Hub, High Quality Meets High Expectations",
-    "summary": "v5 回填：NVIDIA 仍是 AI compute profit pool 的中枢，Q1 FY2027 营收 $81.6B、Data Center $75.2B，且 China data-center revenue 归零后仍兑现强增长。以 $192.53、约 $4.68T 市值和 mid-20s forward P/E 计，市场定价的不是泛泛 AI CAGR，而是 GPU+networking+systems+software 继续保护盈利分母。30% 牛市 / 50% 基准 / 20% 熊市情景给出温和正偏斜，因此改为偏多 / 中确信；风险仍是 hyperscaler capex、自定义 ASIC、中国和循环融资减值。",
-    "summaryEn": "July 7, 2026 v5 update: NVIDIA remains the center of the AI compute profit pool. Q1 FY2027 revenue was $81.6B and Data Center was $75.2B even with China data-center revenue at zero. At $192.53, about $4.68T market cap, and a mid-20s forward P/E, the market is underwriting GPU+networking+systems+software protection of the earnings denominator, not a generic AI CAGR. A 30% bull / 50% base / 20% bear grid gives modest positive skew, so stance moves to constructive / medium conviction; the risks remain hyperscaler capex, custom ASICs, China, and circular-financing impairments.",
+    "summary": "v5 回填：NVIDIA 仍是 AI compute profit pool 的中枢，Q1 FY2027 营收 $81.6B、Data Center $75.2B，且 China data-center revenue 归零后仍兑现强增长。以 $195.04、约 $4.74T 市值和 mid-20s forward P/E 计，市场定价的不是泛泛 AI CAGR，而是 GPU+networking+systems+software 继续保护盈利分母。30% 牛市 / 50% 基准 / 20% 熊市情景给出温和正偏斜，因此改为偏多 / 中确信；风险仍是 hyperscaler capex、自定义 ASIC、中国和循环融资减值。",
+    "summaryEn": "July 7, 2026 v5 update: NVIDIA remains the center of the AI compute profit pool. Q1 FY2027 revenue was $81.6B and Data Center was $75.2B even with China data-center revenue at zero. At $195.04, about $4.74T market cap, and a mid-20s forward P/E, the market is underwriting GPU+networking+systems+software protection of the earnings denominator, not a generic AI CAGR. A 30% bull / 50% base / 20% bear grid gives modest positive skew, so stance moves to constructive / medium conviction; the risks remain hyperscaler capex, custom ASICs, China, and circular-financing impairments.",
     "tags": [
       "AI计算",
       "GPU",
@@ -2291,7 +2327,7 @@
     "chainLayer": "compute",
     "coverageTier": "full",
     "stance": "constructive",
-    "priceAsOf": "2026-06-26",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "Q1 FY2027",
     "related": [
       "amd-2026",
@@ -2375,8 +2411,8 @@
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 $192.53、约 $4.68T 市值和 mid-20s forward P/E 计，市场定价的是 accelerator profit pool 持续扩张，而不只是泛泛的 AI CAGR；我们的基准情景认为 rack/system attach、networking/software moat 与年度平台节奏仍能保护盈利分母，同时 custom ASIC 和 China 风险尚未足以抵消该优势。",
-      "en": "At $192.53, roughly $4.68T market cap, and a mid-20s forward P/E, the market is pricing continued accelerator profit-pool expansion rather than a generic AI CAGR; our base case sees rack/system attach, networking/software moat, and the annual platform cadence still protecting the earnings denominator, while custom ASIC and China risks are not yet large enough to offset that advantage."
+      "zh": "以 $195.04、约 $4.74T 市值和 mid-20s forward P/E 计，市场定价的是 accelerator profit pool 持续扩张，而不只是泛泛的 AI CAGR；我们的基准情景认为 rack/system attach、networking/software moat 与年度平台节奏仍能保护盈利分母，同时 custom ASIC 和 China 风险尚未足以抵消该优势。",
+      "en": "At $195.04, roughly $4.74T market cap, and a mid-20s forward P/E, the market is pricing continued accelerator profit-pool expansion rather than a generic AI CAGR; our base case sees rack/system attach, networking/software moat, and the annual platform cadence still protecting the earnings denominator, while custom ASIC and China risks are not yet large enough to offset that advantage."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -2399,6 +2435,12 @@
         "stance": "constructive",
         "conviction": "medium",
         "price": 192.53
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "constructive",
+        "conviction": "medium",
+        "price": 195.04
       }
     ]
   },
@@ -2571,8 +2613,8 @@
     "priceSymbol": "GEV",
     "title": "GE Vernova 深度研究报告 - AI 电力侧的卖铲人与燃气轮机超级周期",
     "titleEn": "GE Vernova Deep Research Report - The Pick-and-Shovel of AI's Power Side and the Gas-Turbine Super-Cycle",
-    "summary": "【2026-07-31 价格复核：GEV 于 2026-07-29 收于 $900.28，较本报告锚点 -13.9%；下方数字按其标注日期阅读，估值框架与立场不变。】2026-07-23 雷达更新（Q2 监测）：GE Vernova Q2 2026 订单 $24.2B（有机 +88%）、总 backlog 环比 +$13B 至 $176B；燃气设备的 53 GW backlog + 63 GW slot 预留合计 116 GW，年底目标上调至 ≥125 GW。调整后 EBITDA $1.2B（利润率 11.3%），FY2026 营收/FCF 指引升至 $45.5-46.5B/$11.5-12.5B，利润率指引维持 12-14%；Wind Q2 亏损同比扩大、环比改善。价格锚点 $1,045.17、市值约 $2,810 亿、约 45-48x EV/2026E 调整后 EBITDA 均为 2026-06-26 口径，本次未重估，继续为谨慎/中确信。",
-    "summaryEn": "[2026-07-31 price check: GEV closed at $900.28 on 2026-07-29, -13.9% versus this report's anchor; figures below read as of their stated dates, and the valuation frame and stance are unchanged.] July 23, 2026 radar update (Q2 monitoring): GE Vernova reported Q2 orders of $24.2B (+88% organic) and total backlog up $13B QoQ to $176B. Gas equipment totaled 116 GW: 53 GW of backlog plus 63 GW of slot reservations; the year-end target rose to >=125 GW. Adjusted EBITDA was $1.2B (11.3% margin), FY2026 revenue/FCF guidance rose to $45.5-46.5B/$11.5-12.5B, and the margin guide stayed at 12-14%; Wind's Q2 loss widened YoY but improved sequentially. The $1,045.17 price anchor, ~$281B market cap, and ~45-48x EV/2026E adjusted EBITDA remain the dated 2026-06-26 frame and are not re-marked here; stance remains cautious / medium conviction.",
+    "summary": "2026-07-23 雷达更新（Q2 监测）：GE Vernova Q2 2026 订单 $24.2B（有机 +88%）、总 backlog 环比 +$13B 至 $176B；燃气设备的 53 GW backlog + 63 GW slot 预留合计 116 GW，年底目标上调至 ≥125 GW。调整后 EBITDA $1.2B（利润率 11.3%），FY2026 营收/FCF 指引升至 $45.5-46.5B/$11.5-12.5B，利润率指引维持 12-14%；Wind Q2 亏损同比扩大、环比改善。价格锚点 $981.98、市值约 $2,640 亿、约 44x EV/2026E 调整后 EBITDA 均为 2026-06-26 口径，本次未重估，继续为谨慎/中确信。",
+    "summaryEn": "July 23, 2026 radar update (Q2 monitoring): GE Vernova reported Q2 orders of $24.2B (+88% organic) and total backlog up $13B QoQ to $176B. Gas equipment totaled 116 GW: 53 GW of backlog plus 63 GW of slot reservations; the year-end target rose to >=125 GW. Adjusted EBITDA was $1.2B (11.3% margin), FY2026 revenue/FCF guidance rose to $45.5-46.5B/$11.5-12.5B, and the margin guide stayed at 12-14%; Wind's Q2 loss widened YoY but improved sequentially. The $981.98 price anchor, ~$264B market cap, and ~44x EV/2026E adjusted EBITDA remain the dated 2026-06-26 frame and are not re-marked here; stance remains cautious / medium conviction.",
     "tags": [
       "AI电力",
       "燃气轮机",
@@ -2594,12 +2636,12 @@
       "Q2 2026 订单 $24.2B（有机 +88%），backlog 环比 +$13B 至 $176B；2027 目标 $200B（从 2028 提前）；Electrification 数据中心订单上半年累计 >$5B（超过 2025 全年总额两倍）",
       "燃气设备 53 GW backlog + 63 GW slot 预留合计 116 GW（年底目标上调至 ≥125 GW）；上调 FY2026 指引：营收 $45.5-46.5B、FCF $11.5-12.5B（调整后 EBITDA 利润率指引维持 12-14%）",
       "利润率从 FY2025 的 8.4% 向中两位数爬坡是估值核心变量；Q1 现金 $10.2B、senior notes $2.6B，粗略净现金约 $7.6B，与背 $64.9B 总债务的 Broadcom 形成对比",
-      "股价约 $1,045.17、市值约 $2,810 亿（2026-06-26），EV/2026E 调整后 EBITDA 约 45-48x；20%牛市/50%基准/30%熊市情景推导为谨慎/中确信"
+      "股价约 $981.98、市值约 $2,640 亿（2026-06-26），EV/2026E 调整后 EBITDA 约 44x；20%牛市/50%基准/30%熊市情景推导为谨慎/中确信"
     ],
     "chainLayer": "power",
     "coverageTier": "full",
     "stance": "cautious",
-    "priceAsOf": "2026-06-26",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "Q2 2026",
     "related": [
       "vertiv-2026",
@@ -2683,8 +2725,8 @@
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "在$1,045.17、约$2,810亿市值和约45-48x 2026E调整后EBITDA上，市场已经把燃气轮机slot、$163B backlog、电网capex和利润率爬坡资本化；20%牛市/50%基准/30%熊市情景显示资产质量很高但估值/AI capex拥挤使偏斜温和向下。",
-      "en": "At $1,045.17, roughly $281B market cap, and about 45-48x 2026E adjusted EBITDA, the market already capitalizes gas-turbine slots, the $163B backlog, grid capex, and the margin ramp; a 20% bull / 50% base / 30% bear grid shows very high asset quality but a mildly negative skew from valuation and AI-capex crowding."
+      "zh": "在$981.98、约$2,810亿市值和约44x 2026E调整后EBITDA上，市场已经把燃气轮机slot、$163B backlog、电网capex和利润率爬坡资本化；20%牛市/50%基准/30%熊市情景显示资产质量很高但估值/AI capex拥挤使偏斜温和向下。",
+      "en": "At $981.98, roughly $264B market cap, and about 44x 2026E adjusted EBITDA, the market already capitalizes gas-turbine slots, the $163B backlog, grid capex, and the margin ramp; a 20% bull / 50% base / 30% bear grid shows very high asset quality but a mildly negative skew from valuation and AI-capex crowding."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -2707,6 +2749,12 @@
         "stance": "cautious",
         "conviction": "medium",
         "price": 1045.17
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 981.98
       }
     ]
   },
@@ -4270,7 +4318,7 @@
     },
     "title": "COPX 深度研究报告 - 铜超级周期的杠杆化敞口",
     "titleEn": "COPX Deep Research Report - Leveraged Exposure to the Copper Supercycle",
-    "summary": "全球最大纯铜矿ETF。2026-06-25增量更新：COPX约$76.92、AUM增至$79.9亿(+8%)，加权P/E从30-35x压缩至17.74x（盈利兑现）。铜价突破二月bull case上沿至~$13,531/吨($6.14/lb)，但price基本持平反映关税不确定性。YTD回报从+20.14%回落至+5.45%。COMEX溢价和232条款审查是短期核心变量。",
+    "summary": "2026-07-31 重新锚定：COPX 于 2026-07-30 收于 $79.50（较前一锚点 +1.3%）。全球最大纯铜矿ETF。2026-06-25 增量更新：AUM增至$79.9亿(+8%)，加权P/E从30-35x压缩至17.74x（盈利兑现）。铜价突破二月bull case上沿至~$13,531/吨($6.14/lb)，但price基本持平反映关税不确定性。YTD回报从+20.14%回落至+5.45%。COMEX溢价和232条款审查是短期核心变量。",
     "tags": [
       "铜矿",
       "ETF",
@@ -4289,7 +4337,8 @@
       "en": "/invest/research/COPX_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "COPX约$76.92，AUM增至$79.9亿(+8%)，加权P/E从30-35x压缩至17.74x",
+      "2026-07-30 收盘 $79.50，仍接近 2 月覆盖价，而铜价已上破 2 月 bull case 上沿；偏多 / 中确信",
+      "AUM增至$79.9亿(+8%)，加权P/E从30-35x压缩至17.74x",
       "COMEX铜价~$13,531/吨($6.14/lb)，突破二月bull case上沿$13,000/吨",
       "YTD回报从+20.14%(Feb)回落至+5.45%，价格路径波动剧烈",
       "232条款关税审查临近（2026年中），COMEX溢价和关税走向是近期最大二元变量"
@@ -4298,7 +4347,7 @@
     "chainLayer": "resources",
     "coverageTier": "lite",
     "stance": "constructive",
-    "priceAsOf": "2026-07-06",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "2026-06 (ETF 月度数据 / monthly ETF data)",
     "related": [
       "almonty-2026"
@@ -4361,8 +4410,8 @@
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 $78.48 计，铜价已高于 2 月牛市框架而 COPX 仍接近初始锚点；加权 P/E 压缩至 17.74x、AUM 升至约 $7.99B，40% 牛市 / 40% 基准 / 20% 熊市 ETF 因子偏斜为正，但受关税溢价约束。",
-      "en": "At $78.48, copper is above the February bull frame while COPX is still close to the initial anchor; weighted P/E has compressed to 17.74x and AUM has risen to about $7.99B, so the 40% bull / 40% base / 20% bear ETF-factor skew is positive, but constrained by tariff premium."
+      "zh": "以 $79.50 计，铜价已高于 2 月牛市框架而 COPX 仍接近初始锚点；加权 P/E 压缩至 17.74x、AUM 升至约 $7.99B，40% 牛市 / 40% 基准 / 20% 熊市 ETF 因子偏斜为正，但受关税溢价约束。",
+      "en": "At $79.50, copper is above the February bull frame while COPX is still close to the initial anchor; weighted P/E has compressed to 17.74x and AUM has risen to about $7.99B, so the 40% bull / 40% base / 20% bear ETF-factor skew is positive, but constrained by tariff premium."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -4385,6 +4434,12 @@
         "stance": "constructive",
         "conviction": "medium",
         "price": 78.48
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "constructive",
+        "conviction": "medium",
+        "price": 79.5
       }
     ]
   },
@@ -4442,8 +4497,8 @@
     },
     "title": "AMD 深度研究报告 - AI时代的半导体挑战者",
     "titleEn": "AMD Deep Research Report - AI Era Semiconductor Challenger",
-    "summary": "【2026-07-31 价格复核：AMD 于 2026-07-29 收于 $429.56，较本报告锚点 -20.1%；下方数字按其标注日期阅读，估值框架与立场不变。】v5 回填：AMD Q1 2026 营收 $10.253B、Data Center 约 $5.8B，Meta 6GW、Helios/MI450、EPYC 与 ROCm 让 AI infrastructure 第二平台叙事更强。但以 $537.37、约 $878B EV 和约 23.4x EV/TTM Sales 计，市场已经提前定价 Meta/Helios、MI450、ROCm 改善、Data Center 增长和利润率扩张；20% 牛市 / 40% 基准 / 40% 熊市情景给出负偏斜，因此改为谨慎 / 中确信。",
-    "summaryEn": "[2026-07-31 price check: AMD closed at $429.56 on 2026-07-29, -20.1% versus this report's anchor; figures below read as of their stated dates, and the valuation frame and stance are unchanged.] July 7, 2026 v5 update: AMD Q1 2026 revenue was $10.253B and Data Center was about $5.8B, while Meta 6GW, Helios/MI450, EPYC, and ROCm strengthen the second-platform AI infrastructure story. But at $537.37, about $878B EV, and roughly 23.4x EV/TTM Sales, the market already prices Meta/Helios, MI450, ROCm improvement, Data Center growth, and margin expansion; a 20% bull / 40% base / 40% bear grid gives negative skew, moving stance to cautious / medium conviction.",
+    "summary": "v5 回填：AMD Q1 2026 营收 $10.253B、Data Center 约 $5.8B，Meta 6GW、Helios/MI450、EPYC 与 ROCm 让 AI infrastructure 第二平台叙事更强。以 2026-07-30 收盘 $485.39、约 $7,920 亿 EV 和约 21.2x EV/TTM Sales 计，市场依然提前定价 Meta/Helios、MI450、ROCm 改善、Data Center 增长和利润率扩张；按 Q1 Non-GAAP EPS 年化仍约 89x、FCF 收益率约 1.3%。20% 牛市 / 40% 基准 / 40% 熊市情景仍给出负偏斜，维持谨慎 / 中确信。",
+    "summaryEn": "July 7, 2026 v5 update: AMD Q1 2026 revenue was $10.253B and Data Center was about $5.8B, while Meta 6GW, Helios/MI450, EPYC, and ROCm strengthen the second-platform AI infrastructure story. At the $485.39 close on 2026-07-30, about $792B EV, and roughly 21.2x EV/TTM Sales, the market still prices Meta/Helios, MI450, ROCm improvement, Data Center growth, and margin expansion; annualized Q1 non-GAAP EPS is still about 89x with a roughly 1.3% FCF yield. A 20% bull / 40% base / 40% bear grid still gives negative skew, so the stance stays cautious / medium conviction.",
     "tags": [
       "半导体",
       "AI加速器",
@@ -4460,15 +4515,15 @@
     },
     "moduleContract": "heading-comment-v1",
     "highlights": [
-      "完整重跑后结论调整为中性/观察：基本面增强，但估值容错极低",
+      "完整重跑后结论为谨慎/观察：基本面增强，但估值容错依然极低",
       "Q1 2026营收$102.53亿（+38% YoY），Data Center约$58亿（+57% YoY）",
       "Meta多年6GW Instinct GPU合作，首个1GW预计2026下半年出货，是H2验证核心",
-      "股价约$537、市值约$8,870亿；EV/TTM Sales约23.4x，当前价格接近bull case下沿"
+      "2026-07-30 收盘 $485.39、市值约$8,010亿；EV/TTM Sales约21.2x、Q1年化Non-GAAP约89x、FCF收益率约1.3%"
     ],
     "chainLayer": "compute",
     "coverageTier": "full",
     "stance": "cautious",
-    "priceAsOf": "2026-06-18",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "Q1 2026",
     "related": [
       "nvidia-2026",
@@ -4534,13 +4589,13 @@
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 $537.37、约 $8,780 亿 EV 和约 23.4x EV/TTM Sales 计，市场已经把 Meta/Helios、MI450、ROCm 改善、Data Center 增速和利润率扩张放进价格；我们的基准情景同意基本面变强，但认为这些证据尚不足以覆盖当前 multiple，因此预期差偏负。",
-      "en": "At $537.37, roughly $878B EV, and about 23.4x EV/TTM Sales, the market already prices Meta/Helios, MI450, ROCm improvement, Data Center growth, and margin expansion; our base case agrees that fundamentals are stronger, but the evidence is not yet enough to cover the current multiple, so the expectation gap is negative."
+      "zh": "以 2026-07-30 收盘 $485.39、约 $7,920 亿 EV 和约 21.2x EV/TTM Sales 计，市场依然把 Meta/Helios、MI450、ROCm 改善、Data Center 增速和利润率扩张放进价格：按 Q1 Non-GAAP EPS 年化约 89x、即使按 FY2026 $6.00 仍约 81x、FCF 收益率仅约 1.3%。基准情景同意基本面变强，但这些证据仍不足以覆盖当前 multiple，预期差仍偏负。需要指出：倍数由 23.4x 降至 21.2x 完全来自股价下跌，并非升级触发条件所要求的“被收入分母消化”，因此不构成上调理由。",
+      "en": "At the $485.39 close on 2026-07-30, roughly $792B EV, and about 21.2x EV/TTM Sales, the market still prices Meta/Helios, MI450, ROCm improvement, Data Center growth, and margin expansion: annualized Q1 non-GAAP EPS is about 89x, about 81x even on $6.00 of FY2026 EPS, and the FCF yield is only about 1.3%. The base case agrees fundamentals are stronger, but that evidence still does not cover the current multiple, so the expectation gap stays negative. Note explicitly that the fall from 23.4x to 21.2x comes entirely from a lower share price and is not the absorption 'by the revenue denominator' the upgrade trigger requires, so it is not a reason to upgrade."
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "若 2026H2 首个 1GW Meta deployment 按期出货并进入收入、Data Center 增速和 56%+ non-GAAP gross margin 同时兑现，ROCm/Helios 证明可重复客户迁移，且 EV/TTM Sales 从约 23.4x 被收入分母消化，则上调至 neutral-watch 或 constructive。",
-        "en": "Move to neutral-watch or constructive if the first 1GW Meta deployment ships on schedule in H2 2026 and enters revenue, Data Center growth and 56%+ non-GAAP gross margin both deliver, ROCm/Helios prove repeatable customer migration, and EV/TTM Sales is absorbed from roughly 23.4x by the revenue denominator."
+        "zh": "若 2026H2 首个 1GW Meta deployment 按期出货并进入收入、Data Center 增速和 56%+ non-GAAP gross margin 同时兑现，ROCm/Helios 证明可重复客户迁移，且 EV/TTM Sales 从当前约 21.2x 被收入分母消化（股价下跌造成的倍数下降不算），则上调至 neutral-watch 或 constructive。",
+        "en": "Move to neutral-watch or constructive if the first 1GW Meta deployment ships on schedule in H2 2026 and enters revenue, Data Center growth and 56%+ non-GAAP gross margin both deliver, ROCm/Helios prove repeatable customer migration, and EV/TTM Sales is absorbed from the current roughly 21.2x by the revenue denominator (a multiple decline caused by a falling share price does not count)."
       },
       "downgrade": {
         "zh": "若 Meta 1GW 或 6GW 路径延期/缩小、Data Center 增速低于公司整体、ROCm 没有可审计迁移证据，或 custom ASIC/NVIDIA Rubin 压缩 AMD 的 rack-level 性价比窗口，则下调至 bearish-avoid。",
@@ -4558,6 +4613,12 @@
         "stance": "cautious",
         "conviction": "medium",
         "price": 537.37
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 485.39
       }
     ]
   },
@@ -4600,7 +4661,7 @@
     "priceSymbol": "688676.SS",
     "title": "金盘科技深度研究报告 - AI电力设备的高估值兑现考验",
     "titleEn": "Jinpan Technology Deep Research Report - AI Power Equipment Execution at a Demanding Valuation",
-    "summary": "【2026-07-31 价格复核：688676.SS 于 2026-07-29 收于 $68.04，较本报告锚点 -17.2%；下方数字按其标注日期阅读，估值框架与立场不变。】2026-06-23完整重跑版：金盘科技2026Q1营收约15.23亿元（+13.4%），归母净利约1.12亿元（+4.8%）；AIDC和SST仍是核心成长线索，但股价约86.00元、市值约395亿元，Q1年化P/E约88x，当前结论调整为中性/观察。",
+    "summary": "2026-06-23完整重跑版、价格锚点更新至2026-07-31：金盘科技2026Q1营收约15.23亿元（+13.4%），归母净利约1.12亿元（+4.8%）；AIDC和SST仍是核心成长线索。按2026-07-31收盘64.30元、总股本约4.60亿股计，市值约296亿元，Q1年化P/E约66x、P/S约4.9x。7月回撤使乐观情景重新具备上行、悲观情景跌幅收窄，但66x仍远高于制造业区间且三项现金验证未到位，结论维持中性/观察。",
     "tags": [
       "电力设备",
       "AI数据中心",
@@ -4618,10 +4679,10 @@
     "highlights": [
       "2026Q1营收约15.23亿元（+13.4%），归母净利约1.12亿元（+4.8%）",
       "AIDC、SST和海外扩张仍是中长期成长线索，但需要收入确认和回款验证",
-      "股价约86.00元、市值约395亿元，Q1年化P/E约88x",
-      "结论调整为中性/观察：业务质量仍好，估值和现金流验证要求提高"
+      "2026-07-31收盘64.30元、市值约296亿元，Q1年化P/E约66x、P/S约4.9x",
+      "结论维持中性/观察：回撤改善了赔率，但估值仍高于制造业区间、现金流验证未到位"
     ],
-    "summaryEn": "[2026-07-31 price check: 688676.SS closed at $68.04 on 2026-07-29, -17.2% versus this report's anchor; figures below read as of their stated dates, and the valuation frame and stance are unchanged.] June 23, 2026 full rerun: Jinpan reported roughly RMB 1.52B of Q1 2026 revenue (+13.4%) and RMB 112M of parent net profit (+4.8%). AIDC and SST remain the growth story, but at about RMB 86.00 per share, RMB 39.5B market cap, and roughly 88x annualized Q1 earnings, the current stance is neutral/watchlist.",
+    "summaryEn": "June 23, 2026 full rerun with the price anchor updated to 2026-07-31: Jinpan reported roughly RMB 1.52B of Q1 2026 revenue (+13.4%) and RMB 112M of parent net profit (+4.8%). AIDC and SST remain the growth story. At the RMB 64.30 close on 2026-07-31 and about 460M shares, market cap is roughly RMB 29.6B, Q1-annualized P/E about 66x and P/S about 4.9x. The July drawdown restores real headroom to the upside scenario and narrows the downside, but 66x is still far above the manufacturing band and none of the three cash validations has landed, so the stance stays neutral/watchlist.",
     "period": "2026H1",
     "versionType": "full-cycle",
     "versionLabel": "2026H1 Full Rerun",
@@ -4641,7 +4702,7 @@
     "chainLayer": "power",
     "coverageTier": "full",
     "stance": "neutral-watch",
-    "priceAsOf": "2026-07-07",
+    "priceAsOf": "2026-07-31",
     "reportedPeriod": "Q1 2026",
     "monitoring": [
       {
@@ -4704,8 +4765,8 @@
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 83.53 元、约 384 亿元市值、Q1 年化约 85x P/E 和约 6.3x P/S 计，市场已为 AIDC/SST/海外扩张和 H 股融资改善预付较高成功率；我们的 30% 牛市 / 40% 基准 / 30% 熊市网格显示基准情景接近市场隐含，保持中性观察。",
-      "en": "At RMB 83.53, roughly RMB 38.4B market cap, about 85x Q1-annualized P/E, and about 6.3x P/S, the market is already pre-paying for high odds that AIDC / SST / overseas expansion and H-share financing improvement all work; our 30% bull / 40% base / 30% bear grid leaves the base case close to market-implied expectations, so the stance remains neutral watch."
+      "zh": "以 2026-07-31 收盘 64.30 元、约 296 亿元市值、Q1 年化约 66x P/E 和约 4.9x P/S 计，市场仍在为 AIDC/SST/海外扩张和 H 股融资改善预付成功率，但幅度较旧锚点明显下降：乐观情景的 350-400 亿元目标市值重新高出现价约 18-35%，悲观情景的 140-200 亿元跌幅收窄至约 -32%~-53%。30% 牛市 / 40% 基准 / 30% 熊市网格仍显示基准情景接近市场隐含，且 SST 订单、应收回款与现金流转化三项验证一件未到，保持中性观察。",
+      "en": "At the RMB 64.30 close on 2026-07-31, roughly RMB 29.6B market cap, about 66x Q1-annualized P/E, and about 4.9x P/S, the market is still pre-paying for AIDC / SST / overseas expansion and H-share financing improvement, but much less than at the old anchor: the upside scenario's RMB 35-40B target sits about 18-35% above the current price again, and the downside scenario's RMB 14-20B narrows to about -32% to -53%. The 30% bull / 40% base / 30% bear grid still leaves the base case close to market-implied expectations, and none of the three validations — SST orders, receivable collection, cash conversion — has arrived, so the stance remains neutral watch."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -4723,6 +4784,12 @@
         "stance": "neutral-watch",
         "conviction": "medium",
         "price": 86
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 64.3
       }
     ]
   },
@@ -4972,8 +5039,8 @@
     "priceSymbol": "AVGO",
     "title": "Broadcom 深度研究报告 - 自定义 AI 硅的卖铲人与 VMware 现金机器",
     "titleEn": "Broadcom Deep Research Report - The Pick-and-Shovel of Custom AI Silicon, Plus a VMware Cash Machine",
-    "summary": "自定义 AI 硅（XPU）最大的卖铲人，正是 NVIDIA 报告点名的最深结构性威胁的承接方；同时握有 VMware 软件现金机器。Q2 FY2026 营收 $22.19B（+48%），AI 半导体 $10.8B（+143%），AI backlog >$30B，FY2027 AI 目标 >$1000 亿；Google/Meta/字节/Anthropic/OpenAI/Fujitsu 等客户项目与 $73B backlog 属公开报道/市场拆解口径，非全部官方确认。但收入兑现后置到 FY2027、客户高度集中、总债务 $64.9B、净债务约 $45B。市值约 $1.8 万亿、远期 P/E 约 33x，介于 NVIDIA ~25x 与 AMD ~58x 之间。neutral-watch / 中等确信：世界级卖铲人，但 FY2027 分母大多已被定价。",
-    "summaryEn": "The biggest pick-and-shovel of custom AI silicon (XPUs) - the very threat named in the NVIDIA report - plus a VMware software cash machine. Q2 FY2026 revenue $22.19B (+48%), AI semis $10.8B (+143%), AI backlog >$30B, FY2027 AI target >$100B; customer programs such as Google/Meta/ByteDance/Anthropic/OpenAI/Fujitsu and the $73B backlog are public-reporting / market-breakdown inputs, not all official confirmations. Delivery is back-loaded to FY2027, customers are concentrated, total debt is $64.9B and net debt is roughly $45B. Market cap ~$1.8T, forward P/E ~33x, between NVIDIA ~25x and AMD ~58x. Neutral-watch / medium conviction: a world-class pick-and-shovel, but the FY2027 denominator is mostly priced in.",
+    "summary": "自定义 AI 硅（XPU）最大的卖铲人，正是 NVIDIA 报告点名的最深结构性威胁的承接方；同时握有 VMware 软件现金机器。Q2 FY2026 营收 $22.19B（+48%），AI 半导体 $10.8B（+143%），AI backlog >$30B，FY2027 AI 目标 >$1000 亿；Google/Meta/字节/Anthropic/OpenAI/Fujitsu 等客户项目与 $73B backlog 属公开报道/市场拆解口径，非全部官方确认。但收入兑现后置到 FY2027、客户高度集中、总债务 $64.9B、净债务约 $45B。市值约 $1.84 万亿、远期 P/E 约 34x，介于 NVIDIA ~25x 与 AMD ~58x 之间。neutral-watch / 中等确信：世界级卖铲人，但 FY2027 分母大多已被定价。",
+    "summaryEn": "The biggest pick-and-shovel of custom AI silicon (XPUs) - the very threat named in the NVIDIA report - plus a VMware software cash machine. Q2 FY2026 revenue $22.19B (+48%), AI semis $10.8B (+143%), AI backlog >$30B, FY2027 AI target >$100B; customer programs such as Google/Meta/ByteDance/Anthropic/OpenAI/Fujitsu and the $73B backlog are public-reporting / market-breakdown inputs, not all official confirmations. Delivery is back-loaded to FY2027, customers are concentrated, total debt is $64.9B and net debt is roughly $45B. Market cap ~$1.84T, forward P/E ~34x, between NVIDIA ~25x and AMD ~58x. Neutral-watch / medium conviction: a world-class pick-and-shovel, but the FY2027 denominator is mostly priced in.",
     "tags": [
       "AI计算",
       "自定义ASIC",
@@ -4995,12 +5062,12 @@
       "Q2 FY2026 营收 $22.19B（+48% YoY），AI 半导体 $10.8B（+143%），AI backlog >$30B；Q3 指引营收 ~$29.4B、AI $16.0B（+200%）",
       "FY2027 AI 半导体目标 >$1000 亿；公开报道涉及 Google/Meta/字节/Anthropic/OpenAI/Fujitsu 等 XPU 项目与 $73B backlog 估算——但兑现后置到 FY2027、客户高度集中，非全部为官方确认订单",
       "两台引擎：AI 定制硅增长 + VMware 软件现金（非 GAAP 营业利润率 67%、FCF 占收入 46%）；总债务 $64.9B、Q2 期末现金 $19.63B，净债务约 $45B",
-      "neutral-watch / 中等确信：$378.91、约 24-25x EV/TTM sales 已定价通向 FY2027 >$100B AI 收入的顺利路径，等待更硬的 XPU 兑现和 backlog 转化证据"
+      "neutral-watch / 中等确信：$387.84、约 24-25x EV/TTM sales 已定价通向 FY2027 >$100B AI 收入的顺利路径，等待更硬的 XPU 兑现和 backlog 转化证据"
     ],
     "chainLayer": "custom-merchant-silicon",
     "coverageTier": "full",
     "stance": "neutral-watch",
-    "priceAsOf": "2026-06-25",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "Q2 FY2026",
     "related": [
       "nvidia-2026",
@@ -5083,8 +5150,8 @@
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "在 $378.91、约 24-25x EV/TTM sales 上，市场已经定价了通向 FY2027 >$100B AI 半导体的顺利路径和持续的 VMware 现金质量；我们的基准情景同意方向，但保留交付滑坡、客户集中和债务调整后倍数压力。",
-      "en": "At $378.91 and roughly 24-25x EV/TTM sales, the market already prices a clean path toward >$100B FY2027 AI semis plus durable VMware cash; our base case agrees on direction but leaves room for delivery slippage, customer concentration, and debt-adjusted multiple pressure."
+      "zh": "在 $387.84、约 24-25x EV/TTM sales 上，市场已经定价了通向 FY2027 >$100B AI 半导体的顺利路径和持续的 VMware 现金质量；我们的基准情景同意方向，但保留交付滑坡、客户集中和债务调整后倍数压力。",
+      "en": "At $387.84 and roughly 24-25x EV/TTM sales, the market already prices a clean path toward >$100B FY2027 AI semis plus durable VMware cash; our base case agrees on direction but leaves room for delivery slippage, customer concentration, and debt-adjusted multiple pressure."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -5102,6 +5169,12 @@
         "conviction": "medium",
         "date": "2026-06-25",
         "price": 378.91
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 387.84
       }
     ]
   },
@@ -5112,8 +5185,8 @@
     "priceSymbol": "TSM",
     "title": "TSMC 深度研究报告 - AI 基建链的先进制程与封装公共约束",
     "titleEn": "TSMC Deep Research Report - The Advanced-Node and Packaging Constraint in AI Infrastructure",
-    "summary": "【2026-07-31 价格复核：TSM 于 2026-07-29 收于 $374.67，较本报告锚点 -13.7%；下方数字按其标注日期阅读，估值框架与立场不变。】AI 基础设施书 foundry 层补位：TSMC 是整条链最硬的制造瓶颈，而不是又一个芯片设计公司。2026Q2 收入 US$40.20B（同比 +33.7%）落在指引区间上沿，毛利率 67.7% 高于 65.5-67.5% 指引；2nm 首次贡献 3% wafer revenue、7nm 及以下占 77%，HPC 占收入 66%。管理层把全年收入增速展望上调至略高于 40%，并把 2026 capex 从原 $52-56B 区间上调至 $60-64B；Q3 指引 US$44.6-45.8B。AI/HPC 需求已经穿透到晶圆收入和先进节点。ADR $434.16（2026-07-02 收盘）、约 $2.25T 市值、约 14x 2026E EV/Sales 仍是初始估值快照，本次监测不刷新估值或立场；维持中性观察 / 中确信，链内角色是 foundry 层 common-constraint。",
-    "summaryEn": "[2026-07-31 price check: TSM closed at $374.67 on 2026-07-29, -13.7% versus this report's anchor; figures below read as of their stated dates, and the valuation frame and stance are unchanged.] Foundry-layer coverage for the AI-infrastructure book: TSMC is the hard manufacturing bottleneck in the chain, not another chip designer. Q2 2026 revenue was US$40.20B (+33.7% YoY), at the top of guidance, with gross margin of 67.7% above the 65.5-67.5% guide; 2nm contributed 3% of wafer revenue for the first time, 7nm-and-below reached 77%, and HPC was 66% of revenue. Management lifted full-year revenue growth to slightly above 40% and raised 2026 capex from the prior $52-56B range to $60-64B, while guiding Q3 revenue to US$44.6-45.8B. AI/HPC demand has reached wafer revenue and advanced nodes. The $434.16 ADR close on Jul 2, 2026, roughly $2.25T market cap, and about 14x 2026E EV/Sales remain the dated initial valuation snapshot; this monitoring update does not refresh valuation or stance, which remains neutral watch / medium conviction with a foundry common-constraint chain role.",
+    "summary": "AI 基础设施书 foundry 层补位：TSMC 是整条链最硬的制造瓶颈，而不是又一个芯片设计公司。2026Q2 收入 US$40.20B（同比 +33.7%）落在指引区间上沿，毛利率 67.7% 高于 65.5-67.5% 指引；2nm 首次贡献 3% wafer revenue、7nm 及以下占 77%，HPC 占收入 66%。管理层把全年收入增速展望上调至略高于 40%，并把 2026 capex 从原 $52-56B 区间上调至 $60-64B；Q3 指引 US$44.6-45.8B。2026-07-31 重新锚定：ADR $403.31（2026-07-30 收盘）、约 $2.09T 市值、约 12.8x 2026E EV/Sales，隐含收入 CAGR 要求降至约 17%，低于未变的 20-22% 基准情景，预期差转为温和正向，立场由中性观察上调为偏多 / 中确信。",
+    "summaryEn": "Foundry-layer coverage for the AI-infrastructure book: TSMC is the hard manufacturing bottleneck in the chain, not another chip designer. Q2 2026 revenue was US$40.20B (+33.7% YoY), at the top of guidance, with gross margin of 67.7% above the 65.5-67.5% guide; 2nm contributed 3% of wafer revenue for the first time, 7nm-and-below reached 77%, and HPC was 66% of revenue. Management lifted full-year revenue growth to slightly above 40% and raised 2026 capex from the prior $52-56B range to $60-64B, while guiding Q3 revenue to US$44.6-45.8B. Re-anchored on 2026-07-31: the ADR closed at $403.31 on 2026-07-30, about $2.09T market cap and about 12.8x 2026E EV/Sales, cutting the implied revenue CAGR requirement to roughly 17% — below the unchanged 20-22% base case. The expectation gap turns modestly positive, so the stance moves from neutral watch to constructive / medium conviction.",
     "tags": [
       "晶圆代工",
       "AI基础设施",
@@ -5135,25 +5208,25 @@
       "foundry 层补位：TSMC 是 AI 基建链的制造公共约束，用先进制程、CoWoS/3DFabric、N3/N2 和客户排产验证 AI 需求是否真的穿透到上游制造瓶颈",
       "2026Q2 收入 US$40.20B（同比 +33.7%）、毛利率 67.7%、营业利润率 60.3%；Q3 指引 US$44.6-45.8B，全年收入增速展望上调至略高于 40%",
       "Q2 财报显示 HPC 占收入 66%（环比 +20%），7nm 及以下先进节点占 wafer revenue 77%、2nm 首次贡献 3%；2026 capex 从原 $52-56B 区间上调至 $60-64B",
-      "2026-07-02 初始估值快照为 ADR $434.16、市值约 $2.25T、约 14x 2026E EV/Sales；本次监测不刷新估值或立场，维持中性观察 / 中确信，核心监控是利用率、N3/N2、CoWoS、客户集中和海外 fab 毛利拖累"
+      "2026-07-30 收盘 ADR $403.31、市值约 $2.09T、约 12.8x 2026E EV/Sales，隐含要求约 17% 收入 CAGR，低于 20-22% 基准情景；立场上调为偏多 / 中确信"
     ],
     "chainLayer": "foundry",
     "coverageTier": "full",
     "chainRole": "common-constraint",
-    "stance": "neutral-watch",
+    "stance": "constructive",
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 $434.16 ADR、约 14x 2026E EV/Sales 计，市场大致定价了未来三年约 21% 收入 CAGR 和 60%+ 毛利；我们的 base case 与此接近，因此维持中性观察。",
-      "en": "At the $434.16 ADR and roughly 14x 2026E EV/Sales, the market is underwriting about a 21% three-year revenue CAGR with 60%+ gross margin; our base case is close, so the stance remains neutral watch."
+      "zh": "以 2026-07-30 ADR 收盘 $403.31、约 $2.09T 市值和约 12.8x 2026E EV/Sales 计，代入本报告自身的反推公式（三年内向约 10x 正常化、要求回报 8%），隐含收入 CAGR 约 17%，低于旧锚点的约 21%。基准情景本身未变（2026 增速超 30%、2027-2028 约 20-22% CAGR、毛利率大体 60% 以上），因此由“与要求接近”转为“明显高于要求”，预期差转正。确信度保持中等：本次改善来自价格而非新的经营证据，月度收入与 Q3 确认才是进一步提升确信度的依据。",
+      "en": "At the $403.31 ADR close on 2026-07-30, about $2.09T market cap and about 12.8x 2026E EV/Sales, this report's own reverse-multiple formula (normalising toward about 10x over three years at an 8% required return) implies roughly 17% revenue CAGR, down from about 21% at the old anchor. The base case is unchanged (2026 growth above 30%, about 20-22% CAGR through 2028, gross margin mostly above 60%), so it moves from close to the requirement to clearly above it and the expectation gap turns positive. Conviction stays medium: the improvement is price-driven rather than evidence-driven, and monthly revenue plus Q3 confirmation are what would raise it further."
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "月度收入、Q3 财报、N3/N2 mix 与 CoWoS 评论把 base case 明确推到约 21% 隐含 CAGR 以上，同时毛利率维持 60%+ 且估值倍数未进一步扩张",
-        "en": "monthly revenue, Q3 results, N3 / N2 mix, and CoWoS commentary push the base case clearly above the roughly 21% implied CAGR while gross margin remains above 60% and the valuation multiple does not expand further"
+        "zh": "如果月度收入、Q3 财报、N3/N2 mix 与 CoWoS 评论确认 base case 持续高于约 17% 的隐含 CAGR，同时毛利率维持 60%+ 且估值倍数没有重新扩张，则上调至 bullish。",
+        "en": "Move to bullish if monthly revenue, Q3 results, N3 / N2 mix, and CoWoS commentary confirm the base case is holding above the roughly 17% implied CAGR while gross margin remains above 60% and the valuation multiple does not re-expand."
       },
       "downgrade": {
-        "zh": "月度收入或 Q3 财报低于全年轨迹、先进节点/封装紧张度缓解，或海外 fab / N2 成本把结构性毛利率路径压到 60% 以下",
-        "en": "monthly revenue or Q3 results fall below the full-year trajectory, advanced-node / packaging tightness eases, or overseas fab / N2 costs push the structural gross-margin path below 60%"
+        "zh": "如果月度收入或 Q3 财报低于全年轨迹，或先进节点/封装紧张度缓解，则下调至 neutral-watch；如果海外 fab / N2 成本把结构性毛利率路径压到 60% 以下（打破溢价本身而非只是暂停），则下调至 cautious。",
+        "en": "Move to neutral-watch if monthly revenue or Q3 results fall below the full-year trajectory or advanced-node / packaging tightness eases; move to cautious if overseas fab / N2 costs push the structural gross-margin path below 60%, which would break the premium rather than merely pause it."
       }
     },
     "stanceHistory": [
@@ -5162,9 +5235,15 @@
         "conviction": "medium",
         "date": "2026-07-02",
         "price": 434.16
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "constructive",
+        "conviction": "medium",
+        "price": 403.31
       }
     ],
-    "priceAsOf": "2026-07-02",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "2026Q2",
     "related": [
       "nvidia-2026",
@@ -5461,7 +5540,7 @@
     "priceSymbol": "CEG",
     "title": "Constellation Energy 深度研究报告 - AI 电力约束的核电与 Calpine 综合电力锚",
     "titleEn": "Constellation Energy Deep Research Report - Nuclear and Calpine Integrated Power Anchor for AI",
-    "summary": "2026-07-07 v5更新：CEG是AI基础设施power层的核电与Calpine可调度容量锚。价格锚点$239.25（2026-07-02）、市值约$85.4B、EV约$107B，约21x 2026 EPS指引中点和约3.6x EV/TTM sales。30%牛市/50%基准/20%熊市情景显示高质量资产与高预期大致平衡，v5立场为中性观察/中确信。",
+    "summary": "CEG是AI基础设施power层的核电与Calpine可调度容量锚。2026-07-31重新锚定：价格$263.56（2026-07-30收盘）、市值约$94.1B、EV约$116B，约22.9x 2026 EPS指引中点和约3.9x EV/TTM sales。30%牛市/50%基准/20%熊市情景显示高质量资产与更高预期仍大致平衡，但当前价格留下的安全边际更少；立场维持中性观察/中确信。",
     "tags": [
       "AI电力",
       "核电",
@@ -5483,14 +5562,14 @@
       "补齐 AI 基建 power 层可调度电力公共约束：CEG 用既有核电 fleet、Calpine 天然气/地热容量、长期 PPA 和 PJM 容量价格验证 AI 数据中心是否真的愿意为稳定清洁电力与可调度容量付溢价",
       "2026Q1 收入 $11.12B、净利润 $1.59B、报道 EPS $2.74，核电发电量约 44,666 GWh，公司维持 2026 EPS 指引 $11-12",
       "Microsoft/Crane Clean Energy Center（Three Mile Island Unit 1）重启目标指向 2027，Meta 约 1.1GW 核电 PPA 说明 hyperscaler 电力需求正在合同化；Calpine 把叙事从纯核电扩展到可调度容量",
-      "当前 $239.25（2026-07-02）、市值约 $85.4B、EV 约 $107B、约 3.6x EV/TTM sales；30%牛市/50%基准/20%熊市情景推导为中性观察/中确信"
+      "2026-07-30 收盘 $263.56、市值约 $94.1B、EV 约 $116B、约 22.9x 2026 EPS 指引中点、约 3.9x EV/TTM sales；溢价较旧锚点更重，维持中性观察/中确信"
     ],
-    "summaryEn": "July 7, 2026 v5 update: CEG is the nuclear and Calpine dispatchable-capacity anchor for the AI-infrastructure power layer. The price anchor is $239.25 (Jul 2, 2026), about $85.4B market cap and about $107B EV, around 21x midpoint 2026 EPS guidance and about 3.6x EV/TTM sales. A 30% bull / 50% base / 20% bear grid shows high asset quality and high expectations roughly in balance, so the v5 stance is neutral-watch / medium conviction.",
+    "summaryEn": "CEG is the nuclear and Calpine dispatchable-capacity anchor for the AI-infrastructure power layer. Re-anchored on 2026-07-31: the price is $263.56 (Jul 30, 2026 close), about $94.1B market cap and about $116B EV, around 22.9x midpoint 2026 EPS guidance and about 3.9x EV/TTM sales. A 30% bull / 50% base / 20% bear grid still shows high asset quality and now-higher expectations roughly in balance, with even less margin of safety at the current price, so the stance stays neutral-watch / medium conviction.",
     "chainLayer": "power",
     "coverageTier": "full",
     "chainRole": "common-constraint",
     "stance": "neutral-watch",
-    "priceAsOf": "2026-07-02",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "2026Q1",
     "related": [
       "vistra-2026",
@@ -5596,8 +5675,8 @@
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "在$239.25、约21x 2026 EPS指引中点和约3.6x EV/TTM sales上，市场已经为核电PPA、Calpine可调度容量和PJM容量稀缺付出溢价；30%牛市/50%基准/20%熊市情景显示高质量资产与高预期大致平衡。",
-      "en": "At $239.25, about 21x midpoint 2026 EPS guidance and about 3.6x EV/TTM sales, the market already pays a premium for nuclear PPAs, Calpine dispatchable capacity, and PJM capacity scarcity; a 30% bull / 50% base / 20% bear grid shows high asset quality and high expectations roughly in balance."
+      "zh": "在 2026-07-30 收盘 $263.56、约 22.9x 2026 EPS 指引中点和约 3.9x EV/TTM sales 上，市场为核电 PPA、Calpine 可调度容量和 PJM 容量稀缺付出的溢价高于旧锚点：按报告自身 16-18x 高质量发电框架，当前价格需要约 $14.6-16.5 可持续 EPS，而 2026 指引为 $11-12。但本报告的牛市/基准情景没有给出量化 EPS 增速，因此无法证明隐含要求已超出情景集合；同时 AI capex 预期未被下修、Crane 重启未延迟、Calpine 未抬高杠杆、PJM 价格未回落，降级条件均未触发。30%牛市/50%基准/20%熊市网格仍大致平衡，只是安全边际更少，故维持中性观察。",
+      "en": "At the $263.56 close on 2026-07-30, about 22.9x midpoint 2026 EPS guidance and about 3.9x EV/TTM sales, the market pays a larger premium for nuclear PPAs, Calpine dispatchable capacity, and PJM capacity scarcity than at the old anchor: on this report's own 16-18x high-quality-generator frame the price now needs about $14.6-16.5 of sustainable EPS against 2026 guidance of $11-12. But the report states no quantified EPS growth rate for its bull or base case, so the implied requirement cannot be shown to exceed the scenario set; and none of the downgrade conditions has fired — AI capex expectations have not been cut, Crane restart is not delayed, Calpine has not raised leverage, and PJM prices have not faded. The 30% bull / 50% base / 20% bear grid remains roughly balanced with less margin of safety, so the stance stays neutral watch."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -5615,6 +5694,12 @@
         "stance": "neutral-watch",
         "conviction": "medium",
         "price": 239.25
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 263.56
       }
     ]
   },
@@ -5625,7 +5710,7 @@
     "priceSymbol": "VST",
     "title": "Vistra 深度研究报告 - AI 电力约束的核电与燃气高 beta 仪表盘",
     "titleEn": "Vistra Deep Research Report - Nuclear and Gas High-Beta Dashboard for AI Power",
-    "summary": "2026-07-07 v5更新：VST是AI基础设施power层的nuclear-plus-gas高beta dashboard。价格锚点$151.05（2026-07-02）、市值约$50.9B、EV约$70.2B、约3.6x EV/TTM sales，并含约$19.3B净债务。30%牛市/40%基准/30%熊市情景显示上行真实但下行更快，v5立场迁移为谨慎/中确信。",
+    "summary": "2026-07-07 v5更新：VST是AI基础设施power层的nuclear-plus-gas高beta dashboard。价格锚点$148.62（2026-07-30 收盘）、市值约$50.1B、EV约$69.4B、约22.6x TTM GAAP P/E、约3.6x EV/TTM sales，并含约$19.3B净债务。30%牛市/40%基准/30%熊市情景显示上行真实但下行更快，v5立场迁移为谨慎/中确信。",
     "tags": [
       "AI电力",
       "核电",
@@ -5647,14 +5732,14 @@
       "与 CEG 成对覆盖 power 层：VST 是核电 + 燃气 + merchant power 的高 beta 仪表盘，检验 AI 电力需求是否扩散到可调度容量",
       "2026Q1 收入 $5.64B、净利润 $1.03B、营业利润 $1.50B、FCF $316M；Q1 净债务约 $19.3B",
       "Meta 20 年核电协议覆盖 Perry、Davis-Besse、Beaver Valley uprates，公开报道约 2.2GW；Cogentrix 交易主口径约 $4B net purchase price，seller-side 公开报道也有约 $4.7B total consideration 口径，将增加约 5,500MW 燃气容量",
-      "当前 $151.05（2026-07-02）、市值约 $50.9B、EV 约 $70.2B、约 3.6x EV/TTM sales；30%牛市/40%基准/30%熊市情景推导为谨慎/中确信"
+      "2026-07-30 收盘 $148.62、市值约 $50.1B、EV 约 $69.4B、约 22.6x TTM GAAP P/E、约 3.6x EV/TTM sales；30%牛市/40%基准/30%熊市情景推导为谨慎/中确信"
     ],
-    "summaryEn": "July 7, 2026 v5 update: VST is the nuclear-plus-gas high-beta dashboard for the AI-infrastructure power layer. The price anchor is $151.05 (Jul 2, 2026), about $50.9B market cap, about $70.2B EV, about 3.6x EV/TTM sales, and about $19.3B net debt. A 30% bull / 40% base / 30% bear grid shows real upside but faster downside, moving the v5 stance to cautious / medium conviction.",
+    "summaryEn": "July 7, 2026 v5 update: VST is the nuclear-plus-gas high-beta dashboard for the AI-infrastructure power layer. The price anchor is $148.62 (Jul 30, 2026 close), about $50.1B market cap, about $69.4B EV, about 3.6x EV/TTM sales, and about $19.3B net debt. A 30% bull / 40% base / 30% bear grid shows real upside but faster downside, moving the v5 stance to cautious / medium conviction.",
     "chainLayer": "power",
     "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "cautious",
-    "priceAsOf": "2026-07-02",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "2026Q1",
     "related": [
       "constellation-energy-2026",
@@ -5761,8 +5846,8 @@
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "在$151.05、约3.6x EV/TTM sales、约23x TTM GAAP P/E和约$19.3B净债务上，市场已经定价Meta核电PPA、Cogentrix燃气容量和PJM/Texas容量稀缺；30%牛市/40%基准/30%熊市情景显示上行真实但下行更快，偏斜温和向下。",
-      "en": "At $151.05, about 3.6x EV/TTM sales, about 23x TTM GAAP P/E, and about $19.3B net debt, the market already prices Meta nuclear PPAs, Cogentrix gas capacity, and PJM/Texas capacity scarcity; a 30% bull / 40% base / 30% bear grid shows real upside but faster downside, leaving a mildly negative skew."
+      "zh": "在$148.62、约3.6x EV/TTM sales、约22.6x TTM GAAP P/E和约$19.3B净债务上，市场已经定价Meta核电PPA、Cogentrix燃气容量和PJM/Texas容量稀缺；30%牛市/40%基准/30%熊市情景显示上行真实但下行更快，偏斜温和向下。",
+      "en": "At $148.62, about 3.6x EV/TTM sales, about 22.6x TTM GAAP P/E, and about $19.3B net debt, the market already prices Meta nuclear PPAs, Cogentrix gas capacity, and PJM/Texas capacity scarcity; a 30% bull / 40% base / 30% bear grid shows real upside but faster downside, leaving a mildly negative skew."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -5785,6 +5870,12 @@
         "stance": "cautious",
         "conviction": "medium",
         "price": 151.05
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 148.62
       }
     ]
   },
@@ -6165,7 +6256,7 @@
     "priceSymbol": "META",
     "title": "Meta Platforms 深度研究报告 - AI 基建书的需求锚与算力外售压力测试",
     "titleEn": "Meta Platforms Deep Research Report - Demand Anchor and Compute-Resale Stress Test for the AI-Infra Book",
-    "summary": "2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30）：收入 $60.80B（同比 +28%）、营业利润 $18.775B、营业利润率 31%（去年同期 43%）、净利润 $15.848B（同比 -14%）、摊薄 EPS $6.18；总成本费用 $42.026B（同比 +55%）。经营现金流 $31.862B（+25%），但 $31.078B capex 把自由现金流压至 $0.784B（-91%）；FY2026 capex 指引收窄至 $130-145B。application-monetization 是混合读数：收入与经营现金流增长，营业利润率、净利润与 FCF 恶化。下文 $600.29（2026-07-06）估值快照、stance 与 conviction 不因本次监测刷新。本中心 AI 基础设施书 demand-risk 层的需求锚覆盖：Meta 不是 GPU/HBM/电力/光模块供应商，而是整条链最重要的终端买方之一。Q1 2026 收入 $56.31B(+33%)、营业利润 $22.87B、经营现金流 $32.23B、自由现金流 $13.23B，说明广告主业仍能融资 AI 建设；但公司把 2026 capex 指引抬到 $125-145B，且 7 月初被报道考虑推出 Meta Compute、外售过剩 AI 算力。股价 $582.90（2026-07-02 收盘）、市值约 $1.48T、约 6.9x TTM P/S、约 17x EV/TTM 营业利润，按 Q1 剔除约 $8B 税益 EPS 年化约 20x。核心读数：Meta capex 若继续被广告/AI 产品吸收，AI 基建链需求得到支撑；若外售算力意味着供给过剩或内部需求不足，则 CoreWeave/Nebius、HBM、光连接和电力链都要下修稀缺假设。2026-07-07 v5 更新：以 2026-07-06 收盘 $600.29 为锚，30% 牛市 / 50% 基准 / 20% 熊市情景网格接近市场隐含预期，维持 neutral-watch / 中确信。",
+    "summary": "2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30）：收入 $60.80B（同比 +28%）、营业利润 $18.775B、营业利润率 31%（去年同期 43%）、净利润 $15.848B（同比 -14%）、摊薄 EPS $6.18；总成本费用 $42.026B（同比 +55%）。经营现金流 $31.862B（+25%），但 $31.078B capex 把自由现金流压至 $0.784B（-91%）；FY2026 capex 指引收窄至 $130-145B。application-monetization 是混合读数：收入与经营现金流增长，营业利润率、净利润与 FCF 恶化。本中心 AI 基础设施书 demand-risk 层的需求锚覆盖：Meta 不是 GPU/HBM/电力/光模块供应商，而是整条链最重要的终端买方之一。2026-07-31 重新锚定至 2026-07-30 收盘 $539.03：市值约 $1.37T、EV 约 $1.41T，约 6.4x TTM P/S、约 15.9x EV/TTM 营业利润，按 Q1 剔除税益 EPS 年化约 18.4x（按 Q2 实际 EPS 年化约 21.8x）。倍数较旧锚点更宽松，立场按当前价格算术维持 neutral-watch / 中确信；上述 TTM 口径为 Q2'25-Q1'26，不含 2026 Q2，Q2 的 FCF 与利润率恶化关系到偏斜，须由 Q2 后重建口径的重新承保处理。",
     "tags": [
       "AI基础设施",
       "广告平台",
@@ -6185,17 +6276,17 @@
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
       "demand-risk 层需求锚：Meta 是 AI 基建链最大终端买方之一，决定 GPU、HBM、网络、光连接、电力、设施和 neocloud 需求是否真实",
-      "Q1 2026 收入 $56.31B(+33%)、营业利润 $22.87B、经营现金流 $32.23B、FCF $13.23B；广告主业仍能支撑大额 AI 投入",
-      "核心风险是 capex 斜率：2026 指引 $125-145B；7 月初 Meta Compute / 外售过剩 AI 算力报道使 capacity-resale 成为整本书的关键交叉校验",
-      "股价 $582.90(2026-07-02)、市值约 $1.48T、约 6.9x TTM P/S、约 17x EV/TTM 营业利润；静态倍数不极端，但 FCF/算力价格风险很高。中性/观察",
-      "2026-07-07 v5 更新：以 2026-07-06 收盘 $600.29 为锚，30% 牛市 / 50% 基准 / 20% 熊市；接近中性预期差，维持 neutral-watch / 中确信"
+      "Q2 2026 收入 $60.80B(+28%)、营业利润率 31%（去年同期 43%）、净利润 -14%、摊薄 EPS $6.18",
+      "季度 capex $31.078B 把自由现金流压至 $0.784B（-91%）；FY2026 capex 指引 $130-145B，下限自 $125B 上调，2027 回落路径未见",
+      "2026-07-30 收盘 $539.03、市值约 $1.37T、约 6.4x TTM P/S、约 15.9x EV/TTM 营业利润、约 18.4x 剔除税益年化 EPS；倍数较旧锚点更宽松",
+      "2026-07-31 重新裁定：立场按当前价格算术维持 neutral-watch / 中确信；TTM 口径不含 Q2，偏斜问题留待 Q2 后重新承保"
     ],
-    "summaryEn": "July 30, 2026 monitoring update (Q2 2026, quarter ended June 30, 2026): revenue was $60.80B (+28% YoY), operating income $18.775B, operating margin 31% (down from 43%), net income $15.848B (-14%), and diluted EPS $6.18; total costs were $42.026B (+55%). Operating cash flow was $31.862B (+25%), but $31.078B of capex compressed free cash flow to $0.784B (-91%); FY2026 capex guidance narrowed to $130-145B. Application-monetization is a mixed read: revenue and operating cash flow grew, while operating margin, net income, and FCF deteriorated. The $600.29 (Jul 6, 2026) valuation snapshot, stance, and conviction below are not refreshed by this monitoring pass. Demand-anchor coverage for this center's AI-infrastructure demand-risk layer: Meta is not a GPU/HBM/power/optical supplier, but one of the most important end customers in the chain. Q1 2026 revenue was $56.31B (+33%), operating income $22.87B, operating cash flow $32.23B, and free cash flow $13.23B, showing the ad engine can still fund AI buildout. But Meta raised its 2026 capex guide to $125-145B and was reported in early July to be considering Meta Compute, a business that could sell excess AI compute. At $582.90 (Jul 2 2026 close), market cap is about $1.48T, around 6.9x TTM sales and about 17x EV/TTM operating income; annualized Q1 EPS excluding an approximately $8B tax benefit implies roughly 20x earnings. Core read-through: if Meta capex keeps being absorbed by advertising and AI products, AI-infra demand is validated; if compute resale signals oversupply or insufficient internal demand, CoreWeave/Nebius, HBM, optical, and power-chain scarcity assumptions need to be marked down. Jul 7, 2026 v5 update: anchored to the Jul 6, 2026 close of $600.29, the 30% bull / 50% base / 20% bear scenario grid is close to the market-implied view; stance remains neutral-watch / medium conviction.",
+    "summaryEn": "July 30, 2026 monitoring update (Q2 2026, quarter ended June 30, 2026): revenue was $60.80B (+28% YoY), operating income $18.775B, operating margin 31% (down from 43%), net income $15.848B (-14%), and diluted EPS $6.18; total costs were $42.026B (+55%). Operating cash flow was $31.862B (+25%), but $31.078B of capex compressed free cash flow to $0.784B (-91%); FY2026 capex guidance narrowed to $130-145B. Application-monetization is a mixed read: revenue and operating cash flow grew, while operating margin, net income, and FCF deteriorated. Demand-anchor coverage for this center's AI-infrastructure demand-risk layer: Meta is not a GPU/HBM/power/optical supplier, but one of the most important end customers in the chain. Re-anchored on 2026-07-31 to the $539.03 close of 2026-07-30: market cap is about $1.37T and EV about $1.41T, or about 6.4x TTM sales, 15.9x EV/TTM operating income, and 18.4x annualized Q1 EPS ex-tax-benefit (21.8x on annualized Q2 reported EPS). The multiple is less demanding than at the old anchor, so the stance is held at neutral-watch / medium conviction on current-price arithmetic; note the TTM window is Q2'25-Q1'26 and excludes Q2 2026, whose FCF and margin deterioration bears on the skew and is carried to a post-Q2 re-underwrite.",
     "chainLayer": "demand-risk",
     "coverageTier": "full",
     "chainRole": "common-constraint",
     "stance": "neutral-watch",
-    "priceAsOf": "2026-07-06",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "Q2 2026",
     "related": [
       "coreweave-2026",
@@ -6301,8 +6392,8 @@
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 $600.29（2026-07-06 收盘）计，市场相信高质量广告现金流可以融资 AI capex，并最终修复 FCF；30% 牛市 / 50% 基准 / 20% 熊市网格基本承认这个质量，但要求 2027 capex 路径和 Meta Compute 信号给出验证，预期差接近中性。",
-      "en": "At $600.29 (Jul 6, 2026 close), the market believes high-quality ad cash flow can fund AI capex and eventually repair FCF; the 30% bull / 50% base / 20% bear grid broadly accepts that quality but requires verification from the 2027 capex path and the Meta Compute signal, leaving the expectation gap near neutral."
+      "zh": "以 2026-07-30 收盘 $539.03、市值约 $1.37T、EV 约 $1.41T 计，约 6.4x TTM P/S、约 15.9x EV/TTM 营业利润与约 18.4x 剔除税益年化 EPS（按 Q2 实际 EPS 年化约 21.8x）较旧锚点更宽松，估值腿在当前价格上并未破裂，30% 牛市 / 50% 基准 / 20% 熊市网格仍接近市场隐含预期，因此维持 neutral-watch。须明确边界：上述倍数使用 Q2'25-Q1'26 的 TTM 窗口，不含 2026 Q2；Q2 的营业利润率下滑、净利润 -14% 与自由现金流 -91% 至 $0.784B 关系到该网格的偏斜，但重评偏斜需要用 Q2 后数字重建 TTM 与全年口径，属于重新承保而非本次的价格重锚。",
+      "en": "At the $539.03 close on 2026-07-30, about $1.37T market cap and $1.41T EV, roughly 6.4x TTM sales, 15.9x EV/TTM operating income and 18.4x annualized Q1 EPS ex-tax-benefit (about 21.8x on annualized Q2 reported EPS) are less demanding than at the old anchor, so the valuation leg does not break at the current price and the 30% bull / 50% base / 20% bear grid remains close to market-implied, holding the stance at neutral-watch. The boundary is stated explicitly: those multiples use the Q2'25-Q1'26 TTM window and exclude Q2 2026, whose margin decline, -14% net income and -91% free cash flow to $0.784B bear on the grid's skew — but re-scoring that skew requires rebuilding the TTM and full-year frames on post-Q2 figures, which is a re-underwrite rather than this pass's price re-anchor."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -6325,6 +6416,12 @@
         "stance": "neutral-watch",
         "conviction": "medium",
         "price": 600.29
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 539.03
       }
     ]
   },
@@ -6335,8 +6432,8 @@
     "priceSymbol": "ORCL",
     "title": "Oracle 深度研究报告 - AI 云 RPO 仪表盘与资本开支融资压力",
     "titleEn": "Oracle Deep Research Report - AI Cloud RPO Dashboard and Capex Financing Pressure",
-    "summary": "【2026-07-31 价格复核：ORCL 于 2026-07-29 收于 $117.74，较本报告锚点 -17.8%；下方数字按其标注日期阅读，估值框架与立场不变。】AI 基础设施书 demand-risk 层的 RPO/backlog 仪表盘：Oracle 正从成熟数据库/企业软件公司变成高资本强度 AI 云基础设施平台。FY2026 Q4 收入 $19.18B(+21%)、OCI 收入 $5.8B(+93%)、RPO 达 $638B(+363%)，需求读数极强；但 FY2026 capex $55.66B、自由现金流 -$23.69B、FY2027 capex 指引可达 $90-95B，且公司需要约 $40B 债务+股权融资。当前股价 $140.27（2026-07-02 收盘）、市值约 $404B、按总债务 $156.19B 减现金+短投 $31.89B 计算的净债务约 $124.30B、企业价值约 $528B，对应约 7.8x TTM EV/Sales 和约 23.5x EV/TTM 营业利润。2026-07-07 v5 更新：以 2026-07-06 收盘 $143.76 为锚，20% 牛市 / 40% 基准 / 40% 熊市情景网格给出偏负预期差，立场迁移为谨慎 / 中确信；关键不是订单多不多，而是 RPO 能否按期转化为高回报现金流。",
-    "summaryEn": "[2026-07-31 price check: ORCL closed at $117.74 on 2026-07-29, -17.8% versus this report's anchor; figures below read as of their stated dates, and the valuation frame and stance are unchanged.] The RPO/backlog dashboard for the AI-infrastructure book's demand-risk layer: Oracle is changing from a mature database and enterprise-software company into a capital-intensive AI-cloud infrastructure platform. FY2026 Q4 revenue was $19.18B (+21%), OCI revenue was $5.8B (+93%), and RPO reached $638B (+363%), making the demand readout very strong. But FY2026 capex was $55.66B, free cash flow was -$23.69B, FY2027 capex could reach $90-95B, and the company expects roughly $40B of debt and equity financing. At $140.27 (Jul 2, 2026 close), roughly $404B market cap, about $124.30B net debt using total debt of $156.19B less cash+ST investments of $31.89B, and about $528B enterprise value, ORCL trades near 7.8x TTM EV/Sales and about 23.5x EV/TTM operating income. Jul 7, 2026 v5 update: anchored to the Jul 6, 2026 close of $143.76, the 20% bull / 40% base / 40% bear scenario grid leaves a negative expectation gap; stance migrates to cautious / medium conviction. The key question is whether RPO converts into high-return cash flow on schedule.",
+    "summary": "AI 基础设施书 demand-risk 层的 RPO/backlog 仪表盘：Oracle 正从成熟数据库/企业软件公司变成高资本强度 AI 云基础设施平台。FY2026 Q4 收入 $19.18B(+21%)、OCI 收入 $5.8B(+93%)、RPO 达 $638B(+363%)，需求读数极强；但 FY2026 capex $55.66B、自由现金流 -$23.69B、FY2027 capex 指引可达 $90-95B，且公司需要约 $40B 债务+股权融资。以 2026-07-30 收盘 $127.56 计，市值约 $367B、净债务约 $124.30B、企业价值约 $492B，对应约 7.3x TTM EV/Sales 和约 21.9x EV/TTM 营业利润。20% 牛市 / 40% 基准 / 40% 熊市情景网格仍给出偏负预期差，立场维持谨慎 / 中确信；关键不是订单多不多，而是 RPO 能否按期转化为高回报现金流。",
+    "summaryEn": "The RPO/backlog dashboard for the AI-infrastructure book's demand-risk layer: Oracle is changing from a mature database and enterprise-software company into a capital-intensive AI-cloud infrastructure platform. FY2026 Q4 revenue was $19.18B (+21%), OCI revenue was $5.8B (+93%), and RPO reached $638B (+363%), making the demand readout very strong. But FY2026 capex was $55.66B, free cash flow was -$23.69B, FY2027 capex could reach $90-95B, and the company expects roughly $40B of debt and equity financing. At the $127.56 close on Jul 30, 2026, roughly $367B market cap, about $124.30B net debt, and about $492B enterprise value, ORCL trades at about 7.3x TTM EV/Sales and about 21.9x EV/TTM operating income. The 20% bull / 40% base / 40% bear grid still leaves a negative expectation gap, so the stance stays cautious / medium conviction: the question is not whether orders are large, but whether RPO converts into high-return cash flow on schedule.",
     "tags": [
       "AI云",
       "企业软件",
@@ -6357,15 +6454,15 @@
     "highlights": [
       "demand-risk 层的 RPO/backlog 仪表盘：FY2026 Q4 RPO $638B(+363%，环比 +$85B)，OCI 收入 $5.8B(+93%)，验证 AI 云需求是否穿透到订单簿",
       "现金流和融资压力同样极端：FY2026 capex $55.66B、FCF -$23.69B；FY2027 capex 指引 $90-95B，另需约 $40B 债务+股权融资，含 $20B ATM 股权发行",
-      "当前 $140.27（2026-07-02 收盘）、约 $404B 市值、约 $124.30B 净债务、约 $528B 企业价值，对应约 7.8x TTM EV/Sales、约 23.5x EV/TTM 营业利润；传统软件利润表与 AI 基建资产负债表叙事并存",
+      "2026-07-30 收盘 $127.56、约 $367B 市值、约 $124.30B 净债务、约 $492B 企业价值，对应约 7.3x TTM EV/Sales、约 21.9x EV/TTM 营业利润；传统软件利润表与 AI 基建资产负债表叙事并存",
       "核心监控不是『订单多不多』，而是 RPO 转化、客户集中、OCI 毛利/ROIC、capex 是否按时变成可售 capacity，以及融资是否伤害股东",
-      "2026-07-07 v5 更新：以 2026-07-06 收盘 $143.76 为锚，20% 牛市 / 40% 基准 / 40% 熊市；偏负预期差，立场迁移为谨慎 / 中确信"
+      "2026-07-31 重新裁定：按 2026-07-30 收盘重算后 20% 牛市 / 40% 基准 / 40% 熊市网格仍偏负，立场维持谨慎 / 中确信"
     ],
     "chainLayer": "demand-risk",
     "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "cautious",
-    "priceAsOf": "2026-07-06",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "FY2026 Q4",
     "related": [
       "coreweave-2026",
@@ -6473,8 +6570,8 @@
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 $143.76（2026-07-06 收盘）计，市场给 $638B RPO 很高的转化信用；20% 牛市 / 40% 基准 / 40% 熊市网格承认需求强度，但认为 capex 和融资负担尚未被充分折价，预期差偏负。",
-      "en": "At $143.76 (Jul 6, 2026 close), the market gives the $638B RPO a large conversion credit; the 20% bull / 40% base / 40% bear grid recognizes demand strength, but does not think the capex and financing burden is fully discounted, leaving a negative expectation gap."
+      "zh": "以 $127.56（2026-07-30 收盘）、约 $367B 市值和约 $492B 企业价值计，市场仍给 $638B RPO 很高的转化信用；约 7.3x EV/Sales 与约 21.9x EV/营业利润虽较旧口径压缩，但仍明显高于熊市情景所指的 5-6x 区间。20% 牛市 / 40% 基准 / 40% 熊市网格承认需求强度，但 RPO 转化、FY2027 capex、约 $40B 融资成本与仍为 -$23.69B 的自由现金流都不会被股价变动回答，预期差仍偏负。",
+      "en": "At $127.56 (Jul 30, 2026 close), roughly $367B market cap and about $492B enterprise value, the market still gives the $638B RPO a large conversion credit; about 7.3x EV/Sales and about 21.9x EV/operating income are compressed versus the old caliber but remain well above the 5-6x band named in the bear case. The 20% bull / 40% base / 40% bear grid recognizes demand strength, but RPO conversion, FY2027 capex, the cost of roughly $40B of financing, and free cash flow still at -$23.69B are none of them answered by a price move, so the expectation gap stays negative."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -6497,6 +6594,12 @@
         "stance": "cautious",
         "conviction": "medium",
         "price": 143.76
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 127.56
       }
     ]
   },
@@ -6879,7 +6982,7 @@
     "priceSymbol": "DLR",
     "title": "Digital Realty 深度研究报告 - AI 数据中心租赁与互联需求仪表盘",
     "titleEn": "Digital Realty Deep Research Report - Leasing and Interconnection Dashboard for AI Data Centers",
-    "summary": "AI 基础设施 datacenter-facility 层的租赁/互联需求校验。DLR 不直接解释 GPU、光模块或电力设备，而是验证 AI 数据中心需求是否转化为真实租约、backlog、互联节点和开发容量。2026Q2 财报（2026-07-23）：Core FFO/share（ex net promote）$2.13、cash renewal spread +25.4%；公司签下 $307M 年化 GAAP base rent 的 bookings（100% share）/ $208M（DLR share），其中 0-1MW + interconnection 贡献 $108M、占 DLR-share bookings 的 52%；季度末 signed-but-not-commenced backlog 为 record $1.9B（100% share）/ $1.4B（DLR share），但后者含约 $380M 收购相关增量，不能全部解释为本季有机签约；新签租约加权平均开租滞后从 19 个月收窄至 9 个月，future-development capacity 升至约 9GW。管理层把 2026 Core FFO/share（ex net promote）指引从 $8.00-8.10 上修至 $8.15-8.20。$173.30、市值约 $62.0B、EV 约 $77.6B、约 21x P/Core FFO 与约 12.2x EV/TTM revenue 均为基于当时 Q1 $8.00-8.10 指引的 2026-07-02 初始估值快照，本次监测不刷新估值或立场；维持偏多 / 中确信。",
+    "summary": "AI 基础设施 datacenter-facility 层的租赁/互联需求校验。DLR 不直接解释 GPU、光模块或电力设备，而是验证 AI 数据中心需求是否转化为真实租约、backlog、互联节点和开发容量。2026Q2 财报（2026-07-23）：Core FFO/share（ex net promote）$2.13、cash renewal spread +25.4%；公司签下 $307M 年化 GAAP base rent 的 bookings（100% share）/ $208M（DLR share），其中 0-1MW + interconnection 贡献 $108M、占 DLR-share bookings 的 52%；季度末 signed-but-not-commenced backlog 为 record $1.9B（100% share）/ $1.4B（DLR share），但后者含约 $380M 收购相关增量，不能全部解释为本季有机签约；新签租约加权平均开租滞后从 19 个月收窄至 9 个月，future-development capacity 升至约 9GW。管理层把 2026 Core FFO/share（ex net promote）指引从 $8.00-8.10 上修至 $8.15-8.20。2026-07-31 完成此前推迟的当前价格估值复核：以 2026-07-30 收盘 $193.19 计，市值约 $69.1B、EV 约 $84.7B，对照上修后指引约 23.6x P/Core FFO、约 13.3x EV/TTM revenue，隐含要求升至约 18.3% Core FFO/share CAGR，高于中双位数的牛市情景。经营证据依然强劲，但股价跑在前面，立场由偏多调整为 neutral-watch / 中确信。",
     "tags": [
       "AI数据中心",
       "REIT",
@@ -6901,26 +7004,26 @@
       "补齐 datacenter-facility 层租赁校验：DLR 把上游 chip/neocloud/buildout 叙事接到真实租约、backlog、cross-connects 和开发容量",
       "2026Q2（2026-07-23）Core FFO/share（ex net promote）$2.13、cash renewal spread +25.4%；2026 Core FFO/share 指引上修至 $8.15-8.20（ex net promote，Q1 为 $8.00-8.10）",
       "Q2 bookings $307M（100% share）/$208M（DLR share），环比低于 Q1；0-1MW + interconnection $108M、占 DLR-share bookings 的 52%；backlog $1.9B/$1.4B，但 DLR-share 口径含约 $380M 收购相关增量，开租滞后收窄至 9 个月",
-      "$173.30、市值约 $62.0B、EV 约 $77.6B、约 21x P/Core FFO 为基于当时 Q1 $8.00-8.10 指引的 2026-07-02 估值快照（本次不刷新）；强需求但估值、杠杆、电力/许可和 backlog commence 是核心风险"
+      "2026-07-30 收盘 $193.19、市值约 $69.1B、EV 约 $84.7B、约 23.6x P/Core FFO，隐含要求约 18.3% Core FFO/share CAGR；需求仍强但股价已跑在基本面前面，立场下调为 neutral-watch"
     ],
-    "summaryEn": "Leasing and interconnection demand check for the AI-infrastructure data-center facility layer. DLR does not directly explain GPUs, optical modules or power equipment; it tests whether AI data-center demand converts into real leases, backlog, interconnection nodes and development capacity. Q2 2026 results (July 23, 2026): Core FFO/share (excluding net promote) was $2.13 and cash renewal spreads were +25.4%. The company signed $307M of annualized GAAP base-rent bookings at 100% share, or $208M at DLR share, including $108M from 0-1MW plus interconnection, or 52% of DLR-share bookings. Signed-but-not-commenced backlog was a record $1.9B at 100% share and $1.4B at DLR share, but the latter included about $380M of acquisition-related incremental backlog and cannot be read entirely as organic quarterly leasing; the weighted-average commencement lag narrowed from 19 months to nine months and future-development capacity rose to about 9GW. Management raised 2026 Core FFO/share (excluding net promote) guidance from $8.00-8.10 to $8.15-8.20. The $173.30 price, about $62.0B market cap, $77.6B EV, ~21x P/Core FFO, and ~12.2x EV/TTM revenue are the July 2, 2026 initial valuation snapshot based on the then-current Q1 $8.00-8.10 guide; this monitoring pass does not refresh valuation or stance and keeps Constructive / medium conviction.",
+    "summaryEn": "Leasing and interconnection demand check for the AI-infrastructure data-center facility layer. DLR does not directly explain GPUs, optical modules or power equipment; it tests whether AI data-center demand converts into real leases, backlog, interconnection nodes and development capacity. Q2 2026 results (July 23, 2026): Core FFO/share (excluding net promote) was $2.13 and cash renewal spreads were +25.4%. The company signed $307M of annualized GAAP base-rent bookings at 100% share, or $208M at DLR share, including $108M from 0-1MW plus interconnection, or 52% of DLR-share bookings. Signed-but-not-commenced backlog was a record $1.9B at 100% share and $1.4B at DLR share, but the latter included about $380M of acquisition-related incremental backlog and cannot be read entirely as organic quarterly leasing; the weighted-average commencement lag narrowed from 19 months to nine months and future-development capacity rose to about 9GW. Management raised 2026 Core FFO/share (excluding net promote) guidance to $8.15-8.20. The 2026-07-31 pass completed the deferred current-price valuation review: at the $193.19 close on 2026-07-30, market cap is about $69.1B and EV about $84.7B, or about 23.6x P/Core FFO and 13.3x EV/TTM revenue on the raised guide, lifting the implied requirement to roughly 18.3% Core FFO/share CAGR — above the mid-teens bull case. Operating evidence remains strong but the share price has run ahead of it, so the stance moves from constructive to neutral-watch / medium conviction.",
     "chainLayer": "datacenter-facility",
     "coverageTier": "full",
     "chainRole": "dashboard",
-    "stance": "constructive",
+    "stance": "neutral-watch",
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "在基于当时 Q1 $8.00-8.10 指引的 2026-07-02 估值快照中，$173.30 与约 21x P/Core FFO 隐含未来三年约 14% Core FFO/share CAGR；本次只更新经营读数，不用旧价格对 Q2 新指引重新估值，维持原偏多 / 中确信结论。",
-      "en": "In the July 2, 2026 valuation snapshot based on the then-current Q1 $8.00-8.10 guide, $173.30 and about 21x P/Core FFO implied roughly 14% three-year Core FFO/share CAGR; this pass updates operating evidence only, does not revalue the Q2 guide using the old price, and keeps the prior constructive / medium-conviction conclusion."
+      "zh": "以 2026-07-30 收盘 $193.19、市值约 $69.1B 与上修后的 $8.15-8.20 Core FFO/share 指引计，约 23.6x P/Core FFO 代入本报告自身的反推公式（三年内向约 18x 正常化、要求回报 8%），隐含要求约 18.3% Core FFO/share CAGR，高于旧框架的约 14%，也高于中双位数的牛市情景与 Q2 实际 +13.9% 的兑现速度。Q2 经营证据（0-1MW/interconnection 创纪录、renewal spread +25.4%、开租滞后收窄至 9 个月）依然强劲且在改善，因此不下调至谨慎；但价格上涨 11.5% 而指引仅上修约 1.6%，仅重定价一项就把要求推到情景集合之外，偏多不再成立。",
+      "en": "At the $193.19 close on 2026-07-30, about $69.1B market cap and the raised $8.15-8.20 Core FFO/share guide, about 23.6x P/Core FFO feeds this report's own reverse-multiple formula (normalising toward about 18x over three years at an 8% required return) to imply roughly 18.3% Core FFO/share CAGR — up from about 14% in the old frame, and above both the mid-teens bull case and the +13.9% delivered in Q2. Q2 operating evidence (record 0-1MW/interconnection bookings, +25.4% renewal spreads, commencement lag down to nine months) remains strong and improving, so the stance does not move to cautious; but the price rose 11.5% while the guide rose about 1.6%, and the re-rating alone pushed the requirement beyond the scenario set, so constructive no longer holds."
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "若 Q3/Q4 leasing bookings 保持高位、剔除约 $380M 收购增量后仍能看到 $1.9B backlog 的开租进展，0-1MW/interconnection 需求与约 9GW future development 同时推进，且净债务和利息成本没有稀释 Core FFO/share 增长，则上调至 bullish。",
-        "en": "Move to bullish if Q3/Q4 leasing bookings remain elevated, the $1.9B backlog shows commencement progress after accounting for the roughly $380M acquisition increment, 0-1MW/interconnection demand and about 9GW of future development both advance, and net debt and interest cost do not dilute Core FFO/share growth."
+        "zh": "若 Q3/Q4 leasing bookings 保持高位、剔除约 $380M 收购增量后 backlog 仍见开租进展、0-1MW/interconnection 需求与约 9GW future development 同时推进、净债务和利息成本没有稀释 Core FFO/share 增长，且 Core FFO/share 增速或倍数回落把差距收敛到当前约 18.3% 的隐含要求，则上调回 constructive。",
+        "en": "Move back to constructive if Q3/Q4 leasing bookings remain elevated, the backlog shows commencement progress after accounting for the roughly $380M acquisition increment, 0-1MW/interconnection demand and about 9GW of future development both advance, net debt and interest cost do not dilute Core FFO/share growth, and either faster Core FFO/share growth or a multiple reset closes the gap to the roughly 18.3% currently implied requirement."
       },
       "downgrade": {
-        "zh": "如果 backlog commencement lag 继续拉长、renewal/pricing spreads 恶化、开发电力或许可推迟容量，或净债务/股本融资使 Core FFO/share 增长低于约 14% 隐含要求，则下调至 neutral-watch 或 cautious。",
-        "en": "Move to neutral-watch or cautious if backlog commencement lag keeps stretching, renewal/pricing spreads deteriorate, power or permitting delays capacity, or net debt/equity financing pushes Core FFO/share growth below the roughly 14% implied requirement."
+        "zh": "如果剔除收购增量后的 backlog commencement lag 继续拉长、renewal/pricing spreads 恶化、开发电力或许可推迟容量，或净债务/股本融资使 Core FFO/share 增长进一步低于约 18.3% 的隐含要求，则下调至 cautious。",
+        "en": "Move to cautious if acquisition-adjusted backlog commencement lag keeps stretching, renewal/pricing spreads deteriorate, power or permitting delays capacity, or net debt/equity financing pushes Core FFO/share growth further below the roughly 18.3% implied requirement."
       }
     },
     "stanceHistory": [
@@ -6934,9 +7037,15 @@
         "stance": "constructive",
         "conviction": "medium",
         "price": 173.3
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 193.19
       }
     ],
-    "priceAsOf": "2026-07-02",
+    "priceAsOf": "2026-07-30",
     "reportedPeriod": "2026Q2",
     "related": [
       "coreweave-2026",
@@ -7049,8 +7158,8 @@
     "priceSymbol": "0100.HK",
     "title": "MiniMax Group 深度研究报告 - 应用层需求验证与高估值压力测试",
     "titleEn": "MiniMax Group Deep Research Report - Application-Layer Demand Validation and Valuation Stress Test",
-    "summary": "【2026-07-31 价格复核：0100.HK 于 2026-07-29 收于 $212.80，较本报告锚点 -18.3%；下方数字按其标注日期阅读，估值框架与立场不变。】首次覆盖 MiniMax 作为 AI 基础设施研究簿的应用层需求风险锚。FY2025 收入 US$79.0M、同比 +158.9%，毛利率由 12.2% 升至 25.4%，海外收入占 73%；但调整后净亏损 US$250.9M、经营现金流流出 US$279.6M。以 HK$260.60（2026-07-15）、配售后 349.235M 股和形式净现金估算，市值约 HK$91.0B、P/S 约 147.6x、EV/FY2025 Sales 约 110.8x。业务增长得到验证，但当前价格要求接近 69% 的四年收入 CAGR，首次观点为谨慎 / 低确信。",
-    "summaryEn": "[2026-07-31 price check: 0100.HK closed at $212.80 on 2026-07-29, -18.3% versus this report's anchor; figures below read as of their stated dates, and the valuation frame and stance are unchanged.] Initial coverage of MiniMax as the application-layer demand-risk anchor for the AI-infrastructure research book. FY2025 revenue was US$79.0M, up 158.9%, gross margin improved from 12.2% to 25.4%, and international revenue reached 73%. Adjusted net loss was US$250.9M and operating cash outflow was US$279.6M. At HK$260.60 on 2026-07-15, 349.235M post-placement shares, and estimated pro forma net cash, market capitalization is about HK$91.0B, price-to-sales about 147.6x, and EV/FY2025 sales about 110.8x. Growth is real, but the price requires close to 69% four-year revenue CAGR; initial stance is cautious / low conviction.",
+    "summary": "首次覆盖 MiniMax 作为 AI 基础设施研究簿的应用层需求风险锚。FY2025 收入 US$79.0M、同比 +158.9%，毛利率由 12.2% 升至 25.4%，海外收入占 73%；但调整后净亏损 US$250.9M、经营现金流流出 US$279.6M。以 HK$230.60（2026-07-31 收盘）、配售后 349.235M 股和形式净现金估算，市值约 HK$80.5B、P/S 约 130.6x、EV/FY2025 Sales 约 93.8x，隐含四年收入 CAGR 约 62%。业务增长得到验证，但隐含要求仍高于 50%-60% 的基准情景，首次观点为谨慎 / 低确信。",
+    "summaryEn": "Initial coverage of MiniMax as the application-layer demand-risk anchor for the AI-infrastructure research book. FY2025 revenue was US$79.0M, up 158.9%, gross margin improved from 12.2% to 25.4%, and international revenue reached 73%. Adjusted net loss was US$250.9M and operating cash outflow was US$279.6M. At the HK$230.60 close on 2026-07-31, 349.235M post-placement shares, and estimated pro forma net cash, market capitalization is about HK$80.5B, price-to-sales about 130.6x, and EV/FY2025 sales about 93.8x, implying roughly 62% four-year revenue CAGR. Growth is verified, but the implied requirement still exceeds the 50%-60% base case, so initial coverage is cautious / low conviction.",
     "tags": [
       "基础模型",
       "生成式AI",
@@ -7073,7 +7182,7 @@
       "FY2025 收入 US$79.0M、同比 +158.9%，毛利率由 12.2% 升至 25.4%，海外收入占 73%",
       "2025 年前九个月 AI-native 产品平均 MAU 27.6M、付费用户 1.77M；消费产品收入占 FY2025 的 67.2%，平台/企业占 32.8%",
       "调整后净亏损 US$250.9M、经营现金流流出 US$279.6M；研发费用约为收入 3.2 倍，商业化仍依赖外部资本",
-      "当前 HK$260.60、配售后市值约 HK$91.0B、P/S 约 147.6x、EV/FY2025 Sales 约 110.8x；谨慎 / 低确信"
+      "2026-07-31 收盘 HK$230.60、市值约 HK$80.5B、P/S 约 130.6x、EV/FY2025 Sales 约 93.8x，隐含 CAGR 约 62%；谨慎 / 低确信"
     ],
     "chainLayer": "demand-risk",
     "coverageTier": "full",
@@ -7081,8 +7190,8 @@
     "stance": "cautious",
     "conviction": "low",
     "stanceRationale": {
-      "zh": "以 HK$260.60、配售后约 HK$91.0B 市值和约 110.8x EV/FY2025 Sales 计，市场隐含未来四年收入 CAGR 接近 69%，同时要求毛利率与现金消耗持续改善。收入、全球用户和毛利率改善是真实正面证据，但消费产品单位经济、研发强度与连续融资尚未支持更积极观点。",
-      "en": "At HK$260.60, about HK$91.0B of post-placement market capitalization, and about 110.8x EV/FY2025 sales, the market implies close to 69% four-year revenue CAGR together with sustained gross-margin and cash-burn improvement. Revenue, global users, and gross-margin gains are real, but consumer unit economics, R&D intensity, and repeated financing do not yet support a more positive stance."
+      "zh": "以 2026-07-31 收盘 HK$230.60、配售后约 HK$80.5B 市值和约 93.8x EV/FY2025 Sales 计，代入本报告自身公式，市场隐含未来四年收入 CAGR 约 62%（旧锚点约 69%），仍高于 50%-60% 的基准情景区间，预期差仍为负、只是负得更少。收入、全球用户和毛利率改善是真实正面证据，但消费产品单位经济、研发强度与连续融资尚未支持更积极观点。",
+      "en": "At the HK$230.60 close on 2026-07-31, about HK$80.5B of post-placement market capitalization, and about 93.8x EV/FY2025 sales, this report's own formula implies close to 62% four-year revenue CAGR (about 69% at the old anchor), still above the 50%-60% base-case range, so the expectation gap remains negative though less so. Revenue, global users, and gross-margin gains are real, but consumer unit economics, R&D intensity, and repeated financing do not yet support a more positive stance."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -7100,9 +7209,15 @@
         "stance": "cautious",
         "conviction": "low",
         "price": 260.6
+      },
+      {
+        "date": "2026-07-31",
+        "stance": "cautious",
+        "conviction": "low",
+        "price": 230.6
       }
     ],
-    "priceAsOf": "2026-07-15",
+    "priceAsOf": "2026-07-31",
     "reportedPeriod": "FY2025 + 2026-07 financing",
     "related": [
       "meta-2026",

@@ -17,18 +17,20 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 **Why it matters to this coverage structure:** ANET is the network-fabric dashboard for the AI infrastructure book. If Arista keeps expanding deferred revenue/RPO, sustaining 40%+ operating margins, and showing large AI customers choosing Ethernet fabrics, that supports the bull case for Broadcom, AAOI, Corning, Vertiv, and parts of the neocloud demand chain. If Arista decelerates or loses architecture ground to NVIDIA's integrated networking stack, it is an early warning that part of the AI infrastructure book may be overextended.
 
-**Current market read:** CompaniesMarketCap/Nasdaq showed an end-of-day market cap of **$206.62B** on June 29, 2026. Using Arista's 1.259B shares outstanding at April 30, 2026, that implies about **$164/share**. With Q1 2026 cash plus marketable securities of about **$12.35B** and no meaningful financial debt line, enterprise value is about **$194B**.
+**Current market read:** At the 2026-07-30 close of **$171.02** and Arista's 1.259B shares outstanding at April 30, 2026, market cap is about **$215.3B** (CompaniesMarketCap/Nasdaq showed $206.62B end-of-day on June 29, 2026, the old anchor). With Q1 2026 cash plus marketable securities of about **$12.35B** and no meaningful financial debt line, enterprise value is about **$203B**.
 
-> **2026-07-31 price check.** ANET closed at **$157.97** on **2026-07-29** (last completed session) versus the **$164.10** anchor dated below, a **-3.7%** move. The dated anchors below therefore remain accurate to within that margin and the valuation frame, scenario grid, stance and conviction are unchanged. Reviewed and confirmed in the 2026-07-31 full-coverage pass; no edit was required.
+> **Old price-check note — stale as written, superseded by the re-adjudication below.** ~~2026-07-31 price check: ANET closed at $157.97 on 2026-07-29 versus the $164.10 anchor, a -3.7% move, so the dated anchors below remain accurate within that margin and the valuation frame, scenario grid, stance and conviction are unchanged; no edit was required.~~
+
+> **2026-07-31 stance re-adjudication at the 2026-07-30 close.** Owner ruling (2026-07-31): a published stance and its rationale must hold at the CURRENT price. ANET closed at **$171.02** on **2026-07-30**, **+4.2%** above the old $164.10 anchor of 2026-06-29. On 1.259B shares and about $12.35B of cash and marketable securities with no meaningful debt, market cap is about **$215.3B** (old $206.62B) and enterprise value about **$203B** (old about $194B); that is about **21x EV/TTM revenue** (old about 20x), about **49x** current non-GAAP run-rate EPS (old about 47x) and about **58x** TTM GAAP net income (old about 56x). No estimate or actual was changed; only the price input moved. Running this report's own three-year reverse-multiple frame at the new level — normalising toward 10-12x revenue at an 8% required return — the implied requirement rises to roughly **30% to 38% revenue CAGR** (old roughly 28% to 36%). The stance was neutral watch because the base case sat close to the low end of that band rather than above it, and a 4.2% move does not change that relationship in kind: the base case is now a little further below the low end, which makes neutral watch more clearly right rather than less. **Stance stays neutral watch (medium conviction), restated at the higher multiple.**
 
 **Key data:**
 
 | Metric | Current read |
 |----|----|
 | AI chain layer | Open Ethernet AI-cluster fabric: switching systems, EOS, CloudVision, telemetry |
-| Market cap | $206.62B end-of-day on June 29, 2026 |
+| Market cap | ~$215.3B at the July 30, 2026 close |
 | Implied price | About $164/share using 1.259B shares outstanding |
-| Enterprise value | About $194B after cash and marketable securities |
+| Enterprise value | About $203B after cash and marketable securities |
 | Q1 2026 revenue | $2.709B, +35.1% YoY |
 | Q1 2026 non-GAAP operating margin | 47.8% |
 | Q1 2026 non-GAAP EPS | $0.87 |
@@ -143,7 +145,7 @@ The Q4/FY2025 release also highlighted operational milestones that matter for cr
 
 3. **Broadcom dependence cuts both ways.** Broadcom is an ecosystem strength and a supplier concentration risk. Arista has no guaranteed long-term silicon supply, and its product roadmap depends on close collaboration with merchant silicon vendors.
 
-4. **Valuation leaves little room for ordinary disappointment.** At about **20x EV/TTM revenue** and roughly **47x current non-GAAP run-rate EPS**, a normal deceleration can still hurt the stock even if the company remains excellent.
+4. **Valuation leaves little room for ordinary disappointment.** At about **21x EV/TTM revenue** and roughly **49x current non-GAAP run-rate EPS**, a normal deceleration can still hurt the stock even if the company remains excellent.
 
 5. **White-box, in-house, and custom-networking pressure remains real.** Large cloud customers have the scale to disaggregate, self-design, or pressure system margins. Arista's moat is operational reliability and software depth, not immunity from customer bargaining power.
 
@@ -165,29 +167,29 @@ The Q4/FY2025 release also highlighted operational milestones that matter for cr
 
 ## 8. Valuation Context
 
-Using the June 29, 2026 end-of-day market cap of **$206.62B** and Q1 2026 cash/securities of about **$12.35B**, enterprise value is about **$194B**. With **1.259B** shares outstanding at April 30, 2026, the market cap implies a stock price of roughly **$164/share**; `prices.json` records the dated anchor as **$164.10** on **2026-06-29**.
+Using the July 30, 2026 market cap of about **$215.3B** and Q1 2026 cash/securities of about **$12.35B**, enterprise value is about **$203B**. With **1.259B** shares outstanding at April 30, 2026, the market cap implies a stock price of roughly **$171/share**; `prices.json` records the current anchor as **$171.02** on **2026-07-30**.
 
 | Metric | Approximate value | Comment |
 |----|----|----|
-| Market cap | $206.62B | CompaniesMarketCap/Nasdaq EOD, June 29, 2026 |
+| Market cap | ~$215.3B | July 30, 2026 close x 1.259B shares |
 | Cash + marketable securities | $12.35B | March 31, 2026 |
-| Enterprise value | $194B | No meaningful financial debt line |
+| Enterprise value | $203B | No meaningful financial debt line |
 | TTM revenue | $9.71B | FY2025 revenue - Q1 2025 + Q1 2026 |
 | EV / TTM revenue | ~20x | Demands sustained growth |
 | TTM GAAP net income | $3.72B | FY2025 net income - Q1 2025 + Q1 2026 |
-| Market cap / TTM GAAP net income | ~56x | High expectations |
+| Market cap / TTM GAAP net income | ~58x | High expectations |
 | Current non-GAAP EPS run-rate | ~$3.5 | Q1/Q2 around $0.87-0.88 per quarter |
-| Price / current non-GAAP run-rate EPS | ~47x | Quality priced in |
+| Price / current non-GAAP run-rate EPS | ~49x | Quality priced in |
 
 **Scenario grid:**
 
-| Scenario | Driver assumptions (growth / margin / multiple regime) | Valuation implication vs the $164.10 dated price | Probability weight |
+| Scenario | Driver assumptions (growth / margin / multiple regime) | Valuation implication vs the $171.02 current price | Probability weight |
 |----------|---------------------------------------------------------|--------------------------------------------------|--------------------|
 | Bull | Open Ethernet wins durable AI back-end share; Cloud and AI Titans / AI Specialty demand keeps product revenue compounding in the high-20s to low-30s; non-GAAP operating margin holds in the mid-to-high 40s; deferred revenue/RPO continues to convert without concentration shocks; the market keeps paying a premium systems-software multiple | The current price can still be fair-to-slightly cheap if ANET proves it is a multi-year AI fabric compounder rather than a normal networking cycle | 30% |
 | Base | AI networking demand remains strong but Q2-like growth steps down from Q1; open Ethernet and NVIDIA integrated networking both grow; top-customer concentration stays high; non-GAAP operating margin remains around the mid-40s; EV/TTM revenue drifts from ~20x toward a mid-teens premium as growth normalizes | The current price is broadly fair: quality is real, but most of the base case is already capitalized | 50% |
 | Bear | NVIDIA's integrated stack takes more value, one top customer slows or shifts architecture, Broadcom silicon cadence or pricing hurts the roadmap, and AI-scale discounts pull non-GAAP operating margin below 40%; the multiple resets toward a normal high-quality networking frame | The current price would look rich because revenue growth and the premium multiple would compress together | 20% |
 
-**What's priced in & the expectation gap:** At **$164.10** and about **20x EV/TTM revenue**, the market is not pricing ANET as a cyclical switch vendor. If a mature premium networking/software multiple is closer to **10-12x revenue** and investors require roughly **8%** annual return, a three-year reverse-multiple frame implies revenue needs to compound roughly `((20 / 12)^(1/3) x 1.08 - 1) ≈ 28%` to `((20 / 10)^(1/3) x 1.08 - 1) ≈ 36%` while margins stay exceptional. Our base case is near the low end of that implied range, not clearly above it: still strong growth and elite margins, but with concentration and architecture risk. The expectation gap is therefore balanced, not positive.
+**What's priced in & the expectation gap (re-derived 2026-07-31 at the 2026-07-30 close):** At **$171.02** and about **21x EV/TTM revenue**, the market is not pricing ANET as a cyclical switch vendor. If a mature premium networking/software multiple is closer to **10-12x revenue** and investors require roughly **8%** annual return, a three-year reverse-multiple frame implies revenue needs to compound roughly `((20 / 12)^(1/3) x 1.08 - 1) ≈ 28%` to `((20 / 10)^(1/3) x 1.08 - 1) ≈ 36%` while margins stay exceptional. Our base case is near the low end of that implied range, not clearly above it: still strong growth and elite margins, but with concentration and architecture risk. The expectation gap is therefore balanced, not positive.
 
 That valuation can be justified only if several things remain true at once: AI cluster networking demand remains strong, Ethernet wins meaningful share, Arista keeps hyperscaler trust, Broadcom merchant silicon remains available and competitive, and margins do not compress sharply as AI customers scale.
 
@@ -213,7 +215,7 @@ That valuation can be justified only if several things remain true at once: AI c
 
 ANET's chain-validation job is to tell us whether the networking layer is becoming an open Ethernet systems/software opportunity or a vertically integrated accelerator-stack opportunity. If Arista keeps expanding deferred revenue/RPO, sustaining 40%+ operating margins, and showing large AI customers choosing Ethernet fabrics, the open-Ethernet and Broadcom-merchant-silicon side of the book gets stronger. If those indicators weaken, the AI networking profit pool may be migrating toward NVIDIA's integrated stack.
 
-The expectation gap is balanced: at $164.10 and about 20x EV/TTM revenue, the market is underwriting roughly high-20s to mid-30s revenue CAGR for several years with elite margins; our base case is close to the low end of that range, not clearly above it.
+The expectation gap is balanced with a slightly heavier bar than before: at the $171.02 close on Jul 30, 2026 and about 21x EV/TTM revenue, the market is underwriting roughly 30% to 38% revenue CAGR for several years with elite margins; our base case now sits a little below the low end of that range rather than merely close to it.
 
 The current stance is **neutral watch, medium conviction**. The 30% bull / 50% base / 20% bear grid says ANET is an exceptional business, but the base case is already mostly capitalized at the dated price. Medium conviction reflects unusually clean reported margins, cash, and customer relevance, offset by the unresolved open-Ethernet vs integrated-stack architecture debate.
 

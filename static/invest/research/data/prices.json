@@ -18,11 +18,11 @@
       "symbol": "ASML",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-02",
-      "basePrice": 1767.0347,
+      "baseDate": "2026-07-30",
+      "basePrice": 1651.4399,
       "lastDate": "2026-07-30",
       "lastClose": 1651.4399,
-      "changePct": -6.5,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
@@ -66,11 +66,11 @@
       "symbol": "SNPS",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-02",
-      "basePrice": 437.16,
+      "baseDate": "2026-07-30",
+      "basePrice": 372.33,
       "lastDate": "2026-07-30",
       "lastClose": 372.33,
-      "changePct": -14.8,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
@@ -78,11 +78,11 @@
       "symbol": "CDNS",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-02",
-      "basePrice": 373.14,
+      "baseDate": "2026-07-30",
+      "basePrice": 332.82,
       "lastDate": "2026-07-30",
       "lastClose": 332.82,
-      "changePct": -10.8,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
@@ -90,11 +90,11 @@
       "symbol": "NRG",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-02",
-      "basePrice": 136.7,
+      "baseDate": "2026-07-30",
+      "basePrice": 133.97,
       "lastDate": "2026-07-30",
       "lastClose": 133.97,
-      "changePct": -2.0,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
@@ -102,11 +102,11 @@
       "symbol": "EQIX",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-02",
-      "basePrice": 1002.02,
+      "baseDate": "2026-07-30",
+      "basePrice": 1047.53,
       "lastDate": "2026-07-30",
       "lastClose": 1047.53,
-      "changePct": 4.5,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
@@ -126,11 +126,11 @@
       "symbol": "ANET",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-06-29",
-      "basePrice": 164.1,
+      "baseDate": "2026-07-30",
+      "basePrice": 171.02,
       "lastDate": "2026-07-30",
       "lastClose": 171.02,
-      "changePct": 4.2,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
@@ -174,11 +174,11 @@
       "symbol": "NVDA",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-06-26",
-      "basePrice": 192.53,
+      "baseDate": "2026-07-30",
+      "basePrice": 195.04,
       "lastDate": "2026-07-30",
       "lastClose": 195.04,
-      "changePct": 1.3,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
@@ -198,11 +198,11 @@
       "symbol": "GEV",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-06-26",
-      "basePrice": 1045.17,
+      "baseDate": "2026-07-30",
+      "basePrice": 981.98,
       "lastDate": "2026-07-30",
       "lastClose": 981.98,
-      "changePct": -6.0,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
@@ -282,11 +282,11 @@
       "symbol": "COPX",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-06",
-      "basePrice": 78.48,
+      "baseDate": "2026-07-30",
+      "basePrice": 79.5,
       "lastDate": "2026-07-30",
       "lastClose": 79.5,
-      "changePct": 1.3,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
@@ -294,11 +294,11 @@
       "symbol": "AMD",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-06-18",
-      "basePrice": 537.37,
+      "baseDate": "2026-07-30",
+      "basePrice": 485.39,
       "lastDate": "2026-07-30",
       "lastClose": 485.39,
-      "changePct": -9.7,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
@@ -306,11 +306,11 @@
       "symbol": "688676.SS",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-07",
-      "basePrice": 82.22,
+      "baseDate": "2026-07-31",
+      "basePrice": 64.3,
       "lastDate": "2026-07-31",
       "lastClose": 64.3,
-      "changePct": -21.8,
+      "changePct": 0.0,
       "currency": "CNY"
     },
     {
@@ -330,11 +330,11 @@
       "symbol": "AVGO",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-06-25",
-      "basePrice": 378.91,
+      "baseDate": "2026-07-30",
+      "basePrice": 387.84,
       "lastDate": "2026-07-30",
       "lastClose": 387.84,
-      "changePct": 2.4,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
@@ -342,11 +342,11 @@
       "symbol": "TSM",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-02",
-      "basePrice": 434.16,
+      "baseDate": "2026-07-30",
+      "basePrice": 403.31,
       "lastDate": "2026-07-30",
       "lastClose": 403.31,
-      "changePct": -7.1,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
@@ -366,11 +366,11 @@
       "symbol": "CEG",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-02",
-      "basePrice": 239.25,
+      "baseDate": "2026-07-30",
+      "basePrice": 263.56,
       "lastDate": "2026-07-30",
       "lastClose": 263.56,
-      "changePct": 10.2,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
@@ -378,11 +378,11 @@
       "symbol": "VST",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-02",
-      "basePrice": 151.05,
+      "baseDate": "2026-07-30",
+      "basePrice": 148.62,
       "lastDate": "2026-07-30",
       "lastClose": 148.62,
-      "changePct": -1.6,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
@@ -414,11 +414,11 @@
       "symbol": "META",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-06",
-      "basePrice": 600.29,
+      "baseDate": "2026-07-30",
+      "basePrice": 539.03,
       "lastDate": "2026-07-30",
       "lastClose": 539.03,
-      "changePct": -10.2,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
@@ -426,11 +426,11 @@
       "symbol": "ORCL",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-06",
-      "basePrice": 143.2616,
+      "baseDate": "2026-07-30",
+      "basePrice": 127.56,
       "lastDate": "2026-07-30",
       "lastClose": 127.56,
-      "changePct": -11.0,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
@@ -462,11 +462,11 @@
       "symbol": "DLR",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-02",
-      "basePrice": 173.3,
+      "baseDate": "2026-07-30",
+      "basePrice": 193.19,
       "lastDate": "2026-07-30",
       "lastClose": 193.19,
-      "changePct": 11.5,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
@@ -474,11 +474,11 @@
       "symbol": "0100.HK",
       "status": "ok",
       "attemptedAt": "2026-07-31",
-      "baseDate": "2026-07-15",
-      "basePrice": 260.6,
+      "baseDate": "2026-07-31",
+      "basePrice": 230.6,
       "lastDate": "2026-07-31",
       "lastClose": 230.6,
-      "changePct": -11.5,
+      "changePct": 0.0,
       "currency": "HKD"
     },
     {
