@@ -5410,8 +5410,8 @@
           "en": "monthly DRAM / NAND prices weaken for several months, or keep rising and confirm supply shortage"
         },
         "latest": {
-          "zh": "6 月 DRAM 约 +3%、NAND 约 +2.4%",
-          "en": "June DRAM up about 3% and NAND up about 2.4%"
+          "zh": "6 月 DRAM 约 +3%、NAND 约 +2.4%；2026-07-30 Amazon Q2 电话会将 2026 年现金资本开支指引由约 $200B 上调至约 $220B，约 $20B 的上调额归因于内存价格上涨而非新增产能（电话会报道口径，财报稿未发布该数字）——买方侧的定价确认",
+          "en": "June DRAM up about 3% and NAND up about 2.4%; on the 2026-07-30 Q2 call Amazon raised its 2026 cash-capex guide to about $220B from about $200B and attributed the roughly $20B raise to higher memory prices rather than added capacity (earnings-call coverage; the release publishes neither figure) — buyer-side confirmation of the pricing environment"
         },
         "nextCheck": "月度合约价 / monthly contract pricing"
       },

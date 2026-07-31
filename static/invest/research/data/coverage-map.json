@@ -284,8 +284,8 @@
         "en": "If orders or backlog at Vertiv, GE Vernova, or Bloom begin to cool"
       },
       "then": {
-        "zh": "则 AI 数据中心建设速度可能低于芯片端叙事，需要下调交付节奏。",
-        "en": "then AI data-center buildout speed may lag the chip-side narrative, and delivery cadence should be marked down."
+        "zh": "则 AI 数据中心建设速度可能低于芯片端叙事，需要下调交付节奏。反向推断要同样谨慎：超大规模厂商 capex 金额上升本身并不构成订单量信号 —— capex 金额可能由投入品价格推高（2026 年的例子是内存）而非由台数推高，因此在据此推断供应商订单前，需先剔除投入品价格上涨的影响。",
+        "en": "then AI data-center buildout speed may lag the chip-side narrative, and delivery cadence should be marked down. Read the reverse inference with the same caution: a rising hyperscaler capex figure is not by itself an order-volume signal, because capex dollars can rise on input prices — memory in the 2026 case — rather than on units, so deflate the dollar guide for input-price inflation before inferring supplier orders."
       }
     },
     {
