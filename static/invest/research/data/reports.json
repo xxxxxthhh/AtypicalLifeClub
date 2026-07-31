@@ -244,12 +244,12 @@
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "如果 FY2026 Q3 收入达到或高于 $8.95B 中点、Semiconductor Systems operating margin 维持 35% 以上，foundry/logic 与 DRAM mix 同时强劲，且中国/台湾暴露没有受到出口管制或客户节奏冲击，同时 EV/sales 倍数没有进一步扩张，则上调至 neutral-watch 或 constructive。",
-        "en": "move to neutral-watch or constructive if FY2026 Q3 revenue reaches or exceeds the $8.95B midpoint, Semiconductor Systems operating margin stays above 35%, foundry/logic and DRAM mix remain strong together, and China/Taiwan exposure is not hit by export controls or customer timing while the EV/sales multiple does not expand further."
+        "zh": "如果 FY2026 Q3 收入达到或高于 $8.95B 中点、Semiconductor Systems operating margin 维持 35% 以上，foundry/logic 与 DRAM mix 同时强劲，且中国/台湾暴露没有受到出口管制或客户节奏冲击，同时 EV/sales 倍数没有进一步扩张，则上调至 constructive。",
+        "en": "move to constructive if FY2026 Q3 revenue reaches or exceeds the $8.95B midpoint, Semiconductor Systems operating margin stays above 35%, foundry/logic and DRAM mix remain strong together, and China/Taiwan exposure is not hit by export controls or customer timing while the EV/sales multiple does not expand further."
       },
       "downgrade": {
-        "zh": "如果 Q3 收入低于中点、Semiconductor Systems 增长或 operating margin 走弱、中国/台湾收入受到出口管制或客户节奏冲击，或库存与供应链扩建转化为去库存压力，则下调至 bearish-avoid。",
-        "en": "move to bearish-avoid if Q3 revenue misses the midpoint, Semiconductor Systems growth or operating margin weakens, China/Taiwan revenue is hit by export controls or customer timing, or the inventory and supply-chain build turns into destocking pressure."
+        "zh": "如果 Q3 收入低于中点、Semiconductor Systems 增长或 operating margin 走弱、中国/台湾收入受到出口管制或客户节奏冲击，或库存与供应链扩建转化为去库存压力，则下调至 cautious。",
+        "en": "move to cautious if Q3 revenue misses the midpoint, Semiconductor Systems growth or operating margin weakens, China/Taiwan revenue is hit by export controls or customer timing, or the inventory and supply-chain build turns into destocking pressure."
       }
     },
     "stanceHistory": [
@@ -617,12 +617,12 @@
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "如果 process-control revenue 持续增长，foundry/logic、memory、advanced packaging 和 services 的 AI 增长向量仍然广泛，LTM FCF yield 在没有周期转弱信号的情况下改善，且 EV/sales 框架通过基本面而不是股价下跌收缩，则上调至 neutral-watch。",
-        "en": "move to neutral-watch if process-control revenue keeps growing, AI growth vectors across foundry/logic, memory, advanced packaging, and services remain broad, LTM FCF yield improves without a weaker cycle signal, and the EV/sales frame contracts without price-driven downside."
+        "zh": "如果 process-control revenue 持续增长，foundry/logic、memory、advanced packaging 和 services 的 AI 增长向量仍然广泛，LTM FCF yield 在没有周期转弱信号的情况下改善，且 EV/sales 框架通过基本面而不是股价下跌收缩，则上调至 constructive。",
+        "en": "move to constructive if process-control revenue keeps growing, AI growth vectors across foundry/logic, memory, advanced packaging, and services remain broad, LTM FCF yield improves without a weaker cycle signal, and the EV/sales frame contracts without price-driven downside."
       },
       "downgrade": {
-        "zh": "如果 WFE 或 process-control demand 降温、Specialty Semiconductor Process 或 PCB / Component Inspection 开始拖累核心增长、FCF 不再支撑 buyback/dividend，或估值仍高于 20x annualized revenue 而指引转弱，则下调至 bearish-avoid。",
-        "en": "move to bearish-avoid if WFE or process-control demand cools, Specialty Semiconductor Process or PCB / Component Inspection starts dragging core growth, FCF no longer supports buybacks/dividends, or valuation remains above 20x annualized revenue while guidance weakens."
+        "zh": "如果 WFE 或 process-control demand 降温、Specialty Semiconductor Process 或 PCB / Component Inspection 开始拖累核心增长、FCF 不再支撑 buyback/dividend，或估值仍高于 20x annualized revenue 而指引转弱，则下调至 cautious。",
+        "en": "move to cautious if WFE or process-control demand cools, Specialty Semiconductor Process or PCB / Component Inspection starts dragging core growth, FCF no longer supports buybacks/dividends, or valuation remains above 20x annualized revenue while guidance weakens."
       }
     },
     "stanceHistory": [
@@ -1979,12 +1979,12 @@
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "如果 Q2/Q3 orders/book-to-bill 维持 >1.5x、backlog 继续增长、液冷/电力设备份额提升且调整后营业利润率高于 23% 指引轨迹，同时前瞻倍数没有继续扩张，则上调至 neutral-watch 或 constructive。",
-        "en": "Move to neutral-watch or constructive if Q2/Q3 orders/book-to-bill stays above 1.5x, backlog keeps growing, liquid-cooling/power-equipment share improves, and adjusted operating margin runs above the 23% guide path without further forward-multiple expansion."
+        "zh": "如果 Q2/Q3 orders/book-to-bill 维持 >1.5x、backlog 继续增长、液冷/电力设备份额提升且调整后营业利润率高于 23% 指引轨迹，同时前瞻倍数没有继续扩张，则上调至 constructive。",
+        "en": "Move to constructive if Q2/Q3 orders/book-to-bill stays above 1.5x, backlog keeps growing, liquid-cooling/power-equipment share improves, and adjusted operating margin runs above the 23% guide path without further forward-multiple expansion."
       },
       "downgrade": {
-        "zh": "如果 orders/book-to-bill 接近或低于 1x、backlog 开始回落、液冷竞争压低毛利/增量利润率，或 hyperscaler capex 指引进入消化期，则下调至 bearish-avoid。",
-        "en": "Move to bearish-avoid if orders/book-to-bill approaches or falls below 1x, backlog starts rolling over, liquid-cooling competition compresses gross or incremental margin, or hyperscaler capex guidance enters a digestion phase."
+        "zh": "如果 orders/book-to-bill 接近或低于 1x、backlog 开始回落、液冷竞争压低毛利/增量利润率，或 hyperscaler capex 指引进入消化期，则下调至 cautious。",
+        "en": "Move to cautious if orders/book-to-bill approaches or falls below 1x, backlog starts rolling over, liquid-cooling competition compresses gross or incremental margin, or hyperscaler capex guidance enters a digestion phase."
       }
     },
     "stanceHistory": [
@@ -2739,7 +2739,7 @@
       "股价 $1,279.96（2026-07-30 收盘），较 07-29 低点反弹 +26.0%、较 6 月 26 日锚点仍 -38.8%，市值约 $1,894 亿",
       "FY2026E P/S 约 9.8 倍；按 Q4 年化 EPS $120-132 计前瞻 P/E 约 9.7-10.7 倍",
       "反号状态在反弹后依然成立：12-15x 框架隐含可持续 EPS 约 $85-107，仍低于顶峰年化指引",
-      "市场仍在定价一个低于顶峰约 12-35% 的谷底——旧的\"高于顶峰\"负预期差不复存在",
+      "市场仍在定价一个低于顶峰约 19-29% 的谷底——旧的\"高于顶峰\"负预期差不复存在",
       "所有者 Q1 裁定已适用：立场调整为观望中性/中确信；NBM 覆盖与毛利率持久性待 2026-08-05 业绩验证"
     ],
     "summaryEn": "July 31, 2026 stance re-adjudication: SNDK closed at $1,279.96 on 2026-07-30, +26.0% off the 07-29 low and still -38.8% from the June 26 anchor, for roughly $189.4B market cap and FY2026E P/S of ~9.8x. On the same 12-15x through-cycle frame the price implies about $85-107 of sustainable EPS, still below the $120-132 peak annualized guide — the inversion held through the bounce. Under the owner's Q1 ruling the stance moves from cautious to neutral-watch (medium conviction): the old negative gap no longer exists, while unproven NBM trough coverage keeps it from constructive; grid weights (20/40/40) retained pending the 2026-08-05 print.",
@@ -2834,12 +2834,12 @@
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "若 FY2026 Q4 兑现 $77.5-82.5 亿收入与 79-81% 毛利率指引、NBM 合同披露确认约 $420 亿最低收入且覆盖 FY2027 过半 bit，同时 NAND 合约价和行业 capex 仍显示供给纪律，则上调至 neutral-watch 或 constructive。",
-        "en": "move to neutral-watch or constructive if FY2026 Q4 delivers the $7.75-8.25B revenue and 79-81% gross-margin guide, NBM filings confirm roughly $42B of minimum revenue with coverage moving toward more than half of FY2027 bits, and NAND contract prices plus industry capex still show supply discipline."
+        "zh": "若 FY2026 Q4 兑现 $77.5-82.5 亿收入与 79-81% 毛利率指引、NBM 合同披露确认约 $420 亿最低收入且覆盖 FY2027 过半 bit，同时 NAND 合约价和行业 capex 仍显示供给纪律，则上调至 constructive。",
+        "en": "move to constructive if FY2026 Q4 delivers the $7.75-8.25B revenue and 79-81% gross-margin guide, NBM filings confirm roughly $42B of minimum revenue with coverage moving toward more than half of FY2027 bits, and NAND contract prices plus industry capex still show supply discipline."
       },
       "downgrade": {
-        "zh": "若 NAND 合约价连续转弱、毛利率从 78-80% 峰值明显回落、NBM 覆盖或担保条款低于管理层口径，或 SanDisk/铠侠新增产能指向 2027 供给过剩，则下调至 bearish-avoid。",
-        "en": "move to bearish-avoid if NAND contract prices weaken for consecutive periods, gross margin falls materially from the 78-80% peak, NBM coverage or guarantees fall short of management's framing, or SanDisk/Kioxia capacity additions point to 2027 oversupply."
+        "zh": "若 NAND 合约价连续转弱、毛利率从 78-80% 峰值明显回落、NBM 覆盖或担保条款低于管理层口径，或 SanDisk/铠侠新增产能指向 2027 供给过剩，则下调至 cautious。",
+        "en": "move to cautious if NAND contract prices weaken for consecutive periods, gross margin falls materially from the 78-80% peak, NBM coverage or guarantees fall short of management's framing, or SanDisk/Kioxia capacity additions point to 2027 oversupply."
       }
     },
     "stanceHistory": [
@@ -3086,12 +3086,12 @@
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "若 Q2/H2 财报显示 HBM ASP 与出货继续上行、营业利润率仍接近 70%、Samsung/Micron HBM4 认证未追近，且股价不再扩张到更高 P/S，则上调至 neutral-watch 或 constructive。",
-        "en": "move to neutral-watch or constructive if Q2/H2 results show HBM ASPs and shipments still rising, operating margin stays near 70%, Samsung/Micron HBM4 qualification does not close the gap, and the stock does not expand to a higher P/S multiple."
+        "zh": "若 Q2/H2 财报显示 HBM ASP 与出货继续上行、营业利润率仍接近 70%、Samsung/Micron HBM4 认证未追近，且股价不再扩张到更高 P/S，则上调至 constructive。",
+        "en": "move to constructive if Q2/H2 results show HBM ASPs and shipments still rising, operating margin stays near 70%, Samsung/Micron HBM4 qualification does not close the gap, and the stock does not expand to a higher P/S multiple."
       },
       "downgrade": {
-        "zh": "若营业利润率明显从 72% 回落、HBM4 份额或 NVIDIA 主供地位被 Samsung/Micron 侵蚀，或 ASP/订单开始显示 2027 供给追上需求，则下调至 bearish-avoid。",
-        "en": "move to bearish-avoid if operating margin falls materially from 72%, HBM4 share or NVIDIA primary-supplier status is eroded by Samsung/Micron, or ASP/order data starts to show 2027 supply catching demand."
+        "zh": "若营业利润率明显从 72% 回落，或 ASP/订单开始显示 2027 供给追上需求，则下调至 cautious；若 HBM4 份额或 NVIDIA 主供地位被 Samsung/Micron 侵蚀，则下调至 bearish-avoid。",
+        "en": "move to cautious if operating margin falls materially from 72% or ASP/order data starts to show 2027 supply catching demand; move to bearish-avoid if HBM4 share or NVIDIA primary-supplier status is eroded by Samsung/Micron."
       }
     },
     "stanceHistory": [
@@ -3635,8 +3635,8 @@
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "若 H2 2026 交付量验证 2 GW 扩产节奏、产品毛利率稳定在 32%+、服务成本没有吞噬装机利润，且 AI/数据中心客户继续扩散而不是更集中，则上调至 neutral-watch 或 constructive。",
-        "en": "Move to neutral-watch or constructive if H2 2026 deliveries validate the 2 GW capacity-ramp pace, product gross margin holds at 32%+, service cost does not consume installed-fleet economics, and AI / data-center customers broaden rather than concentrate further."
+        "zh": "若 H2 2026 交付量验证 2 GW 扩产节奏、产品毛利率稳定在 32%+、服务成本没有吞噬装机利润，且 AI/数据中心客户继续扩散而不是更集中，则上调至 constructive。",
+        "en": "Move to constructive if H2 2026 deliveries validate the 2 GW capacity-ramp pace, product gross margin holds at 32%+, service cost does not consume installed-fleet economics, and AI / data-center customers broaden rather than concentrate further."
       },
       "downgrade": {
         "zh": "若 AI 电力订单转化慢于积压叙事、产能爬坡带来库存或质量问题、毛利率/自由现金流不能随收入改善，或大客户/再融资风险上升，则下调至 bearish-avoid。",
@@ -6409,12 +6409,12 @@
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "若 NVIDIA 相关采购承诺转化为 backlog、收入和产能预付款，Datacenter & Communications 保持增长且不稀释毛利率，InP / 6-inch 产能按计划爬坡，并且 FCF 转正，则上调至 neutral-watch 或 constructive。",
-        "en": "move to neutral-watch or constructive if NVIDIA-linked purchase commitments convert into backlog, revenue, and capacity prepayments, Datacenter & Communications keeps growing without gross-margin dilution, InP / 6-inch capacity ramps on plan, and FCF turns positive."
+        "zh": "若 NVIDIA 相关采购承诺转化为 backlog、收入和产能预付款，Datacenter & Communications 保持增长且不稀释毛利率，InP / 6-inch 产能按计划爬坡，并且 FCF 转正，则上调至 constructive。",
+        "en": "move to constructive if NVIDIA-linked purchase commitments convert into backlog, revenue, and capacity prepayments, Datacenter & Communications keeps growing without gross-margin dilution, InP / 6-inch capacity ramps on plan, and FCF turns positive."
       },
       "downgrade": {
-        "zh": "若采购承诺转化慢于预期、Datacenter & Communications 增长放缓且毛利率或 FCF 恶化、InP / CPO/NPO 里程碑滑坡，或 AAOI/GLW/ANET 未能确认同一光需求信号，则下调至 bearish-avoid。",
-        "en": "move to bearish-avoid if purchase commitments convert slower than expected, Datacenter & Communications growth slows while gross margin or FCF deteriorates, InP / CPO/NPO milestones slip, or AAOI/GLW/ANET fail to confirm the same optical demand signal."
+        "zh": "若采购承诺转化慢于预期、Datacenter & Communications 增长放缓且毛利率或 FCF 恶化、InP / CPO/NPO 里程碑滑坡，或 AAOI/GLW/ANET 未能确认同一光需求信号，则下调至 cautious。",
+        "en": "move to cautious if purchase commitments convert slower than expected, Datacenter & Communications growth slows while gross margin or FCF deteriorates, InP / CPO/NPO milestones slip, or AAOI/GLW/ANET fail to confirm the same optical demand signal."
       }
     },
     "stanceHistory": [

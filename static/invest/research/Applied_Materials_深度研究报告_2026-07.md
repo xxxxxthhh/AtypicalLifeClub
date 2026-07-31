@@ -166,7 +166,7 @@ Applied Materials 的链条验证工作不变：它检验 AI capex 是否从 EUV
 
 ~~当前 stance 是 **谨慎，中确信**。~~ **2026-07-31 重新裁定：当前 stance 为 观望中性，中确信**——在 $501.77 收盘价下，上文的轻度负预期差已不成立，见页首注。旧的谨慎判断反映情景偏斜，不是商业质量差：AMAT 的广度有价值，但 base case 已经需要强劲 Q3 兑现、foundry/logic 和 DRAM mix 健康，且没有中国/台湾冲击。中确信来自扎实的 Q2 证据和明确 Q3 指引，同时 WFE denominator 仍然有周期性。
 
-升级触发条件：如果 FY2026 Q3 收入达到或高于 $8.95B 中点、Semiconductor Systems operating margin 维持 35% 以上，foundry/logic 与 DRAM mix 同时强劲，且中国/台湾暴露没有受到出口管制或客户节奏冲击，同时 EV/sales 倍数没有进一步扩张，则上调至 neutral-watch 或 constructive。降级触发条件：如果 Q3 收入低于中点、Semiconductor Systems 增长或 operating margin 走弱、中国/台湾收入受到出口管制或客户节奏冲击，或库存与供应链扩建转化为去库存压力，则下调至 bearish-avoid。
+升级触发条件：如果 FY2026 Q3 收入达到或高于 $8.95B 中点、Semiconductor Systems operating margin 维持 35% 以上，foundry/logic 与 DRAM mix 同时强劲，且中国/台湾暴露没有受到出口管制或客户节奏冲击，同时 EV/sales 倍数没有进一步扩张，则上调至 constructive。降级触发条件：如果 Q3 收入低于中点、Semiconductor Systems 增长或 operating margin 走弱、中国/台湾收入受到出口管制或客户节奏冲击，或库存与供应链扩建转化为去库存压力，则下调至 cautious。
 
 ## 附录：来源与假设
 

@@ -169,7 +169,7 @@ Coherent 的链条验证任务是检验 AI 集群扩张是否真正穿透到光�
 
 ~~当前 stance 是 **cautious，低确信**。~~ **2026-07-31 重新裁定：当前 stance 为 neutral-watch，低确信**——在 $249.06 收盘价下，隐含增长门槛（约 16-24%）已不高于既有需求证据，旧的负预期差不再成立，见页首注。旧理由：20% 牛市 / 50% 基准 / 30% 熊市情景表说明 optical 信号真实，但旧日期价格已经资本化了很多 supercycle。低确信反映 NVIDIA 采购证据确实存在，且一条强订单路径可能迅速拉平偏斜。
 
-上调触发器：若 NVIDIA 相关采购承诺转化为 backlog、收入和产能预付款，Datacenter & Communications 保持增长且不稀释毛利率，InP / 6-inch 产能按计划爬坡，并且 FCF 转正，则上调至 neutral-watch 或 constructive。下调触发器：若采购承诺转化慢于预期、Datacenter & Communications 增长放缓且毛利率或 FCF 恶化、InP / CPO/NPO 里程碑滑坡，或 AAOI/GLW/ANET 未能确认同一光需求信号，则下调至 bearish-avoid。
+上调触发器：若 NVIDIA 相关采购承诺转化为 backlog、收入和产能预付款，Datacenter & Communications 保持增长且不稀释毛利率，InP / 6-inch 产能按计划爬坡，并且 FCF 转正，则上调至 constructive。下调触发器：若采购承诺转化慢于预期、Datacenter & Communications 增长放缓且毛利率或 FCF 恶化、InP / CPO/NPO 里程碑滑坡，或 AAOI/GLW/ANET 未能确认同一光需求信号，则下调至 cautious。
 
 ## 附录：来源与假设
 
