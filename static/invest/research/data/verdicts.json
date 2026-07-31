@@ -563,6 +563,17 @@
       "bookRelativePct": -2.7,
       "daysHeld": 16,
       "stale": false
+    },
+    {
+      "reportId": "alab-2026",
+      "stance": "cautious",
+      "conviction": "medium",
+      "stanceDate": "2026-07-31",
+      "priceAtStance": 299.69,
+      "benchmarkSymbol": "SMH",
+      "status": "pending",
+      "daysHeld": 0,
+      "stale": false
     }
   ],
   "closed": [

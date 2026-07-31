@@ -480,6 +480,18 @@
       "lastClose": 230.6,
       "changePct": -11.5,
       "currency": "HKD"
+    },
+    {
+      "reportId": "alab-2026",
+      "symbol": "ALAB",
+      "status": "ok",
+      "attemptedAt": "2026-07-31",
+      "baseDate": "2026-07-30",
+      "basePrice": 299.69,
+      "lastDate": "2026-07-30",
+      "lastClose": 299.69,
+      "changePct": 0.0,
+      "currency": "USD"
     }
   ]
 }
