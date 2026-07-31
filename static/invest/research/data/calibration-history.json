@@ -2120,7 +2120,7 @@
           },
           "cautious": {
             "scoredCount": 4,
-            "medianRelativePct": -6.3
+            "medianRelativePct": -6.8
           },
           "bearish-avoid": {
             "scoredCount": 2,
@@ -2173,7 +2173,7 @@
           },
           "neutral-watch": {
             "scoredCount": 2,
-            "medianRelativePct": -4.8
+            "medianRelativePct": -5.9
           },
           "cautious": {
             "scoredCount": 7,

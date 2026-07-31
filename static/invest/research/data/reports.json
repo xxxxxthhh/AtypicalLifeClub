@@ -5704,6 +5704,171 @@
     ]
   },
   {
+    "id": "microsoft-2026",
+    "company": "Microsoft",
+    "ticker": "NASDAQ: MSFT",
+    "priceSymbol": "MSFT",
+    "title": "Microsoft 深度研究报告 - Azure AI 收入与 capex 吸收的需求锚",
+    "titleEn": "Microsoft Deep Research Report - Demand Anchor for Azure AI Revenue vs Capex Absorption",
+    "summary": "AI 基础设施书 demand-risk 层的需求锚初始覆盖：Microsoft 是全球最大 AI capex 买方，本书此前给 GPU/HBM/电力稀缺性打分却没有覆盖这些开支落地的资产负债表。FY2026 Q4（季度截至 2026-06-30，07-29 发布）：收入 $90.007B（+18%）、Azure 及其他云 +43% 加速、FY2026 Azure 收入首破 $100B（+41%）、商业 RPO $678B（+84%）、Q4 含融资租赁 capex $41B（+69%）、FY2026 经营现金流 $182.9B、现金 capex $115.9B、FCF 约 $67B——demand 层最强的 capex 吸收答卷。风险同样清晰：2026 年 1 月披露的 $625B RPO 中约 45% 系于 OpenAI；FY2027 Q1 capex 指引超 $50B；数据中心/办公楼寿命 15→25 年重分类把日历 2026 capex 框架由约 $190B 改列约 $175B。以 2026-07-30 收盘 $451.10 为锚（财报后单日 +15.5%），市值约 $3.35T、约 25.1x 追溯 GAAP EPS、约 10.1x FY2026 收入、约 49x EV/FY2026 FCF。30% 牛市 / 40% 基准 / 30% 熊市网格读出略偏负到中性的预期差，初始立场中性观察 / 中确信。",
+    "summaryEn": "Initial demand-anchor coverage for the AI-infrastructure book's demand-risk layer: Microsoft is the largest AI-capex buyer in the world, and until now the book scored GPU/HBM/power scarcity without covering the balance sheet that spending lands on. FY2026 Q4 (quarter ended 2026-06-30, reported 07-29): revenue $90.007B (+18%), Azure and other cloud +43% and accelerating, FY2026 Azure revenue above $100B for the first time (+41%), commercial RPO $678B (+84%), Q4 capex incl. finance leases $41B (+69%), FY2026 operating cash flow $182.9B against $115.9B cash capex leaving ~$67B FCF - the strongest capex-absorption print in the demand layer. The risks are equally clear: ~45% of the $625B RPO disclosed in January 2026 was tied to OpenAI; FY2027 Q1 capex is guided above $50B; and the 15-to-25-year useful-life reclassification moved the calendar-2026 capex frame from ~$190B to ~$175B. Anchored to the 2026-07-30 close of $451.10 (+15.5% on the post-earnings session), market cap is ~$3.35T at ~25.1x trailing GAAP EPS, ~10.1x FY2026 revenue, and ~49x EV/FY2026 FCF. The 30% bull / 40% base / 30% bear grid reads a slightly negative-to-neutral expectation gap; the initiation opens at neutral-watch / medium conviction.",
+    "tags": [
+      "AI基础设施",
+      "超大规模云",
+      "Azure",
+      "OpenAI"
+    ],
+    "category": "tech",
+    "date": "2026-07-31",
+    "lastUpdate": "2026-07-31",
+    "file": "/invest/research/reports/view.html?id=microsoft-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Microsoft_深度研究报告_2026-07.md",
+      "en": "/invest/research/Microsoft_Deep_Research_Report_2026-07.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "highlights": [
+      "demand-risk 层需求锚：全球最大 AI capex 买方首次入册；核心读数是 Azure AI 收入 vs capex 吸收",
+      "FY2026 Q4 收入 $90.007B（+18%）、Azure +43% 加速、FY2026 Azure 收入首破 $100B、商业 RPO $678B（+84%）",
+      "吸收已被证明：FY2026 经营现金流 $182.9B、现金 capex $115.9B、FCF 约 $67B、营业利润率 46.8% 扩张、净现金约 $36.5B",
+      "风险集中：1 月披露 $625B RPO 中约 45% 系于 OpenAI；FY2027 Q1 capex 指引超 $50B；寿命 15→25 年重分类美化后续折旧口径",
+      "股价 $451.10（2026-07-30 收盘、财报后单日 +15.5%）：约 25.1x 追溯 GAAP、约 49x EV/FY2026 FCF；30/40/30 网格，初始中性观察 / 中确信"
+    ],
+    "chainLayer": "demand-risk",
+    "coverageTier": "full",
+    "chainRole": "common-constraint",
+    "stance": "neutral-watch",
+    "conviction": "medium",
+    "priceAsOf": "2026-07-30",
+    "reportedPeriod": "FY2026 Q4",
+    "related": [
+      "meta-2026",
+      "oracle-2026",
+      "coreweave-2026",
+      "nebius-2026",
+      "nvidia-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "azure-growth-vs-capex",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "Azure 增速 vs capex 吸收",
+          "en": "Azure growth vs capex absorption"
+        },
+        "trigger": {
+          "zh": "Azure 固定汇率增速跌到 30% 中段以下而季度 capex 仍在增长，或 FY2027 Q1 未达约 45% cc 指引",
+          "en": "Azure constant-currency growth falls below the mid-30s while quarterly capex still grows, or FY2027 Q1 misses the ~45% cc guide"
+        },
+        "latest": {
+          "zh": "FY2026 Q4 Azure 及其他云 +43%（Q3 +40%）；FY2026 Azure 收入首破 $100B（+41%）；FY2027 Q1 指引约 45% cc",
+          "en": "FY2026 Q4 Azure and other cloud grew +43% (from +40% in Q3); FY2026 Azure revenue topped $100B (+41%); FY2027 Q1 guided to ~45% cc"
+        },
+        "nextCheck": "FY2027 Q1 财报（2026 年 10 月下旬）/ FY2027 Q1 earnings (late Oct 2026)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "openai-rpo-concentration",
+        "thesis": "bear",
+        "theme": "concentration",
+        "metric": {
+          "zh": "OpenAI 在商业 RPO 中的集中度",
+          "en": "OpenAI share of commercial RPO"
+        },
+        "trigger": {
+          "zh": "OpenAI 出现融资困难、重新谈判或减记事件，或集中度披露显示 OpenAI 占比再上升",
+          "en": "an OpenAI financing stress, renegotiation, or impairment event, or updated disclosure showing the OpenAI share rising further"
+        },
+        "latest": {
+          "zh": "商业 RPO $678B（+84%）；2026 年 1 月披露当时 $625B 中约 45% 与 OpenAI 相关；Q4 环比增长主要来自大型 AI 实验室之外的客户",
+          "en": "commercial RPO is $678B (+84%); ~45% of the $625B disclosed in January 2026 was OpenAI-linked; Q4 sequential growth came mainly from customers outside the large AI labs"
+        },
+        "nextCheck": "OpenAI 融资/合作事件与季度集中度披露 / OpenAI financing or partnership events and quarterly concentration disclosure"
+      },
+      {
+        "id": "fy2027-capex-slope",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "FY2027 capex 斜率",
+          "en": "FY2027 capex slope"
+        },
+        "trigger": {
+          "zh": "季度 capex 明显高于 $50B 运行率而 Azure/RPO 转化未同步，或日历 2026 约 $175B 框架再度上调",
+          "en": "quarterly capex runs materially above the $50B rate without matching Azure/RPO conversion, or the calendar-2026 ~$175B frame is raised again"
+        },
+        "latest": {
+          "zh": "Q4 含融资租赁 capex $41B（+69%）；FY2027 Q1 指引超 $50B、全年同比增长；日历 2026 框架经重分类约 $175B",
+          "en": "Q4 capex incl. finance leases was $41B (+69%); FY2027 Q1 guided above $50B with the full year growing; the calendar-2026 frame is ~$175B after reclassification"
+        },
+        "nextCheck": "FY2027 Q1 财报 capex 指引 / FY2027 Q1 earnings capex guide",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "fcf-trough",
+        "thesis": "bear",
+        "theme": "leverage-solvency",
+        "metric": {
+          "zh": "自由现金流低谷深度",
+          "en": "Free-cash-flow trough depth"
+        },
+        "trigger": {
+          "zh": "TTM FCF 跌破约 $50B 且没有声明的 capex 下调路径",
+          "en": "TTM FCF breaks below ~$50B with no stated capex downshift path"
+        },
+        "latest": {
+          "zh": "FY2026 FCF 约 $67.0B（OCF $182.935B − 现金 capex $115.9B）；仍低于 FY2024 约 $74B",
+          "en": "FY2026 FCF was ~$67.0B (OCF $182.935B minus cash capex $115.9B), still below the ~$74B of FY2024"
+        },
+        "nextCheck": "每季现金流量表 / quarterly cash-flow statements",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "depreciation-policy-tailwind",
+        "thesis": "bear",
+        "theme": "execution",
+        "metric": {
+          "zh": "折旧政策顺风的真实性",
+          "en": "Reality of the depreciation-policy tailwind"
+        },
+        "trigger": {
+          "zh": "FY2027 利润率扩张主要由寿命变更贡献而非真实吸收，或出现进一步美化口径的会计变更",
+          "en": "FY2027 margin expansion proves mainly attributable to the useful-life change rather than real absorption, or further optics-flattering accounting changes appear"
+        },
+        "latest": {
+          "zh": "数据中心与办公楼寿命自 FY2027 起 15→25 年、部分融资租赁转经营租赁；日历 2026 capex 框架由约 $190B 重分类为约 $175B，底层投资计划不变",
+          "en": "datacenter and office-building useful lives extend from 15 to 25 years effective FY2027 with some finance leases moving to operating leases; the calendar-2026 capex frame was reclassified from ~$190B to ~$175B with the underlying plan unchanged"
+        },
+        "nextCheck": "FY2027 10-K/10-Q 折旧披露 / FY2027 10-K and 10-Q depreciation disclosures"
+      }
+    ],
+    "stanceRationale": {
+      "zh": "以 $451.10（2026-07-30 收盘，财报后单日 +15.5%）计，市场重新拥抱了 6 月才抛弃的吸收论：约 26x 非 GAAP 追溯盈利与约 49x EV/FY2026 FCF 假设 Azure 40%+ 延续、OpenAI 不出事故、FCF 在建设正常化后修复。30% 牛市 / 40% 基准 / 30% 熊市网格认为经营证据是 demand 层最强的，但入场价已经把它的延续计入，预期差略偏负到中性。",
+      "en": "At $451.10 (2026-07-30 close, +15.5% on the post-earnings session), the market has re-embraced the absorption thesis it abandoned in June: ~26x non-GAAP trailing earnings and ~49x EV/FY2026 FCF assume Azure sustains 40%+, no OpenAI accident, and FCF repair once the build normalizes. The 30% bull / 40% base / 30% bear grid sees the operating evidence as the strongest in the demand layer, but the entry price already capitalizes its continuation, leaving a slightly negative-to-neutral expectation gap."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "Azure 在 FY2027 维持 ≥40% cc 增长且剔除会计顺风后营业利润率保持 ≥45%、TTM FCF 在约 $60B 以上见底回升、RPO 继续复合增长且 OpenAI 占比明显下降、FY2027 capex 路径按指引推进不再上调，则上调至 constructive。",
+        "en": "Azure sustains >=40% cc growth into FY2027 with operating margin holding >=45% excluding the accounting tailwind, TTM FCF troughs above ~$60B and turns up, RPO keeps compounding with the OpenAI share visibly declining, and the FY2027 capex path stays on guide without another step-up - upgrade to constructive."
+      },
+      "downgrade": {
+        "zh": "Azure cc 增速减到 30% 出头或更低而 capex 仍在增长、TTM FCF 跌破约 $50B 且没有声明的 capex 下调路径、OpenAI 信用 / 融资 / 重新谈判事件损害订单簿质量、或需要进一步会计变更来维持利润率观感，则下调至 cautious。",
+        "en": "Azure cc growth decelerates to the low-30s or below while capex still grows, TTM FCF breaks below ~$50B with no stated capex downshift, an OpenAI credit / financing / renegotiation event impairs order-book quality, or further accounting changes are needed to sustain margin optics - downgrade to cautious."
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-07-30",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 451.1
+      }
+    ]
+  },
+  {
     "id": "meta-2026",
     "company": "Meta Platforms",
     "ticker": "NASDAQ: META",

@@ -225,8 +225,8 @@
       "baseDate": "2026-07-29",
       "basePrice": 1401000.0,
       "lastDate": "2026-07-31",
-      "lastClose": 1705000.0,
-      "changePct": 21.7,
+      "lastClose": 1718000.0,
+      "changePct": 22.6,
       "currency": "KRW"
     },
     {
@@ -297,8 +297,8 @@
       "baseDate": "2026-07-07",
       "basePrice": 82.22,
       "lastDate": "2026-07-31",
-      "lastClose": 66.16,
-      "changePct": -19.5,
+      "lastClose": 64.3,
+      "changePct": -21.8,
       "currency": "CNY"
     },
     {
@@ -374,6 +374,18 @@
       "currency": "USD"
     },
     {
+      "reportId": "microsoft-2026",
+      "symbol": "MSFT",
+      "status": "ok",
+      "attemptedAt": "2026-07-31",
+      "baseDate": "2026-07-30",
+      "basePrice": 451.1,
+      "lastDate": "2026-07-30",
+      "lastClose": 451.1,
+      "changePct": 0.0,
+      "currency": "USD"
+    },
+    {
       "reportId": "meta-2026",
       "symbol": "META",
       "status": "ok",
@@ -441,8 +453,8 @@
       "baseDate": "2026-07-15",
       "basePrice": 260.6,
       "lastDate": "2026-07-31",
-      "lastClose": 230.6,
-      "changePct": -11.5,
+      "lastClose": 228.2,
+      "changePct": -12.4,
       "currency": "HKD"
     }
   ]
