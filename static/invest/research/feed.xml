@@ -6,6 +6,13 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>Reddit 深度研究报告 - 变现驱动增长与搜索流量依赖的压力测试 / Reddit Deep Research Report - Monetization-Driven Growth and the Search-Referral Dependency Stress Test</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=reddit-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=reddit-2026#reddit-2026@2026-08-01</guid>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <description>首次覆盖。Q2 2026 收入 $804.91M（同比 +61%）、净利 $252.85M、摊薄 EPS $1.25、调整后 EBITDA $343M（43% 利润率），全面超预期且 Q3 指引 $860-870M 同样高于预期，但财报后单日跌 21%（上市以来最大跌幅）。核心发现：增长引擎已从用户切换为变现——美国 DAU 环比 53.5M→53.2M 横盘略降，同期美国 ARPU 同比 +51%，本季美国收入增长几乎全部来自单用户变现。Google 数据授权协议（约 $60M/年）2027 上半年到期，同时绑定授权收入与搜索分发。以 2026-07-31 收盘 $140.67、市值约 $27.06B、EV 约 $24.30B 计，TTM P/E 32.8x、EV/Sales 8.7x、FY2026E 调整后 EV/EBITDA 约 16.8x。情景权重 30/50/20，立场为中性偏积极、低确信。</description>
+    </item>
+    <item>
       <title>Quanta Services 深度研究报告 - 建设与并网这一层是否卡住了 AI 数据中心通电 / Quanta Services Deep Research Report - Does the Build-and-Connect Layer Gate AI Data-Center Power?</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=quanta-services-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=quanta-services-2026#quanta-services-2026@2026-07-31</guid>
@@ -417,13 +424,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=almonty-2026-pre-rerun#almonty-2026-pre-rerun@2026-02-19</guid>
       <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
       <description>归档的2026H1重跑前版本，保留Sangdong、钨出口、Plansee/GTP和旧市值/收入倍数框架。</description>
-    </item>
-    <item>
-      <title>Hims &amp; Hers 深度研究报告 - DTC远程医疗领跑者的GLP-1监管风暴 - 重跑前归档版 / Hims &amp; Hers Deep Research Report - DTC Telehealth Leader's GLP-1 Regulatory Storm - Pre-rerun Archive</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=hims-2026-pre-rerun</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=hims-2026-pre-rerun#hims-2026-pre-rerun@2026-02-13</guid>
-      <pubDate>Fri, 13 Feb 2026 00:00:00 GMT</pubDate>
-      <description>归档的2026H1重跑前版本，保留2月GLP-1监管二元变量和旧收入/估值框架。</description>
     </item>
   </channel>
 </rss>
