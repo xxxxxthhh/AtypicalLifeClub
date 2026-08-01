@@ -1,5 +1,41 @@
 [
   {
+    "id": "reddit-2026",
+    "company": "Reddit",
+    "ticker": "NYSE: RDDT",
+    "title": "Reddit 深度研究报告 - 变现驱动增长与搜索流量依赖的压力测试",
+    "titleEn": "Reddit Deep Research Report - Monetization-Driven Growth and the Search-Referral Dependency Stress Test",
+    "summary": "首次覆盖。Q2 2026 收入 $804.91M（同比 +61%）、净利 $252.85M、摊薄 EPS $1.25、调整后 EBITDA $343M（43% 利润率），全面超预期且 Q3 指引 $860-870M 同样高于预期，但财报后单日跌 21%（上市以来最大跌幅）。核心发现：增长引擎已从用户切换为变现——美国 DAU 环比 53.5M→53.2M 横盘略降，同期美国 ARPU 同比 +51%，本季美国收入增长几乎全部来自单用户变现。Google 数据授权协议（约 $60M/年）2027 上半年到期，同时绑定授权收入与搜索分发。以 2026-07-31 收盘 $140.67、市值约 $27.06B、EV 约 $24.30B 计，TTM P/E 32.8x、EV/Sales 8.7x、FY2026E EV/EBITDA 约 16.8x。情景权重 30/50/20，立场为中性偏积极、低确信。",
+    "summaryEn": "Initial coverage. Q2 2026 revenue of $804.91M (+61% YoY), net income $252.85M, diluted EPS $1.25, and adjusted EBITDA of $343M (43% margin) all beat, and Q3 guidance of $860-870M also came in above consensus, yet the stock fell 21% on the print — its largest single-day decline since IPO. Core finding: the growth engine has switched from users to monetization — U.S. DAU went 53.5M to 53.2M sequentially (flat to slightly down) while U.S. ARPU rose 51% YoY, so essentially all U.S. revenue growth in the quarter came from per-user monetization. The Google data-licensing agreement (roughly $60M/year) expires in H1 2027 and bundles licensing revenue with search distribution. At the 2026-07-31 close of $140.67, market cap is about $27.06B and EV about $24.30B, for a 32.8x TTM P/E, 8.7x EV/Sales, and roughly 16.8x FY2026E EV/EBITDA. Scenario weights of 30/50/20 support a neutral-to-constructive stance at low conviction.",
+    "tags": [
+      "社交平台",
+      "数字广告",
+      "AI数据授权",
+      "搜索流量"
+    ],
+    "category": "tech",
+    "date": "2026-08-01",
+    "lastUpdate": "2026-08-01",
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026 Initial Coverage",
+    "isCurrent": true,
+    "moduleContract": "heading-comment-v1",
+    "file": "/invest/research/reports/view.html?id=reddit-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Reddit_深度研究报告_2026-08.md",
+      "en": "/invest/research/Reddit_Deep_Research_Report_2026-08.md"
+    },
+    "highlights": [
+      "Q2 2026：收入 $804.91M（+61%）、广告 $762M（+64%）、其他收入 $43M（+24%）；净利 $252.85M、EPS $1.25、调整后 EBITDA $343M（43%）",
+      "增长换轨：美国 DAU 环比 53.5M→53.2M，同期美国 ARPU $9.63→$11.85（同比 +51%）；按 DAUq×ARPU 还原的收入与公司报告值误差 <0.05%",
+      "市场数据（2026-07-31 收盘）：股价 $140.67（前收 $178.04，单日 -21.0%）、市值约 $27.06B、EV 约 $24.30B、净现金 $2.77B、52 周 $119.27-$282.95",
+      "估值：TTM P/E 32.8x、P/S 9.7x、EV/Sales 8.7x、EV/EBITDA 30.3x；FY2026E EV/EBITDA 约 16.8x；净利含利息收入与低税率加成，跨公司比较需校正",
+      "关键风险：Google 授权协议约 $60M/年、2027 上半年到期；公司自 Q3 2026 起停止披露登录/未登录用户拆分",
+      "资本配置：$10 亿回购授权，Q2 执行约 150 万股/约 $235M（均价 $157.57，高于现价约 12%），剩余约 $760M"
+    ]
+  },
+  {
     "id": "smh-2026",
     "company": "SMH (VanEck Semiconductor ETF)",
     "ticker": "NASDAQ: SMH",
