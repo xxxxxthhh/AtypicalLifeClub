@@ -36,8 +36,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 | P/S (TTM revenue $2,779M) | 9.7x |
 | EV/Sales (TTM) | 8.7x |
 | EV/EBITDA (TTM) | 30.3x |
-| Beta (5Y) | 1.94 |
-| Short interest as % of shares outstanding | 8.83% (16.99M shares) |
+| Beta (provider labels it 5Y; the company has traded only ~2.4 years, so it is computed on the available window) | 1.94 |
+| Short interest as % of shares outstanding | 8.83% (16.99M shares; roughly 12.2% of the 139.6M float) |
 | Q2 2026 revenue | $804.91M (+61% YoY) |
 | Q2 2026 net income | $252.85M (31.4% net margin) |
 | Q2 2026 diluted EPS | $1.25 (+178% YoY) |
@@ -310,13 +310,13 @@ Reddit uses a dual-class structure. Class A carries one vote per share; Class B 
 | Method | Value / range | Key assumptions | Confidence |
 |--------|---------------|-----------------|------------|
 | TTM P/E | 32.8x | TTM EPS $4.29; **includes interest income and low-tax-rate benefit — must be adjusted for cross-company comparison** | Medium |
-| Forward P/E (data-provider consensus) | 23.7x | Third-party consensus basis, not derived by this report | Medium |
+| Forward P/E (data-provider consensus) | 23.7x | Third-party basis implying EPS of roughly $5.94, most likely NTM (next twelve months) rather than FY2026; the gap versus the next row's derivation reflects differing bases and assumptions, not a contradiction | Medium |
 | Forward P/E (this report's derivation) | ~26.5x | FY2026E EPS of roughly $5.30. Derivation: H1 actual $2.26 + Q3 ~$1.41 (guided EBITDA midpoint $390M × Q2's actual 73.8% net-income conversion) + Q4 ~$1.63 (**this report's assumption**: Q4 adjusted EBITDA of roughly $450M) | Medium-low |
 | P/S (TTM) | 9.7x | TTM revenue $2,779M | High (no assumptions) |
 | EV/Sales (TTM) | 8.7x | Same | High (no assumptions) |
 | EV/Sales (FY2026E) | ~7.3x | FY2026E revenue of roughly $3,308M (H1 actual $1,468M + Q3 guidance midpoint $865M + **this report's assumption** of roughly $975M in Q4, implying +12.7% QoQ versus the +24.1% seasonal step in Q4 2025) | Medium |
-| EV/EBITDA (TTM) | 30.3x | — | High (no assumptions) |
-| EV/EBITDA (FY2026E) | ~16.8x | FY2026E adjusted EBITDA of roughly $1,449M (H1 actual $609M + Q3 guidance midpoint $390M + **this report's assumption** of roughly $450M in Q4) | Medium |
+| EV/EBITDA (TTM) | 30.3x | **Data-provider basis with a GAAP-EBITDA denominator (~$0.80B, roughly operating income of $785M plus D&A); the next row uses an adjusted-EBITDA denominator, so the two rows are not directly comparable** | High (no assumptions) |
+| EV/EBITDA (FY2026E, adjusted basis) | ~16.8x | FY2026E adjusted EBITDA of roughly $1,449M (H1 actual $609M + Q3 guidance midpoint $390M + **this report's assumption** of roughly $450M in Q4); the adjusted basis excludes SBC and similar items, so its denominator is inherently larger than the GAAP basis in the row above | Medium |
 | Net cash support | $14.37 per share | 10.2% of the current share price, providing a hard floor under valuation | High |
 | Sell-side target range (**market-sentiment reference only, not this report's conclusion**) | $170 / $200 / $200 / $221 | Cantor / Deutsche Bank / Oppenheimer / Wedbush, post-print reductions | — |
 
