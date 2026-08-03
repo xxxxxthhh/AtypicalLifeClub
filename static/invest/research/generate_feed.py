@@ -24,7 +24,9 @@ FEED_XML: Final = ROOT / "feed.xml"
 SITE_URL: Final = "https://atypicallife.club"
 CHANNEL_LINK: Final = f"{SITE_URL}/invest/research/"
 CHANNEL_TITLE: Final = "Atypical Life Club · 研究报告 / Research Reports"
-FEED_ITEM_LIMIT: Final = 60
+# Leave deliberate headroom above the current book so a routine initiation does
+# not silently evict a live report before maintainers can raise the cap.
+FEED_ITEM_LIMIT: Final = 80
 
 
 def fail(message: str) -> None:
@@ -88,14 +90,17 @@ def item_title(report: dict[str, Json]) -> str:
     return title
 
 
-def feed_rank(report: dict[str, Json]) -> tuple[str, str, str]:
+def feed_rank(report: dict[str, Json]) -> tuple[bool, str, str, str]:
     # A batch pass stamps the same lastUpdate on most of the book, so lastUpdate
     # alone leaves the cut decided by position in reports.json. Fall back to the
     # coverage date (newer coverage first) and finally the id, so membership is
     # derived from the content and a reordered array cannot change the feed.
+    # Archived versions always rank below the current company view. This keeps
+    # a batch-updated archive from displacing a live report at the feed cut.
     coverage_date = report.get("date")
     report_id = report.get("id")
     return (
+        report.get("isCurrent") is not False,
         update_day(report),
         coverage_date if isinstance(coverage_date, str) else "",
         report_id if isinstance(report_id, str) else "",

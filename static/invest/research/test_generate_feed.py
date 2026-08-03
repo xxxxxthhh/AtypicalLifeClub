@@ -71,6 +71,18 @@ class LiveDataTests(unittest.TestCase):
                 f"the feed cut dropped a live report: {report_id}",
             )
 
+    def test_every_live_report_ranks_above_every_archive(self):
+        reports = generate_feed.load_reports()
+        ranked = sorted(reports, key=generate_feed.feed_rank, reverse=True)
+        live_count = sum(1 for report in reports if report.get("isCurrent") is not False)
+
+        self.assertTrue(any(report.get("isCurrent") is False for report in reports))
+        self.assertTrue(all(report.get("isCurrent") is not False for report in ranked[:live_count]))
+        self.assertTrue(all(report.get("isCurrent") is False for report in ranked[live_count:]))
+
+    def test_committed_book_fits_under_the_cap(self):
+        self.assertLessEqual(len(generate_feed.load_reports()), generate_feed.FEED_ITEM_LIMIT)
+
 
 if __name__ == "__main__":
     unittest.main()
