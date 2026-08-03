@@ -1,7 +1,7 @@
 # Hims & Hers Health (NYSE: HIMS) Deep Research Report
 
 Coverage date: 2026-02-13
-Last updated: 2026-07-31
+Last updated: 2026-08-02
 Ticker: NYSE: HIMS
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -17,11 +17,13 @@ This report is the full rerun successor to `hims-2026-pre-rerun`; the archived b
 
 > **2026-07-31 valuation re-anchor.** HIMS closed at **$25.00** on **2026-07-29** (last completed US session), **−25.5%** from the old $33.54 anchor dated June 22, 2026. On ~251.5M shares that is a market cap of about **$6.29B**, against ~$7.77B before. Measured the same way this report measured, HIMS now trades at about **2.7x** the February FY2025E revenue baseline of ~$2.35B, versus the **~3.3x** stated below.
 >
-> The move crosses this coverage's 25% rerun threshold, but note it is **not** part of the July 2026 AI-infrastructure repricing — HIMS is a consumer-health name and the decline is idiosyncratic. This pass did not establish a cause, and no company disclosure was issued in the window; **Hims & Hers is scheduled to report Q2 2026 on 2026-08-10**, which is the next real evidence.
+> The move crosses this coverage's 25% rerun threshold, but note it is **not** part of the July 2026 AI-infrastructure repricing — HIMS is a consumer-health name and the decline is idiosyncratic. The FTC/state complaint and Hims & Hers response were both published on 2026-07-29, so the litigation is a plausible contributor to the same-day drawdown, but the available primary sources do not establish market causality. **Hims & Hers is scheduled to report Q2 2026 on 2026-08-10**, which is the next full operating re-anchor.
 >
 > At ~2.7x the revenue baseline the valuation is closer to the ~2.5x low end of the report's own "P/S ex-GLP-1 2.5-4x core revenue" band. Stance stays **neutral / watchlist**: the report's central question was never the multiple but revenue *quality* — the GLP-1 mix, subscriber durability and the regulatory overhang — and none of that was settled by a price decline. Raised under Q1 of the review questions doc.
 >
 > This report has no `priceSymbol`, so it carries no automatic price ledger or drift alert; the drawdown was only found because this pass checked it manually. See Q3 of the review questions doc.
+
+> **2026-08-02 litigation update.** On **2026-07-29**, the U.S. Federal Trade Commission, joined by Utah and Los Angeles County, filed a federal complaint against Hims & Hers in the U.S. District Court for the Northern District of California. The complaint alleges unlawful sharing of sensitive health information with advertising platforms, misleading privacy representations, deceptive subscription billing and an obstructive cancellation flow; it seeks injunctive and monetary relief and civil penalties. Hims & Hers responded the same day, denied the allegations, said the complaint disregards evidence supplied during a nearly three-year investigation, and said it would defend vigorously. This is a new compliance and brand-trust risk separate from the Novo Nordisk patent case and DOJ referral. It does **not** by itself change the neutral / watchlist stance or the dated 2026-07-29 valuation frame. Primary sources: FTC, [press release](https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-states-act-against-hims-hers-deceptive-unlawful-privacy-practices) and [case page](https://www.ftc.gov/legal-library/browse/cases-proceedings/hims-hers) (2026-07-29); Hims & Hers, [company response](https://investors.hims.com/news/news-details/2026/Hims--Hers-Responds-to-FTC-Lawsuit/default.aspx) (2026-07-29).
 
 **Changes vs the February report:**
 
@@ -30,7 +32,7 @@ This report is the full rerun successor to `hims-2026-pre-rerun`; the archived b
 | Market cap (old → now) | ~$4-5B (Feb trough, post-selloff) | ~$7.77B (recovered) |
 | Valuation anchor (old → now) | P/S ~2x amid a ~55.8% 3-month drawdown | ~3.3x FY2025E revenue ($2.35B); neutral/watchlist |
 | Thesis emphasis | GLP-1 regulatory binary (Novo suit + DOJ referral acute) | growth-quality audit: durability, compliance, cash conversion |
-| Litigation status | Novo suit filed Feb 9; DOJ referral Feb 6 | still pending/unresolved as of this rerun |
+| Litigation status | Novo suit filed Feb 9; DOJ referral Feb 6 | still unresolved; FTC + Utah/Los Angeles County complaint filed 2026-07-29 |
 | Unchanged | non-GLP-1 ~70% of revenue, >85% retention, $1.1B convertibles, intensifying competition | same |
 
 **Data framing:** The business and financial detail below carries the FY2025E / Q3 2025 fact base (and the February litigation events) established in the February research; the price and market-cap anchor is updated to June 22, 2026. FY2025 full-year and Q1 2026 results have since been reported and should be reconciled against this baseline at the next pass; figures dated FY2025E / Q3 2025 are not new H1 2026 actuals.
@@ -133,6 +135,7 @@ The February baseline used roughly $2.35B of FY2025E revenue and ~2.5M subscribe
 4. **Growth deceleration:** Q3 2025 sequential revenue growth was only ~2.2%, with subscriber growth flattening.
 5. **Convertible dilution:** sustained stock weakness could force large dilution on conversion of the $1.1B notes.
 6. **Competition:** Ro, LifeMD, and others keep closing the gap as traditional systems digitize.
+7. **FTC/state privacy and billing complaint (filed 2026-07-29):** allegations concerning health-data sharing, privacy representations, subscription billing and cancellation add a compliance and brand-trust risk beyond GLP-1. The company denies the allegations and is defending the case.
 
 **Downside scenario:** if the DOJ formally prosecutes and Novo wins an injunction, GLP-1 (~30% of revenue) goes to zero; combined with brand damage slowing non-GLP-1 growth to 15-20%, the stock could fall materially from current levels.
 

@@ -215,8 +215,8 @@
           "zh": "公司称 FY2026 指引区间已纳入出口管制讨论的潜在结果",
           "en": "FY2026 guidance range incorporates possible export-control discussion outcomes"
         },
-        "nextCheck": "export-control and geography disclosures",
-        "nextCheckDate": "2026-07"
+        "nextCheck": "Q3 2026 results and export-control developments (around Oct 2026)",
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "installed-base-services",
@@ -253,8 +253,8 @@
           "zh": "ADR $1,769.32、市值约 $681.9B，EV/2026E sales 约 15.6x",
           "en": "$1,769.32 ADR, about $681.9B market cap, about 15.6x EV/2026E sales"
         },
-        "nextCheck": "price, backlog and margin reset",
-        "nextCheckDate": "2026-07"
+        "nextCheck": "Q3 2026 price, backlog and margin reset",
+        "nextCheckDate": "2026-10"
       }
     ]
   },
@@ -1583,11 +1583,11 @@
           "en": "Hampton / AMER 3 and other xScale JVs add capacity without excessive VIE exposure"
         },
         "latest": {
-          "zh": "Q1 xScale JV equity investments $678M；Hampton campus $459M consideration 转入 AMER 3 JV",
-          "en": "Q1 xScale JV equity investments $678M; Hampton campus transferred to AMER 3 JV for $459M consideration"
+          "zh": "Q1 xScale JV equity investments $678M；Hampton campus $459M consideration 转入 AMER 3 JV；2026-07-29 Q2 财报未披露新的 xScale JV 股权投资或产能数据，本项读数维持 Q1 口径不变",
+          "en": "Q1 xScale JV equity investments $678M; Hampton campus transferred to AMER 3 JV for $459M consideration; the 2026-07-29 Q2 release did not disclose new xScale JV equity-investment or capacity figures, so this item's reading is still on a Q1 basis"
         },
-        "nextCheck": "xScale JV disclosures and capacity updates",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "2026-Q3 xScale JV disclosures and capacity updates",
+        "nextCheckDate": "2026-10"
       },
       {
         "id": "mrr-cabinet-yield",
@@ -1621,11 +1621,11 @@
           "en": "power, grid interconnects, supply chain or capex inflation delay capacity or compress returns"
         },
         "latest": {
-          "zh": "2026 non-recurring capex 指引约 $3.8B（不含 xScale/land），power 与 supply chain 为明确风险",
-          "en": "2026 non-recurring capex guidance about $3.8B excluding xScale/land; power and supply chain are explicit risks"
+          "zh": "2026-07-29 Q2 财报把 FY2026 总 capex 指引上调至 $5.0-6.0B，并将剔除 xScale 与房地产收购的非经常性 capex 指引重述为 $4.710-5.690B；power 与 supply chain 仍为明确风险",
+          "en": "The 2026-07-29 Q2 release raised FY2026 total capex guidance to $5.0-6.0B and restated non-recurring capex excluding xScale and real-estate acquisitions at $4.710-5.690B; power and supply chain remain explicit risks"
         },
-        "nextCheck": "capex, power and project timing updates",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "2026-Q3 capex, power and project timing updates",
+        "nextCheckDate": "2026-10"
       }
     ]
   },
@@ -1939,8 +1939,8 @@
           "en": "multiple compression if growth or margins miss"
         },
         "latest": {
-          "zh": "市值约 $206.6B（2026-06-29）；约 56x TTM GAAP P/E、约 47x 非 GAAP 运行率",
-          "en": "market cap ~$206.6B (2026-06-29); ~56x TTM GAAP P/E, ~47x non-GAAP run-rate"
+          "zh": "2026-07-31 估值重锚（非财报，仅价格）：2026-07-30 收盘 $171.02（较 2026-06-29 旧锚点 $164.10 涨约 4.2%）；市值约 $215.3B、EV 约 $203B，约 21x EV/TTM revenue、约 49x 非 GAAP 运行率 EPS、约 58x TTM GAAP 净利润。隐含三年营收 CAGR 要求升至约 30-38%（旧口径约 28-36%）。立场维持 neutral watch / 中确信；2026-08-04 的 Q2 财报是下一个真正的基本面检验点。",
+          "en": "2026-07-31 valuation re-anchor (price-only, not an earnings update): ANET closed at $171.02 on 2026-07-30 (about +4.2% from the old 2026-06-29 anchor of $164.10); market cap about $215.3B, EV about $203B, about 21x EV/TTM revenue, about 49x non-GAAP run-rate EPS, about 58x TTM GAAP net income. The implied three-year revenue CAGR requirement rises to about 30-38% (old caliber about 28-36%). Stance stays neutral watch / medium conviction; the 2026-08-04 Q2 print is the next real fundamentals test."
         },
         "nextCheck": "2026-Q2 财报 / Q2 earnings",
         "nextCheckDate": "2026-08"
@@ -2295,11 +2295,13 @@
           "en": "the ~48x forward (~80x trailing) multiple compresses on any guide miss"
         },
         "latest": {
-          "zh": "股价一年约 3 倍至 $306.97、市值约 $1,179 亿（2026-06-29 冻结快照）；FY2026 指引已于 Q2 2026 上调至净销售额 $138-142 亿、调整后 EPS $6.65-6.75（约 48x 前瞻倍数系基于快照日的 $6.30-6.40 口径）",
-          "en": "stock ~3x in a year to $306.97, ~$117.9B cap (frozen 2026-06-29 snapshot); the FY2026 guide was raised in Q2 2026 to $13.8-14.2B revenue and $6.65-6.75 adj EPS (the ~48x forward multiple is on the snapshot-date $6.30-6.40 basis)"
+          "zh": "2026-07-31 估值重锚：2026-07-30 收盘 $227.50（较旧 $306.97 锚点跌约 25.9%）；市值约 $87.4B、EV 约 $87.5B、P/S(TTM) 约 7.7x；对照上修后 FY2026 指引（调整后 EPS $6.65-6.75）前瞻倍数约 34x（旧口径约 48x）。立场由 cautious 上调为 neutral-watch / 中确信。",
+          "en": "2026-07-31 valuation re-anchor: VRT closed at $227.50 on 2026-07-30 (about -25.9% from the old $306.97 anchor); market cap about $87.4B, EV about $87.5B, P/S (TTM) about 7.7x; on the raised FY2026 guide (adjusted EPS $6.65-6.75) the forward multiple is about 34x (old caliber about 48x). Stance moved from cautious to neutral-watch / medium conviction."
         },
-        "nextCheck": "2026-Q2 财报 / Q2 earnings",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "2026-Q3 财报 backlog 与指引兑现 / Q3 earnings and guide delivery",
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-07-31"
       },
       {
         "id": "liquid-cooling-competition",
@@ -2838,8 +2840,8 @@
           "en": "the ~26.6x EV/TTM Sales compresses if the ramp misses"
         },
         "latest": {
-          "zh": "股价约 $171.23（2026-06-22 收盘）、市值约 $137 亿",
-          "en": "stock ~$171.23 (2026-06-22 close), ~$13.7B cap"
+          "zh": "2026-07-31 估值重锚（非财报，仅价格）：2026-07-30 收盘 $90.11（较 2026-06-22 旧锚点 $171.23 跌约 47.4%）；市值约 $7.23B、EV 约 $7.00B，EV/TTM Sales 约 13.8x（旧口径约 26.6x）、EV/年化 Q2 指引 sales 约 9.3x。立场维持 cautious / 中确信，理由从估值倍数转为客户集中度、经营现金流为负、ATM 增发与毛利率扩张尚未验证等独立执行风险；2026-08-06 的 Q2 财报是下一个检验点。",
+          "en": "2026-07-31 valuation re-anchor (price-only, not an earnings update): AAOI closed at $90.11 on 2026-07-30 (about -47.4% from the old 2026-06-22 anchor of $171.23); market cap about $7.23B, EV about $7.00B, EV/TTM Sales about 13.8x (old caliber about 26.6x), EV/annualized-Q2-guide sales about 9.3x. Stance stays cautious / medium conviction, now founded on independent execution risk (customer concentration, negative operating cash flow, ATM dilution, unproven gross-margin expansion) rather than the dissolved multiple claim; the 2026-08-06 Q2 print is the next test."
         },
         "nextCheck": "2026-Q2 财报 / Q2 earnings",
         "nextCheckDate": "2026-08"
@@ -3194,7 +3196,7 @@
     "ticker": "NASDAQ: TEM",
     "title": "Tempus AI 深度研究报告 - 精准医疗数据飞轮的高增长与高风险",
     "titleEn": "Tempus AI Deep Research Report - Precision Medicine Data Flywheel's High Growth and High Risk",
-    "summary": "2026-07-21更新：Tempus于2026-07-20签署最终协议，拟以每股$16.25收购尚未持有的Personalis（PSNL），扣除现有持股后企业价值约$15亿；默认换股、换股比率上限0.3356，Tempus可选择最多50%现金，预计2026年末至2027年初交割，仍须股东、监管及其他批准。交易尚未交割，Personalis备考结果与最终对价未并入。独立口径按TEM 2026-07-20收盘$48.41、约1.79565亿股计算：市值约$86.9亿、P/S(TTM)约6.4x；Q1 2026营收$348.1M（+36.1%）、GAAP净亏损$125.9M，投资判断未变。",
+    "summary": "2026-08-03更新（并入Q2 2026业绩，一手8-K附件99.1/10-Q）：Q2营收$382.5M（+21.6% YoY）、诊断$289.3M（+20%、肿瘤检测量+31%）、数据与应用$93.2M（+28%）；经营亏损同比走阔至$(75.9)M，单季GAAP净利+$5.6M主要来自$98.5M证券未实现收益，调整后EBITDA转正$8.0M。FY2026收入指引为$15.95-16.05亿、调整后EBITDA约$6500万。按TEM 2026-07-31收盘$43.87、约1.8024亿股重锚：市值约$79.1亿、P/S(TTM)约5.5x；Personalis仍待交割。反向倍数显示当前价格已要求约20%三年营收CAGR并同时改善盈利，维持谨慎/中确信。",
     "tags": [
       "精准医疗",
       "AI医疗",
@@ -3203,19 +3205,19 @@
     ],
     "category": "tech",
     "date": "2026-02-27",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-03",
     "file": "/invest/research/reports/view.html?id=tempus-ai-2026",
     "markdownFiles": {
       "zh": "/invest/research/Tempus_AI_深度研究报告_2026-02.md",
       "en": "/invest/research/Tempus_AI_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "Personalis待完成交易：每股$16.25、扣除现有持股后企业价值约$15亿；默认换股且比率上限0.3356，可选择最多50%现金，预计2026年末至2027年初交割",
-      "Q1 2026营收$348.1M（+36.1%），GAAP净亏损扩大至$1.259亿（EPS -$0.71）；FY2026收入指引$15.9-16.0亿",
-      "独立估值锚点：TEM 2026-07-20收盘$48.41、市值约$86.9亿、P/S(TTM)约6.4x；Personalis尚未交割，未并入备考数字",
-      "数据飞轮：126%净留存率、$11亿+合同积压；CEO累计减持$1.27亿、双重股权、20.6%做空（2月口径）；投资判断未变"
+      "Q2 2026：营收$382.5M（+21.6%）、诊断$289.3M（+20%、肿瘤检测量+31%）、数据与应用$93.2M（+28%）；调整后EBITDA转正$8.0M",
+      "GAAP盈利质量未确立：经营亏损同比走阔至$(75.9)M，$5.6M单季净利主要来自$98.5M证券未实现收益；H1仍净亏$(120.3)M",
+      "独立估值锚点：TEM 2026-07-31收盘$43.87、市值约$79.1亿、P/S(TTM)约5.5x；反向倍数隐含约20%三年营收CAGR",
+      "Personalis每股$16.25待完成交易仍未并入；维持谨慎/中确信，重点监测Q3增长、经营亏损与交易对价"
     ],
-    "summaryEn": "Updated 2026-07-21: Tempus signed a definitive agreement on 2026-07-20 to acquire the Personalis shares it does not already own for $16.25 per share and about $1.5B of enterprise value net of Tempus's existing stake. Stock is the default consideration, the exchange ratio is capped at 0.3356, and Tempus may elect up to 50% cash; closing is expected in late 2026 or early 2027, subject to shareholder, regulatory, and other approvals. The pending transaction and final consideration are excluded from pro forma figures. On a standalone basis, TEM's 2026-07-20 close of $48.41 and about 179.565M shares imply an $8.69B market cap and about 6.4x TTM P/S. Q1 2026 revenue was $348.1M (+36.1%) and GAAP net loss was $(125.9)M. The investment view is unchanged.",
+    "summaryEn": "Updated 2026-08-03 (Q2 2026 integrated; primary 8-K Exhibit 99.1 / 10-Q): Q2 revenue was $382.5M (+21.6% YoY), Diagnostics $289.3M (+20%, oncology volume +31%), and Data & Apps $93.2M (+28%). The operating loss widened to $(75.9)M, while $5.6M of GAAP net income was driven mainly by $98.5M of unrealized securities gains; adjusted EBITDA turned positive to $8.0M. FY2026 guidance is $1.595-1.605B revenue and about $65M adjusted EBITDA. Re-anchored to TEM's 2026-07-31 close of $43.87 and about 180.24M shares: approximately $7.91B market cap and 5.5x TTM P/S; Personalis remains pending. Reverse-multiple math shows the price already requires roughly 20% three-year revenue CAGR alongside better profitability, supporting a cautious / medium-conviction stance.",
     "period": "2026H1",
     "versionType": "full-cycle",
     "versionLabel": "2026H1 Full Rerun",
@@ -3231,7 +3233,106 @@
       "lastUpdate": "2026-02-27",
       "summary": "归档的2026H1重跑前版本，保留FY2025收入、诊断/数据分部、数据飞轮护城河和旧市值/估值倍数框架。",
       "summaryEn": "Archived pre-rerun 2026H1 baseline preserving FY2025 revenue, the diagnostics/data segments, the data-flywheel moat, and the old market-cap/valuation-multiple framework."
-    }
+    },
+    "reportedPeriod": "Q2 2026",
+    "priceSymbol": "TEM",
+    "priceAsOf": "2026-07-31",
+    "stance": "cautious",
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以$43.87、约$79.1亿市值计，TTM P/S约5.5x。若三年后倍数回归4.0x并要求8%年化回报，当前价格隐含约20%营收CAGR；Q2实际增长21.6%且经营亏损扩大，说明市场已要求增长维持并同时改善盈利，安全边际有限。",
+      "en": "At $43.87 and about $7.91B of market cap, TTM P/S is roughly 5.5x. If the multiple normalizes to 4.0x over three years with an 8% hurdle, the price implies about 20% revenue CAGR; Q2 growth was 21.6% while the operating loss widened, so the market already requires durable growth and better profitability, leaving limited margin of safety."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若连续两个季度营收增长不低于约25%、经营亏损同比收窄且调整后EBITDA按约$6500万全年目标推进，同时Personalis对价不显著恶化流动性，则重新评估至neutral-watch。",
+        "en": "Reassess toward neutral-watch if two consecutive quarters sustain roughly 25% or better revenue growth, narrow operating losses year over year, and track toward about $65M of full-year adjusted EBITDA without Personalis consideration materially weakening liquidity.",
+        "monitoringIds": [
+          "q3-growth-profitability",
+          "personalis-closing-liquidity"
+        ]
+      },
+      "downgrade": {
+        "zh": "若营收增速跌破20%、经营亏损继续扩大、FY2026指引下修，或Personalis现金/股份对价造成显著稀释与流动性压力，则重新评估至bearish-avoid。",
+        "en": "Reassess toward bearish-avoid if revenue growth falls below 20%, operating losses keep widening, FY2026 guidance is cut, or the Personalis cash/stock mix creates material dilution or liquidity pressure.",
+        "monitoringIds": [
+          "q3-growth-profitability",
+          "personalis-closing-liquidity"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-08-03",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 43.87
+      }
+    ],
+    "monitoring": [
+      {
+        "id": "q3-growth-profitability",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "Q3增长与经营盈利路径",
+          "en": "Q3 growth and operating-profitability path"
+        },
+        "trigger": {
+          "zh": "营收增速跌破20%、经营亏损继续同比扩大或FY2026指引下修",
+          "en": "revenue growth falls below 20%, the operating loss widens again year over year, or FY2026 guidance is cut"
+        },
+        "latest": {
+          "zh": "Q2营收$382.5M（+21.6%），经营亏损$(75.9)M（上年$(61.8)M），调整后EBITDA $8.0M；FY2026收入指引$15.95-16.05亿、调整后EBITDA约$6500万",
+          "en": "Q2 revenue was $382.5M (+21.6%), operating loss $(75.9)M versus $(61.8)M, and adjusted EBITDA $8.0M; FY2026 guidance is $1.595-1.605B revenue and about $65M adjusted EBITDA"
+        },
+        "nextCheck": "Q3 2026 results (around Nov 2026)",
+        "nextCheckDate": "2026-11",
+        "reading": "unclear",
+        "readingAsOf": "2026-07-30"
+      },
+      {
+        "id": "data-apps-mix",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "数据与应用增长及收入组合",
+          "en": "Data & Applications growth and mix"
+        },
+        "trigger": {
+          "zh": "数据与应用持续快于诊断增长并扩大高毛利收入占比",
+          "en": "Data & Applications keeps outgrowing Diagnostics and expands the higher-margin revenue mix"
+        },
+        "latest": {
+          "zh": "Q2数据与应用营收$93.2M（+28%），Insights增长36%，当季新签约约$200M许可",
+          "en": "Q2 Data & Applications revenue was $93.2M (+28%), Insights grew 36%, and about $200M of new licenses were signed"
+        },
+        "nextCheck": "Q3 2026 segment results (around Nov 2026)",
+        "nextCheckDate": "2026-11",
+        "reading": "within",
+        "readingAsOf": "2026-07-30"
+      },
+      {
+        "id": "personalis-closing-liquidity",
+        "thesis": "either",
+        "theme": "leverage-solvency",
+        "metric": {
+          "zh": "Personalis交割对价、稀释与流动性",
+          "en": "Personalis closing consideration, dilution, and liquidity"
+        },
+        "trigger": {
+          "zh": "现金选择或新增借款显著抬高净债务，或换股造成超出当前条款框架的稀释",
+          "en": "the cash election or new borrowing materially raises net debt, or stock consideration dilutes beyond the current agreement framework"
+        },
+        "latest": {
+          "zh": "交易仍待股东、监管及其他批准；默认换股、比率上限0.3356，Tempus可选择最多50%现金；Q2流动性$820.7M、债务账面值约$1.361B",
+          "en": "The transaction remains subject to stockholder, regulatory, and other approvals; stock is the default, the exchange ratio is capped at 0.3356, and Tempus may elect up to 50% cash; Q2 liquidity was $820.7M against about $1.361B of debt carrying value"
+        },
+        "nextCheck": "Personalis approval, consideration election, and closing disclosures (event-driven)",
+        "reading": "unclear",
+        "readingAsOf": "2026-07-30"
+      }
+    ]
   },
   {
     "id": "tempus-ai-2026-pre-rerun",
@@ -3798,7 +3899,7 @@
     "ticker": "NYSE: HIMS",
     "title": "Hims & Hers 深度研究报告 - 增长质量与GLP-1监管考验",
     "titleEn": "Hims & Hers Deep Research Report - Growth Quality and GLP-1 Regulatory Test",
-    "summary": "2026-07-31 估值重新锚定：HIMS 收于 $25.00（2026-07-29），较 6 月 22 日锚点 −25.5%，市值约 $62.9 亿。以本报告一贯口径衡量，现约为 2 月 FY2025E 收入基线约 $23.5 亿的 2.7 倍（此前口径更高），已接近报告自身“剔除 GLP-1 后 2.5-4 倍核心收入”区间的低端。该跌幅不属于 7 月 AI 基础设施重定价，为个别性质，本次未确定成因；Q2 2026 业绩定于 2026-08-10。核心问题始终是收入质量（GLP-1 结构、订阅持久性、监管悬顶）而非倍数，均未因股价下跌而解决，故维持中性/观察。",
+    "summary": "2026-07-31 估值重新锚定：HIMS 收于 $25.00（2026-07-29），较 6 月 22 日锚点 −25.5%，市值约 $62.9 亿。以本报告一贯口径衡量，现约为 2 月 FY2025E 收入基线约 $23.5 亿的 2.7 倍，接近报告自身 2.5-4 倍区间低端。2026-07-29 FTC/州隐私与计费诉讼及公司当日回应与回撤同期发生，可能是影响因素，但一级来源不能证明市场因果。核心问题仍是收入质量、订阅持久性与监管风险，故维持中性/观察；Q2 业绩定于 2026-08-10。",
     "tags": [
       "远程医疗",
       "DTC",
@@ -3807,7 +3908,7 @@
     ],
     "category": "tech",
     "date": "2026-02-13",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-02",
     "file": "/invest/research/reports/view.html?id=hims-2026",
     "markdownFiles": {
       "zh": "/invest/research/Hims_Hers_深度研究报告_2026-02.md",
@@ -3816,11 +3917,11 @@
     "highlights": [
       "股价 $25.00（2026-07-29 收盘），较 6 月 22 日锚点 −25.5%；市值约 $62.9 亿",
       "以 2 月 FY2025E 收入基线约 $23.5 亿计约 2.7 倍，接近报告自身 2.5-4 倍区间低端",
-      "跌幅为个别性质，不属于 7 月 AI 基础设施重定价；本次未确定成因",
+      "2026-07-29 FTC/州隐私与计费诉讼及公司回应与回撤同期发生，但不能证明市场因果",
       "无 priceSymbol，故无自动价格账本与偏离告警——本次回撤靠人工核查发现（见问题文档 Q3）",
       "维持中性/观察：收入质量（GLP-1 结构、订阅持久性、监管）未因价格下跌而解决；Q2 业绩 2026-08-10"
     ],
-    "summaryEn": "July 31, 2026 valuation re-anchor: HIMS closed at $25.00 on 2026-07-29, -25.5% from the June 22 anchor, for about $6.29B market cap. Measured the same way the report measures, it now trades at about 2.7x the February FY2025E revenue baseline of ~$2.35B, near the low end of the report's own 2.5-4x ex-GLP-1 core-revenue band. The decline is NOT part of the July 2026 AI-infrastructure repricing - it is idiosyncratic, and this pass did not establish a cause; Q2 2026 results are due 2026-08-10. The central question was always revenue quality (GLP-1 mix, subscriber durability, regulatory overhang) rather than the multiple, and none of that was settled by a price decline, so the neutral / watchlist stance holds.",
+    "summaryEn": "July 31, 2026 valuation re-anchor: HIMS closed at $25.00 on 2026-07-29, -25.5% from the June 22 anchor, for about $6.29B market cap and roughly 2.7x the February FY2025E revenue baseline, near the low end of the report's 2.5-4x band. The FTC/state privacy-and-billing complaint and company response were both published on 2026-07-29 and may have contributed to the same-day drawdown, but primary sources do not establish market causality. Revenue quality, subscriber durability and regulatory risk remain unresolved, so neutral / watchlist holds; Q2 results are due 2026-08-10.",
     "period": "2026H1",
     "versionType": "full-cycle",
     "versionLabel": "2026H1 Full Rerun",
@@ -4933,8 +5034,8 @@
           "en": "multiple compression from ~23.4x EV/TTM Sales with price near the bull-case floor"
         },
         "latest": {
-          "zh": "股价约 $537（2026-06-18 收盘）、市值约 $8,870 亿",
-          "en": "stock ~$537 (2026-06-18 close), ~$887B cap"
+          "zh": "2026-07-31 估值重锚（非财报，仅价格）：2026-07-30 收盘 $485.39（较 2026-06-18 旧锚点 $537.37 跌约 9.7%）；市值约 $801B、EV 约 $792B，EV/TTM Sales 约 21.2x（旧口径约 23.4x）、EV/Forward Sales 约 15.8-17.3x、约 89x 年化 Q1 非 GAAP EPS、FCF 收益率约 1.3%。立场维持 cautious / 中确信；2026-08-04 的 Q2 财报是下一个检验点。",
+          "en": "2026-07-31 valuation re-anchor (price-only, not an earnings update): AMD closed at $485.39 on 2026-07-30 (about -9.7% from the old 2026-06-18 anchor of $537.37); market cap about $801B, EV about $792B, EV/TTM Sales about 21.2x (old caliber about 23.4x), EV/Forward Sales about 15.8-17.3x, about 89x annualized Q1 non-GAAP EPS, FCF yield about 1.3%. Stance stays cautious / medium conviction; the 2026-08-04 Q2 print is the next test."
         },
         "nextCheck": "2026-Q2 财报 / Q2 earnings",
         "nextCheckDate": "2026-08"
@@ -5120,8 +5221,8 @@
           "en": "the ~88x annualized-Q1 P/E compresses if growth disappoints"
         },
         "latest": {
-          "zh": "股价约 86.00 元、市值约 395 亿元（2026-06-23 东方财富口径）",
-          "en": "stock ~RMB86.00, ~RMB39.5B cap (2026-06-23, Eastmoney)"
+          "zh": "2026-07-31 估值重锚：688676.SS 收盘 RMB 64.30（较 2026-07-07 旧锚点 RMB 82.22 跌约 21.8%）；按 Q1 年化口径，市值约 RMB 29.6B（旧口径约 RMB 38.4-39.5B），年化 P/E 约 66x（旧口径约 85-88x）、P/S 约 4.9x（旧口径约 6.3-6.5x）。66x 仍远高于 15-25x 制造业区间，且大额 SST 订单、应收账款回收、经营现金流转正三项验证均尚未出现。立场维持 neutral watch / 中确信；半年报是下一个检验点。",
+          "en": "2026-07-31 valuation re-anchor: 688676.SS closed at RMB 64.30 (about -21.8% from the old 2026-07-07 anchor of RMB 82.22); on the Q1-annualized basis, market cap is about RMB 29.6B (old caliber about RMB 38.4-39.5B), annualized P/E is about 66x (old caliber about 85-88x) and P/S is about 4.9x (old caliber about 6.3-6.5x). 66x is still well above the 15-25x manufacturing band, and none of the three validations -- large SST orders, receivable collection, operating cash flow turning positive -- has yet arrived. Stance stays neutral watch / medium conviction; the H1 report is the next test."
         },
         "nextCheck": "半年报 / H1 report",
         "nextCheckDate": "2026-08"
@@ -7485,8 +7586,8 @@
           "en": "FY2027 / FY2028 revenue outlook is cut, removing denominator support from roughly 19x FY2027E EV/Sales"
         },
         "latest": {
-          "zh": "股价 $245.29、市值约 $214.6B；公开 FY2027E 收入框架约 $11.5B",
-          "en": "$245.29 share price and about $214.6B cap; public FY2027E revenue frame around $11.5B"
+          "zh": "2026-07-31 估值重锚（非财报，仅价格）：2026-07-30 收盘 $183.30（较旧 $245.23 锚点跌约 25.3%）；市值约 $160.5B、EV 约 $161.9B，EV/Sales 约 14.1x（对照 FY2027 展望 $11.5B，旧口径约 19x）、约 9.8x（对照 FY2028 展望 $16.5B）。立场维持 cautious / 中确信；custom-ASIC 设计胜出转化、光学附加与利润率仍待 2026-08-27的财报验证。",
+          "en": "2026-07-31 valuation re-anchor (price-only, not an earnings update): MRVL closed at $183.30 on 2026-07-30 (about -25.3% from the old $245.23 anchor); market cap about $160.5B, EV about $161.9B, EV/Sales about 14.1x against the $11.5B FY2027 outlook (old caliber about 19x) and about 9.8x against the $16.5B FY2028 case. Stance stays cautious / medium conviction; custom-ASIC design-win conversion, optical attach and margin remain unproven until the earnings print 2026-08-27."
         },
         "nextCheck": "FY2027 每季指引 / quarterly FY2027 guidance",
         "nextCheckDate": "2026-08"
@@ -7686,11 +7787,13 @@
           "en": "growth relies on negative FCF, inventory/receivable build or capex expansion while the multiple stays elevated"
         },
         "latest": {
-          "zh": "Q3 FCF -$383M；约 $65.2B 市值、约 10.1x EV/TTM sales",
-          "en": "Q3 FCF -$383M; about $65.2B market cap and about 10.1x EV/TTM sales"
+          "zh": "2026-07-31 估值重锚（非财报，仅价格）：2026-07-30 收盘 $249.06（较旧 $333.36 锚点跌约 25.3%）；市值约 $48.7B、EV 约 $49.7B，P/S(TTM) 约 7.4x、EV/TTM sales 约 7.5x（旧口径约 10.1x）。立场由 cautious 上调为 neutral-watch / 低确信；Q3 FCF 仍为 -$383M，2026-08-12 的 FY2026 Q4 财报是下一个现金流检验点。",
+          "en": "2026-07-31 valuation re-anchor (price-only, not an earnings update): COHR closed at $249.06 on 2026-07-30 (about -25.3% from the old $333.36 anchor); market cap about $48.7B, EV about $49.7B, P/S (TTM) about 7.4x, EV/TTM sales about 7.5x (old caliber about 10.1x). Stance moved from cautious to neutral-watch / low conviction; Q3 FCF was still -$383M, and the 2026-08-12 FY2026 Q4 print is the next cash-flow test."
         },
         "nextCheck": "FY2026 Q4 cash flow and working capital",
-        "nextCheckDate": "2026-08"
+        "nextCheckDate": "2026-08",
+        "reading": "unclear",
+        "readingAsOf": "2026-07-31"
       }
     ],
     "conviction": "low",
@@ -7940,11 +8043,13 @@
           "en": "net debt, interest cost or equity dilution rises while backlog conversion disappoints"
         },
         "latest": {
-          "zh": "2026-07-02 估值快照：净债务约 $15.6B；$173.30、约 $62.0B 市值、基于当时 Q1 $8.00-8.10 指引约 21x P/Core FFO",
-          "en": "July 2, 2026 valuation snapshot: net debt about $15.6B; $173.30, about $62.0B market cap, and around 21x P/Core FFO based on the then-current Q1 $8.00-8.10 guide"
+          "zh": "2026-07-31 估值重锚：净债务约 $15.6B；2026-07-30 收盘 $193.19、市值约 $69.1B、EV 约 $84.7B，对照上修后 2026 Core FFO/share 指引 $8.15-8.20 约为 23.6x P/Core FFO、约 13.3x EV/TTM revenue（旧口径：2026-07-02 的 $173.30、约 21x）。立场由 constructive 下调为 neutral-watch / 中确信。",
+          "en": "2026-07-31 valuation re-anchor: net debt about $15.6B; at the $193.19 close on 2026-07-30, market cap is about $69.1B and EV about $84.7B, or about 23.6x P/Core FFO on the raised 2026 Core FFO/share guide of $8.15-8.20 and about 13.3x EV/TTM revenue (old frame: $173.30 on 2026-07-02, about 21x). Stance moved from constructive to neutral-watch / medium conviction."
         },
-        "nextCheck": "debt, equity issuance and Core FFO guide",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "2026-Q3 debt, equity issuance and Core FFO guide",
+        "nextCheckDate": "2026-10",
+        "reading": "unclear",
+        "readingAsOf": "2026-07-31"
       }
     ]
   },
@@ -8197,8 +8302,8 @@
           "en": "Reported 2026-07-31 pre-market (quarter ended 2026-06-30): net earnings C$25M, adjusted net earnings C$77M, adjusted EBITDA C$391M; six months C$156M / C$281M / C$899M. Uranium segment earnings before taxes C$170M on C$252M adjusted EBITDA, 7.1M lb delivered and 3.9M lb produced (our share); fuel services earnings before taxes C$30M on C$42M adjusted EBITDA, 3.0M kgU produced and 3.6M kgU sold. The 2026 outlook for uranium-segment average realized price, revenue and cost of sales and for consolidated revenue was raised on a higher UxC spot price and a stronger US-dollar assumption — consolidated revenue to C$3,320-3,570M from C$3,130-3,370M — while the production outlook is unchanged. The consolidated miss (US$0.13 adjusted EPS against a roughly US$0.26 consensus) is Westinghouse, which swung to a C$10M net loss to Cameco against roughly US$170M of Q2 2025 equity earnings from Dukovany. Graded within: this item's published trigger is a deterioration in realized price, deliveries or contracting against the Q1 sensitivity path, or a guidance cut — none of which happened. Realized prices improved, the uranium outlook was raised, and H1 deliveries of 14.9M lb track the unchanged 29-32M lb full-year guide. The consensus miss is a Westinghouse equity-earnings event and is graded on that item, not this one.",
           "zh": "2026-07-31 盘前发布（季度截至 2026-06-30）：净利润 0.25 亿加元、调整后净利润 0.77 亿加元、调整后 EBITDA 3.91 亿加元；上半年累计 1.56 亿 / 2.81 亿 / 8.99 亿加元。铀分部税前利润 1.70 亿加元、调整后 EBITDA 2.52 亿加元，交付 710 万磅、权益产量 390 万磅；燃料服务税前利润 0.30 亿加元、调整后 EBITDA 0.42 亿加元，产量 300 万 kgU、销量 360 万 kgU。2026 年铀分部平均实现价格、收入、销售成本指引与合并收入指引均上调，理由是 UxC 现货价上升与美元走强——合并收入由 31.30-33.70 亿上调至 33.20-35.70 亿加元；产量指引不变。合并层面不及预期（调整后每股 0.13 美元 vs 一致预期约 0.26 美元）源于 Westinghouse——本季给 Cameco 带来 0.10 亿加元净亏损，而 2025 Q2 曾因 Dukovany 贡献约 1.70 亿美元权益收益。　评级为阈内：本项发布的触发条件是实现价格、交付量或签约相对 Q1 敏感性路径恶化，或指引被下调——三者均未发生。实现价格改善、铀业务指引上调，上半年交付 1,490 万磅相对不变的全年 2,900-3,200 万磅指引进度正常。不及市场一致预期属 Westinghouse 权益收益事件，按该监测项评级，不计入本项。"
         },
-        "nextCheck": "2026-07-31 盘前的 Q2 业绩与 MD&A / Q2 results and MD&A, pre-market 2026-07-31",
-        "nextCheckDate": "2026-07",
+        "nextCheck": "2026 Q3 业绩与 MD&A（约 2026 年 11 月）/ Q3 2026 results and MD&A (around November 2026)",
+        "nextCheckDate": "2026-11",
         "reading": "within",
         "readingAsOf": "2026-07-31"
       },
@@ -9021,6 +9126,179 @@
         "stance": "neutral-watch",
         "conviction": "medium",
         "price": 48.26
+      }
+    ]
+  },
+  {
+    "id": "kioxia-2026",
+    "company": "Kioxia Holdings",
+    "ticker": "TSE: 285A",
+    "priceSymbol": "285A.T",
+    "title": "Kioxia 铠侠深度研究报告 - NAND 发明者的 AI 存储超级周期与顶峰定价",
+    "titleEn": "Kioxia Deep Research Report - The NAND Inventor's AI Storage Supercycle and Peak-Cycle Pricing",
+    "summary": "首次覆盖铠侠作为 memory-storage 层第四块拼图。Q1 FY2026 营收 ¥1.767 万亿（同比 5.2 倍）、营业利润率 71.9%、归母净利润 ¥8,422 亿；H1 指引隐含 Q2 营业利润率约 79%。官方 Q1 资产负债表显示 2026-06 末现金 ¥7,910 亿、债券与借款 ¥6,346 亿，即约 ¥1,565 亿净现金（不含租赁）。同日公告为 1 股拆为 3 股及上限 ¥8,000 亿/3,000 万股回购框架。按 2026-07-31 收盘 ¥46,500、市值约 ¥25.48 万亿，TTM P/E 约 18.5 倍；20/50/30 情景中点加权净利约 ¥1.17 万亿、股权价值约 ¥15.7 万亿。反向倍数隐含约 18.5% 三年盈利 CAGR，而基准情形假设利润回归，故谨慎 / 中确信。",
+    "summaryEn": "Initial coverage of Kioxia as the fourth memory-storage report. Q1 FY2026 revenue was ¥1,767.1B (5.2x YoY), operating margin 71.9%, and profit attributable to owners ¥842.2B; H1 guidance implies about 79% Q2 operating margin. The official Q1 balance sheet shows ¥791.0B cash and ¥634.6B of bonds and borrowings at June 2026, or about ¥156.5B net cash before leases. The same-day disclosures authorize a 3-for-1 split and a buyback facility up to ¥800B / 30M shares. At the 2026-07-31 close of ¥46,500 and about ¥25.48T market cap, TTM P/E is about 18.5x; a 20/50/30 midpoint scenario weights sustainable profit at ¥1.17T and equity value at ¥15.7T. Reverse-multiple math implies about 18.5% three-year earnings CAGR while the base case expects normalization, supporting cautious / medium conviction.",
+    "tags": [
+      "NAND闪存",
+      "AI存储",
+      "数据中心SSD",
+      "半导体周期",
+      "日本"
+    ],
+    "category": "tech",
+    "date": "2026-07-31",
+    "lastUpdate": "2026-08-03",
+    "file": "/invest/research/reports/view.html?id=kioxia-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Kioxia_深度研究报告_2026-07.md",
+      "en": "/invest/research/Kioxia_Deep_Research_Report_2026-07.md"
+    },
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026H1 Initial Coverage",
+    "moduleContract": "heading-comment-v1",
+    "highlights": [
+      "Q1 FY2026：营收 ¥1.767 万亿（同比 5.2 倍）、营业利润 ¥1.270 万亿（利润率 71.9%）、归母净利润 ¥8,422 亿；H1 指引隐含 Q2 利润率约 79%",
+      "2026-06 末已达约 ¥1,565 亿净现金（现金 ¥7,910 亿减债券与借款 ¥6,346 亿，不含租赁），纠正源分支沿用的 3 月末净负债",
+      "公司公告为 1 股拆为 3 股；回购框架上限 ¥8,000 亿 / 3,000 万股（流通股 5.5%），实际执行可低于上限或为零",
+      "¥46,500（2026-07-31 收盘）、市值约 ¥25.48 万亿；情景中点加权净利约 ¥1.17 万亿、股权价值约 ¥15.7 万亿，反向倍数隐含约 18.5% 盈利 CAGR——谨慎 / 中确信"
+    ],
+    "chainLayer": "memory-storage",
+    "coverageTier": "full",
+    "stance": "cautious",
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 ¥46,500、约 ¥25.48 万亿市值计，TTM P/E 约 18.5 倍。若三年后倍数回归 14 倍并要求 8% 年化回报，当前价格隐含约 18.5% 盈利 CAGR；但 20/50/30 情景中点加权的可持续净利仅约 ¥1.17 万亿、股权价值约 ¥15.7 万亿，且基准情形假设利润由当前 TTM 约 ¥1.38 万亿回归。Q1 已转为净现金与回购框架是正面证据，但顶峰利润持续性与供给响应使预期差仍为负。",
+      "en": "At ¥46,500 and about ¥25.48T of market cap, TTM P/E is roughly 18.5x. If the multiple normalizes to 14x over three years with an 8% hurdle, the price implies about 18.5% earnings CAGR; yet the 20/50/30 midpoint scenario weights sustainable profit at only about ¥1.17T and equity value at ¥15.7T, while the base case expects profit to normalize from about ¥1.38T TTM. Q1 net cash and the buyback facility are positives, but peak-profit durability and the supply response leave a negative expectation gap."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若连续两个季度行业产能纪律无恶化（K3 未批准或延后、三星/SK 扩产克制、YMTC 三期爬坡低于预期），且 H1 指引兑现、全年指引恢复、回购按上限执行，则上调至 neutral-watch。",
+        "en": "Move to neutral-watch if capacity discipline holds for two consecutive quarters (K3 not approved or deferred, restrained Samsung/SK expansion, YMTC Phase 3 ramping below plan) while H1 guidance is delivered, full-year guidance returns, and the buyback executes toward its ceiling.",
+        "monitoringIds": [
+          "capacity-discipline",
+          "h1-guidance-delivery",
+          "capital-returns-execution"
+        ]
+      },
+      "downgrade": {
+        "zh": "若任一季度营业利润率环比回落超过 5pp、NAND 合约价环比转负并伴随指引下修，或三星宣布激进扩产，则下调至 bearish-avoid 方向重新评估。",
+        "en": "Reassess toward bearish-avoid if any quarter shows a sequential operating-margin drop of more than 5pp, NAND contract pricing turns sequentially negative alongside a guidance cut, or Samsung announces an aggressive capacity expansion.",
+        "monitoringIds": [
+          "peak-margin-mean-reversion",
+          "capacity-discipline",
+          "nand-supply-gap"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-07-31",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 46500
+      }
+    ],
+    "priceAsOf": "2026-07-31",
+    "reportedPeriod": "Q1 FY2026 (Apr-Jun 2026)",
+    "related": [
+      "sandisk-2026",
+      "sk-hynix-2026",
+      "micron-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "peak-margin-mean-reversion",
+        "thesis": "bear",
+        "theme": "pricing",
+        "metric": {
+          "zh": "顶峰营业利润率均值回归",
+          "en": "Peak operating-margin mean reversion"
+        },
+        "trigger": {
+          "zh": "任一季度营业利润率环比回落超过 5pp，即为价格周期拐点第一信号",
+          "en": "any quarter with a sequential operating-margin drop of more than 5pp counts as the first price-cycle-turn signal"
+        },
+        "latest": {
+          "zh": "Q1 FY2026 营业利润率 71.9%（去年同期 13.1%）；H1 指引隐含 Q2 约 79%",
+          "en": "Q1 FY2026 operating margin 71.9% (13.1% a year ago); H1 guidance implies ~79% for Q2"
+        },
+        "nextCheck": "Q2 FY2026 results (~Nov 2026)",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "h1-guidance-delivery",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "H1 指引兑现与全年指引恢复",
+          "en": "H1 guidance delivery and full-year guidance reinstatement"
+        },
+        "trigger": {
+          "zh": "Q2 实际显著低于隐含的 ¥2.39 万亿营收 / ¥1.27 万亿净利润，或全年指引持续缺席",
+          "en": "Q2 lands materially below the implied ¥2,390.0B revenue / ¥1,270.0B net profit, or full-year guidance stays absent"
+        },
+        "latest": {
+          "zh": "H1 指引（2026-07-31 首次披露）：营收 ¥4兆1,571 亿、营业利润 ¥3兆1,600 亿、净利润 ¥2兆1,122 亿；全年指引因地缘政治不确定性未给出",
+          "en": "H1 guidance (first disclosed 2026-07-31): revenue ¥4,157.1B, operating profit ¥3,160.0B, net profit ¥2,112.2B; full-year guidance withheld citing geopolitical uncertainty"
+        },
+        "nextCheck": "Q2 FY2026 results (~Nov 2026)",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "capacity-discipline",
+        "thesis": "bear",
+        "theme": "execution",
+        "metric": {
+          "zh": "产能纪律：K3 决策、资本开支节奏与竞争对手扩产",
+          "en": "Capacity discipline: the K3 decision, capex pacing, and competitor expansion"
+        },
+        "trigger": {
+          "zh": "铠侠批准 K3 且三星/SK 同步大扩产、YMTC 三期如期满产 → 2027 供给过剩剧本确认",
+          "en": "Kioxia approves K3 while Samsung/SK expand in parallel and YMTC Phase 3 ramps on schedule, confirming the 2027 oversupply script"
+        },
+        "latest": {
+          "zh": "FY2026-28 资本开支目标年均约 ¥4,700 亿（较 FY2025 +66%）；K2 全面量产、K3 评估中；YMTC 三期预计 2026 年底投产、2027 年中国份额近 19%（TrendForce）",
+          "en": "FY2026-28 capex target ~¥470B/year (+66% vs FY2025); K2 at full ramp, K3 under evaluation; YMTC Phase 3 expected online by end-2026 with Chinese share near 19% by 2027 (TrendForce)"
+        },
+        "nextCheck": "K3 decision / competitor capex announcements (event-driven)"
+      },
+      {
+        "id": "capital-returns-execution",
+        "thesis": "bull",
+        "theme": "optionality",
+        "metric": {
+          "zh": "¥8,000 亿回购执行与分红政策落地",
+          "en": "Execution of the ¥800B buyback and the first concrete dividend policy"
+        },
+        "trigger": {
+          "zh": "回购执行进度显著落后于上限，或分红政策持续缺位，则资本回报叙事减分；净现金转正后加码则加分",
+          "en": "Buyback execution lagging far below the ceiling or a still-absent dividend policy weakens the capital-return case; enlargement after reaching net cash strengthens it"
+        },
+        "latest": {
+          "zh": "2026-07-31 公告：1 股拆为 3 股（10/1 生效）及上限 ¥8,000 亿 / 3,000 万股回购框架（8/3-10/30，流通股 5.5%）；公司明确实际回购可少于上限或为零",
+          "en": "Announced 2026-07-31: a 3-for-1 split effective 10/1 and a buyback facility up to ¥800B / 30M shares (8/3-10/30, 5.5% of shares outstanding); the company states actual purchases may be below the ceiling or zero"
+        },
+        "nextCheck": "Q2 FY2026 disclosure (~Nov 2026)",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "nand-supply-gap",
+        "thesis": "either",
+        "theme": "pricing",
+        "metric": {
+          "zh": "NAND 供需缺口与 nearline SSD 替代证据",
+          "en": "The NAND supply-demand gap and nearline-SSD substitution evidence"
+        },
+        "trigger": {
+          "zh": "第三方对 2026/2027 供需缺口的季度修正转向过剩，或超大规模厂商存储采购推迟",
+          "en": "Third-party quarterly revisions flip the 2026/2027 balance toward surplus, or hyperscalers defer storage procurement"
+        },
+        "latest": {
+          "zh": "TrendForce 估计 2026 年 NAND 供给缺口约 4-5%；公司披露 H1 指引时约 30% 的 Q2 出货价格尚未锁定",
+          "en": "TrendForce estimates a 4-5% NAND supply deficit for 2026; ~30% of Q2 shipment pricing was unlocked when H1 guidance was set"
+        },
+        "nextCheck": "TrendForce/industry revisions (event-driven)"
       }
     ]
   }

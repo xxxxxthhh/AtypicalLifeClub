@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02",
+  "generatedAt": "2026-08-03",
   "benchmark": "SMH",
   "entries": [
     {
@@ -498,6 +498,17 @@
       "benchmarkSymbol": "SMH",
       "status": "pending",
       "daysHeld": 2,
+      "stale": false
+    },
+    {
+      "reportId": "kioxia-2026",
+      "stance": "cautious",
+      "conviction": "medium",
+      "stanceDate": "2026-07-31",
+      "priceAtStance": 46500.0,
+      "benchmarkSymbol": "SMH",
+      "status": "pending",
+      "daysHeld": 3,
       "stale": false
     }
   ],

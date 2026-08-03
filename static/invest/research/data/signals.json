@@ -1,5 +1,77 @@
 [
   {
+    "id": "kioxia-q1-fy2026-h1-guidance",
+    "date": "2026-07-31",
+    "title": {
+      "zh": "铠侠 Q1 FY2026：营业利润率 71.9%，H1 指引隐含 Q2 约 79%；6 月末已转净现金",
+      "en": "Kioxia Q1 FY2026: 71.9% operating margin, H1 guide implies about 79% for Q2; June balance sheet reached net cash"
+    },
+    "detail": {
+      "zh": "据铠侠控股 2026-07-31 Q1 FY2026 决算短信：营收 ¥1,767,117 百万（同比 +415.5%）、营业利润 ¥1,270,017 百万、归母净利润 ¥842,165 百万；H1 指引为营收 ¥4,157,117 百万、营业利润 ¥3,160,017 百万、归母净利润 ¥2,112,165 百万，隐含 Q2 营收 ¥2.39 万亿、营业利润率约 79%。Q1 同比增长由 ASP 上升、bit 出货增加与汇率共同贡献；公司未量化 bit 贡献。6 月末现金 ¥791,014 百万、债券与借款 ¥634,554 百万，约为 ¥156,460 百万净现金（不含租赁）。同日官方公告为 1 股拆为 3 股及上限 ¥800,000 百万 / 3,000 万股回购框架，实际执行可低于上限或为零。业绩与公司行动均在收盘后披露，不能用于解释当日 +17.7% 涨幅。本条是 memory-cycle 的事实读数，不把第三方供需预测当作公司事实。",
+      "en": "Kioxia Holdings’ 2026-07-31 Q1 FY2026 filing reported revenue of ¥1,767,117M (+415.5% YoY), operating profit of ¥1,270,017M, and profit attributable to owners of ¥842,165M. H1 guidance is ¥4,157,117M revenue, ¥3,160,017M operating profit, and ¥2,112,165M attributable profit, implying Q2 revenue of ¥2.39T and about 79% operating margin. The year-over-year increase reflected higher ASPs, increased bit shipments, and favorable FX; bit contribution was not quantified. June cash of ¥791,014M less ¥634,554M of bonds and borrowings equals about ¥156,460M net cash before leases. Official same-day disclosures authorize a 3-for-1 split and a buyback facility up to ¥800,000M / 30M shares, with actual purchases potentially below the ceiling or zero. Results and corporate actions were released after the close and cannot explain the same-day 17.7% move. This is a factual memory-cycle reading and does not present third-party supply forecasts as issuer facts."
+    },
+    "crossChecks": [
+      "memory-cycle"
+    ],
+    "tickers": [
+      "285A.T",
+      "SNDK",
+      "000660.KS",
+      "MU"
+    ],
+    "reportIds": [
+      "kioxia-2026"
+    ],
+    "monitoringRefs": [
+      "kioxia-2026:peak-margin-mean-reversion",
+      "kioxia-2026:h1-guidance-delivery",
+      "kioxia-2026:capital-returns-execution"
+    ]
+  },
+  {
+    "id": "korea-semiconductor-exports-2026-07-full-month",
+    "date": "2026-08-01",
+    "title": {
+      "zh": "韩国 7 月正式贸易统计：半导体出口约 410 亿美元、同比约 +179%，连续第二个月突破 400 亿美元",
+      "en": "Korea's official July trade data: semiconductor exports about $41.0B, roughly +179% YoY, above $40B for a second month"
+    },
+    "detail": {
+      "zh": "据韩国产业通商部（산업통상부；官方英文站 MOTIR）2026-08-01 发布的《2026 年 7 月进出口动向》：7 月出口 988.9 亿美元（同比 +62.8%）、进口 685.6 亿美元（+26.5%）、贸易顺差 303.2 亿美元；半导体出口 410.1 亿美元（+178.8%），继 6 月之后连续第二个月超过 400 亿美元。日均出口额 41.2 亿美元（+69.6%），连续第三个月超过 40 亿美元。对华出口 216.89 亿美元（+96.2%）；对美出口 174.39 亿美元（+68.7%），官方说明 AI 数据中心投资持续，并同时列举半导体、计算机、电气设备和钢铁等相关品目增长，不能把全部对美增幅归因于 AI。作为国家级高频读数，本条用于交叉验证 memory-cycle 的出口金额与厂商定价、利润及需求叙事。它是正式全月统计，与关税厅 7 月 1–20 日暂定值（korea-semiconductor-exports-2026-07-1-20）属于不同观察窗口。证据边界：该口径是美元出口金额，不是出货量或 bit 数，无法分离价格与数量贡献，因此确认的是出口金额强势而非独立的需求量或毛利率；数据未拆分 HBM、传统 DRAM 与 NAND，也未披露客户或终端应用；自韩国报关出口不等同于终端 sell-through；月度通关数字后续仍可能修订。",
+      "en": "Korea's Ministry of Trade, Industry and Resources (산업통상부; MOTIR) reported on 2026-08-01 that July exports were $98.89B (+62.8% YoY), imports were $68.56B (+26.5%), and the trade surplus was $30.32B. Semiconductor exports were $41.01B (+178.8%), above $40B for a second consecutive month after June. Average daily exports were $4.12B (+69.6%), above $4B for a third month. Exports to China were $21.689B (+96.2%); exports to the United States were $17.439B (+68.7%). The ministry said AI-data-center investment continued and listed growth across semiconductors, computers, electrical equipment and steel, so the whole U.S. increase cannot be attributed to AI. As a country-level high-frequency reading, this signal cross-checks memory-cycle export value against producer pricing, profit and demand narratives. It is the official full-month observation and a different window from the Korea Customs Service 1-20 July provisional already logged as korea-semiconductor-exports-2026-07-1-20. Evidence limits: this is USD export value, not volume or bit shipments, so price and quantity cannot be separated and the reading confirms export-value strength rather than independent demand volume or margins; it provides no HBM / conventional DRAM / NAND, customer or end-application split; customs-cleared exports are not end-customer sell-through; and monthly customs-basis figures may be revised."
+    },
+    "crossChecks": [
+      "memory-cycle"
+    ],
+    "tickers": [
+      "000660.KS",
+      "MU",
+      "SNDK"
+    ]
+  },
+  {
+    "id": "samsung-q2-2026-memory-record-ds-full-results",
+    "date": "2026-07-30",
+    "title": {
+      "zh": "三星 2026 Q2 正式财报：DS 分部营业利润 ₩89.2T，内存业务营收与利润创季度新高",
+      "en": "Samsung Q2 2026 full results: DS operating profit KRW 89.2T, Memory Business at quarterly revenue and profit highs"
+    },
+    "detail": {
+      "zh": "据三星电子 2026-07-30 官方 Q2 业绩（季度截至 2026-06-30）：合并营收 ₩171.5T、营业利润 ₩89.5T；Device Solutions（DS）分部营收 ₩127.5T、营业利润 ₩89.2T。公司称内存业务季度营收与营业利润均创历史新高、服务器收入占销售组合的比重创新高，HBM4 销售放量并向主要客户交付首批 HBM4E 样品；Device eXperience（DX）销售额环比下降 9%，MX 与 Networks 录得 ₩0.7T 营业亏损。公司预计 H2 的服务器 DRAM、eSSD 与 HBM 需求受 AI 基础设施资本开支和 agentic AI 采用推动。作为 memory-cycle 读数，正式分部拆分表明集团利润高度集中于 DS，并补充了 2026-07-07 初步指引留下的分部归因空白。证据边界：三星没有单独披露内存业务营收、营业利润或利润率的具体数字；“历史新高”是公司定性表述，DS 口径还包含 System LSI 与 Foundry，不能把 ₩89.2T 等同于内存利润，也不能据此断言内存利润率上升。H2 需求和供给约束为公司前瞻指引，不是已实现业绩。本条不推断下游交付、客户份额或终端消化。",
+      "en": "Samsung Electronics' official Q2 2026 results, released 2026-07-30 for the quarter ended 2026-06-30, reported consolidated revenue of KRW 171.5T and operating profit of KRW 89.5T. The Device Solutions (DS) Division posted KRW 127.5T of revenue and KRW 89.2T of operating profit. Samsung characterized Memory Business quarterly revenue and operating profit as all-time highs, said server revenue reached a record share of the sales mix, scaled HBM4 sales and shipped initial HBM4E samples to major customers. Device eXperience (DX) sales fell 9% QoQ and MX & Networks posted a KRW 0.7T operating loss. The company expects H2 server DRAM, eSSD and HBM demand to be supported by AI-infrastructure capex and agentic-AI adoption. As a memory-cycle reading, the segment disclosure shows group profit was overwhelmingly concentrated in DS and fills the attribution gap left by the 2026-07-07 preliminary signal. Evidence limits: Samsung did not disclose specific Memory Business revenue, operating-profit or margin figures; 'all-time high' is the company's characterization, and DS also includes System LSI and Foundry. KRW 89.2T therefore cannot be treated as memory-only profit, and the release does not establish that memory margins rose. H2 demand and supply-constraint language is forward-looking company guidance, not realized performance. This signal does not infer downstream deliveries, customer share or end demand."
+    },
+    "crossChecks": [
+      "memory-cycle",
+      "chip-vs-downstream"
+    ],
+    "tickers": [
+      "005930.KS",
+      "000660.KS",
+      "MU",
+      "SNDK",
+      "NVDA"
+    ]
+  },
+  {
     "id": "amazon-q2-2026-aws-capex-cash-conversion",
     "date": "2026-07-30",
     "title": {

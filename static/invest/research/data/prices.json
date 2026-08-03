@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02",
+  "generatedAt": "2026-08-03",
   "entries": [
     {
       "reportId": "smh-2026",
@@ -540,6 +540,30 @@
       "lastClose": 49.87,
       "changePct": 3.3,
       "currency": "USD"
+    },
+    {
+      "reportId": "tempus-ai-2026",
+      "symbol": "TEM",
+      "status": "ok",
+      "attemptedAt": "2026-08-03",
+      "baseDate": "2026-07-31",
+      "basePrice": 43.87,
+      "lastDate": "2026-07-31",
+      "lastClose": 43.87,
+      "changePct": 0.0,
+      "currency": "USD"
+    },
+    {
+      "reportId": "kioxia-2026",
+      "symbol": "285A.T",
+      "status": "ok",
+      "attemptedAt": "2026-08-03",
+      "baseDate": "2026-07-31",
+      "basePrice": 46500.0,
+      "lastDate": "2026-07-31",
+      "lastClose": 46500.0,
+      "changePct": 0.0,
+      "currency": "JPY"
     }
   ]
 }
