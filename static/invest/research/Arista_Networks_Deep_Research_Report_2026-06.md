@@ -1,7 +1,7 @@
 # Arista Networks (NYSE: ANET) Deep Research Report
 
 Coverage date: 2026-06-30
-Last updated: 2026-07-31
+Last updated: 2026-08-05
 Ticker: NYSE: ANET
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence. All prices and market caps are point-in-time snapshots; financial figures are per company disclosure unless noted otherwise.
 
@@ -18,6 +18,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 **Why it matters to this coverage structure:** ANET is the network-fabric dashboard for the AI infrastructure book. If Arista keeps expanding deferred revenue/RPO, sustaining 40%+ operating margins, and showing large AI customers choosing Ethernet fabrics, that supports the bull case for Broadcom, AAOI, Corning, Vertiv, and parts of the neocloud demand chain. If Arista decelerates or loses architecture ground to NVIDIA's integrated networking stack, it is an early warning that part of the AI infrastructure book may be overextended.
 
 **Current market read:** At the 2026-07-30 close of **$171.02** and Arista's 1.259B shares outstanding at April 30, 2026, market cap is about **$215.3B** (CompaniesMarketCap/Nasdaq showed $206.62B end-of-day on June 29, 2026, the old anchor). With Q1 2026 cash plus marketable securities of about **$12.35B** and no meaningful financial debt line, enterprise value is about **$203B**.
+
+> **2026-08-05 monitoring update (radar):** [Arista's SEC-filed Q2 release](https://www.sec.gov/Archives/edgar/data/1596532/000159653226000174/ex991q226-earningsrelease.htm) reported Q2 2026 on 2026-08-04 - revenue $3.036B (+37.7%, its first quarter above $3B), non-GAAP operating margin 49.9%, non-GAAP EPS $1.02, and Q3 revenue guided to about $3.3B. The open-ethernet-vs-integrated reading was refreshed to within (readingAsOf 2026-08-04). This confirms the open-Ethernet revenue and margin leg, not relative AI-back-end share versus NVIDIA. This is a monitoring-only update: valuation, stance, conviction and price anchors (the 2026-07-30 close / 2026-07-31 adjudication) are unchanged.
 
 > **Old price-check note — stale as written, superseded by the re-adjudication below.** ~~2026-07-31 price check: ANET closed at $157.97 on 2026-07-29 versus the $164.10 anchor, a -3.7% move, so the dated anchors below remain accurate within that margin and the valuation frame, scenario grid, stance and conviction are unchanged; no edit was required.~~
 

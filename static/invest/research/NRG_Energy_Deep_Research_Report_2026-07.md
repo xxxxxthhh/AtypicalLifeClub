@@ -1,7 +1,7 @@
 # NRG Energy Deep Research Report - Does AI Power Demand Reach Merchant Gas and Retail Power?
 
 Coverage date: 2026-07-05
-Last updated: 2026-07-31
+Last updated: 2026-08-05
 Ticker: NYSE: NRG
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -14,6 +14,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 **One-line thesis:** Merchant plus retail power dashboard for the AI-infrastructure power layer. NRG is not a pure nuclear-PPA name; it tests whether data-center power demand spreads into ordinary merchant capacity through the post-LS-Power roughly 25GW generation platform, CPower's roughly 6GW C&I VPP, Texas/PJM capacity markets, and Reliant/Vivint retail/home-services economics. Q1 2026 revenue was $10.26B, GAAP net income was $125M, adjusted EBITDA was $1.08B, and FCFbG was -$66M; 2026 guidance is adjusted EBITDA $5.325-5.825B, adjusted EPS $7.90-9.90, and FCFbG $2.8-3.3B. The LS Power deal was framed at about $12.0B enterprise value, 18 gas plants, about 13GW, CPower about 6GW and 2,000+ C&I customers, and is now reflected in 2026 results. At $133.97 (2026-07-30 close), about $28.3B market cap and about $52.2B EV, NRG trades around 15.1x the midpoint of 2026 adjusted EPS guidance and about 9.3x the midpoint of 2026 adjusted EBITDA guidance. Cautious / medium conviction: a 20% bull / 50% base / 30% bear grid shows contract conversion is still unproven while leverage/buyback discipline remains a constraint, leaving a mildly negative skew.
 
 **Current view:** **cautious, medium conviction.** NRG's asset quality and dispatchable-capacity optionality are real, but before named hyperscaler or tariff-backed C&I contracts appear, the current valuation already capitalizes guidance delivery, LS Power integration, and some capacity scarcity.
+
+> **2026-08-05 monitoring update (radar):** [NRG's SEC-filed Q2 release](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000018/nrgq22026ex991.htm) reported adjusted EBITDA of $1,217M (+34%) and alignment on principal commercial terms with an unnamed hyperscaler for a 1.2 GW Texas combined-cycle gas project, subject to final documentation and approvals. This is a prospective project, not a binding contract, construction commitment, delivery, or interconnection confirmation. The data-center-contract-conversion reading is unclear because the named-win trigger remains unmet. This is a monitoring-only update: valuation, stance, conviction and price anchors (the 2026-07-30 close / 2026-07-31 adjudication) are unchanged.
 
 > **Old price-check note — stale as written, superseded by the re-adjudication below.** ~~2026-07-31 price check: NRG closed at $124.23 on 2026-07-29 versus the $136.70 anchor, a -9.1% move, so the dated anchors below remain accurate within that margin and the valuation frame, scenario grid, stance and conviction are unchanged; no edit was required.~~
 

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-08-04",
+  "asOf": "2026-08-05",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -84,13 +84,13 @@
     {
       "reportId": "nrg-2026",
       "company": "NRG Energy",
-      "expectedDate": "2026-08",
-      "precision": "month",
-      "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "expectedDate": "2026-08-04",
+      "precision": "day",
+      "status": "issuer-confirmed",
+      "session": "before-open",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000018/nrgq22026ex991.htm",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-08-05"
     },
     {
       "reportId": "eqix-2026",
@@ -338,13 +338,13 @@
     {
       "reportId": "amd-2026",
       "company": "AMD",
-      "expectedDate": "2026-08",
-      "precision": "month",
-      "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "expectedDate": "2026-08-04",
+      "precision": "day",
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-08-05"
     },
     {
       "reportId": "jinpan-2026",
@@ -561,13 +561,13 @@
     {
       "reportId": "alab-2026",
       "company": "Astera Labs",
-      "expectedDate": "2026-08-05",
+      "expectedDate": "2026-08-04",
       "precision": "day",
-      "status": "recorded",
-      "session": "unspecified",
-      "sourceUrl": null,
-      "sourceType": "report-body",
-      "verifiedAt": "2026-08-01"
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000033/q226exhibit991.htm",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-08-05"
     },
     {
       "reportId": "amkr-2026",

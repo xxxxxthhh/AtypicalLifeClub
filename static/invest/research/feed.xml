@@ -6,6 +6,34 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>Astera Labs 深度研究报告 - 机架级 fan-out 是否构成独立瓶颈的架构校验 / Astera Labs Deep Research Report - Architecture Check on Whether Rack-Scale Fan-Out Is a Distinct Bottleneck</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=alab-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=alab-2026#alab-2026@2026-08-05</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施书 interconnect 层的首个节点与架构校验：机架级 fan-out 是独立插槽，但尚不是独立瓶颈，因此本层应读作架构指标而非卡口约束。Astera Labs 于 2026-08-04 披露 2026 Q2 初步业绩（季度截至 2026-06-30）：收入 $392.4M（同比 +104%、环比 +27%）、GAAP/非 GAAP 毛利率 73.3%/73.7%、非 GAAP 每股收益 $0.80，Q3 收入指引 $540-560M；Scorpio 预计在 Q3 提前一季成为最大产品线。客户集中、认股权证冲减收入与 retimer 被集成的结构性风险仍未解除。以下估值、情景网格、立场与确信度仍是 2026-07-30 的历史快照，并未因本次监测更新重算；谨慎 / 中确信不变。</description>
+    </item>
+    <item>
+      <title>NRG Energy 深度研究报告 - AI 电力需求是否穿透到 merchant gas 与零售电力 / NRG Energy Deep Research Report - Does AI Power Demand Reach Merchant Gas and Retail Power?</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=nrg-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=nrg-2026#nrg-2026@2026-08-05</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+      <description>2026-07-07 v5更新：NRG仍是AI基础设施power层的merchant + retail dashboard，价格锚点$133.97（2026-07-02）、市值约$28.3B、EV约$52.2B，约15.1x 2026调整后EPS指引中点、约9.3x 2026调整后EBITDA指引中点。20%牛市/50%基准/30%熊市情景显示合同转化尚未证明而杠杆/回购纪律仍是约束，v5立场迁移为谨慎/中确信。</description>
+    </item>
+    <item>
+      <title>Arista Networks 深度研究报告 - AI 集群开放以太网 fabric 的系统软件卖铲人 / Arista Networks Deep Research Report - The Open Ethernet Fabric of AI Clusters</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=arista-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=arista-2026#arista-2026@2026-08-05</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+      <description>AI 集群网络层首次覆盖：Arista 是开放以太网/AI spine/scale-out 网络的系统软件卖铲人，正面回答 NVIDIA Spectrum-X/InfiniBand/NVLink 一体化 vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet 生态的路线之争。Q1 2026 营收 $2.709B(+35.1%)、GAAP/非GAAP营业利润率 42.7%/47.8%、非GAAP EPS $0.87、经营现金流 $1.69B；Q2 指引营收约 $2.8B。FY2025 Cloud and AI Titans/AI Specialty Providers 占收入 48%/20%，Core AI/Cloud/Data Center Networking 占 65%。但两大匿名终端客户合计约 42% 收入(26%/16%)、高度依赖 Broadcom merchant silicon，且 Jun 29 2026 市值约 $206.6B、约 58x TTM GAAP P/E、约 49x 当前非GAAP EPS运行率。neutral-watch / 中等确信：高质量，但大多已定价。</description>
+    </item>
+    <item>
+      <title>AMD 深度研究报告 - AI时代的半导体挑战者 / AMD Deep Research Report - AI Era Semiconductor Challenger</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=amd-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amd-2026#amd-2026@2026-08-05</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+      <description>v5 回填：AMD Q1 2026 营收 $10.253B、Data Center 约 $5.8B，Meta 6GW、Helios/MI450、EPYC 与 ROCm 让 AI infrastructure 第二平台叙事更强。以 2026-07-30 收盘 $485.39、约 $7,920 亿 EV 和约 21.2x EV/TTM Sales 计，市场依然提前定价 Meta/Helios、MI450、ROCm 改善、Data Center 增长和利润率扩张；按 Q1 Non-GAAP EPS 年化仍约 89x、FCF 收益率约 1.3%。20% 牛市 / 40% 基准 / 40% 熊市情景仍给出负偏斜，维持谨慎 / 中确信。</description>
+    </item>
+    <item>
       <title>Palantir 深度研究报告 - AI 应用变现跑通了，但价格在跟倍数赛跑 / Palantir Deep Research Report - Application-Layer AI Monetization Works, but the Price Is Racing the Multiple</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=pltr-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=pltr-2026#pltr-2026@2026-08-04</guid>
@@ -83,13 +111,6 @@
       <description>AI 基础设施书 demand-risk 层的架构校验初始覆盖：本层已有两篇公共约束（Microsoft、Meta）和一篇仪表盘（Oracle），Alphabet 承担只有它能做的买方架构检验——全球最大自研芯片项目开始向第三方出售 TPU 系统，使它同时是商用芯片的前二大客户和竞争者。2026 Q2（季度截至 2026-06-30、07-22 发布）：收入 $119.796B（+24%）、Google Cloud +82% 至 $24.768B 且分部利润率 20.7%→35.6%、Search 及其他 +17%、合并经营利润率 34.0%、收入积压 $519.5B（Cloud $513.9B）。10-Q 首次写明 Cloud 产品收入主要来自 TPU 系统销售，存货半年由 $2.439B 升至 $9.991B。但同一季度自由现金流为 −$5.855B、回购连续两季为 $0（$69.5B 授权未动用）、6 月增发股权净额 $49.6B、股本 12,088M→12,230M，FY2026 capex 指引上调至 $195-205B、2027 年将显著更高。以 2026-07-30 收盘 $333.68 为锚（财报次日 07-23 单日 −6.9%），市值约 $4.081T、约 9.2x TTM 收入、约 26.7x EV/TTM 经营利润、约 73.9x EV/TTM 自由现金流；追溯 GAAP 市盈率约 16.7x 不可用，因 Q2 每股 $9.11 中 $6.26 来自权益证券估值变动，清洗后至少约 29.7x。30% 牛市 / 50% 基准 / 20% 熊市网格读出轻度正偏度但建立在预测之上，初始立场中性观察 / 中确信。</description>
     </item>
     <item>
-      <title>Astera Labs 深度研究报告 - 机架级 fan-out 是否构成独立瓶颈的架构校验 / Astera Labs Deep Research Report - Architecture Check on Whether Rack-Scale Fan-Out Is a Distinct Bottleneck</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=alab-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=alab-2026#alab-2026@2026-07-31</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施书 interconnect 层的首个节点与架构校验初始覆盖：该层此前节点数为零，本报告的任务是检验机架级 fan-out（PCIe/CXL retimer、PCIe 智能 fabric 交换、有源以太网线缆模块）是否构成区别于光连接层（coherent-2026、corning-2026、aaoi-2026）与网络层（arista-2026）的独立瓶颈。结论是分开的：机架级 fan-out 是独立的插槽（独立硅片与 BOM 行、每颗加速器含量超过 $1,000、76.3% 毛利率、两年前不存在的 Scorpio X 320 lane 交换），但不是独立的瓶颈（管理层称供应已备到年底、库存 75 天、无配给；收入 = 加速器出货量 × 配比 × 价格，没有独立周期；渠道与其他机架部件完全相同）。因此本层应被读作架构指标而非卡口约束。最新已报告期间是 2026 Q1（季度截至 2026-03-31、05-05 发布，下一次发布 2026-08-05）：收入 $308.4M（同比 +93%、环比 +14%）、GAAP 毛利率 76.3%、GAAP/非 GAAP 经营利润率 20.1%/36.2%、股权激励 $48.9M（占收入 15.9%）、Q2 指引 $355-365M 与毛利率约 73%。结构性风险清晰：五家直接客户占 Q1 收入约 90%（29%/21%/16%/12%/12%），第一大客户一年内自 12% 升至 29% 并持有 2026 年 2 月最多 3,262,299 股、行权价 $142.82、最大公允价值 $280.0M 的认股权证，按冲减收入处理；且 retimer 功能存在与否取决于 Broadcom、NVIDIA 与超大规模厂商是否选择集成。以 2026-07-30 收盘 $299.69 为锚（当日单日 +20.0%，较 06-30 收盘高点 $483.02 低 38.0%），市值约 $51.37B、企业价值约 $50.19B、约 50.1x EV/追溯收入、约 33x EV/我们自估的 CY2026 收入、约 192x 追溯 GAAP 市盈率、约 146x EV/追溯自由现金流；反推需要约五年 44% 复合增速才能以 8% 年化走到 12 倍收入终值。20% 牛市 / 50% 基准 / 30% 熊市网格读出负偏度，初始立场谨慎 / 中确信。</description>
-    </item>
-    <item>
       <title>MiniMax Group 深度研究报告 - 应用层需求验证与高估值压力测试 / MiniMax Group Deep Research Report - Application-Layer Demand Validation and Valuation Stress Test</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=minimax-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=minimax-2026#minimax-2026@2026-07-31</guid>
@@ -109,13 +130,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=synopsys-2026#synopsys-2026@2026-07-31</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
       <description>AI 基础设施 eda-ip 层的公共约束：SNPS 验证 AI silicon 需求是否穿透到 design automation、verification、simulation、IP blocks 和 system-level complexity。FY2026 Q2 revenue $2.276B（去年同期 $1.604B）、GAAP EPS $0.09、non-GAAP EPS $3.35；FY2026 指引 revenue $9.625-9.705B、non-GAAP EPS $14.72-14.80、FCF 约 $2.0B。指引包含约 $2.96B Ansys revenue，并假设没有进一步 export-control / Entity List 变化。以 2026-07-30 收盘 $372.33 计，市值约 $71.3B、EV 约 $79.7B，约 8.2x EV/FY2026E sales、约 25.2x non-GAAP P/E。偏多 / 中确信：倍数在 2026 年 7 月链条重定价中压缩，同一套指引框架反而更便宜，温和正预期差变宽；但整合、出口和客户周期性仍限制确信度。</description>
-    </item>
-    <item>
-      <title>NRG Energy 深度研究报告 - AI 电力需求是否穿透到 merchant gas 与零售电力 / NRG Energy Deep Research Report - Does AI Power Demand Reach Merchant Gas and Retail Power?</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=nrg-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=nrg-2026#nrg-2026@2026-07-31</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <description>2026-07-07 v5更新：NRG仍是AI基础设施power层的merchant + retail dashboard，价格锚点$133.97（2026-07-02）、市值约$28.3B、EV约$52.2B，约15.1x 2026调整后EPS指引中点、约9.3x 2026调整后EBITDA指引中点。20%牛市/50%基准/30%熊市情景显示合同转化尚未证明而杠杆/回购纪律仍是约束，v5立场迁移为谨慎/中确信。</description>
     </item>
     <item>
       <title>Lam Research 深度研究报告 - AI 内存与先进逻辑的刻蚀/沉积校验 / Lam Research Deep Research Report - Etch And Deposition Check On AI Memory And Advanced Logic</title>
@@ -242,13 +256,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=coreweave-2026#coreweave-2026@2026-07-31</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
       <description>【2026-07-31 立场重新裁定：CRWV 于 2026-07-30 收于 $73.90，较 07-29 低点反弹 +21.5%、较原锚点 -14.5%，市值约 $33.1B、EV 约 $66.0B；按所有者 Q1 裁定按当前价格复核，维持 bearish-avoid（中确信）——空头论点锚定在 EV 与结构，而 EV 仅较锚点约 -8%。】本中心 AI 基础设施书的『风险锚』，刻意以熊市为主轴写。GPU『neocloud』，一边是 $994 亿公司定义收入 backlog（RPO + 其他承诺客户合同金额）与 56% 调整后 EBITDA，一边是扩大的 GAAP 净亏损（Q1 2026 −$7.4 亿）、约 $249 亿债务、约 $100 亿经营租赁负债、$310-350 亿 2026 资本开支（约 3 倍营收）。客户集中（微软历史上收入占比 &gt;60%；CNBC 引 2024 年为 62%），NVIDIA 同时是供应商+股东（$20 亿@$87）+$63 亿产能兜底（循环性）。Q1 2026 营收 $20.78 亿(+112%)，FY2026 指引营收 $120-130 亿。股价已较 2025 峰值回落约 47% 至约 $96、市值约 $520 亿、经营租赁前金融净债务约 $229 亿、含经营租赁净义务栈约 $329 亿。中心问题：是真实经济需求还是被杠杆催起的提前囤货？2026-07-07 v5 更新：以 2026-07-06 收盘 旧锚点价格（已移除） 为锚，20% 牛市 / 30% 基准 / 50% 熊市情景网格给出负预期差，维持 bearish-avoid / 中确信。</description>
-    </item>
-    <item>
-      <title>Arista Networks 深度研究报告 - AI 集群开放以太网 fabric 的系统软件卖铲人 / Arista Networks Deep Research Report - The Open Ethernet Fabric of AI Clusters</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=arista-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=arista-2026#arista-2026@2026-07-31</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 集群网络层首次覆盖：Arista 是开放以太网/AI spine/scale-out 网络的系统软件卖铲人，正面回答 NVIDIA Spectrum-X/InfiniBand/NVLink 一体化 vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet 生态的路线之争。Q1 2026 营收 $2.709B(+35.1%)、GAAP/非GAAP营业利润率 42.7%/47.8%、非GAAP EPS $0.87、经营现金流 $1.69B；Q2 指引营收约 $2.8B。FY2025 Cloud and AI Titans/AI Specialty Providers 占收入 48%/20%，Core AI/Cloud/Data Center Networking 占 65%。但两大匿名终端客户合计约 42% 收入(26%/16%)、高度依赖 Broadcom merchant silicon，且 Jun 29 2026 市值约 $206.6B、约 58x TTM GAAP P/E、约 49x 当前非GAAP EPS运行率。neutral-watch / 中等确信：高质量，但大多已定价。</description>
     </item>
     <item>
       <title>康宁 深度研究报告 - AI 基础设施的光连接卖铲人 / Corning Deep Research Report - The Optical-Connectivity Pick-and-Shovel of AI Infrastructure</title>
@@ -382,13 +389,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=copx-2026#copx-2026@2026-07-31</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
       <description>2026-07-31 重新锚定：COPX 于 2026-07-30 收于 $79.50（较前一锚点 +1.3%）。全球最大纯铜矿ETF。2026-06-25 增量更新：AUM增至$79.9亿(+8%)，加权P/E从30-35x压缩至17.74x（盈利兑现）。铜价突破二月bull case上沿至~$13,531/吨($6.14/lb)，但price基本持平反映关税不确定性。YTD回报从+20.14%回落至+5.45%。COMEX溢价和232条款审查是短期核心变量。</description>
-    </item>
-    <item>
-      <title>AMD 深度研究报告 - AI时代的半导体挑战者 / AMD Deep Research Report - AI Era Semiconductor Challenger</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=amd-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amd-2026#amd-2026@2026-07-31</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <description>v5 回填：AMD Q1 2026 营收 $10.253B、Data Center 约 $5.8B，Meta 6GW、Helios/MI450、EPYC 与 ROCm 让 AI infrastructure 第二平台叙事更强。以 2026-07-30 收盘 $485.39、约 $7,920 亿 EV 和约 21.2x EV/TTM Sales 计，市场依然提前定价 Meta/Helios、MI450、ROCm 改善、Data Center 增长和利润率扩张；按 Q1 Non-GAAP EPS 年化仍约 89x、FCF 收益率约 1.3%。20% 牛市 / 40% 基准 / 40% 熊市情景仍给出负偏斜，维持谨慎 / 中确信。</description>
     </item>
     <item>
       <title>PayPal 深度调研报告 - 2025-2026年度分析 / PayPal Deep Research Report - 2025-2026 Analysis</title>

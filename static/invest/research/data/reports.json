@@ -1273,7 +1273,7 @@
     ],
     "category": "energy",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-05",
     "file": "/invest/research/reports/view.html?id=nrg-2026",
     "markdownFiles": {
       "zh": "/invest/research/NRG_Energy_深度研究报告_2026-07.md",
@@ -1294,7 +1294,7 @@
     "chainRole": "dashboard",
     "stance": "cautious",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "2026Q1",
+    "reportedPeriod": "2026Q2 monitoring / 2026-07-30 valuation frame",
     "related": [
       "vistra-2026",
       "constellation-energy-2026",
@@ -1315,11 +1315,10 @@
           "en": "realized adjusted EBITDA, synergies, plant availability and CPower contribution match the $12B deal logic"
         },
         "latest": {
-          "zh": "2026Q1 已反映完成收购；总发电容量约 25GW，Q1 adjusted EBITDA $1.08B",
-          "en": "Q1 2026 reflects the completed acquisition; total generation about 25GW and Q1 adjusted EBITDA $1.08B"
+          "zh": "2026 Q2 adjusted EBITDA $1.217B；LS Power 已并入口径，但本次新闻稿未单独量化协同、plant availability 或 CPower 贡献",
+          "en": "Q2 2026 adjusted EBITDA was $1.217B; LS Power is consolidated, but the release did not separately quantify synergies, plant availability, or CPower contribution"
         },
-        "nextCheck": "2026-Q2 / H2 integration update",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "H2 协同、plant availability 与 CPower 拆分 / H2 synergies, plant availability and CPower detail"
       },
       {
         "id": "data-center-contract-conversion",
@@ -1334,11 +1333,12 @@
           "en": "NRG discloses named hyperscaler or tariff-backed C&I power supply wins"
         },
         "latest": {
-          "zh": "已披露 data-center optionality 与 tailored supply opportunity，但未见具名 hyperscaler PPA",
-          "en": "data-center optionality and tailored supply opportunity disclosed; no named hyperscaler PPA observed"
+          "zh": "2026-08-04 Q2 2026 业绩：NRG 披露与一家未具名的『全球领先云与 AI 超大规模厂商』就在得州开发一座 1.2GW 联合循环天然气发电设施『达成主要商业条款』，但『仍需最终文件与批准』。这是迄今最具体的数据中心供电项目披露，但对手方仍未具名、且尚处主要条款阶段——本项触发条件要求『具名超大规模厂商或关税支撑的 C&I 供电成交』，具名条件仍未满足。（此前坊间报道的约 $3.2B 投资、2029 年底投产、约 $500M 年 EBITDA、可扩展至 2.4GW 等来自电话会二手转述，未见于官方新闻稿，故不计入。）",
+          "en": "2026-08-04 Q2 2026 results: NRG disclosed that 'the parties are aligned on principal commercial terms for the development of a 1.2 GW combined cycle natural gas generation facility in Texas' with an unnamed 'leading global cloud and AI hyperscaler,' and that it 'remains subject to final documentation and approvals.' This is the most concrete data-center power project disclosed so far, but the counterparty is still unnamed and it is only at principal-terms stage - this item's trigger requires a NAMED hyperscaler or tariff-backed C&I supply win, so the named-win condition is still not met. (Figures circulating in secondary call coverage - a ~$3.2B investment, late-2029 COD, ~$500M annual EBITDA, expandability to 2.4GW - are not in the official release and are excluded.)"
         },
-        "nextCheck": "large-load contracting disclosures",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "最终文件、具名对手方与项目批准 / final documentation, named counterparty and project approvals",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-04"
       },
       {
         "id": "ercot-pjm-capacity-pricing",
@@ -1391,11 +1391,10 @@
           "en": "net debt / adjusted EBITDA fails to move toward the <3.0x target, or buybacks crowd out credit quality"
         },
         "latest": {
-          "zh": "Q1 cash $178M、debt/capital lease obligations 约 $23.21B；2026 planned buybacks $1.0B",
-          "en": "Q1 cash $178M, debt/capital lease obligations about $23.21B; 2026 planned buybacks $1.0B"
+          "zh": "公司计划 2026 年通过回购返还 $1.0B，截至 2026-07-31 已完成 $932M；本次新闻稿未提供可替代 Q1 债务口径的完整杠杆复核",
+          "en": "The company plans to return $1.0B through repurchases in 2026 and completed $932M through 2026-07-31; the release did not provide a full leverage re-read that supersedes the Q1 debt frame"
         },
-        "nextCheck": "debt, FCFbG and capital allocation update",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "H2 debt、FCFbG 与资本配置 / H2 debt, FCFbG and capital allocation"
       }
     ],
     "conviction": "medium",
@@ -1843,7 +1842,7 @@
     ],
     "category": "tech",
     "date": "2026-06-30",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-05",
     "file": "/invest/research/reports/view.html?id=arista-2026",
     "markdownFiles": {
       "zh": "/invest/research/Arista_Networks_深度研究报告_2026-06.md",
@@ -1864,7 +1863,7 @@
     "chainRole": "architecture-check",
     "stance": "neutral-watch",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q1 2026",
+    "reportedPeriod": "Q2 2026 monitoring / 2026-07-30 valuation frame",
     "related": [
       "broadcom-2026",
       "aaoi-2026",
@@ -1903,10 +1902,12 @@
           "en": "NVIDIA Spectrum-X/InfiniBand/NVLink erodes open-Ethernet AI back-end share (or open Ethernet wins clearer share evidence)"
         },
         "latest": {
-          "zh": "FY2025 Cloud & AI Titans/AI Specialty 占 48%/20%；Core 收入占 65%；800G 生态推进",
-          "en": "FY2025 Cloud & AI Titans / AI Specialty at 48%/20%; Core 65%; 800G ecosystem advancing"
+          "zh": "2026-08-04 Q2 2026 业绩（季度截至 2026-06-30）：收入 $3.036B（同比 +37.7%），公司首次单季突破 $30 亿；GAAP 毛利率 62.9%、非 GAAP 63.4%；GAAP 营业利润率 45.4%、非 GAAP 49.9%；GAAP 每股收益 $0.95、非 GAAP $1.02。Q3 2026 指引收入约 $3.3B、非 GAAP 营业利润率 48–49%、非 GAAP 每股收益 $1.06–1.08。开放以太网营收与利润率延续强势；但本次发布未给出更新的 AI 后端相对 NVIDIA Spectrum-X/InfiniBand 的份额数据，份额层面的确认仍需 10-Q 与客户拆分。",
+          "en": "2026-08-04 Q2 2026 results (quarter ended 2026-06-30): revenue $3.036B (+37.7% YoY), the first quarter above $3B; GAAP gross margin 62.9% / non-GAAP 63.4%; GAAP operating margin 45.4% / non-GAAP 49.9%; GAAP EPS $0.95 / non-GAAP $1.02. Q3 2026 guided to revenue of about $3.3B, non-GAAP operating margin of 48-49%, and non-GAAP EPS of $1.06-1.08. Open-Ethernet revenue and margin strength continued; but this release did not provide updated AI-back-end share data versus NVIDIA Spectrum-X/InfiniBand, so share-level confirmation still requires the 10-Q and customer detail."
         },
-        "nextCheck": "hyperscaler 网络架构公告与 Q2 指引 / architecture announcements & Q2 guide"
+        "nextCheck": "hyperscaler 网络架构公告与 Q3 兑现 / architecture announcements and Q3 delivery",
+        "reading": "within",
+        "readingAsOf": "2026-08-04"
       },
       {
         "id": "broadcom-silicon-dependency",
@@ -4943,7 +4944,7 @@
     ],
     "category": "tech",
     "date": "2026-02-04",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-05",
     "file": "/invest/research/reports/view.html?id=amd-2026",
     "markdownFiles": {
       "zh": "/invest/research/AMD_深度研究报告_2026-02.md",
@@ -4960,7 +4961,7 @@
     "coverageTier": "full",
     "stance": "cautious",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q1 2026",
+    "reportedPeriod": "Q2 2026 monitoring / 2026-07-30 valuation frame",
     "related": [
       "nvidia-2026",
       "broadcom-2026"
@@ -4979,10 +4980,12 @@
           "en": "the first 1GW ships on schedule in H2 2026 — the core H2 test"
         },
         "latest": {
-          "zh": "多年 6GW 合作；Helios/MI450 强化平台叙事",
-          "en": "multi-year 6GW deal; Helios/MI450 strengthen the platform story"
+          "zh": "多年期 6GW 协议仍是核心锚点；在 2026-08-04 Q2 2026 电话会上，AMD 称 Helios（MI450 机架系统）正被 Anthropic、Cirrascale、HUMAIN、Meta、Microsoft、OpenAI、Oracle、Tensorwave、Vultr 等部署，与 Anthropic 的合作提及最多 2GW 的 MI450——这些均为已宣布的部署计划，而非已披露的出货量或已完成出货。H2 2026 的核心检验（首个 1GW 是否按期出货）尚未落定。",
+          "en": "The multi-year 6GW deal remains the anchor; on the 2026-08-04 Q2 2026 call AMD described Helios (MI450 rack systems) as being deployed by Anthropic, Cirrascale, HUMAIN, Meta, Microsoft, OpenAI, Oracle, Tensorwave, Vultr and others, with the Anthropic partnership referencing up to 2GW of MI450 - these are stated deployment plans, not disclosed shipment volumes or completed shipments. The core H2 2026 test (first 1GW shipping on schedule) is not yet resolved."
         },
-        "nextCheck": "2026-H2 出货确认 / H2 shipment confirmation"
+        "nextCheck": "2026-H2 出货确认 / H2 shipment confirmation",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-04"
       },
       {
         "id": "datacenter-growth",
@@ -4997,11 +5000,12 @@
           "en": "a DC growth stall directly hits the high-expectations pricing"
         },
         "latest": {
-          "zh": "Q1 2026 营收 $102.53 亿（+38%）、DC 约 $58 亿（+57%）",
-          "en": "Q1 2026 revenue $10.253B (+38%), DC ~$5.8B (+57%)"
+          "zh": "2026-08-04 Q2 2026 业绩（季度截至 2026-06-27）：季度收入 $11.5B（同比 +50%，GAAP），数据中心分部 $6.7B（同比 +107%、约占总收入 58%）；GAAP 毛利率 54%、非 GAAP 56%；GAAP 稀释每股收益 $1.38、非 GAAP $1.66。Q3 2026 指引收入约 $13B（±$300M）、非 GAAP 毛利率约 56%。数据中心增速由 Q1 的 +57% 进一步加速至 +107%，未见增长失速。",
+          "en": "2026-08-04 Q2 2026 results (quarter ended 2026-06-27): quarterly revenue $11.5B (+50% YoY, GAAP) and Data Center segment $6.7B (+107% YoY, about 58% of total revenue); GAAP gross margin 54% / non-GAAP 56%; GAAP diluted EPS $1.38 / non-GAAP $1.66. Q3 2026 guided to revenue of about $13B (±$300M) and non-GAAP gross margin of about 56%. Data-center growth accelerated from +57% in Q1 to +107%, with no growth stall."
         },
-        "nextCheck": "2026-Q2 财报 / Q2 earnings",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "2026-Q3 财报与数据中心增速 / Q3 earnings and Data Center growth",
+        "reading": "within",
+        "readingAsOf": "2026-08-04"
       },
       {
         "id": "rocm-helios-competitiveness",
@@ -5034,11 +5038,10 @@
           "en": "multiple compression from ~23.4x EV/TTM Sales with price near the bull-case floor"
         },
         "latest": {
-          "zh": "2026-07-31 估值重锚（非财报，仅价格）：2026-07-30 收盘 $485.39（较 2026-06-18 旧锚点 $537.37 跌约 9.7%）；市值约 $801B、EV 约 $792B，EV/TTM Sales 约 21.2x（旧口径约 23.4x）、EV/Forward Sales 约 15.8-17.3x、约 89x 年化 Q1 非 GAAP EPS、FCF 收益率约 1.3%。立场维持 cautious / 中确信；2026-08-04 的 Q2 财报是下一个检验点。",
-          "en": "2026-07-31 valuation re-anchor (price-only, not an earnings update): AMD closed at $485.39 on 2026-07-30 (about -9.7% from the old 2026-06-18 anchor of $537.37); market cap about $801B, EV about $792B, EV/TTM Sales about 21.2x (old caliber about 23.4x), EV/Forward Sales about 15.8-17.3x, about 89x annualized Q1 non-GAAP EPS, FCF yield about 1.3%. Stance stays cautious / medium conviction; the 2026-08-04 Q2 print is the next test."
+          "zh": "2026-07-31 估值重锚（非财报，仅价格）：2026-07-30 收盘 $485.39（较 2026-06-18 旧锚点 $537.37 跌约 9.7%）；市值约 $801B、EV 约 $792B，EV/TTM Sales 约 21.2x（旧口径约 23.4x）、EV/Forward Sales 约 15.8-17.3x、约 89x 年化 Q1 非 GAAP EPS、FCF 收益率约 1.3%。2026-08-04 Q2 业绩只作为事实监测纳入，尚未重算这些倍数、情景网格、立场或确信度；下一步是用当前价格进行完整估值复核。",
+          "en": "2026-07-31 valuation re-anchor (price-only, not an earnings update): AMD closed at $485.39 on 2026-07-30 (about -9.7% from the old 2026-06-18 anchor of $537.37); market cap about $801B, EV about $792B, EV/TTM Sales about 21.2x (old caliber about 23.4x), EV/Forward Sales about 15.8-17.3x, about 89x annualized Q1 non-GAAP EPS, and FCF yield about 1.3%. The 2026-08-04 Q2 print is incorporated only as factual monitoring and these multiples, the scenario grid, stance, and conviction have not been recomputed; the next step is a full valuation review using a current price."
         },
-        "nextCheck": "2026-Q2 财报 / Q2 earnings",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "Q2 后的完整估值复核 / full valuation re-adjudication after Q2"
       }
     ],
     "conviction": "medium",
@@ -8640,8 +8643,8 @@
     "priceSymbol": "ALAB",
     "title": "Astera Labs 深度研究报告 - 机架级 fan-out 是否构成独立瓶颈的架构校验",
     "titleEn": "Astera Labs Deep Research Report - Architecture Check on Whether Rack-Scale Fan-Out Is a Distinct Bottleneck",
-    "summary": "AI 基础设施书 interconnect 层的首个节点与架构校验初始覆盖：该层此前节点数为零，本报告的任务是检验机架级 fan-out（PCIe/CXL retimer、PCIe 智能 fabric 交换、有源以太网线缆模块）是否构成区别于光连接层（coherent-2026、corning-2026、aaoi-2026）与网络层（arista-2026）的独立瓶颈。结论是分开的：机架级 fan-out 是独立的插槽（独立硅片与 BOM 行、每颗加速器含量超过 $1,000、76.3% 毛利率、两年前不存在的 Scorpio X 320 lane 交换），但不是独立的瓶颈（管理层称供应已备到年底、库存 75 天、无配给；收入 = 加速器出货量 × 配比 × 价格，没有独立周期；渠道与其他机架部件完全相同）。因此本层应被读作架构指标而非卡口约束。最新已报告期间是 2026 Q1（季度截至 2026-03-31、05-05 发布，下一次发布 2026-08-05）：收入 $308.4M（同比 +93%、环比 +14%）、GAAP 毛利率 76.3%、GAAP/非 GAAP 经营利润率 20.1%/36.2%、股权激励 $48.9M（占收入 15.9%）、Q2 指引 $355-365M 与毛利率约 73%。结构性风险清晰：五家直接客户占 Q1 收入约 90%（29%/21%/16%/12%/12%），第一大客户一年内自 12% 升至 29% 并持有 2026 年 2 月最多 3,262,299 股、行权价 $142.82、最大公允价值 $280.0M 的认股权证，按冲减收入处理；且 retimer 功能存在与否取决于 Broadcom、NVIDIA 与超大规模厂商是否选择集成。以 2026-07-30 收盘 $299.69 为锚（当日单日 +20.0%，较 06-30 收盘高点 $483.02 低 38.0%），市值约 $51.37B、企业价值约 $50.19B、约 50.1x EV/追溯收入、约 33x EV/我们自估的 CY2026 收入、约 192x 追溯 GAAP 市盈率、约 146x EV/追溯自由现金流；反推需要约五年 44% 复合增速才能以 8% 年化走到 12 倍收入终值。20% 牛市 / 50% 基准 / 30% 熊市网格读出负偏度，初始立场谨慎 / 中确信。",
-    "summaryEn": "First node and initial architecture-check coverage for the AI-infrastructure book's interconnect layer, which until now had zero nodes. The report's job is to test whether rack-scale fan-out (PCIe/CXL retimers, PCIe smart fabric switches, active Ethernet cable modules) is a bottleneck distinct from the optical layer (coherent-2026, corning-2026, aaoi-2026) and the networking layer (arista-2026). The finding splits the question: rack fan-out is a distinct socket (its own silicon and BOM line, over $1,000 of claimed content per accelerator, a 76.3% gross margin, and in Scorpio X-Series a 320-lane switch that did not exist in the rack two years ago) but not a distinct bottleneck (management says supply is in place through year-end with 75 days of inventory and no allocation; revenue is accelerator units times attach times price with no independent cycle; and it ships through the same channel as every other rack component). The layer is therefore an architecture read, not a constraint read. The latest reported period is Q1 2026 (quarter ended 2026-03-31, reported 05-05; next print 2026-08-05): revenue $308.4M (+93% YoY, +14% QoQ), GAAP gross margin 76.3%, GAAP/non-GAAP operating margin 20.1%/36.2%, stock-based compensation $48.9M or 15.9% of revenue, and Q2 guided to $355-365M at a ~73% gross margin. The structural risks are equally clear: five direct customers were about 90% of Q1 revenue (29%/21%/16%/12%/12%), the top one rose from 12% to 29% in four quarters and holds a February 2026 warrant over up to 3,262,299 shares at $142.82 with a $280.0M maximum fair value that is recognized as contra-revenue, and the merchant retimer socket exists only while Broadcom, NVIDIA and the hyperscalers choose not to integrate it. Anchored to the 2026-07-30 close of $299.69 (+20.0% on the session, 38.0% below the 06-30 closing high of $483.02), market cap is ~$51.37B and enterprise value ~$50.19B, at ~50.1x EV/TTM revenue, ~33x EV on our own CY2026 revenue estimate, ~192x trailing GAAP earnings and ~146x EV/TTM free cash flow; the reverse test needs roughly 44% compound growth for five years to earn 8% a year to a terminal 12x revenue. The 20% bull / 50% base / 30% bear grid reads a negative skew, so the initiation opens at cautious / medium conviction.",
+    "summary": "AI 基础设施书 interconnect 层的首个节点与架构校验：机架级 fan-out 是独立插槽，但尚不是独立瓶颈，因此本层应读作架构指标而非卡口约束。Astera Labs 于 2026-08-04 披露 2026 Q2 初步业绩（季度截至 2026-06-30）：收入 $392.4M（同比 +104%、环比 +27%）、GAAP/非 GAAP 毛利率 73.3%/73.7%、非 GAAP 每股收益 $0.80，Q3 收入指引 $540-560M；Scorpio 预计在 Q3 提前一季成为最大产品线。客户集中、认股权证冲减收入与 retimer 被集成的结构性风险仍未解除。以下估值、情景网格、立场与确信度仍是 2026-07-30 的历史快照，并未因本次监测更新重算；谨慎 / 中确信不变。",
+    "summaryEn": "First node and architecture check for the AI-infrastructure book's interconnect layer: rack-scale fan-out is a distinct socket but not yet a distinct bottleneck, so the layer remains an architecture read rather than a constraint read. Astera Labs disclosed preliminary Q2 2026 results on 2026-08-04 (quarter ended 2026-06-30): revenue $392.4M (+104% YoY, +27% QoQ), GAAP/non-GAAP gross margins of 73.3%/73.7%, non-GAAP EPS of $0.80, and Q3 revenue guidance of $540-560M; Scorpio is expected to become the largest product family in Q3, one quarter early. Customer concentration, warrant contra-revenue, and retimer-integration risks remain unresolved. The valuation, scenario grid, stance, and conviction below remain the historical 2026-07-30 snapshot and were not recomputed for this monitoring update; cautious / medium conviction is unchanged.",
     "tags": [
       "AI基础设施",
       "芯片互连",
@@ -8650,7 +8653,7 @@
     ],
     "category": "tech",
     "date": "2026-07-31",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-05",
     "file": "/invest/research/reports/view.html?id=alab-2026",
     "markdownFiles": {
       "zh": "/invest/research/Astera_Labs_深度研究报告_2026-07.md",
@@ -8662,7 +8665,7 @@
     "highlights": [
       "interconnect 层首个节点：本层此前为空，ALAB 以架构校验身份开层，与 broadcom-2026 / marvell-2026 在供给侧配对",
       "核心结论：机架级 fan-out 是独立的插槽，但不是独立的瓶颈——供应已备到年底、库存 75 天、无配给，收入无独立周期，本层应读作架构指标而非卡口约束",
-      "2026 Q1（下一次发布 2026-08-05）：收入 $308.4M（+93%）、GAAP 毛利率 76.3%、非 GAAP 经营利润率 36.2%、PCIe Gen 6 跨过收入三分之一、Q2 指引 $355-365M",
+      "2026 Q2 初步业绩（2026-08-04）：收入 $392.4M（+104% YoY、+27% QoQ）、非 GAAP 毛利率 73.7%、Q3 指引 $540-560M，Scorpio 预计提前一季成为最大产品线",
       "结构性风险：五家直接客户占 Q1 收入约 90%，第一大客户一年内 12%→29% 并持有最多 3,262,299 股、行权价 $142.82 的权证按冲减收入处理；Broadcom/NVIDIA 随时可集成掉 retiming",
       "股价 $299.69（2026-07-30 收盘、单日 +20.0%、较 6 月高点 -38.0%）：约 50.1x EV/追溯收入、约 33x EV/CY2026E、约 192x 追溯 GAAP；20/50/30 网格，初始谨慎 / 中确信"
     ],
@@ -8672,7 +8675,7 @@
     "stance": "cautious",
     "conviction": "medium",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q1 2026",
+    "reportedPeriod": "Q2 2026 preliminary monitoring / 2026-07-30 valuation frame",
     "related": [
       "broadcom-2026",
       "marvell-2026",
@@ -8694,13 +8697,12 @@
           "en": "Year-over-year revenue growth falls below ~40%, or Scorpio fails to become the largest product line by end-2026 as management guided"
         },
         "latest": {
-          "zh": "2026 Q1 收入 $308.4M、同比 +93%、环比 +14%；Q2 指引 $355-365M（环比 +15%-18%，隐含同比约 +88%）；电话会称 PCIe Gen 6 贡献总收入三分之一以上，Scorpio X 系列自 05-05 出货、量产爬坡指引 2026 下半年，并预期 Scorpio 在 2026 年底成为最大产品线、超过 Aries 与 Taurus；公司不披露分产品线收入",
-          "en": "Q1 2026 revenue was $308.4M, +93% YoY and +14% QoQ; Q2 is guided to $355-365M (+15-18% QoQ, implying about +88% YoY); on the call management said PCIe Gen 6 contributed more than one-third of total revenue, that Scorpio X-Series has shipped since 05-05 with production ramp guided to H2 2026, and that Scorpio should become the largest product line by end-2026, surpassing Aries and Taurus; no product-line revenue is disclosed"
+          "zh": "2026-08-04 Q2 2026 初步业绩（季度截至 2026-06-30）：收入 $392.4M（同比 +104%、环比 +27%），高于此前 $355–365M 指引上沿；GAAP 毛利率 73.3%、非 GAAP 73.7%；GAAP 每股收益 $0.83、非 GAAP $0.80；Q3 2026 指引 $540–560M。管理层称 Scorpio fabric 交换机将于 Q3 成为最大产品线，较此前预期提前一个季度；Aries 产品线创单季收入纪录。同比增速 +104% 远高于 ~40% 触发线、Scorpio 里程碑提前，读数维持 within。",
+          "en": "2026-08-04 preliminary Q2 2026 results (quarter ended 2026-06-30): revenue $392.4M (+104% YoY, +27% QoQ), above the prior $355-365M guidance range; GAAP gross margin 73.3% / non-GAAP 73.7%; GAAP EPS $0.83 / non-GAAP $0.80; Q3 2026 guided to $540-560M. Management said Scorpio fabric switches will become the largest product family in Q3, one quarter ahead of prior expectations, and the Aries product line set a quarterly revenue record. YoY growth of +104% is far above the ~40% trigger and the Scorpio milestone is pulled forward, so the reading stays within."
         },
-        "nextCheck": "2026 Q2 财报（2026-08-05）/ Q2 2026 earnings (2026-08-05)",
-        "nextCheckDate": "2026-08",
+        "nextCheck": "2026 Q3 财报与 Scorpio 产品结构 / Q3 2026 earnings and Scorpio mix",
         "reading": "within",
-        "readingAsOf": "2026-05-05"
+        "readingAsOf": "2026-08-04"
       },
       {
         "id": "gross-margin-trajectory",
@@ -8715,13 +8717,12 @@
           "en": "Non-GAAP gross margin settles below ~70% for two consecutive quarters, or a new structural discount appears beyond the warrant contra-revenue"
         },
         "latest": {
-          "zh": "2026 Q1 GAAP 毛利率 76.3%、非 GAAP 76.4%，环比升约 70 个基点；Q2 指引约 73%，管理层将其中约 200 个基点归因于最近签署的一项客户权证协议的非现金影响",
-          "en": "Q1 2026 GAAP gross margin was 76.3% and non-GAAP 76.4%, up about 70bps sequentially; Q2 is guided to about 73%, with management attributing roughly 200bps of the step-down to a non-cash impact from a recently executed customer warrant agreement"
+          "zh": "2026-08-04 Q2 2026：非 GAAP 毛利率 73.7%（GAAP 73.3%），略高于此前约 73% 的指引，较 Q1 的 76.4% 环比下降约 270bp（此前管理层将其中约 200bp 归因于认股权证相关的非现金冲减）；仍远高于约 70% 的两季触发线。",
+          "en": "2026-08-04 Q2 2026: non-GAAP gross margin 73.7% (GAAP 73.3%), slightly above the prior ~73% guide and down about 270bp from Q1's 76.4% (management had attributed about 200bp of the step-down to a non-cash warrant-related contra-revenue impact); still well above the ~70% two-quarter trigger."
         },
-        "nextCheck": "每季毛利率与 Q2 指引兑现情况 / quarterly gross margin and delivery against the Q2 guide",
-        "nextCheckDate": "2026-08",
+        "nextCheck": "每季毛利率与 Q3 指引兑现情况 / quarterly gross margin and delivery against the Q3 guide",
         "reading": "within",
-        "readingAsOf": "2026-05-05"
+        "readingAsOf": "2026-08-04"
       },
       {
         "id": "customer-concentration",

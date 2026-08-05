@@ -1,16 +1,56 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T04:41:01Z",
+  "generatedAt": "2026-08-05T02:03:53Z",
   "reference": {
-    "mode": "instant",
-    "value": "2026-08-04T04:41:01Z"
+    "mode": "literal-date",
+    "value": "2026-08-05"
   },
   "tasks": [
     {
-      "id": "earnings:arista-2026:2026-08-04:T",
+      "id": "earnings:aaoi-2026:2026-08-06:T-1",
+      "reportId": "aaoi-2026",
+      "type": "research-update",
+      "window": "T-1",
+      "expectedDate": "2026-08-06",
+      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
+    },
+    {
+      "id": "earnings:alab-2026:2026-08-04:T+1",
+      "reportId": "alab-2026",
+      "type": "research-update",
+      "window": "T+1",
+      "expectedDate": "2026-08-04",
+      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
+    },
+    {
+      "id": "earnings:amd-2026:2026-08-04:T+1",
+      "reportId": "amd-2026",
+      "type": "research-update",
+      "window": "T+1",
+      "expectedDate": "2026-08-04",
+      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
+    },
+    {
+      "id": "earnings:arista-2026:2026-08-04:T+1",
       "reportId": "arista-2026",
       "type": "research-update",
-      "window": "T",
+      "window": "T+1",
+      "expectedDate": "2026-08-04",
+      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
+    },
+    {
+      "id": "earnings:mp-2026:2026-08-06:T-1",
+      "reportId": "mp-2026",
+      "type": "research-update",
+      "window": "T-1",
+      "expectedDate": "2026-08-06",
+      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
+    },
+    {
+      "id": "earnings:nrg-2026:2026-08-04:T+1",
+      "reportId": "nrg-2026",
+      "type": "research-update",
+      "window": "T+1",
       "expectedDate": "2026-08-04",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     }

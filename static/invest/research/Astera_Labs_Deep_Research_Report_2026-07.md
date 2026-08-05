@@ -1,7 +1,7 @@
 # Astera Labs (ALAB) Deep Research Report
 
 Coverage date: 2026-07-31
-Last updated: 2026-07-31
+Last updated: 2026-08-05
 Ticker: NASDAQ: ALAB
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -15,7 +15,9 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 **Current view:** **Cautious, medium conviction.** This is not a quality objection. The operating evidence is among the best in the entire book: 93% growth, 76% gross margin, 36.2% non-GAAP operating margin, net cash of about $1.18B, no debt, and a genuinely new switch socket (Scorpio X-Series, 320 lanes) that did not exist in the rack two years ago. The objection is skew at the price. The July 2026 AI-infrastructure repricing took ALAB from a $432.74 close on July 6 to $249.74 on July 29 (-42.3%) and then back up 20.0% in a single session on July 30 - and even after that round trip the multiple is the richest in this coverage by a wide margin. Conviction is medium rather than low because no single quarter closes a gap this size, and medium rather than high because the two things that would settle the thesis - 2027 NVLink Fusion and UALink revenue, and whether the retimer function survives integration - are outside the current disclosure window.
 
-**Timing note, stated up front:** the latest *reported* period is **Q1 2026 (quarter ended 2026-03-31, reported 2026-05-05)**. Astera Labs is scheduled to report Q2 2026 on **2026-08-05**, five days after this initiation's price anchor. The fact base here is therefore roughly three months old while the price is one day old, and that asymmetry is deliberate: the price anchor must be the latest completed close, and the last completed US session at the time of writing was 2026-07-30.
+**Timing note, updated:** Astera Labs disclosed **preliminary Q2 2026 results (quarter ended 2026-06-30)** on **2026-08-04**. The report's valuation frame remains anchored to the 2026-07-30 close and has not been recomputed for this monitoring update.
+
+> **2026-08-05 monitoring update (radar):** [Astera Labs' SEC-filed release](https://www.sec.gov/Archives/edgar/data/1736297/000173629726000033/q226exhibit991.htm) labels these **preliminary** Q2 2026 results: revenue $392.4M (+104% YoY, +27% QoQ), non-GAAP EPS $0.80, and Q3 revenue guidance of $540-560M, with Scorpio expected to become the largest product family in Q3, one quarter early. The revenue-growth-and-scorpio-mix and gross-margin-trajectory readings were refreshed (both within; readingAsOf 2026-08-04). This is a monitoring-only update: valuation, stance, conviction and the 2026-07-30 price anchor are unchanged.
 
 **Quick stats:**
 
@@ -25,7 +27,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Trailing-year close range | $100.27 (2026-03-30) - $483.02 (2026-06-30); today is ~38.0% below the June closing high and ~199% above the March closing low |
 | Market cap / shares | About $51.37B; 171,407,939 shares outstanding at 2026-04-30 (10-Q cover) |
 | Net cash / enterprise value | About $1.18B (cash $148.3M + marketable securities $1,036.2M, no meaningful debt) / about $50.19B |
-| Latest reported period | Q1 2026, quarter ended 2026-03-31 (reported 2026-05-05); next print 2026-08-05 |
+| Latest reported period | Preliminary Q2 2026, quarter ended 2026-06-30 (disclosed 2026-08-04); valuation remains on the 2026-07-30 frame |
 | Q1 revenue / YoY / QoQ | $308.4M, +93% / +14% |
 | Q1 gross margin (GAAP / non-GAAP) | 76.3% / 76.4% |
 | Q1 operating income / margin (GAAP / non-GAAP) | $61.8M, 20.1% / $111.7M, 36.2% |
