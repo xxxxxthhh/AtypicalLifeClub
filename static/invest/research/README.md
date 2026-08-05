@@ -97,6 +97,8 @@ static/invest/research/
 
 ## 追踪与复核规则
 
+公司财报日期与定时任务的固定入口、状态升级、事件时区和责任边界见 [`docs/earnings-update-automation.md`](../../../docs/earnings-update-automation.md)。财报日精度及事件本地时区保存在 `data/earnings-calendar.json`，每日生成的待办保存在 `data/earnings-tasks.json`；两者不替代下述 monitoring 与 signal 契约。
+
 监控台的复核候选队列只用于排序复核工作，不会自动触发重跑。队列公式固定为 `ageDays / 60 + driftPct / 25`，其中 `ageDays` 来自报告的 `priceAsOf`，`driftPct` 来自 `data/prices.json` 的 `changePct` 绝对值；`ageDays > 60` 或 `driftPct >= 25` 会成为复核候选。缺失价格是一等状态：在队列里显示为 `无价格数据`，只按年龄项排序，不折算成 `0%` 漂移。
 
 Batch-2 的未完成重跑 backlog 也进入同一套队列视角。队列给出排序，人决定是否重跑；不要把队列结果解释成投资信号或自动发布条件。

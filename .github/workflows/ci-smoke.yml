@@ -39,6 +39,9 @@ jobs:
       - name: Validate research metadata
         run: python3 static/invest/research/validate_reports.py
 
+      - name: Validate earnings calendar
+        run: python3 static/invest/research/validate_earnings_calendar.py
+
       - name: Validate coverage map
         run: python3 static/invest/research/validate_coverage_map.py
 

@@ -41,6 +41,12 @@ jobs:
       - name: Validate research prices
         run: python3 static/invest/research/validate_prices.py
 
+      - name: Validate earnings calendar
+        run: python3 static/invest/research/validate_earnings_calendar.py
+
+      - name: Generate earnings research task queue
+        run: python3 static/invest/research/earnings_tasks.py
+
       - name: Generate verdict ledger
         run: python3 static/invest/research/update_verdicts.py
 
@@ -54,5 +60,5 @@ jobs:
         run: |
           git config --global user.name 'GitHub Actions Bot'
           git config --global user.email 'actions@github.com'
-          git add static/invest/research/data/prices.json static/invest/research/data/verdicts.json static/invest/research/data/calibration-history.json
+          git add static/invest/research/data/prices.json static/invest/research/data/verdicts.json static/invest/research/data/calibration-history.json static/invest/research/data/earnings-tasks.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update research price data - $(date +'%Y-%m-%d')" && git push)

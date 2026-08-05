@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-04T04:41:01Z",
+  "reference": {
+    "mode": "instant",
+    "value": "2026-08-04T04:41:01Z"
+  },
+  "tasks": [
+    {
+      "id": "earnings:arista-2026:2026-08-04:T",
+      "reportId": "arista-2026",
+      "type": "research-update",
+      "window": "T",
+      "expectedDate": "2026-08-04",
+      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
+    }
+  ]
+}
