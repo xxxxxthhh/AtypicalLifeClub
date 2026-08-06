@@ -4541,7 +4541,7 @@
     "ticker": "NYSE: SPOT",
     "title": "Spotify 深度研究报告 - 全球音频科技平台的盈利转型与估值再评估",
     "titleEn": "Spotify Deep Research Report - The Global Audio Tech Platform's Profitability Transformation and Valuation Reassessment",
-    "summary": "全球最大音频流媒体平台，已完成从长期亏损到盈利的转型。Q1 2026 TTM运营利润率15.77%、MAU 7.61亿、净利€2.71B（约$3.0B）。2026/6/25增量更新：股价$442、市值~$910亿、Forward P/E ~31x，较2月初次覆盖时P/E从~53-66x大幅压缩。估值压力显著缓解，但上行空间收窄至~13%。",
+    "summary": "2026-08-06更新（Q2 2026）：营收€4.777B（+14%，恒定汇率+15%）、毛利率33.4%、营业利润€655M、净利€545M、FCF€797M、Premium 3.00亿、MAU 7.77亿。相对公司指引，MAU少100万、营收符合，订户/毛利率/营业利润高于。按8/5收盘$482.23及ECB EUR/USD 1.1554重锚，市值约$99.2B、TTM P/E约25.7x、P/S约4.7x、FCF收益率约3.8%；基准DCF要求未来五年FCF约14.5%年增，维持中性偏多/中等。",
     "tags": [
       "流媒体",
       "音频平台",
@@ -4550,22 +4550,88 @@
     ],
     "category": "tech",
     "date": "2026-02-10",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-06",
     "file": "/invest/research/reports/view.html?id=spotify-2026",
     "markdownFiles": {
       "zh": "/invest/research/Spotify_深度研究报告_2026-02.md",
       "en": "/invest/research/Spotify_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "股价$442.28、市值~$910亿，52周$405-$785（2026/6/25）",
-      "TTM P/E ~30x（vs 2月~53-66x），Forward P/E ~31x（vs 2月~45x），盈利快速增长推动估值压缩",
-      "Q1 2026 TTM运营利润率15.77%、净利率15.45%、净利€2.71B（约$3.0B）、OCF $3.23B，MAU 7.61亿",
-      "2月美国提价$1/月生效，Q2财报（8月4日）是关键验证点"
+      "Q2 2026：营收€4.777B（+14%）、毛利率33.4%、营业利润€655M、净利€545M、FCF€797M、Premium 3.00亿、MAU 7.77亿",
+      "指引对照：MAU 低100万、营收符合，Premium高100万、毛利率高30bps、营业利润高€25M（含€9M社保费用利好）",
+      "8/5收盘$482.23、市值约$99.2B；TTM净利€3.339B、FCF€3.261B，对应P/E约25.7x、FCF收益率约3.8%",
+      "基准DCF隐含当前价要求五年FCF约14.5%年增；维持中性偏多/中等，Q3指引为MAU 7.88亿、Premium 3.05亿、营收€5.0B"
     ],
-    "summaryEn": "World's largest audio streaming platform, transformed from chronic losses to profitability. Q1 2026 TTM operating margin 15.77%, MAU 761M, net income €2.71B (~$3.0B). 2026/6/25 incremental update: price $442, market cap ~$91B, Forward P/E ~31x, compressed from ~53-66x at initial coverage in February. Valuation pressure significantly eased, though upside narrowed to ~13%.",
+    "summaryEn": "Updated 2026-08-06 (Q2 2026): revenue €4.777B (+14%, +15% FX-neutral), gross margin 33.4%, operating income €655M, net income €545M, FCF €797M, Premium 300M, and MAUs 777M. Versus company guidance, MAUs were 1M below and revenue was in line, while subscribers, gross margin, and operating income were above. Re-anchored to the $482.23 close on August 5 and ECB EUR/USD 1.1554: about $99.2B market cap, 25.7x TTM P/E, 4.7x P/S, and 3.8% FCF yield. Base DCF assumptions require roughly 14.5% five-year FCF growth; Neutral-to-Bullish / Medium holds.",
     "period": "2026H1",
     "versionType": "incremental",
-    "versionLabel": "2026H1 Incremental Update"
+    "versionLabel": "2026H1 Q2 Incremental Update",
+    "reportedPeriod": "Q2 2026",
+    "monitoring": [
+      {
+        "id": "q3-user-revenue-guide",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "Q3 MAU、Premium订户与营收执行",
+          "en": "Q3 MAU, Premium subscriber, and revenue execution"
+        },
+        "trigger": {
+          "zh": "MAU低于7.88亿、Premium低于3.05亿或营收显著低于€5.0B",
+          "en": "MAUs fall below 788M, Premium subscribers below 305M, or revenue materially below €5.0B"
+        },
+        "latest": {
+          "zh": "Q2 MAU 7.77亿，比指引少100万；Premium 3.00亿，比指引多100万；营收€4.777B，按公司四舍五入口径符合€4.8B指引",
+          "en": "Q2 MAUs were 777M, 1M below guidance; Premium subscribers were 300M, 1M above; revenue was €4.777B, in line with the company's rounded €4.8B guide"
+        },
+        "nextCheck": "Q3 2026 results (timing not yet issuer-confirmed)",
+        "nextCheckDate": "2026-11",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-04"
+      },
+      {
+        "id": "q3-margin-cash-flow",
+        "thesis": "bull",
+        "theme": "execution",
+        "metric": {
+          "zh": "毛利率、营业利润与LTM自由现金流",
+          "en": "Gross margin, operating income, and LTM free cash flow"
+        },
+        "trigger": {
+          "zh": "毛利率跌破31.5%、Q3营业利润显著低于€670M，或LTM FCF跌破约€3.3B",
+          "en": "gross margin falls below 31.5%, Q3 operating income materially misses €670M, or LTM FCF falls below about €3.3B"
+        },
+        "latest": {
+          "zh": "Q2毛利率33.4%、营业利润€655M、FCF€797M，LTM FCF为€3.261B；Q3指引毛利率32.9%、营业利润€670M",
+          "en": "Q2 gross margin was 33.4%, operating income €655M, FCF €797M, and LTM FCF €3.261B; Q3 guidance is 32.9% gross margin and €670M operating income"
+        },
+        "nextCheck": "Q3 2026 results (timing not yet issuer-confirmed)",
+        "nextCheckDate": "2026-11",
+        "reading": "within",
+        "readingAsOf": "2026-08-04"
+      },
+      {
+        "id": "ad-supported-reacceleration",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "广告支持业务收入再加速",
+          "en": "Ad-Supported revenue reacceleration"
+        },
+        "trigger": {
+          "zh": "H2广告收入恢复双位数恒定汇率增长，并保持正毛利率改善",
+          "en": "H2 Ad-Supported revenue returns to double-digit FX-neutral growth while sustaining positive gross-margin progress"
+        },
+        "latest": {
+          "zh": "Q2广告支持收入€446M，同比+1%、恒定汇率+3%；毛利率19.1%，同比提高179bps",
+          "en": "Q2 Ad-Supported revenue was €446M, +1% Y/Y and +3% FX-neutral; gross margin was 19.1%, up 179 bps Y/Y"
+        },
+        "nextCheck": "Q3 2026 segment results (timing not yet issuer-confirmed)",
+        "nextCheckDate": "2026-11",
+        "reading": "breached",
+        "readingAsOf": "2026-08-04"
+      }
+    ]
   },
   {
     "id": "neov-2026",
