@@ -1247,5 +1247,101 @@
       "nrg-2026:data-center-contract-conversion",
       "nrg-2026:leverage-buyback-discipline"
     ]
+  },
+  {
+    "id": "sandisk-q4-fy2026-nand-margin-nbm",
+    "date": "2026-08-05",
+    "title": {
+      "zh": "Sandisk Q4 FY2026：收入 $8,965M（环比 +51%）、毛利率 84.6% 高于 79-81% 指引，本季新增五份 NBM 协议",
+      "en": "Sandisk Q4 FY2026: revenue of $8,965M (up 51% Q/Q), 84.6% gross margin above the 79-81% guide, and five additional NBM agreements"
+    },
+    "detail": {
+      "zh": "据 Sandisk 2026-08-05 发布的 Q4 FY2026 业绩新闻稿（季度截至 2026-07-03）：季度收入 $8,965M（环比 +51%、同比 +372%），GAAP 与非 GAAP 毛利率同为 84.6%（Q3 为 78.4%，+6.2 个百分点），高于此前 79-81% 的指引区间；GAAP 营业利润 $7,037M、非 GAAP $7,104M；GAAP 摊薄每股收益 $43.97、非 GAAP $39.25。公司称环比收入增长约三分之一来自出货量、约三分之二来自价格。数据中心收入 $2,977M（环比 +103%、同比 +1,298%），Edge $5,432M（环比 +48%），消费 $556M（环比 −32%）；FY2026 全年收入 $20,248M（同比 +175%），其中数据中心 $5,153M（同比 +437%）。公司同时披露本季新增五份 NBM 协议，其中三家为新客户、两份为既有协议扩展，使已公布协议总数达到十份；新闻稿未披露最低合同收入、RPO、担保或 bit 覆盖，故不据此确认旧报告约 $42B 管理层口径。现金流方面，经营现金流 $7,126M、自由现金流 $7,083M、公司口径调整后自由现金流 $5,035M（剔除 $1,938M NBM 预付款与保证金）；本季回购 $4,524M，新增 $14B 授权后剩余授权 $15.5B。Q1 FY2027 指引为收入 $10,300-10,800M、GAAP 毛利率 83.0-84.9%、非 GAAP 83.0-85.0%、非 GAAP 摊薄每股收益 $44.00-46.00。证据边界：全部为卖方披露；GAAP EPS 含 $804M 权益证券非经营性收益；调整后自由现金流为公司自定义口径；公司称结果为初步数据，可能与 10-K 不同。本条不含投资建议、评级或价格目标；sandisk-2026 的估值与立场仍锚定 2026-07-30，需另行完整更新后重新裁定。",
+      "en": "Per Sandisk's Q4 FY2026 earnings release issued 2026-08-05 for the quarter ended 2026-07-03: revenue was $8,965M (up 51% Q/Q and 372% Y/Y), with GAAP and non-GAAP gross margin both 84.6% (Q3: 78.4%, up 6.2 ppt), above the prior 79-81% guide; GAAP operating income was $7,037M, non-GAAP operating income $7,104M, GAAP diluted EPS $43.97 and non-GAAP diluted EPS $39.25. The company said roughly one-third of sequential revenue growth came from volume and two-thirds from pricing. Datacenter revenue was $2,977M (up 103% Q/Q and 1,298% Y/Y), Edge $5,432M (up 48% Q/Q), and Consumer $556M (down 32% Q/Q); FY2026 revenue was $20,248M (up 175%), including $5,153M of Datacenter revenue (up 437%). The company also disclosed five additional NBM agreements in the quarter - three with new customers and two expansions - bringing the announced total to ten. The release does not disclose minimum contracted revenue, RPO, guarantees, or committed-bit coverage, so it does not independently confirm the old report's roughly $42B management framing. Operating cash flow was $7,126M, free cash flow $7,083M, and company-defined adjusted free cash flow $5,035M after excluding $1,938M of NBM prepayments and deposits. Repurchases were $4,524M, and an additional $14B authorization brought remaining authority to $15.5B. Q1 FY2027 guidance is revenue of $10,300-10,800M, GAAP gross margin of 83.0-84.9%, non-GAAP gross margin of 83.0-85.0%, and non-GAAP diluted EPS of $44.00-46.00. Evidence limits: all evidence is supplier-side; GAAP EPS includes an $804M non-operating gain on equity securities; adjusted free cash flow is company-defined; and the company calls the results preliminary and potentially different from the 10-K. This entry contains no investment advice, rating or price target; sandisk-2026's valuation and stance remain anchored to 2026-07-30 and require a separate full update to re-adjudicate."
+    },
+    "crossChecks": [
+      "memory-cycle"
+    ],
+    "tickers": [
+      "SNDK"
+    ],
+    "reportIds": [
+      "sandisk-2026"
+    ],
+    "monitoringRefs": [
+      "sandisk-2026:nand-cycle-margin-peak",
+      "sandisk-2026:nbm-contract-lockin",
+      "sandisk-2026:datacenter-mix"
+    ]
+  },
+  {
+    "id": "constellation-energy-q2-2026-ppa-additions-crane-approvals",
+    "date": "2026-08-06",
+    "title": {
+      "zh": "Constellation Q2 2026：新增 920MW 长期 PPA（15-20 年，2029-2032 年起供），FERC 批准 Crane 并网容量权转移、NRC 批准其燃料许可，全年调整后运营每股收益指引上调至 $11.50-12.50",
+      "en": "Constellation Q2 2026: 920 MW of additional long-term PPAs (15-20 years, deliveries starting 2029-2032), FERC grants the Crane interconnection-rights transfer and the NRC approves its fuel licence, and full-year adjusted operating EPS guidance is raised to $11.50-12.50"
+    },
+    "detail": {
+      "zh": "据 Constellation Energy 于 2026-08-06 盘前发布的 2026 Q2 业绩（当日 8-K 附件 99.1）：GAAP 归属普通股东每股净利润 $1.42（2025 Q2 为 $2.67），调整后（非 GAAP）运营每股收益 $2.55（2025 Q2 为 $1.91），对应调整后运营利润 $920M（2025 Q2 为 $599M）；公司将 2026 全年调整后运营每股收益指引区间上调至 $11.50-12.50。公司披露新增签署 920MW 长期购电协议，期限 15-20 年、供电起始时间分布在 2029 至 2032 年，对手方仅描述为「一组多元化的投资级客户」，其中唯一具名的是 176MW 的沃尔玛协议，该协议将带动 Dresden 核电站 30MW 扩容。监管方面：FERC 批准将宾州 Eddystone 3、4 号双燃料机组的现有并网容量权（Capacity Interconnection Rights）转移至 Crane Clean Energy Center 的豁免申请，公司称此举扫清了重启的关键监管障碍；NRC 批准了 Crane 的燃料许可修订申请；公司维持 2027 年重启目标，并另就 Ginna 与 Nine Mile Point 1 号机组向 NRC 提交延寿至 2049 年的许可更新申请。公司还于 2026 年 8 月与 LS Power 签约，以 $860M（未计交割调整）出售位于 ERCOT 的 606MW 燃气电厂 Brazos Valley Energy Center，为 Calpine 收购监管承诺项下最后一项资产出售，交割尚待 DOJ 批准，预计年内完成。运营数据：核电机组（含 Salem 与 STP 权益产量）Q2 发电 44,160GWh（2025 Q2 为 45,170GWh）；不含 Salem 与 STP 的核电容量因子 93.0%（2025 Q2 为 94.8%），计划换料停堆 86 天（2025 Q2 为 41 天）；天然气、燃油与抽水蓄能机组的等效强迫停运率为 6.2%（2026 年起新增指标，无同比）。证据边界：920MW 的价格条款未披露，公司未说明其中是否包含超大规模厂商客户，且供电最早 2029 年才开始，属已签协议而非当期收入；FERC 与 NRC 的批准是监管里程碑，不等于重启完成或并网发电；Brazos Valley 出售尚未交割。本条不含投资建议、评级或价格目标。",
+      "en": "Per Constellation Energy's Q2 2026 results, released before the open on 2026-08-06 (Exhibit 99.1 to the same day's 8-K): GAAP net income attributable to common shareholders was $1.42 per share (Q2 2025: $2.67) and adjusted (non-GAAP) operating earnings were $2.55 per share (Q2 2025: $1.91), or $920M of adjusted operating earnings against $599M a year earlier; the company raised its full-year 2026 adjusted operating earnings guidance range to $11.50-12.50 per share. It disclosed an additional 920 MW of long-term power purchase agreements, 15-20 years in duration with deliveries starting between 2029 and 2032, to counterparties described only as 'a diverse set of investment grade customers'; the sole named counterparty is a 176 MW agreement with Walmart that will enable a 30 MW capacity expansion at the Dresden Clean Energy Center. On the regulatory side, FERC approved the company's waiver request to transfer existing Capacity Interconnection Rights from the dual-fuel Eddystone Units 3 and 4 in Pennsylvania to the Crane Clean Energy Center, which the company describes as clearing a critical regulatory hurdle for the restart; the NRC approved a fuel license amendment request for Crane; the 2027 restart target is unchanged; and the company filed NRC licence renewal applications to extend the Ginna Clean Energy Center and Nine Mile Point Unit 1 to 2049. Separately, in August 2026 the company agreed to sell the 606 MW gas-fired Brazos Valley Energy Center in ERCOT to LS Power for $860M before closing adjustments, the last asset sale required by its Calpine regulatory commitments, subject to DOJ approval and expected to close by year-end. Operating data: the nuclear fleet including owned output from Salem and STP produced 44,160 GWh in the quarter (Q2 2025: 45,170 GWh); excluding Salem and STP the capacity factor was 93.0% (Q2 2025: 94.8%) with 86 planned refuelling outage days against 41; the equivalent forced outage factor for the gas, oil and pumped-storage fleet was 6.2% (a new metric from 2026, with no prior-year comparison). Evidence limits: no price terms were disclosed for the 920 MW, the company did not say whether any of it is hyperscaler volume, and deliveries do not begin until 2029, so this is contracted capacity rather than current revenue; the FERC and NRC approvals are regulatory milestones, not a completed restart or power delivery; and the Brazos Valley sale has not closed. This entry contains no investment advice, rating, or price target."
+    },
+    "crossChecks": [
+      "merchant-power-capacity",
+      "grid-epc-delivery"
+    ],
+    "tickers": [
+      "CEG"
+    ],
+    "reportIds": [
+      "constellation-energy-2026"
+    ],
+    "monitoringRefs": [
+      "constellation-energy-2026:nuclear-ppa-execution",
+      "constellation-energy-2026:crane-restart-regulatory"
+    ]
+  },
+  {
+    "id": "aaoi-q2-2026-datacenter-ramp-capacity-constraint",
+    "date": "2026-08-06",
+    "title": {
+      "zh": "AAOI Q2 2026：收入 $191.9M 落在 $180-198M 指引区间内，数据中心收入 $107.7M（同比 +140%），Q3 指引 $255-290M；公司称需求将持续超过其产能至 2027 年中",
+      "en": "AAOI Q2 2026: revenue of $191.9M lands inside the $180-198M guide, datacenter revenue $107.7M (+140% YoY) and Q3 guided to $255-290M, with the company saying demand will outpace its production capacity through mid-2027"
+    },
+    "detail": {
+      "zh": "据 Applied Optoelectronics 于 2026-08-06 盘后发布的 2026 Q2 业绩（当日 8-K 附件 99.1）与同日提交的 Q2 10-Q：GAAP 收入 $191.922M（2025 Q2 $102.952M，2026 Q1 $151.1M），落在 $180-198M 指引区间内；按市场拆分，数据中心 $107.662M（2025 Q2 $44.791M，同比 +140%）、CATV $80.578M、电信 $3.411M。GAAP 毛利率 27.7%（2025 Q2 30.3%，2026 Q1 29.1%），非 GAAP 毛利率 29.8%；GAAP 净亏损 $22.781M，非 GAAP 净利润 $5.475M，调整后 EBITDA −$0.543M。Q3 指引：收入 $255-290M、非 GAAP 毛利率 29%-30.5%、非 GAAP 净利润 $10.1-24.0M（按约 9,280 万股计）。产能与需求表述：公司称 800G 出货量环比翻倍以上（未量化只数），总制造产能接近每月 20 万只，并预计到 2026 年底具备每月约 65 万只 800G 与 1.6T 产品的生产能力，且「预计需求将持续超过我们的产能至 2027 年中」。现金流与融资（取自 10-Q）：2026 上半年经营活动净现金流出 $73.781M（2025 上半年流出 $116.389M）；2026 Q1 10-Q 记录上季为流出 $85.353M，两份已提交报表相减得出 Q2 单季经营现金流约 +$11.6M（本条推导，非单独披露）。2026 上半年普通股发行净得 $1,028.207M（2025 上半年 $195.770M），上半年资本开支 $335.132M（美国 $169.0M、台湾 $62.8M、中国 $103.3M），另有设备预付款 $289.744M。集中度披露（10-Q）：截至 2026-06-30，Digicomm 占应收账款总额约 67.2%；2026 上半年来自 Digicomm 的收入约 $147.0M、占合并收入约 42.8%，主要为 CATV 产品，公司称已向其提供长于常规的付款条件。证据边界：Q3 的 $255-290M 是指引而非已实现收入；每月 65 万只是公司陈述的年底产能计划，既非已安装产能也非已订订单；「需求超过产能至 2027 年中」为管理层评论，未附订单、积压或合同量化；公司不按客户披露数据中心收入，因此不能从数据中心分部同比 +140% 推断任何单一超大规模客户的订单节奏；Q2 单季经营现金流为两份 10-Q 相减所得。本条不含投资建议、评级或价格目标。",
+      "en": "Per Applied Optoelectronics' Q2 2026 results, released after the close on 2026-08-06 (Exhibit 99.1 to the same day's 8-K), and the Q2 10-Q filed the same day: GAAP revenue was $191.922M (Q2 2025: $102.952M; Q1 2026: $151.1M), inside the $180-198M guide, split by market into datacenter $107.662M (Q2 2025: $44.791M, +140% YoY), CATV $80.578M and telecom $3.411M. GAAP gross margin was 27.7% (Q2 2025: 30.3%; Q1 2026: 29.1%) and non-GAAP gross margin 29.8%; GAAP net loss was $22.781M, non-GAAP net income $5.475M and adjusted EBITDA -$0.543M. Q3 2026 is guided to revenue of $255-290M, a 29%-30.5% non-GAAP gross margin and non-GAAP net income of $10.1-24.0M on approximately 92.8M shares. On capacity and demand, the company says 800G shipment volume more than doubled sequentially (units not quantified), that total manufacturing capacity is approaching 200,000 units per month, that it expects to be capable of producing around 650,000 pieces per month of 800G and 1.6T product by the end of this year, and that it forecasts demand will continue to outpace its production capacity through mid-2027. On cash flow and funding, from the 10-Q: net cash used in operating activities was $73.781M for the six months ended 2026-06-30 (H1 2025: $116.389M used); the Q1 2026 10-Q reported $85.353M used for the prior quarter, so subtracting the two filed statements gives approximately +$11.6M of operating cash flow for Q2 alone (derived here, not separately disclosed). Net proceeds from common stock offerings were $1,028.207M in H1 2026 (H1 2025: $195.770M), against H1 capital expenditure of $335.132M ($169.0M in the US, $62.8M in Taiwan, $103.3M in China) plus $289.744M of equipment prepayments. On concentration, the 10-Q discloses that Digicomm represented approximately 67.2% of total accounts receivable at 2026-06-30, and that H1 2026 revenue from Digicomm was approximately $147.0M, about 42.8% of consolidated revenue, primarily CATV product, with the company noting it has extended longer than typical payment terms to Digicomm. Evidence limits: the $255-290M Q3 figure is guidance, not realised revenue; the 650,000 pieces per month figure is a stated year-end capability plan rather than installed capacity or booked orders; 'demand outpacing capacity through mid-2027' is management commentary with no order, backlog or contract quantification; the company does not disclose datacenter revenue by customer, so no single hyperscaler's order cadence can be inferred from the +140% datacenter growth; and the single-quarter operating cash flow figure is derived by subtracting two filed 10-Qs. This entry contains no investment advice, rating, or price target."
+    },
+    "crossChecks": [
+      "chip-vs-downstream"
+    ],
+    "tickers": [
+      "AAOI"
+    ],
+    "reportIds": [
+      "aaoi-2026"
+    ],
+    "monitoringRefs": [
+      "aaoi-2026:800g-ramp",
+      "aaoi-2026:cash-burn-dilution",
+      "aaoi-2026:customer-concentration"
+    ]
+  },
+  {
+    "id": "mp-q2-2026-ppa-substitution-ebitda-step-down",
+    "date": "2026-08-06",
+    "title": {
+      "zh": "MP Materials Q2 2026：价格保护收入由 $42.3M 降至 $17.6M，Materials 分部剔除 PPA 后的调整后 EBITDA 由 −$5.5M 转为 +$14.9M，但合并调整后 EBITDA $28.5M 低于 2026 Q1 的 $36.6M",
+      "en": "MP Materials Q2 2026: price-protection income falls from $42.3M to $17.6M and Materials-segment adjusted EBITDA excluding PPA swings from -$5.5M to +$14.9M, but consolidated adjusted EBITDA of $28.5M lands below Q1 2026's $36.6M"
+    },
+    "detail": {
+      "zh": "据 MP Materials 于 2026-08-06 盘后发布的 2026 Q2 业绩（当日 8-K 附件 99.1，季度截至 2026-06-30）：收入 $108.490M（同比 +89%），价格保护协议（PPA）收入 $17.580M（2026 Q1 为 $42.273M，2025 Q2 为零），合并调整后 EBITDA $28.493M（2026 Q1 $36.6M，2025 Q2 −$12.535M），净亏损 $20.296M。Materials 分部收入 $95.629M（同比 +155%），其中 NdPr 氧化物与金属 $94.434M、稀土精矿为零（2025 年 7 月起停售）；分部调整后 EBITDA $32.505M，剔除 $17.580M 的 PPA 收入后为 +$14.925M（2026 Q1 同口径为 −$5.5M）。产销量：NdPr 产量 840 吨（同比 +41%）、NdPr 销量 1,006 吨（同比 +127%，与 2026 Q1 的 1,006 吨相同，已对照 Q1 的 8-K 独立核实）、REO 产量 11,072 吨（同比 −16%）。磁材分部收入 $16.524M（同比 −17%），仍整体列示为磁材前驱体产品收入，分部调整后 EBITDA $7.532M；公司称 Independence 的磁体资格认证通过面向客户认证与法规测试的追加交付而推进，10X 工厂建设加速。2026-06-30 现金 $429.075M 加短期投资 $1,023.564M 合计 $1,452.6M（2025-12-31 为 $1,830.3M）；2026 上半年经营活动净现金流入 $4.939M、购建固定资产 $307.711M，融资活动中无股权发行。公司另披露与一家新的美国航空航天与国防客户签署分离钆的长期承购协议（未量化金额与数量），并启动旨在聚合无人机行业需求、统一规格的 Project Swarm。链条读数：把 mp-2026 报告 §9 已发布的推导方法套用到本季，NdPr 氧化物与金属收入 $94.434M ÷ 1,006 吨得推导实现价约 $93.87/公斤，PPA 收入 $17.580M ÷ 同一销量得推导 $17.48/公斤，合计约 $111.35/公斤，对应协议 $110/公斤 floor（2026 Q1 为 $70.71 + $42.02 = $112.73/公斤）——即隐含参考价格较 Q1 明显上行但仍在 floor 之下。证据边界：MP 不披露每公斤实现价，上述每公斤数字为推导值，并沿用 §9 的同一保留意见——PPA 按「指定」数量而非销售数量支付，两者未被证明相等；合并调整后 EBITDA 的环比下滑并非产品端恶化所致，而是 floor 收入减少 $24.7M 叠加公司层级成本上升（corporate and other 由上年同期 −$7.946M 增至 −$10.983M），同期 Materials 剔除 PPA 后改善 $20.4M；本次发布未确认已确认成品磁体收入，也未重申 2026 下半年首批磁体收入时间表或 2026 年 $5.0-6.0 亿资本开支指引；钆承购协议与 Project Swarm 均未量化收入。截至本条记录，Q2 10-Q 尚未提交；mp-2026 报告本身在本次运行中未被更新——其 q2-2026-ppa-income 监测项的评级需与立场重新裁定一并由评审裁决，故本条不带 reportIds 与 monitoringRefs。本条不含投资建议、评级或价格目标。",
+      "en": "Per MP Materials' Q2 2026 results, released after the close on 2026-08-06 (Exhibit 99.1 to the same day's 8-K, quarter ended 2026-06-30): revenue was $108.490M (+89% YoY), price protection agreement (PPA) income $17.580M (Q1 2026: $42.273M; Q2 2025: nil), consolidated adjusted EBITDA $28.493M (Q1 2026: $36.6M; Q2 2025: -$12.535M) and net loss $20.296M. Materials segment revenue was $95.629M (+155% YoY), of which NdPr oxide and metal was $94.434M and rare earth concentrate nil following the cessation of concentrate sales in July 2025; segment adjusted EBITDA was $32.505M, which excluding the $17.580M of PPA income is +$14.925M (the same calculation gave -$5.5M in Q1 2026). On volumes, NdPr production was 840 MT (+41% YoY), NdPr sales 1,006 MT (+127% YoY, the same tonnage as Q1 2026, verified independently against the Q1 8-K) and REO production 11,072 MT (-16% YoY). Magnetics segment revenue was $16.524M (-17% YoY), still presented in full as magnetic precursor products revenue, on $7.532M of segment adjusted EBITDA; the company describes magnet qualification at Independence as advancing through additional deliveries for customer qualification and regulatory testing, with 10X construction accelerating. Cash of $429.075M plus short-term investments of $1,023.564M gave $1,452.6M at 2026-06-30 (2025-12-31: $1,830.3M); H1 2026 net cash provided by operating activities was $4.939M against $307.711M of property, plant and equipment additions, and financing activities contain no equity issuance. The company also disclosed a long-term offtake agreement for separated gadolinium with a new US aerospace and defense customer (amount and volumes not quantified) and the launch of 'Project Swarm' to aggregate drone-industry demand and standardise specifications. Chain reading: applying the derivation method published in §9 of the mp-2026 report to this quarter, NdPr oxide and metal revenue of $94.434M over 1,006 MT gives a derived realised price of about US$93.87/kg, and $17.580M of PPA income over the same volume gives about US$17.48/kg, combining to roughly US$111.35/kg against the agreement's US$110/kg floor (Q1 2026: $70.71 + $42.02 = $112.73/kg) - an implied benchmark clearly higher than Q1's but still below the floor. Evidence limits: MP does not disclose a realised price per kilogram, so the per-kilogram figures above are derived and carry the same caveat as §9, namely that the PPA pays on *designated* volume, which is not established as equal to sales volume; the sequential decline in consolidated adjusted EBITDA is not product-side deterioration but a $24.7M fall in floor income combined with higher corporate cost (corporate and other moved to -$10.983M from -$7.946M a year earlier) against a $20.4M improvement in Materials excluding PPA; the release neither confirms recognised finished-magnet revenue nor restates the H2 2026 first-magnet-revenue timeline or the US$500-600M 2026 capex guide; and neither the gadolinium offtake nor Project Swarm carries quantified revenue. No Q2 10-Q had been filed as of this entry, and the mp-2026 report itself was not updated in this run - grading its q2-2026-ppa-income item requires a stance re-adjudication that only the reviewer can make, so this entry deliberately carries no reportIds and no monitoringRefs. This entry contains no investment advice, rating, or price target."
+    },
+    "crossChecks": [
+      "resource-constraints"
+    ],
+    "tickers": [
+      "MP"
+    ]
   }
 ]

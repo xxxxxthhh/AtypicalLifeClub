@@ -1,47 +1,58 @@
 # Airbnb (NASDAQ: ABNB) Deep Research Report
 
 Coverage date: 2026-02-13
-Last updated: 2026-07-31
+Last updated: 2026-08-07
 Ticker: NASDAQ: ABNB
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
-> **[June 25, 2026 Update]** Valuation refresh and Q1 2026 earnings incorporation. Key changes: Stock price rose from ~$119 to $142.90 (+20%), market cap from ~$71.4B to $85.7B. Q1 2026 revenue grew +17.9% YoY (beating 14-16% guidance), but earnings grew only +3.9% (margin compression). TTM P/E expanded from ~29x to 35.4x, P/S from ~5.9x to 6.8x, P/FCF from ~15.5x to 26.9x (TTM levered FCF $3.19B vs FY2025 $4.6B). Valuation has materially expanded, shifting the core tension from "can growth re-accelerate?" to "has the price already priced in the optimism?" Q1 delivered on the growth re-acceleration promise, but margin and FCF quality warrant monitoring.
+> **[August 7, 2026 Update | Q2 2026 incorporated]** Sources: Airbnb's Form 8-K filed 2026-08-06 (accession 0001193125-26-337928, Ex-99.1 shareholder letter) and the same-day Form 10-Q (accession 0001559720-26-000027). **Q2 2026 revenue $3.608B (+17% Y/Y), net income $816M (23% margin), Adjusted EBITDA $1.261B (+21%, 35% margin), FCF $1.253B (35% margin), GBV $27.2B (+16%), Nights and Seats Booked 148.3M (+10%, accelerating from Q1). Full-year guidance was raised on both lines**: revenue growth from "low-to-mid teens" to "at least mid teens," and Adjusted EBITDA Margin from "at least 35%" to "at least 35.5%." **The prior version's central worry — TTM free cash flow quality — materially resolved this quarter: TTM FCF recovered from ~~$3.19B~~ to $4.827B**, taking P/FCF from ~~26.9x~~ down to 18.5x (basis below). Valuation anchors were fully rebuilt at the **2026-08-06 close of $151.64**.
+
+> **[June 25, 2026 Update — historical, superseded by the August 7, 2026 version above]** Valuation refresh and Q1 2026 earnings incorporation. Key changes: Stock price rose from ~$119 to ~~$142.90~~ (+20%), market cap from ~$71.4B to ~~$85.7B~~. Q1 2026 revenue grew +17.9% YoY (beating 14-16% guidance), but earnings grew only +3.9% (margin compression). TTM P/E expanded from ~29x to ~~35.4x~~, P/S from ~5.9x to 6.8x, P/FCF from ~15.5x to ~~26.9x~~ (TTM levered FCF ~~$3.19B~~ vs FY2025 $4.6B). Valuation has materially expanded, shifting the core tension from "can growth re-accelerate?" to "has the price already priced in the optimism?" Q1 delivered on the growth re-acceleration promise, but margin and FCF quality warrant monitoring.
 
 ## Executive Summary
 
-**One-Line Thesis:** Airbnb is the global short-term rental market's defining brand and leader. Q1 2026 revenue +17.9% beat expectations, providing the first hard data point supporting the growth re-acceleration narrative, but valuation has expanded from 29x to 35.4x P/E, pricing in much of this improvement. Margins and TTM FCF quality warrant monitoring.
+**One-Line Thesis:** ~~Airbnb is the global short-term rental market's defining brand and leader. Q1 2026 revenue +17.9% beat expectations, providing the first hard data point supporting the growth re-acceleration narrative, but valuation has expanded from 29x to 35.4x P/E, pricing in much of this improvement. Margins and TTM FCF quality warrant monitoring.~~ **(Rewritten 2026-08-07)** Airbnb is the global short-term rental market's defining brand and leader, combining a brand moat, a 35%+ FCF margin and an asset-light model. **Q2 2026 revenue +17% and Nights and Seats Booked +10% (accelerating from Q1), with full-year revenue and margin guidance both raised — the growth re-acceleration narrative now has two consecutive quarters of hard data behind it. Just as important, the prior version's loudest warning (TTM FCF falling from $4.6B to ~~$3.19B~~) has been repaired by this quarter's $1.253B of FCF, lifting TTM FCF to $4.827B.** The stock moved up only 6.1% over the same span (to **$151.64**), so this update is a case of the numerator improving faster than the denominator: P/FCF ~~26.9x~~ → **18.5x**, P/E ~~35.4x~~ → **33.2x**. The residual tension is no longer cash flow quality but whether a 33x TTM P/E has already borrowed against 2027 growth.
 
-> **2026-07-31 price check (untracked-coverage review).** ABNB closed at **$153.01** on **2026-07-29**, the last completed US session, versus the **$142.90** anchor dated 2026-06-25 — a **+7.1%** move. The dated figures below therefore remain accurate to within that margin and the valuation frame and stance are unchanged. This report has no `priceSymbol`, so it carries no automatic price ledger or drift alert — see Q3 of the review questions doc.
+> **[2026-07-31 price check — historical, superseded by the 2026-08-07 re-anchor]** ABNB closed at **~~$153.01~~** on **2026-07-29**, the last completed US session, versus the **~~$142.90~~** anchor dated 2026-06-25 — a **+7.1%** move. The dated figures below therefore remain accurate to within that margin and the valuation frame and stance are unchanged. This report has no `priceSymbol`, so it carries no automatic price ledger or drift alert — see Q3 of the review questions doc.
+
+> **⚠️ Pricing-basis note, 2026-08-07 (read first).** Every multiple below is anchored to the **2026-08-06 close of $151.64**, the last completed regular session **before** the Q2 release and the latest regular-session close currently verifiable from Nasdaq's official endpoint. **The anchors should be recomputed after the first completed post-release regular session.**
 
 **Investment Verdict:**
-- Neutral-to-Positive | Conviction: Medium
-- Core logic: ~~Premium cash flow machine, but the ability to re-accelerate growth is the key to sustaining its valuation~~ Phase 1 of growth re-acceleration delivered (Q1 +17.9%), but the stock is already +20%. Current valuation requires sustained momentum through Q2-Q4
+- Neutral-to-Positive | Conviction: Medium (**unchanged after the 2026-08-07 review**)
+- Core logic: ~~Premium cash flow machine, but the ability to re-accelerate growth is the key to sustaining its valuation~~ ~~Phase 1 of growth re-acceleration delivered (Q1 +17.9%), but the stock is already +20%. Current valuation requires sustained momentum through Q2-Q4~~ **(2026-08-07) Growth re-acceleration has now delivered for two straight quarters with guidance raised, and the cash-flow-quality alarm is cleared — the bull-side evidence is materially stronger. But a 33.2x TTM P/E against roughly 17% revenue growth is a PEG of about 1.9x, which is still not cheap in absolute terms. The two forces point in opposite directions and are comparable in size, so the stance is held at Neutral-to-Positive / Medium conviction rather than upgraded on a single beat.**
+- **Whether this should be upgraded to Positive is left to the reviewer in a full-cycle review** — this is an incremental update and does not make a stance jump.
 
 **Quick Stats:**
 
+> This table was fully rebuilt on **2026-08-07** from primary Q2 2026 filings. "TTM" always means **the trailing twelve months ended 2026-06-30**, derived as `FY2025 + H1 2026 − H1 2025` from the XBRL detail of the 10-K and 10-Qs.
+
 | Metric | Value |
 |--------|-------|
-| ~~Stock Price~~ Stock Price (Jun 25, 2026) | ~~~$119 (Feb 12, 2026)~~ **$142.90** |
-| ~~Market Cap~~ Market Cap (Jun 25, 2026) | ~~~$71.4B~~ **$85.7B** |
+| ~~Stock Price (Jun 25, 2026)~~ Stock Price (**close of 2026-08-06**) | ~~~$119 (Feb 12, 2026)~~ ~~$142.90~~ **$151.64** |
+| ~~Market Cap (Jun 25, 2026)~~ Market Cap (2026-08-06) | ~~~$71.4B~~ ~~$85.7B~~ **$89.40B** |
+| Share-count basis (**corrected**) | **589.6M shares** = Class A 419,529,556 + Class B 170,056,126 (10-Q cover, as of 2026-07-15). **Class H 9,200,000 is excluded**, matching the company's own "590M common shares outstanding." The prior ~~$85.7B~~ at ~~$142.90~~ implied roughly 600M shares, i.e. a Class-H-inclusive basis — this update standardises on A+B, which is why market cap rose only 4.3% while the price rose 6.1% |
 | FY2025 Revenue | $12.2B (+10% YoY) |
-| TTM Revenue (incl. Q1 2026) | **$12.65B (+17.9% Q1 YoY)** |
+| ~~TTM Revenue (incl. Q1 2026)~~ TTM Revenue (through 2026-06-30) | ~~$12.65B (+17.9% Q1 YoY)~~ **$13.159B** (Q2 alone $3.608B, +17% Y/Y) |
 | FY2025 Net Income | $2.5B (21% margin) |
-| TTM Net Income | **$2.52B (19.9% margin)** |
+| ~~TTM Net Income~~ TTM Net Income (through 2026-06-30) | ~~$2.52B (19.9% margin)~~ **$2.691B (20.5% margin)** |
 | FY2025 Adj. EBITDA | $4.3B (35% margin) |
-| TTM EBITDA | **$2.62B** |
+| ~~TTM EBITDA~~ TTM Adjusted EBITDA (**basis corrected**) | ~~$2.62B~~ **≈$4.62-4.67B** (quarterly-sum route: Q3'25 $2.1B + Q4'25 $786M + Q1'26 $519M + Q2'26 $1.261B = $4.666B; cross-check route `FY2025 $4.3B − H1'25 $1.460B + H1'26 $1.780B` = $4.620B. **The two routes differ by about 1% because Q3'25 is disclosed only as "$2.1B / over $2.0 billion" and FY2025 only as "$4.3B" — no further precision is available from the source. Read the multiples below against this band.**). **Note: the prior "~~$2.62B~~ EBITDA" was in fact operating income (EBIT) mislabeled as EBITDA — see the EV multiple rows below** |
+| TTM Operating Income (EBIT, new) | **$2.738B** ($2,544M + $844M − $650M) |
 | FY2025 Free Cash Flow | $4.6B (38% FCF margin) |
-| TTM Levered Free Cash Flow | **$3.19B** (TTM Operating CF $4.57B) |
+| ~~TTM Levered Free Cash Flow~~ TTM Free Cash Flow (company basis, through 2026-06-30) | ~~$3.19B (TTM Operating CF $4.57B)~~ **$4.827B (37% TTM FCF margin)**; TTM operating cash flow **$4.860B**. Q2 alone FCF $1.253B, +30% Y/Y |
 | FY2025 Nights Booked | 533M (+8% YoY) |
-| ~~Forward P/E (2026E)~~ P/E (TTM) | ~~~25-29x~~ **35.4x** ($142.90 / $4.04 EPS) |
-| Forward P/E | **27.78x** |
-| ~~P/FCF~~ P/FCF (TTM Levered FCF) | ~~~15.5x~~ **26.9x** ($85.7B / $3.19B) |
-| P/FCF (FY2025 FCF basis) | **18.6x** ($85.7B / $4.6B) |
-| ~~P/S~~ P/S (TTM) | ~~~5.9x~~ **6.8x** ($85.7B / $12.65B) |
-| EV/EBITDA (TTM) | **29.1x** (EV $76.23B / EBITDA $2.62B) |
-| Cash / Debt | **$12.01B / $2.53B** (Net Cash ~$9.48B) |
-| 52-Week Range | **$110.81 - $147.27** |
+| ~~P/E (TTM)~~ P/E (TTM) | ~~~25-29x~~ ~~35.4x ($142.90 / $4.04 EPS)~~ **33.2x** ($89.40B market cap / $2.691B TTM net income; implies TTM diluted EPS of about $4.41, derived using roughly 610M TTM weighted diluted shares) |
+| ~~Forward P/E~~ Forward P/E (2026E) | ~~27.78x~~ **`review-pending`** — guidance covers revenue growth and EBITDA margin only, not EPS; no verifiable primary or consensus EPS was obtained this run, so the figure is neither recomputed nor carried forward |
+| ~~P/FCF (TTM Levered FCF)~~ P/FCF (TTM) | ~~~15.5x~~ ~~26.9x ($85.7B / $3.19B)~~ **18.5x** ($89.40B / $4.827B) |
+| ~~P/FCF (FY2025 FCF basis) 18.6x~~ P/FCF (FY2025 basis) | ~~18.6x ($85.7B / $4.6B)~~ **19.4x** ($89.40B / $4.6B). **This secondary basis has largely lost its purpose**: TTM FCF ($4.827B) now exceeds the FY2025 benchmark, so the two have converged |
+| ~~P/S (TTM) 6.8x ($85.7B / $12.65B)~~ P/S (TTM) | ~~~5.9x~~ **6.8x** ($89.40B / $13.159B) — the value coincidentally matches the prior one, but both numerator and denominator have been updated |
+| ~~EV/EBITDA (TTM) 29.1x (EV $76.23B / EBITDA $2.62B)~~ EV/Adjusted EBITDA (TTM) | ~~29.1x~~ **about 17x (range 17.1-17.3x)** (EV **$79.75B** / Adjusted EBITDA $4.62-4.67B; the range comes from the disclosure-precision limit on the denominator above). **This is a basis correction, not a valuation shift** — the old 29.1x used a ~~$2.62B~~ denominator that was actually EBIT |
+| EV/EBIT (TTM, new, comparable to the old basis) | **29.1x** (EV $79.75B / EBIT $2.738B) |
+| ~~Cash / Debt~~ Cash / Debt (2026-06-30) | ~~$12.01B / $2.53B (Net Cash ~$9.48B)~~ **$12.136B / $2.476B (Net Cash $9.66B)**. Cash = cash and equivalents $6.821B + short-term investments $5.248B + restricted cash $67M; all debt is long-term with zero current maturities. **Separately, $12.2B of funds held on behalf of guests and $2.8B of unearned fees are liability-matched and are not counted as corporate cash** |
+| ~~52-Week Range~~ 52-Week Range (through 2026-08-06) | ~~$110.81 - $147.27~~ **$110.81 (2025-11-20) - $156.50 (2026-07-29)** (intraday basis) |
+| Buybacks (new) | Q2 2026 repurchases **$1.1B**; remaining authorization **$3.4B** as of 2026-06-30 |
 
 ---
 
@@ -135,7 +146,8 @@ Airbnb is a classic asset-light platform:
 ### Capital Allocation
 
 - FY2025 share buybacks: $3.8B (83% of FCF)
-- New $6B buyback program announced August 2025 ($5.6B remaining as of Dec 2025)
+- ~~New $6B buyback program announced August 2025 ($5.6B remaining as of Dec 2025)~~ **(Updated 2026-08-07) Q2 2026 repurchases $1.1B; remaining authorization $3.4B as of 2026-06-30**
+- **Share-count trend (added 2026-08-07):** fully diluted share count went 673M (Jun 2024) → 652M (Jun 2025) → **634M (Jun 2026)**; common shares outstanding over the same period 634M → 613M → **590M**. The company states fully diluted share count is down roughly 10% since buybacks began in Q3 2022
 - New business investment: $200-250M/year
 - No dividend; prioritizing buybacks
 
@@ -181,18 +193,18 @@ Best-in-class product and brand capabilities, excellent margin management, but a
 
 **Supporting Evidence:**
 
-1. **$4.6B FCF + 38% margin:** Top-tier among all internet platforms, and still growing. The $6B buyback program provides consistent shareholder returns
+1. **$4.6B FCF + 38% margin:** Top-tier among all internet platforms, and still growing. ~~The $6B buyback program provides consistent shareholder returns~~ **(Updated 2026-08-07) TTM FCF has risen to $4.827B at a 37% margin; the buyback basis is restated to the company's current disclosure: $1.1B repurchased in Q2 2026, $3.4B of authorization remaining as of 2026-06-30**
 2. **Brand as moat:** "Airbnb" has become synonymous with short-term rentals. Global brand recognition is unmatched. The two-sided network of 8M+ listings and hundreds of millions of users is extremely difficult to replicate
 3. **AI-native transformation:** 33% of North American customer service issues already resolved by AI. Host tool automation improves supply efficiency. New CTO (ex-Meta) accelerates the technology upgrade
 4. **Category expansion raises the TAM ceiling:** Experiences, boutique hotels, and value-added services expand Airbnb from the $122B accommodation market into the multi-trillion-dollar travel services market
-5. **2026 growth re-acceleration signal:** ~~Q1 2026 guidance of 14-16% revenue growth (vs FY2025's 10%), full-year target of "at least low double-digit" growth~~ ✅ **Q1 2026 actual +17.9%, beat! Growth re-acceleration promise initially delivered**
+5. **2026 growth re-acceleration signal:** ~~Q1 2026 guidance of 14-16% revenue growth (vs FY2025's 10%), full-year target of "at least low double-digit" growth~~ ~~✅ Q1 2026 actual +17.9%, beat! Growth re-acceleration promise initially delivered~~ ✅✅ **(2026-08-07) Delivered two quarters running: Q1 +17.9%, Q2 +17% (Nights and Seats Booked +10%, accelerating from Q1's +9%). On that basis the company raised FY2026 revenue-growth guidance from "low-to-mid teens" to "at least mid teens" and Adjusted EBITDA Margin guidance from "at least 35%" to "at least 35.5%"; Q3 2026 is guided to revenue of $4.69-4.77B (+15-17%, including roughly 3 points of FX tailwind)**
 
 **Key Assumptions:**
 - New categories (Experiences, boutique hotels) contribute meaningful incremental revenue in 2026-2027
 - AI investment translates into measurable operational efficiency gains and UX improvements
 - Global regulation tightens but does not cause a significant contraction in listing supply
 
-**Upside Scenario:** ~~If 2026 revenue growth recovers to 15%+ with margins sustained at 35%+, Forward P/E could re-expand to 30-35x, implying a stock price of $150-170.~~ **Q1 has cleared the 15%+ hurdle. If Q2-Q4 sustain this pace and margins stabilize, P/E of 30-35x on upwardly-revised forward EPS (~$5.3, vs TTM $4.04) implies ~$160-185.**
+**Upside Scenario:** ~~If 2026 revenue growth recovers to 15%+ with margins sustained at 35%+, Forward P/E could re-expand to 30-35x, implying a stock price of $150-170.~~ ~~Q1 has cleared the 15%+ hurdle. If Q2-Q4 sustain this pace and margins stabilize, P/E of 30-35x on upwardly-revised forward EPS (~$5.3, vs TTM $4.04) implies ~$160-185.~~ **(Restated 2026-08-07) Both Q1 and Q2 cleared the 15%+ hurdle and the company raised full-year revenue and margin guidance on its own initiative, so the upside scenario's precondition has moved from "to be verified" to "has happened." No new target range is given here: forward EPS is `review-pending` (see Quick Stats), and recomputing a target without verifiable consensus would be unsupported extrapolation. The known anchors are TTM diluted EPS of about $4.41 and the 2026-08-06 close of $151.64.**
 
 ---
 
@@ -242,34 +254,42 @@ Best-in-class product and brand capabilities, excellent margin management, but a
 
 ### Current Valuation
 
+> **This table was rebuilt in full on 2026-08-07 from primary Q2 2026 data. Anchor = 2026-08-06 close of $151.64, market cap $89.40B, EV $79.75B.**
+
 | Method | ~~Old~~ Current | Assumptions | Confidence |
 |--------|-------------|-------------|------------|
-| ~~P/E (TTM)~~ P/E (TTM) | ~~~29x~~ **35.4x** | Price $142.90 / TTM Diluted EPS $4.04 | High |
-| Forward P/E (2026E) | **27.78x** | Yahoo Finance analyst consensus | Medium-High |
-| ~~P/FCF~~ P/FCF (TTM Levered FCF) | ~~~15.5x~~ **26.9x** | $85.7B market cap / $3.19B TTM levered FCF | High |
-| P/FCF (FY2025 FCF basis) | **18.6x** | $85.7B market cap / $4.6B FY2025 FCF | High |
-| ~~EV/EBITDA~~ EV/EBITDA (TTM) | ~~~16x~~ **29.1x** | EV $76.23B / TTM GAAP EBITDA $2.62B (Feb's ~16x used Adj. EBITDA $4.3B — caliber differs) | High |
-| ~~P/S~~ P/S (TTM) | ~~~5.9x~~ **6.8x** | $85.7B market cap / $12.65B TTM revenue | High |
+| ~~P/E (TTM) 35.4x~~ P/E (TTM) | ~~~29x~~ ~~35.4x~~ **33.2x** | $89.40B market cap / $2.691B TTM net income (the prior basis was price ~~$142.90~~ / TTM diluted EPS ~~$4.04~~) | High |
+| ~~Forward P/E (2026E) 27.78x~~ Forward P/E (2026E) | ~~27.78x~~ **`review-pending`** | The prior value came from Yahoo Finance consensus; no verifiable primary or consensus EPS was obtained this run and guidance contains no EPS. **Neither recomputed nor carried forward** | — |
+| ~~P/FCF (TTM Levered FCF) 26.9x~~ P/FCF (TTM) | ~~~15.5x~~ ~~26.9x~~ **18.5x** | $89.40B market cap / $4.827B TTM FCF (company-disclosed basis) | High |
+| ~~P/FCF (FY2025 FCF basis) 18.6x~~ P/FCF (FY2025 basis) | ~~18.6x~~ **19.4x** | $89.40B market cap / $4.6B FY2025 FCF. **This secondary basis has largely lost its purpose**: TTM FCF ($4.827B) now exceeds the FY2025 benchmark and the two have converged | Medium |
+| ~~EV/EBITDA (TTM) 29.1x (EV $76.23B / EBITDA $2.62B)~~ EV/Adjusted EBITDA (TTM) | ~~~16x~~ ~~29.1x~~ **about 17x (17.1-17.3x)** | EV $79.75B / TTM Adjusted EBITDA $4.62-4.67B (the denominator is limited by the company's rounded disclosure — see Quick Stats). **The old 29.1x used a ~~$2.62B~~ denominator that was actually operating income (EBIT) mislabeled as EBITDA — this is a basis correction, not a valuation shift** | High |
+| EV/EBIT (TTM, new) | **29.1x** | EV $79.75B / TTM EBIT $2.738B. Shown to bridge to the old table: it equals the old "EV/EBITDA 29.1x", which is precisely the evidence that the old row was EBIT | High |
+| ~~P/S (TTM) 6.8x ($85.7B / $12.65B)~~ P/S (TTM) | ~~~5.9x~~ **6.8x** | $89.40B market cap / $13.159B TTM revenue. The value coincidentally matches the prior one, but both inputs changed | High |
 
 ### Analyst Consensus
 
-- Among 29 analysts: 28% Strong Buy, 21% Buy, 45% Hold, 6% Sell
+- ~~Among 29 analysts: 28% Strong Buy, 21% Buy, 45% Hold, 6% Sell~~
 - ~~Median price target: $145-148 (vs current $119, implying ~22-25% upside)~~
-- **Median price target: ~$155-160 (vs current $142.90, implying ~8-12% upside)**
-- Target range: $100-200
+- ~~**Median price target: ~$155-160 (vs current $142.90, implying ~8-12% upside)**~~
+- ~~Target range: $100-200~~
+- **(2026-08-07) This entire section is marked `review-pending`.** The ratings distribution and price targets above are all sell-side figures from **before** the Q2 report; after a Q2 beat plus raised full-year guidance they will necessarily be revised. No verifiable updated consensus was obtained this run, so the old values are neither carried forward nor replaced with an extrapolation.
 
 ### Historical Valuation Context
 
-Airbnb's P/E has ranged roughly 25-60x since IPO. The current ~35.4x is in the mid-range historically, while growth has recovered from FY2025's 10% to Q1 2026's 17.9%.
+~~Airbnb's P/E has ranged roughly 25-60x since IPO. The current ~35.4x is in the mid-range historically, while growth has recovered from FY2025's 10% to Q1 2026's 17.9%.~~
+**(2026-08-07)** Airbnb's P/E has ranged roughly 25-60x since IPO. The current **33.2x** sits in the lower half of that historical mid-range, while growth has recovered from FY2025's 10% to +17.9% in Q1 and +17% in Q2. Versus the prior version the multiple fell while growth held — the historical comparison has modestly improved.
 ~~The current ~29x is at the historical low-to-mid range, but growth is also at historical lows.~~
 
 ### Key Valuation Considerations
 
 - ~~P/FCF of 15.5x is low for a platform with 38% FCF margins: If growth sustains at 10%+, this valuation is attractive~~
-- **P/FCF has moved from 15.5x to 26.9x (TTM levered FCF) or 18.6x (FY2025 basis): On FY2025's $4.6B FCF, valuation remains reasonable; on TTM levered FCF of $3.19B, it's stretched**
+- ~~**P/FCF has moved from 15.5x to 26.9x (TTM levered FCF) or 18.6x (FY2025 basis): On FY2025's $4.6B FCF, valuation remains reasonable; on TTM levered FCF of $3.19B, it's stretched**~~
+- **(2026-08-07) P/FCF has come back down from ~~26.9x~~ to 18.5x, and for the first time the two bases converge (TTM 18.5x vs FY2025 basis 19.4x) — the prior version's split verdict ("stretched on TTM, reasonable on FY2025") has dissolved. It dissolved because TTM FCF was repaired from ~~$3.19B~~ to $4.827B, not because the stock fell.**
 - ~~But P/E of 29x is high for 10% growth: PEG ratio of ~2.9x is not cheap~~
-- **P/E of 35.4x for Q1 2026's 17.9% growth gives a PEG of ~2.0x — improved from before but still not low in absolute terms**
-- **Core tension deepened:** The market is pricing "growth re-acceleration" (stock +20%), but valuation expansion has partially front-run the optimism. Q1 revenue growth delivered, but margin compression and TTM FCF decline are warning signals
+- ~~**P/E of 35.4x for Q1 2026's 17.9% growth gives a PEG of ~2.0x — improved from before but still not low in absolute terms**~~
+- **(2026-08-07) A P/E of 33.2x against Q2's 17% revenue growth is a PEG of about 1.9x — marginally better than the prior ~~~2.0x~~, but still not low in absolute terms. This is the half of the tension that has not resolved.**
+- ~~**Core tension deepened:** The market is pricing "growth re-acceleration" (stock +20%), but valuation expansion has partially front-run the optimism. Q1 revenue growth delivered, but margin compression and TTM FCF decline are warning signals~~
+- **Core tension restated (2026-08-07):** Both warnings from the prior version have reversed — net margin 19.9% → 20.5%, Q2 Adjusted EBITDA Margin 35% (vs 34% in Q2'25), TTM FCF ~~$3.19B~~ → $4.827B. **The only remaining tension is the price itself: a 33x TTM P/E already treats sustained mid-teens growth as settled fact, and if 2027 growth falls back to low double digits the room for multiple compression is not small.**
 
 ---
 
@@ -277,7 +297,8 @@ Airbnb's P/E has ranged roughly 25-60x since IPO. The current ~35.4x is in the m
 
 ### Near-Term (0-6 months)
 - ✅ ~~Q1 2026 earnings (guidance of 14-16% growth — can they deliver?)~~ **Q1 2026 reported: Revenue +17.9% YoY, beat! But earnings +3.9% only**
-- ⚡ Q2 2026 earnings (expected August 2026): Can full-year growth momentum sustain?
+- ✅ ~~⚡ Q2 2026 earnings (expected August 2026): Can full-year growth momentum sustain?~~ **Q2 2026 reported after the close on 2026-08-06: revenue +17%, net income $816M (+27%), FCF $1.253B (+30%), and both full-year revenue and margin guidance raised. The sustainability question was answered affirmatively this quarter.**
+- ⚡ **Q3 2026 earnings (expected early November 2026): whether the $4.69-4.77B (+15-17%) guide is met, and what the organic rate looks like once the roughly 3 points of FX tailwind are stripped out**
 - ⚡ 2026 new product launch cadence (Experiences, AI features)
 - ⚡ FIFA World Cup 2026 + Winter Olympics 2026 demand pulse (in progress)
 - ✅ ~~EU short-term rental regulations effective May 2026 — real-world impact~~ **Now in effect, initial impact TBD**
@@ -297,29 +318,40 @@ Airbnb's P/E has ranged roughly 25-60x since IPO. The current ~35.4x is in the m
 
 ## 10. Conclusion
 
-Airbnb is a rare internet platform that combines a powerful brand, high margins, and an asset-light model. $4.6B in FCF, a 38% FCF margin, and a $6B buyback program — from a cash flow perspective, this is a well-oiled money-printing machine.
+Airbnb is a rare internet platform that combines a powerful brand, high margins, and an asset-light model. ~~$4.6B in FCF, a 38% FCF margin, and a $6B buyback program~~ **(2026-08-07) TTM FCF of $4.827B, a 37% TTM FCF margin, and $3.4B of remaining buyback authorization ($1.1B repurchased in Q2)** — from a cash flow perspective, this is a well-oiled money-printing machine.
 
 ~~But the growth narrative is shifting. Revenue growth has decelerated from 40% to 10%, nights growth to 8%, and ADR growth is a modest 2-3%. Global regulation continues to tighten, and Booking.com's alternative accommodation inventory now matches Airbnb's. Brian Chesky is betting on AI and category expansion to re-accelerate growth, but these new businesses have yet to prove themselves.~~
 
-**June 25, 2026 Update:** Q1 2026 revenue grew +17.9% YoY, exceeding the 14-16% guidance — the growth re-acceleration narrative now has its first hard data point. However, earnings grew only +3.9%, and TTM levered FCF declined from FY2025's $4.6B to $3.19B, so margins and cash flow quality need watching. The stock has risen from ~$119 to $142.90 (+20%), with P/E expanding from 29x to 35.4x — the market has partially priced in the growth improvement.
+~~**June 25, 2026 Update:** Q1 2026 revenue grew +17.9% YoY, exceeding the 14-16% guidance — the growth re-acceleration narrative now has its first hard data point. However, earnings grew only +3.9%, and TTM levered FCF declined from FY2025's $4.6B to $3.19B, so margins and cash flow quality need watching. The stock has risen from ~$119 to $142.90 (+20%), with P/E expanding from 29x to 35.4x — the market has partially priced in the growth improvement.~~
 
-**The Core Tension:** ~~Top-tier cash flow quality vs. a decelerating growth engine.~~ **Growth acceleration delivered vs. valuation front-running.**
+**August 7, 2026 Update (Q2 2026 incorporated):** The growth re-acceleration narrative picked up its second consecutive hard data point — revenue +17%, Nights and Seats Booked +10% (accelerating from Q1), GBV +16% — and the company raised full-year revenue and margin guidance on the strength of it. More importantly, both warnings flagged in the prior version reversed: earnings went from +3.9% to net income +27% ($642M → $816M, including a $77M one-time tax benefit tied to recently published guidance on prior-year taxes), and TTM FCF was repaired from ~~$3.19B~~ to $4.827B. Over the same span the stock rose only 6.1% (to $151.64), so **the multiples went down**: P/E ~~35.4x~~ → 33.2x, P/FCF ~~26.9x~~ → 18.5x.
+
+**The Core Tension:** ~~Top-tier cash flow quality vs. a decelerating growth engine.~~ ~~**Growth acceleration delivered vs. valuation front-running.**~~ **(2026-08-07) Both the cash-flow line and the growth line have turned positive, narrowing the tension to a single question: whether a 33x TTM P/E has already treated sustained mid-teens growth as settled fact.**
 
 **What Investors Should Watch:**
 1. ~~Whether Q1 2026 delivers on the 14-16% revenue growth guidance (inflection point signal)~~ ✅ Q1 delivered +17.9%
-2. **Whether Q2 2026 sustains double-digit growth momentum (August earnings)**
-3. New category revenue contribution data in H2 2026
-4. ~~Real-world impact of EU May 2026 regulations on listing supply~~ EU regs now in effect, watch listing data
+2. ~~**Whether Q2 2026 sustains double-digit growth momentum (August earnings)**~~ ✅ **Q2 delivered +17% and the company raised full-year guidance**
+3. **Roughly 3 points of the Q3 2026 guide ($4.69-4.77B / +15-17%) is FX tailwind — the organic rate net of that is the next real test**
+4. New category revenue contribution data in H2 2026 (Experiences, boutique hotels, services)
+5. ~~Real-world impact of EU May 2026 regulations on listing supply~~ EU regs now in effect, watch listing data
+6. **Migration of the remaining hosts onto the single 15.5% service fee (the company expects to finish this year) and its effect on take rate — Q2 implied take rate was 13.2%, flat year over year**
 
 ~~At ~15.5x P/FCF, this is not expensive for an asset of this quality, but at ~29x P/E for 10% growth, it's not cheap either. This is a "fair price for a quality asset" opportunity, not a "deeply undervalued bargain." Whether growth can re-accelerate will determine if this investment delivers "steady returns" or becomes a "valuation trap."~~
 
-**Current Anchor (June 25, 2026):** P/E 35.4x, P/S 6.8x, P/FCF 26.9x (TTM) or 18.6x (FY2025 basis). On FY2025's full-year $4.6B FCF, valuation is not extreme; on TTM levered FCF of $3.19B, it's no longer cheap. Q1 growth acceleration has been initially delivered, and the stock's +20% move reflects this improvement. The critical question: Can Q2 sustain 15%+ growth, and can margins stabilize? If yes, the current valuation is supported; if growth decelerates again, 35x P/E faces compression risk. **This is a "first evidence point for the growth acceleration thesis has been priced in" state — more evidence is needed to justify this price.**
+~~**Current Anchor (June 25, 2026):** P/E 35.4x, P/S 6.8x, P/FCF 26.9x (TTM) or 18.6x (FY2025 basis). On FY2025's full-year $4.6B FCF, valuation is not extreme; on TTM levered FCF of $3.19B, it's no longer cheap. Q1 growth acceleration has been initially delivered, and the stock's +20% move reflects this improvement. The critical question: Can Q2 sustain 15%+ growth, and can margins stabilize? If yes, the current valuation is supported; if growth decelerates again, 35x P/E faces compression risk. **This is a "first evidence point for the growth acceleration thesis has been priced in" state — more evidence is needed to justify this price.**~~
+
+**Current Anchor (close of 2026-08-06, $151.64):** P/E **33.2x**, P/S **6.8x**, P/FCF **18.5x**, EV/Adjusted EBITDA **about 17x**. The two verification questions posed in the prior version — can Q2 sustain 15%+ growth, and can margins stabilize — **have both been answered affirmatively**, so the valuation's supporting conditions have moved from "to be verified" to "met." At 18.5x P/FCF, a platform with $9.66B of net cash, a 37% FCF margin and 17% revenue growth is not expensive; at 33.2x TTM P/E it is still fully priced. **The judgment therefore advances from "the first evidence point has been priced in" to "the second evidence point also delivered, but the price kept pace" — netting out to Neutral-to-Positive with Medium conviction rather than an upgrade. What would actually change the call is Q3's organic growth rate net of FX, not the size of this quarter's beat.**
+
+> **Re-anchor note:** the multiples above are anchored to the 2026-08-06 close, which precedes the Q2 release. **The valuation anchor should be rerun after the first completed post-release regular session.**
 
 ---
 
 ## Appendix
 
 ### Data Sources
+- **Airbnb Q2 2026 Form 8-K, SEC accession 0001193125-26-337928 (2026-08-06), Ex-99.1 Q2 2026 Shareholder Letter**
+- **Airbnb Q2 2026 Form 10-Q, SEC accession 0001559720-26-000027 (2026-08-06) — cover-page share counts, balance sheet, H1 income statement and cash flows**
+- **Airbnb Form 10-K FY2025 (2026-02-12), Q1 2026 8-K (0001193125-26-211816), Q3 2025 8-K (0001193125-25-269432) — the period data used to derive TTM**
 - Airbnb official earnings reports (FY2022-FY2025) and investor presentations
 - Airbnb Q4 2025 earnings call
 - AirDNA market data

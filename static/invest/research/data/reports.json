@@ -2685,8 +2685,8 @@
     "priceSymbol": "AAOI",
     "title": "AAOI 深度研究报告 - AI数据中心光模块高弹性与估值重定价",
     "titleEn": "AAOI Deep Research Report - AI Data Center Optics Upside After a 55% Drawdown",
-    "summary": "2026-07-31 立场重新裁定：AAOI 收于 $90.11（2026-07-30），较 07-29 低点反弹 +17.8%、较 6 月 22 日锚点仍 -47.4%（本覆盖集合最大跌幅）；市值约 $72.3 亿、企业价值约 $70.0 亿。按不变的 $507M TTM 收入，EV/TTM Sales 约 13.8x、Q2 指引中点年化口径约 9.3x。本期无新季报（Q2 业绩 2026-08-06 发布）。按所有者 Q1 裁定复核：旧的约 26.6x 负预期差算术不再承重，立场维持谨慎/中确信，依据改为客户集中、经营现金流为负、ATM 稀释与毛利率未证等执行风险；网格权重（30/30/40）复核后保留。",
-    "summaryEn": "July 31, 2026 stance re-adjudication: AAOI closed at $90.11 on 2026-07-30, +17.8% off the 07-29 low and still -47.4% from the June 22 anchor (the largest drawdown in this coverage set), for roughly $7.23B market cap and $7.00B enterprise value. On an unchanged $507M TTM revenue base, EV/TTM Sales is about 13.8x and EV/annualized Q2-guide sales about 9.3x. No new quarter was reported (Q2 results are due 2026-08-06). Re-checked under the owner's Q1 ruling: the old ~26.6x negative-gap arithmetic no longer carries the stance; cautious / medium conviction holds, re-founded on customer concentration, negative operating cash flow, ATM dilution and unproven margin expansion, with the grid weights (30/30/40) re-checked and retained.",
+    "summary": "2026-08-07 监测更新：Q2 收入 $191.9M，落在 $180-198M 指引内；数据中心收入 $107.7M（+140%），但 GAAP 毛利率 27.7% 同比、环比均下降，Q3 指引为 $255-290M。2026H1 经营现金流仍为 −$73.8M，普通股发行净得 $1.028B；Digicomm 占 H1 收入约 42.8%、期末应收约 67.2%。2026-07-30 的 $90.11 价格与倍数保留为明确的历史估值快照；财报于 08-06 盘后发布，尚无财报后正常时段收盘，本次不重算估值、网格、立场或确信度。立场暂维持谨慎/中确信，待财报后价格与完整估值更新重新裁定。",
+    "summaryEn": "August 7, 2026 monitoring update: Q2 revenue was $191.9M, inside the $180-198M guide; Datacenter revenue reached $107.7M (+140%), but GAAP gross margin of 27.7% declined both Y/Y and Q/Q, and Q3 revenue is guided to $255-290M. H1 2026 operating cash flow remained negative at $73.8M, while net common-stock offering proceeds reached $1.028B; Digicomm represented about 42.8% of H1 revenue and 67.2% of period-end receivables. The $90.11 price and multiples at 2026-07-30 remain an explicitly historical valuation snapshot. Because the release came after the 2026-08-06 close and no post-release regular session has completed, this update does not recompute valuation, grid, stance, or conviction. The stance temporarily remains cautious / medium conviction pending a post-release price and complete valuation update.",
     "tags": [
       "光通信",
       "AI数据中心",
@@ -2695,29 +2695,29 @@
     ],
     "category": "tech",
     "date": "2026-06-23",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-07",
     "file": "/invest/research/reports/view.html?id=aaoi-2026",
     "markdownFiles": {
       "zh": "/invest/research/AAOI_深度研究报告_2026-06.md",
       "en": "/invest/research/AAOI_Deep_Research_Report_2026-06.md"
     },
     "period": "2026H1",
-    "versionType": "initial",
-    "versionLabel": "2026H1 Initial Coverage",
+    "versionType": "incremental",
+    "versionLabel": "Q2 2026 Monitoring Update",
     "highlights": [
-      "股价 $90.11（2026-07-30 收盘），较 07-29 低点反弹 +17.8%、较 6 月 22 日锚点仍 -47.4%，为本覆盖集合最大跌幅",
-      "按 2026-07-30 收盘：市值约 $72.3 亿、EV 约 $70.0 亿；EV/TTM Sales 约 13.8x（旧口径 26.6x）",
-      "Q2 指引中点年化口径 EV/Sales 约 9.3x；收入事实基础不变（TTM 约 $507M）",
-      "本期无新季报：Q2 2026 业绩定于 2026-08-06，执行层面问题未解决也未恶化",
-      "所有者 Q1 裁定已适用：维持谨慎/中确信，依据改为客户集中、现金流为负、ATM 稀释与毛利率未证等执行风险；网格权重保留"
+      "Q2 收入 $191.9M 落在指引内；数据中心收入 $107.7M（+140%），Q3 收入指引 $255-290M",
+      "GAAP 毛利率 27.7%，低于 Q1 的 29.1% 和上年同期的 30.3%；非 GAAP 毛利率 29.8%",
+      "2026H1 经营现金流 −$73.8M，普通股发行净得 $1.028B；Q2 单季经营现金流约 +$11.6M 为两份 10-Q 相减推导",
+      "Digicomm 占 H1 收入约 42.8%、期末应收约 67.2%，最大已披露集中度在 CATV 分销商而非数据中心客户",
+      "估值冻结在 2026-07-30 历史快照；尚无财报后正常收盘，谨慎/中确信待完整估值更新重新裁定"
     ],
     "chainLayer": "optical",
     "coverageTier": "full",
     "stance": "cautious",
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "2026-07-31 按所有者 Q1 裁定重新裁定。按 2026-07-30 收盘 $90.11（市值约 $72.3 亿、EV 约 $70.0 亿），EV/TTM Sales 约 13.8x（旧口径 26.6x）：已失效的倍数算术不再承重；谨慎立场重新建立在客户集中、经营现金流为负、ATM 稀释与毛利率扩张未证这些独立执行支柱上，Q2 业绩 2026-08-06 是下一验证点。",
-      "en": "Re-adjudicated 2026-07-31 under the owner's Q1 ruling. At the 2026-07-30 close of $90.11 (about $7.23B cap, $7.00B EV), EV/TTM Sales is about 13.8x (old caliber 26.6x): the dissolved multiple arithmetic no longer carries the stance; cautious is re-founded on customer concentration, negative operating cash flow, ATM dilution and unproven margin expansion — independent execution legs — with Q2 due 2026-08-06."
+      "zh": "2026-08-07 监测：Q2 收入落在指引内且 Q3 指引显示阶跃，但毛利率同比、环比下降，H1 经营现金流仍为负、增发扩大且 Digicomm 集中度高。由于 2026-08-06 盘后发布后尚无正常时段收盘，2026-07-30 的 $90.11 与 13.8x EV/TTM Sales 仅作为历史快照，本次不重新裁定立场；谨慎/中确信暂由上述执行风险承重，待财报后价格与完整估值更新。",
+      "en": "August 7, 2026 monitoring: Q2 revenue landed inside the guide and Q3 guidance shows a step-up, but gross margin declined both Y/Y and Q/Q, H1 operating cash flow remained negative, issuance expanded, and Digicomm concentration is high. With no regular-session close after the 2026-08-06 after-close release, the $90.11 price and 13.8x EV/TTM Sales at 2026-07-30 are historical only; the stance is not re-adjudicated here. Cautious / medium conviction temporarily rests on those execution risks pending a post-release price and complete valuation update."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -2768,7 +2768,7 @@
       }
     ],
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q1 2026",
+    "reportedPeriod": "Q2 2026 monitoring / 2026-07-30 valuation frame",
     "related": [
       "corning-2026"
     ],
@@ -2786,11 +2786,12 @@
           "en": "Q2 $180-198M guide delivered and Q3 capacity step-up lands"
         },
         "latest": {
-          "zh": "800G 已向大型 hyperscale 客户首批量产出货；月产能接近 10 万只",
-          "en": "800G in initial mass production to a large hyperscaler; ~100k/month capacity"
+          "zh": "2026 Q2（2026-08-06 盘后发布）：收入 $191.9M，落在 $180-198M 指引区间内；数据中心收入 $107.7M（2025 Q2 为 $44.8M，同比 +140%），CATV 收入 $80.6M。公司称 800G 出货量环比翻倍以上（未量化只数），总制造产能接近每月 20 万只，并预计到 2026 年底具备每月约 65 万只 800G 与 1.6T 产品的生产能力；Q3 指引收入 $255-290M、非 GAAP 毛利率 29%-30.5%。评级为阈内：本项触发条件的第一条腿（交付 Q2 $180-198M 指引）已兑现。证据边界：第二条腿（Q3 产能上线）尚未落地——$255-290M 是指引，每月 65 万只是公司陈述的年底产能计划而非已安装产能或已订订单；公司所称「需求将持续超过产能至 2027 年中」是管理层评论，未附订单、积压或合同量化。",
+          "en": "Q2 2026 (released after the close on 2026-08-06): revenue was $191.9M, inside the $180-198M guide; datacenter revenue was $107.7M (Q2 2025: $44.8M, +140% YoY) and CATV revenue $80.6M. The company says 800G shipment volume more than doubled sequentially (units not quantified), total manufacturing capacity is approaching 200,000 units per month, and it expects to be capable of producing about 650,000 pieces per month of 800G and 1.6T product by the end of 2026; Q3 is guided to $255-290M of revenue at a 29%-30.5% non-GAAP gross margin. Graded within: the first leg of this item's trigger - delivering the $180-198M Q2 guide - was met. Evidence limits: the second leg, the Q3 capacity step-up, has not landed - $255-290M is guidance, and the 650,000/month figure is a stated year-end capability plan rather than installed capacity or booked orders; 'demand will continue to outpace our production capacity through mid-2027' is management commentary with no order, backlog or contract quantification."
         },
-        "nextCheck": "2026-Q2/Q3 财报 / Q2-Q3 earnings",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "Q3 2026 财报与产能落地 / Q3 2026 earnings and delivered capacity",
+        "reading": "within",
+        "readingAsOf": "2026-08-06"
       },
       {
         "id": "cash-burn-dilution",
@@ -2805,10 +2806,12 @@
           "en": "operating cash flow stays negative while issuance expands"
         },
         "latest": {
-          "zh": "Q1 经营现金流 −$85.4M；GAAP 仍亏损",
-          "en": "Q1 operating cash flow −$85.4M; GAAP still loss-making"
+          "zh": "2026 Q2 10-Q（2026-08-06 提交）：2026 上半年经营活动净现金流出 $73.781M（2025 上半年为流出 $116.389M）；2026 Q1 10-Q 记录的上季经营现金流为 −$85.353M，两份已提交报表相减得出 2026 Q2 单季经营现金流约 +$11.6M（本报告推导，非单独披露）。增发端：2026 上半年普通股发行净得 $1,028.207M（2025 上半年 $195.770M），其中 Q1 为 $382.448M，故 Q2 单季约 $645.8M；实缴资本从 2025 年底的 $1,224.5M 升至 $2,192.7M。上半年资本开支 $335.132M，另有设备预付款 $289.744M。评级为读数不明：本项触发条件是「经营现金流持续为负叠加增发扩大」两条腿同时成立——增发扩大这条腿明确成立，但经营现金流这条腿的读数取决于口径，按已提交的上半年报表为负、按推导的单季数为正。触发条件本身未规定计量周期，因此按其自身文本无法判定，本项措辞值得在下一次完整更新中修订。",
+          "en": "Q2 2026 10-Q (filed 2026-08-06): net cash used in operating activities was $73.781M for the six months ended 2026-06-30 (H1 2025: $116.389M used). The Q1 2026 10-Q reported $85.353M used for the prior quarter, so subtracting the two filed statements gives approximately +$11.6M of operating cash flow for Q2 2026 alone (derived by this report, not separately disclosed). On the issuance leg: net proceeds from common stock offerings were $1,028.207M in H1 2026 (H1 2025: $195.770M), of which $382.448M came in Q1, implying about $645.8M in Q2; additional paid-in capital rose from $1,224.5M at year-end 2025 to $2,192.7M. H1 capital expenditure was $335.132M with a further $289.744M of equipment prepayments. Graded unclear: this item's trigger requires both legs - operating cash flow staying negative *and* issuance expanding. The issuance leg is unambiguously met; the cash-flow leg depends on the measurement period, negative on the filed six-month statement and positive on the derived single quarter. The trigger does not specify a period, so it cannot be adjudicated on its own text, and its wording is worth revising at the next full update."
         },
-        "nextCheck": "季报现金流与股本 / cash flow & share count"
+        "nextCheck": "季报现金流与股本 / cash flow & share count",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-06"
       },
       {
         "id": "customer-concentration",
@@ -2823,10 +2826,12 @@
           "en": "order cadence swings at the single large customer"
         },
         "latest": {
-          "zh": "Data Center 收入 $81.4M（+154%），大型 hyperscale 客户驱动",
-          "en": "Data Center revenue $81.4M (+154%), driven by a large hyperscaler"
+          "zh": "2026 Q2 10-Q（2026-08-06）首次给出可对照的集中度披露：截至 2026-06-30，Digicomm 占应收账款总额约 67.2%；2026 上半年来自 Digicomm 的收入约 $147.0M，占合并收入约 42.8%，且主要来自 CATV 产品类别。公司称已向 Digicomm 提供长于常规的付款条件以保证其备货，历史回款记录良好，并预计随数据中心业务相对增长，Digicomm 的应收账款集中度将下降。评级为阈内：本项触发条件是单一大客户订单节奏出现波动，本期无此类披露。但读数方向与本报告原有表述不同——已披露的最大集中度出现在 CATV 分销商 Digicomm，而非数据中心的超大规模客户；公司未按客户披露数据中心收入，因此不能从数据中心分部收入 $107.7M（同比 +140%）推断任何单一超大规模客户的订单节奏。",
+          "en": "The Q2 2026 10-Q (2026-08-06) gives the first concentration disclosure that can be checked against this item: at 2026-06-30 Digicomm represented approximately 67.2% of total accounts receivable, and H1 2026 revenue from Digicomm was approximately $147.0M, or about 42.8% of consolidated revenue, primarily in the CATV product category. The company says it has extended longer than typical payment terms to Digicomm so it can hold adequate inventory, that its collection experience has been good, and that it expects Digicomm accounts-receivable concentration to decline as the datacenter business grows relative to it. Graded within: this item's trigger is an order-cadence swing at the single large customer, and no such swing is disclosed. The reading does, however, point somewhere other than this report's original framing - the largest disclosed concentration sits with the CATV distributor Digicomm, not with the datacenter hyperscaler - and because the company does not disclose datacenter revenue by customer, no single hyperscaler's order cadence can be inferred from the $107.7M (+140% YoY) datacenter segment figure."
         },
-        "nextCheck": "季报客户披露 / customer disclosures"
+        "nextCheck": "季报客户披露 / customer disclosures",
+        "reading": "within",
+        "readingAsOf": "2026-08-06"
       },
       {
         "id": "valuation-tolerance",
@@ -2841,11 +2846,12 @@
           "en": "the ~26.6x EV/TTM Sales compresses if the ramp misses"
         },
         "latest": {
-          "zh": "2026-07-31 估值重锚（非财报，仅价格）：2026-07-30 收盘 $90.11（较 2026-06-22 旧锚点 $171.23 跌约 47.4%）；市值约 $7.23B、EV 约 $7.00B，EV/TTM Sales 约 13.8x（旧口径约 26.6x）、EV/年化 Q2 指引 sales 约 9.3x。立场维持 cautious / 中确信，理由从估值倍数转为客户集中度、经营现金流为负、ATM 增发与毛利率扩张尚未验证等独立执行风险；2026-08-06 的 Q2 财报是下一个检验点。",
-          "en": "2026-07-31 valuation re-anchor (price-only, not an earnings update): AAOI closed at $90.11 on 2026-07-30 (about -47.4% from the old 2026-06-22 anchor of $171.23); market cap about $7.23B, EV about $7.00B, EV/TTM Sales about 13.8x (old caliber about 26.6x), EV/annualized-Q2-guide sales about 9.3x. Stance stays cautious / medium conviction, now founded on independent execution risk (customer concentration, negative operating cash flow, ATM dilution, unproven gross-margin expansion) rather than the dissolved multiple claim; the 2026-08-06 Q2 print is the next test."
+          "zh": "Q2 2026 收入 $191.9M 落在 $180-198M 指引内，未出现收入放量不及预期；但 2026-08-06 盘后发布后尚无财报后正常时段收盘，且新 TTM 收入、现金与股本口径尚未完成估值重建。2026-07-30 的 $90.11 与 13.8x EV/TTM Sales 仅保留为历史快照，不能据此给出当前估值容错评级。",
+          "en": "Q2 2026 revenue of $191.9M landed inside the $180-198M guide, so the revenue ramp did not miss. But no post-release regular session has completed after the 2026-08-06 after-close print, and the new TTM revenue, cash, and share-count inputs have not been rebuilt into a current valuation. The $90.11 price and 13.8x EV/TTM Sales at 2026-07-30 remain a historical snapshot only and cannot support a current valuation-tolerance grade."
         },
-        "nextCheck": "2026-Q2 财报 / Q2 earnings",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "首个财报后正常收盘与完整估值更新 / first post-release close and full valuation refresh",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-06"
       }
     ]
   },
@@ -3028,7 +3034,7 @@
     "priceSymbol": "SNDK",
     "title": "SanDisk 深度研究报告 - NAND寡头格局中的AI存储周期暴露",
     "titleEn": "SanDisk Deep Research Report - AI Storage Cycle Exposure in the NAND Oligopoly",
-    "summary": "2026-07-31 立场重新裁定：SNDK 收于 $1,279.96（2026-07-30），较 07-29 低点反弹 +26.0%、较 6 月 26 日锚点仍 -38.8%，市值约 $1,894 亿，FY2026E P/S 约 9.8 倍。按同样的 12-15x 通周期框架，当前价格隐含可持续 EPS 约 $85-107，仍低于 $120-132 的顶峰年化指引——反号状态在反弹后依然成立。按所有者 Q1 裁定，立场由谨慎调整为观望中性（中确信）：旧的负预期差已不存在，而 NBM 覆盖能否抬高谷底仍未证明，故不转为看多；网格权重（20/40/40）保留，等待 2026-08-05 业绩。",
+    "summary": "2026-08-06 监测更新：Q4 FY2026 收入 $89.65 亿（环比 +51%）、GAAP 与非 GAAP 毛利率均为 84.6%，高于原 79-81% 指引；数据中心收入 $29.77 亿（环比 +103%），全年收入 $202.48 亿（+175%）。公司本季新增五份 NBM 协议，使已公布总数达到十份，但新闻稿未披露最低合同收入、RPO、担保或 bit 覆盖。2026-07-30 的 $1,279.96 价格与估值框架保留为明确的历史快照，本次不重算价格、倍数、情景网格、立场或确信度；立场仍为观望中性（中确信），需在 10-K 与完整估值更新后重新裁定。",
     "tags": [
       "NAND闪存",
       "AI存储",
@@ -3037,28 +3043,28 @@
     ],
     "category": "tech",
     "date": "2026-06-27",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-07",
     "file": "/invest/research/reports/view.html?id=sandisk-2026",
     "markdownFiles": {
       "zh": "/invest/research/SanDisk_深度研究报告_2026-06.md",
       "en": "/invest/research/SanDisk_Deep_Research_Report_2026-06.md"
     },
     "period": "2026H1",
-    "versionType": "initial",
-    "versionLabel": "2026H1 Initial Coverage",
+    "versionType": "incremental",
+    "versionLabel": "Q4 FY2026 Monitoring Update",
     "highlights": [
-      "股价 $1,279.96（2026-07-30 收盘），较 07-29 低点反弹 +26.0%、较 6 月 26 日锚点仍 -38.8%，市值约 $1,894 亿",
-      "FY2026E P/S 约 9.8 倍；按 Q4 年化 EPS $120-132 计前瞻 P/E 约 9.7-10.7 倍",
-      "反号状态在反弹后依然成立：12-15x 框架隐含可持续 EPS 约 $85-107，仍低于顶峰年化指引",
-      "市场仍在定价一个低于顶峰约 19-29% 的谷底——旧的\"高于顶峰\"负预期差不复存在",
-      "所有者 Q1 裁定已适用：立场调整为观望中性/中确信；NBM 覆盖与毛利率持久性待 2026-08-05 业绩验证"
+      "Q4 FY2026 收入 $89.65 亿（环比 +51%、同比 +372%），GAAP 与非 GAAP 毛利率均为 84.6%",
+      "数据中心收入 $29.77 亿（环比 +103%），FY2026 全年数据中心收入 $51.53 亿（同比 +437%）",
+      "Q1 FY2027 指引：收入 $103-108 亿，非 GAAP 毛利率 83.0-85.0%，非 GAAP 摊薄 EPS $44-46",
+      "本季新增五份 NBM 协议、已公布总数十份；新闻稿未披露合同金额、RPO、担保或 bit 覆盖，读数仍不明",
+      "估值与立场冻结在 2026-07-30 历史快照：观望中性/中确信；需 10-K 与完整估值更新后重新裁定"
     ],
-    "summaryEn": "July 31, 2026 stance re-adjudication: SNDK closed at $1,279.96 on 2026-07-30, +26.0% off the 07-29 low and still -38.8% from the June 26 anchor, for roughly $189.4B market cap and FY2026E P/S of ~9.8x. On the same 12-15x through-cycle frame the price implies about $85-107 of sustainable EPS, still below the $120-132 peak annualized guide — the inversion held through the bounce. Under the owner's Q1 ruling the stance moves from cautious to neutral-watch (medium conviction): the old negative gap no longer exists, while unproven NBM trough coverage keeps it from constructive; grid weights (20/40/40) retained pending the 2026-08-05 print.",
+    "summaryEn": "August 6, 2026 monitoring update: Q4 FY2026 revenue was $8.965B (up 51% Q/Q), with GAAP and non-GAAP gross margin both 84.6%, above the prior 79-81% guide; Datacenter revenue was $2.977B (up 103% Q/Q), and FY2026 revenue $20.248B (up 175%). Five additional NBM agreements brought the announced total to ten, but the release does not disclose minimum contracted revenue, RPO, guarantees, or committed-bit coverage. The $1,279.96 price and valuation frame at 2026-07-30 remain an explicitly historical snapshot; this update does not recompute price, multiples, scenario grid, stance, or conviction. The stance stays neutral-watch / medium conviction pending the Form 10-K and a complete valuation update.",
     "chainLayer": "memory-storage",
     "coverageTier": "full",
     "stance": "neutral-watch",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q3 FY2026",
+    "reportedPeriod": "Q4 FY2026 monitoring / 2026-07-30 valuation frame",
     "related": [
       "sk-hynix-2026"
     ],
@@ -3076,11 +3082,12 @@
           "en": "78-80% peak gross margins roll over — cycle turns hit earnings and multiple together"
         },
         "latest": {
-          "zh": "Q3 FY2026 GAAP 毛利率 78.4%、营业利润率 69.1%；Q4 指引毛利率 79-81%",
-          "en": "Q3 FY2026 GAAP GM 78.4%, OM 69.1%; Q4 guide GM 79-81%"
+          "zh": "2026-08-05 发布的 Q4 FY2026（截至 2026-07-03）：GAAP 与非 GAAP 毛利率同为 84.6%，较 Q3 的 78.4% 升 6.2 个百分点，高于 79-81% 指引上限；GAAP 营业利润 $7,037M（营业利润率约 78.5%）。Q1 FY2027 指引毛利率 GAAP 83.0-84.9%、非 GAAP 83.0-85.0%。公司称环比收入增长约 1/3 来自出货量、约 2/3 来自价格，并预期 bit 在 2027 日历年之后仍处配给状态、全年可售 bit 增长中双位数。顶峰毛利率尚未转向，读数在框架内；但涨价主导的结构意味着价格回落时利润回撤更快。证据为卖方口径，本窗口内无买方成本归因佐证。",
+          "en": "Q4 FY2026 (quarter ended 2026-07-03), released 2026-08-05: GAAP and non-GAAP gross margin both 84.6%, up 6.2 ppt from 78.4% in Q3 and above the 79-81% guidance range; GAAP operating income $7,037M (about a 78.5% operating margin). Q1 FY2027 guidance is 83.0-84.9% GAAP and 83.0-85.0% non-GAAP gross margin. The company says sequential revenue growth came about one-third from volume and two-thirds from price, and expects bits to remain on allocation beyond calendar 2027 with sellable bit growth in the mid-teens for the year. The peak margin has not turned, so the reading sits within the frame; but a price-led mix means profit retraces faster when pricing rolls over. This is seller-side evidence, with no buyer-side cost attribution in this window."
         },
-        "nextCheck": "FY2026-Q4 财报（约 2026-08）/ Q4 FY2026 earnings",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "FY2027 Q1 财报与 10-K / Q1 FY2027 earnings and Form 10-K",
+        "reading": "within",
+        "readingAsOf": "2026-08-05"
       },
       {
         "id": "nbm-contract-lockin",
@@ -3095,10 +3102,12 @@
           "en": "the ~$42B minimum contracted revenue across five NBM agreements (management framing) gets confirmed in filings and delivery"
         },
         "latest": {
-          "zh": "约 $420 亿最低合同收入、>$110 亿财务担保、覆盖 FY2027 逾 1/3 bit 出货；$60 亿回购授权",
-          "en": "~$42B minimum contracted revenue, >$11B financial guarantees, >1/3 of FY2027 bits; $6B buyback authorized"
+          "zh": "2026-08-05 Q4 FY2026 业绩新闻稿披露本季新增五份 NBM 协议，其中三家为新客户、两份为既有协议扩展，使已公布协议总数达到十份。新闻稿未披露最低合同收入、RPO、财务担保或 bit 覆盖，因此不能据此确认旧报告约 $42B 的管理层口径，也不能判定上调触发条件要求的 FY2027 过半 bit 覆盖。读数不明，等待 10-K 或可核查合同披露。",
+          "en": "The 2026-08-05 Q4 FY2026 earnings release disclosed five additional NBM agreements - three with new customers and two expansions - bringing the announced total to ten. The release does not disclose minimum contracted revenue, RPO, financial guarantees, or committed-bit coverage, so it cannot independently confirm the old report's roughly $42B management framing or establish the upgrade trigger's more-than-half FY2027 bit coverage. The reading is unclear pending the Form 10-K or checkable contract disclosure."
         },
-        "nextCheck": "10-K/合同披露 / filings & contract disclosure"
+        "nextCheck": "10-K/合同披露 / filings & contract disclosure",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-05"
       },
       {
         "id": "datacenter-mix",
@@ -3113,11 +3122,12 @@
           "en": "data-center revenue keeps compounding and lifting mix"
         },
         "latest": {
-          "zh": "数据中心 $14.67 亿（+233% Q/Q）",
-          "en": "Datacenter $1.47B (+233% Q/Q)"
+          "zh": "Q4 FY2026（2026-08-05 发布）数据中心收入 $2,977M（环比 +103%、同比 +1,298%），FY2026 全年 $5,153M（同比 +437%）；公司披露数据中心占其 bit 出货比重由 Q4 FY2025 的 12% 升至 Q4 FY2026 的 38%。同期 Edge $5,432M（环比 +48%）、消费 $556M（环比 −32%）。放量与结构占比抬升同时成立。公司另称预期数据中心占 NAND 总 TAM 比重由 CY25 约 30% 升至 CY26 约 50%——该项为公司自有市场模型口径的前瞻预期，非已实现数据。",
+          "en": "Q4 FY2026 (released 2026-08-05): Datacenter revenue $2,977M, up 103% Q/Q and 1,298% Y/Y, with FY2026 revenue of $5,153M (up 437%); the company discloses Datacenter grew from 12% of its bits in Q4 FY2025 to 38% in Q4 FY2026. Over the same quarter Edge was $5,432M (up 48% Q/Q) and Consumer $556M (down 32% Q/Q). Both the ramp and the rising structural share hold. The company separately expects Datacenter's share of total NAND TAM to expand from about 30% in CY25 to about 50% in CY26 — a forward expectation on the company's own market model, not realised data."
         },
-        "nextCheck": "FY2026-Q4 财报 / Q4 print",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "FY2027 Q1 财报 / Q1 FY2027 earnings",
+        "reading": "within",
+        "readingAsOf": "2026-08-05"
       },
       {
         "id": "cycle-derating",
@@ -3836,7 +3846,7 @@
     "ticker": "NASDAQ: ABNB",
     "title": "Airbnb 深度研究报告 - 全球短租霸主的增长再加速之问",
     "titleEn": "Airbnb Deep Research Report - Can the Global Short-Term Rental Leader Re-Accelerate Growth?",
-    "summary": "Q1 2026营收+17.9%超预期，增长加速叙事获得首个硬数据支撑。但股价已从$119涨至$142.90（+20%），P/E从29x扩至35.4x，P/S 6.8x，TTM杠杆FCF从$46亿降至$31.9亿。市场已部分定价增长改善，利润率压缩和FCF质量需关注。核心张力：增长加速兑现vs估值提前反映。",
+    "summary": "Q2 2026营收$36.08亿(+17% Y/Y)、净利润$8.16亿(净利率23%)、调整后EBITDA $12.61亿(利润率35%)、FCF $12.53亿，间夜及座位预订1.483亿(+10%，较Q1加速)；公司同时上调全年营收增速指引至\"至少中双位数\"、调整后EBITDA利润率至\"至少35.5%\"。上一版最主要的警示项——TTM自由现金流质量——本季实质缓解，TTM FCF回升至$48.27亿。股价同期仅上涨6.1%至2026-08-06收盘$151.64，倍数因此不升反降：当前TTM P/E 33.2x、P/S 6.8x、P/FCF 18.5x、EV/调整后EBITDA 约17x。剩余张力不在现金流质量，而在33x TTM P/E是否已透支2027年增长。估值锚点为Q2发布前的2026-08-06收盘价，需在首个财报后正常交易时段完成后重锚。",
     "tags": [
       "在线旅游",
       "共享经济",
@@ -3845,22 +3855,24 @@
     ],
     "category": "tech",
     "date": "2026-02-13",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-07",
     "period": "2026H1",
     "versionType": "incremental",
-    "versionLabel": "2026H1 Incremental Update",
+    "versionLabel": "Q2 2026 Incremental Update",
     "file": "/invest/research/reports/view.html?id=airbnb-2026",
     "markdownFiles": {
       "zh": "/invest/research/Airbnb_深度研究报告_2026-02.md",
       "en": "/invest/research/Airbnb_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "股价$142.90、市值$857亿，TTM P/E 35.4x、P/S 6.8x、P/FCF(TTM杠杆) 26.9x（或FY2025基准18.6x）",
-      "Q1 2026营收同比+17.9%（超14-16%指引），增长加速兑现；但盈利增速仅+3.9%，利润率压缩",
-      "TTM杠杆FCF $31.9亿（vs FY2025 $46亿），运营现金流TTM $45.7亿，FCF质量需关注",
-      "核心矛盾：增长加速已初步兑现，但估值已从2月大幅扩张，需要Q2-Q4持续证据支撑"
+      "股价$151.64(2026-08-06收盘)、市值$894.0亿(A+B类5.896亿股口径)，TTM P/E 33.2x、P/S 6.8x、P/FCF 18.5x、EV/调整后EBITDA 约17x",
+      "Q2 2026营收+17%、间夜+10%(较Q1加速)、GBV $272亿(+16%)；全年营收与利润率指引双双上调",
+      "TTM自由现金流回升至$48.27亿(TTM FCF利润率37%)，上一版的现金流质量警报解除",
+      "口径更正：旧表的\"TTM EBITDA\"一行实为EBIT；真实TTM调整后EBITDA约$46.2–46.7亿(公司披露仅到四舍五入)，EV/调整后EBITDA 约17x，EV/EBIT 29.1x",
+      "维持中性偏积极·中等确信：多头证据变强，但33.2x TTM P/E对应约17%增速、PEG约1.9x，仍属充分定价"
     ],
-    "summaryEn": "Q1 2026 revenue +17.9% YoY beat 14-16% guidance, delivering first hard data for the growth acceleration thesis. But the stock has risen from $119 to $142.90 (+20%), P/E expanded from 29x to 35.4x, P/S 6.8x, and TTM levered FCF declined from $4.6B to $3.19B. The market has partially priced in the improvement; margin compression and FCF quality warrant monitoring. Core tension: growth acceleration delivered vs. valuation front-running."
+    "summaryEn": "Q2 2026 revenue $3.608B (+17% Y/Y), net income $816M (23% margin), Adjusted EBITDA $1.261B (35% margin), FCF $1.253B, and Nights and Seats Booked of 148.3M (+10%, accelerating from Q1); the company raised full-year revenue growth guidance to \"at least mid teens\" and Adjusted EBITDA Margin to \"at least 35.5%\". The prior version's loudest warning - TTM free cash flow quality - materially resolved, with TTM FCF recovering to $4.827B. The stock rose only 6.1% over the same span, to the 2026-08-06 close of $151.64, so the multiples compressed rather than expanded: TTM P/E 33.2x, P/S 6.8x, P/FCF 18.5x, EV/Adjusted EBITDA about 17x. The residual tension is no longer cash flow quality but whether a 33x TTM P/E has already borrowed against 2027 growth. The valuation anchor uses the pre-release 2026-08-06 close and must be rerun after the first completed post-release regular session.",
+    "reportedPeriod": "Q2 2026"
   },
   {
     "id": "hims-2026-pre-rerun",
@@ -6180,7 +6192,7 @@
     "priceSymbol": "CEG",
     "title": "Constellation Energy 深度研究报告 - AI 电力约束的核电与 Calpine 综合电力锚",
     "titleEn": "Constellation Energy Deep Research Report - Nuclear and Calpine Integrated Power Anchor for AI",
-    "summary": "CEG是AI基础设施power层的核电与Calpine可调度容量锚。2026-07-31重新锚定：价格$263.56（2026-07-30收盘）、市值约$94.1B、EV约$116B，约22.9x 2026 EPS指引中点和约3.9x EV/TTM sales。30%牛市/50%基准/20%熊市情景显示高质量资产与更高预期仍大致平衡，但当前价格留下的安全边际更少；立场维持中性观察/中确信。",
+    "summary": "2026-08-07 监测更新：CEG Q2 GAAP EPS $1.42、调整后运营 EPS $2.55，并把 2026 全年调整后运营 EPS 指引上调至 $11.50-12.50。公司新增签署 920MW、15-20 年 PPA（2029-2032 年起供；价格与 hyperscaler 占比未披露），FERC/NRC 推进 Crane 重启审批，并拟以 $860M 出售 606MW Brazos Valley 电厂。2026-07-30 的价格、倍数与情景网格保留为明确历史快照，本次不重算估值或立场；中性观察/中确信暂维持，待债务、FCF 与新指引纳入完整估值后重新裁定。",
     "tags": [
       "AI电力",
       "核电",
@@ -6189,28 +6201,29 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-07",
     "file": "/invest/research/reports/view.html?id=constellation-energy-2026",
     "markdownFiles": {
       "zh": "/invest/research/Constellation_Energy_深度研究报告_2026-07.md",
       "en": "/invest/research/Constellation_Energy_Deep_Research_Report_2026-07.md"
     },
     "period": "2026H1",
-    "versionType": "initial",
-    "versionLabel": "2026H1 Initial Coverage",
+    "versionType": "incremental",
+    "versionLabel": "Q2 2026 Monitoring Update",
     "highlights": [
-      "补齐 AI 基建 power 层可调度电力公共约束：CEG 用既有核电 fleet、Calpine 天然气/地热容量、长期 PPA 和 PJM 容量价格验证 AI 数据中心是否真的愿意为稳定清洁电力与可调度容量付溢价",
-      "2026Q1 收入 $11.12B、净利润 $1.59B、报道 EPS $2.74，核电发电量约 44,666 GWh，公司维持 2026 EPS 指引 $11-12",
-      "Microsoft/Crane Clean Energy Center（Three Mile Island Unit 1）重启目标指向 2027，Meta 约 1.1GW 核电 PPA 说明 hyperscaler 电力需求正在合同化；Calpine 把叙事从纯核电扩展到可调度容量",
-      "2026-07-30 收盘 $263.56、市值约 $94.1B、EV 约 $116B、约 22.9x 2026 EPS 指引中点、约 3.9x EV/TTM sales；溢价较旧锚点更重，维持中性观察/中确信"
+      "Q2 调整后运营 EPS $2.55（上年 $1.91），全年调整后运营 EPS 指引上调至 $11.50-12.50",
+      "新增 920MW 长期 PPA，期限 15-20 年、2029-2032 年起供；仅沃尔玛 176MW 具名，价格与 hyperscaler 占比未披露",
+      "FERC 批准 Crane 并网容量权转移、NRC 批准燃料许可修订；2027 重启目标不变，监管里程碑不等于并网发电",
+      "拟以 $860M 出售 606MW Brazos Valley 电厂，尚待 DOJ 批准、预计年内完成",
+      "估值冻结在 2026-07-30 历史快照；中性观察/中确信待债务、FCF 与新指引的完整估值更新重新裁定"
     ],
-    "summaryEn": "CEG is the nuclear and Calpine dispatchable-capacity anchor for the AI-infrastructure power layer. Re-anchored on 2026-07-31: the price is $263.56 (Jul 30, 2026 close), about $94.1B market cap and about $116B EV, around 22.9x midpoint 2026 EPS guidance and about 3.9x EV/TTM sales. A 30% bull / 50% base / 20% bear grid still shows high asset quality and now-higher expectations roughly in balance, with even less margin of safety at the current price, so the stance stays neutral-watch / medium conviction.",
+    "summaryEn": "August 7, 2026 monitoring update: CEG reported Q2 GAAP EPS of $1.42 and adjusted operating EPS of $2.55, and raised full-year 2026 adjusted operating EPS guidance to $11.50-12.50. It signed 920 MW of additional 15-20 year PPAs starting in 2029-2032, without disclosing price or hyperscaler share; FERC and the NRC advanced Crane restart approvals; and it agreed to sell the 606 MW Brazos Valley plant for $860M. The 2026-07-30 price, multiples, and scenario grid remain an explicitly historical snapshot, with no valuation or stance recomputation here. Neutral-watch / medium conviction holds provisionally pending a complete valuation update incorporating debt, FCF, and the new guide.",
     "chainLayer": "power",
     "coverageTier": "full",
     "chainRole": "common-constraint",
     "stance": "neutral-watch",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "2026Q1",
+    "reportedPeriod": "Q2 2026 monitoring / 2026-07-30 valuation frame",
     "related": [
       "vistra-2026",
       "gevernova-2026",
@@ -6231,11 +6244,13 @@
           "en": "Microsoft/Meta and other hyperscaler PPAs gain clearer capacity, price and start-date terms"
         },
         "latest": {
-          "zh": "Meta 约 1.1GW 核电 PPA；Microsoft/Crane restart 目标 2027",
-          "en": "Meta about 1.1GW nuclear PPA; Microsoft/Crane restart targets 2027"
+          "zh": "2026 Q2（2026-08-06 盘前发布）：公司披露新增签署 920MW 长期购电协议，期限 15-20 年，供电起始时间分布在 2029 至 2032 年，对手方仅描述为「一组多元化的投资级客户」；其中唯一具名的是 176MW 的沃尔玛协议，该协议将带动 Dresden 核电站 30MW 扩容。评级为读数不明：本项触发条件问的是 Microsoft/Meta 等超大规模厂商 PPA 的容量、价格与起始时间三项条款是否更清晰——容量与起始时间已披露，价格未披露，而本次唯一具名的对手方并非超大规模厂商，公司也未说明这 920MW 中是否包含超大规模厂商。按本项自身的触发条件无法评级。",
+          "en": "Q2 2026 (released before the open on 2026-08-06): the company disclosed an additional 920 MW of long-term power purchase agreements, 15-20 years in duration, with deliveries starting between 2029 and 2032, to counterparties described only as 'a diverse set of investment grade customers'; the sole named counterparty is a 176 MW agreement with Walmart, which will enable a 30 MW capacity expansion at the Dresden Clean Energy Center. Graded unclear: this item's trigger asks whether Microsoft/Meta and other hyperscaler PPAs gain clearer capacity, price and start-date terms - capacity and start dates were disclosed, price was not, the only named counterparty is not a hyperscaler, and the company did not say whether any of the 920 MW is hyperscaler volume. It cannot be graded against its own trigger."
         },
         "nextCheck": "PPA 细节与上线进度 / PPA terms and delivery timing",
-        "nextCheckDate": "2026-12"
+        "nextCheckDate": "2026-12",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-06"
       },
       {
         "id": "crane-restart-regulatory",
@@ -6250,11 +6265,13 @@
           "en": "FERC/NRC/state approvals, cost allocation or retail-rate disputes accelerate or delay the restart"
         },
         "latest": {
-          "zh": "Crane Clean Energy Center 目标 2027 重启",
-          "en": "Crane Clean Energy Center targets a 2027 restart"
+          "zh": "2026 Q2（2026-08-06）：FERC 批准了公司的豁免申请，允许将宾州 Eddystone 3、4 号双燃料机组的现有并网容量权（Capacity Interconnection Rights）转移至 Crane Clean Energy Center，公司称这一决定扫清了重启的关键监管障碍并预期可加快并网供电；NRC 亦批准了 Crane 的燃料许可修订申请。公司维持 2027 年重启目标。评级为阈内：本项触发条件的两个方向是加速或延误，本季度落在加速一侧，未出现审批、成本分摊或居民电价争议导致的延误。证据边界：这两项是监管里程碑，不等于重启完成或并网发电。",
+          "en": "Q2 2026 (2026-08-06): FERC approved the company's waiver request to transfer existing Capacity Interconnection Rights from the dual-fuel Eddystone Units 3 and 4 in Pennsylvania to the Crane Clean Energy Center, which the company describes as clearing a critical regulatory hurdle for the restart and expects to expedite delivery to the grid; the NRC separately approved a fuel license amendment request for Crane. The 2027 restart target is unchanged. Graded within: this item's trigger runs in two directions, acceleration or delay, and the quarter landed on the acceleration side with no approval, cost-allocation or retail-rate dispute causing delay. Evidence limit: both are regulatory milestones, not a completed restart or power delivery."
         },
         "nextCheck": "监管进度 / regulatory milestones",
-        "nextCheckDate": "2026-12"
+        "nextCheckDate": "2026-12",
+        "reading": "within",
+        "readingAsOf": "2026-08-06"
       },
       {
         "id": "pjm-capacity-pricing",
@@ -6288,11 +6305,12 @@
           "en": "Calpine integration, life-extension, restart or uprate spending expands net debt and FCF pressure"
         },
         "latest": {
-          "zh": "Calpine 已于 2026-01-07 完成；Q1 净债务约 $21.7B，EV 约 $107B",
-          "en": "Calpine closed on Jan. 7, 2026; Q1 net debt about $21.7B; EV about $107B"
+          "zh": "2026 Q2 业绩附件列示：现金及现金等价物 $0.697B、短期借款 $5.226B、一年内到期债务 $0.363B、长期债务 $19.111B，对应毛债务约 $24.700B、扣现金后约 $24.003B，高于报告原 Q1 约 $21.7B 净债务读数。方向显示杠杆上升，但附件未把增量完整归因于 Calpine 整合、核电投入或 FCF 压力，故读数不明。",
+          "en": "The Q2 2026 results exhibit lists $0.697B of cash and equivalents, $5.226B of short-term borrowings, $0.363B of current debt, and $19.111B of long-term debt, implying about $24.700B of gross debt and $24.003B net of cash, above the report's prior Q1 net-debt reading of about $21.7B. The direction shows higher leverage, but the exhibit does not fully attribute the increase to Calpine integration, nuclear spending, or FCF pressure, so the reading is unclear."
         },
-        "nextCheck": "2026-Q2 整合、现金流与债务 / Q2 integration, cash flow and debt",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "Q3 整合、现金流与债务桥接 / Q3 integration, cash flow and debt bridge",
+        "reading": "unclear",
+        "readingAsOf": "2026-06-30"
       },
       {
         "id": "ai-power-valuation-risk",
@@ -6307,16 +6325,18 @@
           "en": "AI capex or data-center buildout expectations get cut while CEG still trades on a large power-scarcity premium"
         },
         "latest": {
-          "zh": "$239.25、约 $85.4B 市值、约 3.6x EV/TTM sales",
-          "en": "$239.25, about $85.4B market cap and about 3.6x EV/TTM sales"
+          "zh": "2026-07-30 的 $263.56 与旧指引倍数仅为历史估值快照；Q2 指引上调、债务与 FCF 尚未纳入完整估值，且本次 CEG 文件不能独立判断 AI capex 是否被下修，因此当前读数不明。",
+          "en": "The $263.56 price and old-guide multiples at 2026-07-30 are a historical valuation snapshot only. The raised Q2 guide, debt and FCF have not been incorporated into a complete valuation, and the CEG filing alone cannot establish whether AI capex expectations were cut, so the current reading is unclear."
         },
-        "nextCheck": "AI capex 指引与电力股估值 / AI capex guides and power-equity multiples"
+        "nextCheck": "AI capex 指引与完整电力股估值 / AI capex guides and full power-equity valuation",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-06"
       }
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "在 2026-07-30 收盘 $263.56、约 22.9x 2026 EPS 指引中点和约 3.9x EV/TTM sales 上，市场为核电 PPA、Calpine 可调度容量和 PJM 容量稀缺付出的溢价高于旧锚点：按报告自身 16-18x 高质量发电框架，当前价格需要约 $14.6-16.5 可持续 EPS，而 2026 指引为 $11-12。但本报告的牛市/基准情景没有给出量化 EPS 增速，因此无法证明隐含要求已超出情景集合；同时 AI capex 预期未被下修、Crane 重启未延迟、Calpine 未抬高杠杆、PJM 价格未回落，降级条件均未触发。30%牛市/50%基准/20%熊市网格仍大致平衡，只是安全边际更少，故维持中性观察。",
-      "en": "At the $263.56 close on 2026-07-30, about 22.9x midpoint 2026 EPS guidance and about 3.9x EV/TTM sales, the market pays a larger premium for nuclear PPAs, Calpine dispatchable capacity, and PJM capacity scarcity than at the old anchor: on this report's own 16-18x high-quality-generator frame the price now needs about $14.6-16.5 of sustainable EPS against 2026 guidance of $11-12. But the report states no quantified EPS growth rate for its bull or base case, so the implied requirement cannot be shown to exceed the scenario set; and none of the downgrade conditions has fired — AI capex expectations have not been cut, Crane restart is not delayed, Calpine has not raised leverage, and PJM prices have not faded. The 30% bull / 50% base / 20% bear grid remains roughly balanced with less margin of safety, so the stance stays neutral watch."
+      "zh": "2026-08-07 监测：全年调整后运营 EPS 指引升至 $11.50-12.50，新增 PPA 与 Crane 审批为正向证据；同时 Q2 附件推导的扣现金债务约 $24.0B，高于报告原 Q1 约 $21.7B，但增量归因和 FCF 压力仍不明。2026-07-30 的价格、旧指引倍数与 30/50/20 网格只保留为历史快照，不能作为当前估值结论。本次不重算估值或重新裁定立场，中性观察/中确信暂维持，待新指引、债务与 FCF 全部进入完整估值。",
+      "en": "August 7, 2026 monitoring: the full-year adjusted operating EPS guide rose to $11.50-12.50, while the additional PPAs and Crane approvals are positive evidence. At the same time, debt net of cash derived from the Q2 exhibit is about $24.0B, above the report's prior Q1 reading of roughly $21.7B, with attribution and FCF pressure still unclear. The 2026-07-30 price, old-guide multiples, and 30/50/20 grid remain historical only and cannot serve as a current valuation verdict. This update does not recompute valuation or re-adjudicate stance; neutral-watch / medium conviction holds provisionally until the new guide, debt, and FCF are incorporated into a complete valuation."
     },
     "stanceTriggers": {
       "upgrade": {
