@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-07T00:04:14Z",
+  "generatedAt": "2026-08-07T22:15:45Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-08-07T00:04:14Z"
+    "value": "2026-08-07T22:15:45Z"
   },
   "tasks": [
     {
-      "id": "earnings:aaoi-2026:2026-08-06:T",
+      "id": "earnings:aaoi-2026:2026-08-06:T+1",
       "reportId": "aaoi-2026",
       "type": "research-update",
-      "window": "T",
+      "window": "T+1",
       "expectedDate": "2026-08-06",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     },
     {
-      "id": "earnings:mp-2026:2026-08-06:T",
+      "id": "earnings:mp-2026:2026-08-06:T+1",
       "reportId": "mp-2026",
       "type": "research-update",
-      "window": "T",
+      "window": "T+1",
       "expectedDate": "2026-08-06",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     }
