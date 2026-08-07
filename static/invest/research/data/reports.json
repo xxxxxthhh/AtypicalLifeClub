@@ -3034,7 +3034,7 @@
     "priceSymbol": "SNDK",
     "title": "SanDisk 深度研究报告 - NAND寡头格局中的AI存储周期暴露",
     "titleEn": "SanDisk Deep Research Report - AI Storage Cycle Exposure in the NAND Oligopoly",
-    "summary": "2026-08-06 监测更新：Q4 FY2026 收入 $89.65 亿（环比 +51%）、GAAP 与非 GAAP 毛利率均为 84.6%，高于原 79-81% 指引；数据中心收入 $29.77 亿（环比 +103%），全年收入 $202.48 亿（+175%）。公司本季新增五份 NBM 协议，使已公布总数达到十份，但新闻稿未披露最低合同收入、RPO、担保或 bit 覆盖。2026-07-30 的 $1,279.96 价格与估值框架保留为明确的历史快照，本次不重算价格、倍数、情景网格、立场或确信度；立场仍为观望中性（中确信），需在 10-K 与完整估值更新后重新裁定。",
+    "summary": "2026-08-07 完整重跑：Q4 FY2026 收入 $89.65 亿、GAAP 与非 GAAP 毛利率均为 84.6%，FY2026 收入 $202.48 亿、自由现金流 $114.94 亿。按 2026-08-06 收盘 $1,258.58 与 1.49 亿股重锚，市值约 $1,875 亿、FY2026 P/S 9.26x、非 GAAP P/E 17.76x、FCF 收益率 6.13%。12-15x 通周期框架隐含可持续 EPS $83.91-104.88，低于顶峰年化但高于 FY2026 平均。NBM 合同金额、RPO、担保与 bit 覆盖仍未获文件确认，且年度结果为初步数据，完整重新裁定后维持观望中性/中确信。",
     "tags": [
       "NAND闪存",
       "AI存储",
@@ -3046,25 +3046,38 @@
     "lastUpdate": "2026-08-07",
     "file": "/invest/research/reports/view.html?id=sandisk-2026",
     "markdownFiles": {
-      "zh": "/invest/research/SanDisk_深度研究报告_2026-06.md",
-      "en": "/invest/research/SanDisk_Deep_Research_Report_2026-06.md"
+      "zh": "/invest/research/SanDisk_深度研究报告_2026-08.md",
+      "en": "/invest/research/SanDisk_Deep_Research_Report_2026-08.md"
     },
-    "period": "2026H1",
-    "versionType": "incremental",
-    "versionLabel": "Q4 FY2026 Monitoring Update",
+    "period": "FY2026",
+    "versionType": "full-cycle",
+    "versionLabel": "FY2026 Full Rerun",
+    "isCurrent": true,
+    "supersedes": "sandisk-2026-pre-rerun",
+    "diffBase": "sandisk-2026-pre-rerun",
+    "previousAnnualReport": {
+      "id": "sandisk-2026-pre-rerun",
+      "label": "FY2026 重跑前版本",
+      "labelEn": "FY2026 Pre-rerun Version",
+      "file": "/invest/research/reports/view.html?id=sandisk-2026-pre-rerun",
+      "date": "2026-06-27",
+      "lastUpdate": "2026-08-07",
+      "summary": "归档的 FY2026 完整重跑前版本，保留 Q4 监测更新与 2026-07-30 历史估值框架。",
+      "summaryEn": "Archived pre-rerun FY2026 version preserving the Q4 monitoring update and historical 2026-07-30 valuation frame."
+    },
     "highlights": [
-      "Q4 FY2026 收入 $89.65 亿（环比 +51%、同比 +372%），GAAP 与非 GAAP 毛利率均为 84.6%",
-      "数据中心收入 $29.77 亿（环比 +103%），FY2026 全年数据中心收入 $51.53 亿（同比 +437%）",
-      "Q1 FY2027 指引：收入 $103-108 亿，非 GAAP 毛利率 83.0-85.0%，非 GAAP 摊薄 EPS $44-46",
-      "本季新增五份 NBM 协议、已公布总数十份；新闻稿未披露合同金额、RPO、担保或 bit 覆盖，读数仍不明",
-      "估值与立场冻结在 2026-07-30 历史快照：观望中性/中确信；需 10-K 与完整估值更新后重新裁定"
+      "Q4 FY2026 收入 $89.65 亿、毛利率 84.6%；FY2026 收入 $202.48 亿、自由现金流 $114.94 亿",
+      "2026-08-06 收盘 $1,258.58：市值约 $1,875 亿、FY2026 P/S 9.26x、非 GAAP P/E 17.76x、FCF 收益率 6.13%",
+      "12-15x 通周期框架隐含可持续 EPS $83.91-104.88；维持观望中性/中确信",
+      "NBM 金额、RPO、担保和 bit 覆盖仍未获文件确认；年度结果为初步数据，等待 10-K",
+      "Q1 FY2027 指引：收入 $103-108 亿，非 GAAP 毛利率 83-85%，非 GAAP EPS $44-46"
     ],
-    "summaryEn": "August 6, 2026 monitoring update: Q4 FY2026 revenue was $8.965B (up 51% Q/Q), with GAAP and non-GAAP gross margin both 84.6%, above the prior 79-81% guide; Datacenter revenue was $2.977B (up 103% Q/Q), and FY2026 revenue $20.248B (up 175%). Five additional NBM agreements brought the announced total to ten, but the release does not disclose minimum contracted revenue, RPO, guarantees, or committed-bit coverage. The $1,279.96 price and valuation frame at 2026-07-30 remain an explicitly historical snapshot; this update does not recompute price, multiples, scenario grid, stance, or conviction. The stance stays neutral-watch / medium conviction pending the Form 10-K and a complete valuation update.",
+    "summaryEn": "Full rerun on August 7, 2026: Q4 FY2026 revenue was $8.965B and GAAP/non-GAAP gross margin 84.6%; FY2026 revenue was $20.248B and free cash flow $11.494B. Re-anchored to the August 6 close of $1,258.58 and 149M shares: about $187.5B market cap, 9.26x FY2026 P/S, 17.76x non-GAAP P/E, and 6.13% FCF yield. A 12-15x through-cycle frame implies $83.91-$104.88 of sustainable EPS, below peak annualized earnings but above the FY2026 average. NBM contract value, RPO, guarantees and bit coverage remain unconfirmed in filings, and annual results are preliminary. The complete re-adjudication retains neutral-watch / medium conviction.",
     "chainLayer": "memory-storage",
     "coverageTier": "full",
     "stance": "neutral-watch",
-    "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q4 FY2026 monitoring / 2026-07-30 valuation frame",
+    "priceAsOf": "2026-08-06",
+    "reportedPeriod": "Q4 FY2026 / FY2026",
     "related": [
       "sk-hynix-2026"
     ],
@@ -3086,6 +3099,7 @@
           "en": "Q4 FY2026 (quarter ended 2026-07-03), released 2026-08-05: GAAP and non-GAAP gross margin both 84.6%, up 6.2 ppt from 78.4% in Q3 and above the 79-81% guidance range; GAAP operating income $7,037M (about a 78.5% operating margin). Q1 FY2027 guidance is 83.0-84.9% GAAP and 83.0-85.0% non-GAAP gross margin. The company says sequential revenue growth came about one-third from volume and two-thirds from price, and expects bits to remain on allocation beyond calendar 2027 with sellable bit growth in the mid-teens for the year. The peak margin has not turned, so the reading sits within the frame; but a price-led mix means profit retraces faster when pricing rolls over. This is seller-side evidence, with no buyer-side cost attribution in this window."
         },
         "nextCheck": "FY2027 Q1 财报与 10-K / Q1 FY2027 earnings and Form 10-K",
+        "nextCheckDate": "2026-11",
         "reading": "within",
         "readingAsOf": "2026-08-05"
       },
@@ -3106,6 +3120,7 @@
           "en": "The 2026-08-05 Q4 FY2026 earnings release disclosed five additional NBM agreements - three with new customers and two expansions - bringing the announced total to ten. The release does not disclose minimum contracted revenue, RPO, financial guarantees, or committed-bit coverage, so it cannot independently confirm the old report's roughly $42B management framing or establish the upgrade trigger's more-than-half FY2027 bit coverage. The reading is unclear pending the Form 10-K or checkable contract disclosure."
         },
         "nextCheck": "10-K/合同披露 / filings & contract disclosure",
+        "nextCheckDate": "2026-09",
         "reading": "unclear",
         "readingAsOf": "2026-08-05"
       },
@@ -3126,6 +3141,7 @@
           "en": "Q4 FY2026 (released 2026-08-05): Datacenter revenue $2,977M, up 103% Q/Q and 1,298% Y/Y, with FY2026 revenue of $5,153M (up 437%); the company discloses Datacenter grew from 12% of its bits in Q4 FY2025 to 38% in Q4 FY2026. Over the same quarter Edge was $5,432M (up 48% Q/Q) and Consumer $556M (down 32% Q/Q). Both the ramp and the rising structural share hold. The company separately expects Datacenter's share of total NAND TAM to expand from about 30% in CY25 to about 50% in CY26 — a forward expectation on the company's own market model, not realised data."
         },
         "nextCheck": "FY2027 Q1 财报 / Q1 FY2027 earnings",
+        "nextCheckDate": "2026-11",
         "reading": "within",
         "readingAsOf": "2026-08-05"
       },
@@ -3138,33 +3154,36 @@
           "en": "Cyclical multiple"
         },
         "trigger": {
-          "zh": "周期转向时约 16x FY2026E P/S 的双杀风险",
-          "en": "the ~16x FY2026E P/S de-rates alongside earnings when the cycle turns"
+          "zh": "12-15x 通周期框架隐含 EPS 高于可验证谷底，且周期转向时盈利与倍数同时收缩",
+          "en": "the 12-15x through-cycle frame implies EPS above a verifiable trough and earnings plus the multiple compress together"
         },
         "latest": {
-          "zh": "市值约 $3,096 亿（快照约 2026-06-28）；零债务、单季 FCF $29.9 亿",
-          "en": "~$309.6B cap (snapshot ~2026-06-28); zero debt, $2.99B quarterly FCF"
+          "zh": "按 2026-08-06 收盘 $1,258.58 与 1.49 亿股，市值约 $1,875.3 亿；FY2026 P/S 9.26x、非 GAAP P/E 17.76x、FCF 收益率 6.13%。12-15x 框架隐含可持续 EPS $83.91-104.88，低于顶峰年化但高于 FY2026 平均，读数在框架内。",
+          "en": "At the 2026-08-06 close of $1,258.58 and 149M shares, market cap is about $187.53B; FY2026 P/S is 9.26x, non-GAAP P/E 17.76x, and FCF yield 6.13%. A 12-15x frame implies $83.91-$104.88 of sustainable EPS, below peak annualized earnings but above the FY2026 average, a within-frame reading."
         },
-        "nextCheck": "行业 bit 供需与合同价 / industry bit supply-demand & contract pricing"
+        "nextCheck": "行业 bit 供需、合同价与 Q1 FY2027 盈利 / industry bit supply-demand, contract pricing and Q1 FY2027 earnings",
+        "nextCheckDate": "2026-11",
+        "reading": "within",
+        "readingAsOf": "2026-08-06"
       }
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "2026-07-31 按所有者 Q1 裁定重新裁定。按 2026-07-30 收盘 $1,279.96（市值约 $1,894 亿），12-15x 通周期框架隐含可持续 EPS 约 $85-107，仍低于 $120-132 的顶峰年化指引——旧谨慎前提（价格隐含高于顶峰的 EPS）在反弹后依然反号，因此立场调整为观望中性；NBM 覆盖能否抬高谷底仍未证明，故不转为看多，下一验证点 2026-08-05 业绩。",
-      "en": "Re-adjudicated 2026-07-31 under the owner's Q1 ruling. At the 2026-07-30 close of $1,279.96 (about $189.4B cap), the 12-15x through-cycle frame implies about $85-107 of sustainable EPS, still below the $120-132 peak annualized guide — the old cautious premise (a price implying above-peak EPS) stays inverted even after the bounce, so the stance moves to neutral-watch; unproven NBM trough coverage keeps it from constructive, next test the 2026-08-05 print."
+      "zh": "2026-08-07 完整重新裁定。按 2026-08-06 收盘 $1,258.58 与 1.49 亿股，市值约 $1,875.3 亿；FY2026 P/S 9.26x、非 GAAP P/E 17.76x、FCF 收益率 6.13%。12-15x 通周期框架隐含可持续 EPS $83.91-104.88，低于 Q4 与 Q1 指引的顶峰年化盈利、但高于 FY2026 非 GAAP EPS $70.88。价格已计入部分正常化，算术不支持谨慎；NBM 金额、RPO、担保和 bit 覆盖仍未入文件，且年度结果为初步数据，故不转为看多，维持观望中性/中确信。",
+      "en": "Fully re-adjudicated on 2026-08-07. At the 2026-08-06 close of $1,258.58 and 149M shares, market cap is about $187.53B; FY2026 P/S is 9.26x, non-GAAP P/E 17.76x, and FCF yield 6.13%. A 12-15x through-cycle frame implies $83.91-$104.88 of sustainable EPS, below peak Q4 and Q1-guide annualizations but above FY2026 non-GAAP EPS of $70.88. The price already discounts some normalization, so cautious is not supported; NBM value, RPO, guarantees and bit coverage remain unfiled and annual results are preliminary, keeping the stance neutral-watch / medium rather than constructive."
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "若 FY2026 Q4 兑现 $77.5-82.5 亿收入与 79-81% 毛利率指引、NBM 合同披露确认约 $420 亿最低收入且覆盖 FY2027 过半 bit，同时 NAND 合约价和行业 capex 仍显示供给纪律，则上调至 constructive。",
-        "en": "move to constructive if FY2026 Q4 delivers the $7.75-8.25B revenue and 79-81% gross-margin guide, NBM filings confirm roughly $42B of minimum revenue with coverage moving toward more than half of FY2027 bits, and NAND contract prices plus industry capex still show supply discipline.",
+        "zh": "若文件确认 NBM 对 FY2027 有意义的数量覆盖与财务保护、Q1 FY2027 兑现收入 $103-108 亿与非 GAAP 毛利率 83-85% 指引，且 NAND 合同价与行业产能仍显示供给纪律，则上调至 constructive。",
+        "en": "move to constructive if filings confirm meaningful FY2027 NBM volume coverage and financial protection, Q1 FY2027 delivers the $10.3-10.8B revenue and 83-85% non-GAAP gross-margin guide, and NAND contract prices plus industry capacity still show supply discipline.",
         "monitoringIds": [
           "nand-cycle-margin-peak",
           "nbm-contract-lockin"
         ]
       },
       "downgrade": {
-        "zh": "若 NAND 合约价连续转弱、毛利率从 78-80% 峰值明显回落、NBM 覆盖或担保条款低于管理层口径，或 SanDisk/铠侠新增产能指向 2027 供给过剩，则下调至 cautious。",
-        "en": "move to cautious if NAND contract prices weaken for consecutive periods, gross margin falls materially from the 78-80% peak, NBM coverage or guarantees fall short of management's framing, or SanDisk/Kioxia capacity additions point to 2027 oversupply.",
+        "zh": "若 NAND 合同价连续两个周期转弱、毛利率无结构解释地跌破 70%、NBM 条款不及预期，或 SanDisk/铠侠新增产能指向供给过剩，则下调至 cautious。",
+        "en": "move to cautious if NAND contract prices weaken for two consecutive periods, gross margin falls below 70% without a mix explanation, NBM terms disappoint, or SanDisk/Kioxia capacity additions point to oversupply.",
         "monitoringIds": [
           "nand-cycle-margin-peak",
           "nbm-contract-lockin"
@@ -3200,6 +3219,38 @@
         }
       }
     ]
+  },
+  {
+    "id": "sandisk-2026-pre-rerun",
+    "company": "SanDisk",
+    "ticker": "NASDAQ: SNDK",
+    "title": "SanDisk 深度研究报告 - FY2026 重跑前归档版",
+    "titleEn": "SanDisk Deep Research Report - FY2026 Pre-rerun Archive",
+    "summary": "归档的 FY2026 完整重跑前版本，保留 Q4 监测更新、2026-07-30 历史估值快照及其修订轨迹，作为当前完整重跑版本的对照基线。",
+    "tags": [
+      "NAND闪存",
+      "AI存储",
+      "数据中心SSD",
+      "半导体周期"
+    ],
+    "category": "tech",
+    "date": "2026-06-27",
+    "lastUpdate": "2026-08-07",
+    "file": "/invest/research/reports/view.html?id=sandisk-2026-pre-rerun",
+    "markdownFiles": {
+      "zh": "/invest/research/SanDisk_深度研究报告_2026-06.md",
+      "en": "/invest/research/SanDisk_Deep_Research_Report_2026-06.md"
+    },
+    "highlights": [
+      "FY2026 完整重跑前归档版本",
+      "保留 Q4 FY2026 监测更新与历史估值框架",
+      "作为当前完整重跑版本的对照基线"
+    ],
+    "summaryEn": "Archived pre-rerun FY2026 baseline preserving the Q4 monitoring update, historical 2026-07-30 valuation snapshot, and revision trail as the comparison baseline for the current full rerun.",
+    "isCurrent": false,
+    "period": "2026H1",
+    "versionType": "incremental",
+    "versionLabel": "FY2026 Pre-rerun Baseline"
   },
   {
     "id": "tempus-ai-2026",
