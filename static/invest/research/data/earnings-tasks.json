@@ -1,57 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T22:27:52Z",
+  "generatedAt": "2026-08-07T00:04:14Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-08-05T22:27:52Z"
+    "value": "2026-08-07T00:04:14Z"
   },
   "tasks": [
     {
-      "id": "earnings:aaoi-2026:2026-08-06:T-1",
+      "id": "earnings:aaoi-2026:2026-08-06:T",
       "reportId": "aaoi-2026",
       "type": "research-update",
-      "window": "T-1",
+      "window": "T",
       "expectedDate": "2026-08-06",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     },
     {
-      "id": "earnings:alab-2026:2026-08-04:T+1",
-      "reportId": "alab-2026",
-      "type": "research-update",
-      "window": "T+1",
-      "expectedDate": "2026-08-04",
-      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
-    },
-    {
-      "id": "earnings:amd-2026:2026-08-04:T+1",
-      "reportId": "amd-2026",
-      "type": "research-update",
-      "window": "T+1",
-      "expectedDate": "2026-08-04",
-      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
-    },
-    {
-      "id": "earnings:arista-2026:2026-08-04:T+1",
-      "reportId": "arista-2026",
-      "type": "research-update",
-      "window": "T+1",
-      "expectedDate": "2026-08-04",
-      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
-    },
-    {
-      "id": "earnings:mp-2026:2026-08-06:T-1",
+      "id": "earnings:mp-2026:2026-08-06:T",
       "reportId": "mp-2026",
       "type": "research-update",
-      "window": "T-1",
+      "window": "T",
       "expectedDate": "2026-08-06",
-      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
-    },
-    {
-      "id": "earnings:nrg-2026:2026-08-04:T+1",
-      "reportId": "nrg-2026",
-      "type": "research-update",
-      "window": "T+1",
-      "expectedDate": "2026-08-04",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     }
   ]
