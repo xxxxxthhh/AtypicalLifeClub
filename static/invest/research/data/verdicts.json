@@ -829,6 +829,17 @@
       "bookRelativePct": 17.9,
       "daysHeld": 3,
       "stale": false
+    },
+    {
+      "reportId": "ase-technology-2026",
+      "stance": "neutral-watch",
+      "conviction": "medium",
+      "stanceDate": "2026-08-08",
+      "priceAtStance": 37.39,
+      "benchmarkSymbol": "SMH",
+      "status": "pending",
+      "daysHeld": 0,
+      "stale": false
     }
   ],
   "closed": [

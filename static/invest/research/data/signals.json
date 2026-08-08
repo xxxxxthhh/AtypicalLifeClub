@@ -1343,5 +1343,31 @@
     "tickers": [
       "MP"
     ]
+  },
+  {
+    "id": "amkor-q2-2026-packaging-ownership-read",
+    "date": "2026-07-28",
+    "title": {
+      "zh": "Amkor Q2 2026：全网稼动率升至 70% 区间，但无实质 backlog，先进封装仍未形成独立约束读数",
+      "en": "Amkor Q2 2026: network utilization rises into the 70% range, but no material backlog leaves advanced packaging without a standalone constraint read"
+    },
+    "detail": {
+      "zh": "据 Amkor 2026-07-27 发布的 Q2 业绩与 2026-07-28 提交的 10-Q：季度收入 $1,897.965M（同比 +25.6%），毛利率 16.8%，Q3 收入指引 $1.95-2.05B，对 2025 Q3 实绩为同比 -1.9% 至 +3.2%；管理层称全网稼动率由 50% 区间升至 70% 区间、若干技术平台满产，但没有点名相关平台。10-Q 同时说明业务通常没有实质在手订单，客户不提供具约束力的预测且可能重复下单；Q3 通信收入下滑还被归因于安卓销量因内存供应约束下降约 20%。这些事实确认 Amkor 可读到第三方 OSAT 的利用率、收入结构与资本开支，却没有确认第三方持有可独立定价的 CoWoS 级份额，也没有证明封装而非内存或台积电内部排产是当前交付约束。因此本事件支持先进封装层的归属读数，而不是把它升级为约束读数。",
+      "en": "Per Amkor's Q2 results released 2026-07-27 and its 10-Q filed 2026-07-28, quarterly revenue was $1,897.965M (+25.6% YoY), gross margin was 16.8%, and Q3 revenue was guided to $1.95-2.05B, or -1.9% to +3.2% against Q3 2025 actual. Management said network utilization improved from the 50% range into the 70% range and that several technology platforms were full, without naming those platforms. The 10-Q also states that the business typically carries no material backlog, customers provide no binding forecasts and double booking can occur; the guided Q3 decline in communications was attributed to Android volumes falling about 20% on memory supply constraints. The facts make third-party OSAT utilization, mix and capex observable, but do not establish independently-priceable third-party CoWoS-class share or show that packaging rather than memory or foundry-internal scheduling is the current delivery constraint. The event therefore supports an ownership reading for the advanced-packaging layer without upgrading it to a constraint reading."
+    },
+    "crossChecks": [
+      "advanced-packaging-ownership"
+    ],
+    "tickers": [
+      "AMKR",
+      "TSM"
+    ],
+    "reportIds": [
+      "amkr-2026"
+    ],
+    "monitoringRefs": [
+      "amkr-2026:gross-margin-and-utilization",
+      "amkr-2026:packaging-supply-constraint"
+    ]
   }
 ]
