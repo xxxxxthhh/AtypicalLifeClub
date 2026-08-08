@@ -134,6 +134,7 @@ def validate_planned_entries(coverage: dict[str, Json]) -> None:
 def validate_cross_checks(coverage: dict[str, Json]) -> set[str]:
     checks = read_entries(coverage, "crossChecks")
     ids: set[str] = set()
+    retired: list[tuple[int, dict[str, Json]]] = []
     for index, entry in enumerate(checks):
         check_id = require_string(entry.get("id"), f"coverage-map.json.crossChecks[{index}].id")
         if check_id in ids:
@@ -141,6 +142,32 @@ def validate_cross_checks(coverage: dict[str, Json]) -> set[str]:
         ids.add(check_id)
         require_bilingual_text(entry.get("if"), f"coverage-map.json.crossChecks[{index}].if")
         require_bilingual_text(entry.get("then"), f"coverage-map.json.crossChecks[{index}].then")
+
+        status = entry.get("status", "active")
+        if status not in {"active", "retired"}:
+            fail(f"coverage-map.json.crossChecks[{index}].status must be active or retired")
+        if status == "retired":
+            retired.append((index, entry))
+
+    for index, entry in retired:
+        retired_on = require_string(
+            entry.get("retiredOn"),
+            f"coverage-map.json.crossChecks[{index}].retiredOn",
+        )
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", retired_on):
+            fail(f"coverage-map.json.crossChecks[{index}].retiredOn must be YYYY-MM-DD")
+        successor = require_string(
+            entry.get("supersededBy"),
+            f"coverage-map.json.crossChecks[{index}].supersededBy",
+        )
+        if successor not in ids:
+            fail(f"retired crossCheck references unknown successor: {successor}")
+        if successor == entry.get("id"):
+            fail(f"retired crossCheck cannot supersede itself: {successor}")
+        require_bilingual_text(
+            entry.get("retirementNote"),
+            f"coverage-map.json.crossChecks[{index}].retirementNote",
+        )
     return ids
 
 

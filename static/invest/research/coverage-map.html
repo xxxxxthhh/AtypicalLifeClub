@@ -978,7 +978,7 @@
                 { value: String((Array.isArray(state.coverage.layers) ? state.coverage.layers : []).length), label: labels.layerStat },
                 { value: String(reports.length), label: labels.reportStat },
                 { value: String(roleCount), label: labels.roleStat },
-                { value: String((Array.isArray(state.coverage.crossChecks) ? state.coverage.crossChecks : []).length), label: labels.checkStat }
+                { value: String((Array.isArray(state.coverage.crossChecks) ? state.coverage.crossChecks : []).filter((check) => check.status !== "retired").length), label: labels.checkStat }
             ];
 
             root.innerHTML = stats.map((stat) => `
@@ -1306,7 +1306,8 @@
             const root = document.getElementById("crossCheckGrid");
             if (!root) return;
 
-            const checks = Array.isArray(state.coverage?.crossChecks) ? state.coverage.crossChecks : [];
+            const checks = (Array.isArray(state.coverage?.crossChecks) ? state.coverage.crossChecks : [])
+                .filter((check) => check.status !== "retired");
             if (!checks.length) {
                 root.innerHTML = `<div class="empty-state">${escapeHtml(getLabels().emptyLayers)}</div>`;
                 return;

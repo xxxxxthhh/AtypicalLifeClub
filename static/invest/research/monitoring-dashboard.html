@@ -667,6 +667,20 @@
             overflow: hidden;
         }
 
+        .radar-card.is-retired {
+            border-style: dashed;
+        }
+
+        .radar-rule-meta {
+            grid-column: 1 / -1;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 0.45rem;
+            color: var(--secondary);
+            font-size: 0.78rem;
+        }
+
         .radar-rule {
             padding: 0.8rem 0.9rem;
             display: grid;
@@ -989,6 +1003,8 @@
                 ifLabel: "If",
                 thenLabel: "Then",
                 radarNoSignals: "暂无信号记录",
+                retiredRule: "历史规则",
+                supersededBy: (id) => `已由 ${id} 取代`,
                 nextCheckHeading: "下次核查时间轴",
                 nextCheckIntro: "按月份排列所有可定期复核的监控项；事件驱动项保留为独立入口。",
                 nextCheckCaption: "圆点按当前论点方向筛选；月份早于本月只是位置事实，不使用警示色。",
@@ -1102,6 +1118,8 @@
                 ifLabel: "If",
                 thenLabel: "Then",
                 radarNoSignals: "No recorded signals yet",
+                retiredRule: "Retired rule",
+                supersededBy: (id) => `Superseded by ${id}`,
                 nextCheckHeading: "Next-Check Timeline",
                 nextCheckIntro: "Monitoring items with dateable reads are bucketed by month; event-driven checks stay first-class.",
                 nextCheckCaption: "Dots follow the active thesis filter; months before this month are positional facts, not warning colors.",
@@ -1923,8 +1941,11 @@
                 signals: state.signals.filter((signal) =>
                     Array.isArray(signal.crossChecks) && signal.crossChecks.includes(check.id))
             }));
-            // Rules with recorded signals surface first, ranked by their latest signal date.
-            cards.sort((a, b) => latestSignalTime(b.signals) - latestSignalTime(a.signals));
+            // Active rules surface before retired history; within each group, newest signals rank first.
+            cards.sort((a, b) => {
+                const retiredDelta = Number(a.check.status === "retired") - Number(b.check.status === "retired");
+                return retiredDelta || latestSignalTime(b.signals) - latestSignalTime(a.signals);
+            });
             const anchoredSignals = new Set();
 
             root.innerHTML = cards.map(({ check, signals }) => {
@@ -1940,8 +1961,15 @@
                     </div>
                 `).join("");
                 return `
-                    <article class="radar-card" id="radar-${escapeHtml(check.id || "")}">
+                    <article class="radar-card${check.status === "retired" ? " is-retired" : ""}" id="radar-${escapeHtml(check.id || "")}">
                         <div class="radar-rule">
+                            ${check.status === "retired" ? `
+                                <div class="radar-rule-meta">
+                                    <span class="chip">${escapeHtml(labels.retiredRule)}</span>
+                                    <span>${escapeHtml(labels.supersededBy(check.supersededBy || ""))}</span>
+                                    <span>${escapeHtml(localize(check.retirementNote))}</span>
+                                </div>
+                            ` : ""}
                             <span>
                                 <span class="radar-rule-label">${escapeHtml(labels.ifLabel)}</span>
                                 <span class="radar-rule-text">${escapeHtml(localize(check.if))}</span>

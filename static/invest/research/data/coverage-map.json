@@ -51,8 +51,8 @@
         "en": "Foundry"
       },
       "description": {
-        "zh": "未来用于承接 TSM 等制造层验证；当前配置保留，但页面隐藏空层。",
-        "en": "Reserved for manufacturing-layer checks such as TSM. Kept in the config now, hidden on the page while empty."
+        "zh": "先进制程晶圆制造与代工产能分配，用来检验 AI 逻辑芯片的供给上限、先进节点定价权，以及 CoWoS 排产是否由单一制造方决定。",
+        "en": "Leading-edge wafer manufacturing and foundry capacity allocation test the supply ceiling for AI logic, advanced-node pricing power, and whether CoWoS scheduling is set by a single manufacturer."
       }
     },
     {
@@ -62,8 +62,8 @@
         "en": "Advanced Packaging"
       },
       "description": {
-        "zh": "OSAT、封装产能、基板与 HBM 集成，用来检验 CoWoS / 2.5D / chiplet 是否成为 foundry 与内存之后的真实瓶颈。",
-        "en": "OSAT, packaging capacity, substrates, and HBM integration test whether CoWoS / 2.5D / chiplets are the real bottleneck after foundry and memory."
+        "zh": "OSAT、封装产能、基板与 HBM 集成，用来检验 AI 先进封装是绑定在晶圆代工厂内部随晶圆定价，还是第三方能持有可独立定价的持久份额。",
+        "en": "OSAT, packaging capacity, substrates, and HBM integration test whether AI advanced packaging stays bundled inside the foundry and priced with the wafer, or a third party can hold durable, independently-priceable share."
       }
     },
     {
@@ -95,8 +95,8 @@
         "en": "Memory and Storage"
       },
       "description": {
-        "zh": "HBM、NAND 与数据中心 SSD，负责验证 AI 工作负载是否真的转化为位元、带宽和周期利润。",
-        "en": "HBM, NAND, and data-center SSDs validate whether AI workloads convert into bits, bandwidth, and cycle profits."
+        "zh": "HBM、NAND、近线 HDD 与数据中心 SSD，负责验证 AI 工作负载是否真的转化为位元、带宽和周期利润。",
+        "en": "HBM, NAND, nearline HDDs, and data-center SSDs validate whether AI workloads convert into bits, bandwidth, and cycle profits."
       }
     },
     {
@@ -150,8 +150,8 @@
         "en": "Data-Center Facility"
       },
       "description": {
-        "zh": "电力管理、UPS、热管理与液冷，是建设速度和机柜功率密度最实时的仪表盘。",
-        "en": "Power management, UPS, thermal management, and liquid cooling form the real-time dashboard for buildout speed and rack density."
+        "zh": "托管租赁、互联与机柜产能，加上电力管理、UPS、热管理和液冷，共同检验建设速度、网络密度与机柜功率密度。",
+        "en": "Colocation leasing, interconnection, and cabinet capacity, together with power management, UPS, thermal management, and liquid cooling, test buildout speed, network density, and rack power density."
       }
     },
     {
@@ -223,7 +223,40 @@
       }
     }
   ],
-  "planned": [],
+  "planned": [
+    {
+      "ticker": "WDC",
+      "layer": "memory-storage",
+      "label": {
+        "zh": "近线 HDD：为存储层补上区别于 NAND 的供给曲线，与 sandisk-2026 同源反向配对",
+        "en": "Nearline HDD: adds a supply curve distinct from NAND, pairing with sandisk-2026 as its former parent and opposite medium"
+      }
+    },
+    {
+      "ticker": "CRDO",
+      "layer": "interconnect",
+      "label": {
+        "zh": "有源电缆与硅光：为 alab-2026 的架构问题补上缺失的对手方，并延伸至光连接层",
+        "en": "Active electrical cables and silicon photonics: gives the alab-2026 architecture question its missing counterparty, and reaches into the optical layer"
+      }
+    },
+    {
+      "ticker": "0522.HK",
+      "layer": "semicap-equipment",
+      "label": {
+        "zh": "先进封装设备首选代理：用可计数的 TCB/HB 工具订单、出货与验收，检验 OSAT 扩产意图是否转成合格产能；设备订单不等于 CoWoS 产出",
+        "en": "First advanced-packaging equipment proxy: use countable TCB/HB tool orders, shipments, and acceptance to test whether OSAT capacity intent becomes qualified capacity; tool orders are not CoWoS output"
+      }
+    },
+    {
+      "ticker": "BESI.AS",
+      "layer": "semicap-equipment",
+      "label": {
+        "zh": "混合键合转产代理：检验逻辑与 HBM 客户是否从评估工具转向重复量产订单，作为 ASMPT 之后的工艺迁移交叉验证",
+        "en": "Hybrid-bonding production proxy: tests whether logic and HBM customers move from evaluation tools to repeat production orders, cross-checking the process transition after ASMPT"
+      }
+    }
+  ],
   "crossChecks": [
     {
       "id": "chip-vs-downstream",
@@ -337,6 +370,13 @@
     },
     {
       "id": "advanced-packaging-chokepoint",
+      "status": "retired",
+      "retiredOn": "2026-08-07",
+      "supersededBy": "advanced-packaging-ownership",
+      "retirementNote": {
+        "zh": "该规则把先进封装层误当成可直接观测的独立约束；Amkor 覆盖证明本层当前只能给出归属读数，旧规则与历史信号保留用于审计。",
+        "en": "This rule treated advanced packaging as a directly observable standalone constraint. Amkor coverage showed that the layer currently yields an ownership reading instead; the retired rule and its historical signals remain for auditability."
+      },
       "if": {
         "zh": "如果 TSM/HBM/ASIC 需求强劲，但 OSAT、先进封装或基板产能没有同步确认",
         "en": "If TSM/HBM/ASIC demand stays strong but OSAT, advanced-packaging, or substrate capacity does not confirm it"
@@ -344,6 +384,18 @@
       "then": {
         "zh": "则 AI 芯片交付瓶颈可能在后端封装而非晶圆或设计端，需要下修可交付供给节奏。",
         "en": "then the AI-chip delivery bottleneck may sit in back-end packaging rather than wafers or design, and deliverable supply cadence should be marked down."
+      }
+    },
+    {
+      "id": "advanced-packaging-ownership",
+      "status": "active",
+      "if": {
+        "zh": "如果 TSM/HBM/ASIC 需求强劲，但第三方 OSAT 的先进封装份额、独立定价能力与自有 CoWoS 级产能没有同步扩大，且晶圆代工厂继续不单独披露封装排产",
+        "en": "If TSM/HBM/ASIC demand stays strong but third-party OSAT advanced-packaging share, standalone pricing power, and self-owned CoWoS-class capacity do not expand with it, while the foundry continues not to disclose packaging bookings separately"
+      },
+      "then": {
+        "zh": "则应把先进封装读成绑定在晶圆代工厂内部、随晶圆一并定价的产能，而不是一个可独立定价的第三方环节；本层给出的是归属读数而非约束读数，交付瓶颈的问题要回到 tsmc-2026。只有当某个点名的 AI 加速器项目在台积电之外实现双源封装时，本层才升级为约束读数。",
+        "en": "then read advanced packaging as capacity bundled inside the foundry and priced with the wafer, not as an independently-priceable third-party link; this layer yields an ownership reading rather than a constraint reading, and the delivery-bottleneck question belongs to tsmc-2026. Only a named AI-accelerator program dual-sourcing packaging outside TSMC upgrades this layer to a constraint reading."
       }
     },
     {
