@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-08-05",
+  "asOf": "2026-08-08",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -602,6 +602,17 @@
       "sourceUrl": null,
       "sourceType": "monitoring",
       "verifiedAt": "2026-08-04"
+    },
+    {
+      "reportId": "ase-technology-2026",
+      "company": "ASE Technology Holding",
+      "expectedDate": "2026-11",
+      "precision": "month",
+      "status": "estimated",
+      "session": "not-applicable",
+      "sourceUrl": null,
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-08-08"
     }
   ]
 }
