@@ -75,5 +75,49 @@ class PriceEntryTests(unittest.TestCase):
         self.assertTrue(update_prices.entry_is_stale(entry, max_age_days=10))
 
 
+class PricedReportsTests(unittest.TestCase):
+    """The ledger predicate: current AND priceSymbol AND priceAsOf."""
+
+    def test_selects_chain_benchmark_and_non_chain_alike(self):
+        chain = {"id": "nvidia-2026", "chainLayer": "compute", "priceSymbol": "NVDA", "priceAsOf": "2026-07-30"}
+        benchmark = {"id": "smh-2026", "benchmark": True, "priceSymbol": "SMH", "priceAsOf": "2026-07-02"}
+        # A plain non-chain report now qualifies; under the old
+        # "(chainLayer OR benchmark)" rule it was silently excluded.
+        non_chain = {"id": "netflix-2026", "priceSymbol": "NFLX", "priceAsOf": "2026-06-25"}
+
+        selected = update_prices.priced_reports([chain, benchmark, non_chain])
+
+        self.assertEqual([r["id"] for r in selected], ["nvidia-2026", "smh-2026", "netflix-2026"])
+
+    def test_excludes_report_with_symbol_but_no_anchor(self):
+        # build_ok_entry anchors basePrice to the last close on or before
+        # priceAsOf, so a report without one can only produce a failure entry.
+        report = {"id": "coinbase-2026", "priceSymbol": "COIN"}
+
+        self.assertEqual(update_prices.priced_reports([report]), [])
+
+    def test_excludes_report_with_anchor_but_no_symbol(self):
+        report = {"id": "no-symbol-2026", "priceAsOf": "2026-07-30"}
+
+        self.assertEqual(update_prices.priced_reports([report]), [])
+
+    def test_excludes_blank_symbol_and_blank_anchor(self):
+        blank_symbol = {"id": "blank-symbol", "priceSymbol": "   ", "priceAsOf": "2026-07-30"}
+        blank_anchor = {"id": "blank-anchor", "priceSymbol": "ABC", "priceAsOf": "  "}
+
+        self.assertEqual(update_prices.priced_reports([blank_symbol, blank_anchor]), [])
+
+    def test_excludes_superseded_report(self):
+        report = {
+            "id": "old-2025",
+            "isCurrent": False,
+            "chainLayer": "compute",
+            "priceSymbol": "OLD",
+            "priceAsOf": "2025-07-30",
+        }
+
+        self.assertEqual(update_prices.priced_reports([report]), [])
+
+
 if __name__ == "__main__":
     unittest.main()
