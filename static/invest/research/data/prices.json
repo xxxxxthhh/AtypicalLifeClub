@@ -317,12 +317,12 @@
       "reportId": "oklo-2026",
       "symbol": "OKLO",
       "status": "ok",
-      "attemptedAt": "2026-08-07",
-      "baseDate": "2026-07-30",
-      "basePrice": 41.09,
+      "attemptedAt": "2026-08-08",
+      "baseDate": "2026-08-07",
+      "basePrice": 48.42,
       "lastDate": "2026-08-07",
       "lastClose": 48.42,
-      "changePct": 17.8,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {

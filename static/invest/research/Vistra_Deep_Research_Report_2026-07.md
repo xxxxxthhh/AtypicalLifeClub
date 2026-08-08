@@ -1,7 +1,7 @@
 # Vistra (VST) Deep Research Report
 
 Coverage date: 2026-07-04
-Last updated: 2026-07-31
+Last updated: 2026-08-08
 Ticker: NYSE: VST
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -17,14 +17,20 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 > **2026-07-31 stance re-adjudication at the 2026-07-30 close.** Owner ruling (2026-07-31): a published stance and its rationale must hold at the CURRENT price. VST closed at **$148.62** on **2026-07-30**, **-1.6%** from the old $151.05 anchor of 2026-07-02. On about 337.0M shares and about $19.3B of net debt, market cap is about **$50.1B** (old about $50.9B) and enterprise value about **$69.4B** (old about $70.2B); on the same TTM GAAP EPS base near $6.57 that is about **22.6x** TTM GAAP P/E (old about 23x), and EV/TTM sales is about **3.6x**, unchanged to one decimal place. This is the honest low-drift outcome: a 1.6% move does not shift the EV/sales multiple at all at the stated precision, and moves the P/E by less than half a turn. The mildly negative expectation gap rested on Meta PPA economics, Cogentrix closing and converting about 5,500MW, PJM/Texas capacity pricing and leverage — every one of which is an execution or contracting question that a 1.6% price move leaves exactly where it was. **Stance stays cautious (medium conviction), with the stated multiples confirmed rather than merely carried over.**
 
+> **2026-08-07 radar update: Q2 2026 has landed, superseding the "2026Q1" fact base used in the quick-stat table below and in §3.** Vistra reported Q2 2026 on **2026-08-07** (8-K Item 2.02, Exhibit 99.1). Operating revenues were **$4,017M** (Q2 2025: $4,250M) and GAAP net income **$305M** (Q2 2025: $327M), the decline driven primarily by a **$488M** year-over-year increase in unrealized mark-to-market losses on derivatives; the quarter carries a **$472M** unrealized hedge loss the company says is expected to settle in future years. **Ongoing Operations Adjusted EBITDA was $1,767M**, up **$418M** (more than 30%) on Q2 2025, which the company attributes to higher realized energy and capacity prices *and* three months of contribution from the plants acquired from Lotus — so the increase is not purely organic pricing. By segment: Texas **$311M** (Q2 2025: $142M), East **$642M** ($418M), Retail **$773M** ($756M), West **$68M** ($49M). **2026 guidance was reaffirmed** at Ongoing Operations Adjusted EBITDA of **$6,800-7,600M** and Ongoing Operations Adjusted FCFbG of **$3,925-4,725M**, and the previously announced **2027** Ongoing Operations Adjusted EBITDA midpoint opportunity range of **$7.4-7.8B** was restated; both exclude the pending Cogentrix acquisition and the signed Meta PPAs, "part of which are expected to contribute to our Adjusted EBITDA in 2027." As of **2026-08-03** the company was hedged about **100%** of expected 2026 generation volumes, about **94%** for 2027 and about **72%** for 2028. Vistra **received FERC approval of the pending Cogentrix acquisition**; the deal has not closed. The release also lists the announcement of **Helix Digital Infrastructure** alongside KKR, the Kuwait Investment Authority and NVIDIA, with **an initial commitment from Vistra of up to $1.0 billion** and Vistra as Helix's preferred power provider (Helix itself was announced publicly by KKR on 2026-06-11). Capital return: **$709M** of first-half repurchases, about $6.5B cumulatively since November 2021, about **336M** shares outstanding at 2026-08-03, and about $1.2B of remaining authorization. Total available liquidity was about **$6,295M** at 2026-06-30, including **$435M** of cash.
+>
+> **This is a monitoring-only update; no valuation has been recomputed.** Price, market cap, enterprise value, the multiples, the scenario grid and the stance (**cautious / medium conviction**) all remain anchored to the **2026-07-30 close of $148.62**, with the historical price/date boundary set out above. Readings: `gas-capacity-market` is **within** — the non-nuclear leg confirmed, with the Lotus-contribution caveat stated; `cogentrix-integration` is **unclear**, because that item's positive branch requires an on-time close *and* conversion of roughly 5,500MW into data-center/capacity-market value while its negative branch requires delays or missed synergies, and neither branch fired — FERC approval is progress toward a closing condition, not the condition itself; `meta-nuclear-ppa` stays **unclear** because the release adds delivery timing only and no uprate capacity, price or regulatory detail; `leverage-fcf-discipline` is **unclear** because the release carries no balance sheet and discloses no Q2 net debt or net-debt/EBITDA, so the prior "Q1 net debt about $19.3B" reading is not superseded by a disclosed Q2 figure and the 10-Q had not been filed as of 2026-08-07. Source: [Vistra Q2 2026 earnings release, 8-K Exhibit 99.1 (2026-08-07)](https://www.sec.gov/Archives/edgar/data/1692819/000169281926000017/vistra-20260630xearningsre.htm).
+
 At $148.62 on Jul 30, 2026, VST represented about $50.1B of market cap and about $69.4B of enterprise value, including about $19.3B net debt. It is cheaper than CEG on enterprise value, but riskier because it has more merchant power, gas, leverage, and transaction integration exposure. The report's job is to test whether AI power demand spreads from named nuclear PPAs into gas capacity, PJM/Texas capacity value, and dispatchable generation. If Meta execution, Cogentrix integration and capacity prices validate, VST has strong operating leverage. If gas prices, regulation, debt, or capacity markets roll over, the downside is faster too.
 
 | Quick stat | Current readout |
 |------------|-----------------|
-| Share price | $148.62, Jul 30 2026 close, Yahoo/yfinance basis |
-| Market cap / shares | About $50.1B; about 337M shares |
-| Enterprise value | About $69.4B, including about $19.3B net debt |
-| Latest reported period | 2026Q1 |
+| Share price | $148.62, Jul 30 2026 close, Yahoo/yfinance basis (historical valuation anchor) |
+| Market cap / shares | About $50.1B; about 337M shares (2026-07-30 anchor) |
+| Enterprise value | About $69.4B, including about $19.3B net debt (2026-07-30 anchor) |
+| Latest reported period | Q2 2026 monitoring update; 2026-07-30 valuation frame retained |
+| Q2 2026 revenue / net income | $4,017M / $305M (2026-08-07 release) |
+| Q2 2026 Ongoing Ops Adjusted EBITDA | $1,767M, up $418M YoY |
 | Q1 revenue / net income | $5.64B / $1.03B |
 | Q1 operating income / FCF | $1.50B / $316M |
 | Meta nuclear agreements | 20-year agreements; Perry, Davis-Besse, Beaver Valley uprates; public reports frame about 2.2GW |

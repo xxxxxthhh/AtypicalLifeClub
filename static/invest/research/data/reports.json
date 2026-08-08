@@ -3897,7 +3897,7 @@
     "ticker": "NASDAQ: ABNB",
     "title": "Airbnb 深度研究报告 - 全球短租霸主的增长再加速之问",
     "titleEn": "Airbnb Deep Research Report - Can the Global Short-Term Rental Leader Re-Accelerate Growth?",
-    "summary": "Q2 2026营收$36.08亿(+17% Y/Y)、净利润$8.16亿(净利率23%)、调整后EBITDA $12.61亿(利润率35%)、FCF $12.53亿，间夜及座位预订1.483亿(+10%，较Q1加速)；公司同时上调全年营收增速指引至\"至少中双位数\"、调整后EBITDA利润率至\"至少35.5%\"。上一版最主要的警示项——TTM自由现金流质量——本季实质缓解，TTM FCF回升至$48.27亿。股价同期仅上涨6.1%至2026-08-06收盘$151.64，倍数因此不升反降：当前TTM P/E 33.2x、P/S 6.8x、P/FCF 18.5x、EV/调整后EBITDA 约17x。剩余张力不在现金流质量，而在33x TTM P/E是否已透支2027年增长。估值锚点为Q2发布前的2026-08-06收盘价，需在首个财报后正常交易时段完成后重锚。",
+    "summary": "Q2 2026营收$36.08亿(+17% Y/Y)、净利润$8.16亿(净利率23%)、调整后EBITDA $12.61亿(利润率35%)、FCF $12.53亿，间夜及座位预订1.483亿(+10%，较Q1加速)；公司同时上调全年营收增速指引至\"至少中双位数\"、调整后EBITDA利润率至\"至少35.5%\"。上一版最主要的警示项——TTM自由现金流质量——本季实质缓解，TTM FCF回升至$48.27亿。2026-08-08 已按财报后首个完整交易时段（2026-08-07 收盘 $178.07，单日+17.43%）完成重锚：市值$1,049.9亿、EV $953.4亿，TTM P/E 39.0x、P/S 8.0x、P/FCF 21.8x、EV/调整后EBITDA 约20.5x、PEG 约2.3x。发布前锚定的\"倍数不升反降\"结论已被这一交易日反转。完整复核 Q2 论点与当前估值后维持中性偏积极·中等确信：更强增长和现金转化抵消更高倍数，但 39x 阻止上调；前瞻EPS与目标价区间因缺乏可复核来源仍为review-pending。",
     "tags": [
       "在线旅游",
       "共享经济",
@@ -3906,23 +3906,23 @@
     ],
     "category": "tech",
     "date": "2026-02-13",
-    "lastUpdate": "2026-08-07",
+    "lastUpdate": "2026-08-08",
     "period": "2026H1",
     "versionType": "incremental",
-    "versionLabel": "Q2 2026 Incremental Update",
+    "versionLabel": "Q2 2026 Incremental Update + 2026-08-08 Re-anchor",
     "file": "/invest/research/reports/view.html?id=airbnb-2026",
     "markdownFiles": {
       "zh": "/invest/research/Airbnb_深度研究报告_2026-02.md",
       "en": "/invest/research/Airbnb_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "股价$151.64(2026-08-06收盘)、市值$894.0亿(A+B类5.896亿股口径)，TTM P/E 33.2x、P/S 6.8x、P/FCF 18.5x、EV/调整后EBITDA 约17x",
-      "Q2 2026营收+17%、间夜+10%(较Q1加速)、GBV $272亿(+16%)；全年营收与利润率指引双双上调",
-      "TTM自由现金流回升至$48.27亿(TTM FCF利润率37%)，上一版的现金流质量警报解除",
-      "口径更正：旧表的\"TTM EBITDA\"一行实为EBIT；真实TTM调整后EBITDA约$46.2–46.7亿(公司披露仅到四舍五入)，EV/调整后EBITDA 约17x，EV/EBIT 29.1x",
-      "维持中性偏积极·中等确信：多头证据变强，但33.2x TTM P/E对应约17%增速、PEG约1.9x，仍属充分定价"
+      "股价$178.07(2026-08-07收盘，单日+17.43%)、市值$1,049.9亿(A+B类5.896亿股口径)、EV $953.4亿",
+      "重锚后倍数全面走高：TTM P/E 39.0x、P/S 8.0x、P/FCF 21.8x、EV/调整后EBITDA 约20.5x、EV/EBIT 34.8x、PEG 约2.3x",
+      "Q2 2026营收+17%、间夜+10%(较Q1加速)、GBV $272亿(+16%)；全年营收与利润率指引双双上调——经营口径分母未变，本次仅重锚价格",
+      "口径更正沿用(2026-08-07)：旧表的\"TTM EBITDA\"一行实为EBIT；真实TTM调整后EBITDA约$46.2–46.7亿(公司披露仅到四舍五入)。注意区分——17x→20.5x是价格重锚，不是口径问题",
+      "完整复核后维持中性偏积极·中等确信：更强增长和现金转化抵消更高倍数，但 39.0x TTM P/E 阻止上调"
     ],
-    "summaryEn": "Q2 2026 revenue $3.608B (+17% Y/Y), net income $816M (23% margin), Adjusted EBITDA $1.261B (35% margin), FCF $1.253B, and Nights and Seats Booked of 148.3M (+10%, accelerating from Q1); the company raised full-year revenue growth guidance to \"at least mid teens\" and Adjusted EBITDA Margin to \"at least 35.5%\". The prior version's loudest warning - TTM free cash flow quality - materially resolved, with TTM FCF recovering to $4.827B. The stock rose only 6.1% over the same span, to the 2026-08-06 close of $151.64, so the multiples compressed rather than expanded: TTM P/E 33.2x, P/S 6.8x, P/FCF 18.5x, EV/Adjusted EBITDA about 17x. The residual tension is no longer cash flow quality but whether a 33x TTM P/E has already borrowed against 2027 growth. The valuation anchor uses the pre-release 2026-08-06 close and must be rerun after the first completed post-release regular session.",
+    "summaryEn": "Q2 2026 revenue $3.608B (+17% Y/Y), net income $816M (23% margin), Adjusted EBITDA $1.261B (35% margin), FCF $1.253B, and Nights and Seats Booked of 148.3M (+10%, accelerating from Q1); the company raised full-year revenue growth guidance to \"at least mid teens\" and Adjusted EBITDA Margin to \"at least 35.5%\". The prior version's loudest warning - TTM free cash flow quality - materially resolved, with TTM FCF recovering to $4.827B. On 2026-08-08 the report was re-anchored to the first completed post-release session (2026-08-07 close of $178.07, +17.43% in one day): market cap $104.99B, EV $95.34B, TTM P/E 39.0x, P/S 8.0x, P/FCF 21.8x, EV/Adjusted EBITDA about 20.5x, PEG about 2.3x. The pre-release conclusion that multiples had compressed reversed in that single session. A complete Q2 thesis and current-valuation review retains Neutral-to-Positive / Medium conviction: stronger growth and cash conversion offset the higher multiple, but 39x prevents an upgrade; forward EPS and the target range remain review-pending because no verifiable source was available.",
     "reportedPeriod": "Q2 2026"
   },
   {
@@ -5470,7 +5470,7 @@
     "priceSymbol": "OKLO",
     "title": "Oklo 深度研究报告 - 前商业化核能期权与AI电力需求",
     "titleEn": "Oklo Deep Research Report - Pre-Commercial Nuclear Optionality Meets AI Power Demand",
-    "summary": "【2026-07-31 立场重新裁定：OKLO 于 2026-07-30 收于 $41.09，较 07-29 低点反弹 +11.5%、较原锚点 -21.5%，市值约 $7.1B、现金约 $22 亿、EV 约 $49 亿；按所有者 Q1 裁定按当前价格复核，维持看多（低确信）——相对约 $12.6B 网格加权项目参考，正偏斜更宽。】2026-07-07 v5试点更新：OKLO 2026-07-02收盘旧锚点价格（已移除）、市值约$9.10B；30%牛市/40%基准/30%熊市情景给出约$12.6B粗略项目市值参考，偏斜为正，但零收入、无运行首堆、NRC/燃料/客户转化未定使确信度保持低位。",
+    "summary": "【2026-08-08 当前价格重新裁定：OKLO 于 2026-08-07 收于 $48.42；按 2026-08-04 在外流通股 186,017,650 股，股权价值约 $90.1 亿，扣除 $30.06 亿现金及有价债务证券并加回约 $0.7M 长期债务后，EV 约 $60.0 亿。相对约 $126 亿网格加权项目参考，算术仍有约 40% 正偏斜；但客户管线全为非约束性、2028 首堆与 2029 燃料交付存在时序张力、首堆资本成本未披露，维持看多 / 低确信。】Q2 10-Q 同时确认 Groves 同位素试验堆首次临界、Aurora-INL PDSA 获批、上半年 ATM 净募资 $18.52 亿；这些是技术与资金里程碑，不是商业供电或约束性合同。",
     "tags": [
       "核能",
       "SMR",
@@ -5479,20 +5479,20 @@
     ],
     "category": "nuclear",
     "date": "2026-02-10",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-08",
     "file": "/invest/research/reports/view.html?id=oklo-2026",
     "markdownFiles": {
       "zh": "/invest/research/Oklo_深度研究报告_2026-02.md",
       "en": "/invest/research/Oklo_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "2026-07-31 重新裁定：$41.09（2026-07-30 收盘），较 07-29 低点反弹 +11.5%，市值约 $7.1B、EV 约 $49 亿；维持看多 / 低确信",
-      "股价旧锚点价格（已移除）、市值约$9.10B，低于6月22日重跑锚点$58.40",
+      "2026-08-08 重新裁定：$48.42（2026-08-07 收盘），股权价值约 $90.1 亿、EV 约 $60.0 亿；维持看多 / 低确信",
+      "2026-06-30 现金及有价债务证券 $30.06 亿；2026-08-04 在外流通股 186,017,650 股",
       "30%牛市/40%基准/30%熊市项目NAV情景表给出约$12.6B粗略参考",
       "stance改为偏多/低确信：偏多来自正偏斜，低确信来自零收入、无运行首堆和高执行风险",
       "NRC许可、燃料供应、首堆时间线和约束性客户结构是核心验证点"
     ],
-    "summaryEn": "[2026-07-31 stance re-adjudication: OKLO closed at $41.09 on 2026-07-30, +11.5% off the 07-29 low and -21.5% from its old anchor, for about $7.1B market cap, ~$2.2B cash and ~$4.9B EV; re-checked at the current price under the owner's Q1 ruling, constructive (low conviction) holds — the positive skew vs the ~$12.6B grid-weighted project reference is wider.] July 7, 2026 v5 pilot update: OKLO closed at the old anchor price (removed) on July 2 with roughly $9.10B market cap. A 30% bull / 40% base / 30% bear scenario grid produces a rough $12.6B project-cap reference, so skew is positive, but conviction stays low because revenue, an operating first reactor, NRC/fuel proof, and binding customer conversion are still missing.",
+    "summaryEn": "[2026-08-08 current-price re-adjudication: OKLO closed at $48.42 on 2026-08-07. Using 186,017,650 shares outstanding at 2026-08-04 gives about $9.01B equity value; subtracting $3.006B of cash and marketable debt securities and adding about $0.7M of long-term debt gives about $6.00B EV. Against the ~$12.6B grid-weighted project reference the arithmetic still has about 40% positive skew, but the customer pipeline remains entirely non-binding, the 2028 first-powerhouse target conflicts with a 2029 fuel-delivery start, and first-powerhouse capital cost is undisclosed, so constructive / low conviction holds.] The Q2 10-Q also confirms Groves isotope-test-reactor criticality, Aurora-INL PDSA approval, and $1.852B of first-half net ATM proceeds; these are technical and financing milestones, not commercial power or binding contracts.",
     "period": "2026H1",
     "versionType": "full-cycle",
     "versionLabel": "2026H1 Full Rerun",
@@ -5515,8 +5515,8 @@
     "stance": "constructive",
     "conviction": "low",
     "stanceRationale": {
-      "zh": "2026-07-31 按所有者 Q1 裁定以当前价格复核。按 2026-07-30 收盘 $41.09（市值约 $71 亿、现金约 $22 亿、EV 约 $49 亿；尚无实质收入）：相对约 $126 亿的网格加权项目市值参考，正偏斜比旧锚点更宽，看多立场在当前价格下重新推导后成立；几乎全部价值仍取决于 NRC 批准、首堆执行、燃料供应与约束性客户转化，确信度保持低位。",
-      "en": "Re-checked 2026-07-31 at the current price under the owner's Q1 ruling. At the 2026-07-30 close of $41.09 (about $7.1B cap, ~$2.2B cash, ~$4.9B EV; pre-revenue): against the ~$12.6B grid-weighted project-cap reference the positive skew is wider than at the old anchor, so constructive survives re-derivation at the current price; nearly all value still depends on NRC approval, first-reactor execution, fuel supply and binding customer conversion, so conviction stays low."
+      "zh": "2026-08-08 按当前价格完整复核。按 2026-08-07 收盘 $48.42 与 2026-08-04 在外流通股 186,017,650 股，股权价值约 $90.1 亿；扣除 $30.06 亿现金及有价债务证券并加回约 $0.7M 长期债务后，EV 约 $60.0 亿。相对约 $126 亿网格加权项目市值参考，算术仍有约 40% 正偏斜；但客户管线全为非约束性、2028 首堆与 2029 燃料交付有时序张力、首堆资本成本未披露，维持看多 / 低确信。",
+      "en": "Re-checked 2026-08-08 at the current price. At the 2026-08-07 close of $48.42 and 186,017,650 shares outstanding at 2026-08-04, equity value is about $9.01B; subtracting $3.006B of cash and marketable debt securities and adding about $0.7M of long-term debt gives about $6.00B EV. Against the ~$12.6B grid-weighted project-cap reference the arithmetic still has about 40% positive skew, but the customer pipeline is entirely non-binding, the 2028 first-powerhouse target conflicts with a 2029 fuel-delivery start, and first-powerhouse capital cost is undisclosed, so constructive / low conviction holds."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -5569,10 +5569,20 @@
           "zh": "所有者 Q1 裁定复核：$41.09 下正偏斜相对 $12.6B 参考更宽，维持看多/低确信。",
           "en": "Owner Q1 ruling re-check: at $41.09 the positive skew vs the ~$12.6B reference is wider; constructive/low holds."
         }
+      },
+      {
+        "date": "2026-08-08",
+        "stance": "constructive",
+        "conviction": "low",
+        "price": 48.42,
+        "note": {
+          "zh": "按 Q2 现金、8 月 4 日股本与 8 月 7 日收盘完整复核，约 40% 正偏斜仍成立；执行证据仍不足，维持低确信。",
+          "en": "Full re-check using Q2 cash, August 4 shares and the August 7 close retains about 40% positive skew; execution proof remains insufficient, so conviction stays low."
+        }
       }
     ],
-    "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q1 2026",
+    "priceAsOf": "2026-08-07",
+    "reportedPeriod": "Q2 2026 / 2026-08-07 valuation frame",
     "related": [
       "gevernova-2026"
     ],
@@ -5590,10 +5600,12 @@
           "en": "licensing milestones advance or stall — the primary gate"
         },
         "latest": {
-          "zh": "仍处首堆商业化前阶段、无商业收入",
-          "en": "still pre-commercial with no commercial revenue"
+          "zh": "2026-08-07 提交的 Q2 2026 10-Q：里程碑推进，但路径需分清。首堆 Aurora-INL 走的是 **DOE** 授权而非 NRC 许可——DOE 已于 2026-06-11 批准其初步文件化安全分析（PDSA）。DOE 另于 2026-07-23 批准 Groves 同位素试验堆启动，该堆已于 2026-08-05 达到首次临界（DOE 反应堆试点计划下首个在私有土地上临界的反应堆），但它是同位素试验堆、不是 Aurora 电源堆。NRC 侧目前仅有：爱达荷放射化学实验室的材料许可，以及田纳西燃料回收设施的预申请阶段沟通。",
+          "en": "Q2 2026 Form 10-Q filed 2026-08-07: milestones advanced, but the pathways must be kept distinct. The first powerhouse, Aurora-INL, is being pursued under **DOE** authorization rather than NRC licensing — DOE approved its Preliminary Documented Safety Analysis on 2026-06-11. DOE separately granted startup authorization for the Groves Isotope Test Reactor on 2026-07-23, and Groves achieved first criticality on 2026-08-05 (the first reactor under the DOE Reactor Pilot Program to reach criticality on private land) — but Groves is a radioisotope test reactor, not an Aurora powerhouse. On the NRC side there is so far only a materials licence for the Idaho Radiochemistry Laboratory and pre-application engagement on the Tennessee fuel-recycling facility."
         },
-        "nextCheck": "NRC 里程碑 / NRC milestones"
+        "nextCheck": "NRC 里程碑 / NRC milestones",
+        "reading": "within",
+        "readingAsOf": "2026-08-07"
       },
       {
         "id": "first-reactor-cost-timeline",
@@ -5608,10 +5620,12 @@
           "en": "first-plant cost overruns or schedule slips"
         },
         "latest": {
-          "zh": "估值需用概率加权项目 NAV 框架（非 P/E 或 EV/Sales）",
-          "en": "valuation requires a probability-weighted project-NAV frame (not P/E or EV/Sales)"
+          "zh": "2026-08-07 提交的 Q2 2026 10-Q 表述首堆部署目标为 **2028 年**，并自陈这是『雄心目标』，面临供应链、施工、宏观与设计等一系列复杂度；本报告下方关键数据表记录的旧目标为『2027 年底 - 2028 年初』，两者口径不一致，且 10-Q 未披露任何首堆资本成本数字。因此『成本超支』一腿完全未受检验，『时间线滑坡』一腿指向旧区间的偏晚端。",
+          "en": "The Q2 2026 Form 10-Q filed 2026-08-07 states a first-powerhouse deployment target of **2028**, self-described as an ambitious target set against a range of supply-chain, construction, macroeconomic and design complexities. The Quick Stats table below records the older target as late 2027 to early 2028, so the two calibres do not line up, and the 10-Q discloses no first-plant capital cost at all. The cost-overrun leg is therefore entirely untested, and the schedule leg points to the later end of the previously recorded range."
         },
-        "nextCheck": "公司项目里程碑 / project milestones"
+        "nextCheck": "公司项目里程碑 / project milestones",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-07"
       },
       {
         "id": "fuel-supply",
@@ -5626,10 +5640,12 @@
           "en": "fuel-supply arrangements fail to land"
         },
         "latest": {
-          "zh": "燃料供应是核心验证点之一",
-          "en": "fuel supply is one of the decisive checks"
+          "zh": "2026-08-07 提交的 Q2 2026 10-Q：燃料安排在推进但未落地为约束性供应。与 Centrus 的**意向书**拟供应足以支持最多五台 Aurora 电源堆多年所需的国产 HALEU，**交付预计自 2029 年开始**，仍需谈判并签署正式供应协议，可能包含预付款，用于支持规划中的俄亥俄州南部 1.2GW 电力园区。另有 DOE 授予的 5 公吨 HALEU 燃料（自 INL 已辐照 EBR-II 燃料回收）用于爱达荷商用 Aurora；Aurora 燃料制造设施已获 DOE 多项安全审批并入选 DOE 燃料线试点计划（FLPP）。证据边界：2029 年起的交付晚于 2028 年首堆目标，且核心商业供应仍为非约束性意向书。",
+          "en": "Q2 2026 Form 10-Q filed 2026-08-07: fuel arrangements are advancing but have not landed as binding supply. The **letter of intent** with Centrus contemplates domestically produced HALEU sufficient for multiple years of fuel for up to five Aurora powerhouses, with **deliveries expected to begin in 2029**, still subject to negotiation and execution of a definitive supply agreement, possibly including prepayments, in support of the planned 1.2-GW southern Ohio power campus. Separately, DOE awarded five metric tons of HALEU recovered from previously irradiated EBR-II fuel at INL for a commercial Aurora powerhouse in Idaho, and the Aurora Fuel Fabrication Facility has cleared several DOE safety approvals and was selected under the DOE Fuel Line Pilot Program. Evidence limits: a 2029 delivery start sits after the 2028 first-powerhouse target, and the core commercial supply is still a non-binding letter of intent."
         },
-        "nextCheck": "燃料协议 / fuel agreements"
+        "nextCheck": "燃料协议 / fuel agreements",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-07"
       },
       {
         "id": "customer-conversion",
@@ -5644,10 +5660,12 @@
           "en": "Meta/Switch-type demand converts into binding contracts"
         },
         "latest": {
-          "zh": "股价 $52.36、市值约 $9.10B（2026-07-02）；v5情景表显示正偏斜但低确信",
-          "en": "$52.36 stock, roughly $9.10B cap (2026-07-02); v5 scenario grid shows positive skew but low conviction"
+          "zh": "2026-08-07 提交的 Q2 2026 10-Q：管线仍为非约束性，未披露任何具约束力的 PPA 转化。10-Q 列示与 Equinix、Diamondback Energy、Prometheus Hyperscale 的**非约束性意向书**；国防创新单元代表空军部**初步选定** Oklo 为 Eielson 空军基地供电供热（规划至少 5 MWe）；另与 TVA 就新设施及未来售电进行评估。本监测项的触发条件为『需求转化为具约束力合同』，本季未满足。",
+          "en": "Q2 2026 Form 10-Q filed 2026-08-07: the pipeline remains non-binding and no binding PPA conversion was disclosed. The 10-Q lists **non-binding letters of intent** with Equinix, Diamondback Energy and Prometheus Hyperscale; a **tentative** selection by the Defense Innovation Unit on behalf of the Department of the Air Force for Eielson Air Force Base (an Aurora-derived powerhouse planned at at least 5 MWe); and an evaluation with TVA covering a new facility and potential future power sales. This item's trigger is demand converting into binding contracts, and that did not happen this quarter."
         },
-        "nextCheck": "客户合同公告 / customer contract announcements"
+        "nextCheck": "客户合同公告 / customer contract announcements",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-07"
       },
       {
         "id": "cash-burn-dilution",
@@ -5662,10 +5680,12 @@
           "en": "quarterly cash burn or dilution rises without milestone progress"
         },
         "latest": {
-          "zh": "2 月基准约 $12 亿现金、零负债；2025 年指引经营性现金消耗 $6,500-8,000 万，经营亏损逐季扩大（Q2 $2,800 万 → Q3 $3,630 万）；2025 年 ATM 增发约 $5.4 亿。报告自身口径提示：所谓 15 年以上跑道用的是建设前经营消耗，未计入 Idaho 与 Meta Ohio 项目资本开支",
-          "en": "roughly US$1.2B of cash and zero debt on the February baseline; 2025 guided operating cash burn of US$65-80M with the operating loss expanding quarter over quarter (Q2 US$28M to Q3 US$36.3M); about US$540M raised via ATM in 2025. The report's own caliber note flags that the implied 15-plus-year runway uses pre-construction operating burn and excludes Idaho and Meta Ohio project capex"
+          "zh": "2026-08-07 提交的 Q2 2026 10-Q：消耗与摊薄同时上升，但本季**有**已披露的里程碑进展（Groves 启动授权与首次临界、Aurora-INL PDSA 批准），故本项触发条件『在里程碑无进展的情况下上升』未满足。上半年：经营活动现金流出 $65,459K、净亏损 $81,601K、经营亏损 $124,166K、股权激励 $29,944K、累计亏损 $322,373K；Q2 单季净亏损 $48,536K、每股 $(0.28)。2026-06-30 现金、现金等价物与有价债务证券 $3,006,289K（约 $30.1 亿）。摊薄：上半年 ATM 合计发行 23,088,406 股，毛额 $1,880,239K、净额 $1,851,944K，平均净价 $81.44（2025 ATM 计划 12,376,352 股 @ $96.95；2026 ATM 计划 10,712,054 股 @ $63.51）；股本自 2025-12-31 的 160,514,103 股增至 2026-06-30 的 185,090,155 股，2026-08-04 为 186,017,650 股。口径提示：现金已远高于本报告关键数据表的『~$1.2B（Q3 2025）』与 2026-07-31 企业价值算式使用的『约 $22 亿』，该估值算术已被取代但本次未重算。",
+          "en": "Q2 2026 Form 10-Q filed 2026-08-07: burn and dilution both rose, but the quarter **did** carry disclosed milestone progress (Groves startup authorization and first criticality, Aurora-INL PDSA approval), so this item's trigger — a rise *without* milestone progress — was not met. First half: net cash used in operating activities $65,459K, net loss $81,601K, loss from operations $124,166K, stock-based compensation $29,944K, accumulated deficit $322,373K; Q2 alone had a net loss of $48,536K, or $(0.28) per share. Cash, cash equivalents and marketable debt securities were $3,006,289K (about $3.01B) at 2026-06-30. Dilution: 23,088,406 shares were issued under the ATM programs in the first half for $1,880,239K gross and $1,851,944K net at an average net price of $81.44 (2025 ATM Program 12,376,352 shares at $96.95; 2026 ATM Program 10,712,054 shares at $63.51); shares outstanding went from 160,514,103 at 2025-12-31 to 185,090,155 at 2026-06-30, and 186,017,650 as of 2026-08-04. Caliber note: cash is now far above both the Quick Stats line of about $1.2B (Q3 2025) and the about-$2.2B figure used in the 2026-07-31 enterprise-value arithmetic; that valuation arithmetic is superseded but was deliberately not recomputed here."
         },
-        "nextCheck": "季度现金消耗、ATM 增发与项目资本开支披露 / quarterly cash burn, ATM issuance and project-capex disclosure"
+        "nextCheck": "季度现金消耗、ATM 增发与项目资本开支披露 / quarterly cash burn, ATM issuance and project-capex disclosure",
+        "reading": "within",
+        "readingAsOf": "2026-08-07"
       }
     ]
   },
@@ -6442,7 +6462,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-08",
     "file": "/invest/research/reports/view.html?id=vistra-2026",
     "markdownFiles": {
       "zh": "/invest/research/Vistra_深度研究报告_2026-07.md",
@@ -6463,7 +6483,7 @@
     "chainRole": "dashboard",
     "stance": "cautious",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "2026Q1",
+    "reportedPeriod": "Q2 2026 monitoring / 2026-07-30 valuation frame",
     "related": [
       "constellation-energy-2026",
       "gevernova-2026",
@@ -6485,11 +6505,13 @@
           "en": "capacity, price, regulatory and delivery cadence for Perry, Davis-Besse and Beaver Valley uprates becomes clearer"
         },
         "latest": {
-          "zh": "Meta 20 年核电协议，公开报道约 2.2GW",
-          "en": "Meta 20-year nuclear agreement, public reporting around 2.2GW"
+          "zh": "2026-08-07 Q2 财报：2026 与 2027 指引均明确*不含* Meta 已签 PPA 的贡献，并说明其中一部分预计自 2027 年起计入调整后 EBITDA。这是新增的时间口径；Perry、Davis-Besse、Beaver Valley uprates 的容量、价格与监管进度本次未披露，仍停留在公开报道的约 2.2GW 口径。",
+          "en": "2026-08-07 Q2 release: both the 2026 and 2027 guidance ranges explicitly *exclude* the signed Meta PPAs, and state that part of them is expected to contribute to Adjusted EBITDA from 2027. That adds delivery timing only; capacity, price and regulatory cadence for the Perry, Davis-Besse and Beaver Valley uprates were not disclosed, so the about-2.2GW figure remains public reporting rather than company disclosure."
         },
         "nextCheck": "PPA 与 uprate 进度 / PPA and uprate progress",
-        "nextCheckDate": "2026-12"
+        "nextCheckDate": "2026-12",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-07"
       },
       {
         "id": "cogentrix-integration",
@@ -6504,11 +6526,13 @@
           "en": "the about $4B net-purchase-price deal (public seller-side reporting also frames it near $4.7B total consideration) closes on time and converts about 5,500MW of gas capacity into data-center/capacity-market value, or suffers delays and missed synergies"
         },
         "latest": {
-          "zh": "交易预计 2026 年中后期完成",
-          "en": "deal expected to close in mid-to-late 2026"
+          "zh": "2026-08-07 Q2 财报：已取得 FERC 对 Cogentrix 收购的批准，交易尚未交割，公司未披露新的交割日或协同指引；2026/2027 指引仍不含 Cogentrix。严格对照本项触发条件：正向一腿要求『按期完成**且**把约 5,500MW 转化为数据中心/容量市场收益』，负向一腿要求『延期或协同落空』——两腿本季均未触发。FERC 批准是朝向交割条件的进展，而不是条件本身。",
+          "en": "2026-08-07 Q2 release: FERC approval of the Cogentrix acquisition has been received. The deal has not closed, and no revised close date or synergy guidance was given; 2026 and 2027 guidance still exclude Cogentrix. Graded strictly against this item own trigger: the positive branch requires an on-time close **and** conversion of about 5,500MW into data-center/capacity-market value, and the negative branch requires delays or missed synergies — neither branch fired this quarter. FERC approval is progress toward a closing condition, not the condition itself."
         },
         "nextCheck": "交易完成与协同指引 / close and synergy guidance",
-        "nextCheckDate": "2026-12"
+        "nextCheckDate": "2026-12",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-07"
       },
       {
         "id": "gas-capacity-market",
@@ -6523,11 +6547,13 @@
           "en": "PJM/Texas data-center load pushes capacity prices or dispatchable generation value higher, or the capacity premium fades quickly"
         },
         "latest": {
-          "zh": "PJM 数据中心容量采购提前至 2026-09",
-          "en": "PJM data-center capacity procurement moved up to Sep 2026"
+          "zh": "2026-08-07 Q2 财报：持续经营调整后 EBITDA $1,767M，同比增加 $418M（>30%），公司归因于已实现电价与容量价格上升*以及* Lotus 收购电厂三个月的贡献——因此增幅并非纯有机价格。分部：Texas $311M（2025Q2 $142M）、East $642M（$418M）、Retail $773M（$756M）、West $68M（$49M）。容量溢价未见快速回落。",
+          "en": "2026-08-07 Q2 release: Ongoing Operations Adjusted EBITDA of $1,767M, up $418M (more than 30%) year over year, which the company attributes to higher realized energy and capacity prices *and* three months of contribution from the plants acquired from Lotus — so the increase is not purely organic pricing. By segment: Texas $311M (Q2 2025: $142M), East $642M ($418M), Retail $773M ($756M), West $68M ($49M). The capacity premium did not fade."
         },
         "nextCheck": "PJM/Texas 容量价格",
-        "nextCheckDate": "2026-09"
+        "nextCheckDate": "2026-09",
+        "reading": "within",
+        "readingAsOf": "2026-08-07"
       },
       {
         "id": "leverage-fcf-discipline",
@@ -6542,11 +6568,13 @@
           "en": "Cogentrix, capex, buybacks or fuel/operating volatility raises net-debt/EBITDA and FCF pressure"
         },
         "latest": {
-          "zh": "Q1 净债务约 $19.3B，FCF $316M",
-          "en": "Q1 net debt about $19.3B; FCF $316M"
+          "zh": "2026-08-07 Q2 财报未附资产负债表，也未披露 Q2 净债务或净债务/EBITDA，因此 Q1 约 $19.3B 净债务的读数没有被已披露的 Q2 数字取代。已披露：2026-06-30 可用流动性约 $6,295M（含现金 $435M）；上半年回购 $709M、股利 $154M（普通股）与 $96M（优先股）、融资活动净流出 $1,284M；举债 $6,422M、偿债 $3,859M（含再融资，非净债务变动）。2026 指引重申增长前自由现金流 $3,925-4,725M。截至 2026-08-07 公司尚未提交 10-Q。",
+          "en": "The 2026-08-07 Q2 release carries no balance sheet and discloses no Q2 net debt or net-debt/EBITDA, so the prior about-$19.3B Q1 net-debt reading is not superseded by a disclosed Q2 figure. Disclosed: total available liquidity of about $6,295M at 2026-06-30 including $435M cash; first-half stock repurchases of $709M, common dividends of $154M and preferred dividends of $96M, with cash used in financing of $1,284M; debt issuances of $6,422M against repayments of $3,859M (which includes refinancing and is not a net-debt movement). 2026 guidance reaffirms Ongoing Operations Adjusted FCFbG of $3,925-4,725M. Vistra had not filed its 10-Q as of 2026-08-07."
         },
-        "nextCheck": "2026-Q2 债务与 FCF / Q2 debt and FCF",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "Q2 10-Q 资产负债表与净债务 / Q2 10-Q balance sheet and net debt",
+        "nextCheckDate": "2026-08",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-07"
       },
       {
         "id": "merchant-power-valuation",
