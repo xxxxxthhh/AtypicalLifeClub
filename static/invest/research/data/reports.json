@@ -3963,7 +3963,7 @@
     "ticker": "NYSE: HIMS",
     "title": "Hims & Hers 深度研究报告 - 增长质量与GLP-1监管考验",
     "titleEn": "Hims & Hers Deep Research Report - Growth Quality and GLP-1 Regulatory Test",
-    "summary": "2026-07-31 估值重新锚定：HIMS 收于 $25.00（2026-07-29），较 6 月 22 日锚点 −25.5%，市值约 $62.9 亿。以本报告一贯口径衡量，现约为 2 月 FY2025E 收入基线约 $23.5 亿的 2.7 倍，接近报告自身 2.5-4 倍区间低端。2026-07-29 FTC/州隐私与计费诉讼及公司当日回应与回撤同期发生，可能是影响因素，但一级来源不能证明市场因果。核心问题仍是收入质量、订阅持久性与监管风险，故维持中性/观察；Q2 业绩定于 2026-08-10。",
+    "summary": "2026-07-31 估值重新锚定：HIMS 收于 $25.00（2026-07-29），较 6 月 22 日锚点 −25.5%，市值约 $62.9 亿。以本报告一贯口径衡量，现约为 2 月 FY2025E 收入基线约 $23.5 亿的 2.7 倍，接近报告自身 2.5-4 倍区间低端。2026-07-29 FTC/州隐私与计费诉讼及公司当日回应与回撤同期发生，可能是影响因素，但一级来源不能证明市场因果。核心问题仍是收入质量、订阅持久性与监管风险，故维持中性/观察；Q2 业绩定于 2026-08-10。 2026-08-08 补录 2026 年 5-7 月三笔此前遗漏的资本结构事项：$4.025 亿 0.00% 可转债（2032 到期，转股价约 $29.53）、完成收购 Eucalyptus、$4.0 亿 JPMorgan 应收账款融通；可转债本金合计升至约 $15.0 亿。本次不重锚估值——2026-07-29 $25.00 的框架维持不变。",
     "tags": [
       "远程医疗",
       "DTC",
@@ -3972,7 +3972,7 @@
     ],
     "category": "tech",
     "date": "2026-02-13",
-    "lastUpdate": "2026-08-02",
+    "lastUpdate": "2026-08-08",
     "file": "/invest/research/reports/view.html?id=hims-2026",
     "markdownFiles": {
       "zh": "/invest/research/Hims_Hers_深度研究报告_2026-02.md",
@@ -3983,12 +3983,13 @@
       "以 2 月 FY2025E 收入基线约 $23.5 亿计约 2.7 倍，接近报告自身 2.5-4 倍区间低端",
       "2026-07-29 FTC/州隐私与计费诉讼及公司回应与回撤同期发生，但不能证明市场因果",
       "无 priceSymbol，故无自动价格账本与偏离告警——本次回撤靠人工核查发现（见问题文档 Q3）",
-      "维持中性/观察：收入质量（GLP-1 结构、订阅持久性、监管）未因价格下跌而解决；Q2 业绩 2026-08-10"
+      "维持中性/观察：收入质量（GLP-1 结构、订阅持久性、监管）未因价格下跌而解决；Q2 业绩 2026-08-10",
+      "2026-08-08 资本结构补录：可转债本金 $11 亿 → 约 $15.0 亿（2026-05 新发 $4.025 亿，转股价约 $29.53）；HIMS 于 2026-08-07 收于 $31.59，已高于该转股价，稀释风险方向与旧表述相反"
     ],
-    "summaryEn": "July 31, 2026 valuation re-anchor: HIMS closed at $25.00 on 2026-07-29, -25.5% from the June 22 anchor, for about $6.29B market cap and roughly 2.7x the February FY2025E revenue baseline, near the low end of the report's 2.5-4x band. The FTC/state privacy-and-billing complaint and company response were both published on 2026-07-29 and may have contributed to the same-day drawdown, but primary sources do not establish market causality. Revenue quality, subscriber durability and regulatory risk remain unresolved, so neutral / watchlist holds; Q2 results are due 2026-08-10.",
+    "summaryEn": "July 31, 2026 valuation re-anchor: HIMS closed at $25.00 on 2026-07-29, -25.5% from the June 22 anchor, for about $6.29B market cap and roughly 2.7x the February FY2025E revenue baseline, near the low end of the report's 2.5-4x band. The FTC/state privacy-and-billing complaint and company response were both published on 2026-07-29 and may have contributed to the same-day drawdown, but primary sources do not establish market causality. Revenue quality, subscriber durability and regulatory risk remain unresolved, so neutral / watchlist holds; Q2 results are due 2026-08-10. On 2026-08-08 three previously omitted capital-structure events from May-July 2026 were backfilled: $402.5M of 0.00% convertible notes due 2032 (conversion price about $29.53), the completed Eucalyptus acquisition, and a $400M JPMorgan receivables facility; convertible principal rises to about $1.5B. No valuation re-anchor - the 2026-07-29 $25.00 frame is unchanged.",
     "period": "2026H1",
     "versionType": "full-cycle",
-    "versionLabel": "2026H1 Full Rerun",
+    "versionLabel": "2026H1 Full Rerun + 2026-08-08 资本结构补录",
     "isCurrent": true,
     "supersedes": "hims-2026-pre-rerun",
     "diffBase": "hims-2026-pre-rerun",

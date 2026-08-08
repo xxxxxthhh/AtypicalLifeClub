@@ -1,7 +1,7 @@
 # Hims & Hers Health (NYSE: HIMS) Deep Research Report
 
 Coverage date: 2026-02-13
-Last updated: 2026-08-02
+Last updated: 2026-08-08
 Ticker: NYSE: HIMS
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -23,6 +23,10 @@ This report is the full rerun successor to `hims-2026-pre-rerun`; the archived b
 >
 > This report has no `priceSymbol`, so it carries no automatic price ledger or drift alert; the drawdown was only found because this pass checked it manually. See Q3 of the review questions doc.
 
+> **Capital-structure backfill, 2026-08-08 (no valuation re-anchor).** This report's balance-sheet basis previously stopped at the 2025 $1.1B convertibles and omitted three primary-source events from May-July 2026, now recorded: **(1) on 2026-05-21 the company issued $402.5M of 0.00% convertible senior notes** due 2032-06-01, initial conversion price about **$29.53**, initially a maximum of **18,057,397** Class A shares issuable, with capped-call transactions (SEC 8-K accession 0001193125-26-234847); **(2) on 2026-06-02 it completed the acquisition of Eucalyptus** (EUC Management Pty Ltd, Australia), which the company says has served more than 850,000 customers, and reaffirmed its 2030 targets of **$6.5B revenue / $1.3B Adjusted EBITDA** on the strength of it; Amendment No. 3 to the revolving credit agreement (2026-05-29) facilitated closing and states expressly that interest, fees, covenants and events of default were not materially changed (accession 0001773751-26-000091, incl. Ex-99.1); **(3) on 2026-07-01 subsidiaries XeCare LLC and Apostrophe Pharmacy LLC entered a Master Receivables Purchase Agreement with JPMorgan carrying a $400M facility limit**, 364-day initial term with extensions, the purchaser free to decline any purchase, and a Performance Undertaking that does not guarantee collectability; Amendment No. 4 (2026-06-26) added a matching permitted-debt basket of up to $400M (accession 0001773751-26-000146). **The acquisition consideration was not disclosed; it is not estimated here.**
+>
+> **No valuation re-anchor in this update.** The 2026-07-29 close of $25.00, the market cap and every multiple stand unchanged — the report already states that **Q2 2026 results after the close on 2026-08-10 are the next full operating re-anchor**, at which point the Q2 balance sheet should be reconciled against the **actual balances** of the three items above (the $400M RPA is a limit, not a balance; convertible dilution must come from the 10-Q, not from adding 18,057,397 shares directly). One verified fact bearing directly on dilution: **HIMS closed at $31.59 on 2026-08-07, above the $29.53 initial conversion price** — the opposite direction from the report's existing "sustained stock weakness" framing, which must be rewritten at the Q2 review.
+
 > **2026-08-02 litigation update.** On **2026-07-29**, the U.S. Federal Trade Commission, joined by Utah and Los Angeles County, filed a federal complaint against Hims & Hers in the U.S. District Court for the Northern District of California. The complaint alleges unlawful sharing of sensitive health information with advertising platforms, misleading privacy representations, deceptive subscription billing and an obstructive cancellation flow; it seeks injunctive and monetary relief and civil penalties. Hims & Hers responded the same day, denied the allegations, said the complaint disregards evidence supplied during a nearly three-year investigation, and said it would defend vigorously. This is a new compliance and brand-trust risk separate from the Novo Nordisk patent case and DOJ referral. It does **not** by itself change the neutral / watchlist stance or the dated 2026-07-29 valuation frame. Primary sources: FTC, [press release](https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-states-act-against-hims-hers-deceptive-unlawful-privacy-practices) and [case page](https://www.ftc.gov/legal-library/browse/cases-proceedings/hims-hers) (2026-07-29); Hims & Hers, [company response](https://investors.hims.com/news/news-details/2026/Hims--Hers-Responds-to-FTC-Lawsuit/default.aspx) (2026-07-29).
 
 **Changes vs the February report:**
@@ -33,7 +37,7 @@ This report is the full rerun successor to `hims-2026-pre-rerun`; the archived b
 | Valuation anchor (old → now) | P/S ~2x amid a ~55.8% 3-month drawdown | ~3.3x FY2025E revenue ($2.35B); neutral/watchlist |
 | Thesis emphasis | GLP-1 regulatory binary (Novo suit + DOJ referral acute) | growth-quality audit: durability, compliance, cash conversion |
 | Litigation status | Novo suit filed Feb 9; DOJ referral Feb 6 | still unresolved; FTC + Utah/Los Angeles County complaint filed 2026-07-29 |
-| Unchanged | non-GLP-1 ~70% of revenue, >85% retention, $1.1B convertibles, intensifying competition | same |
+| Unchanged | non-GLP-1 ~70% of revenue, >85% retention, intensifying competition | same (convertibles basis has changed: +$402.5M in May 2026, about $1.5B in total) |
 
 **Data framing:** The business and financial detail below carries the FY2025E / Q3 2025 fact base (and the February litigation events) established in the February research; the price and market-cap anchor is updated to June 22, 2026. FY2025 full-year and Q1 2026 results have since been reported and should be reconciled against this baseline at the next pass; figures dated FY2025E / Q3 2025 are not new H1 2026 actuals.
 
@@ -52,7 +56,7 @@ This report is the full rerun successor to `hims-2026-pre-rerun`; the archived b
 | Subscribers | ~2.5M (Q3 2025) |
 | Monthly ARPU | $80 (Q3 2025, +19% YoY) |
 | Retention Rate | >85% |
-| Convertible Notes | $1.1B (0% coupon, 2025) |
+| Convertible Notes | about **$1.5B** in total: $1.1B from 2025 (0% coupon) + **$402.5M issued 2026-05-21 (0.00%, due 2032, conversion price about $29.53)** |
 
 ## 1. Business Overview
 
@@ -99,15 +103,15 @@ The February baseline used roughly $2.35B of FY2025E revenue and ~2.5M subscribe
 | Subscribers | ~1.5M | ~2.2M | ~2.5M+ | Growing but slowing |
 | ARPU (monthly) | ~$50 | ~$64 | ~$80 | Strong expansion |
 
-**Profitability & balance sheet:** Q3 2025 adjusted EBITDA was $78.4M (+53% YoY); gross margin compressed from 79% to 74% on higher-cost GLP-1 injectables. The company issued $1.1B of 0%-coupon convertible notes in 2025 for international expansion and R&D, against ~$1.07B cash.
+**Profitability & balance sheet:** Q3 2025 adjusted EBITDA was $78.4M (+53% YoY); gross margin compressed from 79% to 74% on higher-cost GLP-1 injectables. The company issued $1.1B of 0%-coupon convertible notes in 2025 for international expansion and R&D, against ~$1.07B cash. **(Backfilled 2026-08-08)** A further **$402.5M of 0.00% convertible senior notes due 2032** was issued on 2026-05-21, taking convertible principal to about **$1.5B**; a **$400M JPMorgan receivables purchase facility** (a limit, not a balance) was added on 2026-07-01, with the revolving credit covenants amended accordingly. Actual balances and the dilution basis must be reconciled against the Q2 2026 statements on 2026-08-10.
 
 **Caliber note:** Q3 2025 net income of $15.8M looks far below the $75.6M in Q3 2024, but the prior-year quarter included a large one-time tax benefit — so EPS dropping from $0.32 to $0.06 overstates the operating decline; adjusted EBITDA actually rose +53%. These are company-disclosed, February-baseline figures and should be recomputed against FY2025 actuals and Q1 2026.
 
-**Red-flag check:** steadily declining gross margin (80% → 74%), EPS falling while opex outgrows revenue, $1.1B convertibles raising leverage, and questionable GLP-1 revenue durability are confirmed flags. Offsets: positive cash flow, ample liquidity, and a non-GLP-1 core at ~70% of revenue.
+**Red-flag check:** steadily declining gross margin (80% → 74%), EPS falling while opex outgrows revenue, convertible principal rising from $1.1B to about $1.5B (a $402.5M issue in May 2026) plus a new $400M receivables facility, lifting both leverage and off-balance-sheet funding exposure, and questionable GLP-1 revenue durability are confirmed flags. Offsets: positive cash flow, ample liquidity, and a non-GLP-1 core at ~70% of revenue.
 
 ## 4. Management & Governance
 
-**CEO Andrew Dudum** (founder, leading since 2017) expanded Hims from single-category men's health to a multi-category platform and took an aggressive public stance on the GLP-1 controversy — confronting the FDA and Novo Nordisk and calling the Novo lawsuit a "blatant attack by Big Pharma on consumer choice." Execution on user growth, ARPU, and international expansion (ZAVA acquisition for UK/Germany/France; Canada planned for 2026) is strong; but the aggressive GLP-1 strategy (launching a compounded semaglutide oral pill in Feb 2026 and withdrawing it within days) invited avoidable regulatory and legal risk. **Management grade: B-** — strong operations, questionable GLP-1 judgment. Governance focus has shifted from speed to medical compliance, drug quality, and regulatory communication; convertible-note dilution also affects per-share value when the stock is weak.
+**CEO Andrew Dudum** (founder, leading since 2017) expanded Hims from single-category men's health to a multi-category platform and took an aggressive public stance on the GLP-1 controversy — confronting the FDA and Novo Nordisk and calling the Novo lawsuit a "blatant attack by Big Pharma on consumer choice." Execution on user growth, ARPU, and international expansion (ZAVA acquisition for UK/Germany/France; **the Eucalyptus acquisition completed 2026-06-02**, extending into Australia, Canada and Japan) is strong; but the aggressive GLP-1 strategy (launching a compounded semaglutide oral pill in Feb 2026 and withdrawing it within days) invited avoidable regulatory and legal risk. **Management grade: B-** — strong operations, questionable GLP-1 judgment. Governance focus has shifted from speed to medical compliance, drug quality, and regulatory communication; convertible-note dilution also affects per-share value when the stock is weak.
 
 ## 5. Bull Case / Upside
 
@@ -118,7 +122,7 @@ The February baseline used roughly $2.35B of FY2025E revenue and ~2.5M subscribe
 1. **Non-GLP-1 is ~70% of revenue:** even if GLP-1 went to zero, ~$1.6B of annual revenue remains in hair loss, ED, skincare, and mental health — categories with minimal regulatory risk.
 2. **ARPU expansion:** $50 → $64 → $80/month, reflecting personalization and cross-sell.
 3. **2.5M subscribers, >85% retention:** highly predictable revenue and stickiness.
-4. **International optionality:** ZAVA gives a European footprint; Canada launch in 2026 reduces U.S. single-market dependence.
+4. **International optionality:** ZAVA gives a European footprint; **the Eucalyptus acquisition completed 2026-06-02** adds Australia, Canada and Japan, on the strength of which the company reaffirmed its 2030 targets of $6.5B revenue / $1.3B Adjusted EBITDA; U.S. single-market dependence falls further.
 5. **New categories:** testosterone, Labs, and longevity could become the next engines.
 
 **Key assumptions:** GLP-1 risk does not spill into other lines; international contributes within 12-18 months; brand keeps acquisition efficient amid competition. **Upside scenario:** if GLP-1 resolves with fines/restrictions (not a total ban) and non-GLP-1 holds 30%+ growth, the stock could re-rate meaningfully from a reset base.
@@ -133,7 +137,7 @@ The February baseline used roughly $2.35B of FY2025E revenue and ~2.5M subscribe
 2. **DOJ referral (Feb 6, 2026):** HHS referred Hims to the DOJ for potential FD&C Act violations — a threat to overall compliance reputation, not just GLP-1.
 3. **Gross-margin deterioration:** 80% → 74% on high-cost injectables and personalization complexity.
 4. **Growth deceleration:** Q3 2025 sequential revenue growth was only ~2.2%, with subscriber growth flattening.
-5. **Convertible dilution:** sustained stock weakness could force large dilution on conversion of the $1.1B notes.
+5. **Convertible dilution (basis changed 2026-08-08):** convertible principal now totals about **$1.5B**. The 2026 $402.5M tranche carries an initial conversion price of about **$29.53**, initially a maximum of 18,057,397 Class A shares, plus capped calls; **HIMS closed at $31.59 on 2026-08-07, above that conversion price** — so this risk now runs the opposite way to the framing above: the live dilution scenario comes from strength, not weakness. Actual dilution depends on the settlement method the company elects (cash / shares / a mix) and the price path, and must be taken from the Q2 10-Q rather than by adding the maximum share count.
 6. **Competition:** Ro, LifeMD, and others keep closing the gap as traditional systems digitize.
 7. **FTC/state privacy and billing complaint (filed 2026-07-29):** allegations concerning health-data sharing, privacy representations, subscription billing and cancellation add a compliance and brand-trust risk beyond GLP-1. The company denies the allegations and is defending the case.
 
@@ -176,7 +180,7 @@ Hims' growth far exceeds peers, but the regulatory risk premium compresses its m
 
 **Long-term (18+ months):** telehealth consolidation; whether Hims becomes a comprehensive digital-health platform; whether international markets replicate U.S. growth.
 
-**Key monitoring metrics:** subscribers, ARPU, retention, and marketing intensity; non-GLP-1 revenue mix and growth; adjusted EBITDA, free cash flow, and gross margin; convertible notes, SBC, and potential dilution.
+**Key monitoring metrics:** subscribers, ARPU, retention, and marketing intensity; non-GLP-1 revenue mix and growth; adjusted EBITDA, free cash flow, and gross margin; convertible notes (about $1.5B in total), drawn amount under the $400M receivables facility, Eucalyptus consolidation and goodwill, SBC, and potential dilution.
 
 ## 10. Conclusion & Review
 
@@ -185,6 +189,13 @@ Hims is a well-executed DTC telehealth company with 2.5M subscribers and a stead
 **Core tension:** excellent core business vs self-inflicted regulatory trouble. This rerun reframes the stock from an acute GLP-1 binary into a growth-quality audit. This is a monitoring view, not allocation advice: the thesis is highly binary and event-driven; any position should sit within a risk budget appropriate for a high-volatility, event-driven asset rather than a fixed weight. The current (old caliber) $7.77B market cap depends on whether revenue is durable, compliant, and convertible into cash flow. **Confidence: medium.**
 
 ## 11. Appendix & Sources
+
+**Primary sources used for the 2026-08-08 backfill (SEC EDGAR):**
+
+- **Form 8-K, accession 0001193125-26-234847 (2026-05-21)** — items 1.01/2.03/3.02/9.01: $402.5M of 0.00% convertible senior notes due 2032-06-01; initial conversion rate 33.8590 shares per $1,000; initial conversion price about $29.53; initially a maximum of 18,057,397 Class A shares; conditional redemption from 2029-06-06; Base and Additional Call Option transactions (capped call); Indenture trustee U.S. Bank Trust Company, N.A.
+- **Form 8-K, accession 0001773751-26-000091 (2026-06-02)** — items 1.01/2.03/8.01/9.01: completion of the acquisition of EUC Management Pty Ltd (d/b/a Eucalyptus); Ex-99.1 press release (2026-06-02); Amendment No. 3 to the revolving credit agreement (2026-05-29).
+- **Form 8-K, accession 0001773751-26-000146 (2026-07-01)** — items 1.01/2.03/9.01: $400M Master Receivables Purchase Agreement (JPMorgan); Performance Undertaking; Amendment No. 4 to the revolving credit agreement (2026-06-26).
+- **Price**: Nasdaq official quote endpoint, regular-session close of $31.59 on 2026-08-07.
 
 **Key assumptions:** FY2025 revenue per company guidance of $2.34-2.36B; non-GLP-1 ~70% of revenue per management disclosures; retention >85% per company data; international (ZAVA) not yet contributing material revenue.
 
