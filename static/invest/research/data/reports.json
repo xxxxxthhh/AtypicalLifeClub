@@ -33,7 +33,9 @@
       "估值：TTM P/E 32.8x、P/S 9.7x、EV/Sales 8.7x、EV/EBITDA 30.3x（GAAP 口径）；FY2026E 调整后 EV/EBITDA 约 16.8x；净利含利息收入与低税率加成，跨公司比较需校正",
       "关键风险：Google 授权协议约 $60M/年、2027 上半年到期；公司自 Q3 2026 起停止披露登录/未登录用户拆分",
       "资本配置：$10 亿回购授权，Q2 执行约 150 万股/约 $235M（均价 $157.57，高于现价约 12%），剩余约 $760M"
-    ]
+    ],
+    "priceSymbol": "RDDT",
+    "priceAsOf": "2026-07-31"
   },
   {
     "id": "smh-2026",
@@ -3889,7 +3891,9 @@
       "Q1 2026财报季：多数头部软件公司AI转型进展好于恐慌预期，空头论点减弱",
       "Beta 1.12（5年月度），费用率0.39%；Q2财报季（7-8月）为下一核心验证节点"
     ],
-    "summaryEn": "U.S. software sector flagship ETF. Jun 25, 2026 incremental update: Price $86.17 (+4.1% from Feb), YTD decline narrowed to -18.45%. AUM surged from $7.9B to $16.7B (+111%), reflecting massive contrarian inflows during the panic. PE(TTM) 27.68, NAV $86.25. Q1 2026 earnings season complete — most leading software companies reported AI transition progress better than panic expectations; bear case weakened but not fully invalidated."
+    "summaryEn": "U.S. software sector flagship ETF. Jun 25, 2026 incremental update: Price $86.17 (+4.1% from Feb), YTD decline narrowed to -18.45%. AUM surged from $7.9B to $16.7B (+111%), reflecting massive contrarian inflows during the panic. PE(TTM) 27.68, NAV $86.25. Q1 2026 earnings season complete — most leading software companies reported AI transition progress better than panic expectations; bear case weakened but not fully invalidated.",
+    "priceSymbol": "IGV",
+    "priceAsOf": "2026-06-25"
   },
   {
     "id": "airbnb-2026",
@@ -3923,7 +3927,9 @@
       "完整复核后维持中性偏积极·中等确信：更强增长和现金转化抵消更高倍数，但 39.0x TTM P/E 阻止上调"
     ],
     "summaryEn": "Q2 2026 revenue $3.608B (+17% Y/Y), net income $816M (23% margin), Adjusted EBITDA $1.261B (35% margin), FCF $1.253B, and Nights and Seats Booked of 148.3M (+10%, accelerating from Q1); the company raised full-year revenue growth guidance to \"at least mid teens\" and Adjusted EBITDA Margin to \"at least 35.5%\". The prior version's loudest warning - TTM free cash flow quality - materially resolved, with TTM FCF recovering to $4.827B. On 2026-08-08 the report was re-anchored to the first completed post-release session (2026-08-07 close of $178.07, +17.43% in one day): market cap $104.99B, EV $95.34B, TTM P/E 39.0x, P/S 8.0x, P/FCF 21.8x, EV/Adjusted EBITDA about 20.5x, PEG about 2.3x. The pre-release conclusion that multiples had compressed reversed in that single session. A complete Q2 thesis and current-valuation review retains Neutral-to-Positive / Medium conviction: stronger growth and cash conversion offset the higher multiple, but 39x prevents an upgrade; forward EPS and the target range remain review-pending because no verifiable source was available.",
-    "reportedPeriod": "Q2 2026"
+    "reportedPeriod": "Q2 2026",
+    "priceSymbol": "ABNB",
+    "priceAsOf": "2026-08-07"
   },
   {
     "id": "hims-2026-pre-rerun",
@@ -4001,7 +4007,9 @@
       "lastUpdate": "2026-02-13",
       "summary": "归档的2026H1重跑前版本，保留2月GLP-1监管二元变量和旧收入/估值框架。",
       "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the February GLP-1 regulatory binary and old revenue/valuation framework."
-    }
+    },
+    "priceSymbol": "HIMS",
+    "priceAsOf": "2026-07-29"
   },
   {
     "id": "bloom-energy-2026-pre-rerun",
@@ -4310,7 +4318,8 @@
       "lastUpdate": "2026-02-11",
       "summary": "归档的2026H1重跑前版本，保留Q4/FY2025、交易量、托管、USDC和旧估值框架。",
       "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the Q4/FY2025, trading volume, custody, USDC, and old valuation framework."
-    }
+    },
+    "priceSymbol": "COIN"
   },
   {
     "id": "amzn-2026",
@@ -4596,7 +4605,9 @@
       "TTM营收升至约$48.37B；现金$9.13B、债务$14.31B（净债务约$5.18B）",
       "公司进一步缩减观看量披露，H1 2026会员观看时长970亿+小时（+2%）；增速逐季放缓成为新压力点"
     ],
-    "summaryEn": "2026-07-17 update (Q2 2026): revenue $12.56B (+13.4%), operating margin 33.4%, net income $3.4B, EPS $0.80; FY2026 revenue guidance narrowed to $51.0–51.4B, Q3 guide $12.86B (+11.7%) below the ~$13B consensus, stock -7.3% on the print. Market data: price $68.95, market cap ~$290.3B, TTM P/E ~23.4x, Forward P/E ~18.1x, P/S ~6.0x. Viewership disclosure further reduced; thesis still rests on ad monetization, content ROI, live/sports execution, and capital allocation."
+    "summaryEn": "2026-07-17 update (Q2 2026): revenue $12.56B (+13.4%), operating margin 33.4%, net income $3.4B, EPS $0.80; FY2026 revenue guidance narrowed to $51.0–51.4B, Q3 guide $12.86B (+11.7%) below the ~$13B consensus, stock -7.3% on the print. Market data: price $68.95, market cap ~$290.3B, TTM P/E ~23.4x, Forward P/E ~18.1x, P/S ~6.0x. Viewership disclosure further reduced; thesis still rests on ad monetization, content ROI, live/sports execution, and capital allocation.",
+    "priceSymbol": "NFLX",
+    "priceAsOf": "2026-07-17"
   },
   {
     "id": "spotify-2026",
@@ -4694,7 +4705,9 @@
         "reading": "breached",
         "readingAsOf": "2026-08-04"
       }
-    ]
+    ],
+    "priceSymbol": "SPOT",
+    "priceAsOf": "2026-08-05"
   },
   {
     "id": "neov-2026",
@@ -5429,7 +5442,9 @@
       "2026-07-17 收$56.56，介于要约价$60.50与要约前约$46之间，反映交易达成概率定价",
       "交易明朗前，旧的基本面合理价值框架与正文牛/熊情景目标价被并购动态整体取代，不作当前结论",
       "相关但独立：加入Visa/Mastercard支持的Open USD稳定币联盟；关闭PayPal Ventures（重组提效）"
-    ]
+    ],
+    "priceSymbol": "PYPL",
+    "priceAsOf": "2026-07-17"
   },
   {
     "id": "oklo-2026-pre-rerun",

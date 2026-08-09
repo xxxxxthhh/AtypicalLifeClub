@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08",
+  "generatedAt": "2026-08-09",
   "benchmark": "SMH",
   "entries": [
     {
@@ -460,7 +460,7 @@
       "priceAtStance": 48.42,
       "benchmarkSymbol": "XLU",
       "status": "pending",
-      "daysHeld": 0,
+      "daysHeld": 1,
       "stale": false
     },
     {
@@ -831,7 +831,7 @@
       "priceAtStance": 37.39,
       "benchmarkSymbol": "SMH",
       "status": "pending",
-      "daysHeld": 0,
+      "daysHeld": 1,
       "stale": false
     }
   ],

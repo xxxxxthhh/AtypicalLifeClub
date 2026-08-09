@@ -94,17 +94,30 @@ def load_reports() -> list[Report]:
 
 
 def priced_reports(reports: list[Report]) -> list[Report]:
-    # Current-chain nodes plus benchmark sleeves (e.g. SMH, spec §4.1a): the Track 3
-    # ledger scores every stance against the benchmark, so the benchmark needs a
-    # normal price entry too. Predicate: (chainLayer OR benchmark) AND current AND priceSymbol.
+    # Every current report that declares both a tradable symbol and a valuation
+    # anchor. Predicate: current AND priceSymbol AND priceAsOf.
+    #
+    # This supersedes the older "(chainLayer OR benchmark) AND current AND
+    # priceSymbol" rule, which silently excluded every non-chain report — the
+    # Netflix/Coinbase/PayPal/Airbnb/Spotify group had no ledger entry and
+    # therefore no automatic drift alert against its own anchor. Chain nodes and
+    # the benchmark sleeve (SMH, spec §4.1a) still qualify unchanged, since they
+    # all carry priceSymbol and priceAsOf.
+    #
+    # priceAsOf is required, not optional: build_ok_entry() anchors basePrice to
+    # the last close on or before it, so a report without one can only ever
+    # produce a failure entry. Reports whose stated anchor is an intraday mark
+    # rather than a close must fix the anchor before they belong here.
     selected: list[Report] = []
     for report in reports:
         symbol = report.get("priceSymbol")
+        anchor = report.get("priceAsOf")
         if (
             report.get("isCurrent") is not False
-            and (report.get("chainLayer") or report.get("benchmark"))
             and isinstance(symbol, str)
             and symbol.strip()
+            and isinstance(anchor, str)
+            and anchor.strip()
         ):
             selected.append(report)
     return selected
