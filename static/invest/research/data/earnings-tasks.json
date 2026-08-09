@@ -1,9 +1,58 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T01:54:42Z",
+  "generatedAt": "2026-08-09T22:11:06Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-08-09T01:54:42Z"
+    "value": "2026-08-09T22:11:06Z"
   },
-  "tasks": []
+  "tasks": [
+    {
+      "id": "earnings:asml-2026:2026-10:complete-date",
+      "reportId": "asml-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-10",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:jinpan-2026:2026-08:complete-date",
+      "reportId": "jinpan-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-08",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:kioxia-2026:2026-11:complete-date",
+      "reportId": "kioxia-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-11",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:minimax-2026:2026-08:complete-date",
+      "reportId": "minimax-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-08",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:sk-hynix-2026:2026-10-27:verify",
+      "reportId": "sk-hynix-2026",
+      "type": "source-verification",
+      "window": "verify",
+      "expectedDate": "2026-10-27",
+      "reason": "Confirm the recorded date on issuer IR."
+    },
+    {
+      "id": "earnings:tsmc-2026:2026-08:complete-date",
+      "reportId": "tsmc-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-08",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    }
+  ]
 }
