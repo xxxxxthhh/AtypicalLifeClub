@@ -1,54 +1,390 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T22:11:06Z",
+  "generatedAt": "2026-08-10T22:16:39Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-08-09T22:11:06Z"
+    "value": "2026-08-10T22:16:39Z"
   },
   "tasks": [
     {
-      "id": "earnings:asml-2026:2026-10:complete-date",
-      "reportId": "asml-2026",
+      "id": "earnings:aaoi-2026:2026-08-06:stale",
+      "reportId": "aaoi-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-08-06",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:airbnb-2026:unknown:unknown",
+      "reportId": "airbnb-2026",
+      "type": "calendar-maintenance",
+      "window": "unknown",
+      "expectedDate": null,
+      "reason": "Resolve unknown earnings calendar data."
+    },
+    {
+      "id": "earnings:alab-2026:2026-08-04:stale",
+      "reportId": "alab-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-08-04",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:almonty-2026:unknown:unknown",
+      "reportId": "almonty-2026",
+      "type": "calendar-maintenance",
+      "window": "unknown",
+      "expectedDate": null,
+      "reason": "Resolve unknown earnings calendar data."
+    },
+    {
+      "id": "earnings:alphabet-2026:2026-10:complete-date",
+      "reportId": "alphabet-2026",
       "type": "date-completion",
       "window": "complete-date",
       "expectedDate": "2026-10",
       "reason": "Replace the estimate with an issuer-sourced day."
     },
     {
-      "id": "earnings:jinpan-2026:2026-08:complete-date",
-      "reportId": "jinpan-2026",
+      "id": "earnings:amd-2026:2026-08-04:stale",
+      "reportId": "amd-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-08-04",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:amkr-2026:2026-10:complete-date",
+      "reportId": "amkr-2026",
       "type": "date-completion",
       "window": "complete-date",
-      "expectedDate": "2026-08",
+      "expectedDate": "2026-10",
       "reason": "Replace the estimate with an issuer-sourced day."
     },
     {
-      "id": "earnings:kioxia-2026:2026-11:complete-date",
-      "reportId": "kioxia-2026",
+      "id": "earnings:amzn-2026:2026-10:complete-date",
+      "reportId": "amzn-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-10",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:applied-materials-2026:2026-08-13:verify",
+      "reportId": "applied-materials-2026",
+      "type": "source-verification",
+      "window": "verify",
+      "expectedDate": "2026-08-13",
+      "reason": "Confirm the recorded date on issuer IR."
+    },
+    {
+      "id": "earnings:arista-2026:2026-08-04:stale",
+      "reportId": "arista-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-08-04",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:ase-technology-2026:2026-11:complete-date",
+      "reportId": "ase-technology-2026",
       "type": "date-completion",
       "window": "complete-date",
       "expectedDate": "2026-11",
       "reason": "Replace the estimate with an issuer-sourced day."
     },
     {
-      "id": "earnings:minimax-2026:2026-08:complete-date",
-      "reportId": "minimax-2026",
+      "id": "earnings:bloom-energy-2026:2026-11:complete-date",
+      "reportId": "bloom-energy-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-11",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:broadcom-2026:unknown:unknown",
+      "reportId": "broadcom-2026",
+      "type": "calendar-maintenance",
+      "window": "unknown",
+      "expectedDate": null,
+      "reason": "Resolve unknown earnings calendar data."
+    },
+    {
+      "id": "earnings:cadence-2026:2026-10:complete-date",
+      "reportId": "cadence-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-10",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:cameco-2026:2026-07:stale",
+      "reportId": "cameco-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-07",
+      "reason": "Resolve stale earnings calendar data."
+    },
+    {
+      "id": "earnings:coherent-2026:2026-08-12:verify",
+      "reportId": "coherent-2026",
+      "type": "source-verification",
+      "window": "verify",
+      "expectedDate": "2026-08-12",
+      "reason": "Confirm the recorded date on issuer IR."
+    },
+    {
+      "id": "earnings:coinbase-2026:unknown:unknown",
+      "reportId": "coinbase-2026",
+      "type": "calendar-maintenance",
+      "window": "unknown",
+      "expectedDate": null,
+      "reason": "Resolve unknown earnings calendar data."
+    },
+    {
+      "id": "earnings:constellation-energy-2026:2026-08:complete-date",
+      "reportId": "constellation-energy-2026",
       "type": "date-completion",
       "window": "complete-date",
       "expectedDate": "2026-08",
       "reason": "Replace the estimate with an issuer-sourced day."
     },
     {
-      "id": "earnings:sk-hynix-2026:2026-10-27:verify",
-      "reportId": "sk-hynix-2026",
+      "id": "earnings:coreweave-2026:2026-08:complete-date",
+      "reportId": "coreweave-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-08",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:corning-2026:2026-10:complete-date",
+      "reportId": "corning-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-10",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:digital-realty-2026:2026-10:complete-date",
+      "reportId": "digital-realty-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-10",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:eqix-2026:2026-08:complete-date",
+      "reportId": "eqix-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-08",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:gevernova-2026:2026-10:complete-date",
+      "reportId": "gevernova-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-10",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:hims-2026:2026-08-10:verify",
+      "reportId": "hims-2026",
       "type": "source-verification",
       "window": "verify",
-      "expectedDate": "2026-10-27",
+      "expectedDate": "2026-08-10",
       "reason": "Confirm the recorded date on issuer IR."
     },
     {
-      "id": "earnings:tsmc-2026:2026-08:complete-date",
-      "reportId": "tsmc-2026",
+      "id": "earnings:kla-2026:2026-10:complete-date",
+      "reportId": "kla-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-10",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:lam-research-2026:2026-10:complete-date",
+      "reportId": "lam-research-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-10",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:marvell-2026:2026-08-27:verify",
+      "reportId": "marvell-2026",
+      "type": "source-verification",
+      "window": "verify",
+      "expectedDate": "2026-08-27",
+      "reason": "Confirm the recorded date on issuer IR."
+    },
+    {
+      "id": "earnings:meta-2026:2026-10:complete-date",
+      "reportId": "meta-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-10",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:micron-2026:2026-09-23:verify",
+      "reportId": "micron-2026",
+      "type": "source-verification",
+      "window": "verify",
+      "expectedDate": "2026-09-23",
+      "reason": "Confirm the recorded date on issuer IR."
+    },
+    {
+      "id": "earnings:microsoft-2026:2026-10:complete-date",
+      "reportId": "microsoft-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-10",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:mp-2026:2026-08-06:stale",
+      "reportId": "mp-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-08-06",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:nebius-2026:2026-08:complete-date",
+      "reportId": "nebius-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-08",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:neov-2026:2026-08:complete-date",
+      "reportId": "neov-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-08",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:netflix-2026:unknown:unknown",
+      "reportId": "netflix-2026",
+      "type": "calendar-maintenance",
+      "window": "unknown",
+      "expectedDate": null,
+      "reason": "Resolve unknown earnings calendar data."
+    },
+    {
+      "id": "earnings:nrg-2026:2026-08-04:stale",
+      "reportId": "nrg-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-08-04",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:oklo-2026:unknown:unknown",
+      "reportId": "oklo-2026",
+      "type": "calendar-maintenance",
+      "window": "unknown",
+      "expectedDate": null,
+      "reason": "Resolve unknown earnings calendar data."
+    },
+    {
+      "id": "earnings:oracle-2026:2026-09:complete-date",
+      "reportId": "oracle-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-09",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:paypal-2026:unknown:unknown",
+      "reportId": "paypal-2026",
+      "type": "calendar-maintenance",
+      "window": "unknown",
+      "expectedDate": null,
+      "reason": "Resolve unknown earnings calendar data."
+    },
+    {
+      "id": "earnings:pltr-2026:2026-11:complete-date",
+      "reportId": "pltr-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-11",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:quanta-services-2026:2026-10:complete-date",
+      "reportId": "quanta-services-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-10",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:reddit-2026:unknown:unknown",
+      "reportId": "reddit-2026",
+      "type": "calendar-maintenance",
+      "window": "unknown",
+      "expectedDate": null,
+      "reason": "Resolve unknown earnings calendar data."
+    },
+    {
+      "id": "earnings:salesforce-2026:unknown:unknown",
+      "reportId": "salesforce-2026",
+      "type": "calendar-maintenance",
+      "window": "unknown",
+      "expectedDate": null,
+      "reason": "Resolve unknown earnings calendar data."
+    },
+    {
+      "id": "earnings:sandisk-2026:2026-08-05:stale",
+      "reportId": "sandisk-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-08-05",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:spotify-2026:unknown:unknown",
+      "reportId": "spotify-2026",
+      "type": "calendar-maintenance",
+      "window": "unknown",
+      "expectedDate": null,
+      "reason": "Resolve unknown earnings calendar data."
+    },
+    {
+      "id": "earnings:synopsys-2026:2026-08:complete-date",
+      "reportId": "synopsys-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-08",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:tempus-ai-2026:unknown:unknown",
+      "reportId": "tempus-ai-2026",
+      "type": "calendar-maintenance",
+      "window": "unknown",
+      "expectedDate": null,
+      "reason": "Resolve unknown earnings calendar data."
+    },
+    {
+      "id": "earnings:vertiv-2026:2026-08:complete-date",
+      "reportId": "vertiv-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-08",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:vistra-2026:2026-08:complete-date",
+      "reportId": "vistra-2026",
       "type": "date-completion",
       "window": "complete-date",
       "expectedDate": "2026-08",
