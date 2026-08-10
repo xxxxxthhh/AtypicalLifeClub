@@ -6,6 +6,20 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>Vistra 深度研究报告 - AI 电力约束的核电与燃气高 beta 仪表盘 / Vistra Deep Research Report - Nuclear and Gas High-Beta Dashboard for AI Power</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=vistra-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=vistra-2026#vistra-2026@2026-08-11</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
+      <description>2026-07-07 v5更新：VST是AI基础设施power层的nuclear-plus-gas高beta dashboard。价格锚点$148.62（2026-07-30 收盘）、市值约$50.1B、EV约$69.4B、约22.6x TTM GAAP P/E、约3.6x EV/TTM sales，并含约$19.3B净债务。30%牛市/40%基准/30%熊市情景显示上行真实但下行更快，v5立场迁移为谨慎/中确信。</description>
+    </item>
+    <item>
+      <title>TSMC 深度研究报告 - AI 基建链的先进制程与封装公共约束 / TSMC Deep Research Report - The Advanced-Node and Packaging Constraint in AI Infrastructure</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=tsmc-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=tsmc-2026#tsmc-2026@2026-08-11</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施书 foundry 层补位：TSMC 是整条链最硬的制造瓶颈，而不是又一个芯片设计公司。2026Q2 收入 US$40.20B（同比 +33.7%）落在指引区间上沿，毛利率 67.7% 高于 65.5-67.5% 指引；2nm 首次贡献 3% wafer revenue、7nm 及以下占 77%，HPC 占收入 66%。管理层把全年收入增速展望上调至略高于 40%，并把 2026 capex 从原 $52-56B 区间上调至 $60-64B；Q3 指引 US$44.6-45.8B。2026-07-31 重新锚定：ADR $403.31（2026-07-30 收盘）、约 $2.09T 市值、约 12.8x 2026E EV/Sales，隐含收入 CAGR 要求降至约 17%，低于未变的 20-22% 基准情景，预期差转为温和正向，立场由中性观察上调为偏多 / 中确信。</description>
+    </item>
+    <item>
       <title>IGV 深度研究报告 - Software-mageddon后的软件行业ETF抄底机会？ / IGV Deep Research Report - A Buying Opportunity After the Software-mageddon?</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=igv-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=igv-2026#igv-2026@2026-08-10</guid>
@@ -39,13 +53,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=ase-technology-2026#ase-technology-2026@2026-08-08</guid>
       <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
       <description>AI 基础设施书 advanced-packaging 层的第二个架构校验。2026 Q2 合并收入 NT$191.064B（+26.7%）、ATM 收入 NT$126.148B（+36.3%）、ATM 毛利率 27.3%、经营利润率 15.7%，计算占 ATM 收入由一年前 24% 升至 30%；ASE 的 VIPack、2.5D/3D、FOCoS 与测试组合证明第三方 OSAT 能承接有价值的 AI/HPC 工作。但公司仍未点名任何 AI 加速器在台积电之外完成全流程封装，也未披露独立价格或 CoWoS 外包量，因此本层继续是归属与架构读数，不升级为约束读数。以 2026-08-07 收盘 $37.39 计，Q2 加权基本至稀释股权价值约 $82.0-84.2B、企业价值约 $88.3-90.5B，约 15.2-15.6x Q2 年化 EBITDA、32.0x Q2 年化 ADS EPS；三年、11x 退出和 8% 年化回报反推需要约 20%-21% EBITDA CAGR，高于 15%-18% 基准假设。20/50/30 情景网格支持中性观察 / 中确信。</description>
-    </item>
-    <item>
-      <title>Vistra 深度研究报告 - AI 电力约束的核电与燃气高 beta 仪表盘 / Vistra Deep Research Report - Nuclear and Gas High-Beta Dashboard for AI Power</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=vistra-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=vistra-2026#vistra-2026@2026-08-08</guid>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
-      <description>2026-07-07 v5更新：VST是AI基础设施power层的nuclear-plus-gas高beta dashboard。价格锚点$148.62（2026-07-30 收盘）、市值约$50.1B、EV约$69.4B、约22.6x TTM GAAP P/E、约3.6x EV/TTM sales，并含约$19.3B净债务。30%牛市/40%基准/30%熊市情景显示上行真实但下行更快，v5立场迁移为谨慎/中确信。</description>
     </item>
     <item>
       <title>Airbnb 深度研究报告 - 全球短租霸主的增长再加速之问 / Airbnb Deep Research Report - Can the Global Short-Term Rental Leader Re-Accelerate Growth?</title>
@@ -242,13 +249,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=applied-materials-2026#applied-materials-2026@2026-07-31</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
       <description>【2026-07-31 立场重新裁定：AMAT 于 2026-07-30 收于 $501.77，较 07-29 低点反弹 +15.0%、较原锚点 -16.8%，市值约 $398.4B；按所有者 Q1 裁定，立场由谨慎调整为观望中性（中确信）。】AI 基础设施 semicap-equipment 层的广谱设备仪表盘：AMAT 验证 AI 需求是否不只卡在 EUV，而是扩散到 deposition、etch、advanced packaging、DRAM 和服务。FY2026 Q2 收入 $7.91B、GAAP gross margin 49.9%、non-GAAP EPS $2.86；Semiconductor Systems 收入 $5.965B，其中 foundry/logic/other 67%、DRAM 29%。Q3 指引收入 $8.950B +/- $500M、non-GAAP EPS $3.36 +/- $0.20。按 2026-07-30 收盘重算：市值约 $398.4B、EV 约 $397.5B，约 11.1x EV/Q3 annualized sales、约 30.6x forward EPS。观望中性 / 中确信：上行周期强，旧的负偏斜算术在当前价格下不再成立，中国/台湾暴露使其停留在观望。</description>
-    </item>
-    <item>
-      <title>TSMC 深度研究报告 - AI 基建链的先进制程与封装公共约束 / TSMC Deep Research Report - The Advanced-Node and Packaging Constraint in AI Infrastructure</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=tsmc-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=tsmc-2026#tsmc-2026@2026-07-31</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施书 foundry 层补位：TSMC 是整条链最硬的制造瓶颈，而不是又一个芯片设计公司。2026Q2 收入 US$40.20B（同比 +33.7%）落在指引区间上沿，毛利率 67.7% 高于 65.5-67.5% 指引；2nm 首次贡献 3% wafer revenue、7nm 及以下占 77%，HPC 占收入 66%。管理层把全年收入增速展望上调至略高于 40%，并把 2026 capex 从原 $52-56B 区间上调至 $60-64B；Q3 指引 US$44.6-45.8B。2026-07-31 重新锚定：ADR $403.31（2026-07-30 收盘）、约 $2.09T 市值、约 12.8x 2026E EV/Sales，隐含收入 CAGR 要求降至约 17%，低于未变的 20-22% 基准情景，预期差转为温和正向，立场由中性观察上调为偏多 / 中确信。</description>
     </item>
     <item>
       <title>Oracle 深度研究报告 - AI 云 RPO 仪表盘与资本开支融资压力 / Oracle Deep Research Report - AI Cloud RPO Dashboard and Capex Financing Pressure</title>

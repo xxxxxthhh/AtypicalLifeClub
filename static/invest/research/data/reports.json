@@ -5898,7 +5898,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-11",
     "file": "/invest/research/reports/view.html?id=tsmc-2026",
     "markdownFiles": {
       "zh": "/invest/research/TSMC_深度研究报告_2026-07.md",
@@ -5981,13 +5981,13 @@
           "en": "7nm-and-below mix or monthly revenue falls materially below Q3 / full-year trajectory"
         },
         "latest": {
-          "zh": "2026Q2 财报（2026-07-16）：收入 US$40.20B（同比 +33.7%），落在 $39.0-40.2B 指引区间上沿；7nm 及以下先进节点占 wafer revenue 77%（Q1 为 74%）；HPC 收入环比 +20%、占 Q2 收入 66%；Q3 指引 US$44.6-45.8B",
-          "en": "Q2 2026 results (2026-07-16): revenue was US$40.20B (+33.7% YoY), at the top of the $39.0-40.2B guidance range; 7nm-and-below nodes were 77% of wafer revenue (74% in Q1); HPC revenue rose 20% QoQ to 66% of Q2 revenue; Q3 guidance is US$44.6-45.8B"
+          "zh": "2026 年 7 月月度营收（2026-08-10 提交的 6-K）：合并营收 NT$467,580M，较 2026 年 6 月（NT$442,680M）增长 5.6%，较 2025 年 7 月（NT$323,166M）增长 44.7%；2026 年 1 至 7 月累计 NT$2,872,064M，同比增长 37.0%。月度公告仅披露营收，不含制程结构、毛利率或客户明细。最新的结构读数仍为 2026Q2（2026-07-16）：收入 US$40.20B（同比 +33.7%），位于 $39.0-40.2B 指引区间上沿；7nm 及以下占晶圆收入 77%（Q1 为 74%）；HPC 环比增长 20%、占收入 66%；Q3 指引 US$44.6-45.8B。严格对照本监测项自身的触发条件（7nm 及以下结构或月度营收是否明显低于 Q3／全年轨迹）：7 月月度营收环比与同比均为增长，两个分支均未触发。",
+          "en": "July 2026 monthly revenue (6-K filed 2026-08-10): consolidated net revenue was NT$467,580M, up 5.6% from June 2026 (NT$442,680M) and up 44.7% on July 2025 (NT$323,166M); January-July 2026 totalled NT$2,872,064M, up 37.0% year over year. The monthly release reports revenue only and carries no node mix, margin or customer detail. The most recent mix reading remains Q2 2026 (2026-07-16): revenue US$40.20B (+33.7% YoY) at the top of the $39.0-40.2B guidance range, 7nm-and-below at 77% of wafer revenue (74% in Q1), HPC up 20% QoQ to 66% of revenue, and Q3 guidance of US$44.6-45.8B. Graded against this item's own trigger, which asks whether 7nm-and-below mix or monthly revenue falls materially below the Q3 / full-year trajectory: July monthly revenue rose both sequentially and year over year, so neither branch fired."
         },
         "nextCheck": "月度收入与 2026Q3 财报 / monthly revenue and 2026Q3 results",
-        "nextCheckDate": "2026-08",
+        "nextCheckDate": "2026-09",
         "reading": "within",
-        "readingAsOf": "2026-07-16"
+        "readingAsOf": "2026-08-10"
       },
       {
         "id": "n3-n2-ramp",
@@ -6477,7 +6477,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-08-08",
+    "lastUpdate": "2026-08-11",
     "file": "/invest/research/reports/view.html?id=vistra-2026",
     "markdownFiles": {
       "zh": "/invest/research/Vistra_深度研究报告_2026-07.md",
@@ -6583,13 +6583,13 @@
           "en": "Cogentrix, capex, buybacks or fuel/operating volatility raises net-debt/EBITDA and FCF pressure"
         },
         "latest": {
-          "zh": "2026-08-07 Q2 财报未附资产负债表，也未披露 Q2 净债务或净债务/EBITDA，因此 Q1 约 $19.3B 净债务的读数没有被已披露的 Q2 数字取代。已披露：2026-06-30 可用流动性约 $6,295M（含现金 $435M）；上半年回购 $709M、股利 $154M（普通股）与 $96M（优先股）、融资活动净流出 $1,284M；举债 $6,422M、偿债 $3,859M（含再融资，非净债务变动）。2026 指引重申增长前自由现金流 $3,925-4,725M。截至 2026-08-07 公司尚未提交 10-Q。",
-          "en": "The 2026-08-07 Q2 release carries no balance sheet and discloses no Q2 net debt or net-debt/EBITDA, so the prior about-$19.3B Q1 net-debt reading is not superseded by a disclosed Q2 figure. Disclosed: total available liquidity of about $6,295M at 2026-06-30 including $435M cash; first-half stock repurchases of $709M, common dividends of $154M and preferred dividends of $96M, with cash used in financing of $1,284M; debt issuances of $6,422M against repayments of $3,859M (which includes refinancing and is not a net-debt movement). 2026 guidance reaffirms Ongoing Operations Adjusted FCFbG of $3,925-4,725M. Vistra had not filed its 10-Q as of 2026-08-07."
+          "zh": "Vistra 已于 2026-08-10 提交 2026 年第二季度 10-Q（报告期至 2026-06-30），补上了 2026-08-07 财报缺失的资产负债表。2026-06-30 与 2026-03-31 的资产负债表科目对比（两个日期均取自 Vistra 的 10-Q）：含一年内到期部分的长期债务 $19,595M 对 $19,163M；未摊销溢价、折价与发行费用前的长期债务 $19,764M 对 $19,332M；短期借款 $0 对 $0；应收账款融资 $300M 对 $750M；一年内到期的远期回购义务 $613M 对 $641M；现金及现金等价物 $435M 对 $634M。上述类债务科目减去现金后，2026-06-30 合计 $20,073M，2026-03-31 合计 $19,920M，环比上升约 0.8%。上半年经营活动产生的现金为 $2,222M，2025 年上半年为 $1,171M；含核燃料采购与 LTSA 预付款的资本开支为 $1,572M，去年同期 $1,458M。严格对照本监测项自身的触发条件：类债务净额环比仅上升约 0.8%，持续经营调整后 EBITDA 同比增长逾 30%（Q2 为 $1,767M），上半年经营现金流亦同比接近翻倍；合并来看，本次披露没有显示负向分支所要求的显著杠杆或 FCF 压力。这里不是正式的净债务/EBITDA 环比计算：Vistra 并未列示“净债务”小计，EBITDA 对比口径也是同比而非环比；本报告的估值框架未变，也不因本次读数而重述。Cogentrix 收购尚未交割，触发条件中的这一腿仍未被检验，其对价亦未体现在本张资产负债表上。上半年偿还长期债务 $3,859M 含再融资，并非净债务变动。",
+          "en": "Vistra filed its Q2 2026 10-Q on 2026-08-10 (period ended 2026-06-30), supplying the balance sheet the 2026-08-07 release lacked. Balance-sheet lines at 2026-06-30 against 2026-03-31, both taken from Vistra 10-Q filings: long-term debt including amounts due currently $19,595M vs $19,163M; long-term debt before unamortized premiums, discounts and issuance costs $19,764M vs $19,332M; short-term borrowings $0 vs $0; accounts receivable financing $300M vs $750M; forward repurchase obligation due currently $613M vs $641M; cash and cash equivalents $435M vs $634M. Those debt-like lines less cash total $20,073M at 2026-06-30 against $19,920M at 2026-03-31, up about 0.8% quarter over quarter. First-half cash provided by operating activities was $2,222M against $1,171M in H1 2025, with capital expenditures including nuclear fuel purchases and LTSA prepayments of $1,572M against $1,458M. Graded against this item's trigger: debt-like obligations net of cash rose only about 0.8%, while Ongoing Operations Adjusted EBITDA rose more than 30% year over year ($1,767M in Q2) and first-half operating cash flow nearly doubled year over year; taken together, the filing does not show the meaningful leverage or FCF pressure required by the negative branch. This is not a formal quarter-over-quarter net-debt/EBITDA calculation: Vistra presents no \"net debt\" subtotal, and the EBITDA comparison is year over year rather than quarter over quarter. The report's valuation frame is unchanged. The Cogentrix acquisition has not closed, so that leg of the trigger remains untested and none of its consideration appears on this balance sheet. First-half repayments of long-term debt of $3,859M include refinancing and are not a net-debt movement."
         },
-        "nextCheck": "Q2 10-Q 资产负债表与净债务 / Q2 10-Q balance sheet and net debt",
-        "nextCheckDate": "2026-08",
-        "reading": "unclear",
-        "readingAsOf": "2026-08-07"
+        "nextCheck": "Q3 10-Q 资产负债表与经营现金流 / Q3 10-Q balance sheet and operating cash flow",
+        "nextCheckDate": "2026-11",
+        "reading": "within",
+        "readingAsOf": "2026-08-10"
       },
       {
         "id": "merchant-power-valuation",

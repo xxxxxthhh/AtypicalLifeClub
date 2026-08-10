@@ -1,5 +1,49 @@
 [
   {
+    "id": "taiwan-july-2026-monthly-revenue-foundry-osat",
+    "date": "2026-08-10",
+    "title": {
+      "zh": "台湾 7 月月度营收：台积电 NT$467,580M（环比 +5.6%、同比 +44.7%），日月光投控 ATM NT$47,524M（环比 +9.3%、同比 +49.5%），封测端同步确认代工端",
+      "en": "Taiwan July 2026 monthly revenue: TSMC NT$467,580M (+5.6% MoM, +44.7% YoY) and ASE Technology ATM NT$47,524M (+9.3% MoM, +49.5% YoY), with the OSAT leg confirming the foundry leg"
+    },
+    "detail": {
+      "zh": "据台积电与日月光投控于 2026-08-10 分别提交的 6-K：台积电 2026 年 7 月合并营收 NT$467,580M，较 6 月 NT$442,680M 增长 5.6%，较 2025 年 7 月 NT$323,166M 增长 44.7%；1 至 7 月累计 NT$2,872,064M，同比增长 37.0%。日月光投控 7 月合并营收 NT$73,784M（6 月 NT$65,783M，环比 +12.2%；2025 年 7 月 NT$51,542M，同比 +43.2%），以美元计 US$2,309M（环比 +10.4%、同比 +30.6%）；其中封测（ATM）营收 NT$47,524M（6 月 NT$43,485M，环比 +9.3%；2025 年 7 月 NT$31,783M，同比 +49.5%），以美元计 US$1,487M（环比 +7.6%、同比 +36.4%）。本条按链层读数而非单公司读数记录：同一日、同一披露制度下，代工端与第三方封测端的月度营收同步走强，因此 advanced-packaging-chokepoint 的分歧分支（代工/HBM/ASIC 需求走强但 OSAT 与先进封装产能不予确认）本月未出现。证据边界：台湾月度营收为未经审计、依当地法规披露的口径，仅含营收，不含制程结构、封装结构、毛利率、稼动率或客户明细；日月光投控的合并数含 EMS 等非封测业务，其自身表格中新台币与美元增速的差异显示汇率会影响美元口径；两份公告均未提及 CoWoS 或 HBM 的具体配置，因此不能据此推断先进封装瓶颈的松紧程度、客户排产或下游需求。本条不含投资建议、评级或价格目标。",
+      "en": "Per separate 6-K filings made by TSMC and ASE Technology Holding on 2026-08-10: TSMC's consolidated net revenue for July 2026 was NT$467,580M, up 5.6% from June 2026 (NT$442,680M) and up 44.7% on July 2025 (NT$323,166M), with January-July 2026 totalling NT$2,872,064M, up 37.0% year over year. ASE Technology Holding reported July consolidated net revenues of NT$73,784M (June: NT$65,783M, +12.2% sequentially; July 2025: NT$51,542M, +43.2% year over year), or US$2,309M (+10.4% sequentially, +30.6% year over year); within that, ATM (assembly, testing and materials) net revenues were NT$47,524M (June: NT$43,485M, +9.3% sequentially; July 2025: NT$31,783M, +49.5% year over year), or US$1,487M (+7.6% sequentially, +36.4% year over year). This is logged as a chain-layer reading rather than a single-company one: on the same date and under the same disclosure regime, the foundry leg and the third-party OSAT leg both strengthened, so the divergence branch of advanced-packaging-chokepoint — foundry/HBM/ASIC demand staying strong while OSAT and advanced-packaging capacity fail to confirm it — did not appear this month. Evidence limits: Taiwan monthly revenue is unaudited and published to satisfy local regulatory requirements; it reports revenue only, with no node mix, packaging mix, gross margin, utilization or customer detail. ASE's consolidated figure includes EMS and other non-ATM businesses, and the divergence between the NT$ and US$ growth rates in the company's own table shows that FX affects the dollar-denominated comparison. Neither release mentions CoWoS or HBM allocation, so nothing here supports an inference about how tight the advanced-packaging bottleneck is, about customer scheduling, or about downstream demand. This entry carries no investment advice, rating or price target."
+    },
+    "crossChecks": [
+      "advanced-packaging-chokepoint",
+      "chip-vs-downstream"
+    ],
+    "tickers": [
+      "TSM",
+      "ASX"
+    ],
+    "reportIds": [
+      "tsmc-2026"
+    ],
+    "monitoringRefs": [
+      "tsmc-2026:advanced-node-utilization"
+    ]
+  },
+  {
+    "id": "coreweave-ddtl-5-5-facility-2026-08",
+    "date": "2026-08-07",
+    "title": {
+      "zh": "CoreWeave 新增 $2.6B 延迟提取定期贷款（DDTL 5.5），利率 Term SOFR+5.50%、2031-09-01 到期，用于履行客户合约所需的资本开支",
+      "en": "CoreWeave adds a $2.6B delayed draw term loan (DDTL 5.5) at Term SOFR plus 5.50%, maturing 2031-09-01, to fund capex required to perform customer contracts"
+    },
+    "detail": {
+      "zh": "据 CoreWeave 于 2026-08-10 提交、最早事件日为 2026-08-07 的 8-K（Item 1.01）：其间接子公司 CoreWeave Financing DDTL V-V, LLC 作为借款人，与摩根大通银行（行政代理、联席主办与簿记行、银团代理）、美国合众银行信托公司（抵押品代理）、美国合众银行（存管行）、三菱日联银行（联席主办与簿记行、银团代理）及各贷款人签署信贷协议，设立 $2.6B 的延迟提取定期贷款额度（DDTL 5.5）。用途为公司所述“履行若干客户合约所需的资本开支，包括购置 GPU 服务器及相关基础设施”。条款：可在 2026 年 12 月的承诺终止日前分一次或多次提取；到期日 2031 年 9 月 1 日；SOFR 贷款利率为 Term SOFR（下限 0.00%）加 5.50% 年息，基准利率贷款为基准利率（取最优惠利率、联邦基金有效利率加 0.50%、一个月期 Term SOFR 加 1.00% 三者最高值，下限 0.00%）加 4.50% 年息；未提取部分按日均余额收取 0.50% 年息的承诺费，按月后付。担保与抵押：母公司依 2026-08-07 的母公司担保与质押协议提供无条件担保，借款人子公司依抵押品协议提供无条件担保，债务以借款人及其子公司几乎全部资产以及 CW Financing DDTL V-V Holdco, LLC 所持借款人 100% 股权质押作担保。契约：自承诺额降为零与 2026-12-31 两者较早发生之日后的首个完整自然月起，借款人须维持不低于 1.35 倍的偿债备付率；协议另含惯常的负面契约与违约事件，包括交叉违约、控制权变更、破产事件，以及与若干重大合约相关的不利事件。证据边界：该额度截至本次披露为已签署但尚未提取的承诺，不是已发生借款，因此不得计入现有债务余额；8-K 未披露相关客户合约的对手方、金额或期限，未披露该额度是否替换其他融资，也未披露 GPU 服务器的采购量或交付时间；披露为对协议全文的摘要。本条不含投资建议、评级或价格目标。",
+      "en": "Per CoreWeave's 8-K filed 2026-08-10 under Item 1.01, with a date of earliest event reported of 2026-08-07: CoreWeave Financing DDTL V-V, LLC, an indirect subsidiary of CoreWeave, Inc., entered into a credit agreement with JPMorgan Chase Bank, N.A. as administrative agent, joint lead arranger, joint bookrunner and syndication agent, U.S. Bank Trust Company, National Association as collateral agent, U.S. Bank National Association as depositary bank, MUFG Bank, Ltd. as joint lead arranger, joint bookrunner and syndication agent, and the lenders party thereto, providing for a $2.6 billion delayed draw term loan facility (the DDTL 5.5 Facility). The filing states the facility was entered into primarily to finance capital expenditures required to perform certain customer contracts, including the acquisition of GPU servers and related infrastructure. Terms: loans are available in one or more draws until a commitment termination date in December 2026; the maturity date is September 1, 2031; SOFR loans bear Term SOFR (0.00% floor) plus an applicable margin of 5.50% per annum, and base rate loans bear the base rate (the highest of the prime rate, the federal funds effective rate plus 0.50%, and one-month Term SOFR plus 1.00%, subject to a 0.00% floor) plus 4.50% per annum; undrawn fees of 0.50% per annum accrue on the average daily undrawn portion and are payable monthly in arrears. Guarantees and security: obligations are unconditionally guaranteed by the parent under a parent guarantee and pledge agreement dated 2026-08-07 and by the borrower's subsidiaries under a collateral agreement, and are secured by substantially all assets of the borrower and its subsidiaries plus a pledge of 100% of the equity interests in the borrower held by CW Financing DDTL V-V Holdco, LLC. Covenants: beginning the first full calendar month after the earlier of the date commitments are reduced to zero and 2026-12-31, the borrower must maintain a debt service coverage ratio of at least 1.35x; the agreement also contains customary negative covenants and events of default including cross-defaults, a change of control, bankruptcy events, and events of default tied to certain adverse events with respect to certain material contracts. Evidence limits: as disclosed this is a signed but undrawn commitment, not borrowings incurred, and it must not be added to the existing debt balance. The 8-K does not identify the counterparties, size or term of the customer contracts it references, does not say whether the facility replaces other financing, and gives no GPU server quantities or delivery dates. The description is expressly a summary qualified by the full agreement. This entry carries no investment advice, rating or price target."
+    },
+    "crossChecks": [
+      "neocloud-financing"
+    ],
+    "tickers": [
+      "CRWV"
+    ]
+  },
+  {
     "id": "vistra-q2-2026-merchant-capacity-confirmation",
     "date": "2026-08-07",
     "title": {
