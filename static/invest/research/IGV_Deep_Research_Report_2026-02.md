@@ -1,7 +1,7 @@
 # IGV iShares Expanded Tech-Software Sector ETF Deep Research Report
 
 Coverage date: 2026-02-15
-Last updated: 2026-07-31
+Last updated: 2026-08-10
 Ticker: CBOE BZX: IGV
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -13,7 +13,11 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 **One-Line Thesis:** IGV is the flagship U.S. software sector ETF offering concentrated exposure to North America's leading software companies, but the 2026 "Software-mageddon" — a panic selloff driven by AI disruption fears — has sent it down over 23% YTD, placing it at a critical inflection point as AI reshapes the software industry's valuation framework.
 
-> **2026-07-31 price check (untracked-coverage review).** IGV closed at **$92.37** on **2026-07-29**, the last completed US session, versus the **$86.17** anchor dated 2026-06-25 — a **+7.2%** move. The dated figures below therefore remain accurate to within that margin and the valuation frame and stance are unchanged. This report has no `priceSymbol`, so it carries no automatic price ledger or drift alert — see Q3 of the review questions doc.
+> **2026-07-31 price check (historical; superseded by the 2026-08-10 current re-anchor).** IGV closed at **$92.37** on **2026-07-29**, versus the **$86.17** historical anchor — a **+7.2%** move. This paragraph records that prior review state; `priceSymbol: IGV` and the current completed-session anchor are now wired into the automatic price ledger.
+>
+> **[2026-08-10 historical anchor-date correction]** The $86.17 anchor was previously labelled the ~~2026-06-25~~ close. It is in fact the **2026-06-24** close: IGV settled at **$86.17 on 2026-06-24** and at **$84.76 on 2026-06-25** ([Nasdaq historical data for IGV](https://www.nasdaq.com/market-activity/etf/igv/historical), retrieved 2026-08-10). The June-25 update pass captured the prior completed session. The report's old "price $86.17 vs NAV $86.25 = -0.09% discount" arithmetic is consistent only if both legs are treated as the same-session historical snapshot, but the iShares page did not expose the 2026-06-24 historical NAV during this review, so that NAV leg remains an inference rather than a newly verified current fact.
+>
+> **2026-08-10 current valuation re-anchor.** The [iShares issuer page](https://www.ishares.com/us/products/239771/IGV) reports a **$102.69 closing price and $102.66 NAV as of 2026-08-07**, a **0.03% premium**, **$14.408B** of net assets, **36.33x P/E**, a **0.38% expense ratio**, 140.35M shares outstanding and 106 holdings. The close is **+19.2%** versus the corrected 2026-06-24 historical anchor. That remains just below this report's 20% full-rerun threshold, but the higher multiple and smaller net-asset base narrow the margin of safety. The stance therefore remains **Neutral-to-Positive / Medium conviction**, with no claim that the constituent-level Q2 thesis has been rerun; a full review is required if drift crosses 20% or the pending Q2 evidence changes the earnings/AI-disruption frame. `priceAsOf` and the automatic price ledger now use the 2026-08-07 current anchor.
 
 **Investment Verdict:**
 - Neutral-to-Positive (medium-to-long term) | Conviction: Medium
@@ -23,21 +27,19 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 | Metric | Value |
 |--------|-------|
-| Current Price | ~~~$83 (Feb 13, 2026)~~ $86.17 (Jun 25, 2026 close) |
-| 52-Week Range | ~~$76.68~~ $73.93 - $117.99 |
-| AUM | ~~~$7.9B~~ ~$16.7B |
-| NAV | $86.25 |
-| PE (TTM) | 27.68 |
-| Expense Ratio | 0.39% |
-| Number of Holdings | ~119 |
-| Top 10 Concentration | ~60% |
-| Beta | ~~1.17-1.27~~ 1.12 (5Y Monthly) |
-| 2026 YTD Return | ~~-23.4%~~ -18.45% |
-| 2025 Full Year Return | +5.6% |
-| 2024 Full Year Return | +23.4% |
-| 10-Year Annualized Return | ~17% |
+| Current Price | **$102.69 (Aug 7, 2026 close)** |
+| NAV / Premium | **$102.66 / 0.03%** (Aug 7, issuer) |
+| 52-Week NAV Range | **$74.62 - $117.79** (Aug 7, issuer) |
+| Net Assets | **$14.408B** (Aug 7, issuer) |
+| PE (TTM) | **36.33** (Aug 7, issuer) |
+| Expense Ratio | **0.38%** (current prospectus) |
+| Shares / Holdings | **140.35M / 106** (Aug 7, issuer) |
+| Beta | **1.31** (3Y, as of Jun 30, 2026) |
+| 2026 YTD NAV Total Return | **-5.89%** (as of Aug 6, issuer) |
+| 2025 / 2024 Market-Price Return | **+5.56% / +23.41%** |
+| 10-Year Annualized Market-Price Return | **15.84%** (as of Jun 30, 2026) |
 
-**Valuation Observation (2026-06-25):** IGV currently trades at PE(TTM) 27.68, based on the weighted average of underlying holdings. Price $86.17 vs NAV $86.25 reflects a slight -0.09% discount. AUM of $16.7B reflects massive contrarian inflows during the Feb-Jun period. Beta compressed from 1.17-1.27 to 1.12 (5Y Monthly), indicating reduced relative volatility. PE 27.68 sits in the low-to-mid range of software sector historical valuations (peaked above 40x during the 2021 bubble).
+**Historical valuation observation (2026-06-25 update; superseded):** That update recorded PE(TTM) 27.68, price $86.17, NAV $86.25, AUM $16.7B and 1.12 five-year monthly beta. Those values remain only as a dated audit snapshot; the 2026-08-10 current re-anchor above replaces them for present-tense valuation use.
 
 ---
 
@@ -280,7 +282,7 @@ IGV is the most representative ETF for the U.S. software sector, holding North A
 
 But the 2026 "Software-mageddon" has exposed a fundamental question: AI is challenging traditional software business models at their core. Will per-seat licensing be disrupted by AI agents? The answer to this question will determine the software sector's valuation center for the next 5-10 years.
 
-The current YTD decline of ~~-23.4%~~ -18.45% and ~~implied volatility at the 92nd percentile~~ indicate the market is in ~~extreme panic~~ early recovery mode. February's panic selling has partially receded (IGV rebounded +17% from the $73.93 low), but Q2-Q3 earnings must still validate AI transition progress. AUM surging from $7.9B to $16.7B (+111%) reflects significant capital flowing in against the panic.
+**2026-08-10 current reading:** iShares reports YTD NAV total return of **-5.89% as of 2026-08-06**, net assets of **$14.408B** and **36.33x P/E** as of 2026-08-07. The panic drawdown has largely retraced while the valuation multiple expanded, so the current question is no longer whether February fear was extreme; it is whether Q2-Q3 constituent earnings can justify the narrower margin of safety. The prior June AUM and YTD figures remain only in the dated update above.
 
 **Core Judgment:** AI is more likely to enhance than replace existing software platforms, but the transition pain (valuation compression, business model adjustment) may persist for 2-3 quarters. For patient investors, the current range may represent a reasonable medium-to-long-term entry window, but position-building should be gradual with strict stop-losses.
 

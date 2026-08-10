@@ -1,7 +1,7 @@
 # Hims & Hers Health (NYSE: HIMS) Deep Research Report
 
 Coverage date: 2026-02-13
-Last updated: 2026-08-02
+Last updated: 2026-08-10
 Ticker: NYSE: HIMS
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -21,7 +21,7 @@ This report is the full rerun successor to `hims-2026-pre-rerun`; the archived b
 >
 > At ~2.7x the revenue baseline the valuation is closer to the ~2.5x low end of the report's own "P/S ex-GLP-1 2.5-4x core revenue" band. Stance stays **neutral / watchlist**: the report's central question was never the multiple but revenue *quality* — the GLP-1 mix, subscriber durability and the regulatory overhang — and none of that was settled by a price decline. Raised under Q1 of the review questions doc.
 >
-> This report has no `priceSymbol`, so it carries no automatic price ledger or drift alert; the drawdown was only found because this pass checked it manually. See Q3 of the review questions doc.
+> **[2026-08-10 tracking-status correction]** That drawdown was found only because this pass checked it manually — at the time this report carried no `priceSymbol` and therefore no automatic price ledger or drift alert. That gap has since been closed: `priceSymbol: HIMS` and the 2026-07-29 completed-session anchor are now wired into the automatic price ledger, so drift against the $25.00 anchor is tracked without a manual pass. The correction is to the tracking-status statement only; the $25.00 valuation frame, every multiple derived from it and the stance are unchanged by this edit.
 
 > **2026-08-02 litigation update.** On **2026-07-29**, the U.S. Federal Trade Commission, joined by Utah and Los Angeles County, filed a federal complaint against Hims & Hers in the U.S. District Court for the Northern District of California. The complaint alleges unlawful sharing of sensitive health information with advertising platforms, misleading privacy representations, deceptive subscription billing and an obstructive cancellation flow; it seeks injunctive and monetary relief and civil penalties. Hims & Hers responded the same day, denied the allegations, said the complaint disregards evidence supplied during a nearly three-year investigation, and said it would defend vigorously. This is a new compliance and brand-trust risk separate from the Novo Nordisk patent case and DOJ referral. It does **not** by itself change the neutral / watchlist stance or the dated 2026-07-29 valuation frame. Primary sources: FTC, [press release](https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-states-act-against-hims-hers-deceptive-unlawful-privacy-practices) and [case page](https://www.ftc.gov/legal-library/browse/cases-proceedings/hims-hers) (2026-07-29); Hims & Hers, [company response](https://investors.hims.com/news/news-details/2026/Hims--Hers-Responds-to-FTC-Lawsuit/default.aspx) (2026-07-29).
 

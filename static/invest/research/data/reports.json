@@ -3867,7 +3867,7 @@
     "ticker": "CBOE BZX: IGV",
     "title": "IGV 深度研究报告 - Software-mageddon后的软件行业ETF抄底机会？",
     "titleEn": "IGV Deep Research Report - A Buying Opportunity After the Software-mageddon?",
-    "summary": "美国软件行业旗舰ETF。2026-06-25增量更新：价格$86.17（较2月+4.1%），YTD跌幅收窄至-18.45%。AUM从$79亿飙升至$167亿（+111%），反映恐慌中大量逆向资金流入。PE(TTM) 27.68，NAV $86.25。Q1 2026财报季已结束——多数头部软件公司AI转型进展好于恐慌预期，空头论点减弱但未完全失效。",
+    "summary": "2026-08-10 当前估值复核（iShares 2026-08-07 数据）：IGV 收盘 $102.69、NAV $102.66、溢价 0.03%、基金净资产 $14.408B、P/E 36.33 倍、费用率 0.38%。相对更正后的 2026-06-24 $86.17 历史锚点上涨 19.2%，尚低于 20% 完整重跑阈值；维持中性偏积极 / 中确信，但更高倍数与更小净资产压缩安全边际。历史纠错：Nasdaq 显示 2026-06-25 收盘为 $84.76，原 $86.17 锚点实际属于 2026-06-24。",
     "tags": [
       "ETF",
       "软件行业",
@@ -3876,7 +3876,7 @@
     ],
     "category": "tech",
     "date": "2026-02-15",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-10",
     "period": "2026H1",
     "versionType": "incremental",
     "versionLabel": "2026H1 Incremental Update",
@@ -3886,14 +3886,14 @@
       "en": "/invest/research/IGV_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "价格$86.17（6月25日收盘），较2月13日收盘$82.77反弹+4.1%，YTD -18.45%（vs 2月-23.4%）",
-      "AUM $167亿（+111% vs 2月$79亿），PE(TTM) 27.68，NAV $86.25，52周$73.93-$117.99",
-      "Q1 2026财报季：多数头部软件公司AI转型进展好于恐慌预期，空头论点减弱",
-      "Beta 1.12（5年月度），费用率0.39%；Q2财报季（7-8月）为下一核心验证节点"
+      "2026-08-07 收盘 $102.69、NAV $102.66、溢价 0.03%；相对更正后的 2026-06-24 历史锚点 +19.2%",
+      "iShares：基金净资产 $14.408B、P/E 36.33 倍、费用率 0.38%、在外份额 1.4035 亿、持仓 106 只",
+      "Nasdaq 历史纠错：$86.17 属于 2026-06-24；2026-06-25 收盘实际为 $84.76",
+      "维持中性偏积极 / 中确信；若价格偏离越过 20% 或 Q2 证据改变盈利/AI 替代框架，启动完整重跑"
     ],
-    "summaryEn": "U.S. software sector flagship ETF. Jun 25, 2026 incremental update: Price $86.17 (+4.1% from Feb), YTD decline narrowed to -18.45%. AUM surged from $7.9B to $16.7B (+111%), reflecting massive contrarian inflows during the panic. PE(TTM) 27.68, NAV $86.25. Q1 2026 earnings season complete — most leading software companies reported AI transition progress better than panic expectations; bear case weakened but not fully invalidated.",
+    "summaryEn": "Current valuation review dated 2026-08-10 using iShares data as of 2026-08-07: IGV closed at $102.69 versus $102.66 NAV, a 0.03% premium, with $14.408B of net assets, 36.33x P/E and a 0.38% expense ratio. The close is 19.2% above the corrected $86.17 historical anchor from 2026-06-24, still below the report's 20% full-rerun threshold. Neutral-to-Positive / Medium conviction remains, but the higher multiple and smaller net-asset base narrow the margin of safety. Historical correction: Nasdaq shows the 2026-06-25 close was $84.76; the old $86.17 anchor belongs to 2026-06-24.",
     "priceSymbol": "IGV",
-    "priceAsOf": "2026-06-25"
+    "priceAsOf": "2026-08-07"
   },
   {
     "id": "airbnb-2026",
@@ -3969,7 +3969,7 @@
     "ticker": "NYSE: HIMS",
     "title": "Hims & Hers 深度研究报告 - 增长质量与GLP-1监管考验",
     "titleEn": "Hims & Hers Deep Research Report - Growth Quality and GLP-1 Regulatory Test",
-    "summary": "2026-07-31 估值重新锚定：HIMS 收于 $25.00（2026-07-29），较 6 月 22 日锚点 −25.5%，市值约 $62.9 亿。以本报告一贯口径衡量，现约为 2 月 FY2025E 收入基线约 $23.5 亿的 2.7 倍，接近报告自身 2.5-4 倍区间低端。2026-07-29 FTC/州隐私与计费诉讼及公司当日回应与回撤同期发生，可能是影响因素，但一级来源不能证明市场因果。核心问题仍是收入质量、订阅持久性与监管风险，故维持中性/观察；Q2 业绩定于 2026-08-10。",
+    "summary": "2026-08-10 跟踪状态更正：priceSymbol: HIMS 与 2026-07-29 的 $25.00 已完成交易日锚点现已接入自动价格账本；本次不改变估值框架或中性/观察立场。2026-07-31 估值重新锚定：HIMS 较 6 月 22 日锚点 −25.5%，市值约 $62.9 亿，约为 2 月 FY2025E 收入基线的 2.7 倍。FTC/州诉讼及公司回应与回撤同期发生，但一级来源不能证明市场因果；收入质量、订阅持久性与监管风险仍待 2026-08-10 Q2 业绩完整复核。",
     "tags": [
       "远程医疗",
       "DTC",
@@ -3978,7 +3978,7 @@
     ],
     "category": "tech",
     "date": "2026-02-13",
-    "lastUpdate": "2026-08-02",
+    "lastUpdate": "2026-08-10",
     "file": "/invest/research/reports/view.html?id=hims-2026",
     "markdownFiles": {
       "zh": "/invest/research/Hims_Hers_深度研究报告_2026-02.md",
@@ -3988,10 +3988,10 @@
       "股价 $25.00（2026-07-29 收盘），较 6 月 22 日锚点 −25.5%；市值约 $62.9 亿",
       "以 2 月 FY2025E 收入基线约 $23.5 亿计约 2.7 倍，接近报告自身 2.5-4 倍区间低端",
       "2026-07-29 FTC/州隐私与计费诉讼及公司回应与回撤同期发生，但不能证明市场因果",
-      "无 priceSymbol，故无自动价格账本与偏离告警——本次回撤靠人工核查发现（见问题文档 Q3）",
+      "priceSymbol: HIMS 与 2026-07-29 已完成交易日锚点已接入自动价格账本；$25.00 估值框架与立场未变",
       "维持中性/观察：收入质量（GLP-1 结构、订阅持久性、监管）未因价格下跌而解决；Q2 业绩 2026-08-10"
     ],
-    "summaryEn": "July 31, 2026 valuation re-anchor: HIMS closed at $25.00 on 2026-07-29, -25.5% from the June 22 anchor, for about $6.29B market cap and roughly 2.7x the February FY2025E revenue baseline, near the low end of the report's 2.5-4x band. The FTC/state privacy-and-billing complaint and company response were both published on 2026-07-29 and may have contributed to the same-day drawdown, but primary sources do not establish market causality. Revenue quality, subscriber durability and regulatory risk remain unresolved, so neutral / watchlist holds; Q2 results are due 2026-08-10.",
+    "summaryEn": "Tracking-status correction dated 2026-08-10: priceSymbol HIMS and the completed-session $25.00 anchor from 2026-07-29 are now wired into the automatic price ledger; this edit does not change the valuation frame or Neutral / watchlist stance. The July 31 re-anchor put market cap at about $6.29B and roughly 2.7x the February FY2025E revenue baseline. The FTC/state litigation and company response coincided with the drawdown, but primary sources do not establish market causality; revenue quality, subscriber durability and regulatory risk still require a complete review after Q2 results due 2026-08-10.",
     "period": "2026H1",
     "versionType": "full-cycle",
     "versionLabel": "2026H1 Full Rerun",
@@ -5417,7 +5417,7 @@
     "ticker": "NASDAQ: PYPL",
     "title": "PayPal 深度调研报告 - 2025-2026年度分析",
     "titleEn": "PayPal Deep Research Report - 2025-2026 Analysis",
-    "summary": "2026-07-28更新（Q2 2026业绩，一手8-K/10-Q）：Q2营收+5%至$8.7B、非GAAP EPS $1.38（GAAP $1.25）、TPV+10%至$486.4B、活跃账户4.39亿；FY26非GAAP EPS指引上调至约$5.38（此前口径为“低个位数下滑至微增”，落在6-22已假设的$5.0-5.5区间内）。经营结果不证明并购进程发生变化；并购动态仍整体取代基本面估值框架，本轮不改立场、不给新公允价或新价格快照。背景（2026-07-17）：Stripe/Advent非请自来收购要约约$60.50/股、超$53B、溢价约28%、约$50B承诺融资；董事会初步认为报价不充分、尚未正式答复；PYPL 7-17收$56.56。",
+    "summary": "2026-08-10 跟踪状态更正：priceSymbol: PYPL 与 2026-07-17 的 $56.56 已完成交易日锚点现已接入自动价格账本；本次不改变估值框架或中性立场。2026-07-28 Q2 业绩（一手 8-K/10-Q）为营收 +5% 至 $8.7B、非 GAAP EPS $1.38（GAAP $1.25）、TPV +10% 至 $486.4B、活跃账户 4.39 亿，FY26 非 GAAP EPS 指引升至约 $5.38。经营结果不证明并购进程变化；Stripe/Advent 约 $60.50/股要约仍整体取代基本面公允价值框架。",
     "tags": [
       "金融科技",
       "数字支付",
@@ -5426,7 +5426,7 @@
     ],
     "category": "tech",
     "date": "2026-02-03",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-10",
     "period": "2026H1",
     "versionType": "incremental",
     "versionLabel": "2026H1 Incremental Update",
