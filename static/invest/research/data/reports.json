@@ -3969,7 +3969,7 @@
     "ticker": "NYSE: HIMS",
     "title": "Hims & Hers 深度研究报告 - 增长质量与GLP-1监管考验",
     "titleEn": "Hims & Hers Deep Research Report - Growth Quality and GLP-1 Regulatory Test",
-    "summary": "2026-08-10 跟踪状态更正：priceSymbol: HIMS 与 2026-07-29 的 $25.00 已完成交易日锚点现已接入自动价格账本；本次不改变估值框架或中性/观察立场。2026-07-31 估值重新锚定：HIMS 较 6 月 22 日锚点 −25.5%，市值约 $62.9 亿，约为 2 月 FY2025E 收入基线的 2.7 倍。FTC/州诉讼及公司回应与回撤同期发生，但一级来源不能证明市场因果；收入质量、订阅持久性与监管风险仍待 2026-08-10 Q2 业绩完整复核。",
+    "summary": "2026-08-11 Q2 2026 经营与估值重新锚定（一手来源：2026-08-10 的 8-K Item 2.02 `0001773751-26-000161` 与 10-Q `0001773751-26-000163`）：收入 $753.2M（同比 +38%）、订阅 289.1 万（+19%）、单用户月均收入 $92；但毛利率降至 64%（去年同期 76%），净亏损 $86.3M，单季自由现金流 $(68.2)M。FY2026 指引上调至收入 $31-33 亿、调整后 EBITDA $275-325M。资本结构缺口已填平：可转债净额 $1,365.3M（较 2025 年底 +约 $393M），现金与短期投资 $841.0M，股东权益 $324.1M。按 2026-08-10 收盘 $31.77 与 233,297,933 股，市值约 $74.1 亿＝FY2026E 收入中值约 2.32 倍（旧 FY2025E 口径约 3.15 倍）。立场维持中性/观察且不因 +27.1% 涨幅而变动；估值张力恶化，立场重裁提请复核人决定。盘后 $29.56（−6.96%）仅记录为事实、不进倍数，重锚待 2026-08-11 收盘。",
     "tags": [
       "远程医疗",
       "DTC",
@@ -3978,20 +3978,21 @@
     ],
     "category": "tech",
     "date": "2026-02-13",
-    "lastUpdate": "2026-08-10",
+    "lastUpdate": "2026-08-11",
     "file": "/invest/research/reports/view.html?id=hims-2026",
     "markdownFiles": {
       "zh": "/invest/research/Hims_Hers_深度研究报告_2026-02.md",
       "en": "/invest/research/Hims_Hers_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "股价 $25.00（2026-07-29 收盘），较 6 月 22 日锚点 −25.5%；市值约 $62.9 亿",
-      "以 2 月 FY2025E 收入基线约 $23.5 亿计约 2.7 倍，接近报告自身 2.5-4 倍区间低端",
-      "2026-07-29 FTC/州隐私与计费诉讼及公司回应与回撤同期发生，但不能证明市场因果",
-      "priceSymbol: HIMS 与 2026-07-29 已完成交易日锚点已接入自动价格账本；$25.00 估值框架与立场未变",
-      "维持中性/观察：收入质量（GLP-1 结构、订阅持久性、监管）未因价格下跌而解决；Q2 业绩 2026-08-10"
+      "Q2 2026：收入 $753.2M（同比 +38%），订阅 289.1 万（+19%），单用户月均收入 $92（+21%）",
+      "质量恶化：毛利率 64%（去年同期 76%），净亏损 $86.3M，Q2 自由现金流 $(68.2)M；上半年经营现金流仍为正 $53.4M",
+      "FY2026 指引上调：收入 $31-33 亿、调整后 EBITDA $275-325M；Q3 指引收入 $880-900M",
+      "资本结构缺口填平：可转债净额 $1,365.3M（+约 $393M），现金与短期投资 $841.0M，股东权益仅 $324.1M",
+      "股价 $31.77（2026-08-10 收盘）、市值约 $74.1 亿（233,297,933 股）＝FY2026E 收入中值约 2.32 倍；盘后 $29.56 不进倍数",
+      "维持中性/观察：立场不因价格变动而改变；估值张力恶化，重裁提请复核人决定"
     ],
-    "summaryEn": "Tracking-status correction dated 2026-08-10: priceSymbol HIMS and the completed-session $25.00 anchor from 2026-07-29 are now wired into the automatic price ledger; this edit does not change the valuation frame or Neutral / watchlist stance. The July 31 re-anchor put market cap at about $6.29B and roughly 2.7x the February FY2025E revenue baseline. The FTC/state litigation and company response coincided with the drawdown, but primary sources do not establish market causality; revenue quality, subscriber durability and regulatory risk still require a complete review after Q2 results due 2026-08-10.",
+    "summaryEn": "2026-08-11 Q2 2026 operating and valuation re-anchor, sourced to the 2026-08-10 8-K Item 2.02 (`0001773751-26-000161`) and 10-Q (`0001773751-26-000163`): revenue $753.2M (+38% YoY), subscribers 2.891M (+19%), $92 monthly revenue per average subscriber — against a gross margin down to 64% from 76%, an $86.3M net loss and $(68.2)M quarterly free cash flow. FY2026 guidance was raised to $3.1-3.3B revenue and $275-325M Adjusted EBITDA. The capital-structure gap is closed: convertible notes net $1,365.3M (about $393M more than at 2025 year-end), $841.0M cash and short-term investments, $324.1M equity. At the 2026-08-10 close of $31.77 on 233,297,933 shares, market cap is about $7.41B — roughly 2.32x the FY2026E revenue midpoint, or about 3.15x on the old FY2025E caliber. Stance stays Neutral / watchlist and is explicitly not moved by the +27.1% price rise; the valuation tension worsened and stance re-adjudication is flagged for the reviewer. The $29.56 after-hours print (-6.96%) is recorded as fact only and excluded from every multiple; the next re-anchor is due after the 2026-08-11 session.",
     "period": "2026H1",
     "versionType": "full-cycle",
     "versionLabel": "2026H1 Full Rerun",
@@ -4009,7 +4010,8 @@
       "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the February GLP-1 regulatory binary and old revenue/valuation framework."
     },
     "priceSymbol": "HIMS",
-    "priceAsOf": "2026-07-29"
+    "priceAsOf": "2026-08-10",
+    "reportedPeriod": "Q2 2026"
   },
   {
     "id": "bloom-energy-2026-pre-rerun",
