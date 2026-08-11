@@ -29,7 +29,7 @@ This report is the full rerun successor to `hims-2026-pre-rerun`; the archived b
 >
 > **Cash flow — the "positive cash flow" offset now holds only at the half-year level.** Q2 operating cash flow was **$(35.9)M** and Q2 free cash flow **$(68.2)M**, both negative; the year-ago quarter was $(19.1)M and $(69.4)M. H1 operating cash flow remained **positive at $53.4M**, down from $90.0M a year earlier. The H1 figure is flattered by a $323.8M accounts-payable build against a $329.0M receivables build, both consequences of consolidating the acquisition.
 >
-> **Capital structure — this closes the balance-sheet gap opened 2026-08-06.** Convertible senior notes, net, stood at **$1,365.3M** at 2026-06-30, up from $972.6M at 2025-12-31 — roughly **$393M of additional convertible debt**, not the $1.1B carried in the sections below. Cash and equivalents of $609.8M plus short-term investments of $231.2M give **$841.0M** in cash and investments, with long-term investments now zero (from $351.3M). The acquisition added **$703.0M** of deferred acquisition payable and **$163.0M** of earn-out consideration. Total liabilities are **$3,304.7M** against total stockholders' equity of only **$324.1M**; goodwill rose to $1,101.7M from $278.3M and the accumulated deficit widened to $292.2M.
+> **Capital structure — this closes the balance-sheet gap opened 2026-08-06.** Convertible senior notes, net, stood at **$1,365.3M** at 2026-06-30, up from $972.6M at 2025-12-31 — roughly **$393M of additional convertible debt**, not the $1.1B carried in the sections below. **That increase is a genuine financing event, not accretion:** the H1 cash-flow statement shows **$390.4M of proceeds from issuance of convertible senior notes, net of debt discount**, against just $3.7M of debt-discount and issuance-cost amortization and $0.7M of issuance costs paid, which together reconcile to the $392.7M balance-sheet delta. The company also purchased **$36.7M** of capped calls against the new notes. Cash and equivalents of $609.8M plus short-term investments of $231.2M give **$841.0M** in cash and investments, with long-term investments now zero (from $351.3M). The acquisition added **$703.0M** of deferred acquisition payable and **$163.0M** of earn-out consideration. Total liabilities are **$3,304.7M** against total stockholders' equity of only **$324.1M**; goodwill rose to $1,101.7M from $278.3M and the accumulated deficit widened to $292.2M.
 >
 > **Guidance raised.** FY2026 revenue **$3.1-3.3B** with Adjusted EBITDA **$275-325M** (9-10% margin); Q3 2026 revenue **$880-900M** with Adjusted EBITDA **$75-95M** (9-11% margin). Management also reiterated 2030 targets of at least $6.5B revenue and $1.3B Adjusted EBITDA.
 >
@@ -37,7 +37,7 @@ This report is the full rerun successor to `hims-2026-pre-rerun`; the archived b
 >
 > **Caliber warning on the superseded market cap.** The $6.29B recorded on 2026-07-31 implies about 251.6M shares ($6.29B ÷ $25.00). This pass could not tie that count to any primary source. The 2026-06-30 balance sheet supports **233,297,933** shares (Class A 224,920,310 plus Class V 8,377,623), and the Q2 weighted-average basic count of 231,746,126 falls between the 2025-12-31 and 2026-06-30 two-class totals, which confirms both classes belong in the basic denominator. Market cap above is therefore re-based on the balance-sheet count, and the move from the old $6.29B to $7.41B is **not** a like-for-like comparison.
 >
-> **Stance: unchanged at neutral / watchlist, with the tension stated plainly.** Q2 did not settle the question this coverage has always asked — revenue quality — and it answered in both directions at once. Growth re-accelerated, international scaled and guidance was raised; but gross margin fell twelve points to 64%, the company swung to an $86.3M quarterly net loss, quarterly free cash flow was negative, and roughly $393M of convertible debt was added against $324.1M of book equity. The multiple is lower on the raised revenue base and higher on the old one. **Stance is not changed on the strength of a price move. The arithmetic here materially worsens the valuation tension rather than resolving it, and formal stance re-adjudication is the reviewer's decision, not this pass's.**
+> **Stance: unchanged at neutral / watchlist, with the tension stated plainly.** Q2 did not settle the question this coverage has always asked — revenue quality — and it answered in both directions at once. Growth re-accelerated, international scaled and guidance was raised; but gross margin fell twelve points to 64%, the company swung to an $86.3M quarterly net loss, quarterly free cash flow was negative, and roughly $393M of convertible debt was added against $324.1M of book equity. The multiple is lower on the raised revenue base and higher on the old one. **The completed valuation review below does not justify a stance change: at the current narrow EV, a 25x EBITDA multiple requires roughly $318M, already above the $300M guidance midpoint and close to the $325M high end, while a 20x multiple would require roughly $397M, above guidance.** Growth keeps the view from cautious; margin, cash-flow and regulatory risk keep it from constructive. Confidence remains medium.
 >
 > **After-hours print, recorded as fact only.** HIMS traded at **$29.56** at 7:54 PM ET on 2026-08-10, **−6.96%** against the $31.77 close — the market's first reaction to this release was negative. That print belongs to an unfinished session and is deliberately excluded from every multiple above. **The next re-anchor is due after the first completed post-release regular session (2026-08-11).**
 
@@ -62,7 +62,7 @@ This report is the full rerun successor to `hims-2026-pre-rerun`; the archived b
 | Price (2026-08-10 close, current anchor) | **$31.77**; historical anchors $25.00 (2026-07-29) and ~$33.54 (2026-06-22) |
 | After-hours (2026-08-10, 7:54 PM ET) | $29.56, −6.96% — recorded as fact, excluded from every multiple |
 | Market Cap (2026-08-10, on 233,297,933 shares) | **~$7.41B**; the old, superseded ~$6.29B implied ~251.6M shares, a different caliber |
-| 52-Week Range | $13.74 - $70.43 |
+| 52-Week Range | $13.74 - $70.43 — historical figure carried from February, not independently re-verified this pass; the $31.77 close sits inside it, so no new 52-week high or low fired |
 | Market Cap / FY2026E Revenue (guidance mid $3.2B) | **~2.32x** |
 | Market Cap / FY2025E Revenue (old $2.35B caliber) | ~3.15x; was ~3.3x at the superseded $33.54 anchor |
 | Enterprise Value (notes less cash and ST investments) | **~$7.94B** — ~2.48x FY2026E revenue, ~26.5x FY2026E Adj. EBITDA midpoint |
@@ -179,25 +179,15 @@ Founded in 2017 and public via SPAC in 2021, Hims & Hers operates a direct-to-co
 
 *Historical calibers, both superseded: at roughly $33.54 per share and $7.77B market cap HIMS traded at about 3.3x the ~$2.35B February baseline; re-anchored on 2026-07-31 at $25.00 and ~$6.29B it was about 2.7x that same baseline.*
 
-**Multi-method valuation (framework carried from the February research; the ranges below are historical and have not been re-derived on the Q2 base — flagged `review-pending`):**
+**Current scenario and expectation grid (not price targets):**
 
-| Method | Range | Assumptions | Confidence |
-|--------|-------|-------------|------------|
-| P/S (incl. GLP-1) | 1.5-2.5x FY2025E (old) | Peer comparison | Medium |
-| P/S (ex-GLP-1) | 2.5-4x core revenue (old) | Non-GLP-1 only | Medium-High |
-| EV/EBITDA | 15-25x FY2025E (old) | Growth-stage health platform | Medium |
-| DCF (base) | Highly GLP-1-dependent | High uncertainty | Low |
+| Case | FY2026 revenue | Adjusted EBITDA | Narrow EV / revenue | Narrow EV / EBITDA | What must be true |
+|------|----------------|-----------------|---------------------|--------------------|-------------------|
+| Bear | $3.10B | $275M | ~2.56x | ~28.9x | Gross margin stays near 64%, cash conversion remains weak and regulatory pressure limits mix improvement |
+| Base | $3.20B | $300M | ~2.48x | ~26.5x | Revenue reaches guidance midpoint and margins recover enough to deliver the EBITDA midpoint |
+| Bull | $3.30B | $325M | ~2.41x | ~24.4x | Revenue and EBITDA reach the high end while non-GLP-1 and international growth remain durable |
 
-**Peer comparison:**
-
-| Company | P/S | Revenue Growth | Gross Margin |
-|---------|-----------|----------------|--------------|
-| HIMS (current, Q2 2026) | ~2.32x FY2026E guidance mid | +38% YoY | 64% |
-| HIMS (historical caliber) | ~2-3.3x on the old FY2025E base | +49% | 74% |
-| Teladoc (TDOC) | ~1x | ~3% | ~68% |
-| LifeMD (LFMD) | ~1.5x | ~30% | ~70% |
-
-**Peer rows are `review-pending`:** the TDOC and LFMD figures are carried unchanged from the February research and were **not** re-verified against current filings in this pass, so the cross-sectional comparison is indicative only. Hims' growth still far exceeds these peers, but its gross margin advantage has narrowed sharply — 64% now sits much closer to the ~68-70% peer band than the historical 74-80% did. The valuation question remains quality-adjusted growth, not a simple cheap/expensive label.
+**Expectation gap:** the current narrow EV of about $7.94B implies roughly **$318M of EBITDA at 25x**, above the $300M midpoint and close to the $325M high end. At **20x**, it would require roughly **$397M**, above current guidance. The market therefore already requires near-high-end profitability or a sustained premium multiple. That supports **neutral / watchlist, medium confidence**: current growth evidence is too strong for cautious, but 64% gross margin, negative quarterly free cash flow, added convertibles and unresolved GLP-1 regulation do not support constructive. Stale February peer rows were removed because they were not refreshed from primary filings and are not needed for this decision.
 
 ## 9. Catalysts & Monitoring
 
@@ -215,7 +205,7 @@ Hims is a well-executed DTC telehealth company with **2.891M subscribers as of Q
 
 **Core tension:** excellent core business vs self-inflicted regulatory trouble. This rerun reframes the stock from an acute GLP-1 binary into a growth-quality audit. This is a monitoring view, not allocation advice: the thesis is highly binary and event-driven; any position should sit within a risk budget appropriate for a high-volatility, event-driven asset rather than a fixed weight. The current **~$7.41B** market cap (2026-08-10 close; the $7.77B and $6.29B figures elsewhere are superseded old-caliber levels) depends on whether revenue is durable, compliant, and convertible into cash flow.
 
-**What Q2 2026 changed:** durability and compliance are still open, but *convertible into cash flow* moved the wrong way — a 64% gross margin, an $86.3M quarterly net loss and negative quarterly free cash flow, set against re-accelerated growth and raised FY2026 guidance. The stance stays **neutral / watchlist**, unchanged, and explicitly not moved by the +27.1% price rise; the valuation tension is materially worse and formal stance re-adjudication is flagged for the reviewer. **Confidence: medium.**
+**What Q2 2026 changed:** durability and compliance are still open, but *convertible into cash flow* moved the wrong way — a 64% gross margin, an $86.3M quarterly net loss and negative quarterly free cash flow, set against re-accelerated growth and raised FY2026 guidance. The completed current-price review keeps the stance at **neutral / watchlist**, unchanged and explicitly not moved by the +27.1% price rise: the market already requires near-high-end guided profitability at a 25x EBITDA multiple, while the operating evidence is too strong for cautious and too fragile for constructive. **Confidence: medium.**
 
 ## 11. Appendix & Sources
 
