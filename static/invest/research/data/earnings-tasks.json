@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-10T22:16:39Z",
+  "generatedAt": "2026-08-11T02:37:14Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-08-10T22:16:39Z"
+    "value": "2026-08-11T02:37:14Z"
   },
   "tasks": [
     {
@@ -71,14 +71,6 @@
       "reason": "Replace the estimate with an issuer-sourced day."
     },
     {
-      "id": "earnings:applied-materials-2026:2026-08-13:verify",
-      "reportId": "applied-materials-2026",
-      "type": "source-verification",
-      "window": "verify",
-      "expectedDate": "2026-08-13",
-      "reason": "Confirm the recorded date on issuer IR."
-    },
-    {
       "id": "earnings:arista-2026:2026-08-04:stale",
       "reportId": "arista-2026",
       "type": "calendar-maintenance",
@@ -127,14 +119,6 @@
       "reason": "Resolve stale earnings calendar data."
     },
     {
-      "id": "earnings:coherent-2026:2026-08-12:verify",
-      "reportId": "coherent-2026",
-      "type": "source-verification",
-      "window": "verify",
-      "expectedDate": "2026-08-12",
-      "reason": "Confirm the recorded date on issuer IR."
-    },
-    {
       "id": "earnings:coinbase-2026:unknown:unknown",
       "reportId": "coinbase-2026",
       "type": "calendar-maintenance",
@@ -151,12 +135,12 @@
       "reason": "Replace the estimate with an issuer-sourced day."
     },
     {
-      "id": "earnings:coreweave-2026:2026-08:complete-date",
+      "id": "earnings:coreweave-2026:2026-08-11:T-1",
       "reportId": "coreweave-2026",
-      "type": "date-completion",
-      "window": "complete-date",
-      "expectedDate": "2026-08",
-      "reason": "Replace the estimate with an issuer-sourced day."
+      "type": "research-update",
+      "window": "T-1",
+      "expectedDate": "2026-08-11",
+      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     },
     {
       "id": "earnings:corning-2026:2026-10:complete-date",
@@ -191,12 +175,12 @@
       "reason": "Replace the estimate with an issuer-sourced day."
     },
     {
-      "id": "earnings:hims-2026:2026-08-10:verify",
+      "id": "earnings:hims-2026:2026-08-10:T",
       "reportId": "hims-2026",
-      "type": "source-verification",
-      "window": "verify",
+      "type": "research-update",
+      "window": "T",
       "expectedDate": "2026-08-10",
-      "reason": "Confirm the recorded date on issuer IR."
+      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     },
     {
       "id": "earnings:kla-2026:2026-10:complete-date",
@@ -213,14 +197,6 @@
       "window": "complete-date",
       "expectedDate": "2026-10",
       "reason": "Replace the estimate with an issuer-sourced day."
-    },
-    {
-      "id": "earnings:marvell-2026:2026-08-27:verify",
-      "reportId": "marvell-2026",
-      "type": "source-verification",
-      "window": "verify",
-      "expectedDate": "2026-08-27",
-      "reason": "Confirm the recorded date on issuer IR."
     },
     {
       "id": "earnings:meta-2026:2026-10:complete-date",
@@ -253,14 +229,6 @@
       "window": "stale",
       "expectedDate": "2026-08-06",
       "reason": "Earnings date has passed; roll the entry to the next cycle."
-    },
-    {
-      "id": "earnings:nebius-2026:2026-08:complete-date",
-      "reportId": "nebius-2026",
-      "type": "date-completion",
-      "window": "complete-date",
-      "expectedDate": "2026-08",
-      "reason": "Replace the estimate with an issuer-sourced day."
     },
     {
       "id": "earnings:neov-2026:2026-08:complete-date",
@@ -357,14 +325,6 @@
       "window": "unknown",
       "expectedDate": null,
       "reason": "Resolve unknown earnings calendar data."
-    },
-    {
-      "id": "earnings:synopsys-2026:2026-08:complete-date",
-      "reportId": "synopsys-2026",
-      "type": "date-completion",
-      "window": "complete-date",
-      "expectedDate": "2026-08",
-      "reason": "Replace the estimate with an issuer-sourced day."
     },
     {
       "id": "earnings:tempus-ai-2026:unknown:unknown",

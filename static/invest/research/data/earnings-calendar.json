@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-08-08",
+  "asOf": "2026-08-11",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -31,11 +31,11 @@
       "company": "Applied Materials",
       "expectedDate": "2026-08-13",
       "precision": "day",
-      "status": "recorded",
-      "session": "unspecified",
-      "sourceUrl": null,
-      "sourceType": "report-body",
-      "verifiedAt": "2026-08-01"
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-report-fiscal-third-quarter-2026-results-aug",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-08-10"
     },
     {
       "reportId": "lam-research-2026",
@@ -62,13 +62,13 @@
     {
       "reportId": "synopsys-2026",
       "company": "Synopsys",
-      "expectedDate": "2026-08",
-      "precision": "month",
-      "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "expectedDate": "2026-08-26",
+      "precision": "day",
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://investor.synopsys.com/news/news-details/2026/Synopsys-Announces-Earnings-Release-Date-for-Third-Quarter-Fiscal-Year-2026/default.aspx",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-08-10"
     },
     {
       "reportId": "cadence-2026",
@@ -106,13 +106,13 @@
     {
       "reportId": "nebius-2026",
       "company": "Nebius Group",
-      "expectedDate": "2026-08",
-      "precision": "month",
-      "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "expectedDate": "2026-08-12",
+      "precision": "day",
+      "status": "issuer-confirmed",
+      "session": "before-open",
+      "sourceUrl": "https://nebius.com/newsroom/nebius-group-announces-date-of-second-quarter-2026-results-and-conference-call",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-08-10"
     },
     {
       "reportId": "arista-2026",
@@ -128,13 +128,13 @@
     {
       "reportId": "coreweave-2026",
       "company": "CoreWeave",
-      "expectedDate": "2026-08",
-      "precision": "month",
-      "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "expectedDate": "2026-08-11",
+      "precision": "day",
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Date-of-Second-Quarter-2026-Financial-Results-and-Conference-Call/default.aspx",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-08-10"
     },
     {
       "reportId": "vertiv-2026",
@@ -252,11 +252,11 @@
       "company": "Hims & Hers Health",
       "expectedDate": "2026-08-10",
       "precision": "day",
-      "status": "recorded",
-      "session": "unspecified",
-      "sourceUrl": null,
-      "sourceType": "report-body",
-      "verifiedAt": "2026-08-01"
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://investors.hims.com/news/news-details/2026/Hims--Hers-to-Announce-Second-Quarter-2026-Financial-Results-on-August-10-2026/default.aspx",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-08-10"
     },
     {
       "reportId": "bloom-energy-2026",
@@ -496,22 +496,22 @@
       "company": "Marvell Technology",
       "expectedDate": "2026-08-27",
       "precision": "day",
-      "status": "recorded",
-      "session": "unspecified",
-      "sourceUrl": null,
-      "sourceType": "report-body",
-      "verifiedAt": "2026-08-01"
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://investor.marvell.com/news-events/press-releases/detail/1029/marvell-technology-inc-announces-conference-call-to-review-second-quarter-of-fiscal-year-2027-financial-results-announces-investor-day-on-october-6-2026",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-08-10"
     },
     {
       "reportId": "coherent-2026",
       "company": "Coherent",
       "expectedDate": "2026-08-12",
       "precision": "day",
-      "status": "recorded",
-      "session": "unspecified",
-      "sourceUrl": null,
-      "sourceType": "report-body",
-      "verifiedAt": "2026-08-01"
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://www.coherent.com/news/press-releases/fy2026-fourth-quarter-fy2026-conference-call-announced",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-08-10"
     },
     {
       "reportId": "digital-realty-2026",
