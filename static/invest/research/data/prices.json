@@ -294,11 +294,11 @@
       "symbol": "HIMS",
       "status": "ok",
       "attemptedAt": "2026-08-11",
-      "baseDate": "2026-08-10",
-      "basePrice": 31.77,
+      "baseDate": "2026-08-11",
+      "basePrice": 30.51,
       "lastDate": "2026-08-11",
       "lastClose": 30.51,
-      "changePct": -4.0,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
