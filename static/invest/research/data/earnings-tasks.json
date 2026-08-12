@@ -1,40 +1,40 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T22:19:27Z",
+  "generatedAt": "2026-08-12T22:19:03Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-08-11T22:19:27Z"
+    "value": "2026-08-12T22:19:03Z"
   },
   "tasks": [
     {
-      "id": "earnings:coherent-2026:2026-08-12:T-1",
-      "reportId": "coherent-2026",
+      "id": "earnings:applied-materials-2026:2026-08-13:T-1",
+      "reportId": "applied-materials-2026",
       "type": "research-update",
       "window": "T-1",
+      "expectedDate": "2026-08-13",
+      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
+    },
+    {
+      "id": "earnings:coherent-2026:2026-08-12:T",
+      "reportId": "coherent-2026",
+      "type": "research-update",
+      "window": "T",
       "expectedDate": "2026-08-12",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     },
     {
-      "id": "earnings:coreweave-2026:2026-08-11:T",
+      "id": "earnings:coreweave-2026:2026-08-11:T+1",
       "reportId": "coreweave-2026",
       "type": "research-update",
-      "window": "T",
+      "window": "T+1",
       "expectedDate": "2026-08-11",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     },
     {
-      "id": "earnings:hims-2026:2026-08-10:T+1",
-      "reportId": "hims-2026",
-      "type": "research-update",
-      "window": "T+1",
-      "expectedDate": "2026-08-10",
-      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
-    },
-    {
-      "id": "earnings:nebius-2026:2026-08-12:T-1",
+      "id": "earnings:nebius-2026:2026-08-12:T",
       "reportId": "nebius-2026",
       "type": "research-update",
-      "window": "T-1",
+      "window": "T",
       "expectedDate": "2026-08-12",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     }
