@@ -1,7 +1,7 @@
 # Coherent Deep Research Report - Full-Stack Photonics Dashboard for AI Optical Connectivity
 
 Coverage date: 2026-07-04
-Last updated: 2026-07-31
+Last updated: 2026-08-13
 Ticker: NYSE: COHR
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -19,13 +19,19 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 > **2026-07-31 stance re-adjudication at the 2026-07-30 close — supersedes the "not re-weighted / stance unchanged" language in the old note above.** Owner ruling on Q1 of the review-questions doc (2026-07-31): a published stance and its rationale must hold at the current price — the assessment is re-derived at the latest completed close rather than held open for future evidence. COHR closed at **$249.06** on **2026-07-30**, +12.2% off the old 2026-07-29 low of $222.05 and **-25.3%** from the old $333.36 anchor. Recomputed on the report's own frames: market cap about **$48.7B**, enterprise value about **$49.7B**, P/S (TTM) about **7.4x**, EV/TTM sales about **7.5x** (old caliber 10.1x). The report's own reverse-multiple frame — a mature optical premium at 5-6x sales with an 8% required return — now implies roughly **16-24%** annual revenue growth, versus ~28-36% at the old anchor, and the demand evidence in the base case already runs at or above that bar. The mildly negative gap the cautious stance rested on is gone at the current price; unproven FCF conversion (Q3 FCF -$383M) is what caps this at neutral rather than constructive. **Stance moves cautious -> neutral-watch (low conviction)** ahead of the 2026-08-12 print. Grid weights (20/50/30) re-checked and retained; the grid's valuation verdicts should be read against this anchor. This discharges the scenario-grid-reweight-pending monitoring item.
 
+> **2026-08-13 radar update: FY2026 Q4 and full-year results — the print this report named as its next check. Monitoring only; no valuation has been recomputed and neither stance nor conviction is re-adjudicated here.** Coherent reported its fiscal fourth quarter and full year on **2026-08-12** for the fiscal year ended 2026-06-30. Q4 revenue was **$2,045.5M**, up **13.3%** sequentially and **33.8%** year over year, at a GAAP gross margin of **38.5%** (+82bps sequentially, +277bps year over year) and a non-GAAP gross margin of **40.2%**; GAAP diluted EPS was **$1.19** and non-GAAP diluted EPS **$1.74**. **Datacenter & Communications revenue was $1,615.0M**, against $1,361.6M in FY26 Q3 (**+18.6%** sequentially) and $1,018.3M in FY25 Q4 (**+58.6%** year over year); the full year was **$5,274.6M** against $3,755.2M. Industrial fell to **$430.5M** from $511.1M. Consolidated FY2026 revenue was **$7,118.2M** (+22.5%) at a 37.5% full-year GAAP gross margin. FY2027 Q1 guidance is revenue of **$2.2-2.4B** at a 39.5-41.5% non-GAAP gross margin and non-GAAP EPS of $1.85-2.05.
+>
+> Readings, each graded strictly against that item's own published trigger. `datacenter-communications-mix` is **within**: datacenter communications revenue kept growing and consolidated gross margin expanded rather than diluting. The limit is stated plainly — **gross margin is disclosed on a consolidated basis only**, the company publishes no segment gross margin, so the no-dilution leg holds at consolidated level only, and that expansion coincided with Industrial revenue declining. `valuation-fcf-risk` **stays unclear, but for a different reason than before**. Table 4 of the release discloses full-year cash flows only: FY2026 operating cash flow was **$79.5M** against $633.6M, and additions to property, plant and equipment were **$1,102.9M** against $440.8M, so on the operating-cash-flow-less-capex convention used previously, **FY2026 free cash flow was about -$1,023.4M** against about +$192.8M in FY2025. That makes the trigger's first clause — growth relying on negative FCF, working-capital build or capex expansion — decisively satisfied. Its second clause requires the multiple to be elevated, and the published **~7.4x P/S (TTM)** and **~7.5x EV/TTM sales**, both anchored to the **2026-07-30 close of $249.06**, were computed on a TTM ending FY26 Q3 — the exact denominator this print superseded. There is therefore no currently valid multiple against which that clause can be tested.
+>
+> **The report deliberately fails closed on the valuation rather than refreshing it.** Rebuilding the multiple on the new FY2026 revenue base would be a complete valuation re-anchor, which a monitoring-only update is not authorised to perform; it is filed as a proposal in the run receipt instead. The **neutral-watch / low-conviction** stance, the price anchor, the scenario grid and every multiple in this report remain as dated above. The release does not mention NVIDIA and discloses no purchase-commitment conversion, so `nvidia-optics-lta` is left untouched. Source: [Coherent FY2026 fourth-quarter and full-year results, 8-K Exhibit 99.1 (2026-08-12)](https://www.sec.gov/Archives/edgar/data/820318/000119312526346860/d128030dex991.htm).
+
 **Current view:** ~~cautious / low conviction~~ **neutral-watch / low conviction (re-adjudicated 2026-07-31 at the $249.06 close — see the header note).** The v5 upgrade separates variance from skew: Coherent is an important optical dashboard with real NVIDIA-linked demand evidence, but the dated price already capitalizes a large AI-optics cycle while FCF, capacity conversion, and peer confirmation still need to catch up.
 
 | Metric | Current readout |
 | --- | --- |
 | Report id | coherent-2026 |
 | Chain layer / role | optical / dashboard |
-| Latest reported period | FY2026 Q3 |
+| Latest reported period | FY2026 |
 | Price snapshot | (old caliber) $333.36 as of 2026-07-02 |
 | Coverage tier after this upgrade | full |
 | Stance | neutral-watch, low conviction (re-adjudicated 2026-07-31; old: cautious) |

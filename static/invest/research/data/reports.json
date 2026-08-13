@@ -1637,7 +1637,7 @@
     "priceSymbol": "NBIS",
     "title": "Nebius Group 深度研究报告 - neocloud 的『干净对照组』：对 CoreWeave 风险锚的架构校验",
     "titleEn": "Nebius Group Deep Research Report - The 'Clean' Neocloud: An Architecture Check on the CoreWeave Risk Anchor",
-    "summary": "【2026-07-31 立场重新裁定：NBIS 于 2026-07-30 收于 $188.43，较 07-29 低点反弹 +27.1%、较原锚点仅 -11.5%，市值约 $41.6B、P/S（TTM）约 47x；按所有者 Q1 裁定按当前价格复核，维持谨慎（中确信）。】本中心 AI 基础设施书 demand-risk 层的第二篇，作为对 CoreWeave 风险锚的『交叉校验/架构校验』。前身 Yandex 的国际继承者、阿姆斯特丹总部、纳斯达克上市的全栈 AI 云（neocloud）。与 CoreWeave 相反：Q1 2026 营收 $3.99 亿(+684%)、AI 云 ARR $19.2 亿、调整后 EBITDA 转正 $1.295 亿、经营现金流 +$22.6 亿，靠约 $93 亿现金/客户预付款/可转债、而非 GPU 抵押杠杆融资；约 $84 亿非流动债务与约 $10 亿经营租赁负债，对照约 $93 亿现金，金融债务口径近中性、租赁调整后中性至约 $40 亿净现金（取决于预付认股权证处理）。但 GAAP 净利 $6.21 亿实为一笔 $7.806 亿 ClickHouse 非现金重估（经营层面 −$1.28 亿亏损），且正积累与 CoreWeave 同款的超大规模集中（微软最高约 $194 亿 + Meta 最高约 $270 亿，合计约 $460 亿公司披露承诺/上限）与 NVIDIA 供应商+股东循环性。股价约 $240（2026-07-01，6 月 22 日纳指 100 纳入前后约 $256）、市值约 $610 亿、约 2.539 亿流通股，约 17-19x EV/2026E 营收（约 CoreWeave 的 3 倍）、约 7x EV/退出 ARR；2026 资本开支 $200-250 亿(约 7 倍营收)。核心读数：CoreWeave 的脆弱只是资产负债表选择，还是 neocloud 模式的固有属性？答案——只有偿付脆弱是 CoreWeave 独有，需求/集中/循环/资本开支风险是全层共享。2026-07-07 v5 更新：以 2026-07-06 收盘 旧锚点价格（已移除） 为锚，30% 牛市 / 40% 基准 / 30% 熊市情景网格给出略偏负预期差，当前迁移为谨慎 / 中确信。2026-07-17 监测更新：公司签订首笔约 $7.75 亿资产级担保融资；客户未具名，可复制性仍是公司预期，本次不刷新 2026-07-06 估值快照或谨慎 / 中确信立场。",
+    "summary": "2026-08-13 监测更新：Nebius 2026 年二季度收入 $582.3M（同比 +454%）、调整后 EBITDA $236.2M，持续经营净亏损 -$190.4M，单季资本开支 $5,657.4M。2026-06-30 现金 $8,042.1M 对非流动债务 $8,499.0M，已由近净现金转为近净债务持平；两份 6-K 均未重述 ARR、客户收入占比或利用率。因此 model-vs-balance-sheet 与 concentration-convergence 均严格判为 unclear；集中度触发条件同步改为对照 CoreWeave 当前“前两大客户 62%”画像。此次仅更新监测事实；未重算估值，谨慎／中确信仍沿用 2026-07-30 收盘 $188.43 的完整裁定。",
     "tags": [
       "AI云",
       "AI基础设施",
@@ -1646,7 +1646,7 @@
     ],
     "category": "tech",
     "date": "2026-07-01",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-13",
     "file": "/invest/research/reports/view.html?id=nebius-2026",
     "markdownFiles": {
       "zh": "/invest/research/Nebius_深度研究报告_2026-07.md",
@@ -1656,19 +1656,19 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "2026-07-31 重新裁定：$188.43（2026-07-30 收盘），较 07-29 低点反弹 +27.1%，市值约 $41.6B、P/S（TTM）约 47x；维持谨慎 / 中确信",
-      "demand-risk 层第二篇，作为 CoreWeave 风险锚的『架构校验』对照组：一朵用现金/预付款/可转债、而非 GPU 抵押债融资的 neocloud——检验 CoreWeave 的脆弱是模式性的还是资产负债表性的",
-      "与 CoreWeave 相反的报表：Q1 2026 营收 $3.99 亿(+684%)、AI 云 ARR $19.2 亿、调整后 EBITDA 转正 $1.295 亿(集团 32%/云 45%)、经营现金流 +$22.6 亿；约 $93 亿现金 vs 约 $84 亿非流动债务 + 约 $10 亿经营租赁负债，金融债务口径近中性、租赁调整后仍显著更轻",
-      "但两条警报：GAAP 净利 $6.21 亿实为 $7.806 亿 ClickHouse 非现金重估(经营层面仍 −$1.28 亿亏损)；集中度与循环性在向 CoreWeave 收敛(微软最高约 $194 亿 + Meta 最高约 $270 亿，公司披露承诺/上限；NVIDIA 供应商+$20 亿股东)",
-      "股价约 $240(2026-07-01；6 月 22 日纳指 100 纳入前后约 $256)、市值约 $610 亿、约 2.539 亿流通股；约 17-19x EV/2026E 营收(约 CoreWeave 3 倍)、约 7x EV/退出 ARR；2026 资本开支 $200-250 亿(约 7 倍营收)。高质量但高预期/高风险(观察)"
+      "2026-07-31 完整裁定：$188.43（2026-07-30 收盘）；维持谨慎 / 中确信，本次监测未重算估值",
+      "2026Q2 收入 $582.3M（同比 +454%）、调整后 EBITDA $236.2M，持续经营净亏损 -$190.4M",
+      "单季资本开支 $5,657.4M；现金 $8,042.1M 对非流动债务 $8,499.0M，约为净债务持平",
+      "两份 6-K 均未重述 ARR、客户收入占比或利用率，不能用收入增长替代触发条件",
+      "监测：model-vs-balance-sheet、earnings-quality-ex-marks、concentration-convergence 均 unclear"
     ],
-    "summaryEn": "[2026-07-31 stance re-adjudication: NBIS closed at $188.43 on 2026-07-30, +27.1% off the 07-29 low and only -11.5% from its old anchor, for about $41.6B market cap and ~47x P/S (TTM); re-checked at the current price under the owner's Q1 ruling, cautious (medium conviction) holds.] The second report in this center's AI-infra demand-risk layer, serving as the cross-check ('architecture check') on the CoreWeave risk anchor. Nebius is the Amsterdam-HQ, NASDAQ-listed, full-stack AI-cloud (neocloud) successor to the former Yandex. It is CoreWeave's mirror image: Q1 2026 revenue $399.0M (+684%), AI-cloud ARR $1.92B, adjusted EBITDA turned positive at $129.5M, and +$2.3B operating cash flow — funded by ~$9.3B cash, customer prepayments and convertibles rather than GPU-collateralized leverage, with ~$8.4B non-current debt plus ~$1.0B operating lease liabilities against ~$9.3B cash (financial-debt near-neutral; lease-adjusted neutral to ~$4B net cash depending on prefunded-warrant treatment). But GAAP net income of $621M is a $780.6M non-cash ClickHouse revaluation over a −$128M operating loss, and Nebius is accumulating the same hyperscaler concentration (Microsoft up to ~$19.4B + Meta up to ~$27B, ~$46B company-disclosed commitments/ceilings) and the same NVIDIA supplier-shareholder circularity as CoreWeave. Stock ~$240 (2026-07-01; ~$256 around its June-22 Nasdaq-100 inclusion), market cap ~$61B on ~253.9M shares outstanding, ~17-19x EV/2026E revenue (~3x CoreWeave's) and ~7x EV/exit-ARR; 2026 capex $20-25B (~7x revenue). Core read-through: is CoreWeave's fragility a balance-sheet choice or inherent to the neocloud model? Only the solvency fragility is CoreWeave-specific; the demand/concentration/circularity/capex risks are shared across the layer. Jul 7, 2026 v5 update: anchored to the Jul 6, 2026 close of 旧锚点价格（已移除）, the 30% bull / 40% base / 30% bear scenario grid leaves a slightly negative expectation gap; stance migrates to cautious / medium conviction. Jul. 17, 2026 monitoring update: Nebius entered its first approximately $775M asset-level secured facility; the customer is unnamed and repeatability remains an issuer expectation. This update does not refresh the Jul. 6 valuation snapshot or the cautious / medium-conviction stance.",
+    "summaryEn": "August 13, 2026 monitoring update: Nebius reported Q2 2026 revenue of $582.3M (+454% YoY), adjusted EBITDA of $236.2M, a continuing-operations net loss of $190.4M and quarterly capex of $5,657.4M. At June 30, 2026, cash of $8,042.1M sat against non-current debt of $8,499.0M, shifting the balance sheet from near net cash to approximately net-debt-flat. Neither Form 6-K restated ARR, customer revenue shares or utilization. Model-vs-balance-sheet and concentration-convergence are therefore strictly unclear; the concentration trigger is also corrected to compare against CoreWeave's current 62% top-two-customer profile. This is a monitoring-only update; valuation was not recomputed, and cautious / medium conviction remains the full adjudication anchored to the July 30, 2026 close of $188.43.",
     "chainLayer": "demand-risk",
     "coverageTier": "full",
     "chainRole": "architecture-check",
     "stance": "cautious",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q1 2026",
+    "reportedPeriod": "Q2 2026",
     "related": [
       "coreweave-2026",
       "nvidia-2026"
@@ -1687,11 +1687,13 @@
           "en": "do both Nebius (near net cash) and CoreWeave (levered) keep converting ARR/backlog at high utilization"
         },
         "latest": {
-          "zh": "Nebius 经营现金流 +$22.6 亿、AI 云 ARR $19.2 亿放量",
-          "en": "Nebius OCF +$2.26B; AI-cloud ARR $1.92B ramping"
+          "zh": "2026 年二季度（2026-08-12 提交的两份 6-K）：Nebius 收入 $582.3M，对一季度 $399.0M 与去年同期 $105.1M；调整后 EBITDA 由 -$21.0M 转正至 $236.2M。CoreWeave 同季收入 $2,575M、同比 +112%，RPO $103.7B。两家公司都确认了收入增长，但 Nebius 未重述 ARR、CoreWeave 的 backlog 仍约为单季收入 40 倍，且两家公司均不披露利用率。Nebius 现金 $8,042.1M 对非流动债务 $8,499.0M，也已由近净现金转为近净债务持平。读数为 unclear：触发条件要求两家公司在高利用率下持续转化 ARR/backlog，本期只证明了收入增长，未证明 ARR/backlog 转化与高利用率两项必要条件。",
+          "en": "Q2 2026 (two Forms 6-K furnished August 12, 2026): Nebius revenue was $582.3M versus $399.0M in Q1 and $105.1M a year earlier, and adjusted EBITDA turned positive at $236.2M from -$21.0M. CoreWeave reported same-quarter revenue of $2,575M, up 112% YoY, with RPO of $103.7B. Both companies showed recognized-revenue growth, but Nebius did not restate ARR, CoreWeave backlog remained about 40 times quarterly revenue, and neither company discloses utilization. Nebius cash of $8,042.1M against non-current debt of $8,499.0M also moved it from near net cash to approximately net-debt-flat. Reading: unclear. The trigger requires both companies to keep converting ARR/backlog at high utilization; the current evidence establishes revenue growth but not the two necessary ARR/backlog-conversion and high-utilization conditions."
         },
-        "nextCheck": "2026-Q2 财报 / Q2 earnings",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "2026-Q3 财报与资产负债表 / Q3 results and balance sheet",
+        "nextCheckDate": "2026-11",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-12"
       },
       {
         "id": "concentration-convergence",
@@ -1702,15 +1704,17 @@
           "en": "Concentration convergence"
         },
         "trigger": {
-          "zh": "微软+Meta 收入占比向 CoreWeave 的 >60% 单客户画像靠拢",
-          "en": "Microsoft+Meta revenue share climbs toward CoreWeave's >60% single-customer profile"
+          "zh": "微软+Meta 收入占比持续上升并接近 CoreWeave 当前的高集中度画像（2026Q2 前两大客户合计 62%）",
+          "en": "Microsoft+Meta revenue share keeps rising toward CoreWeave's current high-concentration profile (top two customers were 62% in Q2 2026)"
         },
         "latest": {
-          "zh": "微软最高约 $194 亿 + Meta 最高约 $270 亿（公司披露承诺/上限），2027 放量",
-          "en": "Microsoft up to ~$19.4B + Meta up to ~$27B (company-disclosed ceilings) ramping into 2027"
+          "zh": "2026 年二季度（2026-08-12 提交的两份 6-K）：两份文件均未披露客户层面的收入占比，也未量化微软或 Meta 的本期收入贡献；微软最高约 $19.4B、Meta 最高约 $27B 是公司披露的合约上限、爬坡至 2027 年，并非已实现收入。读数为 unclear：Nebius 不公布触发条件所需的微软＋Meta 收入占比。为避免继续使用已失效的“CoreWeave 单一客户 >60%”基准，触发条件已改为对照 CoreWeave 2026Q2 前两大客户合计 62% 的当前高集中度画像；此文本校正不改变本期评级。",
+          "en": "Q2 2026 (two Forms 6-K furnished August 12, 2026): neither document discloses customer-level revenue shares or quantifies Microsoft or Meta revenue in the period. The issuer-disclosed ceilings of up to about $19.4B for Microsoft and $27B for Meta ramp into 2027 and are not recognized revenue. Reading: unclear because Nebius does not publish the Microsoft-plus-Meta revenue share required by the trigger. To avoid retaining the obsolete CoreWeave greater-than-60% single-customer benchmark, the trigger is corrected to compare with CoreWeave's current high-concentration profile of 62% for its top two customers in Q2 2026; that text correction does not change the current grade."
         },
-        "nextCheck": "2026-Q2 集中度披露 / concentration disclosures",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "2026-Q3 集中度披露 / Q3 concentration disclosures",
+        "nextCheckDate": "2026-11",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-12"
       },
       {
         "id": "earnings-quality-ex-marks",
@@ -1725,11 +1729,13 @@
           "en": "profit stays driven by non-cash investment marks rather than operations turning positive"
         },
         "latest": {
-          "zh": "Q1 净利 $6.21 亿 = $7.806 亿 ClickHouse 重估盖过 −$1.28 亿经营亏损",
-          "en": "Q1 net income $621M = $780.6M ClickHouse mark over a −$128M operating loss"
+          "zh": "2026 年二季度（2026-08-12 提交的两份 6-K）：持续经营净利润／亏损为 -$190.4M，去年同期为 +$502.5M；而上半年仍为净利润 +$430.8M，对应约 -$303.9M 的经营亏损（收入 $981.3M 减经营成本 $1,285.2M），即半年度利润在来源上仍属非经营性。就本季而言，调整后 EBITDA 由 -$21.0M 转正至 $236.2M，经营成本占收入比由 206% 降至 130%，但在 $259.7M 折旧摊销与 $102.5M 股份支付之后，GAAP 经营利润仍约为 -$175.9M。读数为 unclear：本触发条件问的是利润是否仍由非现金投资重估驱动、而非经营转正，而本季对这两半给出相反答案——二季度没有由重估驱动的利润，因为根本没有利润；经营层面在 EBITDA 口径上大幅改善，但经营利润线尚未转正。此处withheld的理由是该监测项的两半在同一组证据上指向相反方向，而非披露不足。边界：本季经营活动现金流入 $2,246.1M 约为同期收入的 3.9 倍，只可能主要由客户预付款与递延收入构成（上半年非流动递延收入增加约 $3,693.8M），不得读作经营性盈利转正。",
+          "en": "Q2 2026 (two Forms 6-K furnished 2026-08-12): net loss from continuing operations was -$190.4M in the quarter against net income of +$502.5M a year earlier, while the first half still shows net income of +$430.8M against an operating loss of about -$303.9M (revenue $981.3M less operating costs and expenses of $1,285.2M), so the half-year profit remains non-operating in origin. Within the quarter, adjusted EBITDA turned positive at $236.2M from -$21.0M and operating costs fell to 130% of revenue from 206%, but after $259.7M of depreciation and amortization and $102.5M of share-based compensation the GAAP operating line is still about -$175.9M. Reading: unclear. The trigger asks whether profit stays driven by non-cash investment marks rather than operations turning positive, and the quarter answers its two halves in opposite directions: there was no mark-driven profit in Q2 because there was no profit at all, while operations improved sharply at the EBITDA level without the operating line turning positive. The grade is withheld because the evidence points both ways on the same item, not for lack of disclosure. Limit: quarterly operating cash inflow of $2,246.1M is about 3.9 times the quarter revenue and can only be composed largely of customer prepayments and deferred revenue, with non-current deferred revenue rising about $3,693.8M over the half, and must not be read as operations turning profitable."
         },
-        "nextCheck": "2026-Q2 剔除重估经营利润 / operating income ex-marks",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "2026-Q3 剔除重估的经营利润 / Q3 operating income ex-marks",
+        "nextCheckDate": "2026-11",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-12"
       },
       {
         "id": "funding-durability",
@@ -1995,7 +2001,7 @@
     "priceSymbol": "CRWV",
     "title": "CoreWeave 深度研究报告 - AI 建设的风险锚：真实需求还是杠杆与循环融资？",
     "titleEn": "CoreWeave Deep Research Report - The AI Buildout's Risk Anchor: Real Demand or Leverage & Circular Financing?",
-    "summary": "【2026-07-31 立场重新裁定：CRWV 于 2026-07-30 收于 $73.90，较 07-29 低点反弹 +21.5%、较原锚点 -14.5%，市值约 $33.1B、EV 约 $66.0B；按所有者 Q1 裁定按当前价格复核，维持 bearish-avoid（中确信）——空头论点锚定在 EV 与结构，而 EV 仅较锚点约 -8%。】本中心 AI 基础设施书的『风险锚』，刻意以熊市为主轴写。GPU『neocloud』，一边是 $994 亿公司定义收入 backlog（RPO + 其他承诺客户合同金额）与 56% 调整后 EBITDA，一边是扩大的 GAAP 净亏损（Q1 2026 −$7.4 亿）、约 $249 亿债务、约 $100 亿经营租赁负债、$310-350 亿 2026 资本开支（约 3 倍营收）。客户集中（微软历史上收入占比 >60%；CNBC 引 2024 年为 62%），NVIDIA 同时是供应商+股东（$20 亿@$87）+$63 亿产能兜底（循环性）。Q1 2026 营收 $20.78 亿(+112%)，FY2026 指引营收 $120-130 亿。股价已较 2025 峰值回落约 47% 至约 $96、市值约 $520 亿、经营租赁前金融净债务约 $229 亿、含经营租赁净义务栈约 $329 亿。中心问题：是真实经济需求还是被杠杆催起的提前囤货？2026-07-07 v5 更新：以 2026-07-06 收盘 旧锚点价格（已移除） 为锚，20% 牛市 / 30% 基准 / 50% 熊市情景网格给出负预期差，维持 bearish-avoid / 中确信。",
+    "summary": "2026-08-13 监测更新：CoreWeave 2026 年二季度收入 $2,575M（同比 +112%），RPO $103.7B、公司口径 revenue backlog 约 $104B；总有息负债 $35.6B、经营租赁负债 $16.3B、现金 $5,524M。客户集中度明显下降，前三大客户占收入 36%／26%／10%，去年同期为单一客户 71%。收入转化改善，但 backlog 仍约为单季收入 40 倍，且 NVIDIA 需求兜底在本次申报中未被重述，因此 real-demand-vs-financing 严格判为 unclear。此次仅更新监测事实；未重算估值，bearish-avoid／中确信仍沿用 2026-07-30 收盘 $73.90 的完整裁定。",
     "tags": [
       "AI云",
       "AI基础设施",
@@ -2004,7 +2010,7 @@
     ],
     "category": "tech",
     "date": "2026-06-30",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-13",
     "file": "/invest/research/reports/view.html?id=coreweave-2026",
     "markdownFiles": {
       "zh": "/invest/research/CoreWeave_深度研究报告_2026-06.md",
@@ -2014,19 +2020,19 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "2026-07-31 重新裁定：$73.90（2026-07-30 收盘），较 07-29 低点反弹 +21.5%，市值约 $33.1B、EV 约 $66.0B；维持 bearish-avoid / 中确信",
-      "本中心 AI 基础设施书的『风险锚』，以熊市为主轴：检验 AI 建设是真实经济需求、还是被杠杆与循环融资吹起的提前囤货——四条 kill-criterion 的读数回传整本书",
-      "矛盾核心：$994 亿公司定义收入 backlog + 56% 调整后 EBITDA vs 扩大的 GAAP 净亏损(Q1'26 −$7.4 亿)、约 $249 亿债务、约 $100 亿经营租赁负债、$310-350 亿 2026 资本开支(约 3 倍营收)；GPU 6 年折旧寿命有争议",
-      "循环性：微软历史上收入占比 >60%；NVIDIA 是供应商+股东($20 亿@$87)+$63 亿产能兜底(最后买家至 2032)；微软自建(MAI)、OpenAI 分散、Core Scientific 收购被否",
-      "股价已较 2025 峰值回落约 47% 至约 $96、市值约 $520 亿、经营租赁前金融净债务约 $229 亿、含经营租赁净义务栈约 $329 亿；偿付能力敏感、高 beta 杠杆期权。高风险/偏熊(回避-观察)"
+      "2026-07-31 完整裁定：$73.90（2026-07-30 收盘）；维持 bearish-avoid / 中确信，本次监测未重算估值",
+      "2026Q2 收入 $2,575M（同比 +112%），RPO $103.7B、公司口径 backlog 约 $104B，且不含 Q3 初逾 $25B 净新增客户承诺",
+      "前三大客户占收入 36%／26%／10%，去年同期为单一客户 71%；集中度显著下降但仍高",
+      "总有息负债 $35.6B、经营租赁负债 $16.3B、现金 $5,524M；高杠杆与期限错配仍是核心风险",
+      "监测：revenue-quality-circularity within；real-demand-vs-financing、solvency-gpu-life-stress、self-build-pricing-crack 均 unclear"
     ],
-    "summaryEn": "[2026-07-31 stance re-adjudication: CRWV closed at $73.90 on 2026-07-30, +21.5% off the 07-29 low and -14.5% from its old anchor, for about $33.1B market cap and ~$66.0B EV; re-checked at the current price under the owner's Q1 ruling, bearish-avoid (medium conviction) holds — the bear case is EV-anchored and EV is only ~-8% from the anchor.] The AI-infra book's 'risk anchor', written deliberately bear-led. A GPU 'neocloud' that pairs a $99.4B company-defined revenue backlog (RPO plus other committed-contract amounts) and 56% adjusted EBITDA with a widening GAAP net loss (Q1 2026 -$740M), ~$24.9B debt, ~$10.1B operating lease liabilities, and $31-35B of 2026 capex (~3x revenue). Customer-concentrated (Microsoft historically >60% of revenue; CNBC cited 62% for 2024); NVIDIA is supplier + shareholder ($2B at $87) + $6.3B capacity backstop (circularity). Q1 2026 revenue $2.078B (+112%); FY2026 guide revenue $12-13B. The stock is already ~47% off 2025 peaks at ~$96, market cap ~$52B, financial net debt ~$22.9B before operating leases and ~$32.9B net obligation stack incl. operating leases. Central question: real economic demand or leverage-fueled pre-stocking? Jul 7, 2026 v5 update: anchored to the Jul 6, 2026 close of the old anchor price (removed), the 20% bull / 30% base / 50% bear scenario grid leaves a negative expectation gap; stance remains bearish-avoid / medium conviction.",
+    "summaryEn": "August 13, 2026 monitoring update: CoreWeave reported Q2 2026 revenue of $2,575M (+112% YoY), RPO of $103.7B and company-defined revenue backlog of about $104B. Total indebtedness was $35.6B, operating lease liabilities were $16.3B and cash was $5,524M. Concentration fell materially: the top three customers were 36% / 26% / 10% of revenue versus one customer at 71% a year earlier. Revenue conversion improved, but backlog remains about 40 times quarterly revenue and the NVIDIA demand backstop was not restated in this filing, so real-demand-vs-financing is strictly unclear. This is a monitoring-only update; valuation was not recomputed, and bearish-avoid / medium conviction remains the full adjudication anchored to the July 30, 2026 close of $73.90.",
     "chainLayer": "demand-risk",
     "coverageTier": "full",
     "chainRole": "risk-anchor",
     "stance": "bearish-avoid",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q1 2026",
+    "reportedPeriod": "Q2 2026",
     "related": [
       "nebius-2026",
       "nvidia-2026"
@@ -2045,11 +2051,13 @@
           "en": "recognized revenue keeps lagging revenue backlog; a material share of bookings is supplier-backstopped/single-customer"
         },
         "latest": {
-          "zh": "$994 亿公司定义收入 backlog vs 约 $21 亿/季确认收入；NVIDIA $63 亿产能兜底至 2032",
-          "en": "$99.4B company-defined revenue backlog vs ~$2.1B/qtr recognized; NVIDIA $6.3B capacity backstop to 2032"
+          "zh": "2026 年二季度（2026-08-11 公布业绩，2026-08-12 提交 10-Q）：收入 $2,575M，对一季度 $2,078M、去年同期 $1,212M（同比 +112%）。2026-06-30 未履约 RPO 为 $103.7B，公司口径 revenue backlog 约 $104B，且不含 Q3 初新增的逾 $25B 净客户承诺；41% RPO 预计在截至 2028-06-30 的头 24 个月确认。收入转化改善，backlog 对单季收入的倍数由约 47 倍收敛至约 40 倍，但已确认收入仍大幅落后于 backlog；前三大客户仍占 36%／26%／10%，Meta 与 OpenAI 的具名承诺分别最高约 $21.0B 与 $6.5B。NVIDIA 合约产能兜底在本次申报中未被重述。读数为 unclear：收入追赶有所改善，但触发条件的 backlog 落后分支仍有实质证据，供应商兜底分支则缺少本期重述，不能据此判为 within。证据边界：revenue backlog 是含估计金额的公司自定义指标，不等同于 RPO；文件不披露利用率或 GPU 租赁 ASP。",
+          "en": "Q2 2026 (results released August 11, 2026; Form 10-Q filed August 12): revenue was $2,575M versus $2,078M in Q1 and $1,212M a year earlier (+112% YoY). Unsatisfied RPO was $103.7B at June 30, 2026 and company-defined revenue backlog was about $104B, excluding more than $25B of net new customer commitments added in early Q3; 41% of RPO is expected to be recognized in the first 24 months through June 30, 2028. Conversion improved and backlog-to-quarterly-revenue narrowed from about 47x to about 40x, but recognized revenue still materially lags backlog; the top three customers remained 36% / 26% / 10%, and named Meta and OpenAI commitments were up to about $21.0B and $6.5B. The NVIDIA contracted capacity backstop was not restated in this filing. Reading: unclear. Revenue catch-up improved, but the backlog-lag clause still has material evidence while the supplier-backstop clause lacks a current restatement, so the item cannot be graded within. Evidence limits: revenue backlog is a company-defined measure that includes estimates and is not the same caliber as RPO; neither utilization nor GPU rental ASP is disclosed."
         },
-        "nextCheck": "2026-Q2 backlog 转化披露 / conversion disclosures",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "2026-Q3 backlog 转化与 RPO 披露 / Q3 backlog conversion and RPO disclosures",
+        "nextCheckDate": "2026-11",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-12"
       },
       {
         "id": "revenue-quality-circularity",
@@ -2064,10 +2072,13 @@
           "en": "top-2 customers stay >~2/3 of revenue; NVIDIA remains a contracted demand backstop"
         },
         "latest": {
-          "zh": "微软历史上 >60%（CNBC 引 2024 年 62%）；NVIDIA = 供应商+股东（$20 亿@$87）+兜底",
-          "en": "Microsoft historically >60% (CNBC cited 62% for 2024); NVIDIA = supplier + shareholder ($2B at $87) + backstop"
+          "zh": "2026-08-12 提交的 10-Q：截至 2026-06-30 的三个月，前三大客户分别占收入 36%、26%、10%，无其他客户达到 10%；而截至 2025-06-30 的三个月为单一客户占 71%。前两大客户合计 62%，低于本触发条件约三分之二的门槛。10-Q 将 NVIDIA 描述为其基础设施所用全部 GPU 的供应商、2026 年 1 月以每股 $87.20 认购约 2,300 万股 A 类普通股（总额 $2.0B）的投资人，以及 2026 年 1 月合作框架的对手方，但本次申报未重述任何合约性需求兜底。已披露的具名客户承诺为 OpenAI 最高约 $6.5B（至 2031-05-31）与 Meta 初始最高约 $21.0B。按合取解读本监测项自身的触发条件：量化分支已明确低于门槛，兜底分支在本次申报中亦无证据，两者均不成立，读数为 within。证据边界：集中度以未具名的 Customer A／B／C 百分比披露，36% 与 26% 客户的身份未由申报文件确立。",
+          "en": "Form 10-Q filed 2026-08-12: for the three months ended 2026-06-30 the top three customers were 36%, 26% and 10% of revenue with no other customer at 10% or more, against a single top customer at 71% for the three months ended 2025-06-30. The top two therefore sum to 62%, below this trigger's roughly two-thirds threshold. The 10-Q describes NVIDIA as the supplier of all GPUs used in the infrastructure today, as a January 2026 purchaser of approximately 23 million Class A shares at $87.20 per share for $2.0B, and as a January 2026 collaboration-framework counterparty, but does not restate any contracted demand backstop in this filing. Named customer commitments disclosed are OpenAI up to approximately $6.5B through 2031-05-31 and Meta initially up to approximately $21.0B. Read conjunctively against this item's own trigger, the quantitative clause is decisively below its threshold and the backstop clause is unevidenced in this filing, so neither holds and the reading is within. Evidence limit: concentration is disclosed as unnamed Customer A/B/C percentages, so the filing does not establish which customers the 36% and 26% shares belong to."
         },
-        "nextCheck": "客户集中度 % 与关联方披露 / concentration & related-party disclosures"
+        "nextCheck": "2026-Q3 客户集中度 % 与关联方披露 / Q3 concentration and related-party disclosures",
+        "nextCheckDate": "2026-11",
+        "reading": "within",
+        "readingAsOf": "2026-08-12"
       },
       {
         "id": "solvency-gpu-life-stress",
@@ -2082,10 +2093,13 @@
           "en": "24-month debt service + lease/purchase commitments exceed contracted + liquid coverage under a 'GPU life = 3 years' stress"
         },
         "latest": {
-          "zh": "约 $249 亿债务 + 约 $100 亿经营租赁；Q1 利息净额 $5.36 亿（年化约 $21 亿）；GPU 6 年折旧有争议",
-          "en": "~$24.9B debt + ~$10.1B operating leases; Q1 interest net $536M (~$2.1B annualized); 6-yr GPU depreciation contested"
+          "zh": "2026-08-12 提交的 10-Q：2026-06-30 总有息负债 $35.6B（前一读数约 $24.9B），另有 $10.0B 未提取额度；债务本金到期表为 2026 年剩余 $4,413M、2027 年 $6,184M、2028 年 $4,416M、2029 年 $2,421M、2030 年 $3,221M、其后 $14,896M，合计 $35,551M。经营租赁负债 $16.3B，融资租赁负债合计 $221M；现金及等价物 $5,524M，另有受限现金流动 $873M、非流动 $507M。二季度利息净支出 $640M（合约利息 $592M，资本化利息 $79M），去年同期 $267M。截至 2028-06-30 的 24 个月内已签约收入仅以 RPO 的 41%（约 $42.5B）形式披露。读数为 unclear：本监测项的触发条件要求在“GPU 使用寿命 3 年”的压力情景下，把 24 个月的还本付息加租赁与采购承诺，与已签约加可动用流动性的覆盖度作比较；而申报文件按自然年度而非 24 个月窗口披露本金，未提供任何 GPU 使用寿命敏感性或残值假设，且 RPO 是收入口径而非现金毛利口径，因此该压力测试无法由已披露输入计算得出。此处withheld的理由是压力测试本身的证据不足，而非各分项数据缺失。",
+          "en": "Form 10-Q filed 2026-08-12: total indebtedness was $35.6B at 2026-06-30 against about $24.9B in the prior reading, with $10.0B of undrawn availability. Scheduled principal payments are $4,413M for the remainder of 2026, $6,184M in 2027, $4,416M in 2028, $2,421M in 2029, $3,221M in 2030 and $14,896M thereafter, totalling $35,551M. Operating lease liabilities are $16.3B and finance lease liabilities total $221M; cash and equivalents are $5,524M with restricted cash of $873M current and $507M non-current. Q2 interest expense net was $640M, comprising $592M of contractual interest less $79M of capitalized interest, against $267M a year earlier. Contracted revenue over the 24 months to 2028-06-30 is disclosed only as 41% of $103.7B of RPO, about $42.5B. Reading: unclear. This item's trigger requires 24-month debt service plus lease and purchase commitments to be set against contracted plus liquid coverage under a GPU-life-equals-three-years stress, and the filing discloses principal by calendar year rather than over a 24-month window, provides no GPU useful-life sensitivity or residual-value assumption, and states RPO as revenue rather than cash margin, so that stress cannot be computed from the disclosed inputs. The grade is withheld for evidence insufficiency on the stress itself, not because the individual components are unavailable."
         },
-        "nextCheck": "到期结构/利息覆盖/折旧政策 / maturities & coverage"
+        "nextCheck": "到期结构、利息覆盖与折旧政策的进一步披露 / further maturity, coverage and depreciation-policy disclosure",
+        "nextCheckDate": "2026-11",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-12"
       },
       {
         "id": "self-build-pricing-crack",
@@ -2100,10 +2114,13 @@
           "en": "a top customer publicly cuts commitments, or GPU rental ASPs fall alongside utilization"
         },
         "latest": {
-          "zh": "微软自建（MAI）、OpenAI 分散至 Stargate/Oracle/Broadcom；Core Scientific 收购被否",
-          "en": "Microsoft self-build (MAI); OpenAI diversifying to Stargate/Oracle/Broadcom; Core Scientific deal rejected"
+          "zh": "2026-08-11 业绩与 2026-08-12 提交的 10-Q：期内没有任何主要客户削减承诺。10-Q 载明 OpenAI 承诺最高约 $6.5B（至 2031-05-31）、Meta 初始承诺最高约 $21.0B；新闻稿称 Q3 初新增逾 $250 亿净新增客户承诺，并点名 Bentley Systems、Caterpillar、Grammarly、Isomorphic Labs、Sunday Robotics 等新客户，以及 Cognition、Databricks、Hudson River Trading、Periodic Labs、Rescale、Runway ML 等既有客户扩容。季内 active power 增加近 500MW 至 1.5GW，contracted power 增至约 3.7GW。读数为 unclear：本触发条件为析取（主要客户公开削减承诺，或 GPU 租金 ASP 随利用率一同下滑），第一分支已明确为否（承诺是扩张而非削减），但新闻稿与 10-Q 均未披露 GPU 租金 ASP 或利用率，第二分支无法检验，因此整个析取式未定。",
+          "en": "Q2 2026 results 2026-08-11 and Form 10-Q filed 2026-08-12: no top customer reduced its commitments in the period. The 10-Q states OpenAI committed up to approximately $6.5B through 2031-05-31 and Meta initially committed up to approximately $21.0B, and the release states more than $25B of net new customer commitments were added in early Q3, naming new customers including Bentley Systems, Caterpillar, Grammarly, Isomorphic Labs and Sunday Robotics and expanded relationships including Cognition, Databricks, Hudson River Trading, Periodic Labs, Rescale and Runway ML. Active power grew by nearly 500MW during the quarter to 1.5GW and total contracted power to approximately 3.7GW. Reading: unclear. This trigger is disjunctive — a top customer publicly cuts commitments, or GPU rental ASPs fall alongside utilization — and its first clause is decisively negative because commitments expanded rather than being cut, but neither the release nor the 10-Q discloses GPU rental ASPs or utilization, so the second clause cannot be tested and the disjunction as a whole is undetermined."
         },
-        "nextCheck": "微软/OpenAI 产能表态、租金 ASP 与利用率 / capacity commentary, ASP & utilization"
+        "nextCheck": "微软/OpenAI 产能表态、租金 ASP 与利用率 / capacity commentary, ASP and utilization",
+        "nextCheckDate": "2026-11",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-12"
       }
     ],
     "conviction": "medium",
@@ -3589,13 +3606,13 @@
       {
         "date": "2026-06-25",
         "stance": "neutral-watch",
-        "price": 2917000.0
+        "price": 2917000
       },
       {
         "date": "2026-07-07",
         "stance": "cautious",
         "conviction": "medium",
-        "price": 2917000.0
+        "price": 2917000
       },
       {
         "date": "2026-07-29",
@@ -3686,7 +3703,7 @@
     "priceSymbol": "ALM",
     "title": "Almonty Industries 深度研究报告 - 西方钨供应链稀缺资产的兑现考验",
     "titleEn": "Almonty Industries Deep Research Report - Western Tungsten Scarcity Asset Execution Test",
-    "summary": "【2026-07-31 立场重新裁定：ALM 于 2026-07-30 收于 $11.67，较 07-29 低点反弹 +6.6%、较原锚点 -28.0%，市值约 $3.3B；按所有者 Q1 裁定按当前价格复核，维持谨慎（中确信）——立场依据是 Sangdong 执行风险与 NAV 框架，而非销售倍数。】2026-06-23完整重跑版：ALM股价约$18.59、市值约$5.29B；Nasdaq上市和Sangdong战略稀缺性提高关注度，但当前估值要求矿山按计划放量、钨价维持高位且融资稀释可控。",
+    "summary": "2026-08-13 监测更新：Almonty 2026 年二季度收入 C$42,989 千元（同比 +498%），矿业经营利润 C$26,103 千元、调整后 EBITDA C$17,564 千元。公司整体 WO3 MTU 销量较一季度减少 21.1%，但 MD&A 同时说明部分 3 月发货在 4 月收货并于二季度确认，因此不能把环比收入变化纯归因于价格或把公司整体销量当作 Sangdong 产量。欧洲 APT 报价升至 2026-06 末 US$3,075/MTU，2026-08-07 约 US$3,087/MTU；Sangdong 一期仍处试车与爬坡。新闻稿日期为 2026-08-11，Form 6-K 于 2026-08-12 提交。此次未重算估值，谨慎／中确信仍沿用 2026-07-30 收盘 $11.67 的完整裁定。",
     "tags": [
       "钨矿",
       "关键矿物",
@@ -3695,20 +3712,20 @@
     ],
     "category": "energy",
     "date": "2026-02-19",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-13",
     "file": "/invest/research/reports/view.html?id=almonty-2026",
     "markdownFiles": {
       "zh": "/invest/research/Almonty_Industries_深度研究报告_2026-02.md",
       "en": "/invest/research/Almonty_Industries_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "2026-07-31 重新裁定：$11.67（2026-07-30 收盘），较 07-29 低点反弹 +6.6%，市值约 $3.3B；维持谨慎 / 中确信",
-      "股价约$18.59、市值约$5.29B，52周区间约$3.16-$24.41",
-      "官方financials页面已列出Q1 2026财报、财务报表和MD&A",
-      "Sangdong满产后预计供应全球非中国钨产量80%以上，是核心价值锚",
-      "结论调整为中性/高风险观察：战略稀缺性强，但项目必须兑现"
+      "2026-07-31 完整裁定：$11.67（2026-07-30 收盘）；维持谨慎 / 中确信，本次监测未重算 NAV 或倍数",
+      "2026Q2 收入 C$42,989 千元（同比 +498%）、矿业经营利润 C$26,103 千元、调整后 EBITDA C$17,564 千元",
+      "公司整体 WO3 MTU 销量环比 -21.1%，但 3 月发货在 4 月确认形成时点影响；不能据此推断 Sangdong 产量",
+      "欧洲 APT 报价 2026-06 末 US$3,075/MTU、2026-08-07 约 US$3,087/MTU；公司未披露本季实现单价",
+      "Sangdong 一期仍在试车与爬坡；tungsten-price within，sangdong-ramp unclear"
     ],
-    "summaryEn": "[2026-07-31 stance re-adjudication: ALM closed at $11.67 on 2026-07-30, +6.6% off the 07-29 low and -28.0% from its old anchor, for about $3.3B market cap; re-checked at the current price under the owner's Q1 ruling, cautious (medium conviction) holds — the stance rests on Sangdong execution risk and NAV framing, not the sales multiple.] June 23, 2026 full rerun: ALM trades around $18.59 with roughly $5.29B market cap. Nasdaq liquidity and Sangdong scarcity improve visibility, but valuation requires mine ramp execution, elevated tungsten prices, and controlled financing dilution.",
+    "summaryEn": "August 13, 2026 monitoring update: Almonty reported Q2 2026 revenue of C$42,989 thousand (+498% YoY), mining income of C$26,103 thousand and adjusted EBITDA of C$17,564 thousand. Company-wide WO3 MTUs sold fell 21.1% from Q1, but the MD&A also says some March shipments were received and recognized in April, so sequential revenue cannot be attributed purely to price and company-wide sales volume is not a Sangdong production measure. The European APT quotation reached US$3,075/MTU at June 2026 month-end and about US$3,087/MTU on August 7; Sangdong Phase I remains in commissioning and ramp-up. The release is dated August 11 and the Form 6-K was filed August 12, 2026. Valuation was not recomputed, and cautious / medium conviction remains the full adjudication anchored to the July 30, 2026 close of $11.67.",
     "period": "2026H1",
     "versionType": "full-cycle",
     "versionLabel": "2026H1 Full Rerun",
@@ -3729,7 +3746,7 @@
     "coverageTier": "full",
     "stance": "cautious",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q1 2026",
+    "reportedPeriod": "Q2 2026",
     "monitoring": [
       {
         "id": "sangdong-ramp",
@@ -3744,10 +3761,13 @@
           "en": "the mine misses its ramp plan — the first premise of the current valuation breaks"
         },
         "latest": {
-          "zh": "Sangdong 满产后预计供应全球非中国钨产量 80% 以上",
-          "en": "Sangdong at full production expected to supply >80% of non-China tungsten output"
+          "zh": "2026 年二季度（新闻稿日期 2026-08-11，2026-08-12 随 6-K 提交）：Sangdong 一期仍处于试车与爬坡阶段；公司称完全投产后目标处理量约每年 640,000 吨，二期规划最高 1,200,000 吨。MD&A 披露的是公司整体 WO3 MTU 销量较一季度减少 21.1%，并说明部分 3 月发货在 4 月收货、于二季度确认；该数字不是 Sangdong 的季度产量或爬坡达成率。读数为 unclear：公司未公布季度爬坡时程、产量目标、绝对 Sangdong 产量或达成率，无法按触发条件判定是否失速。",
+          "en": "Q2 2026 (release dated August 11 and furnished on Form 6-K filed August 12, 2026): Sangdong Phase I remains in commissioning and ramp-up; the company states targeted throughput of about 640,000 tonnes per year at full operation and up to 1.2 million tonnes under the Phase II plan. The MD&A discloses a 21.1% sequential decline in company-wide WO3 MTUs sold and says some March shipments were received and recognized in April; that figure is not Sangdong quarterly production or ramp attainment. Reading: unclear. The company publishes no quarterly ramp schedule, production target, absolute Sangdong output or attainment rate against which the trigger can be graded."
         },
-        "nextCheck": "季度产量/项目里程碑 / quarterly output & milestones"
+        "nextCheck": "季度产量、爬坡里程碑与绝对 MTU 销量 / quarterly output, ramp milestones and absolute MTU volumes",
+        "nextCheckDate": "2026-11",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-12"
       },
       {
         "id": "tungsten-price",
@@ -3762,10 +3782,13 @@
           "en": "tungsten prices fall, undermining the valuation premise"
         },
         "latest": {
-          "zh": "估值要求钨价维持高位（2026-06-23 重跑口径）",
-          "en": "valuation requires elevated tungsten prices (June-23 rerun framing)"
+          "zh": "2026 年二季度（新闻稿日期 2026-08-11，2026-08-12 随 6-K 提交）：MD&A 所引欧洲 APT Metal Bulletin 周报价自 2025 年 1 月 US$330/MTU 升至 2026 年 6 月底 US$3,075/MTU，平均中间价自 2026 年 1 月初 US$862.5/MTU 升至 2026-08-07 约 US$3,087/MTU。季度收入 C$42,989 千元，同比 +498%；公司整体 WO3 MTU 销量环比减少 21.1%，同时部分 3 月发货在 4 月确认，故不能把收入环比变化纯归因于价格。2026-07-14 GTP 长期承购协议延长六年、合约总量提高 40%、全部合约量价格提高约 6.3%。严格对照“钨价下跌”的触发条件，公开报价上涨，读数为 within。边界：APT 报价不是 Almonty 的本季实现价格，公司未披露实现单价。",
+          "en": "Q2 2026 (release dated August 11 and furnished on Form 6-K filed August 12, 2026): the European APT Metal Bulletin quotation cited in the MD&A rose from US$330/MTU in January 2025 to US$3,075/MTU at June 2026 month-end, while the average mid-price rose from US$862.5/MTU in early January 2026 to about US$3,087/MTU on August 7. Quarterly revenue was C$42,989 thousand, up 498% YoY; company-wide WO3 MTUs sold fell 21.1% sequentially, while some March shipments were recognized in April, so sequential revenue cannot be attributed purely to price. On July 14, the GTP offtake was extended six years, contracted volume increased 40% and pricing improved about 6.3%. Graded strictly against the trigger of falling tungsten prices, the published quotation rose, so the reading is within. Limit: the APT quotation is not Almonty's realized price, which is not disclosed for the quarter."
         },
-        "nextCheck": "钨价与出口管制动态 / tungsten price & export-control news"
+        "nextCheck": "钨价与出口管制动态，以及 2026-Q3 实现价格 / tungsten price, export-control news and Q3 realized pricing",
+        "nextCheckDate": "2026-11",
+        "reading": "within",
+        "readingAsOf": "2026-08-12"
       },
       {
         "id": "offtake-collections",
@@ -6152,7 +6175,7 @@
         "date": "2026-07-29",
         "stance": "cautious",
         "conviction": "medium",
-        "price": 739.0
+        "price": 739
       },
       {
         "date": "2026-07-31",
@@ -7844,7 +7867,7 @@
     "priceSymbol": "COHR",
     "title": "Coherent 深度研究报告 - AI 光连接层的全栈光子仪表盘",
     "titleEn": "Coherent Deep Research Report - Full-Stack Photonics Dashboard for AI Optical Connectivity",
-    "summary": "【2026-07-31 立场重新裁定：COHR 于 2026-07-30 收于 $249.06，较 07-29 低点反弹 +12.2%、较原锚点 -25.3%，市值约 $48.7B、EV/TTM sales 约 7.5x；按所有者 Q1 裁定，立场由谨慎调整为观望中性（低确信）。】AI 基础设施 optical 层核心光模块/光器件覆盖。Coherent 不是解释 GPU 单价，而是验证 AI 集群网络扩容是否真正穿透到高速光连接、激光器、InP/SiPh 与 CPO/NPO 路线。Q3 FY2026 收入 $1.81B（+21% YoY，pro forma +27%）、非 GAAP 毛利率 39.6%、非 GAAP EPS $1.41；Datacenter & Communications 收入约 $1.362B，占 pro forma 收入约 75%，同比约 +41%。NVIDIA 2026-03 宣布向 Coherent 投资 $2B，并包含多年、数十亿美元采购承诺和未来产能访问权；公司材料给出 1.6T/3.2T/6.4T ZR/ZR+、CPO/NPO、光电路交换与多轨热管理路线。按 2026-07-30 收盘：市值约 $48.7B、EV 约 $49.7B、EV/TTM sales 约 7.5x（旧口径 10.1x），隐含增速要求约 16-24%。观望中性 / 低确信：需求证据真实，旧的负预期差在当前价格下不再成立；Q3 FCF -$3.83 亿的现金流转化仍是主要约束。",
+    "summary": "2026-08-13 监测更新：Coherent FY2026 第四财季收入 $2,045.5M（同比 +33.8%），Datacenter & Communications 收入 $1,615.0M（同比 +58.6%），GAAP 毛利率 38.5%；全财年收入 $7,118.2M。FY2026 经营现金流 $79.5M、资本开支 $1,102.9M，按同口径自由现金流约 -$1,023.4M。数据中心需求与合并毛利率触发条件为 within，但估值／FCF 触发条件维持 unclear，因为新财报已替换 TTM 分母而本次未做完整估值重锚。观望中性／低确信仍沿用 2026-07-30 收盘 $249.06 的完整裁定。",
     "tags": [
       "AI光连接",
       "光模块",
@@ -7853,7 +7876,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-13",
     "file": "/invest/research/reports/view.html?id=coherent-2026",
     "markdownFiles": {
       "zh": "/invest/research/Coherent_深度研究报告_2026-07.md",
@@ -7863,19 +7886,19 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "2026-07-31 重新裁定：$249.06（2026-07-30 收盘），较 07-29 低点反弹 +12.2%，市值约 $48.7B、EV/TTM sales 约 7.5x；立场调整为观望中性 / 低确信",
-      "补齐 optical 层核心大票：COHR 用高速光连接、激光器、InP/SiPh、CPO/NPO 和光电路交换验证 AI 集群带宽需求是否穿透到光层",
-      "Q3 FY2026 收入 $1.81B（+21% YoY；pro forma +27%）、非 GAAP 毛利率 39.6%、非 GAAP EPS $1.41；Datacenter & Communications 约 $1.362B，占 pro forma 收入约 75%，同比约 +41%",
-      "NVIDIA 2026-03 宣布向 Coherent 投资 $2B，并包含多年、数十亿美元采购承诺和未来产能访问权；Coherent 路线包含 1.6T/3.2T/6.4T ZR/ZR+ 与 CPO/NPO 引擎",
-      "观望中性 / 低确信：按 $249.06 约 7.5x EV/TTM sales（旧口径 10.1x）、隐含增速约 16-24% 不高于既有需求证据；Q3 FCF -$383M 与现金流转化是核心约束"
+      "2026-07-31 完整裁定：$249.06（2026-07-30 收盘）；观望中性 / 低确信，本次监测未重算估值",
+      "FY2026 Q4 收入 $2,045.5M（同比 +33.8%），Datacenter & Communications $1,615.0M（同比 +58.6%）",
+      "Q4 GAAP 毛利率 38.5%；FY2027 Q1 指引收入 $2.2-2.4B、non-GAAP 毛利率 39.5%-41.5%",
+      "FY2026 经营现金流 $79.5M、资本开支 $1,102.9M，自由现金流约 -$1,023.4M",
+      "监测：datacenter-communications-mix within；valuation-fcf-risk unclear，等待完整当前价估值重锚"
     ],
-    "summaryEn": "[2026-07-31 stance re-adjudication: COHR closed at $249.06 on 2026-07-30, +12.2% off the 07-29 low and -25.3% from its old anchor, for about $48.7B market cap and ~7.5x EV/TTM sales; under the owner's Q1 ruling the stance moves from cautious to neutral-watch (low conviction).] Core optical-module and photonics coverage for the AI-infrastructure optical layer. Coherent does not explain GPU ASPs; it tests whether AI cluster network expansion is reaching high-speed optical connectivity, lasers, InP/SiPh and CPO/NPO architectures. Q3 FY2026 revenue was $1.81B (+21% YoY; +27% pro forma), non-GAAP gross margin was 39.6%, and non-GAAP EPS was $1.41. Datacenter & Communications revenue was about $1.362B, roughly 75% of pro forma revenue and about +41% YoY. In March 2026, NVIDIA announced a $2B investment in Coherent, including a multi-year, multi-billion-dollar purchase commitment and future capacity access rights; Coherent's roadmap includes 1.6T/3.2T/6.4T ZR/ZR+ and CPO/NPO engines. At the 2026-07-30 close: about $48.7B market cap, $49.7B EV and ~7.5x EV/TTM sales (old caliber 10.1x), implying roughly 16-24% required growth. Neutral-watch / low conviction: demand evidence is real and the old negative gap no longer holds at the current price; cash conversion (Q3 FCF -$383M) remains the main constraint.",
+    "summaryEn": "August 13, 2026 monitoring update: Coherent reported FY2026 Q4 revenue of $2,045.5M (+33.8% YoY), Datacenter & Communications revenue of $1,615.0M (+58.6% YoY) and a 38.5% GAAP gross margin; full-year revenue was $7,118.2M. FY2026 operating cash flow was $79.5M against capex of $1,102.9M, for free cash flow of about -$1,023.4M on the same convention. The datacenter-demand and consolidated-margin trigger is within, while valuation-fcf-risk remains unclear because the print superseded the TTM denominator and this monitoring update did not perform a full valuation re-anchor. Neutral-watch / low conviction remains the full adjudication anchored to the July 30, 2026 close of $249.06.",
     "chainLayer": "optical",
     "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "neutral-watch",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "FY2026 Q3",
+    "reportedPeriod": "FY2026",
     "related": [
       "nvidia-2026",
       "aaoi-2026",
@@ -7915,11 +7938,13 @@
           "en": "datacenter communications revenue keeps growing without diluting gross margin"
         },
         "latest": {
-          "zh": "Q3 约 $1.362B，占 pro forma 收入约 75%，同比约 +41%",
-          "en": "Q3 about $1.362B, roughly 75% of pro forma revenue and about +41% YoY"
+          "zh": "FY2026 第四财季业绩（2026-08-12，财年截至 2026-06-30）：Datacenter & Communications 收入 $1,615.0M，对上一财季 $1,361.6M 为环比 +18.6%，对去年同期 $1,018.3M 为同比 +58.6%；全财年 $5,274.6M 对上财年 $3,755.2M。合并收入 $2,045.5M（环比 +13.3%、同比 +33.8%），GAAP 毛利率 38.5%（环比 +82bps、同比 +277bps），non-GAAP 毛利率 40.2%（同比 +215bps）；全财年 GAAP 毛利率 37.5%（+233bps）。FY2027 第一财季指引收入 $2.2-2.4B、non-GAAP 毛利率 39.5%-41.5%。严格对照本监测项自身的触发条件（数据中心通信收入持续增长且未稀释毛利率）：两条均成立，读数为 within。证据边界：毛利率仅按合并口径披露，公司不公布分部毛利率，因此“未稀释毛利率”仅在合并层面成立；同期 Industrial 收入由去年同期 $511.1M 降至 $430.5M，合并毛利率扩张与该结构变化同时发生。",
+          "en": "FY2026 fourth-quarter results (2026-08-12, fiscal year ended 2026-06-30): Datacenter & Communications revenue was $1,615.0M against $1,361.6M in FY26 Q3, up 18.6% sequentially, and $1,018.3M in FY25 Q4, up 58.6% year over year; the full fiscal year was $5,274.6M against $3,755.2M. Consolidated revenue was $2,045.5M, up 13.3% sequentially and 33.8% year over year, at a GAAP gross margin of 38.5%, up 82 basis points sequentially and 277 basis points year over year, with non-GAAP gross margin of 40.2%, up 215 basis points; full-year GAAP gross margin was 37.5%, up 233 basis points. FY2027 first-quarter guidance is revenue of $2.2B to $2.4B at a 39.5% to 41.5% non-GAAP gross margin. Graded against this item's own trigger — datacenter communications revenue keeps growing without diluting gross margin — both legs held, so the reading is within. Evidence limit: gross margin is disclosed on a consolidated basis only and the company publishes no segment gross margin, so the no-dilution leg is established at consolidated level only, and that expansion coincided with Industrial revenue falling to $430.5M from $511.1M a year earlier."
         },
-        "nextCheck": "FY2026 Q4 segment mix",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "FY2027 Q1 segment mix 与毛利率 / FY2027 Q1 segment mix and gross margin",
+        "nextCheckDate": "2026-11",
+        "reading": "within",
+        "readingAsOf": "2026-08-12"
       },
       {
         "id": "inp-capacity-ramp",
@@ -7972,13 +7997,13 @@
           "en": "growth relies on negative FCF, inventory/receivable build or capex expansion while the multiple stays elevated"
         },
         "latest": {
-          "zh": "2026-07-31 估值重锚（非财报，仅价格）：2026-07-30 收盘 $249.06（较旧 $333.36 锚点跌约 25.3%）；市值约 $48.7B、EV 约 $49.7B，P/S(TTM) 约 7.4x、EV/TTM sales 约 7.5x（旧口径约 10.1x）。立场由 cautious 上调为 neutral-watch / 低确信；Q3 FCF 仍为 -$383M，2026-08-12 的 FY2026 Q4 财报是下一个现金流检验点。",
-          "en": "2026-07-31 valuation re-anchor (price-only, not an earnings update): COHR closed at $249.06 on 2026-07-30 (about -25.3% from the old $333.36 anchor); market cap about $48.7B, EV about $49.7B, P/S (TTM) about 7.4x, EV/TTM sales about 7.5x (old caliber about 10.1x). Stance moved from cautious to neutral-watch / low conviction; Q3 FCF was still -$383M, and the 2026-08-12 FY2026 Q4 print is the next cash-flow test."
+          "zh": "FY2026 全年业绩（2026-08-12）：新闻稿 Table 4 仅披露全财年现金流、未披露单季——FY2026 经营活动净现金流入 $79.5M（上财年 $633.6M），购置物业、厂房及设备 $1,102.9M（上财年 $440.8M）。沿用前一读数的“经营现金流减资本开支”口径，FY2026 自由现金流约为 -$1,023.4M，上财年约为 +$192.8M；由于未披露单季拆分，前一读数中 FY26 Q3 的 -$383M 仅在全年层面被取代。读数维持 unclear，但理由已改变：本触发条件为合取——增长依赖负自由现金流、存货／应收堆积或资本开支扩张，且倍数维持在高位——其第一个分支现已明确成立；但用以检验第二个分支的已发布倍数（约 7.4x P/S TTM、约 7.5x EV/TTM sales，均锚定 2026-07-30 收盘 $249.06）是以截至 FY26 Q3 的 TTM 为分母计算的，而本次财报正是取代该分母的事件。因此当前不存在可供检验第二分支的有效倍数，而重建倍数属于完整估值重锚，不在本次纯监测更新的授权范围内。该点已作为提案写入本次运行回执，未予应用。此处未改变任何估值、立场或确信度。",
+          "en": "FY2026 full-year results (2026-08-12): Table 4 of the release discloses full-year cash flows only and no quarterly split — net cash provided by operating activities was $79.5M against $633.6M in FY2025, and additions to property, plant and equipment were $1,102.9M against $440.8M. On the operating-cash-flow-less-capex convention used in the prior reading, FY2026 free cash flow was approximately -$1,023.4M against approximately +$192.8M in FY2025; because no quarterly split is published, the -$383M FY26 Q3 figure in the prior reading is superseded at the full-year level only. The reading stays unclear but the reason has changed. The trigger is conjunctive — growth relies on negative FCF, inventory or receivable build, or capex expansion, while the multiple stays elevated — and its first clause is now decisively satisfied. The published multiple against which the second clause would be tested (about 7.4x P/S on a trailing-twelve-month basis and about 7.5x EV/TTM sales, both anchored to the 2026-07-30 close of $249.06) was computed on a TTM ending FY26 Q3, which is precisely the denominator this print superseded. There is therefore no currently valid multiple against which the second clause can be evaluated, and rebuilding one would be a complete valuation re-anchor outside the scope of this monitoring-only update. It is filed as a proposal in the run receipt and is not applied. No valuation, stance or conviction is changed here."
         },
-        "nextCheck": "FY2026 Q4 cash flow and working capital",
-        "nextCheckDate": "2026-08",
+        "nextCheck": "FY2027 Q1 现金流与营运资金，以及一次完整的当前价估值重锚 / FY2027 Q1 cash flow and working capital, plus a complete current-price valuation re-anchor",
+        "nextCheckDate": "2026-11",
         "reading": "unclear",
-        "readingAsOf": "2026-07-31"
+        "readingAsOf": "2026-08-12"
       }
     ],
     "conviction": "low",

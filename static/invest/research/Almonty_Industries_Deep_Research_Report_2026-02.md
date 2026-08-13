@@ -1,7 +1,7 @@
 # Almonty Industries Deep Research Report
 
 Coverage date: 2026-02-19
-Last updated: 2026-07-31
+Last updated: 2026-08-13
 Ticker: NASDAQ: ALM / TSX: AII
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -18,6 +18,12 @@ This report is the full rerun successor to `almonty-2026-pre-rerun`; the archive
 > The scenario grid's relative verdicts and probability weights were written against the old price and are **not re-weighted here** — the drawdown changed what is being paid, not the execution questions the grid is about. Stance and conviction are unchanged and raised under Q1 of the review questions doc. Almonty is a pre-scale miner: TTM revenue of about $50M against a ~$3.1B market cap means the sales multiple (~62x) is a placeholder for the Sangdong ramp, not a valuation input. The report's own NAV framing remains the right lens.
 
 > **2026-07-31 stance re-adjudication at the 2026-07-30 close — supersedes the "not re-weighted / stance unchanged" language in the old note above.** Owner ruling on Q1 of the review-questions doc (2026-07-31): a published stance and its rationale must hold at the current price — the assessment is re-derived at the latest completed close rather than held open for future evidence. ALM closed at **$11.67** on **2026-07-30**, +6.6% off the old 2026-07-29 low of $10.95 and **-28.0%** from the old $16.21 anchor. Recomputed on the report's own frames: market cap about **$3.30B**, enterprise value about **$3.20B**, P/S (TTM) about **66x**, EV/Sales (TTM) about **64x**. The multiple was never the stance's basis — at ~60-70x sales it is a placeholder for the Sangdong ramp, and NAV framing remains the right lens. Cautious rests on mine-specific execution risk (ramp, grade, timeline, financing dilution) slightly outweighing the non-China tungsten scarcity option; the July price move changes none of that, so the stance is true at the current price. **Stance stays cautious (medium conviction).** Grid weights (30/30/40) retained; this discharges the scenario-grid-reweight-pending monitoring item ahead of the 2026-11 print.
+
+> **2026-08-13 radar update: Q2 2026 results. Monitoring only; no valuation has been recomputed and neither stance nor conviction is re-adjudicated here.** Almonty dated its Q2 2026 results release and MD&A **2026-08-11** and furnished them with a Form 6-K filed **2026-08-12** for the period ended 2026-06-30. Quarterly revenue was **C$42,989 thousand** against C$7,192 thousand a year earlier (**+498%**) and C$25,400 thousand in Q1 2026; income from mining operations was C$26,103 thousand, adjusted EBITDA (non-IFRS) **C$17,564 thousand**, and net income for the period C$181,797 thousand. **The price/volume split cannot be isolated cleanly:** the MD&A states company-wide sales were **21.1% fewer MTUs of WO3** than in Q1, but it also says some March shipments were received and recognized in April. The sequential revenue increase therefore coincided with higher quoted prices and shipment timing; it cannot be attributed purely to realized price, and company-wide sales volume is not a Sangdong production measure. Per the MD&A, the Metal Bulletin European weekly quotation for ammonium paratungstate — the quotation from which Almonty's concentrate prices are derived by formula under its supply agreements — rose from **US$330 per MTU** in January 2025 to **US$3,075 per MTU** at end-June 2026, and average mid-prices rose from US$862.5 per MTU in early January 2026 to approximately **US$3,087 per MTU as at 2026-08-07**. Subsequent to quarter end, on **2026-07-14** the long-term Global Tungsten & Powders offtake was amended to **extend the term by six years, raise total contracted volumes by 40% and improve pricing on all contracted volumes by about 6.3%**. The 2.25% convertible senior notes due 2031 closed 2026-06-09 for US$800M gross, and cash was C$1.2 billion at 2026-06-30 against C$268.4M at 2025 year end.
+>
+> Readings, each graded strictly against that item's own published trigger. `tungsten-price` is **within**: the trigger asks whether tungsten prices fall and undermine the valuation premise, and prices rose. `sangdong-ramp` is **unclear**: Phase I remains in commissioning and ramp-up with targeted throughput of approximately 640,000 tonnes per year and a fully permitted Phase II contemplated at up to 1.2 million tonnes per year, but the company publishes **no quarterly ramp schedule, production target or attainment rate**; the 21.1% figure is company-wide sales volume, not Sangdong output, and cannot be graded against the mine ramp. That is evidence insufficiency on the trigger's own terms, not a withheld adverse grade.
+>
+> **Limits and what is not done here.** The APT quotations are third-party market prices, **not Almonty's realized price**, which the company does not disclose for the quarter, and the absolute contracted volume and unit price under the GTP amendment are undisclosed. Net income of C$181,797 thousand and adjusted EBITDA of C$17,564 thousand differ by an order of magnitude, and no operating profitability is inferred from the net income line here. The **cautious / medium-conviction** stance, the price anchor and every multiple in this report remain as dated above; the Q2 print supersedes the TTM revenue denominator underneath the published ~66x P/S (TTM) and ~64x EV/Sales (TTM) figures, which are deliberately **not** recomputed here. Source: [Almonty Industries Q2 2026 results and MD&A, Form 6-K (filed 2026-08-12; release dated 2026-08-11)](https://www.sec.gov/Archives/edgar/data/1670061/000149315226037264/form6-k.htm).
 
 **Current view:** *Old frame, superseded by the 2026-07-31 re-anchor — the price, market cap, enterprise value and every multiple in this paragraph are old-caliber levels:* Cautious, medium conviction. `prices.json` shows ALM at **$16.21** on the Jul 6, 2026 close; using the Jun 22 price / market-cap frame implies roughly **$4.6B** of current market cap. Tungsten scarcity and the non-China supply option remain real, but today's price still requires Sangdong ramp, cash cost, offtake collection, and dilution risk to all work in Almonty's favor.
 
@@ -37,7 +43,7 @@ This report is the full rerun successor to `almonty-2026-pre-rerun`; the archive
 
 | Metric | Value |
 |--------|-------|
-| Price (2026-06-22) | ~$18.59 |
+| Historical price (2026-06-22; superseded) | ~$18.59 |
 | Market Cap (2026-06-22) | ~$5.29B |
 | 52-Week Range | $3.16 - $24.41 |
 | Ticker | NASDAQ: ALM / TSX: AII |
@@ -213,4 +219,4 @@ Upgrade trigger: Move to neutral-watch or constructive if Sangdong confirms comm
 - Almonty financials: `https://almonty.com/investors/financials/`
 - Almonty news: `https://almonty.com/news/`
 - Company filings, offtake announcements, and SEC/SEDAR disclosures for Sangdong, financing, and reserve updates.
-- Nasdaq quote API: ALM $18.59 and roughly $5.29B market cap on June 22, 2026.
+- Historical Nasdaq quote API snapshot: ALM $18.59 and roughly $5.29B market cap on June 22, 2026; superseded by the dated update above.

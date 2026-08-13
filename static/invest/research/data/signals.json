@@ -1,5 +1,152 @@
 [
   {
+    "id": "coherent-q4-fy2026-datacom-mix-fcf",
+    "date": "2026-08-12",
+    "title": {
+      "zh": "Coherent FY2026 Q4：数据中心与通信收入 $1,615.0M（同比 +58.6%），合并 GAAP 毛利率升至 38.5%，但全财年自由现金流为负",
+      "en": "Coherent FY2026 Q4: datacenter & communications revenue $1,615.0M (+58.6% YoY) with consolidated GAAP gross margin up to 38.5%, against a negative full-year free cash flow"
+    },
+    "detail": {
+      "zh": "据 Coherent 于 2026-08-12 发布、随 8-K（Item 2.02 / 7.01）作为 Exhibit 99.1 提交的 FY2026 第四财季与全年业绩（财年截至 2026-06-30）：第四财季收入 $2,045.5M，环比 +13.3%、同比 +33.8%；GAAP 毛利率 38.5%（环比 +82bps、同比 +277bps），non-GAAP 毛利率 40.2%（同比 +215bps）；GAAP 摊薄每股收益 $1.19（同比 +$2.02），non-GAAP 摊薄每股收益 $1.74（同比 +$0.74）。分部收入：Datacenter & Communications 第四财季 $1,615.0M，对上一财季 $1,361.6M 为环比 +18.6%，对去年同期 $1,018.3M 为同比 +58.6%；全财年 $5,274.6M 对上财年 $3,755.2M；Industrial 第四财季 $430.5M，低于去年同期 $511.1M，全财年 $1,843.6M 低于上财年 $2,054.9M。合并全财年收入 $7,118.2M，对上财年 $5,810.1M 为 +22.5%，全财年 GAAP 毛利率 37.5%（+233bps）。现金流按新闻稿 Table 4（仅披露全财年、未披露单季）：FY2026 经营活动净现金流入 $79.5M，对上财年 $633.6M；购置物业、厂房及设备 $1,102.9M，对上财年 $440.8M。以经营现金流减资本开支计，FY2026 自由现金流为约 -$1,023.4M，对上财年约 +$192.8M。FY2027 第一财季指引：收入 $2.2-2.4B，non-GAAP 毛利率 39.5%-41.5%，non-GAAP 每股收益 $1.85-2.05。管理层将增长归因于 AI 数据中心架构从铜连接向光连接迁移。证据边界：毛利率仅按合并口径披露，公司未公布分部毛利率，因此“数据中心通信收入增长未稀释毛利率”只在合并层面成立，且合并毛利率扩张与 Industrial 收入下滑同时发生；新闻稿与投资者材料均未披露单季自由现金流、未按季拆分资本开支、未披露 backlog 或购买承诺金额，全文未提及 NVIDIA 或任何客户的长期采购协议转化情况；指引为 non-GAAP 且未提供 GAAP 对账。本条不含投资建议、评级或价格目标。",
+      "en": "Per Coherent's fiscal 2026 fourth-quarter and full-year results issued 2026-08-12 and furnished as Exhibit 99.1 to its 8-K under Items 2.02 and 7.01, for the fiscal year ended 2026-06-30: fourth-quarter revenue was $2,045.5M, up 13.3% sequentially and 33.8% year over year; GAAP gross margin was 38.5%, up 82 basis points sequentially and 277 basis points year over year, and non-GAAP gross margin was 40.2%, up 215 basis points year over year; GAAP diluted EPS was $1.19, up $2.02 year over year, and non-GAAP diluted EPS was $1.74, up $0.74. By segment, Datacenter & Communications revenue was $1,615.0M in the fourth quarter against $1,361.6M in the prior quarter, up 18.6% sequentially, and against $1,018.3M a year earlier, up 58.6% year over year; the full year was $5,274.6M against $3,755.2M. Industrial revenue was $430.5M in the fourth quarter, below the $511.1M reported a year earlier, and $1,843.6M for the full year against $2,054.9M. Consolidated full-year revenue was $7,118.2M against $5,810.1M, up 22.5%, at a full-year GAAP gross margin of 37.5%, up 233 basis points. On cash flow, Table 4 of the release discloses full-year figures only and no quarterly split: fiscal 2026 net cash provided by operating activities was $79.5M against $633.6M in fiscal 2025, while additions to property, plant and equipment were $1,102.9M against $440.8M. Computed as operating cash flow less additions to property, plant and equipment, fiscal 2026 free cash flow was approximately -$1,023.4M against approximately +$192.8M in fiscal 2025. First-quarter fiscal 2027 guidance is revenue of $2.2 billion to $2.4 billion, non-GAAP gross margin of 39.5% to 41.5%, and non-GAAP EPS of $1.85 to $2.05. Management attributes the growth to AI datacenter architectures transitioning from copper to optical connectivity. Evidence limits: gross margin is disclosed on a consolidated basis only and the company publishes no segment gross margin, so the proposition that datacenter communications growth did not dilute gross margin holds at the consolidated level only, and that consolidated expansion coincided with a decline in Industrial revenue; neither the release nor the investor presentation discloses quarterly free cash flow, a quarterly capital-expenditure split, backlog, or purchase-commitment amounts, and neither mentions NVIDIA or the conversion of any customer long-term purchase agreement; guidance is stated on a non-GAAP basis with no GAAP reconciliation provided. This entry carries no investment advice, rating or price target."
+    },
+    "crossChecks": [
+      "chip-vs-downstream"
+    ],
+    "tickers": [
+      "COHR"
+    ],
+    "reportIds": [
+      "coherent-2026"
+    ],
+    "monitoringRefs": [
+      "coherent-2026:datacenter-communications-mix",
+      "coherent-2026:valuation-fcf-risk"
+    ]
+  },
+  {
+    "id": "nebius-q2-2026-scale-capex-prepayments",
+    "date": "2026-08-12",
+    "title": {
+      "zh": "Nebius Q2 2026：收入 $582.3M（同比 +454%），调整后 EBITDA 转正至 $236.2M，单季资本开支 $5,657.4M，现金 $8,042.1M 对非流动债务 $8,499.0M",
+      "en": "Nebius Q2 2026: revenue $582.3M (+454% YoY) with adjusted EBITDA turning positive at $236.2M, quarterly capex of $5,657.4M, and cash of $8,042.1M against non-current debt of $8,499.0M"
+    },
+    "detail": {
+      "zh": "据 Nebius Group N.V. 于 2026-08-12 提交的两份 6-K（新闻稿 Exhibit 99.1，以及经营与财务回顾及未经审计简明合并财务报表），期间截至 2026-06-30：持续经营收入 Q2 为 $582.3M，去年同期 $105.1M，同比 +454%；H1 为 $981.3M，去年同期 $156.0M。按 H1 减 Q2 推算，Q1 2026 收入为 $399.0M。调整后 EBITDA Q2 为 $236.2M，去年同期为 -$21.0M；H1 为 $365.7M，去年同期 -$74.7M。持续经营净利润／亏损 Q2 为 -$190.4M（去年同期 +$502.5M）；H1 为 +$430.8M（去年同期 +$398.2M）。调整后净亏损 Q2 -$33.2M（去年同期 -$91.5M）。经营成本合计 Q2 $758.2M，占收入 130%（去年同期 206%）；其中折旧摊销 $259.7M（占收入 45%，去年同期 72%）、股份支付合计 $102.5M。现金流：持续经营经营活动净现金流入 Q2 $2,246.1M、H1 $4,504.1M（去年同期分别为 -$167.7M、-$352.0M）；购置物业设备与无形资产 Q2 $5,657.4M、H1 $8,130.3M（去年同期 -$510.6M、-$1,054.5M）；H1 融资活动净流入 $9,160.4M，主要为可转债发行总额 $4,337.5M、库存股出售 $2,846.7M 与预付权证发行 $2,000.0M。资产负债表：现金及等价物 $8,042.1M；非流动债务 $8,499.0M（2025 年末 $4,103.2M）；非流动递延收入 $4,995.8M（$1,302.0M）；物业与设备净额 $13,045.2M（$5,553.3M）；总资产 $27,961.5M（$12,430.6M）。Q2 利息支出 $119.1M（去年同期 $4.8M）。公司在流动性章节把“战略客户合约项下收到的预付款”与股债融资、NVIDIA 投资并列为主要流动性来源。截至 2026-06-30 已发行在外股份 271,855,218 股。证据边界：季度经营现金流入 $2,246.1M 约为同期收入的 3.9 倍，只可能主要由客户预付款与递延收入构成（非流动递延收入同期增加约 $3,693.8M），不得读作经营性盈利转正；两份 6-K 均未披露 ARR、backlog、利用率或任何客户层面的收入占比，也未披露微软或 Meta 的当期收入贡献；净利润的期间波动包含权益证券重估等非现金项目；Avride 与 TripleTen 合并在同一套报表内，未按分部披露 AI 云的独立盈利能力。本条不含投资建议、评级或价格目标。",
+      "en": "Per two Forms 6-K furnished by Nebius Group N.V. on 2026-08-12, comprising the results release as Exhibit 99.1 and the operating and financial review with unaudited condensed consolidated financial statements, for the period ended 2026-06-30: revenue from continuing operations was $582.3M in the second quarter against $105.1M a year earlier, up 454%, and $981.3M for the first half against $156.0M. Deducting the second quarter from the first half implies first-quarter 2026 revenue of $399.0M. Adjusted EBITDA was $236.2M in the second quarter against -$21.0M a year earlier, and $365.7M for the first half against -$74.7M. Net income or loss from continuing operations was -$190.4M in the second quarter against +$502.5M a year earlier, and +$430.8M for the first half against +$398.2M. Adjusted net loss was -$33.2M in the second quarter against -$91.5M. Total operating costs and expenses were $758.2M in the second quarter, or 130% of revenue against 206% a year earlier, including depreciation and amortization of $259.7M at 45% of revenue against 72%, and total share-based compensation of $102.5M. On cash flow, net cash provided by operating activities from continuing operations was $2,246.1M in the second quarter and $4,504.1M in the first half, against -$167.7M and -$352.0M a year earlier, while purchases of property and equipment and intangible assets were $5,657.4M in the second quarter and $8,130.3M in the first half, against $510.6M and $1,054.5M. First-half net cash provided by financing activities was $9,160.4M, principally $4,337.5M of gross convertible-note proceeds, $2,846.7M from the sale of treasury shares and $2,000.0M from the issuance of prefunded warrants. Balance sheet: cash and cash equivalents were $8,042.1M; non-current debt was $8,499.0M against $4,103.2M at 2025 year end; non-current deferred revenue was $4,995.8M against $1,302.0M; property and equipment net was $13,045.2M against $5,553.3M; and total assets were $27,961.5M against $12,430.6M. Second-quarter interest expense was $119.1M against $4.8M a year earlier. In its liquidity discussion the company lists advances received under strategic customer contracts alongside equity and debt financing and an investment from NVIDIA Corporation as principal sources of liquidity. Shares issued and outstanding at 2026-06-30 were 271,855,218. Evidence limits: quarterly operating cash inflow of $2,246.1M is roughly 3.9 times the quarter's revenue and can only be composed largely of customer prepayments and deferred revenue, with non-current deferred revenue rising about $3,693.8M over the same period, and it must not be read as operations turning profitable; neither 6-K discloses ARR, backlog, utilization, or any customer-level share of revenue, and neither quantifies Microsoft's or Meta's contribution in the period; period-to-period swings in net income include non-cash items such as equity-securities revaluation; and Avride and TripleTen are consolidated in the same statements, so standalone AI-cloud profitability is not disclosed by segment. This entry carries no investment advice, rating or price target."
+    },
+    "crossChecks": [
+      "chip-vs-downstream"
+    ],
+    "tickers": [
+      "NBIS"
+    ],
+    "reportIds": [
+      "nebius-2026"
+    ],
+    "monitoringRefs": [
+      "nebius-2026:model-vs-balance-sheet",
+      "nebius-2026:earnings-quality-ex-marks",
+      "nebius-2026:concentration-convergence"
+    ]
+  },
+  {
+    "id": "coreweave-q2-2026-backlog-concentration-leverage",
+    "date": "2026-08-11",
+    "title": {
+      "zh": "CoreWeave Q2 2026：收入 $2,575M（同比 +112%），RPO $103.7B，前三大客户降至 36%/26%/10%，总有息负债升至 $35.6B",
+      "en": "CoreWeave Q2 2026: revenue $2,575M (+112% YoY), RPO $103.7B, top-three customers down to 36% / 26% / 10%, total indebtedness up to $35.6B"
+    },
+    "detail": {
+      "zh": "据 CoreWeave 2026-08-11 发布的 Q2 2026 业绩新闻稿（8-K Item 2.02）与 2026-08-12 提交的 10-Q（期间截至 2026-06-30）：季度收入 $2,575M，去年同期 $1,212M，同比 +112%（10-Q 说明该增幅约 93% 来自既有客户扩容）；上季度收入为 $2,078M（H1 $4,653M 减 Q2）。经营亏损 -$49M（去年同期 +$19M），净亏损 -$626M（去年同期 -$290M），利息净支出 $640M（去年同期 $267M）；调整后 EBITDA $1,510M、利润率 59%（去年同期 $753M、62%）。新闻稿列示的公司口径 revenue backlog 于 2026-06-30 约为 $1,040 亿，并在脚注中说明该数字不含 Q3 初新增的逾 $250 亿净新增客户承诺。10-Q 口径的未履约履约义务（RPO）为 $103.7B，其中 41% 预计在截至 2028-06-30 的头 24 个月内确认为收入、39% 在第 25 至 48 个月、其余在第 49 至 78 个月。客户集中度按 10-Q 披露：2026 年二季度前三大客户分别占收入 36%、26%、10%，无其他客户达到 10%；2025 年二季度为单一客户占 71%。10-Q 另披露 2026 年三季度前签署的客户承诺：OpenAI 自 2025 年 9 月起承诺最高约 $6.5B（至 2031-05-31），Meta 自 2026 年 3 月起初始承诺最高约 $21.0B。资产负债表：总资产 $77,070M（2025 年末 $49,302M），物业与设备净额 $46,736M（$30,557M），经营租赁使用权资产 $16,595M（$8,231M），现金及等价物 $5,524M（$3,127M），递延收入合计 $9.7B（$8.2B）。10-Q 明确表述 2026-06-30 总有息负债为 $35.6B，另有 $10.0B 未提取额度；债务本金到期表为 2026 年剩余 $4,413M、2027 年 $6,184M、2028 年 $4,416M、2029 年 $2,421M、2030 年 $3,221M、其后 $14,896M，合计 $35,551M；经营租赁负债 $16.3B。运营指标：新闻稿称季内 active power 增加近 500MW 至 1.5GW，contracted power 增至约 3.7GW。融资口径需注意区分：新闻稿“$3.1 billion term loan”高亮项对应 2026 年 5 月订立的 DDTL 5.0 额度（SOFR+4.50%，2026 年 11 月起按月摊还至 2031 年 5 月），并非 2026-08-07 事件日的 $2.6B DDTL 5.5 额度（已于 2026-08-07 信号单独记录）；10-Q 后续事项披露 DDTL 5.5 于交割后已提取 $1.2B，该点更新了原信号“已签署但未提取”的表述。证据边界：backlog 为公司自定义口径且明确包含估计金额，与 RPO 不是同一口径；RPO 的确认进度仅按三段区间披露，无法映射到精确的 24 个月现金流；债务本金按自然年度而非 24 个月窗口披露；两份文件均未披露 GPU 租赁 ASP、利用率、单客户合约的毛利率或 GPU 折旧年限敏感性；逾 $250 亿“Q3 初净新增承诺”未计入 backlog，也未按客户拆分。本条不含投资建议、评级或价格目标。",
+      "en": "Per CoreWeave's Q2 2026 results release issued 2026-08-11 (8-K Item 2.02) and its Form 10-Q filed 2026-08-12 for the period ended 2026-06-30: quarterly revenue was $2,575M against $1,212M a year earlier, up 112% year over year, and the 10-Q attributes approximately 93% of that increase to expansion within the existing customer base; the prior quarter was $2,078M (H1 $4,653M less Q2). Operating loss was -$49M against +$19M a year earlier, net loss -$626M against -$290M, and interest expense net $640M against $267M; adjusted EBITDA was $1,510M at a 59% margin against $753M at 62%. The release states company-defined revenue backlog of approximately $104 billion as of 2026-06-30 and its footnote states that this figure does not include more than $25 billion of net new customer commitments added in early Q3. The 10-Q reports unsatisfied remaining performance obligations (RPO) of $103.7 billion, of which 41% is expected to be recognized as revenue over the initial 24 months ending 2028-06-30, 39% between months 25 and 48, and the remainder between months 49 and 78. On customer concentration, the 10-Q discloses that the top three customers were 36%, 26% and 10% of revenue for the three months ended 2026-06-30 with no other customer at 10% or more, against a single top customer at 71% for the three months ended 2025-06-30. The 10-Q also describes committed contracts signed before Q3: OpenAI committed to pay up to approximately $6.5 billion through 2031-05-31 under a September 2025 order form, and Meta initially committed to pay up to approximately $21.0 billion under a March 2026 order form. Balance sheet: total assets $77,070M (2025 year end $49,302M), property and equipment net $46,736M ($30,557M), operating lease right-of-use assets $16,595M ($8,231M), cash and cash equivalents $5,524M ($3,127M), and deferred revenue of $9.7 billion ($8.2 billion). The 10-Q states total indebtedness of $35.6 billion as of 2026-06-30 with $10.0 billion of undrawn availability; scheduled principal payments are $4,413M for the remainder of 2026, $6,184M in 2027, $4,416M in 2028, $2,421M in 2029, $3,221M in 2030 and $14,896M thereafter, totalling $35,551M, alongside operating lease liabilities of $16.3 billion. Operationally, the release says active power grew by nearly 500MW during the quarter to reach 1.5GW and total contracted power grew to approximately 3.7GW. One financing distinction matters: the release's '$3.1 billion term loan' highlight corresponds to the DDTL 5.0 Facility entered in May 2026 (SOFR plus 4.50%, amortising monthly from November 2026 with expected final payment in May 2031), and is not the $2.6 billion DDTL 5.5 Facility dated 2026-08-07 that was logged as a separate signal; the 10-Q's subsequent-events disclosure adds that $1.2 billion has been drawn under DDTL 5.5 since closing, which updates that earlier signal's description of it as a signed but undrawn commitment. Evidence limits: revenue backlog is a company-defined measure that expressly includes estimated amounts and is not the same caliber as RPO; the RPO recognition schedule is disclosed only in three coarse bands and cannot be mapped to precise 24-month cash flows; debt principal is disclosed by calendar year rather than over a 24-month window; neither document discloses GPU rental ASPs, utilization, per-contract gross margin, or any GPU-useful-life sensitivity; and the more than $25 billion of early-Q3 net new commitments is excluded from backlog and is not broken out by customer. This entry carries no investment advice, rating or price target."
+    },
+    "crossChecks": [
+      "neocloud-financing",
+      "chip-vs-downstream"
+    ],
+    "tickers": [
+      "CRWV",
+      "NVDA",
+      "META"
+    ],
+    "reportIds": [
+      "coreweave-2026"
+    ],
+    "monitoringRefs": [
+      "coreweave-2026:real-demand-vs-financing",
+      "coreweave-2026:revenue-quality-circularity",
+      "coreweave-2026:solvency-gpu-life-stress",
+      "coreweave-2026:self-build-pricing-crack"
+    ]
+  },
+  {
+    "id": "tsmc-board-capital-appropriations-2026-08",
+    "date": "2026-08-11",
+    "title": {
+      "zh": "台积电董事会核准约 US$29,442.50M 资本支出预算，用途重新纳入先进封装，环比低于 5 月的 US$31,284.30M",
+      "en": "TSMC board approves capital appropriations of approximately US$29,442.50M with advanced packaging back in the stated purposes, below the US$31,284.30M approved in May"
+    },
+    "detail": {
+      "zh": "据台积电 2026-08-11 提交的 6-K《TSMC Board of Directors Meeting Resolutions》：董事会为配合基于市场需求预测与技术发展蓝图的长期产能规划，核准约 US$29,442.50 百万的资本支出预算，用途主要包括：1) 先进制程产能的建置与升级；2) 先进封装、成熟及／或特殊制程产能的建置与升级；3) 晶圆厂建造与厂务系统安装。与同一系列的历次董事会决议对照（均取自台积电 6-K 原文）：2026-05-12 核准约 US$31,284.30M，用途仅列先进制程产能建置与晶圆厂建造，未列先进封装；2026-02-10 核准约 US$44,962.00M，用途含先进封装；2025-11-11 核准约 US$14,981.60M，用途含先进封装及 2026 年研发资本支出、维持性资本支出与资本化租赁资产。本次金额较 2026-05-12 低约 5.9%，而先进封装重新出现在用途清单中。同一次董事会另核准 2026 年第二季每股 NT$7.0 现金股利，并核准与 Sony Semiconductor Solutions 成立影像感测器合资公司、认购股份不超过 2,820 亿日圆（该合资案由 Sony 控股并合并报表，产品为智慧型手机影像感测器，预计 2029 年量产，不属于 AI 基础设施链，本条不据此记录任何链上读数）。证据边界：资本支出预算是董事会授权额度，不是当期资本支出、不是已下达的设备订单、也不是任何设备供应商的 bookings 或 backlog；公告未披露授权的执行期间、按用途的金额拆分、按厂区的分配，也未点名任何设备或 EDA 供应商；这些授权跨越多年，逐次相加不构成年度资本支出；公告亦未单独披露先进封装的排产或产能数字，这正是 advanced-packaging-ownership 规则所指的披露缺口。本条不含投资建议、评级或价格目标。",
+      "en": "Per TSMC's Form 6-K furnished 2026-08-11 titled TSMC Board of Directors Meeting Resolutions: to meet long-term capacity plans based on market demand forecasts and TSMC's technology development roadmap, the board approved capital appropriations of approximately US$29,442.50 million for purposes mainly including 1) installation and upgrade of advanced technology capacity, 2) installation and upgrade of advanced packaging, mature and/or specialty technology capacity, and 3) fab construction and installation of fab facility systems. Against the same series of board resolutions, all taken from TSMC's own 6-K text: 2026-05-12 approved approximately US$31,284.30M for purposes listing only installation of advanced technology capacity and fab construction, with no advanced packaging; 2026-02-10 approved approximately US$44,962.00M including advanced packaging; and 2025-11-11 approved approximately US$14,981.60M including advanced packaging together with 2026 R&D capital investments, sustaining capital expenditures and capitalized leased assets. The current amount is about 5.9% below the 2026-05-12 approval, while advanced packaging reappears in the stated purposes. The same board meeting also approved a NT$7.0 per share cash dividend for the second quarter of 2026 and approved forming a joint venture with Sony Semiconductor Solutions Corporation for next-generation image sensors, subscribing for shares of not more than 282 billion Japanese yen; that joint venture is controlled and consolidated by Sony, produces smartphone image sensors, and is expected to begin volume production in 2029, so it sits outside the AI-infrastructure chain and no chain reading is recorded from it here. Evidence limits: capital appropriations are a board authorization, not capital expenditure in any period, not equipment orders placed, and not bookings or backlog at any equipment supplier; the announcement discloses no execution period for the authorization, no split of the amount by stated purpose, and no allocation by site, and names no equipment or EDA supplier; these authorizations span multiple years and successive approvals must not be summed into an annual capital-expenditure figure; and the announcement discloses no standalone advanced-packaging bookings or capacity figure, which is precisely the disclosure gap the advanced-packaging-ownership rule describes. This entry carries no investment advice, rating or price target."
+    },
+    "crossChecks": [
+      "semicap-eda-capex-commitment",
+      "advanced-packaging-ownership"
+    ],
+    "tickers": [
+      "TSM"
+    ]
+  },
+  {
+    "id": "almonty-q2-2026-apt-price-offtake-uplift",
+    "date": "2026-08-11",
+    "title": {
+      "zh": "Almonty Q2 2026：欧洲 APT 报价升至约 US$3,087/MTU，收入同比 +498% 至 C$43.0M；公司整体 WO3 销量环比减少 21.1%，并受发货确认时点影响",
+      "en": "Almonty Q2 2026: European APT quotations reach about US$3,087/MTU and revenue rises 498% year over year to C$43.0M; company-wide WO3 sales volume falls 21.1% sequentially with shipment-recognition timing also in the comparison"
+    },
+    "detail": {
+      "zh": "据 Almonty Industries 日期为 2026-08-11、于 2026-08-12 随 Form 6-K 提交的 Q2 2026 业绩新闻稿（Exhibit 99.1）与 MD&A（Exhibit 99.3），期间截至 2026-06-30，金额除另注明外均为加元千元：季度收入 C$42,989，去年同期 C$7,192，同比 +498%；矿业经营利润 C$26,103（去年同期 -C$944）；期间净利润 C$181,797（去年同期 -C$58,209）；调整后 EBITDA（非 IFRS）C$17,564（去年同期 -C$4,761）；基本／摊薄每股收益 C$0.64／C$0.62。MD&A 披露 Q2 收入 C$42,989 对 Q1 C$25,400，同时公司整体 WO3 MTU 销量环比减少 21.1%；但文件也说明部分 3 月发货在 4 月收货并于二季度确认，2026-03-31 递延收入 C$3,442 千元包含该影响。因此环比收入变化同时受报价、实现价与确认时点影响，不能纯归因于价格；公司整体销量也不是 Sangdong 的季度产量或爬坡达成率。Metal Bulletin 欧洲 APT 周报价自 2025 年 1 月 US$330/MTU 升至 2026 年 6 月底 US$3,075/MTU，平均中间价自 2026 年 1 月初 US$862.5/MTU 升至 2026-08-07 约 US$3,087/MTU。Sangdong 一期仍处试车与爬坡，公司称完全投产后目标处理量约每年 640,000 吨，二期规划最高 1,200,000 吨。2026-07-14，公司与 Global Tungsten & Powders LLC 修订 Sangdong 一期长期承购协议：期限延长六年、合约总量提高 40%、全部合约量价格提高约 6.3%。2026-06-09 完成 2.25% 可转换优先票据发行，总收益 US$800M；2026-06-30 现金 C$1.2B。证据边界：净利润与调整后 EBITDA 相差一个数量级，本条不据净利润推断经营性盈利；APT 是第三方市场报价，不是 Almonty 未披露的本季实现价；未披露 Sangdong 绝对产量、季度爬坡目标或达成率；GTP 修订案未披露绝对量与单价。本条未改变估值、立场或价格目标。",
+      "en": "Per Almonty Industries' Q2 2026 results release and MD&A, both dated August 11 and furnished as Exhibits 99.1 and 99.3 to a Form 6-K filed August 12, 2026 for the period ended June 30, with amounts in thousands of Canadian dollars unless noted: quarterly revenue was C$42,989 versus C$7,192 a year earlier (+498%); mining income was C$26,103 versus a C$944 loss; net income was C$181,797 versus a C$58,209 loss; adjusted EBITDA, a non-IFRS measure, was C$17,564 versus negative C$4,761; and basic / diluted EPS were C$0.64 / C$0.62. The MD&A reports Q2 revenue of C$42,989 versus C$25,400 in Q1 and a 21.1% sequential decline in company-wide WO3 MTUs sold. It also says some March shipments were received and recognized in April, with C$3,442 thousand of deferred revenue at March 31 including that timing effect. Sequential revenue therefore reflects quoted prices, realized pricing and recognition timing and cannot be attributed purely to price; company-wide sales volume is also not Sangdong quarterly production or ramp attainment. The Metal Bulletin European APT weekly quotation rose from US$330/MTU in January 2025 to US$3,075/MTU at June 2026 month-end, while the average mid-price rose from US$862.5/MTU in early January 2026 to about US$3,087/MTU on August 7. Sangdong Phase I remains in commissioning and ramp-up, with targeted throughput of about 640,000 tonnes per year at full operation and up to 1.2 million tonnes under the Phase II plan. On July 14, Almonty amended the long-term Sangdong Phase I offtake with Global Tungsten & Powders LLC to extend the term six years, increase contracted volume 40% and improve pricing about 6.3%. The company closed US$800M of 2.25% convertible senior notes on June 9 and held C$1.2B of cash at June 30. Evidence limits: net income and adjusted EBITDA differ by an order of magnitude, so this entry infers no operating profitability from net income; APT is a third-party market quotation, not Almonty's undisclosed realized price; absolute Sangdong production, a quarterly ramp target and attainment are not disclosed; and absolute GTP volume and unit price are not disclosed. No valuation, stance or price target is changed."
+    },
+    "crossChecks": [
+      "resource-constraints"
+    ],
+    "tickers": [
+      "ALM"
+    ],
+    "reportIds": [
+      "almonty-2026"
+    ],
+    "monitoringRefs": [
+      "almonty-2026:tungsten-price",
+      "almonty-2026:sangdong-ramp"
+    ]
+  },
+  {
+    "id": "sk-hynix-yongin-y2-cheongju-m17-krw54t",
+    "date": "2026-08-07",
+    "title": {
+      "zh": "SK 海力士董事会核准约 54 兆韩元新建龙仁 Y2 与清州 M17 厂，洁净室分别 2029 年 6 月与 2028 年 12 月开启，设备安装明确按需求分阶段进行",
+      "en": "SK hynix board approves approximately KRW 54 trillion for the new Yongin Y2 and Cheongju M17 fabs, with cleanrooms targeted for June 2029 and December 2028 and equipment installation explicitly phased to demand"
+    },
+    "detail": {
+      "zh": "据 SK 海力士 2026-08-07 发布的官方新闻稿（issuer newsroom，标题为 SK hynix Invests 54 Trillion Won in Yongin Y2 and Cheongju M17 to Secure Mid-to-Long-Term Production Base for AI Memory Demand）：公司董事会核准合计约 54 兆韩元的投资，其中龙仁“Y2”厂 35.2 兆韩元、清州“M17”厂 19.1 兆韩元。龙仁 Y2 是龙仁半导体丛集规划四座厂中的第二座，定位为 DRAM 生产基地，总楼地板面积 341,000 坪（约 1,130,000 平方公尺），预计 2027 年 7 月动土、2029 年 6 月开启首座洁净室，用于生产 HBM 与次世代 DRAM，投资期依序延续至 2031 年 10 月；第一座厂 Y1 的首座洁净室目标为 2027 年 2 月。清州 M17 为 NAND 基地，总面积 206,000 坪（约 680,000 平方公尺），预计 2027 年 2 月动土、2028 年 12 月开启首座洁净室，投资期至 2031 年 4 月。公司说明本次决策是对其去年 6 月公布的中长期投资策略的执行，母计划为龙仁半导体丛集 600 兆韩元、清州生产基地扩建 100 兆韩元，并已将龙仁丛集四厂全部完工目标由 2045 年提前 12 年至 2033 年。龙仁丛集支撑至 Y2 运转所需的第一期电力与用水基础设施进度约 99%。需求依据：公司引用市场研究机构 Omdia 的预估，DRAM 与 NAND 需求自去年起至 2030 年维持约 19% 的年复合成长率，并称 NAND 需求由 AI 服务全面扩张带动的企业级 SSD 以及 AI 推论的 KV cache 储存需求推升。证据边界（关键）：公司明确表述“厂房按母时程建造，而洁净室扩充与设备安装将依需求趋势分阶段进行，以最大化资本效率”，因此这 54 兆韩元是已核准的多年期厂房建设与基础设施投资，不是已下达的设备订单，也不构成任何半导体设备或 EDA 供应商的 bookings、backlog 或当期资本支出；新闻稿未披露分年投资金额、未披露晶圆产能（wafer starts）目标、未拆分洁净室各期规模、未点名任何设备供应商，也未量化 HBM 与一般 DRAM 的产能配比；19% 需求成长为第三方机构预估而非公司自身指引；本条未使用任何交易所或监管申报作为来源，仅以发行人官方新闻稿为准。本条为跨窗口补登：事件日为 2026-08-07，在此前的扫描窗口内未被记录。本条不含投资建议、评级或价格目标。",
+      "en": "Per SK hynix's official newsroom release dated 2026-08-07, titled 'SK hynix Invests 54 Trillion Won in Yongin Y2 and Cheongju M17 to Secure Mid-to-Long-Term Production Base for AI Memory Demand': the company's board approved a total investment of approximately KRW 54 trillion, comprising KRW 35.2 trillion for the Yongin 'Y2' fab and KRW 19.1 trillion for the Cheongju 'M17' fab. Yongin Y2 is the second of four fabs planned for the Yongin Semiconductor Cluster and will serve as a DRAM production base spanning 341,000 pyeong of total floor area, approximately 1,130,000 square metres; construction is scheduled to break ground in July 2027 targeting the opening of its first cleanroom in June 2029 to produce high-bandwidth memory and other next-generation DRAM, with the investment running sequentially through October 2031. Construction of the first fab, Y1, is targeting an initial cleanroom opening in February 2027. Cheongju M17 is a NAND base covering 206,000 pyeong, approximately 680,000 square metres, breaking ground in February 2027 with a first cleanroom targeted for December 2028 and an investment period running through April 2031. The company describes the decision as execution of the mid-to-long-term investment strategy it announced last June, under a master plan to invest KRW 600 trillion in the Yongin Semiconductor Cluster and KRW 100 trillion to expand the Cheongju production base, and states it has advanced the completion date for all four Yongin fabs by 12 years, from 2045 to 2033. Phase 1 power and water infrastructure required up through Y2 operation is described as approximately 99% complete. On demand, the company cites market research firm Omdia projecting that both DRAM and NAND demand will maintain a 19% compound annual growth rate from last year through 2030, and attributes surging NAND demand to enterprise SSDs driven by the expansion of AI services and to key-value cache storage in AI inference. Evidence limits, and this is the load-bearing one: the company states explicitly that fabs will be constructed according to the master schedule whereas cleanroom expansions and equipment installation will take place sequentially in line with demand trends to maximize capital efficiency. The KRW 54 trillion is therefore an approved multi-year building and infrastructure programme, not equipment orders placed, and it does not constitute bookings, backlog or in-period capital expenditure at any semiconductor-equipment or EDA supplier. The release discloses no annual phasing of the amounts, no wafer-start capacity target, no sizing of individual cleanroom phases, names no equipment supplier, and does not quantify the split between HBM and commodity DRAM capacity; the 19% demand growth figure is a third-party estimate rather than company guidance. No exchange or regulatory filing was used as a source for this entry, which rests on the issuer's official newsroom release alone. This is a cross-window backfill: the event date is 2026-08-07 and it was not recorded in the scan window that contained it. This entry carries no investment advice, rating or price target."
+    },
+    "crossChecks": [
+      "memory-cycle",
+      "semicap-eda-capex-commitment"
+    ],
+    "tickers": [
+      "000660.KS",
+      "MU",
+      "SNDK",
+      "285A.T"
+    ]
+  },
+  {
     "id": "taiwan-july-2026-monthly-revenue-foundry-osat",
     "date": "2026-08-10",
     "title": {
