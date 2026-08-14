@@ -267,8 +267,8 @@
     "priceSymbol": "AMAT",
     "title": "Applied Materials 深度研究报告 - AI 扩产的广谱半导体设备仪表盘",
     "titleEn": "Applied Materials Deep Research Report - Broad Semicap Dashboard For AI Capacity Buildout",
-    "summary": "【2026-07-31 立场重新裁定：AMAT 于 2026-07-30 收于 $501.77，较 07-29 低点反弹 +15.0%、较原锚点 -16.8%，市值约 $398.4B；按所有者 Q1 裁定，立场由谨慎调整为观望中性（中确信）。】AI 基础设施 semicap-equipment 层的广谱设备仪表盘：AMAT 验证 AI 需求是否不只卡在 EUV，而是扩散到 deposition、etch、advanced packaging、DRAM 和服务。FY2026 Q2 收入 $7.91B、GAAP gross margin 49.9%、non-GAAP EPS $2.86；Semiconductor Systems 收入 $5.965B，其中 foundry/logic/other 67%、DRAM 29%。Q3 指引收入 $8.950B +/- $500M、non-GAAP EPS $3.36 +/- $0.20。按 2026-07-30 收盘重算：市值约 $398.4B、EV 约 $397.5B，约 11.1x EV/Q3 annualized sales、约 30.6x forward EPS。观望中性 / 中确信：上行周期强，旧的负偏斜算术在当前价格下不再成立，中国/台湾暴露使其停留在观望。",
-    "summaryEn": "[2026-07-31 stance re-adjudication: AMAT closed at $501.77 on 2026-07-30, +15.0% off the 07-29 low and -16.8% from its old anchor, for about $398.4B market cap; under the owner's Q1 ruling the stance moves from cautious to neutral-watch (medium conviction).] Broad equipment dashboard for the AI-infrastructure semicap-equipment layer. AMAT tests whether AI demand is spreading beyond EUV into deposition, etch, advanced packaging, DRAM, and services. Q2 FY2026 revenue was $7.91B, GAAP gross margin was 49.9%, and non-GAAP EPS was $2.86; Semiconductor Systems revenue was $5.965B, with foundry/logic/other at 67% and DRAM at 29%. Q3 guidance is $8.950B revenue +/- $500M and non-GAAP EPS of $3.36 +/- $0.20. Recomputed at the 2026-07-30 close: about $398.4B market cap and $397.5B EV, around 11.1x EV/Q3-annualized sales and 30.6x forward EPS. Neutral-watch / medium conviction: the upcycle is strong; the old mildly negative skew no longer holds at the current price, and China/Taiwan exposure keeps this a watch.",
+    "summary": "【2026-08-14 监测与估值重锚：AMAT 于 2026-08-13 收于 $534.54；按 Q3 公告的 794M 基本加权平均股数，市值约 $424.4B，窄口径 EV 约 $421.7B；约 10.3x EV/Q4 年化收入、33.2x Q4 指引 EPS 年化。立场维持观望中性 / 中确信。】AI 基础设施 semicap-equipment 层的广谱设备仪表盘：FY2026 Q3（截至 2026-07-26）收入创纪录 $9,115M（同比 +25%），GAAP gross margin 50.3%、non-GAAP EPS $3.50，均高于 $8,950M / $3.36 的指引中点；Semiconductor Systems 收入 $7,040M，其中 foundry/logic/other 67%、DRAM 26%、Flash 7%。Q4 指引收入 $10,250M +/- $500M、non-GAAP EPS $4.02 +/- $0.20。中国是唯一同比收入下降地区（$2,506M，占比 28%，去年同期 35%），公告未作归因；订单/backlog 也未披露。尽管股价较 2026-07-30 上升 6.5%，下一季度口径销售倍数降至 10.3x；中国归因与订单转化仍未闭合，因此不升至 constructive。",
+    "summaryEn": "[2026-08-14 monitoring and valuation re-anchor: AMAT closed at $534.54 on 2026-08-13. Using the Q3 release's 794M basic weighted-average shares, market cap was about $424.4B and narrow-definition EV about $421.7B, or about 10.3x EV/Q4-annualized sales and 33.2x Q4-guided EPS annualized. Stance remains neutral-watch / medium conviction.] Broad equipment dashboard for the AI-infrastructure semicap-equipment layer. Q3 FY2026 (quarter ended 2026-07-26) revenue was a record $9,115M, up 25% year over year, with GAAP gross margin 50.3% and non-GAAP EPS $3.50, both above the $8,950M and $3.36 guidance midpoints; Semiconductor Systems revenue was $7,040M, with foundry/logic/other at 67%, DRAM at 26% and flash at 7%. Q4 guidance is $10,250M +/- $500M revenue and non-GAAP EPS of $4.02 +/- $0.20. China was the only region whose revenue fell year over year ($2,506M, 28% of total, against 35% a year earlier), and the release offers no attribution; orders and backlog are also undisclosed. Although the price rose 6.5% from 2026-07-30, the next-quarter sales multiple fell to 10.3x. China attribution and order conversion remain unresolved, so the stance does not move to constructive.",
     "tags": [
       "半导体设备",
       "AI基础设施",
@@ -277,7 +277,7 @@
     ],
     "category": "tech",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-14",
     "file": "/invest/research/reports/view.html?id=applied-materials-2026",
     "markdownFiles": {
       "zh": "/invest/research/Applied_Materials_深度研究报告_2026-07.md",
@@ -287,11 +287,11 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "2026-07-31 重新裁定：$501.77（2026-07-30 收盘），较 07-29 低点反弹 +15.0%，市值约 $398.4B；立场调整为观望中性 / 中确信",
+      "2026-08-14 重锚：$534.54（2026-08-13 收盘），市值约 $424.4B、窄口径 EV 约 $421.7B；约 10.3x EV/Q4 年化收入、33.2x Q4 指引 EPS 年化，维持观望中性 / 中确信",
       "补齐广谱设备仪表盘：AMAT 验证 AI capex 是否进入 deposition、etch、advanced packaging、DRAM 和服务",
-      "FY2026 Q2 revenue $7.91B、Semiconductor Systems $5.965B，foundry/logic/other 67%、DRAM 29%",
-      "Q3 指引 revenue $8.950B +/- $500M、non-GAAP EPS $3.36 +/- $0.20",
-      "按 2026-07-30 收盘：EV 约 $397.5B、约 11.1x Q3 annualized sales、约 30.6x forward EPS；中国/台湾暴露需要持续监控"
+      "FY2026 Q3 收入创纪录 $9,115M（同比 +25%）、Semiconductor Systems $7,040M，foundry/logic/other 67%、DRAM 26%、Flash 7%",
+      "Q3 收入与 non-GAAP EPS 均超指引中点（$8,950M / $3.36）；Q4 指引 revenue $10,250M +/- $500M、non-GAAP EPS $4.02 +/- $0.20",
+      "中国收入 $2,506M（占比由 35% 降至 28%）为唯一同比下降地区，公告未作归因；订单/backlog 未披露，供应链转化判为 unclear"
     ],
     "chainLayer": "semicap-equipment",
     "coverageTier": "full",
@@ -299,13 +299,13 @@
     "stance": "neutral-watch",
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "2026-07-31 按所有者 Q1 裁定重新裁定（立场必须在当前价格下成立）。按 2026-07-30 收盘 $501.77（市值约 $398.4B、EV 约 $397.5B），EV/Q3 年化收入约 11.1x、forward EPS 约 30.6x，而旧谨慎立场依据的是 13.3x/36.8x 的算术；在仅略高于报告自身 8-10x 通周期区间的水平上，轻度负预期差不再成立，立场调整为观望中性。中国/台湾暴露与 2026-08-13 业绩使其停留在观望。",
-      "en": "Re-adjudicated 2026-07-31 under the owner's Q1 ruling (a stance must hold at the current price). At the 2026-07-30 close of $501.77 (about $398.4B cap, $397.5B EV), AMAT is at about 11.1x EV/Q3-annualized sales and roughly 30.6x forward EPS versus the old 13.3x/36.8x arithmetic the cautious stance rested on; just above the report's own 8-10x through-cycle band, the mildly negative gap no longer holds, so the stance moves to neutral-watch. China/Taiwan exposure and the 2026-08-13 print keep it a watch."
+      "zh": "2026-08-14 按当前价格与 Q3 实绩复核。2026-08-13 收盘 $534.54，对应市值约 $424.4B、窄口径 EV 约 $421.7B、约 10.3x EV/Q4 年化收入与 33.2x Q4 指引 EPS 年化。尽管股价较 2026-07-30 上升 6.5%，下一季度口径销售倍数由 11.1x 降至 10.3x；Q3 收入、margin 与 mix 兑现支持基本面，但中国收入下降缺乏归因，订单/backlog 未披露，故维持观望中性 / 中确信而不升至 constructive。",
+      "en": "Re-checked 2026-08-14 at the current price and against the Q3 print. The 2026-08-13 close of $534.54 implies about $424.4B market cap, $421.7B narrow-definition EV, 10.3x EV/Q4-annualized sales and 33.2x Q4-guided EPS annualized. Although the price rose 6.5% from 2026-07-30, the next-quarter sales multiple fell from 11.1x to 10.3x. Q3 revenue, margin and mix support the fundamental case, but the China decline lacks attribution and orders/backlog are undisclosed, so neutral-watch / medium conviction holds rather than moving to constructive."
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "如果 FY2026 Q3 收入达到或高于 $8.95B 中点、Semiconductor Systems operating margin 维持 35% 以上，foundry/logic 与 DRAM mix 同时强劲，且中国/台湾暴露没有受到出口管制或客户节奏冲击，同时 EV/sales 倍数没有进一步扩张，则上调至 constructive。",
-        "en": "move to constructive if FY2026 Q3 revenue reaches or exceeds the $8.95B midpoint, Semiconductor Systems operating margin stays above 35%, foundry/logic and DRAM mix remain strong together, and China/Taiwan exposure is not hit by export controls or customer timing while the EV/sales multiple does not expand further.",
+        "zh": "如果 FY2026 Q4 收入达到或高于 $10.25B 中点、Semiconductor Systems operating margin 维持 35% 以上、foundry/logic 与 DRAM mix 同时强劲、中国/台湾归因排除出口管制或客户节奏冲击，且 EV/sales 未从 2026-08-13 框架进一步扩张，则上调至 constructive。",
+        "en": "move to constructive if FY2026 Q4 revenue reaches or exceeds the $10.25B midpoint, Semiconductor Systems operating margin stays above 35%, foundry/logic and DRAM mix remain strong together, China/Taiwan attribution rules out an export-control or customer-timing hit, and EV/sales does not expand from the 2026-08-13 frame.",
         "monitoringIds": [
           "q3-guidance-conversion",
           "semiconductor-systems-growth",
@@ -314,8 +314,8 @@
         ]
       },
       "downgrade": {
-        "zh": "如果 Q3 收入低于中点、Semiconductor Systems 增长或 operating margin 走弱、中国/台湾收入受到出口管制或客户节奏冲击，或库存与供应链扩建转化为去库存压力，则下调至 cautious。",
-        "en": "move to cautious if Q3 revenue misses the midpoint, Semiconductor Systems growth or operating margin weakens, China/Taiwan revenue is hit by export controls or customer timing, or the inventory and supply-chain build turns into destocking pressure.",
+        "zh": "如果 Q4 收入低于中点、Semiconductor Systems 增长或 operating margin 走弱、中国/台湾收入被证明受到出口管制或客户节奏冲击，或库存与供应链扩建转化为去库存压力，则下调至 cautious。",
+        "en": "move to cautious if Q4 revenue misses the midpoint, Semiconductor Systems growth or operating margin weakens, China/Taiwan revenue is shown to be hit by export controls or customer timing, or the inventory and supply-chain build turns into destocking pressure.",
         "monitoringIds": [
           "q3-guidance-conversion",
           "semiconductor-systems-growth",
@@ -353,8 +353,8 @@
         }
       }
     ],
-    "priceAsOf": "2026-07-30",
-    "reportedPeriod": "FY2026 Q2",
+    "priceAsOf": "2026-08-13",
+    "reportedPeriod": "FY2026 Q3",
     "related": [
       "asml-2026",
       "lam-research-2026",
@@ -377,11 +377,13 @@
           "en": "systems revenue and operating margin continue confirming a broad WFE upcycle"
         },
         "latest": {
-          "zh": "Q2 Semiconductor Systems revenue $5.965B、operating margin 35.1%",
-          "en": "Q2 Semiconductor Systems revenue was $5.965B with 35.1% operating margin"
+          "zh": "FY2026 Q3（截至 2026-07-26）Semiconductor Systems 收入 $7,040M，去年同期 $5,564M；GAAP operating margin 37.7%、non-GAAP 38.0%，去年同期分别为 33.0% 与 33.2%。分部毛利率 55.3%（去年同期 53.4%）。上一期 metadata 记录的 Q2 收入 $5.965B 与 35.1% operating margin 未标明 GAAP/non-GAAP 口径，故此处不对该口径作环比推导。",
+          "en": "Q3 FY2026 (quarter ended 2026-07-26) Semiconductor Systems revenue was $7,040M against $5,564M a year earlier, with GAAP operating margin 37.7% and non-GAAP operating margin 38.0% against 33.0% and 33.2% respectively in Q3 FY2025. Segment gross margin was 55.3% versus 53.4%. The prior metadata figure of $5.965B and 35.1% operating margin for Q2 does not state a GAAP/non-GAAP basis, so no sequential margin delta is derived from it here."
         },
-        "nextCheck": "FY2026 Q3 earnings",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "FY2026 Q4 and full-year results",
+        "nextCheckDate": "2026-11",
+        "reading": "within",
+        "readingAsOf": "2026-08-13"
       },
       {
         "id": "foundry-dram-mix",
@@ -396,11 +398,13 @@
           "en": "foundry/logic and DRAM both stay strong, validating advanced logic and HBM demand"
         },
         "latest": {
-          "zh": "Q2 mix: foundry/logic/other 67%、DRAM 29%、Flash 4%",
-          "en": "Q2 mix: foundry/logic/other 67%, DRAM 29%, Flash 4%"
+          "zh": "FY2026 Q3 Semiconductor Systems 结构：foundry/logic/other 67%、DRAM 26%、Flash memory 7%（去年同期 69% / 22% / 9%）。DRAM 占比低于上一期 metadata 记录的 Q2 的 29%，但分部基数由 $5,965M 增至 $7,040M；即便按披露百分比的四舍五入区间上下限计算，DRAM 收入的环比方向仍为上升。管理层在同一份公告中表示，下半年收入增长将继续，尤以 DRAM、先进逻辑代工与先进封装为主。公告未披露 HBM 专项收入。",
+          "en": "Q3 FY2026 Semiconductor Systems mix was foundry/logic/other 67%, DRAM 26% and flash memory 7% (Q3 FY2025: 69%, 22% and 9%). The DRAM share is below the 29% recorded for Q2 in prior report metadata, but the segment base grew from $5,965M to $7,040M, so DRAM revenue rose sequentially across the full rounding band of the disclosed percentages. Management said in the same release that second-half revenue growth would continue, led by DRAM, leading-edge foundry-logic and advanced packaging. No HBM-specific revenue is disclosed."
         },
-        "nextCheck": "segment and end-market mix",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "FY2026 Q4 and full-year results",
+        "nextCheckDate": "2026-11",
+        "reading": "within",
+        "readingAsOf": "2026-08-13"
       },
       {
         "id": "china-taiwan-exposure",
@@ -415,30 +419,34 @@
           "en": "export controls or customer timing affect China/Taiwan revenue"
         },
         "latest": {
-          "zh": "Q2 geography: Taiwan 27%、China 27%、Korea 20%",
-          "en": "Q2 geography: Taiwan 27%, China 27%, Korea 20%"
+          "zh": "FY2026 Q3 地区收入：中国 $2,506M（占比 28%），去年同期 $2,548M（35%）；台湾 $2,025M（22%），去年同期 $1,843M（25%）。在总收入同比增长 25% 的季度里，中国是唯一同比收入下降的地区，台湾收入同比增长约 9.9%。公告披露了地区收入，但未就中国收入的走平作出任何归因，既未提及出口管制，也未提及客户节奏；本触发条件的因果条款因此无法据此来源判定。",
+          "en": "Q3 FY2026 revenue by geography: China $2,506M (28% of total) against $2,548M (35%) in Q3 FY2025, and Taiwan $2,025M (22%) against $1,843M (25%). In a quarter when total revenue grew 25%, China was the only region whose revenue declined year over year, while Taiwan revenue grew about 9.9%. The release discloses the geographic revenue but offers no attribution for the flat China line and names neither export controls nor customer timing, so the causal condition in this trigger cannot be graded from this source."
         },
-        "nextCheck": "geographic revenue and restrictions",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "FY2026 Q4 and full-year results",
+        "nextCheckDate": "2026-11",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-13"
       },
       {
         "id": "q3-guidance-conversion",
         "thesis": "either",
         "theme": "execution",
         "metric": {
-          "zh": "Q3 指引兑现",
-          "en": "Q3 guidance conversion"
+          "zh": "Q4 指引兑现",
+          "en": "Q4 guidance conversion"
         },
         "trigger": {
-          "zh": "收入接近或高于 $8.95B 中点，且 EPS / margin 不失速",
-          "en": "revenue approaches or exceeds the $8.95B midpoint without EPS / margin slippage"
+          "zh": "收入接近或高于 $10.25B 中点，且 EPS / margin 不失速",
+          "en": "revenue approaches or exceeds the $10.25B midpoint without EPS / margin slippage"
         },
         "latest": {
-          "zh": "Q3 指引 revenue $8.950B +/- $500M、non-GAAP EPS $3.36 +/- $0.20",
-          "en": "Q3 guidance is $8.950B revenue +/- $500M and non-GAAP EPS $3.36 +/- $0.20"
+          "zh": "FY2026 Q3 实际收入 $9,115M，高于 $8,950M 指引中点；non-GAAP EPS $3.50，高于 $3.36 指引中点。GAAP gross margin 50.3%、non-GAAP 50.4%（去年同期 48.8% / 48.9%）；GAAP operating margin 33.7%、non-GAAP 34.0%（去年同期 30.6% / 30.7%）。经营现金流 $3.04B，non-GAAP 自由现金流 $2,330M。Q4 FY2026 指引：收入 $10,250M +/- $500M、non-GAAP EPS $4.02 +/- $0.20。",
+          "en": "Q3 FY2026 revenue came in at $9,115M against the $8,950M guidance midpoint, and non-GAAP EPS was $3.50 against the $3.36 guided midpoint. GAAP gross margin was 50.3% and non-GAAP 50.4% (Q3 FY2025: 48.8% and 48.9%); GAAP operating margin was 33.7% and non-GAAP 34.0% (30.6% and 30.7%). Cash from operations was $3.04B and non-GAAP free cash flow $2,330M. Q4 FY2026 guidance is revenue of $10,250M +/- $500M and non-GAAP EPS of $4.02 +/- $0.20."
         },
-        "nextCheck": "FY2026 Q3 results",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "FY2026 Q4 and full-year results",
+        "nextCheckDate": "2026-11",
+        "reading": "within",
+        "readingAsOf": "2026-08-13"
       },
       {
         "id": "supply-chain-readiness",
@@ -453,11 +461,13 @@
           "en": "higher build plan, inventory, and logistics capacity convert to orders rather than inventory risk"
         },
         "latest": {
-          "zh": "管理层称已提高 build plan、inventory 和 logistics capacity",
-          "en": "management said it increased build plan, inventory, and logistics capacity"
+          "zh": "截至 2026-07-26，存货 $6,564M，对比 2025-10-26 财年末的 $5,915M（+11.0%），慢于同期 25% 的同比收入增速；本次公告未含 Q2 资产负债表，故比较基准为财年末而非上一季度。Applied 不披露订单或在手订单，因此已实现收入本身不能证明触发器要求的订单转化。同期应收账款由财年末 $5,185M 增至 $7,691M（+48.3%），快于收入增速，也使本项不能判为 within。",
+          "en": "Inventories were $6,564M at 2026-07-26 against $5,915M at fiscal year-end 2025-10-26 (+11.0%), slower than the 25% year-over-year revenue growth in the quarter; this release carries no Q2 balance sheet, so the comparison base is fiscal year-end rather than the prior quarter. Applied discloses neither orders nor backlog, so realized revenue cannot by itself establish the trigger's conversion-to-orders leg. Over the same span accounts receivable rose from $5,185M to $7,691M (+48.3%), materially faster than revenue, which is an additional reason not to grade this within."
         },
-        "nextCheck": "inventory and supply-chain update",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "FY2026 Q4 and full-year results",
+        "nextCheckDate": "2026-11",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-13"
       }
     ]
   },

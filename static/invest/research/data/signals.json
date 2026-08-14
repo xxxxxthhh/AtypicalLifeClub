@@ -1595,5 +1595,34 @@
       "amkr-2026:gross-margin-and-utilization",
       "amkr-2026:packaging-supply-constraint"
     ]
+  },
+  {
+    "id": "amat-q3-fy2026-record-revenue-dram-mix",
+    "date": "2026-08-13",
+    "title": {
+      "zh": "Applied Materials FY2026 Q3：收入 $9,115M 超指引中点，Semiconductor Systems $7,040M、DRAM 占比同比升至 26%，中国为唯一同比下降地区",
+      "en": "Applied Materials Q3 FY2026: revenue $9,115M beats the guidance midpoint, Semiconductor Systems $7,040M with DRAM mix up to 26% year over year, and China the only region to decline"
+    },
+    "detail": {
+      "zh": "据 Applied Materials 于 2026-08-13 盘后提交的 8-K 及 Exhibit 99.1 业绩公告（财季截至 2026-07-26）：收入 $9,115M（同比 +25%），高于此前 $8,950M 指引中点；GAAP gross margin 50.3%、non-GAAP 50.4%（去年同期 48.8% / 48.9%）；GAAP EPS $3.17、non-GAAP EPS $3.50，高于 $3.36 指引中点；经营现金流 $3.04B，non-GAAP 自由现金流 $2,330M。Semiconductor Systems 收入 $7,040M（去年同期 $5,564M），GAAP operating margin 37.7%、non-GAAP 38.0%（去年同期 33.0% / 33.2%）；分部结构 foundry/logic/other 67%、DRAM 26%、Flash 7%，去年同期为 69% / 22% / 9%。Q4 FY2026 指引收入 $10,250M +/- $500M、non-GAAP EPS $4.02 +/- $0.20。管理层称已上调 2026 日历年 Semiconductor Systems 收入预期，并预计下半年增长以 DRAM、先进逻辑代工与先进封装为主。地区收入：中国 $2,506M（占比 28%，去年同期 $2,548M / 35%）、台湾 $2,025M（22%，去年同期 $1,843M / 25%）、韩国 $1,521M（17%）、美国 $1,367M（15%）。证据限制：中国是本季唯一同比收入下降的地区，但公告未就此作出任何归因，既未提及出口管制也未提及客户节奏；公告不披露订单或在手订单，因此上述读数确认的是已实现收入与设备分部结构，而非已承诺订单；HBM 收入未单独披露，DRAM 仅以分部占比形式给出；存货 $6,564M 的比较基准是 2025-10-26 财年末（$5,915M）而非上一季度，因本次公告不含 Q2 资产负债表；同期应收账款由 $5,185M 增至 $7,691M，快于收入增速。",
+      "en": "Per Applied Materials' Form 8-K and Exhibit 99.1 earnings release furnished after the close on 2026-08-13 for the fiscal quarter ended 2026-07-26: revenue was $9,115M, up 25% year over year and above the prior $8,950M guidance midpoint; GAAP gross margin was 50.3% and non-GAAP 50.4% (48.8% and 48.9% a year earlier); GAAP EPS was $3.17 and non-GAAP EPS $3.50, above the $3.36 guided midpoint; cash from operations was $3.04B and non-GAAP free cash flow $2,330M. Semiconductor Systems revenue was $7,040M against $5,564M a year earlier, with GAAP operating margin 37.7% and non-GAAP 38.0% against 33.0% and 33.2%; segment mix was foundry/logic/other 67%, DRAM 26% and flash 7%, against 69%, 22% and 9% a year earlier. Q4 FY2026 guidance is revenue of $10,250M +/- $500M and non-GAAP EPS of $4.02 +/- $0.20. Management said it raised its calendar-2026 Semiconductor Systems revenue expectations and expects second-half growth led by DRAM, leading-edge foundry-logic and advanced packaging. Revenue by geography: China $2,506M (28% of total, against $2,548M and 35%), Taiwan $2,025M (22%, against $1,843M and 25%), Korea $1,521M (17%) and the United States $1,367M (15%). Evidence limits: China was the only region whose revenue declined year over year this quarter, and the release offers no attribution for it, naming neither export controls nor customer timing; Applied discloses neither orders nor backlog, so these readings confirm realized revenue and equipment segment mix rather than committed orders; no HBM-specific revenue is disclosed and DRAM appears only as a segment share; the inventory figure of $6,564M is compared against fiscal year-end 2025-10-26 ($5,915M) rather than the prior quarter because this release carries no Q2 balance sheet; over the same span accounts receivable rose from $5,185M to $7,691M, faster than revenue."
+    },
+    "crossChecks": [
+      "semicap-eda-capex-commitment",
+      "memory-cycle"
+    ],
+    "tickers": [
+      "AMAT"
+    ],
+    "reportIds": [
+      "applied-materials-2026"
+    ],
+    "monitoringRefs": [
+      "applied-materials-2026:q3-guidance-conversion",
+      "applied-materials-2026:semiconductor-systems-growth",
+      "applied-materials-2026:foundry-dram-mix",
+      "applied-materials-2026:china-taiwan-exposure",
+      "applied-materials-2026:supply-chain-readiness"
+    ]
   }
 ]
