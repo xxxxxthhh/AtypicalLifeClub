@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14",
+  "generatedAt": "2026-08-15",
   "benchmark": "SMH",
   "entries": [
     {
@@ -315,15 +315,15 @@
       "stanceDate": "2026-07-31",
       "priceAtStance": 1718000.0,
       "benchmarkSymbol": "SMH",
-      "lastDate": "2026-08-13",
-      "lastClose": 1593000.0,
-      "changePct": -7.3,
-      "benchmarkChangePct": 9.0,
-      "relativePct": -16.3,
+      "lastDate": "2026-08-14",
+      "lastClose": 1645000.0,
+      "changePct": -4.2,
+      "benchmarkChangePct": 8.7,
+      "relativePct": -12.9,
       "bookBenchmarkSymbol": "SMH",
-      "bookBenchmarkChangePct": 9.0,
-      "bookRelativePct": -16.3,
-      "daysHeld": 13,
+      "bookBenchmarkChangePct": 8.7,
+      "bookRelativePct": -12.9,
+      "daysHeld": 14,
       "stale": false
     },
     {

@@ -1,18 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-14T22:08:12Z",
+  "generatedAt": "2026-08-15T22:07:06Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-08-14T22:08:12Z"
+    "value": "2026-08-15T22:07:06Z"
   },
-  "tasks": [
-    {
-      "id": "earnings:applied-materials-2026:2026-08-13:T+1",
-      "reportId": "applied-materials-2026",
-      "type": "research-update",
-      "window": "T+1",
-      "expectedDate": "2026-08-13",
-      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
-    }
-  ]
+  "tasks": []
 }
