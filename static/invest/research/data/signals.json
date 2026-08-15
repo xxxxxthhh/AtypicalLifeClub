@@ -1,5 +1,30 @@
 [
   {
+    "id": "coherent-fy2026-10k-segment-profit-customer-concentration",
+    "date": "2026-08-14",
+    "title": {
+      "zh": "Coherent FY2026 Form 10-K：首披分部利润，Datacenter & Communications 分部利润 $1,330M（+47%）；两家客户各占收入 10% 以上；合并合同负债降至 $63M",
+      "en": "Coherent FY2026 Form 10-K: first segment-profit disclosure, Datacenter & Communications segment profit $1,330M (+47%); two customers each above 10% of revenue; consolidated contract liabilities down to $63M"
+    },
+    "detail": {
+      "zh": "据 Coherent 于 2026-08-14 提交的 FY2026 Form 10-K（财年截至 2026-06-30）。本条只记录 10-K 相对 2026-08-12 新闻稿 Exhibit 99.1 的新增披露，不重复该新闻稿已记录的事实（已见 signal coherent-q4-fy2026-datacom-mix-fcf）：逐项核对后，分部利润、合同负债、客户集中度三项在新闻稿中不存在、仅见于 10-K；存货（$2,581.0M 对上年 $1,437.6M）不计为新增，新闻稿资产负债表已载有。（1）分部利润，为 2025-07-01 起采用双分部结构后首次披露：Datacenter & Communications 收入 $5,275M（+40%），分部利润 $1,330M（+47%，上财年 $904M）；Industrial 收入 $1,844M（-10%），分部利润 $423M（+4%，上财年 $407M）。据此计算 Datacenter & Communications 分部利润率约 25.2%，上年同期约 24.1%。（2）客户集中度：公司称 fiscal 2026 有两家客户各自贡献超过 10% 的收入，未指名。（3）合同负债：2026-06-30 为 $63M（其他应计负债 $48M＋其他负债 $15M）；上年度合计 $72M 系由已披露的其他应计负债 $63M 加其他负债 $9M 推导，与现金流量表 -$9,307 千美元的变动相互印证。财年内确认了 $51M 上年度合同负债余额对应的收入。（4）NVIDIA 协议条款：10-K 将 2026-03-02 协议描述为非排他性，含数十亿美元级采购承诺与未来产能访问权；另行进行的 $2B NVIDIA 投资记载为普通股私募配售，所得款项用于研发、未来产能与运营。证据边界：分部利润是公司自定义口径，不含股份薪酬、并购与整合费用、无形资产摊销与减值、重组费用及未分摊的公司层面研发／市场／管理费用，位置在毛利率之下，不能等同于分部毛利率；公司仍不公布分部毛利率。合同负债为合并口径，其下降不能证明不存在 NVIDIA 预付款，其他客户余额可形成抵销；且截至财年末该协议仅约四个月，文件本身把相关权利描述为未来权利。10-K 全文未披露经营性 backlog（无形资产表中的 “Backlog and Other” 为已摊销完毕的收购形成无形资产，非订单口径）。两家 10% 以上客户未指名，收入无法归属到该协议。分部利润率为依公司已披露数字所作计算，两年均按重述后口径列示。本条不含投资建议、评级、价格目标或估值判断。",
+      "en": "Per Coherent's FY2026 Form 10-K, filed 2026-08-14 for the fiscal year ended 2026-06-30. This entry records only what the 10-K adds relative to the 2026-08-12 earnings release Exhibit 99.1, and does not repeat facts already logged from that release (see signal coherent-q4-fy2026-datacom-mix-fcf). Checked item by item against that exhibit: segment profit, contract liabilities and customer concentration are absent from it and present only in the 10-K; inventories ($2,581.0M against $1,437.6M) are not counted as new, because the release's balance sheet already carried them. (1) Segment profit, disclosed for the first time under the two-segment structure adopted 2025-07-01: Datacenter & Communications revenue $5,275M (+40%) with segment profit $1,330M (+47%) against $904M; Industrial revenue $1,844M (-10%) with segment profit $423M (+4%) against $407M. On those figures the Datacenter & Communications segment profit margin is about 25.2% against about 24.1% a year earlier. (2) Customer concentration: the company states that two customers each contributed more than 10% of revenue during fiscal 2026, and does not name them. (3) Contract liabilities: $63M at 2026-06-30 ($48M within other accrued liabilities plus $15M within other liabilities). The prior-year total of $72M is derived from the two disclosed components ($63M within other accrued liabilities plus $9M within other liabilities) and reconciles to the cash-flow statement's -$9,307 thousand change. Revenue of $51M was recognized during the year from the opening contract-liability balance. (4) NVIDIA agreement terms: the 10-K describes the 2026-03-02 agreement as non-exclusive, carrying a multi-billion-dollar purchase commitment together with future access and capacity rights, and records the separate $2B NVIDIA investment as a private placement of common stock whose proceeds support research and development, future capacity and operations. Evidence limits: segment profit is a company-defined measure excluding share-based compensation, acquisition and integration costs, intangible amortization and impairment, restructuring, and unallocated corporate research and development, marketing and general and administrative expenses; it sits below the gross-margin line and is not a segment gross margin, which the company still does not publish. Contract liabilities are a consolidated line, so the decline does not establish that no NVIDIA prepayment exists, because other customers' balances can offset it; and the agreement was roughly four months old at fiscal year-end against rights the filing itself describes as future. The 10-K discloses no operational backlog anywhere — the 'Backlog and Other' line in the intangible-asset table is a fully amortized acquisition-derived intangible, not an order measure. The two customers above 10% are unnamed, so no revenue is attributable to the agreement. The segment profit margins are computed from the company's disclosed figures, with both years stated on the recast basis. This entry contains no investment advice, rating, price target or valuation judgement."
+    },
+    "crossChecks": [
+      "chip-vs-downstream"
+    ],
+    "tickers": [
+      "COHR"
+    ],
+    "reportIds": [
+      "coherent-2026"
+    ],
+    "monitoringRefs": [
+      "coherent-2026:nvidia-optics-lta",
+      "coherent-2026:datacenter-communications-mix"
+    ]
+  },
+  {
     "id": "coherent-q4-fy2026-datacom-mix-fcf",
     "date": "2026-08-12",
     "title": {
