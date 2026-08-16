@@ -243,7 +243,7 @@ Reddit uses a dual-class structure. Class A carries one vote per share; Class B 
 | Q2 2026 executed | Approximately 1.5 million shares / roughly $235M, average price $157.57 |
 | Remaining authorization | Approximately $760M |
 
-**A neutral observation on the repurchase price:** the Q2 average repurchase price of $157.57 is above the current $140.67, meaning the company bought back stock roughly 12% above where it now trades. This neither proves management misjudged (the buying occurred before the print, at a normal pace) nor should it be read as a confirming "management is confident" signal — it is simply a fact: the $235M repurchased is currently underwater on paper. What is genuinely worth watching is Q3: after a 21% decline, the pace at which the remaining $760M authorization is deployed will be management's real statement about its own valuation view.
+**A neutral observation on the repurchase price:** against this report's frozen July 31, 2026 valuation anchor of $140.67, the Q2 average repurchase price of $157.57 was about 12% higher. This is an explicitly dated historical comparison that does not update with later market prices, so subsequent trading cannot support describing the repurchase as “currently underwater” or “currently profitable.” It neither proves management misjudged (the buying occurred before the print, at a normal pace) nor should it be read as a confirming “management is confident” signal. What is genuinely worth watching is Q3: after the 21% post-print one-day decline, the pace at which the remaining $760M authorization is deployed will be management's real statement about its own valuation view.
 
 **Management rating: B+.** A combination of operational execution (A) and governance structure (C). The execution record is solid, cost discipline is verifiable, and the capital-allocation framework is clear; the deductions come entirely from the accountability gap under dual-class control and from the disclosure narrowing recorded in §2.
 
@@ -317,7 +317,7 @@ Reddit uses a dual-class structure. Class A carries one vote per share; Class B 
 | EV/Sales (FY2026E) | ~7.3x | FY2026E revenue of roughly $3,308M (H1 actual $1,468M + Q3 guidance midpoint $865M + **this report's assumption** of roughly $975M in Q4, implying +12.7% QoQ versus the +24.1% seasonal step in Q4 2025) | Medium |
 | EV/EBITDA (TTM) | 30.3x | **Data-provider basis with a GAAP-EBITDA denominator (~$0.80B, roughly operating income of $785M plus D&A); the next row uses an adjusted-EBITDA denominator, so the two rows are not directly comparable** | High (no assumptions) |
 | EV/EBITDA (FY2026E, adjusted basis) | ~16.8x | FY2026E adjusted EBITDA of roughly $1,449M (H1 actual $609M + Q3 guidance midpoint $390M + **this report's assumption** of roughly $450M in Q4); the adjusted basis excludes SBC and similar items, so its denominator is inherently larger than the GAAP basis in the row above | Medium |
-| Net cash support | $14.37 per share | 10.2% of the current share price, providing a hard floor under valuation | High |
+| Net cash support | $14.37 per share | 10.2% of the July 31, 2026 valuation anchor of $140.67, providing a hard floor for that historical valuation snapshot | High |
 | Sell-side target range (**market-sentiment reference only, not this report's conclusion**) | $170 / $200 / $200 / $221 | Cantor / Deutsche Bank / Oppenheimer / Wedbush, post-print reductions | — |
 
 **Peer multiple comparison (2026-07-31):**
