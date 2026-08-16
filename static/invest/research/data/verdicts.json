@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15",
+  "generatedAt": "2026-08-16",
   "benchmark": "SMH",
   "entries": [
     {
@@ -570,8 +570,8 @@
       "lastDate": "2026-08-14",
       "lastClose": 685.78,
       "changePct": 4.2,
-      "benchmarkChangePct": 4.0,
-      "relativePct": 0.2,
+      "benchmarkChangePct": 4.4,
+      "relativePct": -0.2,
       "bookBenchmarkSymbol": "SMH",
       "bookBenchmarkChangePct": 8.7,
       "bookRelativePct": -4.5,
