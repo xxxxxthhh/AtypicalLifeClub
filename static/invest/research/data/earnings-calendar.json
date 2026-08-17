@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-08-11",
+  "asOf": "2026-08-16",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -18,13 +18,13 @@
       "reportId": "asml-2026",
       "company": "ASML Holding",
       "timezone": "Europe/Amsterdam",
-      "expectedDate": "2026-10",
-      "precision": "month",
+      "expectedDate": "2026-10-14",
+      "precision": "day",
       "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
+      "session": "unspecified",
+      "sourceUrl": "https://ourbrand.asml.com/asset/468514ab-2a25-42be-a284-1560ebebcb6a/Statutory-Interim-Report-2026.pdf",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-08-16"
     },
     {
       "reportId": "applied-materials-2026",
@@ -395,13 +395,13 @@
       "reportId": "tsmc-2026",
       "company": "Taiwan Semiconductor Manufacturing Company",
       "timezone": "Asia/Taipei",
-      "expectedDate": "2026-08",
-      "precision": "month",
+      "expectedDate": "2026-10-15",
+      "precision": "day",
       "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
+      "session": "unspecified",
+      "sourceUrl": "https://www.wallstreethorizon.com/taiwan-semiconductor-earnings-calendar",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-08-16"
     },
     {
       "reportId": "micron-2026",
@@ -528,13 +528,13 @@
       "reportId": "minimax-2026",
       "company": "MiniMax Group",
       "timezone": "Asia/Hong_Kong",
-      "expectedDate": "2026-08",
-      "precision": "month",
-      "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "expectedDate": "2026-08-26",
+      "precision": "day",
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://en.prnasia.com/releases/apac/minimax-to-report-2026-interim-financial-results-on-august-26-2026-544085.shtml",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-08-16"
     },
     {
       "reportId": "cameco-2026",

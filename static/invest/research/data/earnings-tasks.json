@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-16T22:07:23Z",
+  "generatedAt": "2026-08-17T01:36:32Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-08-16T22:07:23Z"
+    "value": "2026-08-17T01:36:32Z"
   },
   "tasks": [
     {
-      "id": "earnings:asml-2026:2026-10:complete-date",
+      "id": "earnings:asml-2026:2026-10-14:complete-date",
       "reportId": "asml-2026",
       "type": "date-completion",
       "window": "complete-date",
-      "expectedDate": "2026-10",
+      "expectedDate": "2026-10-14",
       "reason": "Replace the estimate with an issuer-sourced day."
     },
     {
@@ -31,14 +31,6 @@
       "reason": "Replace the estimate with an issuer-sourced day."
     },
     {
-      "id": "earnings:minimax-2026:2026-08:complete-date",
-      "reportId": "minimax-2026",
-      "type": "date-completion",
-      "window": "complete-date",
-      "expectedDate": "2026-08",
-      "reason": "Replace the estimate with an issuer-sourced day."
-    },
-    {
       "id": "earnings:sk-hynix-2026:2026-10-27:verify",
       "reportId": "sk-hynix-2026",
       "type": "source-verification",
@@ -47,11 +39,11 @@
       "reason": "Confirm the recorded date on issuer IR."
     },
     {
-      "id": "earnings:tsmc-2026:2026-08:complete-date",
+      "id": "earnings:tsmc-2026:2026-10-15:complete-date",
       "reportId": "tsmc-2026",
       "type": "date-completion",
       "window": "complete-date",
-      "expectedDate": "2026-08",
+      "expectedDate": "2026-10-15",
       "reason": "Replace the estimate with an issuer-sourced day."
     }
   ]
