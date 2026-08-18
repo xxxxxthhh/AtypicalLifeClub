@@ -8310,8 +8310,8 @@
     "priceSymbol": "0100.HK",
     "title": "MiniMax Group 深度研究报告 - 应用层需求验证与高估值压力测试",
     "titleEn": "MiniMax Group Deep Research Report - Application-Layer Demand Validation and Valuation Stress Test",
-    "summary": "首次覆盖 MiniMax 作为 AI 基础设施研究簿的应用层需求风险锚。FY2025 收入 US$79.0M、同比 +158.9%，毛利率由 12.2% 升至 25.4%，海外收入占 73%；但调整后净亏损 US$250.9M、经营现金流流出 US$279.6M。以 HK$230.60（2026-07-31 收盘）、配售后 349.235M 股和形式净现金估算，市值约 HK$80.5B、P/S 约 130.6x、EV/FY2025 Sales 约 93.8x，隐含四年收入 CAGR 约 62%。业务增长得到验证，但隐含要求仍高于 50%-60% 的基准情景，首次观点为谨慎 / 低确信。",
-    "summaryEn": "Initial coverage of MiniMax as the application-layer demand-risk anchor for the AI-infrastructure research book. FY2025 revenue was US$79.0M, up 158.9%, gross margin improved from 12.2% to 25.4%, and international revenue reached 73%. Adjusted net loss was US$250.9M and operating cash outflow was US$279.6M. At the HK$230.60 close on 2026-07-31, 349.235M post-placement shares, and estimated pro forma net cash, market capitalization is about HK$80.5B, price-to-sales about 130.6x, and EV/FY2025 sales about 93.8x, implying roughly 62% four-year revenue CAGR. Growth is verified, but the implied requirement still exceeds the 50%-60% base case, so initial coverage is cautious / low conviction.",
+    "summary": "首次覆盖 MiniMax 作为 AI 基础设施研究簿的应用层需求风险锚。FY2025 收入 US$79.0M、同比 +158.9%，毛利率由 12.2% 升至 25.4%，海外收入占 73%；但调整后净亏损 US$250.9M、经营现金流流出 US$279.6M。以 HK$333.80（2026-08-17 收盘）、配售后 349.235M 股和形式净现金估算，市值约 HK$116.6B、P/S 约 189.1x、EV/FY2025 Sales 约 152.3x，隐含四年收入 CAGR 约 83%，已超过 70%-80% 牛市情景上限。业务增长得到验证，但预期差在所有已发布情景下均为负，维持谨慎 / 低确信。",
+    "summaryEn": "Initial coverage of MiniMax as the application-layer demand-risk anchor for the AI-infrastructure research book. FY2025 revenue was US$79.0M, up 158.9%, gross margin improved from 12.2% to 25.4%, and international revenue reached 73%. Adjusted net loss was US$250.9M and operating cash outflow was US$279.6M. At the HK$333.80 close on 2026-08-17, 349.235M post-placement shares, and estimated pro forma net cash, market capitalization is about HK$116.6B, price-to-sales about 189.1x, and EV/FY2025 sales about 152.3x, implying roughly 83% four-year revenue CAGR — above even the 70%-80% bull-case band. Growth is verified, but the expectation gap is negative under every published scenario, so the stance stays cautious / low conviction.",
     "tags": [
       "基础模型",
       "生成式AI",
@@ -8320,7 +8320,7 @@
     ],
     "category": "tech",
     "date": "2026-07-15",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-18",
     "file": "/invest/research/reports/view.html?id=minimax-2026",
     "markdownFiles": {
       "zh": "/invest/research/MiniMax_深度研究报告_2026-07.md",
@@ -8334,7 +8334,7 @@
       "FY2025 收入 US$79.0M、同比 +158.9%，毛利率由 12.2% 升至 25.4%，海外收入占 73%",
       "2025 年前九个月 AI-native 产品平均 MAU 27.6M、付费用户 1.77M；消费产品收入占 FY2025 的 67.2%，平台/企业占 32.8%",
       "调整后净亏损 US$250.9M、经营现金流流出 US$279.6M；研发费用约为收入 3.2 倍，商业化仍依赖外部资本",
-      "2026-07-31 收盘 HK$230.60、市值约 HK$80.5B、P/S 约 130.6x、EV/FY2025 Sales 约 93.8x，隐含 CAGR 约 62%；谨慎 / 低确信"
+      "2026-08-17 收盘 HK$333.80（较 07-31 锚点 +44.8%）、市值约 HK$116.6B、P/S 约 189.1x、EV/FY2025 Sales 约 152.3x，隐含 CAGR 约 83%、已超过 70%-80% 牛市情景上限；谨慎 / 低确信"
     ],
     "chainLayer": "demand-risk",
     "coverageTier": "full",
@@ -8342,8 +8342,8 @@
     "stance": "cautious",
     "conviction": "low",
     "stanceRationale": {
-      "zh": "以 2026-07-31 收盘 HK$230.60、配售后约 HK$80.5B 市值和约 93.8x EV/FY2025 Sales 计，代入本报告自身公式，市场隐含未来四年收入 CAGR 约 62%（旧锚点约 69%），仍高于 50%-60% 的基准情景区间，预期差仍为负、只是负得更少。收入、全球用户和毛利率改善是真实正面证据，但消费产品单位经济、研发强度与连续融资尚未支持更积极观点。",
-      "en": "At the HK$230.60 close on 2026-07-31, about HK$80.5B of post-placement market capitalization, and about 93.8x EV/FY2025 sales, this report's own formula implies close to 62% four-year revenue CAGR (about 69% at the old anchor), still above the 50%-60% base-case range, so the expectation gap remains negative though less so. Revenue, global users, and gross-margin gains are real, but consumer unit economics, R&D intensity, and repeated financing do not yet support a more positive stance."
+      "zh": "以 2026-08-17 收盘 HK$333.80、配售后约 HK$116.6B 市值和约 152.3x EV/FY2025 Sales 计，代入本报告自身公式，市场隐含未来四年收入 CAGR 约 83%（2026-07-31 锚点约 62%），不仅高于 50%-60% 的基准情景，也已超过 70%-80% 的牛市情景上限，预期差在所有已发布情景下均为负。+44.8% 的重定价没有伴随任何新的发行人披露，构成谨慎判断的要件——152.3x 历史收入倍数、25.4% 毛利率、US$279.6M 经营现金流流出、IP 风险与持续稀释——无一改变；下一个基本面触点为 2026-08-26 中期业绩。",
+      "en": "At the HK$333.80 close on 2026-08-17, about HK$116.6B of post-placement market capitalization, and about 152.3x EV/FY2025 sales, this report's own formula implies about 82.7% four-year revenue CAGR (about 62% at the 2026-07-31 anchor), above not only the 50%-60% base case but also the top of the 70%-80% bull band, so the expectation gap is negative under every published scenario. The +44.8% repricing came with no new issuer disclosure, and none of the components of the cautious call — 152.3x historical sales, a 25.4% gross margin, US$279.6M of operating cash outflow, IP risk, and continuing dilution — has changed. The next fundamental touchpoint is the 2026-08-26 interim results."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -8379,9 +8379,19 @@
         "stance": "cautious",
         "conviction": "low",
         "price": 230.6
+      },
+      {
+        "date": "2026-08-18",
+        "stance": "cautious",
+        "conviction": "low",
+        "price": 333.8,
+        "note": {
+          "zh": "所有者 Q1 裁定：立场须按当前价格重新推导。HK$333.80（较 07-31 锚点 +44.8%）下市值约 HK$116.6B、EV/FY2025 Sales 约 152.3x，隐含四年 CAGR 约 83%，已超过 70%-80% 牛市情景上限，负预期差反而加宽。下调条款全部是基本面读数且无新披露，价格上涨本身不构成翻转；维持谨慎 / 低确信，2026-08-26 中期业绩为下一个裁定点。",
+          "en": "Owner Q1 ruling: stance must be re-derived at the current price. At HK$333.80 (+44.8% from the 07-31 anchor), market cap is about HK$116.6B and EV/FY2025 sales about 152.3x, implying about 83% four-year CAGR — above even the 70%-80% bull band, so the negative gap widened. All downgrade clauses are fundamental readings with no new disclosure; a price rise alone does not flip the stance. Cautious / low conviction maintained; the 2026-08-26 interims are the next adjudication point."
+        }
       }
     ],
-    "priceAsOf": "2026-07-31",
+    "priceAsOf": "2026-08-17",
     "reportedPeriod": "FY2025 + 2026-07 financing",
     "related": [
       "meta-2026",
@@ -8402,11 +8412,13 @@
           "en": "consumer paid demand and platform revenue both grow above 80% in 2026, or total growth falls below 50%"
         },
         "latest": {
-          "zh": "FY2025 收入 US$79.0M、+158.9%；产品占 67.2%，平台/企业占 32.8%",
-          "en": "FY2025 revenue US$79.0M, +158.9%; products 67.2%, platform and enterprise 32.8%"
+          "zh": "FY2025 收入 US$79.0M、+158.9%；产品占 67.2%，平台/企业占 32.8%。2026-08-18 复核：触发条款所需的 2026 年消费付费与平台分部增速尚未披露，待 2026-08-26 中期业绩",
+          "en": "FY2025 revenue US$79.0M, +158.9%; products 67.2%, platform and enterprise 32.8%. 2026-08-18 review: the 2026 consumer-paid and platform segment growth the trigger requires is not yet disclosed, pending the 2026-08-26 interim results"
         },
         "nextCheck": "2026 interim results",
-        "nextCheckDate": "2026-08"
+        "nextCheckDate": "2026-08",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-18"
       },
       {
         "id": "unit-economics",
@@ -8421,11 +8433,13 @@
           "en": "gross margin exceeds 40% and cash burn falls below 100% of revenue, or margin stalls while burn remains above 200% of revenue"
         },
         "latest": {
-          "zh": "FY2025 毛利率 25.4%；经营现金流 -US$279.6M",
-          "en": "FY2025 gross margin 25.4%; operating cash flow negative US$279.6M"
+          "zh": "FY2025 毛利率 25.4%；经营现金流 -US$279.6M。2026-08-18 复核：触发条款所需的 2026 年毛利率与现金消耗/收入比尚未披露，待 2026-08-26 中期业绩",
+          "en": "FY2025 gross margin 25.4%; operating cash flow negative US$279.6M. 2026-08-18 review: the 2026 gross margin and burn-to-revenue ratio the trigger requires are not yet disclosed, pending the 2026-08-26 interim results"
         },
         "nextCheck": "2026 interim results",
-        "nextCheckDate": "2026-08"
+        "nextCheckDate": "2026-08",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-18"
       },
       {
         "id": "paying-user-conversion",
@@ -8440,11 +8454,13 @@
           "en": "paying users and ARPU consistently grow faster than MAU, showing that consumer traffic becomes higher-quality revenue"
         },
         "latest": {
-          "zh": "9M25 AI-native 平均 MAU 27.6M、付费用户 1.77M",
-          "en": "9M25 AI-native average MAU 27.6M and 1.77M paying users"
+          "zh": "9M25 AI-native 平均 MAU 27.6M、付费用户 1.77M。2026-08-18 复核：9M25 之后的付费用户、ARPU 与 MAU 增速对比尚未披露，待中期业绩的消费 KPI 披露",
+          "en": "9M25 AI-native average MAU 27.6M and 1.77M paying users. 2026-08-18 review: post-9M25 paying users, ARPU, and MAU growth comparisons are not yet disclosed, pending the interim consumer-KPI disclosure"
         },
         "nextCheck": "consumer KPI disclosure",
-        "nextCheckDate": "2026-08"
+        "nextCheckDate": "2026-08",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-18"
       },
       {
         "id": "funding-dilution",
@@ -8459,10 +8475,12 @@
           "en": "large equity financing continues before unit economics improve, or the bond and awards create material additional dilution"
         },
         "latest": {
-          "zh": "35.6M 股配售完成后总股本 349.235M；拟议 CB 全额转股约新增 19.403M 股",
-          "en": "349.235M shares after the completed 35.6M-share placement; full proposed bond conversion would add about 19.403M shares"
+          "zh": "35.6M 股配售完成后总股本 349.235M；拟议 CB 全额转股约新增 19.403M 股。2026-08-18 复核：可转债是否交割、条款有无调整缺乏可核实的新披露（本次未并入新的发行人公告）；2026-08-17 收盘 HK$333.80 已接近 HK$335 初始转股价",
+          "en": "349.235M shares after the completed 35.6M-share placement; full proposed bond conversion would add about 19.403M shares. 2026-08-18 review: whether the bond has closed or its terms changed lacks verifiable new disclosure (no new issuer announcement is integrated in this pass); the 2026-08-17 close of HK$333.80 is near the HK$335 initial conversion price"
         },
-        "nextCheck": "bond closing and financing updates"
+        "nextCheck": "bond closing and financing updates",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-18"
       },
       {
         "id": "ip-regulatory-exposure",
@@ -8477,10 +8495,12 @@
           "en": "Hailuo litigation produces an injunction or material damages, or a key market restricts product distribution"
         },
         "latest": {
-          "zh": "FY2025 未计提拨备，结果与损失仍无法可靠估计",
-          "en": "no FY2025 provision; outcome and loss remain not reliably estimable"
+          "zh": "FY2025 未计提拨备，结果与损失仍无法可靠估计。2026-08-18 复核：Hailuo 诉讼进展缺乏可核实的新披露，禁令、赔偿或关键市场限制均无法据以判定",
+          "en": "No FY2025 provision; outcome and loss remain not reliably estimable. 2026-08-18 review: Hailuo litigation progress lacks verifiable new disclosure, so injunction, damages, or key-market restrictions cannot be graded from it"
         },
-        "nextCheck": "event-driven legal and regulatory updates"
+        "nextCheck": "event-driven legal and regulatory updates",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-18"
       }
     ]
   },

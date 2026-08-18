@@ -1,7 +1,7 @@
 # MiniMax Group Deep Research Report: Application-Layer Demand Validation and Valuation Stress Test
 
 Coverage date: 2026-07-15
-Last updated: 2026-07-31
+Last updated: 2026-08-18
 Ticker: HKEX: 0100
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -9,31 +9,33 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 ## 1. Executive Summary and Current View <!-- report-module:overview -->
 
-**One-sentence thesis:** MiniMax has shown that an independent Chinese foundation-model company can build global users, consumer-product revenue, and enterprise API revenue at the same time, but **FY2025 revenue of US$79.0M, a 25.4% gross margin, and US$279.6M of operating cash outflow** do not yet support the **HK$80.5B market capitalization and 130.6x FY2025 price-to-sales ratio** implied by the 2026-07-31 close. Initial coverage is **cautious / low conviction**.
+**One-sentence thesis:** MiniMax has shown that an independent Chinese foundation-model company can build global users, consumer-product revenue, and enterprise API revenue at the same time, but **FY2025 revenue of US$79.0M, a 25.4% gross margin, and US$279.6M of operating cash outflow** do not yet support the **HK$116.6B market capitalization and 189.1x FY2025 price-to-sales ratio** implied by the 2026-08-17 close. Initial coverage is **cautious / low conviction**.
 
 MiniMax sits in the `demand-risk` layer as a `risk-anchor`. It does not validate GPU, network, or data-center supply. It tests whether upstream AI infrastructure can become paid users, API consumption, gross profit, and cash recovery at the application layer. If user and token growth do not improve unit economics, usage alone is not durable proof of returns on upstream capital expenditure.
 
 ### Current snapshot
 
-| Metric | 2026-07-15 snapshot | Research implication |
+| Metric | 2026-08-18 snapshot | Research implication |
 |---|---:|---|
-| Closing price | HK$230.60 | Yahoo Finance / `0100.HK` close on 2026-07-31 |
+| Closing price | HK$333.80 | Yahoo Finance / `0100.HK` close on 2026-08-17 |
 | Post-placement shares | 349.235M | 313.635M existing shares plus 35.600M new shares |
-| Market capitalization | About HK$80.53B | Uses shares outstanding after placement completion |
-| Estimated enterprise value | About HK$57.83B | Deducts about HK$22.70B of pro forma net cash; excludes the proposed convertible bond |
+| Market capitalization | About HK$116.57B | Uses shares outstanding after placement completion |
+| Estimated enterprise value | About HK$93.87B | Deducts about HK$22.70B of pro forma net cash; excludes the proposed convertible bond |
 | FY2025 revenue | US$79.038M / about HK$616.5M | Up 158.9% year over year |
 | FY2025 gross margin | 25.4% | Up from 12.2% in FY2024 |
-| Price-to-sales / EV-to-sales | About 130.6x / 93.8x | Both use actual FY2025 revenue |
+| Price-to-sales / EV-to-sales | About 189.1x / 152.3x | Both use actual FY2025 revenue |
 | Adjusted net loss | US$250.856M | About 3.17 times revenue |
 | Operating cash flow | Negative US$279.641M | Commercialization does not yet fund R&D and compute |
 
 Pro forma net cash adds the company-defined US$1.050B cash balance at FY2025 year end, HK$5.293B of IPO net proceeds, and HK$9.491B from the placement completed on 2026-07-14, then deducts US$35.5M of bank and other borrowings at an approximate 7.8 HKD/USD rate. This is an **upper-bound snapshot before 2026 operating burn and use of proceeds**, not an audited cash balance as of 2026-07-15.
 
-**Current view: cautious / low conviction.** Business evidence is positive: revenue grew 158.9%, gross margin improved by 13.2 percentage points, international revenue was 73%, and paid consumer-product users reached 1.77M in the first nine months of 2025. Valuation, however, requires roughly **62% revenue CAGR over four years** (recomputed at the 2026-07-31 close; about 69% on the old caliber), with sustained gross-margin expansion and lower cash burn. Recent equity financing removes near-term liquidity pressure but also shows that training, inference, and global commercialization remain externally funded.
+**Current view: cautious / low conviction.** Business evidence is positive: revenue grew 158.9%, gross margin improved by 13.2 percentage points, international revenue was 73%, and paid consumer-product users reached 1.77M in the first nine months of 2025. Valuation, however, requires roughly **82.7% revenue CAGR over four years** (recomputed at the 2026-08-17 close; about 62% at the 2026-07-31 anchor), now above even this report's 70%-80% bull band, with sustained gross-margin expansion and lower cash burn. Recent equity financing removes near-term liquidity pressure but also shows that training, inference, and global commercialization remain externally funded.
 
 > **Old price-check note — stale as written, superseded by the re-adjudication below.** ~~2026-07-31 price check (no new quarter integrated in this pass): 0100.HK closed at 212.80 on 2026-07-29 versus the 260.60 anchor, a -18.3% move; figures below read as of their labels, and the valuation frame, scenario grid, stance and conviction are unchanged with `priceAsOf` deliberately left in place.~~
 
-> **2026-07-31 stance re-adjudication at the 2026-07-31 Hong Kong close.** Owner ruling (2026-07-31): a published stance and its rationale must hold at the CURRENT price. 0100.HK closed at **HK$230.60** on **2026-07-31**, **-11.5%** from the old HK$260.60 anchor of 2026-07-15. On the report's own unchanged frames — 349.235M post-placement shares, about HK$22.70B of pro forma net cash, and FY2025 revenue of US$79.038M (about HK$0.616B) — market cap is about **HK$80.5B** (old about HK$91.0B), enterprise value about **HK$57.8B** (old about HK$68.3B), price-to-sales about **130.6x** and EV/FY2025 sales about **93.8x** (old about 147.6x / 110.8x). Substituting into this report's own formula, `(93.8 / 20)^(1/4) x 1.10 - 1`, the current price implies FY2025-FY2029 revenue CAGR of about **62%** (old about 69%). No estimate or actual was changed; only the price input moved. **The premise survives at the new level:** the implied requirement falls from about 69% to about 62%, but that is still above this report's 50%-60% base-case range, so the expectation gap stays negative — merely less so — and none of the components of the cautious call is altered by a price move: 93.8x historical sales, a 25.4% gross margin, US$279.6M of operating cash outflow, IP risk, and continuing dilution. **Stance stays cautious (low conviction) — held on this restated current-price arithmetic, not on the old ~147.6x / ~69% claim.**
+> **Old 2026-07-31 re-adjudication note — figures stale at the 2026-08-17 close, superseded by the 2026-08-18 re-anchor below.** ~~2026-07-31 stance re-adjudication at the 2026-07-31 Hong Kong close. Owner ruling (2026-07-31): a published stance and its rationale must hold at the CURRENT price. 0100.HK closed at HK$230.60 on 2026-07-31, -11.5% from the old HK$260.60 anchor of 2026-07-15. On the report's own unchanged frames — 349.235M post-placement shares, about HK$22.70B of pro forma net cash, and FY2025 revenue of US$79.038M (about HK$0.616B) — market cap is about HK$80.5B (old about HK$91.0B), enterprise value about HK$57.8B (old about HK$68.3B), price-to-sales about 130.6x and EV/FY2025 sales about 93.8x (old about 147.6x / 110.8x). Substituting into this report's own formula, `(93.8 / 20)^(1/4) x 1.10 - 1`, the current price implies FY2025-FY2029 revenue CAGR of about 62% (old about 69%). The premise survives at the new level: the implied requirement falls from about 69% to about 62%, but that is still above this report's 50%-60% base-case range, so the expectation gap stays negative — merely less so. Stance stays cautious (low conviction).~~
+
+> **2026-08-18 stance re-anchor at the 2026-08-17 Hong Kong close.** Owner ruling (Q1 policy): a published stance and its rationale must hold at the CURRENT price. 0100.HK closed at **HK$333.80** on **2026-08-17**, **+44.8%** from the HK$230.60 anchor of 2026-07-31 and still about 36% below the 2026-06-23 peak of HK$515. On the report's own unchanged frames — 349.235M post-placement shares, about HK$22.70B of pro forma net cash, and FY2025 revenue of US$79.038M (about HK$0.616B) — market cap is about **HK$116.57B** (old about HK$80.5B), enterprise value about **HK$93.87B** (old about HK$57.8B), price-to-sales about **189.1x** and EV/FY2025 sales about **152.3x** (old about 130.6x / 93.8x). Substituting into this report's own formula, `(152.3 / 20)^(1/4) x 1.10 - 1`, the current price implies FY2025-FY2029 revenue CAGR of about **82.7%*** (old about 62%). No estimate or actual was changed; only the price input moved — no new issuer disclosure is integrated in this pass, and the next fundamental touchpoint is the 2026-08-26 interim results. **The cautious premise is now stronger, not weaker:** at the old anchor the implied requirement sat between the 50%-60% base case and the 70%-80% bull band; at HK$333.80 the roughly 83% requirement exceeds even the top of the published bull band, so the negative expectation gap holds under every scenario in this report's grid, including the bull case. The share price also now sits about 2% below the HK$335 initial conversion price of the pending convertible bond, so the potential 19.403M-share conversion (about 5.6% additional dilution) is close to at the money if issuance completes. No published downgrade clause fires: every downgrade trigger is a fundamental reading — revenue growth, gross margin, cash burn, further placement, IP outcome — and none has a new disclosure since 2026-07-31; this report also explicitly refuses to flip stance on a price move alone. **Stance stays cautious (low conviction).** Conviction is not raised despite the stronger arithmetic because the driver of the +44.8% repricing is not observable in issuer disclosure and the first interim results land within days; if those results do not materially reset the revenue base, the 2026-08-26 review should test the downgrade clauses against the then-current price.
 
 ## 2. Business Overview and Segment Economics <!-- report-module:business -->
 
@@ -79,8 +81,8 @@ The prospectus cites CIC estimates that the global foundation-model market, meas
 
 | Scenario | Competitive outcome | Valuation implication | Weight |
 |---|---|---|---:|
-| Bull | Multimodal products and the platform gain share together | 70%-80% revenue CAGR can absorb the current high multiple | 20% |
-| Base | MiniMax retains an independent position, but platforms constrain acquisition and API pricing | 50%-60% CAGR falls short of the market-implied 62% requirement | 50% |
+| Bull | Multimodal products and the platform gain share together | Even 70%-80% revenue CAGR falls short of the about 83% now implied by the 2026-08-17 close | 20% |
+| Base | MiniMax retains an independent position, but platforms constrain acquisition and API pricing | 50%-60% CAGR falls far short of the market-implied 82.7% requirement | 50% |
 | Bear | Open models and platform distribution weaken differentiation while litigation limits products | Revenue and valuation multiple reset together | 30% |
 
 MiniMax has three possible moat layers. Multimodal model work can be reused across Hailuo, Audio, Talkie, and Agent. Distribution across more than 200 countries and regions provides product feedback. Consumer products, APIs, and enterprise services offer multiple monetization paths. None is yet validated by profit: model capabilities change rapidly, open weights compress API prices, switching costs are limited, and large platforms acquire users and compute more efficiently.
@@ -143,10 +145,10 @@ The preliminary management assessment is **B / awaiting validation**. Technology
 
 ### Bear case
 
-1. US$79.0M of revenue supports about HK$80.5B of market capitalization, a 130.6x historical price-to-sales ratio that still leaves little room for commercial execution errors.
+1. US$79.0M of revenue supports about HK$116.6B of market capitalization, a 189.1x historical price-to-sales ratio that leaves even less room for commercial execution errors.
 2. Adjusted net loss was US$250.9M and operating cash outflow was US$279.6M, both more than three times revenue. Growth remains externally funded.
 3. AI-native product gross margin was only 4.7% in the first nine months of 2025. Free-user scale can amplify token cost rather than profit.
-4. The share price fell about 55% from HK$515 on 2026-06-23 to HK$230.60 on 2026-07-31 (updated to the latest close), showing extreme sensitivity to financing and risk appetite.
+4. The share price fell about 55% from HK$515 on 2026-06-23 to HK$230.60 on 2026-07-31, then rebounded 44.8% to HK$333.80 by 2026-08-17 — still about 36% below the peak — showing extreme sensitivity to financing and risk appetite in both directions.
 5. Open models and large platforms can compress API pricing, while IP, content safety, cross-border data, and technology regulation affect both products and valuation.
 
 | Thesis | Evidence required | Disconfirming signal |
@@ -176,25 +178,25 @@ MiniMax is loss-making, so P/E, free-cash-flow yield, and a conventional DCF are
 
 | Item | Estimate | Method |
 |---|---:|---|
-| Price multiplied by post-placement shares | HK$230.60 x 349.235M | About HK$80.53B market capitalization |
+| Price multiplied by post-placement shares | HK$333.80 x 349.235M | About HK$116.57B market capitalization |
 | Pro forma cash and financial assets | About HK$22.98B | FY2025 cash balance plus IPO and completed placement net proceeds |
 | Bank and other borrowings | About HK$0.28B | US$35.5M at 7.8 HKD/USD; excludes the pending bond |
-| Estimated enterprise value | About HK$57.83B | Upper-bound pro forma snapshot before 2026 cash use |
+| Estimated enterprise value | About HK$93.87B | Upper-bound pro forma snapshot before 2026 cash use |
 | FY2025 revenue | About HK$0.616B | US$79.038M at 7.8 HKD/USD |
-| Price-to-sales / EV-to-sales | About 130.6x / 93.8x | Historical revenue multiples, not target prices |
+| Price-to-sales / EV-to-sales | About 189.1x / 152.3x | Historical revenue multiples, not target prices |
 
 ### Market-implied requirement
 
-If EV-to-sales normalizes from about 93.8x to 20x over four years and investors require a 10% annual return:
+If EV-to-sales normalizes from about 152.3x to 20x over four years and investors require a 10% annual return:
 
-`Implied revenue CAGR = (93.8 / 20)^(1/4) x 1.10 - 1 = approximately 61.9%`
+`Implied revenue CAGR = (152.3 / 20)^(1/4) x 1.10 - 1 = approximately 82.7%`
 
-The 2026-07-31 close therefore requires about 62% FY2025-FY2029 revenue CAGR (about 69% at the old anchor) alongside significant gross-margin expansion, declining cash burn, and controlled dilution. The base case still assumes 50%-60% CAGR, still below the market-implied requirement, so the expectation gap stays negative, though materially less so than at the old anchor.
+The 2026-08-17 close therefore requires about 83% FY2025-FY2029 revenue CAGR (about 62% at the 2026-07-31 anchor) alongside significant gross-margin expansion, declining cash burn, and controlled dilution. The base case still assumes 50%-60% CAGR, and the implied requirement now exceeds even the 70%-80% bull band, so the expectation gap is negative under every scenario in the grid — materially wider than at the old anchor.
 
 | Scenario | FY2025-FY2029 revenue CAGR | FY2029 margin and cash profile | Valuation interpretation | Weight |
 |---|---:|---|---|---:|
-| Bull | 70%-80% | Gross margin 45%-55%; near operating cash-flow breakeven | Platform and API scale can absorb the current multiple | 20% |
-| Base | 50%-60% | Gross margin 35%-45%; burn rate falls but investment continues | Business succeeds but falls short of approximately 62% implied growth | 50% |
+| Bull | 70%-80% | Gross margin 45%-55%; near operating cash-flow breakeven | Even bull-band growth falls short of the approximately 82.7% implied requirement | 20% |
+| Base | 50%-60% | Gross margin 35%-45%; burn rate falls but investment continues | Business succeeds but falls far short of approximately 82.7% implied growth | 50% |
 | Bear | 25%-40% | Gross margin below 35%; continued financing and dilution | Revenue and valuation multiple reset together | 30% |
 
 This report does not issue a target price. The valuation exercise measures the tolerance for growth, margin, and financing errors rather than pretending to estimate a precise fair value.
@@ -214,7 +216,7 @@ The next formal review should follow the 2026 interim results and update three t
 
 ## 10. Conclusion and Review Rules <!-- report-module:conclusion -->
 
-**Conclusion: cautious / low conviction.** MiniMax is a rare listed pure-play foundation-model and application company. Its global users, consumer revenue, API revenue, and gross-margin improvement are real positive evidence. The problem is not an absence of product-market fit. The problem is that the about 93.8x EV to FY2025 sales implied by the 2026-07-31 close still demands about 62% revenue CAGR while high R&D spending, low consumer-product margins, IP risk, and dilution all improve at once.
+**Conclusion: cautious / low conviction.** MiniMax is a rare listed pure-play foundation-model and application company. Its global users, consumer revenue, API revenue, and gross-margin improvement are real positive evidence. The problem is not an absence of product-market fit. The problem is that the about 152.3x EV to FY2025 sales implied by the 2026-08-17 close demands about 83% revenue CAGR — above even this report's 70%-80% bull band — while high R&D spending, low consumer-product margins, IP risk, and dilution all improve at once.
 
 **Upgrade rule:** Move toward `neutral-watch` or `constructive` if an interim or later report shows revenue growth above 80%, consolidated gross margin above 40%, continued Open Platform mix and paying-customer gains, operating cash burn below 100% of revenue, and at least 24 months of funding without another large equity raise.
 
@@ -226,7 +228,7 @@ MiniMax is the application-layer risk anchor for the broader AI-infrastructure r
 
 ### Key assumptions
 
-- Market price is the `0100.HK` close of HK$230.60 on 2026-07-31, obtained through the Yahoo Finance price ledger.
+- Market price is the `0100.HK` close of HK$333.80 on 2026-08-17, obtained through the Yahoo Finance price ledger.
 - Market capitalization uses 349,235,308 shares after placement completion, not the stale 313,635,308 shares still shown by some market-data services.
 - A 7.8 HKD/USD approximation is used only for the valuation bridge; foreign-exchange precision does not drive the conclusion.
 - Pro forma cash does not deduct 2026 operating burn or deployment of proceeds, so enterprise value may be understated. The proposed bond is excluded from cash, debt, and conversion shares.
