@@ -3084,7 +3084,7 @@
     "priceSymbol": "SNDK",
     "title": "SanDisk 深度研究报告 - NAND寡头格局中的AI存储周期暴露",
     "titleEn": "SanDisk Deep Research Report - AI Storage Cycle Exposure in the NAND Oligopoly",
-    "summary": "2026-08-07 完整重跑：Q4 FY2026 收入 $89.65 亿、GAAP 与非 GAAP 毛利率均为 84.6%，FY2026 收入 $202.48 亿、自由现金流 $114.94 亿。按 2026-08-06 收盘 $1,258.58 与 1.49 亿股重锚，市值约 $1,875 亿、FY2026 P/S 9.26x、非 GAAP P/E 17.76x、FCF 收益率 6.13%。12-15x 通周期框架隐含可持续 EPS $83.91-104.88，低于顶峰年化但高于 FY2026 平均。NBM 合同金额、RPO、担保与 bit 覆盖仍未获文件确认，且年度结果为初步数据，完整重新裁定后维持观望中性/中确信。",
+    "summary": "2026-08-18 立场重锚与 10-K 复核：按 2026-08-17 收盘 $1,786.85 与 10-K 封面 146,419,001 股，市值约 $2,616.3 亿、FY2026 P/S 12.92x、非 GAAP P/E 25.21x、FCF 收益率 4.39%。12-15x 通周期框架隐含可持续 EPS $119.12-148.90，仍低于顶峰年化（Q4 年化 $157、Q1 指引中点年化 $180），但已达 FY2026 非 GAAP 平均 $70.88 的 1.68-2.10 倍，12x 端约为 Q4 年化的 94.8%。8 月 17 日 10-K 将 FY2026 数字最终化，并披露 NBM 剩余履约义务 $598 亿、合同负债 $12.42 亿、退款负债 $15 亿及固定/浮动定价和财务担保；但 FY2027 bit 覆盖与实际交付仍待验证。维持观望中性/中确信。",
     "tags": [
       "NAND闪存",
       "AI存储",
@@ -3093,7 +3093,7 @@
     ],
     "category": "tech",
     "date": "2026-06-27",
-    "lastUpdate": "2026-08-07",
+    "lastUpdate": "2026-08-18",
     "file": "/invest/research/reports/view.html?id=sandisk-2026",
     "markdownFiles": {
       "zh": "/invest/research/SanDisk_深度研究报告_2026-08.md",
@@ -3116,18 +3116,18 @@
       "summaryEn": "Archived pre-rerun FY2026 version preserving the Q4 monitoring update and historical 2026-07-30 valuation frame."
     },
     "highlights": [
-      "Q4 FY2026 收入 $89.65 亿、毛利率 84.6%；FY2026 收入 $202.48 亿、自由现金流 $114.94 亿",
-      "2026-08-06 收盘 $1,258.58：市值约 $1,875 亿、FY2026 P/S 9.26x、非 GAAP P/E 17.76x、FCF 收益率 6.13%",
-      "12-15x 通周期框架隐含可持续 EPS $83.91-104.88；维持观望中性/中确信",
-      "NBM 金额、RPO、担保和 bit 覆盖仍未获文件确认；年度结果为初步数据，等待 10-K",
+      "Q4 FY2026 收入 $89.65 亿、毛利率 84.6%；经 10-K 最终确认的 FY2026 收入 $202.48 亿、GAAP 毛利率 71.5%、自由现金流 $114.94 亿",
+      "2026-08-17 收盘 $1,786.85：10-K 封面 146,419,001 股对应市值约 $2,616.3 亿、FY2026 P/S 12.92x、非 GAAP P/E 25.21x、FCF 收益率 4.39%",
+      "12-15x 通周期框架隐含可持续 EPS $119.12-148.90，仍低于顶峰年化但已达 FY2026 平均的 1.68-2.10 倍；维持观望中性/中确信",
+      "10-K 披露 NBM RPO $598 亿、合同负债 $12.42 亿、退款负债 $15 亿、固定/浮动定价与财务担保；FY2027 bit 覆盖和实际交付仍待验证",
       "Q1 FY2027 指引：收入 $103-108 亿，非 GAAP 毛利率 83-85%，非 GAAP EPS $44-46"
     ],
-    "summaryEn": "Full rerun on August 7, 2026: Q4 FY2026 revenue was $8.965B and GAAP/non-GAAP gross margin 84.6%; FY2026 revenue was $20.248B and free cash flow $11.494B. Re-anchored to the August 6 close of $1,258.58 and 149M shares: about $187.5B market cap, 9.26x FY2026 P/S, 17.76x non-GAAP P/E, and 6.13% FCF yield. A 12-15x through-cycle frame implies $83.91-$104.88 of sustainable EPS, below peak annualized earnings but above the FY2026 average. NBM contract value, RPO, guarantees and bit coverage remain unconfirmed in filings, and annual results are preliminary. The complete re-adjudication retains neutral-watch / medium conviction.",
+    "summaryEn": "August 18, 2026 stance re-anchor and Form 10-K review: at the August 17 close of $1,786.85 and 146,419,001 shares on the 10-K cover, market cap is about $261.6B, FY2026 P/S 12.92x, non-GAAP P/E 25.21x, and FCF yield 4.39%. A 12-15x through-cycle frame implies $119.12-$148.90 of sustainable EPS, still below peak annualized earnings (about $157 on Q4 and $180 on the Q1-guide midpoint) but now 1.68-2.10x the FY2026 non-GAAP average of $70.88; the 12x end is about 94.8% of Q4 annualized. The August 17 Form 10-K finalizes FY2026 and discloses $59.8B of NBM remaining performance obligations, $1.242B of contract liabilities, $1.5B of refund liabilities, fixed and variable pricing, and financial guarantees. FY2027 bit coverage and delivery remain unverified, so neutral-watch / medium conviction holds.",
     "chainLayer": "memory-storage",
     "coverageTier": "full",
     "stance": "neutral-watch",
-    "priceAsOf": "2026-08-06",
-    "reportedPeriod": "Q4 FY2026 / FY2026",
+    "priceAsOf": "2026-08-17",
+    "reportedPeriod": "FY2026 Form 10-K / Q4 FY2026",
     "related": [
       "sk-hynix-2026"
     ],
@@ -3148,7 +3148,7 @@
           "zh": "2026-08-05 发布的 Q4 FY2026（截至 2026-07-03）：GAAP 与非 GAAP 毛利率同为 84.6%，较 Q3 的 78.4% 升 6.2 个百分点，高于 79-81% 指引上限；GAAP 营业利润 $7,037M（营业利润率约 78.5%）。Q1 FY2027 指引毛利率 GAAP 83.0-84.9%、非 GAAP 83.0-85.0%。公司称环比收入增长约 1/3 来自出货量、约 2/3 来自价格，并预期 bit 在 2027 日历年之后仍处配给状态、全年可售 bit 增长中双位数。顶峰毛利率尚未转向，读数在框架内；但涨价主导的结构意味着价格回落时利润回撤更快。证据为卖方口径，本窗口内无买方成本归因佐证。",
           "en": "Q4 FY2026 (quarter ended 2026-07-03), released 2026-08-05: GAAP and non-GAAP gross margin both 84.6%, up 6.2 ppt from 78.4% in Q3 and above the 79-81% guidance range; GAAP operating income $7,037M (about a 78.5% operating margin). Q1 FY2027 guidance is 83.0-84.9% GAAP and 83.0-85.0% non-GAAP gross margin. The company says sequential revenue growth came about one-third from volume and two-thirds from price, and expects bits to remain on allocation beyond calendar 2027 with sellable bit growth in the mid-teens for the year. The peak margin has not turned, so the reading sits within the frame; but a price-led mix means profit retraces faster when pricing rolls over. This is seller-side evidence, with no buyer-side cost attribution in this window."
         },
-        "nextCheck": "FY2027 Q1 财报与 10-K / Q1 FY2027 earnings and Form 10-K",
+        "nextCheck": "FY2027 Q1 财报 / Q1 FY2027 earnings",
         "nextCheckDate": "2026-11",
         "reading": "within",
         "readingAsOf": "2026-08-05"
@@ -3166,13 +3166,13 @@
           "en": "the ~$42B minimum contracted revenue across five NBM agreements (management framing) gets confirmed in filings and delivery"
         },
         "latest": {
-          "zh": "2026-08-05 Q4 FY2026 业绩新闻稿披露本季新增五份 NBM 协议，其中三家为新客户、两份为既有协议扩展，使已公布协议总数达到十份。新闻稿未披露最低合同收入、RPO、财务担保或 bit 覆盖，因此不能据此确认旧报告约 $42B 的管理层口径，也不能判定上调触发条件要求的 FY2027 过半 bit 覆盖。读数不明，等待 10-K 或可核查合同披露。",
-          "en": "The 2026-08-05 Q4 FY2026 earnings release disclosed five additional NBM agreements - three with new customers and two expansions - bringing the announced total to ten. The release does not disclose minimum contracted revenue, RPO, financial guarantees, or committed-bit coverage, so it cannot independently confirm the old report's roughly $42B management framing or establish the upgrade trigger's more-than-half FY2027 bit coverage. The reading is unclear pending the Form 10-K or checkable contract disclosure."
+          "zh": "2026-08-17 提交的 FY2026 Form 10-K 首次将 NBM 经济性写入文件：长期协议承诺多年期指定产品数量，价格含固定与浮动部分，并由客户财务担保支持。2026-07-03 的 NBM 剩余履约义务为 $598 亿（其中约 19% 预计未来 12 个月确认，且全部属于 NBM），合同负债 $12.42 亿、退款负债 $15 亿；公司还可使用第三方金融机构抵押品。该文件已验证旧报告约 $420 亿管理层口径的方向与财务保护，但未披露 FY2027 committed-bit 覆盖，且交付尚未发生，因此按触发条件的「文件与兑现」合取要求仍为读数不明。",
+          "en": "The FY2026 Form 10-K filed 2026-08-17 puts NBM economics into a filing for the first time: the long-term agreements commit specified product volumes over multi-year periods, use fixed and variable pricing, and are supported by customer financial guarantees. At 2026-07-03, NBM remaining performance obligations were $59.8B, about 19% expected within twelve months and entirely related to NBMs; contract liabilities were $1.242B and refund liabilities $1.5B, with additional third-party collateral mechanisms available. The filing validates the direction of the old roughly $42B management framing and financial protection, but does not disclose FY2027 committed-bit coverage and delivery has not occurred. The trigger requires both filing confirmation and delivery, so the reading remains unclear."
         },
-        "nextCheck": "10-K/合同披露 / filings & contract disclosure",
-        "nextCheckDate": "2026-09",
+        "nextCheck": "Q1 FY2027 交付与 bit 覆盖 / Q1 FY2027 delivery and committed-bit coverage",
+        "nextCheckDate": "2026-11",
         "reading": "unclear",
-        "readingAsOf": "2026-08-05"
+        "readingAsOf": "2026-08-17"
       },
       {
         "id": "datacenter-mix",
@@ -3208,19 +3208,19 @@
           "en": "the 12-15x through-cycle frame implies EPS above a verifiable trough and earnings plus the multiple compress together"
         },
         "latest": {
-          "zh": "按 2026-08-06 收盘 $1,258.58 与 1.49 亿股，市值约 $1,875.3 亿；FY2026 P/S 9.26x、非 GAAP P/E 17.76x、FCF 收益率 6.13%。12-15x 框架隐含可持续 EPS $83.91-104.88，低于顶峰年化但高于 FY2026 平均，读数在框架内。",
-          "en": "At the 2026-08-06 close of $1,258.58 and 149M shares, market cap is about $187.53B; FY2026 P/S is 9.26x, non-GAAP P/E 17.76x, and FCF yield 6.13%. A 12-15x frame implies $83.91-$104.88 of sustainable EPS, below peak annualized earnings but above the FY2026 average, a within-frame reading."
+          "zh": "2026-08-18 按 2026-08-17 收盘 $1,786.85 与 10-K 封面 146,419,001 股重锚：市值约 $2,616.3 亿；FY2026 P/S 12.92x、非 GAAP P/E 25.21x、FCF 收益率 4.39%。12-15x 框架隐含可持续 EPS $119.12-148.90，仍低于 Q4 非 GAAP 年化 $157 与 Q1 指引中点年化 $180，读数仍在框架内；但隐含要求已达 FY2026 非 GAAP 平均 $70.88 的 1.68-2.10 倍，12x 端约为 Q4 年化的 94.8%，正常化缓冲进一步收窄。约 $1,884 的既有降级阈值仍未触发。",
+          "en": "Re-anchored on 2026-08-18 at the 2026-08-17 close of $1,786.85 and 146,419,001 shares from the Form 10-K cover: market cap about $261.6B; FY2026 P/S 12.92x, non-GAAP P/E 25.21x, and FCF yield 4.39%. The 12-15x frame implies $119.12-$148.90 of sustainable EPS, still below the $157 Q4 non-GAAP annualized and $180 Q1-guide midpoint annualized, so the reading stays within the frame. The requirement is now 1.68-2.10x the FY2026 non-GAAP average of $70.88 and the 12x end is about 94.8% of Q4 annualized, leaving a thinner normalization buffer. The existing roughly $1,884 downgrade threshold has not fired."
         },
         "nextCheck": "行业 bit 供需、合同价与 Q1 FY2027 盈利 / industry bit supply-demand, contract pricing and Q1 FY2027 earnings",
         "nextCheckDate": "2026-11",
         "reading": "within",
-        "readingAsOf": "2026-08-06"
+        "readingAsOf": "2026-08-17"
       }
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "2026-08-07 完整重新裁定。按 2026-08-06 收盘 $1,258.58 与 1.49 亿股，市值约 $1,875.3 亿；FY2026 P/S 9.26x、非 GAAP P/E 17.76x、FCF 收益率 6.13%。12-15x 通周期框架隐含可持续 EPS $83.91-104.88，低于 Q4 与 Q1 指引的顶峰年化盈利、但高于 FY2026 非 GAAP EPS $70.88。价格已计入部分正常化，算术不支持谨慎；NBM 金额、RPO、担保和 bit 覆盖仍未入文件，且年度结果为初步数据，故不转为看多，维持观望中性/中确信。",
-      "en": "Fully re-adjudicated on 2026-08-07. At the 2026-08-06 close of $1,258.58 and 149M shares, market cap is about $187.53B; FY2026 P/S is 9.26x, non-GAAP P/E 17.76x, and FCF yield 6.13%. A 12-15x through-cycle frame implies $83.91-$104.88 of sustainable EPS, below peak Q4 and Q1-guide annualizations but above FY2026 non-GAAP EPS of $70.88. The price already discounts some normalization, so cautious is not supported; NBM value, RPO, guarantees and bit coverage remain unfiled and annual results are preliminary, keeping the stance neutral-watch / medium rather than constructive."
+      "zh": "2026-08-18 按当前价格与 FY2026 Form 10-K 重新推导。按 2026-08-17 收盘 $1,786.85 与 146,419,001 股，市值约 $2,616.3 亿；FY2026 P/S 12.92x、非 GAAP P/E 25.21x、FCF 收益率 4.39%。12-15x 通周期框架隐含可持续 EPS $119.12-148.90，仍低于 Q4 非 GAAP 年化 $157 与 Q1 指引中点年化 $180，约 $1,884 的降级阈值尚未触发，因此算术仍不支持谨慎；但区间已达 FY2026 平均 $70.88 的 1.68-2.10 倍，缓冲很薄。10-K 确认 NBM 多年期数量、固定/浮动定价、$598 亿 RPO 与财务担保，证据集改善；但升级条件还要求 FY2027 有意义的数量覆盖、Q1 兑现与行业供给纪律，尚未全部满足，维持观望中性/中确信。",
+      "en": "Re-derived on 2026-08-18 at the current price and against the FY2026 Form 10-K. At the 2026-08-17 close of $1,786.85 and 146,419,001 shares, market cap is about $261.6B; FY2026 P/S is 12.92x, non-GAAP P/E 25.21x, and FCF yield 4.39%. A 12-15x through-cycle frame implies $119.12-$148.90 of sustainable EPS, still below the $157 Q4 non-GAAP annualized and $180 Q1-guide midpoint annualized. The roughly $1,884 downgrade threshold has not fired, so the arithmetic still does not support cautious, although the 1.68-2.10x band versus FY2026 average EPS of $70.88 leaves little cushion. The 10-K improves the evidence set by confirming multi-year NBM volumes, fixed and variable pricing, $59.8B of RPO, and financial guarantees. The upgrade path also requires meaningful FY2027 coverage, Q1 delivery, and industry supply discipline; those legs are not all met, so neutral-watch / medium holds."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -3232,11 +3232,12 @@
         ]
       },
       "downgrade": {
-        "zh": "若 NAND 合同价连续两个周期转弱、毛利率无结构解释地跌破 70%、NBM 条款不及预期，或 SanDisk/铠侠新增产能指向供给过剩，则下调至 cautious。",
-        "en": "move to cautious if NAND contract prices weaken for two consecutive periods, gross margin falls below 70% without a mix explanation, NBM terms disappoint, or SanDisk/Kioxia capacity additions point to oversupply.",
+        "zh": "若 NAND 合同价连续两个周期转弱、毛利率无结构解释地跌破 70%、NBM 条款不及预期、SanDisk/铠侠新增产能指向供给过剩，或价格升破约 $1,884 使 12x 隐含可持续 EPS 不再低于 Q4 非 GAAP 年化 $157，则下调至 cautious。",
+        "en": "move to cautious if NAND contract prices weaken for two consecutive periods, gross margin falls below 70% without a mix explanation, NBM terms disappoint, SanDisk/Kioxia capacity additions point to oversupply, or the price rises above roughly $1,884 so the 12x-implied sustainable EPS no longer sits below the $157 Q4 non-GAAP annualized.",
         "monitoringIds": [
           "nand-cycle-margin-peak",
-          "nbm-contract-lockin"
+          "nbm-contract-lockin",
+          "cycle-derating"
         ]
       }
     },
@@ -3266,6 +3267,16 @@
         "note": {
           "zh": "所有者 Q1 裁定：$1,279.96 下隐含可持续 EPS 约 $85-107，仍低于顶峰指引，谨慎调整为观望中性。",
           "en": "Owner Q1 ruling: at $1,279.96 implied sustainable EPS (~$85-107) is still below the peak guide; cautious moves to neutral-watch."
+        }
+      },
+      {
+        "date": "2026-08-18",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 1786.85,
+        "note": {
+          "zh": "价格与 10-K 重锚：2026-08-17 收盘 $1,786.85 下，12-15x 框架隐含 EPS $119.12-148.90，12x 端约为 Q4 年化的 94.8%，但尚未跨过约 $1,884 的降级阈值。10-K 确认 $598 亿 NBM RPO、数量承诺、定价机制与财务担保；FY2027 bit 覆盖和 Q1 交付未验证，维持观望中性/中确信。",
+          "en": "Price and 10-K re-anchor: at the 2026-08-17 close of $1,786.85, the 12-15x frame implies $119.12-$148.90 of EPS and the 12x end is about 94.8% of Q4 annualized, but the roughly $1,884 downgrade threshold has not fired. The 10-K confirms $59.8B of NBM RPO, volume commitments, pricing mechanisms, and financial guarantees; FY2027 bit coverage and Q1 delivery remain unverified, so neutral-watch / medium holds."
         }
       }
     ]
