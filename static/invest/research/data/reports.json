@@ -4779,7 +4779,7 @@
     "priceSymbol": "NEOV",
     "title": "NeoVolta 深度研究报告 - 美国住宅储能新势力",
     "titleEn": "NeoVolta Deep Research Report - Emerging U.S. Residential Energy Storage Player",
-    "summary": "【2026-07-31 立场重新裁定：NEOV 于 2026-07-30 收于 $2.13，较 07-29 低点反弹 +8.1%、较原锚点 -21.7%，市值约 $91M、P/S（TTM）约 5.1x；按所有者 Q1 裁定按当前价格复核，维持谨慎（低确信）——立场依据是收入下滑/稀释/跑道风险，价格变动未触及。】Q3 FY2026营收骤降至$2.02M（环比-56%），股价从$4.21暴跌至~$1.93（-54%），公开发行稀释65%。佐治亚工厂推迟至8月底、Infinite Grid $2亿LOI+Needham首次覆盖给予$8目标价提供远期想象空间，但近期基本面严重恶化。P/S（TTM）按 2026-07-30 收盘约 5.1x，极高风险。",
+    "summary": "【2026-08-18 价格重锚：NEOV 于 2026-08-18 收于 $3.64，较 07-30 锚点 $2.13 上涨 +70.9%，期间无新财报事实（FY2026 Q4/全年业绩预计 8 月下旬）；股本按 S-3 重锚为 58,863,247 股（2026-08-03），市值约 $214M、P/S（TTM）约 11.9x，比 07-31 复核时显著更贵；立场依据的收入下滑/稀释/跑道风险无一被价格修复，维持谨慎（低确信）。】Q3 FY2026 营收骤降至 $2.02M（环比 -56%）；股价 2026-02 高点 $4.21、06 月低点约 $1.93，5 月公开发行大幅稀释。佐治亚工厂目标 8 月底完成调试投产、Infinite Grid $2 亿 LOI 仍非约束——08-11 S-3 披露其持股 4.5M 股（2026-02 定向 $2.50/股 + 顾问签约费股），是利益绑定信号而非订单转化。极高风险。",
     "tags": [
       "储能",
       "新能源",
@@ -4788,7 +4788,7 @@
     ],
     "category": "energy",
     "date": "2026-02-09",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-18",
     "file": "/invest/research/reports/view.html?id=neov-2026",
     "markdownFiles": {
       "zh": "/invest/research/NeoVolta_深度研究报告_2026-02.md",
@@ -4798,17 +4798,17 @@
     "versionType": "incremental",
     "versionLabel": "2026H1 Incremental Update",
     "highlights": [
-      "2026-07-31 重新裁定：$2.13（2026-07-30 收盘），较 07-29 低点反弹 +8.1%，市值约 $91M、P/S（TTM）约 5.1x；维持谨慎 / 低确信",
+      "2026-08-18 价格重锚：$3.64（2026-08-18 收盘），较 07-30 锚点 $2.13 +70.9%；股本 58,863,247（S-3，2026-08-03），市值约 $214M、P/S（TTM）约 11.9x；维持谨慎 / 低确信",
       "Q3 FY2026营收骤降至$2.02M（QoQ -56%），连续两个季度大幅萎缩；9个月累计$13.37M",
-      "股价从$4.21暴跌至~$1.93（-54%），公开发行使流通股从~33M增至~54.5M（+65%稀释）",
-      "佐治亚工厂推迟至8月底投产，FEOC合规已确认；Infinite Grid Capital 1.1 GWh LOI（~$2亿）",
-      "Needham 6/17首次覆盖给予买入、$8目标价；TTM P/S ~5.82x，现金$11.48M，跑道约4季度"
+      "股价 2026-02 高点 $4.21、06 月低点 ~$1.93、08-17 收盘 $3.64；流通股 2026-05-14 42.7M → 2026-08-03 58,863,247（5 月公开发行等），稀释持续",
+      "佐治亚工厂目标 2026-08 底完成调试投产（FEOC 合规已确认），尚无投产确认公告；Infinite Grid 1.1 GWh LOI（~$2 亿）仍为非约束",
+      "08-11 S-3 披露 Infinite Grid 持股 4.5M 股（2026-02-05 定向 $2.50/股 ×4M + 0.5M 顾问签约费股，注册转售）；现金 $11.48M（2026-03-31，未含 5 月发行募资）；FY2026 全年业绩预计 8 月下旬"
     ],
-    "summaryEn": "[2026-07-31 stance re-adjudication: NEOV closed at $2.13 on 2026-07-30, +8.1% off the 07-29 low and -21.7% from its old anchor, for about $91M market cap and ~5.1x P/S (TTM); re-checked at the current price under the owner's Q1 ruling, cautious (low conviction) holds — the stance rests on contraction/dilution/runway risk, untouched by the price move.] Q3 FY2026 revenue collapsed to $2.02M (-56% QoQ); the stock has crashed from $4.21 to ~$1.93 (-54%), with a public offering diluting shares ~65%. The Georgia factory slipped to end-August, while Infinite Grid's ~$200M 1.1 GWh LOI and Needham's initiation at an $8 target offer long-term optionality — but near-term fundamentals have deteriorated badly. P/S (TTM) is about 5.1x at the 2026-07-30 close; very high risk.",
+    "summaryEn": "[2026-08-18 price re-anchor: NEOV closed at $3.64 on 2026-08-18, +70.9% off the 07-30 anchor of $2.13, with no new reported fundamentals in between (Q4/FY2026 results expected late August); share base re-anchored to 58,863,247 (S-3, as of 2026-08-03), for about $214M market cap and ~11.9x P/S (TTM) — much richer than at the 07-31 check. None of the cautious legs — contraction, dilution, runway risk — is repaired by the move, so cautious (low conviction) holds.] Q3 FY2026 revenue collapsed to $2.02M (-56% QoQ); the stock's February 2026 high was $4.21 and its June low ~$1.93, with heavy dilution from the May offering. The Georgia factory targets end-August commissioning; Infinite Grid's ~$200M 1.1 GWh LOI remains non-binding — the 08-11 S-3 shows IGC holds 4.5M shares (Feb 2026 placement at $2.50 plus consulting signing-fee shares), an alignment signal, not order conversion. Very high risk.",
     "chainLayer": "power",
     "coverageTier": "lite",
     "stance": "cautious",
-    "priceAsOf": "2026-07-30",
+    "priceAsOf": "2026-08-17",
     "reportedPeriod": "Q3 FY2026",
     "monitoring": [
       {
@@ -4824,10 +4824,13 @@
           "en": "revenue fails to recover in Q4 FY2026/FY2027 — near-term fundamentals keep deteriorating"
         },
         "latest": {
-          "zh": "Q3 FY2026 营收 $2.02M（QoQ −56%）、连续两季大幅萎缩",
-          "en": "Q3 FY2026 revenue $2.02M (−56% QoQ), second straight big decline"
+          "zh": "Q3 FY2026 营收 $2.02M（QoQ −56%）、连续两季大幅萎缩；Q4 FY2026/全年业绩预计 8 月下旬发布，恢复与否尚无数据",
+          "en": "Q3 FY2026 revenue $2.02M (−56% QoQ), second straight big decline; Q4 FY2026 / FY results expected late August — no recovery data yet"
         },
-        "nextCheck": "FY2026-Q4 财报 / Q4 FY2026 earnings"
+        "nextCheck": "FY2026-Q4 财报 / Q4 FY2026 earnings",
+        "nextCheckDate": "2026-08",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-18"
       },
       {
         "id": "georgia-factory",
@@ -4842,11 +4845,13 @@
           "en": "the end-August production start slips again"
         },
         "latest": {
-          "zh": "投产推迟至 2026 年 8 月底；FEOC 合规已确认",
-          "en": "start pushed to end-Aug 2026; FEOC compliance confirmed"
+          "zh": "⚠️ 时点口径出现分歧：2026-08-11 S-3 载明佐治亚 JV「初始阶段预计于本公司 2027 财年第一季度末完成」、「预计投产时点为 2027 财年第一季度末」（财年止于 6 月 30 日，即约 2026-09-30），晚于此前对外沟通的 8 月底节点；公司未就两个口径的关系（SAT 完成 vs 初始阶段投产）作出说明，也无 8-K 明示推迟（2026-05-29 后无 8-K）。缺的是：一份把 8 月底 SAT 目标与 S-3 的 9 月底投产口径对齐的公司披露。FEOC 合规已确认",
+          "en": "⚠️ Timing frames now conflict: the 2026-08-11 S-3 states the Georgia JV's initial phase is \"expected to be completed at the end of our fiscal 2027 first quarter\" and refers to \"the anticipated startup ... at the end of our fiscal 2027 first quarter\" (FY ends June 30, so about 2026-09-30) — later than the previously communicated end-August milestone. The company has not reconciled the two frames (SAT completion vs initial-phase startup) and no 8-K discloses a slip (none filed since 2026-05-29). Missing: a company disclosure aligning the end-August SAT target with the S-3's end-September startup language. FEOC compliance confirmed"
         },
         "nextCheck": "2026-08 投产确认 / August start confirmation",
-        "nextCheckDate": "2026-08"
+        "nextCheckDate": "2026-08",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-18"
       },
       {
         "id": "dilution-runway",
@@ -4861,10 +4866,13 @@
           "en": "another raise or cash squeeze inside the ~4-quarter runway"
         },
         "latest": {
-          "zh": "公开发行后流通股 ~33M→~54.5M（+65% 稀释）；现金 $11.48M",
-          "en": "shares ~33M→~54.5M (+65% dilution) after the offering; cash $11.48M"
+          "zh": "流通股 58,863,247（2026-08-03，S-3），较 2026-05-14 10-Q 封面数 42.7M 进一步增加（5 月公开发行等）；现金最后披露 $11.48M（2026-03-31），发行后余额未披露；08-11 S-3 为 Infinite Grid 持股转售注册、公司不获款项，非新增发",
+          "en": "Shares outstanding 58,863,247 (2026-08-03, per the S-3), up from the 42.7M 10-Q cover count of 2026-05-14 (May offering et al.); cash last disclosed at $11.48M (2026-03-31), post-offering balance unreported; the 08-11 S-3 registers Infinite Grid's resale with no proceeds to the company — not a new raise"
         },
-        "nextCheck": "现金与增发公告 / cash & issuance announcements"
+        "nextCheck": "现金与增发公告 / cash & issuance announcements",
+        "nextCheckDate": "2026-08",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-18"
       },
       {
         "id": "infinite-grid-conversion",
@@ -4879,16 +4887,18 @@
           "en": "the 1.1 GWh (~$200M) LOI converts into binding orders"
         },
         "latest": {
-          "zh": "LOI 已签署；Needham 首次覆盖买入、目标价 $8",
-          "en": "LOI signed; Needham initiated at Buy, $8 target"
+          "zh": "无任何确认 LOI 已转化的披露——无宣布具约束力 offtake 协议的 8-K；08-11 S-3 仅将 IGC 的角色描述为协助谈判「条款清单、意向书与最终 offtake 协议」，成功费按未来「合格 offtake 协议」的收入计提。缺的是：公司对 1.1 GWh LOI 约束力状态的明确说明。IGC 持股 4.5M 股（2026-02-05 定向 $2.50/股 ×4M + 0.5M 顾问签约费股，现已注册转售）是利益绑定信号，同时构成潜在卖压，不等于订单转化",
+          "en": "No affirmative disclosure that the LOI converted — no 8-K announcing a definitive offtake agreement, and the 08-11 S-3 describes IGC's role only as assisting in negotiating \"term sheets, letters of intent and definitive offtake agreements,\" with success fees payable on future \"qualifying offtake agreements.\" Missing: a company statement on the 1.1 GWh LOI's binding status. IGC's 4.5M-share stake (Feb 5, 2026 placement at $2.50 ×4M plus 0.5M consulting signing-fee shares, now registered for resale) is alignment — and potential selling pressure — not order conversion"
         },
-        "nextCheck": "LOI→合同公告 / LOI-to-contract announcements"
+        "nextCheck": "LOI→合同公告 / LOI-to-contract announcements",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-18"
       }
     ],
     "conviction": "low",
     "stanceRationale": {
-      "zh": "2026-07-31 按所有者 Q1 裁定以当前价格复核。按 2026-07-30 收盘 $2.13（市值约 $91M、P/S（TTM）约 5.1x）：市值不足 $1 亿的微型股，价格本身信息量有限；谨慎立场建立在收入连续下滑、稀释、亏损与现金跑道风险对比 Georgia / Infinite Grid 可选性之上，价格变动未触及其中任何一项，维持谨慎/低确信。",
-      "en": "Re-checked 2026-07-31 at the current price under the owner's Q1 ruling. At the 2026-07-30 close of $2.13 (about $91M cap, ~5.1x TTM sales): a sub-$100M micro-cap's price carries little information; cautious rests on sequential revenue contraction, dilution, losses and cash-runway risk against Georgia / Infinite Grid optionality, none of which the price move touched, so cautious / low conviction holds."
+      "zh": "2026-08-18 按 Q1 政策以当前价格重新推导。按 2026-08-18 收盘 $3.64（股本按 S-3 重锚为 58,863,247 股，市值约 $214M、P/S（TTM）约 11.9x、FY2026E $15-18M 口径前瞻 P/S 约 12-14x）：+70.9% 的两周反弹没有伴随任何新财报事实（Q4/全年业绩预计 8 月下旬），谨慎立场的依据——收入连续下滑、稀释、亏损与现金跑道风险——无一被修复，倍数反而显著更贵、预期差更负；上调触发条件（投产确认、LOI 转约束、毛利率 25%+、无重大稀释下延长跑道）一项未兑现，维持谨慎/低确信。",
+      "en": "Re-derived 2026-08-18 at the current price under the Q1 policy. At the 2026-08-18 close of $3.64 (share base re-anchored to 58,863,247 per the S-3; about $214M cap, ~11.9x TTM P/S, ~12-14x forward on the FY2026E $15-18M frame): the +70.9% two-week rally came with no new reported fundamentals (Q4 / FY results expected late August). None of the cautious legs — sequential revenue contraction, dilution, losses, cash-runway risk — is repaired, while the multiple is now much richer and the expectation gap more negative; no upgrade condition (start-up confirmation, binding LOI, 25%+ gross margin, runway extension without major dilution) has been met. Cautious / low conviction holds."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -4936,6 +4946,16 @@
         "note": {
           "zh": "所有者 Q1 裁定复核：立场依据是收入下滑/稀释/跑道风险，$2.13 下成立，维持谨慎。",
           "en": "Owner Q1 ruling re-check: the stance rests on contraction/dilution/runway risk; it holds at $2.13, cautious stays."
+        }
+      },
+      {
+        "date": "2026-08-18",
+        "stance": "cautious",
+        "conviction": "low",
+        "price": 3.64,
+        "note": {
+          "zh": "价格重锚：2026-08-18 收盘 $3.64，较 07-30 锚点 +70.9%，期间无新财报事实（Q4/全年业绩预计 8 月下旬）；股本按 S-3 重锚为 58,863,247 股（2026-08-03），市值约 $214M、P/S（TTM）约 11.9x——比 07-31 时显著更贵（07-31 注所用 $91M/5.1x 基于 5 月发行前的 42.7M 封面股数，按当前股本口径当时已约 $125M/6.9x）。谨慎的依据（收入连续下滑、稀释、亏损、跑道）无一被价格修复；08-11 S-3 披露的 Infinite Grid 持股是利益绑定信号而非订单转化，上调条件一项未兑现，维持谨慎/低确信。",
+          "en": "Price re-anchor: $3.64 at the 2026-08-18 close, +70.9% off the 07-30 anchor, with no new reported fundamentals in between (Q4 / FY results expected late August); share base re-anchored to 58,863,247 (S-3, 2026-08-03), for about $214M cap and ~11.9x TTM P/S — much richer than at the 07-31 check (the $91M / 5.1x published then used the pre-offering 42.7M cover count; on the current share base it was already ~$125M / ~6.9x). None of the cautious legs — sequential contraction, dilution, losses, runway — is repaired by the move; the Infinite Grid stake disclosed in the 08-11 S-3 is alignment, not order conversion, and no upgrade condition has been met. Cautious / low conviction holds."
         }
       }
     ]
