@@ -124,6 +124,54 @@ class OpenCallTests(unittest.TestCase):
             uv.open_call_entry(report, self.price_entry, self.benchmarks, "SMH", date(2026, 7, 8))
 
 
+class DataAsOfTests(unittest.TestCase):
+    @staticmethod
+    def prices(*last_dates):
+        return {
+            "generatedAt": "2026-08-07",
+            "entries": [
+                {"reportId": f"r{index}", "lastDate": day, "lastClose": 10.0}
+                for index, day in enumerate(last_dates)
+            ],
+        }
+
+    def test_uses_the_newest_traded_session_across_entries(self):
+        prices = self.prices("2026-08-04", "2026-08-06", "2026-08-05")
+        self.assertEqual(uv.prices_as_of(prices), date(2026, 8, 6))
+
+    def test_entries_without_a_last_date_are_ignored(self):
+        prices = self.prices("2026-08-06")
+        prices["entries"].append({"reportId": "failed", "status": "error"})
+        self.assertEqual(uv.prices_as_of(prices), date(2026, 8, 6))
+
+    def test_no_last_date_anywhere_fails_instead_of_falling_back_to_the_clock(self):
+        for prices in ({}, {"entries": []}, {"entries": [{"reportId": "failed", "status": "error"}]}):
+            with redirect_stdout(io.StringIO()), self.assertRaises(SystemExit):
+                uv.prices_as_of(prices)
+
+    def test_run_that_slips_past_utc_midnight_still_dates_the_session_it_scored(self):
+        # 2026-08-06 regression: the 22:00 UTC run fired 2h03m late, at 00:03 on
+        # 08-07. The clock had rolled over but the closes scored were 08-06's, and
+        # the calibration row keyed off the clock was overwritten that same evening.
+        report = {
+            "id": "asml-2026",
+            "chainLayer": "semicap-equipment",
+            "stance": "neutral-watch",
+            "conviction": "medium",
+            "stanceHistory": [
+                {"date": "2026-08-03", "stance": "neutral-watch", "conviction": "medium", "price": 100.0}
+            ],
+        }
+        prices = {"entries": [{"reportId": "asml-2026", "lastDate": "2026-08-06", "lastClose": 110.0}]}
+        benchmarks = {"SMH": series("SMH", (date(2026, 8, 3), 500.0), (date(2026, 8, 6), 550.0))}
+
+        data = uv.build_verdicts([report], prices, BENCHMARKS_CFG, benchmarks, date(2026, 8, 7))
+
+        self.assertEqual(data["generatedAt"], "2026-08-07")  # when the run fired
+        self.assertEqual(data["dataAsOf"], "2026-08-06")  # the session it scored
+        self.assertEqual(data["entries"][0]["lastDate"], "2026-08-06")
+
+
 class ClosedIntervalTests(unittest.TestCase):
     def test_migration_interval_flagged_and_scored(self):
         benchmarks = {"SMH": series("SMH", (date(2026, 6, 22), 500.0), (date(2026, 7, 2), 592.29))}

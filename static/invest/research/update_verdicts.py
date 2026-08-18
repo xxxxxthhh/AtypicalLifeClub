@@ -128,6 +128,26 @@ def price_entries_by_id(prices: Json) -> dict[str, dict[str, Json]]:
     return result
 
 
+def prices_as_of(prices: Json) -> date:
+    """The trading session prices.json actually carries (its newest lastDate).
+
+    Every downstream date label must follow the sampled session, not the wall
+    clock. The 22:00 UTC schedule leaves only two hours of margin: on 2026-08-06
+    the runner started 2h03m late, so a clock-derived label stamped that session
+    "2026-08-07" and the next run's calibration row overwrote it (the snapshot is
+    keyed by date). lastDate comes from the quote series, so it is authoritative.
+    """
+    entries = prices.get("entries") if isinstance(prices, dict) else None
+    days = [
+        parse_day(entry["lastDate"], "prices.json.entries[].lastDate")
+        for entry in (entries if isinstance(entries, list) else [])
+        if isinstance(entry, dict) and isinstance(entry.get("lastDate"), str)
+    ]
+    if not days:
+        fail("prices.json carries no lastDate — refusing to date the verdict ledger from the clock")
+    return max(days)
+
+
 def history_dates(reports: list[Report]) -> list[date]:
     days: list[date] = []
     for report in reports:
@@ -282,6 +302,10 @@ def build_verdicts(
         closed.extend(closed_interval_entries(r, benchmark_series, sym))
     return {
         "generatedAt": iso_day(today),
+        # The session these scores describe. generatedAt is when the run happened —
+        # it drifts past midnight when the scheduler slips — so anything keyed by
+        # day (calibration-history rows) must use dataAsOf instead.
+        "dataAsOf": iso_day(prices_as_of(prices)),
         # Book-level reference kept for backward compat (spec §2.2 line 76);
         # the per-entry benchmarkSymbol is authoritative.
         "benchmark": benchmarks_cfg.get("default", LEGACY_BENCHMARK),

@@ -19,6 +19,12 @@ class CalibrationHistoryError(ValueError):
 def build_snapshot(verdicts: Json) -> dict[str, Json]:
     root = _dict(verdicts, "verdicts.json")
     generated_at = _date_text(root.get("generatedAt"), "verdicts.json.generatedAt")
+    # Rows are keyed by the trading session scored, not by when the run fired: a
+    # run that slips past UTC midnight would otherwise claim the next day's key
+    # and be overwritten by that day's run. Pre-dataAsOf ledgers keep generatedAt.
+    snapshot_date = (
+        _date_text(root["dataAsOf"], "verdicts.json.dataAsOf") if "dataAsOf" in root else generated_at
+    )
     calls = _scored_calls(root)
     topline = _summary(calls, "bookRelativePct")
     by_benchmark: dict[str, Json] = {}
@@ -26,7 +32,7 @@ def build_snapshot(verdicts: Json) -> dict[str, Json]:
         bucket = [call for call in calls if call["benchmarkSymbol"] == symbol]
         by_benchmark[symbol] = _summary(bucket, "relativePct")
     return {
-        "date": generated_at,
+        "date": snapshot_date,
         "scoredCount": topline["scoredCount"],
         "medianRelativePct": topline["medianRelativePct"],
         "nonNeutralBeatRate": topline["nonNeutralBeatRate"],

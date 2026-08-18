@@ -71,8 +71,48 @@ class CalibrationSnapshotTests(unittest.TestCase):
         self.assertEqual(snapshot["byBenchmark"]["XLU"]["nonNeutralBeatRate"], 1.0)
         self.assertEqual(snapshot["byBenchmark"]["XLU"]["byStance"]["cautious"]["medianRelativePct"], 2.0)
 
+    def test_snapshot_is_keyed_by_the_scored_session_not_the_run_clock(self):
+        data = verdicts()
+        data["generatedAt"] = "2026-08-07"  # run slipped past UTC midnight
+        data["dataAsOf"] = "2026-08-06"  # closes it actually scored
+        self.assertEqual(ch.build_snapshot(data)["date"], "2026-08-06")
+
+    def test_snapshot_falls_back_to_generated_at_for_pre_data_as_of_ledgers(self):
+        self.assertEqual(ch.build_snapshot(verdicts())["date"], "2026-07-08")
+
 
 class CalibrationHistoryTests(unittest.TestCase):
+    def test_delayed_run_does_not_overwrite_the_next_days_row(self):
+        # The 2026-08-06 loss: the delayed run keyed its snapshot off the clock
+        # (08-07), so the real 08-07 run replaced it and that session vanished.
+        delayed = verdicts()
+        delayed["generatedAt"] = "2026-08-07"
+        delayed["dataAsOf"] = "2026-08-06"
+        next_day = verdicts()
+        next_day["generatedAt"] = "2026-08-07"
+        next_day["dataAsOf"] = "2026-08-07"
+
+        history = ch.upsert_snapshot([], ch.build_snapshot(delayed))
+        history = ch.upsert_snapshot(history, ch.build_snapshot(next_day))
+
+        self.assertEqual([row["date"] for row in history], ["2026-08-06", "2026-08-07"])
+        ch.validate_history_rows(history, next_day)
+
+    def test_validation_finds_the_row_of_a_run_that_slipped_past_midnight(self):
+        # The row-presence check must look for the scored session too. If it
+        # kept keying off generatedAt it would hunt for 08-07, miss the 08-06
+        # row this run just wrote, and turn CI red on exactly the runs the
+        # dataAsOf split exists to protect.
+        delayed = verdicts()
+        delayed["generatedAt"] = "2026-08-07"
+        delayed["dataAsOf"] = "2026-08-06"
+
+        history = ch.upsert_snapshot([], ch.build_snapshot(delayed))
+
+        self.assertEqual([row["date"] for row in history], ["2026-08-06"])
+        ch.validate_history_rows(history, delayed)
+
+
     def test_upsert_replaces_same_day_and_keeps_dates_ascending(self):
         snapshot = ch.build_snapshot(verdicts())
         stale_same_day = copy.deepcopy(snapshot)
