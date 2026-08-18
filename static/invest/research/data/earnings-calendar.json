@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-08-16",
+  "asOf": "2026-08-18",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -183,13 +183,13 @@
     {
       "reportId": "gevernova-2026",
       "company": "GE Vernova",
-      "expectedDate": "2026-10",
-      "precision": "month",
-      "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "expectedDate": "2026-10-28",
+      "precision": "day",
+      "status": "issuer-confirmed",
+      "session": "before-open",
+      "sourceUrl": "https://www.gevernova.com/investors/events",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-08-18"
     },
     {
       "reportId": "sandisk-2026",
