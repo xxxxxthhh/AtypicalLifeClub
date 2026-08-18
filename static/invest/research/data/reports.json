@@ -2713,9 +2713,9 @@
     "ticker": "NASDAQ: AAOI",
     "priceSymbol": "AAOI",
     "title": "AAOI 深度研究报告 - AI数据中心光模块高弹性与估值重定价",
-    "titleEn": "AAOI Deep Research Report - AI Data Center Optics Upside After a 55% Drawdown",
-    "summary": "2026-08-07 监测更新：Q2 收入 $191.9M，落在 $180-198M 指引内；数据中心收入 $107.7M（+140%），但 GAAP 毛利率 27.7% 同比、环比均下降，Q3 指引为 $255-290M。2026H1 经营现金流仍为 −$73.8M，普通股发行净得 $1.028B；Digicomm 占 H1 收入约 42.8%、期末应收约 67.2%。2026-07-30 的 $90.11 价格与倍数保留为明确的历史估值快照；财报于 08-06 盘后发布，尚无财报后正常时段收盘，本次不重算估值、网格、立场或确信度。立场暂维持谨慎/中确信，待财报后价格与完整估值更新重新裁定。",
-    "summaryEn": "August 7, 2026 monitoring update: Q2 revenue was $191.9M, inside the $180-198M guide; Datacenter revenue reached $107.7M (+140%), but GAAP gross margin of 27.7% declined both Y/Y and Q/Q, and Q3 revenue is guided to $255-290M. H1 2026 operating cash flow remained negative at $73.8M, while net common-stock offering proceeds reached $1.028B; Digicomm represented about 42.8% of H1 revenue and 67.2% of period-end receivables. The $90.11 price and multiples at 2026-07-30 remain an explicitly historical valuation snapshot. Because the release came after the 2026-08-06 close and no post-release regular session has completed, this update does not recompute valuation, grid, stance, or conviction. The stance temporarily remains cautious / medium conviction pending a post-release price and complete valuation update.",
+    "titleEn": "AAOI Deep Research Report - AI Data Center Optics High Beta and Valuation Re-Rating",
+    "summary": "2026-08-18 估值重锚（按 2026-08-17 收盘 $154.89，较 7 月末立场锚点 +71.9%、较 6 月锚点 −9.5%）：按 Q2 10-Q 封面 84,569,237 股计市值约 $131.0 亿；现金 $499.7M、债务及类债务 $222.0M，净现金约 $277.7M，企业价值约 $128.2 亿。含 Q2 的新 TTM 收入约 $596.0M，EV/TTM Sales 约 21.5x；EV/年化 Q3 指引中点（$272.5M×4，分母为自推年化指引而非已报实绩）约 11.8x。Q2 执行证据未变：GAAP 毛利率 27.7% 同比环比双降、H1 经营现金流 −$73.8M、H1 增发净得 $1.03B、Digicomm 占 H1 收入 42.8%。立场维持谨慎/中确信：依据仍是执行风险，而 7 月末尚存的估值缓冲已被 +71.9% 的重定价消耗殆尽。",
+    "summaryEn": "August 18, 2026 valuation re-anchor at the 2026-08-17 close of $154.89 (+71.9% from the late-July stance anchor, -9.5% from the June anchor): on the 84,569,237 shares from the Q2 10-Q cover, market cap is about $13.10B; with $499.7M of cash against $222.0M of debt and debt-like liabilities, net cash is about $277.7M and enterprise value about $12.82B. The new TTM revenue including Q2 is about $596.0M, putting EV/TTM Sales at about 21.5x; EV/annualized-Q3-guide-midpoint ($272.5M x 4, a self-derived guidance denominator rather than reported actuals) is about 11.8x. The Q2 execution evidence is unchanged - GAAP gross margin of 27.7% fell both Y/Y and Q/Q, H1 operating cash flow was -$73.8M, H1 issuance netted $1.03B, and Digicomm was 42.8% of H1 revenue. Stance stays cautious / medium conviction: the basis remains execution risk, and the valuation cushion still present in late July has been repriced away by the +71.9% move.",
     "tags": [
       "光通信",
       "AI数据中心",
@@ -2724,7 +2724,7 @@
     ],
     "category": "tech",
     "date": "2026-06-23",
-    "lastUpdate": "2026-08-07",
+    "lastUpdate": "2026-08-18",
     "file": "/invest/research/reports/view.html?id=aaoi-2026",
     "markdownFiles": {
       "zh": "/invest/research/AAOI_深度研究报告_2026-06.md",
@@ -2732,26 +2732,26 @@
     },
     "period": "2026H1",
     "versionType": "incremental",
-    "versionLabel": "Q2 2026 Monitoring Update",
+    "versionLabel": "Q2 2026 Update & Valuation Re-Anchor",
     "highlights": [
-      "Q2 收入 $191.9M 落在指引内；数据中心收入 $107.7M（+140%），Q3 收入指引 $255-290M",
-      "GAAP 毛利率 27.7%，低于 Q1 的 29.1% 和上年同期的 30.3%；非 GAAP 毛利率 29.8%",
-      "2026H1 经营现金流 −$73.8M，普通股发行净得 $1.028B；Q2 单季经营现金流约 +$11.6M 为两份 10-Q 相减推导",
-      "Digicomm 占 H1 收入约 42.8%、期末应收约 67.2%，最大已披露集中度在 CATV 分销商而非数据中心客户",
-      "估值冻结在 2026-07-30 历史快照；尚无财报后正常收盘，谨慎/中确信待完整估值更新重新裁定"
+      "2026-08-17 收盘 $154.89，较 7 月末立场锚点 +71.9%、较 6 月锚点 −9.5%；市值约 $131.0 亿、EV 约 $128.2 亿（Q2 10-Q 股本与资产负债表口径）",
+      "含 Q2 的 TTM 收入约 $596.0M，EV/TTM Sales 约 21.5x；EV/年化 Q3 指引中点约 11.8x（分母为自推年化指引，非已报实绩）",
+      "Q2 收入 $191.9M 落在指引内、Q3 指引 $255-290M；但 GAAP 毛利率 27.7% 同比环比双降，非 GAAP 毛利率 29.8%",
+      "H1 经营现金流 −$73.8M（Q2 单季推导约 +$11.6M）；H1 增发净得 $1.03B，股本三个月 +5.4%；Digicomm 占 H1 收入 42.8%、期末应收 67.2%",
+      "立场维持谨慎/中确信：执行支柱未变，而估值缓冲已被 +71.9% 重定价消耗殆尽；升降级触发器已切换为 Q3 交付口径"
     ],
     "chainLayer": "optical",
     "coverageTier": "full",
     "stance": "cautious",
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "2026-08-07 监测：Q2 收入落在指引内且 Q3 指引显示阶跃，但毛利率同比、环比下降，H1 经营现金流仍为负、增发扩大且 Digicomm 集中度高。由于 2026-08-06 盘后发布后尚无正常时段收盘，2026-07-30 的 $90.11 与 13.8x EV/TTM Sales 仅作为历史快照，本次不重新裁定立场；谨慎/中确信暂由上述执行风险承重，待财报后价格与完整估值更新。",
-      "en": "August 7, 2026 monitoring: Q2 revenue landed inside the guide and Q3 guidance shows a step-up, but gross margin declined both Y/Y and Q/Q, H1 operating cash flow remained negative, issuance expanded, and Digicomm concentration is high. With no regular-session close after the 2026-08-06 after-close release, the $90.11 price and 13.8x EV/TTM Sales at 2026-07-30 are historical only; the stance is not re-adjudicated here. Cautious / medium conviction temporarily rests on those execution risks pending a post-release price and complete valuation update."
+      "zh": "2026-08-18 重锚（按 2026-08-17 收盘 $154.89）：谨慎的执行支柱不变——毛利率同比环比双降、H1 经营现金流为负（推导单季转正但仅约 +$11.6M）、H1 增发 $1.03B 且股本三个月 +5.4%、Digicomm 集中度高。价格端：EV/TTM 约 21.5x、EV/年化 Q3 指引中点约 11.8x，市场重新预付了尚未落地的 Q3 阶跃与年底产能计划，7 月末的估值缓冲已消失。执行风险未变而容错收窄，谨慎在 $154.89 下成立、且较 $90 档位更为充分；未降级是因为降级触发未触发（Q2 落在指引内、Q3 指引阶跃、推导单季现金流转正）。",
+      "en": "2026-08-18 re-anchor at the 2026-08-17 close of $154.89: the execution legs behind cautious are unchanged - gross margin fell both Y/Y and Q/Q, H1 operating cash flow was negative (the derived single quarter turned positive but only ~+$11.6M), H1 issuance was $1.03B with the share count up 5.4% in three months, and Digicomm concentration is high. On price: EV/TTM is about 21.5x and EV/annualized-Q3-guide-midpoint about 11.8x, so the market is again prepaying for a Q3 step-up and year-end capacity plan that have not landed, and the late-July valuation cushion is gone. With execution risk unchanged and tolerance narrower, cautious holds at $154.89 - if anything more firmly than at the $90 level; no downgrade because the downgrade triggers did not fire (Q2 landed inside the guide, Q3 guidance steps up, the derived quarterly cash flow turned positive)."
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "若 Q2 收入达到或高于 $198M、Q3 指引显示收入阶跃，毛利率突破 31% 且经营现金流/应收库存压力改善，同时新增 hyperscale 客户降低单一客户集中，则上调至 neutral-watch 或 constructive。",
-        "en": "move to neutral-watch or constructive if Q2 revenue lands at or above $198M, Q3 guidance shows a revenue step-up, gross margin breaks above 31% with operating-cash-flow / receivables-inventory pressure improving, and new hyperscale customers reduce single-customer concentration.",
+        "zh": "（2026-08-18 切换为 Q3 交付口径；Q2 口径已裁定——收入 $191.9M 未达 $198M 上沿、Q3 指引显示阶跃，升级条件未满足。）若 Q3 收入落在 $255-290M 指引区间内或更高、非 GAAP 毛利率达到指引上沿 30.5% 或突破 31%，经营现金流按单季口径持续为正且增发节奏放缓，同时集中度披露显示数据中心客户结构改善，则上调至 neutral-watch 或 constructive。",
+        "en": "(Switched to the Q3 delivery frame on 2026-08-18; the Q2 legs are adjudicated - revenue of $191.9M missed the $198M upper bound while Q3 guidance shows the step-up, so the upgrade did not trigger.) Move to neutral-watch or constructive if Q3 revenue lands inside or above the $255-290M guide, non-GAAP gross margin reaches the 30.5% top of the guide or breaks above 31%, operating cash flow stays positive on a single-quarter basis while the issuance pace slows, and concentration disclosures show an improving datacenter customer mix.",
         "monitoringIds": [
           "800g-ramp",
           "cash-burn-dilution",
@@ -2759,11 +2759,12 @@
         ]
       },
       "downgrade": {
-        "zh": "若 Q2 低于 $180M 或 Q3 指引保守、毛利率维持 29-30% 且现金流仍深度为负，或 ATM 稀释继续快于收入证明，则下调至 bearish-avoid。",
-        "en": "move to bearish-avoid if Q2 revenue falls below $180M or Q3 guidance is cautious, gross margin stays at 29-30% with deeply negative cash flow, or ATM dilution continues faster than revenue proof.",
+        "zh": "（2026-08-18 切换为 Q3 交付口径；Q2 口径已裁定——收入落在指引内、Q3 指引不保守，降级条件未触发。）若 Q3 收入低于 $255M 指引下沿或毛利率跌破 29% 指引下沿、单季口径经营现金流重新转负叠加增发继续快于收入证明，或 Digicomm/单一大客户订单节奏出现波动，则下调至 bearish-avoid。",
+        "en": "(Switched to the Q3 delivery frame on 2026-08-18; the Q2 legs are adjudicated - revenue landed inside the guide and Q3 guidance is not cautious, so the downgrade did not trigger.) Move to bearish-avoid if Q3 revenue falls below the $255M guide floor or gross margin breaks below the 29% guide floor, single-quarter operating cash flow turns negative again while issuance keeps outpacing revenue proof, or order-cadence swings emerge at Digicomm or another single large customer.",
         "monitoringIds": [
           "800g-ramp",
-          "cash-burn-dilution"
+          "cash-burn-dilution",
+          "customer-concentration"
         ]
       }
     },
@@ -2794,10 +2795,20 @@
           "zh": "所有者 Q1 裁定：倍数算术已失效；谨慎改以执行风险为依据，在当前价格下成立。",
           "en": "Owner Q1 ruling: the multiple arithmetic is dissolved; cautious is re-founded on execution risk and holds at the current price."
         }
+      },
+      {
+        "date": "2026-08-18",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 154.89,
+        "note": {
+          "zh": "价格重锚：$90.11→$154.89（+71.9%），首个吸收 Q2 财报的完整估值口径。四条执行支柱未变；新口径 EV/TTM 约 21.5x、EV/年化 Q3 指引中点约 11.8x，7 月末的估值缓冲已被重定价消耗殆尽。谨慎按执行风险在 $154.89 下成立且较 $90 档位更充分；降级触发未触发，维持中确信。",
+          "en": "Price re-anchor: $90.11 -> $154.89 (+71.9%), the first full valuation frame absorbing the Q2 print. The four execution legs are unchanged; on the new frame EV/TTM is ~21.5x and EV/annualized-Q3-guide-midpoint ~11.8x, so the late-July valuation cushion has been repriced away. Cautious holds at $154.89 on execution risk - more firmly than at the $90 level; downgrade triggers did not fire, conviction stays medium."
+        }
       }
     ],
-    "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q2 2026 monitoring / 2026-07-30 valuation frame",
+    "priceAsOf": "2026-08-17",
+    "reportedPeriod": "Q2 2026 / 2026-08-17 valuation frame",
     "related": [
       "corning-2026"
     ],
@@ -2875,12 +2886,12 @@
           "en": "the ~26.6x EV/TTM Sales compresses if the ramp misses"
         },
         "latest": {
-          "zh": "Q2 2026 收入 $191.9M 落在 $180-198M 指引内，未出现收入放量不及预期；但 2026-08-06 盘后发布后尚无财报后正常时段收盘，且新 TTM 收入、现金与股本口径尚未完成估值重建。2026-07-30 的 $90.11 与 13.8x EV/TTM Sales 仅保留为历史快照，不能据此给出当前估值容错评级。",
-          "en": "Q2 2026 revenue of $191.9M landed inside the $180-198M guide, so the revenue ramp did not miss. But no post-release regular session has completed after the 2026-08-06 after-close print, and the new TTM revenue, cash, and share-count inputs have not been rebuilt into a current valuation. The $90.11 price and 13.8x EV/TTM Sales at 2026-07-30 remain a historical snapshot only and cannot support a current valuation-tolerance grade."
+          "zh": "2026-08-18 完整估值重锚（按 2026-08-17 收盘 $154.89）：本项此前缺失的输入已补齐——Q2 10-Q 封面股本 84,569,237 股、现金 $499.7M、债务及类债务 $222.0M，市值约 $131.0 亿、EV 约 $128.2 亿；含 Q2 的 TTM 收入约 $596.0M，EV/TTM Sales 约 21.5x（触发条件所引 26.6x 为 6 月锚点旧口径，07-30 历史快照为 13.8x）。评级为阈内：本项触发条件是『放量不及预期时倍数压缩』，Q2 收入落在指引内、未出现放量不及预期，倍数不降反升。证据边界：约 21.5x 的容错依赖 Q3 $255-290M 指引与年底产能计划兑现，两者均未落地；若 Q3 未达标，压缩风险按新口径重新适用。",
+          "en": "2026-08-18 full valuation re-anchor at the 2026-08-17 close of $154.89: the inputs this item was missing are now rebuilt - 84,569,237 shares from the Q2 10-Q cover, $499.7M of cash against $222.0M of debt and debt-like liabilities, market cap about $13.10B and EV about $12.82B; TTM revenue including Q2 is about $596.0M, putting EV/TTM Sales at about 21.5x (the 26.6x cited in the trigger is the old June-anchor frame; the 07-30 historical snapshot was 13.8x). Graded within: this item's trigger is multiple compression on a ramp miss, and Q2 landed inside the guide - no miss occurred, and the multiple re-expanded rather than compressed. Evidence limits: tolerance at ~21.5x depends on the $255-290M Q3 guide and the year-end capacity plan being delivered, neither of which has landed; if Q3 misses, the compression risk re-applies on the new frame."
         },
-        "nextCheck": "首个财报后正常收盘与完整估值更新 / first post-release close and full valuation refresh",
-        "reading": "unclear",
-        "readingAsOf": "2026-08-06"
+        "nextCheck": "Q3 2026 财报对照 $255-290M 指引 / Q3 2026 earnings vs the $255-290M guide",
+        "reading": "within",
+        "readingAsOf": "2026-08-17"
       }
     ]
   },
