@@ -61,94 +61,94 @@
       }
     },
     "lookback_days": 730,
-    "last_updated": "2026-08-17T01:32:49.138927",
+    "last_updated": "2026-08-18T01:31:49.697145",
     "total_metals": 5,
     "total_etfs": 9
   },
   "current": {
     "GC=F": {
-      "price": 4469.0,
-      "change": 88.6001,
-      "changePct": 2.02,
-      "date": "2026-08-16"
+      "price": 4478.8999,
+      "change": 9.8999,
+      "changePct": 0.22,
+      "date": "2026-08-17"
     },
     "SI=F": {
-      "price": 66.15,
-      "change": 1.162,
-      "changePct": 1.79,
-      "date": "2026-08-16"
+      "price": 66.385,
+      "change": 0.235,
+      "changePct": 0.36,
+      "date": "2026-08-17"
     },
     "PL=F": {
-      "price": 1771.1,
-      "change": 21.1,
-      "changePct": 1.21,
-      "date": "2026-08-16"
+      "price": 1781.5,
+      "change": 10.4,
+      "changePct": 0.59,
+      "date": "2026-08-17"
     },
     "PA=F": {
-      "price": 1334.5,
-      "change": 12.0,
-      "changePct": 0.91,
-      "date": "2026-08-16"
+      "price": 1333.0,
+      "change": -1.5,
+      "changePct": -0.11,
+      "date": "2026-08-17"
     },
     "HG=F": {
-      "price": 6.7175,
-      "change": 0.118,
-      "changePct": 1.79,
-      "date": "2026-08-16"
+      "price": 6.5825,
+      "change": -0.135,
+      "changePct": -2.01,
+      "date": "2026-08-17"
     },
     "COPX": {
-      "price": 85.7,
-      "change": 0.18,
-      "changePct": 0.21,
-      "date": "2026-08-14"
+      "price": 87.34,
+      "change": 1.64,
+      "changePct": 1.91,
+      "date": "2026-08-17"
     },
     "GLD": {
-      "price": 401.48,
-      "change": 2.52,
-      "changePct": 0.63,
-      "date": "2026-08-14"
+      "price": 405.49,
+      "change": 4.01,
+      "changePct": 1.0,
+      "date": "2026-08-17"
     },
     "SLV": {
-      "price": 58.48,
-      "change": 0.32,
-      "changePct": 0.55,
-      "date": "2026-08-14"
+      "price": 59.57,
+      "change": 1.09,
+      "changePct": 1.86,
+      "date": "2026-08-17"
     },
     "CPER": {
-      "price": 40.01,
-      "change": 0.16,
-      "changePct": 0.4,
-      "date": "2026-08-14"
+      "price": 40.13,
+      "change": 0.12,
+      "changePct": 0.3,
+      "date": "2026-08-17"
     },
     "DBB": {
-      "price": 25.42,
-      "change": 0.12,
-      "changePct": 0.47,
-      "date": "2026-08-14"
+      "price": 25.44,
+      "change": 0.02,
+      "changePct": 0.08,
+      "date": "2026-08-17"
     },
     "REMX": {
-      "price": 78.55,
-      "change": 2.42,
-      "changePct": 3.18,
-      "date": "2026-08-14"
+      "price": 78.93,
+      "change": 0.38,
+      "changePct": 0.48,
+      "date": "2026-08-17"
     },
     "LIT": {
-      "price": 75.23,
-      "change": 0.57,
-      "changePct": 0.76,
-      "date": "2026-08-14"
+      "price": 76.24,
+      "change": 1.01,
+      "changePct": 1.34,
+      "date": "2026-08-17"
     },
     "PPLT": {
-      "price": 15.87,
-      "change": 0.33,
-      "changePct": 2.12,
-      "date": "2026-08-14"
+      "price": 16.07,
+      "change": 0.2,
+      "changePct": 1.26,
+      "date": "2026-08-17"
     },
     "PALL": {
-      "price": 23.93,
-      "change": 0.09,
-      "changePct": 0.38,
-      "date": "2026-08-14"
+      "price": 24.19,
+      "change": 0.26,
+      "changePct": 1.09,
+      "date": "2026-08-17"
     }
   },
   "metals": {
@@ -3442,6 +3442,11 @@
         "date": "2026-08-16",
         "close": 4469.0,
         "volume": 13194
+      },
+      {
+        "date": "2026-08-17",
+        "close": 4478.8999,
+        "volume": 10503
       }
     ],
     "SI=F": [
@@ -6734,6 +6739,11 @@
         "date": "2026-08-16",
         "close": 66.15,
         "volume": 4526
+      },
+      {
+        "date": "2026-08-17",
+        "close": 66.385,
+        "volume": 2852
       }
     ],
     "PL=F": [
@@ -10021,6 +10031,11 @@
         "date": "2026-08-16",
         "close": 1771.1,
         "volume": 1076
+      },
+      {
+        "date": "2026-08-17",
+        "close": 1781.5,
+        "volume": 690
       }
     ],
     "PA=F": [
@@ -13293,6 +13308,11 @@
         "date": "2026-08-16",
         "close": 1334.5,
         "volume": 375
+      },
+      {
+        "date": "2026-08-17",
+        "close": 1333.0,
+        "volume": 146
       }
     ],
     "HG=F": [
@@ -16585,6 +16605,11 @@
         "date": "2026-08-16",
         "close": 6.7175,
         "volume": 4996
+      },
+      {
+        "date": "2026-08-17",
+        "close": 6.5825,
+        "volume": 1415
       }
     ]
   },
@@ -19734,6 +19759,11 @@
         "date": "2026-08-14",
         "close": 85.7,
         "volume": 1561583
+      },
+      {
+        "date": "2026-08-17",
+        "close": 87.34,
+        "volume": 2297478
       }
     ],
     "GLD": [
@@ -22881,6 +22911,11 @@
         "date": "2026-08-14",
         "close": 401.48,
         "volume": 6162934
+      },
+      {
+        "date": "2026-08-17",
+        "close": 405.49,
+        "volume": 9351756
       }
     ],
     "SLV": [
@@ -26028,6 +26063,11 @@
         "date": "2026-08-14",
         "close": 58.48,
         "volume": 10206386
+      },
+      {
+        "date": "2026-08-17",
+        "close": 59.57,
+        "volume": 12139442
       }
     ],
     "CPER": [
@@ -29175,6 +29215,11 @@
         "date": "2026-08-14",
         "close": 40.01,
         "volume": 256066
+      },
+      {
+        "date": "2026-08-17",
+        "close": 40.13,
+        "volume": 379868
       }
     ],
     "DBB": [
@@ -32322,6 +32367,11 @@
         "date": "2026-08-14",
         "close": 25.42,
         "volume": 75459
+      },
+      {
+        "date": "2026-08-17",
+        "close": 25.44,
+        "volume": 87804
       }
     ],
     "REMX": [
@@ -35469,6 +35519,11 @@
         "date": "2026-08-14",
         "close": 78.55,
         "volume": 570461
+      },
+      {
+        "date": "2026-08-17",
+        "close": 78.93,
+        "volume": 472400
       }
     ],
     "LIT": [
@@ -38616,6 +38671,11 @@
         "date": "2026-08-14",
         "close": 75.23,
         "volume": 84126
+      },
+      {
+        "date": "2026-08-17",
+        "close": 76.24,
+        "volume": 279586
       }
     ],
     "PPLT": [
@@ -41763,6 +41823,11 @@
         "date": "2026-08-14",
         "close": 15.87,
         "volume": 1448893
+      },
+      {
+        "date": "2026-08-17",
+        "close": 16.07,
+        "volume": 1489454
       }
     ],
     "PALL": [
@@ -44910,6 +44975,11 @@
         "date": "2026-08-14",
         "close": 23.93,
         "volume": 402751
+      },
+      {
+        "date": "2026-08-17",
+        "close": 24.19,
+        "volume": 731327
       }
     ]
   }
