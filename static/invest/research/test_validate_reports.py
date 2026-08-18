@@ -297,5 +297,104 @@ class TriggerLinkBackfillTests(unittest.TestCase):
         self.assertEqual(missing, [])
 
 
+class NonChainFreshnessTests(unittest.TestCase):
+    """ENFORCE_NONCHAIN_FRESHNESS rollout flag: current non-chain reports must carry
+    priceSymbol + priceAsOf (update_prices.py's inclusion predicate) and — unless they
+    are ETF reports — reportedPeriod. Warn-only while False, hard failure once True."""
+
+    FRESH = {
+        "id": "spotify-2026",
+        "isCurrent": True,
+        "priceSymbol": "SPOT",
+        "priceAsOf": "2026-08-05",
+        "reportedPeriod": "Q2 2026",
+        "tags": ["流媒体"],
+    }
+
+    def with_flag(self, enforce, fn):
+        original = vr.ENFORCE_NONCHAIN_FRESHNESS
+        vr.ENFORCE_NONCHAIN_FRESHNESS = enforce
+        try:
+            return fn()
+        finally:
+            vr.ENFORCE_NONCHAIN_FRESHNESS = original
+
+    def run_capturing(self, report):
+        output = io.StringIO()
+        with redirect_stdout(output):
+            vr.validate_nonchain_freshness(report, 0)
+        return output.getvalue()
+
+    def report_without(self, *fields, **extra):
+        report = {**self.FRESH, **extra}
+        for field in fields:
+            report.pop(field, None)
+        return report
+
+    def test_complete_nonchain_report_is_silent(self):
+        self.assertEqual(self.run_capturing(dict(self.FRESH)), "")
+
+    def test_flag_off_missing_price_as_of_warns_only(self):
+        output = self.with_flag(
+            False, lambda: self.run_capturing(self.report_without("priceAsOf", id="coinbase-2026"))
+        )
+        self.assertIn("WARN", output)
+        self.assertIn("coinbase-2026", output)
+        self.assertIn("priceAsOf", output)
+
+    def test_flag_off_missing_price_symbol_warns_only(self):
+        output = self.with_flag(
+            False,
+            lambda: self.run_capturing(
+                self.report_without("priceSymbol", "priceAsOf", id="salesforce-2026")
+            ),
+        )
+        self.assertIn("priceSymbol", output)
+        self.assertIn("priceAsOf", output)
+
+    def test_flag_off_missing_reported_period_warns_only(self):
+        output = self.with_flag(
+            False, lambda: self.run_capturing(self.report_without("reportedPeriod", id="netflix-2026"))
+        )
+        self.assertIn("WARN", output)
+        self.assertIn("reportedPeriod", output)
+
+    def test_flag_on_missing_price_as_of_fails(self):
+        self.with_flag(
+            True,
+            lambda: expect_fail(
+                self, lambda: vr.validate_nonchain_freshness(self.report_without("priceAsOf"), 0)
+            ),
+        )
+
+    def test_flag_on_complete_report_passes(self):
+        self.with_flag(True, lambda: vr.validate_nonchain_freshness(dict(self.FRESH), 0))  # no raise
+
+    def test_archived_report_is_exempt(self):
+        report = self.report_without(
+            "priceSymbol", "priceAsOf", "reportedPeriod", id="coinbase-2026-pre-rerun", isCurrent=False
+        )
+        self.with_flag(True, lambda: vr.validate_nonchain_freshness(report, 0))  # no raise
+
+    def test_chain_report_is_exempt(self):
+        # Chain reports are already covered by ENFORCE_CHAIN_ENRICHMENT; this rule
+        # must not double-report them.
+        report = self.report_without(
+            "priceSymbol", "priceAsOf", "reportedPeriod", id="x-2026", chainLayer="power"
+        )
+        self.with_flag(True, lambda: vr.validate_nonchain_freshness(report, 0))  # no raise
+
+    def test_etf_report_is_exempt_from_reported_period_only(self):
+        etf = self.report_without("reportedPeriod", id="igv-2026", tags=["ETF", "软件行业"])
+        self.with_flag(True, lambda: vr.validate_nonchain_freshness(etf, 0))  # no raise
+
+        no_anchor = self.report_without(
+            "reportedPeriod", "priceAsOf", id="igv-2026", tags=["ETF", "软件行业"]
+        )
+        self.with_flag(
+            True, lambda: expect_fail(self, lambda: vr.validate_nonchain_freshness(no_anchor, 0))
+        )
+
+
 if __name__ == "__main__":
     unittest.main()

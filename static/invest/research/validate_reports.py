@@ -108,6 +108,17 @@ ENFORCE_STANCE_V2 = True
 # stay hard regardless of the flag — only the link-presence requirement is gated (third
 # use of the ENFORCE_CHAIN_ENRICHMENT / ENFORCE_STANCE_V2 rollout pattern).
 ENFORCE_TRIGGER_LINKS = True
+# Non-chain freshness visibility (fourth use of the ENFORCE_CHAIN_ENRICHMENT rollout
+# pattern): every gate above scopes itself to current *chain* reports, so the 11
+# non-chain current reports carry no freshness requirement at all and can go stale on
+# priceAsOf / reportedPeriod with CI green. Enforcement target: every current non-chain
+# report carries priceSymbol + priceAsOf (together they are update_prices.py's inclusion
+# predicate — miss either and the report never enters the price ledger or price-drift
+# review queue) and, unless it is an ETF report (no earnings period to state),
+# reportedPeriod. Verdict scoring remains chain-scoped and is deliberately unchanged.
+# Warn-first because the shipped book already has violators; flip to True once they are
+# backfilled.
+ENFORCE_NONCHAIN_FRESHNESS = False
 # v6 (docs/research-hub-v6-plan.md §2.1): benchmarks.json sits next to reports.json
 # and drives per-layer benchmark resolution. validate_benchmarks_config() enforces
 # the schema; the resolution mirror lives in update_verdicts.py / validate_verdicts.py.
@@ -127,6 +138,12 @@ def stance_v2_issue(message):
 
 def trigger_links_issue(message):
     if ENFORCE_TRIGGER_LINKS:
+        fail(message)
+    print(f"WARN: {message}")
+
+
+def nonchain_freshness_issue(message):
+    if ENFORCE_NONCHAIN_FRESHNESS:
         fail(message)
     print(f"WARN: {message}")
 
@@ -424,6 +441,32 @@ def validate_trigger_link_requirements(report, report_idx):
         )
 
 
+def validate_nonchain_freshness(report, report_idx):
+    """Warn-first freshness visibility for current non-chain reports.
+
+    Archived (isCurrent=false) reports are exempt by design — their enrichment
+    fields are intentionally empty. ETF reports are exempt from reportedPeriod
+    only: they have a price anchor but no earnings period to state.
+    """
+    if report.get("chainLayer") or report.get("isCurrent") is False:
+        return
+
+    label = f"report[{report_idx}] ({report['id']})"
+    for field in ("priceSymbol", "priceAsOf"):
+        if field not in report:
+            nonchain_freshness_issue(
+                f"{label} is a current non-chain report and must carry {field}; "
+                "missing either of priceSymbol/priceAsOf means update_prices.py never "
+                "tracks it (no price ledger or price-drift review queue)"
+            )
+
+    if not is_etf_report(report) and "reportedPeriod" not in report:
+        nonchain_freshness_issue(
+            f"{label} is a current non-chain report and must carry reportedPeriod "
+            "so its staleness is visible"
+        )
+
+
 def is_current_chain_report(report):
     return bool(report.get("chainLayer")) and report.get("isCurrent") is not False
 
@@ -715,6 +758,7 @@ def validate_enrichment_fields(report, report_idx, reports_by_id, benchmarks_cfg
 
     validate_stance_v2_requirements(report, report_idx)
     validate_trigger_link_requirements(report, report_idx)
+    validate_nonchain_freshness(report, report_idx)
 
 
 def validate_price_symbol_uniqueness(reports):
