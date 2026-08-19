@@ -2571,7 +2571,7 @@
     ],
     "category": "tech",
     "date": "2026-06-26",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-18",
     "file": "/invest/research/reports/view.html?id=nvidia-2026",
     "markdownFiles": {
       "zh": "/invest/research/NVIDIA_深度研究报告_2026-06.md",
@@ -2661,14 +2661,17 @@
           "en": "Circular-financing exposure"
         },
         "trigger": {
-          "zh": "对 neocloud 的股权+兜底安排出现减值或需求兜底被动用",
-          "en": "equity+backstop arrangements with neoclouds get impaired or the demand backstop is drawn"
+          "zh": "对客户、neocloud 或其设施开发商的股权/信用支持出现减值或被动用，或重大新增安排缺乏可验证的独立需求与偿付能力",
+          "en": "equity or credit support to customers, neoclouds, or their facility developers is impaired or drawn, or a material new arrangement lacks verifiable independent demand and repayment capacity"
         },
         "latest": {
-          "zh": "CRWV：$20 亿@$87 + $63 亿产能兜底；NBIS：$20 亿战略投资",
-          "en": "CRWV: $2B at $87 + $6.3B capacity backstop; NBIS: $2B strategic investment"
+          "zh": "CRWV：$20 亿@$87 + $63 亿产能兜底；NBIS：$20 亿战略投资。2026-08-17 Form 8-K 新增更大且不同类型的敞口：NVIDIA 就俄亥俄 PORTS-Pike 园区约 4.25 GW IT 负荷租约与出租方 SB Energy 签署多项剩余价值担保，承租方为 OpenAI Group PBC 关联方，初始承诺项下付款义务累计上限 1,050 亿美元；附件 99.1 另披露 NVIDIA 将向 SB Energy 投资 15 亿美元，并可自行决定另行支持约 3.8 GW（新闻稿口径 3.75 IT-GW）追加产能。评级为 unclear：8-K 仅称各项协议通常在相应租约起租时生效，付款还取决于 ready-for-service 等条件（预计自 2028 年起），且未披露既有 CRWV/NBIS 安排减值或 PORTS-Pike 触发事件；但 1,050 亿美元是重大或有敞口，完整协议尚未公开，OpenAI 又是财务与偿付能力不可公开核验的私营交易对手。该上限不是已发生支出、采购订单、收入或 NVIDIA 资本开支承诺。",
+          "en": "CRWV: $2B at $87 + $6.3B capacity backstop; NBIS: $2B strategic investment. A larger and structurally different exposure was disclosed in NVIDIA's 2026-08-17 Form 8-K: multiple residual value guaranties with lessor SB Energy cover leases for approximately 4.25 GW of IT load at PORTS-Pike, with an OpenAI Group PBC affiliate as tenant and NVIDIA's aggregate payment obligation cumulatively capped at US$105B for its initial commitment. Exhibit 99.1 also says NVIDIA will invest US$1.5B in SB Energy and may in its sole discretion support approximately 3.8 GW more (3.75 IT-GW in the release). Graded unclear: the 8-K says an Agreement generally becomes effective on the applicable lease commencement and payment remains subject to conditions including ready-for-service, expected from 2028; it discloses neither impairment of the existing CRWV/NBIS arrangements nor a PORTS-Pike Trigger Event. But US$105B is a material contingent exposure, the full agreements are not public, and OpenAI is a private counterparty whose financial condition and repayment capacity cannot be publicly verified. The cap is not spending incurred, a purchase order, revenue, or an NVIDIA capex commitment."
         },
-        "nextCheck": "CRWV/NBIS 季报读数 / CRWV & NBIS quarterly reads"
+        "nextCheck": "CRWV/NBIS 季报读数；截至 2026-07-26 季度 Form 10-Q 所附担保协议文本 / CRWV & NBIS quarterly reads; the guaranty agreement form filed with the Form 10-Q for the quarter ended 2026-07-26",
+        "nextCheckDate": "2026-08",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-17"
       }
     ],
     "conviction": "medium",
