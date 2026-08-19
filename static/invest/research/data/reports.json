@@ -19,6 +19,7 @@
     "period": "2026H1",
     "versionType": "initial",
     "versionLabel": "2026 Initial Coverage",
+    "reportedPeriod": "Q2 2026",
     "isCurrent": true,
     "moduleContract": "heading-comment-v1",
     "file": "/invest/research/reports/view.html?id=reddit-2026",
@@ -4677,6 +4678,7 @@
     "period": "2026H1",
     "versionType": "incremental",
     "versionLabel": "2026H1 Incremental Update",
+    "reportedPeriod": "Q2 2026",
     "file": "/invest/research/reports/view.html?id=netflix-2026",
     "markdownFiles": {
       "zh": "/invest/research/Netflix_深度研究报告_2026-02.md",
@@ -5534,6 +5536,7 @@
     "period": "2026H1",
     "versionType": "incremental",
     "versionLabel": "2026H1 Incremental Update",
+    "reportedPeriod": "Q2 2026",
     "file": "/invest/research/reports/view.html?id=paypal-2026",
     "markdownFiles": {
       "zh": "/invest/research/PayPal_Research_Report_2026.md",
