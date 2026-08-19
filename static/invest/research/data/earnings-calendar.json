@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-08-18",
+  "asOf": "2026-08-19",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -272,13 +272,13 @@
     {
       "reportId": "salesforce-2026",
       "company": "Salesforce",
-      "expectedDate": null,
-      "precision": "unknown",
-      "status": "unknown",
-      "session": "not-applicable",
-      "sourceUrl": null,
-      "sourceType": "none",
-      "verifiedAt": "2026-08-01"
+      "expectedDate": "2026-08-26",
+      "precision": "day",
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://www.nasdaq.com/market-activity/stocks/crm/earnings",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-08-19"
     },
     {
       "reportId": "coinbase-2026",
