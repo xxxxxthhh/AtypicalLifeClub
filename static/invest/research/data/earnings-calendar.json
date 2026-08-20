@@ -12,7 +12,7 @@
       "session": "not-applicable",
       "sourceUrl": null,
       "sourceType": "none",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-08-19"
     },
     {
       "reportId": "asml-2026",
@@ -211,7 +211,7 @@
       "session": "not-applicable",
       "sourceUrl": null,
       "sourceType": "none",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-08-19"
     },
     {
       "reportId": "sk-hynix-2026",
@@ -234,7 +234,7 @@
       "session": "not-applicable",
       "sourceUrl": null,
       "sourceType": "none",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-08-19"
     },
     {
       "reportId": "airbnb-2026",
@@ -245,7 +245,7 @@
       "session": "not-applicable",
       "sourceUrl": null,
       "sourceType": "none",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-08-19"
     },
     {
       "reportId": "hims-2026",
@@ -289,7 +289,7 @@
       "session": "not-applicable",
       "sourceUrl": null,
       "sourceType": "none",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-08-19"
     },
     {
       "reportId": "amzn-2026",
@@ -305,13 +305,13 @@
     {
       "reportId": "netflix-2026",
       "company": "Netflix",
-      "expectedDate": null,
-      "precision": "unknown",
-      "status": "unknown",
-      "session": "not-applicable",
-      "sourceUrl": null,
-      "sourceType": "none",
-      "verifiedAt": "2026-08-01"
+      "expectedDate": "2026-10-20",
+      "precision": "day",
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://www.wallstreethorizon.com/netflix-earnings-calendar",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-08-19"
     },
     {
       "reportId": "spotify-2026",
@@ -322,7 +322,7 @@
       "session": "not-applicable",
       "sourceUrl": null,
       "sourceType": "none",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-08-19"
     },
     {
       "reportId": "neov-2026",
@@ -361,13 +361,13 @@
     {
       "reportId": "paypal-2026",
       "company": "PayPal Holdings Inc.",
-      "expectedDate": null,
-      "precision": "unknown",
-      "status": "unknown",
-      "session": "not-applicable",
-      "sourceUrl": null,
-      "sourceType": "none",
-      "verifiedAt": "2026-08-01"
+      "expectedDate": "2026-10-27",
+      "precision": "day",
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://www.wallstreethorizon.com/paypal-earnings-calendar",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-08-19"
     },
     {
       "reportId": "oklo-2026",
@@ -378,18 +378,18 @@
       "session": "not-applicable",
       "sourceUrl": null,
       "sourceType": "none",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-08-19"
     },
     {
       "reportId": "broadcom-2026",
       "company": "Broadcom",
-      "expectedDate": null,
-      "precision": "unknown",
-      "status": "unknown",
-      "session": "not-applicable",
-      "sourceUrl": null,
-      "sourceType": "none",
-      "verifiedAt": "2026-08-01"
+      "expectedDate": "2026-09-02",
+      "precision": "day",
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announce-third-quarter-fiscal-year-2026-financial",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-08-19"
     },
     {
       "reportId": "tsmc-2026",
@@ -539,13 +539,13 @@
     {
       "reportId": "cameco-2026",
       "company": "Cameco Corporation",
-      "expectedDate": "2026-07",
-      "precision": "month",
-      "status": "stale",
-      "session": "not-applicable",
+      "expectedDate": "2026-07-31",
+      "precision": "day",
+      "status": "recorded",
+      "session": "before-open",
       "sourceUrl": null,
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "sourceType": "report-body",
+      "verifiedAt": "2026-08-19"
     },
     {
       "reportId": "mp-2026",
