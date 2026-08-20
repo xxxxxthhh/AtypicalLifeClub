@@ -1657,7 +1657,7 @@
     ],
     "category": "tech",
     "date": "2026-07-01",
-    "lastUpdate": "2026-08-13",
+    "lastUpdate": "2026-08-20",
     "file": "/invest/research/reports/view.html?id=nebius-2026",
     "markdownFiles": {
       "zh": "/invest/research/Nebius_深度研究报告_2026-07.md",
@@ -1761,12 +1761,12 @@
           "en": "the '>90% secured' 2026 capex ($20-25B, ~7x revenue) breaks in a tighter capital market"
         },
         "latest": {
-          "zh": "2026-07-17 公司公告签订首笔约 $7.75 亿高级担保融资：以已部署 GPU 基础设施和未具名投资级客户合同现金流支持，SOFR+2.50%、2030-10-31 到期；公司称显著超额认购，且与客户现金流合计覆盖标的 GPU 部署 capex >100%。客户未具名；公司另称结构可复制到微软/Meta 等 >$400 亿新增合同收入，但这仍是未来融资预期。规模相对 $200-250 亿 2026 capex 仍小；此前披露框架：>90% 已由现金/合同锁定，约 $93 亿现金",
-          "en": "Nebius announced 2026-07-17 that it entered its first senior secured facility (~$775M), backed by deployed GPU infrastructure and an unnamed investment-grade customer's contracted cash flows, priced at SOFR+2.50% and due 2030-10-31; the company says it was significantly oversubscribed and, together with customer cash flows, covers >100% of the underlying GPU-deployment capex. The customer is unnamed; the issuer separately says the structure could be repeated against >$40B of additional contracted revenue from customers such as Microsoft/Meta, but that remains a future financing expectation. Small vs $20-25B 2026 capex; prior disclosed frame: >90% secured by cash/contracts and ~$9.3B cash"
+          "zh": "2026-08-19 提交的 Form 6-K 及附件 99.1 新闻稿：Nebius 宣布拟私募发行原始本金总额 45.0 亿美元可转换优先票据，分 2030 年到期 27.5 亿与 2034 年到期 17.5 亿两档，依 Rule 144A 面向合格机构买家；另预计授予初始购买人选择权，可在首次发行日起 13 天内额外购买至多 3.75 亿（2030 档）与 3.00 亿（2034 档）美元。募集资金用途按发行人原文点名：数据中心建设与扩建支出、全栈 AI 云投资、数据中心版图扩张、含 GPU 在内的关键部件采购，以及一般公司用途。票据为优先无担保债务，到期应付原始本金加按契约增值表计算的增值额；公司并预期在定价同时与少数 2029 年 2.00% / 2031 年 3.00% 存量可转债持有人私下协商，以 A 类普通股换取部分存量可转债。评级：unclear。本项触发条件问的是『>90% 已覆盖』的 2026 年资本开支口径（$200-250 亿，约 7 倍收入）是否在更紧的资本市场中破裂；拟发行公告显示公司正在寻求新增外部资金，但在票息、转换价、增值表、最终规模与交割均未知时，既不能证明资本开支资金框架仍然成立，也不能证明已经破裂。证据限制：这是**拟发行公告**，以市场及其他条件为前提；新闻稿未披露票息、转换价、转换溢价或增值表数值，故资金成本无法从一手源计算；3.75 亿与 3.00 亿美元是初始购买人**选择权**而非已发行金额；换股交易非本次发行前提，发行人明确表示无法保证完成或确定规模。并列语境（本次不据以改判）：2026-06-30 现金 $8,042.1M 对非流动债务 $8,499.0M，7 月的约 $775M 为**优先有担保**贷款，本次为**优先无担保**可转债。此前口径保留：2026-07-17 首笔优先有担保贷款（~$775M，SOFR+2.50%，2030-10-31 到期，以已部署 GPU 与一家未具名投资级客户的合约现金流为支持）。",
+          "en": "Form 6-K furnished 2026-08-19 and its Exhibit 99.1 press release: Nebius announced a proposed Rule 144A private offering of US$4.50B aggregate original principal amount of convertible senior notes in two series — US$2.75B due 2030 and US$1.75B due 2034 — and expects to grant the initial purchasers an option to buy up to an additional US$375M (2030) and US$300M (2034) within 13 days of first issuance. Use of proceeds, in the issuer's own words, names expenditures related to the construction and build-out of its data centers, investments to develop its full-stack AI cloud, the expansion of its data center footprint, the procurement of key components (including GPUs), and general corporate purposes. The notes are senior unsecured obligations repayable at maturity at original principal plus an accreted amount per an indenture accretion schedule; concurrently with pricing the company expects privately negotiated exchanges with a limited number of holders of its 2.00% 2029 and/or 3.00% 2031 convertibles into Class A shares. Reading: unclear. This item's trigger asks whether the '>90% secured' 2026 capex frame ($20-25B, ~7x revenue) breaks in a tighter capital market. The proposed offering shows that the company is seeking another external funding source, but with the coupon, conversion price, accretion schedule, final size and settlement all unknown, it establishes neither that the capex funding frame still holds nor that it has broken. Evidence limits: this is a **proposed** offering subject to market and other conditions; the release discloses no coupon, conversion price, conversion premium or accretion-schedule figure, so the cost of capital cannot be computed from the primary source; the US$375M and US$300M are initial-purchaser **options**, not issued amounts; and the exchanges are not a condition of the offering, with the issuer stating there can be no assurance any will complete or what amount will be exchanged. Context recorded but not re-adjudicated here: cash of $8,042.1M against non-current debt of $8,499.0M at 2026-06-30, and July's ~$775M facility was **senior secured** while this is **senior unsecured** convertible paper. Prior caliber retained: the 2026-07-17 first senior secured facility (~$775M, SOFR+2.50%, due 2030-10-31, backed by deployed GPU infrastructure and an unnamed investment-grade customer's contracted cash flows)."
         },
         "nextCheck": "额外资产级融资；提款/契约/费用披露；ATM 使用与预付款节奏 / additional asset-level facilities; drawdown, covenant and fee disclosures; ATM use and prepayment cadence",
-        "reading": "within",
-        "readingAsOf": "2026-07-17"
+        "reading": "unclear",
+        "readingAsOf": "2026-08-19"
       },
       {
         "id": "optionality-crystallization",
@@ -7763,7 +7763,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-20",
     "file": "/invest/research/reports/view.html?id=marvell-2026",
     "markdownFiles": {
       "zh": "/invest/research/Marvell_深度研究报告_2026-07.md",
@@ -7805,11 +7805,13 @@
           "en": "FY2027 data-center revenue accelerates each quarter and AWS / Microsoft / additional hyperscaler programs ramp"
         },
         "latest": {
-          "zh": "公开报道 FY2027/FY2028 收入展望约 $11.5B/$16.5B",
-          "en": "public reports frame FY2027 / FY2028 revenue outlook around $11.5B / $16.5B"
+          "zh": "2026-08-19 提交、最早事项日期 2026-08-18 的 Form 8-K（事项 1.01/3.02/9.01）：Marvell 披露已于 2026 年 7 月 29 日与 Google LLC 就为其开发定制半导体产品（Custom Products）签署商业协议，8-K 表述该扩大后的合作『涵盖依附于 TPU 生态的一整套定制硅项目』，列举 AI 推理加速器、存储控制器、网络接口控制器、内存接口控制器与近内存计算；并于 2026-08-18 向 Google 发行至多 58,970,907 股、行权价 $206.58 的权证，其中 1,360,867 股按季在首年等额解锁，其余按 Google 及其关联方自 FY2027 Q3 至 FY2033 结束期间的『可自由裁量』采购分 240 个等额档位解锁，每 5 亿美元 Custom Products 收入解锁一档。评级：unclear。本项触发条件是一个合取——『FY2027 数据中心收入逐季加速』**且**『AWS / Microsoft / 其他 hyperscaler 项目放量』。8-K 为第二个合取项补上了一个具名的新增 hyperscaler 项目（此前 §2 只能依据公开报道提及 Google），但**未披露任何收入、订单或采购承诺金额**，解锁所依附的采购被发行人自身定性为『可自由裁量』，因而不构成放量证据；第一个合取项在 2026-08-27 的 FY2027 Q2 财报前没有任何新证据。此前口径（公开报道框定 FY2027/FY2028 约 $11.5B / $16.5B 收入展望）保留待该次财报检验。",
+          "en": "Form 8-K filed 2026-08-19, date of earliest event reported 2026-08-18 (Items 1.01/3.02/9.01): Marvell disclosed that it and Google LLC entered into a commercial agreement on July 29, 2026 relating to the company's development of custom semiconductor products ('Custom Products') for Google, described in the 8-K as spanning 'a comprehensive range of custom silicon programs that attach to the TPU ecosystem,' naming AI inference accelerators, storage controllers, network interface controllers, memory interface controllers and near-memory compute; and that on 2026-08-18 it issued Google a warrant over up to 58,970,907 shares at a $206.58 exercise price, of which 1,360,867 shares vest in equal quarterly installments over the first year and the remainder vest on 'discretionary' purchases by or on behalf of Google and its affiliates from FY2027 Q3 through the end of FY2033, in 240 equal tranches, one per US$500 million of Custom Products revenue. Reading: unclear. This item's trigger is a conjunction — FY2027 data-center revenue accelerating each quarter **and** AWS / Microsoft / additional hyperscaler programs ramping. The 8-K supplies the second conjunct with a named additional hyperscaler program (§2 previously cited Google only from public reports), but it **discloses no revenue, order or purchase-commitment amount**, and the purchases the tranches attach to are characterised by the issuer itself as 'discretionary', so they are not ramp evidence. The first conjunct has no new evidence before the FY2027 Q2 print on 2026-08-27. The prior caliber — public reports framing an FY2027 / FY2028 outlook around $11.5B / $16.5B — is retained pending that print."
         },
         "nextCheck": "FY2027 Q2 财报 / FY2027 Q2 earnings",
-        "nextCheckDate": "2026-08"
+        "nextCheckDate": "2026-08",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-18"
       },
       {
         "id": "aws-microsoft-concentration",

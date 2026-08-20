@@ -1,5 +1,54 @@
 [
   {
+    "id": "nebius-convertible-senior-notes-offering-2026-08",
+    "date": "2026-08-19",
+    "title": {
+      "zh": "Nebius 宣布拟私募发行 45 亿美元可转换优先票据，募集资金用途明确点名数据中心建设与 GPU 等关键部件采购",
+      "en": "Nebius announces a proposed US$4.50B private placement of convertible senior notes, with use of proceeds explicitly naming data-center construction and procurement of key components including GPUs"
+    },
+    "detail": {
+      "zh": "据 Nebius Group N.V.（NASDAQ: NBIS）于 2026-08-19 提交的 Form 6-K 及其附件 99.1 新闻稿（新闻稿日期 2026 年 8 月 19 日，阿姆斯特丹）。（1）发行规模与结构：公司宣布拟发行原始本金总额 45.0 亿美元的可转换优先票据，分两档——2030 年到期 27.5 亿美元、2034 年到期 17.5 亿美元；面向合格机构买家、依据 1933 年证券法 Rule 144A 私募。公司预计另授予初始购买人一项选择权，可在票据首次发行日起（含当日）13 天内额外购买至多 3.75 亿美元的 2030 年票据与至多 3.00 亿美元的 2034 年票据。（2）募集资金用途，按发行人原文：为业务持续增长提供资金，包括与其数据中心建设与扩建相关的支出、发展全栈 AI 云的投资、数据中心版图扩张、关键部件（包括 GPU）的采购，以及一般公司用途。（3）票据条款：优先无担保债务，按原始本金半年付息；2030 年票据于 2030-02-15、2034 年票据于 2034-02-15 到期，届时应付金额为原始本金加按契约所载增值表计算的增值额（合称 Accreted Principal Amount），该增值表使其在到期日达到相对原始本金的一定溢价；但行使转换权时，转换率与转换价按原始本金而非增值后本金计算。转换结算由公司选择以现金、A 类普通股或两者组合支付（受荷兰税法相关条件限制）。2030 年票据在 2028-02-21 前、2034 年票据在 2028-08-21 前不可赎回（特定税法变更除外）。（4）同步换股安排：公司预期在票据定价的同时，与其 2029 年到期 2.00% 可转债及/或 2031 年到期 3.00% 可转债的少数持有人，通过单独的私下协商交易签署换股协议，以 A 类普通股（面值 0.01 欧元）交换部分存量可转债；各笔条款逐一协商。（5）证据限制，必须与上述事实一并阅读：这是一份**拟发行公告**，发行以市场及其他条件为前提；新闻稿未披露票息、转换价、转换溢价或增值表数值，故本次发行的资金成本无法从一手源计算。3.75 亿与 3.00 亿美元为初始购买人的**选择权**，非已发行金额。换股交易不构成本次发行的前提条件，新闻稿明确表示无法保证其完成、亦无法确定最终换股规模。募集资金用途在点名数据中心建设、版图扩张与含 GPU 的关键部件采购之外，同时并列了『一般公司用途』，因此并非全额专款专用。本条目不换算任何倍数、企业价值或产能数字。",
+      "en": "Per Nebius Group N.V. (NASDAQ: NBIS) Form 6-K furnished 2026-08-19 and its Exhibit 99.1 press release dated August 19, 2026 (Amsterdam). (1) Size and structure: the company announced its intention to offer US$4.50B aggregate original principal amount of convertible senior notes in two series — US$2.75B due 2030 and US$1.75B due 2034 — in a private offering to qualified institutional buyers under Rule 144A of the Securities Act of 1933. The company also expects to grant the initial purchasers an option, for settlement within 13 days from and including the first issuance date, to purchase up to an additional US$375M of 2030 Notes and up to an additional US$300M of 2034 Notes. (2) Use of proceeds, in the issuer's own words: to finance the continuing growth of its business, including expenditures related to the construction and build-out of its data centers, investments to develop its full-stack AI cloud, the expansion of its data center footprint and the procurement of key components (including GPUs), and for general corporate purposes. (3) Note terms: senior unsecured obligations bearing interest semi-annually in arrears on the original principal amount; the 2030 Notes mature 2030-02-15 and the 2034 Notes 2034-02-15, when the original principal plus an accreted amount (together the Accreted Principal Amount) is payable, calculated per an accretion schedule to be included in the respective indenture such that it reaches a premium to original principal at maturity — but for conversion purposes the conversion rate and price are based on original principal, not the Accreted Principal Amount. Conversions settle in cash, Class A shares, or a combination at the company's election, subject to conditions related to Dutch tax law. The notes are not redeemable before 2028-02-21 (2030 Notes) and 2028-08-21 (2034 Notes), except on certain tax-law changes. (4) Concurrent exchanges: concurrently with pricing, the company expects to enter into separately and privately negotiated exchange agreements with a limited number of holders of its 2.00% Convertible Senior Notes due 2029 and/or 3.00% Convertible Senior Notes due 2031, exchanging a portion of those existing notes for Class A ordinary shares (par value EUR 0.01), on individually negotiated terms. (5) Evidence limits, which must be read alongside the facts above: this is a **proposed** offering, subject to market and other conditions. The release discloses no coupon, conversion price, conversion premium or accretion-schedule figure, so the cost of capital of this offering cannot be computed from the primary source. The US$375M and US$300M amounts are initial-purchaser **options**, not issued amounts. The exchange transactions are not a condition of the offering, and the release states there can be no assurance any will be completed or what aggregate principal, if any, will be exchanged. Beyond naming data-center construction, footprint expansion and procurement of key components including GPUs, the use-of-proceeds language also lists 'general corporate purposes' alongside them, so proceeds are not fully earmarked. This entry computes no multiple, enterprise value or capacity figure."
+    },
+    "crossChecks": [
+      "neocloud-financing"
+    ],
+    "tickers": [
+      "NBIS"
+    ],
+    "reportIds": [
+      "nebius-2026"
+    ],
+    "monitoringRefs": [
+      "nebius-2026:funding-durability"
+    ]
+  },
+  {
+    "id": "marvell-google-custom-silicon-purchase-warrant-2026-08",
+    "date": "2026-08-18",
+    "title": {
+      "zh": "Marvell 8-K：向 Google 发行至多 5,897.0907 万股、行权价 $206.58 的采购挂钩权证，绝大部分份额按每 5 亿美元 Custom Products 收入解锁一档，且系于 Google 的『可自由裁量』采购",
+      "en": "Marvell 8-K: warrant to Google for up to 58,970,907 shares at a $206.58 exercise price, with the bulk vesting one tranche per US$500M of Custom Products revenue and tied to Google's 'discretionary' purchases"
+    },
+    "detail": {
+      "zh": "据 Marvell Technology, Inc.（NASDAQ: MRVL）于 2026-08-19 提交、最早事项日期为 2026-08-18 的 Form 8-K（事项 1.01、3.02、9.01）。（1）商业协议：8-K 披露公司与 Google LLC 已于 **2026 年 7 月 29 日** 就公司为 Google 开发定制半导体产品（Custom Products）签署商业协议——协议签署日早于本次披露，本条目登记的新增披露是权证及其解锁机制。8-K 表述该扩大后的合作『涵盖依附于 TPU 生态的一整套定制硅项目』，具体列举 AI 推理加速器、存储控制器、网络接口控制器、内存接口控制器与近内存计算。（2）权证：作为该合作的一部分，公司于 2026-08-18 向 Google 发行权证，可购买公司普通股合计至多 58,970,907 股，行权价每股 $206.58。（3）解锁机制：其中 1,360,867 股（Time-Based Warrant Shares）自商业协议与权证签署后第一年内按季等额解锁；**其余份额按 Google 及其关联方（或代其）自公司 2027 财年第三季度起至 2033 财年结束期间的『可自由裁量』（discretionary）采购解锁，共 240 个等额档位，每 5 亿美元 Custom Products 收入解锁一档**。行权价与股数受惯常调整条款约束。（4）其他条款：权证自发行日起至 2033-08-18 可全部或部分行权；除转让予受控关联方外，未经公司同意不得转让；权证股份可自由交易，但受证券法、特定交易量限制约束，Time-Based 部分另受一定锁定限制；Google 就权证股份享有惯常登记权。权证及其股份依 1933 年证券法第 4(a)(2) 条豁免登记发行。（5）证据限制，必须与上述事实一并阅读：**8-K 未披露任何收入、订单、backlog 或采购承诺金额**，解锁档位所依附的采购被发行人自身明确定性为『可自由裁量』，因此不构成已承诺的客户采购或可确认收入；本条目不将档位机制换算为任何合计金额。8-K 亦未披露公司对该权证的会计处理（例如是否作为冲减收入列示），故该问题仍未解决。附件 4.1（权证协议）的部分证物与附表已依 Regulation S-K 第 601(a)(5) 条省略。",
+      "en": "Per Marvell Technology, Inc. (NASDAQ: MRVL) Form 8-K filed 2026-08-19 with a date of earliest event reported of 2026-08-18 (Items 1.01, 3.02, 9.01). (1) Commercial agreement: the 8-K discloses that the company and Google LLC entered into a commercial agreement relating to the company's development of custom semiconductor products ('Custom Products') for Google on **July 29, 2026** — the agreement predates this disclosure, and what this entry logs as newly disclosed is the warrant and its vesting mechanics. The 8-K describes the expanded partnership as spanning 'a comprehensive range of custom silicon programs that attach to the TPU ecosystem,' specifically naming AI inference accelerators, storage controllers, network interface controllers, memory interface controllers, and near-memory compute. (2) Warrant: in connection with the collaboration, on 2026-08-18 the company issued Google a warrant to purchase up to an aggregate of 58,970,907 shares of its common stock at an exercise price of $206.58 per share. (3) Vesting: 1,360,867 of those shares (the Time-Based Warrant Shares) vest in equal quarterly installments during the first year following execution of the commercial agreement and the warrant; **the remaining shares vest based on 'discretionary' purchases by or on behalf of Google and its affiliates from the company's third quarter of fiscal 2027 through the end of fiscal year 2033, in 240 equal tranches, with one tranche vesting for each US$500 million in Custom Products revenue**. Exercise price and share count are subject to customary adjustments. (4) Other terms: the warrant is exercisable in whole or in part after issuance until 2033-08-18; it may not be transferred other than to controlled affiliates without the company's consent; the warrant shares are freely tradeable subject to securities laws, specified trading-volume restrictions and, for the Time-Based Warrant Shares, certain lock-up limitations; Google has customary registration rights over the warrant shares. The warrant and shares are issued in reliance on the Section 4(a)(2) exemption of the Securities Act of 1933. (5) Evidence limits, which must be read alongside the facts above: **the 8-K discloses no revenue, order, backlog or purchase-commitment amount**, and the purchases the tranches attach to are characterised by the issuer itself as 'discretionary', so they are not committed customer purchases or recognized revenue; this entry does not convert the tranche mechanics into any aggregate figure. The 8-K also does not disclose the company's accounting treatment of the warrant (for example whether it is presented as contra-revenue), so that question is unresolved. Certain exhibits and schedules to Exhibit 4.1 (the Warrant Agreement) have been omitted under Regulation S-K Item 601(a)(5)."
+    },
+    "crossChecks": [
+      "custom-silicon-ethernet"
+    ],
+    "tickers": [
+      "MRVL",
+      "GOOG"
+    ],
+    "reportIds": [
+      "marvell-2026"
+    ],
+    "monitoringRefs": [
+      "marvell-2026:custom-asic-design-wins"
+    ]
+  },
+  {
     "id": "nvidia-sb-energy-ports-pike-residual-value-guaranty-2026-08",
     "date": "2026-08-17",
     "title": {

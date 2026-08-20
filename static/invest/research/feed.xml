@@ -6,6 +6,20 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>Marvell Technology 深度研究报告 - Broadcom 之外的 custom ASIC 与光互连架构校验 / Marvell Technology Deep Research Report - Custom ASIC and Optical Interconnect Check Beyond Broadcom</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=marvell-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=marvell-2026#marvell-2026@2026-08-20</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+      <description>2026-07-31 立场重新裁定：MRVL 收于 $183.30（2026-07-30），较 07-29 低点反弹 +12.2%、较 7 月 2 日锚点仍 −25.3%，市值约 $160.5B、EV 约 $161.9B。按报告自身收入情景，EV/Sales 约 14.1x（FY2027 $11.5B）、约 9.8x（FY2028 $16.5B）。按所有者 Q1 裁定复核：约 14.1x 前瞻销售额（分母本身是上调后的展望）仍在预付 FY2027 干净落地，负预期差以减弱形式成立，维持谨慎/中确信；custom ASIC 转化与光互连 attach 待 2026-08-27 业绩验证，网格权重保留。</description>
+    </item>
+    <item>
+      <title>Nebius Group 深度研究报告 - neocloud 的『干净对照组』：对 CoreWeave 风险锚的架构校验 / Nebius Group Deep Research Report - The 'Clean' Neocloud: An Architecture Check on the CoreWeave Risk Anchor</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=nebius-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=nebius-2026#nebius-2026@2026-08-20</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+      <description>2026-08-13 监测更新：Nebius 2026 年二季度收入 $582.3M（同比 +454%）、调整后 EBITDA $236.2M，持续经营净亏损 -$190.4M，单季资本开支 $5,657.4M。2026-06-30 现金 $8,042.1M 对非流动债务 $8,499.0M，已由近净现金转为近净债务持平；两份 6-K 均未重述 ARR、客户收入占比或利用率。因此 model-vs-balance-sheet 与 concentration-convergence 均严格判为 unclear；集中度触发条件同步改为对照 CoreWeave 当前“前两大客户 62%”画像。此次仅更新监测事实；未重算估值，谨慎／中确信仍沿用 2026-07-30 收盘 $188.43 的完整裁定。</description>
+    </item>
+    <item>
       <title>MiniMax Group 深度研究报告 - 应用层需求验证与高估值压力测试 / MiniMax Group Deep Research Report - Application-Layer Demand Validation and Valuation Stress Test</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=minimax-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=minimax-2026#minimax-2026@2026-08-18</guid>
@@ -74,13 +88,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=applied-materials-2026#applied-materials-2026@2026-08-14</guid>
       <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
       <description>【2026-08-14 监测与估值重锚：AMAT 于 2026-08-13 收于 $534.54；按 Q3 公告的 794M 基本加权平均股数，市值约 $424.4B，窄口径 EV 约 $421.7B；约 10.3x EV/Q4 年化收入、33.2x Q4 指引 EPS 年化。立场维持观望中性 / 中确信。】AI 基础设施 semicap-equipment 层的广谱设备仪表盘：FY2026 Q3（截至 2026-07-26）收入创纪录 $9,115M（同比 +25%），GAAP gross margin 50.3%、non-GAAP EPS $3.50，均高于 $8,950M / $3.36 的指引中点；Semiconductor Systems 收入 $7,040M，其中 foundry/logic/other 67%、DRAM 26%、Flash 7%。Q4 指引收入 $10,250M +/- $500M、non-GAAP EPS $4.02 +/- $0.20。中国是唯一同比收入下降地区（$2,506M，占比 28%，去年同期 35%），公告未作归因；订单/backlog 也未披露。尽管股价较 2026-07-30 上升 6.5%，下一季度口径销售倍数降至 10.3x；中国归因与订单转化仍未闭合，因此不升至 constructive。</description>
-    </item>
-    <item>
-      <title>Nebius Group 深度研究报告 - neocloud 的『干净对照组』：对 CoreWeave 风险锚的架构校验 / Nebius Group Deep Research Report - The 'Clean' Neocloud: An Architecture Check on the CoreWeave Risk Anchor</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=nebius-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=nebius-2026#nebius-2026@2026-08-13</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
-      <description>2026-08-13 监测更新：Nebius 2026 年二季度收入 $582.3M（同比 +454%）、调整后 EBITDA $236.2M，持续经营净亏损 -$190.4M，单季资本开支 $5,657.4M。2026-06-30 现金 $8,042.1M 对非流动债务 $8,499.0M，已由近净现金转为近净债务持平；两份 6-K 均未重述 ARR、客户收入占比或利用率。因此 model-vs-balance-sheet 与 concentration-convergence 均严格判为 unclear；集中度触发条件同步改为对照 CoreWeave 当前“前两大客户 62%”画像。此次仅更新监测事实；未重算估值，谨慎／中确信仍沿用 2026-07-30 收盘 $188.43 的完整裁定。</description>
     </item>
     <item>
       <title>CoreWeave 深度研究报告 - AI 建设的风险锚：真实需求还是杠杆与循环融资？ / CoreWeave Deep Research Report - The AI Buildout's Risk Anchor: Real Demand or Leverage &amp; Circular Financing?</title>
@@ -326,13 +333,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=meta-2026#meta-2026@2026-07-31</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
       <description>2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30）：收入 $60.80B（同比 +28%）、营业利润 $18.775B、营业利润率 31%（去年同期 43%）、净利润 $15.848B（同比 -14%）、摊薄 EPS $6.18；总成本费用 $42.026B（同比 +55%）。经营现金流 $31.862B（+25%），但 $31.078B capex 把自由现金流压至 $0.784B（-91%）；FY2026 capex 指引收窄至 $130-145B。application-monetization 是混合读数：收入与经营现金流增长，营业利润率、净利润与 FCF 恶化。本中心 AI 基础设施书 demand-risk 层的需求锚覆盖：Meta 不是 GPU/HBM/电力/光模块供应商，而是整条链最重要的终端买方之一。2026-07-31 重新锚定至 2026-07-30 收盘 $539.03：市值约 $1.37T、EV 约 $1.41T，约 6.4x TTM P/S、约 15.9x EV/TTM 营业利润，按 Q1 剔除税益 EPS 年化约 18.4x（按 Q2 实际 EPS 年化约 21.8x）。倍数较旧锚点更宽松，立场按当前价格算术维持 neutral-watch / 中确信；上述 TTM 口径为 Q2'25-Q1'26，不含 2026 Q2，Q2 的 FCF 与利润率恶化关系到偏斜，须由 Q2 后重建口径的重新承保处理。</description>
-    </item>
-    <item>
-      <title>Marvell Technology 深度研究报告 - Broadcom 之外的 custom ASIC 与光互连架构校验 / Marvell Technology Deep Research Report - Custom ASIC and Optical Interconnect Check Beyond Broadcom</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=marvell-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=marvell-2026#marvell-2026@2026-07-31</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <description>2026-07-31 立场重新裁定：MRVL 收于 $183.30（2026-07-30），较 07-29 低点反弹 +12.2%、较 7 月 2 日锚点仍 −25.3%，市值约 $160.5B、EV 约 $161.9B。按报告自身收入情景，EV/Sales 约 14.1x（FY2027 $11.5B）、约 9.8x（FY2028 $16.5B）。按所有者 Q1 裁定复核：约 14.1x 前瞻销售额（分母本身是上调后的展望）仍在预付 FY2027 干净落地，负预期差以减弱形式成立，维持谨慎/中确信；custom ASIC 转化与光互连 attach 待 2026-08-27 业绩验证，网格权重保留。</description>
     </item>
     <item>
       <title>Digital Realty 深度研究报告 - AI 数据中心租赁与互联需求仪表盘 / Digital Realty Deep Research Report - Leasing and Interconnection Dashboard for AI Data Centers</title>

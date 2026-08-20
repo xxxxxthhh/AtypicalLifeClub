@@ -1,7 +1,7 @@
 # Marvell Technology (MRVL) Deep Research Report
 
 Coverage date: 2026-07-04
-Last updated: 2026-07-31
+Last updated: 2026-08-20
 Ticker: NASDAQ: MRVL
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -59,6 +59,10 @@ AI chip architecture is moving from pure GPU procurement toward combinations of 
 Marvell has three advantages.
 
 First, customer-project diversity. Public reports point to AWS Trainium, Microsoft Maia, Google, and other hyperscaler opportunities. That reduces single-product risk, but revenue timing and customer share remain opaque.
+
+> **2026-08-19 incremental update (the Google program moves from public reports to a primary filing).** Per Marvell's Form 8-K filed 2026-08-19 with a date of earliest event reported of 2026-08-18 (Items 1.01/3.02/9.01), the company and Google LLC entered into a commercial agreement on **July 29, 2026** relating to the company's development of custom semiconductor products ("Custom Products") for Google. The 8-K describes the expanded partnership as spanning "a comprehensive range of custom silicon programs that attach to the TPU ecosystem," specifically naming **AI inference accelerators, storage controllers, network interface controllers, memory interface controllers, and near-memory compute**. In connection with the collaboration, on 2026-08-18 the company issued Google a warrant to purchase up to an aggregate of **58,970,907 shares** of common stock at an exercise price of **$206.58 per share**. **1,360,867** of those shares vest in equal quarterly installments during the first year, and **the remaining shares vest based on "discretionary" purchases by or on behalf of Google and its affiliates from FY2027 Q3 through the end of FY2033, in 240 equal tranches, with one tranche vesting for each US$500 million in Custom Products revenue**. The warrant is exercisable after issuance until 2033-08-18 and was issued in reliance on the Section 4(a)(2) exemption of the Securities Act of 1933.
+>
+> **Limits that must be read alongside this.** The 8-K **discloses no revenue, order, backlog, or purchase-commitment amount**, and the purchases the tranches attach to are characterised by the issuer itself as "discretionary." The customer-project diversity above therefore upgrades from public reports to a named primary-source fact, **but still does not constitute committed customer purchases or recognized revenue**, and this report does not convert the tranche mechanics into any aggregate figure. The 8-K also does not disclose the company's accounting treatment of the warrant (for example whether it is presented as contra-revenue); certain exhibits and schedules to Exhibit 4.1, the Warrant Agreement, have been omitted under Regulation S-K Item 601(a)(5). The judgment above that "revenue timing and customer share remain opaque" therefore stands unchanged. Source: [Marvell Form 8-K (2026-08-19)](https://www.sec.gov/Archives/edgar/data/1835632/000119312526356217/d412696d8k.htm).
 
 Second, optical interconnect matters more. As rack power and cluster scale increase, copper interconnect, conventional switching, and electrical signaling run into limits. 800G / 1.6T optical DSPs, Celestial AI's photonic fabric, and silicon photonics put MRVL in the path of AI-network upgrades.
 
@@ -169,8 +173,10 @@ MRVL's valuation is a bet on future revenue slope. It does not have Broadcom's V
 | Celestial AI integration | 2026-2028 | Tests whether photonic fabric enters real customers |
 | 800G / 1.6T optical orders | Quarterly | Validates AI-cluster interconnect bottleneck |
 | FY2028 outlook updates | H2 2026-2027 | Determines whether high multiples get denominator support |
+| Google purchase-linked warrant vesting progress | FY2027 Q3 through FY2033 | One tranche vests per US$500M of Custom Products revenue (240 tranches); the issuer characterises the purchases as "discretionary," so vesting progress is an after-the-fact indicator of whether purchases actually occurred, not an advance commitment |
+| Warrant accounting-treatment disclosure | 10-Q / 10-K from FY2027 Q2 | The 8-K does not say whether the warrant is presented as contra-revenue; this determines the caliber in which Google program revenue enters the statements |
 
-Structured monitoring should focus on custom ASIC design wins, AWS / Microsoft projects, data-center revenue, NVLink Fusion attach, Celestial milestones, optical DSP orders, and forward EV/Sales.
+Structured monitoring should focus on custom ASIC design wins, AWS / Microsoft / Google projects, data-center revenue, NVLink Fusion attach, Celestial milestones, optical DSP orders, and forward EV/Sales.
 
 ## 10. Conclusion
 

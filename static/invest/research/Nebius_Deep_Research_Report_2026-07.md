@@ -1,7 +1,7 @@
 # Nebius Group (NASDAQ: NBIS) Deep Research Report
 
 Coverage date: 2026-07-01
-Last updated: 2026-08-13
+Last updated: 2026-08-20
 Ticker: NASDAQ: NBIS
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence. All prices and market caps are point-in-time snapshots; financial figures are per company disclosure unless noted otherwise.
 
@@ -237,6 +237,9 @@ Framed as the **cross-checks on CoreWeave** — what Nebius tells us about wheth
 **Near-term (0-6 months):**
 - Q2 2026 results (~Aug 2026): ARR and utilization, **operating income ex-marks**, Microsoft/Meta ramp cadence, capex funding mix, any ClickHouse mark changes.
 - Nasdaq-100 passive flows post June-22 inclusion; any asset-backed financing (ABS) issuance against the Microsoft/Meta contracts; ATM usage.
+- **2026-08-19 incremental update — proposed US$4.50B convertible offering.** Per the Form 6-K furnished 2026-08-19 and its Exhibit 99.1 press release: the company announced a proposed Rule 144A private offering of **US$4.50B** aggregate original principal amount of convertible senior notes in two series — **US$2.75B due 2030** and **US$1.75B due 2034** — and expects to grant the initial purchasers an option, for settlement within 13 days from and including first issuance, to purchase up to an additional **US$375M** (2030 Notes) and **US$300M** (2034 Notes). Use of proceeds, in the issuer's own words, names **expenditures related to the construction and build-out of its data centers, investments to develop its full-stack AI cloud, the expansion of its data center footprint, the procurement of key components (including GPUs), and general corporate purposes**. The notes are **senior unsecured** obligations bearing interest semi-annually on original principal, repayable at maturity at original principal plus an accreted amount per an indenture accretion schedule (the Accreted Principal Amount) — though the conversion rate and price are based on original principal. They are not redeemable before 2028-02-21 (2030 Notes) and 2028-08-21 (2034 Notes) except on certain tax-law changes. Concurrently with pricing, the company expects privately negotiated exchanges with a limited number of holders of its **2.00% 2029** and/or **3.00% 2031** convertibles into Class A ordinary shares.
+  - **Limits that must be read alongside this.** This is a **proposed** offering, subject to market and other conditions; the release **discloses no coupon, conversion price, conversion premium, or accretion-schedule figure**, so the cost of capital of this offering cannot be computed from the primary source. The US$375M and US$300M are initial-purchaser **options**, not issued amounts. The exchanges are not a condition of the offering, and the issuer states there can be no assurance any will complete or what aggregate principal, if any, will be exchanged. Beyond naming data-center construction and procurement of key components including GPUs, the use-of-proceeds language also lists "general corporate purposes" alongside them, so proceeds are **not fully earmarked**. This update **recomputes nothing** — no valuation, enterprise value, dilution, or net-cash position; §8's valuation caliber at the 2026-07-30 close of $188.43 is retained unchanged. Recorded for contrast, not re-adjudicated here: July's ~$775M facility was **senior secured** while this is **senior unsecured** convertible paper, and cash was $8,042.1M against non-current debt of $8,499.0M at 2026-06-30. Source: [Nebius Form 6-K Exhibit 99.1 (2026-08-19)](https://www.sec.gov/Archives/edgar/data/1513845/000110465926098590/tm2623513d1_ex99-1.htm).
+  - **What to watch next:** the **pricing terms** of this offering (coupon, conversion price and premium, accretion schedule) and the final **exchange size** — those are what turn a proposed offering into a computable cost of capital and dilution.
 - Customer-concentration and prepayment disclosures.
 
 **Medium-term (6-18 months):**
@@ -249,7 +252,7 @@ Framed as the **cross-checks on CoreWeave** — what Nebius tells us about wheth
 - The GPU credit/residual cycle (read across from CoreWeave).
 - Path to durable GAAP operating profitability and genuine free cash flow after the capex peak.
 
-**Metrics to monitor continuously:** ARR and utilization, operating income ex-marks, customer concentration, capex vs operating cash flow, cash and net-cash position, convertible/ATM dilution, prepayment cadence, and — as the cross-check — the same metrics at CoreWeave.
+**Metrics to monitor continuously:** ARR and utilization, operating income ex-marks, customer concentration, capex vs operating cash flow, cash and net-cash position, convertible/ATM dilution (including the two-series US$4.50B convertible offering announced 2026-08-19 and its pricing terms), prepayment cadence, and — as the cross-check — the same metrics at CoreWeave.
 
 ---
 

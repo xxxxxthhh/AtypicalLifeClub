@@ -1,7 +1,7 @@
 # Marvell Technology（MRVL）深度研究报告
 
 标的收录日期：2026-07-04
-最近更新日期：2026-07-31
+最近更新日期：2026-08-20
 代码：NASDAQ: MRVL
 免责声明：本报告仅用于信息与研究交流，不构成任何投资建议，请自行完成尽职调查。
 
@@ -59,6 +59,10 @@ AI 芯片架构正在从单一 GPU 采购，走向 GPU + custom ASIC + Ethernet 
 Marvell 的优势有三点。
 
 第一，客户项目多元。公开报道涉及 AWS Trainium、Microsoft Maia、Google 等 hyperscaler 机会，降低单一产品线风险。但这些项目的 revenue timing 和份额高度不透明。
+
+> **2026-08-19 增量更新（Google 项目由公开报道升级为一手申报）：** 据 Marvell 于 2026-08-19 提交、最早事项日期 2026-08-18 的 Form 8-K（事项 1.01/3.02/9.01），公司与 Google LLC 已于 **2026 年 7 月 29 日** 就为其开发定制半导体产品（Custom Products）签署商业协议。8-K 表述该扩大后的合作「涵盖依附于 TPU 生态的一整套定制硅项目」，具体列举 **AI 推理加速器、存储控制器、网络接口控制器、内存接口控制器与近内存计算**。作为该合作的一部分，公司于 2026-08-18 向 Google 发行权证，可购买至多 **58,970,907 股**普通股，行权价 **每股 $206.58**；其中 **1,360,867 股**按季于首年等额解锁，**其余份额按 Google 及其关联方（或代其）自 FY2027 Q3 至 FY2033 结束期间的「可自由裁量」（discretionary）采购解锁，共 240 个等额档位，每 5 亿美元 Custom Products 收入解锁一档**。权证自发行日起至 2033-08-18 可行权，依 1933 年证券法第 4(a)(2) 条豁免登记发行。
+>
+> **必须一并读的限制：** 8-K **未披露任何收入、订单、backlog 或采购承诺金额**；解锁档位所依附的采购被发行人自身定性为「可自由裁量」。因此上文的客户项目多元性由公开报道升级为具名的一手事实，**但仍不构成已承诺的客户采购或可确认收入**，本报告不将档位机制换算为任何合计金额。8-K 亦未披露公司对该权证的会计处理（例如是否作为冲减收入列示）；附件 4.1 权证协议的部分证物与附表已依 Regulation S-K 第 601(a)(5) 条省略。上文「revenue timing 和份额高度不透明」的判断因此原样成立。来源：[Marvell Form 8-K（2026-08-19）](https://www.sec.gov/Archives/edgar/data/1835632/000119312526356217/d412696d8k.htm)。
 
 第二，光互连能力更重要。随着机柜功率和集群规模上升，铜互连、传统交换和电信号传输面临限制。800G/1.6T 光 DSP、Celestial AI photonic fabric 和 silicon photonics 使 MRVL 处在 AI 网络升级核心。
 
@@ -169,8 +173,10 @@ MRVL 的估值完全押注未来收入斜率。它不像 Broadcom 有 VMware 现
 | Celestial AI 整合 | 2026-2028 | 判断 photonic fabric 是否进入实际客户 |
 | 800G/1.6T optical 订单 | 每季 | 验证 AI 集群互连瓶颈 |
 | FY2028 展望更新 | 2026H2-2027 | 决定高倍数是否有分母支撑 |
+| Google 采购挂钩权证解锁进度 | FY2027 Q3 起至 FY2033 | 每 5 亿美元 Custom Products 收入解锁一档（共 240 档）；采购由发行人定性为「可自由裁量」，故解锁进度是采购是否真实发生的事后指示，而非事前承诺 |
+| 权证会计处理披露 | FY2027 Q2 起的 10-Q / 10-K | 8-K 未说明该权证是否作为冲减收入列示；这决定 Google 项目的收入将以何种口径进入报表 |
 
-结构化监控字段应关注：custom ASIC design wins、AWS/Microsoft 项目、data center revenue、NVLink Fusion attach、Celestial milestone、optical DSP 订单、forward EV/Sales。
+结构化监控字段应关注：custom ASIC design wins、AWS/Microsoft/Google 项目、data center revenue、NVLink Fusion attach、Celestial milestone、optical DSP 订单、forward EV/Sales。
 
 ## 10. 结论
 
