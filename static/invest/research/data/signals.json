@@ -1,5 +1,54 @@
 [
   {
+    "id": "jinpan-h1-2026-aidc-orders-vs-operating-cash-flow",
+    "date": "2026-08-21",
+    "title": {
+      "zh": "金盘科技 2026 半年报：数据中心新签订单 38.69 亿元（同比 +336.25%）、在手订单 50.92 亿元，同期经营活动现金流净额转负至 -0.24 亿元",
+      "en": "Jinpan Technology H1 2026: data-center new orders of RMB 3.869B (up 336.25% YoY) and RMB 5.092B of data-center backlog, while net operating cash flow turned negative at RMB -23.76M"
+    },
+    "detail": {
+      "zh": "据海南金盘智能科技股份有限公司 2026-08-21 在上交所披露的《2026 年半年度报告》（未经审计，报告期截至 2026-06-30）：营业收入 35.56 亿元（同比 +12.73%）、归母净利 3.03 亿元（+14.23%）、毛利率 27.41%（+1.53 个百分点）；新签订单 74.93 亿元（+69.31%）、期末在手订单 106.97 亿元（+41.87%）。其中数据中心新签订单 38.69 亿元（+336.25%）、收入 12.65 亿元（+122.57%）、在手订单 50.92 亿元（+179.07%）；海外新签订单 41.90 亿元（+270.69%）、收入 14.81 亿元（+68.30%）、在手订单 62.39 亿元（+122.65%）。同期经营活动现金流净额为 -23,762,688.51 元，上年同期 +234,788,194.63 元，同比 -110.12%；发行人归因于订单增长带来的提前备货、原材料锁价预付款及新能源电站项目材料设备付款，并提示营运资金缺口扩大。证据限制：订单和在手订单是发行人口径，报告没有披露交付排期、客户名称或可撤销条款，不能视为确认收入或锁定产能；数据中心与海外口径可能重叠，不可相加。报告仅披露 10kV/2.4MW SST 样机完成设计生产、13.8kV 北美样机送测及研发投入，没有披露 SST 商业订单或确认收入，不能把未披露推断为零。应收及合同资产较期初 +5.91%，与收入同比口径不可直接比较。毛利率改善包含金额未披露的美国关税退款冲减成本，无法拆分其贡献。",
+      "en": "Per Hainan Jinpan Smart Technology's 2026 Semi-Annual Report disclosed through the SSE on 2026-08-21 (unaudited, period ended 2026-06-30), revenue was RMB 3.556B (+12.73% YoY), parent net profit RMB 303M (+14.23%) and gross margin 27.41% (+1.53 points). New orders were RMB 7.493B (+69.31%) and period-end backlog RMB 10.697B (+41.87%). Data-center new orders were RMB 3.869B (+336.25%), revenue RMB 1.265B (+122.57%) and backlog RMB 5.092B (+179.07%); overseas new orders were RMB 4.190B (+270.69%), revenue RMB 1.481B (+68.30%) and backlog RMB 6.239B (+122.65%). Net operating cash flow was RMB -23.76M versus RMB +234.79M a year earlier, down 110.12%; the issuer attributes the swing to advance stocking against higher backlog, raw-material price-lock prepayments and power-station project equipment payments, and says it widened the working-capital gap. Evidence limits: order figures are issuer-defined, with no delivery schedules, named customers or cancellation terms; data-center and overseas categories may overlap and cannot be added. The filing discloses only a completed 10kV/2.4MW SST prototype, a 13.8kV North America prototype sent for testing and R&D spending; it does not disclose SST commercial orders or recognized revenue, and absence of disclosure is not evidence of zero. Receivables plus contract assets rose 5.91% from period start, which is not comparable with year-over-year revenue growth. An undisclosed U.S. tariff refund reduced cost, so its gross-margin contribution cannot be separated."
+    },
+    "crossChecks": [
+      "buildout-orders"
+    ],
+    "tickers": [
+      "688676.SS"
+    ],
+    "reportIds": [
+      "jinpan-2026"
+    ],
+    "monitoringRefs": [
+      "jinpan-2026:aidc-sst-revenue-recognition",
+      "jinpan-2026:receivables-cash-quality"
+    ]
+  },
+  {
+    "id": "nebius-convertible-notes-pricing-upsized-2026-08",
+    "date": "2026-08-19",
+    "title": {
+      "zh": "Nebius 可转债定价并上调规模至 50 亿美元：2030 档票息 0.50%、2034 档 4.50%，预计净募资约 49.4 亿美元，2026-08-24 交割",
+      "en": "Nebius prices and upsizes its convertible offering to US$5.0B: 0.50% 2030 notes and 4.50% 2034 notes, estimated net proceeds about US$4.94B, settlement expected 2026-08-24"
+    },
+    "detail": {
+      "zh": "据 Nebius Group N.V. 于 2026-08-20 提交的 Form 6-K 及其附件 99.1 新闻稿（新闻稿标注发布日为 2026-08-19）：公司宣布其可转换优先票据私募发行已完成定价，原始本金总额由此前公告的 45.0 亿美元上调至 50.0 亿美元，分两档——30.0 亿美元 0.50% 票息、2030 年 2 月 15 日到期；20.0 亿美元 4.50% 票息、2034 年 2 月 15 日到期，依 Rule 144A 面向合格机构买家发行。发行预计于 2026-08-24 交割，以惯常交割条件为前提。公司另授予初始购买人在票据首次发行日起 13 天内额外购买至多 4.50 亿美元（2030 档）与 3.00 亿美元（2034 档）的选择权。公司估计本次发行净募资约 49.4 亿美元（若初始购买人全额行使选择权则约 56.8 亿美元），系扣除初始购买人折扣、佣金及预计发行费用后的口径。2030 档初始转换率为每 1,000 美元原始本金 3.1902 股 A 类普通股，对应初始转换价约 313.46 美元，较 2026-08-19 纳斯达克收盘价 223.90 美元溢价约 40.0%；2034 档初始转换率为 3.0802 股，对应初始转换价约 324.65 美元，溢价约 45.0%。票据到期应付原始本金加按契约增值表计算的增值额，2030 档增值至原始本金的 110%、2034 档增值至 125%；计入到期增值额后，发行人披露的有效转换价为 2030 档约 344.81 美元（有效溢价约 54.0%）、2034 档约 405.82 美元（有效溢价约 81.3%）。募集资金用途按发行人原文：为业务持续增长提供资金，包括数据中心建设与扩建相关支出、发展全栈 AI 云的投资、数据中心版图扩张、含 GPU 在内的关键部件采购，以及一般公司用途。公司同时与少数 2029 年 2.00% 及 2031 年 3.00% 存量可转债持有人达成换股协议，以合计约 1,580 万股 A 类普通股换取 4.00 亿美元 2029 年票据与 4.00 亿美元 2031 年票据的原始本金，换股交易亦预计于 2026-08-24 前后交割；发行人明确本次票据发行的完成不以换股交易的完成为前提。证据限制：交割尚未发生，仍以惯常交割条件为前提；4.50 亿与 3.00 亿美元为初始购买人选择权而非已发行金额；发行人未在本新闻稿中重述其「2026 年资本开支 >90% 已锁定」的口径，故本条不构成对该覆盖率的重新验证；发行人亦未披露本次发行的到期收益率，上述票息、增值比例与有效转换价均按发行人原文记录，未据以推算综合资金成本。本条不重算估值、企业价值、稀释或净现金头寸。",
+      "en": "Per the Form 6-K furnished by Nebius Group N.V. on 2026-08-20 and its Exhibit 99.1 press release (the release is dated 2026-08-19): the company announced the pricing of its private offering of convertible senior notes, upsized from the previously announced US$4.50B to US$5.00B aggregate original principal amount, in two series — US$3.00B of 0.50% notes due February 15, 2030 and US$2.00B of 4.50% notes due February 15, 2034 — offered to qualified institutional buyers under Rule 144A. The issuance and sale are expected to settle on August 24, 2026, subject to customary closing conditions. The company also granted the initial purchasers an option, exercisable within 13 days of first issuance, to buy up to an additional US$450M of 2030 notes and US$300M of 2034 notes. The company estimates net proceeds of approximately US$4.94B (or approximately US$5.68B if the initial purchasers fully exercise their option), after deducting initial purchasers' discounts and commissions and estimated offering expenses. The initial conversion rate for the 2030 notes is 3.1902 Class A ordinary shares per US$1,000 of original principal, an initial conversion price of about US$313.46, a premium of approximately 40.0% over the US$223.90 last reported Nasdaq sale price on August 19, 2026; the 2034 notes convert at 3.0802 shares, an initial conversion price of about US$324.65, a premium of approximately 45.0%. The notes are repayable at maturity at original principal plus an accreted amount per an indenture accretion schedule, reaching 110% of original principal for the 2030 notes and 125% for the 2034 notes; taking that accretion into account, the issuer discloses effective conversion prices of about US$344.81 for the 2030 notes (an effective premium of approximately 54.0%) and about US$405.82 for the 2034 notes (approximately 81.3%). Use of proceeds, in the issuer's own words, is to finance the continuing growth of its business, including expenditures related to the construction and build-out of its data centers, investments to develop its full-stack AI cloud, the expansion of its data center footprint, the procurement of key components (including GPUs), and general corporate purposes. Concurrently the company entered into exchange agreements with a limited number of holders of its 2.00% 2029 and 3.00% 2031 convertibles, exchanging US$400M of original principal of the 2029 notes and US$400M of the 2031 notes for an aggregate of approximately 15.8 million Class A ordinary shares, with those exchanges also expected to settle on or about August 24, 2026; the issuer states the notes offering is not contingent on completion of the exchanges. Evidence limits: settlement has not yet occurred and remains subject to customary closing conditions; the US$450M and US$300M are initial-purchaser options, not issued amounts; the issuer does not restate its '>90% secured' 2026 capex caliber in this release, so this entry is not a re-verification of that coverage ratio; and the issuer discloses no yield to maturity, so the coupons, accretion percentages and effective conversion prices above are recorded as the issuer states them and are not used here to derive an all-in cost of capital. This entry does not recompute valuation, enterprise value, dilution or the net cash position."
+    },
+    "crossChecks": [
+      "neocloud-financing"
+    ],
+    "tickers": [
+      "NBIS"
+    ],
+    "reportIds": [
+      "nebius-2026"
+    ],
+    "monitoringRefs": [
+      "nebius-2026:funding-durability"
+    ]
+  },
+  {
     "id": "nebius-convertible-senior-notes-offering-2026-08",
     "date": "2026-08-19",
     "title": {

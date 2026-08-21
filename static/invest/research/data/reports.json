@@ -1648,7 +1648,7 @@
     "priceSymbol": "NBIS",
     "title": "Nebius Group 深度研究报告 - neocloud 的『干净对照组』：对 CoreWeave 风险锚的架构校验",
     "titleEn": "Nebius Group Deep Research Report - The 'Clean' Neocloud: An Architecture Check on the CoreWeave Risk Anchor",
-    "summary": "2026-08-13 监测更新：Nebius 2026 年二季度收入 $582.3M（同比 +454%）、调整后 EBITDA $236.2M，持续经营净亏损 -$190.4M，单季资本开支 $5,657.4M。2026-06-30 现金 $8,042.1M 对非流动债务 $8,499.0M，已由近净现金转为近净债务持平；两份 6-K 均未重述 ARR、客户收入占比或利用率。因此 model-vs-balance-sheet 与 concentration-convergence 均严格判为 unclear；集中度触发条件同步改为对照 CoreWeave 当前“前两大客户 62%”画像。此次仅更新监测事实；未重算估值，谨慎／中确信仍沿用 2026-07-30 收盘 $188.43 的完整裁定。",
+    "summary": "2026-08-21 监测更新：Nebius 将可转债定价并上调至原始本金 $5.0B，预计净募资约 $4.94B、2026-08-24 交割；发行仍以惯常交割条件为前提，且公司未重述 2026 年资本开支“>90% 已锁定”的覆盖率，因此 funding-durability 仍为 unclear。此次仅更新融资监测事实；未重算估值、稀释或净现金，谨慎／中确信仍沿用 2026-07-30 收盘 $188.43 的完整裁定。",
     "tags": [
       "AI云",
       "AI基础设施",
@@ -1657,7 +1657,7 @@
     ],
     "category": "tech",
     "date": "2026-07-01",
-    "lastUpdate": "2026-08-20",
+    "lastUpdate": "2026-08-21",
     "file": "/invest/research/reports/view.html?id=nebius-2026",
     "markdownFiles": {
       "zh": "/invest/research/Nebius_深度研究报告_2026-07.md",
@@ -1671,9 +1671,9 @@
       "2026Q2 收入 $582.3M（同比 +454%）、调整后 EBITDA $236.2M，持续经营净亏损 -$190.4M",
       "单季资本开支 $5,657.4M；现金 $8,042.1M 对非流动债务 $8,499.0M，约为净债务持平",
       "两份 6-K 均未重述 ARR、客户收入占比或利用率，不能用收入增长替代触发条件",
-      "监测：model-vs-balance-sheet、earnings-quality-ex-marks、concentration-convergence 均 unclear"
+      "可转债已定价并上调至 $5.0B，但尚未交割且未重述资本开支覆盖率；funding-durability 仍为 unclear"
     ],
-    "summaryEn": "August 13, 2026 monitoring update: Nebius reported Q2 2026 revenue of $582.3M (+454% YoY), adjusted EBITDA of $236.2M, a continuing-operations net loss of $190.4M and quarterly capex of $5,657.4M. At June 30, 2026, cash of $8,042.1M sat against non-current debt of $8,499.0M, shifting the balance sheet from near net cash to approximately net-debt-flat. Neither Form 6-K restated ARR, customer revenue shares or utilization. Model-vs-balance-sheet and concentration-convergence are therefore strictly unclear; the concentration trigger is also corrected to compare against CoreWeave's current 62% top-two-customer profile. This is a monitoring-only update; valuation was not recomputed, and cautious / medium conviction remains the full adjudication anchored to the July 30, 2026 close of $188.43.",
+    "summaryEn": "August 21, 2026 monitoring update: Nebius priced and upsized its convertible notes to US$5.0B of original principal, with estimated net proceeds of about US$4.94B and settlement expected August 24. Settlement remains subject to customary closing conditions, and the company did not restate the '>90% secured' coverage of 2026 capex, so funding-durability remains unclear. This is a financing-monitoring update only; valuation, dilution and net cash were not recomputed, and cautious / medium conviction remains the full adjudication anchored to the July 30, 2026 close of US$188.43.",
     "chainLayer": "demand-risk",
     "coverageTier": "full",
     "chainRole": "architecture-check",
@@ -1761,8 +1761,8 @@
           "en": "the '>90% secured' 2026 capex ($20-25B, ~7x revenue) breaks in a tighter capital market"
         },
         "latest": {
-          "zh": "2026-08-19 提交的 Form 6-K 及附件 99.1 新闻稿：Nebius 宣布拟私募发行原始本金总额 45.0 亿美元可转换优先票据，分 2030 年到期 27.5 亿与 2034 年到期 17.5 亿两档，依 Rule 144A 面向合格机构买家；另预计授予初始购买人选择权，可在首次发行日起 13 天内额外购买至多 3.75 亿（2030 档）与 3.00 亿（2034 档）美元。募集资金用途按发行人原文点名：数据中心建设与扩建支出、全栈 AI 云投资、数据中心版图扩张、含 GPU 在内的关键部件采购，以及一般公司用途。票据为优先无担保债务，到期应付原始本金加按契约增值表计算的增值额；公司并预期在定价同时与少数 2029 年 2.00% / 2031 年 3.00% 存量可转债持有人私下协商，以 A 类普通股换取部分存量可转债。评级：unclear。本项触发条件问的是『>90% 已覆盖』的 2026 年资本开支口径（$200-250 亿，约 7 倍收入）是否在更紧的资本市场中破裂；拟发行公告显示公司正在寻求新增外部资金，但在票息、转换价、增值表、最终规模与交割均未知时，既不能证明资本开支资金框架仍然成立，也不能证明已经破裂。证据限制：这是**拟发行公告**，以市场及其他条件为前提；新闻稿未披露票息、转换价、转换溢价或增值表数值，故资金成本无法从一手源计算；3.75 亿与 3.00 亿美元是初始购买人**选择权**而非已发行金额；换股交易非本次发行前提，发行人明确表示无法保证完成或确定规模。并列语境（本次不据以改判）：2026-06-30 现金 $8,042.1M 对非流动债务 $8,499.0M，7 月的约 $775M 为**优先有担保**贷款，本次为**优先无担保**可转债。此前口径保留：2026-07-17 首笔优先有担保贷款（~$775M，SOFR+2.50%，2030-10-31 到期，以已部署 GPU 与一家未具名投资级客户的合约现金流为支持）。",
-          "en": "Form 6-K furnished 2026-08-19 and its Exhibit 99.1 press release: Nebius announced a proposed Rule 144A private offering of US$4.50B aggregate original principal amount of convertible senior notes in two series — US$2.75B due 2030 and US$1.75B due 2034 — and expects to grant the initial purchasers an option to buy up to an additional US$375M (2030) and US$300M (2034) within 13 days of first issuance. Use of proceeds, in the issuer's own words, names expenditures related to the construction and build-out of its data centers, investments to develop its full-stack AI cloud, the expansion of its data center footprint, the procurement of key components (including GPUs), and general corporate purposes. The notes are senior unsecured obligations repayable at maturity at original principal plus an accreted amount per an indenture accretion schedule; concurrently with pricing the company expects privately negotiated exchanges with a limited number of holders of its 2.00% 2029 and/or 3.00% 2031 convertibles into Class A shares. Reading: unclear. This item's trigger asks whether the '>90% secured' 2026 capex frame ($20-25B, ~7x revenue) breaks in a tighter capital market. The proposed offering shows that the company is seeking another external funding source, but with the coupon, conversion price, accretion schedule, final size and settlement all unknown, it establishes neither that the capex funding frame still holds nor that it has broken. Evidence limits: this is a **proposed** offering subject to market and other conditions; the release discloses no coupon, conversion price, conversion premium or accretion-schedule figure, so the cost of capital cannot be computed from the primary source; the US$375M and US$300M are initial-purchaser **options**, not issued amounts; and the exchanges are not a condition of the offering, with the issuer stating there can be no assurance any will complete or what amount will be exchanged. Context recorded but not re-adjudicated here: cash of $8,042.1M against non-current debt of $8,499.0M at 2026-06-30, and July's ~$775M facility was **senior secured** while this is **senior unsecured** convertible paper. Prior caliber retained: the 2026-07-17 first senior secured facility (~$775M, SOFR+2.50%, due 2030-10-31, backed by deployed GPU infrastructure and an unnamed investment-grade customer's contracted cash flows)."
+          "zh": "2026-08-20 提交的 Form 6-K 及附件 99.1 新闻稿（新闻稿日期 2026-08-19）：Nebius 将可转换优先票据定价并由原始本金 45.0 亿美元上调至 50.0 亿美元，分为 30.0 亿美元 0.50% 票息 2030 年到期与 20.0 亿美元 4.50% 票息 2034 年到期两档；预计 2026-08-24 交割（以惯常交割条件为前提），估计净募资约 49.4 亿美元。2030/2034 档初始转换价约 $313.46/$324.65，较 2026-08-19 收盘 $223.90 溢价约 40%/45%；公司另签订换股协议，以约 1,580 万股换取两档存量可转债各 4.00 亿美元原始本金。评级：unclear。定价和扩大发行规模证明公司仍可进入资本市场，但交割尚未发生，50 亿美元仅是 $200-250 亿 2026 年资本开支的一部分，募集用途也包括一般公司用途，且发行人没有重述“>90% 已锁定”的覆盖率。因此本次证据既不能证明该资金框架已经失效，也不足以重新验证其仍然成立。选择权额度不是已发行金额，发行人也未披露到期收益率；本次不重算估值、稀释或净现金，保留 2026-07-30 收盘 $188.43 的历史估值边界。",
+          "en": "Form 6-K furnished 2026-08-20 with Exhibit 99.1 dated 2026-08-19: Nebius priced and upsized its convertible senior notes from US$4.50B to US$5.00B of original principal, split between US$3.00B of 0.50% notes due 2030 and US$2.00B of 4.50% notes due 2034. Settlement is expected August 24 subject to customary closing conditions, with estimated net proceeds of about US$4.94B. Initial conversion prices of about US$313.46 and US$324.65 represent roughly 40% and 45% premia to the August 19 close of US$223.90; separate exchange agreements cover US$400M of original principal in each legacy note series for about 15.8M shares. Reading: unclear. Pricing and upsizing demonstrate continued market access, but settlement has not occurred, US$5.0B covers only part of the US$20-25B 2026 capex program, proceeds also include general corporate purposes, and the issuer did not restate the '>90% secured' coverage. The evidence therefore neither proves that the funding frame has broken nor re-verifies that it remains intact. Option amounts are not issued principal and no yield to maturity is disclosed. Valuation, dilution and net cash are not recomputed; the historical valuation boundary remains the July 30, 2026 close of US$188.43."
         },
         "nextCheck": "额外资产级融资；提款/契约/费用披露；ATM 使用与预付款节奏 / additional asset-level facilities; drawdown, covenant and fee disclosures; ATM use and prepayment cadence",
         "reading": "unclear",
@@ -5380,7 +5380,7 @@
     "priceSymbol": "688676.SS",
     "title": "金盘科技深度研究报告 - AI电力设备的高估值兑现考验",
     "titleEn": "Jinpan Technology Deep Research Report - AI Power Equipment Execution at a Demanding Valuation",
-    "summary": "2026-06-23完整重跑版、价格锚点更新至2026-07-31：金盘科技2026Q1营收约15.23亿元（+13.4%），归母净利约1.12亿元（+4.8%）；AIDC和SST仍是核心成长线索。按2026-07-31收盘64.30元、总股本约4.60亿股计，市值约296亿元，Q1年化P/E约66x、P/S约4.9x。7月回撤使乐观情景重新具备上行、悲观情景跌幅收窄，但66x仍远高于制造业区间且三项现金验证未到位，结论维持中性/观察。",
+    "summary": "2026-08-21 半年报监测更新：金盘科技 H1 2026 营收 35.56 亿元（同比 +12.73%）、归母净利 3.03 亿元（+14.23%）；数据中心收入 12.65 亿元（+122.57%）、期末在手订单 50.92 亿元，但 SST 仍仅披露样机与研发进展。同期经营现金流转为 -0.24 亿元，应收及合同资产较期初 +5.91%，回款质量尚不能判定，因此相关读数均为 unclear。估值没有重算；中性／观察、中确信仍沿用 2026-07-31 收盘 64.30 元的历史裁定。",
     "tags": [
       "电力设备",
       "AI数据中心",
@@ -5389,19 +5389,19 @@
     ],
     "category": "tech",
     "date": "2026-02-03",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-21",
     "file": "/invest/research/reports/view.html?id=jinpan-2026",
     "markdownFiles": {
       "zh": "/invest/research/金盘科技_深度研究报告_20260204.md",
       "en": "/invest/research/Jinpan_Technology_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "2026Q1营收约15.23亿元（+13.4%），归母净利约1.12亿元（+4.8%）",
-      "AIDC、SST和海外扩张仍是中长期成长线索，但需要收入确认和回款验证",
-      "2026-07-31收盘64.30元、市值约296亿元，Q1年化P/E约66x、P/S约4.9x",
-      "结论维持中性/观察：回撤改善了赔率，但估值仍高于制造业区间、现金流验证未到位"
+      "H1 2026 营收 35.56 亿元（+12.73%），归母净利 3.03 亿元（+14.23%）",
+      "数据中心收入 12.65 亿元（+122.57%）、在手订单 50.92 亿元；SST 仅见样机与研发披露",
+      "经营现金流 -0.24 亿元；应收及合同资产较期初 +5.91%，回款验证仍不完整",
+      "估值未重算：中性/观察、中确信仍是 2026-07-31 收盘 64.30 元的历史裁定"
     ],
-    "summaryEn": "June 23, 2026 full rerun with the price anchor updated to 2026-07-31: Jinpan reported roughly RMB 1.52B of Q1 2026 revenue (+13.4%) and RMB 112M of parent net profit (+4.8%). AIDC and SST remain the growth story. At the RMB 64.30 close on 2026-07-31 and about 460M shares, market cap is roughly RMB 29.6B, Q1-annualized P/E about 66x and P/S about 4.9x. The July drawdown restores real headroom to the upside scenario and narrows the downside, but 66x is still far above the manufacturing band and none of the three cash validations has landed, so the stance stays neutral/watchlist.",
+    "summaryEn": "August 21, 2026 H1 monitoring update: Jinpan reported H1 2026 revenue of RMB 3.556B (+12.73% YoY) and parent net profit of RMB 303M (+14.23%). Data-center revenue reached RMB 1.265B (+122.57%) with RMB 5.092B of period-end backlog, while SST disclosure remains limited to prototypes and R&D progress. Operating cash flow turned negative at RMB 23.76M and receivables plus contract assets rose 5.91% from period start; collection quality therefore remains unestablished and both relevant readings are unclear. Valuation was not recomputed; neutral/watch, medium conviction remains the historical adjudication anchored to the July 31, 2026 close of RMB 64.30.",
     "period": "2026H1",
     "versionType": "full-cycle",
     "versionLabel": "2026H1 Full Rerun",
@@ -5422,7 +5422,7 @@
     "coverageTier": "full",
     "stance": "neutral-watch",
     "priceAsOf": "2026-07-31",
-    "reportedPeriod": "Q1 2026",
+    "reportedPeriod": "H1 2026",
     "monitoring": [
       {
         "id": "aidc-sst-revenue-recognition",
@@ -5437,11 +5437,13 @@
           "en": "AIDC, SST, and overseas expansion convert into recognized revenue"
         },
         "latest": {
-          "zh": "Q1 2026 营收约 15.23 亿元（+13.4%）、归母净利约 1.12 亿元（+4.8%）",
-          "en": "Q1 2026 revenue ~RMB1.523B (+13.4%), parent net ~RMB112M (+4.8%)"
+          "zh": "2026-08-21 披露的《2026 年半年度报告》（未经审计，报告期截至 2026-06-30）：数据中心新签订单 38.69 亿元（同比 +336.25%）、收入 12.65 亿元（+122.57%）、期末在手订单 50.92 亿元（+179.07%）；海外新签订单 41.90 亿元（+270.69%）、收入 14.81 亿元（+68.30%）、期末在手订单 62.39 亿元（+122.65%）。公司整体收入 35.56 亿元（+12.73%），在手订单 106.97 亿元（+41.87%）。评级：unclear。AIDC 与海外已有确认收入，但半年报对 SST 仅披露 10kV/2.4MW 样机完成设计生产、13.8kV 北美样机送测及研发投入，没有披露 SST 商业订单或确认收入；缺少披露不能推断为零。订单和在手订单是发行人口径，报告未披露交付排期、客户名称或可撤销条款，不能视为已确认收入或锁定产能；数据中心与海外口径可能重叠，不可相加。",
+          "en": "The 2026 Semi-Annual Report disclosed 2026-08-21 (unaudited, period ended 2026-06-30) reports data-center new orders of RMB 3.869B (+336.25% YoY), revenue of RMB 1.265B (+122.57%) and period-end backlog of RMB 5.092B (+179.07%); overseas new orders were RMB 4.190B (+270.69%), revenue RMB 1.481B (+68.30%) and backlog RMB 6.239B (+122.65%). Company-wide revenue was RMB 3.556B (+12.73%) and backlog RMB 10.697B (+41.87%). Reading: unclear. AIDC and overseas expansion produced recognized revenue, but the filing discloses only a completed 10kV/2.4MW SST prototype, a 13.8kV North America prototype sent for testing and R&D spending; it does not disclose SST commercial orders or recognized revenue, and absence of disclosure is not evidence of zero. Orders and backlog are issuer-defined, with no delivery schedule, named customers or cancellation terms, and the data-center and overseas categories may overlap."
         },
-        "nextCheck": "2026 半年报 / H1 report",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "2026 年三季度报告 / 2026 Q3 report",
+        "nextCheckDate": "2026-10",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-21"
       },
       {
         "id": "receivables-cash-quality",
@@ -5456,11 +5458,13 @@
           "en": "receivables collection and operating cash flow fail verification"
         },
         "latest": {
-          "zh": "重跑结论强调收入确认与回款验证要求提高",
-          "en": "the rerun stresses higher bars for recognition and collections"
+          "zh": "2026-08-21 披露的半年报：经营活动现金流净额为 -23,762,688.51 元，上年同期为 +234,788,194.63 元，同比 -110.12%；发行人称转负扩大了营运资金缺口并阶段性抬升资金调配压力。应收账款及合同资产为 33.62 亿元，较期初 +5.91%；合同负债 7.12 亿元（较上年末 +36.31%），货币资金 -34.62%，短期借款 +90.76%。评级：unclear。现金流验证不达标，但 +5.91% 是半年环比口径，不能与收入同比直接比较，且报告未披露应收周转天数，因此触发条件中的回款质量一侧尚不能判定；这不足以在没有完整当前估值和立场复核时落为 breached。",
+          "en": "The semi-annual report disclosed 2026-08-21 shows net operating cash flow of RMB -23.76M versus RMB +234.79M a year earlier, down 110.12%; the issuer says the swing widened its working-capital gap and temporarily raised funding-allocation pressure. Receivables plus contract assets were RMB 3.362B, up 5.91% from period start; contract liabilities were RMB 712M (+36.31% from year-end), cash fell 34.62% and short-term borrowings rose 90.76%. Reading: unclear. Cash-flow verification failed, but the 5.91% receivables measure is half-over-half and not comparable with revenue growth on a year-over-year basis, and no receivable-days figure is disclosed. The collection-quality half of the trigger is therefore unestablished, which is insufficient to record breached without a complete current valuation and stance review."
         },
-        "nextCheck": "半年报现金流 / H1 cash flow",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "2026 年三季度报告的回款与经营现金流 / collections and operating cash flow in the 2026 Q3 report",
+        "nextCheckDate": "2026-10",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-21"
       },
       {
         "id": "annualized-pe",
@@ -5475,11 +5479,10 @@
           "en": "the ~88x annualized-Q1 P/E compresses if growth disappoints"
         },
         "latest": {
-          "zh": "2026-07-31 估值重锚：688676.SS 收盘 RMB 64.30（较 2026-07-07 旧锚点 RMB 82.22 跌约 21.8%）；按 Q1 年化口径，市值约 RMB 29.6B（旧口径约 RMB 38.4-39.5B），年化 P/E 约 66x（旧口径约 85-88x）、P/S 约 4.9x（旧口径约 6.3-6.5x）。66x 仍远高于 15-25x 制造业区间，且大额 SST 订单、应收账款回收、经营现金流转正三项验证均尚未出现。立场维持 neutral watch / 中确信；半年报是下一个检验点。",
-          "en": "2026-07-31 valuation re-anchor: 688676.SS closed at RMB 64.30 (about -21.8% from the old 2026-07-07 anchor of RMB 82.22); on the Q1-annualized basis, market cap is about RMB 29.6B (old caliber about RMB 38.4-39.5B), annualized P/E is about 66x (old caliber about 85-88x) and P/S is about 4.9x (old caliber about 6.3-6.5x). 66x is still well above the 15-25x manufacturing band, and none of the three validations -- large SST orders, receivable collection, operating cash flow turning positive -- has yet arrived. Stance stays neutral watch / medium conviction; the H1 report is the next test."
+          "zh": "历史估值快照（2026-07-31）：收盘 RMB 64.30、市值约 RMB 29.6B，按 Q1 年化口径 P/E 约 66x、P/S 约 4.9x。2026 H1 实际业绩已经取代 Q1 年化分母，但本次监测更新没有使用当前价格、最新股本和 H1 分母完成估值重建，因此不得把该倍数当作当前值，也不据此改变中性／观察、中确信立场。",
+          "en": "Historical valuation snapshot (2026-07-31): close RMB 64.30, market cap about RMB 29.6B, with a Q1-annualized P/E of about 66x and P/S of about 4.9x. Actual H1 2026 results now supersede the Q1-annualized denominator, but this monitoring update does not perform a current-price valuation rebuild using the latest share count and H1 denominator. The multiple must not be treated as current and does not change the neutral/watch, medium-conviction stance."
         },
-        "nextCheck": "半年报 / H1 report",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "完整 H1 当前价格估值重建 / full H1 current-price valuation rebuild"
       }
     ],
     "conviction": "medium",

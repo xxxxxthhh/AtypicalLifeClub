@@ -6,18 +6,25 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>Nebius Group 深度研究报告 - neocloud 的『干净对照组』：对 CoreWeave 风险锚的架构校验 / Nebius Group Deep Research Report - The 'Clean' Neocloud: An Architecture Check on the CoreWeave Risk Anchor</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=nebius-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=nebius-2026#nebius-2026@2026-08-21</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
+      <description>2026-08-21 监测更新：Nebius 将可转债定价并上调至原始本金 $5.0B，预计净募资约 $4.94B、2026-08-24 交割；发行仍以惯常交割条件为前提，且公司未重述 2026 年资本开支“&gt;90% 已锁定”的覆盖率，因此 funding-durability 仍为 unclear。此次仅更新融资监测事实；未重算估值、稀释或净现金，谨慎／中确信仍沿用 2026-07-30 收盘 $188.43 的完整裁定。</description>
+    </item>
+    <item>
+      <title>金盘科技深度研究报告 - AI电力设备的高估值兑现考验 / Jinpan Technology Deep Research Report - AI Power Equipment Execution at a Demanding Valuation</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=jinpan-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=jinpan-2026#jinpan-2026@2026-08-21</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
+      <description>2026-08-21 半年报监测更新：金盘科技 H1 2026 营收 35.56 亿元（同比 +12.73%）、归母净利 3.03 亿元（+14.23%）；数据中心收入 12.65 亿元（+122.57%）、期末在手订单 50.92 亿元，但 SST 仍仅披露样机与研发进展。同期经营现金流转为 -0.24 亿元，应收及合同资产较期初 +5.91%，回款质量尚不能判定，因此相关读数均为 unclear。估值没有重算；中性／观察、中确信仍沿用 2026-07-31 收盘 64.30 元的历史裁定。</description>
+    </item>
+    <item>
       <title>Marvell Technology 深度研究报告 - Broadcom 之外的 custom ASIC 与光互连架构校验 / Marvell Technology Deep Research Report - Custom ASIC and Optical Interconnect Check Beyond Broadcom</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=marvell-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=marvell-2026#marvell-2026@2026-08-20</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
       <description>2026-07-31 立场重新裁定：MRVL 收于 $183.30（2026-07-30），较 07-29 低点反弹 +12.2%、较 7 月 2 日锚点仍 −25.3%，市值约 $160.5B、EV 约 $161.9B。按报告自身收入情景，EV/Sales 约 14.1x（FY2027 $11.5B）、约 9.8x（FY2028 $16.5B）。按所有者 Q1 裁定复核：约 14.1x 前瞻销售额（分母本身是上调后的展望）仍在预付 FY2027 干净落地，负预期差以减弱形式成立，维持谨慎/中确信；custom ASIC 转化与光互连 attach 待 2026-08-27 业绩验证，网格权重保留。</description>
-    </item>
-    <item>
-      <title>Nebius Group 深度研究报告 - neocloud 的『干净对照组』：对 CoreWeave 风险锚的架构校验 / Nebius Group Deep Research Report - The 'Clean' Neocloud: An Architecture Check on the CoreWeave Risk Anchor</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=nebius-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=nebius-2026#nebius-2026@2026-08-20</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
-      <description>2026-08-13 监测更新：Nebius 2026 年二季度收入 $582.3M（同比 +454%）、调整后 EBITDA $236.2M，持续经营净亏损 -$190.4M，单季资本开支 $5,657.4M。2026-06-30 现金 $8,042.1M 对非流动债务 $8,499.0M，已由近净现金转为近净债务持平；两份 6-K 均未重述 ARR、客户收入占比或利用率。因此 model-vs-balance-sheet 与 concentration-convergence 均严格判为 unclear；集中度触发条件同步改为对照 CoreWeave 当前“前两大客户 62%”画像。此次仅更新监测事实；未重算估值，谨慎／中确信仍沿用 2026-07-30 收盘 $188.43 的完整裁定。</description>
     </item>
     <item>
       <title>MiniMax Group 深度研究报告 - 应用层需求验证与高估值压力测试 / MiniMax Group Deep Research Report - Application-Layer Demand Validation and Valuation Stress Test</title>
@@ -403,13 +410,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=copx-2026#copx-2026@2026-07-31</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
       <description>2026-07-31 重新锚定：COPX 于 2026-07-30 收于 $79.50（较前一锚点 +1.3%）。全球最大纯铜矿ETF。2026-06-25 增量更新：AUM增至$79.9亿(+8%)，加权P/E从30-35x压缩至17.74x（盈利兑现）。铜价突破二月bull case上沿至~$13,531/吨($6.14/lb)，但price基本持平反映关税不确定性。YTD回报从+20.14%回落至+5.45%。COMEX溢价和232条款审查是短期核心变量。</description>
-    </item>
-    <item>
-      <title>金盘科技深度研究报告 - AI电力设备的高估值兑现考验 / Jinpan Technology Deep Research Report - AI Power Equipment Execution at a Demanding Valuation</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=jinpan-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=jinpan-2026#jinpan-2026@2026-07-31</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <description>2026-06-23完整重跑版、价格锚点更新至2026-07-31：金盘科技2026Q1营收约15.23亿元（+13.4%），归母净利约1.12亿元（+4.8%）；AIDC和SST仍是核心成长线索。按2026-07-31收盘64.30元、总股本约4.60亿股计，市值约296亿元，Q1年化P/E约66x、P/S约4.9x。7月回撤使乐观情景重新具备上行、悲观情景跌幅收窄，但66x仍远高于制造业区间且三项现金验证未到位，结论维持中性/观察。</description>
     </item>
     <item>
       <title>SanDisk 深度研究报告 - FY2026 重跑前归档版 / SanDisk Deep Research Report - FY2026 Pre-rerun Archive</title>
