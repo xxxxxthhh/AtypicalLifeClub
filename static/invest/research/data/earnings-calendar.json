@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-08-19",
+  "asOf": "2026-08-22",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -274,11 +274,11 @@
       "company": "Salesforce",
       "expectedDate": "2026-08-26",
       "precision": "day",
-      "status": "estimated",
-      "session": "unspecified",
-      "sourceUrl": "https://www.nasdaq.com/market-activity/stocks/crm/earnings",
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-08-19"
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-Second-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/default.aspx",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-08-22"
     },
     {
       "reportId": "coinbase-2026",
