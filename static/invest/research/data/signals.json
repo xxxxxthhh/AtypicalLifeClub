@@ -1774,5 +1774,30 @@
       "applied-materials-2026:china-taiwan-exposure",
       "applied-materials-2026:supply-chain-readiness"
     ]
+  },
+  {
+    "id": "aaoi-new-atm-capacity-and-post-quarter-issuance-2026-08",
+    "date": "2026-08-21",
+    "title": {
+      "zh": "AAOI 新设最高 $600M ATM；5 月 ATM 在 6 月 30 日后已售出 332,428 股",
+      "en": "AAOI establishes up to $600M of new ATM capacity as the May ATM sells 332,428 shares after June 30"
+    },
+    "detail": {
+      "zh": "据 Applied Optoelectronics 2026-08-21 提交的 Form 8-K（accession 0001104659-26-099688）、Equity Distribution Agreement 附件及 Form 424B5（accession 0001104659-26-099685）：公司可不时通过 Raymond James 与 Needham 出售最高 $600M 普通股，代理佣金最高为总售价的 2.0%；只有公司发出 placement notice 后才产生具体配售义务，公司可暂停销售或终止协议，因此未用额度不是已执行稀释。424B5 另披露，5 月 ATM 在 2026-06-30 后已售出 332,428 股、总收款约 $49.2M；2026-08-20 流通股为 84,906,289 股。文件按 $129.10 假设价计算的全额 $600M 发行对应约 4.65M 股、约为当前流通股的 5.5%，但这是全额使用假设，不是已发行股份。该读数进一步确认 AAOI 的融资与稀释腿仍在扩张，却不证明新额度会被使用，也不证明新增产能已有订单或经营现金流支持；`cash-burn-dilution` 因 H1 现金流为负、推导 Q2 单季为正而维持 `unclear`，立场与确信度不变。",
+      "en": "Per Applied Optoelectronics' Form 8-K filed August 21, 2026 (accession 0001104659-26-099688), the attached Equity Distribution Agreement and Form 424B5 (accession 0001104659-26-099685), the company may sell up to $600M of common stock from time to time through Raymond James and Needham at commissions of up to 2.0% of gross sales. A particular placement obligation arises only after the company delivers a placement notice, and the company may suspend sales or terminate the agreement, so unused capacity is not executed dilution. The 424B5 separately discloses that the May ATM sold 332,428 shares after June 30 for about $49.2M of gross proceeds and that 84,906,289 shares were outstanding on August 20. Full use of $600M at the filing's assumed $129.10 price equates to about 4.65M shares, roughly 5.5% of current shares, but that is a full-utilization assumption rather than issued stock. The reading further confirms AAOI's financing-and-dilution leg is expanding, but does not establish that the new capacity will be used or that capacity additions are supported by orders or operating cash flow. `cash-burn-dilution` remains `unclear` because H1 cash flow was negative while derived Q2-only cash flow was positive; stance and conviction are unchanged."
+    },
+    "crossChecks": [
+      "chip-vs-downstream"
+    ],
+    "tickers": [
+      "AAOI"
+    ],
+    "reportIds": [
+      "aaoi-2026"
+    ],
+    "monitoringRefs": [
+      "aaoi-2026:cash-burn-dilution",
+      "aaoi-2026:valuation-tolerance"
+    ]
   }
 ]

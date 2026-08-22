@@ -2728,8 +2728,8 @@
     "priceSymbol": "AAOI",
     "title": "AAOI 深度研究报告 - AI数据中心光模块高弹性与估值重定价",
     "titleEn": "AAOI Deep Research Report - AI Data Center Optics High Beta and Valuation Re-Rating",
-    "summary": "2026-08-18 估值重锚（按 2026-08-17 收盘 $154.89，较 7 月末立场锚点 +71.9%、较 6 月锚点 −9.5%）：按 Q2 10-Q 封面 84,569,237 股计市值约 $131.0 亿；现金 $499.7M、债务及类债务 $222.0M，净现金约 $277.7M，企业价值约 $128.2 亿。含 Q2 的新 TTM 收入约 $596.0M，EV/TTM Sales 约 21.5x；EV/年化 Q3 指引中点（$272.5M×4，分母为自推年化指引而非已报实绩）约 11.8x。Q2 执行证据未变：GAAP 毛利率 27.7% 同比环比双降、H1 经营现金流 −$73.8M、H1 增发净得 $1.03B、Digicomm 占 H1 收入 42.8%。立场维持谨慎/中确信：依据仍是执行风险，而 7 月末尚存的估值缓冲已被 +71.9% 的重定价消耗殆尽。",
-    "summaryEn": "August 18, 2026 valuation re-anchor at the 2026-08-17 close of $154.89 (+71.9% from the late-July stance anchor, -9.5% from the June anchor): on the 84,569,237 shares from the Q2 10-Q cover, market cap is about $13.10B; with $499.7M of cash against $222.0M of debt and debt-like liabilities, net cash is about $277.7M and enterprise value about $12.82B. The new TTM revenue including Q2 is about $596.0M, putting EV/TTM Sales at about 21.5x; EV/annualized-Q3-guide-midpoint ($272.5M x 4, a self-derived guidance denominator rather than reported actuals) is about 11.8x. The Q2 execution evidence is unchanged - GAAP gross margin of 27.7% fell both Y/Y and Q/Q, H1 operating cash flow was -$73.8M, H1 issuance netted $1.03B, and Digicomm was 42.8% of H1 revenue. Stance stays cautious / medium conviction: the basis remains execution risk, and the valuation cushion still present in late July has been repriced away by the +71.9% move.",
+    "summary": "2026-08-22 监测与估值更新：AAOI 于 2026-08-21 新设最高 $600M ATM，但协议并不要求公司出售股份，未用额度不等同于已执行稀释；另据 424B5，5 月 ATM 在 2026-06-30 后已售出 332,428 股、总收款约 $49.2M。按 2026-08-21 收盘 $124.82 与 424B5 披露的 2026-08-20 流通股 84,906,289 股，市值约 $106.0 亿；沿用 Q2 10-Q 的 $277.7M 净现金口径，企业价值约 $103.2 亿，EV/TTM Sales 约 17.3x、EV/年化 Q3 指引中点约 9.5x。立场维持谨慎/中确信：新 ATM 强化稀释与融资纪律的监测证据，但经营现金流触发腿仍因 H1 为负、推导 Q2 单季为正而不明，且 Q3 交付尚未落地。",
+    "summaryEn": "August 22, 2026 monitoring and valuation update: AAOI established a new ATM for up to $600M on August 21, but the agreement does not require share sales and unused capacity is not executed dilution. The 424B5 separately says the May ATM sold 332,428 shares after June 30 for about $49.2M of gross proceeds. At the August 21 close of $124.82 and the 84,906,289 shares outstanding disclosed as of August 20 in the 424B5, market cap is about $10.60B; using the Q2 10-Q's $277.7M net-cash frame gives enterprise value of about $10.32B, EV/TTM Sales of about 17.3x and EV/annualized-Q3-guide-midpoint of about 9.5x. Stance stays cautious / medium conviction: the new ATM strengthens the dilution-and-financing-discipline evidence, but the operating-cash-flow trigger leg remains unclear because H1 was negative while derived Q2 was positive, and Q3 delivery has not landed.",
     "tags": [
       "光通信",
       "AI数据中心",
@@ -2738,7 +2738,7 @@
     ],
     "category": "tech",
     "date": "2026-06-23",
-    "lastUpdate": "2026-08-18",
+    "lastUpdate": "2026-08-22",
     "file": "/invest/research/reports/view.html?id=aaoi-2026",
     "markdownFiles": {
       "zh": "/invest/research/AAOI_深度研究报告_2026-06.md",
@@ -2748,19 +2748,19 @@
     "versionType": "incremental",
     "versionLabel": "Q2 2026 Update & Valuation Re-Anchor",
     "highlights": [
-      "2026-08-17 收盘 $154.89，较 7 月末立场锚点 +71.9%、较 6 月锚点 −9.5%；市值约 $131.0 亿、EV 约 $128.2 亿（Q2 10-Q 股本与资产负债表口径）",
-      "含 Q2 的 TTM 收入约 $596.0M，EV/TTM Sales 约 21.5x；EV/年化 Q3 指引中点约 11.8x（分母为自推年化指引，非已报实绩）",
+      "2026-08-21 收盘 $124.82，较 8 月 17 日历史锚点 −19.4%；按 2026-08-20 流通股计市值约 $106.0 亿、按 Q2 净现金口径计 EV 约 $103.2 亿",
+      "含 Q2 的 TTM 收入约 $596.0M，EV/TTM Sales 约 17.3x；EV/年化 Q3 指引中点约 9.5x（分母为自推年化指引，非已报实绩）",
       "Q2 收入 $191.9M 落在指引内、Q3 指引 $255-290M；但 GAAP 毛利率 27.7% 同比环比双降，非 GAAP 毛利率 29.8%",
-      "H1 经营现金流 −$73.8M（Q2 单季推导约 +$11.6M）；H1 增发净得 $1.03B，股本三个月 +5.4%；Digicomm 占 H1 收入 42.8%、期末应收 67.2%",
-      "立场维持谨慎/中确信：执行支柱未变，而估值缓冲已被 +71.9% 重定价消耗殆尽；升降级触发器已切换为 Q3 交付口径"
+      "8 月 21 日新设最高 $600M ATM；未用额度不是已执行稀释，但 5 月 ATM 在 6 月 30 日后已售出 332,428 股、总收款约 $49.2M",
+      "立场维持谨慎/中确信：融资与稀释监测证据增强，现金流触发腿仍不明；升降级触发器继续使用 Q3 交付口径"
     ],
     "chainLayer": "optical",
     "coverageTier": "full",
     "stance": "cautious",
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "2026-08-18 重锚（按 2026-08-17 收盘 $154.89）：谨慎的执行支柱不变——毛利率同比环比双降、H1 经营现金流为负（推导单季转正但仅约 +$11.6M）、H1 增发 $1.03B 且股本三个月 +5.4%、Digicomm 集中度高。价格端：EV/TTM 约 21.5x、EV/年化 Q3 指引中点约 11.8x，市场重新预付了尚未落地的 Q3 阶跃与年底产能计划，7 月末的估值缓冲已消失。执行风险未变而容错收窄，谨慎在 $154.89 下成立、且较 $90 档位更为充分；未降级是因为降级触发未触发（Q2 落在指引内、Q3 指引阶跃、推导单季现金流转正）。",
-      "en": "2026-08-18 re-anchor at the 2026-08-17 close of $154.89: the execution legs behind cautious are unchanged - gross margin fell both Y/Y and Q/Q, H1 operating cash flow was negative (the derived single quarter turned positive but only ~+$11.6M), H1 issuance was $1.03B with the share count up 5.4% in three months, and Digicomm concentration is high. On price: EV/TTM is about 21.5x and EV/annualized-Q3-guide-midpoint about 11.8x, so the market is again prepaying for a Q3 step-up and year-end capacity plan that have not landed, and the late-July valuation cushion is gone. With execution risk unchanged and tolerance narrower, cautious holds at $154.89 - if anything more firmly than at the $90 level; no downgrade because the downgrade triggers did not fire (Q2 landed inside the guide, Q3 guidance steps up, the derived quarterly cash flow turned positive)."
+      "zh": "2026-08-22 重锚（按 2026-08-21 收盘 $124.82）：Q2 后的执行支柱仍未销——毛利率同比环比双降、H1 经营现金流为负（推导 Q2 单季仅约 +$11.6M）、Digicomm 集中度高；8 月 21 日新设最高 $600M ATM，且 5 月 ATM 在 6 月 30 日后已实际售出 332,428 股、总收款约 $49.2M，进一步强化融资与稀释纪律监测。按 84,906,289 股和 Q2 净现金口径，EV/TTM 约 17.3x、EV/年化 Q3 指引中点约 9.5x。价格较 8 月 17 日回落 19.4% 扩大估值容错，但没有解决执行证据，也未触发 Q3 交付口径的升降级条件，故维持谨慎/中确信。",
+      "en": "2026-08-22 re-anchor at the 2026-08-21 close of $124.82: the post-Q2 execution legs remain open - gross margin fell both Y/Y and Q/Q, H1 operating cash flow was negative (derived Q2 was only about +$11.6M), and Digicomm concentration remains high. The August 21 ATM for up to $600M, plus 332,428 shares actually sold after June 30 under the May ATM for about $49.2M of gross proceeds, strengthens the financing-and-dilution-discipline evidence. On 84,906,289 shares and the Q2 net-cash frame, EV/TTM is about 17.3x and EV/annualized-Q3-guide-midpoint about 9.5x. The 19.4% decline from August 17 widens valuation tolerance but resolves none of the execution evidence and does not fire either Q3 delivery trigger, so cautious / medium conviction is retained."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -2819,10 +2819,20 @@
           "zh": "价格重锚：$90.11→$154.89（+71.9%），首个吸收 Q2 财报的完整估值口径。四条执行支柱未变；新口径 EV/TTM 约 21.5x、EV/年化 Q3 指引中点约 11.8x，7 月末的估值缓冲已被重定价消耗殆尽。谨慎按执行风险在 $154.89 下成立且较 $90 档位更充分；降级触发未触发，维持中确信。",
           "en": "Price re-anchor: $90.11 -> $154.89 (+71.9%), the first full valuation frame absorbing the Q2 print. The four execution legs are unchanged; on the new frame EV/TTM is ~21.5x and EV/annualized-Q3-guide-midpoint ~11.8x, so the late-July valuation cushion has been repriced away. Cautious holds at $154.89 on execution risk - more firmly than at the $90 level; downgrade triggers did not fire, conviction stays medium."
         }
+      },
+      {
+        "date": "2026-08-22",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 124.82,
+        "note": {
+          "zh": "8 月 21 日收盘重锚并纳入新 ATM：EV/TTM 约 17.3x、EV/年化 Q3 指引中点约 9.5x。价格回落增加容错，但新融资能力与季后实际增发强化执行风险；Q3 交付触发器均未触发，维持谨慎/中确信。",
+          "en": "Re-anchored at the August 21 close and incorporated the new ATM: EV/TTM is about 17.3x and EV/annualized-Q3-guide-midpoint about 9.5x. The lower price adds tolerance, but new financing capacity and actual post-quarter issuance strengthen execution risk; neither Q3 delivery trigger fired, so cautious / medium conviction is retained."
+        }
       }
     ],
-    "priceAsOf": "2026-08-17",
-    "reportedPeriod": "Q2 2026 / 2026-08-17 valuation frame",
+    "priceAsOf": "2026-08-21",
+    "reportedPeriod": "Q2 2026 / 2026-08-21 valuation frame",
     "related": [
       "corning-2026"
     ],
@@ -2860,12 +2870,12 @@
           "en": "operating cash flow stays negative while issuance expands"
         },
         "latest": {
-          "zh": "2026 Q2 10-Q（2026-08-06 提交）：2026 上半年经营活动净现金流出 $73.781M（2025 上半年为流出 $116.389M）；2026 Q1 10-Q 记录的上季经营现金流为 −$85.353M，两份已提交报表相减得出 2026 Q2 单季经营现金流约 +$11.6M（本报告推导，非单独披露）。增发端：2026 上半年普通股发行净得 $1,028.207M（2025 上半年 $195.770M），其中 Q1 为 $382.448M，故 Q2 单季约 $645.8M；实缴资本从 2025 年底的 $1,224.5M 升至 $2,192.7M。上半年资本开支 $335.132M，另有设备预付款 $289.744M。评级为读数不明：本项触发条件是「经营现金流持续为负叠加增发扩大」两条腿同时成立——增发扩大这条腿明确成立，但经营现金流这条腿的读数取决于口径，按已提交的上半年报表为负、按推导的单季数为正。触发条件本身未规定计量周期，因此按其自身文本无法判定，本项措辞值得在下一次完整更新中修订。",
-          "en": "Q2 2026 10-Q (filed 2026-08-06): net cash used in operating activities was $73.781M for the six months ended 2026-06-30 (H1 2025: $116.389M used). The Q1 2026 10-Q reported $85.353M used for the prior quarter, so subtracting the two filed statements gives approximately +$11.6M of operating cash flow for Q2 2026 alone (derived by this report, not separately disclosed). On the issuance leg: net proceeds from common stock offerings were $1,028.207M in H1 2026 (H1 2025: $195.770M), of which $382.448M came in Q1, implying about $645.8M in Q2; additional paid-in capital rose from $1,224.5M at year-end 2025 to $2,192.7M. H1 capital expenditure was $335.132M with a further $289.744M of equipment prepayments. Graded unclear: this item's trigger requires both legs - operating cash flow staying negative *and* issuance expanding. The issuance leg is unambiguously met; the cash-flow leg depends on the measurement period, negative on the filed six-month statement and positive on the derived single quarter. The trigger does not specify a period, so it cannot be adjudicated on its own text, and its wording is worth revising at the next full update."
+          "zh": "2026-08-21 8-K、424B5 与 Equity Distribution Agreement：AAOI 新设可不时出售最高 $600M 普通股的 ATM，代理佣金最高为总售价的 2.0%；协议明确只有公司发出 placement notice 后才产生具体配售义务，公司可暂停销售或终止协议，因此未用额度不是已执行稀释。与此同时，424B5 披露 5 月 ATM 在 2026-06-30 后已售出 332,428 股、总收款约 $49.2M；2026-08-20 流通股为 84,906,289 股。按文件假设价 $129.10 全额发行 $600M 对应约 4.65M 股、约为当前股本的 5.5%，但这只是文件的全额假设，不能写成已发行。现金流腿仍沿用已提交 Q2 10-Q：H1 经营现金流 −$73.781M，而两份季报相减得 Q2 单季约 +$11.6M（本报告推导）。评级维持读数不明：增发扩大一腿被新容量及季后实际销售进一步确认；经营现金流一腿仍因 H1 与单季口径方向相反且触发条件未规定周期而无法裁定。",
+          "en": "The August 21, 2026 8-K, 424B5 and Equity Distribution Agreement establish a new ATM under which AAOI may sell up to $600M of common stock from time to time, at agent commissions of up to 2.0% of gross sales. The agreement creates placement obligations only after the company delivers a placement notice and lets the company suspend sales or terminate the agreement, so unused capacity is not executed dilution. Separately, the 424B5 says the May ATM sold 332,428 shares after June 30 for about $49.2M of gross proceeds, and reports 84,906,289 shares outstanding as of August 20. A full $600M sale at the filing's assumed $129.10 price equates to about 4.65M shares, roughly 5.5% of the current share count, but that is the filing's full-utilization assumption, not issued shares. The cash-flow leg still rests on the filed Q2 10-Q: H1 operating cash flow was -$73.781M while subtracting the two quarter-to-date filings gives derived Q2-only cash flow of about +$11.6M. The reading stays unclear: the issuance-expansion leg is further confirmed by new capacity and actual post-quarter sales, but the cash-flow leg remains directionally split across H1 and derived-quarter frames and the trigger specifies no measurement period."
         },
-        "nextCheck": "季报现金流与股本 / cash flow & share count",
+        "nextCheck": "Q3 10-Q 现金流、股本及 ATM 实际销售披露 / Q3 10-Q cash flow, share count and actual ATM sales",
         "reading": "unclear",
-        "readingAsOf": "2026-08-06"
+        "readingAsOf": "2026-08-21"
       },
       {
         "id": "customer-concentration",
@@ -2900,12 +2910,12 @@
           "en": "the ~26.6x EV/TTM Sales compresses if the ramp misses"
         },
         "latest": {
-          "zh": "2026-08-18 完整估值重锚（按 2026-08-17 收盘 $154.89）：本项此前缺失的输入已补齐——Q2 10-Q 封面股本 84,569,237 股、现金 $499.7M、债务及类债务 $222.0M，市值约 $131.0 亿、EV 约 $128.2 亿；含 Q2 的 TTM 收入约 $596.0M，EV/TTM Sales 约 21.5x（触发条件所引 26.6x 为 6 月锚点旧口径，07-30 历史快照为 13.8x）。评级为阈内：本项触发条件是『放量不及预期时倍数压缩』，Q2 收入落在指引内、未出现放量不及预期，倍数不降反升。证据边界：约 21.5x 的容错依赖 Q3 $255-290M 指引与年底产能计划兑现，两者均未落地；若 Q3 未达标，压缩风险按新口径重新适用。",
-          "en": "2026-08-18 full valuation re-anchor at the 2026-08-17 close of $154.89: the inputs this item was missing are now rebuilt - 84,569,237 shares from the Q2 10-Q cover, $499.7M of cash against $222.0M of debt and debt-like liabilities, market cap about $13.10B and EV about $12.82B; TTM revenue including Q2 is about $596.0M, putting EV/TTM Sales at about 21.5x (the 26.6x cited in the trigger is the old June-anchor frame; the 07-30 historical snapshot was 13.8x). Graded within: this item's trigger is multiple compression on a ramp miss, and Q2 landed inside the guide - no miss occurred, and the multiple re-expanded rather than compressed. Evidence limits: tolerance at ~21.5x depends on the $255-290M Q3 guide and the year-end capacity plan being delivered, neither of which has landed; if Q3 misses, the compression risk re-applies on the new frame."
+          "zh": "2026-08-22 完整估值重锚（按 2026-08-21 收盘 $124.82）：股本采用 424B5 披露的 2026-08-20 流通股 84,906,289 股；市值约 $106.0 亿。沿用 Q2 10-Q 的现金 $499.7M 与债务及类债务 $222.0M，净现金约 $277.7M、EV 约 $103.2 亿；该 EV 未把 6 月 30 日后的 $49.2M 总收款加入现金，也未把未用的新 ATM 额度当作现金或股本。含 Q2 的 TTM 收入约 $596.0M，EV/TTM Sales 约 17.3x；EV/年化 Q3 指引中点约 9.5x。评级维持阈内：价格较 8 月 17 日历史锚点回落 19.4% 扩大容错，但本项触发条件是放量不及预期时倍数压缩，Q3 尚未落地，不能把价格回落本身当作 ramp 失约或立场信号。",
+          "en": "2026-08-22 full valuation re-anchor at the 2026-08-21 close of $124.82: the share count uses the 84,906,289 shares outstanding as of August 20 disclosed in the 424B5, giving market cap of about $10.60B. Using Q2 10-Q cash of $499.7M against $222.0M of debt and debt-like liabilities gives about $277.7M of net cash and EV of about $10.32B; this EV neither adds the post-June-30 $49.2M of gross proceeds to cash nor treats unused new ATM capacity as cash or shares. TTM revenue including Q2 is about $596.0M, putting EV/TTM Sales at about 17.3x and EV/annualized-Q3-guide-midpoint at about 9.5x. The reading stays within: the 19.4% price decline from the historical August 17 anchor widens tolerance, but this item's trigger is multiple compression on a ramp miss, Q3 has not landed, and the price move itself is neither a ramp failure nor a stance signal."
         },
         "nextCheck": "Q3 2026 财报对照 $255-290M 指引 / Q3 2026 earnings vs the $255-290M guide",
         "reading": "within",
-        "readingAsOf": "2026-08-17"
+        "readingAsOf": "2026-08-21"
       }
     ]
   },
