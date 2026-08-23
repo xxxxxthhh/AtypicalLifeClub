@@ -1,7 +1,7 @@
 # Applied Optoelectronics (AAOI) Deep Research Report
 
 Coverage date: 2026-06-23
-Last updated: 2026-08-22
+Last updated: 2026-08-23
 Ticker: NASDAQ: AAOI
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
