@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-08-22",
+  "asOf": "2026-08-23",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -350,13 +350,13 @@
       "reportId": "jinpan-2026",
       "company": "金盘科技",
       "timezone": "Asia/Shanghai",
-      "expectedDate": "2026-08",
+      "expectedDate": "2026-10",
       "precision": "month",
       "status": "estimated",
       "session": "not-applicable",
-      "sourceUrl": null,
+      "sourceUrl": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2025-11-12/688676_20251112_DAOG.pdf",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-08-23"
     },
     {
       "reportId": "paypal-2026",
