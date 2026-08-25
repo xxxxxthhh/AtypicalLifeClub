@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-08-23",
+  "asOf": "2026-08-24",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -31,11 +31,11 @@
       "company": "Applied Materials",
       "expectedDate": "2026-08-13",
       "precision": "day",
-      "status": "issuer-confirmed",
+      "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-report-fiscal-third-quarter-2026-results-aug",
       "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-10"
+      "verifiedAt": "2026-08-24"
     },
     {
       "reportId": "lam-research-2026",
@@ -86,11 +86,11 @@
       "company": "NRG Energy",
       "expectedDate": "2026-08-04",
       "precision": "day",
-      "status": "issuer-confirmed",
+      "status": "stale",
       "session": "before-open",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000018/nrgq22026ex991.htm",
       "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-05"
+      "verifiedAt": "2026-08-24"
     },
     {
       "reportId": "eqix-2026",
@@ -108,33 +108,33 @@
       "company": "Nebius Group",
       "expectedDate": "2026-08-12",
       "precision": "day",
-      "status": "issuer-confirmed",
+      "status": "stale",
       "session": "before-open",
       "sourceUrl": "https://nebius.com/newsroom/nebius-group-announces-date-of-second-quarter-2026-results-and-conference-call",
       "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-10"
+      "verifiedAt": "2026-08-24"
     },
     {
       "reportId": "arista-2026",
       "company": "Arista Networks",
       "expectedDate": "2026-08-04",
       "precision": "day",
-      "status": "issuer-confirmed",
+      "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://investors.arista.com/Communications/Press-Releases-and-Events/Press-Release-Detail/2026/Arista-Networks-to-Announce-Q2-2026-Financial-Results-on-Tuesday-August-4-2026/default.aspx",
       "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-08-24"
     },
     {
       "reportId": "coreweave-2026",
       "company": "CoreWeave",
       "expectedDate": "2026-08-11",
       "precision": "day",
-      "status": "issuer-confirmed",
+      "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Date-of-Second-Quarter-2026-Financial-Results-and-Conference-Call/default.aspx",
       "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-10"
+      "verifiedAt": "2026-08-24"
     },
     {
       "reportId": "vertiv-2026",
@@ -174,11 +174,11 @@
       "company": "Applied Optoelectronics",
       "expectedDate": "2026-08-06",
       "precision": "day",
-      "status": "issuer-confirmed",
+      "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://investors.ao-inc.com/news-releases/news-release-details/applied-optoelectronics-announces-date-second-quarter-2026",
       "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-08-24"
     },
     {
       "reportId": "gevernova-2026",
@@ -196,11 +196,11 @@
       "company": "SanDisk",
       "expectedDate": "2026-08-05",
       "precision": "day",
-      "status": "recorded",
+      "status": "stale",
       "session": "unspecified",
       "sourceUrl": null,
       "sourceType": "report-body",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-08-24"
     },
     {
       "reportId": "tempus-ai-2026",
@@ -252,11 +252,11 @@
       "company": "Hims & Hers Health",
       "expectedDate": "2026-08-10",
       "precision": "day",
-      "status": "issuer-confirmed",
+      "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://investors.hims.com/news/news-details/2026/Hims--Hers-to-Announce-Second-Quarter-2026-Financial-Results-on-August-10-2026/default.aspx",
       "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-10"
+      "verifiedAt": "2026-08-24"
     },
     {
       "reportId": "bloom-energy-2026",
@@ -340,11 +340,11 @@
       "company": "AMD",
       "expectedDate": "2026-08-04",
       "precision": "day",
-      "status": "issuer-confirmed",
+      "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
       "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-05"
+      "verifiedAt": "2026-08-24"
     },
     {
       "reportId": "jinpan-2026",
@@ -507,11 +507,11 @@
       "company": "Coherent",
       "expectedDate": "2026-08-12",
       "precision": "day",
-      "status": "issuer-confirmed",
+      "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://www.coherent.com/news/press-releases/fy2026-fourth-quarter-fy2026-conference-call-announced",
       "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-10"
+      "verifiedAt": "2026-08-24"
     },
     {
       "reportId": "digital-realty-2026",
@@ -541,33 +541,33 @@
       "company": "Cameco Corporation",
       "expectedDate": "2026-07-31",
       "precision": "day",
-      "status": "recorded",
+      "status": "stale",
       "session": "before-open",
       "sourceUrl": null,
       "sourceType": "report-body",
-      "verifiedAt": "2026-08-19"
+      "verifiedAt": "2026-08-24"
     },
     {
       "reportId": "mp-2026",
       "company": "MP Materials",
       "expectedDate": "2026-08-06",
       "precision": "day",
-      "status": "issuer-confirmed",
+      "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://investors.mpmaterials.com/investor-news/news-details/2026/MP-Materials-Announces-Date-for-Second-Quarter-2026-Financial-Results-and-Webcast/default.aspx",
       "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-08-24"
     },
     {
       "reportId": "alab-2026",
       "company": "Astera Labs",
       "expectedDate": "2026-08-04",
       "precision": "day",
-      "status": "issuer-confirmed",
+      "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000033/q226exhibit991.htm",
       "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-05"
+      "verifiedAt": "2026-08-24"
     },
     {
       "reportId": "amkr-2026",
