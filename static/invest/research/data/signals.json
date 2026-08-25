@@ -1,5 +1,29 @@
 [
   {
+    "id": "nebius-convertible-notes-closing-upsized-2026-08",
+    "date": "2026-08-24",
+    "title": {
+      "zh": "Nebius 可转债发行完成交割，选择权全额行使后原始本金合计升至 57.5 亿美元",
+      "en": "Nebius closes its convertible notes offering at US$5.75B of original principal after the options are exercised in full"
+    },
+    "detail": {
+      "zh": "据 Nebius Group 2026-08-24 提交的 Form 6-K 及其附件 99.1 新闻稿（accession 0001104659-26-100347，新闻稿标注阿姆斯特丹 2026-08-24）：此前于 2026-08-19 定价的两档可转换优先票据私募发行已完成交割。初始购买人全额行使增购选择权，额外认购 2030 档 4.50 亿美元与 2034 档 3.00 亿美元，故 0.50% 票息 2030 年到期档原始本金总额为 34.5 亿美元、4.50% 票息 2034 年到期档为 23.0 亿美元，合计 57.5 亿美元；新闻稿标题将该数字表述为「总募资毛额约 57.5 亿美元」，正文表述为「原始本金总额」。公司同日与 U.S. Bank Trust Company, N.A. 签署两份日期为 2026-08-24 的契约。募集资金用途表述与定价时相同，在数据中心建设与扩建、全栈 AI 云投资、数据中心版图扩张、含 GPU 在内的关键部件采购之外并列一般公司用途。证据限制：本次新闻稿未披露净募资金额（定价新闻稿对选择权全额行使情形的估计为约 56.8 亿美元，属当时估计而非本次披露）；发行人未在本次披露中重述其 2026 年资本开支「>90% 已锁定」的覆盖比例；以约 1,580 万股 A 类普通股换取 2029 与 2031 两档存量可转债各 4.00 亿美元原始本金的换股安排与定价时公布一致，不是本次新增披露。本条只记录交割这一事实本身，不据此重算估值、稀释或净现金，`nebius-2026:funding-durability` 维持 unclear。",
+      "en": "Per Nebius Group's Form 6-K furnished 2026-08-24 and its Exhibit 99.1 press release (accession 0001104659-26-100347; release dated Amsterdam, August 24, 2026): the two-series private offering of convertible senior notes priced on 2026-08-19 has closed. The initial purchasers exercised their options in full, purchasing an additional US$450M of the 2030 Notes and US$300M of the 2034 Notes, so the aggregate original principal amount is US$3.45B for the 0.50% notes due 2030 and US$2.3B for the 4.50% notes due 2034, US$5.75B in total. The release headlines that figure as aggregate gross proceeds of approximately US$5.75B and states it in the body as total aggregate original principal amount. Two indentures dated August 24, 2026 were entered into with U.S. Bank Trust Company, National Association as trustee. Use-of-proceeds language is unchanged from pricing and still lists general corporate purposes alongside data-center construction and build-out, full-stack AI cloud investment, footprint expansion and procurement of key components including GPUs. Evidence limits: this release discloses no net-proceeds figure (the pricing release estimated about US$5.68B for the full-exercise case, which is that release's estimate rather than a disclosure made here); the issuer does not restate its \">90% secured\" coverage of 2026 capex in this disclosure; and the exchange of approximately 15.8M Class A ordinary shares for US$400M of original principal of each of the 2029 and 2031 series is unchanged from pricing and is not newly disclosed here. This entry records the fact of closing only; valuation, dilution and net cash are not recomputed and `nebius-2026:funding-durability` remains unclear."
+    },
+    "crossChecks": [
+      "neocloud-financing"
+    ],
+    "tickers": [
+      "NBIS"
+    ],
+    "reportIds": [
+      "nebius-2026"
+    ],
+    "monitoringRefs": [
+      "nebius-2026:funding-durability"
+    ]
+  },
+  {
     "id": "jinpan-h1-2026-aidc-orders-vs-operating-cash-flow",
     "date": "2026-08-21",
     "title": {

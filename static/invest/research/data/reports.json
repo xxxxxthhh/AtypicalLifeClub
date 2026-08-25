@@ -1648,7 +1648,7 @@
     "priceSymbol": "NBIS",
     "title": "Nebius Group 深度研究报告 - neocloud 的『干净对照组』：对 CoreWeave 风险锚的架构校验",
     "titleEn": "Nebius Group Deep Research Report - The 'Clean' Neocloud: An Architecture Check on the CoreWeave Risk Anchor",
-    "summary": "2026-08-21 监测更新：Nebius 将可转债定价并上调至原始本金 $5.0B，预计净募资约 $4.94B、2026-08-24 交割；发行仍以惯常交割条件为前提，且公司未重述 2026 年资本开支“>90% 已锁定”的覆盖率，因此 funding-durability 仍为 unclear。此次仅更新融资监测事实；未重算估值、稀释或净现金，谨慎／中确信仍沿用 2026-07-30 收盘 $188.43 的完整裁定。",
+    "summary": "2026-08-25 监测更新：Nebius 的两档可转债已于 2026-08-24 完成交割，初始购买人全额行使增购选择权，原始本金总额由定价时的 $5.0B 升至 $5.75B（0.50% 2030 档 $3.45B ＋ 4.50% 2034 档 $2.3B）；交割新闻稿未披露净募资金额。交割这一腿已由一手源坐实，但公司仍未重述 2026 年资本开支“>90% 已锁定”的覆盖率，$5.75B 相对 $200-250 亿资本开支区间约为 23%-29% 且募集用途并列一般公司用途，因此 funding-durability 仍为 unclear。此次仅更新融资监测事实；未重算估值、稀释或净现金，谨慎／中确信仍沿用 2026-07-30 收盘 $188.43 的完整裁定。",
     "tags": [
       "AI云",
       "AI基础设施",
@@ -1657,7 +1657,7 @@
     ],
     "category": "tech",
     "date": "2026-07-01",
-    "lastUpdate": "2026-08-21",
+    "lastUpdate": "2026-08-25",
     "file": "/invest/research/reports/view.html?id=nebius-2026",
     "markdownFiles": {
       "zh": "/invest/research/Nebius_深度研究报告_2026-07.md",
@@ -1671,9 +1671,9 @@
       "2026Q2 收入 $582.3M（同比 +454%）、调整后 EBITDA $236.2M，持续经营净亏损 -$190.4M",
       "单季资本开支 $5,657.4M；现金 $8,042.1M 对非流动债务 $8,499.0M，约为净债务持平",
       "两份 6-K 均未重述 ARR、客户收入占比或利用率，不能用收入增长替代触发条件",
-      "可转债已定价并上调至 $5.0B，但尚未交割且未重述资本开支覆盖率；funding-durability 仍为 unclear"
+      "可转债已于 2026-08-24 完成交割，初始购买人全额行使增购选择权，本金总额升至 $5.75B；交割稿未披露净募资且未重述资本开支覆盖率，funding-durability 仍为 unclear"
     ],
-    "summaryEn": "August 21, 2026 monitoring update: Nebius priced and upsized its convertible notes to US$5.0B of original principal, with estimated net proceeds of about US$4.94B and settlement expected August 24. Settlement remains subject to customary closing conditions, and the company did not restate the '>90% secured' coverage of 2026 capex, so funding-durability remains unclear. This is a financing-monitoring update only; valuation, dilution and net cash were not recomputed, and cautious / medium conviction remains the full adjudication anchored to the July 30, 2026 close of US$188.43.",
+    "summaryEn": "August 25, 2026 monitoring update: Nebius closed its two-series convertible notes offering on August 24, with the initial purchasers exercising their options in full, lifting aggregate original principal from the US$5.0B priced to US$5.75B (US$3.45B of 0.50% notes due 2030 plus US$2.3B of 4.50% notes due 2034). The closing release discloses no net-proceeds figure. The settlement leg is now established by a primary source, but the company still does not restate the '>90% secured' coverage of 2026 capex; US$5.75B is roughly 23%-29% of the US$20-25B capex range and use-of-proceeds still lists general corporate purposes, so funding-durability remains unclear. This is a financing-monitoring update only; valuation, dilution and net cash were not recomputed, and cautious / medium conviction remains the full adjudication anchored to the July 30, 2026 close of US$188.43.",
     "chainLayer": "demand-risk",
     "coverageTier": "full",
     "chainRole": "architecture-check",
@@ -1761,12 +1761,12 @@
           "en": "the '>90% secured' 2026 capex ($20-25B, ~7x revenue) breaks in a tighter capital market"
         },
         "latest": {
-          "zh": "2026-08-20 提交的 Form 6-K 及附件 99.1 新闻稿（新闻稿日期 2026-08-19）：Nebius 将可转换优先票据定价并由原始本金 45.0 亿美元上调至 50.0 亿美元，分为 30.0 亿美元 0.50% 票息 2030 年到期与 20.0 亿美元 4.50% 票息 2034 年到期两档；预计 2026-08-24 交割（以惯常交割条件为前提），估计净募资约 49.4 亿美元。2030/2034 档初始转换价约 $313.46/$324.65，较 2026-08-19 收盘 $223.90 溢价约 40%/45%；公司另签订换股协议，以约 1,580 万股换取两档存量可转债各 4.00 亿美元原始本金。评级：unclear。定价和扩大发行规模证明公司仍可进入资本市场，但交割尚未发生，50 亿美元仅是 $200-250 亿 2026 年资本开支的一部分，募集用途也包括一般公司用途，且发行人没有重述“>90% 已锁定”的覆盖率。因此本次证据既不能证明该资金框架已经失效，也不足以重新验证其仍然成立。选择权额度不是已发行金额，发行人也未披露到期收益率；本次不重算估值、稀释或净现金，保留 2026-07-30 收盘 $188.43 的历史估值边界。",
-          "en": "Form 6-K furnished 2026-08-20 with Exhibit 99.1 dated 2026-08-19: Nebius priced and upsized its convertible senior notes from US$4.50B to US$5.00B of original principal, split between US$3.00B of 0.50% notes due 2030 and US$2.00B of 4.50% notes due 2034. Settlement is expected August 24 subject to customary closing conditions, with estimated net proceeds of about US$4.94B. Initial conversion prices of about US$313.46 and US$324.65 represent roughly 40% and 45% premia to the August 19 close of US$223.90; separate exchange agreements cover US$400M of original principal in each legacy note series for about 15.8M shares. Reading: unclear. Pricing and upsizing demonstrate continued market access, but settlement has not occurred, US$5.0B covers only part of the US$20-25B 2026 capex program, proceeds also include general corporate purposes, and the issuer did not restate the '>90% secured' coverage. The evidence therefore neither proves that the funding frame has broken nor re-verifies that it remains intact. Option amounts are not issued principal and no yield to maturity is disclosed. Valuation, dilution and net cash are not recomputed; the historical valuation boundary remains the July 30, 2026 close of US$188.43."
+          "zh": "2026-08-24 提交的 Form 6-K 及附件 99.1 新闻稿（新闻稿标注阿姆斯特丹 2026-08-24，accession 0001104659-26-100347）：上述可转换优先票据发行已**完成交割**。初始购买人**全额行使**其增购选择权，额外认购 2030 档 4.50 亿美元与 2034 档 3.00 亿美元，因此 2030 档原始本金总额为 **34.5 亿美元**、2034 档为 **23.0 亿美元**，合计 **57.5 亿美元**（新闻稿标题口径为「总募资毛额约 57.5 亿美元」，正文口径为「原始本金总额」）。同日与 U.S. Bank Trust Company, N.A. 作为受托人签署两份契约（Indenture，均标注 2026-08-24）。本次新闻稿**未披露净募资金额**；定价新闻稿（2026-08-19）当时对选择权全额行使情形的估计为约 56.8 亿美元，属当时的估计值而非本次披露。换股规模（以约 1,580 万股 A 类普通股换取 2029 与 2031 两档存量可转债各 4.00 亿美元原始本金）与定价时公布一致，非本次新增。募集资金用途表述与定价时相同，仍在数据中心建设与扩建、全栈 AI 云投资、版图扩张、含 GPU 在内的关键部件采购之外**并列一般公司用途**。评级：unclear。交割这一腿现已由一手源坐实（此前 `unclear` 的主要理由之一被消除），但本触发条件问的是「『>90% 已锁定』的 2026 资本开支（$200-250 亿）是否在更紧资本市场中失效」，而发行人在本次披露中**仍未重述该已锁定比例**；57.5 亿美元相对 $200-250 亿区间约为 23%-29%，且募集用途并未全额专款专用。因此证据既不证明该资金框架已失效，也不足以重新验证其仍然成立，评级维持 unclear。本次不重算估值、稀释或净现金，保留 2026-07-30 收盘 $188.43 的历史估值边界。",
+          "en": "Form 6-K furnished 2026-08-24 with Exhibit 99.1 (press release dated Amsterdam, August 24, 2026; accession 0001104659-26-100347): the convertible senior notes offering has **closed**. The initial purchasers exercised their options **in full**, purchasing an additional US$450M of 2030 Notes and US$300M of 2034 Notes, so the aggregate original principal amount is **US$3.45B** for the 2030 Notes and **US$2.3B** for the 2034 Notes, **US$5.75B** in total (the release headlines this as aggregate gross proceeds of approximately US$5.75B and states it in the body as total aggregate original principal amount). Two indentures, each dated August 24, 2026, were entered into with U.S. Bank Trust Company, National Association as trustee. This release **discloses no net-proceeds figure**; the pricing release of 2026-08-19 estimated about US$5.68B for the full-exercise case, which is that release's estimate rather than a disclosure made here. The exchange size — approximately 15.8M Class A ordinary shares for US$400M of original principal of each of the 2029 and 2031 series — is unchanged from pricing and is not new here. Use-of-proceeds language is also unchanged and still lists **general corporate purposes** alongside data-center construction and build-out, full-stack AI cloud investment, footprint expansion and procurement of key components including GPUs. Reading: unclear. The settlement leg is now established by a primary source, removing one of the prior grounds for `unclear`, but the trigger asks whether the '>90% secured' 2026 capex (US$20-25B) breaks in a tighter capital market, and the issuer **still does not restate that secured percentage** in this disclosure. US$5.75B is roughly 23%-29% of the US$20-25B program and the proceeds are not fully earmarked. The evidence therefore neither proves the funding frame has broken nor re-verifies that it remains intact, so the grade stays unclear. Valuation, dilution and net cash are not recomputed; the historical valuation boundary remains the July 30, 2026 close of US$188.43."
         },
         "nextCheck": "额外资产级融资；提款/契约/费用披露；ATM 使用与预付款节奏 / additional asset-level facilities; drawdown, covenant and fee disclosures; ATM use and prepayment cadence",
         "reading": "unclear",
-        "readingAsOf": "2026-08-19"
+        "readingAsOf": "2026-08-24"
       },
       {
         "id": "optionality-crystallization",
