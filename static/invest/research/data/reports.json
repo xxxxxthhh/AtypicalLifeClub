@@ -3333,7 +3333,7 @@
     "ticker": "NASDAQ: TEM",
     "title": "Tempus AI 深度研究报告 - 精准医疗数据飞轮的高增长与高风险",
     "titleEn": "Tempus AI Deep Research Report - Precision Medicine Data Flywheel's High Growth and High Risk",
-    "summary": "2026-08-03更新（并入Q2 2026业绩，一手8-K附件99.1/10-Q）：Q2营收$382.5M（+21.6% YoY）、诊断$289.3M（+20%、肿瘤检测量+31%）、数据与应用$93.2M（+28%）；经营亏损同比走阔至$(75.9)M，单季GAAP净利+$5.6M主要来自$98.5M证券未实现收益，调整后EBITDA转正$8.0M。FY2026收入指引为$15.95-16.05亿、调整后EBITDA约$6500万。按TEM 2026-07-31收盘$43.87、约1.8024亿股重锚：市值约$79.1亿、P/S(TTM)约5.5x；Personalis仍待交割。反向倍数显示当前价格已要求约20%三年营收CAGR并同时改善盈利，维持谨慎/中确信。",
+    "summary": "2026-08-25更新（FDA清除Tempus ECG-PH，并按2026-08-24收盘重锚估值）：公司2026-08-24宣布获FDA 510(k)清除Tempus ECG-PH（肺动脉高压），为其心血管组合第三款获清除设备；新闻稿未披露任何收入、定价或报销指引，FY2026收入指引$15.95-16.05亿与调整后EBITDA约$6500万不变。Q2基本面沿用：营收$382.5M（+21.6% YoY）、经营亏损同比走阔至$(75.9)M，单季GAAP净利+$5.6M主要来自$98.5M证券未实现收益。按TEM 2026-08-24收盘$66.17、Q2 Form 10-Q封面披露的截至2026-07-24约1.8043亿股重锚：市值约$119.4亿、P/S(TTM)约8.3x、EV/2026E EBITDA约192x；Personalis仍待交割。反向倍数隐含约38%三年营收CAGR——已高于公司约25%的指引与21.6%的最近实际季度，执行缓冲转负；维持谨慎/中确信。",
     "tags": [
       "精准医疗",
       "AI医疗",
@@ -3342,19 +3342,20 @@
     ],
     "category": "tech",
     "date": "2026-02-27",
-    "lastUpdate": "2026-08-03",
+    "lastUpdate": "2026-08-25",
     "file": "/invest/research/reports/view.html?id=tempus-ai-2026",
     "markdownFiles": {
       "zh": "/invest/research/Tempus_AI_深度研究报告_2026-02.md",
       "en": "/invest/research/Tempus_AI_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
+      "2026-08-24：FDA 510(k)清除Tempus ECG-PH（肺动脉高压），心血管组合第三款；公司未随之给出任何收入/报销指引，FY2026指引不变",
       "Q2 2026：营收$382.5M（+21.6%）、诊断$289.3M（+20%、肿瘤检测量+31%）、数据与应用$93.2M（+28%）；调整后EBITDA转正$8.0M",
       "GAAP盈利质量未确立：经营亏损同比走阔至$(75.9)M，$5.6M单季净利主要来自$98.5M证券未实现收益；H1仍净亏$(120.3)M",
-      "独立估值锚点：TEM 2026-07-31收盘$43.87、市值约$79.1亿、P/S(TTM)约5.5x；反向倍数隐含约20%三年营收CAGR",
+      "独立估值锚点：TEM 2026-08-24收盘$66.17、市值约$119.4亿、P/S(TTM)约8.3x、EV/2026E EBITDA约192x；反向倍数隐含约38%三年营收CAGR，高于约25%指引",
       "Personalis每股$16.25待完成交易仍未并入；维持谨慎/中确信，重点监测Q3增长、经营亏损与交易对价"
     ],
-    "summaryEn": "Updated 2026-08-03 (Q2 2026 integrated; primary 8-K Exhibit 99.1 / 10-Q): Q2 revenue was $382.5M (+21.6% YoY), Diagnostics $289.3M (+20%, oncology volume +31%), and Data & Apps $93.2M (+28%). The operating loss widened to $(75.9)M, while $5.6M of GAAP net income was driven mainly by $98.5M of unrealized securities gains; adjusted EBITDA turned positive to $8.0M. FY2026 guidance is $1.595-1.605B revenue and about $65M adjusted EBITDA. Re-anchored to TEM's 2026-07-31 close of $43.87 and about 180.24M shares: approximately $7.91B market cap and 5.5x TTM P/S; Personalis remains pending. Reverse-multiple math shows the price already requires roughly 20% three-year revenue CAGR alongside better profitability, supporting a cautious / medium-conviction stance.",
+    "summaryEn": "Updated 2026-08-25 (FDA clearance for Tempus ECG-PH, plus a valuation re-anchor to the 2026-08-24 close): on 2026-08-24 the company announced FDA 510(k) clearance for Tempus ECG-PH (pulmonary hypertension), the third cleared device in its cardiovascular portfolio. The release disclosed no revenue, pricing, or reimbursement guidance, and FY2026 guidance of $1.595-1.605B revenue and about $65M adjusted EBITDA is unchanged. Q2 fundamentals carry over: revenue $382.5M (+21.6% YoY), operating loss widened to $(75.9)M, and $5.6M of GAAP net income came mainly from $98.5M of unrealized securities gains. Re-anchored to TEM's 2026-08-24 close of $66.17 and the Q2 Form 10-Q cover-page count of about 180.43M shares as of 2026-07-24: approximately $11.94B market cap, 8.3x TTM P/S, and about 192x EV/2026E EBITDA; Personalis remains pending. Reverse-multiple math now implies roughly 38% three-year revenue CAGR — above the company's ~25% guide and its 21.6% latest actual quarter, so the execution cushion has gone negative; the stance stays cautious / medium conviction.",
     "period": "2026H1",
     "versionType": "full-cycle",
     "versionLabel": "2026H1 Full Rerun",
@@ -3373,12 +3374,12 @@
     },
     "reportedPeriod": "Q2 2026",
     "priceSymbol": "TEM",
-    "priceAsOf": "2026-07-31",
+    "priceAsOf": "2026-08-24",
     "stance": "cautious",
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以$43.87、约$79.1亿市值计，TTM P/S约5.5x。若三年后倍数回归4.0x并要求8%年化回报，当前价格隐含约20%营收CAGR；Q2实际增长21.6%且经营亏损扩大，说明市场已要求增长维持并同时改善盈利，安全边际有限。",
-      "en": "At $43.87 and about $7.91B of market cap, TTM P/S is roughly 5.5x. If the multiple normalizes to 4.0x over three years with an 8% hurdle, the price implies about 20% revenue CAGR; Q2 growth was 21.6% while the operating loss widened, so the market already requires durable growth and better profitability, leaving limited margin of safety."
+      "zh": "以2026-08-24收盘$66.17、约$119.4亿市值计，TTM P/S约8.3x、EV/2026E EBITDA约192x。若三年后倍数回归4.0x并要求8%年化回报，当前价格隐含约38%营收CAGR，已高于公司约25%的FY2026指引与21.6%的最近实际季度；Q2经营亏损仍同比走阔。本次倍数扩张完全来自价格（经营输入未变），2026-08-24的ECG-PH清除未附带任何收入指引，无法在数字上支撑该扩张，故估值张力较上一版更紧。",
+      "en": "At the 2026-08-24 close of $66.17 and about $11.94B of market cap, TTM P/S is roughly 8.3x and EV/2026E EBITDA about 192x. If the multiple normalizes to 4.0x over three years with an 8% hurdle, the price implies roughly 38% revenue CAGR — above the company's ~25% FY2026 guide and its 21.6% latest actual quarter — while the Q2 operating loss was still widening year over year. The multiple expansion is entirely price-driven (operating inputs unchanged), and the 2026-08-24 ECG-PH clearance carried no revenue guidance, so it cannot numerically support the expansion; valuation tension is tighter than in the prior version."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -3404,6 +3405,12 @@
         "stance": "cautious",
         "conviction": "medium",
         "price": 43.87
+      },
+      {
+        "date": "2026-08-25",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 66.17
       }
     ],
     "monitoring": [

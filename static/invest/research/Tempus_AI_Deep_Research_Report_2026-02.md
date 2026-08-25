@@ -1,7 +1,7 @@
 # Tempus AI (TEM) Deep Research Report
 
 Coverage date: 2026-02-27
-Last updated: 2026-08-03
+Last updated: 2026-08-25
 Ticker: NASDAQ: TEM
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -19,7 +19,11 @@ This report is the full rerun successor to `tempus-ai-2026-pre-rerun`; the archi
 
 > **2026-08-03 update (Q2 2026 integrated; primary 8-K Exhibit 99.1 / 10-Q).** Tempus reported Q2 2026 (quarter ended 2026-06-30) **after the close on 2026-07-30**. **TEM closed at $43.87 on 2026-07-31**, the next completed US session (S&P Global Market Intelligence; -9.4% vs the 2026-07-20 anchor and -0.9% vs the $44.29 pre-release close on 2026-07-30). The valuation below is re-anchored to $43.87 (see §3.4), and `priceSymbol: TEM` now initializes the price ledger at that dated close.
 
-**Current view (2026-08-03 re-anchor):** Neutral-to-cautious / high-volatility watchlist (stance unchanged). **TEM closed at $43.87 on 2026-07-31** (S&P Global Market Intelligence); applying the ~**180,243,866 shares** (Class A 175,200,077 + Class B 5,043,789) on the Q2 balance sheet (June 30, 2026) gives an approximate **$7.91B standalone market cap**. **Q2 2026** confirmed the central tension: revenue of **$382.5M (+21.6% YoY)**, Diagnostics $289.3M (+20%, oncology volume +31%), Data & Apps $93.2M (+28%); the operating loss *widened* to **$(75.9)M** (from $(61.8)M a year earlier), yet single-quarter GAAP net income turned positive to **+$5.6M / +$0.03** — driven almost entirely by **$98.5M of unrealized securities gains** (non-operating, non-cash), not operating profit; adjusted EBITDA was **$8.0M** (from $(5.6)M). Management **nudged FY2026 revenue guidance up to $1.595-1.605B (~25%)** and reaffirmed ~$65M adjusted EBITDA (both excluding Personalis). Against a Q2-inclusive TTM revenue base of approximately **$1.43B**, standalone P/S(TTM) is about **5.5x**. The pending Personalis consideration and pro forma results are excluded.
+> **2026-08-25 update — FDA clearance for Tempus ECG-PH, and a valuation re-anchor to the 2026-08-24 close.** Per the company's 2026-08-24 press release (BUSINESS WIRE), Tempus received FDA **510(k) clearance** for **Tempus ECG-PH** (pulmonary hypertension), an AI-enabled software device that analyzes standard 12-lead ECGs for signs of elevated mean pulmonary artery pressure (mPAP > 20 mmHg). It is the **third** FDA-cleared device in the company's cardiovascular portfolio, after ECG-AF and ECG-Low EF. **Limits that must be read with it (all the company's own wording):** intended for patients **aged 40 or older with cardiovascular symptoms (dyspnea, fatigue, chest pain, or edema) and no known history of PH**; it returns a binary output only, is **not a stand-alone diagnostic tool**, must not be used for serial monitoring, and must not be used on ECGs with paced rhythms. The release **discloses no revenue, pricing, reimbursement, or volume guidance**, so the clearance **does not change** FY2026 revenue guidance ($1.595-1.605B) or the ~$65M adjusted EBITDA target, and no multiple below moves because of this event. Source: [Tempus press release, 2026-08-24](https://investors.tempus.com/news-releases/news-release-details/tempus-receives-fda-clearance-its-ai-product-intended-detect).
+>
+> **Valuation re-anchored at the same time.** Publishing the event above requires refreshing the valuation frame to the current price: TEM closed at **$66.17 on 2026-08-24** (Nasdaq completed regular session), **+50.8%** against the superseded historical **$43.87** anchor of 2026-07-31. Every multiple in §3.4 and §8 is recomputed at that close; share count, cash, debt, and the TTM revenue base are **unchanged** (still the Q2 2026 10-Q). **The stance remains neutral-to-cautious / medium conviction** — not because the price rose (price alone is never a reason for a stance), but as the conclusion of the recomputation: a clearance carrying no guidance cannot offset an execution bar raised by P/S(TTM) moving from **~5.5x to ~8.3x** and EV/2026E EBITDA from **~130x to ~192x**. The valuation tension is **tighter than in the 08-03 version, not looser**.
+
+**Current view (2026-08-25 re-anchor, at the 2026-08-24 close):** Neutral-to-cautious / high-volatility watchlist (stance unchanged). **TEM closed at $66.17 on 2026-08-24** (Nasdaq completed regular session); applying the latest share count disclosed in the Q2 Form 10-Q cover page — **180,434,756 shares as of 2026-07-24** (Class A 175,390,967 + Class B 5,043,789) — gives an approximate **$11.94B standalone market cap**. (**Superseded historical anchor:** the 2026-07-31 close of $43.87 and ~$7.91B market cap.) **Q2 2026** confirmed the central tension: revenue of **$382.5M (+21.6% YoY)**, Diagnostics $289.3M (+20%, oncology volume +31%), Data & Apps $93.2M (+28%); the operating loss *widened* to **$(75.9)M** (from $(61.8)M a year earlier), yet single-quarter GAAP net income turned positive to **+$5.6M / +$0.03** — driven almost entirely by **$98.5M of unrealized securities gains** (non-operating, non-cash), not operating profit; adjusted EBITDA was **$8.0M** (from $(5.6)M). Management **nudged FY2026 revenue guidance up to $1.595-1.605B (~25%)** and reaffirmed ~$65M adjusted EBITDA (both excluding Personalis). Against a Q2-inclusive TTM revenue base of approximately **$1.43B**, standalone P/S(TTM) is about **8.3x**. The pending Personalis consideration and pro forma results are excluded.
 
 **Investment Verdict:**
 - Long-term theme (3-5 years): **Bullish**, **moderate** conviction
@@ -27,11 +31,11 @@ This report is the full rerun successor to `tempus-ai-2026-pre-rerun`; the archi
 
 **Changes vs the February report:**
 
-| Item | February baseline | Current frame (2026-08-03, incl. Q2 2026) |
+| Item | February baseline | Current frame (2026-08-25, incl. Q2 2026) |
 |------|-------------------|-----------------------------------------|
-| Price / market-cap anchor (old → now) | market cap ~$9-10B (old; no explicit February price) | **$43.87 / standalone market cap ~$7.91B (2026-07-31 close, ~180.244M shares)** |
-| P/S (TTM) (old → now) | ~8x (old caliber) | **~5.5x (Q2 caliber)** |
-| EV/2026E EBITDA (old → now) | ~150x+ (old caliber) | **~130x** (standalone, ex-Personalis) |
+| Price / market-cap anchor (old → now) | market cap ~$9-10B (old; no explicit February price) | **$66.17 / standalone market cap ~$11.94B (2026-08-24 close, ~180.435M shares disclosed as of 2026-07-24)** |
+| P/S (TTM) (old → now) | ~8x (old caliber) | **~8.3x (Q2 revenue caliber, 2026-08-24 price)** |
+| EV/2026E EBITDA (old → now) | ~150x+ (old caliber) | **~192x** (standalone, ex-Personalis) |
 | 52-week low (old → now) | $36.22 (old) | **$41.55** (2026-07-29 close, updated range low; prior $41.73) |
 | Q1 2026 actuals | not yet reported in February frame | revenue $348.1M (+36.1%); GAAP net loss $(125.9)M / −$0.71; cash $643.8M (historical quarter) |
 | **Q2 2026 actuals (new)** | not yet reported in February frame | **revenue $382.5M (+21.6%); operating loss $(75.9)M; GAAP net income +$5.6M / +$0.03 (incl. $98.5M unrealized securities gains); adj. EBITDA $8.0M; cash & securities $820.7M** |
@@ -40,15 +44,15 @@ This report is the full rerun successor to `tempus-ai-2026-pre-rerun`; the archi
 | Thesis emphasis | awaiting profitability-inflection confirmation | Q2 integrated — topline still fast (+22%), adj. EBITDA positive, but operating loss widened and GAAP turned positive only on non-operating gains |
 | Unchanged | 126% NRR, dual-class governance, the data-flywheel thesis, and the CEO's cumulative selling remain the structural frame | same |
 
-**Data framing:** This 2026-08-03 update integrates Q2 2026 actuals (reported 2026-07-30, period ended 2026-06-30) on top of the audited FY2025 base; the price/market-cap anchor is the 2026-07-31 close and the share count is the Q2 balance sheet (June 30, 2026, ~180.244M). TTM revenue is recomputed as FY2025 + H1'26 − H1'25 = ~$1.43B. FY2025 / Q4 2025 figures remain the annual baseline and Q1 2026 is a historical quarter; superseded price/market-cap/multiple anchors are preserved as strikethrough or dated/historical context. The Personalis transaction is pending and excluded from pro forma revenue, cash, debt, share count, and multiples.
+**Data framing:** This 2026-08-03 update integrates Q2 2026 actuals (reported 2026-07-30, period ended 2026-06-30) on top of the audited FY2025 base. **The price anchor was updated on 2026-08-25 to the 2026-08-24 close of $66.17**, and the share-count assumption was refreshed to the Q2 Form 10-Q cover-page count as of 2026-07-24 (~180.435M); the 2026-07-31 close and the June 30 balance-sheet share count previously used are superseded and historical. TTM revenue is recomputed as FY2025 + H1'26 − H1'25 = ~$1.43B. FY2025 / Q4 2025 figures remain the annual baseline and Q1 2026 is a historical quarter; superseded price/market-cap/multiple anchors are preserved as dated/historical context. The Personalis transaction is pending and excluded from pro forma revenue, cash, debt, share count, and multiples.
 
 **Key Metrics:**
 
-| Metric | Value |
+| Metric | Value (2026-08-25 re-anchor, at the 2026-08-24 close) |
 |--------|-------|
 | Ticker | NASDAQ: TEM |
-| Current Price (2026-07-31 close) | **$43.87** |
-| Standalone Market Cap | **~$7.91B** (~180.244M shares, June 30, 2026) |
+| Current Price (2026-08-24 close) | **$66.17** |
+| Standalone Market Cap | **~$11.94B** (~180.435M shares disclosed as of July 24, 2026) |
 | Q2 2026 Revenue | **$382.5M (+21.6% YoY)** (Q1 2026 $348.1M / +36.1%, historical quarter) |
 | Q2 2026 GAAP Net Income / Diluted EPS | **+$5.6M / +$0.03** (incl. $98.5M unrealized securities gains; operating loss $(75.9)M) |
 | Q2 2026 Gross Profit / Margin | **$246.5M (+26% YoY) / ~64.4%** |
@@ -173,20 +177,22 @@ Tempus collects first-party data directly through its diagnostics business, bypa
 
 ### 3.4 Valuation
 
-**2026-08-03 re-anchor.** The standalone multiples below are recomputed at the **2026-07-31 close of $43.87** and **~180,243,866 shares** (Q2 balance sheet, June 30, 2026), yielding approximately **$7.91B** of market capitalization. Q2 carrying debt of about **$1.361B** less **$820.7M** of cash, restricted cash, and marketable securities gives net debt of about **$0.54B** and standalone EV of approximately **$8.45B**. The revenue denominators are approximately **$1.43B TTM** (FY2025 $1.27B + H1'26 $730.6M − H1'25 $570.4M) and the $1.595-1.605B FY2026 guidance midpoint; the EBITDA denominator is the ~$65M FY2026 guidance figure. Personalis consideration and results are excluded.
+**2026-08-25 re-anchor (at the 2026-08-24 close).** The standalone multiples below are recomputed at the **2026-08-24 close of $66.17** and the Q2 Form 10-Q cover-page count of **180,434,756 shares as of 2026-07-24**, yielding approximately **$11.94B** of market capitalization. Q2 carrying debt of about **$1.361B** less **$820.7M** of cash, restricted cash, and marketable securities gives net debt of about **$0.54B** (unchanged this update) and standalone EV of approximately **$12.48B**. The revenue denominators are approximately **$1.43B TTM** (FY2025 $1.27B + H1'26 $730.6M − H1'25 $570.4M, unchanged) and the $1.595-1.605B FY2026 guidance midpoint; the EBITDA denominator is the ~$65M FY2026 guidance figure. Personalis consideration and results are excluded.
 
-| Metric | Value (2026-08-03 re-anchor) |
+**Superseded historical caliber (audit only):** the prior version used the 2026-07-31 close of $43.87 for a ~$7.91B market cap and ~$8.45B EV, giving P/S(TTM) of ~5.5x and EV/2026E EBITDA of ~130x. Only the price changed in this update; every operating input on both sides of the ratio is unchanged.
+
+| Metric | Value (2026-08-25 re-anchor, at the 2026-08-24 close) |
 |--------|-------|
-| P/S (TTM) | **~5.5x** |
-| P/S (2026E) | **~4.9x** |
-| EV/Revenue (TTM) | **~5.9x** |
-| EV/Revenue (2026E) | **~5.3x** |
+| P/S (TTM) | **~8.3x** |
+| P/S (2026E) | **~7.5x** |
+| EV/Revenue (TTM) | **~8.7x** |
+| EV/Revenue (2026E) | **~7.8x** |
 | Forward P/E | N/A (still operating-loss) |
-| EV/2026E EBITDA | **~130x** |
+| EV/2026E EBITDA | **~192x** |
 
-**What's priced in (reverse multiple):** At roughly 5.5x TTM sales, assume the multiple normalizes to 4.0x over three years and require an 8% annual return. The implied revenue CAGR is `(5.5 / 4.0)^(1/3) × 1.08 − 1 ≈ 20%`. Management's FY2026 guide is around 25% growth, but Q2 was 21.6% and the operating loss widened; the current price therefore already requires growth near the Q2 rate while profitability improves. That leaves a narrow positive-execution cushion rather than a clear margin of safety.
+**What's priced in (reverse multiple):** At roughly 8.3x TTM sales, assume the multiple normalizes to 4.0x over three years and require an 8% annual return. The implied revenue CAGR is `(8.34 / 4.0)^(1/3) × 1.08 − 1 ≈ 38%`. Management's FY2026 guide is around 25% growth and Q2 was 21.6% with a widening operating loss — **this is the sharpest single consequence of the re-anchor**: the implied growth rate (~38%) now sits well above the company's own guidance (~25%) and well above the most recent actual quarter (21.6%). In the prior version the implied rate was about 20%, below guidance, which could still be called a narrow positive-execution cushion. At the 2026-08-24 close that cushion has gone negative — the price demands more growth than the company has promised.
 
-**Assessment (2026-08-03):** Re-anchored P/S of about **5.5x** (compressed on both a lower price and a higher TTM base) is still not cheap, and full-year guidance implies deceleration to ~25%; the **Q2 operating loss widened and GAAP turned positive only on non-operating securities gains**, so earnings quality is unproven. EV/2026E EBITDA of about **130x** still embeds a demanding profitability inflection. The pending Personalis transaction adds strategic MRD optionality but also unresolved stock issuance, possible cash use, and integration risk; it is not included in these multiples.
+**Assessment (2026-08-25, at the 2026-08-24 close):** Re-anchored P/S of about **8.3x** runs the opposite direction from the prior version: **the numerator (price) rose 50.8% on its own while not a single operating input on either side of the ratio changed**, so the entire multiple expansion is price. Full-year guidance still implies deceleration to ~25%, and the **Q2 operating loss widened while GAAP turned positive only on non-operating securities gains**, so earnings quality remains unproven. EV/2026E EBITDA of about **192x** places the required profitability inflection higher than the 08-03 version did. The 2026-08-24 FDA clearance of ECG-PH is genuine progress on the product axis, but the company published no revenue or reimbursement guidance alongside it, so it cannot numerically support this multiple expansion. The pending Personalis transaction adds strategic MRD optionality but also unresolved stock issuance, possible cash use, and integration risk; it is not included in these multiples.
 
 ---
 
@@ -303,7 +309,7 @@ Eric Lefkofsky has sold $127M+ in stock cumulatively, never buying. Under the du
 20.6% short interest means significant capital is betting on a decline. High short interest is both a risk (a short report could surface at any time) and a potential catalyst (a short squeeze).
 
 **5. Valuation not cheap (moderate-high conviction)**
-Standalone P/S of ~5.5x and EV/2026E EBITDA of ~130x (2026-08-03 re-anchor) for a company still posting operating losses and unproven GAAP earnings quality remain demanding despite compressing from prior caliber; the figures also exclude the pending Personalis consideration and pro forma results.
+Standalone P/S of ~8.3x and EV/2026E EBITDA of ~192x (2026-08-25 re-anchor, at the 2026-08-24 close) for a company still posting operating losses and unproven GAAP earnings quality are demanding, and this expansion is driven entirely by price; the figures also exclude the pending Personalis consideration and pro forma results.
 
 **6. Data licensing scale vs diagnostics (moderate conviction)**
 Data & Apps grew +28% in Q2 (Insights +36%), still only ~24% of revenue; if the high-margin business can't keep outgrowing diagnostics, margin-expansion room is limited.
@@ -336,7 +342,7 @@ Data & Apps grew +28% in Q2 (Insights +36%), still only ~24% of revenue; if the 
 | Competitive Moat | 7/10 | Strong data moat, but Roche/Guardant competitive |
 | Financial Health | 5/10 | Cash-rich (Q2 $820.7M) but still operating-loss; Q2 GAAP profit was non-operating |
 | Management | 4/10 | CEO persistent selling + dual-class governance |
-| Valuation | 5/10 | Standalone P/S ~5.5x (2026-08-03 re-anchor), compressed but not cheap; transaction-adjusted valuation not yet knowable |
+| Valuation | 4/10 | Standalone P/S ~8.3x (2026-08-25 re-anchor, at the 2026-08-24 close); the expansion is entirely price-driven, and transaction-adjusted valuation is not yet knowable |
 | Catalyst Clarity | 7/10 | MRD ramp, pending Personalis transaction, Merck deal, EBITDA inflection, FDA pathways |
 | Growth Sustainability | 7/10 | Q2 +21.6% (Q1 +36%), tracking toward ~25% full-year guide |
 
@@ -344,13 +350,13 @@ Data & Apps grew +28% in Q2 (Insights +36%), still only ~24% of revenue; if the 
 
 Tempus AI is precision medicine's most ambitious "full-stack" player — diagnostics + data + AI in a unique flywheel that is one of a kind in the industry. **Q2 2026 revenue of $382.5M (+21.6%)**, 126% net retention, adjusted EBITDA turning positive (+$8.0M), and a nudged-up full-year outlook prove strong product-market fit with a profitability path beginning to show.
 
-But the other side is equally prominent: the **Q2 operating loss widened to $(75.9)M, the single-quarter GAAP profit came entirely from $98.5M of non-operating securities gains, and the H1 GAAP net loss is still $(120.3)M**, full-year guidance implies deceleration to ~25%, the CEO has sold $127M+ without a single purchase, and 20%+ short interest signals significant bearish conviction. Standalone P/S of ~5.5x (2026-08-03 re-anchor) still requires strong execution, while the pending Personalis transaction adds unmodeled consideration and integration risk.
+But the other side is equally prominent: the **Q2 operating loss widened to $(75.9)M, the single-quarter GAAP profit came entirely from $98.5M of non-operating securities gains, and the H1 GAAP net loss is still $(120.3)M**, full-year guidance implies deceleration to ~25%, the CEO has sold $127M+ without a single purchase, and 20%+ short interest signals significant bearish conviction. Standalone P/S of ~8.3x and EV/2026E EBITDA of ~192x (2026-08-25 re-anchor at the 2026-08-24 close) require stronger execution than the prior frame, while the pending Personalis transaction adds unmodeled consideration and integration risk.
 
 **Risk-matching characteristics (descriptive, not investment advice):**
 - Volatility: 20%+ short interest implies high volatility, calling for a risk budget appropriate to a high-volatility, high-beta asset
 - Time horizon: GAAP profitability may remain 2-3 years out, fitting a long-term lens rather than a near-term certainty mandate
 - Governance: dual-class structure + persistent CEO selling are structural features to factor in beforehand
-- Valuation sensitivity: standalone P/S ~5.5x / EV-EBITDA ~130x (2026-08-03 re-anchor) is highly sensitive to the profitability inflection; Personalis consideration is not yet modeled
+- Valuation sensitivity: standalone P/S ~8.3x / EV-EBITDA ~192x (2026-08-25 re-anchor, at the 2026-08-24 close) is highly sensitive to the profitability inflection; Personalis consideration is not yet modeled
 - Drawdown: the trailing 52-week range shows 30-50% drawdowns are possible and are better treated as a base case than a tail
 
 **Key watch point (2026-08-03 update):** Q2 2026 (reported Jul 30) is now integrated — revenue +21.6%, adjusted EBITDA positive, but the operating loss widened and GAAP turned positive only on securities gains. The next window is **Q3 2026**: whether growth stabilizes at ~25% and the operating-loss curve bends. If growth holds and adjusted EBITDA tracks toward the ~$65M target, the valuation has support; if growth decelerates further or the operating loss widens, the short side may intensify its attack.
@@ -369,7 +375,7 @@ But the other side is equally prominent: the **Q2 operating loss widened to $(75
 | Profitability | GAAP loss | GAAP loss | GAAP near breakeven | GAAP profitable / near breakeven |
 | Data-licensing business | Yes (core) | Small | Small | None |
 
-**Key assumptions (2026-08-03 update):** FY2025 revenue $1.27B, organic growth ~33.5%, 126% NRR, and the $759.7M FY2025 liquidity balance are the company's audited annual baseline; **Q2 2026 actuals (revenue $382.5M / +21.6%, Diagnostics $289.3M, Data & Apps $93.2M, gross profit $246.5M, operating loss $(75.9)M, GAAP net income +$5.6M / +$0.03 incl. $98.5M unrealized securities gains, adjusted EBITDA $8.0M, H1 net loss $(120.3)M, cash & securities $820.7M) are from the Q2 2026 earnings release (8-K Exhibit 99.1) and Form 10-Q (period ended 2026-06-30)**; Q1 2026 (revenue $348.1M, GAAP net loss $(125.9)M, EPS -$0.71) is a historical quarter; 2026 guidance of $1.595-1.605B revenue and ~$65M adjusted EBITDA is management guidance (ex-Personalis); **standalone valuation multiples use the 2026-07-31 close of $43.87, ~180,243,866 shares from the Q2 balance sheet (Class A 175,200,077 + Class B 5,043,789, June 30, 2026), TTM revenue of ~$1.43B (FY2025 + H1'26 $730.6M − H1'25 $570.4M), Q2 debt carrying amounts of ~$1.361B, and Q2 liquidity of $820.7M.** Personalis consideration and results are excluded. Precision-medicine market sizes are third-party industry forecasts; peer revenue is each company's latest-disclosed/guidance approximation; 20.6% short interest and $127M cumulative CEO selling are February-basis caliber, to be refreshed on later disclosures.
+**Key assumptions (2026-08-25 valuation re-anchor):** FY2025 revenue $1.27B, organic growth ~33.5%, 126% NRR, and the $759.7M FY2025 liquidity balance are the company's audited annual baseline; **Q2 2026 actuals (revenue $382.5M / +21.6%, Diagnostics $289.3M, Data & Apps $93.2M, gross profit $246.5M, operating loss $(75.9)M, GAAP net income +$5.6M / +$0.03 incl. $98.5M unrealized securities gains, adjusted EBITDA $8.0M, H1 net loss $(120.3)M, cash & securities $820.7M) are from the Q2 2026 earnings release (8-K Exhibit 99.1) and Form 10-Q (period ended 2026-06-30)**; Q1 2026 (revenue $348.1M, GAAP net loss $(125.9)M, EPS -$0.71) is a historical quarter; 2026 guidance of $1.595-1.605B revenue and ~$65M adjusted EBITDA is management guidance (ex-Personalis); **standalone valuation multiples use the 2026-08-24 close of $66.17, 180,434,756 shares from the Q2 Form 10-Q cover page as of 2026-07-24 (Class A 175,390,967 + Class B 5,043,789), TTM revenue of ~$1.43B (FY2025 + H1'26 $730.6M − H1'25 $570.4M), Q2 debt carrying amounts of ~$1.361B, and Q2 liquidity of $820.7M.** Personalis consideration and results are excluded. Precision-medicine market sizes are third-party industry forecasts; peer revenue is each company's latest-disclosed/guidance approximation; 20.6% short interest and $127M cumulative CEO selling are February-basis caliber, to be refreshed on later disclosures.
 
 **Sources:**
 
@@ -382,7 +388,7 @@ But the other side is equally prominent: the **Q2 operating loss widened to $(75
 - Joint Tempus-Personalis announcement furnished on Form 8-K, 2026-07-20: `https://www.sec.gov/Archives/edgar/data/1717115/000119312526308469/d124162dex991.htm`
 - Tempus Q2 2026 reporting date announcement, 2026-07-09: `https://investors.tempus.com/news-releases/news-release-details/tempus-report-second-quarter-2026-financial-results-july-30`
 - FY2025 10-K base and Form 4 (Lefkofsky) insider-sale filings via Tempus SEC filings: `https://investors.tempus.com/financials/sec-filings`
-- Price history: `https://stockanalysis.com/stocks/tem/history/` (S&P Global Market Intelligence data; **TEM $43.87 at the 2026-07-31 close**; historical anchors $48.41 at the 2026-07-20 close, $41.55 at the 2026-07-29 close, and the $44.29 pre-release close on 2026-07-30). Market cap is independently calculated from the 2026-07-31 close and the Q2 10-Q cover share count.
+- Price history: the current anchor is **TEM $66.17 at the 2026-08-24 close**, taken from the [Nasdaq TEM quote](https://www.nasdaq.com/market-activity/stocks/tem) (completed regular session). Historical anchors (`https://stockanalysis.com/stocks/tem/history/`, S&P Global Market Intelligence data): $43.87 at the 2026-07-31 close, $48.41 at the 2026-07-20 close, $41.55 at the 2026-07-29 close, and the $44.29 pre-release close on 2026-07-30. Market cap is independently calculated from the 2026-08-24 close and the Q2 Form 10-Q cover-page share count as of 2026-07-24.
 - Peer revenue: Guardant Health and Natera FY2025 guidance and Exact Sciences public disclosures; third-party industry market-size forecasts
 
 ---

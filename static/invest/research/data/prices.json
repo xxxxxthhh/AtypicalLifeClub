@@ -234,11 +234,11 @@
       "symbol": "TEM",
       "status": "ok",
       "attemptedAt": "2026-08-24",
-      "baseDate": "2026-07-31",
-      "basePrice": 43.87,
+      "baseDate": "2026-08-24",
+      "basePrice": 66.17,
       "lastDate": "2026-08-24",
       "lastClose": 66.17,
-      "changePct": 50.8,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
