@@ -672,6 +672,18 @@
       "lastClose": 37.26,
       "changePct": -0.3,
       "currency": "USD"
+    },
+    {
+      "reportId": "salesforce-2026",
+      "symbol": "CRM",
+      "status": "ok",
+      "attemptedAt": "2026-08-26",
+      "baseDate": "2026-08-26",
+      "basePrice": 206.05,
+      "lastDate": "2026-08-26",
+      "lastClose": 206.05,
+      "changePct": 0.0,
+      "currency": "USD"
     }
   ]
 }

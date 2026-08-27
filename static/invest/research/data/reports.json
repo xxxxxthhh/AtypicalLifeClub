@@ -4329,23 +4329,118 @@
     ],
     "category": "tech",
     "date": "2026-02-11",
-    "lastUpdate": "2026-07-31",
-    "period": "2026H1",
+    "lastUpdate": "2026-08-27",
+    "period": "FY2027 Q2",
     "versionType": "incremental",
-    "versionLabel": "2026H1 Incremental Update",
+    "versionLabel": "FY2027 Q2 Incremental Update",
     "file": "/invest/research/reports/view.html?id=salesforce-2026",
     "markdownFiles": {
       "zh": "/invest/research/Salesforce_深度研究报告_2026-02.md",
       "en": "/invest/research/Salesforce_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "FY2026营收$41.5B, FCF $14.4B(+16%), Non-GAAP利润率34.1%, GAAP营业利润率20.1%",
-      "Agentforce + Data 360合计ARR $2.9B+(+200%+ YoY), 29,000+笔交易, 交付24亿次工作单元",
-      "$500亿回购授权, FY26回购$12.7B+首次股息; Forward P/E 11.22x, P/S(TTM) 2.92x, FCF yield ~11.5%",
-      "YTD -44%, 已是SaaS同行中估值最低; 分析师共识$250(+66%上行), 空头8.61%暗含轧空可能"
+      "2026-08-26盘后发布FY2027 Q2：营收$113.45亿(+11% YoY)、订阅$108.20亿(+12%)、cRPO $335亿(+14%，连续三季10%→13%→14%加速)",
+      "FY2027全年营收指引上调$2亿至$461-464亿(+11-12%)，Non-GAAP EPS指引$16.67-16.71；Contentful与Fin预计FY27 Q3交割",
+      "本季核心张力：营收+11%而GAAP经营利润同比持平($23.31亿 vs $23.32亿)，GAAP经营利润率22.8%→20.5%；EPS +119%来自$26.13亿证券收益与14.7%股数下降，非经营杠杆",
+      "资产负债表转向：债务$144.39亿→$392.88亿，净现金转为净债务$278.85亿，季度利息支出$0.67亿→$4.73亿；$250亿ASR初始交付1.03亿股，最终结算预计2026年10月",
+      "按2026-08-26收盘$206.05重锚：市值约$1,688亿、EV约$1,966亿、P/S(TTM) 3.84x、FCF yield约9.0%、Forward P/E 12.35x（剔除证券收益核心口径约15.0x）；立场看多、信心下调至中"
     ],
-    "summaryEn": "Global CRM leader. FY2026 revenue $41.5B (+10%), FCF $14.4B (+16%), Non-GAAP margin 34.1%. Agentforce + Data 360 combined ARR $2.9B+ (+200% YoY). 2026-06-25 update: Stock crashed from $193 to ~$151 (YTD -40%), market cap $125.11B, Forward P/E compressed from ~17x to 11.22x, P/S(TTM) 2.92x, FCF yield ~11.5%. Business fundamentals (CRM dominance + margin expansion + $2.9B AI ARR) are intact, but market pricing has reached extreme value territory. Analyst consensus $250 (+66% upside), 8.61% short interest.",
-    "summary": "全球CRM霸主，FY2026营收$41.5B(+10%), FCF $14.4B(+16%), Non-GAAP利润率34.1%。Agentforce + Data 360合计ARR $2.9B+(+200% YoY)。2026-06-25更新: 股价从$193暴跌至~$151(YTD -40%), 市值$1,251亿, Forward P/E从~17x压缩至11.22x, P/S(TTM) 2.92x, FCF yield ~11.5%。业务基本面(CRM霸主+利润扩张+$2.9B AI ARR)未变, 但市场定价已进入极端价值区域。分析师共识$250(+66%上行), 空头占比8.61%。"
+    "summaryEn": "Global CRM leader. Updated 2026-08-27 (FY2027 Q2 results plus a re-anchor to the 2026-08-26 close): quarterly revenue was $11.345B (+11% YoY), subscription and support $10.820B (+12%), and cRPO $33.5B (+14%, accelerating from +13% in Q1). The company raised FY2027 revenue guidance by $200M to $46.1-46.4B (+11-12%) and lifted non-GAAP EPS guidance to $16.67-16.71. Margin expansion stalled this quarter, however: GAAP operating income of $2.331B was flat against $2.332B a year ago, GAAP operating margin fell from 22.8% to 20.5%, and GAAP EPS of $4.29 (+119%) came mainly from $2.613B of unrealized strategic-investment gains plus a 14.7% lower share count. The balance sheet moved from roughly net cash to $27.885B of net debt (debt $39.288B), with quarterly interest expense rising to $473M. Re-anchored to CRM's 2026-08-26 close of $206.05 and the 10-Q cover-page count of about 819M shares: market cap about $168.8B, EV about $196.6B, TTM P/S 3.84x, TTM EV/EBITDA 15.54x, FCF yield about 9.0%, and a company-basis forward P/E of 12.35x. Because the FY27 non-GAAP guide includes the $2.98 H1 per-share impact of strategic-investment gains disclosed by the issuer, core EPS is about $13.71 and the core forward P/E about 15.0x. The deep-value gap has narrowed materially; the bullish lean is maintained but conviction is lowered to medium. The release came after the close, so a re-anchor is due after the 2026-08-27 session.",
+    "summary": "全球CRM霸主。2026-08-27更新（FY2027 Q2财报＋按2026-08-26收盘重锚）：季度营收$113.45亿(+11% YoY)、订阅与支持$108.20亿(+12%)、cRPO $335亿(+14%，较Q1的13%继续加速)，公司将FY2027营收指引上调$2亿至$461-464亿(+11-12%)、Non-GAAP EPS指引升至$16.67-16.71。但利润扩张本季停滞：GAAP经营利润$23.31亿同比持平(上年$23.32亿)、GAAP经营利润率由22.8%降至20.5%，GAAP EPS $4.29(+119%)主要来自$26.13亿战略投资未实现收益与14.7%的股数下降。资产负债表由近似净现金转为净债务$278.85亿(债务$392.88亿)，季度利息支出升至$4.73亿。按CRM 2026-08-26收盘$206.05与10-Q封面约8.19亿股重锚：市值约$1,688亿、EV约$1,966亿、P/S(TTM) 3.84x、EV/EBITDA(TTM) 15.54x、FCF yield约9.0%、公司口径Forward P/E 12.35x；因发行人披露FY27 H1战略投资收益对Non-GAAP摊薄EPS的影响为$2.98，剔除后核心EPS约$13.71、Forward P/E约15.0x。深度价值缺口明显收窄，维持看多但信心下调至中。财报于收盘后发布，2026-08-27收盘后需再次重锚。",
+    "priceSymbol": "CRM",
+    "priceAsOf": "2026-08-26",
+    "reportedPeriod": "FY2027 Q2",
+    "stance": "constructive",
+    "conviction": "medium",
+    "stanceHistory": [
+      {
+        "date": "2026-08-27",
+        "stance": "constructive",
+        "conviction": "medium",
+        "price": 206.05
+      }
+    ],
+    "stanceRationale": {
+      "zh": "按2026-08-26收盘$206.05、约8.19亿股（10-Q封面，截至2026-05-21）计，市值约$1,688亿、EV约$1,966亿、P/S(TTM) 3.84x、FCF yield约9.0%。公司口径Forward P/E 12.35x；但FY2027 Non-GAAP EPS指引$16.67-16.71并未剔除战略投资损益，发行人披露FY27 H1该项收益对Non-GAAP摊薄EPS的影响为$2.98，因此核心EPS约$13.71、Forward P/E约15.0x。维持看多的依据是需求侧确已加速：cRPO $335亿(+14%，连续三季10%→13%→14%)、FY27营收指引上调至$461-464亿、Agentforce + Data 360合计ARR约$39亿(+210%)。信心由中高下调至medium的依据是算术而非价格：营收+11%而GAAP经营利润同比持平($23.31亿 vs $23.32亿)、GAAP经营利润率22.8%→20.5%，EPS +119%全部来自证券收益与14.7%的股数下降；同时债务由$144.39亿升至$392.88亿、净现金转为净债务$278.85亿。本次锚点为财报公布前收盘价，2026-08-27收盘后需再次重锚。",
+      "en": "At the 2026-08-26 close of $206.05 on about 819M shares (10-Q cover page, as of 2026-05-21), market cap is about $168.8B, EV about $196.6B, TTM P/S 3.84x and FCF yield about 9.0%. Company-basis forward P/E is 12.35x; but the FY2027 non-GAAP EPS guide of $16.67-16.71 does not exclude strategic-investment gains, and the issuer disclosed that H1 gains contributed $2.98 to non-GAAP diluted EPS. Removing that disclosed impact gives core EPS of about $13.71 and a forward P/E of about 15.0x. The bullish lean is held because demand demonstrably accelerated: cRPO $33.5B (+14%, three straight quarters of 10% then 13% then 14%), FY27 revenue guidance raised to $46.1-46.4B, and combined Agentforce & Data 360 ARR of about $3.9B (+210%). Conviction is lowered from medium-high to medium on arithmetic rather than price: revenue rose 11% while GAAP operating income was flat year over year ($2.331B vs $2.332B) and GAAP operating margin fell from 22.8% to 20.5%, with the +119% EPS coming entirely from securities gains and a 14.7% lower share count; debt also rose from $14.439B to $39.288B, turning net cash into $27.885B of net debt. This anchor is the pre-release close, so the report must be re-anchored after the 2026-08-27 session."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "FY2027 Q3 cRPO同比增速维持至少14%、GAAP经营利润率恢复同比扩张、全年自由现金流增长指引维持或上调，且按财报后完整交易日重锚后仍存在正向预期差，则上调确信度。",
+        "en": "Raise conviction if FY2027 Q3 cRPO growth holds at 14% or better, GAAP operating margin returns to year-over-year expansion, the full-year free-cash-flow growth guide is maintained or raised, and a positive expectation gap remains after re-anchoring to a completed post-release session.",
+        "monitoringIds": ["crpo-growth-durability", "gaap-operating-margin-recovery", "leverage-and-fcf-durability"]
+      },
+      "downgrade": {
+        "zh": "cRPO同比增速跌破12%，GAAP经营利润率继续低于上年同期且自由现金流指引下调，或杠杆与并购整合持续侵蚀现金回报，则下调至中性观察或谨慎。",
+        "en": "Move to neutral-watch or cautious if cRPO growth falls below 12%, GAAP operating margin remains below the prior-year level alongside a free-cash-flow guide cut, or leverage and acquisition integration continue to erode cash returns.",
+        "monitoringIds": ["crpo-growth-durability", "gaap-operating-margin-recovery", "leverage-and-fcf-durability"]
+      }
+    },
+    "monitoring": [
+      {
+        "id": "gaap-operating-margin-recovery",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "GAAP经营利润率能否重回同比扩张",
+          "en": "Whether GAAP operating margin returns to year-over-year expansion"
+        },
+        "trigger": {
+          "zh": "营收增长时GAAP经营利润率仍同比下滑",
+          "en": "GAAP operating margin still declines year over year while revenue grows"
+        },
+        "latest": {
+          "zh": "FY27 Q2为20.5%，同比-2.3pt；营收+11%而GAAP经营利润$23.31亿同比持平（上年$23.32亿）",
+          "en": "FY27 Q2 was 20.5%, down 2.3pts YoY; revenue rose 11% while GAAP operating income of $2.331B was flat versus $2.332B a year ago"
+        },
+        "nextCheck": "FY2027 Q3 results (timing not yet issuer-confirmed)",
+        "nextCheckDate": "2026-11",
+        "reading": "breached",
+        "readingAsOf": "2026-08-27"
+      },
+      {
+        "id": "crpo-growth-durability",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "cRPO同比增速能否守住14%",
+          "en": "Whether cRPO growth holds at 14% year over year"
+        },
+        "trigger": {
+          "zh": "cRPO同比增速跌回12%以下",
+          "en": "cRPO year-over-year growth falls back below 12%"
+        },
+        "latest": {
+          "zh": "FY27 Q2 cRPO $335亿，+14%（固定汇率同为+14%）；连续三季10%→13%→14%，Q3指引约+14%",
+          "en": "FY27 Q2 cRPO was $33.5B, +14% (also +14% in constant currency); three straight quarters of 10% then 13% then 14%, with Q3 guided to about +14%"
+        },
+        "nextCheck": "FY2027 Q3 results (timing not yet issuer-confirmed)",
+        "nextCheckDate": "2026-11",
+        "reading": "within",
+        "readingAsOf": "2026-08-27"
+      },
+      {
+        "id": "leverage-and-fcf-durability",
+        "thesis": "bear",
+        "theme": "leverage-solvency",
+        "metric": {
+          "zh": "净债务与利息支出对自由现金流的挤压",
+          "en": "Net debt and interest expense pressure on free cash flow"
+        },
+        "trigger": {
+          "zh": "FY2027自由现金流增速指引（约4-5%）被下修",
+          "en": "The FY2027 free-cash-flow growth guide of about 4-5% is cut"
+        },
+        "latest": {
+          "zh": "2026-07-31净债务$278.85亿（债务$392.88亿、现金及有价证券$114.03亿）；Q2利息支出$4.73亿（上年$0.67亿）；FY27 OCF/FCF增速指引维持约4-5%；按FY27约4-5%的FCF增速指引推算全年约$150.50亿，减去H1实际$76.54亿后隐含H2约$73.96亿，低于H2 FY26实际的$75.00亿，即指引隐含下半年FCF同比约-1.4%（自算）",
+          "en": "Net debt was $27.885B as of 2026-07-31 (debt $39.288B, cash and marketable securities $11.403B); Q2 interest expense was $473M versus $67M a year ago; FY27 OCF/FCF growth guidance maintained at about 4-5%; the FY27 guide of about 4-5% FCF growth implies roughly $15.050B for the year, and netting H1 actual of $7.654B leaves about $7.396B implied for H2 versus H2 FY26 actual of $7.500B — the guide therefore embeds a roughly 1.4% year-over-year decline in second-half free cash flow (our own calculation)"
+        },
+        "nextCheck": "FY2027 Q3 results (timing not yet issuer-confirmed)",
+        "nextCheckDate": "2026-11",
+        "reading": "within",
+        "readingAsOf": "2026-08-27"
+      }
+    ]
   },
   {
     "id": "coinbase-2026-pre-rerun",

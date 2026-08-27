@@ -1,7 +1,7 @@
 # Salesforce (CRM) Deep Research Report
 
 Coverage date: 2026-02-11
-Last updated: 2026-07-31
+Last updated: 2026-08-27
 Ticker: NYSE: CRM
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -10,42 +10,54 @@ Disclaimer: This report is for informational and research purposes only. It does
 > **[2026-02-26 Update]** Updated with FY2026 Q4 earnings data (reported Feb 25, 2026). Key changes: FY2026 full-year actuals confirmed, Agentforce ARR $800M (up from Q3's $540M), combined Agentforce & Data 360 ARR $2.9B+, FY2027 guidance added, FY2030 revenue target raised to $63B, $50B new buyback authorized.
 >
 > **[2026-06-25 Update]** Valuation anchor refresh based on market data as of 2026-06-25. Key changes: Stock dropped from ~$193 to ~$151 (YTD -40%), market cap from ~$197B to $125.11B, Forward P/E compressed from ~17x to 11.22x, P/S(TTM) from ~4.7x to 2.92x, FCF yield from ~6.3% to ~11.5%. FY2027 Q1 data incorporated (quarter ended Apr 30, 2026): TTM revenue $42.83B (+13.3% QoQ), TTM net income $8.02B, EBITDA $12.89B, operating cash flow TTM $15.22B. Analyst consensus target revised from $325 to $250. Core tension shifted from "slowing growth at fair valuation" to "deep value or value trap after the crash."
+>
+> **[2026-08-27 Update]** Updated for FY2027 Q2 results (released after the US close on 2026-08-26; 8-K item 2.02, accession 0001108524-26-000187, EX-99.1) and re-anchored across every valuation surface to the **completed-session close of $206.05 on 2026-08-26**. Business: revenue $11.345B (+11% YoY), cRPO $33.5B (+14% YoY, accelerating from +13% in Q1), FY2027 full-year revenue guidance raised by $200M to $46.1-46.4B, and non-GAAP diluted EPS guidance raised to $16.67-16.71. However, **GAAP operating income was flat year over year** ($2.331B vs $2.332B), GAAP operating margin fell from 22.8% to 20.5%, and the +119% GAAP EPS came mainly from $2.613B of unrealized securities gains plus a 14.7% lower share count — not operating leverage. The balance sheet moved from roughly net cash to **net debt of $27.885B** (debt $39.288B, cash and marketable securities $11.403B). Valuation: market cap $168.8B, EV $196.6B, P/S(TTM) 3.84x, forward P/E 12.35x (about 15.0x excluding securities gains), FCF yield about 9.0%. **The release came after the close, so $206.05 is the pre-release price; the report must be re-anchored after the first completed post-release regular session (2026-08-27).** The 2026-08-26 after-hours print of $232.13 (+12.66%) is recorded as fact only and enters no multiple.
 
 
 
 ## Executive Summary
 
-**One-Line Thesis:** Salesforce is the undisputed global CRM leader, now embedding AI deeply into its product matrix via Agentforce, transitioning from "selling software" to "selling AI workflows" — ~~but slowing growth and AI monetization pace are the core debates~~ with FY2026 Q4 confirming accelerating AI traction (Agentforce ARR $800M, +169% YoY) though FY2027 guidance slightly disappointed the Street. **2026-06-25 Update:** Stock has crashed from $193 to ~$151 (YTD -40%), Forward P/E from 17x to 11x. The debate has shifted from "slowing growth" to "deep value or value trap." The business fundamentals (CRM dominance + margin expansion + $2.9B AI ARR) are intact, but the market is pricing in near-zero growth.
+**One-Line Thesis:** Salesforce is the undisputed global CRM leader, now embedding AI deeply into its product matrix via Agentforce, transitioning from "selling software" to "selling AI workflows" — ~~but slowing growth and AI monetization pace are the core debates~~ with FY2026 Q4 confirming accelerating AI traction (Agentforce ARR $800M, +169% YoY) though FY2027 guidance slightly disappointed the Street. **2026-06-25 Update:** Stock has crashed from $193 to ~$151 (YTD -40%), Forward P/E from 17x to 11x. The debate has shifted from "slowing growth" to "deep value or value trap." The business fundamentals (CRM dominance + margin expansion + $2.9B AI ARR) are intact, but the market is pricing in near-zero growth. **2026-08-27 Update:** FY2027 Q2 confirmed demand-side acceleration (cRPO +14%, combined Agentforce & Data 360 ARR about $3.9B, +210%) and a raised full-year guide; but the margin-expansion leg stalled this quarter (GAAP operating income flat YoY, operating margin -2.3pts), and the deep-value gap has narrowed materially (forward P/E from ~~11.22x~~ to 12.35x, about 15.0x excluding securities gains). The debate shifts from "deep value or value trap" to "can accelerating demand restart margin expansion fast enough to support a valuation that is no longer extreme."
 
-> **2026-07-31 price check (untracked-coverage review).** CRM closed at **$188.38** on **2026-07-29**, the last completed US session, versus the **$151.00** anchor dated 2026-06-25 — a **+24.8%** move. The dated figures below remain correct as of their labels but are no longer current *levels*; read them as of their dates. This is a +24.8% move UP, close to the report's own 25% rerun threshold, and in the opposite direction to the AI-infrastructure drawdown. The report's June framing described a stock down 40% YTD; that framing is materially less true now. This report has no `priceSymbol`, so it carries no automatic price ledger or drift alert — see Q3 of the review questions doc.
+> **2026-08-27 current-price re-anchor (supersedes the 2026-07-31 price check).** CRM closed at **$206.05** on **2026-08-26**, the last completed US regular session, sourced from Nasdaq `/info` `secondaryData` ("Closed at Aug 26, 2026 4:00 PM ET"); the price bridge $206.05 - $0.36 = $205.69 reconciles exactly to the 08-25 close from `/historical` (two-handle check passed). The historical anchors ~~$151.00~~ (2026-06-25) and ~~$188.38~~ (2026-07-29), and the ~~+24.8%~~ drift reading derived from them, are superseded; §8 and the Quick Stats table below have been fully recomputed at $206.05.
+>
+> **Basis warning:** FY2027 Q2 results were released **after the close** on 2026-08-26, so $206.05 is the **pre-release** price. The 2026-08-26 after-hours print of $232.13 (+12.66%, 19:51 ET) is **recorded as fact only and enters no multiple in this report**. **Scheduled step:** the first completed post-release regular session is **2026-08-27**; this report must be re-anchored after that close, at which point market cap, EV, P/S, forward P/E and FCF yield all require recomputation.
+>
+> This report previously lacked `priceSymbol`/`priceAsOf`; both have now been backfilled (`CRM` / `2026-08-26`) and a price-ledger entry created in `prices.json`, so automatic drift alerts are now active.
 
 **Investment Verdict:**
-- Lean: Bullish | Conviction: Medium-High
-- Key Catalyst: ~~Agentforce monetization acceleration, FY2026 Q4 earnings, enterprise AI spending cycle~~ Agentforce ARR trajectory toward $2B+, FY2027 execution, net retention stabilization
+- Lean: Bullish (`constructive`) | Conviction: ~~Medium-High~~ **Medium** (lowered 2026-08-27; see §10)
+- Key Catalyst: ~~Agentforce monetization acceleration, FY2026 Q4 earnings, enterprise AI spending cycle~~ Agentforce ARR past $2B, organic revenue reacceleration in FY2027 H2, GAAP operating margin returning to expansion, Contentful/Fin closings
 
 **Quick Stats:**
 
-| Metric | Value |
+| Metric | Value (fully re-anchored 2026-08-27) |
 |--------|-------|
-| ~~Market Cap~~ Market Cap (2026.6.25) | ~~~$185-197B~~ **$125.11B** |
-| ~~Price (2026.2.11)~~ Price (2026.6.25) | ~~~$193~~ **$150.70** |
-| 52-Week High/Low | ~~$330 / $186~~ **$276.80 / $146.32** (near low) |
-| ~~P/E (TTM)~~ P/E (TTM) | ~~~25x~~ **17.70x** |
-| ~~P/E (Forward)~~ P/E (Forward) | ~~~17x~~ **11.22x** |
-| P/S (TTM) | ~~~4.7x~~ **2.92x** |
-| EV/EBITDA (TTM) | **12.09x** |
-| FCF Yield | ~~~6.3%~~ **~11.5%** ($14.4B FCF / $125.11B MC) |
-| TTM Revenue | ~~$41.5B~~ **$42.83B** (incl. FY2027 Q1) |
-| TTM Net Income | **$8.02B** |
-| TTM EBITDA | **$12.89B** |
-| Cash / Debt | **$11.84B / $42.55B** (net debt ~$30.7B) |
-| Shares Outstanding | **830M** |
-| FY2026 Revenue | ~~$41.5B (+9-10%) (est.)~~ $41.5B (+10% YoY, confirmed) |
-| FY2026 FCF | $14.4B (+16% YoY) |
-| Non-GAAP Operating Margin | 33.0% (FY25) → ~~34.1% (FY26E)~~ 34.1% (FY26 actual) |
-| Buyback Authorization | $50B (new) |
-| FY2027 Revenue Guidance | $45.8-46.2B (+10-11% YoY) |
-| ~~Analyst Consensus~~ Analyst Consensus (6/25) | ~~$325~~ **$250 (+66% upside)** |
+| ~~Market Cap (2026.6.25)~~ Market Cap (2026-08-26 close) | ~~$125.11B~~ **$168.8B** |
+| ~~Price (2026.6.25)~~ Price (2026-08-26 close) | ~~$150.70~~ **$206.05** (after-hours $232.13 recorded as fact only, enters no multiple) |
+| Enterprise Value | **$196.6B** (market cap + debt $39.288B - cash & marketable securities $11.403B) |
+| 52-Week High/Low | ~~$276.80 / $146.32~~ **$269.11 / $146.32** |
+| P/E (TTM) | ~~17.70x~~ **17.47x** (TTM net income $9.662B, which includes $3.171B of H1 securities gains — low earnings quality) |
+| P/E (Forward, company basis) | ~~11.22x~~ **12.35x** (FY2027 non-GAAP guidance midpoint $16.69) |
+| P/E (Forward, ex-securities-gains) | **about 15.0x** (core non-GAAP EPS about $13.71 after the issuer-disclosed $2.98 H1 impact; see §8) |
+| P/S (TTM) | ~~2.92x~~ **3.84x** |
+| EV/Sales (TTM) | **4.48x** |
+| EV/EBITDA (TTM) | ~~12.09x~~ **15.54x** |
+| FCF Yield | ~~~11.5%~~ **about 9.0%** (TTM FCF $15.154B / $168.8B market cap) |
+| TTM Revenue | ~~$42.83B~~ **$43.94B** (through 2026-07-31) |
+| TTM Net Income | ~~$8.02B~~ **$9.66B** |
+| TTM EBITDA | ~~$12.89B~~ **$12.66B** |
+| TTM FCF | **$15.15B** |
+| Cash / Debt | ~~$11.84B / $42.55B (net debt ~$30.7B)~~ **$11.40B / $39.29B (net debt $27.89B, as of 2026-07-31)** |
+| Shares Outstanding | ~~830M~~ **about 819M** (10-Q cover page, as of 2026-05-21; to be updated when the Q2 FY2027 10-Q cover count is filed) |
+| FY2026 Revenue | ~~$41.5B (+9-10%) (est.)~~ $41.5B (+10% YoY, confirmed; exact $41.525B) |
+| FY2026 FCF | $14.4B (+16% YoY; operating cash flow $14.996B - capex $0.594B) |
+| Non-GAAP Operating Margin | 33.0% (FY25) → 34.1% (FY26 actual) → **FY27 Q2 34.1% (-0.2pt YoY); FY27 guide 34.3%** |
+| GAAP Operating Margin | 20.1% (FY26) → **FY27 Q2 20.5% (-2.3pts YoY); FY27 guide 20.1%** |
+| Buyback Authorization | $50B; **$25B ASR in progress, 103M shares initially delivered, final settlement expected October 2026** |
+| ~~FY2027 Revenue Guidance~~ FY2027 Revenue Guidance (raised 2026-08-26) | ~~$45.8-46.2B (+10-11% YoY)~~ **$46.1-46.4B (+11-12% YoY)** |
+| FY2027 Non-GAAP EPS Guidance | **$16.67-16.71** |
+| ~~Analyst Consensus (6/25)~~ Analyst Consensus | ~~$250 (+66% upside)~~ **not re-verified this cycle; needs recomputation** (no citable primary source) |
 
 ---
 
@@ -185,6 +197,30 @@ Salesforce's moat derives primarily from extremely high switching costs and ecos
 | Net Retention Rate | ~~~100%~~ ~92% (revenue attrition ~8%) | ~100% | ~110% | ↘️ Declining | ~~B-~~ C+ |
 | cRPO | $35.1B (+16%) | $30.2B | — | ↗️ Strong | A |
 
+### FY2027 Q2 Actuals (released after the close on 2026-08-26; quarter ended 2026-07-31)
+
+| Metric | FY27 Q2 | FY26 Q2 | YoY | Read |
+|--------|---------|---------|-----|------|
+| Total revenue | $11,345M | $10,236M | +11% (CC +11%) | includes $456M Informatica |
+| Subscription & support | $10,820M | $9,690M | +12% (CC +11%) | includes $440M Informatica |
+| cRPO | $33.5B | — | +14% (CC +14%) | accelerating: +10% a year ago → +13% Q1 → +14% |
+| RPO | $66.3B | — | +11% | — |
+| GAAP operating income | $2,331M | $2,332M | **flat (+0%)** | revenue +11% with zero operating-income growth |
+| GAAP operating margin | 20.5% | 22.8% | **-2.3pts** | margin expansion reversed this quarter |
+| Non-GAAP operating margin | 34.1% | 34.3% | -0.2pt | broadly flat |
+| Interest expense | $(473)M | $(67)M | +606% | ongoing cost of the debt-funded $25B ASR |
+| Gains on strategic investments, net | $2,613M | $6M | — | non-operating, but **included in non-GAAP net income** |
+| GAAP diluted EPS | $4.29 | $1.96 | +119% | driven by securities gains and a lower share count |
+| Non-GAAP diluted EPS | $5.90 | $2.91 | +103% | same |
+| Diluted shares | 821M | 962M | -14.7% | ASR delivered 103M shares initially |
+| Operating cash flow | $1,269M | $740M | +71% | — |
+| Free cash flow | $1,098M | $605M | +81% | — |
+
+**The single most important line this quarter: revenue +11%, GAAP operating income +0%.** All of the triple-digit EPS growth came from (1) $2.613B of unrealized securities gains and (2) a 14.7% reduction in share count — not from operating leverage. Non-GAAP does not exclude strategic-investment gains either (the company excludes only SBC, purchased-intangible amortization, restructuring/acquisition costs and the related tax effects), so the FY2027 non-GAAP EPS guidance of $16.67-16.71 carries that gain as well.
+
+*Source: 8-K item 2.02, accession 0001108524-26-000187, EX-99.1 (accepted 2026-08-26 16:03 ET).*
+
+
 ### Key Financial Observations
 
 **Positive Signals:**
@@ -201,7 +237,9 @@ Salesforce's moat derives primarily from extremely high switching costs and ecos
 - ⚠️ SBC still elevated — FY2025 ~$3.2B, ~8.4% of revenue
 - ⚠️ ~~Informatica integration risk — $8B acquisition synergies unproven~~ Informatica contributed $399M to FY26 revenue; integration ongoing, added ~4pp to cRPO growth
 - ⚠️ ~~AI monetization pace uncertain — Agentforce ARR $540M is only 1.3% of total revenue~~ Agentforce ARR $800M is still only ~1.9% of total revenue, though combined with Data 360 the $2.9B ARR is more meaningful at ~7%
-- ⚠️ Stock fell ~5% after hours on FY27 guidance — market wanted more AI-driven acceleration
+- ⚠️ Stock fell ~5% after hours on FY27 guidance — market wanted more AI-driven acceleration (reading as of 2026-02)
+- ⚠️ **New 2026-08-27 (FY27 Q2): margin expansion stalled.** Revenue +11% while GAAP operating income was flat YoY and GAAP operating margin fell 2.3pts; EPS growth was driven by securities gains and buybacks. This is the first year-over-year reversal in the "margin expansion" leg of this report's bull case, and Q3 must show whether it is a one-off dilution from consolidating Informatica/Ansys and pre-close costs for Contentful/Fin
+- ⚠️ **New 2026-08-27: the balance sheet structure changed.** Debt rose from $14.439B (2026-01-31) to $39.288B, net cash became net debt of $27.885B, and quarterly interest expense rose from $67M to $473M. That raises the fixed-cost floor under FCF and widens the gap between the equity and enterprise views (FCF yield about 9.0%, but EV/FCF about 13.0x). **The interest drag already shows up in the company's own guide:** FY27 FCF growth guidance of about 4-5% implies roughly $15.050B for the year; H1 actual was $7.654B, so H2 is implied at about $7.396B against H2 FY26's actual $7.500B — **the company is guiding second-half free cash flow down about 1.4% year over year** (our own calculation)
 
 ---
 
@@ -248,16 +286,16 @@ Benioff is among the best CEOs in enterprise software. The margin transformation
 - Consumption-based pricing means revenue accelerates as AI penetration increases
 - ~~AI is the core growth engine for the $60B revenue target by 2030~~ AI is the core growth engine for the raised $63B revenue target by FY2030
 
-**3. Valuation at 10-Year Lows**
-- P/S ~4.7x, near 10-year low
-- Forward P/E ~17x — extremely attractive for a SaaS company with 33% FCF margin
-- Analyst consensus target $325 (+68% upside) — rare high-consensus premium
-- If margins continue expanding + AI monetization accelerates, current price is significantly undervalued
+**3. ~~Valuation at 10-Year Lows~~ Valuation still discounted, but no longer at an extreme (rewritten 2026-08-27)**
+- ~~P/S ~4.7x, near 10-year low~~ P/S(TTM) 3.84x — above the ~~2.92x~~ June trough, but still far below Adobe (~9x) and Microsoft (~11x)
+- ~~Forward P/E ~17x — extremely attractive for a SaaS company with 33% FCF margin~~ Forward P/E 12.35x on the company basis; about 15.0x on the core basis excluding strategic-investment gains — still attractive for a SaaS leader at roughly 34.5% FCF margin
+- ~~Analyst consensus target $325 (+68% upside) — rare high-consensus premium~~ Analyst consensus not re-verified this cycle; needs recomputation (no citable primary source)
+- If GAAP operating margin returns to expansion and AI monetization keeps accelerating, the current price is still undervalued — but that now **hinges on the Q3 margin read**, not on the multiple alone
 
 **4. Capital Returns Accelerating**
 - $50B buyback authorization, 80% of FCF for repurchases; $12.7B repurchased in FY26 alone
 - ~~First-ever dividend initiated, signaling confidence~~ Dividend raised to $0.44/share (+5.8% YoY)
-- ~~FY2026E adjusted EPS $11.75-11.77, Forward P/E only ~17x~~ Q4 FY2026 non-GAAP EPS $3.81 (beat estimates of $3.05); FY2027 EPS guided $13.11-13.19
+- ~~FY2026E adjusted EPS $11.75-11.77, Forward P/E only ~17x~~ Q4 FY2026 non-GAAP EPS $3.81 (beat estimates of $3.05); FY2027 non-GAAP EPS guidance ~~$13.11-13.19~~ **raised to $16.67-16.71 on 2026-08-26**
 - Buybacks + margin expansion will drive double-digit EPS growth
 
 **Upside Scenario:** ~~Agentforce monetization accelerates + margins expand to 36-38%, FY2027 EPS reaches $14+, at 25x P/E, price target $350+.~~ Agentforce ARR trajectory toward $2B+ standalone, margins expand to 36%+, FY2027 EPS $13.19+ (guided), at 25x P/E, price target $330+.
@@ -318,10 +356,11 @@ Benioff is among the best CEOs in enterprise software. The margin transformation
 - ~~Will integration drag on short-term margins?~~ FY26 margins expanded despite integration — encouraging
 - When we'll know more: FY2027 first half
 
-**4. FY2027 Guidance Gap**
-- FY27 revenue guidance of $45.8-46.2B slightly below Street expectations of $46.1B — is this conservatism or a real growth ceiling?
-- Non-GAAP margin guided to 34.3% (+20bp) — modest expansion, suggesting investment in AI may limit near-term margin upside
-- Stock fell ~5% after hours — market pricing in disappointment
+**4. ~~FY2027 Guidance Gap~~ FY2027 guidance was raised, but the margin question replaced it (rewritten 2026-08-27)**
+- ~~FY27 revenue guidance of $45.8-46.2B slightly below Street expectations of $46.1B — is this conservatism or a real growth ceiling?~~ **Partly falsified:** on 2026-08-26 the company raised FY27 revenue guidance to $46.1-46.4B (+11-12%), composed of $100M organic, $200M from the pending Contentful/Fin acquisitions, and a $100M FX headwind
+- ~~Non-GAAP margin guided to 34.3% (+20bp) — modest expansion, suggesting investment in AI may limit near-term margin upside~~ **Non-GAAP margin guidance held at 34.3%, but GAAP guidance was cut to 20.1%**; FY27 Q2 actual GAAP operating margin was 20.5% (-2.3pts YoY) — the "AI investment limits margin upside" concern was confirmed this quarter, and in a worse form than originally framed (year-over-year contraction rather than slower expansion)
+- ~~Stock fell ~5% after hours — market pricing in disappointment~~ The 2026-08-26 after-hours print was +12.66% ($232.13) — the immediate market reaction to the raise was positive, but that price enters no multiple here and awaits the 2026-08-27 close
+- **New uncertainty:** revenue +11% with GAAP operating income +0% — is that a one-off integration cost or a structural cost of delivering AI? When we will know more: FY2027 Q3 earnings
 
 ### Thesis-Breaking Events
 
@@ -334,37 +373,68 @@ Benioff is among the best CEOs in enterprise software. The margin transformation
 
 ## 8. Valuation Analysis
 
-### Multi-Dimensional Valuation
+> **This section was fully recomputed on 2026-08-27 at the 2026-08-26 close of $206.05.** The old anchors ~~$150.70~~ / ~~$193~~ and every multiple and range derived from them are superseded and struck below.
+
+### Valuation Inputs (all from primary sources)
+
+| Input | Value | Source |
+|-------|-------|--------|
+| Price (completed-session close) | $206.05 (2026-08-26) | Nasdaq `/info` `secondaryData`, price bridge reconciled |
+| Share count | about 819M (as of 2026-05-21) | 10-Q cover page, accession 0001108524-26-000127 |
+| Market cap | $168.755B | $206.05 × 819M shares |
+| Cash & marketable securities | $11.403B (2026-07-31) | Q2 FY27 EX-99.1 balance sheet ($8.310B + $3.093B) |
+| Debt (current + noncurrent) | $39.288B (2026-07-31) | same ($0 current + $39.288B noncurrent) |
+| Enterprise value | $196.640B | market cap + debt - cash & marketable securities |
+| TTM revenue | $43.938B | FY26 $41.525B - H1 FY26 $20.065B + H1 FY27 $22.478B |
+| TTM free cash flow | $15.154B | FY26 $14.402B - H1 FY26 $6.902B + H1 FY27 $7.654B |
+| TTM EBITDA | $12.657B | TTM GAAP operating income $8.735B + TTM D&A $3.922B |
+| FY2027 non-GAAP EPS guidance | $16.67-16.71 (mid $16.69) | Q2 FY27 EX-99.1 guidance table |
+
+### Key Derivation: the non-GAAP EPS guide contains non-operating securities gains
+
+The company's non-GAAP net income adjustments are only four: SBC, amortization of purchased intangibles, restructuring/acquisition costs, and the related income tax effects (verbatim from the "Non-GAAP Financial Measures" definition section of EX-99.1). **Gains and losses on strategic investments are not among the exclusions**, so they remain inside non-GAAP EPS in full.
+
+Verified against the issuer's H1 non-GAAP reconciliation (not back-solved from the guide): Salesforce disclosed that H1 strategic-investment gains contributed **$2.98** to non-GAAP diluted EPS. That issuer-disclosed per-share impact is the controlling input; it avoids imposing the GAAP H1 effective tax rate on a non-GAAP reconciliation.
+
+- Company-basis forward P/E: $206.05 / $16.69 = **12.35x**
+- Core basis excluding securities gains: core non-GAAP EPS about $16.69 - $2.98 = **$13.71**, forward P/E = **about 15.0x**
+
+*Basis note: this exclusion assumes no further strategic-investment gains in H2 because the company does not forecast that line; the $2.98 H1 per-share impact is company-disclosed.*
+
+### Multi-Method Valuation (rebuilt 2026-08-27)
 
 | Method | Value/Share | Key Assumptions | Confidence |
 |--------|-------------|-----------------|------------|
-| ~~Forward P/E~~ Forward P/E | ~~$200-235~~ ~~$220-265~~ **$148-197** | ~~FY2027E EPS $11.75, 17-20x~~ ~~FY2027 guided EPS $13.11-13.19, 17-20x~~ **FY2027 guided EPS $13.11-13.19, 11.22-15x (currently 11.22x)** | Medium-High |
-| FCF Yield | ~~$220-280~~ ~~$240-300~~ **$150-200** | ~~4-5% FCF yield on $12.4B FCF~~ ~~4-5% FCF yield on $14.4B FCF~~ **8-12% FCF yield on $14.4B FCF (currently ~11.5%)** | Medium-High |
-| P/S (Historical Mean) | ~~$250-300~~ **$180-250** | ~~Revert to 5Y avg ~6.5x P/S~~ **Revert to 5Y avg ~6.5x P/S; current 2.92x is below 10-year low** | Medium |
-| ~~Analyst Consensus~~ Analyst Consensus | ~~$325~~ **$250** | 34 analyst average (2026.6.25), +66% upside | Medium |
-| Bear Scenario | ~~$150-170~~ **$105-130** | ~~Growth drops to 6%, P/E compresses to 15x~~ **Growth drops to 6-7%, P/E compresses to 8-10x** | Low |
-| Bull Scenario | ~~$350-400~~ ~~$330-400~~ **$250-330** | AI monetization accelerates, P/E expands to 20-25x | Low |
+| Forward P/E (core basis) | ~~$148-197~~ **$192-247** | Core non-GAAP EPS $13.71 at 14-18x (a discount to Adobe ~20x and SAP ~25x) | Med-High |
+| FCF Yield | ~~$150-200~~ **$231-285** | TTM FCF $15.154B at a 6.5-8.0% FCF yield (currently about 9.0%) | Medium |
+| EV/Sales | ~~$180-250~~ **$181-234** | TTM revenue $43.938B at 4.0-5.0x EV/Sales, less net debt of $27.885B | Med-High |
+| ~~P/S (historical mean)~~ Retired | ~~$180-250~~ **superseded** | The old "revert to the 5-year mean of ~6.5x P/S" assumption is no longer defensible at 11% growth; replaced by EV/Sales | — |
+| Analyst Consensus | ~~$250~~ ~~$325~~ **needs recomputation** | No citable primary source available this cycle; not re-verified | — |
+| Bear Case | ~~$105-130~~ **$130-156** | Organic growth slows to 7-8%, core EPS stalls near $13, P/E compresses to 10-12x | Low |
+| Bull Case | ~~$250-330~~ **$288-340** | Agentforce monetization drives FY2028 core EPS to $16-17, P/E expands to 18-20x | Low |
 
-**Current Price:** ~~~$193~~ **$150.70** (2026-06-25 intraday)
+**Current Price:** ~~$193~~ ~~$150.70~~ **$206.05** (2026-08-26 close; the after-hours $232.13 enters none of the above)
 
-**Key Observations:**
-- ~~Forward P/E ~17x is extremely cheap for a SaaS leader with 33% FCF margin~~ ~~Based on FY27 guided EPS of $13.15 (midpoint), Forward P/E is ~15x — still very cheap for a SaaS leader with 35% FCF margin~~ **Based on FY27 guided EPS of $13.15 (midpoint), Forward P/E is ~11.5x — extremely cheap for a SaaS leader with 35%+ FCF margin; the market is pricing in near-zero growth**
-- ~~P/S ~4.7x near 10-year low, market pricing in near-zero growth~~ **P/S(TTM) 2.92x has broken below the 10-year low; EV/EBITDA 12.09x — valuation at historic extremes**
-- ~~FCF yield ~6.3% — highly attractive among large-cap tech~~ ~~FCF yield ~7.4% based on $14.4B FCF — highly attractive~~ **FCF yield ~11.5% based on $14.4B FCF — exceptionally attractive among large-cap tech for a 35%+ FCF margin company**
-- ~~Analyst consensus $325 implies 68% upside — rare high-consensus premium~~ **Analyst consensus $250 implies 66% upside — but the target has been revised down sharply from $325, reflecting deteriorating market sentiment**
-- **2026-06-25 new note: 8.61% short interest creates some squeeze potential; YTD -43.58% vastly underperforming S&P 500 (+19.82%)**
+**Key Observations (2026-08-27):**
+- **The deep-value gap has narrowed materially.** Company-basis forward P/E moved from ~~11.22x~~ to 12.35x, and is about 15.0x on the core basis excluding securities gains. The June framing that "the market is pricing zero growth" no longer holds; the pricing now is roughly "low-double-digit growth with no further margin expansion."
+- **P/S moved from ~~2.92x~~ to 3.84x and EV/EBITDA from ~~12.09x~~ to 15.54x.** The larger move in the latter (+29%) reflects $27.885B of net debt lifting EV while TTM EBITDA edged down on stalled operating income.
+- **FCF yield fell from ~~~11.5%~~ to about 9.0%**, still attractive; but on an enterprise basis EV/FCF is about 13.0x, so the leveraged picture is less compelling than the equity-only one.
+- **The central range ($192-247) brackets the current $206.05 near its lower end** — "reasonably cheap" rather than "extremely cheap." That is a materially different conclusion from June's.
+- ⚠️ **Every multiple above uses the pre-release close.** The whole section must be recomputed after the 2026-08-27 close.
 
-**Peer Valuation Comparison (2026-06-25):**
+**Peer Valuation Comparison (updated 2026-08-27):**
 
-| Company | Forward P/E | P/S(TTM) | FCF Margin | Revenue Growth (TTM) |
-|---------|------------|----------|-----------|---------------------|
-| Salesforce | **11.22x** | **2.92x** | ~35% | +13.3% |
+| Company | Forward P/E | P/S(TTM) | FCF Margin | Revenue Growth |
+|---------|------------|----------|-----------|----------------|
+| Salesforce | ~~11.22x~~ **12.35x** (core basis about 15.0x) | ~~2.92x~~ **3.84x** | about 34.5% (TTM FCF $15.154B / TTM revenue $43.938B; 34.7% in FY26) | +11% (FY27 Q2) |
 | Microsoft | ~28x | ~11x | ~35% | +16% |
-| ServiceNow | ~45x | ~14x | ~30% | +22% |
-| Adobe | ~20x | ~9x | ~35% | +10% |
-| SAP | ~25x | ~6x | ~25% | +11% |
+| ServiceNow | ~45x | ~14x | ~30% | ~+22% |
+| Adobe | ~20x | ~9x | ~35% | ~+10% |
+| SAP | ~25x | ~6x | ~25% | ~+11% |
 
-~~Salesforce trades at the lowest valuation among peers, yet its FCF margin is comparable to Microsoft and Adobe. The discount primarily reflects growth deceleration concerns.~~ **2026-06-25 Update:** Salesforce's valuation discount has deteriorated from "cheap" to "extreme" — Forward P/E of 11.22x is just 40% of Microsoft's and 25% of ServiceNow's; P/S of 2.92x is the lowest among peers. This pricing implies the market expects growth to deteriorate materially, not merely "slow." The core question: is the market wrongly pricing the value of Agentforce and margins, or is it correctly anticipating fundamental deterioration not yet visible?
+*Peer figures are carried over from the 2026-06-25 version and were not re-verified this cycle; they are order-of-magnitude reference only. The Salesforce row is recomputed.*
+
+~~2026-06-25 Update: Salesforce's valuation discount has deteriorated from "cheap" to "extreme discount"~~ **2026-08-27 Update:** The discount persists but has moved from "extreme" back to "clear." Salesforce's forward P/E is about 44% of Microsoft's and 62% of Adobe's on the company basis. The core question is rewritten accordingly: it is no longer "is the market pricing a recession that hasn't happened," but "given that demand demonstrably accelerated (cRPO +14%, AI ARR $3.9B), why was GAAP operating income flat year over year — is that a one-off integration cost or a structural cost of AI delivery?" The Q3 GAAP operating margin is the first falsifiable read on that question.
 
 ---
 
@@ -375,16 +445,19 @@ Benioff is among the best CEOs in enterprise software. The margin transformation
 | Catalyst | Timing | Impact |
 |----------|--------|--------|
 | ~~FY2026 Q4 Earnings~~ ✅ Reported Feb 25, 2026 | ~~March 2026 (est.)~~ Done | ~~High~~ Beat on revenue, mixed on guidance |
-| ~~FY2027 Q1 Earnings~~ ✅ Reported (quarter ended Apr 30, 2026) | ~~June 2026 (est.)~~ Done | High — TTM rev $42.83B (+13.3% QoQ), net income $8.02B, but stock continued deteriorating |
-| FY2027 Q2 Earnings | Aug-Sep 2026 (est.) | High — investors looking for stabilization signals |
+| ~~FY2027 Q1 Earnings~~ ✅ Reported (quarter ended Apr 30, 2026) | ~~June 2026 (est.)~~ Done | High — TTM revenue was ~~$42.83B~~ (~~+13.3%~~ QoQ) and net income ~~$8.02B~~ at the time; both superseded by the FY27 Q2 basis |
+| ~~FY2027 Q2 Earnings~~ ✅ Reported after the close on 2026-08-26 | ~~Aug-Sep 2026 (est.)~~ Done | High — revenue +11%, cRPO +14% accelerating, full-year guidance raised; but GAAP operating income flat YoY |
+| **FY2027 Q3 Earnings** | Nov-Dec 2026 (est., not issuer-confirmed) | High — whether GAAP operating margin returns to expansion is the first falsifiable read |
+| **Contentful / Fin closings** | FY2027 Q3 ("in the coming weeks" per the company) | Medium-High — already embedded in all guidance except cRPO; without the closings the guidance premise fails |
+| **$25B ASR final settlement** | October 2026 (per the company) | Medium — sets the final share count, affecting EPS and per-share valuation |
 | Enterprise IT Spending Data | Ongoing | Medium — macro environment impact |
-| Informatica Integration Progress | Ongoing | Medium — synergy validation |
+| Informatica Integration Progress | Ongoing | Medium — contributed $456M of revenue in FY27 Q2; synergies still unproven |
 
 ### Medium-Term (3-12 Months)
 
 | Catalyst | Timing | Impact |
 |----------|--------|--------|
-| ~~Agentforce ARR Breaks $1B~~ Agentforce standalone ARR breaks $1B | H2 2026 | High — AI monetization milestone (already at $800M) |
+| ~~Agentforce ARR Breaks $1B~~ ✅ Broken — Agentforce standalone ARR **exceeded $1.5B** (+240%, 2026-08-26; effective FY27 Q2 the metric now includes Slackbot and Headless 360) | H2 2026 | High — milestone achieved; next marker is $2B |
 | Net Retention Stabilization | H2 2026 | High — core business health |
 | Dreamforce 2026 | Sept 2026 (est.) | Medium — product roadmap update |
 
@@ -402,27 +475,31 @@ Benioff is among the best CEOs in enterprise software. The margin transformation
 
 ### Overall Assessment
 
-Salesforce is a rare "quality + value" combination — global CRM leader, ~~33%~~ 35% FCF margin, ~~Forward P/E of only 17x~~ ~~Forward P/E of ~15x (based on FY27 guided EPS)~~ **Forward P/E of ~11.5x (based on FY27 guided EPS $13.15) — now in deep-value territory**.
+~~Salesforce is a rare "quality + value" combination~~ **Restated 2026-08-27:** Salesforce remains a "quality + discount" combination, but **the discount has moved from extreme to ordinary** — global CRM leader, about 34.5% TTM FCF margin (essentially flat versus 34.7% in FY26), ~~Forward P/E of only 17x~~ ~~Forward P/E of ~15x (based on FY27 guided EPS)~~ ~~Forward P/E of ~11.5x (based on FY27 guided EPS $13.15)~~ **forward P/E of 12.35x on the company basis and about 15.0x on the core basis excluding securities gains**.
 
-**Core Tension (2026-06-25 Update):**
-- Bull logic: Margin expansion + AI monetization ($2.9B ARR) + extreme undervaluation (Forward P/E 11x, P/S 2.9x, FCF yield 11.5%) = the market is making a major pricing error
-- Bear logic: ~~Slowing growth + declining net retention + uncertain AI monetization = mature-stage value trap~~ FY27 guidance disappointed + revenue attrition ~8% + ~~AI may be cannibalizing not adding = mature-stage value trap~~ **YTD -44% with Forward P/E 11x means the market is no longer merely "worried" — it is pricing in a recession that hasn't happened yet. If the market is wrong, the upside is enormous; if the market is right, even the current valuation won't be cheap**
+**Core Tension (rewritten 2026-08-27):**
+- Bull logic: demand demonstrably accelerated — cRPO +14% (three straight quarters of 10% → 13% → 14%), FY27 guidance raised, combined Agentforce & Data 360 ARR about $3.9B (+210%), Agentforce standalone ARR above $1.5B. At about a 15.0x core forward P/E, that growth mix is still cheap.
+- Bear logic: ~~Slowing growth + declining net retention + uncertain AI monetization = mature-stage value trap~~ **the margin-expansion leg broke this quarter** — revenue +11% with GAAP operating income +0% and operating margin -2.3pts; the +119% EPS came entirely from securities gains and buybacks. Meanwhile the balance sheet went from net cash to $27.885B of net debt and quarterly interest expense rose sevenfold. If Q3 margins do not recover, the "high-margin SaaS leader" premise underlying the valuation itself has to be repriced.
 
-**Our Lean: Bullish, Medium-High Conviction (maintained 2026-06-25; valuation support strengthened but downside momentum warrants caution)**
+**Our Lean: Bullish (`constructive`), conviction lowered from ~~Medium-High~~ to Medium (2026-08-27)**
 
 Rationale:
-1. ~~33% FCF margin + Forward P/E 17x — this combination is nearly impossible to find among large-cap tech~~ ~~35% FCF margin + Forward P/E ~15x — even more attractive post-Q4 earnings~~ **35% FCF margin + Forward P/E 11.5x + P/S 2.9x + FCF yield 11.5% — this combination is virtually unprecedented among large-cap tech; the embedded pessimism is extreme**
-2. ~~$50B buyback authorization signals management believes stock is undervalued; $12.7B repurchased in FY26~~ Same as before. **2026-06-25 supplement: at $151, buyback EPS accretion is even more powerful**
-3. ~~Agentforce's +330% growth proves real product demand despite small revenue share~~ Agentforce + Data 360 combined $2.9B ARR (+200%+ YoY) — no longer "small numbers"
+1. ~~33% FCF margin + Forward P/E 17x — this combination is nearly impossible to find among large-cap tech~~ ~~35% FCF margin + Forward P/E ~15x — even more attractive post-Q4 earnings~~ ~~35% FCF margin + Forward P/E 11.5x + P/S 2.9x + FCF yield 11.5% — this combination is virtually unprecedented among large-cap tech~~ **about 34.5% FCF margin + core forward P/E about 15.0x + FCF yield about 9.0% — still a better risk/reward than Adobe or SAP, but no longer "virtually unprecedented"**
+2. $50B buyback authorization plus a $25B ASR in progress (103M shares delivered initially, share count -14.7% YoY) — management is still voting with cash. **But this round was debt-funded**: debt rose from $14.439B to $39.288B, so the EPS accretion was bought with balance-sheet risk
+3. Agentforce + Data 360 combined $3.9B ARR (+210%) — AI monetization is now a real number, not a narrative
 4. Extremely strong moat — switching costs + ecosystem lock-in keep churn rates very low
-5. ~~Biggest risk is continued growth deceleration, but current valuation already fully reflects this concern~~ ~~FY27 guidance disappointed, but at ~15x forward P/E, the bar is already very low~~ **At 11.5x Forward P/E, the bar is set at "recession pricing" — if Salesforce can maintain its current growth trajectory, current prices offer enormous margin of safety. However, the -44% YTD move is itself a powerful market signal, and we must remain alert to fundamental deterioration we haven't yet identified**
+5. **Why conviction came down:** the two legs of this report's bull case were "margin expansion" and "extreme undervaluation." The 2026-08-26 print weakened both — margins reversed year over year, and the valuation gap closed by 3-4 P/E points. Demand acceleration is genuine positive evidence, so the bullish lean holds; but medium-high conviction is not warranted until Q3 gives a GAAP operating margin read.
+
+> **For the reviewer to adjudicate:** holding the stance at `constructive` while lowering conviction from Medium-High to `medium` is a judgment driven by the earnings arithmetic (flat operating income plus a narrowed valuation gap), not by price movement. But this re-anchor uses the **pre-release** close of $206.05, while the 2026-08-26 after-hours print was $232.13 (+12.66%). If the 2026-08-27 close lands near the after-hours level, the core forward P/E rises to about 16.9x and whether the stance should remain `constructive` needs a second adjudication. **That second read is a scheduled step for the 2026-08-28 run.**
 
 ### Key Monitoring Metrics
 
-- Agentforce ARR growth rate and paid customer count
+- **Whether GAAP operating margin returns to year-over-year expansion (added 2026-08-27; currently the single most important metric in this report)** — FY27 Q2 was 20.5% (-2.3pts YoY); trigger: GAAP operating margin declines year over year again in Q3
+- **Whether cRPO growth holds at 14%** — three straight quarters of 10% → 13% → 14%; trigger: falls back below 12%
+- Agentforce ARR growth rate and paid customer count (FY27 Q2: standalone ARR above $1.5B, +240%; the metric now includes Slackbot and Headless 360, so YoY is not fully comparable)
 - Net retention rate trend (most important leading indicator)
-- Non-GAAP operating margin expansion trajectory
-- Informatica integration progress
+- **Net debt and interest-expense trajectory (added 2026-08-27)** — net debt $27.885B, quarterly interest $473M; trigger: the FY27 FCF growth guide (about 4-5%) is cut
+- Informatica integration progress; whether Contentful / Fin close on schedule in FY27 Q3
 - Enterprise IT spending macro environment
 
 ---
@@ -430,8 +507,9 @@ Rationale:
 ## Appendix
 
 ### Data Sources
-- Salesforce official earnings reports and Investor Relations
-- SEC EDGAR public filings
+- [Salesforce FY2027 Q2 earnings release (SEC EX-99.1, filed 2026-08-26)](https://www.sec.gov/Archives/edgar/data/1108524/000110852426000187/crm-q2fy27xexhibit991.htm)
+- [Salesforce FY2027 Q1 Form 10-Q cover-page share count](https://www.sec.gov/Archives/edgar/data/1108524/000110852426000127/crm-20260430.htm)
+- [Nasdaq CRM historical prices](https://www.nasdaq.com/market-activity/stocks/crm/historical)
 - Analyst reports (Piper Sandler, Barclays, RBC Capital, Goldman Sachs)
 - Gartner, IDC CRM market data
 - Various financial media coverage
@@ -440,15 +518,16 @@ Rationale:
 
 | Metric | Salesforce | Microsoft | ServiceNow | Adobe |
 |--------|-----------|-----------|------------|-------|
-| ~~Latest FY Revenue~~ TTM Revenue | ~~$37.9B~~ ~~$41.5B (FY26)~~ **$42.83B (TTM)** | $245B | ~$11B | ~$21B |
-| ~~Revenue Growth~~ Revenue Growth (TTM) | ~~+9%~~ ~~+10%~~ **+13.3%** | +16% | +22% | +10% |
+| ~~Latest FY Revenue~~ TTM Revenue | ~~$37.9B~~ ~~$41.5B (FY26)~~ ~~$42.83B~~ **$43.94B (TTM, through 2026-07-31)** | $245B | ~$11B | ~$21B |
+| ~~Revenue Growth~~ Revenue Growth | ~~+9%~~ ~~+10%~~ ~~+13.3%~~ **+11% (FY27 Q2 YoY)** | +16% | +22% | +10% |
 | Non-GAAP Op. Margin | ~~33%~~ 34.1% (FY26) | ~45% | ~30% | ~45% |
-| FCF Margin | ~~~33%~~ ~35% (FY26) | ~35% | ~30% | ~35% |
-| Forward P/E | ~~~17x~~ ~~~15x~~ **11.22x** | ~28x | ~45x | ~20x |
+| FCF Margin | ~~~33%~~ **about 34.5% (TTM); 34.7% in FY26, essentially flat** | ~35% | ~30% | ~35% |
+| Forward P/E | ~~~17x~~ ~~~15x~~ ~~11.22x~~ **12.35x (core basis about 15.0x)** | ~28x | ~45x | ~20x |
 
 ### Key Assumptions
 - Enterprise IT spending remains stable in 2026 (base case)
 - ~~Agentforce FY2027 ARR reaches $1-1.5B (base case)~~ Agentforce standalone ARR reaches $1.5-2B in FY2027 (base case, starting from $800M)
 - ~~Non-GAAP operating margin reaches 35% by FY2027 (base case)~~ Non-GAAP operating margin guided to 34.3% for FY2027; could reach 35%+ if AI scales efficiently
 - Fed cuts rates 1-2 times in 2026, no recession (base case)
-- FY2027 revenue of $45.8-46.2B as guided (base case)
+- ~~FY2027 revenue of $45.8-46.2B as guided (base case)~~ **FY2027 revenue of $46.1-46.4B per the guidance raised on 2026-08-26 (base case)**
+- **FY2027 non-GAAP EPS $16.67-16.71 (company guidance); core basis excluding the issuer-disclosed $2.98 H1 strategic-investment EPS impact about $13.71**
