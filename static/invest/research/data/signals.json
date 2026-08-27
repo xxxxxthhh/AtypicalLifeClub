@@ -1,5 +1,60 @@
 [
   {
+    "id": "nvidia-q2-fy2027-supply-commitments-119b-to-279b-2026-08",
+    "date": "2026-08-26",
+    "title": {
+      "zh": "NVIDIA 供应与产能采购承诺由 $119B 升至 $279B，公司称主要用于采购内存",
+      "en": "NVIDIA supply-and-capacity purchase commitments rise from $119B to $279B, which the company attributes primarily to memory procurement"
+    },
+    "detail": {
+      "zh": "据 NVIDIA 截至 2026-07-26 季度的 Form 10-Q（accession 0001045810-26-000075，2026-08-26 12:36 ET 提交）与同日 Form 8-K（事项 2.02）附件 99.2 CFO Commentary：采购义务表中的「supply and capacity」一项由上一季度的 $119B 升至截至 2026-07-26 的 $279B。10-Q 表述为「primarily memory and manufacturing facilities」，CFO Commentary 表述为「primarily related to the procurement of memory」。该表按财年分布为 2027 财年剩余期 $92B、2028 财年 $87B、2029 财年 $88B、2030 财年 $6B、2031 财年 $5B、2032 财年及以后 $1B；采购义务总表合计 $366B（另含 cloud service agreements $29B、尚未起租的数据中心租约 $25B、股权投资 $25B、资本开支 $8B）。同期 Q2 FY2027 营收 $96,221M（同比 +106%、环比 +18%），Data Center 营收 $89.0B（同比 +117%、环比 +18%），GAAP 与 non-GAAP 毛利率均为 75.0%；存货由上季 $25.8B 升至 $31.6B，CFO Commentary 称系为第三季度导入 Vera Rubin 作准备。Q3 FY2027 指引营收 $108.0B±2%，且明确不假设任何来自中国的 Data Center compute 收入。证据边界：发行人明示这些协议在正式下单前「in certain instances」可取消、可重排或可按业务需要调整，因此该金额是买方侧的承诺口径，既不是任何具名供应商已确认的订单或收入，也未按供应商、产品或节点披露构成；本条不推断任何内存厂商的出货量、定价或产能分配。同一份 10-Q 首次将 Form of Residual Value Guaranty 作为附件 10.1 提交，但其部分条款依 Regulation S-K Item 601(b)(10) 作删节处理、部分附表依 601(a)(5) 省略。",
+      "en": "Per NVIDIA's Form 10-Q for the quarter ended July 26, 2026 (accession 0001045810-26-000075, accepted 2026-08-26 12:36 ET) and the Exhibit 99.2 CFO Commentary to the same day's Form 8-K (Item 2.02): the \"supply and capacity\" line of the purchase-obligations table rose from $119 billion in the prior quarter to $279 billion as of July 26, 2026. The 10-Q describes these commitments as \"primarily memory and manufacturing facilities\"; the CFO Commentary describes the increase as \"primarily related to the procurement of memory.\" The table distributes as $92B for the remainder of fiscal 2027, $87B in fiscal 2028, $88B in fiscal 2029, $6B in fiscal 2030, $5B in fiscal 2031 and $1B in fiscal 2032 and thereafter; total purchase obligations are $366B, also comprising $29B of cloud service agreements, $25B of data-center leases not commenced, $25B of equity investments and $8B of capital expenditures. In the same quarter, Q2 FY2027 revenue was $96,221M (+106% year over year, +18% sequentially) and Data Center revenue was $89.0B (+117% year over year, +18% sequentially), with GAAP and non-GAAP gross margins both 75.0%; inventory rose from $25.8B sequentially to $31.6B, which the CFO Commentary attributes to preparing for the introduction of Vera Rubin in the third quarter. The Q3 FY2027 outlook is $108.0B of revenue plus or minus 2% and assumes no Data Center compute revenue from China. Evidence limits: the issuer states these supplier agreements may in certain instances be cancelable, rescheduled or adjustable for its business needs before firm orders are placed, so the figure is a buyer-side commitment caliber rather than orders or revenue confirmed by any named supplier, and no breakdown by supplier, product or node is disclosed; nothing here infers any memory maker's shipment volume, pricing or capacity allocation. The same 10-Q filed the Form of Residual Value Guaranty as Exhibit 10.1 for the first time, with certain terms redacted under Regulation S-K Item 601(b)(10) and certain schedules omitted under Item 601(a)(5)."
+    },
+    "crossChecks": [
+      "memory-cycle",
+      "chip-vs-downstream"
+    ],
+    "tickers": [
+      "NVDA"
+    ],
+    "reportIds": [
+      "nvidia-2026"
+    ],
+    "monitoringRefs": [
+      "nvidia-2026:ai-capex-durability",
+      "nvidia-2026:circular-financing-exposure",
+      "nvidia-2026:china-structural-loss"
+    ]
+  },
+  {
+    "id": "synopsys-q3-fy2026-eda-backlog-vs-design-ip-2026-08",
+    "date": "2026-08-26",
+    "title": {
+      "zh": "Synopsys Q3 FY2026：Design Automation 同比 +53%、backlog $10.9B，但 Design IP 前九个月仍同比 -1%",
+      "en": "Synopsys Q3 FY2026: Design Automation up 53% year over year with $10.9B backlog, while nine-month Design IP is still down 1%"
+    },
+    "detail": {
+      "zh": "据 Synopsys 2026-08-26 提交的 Form 8-K（事项 2.02，accession 0001193125-26-368620）附件 99.1 新闻稿与同日 Form 10-Q（accession 0000883241-26-000025，季度截至 2026-07-31）：Q3 FY2026 营收 $2,476.8M（上年同期 $1,739.7M，同比 +42%），其中 Design Automation $2,003.0M（同比 +53%）、Design IP $473.8M（同比 +11%）。按前九个月口径，Design Automation $5,826.6M（同比 +69%），而 Design IP $1,335.0M（上年同期 $1,344.7M，同比 **-1%**）。截至 2026-07-31 的合同未履约义务（backlog）为 $10.9B，其中包含 $1.9B 不可撤销 FSA 承诺；剔除不可撤销 FSA 后约 49% 预计在未来 12 个月确认为收入。GAAP 每股摊薄收益 $2.84、non-GAAP $3.91。公司将 FY2026 全年营收指引上调至 $9,690-9,740M、non-GAAP 每股收益指引上调至 $15.04-15.10，并将全年经营现金流指引给到约 $2,800M、自由现金流约 $2,600M、资本开支约 $225M；前九个月实际经营活动净现金流为 $2,298.6M。全年营收指引含约 $2.98B 预期 Ansys 收入；Ansys 在 Q3 贡献 $622.2M、前九个月贡献 $2.2B。口径提示：同比增幅包含 Ansys 完整期间与上年同期部分期间的对比，不是有机增长口径。Design IP 方面，公司已于 2026-06-01 将原属该分部的 Processor IP Solutions 业务以现金对价 $443.3M 出售给 GlobalFoundries（税前处置收益 $425.4M，扣除 $44.9M 相关费用后净额 $380.5M），公司称此为 Design IP 分部资源向高增长机会再配置的一部分，且未按终止经营列示；10-Q 另载明第三季度 2025 年实施并其后撤销的部分 BIS 对华限制曾对公司在华业务、含 Design IP 分部产生负面影响。全年指引前提为出口管制与美国政府实体清单限制不再发生进一步变化。此外，公司 2026-08-26 提交 Form 8-K/A（事项 2.05，accession 0001193125-26-368858）披露董事会于 2026-08-21 批准上调 2025-11-09 重组计划的税前费用估计区间至 $425M-$500M，主要为遣散与一次性离职福利及全球厂址策略下的部分场地关闭；该文件未将上述重组与 Ansys 整合相联系，本条亦不作此归因。",
+      "en": "Per Exhibit 99.1 to Synopsys' Form 8-K filed August 26, 2026 (Item 2.02, accession 0001193125-26-368620) and the Form 10-Q filed the same day (accession 0000883241-26-000025, quarter ended July 31, 2026): Q3 FY2026 revenue was $2,476.8M versus $1,739.7M a year earlier (+42%), comprising Design Automation of $2,003.0M (+53% year over year) and Design IP of $473.8M (+11% year over year). On a nine-month basis Design Automation was $5,826.6M (+69%) while Design IP was $1,335.0M versus $1,344.7M a year earlier, **down 1%**. Contracted but unsatisfied performance obligations (backlog) were $10.9B as of July 31, 2026, including $1.9B of non-cancellable FSA commitments; excluding non-cancellable FSA, about 49% is expected to be recognized as revenue over the next twelve months. GAAP diluted EPS was $2.84 and non-GAAP diluted EPS $3.91. The company raised full-year FY2026 revenue guidance to $9,690-9,740M and non-GAAP EPS guidance to $15.04-15.10, and set full-year operating cash flow guidance at about $2,800M, free cash flow at about $2,600M and capital expenditures at about $225M; actual nine-month net cash provided by operating activities was $2,298.6M. Full-year revenue guidance includes about $2.98B of expected Ansys revenue, and Ansys contributed $622.2M in the quarter and $2.2B over nine months. Caliber note: the year-over-year growth rates compare a full period of Ansys against a partial prior-year period and are not an organic-growth caliber. Within Design IP, the company completed the sale of its Processor IP Solutions business to GlobalFoundries on June 1, 2026 for total cash consideration of $443.3M, recognizing a $425.4M pre-tax gain and a $380.5M net pre-tax gain after $44.9M of divestiture-related expenses; the company describes this as part of reallocating Design IP resources to its highest-growth opportunities and did not present it as discontinued operations. The 10-Q separately states that China export-control restrictions, including certain BIS restrictions imposed in the third quarter of 2025 and subsequently rescinded, negatively impacted its business in China including in the Design IP segment. Full-year targets assume no further changes to export control restrictions or the current U.S. government Entity List restrictions. Separately, the company's Form 8-K/A filed August 26, 2026 (Item 2.05, accession 0001193125-26-368858) discloses that on August 21, 2026 the Board approved updated pre-tax charge estimates for the restructuring plan approved on November 9, 2025, now ranging from $425M to $500M, consisting primarily of severance and other one-time termination benefits and costs such as certain site closures under its global site strategy; that filing does not connect the restructuring to the Ansys integration and this entry does not impute such a connection."
+    },
+    "crossChecks": [
+      "semicap-eda-capex-commitment"
+    ],
+    "tickers": [
+      "SNPS"
+    ],
+    "reportIds": [
+      "synopsys-2026"
+    ],
+    "monitoringRefs": [
+      "synopsys-2026:ansys-integration",
+      "synopsys-2026:design-automation-growth",
+      "synopsys-2026:design-ip-pullthrough",
+      "synopsys-2026:fcf-conversion",
+      "synopsys-2026:export-control-assumption"
+    ]
+  },
+  {
     "id": "nebius-convertible-notes-closing-upsized-2026-08",
     "date": "2026-08-24",
     "title": {

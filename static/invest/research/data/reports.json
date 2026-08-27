@@ -887,8 +887,8 @@
     "priceSymbol": "SNPS",
     "title": "Synopsys 深度研究报告 - AI 芯片设计的 EDA/IP 与仿真约束",
     "titleEn": "Synopsys Deep Research Report - EDA/IP And Simulation Constraint For AI Silicon Design",
-    "summary": "AI 基础设施 eda-ip 层的公共约束：SNPS 验证 AI silicon 需求是否穿透到 design automation、verification、simulation、IP blocks 和 system-level complexity。FY2026 Q2 revenue $2.276B（去年同期 $1.604B）、GAAP EPS $0.09、non-GAAP EPS $3.35；FY2026 指引 revenue $9.625-9.705B、non-GAAP EPS $14.72-14.80、FCF 约 $2.0B。指引包含约 $2.96B Ansys revenue，并假设没有进一步 export-control / Entity List 变化。以 2026-07-30 收盘 $372.33 计，市值约 $71.3B、EV 约 $79.7B，约 8.2x EV/FY2026E sales、约 25.2x non-GAAP P/E。偏多 / 中确信：倍数在 2026 年 7 月链条重定价中压缩，同一套指引框架反而更便宜，温和正预期差变宽；但整合、出口和客户周期性仍限制确信度。",
-    "summaryEn": "Common-constraint coverage for the AI-infrastructure eda-ip layer. SNPS tests whether AI silicon demand is flowing into design automation, verification, simulation, IP blocks, and system-level complexity. Q2 FY2026 revenue was $2.276B versus $1.604B a year ago, GAAP EPS was $0.09, and non-GAAP EPS was $3.35; FY2026 guidance is $9.625-9.705B revenue, $14.72-14.80 non-GAAP EPS, and about $2.0B FCF. Guidance includes about $2.96B of Ansys revenue and assumes no further export-control / Entity List changes. At the $372.33 close on 2026-07-30, about $71.3B market cap and $79.7B EV, SNPS trades around 8.2x EV/FY2026E sales and 25.2x non-GAAP P/E. Constructive / medium conviction: the multiple compressed in the July 2026 chain repricing so the same guidance frame is cheaper and the modestly positive expectation gap widens, while integration, export, and customer-cycle risks keep conviction capped.",
+    "summary": "AI 基础设施 eda-ip 层的公共约束：SNPS 验证 AI silicon 需求是否穿透到 design automation、verification、simulation、IP blocks 和 system-level complexity。最新披露的 FY2026 Q3（截至 2026-07-31）revenue $2,476.8M（去年同期 $1,739.7M）、GAAP EPS $2.84、non-GAAP EPS $3.91；分部为 Design Automation $2,003.0M（同比 +53%）与 Design IP $473.8M（同比 +11%，但前九个月仍同比 -1%），backlog $10.9B。FY2026 指引上调至 revenue $9,690-9,740M、non-GAAP EPS $15.04-15.10、FCF 约 $2.6B，含约 $2.98B Ansys revenue，并假设没有进一步 export-control / Entity List 变化。以 2026-07-30 收盘 $372.33 计，市值约 $71.3B、EV 约 $79.7B，约 8.2x EV/FY2026E sales、约 25.2x non-GAAP P/E —— 该组倍数按**当时**的 FY2026 指引口径计算，未按 2026-08-26 上调后的指引与 Q3 实际数重算，属明确标注日期的历史估值快照。偏多 / 中确信：倍数在 2026 年 7 月链条重定价中压缩，同一套指引框架反而更便宜，温和正预期差变宽；但整合、出口和客户周期性仍限制确信度。",
+    "summaryEn": "Common-constraint coverage for the AI-infrastructure eda-ip layer. SNPS tests whether AI silicon demand is flowing into design automation, verification, simulation, IP blocks, and system-level complexity. The latest print, Q3 FY2026 (quarter ended 2026-07-31), showed revenue of $2,476.8M versus $1,739.7M a year ago, GAAP EPS of $2.84 and non-GAAP EPS of $3.91; by segment, Design Automation was $2,003.0M (+53% year over year) and Design IP was $473.8M (+11% year over year, though nine-month Design IP is still down 1%), with backlog of $10.9B. FY2026 guidance was raised to $9,690-9,740M of revenue, $15.04-15.10 non-GAAP EPS and about $2.6B FCF, including about $2.98B of Ansys revenue and assuming no further export-control / Entity List changes. At the $372.33 close on 2026-07-30, about $71.3B market cap and $79.7B EV, SNPS trades around 8.2x EV/FY2026E sales and 25.2x non-GAAP P/E — multiples computed on the FY2026 guidance caliber **as it then stood**, not recomputed on the guidance raised on 2026-08-26 or on Q3 actuals, and therefore a clearly dated historical valuation snapshot. Constructive / medium conviction: the multiple compressed in the July 2026 chain repricing so the same guidance frame is cheaper and the modestly positive expectation gap widens, while integration, export, and customer-cycle risks keep conviction capped.",
     "tags": [
       "EDA",
       "半导体IP",
@@ -897,7 +897,7 @@
     ],
     "category": "tech",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-08-27",
     "file": "/invest/research/reports/view.html?id=synopsys-2026",
     "markdownFiles": {
       "zh": "/invest/research/Synopsys_深度研究报告_2026-07.md",
@@ -908,9 +908,9 @@
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
       "补齐 EDA/IP 公共约束：SNPS 验证 AI design starts 与复杂度是否进入 design automation、verification、simulation 和 IP",
-      "FY2026 Q2 revenue $2.276B、non-GAAP EPS $3.35；FY2026 revenue 指引 $9.625-9.705B",
-      "FY2026 指引包含约 $2.96B Ansys revenue，且假设没有进一步 export-control / Entity List 变化",
-      "2026-07-30 收盘 $372.33、EV 约 $79.7B，约 8.2x FY2026E sales、约 25.2x non-GAAP P/E；v5 偏多 / 中确信"
+      "FY2026 Q3（截至 2026-07-31）revenue $2,476.8M、GAAP EPS $2.84、non-GAAP EPS $3.91；Design Automation $2,003.0M（+53% YoY）、Design IP $473.8M（+11% YoY，但前九个月 $1,335.0M 仍同比 -1%）；backlog $10.9B（含 $1.9B 不可撤销 FSA）（历史口径：Q2 revenue $2.276B、non-GAAP EPS $3.35）",
+      "FY2026 指引上调至 revenue $9,690-9,740M、non-GAAP EPS $15.04-15.10、经营现金流约 $2.8B、FCF 约 $2.6B（前九个月实际经营现金流 $2,298.6M）；含约 $2.98B Ansys revenue，且假设没有进一步 export-control / Entity List 变化",
+      "2026-07-30 收盘 $372.33、EV 约 $79.7B，约 8.2x FY2026E sales、约 25.2x non-GAAP P/E；v5 偏多 / 中确信（该组倍数按当时 FY2026 指引口径计算，未按 2026-08-26 上调后的指引重算）"
     ],
     "chainLayer": "eda-ip",
     "coverageTier": "full",
@@ -923,8 +923,8 @@
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "若 Q3 FY2026 显示 Ansys revenue 与 simulation 协同按计划转化、Design Automation 和 Design IP 同时加速，FCF 向约 $2.0B 指引兑现，且没有新增 export-control / Entity List 冲击，则上调至 bullish。",
-        "en": "Move to bullish if Q3 FY2026 shows Ansys revenue and simulation synergies converting on plan, Design Automation and Design IP accelerating together, FCF tracking the roughly $2.0B guide, and no new export-control / Entity List shock.",
+        "zh": "若 FY2026 全年实际自由现金流兑现约 $2.6B 指引，Ansys 与 Design Automation 继续按计划增长，Design IP 在出售 Processor IP 后的可比口径恢复正增长，且没有新增 export-control / Entity List 冲击，则上调至 bullish。",
+        "en": "Move to bullish if actual FY2026 free cash flow delivers the roughly $2.6B guide, Ansys and Design Automation continue to grow on plan, Design IP returns to positive growth on a comparable post-Processor-IP-divestiture basis, and no new export-control / Entity List shock occurs.",
         "monitoringIds": [
           "ansys-integration",
           "design-automation-growth",
@@ -934,8 +934,8 @@
         ]
       },
       "downgrade": {
-        "zh": "若 Ansys 整合稀释执行、Design IP 或 Design Automation 增长低于 AI 复杂度叙事、FCF 低于约 $2.0B 指引，或新增 export-control / Entity List 变化破坏 FY2026 指引，则下调至 neutral-watch 或 cautious。",
-        "en": "Move to neutral-watch or cautious if Ansys integration dilutes execution, Design IP or Design Automation growth falls short of the AI-complexity narrative, FCF misses the roughly $2.0B guide, or a new export-control / Entity List change breaks FY2026 guidance.",
+        "zh": "若 Ansys 整合稀释执行、Design IP 在出售后的可比口径仍未转正、Design Automation 增长低于 AI 复杂度叙事、全年自由现金流低于约 $2.6B 指引，或新增 export-control / Entity List 变化破坏 FY2026 指引，则下调至 neutral-watch 或 cautious。",
+        "en": "Move to neutral-watch or cautious if Ansys integration dilutes execution, Design IP remains negative on a comparable post-divestiture basis, Design Automation growth falls short of the AI-complexity narrative, actual full-year FCF misses the roughly $2.6B guide, or a new export-control / Entity List change breaks FY2026 guidance.",
         "monitoringIds": [
           "ansys-integration",
           "design-automation-growth",
@@ -965,7 +965,7 @@
       }
     ],
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "FY2026 Q2",
+    "reportedPeriod": "FY2026 Q3 monitoring / 2026-07-30 valuation frame",
     "related": [
       "cadence-2026",
       "nvidia-2026",
@@ -988,11 +988,13 @@
           "en": "Ansys revenue and simulation synergies expand the platform rather than dilute execution"
         },
         "latest": {
-          "zh": "FY2026 指引包含约 $2.96B Ansys revenue，包括约 $60M channel/accounting impact",
-          "en": "FY2026 guidance includes about $2.96B of Ansys revenue, including about $60M channel/accounting impact"
+          "zh": "FY2026 全年指引现含约 $2.98B 预期 Ansys 收入（此前约 $2.96B）；Ansys 在 Q3 FY2026 贡献 $622.2M、前九个月贡献 $2.2B，CFO 称 Ansys 当季表现强劲，公司同时上调全年营收、non-GAAP 经营利润率、每股收益与现金流指引。评为 `within`：平台口径在扩大而非稀释执行。证据边界：同比增幅系 Ansys 完整期间对上年同期部分期间，不是有机增长口径；另公司 2026-08-26 的 Form 8-K/A 披露董事会于 2026-08-21 将 2025-11-09 重组计划税前费用估计上调至 $425M-$500M，但该文件并未将重组与 Ansys 整合相联系，此处不作该归因。",
+          "en": "FY2026 full-year guidance now includes about $2.98B of expected Ansys revenue, up from about $2.96B; Ansys contributed $622.2M in Q3 FY2026 and $2.2B over nine months, the CFO described a strong quarter from Ansys, and the company raised full-year revenue, non-GAAP operating margin, EPS and cash-flow guidance. Graded `within`: the platform caliber is expanding rather than diluting execution. Evidence limits: year-over-year growth compares a full period of Ansys against a partial prior-year period and is not an organic caliber; separately, the Form 8-K/A of 2026-08-26 discloses that on 2026-08-21 the Board raised the pre-tax charge estimate for the 2025-11-09 restructuring plan to $425M-$500M, but that filing does not connect the restructuring to the Ansys integration and no such attribution is made here."
         },
-        "nextCheck": "Q3 FY2026 integration update",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "Q4/FY2026 财报 / Q4 and FY2026 results",
+        "nextCheckDate": "2026-12",
+        "reading": "within",
+        "readingAsOf": "2026-08-26"
       },
       {
         "id": "design-automation-growth",
@@ -1007,11 +1009,13 @@
           "en": "AI architecture diversity drives verification, manufacturing software, and system-integration demand"
         },
         "latest": {
-          "zh": "Q2 revenue $2.276B，高于指引；管理层强调 AI scaling 和系统复杂度",
-          "en": "Q2 revenue was $2.276B, above guidance; management emphasized AI scaling and system complexity"
+          "zh": "Q3 FY2026（截至 2026-07-31）Design Automation 营收 $2,003.0M，同比 +53%；前九个月 $5,826.6M，同比 +69%。公司称当季呈广泛强势并由 EDA 领跑，预期 EDA 全年双位数增长。截至 2026-07-31 合同未履约义务（backlog）$10.9B，含 $1.9B 不可撤销 FSA 承诺；剔除不可撤销 FSA 后约 49% 预计在未来 12 个月确认。评为 `within`。证据边界：同比增幅含 Ansys 完整期间与上年同期部分期间之比，非有机增长；公司同时声明 backlog 金额不代表未来销售或收入。",
+          "en": "Q3 FY2026 (quarter ended 2026-07-31) Design Automation revenue was $2,003.0M, up 53% year over year, and nine-month revenue was $5,826.6M, up 69%. The company described broad-based strength led by EDA and expects double-digit EDA growth for the year. Contracted but unsatisfied performance obligations (backlog) were $10.9B as of 2026-07-31, including $1.9B of non-cancellable FSA commitments; excluding non-cancellable FSA, about 49% is expected to be recognized within twelve months. Graded `within`. Evidence limits: year-over-year growth compares a full period of Ansys against a partial prior-year period and is not organic, and the company states the backlog amount is not indicative of future sales or revenue."
         },
-        "nextCheck": "segment and product demand update",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "分部与产品需求更新 / segment and product demand update",
+        "nextCheckDate": "2026-12",
+        "reading": "within",
+        "readingAsOf": "2026-08-26"
       },
       {
         "id": "design-ip-pullthrough",
@@ -1026,11 +1030,13 @@
           "en": "memory interface IP, embedded memories, security IP, and processors spread with custom AI silicon"
         },
         "latest": {
-          "zh": "Design IP 包括 wired/memory interface IP、embedded memories、security IP 和 embedded processors",
-          "en": "Design IP includes wired/memory interface IP, embedded memories, security IP, and embedded processors"
+          "zh": "Q3 FY2026 Design IP 营收 $473.8M，同比 +11%，公司称 Design IP 业务已恢复同比增长；但**前九个月 Design IP 为 $1,335.0M，对上年同期 $1,344.7M 同比 -1%**，尚未转正。同时该分部结构本身已改变：公司于 2026-06-01 将 Processor IP Solutions 业务以现金对价 $443.3M 出售给 GlobalFoundries（税前处置收益 $425.4M，扣除 $44.9M 费用后净额 $380.5M），称此为 Design IP 分部资源向高增长机会再配置的一部分，未按终止经营列示。10-Q 另载明 2025 年第三季度实施并其后撤销的部分 BIS 对华限制曾对公司在华业务、含 Design IP 分部产生负面影响。评为 `unclear`：触发条件点名的四类之一「processors」已因该出售从分部内移出，季度回正与九个月仍为负并存，口径不足以判定 IP 是否随 custom AI silicon 扩散。",
+          "en": "Q3 FY2026 Design IP revenue was $473.8M, up 11% year over year, and the company said the design IP business returned to year-over-year growth; however **nine-month Design IP was $1,335.0M against $1,344.7M a year earlier, down 1%**, and has not yet turned positive. The segment's composition also changed: on 2026-06-01 the company sold its Processor IP Solutions business to GlobalFoundries for $443.3M of cash consideration, recognising a $425.4M pre-tax gain and a $380.5M net pre-tax gain after $44.9M of expenses, describing it as part of reallocating Design IP resources to its highest-growth opportunities and not presenting it as discontinued operations. The 10-Q separately states that certain BIS China restrictions imposed in the third quarter of 2025 and subsequently rescinded negatively impacted its business in China including the Design IP segment. Graded `unclear`: one of the four categories the trigger names — processors — has been moved out of the segment by that divestiture, a positive quarter coexists with a still-negative nine-month figure, and the caliber is insufficient to judge whether IP is spreading with custom AI silicon."
         },
-        "nextCheck": "IP segment update",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "IP 分部更新与出售后可比口径 / IP segment update on a post-divestiture comparable basis",
+        "nextCheckDate": "2026-12",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-26"
       },
       {
         "id": "export-control-assumption",
@@ -1045,11 +1051,13 @@
           "en": "further export-control / Entity List changes disrupt guidance assumptions"
         },
         "latest": {
-          "zh": "公司指引假设没有进一步 export-control / Entity List 变化",
-          "en": "company guidance assumes no further export-control / Entity List changes"
+          "zh": "2026-08-26 发布的 Q4 与 FY2026 财务目标继续明示假设「出口管制限制与现行美国政府实体清单限制不再发生进一步变化」，该前提被重述且本窗口内未见新增限制破坏指引。评为 `within`。证据边界：10-Q 同时说明 BIS 持续修订美国出口管制规则（含将部分中国科技公司列入实体清单、对特定 IC 开发所专用的 ECAD 软件的出口限制，以及对涉及多芯片／chiplet 先进封装的 ECAD 软件的管制），并指出 2025 年第三季度实施并其后撤销的部分对华限制曾对公司在华业务、含 Design IP 分部产生负面影响；公司预期未来仍会有进一步变化但无法预测范围与时点。因此本读数仅表示「本窗口内未发生新的破坏性变化」，不表示该风险下降。",
+          "en": "The Q4 and FY2026 financial targets issued 2026-08-26 continue to state expressly that they assume no further changes to export control restrictions or the current U.S. government Entity List restrictions; that assumption is restated and no new restriction disrupted guidance inside this window. Graded `within`. Evidence limits: the 10-Q also states that BIS has continued to publish changes to U.S. export control regulations, including adding certain Chinese technology companies to the Entity List, restricting export of ECAD software specially designed for developing certain ICs, and controlling ECAD software for advanced semiconductor packaging involving multiple chips or chiplets, and notes that certain China restrictions imposed in the third quarter of 2025 and subsequently rescinded negatively impacted its business in China including the Design IP segment; the company anticipates further changes but cannot forecast their scope or timing. This reading therefore says only that no new disruptive change occurred inside this window, not that the risk has fallen."
         },
-        "nextCheck": "regulatory disclosures",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "监管披露 / regulatory disclosures",
+        "nextCheckDate": "2026-12",
+        "reading": "within",
+        "readingAsOf": "2026-08-26"
       },
       {
         "id": "fcf-conversion",
@@ -1060,15 +1068,17 @@
           "en": "FCF conversion"
         },
         "trigger": {
-          "zh": "约 $2.0B FY2026 FCF 指引兑现，并随整合噪音下降改善",
-          "en": "about $2.0B FY2026 FCF guidance is delivered and improves as integration noise fades"
+          "zh": "约 $2.6B FY2026 FCF 指引兑现，并随整合噪音下降改善",
+          "en": "about $2.6B FY2026 FCF guidance is delivered and improves as integration noise fades"
         },
         "latest": {
-          "zh": "FY2026 operating cash flow 指引约 $2.3B，FCF 约 $2.0B",
-          "en": "FY2026 operating cash flow guidance is about $2.3B and FCF about $2.0B"
+          "zh": "公司将 FY2026 全年经营现金流指引给到约 $2,800M、自由现金流约 $2,600M、资本开支约 $225M —— 相对本项此前跟踪的「经营现金流约 $2.3B、FCF 约 $2.0B」为上调。前九个月**实际**经营活动净现金流为 $2,298.6M（上年同期 $878.9M），公司归因于 Ansys 贡献、剔除 Ansys 的有机增长、应收回款改善，以及上年同期 $121.6M 利率锁定结算未实现损失的不再发生。评为 `within`。证据边界：FY2026 于 2026-10-31 结束，全年「兑现」只能在年度结果披露后确认；上述 $2,600M 为指引而非已实现自由现金流。",
+          "en": "The company set FY2026 full-year operating cash flow guidance at about $2,800M, free cash flow at about $2,600M and capital expenditures at about $225M — an increase from the roughly $2.3B operating cash flow and roughly $2.0B FCF this item previously tracked. **Actual** nine-month net cash provided by operating activities was $2,298.6M against $878.9M a year earlier, which the company attributes to contributions from Ansys, organic growth excluding Ansys, higher accounts receivable collections, and the non-recurrence of a $121.6M unrealized loss on settlement of an interest rate treasury lock in the prior-year period. Graded `within`. Evidence limits: FY2026 ends 2026-10-31, so full-year delivery can only be confirmed once annual results are reported, and the $2,600M figure is guidance rather than realised free cash flow."
         },
-        "nextCheck": "cash flow update",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "Q4/FY2026 现金流实际数 / actual Q4 and FY2026 cash flow",
+        "nextCheckDate": "2026-12",
+        "reading": "within",
+        "readingAsOf": "2026-08-26"
       }
     ]
   },
@@ -2561,8 +2571,8 @@
     "priceSymbol": "NVDA",
     "title": "NVIDIA 深度研究报告 - AI 计算中枢的高质量与高预期",
     "titleEn": "NVIDIA Deep Research Report - The AI Compute Hub, High Quality Meets High Expectations",
-    "summary": "v5 回填：NVIDIA 仍是 AI compute profit pool 的中枢，Q1 FY2027 营收 $81.6B、Data Center $75.2B，且 China data-center revenue 归零后仍兑现强增长。以 $195.04、约 $4.74T 市值和 mid-20s forward P/E 计，市场定价的不是泛泛 AI CAGR，而是 GPU+networking+systems+software 继续保护盈利分母。30% 牛市 / 50% 基准 / 20% 熊市情景给出温和正偏斜，因此改为偏多 / 中确信；风险仍是 hyperscaler capex、自定义 ASIC、中国和循环融资减值。",
-    "summaryEn": "July 7, 2026 v5 update: NVIDIA remains the center of the AI compute profit pool. Q1 FY2027 revenue was $81.6B and Data Center was $75.2B even with China data-center revenue at zero. At $195.04, about $4.74T market cap, and a mid-20s forward P/E, the market is underwriting GPU+networking+systems+software protection of the earnings denominator, not a generic AI CAGR. A 30% bull / 50% base / 20% bear grid gives modest positive skew, so stance moves to constructive / medium conviction; the risks remain hyperscaler capex, custom ASICs, China, and circular-financing impairments.",
+    "summary": "v5 回填：NVIDIA 仍是 AI compute profit pool 的中枢。最新披露的 Q2 FY2027（截至 2026-07-26）营收 $96.2B（同比 +106%）、Data Center $89.0B（同比 +117%、环比 +18%），毛利率 75.0%；Q3 FY2027 指引营收 $108.0B±2%，且不假设任何来自中国的 Data Center compute 收入。同一份 10-Q 显示供应与产能采购承诺由上季 $119B 升至 $279B，公司称主要用于采购内存。以 **2026-07-30 收盘 $195.04** 计的约 $4.74T 市值与 mid-20s forward P/E 是明确标注日期的历史估值快照，其分母仍为 Q1 FY2027 口径、未按 Q2 FY2027 重算：市场定价的不是泛泛 AI CAGR，而是 GPU+networking+systems+software 继续保护盈利分母。30% 牛市 / 50% 基准 / 20% 熊市情景给出温和正偏斜，因此改为偏多 / 中确信；风险仍是 hyperscaler capex、自定义 ASIC、中国和循环融资减值。",
+    "summaryEn": "July 7, 2026 v5 update: NVIDIA remains the center of the AI compute profit pool. The latest print, Q2 FY2027 (quarter ended 2026-07-26), showed revenue of $96.2B (+106% year over year) and Data Center of $89.0B (+117% year over year, +18% sequentially) at a 75.0% gross margin; the Q3 FY2027 outlook is $108.0B plus or minus 2% and assumes no China Data Center compute revenue. The same 10-Q shows supply-and-capacity purchase commitments rising from $119B in the prior quarter to $279B, which the company attributes primarily to memory procurement. The roughly $4.74T market cap and mid-20s forward P/E computed at the **2026-07-30 close of $195.04** remain a clearly dated historical valuation snapshot whose denominators are still the Q1 FY2027 caliber and have not been recomputed on Q2 FY2027: the market is underwriting GPU+networking+systems+software protection of the earnings denominator, not a generic AI CAGR. A 30% bull / 50% base / 20% bear grid gives modest positive skew, so stance moves to constructive / medium conviction; the risks remain hyperscaler capex, custom ASICs, China, and circular-financing impairments.",
     "tags": [
       "AI计算",
       "GPU",
@@ -2571,7 +2581,7 @@
     ],
     "category": "tech",
     "date": "2026-06-26",
-    "lastUpdate": "2026-08-18",
+    "lastUpdate": "2026-08-27",
     "file": "/invest/research/reports/view.html?id=nvidia-2026",
     "markdownFiles": {
       "zh": "/invest/research/NVIDIA_深度研究报告_2026-06.md",
@@ -2581,16 +2591,17 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "Q1 FY2027 营收 $81.6B（+85% YoY），数据中心 $75.2B（+92%），且在中国数据中心收入归零前提下完成；Q2 FY2027 指引营收 $91.0B",
-      "毛利率回到 75%；新增 $80B 回购 + 季度股息 $0.01→$0.25，FCF 信号强；GAAP EPS $2.39 含 $15.9B 股权未实现收益，须以非 GAAP $1.87 为准",
+      "Q2 FY2027（截至 2026-07-26）营收 $96.2B（+106% YoY、+18% QoQ），数据中心 $89.0B（+117% YoY），GAAP 与 non-GAAP 毛利率均 75.0%；Q3 FY2027 指引营收 $108.0B±2%，且不假设任何中国数据中心 compute 收入（历史口径：Q1 FY2027 营收 $81.6B、数据中心 $75.2B、Q2 指引 $91.0B）",
+      "供应与产能采购承诺由上季 $119B 升至截至 2026-07-26 的 $279B，10-Q 称「primarily memory and manufacturing facilities」、CFO Commentary 称主要用于采购内存；采购义务总表 $366B。发行人明示部分协议在正式下单前可取消／可重排，故为买方承诺口径而非供应商已确认订单",
+      "Q2 GAAP 每股摊薄收益 $2.46、non-GAAP $2.22（差额主要为股权证券收益，Q2 净额 $7.77B，应以 non-GAAP 为准）；季内回购与股息合计约 $26.0B，回购授权余额约 $99.0B；存货由 $25.8B 升至 $31.6B，公司称为导入 Vera Rubin 作准备",
       "护城河三重叠加：CUDA 生态 + 全栈系统（GPU+NVLink+网络）+ 年度节奏；结构性威胁来自自定义 ASIC（Broadcom）多于 AMD",
-      "股价约 $195.74、市值约 $4.76 万亿（全球第一），但远期 P/E 约 25x 低于 AMD 约 58x；风险在盈利预期分母而非倍数。中性/观察"
+      "2026-07-30 收盘 $195.04、市值约 $4.74 万亿，mid-20s 远期 P/E；这是未按 Q2 FY2027 重算的历史估值快照。立场偏多 / 中确信，风险在盈利预期分母而非倍数"
     ],
     "chainLayer": "compute",
     "coverageTier": "full",
     "stance": "constructive",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q1 FY2027",
+    "reportedPeriod": "Q2 FY2027 monitoring / 2026-07-30 valuation frame",
     "related": [
       "amd-2026",
       "broadcom-2026",
@@ -2610,11 +2621,13 @@
           "en": "hyperscaler capex guides weaken or Data Center revenue stalls sequentially"
         },
         "latest": {
-          "zh": "Q1 FY2027 数据中心 $75.2B（+92%）、Q2 指引 $91.0B —— 且中国 DC 收入归零下完成",
-          "en": "Q1 FY2027 Data Center $75.2B (+92%); Q2 guide $91.0B — with China DC at zero"
+          "zh": "Q2 FY2027（截至 2026-07-26）Data Center 营收 $89.0B，环比 +18%、同比 +117%，未出现环比失速；总营收 $96.221B 超过此前 $91.0B 指引。Q3 FY2027 指引营收 $108.0B±2%（较 Q2 再 +12% 环比），且明确不假设任何来自中国的 Data Center compute 收入。证据边界：本读数直接证伪的是「Data Center 收入环比失速」这一分句；「hyperscaler capex 指引转弱」一节本窗口内没有超大规模厂商自身的新指引可对照，NVIDIA 自身的出货与指引不能代替买方的资本开支指引。",
+          "en": "Q2 FY2027 (quarter ended 2026-07-26) Data Center revenue was $89.0B, up 18% sequentially and 117% year over year, with no sequential stall; total revenue of $96.221B exceeded the prior $91.0B guide. The Q3 FY2027 outlook is $108.0B of revenue plus or minus 2%, a further 12% sequential step, and assumes no Data Center compute revenue from China. Evidence limit: this reading directly disconfirms the 'Data Center revenue stalls sequentially' clause; for the 'hyperscaler capex guides weaken' clause there was no new hyperscaler capex guidance inside this window, and NVIDIA's own shipments and outlook cannot substitute for a buyer's capex guide."
         },
-        "nextCheck": "Q2 FY2027 财报（约 2026-08）/ Q2 FY2027 earnings",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "Q3 FY2027 财报（季度约截至 2026-10 下旬，按发行人季度节奏约 2026-11 披露）/ Q3 FY2027 earnings",
+        "nextCheckDate": "2026-11",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-26"
       },
       {
         "id": "custom-asic-substitution",
@@ -2647,10 +2660,12 @@
           "en": "export controls tighten further or China revenue never recovers"
         },
         "latest": {
-          "zh": "中国数据中心收入已归零",
-          "en": "China data-center revenue at zero"
+          "zh": "中国 Data Center compute 收入在 Q3 FY2027 指引中仍按零假设。截至 2026-07-26 季度的 Form 10-Q 补充：美国政府自 2026 年 2 月起授予许可，允许向特定中国客户出货少量 H200，但相关销售受中国政府限制，公司未能售出全部已获许可产品；FY2027 上半年就 H200 的过剩存货与采购义务计提 $0.4B 费用；计提后已在该许可项目下完成一小部分出货，占最近一个季度 Data Center 收入**不足 1%**；许可要求 H200 出货前在美国接受检验，因此按该项目出货的 H200 在输入美国时**适用 25% 关税**，公司未能也不预期能将该关税转嫁给客户。评为 `unclear`：**本窗口内出口管制姿态没有发生任何变化**——H200 许可项目自 2026 年 2 月起即已存在，本次 10-Q 是首次量化该既有项目的实际效果，而非窗内新增的放宽。既未「进一步收紧」，收入亦未恢复——已恢复部分在收入口径上不重大，且发行人自身对下一季度仍按零假设编制指引，故「中国收入永久缺口」既未被证实也未被证伪。",
+          "en": "China Data Center compute revenue is still assumed at zero in the Q3 FY2027 outlook. The Form 10-Q for the quarter ended 2026-07-26 adds that beginning in February 2026 the U.S. government granted licenses allowing small amounts of H200 to ship to specific China-based customers, but those sales were restricted by the PRC government and the company has been unable to sell all licensed products; a $0.4B charge for H200 excess inventory and purchase obligations was incurred in the first half of fiscal 2027; after that charge a fraction of the allowed shipments were made, accounting for **less than 1%** of Data Center revenue in the most recent quarter; the licenses require U.S. inspection before shipment, so H200s shipped under the program are **subject to a 25% tariff** on importation into the United States, which the company has been unable and does not expect to pass to customers. Graded `unclear`: **there was no change in export-control posture inside this window** — the H200 licensing program has existed since February 2026, and this 10-Q is the first quantification of that standing program's effect rather than an in-window loosening. Controls did not 'tighten further', and revenue has not recovered either, since the restored portion is immaterial to revenue and the issuer still builds its next-quarter outlook on a zero assumption, so a permanent China revenue gap is neither confirmed nor disconfirmed."
         },
-        "nextCheck": "出口管制政策动态 / export-control developments"
+        "nextCheck": "出口管制政策动态 / export-control developments",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-26"
       },
       {
         "id": "circular-financing-exposure",
@@ -2665,13 +2680,13 @@
           "en": "equity or credit support to customers, neoclouds, or their facility developers is impaired or drawn, or a material new arrangement lacks verifiable independent demand and repayment capacity"
         },
         "latest": {
-          "zh": "CRWV：$20 亿@$87 + $63 亿产能兜底；NBIS：$20 亿战略投资。2026-08-17 Form 8-K 新增更大且不同类型的敞口：NVIDIA 就俄亥俄 PORTS-Pike 园区约 4.25 GW IT 负荷租约与出租方 SB Energy 签署多项剩余价值担保，承租方为 OpenAI Group PBC 关联方，初始承诺项下付款义务累计上限 1,050 亿美元；附件 99.1 另披露 NVIDIA 将向 SB Energy 投资 15 亿美元，并可自行决定另行支持约 3.8 GW（新闻稿口径 3.75 IT-GW）追加产能。评级为 unclear：8-K 仅称各项协议通常在相应租约起租时生效，付款还取决于 ready-for-service 等条件（预计自 2028 年起），且未披露既有 CRWV/NBIS 安排减值或 PORTS-Pike 触发事件；但 1,050 亿美元是重大或有敞口，完整协议尚未公开，OpenAI 又是财务与偿付能力不可公开核验的私营交易对手。该上限不是已发生支出、采购订单、收入或 NVIDIA 资本开支承诺。",
-          "en": "CRWV: $2B at $87 + $6.3B capacity backstop; NBIS: $2B strategic investment. A larger and structurally different exposure was disclosed in NVIDIA's 2026-08-17 Form 8-K: multiple residual value guaranties with lessor SB Energy cover leases for approximately 4.25 GW of IT load at PORTS-Pike, with an OpenAI Group PBC affiliate as tenant and NVIDIA's aggregate payment obligation cumulatively capped at US$105B for its initial commitment. Exhibit 99.1 also says NVIDIA will invest US$1.5B in SB Energy and may in its sole discretion support approximately 3.8 GW more (3.75 IT-GW in the release). Graded unclear: the 8-K says an Agreement generally becomes effective on the applicable lease commencement and payment remains subject to conditions including ready-for-service, expected from 2028; it discloses neither impairment of the existing CRWV/NBIS arrangements nor a PORTS-Pike Trigger Event. But US$105B is a material contingent exposure, the full agreements are not public, and OpenAI is a private counterparty whose financial condition and repayment capacity cannot be publicly verified. The cap is not spending incurred, a purchase order, revenue, or an NVIDIA capex commitment."
+          "zh": "CRWV：$20 亿@$87 + $63 亿产能兜底；NBIS：$20 亿战略投资。SB Energy／PORTS-Pike 安排（2026-08-17 Form 8-K 首次披露）已在截至 2026-07-26 季度的 Form 10-Q 中入账并补充：担保最高总敞口披露为 $108.5B（SB Energy $105.0B ＋ 面向 AI cloud 合作伙伴数据中心租约的土地/电力/厂房担保 $3.5B）；每份担保一般自相应租约起租时生效，担保金额随九个阶段数据中心逐步建成而递增，**首个阶段预计在 2029 财年**（8-K 口径为「预计自 2028 年起」）；付款义务由特定承租方违约触发，敞口随 20 年租期内 OpenAI 履约而递减；担保仅限于租金与电力付款的**特定部分**，不覆盖场地全部成本或承租方全部义务；担保在 OpenAI 取得令人满意的信用评级等事件时终止；作为对价，该园区将**独家承载 NVIDIA AI 基础设施**；OpenAI 已同意就特定损失向 NVIDIA 偿付并赔偿。该 10-Q 首次将 Form of Residual Value Guaranty 作为**附件 10.1**提交，但**部分条款依 Regulation S-K Item 601(b)(10) 删节、部分附表依 601(a)(5) 省略**。另据同一 10-Q，采购义务表中「股权投资」承诺为 $25B（对象表述为 AI model makers、infrastructure financiers 及其他私营公司），Q2 购入股权证券 $15.822B、上半年 $42.404B，非有价证券由年初 $22.251B 升至 $51.157B。维持 `unclear`：文件未披露既有 CRWV/NBIS 安排减值，亦未披露 PORTS-Pike 触发事件（第一分句未成立）；但协议文本关键条款仍处删节状态，OpenAI 作为私营交易对手其偿付能力仍不可公开核验，故第二分句「重大新增安排缺乏可验证的独立需求与偿付能力」亦不能判定为不成立。上限不是已发生支出、采购订单、收入或 NVIDIA 资本开支承诺。",
+          "en": "CRWV: $2B at $87 plus a $6.3B capacity backstop; NBIS: $2B strategic investment. The SB Energy / PORTS-Pike arrangement first disclosed in the 2026-08-17 Form 8-K is now recorded and expanded in the Form 10-Q for the quarter ended 2026-07-26: maximum gross guarantee exposure is disclosed as $108.5B ($105.0B for SB Energy plus $3.5B of land, power and shell guarantees on data-center lease obligations of select AI cloud partners). Each guarantee generally becomes effective on commencement of the applicable lease, with guarantee amounts increasing as each of nine phases of data-center construction is completed, **the first of which is expected in fiscal year 2029** (the 8-K said payments were expected from 2028). Payment obligations are triggered on certain tenant defaults and the exposure declines as OpenAI meets lease payments across each phase's 20-year term. The guarantees are limited to **defined portions** of lease and power payments and not the full cost of the site or all of the tenant's obligations, and they terminate on events including OpenAI achieving a satisfactory credit rating. In exchange, the site will **exclusively host NVIDIA AI infrastructure**, and OpenAI has agreed to reimburse and indemnify NVIDIA for certain losses. The 10-Q filed the Form of Residual Value Guaranty as **Exhibit 10.1** for the first time, but **certain terms are redacted under Regulation S-K Item 601(b)(10) and certain schedules are omitted under Item 601(a)(5)**. The same 10-Q also shows $25B of committed equity investments described as being in AI model makers, infrastructure financiers and other private companies, $15.822B of equity securities purchased in the quarter and $42.404B in the first half, and non-marketable securities rising from $22.251B at year start to $51.157B. The grade stays `unclear`: the filing discloses neither impairment of the existing CRWV/NBIS arrangements nor a PORTS-Pike trigger event, so the first clause is not met; but key terms of the agreement remain redacted and OpenAI's repayment capacity as a private counterparty still cannot be publicly verified, so the second clause — a material new arrangement lacking verifiable independent demand and repayment capacity — also cannot be judged unmet. The cap is not spending incurred, a purchase order, revenue, or an NVIDIA capex commitment."
         },
-        "nextCheck": "CRWV/NBIS 季报读数；截至 2026-07-26 季度 Form 10-Q 所附担保协议文本 / CRWV & NBIS quarterly reads; the guaranty agreement form filed with the Form 10-Q for the quarter ended 2026-07-26",
-        "nextCheckDate": "2026-08",
+        "nextCheck": "未删节的担保协议条款或后续附件；CRWV/NBIS 季报读数；Q3 FY2027 Form 10-Q / Unredacted guaranty terms or a later exhibit; CRWV & NBIS quarterly reads; the Q3 FY2027 Form 10-Q",
+        "nextCheckDate": "2026-11",
         "reading": "unclear",
-        "readingAsOf": "2026-08-17"
+        "readingAsOf": "2026-08-26"
       }
     ],
     "conviction": "medium",
@@ -2681,8 +2696,8 @@
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "升级触发条件：若 Q2 FY2027 兑现 $91.0B revenue guide、Data Center sequential slope 与 75% non-GAAP gross margin 同时保持，rack/system attach 与 networking/software attach 扩大 profit pool，且 ASIC/China/circular-financing 风险没有抬头，则上调至 bullish。",
-        "en": "Move to bullish if Q2 FY2027 delivers the $91.0B revenue guide, Data Center sequential slope and 75% non-GAAP gross margin both hold, rack/system attach and networking/software attach expand the profit pool, and ASIC/China/circular-financing risks do not rise.",
+        "zh": "若 Q3 FY2027 兑现 $108.0B±2% 营收指引、Data Center 环比继续增长且 non-GAAP 毛利率维持约 74%，后续超大规模客户指引确认资本开支仍坚挺，rack/system 与 networking/software attach 扩大 profit pool，且 ASIC、中国与循环融资风险没有抬头，则上调至 bullish。",
+        "en": "Move to bullish if Q3 FY2027 delivers the $108.0B plus-or-minus-2% revenue guide, Data Center keeps growing sequentially at roughly 74% non-GAAP gross margin, subsequent hyperscaler guidance confirms capex remains firm, rack/system and networking/software attach expand the profit pool, and ASIC, China, and circular-financing risks do not rise.",
         "monitoringIds": [
           "ai-capex-durability",
           "custom-asic-substitution",
