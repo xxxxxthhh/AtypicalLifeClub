@@ -244,13 +244,13 @@
     {
       "reportId": "sk-hynix-2026",
       "symbol": "000660.KS",
-      "status": "ok",
+      "status": "carried-forward",
       "attemptedAt": "2026-08-28",
       "baseDate": "2026-07-31",
-      "basePrice": 1717627.625,
-      "lastDate": "2026-08-28",
-      "lastClose": 1719000.0,
-      "changePct": 0.1,
+      "basePrice": 1718000.0,
+      "lastDate": "2026-08-26",
+      "lastClose": 1688000.0,
+      "changePct": -1.7,
       "currency": "KRW"
     },
     {
@@ -652,13 +652,13 @@
     {
       "reportId": "kioxia-2026",
       "symbol": "285A.T",
-      "status": "ok",
+      "status": "carried-forward",
       "attemptedAt": "2026-08-28",
       "baseDate": "2026-07-31",
       "basePrice": 46500.0,
-      "lastDate": "2026-08-28",
-      "lastClose": 50410.0,
-      "changePct": 8.4,
+      "lastDate": "2026-08-26",
+      "lastClose": 50000.0,
+      "changePct": 7.5,
       "currency": "JPY"
     },
     {
