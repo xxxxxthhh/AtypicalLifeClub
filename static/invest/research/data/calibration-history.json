@@ -5180,5 +5180,133 @@
         }
       }
     }
+  },
+  {
+    "date": "2026-08-28",
+    "scoredCount": 108,
+    "medianRelativePct": 0.9,
+    "nonNeutralBeatRate": 0.5,
+    "byBenchmark": {
+      "COPX": {
+        "scoredCount": 4,
+        "medianRelativePct": 2.9,
+        "nonNeutralBeatRate": 0.75,
+        "byStance": {
+          "cautious": {
+            "scoredCount": 4,
+            "medianRelativePct": 2.9
+          }
+        }
+      },
+      "PAVE": {
+        "scoredCount": 1,
+        "medianRelativePct": -5.0,
+        "nonNeutralBeatRate": null,
+        "byStance": {
+          "neutral-watch": {
+            "scoredCount": 1,
+            "medianRelativePct": -5.0
+          }
+        }
+      },
+      "QQQ": {
+        "scoredCount": 17,
+        "medianRelativePct": 4.0,
+        "nonNeutralBeatRate": 0.6153846153846154,
+        "byStance": {
+          "constructive": {
+            "scoredCount": 1,
+            "medianRelativePct": 4.0
+          },
+          "neutral-watch": {
+            "scoredCount": 4,
+            "medianRelativePct": -1.6
+          },
+          "cautious": {
+            "scoredCount": 9,
+            "medianRelativePct": 11.1
+          },
+          "bearish-avoid": {
+            "scoredCount": 3,
+            "medianRelativePct": 12.7
+          }
+        }
+      },
+      "REMX": {
+        "scoredCount": 1,
+        "medianRelativePct": 21.6,
+        "nonNeutralBeatRate": null,
+        "byStance": {
+          "neutral-watch": {
+            "scoredCount": 1,
+            "medianRelativePct": 21.6
+          }
+        }
+      },
+      "SMH": {
+        "scoredCount": 59,
+        "medianRelativePct": 0.9,
+        "nonNeutralBeatRate": 0.4444444444444444,
+        "byStance": {
+          "constructive": {
+            "scoredCount": 7,
+            "medianRelativePct": 10.9
+          },
+          "neutral-watch": {
+            "scoredCount": 23,
+            "medianRelativePct": 1.6
+          },
+          "cautious": {
+            "scoredCount": 29,
+            "medianRelativePct": -4.5
+          }
+        }
+      },
+      "SRVR": {
+        "scoredCount": 4,
+        "medianRelativePct": 2.4,
+        "nonNeutralBeatRate": 1.0,
+        "byStance": {
+          "constructive": {
+            "scoredCount": 1,
+            "medianRelativePct": 12.3
+          },
+          "neutral-watch": {
+            "scoredCount": 3,
+            "medianRelativePct": -0.6
+          }
+        }
+      },
+      "URA": {
+        "scoredCount": 1,
+        "medianRelativePct": -3.3,
+        "nonNeutralBeatRate": null,
+        "byStance": {
+          "neutral-watch": {
+            "scoredCount": 1,
+            "medianRelativePct": -3.3
+          }
+        }
+      },
+      "XLU": {
+        "scoredCount": 21,
+        "medianRelativePct": 1.1,
+        "nonNeutralBeatRate": 0.4375,
+        "byStance": {
+          "constructive": {
+            "scoredCount": 4,
+            "medianRelativePct": 0.8
+          },
+          "neutral-watch": {
+            "scoredCount": 5,
+            "medianRelativePct": 7.8
+          },
+          "cautious": {
+            "scoredCount": 12,
+            "medianRelativePct": -0.4
+          }
+        }
+      }
+    }
   }
 ]

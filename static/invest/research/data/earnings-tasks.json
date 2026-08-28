@@ -1,48 +1,40 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T23:06:27Z",
+  "generatedAt": "2026-08-28T00:56:47Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-08-26T23:06:27Z"
+    "value": "2026-08-28T00:56:47Z"
   },
   "tasks": [
     {
-      "id": "earnings:marvell-2026:2026-08-27:T-1",
+      "id": "earnings:marvell-2026:2026-08-27:T",
       "reportId": "marvell-2026",
       "type": "research-update",
-      "window": "T-1",
+      "window": "T",
       "expectedDate": "2026-08-27",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     },
     {
-      "id": "earnings:minimax-2026:2026-08-26:T+1",
-      "reportId": "minimax-2026",
+      "id": "earnings:nvidia-2026:2026-08-26:T+1",
+      "reportId": "nvidia-2026",
       "type": "research-update",
       "window": "T+1",
       "expectedDate": "2026-08-26",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     },
     {
-      "id": "earnings:nvidia-2026:2026-08-26:T",
-      "reportId": "nvidia-2026",
-      "type": "research-update",
-      "window": "T",
-      "expectedDate": "2026-08-26",
-      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
-    },
-    {
-      "id": "earnings:salesforce-2026:2026-08-26:T",
+      "id": "earnings:salesforce-2026:2026-08-26:T+1",
       "reportId": "salesforce-2026",
       "type": "research-update",
-      "window": "T",
+      "window": "T+1",
       "expectedDate": "2026-08-26",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     },
     {
-      "id": "earnings:synopsys-2026:2026-08-26:T",
+      "id": "earnings:synopsys-2026:2026-08-26:T+1",
       "reportId": "synopsys-2026",
       "type": "research-update",
-      "window": "T",
+      "window": "T+1",
       "expectedDate": "2026-08-26",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     }
