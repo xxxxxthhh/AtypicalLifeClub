@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from datetime import date
+from datetime import date, datetime, timezone
 from pathlib import Path
 import sys
 import types
@@ -63,6 +63,39 @@ class PriceEntryTests(unittest.TestCase):
         }
 
         self.assertTrue(update_prices.entry_is_stale(entry, max_age_days=10))
+
+
+class CompletedSessionTests(unittest.TestCase):
+    def setUp(self):
+        self.quotes = [
+            update_prices.PriceQuote(date=date(2026, 8, 27), close=100.0),
+            update_prices.PriceQuote(date=date(2026, 8, 28), close=110.0),
+        ]
+
+    def test_delayed_run_drops_in_progress_korean_bar(self):
+        observed_at = datetime(2026, 8, 28, 0, 56, tzinfo=timezone.utc)
+
+        completed = update_prices.completed_quotes("000660.KS", self.quotes, observed_at)
+
+        self.assertEqual([quote.date for quote in completed], [date(2026, 8, 27)])
+
+    def test_same_utc_time_keeps_completed_us_session(self):
+        observed_at = datetime(2026, 8, 28, 0, 56, tzinfo=timezone.utc)
+
+        completed = update_prices.completed_quotes("CRM", self.quotes, observed_at)
+
+        self.assertEqual([quote.date for quote in completed], [date(2026, 8, 27)])
+
+    def test_asian_bar_is_kept_after_local_close(self):
+        observed_at = datetime(2026, 8, 28, 7, 0, tzinfo=timezone.utc)
+
+        completed = update_prices.completed_quotes("285A.T", self.quotes, observed_at)
+
+        self.assertEqual([quote.date for quote in completed], [date(2026, 8, 27), date(2026, 8, 28)])
+
+    def test_naive_observation_time_fails_closed(self):
+        with self.assertRaisesRegex(update_prices.PriceDataUnavailable, "timezone-aware"):
+            update_prices.completed_quotes("CRM", self.quotes, datetime(2026, 8, 28, 0, 56))
 
     def test_entry_is_stale_when_price_status_is_missing(self):
         entry = {

@@ -12,9 +12,10 @@ import json
 import math
 import sys
 from dataclasses import dataclass
-from datetime import date, datetime, timedelta, timezone
+from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
 from typing import Final, Union
+from zoneinfo import ZoneInfo
 
 import yfinance as yf
 
@@ -41,6 +42,21 @@ PRICE_FIELDS: Final = (
 class PriceQuote:
     date: date
     close: float
+
+
+@dataclass(frozen=True, slots=True)
+class MarketSession:
+    timezone_name: str
+    regular_close: time
+
+
+MARKET_SESSIONS: Final = {
+    ".KS": MarketSession("Asia/Seoul", time(15, 30)),
+    ".T": MarketSession("Asia/Tokyo", time(15, 30)),
+    ".SS": MarketSession("Asia/Shanghai", time(15, 0)),
+    ".HK": MarketSession("Asia/Hong_Kong", time(16, 0)),
+}
+DEFAULT_MARKET_SESSION: Final = MarketSession("America/New_York", time(16, 0))
 
 
 class PriceDataUnavailable(Exception):
@@ -230,6 +246,34 @@ def normalize_quote(index_value: Json, close_value: Json) -> PriceQuote | None:
     return PriceQuote(date=quote_date, close=close)
 
 
+def market_session(symbol: str) -> MarketSession:
+    for suffix, session in MARKET_SESSIONS.items():
+        if symbol.endswith(suffix):
+            return session
+    return DEFAULT_MARKET_SESSION
+
+
+def completed_quotes(symbol: str, quotes: list[PriceQuote], observed_at: datetime) -> list[PriceQuote]:
+    """Exclude same-day bars until that symbol's regular market has closed.
+
+    GitHub scheduled jobs may start hours late.  A nominal 22:00 UTC workflow can
+    therefore run after midnight UTC, when yfinance already exposes an in-progress
+    Asian daily bar.  Comparing each bar with its local regular-session close keeps
+    the ledger on completed sessions regardless of scheduler delay.
+    """
+    if observed_at.tzinfo is None or observed_at.utcoffset() is None:
+        raise PriceDataUnavailable("observed_at must be timezone-aware")
+
+    session = market_session(symbol)
+    market_timezone = ZoneInfo(session.timezone_name)
+    completed: list[PriceQuote] = []
+    for quote in quotes:
+        close_at = datetime.combine(quote.date, session.regular_close, tzinfo=market_timezone)
+        if observed_at >= close_at:
+            completed.append(quote)
+    return completed
+
+
 def fetch_quotes(symbol: str, start: date, end: date) -> tuple[list[PriceQuote], str | None]:
     ticker = yf.Ticker(symbol)
     history = ticker.history(start=iso_day(start), end=iso_day(end + timedelta(days=1)), interval="1d")
@@ -259,7 +303,12 @@ def currency_from_ticker(ticker) -> str | None:
     return None
 
 
-def build_price_entries(reports: list[Report], attempted_at: date, previous: dict[str, PriceEntry]) -> tuple[list[PriceEntry], int]:
+def build_price_entries(
+    reports: list[Report],
+    observed_at: datetime,
+    previous: dict[str, PriceEntry],
+) -> tuple[list[PriceEntry], int]:
+    attempted_at = observed_at.astimezone(timezone.utc).date()
     entries: list[PriceEntry] = []
     failure_count = 0
     for report in priced_reports(reports):
@@ -268,6 +317,7 @@ def build_price_entries(reports: list[Report], attempted_at: date, previous: dic
         price_as_of = parse_day(report.get("priceAsOf"), f"{report_id}.priceAsOf")
         try:
             quotes, currency = fetch_quotes(symbol, price_as_of - timedelta(days=10), attempted_at)
+            quotes = completed_quotes(symbol, quotes, observed_at)
             entry = build_ok_entry(report, quotes, attempted_at, currency)
             print(f"  OK {symbol}: {entry['lastClose']} ({entry['lastDate']})")
         except Exception as exc:
@@ -279,10 +329,11 @@ def build_price_entries(reports: list[Report], attempted_at: date, previous: dic
 
 
 def main() -> None:
-    attempted_at = datetime.now(timezone.utc).date()
+    observed_at = datetime.now(timezone.utc)
+    attempted_at = observed_at.date()
     reports = load_reports()
     previous = load_previous_entries()
-    entries, failure_count = build_price_entries(reports, attempted_at, previous)
+    entries, failure_count = build_price_entries(reports, observed_at, previous)
     data: Json = {
         "generatedAt": iso_day(attempted_at),
         "entries": entries,

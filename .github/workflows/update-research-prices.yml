@@ -2,7 +2,9 @@ name: Update Research Prices
 
 on:
   schedule:
-    # 22:00 UTC — after every tracked market has closed for that same calendar day.
+    # 22:00 UTC — normally after every tracked market has closed for that same
+    # calendar day. update_prices.py also filters daily bars by each market's
+    # local regular close because scheduled jobs can start hours late.
     # US 16:00 ET = 20:00 UTC (EDT) / 21:00 UTC (EST); Seoul 15:30 KST = 06:30 UTC;
     # Shanghai 15:00 CST = 07:00 UTC; Hong Kong 16:00 HKT = 08:00 UTC.
     #
