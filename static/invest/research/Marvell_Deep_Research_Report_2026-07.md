@@ -1,7 +1,7 @@
 # Marvell Technology (MRVL) Deep Research Report
 
 Coverage date: 2026-07-04
-Last updated: 2026-08-20
+Last updated: 2026-08-28
 Ticker: NASDAQ: MRVL
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -21,6 +21,10 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 > **2026-07-31 stance re-adjudication at the 2026-07-30 close — supersedes the "grid is not re-weighted / pending" language in the old note above.** Owner ruling on Q1 of the review-questions doc (2026-07-31): a published stance and its rationale must hold at the current price — the assessment is re-derived at the latest completed close rather than held open for future evidence. MRVL closed at **$183.30** on **2026-07-30**, +12.2% off the old 2026-07-29 low of $163.40 and **-25.3%** from the old $245.23 anchor. On ~875.8M shares: market cap about **$160.5B**, enterprise value about **$161.9B**; EV/Sales about **14.1x** on the $11.5B FY2027 outlook and about **9.8x** on the $16.5B FY2028 case (old caliber ~19x / ~13x; 07-29 old low ~12.6x / ~8.8x). The 07-30 bounce partially restored the premise: at ~14.1x forward sales — where the denominator is itself the raised outlook, not delivered revenue — the market still pre-pays a clean FY2027 ramp, even though the additional "keep compounding" bar has come down materially. With custom-ASIC socket conversion, optical attach and margin unproven until 2026-08-27, a mildly negative expectation gap survives at the current price in weakened form. **Stance stays cautious (medium conviction) — held on this restated current-price arithmetic, not on the old ~19x claim.** Grid weights (20/50/30) re-checked and retained; this discharges the scenario-grid-reweight-pending monitoring item.
 
+> **2026-08-28 monitoring update (FY2027 Q2 has been reported; the valuation caliber remains anchored at 2026-07-30 and was not re-anchored).** The statements in the two 2026-07-31 blocks above — "no new quarter was reported" and "the 2026-08-27 print is the next real evidence" — have been overtaken by events: Marvell filed a Form 8-K on **2026-08-27** (Items 2.02 and 9.01, accession `0001835632-26-000022`) reporting FY2027 Q2 results. Net revenue for the quarter ended **2026-08-01** was **$2,739.3M** (+37% year over year, +13% sequentially, and $39.0M above the midpoint of the guidance given on 2026-05-27). Per the issuer's end-market table, **Data center revenue was $2,171.5M (+46% year over year, +18% sequentially, 79% of total)** and Communications and other $567.8M (+10% year over year, −3% sequentially). Against the same table in the prior quarter (FY2027 Q1 ended 2026-05-02, Data center $1,832.7M at +27% year over year), **the data-center year-over-year growth rate rose from 27% to 46% across the first two quarters of fiscal 2027**. GAAP gross margin was 53.1% and non-GAAP 58.9%; GAAP net income $308.0M ($0.33 per diluted share on 921.2M diluted shares) and non-GAAP $865.9M ($0.94); cash flow from operations $605.5M. FY2027 Q3 guidance: net revenue **$3.150B +/- 5%**, non-GAAP gross margin 57.5%-58.5%, and non-GAAP diluted EPS $1.10 +/- $0.05.
+>
+> **Two points must be read separately from the valuation arithmetic above.** First, the Chairman and CEO states that the company is "again raising our revenue outlook for both fiscal 2027 and fiscal 2028," but **the release gives no FY2027 or FY2028 revenue figure** (the company says it will set out its long-term strategy further at its **Investor Day on 2026-10-06**). Every ~**14.1x / 9.8x** EV/Sales reading above and below therefore still takes its price anchor from the **2026-07-30 close of $183.30** and its denominator from the $11.5B / $16.5B outlook **sourced from public reports rather than from the issuer** — a denominator caliber now superseded by the issuer's own statement of a raise. From this update onward those multiples should be read as a **historical caliber**; this update recomputes and re-anchors no valuation figure, no fair-value range and no stance. Second, the same release attributes this quarter's Data Center strength to **Connectivity** and dates the "significant acceleration" in the Custom business to the **second half of fiscal 2027**; it splits revenue neither by customer nor between Custom and Connectivity, and does not mention the purchase-linked Google warrant disclosed 2026-08-18 at all (its tranches only begin vesting on purchases from FY2027 Q3). This quarter therefore **is not** ramp evidence for any named hyperscaler custom program.
+
 **Current view:** **Cautious / medium conviction: negative skew despite real optionality.** MRVL is valuable because it cross-checks the Broadcom report. If AVGO represents the higher-certainty route of large-customer XPU plus VMware cash flow, MRVL represents the higher-upside route with more customer diversity, more optical / networking exposure, and weaker project visibility. The v5 split matters: this is not a low-quality business call, but at the dated price the scenario work says execution risk and valuation denominator risk outweigh the upside optionality.
 
 **Quick stats:**
@@ -30,11 +34,11 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Share price | **$183.30** (2026-07-30 close); superseded intermediate $163.40 (07-29); old anchor $245.29 (2026-07-02) |
 | Market cap / shares | **About $160.5B** (2026-07-30 close); about 875.8M shares. Superseded intermediate ~$143.1B; old caliber ~$214.6B |
 | Enterprise value | About (old caliber) $215.7B (about $1.1B net debt) |
-| Latest reported period | FY2027 Q1 (quarter ended Apr 30, 2026) |
+| Latest reported period | **FY2027 Q2 (quarter ended Aug 1, 2026)**; ~~FY2027 Q1 (quarter ended Apr 30, 2026)~~ |
 | Q1 revenue / gross profit | $2.42B / $1.26B |
 | Q1 operating income / FCF | $350M / $483M |
-| Current-quarter guide | Public reports frame about $2.7B revenue and about $0.93 EPS |
-| FY2027 / FY2028 revenue outlook | Public reports frame about $11.5B / $16.5B |
+| Current-quarter guide | **FY2027 Q3: net revenue $3.150B +/- 5% and non-GAAP diluted EPS $1.10 +/- $0.05 (issuer release, 2026-08-27)**; ~~public reports frame about $2.7B revenue and about $0.93 EPS~~ (that caliber pointed at the now-delivered Q2, which came in at $2,739.3M and non-GAAP $0.94) |
+| FY2027 / FY2028 revenue outlook | Public reports frame about $11.5B / $16.5B (**historical caliber**: on 2026-08-27 the company said it had again raised both, but the release gives no figures; the multiples below still use this old denominator and the 2026-07-30 price) |
 | Key deals | NVIDIA $2B investment + NVLink Fusion; Celestial AI $3.25B acquisition |
 | Chain role | custom-merchant-silicon architecture check |
 
@@ -167,7 +171,9 @@ MRVL's valuation is a bet on future revenue slope. It does not have Broadcom's V
 
 | Catalyst | Timing | Impact |
 |----------|--------|--------|
-| FY2027 Q2 results | 2026-08 | Tests the roughly $2.7B revenue guide and data-center acceleration |
+| ~~FY2027 Q2 results~~ → reported 2026-08-27 | ~~2026-08~~ | Net revenue $2,739.3M ($39.0M above the guidance midpoint); Data center $2,171.5M, +46% year over year (prior quarter +27%). The company dates the significant Custom acceleration to H2 FY2027 |
+| FY2027 Q3 results | 2026-12 | Tests the $3.150B +/- 5% guide and whether the Custom acceleration appears in the second half |
+| Investor Day | 2026-10-06 | The company says it will set out its long-term strategy; whether the raised-but-unquantified FY2027 / FY2028 outlooks get named figures |
 | AWS / Microsoft custom silicon updates | H2 2026 | Tests Trainium / Maia project share |
 | NVLink Fusion productization | H2 2026-2027 | Tests whether partnership becomes recognized revenue |
 | Celestial AI integration | 2026-2028 | Tests whether photonic fabric enters real customers |

@@ -897,7 +897,7 @@
     ],
     "category": "tech",
     "date": "2026-07-05",
-    "lastUpdate": "2026-08-27",
+    "lastUpdate": "2026-08-28",
     "file": "/invest/research/reports/view.html?id=synopsys-2026",
     "markdownFiles": {
       "zh": "/invest/research/Synopsys_深度研究报告_2026-07.md",
@@ -988,8 +988,8 @@
           "en": "Ansys revenue and simulation synergies expand the platform rather than dilute execution"
         },
         "latest": {
-          "zh": "FY2026 全年指引现含约 $2.98B 预期 Ansys 收入（此前约 $2.96B）；Ansys 在 Q3 FY2026 贡献 $622.2M、前九个月贡献 $2.2B，CFO 称 Ansys 当季表现强劲，公司同时上调全年营收、non-GAAP 经营利润率、每股收益与现金流指引。评为 `within`：平台口径在扩大而非稀释执行。证据边界：同比增幅系 Ansys 完整期间对上年同期部分期间，不是有机增长口径；另公司 2026-08-26 的 Form 8-K/A 披露董事会于 2026-08-21 将 2025-11-09 重组计划税前费用估计上调至 $425M-$500M，但该文件并未将重组与 Ansys 整合相联系，此处不作该归因。",
-          "en": "FY2026 full-year guidance now includes about $2.98B of expected Ansys revenue, up from about $2.96B; Ansys contributed $622.2M in Q3 FY2026 and $2.2B over nine months, the CFO described a strong quarter from Ansys, and the company raised full-year revenue, non-GAAP operating margin, EPS and cash-flow guidance. Graded `within`: the platform caliber is expanding rather than diluting execution. Evidence limits: year-over-year growth compares a full period of Ansys against a partial prior-year period and is not an organic caliber; separately, the Form 8-K/A of 2026-08-26 discloses that on 2026-08-21 the Board raised the pre-tax charge estimate for the 2025-11-09 restructuring plan to $425M-$500M, but that filing does not connect the restructuring to the Ansys integration and no such attribution is made here."
+          "zh": "FY2026 全年指引现含约 $2.98B 预期 Ansys 收入（此前约 $2.96B）；Ansys 在 Q3 FY2026 贡献 $622.2M、前九个月贡献 $2.2B，CFO 称 Ansys 当季表现强劲，公司同时上调全年营收、non-GAAP 经营利润率、每股收益与现金流指引。评为 `within`：平台口径在扩大而非稀释执行。证据边界：同比增幅系 Ansys 完整期间对上年同期部分期间，不是有机增长口径；另公司 2026-08-26 的 Form 8-K/A 披露董事会于 2026-08-21 将 2025-11-09 重组计划税前费用估计由 $300M-$350M 上调至 $425M-$500M，即区间两端增加 $125M-$150M、中点由 $325M 升至 $462.5M（+42.3%）。该文件并未将重组与 Ansys 整合相联系，此处不作该归因。",
+          "en": "FY2026 full-year guidance now includes about $2.98B of expected Ansys revenue, up from about $2.96B; Ansys contributed $622.2M in Q3 FY2026 and $2.2B over nine months, the CFO described a strong quarter from Ansys, and the company raised full-year revenue, non-GAAP operating margin, EPS and cash-flow guidance. Graded `within`: the platform caliber is expanding rather than diluting execution. Evidence limits: year-over-year growth compares a full period of Ansys against a partial prior-year period and is not an organic caliber; separately, the Form 8-K/A of 2026-08-26 discloses that on 2026-08-21 the Board raised the pre-tax charge estimate for the 2025-11-09 restructuring plan from $300M-$350M to $425M-$500M, increasing the endpoints by $125M-$150M and the midpoint from $325M to $462.5M (+42.3%). That filing does not connect the restructuring to the Ansys integration and no such attribution is made here."
         },
         "nextCheck": "Q4/FY2026 财报 / Q4 and FY2026 results",
         "nextCheckDate": "2026-12",
@@ -4344,7 +4344,7 @@
     ],
     "category": "tech",
     "date": "2026-02-11",
-    "lastUpdate": "2026-08-27",
+    "lastUpdate": "2026-08-28",
     "period": "FY2027 Q2",
     "versionType": "incremental",
     "versionLabel": "FY2027 Q2 Incremental Update",
@@ -4358,12 +4358,13 @@
       "FY2027全年营收指引上调$2亿至$461-464亿(+11-12%)，Non-GAAP EPS指引$16.67-16.71；Contentful与Fin预计FY27 Q3交割",
       "本季核心张力：营收+11%而GAAP经营利润同比持平($23.31亿 vs $23.32亿)，GAAP经营利润率22.8%→20.5%；EPS +119%来自$26.13亿证券收益与14.7%股数下降，非经营杠杆",
       "资产负债表转向：债务$144.39亿→$392.88亿，净现金转为净债务$278.85亿，季度利息支出$0.67亿→$4.73亿；$250亿ASR初始交付1.03亿股，最终结算预计2026年10月",
-      "按2026-08-26收盘$206.05重锚：市值约$1,688亿、EV约$1,966亿、P/S(TTM) 3.84x、FCF yield约9.0%、Forward P/E 12.35x（剔除证券收益核心口径约15.0x）；立场看多、信心下调至中"
+      "按2026-08-27收盘$252.05（财报后首个完整交易日，单日+22.58%）二次重锚，股数用Q2 FY27 10-Q封面8.23亿股：市值约$2,074.37亿、EV约$2,353.22亿、P/S(TTM) 4.72x、EV/EBITDA 18.59x、FCF yield约7.30%、Forward P/E 15.10x（剔除证券收益核心口径约18.38x）",
+      "当前价已高于本报告两条「中高」置信度估值法的上沿（核心Forward P/E法$192-247、EV/Sales法$180-233），仅落在「中」置信度FCF yield区间$230-283内；立场维持看多·中——本轮无新业务事实、降级触发器一条未触发，单纯价格上涨不构成立场变更依据"
     ],
-    "summaryEn": "Global CRM leader. Updated 2026-08-27 (FY2027 Q2 results plus a re-anchor to the 2026-08-26 close): quarterly revenue was $11.345B (+11% YoY), subscription and support $10.820B (+12%), and cRPO $33.5B (+14%, accelerating from +13% in Q1). The company raised FY2027 revenue guidance by $200M to $46.1-46.4B (+11-12%) and lifted non-GAAP EPS guidance to $16.67-16.71. Margin expansion stalled this quarter, however: GAAP operating income of $2.331B was flat against $2.332B a year ago, GAAP operating margin fell from 22.8% to 20.5%, and GAAP EPS of $4.29 (+119%) came mainly from $2.613B of unrealized strategic-investment gains plus a 14.7% lower share count. The balance sheet moved from roughly net cash to $27.885B of net debt (debt $39.288B), with quarterly interest expense rising to $473M. Re-anchored to CRM's 2026-08-26 close of $206.05 and the 10-Q cover-page count of about 819M shares: market cap about $168.8B, EV about $196.6B, TTM P/S 3.84x, TTM EV/EBITDA 15.54x, FCF yield about 9.0%, and a company-basis forward P/E of 12.35x. Because the FY27 non-GAAP guide includes the $2.98 H1 per-share impact of strategic-investment gains disclosed by the issuer, core EPS is about $13.71 and the core forward P/E about 15.0x. The deep-value gap has narrowed materially; the bullish lean is maintained but conviction is lowered to medium. The release came after the close, so a re-anchor is due after the 2026-08-27 session.",
-    "summary": "全球CRM霸主。2026-08-27更新（FY2027 Q2财报＋按2026-08-26收盘重锚）：季度营收$113.45亿(+11% YoY)、订阅与支持$108.20亿(+12%)、cRPO $335亿(+14%，较Q1的13%继续加速)，公司将FY2027营收指引上调$2亿至$461-464亿(+11-12%)、Non-GAAP EPS指引升至$16.67-16.71。但利润扩张本季停滞：GAAP经营利润$23.31亿同比持平(上年$23.32亿)、GAAP经营利润率由22.8%降至20.5%，GAAP EPS $4.29(+119%)主要来自$26.13亿战略投资未实现收益与14.7%的股数下降。资产负债表由近似净现金转为净债务$278.85亿(债务$392.88亿)，季度利息支出升至$4.73亿。按CRM 2026-08-26收盘$206.05与10-Q封面约8.19亿股重锚：市值约$1,688亿、EV约$1,966亿、P/S(TTM) 3.84x、EV/EBITDA(TTM) 15.54x、FCF yield约9.0%、公司口径Forward P/E 12.35x；因发行人披露FY27 H1战略投资收益对Non-GAAP摊薄EPS的影响为$2.98，剔除后核心EPS约$13.71、Forward P/E约15.0x。深度价值缺口明显收窄，维持看多但信心下调至中。财报于收盘后发布，2026-08-27收盘后需再次重锚。",
+    "summaryEn": "Global CRM leader. Updated 2026-08-28 (pure re-anchor, no new business event): delivering the scheduled step promised last round, re-anchored to the 2026-08-27 close of $252.05 (+22.58% on the day), the first complete post-release regular session, on the Q2 FY2027 10-Q cover-page count of about 823M shares (as of 2026-08-20). The business facts remain FY2027 Q2: revenue $11.345B (+11% YoY), subscription and support $10.820B (+12%), cRPO $33.5B (+14%, accelerating from +13% in Q1), FY2027 revenue guidance $46.1-46.4B (+11-12%) and non-GAAP EPS guidance $16.67-16.71. GAAP operating income of $2.331B was flat against $2.332B a year ago, GAAP operating margin fell from 22.8% to 20.5%, and GAAP EPS of $4.29 (+119%) came mainly from $2.613B of unrealized strategic-investment gains plus a 14.7% lower share count; net debt is $27.885B (debt $39.288B) with quarterly interest expense of $473M. Re-anchored: market cap about $207.437B, EV about $235.322B, TTM P/S 4.72x, TTM EV/EBITDA 18.59x, FCF yield about 7.30%, and a company-basis forward P/E of 15.10x. Removing the issuer-disclosed $2.98 H1 per-share impact of strategic-investment gains gives core EPS of about $13.71 and a core forward P/E of about 18.38x. The discount is now gone: the price sits above the top of both Med-High confidence ranges (core forward P/E $192-247 and EV/Sales $180-233) and inside only the Medium-confidence FCF-yield range ($230-283). The stance is held at constructive with medium conviction — there is no new business fact this round and none of the four downgrade triggers fired, and a price rise alone is not grounds for a stance change; but the valuation-discount pillar supporting the bullish lean is now thin, leaving the bull case resting almost entirely on the untested assumption that accelerating demand will restore margin expansion in Q3.",
+    "summary": "全球CRM霸主。2026-08-28更新（纯重锚，无新增业务事件）：兑现上一轮承诺的定期步骤，按财报后首个完整交易日2026-08-27收盘$252.05（单日+22.58%）与Q2 FY27 10-Q封面股数约8.23亿股（截至2026-08-20）二次重锚。业务面仍为FY2027 Q2：营收$113.45亿(+11% YoY)、订阅与支持$108.20亿(+12%)、cRPO $335亿(+14%，较Q1的13%继续加速)，FY2027营收指引$461-464亿(+11-12%)、Non-GAAP EPS指引$16.67-16.71；GAAP经营利润$23.31亿同比持平(上年$23.32亿)、经营利润率22.8%→20.5%，GAAP EPS $4.29(+119%)主要来自$26.13亿战略投资未实现收益与14.7%股数下降；净债务$278.85亿(债务$392.88亿)、季度利息支出$4.73亿。重锚后：市值约$2,074.37亿、EV约$2,353.22亿、P/S(TTM) 4.72x、EV/EBITDA(TTM) 18.59x、FCF yield约7.30%、公司口径Forward P/E 15.10x；剔除发行人披露的H1战略投资每股影响$2.98后核心EPS约$13.71、核心Forward P/E约18.38x。折价已经消失：当前价高于核心Forward P/E法($192-247)与EV/Sales法($180-233)两条中高置信度区间的上沿，仅落在中置信度的FCF yield区间($230-283)内。立场维持看多、信心维持中——本轮无新业务事实、四个降级触发器一条未触发，单纯价格上涨不构成立场变更依据；但支撑看多的「估值折价」这根支柱已很薄，多头论点几乎全压在「需求加速终将带回利润扩张」这一尚未被Q3证实的假设上。",
     "priceSymbol": "CRM",
-    "priceAsOf": "2026-08-26",
+    "priceAsOf": "2026-08-27",
     "reportedPeriod": "FY2027 Q2",
     "stance": "constructive",
     "conviction": "medium",
@@ -4373,22 +4374,37 @@
         "stance": "constructive",
         "conviction": "medium",
         "price": 206.05
+      },
+      {
+        "date": "2026-08-28",
+        "stance": "constructive",
+        "conviction": "medium",
+        "price": 252.05
       }
     ],
     "stanceRationale": {
-      "zh": "按2026-08-26收盘$206.05、约8.19亿股（10-Q封面，截至2026-05-21）计，市值约$1,688亿、EV约$1,966亿、P/S(TTM) 3.84x、FCF yield约9.0%。公司口径Forward P/E 12.35x；但FY2027 Non-GAAP EPS指引$16.67-16.71并未剔除战略投资损益，发行人披露FY27 H1该项收益对Non-GAAP摊薄EPS的影响为$2.98，因此核心EPS约$13.71、Forward P/E约15.0x。维持看多的依据是需求侧确已加速：cRPO $335亿(+14%，连续三季10%→13%→14%)、FY27营收指引上调至$461-464亿、Agentforce + Data 360合计ARR约$39亿(+210%)。信心由中高下调至medium的依据是算术而非价格：营收+11%而GAAP经营利润同比持平($23.31亿 vs $23.32亿)、GAAP经营利润率22.8%→20.5%，EPS +119%全部来自证券收益与14.7%的股数下降；同时债务由$144.39亿升至$392.88亿、净现金转为净债务$278.85亿。本次锚点为财报公布前收盘价，2026-08-27收盘后需再次重锚。",
-      "en": "At the 2026-08-26 close of $206.05 on about 819M shares (10-Q cover page, as of 2026-05-21), market cap is about $168.8B, EV about $196.6B, TTM P/S 3.84x and FCF yield about 9.0%. Company-basis forward P/E is 12.35x; but the FY2027 non-GAAP EPS guide of $16.67-16.71 does not exclude strategic-investment gains, and the issuer disclosed that H1 gains contributed $2.98 to non-GAAP diluted EPS. Removing that disclosed impact gives core EPS of about $13.71 and a forward P/E of about 15.0x. The bullish lean is held because demand demonstrably accelerated: cRPO $33.5B (+14%, three straight quarters of 10% then 13% then 14%), FY27 revenue guidance raised to $46.1-46.4B, and combined Agentforce & Data 360 ARR of about $3.9B (+210%). Conviction is lowered from medium-high to medium on arithmetic rather than price: revenue rose 11% while GAAP operating income was flat year over year ($2.331B vs $2.332B) and GAAP operating margin fell from 22.8% to 20.5%, with the +119% EPS coming entirely from securities gains and a 14.7% lower share count; debt also rose from $14.439B to $39.288B, turning net cash into $27.885B of net debt. This anchor is the pre-release close, so the report must be re-anchored after the 2026-08-27 session."
+      "zh": "按2026-08-27收盘$252.05（财报后首个完整常规交易日，单日+22.58%）、约8.23亿股（Q2 FY27 10-Q封面，截至2026-08-20，accession 0001108524-26-000190）计，市值约$2,074.37亿、EV约$2,353.22亿、P/S(TTM) 4.72x、EV/EBITDA 18.59x、FCF yield约7.30%。公司口径Forward P/E 15.10x；剔除发行人披露的H1战略投资每股影响$2.98后，核心EPS约$13.71、核心Forward P/E约18.38x。维持看多的依据仍是需求侧确已加速：cRPO $335亿(+14%，连续三季10%→13%→14%)、FY27营收指引上调至$461-464亿、Agentforce + Data 360合计ARR约$39亿(+210%)。信心维持medium（不再二次下调）的依据：本轮唯一变化是价格与股数，无任何新增业务事实，且业务面三条降级触发器一条未触发；单纯价格上涨不构成立场变更依据。但必须诚实记录张力：当前价已高于核心Forward P/E法($192-247)与EV/Sales法($180-233)两条中高置信度区间的上沿，\"估值折价\"这根支柱只剩很薄一层（对Adobe约8%折价、对SAP约26%折价），多头论点几乎全部压在\"需求加速终将带回利润扩张\"这一尚未被Q3证实的假设上。现已补入估值通道：若核心Forward P/E超过20x且GAAP经营利润率仍未恢复同比扩张，则下调至neutral-watch；当前18.38x未触发该条件。",
+      "en": "At the 2026-08-27 close of $252.05 (the first complete post-release regular session, +22.58% on the day) on about 823M shares (Q2 FY27 10-Q cover page, as of 2026-08-20, accession 0001108524-26-000190), market cap is about $207.437B, EV about $235.322B, TTM P/S 4.72x, EV/EBITDA 18.59x and FCF yield about 7.30%. Company-basis forward P/E is 15.10x; removing the issuer-disclosed $2.98 H1 per-share impact of strategic-investment gains gives core EPS of about $13.71 and a core forward P/E of about 18.38x. The bullish lean is held on the same demand evidence: cRPO $33.5B (+14%, three straight quarters of 10% then 13% then 14%), FY27 revenue guidance raised to $46.1-46.4B, and combined Agentforce & Data 360 ARR of about $3.9B (+210%). Conviction stays at medium rather than being cut again because the only things that changed this round are price and share count, with no new business fact, and none of the three business-lane downgrade triggers fired; a price rise alone is not grounds for a stance change. The tension is recorded honestly, however: the price now sits above the top of both Med-High confidence ranges (core forward P/E $192-247 and EV/Sales $180-233), leaving the \"valuation discount\" pillar very thin (about an 8% discount to Adobe and 26% to SAP), so the bull case rests almost entirely on the untested assumption that accelerating demand will restore margin expansion in Q3. A valuation lane is now explicit: move to neutral-watch if core forward P/E exceeds 20x while GAAP operating margin has not returned to year-over-year expansion; the current 18.38x does not meet that condition."
     },
     "stanceTriggers": {
       "upgrade": {
         "zh": "FY2027 Q3 cRPO同比增速维持至少14%、GAAP经营利润率恢复同比扩张、全年自由现金流增长指引维持或上调，且按财报后完整交易日重锚后仍存在正向预期差，则上调确信度。",
         "en": "Raise conviction if FY2027 Q3 cRPO growth holds at 14% or better, GAAP operating margin returns to year-over-year expansion, the full-year free-cash-flow growth guide is maintained or raised, and a positive expectation gap remains after re-anchoring to a completed post-release session.",
-        "monitoringIds": ["crpo-growth-durability", "gaap-operating-margin-recovery", "leverage-and-fcf-durability"]
+        "monitoringIds": [
+          "crpo-growth-durability",
+          "gaap-operating-margin-recovery",
+          "leverage-and-fcf-durability"
+        ]
       },
       "downgrade": {
-        "zh": "cRPO同比增速跌破12%，GAAP经营利润率继续低于上年同期且自由现金流指引下调，或杠杆与并购整合持续侵蚀现金回报，则下调至中性观察或谨慎。",
-        "en": "Move to neutral-watch or cautious if cRPO growth falls below 12%, GAAP operating margin remains below the prior-year level alongside a free-cash-flow guide cut, or leverage and acquisition integration continue to erode cash returns.",
-        "monitoringIds": ["crpo-growth-durability", "gaap-operating-margin-recovery", "leverage-and-fcf-durability"]
+        "zh": "cRPO同比增速跌破12%，GAAP经营利润率继续低于上年同期且自由现金流指引下调，杠杆与并购整合持续侵蚀现金回报，或核心Forward P/E超过20x且GAAP经营利润率仍未恢复同比扩张，则下调至中性观察或谨慎。",
+        "en": "Move to neutral-watch or cautious if cRPO growth falls below 12%, GAAP operating margin remains below the prior-year level alongside a free-cash-flow guide cut, leverage and acquisition integration continue to erode cash returns, or core forward P/E exceeds 20x while GAAP operating margin has not returned to year-over-year expansion.",
+        "monitoringIds": [
+          "crpo-growth-durability",
+          "gaap-operating-margin-recovery",
+          "leverage-and-fcf-durability",
+          "valuation-expectation-gap"
+        ]
       }
     },
     "monitoring": [
@@ -4451,6 +4467,27 @@
           "en": "Net debt was $27.885B as of 2026-07-31 (debt $39.288B, cash and marketable securities $11.403B); Q2 interest expense was $473M versus $67M a year ago; FY27 OCF/FCF growth guidance maintained at about 4-5%; the FY27 guide of about 4-5% FCF growth implies roughly $15.050B for the year, and netting H1 actual of $7.654B leaves about $7.396B implied for H2 versus H2 FY26 actual of $7.500B — the guide therefore embeds a roughly 1.4% year-over-year decline in second-half free cash flow (our own calculation)"
         },
         "nextCheck": "FY2027 Q3 results (timing not yet issuer-confirmed)",
+        "nextCheckDate": "2026-11",
+        "reading": "within",
+        "readingAsOf": "2026-08-27"
+      },
+      {
+        "id": "valuation-expectation-gap",
+        "thesis": "bear",
+        "theme": "valuation",
+        "metric": {
+          "zh": "核心Forward P/E与GAAP利润率恢复之间的预期差",
+          "en": "Expectation gap between core forward P/E and GAAP margin recovery"
+        },
+        "trigger": {
+          "zh": "核心Forward P/E超过20x且GAAP经营利润率仍未恢复同比扩张",
+          "en": "Core forward P/E exceeds 20x while GAAP operating margin has not returned to year-over-year expansion"
+        },
+        "latest": {
+          "zh": "按2026-08-27收盘$252.05与核心EPS约$13.71计，核心Forward P/E约18.38x；GAAP经营利润率为20.5%、同比-2.3pt。价格已高于两条中高置信度估值区间上沿，但18.38x仍低于20x门槛，评级为within。",
+          "en": "At the 2026-08-27 close of $252.05 and core EPS of about $13.71, core forward P/E is about 18.38x; GAAP operating margin is 20.5%, down 2.3pts year over year. The price is above both Med-High confidence valuation ranges, but 18.38x remains below the 20x threshold, so the reading is within."
+        },
+        "nextCheck": "Next completed-session price ledger and FY2027 Q3 results",
         "nextCheckDate": "2026-11",
         "reading": "within",
         "readingAsOf": "2026-08-27"
@@ -4675,8 +4712,8 @@
           "en": "an Anthropic-related mark reverses materially, or disclosure shows excessive AWS-backlog concentration on that counterparty while the position size stays undisclosed"
         },
         "latest": {
-          "zh": "2026 Q2 非经营性其他收益 $53.415B，财报稿归因为「主要来自我们对 Anthropic 的投资」；同期其他综合收益含 $41.988B 税后可供出售未实现收益（公司未归因），「其他资产」半年内由 $122.607B 增至 $284.132B。账面价值与集中度均未披露；Anthropic 同时承诺最高 5 GW Trainium 产能（电话会报道）",
-          "en": "Q2 2026 non-operating other income was $53.415B, attributed by the release as primarily from Amazon's investments in Anthropic; the same quarter carried a $41.988B after-tax available-for-sale unrealised gain in OCI (unattributed by the company) and Other assets rose from $122.607B to $284.132B in six months. Neither carrying value nor backlog concentration is disclosed; Anthropic has separately committed to as much as 5 GW of Trainium capacity (call coverage)"
+          "zh": "2026 Q2 非经营性其他收益 $53.415B，财报稿归因为「主要来自我们对 Anthropic 的投资」；同期其他综合收益含 $41.988B 税后可供出售未实现收益（公司未归因），「其他资产」半年内由 $122.587B 增至 $284.132B。账面价值与集中度均未披露；Anthropic 同时承诺最高 5 GW Trainium 产能（电话会报道）",
+          "en": "Q2 2026 non-operating other income was $53.415B, attributed by the release as primarily from Amazon's investments in Anthropic; the same quarter carried a $41.988B after-tax available-for-sale unrealised gain in OCI (unattributed by the company) and Other assets rose from $122.587B to $284.132B in six months. Neither carrying value nor backlog concentration is disclosed; Anthropic has separately committed to as much as 5 GW of Trainium capacity (call coverage)"
         },
         "reading": "unclear",
         "readingAsOf": "2026-07-30",
@@ -7883,8 +7920,8 @@
     "priceSymbol": "MRVL",
     "title": "Marvell Technology 深度研究报告 - Broadcom 之外的 custom ASIC 与光互连架构校验",
     "titleEn": "Marvell Technology Deep Research Report - Custom ASIC and Optical Interconnect Check Beyond Broadcom",
-    "summary": "2026-07-31 立场重新裁定：MRVL 收于 $183.30（2026-07-30），较 07-29 低点反弹 +12.2%、较 7 月 2 日锚点仍 −25.3%，市值约 $160.5B、EV 约 $161.9B。按报告自身收入情景，EV/Sales 约 14.1x（FY2027 $11.5B）、约 9.8x（FY2028 $16.5B）。按所有者 Q1 裁定复核：约 14.1x 前瞻销售额（分母本身是上调后的展望）仍在预付 FY2027 干净落地，负预期差以减弱形式成立，维持谨慎/中确信；custom ASIC 转化与光互连 attach 待 2026-08-27 业绩验证，网格权重保留。",
-    "summaryEn": "July 31, 2026 stance re-adjudication: MRVL closed at $183.30 on 2026-07-30, +12.2% off the 07-29 low and still -25.3% from the July 2 anchor, for about $160.5B market cap and ~$161.9B enterprise value. On the report's own revenue scenarios, EV/Sales is about 14.1x on the $11.5B FY2027 outlook and about 9.8x on the $16.5B FY2028 case. Re-checked under the owner's Q1 ruling: at ~14.1x forward sales — the denominator itself the raised outlook — the market still pre-pays a clean FY2027 ramp, so a weakened negative gap survives and cautious / medium conviction holds; custom-ASIC conversion and optical attach are tested at the 2026-08-27 print, grid weights retained.",
+    "summary": "2026-08-28 监测更新：FY2027 Q2 净收入 $2,739.3M（同比 +37%），Data center $2,171.5M（同比 +46%，前季 +27%），Q3 指引 $3.150B±5%。发行人称本季 Data Center 强度来自 Connectivity，并把 Custom 业务显著加速定在 FY2027 下半年，因此具名 hyperscaler 项目转收入仍为 unclear。公司称再度上调 FY2027/FY2028 收入展望但未给数字，故 2026-07-30 的 $183.30 与约 14.1x/9.8x 倍数仅作历史口径，不冒充当前估值；维持谨慎/中确信。",
+    "summaryEn": "Monitoring update dated August 28, 2026: FY2027 Q2 net revenue was $2,739.3M (+37% year over year), Data center revenue $2,171.5M (+46% versus +27% in Q1), and Q3 guidance is $3.150B +/- 5%. The issuer attributes this quarter's Data Center strength to Connectivity and dates significant Custom acceleration to the second half of FY2027, so named-hyperscaler conversion remains unclear. The company says it again raised its FY2027/FY2028 outlook but gives no figures; the July 30 close of $183.30 and ~14.1x/~9.8x multiples therefore remain a historical caliber, not a current valuation. Cautious / medium conviction is unchanged.",
     "tags": [
       "AI计算",
       "自定义ASIC",
@@ -7893,7 +7930,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-08-20",
+    "lastUpdate": "2026-08-28",
     "file": "/invest/research/reports/view.html?id=marvell-2026",
     "markdownFiles": {
       "zh": "/invest/research/Marvell_深度研究报告_2026-07.md",
@@ -7904,9 +7941,9 @@
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
       "股价 $183.30（2026-07-30 收盘），较 07-29 低点反弹 +12.2%、较 7 月 2 日锚点仍 −25.3%；市值约 $160.5B、EV 约 $161.9B",
-      "EV/Sales 约 14.1x（FY2027 $11.5B）、FY2028 口径约 9.8x（旧口径约 19x/13x）",
-      "“这不是便宜的半导体股”按旧倍数校准，当前水平下已是实质不同的主张",
-      "本期无新季报：Marvell 业绩定于 2026-08-27，执行问题未解决也未恶化",
+      "历史口径 EV/Sales 约 14.1x（FY2027 $11.5B）、FY2028 口径约 9.8x；发行人 2026-08-27 称再次上调两年展望但未给数字，故不视为当前倍数",
+      "“这不是便宜的半导体股”按旧倍数校准；本轮不以过期价格或二手分母冒充当前估值",
+      "FY2027 Q2（2026-08-27 公布）：净收入 $2,739.3M、Data center $2,171.5M（同比 +46%，前一季 +27%）；公司把 Custom 业务的显著加速定在 FY2027 下半年，Q2 强度归因于 Connectivity",
       "所有者 Q1 裁定已适用：约 14.1x 的分母是未交付的展望，负预期差以减弱形式成立——维持谨慎/中确信，网格权重保留"
     ],
     "chainLayer": "custom-merchant-silicon",
@@ -7914,7 +7951,7 @@
     "chainRole": "architecture-check",
     "stance": "cautious",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "FY2027 Q1",
+    "reportedPeriod": "FY2027 Q2 monitoring / 2026-07-30 valuation frame",
     "related": [
       "broadcom-2026",
       "nvidia-2026",
@@ -7935,13 +7972,13 @@
           "en": "FY2027 data-center revenue accelerates each quarter and AWS / Microsoft / additional hyperscaler programs ramp"
         },
         "latest": {
-          "zh": "2026-08-19 提交、最早事项日期 2026-08-18 的 Form 8-K（事项 1.01/3.02/9.01）：Marvell 披露已于 2026 年 7 月 29 日与 Google LLC 就为其开发定制半导体产品（Custom Products）签署商业协议，8-K 表述该扩大后的合作『涵盖依附于 TPU 生态的一整套定制硅项目』，列举 AI 推理加速器、存储控制器、网络接口控制器、内存接口控制器与近内存计算；并于 2026-08-18 向 Google 发行至多 58,970,907 股、行权价 $206.58 的权证，其中 1,360,867 股按季在首年等额解锁，其余按 Google 及其关联方自 FY2027 Q3 至 FY2033 结束期间的『可自由裁量』采购分 240 个等额档位解锁，每 5 亿美元 Custom Products 收入解锁一档。评级：unclear。本项触发条件是一个合取——『FY2027 数据中心收入逐季加速』**且**『AWS / Microsoft / 其他 hyperscaler 项目放量』。8-K 为第二个合取项补上了一个具名的新增 hyperscaler 项目（此前 §2 只能依据公开报道提及 Google），但**未披露任何收入、订单或采购承诺金额**，解锁所依附的采购被发行人自身定性为『可自由裁量』，因而不构成放量证据；第一个合取项在 2026-08-27 的 FY2027 Q2 财报前没有任何新证据。此前口径（公开报道框定 FY2027/FY2028 约 $11.5B / $16.5B 收入展望）保留待该次财报检验。",
-          "en": "Form 8-K filed 2026-08-19, date of earliest event reported 2026-08-18 (Items 1.01/3.02/9.01): Marvell disclosed that it and Google LLC entered into a commercial agreement on July 29, 2026 relating to the company's development of custom semiconductor products ('Custom Products') for Google, described in the 8-K as spanning 'a comprehensive range of custom silicon programs that attach to the TPU ecosystem,' naming AI inference accelerators, storage controllers, network interface controllers, memory interface controllers and near-memory compute; and that on 2026-08-18 it issued Google a warrant over up to 58,970,907 shares at a $206.58 exercise price, of which 1,360,867 shares vest in equal quarterly installments over the first year and the remainder vest on 'discretionary' purchases by or on behalf of Google and its affiliates from FY2027 Q3 through the end of FY2033, in 240 equal tranches, one per US$500 million of Custom Products revenue. Reading: unclear. This item's trigger is a conjunction — FY2027 data-center revenue accelerating each quarter **and** AWS / Microsoft / additional hyperscaler programs ramping. The 8-K supplies the second conjunct with a named additional hyperscaler program (§2 previously cited Google only from public reports), but it **discloses no revenue, order or purchase-commitment amount**, and the purchases the tranches attach to are characterised by the issuer itself as 'discretionary', so they are not ramp evidence. The first conjunct has no new evidence before the FY2027 Q2 print on 2026-08-27. The prior caliber — public reports framing an FY2027 / FY2028 outlook around $11.5B / $16.5B — is retained pending that print."
+          "zh": "2026-08-27 提交的 Form 8-K（事项 2.02／9.01，accession 0001835632-26-000022）附件 99.1：FY2027 Q2（截至 2026-08-01）净收入 $2,739.3M（同比 +37%、环比 +13%），Data center 收入 $2,171.5M（同比 +46%、环比 +18%、占比 79%）；对照上一季同表，FY2027 Q1 Data center $1,832.7M 同比 +27%，故数据中心同比增速在 FY2027 前两季由 27% 升至 46%。FY2027 Q3 指引净收入 $3.150B ±5%。评级：unclear。本项触发是一个合取——「FY2027 数据中心收入逐季加速」**且**「AWS / Microsoft / 其他 hyperscaler 项目放量」。第一个合取项已由发行人自己的 end-market 表坐实；**第二个合取项被同一份新闻稿反向指向**：董事长兼 CEO 把本季 Data Center 强度归因于 **Connectivity**，并把 Custom 业务的「显著加速」明确定在 **FY2027 下半年**，新闻稿也未按客户或按 Custom／Connectivity 拆分收入。2026-08-18 披露的 Google 采购挂钩权证其档位自 FY2027 Q3 起才按采购解锁，本新闻稿全文未提及该权证，故本季结构上不可能提供采购挂钩的放量证据。一腿坐实、另一腿被发行人自陈尚未发生，整体维持 unclear。",
+          "en": "Exhibit 99.1 to the Form 8-K filed 2026-08-27 (Items 2.02 and 9.01, accession 0001835632-26-000022): FY2027 Q2 (quarter ended 2026-08-01) net revenue was $2,739.3M (+37% year over year, +13% sequentially) and Data center revenue $2,171.5M (+46% year over year, +18% sequentially, 79% of total). Against the same table in the prior quarter, FY2027 Q1 Data center revenue was $1,832.7M at +27% year over year, so the data-center year-over-year growth rate rose from 27% to 46% across the first two quarters of fiscal 2027. FY2027 Q3 guidance is net revenue of $3.150B +/- 5%. Reading: unclear. This item's trigger is a conjunction - FY2027 data-center revenue accelerating each quarter **and** AWS / Microsoft / additional hyperscaler programs ramping. The first conjunct is established by the issuer's own end-market table; **the second is pointed the other way by the same release**: the Chairman and CEO attributes this quarter's Data Center strength to **Connectivity** and dates the 'significant acceleration' in the Custom business to the **second half of fiscal 2027**, and the release splits revenue neither by customer nor between Custom and Connectivity. The purchase-linked Google warrant disclosed 2026-08-18 has tranches that only begin vesting on purchases from FY2027 Q3, and the release does not mention the warrant at all, so this quarter structurally cannot supply purchase-linked ramp evidence. With one conjunct established and the other stated by the issuer as not yet occurring, the aggregate stays unclear."
         },
-        "nextCheck": "FY2027 Q2 财报 / FY2027 Q2 earnings",
-        "nextCheckDate": "2026-08",
+        "nextCheck": "FY2027 Q3 财报与 Custom 拆分披露 / FY2027 Q3 results and any Custom split disclosure",
+        "nextCheckDate": "2026-12",
         "reading": "unclear",
-        "readingAsOf": "2026-08-18"
+        "readingAsOf": "2026-08-27"
       },
       {
         "id": "aws-microsoft-concentration",
@@ -8011,17 +8048,19 @@
           "en": "FY2027 / FY2028 revenue outlook is cut, removing denominator support from roughly 19x FY2027E EV/Sales"
         },
         "latest": {
-          "zh": "2026-07-31 估值重锚（非财报，仅价格）：2026-07-30 收盘 $183.30（较旧 $245.23 锚点跌约 25.3%）；市值约 $160.5B、EV 约 $161.9B，EV/Sales 约 14.1x（对照 FY2027 展望 $11.5B，旧口径约 19x）、约 9.8x（对照 FY2028 展望 $16.5B）。立场维持 cautious / 中确信；custom-ASIC 设计胜出转化、光学附加与利润率仍待 2026-08-27的财报验证。",
-          "en": "2026-07-31 valuation re-anchor (price-only, not an earnings update): MRVL closed at $183.30 on 2026-07-30 (about -25.3% from the old $245.23 anchor); market cap about $160.5B, EV about $161.9B, EV/Sales about 14.1x against the $11.5B FY2027 outlook (old caliber about 19x) and about 9.8x against the $16.5B FY2028 case. Stance stays cautious / medium conviction; custom-ASIC design-win conversion, optical attach and margin remain unproven until the earnings print 2026-08-27."
+          "zh": "2026-08-27 的 FY2027 Q2 新闻稿中，董事长兼 CEO 表示公司「再次上调 FY2027 与 FY2028 的收入展望」。评级：within。本项触发原文问的是**收入展望被下修**，从而抽掉约 19x FY2027E EV/Sales 的分母支撑；发行人明示的方向是上调，该触发条件因此被证伪，而非被满足。证据边界：**该新闻稿未给出任何 FY2027 或 FY2028 的收入数字**，公司称将在 2026-10-06 的投资者日进一步说明长期战略，故新分母无法从一手来源取得，本处不代填、不重算任何倍数。下方及正文已发布的约 14.1x／9.8x 仍锚定在 **2026-07-30 收盘价**与**来自公开报道（非发行人）的 $11.5B／$16.5B 展望**上；该分母口径现已被发行人自身的上调表述取代，故已发布倍数应作**历史口径**读，不代表当前口径。本季实际交付：净收入 $2,739.3M，FY2027 上半年合计 $5,157.1M；FY2027 Q3 指引 $3.150B ±5%。",
+          "en": "In the FY2027 Q2 press release dated 2026-08-27 the Chairman and CEO states that the company is 'again raising our revenue outlook for both fiscal 2027 and fiscal 2028.' Reading: within. This item's trigger asks whether the **revenue outlook is cut**, removing denominator support from roughly 19x FY2027E EV/Sales; the direction the issuer states is a raise, so the trigger condition is disconfirmed rather than met. Evidence limits: **the release gives no FY2027 or FY2028 revenue figure**, and the company says it will set out its long-term strategy further at its Investor Day on 2026-10-06, so the new denominator is not available from a primary source; none is supplied here and no multiple is recomputed. The published ~14.1x and ~9.8x below and in the report body remain anchored to the **2026-07-30 close** and to the **$11.5B / $16.5B outlook taken from public reports rather than from the issuer**; that denominator caliber has now been superseded by the issuer's own statement of a raise, so the published multiples should be read as a **historical caliber**, not a current one. Delivered this quarter: net revenue $2,739.3M, with first-half FY2027 revenue of $5,157.1M; FY2027 Q3 guidance is $3.150B +/- 5%."
         },
-        "nextCheck": "FY2027 每季指引 / quarterly FY2027 guidance",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "投资者日（2026-10-06）与 FY2027 Q3 指引 / Investor Day (2026-10-06) and FY2027 Q3 guidance",
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-08-27"
       }
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "2026-07-31 按所有者 Q1 裁定重新裁定。按 2026-07-30 收盘 $183.30（市值约 $160.5B、EV 约 $161.9B），EV/Sales 按 $11.5B FY2027 展望约 14.1x、按 $16.5B FY2028 情形约 9.8x（旧口径约 19x/13x）：约 14.1x 前瞻销售额——分母本身是上调后的展望而非已交付收入——仍在预付 FY2027 干净落地，轻度负预期差以减弱形式在当前价格下成立，维持谨慎/中确信；custom ASIC 转化与光互连 attach 待 2026-08-27 业绩验证。",
-      "en": "Re-adjudicated 2026-07-31 under the owner's Q1 ruling. At the 2026-07-30 close of $183.30 (about $160.5B cap, $161.9B EV), EV/Sales is about 14.1x on the $11.5B FY2027 outlook and about 9.8x on the $16.5B FY2028 case (old caliber ~19x/13x): at ~14.1x forward sales — where the denominator is itself the raised outlook, not delivered revenue — the market still pre-pays a clean FY2027 ramp, so a weakened negative gap survives at the current price and cautious / medium conviction holds; custom-ASIC conversion and optical attach are tested at the 2026-08-27 print."
+      "zh": "2026-08-28 监测复核：FY2027 Q2 已交付，Data center 同比增速由 Q1 的 27% 升至 46%，但发行人把本季强度归因于 Connectivity，并把 Custom 业务显著加速定在 FY2027 下半年，故 custom ASIC 具名项目转收入的合取触发仍为 unclear。公司称再次上调 FY2027/FY2028 收入展望但未给数字，现有约 14.1x/9.8x 倍数仅锚定 2026-07-30 价格与二手旧分母，属于历史口径；本轮不重算当前估值。未出现展望下修或其他降级触发，维持谨慎/中确信。",
+      "en": "Monitoring review dated August 28, 2026: FY2027 Q2 is delivered and Data center growth accelerated from 27% in Q1 to 46%, but the issuer attributes this quarter's strength to Connectivity and dates significant Custom acceleration to the second half of FY2027, so the conjunction requiring named-program conversion remains unclear. The company says it again raised FY2027/FY2028 outlooks but provides no figures; the published ~14.1x/~9.8x multiples remain anchored to the July 30 price and old secondary-source denominators and are historical, not current. No outlook cut or other downgrade trigger occurred, so cautious / medium conviction is unchanged."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -9594,7 +9633,7 @@
     ],
     "category": "tech",
     "date": "2026-07-31",
-    "lastUpdate": "2026-08-03",
+    "lastUpdate": "2026-08-28",
     "file": "/invest/research/reports/view.html?id=kioxia-2026",
     "markdownFiles": {
       "zh": "/invest/research/Kioxia_深度研究报告_2026-07.md",
@@ -9705,10 +9744,12 @@
           "en": "Kioxia approves K3 while Samsung/SK expand in parallel and YMTC Phase 3 ramps on schedule, confirming the 2027 oversupply script"
         },
         "latest": {
-          "zh": "FY2026-28 资本开支目标年均约 ¥4,700 亿（较 FY2025 +66%）；K2 全面量产、K3 评估中；YMTC 三期预计 2026 年底投产、2027 年中国份额近 19%（TrendForce）",
-          "en": "FY2026-28 capex target ~¥470B/year (+66% vs FY2025); K2 at full ramp, K3 under evaluation; YMTC Phase 3 expected online by end-2026 with Chinese share near 19% by 2027 (TrendForce)"
+          "zh": "2026-08-27 东京证券交易所 TDnet 适时披露《Notice Regarding Investment Plan with Sandisk Corporation》及所附联合新闻稿：铠侠公司与 Sandisk Corporation 宣布在日本合计逾 $31B（约 5 万亿日元）、至 2032 年的预期投资，用于四日市与北上工厂及相关基础设施，发行人写明**以政府支持为前提**；双方各自表示致力于「多年期位元增长」。同日铠侠另发新闻稿称已**开始北上工厂 Fab3 的场地前期准备及相关工作**（厂址在 Fab2 以南，目标 2029 财年投产），并写明「建设时间表与设备投资的详细计划将根据市场趋势确定」、「Fab3 的投资计划以政府支持为前提」。评级：unclear。本项触发是一个三段合取——「铠侠批准 K3」**且**「三星／SK 同步大扩产」**且**「YMTC 三期如期满产」。第一段仅部分满足：场地前期工作确已开始（强于此前的「K3 评估中」），但设备资本开支按发行人自陈尚未定案且附带政府支持前提，因而不构成已核准的扩产决定；第二、三段在本窗口内无一手证据（SK 海力士 2026-08-27 的印第安纳动工属 HBM 先进封装而非 NAND 晶圆产能，不能充当本段证据，YMTC 三期无新披露）。三段中一段部分满足，整体维持 unclear。本条不推断位元产出、制程节点或 2027 年供需平衡。",
+          "en": "The Tokyo Stock Exchange TDnet timely disclosure 'Notice Regarding Investment Plan with Sandisk Corporation' dated 2026-08-27 and the joint press release attached to it: Kioxia Corporation and Sandisk Corporation announced anticipated investments in Japan totaling over $31 billion (approximately 5 trillion yen) through 2032, supporting the Yokkaichi and Kitakami plants and related infrastructure, which the issuer states are **contingent upon government support**; each company says it has committed to drive meaningful, multi-year bit growth. The same day Kioxia separately announced that it **has commenced site preparation and other related work** for Fab3 at the Kitakami Plant, on land south of Fab2 and targeting operations in fiscal 2029, while stating that 'detailed plans for Fab3 regarding construction schedule and equipment investments will be determined based on market trends' and that 'investment plans for Fab3 are contingent upon government support.' Reading: unclear. This item's trigger is a three-part conjunction - Kioxia approves K3 **and** Samsung / SK expand in parallel **and** YMTC Phase 3 ramps on schedule. The first part is only partly satisfied: site preparation has genuinely begun, which is more than the prior 'K3 under evaluation', but by the issuer's own words the equipment capital expenditure is not yet settled and is conditioned on government support, so it is not an approved expansion decision. The second and third parts have no primary evidence in this window - SK hynix's 2026-08-27 Indiana groundbreaking is HBM advanced packaging rather than NAND wafer capacity and cannot serve as evidence for that clause, and there is no new disclosure on YMTC Phase 3. With one of three parts partly satisfied, the aggregate stays unclear. This entry infers no bit output, process node, or 2027 supply-demand balance."
         },
-        "nextCheck": "K3 decision / competitor capex announcements (event-driven)"
+        "nextCheck": "Fab3 设备投资决定与竞争对手扩产公告 / Fab3 equipment-investment decision and competitor capacity announcements",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-27"
       },
       {
         "id": "capital-returns-execution",

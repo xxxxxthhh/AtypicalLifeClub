@@ -1,5 +1,74 @@
 [
   {
+    "id": "marvell-q2-fy2027-datacenter-46-custom-dated-to-second-half-2026-08",
+    "date": "2026-08-27",
+    "title": {
+      "zh": "Marvell FY2027 Q2 数据中心收入同比 +46% 加速，但公司把 Custom 业务的显著加速定在 FY2027 下半年",
+      "en": "Marvell FY2027 Q2 data-center revenue accelerates to +46% year over year, while the company dates the significant Custom acceleration to the second half of fiscal 2027"
+    },
+    "detail": {
+      "zh": "据 Marvell Technology, Inc.（NASDAQ: MRVL）2026-08-27 提交的 Form 8-K（事项 2.02／9.01，accession 0001835632-26-000022，2026-08-27 12:05 ET 受理）及其附件 99.1 新闻稿《Marvell Technology, Inc. Reports Second Quarter of Fiscal Year 2027 Financial Results》：截至 2026-08-01 的 FY2027 Q2 净收入 $2,739.3M（同比 +37%、环比 +13%），高于公司 2026-05-27 指引中点 $39.0M。按发行人的 end-market 表：Data center 收入 $2,171.5M（同比 **+46%**、环比 +18%），占总收入 79%；Communications and other 收入 $567.8M（同比 +10%、环比 **-3%**）。对照发行人上一季同表，FY2027 Q1（截至 2026-05-02）Data center 收入 $1,832.7M、同比 +27%、环比 +11%，因此数据中心同比增速在 FY2027 前两个季度由 27% 升至 46%。GAAP 毛利率 53.1%、non-GAAP 毛利率 58.9%；GAAP 净利润 $308.0M（摊薄每股 $0.33，摊薄股数 921.2M），non-GAAP 净利润 $865.9M（摊薄每股 $0.94）；经营活动现金流 $605.5M。FY2027 Q3 指引：净收入 $3.150B ±5%，GAAP 毛利率 52.9%-53.9%、non-GAAP 毛利率 57.5%-58.5%，non-GAAP 摊薄每股收益 $1.10 ±$0.05。证据边界：董事长兼 CEO Matt Murphy 在新闻稿中称公司「再次上调 FY2027 与 FY2028 的收入展望」，但该新闻稿**未给出任何 FY2027 或 FY2028 的收入数字**，本条不代填、也不据此重算任何倍数；他同时把 Data Center 的强度归因于 Connectivity，并把 Custom 业务的「显著加速」明确定在 **FY2027 下半年**，故本季不构成任一具名 hyperscaler 定制项目的放量证据；新闻稿未按客户或按 Custom／Connectivity 拆分收入，也未披露订单、backlog 或采购承诺金额。本条不对 2026-08-18 披露的 Google 采购挂钩权证作任何推断——该权证的档位自 FY2027 Q3 起才按采购解锁，且本新闻稿全文未提及该权证。",
+      "en": "Per Marvell Technology, Inc. (NASDAQ: MRVL) Form 8-K filed 2026-08-27 (Items 2.02 and 9.01, accession 0001835632-26-000022, accepted 2026-08-27 12:05 ET) and its Exhibit 99.1 press release, 'Marvell Technology, Inc. Reports Second Quarter of Fiscal Year 2027 Financial Results': FY2027 Q2 net revenue for the quarter ended 2026-08-01 was $2,739.3M (+37% year over year, +13% sequentially), $39.0M above the midpoint of the guidance the company gave on 2026-05-27. Per the issuer's end-market table, Data center revenue was $2,171.5M (**+46%** year over year, +18% sequentially), or 79% of total revenue; Communications and other revenue was $567.8M (+10% year over year, **-3%** sequentially). Against the same table in the issuer's prior quarter, FY2027 Q1 (ended 2026-05-02) Data center revenue was $1,832.7M, +27% year over year and +11% sequentially, so the data-center year-over-year growth rate rose from 27% to 46% across the first two quarters of fiscal 2027. GAAP gross margin was 53.1% and non-GAAP gross margin 58.9%; GAAP net income was $308.0M ($0.33 per diluted share on 921.2M diluted shares) and non-GAAP net income $865.9M ($0.94 per diluted share); cash flow from operations was $605.5M. FY2027 Q3 outlook: net revenue $3.150B +/- 5%, GAAP gross margin 52.9%-53.9%, non-GAAP gross margin 57.5%-58.5%, and non-GAAP diluted EPS $1.10 +/- $0.05. Evidence limits: Chairman and CEO Matt Murphy states in the release that the company is 'again raising our revenue outlook for both fiscal 2027 and fiscal 2028,' but the release **gives no FY2027 or FY2028 revenue figure**; no figure is supplied here and no multiple is recomputed from it. He also attributes the Data Center strength to Connectivity and dates the 'significant acceleration' in the Custom business to the **second half of fiscal 2027**, so this quarter is not ramp evidence for any named hyperscaler custom program. The release does not split revenue by customer or between Custom and Connectivity, and discloses no order, backlog or purchase-commitment amount. This entry infers nothing about the purchase-linked Google warrant disclosed 2026-08-18: its tranches only begin vesting on purchases from FY2027 Q3, and the release does not mention the warrant at all."
+    },
+    "crossChecks": [
+      "custom-silicon-ethernet",
+      "chip-vs-downstream"
+    ],
+    "tickers": [
+      "MRVL"
+    ],
+    "reportIds": [
+      "marvell-2026"
+    ],
+    "monitoringRefs": [
+      "marvell-2026:custom-asic-design-wins",
+      "marvell-2026:valuation-revenue-ramp"
+    ]
+  },
+  {
+    "id": "sk-hynix-indiana-hbm-advanced-packaging-groundbreaking-2026-08",
+    "date": "2026-08-27",
+    "title": {
+      "zh": "SK 海力士为印第安纳州 HBM 先进封装厂动工，投资逾 $4B，量产目标 2029 下半年",
+      "en": "SK hynix breaks ground on its Indiana HBM advanced-packaging fab, over $4B of investment, with mass production targeted for the second half of 2029"
+    },
+    "detail": {
+      "zh": "据 SK hynix Inc.（KRX: 000660）官方新闻室 2026-08-28（首尔）发布的新闻稿《SK hynix Holds Groundbreaking Ceremony for HBM Production Base in Indiana》：公司于当地时间 **2026-08-27** 在印第安纳州西拉法叶普渡大学 Holloway Gymnasium 举行了 AI 内存**先进封装**产线的动工仪式。发行人披露：该印第安纳厂总预期投资**逾 $4B**，计划**2028 年 10 月**洁净室启用、**2029 年下半年**开始下一代 HBM 量产，商业运营期预计约 1,000 名员工。运营框架与韩国生产紧密衔接——韩国制造的晶圆运至印第安纳完成先进封装与测试后，以 Made in USA 产品供应美国客户；产线旁将建「先进封装研发测试台」。公司同时称正考虑逾 100 家材料、零部件与设备供应商，预计在建设与后续商业运营期间创造约 7,000 个直接与间接岗位，并与普渡大学就下一代先进封装技术研发签署谅解备忘录。证据边界：本条记录的是**动工与计划**，不是已交付产能——发行人给出的量产时点在 2029 年下半年，因此这笔先进封装产能对当前周期的后段瓶颈**不构成近期缓解**。发行人**未披露**任何具名客户、HBM 位元产能、晶圆或封装月产能、设备订单或分年资本开支节奏；出席的美国参议员 Todd Young 称其曾通过《芯片与科学法案》协助促成该投资，但该新闻稿未披露任何联邦补助金额或拨付条件。上述岗位与供应商数量为发行人自述的预期值。",
+      "en": "Per the SK hynix Inc. (KRX: 000660) newsroom release 'SK hynix Holds Groundbreaking Ceremony for HBM Production Base in Indiana,' datelined Seoul, August 28, 2026: the company held a groundbreaking ceremony for an **advanced-packaging** production facility for AI memory on **2026-08-27 local time** at Holloway Gymnasium, Purdue University, in West Lafayette, Indiana. The issuer discloses a total expected investment of **over $4 billion** in the Indiana fab, a cleanroom scheduled to open by **October 2028** and mass production of next-generation HBM beginning in the **second half of 2029**, with roughly 1,000 personnel during anticipated commercial operations. The operating framework is integrated with Korean production: wafers made by SK hynix in Korea are to be delivered to Indiana for advanced packaging and testing before Made in USA products are supplied to US customers, and an 'Advanced Packaging R&D Testbed' is to be built alongside the production lines. The company also states that more than 100 companies are being considered as suppliers of materials, components and equipment, that approximately 7,000 direct and indirect jobs are expected during construction and subsequent commercial operations, and that it signed a memorandum of understanding with Purdue University on next-generation advanced-packaging R&D. Evidence limits: this entry records a **groundbreaking and a plan**, not delivered capacity. The issuer's own mass-production date is the second half of 2029, so this packaging capacity provides **no near-term relief** to the current cycle's back-end constraint. The issuer discloses **no** named customer, no HBM bit capacity, no monthly wafer or packaging capacity, no equipment orders and no year-by-year capital-expenditure schedule. US Senator Todd Young, who attended, says he helped make the investment possible through the CHIPS and Science Act, but the release discloses no federal award amount or disbursement condition. The job and supplier counts above are the issuer's own stated expectations."
+    },
+    "crossChecks": [
+      "memory-cycle"
+    ],
+    "tickers": [
+      "000660.KS"
+    ]
+  },
+  {
+    "id": "kioxia-sandisk-japan-31b-investment-plan-kitakami-fab3-2026-08",
+    "date": "2026-08-27",
+    "title": {
+      "zh": "铠侠与闪迪公布逾 $31B 日本投资计划（以政府支持为前提），铠侠同日启动北上 Fab3 场地前期工作",
+      "en": "Kioxia and Sandisk announce over $31B of planned Japan investment contingent on government support, and Kioxia starts site work for Fab3 at Kitakami the same day"
+    },
+    "detail": {
+      "zh": "据 Kioxia Holdings Corporation（TSE Prime: 285A）2026-08-27 向东京证券交易所 TDnet 提交的适时披露《Notice Regarding Investment Plan with Sandisk Corporation》及所附联合新闻稿：铠侠公司（Kioxia Holdings 并表子公司）与 Sandisk Corporation（NASDAQ: SNDK）宣布在日本合计**逾 $31B（约 5 万亿日元）、至 2032 年**的预期重大投资，发行人明确写明**以政府支持为前提（contingent upon government support）**。投资用于四日市工厂与北上工厂及相关基础设施、技术的持续建设；双方各自表示致力于推动「多年期位元增长」与稳定供应。发行人同时提及该合资关系过去 25 年在日本已投入逾 $50B（约 9 万亿日元），并称双方已于 2026 年 1 月将四日市工厂的合资框架延长至 2034 年 12 月。同日铠侠另发新闻稿《Kioxia to Expand 3D Flash Memory Production Capacity with the New Fab3 at Kitakami Plant》：公司已**开始北上工厂（岩手县）Fab3 的场地前期准备及相关工作**，厂址位于 Fab2 以南，**目标 2029 财年投产**。证据边界：这是**计划与前期工作，不是已核准的设备资本开支**——发行人在同一份新闻稿中写明 Fab3 的「建设时间表与设备投资的详细计划将根据市场趋势确定」，且「Fab3 的投资计划以政府支持为前提」。发行人**未披露**投资的分年节奏、四日市与北上之间的分配、位元产出、制程节点、设备订单或任何政府补助的金额与条件；「多年期位元增长」为定性表述，未附数量。截至本轮扫描窗口收盘（2026-08-27 19:02 ET），Sandisk 尚未就此事项提交 Form 8-K，因此此处引用的权威文件是铠侠的 TDnet 适时披露。",
+      "en": "Per the Tokyo Stock Exchange TDnet timely disclosure 'Notice Regarding Investment Plan with Sandisk Corporation,' filed by Kioxia Holdings Corporation (TSE Prime: 285A) on 2026-08-27, and the joint press release attached to it: Kioxia Corporation, a consolidated subsidiary of Kioxia Holdings, and Sandisk Corporation (NASDAQ: SNDK) announced anticipated significant investments in Japan totaling **over $31 billion (approximately 5 trillion yen) through 2032**, which the issuer states explicitly are **contingent upon government support**. The investments are to support the ongoing buildout of the Yokkaichi Plant and the Kitakami Plant along with related infrastructure and technology; each company says it has committed to drive meaningful, multi-year bit growth and to ensure stable supply. The issuer also notes the joint venture has invested over $50 billion (approximately 9 trillion yen) in Japan over the past 25 years, and that in January the two extended the Yokkaichi joint-venture framework through December 2034. The same day Kioxia separately released 'Kioxia to Expand 3D Flash Memory Production Capacity with the New Fab3 at Kitakami Plant': the company **has commenced site preparation and other related work** for Fab3 at the Kitakami Plant in Iwate Prefecture, on land south of Fab2, **targeting operations to commence in fiscal 2029**. Evidence limits: this is a **plan and preparatory work, not approved equipment capital expenditure**. In the same release the issuer states that 'detailed plans for Fab3 regarding construction schedule and equipment investments will be determined based on market trends' and that 'investment plans for Fab3 are contingent upon government support.' The issuer discloses **no** year-by-year spending profile, no split between Yokkaichi and Kitakami, no bit output, no process node, no equipment orders, and no amount or condition for any government support; 'multi-year bit growth' is a qualitative statement carrying no quantity. As of this scan window's close (2026-08-27 19:02 ET) Sandisk had filed no Form 8-K on the matter, so the authoritative document cited here is Kioxia's TDnet timely disclosure."
+    },
+    "crossChecks": [
+      "memory-cycle"
+    ],
+    "tickers": [
+      "285A.T",
+      "SNDK"
+    ],
+    "reportIds": [
+      "kioxia-2026"
+    ],
+    "monitoringRefs": [
+      "kioxia-2026:capacity-discipline"
+    ]
+  },
+  {
     "id": "nvidia-q2-fy2027-supply-commitments-119b-to-279b-2026-08",
     "date": "2026-08-26",
     "title": {

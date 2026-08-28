@@ -6,11 +6,32 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>Kioxia 铠侠深度研究报告 - NAND 发明者的 AI 存储超级周期与顶峰定价 / Kioxia Deep Research Report - The NAND Inventor's AI Storage Supercycle and Peak-Cycle Pricing</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=kioxia-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=kioxia-2026#kioxia-2026@2026-08-28</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+      <description>首次覆盖铠侠作为 memory-storage 层第四块拼图。Q1 FY2026 营收 ¥1.767 万亿（同比 5.2 倍）、营业利润率 71.9%、归母净利润 ¥8,422 亿；H1 指引隐含 Q2 营业利润率约 79%。官方 Q1 资产负债表显示 2026-06 末现金 ¥7,910 亿、债券与借款 ¥6,346 亿，即约 ¥1,565 亿净现金（不含租赁）。同日公告为 1 股拆为 3 股及上限 ¥8,000 亿/3,000 万股回购框架。按 2026-07-31 收盘 ¥46,500、市值约 ¥25.48 万亿，TTM P/E 约 18.5 倍；20/50/30 情景中点加权净利约 ¥1.17 万亿、股权价值约 ¥15.7 万亿。反向倍数隐含约 18.5% 三年盈利 CAGR，而基准情形假设利润回归，故谨慎 / 中确信。</description>
+    </item>
+    <item>
       <title>Synopsys 深度研究报告 - AI 芯片设计的 EDA/IP 与仿真约束 / Synopsys Deep Research Report - EDA/IP And Simulation Constraint For AI Silicon Design</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=synopsys-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=synopsys-2026#synopsys-2026@2026-08-27</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=synopsys-2026#synopsys-2026@2026-08-28</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
       <description>AI 基础设施 eda-ip 层的公共约束：SNPS 验证 AI silicon 需求是否穿透到 design automation、verification、simulation、IP blocks 和 system-level complexity。最新披露的 FY2026 Q3（截至 2026-07-31）revenue $2,476.8M（去年同期 $1,739.7M）、GAAP EPS $2.84、non-GAAP EPS $3.91；分部为 Design Automation $2,003.0M（同比 +53%）与 Design IP $473.8M（同比 +11%，但前九个月仍同比 -1%），backlog $10.9B。FY2026 指引上调至 revenue $9,690-9,740M、non-GAAP EPS $15.04-15.10、FCF 约 $2.6B，含约 $2.98B Ansys revenue，并假设没有进一步 export-control / Entity List 变化。以 2026-07-30 收盘 $372.33 计，市值约 $71.3B、EV 约 $79.7B，约 8.2x EV/FY2026E sales、约 25.2x non-GAAP P/E —— 该组倍数按**当时**的 FY2026 指引口径计算，未按 2026-08-26 上调后的指引与 Q3 实际数重算，属明确标注日期的历史估值快照。偏多 / 中确信：倍数在 2026 年 7 月链条重定价中压缩，同一套指引框架反而更便宜，温和正预期差变宽；但整合、出口和客户周期性仍限制确信度。</description>
+    </item>
+    <item>
+      <title>Marvell Technology 深度研究报告 - Broadcom 之外的 custom ASIC 与光互连架构校验 / Marvell Technology Deep Research Report - Custom ASIC and Optical Interconnect Check Beyond Broadcom</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=marvell-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=marvell-2026#marvell-2026@2026-08-28</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+      <description>2026-08-28 监测更新：FY2027 Q2 净收入 $2,739.3M（同比 +37%），Data center $2,171.5M（同比 +46%，前季 +27%），Q3 指引 $3.150B±5%。发行人称本季 Data Center 强度来自 Connectivity，并把 Custom 业务显著加速定在 FY2027 下半年，因此具名 hyperscaler 项目转收入仍为 unclear。公司称再度上调 FY2027/FY2028 收入展望但未给数字，故 2026-07-30 的 $183.30 与约 14.1x/9.8x 倍数仅作历史口径，不冒充当前估值；维持谨慎/中确信。</description>
+    </item>
+    <item>
+      <title>Salesforce 深度研究报告 - CRM霸主的AI转型与估值重估 / Salesforce Deep Research Report - CRM Leader's AI Transformation and Valuation Reset</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=salesforce-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=salesforce-2026#salesforce-2026@2026-08-28</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+      <description>全球CRM霸主。2026-08-28更新（纯重锚，无新增业务事件）：兑现上一轮承诺的定期步骤，按财报后首个完整交易日2026-08-27收盘$252.05（单日+22.58%）与Q2 FY27 10-Q封面股数约8.23亿股（截至2026-08-20）二次重锚。业务面仍为FY2027 Q2：营收$113.45亿(+11% YoY)、订阅与支持$108.20亿(+12%)、cRPO $335亿(+14%，较Q1的13%继续加速)，FY2027营收指引$461-464亿(+11-12%)、Non-GAAP EPS指引$16.67-16.71；GAAP经营利润$23.31亿同比持平(上年$23.32亿)、经营利润率22.8%→20.5%，GAAP EPS $4.29(+119%)主要来自$26.13亿战略投资未实现收益与14.7%股数下降；净债务$278.85亿(债务$392.88亿)、季度利息支出$4.73亿。重锚后：市值约$2,074.37亿、EV约$2,353.22亿、P/S(TTM) 4.72x、EV/EBITDA(TTM) 18.59x、FCF yield约7.30%、公司口径Forward P/E 15.10x；剔除发行人披露的H1战略投资每股影响$2.98后核心EPS约$13.71、核心Forward P/E约18.38x。折价已经消失：当前价高于核心Forward P/E法($192-247)与EV/Sales法($180-233)两条中高置信度区间的上沿，仅落在中置信度的FCF yield区间($230-283)内。立场维持看多、信心维持中——本轮无新业务事实、四个降级触发器一条未触发，单纯价格上涨不构成立场变更依据；但支撑看多的「估值折价」这根支柱已很薄，多头论点几乎全压在「需求加速终将带回利润扩张」这一尚未被Q3证实的假设上。</description>
     </item>
     <item>
       <title>NVIDIA 深度研究报告 - AI 计算中枢的高质量与高预期 / NVIDIA Deep Research Report - The AI Compute Hub, High Quality Meets High Expectations</title>
@@ -18,13 +39,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=nvidia-2026#nvidia-2026@2026-08-27</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
       <description>v5 回填：NVIDIA 仍是 AI compute profit pool 的中枢。最新披露的 Q2 FY2027（截至 2026-07-26）营收 $96.2B（同比 +106%）、Data Center $89.0B（同比 +117%、环比 +18%），毛利率 75.0%；Q3 FY2027 指引营收 $108.0B±2%，且不假设任何来自中国的 Data Center compute 收入。同一份 10-Q 显示供应与产能采购承诺由上季 $119B 升至 $279B，公司称主要用于采购内存。以 **2026-07-30 收盘 $195.04** 计的约 $4.74T 市值与 mid-20s forward P/E 是明确标注日期的历史估值快照，其分母仍为 Q1 FY2027 口径、未按 Q2 FY2027 重算：市场定价的不是泛泛 AI CAGR，而是 GPU+networking+systems+software 继续保护盈利分母。30% 牛市 / 50% 基准 / 20% 熊市情景给出温和正偏斜，因此改为偏多 / 中确信；风险仍是 hyperscaler capex、自定义 ASIC、中国和循环融资减值。</description>
-    </item>
-    <item>
-      <title>Salesforce 深度研究报告 - CRM霸主的AI转型与估值重估 / Salesforce Deep Research Report - CRM Leader's AI Transformation and Valuation Reset</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=salesforce-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=salesforce-2026#salesforce-2026@2026-08-27</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
-      <description>全球CRM霸主。2026-08-27更新（FY2027 Q2财报＋按2026-08-26收盘重锚）：季度营收$113.45亿(+11% YoY)、订阅与支持$108.20亿(+12%)、cRPO $335亿(+14%，较Q1的13%继续加速)，公司将FY2027营收指引上调$2亿至$461-464亿(+11-12%)、Non-GAAP EPS指引升至$16.67-16.71。但利润扩张本季停滞：GAAP经营利润$23.31亿同比持平(上年$23.32亿)、GAAP经营利润率由22.8%降至20.5%，GAAP EPS $4.29(+119%)主要来自$26.13亿战略投资未实现收益与14.7%的股数下降。资产负债表由近似净现金转为净债务$278.85亿(债务$392.88亿)，季度利息支出升至$4.73亿。按CRM 2026-08-26收盘$206.05与10-Q封面约8.19亿股重锚：市值约$1,688亿、EV约$1,966亿、P/S(TTM) 3.84x、EV/EBITDA(TTM) 15.54x、FCF yield约9.0%、公司口径Forward P/E 12.35x；因发行人披露FY27 H1战略投资收益对Non-GAAP摊薄EPS的影响为$2.98，剔除后核心EPS约$13.71、Forward P/E约15.0x。深度价值缺口明显收窄，维持看多但信心下调至中。财报于收盘后发布，2026-08-27收盘后需再次重锚。</description>
     </item>
     <item>
       <title>Nebius Group 深度研究报告 - neocloud 的『干净对照组』：对 CoreWeave 风险锚的架构校验 / Nebius Group Deep Research Report - The 'Clean' Neocloud: An Architecture Check on the CoreWeave Risk Anchor</title>
@@ -53,13 +67,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=jinpan-2026#jinpan-2026@2026-08-21</guid>
       <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
       <description>2026-08-21 半年报监测更新：金盘科技 H1 2026 营收 35.56 亿元（同比 +12.73%）、归母净利 3.03 亿元（+14.23%）；数据中心收入 12.65 亿元（+122.57%）、期末在手订单 50.92 亿元，但 SST 仍仅披露样机与研发进展。同期经营现金流转为 -0.24 亿元，应收及合同资产较期初 +5.91%，回款质量尚不能判定，因此相关读数均为 unclear。估值没有重算；中性／观察、中确信仍沿用 2026-07-31 收盘 64.30 元的历史裁定。</description>
-    </item>
-    <item>
-      <title>Marvell Technology 深度研究报告 - Broadcom 之外的 custom ASIC 与光互连架构校验 / Marvell Technology Deep Research Report - Custom ASIC and Optical Interconnect Check Beyond Broadcom</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=marvell-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=marvell-2026#marvell-2026@2026-08-20</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
-      <description>2026-07-31 立场重新裁定：MRVL 收于 $183.30（2026-07-30），较 07-29 低点反弹 +12.2%、较 7 月 2 日锚点仍 −25.3%，市值约 $160.5B、EV 约 $161.9B。按报告自身收入情景，EV/Sales 约 14.1x（FY2027 $11.5B）、约 9.8x（FY2028 $16.5B）。按所有者 Q1 裁定复核：约 14.1x 前瞻销售额（分母本身是上调后的展望）仍在预付 FY2027 干净落地，负预期差以减弱形式成立，维持谨慎/中确信；custom ASIC 转化与光互连 attach 待 2026-08-27 业绩验证，网格权重保留。</description>
     </item>
     <item>
       <title>MiniMax Group 深度研究报告 - 应用层需求验证与高估值压力测试 / MiniMax Group Deep Research Report - Application-Layer Demand Validation and Valuation Stress Test</title>
@@ -235,13 +242,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=pltr-2026#pltr-2026@2026-08-04</guid>
       <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
       <description>AI 基础设施书 demand-risk 层的应用层订单质量仪表盘首次覆盖：本书此前只有 AI 基础设施的买方（MSFT/META/GOOG/AMZN/ORCL）、转租方（CRWV/NBIS）和模型方（MiniMax），缺一个能证明「最后一公里」跑通的标的——终端企业真的为 AI 应用付大钱，而卖方还能赚到真实利润。2026 Q2（季度截至 2026-06-30，08-03 盘后发布）给出了本覆盖书最强的一份经营答卷：收入 $19.35 亿（+93%，连续五个季度加速）、美国商业 +149%、GAAP 营业利润率 47%（一年前 26.8%）、调整后自由现金流 $12.20 亿（利润率 63%）、Rule of 40 达 155%、美国商业 TCV +153% 快于收入增速、现金 $92 亿对债务 $2.12 亿。风险不在生意而在价格：以 2026-08-03 收盘 $125.65 为主锚（Q2 于该收盘后发布，盘后指示价 $144.42），市值约 $3,012 亿、约 107 倍追溯 GAAP 盈利（还原 1.3% 有效税率后约 134 倍）、约 48.9 倍追溯收入、约 36.9 倍 FY2026 指引收入。决定性证据是它自己的历史：2025-11-03 至 2026-06-25 股价跌 48%，同期季度增速却从 63% 加速到 85%——倍数压缩快于生意复利。30% 牛市 / 40% 基准 / 30% 熊市网格读出负向预期差，初始立场谨慎 / 中确信，且明确是估值与倍数风险判断，不是生意质量判断。</description>
-    </item>
-    <item>
-      <title>Kioxia 铠侠深度研究报告 - NAND 发明者的 AI 存储超级周期与顶峰定价 / Kioxia Deep Research Report - The NAND Inventor's AI Storage Supercycle and Peak-Cycle Pricing</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=kioxia-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=kioxia-2026#kioxia-2026@2026-08-03</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
-      <description>首次覆盖铠侠作为 memory-storage 层第四块拼图。Q1 FY2026 营收 ¥1.767 万亿（同比 5.2 倍）、营业利润率 71.9%、归母净利润 ¥8,422 亿；H1 指引隐含 Q2 营业利润率约 79%。官方 Q1 资产负债表显示 2026-06 末现金 ¥7,910 亿、债券与借款 ¥6,346 亿，即约 ¥1,565 亿净现金（不含租赁）。同日公告为 1 股拆为 3 股及上限 ¥8,000 亿/3,000 万股回购框架。按 2026-07-31 收盘 ¥46,500、市值约 ¥25.48 万亿，TTM P/E 约 18.5 倍；20/50/30 情景中点加权净利约 ¥1.17 万亿、股权价值约 ¥15.7 万亿。反向倍数隐含约 18.5% 三年盈利 CAGR，而基准情形假设利润回归，故谨慎 / 中确信。</description>
     </item>
     <item>
       <title>Reddit 深度研究报告 - 变现驱动增长与搜索流量依赖的压力测试 / Reddit Deep Research Report - Monetization-Driven Growth and the Search-Referral Dependency Stress Test</title>

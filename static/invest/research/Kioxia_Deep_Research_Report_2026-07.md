@@ -1,7 +1,7 @@
 # Kioxia Holdings (285A) Deep Research Report
 
 Coverage date: 2026-07-31
-Last updated: 2026-08-03
+Last updated: 2026-08-28
 Ticker: TSE: 285A
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence. All prices and market caps are point-in-time snapshots; financial figures follow the company's disclosed basis.
 
@@ -16,6 +16,12 @@ Disclaimer: This report is for informational and research purposes only. It does
 **Current stance:** **Cautious / medium conviction.** AI-driven NAND demand is real and quantifiable (TrendForce estimates a 4-5% NAND supply deficit in 2026), and the newly disclosed H1 guidance implies the Q2 operating margin climbs further to about 79%. The same-day 3-for-1 stock split and buyback authorization of up to **¥800 billion** are genuine governance and capital-return improvements. But at the July 31 close, the roughly **¥25.5 trillion** market cap sits at about 18.5x TTM earnings — where the denominator is the peak-quarter profit of semis' most brutally cyclical sub-industry. All three supply blocs are expanding at once (Kioxia's own capex target: about ¥470 billion per year for FY2026-28, up 66% from FY2025), and YMTC's Phase 3 fab starts production by end-2026 — the seeds of a 2027 supply shock are already planted. A 20/50/30 scenario grid weights through-cycle fair value at about ¥15.7 trillion, below the current market cap, so the skew is negative.
 
 **Current market snapshot (2026-07-31 close):** 285A closed at **¥46,500** on **2026-07-31**, up 17.7% that day, for a market cap of about **¥25.48 trillion** on **548,015,088 shares** (about **$155.9 billion** at USD/JPY ≈ 163.5). Results, the split, and the buyback were disclosed at 15:30 after the cash close, so the same-day move must not be attributed to those releases. The 52-week range is **¥2,270 - ¥112,700**; the current price is about **59%** below the June 22 peak yet still up about **346%** from the 2025 year-end close of ¥10,435. Financial source: [company Q1 FY2026 results, 2026-07-31 (IFRS)](https://ssl4.eir-parts.net/doc/285A/tdnet/2859908/00.pdf); market data: [stockanalysis.com 285A](https://stockanalysis.com/quote/tyo/285A/), [Yahoo Finance 285A.T](https://finance.yahoo.com/quote/285A.T/).
+
+> **2026-08-28 monitoring update (capacity discipline; valuation and stance untouched and still anchored at the 2026-07-31 close).** Per the Tokyo Stock Exchange TDnet timely disclosure "Notice Regarding Investment Plan with Sandisk Corporation" dated 2026-08-27 and the joint press release attached to it: Kioxia Corporation and Sandisk Corporation announced anticipated investments in Japan totaling **over $31 billion (approximately ¥5 trillion) through 2032**, supporting the Yokkaichi and Kitakami plants along with related infrastructure and technology, which the issuer states explicitly are **contingent upon government support**; each company says it has committed to drive meaningful, multi-year bit growth and to ensure stable supply. The issuer also notes the joint venture has invested over $50 billion (approximately ¥9 trillion) in Japan over the past 25 years and that in January the two extended the Yokkaichi joint-venture framework through **December 2034**.
+>
+> The same day Kioxia separately released "Kioxia to Expand 3D Flash Memory Production Capacity with the New Fab3 at Kitakami Plant": the company **has commenced site preparation and other related work** for Fab3 at the Kitakami Plant in Iwate Prefecture, on land south of Fab2, **targeting operations to commence in fiscal 2029** — the third Kitakami building this report has tracked as "K3 (under evaluation)."
+>
+> **This is not approved equipment capital expenditure, so the body text's "K3 is not yet approved" is advanced in part rather than overturned.** In the same release the issuer states that "detailed plans for Fab3 regarding construction schedule and **equipment investments** will be determined based on market trends" and that "investment plans for Fab3 are **contingent upon government support**." The issuer discloses no year-by-year profile for the ¥5 trillion, no split between Yokkaichi and Kitakami, no bit output, no process node, no equipment orders, and no amount or condition for any government support; "multi-year bit growth" is a qualitative statement carrying no quantity. This update changes no scenario grid, through-cycle fair value, TTM P/E or stance, and re-anchors no price.
 
 **Key figures:**
 
@@ -36,7 +42,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Net cash (end-Jun 2026) | **¥156.5B** (cash ¥791.0B less bonds and borrowings ¥634.6B; leases excluded) |
 | Shareholders' equity (end-Jun 2026) | ¥2,404.5B; parent equity ratio 50.8% |
 | Capital returns (announced 2026-07-31) | **3-for-1 stock split** (effective 10/1) + buyback up to **¥800B** (starts 8/3; ~3.1% of market cap) |
-| Capex target | ~**¥470B per year** for FY2026-28 (+66% vs FY2025); evaluating a Kitakami K3 fab |
+| Capex target | ~**¥470B per year** for FY2026-28 (+66% vs FY2025); ~~evaluating a Kitakami K3 fab~~ → **2026-08-27: site work has begun on Kitakami Fab3, targeting FY2029 operations; equipment investment undecided and contingent on government support** |
 | Technology roadmap | BiCS8 (218-layer) in production; BiCS10 (332-layer) mass production in 2026 at Kitakami K2; 500-layer architecture with SanDisk expected late 2026 |
 | Litigation | 2026-07-16 W.D. Texas jury verdict: ~**$229M** to Viasat (patent infringement; company plans to appeal) |
 | Main competitors | Samsung, SK hynix (Solidigm), Micron, SanDisk (JV partner and brand competitor), YMTC |
@@ -64,7 +70,7 @@ Kioxia is a **pure-play NAND flash company** — spanning the full value chain f
 
 - **Yokkaichi:** The historic production base since 1987; much of the equipment is fully depreciated, making it the source of low-cost capacity. BiCS9 is slated for mass production there from late 2026 into 2027.
 - **Kitakami K2:** Opened September 2025, reaching full-scale production in H1 2026; **BiCS10 (332-layer)** enters mass production there in 2026 — one of the industry's most aggressive layer-count roadmaps.
-- **K3 (under evaluation):** The company is reportedly weighing a third Kitakami building, consistent with its goal of doubling NAND capacity by 2029.
+- **~~K3 (under evaluation)~~ → Kitakami Fab3 (site work commenced):** ~~The company is reportedly weighing a third Kitakami building~~, consistent with its goal of doubling NAND capacity by 2029. **2026-08-27 update:** the company announced it has commenced site preparation and other related work for Fab3, the third Kitakami building, on land south of Fab2, **targeting operations in fiscal 2029** — while stating that detailed plans for the construction schedule and **equipment investments** will be determined based on market trends and that the investment plan is **contingent upon government support**.
 - **500-layer architecture:** The next-generation architecture jointly announced with SanDisk is expected in late 2026.
 
 **The essence of the business model:** NAND is a **commodity storage business with extreme cyclicality**. Kioxia's profitability is almost entirely a function of NAND pricing: the 71.9% operating margin of Q1 FY2026 and the roughly ¥243.7 billion net loss of the FY2023 downturn came from the same company and the same fabs. The JV spreads capex and Yokkaichi's depreciation profile provides a cost cushion — but neither changes the fundamental constraint that prices are set by industry supply and demand.
@@ -270,7 +276,7 @@ One striking relative-pricing fact: **Kioxia and SanDisk carry nearly identical 
 | From Aug 2026 | Hyperscaler (MSFT/GOOG/AMZN/META) quarterly capex guidance | Either |
 | 2026-09-30 / 10-01 | 3-for-1 split record/effective dates; board lot cost falls from ~¥1.55M to ~¥520K | Positive |
 | Through 2026 | BiCS10 (332-layer) ramp at Kitakami K2; 500-layer architecture announcement | Positive |
-| End-2026 | YMTC Phase 3 production start; K3 investment-decision window | Negative/either |
+| End-2026 | YMTC Phase 3 production start; ~~K3 investment-decision window~~ → the **equipment-investment** decision and government-support conditions for Kitakami Fab3 (site work began 2026-08-27, targeting FY2029 operations) | Negative/either |
 | ~Nov 2026 (est.) | Q2 FY2026 results: test of the implied 79% operating margin and whether full-year guidance appears | Either |
 | TBD | US ADS listing; Toshiba sell-down pacing; Viasat post-trial motions/appeal | Either |
 
@@ -278,7 +284,7 @@ One striking relative-pricing fact: **Kioxia and SanDisk carry nearly identical 
 
 1. **Peak-margin mean reversion (bear):** Q1 operating margin 71.9%, implied Q2 ~79% — any quarter with a sequential operating-margin drop of more than 5pp counts as the first price-cycle-turn signal. Next check: Q2 results, ~November 2026.
 2. **H1 guidance delivery (either):** H1 revenue ¥4,157.1B / net profit ¥2,112.2B; at Q2, also watch whether full-year guidance is reinstated (withheld this time citing geopolitical uncertainty). Next check: November 2026.
-3. **Capacity discipline (bear):** The K3 final investment decision, execution pacing of the ~¥470B/year FY2026-28 capex target, and Samsung/SK/YMTC expansion announcements. Event-driven; no fixed calendar.
+3. **Capacity discipline (bear):** The Kitakami Fab3 equipment-investment decision and its government-support condition (site preparation commenced 2026-08-27; operations targeted for FY2029), execution pacing of the ~¥470B/year FY2026-28 capex target, and Samsung/SK/YMTC expansion announcements. Event-driven; no fixed calendar.
 4. **Capital-return execution (bull):** Actual progress of the ¥800B buyback (from 8/3) and the first concrete dividend policy. Next check: November 2026.
 5. **Supply-deficit indicators (either):** Quarterly revisions of the 2026/2027 NAND supply-demand gap by TrendForce and peers; order evidence for nearline-SSD substitution of HDDs. Event-driven.
 
