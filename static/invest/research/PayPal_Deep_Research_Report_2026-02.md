@@ -1,9 +1,23 @@
 # PayPal Holdings Inc. (PYPL) Deep Research Report
 
 Coverage date: 2026-02-03
-Last updated: 2026-08-10
+Last updated: 2026-08-29
 Ticker: NASDAQ: PYPL
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
+
+---
+
+## Update — August 29, 2026 (Stripe/Advent withdraw the takeover offer · price anchor reset to the 2026-08-28 close)
+
+> **⚠️ Developing event; press-sourced, no issuer confirmation.** Per **Bloomberg (2026-08-28)** and an independent [Axios confirmation](https://www.axios.com/2026/08/28/stripe-advent-end-paypal-pursuit), **the consortium of Advent International and Stripe has abandoned its plan to acquire PayPal**. As reported: PayPal's board considered the $60.50/share price inadequate and raised concerns over regulatory approval and financing, negotiations stalled, and the consortium withdrew. **Evidence grade, stated plainly:** as of 2026-08-29 PayPal has filed no 8-K on this; its newsroom's most recent item is dated 2026-08-19 and is unrelated; neither Stripe nor Advent has issued a public statement. This entry sits at **exactly the same evidence grade** as this report's 2026-07-15 registration of the offer itself — press reporting, no issuer confirmation — and is therefore recorded on the same basis, as a **factual entry** rather than a confirmed disclosure.
+
+> **What this does to the report's framework (read carefully):** the July 17 update below states that "until the situation clarifies, the report's prior fundamentals-based fair-value framework … should be treated as wholly superseded by M&A dynamics." Those M&A dynamics ended on 2026-08-28, so **the precondition for that suspension is gone**. But to be explicit: **the withdrawal does not restore the old fundamental framework.** The old fair-value range ($65-75), the bull/bear scenario target prices in the body, and the 6/22 FCF/PE observations all **remain void** — the reason changes from "superseded by the then-live M&A dynamics" to "built on a pre-Q2-2026 basis and not yet rebuilt." **This report offers no fair-value conclusion at present.** A complete Q2-basis valuation package is still required before a fair-value conclusion can return; the missing inputs are the post-Q2 segment-margin path and capital-return (buyback cadence) assumptions. Until that separate full-cycle rebuild is complete, the old fair-value range and scenario targets remain unavailable.
+
+> **Price and market-cap re-anchor (verified from two handles):** PYPL closed at **$53.66** on **2026-08-28** (Nasdaq completed regular session, labelled "Closed at Aug 28, 2026 4:00 PM ET"), **−12.71%** on the day; second handle: adding back the $7.81 net decline gives $61.47, which reconciles to the 2026-08-27 close. Over five sessions the move is **−12.82%** (against the 2026-08-21 close of $61.55). On the **855,460,874 shares** disclosed on the Form 10-Q cover (as of 2026-07-22), market cap is approximately **$45.9B**. Against FY2025 reported free cash flow of $5.6B the yield is about **12.2%**; against adjusted free cash flow of $6.4B it is about **13.9%**; against the FY2026 non-GAAP EPS guide of about **$5.38** raised at Q2, the forward P/E is about **10.0x**. **The stock still sits roughly 17% above the ~$46 pre-bid level of 2026-07-15** — the bid premium has not been fully given back.
+
+> **Stance:** **NEUTRAL / MEDIUM conviction is maintained; the stance does not change because the stock fell.** The withdrawal removes a valuation overlay, not a judgement about the business; the Q2 operating facts (revenue +5% to $8.7B, TPV +10% to $486.4B, FY2026 non-GAAP EPS guidance of about $5.38) are untouched by this event. Whether the stance needs re-adjudicating is a question for after the fundamental framework is rebuilt, not one this single day's price should decide.
+
+> **Sources:** Bloomberg, 2026-08-28, [carried by Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/paypal-shares-fall-reported-acquisition-100923514.html), and [independently confirmed by Axios](https://www.axios.com/2026/08/28/stripe-advent-end-paypal-pursuit); share count from the [PayPal FY2026 Q2 Form 10-Q cover page (accession 0001633917-26-000082)](https://www.sec.gov/Archives/edgar/data/1633917/000163391726000082/pypl-20260630.htm), filed 2026-07-28; PYPL close 2026-08-28 (Nasdaq completed regular session).
 
 ---
 
@@ -26,7 +40,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 > **⚠️ Developing event.** Per Reuters/CNBC/Bloomberg/Axios/TechCrunch (2026-07-15), **Stripe and private-equity firm Advent International jointly submitted an unsolicited offer to acquire PayPal at ~$60.50/share, valuing it at more than $53B — a ~28% premium to the prior close — backed by roughly $50B of committed bank financing**; the proposal would split PayPal 50/50 between Stripe and Advent with no plan to break it up. The report drove PYPL up ~**+16%** on 2026-07-15.
 > **[2026-07-16 development]** Per a Reuters follow-up exclusive, **PayPal's board views the offer as inadequate / undervaluing the company** — citing that the price does not reflect the value management could create by completing its turnaround, plus **uncertainty over financing and regulatory approval** (the board is examining whether the bidders can complete financing, how regulators would view the combination, and how long approval could take) — potentially setting up negotiations. PayPal has **not formally responded**, and the consortium remains the most serious bidder and still interested in a deal.
 
-> **Valuation impact:** As of the **2026-07-17 close of $56.56**, the stock sits between the $60.50 offer and the ~$46 pre-bid level, pricing deal-completion probability rather than pure fundamentals. **Until the situation clarifies, the report's prior fundamentals-based fair-value framework (the old fair-value range, the 6/22 FCF/PE observations, and the bull/bear scenario target prices in the body) should be treated as wholly superseded by M&A dynamics and not used as the current conclusion.** This update does not change the investment stance on the price move and does not set a new fair value; it is a factual entry pending the board's formal response, any competing bidders, and the antitrust path.
+> **Valuation impact:** As of the **2026-07-17 close of $56.56**, the stock sits between the $60.50 offer and the ~$46 pre-bid level, pricing deal-completion probability rather than pure fundamentals. **Until the situation clarifies, the report's prior fundamentals-based fair-value framework (the old fair-value range, the 6/22 FCF/PE observations, and the bull/bear scenario target prices in the body) should be treated as wholly superseded by the then-live M&A dynamics and not used as the current conclusion.** **[2026-08-29]** Those dynamics have since ended, but the old framework is not restored by that — see the August 29 update at the top. This update does not change the investment stance on the price move and does not set a new fair value; it is a factual entry pending the board's formal response, any competing bidders, and the antitrust path.
 
 > **Sources:** Reuters/CNBC/Bloomberg/Axios/TechCrunch, 2026-07-15; PYPL quote 2026-07-17 (market data). Related but separate: PayPal joined the Visa/Mastercard-backed Open USD stablecoin consortium and is winding down PayPal Ventures (restructuring).
 
@@ -183,7 +197,7 @@ The February 9 and February 17 updates below are retained as historical audit tr
 
 **One-Line Thesis:** PayPal is a mature digital payments leader facing structural headwinds from intensifying competition and slowing branded checkout growth, trading at historically low valuations that reflect both legitimate concerns about execution and potential market overreaction.
 
-> **2026-07-31 price check (untracked-coverage review).** PYPL closed at **$58.35** on **2026-07-29**, the last completed US session, versus the **$56.56** anchor dated 2026-07-17 — a **+3.2%** move. The dated figures below therefore remain accurate to within that margin and the valuation frame and stance are unchanged. The stock continues to trade between the ~$46 pre-bid level and the $60.50 Stripe/Advent offer, so it still prices deal-completion probability rather than fundamentals; the report's suspension of its fundamentals-based fair-value framework stands. **[Tracking status corrected 2026-08-10]** This note originally recorded that the report had no `priceSymbol` and therefore no automatic price ledger or drift alert; `priceSymbol: PYPL` and the 2026-07-17 anchor are now wired into the automatic price ledger, so that statement no longer holds.
+> **2026-07-31 price check (untracked-coverage review).** PYPL closed at **$58.35** on **2026-07-29**, the last completed US session, versus the **$56.56** anchor dated 2026-07-17 — a **+3.2%** move. The dated figures below therefore remain accurate to within that margin and the valuation frame and stance are unchanged. The stock continues to trade between the ~$46 pre-bid level and the $60.50 Stripe/Advent offer, so it still prices deal-completion probability rather than fundamentals; the report's suspension of its fundamentals-based fair-value framework stood at that time. **[2026-08-29 update]** The precondition for that suspension — a live offer — ended when the consortium withdrew on 2026-08-28; the old framework is not restored by that, see the August 29 update at the top. **[Tracking status corrected 2026-08-10]** This note originally recorded that the report had no `priceSymbol` and therefore no automatic price ledger or drift alert; `priceSymbol: PYPL` and the 2026-07-17 anchor are now wired into the automatic price ledger, so that statement no longer holds.
 
 **Investment Verdict:** **NEUTRAL** with **MEDIUM** conviction
 - **Key Catalyst:** ~~New CEO Enrique Lores (effective March 1, 2026) must demonstrate ability to reverse branded checkout deceleration and restore investor confidence in 2026-2027 growth trajectory~~ **June 22 update:** Lores is now in the execution phase; the key evidence will be Q2/Q3 branded checkout growth, Venmo monetization, Fastlane penetration, and whether the reorganization/cost program improves EPS quality.
@@ -193,14 +207,14 @@ The February 9 and February 17 updates below are retained as historical audit tr
 
 | Metric | Value |
 |--------|-------|
-| Market Cap | ~~$39-41 billion (Feb 2026)~~ ~~$37.5B (June 18, 2026)~~ **~$49–50B ($56.56, 2026-07-17); offer implies ~$53B ($60.50)** |
-| Stock Price | ~~$41-42 (down ~25% from Jan 2026 highs)~~ ~~$42.51 (June 18, 2026)~~ **$56.56 (2026-07-17); Stripe/Advent offer $60.50 — see July 17 update at top** |
+| Market Cap | ~~$39-41 billion (Feb 2026)~~ ~~$37.5B (June 18, 2026)~~ ~~$49–50B ($56.56, 2026-07-17)~~ ~~offer implies ~$53B ($60.50)~~ **~$45.9B ($53.66 close, 2026-08-28; 855,460,874 shares per the 10-Q cover as of 2026-07-22)** |
+| Stock Price | ~~$41-42 (down ~25% from Jan 2026 highs)~~ ~~$42.51 (June 18, 2026)~~ ~~$56.56 (2026-07-17)~~ **$53.66 (2026-08-28 close); the Stripe/Advent $60.50 offer was withdrawn on 2026-08-28 — see the August 29 update at top** |
 | P/E (TTM) | ~~10.5x~~ latest TTM figure requires official filing/market-data refresh |
-| P/E (Forward) | ~~9.2x~~ roughly around 8x if 2026 adjusted EPS remains in a $5.0-$5.5 framework |
+| P/E (Forward) | ~~9.2x~~ ~~roughly around 8x if 2026 adjusted EPS remains in a $5.0-$5.5 framework~~ **~10.0x ($53.66 ÷ the ~$5.38 FY2026 non-GAAP EPS guide, 2026-08-28)** |
 | Revenue (2025) | $33.2B (+4% YoY) |
 | Operating Margin | 18.0% (2025) |
 | FCF (2025) | $5.6B |
-| FCF Yield | ~~14%~~ ~~15%-17% using ~$37.5B market cap~~ old basis superseded by the takeover dynamics; ~11%-13% at the $56.56 current price |
+| FCF Yield | ~~14%~~ ~~15%-17% using ~$37.5B market cap~~ ~~old basis superseded by the then-live takeover dynamics; 11%-13% at the $56.56 close~~ **~12.2% on FY2025 reported FCF ($5.6B) and ~13.9% on adjusted FCF ($6.4B), at the $53.66 close and ~$45.9B market cap (2026-08-28)** |
 | Debt/EBITDA | ~1.5x |
 
 **Key Takeaway:** PayPal trades at a significant discount to historical multiples (10-year low P/E) despite solid free cash flow generation and improving profitability. However, the discount reflects real concerns: slowing branded checkout growth (1% in Q4 2025), intensifying competition from Apple Pay/Google Pay, and leadership transition uncertainty. The bull case hinges on successful monetization of Venmo, Fastlane adoption, and margin expansion. The bear case centers on structural market share loss in core branded checkout and inability to compete with device-native wallets.
@@ -604,19 +618,19 @@ Gross Payment Volume (GPV)
 
 ### Core Thesis
 
-PayPal is a deeply undervalued cash-generating machine trading at low multiples ~~(9-10x forward P/E, 16% FCF yield)~~ **[2026-07-17] old-basis multiples/yield, superseded by the takeover situation (see July 17 update); at $56.56 the FCF yield is ~11%-13%** due to temporary execution issues and market overreaction. The company retains dominant market share (43-45% globally), has multiple growth vectors (Fastlane, Venmo, BNPL), and can drive significant shareholder value through aggressive buybacks and margin expansion even with modest revenue growth.
+PayPal is a deeply undervalued cash-generating machine trading at low multiples ~~(9-10x forward P/E, 16% FCF yield)~~ **[2026-07-17; re-anchored 2026-08-29] old-basis multiples/yield, superseded by the then-live takeover situation and still unrebuilt after its 2026-08-28 withdrawal; ~~at $56.56 the FCF yield is 11%-13%~~ at the 2026-08-28 close of $53.66 it is ~12.2% on reported FCF and ~13.9% on adjusted FCF (see the August 29 update)** due to temporary execution issues and market overreaction. The company retains dominant market share (43-45% globally), has multiple growth vectors (Fastlane, Venmo, BNPL), and can drive significant shareholder value through aggressive buybacks and margin expansion even with modest revenue growth.
 
 ### Supporting Evidence
 
 **1. Valuation is Historically Cheap (High Conviction)**
 
 **Data:**
-- ~~Forward P/E: 9.2x vs 10-year average of 25-30x~~ **[2026-07-17] historical February basis; no current forward-P/E conclusion is offered while the takeover situation is unresolved and the Q2 model is pending rebuild.**
+- ~~Forward P/E: 9.2x vs 10-year average of 25-30x~~ **[2026-07-17; re-anchored 2026-08-29] historical February basis. The takeover situation ended on 2026-08-28 and the Q2 model is still pending rebuild; at the 2026-08-28 close of $53.66 against the ~$5.38 FY2026 non-GAAP EPS guide the forward P/E is ~10.0x — an arithmetic reading, not a re-rating conclusion.**
 - ~~P/S Ratio: 1.2x vs historical 5-8x~~ **[2026-07-17] historical February basis, not a current comparison.**
-- ~~FCF Yield: 16% vs S&P 500 average of 3-4%~~ **[2026-07-17] old basis; at $56.56 the rough yield is ~11%-13% using the 2025 FCF range, pending a Q2 rebuild and not presented as downside protection.**
+- ~~FCF Yield: 16% vs S&P 500 average of 3-4%~~ **[2026-07-17; re-anchored 2026-08-29] old basis; ~~at $56.56 the rough yield is 11%-13%~~ at the 2026-08-28 close of $53.66 the yield is ~12.2% on FY2025 reported FCF and ~13.9% on adjusted FCF, pending a Q2 rebuild and not presented as downside protection.**
 - ~~EV/EBITDA: ~6-7x vs historical 15-20x~~ **[2026-07-17] historical February estimate, not a current comparison.**
 
-**Argument:** Even if PayPal never grows again, a high FCF yield ~~(16%, old basis)~~ provides attractive returns. The market is pricing in permanent structural decline, but PayPal still processes $1.79T annually with 438M active accounts. ~~A reversion to even 15x P/E (still below historical average) implies 50%+ upside from $41 to $60+.~~ **[2026-07-17] the old 16% FCF yield and the price-upside math are stale — the fundamental frame is superseded by the takeover situation (see July 17 update); at $56.56 the FCF yield is ~11%-13%.**
+**Argument:** Even if PayPal never grows again, a high FCF yield ~~(16%, old basis)~~ provides attractive returns. The market is pricing in permanent structural decline, but PayPal still processes $1.79T annually with 438M active accounts. ~~A reversion to even 15x P/E (still below historical average) implies 50%+ upside from $41 to $60+.~~ **[2026-07-17; re-anchored 2026-08-29] the old 16% FCF yield and the price-upside math are stale — the fundamental frame was superseded by the then-live takeover situation and remains unrebuilt after its 2026-08-28 withdrawal; ~~at $56.56 the FCF yield is 11%-13%~~ at the 2026-08-28 close of $53.66 it is ~12.2% on reported FCF and ~13.9% on adjusted FCF.**
 
 **2. Venmo Monetization is Early Innings (Medium Conviction)**
 
@@ -681,7 +695,7 @@ PayPal is a deeply undervalued cash-generating machine trading at low multiples 
 - Shares Outstanding: 650M (30% reduction from buybacks)
 - EPS: $10.30
 - P/E Multiple: 15x (still below historical average)
-- ~~**Target Price: $155 (3.7x upside from $41)**~~ **[2026-07-17] stale bull-case target — superseded by the takeover situation, not a current target**
+- ~~**Target Price: $155 (3.7x upside from $41)**~~ **[2026-07-17; updated 2026-08-29] stale bull-case target — superseded by the then-live takeover situation and still unrebuilt after its 2026-08-28 withdrawal, not a current target**
 
 **Catalysts:**
 - Fastlane adoption exceeds expectations (5,000+ merchants by end 2026)
@@ -791,14 +805,14 @@ While not an immediate threat, regulatory risk is asymmetric—downside is signi
 - Shares Outstanding: 700M (buybacks slow as stock stays depressed)
 - EPS: $7.00
 - P/E Multiple: 8x (value trap multiple for declining business)
-- ~~**Target Price: $56 (36% upside from $41, but takes 2+ years)**~~ **[2026-07-17] stale bear-case target — superseded by the takeover situation, not a current target**
+- ~~**Target Price: $56 (36% upside from $41, but takes 2+ years)**~~ **[2026-07-17; updated 2026-08-29] stale bear-case target — superseded by the then-live takeover situation and still unrebuilt after its 2026-08-28 withdrawal, not a current target**
 
 **Alternative Downside (10% Probability):**
 - Branded checkout accelerates decline to -5% annually
 - Revenue declines to $28B by 2027
 - EPS: $5.00
 - P/E Multiple: 6x (terminal decline)
-- ~~**Target Price: $30 (27% downside from $41)**~~ **[2026-07-17] stale bear-case target — superseded by the takeover situation, not a current target**
+- ~~**Target Price: $30 (27% downside from $41)**~~ **[2026-07-17; updated 2026-08-29] stale bear-case target — superseded by the then-live takeover situation and still unrebuilt after its 2026-08-28 withdrawal, not a current target**
 
 **Catalysts:**
 - ~~Q1 2026 results show branded checkout still at 1% or negative~~ June 22 update: Q1 showed roughly 2% branded checkout growth; the next bearish confirmation would be Q2/Q3 staying in the 1-2% range or turning negative.
@@ -995,7 +1009,7 @@ While not an immediate threat, regulatory risk is asymmetric—downside is signi
 | Mastercard | 32x | 25x | 18x | 3.0% |
 | Block (Square) | 18x | 12x | 2.5x | 5.5% |
 | Fiserv | 22x | 14x | 4.5x | 4.0% |
-| **PayPal** | **~~9.2x~~ roughly around 8x if 2026 adjusted EPS stays near $5.0-$5.5** | **6.5x historical estimate** | **1.2x historical estimate** | **~~roughly 15%-17% using June 2026 market cap~~ old basis; ~11%-13% at the $56.56 current price, pending Q2 rebuild** |
+| **PayPal** | **~~9.2x~~ ~~roughly around 8x if 2026 adjusted EPS stays near $5.0-$5.5~~ ~10.0x ($53.66 ÷ the ~$5.38 FY2026 non-GAAP EPS guide, 2026-08-28)** | **6.5x historical estimate** | **1.2x historical estimate** | **~~roughly 15%-17% using June 2026 market cap~~ ~~11%-13% at the $56.56 close~~ ~12.2% on reported FCF and ~13.9% on adjusted FCF at the 2026-08-28 close of $53.66, pending Q2 rebuild** |
 
 **Analysis:** PayPal trades at a 50-70% discount to payment processor peers. Even applying a conservative 15x P/E (half of Visa/Mastercard) implies $80+ per share.
 
@@ -1010,7 +1024,7 @@ While not an immediate threat, regulatory risk is asymmetric—downside is signi
 
 **3. FCF Yield Valuation**
 
-**Current FCF Yield:** ~~16% ($6.4B FCF / $40B market cap)~~ ~~roughly 15%-17% using ~$37.5B market cap~~ old basis, superseded by the takeover dynamics (~11%-13% at the $56.56 current price).
+**Current FCF Yield:** ~~16% ($6.4B FCF / $40B market cap)~~ ~~roughly 15%-17% using ~$37.5B market cap~~ ~~11%-13% at the $56.56 close~~ old bases superseded; **~12.2% on FY2025 reported FCF ($5.6B) and ~13.9% on adjusted FCF ($6.4B) at the 2026-08-28 close of $53.66** (~$45.9B market cap), pending a Q2 rebuild.
 
 **Comparable FCF Yields:**
 - S&P 500 Average: 3-4%
@@ -1047,11 +1061,11 @@ While not an immediate threat, regulatory risk is asymmetric—downside is signi
 
 **Fair Value Range: ~~$65-75~~ historical February range, not a current target**
 
-**Current Price:** ~~$41-42~~ ~~$42.51 (June 18, 2026)~~ $56.56 (2026-07-17, on the takeover offer; old value is a historical snapshot)
+**Current Price:** ~~$41-42~~ ~~$42.51 (June 18, 2026)~~ ~~$56.56 (2026-07-17, on the takeover offer)~~ $53.66 (2026-08-28 close; the older values are historical snapshots)
 
 **Implied Upside:** ~~55-80% to fair value~~ stale until the valuation model is rebuilt with Q1/Q2 and official filing data.
 
-**Key Takeaway:** ~~PayPal is trading at a significant discount to intrinsic value across multiple valuation methods. Even conservative assumptions (5% revenue growth, 20% margins, 12x P/E) imply 60%+ upside.~~ **[2026-07-17] the old "60%+ upside" intrinsic-value math is stale — the fundamental valuation frame is superseded by the takeover situation (see July 17 update).** The discount reflects real risks: branded checkout decline, competitive pressure, and execution uncertainty. The stock is cheap for a reason, but may be oversold.
+**Key Takeaway:** ~~PayPal is trading at a significant discount to intrinsic value across multiple valuation methods. Even conservative assumptions (5% revenue growth, 20% margins, 12x P/E) imply 60%+ upside.~~ **[2026-07-17; updated 2026-08-29] the old "60%+ upside" intrinsic-value math is stale — the fundamental valuation frame was superseded by the then-live takeover situation and, after that offer was withdrawn on 2026-08-28, remains unrebuilt rather than restored (see the August 29 update).** The discount reflects real risks: branded checkout decline, competitive pressure, and execution uncertainty. The stock is cheap for a reason, but may be oversold.
 
 ---
 
@@ -1150,13 +1164,13 @@ While not an immediate threat, regulatory risk is asymmetric—downside is signi
 
 ### Investment Summary
 
-PayPal Holdings (PYPL) presents a **classic value trap vs deep value debate**. The company trades at low multiples ~~(9x forward P/E, 16% FCF yield)~~ **[2026-07-17] old-basis multiples/yield — superseded by the takeover situation (see July 17 update)** despite generating $6.4B in annual free cash flow and maintaining 43-45% global market share in online payments. However, the discount reflects legitimate concerns: core branded checkout growth decelerated to 1% in Q4 2025, competition from Apple Pay and Google Pay is intensifying, and a sudden CEO change creates execution uncertainty.
+PayPal Holdings (PYPL) presents a **classic value trap vs deep value debate**. The company trades at low multiples ~~(9x forward P/E, 16% FCF yield)~~ **[2026-07-17; updated 2026-08-29] old-basis multiples/yield — superseded by the then-live takeover situation and still unrebuilt after its 2026-08-28 withdrawal (see the August 29 update)** despite generating $5.6B of FY2025 reported free cash flow ($6.4B adjusted) and maintaining 43-45% global market share in online payments. However, the discount reflects legitimate concerns: core branded checkout growth decelerated to 1% in Q4 2025, competition from Apple Pay and Google Pay is intensifying, and a sudden CEO change creates execution uncertainty.
 
 **June 22 update:** the "value trap vs deep value" framing still holds, but the inputs have shifted. Branded checkout reportedly improved only modestly to roughly 2% growth in Q1, Venmo remains a positive offset, and the CEO change has moved from event risk to execution risk. The stock still screens cheap at $42.51 and roughly $37.5B market cap, but the old $65-$75 valuation range is stale until the model is rebuilt.
 
 ### The Bull Case in One Paragraph
 
-PayPal is a deeply undervalued cash machine that can drive 15-20% annual EPS growth through aggressive buybacks (15% of market cap annually) and margin expansion (18% → 22%) even with modest 4-5% revenue growth. Venmo monetization is in early innings ($25/user today vs $69/user for Cash App), Fastlane could stabilize branded checkout if adoption accelerates, and the stock could re-rate toward a higher P/E. ~~the stock could easily re-rate to 15x P/E (still below historical average) for 100%+ upside to $80-90.~~ **[2026-07-17] the old "100%+ upside to $80-90" price conclusion is stale — superseded by the takeover situation (offer $60.50, stock $56.56 on 2026-07-17).**
+PayPal is a deeply undervalued cash machine that can drive 15-20% annual EPS growth through aggressive buybacks (15% of market cap annually) and margin expansion (18% → 22%) even with modest 4-5% revenue growth. Venmo monetization is in early innings ($25/user today vs $69/user for Cash App), Fastlane could stabilize branded checkout if adoption accelerates, and the stock could re-rate toward a higher P/E. ~~the stock could easily re-rate to 15x P/E (still below historical average) for 100%+ upside to $80-90.~~ **[2026-07-17; updated 2026-08-29] the old "100%+ upside to $80-90" price conclusion is stale — superseded by the then-live takeover situation (offer $60.50, ~~stock $56.56 on 2026-07-17~~ stock $53.66 at the 2026-08-28 close) and not restored by that offer's 2026-08-28 withdrawal.**
 
 ### The Bear Case in One Paragraph
 
@@ -1173,7 +1187,7 @@ We rate PayPal **NEUTRAL** because:
 4. ❌ Fastlane adoption (1,000 merchants) is too early to validate
 
 **Why Not Bearish:**
-1. ✅ Valuation screens cheap on a rough cash-flow basis. ~~(about 15%-17% FCF yield using the 2025 FCF range and June 2026 market cap)~~ **[2026-07-17] old-basis FCF yield; at the $56.56 current price it is ~11%-13%, and the fundamental frame is superseded by the takeover situation pending a Q2 rebuild**
+1. ✅ Valuation screens cheap on a rough cash-flow basis. ~~(about 15%-17% FCF yield using the 2025 FCF range and June 2026 market cap)~~ **[2026-07-17; re-anchored 2026-08-29] old-basis FCF yield; ~~at the $56.56 close it is 11%-13%~~ at the 2026-08-28 close of $53.66 it is ~12.2% on reported FCF and ~13.9% on adjusted FCF, and the fundamental frame — superseded by the then-live takeover situation, which ended 2026-08-28 — is still pending a Q2 rebuild**
 2. ✅ Fortress balance sheet with $6B annual FCF and minimal debt
 3. ✅ Buybacks and cost discipline can support per-share economics if revenue does not deteriorate
 4. ✅ Multiple growth vectors (Venmo, BNPL, Fastlane) could surprise
@@ -1181,7 +1195,7 @@ We rate PayPal **NEUTRAL** because:
 ### Recommended Approach
 
 **For Value Investors:**
-- **Action:** ~~Small position (2-3% of portfolio) at current levels ($41-42)~~ This report does not provide position-sizing advice; the June 18 $42.51 quote is now a historical reference — the situation is dominated by the 2026-07-15 takeover offer (see July 17 update at top).
+- **Action:** ~~Small position (2-3% of portfolio) at current levels ($41-42)~~ This report does not provide position-sizing advice; the June 18 $42.51 quote is now a historical reference — the 2026-07-15 takeover offer that dominated the situation was withdrawn on 2026-08-28 (see the August 29 update at top).
 - **Rationale:** ~~Asymmetric risk/reward with 16% FCF yield providing downside protection~~ Low valuation remains relevant, but the old upside math is stale until the model is refreshed.
 - **Add on:** Branded checkout stabilizes at 3-5% growth in Q2-Q3 2026
 - **Exit if:** Branded checkout goes negative or Apple/Google announce zero-fee programs
@@ -1219,7 +1233,8 @@ PayPal is at an inflection point. The next 6-12 months will determine whether th
 **Market Data:**
 - Stock price and market cap data from multiple financial platforms (February 2026)
 - Nasdaq quote API for PYPL (https://api.nasdaq.com/api/quote/PYPL/info?assetclass=stocks; historical June 18, 2026 quote: $42.51, market cap ~$37.5B)
-- Stripe/Advent takeover offer for PayPal (~$60.50/share, ~$53B): Reuters/CNBC/Bloomberg/Axios/TechCrunch, 2026-07-15; PYPL market quote $56.56, 2026-07-17
+- Stripe/Advent takeover offer for PayPal (~$60.50/share, ~$53B): Reuters/CNBC/Bloomberg/Axios/TechCrunch, 2026-07-15; PYPL market quote $56.56, 2026-07-17 (historical anchor, superseded)
+- Advent/Stripe consortium abandons the acquisition plan: Bloomberg, 2026-08-28 (carried by Yahoo Finance), independently confirmed by Axios; share count 855,460,874 from the PayPal FY2026 Q2 Form 10-Q cover page (SEC EDGAR accession 0001633917-26-000082, filed 2026-07-28); PYPL close $53.66, 2026-08-28 (Nasdaq completed regular session)
 - Analyst estimates and ratings from Wall Street research
 
 **June 2026 Update Sources:**

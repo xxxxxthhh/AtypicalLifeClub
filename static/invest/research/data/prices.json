@@ -414,11 +414,11 @@
       "symbol": "PYPL",
       "status": "ok",
       "attemptedAt": "2026-08-28",
-      "baseDate": "2026-07-17",
-      "basePrice": 56.56,
+      "baseDate": "2026-08-28",
+      "basePrice": 53.66,
       "lastDate": "2026-08-28",
       "lastClose": 53.66,
-      "changePct": -5.1,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
