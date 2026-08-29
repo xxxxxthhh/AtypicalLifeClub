@@ -5184,7 +5184,7 @@
   {
     "date": "2026-08-28",
     "scoredCount": 108,
-    "medianRelativePct": 1.1,
+    "medianRelativePct": 0.8,
     "nonNeutralBeatRate": 0.5142857142857142,
     "byBenchmark": {
       "COPX": {
@@ -5299,7 +5299,7 @@
           },
           "neutral-watch": {
             "scoredCount": 5,
-            "medianRelativePct": 6.4
+            "medianRelativePct": 6.5
           },
           "cautious": {
             "scoredCount": 12,
