@@ -4868,7 +4868,7 @@
     "ticker": "NYSE: SPOT",
     "title": "Spotify 深度研究报告 - 全球音频科技平台的盈利转型与估值再评估",
     "titleEn": "Spotify Deep Research Report - The Global Audio Tech Platform's Profitability Transformation and Valuation Reassessment",
-    "summary": "2026-08-06更新（Q2 2026）：营收€4.777B（+14%，恒定汇率+15%）、毛利率33.4%、营业利润€655M、净利€545M、FCF€797M、Premium 3.00亿、MAU 7.77亿。相对公司指引，MAU少100万、营收符合，订户/毛利率/营业利润高于。按8/5收盘$482.23及ECB EUR/USD 1.1554重锚，市值约$99.2B、TTM P/E约25.7x、P/S约4.7x、FCF收益率约3.8%；基准DCF要求未来五年FCF约14.5%年增，维持中性偏多/中等。",
+    "summary": "2026-08-06更新（Q2 2026）：营收€4.777B（+14%，恒定汇率+15%）、毛利率33.4%、营业利润€655M、净利€545M、FCF€797M、Premium 3.00亿、MAU 7.77亿。相对公司指引，MAU少100万、营收符合，订户/毛利率/营业利润高于。按8/5收盘$482.23及ECB EUR/USD 1.1554重锚，市值约$99.2B、TTM P/E约25.7x、P/S约4.7x、FCF收益率约3.8%；基准DCF要求未来五年FCF约14.5%年增，维持中性偏多/中等。2026-08-20：董事会批准股份回购计划增额15亿美元，原计划尚余7.23亿美元，总授权约22.23亿美元；该计划不要求回购任何特定数量，估值输入与立场不变。",
     "tags": [
       "流媒体",
       "音频平台",
@@ -4877,7 +4877,7 @@
     ],
     "category": "tech",
     "date": "2026-02-10",
-    "lastUpdate": "2026-08-06",
+    "lastUpdate": "2026-08-31",
     "file": "/invest/research/reports/view.html?id=spotify-2026",
     "markdownFiles": {
       "zh": "/invest/research/Spotify_深度研究报告_2026-02.md",
@@ -4887,9 +4887,10 @@
       "Q2 2026：营收€4.777B（+14%）、毛利率33.4%、营业利润€655M、净利€545M、FCF€797M、Premium 3.00亿、MAU 7.77亿",
       "指引对照：MAU 低100万、营收符合，Premium高100万、毛利率高30bps、营业利润高€25M（含€9M社保费用利好）",
       "8/5收盘$482.23、市值约$99.2B；TTM净利€3.339B、FCF€3.261B，对应P/E约25.7x、FCF收益率约3.8%",
-      "基准DCF隐含当前价要求五年FCF约14.5%年增；维持中性偏多/中等，Q3指引为MAU 7.88亿、Premium 3.05亿、营收€5.0B"
+      "基准DCF隐含当前价要求五年FCF约14.5%年增；维持中性偏多/中等，Q3指引为MAU 7.88亿、Premium 3.05亿、营收€5.0B",
+      "2026-08-20 Form 6-K：回购授权增额15亿美元，总授权约22.23亿美元；计划不要求回购任何特定数量"
     ],
-    "summaryEn": "Updated 2026-08-06 (Q2 2026): revenue €4.777B (+14%, +15% FX-neutral), gross margin 33.4%, operating income €655M, net income €545M, FCF €797M, Premium 300M, and MAUs 777M. Versus company guidance, MAUs were 1M below and revenue was in line, while subscribers, gross margin, and operating income were above. Re-anchored to the $482.23 close on August 5 and ECB EUR/USD 1.1554: about $99.2B market cap, 25.7x TTM P/E, 4.7x P/S, and 3.8% FCF yield. Base DCF assumptions require roughly 14.5% five-year FCF growth; Neutral-to-Bullish / Medium holds.",
+    "summaryEn": "Updated 2026-08-06 (Q2 2026): revenue €4.777B (+14%, +15% FX-neutral), gross margin 33.4%, operating income €655M, net income €545M, FCF €797M, Premium 300M, and MAUs 777M. Versus company guidance, MAUs were 1M below and revenue was in line, while subscribers, gross margin, and operating income were above. Re-anchored to the $482.23 close on August 5 and ECB EUR/USD 1.1554: about $99.2B market cap, 25.7x TTM P/E, 4.7x P/S, and 3.8% FCF yield. Base DCF assumptions require roughly 14.5% five-year FCF growth; Neutral-to-Bullish / Medium holds. On 2026-08-20 the Board approved an additional $1.5B of share repurchase authorization; with $723M remaining, total authorization is about $2.223B. The program does not obligate Spotify to repurchase any particular amount, so valuation inputs and stance are unchanged.",
     "period": "2026H1",
     "versionType": "incremental",
     "versionLabel": "2026H1 Q2 Incremental Update",

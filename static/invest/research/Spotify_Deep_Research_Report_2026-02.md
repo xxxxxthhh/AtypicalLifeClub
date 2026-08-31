@@ -1,7 +1,7 @@
 # Spotify (NYSE: SPOT) Deep Research Report
 
 Coverage date: 2026-02-10
-Last updated: 2026-08-06
+Last updated: 2026-08-31
 Ticker: NYSE: SPOT
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -10,6 +10,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 ## Executive Summary
 
 **One-Line Thesis:** Spotify has successfully transformed from a chronically unprofitable music streaming platform into a profitable "global audio technology platform," but current valuation still requires digesting high growth expectations even after a significant pullback.
+
+> **2026-08-20 capital-allocation update (no valuation re-anchor).** On 2026-08-20 Spotify furnished a Form 6-K disclosing that its Board of Directors approved an **additional $1.5 billion** for the share repurchase program. With **$723 million** remaining under the existing program, total authorization rises to approximately **$2.223 billion**. This is an **authorization, not an executed repurchase**: the program does not obligate Spotify to acquire any particular amount and may be suspended or discontinued. Share count, market cap and every multiple below are therefore unchanged and remain anchored to the 2026-08-05 close. Stance and conviction are unchanged. Source: [SEC Form 6-K and Exhibit 99.1, accession 0001140361-26-033885, filed 2026-08-20](https://www.sec.gov/Archives/edgar/data/1639920/000114036126033885/ef20080678_6k.htm).
 
 > **2026-08-06 Q2 update (current evidence layer).** Spotify reported Q2 2026 on August 4: revenue was **€4.777B (+14% Y/Y; +15% FX-neutral)**, gross margin **33.4%**, operating income **€655M**, net income **€545M**, free cash flow **€797M**, Premium subscribers **300M**, and MAUs **777M**. Against company guidance, MAUs were 1M below, revenue was in line, while subscribers, gross margin, and operating income were above. SPOT closed at **$482.23 on 2026-08-05**; the ECB reference rate was **$1.1554 per euro** that day. The prior 2026-06-25 and 2026-07-29 price checks remain historical snapshots, not current valuation inputs.
 
@@ -336,6 +338,7 @@ Q2 reinforced the operating thesis but did not create a broad-based beat: MAUs m
 - [Spotify 2025 Form 20-F](https://www.sec.gov/Archives/edgar/data/1639920/000162828026006874/ck0001639920-20251231.htm) — FY2025 revenue, net income, and diluted EPS used in TTM calculations.
 - [ECB EUR/USD reference rate](https://data-api.ecb.europa.eu/service/data/EXR/D.USD.EUR.SP00.A?startPeriod=2026-08-05&endPeriod=2026-08-05&format=csvdata) — 1.1554 USD per EUR on 2026-08-05.
 - [Yahoo Finance SPOT historical prices](https://finance.yahoo.com/quote/SPOT/history/) — $482.23 close on 2026-08-05; market data is a valuation input, not issuer evidence.
+- [SEC Form 6-K and Exhibit 99.1, Spotify Technology S.A., filed 2026-08-20](https://www.sec.gov/Archives/edgar/data/1639920/000114036126033885/ef20080678_6k.htm) — Board approval of an additional $1.5B of share repurchase authorization; $723M remained under the prior program, for approximately $2.223B in total, without an obligation to repurchase any particular amount.
 
 ### Peer Comparison
 
