@@ -1965,5 +1965,33 @@
       "aaoi-2026:cash-burn-dilution",
       "aaoi-2026:valuation-tolerance"
     ]
+  },
+  {
+    "id": "minimax-h1-2026-revenue-mix-and-unit-economics",
+    "date": "2026-08-26",
+    "title": {
+      "zh": "MiniMax H1 2026：收入 +283.1%、平台/API 占比升至 63.4%，但毛利率仅 17.9% 且现金流与付费 KPI 未披露",
+      "en": "MiniMax H1 2026: revenue rises 283.1% and platform/API mix reaches 63.4%, but gross margin is only 17.9% with cash flow and paid KPIs undisclosed"
+    },
+    "detail": {
+      "zh": "据 MiniMax 2026-08-26 港交所中期业绩公告：H1 2026 收入 US$116.573M（+283.1%）；AI-native 产品 US$42.644M（+100.9%，占 36.6%），Open Platform 与其他 AI 企业服务 US$73.929M（+703.1%，占 63.4%）；毛利率由 12.1% 升至 17.9%，研发费用 US$296.870M，期内亏损 US$357.997M，调整后净亏损 US$293.031M。收入与毛利率都改善，但公告不含现金流量表，也未披露 MAU、付费用户或 ARPU，因此该事件对 application-monetization 的读数是混合的：产品/平台收入增长得到确认，现金回收与付费转化仍不可观察。2026-08-17 价格与 FY2025 收入分母形成的旧估值快照已失去当前性；本次只更新事实与监测，不重锚估值或改变立场。",
+      "en": "Per MiniMax's 2026-08-26 HKEX interim-results announcement, H1 2026 revenue was US$116.573M, up 283.1%; AI-native products were US$42.644M, up 100.9% and 36.6% of revenue, while Open Platform and other AI-based enterprise services were US$73.929M, up 703.1% and 63.4%. Gross margin improved from 12.1% to 17.9%; R&D expense was US$296.870M, loss for the period US$357.997M and adjusted net loss US$293.031M. Revenue and margin improved, but the announcement contains no cash-flow statement and discloses no MAU, paying-user count or ARPU, so the application-monetization read is mixed: product/platform revenue growth is confirmed while cash recovery and paid conversion remain unobservable. The old valuation snapshot based on the 2026-08-17 price and FY2025 denominator is no longer current; this update changes facts and monitoring only, without re-anchoring valuation or changing stance."
+    },
+    "crossChecks": [
+      "application-monetization"
+    ],
+    "tickers": [
+      "0100.HK"
+    ],
+    "reportIds": [
+      "minimax-2026"
+    ],
+    "monitoringRefs": [
+      "minimax-2026:revenue-mix-and-growth",
+      "minimax-2026:unit-economics",
+      "minimax-2026:paying-user-conversion",
+      "minimax-2026:funding-dilution",
+      "minimax-2026:ip-regulatory-exposure"
+    ]
   }
 ]

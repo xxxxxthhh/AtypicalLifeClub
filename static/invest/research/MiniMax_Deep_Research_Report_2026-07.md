@@ -1,7 +1,7 @@
 # MiniMax Group Deep Research Report: Application-Layer Demand Validation and Valuation Stress Test
 
 Coverage date: 2026-07-15
-Last updated: 2026-08-18
+Last updated: 2026-08-31
 Ticker: HKEX: 0100
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -9,11 +9,15 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 ## 1. Executive Summary and Current View <!-- report-module:overview -->
 
-**One-sentence thesis:** MiniMax has shown that an independent Chinese foundation-model company can build global users, consumer-product revenue, and enterprise API revenue at the same time, but **FY2025 revenue of US$79.0M, a 25.4% gross margin, and US$279.6M of operating cash outflow** do not yet support the **HK$116.6B market capitalization and 189.1x FY2025 price-to-sales ratio** implied by the 2026-08-17 close. Initial coverage is **cautious / low conviction**.
+**One-sentence thesis:** MiniMax's H1 2026 revenue and platform/API mix grew rapidly, but a **17.9% gross margin**, a larger adjusted net loss, and the absence of current cash-flow and paying-user disclosures leave unit economics unresolved. The prior 2026-08-17 valuation conclusion used a FY2025 denominator that H1 2026 has superseded; **cautious / low conviction is retained provisionally, not revalidated, pending a complete current valuation review**.
+
+> **2026-08-31 H1 monitoring update; no valuation or stance re-anchor.** MiniMax's 2026-08-26 HKEX interim-results announcement reported unaudited H1 revenue of **US$116.573M (+283.1%)**, above FY2025 revenue in only six months. AI-native products were **US$42.644M (+100.9%; 36.6% of revenue)** and Open Platform and other AI-based enterprise services were **US$73.929M (+703.1%; 63.4%)**. Gross profit was **US$20.813M (+464.8%)**, gross margin improved from 12.1% to **17.9%**, R&D expense was **US$296.870M (+138.8%)**, loss for the period was **US$357.997M (-11.0%)**, and adjusted net loss was **US$293.031M (+111.2%)**. The issuer-defined cash balance was **US$1,322.8M** and the gearing ratio was **21.5%** at 2026-06-30. The announcement contains no cash-flow statement and discloses no MAU, paying-user count, or ARPU, so burn-to-revenue and paid conversion remain ungradeable. `revenue-mix-and-growth` moves to **within** on the published product/platform revenue test; `unit-economics` and `paying-user-conversion` remain **unclear**. The next formal evidence point is the interim report, which HKEX Main Board Rule 13.48 requires no later than three months after the half-year end.
+
+> **2026-08-26 Alibaba connected-transaction update; company fact, not a chain signal.** MiniMax raised the 2026/2027/2028 annual caps for cloud purchases from Alibaba from **US$115M / US$125M / US$135M** to **US$300M / US$400M / US$500M**; H1 2026 purchases were **US$75.6M** and the old 2026 cap was 65.7% utilized. It raised the caps for API services sold to Alibaba from **US$0.65M / US$1.0M / US$1.5M** to **US$7.5M / US$22.0M / US$33.0M**, with 77.2% utilization of the old 2026 cap. The issuer says the caps are estimates and must not be read as actual or future financial performance; they are contractual ceilings, not orders, backlog, or delivered compute. The separately proposed 20% general-mandate refresh remains subject to independent-shareholder approval and is not executed dilution. No existing cross-check predicate covers this capital-markets-funded procurement structure, so no signal is attached to the cap revision.
 
 MiniMax sits in the `demand-risk` layer as a `risk-anchor`. It does not validate GPU, network, or data-center supply. It tests whether upstream AI infrastructure can become paid users, API consumption, gross profit, and cash recovery at the application layer. If user and token growth do not improve unit economics, usage alone is not durable proof of returns on upstream capital expenditure.
 
-### Current snapshot
+### Historical valuation snapshot (2026-08-18; superseded for current valuation)
 
 | Metric | 2026-08-18 snapshot | Research implication |
 |---|---:|---|
@@ -29,7 +33,7 @@ MiniMax sits in the `demand-risk` layer as a `risk-anchor`. It does not validate
 
 Pro forma net cash adds the company-defined US$1.050B cash balance at FY2025 year end, HK$5.293B of IPO net proceeds, and HK$9.491B from the placement completed on 2026-07-14, then deducts US$35.5M of bank and other borrowings at an approximate 7.8 HKD/USD rate. This is an **upper-bound snapshot before 2026 operating burn and use of proceeds**, not an audited cash balance as of 2026-07-15.
 
-**Current view: cautious / low conviction.** Business evidence is positive: revenue grew 158.9%, gross margin improved by 13.2 percentage points, international revenue was 73%, and paid consumer-product users reached 1.77M in the first nine months of 2025. Valuation, however, requires roughly **82.7% revenue CAGR over four years** (recomputed at the 2026-08-17 close; about 62% at the 2026-07-31 anchor), now above even this report's 70%-80% bull band, with sustained gross-margin expansion and lower cash burn. Recent equity financing removes near-term liquidity pressure but also shows that training, inference, and global commercialization remain externally funded.
+**Historical 2026-08-18 view: cautious / low conviction.** Business evidence was positive: revenue grew 158.9%, gross margin improved by 13.2 percentage points, international revenue was 73%, and paid consumer-product users reached 1.77M in the first nine months of 2025. At that dated price and FY2025 denominator, valuation required roughly **82.7% revenue CAGR over four years**. The H1 2026 facts above supersede that denominator, so this paragraph preserves the audit trail and is not a current valuation conclusion.
 
 > **Old price-check note — stale as written, superseded by the re-adjudication below.** ~~2026-07-31 price check (no new quarter integrated in this pass): 0100.HK closed at 212.80 on 2026-07-29 versus the 260.60 anchor, a -18.3% move; figures below read as of their labels, and the valuation frame, scenario grid, stance and conviction are unchanged with `priceAsOf` deliberately left in place.~~
 
@@ -205,18 +209,18 @@ This report does not issue a target price. The valuation exercise measures the t
 
 | Timing or event | Catalyst or risk | Auditable reading to monitor |
 |---|---|---|
-| 2026 interim results | First listed interim operating update | Segment revenue, gross margin, R&D, operating cash flow, and cash balance |
+| ~~2026 interim results~~ **delivered 2026-08-26** | First listed interim operating update | Segment revenue, gross margin, R&D, and cash balance disclosed; operating cash flow and consumer KPIs await the interim report |
 | M3 commercialization | Model capability becomes platform demand | Paying API customers, token consumption, enterprise adoption, and inference unit cost |
 | Hailuo and Talkie updates | Consumer conversion and retention | MAU, paying users, ARPU, and AI-native gross margin |
 | Placement proceeds | Financing becomes growth | Use of HK$9.491B net proceeds, compute purchases, and R&D efficiency |
 | Bond closing or conversion | Potential financing and dilution | Completion, conversion-price adjustment, and the potential 19.403M shares |
 | IP and regulatory developments | Downside tail risk | Hailuo litigation, content governance, cross-border data, and product restrictions |
 
-The next formal review should follow the 2026 interim results and update three trends together: FY2025 revenue growth versus 2026 growth, 25.4% gross margin versus the new margin, and US$279.6M operating cash outflow versus new burn. Updating product releases without refreshing valuation and cash consumption would create false freshness.
+~~The next formal review should follow the 2026 interim results and update three trends together: FY2025 revenue growth versus 2026 growth, 25.4% gross margin versus the new margin, and US$279.6M operating cash outflow versus new burn.~~ **2026-08-31 update:** revenue growth and gross margin are now refreshed from the 2026-08-26 announcement, but cash burn cannot be updated because the announcement has no cash-flow statement. The old price/FY2025-denominator valuation is historical and must not be read as current; a complete current price, share-count, EV, forward-denominator, cash-flow and thesis review is required before changing the stance or valuation conclusion.
 
 ## 10. Conclusion and Review Rules <!-- report-module:conclusion -->
 
-**Conclusion: cautious / low conviction.** MiniMax is a rare listed pure-play foundation-model and application company. Its global users, consumer revenue, API revenue, and gross-margin improvement are real positive evidence. The problem is not an absence of product-market fit. The problem is that the about 152.3x EV to FY2025 sales implied by the 2026-08-17 close demands about 83% revenue CAGR — above even this report's 70%-80% bull band — while high R&D spending, low consumer-product margins, IP risk, and dilution all improve at once.
+**Conclusion: cautious / low conviction retained provisionally, not revalidated.** H1 2026 confirms rapid paid product and platform/API revenue growth, but 17.9% gross margin remains below the upgrade threshold and cash flow, MAU, paying-user count and ARPU are still unavailable. The 2026-08-17 price/FY2025-denominator valuation is now historical, so its negative expectation-gap conclusion cannot be carried forward as current. A complete current price, share-count, EV, forward-denominator, cash-flow and scenario review is the next adjudication gate; until then the stance is administratively retained rather than freshly supported.
 
 **Upgrade rule:** Move toward `neutral-watch` or `constructive` if an interim or later report shows revenue growth above 80%, consolidated gross margin above 40%, continued Open Platform mix and paying-customer gains, operating cash burn below 100% of revenue, and at least 24 months of funding without another large equity raise.
 
@@ -244,6 +248,9 @@ MiniMax is the application-layer risk anchor for the broader AI-infrastructure r
 6. [MiniMax M3 Official Release, 2026-06-01](https://www.minimax.io/blog/minimax-m3)
 7. [Z.ai FY2025 Annual Results, HKEX, 2026-03-31](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0331/2026033101549.pdf)
 8. [Yahoo Finance 0100.HK Historical Data](https://finance.yahoo.com/quote/0100.HK/history/)
+9. [H1 2026 Interim Results Announcement, HKEX, 2026-08-26](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf)
+10. [Revision of Alibaba annual caps and proposed general-mandate refresh, HKEX, 2026-08-26](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082601949.pdf)
+11. [HKEX Main Board Listing Rule 13.48, Interim Reports](https://en-rules.hkex.com.hk/rulebook/interim-reports-1348)
 
 ---
 
