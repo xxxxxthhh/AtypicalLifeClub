@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-08-24",
+  "asOf": "2026-08-31",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -59,12 +59,12 @@
       "sourceType": "monitoring",
       "verifiedAt": "2026-08-01"
     },
-    {
-      "reportId": "synopsys-2026",
+  {
+    "reportId": "synopsys-2026",
       "company": "Synopsys",
       "expectedDate": "2026-08-26",
       "precision": "day",
-      "status": "issuer-confirmed",
+    "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://investor.synopsys.com/news/news-details/2026/Synopsys-Announces-Earnings-Release-Date-for-Third-Quarter-Fiscal-Year-2026/default.aspx",
       "sourceType": "issuer-ir",
@@ -158,12 +158,12 @@
       "sourceType": "monitoring",
       "verifiedAt": "2026-08-01"
     },
-    {
-      "reportId": "nvidia-2026",
+  {
+    "reportId": "nvidia-2026",
       "company": "NVIDIA",
       "expectedDate": "2026-08-26",
       "precision": "day",
-      "status": "issuer-confirmed",
+    "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-2nd-Quarter-FY27-Financial-Results/default.aspx",
       "sourceType": "issuer-ir",
@@ -269,12 +269,12 @@
       "sourceType": "monitoring",
       "verifiedAt": "2026-08-01"
     },
-    {
-      "reportId": "salesforce-2026",
+  {
+    "reportId": "salesforce-2026",
       "company": "Salesforce",
       "expectedDate": "2026-08-26",
       "precision": "day",
-      "status": "issuer-confirmed",
+    "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-Second-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/default.aspx",
       "sourceType": "issuer-ir",
@@ -491,12 +491,12 @@
       "sourceType": "monitoring",
       "verifiedAt": "2026-08-01"
     },
-    {
-      "reportId": "marvell-2026",
+  {
+    "reportId": "marvell-2026",
       "company": "Marvell Technology",
       "expectedDate": "2026-08-27",
       "precision": "day",
-      "status": "issuer-confirmed",
+    "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://investor.marvell.com/news-events/press-releases/detail/1029/marvell-technology-inc-announces-conference-call-to-review-second-quarter-of-fiscal-year-2027-financial-results-announces-investor-day-on-october-6-2026",
       "sourceType": "issuer-ir",
@@ -524,13 +524,13 @@
       "sourceType": "monitoring",
       "verifiedAt": "2026-08-01"
     },
-    {
-      "reportId": "minimax-2026",
+  {
+    "reportId": "minimax-2026",
       "company": "MiniMax Group",
       "timezone": "Asia/Hong_Kong",
       "expectedDate": "2026-08-26",
       "precision": "day",
-      "status": "issuer-confirmed",
+    "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://en.prnasia.com/releases/apac/minimax-to-report-2026-interim-financial-results-on-august-26-2026-544085.shtml",
       "sourceType": "issuer-ir",
