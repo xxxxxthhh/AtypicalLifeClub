@@ -64,6 +64,66 @@ def normalize_record(record):
     }
 
 
+def fetch_splits(symbol):
+    """Return [(YYYY-MM-DD, ratio), ...] ascending, or None when unavailable.
+
+    None means "could not ask" and must not be confused with "no splits": a
+    silent failure here is exactly how the 2026-05-18 PPLT/PALL splits poisoned
+    two years of history.
+    """
+    try:
+        splits = yf.Ticker(symbol).splits
+    except Exception as e:
+        print(f"  ✗ {symbol}: split lookup failed: {e}")
+        return None
+
+    events = []
+    for stamp, ratio in splits.items():
+        if not is_finite_number(ratio) or float(ratio) <= 0:
+            continue
+        events.append((stamp.strftime("%Y-%m-%d"), float(ratio)))
+    return sorted(events)
+
+
+def apply_new_splits(data):
+    """Back-adjust history for any split not yet applied. Returns True if changed."""
+    metadata = data["metadata"]
+    applied = metadata.setdefault("lastSplitApplied", {})
+    log = metadata.setdefault("splitAdjustments", [])
+    changed = False
+
+    sections = {"metals": data["metals"], "etfs": data["etfs"]}
+    for section_name, section in sections.items():
+        for symbol, history in section.items():
+            events = fetch_splits(symbol)
+            if events is None:
+                continue
+
+            seen = applied.get(symbol)
+            for date, ratio in events:
+                if seen is not None and date <= seen:
+                    continue
+
+                rows = 0
+                for row in history:
+                    if row["date"] < date:
+                        row["close"] = round(row["close"] / ratio, 4)
+                        rows += 1
+
+                applied[symbol] = date
+                log.append({
+                    "symbol": symbol,
+                    "date": date,
+                    "ratio": ratio,
+                    "rowsAdjusted": rows,
+                    "appliedAt": datetime.now().isoformat(),
+                })
+                changed = True
+                print(f"  ⚠ {symbol}: {ratio:g}:1 split on {date} — back-adjusted {rows} rows")
+
+    return changed
+
+
 def fetch_latest(symbol):
     """Fetch the most recent trading day's close."""
     try:
@@ -139,9 +199,17 @@ def main():
     today = datetime.now().strftime("%Y-%m-%d")
     print(f"Fetching latest data ({today})\n")
 
+    # Splits must be applied before the new bar is appended, otherwise a
+    # post-split close lands next to un-adjusted history.
+    print("=== Checking for splits ===")
+    changed_by_split = apply_new_splits(data)
+    if not changed_by_split:
+        print("  ✓ no new splits")
+    print()
+
     metals_symbols = list(data["metadata"]["metals"].keys())
     etf_symbols = list(data["metadata"]["etfs"].keys())
-    changed = False
+    changed = changed_by_split
 
     # Update metals
     for symbol in metals_symbols:

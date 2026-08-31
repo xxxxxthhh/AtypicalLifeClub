@@ -16,6 +16,28 @@ DATA_FILE = ROOT / "data" / "historical.json"
 EXPECTED_METALS = ["GC=F", "SI=F", "PL=F", "PA=F", "HG=F"]
 EXPECTED_ETFS = ["COPX", "GLD", "SLV", "CPER", "DBB", "REMX", "LIT", "PPLT", "PALL"]
 
+# A single-day move larger than this is treated as an unadjusted corporate
+# action (or a corrupt row) rather than a market move. See
+# docs/daily-briefing-plan.md section 3.3 — the 2026-05-18 PPLT/PALL splits
+# passed every existing check while poisoning every volatility calculation that
+# crossed them.
+#
+# Threshold chosen from the data, not from intuition. Over 9,082 consecutive
+# pairs (2024-02 .. 2026-08) the largest genuine move is SI=F -31.35% on
+# 2026-01-30, independently corroborated by SLV -28.54%, PL=F -19.04% and
+# PPLT -18.44% the same day (a real precious-metals selloff, not a split). The
+# smallest ordinary forward split, 2:1, is -50%. 0.35 sits between the two with
+# margin on both sides and fires on zero rows of the current, corrected file.
+#
+# Known gap: a small split such as 3:2 (-33%) falls under this threshold. That
+# is deliberate — the primary defence is update_data.apply_new_splits(), which
+# reads the split feed directly and is size-agnostic. This check is the net for
+# when that layer fails silently, so it targets the splits big enough to wreck a
+# volatility series. Do NOT lower it to catch small splits by widening the
+# knownSplits whitelist; a whitelist that grows with market volatility becomes a
+# mute switch (see section 9 of the plan).
+MAX_DAILY_MOVE = 0.35
+
 
 def fail(message):
     print(f"❌ 校验失败: {message}")
@@ -34,7 +56,62 @@ def assert_numeric(value, field_name):
         fail(f"{field_name} 不是数字: {value}")
 
 
-def validate_history(data, section, symbols, label):
+def parse_known_splits(metadata):
+    """Return {(symbol, date): ratio} from metadata.knownSplits, failing on bad entries."""
+    entries = metadata.get("knownSplits", [])
+    if not isinstance(entries, list):
+        fail("metadata.knownSplits 必须是数组")
+
+    known = {}
+    for idx, entry in enumerate(entries):
+        where = f"metadata.knownSplits[{idx}]"
+        if not isinstance(entry, dict):
+            fail(f"{where} 必须是对象")
+
+        for field in ("symbol", "date", "ratio", "reason"):
+            if field not in entry:
+                fail(f"{where} 缺少 {field}")
+
+        # strptime accepts "2026-5-18", but row dates are always zero-padded, so a
+        # non-canonical entry would look declared while never matching anything.
+        parsed = parse_date(entry["date"], f"{where}.date")
+        if parsed.strftime("%Y-%m-%d") != entry["date"]:
+            fail(f"{where}.date 必须是零补齐的 YYYY-MM-DD: {entry['date']}")
+
+        assert_numeric(entry["ratio"], f"{where}.ratio")
+        if entry["ratio"] <= 0:
+            fail(f"{where}.ratio 必须为正数: {entry['ratio']}")
+        if not str(entry.get("reason", "")).strip():
+            fail(f"{where}.reason 不能为空——白名单条目必须写明已核实的公司行为")
+
+        known[(entry["symbol"], entry["date"])] = entry["ratio"]
+
+    return known
+
+
+def validate_continuity(history, symbol, known_splits, label):
+    """Fail on any undeclared single-day move larger than MAX_DAILY_MOVE."""
+    for prev, row in zip(history, history[1:]):
+        previous_close = prev["close"]
+        if previous_close == 0:
+            continue
+
+        move = row["close"] / previous_close - 1
+        if abs(move) <= MAX_DAILY_MOVE:
+            continue
+
+        if (symbol, row["date"]) in known_splits:
+            continue
+
+        fail(
+            f"{label}.{symbol} {prev['date']} → {row['date']} 单日变动 {move * 100:.1f}%"
+            f"（阈值 ±{MAX_DAILY_MOVE * 100:.0f}%），且不在 metadata.knownSplits 白名单里。"
+            f"若确为已核实的公司行为，请补一条含 symbol/date/ratio/reason 的白名单条目；"
+            f"否则这是数据污染，不要靠白名单消音。"
+        )
+
+
+def validate_history(data, section, symbols, label, known_splits=None):
     """Validate a history section (metals or etfs)."""
     if section not in data:
         fail(f"缺少顶层字段: {section}")
@@ -67,7 +144,9 @@ def validate_history(data, section, symbols, label):
         if ordered_dates != sorted(ordered_dates):
             fail(f"{label}.{symbol} 日期不是升序")
 
-    print(f"  ✓ {label}: {len(symbols)} 个品种校验通过")
+        validate_continuity(history, symbol, known_splits or {}, label)
+
+    print(f"  ✓ {label}: {len(symbols)} 个品种校验通过（含单日跳变检查）")
 
 
 def main():
@@ -99,11 +178,13 @@ def main():
     if "last_updated" not in metadata:
         fail("metadata 缺少 last_updated")
 
-    print("  ✓ metadata 校验通过")
+    known_splits = parse_known_splits(metadata)
+
+    print(f"  ✓ metadata 校验通过（knownSplits {len(known_splits)} 条）")
 
     # Validate history sections
-    validate_history(data, "metals", EXPECTED_METALS, "metals")
-    validate_history(data, "etfs", EXPECTED_ETFS, "etfs")
+    validate_history(data, "metals", EXPECTED_METALS, "metals", known_splits)
+    validate_history(data, "etfs", EXPECTED_ETFS, "etfs", known_splits)
 
     # Validate current prices
     current = data["current"]
