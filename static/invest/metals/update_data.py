@@ -7,13 +7,34 @@ Designed to be run by GitHub Actions daily.
 
 import json
 import math
-import yfinance as yf
-from datetime import datetime
+from datetime import datetime, timezone
 import sys
 import os
 
+from fetch_historical import (
+    fetch_chart_result,
+    fetch_daily_rows,
+    parse_split_events,
+)
+
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(SCRIPT_DIR, "data", "historical.json")
+
+# How far back each run re-reads and re-upserts.  Two reasons it is a window and
+# not a single bar:
+#   1. The exchange can revise a close after we first stored it.  The old path
+#      took only df.iloc[-1], so a bar was written once and never looked at
+#      again -- 111-114 rows per futures contract are wrong today precisely
+#      because nothing ever went back to check them.
+#   2. A skipped or failed run leaves a hole; the next run backfills it.
+# 14 calendar days always spans at least nine completed sessions, even across a
+# holiday week with two weekends in it, and costs one request per symbol either
+# way.
+RECENT_WINDOW_DAYS = 14
+
+# Splits only matter for rows we actually store, and history is capped at
+# LOOKBACK_DAYS, so a split older than the oldest row would back-adjust nothing.
+SPLIT_LOOKBACK_DAYS = 730
 
 ALL_SYMBOLS = [
     "GC=F", "SI=F", "PL=F", "PA=F", "HG=F",
@@ -69,20 +90,17 @@ def fetch_splits(symbol):
 
     None means "could not ask" and must not be confused with "no splits": a
     silent failure here is exactly how the 2026-05-18 PPLT/PALL splits poisoned
-    two years of history.
+    two years of history.  Only a failed request or an unparseable response
+    yields None -- a well-formed response with no `events` key is Yahoo saying
+    the window holds no split, which is the same thing yfinance reported from
+    the same endpoint.
     """
     try:
-        splits = yf.Ticker(symbol).splits
+        result = fetch_chart_result(symbol, SPLIT_LOOKBACK_DAYS, events="splits")
+        return parse_split_events(result)
     except Exception as e:
         print(f"  ✗ {symbol}: split lookup failed: {e}")
         return None
-
-    events = []
-    for stamp, ratio in splits.items():
-        if not is_finite_number(ratio) or float(ratio) <= 0:
-            continue
-        events.append((stamp.strftime("%Y-%m-%d"), float(ratio)))
-    return sorted(events)
 
 
 def apply_new_splits(data):
@@ -133,26 +151,44 @@ def apply_new_splits(data):
     return changed, failed
 
 
-def fetch_latest(symbol):
-    """Fetch the most recent trading day's close."""
+def fetch_recent(symbol, observed_at):
+    """Fetch every completed daily bar in the rolling window, oldest first.
+
+    Bars whose session has not closed yet are dropped upstream by
+    fetch_historical.completed_rows; see the reasoning there.
+    """
     try:
-        ticker = yf.Ticker(symbol)
-        df = ticker.history(period="5d", interval="1d")
-        if df.empty:
-            return None
-        last = df.iloc[-1]
-        close = last["Close"]
-        if not is_finite_number(close):
-            print(f"  - {symbol}: skipped non-finite close")
-            return None
-        return {
-            "date": last.name.strftime("%Y-%m-%d"),
-            "close": round(float(close), 4),
-            "volume": normalize_volume(last["Volume"] if "Volume" in last else 0),
-        }
+        return fetch_daily_rows(symbol, RECENT_WINDOW_DAYS, observed_at)
     except Exception as e:
         print(f"  ✗ {symbol}: {e}")
-        return None
+        return []
+
+
+def apply_rows(history, rows):
+    """Upsert every row into `history`, returning a tally of the outcomes."""
+    counts = {"added": 0, "updated": 0, "unchanged": 0, "skipped": 0}
+    for row in rows:
+        counts[upsert_record(history, row)] += 1
+    return counts
+
+
+def update_section(section, symbols, observed_at):
+    """Refresh one section in place; True when any row was added or corrected."""
+    changed = False
+    for symbol in symbols:
+        rows = fetch_recent(symbol, observed_at)
+        if not rows:
+            print(f"  - {symbol}: no completed sessions in the last {RECENT_WINDOW_DAYS} days")
+            continue
+
+        counts = apply_rows(section[symbol], rows)
+        changed = changed or counts["added"] > 0 or counts["updated"] > 0
+        print(
+            f"  ✓ {symbol}: {rows[-1]['close']} @ {rows[-1]['date']} "
+            f"({counts['added']} added, {counts['updated']} corrected, "
+            f"{counts['unchanged']} unchanged)"
+        )
+    return changed
 
 
 def upsert_record(history_list, record):
@@ -205,8 +241,10 @@ def main():
     print(f"Loading data from {path}")
     data = load_data(path)
 
-    today = datetime.now().strftime("%Y-%m-%d")
-    print(f"Fetching latest data ({today})\n")
+    # One clock for the whole run, so every symbol is judged complete against
+    # the same instant no matter how long the run takes.
+    observed_at = datetime.now(timezone.utc)
+    print(f"Fetching latest data (observed at {observed_at.isoformat()})\n")
 
     # Splits must be applied before the new bar is appended, otherwise a
     # post-split close lands next to un-adjusted history.
@@ -227,21 +265,11 @@ def main():
     etf_symbols = list(data["metadata"]["etfs"].keys())
     changed = changed_by_split
 
-    # Update metals
-    for symbol in metals_symbols:
-        record = fetch_latest(symbol)
-        if record:
-            result = upsert_record(data["metals"][symbol], record)
-            changed = changed or result in {"added", "updated"}
-            print(f"  ✓ {symbol}: {record['close']} ({result})")
+    print("=== Metals ===")
+    changed |= update_section(data["metals"], metals_symbols, observed_at)
 
-    # Update ETFs
-    for symbol in etf_symbols:
-        record = fetch_latest(symbol)
-        if record:
-            result = upsert_record(data["etfs"][symbol], record)
-            changed = changed or result in {"added", "updated"}
-            print(f"  ✓ {symbol}: {record['close']} ({result})")
+    print("\n=== ETFs ===")
+    changed |= update_section(data["etfs"], etf_symbols, observed_at)
 
     # Rebuild current prices
     current = build_current(data)
