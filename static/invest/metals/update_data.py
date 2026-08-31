@@ -86,17 +86,26 @@ def fetch_splits(symbol):
 
 
 def apply_new_splits(data):
-    """Back-adjust history for any split not yet applied. Returns True if changed."""
+    """Back-adjust history for any split not yet applied.
+
+    Returns (changed, failed_symbols). A non-empty failed_symbols must abort the
+    whole run: the 35% continuity guard in validate_data.py is only a net for
+    large splits, and it explicitly delegates small ones (3:2 and the like) to
+    this function. If a lookup failed and we appended the day's bar anyway, an
+    unadjusted split could slip past both layers.
+    """
     metadata = data["metadata"]
     applied = metadata.setdefault("lastSplitApplied", {})
     log = metadata.setdefault("splitAdjustments", [])
     changed = False
+    failed = []
 
     sections = {"metals": data["metals"], "etfs": data["etfs"]}
     for section_name, section in sections.items():
         for symbol, history in section.items():
             events = fetch_splits(symbol)
             if events is None:
+                failed.append(symbol)
                 continue
 
             seen = applied.get(symbol)
@@ -121,7 +130,7 @@ def apply_new_splits(data):
                 changed = True
                 print(f"  ⚠ {symbol}: {ratio:g}:1 split on {date} — back-adjusted {rows} rows")
 
-    return changed
+    return changed, failed
 
 
 def fetch_latest(symbol):
@@ -202,7 +211,14 @@ def main():
     # Splits must be applied before the new bar is appended, otherwise a
     # post-split close lands next to un-adjusted history.
     print("=== Checking for splits ===")
-    changed_by_split = apply_new_splits(data)
+    changed_by_split, split_failures = apply_new_splits(data)
+    if split_failures:
+        print(
+            f"\n❌ 拆分查询失败: {', '.join(split_failures)}\n"
+            "   本次不写入任何数据。未核对拆分就追加当日价格，会让未复权的拆分\n"
+            "   同时绕过本层与 validate_data.py 的 35% 跳变网。"
+        )
+        sys.exit(1)
     if not changed_by_split:
         print("  ✓ no new splits")
     print()
