@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-08-31",
+  "asOf": "2026-09-01",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -363,11 +363,11 @@
       "company": "PayPal Holdings Inc.",
       "expectedDate": "2026-10-27",
       "precision": "day",
-      "status": "estimated",
-      "session": "unspecified",
-      "sourceUrl": "https://www.wallstreethorizon.com/paypal-earnings-calendar",
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-08-19"
+      "status": "issuer-confirmed",
+      "session": "before-open",
+      "sourceUrl": "https://investor.pypl.com/news-and-events/events/event-details/2026/PayPals-Third-Quarter-2026-Earnings-Call/default.aspx",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-09-01"
     },
     {
       "reportId": "oklo-2026",
@@ -406,13 +406,13 @@
     {
       "reportId": "micron-2026",
       "company": "Micron Technology",
-      "expectedDate": "2026-09-23",
+      "expectedDate": "2026-09-30",
       "precision": "day",
-      "status": "recorded",
-      "session": "unspecified",
-      "sourceUrl": null,
-      "sourceType": "report-body",
-      "verifiedAt": "2026-08-01"
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://investors.micron.com/news/press-release/2026/Micron-Technology-to-Report-Fiscal-Fourth-Quarter-Results-on-September-30-2026/default.aspx",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-09-01"
     },
     {
       "reportId": "constellation-energy-2026",
@@ -539,13 +539,13 @@
     {
       "reportId": "cameco-2026",
       "company": "Cameco Corporation",
-      "expectedDate": "2026-07-31",
+      "expectedDate": "2026-10-30",
       "precision": "day",
-      "status": "stale",
+      "status": "issuer-confirmed",
       "session": "before-open",
-      "sourceUrl": null,
-      "sourceType": "report-body",
-      "verifiedAt": "2026-08-24"
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/0001009001/000119312526326768/d125942dex991.htm",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-09-01"
     },
     {
       "reportId": "mp-2026",
