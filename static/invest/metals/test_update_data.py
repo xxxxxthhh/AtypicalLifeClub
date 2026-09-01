@@ -105,15 +105,38 @@ class ApplyNewSplitsTests(unittest.TestCase):
         self.assertEqual(data["metadata"]["lastSplitApplied"], {"PPLT": "2026-05-18"})
         self.assertEqual(data["metadata"]["splitAdjustments"][0]["rowsAdjusted"], 1)
 
-    def test_already_applied_split_is_idempotent(self):
+    def test_the_cursor_cannot_vouch_for_raw_history(self):
+        """A stored cursor says what we saw, never what the prices are.
+
+        This used to short-circuit the whole check, and that was the bypass: put
+        the history back on the pre-split scale, leave lastSplitApplied claiming
+        the split was handled, and the run reported nothing to do. The vendor's
+        own closes now decide every time, so the rollback is caught and repaired.
+        """
         self.stub(self.unadjusted_bundle())
         data = sample_data()
         data["metadata"]["lastSplitApplied"] = {"PPLT": "2026-05-18"}
         changed, failed = update_data.apply_new_splits(data)
 
+        self.assertTrue(changed)
+        self.assertEqual(failed, [])
+        self.assertEqual([r["close"] for r in data["etfs"]["PPLT"]], [17.903, 17.84])
+
+    def test_an_already_adjusted_series_is_left_alone(self):
+        """Re-running against correct data is a no-op, cursor or no cursor."""
+        self.stub(self.unadjusted_bundle())
+        data = sample_data()
+        data["etfs"]["PPLT"][0]["close"] = 17.903
+        data["metadata"]["lastSplitApplied"] = {"PPLT": "2026-05-18"}
+        changed, failed = update_data.apply_new_splits(data)
+
         self.assertFalse(changed)
         self.assertEqual(failed, [])
-        self.assertEqual([r["close"] for r in data["etfs"]["PPLT"]], [179.03, 17.84])
+        self.assertEqual([r["close"] for r in data["etfs"]["PPLT"]], [17.903, 17.84])
+        self.assertEqual(
+            [entry["state"] for entry in data["metadata"]["splitAdjustments"]],
+            ["applied"],
+        )
 
     def test_lookup_failure_is_reported_not_swallowed(self):
         self.stub(None)

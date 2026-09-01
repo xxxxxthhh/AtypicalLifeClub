@@ -132,17 +132,36 @@ def validate_continuity(history, symbol, known_splits, label):
             # rounding noise are irrelevant at this scale — closes carry 4
             # decimals, so the residual error is at most ~1e-5 relative, four
             # orders of magnitude inside a 0.35 bound. No epsilon fudge needed.
+            # The whitelist diagnoses; it never permits. The file's storage
+            # contract is split-adjusted closes, so a correctly maintained series
+            # has no jump here at all and never reaches this branch -- the entry
+            # sits inert as an audit record. Anything that does reach it is a
+            # broken state, and `ratio` only tells us which one:
+            #
+            #   residual ≈ 0        history is raw, the split was never applied
+            #   residual ≈ ratio²-1 history was adjusted twice over
+            #
+            # An earlier revision let the first case pass, reasoning that a jump
+            # of exactly 1/ratio - 1 was "explained". It is explained and still
+            # wrong: roll the history back to raw, leave the cursor alone, and
+            # the updater reports no work to do while the validator waves it
+            # through. Neither state may ship.
             residual = row["close"] * ratio / previous_close - 1
             if abs(residual) <= MAX_DAILY_MOVE:
-                continue
+                diagnosis = (
+                    f"看起来是历史从未回改（原始跳变恰好是 {(1 / ratio - 1) * 100:.1f}%）。"
+                    f"仓库存的必须是复权后价格，未回改的历史不得发布"
+                )
+            else:
+                diagnosis = (
+                    f"按该比例还原后仍有 {residual * 100:.1f}%，最常见的成因是历史被重复复权"
+                )
 
             fail(
-                f"{label}.{symbol} {prev['date']} → {row['date']} 单日变动 {move * 100:.1f}%，"
-                f"与 metadata.knownSplits 声明的 {ratio:g}:1 对不上："
-                f"按该比例还原后仍有 {residual * 100:.1f}%（阈值 ±{MAX_DAILY_MOVE * 100:.0f}%）。"
-                f"已回改的历史这一天根本不该有跳变，未回改的应恰好是 {(1 / ratio - 1) * 100:.1f}%；"
-                f"两者都不是，最常见的成因是历史被重复复权。"
-                f"白名单声明的是幅度，不是豁免——不要靠它消音。"
+                f"{label}.{symbol} {prev['date']} → {row['date']} 单日变动 {move * 100:.1f}%。"
+                f"该日在 metadata.knownSplits 里声明为 {ratio:g}:1，"
+                f"但已正确回改的历史这一天**根本不该有跳变**——{diagnosis}。"
+                f"白名单是审计记录，不是豁免；不要靠它消音。"
             )
 
         fail(

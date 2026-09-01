@@ -205,11 +205,17 @@ def apply_new_splits(data):
                 continue
             events, reference = bundle
 
-            # The cursor is a fast path, not the safety guarantee: when it says
-            # "done" we skip the check; when it is missing or stale the prices
-            # decide.
-            seen = applied.get(symbol)
-            pending = [(d, r) for d, r in events if seen is None or d > seen]
+            # Every event is classified against the vendor's own closes, every
+            # run. The cursor records what we have seen; it decides nothing.
+            #
+            # It used to short-circuit this loop, and that was the whole defence
+            # gone: restore the un-adjusted history, leave metadata.lastSplitApplied
+            # in place, and the run reported changed=False / failed=[] while the
+            # file sat two years out of scale. A stored field cannot vouch for the
+            # state of the data next to it -- only the prices can. Classifying
+            # unconditionally also catches the splits too small to trip the 35%
+            # continuity guard, such as 5:4, which no threshold will ever see.
+            pending = list(events)
             if not pending:
                 continue
 
@@ -300,6 +306,17 @@ def fetch_recent(symbol, observed_at, history):
         return None
 
 
+def window_is_plausible(history, rows):
+    """An empty window is only believable for a symbol we hold nothing for.
+
+    These symbols trade every weekday and we ask for at least a fortnight, so a
+    successful-but-empty answer for a series with years of history is a vendor
+    hiccup wearing the costume of a quiet market. Saying "no completed sessions"
+    and moving on is precisely how a failure used to pass for a normal run.
+    """
+    return bool(rows) or not history
+
+
 def apply_rows(history, rows):
     """Upsert every row into `history`, returning a tally of the outcomes."""
     counts = {"added": 0, "updated": 0, "unchanged": 0, "skipped": 0}
@@ -346,9 +363,14 @@ def update_section(section, symbols, observed_at):
         if rows is None:
             failed.append(symbol)
             continue
+        if not window_is_plausible(history, rows):
+            print(
+                f"  ✗ {symbol}: source returned no completed sessions for a series "
+                f"that already holds {len(history)} of them"
+            )
+            failed.append(symbol)
+            continue
         if not rows:
-            # A successful response really can be empty; it just cannot be
-            # assumed to be, which is why only this branch may reach it.
             print(f"  - {symbol}: source returned no completed sessions")
             continue
 

@@ -30,12 +30,14 @@ class ContinuityValidationTests(unittest.TestCase):
                     history(179.03, 17.90, 17.42), "PPLT", {}, "etfs"
                 )
 
-    def test_declared_jump_passes(self):
+    def test_a_declared_split_does_not_license_the_jump(self):
+        """The whitelist diagnoses; it never permits. Raw history still fails."""
         known = {("PPLT", "2026-05-18"): 10.0}
         with redirect_stdout(StringIO()):
-            validate_data.validate_continuity(
-                history(179.03, 17.90, 17.42), "PPLT", known, "etfs"
-            )
+            with self.assertRaises(SystemExit):
+                validate_data.validate_continuity(
+                    history(179.03, 17.90, 17.42), "PPLT", known, "etfs"
+                )
 
     def test_ordinary_move_passes(self):
         with redirect_stdout(StringIO()):
@@ -70,7 +72,7 @@ class SplitMagnitudeTests(unittest.TestCase):
         with redirect_stdout(captured):
             with self.assertRaises(SystemExit):
                 validate_data.validate_continuity(history(*closes), symbol, known, "etfs")
-        self.assertIn("对不上", captured.getvalue())
+        self.assertIn("根本不该有跳变", captured.getvalue())
         return captured.getvalue()
 
     def test_back_adjusted_history_passes(self):
@@ -80,12 +82,16 @@ class SplitMagnitudeTests(unittest.TestCase):
                 history(17.903, 17.84, 17.42), "PPLT", self.PPLT, "etfs"
             )
 
-    def test_raw_split_jump_at_declared_ratio_passes(self):
-        """Un-back-adjusted history: -90.04%, exactly what 10:1 predicts."""
-        with redirect_stdout(StringIO()):
-            validate_data.validate_continuity(
-                history(179.03, 17.84, 17.42), "PPLT", self.PPLT, "etfs"
-            )
+    def test_raw_split_jump_fails_even_at_the_declared_ratio(self):
+        """-90.04% is exactly what 10:1 predicts, and still must not ship.
+
+        The file stores split-adjusted closes; raw history is a broken state, not
+        an explained one. Letting it pass was the second half of the bypass: roll
+        the history back to raw, leave metadata.lastSplitApplied alone, and the
+        updater found nothing to do while the validator agreed.
+        """
+        message = self.assert_fails_on_magnitude((179.03, 17.84, 17.42), "PPLT", self.PPLT)
+        self.assertIn("从未回改", message)
 
     def test_double_adjusted_jump_fails(self):
         """The hole this closes: +896.48% waved through by a whitelisted date."""
@@ -101,11 +107,10 @@ class SplitMagnitudeTests(unittest.TestCase):
         self.assert_fails_on_magnitude((89.515, 17.84, 17.42), "PPLT", self.PPLT)
 
     def test_reverse_split_is_handled_symmetrically(self):
-        """ratio < 1 (a 1:10 reverse split) multiplies instead of divides."""
-        with redirect_stdout(StringIO()):
-            validate_data.validate_continuity(
-                history(1.7903, 17.903, 17.42), "PPLT", {("PPLT", "2026-05-18"): 0.1}, "etfs"
-            )
+        """ratio < 1 (a 1:10 reverse split): raw history fails the same way."""
+        self.assert_fails_on_magnitude(
+            (1.7903, 17.903, 17.42), "PPLT", {("PPLT", "2026-05-18"): 0.1}
+        )
 
 
 class KnownSplitsMetadataTests(unittest.TestCase):

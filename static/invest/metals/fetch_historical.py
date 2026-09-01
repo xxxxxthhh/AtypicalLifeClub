@@ -99,6 +99,39 @@ def exchange_timezone(result):
         return ZoneInfo(DEFAULT_EXCHANGE_TIMEZONE)
 
 
+class IncompleteChartResponse(Exception):
+    """The vendor answered 200 but the payload has holes inside its own range.
+
+    A null close on an interior timestamp is not "that day did not trade" -- the
+    vendor put the timestamp there, so it believes the session exists. Treating
+    the hole as absence is what lets reconcile_window() delete a locally correct
+    row: ask for [08-27, 08-28, 08-31] with a null on 08-28 and the good 08-28
+    close gets removed. A trailing null is different and expected: that is the
+    session still in progress.
+    """
+
+
+def interior_gap_dates(result):
+    """Dates the payload lists but leaves without a usable close, ignoring the tail."""
+    tz = exchange_timezone(result)
+    timestamps = result.get("timestamp") or []
+    quotes = (result.get("indicators") or {}).get("quote") or [{}]
+    closes = (quotes[0] if quotes else {}).get("close") or []
+
+    if len(timestamps) != len(closes):
+        return [f"<timestamp/close length mismatch: {len(timestamps)} vs {len(closes)}>"]
+
+    last_usable = max(
+        (i for i, close in enumerate(closes) if is_finite_number(close)),
+        default=-1,
+    )
+    return [
+        datetime.fromtimestamp(ts, tz).strftime("%Y-%m-%d")
+        for i, (ts, close) in enumerate(zip(timestamps, closes))
+        if i < last_usable and not is_finite_number(close)
+    ]
+
+
 def parse_chart_rows(result):
     """Parse a chart result into ascending [{date, close, volume}] records."""
     tz = exchange_timezone(result)
@@ -175,6 +208,11 @@ def completed_rows(symbol, rows, observed_at, tz=None):
 def fetch_daily_rows(symbol, days, observed_at=None):
     """Completed daily bars for `symbol` over the last `days` calendar days."""
     result = fetch_chart_result(symbol, days)
+    gaps = interior_gap_dates(result)
+    if gaps:
+        raise IncompleteChartResponse(
+            f"{symbol}: vendor payload has interior gaps at {', '.join(gaps)}"
+        )
     rows = parse_chart_rows(result)
     return completed_rows(
         symbol,
