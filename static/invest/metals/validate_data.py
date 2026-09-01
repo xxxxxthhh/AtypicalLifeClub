@@ -90,7 +90,8 @@ def parse_known_splits(metadata):
 
 
 def validate_continuity(history, symbol, known_splits, label):
-    """Fail on any undeclared single-day move larger than MAX_DAILY_MOVE."""
+    """Fail on any single-day move larger than MAX_DAILY_MOVE that no declared
+    split explains at the declared magnitude."""
     for prev, row in zip(history, history[1:]):
         previous_close = prev["close"]
         if previous_close == 0:
@@ -100,8 +101,49 @@ def validate_continuity(history, symbol, known_splits, label):
         if abs(move) <= MAX_DAILY_MOVE:
             continue
 
-        if (symbol, row["date"]) in known_splits:
-            continue
+        ratio = known_splits.get((symbol, row["date"]))
+        if ratio is not None:
+            # A whitelist entry names *which* corporate action happened, and its
+            # ratio fixes exactly how large the resulting jump must be. So divide
+            # the declared ratio back out: what remains has to be an ordinary
+            # trading day. The three reachable states, for a declared 10:1:
+            #
+            #   already back-adjusted  move ≈ that day's real move (-0.35% for
+            #                          PPLT 2026-05-18) — never reaches here at
+            #                          all, so the entry sits inert as an audit
+            #                          record, which is the file's normal state
+            #   not yet back-adjusted  move ≈ 1/ratio - 1 = -90.04%, and the
+            #                          residual collapses back to -0.35%
+            #   adjusted a second time move ≈ ratio - 1 = +896.48%, residual
+            #                          ≈ ratio² - 1 ≈ +9865%. Not ordinary.
+            #
+            # Testing the residual rather than mere (symbol, date) membership is
+            # the entire point of this branch. Membership alone let exactly the
+            # pollution this whitelist exists to document slip through: drop
+            # metadata.lastSplitApplied, let the updater re-divide PPLT
+            # 2026-05-15 a second time (17.903 → 1.7903), and the +896.48% jump
+            # was waved past because the entry said "a jump belongs here" while
+            # saying nothing about how big. A whitelist that declares a date but
+            # not a magnitude is a mute switch with extra steps.
+            #
+            # Reusing MAX_DAILY_MOVE as the residual bound introduces no new
+            # constant: once the declared split is removed, the day is held to
+            # precisely the standard every other day is held to. Float and
+            # rounding noise are irrelevant at this scale — closes carry 4
+            # decimals, so the residual error is at most ~1e-5 relative, four
+            # orders of magnitude inside a 0.35 bound. No epsilon fudge needed.
+            residual = row["close"] * ratio / previous_close - 1
+            if abs(residual) <= MAX_DAILY_MOVE:
+                continue
+
+            fail(
+                f"{label}.{symbol} {prev['date']} → {row['date']} 单日变动 {move * 100:.1f}%，"
+                f"与 metadata.knownSplits 声明的 {ratio:g}:1 对不上："
+                f"按该比例还原后仍有 {residual * 100:.1f}%（阈值 ±{MAX_DAILY_MOVE * 100:.0f}%）。"
+                f"已回改的历史这一天根本不该有跳变，未回改的应恰好是 {(1 / ratio - 1) * 100:.1f}%；"
+                f"两者都不是，最常见的成因是历史被重复复权。"
+                f"白名单声明的是幅度，不是豁免——不要靠它消音。"
+            )
 
         fail(
             f"{label}.{symbol} {prev['date']} → {row['date']} 单日变动 {move * 100:.1f}%"

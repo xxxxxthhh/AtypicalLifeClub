@@ -10,7 +10,7 @@ import urllib.request
 import time
 import sys
 import os
-from datetime import datetime, time as time_of_day, timezone
+from datetime import datetime, time as time_of_day, timedelta, timezone
 from zoneinfo import ZoneInfo
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -49,6 +49,12 @@ USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"
 FUTURES_SESSION_CLOSE = time_of_day(17, 0)
 EQUITY_SESSION_CLOSE = time_of_day(16, 0)
 DEFAULT_EXCHANGE_TIMEZONE = "America/New_York"
+
+# The bell is when trading stops, not when the vendor has published a settled
+# close; a bar read at the closing second can still carry a provisional print.
+# The scheduled run is hours past either cutoff (01:00 UTC is 21:00 ET), so this
+# buffer costs nothing in practice and only ever delays a bar by one day.
+PUBLICATION_BUFFER = timedelta(minutes=20)
 
 
 def is_finite_number(value):
@@ -160,7 +166,7 @@ def completed_rows(symbol, rows, observed_at, tz=None):
         if day.weekday() >= 5:
             continue
 
-        close_at = datetime.combine(day, closing_time, tzinfo=tz)
+        close_at = datetime.combine(day, closing_time, tzinfo=tz) + PUBLICATION_BUFFER
         if observed_at >= close_at:
             completed.append(row)
     return completed
@@ -183,31 +189,48 @@ def parse_split_events(result):
 
     Yahoo omits the `events` key entirely when the window holds no split, so an
     absent key is a genuine "no splits", not a parse failure.
+
+    A *present* event we cannot read is the opposite, and raises.  Skipping it
+    would report "no splits" for a symbol that just split, which is precisely
+    the silent-failure shape that let the 2026-05-18 PPLT/PALL splits through.
     """
     events = (result.get("events") or {}).get("splits") or {}
     parsed = []
-    for event in events.values():
+    for key, event in events.items():
         numerator = event.get("numerator")
         denominator = event.get("denominator")
         stamp = event.get("date")
-        if not (is_finite_number(numerator) and is_finite_number(denominator) and is_finite_number(stamp)):
-            continue
+        if not (is_finite_number(numerator) and is_finite_number(denominator)
+                and is_finite_number(stamp)):
+            raise ValueError(f"unreadable split event {key!r}: {event!r}")
         if float(denominator) <= 0 or float(numerator) <= 0:
-            continue
+            raise ValueError(f"nonsensical split ratio in event {key!r}: {event!r}")
         date = datetime.fromtimestamp(int(stamp), exchange_timezone(result)).strftime("%Y-%m-%d")
         parsed.append((date, float(numerator) / float(denominator)))
     return sorted(parsed)
 
 
-def fetch_yahoo_history(symbol, days, observed_at=None):
-    """Fetch daily close prices from Yahoo Finance chart API."""
+def fetch_history_and_splits(symbol, days, observed_at=None):
+    """One request, both answers: completed bars and the split events beside them.
+
+    The rebuild path deliberately tolerates a splits-parse failure that the
+    daily path refuses.  Here the rows are the product and a bad event must not
+    cost us the symbol's entire series; the cursor simply goes unseeded, and
+    update_data's anchor check then verifies the split against the data itself.
+    """
+    result = fetch_chart_result(symbol, days, events="splits")
+    rows = completed_rows(
+        symbol,
+        parse_chart_rows(result),
+        observed_at or datetime.now(timezone.utc),
+        exchange_timezone(result),
+    )
     try:
-        records = fetch_daily_rows(symbol, days, observed_at)
-        print(f"  ✓ {symbol}: {len(records)} days")
-        return records
+        splits = parse_split_events(result)
     except Exception as e:
-        print(f"  ✗ {symbol}: {e}")
-        return []
+        print(f"  ! {symbol}: split events unreadable ({e}); cursor left unseeded")
+        splits = None
+    return rows, splits
 
 
 def build_current(metals_data, etfs_data):
@@ -228,33 +251,112 @@ def build_current(metals_data, etfs_data):
     return current
 
 
+# Split bookkeeping that a rebuild must never silently drop.  `lastSplitApplied`
+# is update_data's fast path, `knownSplits` is the curated audit list, and
+# `splitAdjustments` is the running log; wiping any of them turns a stray full
+# rebuild into a loaded gun pointed at the next daily run.
+SPLIT_METADATA_KEYS = ("lastSplitApplied", "knownSplits", "splitAdjustments")
+
+
+def load_existing_metadata(path):
+    """The split bookkeeping already on disk, so a rebuild carries it forward."""
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            metadata = json.load(f).get("metadata") or {}
+    except (OSError, ValueError):
+        return {}
+    return {key: metadata[key] for key in SPLIT_METADATA_KEYS if key in metadata}
+
+
+def seed_split_cursors(carried, observed_splits):
+    """Mark every split the rebuilt series already reflects as applied.
+
+    Chart-API closes are split-adjusted at source, so a freshly rebuilt row is
+    post-split by construction and must not be back-adjusted again.  Seeding the
+    cursor here is what stops the next daily run from dividing two years of
+    history a second time.
+
+    A symbol whose events could not be read (None) is left unseeded rather than
+    guessed: update_data verifies against the data itself before it divides, so
+    an absent cursor is merely slower, never wrong.  Cursors only ever move
+    forward -- a rebuild must not walk one backwards.
+    """
+    seeded = dict(carried)
+    for symbol, events in observed_splits.items():
+        if not events:
+            continue
+        latest = max(date for date, _ratio in events)
+        if symbol not in seeded or latest > seeded[symbol]:
+            seeded[symbol] = latest
+    return seeded
+
+
 def main():
     output_path = sys.argv[1] if len(sys.argv) > 1 else os.path.join(SCRIPT_DIR, "data", "historical.json")
     print(f"Building historical data → {output_path}\n")
 
+    carried = load_existing_metadata(output_path)
+    if carried:
+        print(f"Carrying forward split metadata: {', '.join(sorted(carried))}\n")
+
+    observed_splits = {}
+    failures = []
+
+    def fetch_section(symbols):
+        section = {}
+        for symbol in symbols:
+            try:
+                rows, splits = fetch_history_and_splits(symbol, LOOKBACK_DAYS)
+                # A rebuild that finds nothing over two years has not found
+                # "no data", it has failed to ask properly.  Either way the
+                # empty list must never reach the file.
+                if not rows:
+                    raise ValueError(f"no completed sessions in {LOOKBACK_DAYS} days")
+            except Exception as e:
+                print(f"  ✗ {symbol}: {e}")
+                failures.append(symbol)
+            else:
+                print(f"  ✓ {symbol}: {len(rows)} days")
+                section[symbol] = rows
+                observed_splits[symbol] = splits
+            time.sleep(0.5)
+        return section
+
     print("=== Fetching Metals Spot Data ===")
-    metals_data = {}
-    for symbol in METALS:
-        metals_data[symbol] = fetch_yahoo_history(symbol, LOOKBACK_DAYS)
-        time.sleep(0.5)
+    metals_data = fetch_section(METALS)
 
     print("\n=== Fetching ETF Data ===")
-    etfs_data = {}
-    for symbol in ETFS:
-        etfs_data[symbol] = fetch_yahoo_history(symbol, LOOKBACK_DAYS)
-        time.sleep(0.5)
+    etfs_data = fetch_section(ETFS)
+
+    # Fail closed, exactly as update_data.py does.  Writing the symbols that did
+    # come back would erase two years of history for the one that did not, and
+    # an empty array is precisely the shape that looks like a legitimate value
+    # on the way past every downstream reader.
+    if failures:
+        print(
+            f"\n❌ 取数失败: {', '.join(failures)}\n"
+            "   本次不重建、不写入任何文件。把失败的标的写成空数组，等于一次\n"
+            "   抹掉它两年的历史，而且抹得像一个合法结果。"
+        )
+        sys.exit(1)
 
     current = build_current(metals_data, etfs_data)
 
+    metadata = {
+        "metals": METALS,
+        "etfs": ETFS,
+        "lookback_days": LOOKBACK_DAYS,
+        "last_updated": datetime.now().isoformat(),
+        "total_metals": len(METALS),
+        "total_etfs": len(ETFS),
+    }
+    metadata.update(carried)
+    metadata["lastSplitApplied"] = seed_split_cursors(
+        carried.get("lastSplitApplied") or {}, observed_splits
+    )
+
     result = {
-        "metadata": {
-            "metals": METALS,
-            "etfs": ETFS,
-            "lookback_days": LOOKBACK_DAYS,
-            "last_updated": datetime.now().isoformat(),
-            "total_metals": len(METALS),
-            "total_etfs": len(ETFS),
-        },
+        "metadata": metadata,
         "current": current,
         "metals": metals_data,
         "etfs": etfs_data,

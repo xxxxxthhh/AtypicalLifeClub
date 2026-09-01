@@ -14,6 +14,7 @@ import os
 from fetch_historical import (
     fetch_chart_result,
     fetch_daily_rows,
+    parse_chart_rows,
     parse_split_events,
 )
 
@@ -35,6 +36,23 @@ RECENT_WINDOW_DAYS = 14
 # Splits only matter for rows we actually store, and history is capped at
 # LOOKBACK_DAYS, so a split older than the oldest row would back-adjust nothing.
 SPLIT_LOOKBACK_DAYS = 730
+
+# A file staler than this is a rebuild job, not a catch-up job, and asking for
+# more than the history we keep would be pointless anyway.
+MAX_CATCHUP_DAYS = SPLIT_LOOKBACK_DAYS
+
+# Days of overlap kept when catching up, so the join between old and new rows is
+# re-read rather than merely abutted.
+CATCHUP_OVERLAP_DAYS = 3
+
+# How many rows before a split we compare against the vendor before touching
+# anything, and how far apart they may be.  The two hypotheses -- "already
+# adjusted" and "not yet adjusted" -- sit exactly `ratio` apart, and the
+# smallest real forward split (5:4) still separates them by 25%, so a 0.5% band
+# cannot straddle both.  Anything outside both bands means we do not understand
+# the data and must not divide it.
+SPLIT_ANCHOR_COUNT = 5
+SPLIT_ANCHOR_TOLERANCE = 0.005
 
 ALL_SYMBOLS = [
     "GC=F", "SI=F", "PL=F", "PA=F", "HG=F",
@@ -85,22 +103,82 @@ def normalize_record(record):
     }
 
 
-def fetch_splits(symbol):
-    """Return [(YYYY-MM-DD, ratio), ...] ascending, or None when unavailable.
+def fetch_split_bundle(symbol):
+    """Return (events, {date: close}) for `symbol`, or None when unavailable.
+
+    One request answers both questions, from one consistent snapshot: which
+    splits Yahoo knows about, and what Yahoo's (split-adjusted) closes are for
+    the dates we hold.  The second half is what lets us check a split against
+    the data instead of trusting a bookkeeping field.
 
     None means "could not ask" and must not be confused with "no splits": a
     silent failure here is exactly how the 2026-05-18 PPLT/PALL splits poisoned
-    two years of history.  Only a failed request or an unparseable response
-    yields None -- a well-formed response with no `events` key is Yahoo saying
-    the window holds no split, which is the same thing yfinance reported from
-    the same endpoint.
+    two years of history.  A well-formed response with no `events` key is Yahoo
+    saying the window holds no split; a response carrying an event we cannot
+    parse raises, and lands here as None.
     """
     try:
         result = fetch_chart_result(symbol, SPLIT_LOOKBACK_DAYS, events="splits")
-        return parse_split_events(result)
+        events = parse_split_events(result)
+        reference = {row["date"]: row["close"] for row in parse_chart_rows(result)}
+        return events, reference
     except Exception as e:
         print(f"  ✗ {symbol}: split lookup failed: {e}")
         return None
+
+
+def classify_split_state(history, date, ratio, reference, since=None):
+    """Decide from the prices themselves whether `date`'s split is already in.
+
+    Returns "applied", "pending", or None when the data supports neither answer.
+
+    `since` bounds the comparison below by the next split still waiting to be
+    processed.  Rows older than that one are a further ratio away from the
+    vendor's fully adjusted series, so mixing them in would make the anchors
+    contradict each other and sink an otherwise readable pair of stacked splits.
+
+    This is the whole idempotence guarantee.  The old code divided whenever a
+    cursor said it had not yet divided, so deleting `metadata.lastSplitApplied`
+    -- or restoring an older copy of the file, or a rebuild that dropped the
+    field -- made it divide a second time and turned PPLT's 2026-05-15 close
+    into 1.7903 against a 17.84 neighbour.  Reading the answer out of the rows
+    means repeating the run is harmless no matter what the metadata says.
+    """
+    earlier = [
+        row for row in history
+        if row["date"] < date and (since is None or row["date"] >= since)
+    ]
+    if not earlier:
+        # Nothing before the split to back-adjust; recording the cursor is the
+        # entire job.
+        return "applied"
+
+    anchors = []
+    for row in reversed(earlier):  # nearest the split first: densest coverage
+        vendor = reference.get(row["date"])
+        if vendor is None or not is_finite_number(vendor) or float(vendor) <= 0:
+            continue
+        if not is_finite_number(row.get("close")):
+            continue
+        anchors.append((float(row["close"]), float(vendor)))
+        if len(anchors) >= SPLIT_ANCHOR_COUNT:
+            break
+
+    if not anchors:
+        return None
+
+    verdicts = set()
+    for local, vendor in anchors:
+        if abs(local - vendor) <= SPLIT_ANCHOR_TOLERANCE * vendor:
+            verdicts.add("applied")
+        elif abs(local - vendor * ratio) <= SPLIT_ANCHOR_TOLERANCE * vendor * ratio:
+            verdicts.add("pending")
+        else:
+            return None
+
+    if len(verdicts) != 1:
+        return None
+    return verdicts.pop()
 
 
 def apply_new_splits(data):
@@ -121,47 +199,105 @@ def apply_new_splits(data):
     sections = {"metals": data["metals"], "etfs": data["etfs"]}
     for section_name, section in sections.items():
         for symbol, history in section.items():
-            events = fetch_splits(symbol)
-            if events is None:
+            bundle = fetch_split_bundle(symbol)
+            if bundle is None:
                 failed.append(symbol)
                 continue
+            events, reference = bundle
 
+            # The cursor is a fast path, not the safety guarantee: when it says
+            # "done" we skip the check; when it is missing or stale the prices
+            # decide.
             seen = applied.get(symbol)
-            for date, ratio in events:
-                if seen is not None and date <= seen:
-                    continue
+            pending = [(d, r) for d, r in events if seen is None or d > seen]
+            if not pending:
+                continue
+
+            # Newest split first.  The vendor's closes are adjusted for *every*
+            # split, so a row is only one ratio away from its reference once the
+            # later splits have been dealt with; walking backwards means each
+            # comparison has exactly one unknown, and it is what lets two
+            # stacked splits -- or one applied and one not -- resolve correctly.
+            aborted = False
+            descending = sorted(pending, reverse=True)
+            for position, (date, ratio) in enumerate(descending):
+                next_pending = descending[position + 1][0] if position + 1 < len(descending) else None
+                state = classify_split_state(history, date, ratio, reference, since=next_pending)
+                if state is None:
+                    print(
+                        f"  ✗ {symbol}: cannot tell whether the {ratio:g}:1 split on "
+                        f"{date} is already applied — refusing to adjust"
+                    )
+                    failed.append(symbol)
+                    aborted = True
+                    break
 
                 rows = 0
-                for row in history:
-                    if row["date"] < date:
-                        row["close"] = round(row["close"] / ratio, 4)
-                        rows += 1
+                if state == "pending":
+                    for row in history:
+                        if row["date"] < date:
+                            row["close"] = round(row["close"] / ratio, 4)
+                            rows += 1
+                    print(f"  ⚠ {symbol}: {ratio:g}:1 split on {date} — back-adjusted {rows} rows")
+                    changed = True
+                else:
+                    print(f"  ✓ {symbol}: {ratio:g}:1 split on {date} already in the data")
 
-                applied[symbol] = date
                 log.append({
                     "symbol": symbol,
                     "date": date,
                     "ratio": ratio,
                     "rowsAdjusted": rows,
+                    "state": state,
                     "appliedAt": datetime.now().isoformat(),
                 })
+
+            if aborted:
+                continue
+
+            cursor = max(date for date, _ratio in pending)
+            if applied.get(symbol) != cursor:
+                applied[symbol] = cursor
                 changed = True
-                print(f"  ⚠ {symbol}: {ratio:g}:1 split on {date} — back-adjusted {rows} rows")
 
     return changed, failed
 
 
-def fetch_recent(symbol, observed_at):
-    """Fetch every completed daily bar in the rolling window, oldest first.
+def window_days(history, observed_at):
+    """Calendar days to request: the rolling window, or enough to catch up.
 
-    Bars whose session has not closed yet are dropped upstream by
-    fetch_historical.completed_rows; see the reasoning there.
+    A fixed 14-day window can only correct rows inside itself, so a job that
+    stops for a month comes back and silently leaves a month-shaped hole -- the
+    same class of gap that cost the ETFs 2026-07-14 and 2026-08-03.  Asking from
+    the last date we hold (plus overlap, so the seam is re-read rather than just
+    abutted) means a long outage heals on the first run back.
+
+    TODO: this still only reconciles what the request covers.  A periodic
+    full-history audit against the vendor -- comparing every stored row, not
+    just the recent ones -- is the remaining gap; deliberately out of scope here.
+    """
+    if not history:
+        return MAX_CATCHUP_DAYS
+
+    last = datetime.strptime(history[-1]["date"], "%Y-%m-%d").date()
+    behind = (observed_at.date() - last).days + CATCHUP_OVERLAP_DAYS
+    return max(RECENT_WINDOW_DAYS, min(behind, MAX_CATCHUP_DAYS))
+
+
+def fetch_recent(symbol, observed_at, history):
+    """Completed bars covering `history`'s tail, or None when the request failed.
+
+    None and [] mean genuinely different things and the caller must be able to
+    tell them apart.  Collapsing a failed request into "no completed sessions"
+    is how a partial run used to look like a successful one: one symbol's fetch
+    dies, the rest write normally, the file saves, the workflow exits 0, and the
+    hole is only found months later.
     """
     try:
-        return fetch_daily_rows(symbol, RECENT_WINDOW_DAYS, observed_at)
+        return fetch_daily_rows(symbol, window_days(history, observed_at), observed_at)
     except Exception as e:
         print(f"  ✗ {symbol}: {e}")
-        return []
+        return None
 
 
 def apply_rows(history, rows):
@@ -172,23 +308,59 @@ def apply_rows(history, rows):
     return counts
 
 
+def reconcile_window(history, rows):
+    """Drop local rows the vendor does not have inside the range it just covered.
+
+    Upserting alone can only ever add or correct, so a row that should never
+    have existed -- a Sunday bar, a session written twice under the wrong date --
+    survives forever.  The deletion is bounded by the vendor's own first and last
+    returned dates: outside that closed interval we have no evidence, and in
+    particular a completed bar we stored last night sits *after* the last date a
+    mid-session run returns, so it is never at risk.
+    """
+    if not rows:
+        return 0
+
+    covered = {row["date"] for row in rows}
+    first, last = rows[0]["date"], rows[-1]["date"]
+    phantoms = {
+        row["date"] for row in history
+        if first <= row["date"] <= last and row["date"] not in covered
+    }
+    if phantoms:
+        history[:] = [row for row in history if row["date"] not in phantoms]
+    return len(phantoms)
+
+
 def update_section(section, symbols, observed_at):
-    """Refresh one section in place; True when any row was added or corrected."""
+    """Refresh one section in place.
+
+    Returns (changed, failed_symbols); a non-empty failed_symbols must abort the
+    run before anything is written.
+    """
     changed = False
+    failed = []
     for symbol in symbols:
-        rows = fetch_recent(symbol, observed_at)
+        history = section[symbol]
+        rows = fetch_recent(symbol, observed_at, history)
+        if rows is None:
+            failed.append(symbol)
+            continue
         if not rows:
-            print(f"  - {symbol}: no completed sessions in the last {RECENT_WINDOW_DAYS} days")
+            # A successful response really can be empty; it just cannot be
+            # assumed to be, which is why only this branch may reach it.
+            print(f"  - {symbol}: source returned no completed sessions")
             continue
 
-        counts = apply_rows(section[symbol], rows)
-        changed = changed or counts["added"] > 0 or counts["updated"] > 0
+        counts = apply_rows(history, rows)
+        removed = reconcile_window(history, rows)
+        changed = changed or counts["added"] > 0 or counts["updated"] > 0 or removed > 0
         print(
             f"  ✓ {symbol}: {rows[-1]['close']} @ {rows[-1]['date']} "
             f"({counts['added']} added, {counts['updated']} corrected, "
-            f"{counts['unchanged']} unchanged)"
+            f"{counts['unchanged']} unchanged, {removed} removed)"
         )
-    return changed
+    return changed, failed
 
 
 def upsert_record(history_list, record):
@@ -266,10 +438,21 @@ def main():
     changed = changed_by_split
 
     print("=== Metals ===")
-    changed |= update_section(data["metals"], metals_symbols, observed_at)
+    metals_changed, metals_failed = update_section(data["metals"], metals_symbols, observed_at)
 
     print("\n=== ETFs ===")
-    changed |= update_section(data["etfs"], etf_symbols, observed_at)
+    etfs_changed, etfs_failed = update_section(data["etfs"], etf_symbols, observed_at)
+
+    fetch_failures = metals_failed + etfs_failed
+    if fetch_failures:
+        print(
+            f"\n❌ 取数失败: {', '.join(fetch_failures)}\n"
+            "   本次不写入任何数据。只写成功的那部分会让失败的标的停在旧日期，\n"
+            "   而 workflow 仍然成功退出——ETF 的 07-14/08-03 缺口就是这样来的。"
+        )
+        sys.exit(1)
+
+    changed = changed or metals_changed or etfs_changed
 
     # Rebuild current prices
     current = build_current(data)
