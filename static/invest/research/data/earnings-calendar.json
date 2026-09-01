@@ -329,11 +329,11 @@
       "company": "NeoVolta",
       "expectedDate": "2026-08",
       "precision": "month",
-      "status": "estimated",
+      "status": "stale",
       "session": "not-applicable",
       "sourceUrl": null,
       "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-09-01"
     },
     {
       "reportId": "amd-2026",
