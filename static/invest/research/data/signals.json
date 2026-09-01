@@ -1729,7 +1729,8 @@
       "arista-2026"
     ],
     "monitoringRefs": [
-      "arista-2026:open-ethernet-vs-integrated"
+      "arista-2026:open-ethernet-vs-integrated",
+      "arista-2026:customer-concentration"
     ]
   },
   {
@@ -1779,7 +1780,9 @@
     ],
     "monitoringRefs": [
       "nrg-2026:data-center-contract-conversion",
-      "nrg-2026:leverage-buyback-discipline"
+      "nrg-2026:leverage-buyback-discipline",
+      "nrg-2026:ercot-pjm-capacity-pricing",
+      "nrg-2026:retail-vivint-margin"
     ]
   },
   {
