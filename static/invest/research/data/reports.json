@@ -1376,11 +1376,13 @@
           "en": "PJM data-center capacity process, Texas reliability scarcity or capacity auctions lift realized capacity value"
         },
         "latest": {
-          "zh": "PJM 将数据中心容量采购提前至 2026-09；T.H. Wharton / TEF 项目推进",
-          "en": "PJM moved data-center capacity procurement to Sep 2026; T.H. Wharton / TEF projects advancing"
+          "zh": "2026-08-04 Q2 2026 财报：East 分部调整后 EBITDA $469M（2025Q2 $99M），公司归因于 LS Power 收购机组与 CPower 的贡献*以及*自有机组容量价格上升；合并层面同样明述 East 已实现容量价格上升。触发条款中「容量拍卖推升已实现容量价值」一支由发行人自述坐实，故评 within；但增幅与收购贡献混合披露，价格部分无法单独拆出。Texas 一支方向相反：调整后 EBITDA $381M（2025Q2 $512M），供暖度日数同比约 −30% 的暖冬压低零售负荷、供电成本上升，未见 reliability scarcity 溢价。415MW T.H. Wharton 已投入商业运营，其余两个 Texas Energy Fund 项目按期按预算。PJM 数据中心容量采购仍定于 2026-09，尚未产生结果。",
+          "en": "Q2 2026 results (2026-08-04): East segment adjusted EBITDA was $469M against $99M in Q2 2025, which the company attributes to the LS Power generation assets and CPower *and* to higher capacity prices for owned generation; the consolidated discussion likewise cites higher realized capacity prices in the East. The trigger's 'capacity auctions lift realized capacity value' leg is confirmed in the issuer's own words, so the reading is within; the increase is nonetheless co-attributed to the acquisition, so the price contribution cannot be isolated. Texas ran the other way: adjusted EBITDA of $381M against $512M in Q2 2025, with heating degree days down about 30% year over year cutting retail load and higher supply costs, and no reliability-scarcity premium. The 415 MW T.H. Wharton facility reached commercial operations and the remaining two Texas Energy Fund projects are on time and on budget. PJM's data-center capacity procurement remains set for September 2026 and has not yet produced a result."
         },
-        "nextCheck": "2026-09 PJM / quarterly ERCOT updates",
-        "nextCheckDate": "2026-09"
+        "nextCheck": "2026-09 PJM 数据中心容量采购结果 / PJM September data-center capacity procurement result",
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-08-04"
       },
       {
         "id": "retail-vivint-margin",
@@ -1395,11 +1397,13 @@
           "en": "retail load, supply costs, customer count and Vivint monthly recurring service margin stay resilient or weaken"
         },
         "latest": {
-          "zh": "Q1 Vivint adjusted EBITDA $294M，同比 +$14M；Texas 暖冬压低 retail load",
-          "en": "Q1 Vivint adjusted EBITDA $294M, +$14M YoY; mild Texas winter lowered retail load"
+          "zh": "2026-08-04 Q2 2026 财报：Vivint Smart Home 调整后 EBITDA $301M（2025Q2 $259M，+$42M），上半年 $595M（$539M，+$56M），公司归因于新增客户数增加与单客户月度经常性服务毛利提升——客户数与 Vivint margin 两个变量呈韧性。同一季 Texas 分部调整后 EBITDA $381M（$512M，−$131M），公司归因于供电成本上升、暖冬（供暖度日数同比约 −30%）压低零售负荷、以及新建机组的运营费用——零售负荷与供电成本两个变量转弱。触发条款点名的四个变量分列两侧，无一侧在全集上成立，故评 unclear。原读数引用的 Q1 Vivint 调整后 EBITDA $294M 已由本季数据取代。",
+          "en": "Q2 2026 results (2026-08-04): Vivint Smart Home adjusted EBITDA was $301M against $259M in Q2 2025 (+$42M), and $595M against $539M for the first six months (+$56M), which the company attributes to higher new customer adds and an increase in monthly recurring service margin per customer - the customer-count and Vivint-margin variables both read resilient. In the same quarter the Texas segment posted adjusted EBITDA of $381M against $512M (-$131M), attributed to higher supply costs, mild winter weather with heating degree days down about 30% year over year cutting retail load, and operating expenses for new generation assets - the retail-load and supply-cost variables both read weaker. The four variables the trigger names split across both sides with neither holding across the set, so the reading is unclear. The Q1 Vivint adjusted EBITDA of $294M cited in the prior reading is superseded by this quarter's figures."
         },
-        "nextCheck": "2026-Q2 retail and Vivint segment results",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "2026-Q3 财报的零售与 Vivint 分部结果 / Q3 2026 retail and Vivint segment results",
+        "nextCheckDate": "2026-11",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-04"
       },
       {
         "id": "leverage-buyback-discipline",
@@ -1912,11 +1916,13 @@
           "en": "the two anonymous end customers (~42% combined, 26%/16%) rise further or order cadence swings"
         },
         "latest": {
-          "zh": "FY2025 两大客户合计约 42% 收入",
-          "en": "two customers were ~42% of FY2025 revenue"
+          "zh": "2026-08-05 提交的 2026 Q2 10-Q（季度截至 2026-06-30）未披露季度客户集中度：风险因素只重述年度口径——一家终端客户占总收入 16%、15%、21%，另一家占 26%、20%、18%，分别对应 2025、2024、2023 财年，与已发布的 FY2025 合计约 42%（26%/16%）一致；财务报表附注无集中度专节，Q2 无更新的两大客户占比。触发条款第一支「占比进一步上升」本季不可观测。第二支「订单节奏骤变」可观测且被证伪：Q2 收入 $3,035.7M，同比 +37.7%、环比 +12.1%，Q3 指引约 $3.3B。析取触发中有一支不可观测，故评 unclear。",
+          "en": "The Q2 2026 Form 10-Q filed 2026-08-05 (quarter ended 2026-06-30) discloses no quarterly customer concentration: the risk factor restates only the annual figures - one end customer at 16%, 15% and 21% of total revenue and the other at 26%, 20% and 18% for fiscal 2025, 2024 and 2023 - consistent with the published roughly 42% combined (26%/16%) for FY2025, and the financial-statement notes contain no concentration section, so there is no updated two-customer share for Q2. The trigger's first leg, the share rising further, is not observable this quarter. The second leg, an abrupt swing in order cadence, is observable and falsified: Q2 revenue was $3,035.7M, up 37.7% year over year and 12.1% sequentially, with Q3 guided to about $3.3B. One leg of the disjunction is unobservable, so the reading is unclear."
         },
-        "nextCheck": "2026-Q2 财报客户披露 / Q2 customer disclosures",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "Q3 2026 10-Q 与 FY2026 10-K 的年度集中度披露 / the Q3 2026 Form 10-Q and the annual concentration disclosure in the FY2026 Form 10-K",
+        "nextCheckDate": "2026-11",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-05"
       },
       {
         "id": "open-ethernet-vs-integrated",
