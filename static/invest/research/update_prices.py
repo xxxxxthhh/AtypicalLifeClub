@@ -165,7 +165,13 @@ def report_string(report: Report, field: str) -> str:
     return value
 
 
-def build_ok_entry(report: Report, quotes: list[PriceQuote], attempted_at: date, currency: str | None) -> PriceEntry:
+def build_ok_entry(
+    report: Report,
+    quotes: list[PriceQuote],
+    attempted_at: date,
+    currency: str | None,
+    fresh_through: date | None = None,
+) -> PriceEntry:
     report_id = report_string(report, "id")
     symbol = report_string(report, "priceSymbol")
     price_as_of = parse_day(report.get("priceAsOf"), f"{report_id}.priceAsOf")
@@ -178,10 +184,11 @@ def build_ok_entry(report: Report, quotes: list[PriceQuote], attempted_at: date,
     base = max(base_quotes, key=lambda quote: quote.date)
     latest = max(quotes, key=lambda quote: quote.date)
     change_pct = round((latest.close - base.close) / base.close * 100, 1)
+    status = "ok" if latest.date == (fresh_through or attempted_at) else "carried-forward"
     entry: PriceEntry = {
         "reportId": report_id,
         "symbol": symbol,
-        "status": "ok",
+        "status": status,
         "attemptedAt": iso_day(attempted_at),
         "baseDate": iso_day(base.date),
         "basePrice": round(base.close, 4),
@@ -253,6 +260,25 @@ def market_session(symbol: str) -> MarketSession:
     return DEFAULT_MARKET_SESSION
 
 
+def latest_completed_calendar_day(symbol: str, observed_at: datetime) -> date:
+    """Return the local calendar day whose regular close should be available.
+
+    This is intentionally conservative around weekends and exchange holidays: if
+    a feed still returns an older session, the row is carried-forward rather than
+    presented as fresh.  It may be reclassified on the next completed session.
+    """
+    if observed_at.tzinfo is None or observed_at.utcoffset() is None:
+        raise PriceDataUnavailable("observed_at must be timezone-aware")
+
+    session = market_session(symbol)
+    local_observation = observed_at.astimezone(ZoneInfo(session.timezone_name))
+    expected_day = local_observation.date()
+    local_time = local_observation.timetz().replace(tzinfo=None)
+    if local_time < session.regular_close:
+        expected_day -= timedelta(days=1)
+    return expected_day
+
+
 def completed_quotes(symbol: str, quotes: list[PriceQuote], observed_at: datetime) -> list[PriceQuote]:
     """Exclude same-day bars until that symbol's regular market has closed.
 
@@ -318,8 +344,14 @@ def build_price_entries(
         try:
             quotes, currency = fetch_quotes(symbol, price_as_of - timedelta(days=10), attempted_at)
             quotes = completed_quotes(symbol, quotes, observed_at)
-            entry = build_ok_entry(report, quotes, attempted_at, currency)
-            print(f"  OK {symbol}: {entry['lastClose']} ({entry['lastDate']})")
+            entry = build_ok_entry(
+                report,
+                quotes,
+                attempted_at,
+                currency,
+                fresh_through=latest_completed_calendar_day(symbol, observed_at),
+            )
+            print(f"  {str(entry['status']).upper()} {symbol}: {entry['lastClose']} ({entry['lastDate']})")
         except Exception as exc:
             failure_count += 1
             entry = build_failure_entry(report_id, symbol, attempted_at, previous.get(report_id))

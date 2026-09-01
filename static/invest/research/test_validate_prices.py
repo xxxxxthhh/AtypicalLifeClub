@@ -81,6 +81,52 @@ class ValidatePricesTests(unittest.TestCase):
             with self.assertRaises(SystemExit):
                 validate_prices.validate_prices_data(data, reports)
 
+    def test_rejects_ok_status_when_last_close_is_older_than_attempt(self):
+        reports = [{"id": "sk-hynix-2026", "priceSymbol": "000660.KS"}]
+        data = {
+            "generatedAt": "2026-08-31",
+            "entries": [
+                {
+                    "reportId": "sk-hynix-2026",
+                    "symbol": "000660.KS",
+                    "status": "ok",
+                    "attemptedAt": "2026-08-31",
+                    "baseDate": "2026-08-28",
+                    "basePrice": 1_653_000.0,
+                    "lastDate": "2026-08-28",
+                    "lastClose": 1_653_000.0,
+                    "changePct": 0.0,
+                    "currency": "KRW",
+                }
+            ],
+        }
+
+        with redirect_stdout(StringIO()):
+            with self.assertRaises(SystemExit):
+                validate_prices.validate_prices_data(data, reports)
+
+    def test_accepts_carried_forward_status_for_older_close(self):
+        reports = [{"id": "sk-hynix-2026", "priceSymbol": "000660.KS"}]
+        data = {
+            "generatedAt": "2026-08-31",
+            "entries": [
+                {
+                    "reportId": "sk-hynix-2026",
+                    "symbol": "000660.KS",
+                    "status": "carried-forward",
+                    "attemptedAt": "2026-08-31",
+                    "baseDate": "2026-08-28",
+                    "basePrice": 1_653_000.0,
+                    "lastDate": "2026-08-28",
+                    "lastClose": 1_653_000.0,
+                    "changePct": 0.0,
+                    "currency": "KRW",
+                }
+            ],
+        }
+
+        validate_prices.validate_prices_data(data, reports)
+
 
 if __name__ == "__main__":
     unittest.main()

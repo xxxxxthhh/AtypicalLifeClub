@@ -100,6 +100,11 @@ def validate_priced_entry(entry: dict[str, Json], label: str) -> None:
         fail(f"{label}.baseDate must be <= lastDate")
     if last_date > attempted_at:
         fail(f"{label}.lastDate must be <= attemptedAt")
+    status = entry.get("status")
+    if status == "ok" and last_date != attempted_at:
+        fail(f"{label} status=ok requires lastDate == attemptedAt")
+    if status == "carried-forward" and last_date >= attempted_at:
+        fail(f"{label} status=carried-forward requires lastDate < attemptedAt")
 
     base_price = require_positive_number(entry.get("basePrice"), f"{label}.basePrice")
     last_close = require_positive_number(entry.get("lastClose"), f"{label}.lastClose")

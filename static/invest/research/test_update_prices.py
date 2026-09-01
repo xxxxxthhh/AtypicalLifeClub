@@ -53,6 +53,26 @@ class PriceEntryTests(unittest.TestCase):
         self.assertEqual(entry["lastDate"], "2026-07-01")
         self.assertEqual(entry["changePct"], 5.0)
 
+    def test_marks_a_fetched_older_close_as_carried_forward(self):
+        report = {
+            "id": "sk-hynix-2026",
+            "priceSymbol": "000660.KS",
+            "priceAsOf": "2026-08-28",
+        }
+        quotes = [update_prices.PriceQuote(date=date(2026, 8, 28), close=1_653_000.0)]
+
+        entry = update_prices.build_ok_entry(
+            report,
+            quotes,
+            date(2026, 8, 31),
+            "KRW",
+            fresh_through=date(2026, 8, 31),
+        )
+
+        self.assertEqual(entry["status"], "carried-forward")
+        self.assertEqual(entry["attemptedAt"], "2026-08-31")
+        self.assertEqual(entry["lastDate"], "2026-08-28")
+
     def test_entry_is_stale_when_last_close_lags_attempt_by_more_than_limit(self):
         entry = {
             "reportId": "nebius-2026",
@@ -96,6 +116,26 @@ class CompletedSessionTests(unittest.TestCase):
     def test_naive_observation_time_fails_closed(self):
         with self.assertRaisesRegex(update_prices.PriceDataUnavailable, "timezone-aware"):
             update_prices.completed_quotes("CRM", self.quotes, datetime(2026, 8, 28, 0, 56))
+
+    def test_expected_fresh_day_uses_each_markets_local_close(self):
+        observed_at = datetime(2026, 8, 31, 22, 0, tzinfo=timezone.utc)
+
+        self.assertEqual(
+            update_prices.latest_completed_calendar_day("CRM", observed_at),
+            date(2026, 8, 31),
+        )
+        self.assertEqual(
+            update_prices.latest_completed_calendar_day("000660.KS", observed_at),
+            date(2026, 8, 31),
+        )
+
+    def test_expected_fresh_day_stays_on_prior_day_before_asian_close(self):
+        observed_at = datetime(2026, 9, 1, 2, 0, tzinfo=timezone.utc)
+
+        self.assertEqual(
+            update_prices.latest_completed_calendar_day("000660.KS", observed_at),
+            date(2026, 8, 31),
+        )
 
     def test_entry_is_stale_when_price_status_is_missing(self):
         entry = {
