@@ -1,6 +1,6 @@
-# Atypical Life Club Blog
+# Atypical Life Club
 
-一个使用 Hugo 构建、部署在 Cloudflare Pages 的个人静态博客。
+使用 Hugo 构建、部署在 Cloudflare Pages 的个人站点。除主博客外，`/invest/` 下还挂着三个静态子应用（研究中心、汇率看板、金属看板），它们的数据由仓库内的 Python 脚本 + GitHub Actions 维护。
 
 ## 🚀 快速开始
 
@@ -14,7 +14,13 @@ hugo server -D
 hugo server
 ```
 
-访问 [http://localhost:1313](http://localhost:1313) 查看博客。
+访问 [http://localhost:1313](http://localhost:1313)。子应用同样走这个服务器，例如 `/invest/research/`。
+
+首次克隆需要拉取主题 submodule：
+
+```bash
+git submodule update --init --recursive
+```
 
 ### 新建文章
 
@@ -44,7 +50,7 @@ cover:
 
 ### 添加图片
 
-将图片放入 `static/images/` 目录，然后在文章中引用：
+将图片放入 `static/images/`，然后在文章中引用：
 
 ```markdown
 ![图片描述](/images/your-image.jpg)
@@ -54,154 +60,181 @@ cover:
 
 ```
 .
-├── content/
-│   ├── posts/          # 博客文章
-│   ├── archives.md     # 归档页面
-│   └── search.md       # 搜索页面
+├── content/                      # 博客正文
+│   ├── posts/
+│   ├── about.md / archives.md / search.md
 ├── static/
-│   ├── images/         # 静态图片资源
-│   ├── invest/         # Invest 工作台（/invest/）
-│   │   ├── research/   # 研究中心（/invest/research/）
-│   │   └── currency/   # 汇率看板（/invest/currency/）
-│   ├── research/       # 旧路径兼容跳转（-> /invest/research/）
-│   ├── currency/       # 旧路径兼容跳转（-> /invest/currency/）
-│   └── shared/         # 跨模块共享脚本
-├── .github/workflows/
-│   └── update-currency-data.yml # 汇率数据自动更新
-├── themes/
-│   └── PaperMod/       # 主题（作为 Git submodule）
-├── hugo.toml           # Hugo 配置文件
-└── public/             # 构建产物（由 CI 生成，已 gitignore）
+│   ├── images/                   # 静态图片资源
+│   ├── shared/                   # 跨模块共享脚本（theme-switcher.js）
+│   ├── invest/
+│   │   ├── index.html            # 重定向到 /invest/research/
+│   │   ├── styles.css / theme-adapter.css
+│   │   ├── research/             # 研究中心（详见该目录 README.md）
+│   │   │   ├── index.html, app.js, tracking-rules.js
+│   │   │   ├── coverage-map.html            # AI 基建覆盖地图
+│   │   │   ├── monitoring-dashboard.html    # 监控仪表盘 + 交叉校验雷达
+│   │   │   ├── verdict-ledger.html          # 判断台账
+│   │   │   ├── reviews/                     # 半年度复盘（独立于研报列表）
+│   │   │   ├── reports/                     # 详情页模板 + 模块解析器
+│   │   │   ├── data/*.json                  # 见下方「数据文件」
+│   │   │   ├── feed.xml                     # 由 generate_feed.py 生成，需与数据同步
+│   │   │   ├── validate_*.py / update_*.py / test_*.py
+│   │   │   └── *.md                         # 中英文报告正文
+│   │   ├── currency/             # 汇率看板（详见该目录 README.md）
+│   │   └── metals/               # 金属看板（index.html + js/css + data + 脚本）
+│   ├── research/                 # 旧路径兼容跳转（-> /invest/research/）
+│   └── currency/                 # 旧路径兼容跳转（-> /invest/currency/）
+├── docs/                         # 设计与自动化规格文档（见「维护文档索引」）
+├── .github/workflows/            # CI 与 3 条数据自动化流水线
+├── themes/PaperMod/              # 主题（Git submodule）
+├── DESIGN.md                     # 设计系统（配色 / 字体 / 组件约束）
+├── hugo.toml
+├── hugo_stats.json               # Hugo writeStats 产物，已纳入版本管理
+└── public/                       # 构建产物（gitignore）
 ```
 
 ## 🧩 模块说明
 
-- `/`：主博客（Hugo + PaperMod）
-- `/invest/`：Invest 统一入口（研究与追踪模块导航）
-- `/invest/research/`：研究中心（数据源 `static/invest/research/data/reports.json`）
-- `/invest/currency/`：汇率看板（数据源 `static/invest/currency/data/historical.json`）
-- `/research/`、`/currency/`：兼容旧链接，自动重定向到 Invest 子路径
+| 路径 | 说明 |
+| --- | --- |
+| `/` | 主博客（Hugo + PaperMod） |
+| `/invest/` | 只做重定向，直接跳到 `/invest/research/` |
+| `/invest/research/` | 研究中心：报告列表、详情页、覆盖地图、监控仪表盘、判断台账、半年度复盘、RSS |
+| `/invest/currency/` | 汇率看板 |
+| `/invest/metals/` | 金属看板（贵金属 / 工业金属期货与相关 ETF） |
+| `/research/`、`/currency/` | 兼容旧链接，自动重定向到 `/invest/` 子路径 |
 
-## 🤖 Agent 操作手册（重点）
+研究中心的数据文件都在 `static/invest/research/data/`：
 
-下面是给后续 agent 的最小可执行流程。
+| 文件 | 内容 | 维护方式 |
+| --- | --- | --- |
+| `reports.json` | 报告卡片元数据（唯一列表入口） | 人工 |
+| `coverage-map.json` | AI 基建层级 / 角色 / 交叉校验规则 | 人工 |
+| `signals.json` | 交叉校验信号日志（append-only） | 人工 |
+| `benchmarks.json` | 基准标的配置 | 人工 |
+| `earnings-calendar.json` | 财报日期与事件时区 | 人工 |
+| `prices.json` | 价格台账 | `update-research-prices.yml` |
+| `verdicts.json` | 判断台账 | `update-research-prices.yml` |
+| `calibration-history.json` | 校准历史 | `update-research-prices.yml` |
+| `earnings-tasks.json` | 每日财报待办队列 | `update-research-prices.yml` |
 
-### A. 更新研究报告（推荐流程）
+## 🤖 维护与更新流程
 
-1. 新增或更新 Markdown 正文  
-   文件位置：`static/invest/research/*.md`
-2. 更新首页卡片元数据  
-   文件位置：`static/invest/research/data/reports.json`  
-   字段至少包括：`id`、`company`、`ticker`、`title`、`titleEn`、`summary`、`category`、`date`、`lastUpdate`、`file`、`markdownFiles`、`tags`
-   - `file` 统一写：`/invest/research/reports/view.html?id=<id>`
-   - `markdownFiles` 统一写：`{ "zh": "/invest/research/<zh-report>.md", "en": "/invest/research/<en-report>.md" }`
-   - `markdownFiles.zh` 与 `markdownFiles.en` 必须是两个不同文件，且都要是完整正文（不能只写摘要版）
-3. 双语存放规范（必须）  
-   - 文件放在：`static/invest/research/`
-   - 命名建议：`<公司中文名>_深度研究报告_<YYYY-MM>.md`（中文）、`<Company>_Deep_Research_Report_<YYYY-MM>.md`（英文）
-   - 中英文需保持同一结构（章节、表格、关键结论一一对应）
-   - 更新任意一语种时，同次提交内同步更新另一语种与 `lastUpdate`
-   - 详情页语言切换由 `?lang=zh|en` 控制，默认 `zh`
-4. 本地验证  
-   ```bash
-   python3 static/invest/research/validate_reports.py
-   hugo server -D
-   ```
-   检查：
-   - `http://localhost:1313/invest/research/` 卡片和筛选是否正常
-   - 新报告详情页是否可打开并正确渲染
-   - 详情页顶部中/英切换按钮可切换内容
-5. 提交并推送
+各模块的详细约定写在模块自己的文档里，**不要在本文件重复枚举字段规则**（历史上这里的字段清单正是最先过期的部分）：
 
-### B. 更新汇率模块（手动）
+- 研究中心（报告新增 / 版本模型 / 双语约定 / 模块契约 / 信号与监控规则）：[`static/invest/research/README.md`](static/invest/research/README.md)
+- 汇率看板：[`static/invest/currency/README.md`](static/invest/currency/README.md)
+- 金属看板：无独立文档，脚本用法见下
+
+### 新增或更新研究报告（最小路径）
+
+1. 中英文正文放入 `static/invest/research/*.md`（两个语种都必须是完整正文）
+2. 在 `data/reports.json` 增加或更新一条记录。`validate_reports.py` 硬性要求的字段只有：
+   `id`、`company`、`ticker`、`title`、`titleEn`、`summary`、`tags`、`category`、`date`、`lastUpdate`、`file`、`markdownFiles`
+   - `file` 固定写 `/invest/research/reports/view.html?id=<id>`
+   - `markdownFiles.zh` 与 `.en` 必须是两个不同文件
+   - `stance`、`conviction`、`monitoring`、`coverageTier`、`chainLayer`、`versionType` 等增强字段是可选的，但**一旦出现就会被严格校验**；取值语义以 `validate_reports.py` 和 `docs/research-hub-v*-plan.md` 为准
+3. 跑下面的「提交前本地检查」
+4. 本地预览 `/invest/research/`、目标详情页，以及受影响的 `coverage-map.html` / `monitoring-dashboard.html`
+
+### 金属看板脚本
+
+```bash
+python3 static/invest/metals/update_data.py      # 日更，upsert 当天数据
+python3 static/invest/metals/validate_data.py    # 校验（失败则不要提交）
+python3 static/invest/metals/fetch_historical.py # 重建历史（谨慎，会覆盖）
+```
+
+`update_data.py` 需要 `pip install yfinance`（`fetch_historical.py` 只用标准库）。两个脚本都直接决定 `historical.json` 的口径，改动前先读脚本内的注释。
+
+### 汇率看板脚本
 
 ```bash
 python3 static/invest/currency/update_real_data.py
 python3 static/invest/currency/validate_data.py
 ```
 
-- `update_real_data.py`：拉取最新数据并按日期 upsert 到 `data/historical.json`
-- `validate_data.py`：校验 schema、日期顺序、货币字段完整性（失败则不要提交）
+### 共用前端约束
 
-### C. 汇率模块（自动）
+- 主题切换统一使用 `/shared/theme-switcher.js`，不要再往业务目录复制副本
+- 子应用资源一律使用绝对路径（如 `/invest/research/...`）
+- 配色、字体、组件规则见 [`DESIGN.md`](DESIGN.md)；不要用红/绿/琥珀色表达投资判断
 
-- 工作流：`.github/workflows/update-currency-data.yml`
-- 触发：每天 UTC `00:00`（北京时间 `08:00`）+ 手动触发
-- 流程：更新数据 -> 校验数据 -> 仅在有变更时自动提交
+## ✅ 提交前本地检查
 
-### D. 共用前端约束
-
-- 主题切换统一使用：`/shared/theme-switcher.js`
-- 不要再复制新的 `theme-switcher.js` 到业务目录
-- 静态子应用资源路径统一使用绝对路径（如 `/invest/research/...`、`/invest/currency/...`）
-
-### E. 本地质量检查（提交前）
+以下与 `.github/workflows/ci-smoke.yml` 逐条对应，CI 会在 push 到 `main` 和 PR 上跑同一套。校验脚本需要 Python 3.11+。
 
 ```bash
-# 研究中心元数据校验
+# 单元测试
+python3 -m unittest discover -s static/invest/research -p "test_*.py"
+node --test static/invest/research/reports/report-module-parser.test.mjs \
+             static/invest/research/test_tracking_rules.mjs
+
+# 研究中心校验
 python3 static/invest/research/validate_reports.py
+python3 static/invest/research/validate_earnings_calendar.py
+python3 static/invest/research/validate_coverage_map.py
+python3 static/invest/research/validate_prices.py
+python3 static/invest/research/validate_verdicts.py
 
-# 汇率数据校验
+# RSS 必须与数据同步（生成后不允许有 diff）
+python3 static/invest/research/generate_feed.py
+git diff --exit-code static/invest/research/feed.xml
+
+# 其他模块数据校验
 python3 static/invest/currency/validate_data.py
+python3 static/invest/metals/validate_data.py
 
-# Hugo 构建校验
+# 构建校验
 hugo --minify
 ```
 
-## ☁️ 部署到 Cloudflare Pages
+> ⚠️ `hugo` 构建会重写仓库内已跟踪的 `hugo_stats.json`。提交前确认这个文件的改动是你想要的，否则 `git checkout -- hugo_stats.json` 还原。
 
-### 1. 推送到 GitHub
+## ⏱️ 自动化流水线
 
-```bash
-git add .
-git commit -m "Initial commit: Hugo blog with PaperMod theme"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
-git push -u origin main
-```
+| 工作流 | 触发 | 作用 |
+| --- | --- | --- |
+| `ci-smoke.yml` | push 到 `main` / PR | 上一节的全部测试、校验与 Hugo 构建 |
+| `update-currency-data.yml` | 每天 00:00 UTC（北京 08:00）+ 手动 | 更新并校验 `currency/data/historical.json`，有变更才提交 |
+| `update-metals-data.yml` | 每天 01:00 UTC（北京 09:00）+ 手动 | 更新并校验 `metals/data/historical.json`，有变更才提交 |
+| `update-research-prices.yml` | 每天 22:00 UTC + 手动 | 拉价格 → 生成财报待办、判断台账、校准历史 → 严格校验后提交 |
 
-### 2. 配置 Cloudflare Pages
+`update-research-prices.yml` 定在 22:00 UTC 是因为要等美股、首尔、上海、香港全部收盘；`update_prices.py` 另外按各市场本地收盘时间过滤日线，避免把盘中报价写成收盘价。改动排期前请先读该工作流里的注释。
 
-1. 登录 [Cloudflare Dashboard](https://dash.cloudflare.com/)
-2. 进入 **Workers & Pages** > **Create application** > **Pages**
-3. 选择 **Connect to Git** > 授权 GitHub
-4. 选择你的仓库
-5. 配置构建设置：
-   - **Framework preset**: `Hugo`
-   - **Build command**: `hugo`
-   - **Build output directory**: `public`
-   - **Environment variables**:
-     - `HUGO_VERSION`: `0.154.2`（或更高版本）
-6. 点击 **Save and Deploy**
+## 📚 维护文档索引
 
-### 3. 绑定自定义域名
+- [`DESIGN.md`](DESIGN.md) — 设计系统
+- [`static/invest/research/README.md`](static/invest/research/README.md) — 研究中心完整维护说明
+- [`static/invest/currency/README.md`](static/invest/currency/README.md) — 汇率模块
+- `docs/research-hub-*-plan.md` — 研究中心 v2–v6 各阶段规格（字段语义的权威来源）
+- [`docs/earnings-update-automation.md`](docs/earnings-update-automation.md) — 财报日期与定时任务契约
 
-1. 部署成功后，进入项目设置
-2. 选择 **Custom domains** > **Set up a custom domain**
-3. 输入你的域名（需要已在 Cloudflare 托管）
-4. Cloudflare 会自动配置 DNS 和 HTTPS
+## ☁️ 部署
 
-## 🔧 自定义配置
+Cloudflare Pages 连接 GitHub 仓库，push 后自动构建：
 
-编辑 `hugo.toml` 来自定义博客：
+- **Framework preset**: `Hugo`
+- **Build command**: `hugo`
+- **Build output directory**: `public`
+- **环境变量** `HUGO_VERSION`: `0.154.2`（与 CI 保持一致）
 
-- `baseURL`: 部署后替换为你的域名
-- `title`: 博客标题
-- `params.description`: 博客描述
-- `params.socialIcons`: 社交媒体链接
-- `menu.main`: 导航菜单
-
-## 📖 主题文档
-
-PaperMod 主题详细文档：[https://adityatelange.github.io/hugo-PaperMod/](https://adityatelange.github.io/hugo-PaperMod/)
+自定义域名在 Pages 项目设置的 **Custom domains** 中绑定，Cloudflare 自动配置 DNS 与 HTTPS。
 
 ## 📝 发布流程
 
-1. 本地编写 Markdown 文章
-2. `hugo server -D` 预览效果
-3. 将 `draft: true` 改为 `draft: false`
-4. `git add . && git commit -m "新文章：xxx"`
-5. `git push` - Cloudflare Pages 自动构建发布
+1. 本地编写 / 修改
+2. `hugo server -D` 预览
+3. 文章将 `draft: true` 改为 `draft: false`
+4. 跑「提交前本地检查」中与改动相关的部分
+5. 显式暂存改动的文件（避免 `git add .` 误带入本地临时目录），提交并推送
+6. Cloudflare Pages 自动构建发布
+
+## 🔧 站点配置
+
+编辑 `hugo.toml`：`baseURL`、`title`、`params.description`、`params.socialIcons`、`menu.main`。
+
+主题文档：[PaperMod](https://adityatelange.github.io/hugo-PaperMod/)
 
 ## 📄 License
 
