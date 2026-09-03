@@ -1996,5 +1996,27 @@
       "minimax-2026:funding-dilution",
       "minimax-2026:ip-regulatory-exposure"
     ]
+  },
+  {
+    "id": "broadcom-q3-fy2026-ai-semiconductor-16-7b-and-q4-21-7b-guide-2026-09",
+    "date": "2026-09-02",
+    "title": {
+      "zh": "Broadcom Q3 FY2026 AI 半导体收入 $16.7B（同比 +221%、环比 +54%），Q4 指引 $21.7B",
+      "en": "Broadcom Q3 FY2026 AI semiconductor revenue reaches $16.7B (+221% YoY, +54% QoQ), with Q4 guided to $21.7B"
+    },
+    "detail": {
+      "zh": "据 Broadcom 2026-09-02 发布的 Q3 FY2026 业绩公告（财季截至 2026-08-02；Form 8-K accession 0001730168-26-000076，Exhibit 99.1），合并收入 $29,591M（同比 +86%），半导体解决方案收入 $20,839M（同比 +127%）。CEO Hock Tan 在公告引述中称 AI 半导体收入 $16.7B（同比 +221%、环比 +54%），并预计 Q4 AI 半导体收入 $21.7B（同比 +236%）。证据边界：AI 数字来自 CEO 引述，而非分部报表；发行人未披露 AI 与非 AI 半导体的对账、XPU 与网络拆分、更新后的 AI backlog、客户名称或客户集中度。本信号只记录发行人自述的 AI 收入口径，不据此推断订单可撤销性、客户构成或 FY2027 兑现节奏；Broadcom 报告的监测、估值、价格、立场与确信度留待首个完整盘后收盘及完整估值敏感复核后统一更新。",
+      "en": "Per Broadcom's Q3 FY2026 results released on 2026-09-02 for the fiscal quarter ended 2026-08-02 (Form 8-K accession 0001730168-26-000076, Exhibit 99.1), consolidated revenue was $29,591M (+86% YoY) and Semiconductor solutions revenue was $20,839M (+127% YoY). In the release's CEO quote, Hock Tan stated that AI semiconductor revenue was $16.7B (+221% YoY, +54% QoQ) and expected Q4 AI semiconductor revenue of $21.7B (+236% YoY). Evidence limits: the AI figures come from the CEO quote rather than the segment statements; the issuer disclosed no AI/non-AI reconciliation, XPU/networking split, updated AI backlog, customer names, or customer concentration. This signal records only the issuer-stated AI revenue basis and makes no inference about order cancellability, customer composition, or FY2027 delivery cadence. Broadcom report monitoring, valuation, price, stance, and conviction remain deferred until the first complete post-release regular-session close and a full valuation-sensitive review can be completed together."
+    },
+    "crossChecks": [
+      "custom-silicon-ethernet",
+      "chip-vs-downstream"
+    ],
+    "tickers": [
+      "AVGO"
+    ],
+    "reportIds": [
+      "broadcom-2026"
+    ]
   }
 ]
