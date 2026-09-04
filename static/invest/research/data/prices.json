@@ -438,11 +438,11 @@
       "symbol": "AVGO",
       "status": "ok",
       "attemptedAt": "2026-09-03",
-      "baseDate": "2026-07-30",
-      "basePrice": 387.84,
+      "baseDate": "2026-09-03",
+      "basePrice": 357.16,
       "lastDate": "2026-09-03",
       "lastClose": 357.16,
-      "changePct": -7.9,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {

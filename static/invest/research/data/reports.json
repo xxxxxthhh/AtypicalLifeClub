@@ -5996,8 +5996,8 @@
     "priceSymbol": "AVGO",
     "title": "Broadcom 深度研究报告 - 自定义 AI 硅的卖铲人与 VMware 现金机器",
     "titleEn": "Broadcom Deep Research Report - The Pick-and-Shovel of Custom AI Silicon, Plus a VMware Cash Machine",
-    "summary": "自定义 AI 硅（XPU）最大的卖铲人，正是 NVIDIA 报告点名的最深结构性威胁的承接方；同时握有 VMware 软件现金机器。Q2 FY2026 营收 $22.19B（+48%），AI 半导体 $10.8B（+143%），AI backlog >$30B，FY2027 AI 目标 >$1000 亿；Google/Meta/字节/Anthropic/OpenAI/Fujitsu 等客户项目与 $73B backlog 属公开报道/市场拆解口径，非全部官方确认。但收入兑现后置到 FY2027、客户高度集中、总债务 $64.9B、净债务约 $45B。市值约 $1.84 万亿、远期 P/E 约 34x，介于 NVIDIA ~25x 与 AMD ~58x 之间。neutral-watch / 中等确信：世界级卖铲人，但 FY2027 分母大多已被定价。",
-    "summaryEn": "The biggest pick-and-shovel of custom AI silicon (XPUs) - the very threat named in the NVIDIA report - plus a VMware software cash machine. Q2 FY2026 revenue $22.19B (+48%), AI semis $10.8B (+143%), AI backlog >$30B, FY2027 AI target >$100B; customer programs such as Google/Meta/ByteDance/Anthropic/OpenAI/Fujitsu and the $73B backlog are public-reporting / market-breakdown inputs, not all official confirmations. Delivery is back-loaded to FY2027, customers are concentrated, total debt is $64.9B and net debt is roughly $45B. Market cap ~$1.84T, forward P/E ~34x, between NVIDIA ~25x and AMD ~58x. Neutral-watch / medium conviction: a world-class pick-and-shovel, but the FY2027 denominator is mostly priced in.",
+    "summary": "自定义 AI 硅（XPU）最大的卖铲人，正是 NVIDIA 报告点名的最深结构性威胁的承接方；同时握有 VMware 软件现金机器。Q3 FY2026 营收 $29.59B（+86%），半导体 $20.84B（+127%），AI 半导体 $16.7B（+221%，超自身 $16.0B 指引）；Q4 指引营收约 $34.8B、AI 半导体 $21.7B。FY2027 AI 目标 >$1000 亿；Google/Meta/字节/Anthropic/OpenAI/Fujitsu 等客户项目与 $73B backlog 属公开报道/市场拆解口径，非全部官方确认。收入兑现仍后置到 FY2027、客户高度集中，但去杠杆在推进：总债务降至 $59.42B、现金 $23.98B、净债务约 $35.4B。市值约 $1.70 万亿、EV/TTM Sales 约 19.5x（TTM 营收 $89.1B）。neutral-watch / 中等确信：世界级卖铲人，FY2027 分母大多仍被定价，但 Q3 后估值张力较 7 月明显缓解。",
+    "summaryEn": "The biggest pick-and-shovel of custom AI silicon (XPUs) - the very threat named in the NVIDIA report - plus a VMware software cash machine. Q3 FY2026 revenue $29.59B (+86%), semiconductors $20.84B (+127%), AI semis $16.7B (+221%, ahead of the company's own $16.0B guide); Q4 guidance is about $34.8B of revenue and $21.7B of AI semis. The FY2027 AI target is >$100B; customer programs such as Google/Meta/ByteDance/Anthropic/OpenAI/Fujitsu and the $73B backlog are public-reporting / market-breakdown inputs, not all official confirmations. Delivery is still back-loaded to FY2027 and customers are concentrated, but deleveraging is progressing: total debt down to $59.42B, cash $23.98B, net debt about $35.4B. Market cap ~$1.70T and EV/TTM sales ~19.5x on $89.1B TTM revenue. Neutral-watch / medium conviction: a world-class pick-and-shovel whose FY2027 denominator is still mostly priced in, though the valuation tension has eased materially since July.",
     "tags": [
       "AI计算",
       "自定义ASIC",
@@ -6006,7 +6006,7 @@
     ],
     "category": "tech",
     "date": "2026-06-26",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-09-04",
     "file": "/invest/research/reports/view.html?id=broadcom-2026",
     "markdownFiles": {
       "zh": "/invest/research/Broadcom_深度研究报告_2026-06.md",
@@ -6016,16 +6016,16 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "Q2 FY2026 营收 $22.19B（+48% YoY），AI 半导体 $10.8B（+143%），AI backlog >$30B；Q3 指引营收 ~$29.4B、AI $16.0B（+200%）",
-      "FY2027 AI 半导体目标 >$1000 亿；公开报道涉及 Google/Meta/字节/Anthropic/OpenAI/Fujitsu 等 XPU 项目与 $73B backlog 估算——但兑现后置到 FY2027、客户高度集中，非全部为官方确认订单",
-      "两台引擎：AI 定制硅增长 + VMware 软件现金（非 GAAP 营业利润率 67%、FCF 占收入 46%）；总债务 $64.9B、Q2 期末现金 $19.63B，净债务约 $45B",
-      "neutral-watch / 中等确信：$387.84、约 24-25x EV/TTM sales 已定价通向 FY2027 >$100B AI 收入的顺利路径，等待更硬的 XPU 兑现和 backlog 转化证据"
+      "Q3 FY2026 营收 $29.59B（+86% YoY），半导体 $20.84B（+127%），基础设施软件 $8.75B（+29%）；AI 半导体 $16.7B（+221%、环比 +54%），超自身 $16.0B 指引",
+      "Q4 FY2026 指引：营收约 $34.8B（+93%）、AI 半导体 $21.7B（+236%）、非 GAAP 营业利润率约 66%；FY2027 AI 目标 >$1000 亿，但兑现后置、客户高度集中，$73B backlog 属公开报道口径非官方确认",
+      "两台引擎：AI 定制硅增长 + VMware 软件现金（Q3 FCF $13.67B、占收入 46%）；去杠杆推进中——总债务降至 $59.42B（较 Q2 减少约 $5.5B）、现金升至 $23.98B、净债务约 $35.4B",
+      "neutral-watch / 中等确信：$357.16（2026-09-03 收盘）、约 19.5x EV/TTM Sales，估值张力较 7 月明显缓解；复核人于 2026-09-04 重新裁定后维持立场与确信度"
     ],
     "chainLayer": "custom-merchant-silicon",
     "coverageTier": "full",
     "stance": "neutral-watch",
-    "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q2 FY2026",
+    "priceAsOf": "2026-09-03",
+    "reportedPeriod": "Q3 FY2026",
     "related": [
       "nvidia-2026",
       "arista-2026",
@@ -6045,10 +6045,12 @@
           "en": "the back-loaded >$100B FY2027 AI target develops delivery gaps"
         },
         "latest": {
-          "zh": "Q2 FY2026 AI 半导体 $10.8B（+143%）、AI backlog >$30B；Q3 指引 AI $16.0B（+200%）",
-          "en": "Q2 FY2026 AI semis $10.8B (+143%), AI backlog >$30B; Q3 guide AI $16.0B (+200%)"
+          "zh": "Q3 FY2026（截至 2026-08-02，8-K 于 2026-09-02 发布）AI 半导体收入 $16.7B（同比 +221%、环比 +54%），高于公司自身 $16.0B 的 Q3 指引；Q4 指引 AI 半导体 $21.7B（同比 +236%）。证据边界：AI 收入来自 CEO 在业绩公告中的引述，不是分部报表科目，发行人未披露 AI 与非 AI 半导体的对账。",
+          "en": "Q3 FY2026 (quarter ended 2026-08-02, 8-K furnished 2026-09-02) AI semiconductor revenue was $16.7B (+221% YoY, +54% QoQ), above the company's own $16.0B Q3 guide; Q4 guidance is $21.7B (+236% YoY). Evidence limit: the AI figures come from the CEO's quote in the earnings release rather than segment reporting, and the issuer discloses no AI / non-AI reconciliation."
         },
-        "nextCheck": "季报 AI 收入 / quarterly AI revenue"
+        "nextCheck": "季报 AI 收入 / quarterly AI revenue",
+        "reading": "within",
+        "readingAsOf": "2026-09-02"
       },
       {
         "id": "xpu-customer-concentration",
@@ -6081,10 +6083,12 @@
           "en": "a visible wave of customer churn follows the price increases, weakening software growth and cash quality"
         },
         "latest": {
-          "zh": "Q2 FY2026 基础设施软件收入 $71.8 亿（同比 +9%），相对激进的涨价幅度显得温和；报告指出涨价与捆绑抬升了软件利润率，但引发客户抵触与向 Proxmox/Nutanix 迁移的流失风险，而 VMware 现金正是偿付 $649 亿总债务（净债约 $450 亿）的来源",
-          "en": "Q2 FY2026 Infrastructure Software revenue was US$7.18B (+9% YoY), muted relative to the size of the price increases. The report notes that aggressive price and bundle increases lifted software margins but drew customer pushback and churn risk toward Proxmox/Nutanix, while VMware cash is what services the US$64.9B of total debt (about US$45B net)"
+          "zh": "Q3 FY2026 基础设施软件收入 $8,752M（同比 +29%，Q2 为 +9%），增速加快；季度 FCF $13,665M（占收入 46%）。**但触发器的「客户流失潮」这条腿无法据此判定**：发行人既未披露 VMware 独立收入，也未披露续约率、流失率或客户数。分部增长不等于留存证据。",
+          "en": "Q3 FY2026 Infrastructure Software revenue was $8,752M (+29% YoY, up from +9% in Q2), an acceleration; quarterly FCF was $13,665M (46% of revenue). **The trigger's customer-churn leg cannot be judged from this**: the issuer discloses neither VMware standalone revenue nor renewal rates, churn or customer counts. Segment growth is not retention evidence."
         },
-        "nextCheck": "季报基础设施软件收入与续约/流失口径 / quarterly Infrastructure Software revenue and renewal/churn commentary"
+        "nextCheck": "季报基础设施软件收入与续约/流失口径 / quarterly Infrastructure Software revenue and renewal/churn commentary",
+        "reading": "unclear",
+        "readingAsOf": "2026-09-02"
       },
       {
         "id": "debt-load",
@@ -6099,10 +6103,12 @@
           "en": "deleveraging stalls under rate or cash-flow pressure"
         },
         "latest": {
-          "zh": "总债务 $64.9B、现金 $19.63B、净债务约 $45B；VMware 现金机器（FCF 占收入 46%）",
-          "en": "total debt $64.9B, cash $19.63B, net debt ~$45B; VMware cash machine (FCF 46% of revenue)"
+          "zh": "Q3 FY2026 期末（2026-08-02）总债务 $59,419M（短期 $2,252M ＋ 长期 $57,167M），较 Q2 减少约 $5,480M；现金及等价物 $23,975M，较 Q2 增加约 $4,345M；净债务约 $35,444M，较 Q2 下降约 $9,825M。季度利息费用 $778M，季度 FCF $13,665M。这些读数证明去杠杆未停滞，但不单独推断其环比节奏已加速。",
+          "en": "At Q3 FY2026 quarter-end (2026-08-02) total debt was $59,419M (short-term $2,252M + long-term $57,167M), down about $5,480M from Q2; cash and equivalents were $23,975M, up about $4,345M from Q2; net debt was about $35,444M, down about $9,825M from Q2. Quarterly interest expense was $778M against $13,665M of quarterly FCF. These readings show deleveraging did not stall, without separately claiming that its sequential pace accelerated."
         },
-        "nextCheck": "季报资产负债表 / quarterly balance sheet"
+        "nextCheck": "季报资产负债表 / quarterly balance sheet",
+        "reading": "within",
+        "readingAsOf": "2026-09-02"
       },
       {
         "id": "valuation-denominator",
@@ -6117,16 +6123,18 @@
           "en": "an FY2027 delivery miss removes the denominator under the ~33x forward P/E"
         },
         "latest": {
-          "zh": "市值约 $1.8 万亿（2026-06-25）；介于 NVIDIA ~25x 与 AMD ~58x 之间",
-          "en": "~$1.8T cap (2026-06-25); between NVIDIA ~25x and AMD ~58x"
+          "zh": "按 2026-09-03 收盘 $357.16、最近一份 10-Q 披露的 2026-05-29 期末流通股 4,757,580,198 股计，市值约 $1.699 万亿；EV 约 $1.735 万亿，TTM 营收 $89.104B，EV/TTM Sales 约 19.5x，较 7 月口径明显压缩。股数早于估值日，故市值与 EV 均为近似值。**远期 P/E 本轮标记 `review-pending`**：该指标依赖卖方一致预期 EPS，一手来源不可得，且 Q4 指引未给 EPS，因此无法判定触发器所写「远期 P/E 是否失去分母支撑」。",
+          "en": "At the 2026-09-03 close of $357.16 and the latest Form 10-Q share count of 4,757,580,198 shares outstanding on 2026-05-29, market cap is about $1.699T; EV is about $1.735T against $89.104B of TTM revenue, i.e. about 19.5x EV/TTM sales - materially compressed versus the July basis. Because the share count predates the valuation date, market cap and EV are approximate. **Forward P/E is marked `review-pending` this run**: it depends on sell-side consensus EPS, which is not available from a primary source, and the Q4 guide carries no EPS - so the trigger's forward-P/E denominator question cannot be graded."
         },
-        "nextCheck": "季报 / quarterly earnings"
+        "nextCheck": "季报 / quarterly earnings",
+        "reading": "unclear",
+        "readingAsOf": "2026-09-03"
       }
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "在 $387.84、约 24-25x EV/TTM sales 上，市场已经定价了通向 FY2027 >$100B AI 半导体的顺利路径和持续的 VMware 现金质量；我们的基准情景同意方向，但保留交付滑坡、客户集中和债务调整后倍数压力。",
-      "en": "At $387.84 and roughly 24-25x EV/TTM sales, the market already prices a clean path toward >$100B FY2027 AI semis plus durable VMware cash; our base case agrees on direction but leaves room for delivery slippage, customer concentration, and debt-adjusted multiple pressure."
+      "zh": "在 $357.16（2026-09-03 收盘）、约 19.5x EV/TTM Sales 上，市场仍在定价一条通向 FY2027 >$100B AI 半导体的顺利路径和持续的 VMware 现金质量；我们的基准情景同意方向，但保留交付滑坡、客户集中和债务调整后倍数压力。Q3 后倍数明显压缩，来源是分母扩张（TTM 营收升至 $89.1B）与股价回落两者叠加，而非论点本身改变。复核人于 2026-09-04 重新裁定：由于新 XPU 客户官方确认、VMware 留存和 net debt/EBITDA 连续下降这些升级条件尚未同时满足，维持 neutral-watch / 中等确信。",
+      "en": "At $357.16 (2026-09-03 close) and roughly 19.5x EV/TTM sales, the market still prices a clean path toward >$100B FY2027 AI semis plus durable VMware cash; our base case agrees on direction but leaves room for delivery slippage, customer concentration, and debt-adjusted multiple pressure. The multiple compressed materially after Q3 because the denominator grew (TTM revenue up to $89.1B) at the same time as the share price fell, not because the thesis changed. The reviewer re-adjudicated the stance on 2026-09-04 and kept neutral-watch / medium conviction because the upgrade conditions - an officially confirmed additional XPU customer, demonstrated VMware retention, and continued net-debt/EBITDA improvement - are not all satisfied."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -6163,6 +6171,12 @@
         "stance": "neutral-watch",
         "conviction": "medium",
         "price": 387.84
+      },
+      {
+        "date": "2026-09-04",
+        "stance": "neutral-watch",
+        "conviction": "medium",
+        "price": 357.16
       }
     ]
   },
