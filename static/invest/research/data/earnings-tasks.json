@@ -1,18 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-03T22:16:27Z",
+  "generatedAt": "2026-09-04T22:15:50Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-09-03T22:16:27Z"
+    "value": "2026-09-04T22:15:50Z"
   },
-  "tasks": [
-    {
-      "id": "earnings:broadcom-2026:2026-09-02:T+1",
-      "reportId": "broadcom-2026",
-      "type": "research-update",
-      "window": "T+1",
-      "expectedDate": "2026-09-02",
-      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
-    }
-  ]
+  "tasks": []
 }
