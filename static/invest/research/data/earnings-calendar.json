@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-09-07",
+  "asOf": "2026-09-08",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -40,31 +40,31 @@
     {
       "reportId": "lam-research-2026",
       "company": "Lam Research",
-      "expectedDate": "2026-10",
-      "precision": "month",
+      "expectedDate": "2026-10-21",
+      "precision": "day",
       "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
+      "session": "unspecified",
+      "sourceUrl": "https://www.tipranks.com/stocks/lrcx/earnings",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "kla-2026",
       "company": "KLA",
-      "expectedDate": "2026-10",
-      "precision": "month",
+      "expectedDate": "2026-10-28",
+      "precision": "day",
       "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
+      "session": "unspecified",
+      "sourceUrl": "https://www.tipranks.com/stocks/klac/earnings",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-09-08"
     },
-  {
-    "reportId": "synopsys-2026",
+    {
+      "reportId": "synopsys-2026",
       "company": "Synopsys",
       "expectedDate": "2026-08-26",
       "precision": "day",
-    "status": "stale",
+      "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://investor.synopsys.com/news/news-details/2026/Synopsys-Announces-Earnings-Release-Date-for-Third-Quarter-Fiscal-Year-2026/default.aspx",
       "sourceType": "issuer-ir",
@@ -73,35 +73,35 @@
     {
       "reportId": "cadence-2026",
       "company": "Cadence Design Systems",
-      "expectedDate": "2026-10",
-      "precision": "month",
+      "expectedDate": "2026-10-26",
+      "precision": "day",
       "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
+      "session": "unspecified",
+      "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/CDNS/earnings/",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "nrg-2026",
       "company": "NRG Energy",
-      "expectedDate": "2026-08-04",
+      "expectedDate": "2026-11-05",
       "precision": "day",
-      "status": "stale",
-      "session": "before-open",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000018/nrgq22026ex991.htm",
-      "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-24"
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://www.marketbeat.com/stocks/NYSE/NRG/earnings/",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "eqix-2026",
       "company": "Equinix",
-      "expectedDate": "2026-08",
-      "precision": "month",
+      "expectedDate": "2026-11-04",
+      "precision": "day",
       "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
+      "session": "unspecified",
+      "sourceUrl": "https://www.investing.com/equities/equinix,-inc.-earnings",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "nebius-2026",
@@ -117,24 +117,24 @@
     {
       "reportId": "arista-2026",
       "company": "Arista Networks",
-      "expectedDate": "2026-08-04",
+      "expectedDate": "2026-11-02",
       "precision": "day",
-      "status": "stale",
-      "session": "after-close",
-      "sourceUrl": "https://investors.arista.com/Communications/Press-Releases-and-Events/Press-Release-Detail/2026/Arista-Networks-to-Announce-Q2-2026-Financial-Results-on-Tuesday-August-4-2026/default.aspx",
-      "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-24"
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://www.tipranks.com/stocks/anet/earnings",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "coreweave-2026",
       "company": "CoreWeave",
-      "expectedDate": "2026-08-11",
+      "expectedDate": "2026-11-16",
       "precision": "day",
-      "status": "stale",
-      "session": "after-close",
-      "sourceUrl": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Date-of-Second-Quarter-2026-Financial-Results-and-Conference-Call/default.aspx",
-      "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-24"
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://www.tipranks.com/stocks/crwv/earnings",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "vertiv-2026",
@@ -158,27 +158,27 @@
       "sourceType": "monitoring",
       "verifiedAt": "2026-08-01"
     },
-  {
-    "reportId": "nvidia-2026",
+    {
+      "reportId": "nvidia-2026",
       "company": "NVIDIA",
-      "expectedDate": "2026-08-26",
+      "expectedDate": "2026-11-17",
       "precision": "day",
-    "status": "stale",
-      "session": "after-close",
-      "sourceUrl": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-2nd-Quarter-FY27-Financial-Results/default.aspx",
-      "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-01"
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://www.wallstreethorizon.com/nvidia-earnings-calendar",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "aaoi-2026",
       "company": "Applied Optoelectronics",
-      "expectedDate": "2026-08-06",
+      "expectedDate": "2026-11-05",
       "precision": "day",
-      "status": "stale",
-      "session": "after-close",
-      "sourceUrl": "https://investors.ao-inc.com/news-releases/news-release-details/applied-optoelectronics-announces-date-second-quarter-2026",
-      "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-24"
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://www.tipranks.com/stocks/aaoi/earnings",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "gevernova-2026",
@@ -205,13 +205,13 @@
     {
       "reportId": "tempus-ai-2026",
       "company": "Tempus AI",
-      "expectedDate": null,
-      "precision": "unknown",
-      "status": "unknown",
-      "session": "not-applicable",
-      "sourceUrl": null,
-      "sourceType": "none",
-      "verifiedAt": "2026-08-19"
+      "expectedDate": "2026-11-10",
+      "precision": "day",
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://www.tipranks.com/stocks/tem/earnings",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "sk-hynix-2026",
@@ -228,53 +228,53 @@
     {
       "reportId": "almonty-2026",
       "company": "Almonty Industries",
-      "expectedDate": null,
-      "precision": "unknown",
-      "status": "unknown",
-      "session": "not-applicable",
-      "sourceUrl": null,
-      "sourceType": "none",
-      "verifiedAt": "2026-08-19"
+      "expectedDate": "2026-11-17",
+      "precision": "day",
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://www.tipranks.com/stocks/alm/earnings",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "airbnb-2026",
       "company": "Airbnb",
-      "expectedDate": null,
-      "precision": "unknown",
-      "status": "unknown",
-      "session": "not-applicable",
-      "sourceUrl": null,
-      "sourceType": "none",
-      "verifiedAt": "2026-08-19"
+      "expectedDate": "2026-11-04",
+      "precision": "day",
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://www.tipranks.com/stocks/abnb/earnings",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "hims-2026",
       "company": "Hims & Hers Health",
-      "expectedDate": "2026-08-10",
+      "expectedDate": "2026-11-09",
       "precision": "day",
-      "status": "stale",
-      "session": "after-close",
-      "sourceUrl": "https://investors.hims.com/news/news-details/2026/Hims--Hers-to-Announce-Second-Quarter-2026-Financial-Results-on-August-10-2026/default.aspx",
-      "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-24"
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://www.tipranks.com/stocks/hims/earnings",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "bloom-energy-2026",
       "company": "Bloom Energy",
-      "expectedDate": "2026-11",
-      "precision": "month",
+      "expectedDate": "2026-10-29",
+      "precision": "day",
       "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
+      "session": "unspecified",
+      "sourceUrl": "https://www.tipranks.com/stocks/be/earnings",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-09-08"
     },
-  {
-    "reportId": "salesforce-2026",
+    {
+      "reportId": "salesforce-2026",
       "company": "Salesforce",
       "expectedDate": "2026-08-26",
       "precision": "day",
-    "status": "stale",
+      "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-Second-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/default.aspx",
       "sourceType": "issuer-ir",
@@ -283,24 +283,24 @@
     {
       "reportId": "coinbase-2026",
       "company": "Coinbase",
-      "expectedDate": null,
-      "precision": "unknown",
-      "status": "unknown",
-      "session": "not-applicable",
-      "sourceUrl": null,
-      "sourceType": "none",
-      "verifiedAt": "2026-08-19"
+      "expectedDate": "2026-10-29",
+      "precision": "day",
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://www.tipranks.com/stocks/coin/earnings",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "amzn-2026",
       "company": "Amazon",
-      "expectedDate": "2026-10",
-      "precision": "month",
+      "expectedDate": "2026-10-22",
+      "precision": "day",
       "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
+      "session": "unspecified",
+      "sourceUrl": "https://www.tipranks.com/stocks/amzn/earnings",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "netflix-2026",
@@ -311,7 +311,7 @@
       "session": "unspecified",
       "sourceUrl": "https://www.wallstreethorizon.com/netflix-earnings-calendar",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-08-19"
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "spotify-2026",
@@ -327,24 +327,24 @@
     {
       "reportId": "neov-2026",
       "company": "NeoVolta",
-      "expectedDate": "2026-08",
-      "precision": "month",
-      "status": "stale",
-      "session": "not-applicable",
-      "sourceUrl": null,
+      "expectedDate": "2026-10-06",
+      "precision": "day",
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://www.investing.com/equities/neovolta-inc-earnings",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-09-01"
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "amd-2026",
       "company": "AMD",
-      "expectedDate": "2026-08-04",
+      "expectedDate": "2026-11-03",
       "precision": "day",
-      "status": "stale",
-      "session": "after-close",
-      "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
-      "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-24"
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://www.tipranks.com/stocks/amd/earnings",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "jinpan-2026",
@@ -383,13 +383,13 @@
     {
       "reportId": "broadcom-2026",
       "company": "Broadcom",
-      "expectedDate": "2026-09-02",
+      "expectedDate": "2026-12-10",
       "precision": "day",
-      "status": "issuer-confirmed",
-      "session": "after-close",
-      "sourceUrl": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announce-third-quarter-fiscal-year-2026-financial",
-      "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-19"
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://www.tipranks.com/stocks/avgo/earnings",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "tsmc-2026",
@@ -417,13 +417,13 @@
     {
       "reportId": "constellation-energy-2026",
       "company": "Constellation Energy",
-      "expectedDate": "2026-08",
-      "precision": "month",
+      "expectedDate": "2026-11-09",
+      "precision": "day",
       "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
+      "session": "unspecified",
+      "sourceUrl": "https://www.tipranks.com/stocks/ceg/earnings",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "vistra-2026",
@@ -439,46 +439,46 @@
     {
       "reportId": "quanta-services-2026",
       "company": "Quanta Services, Inc.",
-      "expectedDate": "2026-10",
-      "precision": "month",
+      "expectedDate": "2026-10-29",
+      "precision": "day",
       "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
+      "session": "unspecified",
+      "sourceUrl": "https://www.investing.com/equities/quanta-services-earnings",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "alphabet-2026",
       "company": "Alphabet",
-      "expectedDate": "2026-10",
-      "precision": "month",
+      "expectedDate": "2026-10-27",
+      "precision": "day",
       "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
+      "session": "unspecified",
+      "sourceUrl": "https://www.tipranks.com/stocks/googl/earnings",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "microsoft-2026",
       "company": "Microsoft",
-      "expectedDate": "2026-10",
-      "precision": "month",
+      "expectedDate": "2026-10-27",
+      "precision": "day",
       "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
+      "session": "unspecified",
+      "sourceUrl": "https://www.tipranks.com/stocks/msft/earnings",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "meta-2026",
       "company": "Meta Platforms",
-      "expectedDate": "2026-10",
-      "precision": "month",
+      "expectedDate": "2026-10-28",
+      "precision": "day",
       "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
+      "session": "unspecified",
+      "sourceUrl": "https://www.tipranks.com/stocks/meta/earnings",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "oracle-2026",
@@ -491,12 +491,12 @@
       "sourceType": "issuer-ir",
       "verifiedAt": "2026-09-07"
     },
-  {
-    "reportId": "marvell-2026",
+    {
+      "reportId": "marvell-2026",
       "company": "Marvell Technology",
       "expectedDate": "2026-08-27",
       "precision": "day",
-    "status": "stale",
+      "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://investor.marvell.com/news-events/press-releases/detail/1029/marvell-technology-inc-announces-conference-call-to-review-second-quarter-of-fiscal-year-2027-financial-results-announces-investor-day-on-october-6-2026",
       "sourceType": "issuer-ir",
@@ -505,32 +505,32 @@
     {
       "reportId": "coherent-2026",
       "company": "Coherent",
-      "expectedDate": "2026-08-12",
+      "expectedDate": "2026-11-11",
       "precision": "day",
-      "status": "stale",
-      "session": "after-close",
-      "sourceUrl": "https://www.coherent.com/news/press-releases/fy2026-fourth-quarter-fy2026-conference-call-announced",
-      "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-24"
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://www.tipranks.com/stocks/cohr/earnings",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "digital-realty-2026",
       "company": "Digital Realty",
-      "expectedDate": "2026-10",
-      "precision": "month",
+      "expectedDate": "2026-10-22",
+      "precision": "day",
       "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
+      "session": "unspecified",
+      "sourceUrl": "https://www.tipranks.com/stocks/dlr/earnings",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-09-08"
     },
-  {
-    "reportId": "minimax-2026",
+    {
+      "reportId": "minimax-2026",
       "company": "MiniMax Group",
       "timezone": "Asia/Hong_Kong",
       "expectedDate": "2026-08-26",
       "precision": "day",
-    "status": "stale",
+      "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://en.prnasia.com/releases/apac/minimax-to-report-2026-interim-financial-results-on-august-26-2026-544085.shtml",
       "sourceType": "issuer-ir",
@@ -561,24 +561,24 @@
     {
       "reportId": "alab-2026",
       "company": "Astera Labs",
-      "expectedDate": "2026-08-04",
+      "expectedDate": "2026-11-10",
       "precision": "day",
-      "status": "stale",
-      "session": "after-close",
-      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000033/q226exhibit991.htm",
-      "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-24"
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://www.tipranks.com/stocks/alab/earnings",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "amkr-2026",
       "company": "Amkor Technology",
-      "expectedDate": "2026-10",
-      "precision": "month",
+      "expectedDate": "2026-11-02",
+      "precision": "day",
       "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
+      "session": "unspecified",
+      "sourceUrl": "https://www.tipranks.com/stocks/amkr/earnings",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "kioxia-2026",
@@ -595,24 +595,24 @@
     {
       "reportId": "pltr-2026",
       "company": "Palantir Technologies",
-      "expectedDate": "2026-11",
-      "precision": "month",
+      "expectedDate": "2026-11-09",
+      "precision": "day",
       "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
+      "session": "unspecified",
+      "sourceUrl": "https://www.tipranks.com/stocks/pltr/earnings",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-08-04"
+      "verifiedAt": "2026-09-08"
     },
     {
       "reportId": "ase-technology-2026",
       "company": "ASE Technology Holding",
-      "expectedDate": "2026-11",
-      "precision": "month",
+      "expectedDate": "2026-10-22",
+      "precision": "day",
       "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
+      "session": "unspecified",
+      "sourceUrl": "https://www.tipranks.com/stocks/asx/earnings",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-08-08"
+      "verifiedAt": "2026-09-08"
     }
   ]
 }
