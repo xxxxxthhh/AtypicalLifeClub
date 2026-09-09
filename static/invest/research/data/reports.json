@@ -10174,5 +10174,246 @@
         "price": 37.39
       }
     ]
+  },
+  {
+    "id": "innolight-2026",
+    "company": "中际旭创",
+    "ticker": "SZSE: 300308",
+    "priceSymbol": "300308.SZ",
+    "title": "中际旭创深度研究报告 - 可插拔光模块量价拆解的架构校验",
+    "titleEn": "Zhongji Innolight Deep Research Report - Architecture Check on the Volume-and-Price Decomposition of Pluggable Optics",
+    "summary": "2026-09-09 首次覆盖：以深交所收盘 908.90 元、总股本 1,177,909,641 股计市值 10,706.02 亿元，TTM（2025Q3–2026Q2）收入 652.29 亿元、归母净利 204.53 亿元，对应 52.3x TTM P/E、16.4x TTM P/S。2026 半年报（2026-08-22）显示收入 417.78 亿元（+182.49%）、归母净利 136.51 亿元（+241.70%），模块销量 1,899 万只（+109.8%）、推算混合 ASP 约 2,178 元/只（+36.6%）、模块毛利率 46.59%（上年同期 39.96%），确认了合计模块需求；但上半年经营现金流仅 18.00 亿元、转化率 13.2%，其中 Q1 为 33.68 亿元（58.7%）、Q2 转为 −15.68 亿元（−19.8%）；前五名应收集中度由 2025 年末 65.66% 升至 72.49%；长期应付款（港股附注 19 识别为 TeraHop 投资者回购权的赎回负债）由 9.00 亿元增至 50.57 亿元，计入后 2026-06-30 为净负债 4.89 亿元而非净现金。把盈利增长期（3.5 年）与持有期（2026-09-09 至 2029-12-31，3.31 年）分开后，25 倍退出、8%–10% 要求回报下现价隐含归母净利自 Q2 年化 316.67 亿元复合增长 17.2%–19.3%，基准情景 15.6%；30/40/30 加权后的权益价值 12,593–13,224 亿元，对应 5.0%–6.6% 年化，低于门槛 1.4–5.0 个百分点（单独放宽牛市或熊市退出倍数仍不达标，仅两者同时放宽才达 6.8%–8.3%，上沿越过 8% 但不到 10%），故为谨慎 / 中确信。",
+    "tags": [
+      "AI光连接",
+      "光模块",
+      "硅光",
+      "A股"
+    ],
+    "category": "tech",
+    "date": "2026-09-09",
+    "lastUpdate": "2026-09-09",
+    "file": "/invest/research/reports/view.html?id=innolight-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/中际旭创_深度研究报告_2026-09.md",
+      "en": "/invest/research/Zhongji_Innolight_Deep_Research_Report_2026-09.md"
+    },
+    "highlights": [
+      "2026-09-09 收盘 908.90 元、市值 10,706.02 亿元：52.3x TTM P/E、16.4x TTM P/S；上半年年化 39.2x、第二季度年化 33.8x",
+      "2026 H1 收入 417.78 亿元（+182.49%）、归母净利 136.51 亿元（+241.70%）、扣非 130.92 亿元（+229.32%）",
+      "量价可分解（合计口径，乘性、非各占一半）：合计销量 1,899 万只（+109.8%）× 推算混合 ASP 约 2,178 元/只（+36.6%）；模块毛利率 46.59%",
+      "现金流：H1 经营现金流 18.00 亿元、转化率 13.2%；Q1 58.7%、Q2 −19.8%（Q2 经营现金流 −15.68 亿元）",
+      "资产负债表：赎回负债（长期应付款）由 9.00 亿元增至 50.57 亿元，2026-06-30 净头寸为净负债 4.89 亿元；备考净现金 440.27 亿元仅计已确认的 H 股首发募资",
+      "集中度：2025 年前五名客户占收入 75.98%；前五名应收集中度由 65.66% 升至 72.49%（上升 6.83 个百分点）",
+      "地缘：2026-06-08 列入 1260H 清单；FY2024 NDAA §805 的国防部采购限制直接条款 2026-06-30 已生效、间接条款 2027-06-30 生效",
+      "情景 30/40/30 加权年化回报 5.0%–6.6%，低于 8%–10% 要求回报 1.4–5.0 个百分点（敏感性上沿 8.3%）⇒ 谨慎 / 中确信"
+    ],
+    "summaryEn": "Initiation on September 9, 2026. At the RMB 908.90 Shenzhen close on 1,177,909,641 shares, market capitalization is RMB 1,070.60B; TTM (2025Q3-2026Q2) revenue of RMB 65.229B and parent net profit of RMB 20.453B give 52.3x TTM P/E and 16.4x TTM P/S. The 2026 semi-annual report (filed 2026-08-22) shows revenue of RMB 41.778B (+182.49%) and parent net profit of RMB 13.651B (+241.70%), with module unit sales of 18.99M (+109.8%), a derived blended ASP of about RMB 2,178 per unit (+36.6%) and module gross margin of 46.59% against 39.96% a year earlier, confirming aggregate module demand. But first-half operating cash flow was only RMB 1.800B, converting at 13.2%, split between RMB 3.368B in Q1 (58.7%) and -RMB 1.568B in Q2 (-19.8%); top-five receivables concentration rose from 65.66% at end-2025 to 72.49%; and long-term payables - identified in Hong Kong note 19 as a redemption liability for TeraHop investors' repurchase rights - grew from RMB 0.900B to RMB 5.057B, leaving the group in net debt of RMB 0.489B at 2026-06-30 rather than net cash. Separating the 3.5-year earnings-growth horizon from the 3.31-year holding period (2026-09-09 to 2029-12-31), a 25x exit at an 8%-10% required return implies parent net profit compounding 17.2%-19.3% from the Q2-annualized RMB 31.667B, against a base case of 15.6%; weighting the scenarios 30/40/30 gives equity value of RMB 1,259.3-1,322.4B, or 5.0%-6.6% annualized - 1.4 to 5.0 points below the hurdle (widening the bull or bear exit multiple alone still falls short; only widening both reaches 6.8%-8.3%, whose upper end clears 8% but not 10%). Hence cautious at medium conviction.",
+    "period": "2026H2",
+    "versionType": "initial",
+    "versionLabel": "2026H2 Initial Coverage",
+    "moduleContract": "heading-comment-v1",
+    "chainLayer": "optical",
+    "coverageTier": "full",
+    "chainRole": "architecture-check",
+    "stance": "cautious",
+    "conviction": "medium",
+    "priceAsOf": "2026-09-09",
+    "reportedPeriod": "H1 2026",
+    "related": [
+      "coherent-2026",
+      "aaoi-2026",
+      "corning-2026",
+      "arista-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "pluggable-volume-asp",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "光模块合计销量与推算混合 ASP",
+          "en": "Aggregate optical-module unit sales and derived blended ASP"
+        },
+        "trigger": {
+          "zh": "光通信收发模块合计销量继续放量，且合计混合 ASP 不因 800G 年降与 1.6T 成为主体而回落",
+          "en": "aggregate optical-transceiver unit sales keep ramping while the aggregate blended ASP does not fall back as 800G prices erode and 1.6T becomes the bulk of the mix"
+        },
+        "latest": {
+          "zh": "2026-08-22 披露的《2026 年半年度报告》（未经审计，报告期截至 2026-06-30）：光通信收发模块半年产能 2,215 万只、产量 1,886 万只、销量 1,899 万只，收入 413.55 亿元（+186.56%）；上年同期为 1,161 万只 / 940 万只 / 905 万只与 144.32 亿元。据此推算混合 ASP 约 2,178 元/只，对上年同期约 1,595 元/只上升 36.6%，销量同比 +109.8%。收入增长为乘性关系（(1+109.8%)×(1+36.6%)−1≈186.6%，含交乘项，非各占一半；按对数份额销量约占 70%、ASP 约占 30%）。评级：within——**该评级只针对上述合计口径指标**（合计销量与合计混合 ASP），两个分支本期均成立；可插拔与共封装之间的相对采用强度不在本项范围内，由 `copackaged-vs-pluggable-mix` 单独评为 unclear。证据边界：ASP 为「分产品收入÷销量」推算值，不是发行人披露口径，且销量按万只披露，精度只到百元级；半年报未披露 1.6T 的收入或占比，因此 ASP 上升有多少来自 1.6T、多少来自 800G 内部结构无法拆分；产能为半年口径，不可与 2025 全年 2,806 万只直接比较。港交所同日中期业绩公告为同一口径，未提供额外拆分。口径提示：全部数量与 ASP 均为光通信收发模块**合计**口径，不含可插拔/共封装分形态拆分；灼识咨询的第一名是**收入规模**排名而非出货量排名，本项不据此主张出货量第一。",
+          "en": "The 2026 Semi-Annual Report disclosed 2026-08-22 (unaudited, period ended 2026-06-30) reports half-year optical-transceiver capacity of 22.15M units, output of 18.86M and unit sales of 18.99M on revenue of RMB 41.355B (+186.56%), against 11.61M / 9.40M / 9.05M units and RMB 14.432B a year earlier. Derived blended ASP is about RMB 2,178 per unit, up 36.6% from about RMB 1,595, with units up 109.8% year over year. Revenue growth is multiplicative ((1+109.8%)x(1+36.6%)-1 = 186.6%, including an interaction term, so the legs are not equal halves; on a log-share basis volume is about 70% and ASP about 30%). Reading: within - **this grade applies only to the aggregate measures defined above** (aggregate unit sales and aggregate blended ASP); the relative adoption strength of pluggable versus co-packaged optics is out of scope here and is graded separately as unclear under `copackaged-vs-pluggable-mix`. Both legs of the trigger (volume still ramping, blended ASP not falling back) hold this period. Evidence limits: ASP is derived as product revenue divided by unit sales rather than an issuer-disclosed figure, and units are reported in tens of thousands so precision is only to the hundred-yuan level; the interim discloses no 1.6T revenue or mix, so the split between 1.6T uplift and within-800G mix cannot be separated; capacity is a half-year figure and is not directly comparable with the 28.06M full-year 2025 number. The HKEX interim announcement of the same date carries the same wording and adds no breakdown. Basis note: all volumes and ASP figures are **aggregate** optical-transceiver measures with no pluggable/co-packaged form-factor split, and CIC's first-place ranking is by **revenue**, not shipments, so no shipment-leadership claim is made here."
+        },
+        "nextCheck": "2026 年年度报告的产能/产量/销量与分产品收入 / capacity, output, unit sales and product revenue in the 2026 annual report",
+        "nextCheckDate": "2027-04",
+        "reading": "within",
+        "readingAsOf": "2026-08-22"
+      },
+      {
+        "id": "module-gross-margin",
+        "thesis": "bear",
+        "theme": "pricing",
+        "metric": {
+          "zh": "光模块毛利率",
+          "en": "Optical module gross margin"
+        },
+        "trigger": {
+          "zh": "毛利率自 46.59%（已核验区间内最高）向 40% 以下回落，且公司归因于价格而非产品结构",
+          "en": "gross margin falls from 46.59% - the highest across the verified span - toward below 40% and the company attributes it to price rather than product mix"
+        },
+        "latest": {
+          "zh": "2026-08-22 披露的半年报：光通信收发模块毛利率 46.59%，上年同期 39.96%（+6.63 个百分点），2025 全年 42.61%；由 2025 年报全年数减半年报上半年数推算的 2025 下半年约 44.27%。合并口径上半年毛利率 46.25%（收入 417.78 亿元、营业成本 224.55 亿元）。净利率 32.68%，2023/2024/2025 分别为 20.28%/21.67%/28.24%。评级：within——毛利率仍在上行，触发条件未成立。证据边界：46.59% 是本报告已核验区间（2024 全年 34.65%、2025 上半年 39.96%、2025 全年 42.61%、2026 上半年 46.59%）内的最高值，更早年度的完整序列未取数，故不作无界的「历史最高」断言，公司未给出成本结构拆解或毛利率指引，因此「结构性还是周期性」这一问题本身无法由本期披露回答；分产品毛利率只在年报与半年报披露，三季度报告只能推算合并口径。",
+          "en": "The semi-annual report disclosed 2026-08-22 shows optical-transceiver gross margin of 46.59% against 39.96% a year earlier (+6.63 points) and 42.61% for full-year 2025; subtracting the interim from the full-year 2025 annual report implies about 44.27% for H2 2025. Consolidated first-half gross margin was 46.25% (revenue RMB 41.778B, cost of sales RMB 22.455B). Net margin was 32.68%, against 20.28% / 21.67% / 28.24% in 2023 / 2024 / 2025. Reading: within - margin is still rising and the trigger does not fire. Evidence limits: 46.59% is the highest across the span this report verified (FY2024 34.65%, 2025 H1 39.96%, FY2025 42.61%, 2026 H1 46.59%); the complete earlier series was not retrieved, so no unbounded all-time-high claim is made, and the company provides no cost bridge or margin guidance, so this period's disclosure cannot itself answer whether the level is structural or cyclical; product-level gross margin appears only in annual and interim reports, and the Q3 report supports a consolidated derivation only."
+        },
+        "nextCheck": "2026 年三季度报告可推算的合并毛利率，分产品毛利率待年报 / consolidated gross margin derivable from the Q3 2026 report, with product-level margin in the annual report",
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-08-22"
+      },
+      {
+        "id": "cash-conversion",
+        "thesis": "bear",
+        "theme": "execution",
+        "metric": {
+          "zh": "经营现金流转化率（单季口径）",
+          "en": "Operating cash-flow conversion (standalone quarter)"
+        },
+        "trigger": {
+          "zh": "单季经营活动现金流量净额/归母净利连续两个季度低于 30%，且应收账款与存货继续快于收入增长",
+          "en": "standalone-quarter operating cash flow stays below 30% of parent net profit for two consecutive quarters while receivables and inventory keep growing faster than revenue"
+        },
+        "latest": {
+          "zh": "公式：转化率＝经营活动产生的现金流量净额 ÷ 归属于上市公司股东的净利润。2026-08-22 半年报：H1 经营现金流 17.997 亿元（上年同期 32.185 亿元，-44.08%），对 136.51 亿元归母净利转化率 13.2%（上年同期 80.6%、2025 全年 100.9%）。结合 2026-04-17 一季报（经营现金流 33.676 亿元、归母净利 57.345 亿元）倒推单季：**Q1 为 58.7%，Q2 为 −15.679/79.166＝−19.8%，即第二季度经营现金流为负**。上半年存货增加 72.39 亿元、经营性应收增加 92.42 亿元；应收账款期末 150.01 亿元（期初 62.77 亿元）、存货 198.26 亿元（期初 126.81 亿元）。触发条件的第二个分支问的是**余额增速是否快于收入**，故直接按季度环比评估：Q2 应收账款由 95.36 亿元增至 150.01 亿元（+57.32%）、存货由 156.72 亿元增至 198.26 亿元（+26.50%），同期收入由 194.96 亿元增至 222.81 亿元（+14.29%）——**两者均快于收入，该分支本期成立**。周转天数另按**期末余额**（非平均余额）推算：DSO 由 2025 年约 60 天升至约 65 天（恶化），存货周转由约 209 天降至约 160 天（改善）；在余额上升期，期末余额法算出的天数**高于**平均余额法（本期 DSO 64.99 天 vs 46.09 天、存货 159.81 天 vs 131.01 天）。评级：unclear。触发条件为合取：余额增速分支成立，但转化率分支要求「连续两个季度低于 30%」，目前只有 Q2 一个负季度（Q1 为 58.7%），故合取未成立。证据边界：营运资金占用可以解释现金流缺口，但**回款质量本期未获验证**——半年报未披露应收账龄结构的同比变化或回款率，不能据此断言回款质量良好或恶化。",
+          "en": "Formula: conversion = net cash from operating activities / net profit attributable to shareholders of the listed company. Per the 2026-08-22 semi-annual report, H1 operating cash flow was RMB 1.7997B (RMB 3.2185B a year earlier, -44.08%), converting at 13.2% of RMB 13.651B of parent net profit (80.6% a year earlier, 100.9% in FY2025). Backing out the standalone quarters against the 2026-04-17 Q1 report (operating cash flow RMB 3.3676B, parent net profit RMB 5.7345B): **Q1 was 58.7% and Q2 was -1.5679/7.9166 = -19.8%, i.e. second-quarter operating cash flow was negative**. Inventory rose RMB 7.239B and operating receivables RMB 9.242B in the half; receivables ended at RMB 15.001B (RMB 6.277B at period start) and inventory at RMB 19.826B (RMB 12.681B). The trigger's second branch asks whether balances outgrew revenue, so it is evaluated directly on a sequential quarterly basis: in Q2 receivables rose from RMB 9.536B to RMB 15.001B (+57.32%) and inventory from RMB 15.672B to RMB 19.826B (+26.50%), against revenue rising from RMB 19.496B to RMB 22.281B (+14.29%) - **both outgrew revenue, so that branch holds this period**. Turnover days are separately computed on **ending balances** (not averages): DSO rose from about 60 days in 2025 to about 65 days (worse) while inventory turnover fell from about 209 to about 160 days (better); with balances rising, the ending-balance convention produces **higher** days than the average-balance convention (this period DSO 64.99 versus 46.09, inventory 159.81 versus 131.01). Reading: unclear. The trigger is conjunctive: the balance-growth branch holds, but the conversion branch requires two consecutive quarters below 30% and only Q2 is negative (Q1 was 58.7%), so the conjunction does not hold. Evidence limits: working-capital absorption explains the cash-flow gap, but **collection quality is unverified this period** - the interim discloses no year-over-year receivable-ageing shift or collection rate, so neither sound nor deteriorating collection quality can be asserted."
+        },
+        "nextCheck": "2026 年三季度报告的经营活动现金流量净额与应收/存货余额 / operating cash flow and receivable/inventory balances in the Q3 2026 report",
+        "nextCheckDate": "2026-10",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-22"
+      },
+      {
+        "id": "customer-concentration",
+        "thesis": "bear",
+        "theme": "concentration",
+        "metric": {
+          "zh": "客户集中度与关联方销售",
+          "en": "Customer concentration and related-party sales"
+        },
+        "trigger": {
+          "zh": "前五名客户收入占比继续上升，或单一客户超过 30%，或关联方（联营企业）销售占比重新扩大",
+          "en": "the top-five customer revenue share keeps rising, any single customer exceeds 30%, or sales to associates re-expand as a share of revenue"
+        },
+        "latest": {
+          "zh": "2026-03-31 披露的《2025 年年度报告》：前五名客户合计销售 290.56 亿元、占年度销售总额 75.98%（客户 A 24.06%、B 18.26%、C 14.22%、D 11.34%、E 8.10%），其中关联方销售占年度销售总额 8.10%；对联营企业销售商品 30.97 亿元，上年仅 373.35 万元。按欠款方归集的前五名应收账款及合同资产占比为 **65.66%**（p145）。2026-08-22 半年报：同口径前五名占比升至 **72.49%**（p103），**上升 6.83 个百分点**——应收集中度是**恶化**而不是改善；第一名由 24.54% 降至 20.86%，但前五合计上升。同期对联营企业销售商品 15.39 亿元（占本期收入 3.68%），上年同期 17.66 亿元（11.94%），关联方销售占比下降；日常关联交易表中的交易对手仅列为「B 公司」、获批额度 10 亿美元；关联方应收账款 5.28 亿元（期初 3.37 亿元）。评级：unclear。触发条件的主指标是**收入口径**的前五名客户占比，而半年报不披露该表，本期不可观测；两个可观测指标方向相反（应收集中度上升、关联方销售占比下降），且 75.98% 与 72.49% 分母不同，不可互相替代。公司不披露客户名称，本报告不对客户身份作任何归属。",
+          "en": "The 2025 Annual Report disclosed 2026-03-31 reports top-five customer sales of RMB 29.056B, or 75.98% of annual sales (Customer A 24.06%, B 18.26%, C 14.22%, D 11.34%, E 8.10%), with related-party sales equal to 8.10% of annual sales; goods sold to associates were RMB 3.097B against only RMB 3.7335M the prior year. Top-five receivables and contract assets by debtor were **65.66%** (p145). Per the 2026-08-22 semi-annual report, the same measure rose to **72.49%** (p103), an increase of **6.83 percentage points** - receivables concentration **worsened** rather than improved; the largest single debtor fell from 24.54% to 20.86%, but the top-five aggregate rose. Over the same period goods sold to associates were RMB 1.539B (3.68% of revenue) against RMB 1.766B (11.94%) a year earlier, so the related-party share fell; the ordinary-course related-party table names the counterparty only as 'Company B' under a USD 1.0B approved quota, and receivables from related parties were RMB 528M (RMB 337M at period start). Reading: unclear. The trigger's primary metric is the **revenue-based** top-five customer share, which the interim does not publish, so it is unobservable this period; the two observable measures point in opposite directions, and 75.98% and 72.49% rest on different denominators and cannot substitute for one another. The company does not name customers and this report attributes no customer identity."
+        },
+        "nextCheck": "2026 年年度报告的前五名客户表与关联交易披露 / the top-five customer table and related-party disclosure in the 2026 annual report",
+        "nextCheckDate": "2027-04",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-22"
+      },
+      {
+        "id": "redemption-liability",
+        "thesis": "bear",
+        "theme": "leverage-solvency",
+        "metric": {
+          "zh": "赎回负债（TeraHop 投资者回购权）",
+          "en": "Redemption liability (TeraHop investors' repurchase rights)"
+        },
+        "trigger": {
+          "zh": "赎回负债自 2026-06-30 的 50.57 亿元基线继续扩大、触发事件发生，或公司需以现金履行回购义务",
+          "en": "the redemption liability expands further from its 2026-06-30 baseline of RMB 5.057B, a trigger event occurs, or the company must settle the repurchase obligation in cash"
+        },
+        "latest": {
+          "zh": "2026-08-22 半年报合并资产负债表：长期应付款期末 50.57 亿元、期初 9.00 亿元，半年增加 41.57 亿元；附注 48 未按性质拆分；外币项目附注显示该余额为美元计价 7.425 亿美元（折算汇率 6.8109）。港股中期业绩公告附注 19 把同一金额识别为**赎回负债——附带优先权利的金融工具**：TeraHop Pte. Ltd. 与第三方投资者的股东协议约定投资者有权在特定触发事件发生时要求发行人回购其股权投资；因发行人无法避免该等事件发生，该义务符合金融负债定义，按赎回金额现值初始确认、其后按摊余成本计量；若合约届满而未赎回，账面值将重分类至权益。截至 2026-06-30，TeraHop 累计收到现金注资 4.78 亿美元（约 37.21 亿元），公司持股比例由 67.71% 降至 66.31%。计入该负债后，2026-06-30 净头寸为**净负债 4.89 亿元**（现金等价物 63.64 − 借款及租赁 17.95 − 赎回负债 50.57），而非净现金。评级：unclear。三个分支逐一说明：（1）**扩张分支**——上半年 9.00→50.57 亿元的增加是**建立基线的观测**，它使本项进入监测，而不是「继续扩大」的检验结果；本项以 **2026-06-30 的 50.57 亿元为扩张测试基线**，比较口径为其后各资产负债表日的长期应付款余额（并另行核对美元原值以剥离汇率影响），首个裁决点为 **2026 年年度报告（2027-04）**；截至 2026-09-09 不存在 6 月 30 日之后的观测，故该分支本期**无法裁决**，而非不成立。（2）**赎回事件分支**——未见触发事件发生的披露。（3）**现金结算分支**——未见以现金履行回购义务的披露。此外披露未给出触发事件清单、时间窗或赎回价格公式，因此触发概率与时点无法评估，也无法判断它最终会以现金结算还是重分类至权益。",
+          "en": "Per the consolidated balance sheet in the 2026-08-22 semi-annual report, long-term payables were RMB 5.057B at period end against RMB 0.900B at period start, up RMB 4.157B in the half; note 48 gives no breakdown by nature, and the foreign-currency note shows the balance is USD-denominated at USD 742.5M (translated at 6.8109). Note 19 of the Hong Kong interim identifies the same amount as a **redemption liability - a financial instrument carrying preferential rights**: under a shareholders' agreement between TeraHop Pte. Ltd. and third-party investors, the investors may require the issuer to repurchase their equity investment upon specified trigger events; because the issuer cannot avoid those events, the obligation meets the definition of a financial liability, initially recognized at the present value of the redemption amount and subsequently measured at amortized cost, and if the contract expires unredeemed the carrying amount is reclassified to equity. As of 2026-06-30 TeraHop had received cumulative cash injections of USD 478M (about RMB 3.721B) and the group's holding fell from 67.71% to 66.31%. Including this liability, the 2026-06-30 position is **net debt of RMB 0.489B** (cash equivalents 6.364 - borrowings and leases 1.795 - redemption liability 5.057), not net cash. Reading: unclear, taking the three branches in turn. (1) **Expansion branch** - the RMB 0.900B to RMB 5.057B increase in the half is the **baseline-establishing observation** that put this item under monitoring, not a test result for 'expands further'. This item takes the **2026-06-30 balance of RMB 5.057B as the baseline for the prospective expansion test**, comparing long-term payables at each subsequent balance-sheet date (with the USD principal checked separately to strip out currency movement), with the first adjudication point at the **2026 annual report (2027-04)**. As of 2026-09-09 no observation after 30 June exists, so this branch is **not adjudicable this period** rather than failing. (2) **Redemption-event branch** - no disclosure that a trigger event has occurred. (3) **Cash-settlement branch** - no disclosure that the repurchase obligation has been settled in cash. The disclosure also gives no list of trigger events, time window or redemption-price formula, so neither the probability nor the timing can be assessed, and whether it ultimately settles in cash or reclassifies to equity is unknown."
+        },
+        "nextCheck": "2026 年年度报告的长期应付款附注与港股年报附注 / the long-term payables note in the 2026 annual report and the H-share annual-report note",
+        "nextCheckDate": "2027-04",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-22"
+      },
+      {
+        "id": "us-1260h-ndaa805",
+        "thesis": "bear",
+        "theme": "regulatory",
+        "metric": {
+          "zh": "1260H 列名与 NDAA §805 国防部采购限制",
+          "en": "Section 1260H listing and the NDAA Section 805 DoD procurement restrictions"
+        },
+        "trigger": {
+          "zh": "§805 间接条款（2027-06-30 生效）的实施细则被证实覆盖公司产品，或任一超过 10% 的客户因国防采购敞口调整供应份额；或列名升级为实体清单/出口管制/关税行动",
+          "en": "the implementing rules for the Section 805 indirect prohibition (effective 2027-06-30) are confirmed to cover the company's products, or any customer above 10% of revenue reallocates supply share over defense-procurement exposure; or the designation escalates to the Entity List, export controls or tariff action"
+        },
+        "latest": {
+          "zh": "2026-06-10 自愿性信息披露公告：公司确认美国国防部于 2026-06-08（美国时间）将其列入「1260H 清单」，称认定不符合客观事实、公司既非军工亦非军民融合企业，本次事件未对经营产生实质性影响，订单获取、生产运营及供应链一切正常。法定后果无需进一步升级即已排定：FY2024《国防授权法》（Pub. L. 118-31）第 805 条规定，国防部长不得与 1260H 清单实体及其控制的实体签订、续签或延长采购货物、服务或技术的合同（**2026-06-30 生效**），亦不得签订、续签或延长包含该等实体所产货物或服务的采购合同（**2027-06-30 生效**）；该条同时载明不适用于生效日前签订的既有合同（含修改、延长、续签）、不适用于 41 U.S.C. §105 定义的「部件」，且国防部长可依申请豁免。同期海外业务收入 396.15 亿元（占收入 94.8%）、境外模块销量 1,685 万只。评级：unclear。**不能把 94.8% 的海外收入等同于受影响收入**——公司披露的客户是云服务厂商与 AI 算力方案商，而非美国国防部；传导路径只存在于这些客户自身向国防部供货的那部分业务，其规模公司未披露。截至 2026-09-09，巨潮资讯网未见实体清单、出口管制、关税行动或客户份额调整的披露；「未披露」不等于「未发生」。缺的是间接条款的 DFARS 实施细则、「部件」豁免是否覆盖光模块，以及客户侧可观测的反应。",
+          "en": "The voluntary disclosure of 2026-06-10 confirms the US Department of War added the company to the 'Section 1260H List' on June 8, 2026 (US time); the company states the grounds are inconsistent with the facts, that it is neither a military nor a military-civil fusion enterprise, and that the event has had no material effect on operations, with order intake, production and supply chain normal. The statutory consequences are already scheduled and need no further escalation: Section 805 of the FY2024 National Defense Authorization Act (Pub. L. 118-31) bars the Secretary of Defense from entering into, renewing or extending contracts to procure goods, services or technology with a 1260H-listed entity or an entity it controls (**effective 2026-06-30**), and from contracts for goods or services that include goods or services produced or developed by such an entity (**effective 2027-06-30**); the section also does not reach contracts entered into before the relevant effective date (including modification, extension or renewal), does not apply to 'components' as defined in 41 U.S.C. Sec. 105, and allows the Secretary to grant waivers on request. Overseas revenue in the period was RMB 39.615B (94.8% of revenue) on 16.85M modules sold abroad. Reading: unclear. **The 94.8% overseas share cannot be equated with affected revenue** - the disclosed customers are cloud service providers and AI compute providers, not the Department of Defense, and the transmission path exists only through whatever portion of those customers' business supplies DoD, a magnitude the company does not disclose. As of 2026-09-09 no Entity List, export-control, tariff or customer-share disclosure appears on cninfo; absence of disclosure is not evidence of absence. What is missing is the DFARS implementing rule for the indirect prohibition, whether the 'components' exclusion covers optical modules, and any observable customer-side response."
+        },
+        "nextCheck": "§805 间接条款的 DFARS 实施细则与客户国防采购敞口披露（事件驱动） / DFARS implementing rules for the Section 805 indirect prohibition and customer defense-procurement disclosure (event-driven)",
+        "nextCheckDate": "2027-06",
+        "reading": "unclear",
+        "readingAsOf": "2026-09-09"
+      },
+      {
+        "id": "copackaged-vs-pluggable-mix",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "共封装 vs 可插拔的披露口径与采用强度",
+          "en": "Co-packaged versus pluggable disclosure basis and adoption strength"
+        },
+        "trigger": {
+          "zh": "出现可插拔与 NPO/XPO/CPO/OCS 的分形态出货或收入披露，或 scale-out/scale-up/scale-across 的场景拆分；据此判断可插拔单位需求是否被共封装分流",
+          "en": "a disclosure basis appears splitting shipments or revenue between pluggable and NPO/XPO/CPO/OCS, or by scale-out / scale-up / scale-across scenario, allowing a judgment on whether co-packaged optics is diverting pluggable unit demand"
+        },
+        "latest": {
+          "zh": "2026-08-22 半年报：p21 的生产经营表只给出「光通信收发模块」的**合计**产能 2,215 万只、产量 1,886 万只、销量 1,899 万只与收入 413.55 亿元，**没有按可插拔 / NPO / XPO / CPO / OCS 分形态拆分，也没有 scale-out / scale-up / scale-across 的场景拆分**；灼识咨询的「连续五年第一」是**收入规模**排名，不是出货量排名。定性信息：1.6T 硅光模块进入规模放量阶段、出货量逐季攀升；XPO、NPO「均在定制开发或研发完善中」；公司参与发起 XPO MSA 与 Open CPX MSA；OFC 2026 演示 12.8T 8xDR8 XPO、6.4T 4xDR8 NPO 与基于 TFLN MZM 的 1.6T OSFP 2xLR4；公司称 CPO 仍处于开发阶段，预计长期与可插拔共存。评级：unclear——**架构校验尚未裁决**。合计出货量证明的是模块总需求，不能推断可插拔在 scale-up 场景中的相对采用强度；本期不存在可用于区分两条路线的披露口径。",
+          "en": "Per the 2026-08-22 semi-annual report, the production table on p21 gives only **aggregate** optical-transceiver capacity of 22.15M units, output of 18.86M, unit sales of 18.99M and revenue of RMB 41.355B, **with no split by pluggable / NPO / XPO / CPO / OCS form factor and no scale-out / scale-up / scale-across scenario breakdown**; CIC's 'first for five consecutive years' is a **revenue** ranking, not a shipment ranking. Qualitative disclosure: 1.6T silicon-photonics modules entered volume ramp with shipments climbing quarter by quarter; XPO and NPO are described as 'in custom development or R&D refinement'; the company is a founding participant in the XPO MSA and the Open CPX MSA; at OFC 2026 it demonstrated a 12.8T 8xDR8 XPO module, a 6.4T 4xDR8 NPO module and a TFLN MZM-based 1.6T OSFP 2xLR4; and it states CPO remains in development and is expected to coexist with pluggables long term. Reading: unclear - **the architecture check is unresolved**. Aggregate volumes establish total module demand but cannot establish the relative adoption strength of pluggables in scale-up, and no disclosure basis capable of separating the two paths exists this period."
+        },
+        "nextCheck": "2026 年年度报告的分产品/分形态披露，或客户平台公告点名共封装方案 / product and form-factor disclosure in the 2026 annual report, or a customer platform announcement naming co-packaged solutions",
+        "nextCheckDate": "2027-04",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-22"
+      }
+    ],
+    "stanceRationale": {
+      "zh": "以 2026-09-09 收盘 908.90 元、市值 10,706.02 亿元计，TTM P/E 52.3x、上半年年化 39.2x、第二季度年化 33.8x。把盈利增长期（第二季度年化运行率 → 2029 财年，3.5 年）与持有期（2026-09-09 → 2029-12-31，3.31 年）分开后：25 倍退出、8%–10% 要求回报下，现价隐含归母净利自 Q2 年化 316.67 亿元复合增长 17.2%–19.3%，本报告基准情景为 15.6%。决定立场的是加权预期回报：30% 牛市 / 40% 基准 / 30% 熊市（净利率路径统一自 Q2 年化隐含的 35.53% 起算）加权后权益价值 12,593–13,224 亿元，对应 3.31 年 5.0%–6.6% 年化，低于门槛 1.4–5.0 个百分点；单独放宽牛市或熊市退出倍数仍不达标（5.7%–7.7%），只有两者同时放宽才得 6.8%–8.3%，上沿越过 8% 但不到 10%。这是明确的负偏斜，故为谨慎；基准情景仍能交付 6.4%–10.1%，生意在变好、问题在价格，故不是 bearish-avoid。",
+      "en": "At the 2026-09-09 close of RMB 908.90 and a market capitalization of RMB 1,070.60B, the shares trade at 52.3x TTM earnings, 39.2x H1-annualized and 33.8x Q2-annualized. Separating the earnings-growth horizon (Q2-annualized run rate to FY2029, 3.5 years) from the holding period (2026-09-09 to 2029-12-31, 3.31 years): at a 25x exit and an 8%-10% required return, today's price implies parent net profit compounding 17.2%-19.3% from the Q2-annualized RMB 31.667B, against this report's base case of 15.6%. What settles the stance is the probability-weighted expected return: weighting 30% bull / 40% base / 30% bear (every net-margin path starting from the 35.53% implied by the Q2 annualization) gives equity value of RMB 1,259.3-1,322.4B, or 5.0%-6.6% annualized over 3.31 years - 1.4 to 5.0 points below the hurdle; widening the bull or the bear exit multiple alone still falls short (5.7%-7.7%), and only widening both reaches 6.8%-8.3%, whose upper end clears 8% but not 10%. That is a clearly negative skew, hence cautious; the base case still delivers 6.4%-10.1% and the business is improving rather than deteriorating, so this is not bearish-avoid."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若 2026 年年报确认模块毛利率仍在 44% 以上且销量继续同比翻倍、经营现金流/归母净利在单季口径回到 50% 以上、前五名应收集中度不再上升、赎回负债不再扩大，且 §805 间接条款被证实不覆盖公司产品，则上调至 neutral-watch 或 constructive。",
+        "en": "Move to neutral-watch or constructive if the 2026 annual report confirms module gross margin still above 44% with unit sales still roughly doubling year over year, operating cash flow back above 50% of parent net profit on a standalone-quarter basis, top-five receivables concentration no longer rising, the redemption liability no longer expanding, and the Section 805 indirect prohibition confirmed not to cover the company's products.",
+        "monitoringIds": [
+          "module-gross-margin",
+          "pluggable-volume-asp",
+          "cash-conversion",
+          "customer-concentration",
+          "redemption-liability",
+          "us-1260h-ndaa805"
+        ]
+      },
+      "downgrade": {
+        "zh": "若模块毛利率跌破 40%（或三季报推算的合并毛利率环比下滑超过 3 个百分点）、半年度销量同比增速跌破 30%、单季经营现金流连续两个季度为负、赎回负债被触发或继续大幅扩大，或 §805 间接条款被证实覆盖公司产品且任一超过 10% 的客户明确调整供应份额，则下调至 bearish-avoid。",
+        "en": "Move to bearish-avoid if module gross margin falls below 40% (or the consolidated margin derived from the Q3 report drops more than three points sequentially), half-year unit-sales growth falls below 30% year over year, standalone-quarter operating cash flow is negative for two consecutive quarters, the redemption liability is triggered or expands materially further, or the Section 805 indirect prohibition is confirmed to cover the company's products and any customer above 10% of revenue explicitly reallocates supply share.",
+        "monitoringIds": [
+          "module-gross-margin",
+          "pluggable-volume-asp",
+          "cash-conversion",
+          "us-1260h-ndaa805",
+          "redemption-liability"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-09-09",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 908.9,
+        "note": {
+          "zh": "首次覆盖裁定。30/40/30 情景网格加权年化回报 5.0%–6.6%，低于 8%–10% 要求回报 1.4–5.0 个百分点，负偏斜成立。",
+          "en": "Initiation ruling. The 30/40/30 scenario grid weights to 5.0%-6.6% annualized, 1.4 to 5.0 points below the 8%-10% required return, establishing a negative skew."
+        }
+      }
+    ]
   }
 ]

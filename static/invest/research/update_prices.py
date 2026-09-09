@@ -54,6 +54,7 @@ MARKET_SESSIONS: Final = {
     ".KS": MarketSession("Asia/Seoul", time(15, 30)),
     ".T": MarketSession("Asia/Tokyo", time(15, 30)),
     ".SS": MarketSession("Asia/Shanghai", time(15, 0)),
+    ".SZ": MarketSession("Asia/Shanghai", time(15, 0)),
     ".HK": MarketSession("Asia/Hong_Kong", time(16, 0)),
 }
 DEFAULT_MARKET_SESSION: Final = MarketSession("America/New_York", time(16, 0))

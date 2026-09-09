@@ -848,6 +848,17 @@
       "bookRelativePct": 7.9,
       "daysHeld": 31,
       "stale": false
+    },
+    {
+      "reportId": "innolight-2026",
+      "stance": "cautious",
+      "conviction": "medium",
+      "stanceDate": "2026-09-09",
+      "priceAtStance": 908.9,
+      "benchmarkSymbol": "SMH",
+      "status": "pending",
+      "daysHeld": 0,
+      "stale": false
     }
   ],
   "closed": [
