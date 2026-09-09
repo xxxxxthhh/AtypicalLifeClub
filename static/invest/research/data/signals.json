@@ -2024,5 +2024,35 @@
       "broadcom-2026:debt-load",
       "broadcom-2026:valuation-denominator"
     ]
+  },
+  {
+    "id": "innolight-h1-2026-pluggable-volume-asp-margin",
+    "date": "2026-08-22",
+    "title": {
+      "zh": "中际旭创 2026 H1：可插拔模块销量 1,899 万只（+109.8%）、推算混合 ASP +36.6%、模块毛利率 46.59%，光连接层对 GPU/ASIC 加速给出正面确认",
+      "en": "Zhongji Innolight H1 2026: pluggable module unit sales of 18.99M (+109.8%), derived blended ASP +36.6% and module gross margin of 46.59% give the optical layer a positive confirmation of GPU/ASIC acceleration"
+    },
+    "detail": {
+      "zh": "据中际旭创 2026-08-22 在巨潮资讯网披露的《2026 年半年度报告》（未经审计，报告期截至 2026-06-30）：营业收入 417.78 亿元（同比 +182.49%）、归属于上市公司股东的净利润 136.51 亿元（+241.70%）、扣非归母净利 130.92 亿元（+229.32%）。光通信收发模块半年产能 2,215 万只、产量 1,886 万只、销量 1,899 万只，收入 413.55 亿元（+186.56%）、毛利率 46.59%；上年同期为 1,161 万只 / 940 万只 / 905 万只、收入 144.32 亿元、毛利率 39.96%。据此推算混合 ASP 由约 1,595 元/只升至约 2,178 元/只（+36.6%），销量同比 +109.8%。海外业务收入 396.15 亿元（+209.9%），占收入 94.8%，境外模块销量 1,685 万只。公司援引各公司财报称 2026 年第二季度微软、亚马逊、Meta、谷歌合计资本开支 1,649 亿美元（同比约 +86%）。对 chip-vs-downstream 而言，本次读数直接检验该规则的前件「网络、光连接和设施订单没有同步确认」：全球出货量最大的高速可插拔光模块厂商同时给出量、价、毛利率三条向上的曲线，前件在光连接这一支上不成立，因此本期不需要按该规则优先怀疑提前囤货或节奏错配。证据边界：ASP 为「分产品收入÷销量」推算值、非发行人披露口径，销量按万只披露；半年报未披露 1.6T 的收入或占比，也不披露客户名称（前五名客户口径只在年报出现，2025 年为 75.98%）；同期经营活动现金流净额仅 17.997 亿元（-44.08%），对归母净利的转化率为 13.2%，因此这是出货与利润的确认，不是现金回收的确认。",
+      "en": "Per Zhongji Innolight's 2026 Semi-Annual Report filed on cninfo on 2026-08-22 (unaudited, period ended 2026-06-30): revenue was RMB 41.778B (+182.49% YoY), parent net profit RMB 13.651B (+241.70%) and parent net profit ex-exceptionals RMB 13.092B (+229.32%). Optical-transceiver half-year capacity was 22.15M units, output 18.86M and unit sales 18.99M, on revenue of RMB 41.355B (+186.56%) at a 46.59% gross margin, against 11.61M / 9.40M / 9.05M units, RMB 14.432B and 39.96% a year earlier. Derived blended ASP therefore rose from about RMB 1,595 to about RMB 2,178 per unit (+36.6%) with units up 109.8%. Overseas revenue was RMB 39.615B (+209.9%), or 94.8% of the total, on 16.85M modules sold abroad. Citing the companies' own filings, Innolight reports combined Q2 2026 capex of USD 164.9B at Microsoft, Amazon, Meta and Google, up about 86% year over year. For chip-vs-downstream this reading directly tests the rule's antecedent that networking, optical and facility orders do not confirm: the largest shipper of high-speed pluggable optics by volume delivers rising volume, price and margin simultaneously, so the antecedent does not hold on the optical leg and the rule's instruction to first suspect pre-stocking or timing mismatch is not engaged this period. Evidence limits: ASP is derived as product revenue divided by unit sales rather than an issuer measure, and units are disclosed in tens of thousands; the interim discloses no 1.6T revenue or mix and names no customers (the top-five measure appears only in the annual report, at 75.98% for 2025); and net operating cash flow in the same period was only RMB 1.7997B (-44.08%), converting at 13.2% of parent net profit, so this confirms shipments and profit, not cash collection."
+    },
+    "crossChecks": [
+      "chip-vs-downstream"
+    ],
+    "tickers": [
+      "300308.SZ",
+      "COHR",
+      "AAOI",
+      "GLW",
+      "300502.SZ"
+    ],
+    "reportIds": [
+      "innolight-2026"
+    ],
+    "monitoringRefs": [
+      "innolight-2026:pluggable-volume-asp",
+      "innolight-2026:module-gross-margin",
+      "innolight-2026:cash-conversion"
+    ]
   }
 ]

@@ -613,6 +613,18 @@
       "sourceUrl": "https://www.tipranks.com/stocks/asx/earnings",
       "sourceType": "monitoring",
       "verifiedAt": "2026-09-08"
+    },
+    {
+      "reportId": "innolight-2026",
+      "company": "中际旭创",
+      "timezone": "Asia/Shanghai",
+      "expectedDate": "2026-10",
+      "precision": "month",
+      "status": "estimated",
+      "session": "not-applicable",
+      "sourceUrl": null,
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-09-09"
     }
   ]
 }

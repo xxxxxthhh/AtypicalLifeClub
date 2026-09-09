@@ -684,6 +684,18 @@
       "lastClose": 39.79,
       "changePct": 6.4,
       "currency": "USD"
+    },
+    {
+      "reportId": "innolight-2026",
+      "symbol": "300308.SZ",
+      "status": "ok",
+      "attemptedAt": "2026-09-09",
+      "baseDate": "2026-09-09",
+      "basePrice": 908.9,
+      "lastDate": "2026-09-09",
+      "lastClose": 908.9,
+      "changePct": 0.0,
+      "currency": "CNY"
     }
   ]
 }
