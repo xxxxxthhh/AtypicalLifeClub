@@ -441,6 +441,17 @@
         "zh": "则应把它当作贴现率/风险偏好层面的共同因子，而不是逐个公司的论点破裂；各报告需要重新锚定估值算术，但不应据此各自翻转立场。",
         "en": "then treat it as a common discount-rate / risk-appetite factor rather than as per-company thesis breakage; each report needs its valuation arithmetic re-anchored, but stances should not each be flipped on the move alone."
       }
+    },
+    {
+      "id": "export-control-escalation",
+      "if": {
+        "zh": "如果 AI 基建链条上的中国供应商被列入美方清单（1260H／实体清单／出口管制／关税行动），但其海外收入、客户份额与交付节奏没有同步出现可观测变化",
+        "en": "If a Chinese supplier in the AI-infrastructure chain is added to a US list (Section 1260H, the Entity List, export controls, or tariff action) but its overseas revenue, customer share, and delivery cadence show no matching observable change"
+      },
+      "then": {
+        "zh": "则先按清单等级与传导路径分级，不把列名本身直接等同于收入损失；只有在出现客户份额调整、许可证拒发或交付延迟等可观测证据时，才下调该公司及其下游客户的需求确认强度。",
+        "en": "then first grade the designation by list tier and transmission path rather than equating the listing itself with revenue loss; only downgrade the demand-confirmation strength of that company and its downstream customers once observable evidence appears — reallocated customer share, denied licences, or delivery slippage."
+      }
     }
   ]
 }
