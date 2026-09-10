@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-09T22:14:55Z",
+  "generatedAt": "2026-09-10T22:14:21Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-09-09T22:14:55Z"
+    "value": "2026-09-10T22:14:21Z"
   },
   "tasks": [
     {
-      "id": "earnings:oracle-2026:2026-09-10:T-1",
+      "id": "earnings:oracle-2026:2026-09-10:T",
       "reportId": "oracle-2026",
       "type": "research-update",
-      "window": "T-1",
+      "window": "T",
       "expectedDate": "2026-09-10",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     }
