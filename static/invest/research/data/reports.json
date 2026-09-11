@@ -6197,7 +6197,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-08-11",
+    "lastUpdate": "2026-09-11",
     "file": "/invest/research/reports/view.html?id=tsmc-2026",
     "markdownFiles": {
       "zh": "/invest/research/TSMC_深度研究报告_2026-07.md",
@@ -6280,13 +6280,13 @@
           "en": "7nm-and-below mix or monthly revenue falls materially below Q3 / full-year trajectory"
         },
         "latest": {
-          "zh": "2026 年 7 月月度营收（2026-08-10 提交的 6-K）：合并营收 NT$467,580M，较 2026 年 6 月（NT$442,680M）增长 5.6%，较 2025 年 7 月（NT$323,166M）增长 44.7%；2026 年 1 至 7 月累计 NT$2,872,064M，同比增长 37.0%。月度公告仅披露营收，不含制程结构、毛利率或客户明细。最新的结构读数仍为 2026Q2（2026-07-16）：收入 US$40.20B（同比 +33.7%），位于 $39.0-40.2B 指引区间上沿；7nm 及以下占晶圆收入 77%（Q1 为 74%）；HPC 环比增长 20%、占收入 66%；Q3 指引 US$44.6-45.8B。严格对照本监测项自身的触发条件（7nm 及以下结构或月度营收是否明显低于 Q3／全年轨迹）：7 月月度营收环比与同比均为增长，两个分支均未触发。",
-          "en": "July 2026 monthly revenue (6-K filed 2026-08-10): consolidated net revenue was NT$467,580M, up 5.6% from June 2026 (NT$442,680M) and up 44.7% on July 2025 (NT$323,166M); January-July 2026 totalled NT$2,872,064M, up 37.0% year over year. The monthly release reports revenue only and carries no node mix, margin or customer detail. The most recent mix reading remains Q2 2026 (2026-07-16): revenue US$40.20B (+33.7% YoY) at the top of the $39.0-40.2B guidance range, 7nm-and-below at 77% of wafer revenue (74% in Q1), HPC up 20% QoQ to 66% of revenue, and Q3 guidance of US$44.6-45.8B. Graded against this item's own trigger, which asks whether 7nm-and-below mix or monthly revenue falls materially below the Q3 / full-year trajectory: July monthly revenue rose both sequentially and year over year, so neither branch fired."
+          "zh": "2026 年 8 月合并营收 NT$514,806M，环比 +10.1%、同比 +53.3%；1 至 8 月累计 NT$3,386,870M，同比 +39.3%（2026-09-10 Form 6-K）。本次 advanced-node-utilization 评为 unclear：正增长不能单独证明达到 Q3／全年轨迹；公告没有新的制程结构或稼动率，且本次未完成同币种指引对账。Q2 结构读数仅作历史背景，不能代替 8 月证据。未重新裁定立场、确信度或估值；既有估值仍是标注日期的历史快照。",
+          "en": "August 2026 consolidated revenue was NT$514,806M, up 10.1% sequentially and 53.3% year over year; January-August revenue was NT$3,386,870M, up 39.3% (Form 6-K dated 2026-09-10). advanced-node-utilization is graded unclear: positive growth alone does not establish performance against the Q3 / full-year trajectory. The release supplies no new node mix or utilization, and this review has not reconciled guidance on a consistent currency basis. Q2 mix is historical context, not August evidence. Stance, conviction and valuation are not re-adjudicated; existing valuations remain historical snapshots at their stated dates."
         },
         "nextCheck": "月度收入与 2026Q3 财报 / monthly revenue and 2026Q3 results",
         "nextCheckDate": "2026-09",
-        "reading": "within",
-        "readingAsOf": "2026-08-10"
+        "reading": "unclear",
+        "readingAsOf": "2026-09-10"
       },
       {
         "id": "n3-n2-ramp",

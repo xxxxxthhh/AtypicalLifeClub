@@ -1,5 +1,29 @@
 [
   {
+    "id": "tsmc-august-2026-monthly-revenue-2026-09",
+    "date": "2026-09-10",
+    "title": {
+      "zh": "台积电 2026 年 8 月营收 NT$514,806M（环比 +10.1%、同比 +53.3%），1 至 8 月累计同比 +39.3%",
+      "en": "TSMC August 2026 revenue of NT$514,806M (+10.1% MoM, +53.3% YoY), with January-August up 39.3% year over year"
+    },
+    "detail": {
+      "zh": "2026 年 8 月合并营收 NT$514,806M，环比 +10.1%、同比 +53.3%；1 至 8 月累计 NT$3,386,870M，同比 +39.3%（2026-09-10 Form 6-K）。本次 advanced-node-utilization 评为 unclear：正增长不能单独证明达到 Q3／全年轨迹；公告没有新的制程结构或稼动率，且本次未完成同币种指引对账。Q2 结构读数仅作历史背景，不能代替 8 月证据。未重新裁定立场、确信度或估值；既有估值仍是标注日期的历史快照。 本条仅为芯片端代工收入观察，不证明 GPU/ASIC 收入或下游订单；不推断封装份额与独立定价。来源：https://www.sec.gov/Archives/edgar/data/1046179/000104617926000658/tsm-revenue20260910.htm",
+      "en": "August 2026 consolidated revenue was NT$514,806M, up 10.1% sequentially and 53.3% year over year; January-August revenue was NT$3,386,870M, up 39.3% (Form 6-K dated 2026-09-10). advanced-node-utilization is graded unclear: positive growth alone does not establish performance against the Q3 / full-year trajectory. The release supplies no new node mix or utilization, and this review has not reconciled guidance on a consistent currency basis. Q2 mix is historical context, not August evidence. Stance, conviction and valuation are not re-adjudicated; existing valuations remain historical snapshots at their stated dates. This is only a foundry-revenue observation, not proof of GPU/ASIC revenue or downstream orders, packaging share or independent pricing. Source: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000658/tsm-revenue20260910.htm"
+    },
+    "crossChecks": [
+      "chip-vs-downstream"
+    ],
+    "tickers": [
+      "TSM"
+    ],
+    "reportIds": [
+      "tsmc-2026"
+    ],
+    "monitoringRefs": [
+      "tsmc-2026:advanced-node-utilization"
+    ]
+  },
+  {
     "id": "marvell-q2-fy2027-foundry-osat-purchase-commitments-2-8b-to-8-5b-2026-08",
     "date": "2026-08-28",
     "title": {
