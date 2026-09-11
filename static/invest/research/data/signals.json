@@ -1,5 +1,23 @@
 [
   {
+    "id": "oracle-q1-fy2027-rpo-664b-capacity-delivery-2026-09",
+    "date": "2026-09-10",
+    "title": {
+      "zh": "Oracle FY2027 Q1：披露新增 850MW 数据中心容量，季度自由现金流 −$5.396B",
+      "en": "Oracle Q1 FY2027: reports 850MW added datacenter capacity and quarterly free cash flow of -$5.396B"
+    },
+    "detail": {
+      "zh": "Oracle 2026-09-10 Form 8-K Exhibit 99.1（截至 2026-08-31 财季）披露：管理层称交付新增 850MW 数据中心容量，并自上季末向 AI 云客户交付逾 30 万块 GPU。经营现金流 $23,103M，资本开支 $28,499M，相减为自由现金流 −$5,396M，与公告附表一致。经营现金流包含具重大融资成分的客户预付款所致递延收入增加 $11,363M，不能视为已确认收入。本条仅记录 chip-vs-downstream 的下游交付一腿；容量数字为管理层陈述，未按客户或站点拆分，不证明不存在其他项目延迟，也不证明整条规则满足。报告监测评级与估值另行完整复核。 https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm",
+      "en": "Oracle Form 8-K Exhibit 99.1 dated 2026-09-10, for the quarter ended 2026-08-31: management reports 850MW of added datacenter capacity and delivery of over 300,000 GPUs to AI cloud customers since the prior quarter-end. Operating cash flow of $23,103M less capital expenditure of $28,499M equals free cash flow of -$5,396M, matching the release table. Operating cash flow includes an $11,363M increase in deferred revenue from customer prepayments with a significant financing component, not recognized revenue. This records only the downstream-delivery leg of chip-vs-downstream. Capacity is a management statement without customer or site detail; it does not establish absence of other project delays or satisfaction of the whole rule. Report monitoring and valuation await a separate complete review. https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm"
+    },
+    "crossChecks": [
+      "chip-vs-downstream"
+    ],
+    "tickers": [
+      "ORCL"
+    ]
+  },
+  {
     "id": "tsmc-august-2026-monthly-revenue-2026-09",
     "date": "2026-09-10",
     "title": {
