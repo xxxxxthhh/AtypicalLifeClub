@@ -1,7 +1,7 @@
 # Zhongji Innolight (SZSE: 300308) Deep Research Report
 
 Coverage date: 2026-09-09
-Last updated: 2026-09-09
+Last updated: 2026-09-13
 Ticker: SZSE: 300308
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -77,6 +77,8 @@ The demand anchor is hyperscaler capital expenditure. Citing the companies' own 
 The moat is three layers stacked: **forward-looking R&D** (first to ship silicon-photonics 400G, 800G and 1.6T modules, first to develop and apply coherent-Lite, founding participant in both the XPO MSA and the Open CPX MSA); **customer qualification cycles** (cloud buyers require supplier qualification plus product-code certification); and **volume manufacturing with yield** (half-year capacity already equals 79% of the whole of FY2025 while gross margin rose to 46.59%). The other side is equally clear: this remains build-to-order component manufacturing, the end customers are a handful of cloud providers designing their own ASICs and network architectures, and above 200G the DSP, driver and TIA electrical chips still come mainly from overseas suppliers.
 
 ## 3. Financial Analysis <!-- report-module:financial -->
+
+**2026-09-13 basis clarification (historical 2026 H1 data):** This report uses the A-share semi-annual report basis under Chinese Accounting Standards for Business Enterprises. Revenue of RMB 41,777,861,795.03 and cost of sales of RMB 22,454,688,140.44 imply consolidated gross margin of 46.25%; optical-transceiver gross margin of 46.59% comes from that same A-share report. The monitoring series retains that basis; the H-share statements follow IAS 34 / IFRS and must not be spliced directly into it. This edit adds historical source and accounting-basis labels only; valuation remains the explicitly dated 2026-09-09 snapshot. [A-share semi-annual report, pages 25–26, 56 and 72–73](https://static.cninfo.com.cn/finalpage/2026-08-22/1225491753.PDF); [H-share interim report, note 2.1, page 52](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0911/2026091100356.pdf).
 
 | Metric | 2026 H1 | Prior-year / period start | Trend | Grade |
 |--------|---------|---------------------------|-------|-------|
