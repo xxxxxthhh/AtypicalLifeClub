@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-13",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -22,9 +22,9 @@
       "precision": "day",
       "status": "estimated",
       "session": "unspecified",
-      "sourceUrl": "https://ourbrand.asml.com/asset/468514ab-2a25-42be-a284-1560ebebcb6a/Statutory-Interim-Report-2026.pdf",
+      "sourceUrl": "https://www.asml.com/en/investors/financial-calendar",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-08-16"
+      "verifiedAt": "2026-09-13"
     },
     {
       "reportId": "applied-materials-2026",
@@ -354,9 +354,9 @@
       "precision": "month",
       "status": "estimated",
       "session": "not-applicable",
-      "sourceUrl": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2025-11-12/688676_20251112_DAOG.pdf",
+      "sourceUrl": null,
       "sourceType": "monitoring",
-      "verifiedAt": "2026-08-23"
+      "verifiedAt": "2026-09-13"
     },
     {
       "reportId": "paypal-2026",
@@ -588,9 +588,9 @@
       "precision": "month",
       "status": "estimated",
       "session": "not-applicable",
-      "sourceUrl": null,
+      "sourceUrl": "https://www.kioxia-holdings.com/en-jp/ir/calendar.html",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-08-04"
+      "verifiedAt": "2026-09-13"
     },
     {
       "reportId": "pltr-2026",
