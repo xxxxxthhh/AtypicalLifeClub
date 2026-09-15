@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-09-14",
+  "asOf": "2026-09-15",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -307,11 +307,11 @@
       "company": "Netflix",
       "expectedDate": "2026-10-20",
       "precision": "day",
-      "status": "estimated",
-      "session": "unspecified",
-      "sourceUrl": "https://www.wallstreethorizon.com/netflix-earnings-calendar",
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-09-08"
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://ir.netflix.net/investor-news-and-events/financial-releases/press-release-details/2026/Netflix-to-Announce-Third-Quarter-2026-Financial-Results/default.aspx",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-09-15"
     },
     {
       "reportId": "spotify-2026",

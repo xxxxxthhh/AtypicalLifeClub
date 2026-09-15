@@ -239,14 +239,6 @@
       "reason": "Earnings date has passed; roll the entry to the next cycle."
     },
     {
-      "id": "earnings:netflix-2026:2026-10-20:complete-date",
-      "reportId": "netflix-2026",
-      "type": "date-completion",
-      "window": "complete-date",
-      "expectedDate": "2026-10-20",
-      "reason": "Replace the estimate with an issuer-sourced day."
-    },
-    {
       "id": "earnings:nrg-2026:2026-11-05:complete-date",
       "reportId": "nrg-2026",
       "type": "date-completion",
