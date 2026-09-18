@@ -1,5 +1,23 @@
 [
   {
+    "id": "coreweave-convertible-notes-and-equity-distribution-agreement-2026-09",
+    "date": "2026-09-17",
+    "title": {
+      "zh": "CoreWeave 公告拟发行 30 亿美元可转债，并签署最多 3,500 万股 A 类股权分销协议",
+      "en": "CoreWeave proposes $3.0 billion convertible offering and signs distribution agreement for up to 35 million Class A shares"
+    },
+    "detail": {
+      "zh": "CoreWeave 2026-09-17 的 8-K（Items 7.01/8.01）公告拟发行 2033 年到期的 30 亿美元可转债，另拟给予初始购买人最多 5 亿美元选择权；发行受市场等条件约束。同日已签署股权分销协议，可不时出售最多 3,500 万股 A 类普通股，包括领式远期安排。公司预期约定可转债购买协议签署后至少 30 天内不依该分销协议售股；远期卖方售股时公司不立即取得款项。用途为一般公司用途。这些是公告的拟发行额和售股上限，不是实际融资或稀释额。来源：https://www.sec.gov/Archives/edgar/data/1769628/000176962826000429/crwv-20260917.htm 。本条仅记录 neocloud-financing 的融资相关证据，不证明 backlog、资本开支、租赁和融资成本同时恶化，不更新报告监测读数、估值或立场；状态限定于这份公告，不对其后定价、交割或售股作阴性断言。",
+      "en": "CoreWeave’s September 17, 2026 Form 8-K (Items 7.01/8.01) announced a proposed $3.0 billion convertible offering due 2033, with an intended additional $500 million purchaser option, subject to market and other conditions. It also disclosed a signed distribution agreement permitting up to 35 million Class A shares, including collared forwards. The company expected to agree to no sales under that agreement for at least 30 days after the convertible purchase agreement. Forward-seller sales do not immediately deliver proceeds to the company. Proceeds are for general corporate purposes. These are proposed amounts and sale limits, not completed funding or dilution. Source: https://www.sec.gov/Archives/edgar/data/1769628/000176962826000429/crwv-20260917.htm . This is financing evidence relevant to neocloud-financing, not proof that backlog, capex, leases and financing costs deteriorated together. No report monitoring, valuation or stance changes. Status is limited to this announcement; no claim is made about subsequent pricing, closing or sales."
+    },
+    "crossChecks": [
+      "neocloud-financing"
+    ],
+    "tickers": [
+      "CRWV"
+    ]
+  },
+  {
     "id": "oracle-q1-fy2027-rpo-664b-capacity-delivery-2026-09",
     "date": "2026-09-10",
     "title": {
