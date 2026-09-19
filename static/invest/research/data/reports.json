@@ -4985,7 +4985,7 @@
     ],
     "category": "energy",
     "date": "2026-02-09",
-    "lastUpdate": "2026-08-18",
+    "lastUpdate": "2026-09-19",
     "file": "/invest/research/reports/view.html?id=neov-2026",
     "markdownFiles": {
       "zh": "/invest/research/NeoVolta_深度研究报告_2026-02.md",
@@ -5084,12 +5084,12 @@
           "en": "the 1.1 GWh (~$200M) LOI converts into binding orders"
         },
         "latest": {
-          "zh": "无任何确认 LOI 已转化的披露——无宣布具约束力 offtake 协议的 8-K；08-11 S-3 仅将 IGC 的角色描述为协助谈判「条款清单、意向书与最终 offtake 协议」，成功费按未来「合格 offtake 协议」的收入计提。缺的是：公司对 1.1 GWh LOI 约束力状态的明确说明。IGC 持股 4.5M 股（2026-02-05 定向 $2.50/股 ×4M + 0.5M 顾问签约费股，现已注册转售）是利益绑定信号，同时构成潜在卖压，不等于订单转化",
-          "en": "No affirmative disclosure that the LOI converted — no 8-K announcing a definitive offtake agreement, and the 08-11 S-3 describes IGC's role only as assisting in negotiating \"term sheets, letters of intent and definitive offtake agreements,\" with success fees payable on future \"qualifying offtake agreements.\" Missing: a company statement on the 1.1 GWh LOI's binding status. IGC's 4.5M-share stake (Feb 5, 2026 placement at $2.50 ×4M plus 0.5M consulting signing-fee shares, now registered for resale) is alignment — and potential selling pressure — not order conversion"
+          "zh": "2026-09-17 公司新闻稿：子公司 NeoVolta Power, LLC 与 Infinite Grid Capital 签署**具约束力的产能预留协议**，为北安大略 Edge AI 数据中心项目预留 Pendergrass 约 $53M 产能，交付期为 2027 日历年——这是此前约 1.1 GWh／约 $2 亿非约束性框架下的首笔重大商业承诺，也是该 LOI 约束力状态的首次公司明确说明。证据边界：①约占该框架金额四分之一，其余仍为非约束；②「产能预留」不等于已交付订单或已确认收入；③IGC 同时是公司既有战略投资者，并就合格 offtake 协议收取成功费，属关联方；④该新闻稿无对应 8-K。故未按单条好消息顶为 within",
+          "en": "2026-09-17 company press release: subsidiary NeoVolta Power, LLC signed a binding capacity reservation agreement with Infinite Grid Capital reserving about $53M of Pendergrass capacity for Northern Ontario Edge AI data-center projects, for calendar-year 2027 delivery — the first major commercial commitment under the previously non-binding ~1.1 GWh / ~$200M framework, and the first explicit company statement on that LOI's binding status. Evidence limits: (1) it covers roughly a quarter of the framework's dollar value, the rest still non-binding; (2) a capacity reservation is not a delivered order or recognised revenue; (3) IGC is an existing strategic investor that also earns success fees on qualifying offtake agreements — a related party; (4) no 8-K accompanies the release. Not promoted to within on one positive datapoint"
         },
         "nextCheck": "LOI→合同公告 / LOI-to-contract announcements",
         "reading": "unclear",
-        "readingAsOf": "2026-08-18"
+        "readingAsOf": "2026-09-17"
       }
     ],
     "conviction": "low",
