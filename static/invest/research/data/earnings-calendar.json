@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-09-15",
+  "asOf": "2026-09-20",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -528,13 +528,13 @@
       "reportId": "minimax-2026",
       "company": "MiniMax Group",
       "timezone": "Asia/Hong_Kong",
-      "expectedDate": "2026-08-26",
-      "precision": "day",
-      "status": "stale",
-      "session": "after-close",
-      "sourceUrl": "https://en.prnasia.com/releases/apac/minimax-to-report-2026-interim-financial-results-on-august-26-2026-544085.shtml",
-      "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-16"
+      "expectedDate": "2027-03",
+      "precision": "month",
+      "status": "estimated",
+      "session": "not-applicable",
+      "sourceUrl": "https://ir.minimax.io/corporate-filings/quarterly-results",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-09-20"
     },
     {
       "reportId": "cameco-2026",
