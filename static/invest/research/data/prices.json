@@ -696,6 +696,18 @@
       "lastClose": 926.43,
       "changePct": 1.9,
       "currency": "CNY"
+    },
+    {
+      "reportId": "onds-2026",
+      "symbol": "ONDS",
+      "status": "carried-forward",
+      "attemptedAt": "2026-09-21",
+      "baseDate": "2026-09-18",
+      "basePrice": 7.39,
+      "lastDate": "2026-09-18",
+      "lastClose": 7.39,
+      "changePct": 0.0,
+      "currency": "USD"
     }
   ]
 }
