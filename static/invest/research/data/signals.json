@@ -1,5 +1,29 @@
 [
   {
+    "id": "almonty-sangdong-phase-i-operational-certification-2026-09",
+    "date": "2026-09-21",
+    "title": {
+      "zh": "Almonty：Sangdong 选矿厂及破碎设施获准商业运营和销售",
+      "en": "Almonty: Sangdong processing and crushing facilities cleared for commercial operation and sales"
+    },
+    "detail": {
+      "zh": "Almonty 于 2026-09-21 公告，Sangdong 选矿厂及破碎设施的检查证于 2026-09-17 签发，允许商业运营及精矿销售。复核判断：这是 resource-constraints 钨供给腿的行政准入进展，属于供给响应，不能据此认定资源约束已缓解。获准销售不等于实际交付或已确认收入；该公告没有提供足以评估放量的实际产量和单位现金成本。报告监测读数及其日期、立场和估值本轮未更新。来源：https://almonty.com/almontys-sangdong-processing-plant-receives-final-operational-certification/",
+      "en": "Almonty announced on September 21, 2026 that inspection certificates issued September 17 permit commercial operation of Sangdong processing and crushing facilities and concentrate sales. Reviewer interpretation: this is administrative progress on the tungsten supply leg of resource-constraints, not proof that constraints have eased. Permission to sell does not establish deliveries or recognized revenue; the announcement supplies no actual output and unit cash cost sufficient to assess ramp performance. Report monitoring readings and dates, stance and valuation are unchanged in this update. Source: https://almonty.com/almontys-sangdong-processing-plant-receives-final-operational-certification/"
+    },
+    "crossChecks": [
+      "resource-constraints"
+    ],
+    "tickers": [
+      "ALM"
+    ],
+    "reportIds": [
+      "almonty-2026"
+    ],
+    "monitoringRefs": [
+      "almonty-2026:sangdong-ramp"
+    ]
+  },
+  {
     "id": "coreweave-convertible-notes-and-equity-distribution-agreement-2026-09",
     "date": "2026-09-17",
     "title": {
