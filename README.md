@@ -1,5 +1,7 @@
 # Atypical Life Club
 
+> **English summary.** A personal site built with Hugo and deployed on Cloudflare Pages. Alongside the blog, `/invest/` hosts three static sub-apps (a research centre, a currency dashboard and a metals dashboard) whose data is maintained by Python scripts in this repo and refreshed by GitHub Actions. Content and tooling are largely agent-assisted; the research process, review rules and what gets published are decided by the site owner. The rest of this README is in Chinese and covers local development, project structure and the maintenance workflow. Live site: <https://atypicallife.club/>.
+
 使用 Hugo 构建、部署在 Cloudflare Pages 的个人站点。除主博客外，`/invest/` 下还挂着三个静态子应用（研究中心、汇率看板、金属看板），它们的数据由仓库内的 Python 脚本 + GitHub Actions 维护。
 
 ## 🚀 快速开始
