@@ -708,6 +708,18 @@
       "lastClose": 7.38,
       "changePct": -0.1,
       "currency": "USD"
+    },
+    {
+      "reportId": "wdc-2026",
+      "symbol": "WDC",
+      "status": "ok",
+      "attemptedAt": "2026-09-21",
+      "baseDate": "2026-09-21",
+      "basePrice": 448.17,
+      "lastDate": "2026-09-21",
+      "lastClose": 448.17,
+      "changePct": 0,
+      "currency": "USD"
     }
   ]
 }

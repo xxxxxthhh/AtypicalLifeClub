@@ -225,14 +225,6 @@
   ],
   "planned": [
     {
-      "ticker": "WDC",
-      "layer": "memory-storage",
-      "label": {
-        "zh": "近线 HDD：为存储层补上区别于 NAND 的供给曲线，与 sandisk-2026 同源反向配对",
-        "en": "Nearline HDD: adds a supply curve distinct from NAND, pairing with sandisk-2026 as its former parent and opposite medium"
-      }
-    },
-    {
       "ticker": "CRDO",
       "layer": "interconnect",
       "label": {
