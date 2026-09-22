@@ -10,7 +10,7 @@ Reported period: FY2026 Form 10-K (fiscal year ended 2026-07-03) / Q4 FY2026; pr
 
 ## Executive Summary <!-- report-module:overview -->
 
-**One-line thesis:** WDC's AI storage cycle is a countable **volume** cycle rather than a price spike — FY2026 revenue grew 36% on exabytes shipped up 25% and ASP per exabyte up 8%, with capital expenditure at only 3.2% of revenue — but at the 2026-09-21 close of $448.17 the market already prices this nearline HDD supply curve at 28.0x guidance-annualized earnings, for a business that two fiscal years ago (FY2024) lost $403M at the operating line.
+**One-line thesis:** WDC's AI storage cycle is a countable **volume** cycle rather than a price spike — FY2026 revenue grew 36% on exabytes shipped up 25% and ASP per exabyte up 8%, with capital expenditure at only 3.2% of revenue — but at the 2026-09-21 close of $448.17 the market already prices this nearline HDD supply curve at 28.0x guidance-annualized earnings, for a business that two fiscal years ago (FY2024) earned a 1.5% operating margin excluding litigation and realignment, and posted a $403M GAAP operating loss.
 
 **Investment judgment:**
 - **Stance:** cautious
@@ -28,7 +28,7 @@ Reported period: FY2026 Form 10-K (fiscal year ended 2026-07-03) / Q4 FY2026; pr
 | Market capitalization (floor basis) | $163.67B | Ceiling basis $169.14B (see the share-count bridge in §3) |
 | Enterprise value | $163.14B | Net of $527M net cash at 2026-07-03 |
 | FY2026 revenue (Y/Y) | $12.919B (+36%) | 53-week fiscal year; Q1 was 14 weeks |
-| FY2026 non-GAAP diluted EPS | $10.22 | GAAP $24.28, of which roughly $14.06 is non-recurring |
+| FY2026 non-GAAP diluted EPS | $10.22 | GAAP $24.28; the per-share gap is $14.06 |
 | FY2026 free cash flow | $3.511B (27.2% margin) | FCF yield 2.15% |
 | FY2026 EV/Sales | 12.63x | Seagate 16.49x |
 | FY2026 non-GAAP P/E | 43.85x | — |
@@ -123,13 +123,15 @@ Nearline HDD is a three-player structure: Western Digital, Seagate and Toshiba. 
 | Gross margin | 28.1% | 38.8% | 48.9% | +20.8 points over two years |
 | Research and development | 950 | 994 | 1,161 | 15.0% of revenue down to 9.0% |
 | Selling, general and administrative | 726 | 568 | 551 | Structurally lower after the separation |
-| Operating income (loss) | **(403)** | 2,334 | 4,453 | **Loss-making two fiscal years ago** |
-| Operating margin | **-6.4%** | 24.5% | 34.5% | 40.9 points of cycle amplitude |
+| Operating income (loss), GAAP | **(403)** | 2,334 | 4,453 | **GAAP loss-making two fiscal years ago** |
+| Operating margin, GAAP | **-6.4%** | 24.5% | 34.5% | 40.9 points of cycle amplitude |
+| Operating income excluding litigation and realignment (this report's basis) | **97** | 2,130 | 4,599 | Still 1.5% to 35.6% on a symmetric basis |
+| Operating margin excluding litigation and realignment | **1.5%** | 22.4% | 35.6% | 34.1 points of cycle amplitude |
 | Net income (loss) from continuing operations | (765) | 1,643 | 9,424 | FY2026 includes $6.498B of non-recurring gain |
 | Operating cash flow | (294) | 1,691 | 3,929 | Negative in FY2024 |
 | Capital expenditure (gross purchases of PP&E) | 487 | 412 | 418 | 7.7% of revenue down to 3.2% |
 
-**This is the single most important table in the report.** The same company, the same product line and the same customers lost $403M at the operating line and burned $294M of operating cash in FY2024; two years later operating income is $4.453B and operating cash flow $3.929B. That is 40.9 points of operating-margin amplitude inside 24 months. Any claim that nearline HDD has become a stable infrastructure asset has to explain this table first.
+**This is the single most important table in the report, and it has to be read symmetrically.** The -$403M in FY2024 is a GAAP operating loss that includes $291M of litigation expense and $209M of business realignment charges; excluding both, FY2024 operating income was roughly **+$97M, or 1.5%**. Treating the other two years the same way: FY2025 excluding the -$198M litigation credit and the -$6M realignment credit is roughly **$2.130B (22.4%)**, and FY2026 excluding $146M of realignment charges is roughly **$4.599B (35.6%)**. The second half of §3 strips the one-off Sandisk gain out of FY2026 GAAP net income, so the same ruler has to be applied to FY2024 — and **the conclusion does not change**: the same company, the same product line and the same customers went from a 1.5% operating margin to 35.6% inside 24 months, 34.1 points of amplitude, with gross margin moving from 28.1% to 48.9% and operating cash flow from -$294M to $3.929B. (This basis excludes only litigation and realignment, not stock-based compensation, so it differs from the company's own non-GAAP operating income.) Any claim that nearline HDD has become a stable infrastructure asset has to explain this table first.
 
 ### FY2026 and Q4 FY2026 core readings
 
@@ -147,7 +149,7 @@ Nearline HDD is a three-player structure: Western Digital, Seagate and Toshiba. 
 | Free cash flow margin | 34.2% | 29.3% | 25.9% | 27.2% | 15.0% |
 | GAAP diluted weighted average shares (M) | 389 | 387 | 362 | 383 | 359 |
 
-**GAAP net income is an accounting artifact here and cannot be used for valuation.** Of FY2026 GAAP net income from continuing operations of $9.424B, "interest and other income (expense), net" contributed $5.452B, within which the **mark-to-market gain on the retained interest in Sandisk was +$6.498B** (tax-free because of the separation), offset by $545M of debt-for-equity costs, $254M of equity-for-equity costs and $108M of convertible-note transaction costs. Roughly **$14.06 of the $24.28 GAAP diluted EPS comes from these non-recurring items**; non-GAAP EPS of $10.22 is the operating figure. This mirror effect is now over: the 10-K states that "as of July 3, 2026, the Company no longer held any shares of Sandisk common stock", and the balance-sheet line "Retained interest in Sandisk" went from $354M at FY2025 to zero. **From FY2027 the GAAP and non-GAAP gap narrows sharply, and the FY2026 GAAP base is not comparable.**
+**GAAP net income is an accounting artifact here and cannot be used for valuation.** Of FY2026 GAAP net income from continuing operations of $9.424B, "interest and other income (expense), net" contributed $5.452B, within which the **mark-to-market gain on the retained interest in Sandisk was +$6.498B** (tax-free because of the separation), offset by $545M of debt-for-equity costs, $254M of equity-for-equity costs and $108M of convertible-note transaction costs. The per-share gap between GAAP diluted EPS of $24.28 and non-GAAP EPS of $10.22 is **$14.06**; the interest-and-other adjustment alone is $5.575B divided by 383 million shares, or roughly **$14.56 per share**, partly offset by stock-based compensation, realignment and income-tax adjustments running the other way. Non-GAAP EPS of $10.22 is the operating figure. This mirror effect is now over: the 10-K states that "as of July 3, 2026, the Company no longer held any shares of Sandisk common stock", and the balance-sheet line "Retained interest in Sandisk" went from $354M at FY2025 to zero. **From FY2027 the GAAP and non-GAAP gap narrows sharply, and the FY2026 GAAP base is not comparable.**
 
 ### Financial health matrix (at 2026-07-03)
 
@@ -246,7 +248,7 @@ Irving Tan is chief executive officer and Kris Sennesael chief financial officer
 
 ## 6. Bear Case <!-- report-module:bullBear -->
 
-1. **Two fiscal years ago this business lost money at the operating line.** FY2024 revenue was $6.317B at a 28.1% gross margin, with a $403M operating loss and $294M of operating cash burn. Same lines, same customers, same three-player structure. Any valuation that treats FY2026's 34.5% operating margin as the new normal is assuming that a state which has existed for exactly one year in the verifiable record persists for three or more.
+1. **Two fiscal years ago this business barely broke even at the operating line.** FY2024 revenue was $6.317B at a 28.1% gross margin, with a $403M GAAP operating loss and $294M of operating cash burn; excluding $291M of litigation and $209M of realignment charges, operating income was roughly +$97M, a **1.5% operating margin**. Same lines, same customers, same three-player structure. Any valuation that treats FY2026's 34.5% operating margin as the new normal is assuming that a state which has existed for exactly one year in the verifiable record persists for three or more.
 
 2. **Demand visibility does not exist in the filings.** The 10-K revenue-recognition note says verbatim: "The transaction prices allocated to the Company's remaining performance obligations as of July 3, 2026 and June 27, 2025, were **not material**." In other words, the improved long-term visibility management describes in the MD&A **produces no auditable backlog under ASC 606**. As a direct comparison, sandisk-2026 in the same layer disclosed **$59.8B** of NBM remaining performance obligations, $1.242B of contract liabilities and $1.5B of refund liabilities in its FY2026 10-K. The same AI storage demand, the same filing season — one side can put visibility in the notes, the other cannot. **This report does not admit WDC management's visibility statements into the verified evidence set.**
 
@@ -344,7 +346,7 @@ At $448.17 on 365,194,516 shares with $527M of net cash, the market is paying **
 
 Applying the same ruler to the paired report sharpens the contrast. In its 2026-08-17 ruling, sandisk-2026's 12x reverse multiple of $148.90 was **94.8%** of its Q4 annualized EPS of $157 — the market was paying **less** than NAND's peak run rate. WDC's 12x reverse multiple of $37.35 is **233%** of its guidance-annualized run rate of $16.00 — the market is paying far **more** than HDD's peak run rate. Compared directly at the same closing date: SanDisk at $1,766.64 against its Q1 FY2027 guidance-midpoint annualized EPS ($45 x 4 = $180) is **9.8x**; WDC at $448.17 against its Q1 FY2027 guidance-annualized EPS of $16.00 is **28.0x**. The market pays roughly **2.9x** the forward multiple for the HDD leg that it pays for the NAND leg.
 
-That spread has a logic: the market is saying NAND's 84.6% gross margin is an unsustainable peak and HDD's 54.4% is a sustainable new normal. This report does not dispute the direction — the volume-price decomposition in §1 does support the view that the HDD cycle is of higher quality. What it disputes is the **magnitude**: a 2.9x forward multiple gap built on a business that was loss-making two fiscal years ago, whose remaining performance obligations are "not material", whose top three customers are 44% of revenue, and which has not published a HAMR date. This is not a price target; it is the explanation of why the stance is cautious rather than neutral or constructive.
+That spread has a logic: the market is saying NAND's 84.6% gross margin is an unsustainable peak and HDD's 54.4% is a sustainable new normal. This report does not dispute the direction — the volume-price decomposition in §1 does support the view that the HDD cycle is of higher quality. What it disputes is the **magnitude**: a 2.9x forward multiple gap built on a business that earned a 1.5% operating margin excluding litigation and realignment two fiscal years ago, whose remaining performance obligations are "not material", whose top three customers are 44% of revenue, and which has not published a HAMR date. This is not a price target; it is the explanation of why the stance is cautious rather than neutral or constructive.
 
 ---
 
@@ -385,7 +387,7 @@ That spread has a logic: the market is saying NAND's 84.6% gross margin is an un
 
 **(4) Upgrade and downgrade triggers.** Moving to neutral-watch or constructive requires: filings first disclosing material remaining performance obligations or quantifying the exabytes covered by the long-term agreements; nearline exabytes and implied blended revenue per exabyte both rising for two consecutive quarters with gross margin above 56%; and an explicit HAMR qualification and volume date. Moving to bearish-avoid requires: nearline exabytes declining sequentially for two consecutive quarters or FY2027 growth below 10%; implied blended revenue per exabyte below $15.0M for two consecutive quarters; Q1 FY2027 actual gross margin below the 55% floor of guidance; or any of the three 10%-plus customers falling below 10% with no replacement.
 
-This is a very good business at a very expensive price. The separation is complete, debt is gone, cash flow is strong, and the cycle is of higher quality than NAND's — all of that is true. But two fiscal years ago this business was losing money, remaining performance obligations are "not material" in the filings, the top three customers are 44% of revenue, the timetable for the next areal-density path has not been published, and the market is already pricing it to be worth 28x three years from now.
+This is a very good business at a very expensive price. The separation is complete, debt is gone, cash flow is strong, and the cycle is of higher quality than NAND's — all of that is true. But two fiscal years ago this business earned a 1.5% operating margin excluding litigation and realignment, remaining performance obligations are "not material" in the filings, the top three customers are 44% of revenue, the timetable for the next areal-density path has not been published, and the market is already pricing it to be worth 28x three years from now.
 
 ---
 
