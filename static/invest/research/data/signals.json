@@ -2181,5 +2181,32 @@
     "monitoringRefs": [
       "innolight-2026:us-1260h-ndaa805"
     ]
+  },
+  {
+    "id": "wdc-fy2026-nearline-exabyte-volume-led-cycle-2026-08",
+    "date": "2026-08-14",
+    "title": {
+      "zh": "Western Digital FY2026：收入 +36% 拆成 EB 出货 +25% × 每 EB ASP +8%，近线 EB 783（Q4 209、同比 +22.9%），存储层的需求确认在 HDD 一侧以位元入账",
+      "en": "Western Digital FY2026: revenue up 36% decomposes into exabytes shipped up 25% and ASP per exabyte up 8%, with nearline shipments of 783 EB (209 EB in Q4, up 22.9% Y/Y) - on the HDD side the storage layer books its demand confirmation as bits"
+    },
+    "detail": {
+      "zh": "据 Western Digital 2026-08-05 发布的 Q4 FY2026 业绩稿（Form 8-K accession 0001628280-26-053305，Exhibit 99.1）与同日业绩演示，以及 2026-08-14 申报的 FY2026 Form 10-K（accession 0001628280-26-057139，财年截至 2026-07-03）：FY2026 收入 $12,919M（同比 +36%），10-K 明确把增长拆为 **EB 出货 +25% × 每 EB ASP +8%**；Cloud 收入 $11,490M（占 89%，同比 +38%）为 **EB +27% × ASP/EB +8%**，Client +31%（EB +3% × ASP/EB +26%）、Consumer +13%（EB +1% × ASP/EB +12%）。业绩演示第 5 页给出季度 EB 序列：总 EB 由 Q4 FY2025 的 190 升至 Q4 FY2026 的 231，其中近线 EB 由 170 升至 209（同比 +22.9%、环比 +5.0%），FY2026 近线合计 783 EB、占全年 872 EB 的 89.8%，非近线 EB 在 Q4 环比由 23 降至 22。按季度收入除以同期总 EB 推算的隐含混合每 EB 收入由 Q4 FY2025 的 $13.71M 升至 Q4 FY2026 的 $16.22M（同比 +18.3%），FY2026 全年为 $14.82M（该推算值的分母含 Client/Consumer 小容量盘，高于纯近线 ASP，且非公司披露口径）。同期毛利率：Q4 FY2026 GAAP 54.1%、非 GAAP 54.4%，FY2026 GAAP 48.9%、非 GAAP 49.1%；Q1 FY2027 指引收入 $4.1B ± $100M（同比 +42%~+49%）、非 GAAP 毛利率 55%–56%。对照同一存储层的 NAND 一侧：据 SanDisk 2026-08-05 的 Q4 FY2026 业绩稿（Form 8-K accession 0001628280-26-053346，Exhibit 99.1），Q4 收入 $8.97B、环比 +51%，公司自述「环比收入增长约三分之一来自出货量、三分之二来自价格」，FY2026 收入 $20.25B（同比 +175%）、数据中心收入同比 +437%。对 memory-cycle 而言，本条记录的是需求确认腿上的一组可计数读数：同一季度内存与存储层的两种介质同时扩张，但 HDD 一侧的增长主要由位元量贡献、NAND 一侧主要由价格贡献。证据边界：WDC 只按「近线 / 非近线」两分披露 EB，不披露单盘容量、出货台数或按客户拆分的 EB；FY2026 为 53 周财年（Q1 为 14 周），+36% 含一周日历效应，Q1 FY2027 的同比指引则对着 14 周基数；两家公司的 EB 与量价口径由各自定义，不可机械互比。来源：https://www.sec.gov/Archives/edgar/data/106040/000162828026053305/a4ex991-pressreleaseq426.htm ；https://www.sec.gov/Archives/edgar/data/106040/000162828026057139/wdc-20260703.htm ；https://investor.wdc.com/static-files/e1f02f77-4432-42c3-8bd4-024371f40e54 ；https://www.sec.gov/Archives/edgar/data/2023554/000162828026053346/sndkq4-26ex991xpressrelease.htm",
+      "en": "Per Western Digital's Q4 FY2026 earnings release dated 2026-08-05 (Form 8-K accession 0001628280-26-053305, Exhibit 99.1) and the earnings presentation of the same date, together with the FY2026 Form 10-K filed 2026-08-14 (accession 0001628280-26-057139, fiscal year ended 2026-07-03): FY2026 revenue was $12,919M, up 36%, and the 10-K decomposes that growth into **exabytes shipped up 25% and ASP per exabyte up 8%**. Cloud revenue of $11,490M (89% of the total, up 38%) breaks down into **exabytes up 27% and ASP per exabyte up 8%**, Client up 31% (exabytes up 3%, ASP per exabyte up 26%) and Consumer up 13% (exabytes up 1%, ASP per exabyte up 12%). Page 5 of the presentation gives the quarterly exabyte series: total exabytes rose from 190 in Q4 FY2025 to 231 in Q4 FY2026, of which nearline rose from 170 to 209 (up 22.9% year over year and 5.0% sequentially); FY2026 nearline shipments totalled 783 EB, or 89.8% of the 872 EB shipped for the year, while non-nearline exabytes fell sequentially from 23 to 22 in Q4. Dividing quarterly revenue by total exabytes shipped gives an implied blended revenue per exabyte rising from $13.71M in Q4 FY2025 to $16.22M in Q4 FY2026, up 18.3%, with the FY2026 full year at $14.82M (that derived figure's denominator includes small-capacity Client and Consumer drives, sits above a pure nearline ASP, and is not a company-disclosed basis). Margins over the same period: Q4 FY2026 GAAP gross margin 54.1% and non-GAAP 54.4%, FY2026 GAAP 48.9% and non-GAAP 49.1%; Q1 FY2027 guidance is revenue of $4.1B plus or minus $100M (up 42% to 49%) at a non-GAAP gross margin of 55% to 56%. Against the NAND side of the same storage layer: per SanDisk's Q4 FY2026 earnings release dated 2026-08-05 (Form 8-K accession 0001628280-26-053346, Exhibit 99.1), Q4 revenue was $8.97B, up 51% sequentially, with the company stating that sequential revenue growth came 'approximately one-third from higher volumes and two-thirds from higher pricing'; FY2026 revenue was $20.25B, up 175%, with datacenter revenue up 437%. For memory-cycle, this entry records a set of countable readings on the demand-confirmation leg: within the same quarter both media in the memory and storage layer expanded, but growth on the HDD side came mainly from bit volume and on the NAND side mainly from price. Evidence limits: WDC splits exabytes only between nearline and non-nearline and discloses neither per-drive capacity, unit shipments nor an exabyte split by customer; FY2026 was a 53-week fiscal year (Q1 had 14 weeks), so the 36% carries one extra week and the Q1 FY2027 year-over-year guidance is set against a 14-week base; and the two companies define their exabyte and volume-price measures independently, so the figures are not mechanically comparable. Sources: https://www.sec.gov/Archives/edgar/data/106040/000162828026053305/a4ex991-pressreleaseq426.htm ; https://www.sec.gov/Archives/edgar/data/106040/000162828026057139/wdc-20260703.htm ; https://investor.wdc.com/static-files/e1f02f77-4432-42c3-8bd4-024371f40e54 ; https://www.sec.gov/Archives/edgar/data/2023554/000162828026053346/sndkq4-26ex991xpressrelease.htm"
+    },
+    "crossChecks": [
+      "memory-cycle"
+    ],
+    "tickers": [
+      "WDC",
+      "SNDK",
+      "STX"
+    ],
+    "reportIds": [
+      "wdc-2026"
+    ],
+    "monitoringRefs": [
+      "wdc-2026:nearline-exabyte-growth",
+      "wdc-2026:blended-revenue-per-exabyte"
+    ]
   }
 ]
