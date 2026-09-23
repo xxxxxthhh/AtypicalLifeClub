@@ -1,5 +1,23 @@
 [
   {
+    "id": "coreweave-4-2b-convertible-notes-closing-2026-09",
+    "date": "2026-09-22",
+    "title": {
+      "zh": "CoreWeave 完成 $4.2B、2033 年到期 2.875% 可转债发行，净收入 $4,137.0M，上限看涨期权成本约 $566.2M",
+      "en": "CoreWeave closes $4.2B of 2.875% convertible senior notes due 2033; net proceeds $4,137.0M, capped calls cost approximately $566.2M"
+    },
+    "detail": {
+      "zh": "CoreWeave 2026-09-22 的 8-K（0001769628-26-000432，Item 1.01）披露，当日完成 $4.2B、票息 2.875%、2033-04-01 到期的可转债发行，含 $500M 增额选择权全额行使。扣除初始购买人折扣、未扣预估发行费用的净收入为 $4,137.0M；上限看涨期权成本约 $566.2M。两者相减约 $3,570.8M，仍未扣发行费用；余额拟用于一般公司用途。初始每 $1,000 本金可转 10.2194 股，算术对应 42,921,480 股；这不是已发行股份或最大稀释，公司可选择现金、股份或组合结算。本信号仅记录已完成融资，不据此推断 GPU 采购、产能、需求或净债务增幅，不更新报告监测、估值或立场。来源：https://www.sec.gov/Archives/edgar/data/1769628/000176962826000432/crwv-20260917.htm 。",
+      "en": "CoreWeave’s 2026-09-22 Form 8-K (0001769628-26-000432, Item 1.01) reports completion that day of $4.2B of 2.875% convertible notes due 2033-04-01, including the fully exercised $500M option. Proceeds after purchaser discounts but before estimated offering expenses were $4,137.0M; capped calls cost approximately $566.2M. Subtraction gives approximately $3,570.8M, still before offering expenses, with the remainder intended for general corporate purposes. The initial rate of 10.2194 shares per $1,000 implies 42,921,480 underlying shares, not issued shares or maximum dilution; settlement may be cash, shares or both at the company’s election. This financing event establishes neither GPU purchases, capacity, demand nor the net-debt increase. Report monitoring, valuation and stance are unchanged. Source: https://www.sec.gov/Archives/edgar/data/1769628/000176962826000432/crwv-20260917.htm ."
+    },
+    "crossChecks": [
+      "neocloud-financing"
+    ],
+    "tickers": [
+      "CRWV"
+    ]
+  },
+  {
     "id": "almonty-sangdong-phase-i-operational-certification-2026-09",
     "date": "2026-09-21",
     "title": {
