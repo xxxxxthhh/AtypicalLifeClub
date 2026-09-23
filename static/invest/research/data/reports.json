@@ -10686,7 +10686,7 @@
       "成本交叉被指引、尚未报出：Q1 FY2027 指引营业利润率约 50%、营业费用约 $3 亿，隐含毛利率约 57.3%，WDC 指引 55%–56%；同为 $41 亿收入指引下 Seagate 隐含非 GAAP 净利约 $16.86 亿对 WDC 约 $15.52 亿",
       "技术时点：HAMR 约占近线 EB 40%（2026 年 6 月，电话会），Mozaic 4（44TB）在两家最大云厂商爬坡；WDC 44TB HAMR 2027 年上半年、50TB 2027 年下半年（WDC 电话会），Seagate Mozaic 5 / 50TB 2027 年末认证——44TB 领先约一代，50TB 趋同",
       "资产负债表与股本：2026-07-15 赎回 $10 亿 8.25%/8.50% 高息债，2026-09-08 清偿最后 $1.507 亿可交换票据（交付 1,647,862 股），本金降至约 $24.17 亿、净杠杆 0.4x，已无残余可转债稀释",
-      "内部人减持逐笔核对：7–9 月约 $3.517 亿代码 S 卖出中 $1.851 亿为 2026 年 1–4 月采纳的 10b5-1 计划、$1.292 亿为公司强制 sell-to-cover（9-14 PSU 归属），不构成信息优势红旗；CEO 仍持 312,597 股"
+      "内部人减持逐笔核对：7–9 月约 $3.517 亿代码 S 卖出中 $1.851 亿为 2026 年 1–4 月采纳的 10b5-1 计划、$1.292 亿为公司强制 sell-to-cover（9-14 PSU 归属），不构成信息优势红旗；CEO 最新 Form 4 显示直接持有 378,108 股"
     ],
     "period": "FY2026",
     "versionType": "initial",
@@ -10765,7 +10765,7 @@
           "en": "HAMR was about 40% of the nearline exabyte shipment run rate exiting June 2026 (call); 70% by June 2027 is prior guidance restated by an analyst, with the CFO saying \"on track\" (call); Mozaic 4 is targeted at 50% of HAMR exabytes exiting calendar 2026 (call). Supplemental: Mozaic 3+ is in production at all major cloud customers, Mozaic 4+ (up to 44TB) is ramping at the two largest CSPs, and Mozaic 5+ qualification shipments start in late calendar 2027. For comparison, WDC says its 44TB HAMR ships in the first half of calendar 2027 and 50TB products arrive in the second half of calendar 2027 (WDC call, 2026-08-05) - about one generation of lead at 44TB, converging at 50TB."
         },
         "reading": "within",
-        "readingAsOf": "2026-07-28",
+        "readingAsOf": "2026-08-05",
         "nextCheck": "2027 年 1 月 Q2 FY2027 电话会 / the Q2 FY2027 call in January 2027",
         "nextCheckDate": "2027-01"
       },
