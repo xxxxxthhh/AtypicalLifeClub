@@ -708,6 +708,18 @@
       "lastClose": 7.72,
       "changePct": 4.5,
       "currency": "USD"
+    },
+    {
+      "reportId": "seagate-2026",
+      "symbol": "STX",
+      "status": "ok",
+      "attemptedAt": "2026-09-22",
+      "baseDate": "2026-09-22",
+      "basePrice": 919.84,
+      "lastDate": "2026-09-22",
+      "lastClose": 919.84,
+      "changePct": 0,
+      "currency": "USD"
     }
   ]
 }
