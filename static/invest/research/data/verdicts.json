@@ -888,6 +888,17 @@
       "status": "pending",
       "daysHeld": 0,
       "stale": false
+    },
+    {
+      "reportId": "axti-2026",
+      "stance": "cautious",
+      "conviction": "medium",
+      "stanceDate": "2026-09-25",
+      "priceAtStance": 72.98,
+      "benchmarkSymbol": "SMH",
+      "status": "pending",
+      "daysHeld": 0,
+      "stale": false
     }
   ],
   "closed": [
