@@ -143,6 +143,10 @@ def validate_price_entry(
         validate_missing_entry(entry, label)
     else:
         validate_priced_entry(entry, label)
+        if parse_date(entry.get("baseDate"), f"{label}.baseDate") != parse_date(
+            report.get("priceAsOf"), f"reports.json[{report_id}].priceAsOf"
+        ):
+            fail(f"{label}.baseDate must match reports.json priceAsOf for {report_id}")
 
 
 def validate_prices_data(data: Json, reports: list[Json]) -> None:

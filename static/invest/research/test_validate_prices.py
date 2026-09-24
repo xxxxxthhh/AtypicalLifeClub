@@ -17,6 +17,7 @@ class ValidatePricesTests(unittest.TestCase):
             {
                 "id": "nebius-2026",
                 "priceSymbol": "NBIS",
+                "priceAsOf": "2026-07-01",
             }
         ]
         data = {
@@ -82,7 +83,7 @@ class ValidatePricesTests(unittest.TestCase):
                 validate_prices.validate_prices_data(data, reports)
 
     def test_rejects_ok_status_when_last_close_is_older_than_attempt(self):
-        reports = [{"id": "sk-hynix-2026", "priceSymbol": "000660.KS"}]
+        reports = [{"id": "sk-hynix-2026", "priceSymbol": "000660.KS", "priceAsOf": "2026-08-28"}]
         data = {
             "generatedAt": "2026-08-31",
             "entries": [
@@ -106,7 +107,7 @@ class ValidatePricesTests(unittest.TestCase):
                 validate_prices.validate_prices_data(data, reports)
 
     def test_accepts_carried_forward_status_for_older_close(self):
-        reports = [{"id": "sk-hynix-2026", "priceSymbol": "000660.KS"}]
+        reports = [{"id": "sk-hynix-2026", "priceSymbol": "000660.KS", "priceAsOf": "2026-08-28"}]
         data = {
             "generatedAt": "2026-08-31",
             "entries": [
@@ -126,6 +127,28 @@ class ValidatePricesTests(unittest.TestCase):
         }
 
         validate_prices.validate_prices_data(data, reports)
+
+    def test_rejects_fallback_close_even_when_change_pct_is_consistent(self):
+        reports = [{"id": "seagate-2026", "priceSymbol": "STX", "priceAsOf": "2026-09-22"}]
+        data = {
+            "generatedAt": "2026-09-23",
+            "entries": [{
+                "reportId": "seagate-2026",
+                "symbol": "STX",
+                "status": "ok",
+                "attemptedAt": "2026-09-23",
+                "baseDate": "2026-09-21",
+                "basePrice": 877.33,
+                "lastDate": "2026-09-23",
+                "lastClose": 923.86,
+                "changePct": 5.3,
+            }],
+        }
+
+        output = StringIO()
+        with redirect_stdout(output), self.assertRaises(SystemExit):
+            validate_prices.validate_prices_data(data, reports)
+        self.assertIn("baseDate must match", output.getvalue())
 
 
 if __name__ == "__main__":

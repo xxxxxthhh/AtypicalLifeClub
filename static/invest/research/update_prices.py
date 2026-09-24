@@ -11,6 +11,8 @@ from __future__ import annotations
 import json
 import math
 import sys
+from urllib.parse import quote, urlencode
+from urllib.request import Request, urlopen
 from dataclasses import dataclass
 from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
@@ -122,7 +124,7 @@ def priced_reports(reports: list[Report]) -> list[Report]:
     # all carry priceSymbol and priceAsOf.
     #
     # priceAsOf is required, not optional: build_ok_entry() anchors basePrice to
-    # the last close on or before it, so a report without one can only ever
+    # that exact completed session, so a report without one can only ever
     # produce a failure entry. Reports whose stated anchor is an intraday mark
     # rather than a close must fix the anchor before they belong here.
     selected: list[Report] = []
@@ -176,9 +178,9 @@ def build_ok_entry(
     report_id = report_string(report, "id")
     symbol = report_string(report, "priceSymbol")
     price_as_of = parse_day(report.get("priceAsOf"), f"{report_id}.priceAsOf")
-    base_quotes = [quote for quote in quotes if quote.date <= price_as_of]
+    base_quotes = [quote for quote in quotes if quote.date == price_as_of]
     if not base_quotes:
-        raise PriceDataUnavailable(f"{symbol}: no close on or before {price_as_of}")
+        raise PriceDataUnavailable(f"{symbol}: no close on anchor date {price_as_of}")
     if not quotes:
         raise PriceDataUnavailable(f"{symbol}: no usable closes")
 
@@ -303,7 +305,9 @@ def completed_quotes(symbol: str, quotes: list[PriceQuote], observed_at: datetim
 
 def fetch_quotes(symbol: str, start: date, end: date) -> tuple[list[PriceQuote], str | None]:
     ticker = yf.Ticker(symbol)
-    history = ticker.history(start=iso_day(start), end=iso_day(end + timedelta(days=1)), interval="1d")
+    history = ticker.history(
+        start=iso_day(start), end=iso_day(end + timedelta(days=1)), interval="1d", auto_adjust=False
+    )
     if getattr(history, "empty", True):
         return [], currency_from_ticker(ticker)
 
@@ -314,6 +318,37 @@ def fetch_quotes(symbol: str, start: date, end: date) -> tuple[list[PriceQuote],
         if quote:
             quotes.append(quote)
     return quotes, currency_from_ticker(ticker)
+
+
+def fetch_nasdaq_anchor_quote(symbol: str, anchor: date) -> PriceQuote:
+    """Recover a missing US anchor bar from Nasdaq's dated historical quote."""
+    if "." in symbol:
+        raise PriceDataUnavailable(f"{symbol}: Nasdaq fallback is for US symbols only")
+    query = urlencode({
+        "assetclass": "stocks",
+        "limit": 5,
+        "fromdate": iso_day(anchor),
+        "todate": iso_day(anchor + timedelta(days=1)),
+    })
+    url = f"https://api.nasdaq.com/api/quote/{quote(symbol, safe='')}/historical?{query}"
+    request = Request(url, headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"})
+    with urlopen(request, timeout=10) as response:
+        payload = json.load(response)
+    if not isinstance(payload, dict) or payload.get("status", {}).get("rCode") != 200:
+        raise PriceDataUnavailable(f"{symbol}: Nasdaq anchor lookup failed for {anchor}")
+    data = payload.get("data") or {}
+    if data.get("symbol") != symbol:
+        raise PriceDataUnavailable(f"{symbol}: Nasdaq symbol mismatch for {anchor}")
+    rows = (data.get("tradesTable") or {}).get("rows") or []
+    for row in rows:
+        if row.get("date") == anchor.strftime("%m/%d/%Y"):
+            try:
+                close = float(row["close"].replace("$", "").replace(",", ""))
+            except (KeyError, TypeError, ValueError) as exc:
+                raise PriceDataUnavailable(f"{symbol}: invalid Nasdaq close for {anchor}") from exc
+            if math.isfinite(close) and close > 0:
+                return PriceQuote(anchor, close)
+    raise PriceDataUnavailable(f"{symbol}: Nasdaq has no close on anchor date {anchor}")
 
 
 def currency_from_ticker(ticker) -> str | None:
@@ -345,6 +380,8 @@ def build_price_entries(
         try:
             quotes, currency = fetch_quotes(symbol, price_as_of - timedelta(days=10), attempted_at)
             quotes = completed_quotes(symbol, quotes, observed_at)
+            if not any(quote.date == price_as_of for quote in quotes):
+                quotes.append(fetch_nasdaq_anchor_quote(symbol, price_as_of))
             entry = build_ok_entry(
                 report,
                 quotes,
@@ -355,7 +392,10 @@ def build_price_entries(
             print(f"  {str(entry['status']).upper()} {symbol}: {entry['lastClose']} ({entry['lastDate']})")
         except Exception as exc:
             failure_count += 1
-            entry = build_failure_entry(report_id, symbol, attempted_at, previous.get(report_id))
+            prior = previous.get(report_id)
+            if prior and prior.get("baseDate") != iso_day(price_as_of):
+                prior = None
+            entry = build_failure_entry(report_id, symbol, attempted_at, prior)
             print(f"  {entry['status']} {symbol}: {exc}")
         entries.append(entry)
     return entries, failure_count

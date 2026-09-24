@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 from datetime import date, datetime, timezone
+from io import BytesIO
 from pathlib import Path
 import sys
 import types
 import unittest
+from unittest.mock import patch
 
 
 sys.modules.setdefault("yfinance", types.SimpleNamespace())
@@ -13,7 +15,24 @@ import update_prices
 
 
 class PriceEntryTests(unittest.TestCase):
-    def test_builds_ok_entry_from_latest_close_on_or_before_report_date(self):
+    def test_fetch_uses_unadjusted_closes_matching_report_anchor(self):
+        class EmptyHistory:
+            empty = True
+
+        class FakeTicker:
+            fast_info = {"currency": "USD"}
+
+            def history(self, **kwargs):
+                self.history_kwargs = kwargs
+                return EmptyHistory()
+
+        ticker = FakeTicker()
+        with patch.object(update_prices.yf, "Ticker", return_value=ticker, create=True):
+            update_prices.fetch_quotes("STX", date(2026, 9, 22), date(2026, 9, 23))
+
+        self.assertIs(ticker.history_kwargs["auto_adjust"], False)
+
+    def test_builds_ok_entry_from_exact_report_anchor_date(self):
         report = {
             "id": "nebius-2026",
             "priceSymbol": "NBIS",
@@ -21,6 +40,7 @@ class PriceEntryTests(unittest.TestCase):
         }
         quotes = [
             update_prices.PriceQuote(date=date(2026, 6, 30), close=200.0),
+            update_prices.PriceQuote(date=date(2026, 7, 1), close=240.0),
             update_prices.PriceQuote(date=date(2026, 7, 2), close=250.0),
             update_prices.PriceQuote(date=date(2026, 7, 3), close=260.0),
         ]
@@ -28,9 +48,64 @@ class PriceEntryTests(unittest.TestCase):
         entry = update_prices.build_ok_entry(report, quotes, date(2026, 7, 3), "USD")
 
         self.assertEqual(entry["status"], "ok")
-        self.assertEqual(entry["baseDate"], "2026-06-30")
+        self.assertEqual(entry["baseDate"], "2026-07-01")
         self.assertEqual(entry["lastDate"], "2026-07-03")
-        self.assertEqual(entry["changePct"], 30.0)
+        self.assertEqual(entry["changePct"], 8.3)
+
+    def test_missing_anchor_bar_does_not_fall_back_to_prior_close(self):
+        report = {"id": "seagate-2026", "priceSymbol": "STX", "priceAsOf": "2026-09-22"}
+        quotes = [
+            update_prices.PriceQuote(date=date(2026, 9, 21), close=877.33),
+            update_prices.PriceQuote(date=date(2026, 9, 23), close=923.86),
+        ]
+
+        with self.assertRaisesRegex(update_prices.PriceDataUnavailable, "no close on anchor date"):
+            update_prices.build_ok_entry(report, quotes, date(2026, 9, 23), "USD")
+
+    def test_missing_anchor_does_not_carry_forward_wrong_previous_base(self):
+        report = {"id": "seagate-2026", "priceSymbol": "STX", "priceAsOf": "2026-09-22"}
+        previous = {"seagate-2026": {
+            "reportId": "seagate-2026", "symbol": "STX", "status": "ok",
+            "baseDate": "2026-09-21", "basePrice": 877.33,
+            "lastDate": "2026-09-23", "lastClose": 923.86, "changePct": 5.3,
+        }}
+        quotes = [
+            update_prices.PriceQuote(date=date(2026, 9, 21), close=877.33),
+            update_prices.PriceQuote(date=date(2026, 9, 23), close=923.86),
+        ]
+
+        with patch.object(update_prices, "fetch_quotes", return_value=(quotes, "USD")), \
+             patch.object(update_prices, "fetch_nasdaq_anchor_quote", side_effect=update_prices.PriceDataUnavailable("no Nasdaq close")):
+            entries, failures = update_prices.build_price_entries(
+                [report], datetime(2026, 9, 24, 0, 0, tzinfo=timezone.utc), previous
+            )
+
+        self.assertEqual(failures, 1)
+        self.assertEqual(entries[0]["status"], "missing")
+        self.assertNotIn("baseDate", entries[0])
+
+    def test_nasdaq_fallback_recovers_exact_missing_anchor(self):
+        report = {"id": "seagate-2026", "priceSymbol": "STX", "priceAsOf": "2026-09-22"}
+        quotes = [
+            update_prices.PriceQuote(date=date(2026, 9, 21), close=877.33),
+            update_prices.PriceQuote(date=date(2026, 9, 23), close=923.86),
+        ]
+        with patch.object(update_prices, "fetch_quotes", return_value=(quotes, "USD")), \
+             patch.object(update_prices, "fetch_nasdaq_anchor_quote", return_value=update_prices.PriceQuote(date(2026, 9, 22), 919.84)):
+            entries, failures = update_prices.build_price_entries(
+                [report], datetime(2026, 9, 24, 0, 0, tzinfo=timezone.utc), {}
+            )
+
+        self.assertEqual(failures, 0)
+        self.assertEqual(entries[0]["baseDate"], "2026-09-22")
+        self.assertEqual(entries[0]["changePct"], 0.4)
+
+    def test_nasdaq_anchor_response_checks_symbol_and_date(self):
+        payload = b'{"status":{"rCode":200},"data":{"symbol":"STX","tradesTable":{"rows":[{"date":"09/22/2026","close":"$919.84"}]}}}'
+        with patch.object(update_prices, "urlopen", return_value=BytesIO(payload)) as opener:
+            quote = update_prices.fetch_nasdaq_anchor_quote("STX", date(2026, 9, 22))
+        self.assertEqual(quote.close, 919.84)
+        self.assertIn("fromdate=2026-09-22", opener.call_args.args[0].full_url)
 
     def test_carried_forward_entry_updates_attempt_date_only(self):
         previous = {
