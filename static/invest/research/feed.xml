@@ -6,6 +6,13 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>Oracle 深度研究报告 - AI 云 RPO 仪表盘与资本开支融资压力 / Oracle Deep Research Report - AI Cloud RPO Dashboard and Capex Financing Pressure</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=oracle-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=oracle-2026#oracle-2026@2026-09-24</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <description>2026-09-24 监测更新：FY2027 Q1（截至 2026-08-31）收入 $19.35B（+30%）、OCI 收入 $7.39B（+121%）、RPO $664B（环比 +$26B；按 10-Q 约 13% 在 12 个月内、37% 在第 13-36 个月确认），FY2027 指引上调至收入不低于 $90B、非 GAAP EPS $8.10，capex 维持 $90-95B（电话会转写）。经营现金流 $23.10B 中含 $11.36B 具重大融资成分的客户预付款，Q1 自由现金流 −$5.40B、近四季 −$28.72B；$20B ATM 已在 Q1 全部完成（约 1.41 亿股）。负面：S&amp;P 于 2026-07-09 降至 BBB-；毛利率下滑；2026-09-24 据 Bloomberg，Oracle 对 2.45GW 的 Project Jupiter 发出不可抗力通知，燃料管道两次被州土地办公室否决后推迟到 2027-02-01。按 2026-09-23 收盘 $144.56：市值约 $437B、notes payable 口径净债务约 $88.3B、EV 约 $525B，约 7.3x EV/TTM 收入、约 22.8x EV/TTM GAAP 营业利润、约 17.8x FY2027 EPS 指引。20/40/40 网格加权每股 $164.60，年化 +4.8%，低于 8% 门槛，立场维持谨慎 / 中确信；若权重改为 30/40/30 即越过门槛，结论对权重敏感。</description>
+    </item>
+    <item>
       <title>Western Digital 深度研究报告 - 可计数的位元周期与不可计数的可见度 / Western Digital Deep Research Report - A Countable Bit Cycle and Uncountable Visibility</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=wdc-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=wdc-2026#wdc-2026@2026-09-23</guid>
@@ -361,13 +368,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=asml-2026#asml-2026@2026-07-31</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
       <description>AI 基础设施 semicap-equipment 层的公共约束：ASML 验证 foundry / memory capex 是否真正穿过光刻、EUV、High-NA、长期协议和出口管制这道最硬瓶颈。Q2 2026 net sales EUR 9.326B、gross margin 54.0%、net income EUR 2.918B；FY2026 指引第二次上调至 net sales EUR 43-45B、gross margin 54-56%，并计划把 2027 年 low-NA EUV 与 DUV immersion 产能各较 2026 年增加 30%。本次监测没有季度 net bookings 或 backlog 披露，因此只加强设备侧确认，不证明客户特定 capex 已全部承诺。2026-07-31 重新锚定至 2026-07-30 收盘 ADR $1,651.44、市值约 $636.5B、约 14.6x EV/2026E sales；倍数仍高于基准情景所设的高个位数至低十几倍区间，且立场并不主要依赖倍数，维持中性观察 / 中确信。</description>
-    </item>
-    <item>
-      <title>Oracle 深度研究报告 - AI 云 RPO 仪表盘与资本开支融资压力 / Oracle Deep Research Report - AI Cloud RPO Dashboard and Capex Financing Pressure</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=oracle-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=oracle-2026#oracle-2026@2026-07-31</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施书 demand-risk 层的 RPO/backlog 仪表盘：Oracle 正从成熟数据库/企业软件公司变成高资本强度 AI 云基础设施平台。FY2026 Q4 收入 $19.18B(+21%)、OCI 收入 $5.8B(+93%)、RPO 达 $638B(+363%)，需求读数极强；但 FY2026 capex $55.66B、自由现金流 -$23.69B、FY2027 capex 指引可达 $90-95B，且公司需要约 $40B 债务+股权融资。以 2026-07-30 收盘 $127.56 计，市值约 $367B、净债务约 $124.30B、企业价值约 $492B，对应约 7.3x TTM EV/Sales 和约 21.9x EV/TTM 营业利润。20% 牛市 / 40% 基准 / 40% 熊市情景网格仍给出偏负预期差，立场维持谨慎 / 中确信；关键不是订单多不多，而是 RPO 能否按期转化为高回报现金流。</description>
     </item>
     <item>
       <title>Micron Technology 深度研究报告 - AI memory 周期的 HBM/DRAM/NAND 仪表盘 / Micron Technology Deep Research Report - HBM, DRAM, and NAND Dashboard for the AI Memory Cycle</title>

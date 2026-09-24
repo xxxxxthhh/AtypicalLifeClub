@@ -7750,8 +7750,8 @@
     "priceSymbol": "ORCL",
     "title": "Oracle 深度研究报告 - AI 云 RPO 仪表盘与资本开支融资压力",
     "titleEn": "Oracle Deep Research Report - AI Cloud RPO Dashboard and Capex Financing Pressure",
-    "summary": "AI 基础设施书 demand-risk 层的 RPO/backlog 仪表盘：Oracle 正从成熟数据库/企业软件公司变成高资本强度 AI 云基础设施平台。FY2026 Q4 收入 $19.18B(+21%)、OCI 收入 $5.8B(+93%)、RPO 达 $638B(+363%)，需求读数极强；但 FY2026 capex $55.66B、自由现金流 -$23.69B、FY2027 capex 指引可达 $90-95B，且公司需要约 $40B 债务+股权融资。以 2026-07-30 收盘 $127.56 计，市值约 $367B、净债务约 $124.30B、企业价值约 $492B，对应约 7.3x TTM EV/Sales 和约 21.9x EV/TTM 营业利润。20% 牛市 / 40% 基准 / 40% 熊市情景网格仍给出偏负预期差，立场维持谨慎 / 中确信；关键不是订单多不多，而是 RPO 能否按期转化为高回报现金流。",
-    "summaryEn": "The RPO/backlog dashboard for the AI-infrastructure book's demand-risk layer: Oracle is changing from a mature database and enterprise-software company into a capital-intensive AI-cloud infrastructure platform. FY2026 Q4 revenue was $19.18B (+21%), OCI revenue was $5.8B (+93%), and RPO reached $638B (+363%), making the demand readout very strong. But FY2026 capex was $55.66B, free cash flow was -$23.69B, FY2027 capex could reach $90-95B, and the company expects roughly $40B of debt and equity financing. At the $127.56 close on Jul 30, 2026, roughly $367B market cap, about $124.30B net debt, and about $492B enterprise value, ORCL trades at about 7.3x TTM EV/Sales and about 21.9x EV/TTM operating income. The 20% bull / 40% base / 40% bear grid still leaves a negative expectation gap, so the stance stays cautious / medium conviction: the question is not whether orders are large, but whether RPO converts into high-return cash flow on schedule.",
+    "summary": "2026-09-24 监测更新：FY2027 Q1（截至 2026-08-31）收入 $19.35B（+30%）、OCI 收入 $7.39B（+121%）、RPO $664B（环比 +$26B；按 10-Q 约 13% 在 12 个月内、37% 在第 13-36 个月确认），FY2027 指引上调至收入不低于 $90B、非 GAAP EPS $8.10，capex 维持 $90-95B（电话会转写）。经营现金流 $23.10B 中含 $11.36B 具重大融资成分的客户预付款，Q1 自由现金流 −$5.40B、近四季 −$28.72B；$20B ATM 已在 Q1 全部完成（约 1.41 亿股）。负面：S&P 于 2026-07-09 降至 BBB-；毛利率下滑；2026-09-24 据 Bloomberg，Oracle 对 2.45GW 的 Project Jupiter 发出不可抗力通知，燃料管道两次被州土地办公室否决后推迟到 2027-02-01。按 2026-09-23 收盘 $144.56：市值约 $437B、notes payable 口径净债务约 $88.3B、EV 约 $525B，约 7.3x EV/TTM 收入、约 22.8x EV/TTM GAAP 营业利润、约 17.8x FY2027 EPS 指引。20/40/40 网格加权每股 $164.60，年化 +4.8%，低于 8% 门槛，立场维持谨慎 / 中确信；若权重改为 30/40/30 即越过门槛，结论对权重敏感。",
+    "summaryEn": "2026-09-24 monitoring update: FY2027 Q1 (quarter ended 2026-08-31) revenue was $19.35B (+30%), OCI revenue $7.39B (+121%) and RPO $664B (+$26B sequentially). Per the 10-Q, about 13% of RPO is expected to be recognized within 12 months and 37% in months 13-36. FY2027 guidance was raised to at least $90B of revenue and $8.10 of non-GAAP EPS, and capex stays at $90-95B (call transcript). Operating cash flow of $23.10B includes $11.36B of customer prepayments with a significant financing component. Q1 free cash flow was -$5.40B and trailing four-quarter FCF -$28.72B. The $20B ATM was completed in Q1 (about 141M shares). Negatives: S&P cut Oracle to BBB- on 2026-07-09; gross margin declined; and on 2026-09-24 Bloomberg reported a force-majeure notice on the 2.45GW Project Jupiter campus, whose fuel pipeline slipped to 2027-02-01 after two State Land Office denials. At the $144.56 close on 2026-09-23, market cap is about $437B, net debt on the notes-payable basis about $88.3B and EV about $525B: about 7.3x EV/TTM sales, 22.8x EV/TTM GAAP operating income and 17.8x the FY2027 EPS guide. The 20/40/40 grid weights to $164.60 per share, +4.8% annualized, below the 8% hurdle, so the stance stays cautious / medium conviction. At 30/40/30 it would clear the hurdle, so the call is weight-sensitive.",
     "tags": [
       "AI云",
       "企业软件",
@@ -7760,7 +7760,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-09-24",
     "file": "/invest/research/reports/view.html?id=oracle-2026",
     "markdownFiles": {
       "zh": "/invest/research/Oracle_深度研究报告_2026-07.md",
@@ -7770,18 +7770,18 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "demand-risk 层的 RPO/backlog 仪表盘：FY2026 Q4 RPO $638B(+363%，环比 +$85B)，OCI 收入 $5.8B(+93%)，验证 AI 云需求是否穿透到订单簿",
-      "现金流和融资压力同样极端：FY2026 capex $55.66B、FCF -$23.69B；FY2027 capex 指引 $90-95B，另需约 $40B 债务+股权融资，含 $20B ATM 股权发行",
-      "2026-07-30 收盘 $127.56、约 $367B 市值、约 $124.30B 净债务、约 $492B 企业价值，对应约 7.3x TTM EV/Sales、约 21.9x EV/TTM 营业利润；传统软件利润表与 AI 基建资产负债表叙事并存",
-      "核心监控不是『订单多不多』，而是 RPO 转化、客户集中、OCI 毛利/ROIC、capex 是否按时变成可售 capacity，以及融资是否伤害股东",
-      "2026-07-31 重新裁定：按 2026-07-30 收盘重算后 20% 牛市 / 40% 基准 / 40% 熊市网格仍偏负，立场维持谨慎 / 中确信"
+      "2026-09-24 监测更新：FY2027 Q1 OCI 收入 $7.39B（+121%）、RPO $664B（环比 +$26B），10-Q 披露约 13% 在 12 个月内、37% 在第 13-36 个月确认，与“约一半 RPO 在 36 个月内转化”一致",
+      "现金流仍靠融资支撑：Q1 capex $28.50B、自由现金流 −$5.40B（经营现金流含 $11.36B 客户预付款），近四季 FCF −$28.72B；$20B ATM 已在 Q1 完成（约 1.41 亿股），S&P 已降至 BBB-",
+      "Project Jupiter（新墨西哥，2.45GW）：据 Bloomberg，Oracle 已发出不可抗力通知，燃料管道两次被否后推迟到 2027-02-01；约 $18B 建设贷款在开发商层面，不在 Oracle 表内",
+      "按 2026-09-23 收盘 $144.56：市值约 $437B、EV 约 $525B（notes payable 口径），约 7.3x EV/TTM 收入、约 22.8x EV/TTM GAAP 营业利润、约 17.8x FY2027 EPS 指引",
+      "20/40/40 网格加权每股 $164.60，年化 +4.8%，低于 8% 门槛：立场维持谨慎 / 中确信；30/40/30 下为 +10.3%，权重敏感"
     ],
     "chainLayer": "demand-risk",
     "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "cautious",
-    "priceAsOf": "2026-07-30",
-    "reportedPeriod": "FY2026 Q4",
+    "priceAsOf": "2026-09-23",
+    "reportedPeriod": "FY2027 Q1",
     "related": [
       "coreweave-2026",
       "nebius-2026",
@@ -7804,11 +7804,13 @@
           "en": "12-month / 13-36-month RPO conversion weakens, or new RPO depends on a few very large AI customers"
         },
         "latest": {
-          "zh": "FY2026 Q4 RPO $638B，约 +363%，环比增加约 $85B",
-          "en": "FY2026 Q4 RPO $638B, about +363%, up about $85B sequentially"
+          "zh": "FY2027 Q1（截至 2026-08-31）RPO $664B，环比 +$26B、同比 +$209B；10-Q 称约 13% 在未来 12 个月、37% 在第 13-36 个月、34% 在第 37-60 个月确认。OCI 收入 +121%，FY2027 收入指引上调至不低于 $90B。新增 RPO 大多为预付/客户自带硬件结构，到 FY2028 或更晚才进入收入。转化这条腿读数改善，但新增 RPO 的客户构成未披露，因此析取触发的另一条腿无法判定，评为 unclear",
+          "en": "FY2027 Q1 (ended 2026-08-31) RPO was $664B, +$26B sequentially and +$209B YoY. The 10-Q expects about 13% to be recognized in the next 12 months, 37% in months 13-36 and 34% in months 37-60. OCI revenue grew 121% and FY2027 revenue guidance rose to at least $90B. New RPO is mostly prepay / bring-your-own-hardware and does not reach revenue until FY2028 or later. The conversion leg improved, but the customer mix of new RPO is undisclosed, so the other leg of this either-or trigger cannot be tested. Graded unclear."
         },
-        "nextCheck": "FY2027 Q1 RPO 转化 / Q1 FY2027 RPO conversion",
-        "nextCheckDate": "2026-09"
+        "nextCheck": "FY2027 Q2 RPO 与 12 个月确认比例 / Q2 FY2027 RPO and 12-month recognition share",
+        "nextCheckDate": "2026-12",
+        "reading": "unclear",
+        "readingAsOf": "2026-09-24"
       },
       {
         "id": "capex-financing-burden",
@@ -7823,11 +7825,13 @@
           "en": "FY2027 capex exceeds $95B, or the roughly $40B financing need becomes more costly or dilutive than expected"
         },
         "latest": {
-          "zh": "FY2026 capex $55.66B、FCF -$23.69B；FY2027 capex 指引 $90-95B，融资约 $40B",
-          "en": "FY2026 capex $55.66B and FCF -$23.69B; FY2027 capex guide $90-95B with about $40B financing"
+          "zh": "Q1 capex $28.50B，净现金 capex $17.97B；据电话会转写，FY2027 capex 仍为 $90-95B、净现金 capex 不超过 $70B，未突破 $95B。$20B ATM 已在 Q1 全部完成（约 1.41 亿股、净额 $19.9B）。债务部分尚未执行：Q1 偿还 $4.2B、未新发票据。S&P 于 2026-07-09 降至 BBB-/A-3（展望稳定）；票据公允价值 $105.7B，对应账面 $125.0B。capex 腿在界内、股权融资已完成，但债务融资成本尚未可观测，评为 unclear",
+          "en": "Q1 capex was $28.50B, with net cash capex of $17.97B. Per a call transcript, FY2027 capex stays at $90-95B, with no more than $70B of net cash capex, so it has not moved above $95B. The $20B ATM was fully completed in Q1 (about 141M shares, $19.9B net). The debt half has not been executed: $4.2B was repaid in Q1 and no notes were issued. S&P cut Oracle to BBB-/A-3 on 2026-07-09 (outlook stable), and notes trade at a fair value of $105.7B against $125.0B carrying. The capex leg is within bounds and the equity is done, but debt financing cost is not yet observable. Graded unclear."
         },
-        "nextCheck": "capex 指引与 ATM/债务执行 / capex guide and ATM/debt execution",
-        "nextCheckDate": "2026-09"
+        "nextCheck": "债务融资执行与 capex 指引 / debt financing execution and capex guide",
+        "nextCheckDate": "2026-12",
+        "reading": "unclear",
+        "readingAsOf": "2026-09-24"
       },
       {
         "id": "oci-growth-margin",
@@ -7842,11 +7846,13 @@
           "en": "OCI revenue keeps growing 70%+ while margin or ROIC disclosures improve"
         },
         "latest": {
-          "zh": "FY2026 Q4 OCI 收入 $5.8B，约 +93%；管理层目标 OCI 稳态高 20% ROIC",
-          "en": "FY2026 Q4 OCI revenue $5.8B, about +93%; management frames steady-state OCI ROIC in the high-20s"
+          "zh": "FY2027 Q1 OCI 收入 $7.39B（+121%，Q4 为 +93%），GPU 利用率 97.9%，续约价格溢价 20%（电话会转写）。但 CFO 称毛利率如预期下降；非 GAAP 营业利润率持平于 42%；ROIC 未披露，推迟到 10 月投资者日。这是合取型看多触发：增长腿满足，利润率/ROIC 腿未满足，因此未触发，评为 within",
+          "en": "FY2027 Q1 OCI revenue was $7.39B (+121% vs +93% in Q4), with GPU utilization at 97.9% and renewals at a 20% premium (call transcript). But the CFO said gross margin declined as expected, the non-GAAP operating margin was flat at 42%, and ROIC was not disclosed; it is deferred to the October investor day. This is a conjunctive bull trigger: the growth leg is met but the margin/ROIC leg is not, so it has not fired. Graded within."
         },
-        "nextCheck": "FY2027 Q1 OCI 增长 / Q1 FY2027 OCI growth",
-        "nextCheckDate": "2026-09"
+        "nextCheck": "10 月投资者日毛利率/ROIC 框架 / October investor-day margin and ROIC framing",
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-09-24"
       },
       {
         "id": "customer-concentration",
@@ -7861,10 +7867,13 @@
           "en": "RPO or OCI growth shows overdependence on one or two large AI customers"
         },
         "latest": {
-          "zh": "市场关注 OpenAI 等超大 AI 合同对 RPO 的集中度影响；公司尚需更细披露",
-          "en": "Investors are focused on how large AI contracts such as OpenAI may concentrate RPO; finer disclosure is still needed"
+          "zh": "10-Q 未披露单一客户占比。电话会转写称，Abilene 园区 8 栋中已有 6 栋、618MW、占总容量 75% 交付给“该客户”，Q1 在该园区交付 13.1 万块 GPU；Project Jupiter 属于 OpenAI 相关的 Stargate 站点（据 Bloomberg）。管理层称新增预付款类需求“广泛”。缺少量化披露，评为 unclear",
+          "en": "The 10-Q does not disclose any single-customer share. Per the call transcript, 6 of 8 Abilene buildings, 618MW and 75% of total campus capacity, have been delivered to \"the customer\", with 131K GPUs delivered there in Q1. Project Jupiter is part of the OpenAI-linked Stargate buildout (per Bloomberg). Management calls prepay-type demand \"broad based\". Without quantified disclosure, graded unclear."
         },
-        "nextCheck": "10-K/10-Q 客户集中披露 / 10-K and 10-Q concentration disclosures"
+        "nextCheck": "FY2027 10-K/10-Q 客户集中披露 / FY2027 10-K and 10-Q concentration disclosures",
+        "reading": "unclear",
+        "readingAsOf": "2026-09-24",
+        "nextCheckDate": "2026-12"
       },
       {
         "id": "data-center-power-delivery",
@@ -7879,17 +7888,19 @@
           "en": "construction, power, cooling, networking, or GPU delivery delays make capex arrive before revenue"
         },
         "latest": {
-          "zh": "FY2027 $90-95B capex 需要数据中心、电力和 GPU 容量同步上线",
-          "en": "FY2027 capex of $90-95B requires data centers, power, and GPU capacity to come online together"
+          "zh": "正面：Q1 交付 850MW、逾 30 万块 GPU，几乎是 Q4 的三倍，OCI 收入 +121%，收入在跟随 capex。负面：Project Jupiter（2.45GW）的 Energy Transfer 燃料管道经新墨西哥州土地办公室 3 月、7 月两次否决后推迟到 2027-02-01；2026-09-24 据 Bloomberg，Oracle 已向开发商发出不可抗力通知，要求若 2028 年错过开园可延期付款。Oracle 称“remains on our planned schedule”。电力投入的延误已经证实，但尚未证明收入后移，评为 unclear；园区时间表变化或收入指引下调即评为 breached",
+          "en": "Positive: 850MW and 300,000+ GPUs were delivered in Q1, almost triple Q4, and OCI revenue grew 121%, so revenue is following capex. Negative: the Energy Transfer fuel pipeline for Project Jupiter (2.45GW) was denied by the New Mexico State Land Office in March and again in July and slipped to 2027-02-01. On 2026-09-24 Bloomberg reported that Oracle sent the developer a force-majeure notice seeking to defer payments if the campus misses its 2028 opening. Oracle says it \"remains on our planned schedule\". A power-input delay is confirmed, but a revenue push-out is not. Graded unclear; a campus-schedule change or a revenue-guide cut would make it breached."
         },
-        "nextCheck": "数据中心上线与 capex/OCI 节奏 / capacity go-lives and capex/OCI cadence",
-        "nextCheckDate": "2026-09"
+        "nextCheck": "Jupiter 管道投运与园区时间表 / Jupiter pipeline in-service and campus schedule",
+        "nextCheckDate": "2026-12",
+        "reading": "unclear",
+        "readingAsOf": "2026-09-24"
       }
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 $127.56（2026-07-30 收盘）、约 $367B 市值和约 $492B 企业价值计，市场仍给 $638B RPO 很高的转化信用；约 7.3x EV/Sales 与约 21.9x EV/营业利润虽较旧口径压缩，但仍明显高于熊市情景所指的 5-6x 区间。20% 牛市 / 40% 基准 / 40% 熊市网格承认需求强度，但 RPO 转化、FY2027 capex、约 $40B 融资成本与仍为 -$23.69B 的自由现金流都不会被股价变动回答，预期差仍偏负。",
-      "en": "At $127.56 (Jul 30, 2026 close), roughly $367B market cap and about $492B enterprise value, the market still gives the $638B RPO a large conversion credit; about 7.3x EV/Sales and about 21.9x EV/operating income are compressed versus the old caliber but remain well above the 5-6x band named in the bear case. The 20% bull / 40% base / 40% bear grid recognizes demand strength, but RPO conversion, FY2027 capex, the cost of roughly $40B of financing, and free cash flow still at -$23.69B are none of them answered by a price move, so the expectation gap stays negative."
+      "zh": "2026-09-24 按 2026-09-23 收盘 $144.56 重新推导：市值约 $437B、EV 约 $525B，约 7.3x EV/TTM 收入、约 17.8x FY2027 非 GAAP EPS 指引。自有 FY2029 框架下，牛市 / 基准 / 熊市为每股 $323.67 / $175.99 / $73.69（含股息），20/40/40 加权 $164.60，年化 +4.8%，低于 8% 门槛。Q1 转化证据（OCI +121%、指引上调、交付 850MW）支持降低熊市权重；但同一时间窗里出现了 BBB- 评级、毛利率下滑、客户集中仍未披露，以及 Project Jupiter 不可抗力通知，因此维持 20/40/40，立场谨慎。30/40/30 下为 +10.3%，确信度维持中等而非更高。",
+      "en": "Re-derived 2026-09-24 at the 2026-09-23 close of $144.56: about $437B market cap, about $525B EV, about 7.3x EV/TTM sales and 17.8x the FY2027 non-GAAP EPS guide. On our FY2029 frame, bull / base / bear give $323.67 / $175.99 / $73.69 per share including dividends. The 20/40/40 weighting gives $164.60, +4.8% annualized, below the 8% hurdle. Q1 conversion evidence (OCI +121%, raised guide, 850MW delivered) argues for less bear weight. The same window brought a BBB- rating, lower gross margin, still-undisclosed concentration and the Project Jupiter force-majeure notice, so the weights stay 20/40/40 and the stance stays cautious. At 30/40/30 the grid gives +10.3%, which is why conviction stays medium rather than higher."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -7932,6 +7943,16 @@
         "stance": "cautious",
         "conviction": "medium",
         "price": 127.56
+      },
+      {
+        "date": "2026-09-24",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 144.56,
+        "note": {
+          "zh": "FY2027 Q1 监测更新 + 按 2026-09-23 收盘重锚。20/40/40 网格（$323.67 / $175.99 / $73.69）加权 $164.60，年化 +4.8%，低于 8% 门槛，维持谨慎。转化证据改善，但被 BBB-、毛利率下滑与 Project Jupiter 不可抗力通知抵消；30/40/30 下为 +10.3%，属于权重敏感的维持。",
+          "en": "FY2027 Q1 monitoring update and re-anchor at the 2026-09-23 close. The 20/40/40 grid ($323.67 / $175.99 / $73.69) weights to $164.60, +4.8% annualized, below the 8% hurdle, so cautious holds. Conversion evidence improved but is offset by BBB-, lower gross margin and the Project Jupiter force-majeure notice. At 30/40/30 it would be +10.3%, making this a weight-sensitive hold."
+        }
       }
     ]
   },

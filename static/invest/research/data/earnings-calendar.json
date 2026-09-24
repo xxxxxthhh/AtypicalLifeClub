@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-09-23",
+  "asOf": "2026-09-24",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -483,13 +483,13 @@
     {
       "reportId": "oracle-2026",
       "company": "Oracle",
-      "expectedDate": "2026-09-10",
-      "precision": "day",
-      "status": "issuer-confirmed",
-      "session": "after-close",
-      "sourceUrl": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Sets-the-Date-for-its-First-Quarter-Fiscal-Year-2027-Earnings-Announcement/default.aspx",
-      "sourceType": "issuer-ir",
-      "verifiedAt": "2026-09-07"
+      "expectedDate": "2026-12",
+      "precision": "month",
+      "status": "estimated",
+      "session": "not-applicable",
+      "sourceUrl": null,
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-09-24"
     },
     {
       "reportId": "marvell-2026",
