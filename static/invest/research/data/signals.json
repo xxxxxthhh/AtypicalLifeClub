@@ -1,5 +1,29 @@
 [
   {
+    "id": "oracle-project-jupiter-force-majeure-2026-09",
+    "date": "2026-09-24",
+    "title": {
+      "zh": "Oracle 就 2.45GW 的 Project Jupiter 发出不可抗力通知：燃料管道两次被否后推迟到 2027-02-01",
+      "en": "Oracle sends force-majeure notice on 2.45GW Project Jupiter after fuel pipeline slips to 2027-02-01 on two permit denials"
+    },
+    "detail": {
+      "zh": "据 Bloomberg（2026-09-24，经 Yahoo Finance 转载），Oracle 已向 Blue Owl 旗下开发商 Stack Infrastructure 发出不可抗力通知，要求若新墨西哥 2.45GW 的 Project Jupiter 园区错过 2028 年开园，可延期付款。为园区 Bloom 燃料电池供气的 Energy Transfer 管道，在新墨西哥州土地办公室 3 月否决、7 月复议再否（KVIA 2026-07-15）之后，投运日推迟到 2027-02-01。约 20 家银行的约 $18B 建设贷款据报交易价低于 90 美分；这是开发商层面的项目债，不在 Oracle 表内，Oracle 是主租户。Oracle 向 CNBC 表示“Project Jupiter remains on our planned schedule”，Blue Owl 称通知“does not change the financial commitments”。本条记录 resource-constraints 的本地电力/燃料许可腿：一个 GW 级园区的供电投入被许可卡住，且租户已采取合同保护动作。它不证明园区一定延误，也不证明 Oracle 收入后移；oracle-2026 的 data-center-power-delivery 评为 unclear。来源：https://finance.yahoo.com/technology/ai/articles/oracle-cites-force-majeure-shield-122536420.html ；https://www.cnbc.com/2026/09/24/oracle-data-center-force-majeure.html ；https://kvia.com/news/business-technology/2026/07/15/new-mexico-land-commissioner-again-rejects-pipeline-request-for-project-jupiter/",
+      "en": "Per Bloomberg (2026-09-24, via Yahoo Finance), Oracle sent a force-majeure notice to Stack Infrastructure, the Blue Owl-owned developer of the 2.45GW Project Jupiter campus in New Mexico, seeking to defer payments if the campus misses its 2028 opening. The Energy Transfer pipeline that would fuel the campus's Bloom fuel cells slipped to 2027-02-01 after the New Mexico State Land Office denied it in March and again on reconsideration in July (KVIA, 2026-07-15). A roughly $18B construction loan from about 20 banks reportedly trades below 90 cents. That is developer-level project debt, not on Oracle's balance sheet; Oracle is the anchor tenant. Oracle told CNBC \"Project Jupiter remains on our planned schedule\", and Blue Owl said the notice \"does not change the financial commitments\". This records the local power/fuel-permitting leg of resource-constraints: a gigawatt-scale campus has its power input held up by permitting, and the tenant has taken a contractual protective step. It does not establish that the campus will be delayed or that Oracle revenue moves out; oracle-2026 grades data-center-power-delivery unclear. Sources: https://finance.yahoo.com/technology/ai/articles/oracle-cites-force-majeure-shield-122536420.html ; https://www.cnbc.com/2026/09/24/oracle-data-center-force-majeure.html ; https://kvia.com/news/business-technology/2026/07/15/new-mexico-land-commissioner-again-rejects-pipeline-request-for-project-jupiter/"
+    },
+    "crossChecks": [
+      "resource-constraints"
+    ],
+    "tickers": [
+      "ORCL"
+    ],
+    "reportIds": [
+      "oracle-2026"
+    ],
+    "monitoringRefs": [
+      "oracle-2026:data-center-power-delivery"
+    ]
+  },
+  {
     "id": "coreweave-4-2b-convertible-notes-closing-2026-09",
     "date": "2026-09-22",
     "title": {
@@ -75,6 +99,14 @@
     ],
     "tickers": [
       "ORCL"
+    ],
+    "reportIds": [
+      "oracle-2026"
+    ],
+    "monitoringRefs": [
+      "oracle-2026:data-center-power-delivery",
+      "oracle-2026:rpo-conversion-quality",
+      "oracle-2026:capex-financing-burden"
     ]
   },
   {
