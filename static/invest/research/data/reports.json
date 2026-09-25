@@ -2855,7 +2855,8 @@
     "priceAsOf": "2026-08-21",
     "reportedPeriod": "Q2 2026 / 2026-08-21 valuation frame",
     "related": [
-      "corning-2026"
+      "corning-2026",
+      "axti-2026"
     ],
     "monitoring": [
       {
@@ -8202,7 +8203,8 @@
       "nvidia-2026",
       "aaoi-2026",
       "corning-2026",
-      "arista-2026"
+      "arista-2026",
+      "axti-2026"
     ],
     "monitoring": [
       {
@@ -10244,7 +10246,8 @@
       "coherent-2026",
       "aaoi-2026",
       "corning-2026",
-      "arista-2026"
+      "arista-2026",
+      "axti-2026"
     ],
     "monitoring": [
       {
@@ -11108,6 +11111,200 @@
         "note": {
           "zh": "首次覆盖裁定。30/50/20 情景网格加权每股价值 $730.52（含股息 $8.88 后年化 -7.6%），低于 8%–10% 要求回报 15.6–17.6 个百分点；退出倍数整体上调 4 倍后为 -0.5%，再叠加更高每 EB 收入与毛利率为 +5.2%，负偏斜成立。牛市情景年化 +9.3%、仅以 1.3 个百分点越过 8%，故取谨慎而非 bearish-avoid。",
           "en": "Initiation ruling. The 30/50/20 scenario grid weights to $730.52 per share, -7.6% annualized including $8.88 of dividends, 15.6 to 17.6 points below an 8%-10% required return; lifting all exit multiples by 4x gives -0.5% and adding higher revenue per exabyte and margins gives +5.2%, establishing a negative skew. The bull case returns +9.3% annualized, clearing 8% by only 1.3 points, so the ruling is cautious rather than bearish-avoid."
+        }
+      }
+    ]
+  },
+  {
+    "id": "axti-2026",
+    "company": "AXT Inc.",
+    "ticker": "NASDAQ: AXTI",
+    "priceSymbol": "AXTI",
+    "title": "AXT 深度研究报告 - 被许可证把守的磷化铟瓶颈",
+    "titleEn": "AXT Deep Research Report - An Indium Phosphide Bottleneck Guarded by an Export Permit",
+    "summary": "2026-09-25 首次覆盖，锚定 2026-09-23 收盘 $72.98。以 Q2 10-Q 封面 65,573,212 股计市值 $47.86 亿，扣除含长期国债与债券的净现金 $6.491 亿后企业价值 $41.36 亿，对应 TTM（Q3 2025–Q2 2026）收入 $1.255 亿的 33.0 倍（同日 AAOI 13.9 倍），电话会 Q3 收入底数约 $66M 年化的 15.7 倍、Q3 非 GAAP EPS $0.30–$0.32 年化的 58.9 倍。AXT 自述为三家主要 InP 衬底供应商之一（10-K 公司口径，未独立核实），Q2 收入 $47.6M（同比 +165%）、GAAP 毛利率 44.9%、InP 收入 $30.7M（电话会）；Coherent 预付 $22.29M、Casela 承诺 RMB 1.73 亿、Lumentum 同意两笔各 $43.5M 保证金。但全部晶圆在中国生产，每笔出口需商务部逐一许可——2025Q4 收入已因许可不足降至 $23.0M，对美 InP 许可从未获批（Q2 北美收入 $161K）。以 common-constraint 角色检验 InP 衬底是否约束 800G/1.6T 爬坡：约束在物理产能与监管许可两层上都成立。「融资方式造成分化」的假设经检验：两家 2026 年净股权融资均约为市值的 12%，AXTI 股本增幅（+18.5%，12 月增发前起 +39.2%）反而高于 AAOI（+13.2%）；真正的差别是部署（AXT H1 资本开支 $8.6M、募资多数买成国债，AAOI 资本开支 $3.35 亿加设备预付 $2.90 亿）与每股业绩（Q1→Q2 每股收入 +53.9% 对 +18.4%）；价格比变动的 70% 发生在 AXT Q2 业绩前后两日，约 60% 在 AAOI 08-21 新开 ATM 之后。30/40/30 情景网格（FY2028 收入 $6.2 / $4.5 / $2.5 亿，退出倍数 35 / 28 / 18 倍，加每股净现金）加权 $55.86，至 2028 年末年化 -11.1%，低于 8% 门槛 19.1 个百分点；退出倍数整体上调 4 倍仍为 -7.0%。牛市情景年化 +16.6%，故立场谨慎 / 中确信。",
+    "summaryEn": "Initial coverage dated 2026-09-25, anchored on the 2026-09-23 close of $72.98. On the 65,573,212 shares on the Q2 10-Q cover, market capitalization is $4.786B; net of $649.1M of net cash including long-term Treasuries and bonds, enterprise value is $4.136B, or 33.0x TTM (Q3 2025-Q2 2026) revenue of $125.5M (AAOI 13.9x at the same close), 15.7x the call-level Q3 revenue floor of about $66M annualized and 58.9x the call-level Q3 non-GAAP EPS of $0.30-$0.32 annualized. AXT describes itself as one of three primary InP substrate suppliers (10-K company assertion, not independently verified): Q2 revenue was $47.6M (+165% Y/Y) at a 44.9% GAAP gross margin, with InP revenue of $30.7M (call); Coherent prepaid $22.29M, Casela committed RMB 173M and Lumentum agreed to two $43.5M deposits. But every wafer is made in China and every export needs a per-customer MOFCOM permit - Q4 2025 revenue already fell to $23.0M on fewer permits, and US InP permits have never been granted (North America $161K of Q2 revenue). In the common-constraint role the report tests whether InP substrate supply constrains the 800G/1.6T ramp: the constraint binds on two layers, physical capacity and regulatory permission. The hypothesis that financing drove the divergence was tested: both companies' 2026 net equity raises equal about 12% of market value, and AXTI's share count grew faster (+18.5%, +39.2% from before its December offering) than AAOI's (+13.2%); the real differences are deployment (AXT H1 capex $8.6M with most proceeds in Treasuries, against AAOI's $335M of capex plus $290M of equipment prepayments) and per-share results (revenue per share +53.9% Q/Q against +18.4%); 70% of the price-ratio move came in the two sessions around AXT's Q2 print and about 60% after AAOI opened a new ATM on 08-21. A 30/40/30 scenario grid (FY2028 revenue $620M / $450M / $250M, exit multiples 35x / 28x / 18x plus net cash per share) weights to $55.86, -11.1% annualized to the end of 2028, 19.1 points below an 8% hurdle; lifting all exit multiples by 4x still gives -7.0%. The bull case returns +16.6% annualized, so the stance is cautious / medium conviction.",
+    "tags": [
+      "磷化铟",
+      "光连接",
+      "出口管制",
+      "AI光模块"
+    ],
+    "category": "tech",
+    "date": "2026-09-25",
+    "lastUpdate": "2026-09-25",
+    "file": "/invest/research/reports/view.html?id=axti-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/AXT_深度研究报告_2026-09.md",
+      "en": "/invest/research/AXT_Deep_Research_Report_2026-09.md"
+    },
+    "highlights": [
+      "市场数据（2026-09-23 收盘）：股价 $72.98、市值 $47.86 亿、企业价值 $41.36 亿（含长期投资净现金 $6.491 亿）；52 周收盘区间 $4.03（2025-10-10）–$140.83（2026-05-22），现价距收盘高点 -48.2%",
+      "InP 拐点：Q2 收入 $47.6M（同比 +165%）、GAAP 毛利率 44.9%、InP 收入 $30.7M（电话会）；但税前利润 $15.1M 中 $4.7M 是增发资金利息，H1 经营现金流 -$0.9M、资本开支仅 $8.6M",
+      "两层约束：在手订单「well over $100 million」且超过两个季度，产能目标一个季度内由约 $35M/季上调到 $60M/季（2026 年末）、2027 年末约 $130M/季（电话会）；每笔出口需商务部许可，2025Q4 收入因许可不足降至 $23.0M，Q2 北美收入仅 $161K",
+      "客户资金：长期协议约定预付约 $47.7M、06-30 已收约 $12.7M（Casela 50%），Coherent $22.29M 大概率未到账，Lumentum $43.5M 为期后事项；剩余履约义务约 $98.5M 至 2029 年上半年",
+      "融资模式对照 AAOI：两家 2026 年净股权融资均约为市值 12%，AXTI 股本增幅更高；差别在部署（$8.6M 对约 $6.25 亿资本开支与设备预付）与每股业绩；价格比变动 70% 在 AXT Q2 业绩前后两日",
+      "治理与内部人：CEO 06-01/02 卖出 197,498 股约 $22.3M、董事合计约 $7.5M，均未勾选 10b5-1，部分落在 4 月增发 60 天锁定期内（是否豁免未披露）；通美科创板撤回触发 RMB 3.244 亿私募赎回权，港股尚未递表"
+    ],
+    "period": "2026H1",
+    "versionType": "initial",
+    "versionLabel": "2026 Initial Coverage",
+    "moduleContract": "heading-comment-v1",
+    "isCurrent": true,
+    "chainLayer": "optical",
+    "chainRole": "common-constraint",
+    "coverageTier": "full",
+    "stance": "cautious",
+    "conviction": "medium",
+    "priceAsOf": "2026-09-23",
+    "reportedPeriod": "Q2 2026 Form 10-Q",
+    "related": [
+      "aaoi-2026",
+      "coherent-2026",
+      "innolight-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "inp-revenue-capacity",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "InP 收入与美元口径季度产能",
+          "en": "InP revenue and quarterly capacity in revenue terms"
+        },
+        "trigger": {
+          "zh": "Q4 2026 InP 收入低于 $45M（电话会），或撤回 2026 年末约 $60M/季的产能目标",
+          "en": "Q4 2026 InP revenue below $45M (call), or the exit-2026 capacity target of about $60M per quarter withdrawn"
+        },
+        "latest": {
+          "zh": "据 2026-07-30 Q2 电话会（第三方转写）：Q2 InP 收入 $30.7M（Q1 $13.6M），占收入 64.5%；2026 年末 InP 产能约 $60M/季、2027 年末约 $130M/季，分别由 Q1 电话会的约 $35M 与 $65–70M 上调；产能为收入口径，含价格与尺寸结构。H1 现金资本开支仅 $8.6M（10-Q）。",
+          "en": "Per the 2026-07-30 Q2 call (third-party transcript): Q2 InP revenue was $30.7M (Q1 $13.6M), 64.5% of revenue; exit-2026 InP capacity is about $60M per quarter and exit-2027 about $130M, raised from about $35M and $65-70M on the Q1 call; capacity is in revenue terms and includes price and diameter mix. H1 cash capex was only $8.6M (10-Q)."
+        },
+        "reading": "within",
+        "readingAsOf": "2026-07-30",
+        "nextCheck": "Q3 2026 电话会 / the Q3 2026 call",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "export-permits",
+        "thesis": "bear",
+        "theme": "regulatory",
+        "metric": {
+          "zh": "中国商务部 InP 出口许可",
+          "en": "China MOFCOM export permits for InP"
+        },
+        "trigger": {
+          "zh": "Q3 2026 收入低于 $60M 或环比下降并归因于许可，或出现针对 InP 的新商务部措施",
+          "en": "Q3 2026 revenue below $60M or a sequential decline attributed to permits, or any new InP-specific MOFCOM measure"
+        },
+        "latest": {
+          "zh": "InP 自 2025-02-04 列入出口管制，2025-06-11 获首批许可（欧洲、日本部分客户）；2025Q4 因许可少于预期收入降至 $23.0M（Q3 $28.0M）；对美 InP 许可尚未获批，Q2 北美收入仅 $161K（10-Q）。Q3 底数约 $66M 只计已获许可或无需许可的订单（电话会）。",
+          "en": "InP has been export-controlled since 2025-02-04, with first permits on 2025-06-11 for certain European and Japanese customers; Q4 2025 revenue fell to $23.0M (Q3 $28.0M) on fewer permits than expected; US InP permits have not been granted and North America was $161K of Q2 revenue (10-Q). The Q3 floor of about $66M counts only permitted or permit-exempt orders (call)."
+        },
+        "reading": "within",
+        "readingAsOf": "2026-08-13",
+        "nextCheck": "Q3 2026 业绩稿 / the Q3 2026 earnings release",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "gross-margin",
+        "thesis": "either",
+        "theme": "pricing",
+        "metric": {
+          "zh": "GAAP 毛利率",
+          "en": "GAAP gross margin"
+        },
+        "trigger": {
+          "zh": "下行：连续两个季度低于 40%；上行：连续两个季度不低于 50% 且收入不低于 $80M",
+          "en": "Downside: below 40% for two consecutive quarters; upside: 50% or more for two quarters with revenue at or above $80M"
+        },
+        "latest": {
+          "zh": "Q2 2026 GAAP 毛利率 44.9%（Q1 29.6%，Q2 2025 8.0%），10-Q 归因于固定成本摊薄与产品结构；管理层目标「begins with a 4」，CFO 称应「targeting a number that begins with a 5」（电话会）。",
+          "en": "Q2 2026 GAAP gross margin was 44.9% (Q1 29.6%, Q2 2025 8.0%), attributed by the 10-Q to fixed-cost absorption and mix; management's target \"begins with a 4\" and the CFO said the company should be \"targeting a number that begins with a 5\" (call)."
+        },
+        "reading": "within",
+        "readingAsOf": "2026-07-30",
+        "nextCheck": "Q3 2026 业绩稿 / the Q3 2026 earnings release",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "customer-prepayments",
+        "thesis": "either",
+        "theme": "concentration",
+        "metric": {
+          "zh": "客户预付款与产能预留协议",
+          "en": "Customer prepayments and capacity-reservation agreements"
+        },
+        "trigger": {
+          "zh": "Coherent 或 Lumentum 协议退款或终止，或流动合同负债与收入同时下降",
+          "en": "Refund or termination of the Coherent or Lumentum agreement, or current contract liabilities falling together with revenue"
+        },
+        "latest": {
+          "zh": "10-Q：长期协议约定预付款约 $47.7M（Casela RMB 1.73 亿约 $25.4M + Coherent $22.29M，派生拆分），06-30 已收约 $12.7M；流动合同负债 $12.078M、长期约 $1.9M；剩余履约义务约 $98.5M 至 2029 年上半年。Lumentum 6 年协议（2026-07-26）首笔保证金 $43.5M 为期后事项，到账未经申报文件证实。",
+          "en": "10-Q: contracted advances under long-term agreements total about $47.7M (Casela RMB 173M, about $25.4M, plus Coherent $22.29M, a derived split), of which about $12.7M was received by 06-30; current contract liabilities $12.078M, long-term about $1.9M; remaining performance obligations about $98.5M through 1H 2029. Lumentum's 6-year agreement (2026-07-26) carries a $43.5M first deposit that is post-period and not yet confirmed received by any filing."
+        },
+        "reading": "within",
+        "readingAsOf": "2026-08-13",
+        "nextCheck": "Q3 2026 10-Q / the Q3 2026 10-Q",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "tongmei-minority-listing",
+        "thesis": "bear",
+        "theme": "leverage-solvency",
+        "metric": {
+          "zh": "通美少数股东、赎回权与港股上市",
+          "en": "Tongmei minority interests, redemption right and Hong Kong listing"
+        },
+        "trigger": {
+          "zh": "私募股份被全额赎回且港股发行使 AXT 对通美持股低于 75%",
+          "en": "Full redemption of the PE stake combined with a Hong Kong offering that cuts AXT below 75% of Tongmei"
+        },
+        "latest": {
+          "zh": "06-30 AXT 持有通美约 85.5%（07-23 拟增持至 86.09%，未交割）；科创板撤回于 2026-07-08 获受理，触发 11 家私募基金 RMB 324,404,508（约 $49M）按原价赎回权；CFO 称基金目前都愿意留下、港股上市约需一年（电话会）；2026-09-24 HKEXnews 在审列表无通美。",
+          "en": "At 06-30 AXT owned about 85.5% of Tongmei (a pending purchase would take it to 86.09%); the STAR withdrawal accepted on 2026-07-08 triggered an at-cost redemption right for 11 PE funds' RMB 324,404,508 (about $49M); the CFO said the funds currently wish to stay and a Hong Kong listing will take about a year (call); HKEXnews active applications showed no Tongmei filing on 2026-09-24."
+        },
+        "reading": "within",
+        "readingAsOf": "2026-09-24",
+        "nextCheck": "Q3 2026 10-Q 附注 18 与 HKEXnews / Q3 2026 10-Q Note 18 and HKEXnews",
+        "nextCheckDate": "2026-11"
+      }
+    ],
+    "stanceRationale": {
+      "zh": "以 2026-09-23 收盘 $72.98、65,573,212 股计市值 $47.86 亿、企业价值 $41.36 亿，对应 TTM 收入 33.0 倍（AAOI 13.9 倍）、电话会 Q3 底数年化 15.7 倍、Q3 非 GAAP EPS 年化 58.9 倍。决定立场的是已定价预期与加权回报：扣除每股 $9.58 净现金（67.79M 完全稀释股数）后剩 $63.40 经营价值，按 28 倍需要约 $2.34 亿 EBIT，大致是 FY2028 收入 $6.2 亿、毛利率 50%——即公司自己的 2027 年末 InP 产能目标全部售出、全部获许可；基准情景只到 $4.5 亿收入、$1.51 亿 EBIT。情景网格 30% 牛市 / 40% 基准 / 30% 熊市（FY2028 收入 $6.2 / $4.5 / $2.5 亿，毛利率 55% / 48% / 38%，归属比例 85% / 80% / 75%，对归属经营利润的退出倍数 35 / 28 / 18 倍，另加每股净现金）加权 $55.86，较 $72.98 低 23.5%，2.27 年年化 -11.1%，低于 8% 要求回报 19.1 个百分点；三档倍数整体上调 4 倍为 -7.0%，再叠加 10% 收入与 3 个百分点毛利率为 +0.6%。熊市权重比 Seagate 的 20% 更高，因为 AXT 的下行可以由单一监管者交付，且 2025Q4 已交付过一次。这是价格与监管者的判断，不是对业务的否定：InP 稀缺、客户预付、毛利率拐点都在一手文件里，牛市情景年化 +16.6%，故取谨慎而非 bearish-avoid；确信度为中，因为许可与产能路径只在电话会与监管层面存在。",
+      "en": "At the 2026-09-23 close of $72.98 on 65,573,212 shares, market capitalization is $4.786B and enterprise value $4.136B, or 33.0x TTM revenue (AAOI 13.9x), 15.7x the call-level Q3 floor annualized and 58.9x the call-level Q3 non-GAAP EPS annualized. What settles the stance is what is priced in and the weighted return: after $9.58 of net cash per share (67.79M fully diluted shares), $63.40 of operating value at 28x needs about $234M of EBIT - roughly FY2028 revenue of $620M at a 50% gross margin, the company's own exit-2027 InP capacity target sold and permitted in full; the base case reaches $450M of revenue and $151M of EBIT. A 30% bull / 40% base / 30% bear grid (FY2028 revenue $620M / $450M / $250M, gross margin 55% / 48% / 38%, attributable share 85% / 80% / 75%, exit multiples on attributable operating earnings of 35x / 28x / 18x, plus net cash per share) weights to $55.86, 23.5% below $72.98, or -11.1% annualized over 2.27 years, 19.1 points below an 8% required return; lifting all multiples by 4x gives -7.0%, and adding 10% revenue and 3 points of gross margin gives +0.6%. The bear weight is higher than Seagate's 20% because AXT's downside can be delivered by a single regulator, and it was in Q4 2025. This is a price-and-regulator judgment, not a verdict on the business: InP scarcity, customer prepayments and the margin inflection are in primary filings and the bull case returns +16.6% annualized, so the ruling is cautious rather than bearish-avoid; conviction is medium because permits and the capacity path exist only at the call and regulatory level."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若连续两个季度收入不低于 $80M 且 GAAP 毛利率不低于 50%；或首批对美 InP 出口许可落地且北美收入超过单季收入 5%；或在基本面不变的前提下股价回落至约 $50（基准情景价值附近），则上调至 neutral-watch 或 constructive。",
+        "en": "Move to neutral-watch or constructive if revenue is at or above $80M with GAAP gross margin at or above 50% for two consecutive quarters; or the first US InP export permits arrive with North American revenue above 5% of a quarter; or the share price falls to around $50, near the base scenario's value, without a change in fundamentals.",
+        "monitoringIds": [
+          "gross-margin",
+          "export-permits",
+          "inp-revenue-capacity"
+        ]
+      },
+      "downgrade": {
+        "zh": "若 Q3 2026 收入低于 $60M，或收入连续两个季度环比下降且归因于出口许可；或出现针对 InP 的新商务部措施、或欧洲与日本方向许可丢失；或 GAAP 毛利率连续两个季度低于 40%；或撤回 2026 年末约 $60M/季的产能目标、或 Q4 2026 InP 收入低于 $45M；或 Coherent、Lumentum 协议终止或退款、或流动合同负债与收入同时下降；或私募股份全额赎回且港股发行使 AXT 对通美持股低于 75%，则下调至 bearish-avoid。",
+        "en": "Move to bearish-avoid if Q3 2026 revenue is below $60M or revenue declines sequentially for two quarters with the decline attributed to export permits; or a new InP-specific MOFCOM measure appears or permits for Europe or Japan are lost; or GAAP gross margin is below 40% for two consecutive quarters; or the exit-2026 capacity target of about $60M per quarter is withdrawn or Q4 2026 InP revenue is below $45M; or the Coherent or Lumentum agreement is terminated or refunded, or current contract liabilities fall together with revenue; or the PE stake is fully redeemed and a Hong Kong offering cuts AXT below 75% of Tongmei.",
+        "monitoringIds": [
+          "export-permits",
+          "gross-margin",
+          "inp-revenue-capacity",
+          "customer-prepayments",
+          "tongmei-minority-listing"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-09-25",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 72.98,
+        "note": {
+          "zh": "首次覆盖裁定。30/40/30 情景网格加权每股价值 $55.86（至 2028-12-31 年化 -11.1%），低于 8% 要求回报 19.1 个百分点；退出倍数整体上调 4 倍为 -7.0%，再叠加更高收入与毛利率为 +0.6%，负偏斜成立。牛市情景年化 +16.6%，故取谨慎而非 bearish-avoid。",
+          "en": "Initiation ruling. The 30/40/30 scenario grid weights to $55.86 per share (-11.1% annualized to 2028-12-31), 19.1 points below an 8% required return; lifting all exit multiples by 4x gives -7.0% and adding higher revenue and margins gives +0.6%, establishing a negative skew. The bull case returns +16.6% annualized, so the ruling is cautious rather than bearish-avoid."
         }
       }
     ]

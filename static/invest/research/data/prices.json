@@ -732,6 +732,18 @@
       "lastClose": 905.92,
       "changePct": -1.5,
       "currency": "USD"
+    },
+    {
+      "reportId": "axti-2026",
+      "symbol": "AXTI",
+      "status": "ok",
+      "attemptedAt": "2026-09-24",
+      "baseDate": "2026-09-23",
+      "basePrice": 72.98,
+      "lastDate": "2026-09-24",
+      "lastClose": 75.9,
+      "changePct": 4.0,
+      "currency": "USD"
     }
   ]
 }

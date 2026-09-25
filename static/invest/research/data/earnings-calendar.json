@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-09-24",
+  "asOf": "2026-09-25",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -658,6 +658,17 @@
       "sourceUrl": null,
       "sourceType": "monitoring",
       "verifiedAt": "2026-09-23"
+    },
+    {
+      "reportId": "axti-2026",
+      "company": "AXT Inc.",
+      "expectedDate": "2026-10",
+      "precision": "month",
+      "status": "estimated",
+      "session": "not-applicable",
+      "sourceUrl": null,
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-09-25"
     }
   ]
 }
