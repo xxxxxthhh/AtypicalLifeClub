@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25",
+  "generatedAt": "2026-09-26",
   "dataAsOf": "2026-09-25",
   "benchmark": "SMH",
   "entries": [
@@ -659,7 +659,7 @@
       "priceAtStance": 183.3,
       "benchmarkSymbol": "SMH",
       "lastDate": "2026-09-25",
-      "lastClose": 261.935,
+      "lastClose": 261.94,
       "changePct": 42.9,
       "benchmarkChangePct": 12.2,
       "relativePct": 30.7,
@@ -911,7 +911,7 @@
       "priceAtStance": 72.98,
       "benchmarkSymbol": "SMH",
       "status": "pending",
-      "daysHeld": 0,
+      "daysHeld": 1,
       "stale": false
     }
   ],
