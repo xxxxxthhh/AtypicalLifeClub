@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T22:16:16Z",
+  "generatedAt": "2026-09-27T23:07:28Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-09-27T22:16:16Z"
+    "value": "2026-09-27T23:07:28Z"
   },
   "tasks": [
     {
@@ -23,11 +23,11 @@
       "reason": "Replace the estimate with an issuer-sourced day."
     },
     {
-      "id": "earnings:jinpan-2026:2026-10:complete-date",
+      "id": "earnings:jinpan-2026:2026-10-14:complete-date",
       "reportId": "jinpan-2026",
       "type": "date-completion",
       "window": "complete-date",
-      "expectedDate": "2026-10",
+      "expectedDate": "2026-10-14",
       "reason": "Replace the estimate with an issuer-sourced day."
     },
     {
@@ -53,14 +53,6 @@
       "window": "verify",
       "expectedDate": "2026-10-27",
       "reason": "Confirm the recorded date on issuer IR."
-    },
-    {
-      "id": "earnings:tsmc-2026:2026-10-15:complete-date",
-      "reportId": "tsmc-2026",
-      "type": "date-completion",
-      "window": "complete-date",
-      "expectedDate": "2026-10-15",
-      "reason": "Replace the estimate with an issuer-sourced day."
     }
   ]
 }

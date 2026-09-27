@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-09-25",
+  "asOf": "2026-09-27",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -350,13 +350,13 @@
       "reportId": "jinpan-2026",
       "company": "金盘科技",
       "timezone": "Asia/Shanghai",
-      "expectedDate": "2026-10",
-      "precision": "month",
+      "expectedDate": "2026-10-14",
+      "precision": "day",
       "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
+      "session": "unspecified",
+      "sourceUrl": "https://stock.10jqka.com.cn/20260924/c680261995.shtml",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-09-14"
+      "verifiedAt": "2026-09-27"
     },
     {
       "reportId": "paypal-2026",
@@ -397,11 +397,11 @@
       "timezone": "Asia/Taipei",
       "expectedDate": "2026-10-15",
       "precision": "day",
-      "status": "estimated",
-      "session": "unspecified",
-      "sourceUrl": "https://www.wallstreethorizon.com/taiwan-semiconductor-earnings-calendar",
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-08-16"
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://investor.tsmc.com/english/quarterly-results/teleconference",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-09-27"
     },
     {
       "reportId": "micron-2026",
