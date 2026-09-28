@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-09-25",
+  "asOf": "2026-09-28",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -316,13 +316,13 @@
     {
       "reportId": "spotify-2026",
       "company": "Spotify",
-      "expectedDate": null,
-      "precision": "unknown",
-      "status": "unknown",
-      "session": "not-applicable",
-      "sourceUrl": null,
-      "sourceType": "none",
-      "verifiedAt": "2026-08-19"
+      "expectedDate": "2026-10-22",
+      "precision": "day",
+      "status": "issuer-confirmed",
+      "session": "before-open",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260924855017/en/Spotify-Technology-S.A.-to-Announce-Results-for-Third-Quarter-2026",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-09-28"
     },
     {
       "reportId": "neov-2026",
