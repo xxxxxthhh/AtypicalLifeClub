@@ -16,6 +16,7 @@ from pathlib import Path
 from typing import Final, Union
 
 import calibration_history
+from price_basis import split_adjusted_price
 
 
 Json = Union[None, bool, int, float, str, list["Json"], dict[str, "Json"]]
@@ -283,6 +284,18 @@ def validate_open_entry(
     price_entry = state.price_entries.get(report_id)
     if price_entry is None:
         fail(f"{label}.reportId has scored verdict but no prices.json entry: {report_id}")
+    report = state.reports_by_id[report_id]
+    history = report.get("stanceHistory") or []
+    if price_entry.get("splitEvents"):
+        if not history or history[-1].get("date") != entry["stanceDate"]:
+            fail(f"{label} split basis requires matching recorded stance date")
+        original = history[-1]["price"]
+        try:
+            expected = split_adjusted_price(original, entry["stanceDate"], price_entry["splitEvents"], price_entry["priceBasisDate"])
+        except (ValueError, KeyError, TypeError) as exc:
+            fail(f"{label} invalid split basis: {exc}")
+        if abs(price_at_stance - expected) > PRICE_TOLERANCE or entry.get("recordedPriceAtStance") != original or entry.get("priceBasisDate") != price_entry.get("priceBasisDate"):
+            fail(f"{label} split-adjusted stance price does not match recorded history")
     price_last_date = require_string(price_entry.get("lastDate"), f"prices.json[{report_id}].lastDate")
     if price_last_date != entry.get("lastDate"):
         fail(f"{label}.lastDate does not match prices.json for {report_id}: {entry.get('lastDate')} vs {price_last_date}")

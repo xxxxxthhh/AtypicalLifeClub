@@ -14,6 +14,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Final, Union
 
+from price_basis import split_adjusted_price
+
 
 Json = Union[None, bool, int, float, str, list["Json"], dict[str, "Json"]]
 
@@ -21,7 +23,7 @@ ROOT: Final = Path(__file__).resolve().parent
 REPORTS_JSON: Final = ROOT / "data" / "reports.json"
 PRICES_JSON: Final = ROOT / "data" / "prices.json"
 STATUS_VALUES: Final = {"ok", "carried-forward", "missing"}
-PRICE_FIELDS: Final = {"baseDate", "basePrice", "lastDate", "lastClose", "changePct", "currency"}
+PRICE_FIELDS: Final = {"baseDate", "basePrice", "lastDate", "lastClose", "changePct", "currency", "splitEvents", "priceBasisDate"}
 
 
 def fail(message: str) -> None:
@@ -143,6 +145,20 @@ def validate_price_entry(
         validate_missing_entry(entry, label)
     else:
         validate_priced_entry(entry, label)
+        if "splitEvents" in entry or "priceBasisDate" in entry:
+            events = require_list(entry.get("splitEvents"), label + ".splitEvents")
+            basis = parse_date(entry.get("priceBasisDate"), label + ".priceBasisDate")
+            if basis > parse_date(entry.get("attemptedAt"), label + ".attemptedAt"):
+                fail(label + " price basis cannot be after attemptedAt")
+            try:
+                split_adjusted_price(1, entry["baseDate"], events, entry["priceBasisDate"])
+                for h in report.get("stanceHistory") or []:
+                    if h["date"] == entry["baseDate"]:
+                        expected = split_adjusted_price(h["price"], h["date"], events, entry["priceBasisDate"])
+                        if abs(entry["basePrice"] / expected - 1) > 0.01:
+                            fail(label + " split-adjusted base differs from recorded anchor")
+            except (ValueError, KeyError, TypeError, OverflowError) as exc:
+                fail(label + " invalid split basis: " + str(exc))
         if parse_date(entry.get("baseDate"), f"{label}.baseDate") != parse_date(
             report.get("priceAsOf"), f"reports.json[{report_id}].priceAsOf"
         ):

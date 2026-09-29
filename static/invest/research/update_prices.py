@@ -21,6 +21,8 @@ from zoneinfo import ZoneInfo
 
 import yfinance as yf
 
+from price_basis import split_adjusted_price
+
 
 Json = Union[None, bool, int, float, str, list["Json"], dict[str, "Json"]]
 PriceEntry = dict[str, Json]
@@ -37,6 +39,8 @@ PRICE_FIELDS: Final = (
     "lastClose",
     "changePct",
     "currency",
+    "splitEvents",
+    "priceBasisDate",
 )
 
 
@@ -174,6 +178,7 @@ def build_ok_entry(
     attempted_at: date,
     currency: str | None,
     fresh_through: date | None = None,
+    split_events: list[dict] | None = None,
 ) -> PriceEntry:
     report_id = report_string(report, "id")
     symbol = report_string(report, "priceSymbol")
@@ -184,10 +189,28 @@ def build_ok_entry(
     if not quotes:
         raise PriceDataUnavailable(f"{symbol}: no usable closes")
 
+    # Yahoo Close is split-adjusted even with auto_adjust=False. A partially
+    # adjusted response must not turn a corporate action into a market crash.
+    ordered = sorted(quotes, key=lambda quote: quote.date)
+    for before, after in zip(ordered, ordered[1:]):
+        ratio = after.close / before.close
+        if ratio < 0.5 or ratio > 2.0:
+            raise PriceDataUnavailable("discontinuous close series requires source review")
+    events = split_events or []
+    for historical in report.get("stanceHistory") or []:
+        if events and any(e["date"] > historical["date"] for e in events):
+            expected = split_adjusted_price(historical["price"], historical["date"], events, iso_day(attempted_at))
+            observed = [q.close for q in quotes if iso_day(q.date) == historical["date"]]
+            # Only exact-session comparisons; historical weekend seeds need no
+            # invented close. Material disagreement fails closed, never divides
+            # the provider's quote a second time.
+            if observed and abs(observed[0] / expected - 1) > 0.01:
+                raise PriceDataUnavailable("split basis disagrees with recorded stance anchor")
+
     base = max(base_quotes, key=lambda quote: quote.date)
     latest = max(quotes, key=lambda quote: quote.date)
     change_pct = round((latest.close - base.close) / base.close * 100, 1)
-    status = "ok" if latest.date == (fresh_through or attempted_at) else "carried-forward"
+    status = "ok" if latest.date == attempted_at == (fresh_through or attempted_at) else "carried-forward"
     entry: PriceEntry = {
         "reportId": report_id,
         "symbol": symbol,
@@ -199,13 +222,16 @@ def build_ok_entry(
         "lastClose": round(latest.close, 4),
         "changePct": change_pct,
     }
+    if events:
+        entry["splitEvents"] = events
+        entry["priceBasisDate"] = iso_day(attempted_at)
     if currency:
         entry["currency"] = currency
     return entry
 
 
 def previous_has_price_fields(previous: PriceEntry) -> bool:
-    return all(field in previous for field in PRICE_FIELDS if field != "currency")
+    return all(field in previous for field in PRICE_FIELDS if field not in {"currency", "splitEvents", "priceBasisDate"})
 
 
 def build_failure_entry(
@@ -303,21 +329,31 @@ def completed_quotes(symbol: str, quotes: list[PriceQuote], observed_at: datetim
     return completed
 
 
-def fetch_quotes(symbol: str, start: date, end: date) -> tuple[list[PriceQuote], str | None]:
+def fetch_quotes(symbol: str, start: date, end: date, *, include_splits: bool = False):
     ticker = yf.Ticker(symbol)
     history = ticker.history(
-        start=iso_day(start), end=iso_day(end + timedelta(days=1)), interval="1d", auto_adjust=False
+        start=iso_day(start), end=iso_day(end + timedelta(days=1)), interval="1d", auto_adjust=False, actions=True
     )
     if getattr(history, "empty", True):
-        return [], currency_from_ticker(ticker)
+        return ([], currency_from_ticker(ticker), []) if include_splits else ([], currency_from_ticker(ticker))
 
     quotes: list[PriceQuote] = []
+    events = []
     for index_value, row in history.iterrows():
         close_value = row.get("Close")
         quote = normalize_quote(index_value, close_value)
         if quote:
             quotes.append(quote)
-    return quotes, currency_from_ticker(ticker)
+        split = row.get("Stock Splits", 0)
+        if split != 0:
+            if isinstance(split, bool) or not isinstance(split, (int, float)) or not math.isfinite(split) or split <= 0:
+                raise PriceDataUnavailable("invalid split action from quote provider")
+            action_day = normalize_quote(index_value, 1.0)
+            if action_day is None:
+                raise PriceDataUnavailable("invalid split action date")
+            events.append({"date": iso_day(action_day.date), "ratio": float(split)})
+    currency = currency_from_ticker(ticker)
+    return (quotes, currency, events) if include_splits else (quotes, currency)
 
 
 def fetch_nasdaq_anchor_quote(symbol: str, anchor: date) -> PriceQuote:
@@ -378,9 +414,18 @@ def build_price_entries(
         symbol = report_string(report, "priceSymbol")
         price_as_of = parse_day(report.get("priceAsOf"), f"{report_id}.priceAsOf")
         try:
-            quotes, currency = fetch_quotes(symbol, price_as_of - timedelta(days=10), attempted_at)
+            anchors = [price_as_of] + [parse_day(h["date"], "stanceHistory.date") for h in report.get("stanceHistory") or []]
+            quotes, currency, events = fetch_quotes(symbol, min(anchors) - timedelta(days=10), attempted_at, include_splits=True)
+            if previous.get(report_id, {}).get("splitEvents"):
+                known = previous[report_id]["splitEvents"]
+                if any(event not in events for event in known):
+                    raise PriceDataUnavailable("previously observed split action disappeared")
+            # Keep corporate actions from today's intraday row even when its
+            # price is excluded: the provider already adjusts earlier closes.
             quotes = completed_quotes(symbol, quotes, observed_at)
             if not any(quote.date == price_as_of for quote in quotes):
+                if events:
+                    raise PriceDataUnavailable("cannot mix Nasdaq raw anchor with a split-adjusted series")
                 quotes.append(fetch_nasdaq_anchor_quote(symbol, price_as_of))
             entry = build_ok_entry(
                 report,
@@ -388,6 +433,7 @@ def build_price_entries(
                 attempted_at,
                 currency,
                 fresh_through=latest_completed_calendar_day(symbol, observed_at),
+                split_events=events,
             )
             print(f"  {str(entry['status']).upper()} {symbol}: {entry['lastClose']} ({entry['lastDate']})")
         except Exception as exc:

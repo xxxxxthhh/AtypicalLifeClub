@@ -74,7 +74,7 @@ class PriceEntryTests(unittest.TestCase):
             update_prices.PriceQuote(date=date(2026, 9, 23), close=923.86),
         ]
 
-        with patch.object(update_prices, "fetch_quotes", return_value=(quotes, "USD")), \
+        with patch.object(update_prices, "fetch_quotes", return_value=(quotes, "USD", [])), \
              patch.object(update_prices, "fetch_nasdaq_anchor_quote", side_effect=update_prices.PriceDataUnavailable("no Nasdaq close")):
             entries, failures = update_prices.build_price_entries(
                 [report], datetime(2026, 9, 24, 0, 0, tzinfo=timezone.utc), previous
@@ -90,7 +90,7 @@ class PriceEntryTests(unittest.TestCase):
             update_prices.PriceQuote(date=date(2026, 9, 21), close=877.33),
             update_prices.PriceQuote(date=date(2026, 9, 23), close=923.86),
         ]
-        with patch.object(update_prices, "fetch_quotes", return_value=(quotes, "USD")), \
+        with patch.object(update_prices, "fetch_quotes", return_value=(quotes, "USD", [])), \
              patch.object(update_prices, "fetch_nasdaq_anchor_quote", return_value=update_prices.PriceQuote(date(2026, 9, 22), 919.84)):
             entries, failures = update_prices.build_price_entries(
                 [report], datetime(2026, 9, 24, 0, 0, tzinfo=timezone.utc), {}

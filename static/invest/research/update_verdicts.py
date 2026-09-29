@@ -27,6 +27,8 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Final, Union
 
+from price_basis import split_adjusted_price
+
 from update_prices import (
     PriceDataUnavailable,
     PriceQuote,
@@ -217,6 +219,12 @@ def open_call_entry(
         entry["daysHeld"] = max((today - stance_date).days, 0)
         entry["stale"] = False
         return entry
+    if price_entry.get("splitEvents"):
+        original = price_at_stance
+        price_at_stance = split_adjusted_price(original, iso_day(stance_date), price_entry["splitEvents"], price_entry["priceBasisDate"])
+        entry["recordedPriceAtStance"] = original
+        entry["priceAtStance"] = round(price_at_stance, 4)
+        entry["priceBasisDate"] = price_entry["priceBasisDate"]
     change_pct = pct_change(price_at_stance, last_close)
     benchmark_change = benchmark_change_pct(benchmarks[benchmark_symbol], stance_date, last_date)
     book_benchmark_change = benchmark_change_pct(benchmarks[LEGACY_BENCHMARK], stance_date, last_date)
@@ -242,6 +250,7 @@ def closed_interval_entries(
     report: Report,
     benchmarks: dict[str, BenchmarkSeries],
     benchmark_symbol: str,
+    price_entry: dict | None = None,
 ) -> list[dict[str, Json]]:
     history = report.get("stanceHistory") or []
     intervals: list[dict[str, Json]] = []
@@ -256,6 +265,9 @@ def closed_interval_entries(
         end_date = parse_day(end.get("date"), f"{report['id']}.stanceHistory.date")
         start_price = float(start["price"])
         end_price = float(end["price"])
+        if price_entry and price_entry.get("splitEvents"):
+            start_price = split_adjusted_price(start_price, iso_day(start_date), price_entry["splitEvents"], price_entry["priceBasisDate"])
+            end_price = split_adjusted_price(end_price, iso_day(end_date), price_entry["splitEvents"], price_entry["priceBasisDate"])
         change_pct = pct_change(start_price, end_price)
         benchmark_change = benchmark_change_pct(benchmarks[interval_symbol], start_date, end_date)
         book_benchmark_change = benchmark_change_pct(benchmarks[LEGACY_BENCHMARK], start_date, end_date)
@@ -299,7 +311,7 @@ def build_verdicts(
         open_calls.append(
             open_call_entry(r, by_id.get(r["id"]), benchmark_series, sym, today)
         )
-        closed.extend(closed_interval_entries(r, benchmark_series, sym))
+        closed.extend(closed_interval_entries(r, benchmark_series, sym, by_id.get(r["id"])))
     return {
         "generatedAt": iso_day(today),
         # The session these scores describe. generatedAt is when the run happened —
