@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-09-25",
+  "asOf": "2026-09-29",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -316,13 +316,13 @@
     {
       "reportId": "spotify-2026",
       "company": "Spotify",
-      "expectedDate": null,
-      "precision": "unknown",
-      "status": "unknown",
-      "session": "not-applicable",
-      "sourceUrl": null,
-      "sourceType": "none",
-      "verifiedAt": "2026-08-19"
+      "expectedDate": "2026-10-22",
+      "precision": "day",
+      "status": "issuer-confirmed",
+      "session": "before-open",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260924855017/en/Spotify-Technology-S.A.-to-Announce-Results-for-Third-Quarter-2026",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-09-29"
     },
     {
       "reportId": "neov-2026",
@@ -397,11 +397,11 @@
       "timezone": "Asia/Taipei",
       "expectedDate": "2026-10-15",
       "precision": "day",
-      "status": "estimated",
-      "session": "unspecified",
-      "sourceUrl": "https://www.wallstreethorizon.com/taiwan-semiconductor-earnings-calendar",
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-08-16"
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://investor.tsmc.com/english/quarterly-results/teleconference",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-09-29"
     },
     {
       "reportId": "micron-2026",
