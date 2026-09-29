@@ -257,3 +257,5 @@ ASML 与 AMD 是首批代表性迁移：
 价格台账使用同一次历史请求中的 split-adjusted Close（`auto_adjust=False` 排除股息调整，并不关闭拆股调整）。`splitEvents` 保存该序列的拆股日期/比例，`priceBasisDate` 保存其调整截点；当天盘中 bar 被剔除时仍保留拆股事件，因为历史 Close 已被供应商回溯调整。缺失或不一致的企业行动、单步超过2倍/低于一半的历史序列须来源复核，生成器保留此前整条有效记录或输出 missing，不猜测比例。缺少锚点且存在拆股时禁止混入另一来源的未调整锚点。
 
 verdict 的 `priceAtStance` 是用于计分的拆股调整价格，`recordedPriceAtStance` 保留报告的原始历史立场价；`reports.json.stanceHistory` 不改写。闭合窗口两端调整到同一口径，窗口后的拆股在比值中抵消。拆股本身不改变立场、确信度或公司价值。可比报价失败时须连同拆股事件及调整截点整条继承，不能把新现价与旧锚点拼接。校验器核对有企业行动的锚点与 verdict 分母；单靠涨跌幅算术一致不构成来源证明。
+
+单公司监测信号使用 `scope: report-monitoring` 时可令 `crossChecks: []`，但必须提供真实的 `reportIds` 和归属于这些报告的 `monitoringRefs`。它不确认跨公司规则；其他信号仍须引用已有 crossCheck，不能为单一实例杜撰规则。

@@ -211,7 +211,8 @@ def validate_signals(check_ids: set[str], reports: list[dict[str, Json]]) -> Non
 
         refs = require_list(entry.get("crossChecks"), f"signals.json[{index}].crossChecks")
         if not refs:
-            fail(f"signals.json[{index}].crossChecks must reference at least one crossCheck id")
+            if entry.get("scope") != "report-monitoring" or not entry.get("monitoringRefs") or not entry.get("reportIds"):
+                fail(f"signals.json[{index}] needs a crossCheck or explicit report-monitoring scope with reportIds and monitoringRefs")
         for ref_index, ref in enumerate(refs):
             ref_id = require_string(ref, f"signals.json[{index}].crossChecks[{ref_index}]")
             if ref_id not in check_ids:
@@ -235,6 +236,8 @@ def validate_signals(check_ids: set[str], reports: list[dict[str, Json]]) -> Non
             report_id, monitoring_id = monitoring_ref.split(":", 1)
             if report_id not in report_ids:
                 fail(f"signals.json[{index}] references unknown report id in monitoringRef: {report_id}")
+            if entry.get("scope") == "report-monitoring" and report_id not in signal_report_ids:
+                fail(f"signals.json[{index}] monitoringRef must belong to reportIds")
             if monitoring_id not in monitoring_by_report.get(report_id, set()):
                 fail(f"signals.json[{index}] references unknown monitoring id: {monitoring_ref}")
 
