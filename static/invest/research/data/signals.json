@@ -2240,5 +2240,28 @@
       "wdc-2026:nearline-exabyte-growth",
       "wdc-2026:blended-revenue-per-exabyte"
     ]
+  },
+  {
+    "id": "kioxia-buyback-completion-2026-08-10",
+    "date": "2026-08-10",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "铠侠回购执行完成：补录已执行金额与股数",
+      "en": "Kioxia completed repurchase: record executed cash and shares"
+    },
+    "detail": {
+      "zh": "2026-09-29补录8月10日发行人公告：8月3–10日已回购16,133,500股、支付¥799,997,689,000，并宣布完成该计划。现金上限完成99.9997%，股数上限53.7783%；未证明注销或新增分红。回购后现金及股数待Q2披露。 Source: https://ssl4.eir-parts.net/doc/285A/tdnet/2870703/00.pdf Reviewed: 2026-09-29. 本项仅检验公司资本回报执行，不构成跨公司需求或定价确认。",
+      "en": "Recorded 2026-09-29 from the August 10 issuer notice: 16,133,500 shares purchased August 3–10 for ¥799,997,689,000; the program was completed. Cash-ceiling usage 99.9997%, share-ceiling usage 53.7783%; no inference of cancellation or a new dividend. Post-buyback cash and shares await Q2 disclosure. Source: https://ssl4.eir-parts.net/doc/285A/tdnet/2870703/00.pdf Reviewed: 2026-09-29. This tests company capital-return execution only, not cross-company demand or pricing confirmation."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "285A.T"
+    ],
+    "reportIds": [
+      "kioxia-2026"
+    ],
+    "monitoringRefs": [
+      "kioxia-2026:capital-returns-execution"
+    ]
   }
 ]

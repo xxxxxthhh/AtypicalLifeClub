@@ -1,7 +1,7 @@
 # Kioxia Holdings (285A) Deep Research Report
 
 Coverage date: 2026-07-31
-Last updated: 2026-08-28
+Last updated: 2026-09-29
 Ticker: TSE: 285A
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence. All prices and market caps are point-in-time snapshots; financial figures follow the company's disclosed basis.
 
@@ -11,11 +11,16 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 ## Executive Summary <!-- report-module:overview -->
 
-**One-line thesis:** Kioxia is the inventor of NAND flash and the world's number-three NAND maker. Q1 FY2026 (April-June 2026) revenue reached **¥1,767.1 billion** (5.2x year over year), operating profit **¥1,270.0 billion** (a **71.9%** operating margin versus 13.1% a year earlier), and net profit **¥842.2 billion** (**46x** year over year) — a single quarter exceeding all of FY2025 (¥554.5 billion). The stock had already run from its ¥1,455 IPO price to **¥112,700** on June 22, 2026 and then fell about 59% to **¥46,500** by July 31. Those prices document an extreme repricing, but neither the company filings nor exchange data establish a single cause for it. The question is the same as for every peak NAND print: not whether the profits are real, but how long they can last.
+**2026-09-29 current review:** split-adjusted ¥17,780, estimated equity value excluding treasury shares ¥28.37T, TTM P/E 20.58x. Repurchase completed; post-buyback net cash/EV await disclosure. Cautious / medium unchanged. Full assumptions, scenarios and sources are in the valuation section.
 
-**Current stance:** **Cautious / medium conviction.** AI-driven NAND demand is real and quantifiable (TrendForce estimates a 4-5% NAND supply deficit in 2026), and the newly disclosed H1 guidance implies the Q2 operating margin climbs further to about 79%. The same-day 3-for-1 stock split and buyback authorization of up to **¥800 billion** are genuine governance and capital-return improvements. But at the July 31 close, the roughly **¥25.5 trillion** market cap sits at about 18.5x TTM earnings — where the denominator is the peak-quarter profit of semis' most brutally cyclical sub-industry. All three supply blocs are expanding at once (Kioxia's own capex target: about ¥470 billion per year for FY2026-28, up 66% from FY2025), and YMTC's Phase 3 fab starts production by end-2026 — the seeds of a 2027 supply shock are already planted. A 20/50/30 scenario grid weights through-cycle fair value at about ¥15.7 trillion, below the current market cap, so the skew is negative.
+> Historical research follows; redlines identify price, valuation or capital-return judgments superseded by this review.
 
-**Current market snapshot (2026-07-31 close):** 285A closed at **¥46,500** on **2026-07-31**, up 17.7% that day, for a market cap of about **¥25.48 trillion** on **548,015,088 shares** (about **$155.9 billion** at USD/JPY ≈ 163.5). Results, the split, and the buyback were disclosed at 15:30 after the cash close, so the same-day move must not be attributed to those releases. The 52-week range is **¥2,270 - ¥112,700**; the current price is about **59%** below the June 22 peak yet still up about **346%** from the 2025 year-end close of ¥10,435. Financial source: [company Q1 FY2026 results, 2026-07-31 (IFRS)](https://ssl4.eir-parts.net/doc/285A/tdnet/2859908/00.pdf); market data: [stockanalysis.com 285A](https://stockanalysis.com/quote/tyo/285A/), [Yahoo Finance 285A.T](https://finance.yahoo.com/quote/285A.T/).
+
+~~**One-line thesis:** Kioxia is the inventor of NAND flash and the world's number-three NAND maker. Q1 FY2026 (April-June 2026) revenue reached **¥1,767.1 billion** (5.2x year over year), operating profit **¥1,270.0 billion** (a **71.9%** operating margin versus 13.1% a year earlier), and net profit **¥842.2 billion** (**46x** year over year) — a single quarter exceeding all of FY2025 (¥554.5 billion). The stock had already run from its ¥1,455 IPO price to **¥112,700** on June 22, 2026 and then fell about 59% to **¥46,500** by July 31. Those prices document an extreme repricing, but neither the company filings nor exchange data establish a single cause for it. The question is the same as for every peak NAND print: not whether the profits are real, but how long they can last.~~
+
+~~**Current stance:** **Cautious / medium conviction.** AI-driven NAND demand is real and quantifiable (TrendForce estimates a 4-5% NAND supply deficit in 2026), and the newly disclosed H1 guidance implies the Q2 operating margin climbs further to about 79%. The same-day 3-for-1 stock split and buyback authorization of up to **¥800 billion** are genuine governance and capital-return improvements. But at the July 31 close, the roughly **¥25.5 trillion** market cap sits at about 18.5x TTM earnings — where the denominator is the peak-quarter profit of semis' most brutally cyclical sub-industry. All three supply blocs are expanding at once (Kioxia's own capex target: about ¥470 billion per year for FY2026-28, up 66% from FY2025), and YMTC's Phase 3 fab starts production by end-2026 — the seeds of a 2027 supply shock are already planted. A 20/50/30 scenario grid weights through-cycle fair value at about ¥15.7 trillion, below the current market cap, so the skew is negative.~~
+
+~~**Current market snapshot (2026-07-31 close):** 285A closed at **¥46,500** on **2026-07-31**, up 17.7% that day, for a market cap of about **¥25.48 trillion** on **548,015,088 shares** (about **$155.9 billion** at USD/JPY ≈ 163.5). Results, the split, and the buyback were disclosed at 15:30 after the cash close, so the same-day move must not be attributed to those releases. The 52-week range is **¥2,270 - ¥112,700**; the current price is about **59%** below the June 22 peak yet still up about **346%** from the 2025 year-end close of ¥10,435. Financial source: [company Q1 FY2026 results, 2026-07-31 (IFRS)](https://ssl4.eir-parts.net/doc/285A/tdnet/2859908/00.pdf); market data: [stockanalysis.com 285A](https://stockanalysis.com/quote/tyo/285A/), [Yahoo Finance 285A.T](https://finance.yahoo.com/quote/285A.T/).~~
 
 > **2026-08-28 monitoring update (capacity discipline; valuation and stance untouched and still anchored at the 2026-07-31 close).** Per the Tokyo Stock Exchange TDnet timely disclosure "Notice Regarding Investment Plan with Sandisk Corporation" dated 2026-08-27 and the joint press release attached to it: Kioxia Corporation and Sandisk Corporation announced anticipated investments in Japan totaling **over $31 billion (approximately ¥5 trillion) through 2032**, supporting the Yokkaichi and Kitakami plants along with related infrastructure and technology, which the issuer states explicitly are **contingent upon government support**; each company says it has committed to drive meaningful, multi-year bit growth and to ensure stable supply. The issuer also notes the joint venture has invested over $50 billion (approximately ¥9 trillion) in Japan over the past 25 years and that in January the two extended the Yokkaichi joint-venture framework through **December 2034**.
 >
@@ -27,8 +32,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 | Metric | Value |
 |--------|-------|
-| Share price (2026-07-31 close) | **¥46,500** (+17.7% on the day; ~59% below the 6/22 peak of ¥112,700) |
-| Market cap | **~¥25.48 trillion** (~$155.9B at USD/JPY ≈ 163.5) |
+| ~~Share price (2026-07-31 close)~~ | ~~**¥46,500** (+17.7% on the day; ~59% below the 6/22 peak of ¥112,700)~~ |
+| ~~Market cap~~ | ~~**~¥25.48 trillion** (~$155.9B at USD/JPY ≈ 163.5)~~ |
 | Share count | 548,015,088 (becomes 1,644,045,264 after the 3-for-1 split effective 2026-10-01) |
 | Q1 FY2026 revenue | **¥1,767.1B** (5.2x Y/Y, +76% Q/Q) |
 | Q1 FY2026 operating profit | **¥1,270.0B** (operating margin **71.9%** vs 13.1% a year ago) |
@@ -37,11 +42,11 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Implied Q2 FY2026 | Revenue ¥2,390.0B (+35% Q/Q), operating margin ~**79%**, net profit ¥1,270.0B (~31x Y/Y) |
 | FY2025 full year | Revenue ¥2,337.6B (+37%), operating profit ¥870.4B (+92.7%), net profit ¥554.5B (~2x) |
 | TTM (through 2026-06) | Revenue ~¥3,761.9B; net profit ~¥1,378.2B |
-| TTM P/E | **~18.5x**; TTM P/S ~6.8x |
+| ~~TTM P/E~~ | ~~**~18.5x**; TTM P/S ~6.8x~~ |
 | H1-annualized P/E | **~6.0x** (if H1 guidance is delivered and annualized; peak-cycle denominator, see §7) |
 | Net cash (end-Jun 2026) | **¥156.5B** (cash ¥791.0B less bonds and borrowings ¥634.6B; leases excluded) |
 | Shareholders' equity (end-Jun 2026) | ¥2,404.5B; parent equity ratio 50.8% |
-| Capital returns (announced 2026-07-31) | **3-for-1 stock split** (effective 10/1) + buyback up to **¥800B** (starts 8/3; ~3.1% of market cap) |
+| ~~Capital returns (announced 2026-07-31)~~ | ~~**3-for-1 stock split** (effective 10/1) + buyback up to **¥800B** (starts 8/3; ~3.1% of market cap)~~ |
 | Capex target | ~**¥470B per year** for FY2026-28 (+66% vs FY2025); ~~evaluating a Kitakami K3 fab~~ → **2026-08-27: site work has begun on Kitakami Fab3, targeting FY2029 operations; equipment investment undecided and contingent on government support** |
 | Technology roadmap | BiCS8 (218-layer) in production; BiCS10 (332-layer) mass production in 2026 at Kitakami K2; 500-layer architecture with SanDisk expected late 2026 |
 | Litigation | 2026-07-16 W.D. Texas jury verdict: ~**$229M** to Viasat (patent infringement; company plans to appeal) |
@@ -118,7 +123,7 @@ The global NAND market is controlled by five blocs:
 | Revenue | ¥1,767.1B | ¥1,002.9B | +76% | ¥342.8B | **5.2x** |
 | Operating profit | ¥1,270.0B | — | — | ¥44.9B | **28x** |
 | Operating margin | **71.9%** | — | — | 13.1% | +58.8pp |
-| Net profit | ¥842.2B | ¥407.7B | +107% | ¥18.5B | **46x** |
+| ~~Net profit~~ | ~~¥842.2B~~ | ~~¥407.7B~~ | ~~+107%~~ | ~~¥18.5B~~ | ~~**46x**~~ |
 
 Against the company's May 15 guidance (revenue ¥1,750.0B, operating profit ¥1,298.0B, net profit ¥869.0B): revenue came in slightly ahead (+1.0%) while operating and net profit landed slightly below (-2.2% / -3.1%) — and below the more optimistic sell-side marks (Goldman Sachs had modeled ¥1,417.0B of operating profit). **This is a peak-cycle print that delivered but did not re-beat.**
 
@@ -126,7 +131,7 @@ Against the company's May 15 guidance (revenue ¥1,750.0B, operating profit ¥1,
 
 | Quarter | Revenue | Net profit | Notes |
 |---------|---------|-----------|-------|
-| Q1 FY2025 (Apr-Jun 25) | ¥342.8B | ¥18.5B | 13.1% operating margin; tail of the downturn |
+| ~~Q1 FY2025 (Apr-Jun 25)~~ | ~~¥342.8B~~ | ~~¥18.5B~~ | ~~13.1% operating margin; tail of the downturn~~ |
 | Q2 FY2025 (Jul-Sep 25) | ~¥448.3B | ~¥40.4B | H1 net profit totaled ¥58.9B (company disclosure); Q2 derived as the difference |
 | Q3 FY2025 (Oct-Dec 25) | ~¥543.6B | ¥87.8B | AI demand begins to reach NAND pricing |
 | Q4 FY2025 (Jan-Mar 26) | ¥1,002.9B | ¥407.7B | +84.5% Q/Q, ASP-driven |
@@ -135,7 +140,7 @@ Against the company's May 15 guidance (revenue ¥1,750.0B, operating profit ¥1,
 
 (Q2/Q3 FY2025 figures are derived from the disclosed full-year, H1, and Q4 sequential data; see the appendix note.)
 
-Across five quarters, revenue ran from ¥342.8 billion to ¥1,767.1 billion (5.2x) and net profit from ¥18.5 billion to ¥842.2 billion (46x). This is not a growth company's curve — it is **the P&L projection of a commodity price cycle under extreme supply-demand dislocation**. Holding that frame is the prerequisite for the valuation section.
+~~Across five quarters, revenue ran from ¥342.8 billion to ¥1,767.1 billion (5.2x) and net profit from ¥18.5 billion to ¥842.2 billion (46x). This is not a growth company's curve — it is **the P&L projection of a commodity price cycle under extreme supply-demand dislocation**. Holding that frame is the prerequisite for the valuation section.~~
 
 ### 3.3 Balance sheet: net cash reached in Q1 FY2026
 
@@ -147,7 +152,7 @@ Across five quarters, revenue ran from ¥342.8 billion to ¥1,767.1 billion (5.2
 | Shareholders' equity | ¥1,399.1B | **¥2,404.5B** |
 | Parent equity ratio | 37.9% | **50.8%** |
 
-Cycle profits have erased the leverage left by the Bain buyout faster than the source branch stated: Q1 operating cash flow was ¥866.3B and long-term-debt repayments were ¥433.2B, taking the company to about **¥156.5B of net cash at June 30, 2026** before lease liabilities. The announced ¥800B buyback is a ceiling rather than a completed outflow, so future net cash still depends on execution, taxes, working capital, and the acquisition program.
+~~Cycle profits have erased the leverage left by the Bain buyout faster than the source branch stated: Q1 operating cash flow was ¥866.3B and long-term-debt repayments were ¥433.2B, taking the company to about **¥156.5B of net cash at June 30, 2026** before lease liabilities. The announced ¥800B buyback is a ceiling rather than a completed outflow, so future net cash still depends on execution, taxes, working capital, and the acquisition program.~~
 
 ### 3.4 Red-flag check
 
@@ -171,9 +176,9 @@ Cycle profits have erased the leverage left by the Bain buyout faster than the s
 
 1. **Bain's complete exit (early July 2026):** The consortium leader of the 2018 $18 billion buyout has sold every share, realizing about **¥2.5 trillion (~$17 billion)** — the largest private-equity return in Japanese history. Positive: the sponsor overhang is gone and Kioxia is now fully a public-market company. Negative: no controlling shareholder remains to underwrite long-term strategy.
 2. **Toshiba's stake slipping below 20%:** Disclosed in March 2026 as falling from 20.10% to 19.80%, after 21.9% in November 2025. Toshiba (now private) most likely keeps selling — currently the main supply overhang.
-3. **A capital-return framework lands (2026-07-31):** A 3-for-1 split (record date 9/30, effective 10/1; authorized shares 2.07B → 6.21B) plus a buyback of up to ¥800 billion (starting 8/3) plus management share-compensation plans. Management has said "dividends are a priority, while maintaining flexibility for share buybacks." Calibrated at ~3.1% of market cap, this is a real but not aggressive commitment.
+~~3. **A capital-return framework lands (2026-07-31):** A 3-for-1 split (record date 9/30, effective 10/1; authorized shares 2.07B → 6.21B) plus a buyback of up to ¥800 billion (starting 8/3) plus management share-compensation plans. Management has said "dividends are a priority, while maintaining flexibility for share buybacks." Calibrated at ~3.1% of market cap, this is a real but not aggressive commitment.~~
 
-**The core capital-allocation tension:** Management is simultaneously promising three things — ~¥470 billion a year of capex (+66%), early debt repayment, and an ¥800 billion buyback. At an annualized ¥3 trillion-plus of net profit, all three coexist trivially; if prices roll over in 2027, capex discipline becomes the real test of this team. The historical baggage is worth remembering: in the last up-cycle (2018), Kioxia's leveraged expansion led directly to the near-death downturns of 2019 and 2023.
+~~**The core capital-allocation tension:** Management is simultaneously promising three things — ~¥470 billion a year of capex (+66%), early debt repayment, and an ¥800 billion buyback. At an annualized ¥3 trillion-plus of net profit, all three coexist trivially; if prices roll over in 2027, capex discipline becomes the real test of this team. The historical baggage is worth remembering: in the last up-cycle (2018), Kioxia's leveraged expansion led directly to the near-death downturns of 2019 and 2023.~~
 
 **US listing (ADS) preparation:** On May 15 the company disclosed preparations to list American depositary shares on a US exchange to broaden its investor base; timing and venue are undecided. If completed, it would improve liquidity and valuation comparability (against SNDK/MU) — and give Toshiba's residual stake an exit route.
 
@@ -186,8 +191,8 @@ Cycle profits have erased the leverage left by the Bain buyout faster than the s
 1. **AI storage demand is structural, not a one-off restock.** Training datasets, model checkpoints, inference caches, and RAG vector stores all point to sustained petabyte-scale expansion; nearline-SSD substitution of HDDs has only begun. The 4-5% supply deficit of 2026 extends into 2027 if AI data-center construction does not slow.
 2. **Q2 guidance implies margins are still climbing (71.9% → ~79%)** — and when H1 guidance was set, about 30% of Q2 shipment pricing was not yet locked; if NAND prices keep rising, guidance has upside room.
 3. **Supply discipline is better than last cycle:** After the near-death experience of 2023, all three blocs premise expansion on profits first; Kioxia's K3 is not yet approved, and YMTC is constrained by equipment export controls — actual bit growth may run below nominal capex growth.
-4. **The cheapest multiple of the five:** ~6x H1-annualized earnings, 18.5x TTM — below SNDK (~31-33x TTM) and MU (~22x). If AI turns the NAND cycle into a plateau, Kioxia has the most re-rating room.
-5. **Capital returns + a US listing + the split** land together, building both Japanese retail and overseas institutional demand; once net cash, the buyback can be enlarged.
+~~4. **The cheapest multiple of the five:** ~6x H1-annualized earnings, 18.5x TTM — below SNDK (~31-33x TTM) and MU (~22x). If AI turns the NAND cycle into a plateau, Kioxia has the most re-rating room.~~
+~~5. **Capital returns + a US listing + the split** land together, building both Japanese retail and overseas institutional demand; once net cash, the buyback can be enlarged.~~
 
 ### 5.2 Bear case (steel-manned)
 
@@ -221,47 +226,76 @@ Cycle profits have erased the leverage left by the Bain buyout faster than the s
 
 ## 7. Valuation <!-- report-module:valuation -->
 
-### 7.1 Multi-method valuation table (2026-07-31 close, ¥46,500)
+### 2026-09-29 review: split basis, executed repurchase and current valuation
 
-| Basis | Value | Notes |
+**Current stance remains cautious / medium conviction.** The original stance date and scoring origin are preserved; a price move is not a new investment judgment. The market anchor is the completed 2026-09-28 close of **¥17,780** on the provider's September 29 split-adjusted basis, equivalent to ¥53,340 before the split. The historical July 31 stance price of ¥46,500 becomes ¥15,500 on that same basis: +14.7%, not -61.8%. The legal effective date of the 3:1 split remains October 1. Intraday prices are excluded.
+
+**The buyback was executed, not merely authorized.** The August 10 issuer notice confirms 16,133,500 shares acquired during August 3–10 for ¥799,997,689,000, completing the program: 99.9997% of the cash ceiling and 53.7783% of the share ceiling, at about ¥49,586.1 per pre-split share. Completion does not require 30 million shares and does not imply cancellation. June issued shares less 450 existing treasury shares and the repurchase give an estimated 531,881,138 external shares, or **1,595,643,414** split-equivalent shares. This assumes no subsequent issuance, treasury disposal or other share change; it is not a certified current register.
+
+| Current valuation input | Reviewed value and basis |
+|---|---|
+| Approximate equity value | **¥28.37T**, ¥17,780 × 1,595,643,414; all-issued-share value is about ¥29.23T and is a different basis |
+| TTM attributable profit / revenue | ¥1.378371T / ¥3.761946T: FY2025 + Q1 FY2026 − Q1 FY2025 |
+| TTM P/E / P/S | **20.58x / 7.54x**; not the inverse of weighted-average-share EPS and not a forward forecast |
+| H1-guidance annualized / implied-Q2 annualized P/E | 6.72x / 5.58x, using ¥2.112165T × 2 and ¥1.270000T × 4; mechanical sensitivities, not full-year guidance |
+| Latest reported cash / bonds and borrowings | June-end ¥791.014B / ¥634.554B, net cash ¥156.460B; leases add ¥203.277B separately |
+| Current net debt / EV | **review-pending**: the post-buyback balance sheet and intervening cash flows are missing. Do not subtract old net cash from current equity value. Deducting only the known buyback creates a ¥643.538B net-debt bridge, excluding operating cash flow, financing, FX and other movements; it is not an actual current balance |
+| Q1 FCF definition | CFO ¥866.337B − PPE ¥51.176B − intangibles ¥1.226B = ¥813.935B; one quarter, excluding financial-asset purchases, not annualized into a current yield |
+
+**Scenario review (analyst assumptions, not guidance or a target):** Retain bull/base/bear weights of 20/50/30 and sustainable profit of ¥2.5T / ¥1.0–1.2T / ¥0.3–0.5T. At 12–15x / 12–15x / 10–12x, recomputed equity ranges are ¥30–37.5T / ¥12–18T / ¥3–6T. Multiplying each profit midpoint by its multiple midpoint gives weighted equity value of **¥15.495T**, about **45.4%** below the estimated current market cap, or about ¥9,711 per share on the same share assumption. The old ¥4–6T bear range and ¥15.7T weighted result are superseded arithmetic. Starting at 20.58x, normalizing to 14x in three years at an 8% return hurdle implies **22.8%** earnings CAGR. This depends on subjective earnings distributions; persistent exceptional profitability would invalidate the conservative scenarios.
+
+**Thesis check:** Completed repurchases support execution but consume cash; they do not eliminate NAND mean-reversion risk. The 71.9% Q1 margin and 79.1% implied Q2 margin remain the latest disclosed actual/guidance, not realized September-quarter results. The August 27 investment subject to government support and Fab3 preparation still require separation of commitments from executed investment. On September 15 the issuer said the timing, market and method of a US ADS listing were undecided; media speculation is not a dated catalyst. Earlier peer multiples and industry forecasts remain dated historical analysis: peer prices were not refreshed and cannot establish that Kioxia is currently cheapest. Maintain cautious / medium; next checks are Q2 results, post-buyback cash and shares, supply discipline and an actual ADS announcement.
+
+Sources: [Q1 results](https://ssl4.eir-parts.net/doc/285A/tdnet/2859908/00.pdf), [FY2025 results](https://ssl4.eir-parts.net/doc/285A/tdnet/2815628/00.pdf), [completed repurchase](https://ssl4.eir-parts.net/doc/285A/tdnet/2870703/00.pdf), [ADS notice](https://www.kioxia-holdings.com/en-jp/news/2026/20260915-1.html), [price and split history](https://finance.yahoo.com/quote/285A.T/history/).
+
+| Scenario | Sustainable profit (JPY trillion) | Multiple | Equity value (JPY trillion) | Probability weight |
+|---|---|---|---|---|
+| Bull | 2.5 | 12–15x | 30–37.5 | 20% |
+| Base | 1.0–1.2 | 12–15x | 12–18 | 50% |
+| Bear | 0.3–0.5 | 10–12x | 3–6 | 30% |
+
+
+### 7.1 Stale historical valuation: multi-method valuation table (2026-07-31 close, ¥46,500)
+
+| ~~Basis~~ | ~~Value~~ | ~~Notes~~ |
 |-------|-------|-------|
-| Market cap | ~¥25.48T ($155.9B) | 548,015,088 shares |
-| EV | ~¥25.33T | Subtracts end-Jun 2026 net cash of about ¥156.5B |
-| TTM P/S | ~6.8x | TTM revenue ~¥3,761.9B |
-| TTM P/E | **~18.5x** | TTM net profit ~¥1,378.2B (includes two peak quarters) |
-| EV/TTM sales | ~6.7x | — |
-| H1-guidance-annualized P/E | **~6.0x** | H1 net profit ¥2,112.2B × 2 |
-| Q2-implied run-rate P/E | ~5.0x | Implied Q2 net profit ¥1,270.0B × 4 |
-| FY2025 P/E (last full year) | ~46x | Net profit ¥554.5B |
-| Buyback yield | ~3.1% | ¥800B ceiling / market cap |
+| ~~Market cap~~ | ~~≈¥25.48T ($155.9B)~~ | ~~548,015,088 shares~~ |
+| ~~EV~~ | ~~≈¥25.33T~~ | ~~Subtracts end-Jun 2026 net cash of about ¥156.5B~~ |
+| ~~TTM P/S~~ | ~~≈6.8x~~ | ~~TTM revenue ~¥3,761.9B~~ |
+| ~~TTM P/E~~ | ~~**~18.5x**~~ | ~~TTM net profit ~¥1,378.2B (includes two peak quarters)~~ |
+| ~~EV/TTM sales~~ | ~~≈6.7x~~ | ~~—~~ |
+| ~~H1-guidance-annualized P/E~~ | ~~**~6.0x**~~ | ~~H1 net profit ¥2,112.2B × 2~~ |
+| ~~Q2-implied run-rate P/E~~ | ~~≈5.0x~~ | ~~Implied Q2 net profit ¥1,270.0B × 4~~ |
+| ~~FY2025 P/E (last full year)~~ | ~~≈46x~~ | ~~Net profit ¥554.5B~~ |
+| ~~Buyback yield~~ | ~~≈3.1%~~ | ~~¥800B ceiling / market cap~~ |
 
-**The low-multiple trap, and the truth in it:** 6x annualized earnings looks extremely cheap — but the denominator is quarters running 72-79% operating margins. On FY2025 (an accelerating but not yet peak year) the multiple is 46x; on FY2023 (a ¥243.7 billion loss) it is negative. **NAND companies always look "cheap" at the top of the cycle and "expensive" at the bottom — that is precisely how P/E fails as a signal here.** The only meaningful question is through-cycle sustainable profit.
+~~**The low-multiple trap, and the truth in it:** 6x annualized earnings looks extremely cheap — but the denominator is quarters running 72-79% operating margins. On FY2025 (an accelerating but not yet peak year) the multiple is 46x; on FY2023 (a ¥243.7 billion loss) it is negative. **NAND companies always look "cheap" at the top of the cycle and "expensive" at the bottom — that is precisely how P/E fails as a signal here.** The only meaningful question is through-cycle sustainable profit.~~
 
 ### 7.2 Scenario grid (through-cycle fair value, 20/50/30)
 
-| Scenario | Assumptions | Sustainable net profit | Fair multiple | Fair market cap | Probability weight |
+| ~~Scenario~~ | ~~Assumptions~~ | ~~Sustainable net profit~~ | ~~Fair multiple~~ | ~~Fair market cap~~ | ~~Probability weight~~ |
 |----------|-------------|----------------------|---------------|-----------------|--------------------|
-| Bull | AI turns NAND into a plateau; deficit runs into 2028; price mid-point permanently higher | ~¥2.5T | 12-15x | ~¥30-37T | 20% |
-| Base | Bumper FY2026, then a moderate 2027-28 correction; mid-cycle profit well above history but far below today | ~¥1.0-1.2T | 12-15x | ~¥12-18T | 50% |
-| Bear | Classic NAND glut replays in 2027; prices fall back toward cost | ~¥0.3-0.5T | 10-12x | ~¥4-6T | 30% |
-| **Weighted (midpoints)** | Midpoints of the three rows above | **~¥1.17T** | — | **~¥15.7T** | Total 100 |
+| ~~Bull~~ | ~~AI turns NAND into a plateau; deficit runs into 2028; price mid-point permanently higher~~ | ~~≈¥2.5T~~ | ~~12-15x~~ | ~~≈¥30-37T~~ | ~~20%~~ |
+| ~~Base~~ | ~~Bumper FY2026, then a moderate 2027-28 correction; mid-cycle profit well above history but far below today~~ | ~~≈¥1.0-1.2T~~ | ~~12-15x~~ | ~~≈¥12-18T~~ | ~~50%~~ |
+| ~~Bear~~ | ~~Classic NAND glut replays in 2027; prices fall back toward cost~~ | ~~≈¥0.3-0.5T~~ | ~~10-12x~~ | ~~≈¥4-6T~~ | ~~30%~~ |
+| ~~**Weighted (midpoints)**~~ | ~~Midpoints of the three rows above~~ | ~~**~¥1.17T**~~ | ~~—~~ | ~~**~¥15.7T**~~ | ~~Total 100~~ |
 
-The midpoint arithmetic is explicit: sustainable profit is `20% × ¥2.5T + 50% × ¥1.1T + 30% × ¥0.4T = ¥1.17T`; equity value is `20% × ¥33.5T + 50% × ¥15T + 30% × ¥5T = ¥15.7T`. Against today's ¥25.5T, that is roughly **-38%**. Even after a 59% drawdown from the peak, current pricing still embeds meaningful durability for the profit plateau.
+~~The midpoint arithmetic is explicit: sustainable profit is `20% × ¥2.5T + 50% × ¥1.1T + 30% × ¥0.4T = ¥1.17T`; equity value is `20% × ¥33.5T + 50% × ¥15T + 30% × ¥5T = ¥15.7T`. Against today's ¥25.5T, that is roughly **-38%**. Even after a 59% drawdown from the peak, current pricing still embeds meaningful durability for the profit plateau.~~
 
 ### 7.3 What's priced in (reverse multiple)
 
-At about **18.5x TTM earnings**, assume the P/E normalizes to **14x** over three years and require an **8%** annual return. The market-implied earnings CAGR is `(18.5 / 14)^(1/3) × 1.08 − 1 ≈ 18.5%`. Our base case instead normalizes sustainable profit from the current ¥1.38T TTM figure toward roughly ¥1.1T, so the expectation gap is negative. This is a framing calculation, not a target price.
+~~At about **18.5x TTM earnings**, assume the P/E normalizes to **14x** over three years and require an **8%** annual return. The market-implied earnings CAGR is `(18.5 / 14)^(1/3) × 1.08 − 1 ≈ 18.5%`. Our base case instead normalizes sustainable profit from the current ¥1.38T TTM figure toward roughly ¥1.1T, so the expectation gap is negative. This is a framing calculation, not a target price.~~
 
 ### 7.4 Peer comparison (late July 2026)
 
-| Company | Price (date) | Market cap | Key multiples | Positioning |
+| ~~Company~~ | ~~Price (date)~~ | ~~Market cap~~ | ~~Key multiples~~ | ~~Positioning~~ |
 |---------|-------------|-----------|---------------|-------------|
-| **Kioxia 285A** | ¥46,500 (7/31) | ~$156B | TTM P/E ~18.5x; H1-annualized ~6.0x | Pure NAND, manufacturing heavyweight of the JV |
-| SanDisk SNDK | $1,015.89 (7/29) | ~$150B | FY2026E P/S ~7.8x; TTM P/E ~31-33x | Pure NAND, capex-light side of the JV, $42B contract backlog |
-| SK hynix 000660 | ₩1,401,000 (7/29) | ~$684B | TTM P/S ~5.3x | HBM-led + NAND (Solidigm) |
-| Micron MU | $739.00 (7/29) | ~$834.6B | TTM P/E ~22x | DRAM/HBM-led + NAND |
+| ~~**Kioxia 285A**~~ | ~~¥46,500 (7/31)~~ | ~~≈$156B~~ | ~~TTM P/E ~18.5x; H1-annualized ~6.0x~~ | ~~Pure NAND, manufacturing heavyweight of the JV~~ |
+| ~~SanDisk SNDK~~ | ~~$1,015.89 (7/29)~~ | ~~≈$150B~~ | ~~FY2026E P/S ~7.8x; TTM P/E ~31-33x~~ | ~~Pure NAND, capex-light side of the JV, $42B contract backlog~~ |
+| ~~SK hynix 000660~~ | ~~₩1,401,000 (7/29)~~ | ~~≈$684B~~ | ~~TTM P/S ~5.3x~~ | ~~HBM-led + NAND (Solidigm)~~ |
+| ~~Micron MU~~ | ~~$739.00 (7/29)~~ | ~~≈$834.6B~~ | ~~TTM P/E ~22x~~ | ~~DRAM/HBM-led + NAND~~ |
 
-One striking relative-pricing fact: **Kioxia and SanDisk carry nearly identical market caps (~$150-156B)** while sharing the same fab output — with Kioxia taking the larger share of it. The difference is that SanDisk's $42 billion NBM contract backlog provides downside protection while Kioxia's spot exposure gives more upside elasticity. The market currently prices "locked" and "elastic" almost identically; that gap will open when the cycle turns.
+~~One striking relative-pricing fact: **Kioxia and SanDisk carry nearly identical market caps (~$150-156B)** while sharing the same fab output — with Kioxia taking the larger share of it. The difference is that SanDisk's $42 billion NBM contract backlog provides downside protection while Kioxia's spot exposure gives more upside elasticity. The market currently prices "locked" and "elastic" almost identically; that gap will open when the cycle turns.~~
 
 ---
 
@@ -271,7 +305,7 @@ One striking relative-pricing fact: **Kioxia and SanDisk carry nearly identical 
 
 | Date | Event | Direction |
 |------|-------|-----------|
-| 2026-08-03 | ¥800B buyback begins | Positive |
+| ~~2026-08-03~~ | ~~¥800B buyback begins~~ | ~~Positive~~ |
 | 2026-08-05 | SanDisk FY2026 Q4 results (JV read-across: pricing confirmation on the same capacity) | Either |
 | From Aug 2026 | Hyperscaler (MSFT/GOOG/AMZN/META) quarterly capex guidance | Either |
 | 2026-09-30 / 10-01 | 3-for-1 split record/effective dates; board lot cost falls from ~¥1.55M to ~¥520K | Positive |
@@ -285,7 +319,7 @@ One striking relative-pricing fact: **Kioxia and SanDisk carry nearly identical 
 1. **Peak-margin mean reversion (bear):** Q1 operating margin 71.9%, implied Q2 ~79% — any quarter with a sequential operating-margin drop of more than 5pp counts as the first price-cycle-turn signal. Next check: Q2 results, ~November 2026.
 2. **H1 guidance delivery (either):** H1 revenue ¥4,157.1B / net profit ¥2,112.2B; at Q2, also watch whether full-year guidance is reinstated (withheld this time citing geopolitical uncertainty). Next check: November 2026.
 3. **Capacity discipline (bear):** The Kitakami Fab3 equipment-investment decision and its government-support condition (site preparation commenced 2026-08-27; operations targeted for FY2029), execution pacing of the ~¥470B/year FY2026-28 capex target, and Samsung/SK/YMTC expansion announcements. Event-driven; no fixed calendar.
-4. **Capital-return execution (bull):** Actual progress of the ¥800B buyback (from 8/3) and the first concrete dividend policy. Next check: November 2026.
+~~4. **Capital-return execution (bull):** Actual progress of the ¥800B buyback (from 8/3) and the first concrete dividend policy. Next check: November 2026.~~
 5. **Supply-deficit indicators (either):** Quarterly revisions of the 2026/2027 NAND supply-demand gap by TrendForce and peers; order evidence for nearline-SSD substitution of HDDs. Event-driven.
 
 ---
@@ -294,9 +328,9 @@ One striking relative-pricing fact: **Kioxia and SanDisk carry nearly identical 
 
 **Initial-coverage verdict: cautious / medium conviction.**
 
-Kioxia is the fourth piece of this research book's memory-storage layer, and the purest embodiment of the NAND cycle itself: no SanDisk-style contract backlog, no SK hynix/Micron HBM hedge, no Samsung conglomerate cushion. Q1 FY2026 (revenue 5.2x, net profit 46x, a 71.9% operating margin) and H1 guidance (implying ~79% Q2 operating margin) confirm exceptional demand and pricing; the 3-for-1 split and ¥800 billion buyback facility improve capital-return optionality; about ¥156.5B of net cash at June 30 confirms the balance-sheet repair.
+~~Kioxia is the fourth piece of this research book's memory-storage layer, and the purest embodiment of the NAND cycle itself: no SanDisk-style contract backlog, no SK hynix/Micron HBM hedge, no Samsung conglomerate cushion. Q1 FY2026 (revenue 5.2x, net profit 46x, a 71.9% operating margin) and H1 guidance (implying ~79% Q2 operating margin) confirm exceptional demand and pricing; the 3-for-1 split and ¥800 billion buyback facility improve capital-return optionality; about ¥156.5B of net cash at June 30 confirms the balance-sheet repair.~~
 
-But at a ¥25.5 trillion market cap against a 20/50/30 midpoint-weighted through-cycle equity value of about ¥15.7 trillion, today's price still requires profit durability well above our base case. The supply seeds (industry capex +66%, K2 at full ramp, K3 under evaluation, YMTC Phase 3) are planted, and demand remains concentrated in AI data centers. The 59% drawdown from the peak is a price fact, not proof that the stock is cheap or that any single macro event caused the move.
+~~But at a ¥25.5 trillion market cap against a 20/50/30 midpoint-weighted through-cycle equity value of about ¥15.7 trillion, today's price still requires profit durability well above our base case. The supply seeds (industry capex +66%, K2 at full ramp, K3 under evaluation, YMTC Phase 3) are planted, and demand remains concentrated in AI data centers. The 59% drawdown from the peak is a price fact, not proof that the stock is cheap or that any single macro event caused the move.~~
 
 **Consistency with the layer:** This verdict aligns with SanDisk (cautious/medium), SK hynix (cautious/medium), and Micron (cautious/medium) — four reports using four companies to test one proposition: AI demand is real, cycle profits are real, but the durability premium the market pays for peak profits is expensive against historical base rates. If 2027 supply discipline is confirmed (monitoring item 3 with no deterioration for two consecutive quarters), there is room to upgrade this stance.
 
@@ -307,7 +341,7 @@ But at a ¥25.5 trillion market cap against a 20/50/30 midpoint-weighted through
 **Financial basis:**
 - Q1 FY2026 actuals (revenue ¥1,767,117M, operating profit ¥1,270,017M, net profit attributable to owners ¥842,165M), H1 guidance (¥4,157,117M / ¥3,160,017M / ¥2,112,165M), application revenue, cash, borrowings, and cash flow: [company earnings release of 2026-07-31 (IFRS, consolidated)](https://ssl4.eir-parts.net/doc/285A/tdnet/2859908/00.pdf).
 - FY2025 full year (revenue ¥2,337.6B, operating profit ¥870.4B, net profit ¥554.5B) and Q4 segment data: company results of 2026-05-15, cross-checked via [Blocks & Files](https://www.blocksandfiles.com/flash/2026/05/21/kioxia-rides-the-ai-wave-to-record-revenues-and-a-us-listing/5241267) and [SBBiT](https://www.sbbit.jp/article/st/185401).
-- Q2/Q3 FY2025 single-quarter figures are derived: Q3 revenue back-solved from Q4's +84.5% Q/Q; Q2 revenue as full-year minus the other three quarters; Q2 net profit as disclosed H1 total ¥58.946B (Kabutan) minus Q1's ¥18.5B.
+~~- Q2/Q3 FY2025 single-quarter figures are derived: Q3 revenue back-solved from Q4's +84.5% Q/Q; Q2 revenue as full-year minus the other three quarters; Q2 net profit as disclosed H1 total ¥58.946B (Kabutan) minus Q1's ¥18.5B.~~
 - June 2026 net cash is calculated directly from the Q1 filing: ¥791,014M cash less ¥91,545M current and ¥543,009M non-current bonds and borrowings = ¥156,460M; lease liabilities are excluded.
 
 **Corporate actions and governance:**
@@ -324,7 +358,7 @@ But at a ¥25.5 trillion market cap against a 20/50/30 midpoint-weighted through
 - 2026 NAND supply deficit of 4-5%; YMTC Phase 3 and ~19% Chinese share by 2027: TrendForce data via [TradingKey](https://www.tradingkey.com/analysis/stocks/more/262063764-kioxia-q2-sndk-dram-nand-japan-tradingkey).
 
 **Market data:**
-- 2026-07-31 close ¥46,500 (+17.7%), 548,015,088 shares, 52-week range ¥2,270-112,700: [stockanalysis.com](https://stockanalysis.com/quote/tyo/285A/), [Yahoo Finance](https://finance.yahoo.com/quote/285A.T/).
+~~- 2026-07-31 close ¥46,500 (+17.7%), 548,015,088 shares, 52-week range ¥2,270-112,700: [stockanalysis.com](https://stockanalysis.com/quote/tyo/285A/), [Yahoo Finance](https://finance.yahoo.com/quote/285A.T/).~~
 - Peak ¥112,700 (2026-06-22) and press accounts of briefly ranking first in Japan by market cap: [moomoo earnings preview](https://www.moomoo.com/community/feed/will-kioxia-s-stock-price-rally-following-its-earnings-announcement-116996358275078), [K2 research note](https://note.com/k2moneyfactory/n/n6cf3084a3feb).
 - USD/JPY ≈ 163.5 (2026-07-30): this site's currency dataset.
 

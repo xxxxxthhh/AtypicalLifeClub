@@ -9667,8 +9667,8 @@
     "priceSymbol": "285A.T",
     "title": "Kioxia 铠侠深度研究报告 - NAND 发明者的 AI 存储超级周期与顶峰定价",
     "titleEn": "Kioxia Deep Research Report - The NAND Inventor's AI Storage Supercycle and Peak-Cycle Pricing",
-    "summary": "首次覆盖铠侠作为 memory-storage 层第四块拼图。Q1 FY2026 营收 ¥1.767 万亿（同比 5.2 倍）、营业利润率 71.9%、归母净利润 ¥8,422 亿；H1 指引隐含 Q2 营业利润率约 79%。官方 Q1 资产负债表显示 2026-06 末现金 ¥7,910 亿、债券与借款 ¥6,346 亿，即约 ¥1,565 亿净现金（不含租赁）。同日公告为 1 股拆为 3 股及上限 ¥8,000 亿/3,000 万股回购框架。按 2026-07-31 收盘 ¥46,500、市值约 ¥25.48 万亿，TTM P/E 约 18.5 倍；20/50/30 情景中点加权净利约 ¥1.17 万亿、股权价值约 ¥15.7 万亿。反向倍数隐含约 18.5% 三年盈利 CAGR，而基准情形假设利润回归，故谨慎 / 中确信。",
-    "summaryEn": "Initial coverage of Kioxia as the fourth memory-storage report. Q1 FY2026 revenue was ¥1,767.1B (5.2x YoY), operating margin 71.9%, and profit attributable to owners ¥842.2B; H1 guidance implies about 79% Q2 operating margin. The official Q1 balance sheet shows ¥791.0B cash and ¥634.6B of bonds and borrowings at June 2026, or about ¥156.5B net cash before leases. The same-day disclosures authorize a 3-for-1 split and a buyback facility up to ¥800B / 30M shares. At the 2026-07-31 close of ¥46,500 and about ¥25.48T market cap, TTM P/E is about 18.5x; a 20/50/30 midpoint scenario weights sustainable profit at ¥1.17T and equity value at ¥15.7T. Reverse-multiple math implies about 18.5% three-year earnings CAGR while the base case expects normalization, supporting cautious / medium conviction.",
+    "summary": "2026-09-29 复核：9月28日完成收盘按拆股口径 ¥17,780；回购已于8月10日完成约 ¥8,000 亿，估计扣库藏股市值 ¥28.37 万亿、TTM P/E 20.58x。回购后当前现金及EV待新资产负债表；情景重算加权股权价值 ¥15.495 万亿。谨慎 / 中确信不变。",
+    "summaryEn": "2026-09-29 review: September 28 completed close ¥17,780 on a split-adjusted basis; approximately ¥800B repurchase completed August 10. Estimated equity value excluding treasury shares is ¥28.37T, TTM P/E 20.58x. Post-buyback current cash and EV await new financial statements; recalculated scenario equity value is ¥15.495T. Cautious / medium unchanged.",
     "tags": [
       "NAND闪存",
       "AI存储",
@@ -9678,7 +9678,7 @@
     ],
     "category": "tech",
     "date": "2026-07-31",
-    "lastUpdate": "2026-08-28",
+    "lastUpdate": "2026-09-29",
     "file": "/invest/research/reports/view.html?id=kioxia-2026",
     "markdownFiles": {
       "zh": "/invest/research/Kioxia_深度研究报告_2026-07.md",
@@ -9689,18 +9689,18 @@
     "versionLabel": "2026H1 Initial Coverage",
     "moduleContract": "heading-comment-v1",
     "highlights": [
-      "Q1 FY2026：营收 ¥1.767 万亿（同比 5.2 倍）、营业利润 ¥1.270 万亿（利润率 71.9%）、归母净利润 ¥8,422 亿；H1 指引隐含 Q2 利润率约 79%",
-      "2026-06 末已达约 ¥1,565 亿净现金（现金 ¥7,910 亿减债券与借款 ¥6,346 亿，不含租赁），纠正源分支沿用的 3 月末净负债",
-      "公司公告为 1 股拆为 3 股；回购框架上限 ¥8,000 亿 / 3,000 万股（流通股 5.5%），实际执行可低于上限或为零",
-      "¥46,500（2026-07-31 收盘）、市值约 ¥25.48 万亿；情景中点加权净利约 ¥1.17 万亿、股权价值约 ¥15.7 万亿，反向倍数隐含约 18.5% 盈利 CAGR——谨慎 / 中确信"
+      "¥17,780 拆股口径；按已披露股本减已执行回购暂估市值 ¥28.37 万亿，TTM P/E 20.58x",
+      "8月10日已完成购回16,133,500股、支付¥799,997,689,000；不等同注销",
+      "六月末净现金不代表回购后当前现金；EV review-pending，待新资产负债表",
+      "情景中点×倍数中点重算 ¥15.495 万亿，较当前假设市值低45.4%；谨慎 / 中确信不变"
     ],
     "chainLayer": "memory-storage",
     "coverageTier": "full",
     "stance": "cautious",
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "以 ¥46,500、约 ¥25.48 万亿市值计，TTM P/E 约 18.5 倍。若三年后倍数回归 14 倍并要求 8% 年化回报，当前价格隐含约 18.5% 盈利 CAGR；但 20/50/30 情景中点加权的可持续净利仅约 ¥1.17 万亿、股权价值约 ¥15.7 万亿，且基准情形假设利润由当前 TTM 约 ¥1.38 万亿回归。Q1 已转为净现金与回购框架是正面证据，但顶峰利润持续性与供给响应使预期差仍为负。",
-      "en": "At ¥46,500 and about ¥25.48T of market cap, TTM P/E is roughly 18.5x. If the multiple normalizes to 14x over three years with an 8% hurdle, the price implies about 18.5% earnings CAGR; yet the 20/50/30 midpoint scenario weights sustainable profit at only about ¥1.17T and equity value at ¥15.7T, while the base case expects profit to normalize from about ¥1.38T TTM. Q1 net cash and the buyback facility are positives, but peak-profit durability and the supply response leave a negative expectation gap."
+      "zh": "按拆股后 ¥17,780 与扣库藏股假设市值 ¥28.37 万亿计，TTM P/E 20.58x；14x退出倍数及8%回报要求隐含三年盈利CAGR22.8%。回购完成支持执行，但峰值利润持续性与回购后现金尚需验证。情景加权股权价值 ¥15.495 万亿，维持谨慎 / 中确信。",
+      "en": "At split-adjusted ¥17,780 and estimated equity value of ¥28.37T excluding treasury shares, TTM P/E is 20.58x. A 14x exit multiple and 8% hurdle imply 22.8% three-year earnings CAGR. Completed repurchases support execution, but peak-profit durability and post-buyback cash remain uncertain. Scenario equity value is ¥15.495T; cautious / medium is retained."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -9809,11 +9809,13 @@
           "en": "Buyback execution lagging far below the ceiling or a still-absent dividend policy weakens the capital-return case; enlargement after reaching net cash strengthens it"
         },
         "latest": {
-          "zh": "2026-07-31 公告：1 股拆为 3 股（10/1 生效）及上限 ¥8,000 亿 / 3,000 万股回购框架（8/3-10/30，流通股 5.5%）；公司明确实际回购可少于上限或为零",
-          "en": "Announced 2026-07-31: a 3-for-1 split effective 10/1 and a buyback facility up to ¥800B / 30M shares (8/3-10/30, 5.5% of shares outstanding); the company states actual purchases may be below the ceiling or zero"
+          "zh": "2026-09-29补录8月10日发行人公告：8月3–10日已回购16,133,500股、支付¥799,997,689,000，并宣布完成该计划。现金上限完成99.9997%，股数上限53.7783%；未证明注销或新增分红。回购后现金及股数待Q2披露。",
+          "en": "Recorded 2026-09-29 from the August 10 issuer notice: 16,133,500 shares purchased August 3–10 for ¥799,997,689,000; the program was completed. Cash-ceiling usage 99.9997%, share-ceiling usage 53.7783%; no inference of cancellation or a new dividend. Post-buyback cash and shares await Q2 disclosure."
         },
         "nextCheck": "Q2 FY2026 disclosure (~Nov 2026)",
-        "nextCheckDate": "2026-11"
+        "nextCheckDate": "2026-11",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-10"
       },
       {
         "id": "nand-supply-gap",
