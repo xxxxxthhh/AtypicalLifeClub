@@ -126,4 +126,3 @@ class SplitBasisTests(unittest.TestCase):
         vp.validate_prices_data({'generatedAt':'2026-09-29','entries':[entry]},[self.report])
 
 if __name__=='__main__':unittest.main()
-

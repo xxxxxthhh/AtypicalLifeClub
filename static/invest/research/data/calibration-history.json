@@ -7872,8 +7872,8 @@
   {
     "date": "2026-09-28",
     "scoredCount": 114,
-    "medianRelativePct": -0.6,
-    "nonNeutralBeatRate": 0.49333333333333335,
+    "medianRelativePct": -0.1,
+    "nonNeutralBeatRate": 0.5066666666666667,
     "byBenchmark": {
       "COPX": {
         "scoredCount": 4,
@@ -7933,8 +7933,8 @@
       },
       "SMH": {
         "scoredCount": 64,
-        "medianRelativePct": -0.2,
-        "nonNeutralBeatRate": 0.5,
+        "medianRelativePct": 0.8,
+        "nonNeutralBeatRate": 0.525,
         "byStance": {
           "constructive": {
             "scoredCount": 7,
@@ -7946,7 +7946,7 @@
           },
           "cautious": {
             "scoredCount": 33,
-            "medianRelativePct": -2.1
+            "medianRelativePct": -1.2
           }
         }
       },

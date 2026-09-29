@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28",
+  "generatedAt": "2026-09-29",
   "entries": [
     {
       "reportId": "reddit-2026",
@@ -652,13 +652,20 @@
     {
       "reportId": "kioxia-2026",
       "symbol": "285A.T",
-      "status": "ok",
-      "attemptedAt": "2026-09-28",
+      "status": "carried-forward",
+      "attemptedAt": "2026-09-29",
       "baseDate": "2026-07-31",
-      "basePrice": 46500.0,
+      "basePrice": 15500.0,
       "lastDate": "2026-09-28",
       "lastClose": 17780.0,
-      "changePct": -61.8,
+      "changePct": 14.7,
+      "splitEvents": [
+        {
+          "date": "2026-09-29",
+          "ratio": 3.0
+        }
+      ],
+      "priceBasisDate": "2026-09-29",
       "currency": "JPY"
     },
     {
