@@ -1975,11 +1975,13 @@
           "en": "multiple compression if growth or margins miss"
         },
         "latest": {
-          "zh": "2026-07-31 估值重锚（非财报，仅价格）：2026-07-30 收盘 $171.02（较 2026-06-29 旧锚点 $164.10 涨约 4.2%）；市值约 $215.3B、EV 约 $203B，约 21x EV/TTM revenue、约 49x 非 GAAP 运行率 EPS、约 58x TTM GAAP 净利润。隐含三年营收 CAGR 要求升至约 30-38%（旧口径约 28-36%）。立场维持 neutral watch / 中确信；2026-08-04 的 Q2 财报是下一个真正的基本面检验点。",
-          "en": "2026-07-31 valuation re-anchor (price-only, not an earnings update): ANET closed at $171.02 on 2026-07-30 (about +4.2% from the old 2026-06-29 anchor of $164.10); market cap about $215.3B, EV about $203B, about 21x EV/TTM revenue, about 49x non-GAAP run-rate EPS, about 58x TTM GAAP net income. The implied three-year revenue CAGR requirement rises to about 30-38% (old caliber about 28-36%). Stance stays neutral watch / medium conviction; the 2026-08-04 Q2 print is the next real fundamentals test."
+          "zh": "2026-08-04 Q2 2026 业绩（8-K 附件 99.1）：收入 $3.036B，同比 +37.7%、环比 +12.1%，高于公司 Q1 时给出的约 $2.8B 指引；GAAP／非 GAAP 营业利润率 45.4%／49.9%（2025Q2 44.7%／48.8%），非 GAAP 高于 46%-47% 的指引；GAAP／非 GAAP 稀释每股收益 $0.95／$1.02（指引非 GAAP 约 $0.88）。Q3 指引收入约 $3.3B、非 GAAP 营业利润率 48%-49%、非 GAAP 每股收益 $1.06-$1.08。触发条款的前提「增长或利润率不及预期」本季未发生（以公司自身指引衡量），故评 within。⚠️ 估值口径边界：本项原记录的倍数（约 21x EV/追溯收入等）锚定于 2026-07-30 收盘 $171.02 与 Q2 之前的分母，本次未重锚，应读作带日期的历史口径。",
+          "en": "Q2 2026 results, 2026-08-04 (8-K Exhibit 99.1): revenue was $3.036B, up 37.7% year over year and 12.1% sequentially, above the roughly $2.8B the company guided at Q1; GAAP / non-GAAP operating margin was 45.4% / 49.9% (44.7% / 48.8% in Q2 2025), with non-GAAP above the 46-47% guide; GAAP / non-GAAP diluted EPS was $0.95 / $1.02 (non-GAAP guide about $0.88). Q3 is guided to revenue of about $3.3B, non-GAAP operating margin of 48-49% and non-GAAP EPS of $1.06-1.08. The trigger's premise - growth or margins missing - did not occur this quarter measured against the company's own guidance, so the reading is within. Valuation boundary: the multiples recorded earlier in this item (about 21x EV/trailing revenue and so on) are anchored to the 2026-07-30 close of $171.02 and pre-Q2 denominators; no re-anchor was done, so they are a dated historical frame."
         },
-        "nextCheck": "2026-Q2 财报 / Q2 earnings",
-        "nextCheckDate": "2026-08"
+        "nextCheck": "Q3 2026 财报与当前价估值重锚 / Q3 2026 results and a current-price valuation re-anchor",
+        "nextCheckDate": "2026-11",
+        "reading": "within",
+        "readingAsOf": "2026-08-04"
       }
     ],
     "conviction": "medium",
@@ -5022,13 +5024,13 @@
           "en": "revenue fails to recover in Q4 FY2026/FY2027 — near-term fundamentals keep deteriorating"
         },
         "latest": {
-          "zh": "Q3 FY2026 营收 $2.02M（QoQ −56%）、连续两季大幅萎缩；Q4 FY2026/全年业绩预计 8 月下旬发布，恢复与否尚无数据",
-          "en": "Q3 FY2026 revenue $2.02M (−56% QoQ), second straight big decline; Q4 FY2026 / FY results expected late August — no recovery data yet"
+          "zh": "🔴 2026-09-23 FY2026 第四季度及全年业绩（8-K 附件 99.1，同日提交 10-K）：第四季度（截至 2026-06-30）收入约 $13.5 千（千美元，非百万），上年同期 $4.8M、上季 $2.02M，公司归因于 2026 年初联邦税法变更后住宅与传统安装商渠道销售大幅下滑；全年收入 $13.3M（同比 +58%）。第四季度 GAAP 净亏损 $11.7M，含 $3.9M 信用损失／坏账准备与 $1.1M 住宅库存跌价准备；调整后 EBITDA −$8.0M。触发条款「收入未在 FY2026-Q4/FY2027 恢复——近期基本面持续恶化」的 FY2026-Q4 一支已明确命中，故评 breached。新增收入依赖佐治亚工厂投产（见 georgia-factory）。",
+          "en": "🔴 FY2026 fourth-quarter and full-year results, 2026-09-23 (8-K Exhibit 99.1, with the 10-K filed the same day): fourth-quarter revenue (quarter ended 2026-06-30) was about $13.5 thousand (thousands, not millions), against $4.8M a year earlier and $2.02M the prior quarter, which the company attributes to a substantial decline in residential and traditional installer-channel sales after federal tax-law changes in early calendar 2026; full-year revenue was $13.3M (+58%). Fourth-quarter GAAP net loss was $11.7M, including a $3.9M provision for credit losses and bad debt and a $1.1M residential inventory obsolescence reserve; adjusted EBITDA was -$8.0M. The trigger - revenue fails to recover in Q4 FY2026 / FY2027 and near-term fundamentals keep deteriorating - is clearly hit on its Q4 FY2026 leg, so the reading is breached. New revenue now depends on the Georgia plant starting production (see georgia-factory)."
         },
-        "nextCheck": "FY2026-Q4 财报 / Q4 FY2026 earnings",
-        "nextCheckDate": "2026-08",
-        "reading": "unclear",
-        "readingAsOf": "2026-08-18"
+        "nextCheck": "FY2027 Q1 10-Q（季度截至 2026-09-30）/ the FY2027 Q1 Form 10-Q (quarter ended 2026-09-30)",
+        "nextCheckDate": "2026-11",
+        "reading": "breached",
+        "readingAsOf": "2026-09-23"
       },
       {
         "id": "georgia-factory",
@@ -5043,13 +5045,13 @@
           "en": "the end-August production start slips again"
         },
         "latest": {
-          "zh": "⚠️ 时点口径出现分歧：2026-08-11 S-3 载明佐治亚 JV「初始阶段预计于本公司 2027 财年第一季度末完成」、「预计投产时点为 2027 财年第一季度末」（财年止于 6 月 30 日，即约 2026-09-30），晚于此前对外沟通的 8 月底节点；公司未就两个口径的关系（SAT 完成 vs 初始阶段投产）作出说明，也无 8-K 明示推迟（2026-05-29 后无 8-K）。缺的是：一份把 8 月底 SAT 目标与 S-3 的 9 月底投产口径对齐的公司披露。FEOC 合规已确认",
-          "en": "⚠️ Timing frames now conflict: the 2026-08-11 S-3 states the Georgia JV's initial phase is \"expected to be completed at the end of our fiscal 2027 first quarter\" and refers to \"the anticipated startup ... at the end of our fiscal 2027 first quarter\" (FY ends June 30, so about 2026-09-30) — later than the previously communicated end-August milestone. The company has not reconciled the two frames (SAT completion vs initial-phase startup) and no 8-K discloses a slip (none filed since 2026-05-29). Missing: a company disclosure aligning the end-August SAT target with the S-3's end-September startup language. FEOC compliance confirmed"
+          "zh": "🔴 2026-09-23 FY2026 业绩新闻稿把「完成现场验收测试（SAT）与调试」列为 FY2027 待完成里程碑，并称生产爬坡「自 FY2027 第二季度（2026-10 至 12 月）起」进行；同日 10-K 仍写初始阶段「预计于 FY2027 第一季度末（约 2026-09-30）完成、随后有限量生产」。对照此前口径——2026-06-22 公告「SAT 目标于 2026 年 8 月底完成、产能爬坡于 2026 日历年第三季度开始」——截至 2026-09-23 公司未确认 SAT 完成，爬坡起点由日历 Q3 移至 FY2027 Q2（日历 Q4）。无论把 8 月底节点读作 SAT 还是投产，该节点均已错过，触发条款「8 月底投产时点再度推迟」命中，故评 breached。8-K 与新闻稿均未使用「推迟」一词，这是按前后口径对照得出的判断。",
+          "en": "🔴 The 2026-09-23 FY2026 results release lists completing Site Acceptance Test and commissioning as a FY2027 milestone still to be achieved and says the production ramp will be underway from the second quarter of fiscal 2027 (October-December 2026); the 10-K filed the same day still says the initial phase is expected to be completed at the end of the fiscal 2027 first quarter (about 2026-09-30), leading to limited production. Against the earlier framing - the 2026-06-22 announcement targeted SAT completion by end-August 2026 and a production ramp beginning in calendar Q3 2026 - the company had not confirmed SAT completion as of 2026-09-23 and the ramp start has moved from calendar Q3 to fiscal Q2 2027 (calendar Q4). Whether the end-August milestone is read as SAT or as production start, it was missed, so the trigger - the end-August production start slips again - is hit and the reading is breached. Neither the 8-K nor the release uses the word 'delay'; this is a judgment from comparing the before-and-after frames."
         },
-        "nextCheck": "2026-08 投产确认 / August start confirmation",
-        "nextCheckDate": "2026-08",
-        "reading": "unclear",
-        "readingAsOf": "2026-08-18"
+        "nextCheck": "SAT 完成／投产确认，或 FY2027 Q1 10-Q / SAT-completion or production-start confirmation, or the FY2027 Q1 Form 10-Q",
+        "nextCheckDate": "2026-11",
+        "reading": "breached",
+        "readingAsOf": "2026-09-23"
       },
       {
         "id": "dilution-runway",
@@ -5064,13 +5066,13 @@
           "en": "another raise or cash squeeze inside the ~4-quarter runway"
         },
         "latest": {
-          "zh": "流通股 58,863,247（2026-08-03，S-3），较 2026-05-14 10-Q 封面数 42.7M 进一步增加（5 月公开发行等）；现金最后披露 $11.48M（2026-03-31），发行后余额未披露；08-11 S-3 为 Infinite Grid 持股转售注册、公司不获款项，非新增发",
-          "en": "Shares outstanding 58,863,247 (2026-08-03, per the S-3), up from the 42.7M 10-Q cover count of 2026-05-14 (May offering et al.); cash last disclosed at $11.48M (2026-03-31), post-offering balance unreported; the 08-11 S-3 registers Infinite Grid's resale with no proceeds to the company — not a new raise"
+          "zh": "🔴 2026-09-04 8-K：与 Horizon Technology Finance 等贷款人签订 $20M 优先担保定期贷款（另有至多 $10M 增额选择权；OID $1.0M），年息 10%，2028-03-03 到期，自 2026-12-04 起按月摊还（每期 $1.25M 至 $2.0M），须持续维持至少 $5M 现金及「最低缓冲」约束；同时向贷款人发行 1,454,545 股、行权价 $3.30 的五年期认股权证（增额时另发至多 727,273 股）。2026-09-23 公司另提交 $200M 通用储架 S-3（09-25 生效），并有 2026-03-27 与 Needham 签订的 ATM 销售协议。10-K：2026-06-30 现金及等价物 $22.2M（含受限现金合计 $25.4M），公司称现有资源足以支撑至少 12 个月；FY2026 净亏损 $21.5M，对佐治亚合资的出资需求至 2027-06-30 合计约 $40M。流通股 59,013,247（2026-09-23）。触发条款「约 4 个季度跑道内再度增发」由 09-04 的附认股权证融资命中，故评 breached。",
+          "en": "🔴 2026-09-04 Form 8-K: a $20M senior secured term loan with Horizon Technology Finance and other lenders (plus an optional increase of up to $10M; $1.0M original issue discount), 10% interest, maturing 2028-03-03, amortizing monthly from 2026-12-04 at $1.25M-$2.0M per payment, with a covenant to hold at least $5M of cash at all times and a minimum-cushion test; the lenders received five-year warrants over 1,454,545 shares at a $3.30 exercise price (up to 727,273 more on any increase). On 2026-09-23 the company also filed a $200M universal shelf Form S-3 (effective 2026-09-25), alongside the at-the-market sales agreement with Needham dated 2026-03-27. Per the 10-K, cash and equivalents were $22.2M at 2026-06-30 ($25.4M including restricted cash), and the company says existing resources suffice for at least 12 months; FY2026 net loss was $21.5M and funding requirements for the Georgia JV total about $40M through 2027-06-30. Shares outstanding were 59,013,247 at 2026-09-23. The trigger - another raise inside the roughly four-quarter runway - is hit by the 2026-09-04 warrant-bearing financing, so the reading is breached."
         },
-        "nextCheck": "现金与增发公告 / cash & issuance announcements",
-        "nextCheckDate": "2026-08",
-        "reading": "unclear",
-        "readingAsOf": "2026-08-18"
+        "nextCheck": "储架/ATM 实际发行，或 FY2027 Q1 10-Q 现金余额 / shelf or ATM takedowns, or the cash balance in the FY2027 Q1 Form 10-Q",
+        "nextCheckDate": "2026-11",
+        "reading": "breached",
+        "readingAsOf": "2026-09-04"
       },
       {
         "id": "infinite-grid-conversion",
@@ -6285,7 +6287,7 @@
           "en": "August 2026 consolidated revenue was NT$514,806M, up 10.1% sequentially and 53.3% year over year; January-August revenue was NT$3,386,870M, up 39.3% (Form 6-K dated 2026-09-10). advanced-node-utilization is graded unclear: positive growth alone does not establish performance against the Q3 / full-year trajectory. The release supplies no new node mix or utilization, and this review has not reconciled guidance on a consistent currency basis. Q2 mix is historical context, not August evidence. Stance, conviction and valuation are not re-adjudicated; existing valuations remain historical snapshots at their stated dates."
         },
         "nextCheck": "月度收入与 2026Q3 财报 / monthly revenue and 2026Q3 results",
-        "nextCheckDate": "2026-09",
+        "nextCheckDate": "2026-10",
         "reading": "unclear",
         "readingAsOf": "2026-09-10"
       },
@@ -6485,11 +6487,13 @@
           "en": "HBM 2027 order book keeps filling, or MU can still satisfy only about 50%-66% of customer demand"
         },
         "latest": {
-          "zh": "公开报道显示 HBM 产能售罄至 2026，2027 订单簿快速填充",
-          "en": "public reports indicate HBM capacity is sold out through 2026 and 2027 books are filling"
+          "zh": "2026-09-30 FY2026 第四季度（截至 2026-09-03）财报电话会预备发言：公司称已就 2027 日历年 HBM 位元供应的「绝大部分」完成协议，且价格同比显著上涨、缩小 HBM 与常规 DRAM 的毛利差；本季 HBM 收入增速快于公司整体收入。公司预计 2027、2028 日历年行业 DRAM 仍供给受限、HBM 位元出货增速快于常规 DRAM，且「看不到供需何时恢复平衡」。触发条款第一支「HBM 2027 订单簿继续填充」由发行人自述坐实，故评 within；第二支（只能满足约 50%-66% 客户需求）本次未给出量化比例。",
+          "en": "FQ4 FY2026 (quarter ended 2026-09-03) prepared remarks, 2026-09-30: the company says it has completed agreements for the vast majority of its calendar-2027 HBM bit supply, with significant year-over-year price increases that narrow the HBM gross-margin gap with conventional DRAM, and that HBM revenue grew faster than total company revenue in the quarter. It expects industry DRAM to remain supply constrained in calendar 2027 and 2028, HBM bit shipments to grow faster than conventional DRAM, and has no line of sight to when supply and demand return to balance. The trigger's first limb - the 2027 HBM order book keeps filling - is confirmed in the issuer's own words, so the reading is within; the second limb (satisfying only about 50%-66% of customer demand) was not quantified this time."
         },
-        "nextCheck": "FY2026 Q4 HBM 评论 / FY2026 Q4 HBM commentary",
-        "nextCheckDate": "2026-09"
+        "nextCheck": "FY2027 Q1 财报 HBM 评论 / FY2027 Q1 HBM commentary",
+        "nextCheckDate": "2026-12",
+        "reading": "within",
+        "readingAsOf": "2026-09-30"
       },
       {
         "id": "strategic-customer-agreements",
@@ -6504,11 +6508,13 @@
           "en": "SCA revenue mix rises and stabilizes margin, or customers / regulators push back on high-price supply agreements"
         },
         "latest": {
-          "zh": "16 个 SCA；14 个最低合同收入约 $100B，约 $22B 现金存款/承诺",
-          "en": "16 SCAs; 14 with about $100B minimum contract revenue and about $22B deposits / commitments"
+          "zh": "2026-09-30 FY2026 第四季度预备发言：已签 SCA 由 16 个增至 26 个，公司估计其占 2030 年前收入的 35% 以上；其中约四分之三的预期收入有既定定价框架（多数含价格上下限），其余四分之一按市场价定期议价；部分 SCA 已延至 2031 年；客户财务承诺由约 $22B 增至 $32B，「绝大部分为现金存款」。现金流量表显示 FY2026「客户合同负债存款」流入 $12,747M，资产负债表非流动客户合同负债 $12,895M（上季末 $568M）。GAAP 毛利率 86.8%（上季 84.6%），FY2027 Q1 指引约 85.95%，管理层称 Q1 为 FY2027 毛利率低点。触发条款第一支要求「SCA 收入占比上升」：公司只给出到 2030 年的前瞻占比估计，未披露已实现的 SCA 收入占比，无可比口径；第二支「客户／监管反弹」本次未见发行人披露（未做独立的监管检索）。两支均未确证成立，故评 unclear。",
+          "en": "FQ4 FY2026 prepared remarks, 2026-09-30: signed SCAs rose from 16 to 26, which the company estimates at over 35% of its revenue through 2030; about three-quarters of that expected revenue has a defined pricing framework (a majority with floor and ceiling prices) and the remaining quarter is priced periodically off market prices; some SCAs now extend into 2031; customer financial commitments rose from about $22B to $32B, the vast majority cash deposits. The FY2026 cash-flow statement shows $12,747M of proceeds from customer contract liability deposits, and noncurrent customer contract liabilities were $12,895M (against $568M a quarter earlier). GAAP gross margin was 86.8% (84.6% the prior quarter) with FQ1 FY2027 guided to about 85.95%, which management calls the FY2027 gross-margin floor. The trigger's first limb needs the SCA revenue mix to rise: the company gives only a forward estimate through 2030 and no realized SCA revenue share, so there is no comparable basis; the second limb, customer or regulatory pushback, is not disclosed by the issuer (no independent regulatory search was done). Neither limb is established, so the reading is unclear."
         },
-        "nextCheck": "SCA 收入与客户 deposits / SCA revenue and customer deposits",
-        "nextCheckDate": "2026-09"
+        "nextCheck": "FY2026 10-K 与 FY2027 Q1 的 SCA 收入与客户存款披露 / SCA revenue and customer-deposit disclosure in the FY2026 10-K and FY2027 Q1",
+        "nextCheckDate": "2026-12",
+        "reading": "unclear",
+        "readingAsOf": "2026-09-30"
       },
       {
         "id": "dram-nand-pricing",
@@ -6563,11 +6569,13 @@
           "en": "gross margin falls from 80%+ toward historical levels, compressing both EPS denominator and valuation multiple"
         },
         "latest": {
-          "zh": "股价 $975.56、市值约 $1.10T；Q3 毛利率约 84.6%、Q4 指引约 86%",
-          "en": "$975.56 share price and about $1.10T cap; Q3 gross margin about 84.6%, Q4 guide about 86%"
+          "zh": "2026-09-30 FY2026 第四季度（截至 2026-09-03）财报：收入 $54,229M（上季 $41,456M），GAAP 毛利率 86.8%、非 GAAP 87.0%（上季 84.6%／84.9%）；FY2026 全年 GAAP 毛利率 80.7%。FY2027 Q1 指引收入 $61.5B ± $1.5B、GAAP 毛利率约 85.95%（非 GAAP 约 86.25%），管理层称 Q1 为 FY2027 毛利率低点、此后预计更高。触发条款「毛利率从 80%+ 向历史均值回归」未发生，故评 within。⚠️ 估值口径边界：本项原记录的 $975.56 股价与约 $1.10T 市值锚定于 2026-07-30 收盘，本次未重锚价格或倍数，应读作带日期的历史口径。",
+          "en": "FQ4 FY2026 results (quarter ended 2026-09-03), 2026-09-30: revenue $54,229M (prior quarter $41,456M); GAAP gross margin 86.8% and non-GAAP 87.0% (84.6% / 84.9% the prior quarter); full-year FY2026 GAAP gross margin 80.7%. FQ1 FY2027 guidance is revenue of $61.5B +/- $1.5B and GAAP gross margin of about 85.95% (non-GAAP about 86.25%), which management calls the FY2027 gross-margin floor, expecting higher margins after Q1. The trigger - gross margin falling from 80%+ toward historical levels - has not occurred, so the reading is within. Valuation boundary: the $975.56 share price and about $1.10T market cap recorded earlier in this item are anchored to the 2026-07-30 close; no price or multiple re-anchor was done in this check, so they are a dated historical frame."
         },
-        "nextCheck": "FY2026 Q4 毛利率与 FY2027 指引 / Q4 margin and FY2027 guide",
-        "nextCheckDate": "2026-09"
+        "nextCheck": "FY2027 Q1 毛利率实绩与当前价估值重锚 / FY2027 Q1 gross-margin actual and a current-price valuation re-anchor",
+        "nextCheckDate": "2026-12",
+        "reading": "within",
+        "readingAsOf": "2026-09-30"
       }
     ]
   },
@@ -6672,11 +6680,13 @@
           "en": "PJM's accelerated data-center capacity procurement in Sep 2026 drives a clear rise or fade in capacity prices"
         },
         "latest": {
-          "zh": "PJM 已将数据中心容量采购节奏提前至 2026-09",
-          "en": "PJM has moved data-center capacity procurement forward to Sep 2026"
+          "zh": "原计划 2026-09 的 PJM 数据中心容量采购未在 9 月进行，因此没有价格结果可评。该采购正式名称为「可靠性后备采购（Reliability Backstop Procurement）」，用于补足 2028/2029 容量年基础剩余拍卖（BRA）相对可靠性需求 6,831MW 的缺口；PJM 2026-07-14 新闻稿称计划寻求 FERC 批准于 9 月举行。据行业媒体（Utility Dive、RTO Insider，2026-09-30；未与 FERC 命令原文逐字核对），FERC 于 2026-09-29 有条件批准了大部分设计（含 $555/MW-日 报价上限），认定成本分摊等事项可能不公正不合理并另设程序；PJM 随即推迟原定 09-30 至 10-21 的报价窗口，称新时间表未定（RTO Insider 报道实施暂停约五个月）。最近一次价格读数为 2028/2029 BRA（2026-07-14 公布）：全区统一出清于价格上限 $325/MW-日，较 2027/2028 的上限 $333.44 低 2.5%，属被价格区间锁定、非市场自然上行或回落。触发条款所指的 9 月采购未发生，故评 unclear。",
+          "en": "The PJM data-center capacity procurement planned for September 2026 did not run in September, so there is no price result to grade. Its formal name is the Reliability Backstop Procurement, meant to cover the 6,831 MW shortfall against the reliability requirement in the 2028/2029 Base Residual Auction; PJM's 2026-07-14 release said it planned to seek FERC approval to hold it in September. Per trade press (Utility Dive and RTO Insider, 2026-09-30; not checked word-for-word against the FERC order), FERC on 2026-09-29 conditionally accepted most of the design, including a $555/MW-day offer cap, but found cost allocation and other elements may be unjust and unreasonable and set further procedures; PJM then postponed the planned September 30 - October 21 offer window and says a new timeline is yet to be determined (RTO Insider reports implementation suspended for about five months). The latest price reading is the 2028/2029 BRA published 2026-07-14: a uniform RTO clear at the $325/MW-day cap, 2.5% below the 2027/2028 cap of $333.44 - pinned by the price collar rather than a market-driven rise or fade. The September procurement the trigger names did not happen, so the reading is unclear."
         },
-        "nextCheck": "PJM 容量拍卖/采购结果",
-        "nextCheckDate": "2026-09"
+        "nextCheck": "后备采购新时间表，或 2029/2030 BRA（PJM 称定于 2026-12）/ the backstop procurement's new schedule, or the 2029/2030 BRA (scheduled by PJM for December 2026)",
+        "nextCheckDate": "2026-12",
+        "reading": "unclear",
+        "readingAsOf": "2026-09-30"
       },
       {
         "id": "debt-capex-discipline",
@@ -6862,13 +6872,13 @@
           "en": "PJM/Texas data-center load pushes capacity prices or dispatchable generation value higher, or the capacity premium fades quickly"
         },
         "latest": {
-          "zh": "2026-08-07 Q2 财报：持续经营调整后 EBITDA $1,767M，同比增加 $418M（>30%），公司归因于已实现电价与容量价格上升*以及* Lotus 收购电厂三个月的贡献——因此增幅并非纯有机价格。分部：Texas $311M（2025Q2 $142M）、East $642M（$418M）、Retail $773M（$756M）、West $68M（$49M）。容量溢价未见快速回落。",
-          "en": "2026-08-07 Q2 release: Ongoing Operations Adjusted EBITDA of $1,767M, up $418M (more than 30%) year over year, which the company attributes to higher realized energy and capacity prices *and* three months of contribution from the plants acquired from Lotus — so the increase is not purely organic pricing. By segment: Texas $311M (Q2 2025: $142M), East $642M ($418M), Retail $773M ($756M), West $68M ($49M). The capacity premium did not fade."
+          "zh": "Texas：ERCOT 2026 年 8 月运营概览（2026-09-16）显示 8 月最高负荷 90,817MW（初值，2026-08-24），较 2025 年 8 月高 7,110MW；8 月实时电价平均高于日前 $2.48/MWh；该报告亦称远期 North Hub 电价低于过去一年的水平。PJM：2028/2029 BRA（2026-07-14）全区出清于价格上限 $325/MW-日（较上期上限 $333.44 低 2.5%），价格被区间锁定；原定 2026-09 的数据中心后备采购被 FERC 于 2026-09-29 有条件批准，PJM 随即推迟原定报价窗口、新时间表未定（行业媒体报道，未与命令原文核对）。此前 2026-08-07 Q2 财报的调整后 EBITDA 增幅含 Lotus 收购贡献，并非纯价格。负荷上行明确，但容量价格或可调度电源价值本身没有可比的上行读数，也无快速回落证据，两支均未确证，故由 within 改评 unclear。",
+          "en": "Texas: ERCOT's August 2026 Monthly Operational Overview (2026-09-16) shows an August peak of 90,817 MW (preliminary, 2026-08-24), 7,110 MW above August 2025; real-time prices exceeded day-ahead by $2.48/MWh on average in August; the report also notes forward North Hub prices trading lower than over the past year. PJM: the 2028/2029 BRA (2026-07-14) cleared RTO-wide at the $325/MW-day cap (2.5% below the prior $333.44 cap), with price pinned by the collar; the data-center backstop procurement planned for September 2026 was conditionally accepted by FERC on 2026-09-29 and PJM postponed the planned offer window with no new timeline set (per trade press, not checked against the order text). The Q2 adjusted EBITDA gain reported 2026-08-07 includes the Lotus acquisition and is not pure pricing. Load growth is clear, but there is no comparable reading showing capacity prices or dispatchable value moving higher, nor evidence of a quick fade, so neither limb is established and the reading moves from within to unclear."
         },
-        "nextCheck": "PJM/Texas 容量价格",
-        "nextCheckDate": "2026-09",
-        "reading": "within",
-        "readingAsOf": "2026-08-07"
+        "nextCheck": "Vistra Q3 2026 财报与 PJM 2029/2030 BRA / Vistra Q3 2026 results and the PJM 2029/2030 BRA",
+        "nextCheckDate": "2026-11",
+        "reading": "unclear",
+        "readingAsOf": "2026-09-16"
       },
       {
         "id": "leverage-fcf-discipline",
@@ -8678,8 +8688,8 @@
           "zh": "H1 2026 收入 US$116.573M、+283.1%；AI-native 产品 US$42.644M、+100.9%、占 36.6%；Open Platform 与其他 AI 企业服务 US$73.929M、+703.1%、占 63.4%。按产品/平台收入测试，第一分句成立；总增速未跌破 50%。这是 H1 口径，不是全年 2026。来源：2026-08-26 港交所中期业绩公告。",
           "en": "H1 2026 revenue was US$116.573M, up 283.1%; AI-native products were US$42.644M, up 100.9% and 36.6% of revenue; Open Platform and other AI-based enterprise services were US$73.929M, up 703.1% and 63.4%. On the product/platform revenue test, the first limb is met and total growth did not fall below 50%. This is an H1, not full-year 2026, reading. Source: 2026-08-26 HKEX interim results."
         },
-        "nextCheck": "H1 2026 interim report and later full-year disclosure",
-        "nextCheckDate": "2026-09",
+        "nextCheck": "2026 全年业绩公告（港交所规则须于 2027-03-31 前发布）/ FY2026 annual results (due by 2027-03-31 under HKEX rules)",
+        "nextCheckDate": "2027-03",
         "reading": "within",
         "readingAsOf": "2026-08-26"
       },
@@ -8696,13 +8706,13 @@
           "en": "gross margin exceeds 40% and cash burn falls below 100% of revenue, or margin stalls while burn remains above 200% of revenue"
         },
         "latest": {
-          "zh": "H1 2026 毛利率 17.9%（H1 2025 为 12.1%），毛利 US$20.813M、+464.8%；研发费用 US$296.870M、+138.8%；期内亏损 US$357.997M、-11.0%，调整后净亏损 US$293.031M、+111.2%。第一分句因毛利率未达 40% 而证伪；公告不含现金流量表，现金消耗/收入无法计算，整体维持 unclear。来源：2026-08-26 港交所中期业绩公告。",
-          "en": "H1 2026 gross margin was 17.9% (12.1% in H1 2025), gross profit US$20.813M, up 464.8%; R&D expense US$296.870M, up 138.8%; loss for the period US$357.997M, down 11.0%, and adjusted net loss US$293.031M, up 111.2%. The first limb is falsified because margin is below 40%; the announcement has no cash-flow statement, so burn-to-revenue cannot be computed and the overall reading remains unclear. Source: 2026-08-26 HKEX interim results."
+          "zh": "2026-09-30 港交所 2026 中期报告（现金流量表首次可得）：H1 2026 经营活动所用现金净额 US$318.106M（H1 2025 为 US$168.538M），为同期收入 US$116.573M 的约 273%（未计已收利息为约 280%）；另有购置物业、厂房及设备 US$187.626M。毛利率 17.9%（H1 2025 为 12.1%），与 08-26 业绩公告一致。截至 2026-06-30 现金结余 US$1,322.8M（含现金及等价物 US$930.9M），银行借款 US$133.6M。触发条款第一支（毛利率 >40% 且现金消耗 <100% 收入）两项均未达成而证伪；第二支要求毛利率「停滞」且消耗 >200% 收入——消耗一项成立，但毛利率同比提升约 5.8 个百分点，不能称为停滞。两支均未成立，故评 unclear。",
+          "en": "2026 Interim Report on HKEXnews, 2026-09-30 (the first time the cash-flow statement is available): net cash used in operating activities for H1 2026 was US$318.106M (H1 2025: US$168.538M), about 273% of H1 revenue of US$116.573M (about 280% before interest received), with a further US$187.626M of property, plant and equipment purchases. Gross margin was 17.9% (12.1% in H1 2025), matching the 2026-08-26 results announcement. The cash balance at 2026-06-30 was US$1,322.8M (including US$930.9M of cash and equivalents) and bank borrowings were US$133.6M. The trigger's first limb (margin above 40% and burn below 100% of revenue) is falsified on both counts; the second limb needs margin to stall while burn exceeds 200% of revenue - the burn condition holds, but margin rose about 5.8 percentage points year over year, which is not a stall. Neither limb holds, so the reading is unclear."
         },
-        "nextCheck": "H1 2026 interim report with cash-flow statement",
-        "nextCheckDate": "2026-09",
+        "nextCheck": "2026 全年业绩（须于 2027-03-31 前发布）/ FY2026 annual results (due by 2027-03-31)",
+        "nextCheckDate": "2027-03",
         "reading": "unclear",
-        "readingAsOf": "2026-08-26"
+        "readingAsOf": "2026-09-30"
       },
       {
         "id": "paying-user-conversion",
@@ -8717,13 +8727,13 @@
           "en": "paying users and ARPU consistently grow faster than MAU, showing that consumer traffic becomes higher-quality revenue"
         },
         "latest": {
-          "zh": "2026-08-26 中期业绩公告未披露 MAU、付费用户数或 ARPU，仅以文字表述付费个人与企业用户增长、API 调用量上升及 Token Plan 采用。触发条款要求的付费用户和 ARPU 增速对 MAU 增速无法计算；这是未披露，不是为零。9M25 的平均 MAU 27.622M、付费用户 1.772M 仍是最后量化基准。",
-          "en": "The 2026-08-26 interim-results announcement discloses no MAU, paying-user count, or ARPU; it describes growth in paying individual and enterprise users, API calls and Token Plan adoption only in narrative terms. The trigger's paying-user and ARPU growth comparison with MAU cannot be computed; this is non-disclosure, not zero. The 9M25 average MAU of 27.622M and 1.772M paying users remain the last quantified baseline."
+          "zh": "2026-09-30 港交所 2026 中期报告同样未披露 MAU、付费用户数或 ARPU，仅有「付费个人及企业用户增长」「用户参与度提升」等定性表述；与 08-26 中期业绩公告一致。触发条款要求的付费用户与 ARPU 增速对 MAU 增速仍无法计算；这是未披露，不是为零。9M25 平均 MAU 27.622M、付费用户 1.772M 仍是最后量化基准。",
+          "en": "The 2026 Interim Report filed on HKEXnews on 2026-09-30 likewise discloses no MAU, paying-user count or ARPU, only qualitative statements such as growth in paying individual and enterprise users and higher user engagement, consistent with the 2026-08-26 interim-results announcement. The trigger's comparison of paying-user and ARPU growth with MAU growth still cannot be computed; this is non-disclosure, not zero. The 9M25 average MAU of 27.622M and 1.772M paying users remain the last quantified baseline."
         },
-        "nextCheck": "consumer KPI disclosure",
-        "nextCheckDate": "2026-09",
+        "nextCheck": "2026 全年业绩或任何用户 KPI 披露 / FY2026 annual results or any user-KPI disclosure",
+        "nextCheckDate": "2027-03",
         "reading": "unclear",
-        "readingAsOf": "2026-08-26"
+        "readingAsOf": "2026-09-30"
       },
       {
         "id": "funding-dilution",
@@ -9267,13 +9277,13 @@
           "en": "The top customer exceeds ~35% of revenue, or any 10%-plus customer drops out of the concentration table"
         },
         "latest": {
-          "zh": "2026 Q1 五家直接客户分别占收入 29%、21%、16%、12%、12%（合计约 90%），上年同期为 12%、26%、未达 10%、23%、未达 10%；应收账款集中度 25%、20%、16%、17%、13%；10-Q 指出部分客户是代表终端客户采购的制造伙伴，因此直接客户占比随产能分配变动",
-          "en": "In Q1 2026 five direct customers were 29%, 21%, 16%, 12% and 12% of revenue (about 90% combined), against 12%, 26%, below 10%, 23% and below 10% a year earlier; receivables concentration was 25%, 20%, 16%, 17% and 13%; the 10-Q notes that certain listed customers are manufacturing partners buying on behalf of end customers, so direct-customer shares move with production allocation"
+          "zh": "🔴 2026-08-05 提交的 2026 Q2 10-Q（季度截至 2026-06-30）：占收入 10% 以上的直接客户为 29%、25%、15%、13% 四家（上半年口径 29%、21%、17%、13%），而 2026 Q1 10-Q 为 29%、21%、16%、12%、12% 五家——Q1 的五家 10% 以上客户中至少有一家本季跌出集中度表（两份 10-Q 的客户字母标签不跨期对应，故无法指认是哪一家；按家数推断成立）。第一大客户 29%，未超过约 35%。触发条款第二支「任一 10% 以上客户从集中度表中消失」命中，故评 breached。须同时注意 10-Q 的限定：部分直接客户是代终端客户采购的制造伙伴，占比随终端客户在制造伙伴间调配产量而波动，未必代表终端需求变化——这属于复核时的判断材料，不改变按原文的评级。应收账款集中度：30%、17%、12%、10%。",
+          "en": "🔴 Q2 2026 Form 10-Q filed 2026-08-05 (quarter ended 2026-06-30): four direct customers exceeded 10% of revenue at 29%, 25%, 15% and 13% (six-month basis 29%, 21%, 17% and 13%), against five in the Q1 2026 10-Q at 29%, 21%, 16%, 12% and 12% - so at least one of Q1's five 10%-plus customers dropped out of the concentration table this quarter (the customer letters are not stable across the two filings, so which one cannot be named; the count makes the inference hold). The top customer is 29%, below about 35%. The trigger's second limb - any 10%-plus customer drops out of the concentration table - is hit, so the reading is breached. Note the 10-Q's caveat that some direct customers are manufacturing partners buying for end customers, whose shares move as end customers reallocate volume and may not reflect end demand; that is material for re-adjudication, not a reason to override the grade against the trigger text. Receivables concentration: 30%, 17%, 12% and 10%."
         },
-        "nextCheck": "每季 10-Q 集中度表 / quarterly 10-Q concentration table",
-        "nextCheckDate": "2026-08",
-        "reading": "within",
-        "readingAsOf": "2026-05-06"
+        "nextCheck": "Q3 2026 10-Q 集中度表 / Q3 2026 10-Q concentration table",
+        "nextCheckDate": "2026-11",
+        "reading": "breached",
+        "readingAsOf": "2026-08-05"
       },
       {
         "id": "customer-warrant-contra-revenue",
@@ -9288,13 +9298,13 @@
           "en": "Quarterly contra-revenue exceeds about 2% of revenue, or a new purchase-linked warrant is issued to a second customer"
         },
         "latest": {
-          "zh": "2026 年 2 月向既有持有人发出最多 3,262,299 股、行权价 $142.82 的权证，每股授予日公允价值 $85.83、最大合计公允价值 $280.0M，随采购分批解锁；2026 Q1 确认冲减收入 $2,097K（约占收入 0.7%）；此前另有 2022 年 1,484,230 股与 2023 年 831,945 股",
-          "en": "In February 2026 the company issued the existing Holder a warrant over up to 3,262,299 shares at a $142.82 exercise price, with an $85.83 per-share grant-date fair value and a $280.0M maximum total fair value, vesting on purchase tranches; Q1 2026 recognized $2,097K of contra-revenue (about 0.7% of revenue), on top of the 2022 warrant over 1,484,230 shares and the 2023 warrant over 831,945 shares"
+          "zh": "🔴 2026-08-05 提交的 2026 Q2 10-Q：本季确认与客户认股权证相关的收入冲减 $10.2M（2025Q2 $1.8M），上半年 $12.3M；按本季收入 $392.4M 计约 2.6%（按冲减前收入计约 2.5%），高于触发条款约 2% 的门槛；Q1 为 $2.1M（约 0.7%）。截至 2026-06-30 已归属可行权 1,663,042 股，另有 24,722 股很可能归属，持有人尚未行权；剩余授予日公允价值将按相关产品销售比例冲减收入，最晚至 2033-01-02。未见向第二家客户发出新的采购挂钩权证（10-Q 仅提及既有持有人）。触发条款第一支「单季冲减收入超过收入约 2%」命中，故评 breached。",
+          "en": "🔴 Q2 2026 Form 10-Q filed 2026-08-05: the company recognized $10.2M of revenue reduction related to the customer warrants in the quarter ($1.8M in Q2 2025) and $12.3M for the first half; on Q2 revenue of $392.4M that is about 2.6% (about 2.5% of pre-reduction revenue), above the trigger's roughly 2% threshold; Q1 was $2.1M (about 0.7%). As of 2026-06-30, 1,663,042 warrant shares were vested and exercisable, with a further 24,722 probable of vesting and none exercised; the remaining grant-date fair value will reduce revenue in proportion to related product sales through as late as 2033-01-02. No new purchase-linked warrant to a second customer is disclosed (the 10-Q refers only to the existing Holder). The trigger's first limb - quarterly contra-revenue above about 2% of revenue - is hit, so the reading is breached."
         },
-        "nextCheck": "每季现金流量表的权证冲减收入行与毛利率 / quarterly warrant contra-revenue line in the cash-flow statement and gross margin",
-        "nextCheckDate": "2026-08",
-        "reading": "within",
-        "readingAsOf": "2026-05-06"
+        "nextCheck": "Q3 2026 10-Q 的权证冲减收入 / warrant contra-revenue in the Q3 2026 10-Q",
+        "nextCheckDate": "2026-11",
+        "reading": "breached",
+        "readingAsOf": "2026-08-05"
       },
       {
         "id": "scale-up-socket-absorption",
@@ -9327,13 +9337,13 @@
           "en": "Astera or a peer states that retimers or fabric switches are on allocation or that lead times have extended materially, or a customer cluster slips for want of interconnect silicon - any of which would upgrade this layer from an architecture read to a constraint read"
         },
         "latest": {
-          "zh": "2026 Q1 电话会上管理层称供应已备到年底、后段供应链已分散以应对局部供应挑战、库存 75 天处于舒适水平；库存账面 $60.2M，采购承诺合计仅 $79.6M；没有配给或交期拉长的迹象",
-          "en": "On the Q1 2026 call management said supply is in place through the end of the year, that the back-end supply chain is diversified against pockets of supply challenge, and that 75 days of inventory is a comfortable position; inventory was $60.2M and total purchase commitments only $79.6M, with no sign of allocation or extended lead times"
+          "zh": "2026-08-05 提交的 2026 Q2 10-Q（季度截至 2026-06-30）全文无「配给」、「交期」、「短缺」或产能受限表述。存货由 2025-12-31 的 $58.979M 升至 $113.781M；采购承诺合计由 Q1 记录的 $79.6M 升至 $181.669M，但管理层讨论明述采购承诺「主要与软件许可与云托管有关」，不能读作晶圆供应锁定。Q2 收入 $392.4M（同比 +104%）。本侧未见配给或交期拉长，故评 within。本次未重新核查同层竞争者的口径。",
+          "en": "The Q2 2026 Form 10-Q filed 2026-08-05 (quarter ended 2026-06-30) contains no language about allocation, lead times, shortages or capacity limits. Inventory rose from $58.979M at 2025-12-31 to $113.781M, and total purchase commitments rose from the $79.6M recorded at Q1 to $181.669M, but management's discussion states they are primarily related to software licenses and cloud hosting, so they cannot be read as locked-in wafer supply. Q2 revenue was $392.4M (+104% year over year). Astera shows no allocation or lead-time extension, so the reading is within. Peer commentary was not re-checked in this pass."
         },
-        "nextCheck": "Astera 与同层竞争者每季的供应与交期口径 / quarterly supply and lead-time commentary from Astera and its peers",
-        "nextCheckDate": "2026-08",
+        "nextCheck": "Astera Q3 2026 10-Q 与同层竞争者每季供应口径 / the Q3 2026 Astera 10-Q and quarterly peer supply commentary",
+        "nextCheckDate": "2026-11",
         "reading": "within",
-        "readingAsOf": "2026-05-05"
+        "readingAsOf": "2026-08-05"
       },
       {
         "id": "valuation-multiple-vs-growth",
@@ -9348,13 +9358,13 @@
           "en": "EV/forward revenue stays above ~30x while year-over-year growth decelerates below ~40% (downgrade evidence), or compresses below ~20x while growth holds above 60% (upgrade evidence)"
         },
         "latest": {
-          "zh": "以 2026-07-30 收盘 $299.69 计，市值约 $51.37B、企业价值约 $50.19B：约 50.1x EV/追溯收入、约 33x EV/本报告自估的 CY2026 收入、约 22x EV/CY2027E；同期 Q2 指引隐含同比约 +88%；对照 Broadcom 约 24-25x 追溯、Marvell 前瞻约 14.1x、Coherent 约 7.5x",
-          "en": "At the 2026-07-30 close of $299.69 market cap is ~$51.37B and enterprise value ~$50.19B: about 50.1x EV/TTM revenue, about 33x EV on this report's own CY2026 revenue estimate and about 22x on CY2027E, while the Q2 guide implies about +88% YoY; peers stand at about 24-25x trailing for Broadcom, about 14.1x forward for Marvell and about 7.5x for Coherent"
+          "zh": "2026-08-05 提交的 2026 Q2 10-Q：Q2 收入 $392.4M，同比 +104%（上半年 +99%）。触发条款第一支（增速降到约 40% 以下时 EV/前瞻收入仍 >30 倍）因增速远高于 40% 而证伪；第二支（增速保持 60% 以上时倍数压缩到约 20 倍以下）的增速前提成立，但本次未以当前价格重算 EV/前瞻收入——本项原记录的约 33x／22x 倍数锚定于 2026-07-30 收盘 $299.69，属带日期的历史口径。倍数一支不可观测，故评 unclear。",
+          "en": "Q2 2026 Form 10-Q filed 2026-08-05: Q2 revenue was $392.4M, up 104% year over year (+99% for the first half). The trigger's first limb (EV/forward revenue still above ~30x once growth falls below ~40%) is falsified because growth is far above 40%; the second limb's growth premise (growth holding above 60%) is met, but EV/forward revenue was not recomputed at a current price in this check - the roughly 33x / 22x multiples recorded earlier in this item are anchored to the 2026-07-30 close of $299.69 and are a dated historical frame. The multiple leg is unobservable, so the reading is unclear."
         },
-        "nextCheck": "每季价格账本与 Q2/Q3 收入实绩 / quarterly price ledger and Q2/Q3 revenue actuals",
-        "nextCheckDate": "2026-08",
-        "reading": "within",
-        "readingAsOf": "2026-07-30"
+        "nextCheck": "Q3 2026 收入实绩与当前价估值重锚 / Q3 2026 revenue actuals and a current-price valuation re-anchor",
+        "nextCheckDate": "2026-11",
+        "reading": "unclear",
+        "readingAsOf": "2026-08-05"
       }
     ],
     "stanceRationale": {
