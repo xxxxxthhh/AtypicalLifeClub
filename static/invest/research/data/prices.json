@@ -751,6 +751,18 @@
       "lastClose": 81.81,
       "changePct": 12.1,
       "currency": "USD"
+    },
+    {
+      "reportId": "applovin-2026",
+      "symbol": "APP",
+      "status": "carried-forward",
+      "attemptedAt": "2026-10-02",
+      "baseDate": "2026-10-01",
+      "basePrice": 281.31,
+      "lastDate": "2026-10-01",
+      "lastClose": 281.31,
+      "changePct": 0.0,
+      "currency": "USD"
     }
   ]
 }

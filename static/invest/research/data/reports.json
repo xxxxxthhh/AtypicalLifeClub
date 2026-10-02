@@ -11310,5 +11310,220 @@
         }
       }
     ]
+  },
+  {
+    "id": "applovin-2026",
+    "company": "AppLovin",
+    "ticker": "NASDAQ: APP",
+    "priceSymbol": "APP",
+    "title": "AppLovin 深度研究报告 - 增长不再自我复利之后，价格已经打了多少折",
+    "titleEn": "AppLovin Deep Research Report - How Much the Price Already Discounts Once Growth Stops Compounding on Its Own",
+    "summary": "2026-10-02 首次覆盖，锚定 2026-10-01 收盘 $281.31（年初至今 −58.25%，52 周收盘低点）。以 10-Q 封面 334.651M 股计市值 $94,140.7M，加票据本金 $3,550.0M、减现金 $3,053.3M 后企业价值 $94,637.4M，对应 TTM 调整后 EBITDA（$5,727.1M）16.52 倍、TTM GAAP 市盈率 21.62 倍、FY2026E 调整后 EBITDA 约 13.97 倍。生意依旧罕见地好：Q2 2026 收入 $1,923.7M（+53%）、调整后 EBITDA 利润率 83.9%、TTM 自由现金流 $4,508.2M。但 10-Q 显示自 2025 年年中起增长全部来自单次安装净收入（Q2 +58%），安装量横盘或下降（Q2 −2%、Q1 −18%）；收入增速连续四个已报告季度放缓至 53%、Q3 指引 46-48%；Q2 收入落在指引区间内但调整后 EBITDA 低于下限 $1.2M，管理层归因于模型改进节奏变慢；电商第二引擎所依赖的 AI 视频仍「a work in progress」，且申报文件没有任何游戏/电商收入拆分。竞争（Unity Vector、Meta、Google、CloudX）、两起证券集体诉讼、起诉 Unity 的数据争议，以及 2026 年约 $362.9M 内部人卖出、零买入构成主要压力。30/40/30 情景网格（FY2028 收入 $13,663M / $11,852M / $8,586M，退出 EV/EBITDA 16x / 13x / 8x）加权每股 $392.41，至 2028 年末年化 +16.0%，高于 8% 门槛 8.0 个百分点；但退出倍数整体下调 3 倍即降至 +3.8%、增长放缓即降至 +7.1%。反推在 13 倍退出下，从现价获得 8% 门槛回报只需 2026-2028 年约 10% 的收入复合增速（保本约 1%），本报告基准为 21%。立场偏多 / 低确信；平台执法尾部风险不在网格内。",
+    "summaryEn": "Initial coverage dated 2026-10-02, anchored on the 2026-10-01 close of $281.31 (−58.25% year to date, a 52-week closing low). On the 334.651M shares on the 10-Q cover, market capitalization is $94,140.7M; adding $3,550.0M of note principal and subtracting $3,053.3M of cash gives an enterprise value of $94,637.4M, or 16.52x TTM adjusted EBITDA ($5,727.1M), 21.62x TTM GAAP earnings and about 13.97x FY2026E adjusted EBITDA. The business is still unusually good: Q2 2026 revenue of $1,923.7M (+53%), an 83.9% adjusted EBITDA margin and TTM free cash flow of $4,508.2M. But the 10-Q shows that since mid-2025 all growth has come from net revenue per installation (+58% in Q2) on flat-to-falling installs (−2% in Q2, −18% in Q1); revenue growth has decelerated for four straight reported quarters to 53%, with Q3 guided at 46-48%; Q2 revenue landed inside guidance but adjusted EBITDA came in $1.2M below the low end, which management blamed on a slower model-improvement cadence; the AI video tool the e-commerce engine depends on is still \"a work in progress\", and no filing splits gaming from e-commerce revenue. Competition (Unity Vector, Meta, Google, CloudX), two securities class actions, the data dispute AppLovin brought against Unity, and about $362.9M of 2026 insider sales with zero purchases are the main pressures. A 30/40/30 scenario grid (FY2028 revenue $13,663M / $11,852M / $8,586M, exit EV/EBITDA 16x / 13x / 8x) weights to $392.41 per share, +16.0% annualized to the end of 2028, 8.0 points above the 8% hurdle; but cutting all exit multiples by three turns drops it to +3.8% and slower growth alone to +7.1%. Working backwards, at a 13x exit, earning the 8% hurdle from today's price requires only about 10% annual revenue growth over 2026-2028 (about 1% to break even), against a 21% base case. Stance constructive / low conviction; the platform-enforcement tail sits outside the grid.",
+    "tags": [
+      "数字广告",
+      "移动游戏",
+      "电商广告",
+      "AI广告"
+    ],
+    "category": "tech",
+    "date": "2026-10-02",
+    "lastUpdate": "2026-10-02",
+    "file": "/invest/research/reports/view.html?id=applovin-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/AppLovin_深度研究报告_2026-10.md",
+      "en": "/invest/research/AppLovin_Deep_Research_Report_2026-10.md"
+    },
+    "highlights": [
+      "市场数据（2026-10-01 收盘）：股价 $281.31、市值 $94,140.7M、企业价值 $94,637.4M、净负债 $496.7M（0.09 倍 EBITDA）；年初至今 −58.25%，52 周收盘区间 $281.31-$733.60",
+      "估值：EV/TTM 调整后 EBITDA 16.52x、TTM 市盈率 21.62x、EV/FY2026E EBITDA 13.97x、FY2027 一致预期市盈率 13.9x（Zacks）/ 13.4x（S&P Global）；TTM 自由现金流收益率 4.79%",
+      "增长结构：Q2 2026 收入 $1,923.7M（+53%）、调整后 EBITDA 利润率 83.9%；NRPI +58%、安装量 −2%（Q1 +93% / −18%）——增长全部来自单次安装变现；收入增速 77%→68%→66%→59%→53%→指引 46-48%",
+      "Q2 指引：收入在 $1,915-1,945M 区间内、低于中值 $6.3M；调整后 EBITDA $1,613.8M 低于下限 $1.2M（序列中首次）；Q2 自由现金流仅为 EBITDA 的 53.5%，源于上半年现金税 $639.8M（上年 $100.6M）",
+      "电商：AppLovin Ads 2026-06-22 全面开放；管理层称消费品支出比 Q4 2025 高 28%（仅电话会）；花旗/Store Leads 客户 13,105 家，富国银行称 pixel 激增为「false start」；无任何申报的收入拆分",
+      "治理与诉讼：创始人投票控制 66.9%；2026 年内部人卖出约 $362.9M、零买入，CEO 约 $97.3M 无 10b5-1 标注；上半年回购均价约 $471.9；两起证券集体诉讼与起诉 Unity 的数据争议未决",
+      "30/40/30 网格加权每股 $392.41，年化 +16.0%（门槛 8%）；退出倍数下调 3 倍降至 +3.8%；13 倍退出下获得 8% 门槛回报只需 2026-28 收入复合增速约 10%——偏多 / 低确信"
+    ],
+    "period": "2026H2",
+    "versionType": "initial",
+    "versionLabel": "2026H2 Initial Coverage",
+    "moduleContract": "heading-comment-v1",
+    "isCurrent": true,
+    "stance": "constructive",
+    "conviction": "low",
+    "priceAsOf": "2026-10-01",
+    "reportedPeriod": "Q2 2026 Form 10-Q",
+    "monitoring": [
+      {
+        "id": "revenue-growth-vs-guide",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "收入增长对照指引",
+          "en": "Revenue growth versus guidance"
+        },
+        "trigger": {
+          "zh": "Q3 2026 收入低于 $2,055M 指引下限，或 Q4 指引中值隐含环比增长不足 +5%",
+          "en": "Q3 2026 revenue below the $2,055M low end of guidance, or a Q4 guide midpoint implying less than +5% q/q growth"
+        },
+        "latest": {
+          "zh": "Q2 2026 收入 $1,923.7M（同比 +53%、环比 +4.4%），在 $1,915-1,945M 指引区间内但低于中值 $6.3M；Q3 指引 $2,055-2,085M 隐含环比 +6.8% 至 +8.4%、同比 +46-48%；FY2026 一致预期收入 $8.10B 隐含 Q4 环比约 +9.4%，Edgewater 预测 +8-9%",
+          "en": "Q2 2026 revenue was $1,923.7M (+53% y/y, +4.4% q/q), inside the $1,915-1,945M guide but $6.3M below the midpoint; the Q3 guide of $2,055-2,085M implies +6.8% to +8.4% q/q and +46-48% y/y; FY2026 consensus revenue of $8.10B implies Q4 at about +9.4% q/q, against Edgewater's +8-9%"
+        },
+        "nextCheck": "Q3 2026 财报（2026 年 11 月上旬，估计） / Q3 2026 results (early November 2026, estimated)",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "nrpi-vs-installs",
+        "thesis": "either",
+        "theme": "pricing",
+        "metric": {
+          "zh": "单次安装净收入（NRPI）与安装量",
+          "en": "Net revenue per installation (NRPI) versus install volume"
+        },
+        "trigger": {
+          "zh": "NRPI 同比增速低于 +20% 且安装量仍在同比下降",
+          "en": "NRPI growth below +20% year over year while install volume is still declining"
+        },
+        "latest": {
+          "zh": "10-Q 管理层讨论与分析：Q2 2026 NRPI +58%、安装量 −2%；Q1 2026 +93% / −18%；FY2025 +72% / +3%——自 2025 年年中起增长全部来自单次安装变现",
+          "en": "10-Q MD&A: Q2 2026 NRPI +58% with installs −2%; Q1 2026 +93% / −18%; FY2025 +72% / +3% — since mid-2025 all growth has come from monetization per install"
+        },
+        "nextCheck": "Q3 2026 10-Q 管理层讨论与分析 / Q3 2026 10-Q MD&A",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "ebitda-margin-spread",
+        "thesis": "bear",
+        "theme": "pricing",
+        "metric": {
+          "zh": "调整后 EBITDA 利润率与差价压缩",
+          "en": "Adjusted EBITDA margin and spread compression"
+        },
+        "trigger": {
+          "zh": "调整后 EBITDA 利润率连续两个季度低于 80%",
+          "en": "Adjusted EBITDA margin below 80% for two consecutive quarters"
+        },
+        "latest": {
+          "zh": "Q2 2026 调整后 EBITDA $1,613.8M、利润率 83.9%（指引 84-85%，低于指引下限 $1.2M）；Q3 指引约 83%；CFO 长期预期「low-80%」；增量利润转化率 Q2 70%、Q1 86%（电话会）；Edgewater 称竞争正在压缩净收入差价",
+          "en": "Q2 2026 adjusted EBITDA was $1,613.8M at an 83.9% margin (guide 84-85%, $1.2M below the low end); Q3 guided at about 83%; the CFO's long-term expectation is \"low-80%\"; incremental flow-through was 70% in Q2 against 86% in Q1 (call); Edgewater says competition is compressing net revenue spreads"
+        },
+        "nextCheck": "Q3 2026 财报 / Q3 2026 results",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "ecommerce-traction",
+        "thesis": "either",
+        "theme": "optionality",
+        "metric": {
+          "zh": "电商与消费品广告进展",
+          "en": "E-commerce and consumer advertising traction"
+        },
+        "trigger": {
+          "zh": "管理层称消费品广告主支出环比下降，或截至 FY2026 10-K 仍无量化的消费品收入披露",
+          "en": "Management describes consumer advertiser spend as down quarter over quarter, or there is still no quantitative consumer-revenue disclosure by the FY2026 10-K"
+        },
+        "latest": {
+          "zh": "AppLovin Ads 于 2026-06-22 向全部广告主开放；管理层称 Q2 消费品支出比 Q4 2025 高 28%（仅电话会）；花旗/Store Leads 截至 2026-09-18 统计电商客户 13,105 家（2026-07-10 为 10,471）；富国银行 2026-09-30 称 pixel 激增是「false start」；AI 视频在 2026-08-05 仍是「a work in progress」；申报文件无游戏/消费品收入拆分",
+          "en": "AppLovin Ads opened to all advertisers on 2026-06-22; management says Q2 consumer spend was 28% above Q4 2025 levels (call only); Citi/Store Leads counted 13,105 e-commerce clients by 2026-09-18 (10,471 on 2026-07-10); Wells Fargo called the pixel spike a \"false start\" on 2026-09-30; AI video was still \"a work in progress\" on 2026-08-05; no gaming/consumer revenue split exists in any filing"
+        },
+        "nextCheck": "Q3 2026 电话会与 10-Q / Q3 2026 call and 10-Q",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "fcf-conversion",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "自由现金流转化率",
+          "en": "Free-cash-flow conversion"
+        },
+        "trigger": {
+          "zh": "FY2026 自由现金流低于调整后 EBITDA 的 70%",
+          "en": "FY2026 free cash flow below 70% of adjusted EBITDA"
+        },
+        "latest": {
+          "zh": "Q2 2026 自由现金流 $863.3M，为调整后 EBITDA 的 53.5%；2026 年上半年现金所得税 $639.8M（上年同期 $100.6M）；CFO 预计 FY2026 约 75%（电话会）；TTM 自由现金流 $4,508.2M",
+          "en": "Q2 2026 free cash flow was $863.3M, 53.5% of adjusted EBITDA; first-half 2026 cash income taxes were $639.8M (against $100.6M a year earlier); the CFO expects about 75% for FY2026 (call); TTM free cash flow is $4,508.2M"
+        },
+        "nextCheck": "Q3 2026 与 FY2026 现金流量表 / Q3 2026 and FY2026 cash-flow statements",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "litigation-unity-dispute",
+        "thesis": "bear",
+        "theme": "regulatory",
+        "metric": {
+          "zh": "证券诉讼与 Unity 争议",
+          "en": "Securities litigation and the Unity dispute"
+        },
+        "trigger": {
+          "zh": "Brownback 挺过驳回动议，或 Unity 争议中的裁决或反诉限制 MAX 数据使用，或出现任何监管执法行动",
+          "en": "Brownback survives the motion to dismiss, or a ruling or counter-claim in the Unity dispute restricts the use of MAX data, or any regulator enforcement action"
+        },
+        "latest": {
+          "zh": "2025 年集体诉讼 Brownback 驳回动议自 2026 年 2 月起已完成书面陈述、尚无裁决；2026 年集体诉讼（加州北区 26-cv-10584，集体期间 2026-02-12 至 2026-08-05）首席原告截止日 2026-11-16；AppLovin 诉 Unity 临时禁令申请（CPF-26-520212）原定于 2026-09-30 听证，结果未查到；据 CFO（仅电话会）SEC 问询已结束且无执法建议",
+          "en": "The 2025 Brownback motion to dismiss has been fully briefed since February 2026 with no ruling; the 2026 class action (N.D. Cal. 26-cv-10584, class period 2026-02-12 to 2026-08-05) has a 2026-11-16 lead-plaintiff deadline; AppLovin's TRO application against Unity (CPF-26-520212) was scheduled for hearing on 2026-09-30, outcome not found; per the CFO (call only) the SEC inquiry closed with no recommended action"
+        },
+        "nextCheck": "法院案卷与 Q3 2026 10-Q / Court dockets and the Q3 2026 10-Q",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "platform-policy",
+        "thesis": "bear",
+        "theme": "regulatory",
+        "metric": {
+          "zh": "Apple / Google 平台政策",
+          "en": "Apple / Google platform policy"
+        },
+        "trigger": {
+          "zh": "Apple 或 Google 出台影响 AppLovin SDK、归因或数据使用的政策或执法变化，且公司称之为重大",
+          "en": "An Apple or Google policy or enforcement change affecting AppLovin's SDK, attribution or data use that the company describes as material"
+        },
+        "latest": {
+          "zh": "2026 年未发现影响 APP 的应用内或 IDFA 变更；iOS 27（2026-09-14）只在 Safari 屏蔽部分广告技术域名；10-Q 称公司「in part on IDFA」，并依赖其中「some of which are direct competitors」的平台；Android 政策未深入检索",
+          "en": "No in-app or IDFA change affecting APP found in 2026; iOS 27 (2026-09-14) blocks some ad-tech domains in Safari only; the 10-Q says the company relies \"in part on IDFA\" and on platforms \"some of which are direct competitors\"; Android policy not searched in depth"
+        },
+        "nextCheck": "Apple 与 Google 开发者政策更新（持续） / Apple and Google developer-policy updates (continuous)",
+        "nextCheckDate": "2026-11"
+      }
+    ],
+    "stanceRationale": {
+      "zh": "以 2026-10-01 收盘 $281.31、334.651M 股计市值 $94,140.7M、企业价值 $94,637.4M，对应 TTM 调整后 EBITDA 16.52 倍、TTM 市盈率 21.62 倍、FY2026E EBITDA 约 13.97 倍。决定立场的是加权预期回报：30% 牛市 / 40% 基准 / 30% 熊市（FY2028 收入 $13,663M / $11,852M / $8,586M，EBITDA 利润率 82% / 81% / 76%，退出 EV/EBITDA 16x / 13x / 8x，退出股数 318.6M / 317.5M / 315.5M）加权每股价值 $392.41，较 $281.31 为 +39.5%，2.248 年（2026-10-02 至 2028-12-31，821 天）年化 +16.0%，高于 8% 门槛 8.0 个百分点；牛市 +107.1% 对熊市 −36.7%，偏斜为正。反推在 13 倍退出下，获得 8% 门槛回报只需 2026-2028 年约 9.7% 的收入复合增速（保本约 0.8%），本报告基准为 21.0%。确信度为低而非中，因为正偏斜对倍数敏感：退出倍数整体下调 3 倍降至 +3.8%，增长放缓（基准 2027 年 +12%）降至 +7.1%，两者叠加 −4.1%；增长驱动（模型迭代节奏、电商收入）没有披露；平台执法、Unity 争议与两起证券集体诉讼的尾部风险不在网格内。这是在年初至今 −58.25% 之后的估值与偏斜判断，不是对减速、竞争与内部人卖出证据的否认。",
+      "en": "At the 2026-10-01 close of $281.31 on 334.651M shares, market capitalization is $94,140.7M and enterprise value $94,637.4M, or 16.52x TTM adjusted EBITDA, 21.62x TTM earnings and about 13.97x FY2026E EBITDA. What settles the stance is the probability-weighted expected return: weighting 30% bull / 40% base / 30% bear (FY2028 revenue of $13,663M / $11,852M / $8,586M, EBITDA margins of 82% / 81% / 76%, exit EV/EBITDA of 16x / 13x / 8x, exit share counts of 318.6M / 317.5M / 315.5M) gives a weighted value of $392.41 per share, +39.5% against $281.31, or +16.0% annualized over 2.248 years (2026-10-02 to 2028-12-31, 821 days) - 8.0 points above the 8% hurdle, with a positive skew of +107.1% in the bull case against −36.7% in the bear case. Working backwards, at a 13x exit, earning the 8% hurdle requires only about 9.7% annual revenue growth over 2026-2028 (about 0.8% to break even), against a 21.0% base case. Conviction is low rather than medium because the positive skew is multiple-fragile: cutting all exit multiples by three turns drops it to +3.8%, slower growth (+12% base-case 2027) to +7.1%, and both together to −4.1%; the growth drivers (model-release cadence, e-commerce revenue) are undisclosed; and the platform-enforcement, Unity-dispute and securities-litigation tails sit outside the grid. This is a valuation-and-skew judgment made after a 58.25% year-to-date decline, not a denial of the evidence of deceleration, competition and insider selling."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若 Q3 2026 收入达到或超过 $2,085M 指引上限、Q4 指引中值隐含环比至少 +10%，公司披露量化的消费品或电商收入指标且显示占收入至少 10%，并且 Brownback 被驳回或 Unity 争议在不限制 MAX 数据的前提下解决，则上调至 bullish。",
+        "en": "Move to bullish if Q3 2026 revenue reaches or exceeds the $2,085M top of guidance, the Q4 guide midpoint implies at least +10% q/q, the company discloses a quantitative consumer or e-commerce revenue metric showing at least 10% of revenue, and Brownback is dismissed or the Unity dispute is resolved without restricting MAX data.",
+        "monitoringIds": [
+          "revenue-growth-vs-guide",
+          "ecommerce-traction",
+          "litigation-unity-dispute"
+        ]
+      },
+      "downgrade": {
+        "zh": "若 Q3 2026 收入低于 $2,055M 指引下限或 Q4 指引中值隐含环比不足 +5%；或调整后 EBITDA 利润率连续两个季度低于 80%；或 NRPI 同比增速低于 +20% 且安装量仍在下降；或 Apple / Google 出台公司称为重大的平台政策或执法行动；或出现限制 MAX 数据使用的裁决或反诉；或监管机构对公司采取执法行动，则下调至 neutral-watch。",
+        "en": "Move to neutral-watch if Q3 2026 revenue falls below the $2,055M low end of guidance or the Q4 guide midpoint implies less than +5% q/q; or the adjusted EBITDA margin is below 80% for two consecutive quarters; or NRPI growth falls below +20% year over year while install volume is still declining; or Apple or Google takes a platform-policy or enforcement action the company describes as material; or a ruling or counter-claim restricts the use of MAX data; or a regulator brings an enforcement action against the company.",
+        "monitoringIds": [
+          "revenue-growth-vs-guide",
+          "ebitda-margin-spread",
+          "nrpi-vs-installs",
+          "platform-policy",
+          "litigation-unity-dispute"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-10-02",
+        "stance": "constructive",
+        "conviction": "low",
+        "price": 281.31,
+        "note": {
+          "zh": "首次覆盖裁定。30/40/30 情景网格加权每股价值 $392.41，2.248 年年化 +16.0%，高于 8% 门槛 8.0 个百分点；但退出倍数整体下调 3 倍即降至 +3.8%、增长放缓降至 +7.1%，正偏斜对倍数敏感，故确信度为低。",
+          "en": "Initiation ruling. The 30/40/30 scenario grid weights to $392.41 per share, or +16.0% annualized over 2.248 years, 8.0 points above the 8% hurdle; but cutting all exit multiples by three turns drops it to +3.8% and slower growth to +7.1%, so the positive skew is multiple-fragile and conviction is low."
+        }
+      }
+    ]
   }
 ]
