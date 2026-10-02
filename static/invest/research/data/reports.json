@@ -5005,7 +5005,7 @@
     "ticker": "NASDAQ: COIN",
     "title": "Coinbase 深度研究报告 - 合规加密基础设施平台",
     "titleEn": "Coinbase Deep Research Report - Regulated Crypto Infrastructure Platform",
-    "summary": "2026-07-31更新并入Q1/Q2 2026财报：COIN盘中约$143.59（2026-07-31 12:44 ET，当日交易时段尚未结束）、市值约$37.9B。Q2收入同比-18.5%、连续三个季度净亏损，但加密交易量市场份额10.3%、订阅占比48%、平台USDC余额$20B均创历史新高；SBC红旗经SEC原始文件核对不成立。",
+    "summary": "2026-10-02 立场补录：以 2026-10-01 收盘 $189.29（市值 $49.94B、EV/TTM 收入 7.53x）重建估值，立场 cautious、确信度低。30/40/30 情景网格加权每股 $199.46、年化 +2.4%，低于 8% 门槛；在 7x 退出下，保本即需 FY2028 收入回到 FY2025 的 $7.18B。股价自 7-31 收盘 +29.4%，主要跟随 BTC 反弹，Q3 尚未报告；CLARITY Act 9-15 程序性表决失败，美联储 9-16 加息 25bp。",
     "tags": [
       "加密货币",
       "交易所",
@@ -5014,19 +5014,19 @@
     ],
     "category": "tech",
     "date": "2026-02-11",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-10-02",
     "file": "/invest/research/reports/view.html?id=coinbase-2026",
     "markdownFiles": {
       "zh": "/invest/research/Coinbase_深度研究报告_2026-02.md",
       "en": "/invest/research/Coinbase_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "盘中约$143.59（2026-07-31 12:44 ET）、市值约$37.9B；TTM收入约6.0x，Q2年化口径约7.8x",
-      "Q2 2026收入$1,220M（同比-18.5%）、净亏损-$359M，调整后EBITDA $208M连续14季为正",
-      "周期面转弱、结构面创高：市场份额10.3%、订阅占比48%、平台USDC余额$20B",
-      "两项判断变化：币价—收入弹性比原模型更陡；SBC红旗经SEC文件核对不成立"
+      "2026-10-01 收盘 $189.29、市值 $49.94B；EV/TTM 收入 7.53x，EV/TTM 调整后 EBITDA 25.2x",
+      "立场 cautious / 低确信：30/40/30 加权每股 $199.46，年化 +2.4% 对 8% 门槛；退出倍数整体 +1 倍即触及门槛",
+      "Q2 2026 收入 $1,220M（同比 -18.5%），调整后 EBITDA $208M 连续 14 季为正；份额 10.3%、订阅占比 48% 创新高",
+      "7-31 以来：BTC 约 +35% 至约 $84.8K，CLARITY Act 程序性表决失败，美联储加息至 3.75%-4.00%"
     ],
-    "summaryEn": "Updated 2026-07-31 with Q1/Q2 2026 results: COIN at roughly $143.59 intraday (12:44 PM ET on 2026-07-31, session still open) for about $37.9B market cap. Q2 revenue fell 18.5% YoY with a third consecutive quarterly loss, while crypto trading volume market share (10.3%), subscription mix (48%), and platform USDC balances ($20B) all set records; the SBC red flag does not survive verification against primary SEC filings.",
+    "summaryEn": "Stance backfill on 2026-10-02: valuation rebuilt at the 2026-10-01 close of $189.29 ($49.94B market cap, 7.53x EV/TTM revenue); stance cautious, conviction low. The 30/40/30 scenario grid weights to $199.46 per share, +2.4% annualized against an 8% hurdle; at a 7x exit, merely holding value requires FY2028 revenue back at FY2025's $7.18B. The shares are up 29.4% since the 07-31 close, mostly tracking the BTC rebound, with Q3 not yet reported; the CLARITY Act failed a Senate procedural vote on 09-15 and the Fed raised rates 25bp on 09-16.",
     "period": "2026H1",
     "versionType": "full-cycle",
     "versionLabel": "2026H1 Full Rerun",
@@ -5043,7 +5043,165 @@
       "summary": "归档的2026H1重跑前版本，保留Q4/FY2025、交易量、托管、USDC和旧估值框架。",
       "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the Q4/FY2025, trading volume, custody, USDC, and old valuation framework."
     },
-    "priceSymbol": "COIN"
+    "priceSymbol": "COIN",
+    "stance": "cautious",
+    "conviction": "low",
+    "stanceRationale": {
+      "zh": "以 2026-10-01 收盘 $189.29、10-Q 封面 263.837M 股（2026-07-23）计，市值 $49.94B；净现金 $2,614M（现金及等价物 $8,614M 减约 $6.0B 票据本金，不计 $1,468M 加密投资组合与 $840M 战略投资），企业价值 $47.33B，对应 EV/TTM 收入 7.53x、EV/Q2 年化收入 9.70x、EV/TTM 调整后 EBITDA 25.2x（$1,878M）、EV/FY2025 调整后 EBITDA 16.8x；TTM GAAP 净亏损，P/E 不适用。30% 牛市 / 40% 基准 / 30% 熊市情景（FY2028 收入 $10,000M / $7,200M / $4,800M，由本报告估计的 FY2026E $5.0B 出发；调整后 EBITDA 利润率 43.4% / 33.7% / 16.3%；退出 EV/收入 9x / 7x / 4x；退出股数 283.1M / 286.4M / 292.8M；退出净现金 $4,858M / $3,997M / $3,219M）每股价值 $335.08 / $189.91 / $76.56，加权 $199.46，较 $189.29 +5.4%，2.248 年（2026-10-02 至 2028-12-31，821 天）年化 +2.4%，低于 8% 门槛 5.6 个百分点。反推：在 7x 退出下，保本需要 FY2028 收入 $7,177M（≈ FY2025 的 $7.18B），获得 8% 需要 $8,514M，高于公司历史上任何一个完整年度。敏感度：退出倍数整体 -1 倍降至 -3.7%、增长放缓降至 -4.5%；但退出倍数整体 +1 倍恰好落在门槛（+8.0%，差 $0.05）、增长加快为 +8.6%、权重改为 40/40/20 为 +8.1%。立场为 cautious 而非 neutral-watch：基准情景只是保本，加权回报比门槛低 5.6 个百分点，且熊市 -59.6% 的深度与牛市 +77.0% 不对称地叠加在一个尚未报告的 Q3 之上；确信度为低而非中：任何一项有利方向的单步调整都能把加权回报推到门槛附近，而币价路径本身不可预测。这是对 $189.29 价格的偏斜判断（股价自 2026-07-31 收盘 +29.4%，主要跟随 BTC 反弹，而 Q3 季度均价与成交量并未改善），不是对 Coinbase 结构性优势（份额 10.3%、订阅占比 48%）的否认。",
+      "en": "At the 2026-10-01 close of $189.29 on 263.837M shares (10-Q cover, 2026-07-23), market capitalization is $49.94B; net cash is $2,614M (cash and equivalents of $8,614M less about $6.0B of note principal, excluding the $1,468M crypto investment portfolio and $840M of strategic investments), for an enterprise value of $47.33B - 7.53x TTM revenue, 9.70x Q2-annualized revenue, 25.2x TTM adjusted EBITDA ($1,878M) and 16.8x FY2025 adjusted EBITDA; TTM GAAP earnings are negative, so P/E does not apply. Weighting 30% bull / 40% base / 30% bear (FY2028 revenue of $10,000M / $7,200M / $4,800M from this report's FY2026E estimate of $5.0B; adjusted EBITDA margins of 43.4% / 33.7% / 16.3%; exit EV/revenue of 9x / 7x / 4x; exit shares of 283.1M / 286.4M / 292.8M; exit net cash of $4,858M / $3,997M / $3,219M) gives values of $335.08 / $189.91 / $76.56 per share and a weighted $199.46, +5.4% against $189.29, or +2.4% annualized over 2.248 years (2026-10-02 to 2028-12-31, 821 days) - 5.6 points below the 8% hurdle. Working backwards at a 7x exit, merely holding value requires FY2028 revenue of $7,177M (about FY2025's $7.18B), and earning 8% requires $8,514M, above any full year in the company's history. Sensitivity: cutting every exit multiple by one turn takes the weighted return to -3.7% and slower growth to -4.5%; but adding one turn lands exactly at the hurdle (+8.0%, $0.05 short), faster growth gives +8.6% and a 40/40/20 weighting +8.1%. The stance is cautious rather than neutral-watch because the base case only breaks even, the weighted return is 5.6 points short of the hurdle, and the -59.6% bear case sits against a +77.0% bull case ahead of an unreported Q3; conviction is low rather than medium because any single favorable notch brings the weighted return to about the hurdle, and the crypto price path itself cannot be forecast. This is a skew judgment at $189.29 - the shares are up 29.4% since the 2026-07-31 close, mostly tracking the BTC rebound, while Q3 average prices and volumes did not improve - not a denial of Coinbase's structural gains (10.3% market share, 48% subscription mix)."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "以下任一成立则上调至 neutral-watch：（a）Q3 2026 订阅与服务收入达到或超过 $580M 指引上限；（b）CLARITY Act（H.R. 3633）签署成法；（c）在情景取值不变的前提下 COIN 收盘价跌至 $168 或以下（届时 $199.46 的加权价值即可跨过 8% 门槛）。",
+        "en": "Move to neutral-watch if any one of the following holds: (a) Q3 2026 subscription and services revenue at or above the $580M top of guidance; (b) the CLARITY Act (H.R. 3633) is signed into law; (c) COIN closes at or below $168 with scenario values unchanged (the $199.46 weighted value would then clear the 8% hurdle).",
+        "monitoringIds": [
+          "subscription-services-guide",
+          "market-structure-regulation",
+          "valuation-hurdle-price"
+        ]
+      },
+      "downgrade": {
+        "zh": "以下任一成立则下调至 bearish-avoid：（a）BTC 月均价连续两个月低于 $60,000；（b）Q3 2026 订阅与服务收入低于 $500M 指引下限，或 Q4 2026 订阅与服务指引中值低于 Q3 实际；（c）公司口径加密交易量市场份额连续两个季度环比下降；（d）任一季度调整后 EBITDA 为负，或 FY2026 调整后费用超过 $4,450M 指引上限；（e）出现公司称为重大的联邦或州层面执法行动。",
+        "en": "Move to bearish-avoid if any one of the following holds: (a) the BTC monthly average price is below $60,000 for two consecutive months; (b) Q3 2026 subscription and services revenue is below the $500M low end of guidance, or the Q4 2026 subscription and services guide midpoint is below the Q3 actual; (c) the company-defined crypto trading volume market share declines quarter over quarter for two consecutive quarters; (d) adjusted EBITDA is negative in any quarter, or FY2026 adjusted expenses exceed the $4,450M top of guidance; (e) a federal or state enforcement action the company describes as material.",
+        "monitoringIds": [
+          "btc-cycle-volume",
+          "subscription-services-guide",
+          "trading-market-share",
+          "adj-ebitda-expense",
+          "market-structure-regulation"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-10-02",
+        "stance": "cautious",
+        "conviction": "low",
+        "price": 189.29,
+        "note": {
+          "zh": "立场补录 / Stance backfill：以 2026-10-01 收盘 $189.29 重建 §8 估值。30/40/30 情景网格加权每股 $199.46，2.248 年年化 +2.4%，低于 8% 门槛 5.6 个百分点；基准情景仅保本。退出倍数整体 +1 倍即触及门槛，故确信度为低。此前（2026-07-31）文字倾向为中性偏积极、确信度中低，当时未做情景网格。",
+          "en": "Stance backfill: §8 valuation rebuilt at the 2026-10-01 close of $189.29. The 30/40/30 scenario grid weights to $199.46 per share, +2.4% annualized over 2.248 years, 5.6 points below the 8% hurdle; the base case only breaks even. One turn more on every exit multiple reaches the hurdle, so conviction is low. The earlier text lean (2026-07-31) was neutral-to-constructive with medium-low confidence, without a scenario grid."
+        }
+      }
+    ],
+    "monitoring": [
+      {
+        "id": "btc-cycle-volume",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "BTC 价格与行业现货交易量（加密周期）",
+          "en": "BTC price and industry spot volume (the crypto cycle)"
+        },
+        "trigger": {
+          "zh": "BTC 月均价连续两个月低于 $60,000",
+          "en": "BTC monthly average price below $60,000 for two consecutive months"
+        },
+        "latest": {
+          "zh": "CoinGecko 日线：BTC 于 2026-10-02 00:00 UTC 约 $84,842（较 2026-07-31 约 $62,764 +35.2%），ETH 约 $2,705；月均价 7 月 $63,731、8 月 $68,980、9 月 $80,306；Q3 均价 $70,904，较 Q2 的 $71,731 为 -1.2%，BTC 全市场日均成交额（第三方汇总口径）环比 -15.9%、ETH -18.9%——价格反弹集中在 8 月底至 9 月，Q3 季度均值与成交量并未改善",
+          "en": "CoinGecko daily data: BTC about $84,842 at 2026-10-02 00:00 UTC (+35.2% from about $62,764 on 2026-07-31), ETH about $2,705; monthly averages of $63,731 in July, $68,980 in August and $80,306 in September; the Q3 average of $70,904 was 1.2% below Q2's $71,731, and aggregate BTC daily spot volume (third-party proxy) fell 15.9% quarter over quarter, ETH 18.9% - the price rebound came in late August and September, so the Q3 averages and volumes did not improve"
+        },
+        "nextCheck": "每月 BTC 月均价 / Monthly BTC average price",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "subscription-services-guide",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "订阅与服务收入对照指引（含稳定币收入）",
+          "en": "Subscription and services revenue versus guidance (including stablecoin revenue)"
+        },
+        "trigger": {
+          "zh": "Q3 2026 订阅与服务收入低于 $500M 指引下限，或 Q4 2026 订阅与服务指引中值低于 Q3 实际（负面）；Q3 2026 订阅与服务收入达到或超过 $580M 指引上限（正面）",
+          "en": "Q3 2026 subscription and services revenue below the $500M low end of guidance, or a Q4 2026 subscription and services guide midpoint below the Q3 actual (negative); Q3 2026 subscription and services revenue at or above the $580M top of guidance (positive)"
+        },
+        "latest": {
+          "zh": "Q2 2026 订阅与服务 $555M，低于公司 5 月给出的 $565-645M 指引下沿；稳定币收入 $292M；Q3 指引 $500-580M。美联储 2026-09-16 加息 25bp 至 3.75%-4.00%（7 月为 3.50%-3.75%），利率方向转为有利于 USDC 储备收益；但 CoinGecko 口径 Q3 USDC 平均市值 $73.3B，较 Q2 的 $76.6B 为 -4.3%",
+          "en": "Q2 2026 subscription and services revenue was $555M, below the low end of the $565-645M guide given in May; stablecoin revenue was $292M; the Q3 guide is $500-580M. The Fed raised its target range by 25bp to 3.75%-4.00% on 2026-09-16 (3.50%-3.75% in July), turning the rate direction in favor of USDC reserve income; but the Q3 average USDC market cap on CoinGecko was $73.3B, 4.3% below Q2's $76.6B"
+        },
+        "nextCheck": "Q3 2026 财报（预计 10 月下旬至 11 月上旬，截至 2026-10-02 未公布日期） / Q3 2026 results (estimated late October to early November; date not announced as of 2026-10-02)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "trading-market-share",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "公司口径加密交易量市场份额",
+          "en": "Company-defined crypto trading volume market share"
+        },
+        "trigger": {
+          "zh": "公司口径加密交易量市场份额连续两个季度环比下降",
+          "en": "Company-defined crypto trading volume market share declines quarter over quarter for two consecutive quarters"
+        },
+        "latest": {
+          "zh": "FY2025 6.4% → Q1 2026 9.1% → Q2 2026 10.3%，连续第三个季度创历史新高；衍生品份额同样连续三季创新高（Q2 财报演示）",
+          "en": "FY2025 6.4% -> Q1 2026 9.1% -> Q2 2026 10.3%, a third consecutive record quarter; derivatives share also set a third straight record (Q2 earnings deck)"
+        },
+        "nextCheck": "Q3 2026 财报演示 / Q3 2026 earnings deck",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "adj-ebitda-expense",
+        "thesis": "bear",
+        "theme": "execution",
+        "metric": {
+          "zh": "调整后 EBITDA 与费用纪律",
+          "en": "Adjusted EBITDA and expense discipline"
+        },
+        "trigger": {
+          "zh": "任一季度调整后 EBITDA 为负，或 FY2026 调整后费用超过 $4,450M 指引上限",
+          "en": "Negative adjusted EBITDA in any quarter, or FY2026 adjusted expenses above the $4,450M top of guidance"
+        },
+        "latest": {
+          "zh": "调整后 EBITDA：Q3 2025 $801M、Q4 2025 $566M、Q1 2026 $303M、Q2 2026 $208M（连续第 14 个季度为正，但逐季下滑）；Q3 调整后费用指引 $980-1,080M；FY2026 调整后费用指引 $4,200-4,450M；5 月裁员 14%、期末员工 4,321 人",
+          "en": "Adjusted EBITDA: Q3 2025 $801M, Q4 2025 $566M, Q1 2026 $303M, Q2 2026 $208M (14th consecutive positive quarter, but falling each quarter); Q3 adjusted expense guide $980-1,080M; FY2026 adjusted expense guide $4,200-4,450M; 14% workforce reduction in May, 4,321 employees at quarter end"
+        },
+        "nextCheck": "Q3 2026 财报 / Q3 2026 results",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "market-structure-regulation",
+        "thesis": "either",
+        "theme": "regulatory",
+        "metric": {
+          "zh": "美国市场结构立法与执法",
+          "en": "U.S. market-structure legislation and enforcement"
+        },
+        "trigger": {
+          "zh": "CLARITY Act（H.R. 3633）签署成法（正面），或出现公司称为重大的联邦或州层面执法行动（负面）",
+          "en": "The CLARITY Act (H.R. 3633) is signed into law (positive), or a federal or state enforcement action the company describes as material (negative)"
+        },
+        "latest": {
+          "zh": "2026-09-15 参议院对 CLARITY Act 的程序性动议未获 60 票（CNBC 报道为 50 票赞成、49 票反对；另有媒体记为 49-50）；参议员 Lummis 表决前称若失败「就结束了」；参议院 10 月初休会至中期选举后。2026-07-30 以来公司 8-K 未披露重大执法行动（仅 2026-09-02 一份董事任命 8-K）",
+          "en": "On 2026-09-15 the Senate motion to proceed on the CLARITY Act fell short of the 60 votes needed (CNBC reports 50 for and 49 against; other outlets record 49-50); Senator Lummis had said before the vote that \"it's over\" if it failed; the Senate leaves in early October until after the midterm elections. No material enforcement action has been disclosed in company 8-Ks since 2026-07-30 (the only one is a 2026-09-02 director-appointment 8-K)"
+        },
+        "nextCheck": "中期选举后的国会会期与公司 8-K / The post-midterm congressional session and company 8-Ks",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "valuation-hurdle-price",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "股价对照情景网格的 8% 门槛价",
+          "en": "Share price versus the scenario grid's 8% hurdle price"
+        },
+        "trigger": {
+          "zh": "在情景取值不变的前提下 COIN 收盘价跌至 $168 或以下（届时 $199.46 的加权价值即可跨过 8% 门槛）",
+          "en": "COIN closes at or below $168 with scenario values unchanged (the $199.46 weighted value would then clear the 8% hurdle)"
+        },
+        "latest": {
+          "zh": "2026-10-01 收盘 $189.29；30/40/30 网格加权每股 $199.46，2.248 年年化 +2.4%，低于 8% 门槛 5.6 个百分点",
+          "en": "2026-10-01 close of $189.29; the 30/40/30 grid weights to $199.46 per share, +2.4% annualized over 2.248 years, 5.6 points below the 8% hurdle"
+        },
+        "nextCheck": "每日价格账本 / Daily price ledger",
+        "nextCheckDate": "2026-10"
+      }
+    ],
+    "priceAsOf": "2026-10-01",
+    "reportedPeriod": "Q2 2026"
   },
   {
     "id": "amzn-2026",
