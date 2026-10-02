@@ -18,11 +18,11 @@
       "symbol": "SMH",
       "status": "ok",
       "attemptedAt": "2026-10-01",
-      "baseDate": "2026-07-02",
-      "basePrice": 592.29,
+      "baseDate": "2026-10-01",
+      "basePrice": 617.81,
       "lastDate": "2026-10-01",
       "lastClose": 617.81,
-      "changePct": 4.3,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {

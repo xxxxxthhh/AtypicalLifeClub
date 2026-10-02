@@ -219,8 +219,8 @@
     "ticker": "NASDAQ: SMH",
     "title": "SMH 深度研究报告 - AI 半导体链条的基准篮子",
     "titleEn": "SMH Deep Research Report - Benchmark Sleeve For The AI Semiconductor Chain",
-    "summary": "【2026-07-31 价格复核：SMH 于 2026-07-29 收于 $504.22，较本报告锚点 -14.9%；下方数字按其标注日期阅读，估值框架与立场不变。】VanEck 半导体 ETF，是 AI 半导体链条的 benchmark/control sleeve，而不是 coverage-map 单一链条节点。发行人页面 2026-07-02 显示 NAV $592.26、总资产 $68.82B、总费率 0.35%；2026-07-01 持仓 26 只，前十大包括 NVDA 18.41%、TSM 9.18%、AMD 5.57%、AMAT 5.49%、AVGO 5.49%、MU 5.39%、KLAC 5.10%、LRCX 4.97%、ASML 4.96%、INTC 4.92%。定位为 lite benchmark / neutral control sleeve，用来比较单公司报告是否只是半导体 beta。",
-    "summaryEn": "[2026-07-31 price check: SMH closed at $504.22 on 2026-07-29, -14.9% versus this report's anchor; figures below read as of their stated dates, and the valuation frame and stance are unchanged.] VanEck semiconductor ETF used as the AI-semiconductor chain benchmark/control sleeve, not as a single coverage-map node. The issuer page showed NAV $592.26, total net assets $68.82B, and 0.35% total expense ratio as of July 2, 2026; July 1 holdings numbered 26, led by NVDA 18.41%, TSM 9.18%, AMD 5.57%, AMAT 5.49%, AVGO 5.49%, MU 5.39%, KLAC 5.10%, LRCX 4.97%, ASML 4.96%, and INTC 4.92%. Classified as a lite benchmark / neutral control sleeve for separating single-name thesis evidence from broad semis beta.",
+    "summary": "VanEck 半导体 ETF，是 AI 半导体链条的 benchmark/control sleeve，而不是 coverage-map 单一链条节点。2026-10-02 立场补录：以 2026-10-01 收盘 $617.81 计（NAV $617.90、总资产 $75.75B、总费率 0.35%，26 只持仓，前五为 NVDA 19.27%、TSM 9.16%、AMD 5.52%、AVGO 5.01%、MU 4.98%，SK hynix ADS 4.55% 于 2026-08-31 至 2026-10-01 间纳入），VanEck 基金 trailing 市盈率 37.21x（2026-08-31），持仓汇总估算 NTM 22.4x、CY2028E 15.6x。立场 neutral-watch、确信度低：30/40/30 情景网格加权每份额 $758.33，年化 +9.5%，落在 8-10% 门槛区间内，退出倍数 ±3 倍即在 +2.9% 与 +15.8% 之间摆动。作为默认基准，此立场是对半导体篮子的绝对判断，不是相对判断。",
+    "summaryEn": "VanEck semiconductor ETF used as the AI-semiconductor chain benchmark/control sleeve, not as a single coverage-map node. Stance backfill on 2026-10-02: at the 2026-10-01 close of $617.81 (NAV $617.90, total net assets $75.75B, 0.35% expense ratio, 26 holdings led by NVDA 19.27%, TSM 9.16%, AMD 5.52%, AVGO 5.01% and MU 4.98%, with SK hynix ADS added at 4.55% between 2026-08-31 and 2026-10-01), VanEck's fund trailing P/E was 37.21x (2026-08-31) and a holdings-based estimate puts it at 22.4x NTM and 15.6x CY2028E. Stance neutral-watch with low conviction: the 30/40/30 scenario grid weights to $758.33 per unit, +9.5% annualized, inside the 8-10% hurdle band, and three turns on the exit multiples swing it between +2.9% and +15.8%. As the default benchmark, this stance is an absolute call on the semiconductor basket, not a relative one.",
     "tags": [
       "ETF",
       "半导体",
@@ -229,21 +229,194 @@
     ],
     "category": "tech",
     "date": "2026-07-06",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-10-02",
     "coverageTier": "lite",
     "versionType": "initial",
     "benchmark": true,
     "priceSymbol": "SMH",
-    "priceAsOf": "2026-07-02",
+    "priceAsOf": "2026-10-01",
     "file": "/invest/research/reports/view.html?id=smh-2026",
     "markdownFiles": {
       "zh": "/invest/research/SMH_深度研究报告_2026-07.md",
       "en": "/invest/research/SMH_Deep_Research_Report_2026-07.md"
     },
     "highlights": [
-      "SMH 不进 coverage-map planned[]：它是 broad semiconductor beta / benchmark ETF，不是单一 chainLayer 节点",
-      "发行人页面 2026-07-02 显示 NAV $592.26、总资产 $68.82B、总费率 0.35%，2026-07-01 持仓 26 只",
-      "前十大集中在 NVDA、TSM、AMD、AMAT、AVGO、MU、KLAC、LRCX、ASML、INTC，用来校验单公司报告是否只是半导体 beta"
+      "SMH 不进 coverage-map planned[]：它是 broad semiconductor beta / benchmark ETF，不是单一 chainLayer 节点；对它的立场是绝对判断，不是相对判断",
+      "2026-10-01 收盘 $617.81，NAV $617.90、总资产 $75.75B；VanEck 基金 trailing 市盈率 37.21x（2026-08-31），持仓汇总估算 NTM 22.4x、CY2028E 15.6x",
+      "neutral-watch / 低确信：30/40/30 网格加权 $758.33、年化 +9.5%，退出倍数 ±3 倍即在 +2.9% 与 +15.8% 之间摆动；8 月底至 10 月初的指数调整后 NVDA 降至 19.27%、SK hynix ADS 纳入 4.55%"
+    ],
+    "stance": "neutral-watch",
+    "conviction": "low",
+    "stanceRationale": {
+      "zh": "以 2026-10-01 收盘 $617.81（NAV $617.90，总资产 $75.75B，26 只持仓）计，VanEck 基金 trailing 市盈率 37.21x（2026-08-31）换算到当前价格约 41.3x；按持仓加权汇总 Nasdaq 一致预期（估算），trailing 40.2x、NTM 22.4x、CY2026E/CY2027E/CY2028E 27.5x/19.4x/15.6x，一致预期隐含 CY2026-28 基金每份额盈利复合增长 32.9%。30% 牛市 / 40% 基准 / 30% 熊市（CY2028 基金 EPS $41.79 / $35.66 / $21.95，退出 trailing 市盈率 26x / 22x / 18x）得到每份额 $1,086.54 / $784.54 / $395.18，加权 $758.33，较 $617.81 +22.7%，2.248 年（2026-10-02 至 2028-12-31，821 天）年化 +9.5%，高于 8% 门槛 1.5 个百分点、低于 10% 0.5 个百分点；牛市 +75.9% 对熊市 −36.0%，偏斜均衡。反推：获得 8% 需要 CY2028 一致预期 $39.69 兑现并以 18.5x 退出，或 22x 下 EPS 比一致预期低不超过 15.9%。敏感性：退出倍数整体下调 3 倍降至 +2.9%、上调 3 倍升至 +15.8%，CY2028 盈利 −10% 降至 +4.5%，20/40/40 权重降至 +5.0%。确信度为低而非中，因为中性读数在两个方向的温和冲击下都会移出 8-10% 区间，远期一致预期覆盖稀疏，且 ASML EPS 币种与 SK hynix 仅一个已报告季度两处数据有瑕疵；不选 cautious 是因为中心假设下仍过 8%，不选 constructive 是因为并未明确高于门槛且 street 已为存储 2029 年转头建模。SMH 是链报的默认基准，这是对半导体篮子本身的绝对判断，不是相对判断；它不对 SMH 与任何单公司排序，也不改变其对照篮子职能。",
+      "en": "At the 2026-10-01 close of $617.81 (NAV $617.90, total net assets $75.75B, 26 holdings), VanEck's fund trailing P/E of 37.21x (2026-08-31) rescales to about 41.3x at today's price; a holdings-weighted aggregation of Nasdaq consensus (estimate) gives 40.2x trailing, 22.4x NTM and 27.5x / 19.4x / 15.6x CY2026E / CY2027E / CY2028E, with consensus implying a 32.9% CY2026-28 CAGR in fund earnings per unit. Weighting 30% bull / 40% base / 30% bear (CY2028 fund EPS of $41.79 / $35.66 / $21.95 at exit trailing P/Es of 26x / 22x / 18x) gives $1,086.54 / $784.54 / $395.18 per unit and a weighted $758.33, +22.7% against $617.81, or +9.5% annualized over 2.248 years (2026-10-02 to 2028-12-31, 821 days) - 1.5 points above the 8% hurdle and 0.5 points below 10%, with a balanced skew of +75.9% in the bull case against −36.0% in the bear case. Working backwards, 8% requires either the full $39.69 CY2028 consensus at an 18.5x exit or EPS no more than 15.9% below consensus at 22x. Sensitivity: three turns lower on every exit multiple give +2.9%, three turns higher +15.8%, a 10% cut to CY2028 earnings +4.5%, and a 20/40/40 weighting +5.0%. Conviction is low rather than medium because the neutral reading leaves the 8-10% band under modest shocks in either direction, out-year consensus is thin, and two inputs carry data caveats (ASML's EPS currency basis and SK hynix's single reported quarter); it is not cautious because the central case still clears 8%, and not constructive because it does not clear the hurdle decisively while the Street already models a 2029 memory turn. Because SMH is the default benchmark for the chain reports, this is an absolute call on the semiconductor basket, not a relative one: it does not rank SMH against any single name and does not change its control-sleeve role."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若持仓汇总 NTM 市盈率跌破 19x 且 CY2027 一致预期基金 EPS 不低于 $30.25（较 2026-10-01 的 $31.84 下降不超过 5%），或 CY2028 一致预期基金 EPS 升至 $43.66 以上（较 $39.69 +10%）且 NTM 市盈率不高于 24x，则上调至 constructive。",
+        "en": "Move to constructive if the holdings-based NTM P/E falls below 19x while CY2027 consensus fund EPS stays at or above $30.25 (no more than 5% below the 2026-10-01 $31.84), or if CY2028 consensus fund EPS rises above $43.66 (+10% versus $39.69) while the NTM P/E stays at or below 24x.",
+        "monitoringIds": [
+          "fund-forward-valuation",
+          "consensus-revisions"
+        ]
+      },
+      "downgrade": {
+        "zh": "若持仓汇总 NTM 市盈率升至 26x 以上；或 CY2027 一致预期基金 EPS 跌破 $28.66（较 $31.84 −10%）；或 Micron 或 SK hynix 的 CY2028 一致预期 EPS 较 2026-10-01 水平（日历年折算 $155.88 / $37.38）下调超过 15%；或美国或中国出台限制先进芯片、HBM 或制造设备的出口管制新规且被某一前十大持仓称为重大，则下调至 cautious。",
+        "en": "Move to cautious if any one of the following: the holdings-based NTM P/E rises above 26x; or CY2027 consensus fund EPS falls below $28.66 (−10% versus $31.84); or CY2028 consensus EPS for Micron or SK hynix is cut by more than 15% from the 2026-10-01 levels ($155.88 / $37.38, calendarized); or a new U.S. or Chinese export-control rule restricting advanced chips, HBM or fabrication tools is described as material by a top-10 holding.",
+        "monitoringIds": [
+          "fund-forward-valuation",
+          "consensus-revisions",
+          "foundry-memory-confirmation",
+          "export-control-sensitivity"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-10-02",
+        "stance": "neutral-watch",
+        "conviction": "low",
+        "price": 617.81,
+        "note": {
+          "zh": "立场补录：以 2026-10-01 收盘 $617.81 重锚。30/40/30 情景网格加权每份额 $758.33，2.248 年年化 +9.5%，落在 8-10% 门槛区间内；退出倍数 ±3 倍即在 +2.9% 与 +15.8% 之间摆动，故为 neutral-watch、确信度低。对基准的立场是绝对判断，不是相对判断。",
+          "en": "Stance backfill: re-anchored to the 2026-10-01 close of $617.81. The 30/40/30 scenario grid weights to $758.33 per unit, or +9.5% annualized over 2.248 years, inside the 8-10% hurdle band; shifting exit multiples by three turns swings it between +2.9% and +15.8%, hence neutral-watch with low conviction. A stance on the benchmark is an absolute call, not a relative one."
+        }
+      }
+    ],
+    "monitoring": [
+      {
+        "id": "top-holding-concentration",
+        "thesis": "bear",
+        "theme": "concentration",
+        "metric": {
+          "zh": "NVIDIA 与 TSMC 合计权重",
+          "en": "NVIDIA plus TSMC weight"
+        },
+        "trigger": {
+          "zh": "VanEck 日度持仓中 NVDA + TSM 合计权重高于 33%",
+          "en": "NVDA + TSM combined weight above 33% in VanEck daily holdings"
+        },
+        "latest": {
+          "zh": "2026-10-01 为 28.43%（NVDA 19.27%、TSM 9.16%），2026-08-31 至 2026-10-01 间的指数调整之后；2026-08-31 月报 32.36%（22.82% / 9.54%）；2026-07-01 为 27.59%",
+          "en": "28.43% on 2026-10-01 (NVDA 19.27%, TSM 9.16%) after the index change between 2026-08-31 and 2026-10-01; 32.36% in the 2026-08-31 factsheet (22.82% / 9.54%); 27.59% on 2026-07-01"
+        },
+        "nextCheck": "下一次指数调整（调整频率本次未核实） / Next index review (cadence not verified in this backfill)",
+        "nextCheckDate": "2026-12"
+      },
+      {
+        "id": "equipment-confirmation",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "设备公司指引与一致预期增速",
+          "en": "Semicap guidance and consensus growth"
+        },
+        "trigger": {
+          "zh": "ASML/AMAT/LRCX/KLAC 中两家及以上指引下季度收入低于上季度，或四家 CY2027 EPS 一致预期增速跌破 +15%",
+          "en": "Two or more of ASML/AMAT/LRCX/KLAC guide next-quarter revenue below the prior quarter, or consensus CY2027 EPS growth for the four falls below +15%"
+        },
+        "latest": {
+          "zh": "Nasdaq 一致预期（2026-10-01）：CY2027 EPS 增速 AMAT +31.2%、KLAC +32.9%、LRCX +34.0%、ASML +32.9%。AMAT FY2026 Q3 收入 $9,115M（同比 +25%），Q4 指引 $10,250M ± $500M（8-K，2026-08-13）",
+          "en": "Nasdaq consensus (2026-10-01): CY2027 EPS growth AMAT +31.2%, KLAC +32.9%, LRCX +34.0%, ASML +32.9%. AMAT Q3 FY2026 revenue was $9,115M (+25% y/y), with Q4 guided at $10,250M ± $500M (8-K, 2026-08-13)"
+        },
+        "nextCheck": "ASML 2026 年 Q3 业绩，2026 年 10 月中旬（估计） / ASML Q3 2026 results, mid-October 2026 (estimated)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "foundry-memory-confirmation",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "存储与代工一致预期",
+          "en": "Memory and foundry consensus"
+        },
+        "trigger": {
+          "zh": "Micron 或 SK hynix 的 CY2028 一致预期 EPS 较 2026-10-01 水平（日历年折算 $155.88 / $37.38）下调超过 15%",
+          "en": "CY2028 consensus EPS for Micron or SK hynix cut by more than 15% from the 2026-10-01 levels ($155.88 / $37.38, calendarized)"
+        },
+        "latest": {
+          "zh": "Micron 于 2026-09-30 公布 FY2026 Q4（8 月季度）EPS $33.19。一致预期：Micron FY Aug-2028 $164.16、FY Aug-2029 $139.33；SK hynix 每 ADS CY2028 $37.38、CY2029 $26.97；TSMC 每 ADR CY2026-28 为 $16.56 / $21.33 / $25.92。本次补录未抓取 TSMC 月度营收",
+          "en": "Micron reported FQ4 FY2026 (August quarter) EPS of $33.19 on 2026-09-30. Consensus is $164.16 for FY Aug-2028 and $139.33 for FY Aug-2029; SK hynix is $37.38 for CY2028 and $26.97 for CY2029 per ADS; TSMC is $16.56 / $21.33 / $25.92 per ADR for CY2026-28. TSMC monthly revenue was not fetched in this backfill"
+        },
+        "nextCheck": "TSMC 2026 年 Q3 业绩，2026 年 10 月（估计） / TSMC Q3 2026 results, October 2026 (estimated)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "etf-flows-aum",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "总资产对照 NAV",
+          "en": "Total net assets versus NAV"
+        },
+        "trigger": {
+          "zh": "任一日历季度内 AUM 增速比 NAV 增速高出 10 个百分点以上，或隐含份额减少超过 5%",
+          "en": "Over any calendar quarter, AUM growth exceeds NAV growth by more than 10 percentage points, or implied units outstanding fall by more than 5%"
+        },
+        "latest": {
+          "zh": "2026-07-02 至 2026-10-01，总资产增长 10.1% 至 $75.75B，NAV 增长 4.3% 至 $617.90，隐含份额约 +5.5%（估算）",
+          "en": "From 2026-07-02 to 2026-10-01, total net assets rose 10.1% to $75.75B against NAV +4.3% to $617.90, implying about +5.5% units (estimate)"
+        },
+        "nextCheck": "2026 年末发行人快照 / Year-end 2026 issuer snapshot",
+        "nextCheckDate": "2027-01"
+      },
+      {
+        "id": "export-control-sensitivity",
+        "thesis": "bear",
+        "theme": "regulatory",
+        "metric": {
+          "zh": "美国/中国芯片与设备限制",
+          "en": "U.S./China chip and tool restrictions"
+        },
+        "trigger": {
+          "zh": "美国或中国出台限制先进芯片、HBM 或制造设备的新规，且任一前十大持仓在公告或业绩发布中称其为重大",
+          "en": "A new U.S. or Chinese rule restricting advanced chips, HBM or fabrication tools that any top-10 holding describes as material in a filing or results release"
+        },
+        "latest": {
+          "zh": "本次补录（2026-10-02，非完整监管排查）未发现新规；AMAT FY2026 Q3 业绩稿（2026-08-13）显示中国是唯一同比下降的地区",
+          "en": "No new rule identified in this backfill (2026-10-02; not a full regulatory sweep). AMAT's Q3 FY2026 release (2026-08-13) listed China as the only region declining year over year"
+        },
+        "nextCheck": "持续；2026 年 10-11 月的 Q3 申报 / Continuous; Q3 2026 filings in October-November 2026",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "fund-forward-valuation",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "持仓汇总 NTM 市盈率",
+          "en": "Holdings-based NTM P/E"
+        },
+        "trigger": {
+          "zh": "NTM 市盈率高于 26x，或低于 19x 且 CY2027 一致预期基金 EPS 不低于 $30.25",
+          "en": "NTM P/E above 26x, or below 19x while CY2027 consensus fund EPS stays at or above $30.25"
+        },
+        "latest": {
+          "zh": "2026-10-01 以 $617.81 计 NTM 22.4x、trailing 40.2x（估算）；VanEck 基金 trailing 市盈率 2026-08-31 为 37.21x，换算约 41.3x",
+          "en": "22.4x NTM and 40.2x trailing at $617.81 on 2026-10-01 (estimate); VanEck fund trailing P/E 37.21x at 2026-08-31, about 41.3x rescaled"
+        },
+        "nextCheck": "每月；下一次在 Nvidia FY2027 Q3 业绩后，2026 年 11 月（估计） / Monthly; next after Nvidia's Q3 FY2027 results, November 2026 (estimated)",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "consensus-revisions",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "持仓加权一致预期基金 EPS",
+          "en": "Holdings-weighted consensus fund EPS"
+        },
+        "trigger": {
+          "zh": "CY2027 一致预期基金 EPS 低于 $28.66（较 $31.84 −10%），或 CY2028 高于 $43.66（较 $39.69 +10%）",
+          "en": "CY2027 consensus fund EPS below $28.66 (−10% versus $31.84), or CY2028 above $43.66 (+10% versus $39.69)"
+        },
+        "latest": {
+          "zh": "2026-10-01：CY2026 / CY2027 / CY2028 每份额基金 EPS $22.46 / $31.84 / $39.69（Nasdaq 一致预期汇总，估算）",
+          "en": "2026-10-01: CY2026 / CY2027 / CY2028 fund EPS of $22.46 / $31.84 / $39.69 per unit (Nasdaq consensus aggregation, estimate)"
+        },
+        "nextCheck": "2026 年 Q3 财报季后，2026 年 11 月 / After the Q3 2026 reporting season, November 2026",
+        "nextCheckDate": "2026-11"
+      }
     ]
   },
   {
