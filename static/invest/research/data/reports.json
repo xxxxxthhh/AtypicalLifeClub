@@ -5,8 +5,8 @@
     "ticker": "NYSE: RDDT",
     "title": "Reddit 深度研究报告 - 变现驱动增长与搜索流量依赖的压力测试",
     "titleEn": "Reddit Deep Research Report - Monetization-Driven Growth and the Search-Referral Dependency Stress Test",
-    "summary": "首次覆盖。Q2 2026 收入 $804.91M（同比 +61%）、净利 $252.85M、摊薄 EPS $1.25、调整后 EBITDA $343M（43% 利润率），全面超预期且 Q3 指引 $860-870M 同样高于预期，但财报后单日跌 21%（上市以来最大跌幅）。核心发现：增长引擎已从用户切换为变现——美国 DAU 环比 53.5M→53.2M 横盘略降，同期美国 ARPU 同比 +51%，本季美国收入增长几乎全部来自单用户变现。Google 数据授权协议（约 $60M/年）2027 上半年到期，同时绑定授权收入与搜索分发。以 2026-07-31 收盘 $140.67、市值约 $27.06B、EV 约 $24.30B 计，TTM P/E 32.8x、EV/Sales 8.7x、FY2026E 调整后 EV/EBITDA 约 16.8x。情景权重 30/50/20，立场为中性偏积极、低确信。",
-    "summaryEn": "Initial coverage. Q2 2026 revenue of $804.91M (+61% YoY), net income $252.85M, diluted EPS $1.25, and adjusted EBITDA of $343M (43% margin) all beat, and Q3 guidance of $860-870M also came in above consensus, yet the stock fell 21% on the print — its largest single-day decline since IPO. Core finding: the growth engine has switched from users to monetization — U.S. DAU went 53.5M to 53.2M sequentially (flat to slightly down) while U.S. ARPU rose 51% YoY, so essentially all U.S. revenue growth in the quarter came from per-user monetization. The Google data-licensing agreement (roughly $60M/year) expires in H1 2027 and bundles licensing revenue with search distribution. At the 2026-07-31 close of $140.67, market cap is about $27.06B and EV about $24.30B, for a 32.8x TTM P/E, 8.7x EV/Sales, and roughly 16.8x FY2026E EV/adjusted-EBITDA. Scenario weights of 30/50/20 support a neutral-to-constructive stance at low conviction.",
+    "summary": "首次覆盖（2026-10-02 立场补录）。Q2 2026 收入 $804.91M（同比 +61%）、净利 $252.85M、摊薄 EPS $1.25、调整后 EBITDA $343M（43% 利润率），全面超预期，Q3 指引 $860-870M 同样高于预期，但财报后单日跌 21%（上市以来最大跌幅）。核心发现：增长引擎已从用户切换为变现——美国 DAU 环比 53.5M→53.2M 横盘略降，同期美国 ARPU 同比 +51%。Google 数据授权协议（约 $60M/年，属媒体报道）2027 上半年到期，同时绑定授权收入与搜索分发，截至 2026-10-02 无续约披露。以 2026-10-01 收盘 $149.53、市值约 $28.77B、EV 约 $26.00B 计，TTM P/E 34.9x、EV/Sales 9.4x、FY2026E 调整后 EV/EBITDA 约 17.7x。30/50/20 情景网格加权每股 $200.44、年化 +13.9%（门槛 8%），但退出倍数各降 3 倍即降至 +4.5%：立场偏积极，低确信。",
+    "summaryEn": "Initial coverage, with a stance backfill on 2026-10-02. Q2 2026 revenue of $804.91M (+61% YoY), net income of $252.85M, diluted EPS of $1.25 and adjusted EBITDA of $343M (43% margin) all beat, and Q3 guidance of $860-870M was also above expectations. Yet the stock fell 21% on the print, its largest single-day decline since IPO. Core finding: the growth engine has switched from users to monetization. U.S. DAU went from 53.5M to 53.2M sequentially, flat to slightly down, while U.S. ARPU rose 51% YoY. The Google data-licensing agreement (roughly $60M a year, per media reports) expires in H1 2027 and bundles licensing revenue with search distribution; there was no renewal disclosure as of 2026-10-02. At the 2026-10-01 close of $149.53, market cap is about $28.77B and EV about $26.00B, for 34.9x TTM P/E, 9.4x EV/Sales and about 17.7x FY2026E EV/adjusted EBITDA. The 30/50/20 scenario grid weights to $200.44 per share, or +13.9% annualized against an 8% hurdle, but three turns lower on every exit multiple takes it to +4.5%. Stance: constructive, low conviction.",
     "tags": [
       "社交平台",
       "数字广告",
@@ -15,7 +15,7 @@
     ],
     "category": "tech",
     "date": "2026-08-01",
-    "lastUpdate": "2026-08-01",
+    "lastUpdate": "2026-10-02",
     "period": "2026H1",
     "versionType": "initial",
     "versionLabel": "2026 Initial Coverage",
@@ -30,13 +30,188 @@
     "highlights": [
       "Q2 2026：收入 $804.91M（+61%）、广告 $762M（+64%）、其他收入 $43M（+24%）；净利 $252.85M、EPS $1.25、调整后 EBITDA $343M（43%）",
       "增长换轨：美国 DAU 环比 53.5M→53.2M，同期美国 ARPU $9.63→$11.85（同比 +51%）；按 DAUq×ARPU 还原的收入与公司报告值误差 <0.05%",
-      "市场数据（2026-07-31 收盘）：股价 $140.67（前收 $178.04，单日 -21.0%）、市值约 $27.06B、EV 约 $24.30B、净现金 $2.77B、52 周 $119.27-$282.95",
-      "估值：TTM P/E 32.8x、P/S 9.7x、EV/Sales 8.7x、EV/EBITDA 30.3x（GAAP 口径）；FY2026E 调整后 EV/EBITDA 约 16.8x；净利含利息收入与低税率加成，跨公司比较需校正",
-      "关键风险：Google 授权协议约 $60M/年、2027 上半年到期；公司自 Q3 2026 起停止披露登录/未登录用户拆分",
-      "资本配置：$10 亿回购授权，Q2 执行约 150 万股/约 $235M；均价 $157.57 较 2026-07-31 报告锚点 $140.67 高约 12%，剩余约 $760M"
+      "市场数据（2026-10-01 收盘）：股价 $149.53（较首次覆盖锚点 +6.3%，期间于 2026-08-18 纳入标普 500）、市值约 $28.77B、EV 约 $26.00B、净现金 $2.77B、52 周 $119.27-$263.50",
+      "估值与立场：TTM P/E 34.9x、P/S 10.4x、EV/Sales 9.4x、EV/EBITDA 32.4x（GAAP 口径），FY2026E 调整后 EV/EBITDA 约 17.7x；30/50/20 网格加权每股 $200.44、年化 +13.9%，退出倍数各降 3 倍即降至 +4.5%——偏积极、低确信",
+      "关键风险：Google 授权协议约 $60M/年、2027 上半年到期，截至 2026-10-02 无续约披露；公司自 Q3 2026 起停止披露登录/未登录用户拆分",
+      "资本配置：$10 亿回购授权，Q2 回购 1,488,812 股、$234.6M（均价约 $157.57），截至 2026-06-30 剩余 $760.4M；Q2 净股数由 192.41M 降至 192.32M"
     ],
     "priceSymbol": "RDDT",
-    "priceAsOf": "2026-07-31"
+    "priceAsOf": "2026-10-01",
+    "stance": "constructive",
+    "conviction": "low",
+    "stanceRationale": {
+      "zh": "锚点：2026-10-01 收盘 $149.53，市值约 $28.77B（192.40M 股），扣除 $2.77B 净现金后 EV 约 $26.00B；TTM GAAP P/E 34.9x、TTM EV/Sales 9.4x、EV/FY2026E 调整后 EBITDA 17.7x（FY2026E 收入 $3,350M、调整后 EBITDA $1,467M）。30/50/20 网格按 FY2028 调整后 EBITDA 退出：牛市 18x × $2,828M（收入 +34%/+26%）得 $286.56；基准 14x × $2,322M（+25%/+18%，FY2027 低于 +31.8% 的一致预期）得 $191.88；熊市 9x × $1,518M（+10%/+3%，Google 不续签并传导至美国 DAU）得 $92.67；加权每股 $200.44，2.248 年年化 +13.9%，高于 8%-10% 门槛。敏感性：退出倍数各降 3 倍为 +4.5%，增速放缓为 +9.1%，两者叠加为 +0.2%，20/40/40 权重为 +6.2%；反向测试显示，以 14x 退出要获得 8% 回报需 2026-28 年收入年复合增长约 16.6%，基准为 21.4%。确信度为低而非中，因为正偏斜依赖退出倍数不再下修，而决定性变量——Google 搜索引流——公司自称可见度低，且自 Q3 起停止披露登录／未登录拆分；不是中性观察，因为中心情景超出门槛约 6 个百分点、基准设在一致预期之下、每股有 $14.37 净现金。这是财报后下跌 21% 之后的估值偏斜判断；首次覆盖以来 +6.3% 的涨幅主要来自纳入标普 500 的资金流，本判断并不认为搜索流量风险已经缓解。",
+      "en": "Anchor: the 2026-10-01 close of $149.53 gives a market cap of about $28.77B (192.40M shares) and an EV of about $26.00B after $2.77B of net cash. That is 34.9x TTM GAAP P/E, 9.4x TTM EV/Sales and 17.7x EV/FY2026E adjusted EBITDA, on FY2026E revenue of $3,350M and adjusted EBITDA of $1,467M. The 30/50/20 grid exits on FY2028 adjusted EBITDA. The bull case, 18x on $2,828M (revenue +34%/+26%), gives $286.56. The base case, 14x on $2,322M (+25%/+18%, with FY2027 below the +31.8% consensus), gives $191.88. The bear case, 9x on $1,518M (+10%/+3%, with Google non-renewal carrying through to U.S. DAU), gives $92.67. The weighted value is $200.44, or +13.9% annualized over 2.248 years against an 8%-10% hurdle. On sensitivity, three turns lower on every exit multiple gives +4.5%, slower growth +9.1%, both together +0.2%, and a 20/40/40 weighting +6.2%. The reverse test needs about 16.6% a year of 2026-28 revenue growth at a 14x exit to earn 8%, against a 21.4% base case. Conviction is low rather than medium because the skew depends on the exit multiple holding, and the decisive variable, Google search referrals, has low visibility by the company's own account while it stops disclosing the logged-in / logged-out split. The stance is not neutral-watch because the central case clears the hurdle by about 6 points, the base case is set below consensus, and net cash is $14.37 per share. This is a valuation-skew call made after the 21% post-print drop. The +6.3% move since initiation mostly reflects S&P 500 inclusion flows, and the call is not a view that search-traffic risk has eased."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "升级至偏多（bullish）——须同时满足：Q3、Q4 2026 美国 DAUq 均实现环比正增长；Google 协议以持平或更优条款续签，或新增一份规模可比的 AI 授权协议；Q3 2026 收入达到或高于 $870M 指引上沿。",
+        "en": "Upgrade to bullish — all of the following: U.S. DAUq grows sequentially in both Q3 and Q4 2026; the Google agreement renews on flat or better terms, or a new AI licensing agreement of comparable scale is signed; Q3 2026 revenue is at or above the $870M top of guidance.",
+        "monitoringIds": [
+          "us-dau-direction",
+          "google-data-licensing",
+          "ad-revenue-growth"
+        ]
+      },
+      "downgrade": {
+        "zh": "降级至中性观察（neutral-watch）——满足任一即触发：美国 DAUq 连续两个季度环比下滑；美国 ARPU 同比增速跌破 +25%；Q3 2026 收入低于 $860M 指引下沿，或 Q4 2026 收入指引中值隐含同比增速低于 +35%（即低于约 $979.6M）；Google 协议确认不续签且公司同期披露搜索引流大幅下滑；调整后 EBITDA 利润率连续两个季度同比收缩。",
+        "en": "Downgrade to neutral-watch — any one of the following: U.S. DAUq declines sequentially in two consecutive quarters; U.S. ARPU year-over-year growth falls below +25%; Q3 2026 revenue below the $860M low end of guidance, or a Q4 2026 revenue guidance midpoint implying less than +35% YoY (below about $979.6M); the Google agreement is confirmed not to renew and the company simultaneously discloses a sharp decline in search referrals; adjusted EBITDA margin contracts year over year in two consecutive quarters.",
+        "monitoringIds": [
+          "us-dau-direction",
+          "us-arpu-growth",
+          "ad-revenue-growth",
+          "google-data-licensing",
+          "adj-ebitda-margin"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-10-02",
+        "stance": "constructive",
+        "conviction": "low",
+        "price": 149.53,
+        "note": {
+          "zh": "立场补录 / Stance backfill：按 2026-10-01 收盘 $149.53 重新锚定。首次覆盖时的非正式表述为“中性偏积极、低确信”，现正式化为偏积极、低确信：30/50/20 网格加权每股 $200.44、年化 +13.9%，但退出倍数各降 3 倍即降至 +4.5%。",
+          "en": "立场补录 / Stance backfill: re-anchored to the 2026-10-01 close of $149.53. The initiation's informal \"neutral-to-constructive, low conviction\" view is formalized as constructive, low conviction. The 30/50/20 grid weights to $200.44 per share, or +13.9% annualized, but three turns lower on every exit multiple takes it to +4.5%."
+        }
+      }
+    ],
+    "monitoring": [
+      {
+        "id": "us-dau-direction",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "美国 DAUq 的环比方向",
+          "en": "Sequential direction of U.S. DAUq"
+        },
+        "trigger": {
+          "zh": "美国 DAUq 连续两个季度环比下滑",
+          "en": "U.S. DAUq declines sequentially in two consecutive quarters"
+        },
+        "latest": {
+          "zh": "Q2 2026 美国 DAUq 53.2M，Q1 2026 为 53.5M（环比 -0.6%，落在四舍五入与季节性噪音区间内），同比 +6%（Q1 为 +7%）。自 Q3 2026 起公司不再披露登录／未登录拆分。",
+          "en": "Q2 2026 U.S. DAUq was 53.2M against 53.5M in Q1 2026, -0.6% QoQ, which is inside rounding and seasonal noise. It was +6% YoY, down from +7% in Q1. From Q3 2026 the company no longer discloses the logged-in / logged-out split."
+        },
+        "nextCheck": "Q3 2026 财报（预计 2026-10 底，日期截至 2026-10-02 未公布） / Q3 2026 results (expected late October 2026; date not announced as of 2026-10-02)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "us-arpu-growth",
+        "thesis": "either",
+        "theme": "pricing",
+        "metric": {
+          "zh": "美国季度 ARPU 同比增速",
+          "en": "U.S. quarterly ARPU year-over-year growth"
+        },
+        "trigger": {
+          "zh": "美国 ARPU 同比增速跌破 +25%",
+          "en": "U.S. ARPU year-over-year growth falls below +25%"
+        },
+        "latest": {
+          "zh": "Q2 2026 美国 ARPU $11.85，同比 +51%（Q1 2026 为 $9.63）；按账单地址口径的 Q2 美国收入 $638.1M，同比 +56%（Q2 2026 10-Q）。",
+          "en": "Q2 2026 U.S. ARPU was $11.85, +51% YoY (Q1 2026: $9.63). Q2 U.S. revenue by billing address was $638.1M, +56% YoY (Q2 2026 10-Q)."
+        },
+        "nextCheck": "Q3 2026 财报（预计 2026-10 底，日期截至 2026-10-02 未公布） / Q3 2026 results (expected late October 2026; date not announced as of 2026-10-02)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "ad-revenue-growth",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "收入与广告收入增速对照指引",
+          "en": "Revenue and advertising revenue growth against guidance"
+        },
+        "trigger": {
+          "zh": "Q3 2026 收入低于 $860M 指引下沿，或 Q4 2026 收入指引中值隐含同比增速低于 +35%（相对 Q4 2025 的 $725.61M，即低于约 $979.6M）",
+          "en": "Q3 2026 revenue below the $860M low end of guidance, or a Q4 2026 revenue guidance midpoint implying less than +35% YoY (below about $979.6M against Q4 2025's $725.61M)"
+        },
+        "latest": {
+          "zh": "Q2 2026 收入 $804.9M（同比 +61%），广告收入 $761.6M（+64%）；Q3 指引 $860-870M（+47%~49%）。本报告 FY2026E 假设 Q4 收入约 $1,017M（同比 +40.1%）；S&P Global 一致预期 FY2026 收入 $3.39B，隐含 Q4 约 $1,057M。",
+          "en": "Q2 2026 revenue was $804.9M (+61% YoY) and advertising revenue was $761.6M (+64%). Q3 guidance is $860-870M (+47% to +49%). This report's FY2026E assumes Q4 revenue of about $1,017M (+40.1% YoY). The S&P Global consensus of $3.39B for FY2026 implies a Q4 of about $1,057M."
+        },
+        "nextCheck": "Q3 2026 财报（预计 2026-10 底，日期截至 2026-10-02 未公布） / Q3 2026 results (expected late October 2026; date not announced as of 2026-10-02)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "active-advertiser-growth",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "活跃广告主数量增速（管理层披露）",
+          "en": "Active advertiser growth (management disclosure)"
+        },
+        "trigger": {
+          "zh": "活跃广告主同比增速跌破 +30%，或管理层不再披露该指标",
+          "en": "Active advertiser YoY growth falls below +30%, or management stops disclosing it"
+        },
+        "latest": {
+          "zh": "Q2 2026 同比 +70%（2026-07-30 业绩电话会）；Reddit Max 收入环比 +150%（电话会）。该指标并非 10-Q 列示项目。",
+          "en": "Active advertisers grew +70% YoY in Q2 2026 (earnings call, 2026-07-30), and Reddit Max revenue grew +150% QoQ (call). This metric is not a 10-Q line item."
+        },
+        "nextCheck": "Q3 2026 业绩电话会 / Q3 2026 earnings call",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "google-data-licensing",
+        "thesis": "either",
+        "theme": "concentration",
+        "metric": {
+          "zh": "Google 数据授权续约与其他收入（数据授权）",
+          "en": "Google data-licensing renewal and other (data-licensing) revenue"
+        },
+        "trigger": {
+          "zh": "偏空：Google 协议确认不续签且公司同期披露搜索引流大幅下滑。偏多：Google 协议以持平或更优条款续签，或新增一份规模可比的 AI 授权协议",
+          "en": "Bear: the Google agreement is confirmed not to renew and the company simultaneously discloses a sharp decline in search referrals. Bull: the Google agreement renews on flat or better terms, or a new AI licensing agreement of comparable scale is signed"
+        },
+        "latest": {
+          "zh": "Q2 2026 其他收入 $43.3M（同比 +24%）。该协议（约 $60M/年、2024 年 2 月签署、2027 上半年到期）仅见于媒体报道；最新为 WSJ 2026-07-22 关于 Reddit 考虑切断 Google AI 访问的报道，截至 2026-10-02 无公司披露。媒体 2026-09-22 报道加州法官认定 Anthropic 受 Reddit 用户协议约束，程序性质未经核实。",
+          "en": "Q2 2026 other revenue was $43.3M (+24% YoY). The Google agreement is known only from media reports: roughly $60M a year, signed February 2024 and expiring H1 2027. The latest report is the WSJ's of 2026-07-22 that Reddit was weighing cutting Google's AI access. There was no company disclosure by 2026-10-02. Separately, media reported on 2026-09-22 that a California judge found Anthropic bound by Reddit's user agreement; the procedural posture is unverified."
+        },
+        "nextCheck": "Q3 2026 业绩电话会与任何续约公告 / Q3 2026 call and any renewal announcement",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "adj-ebitda-margin",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "调整后 EBITDA 利润率（同比）",
+          "en": "Adjusted EBITDA margin, year over year"
+        },
+        "trigger": {
+          "zh": "调整后 EBITDA 利润率连续两个季度同比收缩",
+          "en": "Adjusted EBITDA margin contracts year over year in two consecutive quarters"
+        },
+        "latest": {
+          "zh": "Q2 2026 调整后 EBITDA $342.8M，利润率 42.6%（Q2 2025 为 $166.7M、33.4%）；Q3 指引 $385-395M（同比 +63%~67%），收入指引 +47%~49%，隐含利润率继续同比扩张。",
+          "en": "Q2 2026 adjusted EBITDA was $342.8M, a 42.6% margin, against $166.7M (33.4%) in Q2 2025. Q3 guidance is $385-395M (+63% to +67% YoY) on revenue guided +47% to +49%, which implies further year-over-year margin expansion."
+        },
+        "nextCheck": "Q3 2026 财报（预计 2026-10 底，日期截至 2026-10-02 未公布） / Q3 2026 results (expected late October 2026; date not announced as of 2026-10-02)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "buyback-execution",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "回购执行与净股数（A+B 类）",
+          "en": "Buyback execution and net share count (Class A + B)"
+        },
+        "trigger": {
+          "zh": "Q3、Q4 2026 两个季度净股数均上升（回购未能抵消发行）",
+          "en": "Net share count rises in both Q3 and Q4 2026, meaning repurchases fail to offset issuance"
+        },
+        "latest": {
+          "zh": "Q2 2026 回购 1,488,812 股、$234.6M（H1 合计 1,523,502 股、$239.6M），同期发行约 1.40M 股，净股数由 192.41M（2026-03-31）降至 192.32M（2026-06-30）；2026-07-29 为 192.40M。截至 2026-06-30 剩余授权 $760.4M（Q2 2026 10-Q）。",
+          "en": "In Q2 2026 the company repurchased 1,488,812 shares for $234.6M (H1: 1,523,502 shares for $239.6M) against about 1.40M shares issued. The net count fell from 192.41M at 2026-03-31 to 192.32M at 2026-06-30, and was 192.40M at 2026-07-29. $760.4M of authorization remained at 2026-06-30 (Q2 2026 10-Q)."
+        },
+        "nextCheck": "Q3 2026 10-Q / Q3 2026 10-Q",
+        "nextCheckDate": "2026-10"
+      }
+    ]
   },
   {
     "id": "smh-2026",
