@@ -5148,7 +5148,7 @@
     "ticker": "NASDAQ: NFLX",
     "title": "Netflix 深度研究报告 - 估值压缩与有机增长再验证",
     "titleEn": "Netflix Deep Research Report - Valuation Compression and Organic Growth Test",
-    "summary": "2026-07-17更新（Q2 2026财报）：Q2营收$12.56B（+13.4%）、运营利润率33.4%、净利$3.4B、EPS $0.80；FY2026营收指引收窄至$51.0–51.4B，Q3指引$12.86B（+11.7%）低于约$13B预期，财报后股价单日-7.3%。市场数据：股价$68.95、市值约$290.3B、TTM P/E约23.4x、Forward P/E约18.1x、P/S约6.0x。公司进一步缩减观看量披露；投资论点仍在广告变现、内容ROI、直播/体育执行与资本配置。",
+    "summary": "2026-10-02 立场补录：constructive（建设性）/ 低确信度。2026-10-01 收盘 $67.85、市值约 $282.5B，TTM GAAP 市盈率 21.3x（含 Q1'26 $2.8B WBD 终止费，剔除后约 25.3x，估算）、FY2027 一致预期 17.8x。30/40/30 情景网格加权每股 $91.27，2.248 年年化 +14.1%（门槛 8%），但退出倍数整体下调 3 倍即降至 +6.4%。Q2 2026：营收 $12.56B（+13.4%）、营业利润率 33.4%、EPS $0.80；FY2026 营收指引 $51.0–51.4B、营业利润率 31.5%，Q3 指引 $12.86B（+11.7%）。9 月股价 −14.2%，参与度争议压低倍数；Paramount Skydance 对 WBD 的收购预计 2026-10-06 交割；Q3 财报 2026-10-20。",
     "tags": [
       "流媒体",
       "内容平台",
@@ -5157,7 +5157,7 @@
     ],
     "category": "tech",
     "date": "2026-02-10",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-10-02",
     "period": "2026H1",
     "versionType": "incremental",
     "versionLabel": "2026H1 Incremental Update",
@@ -5168,15 +5168,172 @@
       "en": "/invest/research/Netflix_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "2026-07-16 Q2财报：营收$12.56B（+13.4%）、运营利润率33.4%、净利$3.4B、EPS $0.80",
-      "FY2026营收指引收窄至$51.0–51.4B（运营利润率31.5%）；Q3指引$12.86B（+11.7%）低于约$13B预期",
-      "市场数据（2026-07-17）：股价$68.95、市值约$290.3B、TTM P/E约23.4x、Forward P/E约18.1x、P/S约6.0x",
-      "TTM营收升至约$48.37B；现金$9.13B、债务$14.31B（净债务约$5.18B）",
-      "公司进一步缩减观看量披露，H1 2026会员观看时长970亿+小时（+2%）；增速逐季放缓成为新压力点"
+      "立场补录（2026-10-02）：constructive / 低确信度；30/40/30 加权每股 $91.27，年化 +14.1%（门槛 8%），倍数整体 −3 倍降至 +6.4%",
+      "市场数据（2026-10-01 收盘）：股价 $67.85、市值约 $282.5B、TTM GAAP P/E 21.3x（剔除终止费约 25.3x，估算）、FY2027 一致预期 P/E 17.8x、P/S 5.84x",
+      "2026-07-16 Q2 财报：营收 $12.56B（+13.4%）、营业利润率 33.4%、EPS $0.80；FY2026 指引 $51.0–51.4B、营业利润率 31.5%；Q3 指引 $12.86B（+11.7%）",
+      "WBD 协议于 2026-02-27 终止，Netflix 获 $2.8B 终止费（计入 Q1'26）；Paramount Skydance–WBD 预计 2026-10-06 交割",
+      "现金 $9.13B、债务 $14.31B（净债务约 $5.18B）；Q2 回购 $4.7B、剩余授权 $27.1B；观看时长披露自 2027 年起改为每年一次；Q3 财报 2026-10-20"
     ],
-    "summaryEn": "2026-07-17 update (Q2 2026): revenue $12.56B (+13.4%), operating margin 33.4%, net income $3.4B, EPS $0.80; FY2026 revenue guidance narrowed to $51.0–51.4B, Q3 guide $12.86B (+11.7%) below the ~$13B consensus, stock -7.3% on the print. Market data: price $68.95, market cap ~$290.3B, TTM P/E ~23.4x, Forward P/E ~18.1x, P/S ~6.0x. Viewership disclosure further reduced; thesis still rests on ad monetization, content ROI, live/sports execution, and capital allocation.",
+    "summaryEn": "2026-10-02 stance backfill: constructive / low conviction. At the 2026-10-01 close of $67.85 the market cap is about $282.5B, 21.3x TTM GAAP earnings (including the $2.8B WBD termination fee in Q1'26; about 25.3x excluding it, estimate) and 17.8x FY2027 consensus. The 30/40/30 scenario grid weights to $91.27 per share, +14.1% annualized over 2.248 years (8% hurdle), but cutting every exit multiple by three turns drops it to +6.4%. Q2 2026: revenue $12.56B (+13.4%), operating margin 33.4%, EPS $0.80; FY2026 guidance $51.0–51.4B revenue at a 31.5% operating margin, Q3 guide $12.86B (+11.7%). The stock fell 14.2% in September as the engagement debate compressed the multiple; Paramount Skydance expects to close its WBD acquisition on 2026-10-06; Q3 results are due 2026-10-20.",
     "priceSymbol": "NFLX",
-    "priceAsOf": "2026-07-17"
+    "priceAsOf": "2026-10-01",
+    "stance": "constructive",
+    "conviction": "low",
+    "stanceRationale": {
+      "zh": "以 2026-10-01 收盘 $67.85、4,163.94M 股（10-Q 封面，2026-06-30）计市值 $282.5B、企业价值 $287.7B（净债务 $5.18B），对应 TTM GAAP 市盈率 21.3x（EPS $3.18，含 Q1'26 $2.8B WBD 终止费）、剔除终止费约 25.3x（估算）、FY2027 一致预期 17.8x、P/S 5.84x、EV/TTM 营业利润 20.0x。决定立场的是加权预期回报：30% 牛市 / 40% 基准 / 30% 熊市（FY2028 营收 $64.80B / $61.67B / $56.99B，营业利润率 37.0% / 34.5% / 30.0%，FY2028 EPS $5.07 / $4.54 / $3.66，退出 P/E 26x / 20x / 14x，退出股数 3,935M / 3,888M / 3,852M，全部 FCF 用于回购、净债务维持约 $5.2B）对应每股价值 $131.84 / $90.84 / $51.26，加权 $91.27，较 $67.85 为 +34.5%，2.248 年（2026-10-02 至 2028-12-31，821 天）年化 +14.1%，高于 8% 门槛 6.1 个百分点；基准 EPS 基本等于一致预期（FY2028 $4.57）。反推在 20x 退出（约 17.4x forward，即维持今天的远期倍数）下，获得 8% 只需 2026–2028 年约 4% 的营收复合增速（利润率停在 31.5% 时约 9%），17x 退出时需约 12%，本报告基准为 9.75%。敏感性：增速下调 3 个百分点为 +11.1%、利润率封顶 31.5% 为 +8.5%、20/40/40 权重为 +9.5%，均过门槛；但退出倍数整体下调 3 倍降至 +6.4%，与增速下调叠加为 +3.6%。确信度为低而非中，因为唯一跌破门槛的单因子冲击恰是当前最现实的风险：9 月 −14.2% 几乎全部来自倍数，公司把观看时长披露改为每年一次，两家券商下调评级（第三方报道），Q3 财报在 2026-10-20，且终止费让 EPS 口径失真。这是在较 52 周高点下跌 45.7% 之后的估值与偏斜判断，不是对增速放缓、参与度争议与内部人卖出的否认。",
+      "en": "At the 2026-10-01 close of $67.85 on 4,163.94M shares (10-Q cover, 2026-06-30), market capitalization is $282.5B and enterprise value $287.7B (net debt $5.18B), or 21.3x TTM GAAP earnings (EPS $3.18, including the $2.8B WBD termination fee in Q1'26), about 25.3x excluding the fee (estimate), 17.8x FY2027 consensus, 5.84x TTM sales and 20.0x EV/TTM operating income. What settles the stance is the probability-weighted expected return: weighting 30% bull / 40% base / 30% bear (FY2028 revenue of $64.80B / $61.67B / $56.99B, operating margins of 37.0% / 34.5% / 30.0%, FY2028 EPS of $5.07 / $4.54 / $3.66, exit P/E of 26x / 20x / 14x, exit share counts of 3,935M / 3,888M / 3,852M, all FCF to buybacks with net debt held at about $5.2B) gives values of $131.84 / $90.84 / $51.26 per share and a weighted $91.27, +34.5% against $67.85, or +14.1% annualized over 2.248 years (2026-10-02 to 2028-12-31, 821 days) - 6.1 points above the 8% hurdle; base-case EPS is essentially consensus (FY2028 $4.57). Working backwards, at a 20x exit (about 17.4x forward, i.e. today's forward multiple held), earning 8% needs only about 4% revenue CAGR over 2026-2028 (about 9% if margins stay at 31.5%), and about 12% at a 17x exit, against a 9.75% base case. Sensitivity: growth 3 points lower gives +11.1%, margins capped at 31.5% give +8.5% and 20/40/40 weights give +9.5%, all above the hurdle; but cutting every exit multiple by three turns gives +6.4%, and +3.6% combined with slower growth. Conviction is low rather than medium because the one single-factor shock that breaks the hurdle is the most live risk: September's −14.2% came almost entirely from the multiple, view-hour disclosure moves to once a year, two brokers downgraded the stock (third-party reports), Q3 results land on 2026-10-20, and the termination fee distorts the EPS base. This is a valuation-and-skew judgment after a 45.7% fall from the 52-week high, not a denial of the deceleration, the engagement debate or insider selling."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若 Q3 2026 营收不低于 $12.86B 指引且 FY2026 营收区间维持或上调，2027 年 1 月给出的 FY2027 指引隐含营收增速不低于 11%、营业利润率不低于 33.5%，并且 FY2026 广告收入确认达到或超过约 $3B，则上调至 bullish。",
+        "en": "Move to bullish if Q3 2026 revenue is at or above the $12.86B guide with the FY2026 revenue range held or raised, FY2027 guidance in January 2027 implies revenue growth of at least 11% and an operating margin of at least 33.5%, and FY2026 ads revenue is confirmed at or above ~$3B.",
+        "monitoringIds": [
+          "revenue-growth-vs-guide",
+          "operating-margin-path",
+          "ads-revenue-target"
+        ]
+      },
+      "downgrade": {
+        "zh": "若 Q3 2026 营收低于 $12.73B（较指引低 1% 以上）或 FY2026 营收区间下调至 $51.0B 以下；或 FY2026 营业利润率低于 31.5% 指引、或 FY2027 营业利润率指引低于 33%；或约 $3B 的 FY2026 广告收入目标被撤回或下调；或公司披露的总观看时长同比下降、或管理层在财报电话会上表示参与度下降；或连续两个季度回购均低于 $2.0B、或宣布超过 $10B 的举债收购；或 Netflix 披露授权内容出现重大流失、或把 Paramount–WBD 列为增长放缓的原因，则下调至 neutral-watch。",
+        "en": "Move to neutral-watch if Q3 2026 revenue falls below $12.73B (more than 1% under guidance) or the FY2026 revenue range is cut below $51.0B; or FY2026 operating margin comes in below the 31.5% guide, or the FY2027 operating-margin guide is below 33%; or the ~$3B FY2026 ads revenue target is withdrawn or cut; or company-disclosed total view hours fall year over year, or management states on an earnings call that engagement declined; or repurchases are below $2.0B in each of two consecutive quarters, or a debt-funded acquisition above $10B is announced; or Netflix discloses a material loss of licensed content, or cites Paramount–WBD as a cause of slower growth.",
+        "monitoringIds": [
+          "revenue-growth-vs-guide",
+          "operating-margin-path",
+          "ads-revenue-target",
+          "engagement-view-hours",
+          "capital-return-share-count",
+          "paramount-wbd-competition"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-10-02",
+        "stance": "constructive",
+        "conviction": "low",
+        "price": 67.85,
+        "note": {
+          "zh": "立场补录 / Stance backfill：在 2026-10-01 收盘 $67.85 重新推导。30/40/30 情景网格加权每股价值 $91.27，2.248 年年化 +14.1%，高于 8% 门槛 6.1 个百分点；但退出倍数整体下调 3 倍即降至 +6.4%，正偏斜对倍数敏感，故确信度为低。取代正文旧的“中性偏多 / 中等”表述。",
+          "en": "Stance backfill: re-derived at the 2026-10-01 close of $67.85. The 30/40/30 scenario grid weights to $91.27 per share, +14.1% annualized over 2.248 years, 6.1 points above the 8% hurdle; but cutting every exit multiple by three turns drops it to +6.4%, so the positive skew is multiple-sensitive and conviction is low. Replaces the body's old \"neutral-to-bullish / medium\" wording."
+        }
+      }
+    ],
+    "monitoring": [
+      {
+        "id": "revenue-growth-vs-guide",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "营收对照指引",
+          "en": "Revenue versus guidance"
+        },
+        "trigger": {
+          "zh": "Q3 2026 营收低于 $12.73B（较 $12.86B 指引低 1% 以上），或 FY2026 营收区间下调至 $51.0B 以下",
+          "en": "Q3 2026 revenue below $12.73B (more than 1% under the $12.86B guide), or the FY2026 revenue range cut below $51.0B"
+        },
+        "latest": {
+          "zh": "Q2'26 营收 $12.56B（+13.4%），与指引一致；Q3 指引 $12.86B（+11.7%）；FY2026 收窄至 $51.0–51.4B（+13%–14%）（Q2 股东信，2026-07-16）",
+          "en": "Q2'26 revenue $12.56B (+13.4%), in line with guidance; Q3 guide $12.86B (+11.7%); FY2026 narrowed to $51.0–51.4B (+13%–14%) (Q2 shareholder letter, 2026-07-16)"
+        },
+        "nextCheck": "Q3 2026 财报（2026-10-20） / Q3 2026 results (2026-10-20)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "operating-margin-path",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "营业利润率路径",
+          "en": "Operating margin path"
+        },
+        "trigger": {
+          "zh": "FY2026 营业利润率低于 31.5% 指引，或 2027 年 1 月给出的 FY2027 营业利润率指引低于 33%",
+          "en": "FY2026 operating margin below the 31.5% guide, or an FY2027 operating-margin guide (January 2027) below 33%"
+        },
+        "latest": {
+          "zh": "Q2'26 33.4%（Q2'25 34.1%）；Q3 指引 33.2%；FY2026 指引 31.5%（FY2025 29.5%）；TTM（Q3'25–Q2'26）29.7%",
+          "en": "Q2'26 33.4% (Q2'25 34.1%); Q3 guide 33.2%; FY2026 guide 31.5% (FY2025 29.5%); TTM (Q3'25–Q2'26) 29.7%"
+        },
+        "nextCheck": "Q3 2026 财报（2026-10-20） / Q3 2026 results (2026-10-20)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "ads-revenue-target",
+        "thesis": "bull",
+        "theme": "optionality",
+        "metric": {
+          "zh": "广告收入目标（FY2026 约 $3B）",
+          "en": "Ads revenue target (~$3B for FY2026)"
+        },
+        "trigger": {
+          "zh": "约 $3B 的 FY2026 广告收入目标被撤回或下调",
+          "en": "The ~$3B FY2026 ads revenue target withdrawn or cut"
+        },
+        "latest": {
+          "zh": "Q2 股东信（2026-07-16）重申 2026 年广告收入约 $3B（约翻倍），美国 upfront 谈判处于后期阶段，Pause Ads 与直播库存开放程序化购买",
+          "en": "The Q2 letter (2026-07-16) reaffirmed ~$3B of 2026 ads revenue (roughly doubling), with US upfront negotiations in advanced stages and programmatic access extended to Pause Ads and live inventory"
+        },
+        "nextCheck": "Q3 2026 财报（2026-10-20） / Q3 2026 results (2026-10-20)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "engagement-view-hours",
+        "thesis": "bear",
+        "theme": "demand",
+        "metric": {
+          "zh": "参与度 / 总观看时长",
+          "en": "Engagement / total view hours"
+        },
+        "trigger": {
+          "zh": "公司披露的总观看时长同比下降，或管理层在财报电话会上表示参与度下降",
+          "en": "Company-disclosed total view hours down year over year, or management stating on an earnings call that engagement declined"
+        },
+        "latest": {
+          "zh": "H1'26 观看时长 970 亿+ 小时、+2%（2025 年 +1.5%）（公司披露）；该报告自 2027 年起改为每年 Q1 发布。第三方（经 Motley Fool 转述）：HSBC 引用数据称美国电视观看份额约 7.8%、降约 1 个百分点；Wells Fargo 预测头部 100 部原创剧观看时长降约 21%",
+          "en": "H1'26 view hours 97B+, +2% (2025: +1.5%) (company disclosure); the report moves to once a year in Q1 from 2027. Third-party (via Motley Fool): data cited by HSBC puts U.S. TV viewing share at about 7.8%, down about 1 point; Wells Fargo forecasts a ~21% decline in hours for the top 100 originals"
+        },
+        "nextCheck": "Q3 2026 财报访谈（2026-10-20） / Q3 2026 results interview (2026-10-20)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "capital-return-share-count",
+        "thesis": "either",
+        "theme": "leverage-solvency",
+        "metric": {
+          "zh": "资本回报、股本与举债并购",
+          "en": "Capital return, share count and debt-funded M&A"
+        },
+        "trigger": {
+          "zh": "连续两个季度回购均低于 $2.0B，或宣布超过 $10B 的举债收购",
+          "en": "Repurchases below $2.0B in each of two consecutive quarters, or a debt-funded acquisition above $10B announced"
+        },
+        "latest": {
+          "zh": "Q2'26 回购 $4.7B（单季新高），剩余授权 $27.1B；Q2 摊薄股数 4,261M（Q2'25 4,349M）；2026 年 3 月约 $587M 现金收购（Q1 股东信称为 InterPositive，推断）；2026-07-22 发行 $1B 5.250% 2036 年票据用于再融资",
+          "en": "Q2'26 buybacks $4.7B (a quarterly record), $27.1B of authorization remaining; Q2 diluted shares 4,261M (Q2'25 4,349M); a ~$587M cash acquisition in March 2026 (named InterPositive in the Q1 letter, inference); $1B of 5.250% notes due 2036 issued 2026-07-22 to refinance"
+        },
+        "nextCheck": "Q3 2026 10-Q（2026 年 10 月） / Q3 2026 10-Q (October 2026)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "paramount-wbd-competition",
+        "thesis": "bear",
+        "theme": "regulatory",
+        "metric": {
+          "zh": "Paramount–WBD 合并的竞争影响",
+          "en": "Competitive impact of the Paramount–WBD combination"
+        },
+        "trigger": {
+          "zh": "Netflix 披露授权内容出现重大流失，或把 Paramount–WBD 列为增长放缓的原因",
+          "en": "Netflix discloses a material loss of licensed content, or cites Paramount–WBD as a cause of slower growth"
+        },
+        "latest": {
+          "zh": "PSKY 称已满足全部监管条件，12 州诉讼以同意令了结（法院 2026-09-30 登记），预计 2026-10-06 交割，并发行约 $444 亿有担保票据（PSKY 8-K，2026-09-28 / 09-30 / 10-01）；Netflix 股东信尚未提及授权内容流失",
+          "en": "PSKY says all regulatory conditions are satisfied and the 12-state suit was resolved by a consent decree (entered 2026-09-30); closing expected 2026-10-06, with about $44.4B of secured notes being issued (PSKY 8-Ks, 2026-09-28 / 09-30 / 10-01); Netflix's shareholder letters have not mentioned any licensed-content loss"
+        },
+        "nextCheck": "交割（2026-10-06）及 Q3 2026 股东信（2026-10-20） / The close (2026-10-06) and the Q3 2026 shareholder letter (2026-10-20)",
+        "nextCheckDate": "2026-10"
+      }
+    ]
   },
   {
     "id": "spotify-2026",
