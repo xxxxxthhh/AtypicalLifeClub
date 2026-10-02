@@ -5701,7 +5701,7 @@
     "ticker": "NASDAQ: PYPL",
     "title": "PayPal 深度调研报告 - 2025-2026年度分析",
     "titleEn": "PayPal Deep Research Report - 2025-2026 Analysis",
-    "summary": "2026-08-29 更新：据 Bloomberg（2026-08-28）报道且 Axios 独立确认，Advent International 与 Stripe 组成的财团已放弃收购 PayPal 的计划；PayPal 未就此提交 8-K、公司未置评，与 2026-07-15 登记该要约时属同一证据等级。价格锚点重置至 2026-08-28 收盘 $53.66（当日 −12.71%），按 10-Q 封面 855,460,874 股（截至 2026-07-22）计市值约 $45.9B、FY2025 报告口径/调整后 FCF 收益率约 12.2%/13.9%、Forward P/E 约 10.0 倍（FY2026 非 GAAP EPS 指引约 $5.38）。要约撤回移除的是估值叠加层，并不恢复旧的基本面框架：旧合理价值区间与正文牛/熊目标价仍全部作废，完整 Q2 估值包仍待另行重建，旧公允价值区间继续停用。2026-07-28 Q2 业绩（一手 8-K/10-Q）营收 +5% 至 $8.7B、非 GAAP EPS $1.38、TPV +10% 至 $486.4B 未被本事件改变；维持中性立场。",
+    "summary": "2026-10-02 立场补录：以 2026-10-01 收盘 $53.06 重锚（855,460,874 股，市值 $45,390.8M；公司口径净现金 $1,865M，企业价值 $43,525.8M），TTM 非 GAAP 市盈率 10.03 倍、FY2026 指引（约 $5.38）市盈率 9.86 倍、TTM FCF 收益率 14.51%。按 Q2 2026 一手数据重建的 30/40/30 情景网格（牛 $103.24 / 基准 $70.26 / 熊 $41.33）加权每股 $71.48，2.248 年年化 +14.2%，高于 8% 门槛 6.2 个百分点，立场为偏多（constructive）· 低确信：退出市盈率整体下移 2 倍即降至 +3.9%。回报主要来自每年约 $6B 回购（到 2028 年底股数约少 23%），而不是增长——Q2 品牌结账仅 +2%（汇率中性），TM$ 剔除利息 +3%，非 GAAP 营业利润率同比 −248bps。2026-07-28 之后无 8-K；Stripe/Advent 要约已于 08-28 撤回（媒体口径）；Q3 财报预计 10 月下旬。",
     "tags": [
       "金融科技",
       "数字支付",
@@ -5710,7 +5710,7 @@
     ],
     "category": "tech",
     "date": "2026-02-03",
-    "lastUpdate": "2026-08-29",
+    "lastUpdate": "2026-10-02",
     "period": "2026H1",
     "versionType": "incremental",
     "versionLabel": "2026H1 Incremental Update",
@@ -5721,16 +5721,192 @@
       "en": "/invest/research/PayPal_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "2026-08-28 Advent International/Stripe 财团撤回对 PayPal 的收购计划——Bloomberg 报道并获 Axios 独立确认：董事会认为 $60.50/股不充分、并对监管与融资落实存疑，谈判停滞后财团撤回；PayPal 未提交 8-K，Stripe/Advent 未公开置评",
-      "2026-08-28 收盘 $53.66（当日 −12.71%、近 5 个交易日 −12.82%；Nasdaq 已完成常规交易时段，两个句柄互校）；按 10-Q 封面 855,460,874 股（截至 2026-07-22）计市值约 $45.9B",
-      "重锚后读数：FY2025 报告口径 FCF $5.6B / adjusted FCF $6.4B 对应收益率约 12.2% / 13.9%，Forward P/E 约 10.0 倍（FY2026 非 GAAP EPS 指引约 $5.38）；股价仍比 2026-07-15 要约前约 $46 的水平高约 17%",
-      "要约撤回不恢复旧框架：旧合理价值区间 $65-75、正文牛/熊情景目标价、6-22 更新的 FCF/PE 观察仍全部作废，理由由『被当时的并购动态取代』改为『建立在 Q2 2026 之前、尚未重建』；完整 Q2 估值包仍缺分部利润率路径与回购节奏假设，另行完成 full-cycle 重建前继续停用旧公允价值区间",
-      "2026-07-28 Q2 2026业绩（一手8-K/10-Q）：营收+5%至$8.7B、非GAAP EPS $1.38/GAAP $1.25、TPV+10%至$486.4B、活跃账户4.39亿；FY26非GAAP EPS指引上调至约$5.38；Q2回购约3300万股/返还$1.5B",
-      "2026-07-15 Stripe/Advent 非请自来收购要约：约$60.50/股、超$53B、溢价约28%、约$50B承诺融资，拟50/50持股不拆分——该要约已于 2026-08-28 撤回",
-      "相关但独立：加入Visa/Mastercard支持的Open USD稳定币联盟；关闭PayPal Ventures（重组提效）"
+      "2026-10-02 立场补录：偏多（constructive）· 低确信；锚点 2026-10-01 收盘 $53.06，市值 $45,390.8M、企业价值 $43,525.8M，TTM 非 GAAP 市盈率 10.03 倍、TTM FCF 收益率 14.51%",
+      "30/40/30 情景网格：牛 $103.24（13 倍）/ 基准 $70.26（10 倍）/ 熊 $41.33（7 倍），加权 $71.48、2.248 年年化 +14.2%，高于 8% 门槛 6.2 个百分点",
+      "敏感性：退出倍数整体 −2 倍 → +3.9%、增速放慢 → +9.6%、两者叠加 → −0.3%；加权年化跌破 8% 的价格为 $60.13，接近已撤回的 $60.50 要约价",
+      "预期差：10 倍退出下，非 GAAP 净利润每年下滑不超过约 2.9% 即可达 8%——回报靠每年约 $6B 回购（2028 年底股数约 659.7M、−23%），不靠增长",
+      "2026-07-28 Q2 2026 业绩（一手 8-K/10-Q）：营收 +5% 至 $8.7B、非 GAAP EPS $1.38、TPV +10% 至 $486.4B；品牌结账 +2%（汇率中性）、Venmo TPV +14%；FY26 非 GAAP EPS 指引上调至约 $5.38，回购指引 $6B",
+      "资产负债表：2026-06-30 现金及投资 $15,265M、债务 $13,400M；H1 回购与股息超出 FCF $626M，公司口径净现金由 2025 年底约 $3.2B 降至 $1,865M",
+      "2026-07-15 Stripe/Advent 约 $60.50/股非请自来要约，2026-08-28 据 Bloomberg/Axios 报道撤回（无 8-K）；2026-07-28 至 10-02 无 8-K；09-22 与 Meta Muse AI 代理结账合作（行业媒体口径）"
     ],
     "priceSymbol": "PYPL",
-    "priceAsOf": "2026-08-28"
+    "priceAsOf": "2026-10-01",
+    "stance": "constructive",
+    "conviction": "low",
+    "stanceRationale": {
+      "zh": "以 2026-10-01 收盘 $53.06、10-Q 封面 855,460,874 股计市值 $45,390.8M，扣除公司口径净现金 $1,865M 后企业价值 $43,525.8M，对应 TTM 非 GAAP 市盈率 10.03 倍、FY2026 指引（约 $5.38）市盈率 9.86 倍、EV/TTM 非 GAAP 营业利润 7.06 倍、TTM FCF 收益率 14.51%。30% 牛市 / 40% 基准 / 30% 熊市（2027、2028 年非 GAAP 净利润 +7%/+8%、+1%/+3%、−6%/−5%，FY2028 EPS $7.84 / $6.90 / $5.72，退出市盈率 13 / 10 / 7 倍，退出股数 648.5M / 659.7M / 671.3M，退出净现金维持 $1,865M，含持有期股息 $1.26）对应每股 $103.24 / $70.26 / $41.33，加权 $71.48，较现价 +34.7%，2.248 年（2026-10-02 至 2028-12-31）年化 +14.2%，高于 8%-10% 门槛 4.2-6.2 个百分点。敏感性：退出倍数整体下移 2 倍降至 +3.9%、下移 3 倍为 −1.8%，增速放慢为 +9.6%，两者叠加为 −0.3%，权重 20/40/40 仍有 +9.7%、20/30/50 为 +7.5%；反推显示 10 倍退出下非 GAAP 净利润每年下滑不超过约 2.9% 即可达 8%，7 倍退出则需要约 13.5% 的年增速。给低确信而非中确信，是因为偏斜对退出倍数脆弱，且回报主要靠回购而非增长：H1 2026 回购与股息超出 FCF $626M，公司口径净现金由约 $3.2B 降至 $1,865M；给偏多而非中性观察，是因为基准情景不假设任何重估也有 +13.3% 年化。这是估值与资本回报判断，不是对品牌结账（Q2 2026 仅 +2%）已经修复的判断，也不是目标价。",
+      "en": "At the 2026-10-01 close of $53.06 on the 855,460,874 shares on the 10-Q cover, market capitalization is $45,390.8M and, after $1,865M of corporate net cash, enterprise value is $43,525.8M: 10.03x TTM non-GAAP earnings, 9.86x the FY2026 guide of about $5.38, 7.06x EV to TTM non-GAAP operating income, and a 14.51% TTM FCF yield. Weighting 30% bull / 40% base / 30% bear (2027 and 2028 non-GAAP net income +7%/+8%, +1%/+3% and −6%/−5%; FY2028 EPS of $7.84 / $6.90 / $5.72; exit P/E of 13x / 10x / 7x; exit shares of 648.5M / 659.7M / 671.3M; exit net cash held at $1,865M; $1.26 of dividends included) gives $103.24 / $70.26 / $41.33 per share and a weighted $71.48, +34.7% against today's price, or +14.2% annualized over 2.248 years (2026-10-02 to 2028-12-31), 4.2 to 6.2 points above the 8%-10% hurdle. Sensitivity: cutting every exit multiple by two turns takes it to +3.9% and by three turns to −1.8%; slower growth gives +9.6%; both together give −0.3%; a 20/40/40 weighting still gives +9.7% and 20/30/50 gives +7.5%. Working backwards, at a 10x exit non-GAAP net income can fall by up to about 2.9% a year and still earn 8%, while a 7x exit requires about 13.5% annual growth. Conviction is low rather than medium because the skew is fragile to the exit multiple and the return comes mostly from buybacks rather than growth: in H1 2026 repurchases and dividends exceeded FCF by $626M, and corporate net cash fell from about $3.2B to $1,865M. The stance is constructive rather than neutral-watch because the base case earns +13.3% annualized without assuming any re-rating. This is a valuation and capital-return judgment, not a claim that branded checkout (+2% in Q2 2026) is fixed, and it is not a price target."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "上调至 bullish，须同时满足：品牌结账（线上）TPV 汇率中性增速连续两个季度达到或超过 +4%；TM$（剔除客户余额利息）单季同比达到或超过 +5%；公司给出的 FY2027 展望隐含非 GAAP EPS 增长达到或超过 +8%。",
+        "en": "Upgrade to bullish if all of the following hold: branded checkout (online) TPV growth, FX-neutral, at or above +4% for two consecutive quarters; TM$ excluding interest on customer balances up 5% or more year over year in a quarter; and an FY2027 outlook from the company implying non-GAAP EPS growth of 8% or more.",
+        "monitoringIds": [
+          "branded-checkout-growth",
+          "tm-dollar-ex-interest",
+          "eps-guidance-delivery"
+        ]
+      },
+      "downgrade": {
+        "zh": "下调至 neutral-watch，满足任一条即可：任一季度品牌结账（线上）TPV 汇率中性增速低于 +1%；任一季度 TM$（剔除客户余额利息）同比为负；Q3 2026 非 GAAP EPS 低于 $1.27，或 FY2026 非 GAAP EPS 指引下调至 $5.25 以下；季度回购连续两个季度低于 $1.0B，或 FY2026 调整后 FCF 指引下调至 $6B 以下，或公司口径净现金转负；在基准路径未上修的情况下收盘价高于 $60.13。",
+        "en": "Downgrade to neutral-watch if any one of the following occurs: branded checkout (online) TPV growth, FX-neutral, below +1% in any quarter; TM$ excluding interest on customer balances negative year over year in any quarter; Q3 2026 non-GAAP EPS below $1.27, or FY2026 non-GAAP EPS guidance cut below $5.25; quarterly repurchases below $1.0B for two consecutive quarters, or FY2026 adjusted FCF guidance cut below $6B, or corporate net cash turning negative; or a close above $60.13 without an upward revision to the base-case path.",
+        "monitoringIds": [
+          "branded-checkout-growth",
+          "tm-dollar-ex-interest",
+          "eps-guidance-delivery",
+          "buyback-capacity",
+          "valuation-skew"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-10-02",
+        "stance": "constructive",
+        "conviction": "low",
+        "price": 53.06,
+        "note": {
+          "zh": "立场补录：此前仅有文字立场（中性 / 中等信心）、从无情景网格。按 2026-10-01 收盘 $53.06 重建的 30/40/30 网格加权每股 $71.48，2.248 年年化 +14.2%，高于 8% 门槛 6.2 个百分点；退出倍数整体下移 2 倍降至 +3.9%，故为低确信。",
+          "en": "Stance backfill: the report previously carried only a text stance (neutral / medium conviction) and no scenario grid. The 30/40/30 grid rebuilt at the 2026-10-01 close of $53.06 weights to $71.48 per share, +14.2% annualized over 2.248 years, 6.2 points above the 8% hurdle; cutting every exit multiple by two turns takes it to +3.9%, hence low conviction."
+        }
+      }
+    ],
+    "monitoring": [
+      {
+        "id": "branded-checkout-growth",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "品牌结账（线上）TPV 汇率中性同比增速（含 PayPal 品牌结账、Pay with Venmo 与 eBay）",
+          "en": "Branded checkout (online) TPV growth, FX-neutral, year over year (PayPal branded checkout, Pay with Venmo and eBay)"
+        },
+        "trigger": {
+          "zh": "任一季度低于 +1%（下调触发）；连续两个季度达到或超过 +4%（上调条件之一）",
+          "en": "Below +1% in any quarter (downgrade trigger); at or above +4% for two consecutive quarters (one of the upgrade conditions)"
+        },
+        "latest": {
+          "zh": "2Q'26 业绩演示：Q2 2026 为 +2%（Q1 2026 +2%、Q2 2025 +5%），占总 TPV 的 28%；Q4 2025 约 +1%（2026-02 报道口径）。公司称品牌结账进一步企稳，但仍远低于牛市所需的中个位数增速。",
+          "en": "Per the 2Q'26 earnings presentation: +2% in Q2 2026 (Q1 2026 +2%, Q2 2025 +5%), 28% of total TPV; about +1% in Q4 2025 (February 2026 reporting). The company says branded checkout further stabilized, but growth remains well below the mid-single digits the bull case needs."
+        },
+        "nextCheck": "Q3 2026 业绩与业绩演示（预计 2026 年 10 月下旬，发行人尚未公告日期） / Q3 2026 results and earnings presentation (expected late October 2026; date not yet announced by the issuer)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "venmo-momentum",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "Venmo TPV 汇率中性同比增速",
+          "en": "Venmo TPV growth, FX-neutral, year over year"
+        },
+        "trigger": {
+          "zh": "任一季度跌破 +10%",
+          "en": "Below +10% in any quarter"
+        },
+        "latest": {
+          "zh": "2Q'26 业绩演示：Q2 2026 Venmo TPV $93,806M，汇率中性同比 +14%（Q1 2026 亦为 +14%，Q2 2025 为 +12%）；Venmo 借记卡月活账户增长超过 50%，Pay with Venmo 月活账户增长约 30%。",
+          "en": "Per the 2Q'26 earnings presentation: Q2 2026 Venmo TPV of $93,806M, +14% FX-neutral (Q1 2026 also +14%, Q2 2025 +12%); Venmo debit card monthly active accounts grew more than 50% and Pay with Venmo monthly active accounts about 30%."
+        },
+        "nextCheck": "Q3 2026 业绩与业绩演示（预计 2026 年 10 月下旬，发行人尚未公告日期） / Q3 2026 results and earnings presentation (expected late October 2026; date not yet announced by the issuer)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "tm-dollar-ex-interest",
+        "thesis": "either",
+        "theme": "pricing",
+        "metric": {
+          "zh": "交易利润额（TM$）剔除客户余额利息后的同比增速，及交易利润率",
+          "en": "Transaction margin dollars (TM$) excluding interest on customer balances, year-over-year growth, and transaction margin"
+        },
+        "trigger": {
+          "zh": "任一季度同比为负（下调触发）；单季同比达到或超过 +5%（上调条件之一）",
+          "en": "Negative year over year in any quarter (downgrade trigger); up 5% or more year over year in a quarter (one of the upgrade conditions)"
+        },
+        "latest": {
+          "zh": "Q2 2026 TM$ 剔除利息 $3,619M，同比 +3%；TM$ $3,900M，同比 +1%；交易利润率 44.9%（Q2 2025 为 46.4%）；客户余额利息 $281M（Q2 2025 为 $318M）。FY2026 指引：TM$ 约 $15.6B、剔除利息约 $14.5B；Q3 指引：TM$ 小幅正增长，剔除利息小幅正增长至低个位数。",
+          "en": "Q2 2026 TM$ excluding interest of $3,619M, +3% year over year; TM$ of $3,900M, +1%; transaction margin 44.9% (Q2 2025: 46.4%); interest on customer balances $281M (Q2 2025: $318M). FY2026 guidance: TM$ about $15.6B, about $14.5B excluding interest; Q3 guidance: TM$ slightly positive, ex-interest slightly positive to low single digits."
+        },
+        "nextCheck": "Q3 2026 业绩与业绩演示（预计 2026 年 10 月下旬，发行人尚未公告日期） / Q3 2026 results and earnings presentation (expected late October 2026; date not yet announced by the issuer)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "eps-guidance-delivery",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "非 GAAP 稀释 EPS 对照指引",
+          "en": "Non-GAAP diluted EPS against guidance"
+        },
+        "trigger": {
+          "zh": "Q3 2026 非 GAAP EPS 低于 $1.27，或 FY2026 非 GAAP EPS 指引下调至 $5.25 以下（下调触发）；FY2027 展望隐含非 GAAP EPS 增长达到或超过 +8%（上调条件之一）",
+          "en": "Q3 2026 non-GAAP EPS below $1.27, or FY2026 non-GAAP EPS guidance cut below $5.25 (downgrade trigger); an FY2027 outlook implying non-GAAP EPS growth of 8% or more (one of the upgrade conditions)"
+        },
+        "latest": {
+          "zh": "Q2 2026 非 GAAP EPS $1.38（同比 −1%，5 月指引约 −9%），GAAP EPS $1.25；FY2026 非 GAAP EPS 指引上调至约 $5.38（FY2025 为 $5.31），不含下半年可能的转型费用；FY2026 GAAP EPS 指引中个位数下滑；Q3 非 GAAP EPS 指引低个位数下滑（Q3 2025 为 $1.34）。",
+          "en": "Q2 2026 non-GAAP EPS of $1.38 (−1% year over year, against a May guide of about −9%), GAAP EPS $1.25; FY2026 non-GAAP EPS guidance raised to about $5.38 (FY2025: $5.31), excluding potential second-half transformation charges; FY2026 GAAP EPS guided to a mid-single-digit decline; Q3 non-GAAP EPS guided to a low-single-digit decline (Q3 2025: $1.34)."
+        },
+        "nextCheck": "Q3 2026 业绩与业绩演示（预计 2026 年 10 月下旬，发行人尚未公告日期） / Q3 2026 results and earnings presentation (expected late October 2026; date not yet announced by the issuer)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "buyback-capacity",
+        "thesis": "bull",
+        "theme": "leverage-solvency",
+        "metric": {
+          "zh": "季度回购额、自由现金流与公司口径净现金（现金、现金等价物及投资 − 债务）",
+          "en": "Quarterly repurchases, free cash flow and corporate net cash (cash, cash equivalents and investments minus debt)"
+        },
+        "trigger": {
+          "zh": "季度回购连续两个季度低于 $1.0B，或 FY2026 调整后 FCF 指引下调至 $6B 以下，或公司口径净现金转负",
+          "en": "Quarterly repurchases below $1.0B for two consecutive quarters, or FY2026 adjusted FCF guidance cut below $6B, or corporate net cash turning negative"
+        },
+        "latest": {
+          "zh": "Q2 2026 回购约 3,300 万股、$1.5B（现金流量表库存股支出 $1,552M），TTM 约 1.11 亿股、$6.0B。H1 2026 FCF $2,678M，回购 $3,052M 与股息 $252M 合计超出 FCF $626M，同期债务增加约 $1.8B；公司口径净现金由 2025-12-31 的约 $3.2B（$14.8B − $11.6B）降至 2026-06-30 的 $1,865M（$15,265M − $13,400M）。FY2026 指引：回购 $6B、调整后 FCF $6B+、资本开支约 $1B。",
+          "en": "Q2 2026 repurchases of about 33M shares for $1.5B (treasury-stock outflow of $1,552M in the cash-flow statement); trailing twelve months about 111M shares for $6.0B. H1 2026 FCF of $2,678M against repurchases of $3,052M and dividends of $252M, an excess of $626M over FCF, while debt rose by about $1.8B; corporate net cash fell from about $3.2B at 2025-12-31 ($14.8B − $11.6B) to $1,865M at 2026-06-30 ($15,265M − $13,400M). FY2026 guidance: $6B of repurchases, adjusted FCF of $6B+, capex of about $1B."
+        },
+        "nextCheck": "Q3 2026 10-Q 现金流量表与资产负债表 / Q3 2026 10-Q cash-flow statement and balance sheet",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "valuation-skew",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "股价相对情景网格的加权年化回报",
+          "en": "Share price against the scenario grid's weighted annualized return"
+        },
+        "trigger": {
+          "zh": "在基准路径未上修的情况下收盘价高于 $60.13（加权年化跌破 8% 的价格）",
+          "en": "A close above $60.13, the price at which the weighted annualized return falls below 8%, without an upward revision to the base-case path"
+        },
+        "latest": {
+          "zh": "2026-10-01 收盘 $53.06；TTM 非 GAAP 市盈率 10.03 倍；30/40/30 加权每股价值 $71.48、年化 +14.2%；52 周盘中区间 $38.46-$79.22（CNBC）。",
+          "en": "2026-10-01 close of $53.06; TTM non-GAAP P/E of 10.03x; 30/40/30 weighted value of $71.48 per share, +14.2% annualized; 52-week intraday range $38.46-$79.22 (CNBC)."
+        },
+        "nextCheck": "每日价格账本 / daily price ledger",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "strategic-optionality",
+        "thesis": "either",
+        "theme": "optionality",
+        "metric": {
+          "zh": "并购与战略行动（收购要约、最终协议、战略评估）",
+          "en": "M&A and strategic actions (takeover proposals, definitive agreements, strategic reviews)"
+        },
+        "trigger": {
+          "zh": "PayPal 以 8-K 披露收购要约、最终协议或战略评估（触发网格重算，不直接对应立场升降级）",
+          "en": "PayPal discloses a takeover proposal, a definitive agreement or a strategic review in an 8-K (triggers a re-run of the grid; not tied directly to a stance change)"
+        },
+        "latest": {
+          "zh": "Stripe/Advent 约 $60.50/股的非请自来要约于 2026-07-15 被报道，2026-08-28 据 Bloomberg 与 Axios 报道撤回，均为媒体口径、无 8-K；2026-07-28 至 2026-10-02 PayPal 未提交任何 8-K。2026-09-22 与 Meta 的 Muse AI 代理结账合作来自行业媒体报道，未披露财务条款。",
+          "en": "The unsolicited Stripe/Advent proposal of about $60.50 per share was reported on 2026-07-15 and its withdrawal on 2026-08-28 (Bloomberg, Axios), both press-sourced with no 8-K; PayPal filed no 8-K between 2026-07-28 and 2026-10-02. The 2026-09-22 checkout partnership with Meta's Muse AI agent comes from trade-press reports, with no financial terms disclosed."
+        },
+        "nextCheck": "SEC EDGAR 8-K（持续） / SEC EDGAR 8-K filings (continuous)",
+        "nextCheckDate": "2026-10"
+      }
+    ],
+    "summaryEn": "2026-10-02 stance backfill: re-anchored to the 2026-10-01 close of $53.06 (855,460,874 shares, market cap $45,390.8M; corporate net cash $1,865M, enterprise value $43,525.8M), or 10.03x TTM non-GAAP earnings, 9.86x the FY2026 guide of about $5.38, and a 14.51% TTM FCF yield. A 30/40/30 scenario grid rebuilt on primary Q2 2026 data (bull $103.24 / base $70.26 / bear $41.33) weights to $71.48 per share, +14.2% annualized over 2.248 years and 6.2 points above the 8% hurdle, so the stance is constructive with low conviction: cutting every exit multiple by two turns takes it to +3.9%. The return comes mostly from about $6B a year of buybacks (roughly 23% fewer shares by end-2028), not growth: Q2 branded checkout grew only +2% FX-neutral, TM$ excluding interest +3%, and the non-GAAP operating margin fell 248 bps. No 8-K since 2026-07-28; the Stripe/Advent offer was withdrawn on 08-28 (press-sourced); Q3 results expected in late October."
   },
   {
     "id": "oklo-2026-pre-rerun",

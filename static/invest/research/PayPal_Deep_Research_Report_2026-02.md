@@ -1,9 +1,21 @@
 # PayPal Holdings Inc. (PYPL) Deep Research Report
 
 Coverage date: 2026-02-03
-Last updated: 2026-08-29
+Last updated: 2026-10-02
 Ticker: NASDAQ: PYPL
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
+
+---
+
+## Update — October 2, 2026 (stance backfill · price anchor reset to the 2026-10-01 close)
+
+> **Stance backfill:** this report previously carried only a text stance (neutral / medium conviction) and never had a scenario grid. Under the rule that the stance is always re-derived at the current price, this pass re-anchors to the **2026-10-01 close of $53.06** and rebuilds the scenario grid on primary Q2 2026 data. The result is **constructive with low conviction**: the 30/40/30 grid weights to **$71.48 per share**, **+34.7%** against $53.06, or **+14.2% annualized** over 2.248 years (2026-10-02 to 2028-12-31, 821 days), 6.2 points above the 8% hurdle; but cutting every exit P/E by two turns takes it to +3.9%, which is why conviction is only low. The grid, sensitivity and reverse tables are in the 2026-10-02 subsection at the end of §8; the conclusion and the upgrade/downgrade triggers open §10.
+
+> **Price and market-cap re-anchor (verified from two handles):** PYPL closed at **$53.06** on **2026-10-01** (Nasdaq historical-quote API; the CNBC quote API also shows $53.06 dated 2026-10-01), 1.12% below the 2026-08-28 anchor. On the 855,460,874 shares on the Form 10-Q cover (as of 2026-07-22), market capitalization is **$45,390.8M**; after $1,865M of corporate net cash (cash, cash equivalents and investments of $15,265M less debt of $13,400M at 2026-06-30), enterprise value is **$43,525.8M**. TTM (Q3'25-Q2'26) non-GAAP diluted EPS of $5.29 gives a P/E of **10.03x**; the FY2026 non-GAAP EPS guide of about $5.38 gives **9.86x**; TTM free cash flow of $6,586M gives a **14.51%** yield.
+
+> **Freshness check (2026-08-29 to 2026-10-02):** the SEC EDGAR filing list shows **no 8-K from PayPal after 2026-07-28**: no filing on leadership changes, guidance, M&A or the buyback authorization. The only filings are Forms 4 and 144. The 2026-09-01 and 2026-09-15 Forms 4 are restricted-stock vesting and tax withholding (codes M/F). On 2026-09-03 three executives made small sales (Kereere 3,379 shares, Keller 4,612 shares, Natali 552 shares, at about $54.53-56.71), 8,543 shares in total, with no open-market purchases. The company newsroom has carried only product news since 08-29 (09-16 Venmo NIL, 09-30 holiday-spending survey). Per the trade press, PaymentExpert (2026-09-23) and The Paypers (2026-09-24), PayPal announced on 2026-09-22 a partnership with Meta letting users check out at PayPal merchants through Meta's Muse AI agent; no financial terms were disclosed, so this report records it as a fact and keeps it out of the valuation. The Q3 2026 results date has **not been announced by the issuer**: third parties expect 2026-10-27 (unverified), and PayPal reported Q3 2025 on 2025-10-28.
+
+> **Sources:** price: Nasdaq `api.nasdaq.com/api/quote/PYPL/historical` and the CNBC quote API (2026-10-01 close of $53.06); balance sheet, income statement and cash-flow statement: [2Q'26 earnings release, Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/1633917/000163391726000080/pypl2q-26earningsrelease.htm); the FY2026 guidance for $6B of buybacks, adjusted FCF of $6B+ and TM$ of about $15.6B, plus branded-checkout and Venmo TPV growth and the quarterly FCF table: [2Q'26 earnings presentation](https://s205.q4cdn.com/875401827/files/doc_financials/2026/q2/PYPL-2Q-26-Earnings-Presentation.pdf); Q1'26 and Q4'25 quarterly EPS: [1Q'26 earnings release](https://www.sec.gov/Archives/edgar/data/1633917/000163391726000065/pypl1q-26earningsrelease.htm) and [4Q'25 earnings release](https://www.sec.gov/Archives/edgar/data/1633917/000163391726000021/pypl4q-25earningsrelease.htm); filing list and Forms 4: SEC EDGAR (CIK 1633917).
 
 ---
 
@@ -11,11 +23,11 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 > **⚠️ Developing event; press-sourced, no issuer confirmation.** Per **Bloomberg (2026-08-28)** and an independent [Axios confirmation](https://www.axios.com/2026/08/28/stripe-advent-end-paypal-pursuit), **the consortium of Advent International and Stripe has abandoned its plan to acquire PayPal**. As reported: PayPal's board considered the $60.50/share price inadequate and raised concerns over regulatory approval and financing, negotiations stalled, and the consortium withdrew. **Evidence grade, stated plainly:** as of 2026-08-29 PayPal has filed no 8-K on this; its newsroom's most recent item is dated 2026-08-19 and is unrelated; neither Stripe nor Advent has issued a public statement. This entry sits at **exactly the same evidence grade** as this report's 2026-07-15 registration of the offer itself — press reporting, no issuer confirmation — and is therefore recorded on the same basis, as a **factual entry** rather than a confirmed disclosure.
 
-> **What this does to the report's framework (read carefully):** the July 17 update below states that "until the situation clarifies, the report's prior fundamentals-based fair-value framework … should be treated as wholly superseded by M&A dynamics." Those M&A dynamics ended on 2026-08-28, so **the precondition for that suspension is gone**. But to be explicit: **the withdrawal does not restore the old fundamental framework.** The old fair-value range ($65-75), the bull/bear scenario target prices in the body, and the 6/22 FCF/PE observations all **remain void** — the reason changes from "superseded by the then-live M&A dynamics" to "built on a pre-Q2-2026 basis and not yet rebuilt." **This report offers no fair-value conclusion at present.** A complete Q2-basis valuation package is still required before a fair-value conclusion can return; the missing inputs are the post-Q2 segment-margin path and capital-return (buyback cadence) assumptions. Until that separate full-cycle rebuild is complete, the old fair-value range and scenario targets remain unavailable.
+> **What this does to the report's framework (read carefully):** the July 17 update below states that "until the situation clarifies, the report's prior fundamentals-based fair-value framework … should be treated as wholly superseded by M&A dynamics." Those M&A dynamics ended on 2026-08-28, so **the precondition for that suspension is gone**. But to be explicit: **the withdrawal does not restore the old fundamental framework.** The old fair-value range ($65-75), the bull/bear scenario target prices in the body, and the 6/22 FCF/PE observations all **remain void** — the reason changes from "superseded by the then-live M&A dynamics" to "built on a pre-Q2-2026 basis and not yet rebuilt." **This report offers no fair-value conclusion at present.** A complete Q2-basis valuation package is still required before a fair-value conclusion can return; the missing inputs are the post-Q2 segment-margin path and capital-return (buyback cadence) assumptions. Until that separate full-cycle rebuild is complete, the old fair-value range and scenario targets remain unavailable. **Update (2026-10-02):** a scenario grid on primary Q2 2026 data has been rebuilt at the end of §8 (a probability-weighted range of scenarios, not a price target); the old fair-value range and the body's bull/bear targets remain void.
 
-> **Price and market-cap re-anchor (verified from two handles):** PYPL closed at **$53.66** on **2026-08-28** (Nasdaq completed regular session, labelled "Closed at Aug 28, 2026 4:00 PM ET"), **−12.71%** on the day; second handle: adding back the $7.81 net decline gives $61.47, which reconciles to the 2026-08-27 close. Over five sessions the move is **−12.82%** (against the 2026-08-21 close of $61.55). On the **855,460,874 shares** disclosed on the Form 10-Q cover (as of 2026-07-22), market cap is approximately **$45.9B**. Against FY2025 reported free cash flow of $5.6B the yield is about **12.2%**; against adjusted free cash flow of $6.4B it is about **13.9%**; against the FY2026 non-GAAP EPS guide of about **$5.38** raised at Q2, the forward P/E is about **10.0x**. **The stock still sits roughly 17% above the ~$46 pre-bid level of 2026-07-15** — the bid premium has not been fully given back.
+> **[Historical snapshot, updated 2026-10-02; for the current anchor see the October 2 update at top]** **Price and market-cap re-anchor (verified from two handles):** PYPL closed at **$53.66** on **2026-08-28** (Nasdaq completed regular session, labelled "Closed at Aug 28, 2026 4:00 PM ET"), **−12.71%** on the day; second handle: adding back the $7.81 net decline gives $61.47, which reconciles to the 2026-08-27 close. Over five sessions the move is **−12.82%** (against the 2026-08-21 close of $61.55). On the **855,460,874 shares** disclosed on the Form 10-Q cover (as of 2026-07-22), market cap is approximately **$45.9B**. Against FY2025 reported free cash flow of $5.6B the yield is about **12.2%**; against adjusted free cash flow of $6.4B it is about **13.9%**; against the FY2026 non-GAAP EPS guide of about **$5.38** raised at Q2, the forward P/E is about **10.0x**. **The stock still sits roughly 17% above the ~$46 pre-bid level of 2026-07-15** — the bid premium has not been fully given back.
 
-> **Stance:** **NEUTRAL / MEDIUM conviction is maintained; the stance does not change because the stock fell.** The withdrawal removes a valuation overlay, not a judgement about the business; the Q2 operating facts (revenue +5% to $8.7B, TPV +10% to $486.4B, FY2026 non-GAAP EPS guidance of about $5.38) are untouched by this event. Whether the stance needs re-adjudicating is a question for after the fundamental framework is rebuilt, not one this single day's price should decide.
+> **Stance:** ~~**NEUTRAL / MEDIUM conviction is maintained; the stance does not change because the stock fell.**~~ **Update (2026-10-02):** the stance is backfilled as **constructive with low conviction**, based on the scenario grid rebuilt at the 2026-10-01 close of $53.06 (weighted +14.2% annualized); see the October 2 update at top. The original August 29 text follows: the withdrawal removes a valuation overlay, not a judgement about the business; the Q2 operating facts (revenue +5% to $8.7B, TPV +10% to $486.4B, FY2026 non-GAAP EPS guidance of about $5.38) are untouched by this event. Whether the stance needs re-adjudicating is a question for after the fundamental framework is rebuilt, not one this single day's price should decide.
 
 > **Sources:** Bloomberg, 2026-08-28, [carried by Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/paypal-shares-fall-reported-acquisition-100923514.html), and [independently confirmed by Axios](https://www.axios.com/2026/08/28/stripe-advent-end-paypal-pursuit); share count from the [PayPal FY2026 Q2 Form 10-Q cover page (accession 0001633917-26-000082)](https://www.sec.gov/Archives/edgar/data/1633917/000163391726000082/pypl-20260630.htm), filed 2026-07-28; PYPL close 2026-08-28 (Nasdaq completed regular session).
 
@@ -199,7 +211,8 @@ The February 9 and February 17 updates below are retained as historical audit tr
 
 > **2026-07-31 price check (untracked-coverage review).** PYPL closed at **$58.35** on **2026-07-29**, the last completed US session, versus the **$56.56** anchor dated 2026-07-17 — a **+3.2%** move. The dated figures below therefore remain accurate to within that margin and the valuation frame and stance are unchanged. The stock continues to trade between the ~$46 pre-bid level and the $60.50 Stripe/Advent offer, so it still prices deal-completion probability rather than fundamentals; the report's suspension of its fundamentals-based fair-value framework stood at that time. **[2026-08-29 update]** The precondition for that suspension — a live offer — ended when the consortium withdrew on 2026-08-28; the old framework is not restored by that, see the August 29 update at the top. **[Tracking status corrected 2026-08-10]** This note originally recorded that the report had no `priceSymbol` and therefore no automatic price ledger or drift alert; `priceSymbol: PYPL` and the 2026-07-17 anchor are now wired into the automatic price ledger, so that statement no longer holds.
 
-**Investment Verdict:** **NEUTRAL** with **MEDIUM** conviction
+**Investment Verdict:** ~~**NEUTRAL** with **MEDIUM** conviction~~ **Update (2026-10-02): constructive, low conviction** (anchor: the 2026-10-01 close of $53.06; market cap $45,390.8M, TTM non-GAAP P/E 10.03x, TTM FCF yield 14.51%). The 30/40/30 scenario grid weights to $71.48 per share, +14.2% annualized, 6.2 points above the 8% hurdle; but cutting every exit P/E by two turns takes it to +3.9%, so conviction is low. This is a valuation-and-skew judgment, not a claim that branded checkout is fixed.
+- **Update (2026-10-02) monitoring window:** 3-15 months; the first test is the Q3 2026 print (expected late October 2026; date not yet announced by the issuer), checking branded checkout growth, TM$ excluding interest on customer balances, and the FY2026 non-GAAP EPS guide of about $5.38.
 - **Key Catalyst:** ~~New CEO Enrique Lores (effective March 1, 2026) must demonstrate ability to reverse branded checkout deceleration and restore investor confidence in 2026-2027 growth trajectory~~ **June 22 update:** Lores is now in the execution phase; the key evidence will be Q2/Q3 branded checkout growth, Venmo monetization, Fastlane penetration, and whether the reorganization/cost program improves EPS quality.
 - **Timeline:** 6-12 months to assess new leadership's strategic direction and execution capability
 
@@ -207,15 +220,18 @@ The February 9 and February 17 updates below are retained as historical audit tr
 
 | Metric | Value |
 |--------|-------|
-| Market Cap | ~~$39-41 billion (Feb 2026)~~ ~~$37.5B (June 18, 2026)~~ ~~$49–50B ($56.56, 2026-07-17)~~ ~~offer implies ~$53B ($60.50)~~ **~$45.9B ($53.66 close, 2026-08-28; 855,460,874 shares per the 10-Q cover as of 2026-07-22)** |
-| Stock Price | ~~$41-42 (down ~25% from Jan 2026 highs)~~ ~~$42.51 (June 18, 2026)~~ ~~$56.56 (2026-07-17)~~ **$53.66 (2026-08-28 close); the Stripe/Advent $60.50 offer was withdrawn on 2026-08-28 — see the August 29 update at top** |
-| P/E (TTM) | ~~10.5x~~ latest TTM figure requires official filing/market-data refresh |
-| P/E (Forward) | ~~9.2x~~ ~~roughly around 8x if 2026 adjusted EPS remains in a $5.0-$5.5 framework~~ **~10.0x ($53.66 ÷ the ~$5.38 FY2026 non-GAAP EPS guide, 2026-08-28)** |
+| Market Cap | ~~$39-41 billion (Feb 2026)~~ ~~$37.5B (June 18, 2026)~~ ~~$49–50B ($56.56, 2026-07-17)~~ ~~offer implies ~$53B ($60.50)~~ ~~about $45.9B ($53.66 close, 2026-08-28; 855,460,874 shares per the 10-Q cover as of 2026-07-22)~~ **Update (2026-10-02): $45,390.8M ($53.06 close, 2026-10-01; 855,460,874 shares per the 10-Q cover as of 2026-07-22)** |
+| Stock Price | ~~$41-42 (down ~25% from Jan 2026 highs)~~ ~~$42.51 (June 18, 2026)~~ ~~$56.56 (2026-07-17)~~ ~~$53.66 (2026-08-28 close)~~ **Update (2026-10-02): $53.06 (2026-10-01 close); the Stripe/Advent $60.50 offer was withdrawn on 2026-08-28 (press-sourced)** |
+| P/E (TTM) | ~~10.5x~~ ~~latest TTM figure requires official filing/market-data refresh~~ **Update (2026-10-02): 10.03x ($53.06 ÷ TTM non-GAAP diluted EPS of $5.29, Q3'25-Q2'26; TTM GAAP EPS is also $5.29)** |
+| P/E (Forward) | ~~9.2x~~ ~~roughly around 8x if 2026 adjusted EPS remains in a $5.0-$5.5 framework~~ ~~about 10.0x ($53.66 ÷ the ~$5.38 FY2026 non-GAAP EPS guide, 2026-08-28)~~ **Update (2026-10-02): 9.86x ($53.06 ÷ the ~$5.38 FY2026 non-GAAP EPS guide)** |
 | Revenue (2025) | $33.2B (+4% YoY) |
 | Operating Margin | 18.0% (2025) |
 | FCF (2025) | $5.6B |
-| FCF Yield | ~~14%~~ ~~15%-17% using ~$37.5B market cap~~ ~~old basis superseded by the then-live takeover dynamics; 11%-13% at the $56.56 close~~ **~12.2% on FY2025 reported FCF ($5.6B) and ~13.9% on adjusted FCF ($6.4B), at the $53.66 close and ~$45.9B market cap (2026-08-28)** |
+| FCF Yield | ~~14%~~ ~~15%-17% using ~$37.5B market cap~~ ~~old basis superseded by the then-live takeover dynamics; 11%-13% at the $56.56 close~~ ~~about 12.2% on FY2025 reported FCF ($5.6B) and ~13.9% on adjusted FCF ($6.4B), at the $53.66 close and ~$45.9B market cap (2026-08-28)~~ **Update (2026-10-02): 14.51% TTM (Q3'25-Q2'26 FCF of $6,586M); 12.3% on FY2025 reported FCF and 14.1% on adjusted FCF; at the $53.06 close and $45,390.8M market cap** |
 | Debt/EBITDA | ~1.5x |
+| Net cash / enterprise value (added 2026-10-02) | Net cash $1,865M (cash, cash equivalents and investments of $15,265M less debt of $13,400M at 2026-06-30); enterprise value $43,525.8M; EV / TTM non-GAAP operating income 7.06x |
+| Capital return (added 2026-10-02) | FY2026 buyback guidance of $6B (13.22% of market cap) plus a $0.14 quarterly dividend (1.06% yield); Q2'26 repurchases of about 33M shares for $1.5B |
+| Probability-weighted annualized return (added 2026-10-02) | **+14.2%** (30/40/30, 2026-10-02 to 2028-12-31), 6.2 points above the 8% hurdle; stance constructive, low conviction |
 
 **Key Takeaway:** PayPal trades at a significant discount to historical multiples (10-year low P/E) despite solid free cash flow generation and improving profitability. However, the discount reflects real concerns: slowing branded checkout growth (1% in Q4 2025), intensifying competition from Apple Pay/Google Pay, and leadership transition uncertainty. The bull case hinges on successful monetization of Venmo, Fastlane adoption, and margin expansion. The bear case centers on structural market share loss in core branded checkout and inability to compete with device-native wallets.
 
@@ -618,19 +634,19 @@ Gross Payment Volume (GPV)
 
 ### Core Thesis
 
-PayPal is a deeply undervalued cash-generating machine trading at low multiples ~~(9-10x forward P/E, 16% FCF yield)~~ **[2026-07-17; re-anchored 2026-08-29] old-basis multiples/yield, superseded by the then-live takeover situation and still unrebuilt after its 2026-08-28 withdrawal; ~~at $56.56 the FCF yield is 11%-13%~~ at the 2026-08-28 close of $53.66 it is ~12.2% on reported FCF and ~13.9% on adjusted FCF (see the August 29 update)** due to temporary execution issues and market overreaction. The company retains dominant market share (43-45% globally), has multiple growth vectors (Fastlane, Venmo, BNPL), and can drive significant shareholder value through aggressive buybacks and margin expansion even with modest revenue growth.
+PayPal is a deeply undervalued cash-generating machine trading at low multiples ~~(9-10x forward P/E, 16% FCF yield)~~ **[2026-07-17; re-anchored 2026-08-29] old-basis multiples/yield, superseded by the then-live takeover situation and still unrebuilt after its 2026-08-28 withdrawal; ~~at $56.56 the FCF yield is 11%-13%~~ ~~at the 2026-08-28 close of $53.66 it is about 12.2% on reported FCF and about 13.9% on adjusted FCF~~** **Update (2026-10-02):** at the 2026-10-01 close of $53.06 the TTM FCF yield is 14.51% and the TTM non-GAAP P/E 10.03x; the current scenario grid is at the end of §8. The original thesis continues: due to temporary execution issues and market overreaction. The company retains dominant market share (43-45% globally), has multiple growth vectors (Fastlane, Venmo, BNPL), and can drive significant shareholder value through aggressive buybacks and margin expansion even with modest revenue growth.
 
 ### Supporting Evidence
 
 **1. Valuation is Historically Cheap (High Conviction)**
 
 **Data:**
-- ~~Forward P/E: 9.2x vs 10-year average of 25-30x~~ **[2026-07-17; re-anchored 2026-08-29] historical February basis. The takeover situation ended on 2026-08-28 and the Q2 model is still pending rebuild; at the 2026-08-28 close of $53.66 against the ~$5.38 FY2026 non-GAAP EPS guide the forward P/E is ~10.0x — an arithmetic reading, not a re-rating conclusion.**
+- ~~Forward P/E: 9.2x vs 10-year average of 25-30x~~ **[2026-07-17; re-anchored 2026-08-29] historical February basis. ~~The takeover situation ended on 2026-08-28 and the Q2 model is still pending rebuild; at the 2026-08-28 close of $53.66 against the ~$5.38 FY2026 non-GAAP EPS guide the forward P/E is about 10.0x — an arithmetic reading, not a re-rating conclusion.~~** **Update (2026-10-02):** at the 2026-10-01 close of $53.06 the ~$5.38 FY2026 non-GAAP EPS guide gives a forward P/E of 9.86x and the TTM non-GAAP P/E is 10.03x; the Q2-basis scenario grid has been rebuilt in §8.
 - ~~P/S Ratio: 1.2x vs historical 5-8x~~ **[2026-07-17] historical February basis, not a current comparison.**
-- ~~FCF Yield: 16% vs S&P 500 average of 3-4%~~ **[2026-07-17; re-anchored 2026-08-29] old basis; ~~at $56.56 the rough yield is 11%-13%~~ at the 2026-08-28 close of $53.66 the yield is ~12.2% on FY2025 reported FCF and ~13.9% on adjusted FCF, pending a Q2 rebuild and not presented as downside protection.**
+- ~~FCF Yield: 16% vs S&P 500 average of 3-4%~~ **[2026-07-17; re-anchored 2026-08-29] old basis; ~~at $56.56 the rough yield is 11%-13%~~ ~~at the 2026-08-28 close of $53.66 the yield is about 12.2% on FY2025 reported FCF and about 13.9% on adjusted FCF, pending a Q2 rebuild~~, and not presented as downside protection.** **Update (2026-10-02):** at the 2026-10-01 close of $53.06 the TTM FCF ($6,586M) yield is 14.51%, 12.3% on FY2025 reported FCF and 14.1% on adjusted; most of it goes to buybacks, so any downside protection depends on buybacks continuing (see the `buyback-capacity` monitoring item in §9).
 - ~~EV/EBITDA: ~6-7x vs historical 15-20x~~ **[2026-07-17] historical February estimate, not a current comparison.**
 
-**Argument:** Even if PayPal never grows again, a high FCF yield ~~(16%, old basis)~~ provides attractive returns. The market is pricing in permanent structural decline, but PayPal still processes $1.79T annually with 438M active accounts. ~~A reversion to even 15x P/E (still below historical average) implies 50%+ upside from $41 to $60+.~~ **[2026-07-17; re-anchored 2026-08-29] the old 16% FCF yield and the price-upside math are stale — the fundamental frame was superseded by the then-live takeover situation and remains unrebuilt after its 2026-08-28 withdrawal; ~~at $56.56 the FCF yield is 11%-13%~~ at the 2026-08-28 close of $53.66 it is ~12.2% on reported FCF and ~13.9% on adjusted FCF.**
+**Argument:** Even if PayPal never grows again, a high FCF yield ~~(16%, old basis)~~ provides attractive returns. The market is pricing in permanent structural decline, but PayPal still processes $1.79T annually with 438M active accounts. ~~A reversion to even 15x P/E (still below historical average) implies 50%+ upside from $41 to $60+.~~ **[2026-07-17; re-anchored 2026-08-29] the old 16% FCF yield and the price-upside math are stale — the fundamental frame was superseded by the then-live takeover situation and remains unrebuilt after its 2026-08-28 withdrawal; ~~at $56.56 the FCF yield is 11%-13%~~ ~~at the 2026-08-28 close of $53.66 it is about 12.2% on reported FCF and about 13.9% on adjusted FCF~~.** **Update (2026-10-02):** at the 2026-10-01 close of $53.06 the TTM FCF yield is 14.51%.
 
 **2. Venmo Monetization is Early Innings (Medium Conviction)**
 
@@ -695,7 +711,7 @@ PayPal is a deeply undervalued cash-generating machine trading at low multiples 
 - Shares Outstanding: 650M (30% reduction from buybacks)
 - EPS: $10.30
 - P/E Multiple: 15x (still below historical average)
-- ~~**Target Price: $155 (3.7x upside from $41)**~~ **[2026-07-17; updated 2026-08-29] stale bull-case target — superseded by the then-live takeover situation and still unrebuilt after its 2026-08-28 withdrawal, not a current target**
+- ~~**Target Price: $155 (3.7x upside from $41)**~~ **[2026-07-17; updated 2026-08-29] stale bull-case target — superseded by the then-live takeover situation and still unrebuilt after its 2026-08-28 withdrawal, not a current target** **Update (2026-10-02):** the current price is $53.06 (2026-10-01 close); the current bull scenario is in the 2026-10-02 grid in §8 (FY2028 non-GAAP EPS of $7.84 × 13x, $103.24 per share), and the February scenario here is still not a current conclusion.
 
 **Catalysts:**
 - Fastlane adoption exceeds expectations (5,000+ merchants by end 2026)
@@ -954,7 +970,7 @@ While not an immediate threat, regulatory risk is asymmetric—downside is signi
 | **FCF Yield** | $55 | $75 | $120 | High |
 | **Historical P/E** | $52 | $72 | $105 | Medium |
 
-**Current Price (Feb 4, 2026):** ~~$41-42~~ historical February quote; **June 18, 2026 Nasdaq quote: $42.51**
+**Current Price (Feb 4, 2026):** ~~$41-42~~ historical February quote; **June 18, 2026 Nasdaq quote: $42.51** (historical); **Update (2026-10-02): $53.06 (2026-10-01 close)**
 
 **Implied Upside/Downside:**
 - **To Base Case ($70):** ~~+68% upside~~ historical February scenario, not a current target
@@ -1009,7 +1025,7 @@ While not an immediate threat, regulatory risk is asymmetric—downside is signi
 | Mastercard | 32x | 25x | 18x | 3.0% |
 | Block (Square) | 18x | 12x | 2.5x | 5.5% |
 | Fiserv | 22x | 14x | 4.5x | 4.0% |
-| **PayPal** | **~~9.2x~~ ~~roughly around 8x if 2026 adjusted EPS stays near $5.0-$5.5~~ ~10.0x ($53.66 ÷ the ~$5.38 FY2026 non-GAAP EPS guide, 2026-08-28)** | **6.5x historical estimate** | **1.2x historical estimate** | **~~roughly 15%-17% using June 2026 market cap~~ ~~11%-13% at the $56.56 close~~ ~12.2% on reported FCF and ~13.9% on adjusted FCF at the 2026-08-28 close of $53.66, pending Q2 rebuild** |
+| **PayPal** | **~~9.2x~~ ~~roughly around 8x if 2026 adjusted EPS stays near $5.0-$5.5~~ ~~about 10.0x ($53.66 ÷ the ~$5.38 FY2026 non-GAAP EPS guide, 2026-08-28)~~ Update (2026-10-02): 9.86x forward / 10.03x TTM non-GAAP at $53.06** | **6.5x historical estimate** | **1.2x historical estimate** | **~~roughly 15%-17% using June 2026 market cap~~ ~~11%-13% at the $56.56 close~~ ~~about 12.2% on reported FCF and about 13.9% on adjusted FCF at the 2026-08-28 close of $53.66~~ Update (2026-10-02): 14.51% TTM FCF yield at $53.06** |
 
 **Analysis:** PayPal trades at a 50-70% discount to payment processor peers. Even applying a conservative 15x P/E (half of Visa/Mastercard) implies $80+ per share.
 
@@ -1024,7 +1040,7 @@ While not an immediate threat, regulatory risk is asymmetric—downside is signi
 
 **3. FCF Yield Valuation**
 
-**Current FCF Yield:** ~~16% ($6.4B FCF / $40B market cap)~~ ~~roughly 15%-17% using ~$37.5B market cap~~ ~~11%-13% at the $56.56 close~~ old bases superseded; **~12.2% on FY2025 reported FCF ($5.6B) and ~13.9% on adjusted FCF ($6.4B) at the 2026-08-28 close of $53.66** (~$45.9B market cap), pending a Q2 rebuild.
+**Current FCF Yield:** ~~16% ($6.4B FCF / $40B market cap)~~ ~~roughly 15%-17% using ~$37.5B market cap~~ ~~11%-13% at the $56.56 close~~ old bases superseded; ~~about 12.2% on FY2025 reported FCF ($5.6B) and about 13.9% on adjusted FCF ($6.4B) at the 2026-08-28 close of $53.66 (about $45.9B market cap), pending a Q2 rebuild~~. **Update (2026-10-02):** 14.51% on TTM FCF of $6,586M, 12.3% on FY2025 reported FCF and 14.1% on adjusted FCF, at the 2026-10-01 close of $53.06 ($45,390.8M market cap).
 
 **Comparable FCF Yields:**
 - S&P 500 Average: 3-4%
@@ -1046,7 +1062,7 @@ While not an immediate threat, regulatory risk is asymmetric—downside is signi
 **PayPal Historical P/E Range (2015-2025):**
 - Peak (2021): 70x P/E
 - Average (2015-2020): 25-30x P/E
-- Current (2026): ~~9.2x P/E (10-year low)~~ historical February estimate; June 2026 forward P/E is roughly around 8x under a $5.0-$5.5 adjusted-EPS framework, pending filing/estimate refresh.
+- Current (2026): ~~9.2x P/E (10-year low)~~ historical February estimate; June 2026 forward P/E is roughly around 8x under a $5.0-$5.5 adjusted-EPS framework, pending filing/estimate refresh. **Update (2026-10-02):** 10.03x TTM non-GAAP P/E and 9.86x the FY2026 guide at the 2026-10-01 close of $53.06.
 
 **Reversion Scenarios:**
 - Conservative (12x P/E): $69/share
@@ -1061,11 +1077,76 @@ While not an immediate threat, regulatory risk is asymmetric—downside is signi
 
 **Fair Value Range: ~~$65-75~~ historical February range, not a current target**
 
-**Current Price:** ~~$41-42~~ ~~$42.51 (June 18, 2026)~~ ~~$56.56 (2026-07-17, on the takeover offer)~~ $53.66 (2026-08-28 close; the older values are historical snapshots)
+**Current Price:** ~~$41-42~~ ~~$42.51 (June 18, 2026)~~ ~~$56.56 (2026-07-17, on the takeover offer)~~ ~~$53.66 (2026-08-28 close)~~ the older values are historical snapshots; **Update (2026-10-02): $53.06 (2026-10-01 close)**
 
-**Implied Upside:** ~~55-80% to fair value~~ stale until the valuation model is rebuilt with Q1/Q2 and official filing data.
+**Implied Upside:** ~~55-80% to fair value~~ ~~stale until the valuation model is rebuilt with Q1/Q2 and official filing data.~~ **Update (2026-10-02):** the 30/40/30 scenario grid rebuilt at the 2026-10-01 close of $53.06 weights to $71.48 per share, +14.2% annualized; stance constructive, low conviction. The old upside and the old fair-value range remain void as targets, and the grid below is not a price target either.
 
 **Key Takeaway:** ~~PayPal is trading at a significant discount to intrinsic value across multiple valuation methods. Even conservative assumptions (5% revenue growth, 20% margins, 12x P/E) imply 60%+ upside.~~ **[2026-07-17; updated 2026-08-29] the old "60%+ upside" intrinsic-value math is stale — the fundamental valuation frame was superseded by the then-live takeover situation and, after that offer was withdrawn on 2026-08-28, remains unrebuilt rather than restored (see the August 29 update).** The discount reflects real risks: branded checkout decline, competitive pressure, and execution uncertainty. The stock is cheap for a reason, but may be oversold.
+
+### 2026-10-02 Valuation Rebuild: Current Multiples, Scenario Grid, Sensitivity and Reverse Test (anchor: 2026-10-01 close of $53.06)
+
+**Choice of method.** PayPal's non-GAAP measures do not exclude stock-based compensation (Q2'26 non-GAAP operating-income adjustments were only $80M against $275M of SBC in the quarter), and capex is light, so the exit basis is **FY2028 non-GAAP diluted EPS × an exit P/E**, with buybacks entering through the share count. This section gives no price target; what follows are assumption ranges.
+
+**Current multiples (anchor: 2026-10-01 close of $53.06):**
+
+| Method | Value | Key assumption | Confidence |
+|--------|-------|----------------|------------|
+| Market capitalization | $45,390.8M | 855,460,874 shares (10-Q cover, 2026-07-22) × $53.06 | High (primary filing) |
+| Enterprise value | $43,525.8M | Market cap less net cash of $1,865M (cash, cash equivalents and investments of $15,265M less short-term debt of $2,505M and long-term debt of $10,895M at 2026-06-30); excludes the customer-funds accounts shown separately on the balance sheet | High |
+| P/E (TTM non-GAAP diluted EPS $5.29) | **10.03x** | Q3'25 $1.34 + Q4'25 $1.23 + Q1'26 $1.34 + Q2'26 $1.38 | High |
+| P/E (TTM GAAP diluted EPS $5.29) | 10.03x | $1.30 + $1.53 + $1.21 + $1.25 | High |
+| P/E (FY2026 non-GAAP EPS guide of about $5.38) | **9.86x** | Guidance raised on 2026-07-28; excludes potential second-half transformation charges | Medium |
+| EV / TTM revenue ($34,128M) | 1.28x | Q3'25-Q2'26 | High |
+| EV / TTM non-GAAP operating income ($6,166M) | 7.06x | Q3'25 $1,568M + Q4'25 $1,550M + Q1'26 $1,541M + Q2'26 $1,507M | High |
+| TTM FCF yield ($6,586M) | **14.51%** (P/FCF 6.89x) | FCF = operating cash flow less capex; TTM adjusted FCF of $7,926M gives 17.46%, the difference being the timing of BNPL receivables held for sale | Medium |
+| FY2026 buyback guide / dividend yield | 13.22% / 1.06% | $6B of buybacks (earnings presentation); $0.14 quarterly dividend | Medium |
+
+**Scenario grid (weights are multiples of 10 summing to 100; holding period 2026-10-02 to 2028-12-31, 821 days = 2.248 years):**
+
+Common mechanics:
+- **Exit value:** FY2028 non-GAAP diluted EPS × the exit P/E (a trailing multiple as of 2028-12-31), plus nine quarterly dividends of $0.14 over the holding period, $1.26 in total (not reinvested).
+- **Starting point:** FY2026 non-GAAP net income = the starting EPS × 868M average diluted shares (H1 actual 901M, H2 estimated at about 835M).
+- **Share count:** from 855.46M on 2026-07-22; second-half 2026 buybacks of $2.6B at an average $55 (consistent with the $6B FY2026 buyback guide and the roughly $3.0B bought in H1) give about 813.6M at year-end. In 2027-2028 buybacks equal FCF less dividends, so corporate net cash stays at the $1,865M of 2026-06-30; gross issuance from stock compensation is 12M shares a year; diluted shares exceed basic by 5M.
+- **Outside the grid:** takeover bids, regulatory penalties and a credit-loss cycle are not in the grid.
+
+| Scenario | FY2026 starting EPS / 2027, 2028 non-GAAP net income growth / FY2028 net income | FCF conversion (FCF ÷ non-GAAP net income); buyback price | Exit shares / exit net cash | FY2028 non-GAAP EPS | Exit P/E | Value per share (incl. $1.26 dividends) | Versus $53.06 | Annualized | Weight |
+|----------|------|------|------|------|------|------|------|------|------|
+| Bull | $5.45 / +7%, +8% / $5,467M | 1.25; $65 | 648.5M / $1,865M | $7.84 | **13x** | **$103.24** | +94.6% | **+34.5%** | 30% |
+| Base | $5.38 / +1%, +3% / $4,858M | 1.15; $57 | 659.7M / $1,865M | $6.90 | **10x** (today's TTM level, no re-rating assumed) | **$70.26** | +32.4% | **+13.3%** | 40% |
+| Bear | $5.25 / −6%, −5% / $4,069M | 1.00; $45 | 671.3M / $1,865M | $5.72 | **7x** (the 52-week low of $38.46 was about 7.2x FY2025 non-GAAP EPS) | **$41.33** | −22.1% | **−10.5%** | 30% |
+| **Weighted** | - | - | - | - | - | **$71.48** | **+34.7%** | **+14.2%** | **100%** |
+
+Conversion reference points: FY2025 reported FCF of $5,564M ÷ non-GAAP net income of about $5.1B ≈ 1.08, about 1.25 on adjusted FCF; TTM FCF of $6,586M against TTM non-GAAP net income of about $4.9B ≈ 1.35. The base case's 1.15 sits in the lower middle of that range.
+
+**The probability-weighted annualized return of +14.2% is 6.2 points above the 8% hurdle and 4.2 points above 10%.**
+
+**Sensitivity test (this is what sets conviction at low):**
+
+| Test | Setting | Weighted value per share | Weighted annualized return | Clears 8%? |
+|------|---------|------|------|------|
+| Base | Exits 13x / 10x / 7x; growth as above; weights 30/40/30 | $71.48 | +14.2% | Yes |
+| Exit multiples −2 turns | 11x / 8x / 5x | $57.81 | +3.9% | **No** |
+| Exit multiples −3 turns | 10x / 7x / 4x | $50.98 | −1.8% | **No** |
+| Exit multiples +2 turns | 15x / 12x / 9x | $85.14 | +23.4% | Yes |
+| Slower growth | 2027/2028 net income: bull +3%/+4%, base −3%/−2%, bear −10%/−9% | $65.16 | +9.6% | Yes |
+| Faster growth | Bull +10%/+11%, base +4%/+6%, bear −3%/−2% | $76.25 | +17.5% | Yes |
+| Both | Slower growth plus exit multiples −2 turns | $52.74 | −0.3% | **No** |
+| Re-weighted toward bear | 20/40/40 | $65.28 | +9.7% | Yes |
+| Heavily bear-weighted | 20/30/50 | $62.39 | +7.5% | **No (just)** |
+
+**The positive skew holds at central assumptions but is not robust.** It survives slower growth and a 20/40/40 weighting, but not a two-turn compression of every exit multiple (+3.9%), nor slower growth combined with lower multiples (−0.3%). The price at which the weighted annualized return falls to 8% is **$60.13**, close to the withdrawn Stripe/Advent offer of $60.50 (press-sourced).
+
+**What is priced in: the expectations gap.** Working backwards, to earn 8% (10%) annualized the shares must be worth $63.08 ($65.74) at the end of 2028; merely holding today's price requires $53.06. For each exit multiple, the table solves for the constant 2027-2028 non-GAAP net income growth rate (applied to the FY2026 base of $4,670M). FCF, buybacks and the share count move with the path: 1.15 FCF conversion, buybacks equal to FCF less dividends at an average $57, and 12M shares a year of gross issuance.
+
+| Exit P/E | Break-even (0%): growth needed per year | FY2028 net income / EPS needed for 8% | Growth needed per year | FY2028 net income / EPS needed for 10% | Growth needed per year |
+|----------|------|------|------|------|------|
+| 7x | +5.1% | $6,011M / $8.83 | **+13.5%** | $6,231M / $9.21 | **+15.5%** |
+| 10x | −10.3% | $4,404M / $6.18 | **−2.9%** | $4,571M / $6.45 | **−1.1%** |
+| 13x | −20.4% | $3,480M / $4.76 | **−13.7%** | $3,615M / $4.96 | **−12.0%** |
+
+Holding the base-case operating path fixed and varying only the exit multiple: 9x gives $63.36 (+8.2% annualized), 8x gives $56.46 (+2.8%) and 7x gives $49.56 (−3.0%).
+
+**The expectations gap in one sentence:** at $53.06, if the exit P/E holds at today's roughly 10x, non-GAAP net income can fall by up to about 2.9% a year in 2027-2028 and still earn the 8% hurdle (holding value tolerates about −10.3% a year), because about $5-6B a year of buybacks takes the share count to about 659.7M by end-2028 (about 23% below 855.46M); only if the market compresses the multiple further to 7x does it take about 13.5% annual growth. Our base case is +1%/+3% at 10x: **we agree growth is weak; we disagree that the multiple must compress further from about 10x.**
 
 ---
 
@@ -1158,9 +1239,66 @@ While not an immediate threat, regulatory risk is asymmetric—downside is signi
 - **Bear Signal:** Market grows but PayPal share declines
 - **Impact:** High - rising tide lifts all boats, but share matters
 
+### Monitoring Checklist (2026-10-02; corresponds one-to-one with monitoring[] in reports.json)
+
+1. **`branded-checkout-growth`** (demand / either)
+   - Metric: Branded checkout (online) TPV growth, FX-neutral, year over year (PayPal branded checkout, Pay with Venmo and eBay)
+   - Trigger: Below +1% in any quarter (downgrade trigger); at or above +4% for two consecutive quarters (one of the upgrade conditions)
+   - Latest reading: Per the 2Q'26 earnings presentation: +2% in Q2 2026 (Q1 2026 +2%, Q2 2025 +5%), 28% of total TPV; about +1% in Q4 2025 (February 2026 reporting). The company says branded checkout further stabilized, but growth remains well below the mid-single digits the bull case needs.
+   - Next check: Q3 2026 results and earnings presentation (expected late October 2026; date not yet announced by the issuer) (2026-10)
+2. **`venmo-momentum`** (demand / bull)
+   - Metric: Venmo TPV growth, FX-neutral, year over year
+   - Trigger: Below +10% in any quarter
+   - Latest reading: Per the 2Q'26 earnings presentation: Q2 2026 Venmo TPV of $93,806M, +14% FX-neutral (Q1 2026 also +14%, Q2 2025 +12%); Venmo debit card monthly active accounts grew more than 50% and Pay with Venmo monthly active accounts about 30%.
+   - Next check: Q3 2026 results and earnings presentation (expected late October 2026; date not yet announced by the issuer) (2026-10)
+3. **`tm-dollar-ex-interest`** (pricing / either)
+   - Metric: Transaction margin dollars (TM$) excluding interest on customer balances, year-over-year growth, and transaction margin
+   - Trigger: Negative year over year in any quarter (downgrade trigger); up 5% or more year over year in a quarter (one of the upgrade conditions)
+   - Latest reading: Q2 2026 TM$ excluding interest of $3,619M, +3% year over year; TM$ of $3,900M, +1%; transaction margin 44.9% (Q2 2025: 46.4%); interest on customer balances $281M (Q2 2025: $318M). FY2026 guidance: TM$ about $15.6B, about $14.5B excluding interest; Q3 guidance: TM$ slightly positive, ex-interest slightly positive to low single digits.
+   - Next check: Q3 2026 results and earnings presentation (expected late October 2026; date not yet announced by the issuer) (2026-10)
+4. **`eps-guidance-delivery`** (execution / either)
+   - Metric: Non-GAAP diluted EPS against guidance
+   - Trigger: Q3 2026 non-GAAP EPS below $1.27, or FY2026 non-GAAP EPS guidance cut below $5.25 (downgrade trigger); an FY2027 outlook implying non-GAAP EPS growth of 8% or more (one of the upgrade conditions)
+   - Latest reading: Q2 2026 non-GAAP EPS of $1.38 (−1% year over year, against a May guide of about −9%), GAAP EPS $1.25; FY2026 non-GAAP EPS guidance raised to about $5.38 (FY2025: $5.31), excluding potential second-half transformation charges; FY2026 GAAP EPS guided to a mid-single-digit decline; Q3 non-GAAP EPS guided to a low-single-digit decline (Q3 2025: $1.34).
+   - Next check: Q3 2026 results and earnings presentation (expected late October 2026; date not yet announced by the issuer) (2026-10)
+5. **`buyback-capacity`** (leverage-solvency / bull)
+   - Metric: Quarterly repurchases, free cash flow and corporate net cash (cash, cash equivalents and investments minus debt)
+   - Trigger: Quarterly repurchases below $1.0B for two consecutive quarters, or FY2026 adjusted FCF guidance cut below $6B, or corporate net cash turning negative
+   - Latest reading: Q2 2026 repurchases of about 33M shares for $1.5B (treasury-stock outflow of $1,552M in the cash-flow statement); trailing twelve months about 111M shares for $6.0B. H1 2026 FCF of $2,678M against repurchases of $3,052M and dividends of $252M, an excess of $626M over FCF, while debt rose by about $1.8B; corporate net cash fell from about $3.2B at 2025-12-31 ($14.8B − $11.6B) to $1,865M at 2026-06-30 ($15,265M − $13,400M). FY2026 guidance: $6B of repurchases, adjusted FCF of $6B+, capex of about $1B.
+   - Next check: Q3 2026 10-Q cash-flow statement and balance sheet (2026-10)
+6. **`valuation-skew`** (valuation / either)
+   - Metric: Share price against the scenario grid's weighted annualized return
+   - Trigger: A close above $60.13, the price at which the weighted annualized return falls below 8%, without an upward revision to the base-case path
+   - Latest reading: 2026-10-01 close of $53.06; TTM non-GAAP P/E of 10.03x; 30/40/30 weighted value of $71.48 per share, +14.2% annualized; 52-week intraday range $38.46-$79.22 (CNBC).
+   - Next check: daily price ledger (2026-10)
+7. **`strategic-optionality`** (optionality / either)
+   - Metric: M&A and strategic actions (takeover proposals, definitive agreements, strategic reviews)
+   - Trigger: PayPal discloses a takeover proposal, a definitive agreement or a strategic review in an 8-K (triggers a re-run of the grid; not tied directly to a stance change)
+   - Latest reading: The unsolicited Stripe/Advent proposal of about $60.50 per share was reported on 2026-07-15 and its withdrawal on 2026-08-28 (Bloomberg, Axios), both press-sourced with no 8-K; PayPal filed no 8-K between 2026-07-28 and 2026-10-02. The 2026-09-22 checkout partnership with Meta's Muse AI agent comes from trade-press reports, with no financial terms disclosed.
+   - Next check: SEC EDGAR 8-K filings (continuous) (2026-10)
+
 ---
 
 ## 10. Conclusion
+
+### 2026-10-02 Stance Backfill: Expectations Gap, Stance and Triggers
+
+**(1) The expectations gap in one sentence.** At $53.06, if the exit P/E holds at today's roughly 10x, non-GAAP net income can fall by up to about 2.9% a year in 2027-2028 and still earn the 8% hurdle (holding value tolerates about −10.3% a year), because about $5-6B a year of buybacks takes the share count to about 659.7M by end-2028 (about 23% below 855.46M); only if the market compresses the multiple further to 7x does it take about 13.5% annual growth. Our base case is +1%/+3% at 10x: **we agree growth is weak; we disagree that the multiple must compress further from about 10x.**
+
+**(2) Stance and conviction, derived from the scenario weights.**
+- **The grid:** the 30/40/30 grid (bull $103.24 / base $70.26 / bear $41.33) weights to **$71.48 per share, +34.7% against $53.06, or +14.2% annualized** over 2.248 years, 6.2 points above the 8% hurdle; the bull case is +94.6% against −22.1% in the bear case, and the base case earns +13.3% annualized without assuming any re-rating. Hence **stance: constructive**.
+- **Why not bullish:** the skew is fragile to the exit multiple: cutting every exit multiple by two turns takes it to +3.9%, and slower growth plus lower multiples gives −0.3%.
+- **Why conviction is low:**
+  - (a) The fragility to the exit multiple above.
+  - (b) The return rests mostly on buybacks: in H1 2026 repurchases and dividends exceeded FCF by $626M, and corporate net cash fell from about $3.2B to $1,865M; if buybacks slow, the share-shrink leg gets shorter.
+  - (c) The core business is still weak: in Q2 2026 branded checkout grew +2%, TM$ +1%, the non-GAAP operating margin fell 248 bps, and interest on customer balances dropped from $318M to $281M.
+- **Why not neutral-watch:** at central assumptions the weighted return clears the 8% hurdle by 6.2 points, the base case uses only today's roughly 10x multiple, corporate net cash is positive, and the TTM FCF yield is 14.51%; a neutral label would describe the uncertainty, not the arithmetic.
+
+**This is a valuation and capital-return judgment, not a claim that branded checkout is fixed, and it is not a price target.**
+
+**(3) Upgrade and downgrade triggers (identical clause by clause to `stanceTriggers` in reports.json).**
+- **Upgrade:** Upgrade to bullish if all of the following hold: branded checkout (online) TPV growth, FX-neutral, at or above +4% for two consecutive quarters; TM$ excluding interest on customer balances up 5% or more year over year in a quarter; and an FY2027 outlook from the company implying non-GAAP EPS growth of 8% or more.
+- **Downgrade:** Downgrade to neutral-watch if any one of the following occurs: branded checkout (online) TPV growth, FX-neutral, below +1% in any quarter; TM$ excluding interest on customer balances negative year over year in any quarter; Q3 2026 non-GAAP EPS below $1.27, or FY2026 non-GAAP EPS guidance cut below $5.25; quarterly repurchases below $1.0B for two consecutive quarters, or FY2026 adjusted FCF guidance cut below $6B, or corporate net cash turning negative; or a close above $60.13 without an upward revision to the base-case path.
 
 ### Investment Summary
 
@@ -1176,7 +1314,9 @@ PayPal is a deeply undervalued cash machine that can drive 15-20% annual EPS gro
 
 PayPal is experiencing structural market share loss as device-native wallets (Apple Pay with 92% of U.S. mobile wallet transactions) and modern processors (Stripe with 45% of U.S. market) capture the next generation of payments. The 1% branded checkout growth in Q4 2025 is not temporary—it's the beginning of terminal decline. Fastlane is 10 years too late to compete with Stripe, Venmo monetization will alienate users, and even aggressive buybacks cannot offset revenue erosion. The stock deserves a low multiple as a melting ice cube.
 
-### Our View: Neutral with Medium Conviction
+### Our View: ~~Neutral with Medium Conviction~~ Constructive with Low Conviction (Update 2026-10-02)
+
+~~Neutral with medium conviction~~ **Update (2026-10-02):** the stance is now constructive with low conviction; the derivation is in the 2026-10-02 subsection at the start of this section. The "Why Not Bullish / Why Not Bearish" reasons below are kept as the historical February-to-August argument, most of which still holds.
 
 We rate PayPal **NEUTRAL** because:
 
@@ -1187,7 +1327,7 @@ We rate PayPal **NEUTRAL** because:
 4. ❌ Fastlane adoption (1,000 merchants) is too early to validate
 
 **Why Not Bearish:**
-1. ✅ Valuation screens cheap on a rough cash-flow basis. ~~(about 15%-17% FCF yield using the 2025 FCF range and June 2026 market cap)~~ **[2026-07-17; re-anchored 2026-08-29] old-basis FCF yield; ~~at the $56.56 close it is 11%-13%~~ at the 2026-08-28 close of $53.66 it is ~12.2% on reported FCF and ~13.9% on adjusted FCF, and the fundamental frame — superseded by the then-live takeover situation, which ended 2026-08-28 — is still pending a Q2 rebuild**
+1. ✅ Valuation screens cheap on a rough cash-flow basis. ~~(about 15%-17% FCF yield using the 2025 FCF range and June 2026 market cap)~~ **[2026-07-17; re-anchored 2026-08-29] old-basis FCF yield; ~~at the $56.56 close it is 11%-13%~~ ~~at the 2026-08-28 close of $53.66 it is about 12.2% on reported FCF and about 13.9% on adjusted FCF, and the fundamental frame is still pending a Q2 rebuild~~** **Update (2026-10-02):** at the 2026-10-01 close of $53.06 the TTM FCF yield is 14.51% and the Q2-basis grid has been rebuilt in §8
 2. ✅ Fortress balance sheet with $6B annual FCF and minimal debt
 3. ✅ Buybacks and cost discipline can support per-share economics if revenue does not deteriorate
 4. ✅ Multiple growth vectors (Venmo, BNPL, Fastlane) could surprise
@@ -1234,7 +1374,8 @@ PayPal is at an inflection point. The next 6-12 months will determine whether th
 - Stock price and market cap data from multiple financial platforms (February 2026)
 - Nasdaq quote API for PYPL (https://api.nasdaq.com/api/quote/PYPL/info?assetclass=stocks; historical June 18, 2026 quote: $42.51, market cap ~$37.5B)
 - Stripe/Advent takeover offer for PayPal (~$60.50/share, ~$53B): Reuters/CNBC/Bloomberg/Axios/TechCrunch, 2026-07-15; PYPL market quote $56.56, 2026-07-17 (historical anchor, superseded)
-- Advent/Stripe consortium abandons the acquisition plan: Bloomberg, 2026-08-28 (carried by Yahoo Finance), independently confirmed by Axios; share count 855,460,874 from the PayPal FY2026 Q2 Form 10-Q cover page (SEC EDGAR accession 0001633917-26-000082, filed 2026-07-28); PYPL close $53.66, 2026-08-28 (Nasdaq completed regular session)
+- Advent/Stripe consortium abandons the acquisition plan: Bloomberg, 2026-08-28 (carried by Yahoo Finance), independently confirmed by Axios; share count 855,460,874 from the PayPal FY2026 Q2 Form 10-Q cover page (SEC EDGAR accession 0001633917-26-000082, filed 2026-07-28); PYPL close $53.66, 2026-08-28 (Nasdaq completed regular session; historical anchor, updated 2026-10-02)
+- October 2, 2026 update (stance backfill): PYPL close of $53.06 on 2026-10-01 (Nasdaq historical-quote API cross-checked with the CNBC quote API); Q2 2026 balance sheet, income statement and cash-flow statement from the 2Q'26 earnings release, Exhibit 99.1 (SEC accession 0001633917-26-000080); the FY2026 guidance for $6B of buybacks, adjusted FCF of $6B+ and TM$ of about $15.6B, plus branded-checkout and Venmo TPV growth and the quarterly FCF / adjusted FCF table, from the 2Q'26 earnings presentation (investor.pypl.com); Q1'26 and Q4'25 quarterly EPS from the 1Q'26 and 4Q'25 earnings releases (accessions 0001633917-26-000065 / -000021); filing list and Forms 4 from SEC EDGAR (CIK 1633917); the Meta Muse checkout partnership from trade-press reports by PaymentExpert (2026-09-23) and The Paypers (2026-09-24); the 2026-10-27 Q3 2026 results date is a third-party expectation, not confirmed by the issuer
 - Analyst estimates and ratings from Wall Street research
 
 **June 2026 Update Sources:**
@@ -1258,6 +1399,7 @@ PayPal is at an inflection point. The next 6-12 months will determine whether th
 - WACC: 10%
 - Terminal Growth: 3%
 - Share buybacks: $6B annually (15% of market cap)
+- **Update (2026-10-02):** the assumptions above are the February framework's and are historical. The current base case is the 2026-10-02 grid in §8: FY2026 non-GAAP EPS of about $5.38 as the start, 2027 and 2028 non-GAAP net income +1%/+3%, 1.15 FCF conversion, buybacks equal to FCF less dividends at an average $57, 12M shares a year of gross issuance, and a 10x exit P/E.
 
 **Peer Comparison:**
 - Payment processors: Visa, Mastercard, Block, Fiserv
@@ -1279,4 +1421,4 @@ This report was generated using publicly available information and AI-assisted r
 ---
 
 **Report Completed:** February 4, 2026
-**Next Update:** Post Q2 2026 earnings and official filing cross-check
+**Next Update:** ~~Post Q2 2026 earnings and official filing cross-check~~ **Update (2026-10-02):** after the Q3 2026 results (expected late October 2026)
