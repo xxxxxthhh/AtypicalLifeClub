@@ -270,11 +270,11 @@
       "symbol": "IGV",
       "status": "ok",
       "attemptedAt": "2026-10-01",
-      "baseDate": "2026-08-07",
-      "basePrice": 102.69,
+      "baseDate": "2026-10-01",
+      "basePrice": 108.23,
       "lastDate": "2026-10-01",
       "lastClose": 108.23,
-      "changePct": 5.4,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {

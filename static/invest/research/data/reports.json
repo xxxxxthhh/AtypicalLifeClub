@@ -3991,7 +3991,7 @@
     "ticker": "CBOE BZX: IGV",
     "title": "IGV 深度研究报告 - Software-mageddon后的软件行业ETF抄底机会？",
     "titleEn": "IGV Deep Research Report - A Buying Opportunity After the Software-mageddon?",
-    "summary": "2026-08-10 当前估值复核（iShares 2026-08-07 数据）：IGV 收盘 $102.69、NAV $102.66、溢价 0.03%、基金净资产 $14.408B、P/E 36.33 倍、费用率 0.38%。相对更正后的 2026-06-24 $86.17 历史锚点上涨 19.2%，尚低于 20% 完整重跑阈值；维持中性偏积极 / 中确信，但更高倍数与更小净资产压缩安全边际。历史纠错：Nasdaq 显示 2026-06-25 收盘为 $84.76，原 $86.17 锚点实际属于 2026-06-24。",
+    "summary": "2026-10-02 立场补录（锚点 2026-10-01 收盘 $108.23，NAV $108.15、溢价 0.07%）：基金净资产 $14.276B，iShares P/E 35.13 倍（09-30），按本报告持仓加权一致预期估算为 33.05 倍 CY2027 盈利。30/40/30 情景网格加权每份额 $111.03，至 2028 年末年化 +1.1%，低于 8% 门槛 6.9 个百分点，只有倍数与增速同时上调才过门槛。立场：谨慎 / 中确信。前 10 大持仓 61.71%（PANW、PLTR、CRWD 居前），加密资产关联持仓 4.47%。",
     "tags": [
       "ETF",
       "软件行业",
@@ -4000,7 +4000,7 @@
     ],
     "category": "tech",
     "date": "2026-02-15",
-    "lastUpdate": "2026-08-10",
+    "lastUpdate": "2026-10-02",
     "period": "2026H1",
     "versionType": "incremental",
     "versionLabel": "2026H1 Incremental Update",
@@ -4010,14 +4010,148 @@
       "en": "/invest/research/IGV_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "2026-08-07 收盘 $102.69、NAV $102.66、溢价 0.03%；相对更正后的 2026-06-24 历史锚点 +19.2%",
-      "iShares：基金净资产 $14.408B、P/E 36.33 倍、费用率 0.38%、在外份额 1.4035 亿、持仓 106 只",
-      "Nasdaq 历史纠错：$86.17 属于 2026-06-24；2026-06-25 收盘实际为 $84.76",
-      "维持中性偏积极 / 中确信；若价格偏离越过 20% 或 Q2 证据改变盈利/AI 替代框架，启动完整重跑"
+      "2026-10-01 收盘 $108.23、NAV $108.15、溢价 0.07%；基金净资产 $14.276B；2026 年迄今价格 +2.40%",
+      "iShares P/E 35.13 倍（09-30）；本报告持仓加权一致预期估算 33.05 倍 CY2027、27.20 倍 CY2028 盈利（口径混杂，已标注）",
+      "30/40/30 网格加权每份额 $111.03，年化 +1.1%，低于 8% 门槛 6.9 个百分点；28 倍退出下实现 8% 需约 19% 年盈利增长",
+      "立场：谨慎 / 中确信；前 10 大 61.71%，网络安全四大 23.08%，加密资产关联 4.47%"
     ],
-    "summaryEn": "Current valuation review dated 2026-08-10 using iShares data as of 2026-08-07: IGV closed at $102.69 versus $102.66 NAV, a 0.03% premium, with $14.408B of net assets, 36.33x P/E and a 0.38% expense ratio. The close is 19.2% above the corrected $86.17 historical anchor from 2026-06-24, still below the report's 20% full-rerun threshold. Neutral-to-Positive / Medium conviction remains, but the higher multiple and smaller net-asset base narrow the margin of safety. Historical correction: Nasdaq shows the 2026-06-25 close was $84.76; the old $86.17 anchor belongs to 2026-06-24.",
+    "summaryEn": "Stance backfill dated 2026-10-02, anchored on the 2026-10-01 close of $108.23 (NAV $108.15, 0.07% premium): net assets are $14.276B, the iShares P/E is 35.13x (09-30), and on this report's holdings-weighted consensus estimate the fund trades at 33.05x CY2027 earnings. The 30/40/30 scenario grid weights to $111.03 per unit, +1.1% annualized to end-2028, 6.9 points below the 8% hurdle; only a combined multiple-and-growth upside clears it. Stance: cautious / medium conviction. The top 10 holdings are 61.71% (led by PANW, PLTR and CRWD) and crypto-linked holdings are 4.47%.",
     "priceSymbol": "IGV",
-    "priceAsOf": "2026-08-07"
+    "priceAsOf": "2026-10-01",
+    "stance": "cautious",
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 2026-10-01 收盘 $108.23（NAV $108.15、溢价 0.07%）计，基金净资产 $14.276B、在外份额 1.320 亿；iShares P/E 35.13 倍（2026-09-30，最近财年 EPS、剔除负值），按本报告持仓加权一致预期估算（最大 30 只持仓、覆盖 83.72% 权重、口径混用 GAAP 与调整后 EPS）为 33.05 倍 CY2027、27.20 倍 CY2028 盈利。30% 牛市 / 40% 基准 / 30% 熊市（CY2027 EPS 相对一致预期 0% / −5% / −12%，CY2028-29 增速 +21.5%/+18%、+16%/+14%、+6%/+6%，退出远期 P/E 33 / 28 / 20 倍，扣 0.38% 年费）得每份额 $153.61 / $114.21 / $64.21，加权 $111.03，较 $108.23 为 +2.6%，2.248 年（2026-10-02 至 2028-12-31）年化 +1.1%，低于 8% 门槛 6.9 个百分点。敏感性：退出倍数 ±3 倍得 −3.9% 至 +5.9%，增速 ±4 个百分点得 −2.0% 至 +4.3%，加厚牛市 +3.5%，40/40/20 权重 +4.7%；只有倍数 +3 与增速 +4 同时成立才达 +9.1%。反向检验：以 28 倍退出要实现 8%，须全额兑现 CY2027 一致预期并此后每年约 19% 增长，即价格已大致假设一致预期路径。确信度为中而非低，因为低于门槛的结论在十一个变体中的十个下成立；不为高，因为一致预期口径混杂、16.28% 权重为假设、退出倍数锚点为判断、成分股 Q2 未重跑。不是 bearish-avoid，因为加权总回报仍为正、牛熊大致对称（+41.9% 对 −40.7%）。这是对当前价格下这篮子股票的估值与偏斜判断，不是认定软件需求或 AI 转型论点已经失败。",
+      "en": "At the 2026-10-01 close of $108.23 (NAV $108.15, premium 0.07%), IGV has $14.276B of net assets and 132.0M units outstanding; the iShares P/E is 35.13x (2026-09-30, latest-fiscal-year EPS, negatives excluded), and on this report's holdings-weighted consensus estimate (30 largest holdings, 83.72% of weight covered, a feed that mixes GAAP and adjusted EPS) the fund trades at 33.05x CY2027 and 27.20x CY2028 earnings. Weighting 30% bull / 40% base / 30% bear (CY2027 EPS 0% / −5% / −12% against consensus, CY2028-29 growth of +21.5%/+18%, +16%/+14% and +6%/+6%, exit forward P/E of 33x / 28x / 20x, net of the 0.38% annual fee) gives $153.61 / $114.21 / $64.21 per unit and a weighted $111.03, +2.6% against $108.23 or +1.1% annualized over 2.248 years (2026-10-02 to 2028-12-31), 6.9 points below the 8% hurdle. Sensitivity: exit multiples ±3 turns give −3.9% to +5.9%, growth ±4 points gives −2.0% to +4.3%, a fatter bull case +3.5% and 40/40/20 weights +4.7%; only +3 turns and +4 points together reach +9.1%. The reverse test shows that earning 8% at a 28x exit needs CY2027 consensus delivered in full and about 19% annual growth after it, so the price already assumes roughly the consensus path. Conviction is medium rather than low because the shortfall survives ten of eleven variants, and not high because the consensus basis is mixed, 16.28% of weight is assumed, the exit anchors are judgments and the constituent Q2 review was not rerun. It is not bearish-avoid because the weighted total return is still positive and the bull and bear outcomes are roughly symmetric (+41.9% against −40.7%). This is a valuation-and-skew judgment on the basket at today's price, not a claim that software demand or the AI-transition thesis has failed."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "持仓加权 CY2027 一致预期远期 P/E（本报告方法）降至 30 倍或以下（按 2026-10-02 基数约 $98.24），且每份额 CY2027 一致预期 EPS 未较 $3.275 下降 5% 或以上，则上调至 neutral-watch。",
+        "en": "Upgrade to neutral-watch if the holdings-weighted CY2027 consensus forward P/E (this report's method) falls to 30x or below, about $98.24 on the 2026-10-02 base, while per-unit CY2027 consensus EPS has not fallen 5% or more from $3.275.",
+        "monitoringIds": [
+          "forward-pe-valuation",
+          "consensus-earnings-revisions"
+        ]
+      },
+      "downgrade": {
+        "zh": "下列任一成立则下调至 bearish-avoid：每份额 CY2027 一致预期 EPS 较 $3.275 下降 5% 或以上（降至 $3.111 或以下），而远期 P/E 仍在 30 倍或以上；或 CRM、NOW、ADBE、WDAY、INTU 中有两家或以上在同一财报季下调全年收入指引。",
+        "en": "Downgrade to bearish-avoid if any one of the following: per-unit CY2027 consensus EPS falls 5% or more from $3.275 (to $3.111 or below) while the forward P/E stays at 30x or above; or two or more of CRM, NOW, ADBE, WDAY and INTU cut full-year revenue guidance within the same reporting season.",
+        "monitoringIds": [
+          "consensus-earnings-revisions",
+          "forward-pe-valuation",
+          "ai-seat-pricing"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-10-02",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 108.23,
+        "note": {
+          "zh": "立场补录 / Stance backfill：首个由情景网格推导的立场。30/40/30 网格加权每份额 $111.03，2.248 年年化 +1.1%，低于 8% 门槛 6.9 个百分点；只有退出倍数 +3 与增速 +4 个百分点同时成立才过门槛。此前的立场是 2 月约 $83 时给出的定性标签，从未由网格推导。",
+          "en": "Stance backfill: the first stance derived from a scenario grid. The 30/40/30 grid weights to $111.03 per unit, +1.1% annualized over 2.248 years, 6.9 points below the 8% hurdle; only +3 turns of exit multiple and +4 points of growth together clear it. The earlier label was a qualitative call set near $83 in February and was never grid-derived."
+        }
+      }
+    ],
+    "monitoring": [
+      {
+        "id": "forward-pe-valuation",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "持仓加权 CY2027 一致预期远期 P/E（本报告方法：iShares 2026-09-30 持仓文件最大 30 只、剔除 MSTR/CRCL/BMNR/RBRK，Nasdaq 年度一致预期 EPS，按日历年折算，以 2026-09-30 固定权重调和加权），iShares P/E 作交叉核对",
+          "en": "Holdings-weighted CY2027 consensus forward P/E (this report's method: the 30 largest holdings in the iShares 2026-09-30 file excluding MSTR/CRCL/BMNR/RBRK, Nasdaq yearly consensus EPS, calendarized, harmonic-weighted at fixed 2026-09-30 weights), with the iShares P/E as cross-check"
+        },
+        "trigger": {
+          "zh": "远期 P/E 降至 30 倍或以下",
+          "en": "Forward P/E at or below 30x"
+        },
+        "latest": {
+          "zh": "2026-10-02：按 2026-10-01 收盘价 $108.23 为 33.05 倍，对应每份额 CY2027 EPS $3.275；同一基数下 30 倍约 $98.24、28 倍约 $91.69。iShares P/E 在 2026-09-30 为 35.13 倍（最近财年 EPS、剔除负值）。",
+          "en": "2026-10-02: 33.05x at the 2026-10-01 close of $108.23, on per-unit CY2027 EPS of $3.275; on the same base 30x is about $98.24 and 28x about $91.69. The iShares P/E was 35.13x on 2026-09-30 (latest-fiscal-year EPS, negatives excluded)."
+        },
+        "nextCheck": "2026-11 Q3 财报季中段复算 / Recompute mid Q3 reporting season",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "consensus-earnings-revisions",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "同一固定持仓集合与权重下的每份额 CY2027 一致预期 EPS，对照 2026-10-02 基数 $3.275",
+          "en": "Per-unit CY2027 consensus EPS on the same fixed holdings set and weights, against the 2026-10-02 base of $3.275"
+        },
+        "trigger": {
+          "zh": "任一方向变动 5% 或以上（降至 $3.111 或以下，或升至 $3.438 或以上）",
+          "en": "A move of 5% or more in either direction (to $3.111 or below, or to $3.438 or above)"
+        },
+        "latest": {
+          "zh": "2026-10-02：基数每份额 $3.275；同一集合 CY2028 一致预期 $3.979（+21.5%）。MSFT 对应 23.9 倍、ORCL 16.9 倍 CY2027 一致预期 EPS；PANW（158.8 倍）与 CRWD（1,270.8 倍）在该数据源中按接近 GAAP 的 EPS 计。",
+          "en": "2026-10-02: base $3.275 per unit; same-set CY2028 consensus $3.979 (+21.5%). MSFT trades at 23.9x and ORCL at 16.9x CY2027 consensus EPS; PANW (158.8x) and CRWD (1,270.8x) sit on GAAP-like EPS in the feed."
+        },
+        "nextCheck": "2026-12 Q3 财报季结束后 / After the Q3 reporting season",
+        "nextCheckDate": "2026-12"
+      },
+      {
+        "id": "ai-seat-pricing",
+        "thesis": "bear",
+        "theme": "pricing",
+        "metric": {
+          "zh": "按席位收费的应用软件龙头 CRM、NOW、ADBE、WDAY、INTU 的全年收入指引（2026-09-30 合计占基金 15.71%）",
+          "en": "Full-year revenue guidance at the seat-based application leaders CRM, NOW, ADBE, WDAY and INTU (together 15.71% of the fund on 2026-09-30)"
+        },
+        "trigger": {
+          "zh": "五家中有两家或以上在同一财报季下调全年收入指引",
+          "en": "Two or more of the five cut full-year revenue guidance within the same reporting season"
+        },
+        "latest": {
+          "zh": "2026-10-02：本次未在成分股层面重新核验（数据缺口）。按日历年折算的 CY2027 至 CY2028 一致预期 EPS 增速：CRM +10.1%、ADBE +11.4%、INTU +14.1%、NOW +23.6%、WDAY +26.0%（Nasdaq 一致预期）。",
+          "en": "2026-10-02: not re-verified at the constituent level in this pass (data gap). Calendarized consensus CY2027-to-CY2028 EPS growth: CRM +10.1%, ADBE +11.4%, INTU +14.1%, NOW +23.6%, WDAY +26.0% (Nasdaq consensus)."
+        },
+        "nextCheck": "2026-12 NOW/CRM/WDAY/INTU/ADBE 财报 / NOW, CRM, WDAY, INTU and ADBE reports",
+        "nextCheckDate": "2026-12"
+      },
+      {
+        "id": "top-holding-concentration",
+        "thesis": "bear",
+        "theme": "concentration",
+        "metric": {
+          "zh": "前 10 大权重与最大单一持仓（iShares 持仓文件）",
+          "en": "Top-10 weight and largest single holding (iShares holdings file)"
+        },
+        "trigger": {
+          "zh": "前 10 大权重超过 65%，或任一单一持仓超过 10%",
+          "en": "Top-10 weight above 65%, or any single holding above 10%"
+        },
+        "latest": {
+          "zh": "2026-09-30：前 10 大 61.71%；PANW 9.66%、PLTR 8.99%、CRWD 8.87%（前 3 大 27.52%）；PANW、CRWD、FTNT、ZS 合计 23.08%。",
+          "en": "2026-09-30: top 10 = 61.71%; PANW 9.66%, PLTR 8.99%, CRWD 8.87% (top three 27.52%); PANW, CRWD, FTNT and ZS together 23.08%."
+        },
+        "nextCheck": "2026-12 季末持仓文件 / Quarter-end holdings file",
+        "nextCheckDate": "2026-12"
+      },
+      {
+        "id": "crypto-linked-exposure",
+        "thesis": "bear",
+        "theme": "concentration",
+        "metric": {
+          "zh": "加密资产储备、稳定币与比特币挖矿类持仓（MSTR、CRCL、BMNR、HUT、RIOT、WULF、CIFR、CORZ、MARA、CLSK）合计权重",
+          "en": "Combined weight of crypto-treasury, stablecoin and bitcoin-mining holdings (MSTR, CRCL, BMNR, HUT, RIOT, WULF, CIFR, CORZ, MARA, CLSK)"
+        },
+        "trigger": {
+          "zh": "合计权重超过 6%",
+          "en": "Combined weight above 6%"
+        },
+        "latest": {
+          "zh": "2026-09-30：4.47%（MSTR 1.93%、CRCL 0.57%、BMNR 0.55%、HUT 0.33%、RIOT 0.24%、WULF 0.22%、CIFR 0.19%、CORZ 0.18%、MARA 0.15%、CLSK 0.11%）。",
+          "en": "2026-09-30: 4.47% (MSTR 1.93%, CRCL 0.57%, BMNR 0.55%, HUT 0.33%, RIOT 0.24%, WULF 0.22%, CIFR 0.19%, CORZ 0.18%, MARA 0.15%, CLSK 0.11%)."
+        },
+        "nextCheck": "2026-12 季末持仓文件 / Quarter-end holdings file",
+        "nextCheckDate": "2026-12"
+      }
+    ]
   },
   {
     "id": "airbnb-2026",
