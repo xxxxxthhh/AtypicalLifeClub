@@ -1,5 +1,30 @@
 [
   {
+    "id": "synopsys-amazon-aoip-agreement-2026-09-30",
+    "date": "2026-09-30",
+    "title": {
+      "zh": "Synopsys 与 Amazon 宣布多年期、逾 $1B 的 application-optimized IP 协议",
+      "en": "Synopsys and Amazon announce a multi-year, $1B+ application-optimized IP agreement"
+    },
+    "detail": {
+      "zh": "据 [Synopsys 2026-09-30 新闻稿](https://news.synopsys.com/2026-09-30-Synopsys-and-Amazon-Announce-Strategic,-Multi-year-IP-Agreement-for-Custom-Silicon-Collaboration-Also-Extends-to-Cloud-and-AI-Powered-Engineering)，公司与 Amazon 宣布多年期、逾 $1B 的 IP 协议，将 silicon IP 业务扩展至 application-optimized IP（AOIP），Amazon 为首要客户，商业模式向 license-plus-royalty 演进，旨在随生产量增长创造价值。协议同时扩大 Amazon 对 Synopsys EDA、仿真与分析及 agentic AI 技术的使用；双方计划在 Trainium 与 Graviton 上优化 Synopsys 软件。本条是既有 semicap-eda-capex-commitment 规则下的一项 EDA/IP 承诺层观测，不证明规则的全部条件已满足，也不证明 capex 已成为可设计完成的供给。新闻稿未提供逐期合同金额或收入确认安排，不能据此推导已确认收入、backlog 增量或已执行资本开支。此信号关联 design-ip-pullthrough 的后续核验，不更新其 reading 或 readingAsOf，也不重新裁定报告估值或立场。",
+      "en": "In its [September 30, 2026 release](https://news.synopsys.com/2026-09-30-Synopsys-and-Amazon-Announce-Strategic,-Multi-year-IP-Agreement-for-Custom-Silicon-Collaboration-Also-Extends-to-Cloud-and-AI-Powered-Engineering), Synopsys announced a multi-year IP agreement of more than $1B with Amazon, expanding its silicon IP business into application-optimized IP (AOIP) with Amazon as lead customer. The business model evolves toward license plus royalty, intended to create value as production volumes grow. The agreement also expands Amazon's use of Synopsys EDA, simulation and analysis, and agentic AI technologies; the companies plan to optimize Synopsys software on Trainium and Graviton. This is one commitment-level EDA/IP observation under the existing semicap-eda-capex-commitment rule, not proof that all conditions of that rule are met or that capex has become design-complete supply. The release does not provide per-period contract amounts or revenue-recognition terms; it cannot establish recognised revenue, incremental backlog, or executed capex. The signal links to subsequent design-ip-pullthrough verification without changing its reading or readingAsOf, or re-adjudicating report valuation or stance."
+    },
+    "crossChecks": [
+      "semicap-eda-capex-commitment"
+    ],
+    "tickers": [
+      "AMZN",
+      "SNPS"
+    ],
+    "reportIds": [
+      "synopsys-2026"
+    ],
+    "monitoringRefs": [
+      "synopsys-2026:design-ip-pullthrough"
+    ]
+  },
+  {
     "id": "oracle-project-jupiter-force-majeure-2026-09",
     "date": "2026-09-24",
     "title": {
