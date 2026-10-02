@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -669,6 +669,17 @@
       "sourceUrl": null,
       "sourceType": "monitoring",
       "verifiedAt": "2026-09-25"
+    },
+    {
+      "reportId": "applovin-2026",
+      "company": "AppLovin",
+      "expectedDate": "2026-11",
+      "precision": "month",
+      "status": "estimated",
+      "session": "not-applicable",
+      "sourceUrl": null,
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-10-02"
     }
   ]
 }
