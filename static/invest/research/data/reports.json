@@ -4507,7 +4507,7 @@
     "ticker": "NASDAQ: ABNB",
     "title": "Airbnb 深度研究报告 - 全球短租霸主的增长再加速之问",
     "titleEn": "Airbnb Deep Research Report - Can the Global Short-Term Rental Leader Re-Accelerate Growth?",
-    "summary": "Q2 2026营收$36.08亿(+17% Y/Y)、净利润$8.16亿(净利率23%)、调整后EBITDA $12.61亿(利润率35%)、FCF $12.53亿，间夜及座位预订1.483亿(+10%，较Q1加速)；公司同时上调全年营收增速指引至\"至少中双位数\"、调整后EBITDA利润率至\"至少35.5%\"。上一版最主要的警示项——TTM自由现金流质量——本季实质缓解，TTM FCF回升至$48.27亿。2026-08-08 已按财报后首个完整交易时段（2026-08-07 收盘 $178.07，单日+17.43%）完成重锚：市值$1,049.9亿、EV $953.4亿，TTM P/E 39.0x、P/S 8.0x、P/FCF 21.8x、EV/调整后EBITDA 约20.5x、PEG 约2.3x。发布前锚定的\"倍数不升反降\"结论已被这一交易日反转。完整复核 Q2 论点与当前估值后维持中性偏积极·中等确信：更强增长和现金转化抵消更高倍数，但 39x 阻止上调；前瞻EPS与目标价区间因缺乏可复核来源仍为review-pending。",
+    "summary": "Q2 2026营收$36.08亿（报告口径+17%、剔除汇率+13%）、净利润$8.16亿、调整后EBITDA $12.61亿（利润率35%）、FCF $12.53亿，TTM FCF $48.27亿；全年营收增速指引上调至\"至少中双位数\"、调整后EBITDA利润率至\"至少35.5%\"。2026-10-02 按 2026-10-01 收盘 $160.47 重锚：市值$946.1亿、EV $849.5亿，TTM P/E 35.2x、P/FCF 19.6x、P/S 7.2x、EV/调整后EBITDA 约18.3x，一致预期 FY2026E/FY2027E P/E 30.3x/25.4x。把 SBC（约占营收13%）计为成本、以 FY2028 GAAP EPS 估值，30/40/30 情景网格加权每股 $180.86、年化 +5.5%，低于 8% 门槛 → 立场补录为谨慎·低确信：市场在为约14%的增长者定价，我们看到的是约12%。价格回落至约 $152 即转 neutral-watch。新增风险：Meta Muse 等 AI 代理分流（09-23 单日 −7.56%），内部人 08-07 至 09-28 卖出约 $2.257 亿、零买入。",
     "tags": [
       "在线旅游",
       "共享经济",
@@ -4516,7 +4516,7 @@
     ],
     "category": "tech",
     "date": "2026-02-13",
-    "lastUpdate": "2026-08-08",
+    "lastUpdate": "2026-10-02",
     "period": "2026H1",
     "versionType": "incremental",
     "versionLabel": "Q2 2026 Incremental Update + 2026-08-08 Re-anchor",
@@ -4526,16 +4526,172 @@
       "en": "/invest/research/Airbnb_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "股价$178.07(2026-08-07收盘，单日+17.43%)、市值$1,049.9亿(A+B类5.896亿股口径)、EV $953.4亿",
-      "重锚后倍数全面走高：TTM P/E 39.0x、P/S 8.0x、P/FCF 21.8x、EV/调整后EBITDA 约20.5x、EV/EBIT 34.8x、PEG 约2.3x",
-      "Q2 2026营收+17%、间夜+10%(较Q1加速)、GBV $272亿(+16%)；全年营收与利润率指引双双上调——经营口径分母未变，本次仅重锚价格",
-      "口径更正沿用(2026-08-07)：旧表的\"TTM EBITDA\"一行实为EBIT；真实TTM调整后EBITDA约$46.2–46.7亿(公司披露仅到四舍五入)。注意区分——17x→20.5x是价格重锚，不是口径问题",
-      "完整复核后维持中性偏积极·中等确信：更强增长和现金转化抵消更高倍数，但 39.0x TTM P/E 阻止上调"
+      "股价 $160.47（2026-10-01 收盘），市值 $946.1亿（A+B 类 5.896 亿股）、EV $849.5亿；较 08-07 锚点 −9.9%，较 52 周收盘高点 $190.50 −15.8%",
+      "倍数：TTM P/E 35.2x、P/FCF 19.6x、P/S 7.2x、EV/调整后 EBITDA 约 18.3x、EV/EBIT 31.0x；一致预期 FY2026E/FY2027E/FY2028E P/E 30.3x/25.4x/21.5x（Zacks 经 Nasdaq）",
+      "情景网格（FY2028 GAAP EPS × 32x/26x/18x，权重 30/40/30）：牛 $253.47 / 基准 $182.98 / 熊 $105.43，加权 $180.86、年化 +5.5%，低于 8% 门槛；反推 26x 退出需 2027–28 年营收每年约 +13.9%",
+      "Q2 报告口径营收 +17%，但剔除汇率 Q1 +15% → Q2 +13%；Q3 指引 +15–17% 含约 3pct 汇率顺风",
+      "立场补录为谨慎·低确信：退出 P/E +4 倍或权重 40/40/20 即越过门槛；价格回落至约 $152 转 neutral-watch。内部人 08-07 至 09-28 卖出约 $2.257 亿、零买入；Meta Muse AI 代理为新尾部风险"
     ],
-    "summaryEn": "Q2 2026 revenue $3.608B (+17% Y/Y), net income $816M (23% margin), Adjusted EBITDA $1.261B (35% margin), FCF $1.253B, and Nights and Seats Booked of 148.3M (+10%, accelerating from Q1); the company raised full-year revenue growth guidance to \"at least mid teens\" and Adjusted EBITDA Margin to \"at least 35.5%\". The prior version's loudest warning - TTM free cash flow quality - materially resolved, with TTM FCF recovering to $4.827B. On 2026-08-08 the report was re-anchored to the first completed post-release session (2026-08-07 close of $178.07, +17.43% in one day): market cap $104.99B, EV $95.34B, TTM P/E 39.0x, P/S 8.0x, P/FCF 21.8x, EV/Adjusted EBITDA about 20.5x, PEG about 2.3x. The pre-release conclusion that multiples had compressed reversed in that single session. A complete Q2 thesis and current-valuation review retains Neutral-to-Positive / Medium conviction: stronger growth and cash conversion offset the higher multiple, but 39x prevents an upgrade; forward EPS and the target range remain review-pending because no verifiable source was available.",
+    "summaryEn": "Q2 2026 revenue $3.608B (+17% reported, +13% ex-FX), net income $816M, Adjusted EBITDA $1.261B (35% margin), FCF $1.253B and TTM FCF $4.827B; full-year guidance raised to revenue growth of \"at least mid teens\" and an Adjusted EBITDA Margin of \"at least 35.5%\". Re-anchored on 2026-10-02 to the 2026-10-01 close of $160.47: market cap $94.61B, EV $84.95B, TTM P/E 35.2x, P/FCF 19.6x, P/S 7.2x, EV/Adjusted EBITDA about 18.3x, and a consensus FY2026E/FY2027E P/E of 30.3x/25.4x. Treating SBC (about 13% of revenue) as a cost and valuing the exit on FY2028 GAAP EPS, the 30/40/30 scenario grid weights to $180.86 per share, +5.5% annualized, below the 8% hurdle - stance backfilled as Cautious / Low conviction: the market is pricing a business that compounds at about 14%, and we see about 12%. A fall to about $152 would move the call to neutral-watch. New risks: AI-agent disintermediation such as Meta Muse (−7.56% on 09-23), and insiders sold about $225.7M from 08-07 to 09-28 with zero purchases.",
     "reportedPeriod": "Q2 2026",
     "priceSymbol": "ABNB",
-    "priceAsOf": "2026-08-07"
+    "priceAsOf": "2026-10-01",
+    "stance": "cautious",
+    "conviction": "low",
+    "stanceRationale": {
+      "zh": "以 2026-10-01 收盘 $160.47、A+B 类 5.896 亿股计市值 $946.1亿、EV $849.5亿（净现金 $96.6亿），对应 TTM P/E 35.2x（股价/摊薄 EPS 口径 36.4x）、P/FCF 19.6x、P/S 7.2x、EV/调整后 EBITDA 约 18.3x，按第三方一致预期 FY2026E / FY2027E P/E 为 30.3x / 25.4x。因 SBC 约占营收 13%、约占调整后 EBITDA 37%，退出估值以 FY2028 GAAP EPS × P/E 为基础：30% 牛市 / 40% 基准 / 30% 熊市（FY2028 营收 $190.8亿 / $176.2亿 / $157.3亿，EBITDA 利润率 37.5% / 36% / 33.5%，EPS $7.92 / $7.04 / $5.86，退出 P/E 32x / 26x / 18x，退出股数 5.473 亿 / 5.428 亿 / 5.355 亿）对应每股 $253.47 / $182.98 / $105.43，加权 $180.86，较 $160.47 为 +12.7%，2.248 年（2026-10-02 至 2028-12-31）年化 +5.5%，低于 8% 门槛 2.5 个百分点；基准情景本身仅 +6.0%。反推在 26x 退出下赚 8% 需 2027–2028 年营收每年约 +13.9%，而一致预期 FY2027 为 +11.6%、Q2 剔除汇率为 +13%。敏感性：退出 P/E +4 倍升至 +12.4%、权重 40/40/20 升至 +9.2%、增长 +3pp 为 +7.9%，P/E −4 倍降至 −2.1%。确信度为低而非中，因为结论离翻转只隔一档敏感性，且 AI 代理分流（Meta Muse）与监管两项尾部风险不在网格内；不选 neutral-watch，因为中心假设下的算术低于门槛。这是价格判断（价格回落至约 $152 时中心网格即赚到 8%），不是对生意的否定：Q2 营收 +17%、FCF 利润率 35%、净现金充裕；但内生增速在放缓、内部人 08-07 至 09-28 卖出约 $2.257 亿且零买入。",
+      "en": "At the 2026-10-01 close of $160.47 on 589.6M Class A+B shares, market cap is $94.61B and EV $84.95B (net cash $9.66B), or 35.2x TTM earnings (36.4x on price over diluted EPS), 19.6x P/FCF, 7.2x P/S and about 18.3x EV/adjusted EBITDA; on third-party consensus the FY2026E / FY2027E P/E is 30.3x / 25.4x. Because SBC is about 13% of revenue and about 37% of adjusted EBITDA, the exit is valued as FY2028 GAAP EPS x P/E: weighting 30% bull / 40% base / 30% bear (FY2028 revenue $19.08B / $17.62B / $15.73B, EBITDA margins 37.5% / 36% / 33.5%, EPS $7.92 / $7.04 / $5.86, exit P/E 32x / 26x / 18x, exit shares 547.3M / 542.8M / 535.5M) gives $253.47 / $182.98 / $105.43 per share and a weighted $180.86, +12.7% against $160.47, or +5.5% annualized over 2.248 years (2026-10-02 to 2028-12-31) - 2.5 points below the 8% hurdle; the base case alone earns only +6.0%. Working backwards, earning 8% at a 26x exit requires about 13.9% annual revenue growth in 2027-2028, against +11.6% consensus for FY2027 and +13% ex-FX in Q2. Sensitivity: four more turns of exit P/E lift it to +12.4%, a 40/40/20 weighting to +9.2%, and 3 points faster growth to +7.9%, while four fewer turns cut it to −2.1%. Conviction is low rather than medium because the conclusion is one sensitivity notch from flipping, and the AI-agent (Meta Muse) and regulatory tails sit outside the grid; it is not neutral-watch because the arithmetic at central assumptions is below the hurdle. This is a price call (the central grid earns 8% at about $152), not a verdict against the business: Q2 revenue grew 17% with a 35% FCF margin and ample net cash, but organic growth is slowing and insiders sold about $225.7M from 08-07 to 09-28 with zero purchases."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "满足任一条件即上调至 neutral-watch：（1）5 个交易日平均收盘价回落至 $152 或以下，且情景网格假设不变；（2）Q3 2026 营收达到或超过 $47.7亿指引上限、剔除汇率营收增速不低于 +14%，且 Q4 指引隐含同比增速不低于 +13%。",
+        "en": "Move to neutral-watch if any one of the following holds: (1) the 5-session average close falls to $152 or below, with the scenario-grid assumptions unchanged; (2) Q3 2026 revenue reaches or exceeds the $4.77B top of guidance, ex-FX revenue growth is at least +14%, and the Q4 guide implies at least +13% year-over-year growth.",
+        "monitoringIds": [
+          "valuation-hurdle-price",
+          "organic-growth-ex-fx"
+        ]
+      },
+      "downgrade": {
+        "zh": "满足任一条件即下调至 bearish-avoid：（1）Q3 2026 营收低于 $46.9亿指引下限，或剔除汇率营收增速低于 +10%；（2）间夜及座位预订同比增速低于 +7%；（3）implied take rate 连续两个季度低于 12.7%，或管理层把流量或预订放缓归因于第三方 AI 代理；（4）FY2026 调整后 EBITDA 利润率低于 35.5% 指引下限；（5）主要市场出台公司在财报或 8-K 中称为重大的短租禁令或上限；（6）5 个交易日平均收盘价升至 $181 或以上，且情景网格假设不变。",
+        "en": "Move to bearish-avoid if any one of the following holds: (1) Q3 2026 revenue falls below the $4.69B low end of guidance, or ex-FX revenue growth falls below +10%; (2) Nights and Seats Booked growth falls below +7% year over year; (3) the implied take rate is below 12.7% for two consecutive quarters, or management attributes a slowdown in traffic or bookings to third-party AI agents; (4) the FY2026 Adjusted EBITDA Margin comes in below the 35.5% guided floor; (5) a major market enacts a short-term-rental ban or cap that the company describes as material in its results or an 8-K; (6) the 5-session average close rises to $181 or above, with the scenario-grid assumptions unchanged.",
+        "monitoringIds": [
+          "organic-growth-ex-fx",
+          "nights-booked-growth",
+          "take-rate-ai-agents",
+          "adj-ebitda-margin",
+          "regulation-supply",
+          "valuation-hurdle-price"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-10-02",
+        "stance": "cautious",
+        "conviction": "low",
+        "price": 160.47,
+        "note": {
+          "zh": "立场补录 / Stance backfill。按 2026-10-01 收盘 $160.47 推导：30/40/30 情景网格（FY2028 GAAP EPS × 32x / 26x / 18x）加权每股 $180.86，2.248 年年化 +5.5%，低于 8% 门槛 2.5 个百分点；退出 P/E +4 倍或权重 40/40/20 即越过门槛，故确信度为低。此前正文为“中性偏积极 / 中等”（2026-08-08 版，无情景网格、前瞻 EPS 待复核）。",
+          "en": "Stance backfill. Derived at the 2026-10-01 close of $160.47: the 30/40/30 scenario grid (FY2028 GAAP EPS x 32x / 26x / 18x) weights to $180.86 per share, +5.5% annualized over 2.248 years, 2.5 points below the 8% hurdle; four more turns of exit P/E or a 40/40/20 weighting clears the hurdle, so conviction is low. The body previously read Neutral-to-Positive / Medium (2026-08-08 version, with no scenario grid and forward EPS pending review)."
+        }
+      }
+    ],
+    "monitoring": [
+      {
+        "id": "organic-growth-ex-fx",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "剔除汇率的营收增速与指引",
+          "en": "Ex-FX revenue growth versus guidance"
+        },
+        "trigger": {
+          "zh": "下调信号：Q3 2026 营收低于 $46.9亿指引下限，或剔除汇率营收增速低于 +10%；上调信号：Q3 2026 营收达到或超过 $47.7亿指引上限、剔除汇率营收增速不低于 +14%，且 Q4 指引隐含同比增速不低于 +13%",
+          "en": "Downgrade signal: Q3 2026 revenue below the $4.69B low end of guidance, or ex-FX revenue growth below +10%; upgrade signal: Q3 2026 revenue at or above the $4.77B top of guidance, ex-FX revenue growth of at least +14%, and a Q4 guide implying at least +13% year-over-year growth"
+        },
+        "latest": {
+          "zh": "Q2 2026 营收 $36.08亿，报告口径 +17%、剔除汇率 +13%（Q1 2026 为 +18% / +15%）；Q3 指引 $46.9–47.7亿（+15–17%，含约 3pct 汇率顺风，即剔除汇率约 +12–14%）；S&P Global FY2027E 营收增速 +11.6%",
+          "en": "Q2 2026 revenue was $3.608B, +17% reported and +13% ex-FX (Q1 2026: +18% / +15%); the Q3 guide of $4.69-4.77B (+15-17%) includes about 3 points of FX tailwind, i.e. roughly +12-14% ex-FX; S&P Global FY2027E revenue growth is +11.6%"
+        },
+        "nextCheck": "Q3 2026 财报（2026 年 11 月上旬，估计） / Q3 2026 results (early November 2026, estimated)",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "nights-booked-growth",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "间夜及座位预订增速",
+          "en": "Nights and Seats Booked growth"
+        },
+        "trigger": {
+          "zh": "间夜及座位预订同比增速低于 +7%",
+          "en": "Nights and Seats Booked growth below +7% year over year"
+        },
+        "latest": {
+          "zh": "Q2 2026 为 1.483 亿、+10%（Q1 +9%）；Q3 指引“低双位数”增长",
+          "en": "148.3M in Q2 2026, +10% (Q1 +9%); Q3 guided to \"low double-digit\" growth"
+        },
+        "nextCheck": "Q3 2026 财报 / Q3 2026 results",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "take-rate-ai-agents",
+        "thesis": "bear",
+        "theme": "pricing",
+        "metric": {
+          "zh": "Take rate 与 AI 代理分流",
+          "en": "Take rate and AI-agent disintermediation"
+        },
+        "trigger": {
+          "zh": "implied take rate（营收 / GBV）连续两个季度低于 12.7%，或管理层把流量或预订放缓归因于第三方 AI 代理",
+          "en": "Implied take rate (revenue / GBV) below 12.7% for two consecutive quarters, or management attributing a slowdown in traffic or bookings to third-party AI agents"
+        },
+        "latest": {
+          "zh": "Q2 2026 implied take rate 13.2%，与 Q2 2025 持平；公司指引 Q3 take rate 同比大致持平。据第三方报道，Meta Muse 于 2026 年 9 月推出，已报道的预订合作方以 OTA 与酒店集团为主、未见 Airbnb；ABNB 09-23 −7.56%",
+          "en": "Q2 2026 implied take rate was 13.2%, in line with Q2 2025; the company guides the Q3 take rate roughly flat year over year. Per third-party reporting, Meta Muse launched in September 2026, and the reported booking partners are mainly OTAs and hotel groups, not Airbnb; ABNB fell 7.56% on 09-23"
+        },
+        "nextCheck": "Q3 2026 财报与电话会 / Q3 2026 results and call",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "adj-ebitda-margin",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "调整后 EBITDA 利润率",
+          "en": "Adjusted EBITDA margin"
+        },
+        "trigger": {
+          "zh": "FY2026 调整后 EBITDA 利润率低于公司指引下限 35.5%",
+          "en": "FY2026 Adjusted EBITDA Margin below the 35.5% guided floor"
+        },
+        "latest": {
+          "zh": "Q2 2026 为 35%（Q2 2025 为 34%）；H1 2026 调整后 EBITDA $17.80亿、利润率 28.3%（季节性）；Q3 指引利润率较 Q3 2025 的 50.1% 略降；FY2026 指引不低于 35.5%（FY2025 为 35%）",
+          "en": "35% in Q2 2026 (34% in Q2 2025); H1 2026 adjusted EBITDA of $1.780B at a 28.3% margin (seasonal); Q3 margin guided slightly below Q3 2025's 50.1%; FY2026 guided at no less than 35.5% (FY2025: 35%)"
+        },
+        "nextCheck": "Q3 2026 财报（首读），FY2026 结果于 2027 年 2 月 / Q3 2026 results (first read), FY2026 results in February 2027",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "regulation-supply",
+        "thesis": "bear",
+        "theme": "regulatory",
+        "metric": {
+          "zh": "主要市场短租监管",
+          "en": "Major-market short-term-rental regulation"
+        },
+        "trigger": {
+          "zh": "主要市场出台公司在财报或 8-K 中称为重大的短租禁令或上限",
+          "en": "A major market enacts a short-term-rental ban or cap that the company describes as material in its results or an 8-K"
+        },
+        "latest": {
+          "zh": "欧盟短租登记规则自 2026 年 5 月生效；巴塞罗那 2028 年禁止旅游公寓；本次核查（截至 2026-10-02）未发现公司披露为重大的新监管事件，2026-08-06 之后无新的 8-K",
+          "en": "The EU short-term-rental registration rules took effect in May 2026; Barcelona bans tourist apartments from 2028; this check (as of 2026-10-02) found no new regulatory event the company has described as material, and there has been no 8-K since 2026-08-06"
+        },
+        "nextCheck": "Q3 2026 10-Q 风险因素与法律程序 / Q3 2026 10-Q risk factors and legal proceedings",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "valuation-hurdle-price",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "估值门槛价",
+          "en": "Valuation hurdle price"
+        },
+        "trigger": {
+          "zh": "5 个交易日平均收盘价回落至 $152 或以下（中心网格恰好赚 8%，上调复核），或升至 $181 或以上（中心网格加权回报降至 0% 以下，下调复核），且情景网格假设不变",
+          "en": "The 5-session average close falls to $152 or below (where the central grid earns exactly 8%; upgrade review), or rises to $181 or above (where the central grid's weighted return falls below 0%; downgrade review), with the scenario-grid assumptions unchanged"
+        },
+        "latest": {
+          "zh": "2026-10-01 收盘 $160.47，加权年化 +5.5%；09-23 收 $149.58、09-24 收 $151.39，但 5 个交易日平均收盘价自 08-07 以来最低约 $154.30（09-23 至 09-29），从未触及 $152；截至 10-01 的 5 日均价约 $158.33；52 周收盘区间 $111.54–$190.50",
+          "en": "2026-10-01 close of $160.47, +5.5% weighted annualized; closes of $149.58 on 09-23 and $151.39 on 09-24, but the lowest 5-session average close since 08-07 was about $154.30 (09-23 to 09-29), never at or below $152; the 5-session average to 10-01 is about $158.33; 52-week closing range $111.54-$190.50"
+        },
+        "nextCheck": "每日价格账本 / Daily price ledger",
+        "nextCheckDate": "2026-10"
+      }
+    ]
   },
   {
     "id": "hims-2026-pre-rerun",
