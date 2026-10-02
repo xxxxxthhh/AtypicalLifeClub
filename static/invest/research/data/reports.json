@@ -5,8 +5,8 @@
     "ticker": "NYSE: RDDT",
     "title": "Reddit 深度研究报告 - 变现驱动增长与搜索流量依赖的压力测试",
     "titleEn": "Reddit Deep Research Report - Monetization-Driven Growth and the Search-Referral Dependency Stress Test",
-    "summary": "首次覆盖。Q2 2026 收入 $804.91M（同比 +61%）、净利 $252.85M、摊薄 EPS $1.25、调整后 EBITDA $343M（43% 利润率），全面超预期且 Q3 指引 $860-870M 同样高于预期，但财报后单日跌 21%（上市以来最大跌幅）。核心发现：增长引擎已从用户切换为变现——美国 DAU 环比 53.5M→53.2M 横盘略降，同期美国 ARPU 同比 +51%，本季美国收入增长几乎全部来自单用户变现。Google 数据授权协议（约 $60M/年）2027 上半年到期，同时绑定授权收入与搜索分发。以 2026-07-31 收盘 $140.67、市值约 $27.06B、EV 约 $24.30B 计，TTM P/E 32.8x、EV/Sales 8.7x、FY2026E 调整后 EV/EBITDA 约 16.8x。情景权重 30/50/20，立场为中性偏积极、低确信。",
-    "summaryEn": "Initial coverage. Q2 2026 revenue of $804.91M (+61% YoY), net income $252.85M, diluted EPS $1.25, and adjusted EBITDA of $343M (43% margin) all beat, and Q3 guidance of $860-870M also came in above consensus, yet the stock fell 21% on the print — its largest single-day decline since IPO. Core finding: the growth engine has switched from users to monetization — U.S. DAU went 53.5M to 53.2M sequentially (flat to slightly down) while U.S. ARPU rose 51% YoY, so essentially all U.S. revenue growth in the quarter came from per-user monetization. The Google data-licensing agreement (roughly $60M/year) expires in H1 2027 and bundles licensing revenue with search distribution. At the 2026-07-31 close of $140.67, market cap is about $27.06B and EV about $24.30B, for a 32.8x TTM P/E, 8.7x EV/Sales, and roughly 16.8x FY2026E EV/adjusted-EBITDA. Scenario weights of 30/50/20 support a neutral-to-constructive stance at low conviction.",
+    "summary": "首次覆盖（2026-10-02 立场补录）。Q2 2026 收入 $804.91M（同比 +61%）、净利 $252.85M、摊薄 EPS $1.25、调整后 EBITDA $343M（43% 利润率），全面超预期，Q3 指引 $860-870M 同样高于预期，但财报后单日跌 21%（上市以来最大跌幅）。核心发现：增长引擎已从用户切换为变现——美国 DAU 环比 53.5M→53.2M 横盘略降，同期美国 ARPU 同比 +51%。Google 数据授权协议（约 $60M/年，属媒体报道）2027 上半年到期，同时绑定授权收入与搜索分发，截至 2026-10-02 无续约披露。以 2026-10-01 收盘 $149.53、市值约 $28.77B、EV 约 $26.00B 计，TTM P/E 34.9x、EV/Sales 9.4x、FY2026E 调整后 EV/EBITDA 约 17.7x。30/50/20 情景网格加权每股 $200.44、年化 +13.9%（门槛 8%），但退出倍数各降 3 倍即降至 +4.5%：立场偏积极，低确信。",
+    "summaryEn": "Initial coverage, with a stance backfill on 2026-10-02. Q2 2026 revenue of $804.91M (+61% YoY), net income of $252.85M, diluted EPS of $1.25 and adjusted EBITDA of $343M (43% margin) all beat, and Q3 guidance of $860-870M was also above expectations. Yet the stock fell 21% on the print, its largest single-day decline since IPO. Core finding: the growth engine has switched from users to monetization. U.S. DAU went from 53.5M to 53.2M sequentially, flat to slightly down, while U.S. ARPU rose 51% YoY. The Google data-licensing agreement (roughly $60M a year, per media reports) expires in H1 2027 and bundles licensing revenue with search distribution; there was no renewal disclosure as of 2026-10-02. At the 2026-10-01 close of $149.53, market cap is about $28.77B and EV about $26.00B, for 34.9x TTM P/E, 9.4x EV/Sales and about 17.7x FY2026E EV/adjusted EBITDA. The 30/50/20 scenario grid weights to $200.44 per share, or +13.9% annualized against an 8% hurdle, but three turns lower on every exit multiple takes it to +4.5%. Stance: constructive, low conviction.",
     "tags": [
       "社交平台",
       "数字广告",
@@ -15,7 +15,7 @@
     ],
     "category": "tech",
     "date": "2026-08-01",
-    "lastUpdate": "2026-08-01",
+    "lastUpdate": "2026-10-02",
     "period": "2026H1",
     "versionType": "initial",
     "versionLabel": "2026 Initial Coverage",
@@ -30,13 +30,188 @@
     "highlights": [
       "Q2 2026：收入 $804.91M（+61%）、广告 $762M（+64%）、其他收入 $43M（+24%）；净利 $252.85M、EPS $1.25、调整后 EBITDA $343M（43%）",
       "增长换轨：美国 DAU 环比 53.5M→53.2M，同期美国 ARPU $9.63→$11.85（同比 +51%）；按 DAUq×ARPU 还原的收入与公司报告值误差 <0.05%",
-      "市场数据（2026-07-31 收盘）：股价 $140.67（前收 $178.04，单日 -21.0%）、市值约 $27.06B、EV 约 $24.30B、净现金 $2.77B、52 周 $119.27-$282.95",
-      "估值：TTM P/E 32.8x、P/S 9.7x、EV/Sales 8.7x、EV/EBITDA 30.3x（GAAP 口径）；FY2026E 调整后 EV/EBITDA 约 16.8x；净利含利息收入与低税率加成，跨公司比较需校正",
-      "关键风险：Google 授权协议约 $60M/年、2027 上半年到期；公司自 Q3 2026 起停止披露登录/未登录用户拆分",
-      "资本配置：$10 亿回购授权，Q2 执行约 150 万股/约 $235M；均价 $157.57 较 2026-07-31 报告锚点 $140.67 高约 12%，剩余约 $760M"
+      "市场数据（2026-10-01 收盘）：股价 $149.53（较首次覆盖锚点 +6.3%，期间于 2026-08-18 纳入标普 500）、市值约 $28.77B、EV 约 $26.00B、净现金 $2.77B、52 周 $119.27-$263.50",
+      "估值与立场：TTM P/E 34.9x、P/S 10.4x、EV/Sales 9.4x、EV/EBITDA 32.4x（GAAP 口径），FY2026E 调整后 EV/EBITDA 约 17.7x；30/50/20 网格加权每股 $200.44、年化 +13.9%，退出倍数各降 3 倍即降至 +4.5%——偏积极、低确信",
+      "关键风险：Google 授权协议约 $60M/年、2027 上半年到期，截至 2026-10-02 无续约披露；公司自 Q3 2026 起停止披露登录/未登录用户拆分",
+      "资本配置：$10 亿回购授权，Q2 回购 1,488,812 股、$234.6M（均价约 $157.57），截至 2026-06-30 剩余 $760.4M；Q2 净股数由 192.41M 降至 192.32M"
     ],
     "priceSymbol": "RDDT",
-    "priceAsOf": "2026-07-31"
+    "priceAsOf": "2026-10-01",
+    "stance": "constructive",
+    "conviction": "low",
+    "stanceRationale": {
+      "zh": "锚点：2026-10-01 收盘 $149.53，市值约 $28.77B（192.40M 股），扣除 $2.77B 净现金后 EV 约 $26.00B；TTM GAAP P/E 34.9x、TTM EV/Sales 9.4x、EV/FY2026E 调整后 EBITDA 17.7x（FY2026E 收入 $3,350M、调整后 EBITDA $1,467M）。30/50/20 网格按 FY2028 调整后 EBITDA 退出：牛市 18x × $2,828M（收入 +34%/+26%）得 $286.56；基准 14x × $2,322M（+25%/+18%，FY2027 低于 +31.8% 的一致预期）得 $191.88；熊市 9x × $1,518M（+10%/+3%，Google 不续签并传导至美国 DAU）得 $92.67；加权每股 $200.44，2.248 年年化 +13.9%，高于 8%-10% 门槛。敏感性：退出倍数各降 3 倍为 +4.5%，增速放缓为 +9.1%，两者叠加为 +0.2%，20/40/40 权重为 +6.2%；反向测试显示，以 14x 退出要获得 8% 回报需 2026-28 年收入年复合增长约 16.6%，基准为 21.4%。确信度为低而非中，因为正偏斜依赖退出倍数不再下修，而决定性变量——Google 搜索引流——公司自称可见度低，且自 Q3 起停止披露登录／未登录拆分；不是中性观察，因为中心情景超出门槛约 6 个百分点、基准设在一致预期之下、每股有 $14.37 净现金。这是财报后下跌 21% 之后的估值偏斜判断；首次覆盖以来 +6.3% 的涨幅主要来自纳入标普 500 的资金流，本判断并不认为搜索流量风险已经缓解。",
+      "en": "Anchor: the 2026-10-01 close of $149.53 gives a market cap of about $28.77B (192.40M shares) and an EV of about $26.00B after $2.77B of net cash. That is 34.9x TTM GAAP P/E, 9.4x TTM EV/Sales and 17.7x EV/FY2026E adjusted EBITDA, on FY2026E revenue of $3,350M and adjusted EBITDA of $1,467M. The 30/50/20 grid exits on FY2028 adjusted EBITDA. The bull case, 18x on $2,828M (revenue +34%/+26%), gives $286.56. The base case, 14x on $2,322M (+25%/+18%, with FY2027 below the +31.8% consensus), gives $191.88. The bear case, 9x on $1,518M (+10%/+3%, with Google non-renewal carrying through to U.S. DAU), gives $92.67. The weighted value is $200.44, or +13.9% annualized over 2.248 years against an 8%-10% hurdle. On sensitivity, three turns lower on every exit multiple gives +4.5%, slower growth +9.1%, both together +0.2%, and a 20/40/40 weighting +6.2%. The reverse test needs about 16.6% a year of 2026-28 revenue growth at a 14x exit to earn 8%, against a 21.4% base case. Conviction is low rather than medium because the skew depends on the exit multiple holding, and the decisive variable, Google search referrals, has low visibility by the company's own account while it stops disclosing the logged-in / logged-out split. The stance is not neutral-watch because the central case clears the hurdle by about 6 points, the base case is set below consensus, and net cash is $14.37 per share. This is a valuation-skew call made after the 21% post-print drop. The +6.3% move since initiation mostly reflects S&P 500 inclusion flows, and the call is not a view that search-traffic risk has eased."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "升级至偏多（bullish）——须同时满足：Q3、Q4 2026 美国 DAUq 均实现环比正增长；Google 协议以持平或更优条款续签，或新增一份规模可比的 AI 授权协议；Q3 2026 收入达到或高于 $870M 指引上沿。",
+        "en": "Upgrade to bullish — all of the following: U.S. DAUq grows sequentially in both Q3 and Q4 2026; the Google agreement renews on flat or better terms, or a new AI licensing agreement of comparable scale is signed; Q3 2026 revenue is at or above the $870M top of guidance.",
+        "monitoringIds": [
+          "us-dau-direction",
+          "google-data-licensing",
+          "ad-revenue-growth"
+        ]
+      },
+      "downgrade": {
+        "zh": "降级至中性观察（neutral-watch）——满足任一即触发：美国 DAUq 连续两个季度环比下滑；美国 ARPU 同比增速跌破 +25%；Q3 2026 收入低于 $860M 指引下沿，或 Q4 2026 收入指引中值隐含同比增速低于 +35%（即低于约 $979.6M）；Google 协议确认不续签且公司同期披露搜索引流大幅下滑；调整后 EBITDA 利润率连续两个季度同比收缩。",
+        "en": "Downgrade to neutral-watch — any one of the following: U.S. DAUq declines sequentially in two consecutive quarters; U.S. ARPU year-over-year growth falls below +25%; Q3 2026 revenue below the $860M low end of guidance, or a Q4 2026 revenue guidance midpoint implying less than +35% YoY (below about $979.6M); the Google agreement is confirmed not to renew and the company simultaneously discloses a sharp decline in search referrals; adjusted EBITDA margin contracts year over year in two consecutive quarters.",
+        "monitoringIds": [
+          "us-dau-direction",
+          "us-arpu-growth",
+          "ad-revenue-growth",
+          "google-data-licensing",
+          "adj-ebitda-margin"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-10-02",
+        "stance": "constructive",
+        "conviction": "low",
+        "price": 149.53,
+        "note": {
+          "zh": "立场补录 / Stance backfill：按 2026-10-01 收盘 $149.53 重新锚定。首次覆盖时的非正式表述为“中性偏积极、低确信”，现正式化为偏积极、低确信：30/50/20 网格加权每股 $200.44、年化 +13.9%，但退出倍数各降 3 倍即降至 +4.5%。",
+          "en": "立场补录 / Stance backfill: re-anchored to the 2026-10-01 close of $149.53. The initiation's informal \"neutral-to-constructive, low conviction\" view is formalized as constructive, low conviction. The 30/50/20 grid weights to $200.44 per share, or +13.9% annualized, but three turns lower on every exit multiple takes it to +4.5%."
+        }
+      }
+    ],
+    "monitoring": [
+      {
+        "id": "us-dau-direction",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "美国 DAUq 的环比方向",
+          "en": "Sequential direction of U.S. DAUq"
+        },
+        "trigger": {
+          "zh": "美国 DAUq 连续两个季度环比下滑",
+          "en": "U.S. DAUq declines sequentially in two consecutive quarters"
+        },
+        "latest": {
+          "zh": "Q2 2026 美国 DAUq 53.2M，Q1 2026 为 53.5M（环比 -0.6%，落在四舍五入与季节性噪音区间内），同比 +6%（Q1 为 +7%）。自 Q3 2026 起公司不再披露登录／未登录拆分。",
+          "en": "Q2 2026 U.S. DAUq was 53.2M against 53.5M in Q1 2026, -0.6% QoQ, which is inside rounding and seasonal noise. It was +6% YoY, down from +7% in Q1. From Q3 2026 the company no longer discloses the logged-in / logged-out split."
+        },
+        "nextCheck": "Q3 2026 财报（预计 2026-10 底，日期截至 2026-10-02 未公布） / Q3 2026 results (expected late October 2026; date not announced as of 2026-10-02)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "us-arpu-growth",
+        "thesis": "either",
+        "theme": "pricing",
+        "metric": {
+          "zh": "美国季度 ARPU 同比增速",
+          "en": "U.S. quarterly ARPU year-over-year growth"
+        },
+        "trigger": {
+          "zh": "美国 ARPU 同比增速跌破 +25%",
+          "en": "U.S. ARPU year-over-year growth falls below +25%"
+        },
+        "latest": {
+          "zh": "Q2 2026 美国 ARPU $11.85，同比 +51%（Q1 2026 为 $9.63）；按账单地址口径的 Q2 美国收入 $638.1M，同比 +56%（Q2 2026 10-Q）。",
+          "en": "Q2 2026 U.S. ARPU was $11.85, +51% YoY (Q1 2026: $9.63). Q2 U.S. revenue by billing address was $638.1M, +56% YoY (Q2 2026 10-Q)."
+        },
+        "nextCheck": "Q3 2026 财报（预计 2026-10 底，日期截至 2026-10-02 未公布） / Q3 2026 results (expected late October 2026; date not announced as of 2026-10-02)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "ad-revenue-growth",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "收入与广告收入增速对照指引",
+          "en": "Revenue and advertising revenue growth against guidance"
+        },
+        "trigger": {
+          "zh": "Q3 2026 收入低于 $860M 指引下沿，或 Q4 2026 收入指引中值隐含同比增速低于 +35%（相对 Q4 2025 的 $725.61M，即低于约 $979.6M）",
+          "en": "Q3 2026 revenue below the $860M low end of guidance, or a Q4 2026 revenue guidance midpoint implying less than +35% YoY (below about $979.6M against Q4 2025's $725.61M)"
+        },
+        "latest": {
+          "zh": "Q2 2026 收入 $804.9M（同比 +61%），广告收入 $761.6M（+64%）；Q3 指引 $860-870M（+47%~49%）。本报告 FY2026E 假设 Q4 收入约 $1,017M（同比 +40.1%）；S&P Global 一致预期 FY2026 收入 $3.39B，隐含 Q4 约 $1,057M。",
+          "en": "Q2 2026 revenue was $804.9M (+61% YoY) and advertising revenue was $761.6M (+64%). Q3 guidance is $860-870M (+47% to +49%). This report's FY2026E assumes Q4 revenue of about $1,017M (+40.1% YoY). The S&P Global consensus of $3.39B for FY2026 implies a Q4 of about $1,057M."
+        },
+        "nextCheck": "Q3 2026 财报（预计 2026-10 底，日期截至 2026-10-02 未公布） / Q3 2026 results (expected late October 2026; date not announced as of 2026-10-02)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "active-advertiser-growth",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "活跃广告主数量增速（管理层披露）",
+          "en": "Active advertiser growth (management disclosure)"
+        },
+        "trigger": {
+          "zh": "活跃广告主同比增速跌破 +30%，或管理层不再披露该指标",
+          "en": "Active advertiser YoY growth falls below +30%, or management stops disclosing it"
+        },
+        "latest": {
+          "zh": "Q2 2026 同比 +70%（2026-07-30 业绩电话会）；Reddit Max 收入环比 +150%（电话会）。该指标并非 10-Q 列示项目。",
+          "en": "Active advertisers grew +70% YoY in Q2 2026 (earnings call, 2026-07-30), and Reddit Max revenue grew +150% QoQ (call). This metric is not a 10-Q line item."
+        },
+        "nextCheck": "Q3 2026 业绩电话会 / Q3 2026 earnings call",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "google-data-licensing",
+        "thesis": "either",
+        "theme": "concentration",
+        "metric": {
+          "zh": "Google 数据授权续约与其他收入（数据授权）",
+          "en": "Google data-licensing renewal and other (data-licensing) revenue"
+        },
+        "trigger": {
+          "zh": "偏空：Google 协议确认不续签且公司同期披露搜索引流大幅下滑。偏多：Google 协议以持平或更优条款续签，或新增一份规模可比的 AI 授权协议",
+          "en": "Bear: the Google agreement is confirmed not to renew and the company simultaneously discloses a sharp decline in search referrals. Bull: the Google agreement renews on flat or better terms, or a new AI licensing agreement of comparable scale is signed"
+        },
+        "latest": {
+          "zh": "Q2 2026 其他收入 $43.3M（同比 +24%）。该协议（约 $60M/年、2024 年 2 月签署、2027 上半年到期）仅见于媒体报道；最新为 WSJ 2026-07-22 关于 Reddit 考虑切断 Google AI 访问的报道，截至 2026-10-02 无公司披露。媒体 2026-09-22 报道加州法官认定 Anthropic 受 Reddit 用户协议约束，程序性质未经核实。",
+          "en": "Q2 2026 other revenue was $43.3M (+24% YoY). The Google agreement is known only from media reports: roughly $60M a year, signed February 2024 and expiring H1 2027. The latest report is the WSJ's of 2026-07-22 that Reddit was weighing cutting Google's AI access. There was no company disclosure by 2026-10-02. Separately, media reported on 2026-09-22 that a California judge found Anthropic bound by Reddit's user agreement; the procedural posture is unverified."
+        },
+        "nextCheck": "Q3 2026 业绩电话会与任何续约公告 / Q3 2026 call and any renewal announcement",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "adj-ebitda-margin",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "调整后 EBITDA 利润率（同比）",
+          "en": "Adjusted EBITDA margin, year over year"
+        },
+        "trigger": {
+          "zh": "调整后 EBITDA 利润率连续两个季度同比收缩",
+          "en": "Adjusted EBITDA margin contracts year over year in two consecutive quarters"
+        },
+        "latest": {
+          "zh": "Q2 2026 调整后 EBITDA $342.8M，利润率 42.6%（Q2 2025 为 $166.7M、33.4%）；Q3 指引 $385-395M（同比 +63%~67%），收入指引 +47%~49%，隐含利润率继续同比扩张。",
+          "en": "Q2 2026 adjusted EBITDA was $342.8M, a 42.6% margin, against $166.7M (33.4%) in Q2 2025. Q3 guidance is $385-395M (+63% to +67% YoY) on revenue guided +47% to +49%, which implies further year-over-year margin expansion."
+        },
+        "nextCheck": "Q3 2026 财报（预计 2026-10 底，日期截至 2026-10-02 未公布） / Q3 2026 results (expected late October 2026; date not announced as of 2026-10-02)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "buyback-execution",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "回购执行与净股数（A+B 类）",
+          "en": "Buyback execution and net share count (Class A + B)"
+        },
+        "trigger": {
+          "zh": "Q3、Q4 2026 两个季度净股数均上升（回购未能抵消发行）",
+          "en": "Net share count rises in both Q3 and Q4 2026, meaning repurchases fail to offset issuance"
+        },
+        "latest": {
+          "zh": "Q2 2026 回购 1,488,812 股、$234.6M（H1 合计 1,523,502 股、$239.6M），同期发行约 1.40M 股，净股数由 192.41M（2026-03-31）降至 192.32M（2026-06-30）；2026-07-29 为 192.40M。截至 2026-06-30 剩余授权 $760.4M（Q2 2026 10-Q）。",
+          "en": "In Q2 2026 the company repurchased 1,488,812 shares for $234.6M (H1: 1,523,502 shares for $239.6M) against about 1.40M shares issued. The net count fell from 192.41M at 2026-03-31 to 192.32M at 2026-06-30, and was 192.40M at 2026-07-29. $760.4M of authorization remained at 2026-06-30 (Q2 2026 10-Q)."
+        },
+        "nextCheck": "Q3 2026 10-Q / Q3 2026 10-Q",
+        "nextCheckDate": "2026-10"
+      }
+    ]
   },
   {
     "id": "smh-2026",
@@ -44,8 +219,8 @@
     "ticker": "NASDAQ: SMH",
     "title": "SMH 深度研究报告 - AI 半导体链条的基准篮子",
     "titleEn": "SMH Deep Research Report - Benchmark Sleeve For The AI Semiconductor Chain",
-    "summary": "【2026-07-31 价格复核：SMH 于 2026-07-29 收于 $504.22，较本报告锚点 -14.9%；下方数字按其标注日期阅读，估值框架与立场不变。】VanEck 半导体 ETF，是 AI 半导体链条的 benchmark/control sleeve，而不是 coverage-map 单一链条节点。发行人页面 2026-07-02 显示 NAV $592.26、总资产 $68.82B、总费率 0.35%；2026-07-01 持仓 26 只，前十大包括 NVDA 18.41%、TSM 9.18%、AMD 5.57%、AMAT 5.49%、AVGO 5.49%、MU 5.39%、KLAC 5.10%、LRCX 4.97%、ASML 4.96%、INTC 4.92%。定位为 lite benchmark / neutral control sleeve，用来比较单公司报告是否只是半导体 beta。",
-    "summaryEn": "[2026-07-31 price check: SMH closed at $504.22 on 2026-07-29, -14.9% versus this report's anchor; figures below read as of their stated dates, and the valuation frame and stance are unchanged.] VanEck semiconductor ETF used as the AI-semiconductor chain benchmark/control sleeve, not as a single coverage-map node. The issuer page showed NAV $592.26, total net assets $68.82B, and 0.35% total expense ratio as of July 2, 2026; July 1 holdings numbered 26, led by NVDA 18.41%, TSM 9.18%, AMD 5.57%, AMAT 5.49%, AVGO 5.49%, MU 5.39%, KLAC 5.10%, LRCX 4.97%, ASML 4.96%, and INTC 4.92%. Classified as a lite benchmark / neutral control sleeve for separating single-name thesis evidence from broad semis beta.",
+    "summary": "VanEck 半导体 ETF，是 AI 半导体链条的 benchmark/control sleeve，而不是 coverage-map 单一链条节点。2026-10-02 立场补录：以 2026-10-01 收盘 $617.81 计（NAV $617.90、总资产 $75.75B、总费率 0.35%，26 只持仓，前五为 NVDA 19.27%、TSM 9.16%、AMD 5.52%、AVGO 5.01%、MU 4.98%，SK hynix ADS 4.55% 于 2026-08-31 至 2026-10-01 间纳入），VanEck 基金 trailing 市盈率 37.21x（2026-08-31），持仓汇总估算 NTM 22.4x、CY2028E 15.6x。立场 neutral-watch、确信度低：30/40/30 情景网格加权每份额 $758.33，年化 +9.5%，落在 8-10% 门槛区间内，退出倍数 ±3 倍即在 +2.9% 与 +15.8% 之间摆动。作为默认基准，此立场是对半导体篮子的绝对判断，不是相对判断。",
+    "summaryEn": "VanEck semiconductor ETF used as the AI-semiconductor chain benchmark/control sleeve, not as a single coverage-map node. Stance backfill on 2026-10-02: at the 2026-10-01 close of $617.81 (NAV $617.90, total net assets $75.75B, 0.35% expense ratio, 26 holdings led by NVDA 19.27%, TSM 9.16%, AMD 5.52%, AVGO 5.01% and MU 4.98%, with SK hynix ADS added at 4.55% between 2026-08-31 and 2026-10-01), VanEck's fund trailing P/E was 37.21x (2026-08-31) and a holdings-based estimate puts it at 22.4x NTM and 15.6x CY2028E. Stance neutral-watch with low conviction: the 30/40/30 scenario grid weights to $758.33 per unit, +9.5% annualized, inside the 8-10% hurdle band, and three turns on the exit multiples swing it between +2.9% and +15.8%. As the default benchmark, this stance is an absolute call on the semiconductor basket, not a relative one.",
     "tags": [
       "ETF",
       "半导体",
@@ -54,21 +229,194 @@
     ],
     "category": "tech",
     "date": "2026-07-06",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-10-02",
     "coverageTier": "lite",
     "versionType": "initial",
     "benchmark": true,
     "priceSymbol": "SMH",
-    "priceAsOf": "2026-07-02",
+    "priceAsOf": "2026-10-01",
     "file": "/invest/research/reports/view.html?id=smh-2026",
     "markdownFiles": {
       "zh": "/invest/research/SMH_深度研究报告_2026-07.md",
       "en": "/invest/research/SMH_Deep_Research_Report_2026-07.md"
     },
     "highlights": [
-      "SMH 不进 coverage-map planned[]：它是 broad semiconductor beta / benchmark ETF，不是单一 chainLayer 节点",
-      "发行人页面 2026-07-02 显示 NAV $592.26、总资产 $68.82B、总费率 0.35%，2026-07-01 持仓 26 只",
-      "前十大集中在 NVDA、TSM、AMD、AMAT、AVGO、MU、KLAC、LRCX、ASML、INTC，用来校验单公司报告是否只是半导体 beta"
+      "SMH 不进 coverage-map planned[]：它是 broad semiconductor beta / benchmark ETF，不是单一 chainLayer 节点；对它的立场是绝对判断，不是相对判断",
+      "2026-10-01 收盘 $617.81，NAV $617.90、总资产 $75.75B；VanEck 基金 trailing 市盈率 37.21x（2026-08-31），持仓汇总估算 NTM 22.4x、CY2028E 15.6x",
+      "neutral-watch / 低确信：30/40/30 网格加权 $758.33、年化 +9.5%，退出倍数 ±3 倍即在 +2.9% 与 +15.8% 之间摆动；8 月底至 10 月初的指数调整后 NVDA 降至 19.27%、SK hynix ADS 纳入 4.55%"
+    ],
+    "stance": "neutral-watch",
+    "conviction": "low",
+    "stanceRationale": {
+      "zh": "以 2026-10-01 收盘 $617.81（NAV $617.90，总资产 $75.75B，26 只持仓）计，VanEck 基金 trailing 市盈率 37.21x（2026-08-31）换算到当前价格约 41.3x；按持仓加权汇总 Nasdaq 一致预期（估算），trailing 40.2x、NTM 22.4x、CY2026E/CY2027E/CY2028E 27.5x/19.4x/15.6x，一致预期隐含 CY2026-28 基金每份额盈利复合增长 32.9%。30% 牛市 / 40% 基准 / 30% 熊市（CY2028 基金 EPS $41.79 / $35.66 / $21.95，退出 trailing 市盈率 26x / 22x / 18x）得到每份额 $1,086.54 / $784.54 / $395.18，加权 $758.33，较 $617.81 +22.7%，2.248 年（2026-10-02 至 2028-12-31，821 天）年化 +9.5%，高于 8% 门槛 1.5 个百分点、低于 10% 0.5 个百分点；牛市 +75.9% 对熊市 −36.0%，偏斜均衡。反推：获得 8% 需要 CY2028 一致预期 $39.69 兑现并以 18.5x 退出，或 22x 下 EPS 比一致预期低不超过 15.9%。敏感性：退出倍数整体下调 3 倍降至 +2.9%、上调 3 倍升至 +15.8%，CY2028 盈利 −10% 降至 +4.5%，20/40/40 权重降至 +5.0%。确信度为低而非中，因为中性读数在两个方向的温和冲击下都会移出 8-10% 区间，远期一致预期覆盖稀疏，且 ASML EPS 币种与 SK hynix 仅一个已报告季度两处数据有瑕疵；不选 cautious 是因为中心假设下仍过 8%，不选 constructive 是因为并未明确高于门槛且 street 已为存储 2029 年转头建模。SMH 是链报的默认基准，这是对半导体篮子本身的绝对判断，不是相对判断；它不对 SMH 与任何单公司排序，也不改变其对照篮子职能。",
+      "en": "At the 2026-10-01 close of $617.81 (NAV $617.90, total net assets $75.75B, 26 holdings), VanEck's fund trailing P/E of 37.21x (2026-08-31) rescales to about 41.3x at today's price; a holdings-weighted aggregation of Nasdaq consensus (estimate) gives 40.2x trailing, 22.4x NTM and 27.5x / 19.4x / 15.6x CY2026E / CY2027E / CY2028E, with consensus implying a 32.9% CY2026-28 CAGR in fund earnings per unit. Weighting 30% bull / 40% base / 30% bear (CY2028 fund EPS of $41.79 / $35.66 / $21.95 at exit trailing P/Es of 26x / 22x / 18x) gives $1,086.54 / $784.54 / $395.18 per unit and a weighted $758.33, +22.7% against $617.81, or +9.5% annualized over 2.248 years (2026-10-02 to 2028-12-31, 821 days) - 1.5 points above the 8% hurdle and 0.5 points below 10%, with a balanced skew of +75.9% in the bull case against −36.0% in the bear case. Working backwards, 8% requires either the full $39.69 CY2028 consensus at an 18.5x exit or EPS no more than 15.9% below consensus at 22x. Sensitivity: three turns lower on every exit multiple give +2.9%, three turns higher +15.8%, a 10% cut to CY2028 earnings +4.5%, and a 20/40/40 weighting +5.0%. Conviction is low rather than medium because the neutral reading leaves the 8-10% band under modest shocks in either direction, out-year consensus is thin, and two inputs carry data caveats (ASML's EPS currency basis and SK hynix's single reported quarter); it is not cautious because the central case still clears 8%, and not constructive because it does not clear the hurdle decisively while the Street already models a 2029 memory turn. Because SMH is the default benchmark for the chain reports, this is an absolute call on the semiconductor basket, not a relative one: it does not rank SMH against any single name and does not change its control-sleeve role."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若持仓汇总 NTM 市盈率跌破 19x 且 CY2027 一致预期基金 EPS 不低于 $30.25（较 2026-10-01 的 $31.84 下降不超过 5%），或 CY2028 一致预期基金 EPS 升至 $43.66 以上（较 $39.69 +10%）且 NTM 市盈率不高于 24x，则上调至 constructive。",
+        "en": "Move to constructive if the holdings-based NTM P/E falls below 19x while CY2027 consensus fund EPS stays at or above $30.25 (no more than 5% below the 2026-10-01 $31.84), or if CY2028 consensus fund EPS rises above $43.66 (+10% versus $39.69) while the NTM P/E stays at or below 24x.",
+        "monitoringIds": [
+          "fund-forward-valuation",
+          "consensus-revisions"
+        ]
+      },
+      "downgrade": {
+        "zh": "若持仓汇总 NTM 市盈率升至 26x 以上；或 CY2027 一致预期基金 EPS 跌破 $28.66（较 $31.84 −10%）；或 Micron 或 SK hynix 的 CY2028 一致预期 EPS 较 2026-10-01 水平（日历年折算 $155.88 / $37.38）下调超过 15%；或美国或中国出台限制先进芯片、HBM 或制造设备的出口管制新规且被某一前十大持仓称为重大，则下调至 cautious。",
+        "en": "Move to cautious if any one of the following: the holdings-based NTM P/E rises above 26x; or CY2027 consensus fund EPS falls below $28.66 (−10% versus $31.84); or CY2028 consensus EPS for Micron or SK hynix is cut by more than 15% from the 2026-10-01 levels ($155.88 / $37.38, calendarized); or a new U.S. or Chinese export-control rule restricting advanced chips, HBM or fabrication tools is described as material by a top-10 holding.",
+        "monitoringIds": [
+          "fund-forward-valuation",
+          "consensus-revisions",
+          "foundry-memory-confirmation",
+          "export-control-sensitivity"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-10-02",
+        "stance": "neutral-watch",
+        "conviction": "low",
+        "price": 617.81,
+        "note": {
+          "zh": "立场补录：以 2026-10-01 收盘 $617.81 重锚。30/40/30 情景网格加权每份额 $758.33，2.248 年年化 +9.5%，落在 8-10% 门槛区间内；退出倍数 ±3 倍即在 +2.9% 与 +15.8% 之间摆动，故为 neutral-watch、确信度低。对基准的立场是绝对判断，不是相对判断。",
+          "en": "Stance backfill: re-anchored to the 2026-10-01 close of $617.81. The 30/40/30 scenario grid weights to $758.33 per unit, or +9.5% annualized over 2.248 years, inside the 8-10% hurdle band; shifting exit multiples by three turns swings it between +2.9% and +15.8%, hence neutral-watch with low conviction. A stance on the benchmark is an absolute call, not a relative one."
+        }
+      }
+    ],
+    "monitoring": [
+      {
+        "id": "top-holding-concentration",
+        "thesis": "bear",
+        "theme": "concentration",
+        "metric": {
+          "zh": "NVIDIA 与 TSMC 合计权重",
+          "en": "NVIDIA plus TSMC weight"
+        },
+        "trigger": {
+          "zh": "VanEck 日度持仓中 NVDA + TSM 合计权重高于 33%",
+          "en": "NVDA + TSM combined weight above 33% in VanEck daily holdings"
+        },
+        "latest": {
+          "zh": "2026-10-01 为 28.43%（NVDA 19.27%、TSM 9.16%），2026-08-31 至 2026-10-01 间的指数调整之后；2026-08-31 月报 32.36%（22.82% / 9.54%）；2026-07-01 为 27.59%",
+          "en": "28.43% on 2026-10-01 (NVDA 19.27%, TSM 9.16%) after the index change between 2026-08-31 and 2026-10-01; 32.36% in the 2026-08-31 factsheet (22.82% / 9.54%); 27.59% on 2026-07-01"
+        },
+        "nextCheck": "下一次指数调整（调整频率本次未核实） / Next index review (cadence not verified in this backfill)",
+        "nextCheckDate": "2026-12"
+      },
+      {
+        "id": "equipment-confirmation",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "设备公司指引与一致预期增速",
+          "en": "Semicap guidance and consensus growth"
+        },
+        "trigger": {
+          "zh": "ASML/AMAT/LRCX/KLAC 中两家及以上指引下季度收入低于上季度，或四家 CY2027 EPS 一致预期增速跌破 +15%",
+          "en": "Two or more of ASML/AMAT/LRCX/KLAC guide next-quarter revenue below the prior quarter, or consensus CY2027 EPS growth for the four falls below +15%"
+        },
+        "latest": {
+          "zh": "Nasdaq 一致预期（2026-10-01）：CY2027 EPS 增速 AMAT +31.2%、KLAC +32.9%、LRCX +34.0%、ASML +32.9%。AMAT FY2026 Q3 收入 $9,115M（同比 +25%），Q4 指引 $10,250M ± $500M（8-K，2026-08-13）",
+          "en": "Nasdaq consensus (2026-10-01): CY2027 EPS growth AMAT +31.2%, KLAC +32.9%, LRCX +34.0%, ASML +32.9%. AMAT Q3 FY2026 revenue was $9,115M (+25% y/y), with Q4 guided at $10,250M ± $500M (8-K, 2026-08-13)"
+        },
+        "nextCheck": "ASML 2026 年 Q3 业绩，2026 年 10 月中旬（估计） / ASML Q3 2026 results, mid-October 2026 (estimated)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "foundry-memory-confirmation",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "存储与代工一致预期",
+          "en": "Memory and foundry consensus"
+        },
+        "trigger": {
+          "zh": "Micron 或 SK hynix 的 CY2028 一致预期 EPS 较 2026-10-01 水平（日历年折算 $155.88 / $37.38）下调超过 15%",
+          "en": "CY2028 consensus EPS for Micron or SK hynix cut by more than 15% from the 2026-10-01 levels ($155.88 / $37.38, calendarized)"
+        },
+        "latest": {
+          "zh": "Micron 于 2026-09-30 公布 FY2026 Q4（8 月季度）EPS $33.19。一致预期：Micron FY Aug-2028 $164.16、FY Aug-2029 $139.33；SK hynix 每 ADS CY2028 $37.38、CY2029 $26.97；TSMC 每 ADR CY2026-28 为 $16.56 / $21.33 / $25.92。本次补录未抓取 TSMC 月度营收",
+          "en": "Micron reported FQ4 FY2026 (August quarter) EPS of $33.19 on 2026-09-30. Consensus is $164.16 for FY Aug-2028 and $139.33 for FY Aug-2029; SK hynix is $37.38 for CY2028 and $26.97 for CY2029 per ADS; TSMC is $16.56 / $21.33 / $25.92 per ADR for CY2026-28. TSMC monthly revenue was not fetched in this backfill"
+        },
+        "nextCheck": "TSMC 2026 年 Q3 业绩，2026 年 10 月（估计） / TSMC Q3 2026 results, October 2026 (estimated)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "etf-flows-aum",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "总资产对照 NAV",
+          "en": "Total net assets versus NAV"
+        },
+        "trigger": {
+          "zh": "任一日历季度内 AUM 增速比 NAV 增速高出 10 个百分点以上，或隐含份额减少超过 5%",
+          "en": "Over any calendar quarter, AUM growth exceeds NAV growth by more than 10 percentage points, or implied units outstanding fall by more than 5%"
+        },
+        "latest": {
+          "zh": "2026-07-02 至 2026-10-01，总资产增长 10.1% 至 $75.75B，NAV 增长 4.3% 至 $617.90，隐含份额约 +5.5%（估算）",
+          "en": "From 2026-07-02 to 2026-10-01, total net assets rose 10.1% to $75.75B against NAV +4.3% to $617.90, implying about +5.5% units (estimate)"
+        },
+        "nextCheck": "2026 年末发行人快照 / Year-end 2026 issuer snapshot",
+        "nextCheckDate": "2027-01"
+      },
+      {
+        "id": "export-control-sensitivity",
+        "thesis": "bear",
+        "theme": "regulatory",
+        "metric": {
+          "zh": "美国/中国芯片与设备限制",
+          "en": "U.S./China chip and tool restrictions"
+        },
+        "trigger": {
+          "zh": "美国或中国出台限制先进芯片、HBM 或制造设备的新规，且任一前十大持仓在公告或业绩发布中称其为重大",
+          "en": "A new U.S. or Chinese rule restricting advanced chips, HBM or fabrication tools that any top-10 holding describes as material in a filing or results release"
+        },
+        "latest": {
+          "zh": "本次补录（2026-10-02，非完整监管排查）未发现新规；AMAT FY2026 Q3 业绩稿（2026-08-13）显示中国是唯一同比下降的地区",
+          "en": "No new rule identified in this backfill (2026-10-02; not a full regulatory sweep). AMAT's Q3 FY2026 release (2026-08-13) listed China as the only region declining year over year"
+        },
+        "nextCheck": "持续；2026 年 10-11 月的 Q3 申报 / Continuous; Q3 2026 filings in October-November 2026",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "fund-forward-valuation",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "持仓汇总 NTM 市盈率",
+          "en": "Holdings-based NTM P/E"
+        },
+        "trigger": {
+          "zh": "NTM 市盈率高于 26x，或低于 19x 且 CY2027 一致预期基金 EPS 不低于 $30.25",
+          "en": "NTM P/E above 26x, or below 19x while CY2027 consensus fund EPS stays at or above $30.25"
+        },
+        "latest": {
+          "zh": "2026-10-01 以 $617.81 计 NTM 22.4x、trailing 40.2x（估算）；VanEck 基金 trailing 市盈率 2026-08-31 为 37.21x，换算约 41.3x",
+          "en": "22.4x NTM and 40.2x trailing at $617.81 on 2026-10-01 (estimate); VanEck fund trailing P/E 37.21x at 2026-08-31, about 41.3x rescaled"
+        },
+        "nextCheck": "每月；下一次在 Nvidia FY2027 Q3 业绩后，2026 年 11 月（估计） / Monthly; next after Nvidia's Q3 FY2027 results, November 2026 (estimated)",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "consensus-revisions",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "持仓加权一致预期基金 EPS",
+          "en": "Holdings-weighted consensus fund EPS"
+        },
+        "trigger": {
+          "zh": "CY2027 一致预期基金 EPS 低于 $28.66（较 $31.84 −10%），或 CY2028 高于 $43.66（较 $39.69 +10%）",
+          "en": "CY2027 consensus fund EPS below $28.66 (−10% versus $31.84), or CY2028 above $43.66 (+10% versus $39.69)"
+        },
+        "latest": {
+          "zh": "2026-10-01：CY2026 / CY2027 / CY2028 每份额基金 EPS $22.46 / $31.84 / $39.69（Nasdaq 一致预期汇总，估算）",
+          "en": "2026-10-01: CY2026 / CY2027 / CY2028 fund EPS of $22.46 / $31.84 / $39.69 per unit (Nasdaq consensus aggregation, estimate)"
+        },
+        "nextCheck": "2026 年 Q3 财报季后，2026 年 11 月 / After the Q3 2026 reporting season, November 2026",
+        "nextCheckDate": "2026-11"
+      }
     ]
   },
   {
@@ -3991,7 +4339,7 @@
     "ticker": "CBOE BZX: IGV",
     "title": "IGV 深度研究报告 - Software-mageddon后的软件行业ETF抄底机会？",
     "titleEn": "IGV Deep Research Report - A Buying Opportunity After the Software-mageddon?",
-    "summary": "2026-08-10 当前估值复核（iShares 2026-08-07 数据）：IGV 收盘 $102.69、NAV $102.66、溢价 0.03%、基金净资产 $14.408B、P/E 36.33 倍、费用率 0.38%。相对更正后的 2026-06-24 $86.17 历史锚点上涨 19.2%，尚低于 20% 完整重跑阈值；维持中性偏积极 / 中确信，但更高倍数与更小净资产压缩安全边际。历史纠错：Nasdaq 显示 2026-06-25 收盘为 $84.76，原 $86.17 锚点实际属于 2026-06-24。",
+    "summary": "2026-10-02 立场补录（锚点 2026-10-01 收盘 $108.23，NAV $108.15、溢价 0.07%）：基金净资产 $14.276B，iShares P/E 35.13 倍（09-30），按本报告持仓加权一致预期估算为 33.05 倍 CY2027 盈利。30/40/30 情景网格加权每份额 $111.03，至 2028 年末年化 +1.1%，低于 8% 门槛 6.9 个百分点，只有倍数与增速同时上调才过门槛。立场：谨慎 / 中确信。前 10 大持仓 61.71%（PANW、PLTR、CRWD 居前），加密资产关联持仓 4.47%。",
     "tags": [
       "ETF",
       "软件行业",
@@ -4000,7 +4348,7 @@
     ],
     "category": "tech",
     "date": "2026-02-15",
-    "lastUpdate": "2026-08-10",
+    "lastUpdate": "2026-10-02",
     "period": "2026H1",
     "versionType": "incremental",
     "versionLabel": "2026H1 Incremental Update",
@@ -4010,14 +4358,148 @@
       "en": "/invest/research/IGV_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "2026-08-07 收盘 $102.69、NAV $102.66、溢价 0.03%；相对更正后的 2026-06-24 历史锚点 +19.2%",
-      "iShares：基金净资产 $14.408B、P/E 36.33 倍、费用率 0.38%、在外份额 1.4035 亿、持仓 106 只",
-      "Nasdaq 历史纠错：$86.17 属于 2026-06-24；2026-06-25 收盘实际为 $84.76",
-      "维持中性偏积极 / 中确信；若价格偏离越过 20% 或 Q2 证据改变盈利/AI 替代框架，启动完整重跑"
+      "2026-10-01 收盘 $108.23、NAV $108.15、溢价 0.07%；基金净资产 $14.276B；2026 年迄今价格 +2.40%",
+      "iShares P/E 35.13 倍（09-30）；本报告持仓加权一致预期估算 33.05 倍 CY2027、27.20 倍 CY2028 盈利（口径混杂，已标注）",
+      "30/40/30 网格加权每份额 $111.03，年化 +1.1%，低于 8% 门槛 6.9 个百分点；28 倍退出下实现 8% 需约 19% 年盈利增长",
+      "立场：谨慎 / 中确信；前 10 大 61.71%，网络安全四大 23.08%，加密资产关联 4.47%"
     ],
-    "summaryEn": "Current valuation review dated 2026-08-10 using iShares data as of 2026-08-07: IGV closed at $102.69 versus $102.66 NAV, a 0.03% premium, with $14.408B of net assets, 36.33x P/E and a 0.38% expense ratio. The close is 19.2% above the corrected $86.17 historical anchor from 2026-06-24, still below the report's 20% full-rerun threshold. Neutral-to-Positive / Medium conviction remains, but the higher multiple and smaller net-asset base narrow the margin of safety. Historical correction: Nasdaq shows the 2026-06-25 close was $84.76; the old $86.17 anchor belongs to 2026-06-24.",
+    "summaryEn": "Stance backfill dated 2026-10-02, anchored on the 2026-10-01 close of $108.23 (NAV $108.15, 0.07% premium): net assets are $14.276B, the iShares P/E is 35.13x (09-30), and on this report's holdings-weighted consensus estimate the fund trades at 33.05x CY2027 earnings. The 30/40/30 scenario grid weights to $111.03 per unit, +1.1% annualized to end-2028, 6.9 points below the 8% hurdle; only a combined multiple-and-growth upside clears it. Stance: cautious / medium conviction. The top 10 holdings are 61.71% (led by PANW, PLTR and CRWD) and crypto-linked holdings are 4.47%.",
     "priceSymbol": "IGV",
-    "priceAsOf": "2026-08-07"
+    "priceAsOf": "2026-10-01",
+    "stance": "cautious",
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 2026-10-01 收盘 $108.23（NAV $108.15、溢价 0.07%）计，基金净资产 $14.276B、在外份额 1.320 亿；iShares P/E 35.13 倍（2026-09-30，最近财年 EPS、剔除负值），按本报告持仓加权一致预期估算（最大 30 只持仓、覆盖 83.72% 权重、口径混用 GAAP 与调整后 EPS）为 33.05 倍 CY2027、27.20 倍 CY2028 盈利。30% 牛市 / 40% 基准 / 30% 熊市（CY2027 EPS 相对一致预期 0% / −5% / −12%，CY2028-29 增速 +21.5%/+18%、+16%/+14%、+6%/+6%，退出远期 P/E 33 / 28 / 20 倍，扣 0.38% 年费）得每份额 $153.61 / $114.21 / $64.21，加权 $111.03，较 $108.23 为 +2.6%，2.248 年（2026-10-02 至 2028-12-31）年化 +1.1%，低于 8% 门槛 6.9 个百分点。敏感性：退出倍数 ±3 倍得 −3.9% 至 +5.9%，增速 ±4 个百分点得 −2.0% 至 +4.3%，加厚牛市 +3.5%，40/40/20 权重 +4.7%；只有倍数 +3 与增速 +4 同时成立才达 +9.1%。反向检验：以 28 倍退出要实现 8%，须全额兑现 CY2027 一致预期并此后每年约 19% 增长，即价格已大致假设一致预期路径。确信度为中而非低，因为低于门槛的结论在十一个变体中的十个下成立；不为高，因为一致预期口径混杂、16.28% 权重为假设、退出倍数锚点为判断、成分股 Q2 未重跑。不是 bearish-avoid，因为加权总回报仍为正、牛熊大致对称（+41.9% 对 −40.7%）。这是对当前价格下这篮子股票的估值与偏斜判断，不是认定软件需求或 AI 转型论点已经失败。",
+      "en": "At the 2026-10-01 close of $108.23 (NAV $108.15, premium 0.07%), IGV has $14.276B of net assets and 132.0M units outstanding; the iShares P/E is 35.13x (2026-09-30, latest-fiscal-year EPS, negatives excluded), and on this report's holdings-weighted consensus estimate (30 largest holdings, 83.72% of weight covered, a feed that mixes GAAP and adjusted EPS) the fund trades at 33.05x CY2027 and 27.20x CY2028 earnings. Weighting 30% bull / 40% base / 30% bear (CY2027 EPS 0% / −5% / −12% against consensus, CY2028-29 growth of +21.5%/+18%, +16%/+14% and +6%/+6%, exit forward P/E of 33x / 28x / 20x, net of the 0.38% annual fee) gives $153.61 / $114.21 / $64.21 per unit and a weighted $111.03, +2.6% against $108.23 or +1.1% annualized over 2.248 years (2026-10-02 to 2028-12-31), 6.9 points below the 8% hurdle. Sensitivity: exit multiples ±3 turns give −3.9% to +5.9%, growth ±4 points gives −2.0% to +4.3%, a fatter bull case +3.5% and 40/40/20 weights +4.7%; only +3 turns and +4 points together reach +9.1%. The reverse test shows that earning 8% at a 28x exit needs CY2027 consensus delivered in full and about 19% annual growth after it, so the price already assumes roughly the consensus path. Conviction is medium rather than low because the shortfall survives ten of eleven variants, and not high because the consensus basis is mixed, 16.28% of weight is assumed, the exit anchors are judgments and the constituent Q2 review was not rerun. It is not bearish-avoid because the weighted total return is still positive and the bull and bear outcomes are roughly symmetric (+41.9% against −40.7%). This is a valuation-and-skew judgment on the basket at today's price, not a claim that software demand or the AI-transition thesis has failed."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "持仓加权 CY2027 一致预期远期 P/E（本报告方法）降至 30 倍或以下（按 2026-10-02 基数约 $98.24），且每份额 CY2027 一致预期 EPS 未较 $3.275 下降 5% 或以上，则上调至 neutral-watch。",
+        "en": "Upgrade to neutral-watch if the holdings-weighted CY2027 consensus forward P/E (this report's method) falls to 30x or below, about $98.24 on the 2026-10-02 base, while per-unit CY2027 consensus EPS has not fallen 5% or more from $3.275.",
+        "monitoringIds": [
+          "forward-pe-valuation",
+          "consensus-earnings-revisions"
+        ]
+      },
+      "downgrade": {
+        "zh": "下列任一成立则下调至 bearish-avoid：每份额 CY2027 一致预期 EPS 较 $3.275 下降 5% 或以上（降至 $3.111 或以下），而远期 P/E 仍在 30 倍或以上；或 CRM、NOW、ADBE、WDAY、INTU 中有两家或以上在同一财报季下调全年收入指引。",
+        "en": "Downgrade to bearish-avoid if any one of the following: per-unit CY2027 consensus EPS falls 5% or more from $3.275 (to $3.111 or below) while the forward P/E stays at 30x or above; or two or more of CRM, NOW, ADBE, WDAY and INTU cut full-year revenue guidance within the same reporting season.",
+        "monitoringIds": [
+          "consensus-earnings-revisions",
+          "forward-pe-valuation",
+          "ai-seat-pricing"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-10-02",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 108.23,
+        "note": {
+          "zh": "立场补录 / Stance backfill：首个由情景网格推导的立场。30/40/30 网格加权每份额 $111.03，2.248 年年化 +1.1%，低于 8% 门槛 6.9 个百分点；只有退出倍数 +3 与增速 +4 个百分点同时成立才过门槛。此前的立场是 2 月约 $83 时给出的定性标签，从未由网格推导。",
+          "en": "Stance backfill: the first stance derived from a scenario grid. The 30/40/30 grid weights to $111.03 per unit, +1.1% annualized over 2.248 years, 6.9 points below the 8% hurdle; only +3 turns of exit multiple and +4 points of growth together clear it. The earlier label was a qualitative call set near $83 in February and was never grid-derived."
+        }
+      }
+    ],
+    "monitoring": [
+      {
+        "id": "forward-pe-valuation",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "持仓加权 CY2027 一致预期远期 P/E（本报告方法：iShares 2026-09-30 持仓文件最大 30 只、剔除 MSTR/CRCL/BMNR/RBRK，Nasdaq 年度一致预期 EPS，按日历年折算，以 2026-09-30 固定权重调和加权），iShares P/E 作交叉核对",
+          "en": "Holdings-weighted CY2027 consensus forward P/E (this report's method: the 30 largest holdings in the iShares 2026-09-30 file excluding MSTR/CRCL/BMNR/RBRK, Nasdaq yearly consensus EPS, calendarized, harmonic-weighted at fixed 2026-09-30 weights), with the iShares P/E as cross-check"
+        },
+        "trigger": {
+          "zh": "远期 P/E 降至 30 倍或以下",
+          "en": "Forward P/E at or below 30x"
+        },
+        "latest": {
+          "zh": "2026-10-02：按 2026-10-01 收盘价 $108.23 为 33.05 倍，对应每份额 CY2027 EPS $3.275；同一基数下 30 倍约 $98.24、28 倍约 $91.69。iShares P/E 在 2026-09-30 为 35.13 倍（最近财年 EPS、剔除负值）。",
+          "en": "2026-10-02: 33.05x at the 2026-10-01 close of $108.23, on per-unit CY2027 EPS of $3.275; on the same base 30x is about $98.24 and 28x about $91.69. The iShares P/E was 35.13x on 2026-09-30 (latest-fiscal-year EPS, negatives excluded)."
+        },
+        "nextCheck": "2026-11 Q3 财报季中段复算 / Recompute mid Q3 reporting season",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "consensus-earnings-revisions",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "同一固定持仓集合与权重下的每份额 CY2027 一致预期 EPS，对照 2026-10-02 基数 $3.275",
+          "en": "Per-unit CY2027 consensus EPS on the same fixed holdings set and weights, against the 2026-10-02 base of $3.275"
+        },
+        "trigger": {
+          "zh": "任一方向变动 5% 或以上（降至 $3.111 或以下，或升至 $3.438 或以上）",
+          "en": "A move of 5% or more in either direction (to $3.111 or below, or to $3.438 or above)"
+        },
+        "latest": {
+          "zh": "2026-10-02：基数每份额 $3.275；同一集合 CY2028 一致预期 $3.979（+21.5%）。MSFT 对应 23.9 倍、ORCL 16.9 倍 CY2027 一致预期 EPS；PANW（158.8 倍）与 CRWD（1,270.8 倍）在该数据源中按接近 GAAP 的 EPS 计。",
+          "en": "2026-10-02: base $3.275 per unit; same-set CY2028 consensus $3.979 (+21.5%). MSFT trades at 23.9x and ORCL at 16.9x CY2027 consensus EPS; PANW (158.8x) and CRWD (1,270.8x) sit on GAAP-like EPS in the feed."
+        },
+        "nextCheck": "2026-12 Q3 财报季结束后 / After the Q3 reporting season",
+        "nextCheckDate": "2026-12"
+      },
+      {
+        "id": "ai-seat-pricing",
+        "thesis": "bear",
+        "theme": "pricing",
+        "metric": {
+          "zh": "按席位收费的应用软件龙头 CRM、NOW、ADBE、WDAY、INTU 的全年收入指引（2026-09-30 合计占基金 15.71%）",
+          "en": "Full-year revenue guidance at the seat-based application leaders CRM, NOW, ADBE, WDAY and INTU (together 15.71% of the fund on 2026-09-30)"
+        },
+        "trigger": {
+          "zh": "五家中有两家或以上在同一财报季下调全年收入指引",
+          "en": "Two or more of the five cut full-year revenue guidance within the same reporting season"
+        },
+        "latest": {
+          "zh": "2026-10-02：本次未在成分股层面重新核验（数据缺口）。按日历年折算的 CY2027 至 CY2028 一致预期 EPS 增速：CRM +10.1%、ADBE +11.4%、INTU +14.1%、NOW +23.6%、WDAY +26.0%（Nasdaq 一致预期）。",
+          "en": "2026-10-02: not re-verified at the constituent level in this pass (data gap). Calendarized consensus CY2027-to-CY2028 EPS growth: CRM +10.1%, ADBE +11.4%, INTU +14.1%, NOW +23.6%, WDAY +26.0% (Nasdaq consensus)."
+        },
+        "nextCheck": "2026-12 NOW/CRM/WDAY/INTU/ADBE 财报 / NOW, CRM, WDAY, INTU and ADBE reports",
+        "nextCheckDate": "2026-12"
+      },
+      {
+        "id": "top-holding-concentration",
+        "thesis": "bear",
+        "theme": "concentration",
+        "metric": {
+          "zh": "前 10 大权重与最大单一持仓（iShares 持仓文件）",
+          "en": "Top-10 weight and largest single holding (iShares holdings file)"
+        },
+        "trigger": {
+          "zh": "前 10 大权重超过 65%，或任一单一持仓超过 10%",
+          "en": "Top-10 weight above 65%, or any single holding above 10%"
+        },
+        "latest": {
+          "zh": "2026-09-30：前 10 大 61.71%；PANW 9.66%、PLTR 8.99%、CRWD 8.87%（前 3 大 27.52%）；PANW、CRWD、FTNT、ZS 合计 23.08%。",
+          "en": "2026-09-30: top 10 = 61.71%; PANW 9.66%, PLTR 8.99%, CRWD 8.87% (top three 27.52%); PANW, CRWD, FTNT and ZS together 23.08%."
+        },
+        "nextCheck": "2026-12 季末持仓文件 / Quarter-end holdings file",
+        "nextCheckDate": "2026-12"
+      },
+      {
+        "id": "crypto-linked-exposure",
+        "thesis": "bear",
+        "theme": "concentration",
+        "metric": {
+          "zh": "加密资产储备、稳定币与比特币挖矿类持仓（MSTR、CRCL、BMNR、HUT、RIOT、WULF、CIFR、CORZ、MARA、CLSK）合计权重",
+          "en": "Combined weight of crypto-treasury, stablecoin and bitcoin-mining holdings (MSTR, CRCL, BMNR, HUT, RIOT, WULF, CIFR, CORZ, MARA, CLSK)"
+        },
+        "trigger": {
+          "zh": "合计权重超过 6%",
+          "en": "Combined weight above 6%"
+        },
+        "latest": {
+          "zh": "2026-09-30：4.47%（MSTR 1.93%、CRCL 0.57%、BMNR 0.55%、HUT 0.33%、RIOT 0.24%、WULF 0.22%、CIFR 0.19%、CORZ 0.18%、MARA 0.15%、CLSK 0.11%）。",
+          "en": "2026-09-30: 4.47% (MSTR 1.93%, CRCL 0.57%, BMNR 0.55%, HUT 0.33%, RIOT 0.24%, WULF 0.22%, CIFR 0.19%, CORZ 0.18%, MARA 0.15%, CLSK 0.11%)."
+        },
+        "nextCheck": "2026-12 季末持仓文件 / Quarter-end holdings file",
+        "nextCheckDate": "2026-12"
+      }
+    ]
   },
   {
     "id": "airbnb-2026",
@@ -4025,7 +4507,7 @@
     "ticker": "NASDAQ: ABNB",
     "title": "Airbnb 深度研究报告 - 全球短租霸主的增长再加速之问",
     "titleEn": "Airbnb Deep Research Report - Can the Global Short-Term Rental Leader Re-Accelerate Growth?",
-    "summary": "Q2 2026营收$36.08亿(+17% Y/Y)、净利润$8.16亿(净利率23%)、调整后EBITDA $12.61亿(利润率35%)、FCF $12.53亿，间夜及座位预订1.483亿(+10%，较Q1加速)；公司同时上调全年营收增速指引至\"至少中双位数\"、调整后EBITDA利润率至\"至少35.5%\"。上一版最主要的警示项——TTM自由现金流质量——本季实质缓解，TTM FCF回升至$48.27亿。2026-08-08 已按财报后首个完整交易时段（2026-08-07 收盘 $178.07，单日+17.43%）完成重锚：市值$1,049.9亿、EV $953.4亿，TTM P/E 39.0x、P/S 8.0x、P/FCF 21.8x、EV/调整后EBITDA 约20.5x、PEG 约2.3x。发布前锚定的\"倍数不升反降\"结论已被这一交易日反转。完整复核 Q2 论点与当前估值后维持中性偏积极·中等确信：更强增长和现金转化抵消更高倍数，但 39x 阻止上调；前瞻EPS与目标价区间因缺乏可复核来源仍为review-pending。",
+    "summary": "Q2 2026营收$36.08亿（报告口径+17%、剔除汇率+13%）、净利润$8.16亿、调整后EBITDA $12.61亿（利润率35%）、FCF $12.53亿，TTM FCF $48.27亿；全年营收增速指引上调至\"至少中双位数\"、调整后EBITDA利润率至\"至少35.5%\"。2026-10-02 按 2026-10-01 收盘 $160.47 重锚：市值$946.1亿、EV $849.5亿，TTM P/E 35.2x、P/FCF 19.6x、P/S 7.2x、EV/调整后EBITDA 约18.3x，一致预期 FY2026E/FY2027E P/E 30.3x/25.4x。把 SBC（约占营收13%）计为成本、以 FY2028 GAAP EPS 估值，30/40/30 情景网格加权每股 $180.86、年化 +5.5%，低于 8% 门槛 → 立场补录为谨慎·低确信：市场在为约14%的增长者定价，我们看到的是约12%。价格回落至约 $152 即转 neutral-watch。新增风险：Meta Muse 等 AI 代理分流（09-23 单日 −7.56%），内部人 08-07 至 09-28 卖出约 $2.257 亿、零买入。",
     "tags": [
       "在线旅游",
       "共享经济",
@@ -4034,7 +4516,7 @@
     ],
     "category": "tech",
     "date": "2026-02-13",
-    "lastUpdate": "2026-08-08",
+    "lastUpdate": "2026-10-02",
     "period": "2026H1",
     "versionType": "incremental",
     "versionLabel": "Q2 2026 Incremental Update + 2026-08-08 Re-anchor",
@@ -4044,16 +4526,172 @@
       "en": "/invest/research/Airbnb_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "股价$178.07(2026-08-07收盘，单日+17.43%)、市值$1,049.9亿(A+B类5.896亿股口径)、EV $953.4亿",
-      "重锚后倍数全面走高：TTM P/E 39.0x、P/S 8.0x、P/FCF 21.8x、EV/调整后EBITDA 约20.5x、EV/EBIT 34.8x、PEG 约2.3x",
-      "Q2 2026营收+17%、间夜+10%(较Q1加速)、GBV $272亿(+16%)；全年营收与利润率指引双双上调——经营口径分母未变，本次仅重锚价格",
-      "口径更正沿用(2026-08-07)：旧表的\"TTM EBITDA\"一行实为EBIT；真实TTM调整后EBITDA约$46.2–46.7亿(公司披露仅到四舍五入)。注意区分——17x→20.5x是价格重锚，不是口径问题",
-      "完整复核后维持中性偏积极·中等确信：更强增长和现金转化抵消更高倍数，但 39.0x TTM P/E 阻止上调"
+      "股价 $160.47（2026-10-01 收盘），市值 $946.1亿（A+B 类 5.896 亿股）、EV $849.5亿；较 08-07 锚点 −9.9%，较 52 周收盘高点 $190.50 −15.8%",
+      "倍数：TTM P/E 35.2x、P/FCF 19.6x、P/S 7.2x、EV/调整后 EBITDA 约 18.3x、EV/EBIT 31.0x；一致预期 FY2026E/FY2027E/FY2028E P/E 30.3x/25.4x/21.5x（Zacks 经 Nasdaq）",
+      "情景网格（FY2028 GAAP EPS × 32x/26x/18x，权重 30/40/30）：牛 $253.47 / 基准 $182.98 / 熊 $105.43，加权 $180.86、年化 +5.5%，低于 8% 门槛；反推 26x 退出需 2027–28 年营收每年约 +13.9%",
+      "Q2 报告口径营收 +17%，但剔除汇率 Q1 +15% → Q2 +13%；Q3 指引 +15–17% 含约 3pct 汇率顺风",
+      "立场补录为谨慎·低确信：退出 P/E +4 倍或权重 40/40/20 即越过门槛；价格回落至约 $152 转 neutral-watch。内部人 08-07 至 09-28 卖出约 $2.257 亿、零买入；Meta Muse AI 代理为新尾部风险"
     ],
-    "summaryEn": "Q2 2026 revenue $3.608B (+17% Y/Y), net income $816M (23% margin), Adjusted EBITDA $1.261B (35% margin), FCF $1.253B, and Nights and Seats Booked of 148.3M (+10%, accelerating from Q1); the company raised full-year revenue growth guidance to \"at least mid teens\" and Adjusted EBITDA Margin to \"at least 35.5%\". The prior version's loudest warning - TTM free cash flow quality - materially resolved, with TTM FCF recovering to $4.827B. On 2026-08-08 the report was re-anchored to the first completed post-release session (2026-08-07 close of $178.07, +17.43% in one day): market cap $104.99B, EV $95.34B, TTM P/E 39.0x, P/S 8.0x, P/FCF 21.8x, EV/Adjusted EBITDA about 20.5x, PEG about 2.3x. The pre-release conclusion that multiples had compressed reversed in that single session. A complete Q2 thesis and current-valuation review retains Neutral-to-Positive / Medium conviction: stronger growth and cash conversion offset the higher multiple, but 39x prevents an upgrade; forward EPS and the target range remain review-pending because no verifiable source was available.",
+    "summaryEn": "Q2 2026 revenue $3.608B (+17% reported, +13% ex-FX), net income $816M, Adjusted EBITDA $1.261B (35% margin), FCF $1.253B and TTM FCF $4.827B; full-year guidance raised to revenue growth of \"at least mid teens\" and an Adjusted EBITDA Margin of \"at least 35.5%\". Re-anchored on 2026-10-02 to the 2026-10-01 close of $160.47: market cap $94.61B, EV $84.95B, TTM P/E 35.2x, P/FCF 19.6x, P/S 7.2x, EV/Adjusted EBITDA about 18.3x, and a consensus FY2026E/FY2027E P/E of 30.3x/25.4x. Treating SBC (about 13% of revenue) as a cost and valuing the exit on FY2028 GAAP EPS, the 30/40/30 scenario grid weights to $180.86 per share, +5.5% annualized, below the 8% hurdle - stance backfilled as Cautious / Low conviction: the market is pricing a business that compounds at about 14%, and we see about 12%. A fall to about $152 would move the call to neutral-watch. New risks: AI-agent disintermediation such as Meta Muse (−7.56% on 09-23), and insiders sold about $225.7M from 08-07 to 09-28 with zero purchases.",
     "reportedPeriod": "Q2 2026",
     "priceSymbol": "ABNB",
-    "priceAsOf": "2026-08-07"
+    "priceAsOf": "2026-10-01",
+    "stance": "cautious",
+    "conviction": "low",
+    "stanceRationale": {
+      "zh": "以 2026-10-01 收盘 $160.47、A+B 类 5.896 亿股计市值 $946.1亿、EV $849.5亿（净现金 $96.6亿），对应 TTM P/E 35.2x（股价/摊薄 EPS 口径 36.4x）、P/FCF 19.6x、P/S 7.2x、EV/调整后 EBITDA 约 18.3x，按第三方一致预期 FY2026E / FY2027E P/E 为 30.3x / 25.4x。因 SBC 约占营收 13%、约占调整后 EBITDA 37%，退出估值以 FY2028 GAAP EPS × P/E 为基础：30% 牛市 / 40% 基准 / 30% 熊市（FY2028 营收 $190.8亿 / $176.2亿 / $157.3亿，EBITDA 利润率 37.5% / 36% / 33.5%，EPS $7.92 / $7.04 / $5.86，退出 P/E 32x / 26x / 18x，退出股数 5.473 亿 / 5.428 亿 / 5.355 亿）对应每股 $253.47 / $182.98 / $105.43，加权 $180.86，较 $160.47 为 +12.7%，2.248 年（2026-10-02 至 2028-12-31）年化 +5.5%，低于 8% 门槛 2.5 个百分点；基准情景本身仅 +6.0%。反推在 26x 退出下赚 8% 需 2027–2028 年营收每年约 +13.9%，而一致预期 FY2027 为 +11.6%、Q2 剔除汇率为 +13%。敏感性：退出 P/E +4 倍升至 +12.4%、权重 40/40/20 升至 +9.2%、增长 +3pp 为 +7.9%，P/E −4 倍降至 −2.1%。确信度为低而非中，因为结论离翻转只隔一档敏感性，且 AI 代理分流（Meta Muse）与监管两项尾部风险不在网格内；不选 neutral-watch，因为中心假设下的算术低于门槛。这是价格判断（价格回落至约 $152 时中心网格即赚到 8%），不是对生意的否定：Q2 营收 +17%、FCF 利润率 35%、净现金充裕；但内生增速在放缓、内部人 08-07 至 09-28 卖出约 $2.257 亿且零买入。",
+      "en": "At the 2026-10-01 close of $160.47 on 589.6M Class A+B shares, market cap is $94.61B and EV $84.95B (net cash $9.66B), or 35.2x TTM earnings (36.4x on price over diluted EPS), 19.6x P/FCF, 7.2x P/S and about 18.3x EV/adjusted EBITDA; on third-party consensus the FY2026E / FY2027E P/E is 30.3x / 25.4x. Because SBC is about 13% of revenue and about 37% of adjusted EBITDA, the exit is valued as FY2028 GAAP EPS x P/E: weighting 30% bull / 40% base / 30% bear (FY2028 revenue $19.08B / $17.62B / $15.73B, EBITDA margins 37.5% / 36% / 33.5%, EPS $7.92 / $7.04 / $5.86, exit P/E 32x / 26x / 18x, exit shares 547.3M / 542.8M / 535.5M) gives $253.47 / $182.98 / $105.43 per share and a weighted $180.86, +12.7% against $160.47, or +5.5% annualized over 2.248 years (2026-10-02 to 2028-12-31) - 2.5 points below the 8% hurdle; the base case alone earns only +6.0%. Working backwards, earning 8% at a 26x exit requires about 13.9% annual revenue growth in 2027-2028, against +11.6% consensus for FY2027 and +13% ex-FX in Q2. Sensitivity: four more turns of exit P/E lift it to +12.4%, a 40/40/20 weighting to +9.2%, and 3 points faster growth to +7.9%, while four fewer turns cut it to −2.1%. Conviction is low rather than medium because the conclusion is one sensitivity notch from flipping, and the AI-agent (Meta Muse) and regulatory tails sit outside the grid; it is not neutral-watch because the arithmetic at central assumptions is below the hurdle. This is a price call (the central grid earns 8% at about $152), not a verdict against the business: Q2 revenue grew 17% with a 35% FCF margin and ample net cash, but organic growth is slowing and insiders sold about $225.7M from 08-07 to 09-28 with zero purchases."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "满足任一条件即上调至 neutral-watch：（1）5 个交易日平均收盘价回落至 $152 或以下，且情景网格假设不变；（2）Q3 2026 营收达到或超过 $47.7亿指引上限、剔除汇率营收增速不低于 +14%，且 Q4 指引隐含同比增速不低于 +13%。",
+        "en": "Move to neutral-watch if any one of the following holds: (1) the 5-session average close falls to $152 or below, with the scenario-grid assumptions unchanged; (2) Q3 2026 revenue reaches or exceeds the $4.77B top of guidance, ex-FX revenue growth is at least +14%, and the Q4 guide implies at least +13% year-over-year growth.",
+        "monitoringIds": [
+          "valuation-hurdle-price",
+          "organic-growth-ex-fx"
+        ]
+      },
+      "downgrade": {
+        "zh": "满足任一条件即下调至 bearish-avoid：（1）Q3 2026 营收低于 $46.9亿指引下限，或剔除汇率营收增速低于 +10%；（2）间夜及座位预订同比增速低于 +7%；（3）implied take rate 连续两个季度低于 12.7%，或管理层把流量或预订放缓归因于第三方 AI 代理；（4）FY2026 调整后 EBITDA 利润率低于 35.5% 指引下限；（5）主要市场出台公司在财报或 8-K 中称为重大的短租禁令或上限；（6）5 个交易日平均收盘价升至 $181 或以上，且情景网格假设不变。",
+        "en": "Move to bearish-avoid if any one of the following holds: (1) Q3 2026 revenue falls below the $4.69B low end of guidance, or ex-FX revenue growth falls below +10%; (2) Nights and Seats Booked growth falls below +7% year over year; (3) the implied take rate is below 12.7% for two consecutive quarters, or management attributes a slowdown in traffic or bookings to third-party AI agents; (4) the FY2026 Adjusted EBITDA Margin comes in below the 35.5% guided floor; (5) a major market enacts a short-term-rental ban or cap that the company describes as material in its results or an 8-K; (6) the 5-session average close rises to $181 or above, with the scenario-grid assumptions unchanged.",
+        "monitoringIds": [
+          "organic-growth-ex-fx",
+          "nights-booked-growth",
+          "take-rate-ai-agents",
+          "adj-ebitda-margin",
+          "regulation-supply",
+          "valuation-hurdle-price"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-10-02",
+        "stance": "cautious",
+        "conviction": "low",
+        "price": 160.47,
+        "note": {
+          "zh": "立场补录 / Stance backfill。按 2026-10-01 收盘 $160.47 推导：30/40/30 情景网格（FY2028 GAAP EPS × 32x / 26x / 18x）加权每股 $180.86，2.248 年年化 +5.5%，低于 8% 门槛 2.5 个百分点；退出 P/E +4 倍或权重 40/40/20 即越过门槛，故确信度为低。此前正文为“中性偏积极 / 中等”（2026-08-08 版，无情景网格、前瞻 EPS 待复核）。",
+          "en": "Stance backfill. Derived at the 2026-10-01 close of $160.47: the 30/40/30 scenario grid (FY2028 GAAP EPS x 32x / 26x / 18x) weights to $180.86 per share, +5.5% annualized over 2.248 years, 2.5 points below the 8% hurdle; four more turns of exit P/E or a 40/40/20 weighting clears the hurdle, so conviction is low. The body previously read Neutral-to-Positive / Medium (2026-08-08 version, with no scenario grid and forward EPS pending review)."
+        }
+      }
+    ],
+    "monitoring": [
+      {
+        "id": "organic-growth-ex-fx",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "剔除汇率的营收增速与指引",
+          "en": "Ex-FX revenue growth versus guidance"
+        },
+        "trigger": {
+          "zh": "下调信号：Q3 2026 营收低于 $46.9亿指引下限，或剔除汇率营收增速低于 +10%；上调信号：Q3 2026 营收达到或超过 $47.7亿指引上限、剔除汇率营收增速不低于 +14%，且 Q4 指引隐含同比增速不低于 +13%",
+          "en": "Downgrade signal: Q3 2026 revenue below the $4.69B low end of guidance, or ex-FX revenue growth below +10%; upgrade signal: Q3 2026 revenue at or above the $4.77B top of guidance, ex-FX revenue growth of at least +14%, and a Q4 guide implying at least +13% year-over-year growth"
+        },
+        "latest": {
+          "zh": "Q2 2026 营收 $36.08亿，报告口径 +17%、剔除汇率 +13%（Q1 2026 为 +18% / +15%）；Q3 指引 $46.9–47.7亿（+15–17%，含约 3pct 汇率顺风，即剔除汇率约 +12–14%）；S&P Global FY2027E 营收增速 +11.6%",
+          "en": "Q2 2026 revenue was $3.608B, +17% reported and +13% ex-FX (Q1 2026: +18% / +15%); the Q3 guide of $4.69-4.77B (+15-17%) includes about 3 points of FX tailwind, i.e. roughly +12-14% ex-FX; S&P Global FY2027E revenue growth is +11.6%"
+        },
+        "nextCheck": "Q3 2026 财报（2026 年 11 月上旬，估计） / Q3 2026 results (early November 2026, estimated)",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "nights-booked-growth",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "间夜及座位预订增速",
+          "en": "Nights and Seats Booked growth"
+        },
+        "trigger": {
+          "zh": "间夜及座位预订同比增速低于 +7%",
+          "en": "Nights and Seats Booked growth below +7% year over year"
+        },
+        "latest": {
+          "zh": "Q2 2026 为 1.483 亿、+10%（Q1 +9%）；Q3 指引“低双位数”增长",
+          "en": "148.3M in Q2 2026, +10% (Q1 +9%); Q3 guided to \"low double-digit\" growth"
+        },
+        "nextCheck": "Q3 2026 财报 / Q3 2026 results",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "take-rate-ai-agents",
+        "thesis": "bear",
+        "theme": "pricing",
+        "metric": {
+          "zh": "Take rate 与 AI 代理分流",
+          "en": "Take rate and AI-agent disintermediation"
+        },
+        "trigger": {
+          "zh": "implied take rate（营收 / GBV）连续两个季度低于 12.7%，或管理层把流量或预订放缓归因于第三方 AI 代理",
+          "en": "Implied take rate (revenue / GBV) below 12.7% for two consecutive quarters, or management attributing a slowdown in traffic or bookings to third-party AI agents"
+        },
+        "latest": {
+          "zh": "Q2 2026 implied take rate 13.2%，与 Q2 2025 持平；公司指引 Q3 take rate 同比大致持平。据第三方报道，Meta Muse 于 2026 年 9 月推出，已报道的预订合作方以 OTA 与酒店集团为主、未见 Airbnb；ABNB 09-23 −7.56%",
+          "en": "Q2 2026 implied take rate was 13.2%, in line with Q2 2025; the company guides the Q3 take rate roughly flat year over year. Per third-party reporting, Meta Muse launched in September 2026, and the reported booking partners are mainly OTAs and hotel groups, not Airbnb; ABNB fell 7.56% on 09-23"
+        },
+        "nextCheck": "Q3 2026 财报与电话会 / Q3 2026 results and call",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "adj-ebitda-margin",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "调整后 EBITDA 利润率",
+          "en": "Adjusted EBITDA margin"
+        },
+        "trigger": {
+          "zh": "FY2026 调整后 EBITDA 利润率低于公司指引下限 35.5%",
+          "en": "FY2026 Adjusted EBITDA Margin below the 35.5% guided floor"
+        },
+        "latest": {
+          "zh": "Q2 2026 为 35%（Q2 2025 为 34%）；H1 2026 调整后 EBITDA $17.80亿、利润率 28.3%（季节性）；Q3 指引利润率较 Q3 2025 的 50.1% 略降；FY2026 指引不低于 35.5%（FY2025 为 35%）",
+          "en": "35% in Q2 2026 (34% in Q2 2025); H1 2026 adjusted EBITDA of $1.780B at a 28.3% margin (seasonal); Q3 margin guided slightly below Q3 2025's 50.1%; FY2026 guided at no less than 35.5% (FY2025: 35%)"
+        },
+        "nextCheck": "Q3 2026 财报（首读），FY2026 结果于 2027 年 2 月 / Q3 2026 results (first read), FY2026 results in February 2027",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "regulation-supply",
+        "thesis": "bear",
+        "theme": "regulatory",
+        "metric": {
+          "zh": "主要市场短租监管",
+          "en": "Major-market short-term-rental regulation"
+        },
+        "trigger": {
+          "zh": "主要市场出台公司在财报或 8-K 中称为重大的短租禁令或上限",
+          "en": "A major market enacts a short-term-rental ban or cap that the company describes as material in its results or an 8-K"
+        },
+        "latest": {
+          "zh": "欧盟短租登记规则自 2026 年 5 月生效；巴塞罗那 2028 年禁止旅游公寓；本次核查（截至 2026-10-02）未发现公司披露为重大的新监管事件，2026-08-06 之后无新的 8-K",
+          "en": "The EU short-term-rental registration rules took effect in May 2026; Barcelona bans tourist apartments from 2028; this check (as of 2026-10-02) found no new regulatory event the company has described as material, and there has been no 8-K since 2026-08-06"
+        },
+        "nextCheck": "Q3 2026 10-Q 风险因素与法律程序 / Q3 2026 10-Q risk factors and legal proceedings",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "valuation-hurdle-price",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "估值门槛价",
+          "en": "Valuation hurdle price"
+        },
+        "trigger": {
+          "zh": "5 个交易日平均收盘价回落至 $152 或以下（中心网格恰好赚 8%，上调复核），或升至 $181 或以上（中心网格加权回报降至 0% 以下，下调复核），且情景网格假设不变",
+          "en": "The 5-session average close falls to $152 or below (where the central grid earns exactly 8%; upgrade review), or rises to $181 or above (where the central grid's weighted return falls below 0%; downgrade review), with the scenario-grid assumptions unchanged"
+        },
+        "latest": {
+          "zh": "2026-10-01 收盘 $160.47，加权年化 +5.5%；09-23 收 $149.58、09-24 收 $151.39，但 5 个交易日平均收盘价自 08-07 以来最低约 $154.30（09-23 至 09-29），从未触及 $152；截至 10-01 的 5 日均价约 $158.33；52 周收盘区间 $111.54–$190.50",
+          "en": "2026-10-01 close of $160.47, +5.5% weighted annualized; closes of $149.58 on 09-23 and $151.39 on 09-24, but the lowest 5-session average close since 08-07 was about $154.30 (09-23 to 09-29), never at or below $152; the 5-session average to 10-01 is about $158.33; 52-week closing range $111.54-$190.50"
+        },
+        "nextCheck": "每日价格账本 / Daily price ledger",
+        "nextCheckDate": "2026-10"
+      }
+    ]
   },
   {
     "id": "hims-2026-pre-rerun",
@@ -4093,7 +4731,7 @@
     "ticker": "NYSE: HIMS",
     "title": "Hims & Hers 深度研究报告 - 增长质量与GLP-1监管考验",
     "titleEn": "Hims & Hers Deep Research Report - Growth Quality and GLP-1 Regulatory Test",
-    "summary": "2026-08-11 Q2 2026 经营与估值重新锚定（一手来源：2026-08-10 的 8-K Item 2.02 `0001773751-26-000161` 与 10-Q `0001773751-26-000163`）：收入 $753.2M（同比 +38%）、订阅 289.1 万（+19%）、单用户月均收入 $92；但毛利率降至 64%（去年同期 76%），净亏损 $86.3M，单季自由现金流 $(68.2)M。FY2026 指引上调至收入 $31-33 亿、调整后 EBITDA $275-325M。资本结构缺口已填平：可转债净额 $1,365.3M（较 2025 年底 +约 $393M），现金与短期投资 $841.0M，股东权益 $324.1M。2026-08-12 已按发布后第一个已完成交易日重锚：2026-08-11 收盘 $30.51（当日 −4.0%）、233,297,933 股，市值约 $71.2 亿＝FY2026E 收入中值约 2.22 倍；窄口径 EV 约 $76.4 亿，在 25 倍 EBITDA 下隐含约 $306M，仍高于 $300M 指引中值但仅高出约 $6M，已不再接近 $325M 上限。据此维持中性/观察、中确信：回撤缓和了估值张力却未解除它，增长使其不到谨慎，利润率、现金流与监管风险使其不到偏多。",
+    "summary": "2026-10-02 立场补录（按 2026-10-01 收盘 $29.30 重锚）：谨慎、低确信。Q2 2026（2026-08-10 的 8-K 与 10-Q）收入 $753.2M（同比 +38%）、订阅 289.1 万（+19%），但毛利率降至 64%、净亏损 $86.3M、单季自由现金流 $(68.2)M；FY2026 指引收入 $31-33 亿、调整后 EBITDA $275-325M。按 233,313,413 股计市值 $6,836.1M，窄口径企业价值 $7,397.6M（可转债本金 $1,402.5M 扣现金与短期投资 $841.0M）＝ FY2026 收入中值 2.31 倍、EBITDA 中值 24.7 倍；计入 Eucalyptus 递延与或有对价 $866.0M 后为 $8,263.6M。30/40/30 情景网格加权每股 $32.60，至 2028 年底年化 +4.9%，低于 8% 门槛；反推在 15 倍退出下需收入年增约 24.5%，快于管理层 2030 目标隐含的约 19.4%。确信度低：退出倍数 +3 倍即升至 +14.1%。2026-10-02 同步更正：Novo 已于 2026-03-09 撤诉，公司 3 月转向品牌 GLP-1，FTC 诉讼已计提约 $60M。",
     "tags": [
       "远程医疗",
       "DTC",
@@ -4102,21 +4740,21 @@
     ],
     "category": "tech",
     "date": "2026-02-13",
-    "lastUpdate": "2026-08-12",
+    "lastUpdate": "2026-10-02",
     "file": "/invest/research/reports/view.html?id=hims-2026",
     "markdownFiles": {
       "zh": "/invest/research/Hims_Hers_深度研究报告_2026-02.md",
       "en": "/invest/research/Hims_Hers_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "Q2 2026：收入 $753.2M（同比 +38%），订阅 289.1 万（+19%），单用户月均收入 $92（+21%）",
-      "质量恶化：毛利率 64%（去年同期 76%），净亏损 $86.3M，Q2 自由现金流 $(68.2)M；上半年经营现金流仍为正 $53.4M",
-      "FY2026 指引上调：收入 $31-33 亿、调整后 EBITDA $275-325M；Q3 指引收入 $880-900M",
-      "资本结构缺口填平：可转债净额 $1,365.3M（+约 $393M），现金与短期投资 $841.0M，股东权益仅 $324.1M",
-      "股价 $30.51（2026-08-11 收盘，发布后首个完整交易日，当日 −4.0%）、市值约 $71.2 亿（233,297,933 股）＝FY2026E 收入中值约 2.22 倍",
-      "维持中性/观察、中确信：25 倍 EBITDA 隐含约 $306M，仍高于 $300M 指引中值但仅高出约 $6M，不再接近上限"
+      "Q2 2026：收入 $753.2M（同比 +38%，美国 +16%），订阅 289.1 万（+19%），单用户月均收入 $92（+21%）",
+      "质量恶化：毛利率 64%（去年同期 76%），净亏损 $86.3M，Q2 自由现金流 $(68.2)M；FY2026 指引收入 $31-33 亿、调整后 EBITDA $275-325M",
+      "资本结构：可转债本金 $1,402.5M（2032 票据转股价 $29.53），现金与短期投资 $841.0M，Eucalyptus 递延与或有对价 $866.0M 至约 2027 年 12 月分期支付",
+      "股价 $29.30（2026-10-01 收盘）、市值 $6,836.1M；窄口径 EV $7,397.6M ＝ FY2026 收入中值 2.31 倍、EBITDA 中值 24.7 倍",
+      "谨慎、低确信：30/40/30 网格加权每股 $32.60、年化 +4.9%，低于 8% 门槛；退出倍数 +3 倍即升至 +14.1%",
+      "事实更正：Novo 已于 2026-03-09 撤诉；3 月转向品牌 GLP-1；FTC 诉讼计提约 $60M"
     ],
-    "summaryEn": "2026-08-11 Q2 2026 operating and valuation re-anchor, sourced to the 2026-08-10 8-K Item 2.02 (`0001773751-26-000161`) and 10-Q (`0001773751-26-000163`): revenue $753.2M (+38% YoY), subscribers 2.891M (+19%), $92 monthly revenue per average subscriber — against a gross margin down to 64% from 76%, an $86.3M net loss and $(68.2)M quarterly free cash flow. FY2026 guidance was raised to $3.1-3.3B revenue and $275-325M Adjusted EBITDA. Convertible notes net were $1,365.3M, cash and short-term investments $841.0M, and equity $324.1M. Re-anchored on 2026-08-12 to the first completed post-release session: at the 2026-08-11 close of $30.51 (-4.0% on the day) on 233,297,933 shares, market cap is about $7.12B and narrow EV about $7.64B; at 25x EBITDA that EV implies about $306M, still above the $300M midpoint but by only about $6M, and no longer close to the $325M high end. That keeps Neutral / watchlist at medium confidence: the pullback eased the valuation tension without resolving it, growth prevents cautious, while margin, cash-flow and regulatory risk prevent constructive.",
+    "summaryEn": "2026-10-02 stance backfill, re-anchored to the 2026-10-01 close of $29.30: cautious, low conviction. Q2 2026 (the 2026-08-10 8-K and 10-Q) delivered revenue of $753.2M (+38% YoY) and 2.891M subscribers (+19%), but gross margin fell to 64%, the net loss was $86.3M and quarterly free cash flow $(68.2)M; FY2026 guidance is $3.1-3.3B revenue and $275-325M Adjusted EBITDA. On 233,313,413 shares, market cap is $6,836.1M and narrow enterprise value $7,397.6M ($1,402.5M of note principal less $841.0M of cash and short-term investments), or 2.31x the FY2026 revenue midpoint and 24.7x the EBITDA midpoint; adding $866.0M of Eucalyptus deferred and contingent consideration gives $8,263.6M. The 30/40/30 scenario grid weights to $32.60 per share, +4.9% a year to end-2028, below the 8% hurdle; working backwards, a 15x exit needs about 24.5% annual revenue growth, faster than the roughly 19.4% implied by management's 2030 target. Conviction is low: three more turns of exit multiple lift the result to +14.1%. Also corrected on 2026-10-02: Novo dismissed its suit on 2026-03-09, the company moved to branded GLP-1s in March, and about $60M is accrued for the FTC case.",
     "period": "2026H1",
     "versionType": "full-cycle",
     "versionLabel": "2026H1 Full Rerun",
@@ -4134,8 +4772,165 @@
       "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the February GLP-1 regulatory binary and old revenue/valuation framework."
     },
     "priceSymbol": "HIMS",
-    "priceAsOf": "2026-08-11",
-    "reportedPeriod": "Q2 2026"
+    "priceAsOf": "2026-10-01",
+    "reportedPeriod": "Q2 2026",
+    "stance": "cautious",
+    "conviction": "low",
+    "stanceRationale": {
+      "zh": "以 2026-10-01 收盘 $29.30、233,313,413 股（10-Q 封面）计市值 $6,836.1M，窄口径企业价值 $7,397.6M（可转债本金 $1,402.5M 扣现金与短期投资 $841.0M），为 FY2026 收入指引中值 $32 亿的 2.31 倍、调整后 EBITDA 指引中值 $300M 的 24.7 倍；计入 Eucalyptus 递延与或有对价 $866.0M 后宽口径 $8,263.6M、27.5 倍；GAAP 为亏损（TTM 净亏损 $142.0M），TTM 自由现金流收益率仅 0.9%。决定立场的是加权预期回报：30% 牛市 / 40% 基准 / 30% 熊市（FY2028 收入 $5,035.6M / $4,416.0M / $3,448.4M，调整后 EBITDA 利润率 16% / 13% / 9%，退出 EV/EBITDA 20x / 15x / 10x，退出净索偿 −$955.0M / −$1,081.3M / −$1,532.7M，退出股数 243.9M / 248.4M / 257.2M）得每股 $62.14 / $30.31 / $6.11，加权 $32.60，较 $29.30 为 +11.3%，2.248 年（2026-10-02 至 2028-12-31，821 天）年化 +4.9%，低于 8% 门槛 3.1 个百分点；基准本身年化仅 +1.5%。反推在 15 倍退出、13% 利润率下，获得 8% 门槛需要 2027-2028 年收入每年增长约 24.5%，快于管理层 2030 年目标隐含的约 19.4%，本报告基准为 17.5%。确信度为低而非中，因为约 $14-15 亿净索偿把经营假设放大到每股价值：退出倍数整体上调 3 倍即升至 +14.1%，增速每年加 5 个百分点升至 +9.4%，FY2028 利润率加 2 个百分点升至 +12.5%，权重 40/40/20 升至 +12.5%；放宽熊市（每股 $9.28）后加权仍只有 +6.2%，故不是中性。这是对当前价格所需增长与利润率组合的估值与偏斜判断，不是对 Q2 2026 收入 +38%、订阅 +19% 等增长证据的否认；FTC、DOJ 与品牌 GLP-1 转向后的业务结构不在网格内。",
+      "en": "At the 2026-10-01 close of $29.30 on 233,313,413 shares (10-Q cover), market capitalization is $6,836.1M and narrow enterprise value $7,397.6M ($1,402.5M of convertible-note principal less $841.0M of cash and short-term investments), or 2.31x the $3.2B FY2026 revenue guidance midpoint and 24.7x the $300M Adjusted EBITDA midpoint; counting $866.0M of Eucalyptus deferred and contingent consideration, wide enterprise value is $8,263.6M, or 27.5x; GAAP results are loss-making (TTM net loss $142.0M) and the TTM free-cash-flow yield is only 0.9%. What settles the stance is the probability-weighted expected return: weighting 30% bull / 40% base / 30% bear (FY2028 revenue of $5,035.6M / $4,416.0M / $3,448.4M, Adjusted EBITDA margins of 16% / 13% / 9%, exit EV/EBITDA of 20x / 15x / 10x, exit net claims of −$955.0M / −$1,081.3M / −$1,532.7M and exit share counts of 243.9M / 248.4M / 257.2M) gives $62.14 / $30.31 / $6.11 per share and a weighted $32.60, +11.3% against $29.30, or +4.9% annualized over 2.248 years (2026-10-02 to 2028-12-31, 821 days) - 3.1 points below the 8% hurdle, with the base case alone at +1.5% a year. Working backwards, at a 15x exit and a 13% margin, earning the 8% hurdle requires about 24.5% annual revenue growth in 2027-2028, faster than the roughly 19.4% implied by management's 2030 target, against a 17.5% base case. Conviction is low rather than medium because roughly $1.4-1.5B of net claims magnify operating assumptions into value per share: raising all exit multiples by three turns lifts the result to +14.1%, adding 5 points a year to growth to +9.4%, adding 2 points to the FY2028 margin to +12.5%, and 40/40/20 weights to +12.5%; softening the bear case to $9.28 per share still leaves only +6.2%, which is why the call is not neutral. This is a valuation-and-skew judgment on the growth-and-margin combination the current price requires, not a denial of growth evidence such as Q2 2026 revenue +38% and subscribers +19%; the FTC and DOJ outcomes and the post-shift GLP-1 business mix sit outside the grid."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若 Q3 2026 收入达到或超过 $890M 指引中值且调整后 EBITDA 达到或超过 $85M 指引中值，Q3 2026 GAAP 毛利率回升至 66% 或以上，并且 Q3 2026 自由现金流为正、支付 Eucalyptus 分期款后季末现金与短期投资仍不低于 $700M，则上调至 neutral-watch。",
+        "en": "Move to neutral-watch if Q3 2026 revenue reaches or exceeds the $890M guidance midpoint and Adjusted EBITDA reaches or exceeds the $85M midpoint, Q3 2026 GAAP gross margin recovers to 66% or higher, and Q3 2026 free cash flow is positive with quarter-end cash and short-term investments of at least $700M after the Eucalyptus installment.",
+        "monitoringIds": [
+          "q3-guide-delivery",
+          "gross-margin",
+          "liquidity-acquisition-payments"
+        ]
+      },
+      "downgrade": {
+        "zh": "若 Q3 2026 收入低于 $880M 指引下限或调整后 EBITDA 低于 $75M 指引下限；或季度 GAAP 毛利率低于 62%；或任一季末现金与短期投资低于 $500M 或动用 $175.0M 循环信贷额度；或法院对公司计费、取消流程或数据共享做出初步禁令，或 FTC 金钱和解 / 法律计提超过 $160M；或 DOJ 对公司提起民事或刑事指控、FDA 采取点名公司的正式执法行动或 Novo Nordisk 重新提起专利诉讼；或订阅用户数环比下降，则下调至 bearish-avoid。",
+        "en": "Move to bearish-avoid if Q3 2026 revenue falls below the $880M low end of guidance or Adjusted EBITDA falls below the $75M low end; or quarterly GAAP gross margin falls below 62%; or cash and short-term investments fall below $500M at any quarter-end or the $175.0M revolving credit facility is drawn; or a court orders a preliminary injunction against the company's billing, cancellation or data-sharing practices, or an FTC monetary resolution or legal accrual exceeds $160M; or the DOJ files civil or criminal charges against the company, the FDA takes a formal enforcement action naming the company, or Novo Nordisk refiles its patent suit; or subscribers decline quarter over quarter.",
+        "monitoringIds": [
+          "q3-guide-delivery",
+          "gross-margin",
+          "liquidity-acquisition-payments",
+          "ftc-billing-privacy",
+          "glp1-doj-fda",
+          "subscribers-arpu"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-10-02",
+        "stance": "cautious",
+        "conviction": "low",
+        "price": 29.3,
+        "note": {
+          "zh": "立场补录 / Stance backfill。按 2026-10-01 收盘 $29.30 重锚：30/40/30 情景网格加权每股 $32.60，2.248 年年化 +4.9%，低于 8% 门槛 3.1 个百分点，基准本身仅 +1.5%；但退出倍数 +3 倍即升至 +14.1%、增速 +5 个百分点升至 +9.4%，约 $14-15 亿净索偿放大了对假设的敏感度，故确信度为低。此前正文中的中性 / 观察（2026-08-12）未做 2028 年情景网格。",
+          "en": "Stance backfill. Re-anchored to the 2026-10-01 close of $29.30: the 30/40/30 scenario grid weights to $32.60 per share, +4.9% annualized over 2.248 years, 3.1 points below the 8% hurdle, with the base case alone at +1.5%; but three more turns of exit multiple lift it to +14.1% and 5 more points of growth to +9.4%, and roughly $1.4-1.5B of net claims magnify that sensitivity, so conviction is low. The body's earlier neutral / watchlist view (2026-08-12) had no scenario grid to 2028."
+        }
+      }
+    ],
+    "monitoring": [
+      {
+        "id": "q3-guide-delivery",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "Q3 2026 收入与调整后 EBITDA 对照指引",
+          "en": "Q3 2026 revenue and Adjusted EBITDA versus guidance"
+        },
+        "trigger": {
+          "zh": "Q3 2026 收入低于 $880M 指引下限，或调整后 EBITDA 低于 $75M 指引下限",
+          "en": "Q3 2026 revenue below the $880M low end of guidance, or Adjusted EBITDA below the $75M low end"
+        },
+        "latest": {
+          "zh": "Q2 2026 收入 $753.2M（同比 +38%，美国 +16%），调整后 EBITDA $60.3M（利润率 8%）；Q3 指引收入 $880-900M、调整后 EBITDA $75-95M；FY2026 指引收入 $31-33 亿、调整后 EBITDA $275-325M（2026-08-10）",
+          "en": "Q2 2026 revenue was $753.2M (+38% YoY, U.S. +16%) and Adjusted EBITDA $60.3M (8% margin); Q3 guidance is $880-900M revenue and $75-95M Adjusted EBITDA; FY2026 guidance is $3.1-3.3B revenue and $275-325M Adjusted EBITDA (2026-08-10)"
+        },
+        "nextCheck": "Q3 2026 财报（2026 年 11 月上旬，估计） / Q3 2026 results (early November 2026, estimated)",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "gross-margin",
+        "thesis": "bear",
+        "theme": "pricing",
+        "metric": {
+          "zh": "季度 GAAP 毛利率",
+          "en": "Quarterly GAAP gross margin"
+        },
+        "trigger": {
+          "zh": "季度 GAAP 毛利率低于 62%",
+          "en": "Quarterly GAAP gross margin below 62%"
+        },
+        "latest": {
+          "zh": "Q2 2026 毛利率 64%（去年同期 76%）；H1 2026 GAAP 64%、剔除重组费用后 67%；FY2025 为 73.8%",
+          "en": "Q2 2026 gross margin was 64% (76% a year earlier); H1 2026 was 64% GAAP and 67% excluding restructuring charges; FY2025 was 73.8%"
+        },
+        "nextCheck": "Q3 2026 财报（2026 年 11 月上旬，估计） / Q3 2026 results (early November 2026, estimated)",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "liquidity-acquisition-payments",
+        "thesis": "bear",
+        "theme": "leverage-solvency",
+        "metric": {
+          "zh": "流动性与 Eucalyptus 递延对价支付",
+          "en": "Liquidity and Eucalyptus deferred-consideration payments"
+        },
+        "trigger": {
+          "zh": "任一季末现金与短期投资低于 $500M，或动用 $175.0M 循环信贷额度",
+          "en": "Cash and short-term investments below $500M at any quarter-end, or any draw on the $175.0M revolving credit facility"
+        },
+        "latest": {
+          "zh": "2026-06-30 现金与短期投资 $841.0M；Q2 自由现金流 $(68.2)M；Eucalyptus 递延应付 $703.0M 与或有对价 $163.0M，递延部分分六个季度支付至约 2027 年 12 月，公司可选择以股票支付其中绝大部分（上限为 A 类股的 19.9%）；可转债本金 $1,402.5M（2030 年 $1,000.0M、2032 年 $402.5M）；循环信贷无借款，$12.6M 信用证占用、可用 $162.4M",
+          "en": "Cash and short-term investments were $841.0M at 2026-06-30; Q2 free cash flow was $(68.2)M; Eucalyptus deferred payable is $703.0M and contingent consideration $163.0M, with the deferred part payable in six quarterly installments through around December 2027 and a company option to settle most of it in stock (capped at 19.9% of Class A shares); convertible-note principal is $1,402.5M ($1,000.0M due 2030, $402.5M due 2032); the revolver has no loans outstanding, with $12.6M of letters of credit and $162.4M available"
+        },
+        "nextCheck": "Q3 2026 10-Q 资产负债表 / Q3 2026 10-Q balance sheet",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "ftc-billing-privacy",
+        "thesis": "bear",
+        "theme": "regulatory",
+        "metric": {
+          "zh": "FTC 计费与隐私诉讼及相关支付通道风险",
+          "en": "FTC billing and privacy litigation and related payment-network risk"
+        },
+        "trigger": {
+          "zh": "法院对公司计费、取消流程或数据共享做出初步禁令，或 FTC 金钱和解 / 法律计提超过 $160M",
+          "en": "A court-ordered preliminary injunction against the company's billing, cancellation or data-sharing practices, or an FTC monetary resolution or legal accrual above $160M"
+        },
+        "latest": {
+          "zh": "FTC 会同犹他州与洛杉矶县于 2026-07-29 起诉（N.D. Cal.）；10-Q 称此前和解谈判未成，公司计提约 $60M；另有 Doe 隐私集体诉讼；Bloomberg 2026-08-21 报道公司被纳入 Visa 收单监控计划（第三方来源）；Velanki 证券集体诉讼首席原告截止 2026-11-02（律所通告，第三方来源）",
+          "en": "The FTC, with Utah and Los Angeles County, sued on 2026-07-29 (N.D. Cal.); the 10-Q says earlier settlement talks failed and the company accrued about $60M; a Doe privacy class action is also pending; Bloomberg reported on 2026-08-21 that the company was placed in Visa's Acquirer Monitoring Program (third-party); the Velanki securities class action has a 2026-11-02 lead-plaintiff deadline (law-firm notices, third-party)"
+        },
+        "nextCheck": "法院案卷与 Q3 2026 10-Q / Court docket and the Q3 2026 10-Q",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "glp1-doj-fda",
+        "thesis": "bear",
+        "theme": "regulatory",
+        "metric": {
+          "zh": "GLP-1 监管：DOJ 移送、FDA 执法与 Novo 诉讼",
+          "en": "GLP-1 regulation: DOJ referral, FDA enforcement and the Novo suit"
+        },
+        "trigger": {
+          "zh": "DOJ 对公司提起民事或刑事指控，或 FDA 采取点名公司的正式执法行动，或 Novo Nordisk 重新提起专利诉讼",
+          "en": "The DOJ files civil or criminal charges against the company, the FDA takes a formal enforcement action naming the company, or Novo Nordisk refiles its patent suit"
+        },
+        "latest": {
+          "zh": "HHS 于 2026 年 2 月将公司移送 DOJ，截至 Q2 10-Q 无进一步披露；Novo 于 2026-03-09 不带偏见撤诉；公司 2026 年 3 月转向品牌 GLP-1，复合药仅小规模提供；本轮未发现 2026-08-12 以后的新监管行动（检索非穷尽）",
+          "en": "HHS referred the company to the DOJ in February 2026 with no further disclosure as of the Q2 10-Q; Novo dismissed without prejudice on 2026-03-09; the company moved to branded GLP-1s in March 2026, with compounded drugs offered only on a limited scale; no new regulatory action after 2026-08-12 was found in this pass (search not exhaustive)"
+        },
+        "nextCheck": "Q3 2026 10-Q 法律程序附注 / Q3 2026 10-Q legal-proceedings note",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "subscribers-arpu",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "订阅用户与单用户月均收入",
+          "en": "Subscribers and monthly revenue per average subscriber"
+        },
+        "trigger": {
+          "zh": "订阅用户数环比下降",
+          "en": "Subscribers decline quarter over quarter"
+        },
+        "latest": {
+          "zh": "Q2 2026 订阅 289.1 万（同比 +19%），单用户月均收入 $92（+21%）；FY2025 末 251.1 万",
+          "en": "2.891M subscribers in Q2 2026 (+19% YoY) at $92 monthly revenue per average subscriber (+21%); 2.511M at the end of FY2025"
+        },
+        "nextCheck": "Q3 2026 财报（2026 年 11 月上旬，估计） / Q3 2026 results (early November 2026, estimated)",
+        "nextCheckDate": "2026-11"
+      }
+    ]
   },
   {
     "id": "bloom-energy-2026-pre-rerun",
@@ -4539,7 +5334,7 @@
     "ticker": "NASDAQ: COIN",
     "title": "Coinbase 深度研究报告 - 合规加密基础设施平台",
     "titleEn": "Coinbase Deep Research Report - Regulated Crypto Infrastructure Platform",
-    "summary": "2026-07-31更新并入Q1/Q2 2026财报：COIN盘中约$143.59（2026-07-31 12:44 ET，当日交易时段尚未结束）、市值约$37.9B。Q2收入同比-18.5%、连续三个季度净亏损，但加密交易量市场份额10.3%、订阅占比48%、平台USDC余额$20B均创历史新高；SBC红旗经SEC原始文件核对不成立。",
+    "summary": "2026-10-02 立场补录：以 2026-10-01 收盘 $189.29（市值 $49.94B、EV/TTM 收入 7.53x）重建估值，立场 cautious、确信度低。30/40/30 情景网格加权每股 $199.46、年化 +2.4%，低于 8% 门槛；在 7x 退出下，保本即需 FY2028 收入回到 FY2025 的 $7.18B。股价自 7-31 收盘 +29.4%，主要跟随 BTC 反弹，Q3 尚未报告；CLARITY Act 9-15 程序性表决失败，美联储 9-16 加息 25bp。",
     "tags": [
       "加密货币",
       "交易所",
@@ -4548,19 +5343,19 @@
     ],
     "category": "tech",
     "date": "2026-02-11",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-10-02",
     "file": "/invest/research/reports/view.html?id=coinbase-2026",
     "markdownFiles": {
       "zh": "/invest/research/Coinbase_深度研究报告_2026-02.md",
       "en": "/invest/research/Coinbase_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "盘中约$143.59（2026-07-31 12:44 ET）、市值约$37.9B；TTM收入约6.0x，Q2年化口径约7.8x",
-      "Q2 2026收入$1,220M（同比-18.5%）、净亏损-$359M，调整后EBITDA $208M连续14季为正",
-      "周期面转弱、结构面创高：市场份额10.3%、订阅占比48%、平台USDC余额$20B",
-      "两项判断变化：币价—收入弹性比原模型更陡；SBC红旗经SEC文件核对不成立"
+      "2026-10-01 收盘 $189.29、市值 $49.94B；EV/TTM 收入 7.53x，EV/TTM 调整后 EBITDA 25.2x",
+      "立场 cautious / 低确信：30/40/30 加权每股 $199.46，年化 +2.4% 对 8% 门槛；退出倍数整体 +1 倍即触及门槛",
+      "Q2 2026 收入 $1,220M（同比 -18.5%），调整后 EBITDA $208M 连续 14 季为正；份额 10.3%、订阅占比 48% 创新高",
+      "7-31 以来：BTC 约 +35% 至约 $84.8K，CLARITY Act 程序性表决失败，美联储加息至 3.75%-4.00%"
     ],
-    "summaryEn": "Updated 2026-07-31 with Q1/Q2 2026 results: COIN at roughly $143.59 intraday (12:44 PM ET on 2026-07-31, session still open) for about $37.9B market cap. Q2 revenue fell 18.5% YoY with a third consecutive quarterly loss, while crypto trading volume market share (10.3%), subscription mix (48%), and platform USDC balances ($20B) all set records; the SBC red flag does not survive verification against primary SEC filings.",
+    "summaryEn": "Stance backfill on 2026-10-02: valuation rebuilt at the 2026-10-01 close of $189.29 ($49.94B market cap, 7.53x EV/TTM revenue); stance cautious, conviction low. The 30/40/30 scenario grid weights to $199.46 per share, +2.4% annualized against an 8% hurdle; at a 7x exit, merely holding value requires FY2028 revenue back at FY2025's $7.18B. The shares are up 29.4% since the 07-31 close, mostly tracking the BTC rebound, with Q3 not yet reported; the CLARITY Act failed a Senate procedural vote on 09-15 and the Fed raised rates 25bp on 09-16.",
     "period": "2026H1",
     "versionType": "full-cycle",
     "versionLabel": "2026H1 Full Rerun",
@@ -4577,7 +5372,165 @@
       "summary": "归档的2026H1重跑前版本，保留Q4/FY2025、交易量、托管、USDC和旧估值框架。",
       "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the Q4/FY2025, trading volume, custody, USDC, and old valuation framework."
     },
-    "priceSymbol": "COIN"
+    "priceSymbol": "COIN",
+    "stance": "cautious",
+    "conviction": "low",
+    "stanceRationale": {
+      "zh": "以 2026-10-01 收盘 $189.29、10-Q 封面 263.837M 股（2026-07-23）计，市值 $49.94B；净现金 $2,614M（现金及等价物 $8,614M 减约 $6.0B 票据本金，不计 $1,468M 加密投资组合与 $840M 战略投资），企业价值 $47.33B，对应 EV/TTM 收入 7.53x、EV/Q2 年化收入 9.70x、EV/TTM 调整后 EBITDA 25.2x（$1,878M）、EV/FY2025 调整后 EBITDA 16.8x；TTM GAAP 净亏损，P/E 不适用。30% 牛市 / 40% 基准 / 30% 熊市情景（FY2028 收入 $10,000M / $7,200M / $4,800M，由本报告估计的 FY2026E $5.0B 出发；调整后 EBITDA 利润率 43.4% / 33.7% / 16.3%；退出 EV/收入 9x / 7x / 4x；退出股数 283.1M / 286.4M / 292.8M；退出净现金 $4,858M / $3,997M / $3,219M）每股价值 $335.08 / $189.91 / $76.56，加权 $199.46，较 $189.29 +5.4%，2.248 年（2026-10-02 至 2028-12-31，821 天）年化 +2.4%，低于 8% 门槛 5.6 个百分点。反推：在 7x 退出下，保本需要 FY2028 收入 $7,177M（≈ FY2025 的 $7.18B），获得 8% 需要 $8,514M，高于公司历史上任何一个完整年度。敏感度：退出倍数整体 -1 倍降至 -3.7%、增长放缓降至 -4.5%；但退出倍数整体 +1 倍恰好落在门槛（+8.0%，差 $0.05）、增长加快为 +8.6%、权重改为 40/40/20 为 +8.1%。立场为 cautious 而非 neutral-watch：基准情景只是保本，加权回报比门槛低 5.6 个百分点，且熊市 -59.6% 的深度与牛市 +77.0% 不对称地叠加在一个尚未报告的 Q3 之上；确信度为低而非中：任何一项有利方向的单步调整都能把加权回报推到门槛附近，而币价路径本身不可预测。这是对 $189.29 价格的偏斜判断（股价自 2026-07-31 收盘 +29.4%，主要跟随 BTC 反弹，而 Q3 季度均价与成交量并未改善），不是对 Coinbase 结构性优势（份额 10.3%、订阅占比 48%）的否认。",
+      "en": "At the 2026-10-01 close of $189.29 on 263.837M shares (10-Q cover, 2026-07-23), market capitalization is $49.94B; net cash is $2,614M (cash and equivalents of $8,614M less about $6.0B of note principal, excluding the $1,468M crypto investment portfolio and $840M of strategic investments), for an enterprise value of $47.33B - 7.53x TTM revenue, 9.70x Q2-annualized revenue, 25.2x TTM adjusted EBITDA ($1,878M) and 16.8x FY2025 adjusted EBITDA; TTM GAAP earnings are negative, so P/E does not apply. Weighting 30% bull / 40% base / 30% bear (FY2028 revenue of $10,000M / $7,200M / $4,800M from this report's FY2026E estimate of $5.0B; adjusted EBITDA margins of 43.4% / 33.7% / 16.3%; exit EV/revenue of 9x / 7x / 4x; exit shares of 283.1M / 286.4M / 292.8M; exit net cash of $4,858M / $3,997M / $3,219M) gives values of $335.08 / $189.91 / $76.56 per share and a weighted $199.46, +5.4% against $189.29, or +2.4% annualized over 2.248 years (2026-10-02 to 2028-12-31, 821 days) - 5.6 points below the 8% hurdle. Working backwards at a 7x exit, merely holding value requires FY2028 revenue of $7,177M (about FY2025's $7.18B), and earning 8% requires $8,514M, above any full year in the company's history. Sensitivity: cutting every exit multiple by one turn takes the weighted return to -3.7% and slower growth to -4.5%; but adding one turn lands exactly at the hurdle (+8.0%, $0.05 short), faster growth gives +8.6% and a 40/40/20 weighting +8.1%. The stance is cautious rather than neutral-watch because the base case only breaks even, the weighted return is 5.6 points short of the hurdle, and the -59.6% bear case sits against a +77.0% bull case ahead of an unreported Q3; conviction is low rather than medium because any single favorable notch brings the weighted return to about the hurdle, and the crypto price path itself cannot be forecast. This is a skew judgment at $189.29 - the shares are up 29.4% since the 2026-07-31 close, mostly tracking the BTC rebound, while Q3 average prices and volumes did not improve - not a denial of Coinbase's structural gains (10.3% market share, 48% subscription mix)."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "以下任一成立则上调至 neutral-watch：（a）Q3 2026 订阅与服务收入达到或超过 $580M 指引上限；（b）CLARITY Act（H.R. 3633）签署成法；（c）在情景取值不变的前提下 COIN 收盘价跌至 $168 或以下（届时 $199.46 的加权价值即可跨过 8% 门槛）。",
+        "en": "Move to neutral-watch if any one of the following holds: (a) Q3 2026 subscription and services revenue at or above the $580M top of guidance; (b) the CLARITY Act (H.R. 3633) is signed into law; (c) COIN closes at or below $168 with scenario values unchanged (the $199.46 weighted value would then clear the 8% hurdle).",
+        "monitoringIds": [
+          "subscription-services-guide",
+          "market-structure-regulation",
+          "valuation-hurdle-price"
+        ]
+      },
+      "downgrade": {
+        "zh": "以下任一成立则下调至 bearish-avoid：（a）BTC 月均价连续两个月低于 $60,000；（b）Q3 2026 订阅与服务收入低于 $500M 指引下限，或 Q4 2026 订阅与服务指引中值低于 Q3 实际；（c）公司口径加密交易量市场份额连续两个季度环比下降；（d）任一季度调整后 EBITDA 为负，或 FY2026 调整后费用超过 $4,450M 指引上限；（e）出现公司称为重大的联邦或州层面执法行动。",
+        "en": "Move to bearish-avoid if any one of the following holds: (a) the BTC monthly average price is below $60,000 for two consecutive months; (b) Q3 2026 subscription and services revenue is below the $500M low end of guidance, or the Q4 2026 subscription and services guide midpoint is below the Q3 actual; (c) the company-defined crypto trading volume market share declines quarter over quarter for two consecutive quarters; (d) adjusted EBITDA is negative in any quarter, or FY2026 adjusted expenses exceed the $4,450M top of guidance; (e) a federal or state enforcement action the company describes as material.",
+        "monitoringIds": [
+          "btc-cycle-volume",
+          "subscription-services-guide",
+          "trading-market-share",
+          "adj-ebitda-expense",
+          "market-structure-regulation"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-10-02",
+        "stance": "cautious",
+        "conviction": "low",
+        "price": 189.29,
+        "note": {
+          "zh": "立场补录 / Stance backfill：以 2026-10-01 收盘 $189.29 重建 §8 估值。30/40/30 情景网格加权每股 $199.46，2.248 年年化 +2.4%，低于 8% 门槛 5.6 个百分点；基准情景仅保本。退出倍数整体 +1 倍即触及门槛，故确信度为低。此前（2026-07-31）文字倾向为中性偏积极、确信度中低，当时未做情景网格。",
+          "en": "Stance backfill: §8 valuation rebuilt at the 2026-10-01 close of $189.29. The 30/40/30 scenario grid weights to $199.46 per share, +2.4% annualized over 2.248 years, 5.6 points below the 8% hurdle; the base case only breaks even. One turn more on every exit multiple reaches the hurdle, so conviction is low. The earlier text lean (2026-07-31) was neutral-to-constructive with medium-low confidence, without a scenario grid."
+        }
+      }
+    ],
+    "monitoring": [
+      {
+        "id": "btc-cycle-volume",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "BTC 价格与行业现货交易量（加密周期）",
+          "en": "BTC price and industry spot volume (the crypto cycle)"
+        },
+        "trigger": {
+          "zh": "BTC 月均价连续两个月低于 $60,000",
+          "en": "BTC monthly average price below $60,000 for two consecutive months"
+        },
+        "latest": {
+          "zh": "CoinGecko 日线：BTC 于 2026-10-02 00:00 UTC 约 $84,842（较 2026-07-31 约 $62,764 +35.2%），ETH 约 $2,705；月均价 7 月 $63,731、8 月 $68,980、9 月 $80,306；Q3 均价 $70,904，较 Q2 的 $71,731 为 -1.2%，BTC 全市场日均成交额（第三方汇总口径）环比 -15.9%、ETH -18.9%——价格反弹集中在 8 月底至 9 月，Q3 季度均值与成交量并未改善",
+          "en": "CoinGecko daily data: BTC about $84,842 at 2026-10-02 00:00 UTC (+35.2% from about $62,764 on 2026-07-31), ETH about $2,705; monthly averages of $63,731 in July, $68,980 in August and $80,306 in September; the Q3 average of $70,904 was 1.2% below Q2's $71,731, and aggregate BTC daily spot volume (third-party proxy) fell 15.9% quarter over quarter, ETH 18.9% - the price rebound came in late August and September, so the Q3 averages and volumes did not improve"
+        },
+        "nextCheck": "每月 BTC 月均价 / Monthly BTC average price",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "subscription-services-guide",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "订阅与服务收入对照指引（含稳定币收入）",
+          "en": "Subscription and services revenue versus guidance (including stablecoin revenue)"
+        },
+        "trigger": {
+          "zh": "Q3 2026 订阅与服务收入低于 $500M 指引下限，或 Q4 2026 订阅与服务指引中值低于 Q3 实际（负面）；Q3 2026 订阅与服务收入达到或超过 $580M 指引上限（正面）",
+          "en": "Q3 2026 subscription and services revenue below the $500M low end of guidance, or a Q4 2026 subscription and services guide midpoint below the Q3 actual (negative); Q3 2026 subscription and services revenue at or above the $580M top of guidance (positive)"
+        },
+        "latest": {
+          "zh": "Q2 2026 订阅与服务 $555M，低于公司 5 月给出的 $565-645M 指引下沿；稳定币收入 $292M；Q3 指引 $500-580M。美联储 2026-09-16 加息 25bp 至 3.75%-4.00%（7 月为 3.50%-3.75%），利率方向转为有利于 USDC 储备收益；但 CoinGecko 口径 Q3 USDC 平均市值 $73.3B，较 Q2 的 $76.6B 为 -4.3%",
+          "en": "Q2 2026 subscription and services revenue was $555M, below the low end of the $565-645M guide given in May; stablecoin revenue was $292M; the Q3 guide is $500-580M. The Fed raised its target range by 25bp to 3.75%-4.00% on 2026-09-16 (3.50%-3.75% in July), turning the rate direction in favor of USDC reserve income; but the Q3 average USDC market cap on CoinGecko was $73.3B, 4.3% below Q2's $76.6B"
+        },
+        "nextCheck": "Q3 2026 财报（预计 10 月下旬至 11 月上旬，截至 2026-10-02 未公布日期） / Q3 2026 results (estimated late October to early November; date not announced as of 2026-10-02)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "trading-market-share",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "公司口径加密交易量市场份额",
+          "en": "Company-defined crypto trading volume market share"
+        },
+        "trigger": {
+          "zh": "公司口径加密交易量市场份额连续两个季度环比下降",
+          "en": "Company-defined crypto trading volume market share declines quarter over quarter for two consecutive quarters"
+        },
+        "latest": {
+          "zh": "FY2025 6.4% → Q1 2026 9.1% → Q2 2026 10.3%，连续第三个季度创历史新高；衍生品份额同样连续三季创新高（Q2 财报演示）",
+          "en": "FY2025 6.4% -> Q1 2026 9.1% -> Q2 2026 10.3%, a third consecutive record quarter; derivatives share also set a third straight record (Q2 earnings deck)"
+        },
+        "nextCheck": "Q3 2026 财报演示 / Q3 2026 earnings deck",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "adj-ebitda-expense",
+        "thesis": "bear",
+        "theme": "execution",
+        "metric": {
+          "zh": "调整后 EBITDA 与费用纪律",
+          "en": "Adjusted EBITDA and expense discipline"
+        },
+        "trigger": {
+          "zh": "任一季度调整后 EBITDA 为负，或 FY2026 调整后费用超过 $4,450M 指引上限",
+          "en": "Negative adjusted EBITDA in any quarter, or FY2026 adjusted expenses above the $4,450M top of guidance"
+        },
+        "latest": {
+          "zh": "调整后 EBITDA：Q3 2025 $801M、Q4 2025 $566M、Q1 2026 $303M、Q2 2026 $208M（连续第 14 个季度为正，但逐季下滑）；Q3 调整后费用指引 $980-1,080M；FY2026 调整后费用指引 $4,200-4,450M；5 月裁员 14%、期末员工 4,321 人",
+          "en": "Adjusted EBITDA: Q3 2025 $801M, Q4 2025 $566M, Q1 2026 $303M, Q2 2026 $208M (14th consecutive positive quarter, but falling each quarter); Q3 adjusted expense guide $980-1,080M; FY2026 adjusted expense guide $4,200-4,450M; 14% workforce reduction in May, 4,321 employees at quarter end"
+        },
+        "nextCheck": "Q3 2026 财报 / Q3 2026 results",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "market-structure-regulation",
+        "thesis": "either",
+        "theme": "regulatory",
+        "metric": {
+          "zh": "美国市场结构立法与执法",
+          "en": "U.S. market-structure legislation and enforcement"
+        },
+        "trigger": {
+          "zh": "CLARITY Act（H.R. 3633）签署成法（正面），或出现公司称为重大的联邦或州层面执法行动（负面）",
+          "en": "The CLARITY Act (H.R. 3633) is signed into law (positive), or a federal or state enforcement action the company describes as material (negative)"
+        },
+        "latest": {
+          "zh": "2026-09-15 参议院对 CLARITY Act 的程序性动议未获 60 票（CNBC 报道为 50 票赞成、49 票反对；另有媒体记为 49-50）；参议员 Lummis 表决前称若失败「就结束了」；参议院 10 月初休会至中期选举后。2026-07-30 以来公司 8-K 未披露重大执法行动（仅 2026-09-02 一份董事任命 8-K）",
+          "en": "On 2026-09-15 the Senate motion to proceed on the CLARITY Act fell short of the 60 votes needed (CNBC reports 50 for and 49 against; other outlets record 49-50); Senator Lummis had said before the vote that \"it's over\" if it failed; the Senate leaves in early October until after the midterm elections. No material enforcement action has been disclosed in company 8-Ks since 2026-07-30 (the only one is a 2026-09-02 director-appointment 8-K)"
+        },
+        "nextCheck": "中期选举后的国会会期与公司 8-K / The post-midterm congressional session and company 8-Ks",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "valuation-hurdle-price",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "股价对照情景网格的 8% 门槛价",
+          "en": "Share price versus the scenario grid's 8% hurdle price"
+        },
+        "trigger": {
+          "zh": "在情景取值不变的前提下 COIN 收盘价跌至 $168 或以下（届时 $199.46 的加权价值即可跨过 8% 门槛）",
+          "en": "COIN closes at or below $168 with scenario values unchanged (the $199.46 weighted value would then clear the 8% hurdle)"
+        },
+        "latest": {
+          "zh": "2026-10-01 收盘 $189.29；30/40/30 网格加权每股 $199.46，2.248 年年化 +2.4%，低于 8% 门槛 5.6 个百分点",
+          "en": "2026-10-01 close of $189.29; the 30/40/30 grid weights to $199.46 per share, +2.4% annualized over 2.248 years, 5.6 points below the 8% hurdle"
+        },
+        "nextCheck": "每日价格账本 / Daily price ledger",
+        "nextCheckDate": "2026-10"
+      }
+    ],
+    "priceAsOf": "2026-10-01",
+    "reportedPeriod": "Q2 2026"
   },
   {
     "id": "amzn-2026",
@@ -4839,7 +5792,7 @@
     "ticker": "NASDAQ: NFLX",
     "title": "Netflix 深度研究报告 - 估值压缩与有机增长再验证",
     "titleEn": "Netflix Deep Research Report - Valuation Compression and Organic Growth Test",
-    "summary": "2026-07-17更新（Q2 2026财报）：Q2营收$12.56B（+13.4%）、运营利润率33.4%、净利$3.4B、EPS $0.80；FY2026营收指引收窄至$51.0–51.4B，Q3指引$12.86B（+11.7%）低于约$13B预期，财报后股价单日-7.3%。市场数据：股价$68.95、市值约$290.3B、TTM P/E约23.4x、Forward P/E约18.1x、P/S约6.0x。公司进一步缩减观看量披露；投资论点仍在广告变现、内容ROI、直播/体育执行与资本配置。",
+    "summary": "2026-10-02 立场补录：constructive（建设性）/ 低确信度。2026-10-01 收盘 $67.85、市值约 $282.5B，TTM GAAP 市盈率 21.3x（含 Q1'26 $2.8B WBD 终止费，剔除后约 25.3x，估算）、FY2027 一致预期 17.8x。30/40/30 情景网格加权每股 $91.27，2.248 年年化 +14.1%（门槛 8%），但退出倍数整体下调 3 倍即降至 +6.4%。Q2 2026：营收 $12.56B（+13.4%）、营业利润率 33.4%、EPS $0.80；FY2026 营收指引 $51.0–51.4B、营业利润率 31.5%，Q3 指引 $12.86B（+11.7%）。9 月股价 −14.2%，参与度争议压低倍数；Paramount Skydance 对 WBD 的收购预计 2026-10-06 交割；Q3 财报 2026-10-20。",
     "tags": [
       "流媒体",
       "内容平台",
@@ -4848,7 +5801,7 @@
     ],
     "category": "tech",
     "date": "2026-02-10",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-10-02",
     "period": "2026H1",
     "versionType": "incremental",
     "versionLabel": "2026H1 Incremental Update",
@@ -4859,15 +5812,172 @@
       "en": "/invest/research/Netflix_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "2026-07-16 Q2财报：营收$12.56B（+13.4%）、运营利润率33.4%、净利$3.4B、EPS $0.80",
-      "FY2026营收指引收窄至$51.0–51.4B（运营利润率31.5%）；Q3指引$12.86B（+11.7%）低于约$13B预期",
-      "市场数据（2026-07-17）：股价$68.95、市值约$290.3B、TTM P/E约23.4x、Forward P/E约18.1x、P/S约6.0x",
-      "TTM营收升至约$48.37B；现金$9.13B、债务$14.31B（净债务约$5.18B）",
-      "公司进一步缩减观看量披露，H1 2026会员观看时长970亿+小时（+2%）；增速逐季放缓成为新压力点"
+      "立场补录（2026-10-02）：constructive / 低确信度；30/40/30 加权每股 $91.27，年化 +14.1%（门槛 8%），倍数整体 −3 倍降至 +6.4%",
+      "市场数据（2026-10-01 收盘）：股价 $67.85、市值约 $282.5B、TTM GAAP P/E 21.3x（剔除终止费约 25.3x，估算）、FY2027 一致预期 P/E 17.8x、P/S 5.84x",
+      "2026-07-16 Q2 财报：营收 $12.56B（+13.4%）、营业利润率 33.4%、EPS $0.80；FY2026 指引 $51.0–51.4B、营业利润率 31.5%；Q3 指引 $12.86B（+11.7%）",
+      "WBD 协议于 2026-02-27 终止，Netflix 获 $2.8B 终止费（计入 Q1'26）；Paramount Skydance–WBD 预计 2026-10-06 交割",
+      "现金 $9.13B、债务 $14.31B（净债务约 $5.18B）；Q2 回购 $4.7B、剩余授权 $27.1B；观看时长披露自 2027 年起改为每年一次；Q3 财报 2026-10-20"
     ],
-    "summaryEn": "2026-07-17 update (Q2 2026): revenue $12.56B (+13.4%), operating margin 33.4%, net income $3.4B, EPS $0.80; FY2026 revenue guidance narrowed to $51.0–51.4B, Q3 guide $12.86B (+11.7%) below the ~$13B consensus, stock -7.3% on the print. Market data: price $68.95, market cap ~$290.3B, TTM P/E ~23.4x, Forward P/E ~18.1x, P/S ~6.0x. Viewership disclosure further reduced; thesis still rests on ad monetization, content ROI, live/sports execution, and capital allocation.",
+    "summaryEn": "2026-10-02 stance backfill: constructive / low conviction. At the 2026-10-01 close of $67.85 the market cap is about $282.5B, 21.3x TTM GAAP earnings (including the $2.8B WBD termination fee in Q1'26; about 25.3x excluding it, estimate) and 17.8x FY2027 consensus. The 30/40/30 scenario grid weights to $91.27 per share, +14.1% annualized over 2.248 years (8% hurdle), but cutting every exit multiple by three turns drops it to +6.4%. Q2 2026: revenue $12.56B (+13.4%), operating margin 33.4%, EPS $0.80; FY2026 guidance $51.0–51.4B revenue at a 31.5% operating margin, Q3 guide $12.86B (+11.7%). The stock fell 14.2% in September as the engagement debate compressed the multiple; Paramount Skydance expects to close its WBD acquisition on 2026-10-06; Q3 results are due 2026-10-20.",
     "priceSymbol": "NFLX",
-    "priceAsOf": "2026-07-17"
+    "priceAsOf": "2026-10-01",
+    "stance": "constructive",
+    "conviction": "low",
+    "stanceRationale": {
+      "zh": "以 2026-10-01 收盘 $67.85、4,163.94M 股（10-Q 封面，2026-06-30）计市值 $282.5B、企业价值 $287.7B（净债务 $5.18B），对应 TTM GAAP 市盈率 21.3x（EPS $3.18，含 Q1'26 $2.8B WBD 终止费）、剔除终止费约 25.3x（估算）、FY2027 一致预期 17.8x、P/S 5.84x、EV/TTM 营业利润 20.0x。决定立场的是加权预期回报：30% 牛市 / 40% 基准 / 30% 熊市（FY2028 营收 $64.80B / $61.67B / $56.99B，营业利润率 37.0% / 34.5% / 30.0%，FY2028 EPS $5.07 / $4.54 / $3.66，退出 P/E 26x / 20x / 14x，退出股数 3,935M / 3,888M / 3,852M，全部 FCF 用于回购、净债务维持约 $5.2B）对应每股价值 $131.84 / $90.84 / $51.26，加权 $91.27，较 $67.85 为 +34.5%，2.248 年（2026-10-02 至 2028-12-31，821 天）年化 +14.1%，高于 8% 门槛 6.1 个百分点；基准 EPS 基本等于一致预期（FY2028 $4.57）。反推在 20x 退出（约 17.4x forward，即维持今天的远期倍数）下，获得 8% 只需 2026–2028 年约 4% 的营收复合增速（利润率停在 31.5% 时约 9%），17x 退出时需约 12%，本报告基准为 9.75%。敏感性：增速下调 3 个百分点为 +11.1%、利润率封顶 31.5% 为 +8.5%、20/40/40 权重为 +9.5%，均过门槛；但退出倍数整体下调 3 倍降至 +6.4%，与增速下调叠加为 +3.6%。确信度为低而非中，因为唯一跌破门槛的单因子冲击恰是当前最现实的风险：9 月 −14.2% 几乎全部来自倍数，公司把观看时长披露改为每年一次，两家券商下调评级（第三方报道），Q3 财报在 2026-10-20，且终止费让 EPS 口径失真。这是在较 52 周高点下跌 45.7% 之后的估值与偏斜判断，不是对增速放缓、参与度争议与内部人卖出的否认。",
+      "en": "At the 2026-10-01 close of $67.85 on 4,163.94M shares (10-Q cover, 2026-06-30), market capitalization is $282.5B and enterprise value $287.7B (net debt $5.18B), or 21.3x TTM GAAP earnings (EPS $3.18, including the $2.8B WBD termination fee in Q1'26), about 25.3x excluding the fee (estimate), 17.8x FY2027 consensus, 5.84x TTM sales and 20.0x EV/TTM operating income. What settles the stance is the probability-weighted expected return: weighting 30% bull / 40% base / 30% bear (FY2028 revenue of $64.80B / $61.67B / $56.99B, operating margins of 37.0% / 34.5% / 30.0%, FY2028 EPS of $5.07 / $4.54 / $3.66, exit P/E of 26x / 20x / 14x, exit share counts of 3,935M / 3,888M / 3,852M, all FCF to buybacks with net debt held at about $5.2B) gives values of $131.84 / $90.84 / $51.26 per share and a weighted $91.27, +34.5% against $67.85, or +14.1% annualized over 2.248 years (2026-10-02 to 2028-12-31, 821 days) - 6.1 points above the 8% hurdle; base-case EPS is essentially consensus (FY2028 $4.57). Working backwards, at a 20x exit (about 17.4x forward, i.e. today's forward multiple held), earning 8% needs only about 4% revenue CAGR over 2026-2028 (about 9% if margins stay at 31.5%), and about 12% at a 17x exit, against a 9.75% base case. Sensitivity: growth 3 points lower gives +11.1%, margins capped at 31.5% give +8.5% and 20/40/40 weights give +9.5%, all above the hurdle; but cutting every exit multiple by three turns gives +6.4%, and +3.6% combined with slower growth. Conviction is low rather than medium because the one single-factor shock that breaks the hurdle is the most live risk: September's −14.2% came almost entirely from the multiple, view-hour disclosure moves to once a year, two brokers downgraded the stock (third-party reports), Q3 results land on 2026-10-20, and the termination fee distorts the EPS base. This is a valuation-and-skew judgment after a 45.7% fall from the 52-week high, not a denial of the deceleration, the engagement debate or insider selling."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若 Q3 2026 营收不低于 $12.86B 指引且 FY2026 营收区间维持或上调，2027 年 1 月给出的 FY2027 指引隐含营收增速不低于 11%、营业利润率不低于 33.5%，并且 FY2026 广告收入确认达到或超过约 $3B，则上调至 bullish。",
+        "en": "Move to bullish if Q3 2026 revenue is at or above the $12.86B guide with the FY2026 revenue range held or raised, FY2027 guidance in January 2027 implies revenue growth of at least 11% and an operating margin of at least 33.5%, and FY2026 ads revenue is confirmed at or above ~$3B.",
+        "monitoringIds": [
+          "revenue-growth-vs-guide",
+          "operating-margin-path",
+          "ads-revenue-target"
+        ]
+      },
+      "downgrade": {
+        "zh": "若 Q3 2026 营收低于 $12.73B（较指引低 1% 以上）或 FY2026 营收区间下调至 $51.0B 以下；或 FY2026 营业利润率低于 31.5% 指引、或 FY2027 营业利润率指引低于 33%；或约 $3B 的 FY2026 广告收入目标被撤回或下调；或公司披露的总观看时长同比下降、或管理层在财报电话会上表示参与度下降；或连续两个季度回购均低于 $2.0B、或宣布超过 $10B 的举债收购；或 Netflix 披露授权内容出现重大流失、或把 Paramount–WBD 列为增长放缓的原因，则下调至 neutral-watch。",
+        "en": "Move to neutral-watch if Q3 2026 revenue falls below $12.73B (more than 1% under guidance) or the FY2026 revenue range is cut below $51.0B; or FY2026 operating margin comes in below the 31.5% guide, or the FY2027 operating-margin guide is below 33%; or the ~$3B FY2026 ads revenue target is withdrawn or cut; or company-disclosed total view hours fall year over year, or management states on an earnings call that engagement declined; or repurchases are below $2.0B in each of two consecutive quarters, or a debt-funded acquisition above $10B is announced; or Netflix discloses a material loss of licensed content, or cites Paramount–WBD as a cause of slower growth.",
+        "monitoringIds": [
+          "revenue-growth-vs-guide",
+          "operating-margin-path",
+          "ads-revenue-target",
+          "engagement-view-hours",
+          "capital-return-share-count",
+          "paramount-wbd-competition"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-10-02",
+        "stance": "constructive",
+        "conviction": "low",
+        "price": 67.85,
+        "note": {
+          "zh": "立场补录 / Stance backfill：在 2026-10-01 收盘 $67.85 重新推导。30/40/30 情景网格加权每股价值 $91.27，2.248 年年化 +14.1%，高于 8% 门槛 6.1 个百分点；但退出倍数整体下调 3 倍即降至 +6.4%，正偏斜对倍数敏感，故确信度为低。取代正文旧的“中性偏多 / 中等”表述。",
+          "en": "Stance backfill: re-derived at the 2026-10-01 close of $67.85. The 30/40/30 scenario grid weights to $91.27 per share, +14.1% annualized over 2.248 years, 6.1 points above the 8% hurdle; but cutting every exit multiple by three turns drops it to +6.4%, so the positive skew is multiple-sensitive and conviction is low. Replaces the body's old \"neutral-to-bullish / medium\" wording."
+        }
+      }
+    ],
+    "monitoring": [
+      {
+        "id": "revenue-growth-vs-guide",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "营收对照指引",
+          "en": "Revenue versus guidance"
+        },
+        "trigger": {
+          "zh": "Q3 2026 营收低于 $12.73B（较 $12.86B 指引低 1% 以上），或 FY2026 营收区间下调至 $51.0B 以下",
+          "en": "Q3 2026 revenue below $12.73B (more than 1% under the $12.86B guide), or the FY2026 revenue range cut below $51.0B"
+        },
+        "latest": {
+          "zh": "Q2'26 营收 $12.56B（+13.4%），与指引一致；Q3 指引 $12.86B（+11.7%）；FY2026 收窄至 $51.0–51.4B（+13%–14%）（Q2 股东信，2026-07-16）",
+          "en": "Q2'26 revenue $12.56B (+13.4%), in line with guidance; Q3 guide $12.86B (+11.7%); FY2026 narrowed to $51.0–51.4B (+13%–14%) (Q2 shareholder letter, 2026-07-16)"
+        },
+        "nextCheck": "Q3 2026 财报（2026-10-20） / Q3 2026 results (2026-10-20)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "operating-margin-path",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "营业利润率路径",
+          "en": "Operating margin path"
+        },
+        "trigger": {
+          "zh": "FY2026 营业利润率低于 31.5% 指引，或 2027 年 1 月给出的 FY2027 营业利润率指引低于 33%",
+          "en": "FY2026 operating margin below the 31.5% guide, or an FY2027 operating-margin guide (January 2027) below 33%"
+        },
+        "latest": {
+          "zh": "Q2'26 33.4%（Q2'25 34.1%）；Q3 指引 33.2%；FY2026 指引 31.5%（FY2025 29.5%）；TTM（Q3'25–Q2'26）29.7%",
+          "en": "Q2'26 33.4% (Q2'25 34.1%); Q3 guide 33.2%; FY2026 guide 31.5% (FY2025 29.5%); TTM (Q3'25–Q2'26) 29.7%"
+        },
+        "nextCheck": "Q3 2026 财报（2026-10-20） / Q3 2026 results (2026-10-20)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "ads-revenue-target",
+        "thesis": "bull",
+        "theme": "optionality",
+        "metric": {
+          "zh": "广告收入目标（FY2026 约 $3B）",
+          "en": "Ads revenue target (~$3B for FY2026)"
+        },
+        "trigger": {
+          "zh": "约 $3B 的 FY2026 广告收入目标被撤回或下调",
+          "en": "The ~$3B FY2026 ads revenue target withdrawn or cut"
+        },
+        "latest": {
+          "zh": "Q2 股东信（2026-07-16）重申 2026 年广告收入约 $3B（约翻倍），美国 upfront 谈判处于后期阶段，Pause Ads 与直播库存开放程序化购买",
+          "en": "The Q2 letter (2026-07-16) reaffirmed ~$3B of 2026 ads revenue (roughly doubling), with US upfront negotiations in advanced stages and programmatic access extended to Pause Ads and live inventory"
+        },
+        "nextCheck": "Q3 2026 财报（2026-10-20） / Q3 2026 results (2026-10-20)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "engagement-view-hours",
+        "thesis": "bear",
+        "theme": "demand",
+        "metric": {
+          "zh": "参与度 / 总观看时长",
+          "en": "Engagement / total view hours"
+        },
+        "trigger": {
+          "zh": "公司披露的总观看时长同比下降，或管理层在财报电话会上表示参与度下降",
+          "en": "Company-disclosed total view hours down year over year, or management stating on an earnings call that engagement declined"
+        },
+        "latest": {
+          "zh": "H1'26 观看时长 970 亿+ 小时、+2%（2025 年 +1.5%）（公司披露）；该报告自 2027 年起改为每年 Q1 发布。第三方（经 Motley Fool 转述）：HSBC 引用数据称美国电视观看份额约 7.8%、降约 1 个百分点；Wells Fargo 预测头部 100 部原创剧观看时长降约 21%",
+          "en": "H1'26 view hours 97B+, +2% (2025: +1.5%) (company disclosure); the report moves to once a year in Q1 from 2027. Third-party (via Motley Fool): data cited by HSBC puts U.S. TV viewing share at about 7.8%, down about 1 point; Wells Fargo forecasts a ~21% decline in hours for the top 100 originals"
+        },
+        "nextCheck": "Q3 2026 财报访谈（2026-10-20） / Q3 2026 results interview (2026-10-20)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "capital-return-share-count",
+        "thesis": "either",
+        "theme": "leverage-solvency",
+        "metric": {
+          "zh": "资本回报、股本与举债并购",
+          "en": "Capital return, share count and debt-funded M&A"
+        },
+        "trigger": {
+          "zh": "连续两个季度回购均低于 $2.0B，或宣布超过 $10B 的举债收购",
+          "en": "Repurchases below $2.0B in each of two consecutive quarters, or a debt-funded acquisition above $10B announced"
+        },
+        "latest": {
+          "zh": "Q2'26 回购 $4.7B（单季新高），剩余授权 $27.1B；Q2 摊薄股数 4,261M（Q2'25 4,349M）；2026 年 3 月约 $587M 现金收购（Q1 股东信称为 InterPositive，推断）；2026-07-22 发行 $1B 5.250% 2036 年票据用于再融资",
+          "en": "Q2'26 buybacks $4.7B (a quarterly record), $27.1B of authorization remaining; Q2 diluted shares 4,261M (Q2'25 4,349M); a ~$587M cash acquisition in March 2026 (named InterPositive in the Q1 letter, inference); $1B of 5.250% notes due 2036 issued 2026-07-22 to refinance"
+        },
+        "nextCheck": "Q3 2026 10-Q（2026 年 10 月） / Q3 2026 10-Q (October 2026)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "paramount-wbd-competition",
+        "thesis": "bear",
+        "theme": "regulatory",
+        "metric": {
+          "zh": "Paramount–WBD 合并的竞争影响",
+          "en": "Competitive impact of the Paramount–WBD combination"
+        },
+        "trigger": {
+          "zh": "Netflix 披露授权内容出现重大流失，或把 Paramount–WBD 列为增长放缓的原因",
+          "en": "Netflix discloses a material loss of licensed content, or cites Paramount–WBD as a cause of slower growth"
+        },
+        "latest": {
+          "zh": "PSKY 称已满足全部监管条件，12 州诉讼以同意令了结（法院 2026-09-30 登记），预计 2026-10-06 交割，并发行约 $444 亿有担保票据（PSKY 8-K，2026-09-28 / 09-30 / 10-01）；Netflix 股东信尚未提及授权内容流失",
+          "en": "PSKY says all regulatory conditions are satisfied and the 12-state suit was resolved by a consent decree (entered 2026-09-30); closing expected 2026-10-06, with about $44.4B of secured notes being issued (PSKY 8-Ks, 2026-09-28 / 09-30 / 10-01); Netflix's shareholder letters have not mentioned any licensed-content loss"
+        },
+        "nextCheck": "交割（2026-10-06）及 Q3 2026 股东信（2026-10-20） / The close (2026-10-06) and the Q3 2026 shareholder letter (2026-10-20)",
+        "nextCheckDate": "2026-10"
+      }
+    ]
   },
   {
     "id": "spotify-2026",
@@ -4875,7 +5985,7 @@
     "ticker": "NYSE: SPOT",
     "title": "Spotify 深度研究报告 - 全球音频科技平台的盈利转型与估值再评估",
     "titleEn": "Spotify Deep Research Report - The Global Audio Tech Platform's Profitability Transformation and Valuation Reassessment",
-    "summary": "2026-08-06更新（Q2 2026）：营收€4.777B（+14%，恒定汇率+15%）、毛利率33.4%、营业利润€655M、净利€545M、FCF€797M、Premium 3.00亿、MAU 7.77亿。相对公司指引，MAU少100万、营收符合，订户/毛利率/营业利润高于。按8/5收盘$482.23及ECB EUR/USD 1.1554重锚，市值约$99.2B、TTM P/E约25.7x、P/S约4.7x、FCF收益率约3.8%；基准DCF要求未来五年FCF约14.5%年增，维持中性偏多/中等。2026-08-20：董事会批准股份回购计划增额15亿美元，原计划尚余7.23亿美元，总授权约22.23亿美元；该计划不要求回购任何特定数量，估值输入与立场不变。",
+    "summary": "2026-10-02 立场补录与重锚（Q2 2026 证据层）：Q2 营收€4.777B（+14%，恒定汇率+15%）、毛利率33.4%、营业利润€655M、FCF€797M、Premium 3.00亿、MAU 7.77亿。按2026-10-01收盘$491.40及ECB EUR/USD 1.1298，市值$101,024.1M、企业价值€80,495.7M，对应TTM营业利润30.3倍、TTM报告净利26.8倍（正常化约41.0倍）、FY2026一致预期EPS 35.5倍（第三方）、FCF收益率3.65%。30/40/30情景网格加权每股$643.53、至2028年底年化+12.7%，高于8%门槛；但退出倍数下调4倍即降至+5.1%，重算DCF基准$431.92低于股价。立场 constructive / 确信度 low。Q3业绩2026-10-22盘前发布。",
     "tags": [
       "流媒体",
       "音频平台",
@@ -4884,20 +5994,20 @@
     ],
     "category": "tech",
     "date": "2026-02-10",
-    "lastUpdate": "2026-08-31",
+    "lastUpdate": "2026-10-02",
     "file": "/invest/research/reports/view.html?id=spotify-2026",
     "markdownFiles": {
       "zh": "/invest/research/Spotify_深度研究报告_2026-02.md",
       "en": "/invest/research/Spotify_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "Q2 2026：营收€4.777B（+14%）、毛利率33.4%、营业利润€655M、净利€545M、FCF€797M、Premium 3.00亿、MAU 7.77亿",
-      "指引对照：MAU 低100万、营收符合，Premium高100万、毛利率高30bps、营业利润高€25M（含€9M社保费用利好）",
-      "8/5收盘$482.23、市值约$99.2B；TTM净利€3.339B、FCF€3.261B，对应P/E约25.7x、FCF收益率约3.8%",
-      "基准DCF隐含当前价要求五年FCF约14.5%年增；维持中性偏多/中等，Q3指引为MAU 7.88亿、Premium 3.05亿、营收€5.0B",
-      "2026-08-20 Form 6-K：回购授权增额15亿美元，总授权约22.23亿美元；计划不要求回购任何特定数量"
+      "立场补录：constructive / low（2026-10-02，锚定2026-10-01收盘$491.40、ECB 1.1298）",
+      "市值$101,024.1M、EV €80,495.7M；TTM营业利润30.3倍、报告P/E 26.8倍（正常化约41.0倍）、FCF收益率3.65%",
+      "30/40/30网格：牛市$903.68 / 基准$663.00 / 熊市$357.42，加权$643.53、年化+12.7%；退出倍数-4倍降至+5.1%",
+      "Q2 2026：营收€4.777B、毛利率33.4%、营业利润€655M、FCF€797M；Q3指引MAU 7.88亿、Premium 3.05亿、营收€5.0B、营业利润€670M",
+      "Q3 2026业绩定于2026-10-22盘前；2026-08-20回购授权增额15亿美元，总授权约22.23亿美元"
     ],
-    "summaryEn": "Updated 2026-08-06 (Q2 2026): revenue €4.777B (+14%, +15% FX-neutral), gross margin 33.4%, operating income €655M, net income €545M, FCF €797M, Premium 300M, and MAUs 777M. Versus company guidance, MAUs were 1M below and revenue was in line, while subscribers, gross margin, and operating income were above. Re-anchored to the $482.23 close on August 5 and ECB EUR/USD 1.1554: about $99.2B market cap, 25.7x TTM P/E, 4.7x P/S, and 3.8% FCF yield. Base DCF assumptions require roughly 14.5% five-year FCF growth; Neutral-to-Bullish / Medium holds. On 2026-08-20 the Board approved an additional $1.5B of share repurchase authorization; with $723M remaining, total authorization is about $2.223B. The program does not obligate Spotify to repurchase any particular amount, so valuation inputs and stance are unchanged.",
+    "summaryEn": "Stance backfill and re-anchor on 2026-10-02 (Q2 2026 evidence layer): Q2 revenue €4.777B (+14%, +15% FX-neutral), gross margin 33.4%, operating income €655M, FCF €797M, Premium 300M, MAUs 777M. At the 2026-10-01 close of $491.40 and ECB EUR/USD 1.1298, market cap is $101,024.1M and enterprise value €80,495.7M: 30.3x TTM operating income, 26.8x TTM reported net income (about 41.0x normalized), 35.5x third-party FY2026 consensus EPS, and a 3.65% FCF yield. A 30/40/30 scenario grid weights to $643.53 per share, +12.7% annualized to end-2028, above the 8% hurdle; but four turns of exit-multiple compression take it to +5.1%, and the rebuilt DCF base of $431.92 sits below the price. Stance constructive / conviction low. Q3 results are due 2026-10-22 before market open.",
     "period": "2026H1",
     "versionType": "incremental",
     "versionLabel": "2026H1 Q2 Incremental Update",
@@ -4916,11 +6026,11 @@
           "en": "MAUs fall below 788M, Premium subscribers below 305M, or revenue materially below €5.0B"
         },
         "latest": {
-          "zh": "Q2 MAU 7.77亿，比指引少100万；Premium 3.00亿，比指引多100万；营收€4.777B，按公司四舍五入口径符合€4.8B指引",
-          "en": "Q2 MAUs were 777M, 1M below guidance; Premium subscribers were 300M, 1M above; revenue was €4.777B, in line with the company's rounded €4.8B guide"
+          "zh": "Q2 MAU 7.77亿，比指引少100万；Premium 3.00亿，比指引多100万；营收€4.777B，按公司四舍五入口径符合€4.8B指引。Q3 €5.0B 指引以 Q2 末 USD:EUR 0.8756（约 1 欧元兑 1.142 美元）为假设；2026-10-01 ECB 汇率 1.1298 意味着欧元更弱，对以欧元报告的营收是折算顺风",
+          "en": "Q2 MAUs were 777M, 1M below guidance; Premium subscribers were 300M, 1M above; revenue was €4.777B, in line with the company's rounded €4.8B guide. The €5.0B Q3 guide assumed USD:EUR 0.8756 at Q2 close (about 1.142 USD per EUR); the ECB rate of 1.1298 on 2026-10-01 means a weaker euro, a translation tailwind for euro-reported revenue"
         },
-        "nextCheck": "Q3 2026 results (timing not yet issuer-confirmed)",
-        "nextCheckDate": "2026-11",
+        "nextCheck": "Q3 2026 财报（2026-10-22 盘前，公司已确认） / Q3 2026 results (2026-10-22 before market open, issuer-confirmed)",
+        "nextCheckDate": "2026-10",
         "reading": "unclear",
         "readingAsOf": "2026-08-04"
       },
@@ -4937,11 +6047,11 @@
           "en": "gross margin falls below 31.5%, Q3 operating income materially misses €670M, or LTM FCF falls below about €3.3B"
         },
         "latest": {
-          "zh": "Q2毛利率33.4%、营业利润€655M、FCF€797M，LTM FCF为€3.261B；Q3指引毛利率32.9%、营业利润€670M",
-          "en": "Q2 gross margin was 33.4%, operating income €655M, FCF €797M, and LTM FCF €3.261B; Q3 guidance is 32.9% gross margin and €670M operating income"
+          "zh": "Q2毛利率33.4%、营业利润€655M、FCF€797M，LTM FCF为€3.261B（公司四舍五入为 €3.3B）；Q3指引毛利率32.9%、营业利润€670M",
+          "en": "Q2 gross margin was 33.4%, operating income €655M, FCF €797M, and LTM FCF €3.261B (the company rounds it to €3.3B); Q3 guidance is 32.9% gross margin and €670M operating income"
         },
-        "nextCheck": "Q3 2026 results (timing not yet issuer-confirmed)",
-        "nextCheckDate": "2026-11",
+        "nextCheck": "Q3 2026 财报（2026-10-22 盘前，公司已确认） / Q3 2026 results (2026-10-22 before market open, issuer-confirmed)",
+        "nextCheckDate": "2026-10",
         "reading": "within",
         "readingAsOf": "2026-08-04"
       },
@@ -4961,14 +6071,111 @@
           "zh": "Q2广告支持收入€446M，同比+1%、恒定汇率+3%；毛利率19.1%，同比提高179bps",
           "en": "Q2 Ad-Supported revenue was €446M, +1% Y/Y and +3% FX-neutral; gross margin was 19.1%, up 179 bps Y/Y"
         },
-        "nextCheck": "Q3 2026 segment results (timing not yet issuer-confirmed)",
-        "nextCheckDate": "2026-11",
+        "nextCheck": "Q3 2026 分部业绩（2026-10-22 盘前，公司已确认） / Q3 2026 segment results (2026-10-22 before market open, issuer-confirmed)",
+        "nextCheckDate": "2026-10",
         "reading": "breached",
         "readingAsOf": "2026-08-04"
+      },
+      {
+        "id": "q4-operating-income-guide",
+        "thesis": "bull",
+        "theme": "execution",
+        "metric": {
+          "zh": "Q4 2026 营业利润指引对照网格的 FY2026 起点",
+          "en": "Q4 2026 operating-income guidance against the grid's FY2026 starting point"
+        },
+        "trigger": {
+          "zh": "Q4 2026 营业利润指引低于 €750M（网格假设约 €820M）",
+          "en": "Q4 2026 operating-income guidance below €750M (the grid assumes about €820M)"
+        },
+        "latest": {
+          "zh": "Q4 2025 营业利润 €701M；网格 FY2026E 营业利润 €2,860M 假设 Q4 2026 约 €820M（同比 +17%）。Q4 指引将随 Q3 业绩发布",
+          "en": "Q4 2025 operating income was €701M; the grid's FY2026E operating income of €2,860M assumes Q4 2026 at about €820M (+17% y/y). Q4 guidance is due with the Q3 results"
+        },
+        "nextCheck": "Q3 2026 财报及 Q4 展望（2026-10-22 盘前） / Q3 2026 results and Q4 outlook (2026-10-22 before market open)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "premium-pricing-churn",
+        "thesis": "either",
+        "theme": "pricing",
+        "metric": {
+          "zh": "提价后的 Premium 净增与恒定汇率 ARPU",
+          "en": "Premium net additions and FX-neutral ARPU after price increases"
+        },
+        "trigger": {
+          "zh": "Premium 净增连续两个季度低于 200 万，或恒定汇率 Premium ARPU 同比转负",
+          "en": "Premium net additions below 2M for two consecutive quarters, or FX-neutral Premium ARPU growth turns negative year over year"
+        },
+        "latest": {
+          "zh": "净增 Q3 2025 +500 万、Q4 2025 +900 万、Q1 2026 +300 万、Q2 2026 +700 万；Q2 Premium ARPU €4.89，同比 +7%（恒定汇率 +7.4%），由提价驱动，部分被产品与市场组合抵消",
+          "en": "Net additions were +5M in Q3 2025, +9M in Q4 2025, +3M in Q1 2026 and +7M in Q2 2026; Q2 Premium ARPU was €4.89, +7% y/y (+7.4% FX-neutral), driven by price increases and partly offset by product and market mix"
+        },
+        "nextCheck": "Q3 2026 财报（2026-10-22 盘前，公司已确认） / Q3 2026 results (2026-10-22 before market open, issuer-confirmed)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "valuation-exit-multiple",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "当前股价下的 EV / TTM 营业利润",
+          "en": "EV / TTM operating income at the current price"
+        },
+        "trigger": {
+          "zh": "高于 35 倍（网格最高退出倍数为 28 倍），或在指引未下调的情况下低于 22 倍",
+          "en": "Above 35x (the grid's highest exit multiple is 28x), or below 22x without a cut to guidance"
+        },
+        "latest": {
+          "zh": "2026-10-01 收盘价 $491.40 下为 30.3 倍（EV €80,495.7M / TTM 营业利润 €2,653M，ECB 1.1298）。在 TTM 营业利润与净现金不变时，35 倍约对应 $559，22 倍约对应 $370",
+          "en": "30.3x at the 2026-10-01 close of $491.40 (EV €80,495.7M / TTM operating income €2,653M, ECB 1.1298). On unchanged TTM operating income and net cash, 35x corresponds to about $559 and 22x to about $370"
+        },
+        "nextCheck": "持续跟踪；Q3 业绩（2026-10-22）后重新定基 / Continuous; re-base on the Q3 results (2026-10-22)",
+        "nextCheckDate": "2026-10"
       }
     ],
     "priceSymbol": "SPOT",
-    "priceAsOf": "2026-08-05"
+    "priceAsOf": "2026-10-01",
+    "stance": "constructive",
+    "conviction": "low",
+    "stanceRationale": {
+      "zh": "以 2026-10-01 收盘 $491.40、2026-06-30 流通股 2.05584 亿股计，市值 $101,024.1M（按 2026-10-01 ECB 汇率 1.1298 折合 €89,417.7M），扣除 €8,922M 净现金后企业价值 €80,495.7M，对应 TTM 营业利润 30.3 倍、TTM 报告净利 26.8 倍（TTM 有效税率仅 4.7% 且含 €852M 净财务收益，正常化约 41.0 倍）、FY2026 第三方一致预期 EPS 35.5 倍、TTM FCF 收益率 3.65%。决定立场的是加权预期回报：30% 牛市 / 40% 基准 / 30% 熊市（FY2028 营收 €26,026M / €24,692M / €22,335M，营业利润率 20.0% / 17.5% / 14.0%，退出 EV/EBIT 28x / 24x / 16x）每股价值 $903.68 / $663.00 / $357.42，加权 $643.53，较 $491.40 为 +31.0%，2.248 年（2026-10-02 至 2028-12-31，821 天）年化 +12.7%，高于 8% 门槛 4.7 个百分点、高于 10% 2.7 个百分点；牛市 +83.9% 对熊市 -27.3%，偏斜为正。敏感性：所有退出倍数下调 4 倍降至 +5.1%、下调 6 倍降至 +1.0%，10/40/50 权重降至 +3.8%；但增长放缓 3 个百分点（+10.3%）、利润率少 150bps（+8.8%）、欧元走弱 5%（+10.2%）与 20/40/40 权重（+8.4%）仍过门槛。反推：24 倍退出下获得 8% 只需营收年增约 5.0%，20 倍退出下需约 14.4%。确信度为低而非中，因为正偏斜取决于退出倍数，且重算后的 DCF（WACC 9.5%、终值增长 2.5%）基准价值 $431.92 比股价低 12.1%；不是 neutral-watch，因为中枢假设下加权回报超过门槛区间上限，且公司持有净现金、无金融负债。这是 $491.40 下的估值与偏斜判断，不是声称广告业务已经好转（Q2 广告支持收入恒定汇率仅 +3%）。",
+      "en": "At the 2026-10-01 close of $491.40 on 205.584M shares outstanding at 2026-06-30, market capitalization is $101,024.1M (€89,417.7M at the 2026-10-01 ECB rate of 1.1298) and, net of €8,922M of net cash, enterprise value is €80,495.7M: 30.3x TTM operating income, 26.8x TTM reported net income (about 41.0x normalized, because TTM net income carries a 4.7% effective tax rate and €852M of net finance income), 35.5x third-party FY2026 consensus EPS and a 3.65% TTM FCF yield. What settles the stance is the probability-weighted expected return: weighting 30% bull / 40% base / 30% bear (FY2028 revenue of €26,026M / €24,692M / €22,335M, operating margins of 20.0% / 17.5% / 14.0%, exit EV/EBIT of 28x / 24x / 16x) gives $903.68 / $663.00 / $357.42 per share and a weighted $643.53, +31.0% against $491.40, or +12.7% annualized over 2.248 years (2026-10-02 to 2028-12-31, 821 days) - 4.7 points above the 8% hurdle and 2.7 points above 10%, with a positive skew of +83.9% in the bull case against -27.3% in the bear case. Sensitivity: cutting every exit multiple by four turns drops it to +5.1%, by six turns to +1.0%, and a 10/40/50 weighting to +3.8%; slower growth by 3 points (+10.3%), a 150 bp margin miss (+8.8%), a 5% weaker euro (+10.2%) and a 20/40/40 weighting (+8.4%) still clear the hurdle. Working backwards, earning 8% needs only about 5.0% annual revenue growth at a 24x exit but about 14.4% at 20x. Conviction is low rather than medium because the positive skew depends on the exit multiple and the rebuilt DCF (9.5% WACC, 2.5% terminal growth) puts base value at $431.92, 12.1% below the price; it is not neutral-watch because at central assumptions the weighted return clears the top of the hurdle range and the company holds net cash with no financial debt. This is a valuation-and-skew judgment at $491.40, not a claim that the advertising business has turned (Q2 Ad-Supported revenue grew only 3% FX-neutral)."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若 Q3 2026 MAU 不低于 7.88 亿、Premium 订户不低于 3.05 亿且营收不低于 €5.0B，Q4 2026 营业利润指引不低于 €850M，H2 2026 广告支持收入恢复双位数恒定汇率增长，并且届时 EV / TTM 营业利润不高于 28 倍，则上调至 bullish。",
+        "en": "Move to bullish if Q3 2026 MAUs are at least 788M, Premium subscribers at least 305M and revenue at least €5.0B, Q4 2026 operating-income guidance is at least €850M, Ad-Supported revenue is back to double-digit FX-neutral growth in H2 2026, and EV / TTM operating income is at or below 28x at the time.",
+        "monitoringIds": [
+          "q3-user-revenue-guide",
+          "q4-operating-income-guide",
+          "ad-supported-reacceleration",
+          "valuation-exit-multiple"
+        ]
+      },
+      "downgrade": {
+        "zh": "若 Q3 2026 毛利率低于 31.5% 或 Q3 营业利润低于 €640M（较 €670M 指引少 €30M 以上）；或 Q4 2026 营业利润指引低于 €750M；或 Premium 净增连续两个季度低于 200 万、或恒定汇率 Premium ARPU 同比转负；或 EV / TTM 营业利润高于 35 倍，则下调至 neutral-watch。",
+        "en": "Move to neutral-watch if Q3 2026 gross margin is below 31.5% or Q3 operating income is below €640M (more than €30M short of the €670M guide); or Q4 2026 operating-income guidance is below €750M; or Premium net additions are below 2M for two consecutive quarters, or FX-neutral Premium ARPU growth turns negative year over year; or EV / TTM operating income is above 35x.",
+        "monitoringIds": [
+          "q3-margin-cash-flow",
+          "q4-operating-income-guide",
+          "premium-pricing-churn",
+          "valuation-exit-multiple"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-10-02",
+        "stance": "constructive",
+        "conviction": "low",
+        "price": 491.4,
+        "note": {
+          "zh": "立场补录。以 2026-10-01 收盘 $491.40 与 ECB 1.1298 重锚；30/40/30 情景网格加权每股 $643.53，2.248 年年化 +12.7%，高于 8% 门槛 4.7 个百分点；但退出倍数整体下调 4 倍即降至 +5.1%，且重算 DCF 基准 $431.92 低于股价 12.1%，故确信度为低。",
+          "en": "Stance backfill. Re-anchored to the 2026-10-01 close of $491.40 and ECB 1.1298; the 30/40/30 scenario grid weights to $643.53 per share, +12.7% annualized over 2.248 years, 4.7 points above the 8% hurdle; but cutting every exit multiple by four turns drops it to +5.1% and the rebuilt DCF base of $431.92 sits 12.1% below the price, so conviction is low."
+        }
+      }
+    ]
   },
   {
     "id": "neov-2026",
@@ -5701,7 +6908,7 @@
     "ticker": "NASDAQ: PYPL",
     "title": "PayPal 深度调研报告 - 2025-2026年度分析",
     "titleEn": "PayPal Deep Research Report - 2025-2026 Analysis",
-    "summary": "2026-08-29 更新：据 Bloomberg（2026-08-28）报道且 Axios 独立确认，Advent International 与 Stripe 组成的财团已放弃收购 PayPal 的计划；PayPal 未就此提交 8-K、公司未置评，与 2026-07-15 登记该要约时属同一证据等级。价格锚点重置至 2026-08-28 收盘 $53.66（当日 −12.71%），按 10-Q 封面 855,460,874 股（截至 2026-07-22）计市值约 $45.9B、FY2025 报告口径/调整后 FCF 收益率约 12.2%/13.9%、Forward P/E 约 10.0 倍（FY2026 非 GAAP EPS 指引约 $5.38）。要约撤回移除的是估值叠加层，并不恢复旧的基本面框架：旧合理价值区间与正文牛/熊目标价仍全部作废，完整 Q2 估值包仍待另行重建，旧公允价值区间继续停用。2026-07-28 Q2 业绩（一手 8-K/10-Q）营收 +5% 至 $8.7B、非 GAAP EPS $1.38、TPV +10% 至 $486.4B 未被本事件改变；维持中性立场。",
+    "summary": "2026-10-02 立场补录：以 2026-10-01 收盘 $53.06 重锚（855,460,874 股，市值 $45,390.8M；公司口径净现金 $1,865M，企业价值 $43,525.8M），TTM 非 GAAP 市盈率 10.03 倍、FY2026 指引（约 $5.38）市盈率 9.86 倍、TTM FCF 收益率 14.51%。按 Q2 2026 一手数据重建的 30/40/30 情景网格（牛 $103.24 / 基准 $70.26 / 熊 $41.33）加权每股 $71.48，2.248 年年化 +14.2%，高于 8% 门槛 6.2 个百分点，立场为偏多（constructive）· 低确信：退出市盈率整体下移 2 倍即降至 +3.9%。回报主要来自每年约 $6B 回购（到 2028 年底股数约少 23%），而不是增长——Q2 品牌结账仅 +2%（汇率中性），TM$ 剔除利息 +3%，非 GAAP 营业利润率同比 −248bps。2026-07-28 之后无 8-K；Stripe/Advent 要约已于 08-28 撤回（媒体口径）；Q3 财报预计 10 月下旬。",
     "tags": [
       "金融科技",
       "数字支付",
@@ -5710,7 +6917,7 @@
     ],
     "category": "tech",
     "date": "2026-02-03",
-    "lastUpdate": "2026-08-29",
+    "lastUpdate": "2026-10-02",
     "period": "2026H1",
     "versionType": "incremental",
     "versionLabel": "2026H1 Incremental Update",
@@ -5721,16 +6928,192 @@
       "en": "/invest/research/PayPal_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "2026-08-28 Advent International/Stripe 财团撤回对 PayPal 的收购计划——Bloomberg 报道并获 Axios 独立确认：董事会认为 $60.50/股不充分、并对监管与融资落实存疑，谈判停滞后财团撤回；PayPal 未提交 8-K，Stripe/Advent 未公开置评",
-      "2026-08-28 收盘 $53.66（当日 −12.71%、近 5 个交易日 −12.82%；Nasdaq 已完成常规交易时段，两个句柄互校）；按 10-Q 封面 855,460,874 股（截至 2026-07-22）计市值约 $45.9B",
-      "重锚后读数：FY2025 报告口径 FCF $5.6B / adjusted FCF $6.4B 对应收益率约 12.2% / 13.9%，Forward P/E 约 10.0 倍（FY2026 非 GAAP EPS 指引约 $5.38）；股价仍比 2026-07-15 要约前约 $46 的水平高约 17%",
-      "要约撤回不恢复旧框架：旧合理价值区间 $65-75、正文牛/熊情景目标价、6-22 更新的 FCF/PE 观察仍全部作废，理由由『被当时的并购动态取代』改为『建立在 Q2 2026 之前、尚未重建』；完整 Q2 估值包仍缺分部利润率路径与回购节奏假设，另行完成 full-cycle 重建前继续停用旧公允价值区间",
-      "2026-07-28 Q2 2026业绩（一手8-K/10-Q）：营收+5%至$8.7B、非GAAP EPS $1.38/GAAP $1.25、TPV+10%至$486.4B、活跃账户4.39亿；FY26非GAAP EPS指引上调至约$5.38；Q2回购约3300万股/返还$1.5B",
-      "2026-07-15 Stripe/Advent 非请自来收购要约：约$60.50/股、超$53B、溢价约28%、约$50B承诺融资，拟50/50持股不拆分——该要约已于 2026-08-28 撤回",
-      "相关但独立：加入Visa/Mastercard支持的Open USD稳定币联盟；关闭PayPal Ventures（重组提效）"
+      "2026-10-02 立场补录：偏多（constructive）· 低确信；锚点 2026-10-01 收盘 $53.06，市值 $45,390.8M、企业价值 $43,525.8M，TTM 非 GAAP 市盈率 10.03 倍、TTM FCF 收益率 14.51%",
+      "30/40/30 情景网格：牛 $103.24（13 倍）/ 基准 $70.26（10 倍）/ 熊 $41.33（7 倍），加权 $71.48、2.248 年年化 +14.2%，高于 8% 门槛 6.2 个百分点",
+      "敏感性：退出倍数整体 −2 倍 → +3.9%、增速放慢 → +9.6%、两者叠加 → −0.3%；加权年化跌破 8% 的价格为 $60.13，接近已撤回的 $60.50 要约价",
+      "预期差：10 倍退出下，非 GAAP 净利润每年下滑不超过约 2.9% 即可达 8%——回报靠每年约 $6B 回购（2028 年底股数约 659.7M、−23%），不靠增长",
+      "2026-07-28 Q2 2026 业绩（一手 8-K/10-Q）：营收 +5% 至 $8.7B、非 GAAP EPS $1.38、TPV +10% 至 $486.4B；品牌结账 +2%（汇率中性）、Venmo TPV +14%；FY26 非 GAAP EPS 指引上调至约 $5.38，回购指引 $6B",
+      "资产负债表：2026-06-30 现金及投资 $15,265M、债务 $13,400M；H1 回购与股息超出 FCF $626M，公司口径净现金由 2025 年底约 $3.2B 降至 $1,865M",
+      "2026-07-15 Stripe/Advent 约 $60.50/股非请自来要约，2026-08-28 据 Bloomberg/Axios 报道撤回（无 8-K）；2026-07-28 至 10-02 无 8-K；09-22 与 Meta Muse AI 代理结账合作（行业媒体口径）"
     ],
     "priceSymbol": "PYPL",
-    "priceAsOf": "2026-08-28"
+    "priceAsOf": "2026-10-01",
+    "stance": "constructive",
+    "conviction": "low",
+    "stanceRationale": {
+      "zh": "以 2026-10-01 收盘 $53.06、10-Q 封面 855,460,874 股计市值 $45,390.8M，扣除公司口径净现金 $1,865M 后企业价值 $43,525.8M，对应 TTM 非 GAAP 市盈率 10.03 倍、FY2026 指引（约 $5.38）市盈率 9.86 倍、EV/TTM 非 GAAP 营业利润 7.06 倍、TTM FCF 收益率 14.51%。30% 牛市 / 40% 基准 / 30% 熊市（2027、2028 年非 GAAP 净利润 +7%/+8%、+1%/+3%、−6%/−5%，FY2028 EPS $7.84 / $6.90 / $5.72，退出市盈率 13 / 10 / 7 倍，退出股数 648.5M / 659.7M / 671.3M，退出净现金维持 $1,865M，含持有期股息 $1.26）对应每股 $103.24 / $70.26 / $41.33，加权 $71.48，较现价 +34.7%，2.248 年（2026-10-02 至 2028-12-31）年化 +14.2%，高于 8%-10% 门槛 4.2-6.2 个百分点。敏感性：退出倍数整体下移 2 倍降至 +3.9%、下移 3 倍为 −1.8%，增速放慢为 +9.6%，两者叠加为 −0.3%，权重 20/40/40 仍有 +9.7%、20/30/50 为 +7.5%；反推显示 10 倍退出下非 GAAP 净利润每年下滑不超过约 2.9% 即可达 8%，7 倍退出则需要约 13.5% 的年增速。给低确信而非中确信，是因为偏斜对退出倍数脆弱，且回报主要靠回购而非增长：H1 2026 回购与股息超出 FCF $626M，公司口径净现金由约 $3.2B 降至 $1,865M；给偏多而非中性观察，是因为基准情景不假设任何重估也有 +13.3% 年化。这是估值与资本回报判断，不是对品牌结账（Q2 2026 仅 +2%）已经修复的判断，也不是目标价。",
+      "en": "At the 2026-10-01 close of $53.06 on the 855,460,874 shares on the 10-Q cover, market capitalization is $45,390.8M and, after $1,865M of corporate net cash, enterprise value is $43,525.8M: 10.03x TTM non-GAAP earnings, 9.86x the FY2026 guide of about $5.38, 7.06x EV to TTM non-GAAP operating income, and a 14.51% TTM FCF yield. Weighting 30% bull / 40% base / 30% bear (2027 and 2028 non-GAAP net income +7%/+8%, +1%/+3% and −6%/−5%; FY2028 EPS of $7.84 / $6.90 / $5.72; exit P/E of 13x / 10x / 7x; exit shares of 648.5M / 659.7M / 671.3M; exit net cash held at $1,865M; $1.26 of dividends included) gives $103.24 / $70.26 / $41.33 per share and a weighted $71.48, +34.7% against today's price, or +14.2% annualized over 2.248 years (2026-10-02 to 2028-12-31), 4.2 to 6.2 points above the 8%-10% hurdle. Sensitivity: cutting every exit multiple by two turns takes it to +3.9% and by three turns to −1.8%; slower growth gives +9.6%; both together give −0.3%; a 20/40/40 weighting still gives +9.7% and 20/30/50 gives +7.5%. Working backwards, at a 10x exit non-GAAP net income can fall by up to about 2.9% a year and still earn 8%, while a 7x exit requires about 13.5% annual growth. Conviction is low rather than medium because the skew is fragile to the exit multiple and the return comes mostly from buybacks rather than growth: in H1 2026 repurchases and dividends exceeded FCF by $626M, and corporate net cash fell from about $3.2B to $1,865M. The stance is constructive rather than neutral-watch because the base case earns +13.3% annualized without assuming any re-rating. This is a valuation and capital-return judgment, not a claim that branded checkout (+2% in Q2 2026) is fixed, and it is not a price target."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "上调至 bullish，须同时满足：品牌结账（线上）TPV 汇率中性增速连续两个季度达到或超过 +4%；TM$（剔除客户余额利息）单季同比达到或超过 +5%；公司给出的 FY2027 展望隐含非 GAAP EPS 增长达到或超过 +8%。",
+        "en": "Upgrade to bullish if all of the following hold: branded checkout (online) TPV growth, FX-neutral, at or above +4% for two consecutive quarters; TM$ excluding interest on customer balances up 5% or more year over year in a quarter; and an FY2027 outlook from the company implying non-GAAP EPS growth of 8% or more.",
+        "monitoringIds": [
+          "branded-checkout-growth",
+          "tm-dollar-ex-interest",
+          "eps-guidance-delivery"
+        ]
+      },
+      "downgrade": {
+        "zh": "下调至 neutral-watch，满足任一条即可：任一季度品牌结账（线上）TPV 汇率中性增速低于 +1%；任一季度 TM$（剔除客户余额利息）同比为负；Q3 2026 非 GAAP EPS 低于 $1.27，或 FY2026 非 GAAP EPS 指引下调至 $5.25 以下；季度回购连续两个季度低于 $1.0B，或 FY2026 调整后 FCF 指引下调至 $6B 以下，或公司口径净现金转负；在基准路径未上修的情况下收盘价高于 $60.13。",
+        "en": "Downgrade to neutral-watch if any one of the following occurs: branded checkout (online) TPV growth, FX-neutral, below +1% in any quarter; TM$ excluding interest on customer balances negative year over year in any quarter; Q3 2026 non-GAAP EPS below $1.27, or FY2026 non-GAAP EPS guidance cut below $5.25; quarterly repurchases below $1.0B for two consecutive quarters, or FY2026 adjusted FCF guidance cut below $6B, or corporate net cash turning negative; or a close above $60.13 without an upward revision to the base-case path.",
+        "monitoringIds": [
+          "branded-checkout-growth",
+          "tm-dollar-ex-interest",
+          "eps-guidance-delivery",
+          "buyback-capacity",
+          "valuation-skew"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-10-02",
+        "stance": "constructive",
+        "conviction": "low",
+        "price": 53.06,
+        "note": {
+          "zh": "立场补录：此前仅有文字立场（中性 / 中等信心）、从无情景网格。按 2026-10-01 收盘 $53.06 重建的 30/40/30 网格加权每股 $71.48，2.248 年年化 +14.2%，高于 8% 门槛 6.2 个百分点；退出倍数整体下移 2 倍降至 +3.9%，故为低确信。",
+          "en": "Stance backfill: the report previously carried only a text stance (neutral / medium conviction) and no scenario grid. The 30/40/30 grid rebuilt at the 2026-10-01 close of $53.06 weights to $71.48 per share, +14.2% annualized over 2.248 years, 6.2 points above the 8% hurdle; cutting every exit multiple by two turns takes it to +3.9%, hence low conviction."
+        }
+      }
+    ],
+    "monitoring": [
+      {
+        "id": "branded-checkout-growth",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "品牌结账（线上）TPV 汇率中性同比增速（含 PayPal 品牌结账、Pay with Venmo 与 eBay）",
+          "en": "Branded checkout (online) TPV growth, FX-neutral, year over year (PayPal branded checkout, Pay with Venmo and eBay)"
+        },
+        "trigger": {
+          "zh": "任一季度低于 +1%（下调触发）；连续两个季度达到或超过 +4%（上调条件之一）",
+          "en": "Below +1% in any quarter (downgrade trigger); at or above +4% for two consecutive quarters (one of the upgrade conditions)"
+        },
+        "latest": {
+          "zh": "2Q'26 业绩演示：Q2 2026 为 +2%（Q1 2026 +2%、Q2 2025 +5%），占总 TPV 的 28%；Q4 2025 约 +1%（2026-02 报道口径）。公司称品牌结账进一步企稳，但仍远低于牛市所需的中个位数增速。",
+          "en": "Per the 2Q'26 earnings presentation: +2% in Q2 2026 (Q1 2026 +2%, Q2 2025 +5%), 28% of total TPV; about +1% in Q4 2025 (February 2026 reporting). The company says branded checkout further stabilized, but growth remains well below the mid-single digits the bull case needs."
+        },
+        "nextCheck": "Q3 2026 业绩与业绩演示（预计 2026 年 10 月下旬，发行人尚未公告日期） / Q3 2026 results and earnings presentation (expected late October 2026; date not yet announced by the issuer)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "venmo-momentum",
+        "thesis": "bull",
+        "theme": "demand",
+        "metric": {
+          "zh": "Venmo TPV 汇率中性同比增速",
+          "en": "Venmo TPV growth, FX-neutral, year over year"
+        },
+        "trigger": {
+          "zh": "任一季度跌破 +10%",
+          "en": "Below +10% in any quarter"
+        },
+        "latest": {
+          "zh": "2Q'26 业绩演示：Q2 2026 Venmo TPV $93,806M，汇率中性同比 +14%（Q1 2026 亦为 +14%，Q2 2025 为 +12%）；Venmo 借记卡月活账户增长超过 50%，Pay with Venmo 月活账户增长约 30%。",
+          "en": "Per the 2Q'26 earnings presentation: Q2 2026 Venmo TPV of $93,806M, +14% FX-neutral (Q1 2026 also +14%, Q2 2025 +12%); Venmo debit card monthly active accounts grew more than 50% and Pay with Venmo monthly active accounts about 30%."
+        },
+        "nextCheck": "Q3 2026 业绩与业绩演示（预计 2026 年 10 月下旬，发行人尚未公告日期） / Q3 2026 results and earnings presentation (expected late October 2026; date not yet announced by the issuer)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "tm-dollar-ex-interest",
+        "thesis": "either",
+        "theme": "pricing",
+        "metric": {
+          "zh": "交易利润额（TM$）剔除客户余额利息后的同比增速，及交易利润率",
+          "en": "Transaction margin dollars (TM$) excluding interest on customer balances, year-over-year growth, and transaction margin"
+        },
+        "trigger": {
+          "zh": "任一季度同比为负（下调触发）；单季同比达到或超过 +5%（上调条件之一）",
+          "en": "Negative year over year in any quarter (downgrade trigger); up 5% or more year over year in a quarter (one of the upgrade conditions)"
+        },
+        "latest": {
+          "zh": "Q2 2026 TM$ 剔除利息 $3,619M，同比 +3%；TM$ $3,900M，同比 +1%；交易利润率 44.9%（Q2 2025 为 46.4%）；客户余额利息 $281M（Q2 2025 为 $318M）。FY2026 指引：TM$ 约 $15.6B、剔除利息约 $14.5B；Q3 指引：TM$ 小幅正增长，剔除利息小幅正增长至低个位数。",
+          "en": "Q2 2026 TM$ excluding interest of $3,619M, +3% year over year; TM$ of $3,900M, +1%; transaction margin 44.9% (Q2 2025: 46.4%); interest on customer balances $281M (Q2 2025: $318M). FY2026 guidance: TM$ about $15.6B, about $14.5B excluding interest; Q3 guidance: TM$ slightly positive, ex-interest slightly positive to low single digits."
+        },
+        "nextCheck": "Q3 2026 业绩与业绩演示（预计 2026 年 10 月下旬，发行人尚未公告日期） / Q3 2026 results and earnings presentation (expected late October 2026; date not yet announced by the issuer)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "eps-guidance-delivery",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "非 GAAP 稀释 EPS 对照指引",
+          "en": "Non-GAAP diluted EPS against guidance"
+        },
+        "trigger": {
+          "zh": "Q3 2026 非 GAAP EPS 低于 $1.27，或 FY2026 非 GAAP EPS 指引下调至 $5.25 以下（下调触发）；FY2027 展望隐含非 GAAP EPS 增长达到或超过 +8%（上调条件之一）",
+          "en": "Q3 2026 non-GAAP EPS below $1.27, or FY2026 non-GAAP EPS guidance cut below $5.25 (downgrade trigger); an FY2027 outlook implying non-GAAP EPS growth of 8% or more (one of the upgrade conditions)"
+        },
+        "latest": {
+          "zh": "Q2 2026 非 GAAP EPS $1.38（同比 −1%，5 月指引约 −9%），GAAP EPS $1.25；FY2026 非 GAAP EPS 指引上调至约 $5.38（FY2025 为 $5.31），不含下半年可能的转型费用；FY2026 GAAP EPS 指引中个位数下滑；Q3 非 GAAP EPS 指引低个位数下滑（Q3 2025 为 $1.34）。",
+          "en": "Q2 2026 non-GAAP EPS of $1.38 (−1% year over year, against a May guide of about −9%), GAAP EPS $1.25; FY2026 non-GAAP EPS guidance raised to about $5.38 (FY2025: $5.31), excluding potential second-half transformation charges; FY2026 GAAP EPS guided to a mid-single-digit decline; Q3 non-GAAP EPS guided to a low-single-digit decline (Q3 2025: $1.34)."
+        },
+        "nextCheck": "Q3 2026 业绩与业绩演示（预计 2026 年 10 月下旬，发行人尚未公告日期） / Q3 2026 results and earnings presentation (expected late October 2026; date not yet announced by the issuer)",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "buyback-capacity",
+        "thesis": "bull",
+        "theme": "leverage-solvency",
+        "metric": {
+          "zh": "季度回购额、自由现金流与公司口径净现金（现金、现金等价物及投资 − 债务）",
+          "en": "Quarterly repurchases, free cash flow and corporate net cash (cash, cash equivalents and investments minus debt)"
+        },
+        "trigger": {
+          "zh": "季度回购连续两个季度低于 $1.0B，或 FY2026 调整后 FCF 指引下调至 $6B 以下，或公司口径净现金转负",
+          "en": "Quarterly repurchases below $1.0B for two consecutive quarters, or FY2026 adjusted FCF guidance cut below $6B, or corporate net cash turning negative"
+        },
+        "latest": {
+          "zh": "Q2 2026 回购约 3,300 万股、$1.5B（现金流量表库存股支出 $1,552M），TTM 约 1.11 亿股、$6.0B。H1 2026 FCF $2,678M，回购 $3,052M 与股息 $252M 合计超出 FCF $626M，同期债务增加约 $1.8B；公司口径净现金由 2025-12-31 的约 $3.2B（$14.8B − $11.6B）降至 2026-06-30 的 $1,865M（$15,265M − $13,400M）。FY2026 指引：回购 $6B、调整后 FCF $6B+、资本开支约 $1B。",
+          "en": "Q2 2026 repurchases of about 33M shares for $1.5B (treasury-stock outflow of $1,552M in the cash-flow statement); trailing twelve months about 111M shares for $6.0B. H1 2026 FCF of $2,678M against repurchases of $3,052M and dividends of $252M, an excess of $626M over FCF, while debt rose by about $1.8B; corporate net cash fell from about $3.2B at 2025-12-31 ($14.8B − $11.6B) to $1,865M at 2026-06-30 ($15,265M − $13,400M). FY2026 guidance: $6B of repurchases, adjusted FCF of $6B+, capex of about $1B."
+        },
+        "nextCheck": "Q3 2026 10-Q 现金流量表与资产负债表 / Q3 2026 10-Q cash-flow statement and balance sheet",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "valuation-skew",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "股价相对情景网格的加权年化回报",
+          "en": "Share price against the scenario grid's weighted annualized return"
+        },
+        "trigger": {
+          "zh": "在基准路径未上修的情况下收盘价高于 $60.13（加权年化跌破 8% 的价格）",
+          "en": "A close above $60.13, the price at which the weighted annualized return falls below 8%, without an upward revision to the base-case path"
+        },
+        "latest": {
+          "zh": "2026-10-01 收盘 $53.06；TTM 非 GAAP 市盈率 10.03 倍；30/40/30 加权每股价值 $71.48、年化 +14.2%；52 周盘中区间 $38.46-$79.22（CNBC）。",
+          "en": "2026-10-01 close of $53.06; TTM non-GAAP P/E of 10.03x; 30/40/30 weighted value of $71.48 per share, +14.2% annualized; 52-week intraday range $38.46-$79.22 (CNBC)."
+        },
+        "nextCheck": "每日价格账本 / daily price ledger",
+        "nextCheckDate": "2026-10"
+      },
+      {
+        "id": "strategic-optionality",
+        "thesis": "either",
+        "theme": "optionality",
+        "metric": {
+          "zh": "并购与战略行动（收购要约、最终协议、战略评估）",
+          "en": "M&A and strategic actions (takeover proposals, definitive agreements, strategic reviews)"
+        },
+        "trigger": {
+          "zh": "PayPal 以 8-K 披露收购要约、最终协议或战略评估（触发网格重算，不直接对应立场升降级）",
+          "en": "PayPal discloses a takeover proposal, a definitive agreement or a strategic review in an 8-K (triggers a re-run of the grid; not tied directly to a stance change)"
+        },
+        "latest": {
+          "zh": "Stripe/Advent 约 $60.50/股的非请自来要约于 2026-07-15 被报道，2026-08-28 据 Bloomberg 与 Axios 报道撤回，均为媒体口径、无 8-K；2026-07-28 至 2026-10-02 PayPal 未提交任何 8-K。2026-09-22 与 Meta 的 Muse AI 代理结账合作来自行业媒体报道，未披露财务条款。",
+          "en": "The unsolicited Stripe/Advent proposal of about $60.50 per share was reported on 2026-07-15 and its withdrawal on 2026-08-28 (Bloomberg, Axios), both press-sourced with no 8-K; PayPal filed no 8-K between 2026-07-28 and 2026-10-02. The 2026-09-22 checkout partnership with Meta's Muse AI agent comes from trade-press reports, with no financial terms disclosed."
+        },
+        "nextCheck": "SEC EDGAR 8-K（持续） / SEC EDGAR 8-K filings (continuous)",
+        "nextCheckDate": "2026-10"
+      }
+    ],
+    "summaryEn": "2026-10-02 stance backfill: re-anchored to the 2026-10-01 close of $53.06 (855,460,874 shares, market cap $45,390.8M; corporate net cash $1,865M, enterprise value $43,525.8M), or 10.03x TTM non-GAAP earnings, 9.86x the FY2026 guide of about $5.38, and a 14.51% TTM FCF yield. A 30/40/30 scenario grid rebuilt on primary Q2 2026 data (bull $103.24 / base $70.26 / bear $41.33) weights to $71.48 per share, +14.2% annualized over 2.248 years and 6.2 points above the 8% hurdle, so the stance is constructive with low conviction: cutting every exit multiple by two turns takes it to +3.9%. The return comes mostly from about $6B a year of buybacks (roughly 23% fewer shares by end-2028), not growth: Q2 branded checkout grew only +2% FX-neutral, TM$ excluding interest +3%, and the non-GAAP operating margin fell 248 bps. No 8-K since 2026-07-28; the Stripe/Advent offer was withdrawn on 08-28 (press-sourced); Q3 results expected in late October."
   },
   {
     "id": "oklo-2026-pre-rerun",

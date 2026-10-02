@@ -1,7 +1,7 @@
 # Reddit, Inc. (RDDT) Deep Research Report
 
 Coverage date: 2026-08-01
-Last updated: 2026-08-01
+Last updated: 2026-10-02
 Ticker: NYSE: RDDT
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -13,31 +13,41 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 **Investment judgment:**
 
-- **Stance:** Neutral-to-constructive (on valuation) / low conviction (on visibility)
+- ~~**Stance:** Neutral-to-constructive (on valuation) / low conviction (on visibility)~~
+- **Update (2026-10-02) — Stance:** constructive. **Conviction:** low. At the 2026-10-01 close of $149.53, the 30/50/20 scenario grid in §8 weights to $200.44 per share at end-2028, or +13.9% annualized over 2.248 years against an 8% hurdle. The skew is positive but multiple-fragile: cutting every exit multiple by three turns takes the weighted return to +4.5%, which is why conviction stays low.
 - **Confidence:** Low. The positive skew comes from valuation arithmetic, while the variable that decides the thesis — search referral traffic — is one management itself describes as having "low visibility." Any higher confidence would be false precision.
-- **Key catalysts:** Q3 2026 results in late October 2026 (the first independent test of U.S. DAU and ad growth), the outcome of the Google data-licensing renewal (expires H1 2027), and any new AI licensing agreement
+- **Key catalysts:** Q3 2026 results in late October 2026 (the first independent test of U.S. DAU and ad growth), the outcome of the Google data-licensing renewal (expires H1 2027), and any new AI licensing agreement. **Update (2026-10-02):** the Q3 date had not been announced by 2026-10-02; data providers estimate 2026-10-29 after the close (stockanalysis.com, an estimate, not a company announcement).
 - **Monitoring window:** 3–12 months
 
-**Key data (price anchor: 2026-07-31 close):**
+**What changed between 2026-08-01 and 2026-10-02 (Update (2026-10-02)):**
+
+- **Price:** the 2026-10-01 close was $149.53, +6.3% from the $140.67 initiation anchor (Nasdaq historical quotes, cross-checked with CNBC).
+- **Index inclusion:** S&P Dow Jones Indices announced on 2026-08-13 that Reddit would replace AvalonBay Communities in the S&P 500, effective before the open on 2026-08-18. The stock closed +12.6% at $178.09 on 2026-08-14 and then fell 7.6% to $164.50 on 2026-08-17 on 37.8M shares, the index-rebalancing session. That was index flow, not new fundamental information.
+- **Filings:** the only 8-K after the Q2 release (filed 2026-08-12) reports that Chief Legal Officer Benjamin Lee would step down effective 2026-09-14, with Paul Cappuccio expected to succeed him (Form 3 filed 2026-09-21). There was no guidance change, M&A or capital action.
+- **Google:** there is no company disclosure on the renewal. The latest information is still media reporting from July 2026 (WSJ, as reported by CNBC on 2026-07-22).
+- **Anthropic:** media reports dated 2026-09-22 (Yahoo Finance and others) say a California judge found that Reddit had produced adequate evidence that Anthropic is bound by Reddit's user agreement. The procedural posture is not verified here, and the ruling is not a final judgment. The stock closed +5.2% at $158.73 on 2026-09-21.
+- **Short interest:** short interest rose to 19.85M shares, or 10.32% of shares outstanding (stockanalysis.com, retrieved 2026-10-02).
+
+**Key data (price anchor: 2026-07-31 close; Update (2026-10-02): struck values are re-anchored to the 2026-10-01 close of $149.53):**
 
 | Metric | Value |
 |--------|-------|
-| Share price (2026-07-31 close, Friday) | $140.67 |
-| Prior close (2026-07-30) | $178.04 |
-| One-day decline on the print | -21.0% (largest single-day drop since IPO) |
-| Market cap (192.40M shares outstanding) | ~$27.06B |
-| Market cap (on ~203M TTM diluted shares) | ~$28.6B |
-| Enterprise value | ~$24.30B |
+| Share price (2026-07-31 close, Friday) | ~~$140.67~~ **Update (2026-10-02):** $149.53 (2026-10-01 close) |
+| Prior close (2026-07-30) | $178.04 (historical) |
+| One-day decline on the print | -21.0% (largest single-day drop since IPO; historical, 2026-07-31) |
+| Market cap (192.40M shares outstanding) | ~~$27.06B~~ **Update (2026-10-02):** ~$28.77B (192.40M shares per the Q2 10-Q cover, 2026-07-29) |
+| Market cap (on ~203M TTM diluted shares) | ~~$28.6B~~ **Update (2026-10-02):** ~$30.21B (on 202.03M Q2 2026 diluted weighted-average shares) |
+| Enterprise value | ~~$24.30B~~ **Update (2026-10-02):** ~$26.00B |
 | Cash and marketable securities (2026-06-30) | $2,786M |
 | Total debt (2026-06-30) | $20.87M (negligible) |
-| 52-week range | $119.27 - $282.95 |
-| TTM P/E | 32.8x |
-| Forward P/E (data-provider consensus) | 23.7x |
-| P/S (TTM revenue $2,779M) | 9.7x |
-| EV/Sales (TTM) | 8.7x |
-| EV/EBITDA (TTM) | 30.3x |
-| Beta (provider labels it 5Y; the company has traded only ~2.4 years, so it is computed on the available window) | 1.94 |
-| Short interest as % of shares outstanding | 8.83% (16.99M shares; roughly 12.2% of the 139.6M float) |
+| 52-week range | ~~$119.27 - $282.95~~ **Update (2026-10-02):** $119.27 - $263.50 (high on 2026-01-09, per CNBC) |
+| TTM P/E | ~~32.8x~~ **Update (2026-10-02):** 34.9x |
+| Forward P/E (data-provider consensus) | ~~23.7x~~ **Update (2026-10-02):** 24.8x (stockanalysis.com provider basis) |
+| P/S (TTM revenue $2,779M) | ~~9.7x~~ **Update (2026-10-02):** 10.4x |
+| EV/Sales (TTM) | ~~8.7x~~ **Update (2026-10-02):** 9.4x |
+| EV/EBITDA (TTM) | ~~30.3x~~ **Update (2026-10-02):** 32.4x |
+| Beta (provider labels it 5Y; the company has traded only ~2.4 years, so it is computed on the available window) | ~~1.94~~ **Update (2026-10-02):** 2.05 (stockanalysis.com) |
+| Short interest as % of shares outstanding | ~~8.83% (16.99M shares; roughly 12.2% of the 139.6M float)~~ **Update (2026-10-02):** 10.32% (19.85M shares; 14.11% of the float) |
 | Q2 2026 revenue | $804.91M (+61% YoY) |
 | Q2 2026 net income | $252.85M (31.4% net margin) |
 | Q2 2026 diluted EPS | $1.25 (+178% YoY) |
@@ -73,7 +83,8 @@ A caliber note on the U.S. DAU figure: the -0.6% sequential move sits on a metri
 
 1. **The growth engine has switched tracks, but switching tracks is not the same as stalling.** The 51% YoY increase in U.S. ARPU has verifiable drivers: active advertisers up 70% YoY, automated-buying platform Reddit Max revenue up 150% sequentially, and dynamic product ads and app-install ads each more than doubling year over year. This is product and sales execution landing, not a one-time price increase.
 2. **The largest single-point risk is not the "AI is taking our traffic" narrative — it is a specific contract expiry date.** The Google data-licensing agreement (roughly $60M/year, signed February 2024) expires in H1 2027, and renewal negotiations are reported to be ongoing and not straightforward.
-3. **At the current price, the market's implied requirement for 2027 is not demanding.** As derived in §8: applying a mature ad-platform multiple of 6x EV/Sales, the current $24.30B enterprise value requires only about $4.05B of FY2027 revenue, implying roughly +22% growth from this report's FY2026E — a bar that sits below the midpoint of our base-case range.
+3. ~~**At the current price, the market's implied requirement for 2027 is not demanding.** As derived in §8: applying a mature ad-platform multiple of 6x EV/Sales, the current $24.30B enterprise value requires only about $4.05B of FY2027 revenue, implying roughly +22% growth from this report's FY2026E — a bar that sits below the midpoint of our base-case range.~~
+   **Update (2026-10-02):** at $149.53 the EV is about $26.00B. On the same one-year 6x EV/Sales frame, that now requires about $4.33B of FY2027 revenue, +29.4% over the revised FY2026E of $3,350M. That is above the old base range and close to the +31.8% consensus, so on that frame the bar is no longer "not demanding". The stance in §8 uses a 2.248-year frame that also credits about two years of cash generation. On that frame, earning 8% a year requires 2026-28 revenue growth of about 16.6% a year at a 14x exit EV/adjusted EBITDA, against a base case of 21.4%.
 
 ## 2. Business Overview and Segment Economics <!-- report-module:business -->
 
@@ -130,9 +141,9 @@ Reddit competes in digital advertising, but its competitive position has one unu
 | Meta | $1.42T | $228.25B | 29.84% | The default destination for ad budgets; owns its traffic loop, no search-referral dependency |
 | Snap | $7.89B | $6.10B | -6.72% | Young user base, never reached scaled profitability — the counterexample that social advertising need not be profitable |
 | Pinterest | $13.45B | $4.37B | 7.64% | High commercial intent, low engagement; the closest "second-tier ad platform" comparable |
-| **Reddit** | **$27.06B** | **$2.78B** | **31.35%** | Smallest revenue base, but the highest growth rate and highest net margin of the four |
+| **Reddit** | ~~**$27.06B**~~ **Update (2026-10-02): $28.77B** | **$2.78B** | **31.35%** | Smallest revenue base, but the highest growth rate and highest net margin of the four |
 
-**A contrast worth noting:** Reddit's TTM revenue is only 64% of Pinterest's and 46% of Snap's, yet its market cap is 2.0x and 3.4x theirs respectively. What the market is paying for is 66.6% revenue growth and a 31.35% net margin — both first among the four. The premium has a fundamental basis, but it also means valuation support disappears quickly if growth converges toward Pinterest's level.
+**A contrast worth noting (historical ratios at 2026-07-31; peer market caps are not refreshed in the 2026-10-02 update):** Reddit's TTM revenue is only 64% of Pinterest's and 46% of Snap's, yet its market cap is 2.0x and 3.4x theirs respectively. What the market is paying for is 66.6% revenue growth and a 31.35% net margin — both first among the four. The premium has a fundamental basis, but it also means valuation support disappears quickly if growth converges toward Pinterest's level.
 
 **Strong moat elements:**
 
@@ -201,13 +212,15 @@ The Q1 sequential decline is normal digital-advertising seasonality (Q4 is peak 
 
 | Check | Conclusion | Detail |
 |-------|-----------|--------|
-| Earnings quality | **Flag for labeling** | Q2 net income of $252.85M **exceeds** operating income of $231.72M. The gap comes from interest income on $2.8B of cash and a modest effective tax rate (the CFO described the effective rate as remaining modest). This means EPS growth will decelerate materially versus operating-income growth once the tax rate normalizes. This is not manipulation, but the TTM P/E of 32.8x must be adjusted for it in cross-company comparison |
+| Earnings quality | **Flag for labeling** | Q2 net income of $252.85M **exceeds** operating income of $231.72M. The gap comes from interest income on $2.8B of cash and a modest effective tax rate (the CFO described the effective rate as remaining modest). This means EPS growth will decelerate materially versus operating-income growth once the tax rate normalizes. This is not manipulation, but the TTM P/E of ~~32.8x~~ **Update (2026-10-02):** 34.9x must be adjusted for it in cross-company comparison |
 | Stock-based compensation | Ordinary watch item | Q2 $100.95M, or 12.5% of revenue; TTM roughly $338M, or 12.2% of TTM revenue. Not a small absolute level, but full-year guidance was cut from "high teens" to "low-to-mid teens" — the direction is right |
 | Leverage | No risk | Total debt $20.87M against $2.77B net cash |
 | Cash flow vs earnings divergence | No anomaly | TTM OCF $1,026M vs net income $871M — cash flow exceeds earnings |
 | Disclosure quality | **New watch item** | Logged-in / logged-out split discontinued beginning Q3 2026 (see §2) |
 | Goodwill / M&A | No anomaly | No material acquisitions; management ranks "opportunistic M&A" second among capital-allocation priorities |
 | Customer concentration | Ordinary watch item | Advertisers are diversified (active advertisers +70% YoY), but data-licensing revenue is highly concentrated in Google and OpenAI |
+| Litigation (Update 2026-10-02) | **Watch item** | The Q2 2026 10-Q (Note 9) discloses a securities class action filed in June 2025 in the Northern District of California. It alleges false or misleading statements about the impact of Google Search and its AI Overviews feature on the business; derivative suits with similar allegations followed. No responses had been filed and the company gives no loss estimate |
+| Tax normalization (Update 2026-10-02) | **Watch item** | The Q2 2026 10-Q (Note 12) says the company keeps a full valuation allowance against U.S. federal and state deferred tax assets. It says positive evidence "may become available within the next 12 months" to release a significant portion. A release would be a one-off book gain; afterwards the GAAP tax rate normalizes. Q2 tax expense was $3.99M on $256.84M of pre-tax income |
 
 ## 5. Management, Governance and Capital Allocation <!-- report-module:management -->
 
@@ -219,6 +232,7 @@ The Q1 sequential decline is normal digital-advertising seasonality (Q4 is peak 
 | Jennifer Wong | Chief Operating Officer | Leads advertising commercialization |
 | Andrew (Drew) Vollero | Chief Financial Officer | — |
 | Jesse Rose | Head of Investor Relations | — |
+| Paul Cappuccio | Chief Legal Officer and Corporate Secretary (Update 2026-10-02) | Succeeds Benjamin Lee, who stepped down effective 2026-09-14 (8-K filed 2026-08-12; Form 3 filed 2026-09-21) |
 
 **Execution track record:** within two years of the 2024 IPO, management moved the company from a FY2024 operating loss of $560.6M to TTM operating income of $785M, while growing revenue from $1.30B to $2.78B TTM. That is a strong record. Q2 also validated expense discipline: full-year SBC guidance was cut and operating margin expanded to 28.8%.
 
@@ -245,6 +259,13 @@ Reddit uses a dual-class structure. Class A carries one vote per share; Class B 
 
 **A neutral observation on the repurchase price:** against this report's frozen July 31, 2026 valuation anchor of $140.67, the Q2 average repurchase price of $157.57 was about 12% higher. This is an explicitly dated historical comparison that does not update with later market prices, so subsequent trading cannot support describing the repurchase as “currently underwater” or “currently profitable.” It neither proves management misjudged (the buying occurred before the print, at a normal pace) nor should it be read as a confirming “management is confident” signal. What is genuinely worth watching is Q3: after the 21% post-print one-day decline, the pace at which the remaining $760M authorization is deployed will be management's real statement about its own valuation view.
 
+**Update (2026-10-02): insider transactions since 2026-08-01.** Form 4s filed between 2026-08-06 and 2026-10-01 show only sales. The CEO's and COO's sales were made under Rule 10b5-1 plans, each paired with a same-day option exercise:
+- **CEO Huffman:** 18,000 shares on each of 2026-08-04, 08-14 and 08-31, and 17,308 shares on each of 2026-09-15 and 09-29.
+- **COO Wong:** 75,000 shares on 2026-08-14 and 60,000 on 2026-09-14.
+- **Director Sauerberg:** 5,128 shares on 2026-08-25.
+
+The 2026-08-20 Form 4s are tax withholding on vesting, not market sales. No open-market purchase appears in these filings. Q3 buyback execution will not be known until the Q3 10-Q.
+
 **Management rating: B+.** A combination of operational execution (A) and governance structure (C). The execution record is solid, cost discipline is verifiable, and the capital-allocation framework is clear; the deductions come entirely from the accountability gap under dual-class control and from the disclosure narrowing recorded in §2.
 
 ## 6. Bull and Bear Cases <!-- report-module:bullBear -->
@@ -257,18 +278,19 @@ Reddit uses a dual-class structure. Class A carries one vote per share; Class B 
 
 1. **The ARPU ramp has product support and is not a one-time price hike.** U.S. ARPU rose 51% YoY while active advertisers rose 70% YoY, Reddit Max revenue rose 150% sequentially, and dynamic product ads and app-install ads each more than doubled. Advertiser count growing faster than ARPU indicates pricing is coming from demand-side competition in the auction, not unilateral increases.
 2. **Margins are still expanding rapidly.** Q2 adjusted EBITDA margin was 43% (+106% YoY), with Q3 guided to roughly 45%. Margins expanding while revenue grows 61% YoY indicates operating leverage is not yet exhausted.
-3. **An exceptionally clean balance sheet.** Net cash of $2.77B ($14.37 per share, or 10.2% of the share price), essentially no debt, TTM free cash flow of $1,018M, and near-zero capex. The company can keep investing in product and repurchasing stock through a traffic headwind.
+3. **An exceptionally clean balance sheet.** Net cash of $2.77B ($14.37 per share, or ~~10.2%~~ **Update (2026-10-02):** 9.6% of the $149.53 share price), essentially no debt, TTM free cash flow of $1,018M, and near-zero capex. The company can keep investing in product and repurchasing stock through a traffic headwind.
 4. **International monetization has not started.** International DAU is 77.1M (+28% YoY) at an ARPU just 1/5.2 of the U.S. level. Even closing to one-third of U.S. ARPU (from $2.26 to roughly $3.95) on the current user base would imply roughly $130M of incremental quarterly revenue (77.1M × $1.69). This engine has not been switched on.
 5. **AI licensing is an unpriced option.** It contributes just 5.3% of revenue today. If renewals land with the dynamic-pricing structure management has hinted at (Reddit earning more as its data becomes more valuable to AI-generated answers), the shape of this revenue line changes from a fixed annual fee to a take rate on AI usage. The market prices essentially none of this today.
 6. **There is already evidence of the funnel being reclaimed.** New app-user retention improved roughly 50% YoY (relative basis), and WAUq crossed 500 million. If app conversion persists, the structural importance of search referrals declines.
 
 **Key assumptions:** U.S. DAU stays flat rather than entering sustained decline; advertiser-count growth continues; and even absent a Google renewal, the traffic impact is gradual rather than a cliff.
 
-**Valuation implication of the bull scenario:** if FY2027 revenue growth holds at 30%-35% with adjusted EBITDA margins of 46%-48%, then on a mature-platform 6x EV/Sales frame the current $24.30B enterprise value sits well below the scenario's fair range (derivation in §8). In that scenario the current price is cheap.
+~~**Valuation implication of the bull scenario:** if FY2027 revenue growth holds at 30%-35% with adjusted EBITDA margins of 46%-48%, then on a mature-platform 6x EV/Sales frame the current $24.30B enterprise value sits well below the scenario's fair range (derivation in §8). In that scenario the current price is cheap.~~
+**Update (2026-10-02) — valuation implication of the bull scenario:** in the bull case of the re-anchored §8 grid, revenue grows +34% in FY2027 and +26% in FY2028, with a 50% adjusted EBITDA margin and an 18x exit. That values the shares at $286.56 at end-2028, against $149.53 today, or +33.6% annualized.
 
 ### 6.2 Bear Case
 
-**Core argument:** Reddit's user growth depends on a channel it does not control and which is actively eroding it. The current high growth is a one-time catch-up in monetization rate; once that is spent, an advertising platform with no user growth is not worth 9.7x sales.
+**Core argument:** Reddit's user growth depends on a channel it does not control and which is actively eroding it. The current high growth is a one-time catch-up in monetization rate; once that is spent, an advertising platform with no user growth is not worth ~~9.7x~~ **Update (2026-10-02):** 10.4x sales.
 
 **Supporting evidence:**
 
@@ -277,10 +299,10 @@ Reddit uses a dual-class structure. Class A carries one vote per share; Class B 
 3. **The Google agreement creates a dual dependency with a hard expiry.** The roughly $60M/year agreement expires in H1 2027, renewal talks are reported to be ongoing, and Reddit is reported to be considering restricting Google's structured AI data access. **Fact must be separated from inference here:** the facts are the contract value, the February 2024 signing, the expiry, and that negotiations are underway. **The inference — this report's judgment, not company disclosure — is that the licensing relationship and search distribution may be coupled, i.e. that Reddit content's prominence in Google search and AI Overviews may derive in part from that contractual arrangement. If the inference holds, a non-renewal would hit licensing revenue and referral traffic simultaneously; if it does not, the damage is limited to roughly $60M/year (about 2.2% of TTM revenue).** Whether this inference is true is the single most important open question in this report.
 4. **Structural substitution by AI Overviews.** Google's AI summaries answer questions directly on the results page, reducing the need to click through to Reddit. This is not a negotiable commercial term but the direction of search product evolution — the trend does not reverse even if the contract renews.
 5. **Management itself says it cannot see.** Huffman's words on the call were that search referrals "were choppy in the quarter and traffic was more volatile later in the quarter," and that "visibility on search continues to remain low, and we expect it to probably continue to be volatile." When management cannot offer visibility on the most important forward variable, any extrapolation-based valuation deserves a discount.
-6. **Net margin is flattered by non-operating factors.** Q2 net income exceeded operating income, with the gap coming from interest income and a modest effective tax rate. Once taxes normalize, the same operating income produces lower EPS, and the apparent "cheapness" of a 32.8x TTM P/E degrades.
+6. **Net margin is flattered by non-operating factors.** Q2 net income exceeded operating income, with the gap coming from interest income and a modest effective tax rate. Once taxes normalize, the same operating income produces lower EPS, and the apparent "cheapness" of a ~~32.8x~~ **Update (2026-10-02):** 34.9x TTM P/E degrades.
 7. **The verification metric is about to disappear.** Beginning in Q3 2026, the logged-in / logged-out split is discontinued, removing the only public metric by which outside investors could directly measure search-referral damage (see §2).
 
-**Valuation implication of the bear scenario:** if the Google agreement is not renewed and logged-out traffic decline transmits into U.S. DAU and ad inventory, FY2027 revenue growth falls to 8%-15% with adjusted EBITDA margins of 38%-42%, and the market would most likely compress the multiple toward the Pinterest-to-Snap band (3x-4.5x EV/Sales). In that scenario the current 8.7x EV/Sales is clearly expensive.
+**Valuation implication of the bear scenario:** if the Google agreement is not renewed and logged-out traffic decline transmits into U.S. DAU and ad inventory, FY2027 revenue growth falls to 8%-15% with adjusted EBITDA margins of 38%-42%, and the market would most likely compress the multiple toward the Pinterest-to-Snap band (3x-4.5x EV/Sales). In that scenario the current ~~8.7x~~ **Update (2026-10-02):** 9.4x EV/Sales is clearly expensive. In the re-anchored §8 bear case, revenue grows +10% in FY2027 and +3% in FY2028, the margin is 40% and the exit is 9x. That values the shares at $92.67 at end-2028, or -19.2% annualized.
 
 ## 7. Key Uncertainties and Thesis-Breaking Conditions <!-- report-module:uncertainties -->
 
@@ -295,6 +317,8 @@ Reddit uses a dual-class structure. Class A carries one vote per share; Class B 
 | **Timing and magnitude of tax-rate normalization** | CFO says only that the rate "remains modest," with no normalization path given | 10-K deferred-tax and valuation-allowance disclosure, or a quarter in which the rate jumps |
 | **Whether international monetization can start** | International ARPU $2.26, just 1/5.2 of the U.S. level | Watch whether international ARPU YoY growth stays above 30% |
 
+**Update (2026-10-02):** none of the six uncertainties above was resolved between 2026-08-01 and 2026-10-02. There has been no Q3 print and no company statement on the Google renewal. The logged-in / logged-out split ends with Q3, as announced. The Anthropic ruling reported on 2026-09-22 bears on Reddit's ability to enforce paid access to its data, but its procedural posture is unverified here, so it does not change the coupling inference in §6.2.
+
 **Thesis-breaking conditions:**
 
 - **Bull case breaks:** U.S. DAU declines sequentially for two consecutive quarters; or U.S. ARPU YoY growth falls below +25% (signaling the monetization dividend is converging); or Q4 2026 revenue guidance implies less than +35% YoY.
@@ -303,52 +327,119 @@ Reddit uses a dual-class structure. Class A carries one vote per share; Class B 
 
 ## 8. Valuation and Expectations Gap <!-- report-module:valuation -->
 
-**Current anchor (2026-07-31 close):** share price $140.67 on 192.40M shares outstanding gives a market cap of roughly $27.06B; net of $2.77B of net cash, enterprise value is roughly $24.30B. On TTM diluted shares (approximately 203M, derived from TTM net income of $871.1M ÷ diluted EPS of $4.29), the diluted market cap is roughly $28.6B. Unless noted otherwise, multiples below use $27.06B market cap and $24.30B EV.
+~~**Current anchor (2026-07-31 close):** share price $140.67 on 192.40M shares outstanding gives a market cap of roughly $27.06B; net of $2.77B of net cash, enterprise value is roughly $24.30B. On TTM diluted shares (approximately 203M, derived from TTM net income of $871.1M ÷ diluted EPS of $4.29), the diluted market cap is roughly $28.6B. Unless noted otherwise, multiples below use $27.06B market cap and $24.30B EV.~~
 
-**Multi-method valuation:**
+**Update (2026-10-02) — current anchor (2026-10-01 regular-session close, U.S. Eastern):**
+- **Market cap:** a share price of $149.53 on 192.40M shares gives about $28.77B. The share count is 146,103,200 Class A plus 46,293,310 Class B at 2026-07-29, per the Q2 10-Q cover.
+- **Net cash:** $2,765.5M, being cash and marketable securities of $2,786.4M at 2026-06-30 less $20.9M of operating lease liabilities, the only debt-like item.
+- **Enterprise value:** about $26.00B.
+- **Diluted market cap:** about $30.21B on Q2 2026 diluted weighted-average shares of 202.03M. Outstanding at 2026-06-30 were 9.99M options (weighted-average exercise price $40.68) and 4.74M unvested RSUs and RSAs.
+
+Unless noted otherwise, multiples below use the $28.77B market cap and $26.00B EV. The price is cross-checked: Nasdaq historical quotes and CNBC both show $149.53 for 2026-10-01.
+
+**Multi-method valuation (Update (2026-10-02): struck values are the 2026-07-31 anchor; the value after each strike is at the 2026-10-01 close of $149.53):**
 
 | Method | Value / range | Key assumptions | Confidence |
 |--------|---------------|-----------------|------------|
-| TTM P/E | 32.8x | TTM EPS $4.29; **includes interest income and low-tax-rate benefit — must be adjusted for cross-company comparison** | Medium |
-| Forward P/E (data-provider consensus) | 23.7x | Third-party basis implying EPS of roughly $5.94, most likely NTM (next twelve months) rather than FY2026; the gap versus the next row's derivation reflects differing bases and assumptions, not a contradiction | Medium |
-| Forward P/E (this report's derivation) | ~26.5x | FY2026E EPS of roughly $5.30. Derivation: H1 actual $2.26 + Q3 ~$1.41 (guided EBITDA midpoint $390M × Q2's actual 73.8% net-income conversion) + Q4 ~$1.63 (**this report's assumption**: Q4 adjusted EBITDA of roughly $450M) | Medium-low |
-| P/S (TTM) | 9.7x | TTM revenue $2,779M | High (no assumptions) |
-| EV/Sales (TTM) | 8.7x | Same | High (no assumptions) |
-| EV/Sales (FY2026E) | ~7.3x | FY2026E revenue of roughly $3,308M (H1 actual $1,468M + Q3 guidance midpoint $865M + **this report's assumption** of roughly $975M in Q4, implying +12.7% QoQ versus the +24.1% seasonal step in Q4 2025) | Medium |
-| EV/EBITDA (TTM) | 30.3x | **Data-provider basis with a GAAP-EBITDA denominator (~$0.80B, roughly operating income of $785M plus D&A); the next row uses an adjusted-EBITDA denominator, so the two rows are not directly comparable** | High (no assumptions) |
-| EV/EBITDA (FY2026E, adjusted basis) | ~16.8x | FY2026E adjusted EBITDA of roughly $1,449M (H1 actual $609M + Q3 guidance midpoint $390M + **this report's assumption** of roughly $450M in Q4); the adjusted basis excludes SBC and similar items, so its denominator is inherently larger than the GAAP basis in the row above | Medium |
-| Net cash support | $14.37 per share | 10.2% of the July 31, 2026 valuation anchor of $140.67, providing a hard floor for that historical valuation snapshot | High |
-| Sell-side target range (**market-sentiment reference only, not this report's conclusion**) | $170 / $200 / $200 / $221 | Cantor / Deutsche Bank / Oppenheimer / Wedbush, post-print reductions | — |
+| TTM P/E | ~~32.8x~~ **Update (2026-10-02):** 34.9x | TTM EPS $4.29; **includes interest income and low-tax-rate benefit — must be adjusted for cross-company comparison** | Medium |
+| Forward P/E (data-provider consensus) | ~~23.7x~~ **Update (2026-10-02):** 24.8x (stockanalysis.com; CNBC shows 24.45x on forward EPS of $6.12) | Third-party basis (the old 23.7x implied EPS of roughly $5.94), most likely NTM (next twelve months) rather than FY2026; the gap versus the next row's derivation reflects differing bases and assumptions, not a contradiction | Medium |
+| Forward P/E (this report's derivation, GAAP) | ~~26.5x (FY2026E EPS ~$5.30, Q4 ~$1.63 on Q4 adjusted EBITDA of ~$450M)~~ **Update (2026-10-02):** ~27.9x | FY2026E GAAP EPS of roughly $5.36. Derivation: H1 actual $2.26 + Q3 ~$1.41 (guided EBITDA midpoint $390M × Q2's actual 73.8% net-income conversion) + Q4 ~$1.69 (**this report's assumption**, revised 2026-10-02: Q4 adjusted EBITDA of roughly $468M) | Medium-low |
+| Consensus P/E on FY2026 / FY2027 EPS (Update 2026-10-02) | 19.5x / 15.4x | S&P Global consensus via stockanalysis.com: FY2026 EPS $7.68 and FY2027 EPS $9.69, **non-GAAP adjusted**, so not comparable with the GAAP row above; not averaged | Medium |
+| P/S (TTM) | ~~9.7x~~ **Update (2026-10-02):** 10.4x | TTM revenue $2,779M | High (no assumptions) |
+| EV/Sales (TTM) | ~~8.7x~~ **Update (2026-10-02):** 9.4x | Same | High (no assumptions) |
+| EV/Sales (FY2026E) | ~~7.3x on FY2026E revenue of ~$3,308M (Q4 assumption ~$975M)~~ **Update (2026-10-02):** ~7.8x | FY2026E revenue of roughly $3,350M (H1 actual $1,468M + Q3 guidance midpoint $865M + **this report's assumption, revised 2026-10-02**, of roughly $1,017M in Q4). The Q4 figure implies +17.5% QoQ and +40.1% YoY, between the old $975M assumption and the roughly $1,057M implied by the $3.39B consensus. FY2026E sits 1.2% below that consensus | Medium |
+| EV/EBITDA (TTM) | ~~30.3x~~ **Update (2026-10-02):** 32.4x | **Data-provider basis with a GAAP-EBITDA denominator (~$0.80B, roughly operating income of $785M plus D&A); the next row uses an adjusted-EBITDA denominator, so the two rows are not directly comparable** | High (no assumptions) |
+| EV/EBITDA (FY2026E, adjusted basis) | ~~16.8x on ~$1,449M~~ **Update (2026-10-02):** ~17.7x | FY2026E adjusted EBITDA of roughly $1,467M (H1 actual $609M + Q3 guidance midpoint $390M + **this report's assumption, revised 2026-10-02**, of roughly $468M in Q4, a 46% margin); the adjusted basis excludes SBC and similar items, so its denominator is inherently larger than the GAAP basis in the row above | Medium |
+| Net cash support | $14.37 per share | ~~10.2% of the July 31, 2026 valuation anchor of $140.67, providing a hard floor for that historical valuation snapshot~~ **Update (2026-10-02):** 9.6% of the $149.53 close | High |
+| Sell-side target range (**market-sentiment reference only, not this report's conclusion**) | $170 / $200 / $200 / $221 | Cantor / Deutsche Bank / Oppenheimer / Wedbush, post-print reductions (historical, 2026-07-31) | — |
+| Consensus target (Update 2026-10-02; **market-sentiment reference only**) | Mean $213.71 (range $130-$300) | 34 analysts, S&P Global via stockanalysis.com. September 2026 actions include D.A. Davidson cutting its target from $200 to $185 and BNP Paribas Exane initiating at Hold with a $180 target | — |
 
-**Peer multiple comparison (2026-07-31):**
+**Peer multiple comparison (2026-07-31; Update (2026-10-02): the Reddit column is re-anchored to the 2026-10-01 close; peer columns remain the 2026-07-31 historical snapshot):**
 
 | Metric | Reddit | Pinterest | Snap | Meta |
 |--------|--------|-----------|------|------|
-| Market cap | $27.06B | $13.45B | $7.89B | $1.42T |
+| Market cap | ~~$27.06B~~ $28.77B | $13.45B | $7.89B | $1.42T |
 | TTM revenue | $2.78B | $4.37B | $6.10B | $228.25B |
 | TTM revenue growth | +66.6% | — | — | — |
 | Net margin | 31.35% | 7.64% | -6.72% | 29.84% |
-| TTM P/E | 32.8x | 48.5x | n/a (loss-making) | 21.0x |
-| Forward P/E | 23.7x | 12.7x | 7.3x | 17.3x |
-| P/S | 9.7x | 3.1x | 1.3x | 6.2x |
-| EV/Sales | 8.7x | 3.1x | 1.5x | 6.3x |
-| EV/EBITDA | 30.3x | 44.1x | n/a | 13.1x |
+| TTM P/E | ~~32.8x~~ 34.9x | 48.5x | n/a (loss-making) | 21.0x |
+| Forward P/E | ~~23.7x~~ 24.8x | 12.7x | 7.3x | 17.3x |
+| P/S | ~~9.7x~~ 10.4x | 3.1x | 1.3x | 6.2x |
+| EV/Sales | ~~8.7x~~ 9.4x | 3.1x | 1.5x | 6.3x |
+| EV/EBITDA | ~~30.3x~~ 32.4x | 44.1x | n/a | 13.1x |
 
-**Scenario grid:**
+**Scenario grid (historical, 2026-07-31 anchor; replaced by the 2026-10-02 grid below):**
 
-| Scenario | Driver assumptions (FY2027 revenue growth / adjusted EBITDA margin / multiple range) | Valuation implication (vs 2026-07-31 close of $140.67) | Probability weight |
+| Scenario | Driver assumptions (FY2027 revenue growth / adjusted EBITDA margin / multiple range) | ~~Valuation implication (vs 2026-07-31 close of $140.67)~~ Valuation implication (historical) | Probability weight |
 |----------|--------------------------------------------------------------------------------------|--------------------------------------------------------|--------------------|
-| Bull scenario | Revenue +30% to +35%; margin 46%-48%; EV/Sales 7x-9x. Requires: search referrals stabilize + at least one new or improved AI licensing agreement + international monetization begins | **Cheap** — FY2027 revenue of roughly $4.30B-$4.47B at 7x-9x implies EV of $30B-$40B, well above the current $24.30B | 30% |
-| Base scenario | Revenue +22% to +28%; margin 44%-46%; EV/Sales 5.5x-7x. Requires: U.S. DAU flat, ARPU growth converging down from +51%, Google agreement renewed on neutral terms | **Fair** — FY2027 revenue of roughly $4.04B-$4.23B at 5.5x-7x implies EV of $22B-$30B; the current $24.30B sits in the lower part of that range | 50% |
-| Bear scenario | Revenue +8% to +15%; margin 38%-42%; EV/Sales 3x-4.5x. Requires: Google agreement not renewed and referral decline transmits into U.S. DAU and ad inventory | **Expensive** — FY2027 revenue of roughly $3.57B-$3.80B at 3x-4.5x implies EV of $11B-$17B, well below the current $24.30B | 20% |
+| Bull scenario | Revenue +30% to +35%; margin 46%-48%; EV/Sales 7x-9x. Requires: search referrals stabilize + at least one new or improved AI licensing agreement + international monetization begins | ~~**Cheap** — FY2027 revenue of roughly $4.30B-$4.47B at 7x-9x implies EV of $30B-$40B, well above the current $24.30B~~ | 30% |
+| Base scenario | Revenue +22% to +28%; margin 44%-46%; EV/Sales 5.5x-7x. Requires: U.S. DAU flat, ARPU growth converging down from +51%, Google agreement renewed on neutral terms | ~~**Fair** — FY2027 revenue of roughly $4.04B-$4.23B at 5.5x-7x implies EV of $22B-$30B; the current $24.30B sits in the lower part of that range~~ | 50% |
+| Bear scenario | Revenue +8% to +15%; margin 38%-42%; EV/Sales 3x-4.5x. Requires: Google agreement not renewed and referral decline transmits into U.S. DAU and ad inventory | ~~**Expensive** — FY2027 revenue of roughly $3.57B-$3.80B at 3x-4.5x implies EV of $11B-$17B, well below the current $24.30B~~ | 20% |
 
-(All three scenarios derive FY2027 revenue from this report's FY2026E of roughly $3,308M; the composition and assumptions behind FY2026E are itemized in the valuation table above.)
+(All three scenarios derive FY2027 revenue from this report's FY2026E of roughly ~~$3,308M~~ (historical); the composition and assumptions behind FY2026E are itemized in the valuation table above.)
+
+**Update (2026-10-02) — scenario grid at the new anchor.** Weights are multiples of 10 summing to 100. The holding period runs from 2026-10-02 to 2028-12-31, 821 days or 2.248 years. The hurdle is 8%-10% a year. This report gives no price target; what follows are assumption ranges, not forecasts.
+
+Common mechanics:
+- **Starting point:** all scenarios start from FY2026E revenue of $3,350M and adjusted EBITDA of $1,467M.
+- **Exit value:** exit enterprise value is FY2028 adjusted EBITDA times the exit EV/adjusted EBITDA multiple. Today's EV/FY2026E adjusted EBITDA is 17.7x.
+- **Net cash:** exit net cash is today's $2,765.5M, plus free cash flow from H2 2026 through FY2028 at the stated conversion of adjusted EBITDA, minus buybacks.
+- **Buybacks:** 40% of free cash flow at a scenario-specific average price. Every scenario's buybacks exceed the $760.4M of authorization remaining at 2026-06-30, so all of them **require a new authorization**.
+- **Dilution:** exit shares are 192.40M plus 6M a year of gross issuance (13.5M in total), minus repurchased shares. The 6M a year is this report's assumption, based on the H1 2026 run-rate of 2.95M (option exercises plus net RSU settlement).
+- **Implied EV/Sales:** the column ties the grid to the old EV/Sales bands. All three scenarios sit inside the old 7x-9x / 5.5x-7x / 3x-4.5x ranges.
+
+| Scenario | FY2027 / FY2028 revenue (growth; 2026-28 CAGR) | FY2027 / FY2028 adjusted EBITDA margin; FY2028 adjusted EBITDA | Exit EV/adj. EBITDA (implied EV/Sales) | FCF conversion; buyback price | Exit shares / exit net cash | Value per share | Versus $149.53 | Annualized | Weight |
+|----------|-----------------------------------------------|------------------------------------------------------------------|----------------------------------------|-------------------------------|-----------------------------|-----------------|----------------|-----------|--------|
+| Bull | $4,489M / $5,656M (+34% / +26%; 29.9%) | 47% / 50%; $2,828M | **18x** (9.0x) | 82%; $220 | 197.24M / $5,617M | **$286.56** | +91.6% | **+33.6%** | 30% |
+| Base | $4,188M / $4,941M (+25% / +18%; 21.4%) | 45.5% / 47%; $2,322M | **14x** (6.6x) | 80%; $175 | 196.59M / $5,207M | **$191.88** | +28.3% | **+11.7%** | 50% |
+| Bear | $3,685M / $3,796M (+10% / +3%; 6.4%) | 41% / 40%; $1,518M | **9x** (3.6x) | 75%; $120 | 196.17M / $4,515M | **$92.67** | -38.0% | **-19.2%** | 20% |
+| **Weighted** | - | - | - | - | - | **$200.44** | **+34.0%** | **+13.9%** | **100%** |
+
+What each scenario requires:
+- **Bull:** search referrals stabilize, at least one new or improved AI licensing agreement is signed, and international monetization begins. FY2027 revenue of $4,489M is roughly the $4.46B consensus.
+- **Base:** U.S. DAU stays flat, ARPU growth converges down from +51%, and the Google agreement renews on neutral terms. FY2027 growth of +25% is set below the +31.8% consensus.
+- **Bear:** the Google agreement is not renewed and the decline in referrals carries through to U.S. DAU and ad inventory. The multiple compresses to between Pinterest and Snap.
+
+**The probability-weighted annualized return of +13.9% is 5.9 points above the 8% hurdle and 3.9 points above 10%.** The skew is positive: +92% in the bull case against -38% in the bear case.
+
+**Sensitivity test (this is what sets conviction at low):**
+
+| Test | Setting | Weighted value per share | Weighted annualized return | Clears 8%? |
+|------|---------|--------------------------|----------------------------|------------|
+| Base | Exits 18x / 14x / 9x; growth as above; weights 30/50/20 | $200.44 | +13.9% | Yes |
+| Exit multiples -3 turns | 15x / 11x / 6x | $165.17 | +4.5% | **No** |
+| Exit multiples -4 turns | 14x / 10x / 5x | $153.42 | +1.1% | **No** |
+| Exit multiples +3 turns | 21x / 17x / 12x | $235.71 | +22.4% | Yes |
+| Slower growth | 2027/2028 growth: bull +28%/+20%, base +18%/+12%, bear +5%/-5% | $181.84 | +9.1% | Yes (just) |
+| Both | Slower growth and -3 turns | $150.23 | +0.2% | **No** |
+| Re-weighted | 30/40/30 | $190.52 | +11.4% | Yes |
+| Re-weighted toward bear | 20/50/30 | $181.05 | +8.9% | Yes (just) |
+| Heavily bear-weighted | 20/40/40 | $171.13 | +6.2% | **No** |
+
+Holding the base-case operating path fixed and varying only its exit multiple: 13x gives $180.06 (+8.6% a year), 12x gives $168.25 (+5.4%) and 10x gives $144.62 (-1.5%).
+
+**What the sensitivity table shows:**
+- **What it survives:** the skew holds under moderately slower growth and under a 20/50/30 weighting.
+- **What breaks it:** a three-turn compression of every exit multiple, or a base-case exit at or below 12x.
+- **The call:** a positive skew that rests on the multiple holding, which is why conviction is low rather than medium.
+
+**Reverse test: what the price requires.** Working backwards, earning 8% (10%) a year requires a share value of $177.77 ($185.26) at the end of 2028; merely holding today's price requires $149.53. For each exit multiple, the table solves for the constant 2027-2028 revenue growth rate, applied to the $3,350M FY2026E base, that produces that value. Free cash flow, buybacks and the share count move with the revenue path. The rest of the base path is held fixed: a 45.5% / 47% margin, 80% FCF conversion, 40% of FCF to buybacks at $175, and 6M shares a year of gross issuance.
+
+| Exit EV/adj. EBITDA | Break-even (0%): FY2028 revenue / implied CAGR | Needed for 8%: FY2028 revenue | Implied CAGR | Needed for 10%: FY2028 revenue | Implied CAGR |
+|---------------------|------------------------------------------------|-------------------------------|--------------|--------------------------------|--------------|
+| 10x | $5,135M / 23.8% | $6,198M | **36.0%** | $6,478M | **39.1%** |
+| 14x | $3,772M / 6.1% | $4,558M | **16.6%** | $4,765M | **19.3%** |
+| 18x | $2,983M / -5.6% | $3,606M | **3.8%** | $3,771M | **6.1%** |
 
 **What is priced in, and the expectations gap:**
 
-An auditable reverse-derivation anchors the market's current requirement. Meta, as a mature high-margin advertising platform, trades at 6.3x EV/Sales. Assuming Reddit eventually converges to a **6x EV/Sales** mature-platform valuation, supporting the current $24.30B enterprise value requires revenue of **$4.05B**. Against this report's FY2026E of $3,308M, that implies **FY2027 revenue growth of only about +22%**.
+~~An auditable reverse-derivation anchors the market's current requirement. Meta, as a mature high-margin advertising platform, trades at 6.3x EV/Sales. Assuming Reddit eventually converges to a **6x EV/Sales** mature-platform valuation, supporting the current $24.30B enterprise value requires revenue of **$4.05B**. Against this report's FY2026E of $3,308M, that implies **FY2027 revenue growth of only about +22%**.~~
 
-**The expectations gap:** at $140.67 the market implicitly requires roughly 22% FY2027 revenue growth (under a mature-platform multiple assumption). This report's base case is **+22% to +28%** — **landing right at or above that bar**. Put differently, the current price pays for nothing beyond the base case: international monetization, dynamic pricing on AI licensing, and further operating-leverage release are all free options, while downside protection comes from $14.37 per share of net cash (10.2% of the price) and essentially zero debt.
+~~**The expectations gap:** at $140.67 the market implicitly requires roughly 22% FY2027 revenue growth (under a mature-platform multiple assumption). This report's base case is **+22% to +28%** — **landing right at or above that bar**. Put differently, the current price pays for nothing beyond the base case: international monetization, dynamic pricing on AI licensing, and further operating-leverage release are all free options, while downside protection comes from $14.37 per share of net cash (10.2% of the price) and essentially zero debt.~~
+
+**Update (2026-10-02):** on the same one-year 6x EV/Sales frame, the $26.00B EV now requires FY2027 revenue of about $4.33B, +29.4% over the revised FY2026E of $3,350M. That is above the old +22% to +28% base range and close to the +31.8% consensus, so the one-year frame no longer shows a cushion. The stance therefore rests on the 2.248-year grid above, which also credits about $4.1B of base-case free cash flow through 2028. On that frame, the price requires about 16.6% a year of 2026-28 revenue growth to earn 8% at a 14x exit, or about 6.1% merely to hold value. The base case is 21.4%, consensus FY2027 growth is +31.8%, and net cash covers $14.37 per share (9.6% of the price).
+
+**The expectations gap in one sentence (Update 2026-10-02):** at $149.53, earning 8% a year to end-2028 requires 2026-28 revenue growth of about 17% a year at a 14x exit EV/adjusted EBITDA; our base case is 21% and consensus FY2027 is +32%. The price already discounts a deceleration from +61% to the high teens, but not the bear case's single digits.
 
 The fragility of this derivation must be stated alongside it: it assumes Reddit can sustain mature-platform margins and ultimately earn a 6x multiple. The bear scenario denies exactly that assumption — if revenue growth falls below 15%, the market will not pay 6x but the 3x-4.5x that sits between Pinterest and Snap. **The positive skew in this report therefore does not come from "growth will be good"; it comes from "the current price already discounts a growth slowdown, but does not discount a collapse."**
 
@@ -356,7 +447,7 @@ The fragility of this derivation must be stated alongside it: it assumes Reddit 
 
 | Catalyst | Timing | Impact |
 |----------|--------|--------|
-| **Q3 2026 results** | Late October 2026 (estimated) | **The single most important event this year.** Tests: whether U.S. DAU returns to sequential growth, whether U.S. ARPU YoY growth holds, delivery against the $860-870M revenue guide, and the Q4 guide |
+| **Q3 2026 results** | Late October 2026 (estimated; Update 2026-10-02: date not announced, providers estimate 2026-10-29) | **The single most important event this year.** Tests: whether U.S. DAU returns to sequential growth, whether U.S. ARPU YoY growth holds, delivery against the $860-870M revenue guide, and the Q4 guide |
 | Google data-licensing renewal | Before H1 2027 (contract expiry); announcement timing uncertain | Dual impact (revenue plus the distribution inference, see §6.2). Any leaked terms or company confirmation would reprice the stock materially |
 | A new AI licensing agreement | Event-driven, no fixed date | The strongest single catalyst for the bull case: it would simultaneously prove competing demand for the data asset and the viability of a dynamic-pricing structure |
 | Pace of the remaining $760M buyback authorization | Ongoing; disclosed with Q3 results | Repurchase intensity after a 21% decline is management's real statement on its own valuation view |
@@ -364,39 +455,92 @@ The fragility of this derivation must be stated alongside it: it assumes Reddit 
 | Q4 2026 results and FY2027 guidance | February 2027 (estimated) | The first FY2027 framework, testing the base-case assumptions in the §8 scenario grid directly |
 | Third-party traffic monitoring data | Ongoing (monthly) | Independent readings on Reddit's search referrals from services such as Similarweb — the only high-frequency verification source between prints |
 | Effective tax-rate normalization | Timing unknown | A one-time depression of EPS growth that could trigger an earnings-quality re-rating |
+| S&P 500 inclusion (Update 2026-10-02) | Completed 2026-08-18 (announced 2026-08-13) | Adds index-tracking demand and a one-off rebalancing spike (+12.6% on 2026-08-14, -7.6% on 2026-08-17). It changes no fundamental input |
+| Reddit v. Anthropic (Update 2026-10-02) | State court, ongoing; media-reported ruling on 2026-09-22 | Media report a finding that Anthropic is bound by Reddit's user agreement; posture unverified. A durable win strengthens Reddit's leverage in paid data-access negotiations, including with Google |
 
-**Key monitoring metrics (in priority order):**
+**Key monitoring metrics (in priority order; Update (2026-10-02): each item corresponds one-to-one with `monitoring[]` in reports.json, with its id, trigger, latest reading and next check below):**
 
 1. **Sequential direction of U.S. DAUq** — the single most important metric. Two consecutive quarters of sequential decline breaks the bull case.
+   - Monitoring id: `us-dau-direction`.
+   - Trigger: U.S. DAUq declines sequentially in two consecutive quarters.
+   - Latest reading (Update 2026-10-02): Q2 2026 U.S. DAUq was 53.2M against 53.5M in Q1 2026, -0.6% QoQ, which is inside rounding and seasonal noise. It was +6% YoY, down from +7% in Q1. From Q3 2026 the company no longer discloses the logged-in / logged-out split.
+   - Next check: Q3 2026 results (expected late October 2026; date not announced as of 2026-10-02).
 2. **U.S. quarterly ARPU YoY growth** — the rate of convergence down from +51%. Falling below +25% signals the monetization dividend has peaked.
+   - Monitoring id: `us-arpu-growth`.
+   - Trigger: U.S. ARPU year-over-year growth falls below +25%.
+   - Latest reading (Update 2026-10-02): Q2 2026 U.S. ARPU was $11.85, +51% YoY (Q1 2026: $9.63). Q2 U.S. revenue by billing address was $638.1M, +56% YoY (Q2 2026 10-Q).
+   - Next check: Q3 2026 results (expected late October 2026; date not announced as of 2026-10-02).
 3. **Advertising revenue YoY growth** — Q3 guidance implies +47% to +49% total revenue growth; watch whether ad growth keeps pace.
+   - Monitoring id: `ad-revenue-growth`.
+   - Trigger: Q3 2026 revenue below the $860M low end of guidance, or a Q4 2026 revenue guidance midpoint implying less than +35% YoY (below about $979.6M against Q4 2025's $725.61M).
+   - Latest reading (Update 2026-10-02): Q2 2026 revenue was $804.9M (+61% YoY) and advertising revenue was $761.6M (+64%). Q3 guidance is $860-870M (+47% to +49%). This report's FY2026E assumes Q4 revenue of about $1,017M (+40.1% YoY). The S&P Global consensus of $3.39B for FY2026 implies a Q4 of about $1,057M.
+   - Next check: Q3 2026 results (expected late October 2026; date not announced as of 2026-10-02).
 4. **Active advertiser count growth** — currently +70% YoY, a leading indicator for ARPU sustainability.
+   - Monitoring id: `active-advertiser-growth`.
+   - Trigger: Active advertiser YoY growth falls below +30%, or management stops disclosing it.
+   - Latest reading (Update 2026-10-02): Active advertisers grew +70% YoY in Q2 2026 (earnings call, 2026-07-30), and Reddit Max revenue grew +150% QoQ (call). This metric is not a 10-Q line item.
+   - Next check: Q3 2026 earnings call.
 5. **Other revenue (data licensing), YoY and absolute** — currently $43M per quarter. Renewal outcomes will show up in this line first.
+   - Monitoring id: `google-data-licensing`.
+   - Trigger: Bear: the Google agreement is confirmed not to renew and the company simultaneously discloses a sharp decline in search referrals. Bull: the Google agreement renews on flat or better terms, or a new AI licensing agreement of comparable scale is signed.
+   - Latest reading (Update 2026-10-02): Q2 2026 other revenue was $43.3M (+24% YoY). The Google agreement is known only from media reports: roughly $60M a year, signed February 2024 and expiring H1 2027. The latest report is the WSJ's of 2026-07-22 that Reddit was weighing cutting Google's AI access. There was no company disclosure by 2026-10-02. Separately, media reported on 2026-09-22 that a California judge found Anthropic bound by Reddit's user agreement; the procedural posture is unverified.
+   - Next check: Q3 2026 call and any renewal announcement.
 6. **Adjusted EBITDA margin** — Q3 guided to roughly 45%. If margins retreat while revenue decelerates, operating leverage has topped out.
+   - Monitoring id: `adj-ebitda-margin`.
+   - Trigger: Adjusted EBITDA margin contracts year over year in two consecutive quarters.
+   - Latest reading (Update 2026-10-02): Q2 2026 adjusted EBITDA was $342.8M, a 42.6% margin, against $166.7M (33.4%) in Q2 2025. Q3 guidance is $385-395M (+63% to +67% YoY) on revenue guided +47% to +49%, which implies further year-over-year margin expansion.
+   - Next check: Q3 2026 results (expected late October 2026; date not announced as of 2026-10-02).
 7. **Buyback execution** — the quarterly burn rate against the remaining $760M authorization.
+   - Monitoring id: `buyback-execution`.
+   - Trigger: Net share count rises in both Q3 and Q4 2026, meaning repurchases fail to offset issuance.
+   - Latest reading (Update 2026-10-02): In Q2 2026 the company repurchased 1,488,812 shares for $234.6M (H1: 1,523,502 shares for $239.6M) against about 1.40M shares issued. The net count fell from 192.41M at 2026-03-31 to 192.32M at 2026-06-30, and was 192.40M at 2026-07-29. $760.4M of authorization remained at 2026-06-30 (Q2 2026 10-Q).
+   - Next check: Q3 2026 10-Q.
 
 ## 10. Conclusion <!-- report-module:conclusion -->
 
 **The question this report answers:** when AI answer engines begin substituting for search clicks, is the business model of a content platform that acquires users through search referrals, monetizes through advertising, and licenses its corpus to AI labs being eroded or re-rated? Reddit is the purest available sample for this question — it is simultaneously a victim of AI (traffic) and a beneficiary of it (licensing).
 
-**The expectations gap in one sentence:** at $140.67 the market implicitly requires roughly 22% FY2027 revenue growth (on a mature-platform 6x EV/Sales basis); this report's base case is +22% to +28%, landing right at or above that bar — the current price pays for a growth slowdown, but not for a collapse, and not for the international-monetization and AI-licensing-dynamic-pricing options.
+~~**The expectations gap in one sentence:** at $140.67 the market implicitly requires roughly 22% FY2027 revenue growth (on a mature-platform 6x EV/Sales basis); this report's base case is +22% to +28%, landing right at or above that bar — the current price pays for a growth slowdown, but not for a collapse, and not for the international-monetization and AI-licensing-dynamic-pricing options.~~
 
-**Stance and conviction: neutral-to-constructive, low conviction.** Scenario weights of 30/50/20 — bull (cheap) 30%, base (fair) 50%, bear (expensive) 20% — produce a positive weighted skew. Conviction is set at low because the variable that determines that skew, search referral traffic, is the one management itself describes as having "low visibility" with continued volatility expected, and because the most direct public metric for verifying it (the logged-in / logged-out split) is discontinued starting next quarter. **The positive skew comes from valuation arithmetic, not from high confidence in the fundamentals; the two should not be conflated.**
+**Update (2026-10-02) — the expectations gap in one sentence:** at $149.53, earning 8% a year to end-2028 requires 2026-28 revenue growth of about 17% a year at a 14x exit EV/adjusted EBITDA; our base case is 21% and consensus FY2027 is +32%. The price already discounts a deceleration from +61% to the high teens, but not the bear case's single digits.
+
+~~**Stance and conviction: neutral-to-constructive, low conviction.** Scenario weights of 30/50/20 — bull (cheap) 30%, base (fair) 50%, bear (expensive) 20% — produce a positive weighted skew.~~
+
+**Update (2026-10-02) — stance and conviction: constructive, low conviction.**
+- **The grid:** the 30/50/20 grid (bull $286.56 / base $191.88 / bear $92.67) weights to **$200.44 per share, +34.0% against $149.53, or +13.9% annualized** over 2.248 years. That is 5.9 points above the 8% hurdle and 3.9 points above 10%. The skew is positive, +92% in the bull case against -38% in the bear case, and the base case alone earns +11.7% a year. Hence **stance: constructive**.
+- **Why not bullish:** the skew is multiple-fragile. Three turns of exit-multiple compression take the weighted return to +4.5%, slower growth combined with that compression takes it to +0.2%, and a 20/40/40 weighting gives +6.2%.
+- **Why not neutral-watch:** at central assumptions the weighted return clears the hurdle by about 6 points. The base case is set below consensus (FY2027 +25% against +31.8%). The balance sheet holds $14.37 per share of net cash and no debt. A neutral label would describe the uncertainty, not the arithmetic.
+- **Why conviction is low:** the reasons below are unchanged from initiation, and the sensitivity table adds a third. The 2026-08 to 2026-09 price drift (+6.3%) came mainly from S&P 500 inclusion flows, not from new fundamental evidence.
+
+Initiation reasoning on conviction, still valid: conviction is set at low because the variable that determines that skew, search referral traffic, is the one management itself describes as having "low visibility" with continued volatility expected, and because the most direct public metric for verifying it (the logged-in / logged-out split) is discontinued starting next quarter. **The positive skew comes from valuation arithmetic, not from high confidence in the fundamentals; the two should not be conflated.**
 
 One point should be stated plainly: this report does not view the post-print -21% as a mispricing. Q2 did expose a real structural change — the growth engine switched from users to monetization, and monetization has a ceiling. Repricing for that is rational. This report's judgment is narrower: after the repricing, the price is not expensive for the base case.
 
-**Upgrade triggers (toward a more constructive stance):**
-- U.S. DAUq returns to sequential growth for two consecutive quarters in Q3 and Q4 2026; or
-- the Google agreement renews on flat or better terms; or
-- a new AI licensing agreement of comparable scale is signed.
+~~**Upgrade triggers (toward a more constructive stance):**~~
+- ~~U.S. DAUq returns to sequential growth for two consecutive quarters in Q3 and Q4 2026; or~~
+- ~~the Google agreement renews on flat or better terms; or~~
+- ~~a new AI licensing agreement of comparable scale is signed.~~
 
-**Downgrade triggers (toward caution or avoidance):**
-- U.S. DAUq declines sequentially for two consecutive quarters; or
-- U.S. ARPU YoY growth falls below +25%; or
-- Q4 2026 revenue guidance implies less than +35% YoY growth; or
-- the Google agreement is confirmed not to renew and the company simultaneously discloses a sharp decline in search referrals.
+~~**Downgrade triggers (toward caution or avoidance):**~~
+- ~~U.S. DAUq declines sequentially for two consecutive quarters; or~~
+- ~~U.S. ARPU YoY growth falls below +25%; or~~
+- ~~Q4 2026 revenue guidance implies less than +35% YoY growth; or~~
+- ~~the Google agreement is confirmed not to renew and the company simultaneously discloses a sharp decline in search referrals.~~
 
-This is a monitoring perspective, not an allocation recommendation: a beta of 1.94, short interest at 8.83% of shares outstanding, and a 52-week range of $119.27-$282.95 (the high is 2.4x the low) describe an extremely volatile stock, and the next meaningful verification point (Q3 results) is roughly three months away. Any position should sit within a risk budget appropriate to a high-volatility asset, and the Q3 U.S. DAU reading should be treated as a more important signal than the price action.
+**Update (2026-10-02) — upgrade and downgrade triggers (identical clause by clause to `stanceTriggers` in reports.json):**
+
+- **Upgrade to bullish — all of the following:**
+  - U.S. DAUq grows sequentially in both Q3 and Q4 2026.
+  - The Google agreement renews on flat or better terms, or a new AI licensing agreement of comparable scale is signed.
+  - Q3 2026 revenue is at or above the $870M top of guidance.
+- **Downgrade to neutral-watch — any one of the following:**
+  - U.S. DAUq declines sequentially in two consecutive quarters.
+  - U.S. ARPU year-over-year growth falls below +25%.
+  - Q3 2026 revenue below the $860M low end of guidance, or a Q4 2026 revenue guidance midpoint implying less than +35% YoY (below about $979.6M).
+  - The Google agreement is confirmed not to renew and the company simultaneously discloses a sharp decline in search referrals.
+  - Adjusted EBITDA margin contracts year over year in two consecutive quarters.
+
+~~This is a monitoring perspective, not an allocation recommendation: a beta of 1.94, short interest at 8.83% of shares outstanding, and a 52-week range of $119.27-$282.95 (the high is 2.4x the low) describe an extremely volatile stock, and the next meaningful verification point (Q3 results) is roughly three months away.~~ **Update (2026-10-02):** this is a monitoring perspective, not an allocation recommendation. A beta of 2.05, short interest at 10.32% of shares outstanding and a 52-week range of $119.27-$263.50 (the high is 2.2x the low) describe an extremely volatile stock. The next meaningful verification point, Q3 results, is about four weeks away. Any position should sit within a risk budget appropriate to a high-volatility asset, and the Q3 U.S. DAU reading should be treated as a more important signal than the price action.
 
 ## 11. Appendix: Assumptions and Sources <!-- report-module:appendix -->
 
@@ -404,26 +548,29 @@ This is a monitoring perspective, not an allocation recommendation: a beta of 1.
 
 | Item | Nature | Notes |
 |------|--------|-------|
-| Q4 2026 revenue of roughly $975M | **This report's assumption** | Implies +12.7% QoQ, below the +24.1% seasonal step in Q4 2025 — a conservative setting |
-| Q4 2026 adjusted EBITDA of roughly $450M | **This report's assumption** | Implies a margin of roughly 46%, slightly above the roughly 45% guided for Q3 |
+| ~~Q4 2026 revenue of roughly $975M~~ **Update (2026-10-02):** Q4 2026 revenue of roughly $1,017M | **This report's assumption** | ~~Implies +12.7% QoQ~~ Revised: implies +17.5% QoQ and +40.1% YoY, below the +24.1% seasonal step in Q4 2025 and below the roughly $1,057M implied by the $3.39B consensus |
+| ~~Q4 2026 adjusted EBITDA of roughly $450M~~ **Update (2026-10-02):** Q4 2026 adjusted EBITDA of roughly $468M | **This report's assumption** | Implies a margin of roughly 46%, slightly above the roughly 45% guided for Q3 |
 | Q3 net-income conversion of 73.8% | **This report's assumption** | Taken from Q2 actuals (net income $253M ÷ adjusted EBITDA $343M) |
-| Mature-platform 6x EV/Sales | **This report's assumption** | Referenced to Meta's current 6.3x; used for the implied-growth derivation in §8 |
+| Mature-platform 6x EV/Sales | **This report's assumption** | Referenced to Meta's 6.3x at 2026-07-31; used for the one-year implied-growth derivation in §8 (historical frame, re-run 2026-10-02) |
+| Scenario exits of 18x / 14x / 9x FY2028 adjusted EBITDA (Update 2026-10-02) | **This report's assumption** | Today's EV/FY2026E adjusted EBITDA is 17.7x; the implied EV/Sales of 9.0x / 6.6x / 3.6x sits inside the initiation's 7x-9x / 5.5x-7x / 3x-4.5x bands |
+| FCF conversion of 82% / 80% / 75% of adjusted EBITDA (Update 2026-10-02) | **This report's assumption** | H1 2026 free cash flow of $571.9M was 94% of adjusted EBITDA of $609M; Q2 alone was 76%. The lower settings allow for cash taxes rising once the U.S. valuation allowance is released and NOLs are used. The NOL balance was not pulled for this update |
+| Buybacks of 40% of FCF; 6M shares a year of gross issuance (Update 2026-10-02) | **This report's assumption** | Gross issuance was 2.95M shares in H1 2026. Every scenario's buybacks exceed the remaining $760.4M authorization |
 | U.S. / international revenue split | **This report's derivation** | = DAUq × ARPU, both company-disclosed; derived total reconciles to reported revenue within 0.05% |
 | Coupling between the licensing agreement and search distribution | **This report's inference** | No public contract terms support it; an open question, explicitly labeled in §6.2 and §7 |
 | Google agreement at roughly $60M/year, expiring H1 2027 | Media reporting | Not company-disclosed; sources below |
 | All other financial and operating figures | Company disclosure | Earnings releases, earnings call, SEC filings |
 
-**Peer comparison table (repeated for auditability, data as of 2026-07-31):**
+**Peer comparison table (repeated for auditability, data as of 2026-07-31; Update (2026-10-02): Reddit column re-anchored to the 2026-10-01 close, peer columns historical):**
 
 | Metric | Reddit | Pinterest | Snap | Meta |
 |--------|--------|-----------|------|------|
-| Market cap | $27.06B | $13.45B | $7.89B | $1.42T |
-| Enterprise value | $24.30B | — | $9.27B | — |
+| Market cap | ~~$27.06B~~ $28.77B | $13.45B | $7.89B | $1.42T |
+| Enterprise value | ~~$24.30B~~ $26.00B | — | $9.27B | — |
 | TTM revenue | $2.78B | $4.37B | $6.10B | $228.25B |
 | Net margin | 31.35% | 7.64% | -6.72% | 29.84% |
-| P/S | 9.7x | 3.1x | 1.3x | 6.2x |
-| EV/Sales | 8.7x | 3.1x | 1.5x | 6.3x |
-| Forward P/E | 23.7x | 12.7x | 7.3x | 17.3x |
+| P/S | ~~9.7x~~ 10.4x | 3.1x | 1.3x | 6.2x |
+| EV/Sales | ~~8.7x~~ 9.4x | 3.1x | 1.5x | 6.3x |
+| Forward P/E | ~~23.7x~~ 24.8x | 12.7x | 7.3x | 17.3x |
 
 **Sources:**
 
@@ -434,14 +581,40 @@ This is a monitoring perspective, not an allocation recommendation: a beta of 1.
 - Reddit Form 10-Q (period ended 2026-03-31, document `rddt-20260331.htm`): Q1 repurchases of 34,690 shares / $5.0M, with $995.0M remaining.
 - Reddit Form DEF 14A (filed 2026-04-23, document `rddt-20260423.htm`): Advance Magazine Publishers' holdings (16,182 Class A + 42,191,092 Class B, roughly 22% of combined Class A and B, as of 2026-03-31); Huffman's approximately 70.7% of total voting power; the dual-class structure and the Advance voting agreement.
 - Annual and quarterly financial series (FY2022-FY2025, TTM, and the last five quarters of revenue / earnings / SBC / cash flow / balance sheet): stockanalysis.com Reddit financial statement pages (`stockanalysis.com/stocks/rddt/`), retrieved 2026-07-31.
-- Market data (share price $140.67, prior close $178.04, market cap, enterprise value, 192.40M shares outstanding, 52-week range, multiples, beta, short interest, net cash per share, free cash flow per share): stockanalysis.com, 2026-07-31 close.
+- Historical anchor market data (share price $140.67, prior close $178.04, market cap, enterprise value, 192.40M shares outstanding, 52-week range, multiples, beta, short interest, net cash per share, free cash flow per share): stockanalysis.com, 2026-07-31 close.
 - Peer multiples (Meta, Pinterest, Snap): stockanalysis.com company statistics pages, 2026-07-31.
 - The Google data-licensing agreement (roughly $60M/year, signed February 2024, expiring H1 2027, renewal talks ongoing, Reddit reported to be weighing tighter structured AI data access): multiple financial media reports (Bloomberg, 2025-09-17, on Reddit seeking its next AI content pact, and follow-up reporting in July 2026 on the renewal negotiations). **Media reporting, not company disclosure.**
 - Post-print sell-side target changes (Cantor $170, Deutsche Bank $200, Oppenheimer $200, Wedbush $221): TipRanks and Benzinga compilations, 2026-07-31. **Market-sentiment reference only.**
+- **Added 2026-10-02:**
+  - **Reddit Form 10-Q for the period ended 2026-06-30** (filed 2026-07-31, document `rddt-20260630.htm`), retrieved from SEC EDGAR. It supports:
+    - the cover share count (146,103,200 Class A + 46,293,310 Class B at 2026-07-29);
+    - the balance sheet (cash $1,486.8M, marketable securities $1,299.5M);
+    - operating expenses, SBC, and the option and RSU tables;
+    - repurchases (1,523,502 shares / $239.6M in H1; $760.4M remaining);
+    - the equity rollforward, the tax note (Note 12) and the securities class action (Note 9).
+  - **Reddit Form 8-K filed 2026-08-12** (`rddt-20260812.htm`): the Chief Legal Officer transition.
+  - **Forms 3 and 4 filed 2026-08-06 to 2026-10-01:** insider transactions.
+  - **S&P Dow Jones Indices press release, 2026-08-13:** "Reddit Set to Join S&P 500".
+  - **Price data:** Nasdaq historical quotes (`api.nasdaq.com`, RDDT, 2026-07-27 to 2026-10-01), cross-checked with the CNBC quote service (2026-10-01 close $149.53; 52-week high $263.50 on 2026-01-09; low $119.27 on 2026-03-30).
+  - **stockanalysis.com statistics and forecast pages, retrieved 2026-10-02:** market cap, EV, multiples, beta, short interest, the S&P Global consensus (FY2026 revenue $3.39B and non-GAAP EPS $7.68; FY2027 $4.46B and $9.69), and the target-price distribution.
+  - **Reddit v. Anthropic ruling:** Yahoo Finance and other media, 2026-09-22. **Media reporting; the procedural posture is unverified.**
+  - **Google renewal talks:** CNBC, 2026-07-22, citing the WSJ. **Media reporting.**
 
 **Caliber notes and limitations:**
 
-1. This report's price anchor is the **2026-07-31 (Friday) closing price of $140.67**, a completed-session close rather than an intraday snapshot. The publication date of 2026-08-01 is a Saturday, with no new trading data.
-2. This report was unable to read the Q2 2026 SEC Form 10-Q directly (the SEC website returned access restrictions during this work), so the Q2 operating-expense detail (research and development, sales and marketing, and general and administrative line items) is missing. The financial analysis is therefore based on aggregate revenue, gross profit, operating income, net income, cash flow, and balance-sheet measures. This is a known data gap in this report.
-3. Two market-cap conventions exist: $27.06B on 192.40M shares outstanding, and roughly $28.6B on approximately 203M TTM diluted shares. All multiples in this report use the former; readers comparing against third-party diluted-basis data should note the difference.
-4. This is an initial coverage report; no prior-cycle version exists for comparison.
+1. ~~This report's price anchor is the **2026-07-31 (Friday) closing price of $140.67**, a completed-session close rather than an intraday snapshot. The publication date of 2026-08-01 is a Saturday, with no new trading data.~~ **Update (2026-10-02):** the price anchor is the **2026-10-01 (Thursday) regular-session close of $149.53**. This update was written on 2026-10-02 before that day's U.S. session closed.
+2. ~~This report was unable to read the Q2 2026 SEC Form 10-Q directly (the SEC website returned access restrictions during this work), so the Q2 operating-expense detail (research and development, sales and marketing, and general and administrative line items) is missing. The financial analysis is therefore based on aggregate revenue, gross profit, operating income, net income, cash flow, and balance-sheet measures. This is a known data gap in this report.~~ **Update (2026-10-02):** the Q2 2026 10-Q has now been read from SEC EDGAR. Q2 costs and expenses were:
+   - research and development $231.3M (28.7% of revenue);
+   - sales and marketing $195.9M (24.3%);
+   - general and administrative $75.7M (9.4%);
+   - cost of revenue $70.3M.
+
+   SBC in those lines was $65.9M, $12.1M, $22.8M and $0.3M respectively. Other income of $25.1M, mainly interest, and tax expense of $4.0M bridge Q2 operating income of $231.7M to net income of $252.8M.
+3. ~~Two market-cap conventions exist: $27.06B on 192.40M shares outstanding, and roughly $28.6B on approximately 203M TTM diluted shares. All multiples in this report use the former; readers comparing against third-party diluted-basis data should note the difference.~~ **Update (2026-10-02):** two market-cap conventions exist at $149.53: $28.77B on 192.40M shares outstanding, and $30.21B on 202.03M Q2 2026 diluted weighted-average shares. All multiples use the former, and the §8 grid carries dilution explicitly through gross issuance.
+4. This is an initial coverage report; no prior-cycle version exists for comparison. **Update (2026-10-02):** this incremental update adds the formal stance (constructive, low conviction), the re-anchored scenario grid, the sensitivity and reverse tests, and the monitoring links. It is a stance backfill on the initiation, not a new research cycle.
+5. **Data gaps (Update 2026-10-02):**
+   - Q3 2026 buyback pace and share count are unknown until the Q3 10-Q.
+   - The NOL balance and the cash-tax path after a valuation-allowance release were not pulled; the FCF-conversion settings are assumptions.
+   - Peer multiples are not refreshed beyond 2026-07-31.
+   - Third-party traffic data (e.g., Similarweb) for August-September 2026 was not verified, so no traffic reading is used.
+   - The Anthropic ruling is known only from media reports.
