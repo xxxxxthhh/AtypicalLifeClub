@@ -54,8 +54,11 @@
         };
     }
 
+    // Every current report is eligible, chain or not: non-chain reports carry a
+    // price anchor and (since 2026-10) a stance, so they go stale the same way.
+    // Archived versions (isCurrent === false) never re-enter the queue.
     function isRerunCandidate(report, priceEntry, today = currentUtcDay()) {
-        if (!report || !report.chainLayer) return false;
+        if (!report || report.isCurrent === false) return false;
         return Boolean(buildRerunItem(report, priceEntry, today)?.isCandidate);
     }
 

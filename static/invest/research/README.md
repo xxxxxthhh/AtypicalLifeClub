@@ -49,7 +49,7 @@ static/invest/research/
 - **全部研究 / All research**：全部当前版本。
 - **产业链研究 / Chain book**：存在 `chainLayer` 的当前报告。
 - **研究资料库 / Research library**：没有 `chainLayer` 的当前报告，包括只承担基准或一般资料用途的报告。
-- **待复核 / Review candidates**：只包含存在 `chainLayer` 且 `ResearchTracking.isRerunCandidate(...)` 为 `true` 的当前报告，即 `ageDays > 60` 或存在可用价格且 `abs(changePct) >= 25`。价格文件尚未加载或加载失败时，首页待复核数量为 `0`；缺失价格仍会在监控队列中作为独立状态处理，但不会仅因缺价进入首页的待复核集合。
+- **待复核 / Review candidates**：包含所有当前报告（链内与非链一视同仁，2026-10 起；`isCurrent: false` 的归档版本除外）中 `ResearchTracking.isRerunCandidate(...)` 为 `true` 者，即 `ageDays > 60` 或存在可用价格且 `abs(changePct) >= 25`。价格文件尚未加载或加载失败时，首页待复核数量为 `0`；缺失价格仍会在监控队列中作为独立状态处理，但不会仅因缺价进入首页的待复核集合。
 
 集合、主题、代码首字母和搜索条件按 **AND** 组合；搜索范围为 `ticker`、`company`、中英文标题和 `id`。启用代码首字母筛选时，结果会按 ticker 重新排序。这些筛选只保存在当前页面内，刷新后回到默认的“全部研究”。
 

@@ -1215,6 +1215,7 @@
         const state = {
             layers: [],
             chainReports: [],
+            currentReports: [],
             crossChecks: [],
             signals: [],
             pricesByReportId: new Map(),
@@ -1254,9 +1255,9 @@
                 state.signals = (Array.isArray(signals) ? signals : [])
                     .slice()
                     .sort((a, b) => parseReportDate(b.date) - parseReportDate(a.date));
-                state.chainReports = (Array.isArray(reports) ? reports : [])
-                    .filter(isCurrentReport)
-                    .filter((r) => r.chainLayer);
+                state.currentReports = (Array.isArray(reports) ? reports : [])
+                    .filter(isCurrentReport);
+                state.chainReports = state.currentReports.filter((r) => r.chainLayer);
                 state.pricesByReportId = indexPriceEntries(prices);
                 state.loadFailed = false;
             } catch (error) {
@@ -1265,6 +1266,7 @@
                 state.crossChecks = [];
                 state.signals = [];
                 state.chainReports = [];
+                state.currentReports = [];
                 state.pricesByReportId = new Map();
                 state.loadFailed = true;
             }
@@ -1358,7 +1360,7 @@
                 const items = Array.isArray(report.monitoring) ? report.monitoring : [];
                 return sum + items.length;
             }, 0);
-            const rerunCount = state.chainReports
+            const rerunCount = state.currentReports
                 .map(rerunItem)
                 .filter((item) => item && item.isCandidate)
                 .length;
@@ -1875,7 +1877,7 @@
             const labels = getLabels();
             if (!root) return;
 
-            const items = state.chainReports
+            const items = state.currentReports
                 .map(rerunItem)
                 .filter((item) => item && item.shouldList)
                 .sort((a, b) => {

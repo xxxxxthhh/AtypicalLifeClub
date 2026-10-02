@@ -7,15 +7,31 @@ await import('./tracking-rules.js');
 const { isRerunCandidate, buildTriggerWatchRows } = window.ResearchTracking;
 const today = new Date(Date.UTC(2026, 3, 15));
 
-test('excludes a stale report without a chain layer from review candidates', () => {
+test('includes a stale report without a chain layer in review candidates', () => {
     const report = { priceAsOf: '2026-01-01' };
+    assert.equal(isRerunCandidate(report, null, today), true);
+});
+
+test('includes a high-drift report without a chain layer in review candidates', () => {
+    const report = { priceAsOf: '2026-04-01' };
+    const priceEntry = { status: 'ok', changePct: 30 };
+    assert.equal(isRerunCandidate(report, priceEntry, today), true);
+});
+
+test('excludes a fresh, low-drift report without a chain layer', () => {
+    const report = { priceAsOf: '2026-04-01' };
+    const priceEntry = { status: 'ok', changePct: 10 };
+    assert.equal(isRerunCandidate(report, priceEntry, today), false);
+});
+
+test('excludes archived reports even when stale', () => {
+    const report = { isCurrent: false, chainLayer: 'P2', priceAsOf: '2026-01-01' };
     assert.equal(isRerunCandidate(report, null, today), false);
 });
 
-test('excludes a high-drift report without a chain layer from review candidates', () => {
-    const report = { priceAsOf: '2026-04-01' };
-    const priceEntry = { status: 'ok', changePct: 30 };
-    assert.equal(isRerunCandidate(report, priceEntry, today), false);
+test('excludes a report without a price anchor', () => {
+    const report = { chainLayer: 'P2' };
+    assert.equal(isRerunCandidate(report, null, today), false);
 });
 
 test('includes a stale chain report in review candidates', () => {
