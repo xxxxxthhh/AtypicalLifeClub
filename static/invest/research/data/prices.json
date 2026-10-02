@@ -354,11 +354,11 @@
       "symbol": "SPOT",
       "status": "ok",
       "attemptedAt": "2026-10-01",
-      "baseDate": "2026-08-05",
-      "basePrice": 482.23,
+      "baseDate": "2026-10-01",
+      "basePrice": 491.4,
       "lastDate": "2026-10-01",
       "lastClose": 491.4,
-      "changePct": 1.9,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
