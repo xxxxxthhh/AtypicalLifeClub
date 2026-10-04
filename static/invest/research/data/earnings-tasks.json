@@ -1,9 +1,50 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T22:59:14Z",
+  "generatedAt": "2026-10-04T22:17:05Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-10-03T22:59:14Z"
+    "value": "2026-10-04T22:17:05Z"
   },
-  "tasks": []
+  "tasks": [
+    {
+      "id": "earnings:asml-2026:2026-10-14:complete-date",
+      "reportId": "asml-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-10-14",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:innolight-2026:2026-10:complete-date",
+      "reportId": "innolight-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-10",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:jinpan-2026:2026-10:complete-date",
+      "reportId": "jinpan-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-10",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:minimax-2026:2027-03:complete-date",
+      "reportId": "minimax-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2027-03",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:sk-hynix-2026:2026-10-27:verify",
+      "reportId": "sk-hynix-2026",
+      "type": "source-verification",
+      "window": "verify",
+      "expectedDate": "2026-10-27",
+      "reason": "Confirm the recorded date on issuer IR."
+    }
+  ]
 }
