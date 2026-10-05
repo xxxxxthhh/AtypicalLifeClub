@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-02",
+  "asOf": "2026-10-05",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -350,13 +350,13 @@
       "reportId": "jinpan-2026",
       "company": "金盘科技",
       "timezone": "Asia/Shanghai",
-      "expectedDate": "2026-10",
-      "precision": "month",
+      "expectedDate": "2026-10-14",
+      "precision": "day",
       "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
+      "session": "unspecified",
+      "sourceUrl": "https://sns.sseinfo.com/company.do?uid=195867",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-09-14"
+      "verifiedAt": "2026-10-05"
     },
     {
       "reportId": "paypal-2026",
