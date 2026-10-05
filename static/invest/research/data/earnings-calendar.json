@@ -6,13 +6,13 @@
     {
       "reportId": "reddit-2026",
       "company": "Reddit",
-      "expectedDate": null,
-      "precision": "unknown",
-      "status": "unknown",
-      "session": "not-applicable",
-      "sourceUrl": null,
-      "sourceType": "none",
-      "verifiedAt": "2026-08-19"
+      "expectedDate": "2026-11-04",
+      "precision": "day",
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://www.tipranks.com/stocks/mx:rddt/earnings",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-10-05"
     },
     {
       "reportId": "asml-2026",
@@ -29,13 +29,13 @@
     {
       "reportId": "applied-materials-2026",
       "company": "Applied Materials",
-      "expectedDate": "2026-08-13",
+      "expectedDate": "2026-11-13",
       "precision": "day",
-      "status": "stale",
-      "session": "after-close",
-      "sourceUrl": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-report-fiscal-third-quarter-2026-results-aug",
-      "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-24"
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://uk.marketscreener.com/quote/stock/APPLIED-MATERIALS-INC-4850/calendar/",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-10-05"
     },
     {
       "reportId": "lam-research-2026",
@@ -62,13 +62,13 @@
     {
       "reportId": "synopsys-2026",
       "company": "Synopsys",
-      "expectedDate": "2026-08-26",
+      "expectedDate": "2026-12-09",
       "precision": "day",
-      "status": "stale",
-      "session": "after-close",
-      "sourceUrl": "https://investor.synopsys.com/news/news-details/2026/Synopsys-Announces-Earnings-Release-Date-for-Third-Quarter-Fiscal-Year-2026/default.aspx",
-      "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-10"
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/SNPS/earnings/",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-10-05"
     },
     {
       "reportId": "cadence-2026",
@@ -95,24 +95,24 @@
     {
       "reportId": "eqix-2026",
       "company": "Equinix",
-      "expectedDate": "2026-11-04",
+      "expectedDate": "2026-10-28",
       "precision": "day",
-      "status": "estimated",
-      "session": "unspecified",
-      "sourceUrl": "https://www.investing.com/equities/equinix,-inc.-earnings",
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-09-08"
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://newsroom.equinix.com/2026-10-01-MEDIA-ALERT-Equinix-Sets-Conference-Call-for-Third-Quarter-Results",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-10-05"
     },
     {
       "reportId": "nebius-2026",
       "company": "Nebius Group",
-      "expectedDate": "2026-08-12",
+      "expectedDate": "2026-11-11",
       "precision": "day",
-      "status": "stale",
-      "session": "before-open",
-      "sourceUrl": "https://nebius.com/newsroom/nebius-group-announces-date-of-second-quarter-2026-results-and-conference-call",
-      "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-24"
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://altindex.com/earnings-calendar/nbis",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-10-05"
     },
     {
       "reportId": "arista-2026",
@@ -194,13 +194,13 @@
     {
       "reportId": "sandisk-2026",
       "company": "SanDisk",
-      "expectedDate": "2026-08-05",
+      "expectedDate": "2026-10-29",
       "precision": "day",
-      "status": "stale",
-      "session": "unspecified",
-      "sourceUrl": null,
-      "sourceType": "report-body",
-      "verifiedAt": "2026-08-24"
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://investor.sandisk.com/news-releases/news-release-details/sandisk-report-first-quarter-fiscal-year-2027-results-october-29",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-10-05"
     },
     {
       "reportId": "tempus-ai-2026",
@@ -239,13 +239,13 @@
     {
       "reportId": "airbnb-2026",
       "company": "Airbnb",
-      "expectedDate": "2026-11-04",
+      "expectedDate": "2026-11-05",
       "precision": "day",
-      "status": "estimated",
-      "session": "unspecified",
-      "sourceUrl": "https://www.tipranks.com/stocks/abnb/earnings",
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-09-08"
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/airbnb-to-announce-third-quarter-2026-results-302895691.html",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-10-05"
     },
     {
       "reportId": "hims-2026",
@@ -272,13 +272,13 @@
     {
       "reportId": "salesforce-2026",
       "company": "Salesforce",
-      "expectedDate": "2026-08-26",
+      "expectedDate": "2026-12-02",
       "precision": "day",
-      "status": "stale",
-      "session": "after-close",
-      "sourceUrl": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-Second-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/default.aspx",
-      "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-22"
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://ca.marketscreener.com/quote/stock/SALESFORCE-INC-111963985/calendar/",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-10-05"
     },
     {
       "reportId": "coinbase-2026",
@@ -372,13 +372,13 @@
     {
       "reportId": "oklo-2026",
       "company": "Oklo Inc.",
-      "expectedDate": null,
-      "precision": "unknown",
-      "status": "unknown",
-      "session": "not-applicable",
-      "sourceUrl": null,
-      "sourceType": "none",
-      "verifiedAt": "2026-08-19"
+      "expectedDate": "2026-11-06",
+      "precision": "day",
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://finance.yahoo.com/news/oklo-oklo-drops-11-ahead-151116189.html",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-10-05"
     },
     {
       "reportId": "broadcom-2026",
@@ -406,13 +406,13 @@
     {
       "reportId": "micron-2026",
       "company": "Micron Technology",
-      "expectedDate": "2026-09-30",
+      "expectedDate": "2026-12-17",
       "precision": "day",
-      "status": "issuer-confirmed",
-      "session": "after-close",
-      "sourceUrl": "https://investors.micron.com/news/press-release/2026/Micron-Technology-to-Report-Fiscal-Fourth-Quarter-Results-on-September-30-2026/default.aspx",
-      "sourceType": "issuer-ir",
-      "verifiedAt": "2026-09-01"
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://www.webull.com/news/14004406416548864",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-10-05"
     },
     {
       "reportId": "constellation-energy-2026",
@@ -428,13 +428,13 @@
     {
       "reportId": "vistra-2026",
       "company": "Vistra",
-      "expectedDate": "2026-08",
-      "precision": "month",
+      "expectedDate": "2026-11-06",
+      "precision": "day",
       "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
+      "session": "unspecified",
+      "sourceUrl": "https://www.miningstockeducation.com/2026/09/vistra-to-report-third-quarter-results-on-nov-6-2026/",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-10-05"
     },
     {
       "reportId": "quanta-services-2026",
@@ -494,13 +494,13 @@
     {
       "reportId": "marvell-2026",
       "company": "Marvell Technology",
-      "expectedDate": "2026-08-27",
+      "expectedDate": "2026-12-02",
       "precision": "day",
-      "status": "stale",
-      "session": "after-close",
-      "sourceUrl": "https://investor.marvell.com/news-events/press-releases/detail/1029/marvell-technology-inc-announces-conference-call-to-review-second-quarter-of-fiscal-year-2027-financial-results-announces-investor-day-on-october-6-2026",
-      "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-10"
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://www.ajbell.co.uk/market-research/sub/NASDAQ:MRVL/company-info",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-10-05"
     },
     {
       "reportId": "coherent-2026",
@@ -516,13 +516,13 @@
     {
       "reportId": "digital-realty-2026",
       "company": "Digital Realty",
-      "expectedDate": "2026-10-22",
+      "expectedDate": "2026-10-29",
       "precision": "day",
-      "status": "estimated",
-      "session": "unspecified",
-      "sourceUrl": "https://www.tipranks.com/stocks/dlr/earnings",
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-09-08"
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://digitalrealtytrust.gcs-web.com/news-releases/news-release-details/digital-realty-schedules-third-quarter-2026-earnings-release-and",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-10-05"
     },
     {
       "reportId": "minimax-2026",
@@ -550,13 +550,13 @@
     {
       "reportId": "mp-2026",
       "company": "MP Materials",
-      "expectedDate": "2026-08-06",
+      "expectedDate": "2026-11-05",
       "precision": "day",
-      "status": "stale",
-      "session": "after-close",
-      "sourceUrl": "https://investors.mpmaterials.com/investor-news/news-details/2026/MP-Materials-Announces-Date-for-Second-Quarter-2026-Financial-Results-and-Webcast/default.aspx",
-      "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-24"
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://bullstory.io/en/stocks/mp/earnings/2026-q3",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-10-05"
     },
     {
       "reportId": "alab-2026",
