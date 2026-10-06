@@ -15,14 +15,6 @@
       "reason": "Replace the estimate with an issuer-sourced day."
     },
     {
-      "id": "earnings:airbnb-2026:2026-11-04:complete-date",
-      "reportId": "airbnb-2026",
-      "type": "date-completion",
-      "window": "complete-date",
-      "expectedDate": "2026-11-04",
-      "reason": "Replace the estimate with an issuer-sourced day."
-    },
-    {
       "id": "earnings:alab-2026:2026-11-10:complete-date",
       "reportId": "alab-2026",
       "type": "date-completion",
@@ -175,19 +167,11 @@
       "reason": "Replace the estimate with an issuer-sourced day."
     },
     {
-      "id": "earnings:digital-realty-2026:2026-10-22:complete-date",
-      "reportId": "digital-realty-2026",
-      "type": "date-completion",
-      "window": "complete-date",
-      "expectedDate": "2026-10-22",
-      "reason": "Replace the estimate with an issuer-sourced day."
-    },
-    {
-      "id": "earnings:eqix-2026:2026-11-04:complete-date",
+      "id": "earnings:eqix-2026:2026-10-28:complete-date",
       "reportId": "eqix-2026",
       "type": "date-completion",
       "window": "complete-date",
-      "expectedDate": "2026-11-04",
+      "expectedDate": "2026-10-28",
       "reason": "Replace the estimate with an issuer-sourced day."
     },
     {
@@ -343,12 +327,12 @@
       "reason": "Earnings date has passed; roll the entry to the next cycle."
     },
     {
-      "id": "earnings:sandisk-2026:2026-08-05:stale",
+      "id": "earnings:sandisk-2026:2026-10-29:complete-date",
       "reportId": "sandisk-2026",
-      "type": "calendar-maintenance",
-      "window": "stale",
-      "expectedDate": "2026-08-05",
-      "reason": "Earnings date has passed; roll the entry to the next cycle."
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-10-29",
+      "reason": "Replace the estimate with an issuer-sourced day."
     },
     {
       "id": "earnings:seagate-2026:2026-10:complete-date",
