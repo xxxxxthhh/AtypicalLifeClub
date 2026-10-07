@@ -1,5 +1,31 @@
 [
   {
+    "id": "constellation-amazon-calvert-cliffs-ppa-2026-09-30",
+    "date": "2026-09-30",
+    "title": {
+      "zh": "Amazon 与 Constellation 签署 Calvert Cliffs 20 年期 690MW 协议，包含约 190MW 扩容目标",
+      "en": "Amazon and Constellation sign a 20-year 690 MW Calvert Cliffs agreement including an approximately 190 MW uprate target"
+    },
+    "detail": {
+      "zh": "Constellation 2026-09-30 发行人公告（https://www.constellationenergy.com/news/2026/09/constellation-and-amazon-announce-20-year-power-purchase-agreement-at-calvert-cliffs.html）：20 年期协议覆盖 Calvert Cliffs 690MW 电力，包括预计 2030-2032 年投运的约 190MW 扩容；另有服务 Amazon 在 PJM 运营的零售供电协议。公司称将带动逾 $30 亿基础设施投资；全部发电量继续流入 PJM。价格未披露，扩容尚未建成，投资不是已发生支出；不能把全部 690MW 都算作新增容量，也不推断其余 500MW 的来源。事件日为 09-30，记录日为 2026-10-07。仅对应 merchant-power-capacity 的核电 PPA 前提；不证明燃气容量、容量价格或零售利润率一腿，也不确认整个规则结论。",
+      "en": "Constellation issuer release dated 2026-09-30 (https://www.constellationenergy.com/news/2026/09/constellation-and-amazon-announce-20-year-power-purchase-agreement-at-calvert-cliffs.html): the 20-year agreement covers 690 MW of Calvert Cliffs power, including an approximately 190 MW uprate expected online in 2030-2032, plus a related retail agreement for Amazon operations in PJM. The company says it enables more than $3 billion of infrastructure investment; all generation continues flowing to PJM. Prices are undisclosed, the uprate is not built and investment is not executed spend. The full 690 MW is not new capacity; no origin is inferred for the remaining 500 MW. Event date: September 30; logged October 7. Only the nuclear-PPA premise is supported, not the gas-capacity, capacity-price or retail-margin leg or the full rule conclusion."
+    },
+    "crossChecks": [
+      "merchant-power-capacity"
+    ],
+    "tickers": [
+      "CEG",
+      "AMZN"
+    ],
+    "reportIds": [
+      "constellation-energy-2026"
+    ],
+    "monitoringRefs": [
+      "constellation-energy-2026:nuclear-ppa-execution",
+      "constellation-energy-2026:debt-capex-discipline"
+    ]
+  },
+  {
     "id": "constellation-google-nuclear-uprate-ppa-2026-10-06",
     "date": "2026-10-06",
     "title": {
