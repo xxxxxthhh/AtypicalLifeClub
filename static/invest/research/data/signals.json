@@ -1,5 +1,31 @@
 [
   {
+    "id": "constellation-google-nuclear-uprate-ppa-2026-10-06",
+    "date": "2026-10-06",
+    "title": {
+      "zh": "Google 与 Constellation 签署核电扩容 PPA：目标新增 890MW，另约定既有机组 2,700MW 供电",
+      "en": "Google and Constellation sign nuclear-uprate PPA targeting 890 MW of new capacity and a separate 2,700 MW existing-fleet supply deal"
+    },
+    "detail": {
+      "zh": "Constellation 2026-10-06 发行人公告（https://www.constellationenergy.com/news/2026/10/google-and-constellation-announce-landmark-agreement-to-bring-890-mw-of-new-nuclear-capacity-to-pjm-grid.html）：20 年期 PPA 支持六个厂址的 11 台机组扩容，目标为 PJM 新增 890MW，首个扩容预计到 2028 年交付；公司宣布逾 $43 亿新增投资计划。另有 15 年期、2,700MW 的既有 PJM 机组供电协议。公告未披露价格；目标容量尚未建成，投资计划不是已发生支出，既有机组供电不是新增容量。该证据仅对应 merchant-power-capacity 的核电 PPA 前提，不证明燃气容量、容量价格或零售利润率是否同步确认，也不确认整个规则的结论。",
+      "en": "Constellation issuer release dated 2026-10-06 (https://www.constellationenergy.com/news/2026/10/google-and-constellation-announce-landmark-agreement-to-bring-890-mw-of-new-nuclear-capacity-to-pjm-grid.html): a 20-year PPA supports uprates at 11 units across six sites, targeting 890 MW of new PJM capacity with the first uprate expected by 2028 and more than $4.3 billion of planned investment. A separate 15-year agreement covers 2,700 MW from the existing PJM fleet. Prices are undisclosed. Target capacity is not yet built; planned investment is not executed spend, and existing-fleet supply is not new capacity. This evidence addresses only the nuclear-PPA premise of merchant-power-capacity; it establishes neither the gas-capacity, capacity-price or retail-margin leg nor the full rule conclusion."
+    },
+    "crossChecks": [
+      "merchant-power-capacity"
+    ],
+    "tickers": [
+      "CEG",
+      "GOOG"
+    ],
+    "reportIds": [
+      "constellation-energy-2026"
+    ],
+    "monitoringRefs": [
+      "constellation-energy-2026:nuclear-ppa-execution",
+      "constellation-energy-2026:debt-capex-discipline"
+    ]
+  },
+  {
     "id": "synopsys-amazon-aoip-agreement-2026-09-30",
     "date": "2026-09-30",
     "title": {
