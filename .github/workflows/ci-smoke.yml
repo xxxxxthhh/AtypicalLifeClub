@@ -30,6 +30,12 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Test safe data publication with real Git races
+        run: python3 -m unittest discover -s scripts/tests -p "test_*.py"
+
+      - name: Run metals Python unit tests
+        run: python3 -m unittest discover -s static/invest/metals -p "test_*.py"
+
       - name: Run research Python unit tests
         run: python3 -m unittest discover -s static/invest/research -p "test_*.py"
 

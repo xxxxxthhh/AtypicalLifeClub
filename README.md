@@ -142,7 +142,7 @@ cover:
 ### 金属看板脚本
 
 ```bash
-python3 static/invest/metals/update_data.py      # 日更，upsert 当天数据
+python3 static/invest/metals/update_data.py      # 日更，upsert 最近 5 个交易日，补回短期中断
 python3 static/invest/metals/validate_data.py    # 校验（失败则不要提交）
 python3 static/invest/metals/fetch_historical.py # 重建历史（谨慎，会覆盖）
 ```
@@ -168,6 +168,8 @@ python3 static/invest/currency/validate_data.py
 
 ```bash
 # 单元测试
+python3 -m unittest discover -s scripts/tests -p "test_*.py"
+python3 -m unittest discover -s static/invest/metals -p "test_*.py"
 python3 -m unittest discover -s static/invest/research -p "test_*.py"
 node --test static/invest/research/reports/report-module-parser.test.mjs \
              static/invest/research/test_tracking_rules.mjs
@@ -203,6 +205,21 @@ hugo --minify
 | `update-research-prices.yml` | 每天 22:00 UTC + 手动 | 拉价格 → 生成财报待办、判断台账、校准历史 → 严格校验后提交 |
 
 `update-research-prices.yml` 定在 22:00 UTC 是因为要等美股、首尔、上海、香港全部收盘；`update_prices.py` 另外按各市场本地收盘时间过滤日线，避免把盘中报价写成收盘价。改动排期前请先读该工作流里的注释。
+
+### 数据更新的并发与失败恢复
+
+三条数据工作流使用同一条分支级队列（`data-writers-${{ github.ref }}`）。`queue: max` 保留最多 100 个等待任务，不会用新任务替换另一个模块的待运行更新；正在运行的任务也不会被取消。[GitHub 并发队列说明](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/control-workflow-concurrency)
+
+`scripts/publish_data.py` 在临时 worktree 中从远端最新分支重新生成并校验数据，只提交该工作流明确列出的文件。若人工提交或其他写入让普通 push 被拒绝，会丢弃这次候选提交，从最新远端重新生成并重新校验，最多尝试 4 次（退避 2、4、6 秒）。它不会 force push，不会覆盖调用者的工作区，也不会拿旧 JSON 强行解决冲突。每次成功后还会确认远端包含提交。
+
+权限问题、分支规则拒绝、数据校验失败、异常文件改动或重试耗尽都会让工作流明确失败。金属更新会补写行情源返回的最近 5 个交易日，保留实际日期，不为休市日虚构记录；任一标的获取失败时不写入部分更新，也不把失败伪装成无需更新。超过这个窗口的历史缺口需单独检查。该机制解决分支竞争，并不保证行情源、GitHub 或部署服务永不故障。每条数据任务有 30 分钟超时。
+
+恢复流程：
+
+1. 先检查失败日志及对应数据的最新日期，区分行情获取失败与提交失败
+2. 在修复已合入目标分支后，从 Actions 中选择对应的 Update 工作流，使用 **Run workflow** 指定最新分支；不要依赖修复前旧任务的 **Re-run jobs**
+3. 确认工作流日志包含 `Published and verified`（或数据确实无需变化），检查远端 JSON 的 `last_updated` 和各标的日期
+4. 检查 Cloudflare Pages 的构建和线上数据；推送成功本身不代表部署完成
 
 ## 📚 维护文档索引
 
