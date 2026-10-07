@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Daily update script for Metals module.
-Fetches latest prices and appends to historical.json.
+Fetches the latest five trading days and upserts them into historical.json.
 Designed to be run by GitHub Actions daily.
 """
 
@@ -64,26 +64,33 @@ def normalize_record(record):
     }
 
 
-def fetch_latest(symbol):
-    """Fetch the most recent trading day's close."""
+def fetch_recent(symbol):
+    """Return usable source-dated bars, including days missed by a failed push.
+
+    Keep the existing five-trading-day window and source dates. Do not invent
+    records for weekends/holidays or relabel an older quote as today's price.
+    """
     try:
         ticker = yf.Ticker(symbol)
         df = ticker.history(period="5d", interval="1d")
         if df.empty:
-            return None
-        last = df.iloc[-1]
-        close = last["Close"]
-        if not is_finite_number(close):
-            print(f"  - {symbol}: skipped non-finite close")
-            return None
-        return {
-            "date": last.name.strftime("%Y-%m-%d"),
-            "close": round(float(close), 4),
-            "volume": normalize_volume(last["Volume"] if "Volume" in last else 0),
-        }
+            return []
+        records = []
+        for index, row in df.iterrows():
+            record = normalize_record({
+                "date": index.strftime("%Y-%m-%d"),
+                "close": row["Close"],
+                "volume": row.get("Volume", 0),
+            })
+            if record is None:
+                # A partial/invalid window must not masquerade as a full refresh.
+                print(f"  - {symbol}: rejected non-finite close")
+                return []
+            records.append(record)
+        return records
     except Exception as e:
         print(f"  ✗ {symbol}: {e}")
-        return None
+        return []
 
 
 def upsert_record(history_list, record):
@@ -139,25 +146,31 @@ def main():
     today = datetime.now().strftime("%Y-%m-%d")
     print(f"Fetching latest data ({today})\n")
 
-    metals_symbols = list(data["metadata"]["metals"].keys())
-    etf_symbols = list(data["metadata"]["etfs"].keys())
     changed = False
+    fetched = []
+    failed = []
+    for section in ("metals", "etfs"):
+        for symbol in data["metadata"][section]:
+            records = fetch_recent(symbol)
+            if not records:
+                failed.append(symbol)
+                continue
+            fetched.append((section, symbol, records))
 
-    # Update metals
-    for symbol in metals_symbols:
-        record = fetch_latest(symbol)
-        if record:
-            result = upsert_record(data["metals"][symbol], record)
-            changed = changed or result in {"added", "updated"}
-            print(f"  ✓ {symbol}: {record['close']} ({result})")
+    # Do not publish a partly refreshed snapshot as a successful daily update.
+    # An old source date on a market holiday is fine; a failed fetch is not.
+    if failed:
+        print("\nERROR: No complete usable source window for: " + ", ".join(failed))
+        print("Data file left untouched; retry after the source recovers")
+        return 1
 
-    # Update ETFs
-    for symbol in etf_symbols:
-        record = fetch_latest(symbol)
-        if record:
-            result = upsert_record(data["etfs"][symbol], record)
+    for section, symbol, records in fetched:
+        counts = {"added": 0, "updated": 0, "unchanged": 0, "skipped": 0}
+        for record in records:
+            result = upsert_record(data[section][symbol], record)
+            counts[result] += 1
             changed = changed or result in {"added", "updated"}
-            print(f"  ✓ {symbol}: {record['close']} ({result})")
+        print(f"  ✓ {symbol}: source through {records[-1]['date']}; {counts}")
 
     # Rebuild current prices
     current = build_current(data)
@@ -178,4 +191,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
