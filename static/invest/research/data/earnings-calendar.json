@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-07",
+  "asOf": "2026-10-08",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -44,9 +44,9 @@
       "precision": "day",
       "status": "estimated",
       "session": "unspecified",
-      "sourceUrl": "https://www.tipranks.com/stocks/lrcx/earnings",
+      "sourceUrl": "https://newsroom.lamresearch.com/2026-09-30-Lam-Research-Corporation-Announces-September-Quarter-Financial-Conference-Call",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-09-08"
+      "verifiedAt": "2026-10-08"
     },
     {
       "reportId": "kla-2026",
@@ -117,13 +117,13 @@
     {
       "reportId": "arista-2026",
       "company": "Arista Networks",
-      "expectedDate": "2026-11-02",
+      "expectedDate": "2026-11-03",
       "precision": "day",
-      "status": "estimated",
-      "session": "unspecified",
-      "sourceUrl": "https://www.tipranks.com/stocks/anet/earnings",
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-09-08"
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://www.arista.com/en/company/news/press-release/24817-pr-20261006",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-10-08"
     },
     {
       "reportId": "coreweave-2026",
@@ -340,11 +340,11 @@
       "company": "AMD",
       "expectedDate": "2026-11-03",
       "precision": "day",
-      "status": "estimated",
-      "session": "unspecified",
-      "sourceUrl": "https://www.tipranks.com/stocks/amd/earnings",
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-09-08"
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-10-08"
     },
     {
       "reportId": "jinpan-2026",
@@ -451,24 +451,24 @@
     {
       "reportId": "alphabet-2026",
       "company": "Alphabet",
-      "expectedDate": "2026-10-27",
+      "expectedDate": "2026-10-28",
       "precision": "day",
       "status": "estimated",
       "session": "unspecified",
-      "sourceUrl": "https://www.tipranks.com/stocks/googl/earnings",
+      "sourceUrl": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call-2026-8tpGZsLS6v/default.aspx",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-09-08"
+      "verifiedAt": "2026-10-08"
     },
     {
       "reportId": "microsoft-2026",
       "company": "Microsoft",
-      "expectedDate": "2026-10-27",
+      "expectedDate": "2026-10-28",
       "precision": "day",
-      "status": "estimated",
-      "session": "unspecified",
-      "sourceUrl": "https://www.tipranks.com/stocks/msft/earnings",
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-09-08"
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://news.microsoft.com/source/2026/10/07/microsoft-announces-quarterly-earnings-release-date-69/",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-10-08"
     },
     {
       "reportId": "meta-2026",
@@ -574,13 +574,13 @@
     {
       "reportId": "amkr-2026",
       "company": "Amkor Technology",
-      "expectedDate": "2026-11-02",
+      "expectedDate": "2026-10-26",
       "precision": "day",
-      "status": "estimated",
-      "session": "unspecified",
-      "sourceUrl": "https://www.tipranks.com/stocks/amkr/earnings",
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-09-08"
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://ir.amkor.com/news-releases/news-release-details/amkor-technology-announce-third-quarter-2026-financial-results",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-10-08"
     },
     {
       "reportId": "kioxia-2026",
@@ -664,24 +664,24 @@
     {
       "reportId": "axti-2026",
       "company": "AXT Inc.",
-      "expectedDate": "2026-10",
-      "precision": "month",
-      "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-09-25"
+      "expectedDate": "2026-10-29",
+      "precision": "day",
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://investors.axt.com/Investors/news/news-details/2026/AXT-Inc--Schedules-Third-Quarter-2026-Earnings-Release-for-October-29-2026/default.aspx",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-10-08"
     },
     {
       "reportId": "applovin-2026",
       "company": "AppLovin",
-      "expectedDate": "2026-11",
-      "precision": "month",
-      "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-10-02"
+      "expectedDate": "2026-11-04",
+      "precision": "day",
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://investors.applovin.com/news/news-details/2026/AppLovin-to-Announce-Third-Quarter-2026-Results/default.aspx",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-10-08"
     }
   ]
 }
