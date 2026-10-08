@@ -11,6 +11,7 @@ import yfinance as yf
 from datetime import datetime
 import sys
 import os
+import time
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(SCRIPT_DIR, "data", "historical.json")
@@ -19,6 +20,8 @@ ALL_SYMBOLS = [
     "GC=F", "SI=F", "PL=F", "PA=F", "HG=F",
     "COPX", "GLD", "SLV", "CPER", "DBB", "REMX", "LIT", "PPLT", "PALL",
 ]
+FETCH_ATTEMPTS = 3
+FETCH_RETRY_DELAY = 5
 
 
 def load_data(path):
@@ -70,27 +73,41 @@ def fetch_recent(symbol):
     Keep the existing five-trading-day window and source dates. Do not invent
     records for weekends/holidays or relabel an older quote as today's price.
     """
-    try:
-        ticker = yf.Ticker(symbol)
-        df = ticker.history(period="5d", interval="1d")
-        if df.empty:
-            return []
-        records = []
-        for index, row in df.iterrows():
-            record = normalize_record({
-                "date": index.strftime("%Y-%m-%d"),
-                "close": row["Close"],
-                "volume": row.get("Volume", 0),
-            })
-            if record is None:
-                # A partial/invalid window must not masquerade as a full refresh.
-                print(f"  - {symbol}: rejected non-finite close")
-                return []
-            records.append(record)
-        return records
-    except Exception as e:
-        print(f"  ✗ {symbol}: {e}")
-        return []
+    expected_dates = set()
+    for attempt in range(1, FETCH_ATTEMPTS + 1):
+        try:
+            # A fresh ticker/request can recover a transient incomplete response.
+            # Keep the existing adjusted-price convention; never substitute raw
+            # prices or silently discard an invalid row.
+            df = yf.Ticker(symbol).history(period="5d", interval="1d")
+            records = []
+            invalid_dates = []
+            for index, row in df.iterrows():
+                day = index.strftime("%Y-%m-%d")
+                expected_dates.add(day)
+                record = normalize_record({
+                    "date": day,
+                    "close": row["Close"],
+                    "volume": row.get("Volume", 0),
+                })
+                if record is None:
+                    invalid_dates.append(day)
+                else:
+                    records.append(record)
+            missing_dates = expected_dates - {row["date"] for row in records}
+            if records and not invalid_dates and not missing_dates:
+                return records
+            print(
+                f"  - {symbol}: attempt {attempt}/{FETCH_ATTEMPTS}; "
+                f"valid dates {[row['date'] for row in records]}; "
+                f"non-finite close dates {invalid_dates}; "
+                f"missing dates {sorted(missing_dates)}; empty={df.empty}"
+            )
+        except Exception as e:
+            print(f"  ✗ {symbol}: attempt {attempt}/{FETCH_ATTEMPTS}: {e}")
+        if attempt < FETCH_ATTEMPTS:
+            time.sleep(FETCH_RETRY_DELAY * attempt)
+    return []
 
 
 def upsert_record(history_list, record):
