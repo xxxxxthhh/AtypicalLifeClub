@@ -1,5 +1,29 @@
 [
   {
+    "id": "tsmc-september-2026-monthly-revenue-2026-10",
+    "date": "2026-10-08",
+    "title": {
+      "zh": "台积电 2026 年 9 月营收 NT$511,857M（环比 −0.6%、同比 +54.6%），1 至 9 月累计同比 +41.1%",
+      "en": "TSMC September 2026 revenue of NT$511,857M (−0.6% MoM, +54.6% YoY), with January-September up 41.1% year over year"
+    },
+    "detail": {
+      "zh": "据台积电 2026-10-08 提交的 Form 6-K（9 月营收报告）：2026 年 9 月合并营收 NT$511,857M，较 8 月 NT$514,806M 下降 0.6%，较 2025 年 9 月 NT$330,980M 增长 54.6%；1 至 9 月累计 NT$3,898,727M，同比增长 41.1%。将已发布的 7 月（NT$467,580M，2026-08-10 6-K）、8 月与 9 月三份月报相加，第三季度月度营收合计约 NT$1,494,243M——这是三份月报的加总，不是公司公布的季度数；公司第三季度指引以美元给出（US$44.6-45.8B），新台币口径的季度实际值换算为美元取决于实际汇率，第三季度正式业绩（日历记 2026-10-15）才是可比数据。公告不含制程结构、稼动率或客户信息。本条仅为芯片端代工收入观察，不证明 GPU/ASIC 收入或下游网络、光连接与设施订单；不推断封装份额或独立定价；未重新裁定监测读数、立场、确信度或估值。来源：https://www.sec.gov/Archives/edgar/data/1046179/000104617926000680/tsm-revenue20261008.htm 补充来源（7 月数／Q3 指引／业绩会日期）： https://www.sec.gov/Archives/edgar/data/1046179/000104617926000471/tsm-revenue20260810.htm ; https://www.sec.gov/Archives/edgar/data/1046179/000104617926000451/a2q26e_withguidancexfinal.htm ; https://investor.tsmc.com/english/quarterly-results/2026/q3",
+      "en": "Per TSMC's Form 6-K filed 2026-10-08 (September revenue report): consolidated net revenue for September 2026 was NT$511,857M, down 0.6% from August 2026 (NT$514,806M) and up 54.6% from September 2025 (NT$330,980M); January-September 2026 revenue totalled NT$3,898,727M, up 41.1% year over year. Summing the published July (NT$467,580M, 6-K of 2026-08-10), August and September monthly figures gives about NT$1,494,243M for the third quarter — a sum of three monthly reports, not a company-reported quarterly figure; the company's Q3 guidance is stated in US dollars (US$44.6-45.8B), so the US-dollar value of the NT-dollar quarter depends on the realized exchange rate, and the formal Q3 results (calendar: 2026-10-15) are the comparable data point. The release contains no node mix, utilization or customer information. This is only a foundry-revenue observation, not proof of GPU/ASIC revenue or of downstream networking, optical or facility orders; it does not infer packaging share or independent pricing, and it does not re-adjudicate the monitoring reading, stance, conviction or valuation. Source: https://www.sec.gov/Archives/edgar/data/1046179/000104617926000680/tsm-revenue20261008.htm Additional sources (July revenue / Q3 guidance / earnings-conference date): https://www.sec.gov/Archives/edgar/data/1046179/000104617926000471/tsm-revenue20260810.htm ; https://www.sec.gov/Archives/edgar/data/1046179/000104617926000451/a2q26e_withguidancexfinal.htm ; https://investor.tsmc.com/english/quarterly-results/2026/q3"
+    },
+    "crossChecks": [
+      "chip-vs-downstream"
+    ],
+    "tickers": [
+      "TSM"
+    ],
+    "reportIds": [
+      "tsmc-2026"
+    ],
+    "monitoringRefs": [
+      "tsmc-2026:advanced-node-utilization"
+    ]
+  },
+  {
     "id": "constellation-amazon-calvert-cliffs-ppa-2026-09-30",
     "date": "2026-09-30",
     "title": {
