@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-08",
+  "asOf": "2026-10-09",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -77,9 +77,9 @@
       "precision": "day",
       "status": "estimated",
       "session": "unspecified",
-      "sourceUrl": "https://www.marketbeat.com/stocks/NASDAQ/CDNS/earnings/",
+      "sourceUrl": "https://investor.cadence.com/news/news-details/2026/Cadence-Announces-Third-Quarter-2026-Financial-Results-Webcast/default.aspx",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-09-08"
+      "verifiedAt": "2026-10-09"
     },
     {
       "reportId": "nrg-2026",
@@ -354,9 +354,9 @@
       "precision": "day",
       "status": "estimated",
       "session": "unspecified",
-      "sourceUrl": "https://sns.sseinfo.com/company.do?uid=195867",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-10-09/1225596411.PDF",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-10-05"
+      "verifiedAt": "2026-10-09"
     },
     {
       "reportId": "paypal-2026",
@@ -551,13 +551,13 @@
     {
       "reportId": "mp-2026",
       "company": "MP Materials",
-      "expectedDate": "2026-08-06",
+      "expectedDate": "2026-11-05",
       "precision": "day",
-      "status": "stale",
+      "status": "issuer-confirmed",
       "session": "after-close",
-      "sourceUrl": "https://investors.mpmaterials.com/investor-news/news-details/2026/MP-Materials-Announces-Date-for-Second-Quarter-2026-Financial-Results-and-Webcast/default.aspx",
+      "sourceUrl": "https://investors.mpmaterials.com/investor-news/news-details/2026/MP-Materials-Announces-Date-for-Third-Quarter-2026-Financial-Results-and-Webcast/default.aspx",
       "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-24"
+      "verifiedAt": "2026-10-09"
     },
     {
       "reportId": "alab-2026",
@@ -608,13 +608,14 @@
     {
       "reportId": "ase-technology-2026",
       "company": "ASE Technology Holding",
-      "expectedDate": "2026-10-22",
+      "expectedDate": "2026-10-29",
       "precision": "day",
       "status": "estimated",
       "session": "unspecified",
-      "sourceUrl": "https://www.tipranks.com/stocks/asx/earnings",
+      "sourceUrl": "https://ir.aseglobal.com/html/ir_events_details.php?id=22006",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-09-08"
+      "verifiedAt": "2026-10-09",
+      "timezone": "Asia/Taipei"
     },
     {
       "reportId": "innolight-2026",
@@ -642,13 +643,13 @@
     {
       "reportId": "wdc-2026",
       "company": "Western Digital",
-      "expectedDate": "2026-10",
-      "precision": "month",
-      "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-09-23"
+      "expectedDate": "2026-10-22",
+      "precision": "day",
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://investor.wdc.com/news-releases/news-release-details/wd-announce-first-quarter-fiscal-year-2027-financial-results",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-10-09"
     },
     {
       "reportId": "seagate-2026",
