@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-10",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -53,11 +53,11 @@
       "company": "KLA",
       "expectedDate": "2026-10-28",
       "precision": "day",
-      "status": "estimated",
-      "session": "unspecified",
-      "sourceUrl": "https://www.tipranks.com/stocks/klac/earnings",
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-09-08"
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://ir.kla.com/news-events/press-releases/detail/522/kla-announces-first-quarter-fiscal-year-2027-earnings-date",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-10-10"
     },
     {
       "reportId": "synopsys-2026",
