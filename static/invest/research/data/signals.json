@@ -1,5 +1,29 @@
 [
   {
+    "id": "nrg-ercot-batch-zero-studied-load-2026-09-08",
+    "date": "2026-09-08",
+    "title": {
+      "zh": "NRG 拟建 1.2GW 得州燃气项目被有条件纳入 ERCOT「Batch Zero」大负荷并网流程（列为 Studied Load）",
+      "en": "NRG's proposed 1.2 GW Texas gas project conditionally included as a Studied Load in ERCOT's Batch Zero large-load interconnection process"
+    },
+    "detail": {
+      "zh": "据 NRG 2026-09-08 发行人稿（https://www.nrg.com/en/about/newsroom/2026/nrgs-12gw-texas-generation-project-advances-through-ercots-batch），其为得州数据中心配套的拟建 1.2GW 天然气发电项目被有条件纳入 ERCOT Batch Zero 大负荷并网流程，列为 Studied Load；仍须满足适用要求并完成后续研究、核验与并网步骤。这是发行人披露的流程进展，不是 ERCOT 独立确认、并网批准、开工或交付。既有 signal nrg-q2-2026-hyperscaler-gas-project 记录同一项目的先前披露。本条仅补充 grid-epc-delivery 的项目执行证据，不确认整条跨公司规则前提。对手方仍未具名，稿件未给出已签最终协议、投资额、投产日或经济条款；前瞻性风险仍包括最终协议签署与流程要求。nrg-2026 的具名超大规模厂商或 tariff-backed 成交触发条件未满足。事件日保留 09-08；本条不更新报告、监测读数、立场、确信度或估值。",
+      "en": "NRG's September 8, 2026 issuer release (https://www.nrg.com/en/about/newsroom/2026/nrgs-12gw-texas-generation-project-advances-through-ercots-batch) reports conditional inclusion of its proposed 1.2 GW Texas gas generation project supporting a data center as a Studied Load in ERCOT's Batch Zero large-load interconnection process. Applicable requirements and further study, verification and interconnection steps remain. This is issuer-reported process progress, not independent ERCOT confirmation, interconnection approval, construction or delivery. Existing signal nrg-q2-2026-hyperscaler-gas-project records the earlier project disclosure. This entry adds project-execution evidence under grid-epc-delivery without establishing the full cross-company rule premise. The counterparty remains unnamed; the release provides no executed definitive agreement, investment amount, operating date or economic terms. Definitive agreements and process requirements remain forward-looking risks. The nrg-2026 named-hyperscaler or tariff-backed win trigger is unmet. The event date remains September 8; no report, monitoring reading, stance, conviction or valuation changes."
+    },
+    "crossChecks": [
+      "grid-epc-delivery"
+    ],
+    "tickers": [
+      "NRG"
+    ],
+    "reportIds": [
+      "nrg-2026"
+    ],
+    "monitoringRefs": [
+      "nrg-2026:data-center-contract-conversion"
+    ]
+  },
+  {
     "id": "tsmc-september-2026-monthly-revenue-2026-10",
     "date": "2026-10-08",
     "title": {
