@@ -3204,7 +3204,8 @@
     "reportedPeriod": "Q2 2026 / 2026-08-21 valuation frame",
     "related": [
       "corning-2026",
-      "axti-2026"
+      "axti-2026",
+      "lumentum-2026"
     ],
     "monitoring": [
       {
@@ -9587,7 +9588,8 @@
       "aaoi-2026",
       "corning-2026",
       "arista-2026",
-      "axti-2026"
+      "axti-2026",
+      "lumentum-2026"
     ],
     "monitoring": [
       {
@@ -11632,7 +11634,8 @@
       "aaoi-2026",
       "corning-2026",
       "arista-2026",
-      "axti-2026"
+      "axti-2026",
+      "lumentum-2026"
     ],
     "monitoring": [
       {
@@ -12546,7 +12549,8 @@
     "related": [
       "aaoi-2026",
       "coherent-2026",
-      "innolight-2026"
+      "innolight-2026",
+      "lumentum-2026"
     ],
     "monitoring": [
       {
@@ -12905,6 +12909,202 @@
         "note": {
           "zh": "首次覆盖裁定。30/40/30 情景网格加权每股价值 $392.41，2.248 年年化 +16.0%，高于 8% 门槛 8.0 个百分点；但退出倍数整体下调 3 倍即降至 +3.8%、增长放缓降至 +7.1%，正偏斜对倍数敏感，故确信度为低。",
           "en": "Initiation ruling. The 30/40/30 scenario grid weights to $392.41 per share, or +16.0% annualized over 2.248 years, 8.0 points above the 8% hurdle; but cutting all exit multiples by three turns drops it to +3.8% and slower growth to +7.1%, so the positive skew is multiple-fragile and conviction is low."
+        }
+      }
+    ]
+  },
+  {
+    "id": "lumentum-2026",
+    "company": "Lumentum Holdings",
+    "ticker": "NASDAQ: LITE",
+    "priceSymbol": "LITE",
+    "title": "Lumentum 深度研究报告 - 三条光学架构路线的共同供应商，价格已付满整张路线图",
+    "titleEn": "Lumentum Deep Research Report - Supplier to All Three Optical Architectures, Priced for the Whole Roadmap",
+    "summary": "2026-10-11 首次覆盖，锚定 2026-10-09 收盘 $1,103.36。以委托书登记日 93,459,271 股（普通股 90,582,856 + NVIDIA 持有的 A 系列优先股 2,876,415）计市值 $103.1B；计入转债超额部分与未归属奖励后完全稀释约 102.0M 股（上沿 104.0M），市值 $112.5B、企业价值 $111.4B，对应 TTM 收入 $3,014.0M 的 37.0 倍、Q1 FY2027 指引中值年化收入的 22.3 倍、指引年化非 GAAP EPS 的 65.7 倍。FY2026 收入同比 +83.2%，Q4 非 GAAP 毛利率 50.4%、营业利润率 36.6%，Q1 指引中值 $1.25B 把 OFC 目标模型第一档提前一个多季度兑现；GAAP 净亏损 $6,935.1M 来自转债换股的 $7,756.6M 非现金清偿损失，不是经营亏损。以 architecture-check 角色检验 CPO / NPO 与光交换相对可插拔模块是替代还是叠加：截至 2026 年 8 月的读数是叠加，EML 供需缺口在 OCS 与超高功率激光器放量的同时维持在 30% 以上（电话会）。但普通股一年增加 26.9%，FY2026 自由现金流 $300.1M 几乎被 RSU 代扣税 $281.0M 抵消，客户 A 占收入 26.6%，NVIDIA 采购承诺的金额未披露，2026 年内部人卖出 $163.96M、零买入。30/40/30 情景网格（FY2029 收入 $16.0B / $12.0B / $7.5B，营业利润率 46% / 43% / 33%，退出 28 / 24 / 18 倍另加每股净现金）加权 $1,012.32，至 2029-06-30 年化 -3.1%，低于 8% 门槛 11.1 个百分点；倍数整体加 4 倍并把权重改为 40/40/20 后为 +6.5%，仍略低于门槛。牛市情景年化 +16.0%，故立场谨慎 / 低确信。",
+    "summaryEn": "Initial coverage dated 2026-10-11, anchored on the 2026-10-09 close of $1,103.36. On the 93,459,271 shares at the proxy record date (90,582,856 common plus 2,876,415 Series A preferred held by NVIDIA), market capitalization is $103.1B; with the excess conversion value of the convertible notes and unvested awards, the fully diluted count is about 102.0M (upper bound 104.0M), giving market value of $112.5B and enterprise value of $111.4B, or 37.0x TTM revenue of $3,014.0M, 22.3x the Q1 FY2027 guidance midpoint annualized and 65.7x guided non-GAAP EPS annualized. FY2026 revenue rose +83.2%, Q4 non-GAAP gross margin was 50.4% and operating margin 36.6%, and the Q1 guidance midpoint of $1.25B reaches the first tier of the OFC target model more than a quarter early; the GAAP net loss of $6,935.1M comes from a $7,756.6M non-cash extinguishment loss on equitized convertible notes, not from operations. In the architecture-check role the report tests whether CPO / NPO and optical switching replace pluggable modules or add to them: as of August 2026 the reading is additive, with the EML supply-demand gap holding above 30% while OCS and ultra-high-power lasers ramp (call). But common shares grew 26.9% in a year, FY2026 free cash flow of $300.1M was almost offset by $281.0M of RSU tax withholding, Customer A is 26.6% of revenue, the size of NVIDIA's purchase commitment is undisclosed, and insiders sold $163.96M in 2026 with no purchases. A 30/40/30 scenario grid (FY2029 revenue $16.0B / $12.0B / $7.5B, operating margin 46% / 43% / 33%, exit multiples 28x / 24x / 18x plus net cash per share) weights to $1,012.32, -3.1% annualized to 2029-06-30, 11.1 points below an 8% hurdle; lifting all multiples by 4x and moving weights to 40/40/20 gives +6.5%, still just below the hurdle. The bull case returns +16.0% annualized, so the stance is cautious / low conviction.",
+    "tags": [
+      "AI光连接",
+      "磷化铟激光器",
+      "CPO",
+      "光交换"
+    ],
+    "category": "tech",
+    "date": "2026-10-11",
+    "lastUpdate": "2026-10-11",
+    "file": "/invest/research/reports/view.html?id=lumentum-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Lumentum_深度研究报告_2026-10.md",
+      "en": "/invest/research/Lumentum_Deep_Research_Report_2026-10.md"
+    },
+    "highlights": [
+      "市场数据（2026-10-09 收盘）：股价 $1,103.36，已发行口径市值 $103.1B，完全稀释市值 $112.5B、企业价值 $111.4B；52 周收盘区间 $149.61（2025-10-10）–$1,133.40（2026-10-06），现价是收盘低点的 7.37 倍",
+      "业绩拐点：FY2026 收入 $3,014.0M（同比 +83.2%），Q4 收入 $1,006.3M、非 GAAP 毛利率 50.4%、营业利润率 36.6%；Q1 FY2027 指引收入 $1.225B–$1.275B、非 GAAP EPS $4.05–$4.35；GAAP 净亏损 $6,935.1M 为转债换股的非现金损失",
+      "架构检验：EML 供需缺口超过 30% 未收窄，OCS 9 月季度为首个 $100M 以上季度，超高功率激光器 2026 年末约 $50M/季、2027 年 3 月季度首个 $100M 以上（均为电话会）；10-K 可印证的是 OCS FY2026 超过 $90.0M、云光模块增长超过 173%",
+      "股本与资本结构：普通股一年 +26.9%，含 NVIDIA 优先股为 +33.9%；剩余转债本金 $1,554.3M、公允价值 $7,607.2M，超额部分以股票支付；完全稀释 102.0M–104.0M 股的区间要等 Q1 FY2027 10-Q 才能消除",
+      "现金与集中度：经营现金流 $751.4M、资本开支 $451.3M、自由现金流 $300.1M，RSU 代扣税现金支出 $281.0M；采购义务三个季度由 $875.3M 增至 $2,354.4M；客户 A 26.6%、客户 B 15.0%，名称未披露",
+      "治理与内部人：2026 年内部人公开市场卖出 201,577 股、$163.96M，零买入；Q4 业绩后五名高管卖出 $90.55M；FMR 持股六个月由 13.5% 降至 4.6%；NVIDIA 以 $695.31 认购 $2.0B 优先股，采购承诺金额未披露"
+    ],
+    "period": "FY2026",
+    "versionType": "initial",
+    "versionLabel": "FY2026 Initial Coverage",
+    "moduleContract": "heading-comment-v1",
+    "isCurrent": true,
+    "chainLayer": "optical",
+    "chainRole": "architecture-check",
+    "coverageTier": "full",
+    "stance": "cautious",
+    "conviction": "low",
+    "priceAsOf": "2026-10-09",
+    "reportedPeriod": "FY2026 Form 10-K / Q4 FY2026",
+    "related": [
+      "coherent-2026",
+      "axti-2026",
+      "innolight-2026",
+      "aaoi-2026",
+      "nvidia-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "revenue-margin-vs-model",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "季度收入与非 GAAP 营业利润率对照 OFC 目标模型",
+          "en": "Quarterly revenue and non-GAAP operating margin against the OFC target model"
+        },
+        "trigger": {
+          "zh": "下行：Q1 FY2027 收入低于 $1.225B 或非 GAAP 营业利润率低于 39.5%；上行：2027 年 6 月季度前达到 $2B/季且营业利润率不低于 43%",
+          "en": "Downside: Q1 FY2027 revenue below $1.225B or non-GAAP operating margin below 39.5%; upside: $2B per quarter reached by the June 2027 quarter with operating margin at or above 43%"
+        },
+        "latest": {
+          "zh": "2026-08-11 业绩稿：Q4 FY2026 收入 $1,006.3M（环比 +24.5%）、非 GAAP 毛利率 50.4%、营业利润率 36.6%；Q1 FY2027 指引收入 $1.225B–$1.275B、营业利润率 39.5%–40.5%、非 GAAP EPS $4.05–$4.35。OFC 目标模型（2026-03-17）为 $1.25B/季时营业利润率 33%–37%、$2B/季时 38%–42%；CFO 称 42% 应视为中点（电话会）。",
+          "en": "2026-08-11 release: Q4 FY2026 revenue $1,006.3M (+24.5% Q/Q), non-GAAP gross margin 50.4%, operating margin 36.6%; Q1 FY2027 guidance is revenue of $1.225B-$1.275B, operating margin of 39.5%-40.5% and non-GAAP EPS of $4.05-$4.35. The OFC target model (2026-03-17) is 33%-37% operating margin at $1.25B per quarter and 38%-42% at $2B per quarter; the CFO said 42% should be treated as the midpoint (call)."
+        },
+        "reading": "within",
+        "readingAsOf": "2026-08-11",
+        "nextCheck": "Q1 FY2027 业绩（2026-11-05）/ Q1 FY2027 results (2026-11-05)",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "ocs-ramp",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "光交换机（OCS）收入爬坡",
+          "en": "Optical circuit switch (OCS) revenue ramp"
+        },
+        "trigger": {
+          "zh": "2026 下半年 OCS 收入明显低于 $400M 框架，或撤回 2027 年运行率超过 $1B 的目标",
+          "en": "OCS revenue for the second half of calendar 2026 clearly below the $400M framework, or the 2027 run-rate target of more than $1B withdrawn"
+        },
+        "latest": {
+          "zh": "10-K：FY2026 OCS 收入超过 $90.0M。Q4 电话会（2026-08-11，第三方转写）：出货量环比翻倍，9 月季度指引包含首个 $100M 以上的 OCS 季度，对 2026 下半年 $400M 框架「跟得上、未超前」；三家客户、两家占大头。OFC 简报：多年期、数十亿美元采购协议，2027 年运行率超过 $1B。对手方未披露。",
+          "en": "10-K: FY2026 OCS revenue was more than $90.0M. Q4 call (2026-08-11, third-party transcript): shipments doubled Q/Q, September-quarter guidance includes the first OCS quarter above $100M, and the company is tracking to, not ahead of, the $400M framework for the second half of calendar 2026; three customers, two making up most volume. OFC briefing: a multi-year, multi-billion-dollar purchase agreement and a 2027 run-rate above $1B. The counterparty is not disclosed."
+        },
+        "reading": "within",
+        "readingAsOf": "2026-08-11",
+        "nextCheck": "Q1 FY2027 电话会 / the Q1 FY2027 call",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "uhp-cpo-lasers",
+        "thesis": "either",
+        "theme": "optionality",
+        "metric": {
+          "zh": "超高功率激光器与 CPO 出货里程碑",
+          "en": "Ultra-high-power laser and CPO shipment milestones"
+        },
+        "trigger": {
+          "zh": "首个 $100M 以上季度推迟到 2027 年 6 月季度之后，或 scale-up CPO 放量出货推迟到 2028 年",
+          "en": "The first quarter above $100M slips beyond the June 2027 quarter, or high-volume scale-up CPO shipments slip into 2028"
+        },
+        "latest": {
+          "zh": "Q4 电话会（2026-08-11，第三方转写）：超高功率激光器 2026 年末约 $50M/季（自 2 月以来未变），首个 $100M 以上季度定在 2027 年 3 月季度；scale-up 放量出货在 2027 下半年、客户 2028 年部署；已收到首个 ELS 模块订单，2027 下半年交付。管理层称远落后于需求。EML 供需缺口同期维持在 30% 以上——架构检验的读数为叠加而非替代。",
+          "en": "Q4 call (2026-08-11, third-party transcript): ultra-high-power lasers at about $50M per quarter by the end of calendar 2026 (unchanged since February), with the first quarter above $100M pinned to the March 2027 quarter; high-volume scale-up shipments in the second half of 2027 ahead of customer deployments in 2028; a first ELS module order received for delivery in the second half of 2027. Management said it is well behind demand. The EML supply-demand gap held above 30% over the same period - the architecture-check reading is additive, not substitutive."
+        },
+        "reading": "within",
+        "readingAsOf": "2026-08-11",
+        "nextCheck": "Q2 FY2027 业绩（2027 年 2 月）/ Q2 FY2027 results (February 2027)",
+        "nextCheckDate": "2027-02"
+      },
+      {
+        "id": "eml-gap-pricing",
+        "thesis": "bear",
+        "theme": "pricing",
+        "metric": {
+          "zh": "EML 供需缺口、定价与非 GAAP 毛利率",
+          "en": "EML supply-demand gap, pricing and non-GAAP gross margin"
+        },
+        "trigger": {
+          "zh": "非 GAAP 毛利率连续两个季度低于 47%，同时管理层承认 EML 降价或供需缺口消失",
+          "en": "Non-GAAP gross margin below 47% for two consecutive quarters together with management acknowledging EML price cuts or the disappearance of the supply-demand gap"
+        },
+        "latest": {
+          "zh": "业绩稿：Q4 FY2026 非 GAAP 毛利率 50.4%（Q3 47.9%，Q2 42.5%）。10-K：激光芯片均价因 200G 通道速率小幅上升。Q4 电话会（第三方转写）：EML 缺口较上季的 30% 以上基本不变；2026 年 12 月季度 EML 出货量目标较上年同期 +50% 以上；200G EML 已超过 EML 收入的 25%；全部 EML 产能由长期协议锁定至 2027 年末。同业 Coherent 的 6 英寸 InP 产线已投产（SDxCentral，2026-08-14）。",
+          "en": "Release: Q4 FY2026 non-GAAP gross margin was 50.4% (Q3 47.9%, Q2 42.5%). 10-K: laser-chip average selling prices rose slightly on the shift to 200G lane speeds. Q4 call (third-party transcript): the EML gap is roughly unchanged from the prior quarter's more than 30%; the target is EML unit growth of more than 50% in the December 2026 quarter against a year earlier; 200G EMLs are above 25% of EML revenue; all EML capacity is committed under long-term agreements through the end of 2027. Peer Coherent's 6-inch InP lines are in production (SDxCentral, 2026-08-14)."
+        },
+        "reading": "within",
+        "readingAsOf": "2026-08-11",
+        "nextCheck": "Q1 FY2027 业绩（2026-11-05）/ Q1 FY2027 results (2026-11-05)",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "customer-concentration",
+        "thesis": "bear",
+        "theme": "concentration",
+        "metric": {
+          "zh": "10% 以上客户的收入与应收占比",
+          "en": "Revenue and receivable share of customers above 10%"
+        },
+        "trigger": {
+          "zh": "任一占收入 10% 以上的客户占比显著下降并伴随收入环比下降，或单一客户超过收入的 35%",
+          "en": "A customer above 10% of revenue loses share materially together with a sequential revenue decline, or a single customer exceeds 35% of revenue"
+        },
+        "latest": {
+          "zh": "10-K：FY2026 客户 A 占收入 26.6%（FY2025 15.4%），客户 B 15.0%（FY2025 16.0%）；应收账款最大客户 30.4%。季度口径（10-Q）：Q1 22% 与 21%，Q2 24% 与 17%，Q3 26% 与 12%。名称未披露；Q3 电话会上 CEO 称 Google 是公司最大的客户之一（第三方转写），不能据此认定其为客户 A。NVIDIA 采购承诺的金额未披露。",
+          "en": "10-K: Customer A was 26.6% of FY2026 revenue (FY2025 15.4%) and Customer B 15.0% (FY2025 16.0%); the largest receivable customer was 30.4%. Quarterly (10-Q): 22% and 21% in Q1, 24% and 17% in Q2, 26% and 12% in Q3. Names are not disclosed; on the Q3 call the CEO said Google is one of the company's largest customers (third-party transcript), which does not establish that it is Customer A. The size of NVIDIA's purchase commitment is undisclosed."
+        },
+        "reading": "within",
+        "readingAsOf": "2026-08-17",
+        "nextCheck": "Q1 FY2027 Form 10-Q（2026 年 11 月）/ Q1 FY2027 Form 10-Q (November 2026)",
+        "nextCheckDate": "2026-11"
+      }
+    ],
+    "stanceRationale": {
+      "zh": "以 2026-10-09 收盘 $1,103.36、完全稀释约 102.0M 股计市值 $112.5B、企业价值 $111.4B，对应 TTM 收入 37.0 倍、Q1 FY2027 指引中值年化收入 22.3 倍、指引年化非 GAAP EPS 65.7 倍。决定立场的是已定价预期与加权回报：2029-06-30 的 8% 门槛价为 $1,360.72，在 28 倍退出加每股净现金 $43.95 下需要 FY2029 EPS $47.03，即收入约 $13.8B、营业利润率 44%；24 倍下只求不亏也需要约 $13.2B——大致等于公司已披露的 $2B/季（年化 $8B）加 Greensboro 满产 $5B 全部兑现，基准情景只到 $12.0B。情景网格 30% 牛市 / 40% 基准 / 30% 熊市（FY2029 收入 $16.0B / $12.0B / $7.5B，营业利润率 46% / 43% / 33%，税率 16.5%，107.5M 股，退出 28 / 24 / 18 倍，另加按 38% 现金转换累积的每股净现金）加权 $1,012.32，较 $1,103.36 低 8.3%，2.72 年年化 -3.1%，低于 8% 要求回报 11.1 个百分点；倍数整体加 4 倍为 +2.1%，权重改为 40/40/20 为 +1.2%，两者叠加为 +6.5%，仍略低于门槛。熊市一侧的加权损失（每股约 $217）大于牛市一侧的加权收益（约 $165），偏斜为负，故为谨慎；牛市情景年化 +16.0%，业务在兑现且快于公司自己的时间表，故不是 bearish-avoid。确信度为低：放宽倍数与权重后距门槛只差 1.5 个百分点，公司已连续三次提前兑现目标，且 FY2029 的路径只存在于投资者简报与电话会层面。这是价格判断，不是对业务的否定。",
+      "en": "At the 2026-10-09 close of $1,103.36 on about 102.0M fully diluted shares, market value is $112.5B and enterprise value $111.4B, or 37.0x TTM revenue, 22.3x the Q1 FY2027 guidance midpoint annualized and 65.7x guided non-GAAP EPS annualized. What settles the stance is what is priced in and the weighted return: the 8% hurdle price at 2029-06-30 is $1,360.72, which at a 28x exit plus $43.95 of net cash per share needs FY2029 EPS of $47.03, or revenue of about $13.8B at a 44% operating margin; merely breaking even at 24x needs about $13.2B - roughly the company's disclosed $2B per quarter ($8B annualized) plus Greensboro's $5B at full capacity all delivered, while the base case reaches $12.0B. A 30% bull / 40% base / 30% bear grid (FY2029 revenue $16.0B / $12.0B / $7.5B, operating margin 46% / 43% / 33%, a 16.5% tax rate, 107.5M shares, exit multiples 28x / 24x / 18x, plus net cash per share accumulated at a 38% cash conversion) weights to $1,012.32, 8.3% below $1,103.36, or -3.1% annualized over 2.72 years, 11.1 points below an 8% required return; lifting all multiples by 4x gives +2.1%, moving weights to 40/40/20 gives +1.2%, and both together give +6.5%, still just below the hurdle. The weighted loss on the bear side (about $217 per share) exceeds the weighted gain on the bull side (about $165), so the skew is negative and the ruling is cautious; the bull case returns +16.0% annualized and the business is delivering ahead of its own timeline, so it is not bearish-avoid. Conviction is low: with multiples and weights relaxed the gap to the hurdle is only 1.5 points, the company has reached its targets early three times in a row, and the FY2029 path exists only at the investor-briefing and call level. This is a price judgment, not a verdict on the business."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若在基本面不变的前提下股价回落至约 $820（加权价值按 8% 折现回今天的价位）；或公司在 2027 年 6 月季度前达到 $2B/季且非 GAAP 营业利润率不低于 43%，并在 OFC 2027 给出明显高于 $8B 年化的正式目标模型，则上调至 neutral-watch。",
+        "en": "Move to neutral-watch if the share price falls to around $820, the weighted value discounted at 8% to today, without a change in fundamentals; or if the company reaches $2B per quarter by the June 2027 quarter with non-GAAP operating margin at or above 43% and gives a formal target model clearly above $8B annualized at OFC 2027.",
+        "monitoringIds": [
+          "revenue-margin-vs-model",
+          "ocs-ramp",
+          "uhp-cpo-lasers"
+        ]
+      },
+      "downgrade": {
+        "zh": "若 Q1 FY2027 收入低于 $1.225B 或非 GAAP 营业利润率低于 39.5%；或 2026 下半年 OCS 收入明显低于 $400M 框架、或 2027 年运行率超过 $1B 的目标被撤回；或超高功率激光器首个 $100M 以上季度推迟到 2027 年 6 月季度之后；或非 GAAP 毛利率连续两个季度低于 47% 且 EML 缺口消失或出现降价；或任一占收入 10% 以上的客户占比显著下降并伴随收入环比下降，则下调至 bearish-avoid。",
+        "en": "Move to bearish-avoid if Q1 FY2027 revenue is below $1.225B or non-GAAP operating margin is below 39.5%; or OCS revenue for the second half of calendar 2026 is clearly below the $400M framework or the 2027 run-rate target of more than $1B is withdrawn; or the first ultra-high-power laser quarter above $100M slips beyond the June 2027 quarter; or non-GAAP gross margin is below 47% for two consecutive quarters with the EML gap gone or prices cut; or a customer above 10% of revenue loses share materially together with a sequential revenue decline.",
+        "monitoringIds": [
+          "revenue-margin-vs-model",
+          "ocs-ramp",
+          "uhp-cpo-lasers",
+          "eml-gap-pricing",
+          "customer-concentration"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-10-11",
+        "stance": "cautious",
+        "conviction": "low",
+        "price": 1103.36,
+        "note": {
+          "zh": "首次覆盖裁定。30/40/30 情景网格加权每股价值 $1,012.32（至 2029-06-30 年化 -3.1%），低于 8% 要求回报 11.1 个百分点；倍数整体加 4 倍并把权重改为 40/40/20 后为 +6.5%，仍略低于门槛，负偏斜成立但幅度不大，故确信度为低。牛市情景年化 +16.0%，故取谨慎而非 bearish-avoid。",
+          "en": "Initiation ruling. The 30/40/30 scenario grid weights to $1,012.32 per share (-3.1% annualized to 2029-06-30), 11.1 points below an 8% required return; lifting all multiples by 4x and moving weights to 40/40/20 gives +6.5%, still just below the hurdle, so the negative skew holds but is modest and conviction is low. The bull case returns +16.0% annualized, so the ruling is cautious rather than bearish-avoid."
         }
       }
     ]

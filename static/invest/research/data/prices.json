@@ -775,6 +775,18 @@
       "lastClose": 277.04,
       "changePct": -1.5,
       "currency": "USD"
+    },
+    {
+      "reportId": "lumentum-2026",
+      "symbol": "LITE",
+      "status": "ok",
+      "attemptedAt": "2026-10-09",
+      "baseDate": "2026-10-09",
+      "basePrice": 1103.36,
+      "lastDate": "2026-10-09",
+      "lastClose": 1103.36,
+      "changePct": 0,
+      "currency": "USD"
     }
   ]
 }

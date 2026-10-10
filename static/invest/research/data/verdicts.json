@@ -922,6 +922,17 @@
       "bookRelativePct": -5.7,
       "daysHeld": 14,
       "stale": false
+    },
+    {
+      "reportId": "lumentum-2026",
+      "stance": "cautious",
+      "conviction": "low",
+      "stanceDate": "2026-10-11",
+      "priceAtStance": 1103.36,
+      "benchmarkSymbol": "SMH",
+      "status": "pending",
+      "daysHeld": 0,
+      "stale": false
     }
   ],
   "closed": [
