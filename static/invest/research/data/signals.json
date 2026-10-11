@@ -1,5 +1,26 @@
 [
   {
+    "id": "corning-verizon-fiber-supply-agreement-2026-09-08",
+    "date": "2026-09-08",
+    "title": {
+      "zh": "Corning 与 Verizon 达成至 2032 年的多年期光纤供货协议：2027–2032 年 8,000 万英里以上，用途含面向 AI 超大规模厂商的长途骨干网",
+      "en": "Corning and Verizon reach a multi-year fiber supply agreement through 2032: 80+ million fiber miles for 2027–2032, with uses including a long-haul backbone for AI hyperscalers"
+    },
+    "detail": {
+      "zh": "据 Corning 与 Verizon 2026-09-08 联合新闻稿（Corning 企业新闻页：https://www.corning.com/worldwide/en/about-us/news-events/news-releases/2026/09/verizon-and-corning-announce-multi-year-multi-billion-dollar-supply-agreement-for-broadband-expansion-and-next-gen-ai-infrastructure.html），双方达成稿件所称「multi-billion dollar」的协议，Corning 在 2027 至 2032 年向 Verizon 供应 8,000 万英里以上的高密度光纤及连接方案。稿件给出两类用途：一是家庭与企业宽带扩张（Verizon 称正推进 4,000–5,000 万宽带覆盖），二是经 Verizon 的 AI Connect 在主要长途走廊部署超高密度光缆、直连数据中心的全国长途骨干网。稿件把 Amazon Web Services 列为 Verizon 的 AI 超大规模客户示例，不是 Corning 的合同对手方。这是发行人披露的多年期供货协议，不是已确认收入或已交付数量。稿件未披露合同金额的具体数字、定价、是否照付不议与分年交付节奏，也未拆分宽带与 AI 骨干网各自的光纤数量，因此 AI 相关份额无法量化。既有 signal corning-q2-2026-optical-genai-pull 记录的是 Q2 已实现的光通信销售。本条为 chip-vs-downstream 中「光连接订单是否同步确认」一腿补充数据中心之间长途光纤层面的订单证据，证据强度受上述未拆分的限制，不确认整条跨公司规则前提。事件日保留 09-08；本条不更新 corning-2026 的报告正文、监测读数、立场、确信度或估值。",
+      "en": "A joint Corning and Verizon release dated September 8, 2026 (Corning corporate newsroom: https://www.corning.com/worldwide/en/about-us/news-events/news-releases/2026/09/verizon-and-corning-announce-multi-year-multi-billion-dollar-supply-agreement-for-broadband-expansion-and-next-gen-ai-infrastructure.html) reports what it calls a multi-billion dollar agreement under which Corning supplies Verizon with 80+ million miles of high-density optical fiber and connectivity solutions from 2027 to 2032. The release gives two uses: broadband expansion for homes and businesses (Verizon cites its push toward 40-50 million broadband passings), and a national long-haul backbone in which Verizon's AI Connect deploys ultra-dense cables across major long-haul corridors to directly connect data centers. The release names Amazon Web Services as an example of Verizon's AI hyperscaler customers, not as a Corning counterparty. This is an issuer-disclosed multi-year supply agreement, not recognized revenue or delivered volume. The release gives no specific contract value, pricing, take-or-pay status or annual delivery schedule, and does not split fiber volume between broadband and the AI backbone, so the AI-related share cannot be quantified. Existing signal corning-q2-2026-optical-genai-pull records realized Q2 optical communications sales. This entry adds order-level evidence at the inter-data-center long-haul fiber layer on the chip-vs-downstream leg that asks whether optical connectivity orders confirm in step; its strength is limited by the missing split, and it does not establish the full cross-company rule premise. The event date remains September 8; no corning-2026 report text, monitoring reading, stance, conviction or valuation changes."
+    },
+    "crossChecks": [
+      "chip-vs-downstream"
+    ],
+    "tickers": [
+      "GLW"
+    ],
+    "reportIds": [
+      "corning-2026"
+    ]
+  },
+  {
     "id": "amkor-arizona-phase-2-expansion-2026-09-08",
     "date": "2026-09-08",
     "title": {
