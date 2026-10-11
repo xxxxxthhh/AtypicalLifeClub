@@ -953,6 +953,46 @@ class RetryAndUnpublishedCloseTests(unittest.TestCase):
         fetched = update_data.fetch_recent("GLD", ny("2026-10-06 21:00"), [])
         self.assertEqual([row["date"] for row in fetched], ["2026-10-05", "2026-10-06"])
 
+    def test_interior_gap_keeps_the_local_row_and_does_not_fail_the_symbol(self):
+        """Yahoo withdrew PL=F 2026-10-07 after publishing it; one hole must not block the run."""
+        self.serve([[
+            ("2026-10-06", 1692.7, 19), ("2026-10-07", None, None), ("2026-10-08", 1625.7, 5),
+        ]])
+        local = history(("2026-10-06", 1692.7), ("2026-10-07", 1633.2))
+
+        changed, failed = update_data.update_section(
+            {"PL=F": local}, ["PL=F"], ny("2026-10-09 21:00")
+        )
+
+        self.assertEqual(failed, [])
+        self.assertTrue(changed)
+        self.assertEqual(
+            [(r["date"], r["close"]) for r in local],
+            [("2026-10-06", 1692.7), ("2026-10-07", 1633.2), ("2026-10-08", 1625.7)],
+        )
+
+    def test_interior_gap_is_never_written_as_a_price(self):
+        self.serve([[
+            ("2026-10-06", 1692.7, 19), ("2026-10-07", None, None), ("2026-10-08", 1625.7, 5),
+        ]])
+        local = history(("2026-10-06", 1692.7))
+
+        _changed, failed = update_data.update_section(
+            {"PL=F": local}, ["PL=F"], ny("2026-10-09 21:00")
+        )
+
+        self.assertEqual(failed, [])
+        self.assertEqual([r["date"] for r in local], ["2026-10-06", "2026-10-08"])
+
+    def test_malformed_payload_still_fails_the_symbol(self):
+        def lopsided(symbol, days, events=None):
+            result = chart_result(symbol, [("2026-10-06", 1692.7, 19), ("2026-10-08", 1625.7, 5)])
+            result["indicators"]["quote"][0]["close"].pop()
+            return result
+
+        fetch_historical.fetch_chart_result = lopsided
+        self.assertIsNone(update_data.fetch_recent("PL=F", ny("2026-10-09 21:00"), []))
+
     def test_session_in_progress_is_still_just_not_a_bar_yet(self):
         self.serve([[("2026-10-05", 21.0, 10), ("2026-10-06", None, 0)]])
         fetched = update_data.fetch_recent("GLD", ny("2026-10-06 11:00"), [])

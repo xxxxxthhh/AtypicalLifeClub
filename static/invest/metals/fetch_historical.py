@@ -100,14 +100,11 @@ def exchange_timezone(result):
 
 
 class IncompleteChartResponse(Exception):
-    """The vendor answered 200 but the payload has holes inside its own range.
+    """The vendor answered 200 but has not published a close it should have by now.
 
-    A null close on an interior timestamp is not "that day did not trade" -- the
-    vendor put the timestamp there, so it believes the session exists. Treating
-    the hole as absence is what lets reconcile_window() delete a locally correct
-    row: ask for [08-27, 08-28, 08-31] with a null on 08-28 and the good 08-28
-    close gets removed. A trailing null is different and expected: that is the
-    session still in progress.
+    Raised for a trailing session that has closed without a usable close: a
+    retry or the next run can still get it.  An interior null is not raised --
+    see fetch_daily_rows().
     """
 
 
@@ -119,7 +116,9 @@ def interior_gap_dates(result):
     closes = (quotes[0] if quotes else {}).get("close") or []
 
     if len(timestamps) != len(closes):
-        return [f"<timestamp/close length mismatch: {len(timestamps)} vs {len(closes)}>"]
+        raise IncompleteChartResponse(
+            f"timestamp/close length mismatch: {len(timestamps)} vs {len(closes)}"
+        )
 
     last_usable = max(
         (i for i, close in enumerate(closes) if is_finite_number(close)),
@@ -228,13 +227,19 @@ def completed_rows(symbol, rows, observed_at, tz=None):
 
 
 def fetch_daily_rows(symbol, days, observed_at=None):
-    """Completed daily bars for `symbol` over the last `days` calendar days."""
+    """Completed daily bars for `symbol` over the last `days` calendar days.
+
+    A date the vendor lists inside its own range without a usable close comes
+    back as a row with `close: None`.  It is not "that day did not trade" -- the
+    vendor put the timestamp there, so it believes the session exists -- and it
+    is not a price either.  Carrying the date keeps reconcile_window() from
+    deleting a locally correct row as a phantom (ask for [08-27, 08-28, 08-31]
+    with a null on 08-28 and the good 08-28 close would be removed), while the
+    upsert has nothing to write for it.  Failing the symbol instead does not
+    work: Yahoo withdrew PL=F 2026-10-07 after publishing it, and one hole that
+    never heals would block every symbol for as long as it stays in the window.
+    """
     result = fetch_chart_result(symbol, days)
-    gaps = interior_gap_dates(result)
-    if gaps:
-        raise IncompleteChartResponse(
-            f"{symbol}: vendor payload has interior gaps at {', '.join(gaps)}"
-        )
     observed_at = observed_at or datetime.now(timezone.utc)
     tz = exchange_timezone(result)
     unpublished = closed_sessions_without_close(symbol, result, observed_at, tz)
@@ -243,7 +248,11 @@ def fetch_daily_rows(symbol, days, observed_at=None):
             f"{symbol}: session closed but vendor has no usable close for "
             f"{', '.join(unpublished)}"
         )
-    rows = parse_chart_rows(result)
+    rows = parse_chart_rows(result) + [
+        {"date": date, "close": None, "volume": 0}
+        for date in interior_gap_dates(result)
+    ]
+    rows.sort(key=lambda row: row["date"])
     return completed_rows(symbol, rows, observed_at, tz)
 
 

@@ -385,6 +385,12 @@ def update_section(section, symbols, observed_at):
         counts = apply_rows(history, rows)
         removed = reconcile_window(history, rows)
         changed = changed or counts["added"] > 0 or counts["updated"] > 0 or removed > 0
+        unpriced = [row["date"] for row in rows if row["close"] is None]
+        if unpriced:
+            print(
+                f"  ⚠ {symbol}: vendor lists {', '.join(unpriced)} without a close; "
+                "local rows for those dates are left as they are"
+            )
         print(
             f"  ✓ {symbol}: {rows[-1]['close']} @ {rows[-1]['date']} "
             f"({counts['added']} added, {counts['updated']} corrected, "
