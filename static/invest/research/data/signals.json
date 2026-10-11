@@ -1,5 +1,30 @@
 [
   {
+    "id": "amkor-arizona-phase-2-expansion-2026-09-08",
+    "date": "2026-09-08",
+    "title": {
+      "zh": "Amkor 宣布亚利桑那先进封测园区二期：规划洁净室由 3.3 万增至约 9.3 万平方米，项目计划投资升至约 $12B",
+      "en": "Amkor announces phase 2 of its Arizona advanced packaging and test campus: planned cleanroom rises from 33,000 to about 93,000 square meters and planned project investment to about $12B"
+    },
+    "detail": {
+      "zh": "据 Amkor 2026-09-08 发行人稿（https://ir.amkor.com/news-releases/news-release-details/amkor-technology-announces-phase-2-arizona-advanced-packaging），客户承诺已超过一期规划的 33,000 平方米洁净室；二期预计新增 60,000 平方米，园区合计约 93,000 平方米，项目计划投资约 $12B。二期预计 2027 年底开工、2029 年底前完工。这是发行人规划，不是已发生资本开支、已投产产能或已确认收入。稿件未点名客户，未披露承诺金额、期限或约束力、二期融资与分年资本开支，也未量化新增产能的 2.5D/CoWoS 级占比。该事件只为 advanced-packaging-ownership 的第三方扩产一腿提供规划证据，不证明自有 CoWoS 级产能、独立定价能力或点名 AI 项目在台积电之外双源封装，不升级为约束读数。",
+      "en": "Amkor's September 8, 2026 issuer release (https://ir.amkor.com/news-releases/news-release-details/amkor-technology-announces-phase-2-arizona-advanced-packaging) states that customer commitments exceeded the 33,000 square meters of cleanroom planned for phase 1. Phase 2 is expected to add 60,000 square meters, bringing the campus to about 93,000 square meters with planned project investment of about $12B. Construction is anticipated to start in late 2027 and finish by the end of 2029. These are issuer plans, not incurred capex, operating capacity or recognized revenue. The release names no customer and gives no commitment amount, term or binding status, phase 2 financing or annual capex phasing, or quantified 2.5D/CoWoS-class share of the expansion. This supplies plan-level evidence for the third-party expansion leg of advanced-packaging-ownership; it does not establish self-owned CoWoS-class capacity, standalone pricing power or a named AI program dual-sourcing outside TSMC, and does not upgrade the layer to a constraint reading."
+    },
+    "crossChecks": [
+      "advanced-packaging-ownership"
+    ],
+    "tickers": [
+      "AMKR"
+    ],
+    "reportIds": [
+      "amkr-2026"
+    ],
+    "monitoringRefs": [
+      "amkr-2026:arizona-execution-and-margin-drag",
+      "amkr-2026:capex-and-free-cash-flow"
+    ]
+  },
+  {
     "id": "nrg-ercot-batch-zero-studied-load-2026-09-08",
     "date": "2026-09-08",
     "title": {
