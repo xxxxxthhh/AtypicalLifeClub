@@ -201,7 +201,7 @@ hugo --minify
 | --- | --- | --- |
 | `ci-smoke.yml` | push 到 `main` / PR | 上一节的全部测试、校验与 Hugo 构建 |
 | `update-currency-data.yml` | 每天 00:00 UTC（北京 08:00）+ 手动 | 更新并校验 `currency/data/historical.json`，有变更才提交 |
-| `update-metals-data.yml` | 每天 01:00 UTC（北京 09:00）+ 手动 | 更新并校验 `metals/data/historical.json`，有变更才提交 |
+| `update-metals-data.yml` | 每天 01:00 与 11:00 UTC（北京 09:00 / 19:00）+ 手动 | 更新并校验 `metals/data/historical.json`，有变更才提交 |
 | `update-research-prices.yml` | 每天 22:00 UTC + 手动 | 拉价格 → 生成财报待办、判断台账、校准历史 → 严格校验后提交 |
 
 `update-research-prices.yml` 定在 22:00 UTC 是因为要等美股、首尔、上海、香港全部收盘；`update_prices.py` 另外按各市场本地收盘时间过滤日线，避免把盘中报价写成收盘价。改动排期前请先读该工作流里的注释。
