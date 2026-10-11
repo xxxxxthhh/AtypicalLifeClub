@@ -61,7 +61,7 @@
       }
     },
     "lookback_days": 730,
-    "last_updated": "2026-10-10T10:51:04.518751",
+    "last_updated": "2026-10-11T11:09:38.382840",
     "total_metals": 5,
     "total_etfs": 9
   },
@@ -73,27 +73,27 @@
       "date": "2026-10-09"
     },
     "SI=F": {
-      "price": 60.67,
-      "change": 1.606,
-      "changePct": 2.72,
+      "price": 61.048,
+      "change": 1.984,
+      "changePct": 3.36,
       "date": "2026-10-09"
     },
     "PL=F": {
-      "price": 1679.3,
-      "change": 53.6,
-      "changePct": 3.3,
+      "price": 1693.3,
+      "change": 67.6,
+      "changePct": 4.16,
       "date": "2026-10-09"
     },
     "PA=F": {
-      "price": 1140.5,
-      "change": 25.6,
-      "changePct": 2.3,
+      "price": 1150.4,
+      "change": 35.5,
+      "changePct": 3.18,
       "date": "2026-10-09"
     },
     "HG=F": {
-      "price": 6.6425,
-      "change": 0.1235,
-      "changePct": 1.89,
+      "price": 6.692,
+      "change": 0.173,
+      "changePct": 2.65,
       "date": "2026-10-09"
     },
     "COPX": {
@@ -7202,8 +7202,8 @@
       },
       {
         "date": "2026-10-09",
-        "close": 60.67,
-        "volume": 244
+        "close": 61.048,
+        "volume": 35939
       }
     ],
     "PL=F": [
@@ -10724,8 +10724,8 @@
       },
       {
         "date": "2026-10-09",
-        "close": 1679.3,
-        "volume": 0
+        "close": 1693.3,
+        "volume": 17584
       }
     ],
     "PA=F": [
@@ -14231,8 +14231,8 @@
       },
       {
         "date": "2026-10-09",
-        "close": 1140.5,
-        "volume": 5
+        "close": 1150.4,
+        "volume": 5075
       }
     ],
     "HG=F": [
@@ -17758,8 +17758,8 @@
       },
       {
         "date": "2026-10-09",
-        "close": 6.6425,
-        "volume": 1137
+        "close": 6.692,
+        "volume": 41463
       }
     ]
   },
