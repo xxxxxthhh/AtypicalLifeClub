@@ -1,5 +1,30 @@
 [
   {
+    "id": "amkor-arizona-phase-2-expansion-2026-09-08",
+    "date": "2026-09-08",
+    "title": {
+      "zh": "Amkor 宣布亚利桑那先进封测园区二期：规划洁净室由 3.3 万增至约 9.3 万平方米，项目计划投资升至约 $12B",
+      "en": "Amkor announces phase 2 of its Arizona advanced packaging and test campus: planned cleanroom rises from 33,000 to about 93,000 square meters and planned project investment to about $12B"
+    },
+    "detail": {
+      "zh": "据 Amkor 2026-09-08 发行人稿（https://ir.amkor.com/news-releases/news-release-details/amkor-technology-announces-phase-2-arizona-advanced-packaging），公司宣布亚利桑那先进封装与测试园区二期：称客户承诺已超过一期规划的 33,000 平方米洁净室产能，二期预计新增 60,000 平方米，使园区洁净室达到约 93,000 平方米；项目计划投资增至约 $12B；二期预计 2027 年底开工、2029 年底前完工；一、二期合计预计支持超过 3,500 名亚利桑那员工。稿件称园区含晶圆凸块、探针、组装与测试能力。这是发行人披露的规划产能与计划投资，不是已发生的资本开支、已投产产能或已确认收入。稿件未点名任何客户或 AI 加速器项目，未披露客户承诺的金额、期限或是否具约束力，未给出二期的融资安排、分年资本开支或对 FY2026 资本开支指引的影响，也未说明新增产能中 2.5D 或 CoWoS 级封装的占比。既有 signal amkor-q2-2026-packaging-ownership-read 记录的是此前「无实质 backlog、仅为归属读数」的状态。本条为 advanced-packaging-ownership 中「第三方 OSAT 自有先进封装产能是否同步扩大」一腿补充发行人规划层面的证据，不确认第三方的独立定价能力，也不构成点名项目在台积电之外双源封装的证据，因此不把本层升级为约束读数。事件日保留 09-08；本条不更新 amkr-2026 的报告正文、监测读数、立场、确信度或估值。",
+      "en": "Amkor's September 8, 2026 issuer release (https://ir.amkor.com/news-releases/news-release-details/amkor-technology-announces-phase-2-arizona-advanced-packaging) announces phase 2 of its Arizona advanced packaging and test campus. It states that customer commitments have surpassed the 33,000 square meters of cleanroom capacity planned for phase 1; phase 2 is expected to add 60,000 square meters, bringing the campus to approximately 93,000 square meters of cleanroom; the project's planned investment rises to approximately $12B; phase 2 construction is anticipated to begin in late 2027 with completion expected by the end of 2029; phases 1 and 2 together are expected to support more than 3,500 Arizona-based employees. The release says the campus includes wafer bump, probe, assembly and test capabilities. This is issuer-disclosed planned capacity and planned investment, not incurred capex, operating capacity or recognized revenue. The release names no customer or AI accelerator program, gives no amount, term or binding status for the customer commitments, provides no phase 2 financing plan, annual capex phasing or effect on FY2026 capex guidance, and does not state what share of the added capacity is 2.5D or CoWoS-class packaging. Existing signal amkor-q2-2026-packaging-ownership-read records the earlier state of no material backlog and an ownership-only reading. This entry adds issuer-plan-level evidence on the advanced-packaging-ownership leg that asks whether third-party OSAT-owned advanced packaging capacity is expanding in step. It does not establish independent third-party pricing power and is not evidence of a named program dual-sourcing packaging outside TSMC, so it does not upgrade the layer to a constraint reading. The event date remains September 8; no amkr-2026 report text, monitoring reading, stance, conviction or valuation changes."
+    },
+    "crossChecks": [
+      "advanced-packaging-ownership"
+    ],
+    "tickers": [
+      "AMKR"
+    ],
+    "reportIds": [
+      "amkr-2026"
+    ],
+    "monitoringRefs": [
+      "amkr-2026:arizona-execution-and-margin-drag",
+      "amkr-2026:capex-and-free-cash-flow"
+    ]
+  },
+  {
     "id": "nrg-ercot-batch-zero-studied-load-2026-09-08",
     "date": "2026-09-08",
     "title": {
