@@ -1,5 +1,26 @@
 [
   {
+    "id": "corning-verizon-fiber-supply-agreement-2026-09-08",
+    "date": "2026-09-08",
+    "title": {
+      "zh": "Corning 与 Verizon 达成至 2032 年的多年期光纤供货协议：2027–2032 年 8,000 万英里以上，用途含面向 AI 超大规模厂商的长途骨干网",
+      "en": "Corning and Verizon reach a multi-year fiber supply agreement through 2032: 80+ million fiber miles for 2027–2032, with uses including a long-haul backbone for AI hyperscalers"
+    },
+    "detail": {
+      "zh": "据 Corning 与 Verizon 2026-09-08 联合稿（https://www.corning.com/worldwide/en/about-us/news-events/news-releases/2026/09/verizon-and-corning-announce-multi-year-multi-billion-dollar-supply-agreement-for-broadband-expansion-and-next-gen-ai-infrastructure.html），双方达成多年期、数十亿美元级供货协议，2027–2032 年供应 8,000 万英里以上高密度光纤及连接方案，用于家庭/企业宽带及直连数据中心、面向 AI 超大规模厂商的长途骨干网。这是发行人披露的协议，不是已交付数量或已确认收入。稿件未给具体金额、定价、照付不议条款或分年交付节奏，也未拆分宽带与 AI 数量；光纤英里不是线路英里，不能据总量量化 AI 需求。AWS 是 Verizon 客户示例，不是本协议的 Corning 对手方。该事件只补充 chip-vs-downstream 的光连接订单一腿，不证明整条跨公司规则前提。",
+      "en": "A joint Corning and Verizon release dated September 8, 2026 (https://www.corning.com/worldwide/en/about-us/news-events/news-releases/2026/09/verizon-and-corning-announce-multi-year-multi-billion-dollar-supply-agreement-for-broadband-expansion-and-next-gen-ai-infrastructure.html) reports a multi-year, multi-billion-dollar supply agreement for 80+ million miles of high-density optical fiber and connectivity solutions in 2027–2032, serving home/business broadband and a long-haul backbone directly connecting data centers for AI hyperscalers. This is an issuer-disclosed agreement, not delivered volume or recognized revenue. Specific value, pricing, take-or-pay terms and annual delivery phasing are not supplied; broadband and AI volumes are not split. Fiber miles are not route miles, so total volume cannot quantify AI demand. AWS is an example of Verizon customers, not Corning's counterparty in this agreement. This adds evidence only for the optical-order leg of chip-vs-downstream, not its full cross-company premise."
+    },
+    "crossChecks": [
+      "chip-vs-downstream"
+    ],
+    "tickers": [
+      "GLW"
+    ],
+    "reportIds": [
+      "corning-2026"
+    ]
+  },
+  {
     "id": "amkor-arizona-phase-2-expansion-2026-09-08",
     "date": "2026-09-08",
     "title": {
