@@ -2434,5 +2434,100 @@
     "monitoringRefs": [
       "kioxia-2026:capital-returns-execution"
     ]
+  },
+  {
+    "id": "alab-q2-2026-concentration-warrants-reviewed",
+    "date": "2026-08-05",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "ALAB Q2 10-Q：客户表观察与权证 2.60% 触发分别复核",
+      "en": "ALAB Q2 10-Q: customer-table observation and 2.60% warrant trigger reviewed separately"
+    },
+    "detail": {
+      "zh": "Q2 10-Q：四家 10%+ 客户为 29%/25%/15%/13%，合计 82%；Q1 五家合计 90%。数量减少命中原有表格观察条件；匿名字母不作为跨报告实体匹配。制造伙伴可调配终端客户产量，因此没有证据识别客户流失；最大客户 29% 未超过约 35%。 Q2 冲减收入 $10.2M / $392.4M = 2.60%（冲减前收入分母为 2.53%）；H1 $12.3M。均高于约 2% 单季阈值；1,663,042 股已解锁可行权、另 24,722 股很可能解锁，Holder 截至 06-30 未行权。冲减为非现金确认，但经济让利与未来稀释风险仍存在；不能把全部冲减归给单一权证批次或匿名最大客户。 来源：https://www.sec.gov/Archives/edgar/data/1736297/000173629726000035/alab-20260630.htm；Q1 比较：https://www.sec.gov/Archives/edgar/data/1736297/000173629726000020/alab-20260331.htm。2026-10-11 复核，不伪装为新发生的 10 月事件。",
+      "en": "Q2 10-Q: four 10%+ customers at 29%/25%/15%/13%, 82% combined, versus five totaling 90% in Q1. The count reduction fires the original table-observation condition; anonymous letters are not used as cross-filing entity identifiers. Manufacturing-partner shifts can change direct-customer shares, so end-customer loss is not established; 29% does not exceed ~35%. Q2 contra-revenue was $10.2M / $392.4M = 2.60% (2.53% using revenue before the reduction); H1 was $12.3M. The quarterly ratio exceeds ~2%; 1,663,042 shares were vested/exercisable and 24,722 probable of vesting, with no Holder exercise through June 30. Non-cash recognition still represents an economic give-back and potential dilution; do not assign the entire charge to one tranche or equate the Holder with the anonymous largest customer. Sources: https://www.sec.gov/Archives/edgar/data/1736297/000173629726000035/alab-20260630.htm; Q1 comparator https://www.sec.gov/Archives/edgar/data/1736297/000173629726000020/alab-20260331.htm. Reviewed 2026-10-11; this is not a newly occurring October event."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "ALAB"
+    ],
+    "reportIds": [
+      "alab-2026"
+    ],
+    "monitoringRefs": [
+      "alab-2026:customer-concentration",
+      "alab-2026:customer-warrant-contra-revenue"
+    ]
+  },
+  {
+    "id": "alab-q2-2026-filed-financials-supply-review",
+    "date": "2026-08-05",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "ALAB 正式 Q2 财务确认；供应余额不能证明瓶颈",
+      "en": "ALAB filed Q2 financials confirmed; supply balances do not establish a bottleneck"
+    },
+    "detail": {
+      "zh": "2026-10-11 复核：正式 Q2 10-Q 收入 $392.400M，同比 104.5%、环比 27.3%。08-04 公司给出 Q3 $540-560M 指引，中点相对 Q3 2025 $230.575M 隐含同比 138.5%；Scorpio 成为最大产品线仍是 Q3 预期，未当作已实现产品收入。 Q2 GAAP 毛利率 73.3%，发行人非 GAAP 73.7%；Q3 两口径约 72% 为指引。低于 Q1 76% 一段，尚未形成持续低于约 70% 的读数；10-Q 将下降归因于硬件结构及权证影响，不将全幅降幅归给权证。 Q2 库存 $113.781M、采购承诺 $181.669M；这些余额不证明配给、缺货、交期或已执行订单。旧 within 依赖 Q1 电话会供应口径，本轮未取得足够新的公开供应/交期证据来维持当前 within，因此改为 unclear，独立瓶颈仍未获证实。 来源：https://www.sec.gov/Archives/edgar/data/1736297/000173629726000035/alab-20260630.htm；非 GAAP 与指引：https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-reports-second-quarter-2026-financial-results",
+      "en": "Reviewed 2026-10-11: Filed Q2 10-Q revenue was $392.400M, +104.5% YoY and +27.3% QoQ. The August 4 issuer Q3 guide of $540-560M implies +138.5% YoY at midpoint versus Q3 2025 revenue of $230.575M; Scorpio becoming the largest family remains a Q3 expectation, not an observed product-revenue result. Q2 GAAP gross margin was 73.3%, issuer non-GAAP 73.7%; Q3 ~72% under both measures is guidance. Below the Q1 mid-76% range, but not sustained below ~70%. The 10-Q attributes the decrease to hardware mix and warrant effects; the entire decline is not assigned to warrants. Q2 inventory was $113.781M and purchase commitments $181.669M; balances do not establish allocation, shortages, lead times or executed orders. The old within relied on Q1 call commentary; this review lacks sufficient refreshed public supply/lead-time evidence to maintain a current within reading, so it is unclear. An independent bottleneck remains unproven. Sources: https://www.sec.gov/Archives/edgar/data/1736297/000173629726000035/alab-20260630.htm; non-GAAP and guidance https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-reports-second-quarter-2026-financial-results"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "ALAB"
+    ],
+    "reportIds": [
+      "alab-2026"
+    ],
+    "monitoringRefs": [
+      "alab-2026:revenue-growth-and-scorpio-mix",
+      "alab-2026:gross-margin-trajectory",
+      "alab-2026:interconnect-supply-constraint"
+    ]
+  },
+  {
+    "id": "alab-aries7-leo-2026-roadmap-review",
+    "date": "2026-10-08",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "ALAB Leo 与 Aries 7：送样和路线图，非收入确认",
+      "en": "ALAB Leo and Aries 7: sampling and roadmap, not revenue confirmation"
+    },
+    "detail": {
+      "zh": "09-15 Leo 新系列正向 hyperscaler 送样；10-08 Aries 7 覆盖铜与光连接、预计 Q4 送样。合作/送样与路线图不是订单、量产收入或独立插槽必然存续的证明。本轮公开资料未提供重大平台已吸收独立 retiming 的确认，也不足以排除未来集成风险。 来源：https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-announces-aries-7-industrys-first-pcie-7-signal；https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-bolsters-leo-smart-memory-controller-family-agentic",
+      "en": "The September 15 Leo expansion was sampling with hyperscalers; the October 8 Aries 7 portfolio spans copper and optical links with sampling expected in Q4. Collaboration, sampling and roadmaps are not orders, production revenue or proof that discrete sockets must persist. Reviewed public sources do not confirm major-platform absorption of discrete retiming, nor exclude future integration. Sources: https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-announces-aries-7-industrys-first-pcie-7-signal; https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-bolsters-leo-smart-memory-controller-family-agentic"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "ALAB"
+    ],
+    "reportIds": [
+      "alab-2026"
+    ],
+    "monitoringRefs": [
+      "alab-2026:scale-up-socket-absorption"
+    ]
+  },
+  {
+    "id": "alab-2026-10-11-valuation-rating-review",
+    "date": "2026-10-11",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "ALAB 独立估值及评级复核：回避 / 中确信",
+      "en": "ALAB independent valuation and rating review: bearish-avoid / medium"
+    },
+    "detail": {
+      "zh": "权证冲减 2.60% 已触发既有单季约 2% 降级条件，而客户表减少只说明直接客户跨越披露门槛，不能证实终端客户流失。以 $342.21、EV $58.12B（48.4x TTM、31.6x 自估 CY2026E 中点）计，20/50/30 情景中点给出约 $47.75B 的三年终值 EV，按 8% 折现约 $37.90B，比当前 EV 低约 34.8%。这是主观情景检验而非目标价。104.5% Q2 增长、Q3 $540-560M 指引和 Scorpio 爬坡支持牛市反证，但不足以消除客户让利与集成风险；下调回避，维持中确信。 $342.21（10-09 收盘）、最新披露 173,485,104 股（07-31）与 06-30 净现金 $1.253B：EV $58.12B，48.4x TTM 收入，30.9-32.3x 本报告自估 CY2026E $1.801-1.881B（中点 31.6x）。Q2 YoY 104.5%，未触发增速低于约 40% 且倍数高于约 30x 的联合条件；也未触发约 20x 上调条件。within 不表示便宜，现有权证条件另行已触发。 股价来源：https://query1.finance.yahoo.com/v8/finance/chart/ALAB?range=1y&interval=1d；财务：https://www.sec.gov/Archives/edgar/data/1736297/000173629726000035/alab-20260630.htm",
+      "en": "Warrant contra-revenue of 2.60% fires the existing quarterly ~2% downgrade condition; the smaller direct-customer table does not establish end-customer loss. At $342.21 and EV of $58.12B (48.4x TTM, 31.6x our own CY2026E midpoint), the 20/50/30 scenario midpoints imply ~$47.75B of three-year terminal EV, or ~$37.90B discounted at 8%, about 34.8% below current EV. This is a subjective scenario test, not a price target. Q2 growth of 104.5%, Q3 guidance of $540-560M and the Scorpio ramp support the bull countercase but do not remove customer give-back and integration risk: bearish-avoid, medium conviction. $342.21 (Oct 9 close), latest disclosed 173,485,104 shares (July 31) and June 30 net cash of $1.253B: EV $58.12B, 48.4x TTM revenue and 30.9-32.3x our own CY2026E revenue of $1.801-1.881B (31.6x midpoint). Q2 YoY growth of 104.5% does not meet the combined <~40% growth / >~30x multiple condition, nor is the ~20x upgrade condition met. Within does not mean inexpensive; the separate warrant condition has fired. Price source: https://query1.finance.yahoo.com/v8/finance/chart/ALAB?range=1y&interval=1d; financials https://www.sec.gov/Archives/edgar/data/1736297/000173629726000035/alab-20260630.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "ALAB"
+    ],
+    "reportIds": [
+      "alab-2026"
+    ],
+    "monitoringRefs": [
+      "alab-2026:valuation-multiple-vs-growth"
+    ]
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10",
+  "generatedAt": "2026-10-11",
   "entries": [
     {
       "reportId": "reddit-2026",
@@ -641,12 +641,12 @@
       "reportId": "alab-2026",
       "symbol": "ALAB",
       "status": "carried-forward",
-      "attemptedAt": "2026-10-10",
-      "baseDate": "2026-07-30",
-      "basePrice": 299.69,
+      "attemptedAt": "2026-10-11",
+      "baseDate": "2026-10-09",
+      "basePrice": 342.21,
       "lastDate": "2026-10-09",
       "lastClose": 342.21,
-      "changePct": 14.2,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {

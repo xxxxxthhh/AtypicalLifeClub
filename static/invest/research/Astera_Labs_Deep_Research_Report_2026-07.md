@@ -1,7 +1,7 @@
 # Astera Labs (ALAB) Deep Research Report
 
 Coverage date: 2026-07-31
-Last updated: 2026-08-05
+Last updated: 2026-10-11
 Ticker: NASDAQ: ALAB
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -9,11 +9,35 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 ## Executive Summary
 
+**2026-10-11 independent review — current view: bearish-avoid, medium conviction.** The prior cautious judgment is superseded. The price anchor is **$342.21, the 2026-10-09 regular-session close**, independently refreshed from [Yahoo market data](https://query1.finance.yahoo.com/v8/finance/chart/ALAB?range=1y&interval=1d); October 11 is a weekend, not another trading observation. The current facts are the filed Q2 2026 statements, not merely the preliminary August 4 release. The chain role remains architecture-check; reviewed sources do not establish a separate supply bottleneck.
+
+Two monitoring conditions require different interpretations. Q1 had five direct customers above 10%, Q2 four: the count observation fires, but anonymous letters do not reliably identify an end customer across filings and manufacturing partners can shift production. The largest direct-customer share remains 29%, below the separate ~35% adverse threshold. Q2 warrant contra-revenue was $10.2M / $392.4M = **2.60%**, versus the existing ~2% quarterly downgrade condition. Even with pre-reduction revenue ($402.6M) the ratio is 2.53%. That is an observed economic give-back, not evidence of a new cash payment or exercised dilution. The Q2 10-Q reports 1,663,042 vested/exercisable shares, another 24,722 probable of vesting, and no exercise by the Holder through June 30. The charge covers the warrants collectively; neither the anonymous largest customer nor one particular tranche can be assigned the full charge. [Q2 10-Q](https://www.sec.gov/Archives/edgar/data/1736297/000173629726000035/alab-20260630.htm); [Q1 comparator](https://www.sec.gov/Archives/edgar/data/1736297/000173629726000020/alab-20260331.htm).
+
+The filed Q2 growth of 104.5%, issuer non-GAAP gross margin of 73.7%, and Q3 $540-560M revenue guide argue against a business-collapse diagnosis. However, an already fired customer-economics condition and the current scenario skew support the downgrade at this price. Conviction stays medium: the accounting threshold is clear, while actual Q3 Scorpio mix, 2027 conversion and long-run socket survival remain uncertain. This is a current-cycle incremental judgment change, with prior evidence preserved below as dated history.
+
+| Current metric | 2026-10-11 review |
+|---|---|
+| Completed-session price | $342.21, 2026-10-09, USD |
+| Equity-value share proxy | 173,485,104 shares disclosed as of 2026-07-31; $59.37B implied market cap |
+| Cash / securities / financial debt | $111.453M / $1,141.505M / no interest-bearing financial debt disclosed at 2026-06-30; leases are not included as financial debt |
+| Net cash / EV | $1.253B / $58.12B; using dated balance-sheet and share proxies, not an asserted October share count |
+| Q2 revenue / growth | $392.400M, +104.5% YoY, +27.3% QoQ |
+| TTM revenue / GAAP operating income / net income | $1,201.919M / $273.445M / $369.494M, ended 2026-06-30 |
+| TTM OCF / capex / FCF | $335.712M / $59.036M / $276.676M |
+| Valuation | 48.4x EV/TTM revenue; 31.6x own CY2026E midpoint; 160.7x GAAP P/E; 210.0x EV/TTM FCF; 0.47% FCF yield |
+| Direct customers / warrant observation | Four above 10%, 82% combined, largest 29%; warrant contra-revenue 2.60% |
+| Next actual financial checkpoint | Q3 release November 3, 2026 after market close, issuer-confirmed |
+
+**Historical initiation quick stats below:** Q1 financials, the July price and the August preliminary monitoring note are preserved as prior-period evidence. They do not represent the current price, valuation or judgment.
+
+**Historical initiation evidence (2026-07-31); current changes above supersede it.**
+
+
 > **Framework note:** This report opens the AI-infrastructure book's **interconnect** layer, which until now had zero nodes, and it opens it as an **architecture check**. The queue label that commissioned it asks a specific question: does rack-level fan-out - PCIe/CXL retimers, PCIe smart fabric switches, active Ethernet cable modules - behave as a bottleneck *distinct* from the optical layer (coherent-2026, corning-2026, aaoi-2026) and the networking layer (arista-2026), or is it merely a component of them? Section 3 answers that question with the evidence, and the answer is not the flattering one. The chain role is deliberately `architecture-check` rather than `common-constraint`: the role names the **job** - testing which scale-up path (NVLink Fusion, open PCIe/Scorpio, UALink, Ethernet) actually gets adopted and who gets paid for it - and that job survives whichever way the distinctness question resolves. Labelling this layer a common constraint would have been falsified by the report's own finding. On the supply side it pairs with broadcom-2026 and marvell-2026, which sell the merchant switch and SerDes silicon that could absorb ALAB's function.
 
-**One-line thesis:** Astera Labs is the purest listed expression of connectivity content inside the AI rack - Q1 2026 revenue of $308.4M grew 93% year over year at a 76.3% gross margin, PCIe Gen 6 products crossed one-third of revenue, and management claims over $1,000 of Astera silicon content per accelerator - but at the July 30, 2026 close of $299.69 the market still pays roughly **50x trailing-twelve-month revenue** and about **33x our own CY2026 revenue estimate**, which requires roughly 40-50% compound revenue growth sustained for five years just to earn a normal return, from a fabless company of 756 full-time employees whose top five direct customers were 90% of Q1 revenue and whose largest one holds a warrant for 3.26M shares that is recognized as contra-revenue as it buys more.
+~~**One-line thesis:** Astera Labs is the purest listed expression of connectivity content inside the AI rack - Q1 2026 revenue of $308.4M grew 93% year over year at a 76.3% gross margin, PCIe Gen 6 products crossed one-third of revenue, and management claims over $1,000 of Astera silicon content per accelerator - but at the July 30, 2026 close of $299.69 the market still pays roughly **50x trailing-twelve-month revenue** and about **33x our own CY2026 revenue estimate**, which requires roughly 40-50% compound revenue growth sustained for five years just to earn a normal return, from a fabless company of 756 full-time employees whose top five direct customers were 90% of Q1 revenue and whose largest one holds a warrant for 3.26M shares that is recognized as contra-revenue as it buys more.~~
 
-**Current view:** **Cautious, medium conviction.** This is not a quality objection. The operating evidence is among the best in the entire book: 93% growth, 76% gross margin, 36.2% non-GAAP operating margin, net cash of about $1.18B, no debt, and a genuinely new switch socket (Scorpio X-Series, 320 lanes) that did not exist in the rack two years ago. The objection is skew at the price. The July 2026 AI-infrastructure repricing took ALAB from a $432.74 close on July 6 to $249.74 on July 29 (-42.3%) and then back up 20.0% in a single session on July 30 - and even after that round trip the multiple is the richest in this coverage by a wide margin. Conviction is medium rather than low because no single quarter closes a gap this size, and medium rather than high because the two things that would settle the thesis - 2027 NVLink Fusion and UALink revenue, and whether the retimer function survives integration - are outside the current disclosure window.
+~~**Current view:** **Cautious, medium conviction.** This is not a quality objection. The operating evidence is among the best in the entire book: 93% growth, 76% gross margin, 36.2% non-GAAP operating margin, net cash of about $1.18B, no debt, and a genuinely new switch socket (Scorpio X-Series, 320 lanes) that did not exist in the rack two years ago. The objection is skew at the price. The July 2026 AI-infrastructure repricing took ALAB from a $432.74 close on July 6 to $249.74 on July 29 (-42.3%) and then back up 20.0% in a single session on July 30 - and even after that round trip the multiple is the richest in this coverage by a wide margin. Conviction is medium rather than low because no single quarter closes a gap this size, and medium rather than high because the two things that would settle the thesis - 2027 NVLink Fusion and UALink revenue, and whether the retimer function survives integration - are outside the current disclosure window.~~
 
 **Timing note, updated:** Astera Labs disclosed **preliminary Q2 2026 results (quarter ended 2026-06-30)** on **2026-08-04**. The report's valuation frame remains anchored to the 2026-07-30 close and has not been recomputed for this monitoring update.
 
@@ -23,10 +47,10 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 | Metric | Value |
 |--------|-------|
-| Share price | $299.69 (Jul 30, 2026 close, Yahoo/yfinance); +20.0% on the session, from $249.74 |
+| ~~Share price~~ | ~~$299.69 (Jul 30, 2026 close, Yahoo/yfinance); +20.0% on the session, from $249.74~~ |
 | Trailing-year close range | $100.27 (2026-03-30) - $483.02 (2026-06-30); today is ~38.0% below the June closing high and ~199% above the March closing low |
-| Market cap / shares | About $51.37B; 171,407,939 shares outstanding at 2026-04-30 (10-Q cover) |
-| Net cash / enterprise value | About $1.18B (cash $148.3M + marketable securities $1,036.2M, no meaningful debt) / about $50.19B |
+| ~~Market cap / shares~~ | ~~About $51.37B; 171,407,939 shares outstanding at 2026-04-30 (10-Q cover)~~ |
+| ~~Net cash / enterprise value~~ | ~~About $1.18B (cash $148.3M + marketable securities $1,036.2M, no meaningful debt) / about $50.19B~~ |
 | Latest reported period | Preliminary Q2 2026, quarter ended 2026-06-30 (disclosed 2026-08-04); valuation remains on the 2026-07-30 frame |
 | Q1 revenue / YoY / QoQ | $308.4M, +93% / +14% |
 | Q1 gross margin (GAAP / non-GAAP) | 76.3% / 76.4% |
@@ -37,10 +61,15 @@ Disclaimer: This report is for informational and research purposes only. It does
 | FY2025 / TTM revenue | $852.5M (+115%) / $1,001.4M |
 | TTM operating income / net income / FCF | $224.0M / $267.6M / $342.8M (OCF $383.4M less capex $40.6M) |
 | Customer concentration (Q1) | Five direct customers at 29% / 21% / 16% / 12% / 12% - about 90% combined |
-| Valuation | ~51.3x P/TTM revenue; ~50.1x EV/TTM revenue; ~33x EV/CY2026E revenue; ~192x trailing GAAP P/E; ~146x EV/TTM FCF |
+| ~~Valuation~~ | ~~ ~51.3x P/TTM revenue; ~50.1x EV/TTM revenue; ~33x EV/CY2026E revenue; ~192x trailing GAAP P/E; ~146x EV/TTM FCF~~ |
 | Chain role | interconnect **architecture check**: which scale-up fabric wins, and whether merchant fan-out silicon survives integration |
 
 ## 1. Business Overview
+
+**2026-10-11 update:** [Leo expansion](https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-bolsters-leo-smart-memory-controller-family-agentic) was sampling with hyperscalers on September 15; [Aries 7](https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-announces-aries-7-industrys-first-pcie-7-signal) was announced October 8, spanning copper and optical interfaces, with sampling expected in Q4. Roadmap breadth is not booked revenue. The historical product structure below is the initiation frame.
+
+**Historical initiation evidence (2026-07-31); current changes above supersede it.**
+
 
 Astera Labs is a fabless semiconductor company that sells connectivity silicon and the software that manages it. It does not make accelerators, systems, or optics. Its product is the plumbing between accelerators, CPUs, memory, and the network inside and immediately around an AI rack - a market that essentially did not exist as a separate merchant category before PCIe Gen 5 and that the company has so far led.
 
@@ -64,6 +93,9 @@ Three structural points frame everything below.
 
 ## 2. Industry & Competitive Position
 
+**Historical initiation evidence (2026-07-31); current changes above supersede it.**
+
+
 **The market Astera created.** Merchant PCIe retiming became a real category with PCIe Gen 5 in AI servers, and Astera Labs took it early with Aries. Its position in PCIe Gen 5/6 signal conditioning for AI platforms is the strongest in the industry, evidenced by 76% gross margins that have not eroded through three years of scaling. What is far less settled is the newer, larger prize: scale-up fabric switching, where Astera is a challenger rather than an incumbent.
 
 | Competitor | Where it overlaps | Read-through to existing coverage |
@@ -80,6 +112,11 @@ Three structural points frame everything below.
 **Where the competitive position is genuinely strong:** volume PCIe 6 signal conditioning at hyperscalers today, a shipping 320-lane scale-up switch with in-network compute ahead of the merchant field, and a software layer (COSMOS) that is deployed across the fleet and is the kind of asset that decides re-designs. **Where it is not:** every one of those positions is contested by companies with 20 to 70 times its revenue, and in fabric switching the incumbent competence belongs to Broadcom.
 
 ## 3. Is Rack Fan-Out a Distinct Bottleneck?
+
+**2026-10-11 review:** Aries 7 broadens the old copper-only characterization to optical drivers/TIAs. The engineering boundary is no longer strictly copper versus optics. No reviewed source establishes a separately supply-constrained fan-out layer; architecture-check remains the appropriate job. The categorical supply/lead-time claims below are historical Q1 commentary, not a current proof of absence.
+
+**Historical initiation evidence (2026-07-31); current changes above supersede it.**
+
 
 This is the question the coverage queue commissioned, it is the reason the `interconnect` layer exists in the book's schema, and it deserves a direct answer rather than a hedge. The answer this report reaches is: **rack-scale fan-out is a distinct socket, but it is not a distinct bottleneck.** Those are different claims and the difference decides what this layer is for.
 
@@ -104,11 +141,29 @@ This is the question the coverage queue commissioned, it is the reason the `inte
 
 - **Broadcom** already ships the SerDes IP, the PCIe switches and the custom XPUs into the same rack. If it decides that retiming belongs inside its own endpoint silicon, the merchant socket narrows to the platforms Broadcom does not touch.
 - **NVIDIA** decides the scale-up fabric on the largest installed base. Astera's NVLink Fusion participation, announced May 2025 and expanded to custom solutions in December 2025, is genuine business - and it is also the tell: Astera is inside that architecture because NVIDIA invited it, on terms NVIDIA sets, with revenue guided no earlier than 2027.
-- **The customers themselves** are the counterparties on the warrants. A customer with 29% of your revenue and a 3.26M-share warrant struck at $142.82 has both the incentive and the leverage to negotiate price, and the option value rises with your success.
+~~- **The customers themselves** are the counterparties on the warrants. A customer with 29% of your revenue and a 3.26M-share warrant struck at $142.82 has both the incentive and the leverage to negotiate price, and the option value rises with your success.~~
+
+**2026-10-11 attribution correction:** The filing identifies a warrant Holder but does not match it to the anonymous largest direct customer. The concentration and warrant facts remain separate; the bargaining-risk inference does not establish that entity relationship.
 
 Astera's honest defense is the treadmill: every PCIe generation shortens electrical reach, so the retiming problem regenerates faster than integration can absorb it, and each generation lifts content. That defense has worked from Gen 4 through Gen 6. It is a bet on physics staying ahead of integration economics, and it is unfalsifiable until a generation arrives where it does not.
 
 ## 4. Financial Analysis
+
+**2026-10-11 financial review:** the [filed Q2 statements](https://www.sec.gov/Archives/edgar/data/1736297/000173629726000035/alab-20260630.htm) confirm the preliminary revenue and GAAP figures; the [issuer release](https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-reports-second-quarter-2026-financial-results) provides the non-GAAP reconciliation and Q3 guidance. Q2 GAAP operating income was $89.248M (22.7%), net income $153.088M and diluted EPS $0.83; non-GAAP operating income was $153.5M (39.1%) and EPS $0.80. The $50.263M income-tax benefit flatters GAAP net income. Quarterly stock compensation was $63.992M, 16.3% of revenue, excluding $4.0M acquisition share consideration. Revenue growth does not erase dilution economics.
+
+| Review check | Current evidence | Interpretation |
+|---|---|---|
+| Gross margin | GAAP 73.3%, non-GAAP 73.7%; Q3 ~72% guide | Still above ~70%; mix and warrants both matter |
+| Warrant condition | $10.2M / $392.4M = 2.60% | Existing quarterly ~2% condition fired; non-cash is not economically free |
+| Customer-table condition | Q1 five >10% versus Q2 four at 29/25/15/13% | Literal count alert fired; no identified end-customer loss; top share remains below ~35% |
+| Inventory / commitments | $113.781M / $181.669M, including $24.661M for remainder of 2026 | Not executed spend, shortages or lead-time evidence |
+| Cash generation | Q2 OCF $87.678M minus capex $20.468M = FCF $67.210M | H1 cash-flow differences, not separate quarterly cash-flow statements |
+| TTM construction | FY2025 minus H1 2025 plus H1 2026 | Revenue 852.525 - 351.367 + 700.761 = $1,201.919M; FCF (319.306 - 145.870 + 162.276) - (37.544 - 6.562 + 28.054) = $276.676M |
+
+The trailing calculations reconcile the [FY2025 10-K](https://www.sec.gov/Archives/edgar/data/1736297/000173629726000010/alab-20251231.htm) with the Q2 filing. The historical Q1 matrix and peer comparison below retain their original periods; peer market anchors have not been refreshed and cannot establish a current relative-valuation ranking.
+
+**Historical initiation evidence (2026-07-31); current changes above supersede it.**
+
 
 Q1 2026 is an unusually clean operating quarter attached to an unusually noisy earnings statement.
 
@@ -123,7 +178,9 @@ Q1 2026 is an unusually clean operating quarter attached to an unusually noisy e
 | Balance sheet | Cash $148.3M + marketable securities $1,036.2M = ~$1.18B; no meaningful financial debt; equity $1,493.9M | Fortress relative to size; funds R&D through any plausible downturn | A |
 | R&D intensity | Q1 R&D $125.6M, 40.7% of revenue; FY2025 $304.0M | Spending like a company that believes the treadmill defense | B+ |
 | Customer concentration | Five customers at 29% / 21% / 16% / 12% / 12% of Q1 revenue; the same customers were 25% / 20% / 16% / 17% / 13% of receivables | The single largest structural risk; the top customer nearly tripled its share from 12% a year ago | D |
-| Customer warrants | February 2026 warrant for up to 3,262,299 shares at $142.82, max grant-date fair value $280.0M, vesting on purchase tranches; $2.1M of contra-revenue in Q1 | Reported revenue is net of an equity give-back to the largest customer, and the give-back scales with success | C- |
+| ~~Customer warrants~~ | ~~February 2026 warrant for up to 3,262,299 shares at $142.82, max grant-date fair value $280.0M, vesting on purchase tranches; $2.1M of contra-revenue in Q1~~ | ~~Reported revenue is net of an equity give-back to the largest customer, and the give-back scales with success~~ | ~~C-~~ |
+
+**2026-10-11 attribution correction:** The filing identifies a warrant Holder but does not match it to the anonymous largest direct customer. The concentration and warrant facts remain separate; the bargaining-risk inference does not establish that entity relationship.
 | Inventory / commitments | Inventory $60.2M (75 days per management); purchase commitments $79.6M total, $29.6M in the rest of 2026 | Small and short; consistent with no supply constraint | B |
 | M&A | Feb 9, 2026: certain assets of a private data-center acceleration company for $74.0M, of which $68.4M is goodwill and the rest immaterial intangibles | An acqui-hire in substance; small enough not to change the thesis | B |
 
@@ -135,7 +192,7 @@ Q1 2026 is an unusually clean operating quarter attached to an unusually noisy e
 | Revenue growth YoY | +93% | +48% | n/a in that report | +21% |
 | Gross margin | 76.3% GAAP | 69.4% GAAP / 77.1% non-GAAP | ~52% | 39.6% non-GAAP |
 | Operating margin | 20.1% GAAP / 36.2% non-GAAP | 48.6% GAAP / 67.3% non-GAAP | ~14% GAAP | n/a |
-| EV / TTM revenue at each report's anchor | **~50.1x** | ~24-25x | ~14.1x on the FY2027 outlook | ~7.5x |
+| ~~EV / TTM revenue at each report's anchor~~ | ~~**~50.1x**~~ | ~~ ~24-25x~~ | ~~ ~14.1x on the FY2027 outlook~~ | ~~ ~7.5x~~ |
 | Net cash / (net debt) | +$1.18B | -$45B | -$1.1B | -$1.0B |
 
 Astera Labs has the best growth and the best gross margin in that table and the highest multiple by a factor of two against the next-richest name. That is the entire investment question in one row.
@@ -150,9 +207,12 @@ Astera Labs has the best growth and the best gross margin in that table and the 
 | Tax-benefit-flattered net income | Q1 GAAP net income above pre-tax income on a $6.9M tax benefit | Whether an effective tax rate normalizes toward a statutory level in FY2027 |
 | Geographic exposure | 89% of Q1 revenue billed to Taiwan, Singapore and China; the 10-Q flags China trade restrictions and export controls among its risk factors | Any export-control change touching the ODM channel |
 | Insider selling | Frequent Form 4 and Rule 144 filings through June and July 2026 as the stock ran from ~$110 to ~$483 | Whether selling continues after the July drawdown |
-| Valuation | ~50.1x EV/TTM revenue after a 38% drawdown from the June closing high | Whether the multiple compresses through growth or through price |
+| ~~Valuation~~ | ~~ ~50.1x EV/TTM revenue after a 38% drawdown from the June closing high~~ | ~~Whether the multiple compresses through growth or through price~~ |
 
 ## 5. Management & Governance
+
+**Historical initiation evidence (2026-07-31); current changes above supersede it.**
+
 
 Astera Labs is run by its co-founders - Jitendra Mohan, Chief Executive Officer and a director since November 2017, and Sanjay Gajendra, President, Chief Operating Officer and a director - alongside Desmond Lynch, who has been Chief Financial Officer since March 2026, and Philip Mazzara, General Counsel since 2022. The company had 756 full-time employees at 2025 year-end (527 in North America, 208 in Asia, 21 in Europe). The operating record is the strongest argument for the team: from $79.9M of revenue in 2022 to $852.5M in 2025 and a $1.4B+ annualized run rate on the Q2 2026 guide, with gross margin never breaking below the mid-70s and GAAP operating income turning positive in 2025 after a $116.1M loss in 2024. Product execution has been on time and on the standards curve - Aries through PCIe Gen 6 with Gen 7 announced, Scorpio P-Series and then a 320-lane X-Series inside eighteen months.
 
@@ -160,7 +220,9 @@ Four governance items deserve to be named precisely, because they are where the 
 
 **The CFO transition.** Michael Tate, who took the company public, retired as Chief Financial Officer on March 2, 2026 and is providing transition services as a Strategic Advisor to the CEO until September 1, 2026. Desmond Lynch, previously Chief Financial Officer of Rambus from August 2022 to February 2026, took the role in March 2026 and signed the Q1 2026 Form 10-Q. The handover is orderly, well disclosed, and into a strong resume - and it is still a change in the officer who owns guidance quality at a company whose entire valuation rests on one quarter of guidance at a time, with the Q1 2026 call his first. It is noted here, not scored against the thesis.
 
-**The customer warrants.** Since 2022 Astera has issued one customer warrants over 1,484,230 shares, amended and extended by 831,945 shares in 2023, and then in February 2026 a further 3,262,299 shares at a $142.82 exercise price with a maximum grant-date fair value of $280.0M. All vest against purchase tranches and are booked as contra-revenue. This is a legitimate and increasingly common structure for locking in an anchor customer, and it is also an admission of where the bargaining power sits: the company is paying its largest customer, in equity, to keep buying, and the payment scales with the customer's purchases. Investors should read reported revenue as already net of that transfer, and read the ~200bps of Q2 gross-margin guidance attributed to a non-cash warrant impact as the first quarter in which it is material.
+~~**The customer warrants.** Since 2022 Astera has issued one customer warrants over 1,484,230 shares, amended and extended by 831,945 shares in 2023, and then in February 2026 a further 3,262,299 shares at a $142.82 exercise price with a maximum grant-date fair value of $280.0M. All vest against purchase tranches and are booked as contra-revenue. This is a legitimate and increasingly common structure for locking in an anchor customer, and it is also an admission of where the bargaining power sits: the company is paying its largest customer, in equity, to keep buying, and the payment scales with the customer's purchases. Investors should read reported revenue as already net of that transfer, and read the ~200bps of Q2 gross-margin guidance attributed to a non-cash warrant impact as the first quarter in which it is material.~~
+
+**2026-10-11 attribution correction:** The filing identifies a warrant Holder but does not match it to the anonymous largest direct customer. The concentration and warrant facts remain separate; the bargaining-risk inference does not establish that entity relationship.
 
 **Stock-based compensation.** $48.9M in Q1 alone - 15.9% of revenue, and larger than the $61.8M of GAAP operating income by two-thirds. Unrecognized RSU expense is $457.6M over roughly 1.9 years, with $43.1M more on PSUs over 2.4 years. Non-GAAP operating margin of 36.2% is what the business looks like if that cost is treated as zero; GAAP's 20.1% is what it looks like if it is treated as real. It is real.
 
@@ -181,6 +243,9 @@ That last row is why this report's conviction is capped. A company with no segme
 
 ## 6. Bull Case
 
+**Historical initiation evidence (2026-07-31); current changes above supersede it.**
+
+
 The bull case is that Astera Labs is the toll booth on a road that gets longer with every accelerator generation, and that content per accelerator compounds faster than unit growth decelerates.
 
 1. **The attach rate is rising, not flat.** Over $1,000 of content per accelerator today, per management, versus a retimer-only business three years ago. Scorpio adds a switch socket on top of the retimer socket, Taurus adds cable modules, Leo adds a memory-tier socket. Each is incremental content on the same unit.
@@ -189,22 +254,30 @@ The bull case is that Astera Labs is the toll booth on a road that gets longer w
 4. **2027 has three separate call options.** NVLink Fusion custom solutions, UALink switches as hyperscaler ASICs and GPUs launch, and Leo KV-cache offload each have a design win and each is guided to start contributing revenue in 2027. None is in the current run rate.
 5. **The financial profile is rare.** 76% gross margin, 36% non-GAAP operating margin, $342.8M of trailing free cash flow, $1.18B of net cash and no debt, at 93% growth. Very few companies in this book combine growth and margin at this level, and none combines them with this balance sheet.
 
-Upside frame: if revenue compounds at 50%+ through 2029 as content per accelerator rises and Scorpio, UALink and NVLink Fusion all convert, CY2029 revenue in the $4-5B range at a mature high-margin connectivity multiple of 15-18x sales supports an enterprise value materially above today's $50.19B, and the current price will have proved to be a discount to a company that simply kept executing.
+~~Upside frame: if revenue compounds at 50%+ through 2029 as content per accelerator rises and Scorpio, UALink and NVLink Fusion all convert, CY2029 revenue in the $4-5B range at a mature high-margin connectivity multiple of 15-18x sales supports an enterprise value materially above today's $50.19B, and the current price will have proved to be a discount to a company that simply kept executing.~~
 
 ## 7. Bear Case
 
+**Historical initiation evidence (2026-07-31); current changes above supersede it.**
+
+
 The bear case is not that the business is bad. It is that at this price the business has to be extraordinary for five consecutive years, while three separate parties hold the option to make it ordinary.
 
-1. **The multiple requires a five-year sprint.** At ~$50.19B of enterprise value on $1,001.4M of trailing revenue, an 8% annual required return to a generous terminal multiple of 12x sales implies roughly $6.1B of revenue by 2030 - about a 44% compound annual growth rate sustained for five straight years. At a still-generous 15x terminal it is about 38%. Current growth is 93% and the Q2 guide implies about +88%, so the bar is not absurd - but it allows no deceleration below the high 30s at any point, and semiconductor content cycles do not usually behave that way.
+~~1. **The multiple requires a five-year sprint.** At ~$50.19B of enterprise value on $1,001.4M of trailing revenue, an 8% annual required return to a generous terminal multiple of 12x sales implies roughly $6.1B of revenue by 2030 - about a 44% compound annual growth rate sustained for five straight years. At a still-generous 15x terminal it is about 38%. Current growth is 93% and the Q2 guide implies about +88%, so the bar is not absurd - but it allows no deceleration below the high 30s at any point, and semiconductor content cycles do not usually behave that way.~~
 2. **Absorption is a live option held by others.** Broadcom ships SerDes, PCIe switches and custom accelerators into the same rack and could integrate retiming into its endpoints. NVIDIA controls the scale-up fabric on the largest accelerator base and admits Astera into NVLink Fusion on its own terms and timing. The merchant socket exists because integration has not happened yet, not because it cannot.
-3. **The customer is a counterparty, not just a buyer.** One customer is 29% of revenue and holds warrants over up to 5.6M shares across three tranches, the newest struck at $142.82 with a $280.0M maximum fair value, vesting as it buys more. Reported revenue is already net of that. Five customers are roughly 90% of the total, and 89% of revenue is billed into Taiwan, Singapore and China.
-4. **Non-GAAP flatters the economics twice.** Stock-based compensation of $48.9M a quarter is 15.9% of revenue and is the whole GAAP-to-non-GAAP bridge; separately, GAAP net income exceeded pre-tax income on a tax benefit and includes $11.6M of interest income. The ~109x forward non-GAAP P/E implied by the Q2 guide is the *flattering* earnings multiple. The trailing GAAP one is about 192x.
-5. **There is no order book to fall back on.** No backlog, no RPO, no segment revenue, no end-customer disclosure. When the growth rate is questioned, there is nothing in the disclosure to answer with except the next quarter's guide.
-6. **The July 2026 tape is itself evidence about ownership.** ALAB closed at $432.74 on July 6, $249.74 on July 29, and $299.69 on July 30 - a 42% drawdown and then a 20% single-session bounce, with no company news in between. A shareholder base that reprices a company by a fifth in a session on sector flow is not a base that will underwrite a five-year compounding story through a disappointing quarter.
+~~3. **The customer is a counterparty, not just a buyer.** One customer is 29% of revenue and holds warrants over up to 5.6M shares across three tranches, the newest struck at $142.82 with a $280.0M maximum fair value, vesting as it buys more. Reported revenue is already net of that. Five customers are roughly 90% of the total, and 89% of revenue is billed into Taiwan, Singapore and China.~~
 
-Downside frame: if growth normalizes toward 40% in 2027 as PCIe 6 laps itself, if Scorpio's ramp is respectable rather than transformative, and if the multiple compresses to a still-rich 15x forward sales on roughly $2.2B of CY2027 revenue, enterprise value lands near $33B - roughly $200 per share on today's share count, about 33% below the $299.69 anchor and still above where the stock traded as recently as April 2026.
+**2026-10-11 attribution correction:** The filing identifies a warrant Holder but does not match it to the anonymous largest direct customer. The concentration and warrant facts remain separate; the bargaining-risk inference does not establish that entity relationship.
+~~4. **Non-GAAP flatters the economics twice.** Stock-based compensation of $48.9M a quarter is 15.9% of revenue and is the whole GAAP-to-non-GAAP bridge; separately, GAAP net income exceeded pre-tax income on a tax benefit and includes $11.6M of interest income. The ~109x forward non-GAAP P/E implied by the Q2 guide is the *flattering* earnings multiple. The trailing GAAP one is about 192x.~~
+5. **There is no order book to fall back on.** No backlog, no RPO, no segment revenue, no end-customer disclosure. When the growth rate is questioned, there is nothing in the disclosure to answer with except the next quarter's guide.
+~~6. **The July 2026 tape is itself evidence about ownership.** ALAB closed at $432.74 on July 6, $249.74 on July 29, and $299.69 on July 30 - a 42% drawdown and then a 20% single-session bounce, with no company news in between. A shareholder base that reprices a company by a fifth in a session on sector flow is not a base that will underwrite a five-year compounding story through a disappointing quarter.~~
+
+~~Downside frame: if growth normalizes toward 40% in 2027 as PCIe 6 laps itself, if Scorpio's ramp is respectable rather than transformative, and if the multiple compresses to a still-rich 15x forward sales on roughly $2.2B of CY2027 revenue, enterprise value lands near $33B - roughly $200 per share on today's share count, about 33% below the $299.69 anchor and still above where the stock traded as recently as April 2026.~~
 
 ## 8. Key Uncertainties
+
+**Historical initiation evidence (2026-07-31); current changes above supersede it.**
+
 
 | Uncertainty | Why it matters | When we will know |
 |-------------|----------------|-------------------|
@@ -223,36 +296,67 @@ Thesis-breaking conditions:
 
 ## 9. Valuation Context
 
-The following is valuation context, not a target price or recommendation. All arithmetic uses the 2026-07-30 close of $299.69 and 171,407,939 shares outstanding as of 2026-04-30, giving a market cap of about $51.37B. Net cash is about $1.18B (cash $148.3M plus marketable securities $1,036.2M, with no meaningful financial debt), giving an enterprise value of about $50.19B. Trailing-twelve-month figures are the four quarters ended 2026-03-31: revenue $1,001.4M, operating income $224.0M, net income $267.6M, operating cash flow $383.4M, capital expenditure $40.6M.
+**2026-10-11 current valuation; supersedes the historical July grid below.** Market cap = $342.21 × 173,485,104 = $59.368B; EV = $59.368B - ($111.453M + $1,141.505M) = $58.115B. The share count is the latest disclosed cover count dated July 31, not a verified October count. As a dilution sensitivity, using the issuer's Q3 guide of 185M weighted-average diluted shares instead gives ~$63.31B equity value and ~$62.06B EV; weighted-average diluted shares are not shares outstanding. The base proxy may understate fully diluted value.
+
+| Current method | Recomputed value | Input boundary |
+|---|---|---|
+| P / TTM revenue | $59.368B / $1.201919B = 49.4x | Filed trailing revenue |
+| EV / TTM revenue | $58.115B / $1.201919B = **48.4x** | Same market and balance-sheet proxy |
+| GAAP P/E | $59.368B / $0.369494B = 160.7x | Tax-benefit-flattered net income |
+| EV / TTM FCF | $58.115B / $0.276676B = 210.0x | OCF less property/equipment capex |
+| FCF yield | $0.276676B / $59.368B = 0.47% | Historical cash generation, not guidance |
+| CY2026E revenue | $0.700761B H1 + $0.540-0.560B Q3 guide + $0.560-0.620B own Q4 assumption = $1.801-1.881B | Q4 range is this report's assumption; no issuer annual guide |
+| EV / CY2026E | 30.9-32.3x, **31.6x** at midpoint | Own estimate, not a reported multiple |
+| Reverse test | $58.115B × 1.08³ / 12 = ~$6.10B horizon revenue | ~49.1% three-year CAGR from CY2026E midpoint; 12x terminal sales and 8% required return are assumptions |
+
+**Current subjective scenario test:** a three-year discount convention for a 2029 revenue horizon; enterprise-value scenarios, no single-point share-price target. Revenue, margin and terminal multiples are assumptions, not issuer forecasts. The 20/50/30 weights remain explicit judgment inputs, not measured probabilities.
+
+| Scenario | 2029 revenue and non-GAAP gross-margin assumptions | Terminal EV / revenue | Terminal EV range | Probability weight |
+|---|---|---|---|---|
+| Bull | $6.0-6.5B, >75%; Scorpio plus 2027 options convert, customer give-back moderates, merchant socket survives | 15-18x | $90-117B | 20% |
+| Base | $3.5-4.3B, 70-74%; strong ramp then deceleration, continued warrant/mix drag, shared switch socket | 10-12x | $35-51.6B | 50% |
+| Bear | $2.4-3.0B, <70%; sharper growth normalization, platform absorption or stronger customer bargaining | 6-8x | $14.4-24B | 30% |
+
+Using each revenue and multiple midpoint gives 20% × $103.125B + 50% × $42.90B + 30% × $18.90B = **$47.745B** terminal EV; at 8% for three years, present EV is **$37.902B**, about **34.8% below** the $58.115B anchor. This is a sensitivity-based negative skew, not a valuation fact or target. The shortfall exists despite the strongest current operating counterevidence: Q2 +104.5% growth and a Q3 guide implying +138.5% YoY at midpoint. No refreshed peer table or full DCF has been produced; all July peer rankings, five-year reverse tests and old price scenarios below are stale and not current conclusions.
+
+**Historical initiation evidence (2026-07-31); current changes above supersede it.**
+
+
+~~The following is valuation context, not a target price or recommendation. All arithmetic uses the 2026-07-30 close of $299.69 and 171,407,939 shares outstanding as of 2026-04-30, giving a market cap of about $51.37B. Net cash is about $1.18B (cash $148.3M plus marketable securities $1,036.2M, with no meaningful financial debt), giving an enterprise value of about $50.19B. Trailing-twelve-month figures are the four quarters ended 2026-03-31: revenue $1,001.4M, operating income $224.0M, net income $267.6M, operating cash flow $383.4M, capital expenditure $40.6M.~~
 
 | Method | Current readout | Key inputs | Interpretation |
 |--------|-----------------|------------|----------------|
-| P / TTM revenue | $51.37B / $1,001.4M = ~51.3x | Four quarters ended 2026-03-31 | The richest sales multiple in this coverage by roughly 2x |
-| EV / TTM revenue | $50.19B / $1,001.4M = ~50.1x | Net cash ~$1.18B | Against Broadcom at ~24-25x, Marvell at ~14.1x forward, Coherent at ~7.5x |
-| EV / CY2026E revenue | $50.19B / ~$1.5B = **~33x** | Our own estimate: Q1 actual $308.4M plus the Q2 guide midpoint $360M, with H2 growing at a decelerating sequential rate. Not company guidance | Still roughly 1.4x Broadcom's trailing multiple on a company 1/20th the size |
-| EV / CY2027E revenue | $50.19B / ~$2.25B = ~22x | Assumes 50% growth on the CY2026 estimate; our assumption, not guidance | Two years of flawless execution gets to a multiple that is merely expensive |
-| Trailing P/E (GAAP) | $51.37B / $267.6M = **~192x** | TTM net income; per-share sums are not strictly additive across periods | Flattered by a tax benefit and interest income |
-| Forward P/E (non-GAAP, annualized) | $299.69 / ~$2.76 = ~109x | Q2 non-GAAP EPS guide midpoint $0.69 annualized; excludes ~15.9%-of-revenue stock compensation | The most generous earnings framing available, and it is still triple digits |
-| EV / TTM free cash flow | $50.19B / $342.8M = ~146x | OCF $383.4M less capex $40.6M | Real cash, priced for a decade of it |
-| Free-cash-flow yield | $342.8M / $51.37B = ~0.67% | Same | Effectively an option premium, not a yield |
-| EV / TTM operating income | $50.19B / $224.0M = ~224x | GAAP operating income | Applying Q1's 36.2% non-GAAP margin to trailing revenue implies roughly $362M and ~139x - our own derivation, not a company-reported trailing figure |
+| ~~P / TTM revenue~~ | ~~$51.37B / $1,001.4M = ~51.3x~~ | ~~Four quarters ended 2026-03-31~~ | ~~The richest sales multiple in this coverage by roughly 2x~~ |
+| ~~EV / TTM revenue~~ | ~~$50.19B / $1,001.4M = ~50.1x~~ | ~~Net cash ~$1.18B~~ | ~~Against Broadcom at ~24-25x, Marvell at ~14.1x forward, Coherent at ~7.5x~~ |
+| ~~EV / CY2026E revenue~~ | ~~$50.19B / ~$1.5B = **~33x**~~ | ~~Our own estimate: Q1 actual $308.4M plus the Q2 guide midpoint $360M, with H2 growing at a decelerating sequential rate. Not company guidance~~ | ~~Still roughly 1.4x Broadcom's trailing multiple on a company 1/20th the size~~ |
+| ~~EV / CY2027E revenue~~ | ~~$50.19B / ~$2.25B = ~22x~~ | ~~Assumes 50% growth on the CY2026 estimate; our assumption, not guidance~~ | ~~Two years of flawless execution gets to a multiple that is merely expensive~~ |
+| ~~Trailing P/E (GAAP)~~ | ~~$51.37B / $267.6M = **~192x**~~ | ~~TTM net income; per-share sums are not strictly additive across periods~~ | ~~Flattered by a tax benefit and interest income~~ |
+| ~~Forward P/E (non-GAAP, annualized)~~ | ~~$299.69 / ~$2.76 = ~109x~~ | ~~Q2 non-GAAP EPS guide midpoint $0.69 annualized; excludes ~15.9%-of-revenue stock compensation~~ | ~~The most generous earnings framing available, and it is still triple digits~~ |
+| ~~EV / TTM free cash flow~~ | ~~$50.19B / $342.8M = ~146x~~ | ~~OCF $383.4M less capex $40.6M~~ | ~~Real cash, priced for a decade of it~~ |
+| ~~Free-cash-flow yield~~ | ~~$342.8M / $51.37B = ~0.67%~~ | ~~Same~~ | ~~Effectively an option premium, not a yield~~ |
+| ~~EV / TTM operating income~~ | ~~$50.19B / $224.0M = ~224x~~ | ~~GAAP operating income~~ | ~~Applying Q1's 36.2% non-GAAP margin to trailing revenue implies roughly $362M and ~139x - our own derivation, not a company-reported trailing figure~~ |
 | Net cash cushion | ~$1.18B, about 2.3% of market cap | Cash plus marketable securities, no debt | Protects the company; does not protect the multiple |
-| Reverse test | To earn 8% a year to a terminal 12x revenue, ~$6.1B of revenue is needed by 2030 - roughly a 44% five-year compound growth rate; at 15x terminal, roughly 38% | Enterprise value grown at 8% from $50.19B | This is the number that decides the stance |
-| Drawdown context | $299.69 versus the $483.02 close on 2026-06-30 (-38.0%) and the $100.27 close on 2026-03-30 (+198.9%) | Closing basis, trailing year | The drawdown removed the excess, not the premium |
+| ~~Reverse test~~ | ~~To earn 8% a year to a terminal 12x revenue, ~$6.1B of revenue is needed by 2030 - roughly a 44% five-year compound growth rate; at 15x terminal, roughly 38%~~ | ~~Enterprise value grown at 8% from $50.19B~~ | ~~This is the number that decides the stance~~ |
+| ~~Drawdown context~~ | ~~$299.69 versus the $483.02 close on 2026-06-30 (-38.0%) and the $100.27 close on 2026-03-30 (+198.9%)~~ | ~~Closing basis, trailing year~~ | ~~The drawdown removed the excess, not the premium~~ |
 
 **Scenario grid:**
 
 | Scenario | Driver assumptions (growth / Scorpio mix / 2027 options / competitive structure) | Valuation implication versus today | Subjective probability weight |
 |----------|--------------------------------------------------------------------------------|-------------------------------------|-------------------------------|
-| Bull | Revenue compounds above 50% through 2029 as content per accelerator keeps rising; Scorpio becomes the largest product line and holds share against merchant switch silicon; NVLink Fusion and UALink both convert in 2027; gross margin recovers above 75% after the warrant effect laps | $299.69 proves cheap: CY2029 revenue of $4-5B at 15-18x sales for a franchise with no integration threat realized | 20% |
-| Base | Growth decelerates through the 60s and into the 40s by 2028 as PCIe 6 laps itself; Scorpio ramps well but shares the scale-up socket with Broadcom; one of the two 2027 options converts and the other slips; gross margin settles in the low 70s on warrant and mix effects | Broadly fair to slightly rich: ~22x CY2027E revenue is defensible for this growth and margin, leaving return roughly equal to execution with no multiple help | 50% |
-| Bear | Growth normalizes to ~40% in 2027; an accelerator or switch vendor integrates retiming on a major platform; the top customer pushes past 35% of revenue and extracts more price and warrant coverage; multiple compresses to 15x forward sales | De-rates toward ~$33B of enterprise value on ~$2.2B of CY2027 revenue, roughly $200 per share, about 33% below the anchor | 30% |
+| ~~Bull~~ | ~~Revenue compounds above 50% through 2029 as content per accelerator keeps rising; Scorpio becomes the largest product line and holds share against merchant switch silicon; NVLink Fusion and UALink both convert in 2027; gross margin recovers above 75% after the warrant effect laps~~ | ~~$299.69 proves cheap: CY2029 revenue of $4-5B at 15-18x sales for a franchise with no integration threat realized~~ | ~~20%~~ |
+| ~~Base~~ | ~~Growth decelerates through the 60s and into the 40s by 2028 as PCIe 6 laps itself; Scorpio ramps well but shares the scale-up socket with Broadcom; one of the two 2027 options converts and the other slips; gross margin settles in the low 70s on warrant and mix effects~~ | ~~Broadly fair to slightly rich: ~22x CY2027E revenue is defensible for this growth and margin, leaving return roughly equal to execution with no multiple help~~ | ~~50%~~ |
+| ~~Bear~~ | ~~Growth normalizes to ~40% in 2027; an accelerator or switch vendor integrates retiming on a major platform; the top customer pushes past 35% of revenue and extracts more price and warrant coverage; multiple compresses to 15x forward sales~~ | ~~De-rates toward ~$33B of enterprise value on ~$2.2B of CY2027 revenue, roughly $200 per share, about 33% below the anchor~~ | ~~30%~~ |
 
-**What's priced in & the expectation gap:** at ~50.1x trailing and ~33x our CY2026 estimate, the price already contains: PCIe Gen 6 running its full course, Scorpio winning a durable share of scale-up switching, content per accelerator rising rather than plateauing, and no integration by Broadcom, NVIDIA or the customers themselves. What is *not* priced either way is the 2027 option stack - NVLink Fusion, UALink and Leo KV-cache are guided as revenue events but nothing in the disclosure lets an outsider size them.
+~~**What's priced in & the expectation gap:** at ~50.1x trailing and ~33x our CY2026 estimate, the price already contains: PCIe Gen 6 running its full course, Scorpio winning a durable share of scale-up switching, content per accelerator rising rather than plateauing, and no integration by Broadcom, NVIDIA or the customers themselves. What is *not* priced either way is the 2027 option stack - NVLink Fusion, UALink and Leo KV-cache are guided as revenue events but nothing in the disclosure lets an outsider size them.~~
 
-The 20/50/30 grid carries a negative skew, and the asymmetry is in magnitude as well as probability: at 50x trailing revenue the downside from a normalizing growth rate is violent and mechanical, while the upside requires three separate things to go right in sequence. That is why this initiation opens **cautious** rather than neutral. It is emphatically not a quality judgment - on operating evidence this is one of the strongest companies in the book - it is a statement about what the July 30 price already pays for.
+~~The 20/50/30 grid carries a negative skew, and the asymmetry is in magnitude as well as probability: at 50x trailing revenue the downside from a normalizing growth rate is violent and mechanical, while the upside requires three separate things to go right in sequence. That is why this initiation opens **cautious** rather than neutral. It is emphatically not a quality judgment - on operating evidence this is one of the strongest companies in the book - it is a statement about what the July 30 price already pays for.~~
 
 ## 10. Catalysts & Timeline
+
+**2026-10-11 current checkpoint:** [Issuer notice of October 6](https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-announces-conference-call-review-third-quarter-2026) confirms Q3 results after market close on **November 3, 2026**, with the call at 4:30 p.m. Eastern. Scorpio becoming the largest family was an August Q3 forecast, not a demonstrated Q2 mix. All seven monitoring items were adjudicated; nextCheckDate is 2026-11. Historical catalysts below are prior expectations, not new event confirmations.
+
+**Historical initiation evidence (2026-07-31); current changes above supersede it.**
+
 
 | Catalyst | Timing | Impact |
 |----------|--------|--------|
@@ -269,17 +373,27 @@ The structured monitoring fields track seven readouts: revenue growth and Scorpi
 
 ## 11. Conclusion
 
+**2026-10-11 judgment change:** ~~Cautious, medium conviction.~~ **Bearish-avoid, medium conviction**, at the independently refreshed $342.21 October 9 close. The customer-table count alert and the investment downgrade are distinct: the former calls for investigation and does not prove end-customer loss; the warrant charge does fire the existing ~2% quarterly economic condition. The new 20/50/30 grid also yields negative expected skew at $58.12B EV. This conclusion does not require asserting that growth has collapsed, that a customer has left, that warrants were exercised, or that a product roadmap already generated revenue. Q2 growth and Q3 guidance are important bull counterevidence; medium conviction reflects that strength and the uncertainty around the 2027 socket rather than uncertainty about the 2.60% arithmetic.
+
+Return to cautious requires contra-revenue below ~2%, non-GAAP gross margin at or above ~70%, and observed Scorpio mix/growth evidence. Neutral-watch requires the additional 2027 conversion, <~25% largest-customer share, >~75% margins, <~20x forward EV/revenue and a fresh scenario review. Further growth below ~40%, sustained margins below ~70%, >~35% largest-customer concentration or confirmed platform absorption would reinforce the avoid view. November 3 results are the next financial checkpoint; no review date is backdated to August. The original cautious call is closed in the ledger at this review, with the new call pending until a post-review session exists.
+
+**Historical initiation evidence (2026-07-31); current changes above supersede it.**
+
+
 Astera Labs enters this book as the first and only node in the `interconnect` layer, and it earns that place by answering the question the layer was created to ask - just not in the affirmative. Rack-scale fan-out is a genuinely distinct **socket**: separate silicon, a separate physical problem, over $1,000 of claimed content per accelerator, 76% gross margins, and in Scorpio X-Series a switch that did not exist in the rack two years ago. It is not a distinct **bottleneck**: Astera has supply in place through the year with 75 days of inventory and no allocation, it has no independent cycle because its revenue is accelerator units times attach times price, and it ships through the same Taiwan/Singapore/China channel as everything else in the rack. Nothing is late because of retimers. The honest consequence is that this layer should be read as an architecture indicator - which scale-up fabric wins, and how much of the rack stays merchant - and not added to the book's list of gating constraints. That is precisely the `architecture-check` job, and it is why the role was chosen over `common-constraint`.
 
 At the company level the operating evidence is close to the best in this coverage. Revenue grew 93% to $308.4M in Q1 2026 at a 76.3% gross margin and a 36.2% non-GAAP operating margin, PCIe Gen 6 crossed a third of revenue, free cash flow was $342.8M on a trailing basis, and the balance sheet carries $1.18B of net cash against no debt. Very little in this book combines those four facts.
 
-At the stock level the discipline point is arithmetic. After a 38% drawdown from the June 30 closing high and a 20% single-session bounce on July 30, ALAB still trades at about 50.1x trailing revenue, about 33x our own CY2026 estimate, about 192x trailing GAAP earnings and about 109x the most generous forward non-GAAP framing. Earning 8% a year from here to a terminal 12x revenue requires roughly 44% compound revenue growth for five straight years. That is a demand that permits no deceleration below the high 30s, made of a company whose top five customers are 90% of revenue, whose largest customer holds a warrant over 3.26M shares that reduces reported revenue as it buys more, and whose merchant socket exists only for as long as Broadcom, NVIDIA and the hyperscalers choose not to absorb it.
+~~At the stock level the discipline point is arithmetic. After a 38% drawdown from the June 30 closing high and a 20% single-session bounce on July 30, ALAB still trades at about 50.1x trailing revenue, about 33x our own CY2026 estimate, about 192x trailing GAAP earnings and about 109x the most generous forward non-GAAP framing. Earning 8% a year from here to a terminal 12x revenue requires roughly 44% compound revenue growth for five straight years. That is a demand that permits no deceleration below the high 30s, made of a company whose top five customers are 90% of revenue, whose largest customer holds a warrant over 3.26M shares that reduces reported revenue as it buys more, and whose merchant socket exists only for as long as Broadcom, NVIDIA and the hyperscalers choose not to absorb it.~~
 
-The initiation stance is **cautious, medium conviction**, from a 20% bull / 50% base / 30% bear grid. Cautious because the skew at this price is negative in both probability and magnitude, not because the company is weak. Medium rather than low because no single quarter closes a gap of this size, so the 2026-08-05 print is unlikely to change the arithmetic. Medium rather than high because the two variables that settle the thesis - whether 2027 NVLink Fusion and UALink revenue arrives, and whether the retimer function survives integration - are both outside the current disclosure window.
+~~The initiation stance is **cautious, medium conviction**, from a 20% bull / 50% base / 30% bear grid. Cautious because the skew at this price is negative in both probability and magnitude, not because the company is weak. Medium rather than low because no single quarter closes a gap of this size, so the 2026-08-05 print is unlikely to change the arithmetic. Medium rather than high because the two variables that settle the thesis - whether 2027 NVLink Fusion and UALink revenue arrives, and whether the retimer function survives integration - are both outside the current disclosure window.~~
 
 Upgrade trigger: revenue growth holds above 60% through 2027 with Scorpio confirmed as the largest product line, NVLink Fusion or UALink revenue arriving on schedule, gross margin returning above 75% once the warrant impact laps, the top customer's share falling back below ~25%, and EV/forward revenue compressing below ~20x through growth rather than through price - upgrade to neutral-watch. Downgrade trigger: revenue growth decelerating below ~40% year over year, gross margin settling below ~70%, a major customer's next platform dropping discrete retiming or PCIe switching for integrated silicon, or the top customer exceeding ~35% of revenue - downgrade to bearish-avoid.
 
 ## Appendix: Sources & Assumptions
+
+**Historical initiation evidence (2026-07-31); current changes above supersede it.**
+
 
 - Q1 2026 revenue ($308.4M, +93% YoY, +14% QoQ), GAAP gross margin (76.3%) and non-GAAP gross margin (76.4%), GAAP operating income ($61.8M, 20.1%) and non-GAAP operating income ($111.7M, 36.2%), GAAP net income ($80.3M) and diluted EPS ($0.44), non-GAAP net income ($110.1M) and diluted EPS ($0.61), cash ($148.3M) and marketable securities ($1,036.2M), Q1 operating cash flow ($74.6M), diluted share count (181.2M), and the Q2 2026 guidance (revenue $355-365M, gross margin ~73%, GAAP operating expenses $188-191M, non-GAAP operating expenses $128-131M, GAAP diluted EPS $0.44-0.46, non-GAAP diluted EPS $0.68-0.70) are from Astera Labs' official Q1 2026 earnings release dated 2026-05-05: [Astera Labs Q1 2026 results](https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-reports-first-quarter-2026-financial-results).
 - Customer concentration (Customer A 29%, B 21%, C 16%, D 12%, E 12% of Q1 2026 revenue, against 12%/26%/-/23%/- a year earlier, and the note that certain listed customers are manufacturing partners purchasing on behalf of end customers), accounts-receivable concentration (25%/20%/16%/17%/13%), revenue by geography (Taiwan $93,155K, Singapore $91,138K, China $89,571K, United States $14,967K, other $19,530K), stock-based compensation ($48,913K in Q1 2026, with $457.6M unrecognized on RSUs over ~1.9 years and $43.1M on PSUs over ~2.4 years), the warrant disclosures (the October 2022 Customer Warrant over 1,484,230 shares, the October 2023 amendment adding 831,945 shares, and the February 2026 warrant over up to 3,262,299 shares at a $142.82 exercise price with a $85.83 per-share grant-date fair value and $280.0M maximum total fair value, all vesting on purchase tranches and recognized as contra-revenue of $2,097K in Q1 2026), the income-tax benefit ($6,896K) against pre-tax income ($73,414K), interest income ($11,581K), inventory ($60,156K), purchase commitments ($79,615K total, $29,594K in the remainder of 2026), the February 9, 2026 acquisition of certain assets of a privately held data-center acceleration company for $74.0M consideration with $68.4M of goodwill, the shares outstanding on the cover (171,407,939 as of 2026-04-30) and at the balance-sheet date (171,277K at 2026-03-31), and the China trade-restriction and export-control risk language are all from Astera Labs' Form 10-Q for the quarter ended 2026-03-31, filed 2026-05-06: [Astera Labs Q1 2026 Form 10-Q](https://www.sec.gov/Archives/edgar/data/1736297/000173629726000020/alab-20260331.htm). The absence of material news between that filing and this report's anchor date was checked against the company's EDGAR filing index; the only subsequent 8-K, filed 2026-06-08, reports the results of the 2026 annual stockholders meeting: [Astera Labs EDGAR filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001736297&type=10-Q&dateb=&owner=include&count=40).
@@ -289,3 +403,5 @@ Upgrade trigger: revenue growth holds above 60% through 2027 with Scorpio confir
 - Historical financials used for trailing-twelve-month and multi-year figures - FY2022 revenue $79.9M, FY2023 $115.8M, FY2024 $396.3M with a $116.1M operating loss, FY2025 revenue $852.5M with $173.4M of operating income and $219.1M of net income, and the quarterly series for the four quarters ended 2026-03-31 (revenue $191.9M / $230.6M / $270.6M / $308.4M; operating cash flow $135.4M / $78.2M / $95.3M / $74.6M; capital expenditure $2.0M / $12.3M / $18.7M / $7.6M) - were pulled from Yahoo Finance/yfinance on 2026-07-31 and reconcile to the company's own Q1 2026 release for the overlapping quarter. Trailing-twelve-month revenue ($1,001.4M), operating income ($224.0M), net income ($267.6M) and free cash flow ($342.8M) are computed as the sum of those four quarters; trailing per-share figures are not used because per-share amounts are not strictly additive across periods.
 - Share price ($299.69, the 2026-07-30 close), the July 2026 price path (2026-07-06 close $432.74, then $382.89, $393.16, $417.45, $412.97, $362.05, $361.78, $350.62, $319.74, $303.62, $309.09, $319.79, $330.89, $326.97, $291.58, $282.52, $260.23, $249.74 on 07-29 and $299.69 on 07-30), and the trailing-year closing range ($100.27 on 2026-03-30 to $483.02 on 2026-06-30) were pulled via Yahoo Finance/yfinance on 2026-07-31; on an intraday basis the trailing-year high was $499.48 on 2026-06-30 and the low $97.89 on 2026-03-30. No stock split or other corporate action occurred in the period, which was checked directly. US markets had not completed the 2026-07-31 session at the time of writing, so the last completed close is 2026-07-30. Market cap (~$51.37B), enterprise value (~$50.19B) and every multiple are computed from that verified close and the 171,407,939 share count on the 10-Q cover, and are labelled with the 2026-07-30 anchor date. This market-data snapshot can be revised by the data provider and is subsequently maintained by `static/invest/research/update_prices.py`.
 - The CY2026 revenue estimate of roughly $1.5B and the CY2027 estimate of roughly $2.25B are this report's own arithmetic (Q1 actual plus the Q2 guide midpoint, then decelerating sequential growth through H2 2026, and 50% growth in 2027) and are not company guidance; Astera Labs gives one quarter of guidance at a time. The reverse test (roughly 44% five-year compound growth to earn 8% a year to a terminal 12x revenue) is likewise this report's own arithmetic. Peer figures for Broadcom, Marvell and Coherent are from the broadcom-2026, marvell-2026 and coherent-2026 reports in this hub, each stated at its own reported period and its own price anchor and not restated to a common calendar. Insider Form 4 and Rule 144 activity in June and July 2026 is stated qualitatively from the EDGAR filing index and is not quantified here. This report does not use non-public information.
+
+**2026-10-11 review sources and boundaries:** [Q2 10-Q](https://www.sec.gov/Archives/edgar/data/1736297/000173629726000035/alab-20260630.htm), [FY2025 10-K](https://www.sec.gov/Archives/edgar/data/1736297/000173629726000010/alab-20251231.htm), [SEC submissions index](https://data.sec.gov/submissions/CIK0001736297.json), [SEC companyfacts](https://data.sec.gov/api/xbrl/companyfacts/CIK0001736297.json), [Q2 issuer release](https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-reports-second-quarter-2026-financial-results), [market-price refresh](https://query1.finance.yahoo.com/v8/finance/chart/ALAB?range=1y&interval=1d), [Leo](https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-bolsters-leo-smart-memory-controller-family-agentic), [Aries 7](https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-announces-aries-7-industrys-first-pcie-7-signal), and [Q3 timing](https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-announces-conference-call-review-third-quarter-2026). The refreshed submissions index has no later 10-Q or operating-results 8-K through this review; insider forms and the October 7 ownership filing are not operating guidance. The historical source list in this appendix belongs to the initiation, not a fresh certification of all July market-path or peer figures.

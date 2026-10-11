@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10",
+  "generatedAt": "2026-10-11",
   "dataAsOf": "2026-10-09",
   "benchmark": "SMH",
   "entries": [
@@ -761,20 +761,13 @@
     },
     {
       "reportId": "alab-2026",
-      "stance": "cautious",
+      "stance": "bearish-avoid",
       "conviction": "medium",
-      "stanceDate": "2026-07-31",
-      "priceAtStance": 299.69,
+      "stanceDate": "2026-10-11",
+      "priceAtStance": 342.21,
       "benchmarkSymbol": "SMH",
-      "lastDate": "2026-10-09",
-      "lastClose": 342.21,
-      "changePct": 14.2,
-      "benchmarkChangePct": 11.6,
-      "relativePct": 2.6,
-      "bookBenchmarkSymbol": "SMH",
-      "bookBenchmarkChangePct": 11.6,
-      "bookRelativePct": 2.6,
-      "daysHeld": 70,
+      "status": "pending",
+      "daysHeld": 0,
       "stale": false
     },
     {
@@ -2615,6 +2608,25 @@
       "daysHeld": 18,
       "migration": false,
       "benchmarkSymbol": "QQQ"
+    },
+    {
+      "reportId": "alab-2026",
+      "fromStance": "cautious",
+      "toStance": "bearish-avoid",
+      "toConviction": "medium",
+      "startDate": "2026-07-31",
+      "startPrice": 299.69,
+      "endDate": "2026-10-11",
+      "endPrice": 342.21,
+      "changePct": 14.2,
+      "benchmarkChangePct": 11.6,
+      "relativePct": 2.6,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": 11.6,
+      "bookRelativePct": 2.6,
+      "daysHeld": 72,
+      "migration": false,
+      "benchmarkSymbol": "SMH"
     }
   ]
 }

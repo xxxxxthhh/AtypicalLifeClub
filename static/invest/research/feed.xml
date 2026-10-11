@@ -6,6 +6,13 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>Astera Labs 深度研究报告 - 机架级 fan-out 是否构成独立瓶颈的架构校验 / Astera Labs Deep Research Report - Architecture Check on Whether Rack-Scale Fan-Out Is a Distinct Bottleneck</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=alab-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=alab-2026#alab-2026@2026-10-11</guid>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+      <description>2026-10-11 独立复核：下调至回避 / 中确信。Q2 10-Q 的客户表由 Q1 五家超过 10% 变为四家（29%/25%/15%/13%，合计 82%），命中表格观察条件，但不证明终端客户流失；最大客户仍为 29%，未触发 35% 阈值。权证冲减 $10.2M / 收入 $392.4M = 2.60%，命中现有单季约 2% 降级条件。以 $342.21（2026-10-09 收盘）、最新披露 173,485,104 股及 Q2 净现金 $1.253B 计，EV 约 $58.12B、48.4x 追溯收入、31.6x 本报告自估的 CY2026 收入中点。增长强劲，但客户经济让利与情景负偏度支持降级；interconnect 架构校验角色不变。</description>
+    </item>
+    <item>
       <title>AppLovin 深度研究报告 - 增长不再自我复利之后，价格已经打了多少折 / AppLovin Deep Research Report - How Much the Price Already Discounts Once Growth Stops Compounding on Its Own</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=applovin-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=applovin-2026#applovin-2026@2026-10-02</guid>
@@ -291,13 +298,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=constellation-energy-2026#constellation-energy-2026@2026-08-07</guid>
       <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
       <description>2026-08-07 监测更新：CEG Q2 GAAP EPS $1.42、调整后运营 EPS $2.55，并把 2026 全年调整后运营 EPS 指引上调至 $11.50-12.50。公司新增签署 920MW、15-20 年 PPA（2029-2032 年起供；价格与 hyperscaler 占比未披露），FERC/NRC 推进 Crane 重启审批，并拟以 $860M 出售 606MW Brazos Valley 电厂。2026-07-30 的价格、倍数与情景网格保留为明确历史快照，本次不重算估值或立场；中性观察/中确信暂维持，待债务、FCF 与新指引纳入完整估值后重新裁定。</description>
-    </item>
-    <item>
-      <title>Astera Labs 深度研究报告 - 机架级 fan-out 是否构成独立瓶颈的架构校验 / Astera Labs Deep Research Report - Architecture Check on Whether Rack-Scale Fan-Out Is a Distinct Bottleneck</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=alab-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=alab-2026#alab-2026@2026-08-05</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施书 interconnect 层的首个节点与架构校验：机架级 fan-out 是独立插槽，但尚不是独立瓶颈，因此本层应读作架构指标而非卡口约束。Astera Labs 于 2026-08-04 披露 2026 Q2 初步业绩（季度截至 2026-06-30）：收入 $392.4M（同比 +104%、环比 +27%）、GAAP/非 GAAP 毛利率 73.3%/73.7%、非 GAAP 每股收益 $0.80，Q3 收入指引 $540-560M；Scorpio 预计在 Q3 提前一季成为最大产品线。客户集中、认股权证冲减收入与 retimer 被集成的结构性风险仍未解除。以下估值、情景网格、立场与确信度仍是 2026-07-30 的历史快照，并未因本次监测更新重算；谨慎 / 中确信不变。</description>
     </item>
     <item>
       <title>NRG Energy 深度研究报告 - AI 电力需求是否穿透到 merchant gas 与零售电力 / NRG Energy Deep Research Report - Does AI Power Demand Reach Merchant Gas and Retail Power?</title>
