@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-10",
+  "asOf": "2026-10-13",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -141,11 +141,11 @@
       "company": "Vertiv",
       "expectedDate": "2026-08",
       "precision": "month",
-      "status": "estimated",
+      "status": "stale",
       "session": "not-applicable",
       "sourceUrl": null,
       "sourceType": "monitoring",
-      "verifiedAt": "2026-08-01"
+      "verifiedAt": "2026-10-13"
     },
     {
       "reportId": "corning-2026",
@@ -252,22 +252,22 @@
       "company": "Hims & Hers Health",
       "expectedDate": "2026-11-09",
       "precision": "day",
-      "status": "estimated",
-      "session": "unspecified",
-      "sourceUrl": "https://www.tipranks.com/stocks/hims/earnings",
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-09-08"
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://investors.hims.com/news/news-details/2026/Hims--Hers-to-Announce-Third-Quarter-2026-Financial-Results-on-November-9-2026/default.aspx",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-10-13"
     },
     {
       "reportId": "bloom-energy-2026",
       "company": "Bloom Energy",
-      "expectedDate": "2026-10-29",
+      "expectedDate": "2026-10-22",
       "precision": "day",
-      "status": "estimated",
-      "session": "unspecified",
-      "sourceUrl": "https://www.tipranks.com/stocks/be/earnings",
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-09-08"
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://investor.bloomenergy.com/press-releases/press-release-details/2026/Bloom-Energy-to-Announce-Third-Quarter-2026-Financial-Results-on-October-22-2026/default.aspx",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-10-13"
     },
     {
       "reportId": "salesforce-2026",
@@ -473,13 +473,13 @@
     {
       "reportId": "meta-2026",
       "company": "Meta Platforms",
-      "expectedDate": "2026-10-28",
+      "expectedDate": "2026-10-21",
       "precision": "day",
-      "status": "estimated",
-      "session": "unspecified",
-      "sourceUrl": "https://www.tipranks.com/stocks/meta/earnings",
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-09-08"
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-10-13"
     },
     {
       "reportId": "oracle-2026",
