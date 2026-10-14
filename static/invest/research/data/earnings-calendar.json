@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-13",
+  "asOf": "2026-10-14",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -442,11 +442,11 @@
       "company": "Quanta Services, Inc.",
       "expectedDate": "2026-10-29",
       "precision": "day",
-      "status": "estimated",
-      "session": "unspecified",
-      "sourceUrl": "https://www.investing.com/equities/quanta-services-earnings",
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-09-08"
+      "status": "issuer-confirmed",
+      "session": "before-open",
+      "sourceUrl": "https://investors.quantaservices.com/news-events/press-releases/detail/406/quanta-services-announces-third-quarter-2026-earnings-release-webcast-schedule",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-10-14"
     },
     {
       "reportId": "alphabet-2026",
@@ -654,13 +654,13 @@
     {
       "reportId": "seagate-2026",
       "company": "Seagate Technology",
-      "expectedDate": "2026-10",
-      "precision": "month",
-      "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-09-23"
+      "expectedDate": "2026-10-27",
+      "precision": "day",
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://investors.seagate.com/news/news-details/2026/Seagate-Technology-to-Report-Fiscal-First-Quarter-2027-Financial-Results-on-October-27-2026/default.aspx",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-10-14"
     },
     {
       "reportId": "axti-2026",
