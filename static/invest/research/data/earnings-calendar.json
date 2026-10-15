@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -139,13 +139,13 @@
     {
       "reportId": "vertiv-2026",
       "company": "Vertiv",
-      "expectedDate": "2026-08",
-      "precision": "month",
-      "status": "stale",
-      "session": "not-applicable",
-      "sourceUrl": null,
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-10-13"
+      "expectedDate": "2026-10-28",
+      "precision": "day",
+      "status": "issuer-confirmed",
+      "session": "before-open",
+      "sourceUrl": "https://investors.vertiv.com/news/news-details/2026/Vertiv-Announces-Date-of-Third-Quarter-2026-Earnings-Release-and-Conference-Call/default.aspx",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-10-15"
     },
     {
       "reportId": "corning-2026",
@@ -285,11 +285,11 @@
       "company": "Coinbase",
       "expectedDate": "2026-10-29",
       "precision": "day",
-      "status": "estimated",
-      "session": "unspecified",
-      "sourceUrl": "https://www.tipranks.com/stocks/coin/earnings",
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-09-08"
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://investor.coinbase.com/news/news-details/2026/Coinbase-Announces-Date-of-Third-Quarter-2026-Financial-Results/default.aspx",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-10-15"
     },
     {
       "reportId": "amzn-2026",
@@ -506,13 +506,13 @@
     {
       "reportId": "coherent-2026",
       "company": "Coherent",
-      "expectedDate": "2026-11-11",
+      "expectedDate": "2026-11-04",
       "precision": "day",
-      "status": "estimated",
-      "session": "unspecified",
-      "sourceUrl": "https://www.tipranks.com/stocks/cohr/earnings",
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-09-08"
+      "status": "issuer-confirmed",
+      "session": "after-close",
+      "sourceUrl": "https://ir.coherent.com/news-releases/news-release-details/coherent-corp-announces-timing-fy2027-first-quarter-earnings",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-10-15"
     },
     {
       "reportId": "digital-realty-2026",
