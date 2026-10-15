@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T01:33:36Z",
+  "generatedAt": "2026-10-15T22:17:02Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-10-15T01:33:36Z"
+    "value": "2026-10-15T22:17:02Z"
   },
   "tasks": [
     {
-      "id": "earnings:tsmc-2026:2026-10-15:T",
+      "id": "earnings:tsmc-2026:2026-10-15:T+1",
       "reportId": "tsmc-2026",
       "type": "research-update",
-      "window": "T",
+      "window": "T+1",
       "expectedDate": "2026-10-15",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     }
