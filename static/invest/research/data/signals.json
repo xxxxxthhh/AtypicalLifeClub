@@ -1,5 +1,26 @@
 [
   {
+    "id": "asml-q3-2026-order-book-supply-tightness",
+    "date": "2026-10-14",
+    "title": {
+      "zh": "ASML Q3：订单簿势头逐季增强，管理层预计现有计划供给不足以满足 2027–2028 年需求",
+      "en": "ASML Q3: stronger order-book momentum; management expects planned supply to fall short of 2027–2028 demand"
+    },
+    "detail": {
+      "zh": "ASML 2026-10-14 Form 6-K 附件 99.1（https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/pressreleasefinancialresul.htm）披露 Q3 net sales EUR 11.662B、毛利率 57.5%，FY2026 收入指引为 EUR 44–45B。管理层称订单簿势头本年逐季增强，部分客户表达了下 2029–2030 年订单的意向；按现有计划，2027 与 2028 年供给预计不能完全满足客户需求，正研究把 2028 年 low-NA EUV 与 DUV immersion 产能增幅提高到此前计划的进一步 30% 以上。有意下单不是已下订单，研究扩产不是已承诺产能。附件 99.2 第 9 页（https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/a2026_10x14xpresentation.htm）显示 EUV 销售台数由 Q2 的 16 台升至 Q3 的 17 台，但占 net system sales 比例由 57% 降至 49%。本次未披露季度 net bookings 或 backlog 金额；本条仅记录光刻侧的定性需求确认，不证明 EUV 订单加速、客户特定 capex 已承诺或整条跨公司规则成立。",
+      "en": "ASML's 2026-10-14 Form 6-K Exhibit 99.1 (https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/pressreleasefinancialresul.htm) reported Q3 net sales of EUR 11.662B, a 57.5% gross margin and FY2026 revenue guidance of EUR 44–45B. Management described improving order-book momentum and customer interest in 2029–2030 orders. It expects currently planned supply to fall short of 2027–2028 demand and is investigating 2028 low-NA EUV and DUV immersion capacity growth beyond the previously contemplated further 30%. Interest is not placed orders; investigated capacity is not committed capacity. Exhibit 99.2, page 9 (https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/a2026_10x14xpresentation.htm), shows EUV sales rising from 16 to 17 units while their share of net system sales fell from 57% to 49%. No quarterly net-bookings or backlog amount was disclosed. This is qualitative lithography-side demand evidence, not proof of accelerating EUV orders, committed customer-specific capex or confirmation of the whole cross-company rule."
+    },
+    "crossChecks": [
+      "semicap-eda-capex-commitment"
+    ],
+    "tickers": [
+      "ASML"
+    ],
+    "reportIds": [
+      "asml-2026"
+    ]
+  },
+  {
     "id": "corning-verizon-fiber-supply-agreement-2026-09-08",
     "date": "2026-09-08",
     "title": {
