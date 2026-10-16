@@ -1,5 +1,26 @@
 [
   {
+    "id": "tsmc-q3-2026-results-q4-guide",
+    "date": "2026-10-15",
+    "title": {
+      "zh": "台积电 Q3 2026：收入 US$46.72B 高于指引，Q4 指引 US$52.3–54.3B",
+      "en": "TSMC Q3 2026: US$46.72B revenue above guidance; Q4 guided to US$52.3–54.3B"
+    },
+    "detail": {
+      "zh": "台积电 2026-10-15 的 SEC 6-K 业绩稿（https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/a3q26e_withguidancexfinal.htm）及官方季度资料（https://investor.tsmc.com/english/quarterly-results/2026/q3）：Q3 美元收入 US$46.72B，高于 US$44.6–45.8B 指引；毛利率 66.4%，处于 65–67% 指引内。2nm 占晶圆收入 8%（Q2 3%），7nm 及以下占 79%（Q2 77%）。管理层报告披露 HPC 占收入 68%，收入环比增长 22%；HPC 是平台分类，不是 GPU／ASIC 收入。Q4 收入指引 US$52.3–54.3B，并非实际收入。本条为 chip-vs-downstream 的代工端背景证据，不能单独证明 GPU／ASIC 收入加速、下游订单未确认或整条规则成立；未更新报告监测读数、立场或估值。Q3 数字尚未经董事会批准。",
+      "en": "TSMC's 2026-10-15 SEC 6-K results release (https://www.sec.gov/Archives/edgar/data/1046179/000104617926000726/a3q26e_withguidancexfinal.htm) and official quarterly materials (https://investor.tsmc.com/english/quarterly-results/2026/q3) report Q3 US-dollar revenue of US$46.72B, above the US$44.6–45.8B guide, and gross margin of 66.4%, within the 65–67% guide. 2nm contributed 8% of wafer revenue (Q2: 3%); 7nm-and-below was 79% (Q2: 77%). The management report gives HPC a 68% revenue share and 22% sequential revenue growth; HPC is a platform category, not GPU/ASIC revenue. Q4 revenue guidance of US$52.3–54.3B is not actual revenue. This is foundry-side context for chip-vs-downstream; it alone establishes neither accelerating GPU/ASIC revenue, unconfirmed downstream orders, nor the full rule. Report monitoring readings, stance and valuation are unchanged. Q3 figures have not been approved by the Board."
+    },
+    "crossChecks": [
+      "chip-vs-downstream"
+    ],
+    "tickers": [
+      "TSM"
+    ],
+    "reportIds": [
+      "tsmc-2026"
+    ]
+  },
+  {
     "id": "asml-q3-2026-order-book-supply-tightness",
     "date": "2026-10-14",
     "title": {
