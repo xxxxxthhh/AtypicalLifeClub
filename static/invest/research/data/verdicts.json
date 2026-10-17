@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16",
+  "generatedAt": "2026-10-17",
   "dataAsOf": "2026-10-16",
   "benchmark": "SMH",
   "entries": [
@@ -623,7 +623,7 @@
       "priceAtStance": 539.03,
       "benchmarkSymbol": "QQQ",
       "lastDate": "2026-10-16",
-      "lastClose": 709.325,
+      "lastClose": 709.33,
       "changePct": 31.6,
       "benchmarkChangePct": 3.2,
       "relativePct": 28.4,
@@ -803,7 +803,7 @@
       "priceAtStance": 15500.0,
       "benchmarkSymbol": "SMH",
       "recordedPriceAtStance": 46500.0,
-      "priceBasisDate": "2026-10-16",
+      "priceBasisDate": "2026-10-17",
       "lastDate": "2026-10-16",
       "lastClose": 13375.0,
       "changePct": -13.7,
