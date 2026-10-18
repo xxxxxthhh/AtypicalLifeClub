@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19",
+  "generatedAt": "2026-10-18",
   "dataAsOf": "2026-10-16",
   "benchmark": "SMH",
   "entries": [
@@ -803,7 +803,7 @@
       "priceAtStance": 15500.0,
       "benchmarkSymbol": "SMH",
       "recordedPriceAtStance": 46500.0,
-      "priceBasisDate": "2026-10-17",
+      "priceBasisDate": "2026-10-18",
       "lastDate": "2026-10-16",
       "lastClose": 13375.0,
       "changePct": -13.7,

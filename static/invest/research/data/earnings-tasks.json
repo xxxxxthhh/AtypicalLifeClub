@@ -1,9 +1,66 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T22:14:02Z",
+  "generatedAt": "2026-10-18T22:14:46Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-10-17T22:14:02Z"
+    "value": "2026-10-18T22:14:46Z"
   },
-  "tasks": []
+  "tasks": [
+    {
+      "id": "earnings:ase-technology-2026:2026-10-29:complete-date",
+      "reportId": "ase-technology-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-10-29",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:asml-2026:2026-10-14:stale",
+      "reportId": "asml-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-14",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:innolight-2026:2026-10:complete-date",
+      "reportId": "innolight-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-10",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:jinpan-2026:2026-10-14:stale",
+      "reportId": "jinpan-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-14",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:minimax-2026:2027-03:complete-date",
+      "reportId": "minimax-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2027-03",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:sk-hynix-2026:2026-10-27:verify",
+      "reportId": "sk-hynix-2026",
+      "type": "source-verification",
+      "window": "verify",
+      "expectedDate": "2026-10-27",
+      "reason": "Confirm the recorded date on issuer IR."
+    },
+    {
+      "id": "earnings:tsmc-2026:2026-10-15:stale",
+      "reportId": "tsmc-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-15",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    }
+  ]
 }
