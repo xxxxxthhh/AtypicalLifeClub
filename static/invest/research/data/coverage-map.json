@@ -225,14 +225,6 @@
   ],
   "planned": [
     {
-      "ticker": "CRDO",
-      "layer": "interconnect",
-      "label": {
-        "zh": "有源电缆与硅光：为 alab-2026 的架构问题补上缺失的对手方，并延伸至光连接层",
-        "en": "Active electrical cables and silicon photonics: gives the alab-2026 architecture question its missing counterparty, and reaches into the optical layer"
-      }
-    },
-    {
       "ticker": "0522.HK",
       "layer": "semicap-equipment",
       "label": {

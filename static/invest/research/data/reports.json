@@ -3204,7 +3204,8 @@
     "reportedPeriod": "Q2 2026 / 2026-08-21 valuation frame",
     "related": [
       "corning-2026",
-      "axti-2026"
+      "axti-2026",
+      "lumentum-2026"
     ],
     "monitoring": [
       {
@@ -9587,7 +9588,8 @@
       "aaoi-2026",
       "corning-2026",
       "arista-2026",
-      "axti-2026"
+      "axti-2026",
+      "lumentum-2026"
     ],
     "monitoring": [
       {
@@ -10594,7 +10596,8 @@
       "marvell-2026",
       "arista-2026",
       "coherent-2026",
-      "nvidia-2026"
+      "nvidia-2026",
+      "crdo-2026"
     ],
     "monitoring": [
       {
@@ -12918,6 +12921,382 @@
           "zh": "首次覆盖裁定。30/40/30 情景网格加权每股价值 $392.41，2.248 年年化 +16.0%，高于 8% 门槛 8.0 个百分点；但退出倍数整体下调 3 倍即降至 +3.8%、增长放缓降至 +7.1%，正偏斜对倍数敏感，故确信度为低。",
           "en": "Initiation ruling. The 30/40/30 scenario grid weights to $392.41 per share, or +16.0% annualized over 2.248 years, 8.0 points above the 8% hurdle; but cutting all exit multiples by three turns drops it to +3.8% and slower growth to +7.1%, so the positive skew is multiple-fragile and conviction is low."
         }
+      }
+    ]
+  },
+  {
+    "id": "crdo-2026",
+    "company": "Credo",
+    "ticker": "NASDAQ: CRDO",
+    "priceSymbol": "CRDO",
+    "title": "Credo 深度研究报告 - 从有源铜缆到光学的架构与每股现金流检验",
+    "titleEn": "Credo Deep Research Report - Testing Architecture and Cash per Share from Copper to Optics",
+    "summary": "2026-10-19 首次完整覆盖：以 2026-10-16 常规收盘 $169.70、187.951918M 股为锚，市值 $31.895B、EV $31.141B，19.57x EV/TTM 收入、14.16x 自估 FY2027E 收入。谨慎／中确信：20/50/30 情景加权 2029 年每股终值 $179.50、年化 +1.89%，低于 8% 参照及 10% 风险调整门槛；基准 FY2027—2030 CAGR 29.7%，10% 回报反需 38.3%。AEC 超过 90% 是收入增量口径，四家终端占 84%；光学超过 $500M 为公司 FY2027 预期，非 DustPhotonics 单体实际。",
+    "summaryEn": "Initial full coverage on 2026-10-19 at the 2026-10-16 regular close of $169.70 and 187.951918M issued shares: $31.895B market cap, $31.141B EV, 19.57x EV/TTM revenue and 14.16x report-estimated FY2027E revenue. Cautious / medium conviction: the 20/50/30 grid gives $179.50 weighted 2029 terminal value and +1.89% annualized, below both the 8% reference and 10% risk-adjusted hurdle. Base FY2027-2030 revenue CAGR is 29.7%, versus 38.3% needed for a 10% return. AECs contributed more than 90% of the revenue increment, not total revenue; four end customers represented 84%. More than $500M of FY2027 optical revenue is a portfolio expectation, not actual DustPhotonics stand-alone revenue.",
+    "category": "tech",
+    "tags": [
+      "AI基础设施",
+      "芯片互连",
+      "AEC",
+      "光连接"
+    ],
+    "date": "2026-10-19",
+    "lastUpdate": "2026-10-19",
+    "file": "/invest/research/reports/view.html?id=crdo-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Credo_深度研究报告_2026-10.md",
+      "en": "/invest/research/Credo_Deep_Research_Report_2026-10.md"
+    },
+    "moduleContract": "heading-comment-v1",
+    "period": "2026H2",
+    "versionType": "initial",
+    "versionLabel": "2026H2 Initial Full Coverage",
+    "isCurrent": true,
+    "coverageTier": "full",
+    "chainLayer": "interconnect",
+    "chainRole": "architecture-check",
+    "priceAsOf": "2026-10-16",
+    "reportedPeriod": "Q1 FY2027 / quarter ended 2026-08-01",
+    "related": [
+      "alab-2026",
+      "marvell-2026",
+      "broadcom-2026",
+      "coherent-2026",
+      "aaoi-2026"
+    ],
+    "highlights": [
+      "2026-10-16 收盘 $169.70；EV $31.141B，19.57x EV/TTM 收入、14.16x 自估 FY2027E 收入；同日 ALAB 40.21x EV/TTM 收入",
+      "谨慎／中确信：20/50/30 网格加权终值 $179.50、年化 +1.89%；逐档年化回报的概率加权 -2.48%，均低于门槛",
+      "Q1FY2027 收入 $479.003M、同比 +114.7%；非 GAAP 毛利率 68.0%，四家终端客户合计 84%",
+      "TTM FCF $438.598M、SBC $235.162M；Q1 FCF-SBC -$5.030M；并购交割现金已入账，季后新增押金 $102.4M另需资金"
+    ],
+    "stance": "cautious",
+    "conviction": "medium",
+    "stanceRationale": {
+      "zh": "以 2026-10-16 常规收盘 $169.70、2026-08-25 已发行普通股 187.951918M 计，市值 $31.895B；2026-08-01 现金短投 $764.258M 减 $10M 现金或有收购负债，调整净现金 $754.258M、EV $31.141B，19.57x TTM 收入及 14.16x 自估 FY2027E $2.2B 收入。2026-10-19 至 2029-10-19 的 20%牛市/50%基准/30%熊市（FY2030E 前瞻收入 $7.0B/$4.8B/$2.8B、退出10x/8x/4x、净股数212M/217M/230M、调整净现金$3.502B/$2.502B/$1.002B）对应每股终值$346.71/$188.49/$53.05，加权$179.50、年化+1.89%；逐档年化的概率加权为-2.48%。10%风险调整门槛高于8%参照以补偿集中及执行风险，结果低于两者。基准FY2027—2030收入CAGR29.7%，保持现价需24.9%，获10%回报需38.3%。单项退出倍数+1x为+5.77%、CAGR+5个百分点为+5.49%、权重30/50/20为+7.17%，仍未过10%，支持谨慎／中确信；光学转化与架构胜负可改变分布。",
+      "en": "At the 2026-10-16 regular close of $169.70 on 187.951918M issued shares dated 2026-08-25, market cap is $31.895B. Cash and short-term investments of $764.258M at August 1 less $10M cash-contingent acquisition consideration give $754.258M adjusted net cash and $31.141B EV, or 19.57x TTM revenue and 14.16x report-estimated FY2027E revenue of $2.2B. From 2026-10-19 to 2029-10-19, 20% bull/50% base/30% bear scenarios use FY2030E forward revenue $7.0B/$4.8B/$2.8B, exit multiples 10x/8x/4x, shares 212M/217M/230M and adjusted net cash $3.502B/$2.502B/$1.002B. Values of $346.71/$188.49/$53.05 weight to $179.50 and +1.89% annualized; the probability-weighted individual annualized returns equal -2.48%. The 10% risk-adjusted hurdle exceeds an 8% reference for concentration and execution risk; results miss both. Base FY2027-2030 CAGR is 29.7%, versus 24.9% to preserve the price and 38.3% for a 10% return. One extra exit-multiple turn gives +5.77%, five extra CAGR points +5.49%, and 30/50/20 weights +7.17%, still below 10%, supporting cautious/medium conviction. Optical conversion and architecture outcomes can change the distribution."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "在情景不变时常规收盘不高于 $134，复核上调至 neutral-watch；或确认 FY2027 光学组合收入超过 $500M、连续两季 FCF-SBC 为正、前四大终端客户合计不超过 75%，三项同时成立后重建情景，只有重算年化达到 10% 才上调。",
+        "en": "With scenarios unchanged, review an upgrade to neutral-watch after a regular close at or below $134; alternatively, confirmed FY2027 combined optical revenue above $500M, positive FCF-SBC for two consecutive quarters and top-four end-customer concentration at or below 75% must all hold, followed by a rebuilt scenario return of at least 10%, before upgrading.",
+        "monitoringIds": [
+          "valuation-hurdle-price",
+          "revenue-and-optics",
+          "margin-and-owner-cash",
+          "end-customer-concentration"
+        ]
+      },
+      "downgrade": {
+        "zh": "以下任一成立则复核下调至 bearish-avoid：Q2FY2027 收入低于 $525M；连续两季非 GAAP 毛利率低于 65%；最大终端客户超过 40%；FY2027 期末普通股超过 200.25M。",
+        "en": "Review a downgrade to bearish-avoid if any one occurs: Q2FY2027 revenue below $525M; non-GAAP gross margin below 65% for two consecutive quarters; the largest end customer above 40%; or FY2027 ending ordinary shares above 200.25M.",
+        "monitoringIds": [
+          "revenue-and-optics",
+          "margin-and-owner-cash",
+          "end-customer-concentration",
+          "dilution-and-capital"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-10-19",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 169.7,
+        "note": {
+          "zh": "首次完整覆盖，以2026-10-16收盘$169.70重建全部估值；20/50/30加权终值$179.50、年化+1.89%，单项有利敏感性仍不足10%门槛。",
+          "en": "Initial full coverage with valuation rebuilt at the 2026-10-16 close of $169.70. The 20/50/30 weighted terminal value is $179.50, +1.89% annualized; single favorable sensitivities still miss the 10% hurdle."
+        }
+      }
+    ],
+    "monitoring": [
+      {
+        "id": "revenue-and-optics",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "收入与光学兑现",
+          "en": "Revenue and optical conversion"
+        },
+        "trigger": {
+          "zh": "Q2FY2027 收入低于 $525M 为负面；FY2027 光学组合收入超过 $500M 为正面",
+          "en": "Q2FY2027 revenue below $525M is negative; FY2027 combined optical revenue above $500M is positive"
+        },
+        "latest": {
+          "zh": "2026-09-01：Q1 收入 $479.003M，Q2 指引 $525M—$535M；4 月光学预期超过 $500M，尚无全年实际",
+          "en": "2026-09-01: Q1 revenue $479.003M, Q2 guidance $525M-$535M; April optical expectation above $500M, without a full-year actual"
+        },
+        "nextCheck": "Q2 结果，预计 2026 年末；FY2027 全年 / Q2 results, expected late 2026; FY2027 full year",
+        "nextCheckDate": "2026-12"
+      },
+      {
+        "id": "margin-and-owner-cash",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "毛利与经济现金流",
+          "en": "Margin and economic cash flow"
+        },
+        "trigger": {
+          "zh": "连续两季非 GAAP 毛利率低于 65% 为负面；连续两季 FCF-SBC 为正是升级必要条件之一",
+          "en": "Non-GAAP gross margin below 65% for two consecutive quarters is negative; FCF-SBC positive for two consecutive quarters is one upgrade prerequisite"
+        },
+        "latest": {
+          "zh": "2026-08-01：非 GAAP 毛利率 68.0%；Q1 FCF-SBC -$5.030M、TTM +$203.436M",
+          "en": "2026-08-01: non-GAAP gross margin 68.0%; Q1 FCF-SBC -$5.030M, TTM +$203.436M"
+        },
+        "nextCheck": "每季，先看 Q2 / Quarterly, starting with Q2",
+        "nextCheckDate": "2026-12"
+      },
+      {
+        "id": "end-customer-concentration",
+        "thesis": "either",
+        "theme": "concentration",
+        "metric": {
+          "zh": "终端客户集中",
+          "en": "End-customer concentration"
+        },
+        "trigger": {
+          "zh": "最大终端客户超过 40% 为负面；前四家合计不超过 75% 是升级必要条件之一",
+          "en": "Largest end customer above 40% is negative; top four at or below 75% is one upgrade prerequisite"
+        },
+        "latest": {
+          "zh": "2026-08-01：最大 33%，四家 84%；签单客户最大 43% 不是该指标",
+          "en": "2026-08-01: largest 33%, four customers 84%; the largest billing customer's 43% is not this metric"
+        },
+        "nextCheck": "每季 10-Q／10-K / Each 10-Q / 10-K",
+        "nextCheckDate": "2026-12"
+      },
+      {
+        "id": "dilution-and-capital",
+        "thesis": "bear",
+        "theme": "execution",
+        "metric": {
+          "zh": "股数与资本配置",
+          "en": "Shares and capital allocation"
+        },
+        "trigger": {
+          "zh": "FY2027 期末普通股超过 200.25M（较 FY2026 约 +8%）为负面",
+          "en": "FY2027 ending ordinary shares above 200.25M, approximately +8% from FY2026, is negative"
+        },
+        "latest": {
+          "zh": "2026-08-25：187.951918M 股；季后新增可退押金 $102.4M，收购或有股票尚待里程碑",
+          "en": "2026-08-25: 187.951918M shares; subsequent new deposits $102.4M, acquisition-contingent shares subject to milestones"
+        },
+        "nextCheck": "每季及 FY2027 年末 / Quarterly and FY2027 year-end",
+        "nextCheckDate": "2026-12"
+      },
+      {
+        "id": "valuation-hurdle-price",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "价格与回报门槛",
+          "en": "Price and return hurdle"
+        },
+        "trigger": {
+          "zh": "情景不变且常规收盘不高于 $134，触发升级至 neutral-watch 的复核",
+          "en": "With scenario values unchanged, a regular close at or below $134 triggers review for an upgrade to neutral-watch"
+        },
+        "latest": {
+          "zh": "2026-10-16：$169.70；加权终值 $179.50、年化 +1.89%，10% 门槛价 $134.85",
+          "en": "2026-10-16: $169.70; weighted terminal value $179.50, annualized +1.89%; 10% hurdle entry $134.85"
+        },
+        "nextCheck": "最新完成交易日；事实改变时先重算 / Latest completed session; rebuild before relying on changed facts",
+        "nextCheckDate": "2026-10"
+      }
+    ]
+  },
+  {
+    "id": "lumentum-2026",
+    "company": "Lumentum",
+    "ticker": "NASDAQ: LITE",
+    "priceSymbol": "LITE",
+    "title": "Lumentum 深度研究报告 - 光源利润、架构迁移与增长定价",
+    "titleEn": "Lumentum Deep Research Report - Laser Economics, Architecture Migration and Growth Pricing",
+    "summary": "首次完整覆盖。FY2026 收入 $3,014M（+83.2%），Q4 非 GAAP 营业利润率 36.6%；10 月股东信称 OCS 快速越过 $100M 季收入运行率，实际季度实绩仍待财报。与 COHR/AAOI 对照光源、模块、CPO/OCS 的利润和现金分配。2026-10-16 收盘 $824.13，工作稀释市值 $84.06B、EV $82.97B，EV/TTM 27.5x、指引年化 P/E 49.1x；30/40/30 情景加权 $1,007.63，2.705 年年化 +7.7% 对 8% 门槛，倍数各减 4x 后 +1.3%。基准已要求 58.5% 三年收入 CAGR，现金成熟化压力测试显著偏低：中性观察、低确信。",
+    "summaryEn": "Initial full coverage. FY2026 revenue was $3,014M (+83.2%) and Q4 non-GAAP operating margin 36.6%. The October shareholder letter describes OCS scaling beyond a $100M quarterly revenue run rate; reported quarterly actuals remain pending. The COHR/AAOI comparison follows profits and cash across lasers, modules and CPO/OCS. At the 2026-10-16 close of $824.13, working diluted market cap is $84.06B and EV $82.97B, or 27.5x TTM sales and 49.1x annualized guided EPS. The 30/40/30 grid weights to $1,007.63, +7.7% annualized over 2.705 years against an 8% hurdle; four fewer exit turns cut that to +1.3%. The base already requires 58.5% three-year revenue CAGR, while mature-cash-flow stress values are much lower: neutral-watch, low conviction.",
+    "tags": [
+      "AI光连接",
+      "激光器",
+      "光模块",
+      "CPO",
+      "光交换"
+    ],
+    "category": "tech",
+    "date": "2026-10-19",
+    "lastUpdate": "2026-10-19",
+    "period": "2026H2",
+    "versionType": "initial",
+    "versionLabel": "2026H2 Initial Coverage",
+    "reportedPeriod": "FY2026 / Q4 FY2026",
+    "isCurrent": true,
+    "moduleContract": "heading-comment-v1",
+    "coverageTier": "full",
+    "file": "/invest/research/reports/view.html?id=lumentum-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Lumentum_深度研究报告_2026-10.md",
+      "en": "/invest/research/Lumentum_Deep_Research_Report_2026-10.md"
+    },
+    "highlights": [
+      "FY2026 收入 $3,014M（+83.2%），Components 66.5%、Systems 33.5%；Q4 收入 $1,006.3M、GAAP/非 GAAP 营业利润率 27.8%/36.6%",
+      "架构检验：EML/CW 光源、Cloud Light 模块、OCS/CPO 并行；10 月 OCS >$100M 季运行率不是已披露 Q1 实际收入，VCSEL 演示不是量产订单",
+      "同日估值（2026-10-16）：$824.13，工作稀释 EV $82.97B、EV/TTM 27.5x、指引年化 P/E 49.1x；同业已发行权益口径 LITE 25.2x、COHR 6.7x、AAOI 约 10.1x（已知事项示意桥）",
+      "FY2026 FCF $300.1M、RSU 代扣税另耗 $281M；股数和转债结算存在时点差，102M 是工作假设，FY2029 用 108M",
+      "30/40/30 网格加权 $1,007.63、年化 +7.7%，倍数减 4x 后 +1.3%，收入降 20% 后 -0.7%；中性观察、低确信",
+      "下一已公告节点：2026-11-05 盘后 Q1 FY2027；收入指引 $1.225B–$1.275B，非 GAAP 营业利润率 39.5%–40.5%"
+    ],
+    "highlightsEn": [
+      "FY2026 revenue $3,014M (+83.2%), Components 66.5% and Systems 33.5%; Q4 revenue $1,006.3M, GAAP/non-GAAP operating margin 27.8%/36.6%",
+      "Architecture check: EML/CW lasers, Cloud Light modules and OCS/CPO coexist; October OCS >$100M quarterly run rate is not reported Q1 actual revenue, and the VCSEL demonstration is not a production order",
+      "Same-day valuation, 2026-10-16: $824.13, working diluted EV $82.97B, 27.5x TTM sales and 49.1x annualized guided EPS; issued-equity peer EV/TTM: LITE 25.2x, COHR 6.7x, AAOI about 10.1x on an illustrative known-event bridge",
+      "FY2026 FCF $300.1M, with $281M additional RSU withholding cash; timing differences complicate shares and conversions, 102M is a working assumption and FY2029 uses 108M",
+      "30/40/30 grid weights to $1,007.63 and +7.7% annualized; minus four exit turns yields +1.3%, and 20% lower revenue -0.7%; neutral-watch, low conviction",
+      "Next announced event: Q1 FY2027 after the close on 2026-11-05; revenue guidance $1.225B–$1.275B, non-GAAP operating margin 39.5%–40.5%"
+    ],
+    "chainLayer": "optical",
+    "chainRole": "architecture-check",
+    "related": [
+      "coherent-2026",
+      "aaoi-2026",
+      "innolight-2026",
+      "axti-2026",
+      "nvidia-2026",
+      "crdo-2026"
+    ],
+    "priceAsOf": "2026-10-16",
+    "stance": "neutral-watch",
+    "conviction": "low",
+    "stanceRationale": {
+      "zh": "2026-10-16 收盘 $824.13，102M 工作稀释股、净现金 $1.091B，对应 EV $82.97B、EV/TTM 27.5x、指引年化 P/E 49.1x。FY2029 30/40/30 情景按收入 $16B/$12B/$7.5B、营业利润率 46%/43%/33%、28x/24x/18x 经营收益退出，108M 股，得到 $1,647.20/$1,001.21/$376.61；加权 $1,007.63，2.705 年年化 +7.7%，接近但低于 8% 下限。现价在 43% 利润率、24x 退出下获得 8% 回报需 FY2029 约 $12.17B 收入，略高于基准 $12B；基准已经要求三年 58.5% CAGR。倍数各减 4x 后 +1.3%，收入降 20% 后 -0.7%，加权对数增长约 +1.9%，成熟化现金流压力测试 $266–$466。经营兑现支持中性观察，但回报依赖 FY2029 后持续成长、主观概率和现金转化，确信度低。",
+      "en": "At the 2026-10-16 close of $824.13, 102M working diluted shares and $1.091B net cash imply $82.97B EV, 27.5x TTM sales and 49.1x annualized guided EPS. FY2029 bull/base/bear revenue of $16B/$12B/$7.5B, operating margins 46%/43%/33%, 28x/24x/18x operating-earnings exits and 108M shares yield $1,647.20/$1,001.21/$376.61. The 30/40/30 weighted value is $1,007.63, +7.7% annualized over 2.705 years, close to but below the 8% floor. At 43% margin and a 24x exit, an 8% return needs about $12.17B FY2029 revenue versus our $12B base, which already requires 58.5% three-year CAGR. Four fewer exit turns give +1.3%, 20% lower revenue -0.7%, weighted log growth about +1.9%, and mature-cash-flow stress values $266–$466. Operating delivery supports neutral-watch, but returns depend on continued post-FY2029 growth, subjective probabilities and cash conversion: low conviction."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "上调至 constructive：约 $740 或以下且经营/现金假设未恶化；或公司提高长期模型、近期收入和营业利润率超过指引上沿（$1.275B/40.5%），使重建情景年化至少 12%。两条路径均需核对现金转换与净稀释。",
+        "en": "Upgrade to constructive around $740 or below without operating/cash deterioration, or if a higher long-term model and near-term revenue/margin above guidance ($1.275B/40.5%) lift rebuilt annualized returns to at least 12%. Both paths require cash-conversion and net-dilution checks.",
+        "monitoringIds": [
+          "revenue-margin",
+          "margin-cash",
+          "concentration-dilution",
+          "valuation-hurdle"
+        ]
+      },
+      "downgrade": {
+        "zh": "下调至 cautious：Q1 收入 <$1.225B 或非 GAAP 营业利润率 <39.5%；OCS 目标撤回/重大延期；毛利率连续两季 <47% 且器件降价；稀释分母 >104M 且现金留存未改善；或约 $910 以上而盈利与现金假设未提高。",
+        "en": "Downgrade to cautious for Q1 revenue below $1.225B or non-GAAP operating margin below 39.5%; withdrawn/materially delayed OCS targets; two quarters below 47% gross margin with component cuts; dilution above 104M without better cash retention; or a price above roughly $910 without stronger earnings/cash assumptions.",
+        "monitoringIds": [
+          "revenue-margin",
+          "architecture-ramp",
+          "margin-cash",
+          "concentration-dilution",
+          "valuation-hurdle"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-10-19",
+        "stance": "neutral-watch",
+        "conviction": "low",
+        "price": 824.13
+      }
+    ],
+    "monitoring": [
+      {
+        "id": "revenue-margin",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "收入与营业利润率兑现",
+          "en": "Revenue and operating-margin delivery"
+        },
+        "trigger": {
+          "zh": "Q1 收入 <$1.225B 或非 GAAP 营业利润率 <39.5% 触发下调复核；超过 $1.275B/40.5% 则重建上行情景",
+          "en": "Q1 revenue below $1.225B or non-GAAP operating margin below 39.5% prompts downgrade review; above $1.275B/40.5% requires an upside rebuild"
+        },
+        "latest": {
+          "zh": "Q4 收入 $1,006.3M、非 GAAP 营业利润率 36.6%；Q1 指引中值 $1,250M、40%",
+          "en": "Q4 revenue $1,006.3M, non-GAAP operating margin 36.6%; Q1 midpoint $1,250M and 40%"
+        },
+        "nextCheck": "2026-11-05 盘后 Q1 FY2027 业绩 / Q1 FY2027 results after close",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "architecture-ramp",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "OCS 与 CPO 量产兑现",
+          "en": "OCS and CPO production conversion"
+        },
+        "trigger": {
+          "zh": "OCS 目标撤回/重大延期，或 2027 年末 CPO 首批出货推迟至 2028 年之后",
+          "en": "Withdrawal/material delay of OCS objectives, or initial late-2027 CPO shipments delayed beyond 2028"
+        },
+        "latest": {
+          "zh": "FY2026 OCS 收入 >$90M；10 月股东信 >$100M 季运行率，非季度实绩；2027 >$1B 运行率目标",
+          "en": "FY2026 OCS revenue >$90M; October letter >$100M quarterly run rate, not quarterly actuals; 2027 >$1B run-rate objective"
+        },
+        "nextCheck": "Q1/Q2 FY2027 业绩及产品公告 / Q1/Q2 FY2027 results and product announcements",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "margin-cash",
+        "thesis": "either",
+        "theme": "pricing",
+        "metric": {
+          "zh": "器件毛利与现金留存",
+          "en": "Component margins and cash retention"
+        },
+        "trigger": {
+          "zh": "非 GAAP 毛利率连续两季 <47% 且器件降价；或现金留存持续无法支持扩产",
+          "en": "Two quarters of non-GAAP gross margin below 47% with component cuts, or cash retention persistently unable to fund expansion"
+        },
+        "latest": {
+          "zh": "Q4 非 GAAP 毛利率 50.4%；FY2026 FCF $300.1M，RSU 现金代扣税另耗 $281M",
+          "en": "Q4 non-GAAP gross margin 50.4%; FY2026 FCF $300.1M, with $281M additional cash RSU withholding"
+        },
+        "nextCheck": "每季业绩与 10-Q / Each earnings release and 10-Q",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "concentration-dilution",
+        "thesis": "bear",
+        "theme": "concentration",
+        "metric": {
+          "zh": "客户集中与每股稀释",
+          "en": "Customer concentration and per-share dilution"
+        },
+        "trigger": {
+          "zh": "单一客户 >35%；稀释分母 >104M 且现金留存未改善",
+          "en": "Single customer above 35%; diluted denominator above 104M without better cash retention"
+        },
+        "latest": {
+          "zh": "FY2026 两大客户 41.6%；9 月已发行经济股数 93.459M，工作稀释假设 102M，敏感区间 100M–104M",
+          "en": "FY2026 top two customers 41.6%; September issued economic shares 93.459M, working diluted assumption 102M, sensitivity range 100M–104M"
+        },
+        "nextCheck": "Q1 FY2027 10-Q",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "valuation-hurdle",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "估值回报门槛与敏感性",
+          "en": "Valuation return hurdle and sensitivity"
+        },
+        "trigger": {
+          "zh": "假设未恶化时约 $740 触发升级复核；约 $910 以上而盈利/现金未提高触发下调复核；每次均需重算",
+          "en": "Around $740 without deterioration prompts upgrade review; above about $910 without higher earnings/cash prompts downgrade review; recalculate each time"
+        },
+        "latest": {
+          "zh": "2026-10-16 $824.13，30/40/30 加权情景 $1,007.63、年化 +7.7%；倍数减 4x 后 +1.3%，对数增长 +1.9%",
+          "en": "2026-10-16 $824.13, 30/40/30 weighted scenario $1,007.63 and +7.7% annualized; minus four exit turns +1.3%, weighted log growth +1.9%"
+        },
+        "nextCheck": "价格或业绩变化时 / On price or earnings change"
       }
     ]
   }

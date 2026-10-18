@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17",
+  "generatedAt": "2026-10-19",
   "dataAsOf": "2026-10-16",
   "benchmark": "SMH",
   "entries": [
@@ -921,6 +921,28 @@
       "bookBenchmarkChangePct": -11.0,
       "bookRelativePct": -18.5,
       "daysHeld": 21,
+      "stale": false
+    },
+    {
+      "reportId": "crdo-2026",
+      "stance": "cautious",
+      "conviction": "medium",
+      "stanceDate": "2026-10-19",
+      "priceAtStance": 169.7,
+      "benchmarkSymbol": "SMH",
+      "status": "pending",
+      "daysHeld": 0,
+      "stale": false
+    },
+    {
+      "reportId": "lumentum-2026",
+      "stance": "neutral-watch",
+      "conviction": "low",
+      "stanceDate": "2026-10-19",
+      "priceAtStance": 824.13,
+      "benchmarkSymbol": "SMH",
+      "status": "pending",
+      "daysHeld": 0,
       "stale": false
     }
   ],

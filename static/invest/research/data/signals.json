@@ -2571,5 +2571,59 @@
     "monitoringRefs": [
       "alab-2026:valuation-multiple-vs-growth"
     ]
+  },
+  {
+    "id": "credo-fy27-q1-aec-growth-customer-concentration",
+    "date": "2026-09-02",
+    "title": {
+      "zh": "Credo AEC 放量确认互连需求，终端客户集中仍高",
+      "en": "Credo AEC ramp confirms interconnect demand while end-customer concentration stays high"
+    },
+    "detail": {
+      "zh": "Credo 2026-09-01 业绩稿及 2026-09-02 提交的截至 2026-08-01 季度 10-Q：Q1 FY2027 收入 $479.003M、同比 +114.7%；AEC 出货贡献超过 90% 的同比收入增量，并非超过 90% 的总收入。四家匿名终端客户占比 28%/33%/13%/10%，合计 84%，不等同于签单客户口径，也不能据此归属具名云厂商。首次覆盖以此建立互连架构交叉校验基线。来源：https://www.sec.gov/Archives/edgar/data/1807794/000162828026060111/crdo-20260801.htm",
+      "en": "Credo's September 1, 2026 release and September 2 Form 10-Q for the quarter ended August 1 report Q1 FY2027 revenue of $479.003M, +114.7% YoY. AEC shipments contributed over 90% of the year-over-year revenue increase, not over 90% of total revenue. Four anonymous end customers represented 28%/33%/13%/10%, or 84%; this differs from contracting-customer concentration and does not identify named hyperscalers. Initial coverage establishes an interconnect-architecture cross-check baseline. Source: https://www.sec.gov/Archives/edgar/data/1807794/000162828026060111/crdo-20260801.htm"
+    },
+    "crossChecks": [
+      "interconnect-fanout-constraint",
+      "chip-vs-downstream"
+    ],
+    "tickers": [
+      "CRDO",
+      "ALAB"
+    ],
+    "reportIds": [
+      "crdo-2026"
+    ],
+    "monitoringRefs": [
+      "crdo-2026:revenue-and-optics",
+      "crdo-2026:end-customer-concentration"
+    ]
+  },
+  {
+    "id": "lumentum-fy26-optical-profit-cash-conversion",
+    "date": "2026-08-17",
+    "title": {
+      "zh": "Lumentum 光连接利润扩张，现金转换仍需与扩产同步检验",
+      "en": "Lumentum optical profit expands while cash conversion must be checked against capacity investment"
+    },
+    "detail": {
+      "zh": "Lumentum 2026-08-11 FY2026 财报及 2026-08-17 10-K：Q4 收入 $1,006.3M、同比 +109.3%，GAAP 毛利率 47.4%、营业利润率 27.8%；FY2026 经营现金流 $751.4M、资本开支 $451.3M，按二者相减的自由现金流为 $300.1M。两大匿名终端客户合计占收入 41.6%。这些读数确认光连接收入与利润兑现，同时要求和 COHR/AAOI 的现金及扩产读数交叉校验；不把客户股权融资视为经营收入。来源：https://www.sec.gov/Archives/edgar/data/1633978/000162828026057358/lite-20260627.htm",
+      "en": "Lumentum's August 11, 2026 FY2026 results and August 17 Form 10-K report Q4 revenue of $1,006.3M, +109.3% YoY, a 47.4% GAAP gross margin and a 27.8% operating margin. FY2026 operating cash flow was $751.4M and capex $451.3M, giving $300.1M of free cash flow by subtraction. Two anonymous end customers accounted for 41.6% of revenue. These readings confirm optical revenue and profit delivery while requiring cross-checks against COHR/AAOI cash conversion and capacity spending; customer equity financing is not operating revenue. Source: https://www.sec.gov/Archives/edgar/data/1633978/000162828026057358/lite-20260627.htm"
+    },
+    "crossChecks": [
+      "chip-vs-downstream"
+    ],
+    "tickers": [
+      "LITE",
+      "COHR",
+      "AAOI"
+    ],
+    "reportIds": [
+      "lumentum-2026"
+    ],
+    "monitoringRefs": [
+      "lumentum-2026:revenue-margin",
+      "lumentum-2026:margin-cash"
+    ]
   }
 ]
