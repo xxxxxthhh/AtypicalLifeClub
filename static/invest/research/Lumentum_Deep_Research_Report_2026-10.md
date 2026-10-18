@@ -3,7 +3,7 @@
 Coverage date: 2026-10-19
 Last updated: 2026-10-19
 Ticker: NASDAQ: LITE
-Disclaimer: This report is for information and research discussion only and does not constitute investment advice. Conduct your own due diligence.
+Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 Reporting period: FY2026, ended 2026-06-27, incorporating issuer updates available through 2026-10-19. Common price anchor: the completed U.S. regular-session close on 2026-10-16. Dollar amounts are USD millions (M) unless specified; B denotes billions. Actual results, company objectives and research assumptions are identified separately.
 
 ## Executive Summary <!-- report-module:overview -->
@@ -225,7 +225,7 @@ The cash-flow stress uses FY2027/FY2028/FY2029 after-tax operating earnings of $
 
 The 30/40/30 weights are judgments under limited evidence, not historical frequencies. Q4 delivery and new products retain upside, while unverified new-fab output, concentration and cash absorption give the bear the same 30% weight as the bull. The base deliberately lacks a majority because it already incorporates strong growth and a margin above the company's $8B model ceiling. A 20/40/40 weighting produces just 2.5% annualized, so the main grid is not a robust purchase case. The 8% hurdle is a comparison floor; a 12% requirement for volatile hardware implies a price reading around $742.
 
-### Scenario grid: exit on 2029-06-30, 2.705-year holding period
+## 8.1 Valuation scenario grid: exit on 2029-06-30, 2.705-year holding period <!-- report-module:valuation -->
 
 | Scenario | FY2027 / FY2028 / FY2029 revenue | Operating margins | FY2029 EPS | Exit multiple | Terminal net cash/share | Future scenario value | Versus close / annualized | Weight |
 |---|---|---|---:|---:|---:|---:|---:|---:|
@@ -239,6 +239,8 @@ The 30/40/30 weights are judgments under limited evidence, not historical freque
 Construction: after-tax operating earnings = revenue × adjusted operating margin × (1 − 16.5%). EPS equals those earnings divided by 108M shares. Net cash equals current $1,091.3M plus 38% of cumulative FY2027–FY2029 after-tax operating earnings, approximating historical FCF/adjusted-income conversion and excluding interest income. Future scenario value = EPS × exit multiple + cash/share. This is an **operating-earnings multiple excluding cash interest**, avoiding double-counting cash income when adding cash. The 108M future denominator is a research dilution assumption, not guidance.
 
 The base case's **58.5%** three-year revenue CAGR and roughly fourfold FY2026 revenue are already demanding. The $8B annualized model plus $5B theoretical fab capacity is not a $13B sales guarantee; the grid makes strong assumptions about qualification, yields, customers and utilization. A 38% cash-conversion assumption uses the expansion-year experience but does not separately deduct future RSU withholding, potentially overstating retained cash. The zero-conversion sensitivity shows the exposure.
+
+## 8.2 Valuation sensitivity, reverse growth and attractiveness <!-- report-module:valuation -->
 
 | Sensitivity | Weighted future value | Annualized return |
 |---|---:|---:|

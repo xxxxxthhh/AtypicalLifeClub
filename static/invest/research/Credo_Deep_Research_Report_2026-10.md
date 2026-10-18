@@ -1,9 +1,9 @@
 # Credo (CRDO) Deep Research Report
 
-Initial coverage date: 2026-10-19
+Coverage date: 2026-10-19
 Last updated: 2026-10-19
 Ticker: NASDAQ: CRDO
-Disclaimer: This report is for information and research discussion only, does not constitute investment advice, and requires independent due diligence.
+Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
@@ -205,7 +205,9 @@ The DCF uses 197.505M shares as an existing diluted proxy. New SBC is charged ec
 | Discount rate 11% | $77.54 | $85.06 | $94.73 |
 | Discount rate 12% | $69.28 | $75.08 | $82.34 |
 
-**Three-year scenario grid.** Returns run from the report date, 2026-10-19, to 2029-10-19: 1,096 days / 3.0007 years. Exit EV capitalizes then-forward FY2030E revenue, not a present-day fair value. The 10% hurdle is this report's required return, not a market observation. It adds two percentage points to an 8% cross-company reference for 84% end-customer concentration, equity costs and optical-integration uncertainty. The +1.89% result also misses 8%; at 8%, the conditional entry line is $142.49, so the conclusion does not depend on the hurdle difference. Exit sales multiples imply approximately 28.6x / 26.7x / 20.0x cash FCF for bull/base/bear, before SBC. Even the base case retains a quality-growth premium rather than holding today's approximately 20x sales indefinitely.
+## 8.1 Valuation scenario grid <!-- report-module:valuation -->
+
+Returns run from the report date, 2026-10-19, to 2029-10-19: 1,096 days / 3.0007 years. Exit EV capitalizes then-forward FY2030E revenue, not a present-day fair value. The 10% hurdle is this report's required return, not a market observation. It adds two percentage points to an 8% cross-company reference for 84% end-customer concentration, equity costs and optical-integration uncertainty. The +1.89% result also misses 8%; at 8%, the conditional entry line is $142.49, so the conclusion does not depend on the hurdle difference. Exit sales multiples imply approximately 28.6x / 26.7x / 20.0x cash FCF for bull/base/bear, before SBC. Even the base case retains a quality-growth premium rather than holding today's approximately 20x sales indefinitely.
 
 | Scenario | FY2030E revenue / FY2027-2030 CAGR | Cash FCF margin / exit EV/revenue | Exit shares / adjusted net cash | Per-share terminal value / versus $169.70 / annualized | Probability |
 |---|---|---|---|---|---|
@@ -214,6 +216,8 @@ The DCF uses 197.505M shares as an existing diluted proxy. New SBC is charged ec
 | Bear case | $2.8B / 8.4%; share/pricing pressure, delayed optics and persistent equity costs | 20% / 4x | 230M / $1.002B | $53.05 / -68.7% / -32.12% | 30% |
 
 The 20%/50%/30% weighting is a research judgment. Proven shipments, profits and the optical objective support the largest base weight. Missing optical segment actuals, 84% end-customer concentration and capital needs justify a bear weight above the bull. No objective frequency validates the probabilities. Exit shares exceed current ordinary shares by approximately 12.8% bull, 15.5% base and 22.4% bear. Equal-dollar equity awards require more shares at lower prices, and the model allows room for acquisition milestones. Board compensation price hurdles do not become valuation assumptions.
+
+## 8.2 Valuation cash bridge, reverse expectations and sensitivity <!-- report-module:valuation -->
 
 | Exit cash bridge, $B | Bull | Base | Bear |
 |---|---:|---:|---:|
