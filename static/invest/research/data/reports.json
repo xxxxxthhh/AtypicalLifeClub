@@ -13307,8 +13307,8 @@
     "priceSymbol": "CBRS",
     "title": "Cerebras 深度研究报告 - 晶圆级推理被一份 OpenAI 合同定价",
     "titleEn": "Cerebras Deep Research Report - Wafer-Scale Inference Priced by One OpenAI Contract",
-    "summary": "2026-10-19 首次完整覆盖：以 2026-10-16 常规收盘 $127.21、2026-08-05 已发行 237.564041M 股为锚，市值 $30.221B；6/30 不受限现金投资 $7.922B 扣 OpenAI 贷款 $0.918B 后 EV $23.217B，34.11x EV/TTM GAAP 收入、26.23x EV/FY2026 core 收入指引中点。谨慎／低确信：20/50/30 情景加权 2029 年每股终值 $126.43、年化 -0.20%，低于 8% 参照及 10% 门槛；保持现价需 FY2030E core 收入 $7.89B，10% 回报需 $10.80B。RPO $25.4B 大部分归属 OpenAI，Q2 MBZUAI／G42／OpenAI 合计约 75% 收入；TTM FCF -$680.2M，完全稀释代理约 313M 股。",
-    "summaryEn": "Initial full coverage on 2026-10-19 at the 2026-10-16 regular close of $127.21 and 237.564041M issued shares dated 2026-08-05: $30.221B market cap; $7.922B of unrestricted cash and investments at 6/30 less the $0.918B OpenAI loan gives a $23.217B EV, 34.11x EV/TTM GAAP revenue and 26.23x EV/the FY2026 core revenue guidance midpoint. Cautious / low conviction: the 20/50/30 grid gives a $126.43 weighted 2029 terminal value and -0.20% annualized, below both the 8% reference and the 10% hurdle; holding the price needs FY2030E core revenue of $7.89B and a 10% return needs $10.80B. A significant amount of the $25.4B RPO is attributable to OpenAI, and MBZUAI/G42/OpenAI were about 75% of Q2 revenue; TTM FCF was -$680.2M and the fully diluted proxy is about 313M shares.",
+    "summary": "2026-10-19 首次完整覆盖：以 2026-10-16 常规收盘 $127.21、2026-08-05 已发行 237.564041M 股为锚，市值 $30.221B；6/30 不受限现金投资 $7.922B 扣 OpenAI 贷款 $0.918B 后 EV $23.217B，34.11x EV/TTM GAAP 收入、26.23x EV/FY2026 core 收入指引中点。谨慎／低确信：20/50/30 情景加权 2029 年每股终值 $126.43、年化 -0.20%，低于 8% 参照及 10% 门槛；保持现价需 FY2030E core 收入 $7.89B，10% 回报需 $10.80B。RPO $25.4B 相当大部分归属 OpenAI，Q2 MBZUAI／G42／OpenAI 合计约 75% 收入；TTM FCF -$680.2M，完全稀释代理约 313.6M 股。",
+    "summaryEn": "Initial full coverage on 2026-10-19 at the 2026-10-16 regular close of $127.21 and 237.564041M issued shares dated 2026-08-05: $30.221B market cap; $7.922B of unrestricted cash and investments at 6/30 less the $0.918B OpenAI loan gives a $23.217B EV, 34.11x EV/TTM GAAP revenue and 26.23x EV/the FY2026 core revenue guidance midpoint. Cautious / low conviction: the 20/50/30 grid gives a $126.43 weighted 2029 terminal value and -0.20% annualized, below both the 8% reference and the 10% hurdle; holding the price needs FY2030E core revenue of $7.89B and a 10% return needs $10.80B. A significant amount of the $25.4B RPO is attributable to OpenAI, and MBZUAI/G42/OpenAI were about 75% of Q2 revenue; TTM FCF was -$680.2M and the fully diluted proxy is about 313.6M shares.",
     "category": "tech",
     "tags": [
       "AI基础设施",
@@ -13421,7 +13421,8 @@
           "zh": "2026-06-30：Q2 core 收入 $209.869M、core 毛利率 40.6%；Q3 指引 $214M—$216M、38%—40%",
           "en": "2026-06-30: Q2 core revenue $209.869M, core gross margin 40.6%; Q3 guide $214M-$216M, 38%-40%"
         },
-        "nextCheck": "Q3 结果（日期未公布）；Q4／FY2026 / Q3 results (date not announced); Q4/FY2026"
+        "nextCheck": "Q3 结果（日期未公布）；Q4／FY2026 / Q3 results (date not announced); Q4/FY2026",
+        "nextCheckDate": "2026-11"
       },
       {
         "id": "cash-burn-capex",
@@ -13455,8 +13456,8 @@
           "en": "Fully diluted proxy (issued + anti-dilutive securities) above 330M is negative"
         },
         "latest": {
-          "zh": "2026-08-05：已发行 237.564M；6/30 反稀释证券 76.0M，代理约 313M；10-28 约 19.4M 股解禁，余下不晚于 11-09",
-          "en": "2026-08-05: issued 237.564M; anti-dilutive securities 76.0M at 6/30, proxy about 313M; about 19.4M shares unlock on 10/28, the rest no later than 11/9"
+          "zh": "2026-08-05：已发行 237.564M；6/30 反稀释证券 76.0M，代理约 313.6M；10-28 约 19.4M 股解禁，余下不晚于 11-09",
+          "en": "2026-08-05: issued 237.564M; anti-dilutive securities 76.0M at 6/30, proxy about 313.6M; about 19.4M shares unlock on 10/28, the rest no later than 11/9"
         },
         "nextCheck": "2026-11 解禁结束及 Q3 10-Q / End of lock-up in 2026-11 and Q3 10-Q",
         "nextCheckDate": "2026-11"
