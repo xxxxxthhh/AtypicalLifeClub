@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18",
+  "generatedAt": "2026-10-19",
   "dataAsOf": "2026-10-16",
   "benchmark": "SMH",
   "entries": [
@@ -940,6 +940,17 @@
       "conviction": "low",
       "stanceDate": "2026-10-19",
       "priceAtStance": 824.13,
+      "benchmarkSymbol": "SMH",
+      "status": "pending",
+      "daysHeld": 0,
+      "stale": false
+    },
+    {
+      "reportId": "cerebras-2026",
+      "stance": "cautious",
+      "conviction": "low",
+      "stanceDate": "2026-10-19",
+      "priceAtStance": 127.21,
       "benchmarkSymbol": "SMH",
       "status": "pending",
       "daysHeld": 0,

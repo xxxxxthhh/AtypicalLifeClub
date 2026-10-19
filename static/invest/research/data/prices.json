@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18",
+  "generatedAt": "2026-10-19",
   "entries": [
     {
       "reportId": "reddit-2026",
@@ -797,6 +797,18 @@
       "basePrice": 824.13,
       "lastDate": "2026-10-16",
       "lastClose": 824.13,
+      "changePct": 0.0,
+      "currency": "USD"
+    },
+    {
+      "reportId": "cerebras-2026",
+      "symbol": "CBRS",
+      "status": "carried-forward",
+      "attemptedAt": "2026-10-19",
+      "baseDate": "2026-10-16",
+      "basePrice": 127.21,
+      "lastDate": "2026-10-16",
+      "lastClose": 127.21,
       "changePct": 0.0,
       "currency": "USD"
     }

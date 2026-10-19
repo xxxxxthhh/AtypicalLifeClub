@@ -705,6 +705,17 @@
       "sourceUrl": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-Reporting-Date-for-Fiscal-First-Quarter-2027-Financial-Results/default.aspx",
       "sourceType": "issuer-ir",
       "verifiedAt": "2026-10-19"
+    },
+    {
+      "reportId": "cerebras-2026",
+      "company": "Cerebras Systems",
+      "expectedDate": null,
+      "precision": "unknown",
+      "status": "unknown",
+      "session": "not-applicable",
+      "sourceUrl": null,
+      "sourceType": "none",
+      "verifiedAt": "2026-10-19"
     }
   ]
 }

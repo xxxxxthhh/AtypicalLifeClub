@@ -13299,5 +13299,187 @@
         "nextCheck": "价格或业绩变化时 / On price or earnings change"
       }
     ]
+  },
+  {
+    "id": "cerebras-2026",
+    "company": "Cerebras Systems",
+    "ticker": "NASDAQ: CBRS",
+    "priceSymbol": "CBRS",
+    "title": "Cerebras 深度研究报告 - 晶圆级推理被一份 OpenAI 合同定价",
+    "titleEn": "Cerebras Deep Research Report - Wafer-Scale Inference Priced by One OpenAI Contract",
+    "summary": "2026-10-19 首次完整覆盖：以 2026-10-16 常规收盘 $127.21、2026-08-05 已发行 237.564041M 股为锚，市值 $30.221B；6/30 不受限现金投资 $7.922B 扣 OpenAI 贷款 $0.918B 后 EV $23.217B，34.11x EV/TTM GAAP 收入、26.23x EV/FY2026 core 收入指引中点。谨慎／低确信：20/50/30 情景加权 2029 年每股终值 $126.43、年化 -0.20%，低于 8% 参照及 10% 门槛；保持现价需 FY2030E core 收入 $7.89B，10% 回报需 $10.80B。RPO $25.4B 大部分归属 OpenAI，Q2 MBZUAI／G42／OpenAI 合计约 75% 收入；TTM FCF -$680.2M，完全稀释代理约 313M 股。",
+    "summaryEn": "Initial full coverage on 2026-10-19 at the 2026-10-16 regular close of $127.21 and 237.564041M issued shares dated 2026-08-05: $30.221B market cap; $7.922B of unrestricted cash and investments at 6/30 less the $0.918B OpenAI loan gives a $23.217B EV, 34.11x EV/TTM GAAP revenue and 26.23x EV/the FY2026 core revenue guidance midpoint. Cautious / low conviction: the 20/50/30 grid gives a $126.43 weighted 2029 terminal value and -0.20% annualized, below both the 8% reference and the 10% hurdle; holding the price needs FY2030E core revenue of $7.89B and a 10% return needs $10.80B. A significant amount of the $25.4B RPO is attributable to OpenAI, and MBZUAI/G42/OpenAI were about 75% of Q2 revenue; TTM FCF was -$680.2M and the fully diluted proxy is about 313M shares.",
+    "category": "tech",
+    "tags": [
+      "AI基础设施",
+      "AI芯片",
+      "推理算力",
+      "IPO"
+    ],
+    "date": "2026-10-19",
+    "lastUpdate": "2026-10-19",
+    "file": "/invest/research/reports/view.html?id=cerebras-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Cerebras_深度研究报告_2026-10.md",
+      "en": "/invest/research/Cerebras_Deep_Research_Report_2026-10.md"
+    },
+    "moduleContract": "heading-comment-v1",
+    "period": "2026H2",
+    "versionType": "initial",
+    "versionLabel": "2026H2 Initial Full Coverage",
+    "isCurrent": true,
+    "coverageTier": "full",
+    "chainLayer": "compute",
+    "chainRole": "architecture-check",
+    "priceAsOf": "2026-10-16",
+    "reportedPeriod": "Q2 2026 / quarter ended 2026-06-30",
+    "related": [
+      "nvidia-2026",
+      "amd-2026",
+      "coreweave-2026",
+      "nebius-2026",
+      "tsmc-2026"
+    ],
+    "highlights": [
+      "2026-10-16 收盘 $127.21（上市以来最低、较 IPO 价 $185 -31.2%）；EV $23.217B，34.11x EV/TTM GAAP 收入、26.23x EV/FY2026 core 指引中点、0.91x EV/RPO",
+      "谨慎／低确信：20/50/30 网格加权终值 $126.43、年化 -0.20%；单项有利敏感性最高 +6.30%，10% 门槛价 $94.98",
+      "Q2 GAAP 收入 $180.110M（core $209.869M），GAAP／core 毛利率 14.2%／40.6%；RPO $25.4B，OpenAI MRA 收入约占 Q2 31.5%",
+      "TTM FCF -$680.213M；不受限现金投资 $7.922B；6/30 反稀释证券 76.0M，10-28 约 19.4M 股解禁、余下不晚于 11-09"
+    ],
+    "stance": "cautious",
+    "conviction": "low",
+    "stanceRationale": {
+      "zh": "以 2026-10-16 常规收盘 $127.21、2026-08-05 已发行 237.564041M 股计，市值 $30.221B；2026-06-30 不受限现金及投资 $7.922B 减 OpenAI 营运资金贷款 $0.918B，调整净现金 $7.003B、EV $23.217B，34.11x TTM GAAP 收入及 26.23x FY2026 core 收入指引中点 $885M。2026-10-19 至 2029-10-19 的 20%牛市/50%基准/30%熊市（FY2030E 前瞻 core 收入 $13.0B/$7.5B/$3.0B、退出7x/4.5x/1.5x EV/收入、退出股数324M/311M/306M、调整净现金$2.853B/$4.059B/$3.363B）对应每股终值$289.67/$121.57/$25.70，加权$126.43、年化-0.20%；逐档年化的概率加权为-6.83%。10%风险调整门槛高于8%参照以补偿客户集中、交付终止权、烧钱与稀释，结果低于两者。保持现价需FY2030E core收入$7.89B，获10%回报需$10.80B，基准$7.5B已假设OpenAI 750MW全额按期交付并新增约$3B客户收入。退出倍数+1x为+5.52%、收入×1.2为+5.50%、权重30/50/20为+6.30%，单项均未过10%，支持谨慎；仅两季公开报表、首份10-K未出、重大内控缺陷仍在且分布两端极厚（+127.7%/-79.8%），故确信度低。",
+      "en": "At the 2026-10-16 regular close of $127.21 on 237.564041M issued shares dated 2026-08-05, market cap is $30.221B. Unrestricted cash and investments of $7.922B at 2026-06-30 less the $0.918B OpenAI working capital loan give $7.003B adjusted net cash and a $23.217B EV, or 34.11x TTM GAAP revenue and 26.23x the $885M FY2026 core revenue guidance midpoint. From 2026-10-19 to 2029-10-19, 20% bull/50% base/30% bear scenarios use FY2030E forward core revenue $13.0B/$7.5B/$3.0B, exit EV/revenue 7x/4.5x/1.5x, exit shares 324M/311M/306M and adjusted net cash $2.853B/$4.059B/$3.363B. Values of $289.67/$121.57/$25.70 weight to $126.43 and -0.20% annualized; the probability-weighted individual annualized returns equal -6.83%. The 10% risk-adjusted hurdle exceeds an 8% reference for customer concentration, delivery termination rights, cash burn and dilution; results miss both. Holding the price needs FY2030E core revenue of $7.89B and a 10% return needs $10.80B; the $7.5B base already assumes OpenAI's 750MW delivered in full and on time plus about $3B of new-customer revenue. One extra exit-multiple turn gives +5.52%, revenue × 1.2 gives +5.50% and 30/50/20 weights give +6.30%, each still below 10%, supporting cautious. Only two quarters of public reporting, no first 10-K yet, material weaknesses still present and very fat tails (+127.7%/-79.8%) make conviction low."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "在情景不变时常规收盘不高于 $94，复核上调至 neutral-watch；或 FY2026 core 收入不低于 $885M 且 Q4 core 毛利率不低于 45%、新增非 OpenAI 非 UAE 客户合同使 RPO 增加至少 $3B、首份 10-K 未再报告重大内控缺陷，三项同时成立后重建情景，只有重算年化达到 10% 才上调。",
+        "en": "With scenarios unchanged, review an upgrade to neutral-watch after a regular close at or below $94; alternatively, FY2026 core revenue of at least $885M with Q4 core gross margin of at least 45%, new contracts with customers other than OpenAI and the UAE entities adding at least $3B to RPO, and a first 10-K without reported material weaknesses must all hold, followed by a rebuilt scenario return of at least 10%, before upgrading.",
+        "monitoringIds": [
+          "valuation-hurdle-price",
+          "core-revenue-margin",
+          "rpo-and-openai"
+        ]
+      },
+      "downgrade": {
+        "zh": "以下任一成立则复核下调至 bearish-avoid：OpenAI 部分终止或下调承诺容量、或 RPO 低于 $24.0B；Q3 2026 core 收入低于 $214M；连续两季 FCF 差于 -$1.0B 且无新签 RPO 支撑；完全稀释代理超过 330M 股。",
+        "en": "Review a downgrade to bearish-avoid if any one occurs: OpenAI partly terminates or lowers committed capacity, or RPO falls below $24.0B; Q3 2026 core revenue below $214M; FCF worse than -$1.0B for two consecutive quarters without new signed RPO; or the fully diluted proxy above 330M shares.",
+        "monitoringIds": [
+          "rpo-and-openai",
+          "core-revenue-margin",
+          "cash-burn-capex",
+          "dilution-and-lockup"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-10-19",
+        "stance": "cautious",
+        "conviction": "low",
+        "price": 127.21,
+        "note": {
+          "zh": "首次完整覆盖，以2026-10-16收盘$127.21建立全部估值；20/50/30加权终值$126.43、年化-0.20%，单项有利敏感性仍不足10%门槛，因仅两季公开报表与OpenAI交付二元性给低确信。",
+          "en": "Initial full coverage with valuation built at the 2026-10-16 close of $127.21. The 20/50/30 weighted terminal value is $126.43, -0.20% annualized; single favorable sensitivities still miss the 10% hurdle, and conviction is low given only two public quarters and binary OpenAI delivery."
+        }
+      }
+    ],
+    "monitoring": [
+      {
+        "id": "rpo-and-openai",
+        "thesis": "either",
+        "theme": "concentration",
+        "metric": {
+          "zh": "RPO 与 OpenAI 交付",
+          "en": "RPO and OpenAI delivery"
+        },
+        "trigger": {
+          "zh": "OpenAI 部分终止或下调承诺容量、或 RPO 低于 $24.0B 为负面；新增非 OpenAI 合同使 RPO 增加至少 $3B 为正面",
+          "en": "OpenAI partly terminating or lowering committed capacity, or RPO below $24.0B, is negative; new non-OpenAI contracts adding at least $3B to RPO are positive"
+        },
+        "latest": {
+          "zh": "2026-06-30：RPO $25.4B；Q2 OpenAI MRA 收入 $56.8M（约 31.5%）；MBZUAI 34%、G42 9%",
+          "en": "2026-06-30: RPO $25.4B; Q2 OpenAI MRA revenue $56.8M (about 31.5%); MBZUAI 34%, G42 9%"
+        },
+        "nextCheck": "Q3 10-Q，预计 2026-11 / Q3 10-Q, expected 2026-11",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "core-revenue-margin",
+        "thesis": "either",
+        "theme": "execution",
+        "metric": {
+          "zh": "core 收入与毛利率",
+          "en": "Core revenue and gross margin"
+        },
+        "trigger": {
+          "zh": "Q3 core 收入低于 $214M 为负面；FY2026 core 收入不低于 $885M 且 Q4 core 毛利率不低于 45% 为正面",
+          "en": "Q3 core revenue below $214M is negative; FY2026 core revenue of at least $885M with Q4 core gross margin of at least 45% is positive"
+        },
+        "latest": {
+          "zh": "2026-06-30：Q2 core 收入 $209.869M、core 毛利率 40.6%；Q3 指引 $214M—$216M、38%—40%",
+          "en": "2026-06-30: Q2 core revenue $209.869M, core gross margin 40.6%; Q3 guide $214M-$216M, 38%-40%"
+        },
+        "nextCheck": "Q3 结果（日期未公布）；Q4／FY2026 / Q3 results (date not announced); Q4/FY2026"
+      },
+      {
+        "id": "cash-burn-capex",
+        "thesis": "bear",
+        "theme": "leverage-solvency",
+        "metric": {
+          "zh": "现金消耗与资本开支",
+          "en": "Cash consumption and capex"
+        },
+        "trigger": {
+          "zh": "连续两季 FCF 差于 -$1.0B 且无新签 RPO 支撑为负面",
+          "en": "FCF worse than -$1.0B for two consecutive quarters without new signed RPO is negative"
+        },
+        "latest": {
+          "zh": "2026-06-30：Q2 FCF -$476.7M、H1 capex $548.9M；不受限现金投资 $7.922B；$850M 循环信贷未提用",
+          "en": "2026-06-30: Q2 FCF -$476.7M, H1 capex $548.9M; unrestricted cash and investments $7.922B; $850M revolver undrawn"
+        },
+        "nextCheck": "每季 10-Q／10-K / Each 10-Q / 10-K",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "dilution-and-lockup",
+        "thesis": "bear",
+        "theme": "execution",
+        "metric": {
+          "zh": "稀释与解禁",
+          "en": "Dilution and lock-up"
+        },
+        "trigger": {
+          "zh": "完全稀释代理（已发行＋反稀释证券）超过 330M 为负面",
+          "en": "Fully diluted proxy (issued + anti-dilutive securities) above 330M is negative"
+        },
+        "latest": {
+          "zh": "2026-08-05：已发行 237.564M；6/30 反稀释证券 76.0M，代理约 313M；10-28 约 19.4M 股解禁，余下不晚于 11-09",
+          "en": "2026-08-05: issued 237.564M; anti-dilutive securities 76.0M at 6/30, proxy about 313M; about 19.4M shares unlock on 10/28, the rest no later than 11/9"
+        },
+        "nextCheck": "2026-11 解禁结束及 Q3 10-Q / End of lock-up in 2026-11 and Q3 10-Q",
+        "nextCheckDate": "2026-11"
+      },
+      {
+        "id": "valuation-hurdle-price",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "价格与回报门槛",
+          "en": "Price and return hurdle"
+        },
+        "trigger": {
+          "zh": "情景不变且常规收盘不高于 $94，触发升级至 neutral-watch 的复核",
+          "en": "With scenario values unchanged, a regular close at or below $94 triggers review for an upgrade to neutral-watch"
+        },
+        "latest": {
+          "zh": "2026-10-16：$127.21；加权终值 $126.43、年化 -0.20%，10% 门槛价 $94.98",
+          "en": "2026-10-16: $127.21; weighted terminal value $126.43, annualized -0.20%; 10% hurdle entry $94.98"
+        },
+        "nextCheck": "最新完成交易日；事实改变时先重算 / Latest completed session; rebuild before relying on changed facts",
+        "nextCheckDate": "2026-10"
+      }
+    ]
   }
 ]
