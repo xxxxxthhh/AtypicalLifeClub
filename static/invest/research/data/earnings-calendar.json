@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-19",
+  "asOf": "2026-10-20",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -716,6 +716,17 @@
       "sourceUrl": null,
       "sourceType": "none",
       "verifiedAt": "2026-10-19"
+    },
+    {
+      "reportId": "rklb-2026",
+      "company": "Rocket Lab",
+      "expectedDate": null,
+      "precision": "unknown",
+      "status": "unknown",
+      "session": "not-applicable",
+      "sourceUrl": null,
+      "sourceType": "none",
+      "verifiedAt": "2026-10-20"
     }
   ]
 }

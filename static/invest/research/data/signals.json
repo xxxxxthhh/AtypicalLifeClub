@@ -2652,5 +2652,52 @@
       "cerebras-2026:rpo-and-openai",
       "cerebras-2026:cash-burn-capex"
     ]
+  },
+  {
+    "id": "rklb-neutron-inaugural-launch-2027-update",
+    "date": "2026-10-14",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Rocket Lab 将 Neutron 首飞预期调整至 2027 年",
+      "en": "Rocket Lab moves the Neutron inaugural-launch expectation to 2027"
+    },
+    "detail": {
+      "zh": "Rocket Lab 2026-10-14 公告及当日 8-K 将 Neutron 首飞预期调整至 2027 年。此为开发时间预期，尚非完成首飞或商业服务的实际结果。首次覆盖据此建立执行监测基线。来源：https://www.sec.gov/Archives/edgar/data/1819994/000181999426000067/rklb-20261014.htm",
+      "en": "Rocket Lab's October 14, 2026 announcement and same-day Form 8-K move the expected inaugural Neutron launch to 2027. This is a development expectation, without a completed first flight or commercial-service result. Initial coverage establishes the execution-monitoring baseline from this update. Source: https://www.sec.gov/Archives/edgar/data/1819994/000181999426000067/rklb-20261014.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "RKLB"
+    ],
+    "reportIds": [
+      "rklb-2026"
+    ],
+    "monitoringRefs": [
+      "rklb-2026:neutron-execution"
+    ]
+  },
+  {
+    "id": "rklb-iridium-atm-financing-completed",
+    "date": "2026-09-15",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Rocket Lab 完成 Iridium 收购相关 ATM 融资",
+      "en": "Rocket Lab completes the ATM financing related to its pending Iridium acquisition"
+    },
+    "detail": {
+      "zh": "Rocket Lab 2026-09-15 8-K：ATM 已发行约 29.3M 股、募集约 $1.944B 总额（佣金及费用前）；原 $3.6B 桥贷承诺终止，Iridium 约 $1.775B 现有定期贷款获变更控制权同意。ATM 为已发生融资，Iridium 收购仍待交割，不能将目标公司财务视为已合并实际。来源：https://www.sec.gov/Archives/edgar/data/1819994/000175392626001769/g085951_8k.htm",
+      "en": "Rocket Lab's September 15, 2026 Form 8-K reports approximately 29.3M ATM shares sold for approximately $1.944B gross, before commissions and expenses. The original $3.6B bridge commitment was terminated and change-of-control consent obtained for Iridium's approximately $1.775B existing term loans. The ATM financing has occurred while the acquisition remains pending; target financials are not consolidated reported actuals. Source: https://www.sec.gov/Archives/edgar/data/1819994/000175392626001769/g085951_8k.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "RKLB",
+      "IRDM"
+    ],
+    "reportIds": [
+      "rklb-2026"
+    ],
+    "monitoringRefs": [
+      "rklb-2026:iridium-financing-dilution"
+    ]
   }
 ]

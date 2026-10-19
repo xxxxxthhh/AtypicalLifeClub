@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19",
+  "generatedAt": "2026-10-20",
   "entries": [
     {
       "reportId": "reddit-2026",
@@ -809,6 +809,18 @@
       "basePrice": 127.21,
       "lastDate": "2026-10-16",
       "lastClose": 127.21,
+      "changePct": 0.0,
+      "currency": "USD"
+    },
+    {
+      "reportId": "rklb-2026",
+      "symbol": "RKLB",
+      "status": "carried-forward",
+      "attemptedAt": "2026-10-20",
+      "baseDate": "2026-10-16",
+      "basePrice": 50.84,
+      "lastDate": "2026-10-16",
+      "lastClose": 50.84,
       "changePct": 0.0,
       "currency": "USD"
     }
