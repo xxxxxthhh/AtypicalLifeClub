@@ -13354,8 +13354,8 @@
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "在情景不变时常规收盘不高于 $94，复核上调至 neutral-watch；或 FY2026 core 收入不低于 $885M 且 Q4 core 毛利率不低于 45%、新增非 OpenAI 非 UAE 客户合同使 RPO 增加至少 $3B、首份 10-K 未再报告重大内控缺陷，三项同时成立后重建情景，只有重算年化达到 10% 才上调。",
-        "en": "With scenarios unchanged, review an upgrade to neutral-watch after a regular close at or below $94; alternatively, FY2026 core revenue of at least $885M with Q4 core gross margin of at least 45%, new contracts with customers other than OpenAI and the UAE entities adding at least $3B to RPO, and a first 10-K without reported material weaknesses must all hold, followed by a rebuilt scenario return of at least 10%, before upgrading.",
+        "zh": "在情景不变时常规收盘不高于 $94，复核上调至 neutral-watch；或 FY2026 core 收入不低于 $885M 且 Q4 core 毛利率不低于 45%、新增非 OpenAI、非 UAE 客户的具名合同使 RPO 增加至少 $3B（以公司公告的合同金额或同期 RPO 增量为准）、首份 10-K 未再报告重大内控缺陷，三项同时成立后重建情景，只有重算年化达到 10% 才上调。",
+        "en": "With scenarios unchanged, review an upgrade to neutral-watch after a regular close at or below $94; alternatively, FY2026 core revenue of at least $885M with Q4 core gross margin of at least 45%, new named contracts with customers other than OpenAI and the UAE entities adding at least $3B to RPO (judged by the company-announced contract value or the same-period RPO increase), and a first 10-K without reported material weaknesses must all hold, followed by a rebuilt scenario return of at least 10%, before upgrading.",
         "monitoringIds": [
           "valuation-hurdle-price",
           "core-revenue-margin",
@@ -13395,8 +13395,8 @@
           "en": "RPO and OpenAI delivery"
         },
         "trigger": {
-          "zh": "OpenAI 部分终止或下调承诺容量、或 RPO 低于 $24.0B 为负面；新增非 OpenAI 合同使 RPO 增加至少 $3B 为正面",
-          "en": "OpenAI partly terminating or lowering committed capacity, or RPO below $24.0B, is negative; new non-OpenAI contracts adding at least $3B to RPO are positive"
+          "zh": "OpenAI 部分终止或下调承诺容量、或 RPO 低于 $24.0B 为负面；新增非 OpenAI、非 UAE 客户的具名合同使 RPO 增加至少 $3B 为正面（以公司公告的合同金额或同期 RPO 增量为准）",
+          "en": "OpenAI partly terminating or lowering committed capacity, or RPO below $24.0B, is negative; new named contracts with customers other than OpenAI and the UAE entities adding at least $3B to RPO are positive (judged by the company-announced contract value or the same-period RPO increase)"
         },
         "latest": {
           "zh": "2026-06-30：RPO $25.4B；Q2 OpenAI MRA 收入 $56.8M（约 31.5%）；MBZUAI 34%、G42 9%",
