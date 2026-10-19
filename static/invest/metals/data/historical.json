@@ -61,7 +61,7 @@
       }
     },
     "lookback_days": 730,
-    "last_updated": "2026-10-18T11:08:29.897420",
+    "last_updated": "2026-10-19T01:27:02.592497",
     "total_metals": 5,
     "total_etfs": 9,
     "knownSplits": [
@@ -258,6 +258,22 @@
         "rowsAdjusted": 0,
         "state": "applied",
         "appliedAt": "2026-10-18T11:08:26.435664"
+      },
+      {
+        "symbol": "PPLT",
+        "date": "2026-05-18",
+        "ratio": 10.0,
+        "rowsAdjusted": 0,
+        "state": "applied",
+        "appliedAt": "2026-10-19T01:27:01.261659"
+      },
+      {
+        "symbol": "PALL",
+        "date": "2026-05-18",
+        "ratio": 5.0,
+        "rowsAdjusted": 0,
+        "state": "applied",
+        "appliedAt": "2026-10-19T01:27:01.439384"
       }
     ]
   },
@@ -269,9 +285,9 @@
       "date": "2026-10-16"
     },
     "SI=F": {
-      "price": 57.305,
-      "change": 0.468,
-      "changePct": 0.82,
+      "price": 56.995,
+      "change": 0.158,
+      "changePct": 0.28,
       "date": "2026-10-16"
     },
     "PL=F": {
@@ -287,9 +303,9 @@
       "date": "2026-10-16"
     },
     "HG=F": {
-      "price": 6.5735,
-      "change": 0.062,
-      "changePct": 0.95,
+      "price": 6.531,
+      "change": 0.0195,
+      "changePct": 0.3,
       "date": "2026-10-16"
     },
     "COPX": {
@@ -7118,8 +7134,8 @@
       },
       {
         "date": "2026-10-16",
-        "close": 57.305,
-        "volume": 34162
+        "close": 56.995,
+        "volume": 0
       }
     ],
     "PL=F": [
@@ -17274,8 +17290,8 @@
       },
       {
         "date": "2026-10-16",
-        "close": 6.5735,
-        "volume": 43045
+        "close": 6.531,
+        "volume": 1526
       }
     ]
   },
