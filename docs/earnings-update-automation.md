@@ -37,7 +37,7 @@
 
 v7 在不改变上述主记录语义的前提下，允许每条记录追加两个可选字段（见 v7 计划 `docs/research-hub-v7-plan.md` §4.1）：
 
-- `fiscalPeriod`：主记录对应的财报期原文标签（如 `"Q3 2026"`），非空字符串。它只用于和报告 `reportedPeriod` 原值并列展示，不做自动相等判定。
+- `fiscalPeriod`：主记录对应的财报期标签，按发行人原文归一化写成 `"Q3 2026"` 这类形式（原文如 "Third Quarter 2026"；原文只写「quarterly」时不填，不推断），非空字符串。它只用于和报告 `reportedPeriod` 原值并列展示，不做自动相等判定。
 - `call`：发行人只公告了业绩电话会/Webcast 时间、没有单列财报新闻稿发布时段时，用这个子对象记录电话会事件。主记录仍是唯一的 `release` 事件，字段语义和升级规则不变。
 
 ```json
@@ -93,6 +93,7 @@ GitHub Actions 的 `.github/workflows/update-research-prices.yml` 每日 `22:00 
 - 主记录为 `estimated`、`unknown`、`stale` 或 `recorded`，且 `call.status` 为 `issuer-confirmed`：按 `call.timezone` 把参考时刻换算成电话会本地日期，在 `call.expectedDate` 的 T-1、T、T+1 生成 `research-update`，reason 为 `Issuer-confirmed earnings call window (release time unconfirmed); first verify actual release filing/press release, then update the research package.`。执行人必须先核实真实的财报新闻稿或 filing，再更新研究包。
 - 主记录不是 `issuer-confirmed`、电话会日期已过 T+1（不论 `call.status`）：每周一生成 `calendar-maintenance`，提醒把记录滚动到下一周期；若主记录本身已落入 `calendar-maintenance` 范围（主记录日期已过 T+1，或状态为 `unknown` / `stale`），由主记录的维护任务负责，`call` 不再重复生成。
 - `call` 任务的去重键为 `earnings:<reportId>:call-<call.expectedDate>:<window>`，与主记录任务的键互不重叠，下游同样以该键幂等消费。
+- `call` 任务行里的 `expectedDate` 是**电话会日期**，不是财报发布日；任务行没有 `eventType` 字段，只能靠 id 中的 `call-` 前缀区分。下游不得把 call 任务的 `expectedDate` 当作发布日使用（例如 AMZN 的 call 任务写的是 10-29，而发布日仍是未确认的估计值）。
 
 本仓库当前把队列提交回 `main`，不直接创建 GitHub Issue，也不自动发布研究结论。若以后接入 Issue、Agent Office 或其他执行器，它只能读取队列并保留上述去重键和 fail-closed 规则。
 
