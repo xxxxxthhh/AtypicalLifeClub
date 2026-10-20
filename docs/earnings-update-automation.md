@@ -59,6 +59,11 @@ v7 在不改变上述主记录语义的前提下，允许每条记录追加两�
 1. 必填 `eventType: "call"`、`timezone`（合法 IANA 时区，必须显式写出，不回退到 `defaultTimezone`；钟点必须与时区匹配，PT 钟点写 `America/Los_Angeles`）、`expectedDate`（`YYYY-MM-DD`）、`localTime`（24 小时制 `HH:MM` 或 `"unspecified"`）、`precision: "day"`、`status`、`sourceType: "issuer-ir"`、HTTPS `sourceUrl`、`verifiedAt`（不得晚于日历 `asOf`）。不接受其他字段。
 2. `status` 只能是 `issuer-confirmed` 或 `stale`；`stale` 要求 `call.expectedDate` 早于日历 `asOf`。
 3. **零推断**：不得从 `call.localTime` 推断主记录的 `session`，也不得用电话会日期覆盖尚未由发行人确认的主记录 `expectedDate`。主记录要升级为 `issuer-confirmed`，仍然必须有发行人原文写明发布日和发布时段。
+4. **写入前提**：只有核实过发行人原文、确认日期、钟点和时区之后才写入 `call`。发行人公告只给电话会、不给发布时段时，只写 `call` 子对象，主记录保持原状。
+5. **生命周期（日历维护人每次维护时执行）**：
+   - 在事件本地时区的 T+1 窗口结束之前，**保留** `call`，状态不变。日期一过就清理会吃掉该窗口的 `research-update` 任务。
+   - T+1 窗口结束后：若主记录已滚动到下一周期，或已核实实际发布，**删除** `call` 子对象，并在提交说明和回执里写明被删 call 的原 `sourceUrl`、日期和删除原因。git 历史即审计记录。
+   - T+1 窗口结束后、上述两种情况都不满足时，把 `call.status` 改为 `stale`，等主记录滚动后再删除。
 
 `defaultTimezone` 是大多数美股公司事件日期的默认 IANA 时区。若公司的财报日期按其他本地市场定义（例如韩国、上海、台湾、香港或荷兰），必须在对应记录写入 `timezone` 覆盖值。定时任务按每条记录的事件本地日期计算 T-1/T/T+1，不能直接用 UTC 日历日。
 
