@@ -759,9 +759,111 @@
             gap: 0.9rem;
         }
 
+        /* --- view 0: 14D earnings & catalyst radar (positions only, no status colors) --- */
+        .earnings-radar {
+            margin-top: 1rem;
+            display: grid;
+            gap: 1rem;
+        }
+
+        .earnings-radar-group-title {
+            margin: 0 0 0.45rem;
+            color: var(--secondary);
+            font-size: 0.74rem;
+            font-weight: 650;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
+        .earnings-radar-rows {
+            display: grid;
+            border-top: 1px solid var(--tertiary);
+        }
+
+        .earnings-radar-row {
+            display: grid;
+            grid-template-columns: 7.5rem minmax(160px, 1fr) minmax(0, 2.2fr);
+            gap: 0.75rem;
+            align-items: center;
+            padding: 0.55rem 0.2rem;
+            border-bottom: 1px solid var(--tertiary);
+        }
+
+        .earnings-radar-when {
+            font-family: var(--research-mono, ui-monospace, "SF Mono", Menlo, Consolas, monospace);
+            font-size: 0.8rem;
+            color: var(--primary);
+        }
+
+        .earnings-radar-offset {
+            display: block;
+            color: var(--secondary);
+            font-size: 0.72rem;
+        }
+
+        .earnings-radar-company a {
+            color: var(--content);
+            font-weight: 650;
+            text-decoration: none;
+        }
+
+        .earnings-radar-company a:hover {
+            color: var(--accent);
+        }
+
+        .earnings-radar-facts {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+            align-items: center;
+        }
+
+        .earnings-radar-facts .chip-call {
+            color: var(--accent);
+        }
+
+        .earnings-radar-note {
+            color: var(--secondary);
+            font-size: 0.74rem;
+        }
+
+        .earnings-radar-period {
+            color: var(--content);
+            font-size: 0.78rem;
+        }
+
+        .earnings-radar-period span {
+            color: var(--secondary);
+        }
+
+        .earnings-radar-empty {
+            margin: 0;
+            padding: 0.55rem 0.2rem;
+            color: var(--secondary);
+            font-size: 0.8rem;
+        }
+
+        .earnings-radar-folded summary {
+            cursor: pointer;
+            color: var(--secondary);
+            font-size: 0.8rem;
+        }
+
+        .earnings-radar-folded p {
+            margin: 0.45rem 0 0;
+            color: var(--content);
+            font-size: 0.78rem;
+            line-height: 1.6;
+        }
+
         @media (max-width: 760px) {
             .monitor-hero-top {
                 flex-direction: column;
+            }
+
+            .earnings-radar-row {
+                grid-template-columns: 1fr;
+                gap: 0.35rem;
             }
 
             .verdict-row {
@@ -833,10 +935,24 @@
             </div>
         </section>
 
-        <section class="section">
+        <section class="section" id="earningsRadarSection">
             <div class="monitor-section-header research-section-header">
                 <div class="research-section-titlebar">
                     <span class="research-section-number">01</span>
+                    <h2 id="earningsRadarHeading">14D Earnings &amp; Catalyst Radar</h2>
+                    <span class="research-section-rule" aria-hidden="true"></span>
+                </div>
+                <p id="earningsRadarIntro">财报日历中未来 14 天与过去 14 天的日精度事件；只有月份或日期未知的记录折叠为一行计数。</p>
+            </div>
+            <div class="earnings-radar" id="earningsRadar">
+                <div class="loading-state">Loading earnings radar...</div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="monitor-section-header research-section-header">
+                <div class="research-section-titlebar">
+                    <span class="research-section-number">02</span>
                     <h2 id="verdictHeading">Verdict Board</h2>
                     <span class="research-section-rule" aria-hidden="true"></span>
                 </div>
@@ -854,7 +970,7 @@
         <section class="section" id="stanceLedgerSection">
             <div class="monitor-section-header research-section-header">
                 <div class="research-section-titlebar">
-                    <span class="research-section-number">02</span>
+                    <span class="research-section-number">03</span>
                     <h2 id="stanceLedgerHeading">Stance Ledger</h2>
                     <span class="research-section-rule" aria-hidden="true"></span>
                 </div>
@@ -868,7 +984,7 @@
         <section class="section" id="rerunQueueSection">
             <div class="monitor-section-header research-section-header">
                 <div class="research-section-titlebar">
-                    <span class="research-section-number alt">03</span>
+                    <span class="research-section-number alt">04</span>
                     <h2 id="rerunQueueHeading">Rerun Queue</h2>
                     <span class="research-section-rule" aria-hidden="true"></span>
                 </div>
@@ -882,7 +998,7 @@
         <section class="section" id="radarSection">
             <div class="monitor-section-header research-section-header">
                 <div class="research-section-titlebar">
-                    <span class="research-section-number alt">04</span>
+                    <span class="research-section-number alt">05</span>
                     <h2 id="radarHeading">Cross-Check Radar</h2>
                     <span class="research-section-rule" aria-hidden="true"></span>
                 </div>
@@ -896,7 +1012,7 @@
         <section class="section" id="nextCheckSection">
             <div class="monitor-section-header research-section-header">
                 <div class="research-section-titlebar">
-                    <span class="research-section-number">05</span>
+                    <span class="research-section-number">06</span>
                     <h2 id="nextCheckHeading">Next-Check Timeline</h2>
                     <span class="research-section-rule" aria-hidden="true"></span>
                 </div>
@@ -910,7 +1026,7 @@
         <section class="section">
             <div class="monitor-section-header research-section-header">
                 <div class="research-section-titlebar">
-                    <span class="research-section-number">06</span>
+                    <span class="research-section-number">07</span>
                     <h2 id="criteriaHeading">Kill-Criteria Board</h2>
                     <span class="research-section-rule" aria-hidden="true"></span>
                 </div>
@@ -936,7 +1052,7 @@
         <section class="section" id="themeMatrixSection">
             <div class="monitor-section-header research-section-header">
                 <div class="research-section-titlebar">
-                    <span class="research-section-number alt">07</span>
+                    <span class="research-section-number alt">08</span>
                     <h2 id="matrixHeading">Theme × Layer Matrix</h2>
                     <span class="research-section-rule" aria-hidden="true"></span>
                 </div>
@@ -948,7 +1064,7 @@
         <section class="section">
             <div class="monitor-section-header research-section-header">
                 <div class="research-section-titlebar">
-                    <span class="research-section-number alt">08</span>
+                    <span class="research-section-number alt">09</span>
                     <h2 id="spotlightHeading">Risk-Anchor Spotlight</h2>
                     <span class="research-section-rule" aria-hidden="true"></span>
                 </div>
@@ -976,6 +1092,8 @@
         const COVERAGE_MAP_URL = "/invest/research/data/coverage-map.json";
         const SIGNALS_DATA_URL = "/invest/research/data/signals.json";
         const PRICES_DATA_URL = "/invest/research/data/prices.json";
+        const EARNINGS_CALENDAR_URL = "/invest/research/data/earnings-calendar.json";
+        const EARNINGS_RADAR_DAYS = 14;
 
         const PAGE_LABELS = {
             zh: {
@@ -988,6 +1106,36 @@
                 monitoringItemsStat: "监控项",
                 rerunStat: "复核候选",
                 signalStat: "信号记录",
+                earningsRadarHeading: "14 天财报与催化剂雷达",
+                earningsRadarIntro: "财报日历中未来 14 天与过去 14 天的日精度事件，按事件本地时区计算天数；只有月份或日期未知的记录折叠为一行计数。",
+                earningsUpcoming: "未来 14 天",
+                earningsPastDue: "过去 14 天",
+                earningsNoUpcoming: "未来 14 天内没有日精度事件。",
+                earningsNoPastDue: "过去 14 天内没有日精度事件。",
+                earningsUnavailable: "财报日历暂不可用。",
+                earningsToday: "今天",
+                earningsInDays: (n) => `${n} 天后`,
+                earningsDaysAgo: (n) => `${n} 天前`,
+                earningsCallConfirmed: (time) => `电话会已确认 · ${time}`,
+                earningsCallTime: (time) => `电话会 ${time}`,
+                earningsReleaseNote: (status, date) => `发布：${status}${date ? ` ${date}` : ""}`,
+                earningsCalendarPeriod: "日历财报期",
+                earningsReportPeriod: "报告财报期",
+                earningsNotSet: "未填",
+                earningsFolded: (n) => `${n} 条记录只有月份或日期未知`,
+                earningsStatuses: {
+                    "issuer-confirmed": "公司确认",
+                    "estimated": "估计",
+                    "recorded": "正文记录",
+                    "stale": "已过期",
+                    "unknown": "未知"
+                },
+                earningsSessions: {
+                    "before-open": "盘前",
+                    "after-close": "盘后",
+                    "during-market": "盘中",
+                    "unspecified": "时段未定"
+                },
                 verdictHeading: "判断与新鲜度总览",
                 verdictIntro: "按立场（看多 → 回避）分组列出每篇报告的公开判断、确信度、价格快照日期与所反映的财报期。",
                 distributionLabel: "立场分布",
@@ -1103,6 +1251,36 @@
                 monitoringItemsStat: "Monitor items",
                 rerunStat: "Rerun candidates",
                 signalStat: "Signals",
+                earningsRadarHeading: "14D Earnings & Catalyst Radar",
+                earningsRadarIntro: "Day-precision events from the earnings calendar in the next and last 14 days, counted in each event's local timezone; month-only or unknown dates fold into one count line.",
+                earningsUpcoming: "Upcoming 14D",
+                earningsPastDue: "Recent past-due 14D",
+                earningsNoUpcoming: "No day-precision events in the next 14 days.",
+                earningsNoPastDue: "No day-precision events in the last 14 days.",
+                earningsUnavailable: "Earnings calendar is unavailable.",
+                earningsToday: "today",
+                earningsInDays: (n) => `in ${n}d`,
+                earningsDaysAgo: (n) => `${n}d ago`,
+                earningsCallConfirmed: (time) => `Call confirmed · ${time}`,
+                earningsCallTime: (time) => `Call ${time}`,
+                earningsReleaseNote: (status, date) => `Release: ${status}${date ? ` ${date}` : ""}`,
+                earningsCalendarPeriod: "Calendar fiscalPeriod",
+                earningsReportPeriod: "Report reportedPeriod",
+                earningsNotSet: "not set",
+                earningsFolded: (n) => `${n} entr${n === 1 ? "y" : "ies"} with month-only / unknown schedule`,
+                earningsStatuses: {
+                    "issuer-confirmed": "issuer-confirmed",
+                    "estimated": "est",
+                    "recorded": "recorded",
+                    "stale": "stale",
+                    "unknown": "unknown"
+                },
+                earningsSessions: {
+                    "before-open": "before open",
+                    "after-close": "after close",
+                    "during-market": "during market",
+                    "unspecified": "session unspecified"
+                },
                 verdictHeading: "Verdict Board",
                 verdictIntro: "Each report's published stance and conviction, price-snapshot date, and reported fiscal period, grouped by stance (bullish → avoid).",
                 distributionLabel: "Stance distribution",
@@ -1219,6 +1397,7 @@
             crossChecks: [],
             signals: [],
             pricesByReportId: new Map(),
+            earningsCalendar: null,
             groupMode: "report",
             thesisFilter: "all"
         };
@@ -1235,11 +1414,12 @@
 
         async function loadData() {
             try {
-                const [reportsResponse, coverageResponse, signalsResponse, pricesResponse] = await Promise.all([
+                const [reportsResponse, coverageResponse, signalsResponse, pricesResponse, calendarResponse] = await Promise.all([
                     fetch(REPORTS_DATA_URL, { cache: "no-store" }),
                     fetch(COVERAGE_MAP_URL, { cache: "no-store" }),
                     fetch(SIGNALS_DATA_URL, { cache: "no-store" }),
-                    fetch(PRICES_DATA_URL, { cache: "no-store" }).catch(() => null)
+                    fetch(PRICES_DATA_URL, { cache: "no-store" }).catch(() => null),
+                    fetch(EARNINGS_CALENDAR_URL, { cache: "no-store" }).catch(() => null)
                 ]);
 
                 if (!reportsResponse.ok) throw new Error(`reports HTTP ${reportsResponse.status}`);
@@ -1249,6 +1429,7 @@
                 const coverage = await coverageResponse.json();
                 const signals = signalsResponse.ok ? await signalsResponse.json() : [];
                 const prices = await optionalJson(pricesResponse);
+                const calendar = await optionalJson(calendarResponse);
 
                 state.layers = Array.isArray(coverage.layers) ? coverage.layers : [];
                 state.crossChecks = Array.isArray(coverage.crossChecks) ? coverage.crossChecks : [];
@@ -1259,6 +1440,7 @@
                     .filter(isCurrentReport);
                 state.chainReports = state.currentReports.filter((r) => r.chainLayer);
                 state.pricesByReportId = indexPriceEntries(prices);
+                state.earningsCalendar = calendar && Array.isArray(calendar.entries) ? calendar : null;
                 state.loadFailed = false;
             } catch (error) {
                 console.error("Failed to load monitoring dashboard:", error);
@@ -1268,6 +1450,7 @@
                 state.chainReports = [];
                 state.currentReports = [];
                 state.pricesByReportId = new Map();
+                state.earningsCalendar = null;
                 state.loadFailed = true;
             }
         }
@@ -1277,7 +1460,7 @@
             try {
                 return await response.json();
             } catch (error) {
-                console.warn("Failed to parse optional price data:", error);
+                console.warn("Failed to parse optional data:", error);
                 return null;
             }
         }
@@ -1301,6 +1484,8 @@
             setText("pageTitle", labels.pageTitle);
             setText("pageSubtitle", labels.pageSubtitle);
             setText("factNote", labels.factNote);
+            setText("earningsRadarHeading", labels.earningsRadarHeading);
+            setText("earningsRadarIntro", labels.earningsRadarIntro);
             setText("verdictHeading", labels.verdictHeading);
             setText("verdictIntro", labels.verdictIntro);
             setText("stanceLedgerHeading", labels.stanceLedgerHeading);
@@ -1329,6 +1514,7 @@
             renderMonitorStats();
 
             if (state.loadFailed) {
+                document.getElementById("earningsRadar").innerHTML = `<div class="empty-state">${escapeHtml(labels.loadError)}</div>`;
                 document.getElementById("freshnessStrip").innerHTML = `<div class="empty-state">${escapeHtml(labels.loadError)}</div>`;
                 document.getElementById("verdictStack").innerHTML = `<div class="empty-state">${escapeHtml(labels.loadError)}</div>`;
                 document.getElementById("stanceLedger").innerHTML = `<div class="empty-state">${escapeHtml(labels.loadError)}</div>`;
@@ -1341,6 +1527,7 @@
                 return;
             }
 
+            renderEarningsRadar();
             renderFreshnessStrip();
             renderVerdictBoard();
             renderStanceLedger();
@@ -1922,6 +2109,150 @@
                         ${staleChip}
                     </div>
                     <a class="rerun-link" href="${escapeHtml(reportUrl(report))}">${escapeHtml(labels.readReport)} →</a>
+                </article>
+            `;
+        }
+
+        /* ---------- 14D earnings & catalyst radar ---------- */
+
+        function localDateInZone(timeZone) {
+            // en-CA formats as YYYY-MM-DD; offsets are counted in the event's own local calendar.
+            return new Intl.DateTimeFormat("en-CA", { timeZone, year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
+        }
+
+        function ymdToUtcMs(value) {
+            const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(value || ""));
+            return match ? Date.UTC(Number(match[1]), Number(match[2]) - 1, Number(match[3])) : null;
+        }
+
+        function zoneAbbreviation(timeZone, ymd) {
+            const ms = ymdToUtcMs(ymd);
+            if (ms === null) return timeZone;
+            const part = new Intl.DateTimeFormat("en-US", { timeZone, timeZoneName: "short" })
+                .formatToParts(new Date(ms + 12 * 3600000))
+                .find((item) => item.type === "timeZoneName");
+            return part ? part.value : timeZone;
+        }
+
+        function earningsAnchor(entry, defaultTimezone) {
+            const call = entry.call;
+            if (call && call.status === "issuer-confirmed" && entry.status !== "issuer-confirmed" && call.precision === "day") {
+                return { kind: "call", date: call.expectedDate, timeZone: call.timezone };
+            }
+            if (entry.precision === "day") {
+                return { kind: "release", date: entry.expectedDate, timeZone: entry.timezone || defaultTimezone };
+            }
+            return null;
+        }
+
+        function buildEarningsRadar() {
+            const calendar = state.earningsCalendar;
+            const reportsById = new Map(state.currentReports.map((report) => [report.id, report]));
+            const defaultTimezone = calendar.defaultTimezone || "America/New_York";
+            const rows = [];
+            const folded = [];
+            calendar.entries.forEach((entry) => {
+                const anchor = earningsAnchor(entry, defaultTimezone);
+                const report = reportsById.get(entry.reportId) || null;
+                if (!anchor) {
+                    folded.push({ entry, report });
+                    return;
+                }
+                const anchorMs = ymdToUtcMs(anchor.date);
+                const todayMs = ymdToUtcMs(localDateInZone(anchor.timeZone));
+                if (anchorMs === null || todayMs === null) return;
+                const offset = Math.round((anchorMs - todayMs) / 86400000);
+                if (Math.abs(offset) > EARNINGS_RADAR_DAYS) return;
+                rows.push({ entry, report, anchor, offset });
+            });
+            const byCompany = (a, b) => (a.entry.company || "").localeCompare(b.entry.company || "");
+            return {
+                upcoming: rows.filter((row) => row.offset >= 0).sort((a, b) => a.offset - b.offset || byCompany(a, b)),
+                pastDue: rows.filter((row) => row.offset < 0).sort((a, b) => b.offset - a.offset || byCompany(a, b)),
+                folded: folded.sort(byCompany)
+            };
+        }
+
+        function renderEarningsRadar() {
+            const root = document.getElementById("earningsRadar");
+            const labels = getLabels();
+            if (!root) return;
+            if (!state.earningsCalendar) {
+                root.innerHTML = `<div class="empty-state">${escapeHtml(labels.earningsUnavailable)}</div>`;
+                return;
+            }
+            const radar = buildEarningsRadar();
+            const group = (title, rows, emptyText, pastDue) => `
+                <div class="earnings-radar-group">
+                    <h3 class="earnings-radar-group-title">${escapeHtml(title)}</h3>
+                    <div class="earnings-radar-rows">
+                        ${rows.length
+                            ? rows.map((row) => renderEarningsRadarRow(row, pastDue)).join("")
+                            : `<p class="earnings-radar-empty">${escapeHtml(emptyText)}</p>`}
+                    </div>
+                </div>
+            `;
+            const foldedNames = radar.folded
+                .map(({ entry, report }) => (report ? reportCompanyName(report) : entry.company || entry.reportId))
+                .join(" · ");
+            root.innerHTML = `
+                ${group(labels.earningsUpcoming, radar.upcoming, labels.earningsNoUpcoming, false)}
+                ${group(labels.earningsPastDue, radar.pastDue, labels.earningsNoPastDue, true)}
+                ${radar.folded.length ? `
+                    <details class="earnings-radar-folded">
+                        <summary>${escapeHtml(labels.earningsFolded(radar.folded.length))}</summary>
+                        <p>${escapeHtml(foldedNames)}</p>
+                    </details>` : ""}
+            `;
+        }
+
+        function renderEarningsRadarRow(row, pastDue) {
+            const labels = getLabels();
+            const { entry, report, anchor, offset } = row;
+            const offsetText = offset === 0
+                ? labels.earningsToday
+                : offset > 0 ? labels.earningsInDays(offset) : labels.earningsDaysAgo(-offset);
+            const companyName = report ? reportCompanyName(report) : entry.company || entry.reportId;
+            const companyHtml = report
+                ? `<a href="${escapeHtml(reportUrl(report))}">${escapeHtml(companyName)}</a>`
+                : escapeHtml(companyName);
+            const ticker = report ? report.ticker || report.priceSymbol || report.id : entry.reportId;
+            const call = entry.call;
+            const callTime = call && call.localTime && call.localTime !== "unspecified"
+                ? `${call.localTime} ${zoneAbbreviation(call.timezone, call.expectedDate)}`
+                : "";
+            const statusText = (status) => labels.earningsStatuses[status] || status || "";
+            const facts = [];
+            if (anchor.kind === "call") {
+                facts.push(`<span class="chip chip-call">${escapeHtml(labels.earningsCallConfirmed(callTime || call.timezone))}</span>`);
+                facts.push(`<span class="earnings-radar-note">(${escapeHtml(labels.earningsReleaseNote(statusText(entry.status), entry.expectedDate))})</span>`);
+            } else {
+                const session = labels.earningsSessions[entry.session] || "";
+                facts.push(`<span class="chip">${escapeHtml(statusText(entry.status))}${session ? ` · ${escapeHtml(session)}` : ""}</span>`);
+                if (call) {
+                    facts.push(`<span class="chip">${escapeHtml(labels.earningsCallTime(`${call.expectedDate}${callTime ? ` ${callTime}` : ""}`))}</span>`);
+                }
+            }
+            if (pastDue) {
+                // Raw values side by side; v7 deliberately makes no equality judgment between the two strings.
+                facts.push(`
+                    <span class="earnings-radar-period"><span>${escapeHtml(labels.earningsCalendarPeriod)}:</span> ${escapeHtml(entry.fiscalPeriod || labels.earningsNotSet)}</span>
+                    <span class="earnings-radar-period"><span>${escapeHtml(labels.earningsReportPeriod)}:</span> ${escapeHtml((report && report.reportedPeriod) || labels.earningsNotSet)}</span>
+                `);
+            } else if (entry.fiscalPeriod) {
+                facts.push(`<span class="chip">${escapeHtml(entry.fiscalPeriod)}</span>`);
+            }
+            return `
+                <article class="earnings-radar-row">
+                    <div class="earnings-radar-when">
+                        ${escapeHtml(anchor.date)}
+                        <span class="earnings-radar-offset">${escapeHtml(offsetText)}</span>
+                    </div>
+                    <div class="earnings-radar-company">
+                        ${companyHtml}
+                        <span class="ledger-subtext">${escapeHtml(ticker)}</span>
+                    </div>
+                    <div class="earnings-radar-facts">${facts.join("")}</div>
                 </article>
             `;
         }
