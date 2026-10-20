@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T22:16:40Z",
+  "generatedAt": "2026-10-20T01:29:49Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-10-19T22:16:40Z"
+    "value": "2026-10-20T01:29:49Z"
   },
   "tasks": [
     {
@@ -196,14 +196,6 @@
       "type": "date-completion",
       "window": "complete-date",
       "expectedDate": "2026-12",
-      "reason": "Replace the estimate with an issuer-sourced day."
-    },
-    {
-      "id": "earnings:pltr-2026:2026-11-09:complete-date",
-      "reportId": "pltr-2026",
-      "type": "date-completion",
-      "window": "complete-date",
-      "expectedDate": "2026-11-09",
       "reason": "Replace the estimate with an issuer-sourced day."
     },
     {
