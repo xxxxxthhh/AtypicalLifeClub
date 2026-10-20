@@ -19,8 +19,16 @@ def load_calendar(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def task(report_id: str, expected_date: str | None, kind: str, window: str, reason: str) -> dict:
-    date_key = expected_date or "unknown"
+CALL_UPDATE_REASON = (
+    "Issuer-confirmed earnings call window (release time unconfirmed); "
+    "first verify actual release filing/press release, then update the research package."
+)
+
+
+def task(
+    report_id: str, expected_date: str | None, kind: str, window: str, reason: str, *, call: bool = False
+) -> dict:
+    date_key = f"call-{expected_date}" if call else expected_date or "unknown"
     return {
         "id": f"earnings:{report_id}:{date_key}:{window}",
         "reportId": report_id,
@@ -31,13 +39,41 @@ def task(report_id: str, expected_date: str | None, kind: str, window: str, reas
     }
 
 
-def entry_date(calendar: dict, entry: dict, reference: date | datetime) -> date:
+def local_date(timezone_name: str, reference: date | datetime) -> date:
     if isinstance(reference, datetime):
         if reference.tzinfo is None:
             raise ValueError("reference datetime must be timezone-aware")
-        event_timezone = ZoneInfo(entry.get("timezone", calendar["defaultTimezone"]))
-        return reference.astimezone(event_timezone).date()
+        return reference.astimezone(ZoneInfo(timezone_name)).date()
     return reference
+
+
+def entry_date(calendar: dict, entry: dict, reference: date | datetime) -> date:
+    return local_date(entry.get("timezone", calendar["defaultTimezone"]), reference)
+
+
+def call_tasks(entry: dict, reference: date | datetime, release_maintenance: bool) -> list[dict]:
+    """Tasks driven by the call sub-object; only used while the release is unconfirmed."""
+    call = entry.get("call")
+    if not call or (entry["status"] == "issuer-confirmed" and entry["precision"] == "day"):
+        return []
+    report_id = entry["reportId"]
+    today = local_date(call["timezone"], reference)
+    offset = (today - date.fromisoformat(call["expectedDate"])).days
+    window = {-1: "T-1", 0: "T", 1: "T+1"}.get(offset)
+    if window and call["status"] == "issuer-confirmed":
+        return [task(report_id, call["expectedDate"], "research-update", window, CALL_UPDATE_REASON, call=True)]
+    if offset > 1 and today.weekday() == 0 and not release_maintenance:
+        return [
+            task(
+                report_id,
+                call["expectedDate"],
+                "calendar-maintenance",
+                "stale",
+                "Earnings call date has passed; roll the entry to the next cycle.",
+                call=True,
+            )
+        ]
+    return []
 
 
 def build_tasks(calendar: dict, reference: date | datetime) -> list[dict]:
@@ -87,6 +123,8 @@ def build_tasks(calendar: dict, reference: date | datetime) -> list[dict]:
             tasks.append(
                 task(report_id, expected, "calendar-maintenance", status, f"Resolve {status} earnings calendar data.")
             )
+        # The release already owns roll-over maintenance when it has lapsed or is unknown/stale.
+        tasks.extend(call_tasks(entry, reference, lapsed or status in {"unknown", "stale"}))
     return sorted(tasks, key=lambda row: row["id"])
 
 

@@ -19,6 +19,18 @@ PRECISIONS = {"day", "month", "unknown"}
 STATUSES = {"issuer-confirmed", "recorded", "estimated", "stale", "unknown"}
 SESSIONS = {"before-open", "after-close", "during-market", "unspecified", "not-applicable"}
 SOURCE_TYPES = {"issuer-ir", "report-body", "monitoring", "none"}
+CALL_STATUSES = {"issuer-confirmed", "stale"}
+CALL_FIELDS = {
+    "eventType",
+    "timezone",
+    "expectedDate",
+    "localTime",
+    "precision",
+    "status",
+    "sourceUrl",
+    "sourceType",
+    "verifiedAt",
+}
 
 
 def fail(message: str) -> None:
@@ -55,6 +67,36 @@ def is_https_url(value: object) -> bool:
         return False
     parsed = urlparse(value)
     return parsed.scheme == "https" and bool(parsed.netloc)
+
+
+def validate_call(call: object, prefix: str, as_of: date) -> None:
+    """Validate the optional call sub-object; it never changes release-record rules."""
+    label = f"{prefix}: call"
+    if not isinstance(call, dict):
+        fail(f"{label} must be an object")
+    missing = CALL_FIELDS - set(call)
+    extra = set(call) - CALL_FIELDS
+    if missing or extra:
+        fail(f"{label} fields mismatch; missing={sorted(missing)}, extra={sorted(extra)}")
+    if call["eventType"] != "call":
+        fail(f"{label} eventType must be call")
+    validate_timezone(call["timezone"], f"{label} timezone")
+    call_day = parse_date(call["expectedDate"], f"{label} expectedDate")
+    local_time = call["localTime"]
+    if local_time != "unspecified" and not (
+        isinstance(local_time, str) and re.fullmatch(r"([01]\d|2[0-3]):[0-5]\d", local_time)
+    ):
+        fail(f"{label} localTime must be 24-hour HH:MM or unspecified")
+    if call["precision"] != "day":
+        fail(f"{label} precision must be day")
+    if call["status"] not in CALL_STATUSES:
+        fail(f"{label} status must be issuer-confirmed or stale")
+    if call["sourceType"] != "issuer-ir" or not is_https_url(call["sourceUrl"]):
+        fail(f"{label} requires sourceType issuer-ir and an HTTPS sourceUrl")
+    if parse_date(call["verifiedAt"], f"{label} verifiedAt") > as_of:
+        fail(f"{label} verifiedAt cannot be later than calendar asOf")
+    if call["status"] == "stale" and call_day >= as_of:
+        fail(f"{label} stale day must be earlier than calendar asOf")
 
 
 def validate(reports: list[dict], calendar: dict) -> None:
@@ -134,6 +176,13 @@ def validate(reports: list[dict], calendar: dict) -> None:
                 fail(f"{prefix}: stale day must be earlier than calendar asOf")
             if precision == "month" and expected_month >= as_of.replace(day=1):
                 fail(f"{prefix}: stale month must be earlier than calendar asOf month")
+
+        if "fiscalPeriod" in entry and (
+            not isinstance(entry["fiscalPeriod"], str) or not entry["fiscalPeriod"].strip()
+        ):
+            fail(f"{prefix}: fiscalPeriod must be a non-empty string when present")
+        if "call" in entry:
+            validate_call(entry["call"], prefix, as_of)
 
 
 def main() -> None:
