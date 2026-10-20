@@ -30,8 +30,35 @@
 1. `unknown`：没有结构化日期，必须使用 `precision: unknown`、`expectedDate: null`、`sourceType: none`。
 2. `estimated`：只有月份或第三方估计；使用 `precision: month|day` 和 `sourceType: monitoring`，只能用于补全/复核日期提醒。
 3. `recorded`：报告正文已有精确日期，但公司 IR 尚未复核；必须使用 `precision: day` 和 `sourceType: report-body`，只能生成来源复核任务。
-4. `issuer-confirmed`：精确日已由公司 IR/官方公告确认，必须使用 `precision: day`、`sourceType: issuer-ir`，提供 HTTPS `sourceUrl`、ISO `verifiedAt`，并把 `session` 明确为 `before-open`、`after-close` 或 `during-market`；只有这一状态可触发正式研究更新。
+4. `issuer-confirmed`：精确日已由公司 IR/官方公告确认，必须使用 `precision: day`、`sourceType: issuer-ir`，提供 HTTPS `sourceUrl`、ISO `verifiedAt`，并把 `session` 明确为 `before-open`、`after-close` 或 `during-market`；只有这一状态的主记录可触发正式研究更新（v7 起，主记录尚未确认时另可由 `issuer-confirmed` 的 `call` 子对象触发，见下文「`call` 子对象的任务规则」）。
 5. `stale`：已有来源的日期已过且没有完成新周期确认；进入每周维护队列。
+
+### 可选字段：`fiscalPeriod` 与 `call` 子对象（v7 契约演进）
+
+v7 在不改变上述主记录语义的前提下，允许每条记录追加两个可选字段（见 v7 计划 `docs/research-hub-v7-plan.md` §4.1）：
+
+- `fiscalPeriod`：主记录对应的财报期原文标签（如 `"Q3 2026"`），非空字符串。它只用于和报告 `reportedPeriod` 原值并列展示，不做自动相等判定。
+- `call`：发行人只公告了业绩电话会/Webcast 时间、没有单列财报新闻稿发布时段时，用这个子对象记录电话会事件。主记录仍是唯一的 `release` 事件，字段语义和升级规则不变。
+
+```json
+"call": {
+  "eventType": "call",
+  "timezone": "America/Los_Angeles",
+  "expectedDate": "2026-10-26",
+  "localTime": "14:00",
+  "precision": "day",
+  "status": "issuer-confirmed",
+  "sourceUrl": "https://issuer.example/investors/news/...",
+  "sourceType": "issuer-ir",
+  "verifiedAt": "2026-10-20"
+}
+```
+
+`call` 子对象规则：
+
+1. 必填 `eventType: "call"`、`timezone`（合法 IANA 时区，必须显式写出，不回退到 `defaultTimezone`；钟点必须与时区匹配，PT 钟点写 `America/Los_Angeles`）、`expectedDate`（`YYYY-MM-DD`）、`localTime`（24 小时制 `HH:MM` 或 `"unspecified"`）、`precision: "day"`、`status`、`sourceType: "issuer-ir"`、HTTPS `sourceUrl`、`verifiedAt`（不得晚于日历 `asOf`）。不接受其他字段。
+2. `status` 只能是 `issuer-confirmed` 或 `stale`；`stale` 要求 `call.expectedDate` 早于日历 `asOf`。
+3. **零推断**：不得从 `call.localTime` 推断主记录的 `session`，也不得用电话会日期覆盖尚未由发行人确认的主记录 `expectedDate`。主记录要升级为 `issuer-confirmed`，仍然必须有发行人原文写明发布日和发布时段。
 
 `defaultTimezone` 是大多数美股公司事件日期的默认 IANA 时区。若公司的财报日期按其他本地市场定义（例如韩国、上海、台湾、香港或荷兰），必须在对应记录写入 `timezone` 覆盖值。定时任务按每条记录的事件本地日期计算 T-1/T/T+1，不能直接用 UTC 日历日。
 
@@ -43,7 +70,9 @@ python3 static/invest/research/earnings_tasks.py --date YYYY-MM-DD
 python3 -m unittest discover -s static/invest/research -p "test_*.py"
 ```
 
-校验器会 fail-closed：缺少当前公司、公司名与 `reports.json` 不一致、误收 ETF、重复 `reportId`、非法真实年月/日期/时区、状态与精度组合不合法、验证日晚于日历 `asOf`，或缺少公司 IR HTTPS 来源及明确事件时段的 `issuer-confirmed` 都会失败。
+校验器会 fail-closed：缺少当前公司、公司名与 `reports.json` 不一致、误收 ETF、重复 `reportId`、非法真实年月/日期/时区、状态与精度组合不合法、验证日晚于日历 `asOf`，或缺少公司 IR HTTPS 来源及明确事件时段的 `issuer-confirmed` 都会失败。`call` 子对象缺字段、含未知字段、时区非法、状态不在 `issuer-confirmed` / `stale` 内，或 `stale` 的电话会日不早于 `asOf`，同样失败。
+
+**禁止无变化的纯 `verifiedAt` 刷新**：若某条记录的日期、状态、`session`、`call` 子对象及来源均没有新证据带来的变化，不得提交只刷新 `verifiedAt`（主记录或 `call`）的 diff。复核过但没有变化的记录，在当次运行回执里写明核对结果即可。
 
 ## 定时任务怎样运行
 
@@ -56,7 +85,14 @@ GitHub Actions 的 `.github/workflows/update-research-prices.yml` 每日 `22:00 
 - `estimated`（月或第三方日精度）：每周一生成 `date-completion`。
 - `unknown` / `stale`：每周一生成 `calendar-maintenance`。
 - 日精度日期已过（T+1 之后）：无论状态，每周一生成 `calendar-maintenance`，提醒把记录滚动到下一周期；过期记录不会静默消失。
-- 去重键固定为 `earnings:<reportId>:<expectedDate|unknown>:<window>`。下游任务系统必须以该键幂等消费，不能重复开相同任务。
+- 主记录任务的去重键固定为 `earnings:<reportId>:<expectedDate|unknown>:<window>`。下游任务系统必须以该键幂等消费，不能重复开相同任务。
+
+`call` 子对象的任务规则（v7 契约演进；原规则「只有 `issuer-confirmed` 的主记录可触发 `research-update`」在此扩展）：
+
+- 主记录已是 `issuer-confirmed + day`：行为与上面完全一致，`call` 子对象不产生任何任务（同日或不同日都不重复出任务）。
+- 主记录为 `estimated`、`unknown`、`stale` 或 `recorded`，且 `call.status` 为 `issuer-confirmed`：按 `call.timezone` 把参考时刻换算成电话会本地日期，在 `call.expectedDate` 的 T-1、T、T+1 生成 `research-update`，reason 为 `Issuer-confirmed earnings call window (release time unconfirmed); first verify actual release filing/press release, then update the research package.`。执行人必须先核实真实的财报新闻稿或 filing，再更新研究包。
+- 主记录不是 `issuer-confirmed`、电话会日期已过 T+1（不论 `call.status`）：每周一生成 `calendar-maintenance`，提醒把记录滚动到下一周期；若主记录本身已落入 `calendar-maintenance` 范围（主记录日期已过 T+1，或状态为 `unknown` / `stale`），由主记录的维护任务负责，`call` 不再重复生成。
+- `call` 任务的去重键为 `earnings:<reportId>:call-<call.expectedDate>:<window>`，与主记录任务的键互不重叠，下游同样以该键幂等消费。
 
 本仓库当前把队列提交回 `main`，不直接创建 GitHub Issue，也不自动发布研究结论。若以后接入 Issue、Agent Office 或其他执行器，它只能读取队列并保留上述去重键和 fail-closed 规则。
 
