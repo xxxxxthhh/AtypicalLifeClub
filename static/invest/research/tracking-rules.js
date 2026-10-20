@@ -89,10 +89,12 @@
         return history[history.length - 1].date || null;
     }
 
+    // v7 §3.4: chain and non-chain reports follow the same unadjudicated-breach
+    // rule; only archived versions (isCurrent === false) are skipped.
     function buildTriggerWatchRows(reports, today = currentUtcDay()) {
         const rows = [];
         (Array.isArray(reports) ? reports : []).forEach((report) => {
-            if (!report || !report.chainLayer || report.isCurrent === false) return;
+            if (!report || report.isCurrent === false) return;
             const linked = linkedMonitoringIds(report);
             if (!linked.size) return;
             const stanceDate = currentStanceDate(report);

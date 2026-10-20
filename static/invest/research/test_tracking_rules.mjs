@@ -105,10 +105,18 @@ test('within and ungraded readings never produce a row', () => {
     assert.deepEqual(buildTriggerWatchRows([within, ungraded], today), []);
 });
 
-test('non-chain and archived reports are skipped', () => {
+test('non-chain reports are watched; archived reports are skipped', () => {
+    // v7 §3.4 rewrite of 'non-chain and archived reports are skipped': the
+    // non-chain leg is no longer skipped — a linked breached item with
+    // stanceDate <= readingAsOf yields one row. Archived reports stay out.
     const nonChain = watchReport({ id: 'non-chain', chainLayer: undefined });
+    assert.ok(nonChain.stanceHistory.at(-1).date <= nonChain.monitoring[0].readingAsOf);
+    const nonChainRows = buildTriggerWatchRows([nonChain], today);
+    assert.equal(nonChainRows.length, 1);
+    assert.equal(nonChainRows[0].reportId, 'non-chain');
+    assert.equal(nonChainRows[0].items[0].id, 'linked-item');
     const archived = watchReport({ id: 'archived', isCurrent: false });
-    assert.deepEqual(buildTriggerWatchRows([nonChain, archived], today), []);
+    assert.deepEqual(buildTriggerWatchRows([archived], today), []);
 });
 
 test('rows sort by days since breach, longest standing first', () => {
