@@ -116,9 +116,9 @@ ENFORCE_TRIGGER_LINKS = True
 # predicate — miss either and the report never enters the price ledger or price-drift
 # review queue) and, unless it is an ETF report (no earnings period to state),
 # reportedPeriod. Verdict scoring remains chain-scoped and is deliberately unchanged.
-# Warn-first because the shipped book already has violators; flip to True once they are
-# backfilled.
-ENFORCE_NONCHAIN_FRESHNESS = False
+# Warn-first during the backfill, now enforced since every current non-chain report
+# passes (v7 docs/research-hub-v7-plan.md §3.4); keep True once flipped.
+ENFORCE_NONCHAIN_FRESHNESS = True
 # v6 (docs/research-hub-v6-plan.md §2.1): benchmarks.json sits next to reports.json
 # and drives per-layer benchmark resolution. validate_benchmarks_config() enforces
 # the schema; the resolution mirror lives in update_verdicts.py / validate_verdicts.py.
@@ -422,23 +422,30 @@ def validate_stance_v2_requirements(report, report_idx):
 
 
 def validate_trigger_link_requirements(report, report_idx):
-    """Warn-first trigger-link requirement for current-chain reports (v6 spec §3.1).
+    """Trigger-link requirement for current-chain reports (v6 spec §3.1, v7 §3.2).
 
     Enforcement target: stanceTriggers.downgrade links >=1 monitoring item via
-    monitoringIds. reading itself stays optional forever (absence = not yet graded).
+    monitoringIds, and — unless stance is bullish (no upgrade path) — so does
+    stanceTriggers.upgrade. reading itself stays optional forever (absence = not
+    yet graded).
     """
     if not is_current_chain_report(report):
         return
 
     label = f"report[{report_idx}] ({report['id']})"
     triggers = report.get("stanceTriggers")
-    downgrade = triggers.get("downgrade") if isinstance(triggers, dict) else None
-    monitoring_ids = downgrade.get("monitoringIds") if isinstance(downgrade, dict) else None
-    if not monitoring_ids:
-        trigger_links_issue(
-            f"{label} must link stanceTriggers.downgrade to >=1 monitoring item via "
-            "monitoringIds (see docs/research-hub-v6-plan.md §3.1)"
-        )
+    required = ["downgrade"]
+    if report.get("stance") != "bullish":
+        required.append("upgrade")
+    for direction in required:
+        trigger = triggers.get(direction) if isinstance(triggers, dict) else None
+        monitoring_ids = trigger.get("monitoringIds") if isinstance(trigger, dict) else None
+        if not monitoring_ids:
+            trigger_links_issue(
+                f"{label} must link stanceTriggers.{direction} to >=1 monitoring item via "
+                "monitoringIds (see docs/research-hub-v6-plan.md §3.1, "
+                "docs/research-hub-v7-plan.md §3.2)"
+            )
 
 
 def validate_nonchain_freshness(report, report_idx):
@@ -658,6 +665,17 @@ def validate_coverage_tier(report, report_idx):
             )
 
 
+def validate_last_update_not_before_price_anchor(report, report_idx):
+    """v7 §2.4: lastUpdate (latest substantive revision of the report package) can
+    never predate priceAsOf (the valuation anchor written by that package). Both are
+    already validated as YYYY-MM-DD, so string order is date order."""
+    if report["lastUpdate"] < report["priceAsOf"]:
+        fail(
+            f"report[{report_idx}] ({report['id']}) lastUpdate {report['lastUpdate']} "
+            f"is earlier than priceAsOf {report['priceAsOf']}"
+        )
+
+
 def validate_enrichment_fields(report, report_idx, reports_by_id, benchmarks_cfg):
     if "priceSymbol" in report:
         ensure_non_empty_string(report["priceSymbol"], f"report[{report_idx}].priceSymbol")
@@ -727,6 +745,7 @@ def validate_enrichment_fields(report, report_idx, reports_by_id, benchmarks_cfg
     if "priceAsOf" in report:
         ensure_non_empty_string(report["priceAsOf"], f"report[{report_idx}].priceAsOf")
         parse_date(report["priceAsOf"], f"report[{report_idx}].priceAsOf")
+        validate_last_update_not_before_price_anchor(report, report_idx)
 
     if "reportedPeriod" in report:
         ensure_non_empty_string(report["reportedPeriod"], f"report[{report_idx}].reportedPeriod")

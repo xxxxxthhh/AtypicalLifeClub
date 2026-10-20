@@ -263,14 +263,147 @@ class TriggerLinkEnforcementTests(unittest.TestCase):
             "id": "x-2026",
             "chainLayer": "power",
             "isCurrent": True,
+            "stance": "cautious",
             "monitoring": [{"id": "kpi-one"}],
-            "stanceTriggers": {"downgrade": {**BILINGUAL, "monitoringIds": ["kpi-one"]}},
+            "stanceTriggers": {
+                "downgrade": {**BILINGUAL, "monitoringIds": ["kpi-one"]},
+                "upgrade": {**BILINGUAL, "monitoringIds": ["kpi-one"]},
+            },
         }
         self.with_flag(True, lambda: vr.validate_trigger_link_requirements(report, 0))  # no raise
 
     def test_flag_on_non_chain_report_exempt(self):
         report = {"id": "x-2026", "stanceTriggers": {"downgrade": dict(BILINGUAL)}}
         self.with_flag(True, lambda: vr.validate_trigger_link_requirements(report, 0))  # no raise
+
+
+class UpgradeTriggerLinkTests(unittest.TestCase):
+    """v7 §3.2: current-chain reports with stance != bullish must also link
+    stanceTriggers.upgrade via monitoringIds (same ENFORCE_TRIGGER_LINKS gate)."""
+
+    @staticmethod
+    def chain_report(stance, upgrade=None, **extra):
+        triggers = {"downgrade": {**BILINGUAL, "monitoringIds": ["kpi-one"]}}
+        if upgrade is not None:
+            triggers["upgrade"] = upgrade
+        return {
+            "id": "x-2026",
+            "chainLayer": "power",
+            "isCurrent": True,
+            "stance": stance,
+            "monitoring": [{"id": "kpi-one"}],
+            "stanceTriggers": triggers,
+            **extra,
+        }
+
+    def with_flag(self, enforce, fn):
+        original = vr.ENFORCE_TRIGGER_LINKS
+        vr.ENFORCE_TRIGGER_LINKS = enforce
+        try:
+            return fn()
+        finally:
+            vr.ENFORCE_TRIGGER_LINKS = original
+
+    def test_flag_on_non_bullish_without_upgrade_links_fails(self):
+        for stance in ("constructive", "neutral-watch", "cautious", "bearish-avoid"):
+            with self.subTest(stance=stance):
+                for upgrade in (None, dict(BILINGUAL), {**BILINGUAL, "monitoringIds": []}):
+                    output = self.with_flag(
+                        True,
+                        lambda: capture_fail(
+                            self,
+                            lambda: vr.validate_trigger_link_requirements(
+                                self.chain_report(stance, upgrade), 0
+                            ),
+                        ),
+                    )
+                    self.assertIn("stanceTriggers.upgrade", output)
+
+    def test_flag_off_non_bullish_without_upgrade_links_warns_only(self):
+        def run():
+            output = io.StringIO()
+            with redirect_stdout(output):
+                vr.validate_trigger_link_requirements(
+                    self.chain_report("cautious", dict(BILINGUAL)), 0
+                )
+            return output.getvalue()
+
+        output = self.with_flag(False, run)
+        self.assertIn("WARN", output)
+        self.assertIn("stanceTriggers.upgrade", output)
+
+    def test_flag_on_bullish_without_upgrade_passes(self):
+        report = self.chain_report("bullish")
+        self.with_flag(True, lambda: vr.validate_trigger_link_requirements(report, 0))  # no raise
+
+    def test_flag_on_bullish_still_requires_downgrade_links(self):
+        report = self.chain_report("bullish")
+        report["stanceTriggers"]["downgrade"] = dict(BILINGUAL)
+        output = self.with_flag(
+            True, lambda: capture_fail(self, lambda: vr.validate_trigger_link_requirements(report, 0))
+        )
+        self.assertIn("stanceTriggers.downgrade", output)
+
+    def test_flag_on_non_chain_and_archived_reports_exempt(self):
+        non_chain = self.chain_report("cautious", chainLayer=None)
+        archived = self.chain_report("cautious", isCurrent=False)
+        for report in (non_chain, archived):
+            self.with_flag(True, lambda: vr.validate_trigger_link_requirements(report, 0))  # no raise
+
+    def test_every_current_chain_non_bullish_report_links_its_upgrade_trigger(self):
+        reports = json.loads(vr.REPORTS_JSON.read_text(encoding="utf-8"))
+        missing = []
+        for report in reports:
+            if not vr.is_current_chain_report(report) or report.get("stance") == "bullish":
+                continue
+            upgrade = (report.get("stanceTriggers") or {}).get("upgrade") or {}
+            ids = upgrade.get("monitoringIds")
+            known = {item["id"] for item in report.get("monitoring") or []}
+            if not ids or not set(ids).issubset(known):
+                missing.append(report["id"])
+        self.assertEqual(missing, [])
+
+
+class LastUpdateVsPriceAnchorTests(unittest.TestCase):
+    """v7 §2.4: lastUpdate >= priceAsOf (hard check, no rollout flag)."""
+
+    @staticmethod
+    def report(last_update, price_as_of):
+        return {"id": "x-2026", "lastUpdate": last_update, "priceAsOf": price_as_of}
+
+    def test_last_update_before_price_as_of_fails(self):
+        output = capture_fail(
+            self,
+            lambda: vr.validate_last_update_not_before_price_anchor(
+                self.report("2026-07-30", "2026-07-31"), 0
+            ),
+        )
+        self.assertIn("x-2026", output)
+        self.assertIn("lastUpdate", output)
+        self.assertIn("priceAsOf", output)
+
+    def test_equal_dates_pass(self):
+        vr.validate_last_update_not_before_price_anchor(self.report("2026-07-31", "2026-07-31"), 0)
+
+    def test_later_last_update_passes(self):
+        # Mode A fact update: lastUpdate moves, priceAsOf keeps the old anchor.
+        vr.validate_last_update_not_before_price_anchor(self.report("2026-10-20", "2026-07-31"), 0)
+
+    def test_check_runs_from_enrichment_validation(self):
+        report = {**self.report("2026-07-30", "2026-07-31"), "tags": ["x"]}
+        output = capture_fail(
+            self, lambda: vr.validate_enrichment_fields(report, 0, {"x-2026": report}, TEST_BENCHMARKS)
+        )
+        self.assertIn("is earlier than priceAsOf", output)
+
+    def test_shipped_book_satisfies_rule(self):
+        reports = json.loads(vr.REPORTS_JSON.read_text(encoding="utf-8"))
+        violators = [
+            report["id"]
+            for report in reports
+            if "priceAsOf" in report and report["lastUpdate"] < report["priceAsOf"]
+        ]
+        self.assertEqual(violators, [])
 
 
 class TriggerLinkBackfillTests(unittest.TestCase):
@@ -383,6 +516,18 @@ class NonChainFreshnessTests(unittest.TestCase):
             "priceSymbol", "priceAsOf", "reportedPeriod", id="x-2026", chainLayer="power"
         )
         self.with_flag(True, lambda: vr.validate_nonchain_freshness(report, 0))  # no raise
+
+    def test_enforcement_flag_is_on(self):
+        # v7 §3.4: flipped once every current non-chain report passed.
+        self.assertTrue(vr.ENFORCE_NONCHAIN_FRESHNESS)
+
+    def test_flag_on_shipped_book_passes(self):
+        reports = json.loads(vr.REPORTS_JSON.read_text(encoding="utf-8"))
+        output = io.StringIO()
+        with redirect_stdout(output):
+            for idx, report in enumerate(reports):
+                self.with_flag(True, lambda: vr.validate_nonchain_freshness(report, idx))
+        self.assertEqual(output.getvalue(), "")
 
     def test_etf_report_is_exempt_from_reported_period_only(self):
         etf = self.report_without("reportedPeriod", id="igv-2026", tags=["ETF", "软件行业"])
