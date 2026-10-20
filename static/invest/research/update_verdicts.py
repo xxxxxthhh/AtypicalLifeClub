@@ -196,6 +196,10 @@ def open_call_entry(
         "stanceDate": iso_day(stance_date),
         "priceAtStance": round(price_at_stance, 4),
         "benchmarkSymbol": benchmark_symbol,
+        # v7 §3.1: standalone diagnostic, present on every open entry regardless
+        # of price status. Independent of `stale`, whose v5 formula below
+        # (days_held > STALE_DAYS and monitoring_overdue) stays unchanged.
+        "monitoringOverdue": monitoring_overdue(report, today),
     }
 
     priced = (

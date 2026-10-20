@@ -124,6 +124,59 @@ class OpenCallTests(unittest.TestCase):
             uv.open_call_entry(report, self.price_entry, self.benchmarks, "SMH", date(2026, 7, 8))
 
 
+class MonitoringOverdueTests(unittest.TestCase):
+    """v7 §3.1: monitoringOverdue is exposed on its own; v5 `stale` is unchanged."""
+
+    def setUp(self):
+        self.benchmarks = {"SMH": series("SMH", (date(2026, 1, 2), 500.0), (date(2026, 7, 6), 550.0))}
+        self.price_entry = {"lastClose": 12.0, "lastDate": "2026-07-06"}
+
+    @staticmethod
+    def report(stance_date, next_checks):
+        return {
+            "id": "fixture-2026",
+            "stance": "cautious",
+            "conviction": "medium",
+            "stanceHistory": [
+                {"date": stance_date, "stance": "cautious", "conviction": "medium", "price": 10.0}
+            ],
+            "monitoring": [{"id": f"m{i}", "nextCheckDate": day} for i, day in enumerate(next_checks)],
+        }
+
+    def test_overdue_month_sets_flag_without_stale_when_held_under_120_days(self):
+        report = self.report("2026-06-01", ["2026-06", "2026-08"])
+        entry = uv.open_call_entry(report, self.price_entry, self.benchmarks, "SMH", date(2026, 7, 8))
+        self.assertEqual(entry["daysHeld"], 35)
+        self.assertTrue(entry["monitoringOverdue"])
+        self.assertFalse(entry["stale"])  # v5: needs daysHeld > 120 as well
+
+    def test_stale_formula_unchanged_when_held_over_120_days_and_overdue(self):
+        report = self.report("2026-01-02", ["2026-06"])
+        entry = uv.open_call_entry(report, self.price_entry, self.benchmarks, "SMH", date(2026, 7, 8))
+        self.assertGreater(entry["daysHeld"], uv.STALE_DAYS)
+        self.assertTrue(entry["monitoringOverdue"])
+        self.assertTrue(entry["stale"])
+
+    def test_current_or_future_month_and_missing_dates_are_not_overdue(self):
+        report = self.report("2026-01-02", ["2026-07", "2026-09-15"])
+        report["monitoring"].append({"id": "no-date"})
+        entry = uv.open_call_entry(report, self.price_entry, self.benchmarks, "SMH", date(2026, 7, 8))
+        self.assertFalse(entry["monitoringOverdue"])
+        self.assertFalse(entry["stale"])
+
+    def test_flag_present_on_no_price_and_pending_entries(self):
+        report = self.report("2026-06-01", ["2026-05-20"])
+        no_price = uv.open_call_entry(report, None, self.benchmarks, "SMH", date(2026, 7, 8))
+        self.assertEqual(no_price["status"], "no-price")
+        self.assertTrue(no_price["monitoringOverdue"])
+        self.assertFalse(no_price["stale"])
+        pending_report = self.report("2026-07-06", ["2026-05"])
+        pending = uv.open_call_entry(pending_report, self.price_entry, self.benchmarks, "SMH", date(2026, 7, 8))
+        self.assertEqual(pending["status"], "pending")
+        self.assertTrue(pending["monitoringOverdue"])
+        self.assertFalse(pending["stale"])
+
+
 class DataAsOfTests(unittest.TestCase):
     @staticmethod
     def prices(*last_dates):

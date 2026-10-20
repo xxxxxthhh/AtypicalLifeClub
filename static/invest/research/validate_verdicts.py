@@ -234,6 +234,18 @@ def validate_benchmark_symbol(
             )
 
 
+def validate_monitoring_overdue(entry: dict[str, Json], label: str) -> None:
+    """v7 §3.1: every open entry carries a boolean monitoringOverdue. The v5
+    `stale` formula is `daysHeld > 120 and monitoring_overdue`, so a stale entry
+    must also be monitoringOverdue; the converse need not hold. The value is not
+    recomputed from reports.json here, because nextCheckDate can move on a
+    report branch before the daily update_verdicts.py run regenerates the ledger
+    (the same reason `stale` is only type-checked)."""
+    overdue = require_bool(entry.get("monitoringOverdue"), f"{label}.monitoringOverdue")
+    if entry.get("stale") is True and not overdue:
+        fail(f"{label}.stale is true but monitoringOverdue is false")
+
+
 def validate_open_entry(
     entry: dict[str, Json],
     index: int,
@@ -262,6 +274,7 @@ def validate_open_entry(
     if entry.get("status") in {"no-price", "pending"}:
         require_number(entry.get("daysHeld"), f"{label}.daysHeld")
         require_bool(entry.get("stale"), f"{label}.stale")
+        validate_monitoring_overdue(entry, label)
         return
 
     price_at_stance = float(entry["priceAtStance"])
@@ -280,6 +293,7 @@ def validate_open_entry(
     if days_held != (last_date - stance_date).days:
         fail(f"{label}.daysHeld inconsistent: {days_held}")
     require_bool(entry.get("stale"), f"{label}.stale")
+    validate_monitoring_overdue(entry, label)
 
     price_entry = state.price_entries.get(report_id)
     if price_entry is None:

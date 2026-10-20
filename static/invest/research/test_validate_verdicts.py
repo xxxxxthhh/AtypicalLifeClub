@@ -62,6 +62,7 @@ def verdict_entry(report_id: str, benchmark_symbol: str = "SMH") -> dict[str, vv
         "bookRelativePct": 15.0,
         "daysHeld": 5,
         "stale": False,
+        "monitoringOverdue": False,
     }
 
 
@@ -147,6 +148,50 @@ class CoverageTests(unittest.TestCase):
         broken["bookBenchmarkChangePct"] = 9.0
         broken["bookRelativePct"] = 15.0
         expect_fail(self, verdicts([broken]), reports, options(prices("nrg"), reports))
+
+
+class MonitoringOverdueTests(unittest.TestCase):
+    """v7 §3.1: monitoringOverdue is a standalone bool next to the v5 `stale`."""
+
+    def test_overdue_without_stale_passes(self):
+        reports = [report("alpha")]
+        entry = verdict_entry("alpha")
+        entry["monitoringOverdue"] = True
+        warnings = vv.validate_verdicts_data(verdicts([entry]), reports, options(prices("alpha"), reports))
+        self.assertEqual(warnings, [])
+
+    def test_missing_monitoring_overdue_fails_on_scored_entry(self):
+        reports = [report("alpha")]
+        entry = verdict_entry("alpha")
+        del entry["monitoringOverdue"]
+        expect_fail(self, verdicts([entry]), reports, options(prices("alpha"), reports))
+
+    def test_non_bool_monitoring_overdue_fails(self):
+        reports = [report("alpha")]
+        entry = verdict_entry("alpha")
+        entry["monitoringOverdue"] = "yes"
+        expect_fail(self, verdicts([entry]), reports, options(prices("alpha"), reports))
+
+    def test_missing_monitoring_overdue_fails_on_pending_entry(self):
+        reports = [report("alpha")]
+        pending = {
+            key: verdict_entry("alpha")[key]
+            for key in ("reportId", "stance", "conviction", "stanceDate", "priceAtStance", "benchmarkSymbol")
+        }
+        pending.update({"status": "pending", "daysHeld": 0, "stale": False})
+        expect_fail(self, verdicts([pending]), reports, options(prices("alpha"), reports))
+        pending["monitoringOverdue"] = False
+        warnings = vv.validate_verdicts_data(verdicts([pending]), reports, options(prices("alpha"), reports))
+        self.assertEqual(warnings, [])
+
+    def test_stale_requires_monitoring_overdue(self):
+        # v5 stale = daysHeld > 120 AND monitoring overdue, so stale without
+        # monitoringOverdue is internally inconsistent.
+        reports = [report("alpha")]
+        entry = verdict_entry("alpha")
+        entry["stale"] = True
+        entry["monitoringOverdue"] = False
+        expect_fail(self, verdicts([entry]), reports, options(prices("alpha"), reports))
 
 
 class BenchmarkSymbolTests(unittest.TestCase):
