@@ -2699,5 +2699,29 @@
     "monitoringRefs": [
       "rklb-2026:iridium-financing-dilution"
     ]
+  },
+  {
+    "id": "salesforce-braze-agreement-fy27-guide-20261020",
+    "date": "2026-10-20",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Salesforce 签署 Braze 收购协议，FY27 指引预计不变",
+      "en": "Salesforce signs a Braze acquisition agreement; FY27 guidance expected unchanged"
+    },
+    "detail": {
+      "zh": "发行人10-20公告：待交割协议企业价值约$56.6亿，Braze A类普通股每股$47.50现金，预计FY2028交割，须股东与监管批准；公司称FY27指引预计不变。EX-99.2称预计以现金支付、增长增厚与近期盈利摊薄并存。leverage-and-fcf-durability的FY27 FCF指引下修条件未由该公告触发，reading维持within。交易尚未交割；企业价值不等于股权现金对价，不计已执行支出或净债务增量；估值仍为2026-08-27历史基础，当前估值待Mode B。来源：https://www.salesforce.com/news/press-releases/2026/10/20/salesforce-signs-definitive-agreement-to-acquire-braze/；https://www.sec.gov/Archives/edgar/data/1108524/000119312526425881/d516983dex992.htm",
+      "en": "The October 20 issuer release records a pending agreement at approximately $5.66B enterprise value and $47.50 cash per Braze Class A share, expected to close in FY2028 subject to stockholder and regulatory approval. FY27 guidance is expected unchanged. EX-99.2 anticipates cash funding and near-term profitability dilution alongside growth accretion. The announcement does not fire the FY27 FCF-guide-cut trigger in leverage-and-fcf-durability; reading remains within. The transaction has not closed. Enterprise value is not equity cash consideration, executed spend or a net-debt increase. Valuation retains the historical August 27 basis, with current valuation pending Mode B. Sources: https://www.salesforce.com/news/press-releases/2026/10/20/salesforce-signs-definitive-agreement-to-acquire-braze/; https://www.sec.gov/Archives/edgar/data/1108524/000119312526425881/d516983dex992.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "CRM",
+      "BRZE"
+    ],
+    "reportIds": [
+      "salesforce-2026"
+    ],
+    "monitoringRefs": [
+      "salesforce-2026:leverage-and-fcf-durability"
+    ]
   }
 ]

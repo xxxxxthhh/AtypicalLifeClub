@@ -1,7 +1,7 @@
 # Salesforce (CRM) Deep Research Report
 
 Coverage date: 2026-02-11
-Last updated: 2026-08-28
+Last updated: 2026-10-21
 Ticker: NYSE: CRM
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -13,7 +13,9 @@ Disclaimer: This report is for informational and research purposes only. It does
 >
 > **[2026-08-27 Update]** Updated for FY2027 Q2 results (released after the US close on 2026-08-26; 8-K item 2.02, accession 0001108524-26-000187, EX-99.1) and re-anchored across every valuation surface to the **completed-session close of $206.05 on 2026-08-26**. Business: revenue $11.345B (+11% YoY), cRPO $33.5B (+14% YoY, accelerating from +13% in Q1), FY2027 full-year revenue guidance raised by $200M to $46.1-46.4B, and non-GAAP diluted EPS guidance raised to $16.67-16.71. However, **GAAP operating income was flat year over year** ($2.331B vs $2.332B), GAAP operating margin fell from 22.8% to 20.5%, and the +119% GAAP EPS came mainly from $2.613B of unrealized securities gains plus a 14.7% lower share count — not operating leverage. The balance sheet moved from roughly net cash to **net debt of $27.885B** (debt $39.288B, cash and marketable securities $11.403B). Valuation: market cap $168.8B, EV $196.6B, P/S(TTM) 3.84x, forward P/E 12.35x (about 15.0x excluding securities gains), FCF yield about 9.0%. **The release came after the close, so $206.05 is the pre-release price; the report must be re-anchored after the first completed post-release regular session (2026-08-27).** The 2026-08-26 after-hours print of $232.13 (+12.66%) is recorded as fact only and enters no multiple. **(This is a historical update entry: every valuation reading in it was recomputed at $252.05 on 2026-08-28 and is superseded — see the next entry.)**
 >
-> **[2026-08-28 Update]** **Delivering the scheduled step promised in the previous entry: a second re-anchor to the 2026-08-27 close of $252.05, the first completed post-release regular session.** There are no new business events this round — every operating figure still comes from the FY2027 Q2 release, and only the valuation surfaces are recomputed at the new price and share count. CRM closed at **$252.05 on 2026-08-27 (+22.58% on the day)** and is recomputed on the Q2 FY2027 10-Q cover-page count of **about 823M shares** (as of 2026-08-20, accession 0001108524-26-000190): market cap ~~$168.8B~~ **$207.437B**, EV ~~$196.6B~~ **$235.322B**, P/S(TTM) ~~3.84x~~ **4.72x**, EV/EBITDA ~~15.54x~~ **18.59x**, FCF yield ~~about 9.0%~~ **about 7.30%**, company-basis forward P/E ~~12.35x~~ **15.10x**, core basis excluding securities gains ~~about 15.0x~~ **about 18.38x**. **The conclusion that changes: the current price now sits above the top of both Med-High confidence methods** (core forward P/E $192-247 and EV/Sales $180-233), and inside only the Medium-confidence FCF-yield range ($230-283). The prior "reasonably cheap" reading no longer holds; the stock is now priced at or above the top of its own fair range. Stance and conviction handling is in §10.
+> **[2026-08-28 Update]** **Delivering the scheduled step promised in the previous entry: a second re-anchor to the 2026-08-27 close of $252.05, the first completed post-release regular session.** There are no new business events this round — every operating figure still comes from the FY2027 Q2 release, and only the valuation surfaces are recomputed at the new price and share count. CRM closed at **$252.05 on 2026-08-27 (+22.58% on the day)** and is recomputed on the Q2 FY2027 10-Q cover-page count of **about 823M shares** (as of 2026-08-20, accession 0001108524-26-000190): market cap ~~$168.8B~~ **$207.437B**, EV ~~$196.6B~~ **$235.322B**, P/S(TTM) ~~3.84x~~ **4.72x**, EV/EBITDA ~~15.54x~~ **18.59x**, FCF yield ~~about 9.0%~~ **about 7.30%**, company-basis forward P/E ~~12.35x~~ **15.10x**, core basis excluding securities gains ~~about 15.0x~~ **about 18.38x**. **The conclusion that changes: the August 27 anchor price sits above the top of both Med-High confidence methods** (core forward P/E $192-247 and EV/Sales $180-233), and inside only the Medium-confidence FCF-yield range ($230-283). The prior "reasonably cheap" reading no longer holds; the stock is now priced at or above the top of its own fair range. Stance and conviction handling is in §10.
+>
+> **[2026-10-21 Update]** Factual increment (no valuation re-anchor): on 2026-10-20 Salesforce announced a definitive agreement to acquire Braze (NASDAQ: BRZE) for about **$5.66B in enterprise value**, with holders of Braze Class A common stock receiving **$47.50 in cash per share**; closing is expected in **fiscal year 2028**, subject to customary conditions including Braze stockholder approval and regulatory approvals. The company says there is **no anticipated change to FY27 guidance**, it has not guided FY28, and long-term targets are not being updated; the investor materials say the company expects to fund the transaction with cash, balances growth accretion against near-term profitability dilution, and leaves the FY30 framework unchanged for now ([issuer release](https://www.salesforce.com/news/press-releases/2026/10/20/salesforce-signs-definitive-agreement-to-acquire-braze/); [SEC EX-99.2 investor materials](https://www.sec.gov/Archives/edgar/data/1108524/000119312526425881/d516983dex992.htm), 2026-10-20). The deal has not closed: the Q2-end (2026-07-31) net debt of $27.885B and the Section 8 valuation basis are unchanged; enterprise value is not the equity cash consideration, and $5.66B is not booked here as a cash outflow or net-debt increase. Valuation remains anchored to the 2026-08-27 basis; closing-related cash, debt and share-count effects await independent Mode B review.
 
 
 
@@ -377,6 +379,9 @@ Benioff is among the best CEOs in enterprise software. The margin transformation
 
 ## 8. Valuation Analysis
 
+> **Valuation boundary (2026-10-21, Mode A):** Section 8 numbers remain anchored to the historical 2026-08-27 basis. This update records a pending agreement only; current valuation and closing effects await Mode B. The old multiples are not a valuation at the October 21 market price.
+
+
 > **This section was fully recomputed on 2026-08-28 at the 2026-08-27 close of $252.05.** The old anchors ~~$150.70~~ / ~~$193~~ / ~~$206.05~~ and every multiple and range derived from them are superseded and struck below.
 
 ### Valuation Inputs (all from primary sources)
@@ -453,6 +458,7 @@ Verified against the issuer's H1 non-GAAP reconciliation (not back-solved from t
 | ~~FY2027 Q1 Earnings~~ ✅ Reported (quarter ended Apr 30, 2026) | ~~June 2026 (est.)~~ Done | High — TTM revenue was ~~$42.83B~~ (~~+13.3%~~ QoQ) and net income ~~$8.02B~~ at the time; both superseded by the FY27 Q2 basis |
 | ~~FY2027 Q2 Earnings~~ ✅ Reported after the close on 2026-08-26 | ~~Aug-Sep 2026 (est.)~~ Done | High — revenue +11%, cRPO +14% accelerating, full-year guidance raised; but GAAP operating income flat YoY |
 | **FY2027 Q3 Earnings** | Nov-Dec 2026 (est., not issuer-confirmed) | High — whether GAAP operating margin returns to expansion is the first falsifiable read |
+| **Braze acquisition closing (added 2026-10-21)** | FY2028 (per the company; requires Braze stockholder and regulatory approval) | Medium — about $5.66B enterprise value, with $47.50 cash per Class A share; the company cites near-term profitability dilution and unchanged FY27 guidance |
 | **Contentful / Fin closings** | FY2027 Q3 ("in the coming weeks" per the company) | Medium-High — already embedded in all guidance except cRPO; without the closings the guidance premise fails |
 | **$25B ASR final settlement** | October 2026 (per the company) | Medium — sets the final share count, affecting EPS and per-share valuation |
 | Enterprise IT Spending Data | Ongoing | Medium — macro environment impact |
@@ -509,7 +515,7 @@ Rationale:
 - **Valuation expectation gap (added 2026-08-28)** — core forward P/E about 18.38x versus a 20x trigger while GAAP operating margin remains down 2.3pts year over year; current reading `within`
 - Agentforce ARR growth rate and paid customer count (FY27 Q2: standalone ARR above $1.5B, +240%; the metric now includes Slackbot and Headless 360, so YoY is not fully comparable)
 - Net retention rate trend (most important leading indicator)
-- **Net debt and interest-expense trajectory (added 2026-08-27)** — net debt $27.885B, quarterly interest $473M; trigger: the FY27 FCF growth guide (about 4-5%) is cut
+- **Net debt and interest-expense trajectory (added 2026-08-27)** — net debt $27.885B, quarterly interest $473M; trigger: the FY27 FCF growth guide (about 4-5%) is cut; **update (2026-10-21):** on 2026-10-20 the company announced the ~$5.66B-enterprise-value cash acquisition of Braze (expected to close in FY2028) and said FY27 guidance is unchanged — the trigger has not fired; current reading `within`
 - Informatica integration progress; whether Contentful / Fin close on schedule in FY27 Q3
 - Enterprise IT spending macro environment
 
