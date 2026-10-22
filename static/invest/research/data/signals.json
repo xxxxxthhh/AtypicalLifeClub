@@ -2775,5 +2775,143 @@
       "amkr-2026",
       "ase-technology-2026"
     ]
+  },
+  {
+    "id": "netflix-q3-2026-revenue-vs-guide-20261020",
+    "date": "2026-10-20",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Netflix Q3 2026 营收 $12.874B（+11.8%）符合 $12.86B 指引；FY2026 营收预期 $51.1B",
+      "en": "Netflix Q3 2026 revenue $12.874B (+11.8%) in line with the $12.86B guide; FY2026 revenue now expected at $51.1B"
+    },
+    "detail": {
+      "zh": "发行人 2026-10-20 Q3 股东信（8-K 0001065280-26-000290，附件 99.1）：Q3 营收 $12,874.2M（同比 +11.8%，汇率中性 +11%），与 $12.86B 指引一致、高于报告 $12.73B 触发线；Q4 指引 $13.442B（+11.5%），据此 FY2026 营收预期 $51.1B（+13%），较旧区间 $51.0–51.4B 中点低 0.2%，未低于 $51.0B。股东信称订阅收入增长超出预期。读数：within（readingAsOf 2026-10-20）。来源：https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/ex991_q326.htm",
+      "en": "Per the issuer's 2026-10-20 Q3 shareholder letter (8-K 0001065280-26-000290, Exhibit 99.1), Q3 revenue was $12,874.2M (+11.8% YoY, +11% F/X neutral), in line with the $12.86B guide and above the report's $12.73B trigger line; the Q4 guide of $13.442B (+11.5%) implies FY2026 revenue of $51.1B (+13%), 0.2% below the midpoint of the old $51.0-51.4B range and not below $51.0B. The letter says subscription revenue growth outperformed expectations. Reading: within (readingAsOf 2026-10-20). Source: https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/ex991_q326.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "NFLX"
+    ],
+    "reportIds": [
+      "netflix-2026"
+    ],
+    "monitoringRefs": [
+      "netflix-2026:revenue-growth-vs-guide"
+    ]
+  },
+  {
+    "id": "netflix-q3-2026-operating-margin-20261020",
+    "date": "2026-10-20",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Netflix Q3 2026 营业利润率 34.6%，FY2026 维持 31.5%（含裁员约 30 个基点）",
+      "en": "Netflix Q3 2026 operating margin 34.6%; FY2026 held at 31.5% including ~30bp of headcount-reduction cost"
+    },
+    "detail": {
+      "zh": "发行人 2026-10-20 Q3 股东信：Q3 营业利润 $4,458.6M、营业利润率 34.6%（Q3'25 28.2%），高于 33.2% 指引，公司称主要因费用时点；Q4 指引营业利润率 26.0%（含近期宣布裁员约 120 个基点负面影响）；FY2026 预期 31.5% 不变（按 2026-01-01 汇率为 31.4%），含裁员约 30 个基点。访谈中 CFO 称 FY2027 利润率指引 2027 年 1 月给出、每年稳步提升利润率的理念不变。FY2026 一腿未低于 31.5%，FY2027 一腿 2027 年 1 月才可观察。读数：within（readingAsOf 2026-10-20）。来源：https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/ex991_q326.htm；https://s22.q4cdn.com/959853165/files/content_files/Netflix-Inc-_Earnings-Call_2026-10-20_English.pdf（Netflix IR 发布的 S&P Global 初稿文字稿）",
+      "en": "Per the 2026-10-20 Q3 letter, Q3 operating income was $4,458.6M, a 34.6% margin (Q3'25: 28.2%), above the 33.2% guide mainly on expense timing per the company; the Q4 guide is a 26.0% margin including about 120bp from recently announced headcount reductions; FY2026 stays at 31.5% (31.4% at 2026-01-01 F/X rates), including about 30bp from the reductions. In the interview the CFO said FY2027 margin guidance comes in January 2027 and the philosophy of steadily growing margin each year is unchanged. The FY2026 leg is not below 31.5%; the FY2027 leg is observable only in January 2027. Reading: within (readingAsOf 2026-10-20). Sources: https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/ex991_q326.htm; https://s22.q4cdn.com/959853165/files/content_files/Netflix-Inc-_Earnings-Call_2026-10-20_English.pdf (S&P Global preliminary transcript posted by Netflix IR)"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "NFLX"
+    ],
+    "reportIds": [
+      "netflix-2026"
+    ],
+    "monitoringRefs": [
+      "netflix-2026:operating-margin-path"
+    ]
+  },
+  {
+    "id": "netflix-q3-2026-ads-target-cut-20261020",
+    "date": "2026-10-20",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Netflix 将 2026 年广告收入预期由约 $3B 下调至约 $2.7B",
+      "en": "Netflix cuts its 2026 ads revenue expectation from about $3B to about $2.7B"
+    },
+    "detail": {
+      "zh": "发行人 2026-10-20 Q3 股东信：“we currently expect 2026 ad revenue of ~$2.7B vs. approximately $3B previously (due to slightly slower than expected rollout of some ad product capabilities)”；广告层 2027 年进入 15 个新国家，首批 2027 年 3 月。访谈中 Greg Peters 称“currently a bit behind our aggressive target for the year”，原因是“delays in the rollout and partner integrations for some of those new ads products”，今年广告业务仍增长 80% 以上，“general demand remains strong”。10-Q：Q3 广告收入同比增加 $256M、前三季度增加 $864M。报告触发条件“约 $3B 的 FY2026 广告收入目标被撤回或下调”已满足。读数：breached（readingAsOf 2026-10-20）；该条件链接于下调触发，立场已于 2026-10-22 按 $65.04 重新裁定（constructive / 低，权重 30/40/30 → 20/50/30），breached 评级保留。来源：https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/ex991_q326.htm；https://s22.q4cdn.com/959853165/files/content_files/Netflix-Inc-_Earnings-Call_2026-10-20_English.pdf；https://www.sec.gov/Archives/edgar/data/1065280/000106528026000291/nflx-20260930.htm",
+      "en": "Per the 2026-10-20 Q3 letter: \"we currently expect 2026 ad revenue of ~$2.7B vs. approximately $3B previously (due to slightly slower than expected rollout of some ad product capabilities)\"; the ad tier enters 15 new countries in 2027, the first tranche in March 2027. In the interview Greg Peters said Netflix is \"currently a bit behind our aggressive target for the year\" because of \"delays in the rollout and partner integrations for some of those new ads products\", with the ads business still growing more than 80% this year and \"general demand remains strong\". The 10-Q shows Q3 advertising revenue up $256M YoY and nine-month up $864M. The report's trigger, \"the ~$3B FY2026 ads revenue target withdrawn or cut\", is met. Reading: breached (readingAsOf 2026-10-20); the item is linked from the downgrade trigger, and the stance was re-adjudicated on 2026-10-22 at $65.04 (constructive / low, weights 30/40/30 -> 20/50/30) with the breached grade kept. Sources: https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/ex991_q326.htm; https://s22.q4cdn.com/959853165/files/content_files/Netflix-Inc-_Earnings-Call_2026-10-20_English.pdf; https://www.sec.gov/Archives/edgar/data/1065280/000106528026000291/nflx-20260930.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "NFLX"
+    ],
+    "reportIds": [
+      "netflix-2026"
+    ],
+    "monitoringRefs": [
+      "netflix-2026:ads-revenue-target"
+    ]
+  },
+  {
+    "id": "netflix-q3-2026-engagement-commentary-20261020",
+    "date": "2026-10-20",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Netflix Q3 未披露全公司观看时长同比；管理层称参与度健康、未称下降",
+      "en": "Netflix discloses no company-wide view-hours change for Q3; management calls engagement healthy and does not say it declined"
+    },
+    "detail": {
+      "zh": "发行人 2026-10-20 Q3 股东信未给出全公司观看时长同比数据，称“We know there's some investor concern about our view hours growth”、参与度“remains healthy”，并“seek to accelerate growth in view hours”；印度观看时长同比 +24%。访谈：Greg Peters 称美国参与度“solid”但“we know that we can do better”；CFO 称“even with modest view hour growth”及“we want to grow view hours faster. We're not satisfied”。触发条件第一腿（公司披露总观看时长同比下降）本季不可观察，最近一次公司数据为 H1'26 +2%；第二腿（管理层表示参与度下降）未触发。证据不足以判 within。读数：unclear（readingAsOf 2026-10-20）。来源：https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/ex991_q326.htm；https://s22.q4cdn.com/959853165/files/content_files/Netflix-Inc-_Earnings-Call_2026-10-20_English.pdf",
+      "en": "The issuer's 2026-10-20 Q3 letter gives no company-wide view-hours change; it says \"We know there's some investor concern about our view hours growth\", that engagement \"remains healthy\", and that it will \"seek to accelerate growth in view hours\"; India view hours rose 24% YoY. In the interview Greg Peters called U.S. engagement \"solid\" but said \"we know that we can do better\"; the CFO said \"even with modest view hour growth\" and \"we want to grow view hours faster. We're not satisfied\". The trigger's first leg (company-disclosed total view hours down YoY) cannot be observed this quarter, the latest company figure being H1'26 +2%; the second leg (management stating engagement declined) did not fire. The evidence does not support within. Reading: unclear (readingAsOf 2026-10-20). Sources: https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/ex991_q326.htm; https://s22.q4cdn.com/959853165/files/content_files/Netflix-Inc-_Earnings-Call_2026-10-20_English.pdf"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "NFLX"
+    ],
+    "reportIds": [
+      "netflix-2026"
+    ],
+    "monitoringRefs": [
+      "netflix-2026:engagement-view-hours"
+    ]
+  },
+  {
+    "id": "netflix-q3-2026-buybacks-share-count-20261021",
+    "date": "2026-10-21",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Netflix Q3 回购 6,392 万股、$4.8B；09-30 流通股 4,106,325,903 股，公司口径净债务 $7.114B",
+      "en": "Netflix Q3 buybacks of 63.92M shares for $4.8B; 4,106,325,903 shares at 09-30 and company net debt of $7.114B"
+    },
+    "detail": {
+      "zh": "发行人 2026-10-21 Q3 10-Q（0001065280-26-000291）：封面截至 2026-09-30 流通股 4,106,325,903 股（2025 年末 4,222,162,150 股）；Q3 回购 63,917,979 股（7 月 21.80M 股均价 $72.45、8 月 20.89M 股 $77.00、9 月 21.23M 股 $75.79），前三季度 130,349,765 股、$10.7B，剩余授权 $22.3B；Q3 发行债务所得 $992.6M。Q3 股东信：回购 $4.8B 为单季新高；净债务调节（千美元）15,132,394 + 59,251 + 145,158 − 8,194,275 − 28,678 = 7,113,850；约 $1B 债券用于 Q4 到期的 $1B 债务。未宣布收购。触发条件（连续两季回购低于 $2.0B，或超过 $10B 的举债收购）未触发。读数：within（readingAsOf 2026-10-21）。来源：https://www.sec.gov/Archives/edgar/data/1065280/000106528026000291/nflx-20260930.htm；https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/ex991_q326.htm",
+      "en": "Per the issuer's 2026-10-21 Q3 10-Q (0001065280-26-000291), the cover shows 4,106,325,903 shares outstanding at 2026-09-30 (4,222,162,150 at end-2025); Q3 repurchases were 63,917,979 shares (July 21.80M at an average $72.45, August 20.89M at $77.00, September 21.23M at $75.79), nine-month 130,349,765 shares for $10.7B, with $22.3B of authorization remaining; Q3 debt issuance proceeds were $992.6M. The Q3 letter calls the $4.8B a quarterly record and reconciles net debt (in thousands) as 15,132,394 + 59,251 + 145,158 - 8,194,275 - 28,678 = 7,113,850; about $1B of bonds fund the $1B Q4 maturity. No acquisition was announced. The trigger (buybacks below $2.0B in two consecutive quarters, or a debt-funded acquisition above $10B) did not fire. Reading: within (readingAsOf 2026-10-21). Sources: https://www.sec.gov/Archives/edgar/data/1065280/000106528026000291/nflx-20260930.htm; https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/ex991_q326.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "NFLX"
+    ],
+    "reportIds": [
+      "netflix-2026"
+    ],
+    "monitoringRefs": [
+      "netflix-2026:capital-return-share-count"
+    ]
+  },
+  {
+    "id": "netflix-q3-2026-paramount-wbd-licensing-20261020",
+    "date": "2026-10-20",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Paramount Skydance 于 10-06 完成收购 WBD；Netflix Q3 未披露授权内容流失、新增 Disney 与 Globo 授权",
+      "en": "Paramount Skydance closed its WBD acquisition on 10-06; Netflix's Q3 discloses no licensed-content loss and adds Disney and Globo licenses"
+    },
+    "detail": {
+      "zh": "Skydance Corp（原 Paramount Skydance）2026-10-06 8-K（0001104659-26-113913，第 2.01 项）：当日完成与 WBD 的合并，WBD 成为其全资子公司，B 类股改在 NYSE 以 SKYD 交易。Netflix 2026-10-20 Q3 股东信未提及 Paramount／WBD，称新签 Disney 授权协议并推进 TF1 合作；访谈中 Ted Sarandos 另提到与 Globo 达成双方迄今最大的授权协议，并称“we're not really dependent on any single supplier”。Netflix 未披露授权内容重大流失，也未把 Paramount–WBD 列为增长放缓原因。读数：within（readingAsOf 2026-10-20）。来源：https://www.sec.gov/Archives/edgar/data/2041610/000110465926113913/tm2626659d7_8k.htm；https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/ex991_q326.htm；https://s22.q4cdn.com/959853165/files/content_files/Netflix-Inc-_Earnings-Call_2026-10-20_English.pdf",
+      "en": "Skydance Corp (f/k/a Paramount Skydance) 8-K of 2026-10-06 (0001104659-26-113913, Item 2.01): the merger with WBD completed that day, WBD became a wholly owned subsidiary, and the Class B shares moved to the NYSE as SKYD. Netflix's 2026-10-20 Q3 letter does not mention Paramount/WBD and describes a new Disney licensing deal and the TF1 partnership; in the interview Ted Sarandos added the largest Netflix-Globo license to date and said \"we're not really dependent on any single supplier\". Netflix disclosed no material loss of licensed content and did not cite Paramount-WBD as a cause of slower growth. Reading: within (readingAsOf 2026-10-20). Sources: https://www.sec.gov/Archives/edgar/data/2041610/000110465926113913/tm2626659d7_8k.htm; https://www.sec.gov/Archives/edgar/data/1065280/000106528026000290/ex991_q326.htm; https://s22.q4cdn.com/959853165/files/content_files/Netflix-Inc-_Earnings-Call_2026-10-20_English.pdf"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "NFLX"
+    ],
+    "reportIds": [
+      "netflix-2026"
+    ],
+    "monitoringRefs": [
+      "netflix-2026:paramount-wbd-competition"
+    ]
   }
 ]
