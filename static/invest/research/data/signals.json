@@ -2723,5 +2723,32 @@
     "monitoringRefs": [
       "salesforce-2026:leverage-and-fcf-durability"
     ]
+  },
+  {
+    "id": "lam-research-september-2026-quarter-results-20261021",
+    "date": "2026-10-21",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Lam Research 9月季度营收 $8.22B、non-GAAP EPS $2.20高于各自指引中点；12月季度营收指引 $8.60B",
+      "en": "Lam Research September-quarter revenue $8.22B and non-GAAP EPS $2.20 beat their respective guide midpoints; December revenue guide $8.60B"
+    },
+    "detail": {
+      "zh": "发行人2026-10-21稿（8-K Item 2.02，EX-99.1）：截至2026-09-27的季度营收$8.22B（环比+22%、同比+54%），non-GAAP营业利润率40.2%、non-GAAP EPS $2.20，高于$8.10B／$2.15指引中点；Systems revenue $5.733B（同比+62%），customer support-related and other $2.487B（同比+40%）；deferred revenue $2.66B，待验收日本出货预计未来收入约$468.3M（前季$490.2M）；地区占比China 35%、Korea 20%、Taiwan 18%；12月季度指引营收$8.60B +/- $400M。本轮新事实读数：service-resilience为within；etch-deposition-ai-demand为unclear（Systems增长，但HBM／先进逻辑归因未披露）；june-quarter-guidance只确认2026-07-30已满足的历史6月条件，readingAsOf保留该日，9月季度不重定义触发器；其余新读数readingAsOf 2026-10-21；china-korea-taiwan-mix为unclear（中国收入按四舍五入占比推算上升，但新闻稿无出口管制更新）；japan-deferred-revenue为unclear（无可检验「按计划」的验收计划）。证据边界：新闻稿未把需求归因于HBM、DRAM、NAND或先进逻辑，未披露bookings或backlog，本条不挂semicap-eda-capex-commitment；估值仍为2026-07-30历史基础，当前估值待Mode B。来源：https://newsroom.lamresearch.com/2026-10-21-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-September-27,-2026；https://www.sec.gov/Archives/edgar/data/707549/000070754926000052/lrcx_exhibitx991xq1x2027.htm",
+      "en": "Per the issuer's October 21, 2026 release (8-K Item 2.02, EX-99.1), revenue for the quarter ended September 27, 2026 was $8.22B (+22% sequentially, +54% YoY), with non-GAAP operating margin of 40.2% and non-GAAP EPS of $2.20, above the $8.10B / $2.15 guide midpoints. Systems revenue was $5.733B (+62% YoY) and customer support-related and other revenue $2.487B (+40% YoY); deferred revenue was $2.66B and estimated future revenue from Japan shipments awaiting acceptance about $468.3M (prior quarter $490.2M); the regional mix was China 35%, Korea 20%, Taiwan 18%; the December-quarter guide is $8.60B +/- $400M. New factual readings: service-resilience within; etch-deposition-ai-demand unclear (Systems grew but HBM / advanced-logic attribution is undisclosed). june-quarter-guidance confirms only the historical June condition met on 2026-07-30 and retains that readingAsOf; September results do not redefine it. The other new readings are as of 2026-10-21; china-korea-taiwan-mix unclear (China revenue rose on the rounded shares, but the release gives no export-control update); japan-deferred-revenue unclear (no acceptance plan to test against). Evidence limits: the release does not attribute demand to HBM, DRAM, NAND or advanced logic and discloses no bookings or backlog, so this is not attached to semicap-eda-capex-commitment. Valuation retains the historical 2026-07-30 basis, with current valuation pending Mode B. Sources: https://newsroom.lamresearch.com/2026-10-21-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-September-27,-2026; https://www.sec.gov/Archives/edgar/data/707549/000070754926000052/lrcx_exhibitx991xq1x2027.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "LRCX"
+    ],
+    "reportIds": [
+      "lam-research-2026"
+    ],
+    "monitoringRefs": [
+      "lam-research-2026:etch-deposition-ai-demand",
+      "lam-research-2026:china-korea-taiwan-mix",
+      "lam-research-2026:japan-deferred-revenue",
+      "lam-research-2026:june-quarter-guidance",
+      "lam-research-2026:service-resilience"
+    ]
   }
 ]

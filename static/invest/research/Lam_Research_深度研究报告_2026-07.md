@@ -1,7 +1,7 @@
 # Lam Research 深度研究报告 - AI 内存与先进逻辑的刻蚀/沉积校验
 
 标的收录日期：2026-07-05
-最近更新日期：2026-07-31
+最近更新日期：2026-10-22
 代码：NASDAQ: LRCX
 免责声明：本报告仅用于信息与研究交流，不构成任何投资建议，请自行完成尽职调查。
 
@@ -21,13 +21,15 @@
 
 > **2026-07-31 立场重新裁定（按 2026-07-30 收盘）——取代上文旧注中"网格未重新加权/立场不变"的表述。** 所有者对问题文档 Q1 的裁定（2026-07-31）：已发布立场及其理由必须在当前价格下成立——按最新已完成收盘价重新推导，而不是搁置等待未来证据。 LRCX 于 **2026-07-30** 收于 **$297.72**，较旧 2026-07-29 低点 $252.35 反弹 +18.0%，较旧 $351.41 锚点仍 **-15.3%**。按报告自身框架重算：市值约 **$372.3B**，企业价值约 **$371.3B**，P/S（TTM）约 **17.2x**，EV/6 月季度年化收入约 **13.8x**（旧口径 16.6x）。观望中性立场按当前价格复核后依然成立：约 13.8x 意味着市场仍在为较高（但不再过度）的 process-tool 溢价付费，30/40/30 网格的基准情景仍接近价格隐含预期，偏斜保持均衡。**立场维持 观望中性（中确信），且已按当前价格重新推导。** 网格权重保留；scenario-grid-reweight-pending 监测项就此了结，下一验证点为 2026-10-21 业绩。
 
-**当前判断：** **中性观察 / 中确信。** Lam 是这一组里更干净的 AI process-intensity 故事之一，但带日期价格已经假设 Systems 强兑现、服务收入有韧性，且 China/Korea/Taiwan 需求不破裂。
+> **2026-10-22 事实更新（Mode A；FY2027 Q1，9 月季度截至 2026-09-27；2026-10-21 发布）：** 营收 **$8.22B**（环比 +22%、同比 +54%，上年同期 $5.32B）、GAAP gross margin **52.3%**、operating margin **40.0%**（non-GAAP 52.4% / 40.2%）、摊薄 EPS GAAP **$2.19** / non-GAAP **$2.20**（net income $2.75B），营收与 non-GAAP EPS 均高于 9 月季度指引中点 $8.10B 与 $2.15。**Systems revenue $5.733B**（环比 +35%、同比 +62%），**customer support-related and other revenue $2.487B**（环比 +0.6%、同比 +40%）。**Deferred revenue 升至 $2.66B**（6 月季度 $2.43B）；待验收日本出货的预计未来收入约 **$468.3M**（6 月季度 $490.2M）。9 月季度收入地区分布 **China 35%**、Korea 20%、Taiwan 18%、Japan 9%、US 8%、东南亚 6%、欧洲 4%（6 月季度：Taiwan 27%、China 26%、Korea 20%）。现金、现金等价物及受限现金升至 $7.45B。管理层给出 **12 月季度指引**：营收 **$8.60B +/- $400M**、gross margin 52.5% +/- 1%、operating margin 40.5% +/- 1%、摊薄 EPS $2.33 +/- $0.15（摊薄股数 1.253B）。新闻稿未把需求归因于 HBM、DRAM、NAND 或先进逻辑，也未披露 bookings 或 backlog。**估值边界：估值仍按 2026-07-30 锚定的旧口径（$297.72、约 13.8x EV/6 月季度年化收入），年化收入分母、当前股价、股本、现金与债务待 Mode B 重算；本次未重新裁定立场与确信度。** 来源：[发行人新闻稿](https://newsroom.lamresearch.com/2026-10-21-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-September-27,-2026)；[8-K Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/707549/000070754926000052/lrcx_exhibitx991xq1x2027.htm)。
+
+**历史立场（2026-07-31；2026-10-22未重新裁定）：** **中性观察 / 中确信。** Lam 是这一组里更干净的 AI process-intensity 故事之一，但带日期价格已经假设 Systems 强兑现、服务收入有韧性，且 China/Korea/Taiwan 需求不破裂。
 
 | 指标 | 当前读数 |
 | --- | --- |
 | Report id | lam-research-2026 |
 | 链条层级 / 角色 | semicap-equipment / dashboard |
-| 最新报告期 | ~~March 2026 quarter~~ **June 2026 quarter（2026-07-30 监测）** |
+| 最新报告期 | ~~March 2026 quarter~~ ~~June 2026 quarter（2026-07-30 监测）~~ **September 2026 quarter（2026-10-22 Mode A 事实更新；估值仍按 2026-07-30 口径）** |
 | 价格快照 | （旧口径）$351.41，截至 2026-07-02（冻结快照，本次不刷新） |
 | 本次升级后 coverageTier | full |
 | Stance | 中性观察 / 中确信 |
@@ -66,10 +68,10 @@
 
 | 维度 | 当前证据 | 链条读法 | 评分 |
 | --- | --- | --- | --- |
-| 收入 / 需求 | 2026 年 3 月季度 revenue $5.841B、non-GAAP EPS $1.47；Systems revenue $3.731B | 确认链条信号是否进入报告数字 | A-/B+ |
+| 收入 / 需求 | ~~2026 年 3 月季度 revenue $5.841B、non-GAAP EPS $1.47；Systems revenue $3.731B~~ **2026 年 9 月季度 revenue $8.22B、non-GAAP EPS $2.20；Systems revenue $5.733B（2026-10-22 更新）** | 确认链条信号是否进入报告数字 | A-/B+ |
 | 利润率 / 盈利 | 沿用原报告披露的报告期利润率、EPS、EBITDA、AFFO 或 FCF 口径 | 检验增长是有利润还是仅有规模 | B+ |
 | 现金流 / 资产负债表 | 债务、现金、FCF、AFFO、EBITDA 或回购背景保留自原报告披露 | 决定公司能否承受本轮周期 | B |
-| Backlog / bookings / RPO | 6 月季度指引 revenue $6.60B +/- $400M、operating margin 36.5% | 区分承诺需求和叙事需求 | B+ |
+| Backlog / bookings / RPO | ~~6 月季度指引 revenue $6.60B +/- $400M、operating margin 36.5%~~ **12 月季度指引 revenue $8.60B +/- $400M、operating margin 40.5% +/- 1%；deferred revenue $2.66B；未披露 bookings 或 backlog（2026-10-22 更新）** | 区分承诺需求和叙事需求 | B+ |
 | 估值容错率 | 当前价格锚点：（旧口径）$351.41 | 高预期标的必须有更干净的兑现 | Caution |
 
 ## 4. 管理层与口径校验
@@ -129,9 +131,11 @@
 
 ## 8. 估值背景
 
+> **估值边界（2026-10-22，Mode A）：** 第 8 节仍按 2026-07-30 锚定的旧口径（$297.72；约 13.8x EV/6 月季度年化收入）。9 月季度业绩改变了年化收入分母；当前股价、股本、现金与债务待 Mode B 重算。旧倍数不是按当前市价得出的估值。
+
 估值只作为风险背景，不是投资建议。v5 问题是：（旧口径）$351.41 这个带日期价格是否已经对 HBM、先进 DRAM、3D 结构和领先逻辑带来的刻蚀/沉积强度给了过多信用。
 
-**情景网格：**
+**历史情景网格（2026-07-30口径，非当前价格估值）：**
 
 | 情景 | 驱动假设（刻蚀/沉积需求、中国 mix、服务、倍数区间） | 估值含义 *（已失效——写作于旧价格）* | 主观概率权重 |
 | --- | --- | --- | --- |
@@ -145,11 +149,11 @@
 
 | 监测项 | 最新读数 | 触发器 | 下次检查 |
 | --- | --- | --- | --- |
-| 刻蚀/沉积 AI 需求 | ~~Systems revenue $3.731B~~ **Systems revenue $4.250B（6 月季度；环比 +14%、同比 +24%）** | Systems revenue 继续增长，验证 HBM/先进逻辑 process intensity | September-quarter results |
-| China/Korea/Taiwan mix | ~~Q revenue mix: China 34%、Korea 23%、Taiwan 23%~~ **6 月季度：Taiwan 27%、China 26%、Korea 20%、Japan 9%、US 9%** | 中国收入或出口限制转弱，或 Korea/Taiwan HBM/逻辑需求不再补位 | geography and customer mix |
-| Deferred revenue 与日本验收 | ~~Deferred revenue $2.22B；Japan future revenue shipments 约 $434M~~ **Deferred revenue 升至 $2.43B；日本 future-revenue shipments 约 $490.2M** | 对日本 future revenue shipments 按计划验收并确认收入 | acceptance and deferred revenue update |
-| 6 月季度指引兑现 | ~~June-quarter guide: revenue $6.60B +/- $400M、operating margin 36.5% +/- 1pct~~ **6 月季度实报营收 $6.72B（+30% Y/Y）、non-GAAP op margin 38.4%、non-GAAP EPS $1.82，均高于指引；9 月季度指引营收 $8.10B +/- $400M、non-GAAP EPS $2.15 +/- $0.15** | 收入接近 $6.60B 中点且 operating margin 接近 36.5% | September-quarter print |
-| 服务与 installed-base 韧性 | ~~customer-support-related and other revenue $2.111B~~ **customer support-related and other revenue $2.472B（6 月季度；+42.6% Y/Y）** | customer-support-related and other revenue 维持韧性，说明装机利用率健康 | service revenue trend |
+| 刻蚀/沉积 AI 需求 | ~~Systems revenue $3.731B~~ ~~Systems revenue $4.250B（6 月季度；环比 +14%、同比 +24%）~~ **Systems revenue $5.733B（9 月季度；环比 +35%、同比 +62%，上年同期 $3.548B）；新闻稿未归因于 HBM 或先进逻辑（reading：unclear，截至 2026-10-21）** | Systems revenue 继续增长，验证 HBM/先进逻辑 process intensity | 12 月季度业绩（季度截至 2026-12-27；发行人尚未公布发布日期） |
+| China/Korea/Taiwan mix | ~~Q revenue mix: China 34%、Korea 23%、Taiwan 23%~~ ~~6 月季度：Taiwan 27%、China 26%、Korea 20%、Japan 9%、US 9%~~ **9 月季度：China 35%、Korea 20%、Taiwan 18%、Japan 9%、US 8%、东南亚 6%、欧洲 4%；按四舍五入后的占比推算，中国收入由约 $1.75B 升至约 $2.88B，Taiwan 由约 $1.82B 降至约 $1.48B；新闻稿无出口管制更新（reading：unclear，截至 2026-10-21）** | 中国收入或出口限制转弱，或 Korea/Taiwan HBM/逻辑需求不再补位 | 12 月季度业绩（季度截至 2026-12-27；发行人尚未公布发布日期） |
+| Deferred revenue 与日本验收 | ~~Deferred revenue $2.22B；Japan future revenue shipments 约 $434M~~ ~~Deferred revenue 升至 $2.43B；日本 future-revenue shipments 约 $490.2M~~ **Deferred revenue 升至 $2.66B；待验收日本出货的预计未来收入约 $468.3M（6 月季度 $490.2M）；未披露可供检验「按计划」的验收计划（reading：unclear，截至 2026-10-21）** | 对日本 future revenue shipments 按计划验收并确认收入 | 12 月季度业绩（季度截至 2026-12-27；发行人尚未公布发布日期） |
+| 6 月季度指引兑现 | ~~June-quarter guide: revenue $6.60B +/- $400M、operating margin 36.5% +/- 1pct~~ ~~6 月季度实报营收 $6.72B（+30% Y/Y）、non-GAAP op margin 38.4%、non-GAAP EPS $1.82，均高于指引；9 月季度指引营收 $8.10B +/- $400M、non-GAAP EPS $2.15 +/- $0.15~~ **6 月季度已满足本触发器（营收 $6.72B、non-GAAP op margin 38.4%）；9 月季度实报营收 $8.22B、non-GAAP EPS $2.20 再次高于 $8.10B / $2.15 指引中点，non-GAAP op margin 40.2%；12 月季度指引营收 $8.60B +/- $400M、op margin 40.5% +/- 1%、EPS $2.33 +/- $0.15（历史reading：within，截至 2026-07-30；9月实报不重定义6月触发器）** | 收入接近 $6.60B 中点且 operating margin 接近 36.5% | 6月条件已于2026-07-30满足；12月新证据不重定义历史触发器 |
+| 服务与 installed-base 韧性 | ~~customer-support-related and other revenue $2.111B~~ ~~customer support-related and other revenue $2.472B（6 月季度；+42.6% Y/Y）~~ **customer support-related and other revenue $2.487B（9 月季度；环比 +0.6%、同比 +40%，上年同期 $1.777B）（reading：within，截至 2026-10-21）** | customer-support-related and other revenue 维持韧性，说明装机利用率健康 | 12 月季度业绩（季度截至 2026-12-27；发行人尚未公布发布日期） |
 
 未来 rerun 应由这些项目触发。只有当 monitoring update 改变链条 read-through 或估值容错率时，报告才需要实质更新。
 
@@ -172,6 +176,7 @@ Lam Research 的链条验证工作不变：它检验 AI memory 和先进逻辑�
 
 ## 附录：来源与假设
 
+- Lam Research 2026 年 9 月季度（FY2027 Q1）earnings release（2026-10-21 发布，季度截至 2026-09-27）：[发行人新闻稿](https://newsroom.lamresearch.com/2026-10-21-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-September-27,-2026)与 [8-K Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/707549/000070754926000052/lrcx_exhibitx991xq1x2027.htm)——营收、GAAP/non-GAAP 利润率与 EPS、Systems/服务分部、deferred revenue、日本未来收入、地区分布、现金与 12 月季度指引。仅用于 2026-10-22 Mode A 事实更新，未重算任何估值输入。
 - Lam Research 2026 年 6 月季度（FY2026 Q4）earnings release（2026-07-29 发布，季度截至 2026-06-28）：[Lam Research IR 新闻稿](https://newsroom.lamresearch.com/2026-07-29-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-June-28,-2026)——营收、GAAP/non-GAAP 利润率与 EPS、Systems/服务分部、deferred revenue、地区分布与 9 月季度指引。
 - Lam Research 2026 年 3 月季度 10-Q：[SEC filing](https://www.sec.gov/Archives/edgar/data/707549/000070754926000022/lrcx-20260329.htm)。
 - Lam Research 2026 年 3 月季度 earnings release：[Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/707549/000070754926000020/lrcx_exhibitx991xq3x2026.htm)。
