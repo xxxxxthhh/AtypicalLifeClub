@@ -2750,5 +2750,30 @@
       "lam-research-2026:june-quarter-guidance",
       "lam-research-2026:service-resilience"
     ]
+  },
+  {
+    "id": "nvidia-amkor-spil-packaging-capacity-agreements-2026-10-21",
+    "date": "2026-10-21",
+    "title": {
+      "zh": "NVIDIA 与 Amkor、SPIL 公布扩产计划；Amkor 新增 $1.3B 预付支持协议",
+      "en": "NVIDIA, Amkor and SPIL announce capacity plans; Amkor adds a $1.3B prepayment-supported agreement"
+    },
+    "detail": {
+      "zh": "据NVIDIA 2026-10-21稿（https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Supply-Chain-Partners-Expand-Capacity-to-Accelerate-AI-Infrastructure-Buildout/default.aspx），NVIDIA与Amkor计划扩充韩国先进封装产能，目标2028年底前中介层晶圆产能增长逾300%，服务现有及下一代平台；NVIDIA与SPIL计划扩充台湾CPO光引擎产能，目标2027年中为当前约15倍，并争取2028年底再翻倍。Amkor同日稿（https://ir.amkor.com/news-releases/news-release-details/amkor-technology-and-nvidia-advance-strategic-partnership-ai）宣布新增$1.3B协议，以预付款支持韩国扩产；公司称与NVIDIA的亚利桑那与韩国多年期协议合计$3B，本稿没有给出与此前公告的逐笔对账。该事件只为advanced-packaging-ownership的第三方OSAT中介层产能一腿提供计划层证据：目标、协议金额不等于已投产产能、已发生资本开支、已到账预付款或已确认收入；预付款到账与会计列报待财务披露核验。两稿未点名具体加速器项目、未说明相对台积电的双源安排，不升级为约束读数；CPO光引擎属于光互连，不能据此推算2.5D封装份额。",
+      "en": "Per NVIDIA's October 21, 2026 release (https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Supply-Chain-Partners-Expand-Capacity-to-Accelerate-AI-Infrastructure-Buildout/default.aspx), NVIDIA and Amkor plan to expand South Korean advanced-packaging capacity, targeting a greater-than-300% increase in interposer wafer capacity by end-2028 for current and next-generation platforms. NVIDIA and SPIL plan to expand Taiwanese CPO optical-engine capacity to about 15 times the current level by mid-2027, with a further doubling targeted by end-2028. Amkor's same-day release (https://ir.amkor.com/news-releases/news-release-details/amkor-technology-and-nvidia-advance-strategic-partnership-ai) announces a new $1.3B agreement supported by prepayments for Korean expansion and states that its multi-year Arizona and South Korea agreements with NVIDIA total $3B, without a line-by-line reconciliation to earlier announcements. This is plan-level evidence for the third-party OSAT interposer-capacity leg of advanced-packaging-ownership only: targets and agreement amounts do not establish operating capacity, incurred capex, cash prepayments received or recognized revenue. Receipt and accounting presentation of prepayments await financial disclosure. Neither release names a specific accelerator program or a dual-sourcing arrangement relative to TSMC, so this does not upgrade the layer to a constraint reading. CPO optical engines are an optical-interconnect step, not a measure of 2.5D packaging share."
+    },
+    "crossChecks": [
+      "advanced-packaging-ownership"
+    ],
+    "tickers": [
+      "NVDA",
+      "AMKR",
+      "ASX"
+    ],
+    "reportIds": [
+      "nvidia-2026",
+      "amkr-2026",
+      "ase-technology-2026"
+    ]
   }
 ]
