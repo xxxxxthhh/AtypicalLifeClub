@@ -354,11 +354,11 @@
       "symbol": "NFLX",
       "status": "ok",
       "attemptedAt": "2026-10-21",
-      "baseDate": "2026-10-01",
-      "basePrice": 67.85,
+      "baseDate": "2026-10-21",
+      "basePrice": 65.04,
       "lastDate": "2026-10-21",
       "lastClose": 65.04,
-      "changePct": -4.1,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
