@@ -1,48 +1,32 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T22:15:30Z",
+  "generatedAt": "2026-10-23T22:16:09Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-10-22T22:15:30Z"
+    "value": "2026-10-23T22:16:09Z"
   },
   "tasks": [
     {
-      "id": "earnings:bloom-energy-2026:2026-10-22:T",
+      "id": "earnings:bloom-energy-2026:2026-10-22:T+1",
       "reportId": "bloom-energy-2026",
       "type": "research-update",
-      "window": "T",
+      "window": "T+1",
       "expectedDate": "2026-10-22",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     },
     {
-      "id": "earnings:lam-research-2026:call-2026-10-21:T+1",
-      "reportId": "lam-research-2026",
-      "type": "research-update",
-      "window": "T+1",
-      "expectedDate": "2026-10-21",
-      "reason": "Issuer-confirmed earnings call window (release time unconfirmed); first verify actual release filing/press release, then update the research package."
-    },
-    {
-      "id": "earnings:meta-2026:2026-10-21:T+1",
-      "reportId": "meta-2026",
-      "type": "research-update",
-      "window": "T+1",
-      "expectedDate": "2026-10-21",
-      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
-    },
-    {
-      "id": "earnings:spotify-2026:2026-10-22:T",
+      "id": "earnings:spotify-2026:2026-10-22:T+1",
       "reportId": "spotify-2026",
       "type": "research-update",
-      "window": "T",
+      "window": "T+1",
       "expectedDate": "2026-10-22",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     },
     {
-      "id": "earnings:wdc-2026:2026-10-22:T",
+      "id": "earnings:wdc-2026:2026-10-22:T+1",
       "reportId": "wdc-2026",
       "type": "research-update",
-      "window": "T",
+      "window": "T+1",
       "expectedDate": "2026-10-22",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     }
