@@ -8018,7 +8018,7 @@
     "priceSymbol": "CEG",
     "title": "Constellation Energy 深度研究报告 - AI 电力约束的核电与 Calpine 综合电力锚",
     "titleEn": "Constellation Energy Deep Research Report - Nuclear and Calpine Integrated Power Anchor for AI",
-    "summary": "2026-08-07 监测更新：CEG Q2 GAAP EPS $1.42、调整后运营 EPS $2.55，并把 2026 全年调整后运营 EPS 指引上调至 $11.50-12.50。公司新增签署 920MW、15-20 年 PPA（2029-2032 年起供；价格与 hyperscaler 占比未披露），FERC/NRC 推进 Crane 重启审批，并拟以 $860M 出售 606MW Brazos Valley 电厂。2026-07-30 的价格、倍数与情景网格保留为明确历史快照，本次不重算估值或立场；中性观察/中确信暂维持，待债务、FCF 与新指引纳入完整估值后重新裁定。",
+    "summary": "2026-10-22 更新（Mode A 事实增量，无估值重锚）：2026-10-14 已完成向 LS Power 出售 606MW Brazos Valley 电厂（交割稿未披露对价或所得款），约 4.4GW PJM 资产出售预计 2026 年底前交割；估值仍按 2026-07-30 锚定的旧口径（净债务约 $21.6B），Brazos 所得款待 Q3 10-Q / Mode B 重算，本次未重新裁定立场。2026-08-07 监测更新：CEG Q2 GAAP EPS $1.42、调整后运营 EPS $2.55，并把 2026 全年调整后运营 EPS 指引上调至 $11.50-12.50。公司新增签署 920MW、15-20 年 PPA（2029-2032 年起供；价格与 hyperscaler 占比未披露），FERC/NRC 推进 Crane 重启审批，并拟以 $860M 出售 606MW Brazos Valley 电厂。2026-07-30 的价格、倍数与情景网格保留为明确历史快照，本次不重算估值或立场；中性观察/中确信暂维持，待债务、FCF 与新指引纳入完整估值后重新裁定。",
     "tags": [
       "AI电力",
       "核电",
@@ -8027,7 +8027,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-08-07",
+    "lastUpdate": "2026-10-22",
     "file": "/invest/research/reports/view.html?id=constellation-energy-2026",
     "markdownFiles": {
       "zh": "/invest/research/Constellation_Energy_深度研究报告_2026-07.md",
@@ -8040,10 +8040,10 @@
       "Q2 调整后运营 EPS $2.55（上年 $1.91），全年调整后运营 EPS 指引上调至 $11.50-12.50",
       "新增 920MW 长期 PPA，期限 15-20 年、2029-2032 年起供；仅沃尔玛 176MW 具名，价格与 hyperscaler 占比未披露",
       "FERC 批准 Crane 并网容量权转移、NRC 批准燃料许可修订；2027 重启目标不变，监管里程碑不等于并网发电",
-      "拟以 $860M 出售 606MW Brazos Valley 电厂，尚待 DOJ 批准、预计年内完成",
+      "2026-10-14 已完成向 LS Power 出售 606MW Brazos Valley 电厂（交割稿未披露对价或所得款）；另约 4.4GW PJM 资产出售预计 2026 年底前交割（2026-10-22 Mode A 更新，估值仍按 2026-07-30 口径）",
       "估值冻结在 2026-07-30 历史快照；中性观察/中确信待债务、FCF 与新指引的完整估值更新重新裁定"
     ],
-    "summaryEn": "August 7, 2026 monitoring update: CEG reported Q2 GAAP EPS of $1.42 and adjusted operating EPS of $2.55, and raised full-year 2026 adjusted operating EPS guidance to $11.50-12.50. It signed 920 MW of additional 15-20 year PPAs starting in 2029-2032, without disclosing price or hyperscaler share; FERC and the NRC advanced Crane restart approvals; and it agreed to sell the 606 MW Brazos Valley plant for $860M. The 2026-07-30 price, multiples, and scenario grid remain an explicitly historical snapshot, with no valuation or stance recomputation here. Neutral-watch / medium conviction holds provisionally pending a complete valuation update incorporating debt, FCF, and the new guide.",
+    "summaryEn": "Updated 2026-10-22 (Mode A factual increment, no valuation re-anchor): the sale of the 606 MW Brazos Valley plant to LS Power closed on 2026-10-14 (the closing release discloses no consideration or proceeds), and the ~4.4 GW PJM asset sale is expected to close by the end of 2026. Valuation remains anchored to the 2026-07-30 basis (about $21.6B net debt); Brazos proceeds await the Q3 10-Q / Mode B recomputation, and the stance was not re-adjudicated in this pass. August 7, 2026 monitoring update: CEG reported Q2 GAAP EPS of $1.42 and adjusted operating EPS of $2.55, and raised full-year 2026 adjusted operating EPS guidance to $11.50-12.50. It signed 920 MW of additional 15-20 year PPAs starting in 2029-2032, without disclosing price or hyperscaler share; FERC and the NRC advanced Crane restart approvals; and it agreed to sell the 606 MW Brazos Valley plant for $860M. The 2026-07-30 price, multiples, and scenario grid remain an explicitly historical snapshot, with no valuation or stance recomputation here. Neutral-watch / medium conviction holds provisionally pending a complete valuation update incorporating debt, FCF, and the new guide.",
     "chainLayer": "power",
     "coverageTier": "full",
     "chainRole": "common-constraint",
@@ -8131,8 +8131,8 @@
           "en": "Calpine integration, life-extension, restart or uprate spending expands net debt and FCF pressure"
         },
         "latest": {
-          "zh": "2026 Q2 业绩附件列示：现金及现金等价物 $0.697B、短期借款 $5.226B、一年内到期债务 $0.363B、长期债务 $19.111B，对应毛债务约 $24.700B、扣现金后约 $24.003B，高于报告原 Q1 约 $21.7B 净债务读数。方向显示杠杆上升，但附件未把增量完整归因于 Calpine 整合、核电投入或 FCF 压力，故读数不明。",
-          "en": "The Q2 2026 results exhibit lists $0.697B of cash and equivalents, $5.226B of short-term borrowings, $0.363B of current debt, and $19.111B of long-term debt, implying about $24.700B of gross debt and $24.003B net of cash, above the report's prior Q1 net-debt reading of about $21.7B. The direction shows higher leverage, but the exhibit does not fully attribute the increase to Calpine integration, nuclear spending, or FCF pressure, so the reading is unclear."
+          "zh": "2026 Q2 业绩附件列示：现金及现金等价物 $0.697B、短期借款 $5.226B、一年内到期债务 $0.363B、长期债务 $19.111B，对应毛债务约 $24.700B、扣现金后约 $24.003B，高于报告原 Q1 约 $21.7B 净债务读数。方向显示杠杆上升，但附件未把增量完整归因于 Calpine 整合、核电投入或 FCF 压力，故读数不明。2026-10-14：Calpine 监管承诺项下的 Brazos Valley（606MW，ERCOT）出售给 LS Power 已交割，交割稿未披露对价或所得款，对净债务的影响待 Q3 10-Q；约 4.4GW PJM 资产出售预计 2026 年底前交割。上述资产负债表数字仍为 Q2 口径，读数维持不明。",
+          "en": "The Q2 2026 results exhibit lists $0.697B of cash and equivalents, $5.226B of short-term borrowings, $0.363B of current debt, and $19.111B of long-term debt, implying about $24.700B of gross debt and $24.003B net of cash, above the report's prior Q1 net-debt reading of about $21.7B. The direction shows higher leverage, but the exhibit does not fully attribute the increase to Calpine integration, nuclear spending, or FCF pressure, so the reading is unclear. On 2026-10-14 the Brazos Valley (606 MW, ERCOT) sale to LS Power required by the Calpine regulatory commitments closed; the closing release discloses no consideration or proceeds, so the net-debt effect awaits the Q3 10-Q, and the ~4.4 GW PJM asset sale is expected to close by the end of 2026. The balance-sheet figures above remain Q2 figures, and the reading stays unclear."
         },
         "nextCheck": "Q3 整合、现金流与债务桥接 / Q3 integration, cash flow and debt bridge",
         "reading": "unclear",

@@ -2913,5 +2913,28 @@
     "monitoringRefs": [
       "netflix-2026:paramount-wbd-competition"
     ]
+  },
+  {
+    "id": "constellation-brazos-valley-divestiture-closed-2026-10-14",
+    "date": "2026-10-14",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Constellation 完成向 LS Power 出售 606MW Brazos Valley 电厂（Calpine 监管承诺剥离）；约 4.4GW PJM 资产出售预计 2026 年底前交割",
+      "en": "Constellation closes the sale of the 606 MW Brazos Valley plant to LS Power (Calpine regulatory-commitment divestiture); the ~4.4 GW PJM asset sale is expected to close by end-2026"
+    },
+    "detail": {
+      "zh": "发行人 2026-10-14 交割稿：Constellation 已完成向 LS Power 出售 Brazos Valley Energy Center——位于休斯顿郊外、在 ERCOT 运营的 606MW 天然气联合循环电厂；交割稿称这是满足 Calpine 收购相关监管承诺的持续进展，双方于 2026 年 8 月签约（Q2 业绩稿）。交割稿同时写明，此前宣布的约 4.4GW 以天然气为主的特拉华州/宾夕法尼亚州资产（Bethlehem、York 1、York 2、Hay Road、Edge Moor）出售给 LS Power 预计于 2026 年底前交割，尚需满足惯常交割条件；上述剥离均属公司与美国司法部就 Calpine 收购所达成协议的一部分。Q2 业绩稿曾称 Brazos 为「监管承诺所要求的最后一项资产出售」，交割稿未沿用该说法。挂 debt-capex-discipline：该项指标即「Calpine 整合、净债务与 capex 纪律」，本条是 Calpine 监管承诺剥离的交割事实，读数维持 unclear、未重新评级。证据边界：交割稿未披露对价、所得款或对净债务的影响，8 月 $860M 为未计交割调整的签约价格，不能当作已收现金；估值仍按 2026-07-30 旧口径（净债务约 $21.6B），所得款与净债务影响待 Q3 10-Q / Mode B。来源：https://www.constellationenergy.com/news/2026/10/constellation-completes-sale-of-brazos-valley-energy-center-to-ls-power.html；https://www.sec.gov/Archives/edgar/data/1868275/000186827526000097/ceg-20260806991.htm",
+      "en": "Per the issuer's 2026-10-14 closing release, Constellation has completed the sale of the Brazos Valley Energy Center to LS Power — a 606 MW natural gas-fired combined-cycle facility outside Houston operating in ERCOT; the release calls it continued progress in satisfying regulatory commitments related to the Calpine acquisition, with the agreement signed in August 2026 (Q2 release). The closing release also states that the previously announced sale of approximately 4.4 GW of predominantly natural gas-fired generation in Delaware and Pennsylvania (Bethlehem, York 1, York 2, Hay Road, Edge Moor) to LS Power is expected to close by the end of 2026, subject to customary closing conditions, and that the divestitures are part of Constellation's agreement with the U.S. Department of Justice related to the Calpine acquisition. The Q2 release had called Brazos 'the last asset sale required by our regulatory commitments'; the closing release does not repeat that framing. Attached to debt-capex-discipline because that item's metric is 'Calpine integration, net debt and capex discipline' and this is the closing of a Calpine regulatory-commitment divestiture; its reading stays unclear and was not re-graded. Evidence limits: the closing release discloses no consideration, proceeds or net-debt effect; the August $860M was a price before closing adjustments and is not cash received. Valuation stays on the 2026-07-30 basis (about $21.6B net debt), with proceeds and the net-debt effect pending the Q3 10-Q / Mode B. Sources: https://www.constellationenergy.com/news/2026/10/constellation-completes-sale-of-brazos-valley-energy-center-to-ls-power.html; https://www.sec.gov/Archives/edgar/data/1868275/000186827526000097/ceg-20260806991.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "CEG"
+    ],
+    "reportIds": [
+      "constellation-energy-2026"
+    ],
+    "monitoringRefs": [
+      "constellation-energy-2026:debt-capex-discipline"
+    ]
   }
 ]
