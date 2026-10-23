@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-21",
+  "asOf": "2026-10-24",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -46,18 +46,7 @@
       "session": "unspecified",
       "sourceUrl": "https://newsroom.lamresearch.com/2026-09-30-Lam-Research-Corporation-Announces-September-Quarter-Financial-Conference-Call",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-10-08",
-      "call": {
-        "eventType": "call",
-        "timezone": "America/Los_Angeles",
-        "expectedDate": "2026-10-21",
-        "localTime": "14:00",
-        "precision": "day",
-        "status": "issuer-confirmed",
-        "sourceUrl": "https://newsroom.lamresearch.com/2026-09-30-Lam-Research-Corporation-Announces-September-Quarter-Financial-Conference-Call",
-        "sourceType": "issuer-ir",
-        "verifiedAt": "2026-10-20"
-      }
+      "verifiedAt": "2026-10-08"
     },
     {
       "reportId": "kla-2026",
