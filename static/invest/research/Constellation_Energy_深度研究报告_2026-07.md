@@ -1,7 +1,7 @@
 # Constellation Energy 深度研究报告 - AI 电力约束的核电与 Calpine 综合电力锚
 
 标的收录日期：2026-07-04
-最近更新日期：2026-10-22
+最近更新日期：2026-10-23
 代码：NASDAQ: CEG
 免责声明：本报告仅用于信息与研究交流，不构成任何投资建议，请自行完成尽职调查。
 
@@ -19,13 +19,13 @@
 
 > **2026-07-31 立场重新裁定（锚定 2026-07-30 收盘）。** 业主裁决（2026-07-31）：已发布的立场及其理由必须在**当前价格**上成立。CEG 于 **2026-07-30** 收于 **$263.56**，较 2026-07-02 的旧锚点 $239.25 为 **+10.2%**。按约 3.569 亿股与约 $21.6B 净债务计，市值约 **$94.1B**、企业价值约 **$116B**；对照未变的 2026 EPS 指引 $11-12，约为 **22.9x forward EPS**（旧 20.8x）、约 **3.9x EV/TTM sales**（旧 3.6x）。本次没有改动任何预估或实际值，只改了价格输入。**上涨与下跌受到同等严格的审视。** 本轮对 digital-realty-2026 使用的那项检验——当前价格是否已经要求超过报告自身最优情景所能兑现的水平——在此同样跑了一遍，但**没有触发**：与 DLR 不同，本报告的牛市与基准情景都没有给出量化的 EPS 增速，因此不存在可供比对并被超越的情景数字。能够精确表述的是重定价把溢价推高了：在本报告自身 16-18x 高质量发电框架下，当前价格需要约 **$14.6-16.5** 的可持续 EPS，而不再是约 $13.3-15.0，对照 2026 指引 $11-12。降级条件也都未触发——AI capex 预期没有被下修、Crane 重启未见延迟、Calpine 未抬高杠杆、PJM 价格未回落。**因此立场维持中性观察（中确信），并按更高倍数重新表述：** “多数正面要素已被资本化、当前价格没有明显安全边际”这一判断在 $263.56 上比在 $239.25 上更成立，而这正是中性观察所描述的状态。
 
-> **2026-08-06 雷达更新：2026 Q2 财报已落地，取代上方区块与 §8 中使用的「2026 EPS 指引 $11-12」这一分母。** Constellation 于 **2026-08-06** 盘前发布 2026 Q2 业绩：GAAP 归属普通股东每股净利润 **$1.42**（2025 Q2 为 $2.67），调整后（非 GAAP）运营每股收益 **$2.55**（2025 Q2 为 $1.91），对应调整后运营利润 $920M（2025 Q2 为 $599M）。**公司将 2026 全年调整后运营每股收益指引上调至 $11.50-12.50**，此前为本报告前瞻倍数算术所采用的 $11-12 区间。公司新增签署 **920MW** 长期购电协议，期限 15-20 年、供电起始时间分布在 **2029 至 2032 年**，对手方仅被描述为「一组多元化的投资级客户」；唯一具名者为 **176MW** 的沃尔玛协议，该协议将带动 Dresden 核电站 30MW 扩容。Crane 方面：**FERC** 批准将 Eddystone 3、4 号机组现有并网容量权转移至 Crane Clean Energy Center，**NRC** 批准其燃料许可修订申请，2027 年重启目标不变；公司另就 Ginna 与 Nine Mile Point 1 号机组提交延寿至 2049 年的许可更新申请。公司还与 LS Power 签约，以 **$860M**（未计交割调整）出售位于 ERCOT 的 606MW 燃气电厂 **Brazos Valley Energy Center**，~~为 Calpine 收购监管承诺项下最后一项资产出售，交割尚待 DOJ 批准~~（**2026-10-22 更正：该出售已于 2026-10-14 交割；「最后一项」措辞与仍待交割的 PJM 资产出售见下方 2026-10-22 区块**）。运营数据：核电发电量 44,160GWh（2025 Q2 为 45,170GWh），不含 Salem 与 STP 的容量因子 93.0%（2025 Q2 为 94.8%），计划换料停堆 86 天（对照 41 天）。
+> **2026-08-06 雷达更新：2026 Q2 财报已落地，取代上方区块与 §8 中使用的「2026 EPS 指引 $11-12」这一分母。** Constellation 于 **2026-08-06** 盘前发布 2026 Q2 业绩：GAAP 归属普通股东每股净利润 **$1.42**（2025 Q2 为 $2.67），调整后（非 GAAP）运营每股收益 **$2.55**（2025 Q2 为 $1.91），对应调整后运营利润 $920M（2025 Q2 为 $599M）。**公司将 2026 全年调整后运营每股收益指引上调至 $11.50-12.50**，此前为本报告前瞻倍数算术所采用的 $11-12 区间。公司新增签署 **920MW** 长期购电协议，期限 15-20 年、供电起始时间分布在 **2029 至 2032 年**，对手方仅被描述为「一组多元化的投资级客户」；唯一具名者为 **176MW** 的沃尔玛协议，该协议将带动 Dresden 核电站 30MW 扩容。Crane 方面：**FERC** 批准将 Eddystone 3、4 号机组现有并网容量权转移至 Crane Clean Energy Center，**NRC** 批准其燃料许可修订申请，2027 年重启目标不变；公司另就 Ginna 与 Nine Mile Point 1 号机组提交延寿至 2049 年的许可更新申请。公司还与 LS Power 签约，以 **$860M**（未计交割调整）出售位于 ERCOT 的 606MW 燃气电厂 **Brazos Valley Energy Center**，~~为 Calpine 收购监管承诺项下最后一项资产出售，交割尚待 DOJ 批准~~（**2026-10-23 更正：该出售已于 2026-10-14 交割；「最后一项」措辞与仍待交割的 PJM 资产出售见下方 2026-10-23 区块**）。运营数据：核电发电量 44,160GWh（2025 Q2 为 45,170GWh），不含 Salem 与 STP 的容量因子 93.0%（2025 Q2 为 94.8%），计划换料停堆 86 天（对照 41 天）。
 >
 > **本次为仅监测更新，未重算任何估值。** 价格、市值、企业价值、前瞻倍数、情景网格与立场（**中性观察 / 中确信**）仍全部锚定于 **2026-07-30 收盘价 $263.56**，其历史价格/日期边界见上方区块。**已被取代但本次刻意不重算**的是 **$11-12 的 EPS 分母**：§8 的「约 22.9x forward EPS」与基准情景行的「2026 EPS 指引 $11-12 兑现」均写于上调之前，需要一次独立完整研究更新。监测项方面：`nuclear-ppa-execution` 为**读数不明**；`crane-restart-regulatory` 为**阈内**。Q2 附件列示现金 $0.697B、短期借款 $5.226B、一年内到期债务 $0.363B、长期债务 $19.111B，扣现金债务约 $24.0B，高于报告原 Q1 约 $21.7B；但增量归因与 FCF 压力未完整披露，因此 `debt-capex-discipline` 为**读数不明**。来源：[Constellation 2026 Q2 业绩，8-K 附件 99.1（2026-08-06）](https://www.sec.gov/Archives/edgar/data/1868275/000186827526000097/ceg-20260806991.htm)。
 
-> **2026-10-22 事实更新（Mode A；仅记录 Brazos Valley 剥离交割，未重算任何估值）。** Constellation 于 **2026-10-14** 宣布已完成向 **LS Power** 出售 **Brazos Valley Energy Center**——位于休斯顿郊外、在 **ERCOT** 市场运营的 **606MW** 天然气联合循环电厂；交割稿称该交易是满足 Calpine 收购相关监管承诺的「持续进展」，双方于 2026 年 8 月签约（见上方 2026-08-06 区块）。**「最后一项」措辞的边界：** 2026-08-06 Q2 业绩稿称 Brazos 是「收购项下监管承诺所要求的最后一项资产出售」；2026-10-14 交割稿未沿用这一说法，而是写明公司此前已宣布另一项协议——向 LS Power 出售位于特拉华州与宾夕法尼亚州、约 **4.4GW**、以天然气为主的发电资产（Bethlehem、York 1、York 2、Hay Road 与 Edge Moor），**该 PJM 资产出售预计于 2026 年底前交割，尚需满足惯常交割条件**；并称上述剥离均属公司与美国司法部（DOJ）就 Calpine 收购所达成协议的一部分。**证据边界：** 交割稿未披露对价、所得款或对净债务的影响；8 月协议所列 $860M 是未计交割调整的签约价格，不能视为已收到的现金。
+> **2026-10-23 事实更新（Mode A；仅记录 Brazos Valley 剥离交割，未重算任何估值）。** Constellation 于 **2026-10-14** 宣布已完成向 **LS Power** 出售 **Brazos Valley Energy Center**——位于休斯顿郊外、在 **ERCOT** 市场运营的 **606MW** 天然气联合循环电厂；交割稿称该交易是满足 Calpine 收购相关监管承诺的「持续进展」，双方于 2026 年 8 月签约（见上方 2026-08-06 区块）。**「最后一项」措辞的边界：** 2026-08-06 Q2 业绩稿称 Brazos 是「收购项下监管承诺所要求的最后一项资产出售」；2026-10-14 交割稿未沿用这一说法，而是写明公司此前已宣布另一项协议——向 LS Power 出售位于特拉华州与宾夕法尼亚州、约 **4.4GW**、以天然气为主的发电资产（Bethlehem、York 1、York 2、Hay Road 与 Edge Moor），**该 PJM 资产出售预计于 2026 年底前交割，尚需满足惯常交割条件**；并称上述剥离均属公司与美国司法部（DOJ）就 Calpine 收购所达成协议的一部分。**证据边界：** 交割稿未披露对价、所得款或对净债务的影响；8 月协议所列 $860M 是未计交割调整的签约价格，不能视为已收到的现金。
 >
-> **估值边界（2026-10-22）：** 估值仍按 **2026-07-30** 锚定的旧口径（$263.56、约 3.569 亿股、净债务约 $21.6B、企业价值约 $116B），价格、倍数、情景网格与立场（**中性观察 / 中确信**）本次均未改动；Brazos 交割所得款及其对净债务的影响，待 Q3 财报（日历 2026-11-09，estimated）及 Q3 10-Q 披露后由 Mode B 重算。来源：[Constellation 交割稿：Constellation Completes Sale of Brazos Valley Energy Center to LS Power（2026-10-14）](https://www.constellationenergy.com/news/2026/10/constellation-completes-sale-of-brazos-valley-energy-center-to-ls-power.html)。
+> **估值边界（2026-10-23）：** 估值仍按 **2026-07-30** 锚定的旧口径（$263.56、约 3.569 亿股、净债务约 $21.6B、企业价值约 $116B），价格、倍数、情景网格与立场（**中性观察 / 中确信**）本次均未改动；Brazos 交割所得款及其对净债务的影响，待 Q3 财报（日历 2026-11-09，estimated）及 Q3 10-Q 披露后由 Mode B 重算。来源：[Constellation 交割稿：Constellation Completes Sale of Brazos Valley Energy Center to LS Power（2026-10-14）](https://www.constellationenergy.com/news/2026/10/constellation-completes-sale-of-brazos-valley-energy-center-to-ls-power.html)。
 
 | 指标 | 当前读数 |
 | --- | --- |
@@ -133,7 +133,7 @@
 
 ## 8. 估值背景
 
-> **估值边界（2026-10-22，Mode A）：** 本节仍按 2026-07-30 锚定的旧口径（$263.56、约 3.569 亿股、净债务约 $21.6B、企业价值约 $116B）。2026-10-14 Brazos Valley 剥离已交割，但交割稿未披露所得款，其对净债务的影响待 Q3 财报（日历 2026-11-09，estimated）及 10-Q 后由 Mode B 重算；下文倍数不是按当前市价的估值。
+> **估值边界（2026-10-23，Mode A）：** 本节仍按 2026-07-30 锚定的旧口径（$263.56、约 3.569 亿股、净债务约 $21.6B、企业价值约 $116B）。2026-10-14 Brazos Valley 剥离已交割，但交割稿未披露所得款，其对净债务的影响待 Q3 财报（日历 2026-11-09，estimated）及 10-Q 后由 Mode B 重算；下文倍数不是按当前市价的估值。
 
 估值只作为风险背景，不是投资建议。当前 $263.56 股价可用 2026 EPS 指引 $11-12 做情景锚定，同时约 3.9x EV/TTM sales 说明市场已经在资本化 power-scarcity premium。
 
@@ -156,7 +156,7 @@
 | 核电 PPA 合同化 | Meta 约 1.1GW 核电 PPA；Microsoft/Crane restart 目标 2027 | Microsoft/Meta 等 hyperscaler PPA 容量、价格和上线时间继续明确 | PPA 细节与上线进度 / PPA terms and delivery timing |
 | Crane/Three Mile Island 重启审批 | Crane Clean Energy Center 目标 2027 重启 | FERC/NRC/州层面审批、成本分摊或居民电价争议加速或延误 | 监管进度 / regulatory milestones |
 | PJM 容量价格 | PJM 已将数据中心容量采购节奏提前至 2026-09 | PJM 数据中心容量采购提前至 2026-09 后，容量价格明显上行或回落 | PJM 容量拍卖/采购结果 |
-| Calpine 整合、净债务与 capex 纪律 | Calpine 已于 2026-01-07 完成；Q1 净债务约 $21.7B，EV 约 $107B；**2026-10-14 Brazos Valley（606MW）出售已交割，交割稿未披露所得款，净债务影响待 Q3 10-Q；约 4.4GW PJM 资产出售预计 2026 年底前交割（2026-10-22 更新）** | Calpine 整合、核电延寿、重启或 uprate 投入导致净债务和 FCF 压力扩大 | 2026-Q2 整合、现金流与债务 / Q2 integration, cash flow and debt |
+| Calpine 整合、净债务与 capex 纪律 | Calpine 已于 2026-01-07 完成；Q1 净债务约 $21.7B，EV 约 $107B；**2026-10-14 Brazos Valley（606MW）出售已交割，交割稿未披露所得款，净债务影响待 Q3 10-Q；约 4.4GW PJM 资产出售预计 2026 年底前交割（2026-10-23 更新）** | Calpine 整合、核电延寿、重启或 uprate 投入导致净债务和 FCF 压力扩大 | 2026-Q2 整合、现金流与债务 / Q2 integration, cash flow and debt |
 | AI 电力估值溢价 | $263.56、约 $94.1B 市值、约 3.9x EV/TTM sales | AI capex 或数据中心建设预期下修，但 CEG 仍按高电力稀缺溢价交易 | AI capex 指引与电力股估值 / AI capex guides and power-equity multiples |
 
 未来 rerun 应由这些项目触发。只有当 monitoring update 改变链条 read-through 或估值容错率时，报告才需要实质更新。
@@ -180,7 +180,7 @@ Constellation Energy 的链条验证任务，是判断 AI 数据中心是否愿�
 
 ## 附录：来源与假设
 
-- Brazos Valley Energy Center（606MW，ERCOT）于 2026-10-14 完成出售给 LS Power、约 4.4GW PJM 资产出售预计 2026 年底前交割，参考 Constellation 交割稿：https://www.constellationenergy.com/news/2026/10/constellation-completes-sale-of-brazos-valley-energy-center-to-ls-power.html。仅用于 2026-10-22 Mode A 事实更新；交割稿未披露对价或所得款，未重算任何估值输入。
+- Brazos Valley Energy Center（606MW，ERCOT）于 2026-10-14 完成出售给 LS Power、约 4.4GW PJM 资产出售预计 2026 年底前交割，参考 Constellation 交割稿：https://www.constellationenergy.com/news/2026/10/constellation-completes-sale-of-brazos-valley-energy-center-to-ls-power.html。仅用于 2026-10-23 Mode A 事实更新；交割稿未披露对价或所得款，未重算任何估值输入。
 - 2026Q1 收入 $11.122B、EPS $2.74、核电发电量 44,666 GWh、2026 EPS 指引 $11-12、Crane/Three Mile Island restart 目标，参考 Investor's Business Daily 报道：https://www.investors.com/news/nuclear-stock-constellation-energy-affirms-goal-guidance-earnings-beat/。
 - Constellation 于 2026-01-07 完成 Calpine 收购、合并平台约 55GW、覆盖核电/天然气/地热等资产，参考 SEC 8-K press release exhibit：https://www.sec.gov/Archives/edgar/data/1868275/000110465926001780/tm2532248d1_ex99-1.htm。
 - 2026Q1 业绩已反映 Calpine 加入，Q1 operating revenue $11.122B、net income attributable to common shareholders $1.590B，参考 SEC Q1 2026 earnings release：https://www.sec.gov/Archives/edgar/data/1868275/000186827526000063/ceg-20260511991.htm。
