@@ -2959,5 +2959,28 @@
     "monitoringRefs": [
       "wdc-2026:gross-margin-trajectory"
     ]
+  },
+  {
+    "id": "nebius-citi-bridge-facility-2026-10-17",
+    "date": "2026-10-17",
+    "title": {
+      "zh": "Nebius 与花旗签署 35 亿美元高级担保过桥贷款（364 天，SOFR + 2.75% 起逐季上调至 3.50%）",
+      "en": "Nebius signs a US$3.5B senior secured bridge facility with Citi (364 days, SOFR + 2.75% stepping up to 3.50%)"
+    },
+    "detail": {
+      "zh": "据 Nebius 2026-10-22 提交的 Form 6-K 及附件 99.1 新闻稿（accession 0001104659-26-117978）：公司及两家子公司于 2026-10-17 与 Citibank, N.A. 签署 Bridge Facility Agreement，提供 35 亿美元高级担保定期贷款，用于 GPU 基础设施产能建设及一般公司用途；利率 Term SOFR 加 2.75% 起，自签署日起每 90 天上调 0.25%，最高 3.50%（可受其他调整影响）；2027-10-16 到期，可无溢价提前还款；含最低流动性财务契约，以各借款人几乎全部资产担保（排除资产与允许留置权除外）。新闻稿称其为分步融资的一环，并称仍可依托超过 400 亿美元长期合同的投资级客户承诺做资产支持融资。证据边界：未披露提款金额、费用或最低流动性水平；「超过 400 亿美元」是发行人对合同承诺的描述，不是已确认收入；公司仍未重述 2026 年资本开支「>90% 已锁定」比例；35 亿美元约为 $200-250 亿区间的 14%-18%。本条仅为 funding-durability 的报告级读数，维持 unclear；若提款后到期仍有未偿余额，则须在 2027-10-16 偿还或再融资。额度不是提款或已执行 capex。既有 neocloud-financing 的 if 明确要求 CoreWeave 的 backlog、capex、租赁与融资成本同时恶化；Nebius 本笔不满足该点名条件，故 crossChecks 留空。来源：https://www.sec.gov/Archives/edgar/data/1513845/000110465926117978/tm2628078d1_6k.htm；https://www.sec.gov/Archives/edgar/data/1513845/000110465926117978/tm2628078d1_ex99-1.htm",
+      "en": "Per Nebius's Form 6-K furnished 2026-10-22 and its Exhibit 99.1 press release (accession 0001104659-26-117978), on 2026-10-17 the company and two subsidiaries entered into a Bridge Facility Agreement with Citibank, N.A. providing a US$3.5B senior secured term loan for GPU infrastructure capacity build-out and general corporate purposes, priced at Term SOFR plus a margin starting at 2.75% and rising 0.25% every 90 days from signing to 3.50% (subject to other adjustments), maturing 2027-10-16, prepayable without premium, with a minimum-liquidity financial covenant and security over substantially all of each borrower's assets, subject to excluded assets and permitted liens. The release frames it as one step in a sequenced funding plan and says asset-backed financing based on more than $40B of investment-grade customer commitments under long-term contracts remains available. Evidence limits: drawdown, fees and the minimum-liquidity level are undisclosed; the more than $40B is the issuer's description of contracted commitments, not recognized revenue; the company still does not restate its \">90% secured\" 2026 capex coverage; US$3.5B is roughly 14%-18% of the US$20-25B range. This is a report-monitoring reading for funding-durability, still unclear; repayment or refinancing is required on 2027-10-16 only to the extent drawn and still outstanding. Facility size is not drawdown or executed capex. The existing neocloud-financing if-clause explicitly requires CoreWeave's backlog, capex, leases and financing cost to deteriorate together; this Nebius facility does not meet that named condition, so crossChecks is empty. Sources: https://www.sec.gov/Archives/edgar/data/1513845/000110465926117978/tm2628078d1_6k.htm; https://www.sec.gov/Archives/edgar/data/1513845/000110465926117978/tm2628078d1_ex99-1.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "NBIS"
+    ],
+    "reportIds": [
+      "nebius-2026"
+    ],
+    "monitoringRefs": [
+      "nebius-2026:funding-durability"
+    ],
+    "scope": "report-monitoring"
   }
 ]
