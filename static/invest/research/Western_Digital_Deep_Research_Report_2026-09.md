@@ -1,21 +1,23 @@
 # Western Digital (WDC) Deep Research Report
 
 Coverage date: 2026-09-23
-Last updated: 2026-09-23
+Last updated: 2026-10-23
 Ticker: NASDAQ: WDC
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
-Reported period: FY2026 Form 10-K (fiscal year ended 2026-07-03) / Q4 FY2026; price anchor: $448.17 close on 2026-09-21; stance: cautious / medium conviction. Financial data is taken from Western Digital's SEC filings unless stated otherwise.
+Reported period: ~~FY2026 Form 10-K (fiscal year ended 2026-07-03) / Q4 FY2026~~ Q1 FY2027 (quarter ended 2026-10-02; 2026-10-23 Mode A factual update, valuation still on the 2026-09-21 basis); price anchor: $448.17 close on 2026-09-21; stance: cautious / medium conviction. Financial data is taken from Western Digital's SEC filings unless stated otherwise.
 
 ---
 
 ## Executive Summary <!-- report-module:overview -->
+
+> **2026-10-23 factual update (Mode A; Q1 FY2027, quarter ended 2026-10-02; released 2026-10-22 after the US close):** revenue was **$4.381B** (+17% sequentially from $3.747B, +55% YoY from $2.818B), above the $4.1B +/- $100M guide. Non-GAAP gross margin was **58.1%** (GAAP 57.8%), above the 55% to 56% guide and up from 54.4% in Q4 FY2026; non-GAAP operating margin was 49.1% (GAAP 46.7%). Diluted EPS was **$4.64 non-GAAP** (guide $4.00 +/- $0.15) and $4.63 GAAP, on 384 million diluted weighted shares (guide about 388 million). Operating cash flow was $1.604B and free cash flow $1.38B (capital expenditure $227M); the quarter used $1.001B for repurchases, $570M to settle convertible-note transactions and $56M for dividends, and cash ended at $1.314B against $789M of current debt (2026-07-03: $1.579B and $1.052B). The quarterly dividend rises 17% to $0.175 per share (payable 2026-12-17 to holders of record on 2026-12-04). Q2 FY2027 guidance: revenue $5.1B +/- $100M (+66% to +72% YoY), non-GAAP gross margin 60% to 61%, operating expenses $400M to $410M, tax rate about 17%, and non-GAAP EPS $5.80 +/- $0.20 on about 380 million diluted shares. The release gives no exabyte, end-market or HAMR figures, and the Q1 FY2027 earnings presentation could not be retrieved in this pass, so the exabyte and revenue-per-exabyte readings stay on the 2026-08-05 basis. **Valuation boundary: the valuation remains anchored to the 2026-09-21 basis ($448.17; 365,194,516 floor-basis shares; $527M of net cash at 2026-07-03; 28.0x Q1 FY2027 guidance-annualized P/E). Q1 FY2027 actuals and the Q2 FY2027 guide change the run-rate denominators; the current price, the 2026-10-02 share count (10-Q not yet filed), cash and debt await Mode B recomputation, and stance and conviction were not re-adjudicated in this pass.** Sources: [8-K](https://www.sec.gov/Archives/edgar/data/106040/000162828026066882/wdc-20261022.htm); [Exhibit 99.1 earnings release](https://www.sec.gov/Archives/edgar/data/106040/000162828026066882/a4ex991-pressreleaseq127.htm).
 
 **One-line thesis:** WDC's AI storage cycle is a countable **volume** cycle rather than a price spike — FY2026 revenue grew 36% on exabytes shipped up 25% and ASP per exabyte up 8%, with capital expenditure at only 3.2% of revenue — but at the 2026-09-21 close of $448.17 the market already prices this nearline HDD supply curve at 28.0x guidance-annualized earnings, for a business that two fiscal years ago (FY2024) earned a 1.5% operating margin excluding litigation and realignment, and posted a $403M GAAP operating loss.
 
 **Investment judgment:**
 - **Stance:** cautious
 - **Confidence:** medium — operating momentum is verifiable and still accelerating; the negative skew comes from the exit-multiple assumption, and an exit multiple is an assumption, not an observation
-- **Key catalysts:** Q1 FY2027 results (expected October 2026, date not yet announced); the 2026-11-16 convertible redemption date; whether the 44TB HAMR drive ships on its stated first-half calendar 2027 schedule (earnings call)
+- **Key catalysts:** ~~Q1 FY2027 results (expected October 2026, date not yet announced)~~ Q1 FY2027 results released 2026-10-22 (see the 2026-10-23 update above); Q2 FY2027 results (date not yet announced); the 2026-11-16 convertible redemption date; whether the 44TB HAMR drive ships on its stated first-half calendar 2027 schedule (earnings call)
 - **Monitoring window:** 12-18 months (one full nearline HDD supply-demand cycle)
 
 ### Key data (anchored on the 2026-09-21 close)
@@ -301,6 +303,8 @@ The unknowns, each with the point at which it can be confirmed:
 
 ## 8. Valuation Context <!-- report-module:valuation -->
 
+> **Valuation boundary (2026-10-23, Mode A):** Section 8 remains anchored to the 2026-09-21 basis ($448.17; 365,194,516 floor-basis shares; $527M of net cash at 2026-07-03). The Q1 FY2027 actuals (non-GAAP EPS $4.64) and Q2 FY2027 guide (non-GAAP EPS $5.80 +/- $0.20) change the run-rate denominators used below; the current price, share count, cash and debt await Mode B recomputation. The multiples below are not a valuation at the current market price.
+
 Valuation uses the **2026-09-21 close of $448.17** (US markets were inside the 2026-09-22 session when this report was finalized, so the anchor is the most recent completed close; no company earnings event falls between the anchor date and the finalization date) and the floor share count of **365,194,516**.
 
 ### Multiples
@@ -356,7 +360,7 @@ That spread has a logic: the market is saying NAND's 84.6% gross margin is an un
 
 | Catalyst | Timing | Impact |
 |---|---|---|
-| Q1 FY2027 results | October 2026 (date not announced; inferred from Q1 FY2026 reported on 2025-10-30) | First test of the 55% to 56% gross-margin guide, the $4.1B revenue guide and the 388 million share guide |
+| Q1 FY2027 results | ~~October 2026 (date not announced; inferred from Q1 FY2026 reported on 2025-10-30)~~ Released 2026-10-22 after the US close (2026-10-23 update) | First test of the 55% to 56% gross-margin guide, the $4.1B revenue guide and the 388 million share guide |
 | 2028 convertible redemption date | 2026-11-16 | Permanently closes the dilution source and fixes the final share count |
 | Q2 FY2027 results | January 2027 (inferred) | A second quarter of nearline exabyte and revenue-per-exabyte readings, separating pre-building from steady-state demand |
 | Seagate Q1/Q2 FY2027 results | October 2026 / January 2027 (inferred) | Same-medium comparison: whether the duopoly stays in lockstep and whether HAMR share starts to move |
@@ -370,7 +374,7 @@ That spread has a logic: the market is saying NAND's 84.6% gross margin is an un
 |---|---|---|---|
 | Nearline exabytes shipped | Q4 FY2026 209 EB (Q4 FY2025 170 EB, up 22.9% Y/Y and 5.0% Q/Q); FY2026 total 783 EB, 89.8% of all exabytes | Nearline exabytes decline sequentially for two consecutive quarters, or full-year FY2027 nearline growth falls below 10% | The exabytes chart in the Q1 FY2027 earnings presentation |
 | Implied blended revenue per exabyte | Q4 FY2026 $16.22M per EB (Q4 FY2025 $13.71M, up 18.3% Y/Y); FY2026 full year $14.82M; the 10-K reports FY2026 ASP per exabyte up 8% | Two consecutive quarters below $15.0M per EB | Q1 FY2027 revenue divided by exabytes shipped |
-| Non-GAAP gross margin | Q4 FY2026 actual 54.4% (Q3 50.5%, Q4 FY2025 41.3%); Q1 FY2027 guided 55% to 56% | Q1 FY2027 actual below the 55% floor of guidance, or two consecutive sequential declines | The Q1 FY2027 earnings release |
+| Non-GAAP gross margin | ~~Q4 FY2026 actual 54.4% (Q3 50.5%, Q4 FY2025 41.3%); Q1 FY2027 guided 55% to 56%~~ **Q1 FY2027 actual 58.1% (GAAP 57.8%), above the 55% to 56% guide and up sequentially from 54.4% in Q4 FY2026; Q2 FY2027 guided 60% to 61% (reading: within, as of 2026-10-22)** | Q1 FY2027 actual below the 55% floor of guidance, or two consecutive sequential declines | The Q2 FY2027 earnings release (release date not yet issuer-announced) |
 | Cloud and customer concentration | FY2026 Cloud was 89% of revenue ($11.490B); three customers at 16% / 15% / 13% and the top ten at 73% (FY2024: top ten 55%, no customer above 10%) | Any of the three 10%-plus customers falls below 10% with no replacement, or the top ten rise above 80% | The customer-concentration disclosure in the FY2027 Form 10-K |
 | Contract visibility (remaining performance obligations) | 10-K wording: at 2026-07-03 and 2025-06-27 the transaction prices allocated to remaining performance obligations were "not material"; sandisk-2026 disclosed $59.8B of NBM remaining performance obligations in the same period | Any filing first disclosing material remaining performance obligations, or an MD&A quantifying the exabytes and tenor covered by the long-term agreements (this is an upgrade trigger) | The revenue-recognition note in the Q1 FY2027 10-Q |
 | HAMR transition progress | Filings give no date (the 10-K places HAMR on a multi-year roadmap and in the technology-transition risk factor); the 2026-08-05 call (third-party transcript) gives 44TB HAMR shipments in 1H CY2027 and 50TB in 2H CY2027; 40TB ePMR entering volume with two customers. Seagate: 44TB-class Mozaic 4 shipping since the March 2026 quarter, HAMR about 40% of nearline exabytes exiting FY2026 | 44TB HAMR not shipped or customer qualification failing in 1H CY2027, or 50TB pushed beyond calendar 2027 | Each earnings call through mid-2027 |
@@ -396,6 +400,7 @@ This is a very good business at a very expensive price. The separation is comple
 
 ### Primary sources
 
+- [Western Digital Q1 FY2027 earnings release (8-K Exhibit 99.1)](https://www.sec.gov/Archives/edgar/data/106040/000162828026066882/a4ex991-pressreleaseq127.htm), filed 2026-10-22 for the quarter ended 2026-10-02 (revenue, GAAP / non-GAAP margins and EPS, cash flow, balance sheet, dividend and Q2 FY2027 guidance). Used for the 2026-10-23 Mode A factual update only; no valuation input was recomputed. The Q1 FY2027 earnings presentation was not retrieved in this pass.
 - [Western Digital FY2026 Form 10-K](https://www.sec.gov/Archives/edgar/data/106040/000162828026057139/wdc-20260703.htm), filed 2026-08-14 for the fiscal year ended 2026-07-03.
 - [Western Digital Q4 FY2026 earnings release (8-K Exhibit 99.1)](https://www.sec.gov/Archives/edgar/data/106040/000162828026053305/a4ex991-pressreleaseq426.htm), filed 2026-08-05.
 - [Western Digital Q4 FY2026 earnings presentation](https://investor.wdc.com/static-files/e1f02f77-4432-42c3-8bd4-024371f40e54), 2026-08-05 (the only source for exabytes shipped and quarterly business metrics).

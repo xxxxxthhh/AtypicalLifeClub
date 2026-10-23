@@ -2936,5 +2936,28 @@
     "monitoringRefs": [
       "constellation-energy-2026:debt-capex-discipline"
     ]
+  },
+  {
+    "id": "wdc-q1-fy2027-gross-margin-20261022",
+    "date": "2026-10-22",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Western Digital Q1 FY2027 非 GAAP 毛利率 58.1%，高于 55%–56% 指引；Q2 FY2027 毛利率指引 60%–61%",
+      "en": "Western Digital Q1 FY2027 non-GAAP gross margin 58.1%, above the 55% to 56% guide; Q2 FY2027 guide 60% to 61%"
+    },
+    "detail": {
+      "zh": "发行人 2026-10-22 业绩稿（8-K Item 2.02，Exhibit 99.1）：截至 2026-10-02 的 Q1 FY2027 收入 $43.81 亿（同比 +55%、环比 +17%），高于 $41 亿 ± $1 亿指引；非 GAAP 毛利率 58.1%（GAAP 57.8%），高于 55%–56% 指引，Q4 FY2026 为 54.4%；非 GAAP EPS $4.64（指引 $4.00 ± $0.15）；经营现金流 $16.04 亿、自由现金流 $13.8 亿、回购 $10.01 亿；季度股息上调 17% 至 $0.175。Q2 FY2027 指引：收入 $51 亿 ± $1 亿、非 GAAP 毛利率 60%–61%、EPS $5.80 ± $0.20、摊薄股数约 3.80 亿。挂 gross-margin-trajectory：该项触发条件点名 Q1 FY2027 实际非 GAAP 毛利率对 55% 指引下沿，本条即该读数，评 within（readingAsOf 2026-10-22）。证据边界：业绩稿未给出 EB 出货、终端市场或 HAMR 数据，本轮未取得业绩演示，近线 EB 与每 EB 收入两项未更新；不挂任何 crossCheck（单公司季度读数）；估值仍按 2026-09-21 旧口径（$448.17），当前估值待 Mode B。来源：https://www.sec.gov/Archives/edgar/data/106040/000162828026066882/a4ex991-pressreleaseq127.htm",
+      "en": "Per the issuer's 2026-10-22 earnings release (8-K Item 2.02, Exhibit 99.1), Q1 FY2027 revenue for the quarter ended 2026-10-02 was $4.381B (+55% YoY, +17% sequentially), above the $4.1B +/- $100M guide; non-GAAP gross margin was 58.1% (GAAP 57.8%), above the 55% to 56% guide and up from 54.4% in Q4 FY2026; non-GAAP EPS was $4.64 (guide $4.00 +/- $0.15); operating cash flow was $1.604B, free cash flow $1.38B and repurchases $1.001B; the quarterly dividend rises 17% to $0.175. Q2 FY2027 guidance: revenue $5.1B +/- $100M, non-GAAP gross margin 60% to 61%, EPS $5.80 +/- $0.20 on about 380 million diluted shares. Attached to gross-margin-trajectory because that item's trigger names the Q1 FY2027 actual non-GAAP gross margin against the 55% guide floor and this is that reading, graded within (readingAsOf 2026-10-22). Evidence limits: the release gives no exabyte, end-market or HAMR figures and the earnings presentation was not retrieved, so the nearline-exabyte and revenue-per-exabyte items were not updated; no crossCheck is attached (single-company quarterly reading); valuation stays on the 2026-09-21 basis ($448.17), with current valuation pending Mode B. Source: https://www.sec.gov/Archives/edgar/data/106040/000162828026066882/a4ex991-pressreleaseq127.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "WDC"
+    ],
+    "reportIds": [
+      "wdc-2026"
+    ],
+    "monitoringRefs": [
+      "wdc-2026:gross-margin-trajectory"
+    ]
   }
 ]

@@ -6,6 +6,13 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>Western Digital 深度研究报告 - 可计数的位元周期与不可计数的可见度 / Western Digital Deep Research Report - A Countable Bit Cycle and Uncountable Visibility</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=wdc-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=wdc-2026#wdc-2026@2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <description>2026-10-23 更新（Mode A 事实增量，无估值重锚）：Q1 FY2027（截至 2026-10-02）收入 $43.81 亿（同比 +55%、环比 +17%），非 GAAP 毛利率 58.1%（高于 55%–56% 指引），非 GAAP EPS $4.64（指引 $4.00 ± $0.15），自由现金流 $13.8 亿，季度股息上调 17% 至 $0.175；Q2 FY2027 指引收入 $51 亿 ± $1 亿、非 GAAP 毛利率 60%–61%、EPS $5.80 ± $0.20。业绩稿无 EB 数据，EB 相关读数仍为 2026-08-05 口径；估值仍按 2026-09-21 锚定的旧口径（$448.17、指引年化 P/E 28.0x），运行率分母、当前股价与 2026-10-02 股本待 Mode B 重算，本次未重新裁定立场。2026-09-23 首次覆盖，锚定 2026-09-21 收盘 $448.17。以下限口径 365,194,516 股（10-K 封面 2026-08-07 的 360,540,944 股 ＋ 8-K/A 披露的 4,653,572 股交换股）计市值 $1,636.7 亿，扣 2026-07-03 净现金 $5.27 亿后企业价值 $1,631.4 亿，对应 FY2026 EV/Sales 12.63x、非 GAAP P/E 43.85x、FCF 收益率 2.15%，Q1 FY2027 指引年化 P/E 28.0x。核心发现：这一轮 AI 存储周期在 HDD 这一腿是可计数的位元周期——FY2026 收入 $129.19 亿（+36%）＝ EB 出货 +25% × 每 EB ASP +8%，Cloud（占收入 89%）为 EB +27% × ASP/EB +8%；而配对的 sandisk-2026 一手证据是 Q4 环比增长「约三分之一来自出货量、三分之二来自价格」。但可见度不可计数：10-K 称剩余履约义务「并不重大」，同期 sandisk-2026 披露 $598 亿 NBM 剩余履约义务；长期协议按「预定或公式化价格」同时锁住上行与下行，且未被量化。周期振幅是真实的：对称剔除诉讼与重整后，同一业务 FY2024 营业利润仅 $0.97 亿（1.5%，GAAP 口径为亏损 $4.03 亿 / -6.4%）、FY2026 为 $45.99 亿（35.6%），24 个月内 34.1 个百分点。股本方面，$16.00 亿 3.00% 可转债（转股价 $37.72、capped call 上限 $50.40 已失效）在 FY2026 交出 21.3 百万股，以约 $176 均价回购 14.7 百万股 / $25.92 亿仍未阻止加权股数由 3.59 亿升至 3.83 亿；剩余 $1.09505 亿本金已公告于 2026-11-16 赎回。情景网格 20/50/30 加权每股价值 $321.54，2.77 年年化 -11.2%，低于 8%–10% 要求回报 19.2–21.2 个百分点；退出倍数整体上调 4 倍仍为 -4.1%，再叠加更高收入与毛利率路径也只有 +2.0%。牛市情景本身交付 +11.8% 年化，因此立场谨慎 / 中确信，而非 bearish-avoid。</description>
+    </item>
+    <item>
       <title>Lam Research 深度研究报告 - AI 内存与先进逻辑的刻蚀/沉积校验 / Lam Research Deep Research Report - Etch And Deposition Check On AI Memory And Advanced Logic</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=lam-research-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=lam-research-2026#lam-research-2026@2026-10-22</guid>
@@ -151,13 +158,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=oracle-2026#oracle-2026@2026-09-24</guid>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <description>2026-09-24 监测更新：FY2027 Q1（截至 2026-08-31）收入 $19.35B（+30%）、OCI 收入 $7.39B（+121%）、RPO $664B（环比 +$26B；按 10-Q 约 13% 在 12 个月内、37% 在第 13-36 个月确认），FY2027 指引上调至收入不低于 $90B、非 GAAP EPS $8.10，capex 维持 $90-95B（电话会转写）。经营现金流 $23.10B 中含 $11.36B 具重大融资成分的客户预付款，Q1 自由现金流 −$5.40B、近四季 −$28.72B；$20B ATM 已在 Q1 全部完成（约 1.41 亿股）。负面：S&amp;P 于 2026-07-09 降至 BBB-；毛利率下滑；2026-09-24 据 Bloomberg，Oracle 对 2.45GW 的 Project Jupiter 发出不可抗力通知，燃料管道两次被州土地办公室否决后推迟到 2027-02-01。按 2026-09-23 收盘 $144.56：市值约 $437B、notes payable 口径净债务约 $88.3B、EV 约 $525B，约 7.3x EV/TTM 收入、约 22.8x EV/TTM GAAP 营业利润、约 17.8x FY2027 EPS 指引。20/40/40 网格加权每股 $164.60，年化 +4.8%，低于 8% 门槛，立场维持谨慎 / 中确信；若权重改为 30/40/30 即越过门槛，结论对权重敏感。</description>
-    </item>
-    <item>
-      <title>Western Digital 深度研究报告 - 可计数的位元周期与不可计数的可见度 / Western Digital Deep Research Report - A Countable Bit Cycle and Uncountable Visibility</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=wdc-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=wdc-2026#wdc-2026@2026-09-23</guid>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
-      <description>2026-09-23 首次覆盖，锚定 2026-09-21 收盘 $448.17。以下限口径 365,194,516 股（10-K 封面 2026-08-07 的 360,540,944 股 ＋ 8-K/A 披露的 4,653,572 股交换股）计市值 $1,636.7 亿，扣 2026-07-03 净现金 $5.27 亿后企业价值 $1,631.4 亿，对应 FY2026 EV/Sales 12.63x、非 GAAP P/E 43.85x、FCF 收益率 2.15%，Q1 FY2027 指引年化 P/E 28.0x。核心发现：这一轮 AI 存储周期在 HDD 这一腿是可计数的位元周期——FY2026 收入 $129.19 亿（+36%）＝ EB 出货 +25% × 每 EB ASP +8%，Cloud（占收入 89%）为 EB +27% × ASP/EB +8%；而配对的 sandisk-2026 一手证据是 Q4 环比增长「约三分之一来自出货量、三分之二来自价格」。但可见度不可计数：10-K 称剩余履约义务「并不重大」，同期 sandisk-2026 披露 $598 亿 NBM 剩余履约义务；长期协议按「预定或公式化价格」同时锁住上行与下行，且未被量化。周期振幅是真实的：对称剔除诉讼与重整后，同一业务 FY2024 营业利润仅 $0.97 亿（1.5%，GAAP 口径为亏损 $4.03 亿 / -6.4%）、FY2026 为 $45.99 亿（35.6%），24 个月内 34.1 个百分点。股本方面，$16.00 亿 3.00% 可转债（转股价 $37.72、capped call 上限 $50.40 已失效）在 FY2026 交出 21.3 百万股，以约 $176 均价回购 14.7 百万股 / $25.92 亿仍未阻止加权股数由 3.59 亿升至 3.83 亿；剩余 $1.09505 亿本金已公告于 2026-11-16 赎回。情景网格 20/50/30 加权每股价值 $321.54，2.77 年年化 -11.2%，低于 8%–10% 要求回报 19.2–21.2 个百分点；退出倍数整体上调 4 倍仍为 -4.1%，再叠加更高收入与毛利率路径也只有 +2.0%。牛市情景本身交付 +11.8% 年化，因此立场谨慎 / 中确信，而非 bearish-avoid。</description>
     </item>
     <item>
       <title>Seagate 深度研究报告 - 先定价、后兑现的 HAMR 领先 / Seagate Deep Research Report - A HAMR Lead Priced Before It Pays</title>
