@@ -1,34 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T22:16:09Z",
+  "generatedAt": "2026-10-24T22:14:39Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-10-23T22:16:09Z"
+    "value": "2026-10-24T22:14:39Z"
   },
-  "tasks": [
-    {
-      "id": "earnings:bloom-energy-2026:2026-10-22:T+1",
-      "reportId": "bloom-energy-2026",
-      "type": "research-update",
-      "window": "T+1",
-      "expectedDate": "2026-10-22",
-      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
-    },
-    {
-      "id": "earnings:spotify-2026:2026-10-22:T+1",
-      "reportId": "spotify-2026",
-      "type": "research-update",
-      "window": "T+1",
-      "expectedDate": "2026-10-22",
-      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
-    },
-    {
-      "id": "earnings:wdc-2026:2026-10-22:T+1",
-      "reportId": "wdc-2026",
-      "type": "research-update",
-      "window": "T+1",
-      "expectedDate": "2026-10-22",
-      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
-    }
-  ]
+  "tasks": []
 }
