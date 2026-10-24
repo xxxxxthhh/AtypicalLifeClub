@@ -408,13 +408,14 @@
     {
       "reportId": "oklo-2026",
       "company": "Oklo Inc.",
-      "expectedDate": null,
-      "precision": "unknown",
-      "status": "unknown",
-      "session": "not-applicable",
-      "sourceUrl": null,
-      "sourceType": "none",
-      "verifiedAt": "2026-08-19"
+      "expectedDate": "2026-11-06",
+      "precision": "day",
+      "status": "issuer-confirmed",
+      "session": "before-open",
+      "sourceUrl": "https://www.oklo.com/newsroom/oklo-announces-date-for-third-quarter-2026-financial-results-and-business-update-call",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-10-24",
+      "fiscalPeriod": "Q3 2026"
     },
     {
       "reportId": "broadcom-2026",
