@@ -1,9 +1,74 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T22:14:39Z",
+  "generatedAt": "2026-10-25T22:14:21Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-10-24T22:14:39Z"
+    "value": "2026-10-25T22:14:21Z"
   },
-  "tasks": []
+  "tasks": [
+    {
+      "id": "earnings:amkr-2026:2026-10-26:T-1",
+      "reportId": "amkr-2026",
+      "type": "research-update",
+      "window": "T-1",
+      "expectedDate": "2026-10-26",
+      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
+    },
+    {
+      "id": "earnings:ase-technology-2026:2026-10-29:complete-date",
+      "reportId": "ase-technology-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-10-29",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:cadence-2026:call-2026-10-26:T-1",
+      "reportId": "cadence-2026",
+      "type": "research-update",
+      "window": "T-1",
+      "expectedDate": "2026-10-26",
+      "reason": "Issuer-confirmed earnings call window (release time unconfirmed); first verify actual release filing/press release, then update the research package."
+    },
+    {
+      "id": "earnings:innolight-2026:2026-10:complete-date",
+      "reportId": "innolight-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-10",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:jinpan-2026:2026-10-14:stale",
+      "reportId": "jinpan-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-14",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:minimax-2026:2027-03:complete-date",
+      "reportId": "minimax-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2027-03",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:sk-hynix-2026:2026-10-27:verify",
+      "reportId": "sk-hynix-2026",
+      "type": "source-verification",
+      "window": "verify",
+      "expectedDate": "2026-10-27",
+      "reason": "Confirm the recorded date on issuer IR."
+    },
+    {
+      "id": "earnings:tsmc-2026:2026-10-15:stale",
+      "reportId": "tsmc-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-15",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    }
+  ]
 }
