@@ -18,13 +18,13 @@
       "reportId": "asml-2026",
       "company": "ASML Holding",
       "timezone": "Europe/Amsterdam",
-      "expectedDate": "2026-10-14",
+      "expectedDate": "2027-01-27",
       "precision": "day",
-      "status": "stale",
+      "status": "estimated",
       "session": "unspecified",
-      "sourceUrl": "https://www.asml.com/en/investors/financial-calendar",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026048235/statutoryinterimreport20.htm",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-10-19"
+      "verifiedAt": "2026-10-26"
     },
     {
       "reportId": "applied-materials-2026",
