@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-26",
+  "asOf": "2026-10-27",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -318,13 +318,13 @@
     {
       "reportId": "amzn-2026",
       "company": "Amazon",
-      "expectedDate": "2026-10-22",
+      "expectedDate": "2026-10-29",
       "precision": "day",
       "status": "estimated",
       "session": "unspecified",
-      "sourceUrl": "https://www.tipranks.com/stocks/amzn/earnings",
+      "sourceUrl": "https://www.aboutamazon.com/news/company-news/amazon-q3-2026-earnings-preview",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-09-08",
+      "verifiedAt": "2026-10-27",
       "fiscalPeriod": "Q3 2026",
       "call": {
         "eventType": "call",
@@ -506,7 +506,18 @@
       "session": "unspecified",
       "sourceUrl": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call-2026-8tpGZsLS6v/default.aspx",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-10-08"
+      "verifiedAt": "2026-10-08",
+      "call": {
+        "eventType": "call",
+        "timezone": "America/New_York",
+        "expectedDate": "2026-10-28",
+        "localTime": "16:30",
+        "precision": "day",
+        "status": "issuer-confirmed",
+        "sourceUrl": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call-2026-8tpGZsLS6v/default.aspx",
+        "sourceType": "issuer-ir",
+        "verifiedAt": "2026-10-27"
+      }
     },
     {
       "reportId": "microsoft-2026",
