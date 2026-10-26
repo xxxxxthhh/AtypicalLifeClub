@@ -386,13 +386,13 @@
       "reportId": "jinpan-2026",
       "company": "金盘科技",
       "timezone": "Asia/Shanghai",
-      "expectedDate": "2026-10-14",
-      "precision": "day",
-      "status": "stale",
-      "session": "unspecified",
-      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-10-09/1225596411.PDF",
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-10-19"
+      "expectedDate": null,
+      "precision": "unknown",
+      "status": "unknown",
+      "session": "not-applicable",
+      "sourceUrl": null,
+      "sourceType": "none",
+      "verifiedAt": "2026-10-26"
     },
     {
       "reportId": "paypal-2026",
