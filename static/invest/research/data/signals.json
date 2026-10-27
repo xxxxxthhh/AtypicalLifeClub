@@ -3009,5 +3009,32 @@
       "cadence-2026:ip-hbm-serdes-growth",
       "cadence-2026:hexagon-physical-ai"
     ]
+  },
+  {
+    "id": "amkor-q3-2026-results-20261026",
+    "date": "2026-10-26",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Amkor Q3 2026 收入 $1,990.6M（同比 +0.2%）、毛利率 18.3% 低于指引区间；FY2026 资本开支指引降至约 $25 亿",
+      "en": "Amkor Q3 2026 revenue $1,990.6M (+0.2% YoY), gross margin 18.3% below its guide range; FY2026 capex guide cut to about $2.5B"
+    },
+    "detail": {
+      "zh": "据 Amkor 2026-10-26 Q3 2026 业绩稿（8-K Item 2.02，Exhibit 99.1，https://www.sec.gov/Archives/edgar/data/1047127/000104712726000049/amkr9302026erex-991.htm）：季度截至 2026-09-30 收入 $1,990.557M（同比 +0.2%、环比 +4.9%，在 $19.5-20.5 亿指引内），毛利率 18.3%（低于 18.5-19.5% 指引区间；Q2 16.8%），经营利润 $224.711M（11.3%），归母净利 $190.613M、摊薄 EPS $0.76，EBITDA $435M；先进产品收入 $1,632M（2025 Q3 $1,684M），前十大客户 66%；终端市场通信 37%、计算 26%、汽车工业 22%、消费 15%。Q4 指引收入 $19-20 亿、毛利率 18.0-19.0%、EPS $0.65-0.75；FY2026 资本开支指引更新为约 $25 亿（原 $25-30 亿）。本轮读数：revenue-growth-inflection within、gross-margin-and-utilization unclear、customer-concentration-apple unclear、computing-vs-communications-mix unclear（通信只是第一个下滑季度，计算 30% 腿期限未到）、capex-and-free-cash-flow unclear（下半年现金资本开支腿须待 Q4 实绩；按约 $25 亿指引隐含下半年约 $18.1 亿，恰在原隐含区间下沿，自算）。证据边界：仅读业绩稿，未读 Q3 电话会与演示稿，故稼动率、亚利桑那进度、预付款与封装产能评论未更新；业绩稿未披露 AI 或 2.5D 封装收入，本条不挂 advanced-packaging-ownership。估值仍为 2026-07-30 历史基础，当前估值待 Mode B。 本季稼动率与Apple占比未披露，未知腿不判within；净债务与杠杆输入已排除，留待Mode B。",
+      "en": "Per Amkor's Q3 2026 results of October 26, 2026 (8-K Item 2.02, Exhibit 99.1, https://www.sec.gov/Archives/edgar/data/1047127/000104712726000049/amkr9302026erex-991.htm): revenue for the quarter ended 2026-09-30 was $1,990.557M (+0.2% YoY, +4.9% QoQ, inside the $1.95-2.05B guide), gross margin 18.3% (below the 18.5-19.5% guide range; Q2 16.8%), operating income $224.711M (11.3%), net income attributable $190.613M, diluted EPS $0.76 and EBITDA $435M; advanced-products revenue was $1,632M (Q3 2025: $1,684M) and the top ten customers were 66%; end markets were communications 37%, computing 26%, automotive-industrial 22% and consumer 15%. The Q4 guide is $1.9-2.0B revenue, 18.0-19.0% gross margin and $0.65-0.75 EPS; FY2026 capex guidance was updated to approximately $2.5B (previously $2.5-3.0B). Readings this pass: revenue-growth-inflection within, gross-margin-and-utilization unclear, customer-concentration-apple unclear, computing-vs-communications-mix unclear (communications has only its first down quarter and the computing 30% deadline has not arrived), capex-and-free-cash-flow unclear (the H2 cash-capex leg needs Q4 actuals; the ~$2.5B guide implies about $1.81B for H2, the low end of the previously implied range, our arithmetic). Evidence limits: only the release was read, not the Q3 call or deck, so utilization, Arizona progress, prepayments and packaging-capacity commentary are not updated; the release does not disclose AI or 2.5D packaging revenue, so this entry is not attached to advanced-packaging-ownership. Valuation retains the historical 2026-07-30 basis, with current valuation pending Mode B. Current utilization and Apple share are undisclosed; unknown legs are not graded within. Net debt and leverage inputs are excluded pending Mode B."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "AMKR"
+    ],
+    "reportIds": [
+      "amkr-2026"
+    ],
+    "monitoringRefs": [
+      "amkr-2026:revenue-growth-inflection",
+      "amkr-2026:gross-margin-and-utilization",
+      "amkr-2026:capex-and-free-cash-flow",
+      "amkr-2026:customer-concentration-apple",
+      "amkr-2026:computing-vs-communications-mix"
+    ]
   }
 ]
