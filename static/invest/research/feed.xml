@@ -6,6 +6,13 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>Cadence Design Systems 深度研究报告 - AI 设计复杂度的 EDA/IP backlog 仪表盘 / Cadence Design Systems Deep Research Report - EDA/IP Backlog Dashboard For AI Design Complexity</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=cadence-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=cadence-2026#cadence-2026@2026-10-27</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+      <description>2026-10-27更新（Mode A事实增量，无估值重锚）：2026-10-26发布的2026Q3营收$1.633B（同比+22%，高于$1.595-1.625B的Q3指引上沿）、non-GAAP营业利润率44.1%、non-GAAP EPS $2.11；季度末backlog $8.2B（公司口径record，Q2为$8.1B），未来12个月预计从RPO确认收入$4.2B（与Q2持平）；Core EDA／Semiconductor IP／System Design &amp; Analysis收入同比+20%／+24%／+30%；FY2026指引再上修至营收$6.387-6.417B（约+21%）、non-GAAP EPS $8.37-8.43。估值仍锚定2026-07-30历史基础，当前价格、股本、现金债务与财务分母待Mode B重算；本次未重新裁定立场。</description>
+    </item>
+    <item>
       <title>Western Digital 深度研究报告 - 可计数的位元周期与不可计数的可见度 / Western Digital Deep Research Report - A Countable Bit Cycle and Uncountable Visibility</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=wdc-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=wdc-2026#wdc-2026@2026-10-23</guid>
@@ -410,13 +417,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=eqix-2026#eqix-2026@2026-07-31</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
       <description>2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30）：收入 $2.625B（同比 +16%，包含一次性 xScale fees）、recurring revenue $2.377B（MRR 同比 +11%）、AFFO $1.168B（+20%）、AFFO/share $11.78（+19%）；Q2 新增 interconnections 创纪录 9,700 个、annualized gross bookings $424M（+23%）。管理层上调 FY2026 指引与长期展望。互联、bookings 与 MRR 同向走强，facility-interconnection-leasing 证伪条件未触发；这些指标与网络密集部署一致，但公司未将其具体归因于 AI，不能作为 AI 因果证明。下文 $1,047.53（2026-07-30 收盘）为重新锚定后的估值基准。AI 基础设施 datacenter-facility 层的 DLR 对照组：EQIX 用 Platform Equinix interconnection、retail colocation、xScale JV 和 AFFO/share 来验证 AI 需求是否不只是 hyperscale shell leasing。2026Q1 收入 $2.444B（reported YoY +10%）、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；MRR 同比 +12% reported / +10% normalized constant currency，annualized gross bookings $378M，annualized presales 约 $140M，largest deals 约 60% AI-related。2025 年报披露 280 个数据中心、10,500+ 客户、507,000+ interconnections，Q1 2026 interconnection revenue $446M。当前 $1,047.53（2026-07-02）、市值约 $103.3B、EV 约 $125.3B，约 24.4x 2026 AFFO/share 指引中点、约 12.2x 2026 revenue 指引。中性观察 / 中确信：质量高但估值高，关键监控是 interconnection revenue、AI bookings/presales、xScale economics、MRR/cabinet yield 与 power availability。</description>
-    </item>
-    <item>
-      <title>Cadence Design Systems 深度研究报告 - AI 设计复杂度的 EDA/IP backlog 仪表盘 / Cadence Design Systems Deep Research Report - EDA/IP Backlog Dashboard For AI Design Complexity</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=cadence-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=cadence-2026#cadence-2026@2026-07-31</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施 eda-ip 层的 backlog / execution 仪表盘：CDNS 验证 AI demand 是否出现在 design automation、IP、simulation、backlog、RPO 和 agentic design workflows。2026Q2 财报（2026-07-27）：revenue $1.584B（同比 +24%）、non-GAAP operating margin 45.5%、non-GAAP EPS $2.11；季度末 backlog $8.1B（公司口径 record），未来 12 个月预计从 RPO 确认收入 $4.2B；Core EDA / Semiconductor IP / System Design &amp; Analysis 收入分别同比 +18% / 超过 +40% / +37%。管理层把 FY2026 指引上修至 revenue $6.26-6.34B（约 +19% YoY）、non-GAAP EPS $8.05-8.15、operating cash flow 约 $2B。2026-07-31 完成此前推迟的估值复核：以 2026-07-30 收盘 $332.82 计，市值约 $91.8B、EV 约 $93.4B，对照上修后指引约 14.8x EV/sales、约 41.1x non-GAAP P/E。倍数被价格下行与分母上行同时消化，立场由谨慎调整为 neutral-watch / 中确信。</description>
     </item>
     <item>
       <title>ASML 深度研究报告 - EUV / High-NA 作为设备层公共约束 / ASML Deep Research Report - EUV / High-NA as the Equipment-Layer Common Constraint</title>

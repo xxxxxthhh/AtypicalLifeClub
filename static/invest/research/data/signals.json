@@ -2982,5 +2982,32 @@
       "nebius-2026:funding-durability"
     ],
     "scope": "report-monitoring"
+  },
+  {
+    "id": "cadence-q3-2026-eda-backlog-guidance",
+    "date": "2026-10-26",
+    "title": {
+      "zh": "Cadence Q3 2026：backlog 创纪录 $8.2B、next-12-month RPO $4.2B 持平，FY2026 指引第三次上修",
+      "en": "Cadence Q3 2026: record $8.2B backlog with next-12-month RPO flat at $4.2B, FY2026 guidance raised a third time"
+    },
+    "detail": {
+      "zh": "据 Cadence 2026-10-26 Q3 2026 财报（8-K Item 2.02，Exhibit 99.01 https://www.sec.gov/Archives/edgar/data/813672/000081367226000116/cdns10262026ex9901.htm；CFO commentary Exhibit 99.02 https://www.sec.gov/Archives/edgar/data/813672/000081367226000116/cfocommentary10262026ex9902.htm）：Q3 revenue $1.633B（同比 +22%，2025 Q3 为 $1.339B），高于 $1.595-1.625B 指引上沿；GAAP 营业利润率 26.2%（2025 Q3 31.8%）、non-GAAP 营业利润率 44.1%（2025 Q3 47.6%）、GAAP／non-GAAP 摊薄 EPS $1.05／$2.11。季度末 backlog 为公司口径 record $8.2B（Q2 $8.1B），未来 12 个月预计从 remaining performance obligations 确认收入 $4.2B（与 Q2 持平）。Core EDA／Semiconductor IP／System Design & Analysis 收入同比 +20%／+24%／+30%；IP 增长归因于 Star IP 在 interface、memory、foundation IP 的需求及与 hyperscaler、半导体公司和晶圆厂的合作；AI Super Agents 逾 100 个 active customer engagements，发布 Maestro 模型组合。FY2026 指引上修至 revenue $6.387-6.417B（约 +21%）、non-GAAP EPS $8.37-8.43、operating cash flow 约 $2.0B；Q4 指引 revenue $1.695-1.725B。本轮读数：backlog-rpo-conversion within、ip-hbm-serdes-growth unclear、agentic-design-workflow unclear（engagement 是计数不是收入）、hexagon-physical-ai unclear（合并口径 non-GAAP 利润率同比下行、acquired intangibles 摊销占收入 1.9%→4.9%，但公司未归因于 Hexagon D&E）。本条仅为semicap-eda-capex-commitment的EDA/IP backlog腿提供证据；本次未独立重核下游capex，不判整条规则得到确认或未背离。backlog环比仅增$0.1B、next-12-month RPO持平，gross additions/burn未披露，不能量化转化率。本条更新 cadence-2026 的 monitoring 与 reportedPeriod，不刷新其 2026-07-30 估值快照、stance 或 conviction。",
+      "en": "Per Cadence's Q3 2026 results of October 26, 2026 (8-K Item 2.02, Exhibit 99.01 https://www.sec.gov/Archives/edgar/data/813672/000081367226000116/cdns10262026ex9901.htm; CFO commentary Exhibit 99.02 https://www.sec.gov/Archives/edgar/data/813672/000081367226000116/cfocommentary10262026ex9902.htm): Q3 revenue was $1.633B (+22% YoY vs $1.339B in Q3 2025), above the top of the $1.595-1.625B guide; GAAP operating margin was 26.2% (Q3 2025: 31.8%), non-GAAP operating margin 44.1% (Q3 2025: 47.6%), and GAAP / non-GAAP diluted EPS $1.05 / $2.11. Quarter-end backlog was a company-stated record $8.2B (Q2: $8.1B), and revenue expected within 12 months from remaining performance obligations was $4.2B (flat vs Q2). Core EDA / Semiconductor IP / System Design & Analysis revenue grew 20% / 24% / 30% YoY; IP growth was attributed to Star IP demand across interface, memory and foundation IP and engagement with hyperscalers, semiconductor companies and foundries; AI Super Agents had more than 100 active customer engagements and the Maestro model portfolio launched. FY2026 guidance was raised to $6.387-6.417B revenue (about +21%), $8.37-8.43 non-GAAP EPS and about $2.0B operating cash flow; the Q4 guide is $1.695-1.725B revenue. Readings this pass: backlog-rpo-conversion within, ip-hbm-serdes-growth unclear, agentic-design-workflow unclear (engagements are a count, not revenue), hexagon-physical-ai unclear (consolidated non-GAAP margin fell YoY and acquired-intangible amortization rose from 1.9% to 4.9% of revenue, but the company does not attribute this to Hexagon D&E). This supplies evidence for only the EDA/IP backlog leg of semicap-eda-capex-commitment; downstream capex was not independently rechecked, so the complete rule is not graded as confirmed or non-divergent. Backlog rose only $0.1B sequentially, next-12-month RPO was flat and gross additions/burn were undisclosed, so conversion cannot be quantified. This entry updates cadence-2026 monitoring and reportedPeriod but does not refresh its 2026-07-30 valuation snapshot, stance or conviction."
+    },
+    "crossChecks": [
+      "semicap-eda-capex-commitment"
+    ],
+    "tickers": [
+      "CDNS"
+    ],
+    "reportIds": [
+      "cadence-2026"
+    ],
+    "monitoringRefs": [
+      "cadence-2026:backlog-rpo-conversion",
+      "cadence-2026:agentic-design-workflow",
+      "cadence-2026:ip-hbm-serdes-growth",
+      "cadence-2026:hexagon-physical-ai"
+    ]
   }
 ]

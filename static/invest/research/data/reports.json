@@ -1449,8 +1449,8 @@
     "priceSymbol": "CDNS",
     "title": "Cadence Design Systems 深度研究报告 - AI 设计复杂度的 EDA/IP backlog 仪表盘",
     "titleEn": "Cadence Design Systems Deep Research Report - EDA/IP Backlog Dashboard For AI Design Complexity",
-    "summary": "AI 基础设施 eda-ip 层的 backlog / execution 仪表盘：CDNS 验证 AI demand 是否出现在 design automation、IP、simulation、backlog、RPO 和 agentic design workflows。2026Q2 财报（2026-07-27）：revenue $1.584B（同比 +24%）、non-GAAP operating margin 45.5%、non-GAAP EPS $2.11；季度末 backlog $8.1B（公司口径 record），未来 12 个月预计从 RPO 确认收入 $4.2B；Core EDA / Semiconductor IP / System Design & Analysis 收入分别同比 +18% / 超过 +40% / +37%。管理层把 FY2026 指引上修至 revenue $6.26-6.34B（约 +19% YoY）、non-GAAP EPS $8.05-8.15、operating cash flow 约 $2B。2026-07-31 完成此前推迟的估值复核：以 2026-07-30 收盘 $332.82 计，市值约 $91.8B、EV 约 $93.4B，对照上修后指引约 14.8x EV/sales、约 41.1x non-GAAP P/E。倍数被价格下行与分母上行同时消化，立场由谨慎调整为 neutral-watch / 中确信。",
-    "summaryEn": "Backlog / execution dashboard for the AI-infrastructure eda-ip layer. CDNS tests whether AI demand is visible in design automation, IP, simulation, backlog, RPO, and agentic design workflows. Q2 2026 results (July 27, 2026): revenue was $1.584B (up 24% YoY), non-GAAP operating margin was 45.5%, and non-GAAP EPS was $2.11; quarter-end backlog was $8.1B (a company-stated record), next-12-month RPO revenue was $4.2B, and Core EDA / Semiconductor IP / System Design & Analysis revenue grew 18% / more than 40% / 37% YoY. Management raised FY2026 guidance to $6.26-6.34B revenue (about +19% YoY), $8.05-8.15 non-GAAP EPS, and about $2B operating cash flow. The 2026-07-31 pass completed the previously deferred valuation review: at the $332.82 close on 2026-07-30, market cap is about $91.8B and EV about $93.4B, or about 14.8x EV/sales and about 41.1x non-GAAP P/E against the raised guide. The multiple has been absorbed by a lower price and a higher denominator together, so the stance moves from cautious to neutral-watch / medium conviction.",
+    "summary": "2026-10-27更新（Mode A事实增量，无估值重锚）：2026-10-26发布的2026Q3营收$1.633B（同比+22%，高于$1.595-1.625B的Q3指引上沿）、non-GAAP营业利润率44.1%、non-GAAP EPS $2.11；季度末backlog $8.2B（公司口径record，Q2为$8.1B），未来12个月预计从RPO确认收入$4.2B（与Q2持平）；Core EDA／Semiconductor IP／System Design & Analysis收入同比+20%／+24%／+30%；FY2026指引再上修至营收$6.387-6.417B（约+21%）、non-GAAP EPS $8.37-8.43。估值仍锚定2026-07-30历史基础，当前价格、股本、现金债务与财务分母待Mode B重算；本次未重新裁定立场。",
+    "summaryEn": "Updated 2026-10-27 (Mode A factual increment, no valuation re-anchor): Q3 2026 results released 2026-10-26 showed revenue of $1.633B (+22% YoY, above the top of the $1.595-1.625B Q3 guide), non-GAAP operating margin of 44.1% and non-GAAP EPS of $2.11; quarter-end backlog was a company-stated record $8.2B (Q2: $8.1B) and revenue expected within 12 months from remaining performance obligations was $4.2B (flat vs Q2); Core EDA / Semiconductor IP / System Design & Analysis revenue grew 20% / 24% / 30% YoY; FY2026 guidance was raised again to $6.387-6.417B revenue (about +21%) and $8.37-8.43 non-GAAP EPS. Valuation remains on the historical 2026-07-30 basis; current price, shares, cash/debt and financial denominators await Mode B. Stance is not re-adjudicated.",
     "tags": [
       "EDA",
       "半导体IP",
@@ -1459,7 +1459,7 @@
     ],
     "category": "tech",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-10-27",
     "file": "/invest/research/reports/view.html?id=cadence-2026",
     "markdownFiles": {
       "zh": "/invest/research/Cadence_Design_Systems_深度研究报告_2026-07.md",
@@ -1469,10 +1469,7 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "补齐 EDA/IP backlog 仪表盘：CDNS 验证 AI 复杂度是否进入 backlog、RPO、IP 和 agentic design flow",
-      "2026Q2（2026-07-27）revenue $1.584B（同比 +24%）、non-GAAP operating margin 45.5%、non-GAAP EPS $2.11",
-      "季度末 backlog $8.1B（公司口径 record，环比约持平于 Q1 $8.0B），next-12-month RPO revenue $4.2B；Core EDA / IP / SDA 收入同比 +18% / 超过 +40% / +37%，FY2026 指引上修",
-      "2026-07-30 收盘 $332.82、EV 约 $93.4B，对照上修后指引约 14.8x EV/sales、约 41.1x non-GAAP P/E；立场由谨慎调整为 neutral-watch / 中确信"
+      "2026-10-26发布2026Q3：营收$1.633B（同比+22%）、non-GAAP EPS $2.11；backlog $8.2B（record）、next-12-month RPO $4.2B；Core EDA／IP／SDA同比+20%／+24%／+30%；FY2026指引上修至$6.387-6.417B；估值仍按2026-07-30口径，待Mode B重算"
     ],
     "chainLayer": "eda-ip",
     "coverageTier": "full",
@@ -1525,7 +1522,7 @@
       }
     ],
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "2026Q2",
+    "reportedPeriod": "2026Q3",
     "related": [
       "synopsys-2026",
       "nvidia-2026",
@@ -1548,13 +1545,13 @@
           "en": "$8.1B backlog and $4.2B next-12-month RPO convert into the raised guidance"
         },
         "latest": {
-          "zh": "2026Q2 财报（2026-07-27）：quarter-end backlog $8.1B（公司口径 record，环比约持平于 Q1 $8.0B），next-12-month RPO revenue $4.2B（Q1 为 $4.0B）；Q2 revenue $1.584B（同比 +24%）、non-GAAP EPS $2.11，FY2026 指引上修至 revenue $6.26-6.34B、non-GAAP EPS $8.05-8.15。读数与转化方向一致，但公司未披露 backlog 的 gross additions / burn 明细，不能据此直接量化转化率。",
-          "en": "Q2 2026 results (2026-07-27): quarter-end backlog was $8.1B (a company-stated record, roughly flat vs Q1's $8.0B) and next-12-month RPO revenue was $4.2B (Q1 was $4.0B); Q2 revenue was $1.584B (+24% YoY) with non-GAAP EPS $2.11, and FY2026 guidance was raised to $6.26-6.34B revenue and $8.05-8.15 non-GAAP EPS. The reading is consistent with conversion, but the company did not disclose backlog gross additions or burn, so it does not directly quantify a conversion rate."
+          "zh": "2026Q3 财报（2026-10-26）：季度末 backlog $8.2B（公司口径 record，Q2 为 $8.1B），未来 12 个月预计从 RPO 确认收入 $4.2B（与 Q2 持平）；Q3 revenue $1.633B（同比 +22%），高于 $1.595-1.625B 的 Q3 指引上沿；FY2026 指引再上修至 revenue $6.387-6.417B（约 +21%，前值 $6.26-6.34B）、non-GAAP EPS $8.37-8.43（前值 $8.05-8.15）；Q4 指引 revenue $1.695-1.725B。读数与转化方向一致，但公司仍未披露 backlog 的 gross additions / burn 明细，不能据此直接量化转化率。",
+          "en": "Q3 2026 results (2026-10-26): quarter-end backlog was a company-stated record $8.2B (Q2: $8.1B) and next-12-month RPO revenue was $4.2B (flat vs Q2); Q3 revenue was $1.633B (+22% YoY), above the top of the $1.595-1.625B Q3 guide; FY2026 guidance was raised again to $6.387-6.417B revenue (about +21%, previously $6.26-6.34B) and $8.37-8.43 non-GAAP EPS (previously $8.05-8.15); the Q4 guide is $1.695-1.725B revenue. The reading is consistent with conversion, but the company still does not disclose backlog gross additions or burn, so it does not directly quantify a conversion rate."
         },
-        "nextCheck": "Q3 2026 results",
+        "nextCheck": "Q4 2026 results (release date not yet issuer-announced)",
         "nextCheckDate": "2026-10",
         "reading": "within",
-        "readingAsOf": "2026-07-27"
+        "readingAsOf": "2026-10-26"
       },
       {
         "id": "agentic-design-workflow",
@@ -1569,13 +1566,13 @@
           "en": "AgentStack / ChipStack / ViraStack / InnoStack move from product narrative to measurable adoption"
         },
         "latest": {
-          "zh": "2026Q2 财报（2026-07-27）称 AI Super Agents 已出现 early traction 与初步客户结果，但未量化 agentic design workflow 的收入贡献。",
-          "en": "The Q2 2026 release (2026-07-27) cited early traction and initial customer results for AI Super Agents but did not quantify agentic design-workflow revenue contribution."
+          "zh": "2026Q3（2026-10-26）：公司称 AI Super Agents 已有逾 100 个 active customer engagements，并发布面向芯片与系统设计的领域专用 AI 模型组合 Maestro（公司称初始工作流结果质量最高提升 30%、token 效率为通用基础模型的 5 倍，多家客户部署进行中）；engagement 是计数而非付费采用或收入口径，公司仍未量化 agentic design workflow 的收入贡献。",
+          "en": "Q3 2026 (2026-10-26): the company cited more than 100 active customer engagements for AI Super Agents and launched Maestro, a portfolio of domain-specialized AI models for chip and system design (company-stated initial workflow results of up to 30% higher quality and 5X token efficiency versus general-purpose foundation models, with several customer deployments underway); engagements are a count, not paid adoption or revenue, and agentic design-workflow revenue contribution remains unquantified."
         },
-        "nextCheck": "AI design-flow product adoption",
+        "nextCheck": "Q4 2026 results (release date not yet issuer-announced)",
         "nextCheckDate": "2026-10",
         "reading": "unclear",
-        "readingAsOf": "2026-07-27"
+        "readingAsOf": "2026-10-26"
       },
       {
         "id": "ip-hbm-serdes-growth",
@@ -1590,13 +1587,14 @@
           "en": "IP revenue keeps being pulled by AI infrastructure, HBM, PCIe, and SerDes"
         },
         "latest": {
-          "zh": "2026Q2（2026-07-27）：Semiconductor IP 收入同比超过 +40%，公司归因于 Star IP、与 Intel 的重要协议及其他领先半导体客户 wins；官方未把本季 IP 增长拆分到 HBM、PCIe 或 SerDes。",
-          "en": "Q2 2026 (2026-07-27): Semiconductor IP revenue grew more than 40% YoY, attributed to Star IP, a significant Intel agreement, and other leading-semiconductor wins; the company did not split this quarter's IP growth among HBM, PCIe, or SerDes."
+          "zh": "2026Q3（2026-10-26）：IP 收入同比 +24%（Q2 为超过 +40%），公司归因于 Star IP 组合在 interface、memory 与 foundation IP 上的需求，以及与领先 hyperscaler、半导体公司和晶圆厂的持续合作；IP 占总收入 15%；官方未把本季 IP 增长拆分到 HBM、PCIe 或 SerDes。",
+          "en": "Q3 2026 (2026-10-26): IP revenue grew 24% YoY (Q2: more than 40%), attributed to demand for the Star IP portfolio across interface, memory and foundation IP and continued engagement with leading hyperscalers, semiconductor companies and foundries; IP was 15% of total revenue; the company did not split this quarter's IP growth among HBM, PCIe, or SerDes."
         },
-        "nextCheck": "Q3 2026 results",
+        "nextCheck": "Q4 2026 results (release date not yet issuer-announced)",
         "nextCheckDate": "2026-10",
-        "reading": "within",
-        "readingAsOf": "2026-07-27"
+        "reading": "unclear",
+        "readingAsOf": "2026-10-26",
+        "readingNote": "IP总增长已核，但本季HBM/PCIe/SerDes归因腿未分拆，不能从Star IP泛类证明全部触发条件。 / Aggregate IP growth is verified, but HBM/PCIe/SerDes attribution is not split; the complete trigger is ungraded."
       },
       {
         "id": "hexagon-physical-ai",
@@ -1611,13 +1609,13 @@
           "en": "Hexagon D&E expands system simulation without diluting margins"
         },
         "latest": {
-          "zh": "2026Q2（2026-07-27）：System Design & Analysis 收入同比 +37%，公司归因于 PCB、advanced packaging 采用与 Hexagon D&E 整合；官方未单列 Hexagon 对 margin 的稀释数据。",
-          "en": "Q2 2026 (2026-07-27): System Design & Analysis revenue grew 37% YoY, attributed to PCB and advanced-packaging adoption plus Hexagon D&E integration; the release did not isolate Hexagon margin dilution."
+          "zh": "2026Q3（2026-10-26）：System Design & Analysis 收入同比 +30%（Q2 为 +37%），公司归因于 PCB 与 advanced packaging 方案、Millennium 平台采用及 physical SDA 组合，SDA 占总收入 16%；新闻稿本季未提及 Hexagon。合并口径 non-GAAP 营业利润率 44.1%（Q2 45.5%、2025 Q3 47.6%），GAAP 营业利润率 26.2%（2025 Q3 31.8%），其中 acquired intangibles 摊销占收入 4.9%（2025 Q3 1.9%）；新闻稿与 CFO commentary 均未把利润率下行归因于 Hexagon D&E，也未单列其利润率，故本触发器仍无法判定。",
+          "en": "Q3 2026 (2026-10-26): System Design & Analysis revenue grew 30% YoY (Q2: 37%), attributed to PCB and advanced-packaging solutions, Millennium platform adoption and the physical SDA portfolio; SDA was 16% of total revenue, and this quarter's release does not mention Hexagon. Consolidated non-GAAP operating margin was 44.1% (Q2 45.5%, Q3 2025 47.6%) and GAAP operating margin 26.2% (Q3 2025 31.8%), with amortization of acquired intangibles at 4.9% of revenue (Q3 2025 1.9%); neither the release nor the CFO commentary attributes the margin decline to Hexagon D&E or isolates its margin, so this trigger still cannot be graded."
         },
-        "nextCheck": "Q3 2026 results",
+        "nextCheck": "Q4 2026 results (release date not yet issuer-announced)",
         "nextCheckDate": "2026-10",
         "reading": "unclear",
-        "readingAsOf": "2026-07-27"
+        "readingAsOf": "2026-10-26"
       },
       {
         "id": "valuation-execution",

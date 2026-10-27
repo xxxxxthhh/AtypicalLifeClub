@@ -1,7 +1,7 @@
 # Cadence Design Systems 深度研究报告 - AI 设计复杂度的 EDA/IP backlog 仪表盘
 
 标的收录日期：2026-07-05
-最近更新日期：2026-07-31
+最近更新日期：2026-10-27
 代码：NASDAQ: CDNS
 免责声明：本报告仅用于信息与研究交流，不构成任何投资建议，请自行完成尽职调查。
 
@@ -13,20 +13,22 @@
 
 **一句话论点：** AI 基础设施 eda-ip 层的 backlog / execution 仪表盘：CDNS 验证 AI demand 是否出现在 design automation、IP、simulation、backlog、RPO 和 agentic design workflows。~~Q1 2026 revenue $1.474B、non-GAAP operating margin 44.7%、non-GAAP EPS $1.96；季度末 backlog $8.0B，未来 12 个月预计从 RPO 确认收入 $4.0B。FY2026 指引 revenue $6.125-6.225B、non-GAAP EPS $7.85-7.95。~~ **2026-07-27 事实更新：** Q2 2026 revenue $1.584B（同比 +24%）、non-GAAP operating margin 45.5%、non-GAAP EPS $2.11；季度末 backlog $8.1B（公司口径 record），next-12-month RPO revenue $4.2B；Core EDA / Semiconductor IP / System Design & Analysis 收入同比 +18% / 超过 +40% / +37%；FY2026 指引上修至 revenue $6.26-6.34B、non-GAAP EPS $8.05-8.15、operating cash flow 约 $2B。~~$373.14、市值约 $102.9B、EV 约 $104.5B、约 16.9x EV/sales 与约 47.2x non-GAAP P/E 均为基于当时 Q1 指引的 2026-07-02 初始估值快照；本次不使用旧价格对 Q2 新指引重新估值。谨慎 / 中确信维持不变。~~ **2026-07-31 更新 —— 此前推迟的估值复核已完成（见下方重新裁定批注）：** 以 2026-07-30 收盘 $332.82 计，市值约 $91.8B、EV 约 $93.4B，对照上修后的 FY2026 指引约为 **14.8x EV/sales**、约 **41.1x non-GAAP P/E**。立场调整为 **neutral-watch / 中确信**。
 
-**当前判断：** **neutral-watch / 中确信。** 此前判定为谨慎，理由是在冻结的 2026-07-02 框架下，价格已经前置资本化 backlog、RPO、IP 和 agentic design workflows 的大部分好消息。旧框架推迟的“单独当前价格与估值复核”已于 2026-07-30 收盘完成：对照上修后的 FY2026 指引约 14.8x EV/sales、约 41.1x non-GAAP P/E。倍数已被价格下行与分母上行两个方向同时消化，因此支撑谨慎判断的那句具体主张不再成立；但 Q3 确认仍未到位。
+**立场（2026-07-31 重新裁定；2026-10-27 未重新裁定）：** **neutral-watch / 中确信。** 此前判定为谨慎，理由是在冻结的 2026-07-02 框架下，价格已经前置资本化 backlog、RPO、IP 和 agentic design workflows 的大部分好消息。旧框架推迟的“单独当前价格与估值复核”已于 2026-07-30 收盘完成：对照上修后的 FY2026 指引约 14.8x EV/sales、约 41.1x non-GAAP P/E。倍数已被价格下行与分母上行两个方向同时消化，因此支撑谨慎判断的那句具体主张不再成立；但 Q3 确认仍未到位。
 
 > **旧价格复核批注 —— 按其写法已失效，被下方的重新裁定取代。** ~~2026-07-31 价格复核：CDNS 于 2026-07-29 收于 $332.76，对照 $373.14 锚点为 -10.8%；下文数字按其标签阅读，估值框架、情景网格、立场与确信度均不变，`priceAsOf` 刻意保留。~~
 
 > **2026-07-31 立场重新裁定（锚定 2026-07-30 收盘）—— 立场由谨慎调整为 neutral-watch。** 业主裁决（2026-07-31）：已发布的立场及其理由必须在**当前价格**上成立。本次即为冻结的 2026-07-02 框架明确推迟的那次“单独当前估值复核”。CDNS 于 **2026-07-30** 收于 **$332.82**，较 2026-07-02 的旧锚点 $373.14 为 **-10.8%**。按约 2.758 亿股与约 $1.6B 净债务计，市值约 **$91.8B**、企业价值约 **$93.4B**。对照 2026-07-27 上修并已记录于上文的 FY2026 指引（revenue $6.26-6.34B、non-GAAP EPS $8.05-8.15），约为 **14.8x EV/sales**、约 **41.1x non-GAAP P/E**；若仍用旧 Q1 指引则约为 15.1x 与 42.1x。冻结框架为约 16.9x 与约 47.2x。本次没有新增任何预估：只改了价格输入，分母用的是公司自己上修后的指引。**谨慎判断此前几乎完全建立在估值上**——原文表述是价格“已经前置资本化大部分好消息”——**而该前提已被两个方向同时消化：** 分子下跌约 11%，同时指引、backlog（$8.1B，公司口径 record）与 next-12-month RPO（$4.2B）全部上行。也没有独立的执行腿支撑谨慎：熊市情景要求 backlog/RPO 转化延迟、IP 增速不足、Hexagon 稀释 margin，而 Q2 在每一项上都给出相反证据（Core EDA +18%、IP 超过 +40%、System Design & Analysis +37%、non-GAAP operating margin 45.5%）。**因此立场调整为 neutral-watch（中确信）。** 不直接上调至 constructive：上调触发条件要求 Q3 2026 确认 record backlog 与 RPO 继续干净转化，该证据尚不存在。
 
+> **2026-10-27 事实更新（Mode A；2026Q3，截至 2026-09-30 的季度；2026-10-26 发布）：** revenue **$1.633B**（同比 +22%，2025 Q3 为 $1.339B），高于 $1.595-1.625B 的 Q3 指引上沿；GAAP 营业利润率 **26.2%**（2025 Q3 31.8%），non-GAAP 营业利润率 **44.1%**（2025 Q3 47.6%；2026 Q2 45.5%）；摊薄 EPS GAAP **$1.05**／non-GAAP **$2.11**。季度末 **backlog 为公司口径 record $8.2B**（Q2 $8.1B），**未来 12 个月 RPO 收入 $4.2B**（与 Q2 持平）。Core EDA／Semiconductor IP／System Design & Analysis 收入同比 **+20%／+24%／+30%**（产品结构 69%／15%／16%）。AI Super Agents 逾 100 个 active customer engagements，并发布 Maestro 领域模型组合；两者均未量化为收入。**FY2026 指引再上修**至 revenue **$6.387-6.417B**（约 +21%；前值 $6.26-6.34B）、non-GAAP EPS **$8.37-8.43**（前值 $8.05-8.15）、operating cash flow 约 $2.0B；Q4 指引 revenue $1.695-1.725B、non-GAAP EPS $2.19-2.25。Q3 回购 $400M，董事会 2026-10-23 另授权 $2.5B。来源：[8-K Exhibit 99.01](https://www.sec.gov/Archives/edgar/data/813672/000081367226000116/cdns10262026ex9901.htm)、[CFO commentary Exhibit 99.02](https://www.sec.gov/Archives/edgar/data/813672/000081367226000116/cfocommentary10262026ex9902.htm)。**估值边界：**下文估值数字（2026-07-30 收盘 $332.82、约 14.8x EV/sales、约 41.1x non-GAAP P/E）以 2026-07-30 为基础、以当时的 FY2026 指引为分母；上修后的指引改变了分母，当前股价、股本与现金债务待 Mode B 重算。本次未重新裁定立场。
+
 | 指标 | 当前读数 |
 | --- | --- |
 | Report id | cadence-2026 |
 | 链条层级 / 角色 | eda-ip / dashboard |
-| 最新报告期 | ~~2026Q1~~ **2026Q2（2026-07-27 更新）** |
-| 价格快照 | $332.82，截至 2026-07-30 |
+| 最新报告期 | ~~2026Q1~~ ~~2026Q2（2026-07-27 更新）~~ **2026Q3（2026-10-27 Mode A 事实更新；估值仍按 2026-07-30 基础）** |
+| 价格快照 | $332.82，截至 2026-07-30 （历史2026-07-30估值基础，当前估值待Mode B） |
 | 本次升级后 coverageTier | full |
-| Stance | 谨慎 / 中确信 |
+| Stance | ~~谨慎 / 中确信~~ **neutral-watch / 中确信（2026-10-27措辞纠正：对齐2026-07-31既有裁定；未重判）** |
 | 估值用途 | 情景与风险容错率，不是目标价 |
 
 ## 1. 业务与链条角色
@@ -39,7 +41,7 @@
 | --- | --- | --- |
 | Layer job | eda-ip / dashboard | 限定本报告能证明的问题 |
 | 需求信号 | 补齐 EDA/IP backlog 仪表盘：CDNS 验证 AI 复杂度是否进入 backlog、RPO、IP 和 agentic design flow | 应确认真实 AI 基建拉动 |
-| 财务锚点 | ~~Q1 2026 revenue $1.474B、non-GAAP operating margin 44.7%、non-GAAP EPS $1.96~~ **Q2 2026 revenue $1.584B、non-GAAP operating margin 45.5%、non-GAAP EPS $2.11** | 必须体现在收入、利润率、backlog 或现金流 |
+| 财务锚点 | ~~Q1 2026 revenue $1.474B、non-GAAP operating margin 44.7%、non-GAAP EPS $1.96~~ ~~Q2 2026 revenue $1.584B、non-GAAP operating margin 45.5%、non-GAAP EPS $2.11~~ **Q3 2026 revenue $1.633B、non-GAAP operating margin 44.1%、non-GAAP EPS $2.11（2026-10-27 更新）** | 必须体现在收入、利润率、backlog 或现金流 |
 | 估值锚点 | **2026-07-30 重新锚定：** $332.82、EV 约 $93.4B、按上修后 FY2026 指引约 14.8x EV/sales 与约 41.1x non-GAAP P/E（旧冻结框架：约 16.9x / 约 47.2x） | 决定失望容错率 |
 | 交叉校验 | 与相邻报告和 coverage-map crossChecks 对照 | 避免单公司叙事 |
 
@@ -62,11 +64,11 @@
 
 | 维度 | 当前证据 | 链条读法 | 评分 |
 | --- | --- | --- | --- |
-| 收入 / 需求 | ~~Q1 2026 revenue $1.474B、non-GAAP operating margin 44.7%、non-GAAP EPS $1.96~~ **Q2 2026 revenue $1.584B、non-GAAP operating margin 45.5%、non-GAAP EPS $2.11** | 确认链条信号是否进入报告数字 | A-/B+ |
+| 收入 / 需求 | ~~Q1 2026 revenue $1.474B、non-GAAP operating margin 44.7%、non-GAAP EPS $1.96~~ ~~Q2 2026 revenue $1.584B、non-GAAP operating margin 45.5%、non-GAAP EPS $2.11~~ **Q3 2026 revenue $1.633B、non-GAAP operating margin 44.1%、non-GAAP EPS $2.11（2026-10-27 更新）** | 确认链条信号是否进入报告数字 | A-/B+ |
 | 利润率 / 盈利 | 沿用原报告披露的报告期利润率、EPS、EBITDA、AFFO 或 FCF 口径 | 检验增长是有利润还是仅有规模 | B+ |
 | 现金流 / 资产负债表 | 债务、现金、FCF、AFFO、EBITDA 或回购背景保留自原报告披露 | 决定公司能否承受本轮周期 | B |
-| Backlog / bookings / RPO | ~~季度末 backlog $8.0B，next-12-month RPO revenue $4.0B；IP revenue 同比 +22%~~ **2026Q2：backlog $8.1B（record），next-12-month RPO revenue $4.2B；revenue $1.584B（同比 +24%）** | 区分承诺需求和叙事需求 | B+ |
-| 估值容错率 | 当前价格锚点：$332.82（2026-07-30） | 高预期标的必须有更干净的兑现 | Caution |
+| Backlog / bookings / RPO | ~~季度末 backlog $8.0B，next-12-month RPO revenue $4.0B；IP revenue 同比 +22%~~ ~~2026Q2：backlog $8.1B（record），next-12-month RPO revenue $4.2B；revenue $1.584B（同比 +24%）~~ **2026Q3：backlog $8.2B（record），next-12-month RPO revenue $4.2B（环比持平）；revenue $1.633B（同比 +22%）（2026-10-27 更新）** | 区分承诺需求和叙事需求 | B+ |
+| 估值容错率 | 当前价格锚点：$332.82（2026-07-30） （历史2026-07-30估值基础，当前估值待Mode B） | 高预期标的必须有更干净的兑现 | Caution |
 
 ## 4. 管理层与口径校验
 
@@ -88,9 +90,9 @@
 | 牛市驱动 | 证据 | 更强确认 |
 | --- | --- | --- |
 | 需求穿透 | 补齐 EDA/IP backlog 仪表盘：CDNS 验证 AI 复杂度是否进入 backlog、RPO、IP 和 agentic design flow | 下一报告期继续确认同一方向 |
-| 财务转化 | ~~Q1 2026 revenue $1.474B、non-GAAP operating margin 44.7%、non-GAAP EPS $1.96~~ **Q2 2026 revenue $1.584B、non-GAAP operating margin 45.5%、non-GAAP EPS $2.11** | 收入转化为利润率、现金流或 backlog |
+| 财务转化 | ~~Q1 2026 revenue $1.474B、non-GAAP operating margin 44.7%、non-GAAP EPS $1.96~~ ~~Q2 2026 revenue $1.584B、non-GAAP operating margin 45.5%、non-GAAP EPS $2.11~~ **Q3 2026 revenue $1.633B、non-GAAP operating margin 44.1%、non-GAAP EPS $2.11（2026-10-27 更新）** | 收入转化为利润率、现金流或 backlog |
 | 交叉校验支持 | SNPS, TSM, AVGO | 相邻报告同向移动 |
-| 估值韧性 | 2026-07-30：$332.82 按上修后 FY2026 指引对应约 14.8x EV/sales、约 41.1x non-GAAP P/E | 需要 backlog/RPO 与 IP 增长同时兑现，不能只靠叙事维持倍数 |
+| 估值韧性 | 2026-07-30：$332.82 按上修后 FY2026 指引对应约 14.8x EV/sales、约 41.1x non-GAAP P/E （历史2026-07-30估值基础，当前估值待Mode B） | 需要 backlog/RPO 与 IP 增长同时兑现，不能只靠叙事维持倍数 |
 
 建设性情景不只是股价上涨，而是支持本公司的同一组数据也让整条链条 read-through 更紧。
 
@@ -111,7 +113,7 @@
 
 | 不确定性 | 为什么重要 | 何时复核 |
 | --- | --- | --- |
-| Backlog / RPO 转化 | $8.1B backlog 与 $4.2B next-12-month RPO 按上修后的指引转收入 | Q3 2026 results |
+| Backlog / RPO 转化 | $8.1B backlog 与 $4.2B next-12-month RPO 按上修后的指引转收入 | ~~Q3 2026 results~~ **Q4 2026 results（发行人尚未公布发布日）** |
 | Agentic design workflow | AgentStack / ChipStack / ViraStack / InnoStack 从产品叙事转为可衡量采用 | AI design-flow product adoption |
 | IP / HBM / SerDes 增长 | IP revenue 继续由 AI infrastructure、HBM、PCIe、SerDes 拉动 | IP and protocol demand update |
 | Hexagon / Physical AI 整合 | Hexagon D&E 扩展 system simulation 而不稀释 margin | SDA and Hexagon integration update |
@@ -125,15 +127,17 @@
 
 ## 8. 估值背景
 
-估值只作为风险背景，不是投资建议。下表原本冻结于 2026-07-02 的价格和当时 Q1 指引；经 2026-07-31 重新裁定后，按 2026-07-30 收盘 $332.82 与上修后 FY2026 指引阅读。v5 用 backlog/RPO、IP 增长、margin、multiple regime 和概率权重解释当前 $332.82 计入了什么。
+> **估值边界（2026-10-27，Mode A）：**第 8 节仍以 2026-07-30 为基础（$332.82；对照当时 $6.26-6.34B／$8.05-8.15 的 FY2026 指引约 14.8x EV/sales、约 41.1x non-GAAP P/E）。2026Q3 财报已把该指引上修至 revenue $6.387-6.417B、non-GAAP EPS $8.37-8.43，分母已过时；当前股价、股本与现金债务待 Mode B 重算。旧倍数不是按当前市价的估值。
+
+估值只作为风险背景，不是投资建议。下表原本冻结于 2026-07-02 的价格和当时 Q1 指引；经 2026-07-31 重新裁定后，按 2026-07-30 收盘 $332.82 与上修后 FY2026 指引阅读。v5 用 backlog/RPO、IP 增长、margin、multiple regime 和概率权重解释当前 $332.82 计入了什么。 （历史2026-07-30估值基础，当前估值待Mode B）
 
 **情景网格：**
 
 | 情景 | 驱动假设（backlog / IP / margin / multiple regime） | 估值含义（贵 / 合理 / 便宜 vs 现价） | 主观概率权重 |
 | --- | --- | --- |
 | 牛市情景 | $8.0B backlog 与 $4.0B next-12-month RPO 按指引转收入；IP/HBM/SerDes 延续 20%+ 增长；AgentStack / ChipStack / ViraStack / InnoStack 从叙事转为可量化采用；Hexagon/Physical AI 扩大 system simulation 而不稀释 margin；市场维持 mid-teens EV/Sales 溢价 | 只有 AI design complexity 同时进入订单、IP 和 margin，7 月 2 日快照才显得合理到略便宜 | 20% |
-| 基准情景 | backlog/RPO 大体转化，IP 增长仍快但从 Q1 的 +22% 正常化；agentic design workflow 采用逐步出现但收入贡献有限；Hexagon 整合有短期成本；non-GAAP margin 维持高 40% 附近；multiple 从当前约 14.8x sales 继续向低十几倍收敛 | 现价偏满但不再紧绷：公司质量很好，基准情景仍大体被资本化，安全边际主要来自继续执行 | 50% |
-| 熊市情景 | backlog/RPO 转化延迟，IP/HBM/SerDes 增速低于 AI 基建叙事；agentic workflow 采用不可量化；Hexagon/Physical AI 稀释 margin；客户预算或出口限制造成 EDA/IP 周期性；市场把当前 41x EPS multiple 压回普通高质量软件区间 | 现价会显得偏贵：denominator 与 multiple 同时承压，对执行瑕疵容忍度低 | 30% |
+| 基准情景 | backlog/RPO 大体转化，IP 增长仍快但从 Q1 的 +22% 正常化；agentic design workflow 采用逐步出现但收入贡献有限；Hexagon 整合有短期成本；non-GAAP margin 维持高 40% 附近；multiple 从当前约 14.8x sales 继续向低十几倍收敛 （历史2026-07-30估值基础，当前估值待Mode B） | 现价偏满但不再紧绷：公司质量很好，基准情景仍大体被资本化，安全边际主要来自继续执行 | 50% |
+| 熊市情景 | backlog/RPO 转化延迟，IP/HBM/SerDes 增速低于 AI 基建叙事；agentic workflow 采用不可量化；Hexagon/Physical AI 稀释 margin；客户预算或出口限制造成 EDA/IP 周期性；市场把当前 41x EPS multiple 压回普通高质量软件区间 （历史2026-07-30估值基础，当前估值待Mode B） | 现价会显得偏贵：denominator 与 multiple 同时承压，对执行瑕疵容忍度低 | 30% |
 
 **已定价预期与预期差（2026-07-31 按 2026-07-30 收盘重新推导）：** 以收盘 $332.82、EV 约 $93.4B 和上修后 FY2026 指引计，CDNS 约为 14.8x EV/sales、41.1x non-GAAP P/E；旧的冻结 2026-07-02 框架按当时 Q1 指引为约 16.9x 与约 47.2x。当前价格仍要求 $8.1B record backlog 与 $4.2B next-12-month RPO 几乎无摩擦转化、IP/HBM/SerDes 延续高增长，并且 agentic design workflow 不是单纯产品叙事——但这些要求对应的内嵌倍数已明显下移，因此预期差由偏负转为大体均衡。
 
@@ -141,10 +145,10 @@
 
 | 监测项 | 最新读数 | 触发器 | 下次检查 |
 | --- | --- | --- | --- |
-| Backlog / RPO 转化 | ~~Q1 2026 quarter-end backlog $8.0B，next-12-month RPO revenue $4.0B~~ **2026Q2（2026-07-27）：backlog $8.1B（record，环比约持平），next-12-month RPO revenue $4.2B；Q2 revenue $1.584B（+24% YoY）、non-GAAP EPS $2.11，FY2026 指引上修** | $8.1B backlog 与 $4.2B next-12-month RPO 按上修后指引转收入 | ~~Q2 2026 results~~ **Q3 2026 results（2026-10）** |
-| Agentic design workflow | **2026Q2：公司称 AI Super Agents 已出现 early traction 与初步客户结果，但未量化 agentic workflow 收入** | AgentStack / ChipStack / ViraStack / InnoStack 从产品叙事转为可衡量采用 | AI design-flow product adoption |
-| IP / HBM / SerDes 增长 | ~~Q1 IP business 同比 +22%，受 AI infrastructure、HPC、automotive 驱动~~ **2026Q2：Semiconductor IP 收入同比超过 +40%，公司归因于 Star IP、与 Intel 的重要协议及其他领先半导体客户 wins；未披露本季 HBM、PCIe 或 SerDes 拆分** | IP revenue 继续由 AI infrastructure、HBM、PCIe、SerDes 拉动 | ~~IP and protocol demand update~~ **Q3 2026 results（2026-10）** |
-| Hexagon / Physical AI 整合 | ~~System Design and Analysis revenue 同比 +18%，Hexagon D&E 增加 structural / multibody dynamics~~ **2026Q2：System Design & Analysis 收入同比 +37%，公司归因于 PCB、advanced packaging 采用与 Hexagon D&E 整合；官方未单列 Hexagon margin 稀释** | Hexagon D&E 扩展 system simulation 而不稀释 margin | ~~SDA and Hexagon integration update~~ **Q3 2026 results（2026-10）** |
+| Backlog / RPO 转化 | ~~Q1 2026 quarter-end backlog $8.0B，next-12-month RPO revenue $4.0B~~ ~~2026Q2（2026-07-27）：backlog $8.1B（record，环比约持平），next-12-month RPO revenue $4.2B；Q2 revenue $1.584B（+24% YoY）、non-GAAP EPS $2.11，FY2026 指引上修~~ **2026Q3（2026-10-26）：backlog $8.2B（record；Q2 $8.1B），next-12-month RPO revenue $4.2B（环比持平）；Q3 revenue $1.633B（同比 +22%），高于 Q3 指引上沿；FY2026 指引再上修至 revenue $6.387-6.417B、non-GAAP EPS $8.37-8.43；backlog gross additions／burn 仍未披露（读数：within，截至 2026-10-26）** | $8.1B backlog 与 $4.2B next-12-month RPO 按上修后指引转收入 | ~~Q2 2026 results~~ ~~Q3 2026 results（2026-10）~~ **Q4 2026 results（发行人尚未公布发布日）** |
+| Agentic design workflow | ~~2026Q2：公司称 AI Super Agents 已出现 early traction 与初步客户结果，但未量化 agentic workflow 收入~~ **2026Q3（2026-10-26）：AI Super Agents 逾 100 个 active customer engagements，发布 Maestro 领域模型组合、多家客户部署进行中；engagement 是计数而非付费采用或收入，agentic workflow 收入仍未量化（读数：unclear，截至 2026-10-26）** | AgentStack / ChipStack / ViraStack / InnoStack 从产品叙事转为可衡量采用 | ~~AI design-flow product adoption~~ **Q4 2026 results（发行人尚未公布发布日）** |
+| IP / HBM / SerDes 增长 | ~~Q1 IP business 同比 +22%，受 AI infrastructure、HPC、automotive 驱动~~ ~~2026Q2：Semiconductor IP 收入同比超过 +40%，公司归因于 Star IP、与 Intel 的重要协议及其他领先半导体客户 wins；未披露本季 HBM、PCIe 或 SerDes 拆分~~ **2026Q3（2026-10-26）：IP 收入同比 +24%，公司归因于 Star IP 在 interface、memory、foundation IP 的需求及与领先 hyperscaler、半导体公司和晶圆厂的合作；IP 占收入 15%；未披露 HBM、PCIe 或 SerDes 拆分（读数：unclear，截至 2026-10-26）** | IP revenue 继续由 AI infrastructure、HBM、PCIe、SerDes 拉动 | ~~IP and protocol demand update~~ ~~Q3 2026 results（2026-10）~~ **Q4 2026 results（发行人尚未公布发布日）** |
+| Hexagon / Physical AI 整合 | ~~System Design and Analysis revenue 同比 +18%，Hexagon D&E 增加 structural / multibody dynamics~~ ~~2026Q2：System Design & Analysis 收入同比 +37%，公司归因于 PCB、advanced packaging 采用与 Hexagon D&E 整合；官方未单列 Hexagon margin 稀释~~ **2026Q3（2026-10-26）：SDA 收入同比 +30%，归因于 PCB 与 advanced packaging 方案、Millennium 平台采用及 physical SDA 组合（占收入 16%；新闻稿本季未提及 Hexagon）；合并口径 non-GAAP 营业利润率 44.1%（上年同期 47.6%），acquired intangibles 摊销占收入由 1.9% 升至 4.9%，但新闻稿与 CFO commentary 均未把利润率下行归因于 Hexagon D&E，也未单列其利润率（读数：unclear，截至 2026-10-26）** | Hexagon D&E 扩展 system simulation 而不稀释 margin | ~~SDA and Hexagon integration update~~ ~~Q3 2026 results（2026-10）~~ **Q4 2026 results（发行人尚未公布发布日）** |
 | 估值与执行容错率 | 基于上修后 FY2026 指引的 2026-07-30 读数：约 14.8x EV/sales、约 41.1x non-GAAP P/E | backlog、margin 或 AI adoption 任一失误仍会放大，但低于旧的约 47x 框架 | Q3 2026 backlog/RPO 转化 |
 
 **2026-07-27 监测更新（不改变立场）：** Cadence 官方 Q2 2026 财报（8-K Exhibits 99.01/99.02，2026-07-27）显示：revenue $1,584.5M（同比 +24.2%，Q2 2025 为 $1,275.4M）、GAAP 营业利润率 28.4%、non-GAAP 营业利润率 45.5%、GAAP 摊薄 EPS $1.33、non-GAAP 摊薄 EPS $2.11。季度末 backlog 为公司口径 record $8.1B（环比 Q1 $8.0B 约持平），未来 12 个月预计从 remaining performance obligations 确认收入 $4.2B（Q1 为 $4.0B）。Core EDA / Semiconductor IP / System Design & Analysis 收入同比 +18% / 超过 +40% / +37%；IP 增长归因于 Star IP、与 Intel 的重要协议及其他领先半导体客户 wins，SDA 增长归因于 PCB、advanced packaging 与 Hexagon D&E 整合。管理层把 FY2026 指引上修至 revenue $6.26-6.34B、non-GAAP EPS $8.05-8.15、operating cash flow 约 $2B；Q3 收入指引 $1.595-1.625B。作为 semicap-eda-capex-commitment 读数，EDA/IP backlog 与 RPO 没有和下游 capex 上修背离，只降低而不消除 design-completion 风险。证据边界：backlog 环比约持平、公司未披露 gross backlog additions / burn、未量化 agentic workflow 收入，也未把 Q2 IP 增长拆分到 HBM、PCIe 或 SerDes。2026-07-02 估值快照使用当时 Q1 指引，本次不重算；谨慎 / 中确信留待单独的当前价格估值复核。
@@ -164,9 +168,11 @@
 
 预期差现为大体均衡：以 2026-07-30 收盘 $332.82、按上修后 FY2026 指引约 14.8x EV/sales 和约 41.1x non-GAAP P/E 计，市场仍要求 backlog/RPO、IP/HBM/SerDes、agentic design workflow 与 Hexagon/Physical AI 整合同时兑现，但旧框架约 16.9x / 约 47.2x 的溢价已被价格下行与分母上行共同消化，因此立场由谨慎调整为 neutral-watch。
 
-当前 stance 是 **谨慎，中确信**。20% 牛市 / 50% 基准 / 30% 熊市的情景网格给出负偏斜：牛市必须看到 backlog、IP、agentic workflow 和 margin 同步验证，基准情景已大体被当前价格资本化，熊市则来自任一环节失误引发 multiple compression。中确信来自 backlog/RPO 与 IP 数据较清楚，但 agentic workflow 和 Hexagon 整合仍缺少足够长的验证期。
+~~当前 stance 是 **谨慎，中确信**。20% 牛市 / 50% 基准 / 30% 熊市的情景网格给出负偏斜：牛市必须看到 backlog、IP、agentic workflow 和 margin 同步验证，基准情景已大体被当前价格资本化，熊市则来自任一环节失误引发 multiple compression。中确信来自 backlog/RPO 与 IP 数据较清楚，但 agentic workflow 和 Hexagon 整合仍缺少足够长的验证期。~~
 
-升级触发条件：若 Q3 2026 继续证明 $8.1B backlog 与 $4.2B next-12-month RPO 干净转收入，Star IP 与 AI Super Agents 采用保持可量化，且 EV/sales 从当前约 14.8x 继续被消化而不是重新扩张，则上调至 constructive。降级触发条件：若 backlog/RPO 转化低于指引、IP 增速放缓、Hexagon/Physical AI 稀释 margin，或在当前约 41x P/E 估值框架下出现执行失误，则下调至 cautious。
+**2026-10-27措辞纠正：**既有立场为neutral-watch / 中确信，与2026-07-31裁定和metadata一致。旧情景数字仅为历史基础，当前情景与立场待Mode B；本次没有重新裁定。
+
+升级触发条件：若 Q3 2026 继续证明 $8.1B backlog 与 $4.2B next-12-month RPO 干净转收入，Star IP 与 AI Super Agents 采用保持可量化，且 EV/sales 从当前约 14.8x 继续被消化而不是重新扩张，则上调至 constructive。降级触发条件：若 backlog/RPO 转化低于指引、IP 增速放缓、Hexagon/Physical AI 稀释 margin，或在当前约 41x P/E 估值框架下出现执行失误，则下调至 cautious。 （历史2026-07-30估值基础，当前估值待Mode B）
 
 ## 附录：来源与假设
 
@@ -175,7 +181,10 @@
 - Cadence CFO commentary：[Exhibit 99.2](https://www.sec.gov/Archives/edgar/data/813672/000081367226000044/cfocommentary04272026ex9902.htm)。
 - Cadence Q2 2026 earnings release（2026-07-27）：[8-K Exhibit 99.01](https://www.sec.gov/Archives/edgar/data/813672/000081367226000089/cdns07272026ex9901.htm)。
 - Cadence Q2 2026 CFO commentary：[8-K Exhibit 99.02](https://www.sec.gov/Archives/edgar/data/813672/000081367226000089/cfocommentary07272026ex9902.htm)。
+- Cadence Q3 2026 earnings release（2026-10-26）：[8-K Exhibit 99.01](https://www.sec.gov/Archives/edgar/data/813672/000081367226000116/cdns10262026ex9901.htm)。
+- Cadence Q3 2026 CFO commentary：[8-K Exhibit 99.02](https://www.sec.gov/Archives/edgar/data/813672/000081367226000116/cfocommentary10262026ex9902.htm)。
 
 - 2026-07-06 深度升级保留原先已核验事实基础，并补齐结构、表格、同行比较和 monitoring parity。
 - 2026-07-07 v5 backfill 用情景假设、概率权重和已定价预期替代旧机械价格标尺；这些是预期校准框架，不构成投资建议、预测或目标价。
 - 2026-07-28 chain-radar 监测更新：并入 Cadence Q2 2026 财报（2026-07-27）的 backlog/RPO、产品增长、指引和已过期 trigger wording（primary：8-K Exhibits 99.01/99.02）。不刷新 2026-07-02 估值快照、stance 或 conviction。
+- 2026-10-27 Mode A 事实更新：并入 Cadence 2026Q3 财报（2026-10-26）的 backlog/RPO、产品增长、AI agent 采用计数、利润率与上修指引（primary：8-K Exhibits 99.01/99.02）。估值仍按 2026-07-30 基础；未重新裁定 stance 与 conviction。
