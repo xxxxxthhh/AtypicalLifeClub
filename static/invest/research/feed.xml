@@ -6,6 +6,13 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>Seagate 深度研究报告 - 先定价、后兑现的 HAMR 领先 / Seagate Deep Research Report - A HAMR Lead Priced Before It Pays</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=seagate-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=seagate-2026#seagate-2026@2026-10-28</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+      <description>2026-10-28更新（Mode A事实增量，无估值重锚）：2026-10-27美股收盘后发布的Q1 FY2027（季度截至2026-10-02）收入$42.33亿（上年同期$26.29亿）、非GAAP毛利率57.8%（GAAP 57.3%；Q4 FY2026为52.7%）、非GAAP营业利润率50.7%（GAAP 48.8%）、非GAAP摊薄EPS $7.68（GAAP $7.59）；经营现金流约$17亿、自由现金流约$15亿；向股东返还$5.68亿，季度股息上调约3%至$0.76；Q2 FY2027指引收入$48亿±$1亿、非GAAP EPS $9.20±$0.20。新闻稿未给出EB、每EB收入或HAMR数据（另见补充财务资料，本轮未读）。估值仍按2026-09-22锚定的旧口径，当前股价、股本、现金债务与年化分母待Mode B重算；本次未重新裁定立场（谨慎／中确信，2026-09-23首次覆盖）。</description>
+    </item>
+    <item>
       <title>康宁 深度研究报告 - AI 基础设施的光连接卖铲人 / Corning Deep Research Report - The Optical-Connectivity Pick-and-Shovel of AI Infrastructure</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=corning-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=corning-2026#corning-2026@2026-10-28</guid>
@@ -200,13 +207,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=oracle-2026#oracle-2026@2026-09-24</guid>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <description>2026-09-24 监测更新：FY2027 Q1（截至 2026-08-31）收入 $19.35B（+30%）、OCI 收入 $7.39B（+121%）、RPO $664B（环比 +$26B；按 10-Q 约 13% 在 12 个月内、37% 在第 13-36 个月确认），FY2027 指引上调至收入不低于 $90B、非 GAAP EPS $8.10，capex 维持 $90-95B（电话会转写）。经营现金流 $23.10B 中含 $11.36B 具重大融资成分的客户预付款，Q1 自由现金流 −$5.40B、近四季 −$28.72B；$20B ATM 已在 Q1 全部完成（约 1.41 亿股）。负面：S&amp;P 于 2026-07-09 降至 BBB-；毛利率下滑；2026-09-24 据 Bloomberg，Oracle 对 2.45GW 的 Project Jupiter 发出不可抗力通知，燃料管道两次被州土地办公室否决后推迟到 2027-02-01。按 2026-09-23 收盘 $144.56：市值约 $437B、notes payable 口径净债务约 $88.3B、EV 约 $525B，约 7.3x EV/TTM 收入、约 22.8x EV/TTM GAAP 营业利润、约 17.8x FY2027 EPS 指引。20/40/40 网格加权每股 $164.60，年化 +4.8%，低于 8% 门槛，立场维持谨慎 / 中确信；若权重改为 30/40/30 即越过门槛，结论对权重敏感。</description>
-    </item>
-    <item>
-      <title>Seagate 深度研究报告 - 先定价、后兑现的 HAMR 领先 / Seagate Deep Research Report - A HAMR Lead Priced Before It Pays</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=seagate-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=seagate-2026#seagate-2026@2026-09-23</guid>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
-      <description>2026-09-23 首次覆盖，锚定 2026-09-22 收盘 $919.84。以下限口径 228,292,380 股（10-K 封面 2026-07-31 的 226,644,518 股 ＋ 2026-09-08 可交换票据赎回交付的 1,647,862 股）计市值 $2,099.9 亿，加 2026-07-03 本金口径净债务 $18.99 亿后企业价值 $2,118.9 亿，对应 FY2026 EV/Sales 17.38x、非 GAAP P/E 59.04x、FCF 收益率 1.48%（剔除约 $4.35 亿应计未付税款后约 1.27%），Q1 FY2027 指引年化 P/E 31.50x。核心发现：Seagate 是唯一批量出货 HAMR 的近线 HDD 厂商——2026 年 6 月约 40% 近线 EB 跑在 HAMR 上（电话会），44TB 级 Mozaic 4 在两家最大云厂商处爬坡——但 FY2026 的领先体现为价格与结构而非成本：Q4 每 EB 收入 $16.65 百万对 WDC $16.22 百万，每 EB 成本 $7.87 百万对 $7.40 百万，每 EB 毛利 $8.77 百万对 $8.82 百万几乎相同；全年 WDC 出货更多、每 EB 更便宜、非 GAAP 毛利率反而高 3.0 个百分点（49.1% 对 46.1%）。成本交叉被 Q1 FY2027 指引（营业利润率约 50%，隐含毛利率约 57.3%）提前到下一季，尚未报出。44TB 上 Seagate 约领先一代（WDC 称其 44TB HAMR 于 2027 年上半年出货），但按已公布路线图两家的 50TB 都落在 2027 年（Seagate Mozaic 5 于 2027 年末认证出货、WDC 于 2027 年下半年推出），领先趋同。以 common-constraint 角色检验容量层供给能否靠面密度扩张：FY2026 台数持平下 EB +32.6%，但资本开支翻倍至收入 4.7%。30/50/20 情景网格加权每股价值 $730.52，加 $8.88 股息后 2.77 年年化 -7.6%，低于 8%–10% 要求回报 15.6–17.6 个百分点；退出倍数整体上调 4 倍仍为 -0.5%。牛市情景年化 +9.3%，故立场谨慎 / 中确信。</description>
     </item>
     <item>
       <title>Ondas Inc. 深度研究报告 - 用股权买来的收入增长与一台仍在运转的稀释机器 / Ondas Inc. Deep Research Report - Revenue Growth Bought with Equity and a Dilution Machine Still Running</title>

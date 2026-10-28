@@ -1,16 +1,18 @@
 # Seagate Technology (STX) Deep Research Report
 
 Coverage date: 2026-09-23
-Last updated: 2026-09-23
+Last updated: 2026-10-28
 Ticker: NASDAQ: STX
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
-Reported period: FY2026 Form 10-K (53-week fiscal year ended 2026-07-03) / Q4 FY2026; price anchor: $919.84 close on 2026-09-22; stance: cautious / medium conviction. Financial data is taken from Seagate's SEC filings and its official Q4 FY2026 supplemental financial information unless stated otherwise; figures that come only from the earnings call are labelled "(call)".
+Historical valuation basis: Reported period: FY2026 Form 10-K (53-week fiscal year ended 2026-07-03) / Q4 FY2026; price anchor: $919.84 close on 2026-09-22; stance: cautious / medium conviction. Financial data is taken from Seagate's SEC filings and its official Q4 FY2026 supplemental financial information unless stated otherwise; figures that come only from the earnings call are labelled "(call)".
 
 ---
 
 ## Executive Summary <!-- report-module:overview -->
 
-**One-line thesis:** Seagate is the only nearline HDD maker already shipping HAMR in volume — about 40% of its nearline exabytes ran on HAMR exiting June 2026 (call) and its 44TB-class Mozaic 4 is ramping at the two largest cloud providers — but on FY2026 figures that lead shows up as **price, not cost**: in Q4 FY2026 Seagate earned $16.65M of revenue per exabyte against Western Digital's $16.22M, spent $7.87M per exabyte against $7.40M, and kept almost exactly the same gross profit per exabyte ($8.77M versus $8.82M). At the 2026-09-22 close of $919.84 the market is already paying 31.5x guidance-annualized EPS for the moment that cost advantage arrives.
+Historical valuation basis: **One-line thesis:** Seagate is the only nearline HDD maker already shipping HAMR in volume — about 40% of its nearline exabytes ran on HAMR exiting June 2026 (call) and its 44TB-class Mozaic 4 is ramping at the two largest cloud providers — but on FY2026 figures that lead shows up as **price, not cost**: in Q4 FY2026 Seagate earned $16.65M of revenue per exabyte against Western Digital's $16.22M, spent $7.87M per exabyte against $7.40M, and kept almost exactly the same gross profit per exabyte ($8.77M versus $8.82M). At the 2026-09-22 close of $919.84 the market is already paying 31.5x guidance-annualized EPS for the moment that cost advantage arrives.
+
+> Historical valuation basis: **2026-10-28 factual update (Mode A; Q1 FY2027, quarter ended October 2, 2026; released after the US close on 2026-10-27 - the release dateline "Singapore - October 28" is the Singapore-time date):** revenue **$4.233B** (year-earlier $2.629B); non-GAAP gross margin **57.8%** (GAAP 57.3%), up from 52.7% in Q4 FY2026; non-GAAP operating margin **50.7%** (GAAP 48.8%); non-GAAP diluted EPS **$7.68** (GAAP $7.59). Operating cash flow was about $1.7B and free cash flow about $1.5B. The company returned $568M to shareholders, and raised the quarterly dividend about 3% to $0.76. **Q2 FY2027 guide:** revenue $4.8B +/- $100M and non-GAAP EPS $9.20 +/- $0.20 (no gross-margin guide). The release gives no exabyte, revenue-per-exabyte or HAMR figures; the supplemental financial information and the call were not read in this pass, so those readings stay on their earlier basis. Source: [Q1 FY2027 release, 8-K Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/1137789/000113778926000300/stxq12027pressreleasefinan.htm). **Valuation boundary:** the valuation in this report stays anchored to the 2026-09-22 close of $919.84 (228,292,380 floor-basis shares; net debt at 2026-07-03 principal); the debt retirements, current share count and the Q1 actual / Q2 guide denominators await Mode B recomputation. The stance (cautious / medium, 2026-09-23) was not re-adjudicated in this pass.
 
 **Investment judgment:**
 - **Stance:** cautious
@@ -22,9 +24,9 @@ Reported period: FY2026 Form 10-K (53-week fiscal year ended 2026-07-03) / Q4 FY
 
 | Metric | Value | Basis |
 |---|---:|---|
-| Share price (2026-09-22 close) | $919.84 | Nasdaq, three handles agree (see appendix) |
+| Historical valuation basis: Share price (2026-09-22 close) | $919.84 | Nasdaq, three handles agree (see appendix) |
 | 52-week closing range | $211.63 (2025-10-14) - $1,094.04 (2026-06-22) | Current price 15.9% below the closing high; intraday range $209.00-$1,145.00 |
-| Shares outstanding (floor basis) | 228,292,380 | 10-K cover 226,644,518 (2026-07-31) plus 1,647,862 shares delivered on 2026-09-08 |
+| Historical valuation basis: Shares outstanding (floor basis) | 228,292,380 | 10-K cover 226,644,518 (2026-07-31) plus 1,647,862 shares delivered on 2026-09-08 |
 | Market capitalization | $209.99B | Ceiling basis roughly $210.74B (see §3) |
 | Net debt (principal basis, 2026-07-03) | $1.899B | $3.603B principal less $1.704B cash; company-reported $1.9B |
 | Enterprise value | $211.89B | — |
@@ -42,7 +44,7 @@ Seagate closed FY2026 (53 weeks, ended 2026-07-03) with revenue of $12.195B, up 
 
 This report carries the `common-constraint` role for the memory-storage layer. The question it answers is whether the capacity tier of AI data centers — nearline HDD, whose supply Seagate says is "largely allocated into CY28" — can expand by areal density rather than by new lines. FY2026 says yes so far: total exabytes rose 32.6% and nearline exabytes 39.8% while, according to the CFO (call), drive units were "absolutely flat" and heads and disks grew 15%-20%. It is not free, though: capital expenditure more than doubled to $569M (4.7% of revenue, 2.06x depreciation).
 
-Valuation decides the stance. At $919.84 on 228,292,380 shares, market capitalization is $209.99B and enterprise value $211.89B: 17.38x FY2026 sales, 59.04x FY2026 non-GAAP EPS, 31.50x Q1 FY2027 guidance-annualized EPS. A 12-15x through-cycle multiple implies sustainable EPS of **$76.65 to $61.32**, or **2.63x to 2.10x** the $29.20 guidance run rate. A 30 / 50 / 20 scenario grid weights to **$730.52** per share; with $8.88 of dividends over the window that is 19.6% below $919.84, or **-7.6% annualized** over 2.77 years, 15.6 to 17.6 points below an 8%-10% required return. The grid is tilted more toward the bull case than the paired WDC report (20 / 50 / 30), because Seagate's HAMR lead, its absence of any remaining convertible dilution and its shallower FY2024 trough are all documented — and it still lands on **cautious**. The bull case itself returns +9.3% annualized, which only barely clears 8%.
+Historical valuation basis: Valuation decides the stance. At $919.84 on 228,292,380 shares, market capitalization is $209.99B and enterprise value $211.89B: 17.38x FY2026 sales, 59.04x FY2026 non-GAAP EPS, 31.50x Q1 FY2027 guidance-annualized EPS. A 12-15x through-cycle multiple implies sustainable EPS of **$76.65 to $61.32**, or **2.63x to 2.10x** the $29.20 guidance run rate. A 30 / 50 / 20 scenario grid weights to **$730.52** per share; with $8.88 of dividends over the window that is 19.6% below $919.84, or **-7.6% annualized** over 2.77 years, 15.6 to 17.6 points below an 8%-10% required return. The grid is tilted more toward the bull case than the paired WDC report (20 / 50 / 30), because Seagate's HAMR lead, its absence of any remaining convertible dilution and its shallower FY2024 trough are all documented — and it still lands on **cautious**. The bull case itself returns +9.3% annualized, which only barely clears 8%.
 
 ---
 
@@ -223,7 +225,7 @@ After these, principal falls to about **$2.417B**: FY2029 maturities $381M (4.09
 | Basis | Shares | Source and limits |
 |---|---:|---|
 | 10-K cover (2026-07-31) | 226,644,518 | Primary disclosure |
-| **Floor basis (used for valuation here)** | **228,292,380** | Cover plus 1,647,862 shares delivered on 2026-09-08 (8-K) |
+| Historical valuation basis: **Floor basis (used for valuation here)** | **228,292,380** | Cover plus 1,647,862 shares delivered on 2026-09-08 (8-K) |
 | Ceiling basis | Roughly 229.1M | Floor plus roughly 0.38M shares for the August settlement of about $35M of notes (estimated at the 2026-09-08 ratio of 10.95 shares per $1,000) and roughly 0.4M shares from PSU/RSU vesting in September 2026 (Form 4s); both `review-pending` until the Q1 FY2027 10-Q cover |
 | FY2026 GAAP diluted weighted average | 229M | Includes if-converted note dilution |
 | Q1 FY2027 guided non-GAAP diluted | About 231M | Includes about 2M shares of note dilution that has since closed |
@@ -236,7 +238,7 @@ The floor and ceiling differ by 0.35% ($209.99B versus $210.74B of market capita
 
 Dave Mosley is chair and chief executive officer and Gianluca Romano executive vice president and chief financial officer; both are quoted in the Q4 release and on the call. John Morris is chief technology officer, Ban Seng Teh chief commercial officer, Kian Fatt Chong head of global operations and James Lee chief legal officer (Form 4 titles). On 2026-09-02 director Shankar Arumugavelu said he will not stand for re-election at the 2026-10-24 annual general meeting, "not due to any disagreement" (8-K, 2026-09-04).
 
-**Capital allocation in FY2026 was defensively sequenced.** Management prioritized the balance sheet: $1.4B of debt reduction in FY2026 (release), a further $1.0B of high-yield notes redeemed in July and the last exchangeable notes in September. Shareholder returns were $810M: $634M of dividends ($2.94 declared per share) and $176M of buybacks (about 0.5M shares under the program; 0.9M including 0.4M withheld for taxes). The buybacks were small and bought at rising prices ($255.37 average in Q1-Q3, $533.60 in April 2026); $4.8B of authorization remains. The quarterly dividend is $0.74 per share (record and ex-date 2026-09-24, payable 2026-10-07) — a 0.32% yield at $919.84. **The allocation choice the next year has to answer is buybacks at 31x forward earnings versus continued debt reduction of the 9.625% 2032 notes**; the report has no basis to predict which.
+Historical valuation basis: **Capital allocation in FY2026 was defensively sequenced.** Management prioritized the balance sheet: $1.4B of debt reduction in FY2026 (release), a further $1.0B of high-yield notes redeemed in July and the last exchangeable notes in September. Shareholder returns were $810M: $634M of dividends ($2.94 declared per share) and $176M of buybacks (about 0.5M shares under the program; 0.9M including 0.4M withheld for taxes). The buybacks were small and bought at rising prices ($255.37 average in Q1-Q3, $533.60 in April 2026); $4.8B of authorization remains. The quarterly dividend is $0.74 per share (record and ex-date 2026-09-24, payable 2026-10-07) — a 0.32% yield at $919.84. **The allocation choice the next year has to answer is buybacks at 31x forward earnings versus continued debt reduction of the 9.625% 2032 notes**; the report has no basis to predict which.
 
 **Insider selling: checked line by line, and the conclusion is mechanical, not a red flag.** EDGAR lists dozens of Form 4 and Form 144 filings between late July and 2026-09-22. Parsing every Form 4 filed from 2026-07-20 to 2026-09-22 by transaction code and footnote:
 
@@ -247,7 +249,7 @@ Dave Mosley is chair and chief executive officer and Gianluca Romano executive v
 | Same-price sales on RSU vesting days, no plan footnote | About $30.6M | Sales at one uniform price on the day after RSU vesting (for example 2026-08-21 and 2026-09-10), consistent with withholding but not footnoted as such |
 | Open-market sale outside any plan | About $6.8M | CCO, 2026-08-13: options on 6,002 shares exercised ($64.31-$101.34) and sold at $920.14, plus 1,359 further shares at about $923.73; the Form 4 10b5-1 box is unchecked; sixteen days after the Q4 release |
 
-The four categories total about $351.7M of code S sales. The September PSU vest was settled by sell-to-cover rather than net share withholding, so the tax sales are real open-market sales and appear as code S rather than code F (Seagate also uses net withholding for other awards: $119M of taxes on net share settlement in FY2026); that makes the raw EDGAR list look worse than it is. Individually: the CEO's discretionary 10b5-1 sales were about $49.0M and, per his latest Form 4 (transactions through 2026-09-15), he directly holds 378,108 shares (about $347.8M at $919.84); the CFO sold about $59.9M under his plan and holds 70,757 shares; the CCO sold about $56.1M under his plan plus $6.8M outside it and holds 5,810 shares. **Conclusion:** no evidence of informed selling at scale — the plans predate the Q4 print by three to six months and the largest September block was tax cover on a scheduled PSU vest. The one exception is the CCO's $6.8M non-plan sale on 2026-08-13, sixteen days after the Q4 release; it is small against his $56.1M of plan sales and against the $351.7M total, but it is the only discretionary post-print sale in the window and is recorded as such. The residual governance point is thinner alignment below the CEO (the CCO's direct holding is down to 5,810 shares) and the fact that the securities class action settled in April 2026 for $175M (about $70M paid by insurers, $105M charged; final approval hearing 2026-11-17) named the same CEO and CFO, for a class period of 2020-09-14 to 2023-04-19.
+Historical valuation basis: The four categories total about $351.7M of code S sales. The September PSU vest was settled by sell-to-cover rather than net share withholding, so the tax sales are real open-market sales and appear as code S rather than code F (Seagate also uses net withholding for other awards: $119M of taxes on net share settlement in FY2026); that makes the raw EDGAR list look worse than it is. Individually: the CEO's discretionary 10b5-1 sales were about $49.0M and, per his latest Form 4 (transactions through 2026-09-15), he directly holds 378,108 shares (about $347.8M at $919.84); the CFO sold about $59.9M under his plan and holds 70,757 shares; the CCO sold about $56.1M under his plan plus $6.8M outside it and holds 5,810 shares. **Conclusion:** no evidence of informed selling at scale — the plans predate the Q4 print by three to six months and the largest September block was tax cover on a scheduled PSU vest. The one exception is the CCO's $6.8M non-plan sale on 2026-08-13, sixteen days after the Q4 release; it is small against his $56.1M of plan sales and against the $351.7M total, but it is the only discretionary post-print sale in the window and is recorded as such. The residual governance point is thinner alignment below the CEO (the CCO's direct holding is down to 5,810 shares) and the fact that the securities class action settled in April 2026 for $175M (about $70M paid by insurers, $105M charged; final approval hearing 2026-11-17) named the same CEO and CFO, for a class period of 2020-09-14 to 2023-04-19.
 
 **Other governance items.** The BIS export-control settlement over 2020-2021 hard-drive sales to Huawei ($300M, three compliance audits) has $120M still to pay; the 10-K warns that "in light of the Settlement Agreement, we may be subject to increased penalties" for any future violation. Patent cases (Lambeth, remanded for a new trial on 2025-09-17; IP Bridge, eight patents) are unresolved and unquantified.
 
@@ -273,7 +275,7 @@ The four categories total about $351.7M of code S sales. The September PSU vest 
 
 ## 6. Bear Case <!-- report-module:bullBear -->
 
-1. **The HAMR premium is being paid before the HAMR cost advantage exists.** On FY2026 figures Seagate's cost per exabyte was about 10% above WDC's, and gross profit per exabyte was the same ($7.13M versus $7.27M; Q4 $8.77M versus $8.82M). Its higher blended price is mostly Edge IoT mix: on a data-center-only basis it earned $14.08M per nearline exabyte against WDC's $14.67M. The market pays 31.5x forward earnings and 17.4x sales for a cost curve that is guided, not yet reported.
+Historical valuation basis: 1. **The HAMR premium is being paid before the HAMR cost advantage exists.** On FY2026 figures Seagate's cost per exabyte was about 10% above WDC's, and gross profit per exabyte was the same ($7.13M versus $7.27M; Q4 $8.77M versus $8.82M). Its higher blended price is mostly Edge IoT mix: on a data-center-only basis it earned $14.08M per nearline exabyte against WDC's $14.67M. The market pays 31.5x forward earnings and 17.4x sales for a cost curve that is guided, not yet reported.
 
 2. **The lead narrows at the next node.** On stated schedules, Seagate's Mozaic 5 / 50TB qualification shipments begin in late calendar 2027 and WDC's 50TB products arrive in the second half of calendar 2027 (WDC call). If WDC's HAMR qualifies on time, the one-generation lead at 44TB could be a same-year race at 50TB — just as this report's valuation horizon runs out.
 
@@ -283,7 +285,7 @@ The four categories total about $351.7M of code S sales. The September PSU vest 
 
 5. **Customer concentration is rising and less disclosed.** One customer was 14% of FY2026 revenue (10% in FY2025, none above 10% in FY2024), and unlike WDC, Seagate does not disclose its top-ten share. The Mozaic 4 ramp is concentrated at "the two largest global CSPs" (supplemental). One hyperscaler shifting a build by two quarters lands directly in the numbers.
 
-6. **Part of FY2026 cash flow is deferred tax.** Non-current income tax payable rose from $1M to $436M; the $528M working-capital inflow from accrued expenses and taxes is not recurring cash. Adjusted for it, the FCF yield at $919.84 is about 1.27%.
+Historical valuation basis: 6. **Part of FY2026 cash flow is deferred tax.** Non-current income tax payable rose from $1M to $436M; the $528M working-capital inflow from accrued expenses and taxes is not recurring cash. Adjusted for it, the FCF yield at $919.84 is about 1.27%.
 
 7. **This is still a cycle.** Gross margin moved from 23.4% to 52.7% in eight quarters. Pricing actions, not only mix, drove FY2026's 11-point gross-margin gain ("primarily driven by pricing actions undertaken by the Company and product mix shift", 10-K). Pricing that rose on a supply shortage can fall when the shortage ends — and HAMR itself adds supply.
 
@@ -293,7 +295,7 @@ The four categories total about $351.7M of code S sales. The September PSU vest 
 
 ## 7. Key Uncertainties and Thesis-Breaking Conditions <!-- report-module:uncertainties -->
 
-**The core uncertainty is not whether HAMR works — it does — but whether it becomes a cost advantage before the price cycle turns, and what multiple the market pays when it does.** By §8, earning 8% annualized from $919.84 on the base-case FY2029 EPS of $40.73 requires the market to still pay **27.7x** in mid-2029.
+Historical valuation basis: **The core uncertainty is not whether HAMR works — it does — but whether it becomes a cost advantage before the price cycle turns, and what multiple the market pays when it does.** By §8, earning 8% annualized from $919.84 on the base-case FY2029 EPS of $40.73 requires the market to still pay **27.7x** in mid-2029.
 
 The unknowns, each with a confirmation point:
 
@@ -325,43 +327,45 @@ The unknowns, each with a confirmation point:
 
 ## 8. Valuation Context <!-- report-module:valuation -->
 
-Valuation uses the **2026-09-22 close of $919.84** (US markets were inside the 2026-09-23 session when this report was finalized, so the anchor is the latest completed close; no company earnings event lies between the anchor and finalization) and the floor share count of **228,292,380**. The 2026-09-24 ex-dividend of $0.74 falls after the anchor, so the anchor price is cum-dividend and that dividend is counted in the scenario window.
+> **Valuation boundary (2026-10-28, Mode A):** this section remains on the 2026-09-22 basis; Q1 FY2027 actuals (released 2026-10-27), the Q2 FY2027 guide and the debt retirements change the inputs, which await Mode B recomputation.
+
+Historical valuation basis: Valuation uses the **2026-09-22 close of $919.84** (US markets were inside the 2026-09-23 session when this report was finalized, so the anchor is the latest completed close; no company earnings event lies between the anchor and finalization) and the floor share count of **228,292,380**. The 2026-09-24 ex-dividend of $0.74 falls after the anchor, so the anchor price is cum-dividend and that dividend is counted in the scenario window.
 
 ### Multiples
 
 | Metric | Calculation | Result |
 |---|---|---:|
-| Market capitalization (floor) | $919.84 x 228,292,380 | $209.99B |
-| Market capitalization (ceiling) | $919.84 x roughly 229.1M | $210.74B |
+| Historical valuation basis: Market capitalization (floor) | $919.84 x 228,292,380 | $209.99B |
+| Historical valuation basis: Market capitalization (ceiling) | $919.84 x roughly 229.1M | $210.74B |
 | Net debt (principal, 2026-07-03) | $3.603B less $1.704B | $1.899B |
 | Enterprise value | $209.99B plus $1.899B | $211.89B |
 | FY2026 EV/Sales | $211.89B / $12.195B | 17.38x |
-| FY2026 GAAP P/E | $919.84 / $13.90 | 66.18x |
-| FY2026 non-GAAP P/E | $919.84 / $15.58 | 59.04x |
-| Q4 FY2026 non-GAAP EPS annualized P/E | $919.84 / ($5.71 x 4) | 40.27x |
-| Q1 FY2027 guidance-annualized P/E | $919.84 / ($7.30 x 4) | 31.50x (30.66x-32.39x across the range) |
+| Historical valuation basis: FY2026 GAAP P/E | $919.84 / $13.90 | 66.18x |
+| Historical valuation basis: FY2026 non-GAAP P/E | $919.84 / $15.58 | 59.04x |
+| Historical valuation basis: Q4 FY2026 non-GAAP EPS annualized P/E | $919.84 / ($5.71 x 4) | 40.27x |
+| Historical valuation basis: Q1 FY2027 guidance-annualized P/E | $919.84 / ($7.30 x 4) | 31.50x (30.66x-32.39x across the range) |
 | Q1 FY2027 guidance-annualized EV/Sales | $211.89B / ($4.1B x 4) | 12.92x |
 | FY2026 FCF yield | $3.105B / $209.99B | 1.48% |
 | FY2026 FCF yield excluding the accrued-tax build | About $2.67B / $209.99B | About 1.27% |
 | EV / FY2026 free cash flow | $211.89B / $3.105B | 68.2x |
 | EV / LTM adjusted EBITDA | $211.89B / $4.708B | 45.0x |
-| EV / Q4 adjusted EBITDA annualized | $211.89B / ($1.684B x 4) | 31.5x |
-| Implied sustainable EPS at 12x | $919.84 / 12 | $76.65 (2.63x run rate) |
-| Implied sustainable EPS at 15x | $919.84 / 15 | $61.32 (2.10x) |
-| Implied sustainable EPS at 18x | $919.84 / 18 | $51.10 (1.75x) |
-| Implied sustainable EPS at 20x | $919.84 / 20 | $45.99 (1.58x) |
+| Historical valuation basis: EV / Q4 adjusted EBITDA annualized | $211.89B / ($1.684B x 4) | 31.5x |
+| Historical valuation basis: Implied sustainable EPS at 12x | $919.84 / 12 | $76.65 (2.63x run rate) |
+| Historical valuation basis: Implied sustainable EPS at 15x | $919.84 / 15 | $61.32 (2.10x) |
+| Historical valuation basis: Implied sustainable EPS at 18x | $919.84 / 18 | $51.10 (1.75x) |
+| Historical valuation basis: Implied sustainable EPS at 20x | $919.84 / 20 | $45.99 (1.58x) |
 
 **Denominator warning:** the FY2026 rows use a completed fiscal year; the Q4- and Q1-annualized rows extrapolate one quarter. In the up-leg of a cycle these diverge sharply ($15.58 against $22.84 and $29.20) and are not comparable across rows. "Run rate" in the implied-EPS rows means the $29.20 guidance-annualized figure.
 
 ### Scenario grid (FY2029, fiscal year ending around 2029-06-29)
 
-| Scenario | Driver assumptions (exabytes / revenue per EB / non-GAAP gross margin / exit multiple) | Valuation implication (expensive / fair / cheap versus $919.84) | Probability weight |
+| Historical valuation basis: Scenario | Driver assumptions (exabytes / revenue per EB / non-GAAP gross margin / exit multiple) | Valuation implication (expensive / fair / cheap versus $919.84) | Probability weight |
 |---|---|---|---:|
 | Bull scenario | 1,578 EB (26% CAGR) x $18.0M = $28.40B revenue; 60% gross margin; $1.5B operating expense; 222M shares; EPS $58.43; 20x exit | $1,169 per share, +28.0% total return with dividends, +9.3% annualized — the price is **fair to slightly cheap**, but only if management's plan and a 20x multiple both hold | 30% |
 | Base scenario | 1,433 EB (22% CAGR) x $16.0M = $22.93B revenue; 55% gross margin; $1.4B operating expense; 226M shares; EPS $40.73; 16x exit | $652 per share, -28.2% total return, -11.3% annualized — the price is **expensive**; earning 8% on this path needs a 27.7x multiple in 2029 | 50% |
 | Bear scenario | 1,200 EB (15% CAGR) x $13.5M = $16.20B revenue; 42% gross margin; $1.3B operating expense; 230M shares; EPS $19.32; 14x exit | $270 per share, -69.6% total return, -35.0% annualized — margin and multiple compress together on revenue still above FY2026 | 20% |
 
-The probability-weighted value is **$730.52** per share; adding $8.88 of dividends (twelve quarterly payments at the current $0.74) puts the total **19.6% below $919.84**, or **-7.6% annualized** over 2.77 years — 15.6 to 17.6 points below an 8%-10% required return. Exit multiples of 20x / 16x / 14x are the same set used in the paired WDC report, so the two grids are directly comparable; the difference lies in the weights and the drivers.
+Historical valuation basis: The probability-weighted value is **$730.52** per share; adding $8.88 of dividends (twelve quarterly payments at the current $0.74) puts the total **19.6% below $919.84**, or **-7.6% annualized** over 2.77 years — 15.6 to 17.6 points below an 8%-10% required return. Exit multiples of 20x / 16x / 14x are the same set used in the paired WDC report, so the two grids are directly comparable; the difference lies in the weights and the drivers.
 
 **Why the weights tilt bull-ward relative to WDC (30 / 50 / 20 against 20 / 50 / 30).** Three documented facts favor Seagate over the peer: HAMR is already in production at every major cloud customer and about 40% of nearline exabytes; there is no remaining convertible dilution; and the FY2024 trough was +6.9% operating margin against WDC's -6.4%. Those facts justify a thicker bull tail and a thinner bear tail. They do not rescue the stance: even with the bull tilt, the weighted return is negative.
 
@@ -369,7 +373,7 @@ The probability-weighted value is **$730.52** per share; adding $8.88 of dividen
 
 ### What is priced in, and the expectation gap
 
-At $919.84 the market pays **31.5x Q1 FY2027 guidance-annualized EPS** and **12.9x guidance-annualized revenue**. Working backwards: priced as a 12-15x cyclical, today's price needs sustainable EPS of **$76.65 to $61.32**, **2.63x to 2.10x** the $29.20 run rate and 4.92x to 3.94x FY2026's $15.58; priced as an 18-20x infrastructure asset, it needs $51.10 to $45.99, still 1.75x to 1.58x the run rate. This report's base case puts FY2029 EPS at $40.73, **1.39x** the run rate. **That is the expectation gap: the market needs earnings to multiply by 1.6x to 2.6x within three years; our base path delivers 1.39x.**
+Historical valuation basis: At $919.84 the market pays **31.5x Q1 FY2027 guidance-annualized EPS** and **12.9x guidance-annualized revenue**. Working backwards: priced as a 12-15x cyclical, today's price needs sustainable EPS of **$76.65 to $61.32**, **2.63x to 2.10x** the $29.20 run rate and 4.92x to 3.94x FY2026's $15.58; priced as an 18-20x infrastructure asset, it needs $51.10 to $45.99, still 1.75x to 1.58x the run rate. This report's base case puts FY2029 EPS at $40.73, **1.39x** the run rate. **That is the expectation gap: the market needs earnings to multiply by 1.6x to 2.6x within three years; our base path delivers 1.39x.**
 
 Against the same-layer peers at the same close: Seagate at 31.50x guidance-annualized EPS, WDC ($464.60) at 29.04x, and SanDisk ($1,887.04) at 10.48x its Q1 FY2027 guidance-midpoint annualized EPS ($45 x 4 = $180). The market pays about 3.0x SanDisk's forward multiple for Seagate and an 8.5% premium over WDC. The premium over WDC is defensible — a technology lead worth about one product generation and a guided margin crossover. The premium over NAND says the market believes HDD's 52.7% gross margin is closer to a new normal than NAND's peak; this report accepts the direction but not the magnitude, for a business whose cost advantage has not yet been reported, whose visibility is a call-transcript claim, and whose lead narrows at 50TB.
 
@@ -407,9 +411,9 @@ Against the same-layer peers at the same close: Seagate at 31.50x guidance-annua
 
 **(1) The question this report answers on the AI infrastructure chain.** Seagate carries the `common-constraint` role in the memory-storage layer. The shared constraint is nearline exabyte supply: Seagate says the vast majority of its nearline exabytes are allocated into calendar 2028, drive units are flat, and the only way to add exabytes is more data per disk. Whether hyperscalers, neoclouds and model developers can keep expanding their capacity tier therefore depends on whether HAMR can carry that supply curve — a constraint that cuts across the demand, cloud and memory-storage layers, not a single-company question. The layer's `dashboard` (micron-2026) tracks memory pricing, and WDC's `architecture-check` tests HDD against SSD; neither measures whether the capacity tier's supply can grow by density. FY2026's answer is **yes, so far, at a rising capital cost**: exabytes +32.6% and nearline +39.8% on flat units, with capex doubling to 4.7% of revenue. The answer holds for FY2026 only.
 
-**(2) The expectation gap.** At $919.84 the market pays 31.5x guidance-annualized EPS; a 12-15x through-cycle multiple needs sustainable EPS of $76.65 to $61.32, 2.63x to 2.10x the run rate. Our base case reaches $40.73 by FY2029, 1.39x. Earning 8% on that path needs a 27.7x multiple in mid-2029.
+Historical valuation basis: **(2) The expectation gap.** At $919.84 the market pays 31.5x guidance-annualized EPS; a 12-15x through-cycle multiple needs sustainable EPS of $76.65 to $61.32, 2.63x to 2.10x the run rate. Our base case reaches $40.73 by FY2029, 1.39x. Earning 8% on that path needs a 27.7x multiple in mid-2029.
 
-**(3) Stance and confidence.** The 30 / 50 / 20 grid weights to $730.52; with $8.88 of dividends that is 19.6% below $919.84, or **-7.6% annualized**, 15.6 to 17.6 points below an 8%-10% required return. Lifting every exit multiple by 4x gives -0.5%; adding higher revenue per exabyte and margins as well gives +5.2%. The skew is negative even with the bull tilt, but the bull scenario returns +9.3% and the bear requires gross margin to fall from 52.7% to 42%, so the stance is **cautious / medium conviction**, not bearish-avoid. Confidence is medium because the decisive variables — the exit multiple and a cost crossover that is guided but not reported — are not yet observations.
+Historical valuation basis: **(3) Stance and confidence.** The 30 / 50 / 20 grid weights to $730.52; with $8.88 of dividends that is 19.6% below $919.84, or **-7.6% annualized**, 15.6 to 17.6 points below an 8%-10% required return. Lifting every exit multiple by 4x gives -0.5%; adding higher revenue per exabyte and margins as well gives +5.2%. The skew is negative even with the bull tilt, but the bull scenario returns +9.3% and the bear requires gross margin to fall from 52.7% to 42%, so the stance is **cautious / medium conviction**, not bearish-avoid. Confidence is medium because the decisive variables — the exit multiple and a cost crossover that is guided but not reported — are not yet observations.
 
 **(4) Upgrade and downgrade triggers.** Upgrade to neutral-watch or constructive: two quarters of non-GAAP gross margin at or above 57% with revenue per exabyte at or above $17.0M and nearline exabyte growth at or above 25%; HAMR at 70% of nearline exabytes by June 2027 with Mozaic 5 on schedule; or a price near $650 without a change in fundamentals. Downgrade to bearish-avoid: two sequential declines in nearline exabytes or FY2027 growth below 15%; revenue per exabyte below $15.5M for two quarters; Q1 FY2027 operating margin below 48% or a sequential gross-margin decline; a missed HAMR milestone or Mozaic 5 slipping beyond CY2027; or loss of the allocation framing or one customer above 20%.
 
@@ -436,9 +440,9 @@ Seagate has the better technology position in nearline HDD and a finished balanc
 
 ### Price and share-count assumptions
 
-- The price used is the **2026-09-22 close of $919.84**, confirmed three ways: the Nasdaq `/historical` endpoint shows a 09/22/2026 close of $919.84 (this time the endpoint did include the latest bar); `/info` showed lastSalePrice $909.0471 at 10:05 AM ET on 2026-09-23 with netChange -10.7929, and $909.0471 + $10.7929 = $919.84; `/summary` shows PreviousClose $919.84. The `/info` 52-week label reads $209.00-$1,145.00 (intraday); closing extremes come from the `/historical` series.
+Historical valuation basis: - The price used is the **2026-09-22 close of $919.84**, confirmed three ways: the Nasdaq `/historical` endpoint shows a 09/22/2026 close of $919.84 (this time the endpoint did include the latest bar); `/info` showed lastSalePrice $909.0471 at 10:05 AM ET on 2026-09-23 with netChange -10.7929, and $909.0471 + $10.7929 = $919.84; `/summary` shows PreviousClose $919.84. The `/info` 52-week label reads $209.00-$1,145.00 (intraday); closing extremes come from the `/historical` series.
 - The prior close was $877.325 on 2026-09-21; the 2026-09-22 bar rose 4.8%. No company filing explains that day's move.
-- Shares: floor 228,292,380 = 226,644,518 (10-K cover, 2026-07-31) + 1,647,862 (2026-09-08 8-K). The ceiling of roughly 229.1M adds about 0.38M shares for the August settlement of about $35M of notes (estimated at the 09-08 ratio of 1,647,862 / $150.51M = 10.95 shares per $1,000) and about 0.4M shares vested in September 2026 (Form 4); both `review-pending`.
+Historical valuation basis: - Shares: floor 228,292,380 = 226,644,518 (10-K cover, 2026-07-31) + 1,647,862 (2026-09-08 8-K). The ceiling of roughly 229.1M adds about 0.38M shares for the August settlement of about $35M of notes (estimated at the 09-08 ratio of 1,647,862 / $150.51M = 10.95 shares per $1,000) and about 0.4M shares vested in September 2026 (Form 4); both `review-pending`.
 
 ### Calculation assumptions
 
@@ -463,7 +467,7 @@ Net income applies OI&E of -$100M / -$120M / -$150M and tax rates of 16% / 17% /
 
 | Company | Share price | Fiscal year end | FY2026 revenue | FY2026 non-GAAP gross margin | FY2026 non-GAAP EPS | Next-quarter revenue guide | Next-quarter non-GAAP EPS guide | Guidance-annualized P/E |
 |---|---:|---|---:|---:|---:|---:|---:|---:|
-| Seagate | $919.84 | 2026-07-03 | $12.195B | 46.1% | $15.58 | $4.1B +/- $100M | $7.30 +/- $0.20 | 31.5x |
+| Historical valuation basis: Seagate | $919.84 | 2026-07-03 | $12.195B | 46.1% | $15.58 | $4.1B +/- $100M | $7.30 +/- $0.20 | 31.5x |
 | Western Digital | $464.60 | 2026-07-03 | $12.919B | 49.1% | $10.22 | $4.1B +/- $100M | $4.00 +/- $0.15 | 29.0x |
 | SanDisk | $1,887.04 | 2026-07-03 | $20.248B | — | $70.88 | $10.30B-$10.80B | $44.00-$46.00 | 10.5x |
 | Micron | $1,096.16 | — | Not independently sourced here | — | — | — | — | — |
