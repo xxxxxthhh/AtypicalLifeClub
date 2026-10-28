@@ -1,7 +1,7 @@
 # Broadcom (AVGO) Deep Research Report
 
 Coverage date: 2026-06-26
-Last updated: 2026-09-04
+Last updated: 2026-10-28
 Ticker: NASDAQ: AVGO
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -24,6 +24,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 > **2026-07-31 stance re-adjudication at the 2026-07-30 close.** Owner ruling (2026-07-31): a published stance and its rationale must hold at the CURRENT price. AVGO closed at **$387.84** on **2026-07-30**, **+2.4%** above the old $378.91 anchor of 2026-06-25. On about 4.74B shares, market cap is about **$1.84T** (old about $1.80T) and the forward P/E is about **34x** (old about 33x). No estimate or actual was changed; only the price input moved, and a 2.4% move does not shift the multiple out of its stated band. The stance rests on the denominator rather than the multiple — whether the FY2027 >$100B AI revenue figure, which is back-end-loaded and tied to a small number of publicly reported customers and programmes, actually converts — and that question is entirely untouched by a 2.4% price change. **Stance stays neutral watch (medium conviction), explicitly confirmed at that close with the multiples restated rather than carried over.**
 
 > **2026-09-04 Q3 FY2026 re-anchor at the 2026-09-03 close.** Based on the Q3 FY2026 results (fiscal quarter ended 2026-08-02) disclosed in Broadcom's Form 8-K furnished 2026-09-02 (accession `0001730168-26-000076`, Exhibit 99.1), and on the **$357.16** close of 2026-09-03 - the first complete regular session after the release - which is **-7.9%** below the prior 2026-07-30 anchor. Every affected derived metric was recomputed: market cap ~~about $1.84T~~ -> **about $1.699T**; EV/TTM sales ~~about 24-25x~~ -> **about 19.5x** (TTM revenue ~~about $75B~~ -> **$89.104B**); net debt ~~about $45B~~ -> **about $35.4B**. **The compression comes from both a larger denominator and a lower price - it is not a change in the thesis.** Forward P/E is marked `review-pending` for lack of a primary-source EPS basis. The reviewer re-adjudicated the stance on 2026-09-04 and kept **neutral-watch / medium conviction** because the report's multi-part upgrade conditions are not all satisfied.
+
+> **2026-10-28 factual update (Mode A; no valuation re-anchor).** Broadcom's [issuer release of October 26, 2026](https://investors.broadcom.com/news-releases/news-release-details/bank-america-blackstone-citi-and-morgan-stanley-announce) states that a newly formed SPV has **$63B of committed financing** from Bank of America, Blackstone, Citi and Morgan Stanley to purchase Broadcom XPU AI accelerators and networking solutions **to be leased to Anthropic**, as part of the previously announced compute capacity agreement, with **deliveries expected starting in calendar 2027**; Broadcom provides residual value support to the SPV for the amount equivalent to the first-lien portion. The [8-K of October 27, 2026](https://www.sec.gov/Archives/edgar/data/1730168/000119312526434271/d148323d8k.htm) (Item 2.03) adds that this Backstop is a contingent liability equal to any shortfall of the AI-rack sale value below **72.5% of the outstanding lease amounts**, rising as racks are delivered and falling as the customer pays, with a **maximum potential undiscounted liability of about $43B** upon deployment, which the company believes has a low probability of occurring. This gives the Anthropic program issuer confirmation; the $63B is the SPV's financing, not a Broadcom order or revenue figure, and the lien split, lease term and accounting are undisclosed. **Valuation boundary:** the valuation in this report stays on the 2026-09-03 close basis ($357.16; about 19.5x EV/TTM sales, net debt about $35.4B); the contingent exposure is not in that EV and its treatment awaits Mode B. The stance (neutral-watch / medium, 2026-09-04) was not re-adjudicated in this pass.
 
 **Key data:**
 
@@ -160,6 +162,8 @@ CEO **Hock Tan** is one of the most successful M&A integrators in semiconductor 
 ## 8. Valuation Context
 
 The following is valuation context, not a recommendation. `prices.json` records the current price anchor as **$357.16** on **2026-09-03** (~~prior anchor: $387.84 on 2026-07-30~~, re-anchored 2026-09-04).
+
+> **Valuation boundary (2026-10-28, Mode A):** the readouts below are on the 2026-09-03 basis and exclude the residual value support disclosed on 2026-10-27 (maximum potential undiscounted liability about $43B, contingent); its treatment awaits Mode B.
 
 | Method | Current readout | Interpretation |
 |--------|-----------------|----------------|
