@@ -3905,7 +3905,7 @@
     "priceSymbol": "000660.KS",
     "title": "SK hynix 深度研究报告 - HBM 垄断地位与周期顶点的再定价",
     "titleEn": "SK hynix Deep Research Report - HBM Leadership and a Cyclical-Peak Repricing",
-    "summary": "2026-07-31 立场重新裁定：000660 于 2026-07-31（KRX）收于 ₩1,718,000，较 07-29 低点反弹 +22.6%、较 6 月锚点仍 −41.1%，市值约 ₩1,219.7 万亿（按约 ₩1,430/美元折约 $8,530 亿）。P/S（TTM，按 Q2 后近乎翻倍的约 ₩189.2 万亿收入基数）约 6.5x，经反弹后回到 2 月 6.3x 起点附近。旧的约 28x TTM P/E / 约 16x P/S 算术已不存在；TTM P/E 因净利润桥接未披露仍不予重算。按所有者 Q1 裁定，立场由谨慎调整为观望中性（中确信）：分母仍是 76% 营业利润率下的周期顶点收入，顶点持久性问题使其停留在中性而非看多；网格权重（20/50/30）保留，下一验证点 Q3 2026（2026-10-27）。",
+    "summary": "2026-10-28更新（Mode A事实增量，无估值重锚）：2026-10-28发布的2026 Q3（K-IFRS初步数）收入₩104.6155万亿（环比+32%、同比+328%，首次单季破₩100万亿）、营业利润₩83.3338万亿（营业利润率80%，Q2为76%）、净利润₩39.7756万亿（净利率38%，Q2为₩93.9226万亿；新闻稿未拆分营业利润至净利润的桥接）；公司称HBM4出货全面展开、预计Q4在出货量与收入上超过HBM3E；已与14家主要客户签订LTA，锁定量相当于2027-2028年总产能逾50%，价格在双方约定区间内随市况调整（具体数量、价格与客户名单未披露；通常五年，部分客户正讨论延长），并预计需求大于供给的格局持续至2030年。估值仍按2026-07-31锚定的旧口径，TTM收入分母、当前股价、股本（注销未执行）与净现金待Mode B重算；本次未重新裁定立场（观望中性／中确信，2026-07-31裁定）。",
     "tags": [
       "半导体",
       "HBM",
@@ -3914,20 +3914,16 @@
     ],
     "category": "tech",
     "date": "2026-02-25",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-10-28",
     "file": "/invest/research/reports/view.html?id=sk-hynix-2026",
     "markdownFiles": {
       "zh": "/invest/research/SK_hynix_深度研究报告_2026-02.md",
       "en": "/invest/research/SK_hynix_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "股价 ₩1,718,000（2026-07-31 KRX 收盘），较 07-29 低点反弹 +22.6%、较 6 月 25 日锚点仍 −41.1%；市值约 ₩1,219.7 万亿（约 $8,530 亿）",
-      "P/S（TTM）约 6.5x，经反弹后回到 2 月 6.3x 起点附近（07-29 旧低点约 5.3x）",
-      "倍数双向压低：股价下跌 + Q2 的 ₩79.32 万亿使 TTM 收入近乎翻倍至约 ₩189.2 万亿",
-      "TTM P/E 仍不予重算：Q2 净利润 ₩93.92 万亿高于当季收入，营业利润至净利润桥接未披露",
-      "所有者 Q1 裁定已适用：立场调整为观望中性/中确信；分母为 76% 营业利润率下的顶点收入，持久性待 Q3 2026 验证"
+      "2026-10-28发布2026 Q3：收入₩104.6155万亿（环比+32%）、营业利润率80%、净利润₩39.7756万亿；LTA覆盖2027-2028年产能逾50%（14家客户）；估值仍按2026-07-31口径，待Mode B重算"
     ],
-    "summaryEn": "July 31, 2026 stance re-adjudication: 000660 closed at ₩1,718,000 on 2026-07-31 (KRX), +22.6% off the 07-29 low and still -41.1% from the June anchor, for about ₩1,219.7T market cap (roughly $853B at ~₩1,430/USD). P/S (TTM, on the ~₩189.2T post-Q2 revenue base) is about 6.5x, back near February's 6.3x starting point after the rebound. The old ~28x TTM P/E / ~16x P/S arithmetic is gone; TTM P/E remains un-recomputable (net-profit bridge undisclosed). Under the owner's Q1 ruling the stance moves from cautious to neutral-watch (medium conviction): the denominator is still peak-cycle revenue at a 76% operating margin, and that durability question keeps it at neutral rather than constructive; grid weights (20/50/30) retained, next test Q3 2026 (2026-10-27).",
+    "summaryEn": "Updated 2026-10-28 (Mode A factual increment, no valuation re-anchor): Q3 2026 results released 2026-10-28 (preliminary K-IFRS) showed revenue of ₩104.6155T (+32% QoQ, +328% YoY; the first quarter above ₩100T), operating profit of ₩83.3338T (80% operating margin; Q2 was 76%) and net profit of ₩39.7756T (38% net margin; Q2 was ₩93.9226T; the release does not itemize the operating-to-net bridge). The company says HBM4 shipments began in earnest and expects HBM4 to surpass HBM3E in both shipment volume and revenue in Q4; it has signed LTAs with 14 major customers whose secured volume corresponds to more than 50% of total 2027-2028 production capacity, priced within customer-agreed ranges that reflect market conditions (specific volumes, prices and customer names not disclosed; terms are typically five years and extensions are under discussion), and expects demand to exceed supply through 2030. Valuation remains anchored to the 2026-07-31 basis ; the TTM revenue denominator, current price, share count (cancellations not yet executed) and net cash await Mode B recomputation, and the stance was not re-adjudicated in this pass (neutral-watch / medium, adjudicated 2026-07-31).",
     "period": "2026",
     "versionType": "full-cycle",
     "versionLabel": "2026 Full Rerun",
@@ -3949,7 +3945,7 @@
     "chainRole": "common-constraint",
     "stance": "neutral-watch",
     "priceAsOf": "2026-07-31",
-    "reportedPeriod": "Q2 2026",
+    "reportedPeriod": "Q3 2026",
     "related": [
       "sandisk-2026"
     ],
@@ -3967,11 +3963,13 @@
           "en": "the near-peak 72% operating margin rolls over"
         },
         "latest": {
-          "zh": "Q2 2026 营业利润 ₩60.54 万亿（营业利润率 76%）、营收 ₩79.32 万亿（+257% YoY），净利润 ₩93.92 万亿（公司称净利率 118%），创季度历史新高；新闻稿未拆分从营业利润 ₩60.54 万亿到净利润 ₩93.92 万亿的桥接项。Q1 2026 为 ₩37.6 万亿营业利润（72% 利润率）/ ₩52.6 万亿营收",
-          "en": "Q2 2026 operating profit ₩60.54T (76% operating margin) on ₩79.32T revenue (+257% YoY), and net profit ₩93.92T (company-stated 118% net margin), an all-time quarterly high; the release did not itemize what bridges the ₩60.54T operating profit to the ₩93.92T net profit. Q1 2026 was ₩37.6T operating profit (72% margin) on ₩52.6T revenue"
+          "zh": "Q3 2026（2026-10-28 发布，K-IFRS 初步数）营业利润 ₩83.3338 万亿、营收 ₩104.6155 万亿，营业利润率 80%（Q2 76%、Q1 72%），营收与营业利润环比分别 +32%、+38%，均创季度新高；净利润 ₩39.7756 万亿（净利率 38%，Q2 为 ₩93.9226 万亿、环比 -58%），新闻稿未拆分两个季度从营业利润到净利润的桥接。营业利润率未见回落，触发条件未发生",
+          "en": "Q3 2026 (released 2026-10-28, preliminary K-IFRS): operating profit ₩83.3338T on revenue of ₩104.6155T, an 80% operating margin (Q2 76%, Q1 72%), with revenue and operating profit up 32% and 38% sequentially, both quarterly records; net profit was ₩39.7756T (38% net margin; Q2 was ₩93.9226T, -58% QoQ) and the release does not itemize the operating-to-net bridge for either quarter. The operating margin has not rolled over, so the trigger has not fired"
         },
-        "nextCheck": "2026-Q3 财报 / Q3 earnings",
-        "nextCheckDate": "2026-10"
+        "nextCheck": "2026 Q4 财报（发行人尚未公布发布日）/ Q4 2026 results (release date not yet issuer-announced)",
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-10-28"
       },
       {
         "id": "hbm4-competition",
@@ -3986,10 +3984,13 @@
           "en": "Samsung/Micron close the HBM4 certification and share gap"
         },
         "latest": {
-          "zh": "公司于 Q2 2026 开始 HBM4 量产出货、H2 加速；HBM4E 已于 H1 2026 完成样品出货。此前披露 HBM 全球份额约 53%、NVIDIA 主供；三星/美光 HBM4 认证进度未在本次新闻稿中说明",
-          "en": "the company began HBM4 mass shipments in Q2 2026, ramping in H2; HBM4E completed sample shipments in H1 2026. Previously disclosed ~53% global HBM share with NVIDIA as main supplier; Samsung/Micron HBM4 qualification progress was not addressed in this release"
+          "zh": "Q3 2026 新闻稿：HBM4 出货全面展开，公司将在年底前把 M15X 提升至满产以增加 HBM4 产量，预计 Q4 HBM4 在出货量与收入上均超过 HBM3E、成为主流产品；新闻稿未提及三星/美光 HBM4 认证或份额，也未更新约 53% 的 HBM 份额口径",
+          "en": "Q3 2026 release: HBM4 shipments began in earnest; the company will ramp M15X to maximum capacity by year-end to raise HBM4 output and expects HBM4 to surpass HBM3E in both shipment volume and revenue in Q4, becoming the mainstream product. The release does not address Samsung/Micron HBM4 qualification or share, and does not update the ~53% HBM share figure"
         },
-        "nextCheck": "客户认证进展 / customer qualification news"
+        "nextCheck": "客户认证进展 / customer qualification news",
+        "reading": "unclear",
+        "readingAsOf": "2026-10-28",
+        "readingNote": "自身 HBM4 放量已核；三星/美光认证与份额本季未披露，未知腿不判未触发。 / Own HBM4 ramp verified; Samsung/Micron qualification and share are undisclosed and ungraded."
       },
       {
         "id": "nvidia-lockin",
@@ -4004,10 +4005,13 @@
           "en": "main-supplier status or the 3-year supply-demand balance shifts"
         },
         "latest": {
-          "zh": "Q2 2026 新闻稿：已与约 10 家客户（含关键战略伙伴）签订多年期长期供货协议（LTA），并称客户需求超过供给能力；LTA 的具体数量、期限与定价未披露",
-          "en": "Q2 2026 release: SK hynix finalized multi-year long-term agreements (LTAs) with about 10 customers (including key strategic partners) and stated customer demand exceeds supply capability; LTA volumes, durations, and pricing were not disclosed"
+          "zh": "Q3 2026 新闻稿：已与 14 家主要客户（含全球领先的云服务商）签订 LTA（Q2 为约 10 家），已锁定量相当于 2027 年与 2028 年总产能的逾 50%，价格在与客户约定的区间内按市况调整，并正与多家客户商讨延长通常为五年的合约期限；公司预计需求大于供给的结构持续至 2030 年。LTA 的具体数量、价格与客户名单未披露；新闻稿未提及 NVIDIA 或主供地位",
+          "en": "Q3 2026 release: LTAs are now signed with 14 major customers including leading global cloud service providers (Q2: about 10), with secured volume corresponding to more than 50% of total 2027 and 2028 production capacity, priced within customer-agreed ranges that reflect market conditions, and the company is discussing extensions of the typically five-year terms with several customers; it expects demand to exceed supply through 2030. LTA volumes, prices and customer names are not disclosed, and the release does not mention NVIDIA or main-supplier status"
         },
-        "nextCheck": "供应协议动态 / supply-agreement developments"
+        "nextCheck": "供应协议动态 / supply-agreement developments",
+        "reading": "unclear",
+        "readingAsOf": "2026-10-28",
+        "readingNote": "供需格局腿按发行人口径未见转向；NVIDIA 主供地位本季未披露，未知腿不判未触发。 / Supply-demand leg shows no shift on issuer statements; NVIDIA main-supplier status is undisclosed and ungraded."
       },
       {
         "id": "rerating-realized",
