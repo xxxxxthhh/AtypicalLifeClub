@@ -2764,7 +2764,7 @@
     "priceSymbol": "GLW",
     "title": "康宁 深度研究报告 - AI 基础设施的光连接卖铲人",
     "titleEn": "Corning Deep Research Report - The Optical-Connectivity Pick-and-Shovel of AI Infrastructure",
-    "summary": "2026-07-31 立场重新裁定：GLW 收于 $135.22（2026-07-30），较 07-29 低点反弹 +9.0%、较 6 月 26 日锚点 −38.8%，市值约 $1,162 亿、EV 约 $1,234 亿。按报告原有一致预期重算，前瞻 P/E 约 43.4 倍（2026E 核心 EPS $3.12）、约 34.9 倍（2027E $3.86），EV/Sales 约 7.7 倍 / 6.8 倍。报告此前把当时的前瞻倍数称为本覆盖中最贵者——该说法已废止。07-28 并入的 Q2 2026 经营数据（光通信 +32%、企业网络 +65%、核心 EPS $0.78）不变。Springboard 阶梯与 30%+ 光通信增速的持久性仍未证明；按所有者 Q1 裁定以当前价格复核后，维持中性观察/中确信，网格权重保留。",
+    "summary": "2026-10-28更新（Mode A事实增量，无估值重锚）：2026-10-27发布的2026 Q3 core sales $50.81亿（同比+19%）、core EPS $0.91（同比+36%）（GAAP net sales $48.55亿、GAAP EPS $0.78）；Optical Communications净销售额$23.79亿（同比+44%、环比+15%），Enterprise Networks同比+84%，公司称Gen AI产品销售同比增长逾100%；核心毛利率40.5%、核心营业利润率22.7%，调整后自由现金流$6.61亿（前九个月$22.7亿）；Q3新签四份长期、数十亿美元级客户协议（含Verizon与AT&T）；Q4指引core sales $52-53亿、core EPS $0.96-1.00。估值仍按2026-07-31锚定的旧口径，当前股价、股本、现金债务与一致预期分母待Mode B重算；本次未重新裁定立场（中性观察／中确信，2026-07-31裁定）。",
     "tags": [
       "光通信",
       "AI基础设施",
@@ -2773,7 +2773,7 @@
     ],
     "category": "tech",
     "date": "2026-06-29",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-10-28",
     "file": "/invest/research/reports/view.html?id=corning-2026",
     "markdownFiles": {
       "zh": "/invest/research/Corning_深度研究报告_2026-06.md",
@@ -2783,13 +2783,9 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "股价 $135.22（2026-07-30 收盘），较 07-29 低点反弹 +9.0%、较 6 月 26 日锚点 −38.8%；市值约 $1,162 亿、EV 约 $1,234 亿",
-      "前瞻 P/E 现约 43.4 倍（2026E）/ 约 34.9 倍（2027E）；EV/Sales 现约 7.7 倍 / 6.8 倍",
-      "“本覆盖中最贵前瞻倍数”的说法已废止——在约 39.8 倍下不再成立（旧口径已移除）",
-      "Q2 2026 经营数据不变：光通信 +32%、企业网络 +65%、核心 EPS $0.78、核心营业利润率 20.9%",
-      "按所有者 Q1 裁定以当前价格复核：维持中性观察/中确信，网格权重保留；Springboard 阶梯与光通信增速持久性仍是验证点"
+      "2026-10-27发布2026 Q3：core sales $50.81亿（+19%）、core EPS $0.91（+36%）；光通信$23.79亿（+44%），Enterprise Networks +84%、Gen AI产品逾+100%；Q4指引core sales $52-53亿；估值仍按2026-07-31口径，待Mode B重算"
     ],
-    "summaryEn": "July 31, 2026 stance re-adjudication: GLW closed at $135.22 on 2026-07-30, +9.0% off the 07-29 low and -38.8% from the June 26 anchor, for about $116.2B market cap and ~$123.4B enterprise value. Recomputed on the report's own consensus estimates, forward P/E is ~43.4x (2026E core EPS $3.12) and ~34.9x (2027E $3.86), with EV/Sales at ~7.7x / ~6.8x. The report's claim that it carried the richest forward multiple in this coverage is retired. The Q2 2026 operating data integrated on 07-28 (Optical +32%, Enterprise Networks +65%, core EPS $0.78) is unchanged. Springboard's ladder and the durability of 30%+ Optical growth remain unproven; re-checked at the current price under the owner's Q1 ruling, the neutral-watch / medium-conviction stance holds and the grid weights are retained.",
+    "summaryEn": "Updated 2026-10-28 (Mode A factual increment, no valuation re-anchor): Q3 2026 results released 2026-10-27 showed core sales of $5.081B (+19% YoY) and core EPS of $0.91 (+36%) (GAAP net sales $4.855B, GAAP EPS $0.78); Optical Communications net sales were $2.379B (+44% YoY, +15% QoQ), Enterprise Networks grew 84% and the company said Gen AI product sales grew more than 100% year over year; core gross margin was 40.5%, core operating margin 22.7% and adjusted free cash flow $661M ($2.27B for nine months); the company secured four long-term, multibillion-dollar customer agreements in Q3, including with Verizon and AT&T; the Q4 guide is core sales of $5.2-5.3B and core EPS of $0.96-1.00. Valuation remains anchored to the 2026-07-31 basis ; current price, share count, cash/debt and the consensus denominators await Mode B recomputation, and the stance was not re-adjudicated in this pass (neutral-watch / medium, adjudicated 2026-07-31).",
     "chainLayer": "optical",
     "coverageTier": "full",
     "chainRole": "dashboard",
@@ -2845,7 +2841,7 @@
       }
     ],
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q2 2026",
+    "reportedPeriod": "Q3 2026",
     "related": [
       "aaoi-2026"
     ],
@@ -2863,13 +2859,13 @@
           "en": "Optical Communications growth stalls toward flat for two consecutive quarters (the report's Section 7 thesis-breaking line) - falsifying that AI cluster expansion reaches the physical link layer"
         },
         "latest": {
-          "zh": "2026Q2（2026-07-28）：Optical Communications 净销售额 $2.072B，同比 +32%、环比约 +12%（Q1 为 $1.846B、+36%），其中 Enterprise Networks +65%，公司称 Gen AI 产品销售增长明显更快；Q3 2026 指引 core sales $4.9-5.0B。触发条件（光通信增速失速）未触发。证据边界：整体光通信同比增速放缓至 +32%，而 AI 权重更高的 Enterprise Networks 加速至 +65%；康宁未单独披露 Gen AI 产品销售的具体金额。",
-          "en": "Q2 2026 (July 28, 2026): Optical Communications net sales were $2.072B, +32% YoY and about +12% sequentially (Q1 was $1.846B at +36%), with Enterprise Networks +65% and the company saying Gen AI product sales grew significantly faster; Q3 2026 guidance is core sales $4.9-5.0B. The trigger (Optical Communications growth stalls) was not met. Evidence limits: total optical YoY decelerated to +32% while the AI-heavy Enterprise Networks accelerated to +65%, and Corning did not disclose a dollar figure for Gen AI product sales specifically."
+          "zh": "2026Q3（2026-10-27）：Optical Communications 净销售额 $2.379B，同比 +44%（2025 Q3 $1.652B）、环比约 +15%（Q2 $2.072B、+32%），分部净利润 $532M（同比 +80%）；Enterprise Networks 同比 +84%，公司称 Gen AI 产品销售同比增长逾 100%。光通信增速由 Q2 的 +32% 回升至 +44%，触发条件（连续两个季度朝持平回落）未触发。证据边界：康宁仍未单独披露 Gen AI 产品销售的具体金额，「逾 100%」为公司表述。",
+          "en": "Q3 2026 (October 27, 2026): Optical Communications net sales were $2.379B, +44% YoY (Q3 2025: $1.652B) and about +15% sequentially (Q2 was $2.072B at +32%), with segment net income of $532M (+80%); Enterprise Networks grew 84% and the company said Gen AI product sales grew more than 100% year over year. Optical growth re-accelerated from +32% in Q2 to +44%, so the trigger (two consecutive quarters stalling toward flat) has not fired. Evidence limits: Corning still does not disclose a dollar figure for Gen AI product sales, and \"more than 100%\" is the company's statement."
         },
-        "nextCheck": "2026-Q3 财报 / Q3 earnings",
+        "nextCheck": "2026 Q4 财报（发行人尚未公布发布日）/ Q4 2026 results (release date not yet issuer-announced)",
         "nextCheckDate": "2026-10",
         "reading": "within",
-        "readingAsOf": "2026-07-28"
+        "readingAsOf": "2026-10-27"
       },
       {
         "id": "customer-concentration-funding",
@@ -2902,12 +2898,12 @@
           "en": "core sales run-rate advances toward ~$20B by end-2026 (~$30B 2028, ~$40B 2030)"
         },
         "latest": {
-          "zh": "2026Q2 core sales $4.74B（年化约 $190 亿，向 2026 年底约 $200 亿目标推进）；核心营业利润率 20.9%，调整后自由现金流 $1.42B。管理层称 Q2 在上修后的 Springboard 计划上取得进展。",
-          "en": "Q2 2026 core sales were $4.74B (about a $19B annualized run rate, tracking toward the ~$20B end-2026 target); core operating margin was 20.9% and adjusted free cash flow was $1.42B. Management said Q2 demonstrated progress on the recently upgraded Springboard plan."
+          "zh": "2026Q3 core sales $5.081B（同比 +19%，环比 +7%），按季度乘四约 $203 亿年化（自算），已达 2026 年底约 $200 亿目标附近；Q4 指引 core sales $5.2-5.3B（同比约 +19%）、core EPS $0.96-1.00；核心营业利润率 22.7%（同比 +310 个基点），调整后自由现金流 $661M（前九个月 $2.27B），Q3 资本开支 $545M；公司称 Q3 新签四份长期、数十亿美元级客户协议（含 Verizon 与 AT&T），并称 Springboard「20-30-40」计划描述的增长加速已开始。触发条件（运行率向约 $200 亿推进）成立。",
+          "en": "Q3 2026 core sales were $5.081B (+19% YoY, +7% QoQ), about a $20.3B annualized run rate on a simple quarterly x4 (our arithmetic), at the roughly $20B end-2026 target; the Q4 guide is core sales of $5.2-5.3B (about +19% YoY) and core EPS of $0.96-1.00. Core operating margin was 22.7% (+310bps YoY), adjusted free cash flow $661M ($2.27B for nine months) and Q3 capex $545M; the company says it secured four long-term, multibillion-dollar customer agreements in Q3, including with Verizon and AT&T, and that the growth acceleration outlined in its \"20-30-40\" Springboard plan has begun. The trigger (run rate advancing toward ~$20B) holds."
         },
         "nextCheck": "季度核心营收运行率 / quarterly core-sales run-rate",
         "reading": "within",
-        "readingAsOf": "2026-07-28"
+        "readingAsOf": "2026-10-27"
       },
       {
         "id": "valuation-debt",

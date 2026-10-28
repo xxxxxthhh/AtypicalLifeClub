@@ -3085,5 +3085,29 @@
     "monitoringRefs": [
       "broadcom-2026:xpu-customer-concentration"
     ]
+  },
+  {
+    "id": "corning-q3-2026-optical-results-20261027",
+    "date": "2026-10-27",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "康宁 Q3 2026 光通信销售 $23.79 亿、同比 +44%，core sales $50.81 亿",
+      "en": "Corning Q3 2026 Optical Communications sales $2.379B (+44% YoY); core sales $5.081B"
+    },
+    "detail": {
+      "zh": "据康宁 2026-10-27 Q3 2026 业绩稿（8-K Item 2.02，Exhibit 99，https://www.sec.gov/Archives/edgar/data/24741/000002474126000273/glw-20261027xex99xq32026.htm）：core sales $5,081M（同比 +19%）、core EPS $0.91（同比 +36%），GAAP net sales $4,855M、GAAP EPS $0.78；Optical Communications 净销售额 $2,379M（同比 +44%、环比 +15%），分部净利润 $532M；Enterprise Networks 同比 +84%，公司称 Gen AI 产品销售同比增长逾 100%；核心营业利润率 22.7%，调整后自由现金流 $661M；Q3 新签四份长期、数十亿美元级客户协议（含 Verizon 与 AT&T）；Q4 指引 core sales $5.2-5.3B、core EPS $0.96-1.00。本轮读数：optical-genai-pull within、springboard-runrate within。证据边界：Gen AI 产品销售金额未披露，「逾 100%」为公司表述；四份协议中另两份未点名，金额与期限未披露，不等于已确认收入；未读电话会。估值仍为 2026-07-31 历史基础，当前估值待 Mode B。",
+      "en": "Per Corning's Q3 2026 results of October 27, 2026 (8-K Item 2.02, Exhibit 99, https://www.sec.gov/Archives/edgar/data/24741/000002474126000273/glw-20261027xex99xq32026.htm): core sales $5,081M (+19% YoY) and core EPS $0.91 (+36%), with GAAP net sales $4,855M and GAAP EPS $0.78; Optical Communications net sales were $2,379M (+44% YoY, +15% QoQ) with segment net income of $532M; Enterprise Networks grew 84% and the company said Gen AI product sales grew more than 100% year over year; core operating margin was 22.7% and adjusted free cash flow $661M; the company secured four long-term, multibillion-dollar customer agreements in Q3, including with Verizon and AT&T; the Q4 guide is core sales of $5.2-5.3B and core EPS of $0.96-1.00. Readings this pass: optical-genai-pull within, springboard-runrate within. Evidence limits: the Gen AI product sales amount is undisclosed and \"more than 100%\" is the company's statement; the other two agreements are unnamed and their amounts and terms undisclosed, and none of them is recognized revenue; the call was not read. Valuation retains the historical 2026-07-31 basis, with current valuation pending Mode B."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "GLW"
+    ],
+    "reportIds": [
+      "corning-2026"
+    ],
+    "monitoringRefs": [
+      "corning-2026:optical-genai-pull",
+      "corning-2026:springboard-runrate"
+    ]
   }
 ]
