@@ -12387,8 +12387,8 @@
     "priceSymbol": "STX",
     "title": "Seagate 深度研究报告 - 先定价、后兑现的 HAMR 领先",
     "titleEn": "Seagate Deep Research Report - A HAMR Lead Priced Before It Pays",
-    "summary": "2026-09-23 首次覆盖，锚定 2026-09-22 收盘 $919.84。以下限口径 228,292,380 股（10-K 封面 2026-07-31 的 226,644,518 股 ＋ 2026-09-08 可交换票据赎回交付的 1,647,862 股）计市值 $2,099.9 亿，加 2026-07-03 本金口径净债务 $18.99 亿后企业价值 $2,118.9 亿，对应 FY2026 EV/Sales 17.38x、非 GAAP P/E 59.04x、FCF 收益率 1.48%（剔除约 $4.35 亿应计未付税款后约 1.27%），Q1 FY2027 指引年化 P/E 31.50x。核心发现：Seagate 是唯一批量出货 HAMR 的近线 HDD 厂商——2026 年 6 月约 40% 近线 EB 跑在 HAMR 上（电话会），44TB 级 Mozaic 4 在两家最大云厂商处爬坡——但 FY2026 的领先体现为价格与结构而非成本：Q4 每 EB 收入 $16.65 百万对 WDC $16.22 百万，每 EB 成本 $7.87 百万对 $7.40 百万，每 EB 毛利 $8.77 百万对 $8.82 百万几乎相同；全年 WDC 出货更多、每 EB 更便宜、非 GAAP 毛利率反而高 3.0 个百分点（49.1% 对 46.1%）。成本交叉被 Q1 FY2027 指引（营业利润率约 50%，隐含毛利率约 57.3%）提前到下一季，尚未报出。44TB 上 Seagate 约领先一代（WDC 称其 44TB HAMR 于 2027 年上半年出货），但按已公布路线图两家的 50TB 都落在 2027 年（Seagate Mozaic 5 于 2027 年末认证出货、WDC 于 2027 年下半年推出），领先趋同。以 common-constraint 角色检验容量层供给能否靠面密度扩张：FY2026 台数持平下 EB +32.6%，但资本开支翻倍至收入 4.7%。30/50/20 情景网格加权每股价值 $730.52，加 $8.88 股息后 2.77 年年化 -7.6%，低于 8%–10% 要求回报 15.6–17.6 个百分点；退出倍数整体上调 4 倍仍为 -0.5%。牛市情景年化 +9.3%，故立场谨慎 / 中确信。",
-    "summaryEn": "Initial coverage dated 2026-09-23, anchored on the 2026-09-22 close of $919.84. On the floor basis of 228,292,380 shares (226,644,518 on the 10-K cover dated 2026-07-31 plus 1,647,862 shares delivered in the 2026-09-08 exchangeable-note redemption), market capitalization is $209.99B; adding $1.899B of principal-basis net debt at 2026-07-03, enterprise value is $211.89B, or 17.38x FY2026 sales, 59.04x FY2026 non-GAAP EPS and a 1.48% FCF yield (about 1.27% excluding roughly $435M of accrued but unpaid tax), with a Q1 FY2027 guidance-annualized P/E of 31.50x. Core finding: Seagate is the only nearline HDD maker shipping HAMR in volume - about 40% of nearline exabytes ran on HAMR in June 2026 (call) and the 44TB-class Mozaic 4 is ramping at the two largest cloud providers - but in FY2026 the lead shows up as price and mix, not cost: Q4 revenue per exabyte was $16.65M against WDC's $16.22M, cost per exabyte $7.87M against $7.40M, and gross profit per exabyte almost identical at $8.77M against $8.82M; for the full year WDC shipped more exabytes at a lower blended price and still earned a 3.0-point higher non-GAAP gross margin (49.1% against 46.1%). The cost crossover is pulled forward by Q1 FY2027 guidance (about 50% operating margin, implying a gross margin near 57.3%) and has not yet been reported. Seagate leads by about one generation at 44TB (WDC says its 44TB HAMR ships in the first half of calendar 2027), but on announced roadmaps both companies' 50TB nodes fall in calendar 2027 (Seagate's Mozaic 5 qualification shipments in late 2027, WDC's 50TB products in the second half of 2027), so the lead converges. In the common-constraint role, the report tests whether the capacity tier's supply can expand by areal density: FY2026 exabytes rose 32.6% on flat units, but capex doubled to 4.7% of revenue. A 30/50/20 scenario grid weights to $730.52 per share, or -7.6% annualized over 2.77 years including $8.88 of dividends, 15.6 to 17.6 points below an 8%-10% required return; lifting all exit multiples by 4x still gives -0.5%. The bull case returns +9.3% annualized, so the stance is cautious / medium conviction.",
+    "summary": "2026-10-28更新（Mode A事实增量，无估值重锚）：2026-10-27美股收盘后发布的Q1 FY2027（季度截至2026-10-02）收入$42.33亿（上年同期$26.29亿）、非GAAP毛利率57.8%（GAAP 57.3%；Q4 FY2026为52.7%）、非GAAP营业利润率50.7%（GAAP 48.8%）、非GAAP摊薄EPS $7.68（GAAP $7.59）；经营现金流约$17亿、自由现金流约$15亿；季内偿还约$12亿本金债务、季后再偿还$7.5亿（总债务降至$16亿），向股东返还$5.68亿，季度股息上调约3%至$0.76；Q2 FY2027指引收入$48亿±$1亿、非GAAP EPS $9.20±$0.20。新闻稿未给出EB、每EB收入或HAMR数据（另见补充财务资料，本轮未读）。估值仍按2026-09-22锚定的旧口径（$919.84），当前股价、股本、现金债务与年化分母待Mode B重算；本次未重新裁定立场（谨慎／中确信，2026-09-23首次覆盖）。",
+    "summaryEn": "Updated 2026-10-28 (Mode A factual increment, no valuation re-anchor): Q1 FY2027 results (quarter ended 2026-10-02), released after the US close on 2026-10-27, showed revenue of $4.233B (year-earlier $2.629B), non-GAAP gross margin of 57.8% (GAAP 57.3%; Q4 FY2026 was 52.7%), non-GAAP operating margin of 50.7% (GAAP 48.8%) and non-GAAP diluted EPS of $7.68 (GAAP $7.59); operating cash flow was about $1.7B and free cash flow about $1.5B; the company retired about $1.2B of principal debt in the quarter and a further $750M after quarter-end (gross debt now $1.6B), returned $568M to shareholders and raised the quarterly dividend about 3% to $0.76; the Q2 FY2027 guide is revenue of $4.8B +/- $100M and non-GAAP EPS of $9.20 +/- $0.20. The release gives no exabyte, revenue-per-exabyte or HAMR figures (these are in a supplemental document not read in this pass). Valuation remains anchored to the 2026-09-22 basis ($919.84); current price, share count, cash/debt and the annualized denominators await Mode B recomputation, and the stance was not re-adjudicated in this pass (cautious / medium, initiated 2026-09-23).",
     "tags": [
       "近线HDD",
       "HAMR",
@@ -12397,19 +12397,14 @@
     ],
     "category": "tech",
     "date": "2026-09-23",
-    "lastUpdate": "2026-09-23",
+    "lastUpdate": "2026-10-28",
     "file": "/invest/research/reports/view.html?id=seagate-2026",
     "markdownFiles": {
       "zh": "/invest/research/Seagate_深度研究报告_2026-09.md",
       "en": "/invest/research/Seagate_Deep_Research_Report_2026-09.md"
     },
     "highlights": [
-      "市场数据（2026-09-22 收盘）：股价 $919.84、下限口径市值 $2,099.9 亿、企业价值 $2,118.9 亿；52 周收盘区间 $211.63（2025-10-14）–$1,094.04（2026-06-22），现价距收盘高点 -15.9%",
-      "HAMR 领先是价格杠杆而非成本杠杆：Q4 FY2026 每 EB 收入 $16.65 百万对 WDC $16.22 百万，每 EB 成本 $7.87 百万对 $7.40 百万，每 EB 毛利 $8.77 百万对 $8.82 百万；FY2026 WDC 非 GAAP 毛利率 49.1% 高于 Seagate 46.1%",
-      "成本交叉被指引、尚未报出：Q1 FY2027 指引营业利润率约 50%、营业费用约 $3 亿，隐含毛利率约 57.3%，WDC 指引 55%–56%；同为 $41 亿收入指引下 Seagate 隐含非 GAAP 净利约 $16.86 亿对 WDC 约 $15.52 亿",
-      "技术时点：HAMR 约占近线 EB 40%（2026 年 6 月，电话会），Mozaic 4（44TB）在两家最大云厂商爬坡；WDC 44TB HAMR 2027 年上半年、50TB 2027 年下半年（WDC 电话会），Seagate Mozaic 5 / 50TB 2027 年末认证——44TB 领先约一代，50TB 趋同",
-      "资产负债表与股本：2026-07-15 赎回 $10 亿 8.25%/8.50% 高息债，2026-09-08 清偿最后 $1.507 亿可交换票据（交付 1,647,862 股），本金降至约 $24.17 亿、净杠杆 0.4x，已无残余可转债稀释",
-      "内部人减持逐笔核对：7–9 月约 $3.517 亿代码 S 卖出中 $1.851 亿为 2026 年 1–4 月采纳的 10b5-1 计划、$1.292 亿为公司强制 sell-to-cover（9-14 PSU 归属），不构成信息优势红旗；CEO 最新 Form 4 显示直接持有 378,108 股"
+      "2026-10-27发布Q1 FY2027：收入$42.33亿、非GAAP毛利率57.8%（Q4 FY2026为52.7%）、非GAAP营业利润率50.7%、EPS $7.68；季内外合计偿债约$19.5亿；Q2指引收入$48亿±$1亿；EB／HAMR数据未在新闻稿中披露；估值仍按2026-09-22口径，待Mode B重算"
     ],
     "period": "FY2026",
     "versionType": "initial",
@@ -12422,7 +12417,7 @@
     "stance": "cautious",
     "conviction": "medium",
     "priceAsOf": "2026-09-22",
-    "reportedPeriod": "FY2026 Form 10-K / Q4 FY2026",
+    "reportedPeriod": "Q1 FY2027",
     "related": [
       "sandisk-2026",
       "micron-2026",
@@ -12506,12 +12501,12 @@
           "en": "Downside: Q1 FY2027 non-GAAP operating margin below 48% or a sequential gross-margin decline; upside: two consecutive quarters at or above 57%"
         },
         "latest": {
-          "zh": "Q4 FY2026 非 GAAP 毛利率 52.7%（WDC 54.4%）；FY2026 每 EB 成本 $8.33 百万对 WDC $7.54 百万、每 EB 毛利 $7.13 百万对 $7.27 百万——HAMR 目前是价格与结构杠杆而非成本杠杆。Q1 FY2027 指引营业利润率约 50%、营业费用约 $3 亿，隐含毛利率约 57.3%（本报告推算），WDC 指引 55%–56%。",
-          "en": "Q4 FY2026 non-GAAP gross margin 52.7% (WDC 54.4%); FY2026 cost per exabyte $8.33M against WDC's $7.54M and gross profit per exabyte $7.13M against $7.27M - HAMR is so far a price and mix lever, not a cost lever. Q1 FY2027 guidance of about 50% operating margin and about $300M of operating expense implies a gross margin near 57.3% (this report's derivation), against WDC's guided 55%-56%."
+          "zh": "Q1 FY2027（季度截至 2026-10-02，2026-10-27 发布）非 GAAP 毛利率 57.8%（GAAP 57.3%），较 Q4 FY2026 的 52.7% 环比上升；非 GAAP 营业利润率 50.7%（GAAP 48.8%），高于 48% 下行门槛；WDC 同季非 GAAP 毛利率 58.1%（据本中心 wdc-2026 报告所载 WDC 2026-10-22 业绩稿）。下行腿（营业利润率低于 48% 或毛利率环比下降）未触发；上行腿（连续两个季度不低于 57%）已满足第一个季度，须 Q2 FY2027 再确认。Q2 FY2027 指引只给收入 $48 亿 ±$1 亿与非 GAAP EPS $9.20 ±$0.20，未给毛利率。",
+          "en": "Q1 FY2027 (quarter ended 2026-10-02, released 2026-10-27): non-GAAP gross margin 57.8% (GAAP 57.3%), up sequentially from 52.7% in Q4 FY2026; non-GAAP operating margin 50.7% (GAAP 48.8%), above the 48% downside threshold; WDC's non-GAAP gross margin for its comparable quarter was 58.1% (per WDC's 2026-10-22 release as recorded in this center's wdc-2026 report). The downside leg (operating margin below 48% or a sequential gross-margin decline) has not fired; the upside leg (two consecutive quarters at or above 57%) has its first quarter and needs Q2 FY2027 to confirm. The Q2 FY2027 guide gives only revenue of $4.8B +/- $100M and non-GAAP EPS of $9.20 +/- $0.20, with no gross-margin guide."
         },
         "reading": "within",
-        "readingAsOf": "2026-07-28",
-        "nextCheck": "Q1 FY2027 业绩稿 / the Q1 FY2027 earnings release",
+        "readingAsOf": "2026-10-27",
+        "nextCheck": "Q2 FY2027 业绩稿（发行人尚未公布发布日）/ the Q2 FY2027 earnings release (release date not yet issuer-announced)",
         "nextCheckDate": "2026-10"
       },
       {

@@ -1,7 +1,7 @@
 # Seagate Technology (STX) Deep Research Report
 
 Coverage date: 2026-09-23
-Last updated: 2026-09-23
+Last updated: 2026-10-28
 Ticker: NASDAQ: STX
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 Reported period: FY2026 Form 10-K (53-week fiscal year ended 2026-07-03) / Q4 FY2026; price anchor: $919.84 close on 2026-09-22; stance: cautious / medium conviction. Financial data is taken from Seagate's SEC filings and its official Q4 FY2026 supplemental financial information unless stated otherwise; figures that come only from the earnings call are labelled "(call)".
@@ -11,6 +11,8 @@ Reported period: FY2026 Form 10-K (53-week fiscal year ended 2026-07-03) / Q4 FY
 ## Executive Summary <!-- report-module:overview -->
 
 **One-line thesis:** Seagate is the only nearline HDD maker already shipping HAMR in volume — about 40% of its nearline exabytes ran on HAMR exiting June 2026 (call) and its 44TB-class Mozaic 4 is ramping at the two largest cloud providers — but on FY2026 figures that lead shows up as **price, not cost**: in Q4 FY2026 Seagate earned $16.65M of revenue per exabyte against Western Digital's $16.22M, spent $7.87M per exabyte against $7.40M, and kept almost exactly the same gross profit per exabyte ($8.77M versus $8.82M). At the 2026-09-22 close of $919.84 the market is already paying 31.5x guidance-annualized EPS for the moment that cost advantage arrives.
+
+> **2026-10-28 factual update (Mode A; Q1 FY2027, quarter ended October 2, 2026; released after the US close on 2026-10-27 - the release dateline "Singapore - October 28" is the Singapore-time date):** revenue **$4.233B** (year-earlier $2.629B); non-GAAP gross margin **57.8%** (GAAP 57.3%), up from 52.7% in Q4 FY2026; non-GAAP operating margin **50.7%** (GAAP 48.8%); non-GAAP diluted EPS **$7.68** (GAAP $7.59). Operating cash flow was about $1.7B and free cash flow about $1.5B. The company retired about $1.2B of principal debt in the quarter (gross debt $2.4B) and a further $750M after quarter-end (gross debt $1.6B), returned $568M to shareholders, and raised the quarterly dividend about 3% to $0.76. **Q2 FY2027 guide:** revenue $4.8B +/- $100M and non-GAAP EPS $9.20 +/- $0.20 (no gross-margin guide). The release gives no exabyte, revenue-per-exabyte or HAMR figures; the supplemental financial information and the call were not read in this pass, so those readings stay on their earlier basis. Source: [Q1 FY2027 release, 8-K Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/1137789/000113778926000300/stxq12027pressreleasefinan.htm). **Valuation boundary:** the valuation in this report stays anchored to the 2026-09-22 close of $919.84 (228,292,380 floor-basis shares; net debt at 2026-07-03 principal); the debt retirements, current share count and the Q1 actual / Q2 guide denominators await Mode B recomputation. The stance (cautious / medium, 2026-09-23) was not re-adjudicated in this pass.
 
 **Investment judgment:**
 - **Stance:** cautious
@@ -324,6 +326,8 @@ The unknowns, each with a confirmation point:
 ---
 
 ## 8. Valuation Context <!-- report-module:valuation -->
+
+> **Valuation boundary (2026-10-28, Mode A):** this section remains on the 2026-09-22 basis; Q1 FY2027 actuals (released 2026-10-27), the Q2 FY2027 guide and the debt retirements change the inputs, which await Mode B recomputation.
 
 Valuation uses the **2026-09-22 close of $919.84** (US markets were inside the 2026-09-23 session when this report was finalized, so the anchor is the latest completed close; no company earnings event lies between the anchor and finalization) and the floor share count of **228,292,380**. The 2026-09-24 ex-dividend of $0.74 falls after the anchor, so the anchor price is cum-dividend and that dividend is counted in the scenario window.
 
