@@ -3132,5 +3132,30 @@
     "monitoringRefs": [
       "seagate-2026:gross-margin-crossover"
     ]
+  },
+  {
+    "id": "paypal-q3-2026-results-20261027",
+    "date": "2026-10-27",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "PayPal Q3 2026 非 GAAP EPS $1.45、TM$ 剔除利息 +3%，FY2026 非 GAAP EPS 指引上调至约 $5.60",
+      "en": "PayPal Q3 2026 non-GAAP EPS $1.45 and TM$ ex-interest +3%; FY2026 non-GAAP EPS guide raised to about $5.60"
+    },
+    "detail": {
+      "zh": "据 PayPal 2026-10-27 Q3 2026 业绩稿（8-K Item 2.02，Exhibit 99.1，https://www.sec.gov/Archives/edgar/data/1633917/000163391726000086/pypl3q-26earningsrelease.htm）：营收 $8,584M（同比 +2%、汇率中性 +1%），TM$ $3,950M（+2%）、剔除客户余额利息 $3,661M（+3%），非 GAAP 营业利润率 18.8%，GAAP／非 GAAP EPS $1.25／$1.45；TPV $487.1B（+6%）；自由现金流 $1,431M、调整后自由现金流 $2,047M；Q3 回购约 2,800 万股、$1.5B；FY2026 非 GAAP EPS 指引约 $5.60（7 月约 $5.38）、GAAP 约 $5.07，Q4 非 GAAP EPS 约 $1.43。本轮读数：tm-dollar-ex-interest within、eps-guidance-delivery within、buyback-capacity unclear（FCF 指引未读）。证据边界：品牌结账与 Venmo TPV 增速、全年 TM$ 与 FCF 指引数字在业绩演示中，本轮未读，branded-checkout-growth 与 venmo-momentum 未更新；10-Q 已提交但未读。估值与立场仍为 2026-10-02 补录口径。",
+      "en": "Per PayPal's Q3 2026 results of October 27, 2026 (8-K Item 2.02, Exhibit 99.1, https://www.sec.gov/Archives/edgar/data/1633917/000163391726000086/pypl3q-26earningsrelease.htm): net revenues $8,584M (+2%, +1% FX-neutral), TM$ $3,950M (+2%) and $3,661M excluding interest on customer balances (+3%), non-GAAP operating margin 18.8%, GAAP / non-GAAP EPS $1.25 / $1.45; TPV $487.1B (+6%); free cash flow $1,431M and adjusted free cash flow $2,047M; Q3 repurchases about 28M shares for $1.5B; FY2026 non-GAAP EPS guidance about $5.60 (July: about $5.38) and GAAP about $5.07, with Q4 non-GAAP EPS about $1.43. Readings this pass: tm-dollar-ex-interest within, eps-guidance-delivery within, buyback-capacity unclear (FCF guide not read). Evidence limits: branded-checkout and Venmo TPV growth and the full-year TM$ and FCF guide figures are in the earnings presentation, not read in this pass, so branded-checkout-growth and venmo-momentum are not updated; the 10-Q was filed but not read. Valuation and stance remain on the 2026-10-02 backfill basis."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "PYPL"
+    ],
+    "reportIds": [
+      "paypal-2026"
+    ],
+    "monitoringRefs": [
+      "paypal-2026:tm-dollar-ex-interest",
+      "paypal-2026:eps-guidance-delivery",
+      "paypal-2026:buyback-capacity"
+    ]
   }
 ]

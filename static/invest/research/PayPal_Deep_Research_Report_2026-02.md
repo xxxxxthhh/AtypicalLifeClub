@@ -1,9 +1,21 @@
 # PayPal Holdings Inc. (PYPL) Deep Research Report
 
 Coverage date: 2026-02-03
-Last updated: 2026-10-02
+Last updated: 2026-10-28
 Ticker: NASDAQ: PYPL
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
+
+---
+
+## Update — October 28, 2026 (Q3 2026 results · primary-source 8-K · Mode A, no re-anchor)
+
+> **Event:** On **2026-10-27** PayPal reported **Q3 2026 results (quarter ended September 30, 2026)** in an [8-K](https://www.sec.gov/Archives/edgar/data/1633917/000163391726000086/pypl-20261027.htm) with [Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/1633917/000163391726000086/pypl3q-26earningsrelease.htm); the Q3 10-Q was filed the same day after the close and was not read in this pass.
+
+> **Q3'26 key figures (primary source):** net revenues **$8,584M (+2%; +1% FX-neutral)**; TM$ **$3,950M (+2%)**, TM$ excluding interest on customer balances **$3,661M (+3%)**; GAAP operating income $1,402M (16.3% margin, -173 bps); non-GAAP operating income $1,613M (18.8%, +16 bps); **GAAP EPS $1.25 (-4%), non-GAAP EPS $1.45 (+8%)**; TPV $487.1B (+6%; +7% FXN); active accounts 440M (+0.6%). Free cash flow $1,431M and adjusted free cash flow $2,047M; cash, cash equivalents and investments $15.1B and debt $13.5B at September 30; about 28M shares repurchased for $1.5B in Q3; quarterly dividend $0.14.
+
+> **Guidance (primary source):** FY'26 non-GAAP EPS raised to **~$5.60** (July: ~$5.38); FY'26 GAAP EPS ~$5.07; Q4'26 non-GAAP EPS ~$1.43 and GAAP ~$1.37. The company says it also raised full-year non-GAAP TM$ guidance; that figure, branded-checkout and Venmo growth, and the adjusted-FCF guide are in the earnings presentation, which was not read in this pass.
+
+> **Monitoring readings:** Q3 non-GAAP EPS $1.45 is above the $1.27 downgrade line and FY'26 guidance moved up, not below $5.25; TM$ ex-interest +3% is neither negative nor at the +5% upgrade condition; quarterly repurchases stayed at or above $1.0B. **Valuation boundary:** the scenario grid, multiples and the constructive / low-conviction stance remain on the **2026-10-02 backfill basis** (2026-10-01 close of $53.06; 855,460,874 shares; Q2 balance sheet). Q3 actuals and the raised guide change the denominators; current price, share count and net cash await Mode B recomputation, and the stance was not re-adjudicated in this pass.
 
 ---
 
