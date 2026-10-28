@@ -3036,5 +3036,31 @@
       "amkr-2026:customer-concentration-apple",
       "amkr-2026:computing-vs-communications-mix"
     ]
+  },
+  {
+    "id": "sk-hynix-q3-2026-results-20261028",
+    "date": "2026-10-28",
+    "title": {
+      "zh": "SK hynix Q3 2026 营业利润率 80%、收入 ₩104.6 万亿；LTA 覆盖 2027-2028 年产能逾 50%",
+      "en": "SK hynix Q3 2026 operating margin 80% on ₩104.6T revenue; LTAs cover more than 50% of 2027-2028 capacity"
+    },
+    "detail": {
+      "zh": "据 SK hynix 2026-10-28 Q3 2026 业绩稿（发行人新闻室，https://news.skhynix.com/en/q3-2026-business-results/；K-IFRS 初步数，审阅未完成）：收入 ₩104.6155 万亿（环比 +32%、同比 +328%）、营业利润 ₩83.3338 万亿（营业利润率 80%，Q2 76%）、净利润 ₩39.7756 万亿（净利率 38%，Q2 ₩93.9226 万亿）；DRAM 由服务器 DDR5 与 HBM4 出货驱动，NAND 由 321 层 TLC eSSD 驱动；公司预计 Q4 HBM4 出货量与收入超过 HBM3E；已与 14 家主要客户签订 LTA，锁定量相当于 2027-2028 年总产能逾 50%，价格在约定区间内随市况调整；公司预计需求大于供给持续至 2030 年，并称明年投资将显著增加但会灵活调整规模与时点。本轮读数：margin-mean-reversion within（营业利润率未回落）、hbm4-competition unclear（三星/美光未披露）、nvidia-lockin unclear（主供地位未披露）。证据边界：需求确认来自供应商自述的 LTA 与预测，不是买方披露；LTA 数量、价格、客户名单与净利润桥接均未披露；未读电话会。股东回报与资产负债表数字（股息、回购、注销、净现金）属股本与估值输入，留待 Mode B，不在本条推导。估值仍为 2026-07-31 历史基础。",
+      "en": "Per SK hynix's Q3 2026 results of October 28, 2026 (issuer newsroom, https://news.skhynix.com/en/q3-2026-business-results/; preliminary K-IFRS, review not finalized): revenue ₩104.6155T (+32% QoQ, +328% YoY), operating profit ₩83.3338T (80% operating margin; Q2 76%) and net profit ₩39.7756T (38% net margin; Q2 ₩93.9226T). DRAM was driven by server DDR5 and HBM4 shipments and NAND by 321-layer TLC eSSD; the company expects HBM4 to surpass HBM3E in Q4 shipments and revenue; LTAs are signed with 14 major customers with secured volume equal to more than 50% of total 2027-2028 production capacity, priced within agreed ranges that reflect market conditions; the company expects demand to exceed supply through 2030 and says investment will rise significantly next year while scale and timing stay flexible. Readings this pass: margin-mean-reversion within (the operating margin has not rolled over), hbm4-competition unclear (Samsung/Micron undisclosed), nvidia-lockin unclear (main-supplier status undisclosed). Evidence limits: the demand confirmation is the supplier's own LTA statements and forecast, not buyer-side disclosure; LTA volumes, prices, customer names and the net-profit bridge are undisclosed; the call was not read. Shareholder-return and balance-sheet figures (dividends, repurchases, cancellations, net cash) are share-count and valuation inputs left to Mode B and are not derived here. Valuation retains the historical 2026-07-31 basis."
+    },
+    "crossChecks": [
+      "memory-cycle"
+    ],
+    "tickers": [
+      "000660.KS"
+    ],
+    "reportIds": [
+      "sk-hynix-2026"
+    ],
+    "monitoringRefs": [
+      "sk-hynix-2026:margin-mean-reversion",
+      "sk-hynix-2026:hbm4-competition",
+      "sk-hynix-2026:nvidia-lockin"
+    ]
   }
 ]

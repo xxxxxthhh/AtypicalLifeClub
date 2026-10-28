@@ -1,7 +1,7 @@
 # SK hynix (000660) Deep Research Report
 
 Coverage date: 2026-02-25
-Last updated: 2026-07-31
+Last updated: 2026-10-28
 Ticker: KRX: 000660 / NASDAQ: SKHY
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -14,6 +14,8 @@ This report is the full rerun successor to `sk-hynix-2026-pre-rerun`; the archiv
 **One-line thesis:** SK hynix is the global HBM (High Bandwidth Memory) monopolist (53% share + NVIDIA lock-in), riding the AI-memory supercycle to record results — a 76% operating margin in Q2 2026. *Old framing, superseded 2026-07-31: the stock had risen ~3.5x since February with market cap above $1.3T, so February's "deeply undervalued" thesis had largely played out.* **After a −41% move to ₩1,718,000 (2026-07-31 KRX close) and a near-doubling of TTM revenue, P/S is back to ~6.5x — essentially February's 6.3x starting point.** The debate is no longer "is it cheap"; it is whether peak-cycle revenue and a 76% margin are the right denominator.
 
 **Current view:** Neutral-watch / medium conviction — re-adjudicated 2026-07-31 at the ₩1,718,000 KRX close (old stance: cautious; see the re-adjudication block below). **000660 closed at ₩1,718,000 on 2026-07-31 (KRX)**, about **₩1,219.7T** market cap (~$853B at ~₩1,430/USD) on ~709.9M shares, with **P/S (TTM) ~6.5x**. *Superseded intermediate: the 2026-07-29 trough close of ₩1,401,000, ~₩994.5T and ~5.3x used earlier in this pass.* *Old caliber, superseded: ₩2,917,000 on June 25, 2026, ~₩2,070T (~$1.3T), TTM P/E ~28x, described as re-rated from deep value with a narrowed margin of safety.* The 52-week range is roughly ₩245,000-₩2,986,000. Fundamentals are exceptionally strong, and the **76% Q2 operating margin is almost certainly near a cyclical peak — which is now the whole of the cautious case, since the valuation leg of it has gone.**
+
+> **2026-10-28 factual update (Mode A; Q3 2026, quarter ended September 30, 2026; issuer release dated October 28, 2026, preliminary K-IFRS):** revenue **₩104.6155T** (+32% QoQ, +328% YoY; the first quarter above ₩100T), operating profit **₩83.3338T** (operating margin **80%**, against 76% in Q2) and net profit **₩39.7756T** (38% net margin; Q2 was ₩93.9226T, so -58% QoQ - the release itemizes the operating-to-net bridge for neither quarter). The company says HBM4 shipments began in earnest and expects HBM4 to surpass HBM3E in both shipment volume and revenue in Q4; it has signed LTAs with **14 major customers** (Q2: about 10) whose secured volume corresponds to **more than 50% of total 2027 and 2028 production capacity**, priced within customer-agreed ranges that reflect market conditions (volumes, prices and customer names not disclosed), and it expects demand to exceed supply through 2030. Shareholder returns (issuer statement): about ₩100T in total for FY2026; the ₩40T repurchase announced in August was completed last week and is to be cancelled shortly; today's board resolved a Q3 cash dividend of ₩14T (₩20,000 per share, of which ₩10,000 is a special dividend sharing the Kioxia investment gains) and a ₩20T repurchase, of which ₩10T is to be cancelled in full and about ₩10T used for employee compensation. Source: [SK hynix newsroom, October 28, 2026](https://news.skhynix.com/en/q3-2026-business-results/). **Valuation boundary:** the valuation in this report stays anchored to the 2026-07-31 KRX close of ₩1,718,000 (about 6.5x TTM P/S on about ₩189.2T of TTM revenue through Q2, about 709.9M shares, Q2 period-end net cash); Q3 changes the TTM revenue denominator and the cash position, and the announced cancellations will change the share count once executed - all await Mode B recomputation. The first completed KRX session after the release had not finished at the time of this update. The stance (neutral-watch / medium, 2026-07-31) was not re-adjudicated in this pass.
 
 > **2026-07-31 valuation-sensitive full update — this discharges the "separate valuation-sensitive full update" that the 2026-07-30 monitoring pass said this report still needed.** The frozen ₩2,917,000 snapshot has been replaced.
 >
@@ -313,6 +315,8 @@ Korean semiconductors are caught in US-China tensions; U.S. export controls on C
 ## 8. Valuation Context
 
 The following is valuation context, not a target price or recommendation.
+
+> **Valuation boundary (2026-10-28, Mode A):** this section remains on the 2026-07-31 basis (₩1,718,000; TTM revenue of about ₩189.2T through Q2 2026). Q3 2026 revenue of ₩104.6155T changes the TTM denominator; current price, share count and net cash await Mode B recomputation. The multiples below are not a valuation at the current market price.
 
 | Method | Current readout | Interpretation |
 |--------|-----------------|----------------|
