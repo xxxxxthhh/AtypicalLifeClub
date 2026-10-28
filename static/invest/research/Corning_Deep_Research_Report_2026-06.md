@@ -1,7 +1,7 @@
 # Corning (GLW) Deep Research Report
 
 Coverage date: 2026-06-29
-Last updated: 2026-07-31
+Last updated: 2026-10-28
 Ticker: NYSE: GLW
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence. All prices and market caps are point-in-time snapshots; financial figures are per company disclosure unless noted otherwise.
 
@@ -12,6 +12,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 ## Executive Summary
 
 **One-line thesis:** Corning is the picks-and-shovels supplier of the physical connective tissue of AI data centers — optical fiber and cable. The company that invented low-loss fiber is now being pulled by a generative-AI buildout so large that its three biggest customers (Meta, NVIDIA, Amazon) have signed multi-year, multi-billion-dollar supply deals — and NVIDIA has taken a warrant position — ~$500M of upfront proceeds now, exercisable to **up to ~$3.2B of equity in total** over time — to fund U.S. capacity. Q1 2026 Optical Communications sales grew **+36% to $1.85B**, and the diversified specialty-glass franchise (display/Gorilla Glass, automotive, solar, life sciences) provides ballast. The "Springboard" plan is delivering margin expansion (core operating margin already at **20.2%**, hit a year early).
+
+> **2026-10-28 factual update (Mode A; Q3 2026, quarter ended September 30, 2026; released 2026-10-27):** core sales **$5.081B (+19% YoY)** and core EPS **$0.91 (+36%)** (GAAP net sales $4.855B, GAAP EPS $0.78). **Optical Communications net sales were $2.379B, +44% YoY** and about +15% sequentially, with segment net income of $532M; **Enterprise Networks grew 84%** and the company said **Gen AI product sales grew more than 100%** year over year (no dollar figure disclosed). Core gross margin was 40.5%, core operating margin 22.7% and adjusted free cash flow $661M ($2.27B for nine months), with Q3 capex of $545M. The company secured **four long-term, multibillion-dollar customer agreements** in Q3, including with Verizon and AT&T (the other two unnamed; amounts and terms undisclosed). **Q4 guide:** core sales $5.2-5.3B and core EPS $0.96-1.00. Source: [Q3 2026 release, 8-K Exhibit 99](https://www.sec.gov/Archives/edgar/data/24741/000002474126000273/glw-20261027xex99xq32026.htm). **Valuation boundary:** the valuation in this report stays anchored to the 2026-07-31 basis ($135.22 close of 2026-07-30; about 43.4x 2026E core EPS on the report's consensus estimates); current price, share count, cash/debt and the consensus denominators await Mode B recomputation. The stance (neutral-watch / medium, 2026-07-31) was not re-adjudicated in this pass.
 
 > **2026-07-28 factual update (Q2 2026, quarter ended June 30, 2026):** Corning reported core sales of **$4.74B (+17% YoY)** and core EPS of **$0.78 (+30% YoY)** (GAAP net sales $4.51B, GAAP EPS $0.64). **Optical Communications net sales were $2.072B (+32% YoY, ~+12% sequentially from Q1's $1.846B)**, with **Enterprise Networks +65%** and the company saying Gen AI product sales grew "significantly faster." Core operating margin was **20.9%** and adjusted free cash flow was **$1.42B**. Management guided **Q3 2026** to core sales of **$4.9-5.0B** and core EPS of **$0.85-0.89**. The $221.05 price and ~71x 2026E core EPS below are the **frozen June 26, 2026 valuation snapshot**; this monitoring pass adds operating evidence but does **not** refresh the share price, annual EPS estimate, valuation multiple, stance, or conviction. Stance stays **neutral watch / medium conviction**.
 
@@ -199,6 +201,8 @@ Q2 guidance implies continued double-digit growth and ~25% EPS gains. The Spring
 ## 8. Valuation Context
 
 > The following is valuation "context," not a price target or a buy/sell recommendation.
+
+> **Valuation boundary (2026-10-28, Mode A):** the readouts below remain on the 2026-07-31 basis; Q3 2026 results (released 2026-10-27) change the trailing denominators, and current price, share count and cash/debt await Mode B recomputation.
 
 - **Forward P/E ~~~71x (2026E) / ~57x (2027E)~~ ~43.4x (2026E) / ~34.9x (2027E), 2026-07-31 re-adjudication at the 07-30 close:** on the same consensus core EPS of ~$3.12 (2026E) and ~$3.86 (2027E) at the $135.22 close (superseded intermediate: ~39.8x / ~32.1x at the 07-29 trough). ~~This is the **richest forward multiple in this center's AI-infrastructure coverage**~~ — **that claim is retired: at ~43.4x Corning is no longer the richest forward multiple in this coverage.** For context, NVIDIA traded ~25x forward and Broadcom ~33x on the June screen (not re-verified here). Corning's premium reflects both high expected growth and structurally lower margins (~20% operating margin vs. chip peers' far higher), so the same dollar of revenue carries less profit.
 - **EV/Sales ~~~12x (2026E) / ~11x (2027E)~~ ~7.7x (2026E) / ~6.8x (2027E), 2026-07-31 re-adjudication at the 07-30 close:** EV ~**$123.4B** (market cap ~$116.2B + net debt ~$7.2B) on ~$16.1B (2026E) / ~$18.0B (2027E) core revenue (superseded intermediate: ~7.1x / ~6.3x on ~$113.8B EV). Old caliber EV was ~$197B.

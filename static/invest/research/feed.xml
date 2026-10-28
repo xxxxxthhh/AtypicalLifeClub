@@ -6,6 +6,13 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>康宁 深度研究报告 - AI 基础设施的光连接卖铲人 / Corning Deep Research Report - The Optical-Connectivity Pick-and-Shovel of AI Infrastructure</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=corning-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=corning-2026#corning-2026@2026-10-28</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+      <description>2026-10-28更新（Mode A事实增量，无估值重锚）：2026-10-27发布的2026 Q3 core sales $50.81亿（同比+19%）、core EPS $0.91（同比+36%）（GAAP net sales $48.55亿、GAAP EPS $0.78）；Optical Communications净销售额$23.79亿（同比+44%、环比+15%），Enterprise Networks同比+84%，公司称Gen AI产品销售同比增长逾100%；核心毛利率40.5%、核心营业利润率22.7%，调整后自由现金流$6.61亿（前九个月$22.7亿）；Q3新签四份长期、数十亿美元级客户协议（含Verizon与AT&amp;T）；Q4指引core sales $52-53亿、core EPS $0.96-1.00。估值仍按2026-07-31锚定的旧口径（$135.22；约43.4倍2026E核心EPS），当前股价、股本、现金债务与一致预期分母待Mode B重算；本次未重新裁定立场（中性观察／中确信，2026-07-31裁定）。</description>
+    </item>
+    <item>
       <title>Broadcom 深度研究报告 - 自定义 AI 硅的卖铲人与 VMware 现金机器 / Broadcom Deep Research Report - The Pick-and-Shovel of Custom AI Silicon, Plus a VMware Cash Machine</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=broadcom-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=broadcom-2026#broadcom-2026@2026-10-28</guid>
@@ -452,13 +459,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=digital-realty-2026#digital-realty-2026@2026-07-31</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
       <description>AI 基础设施 datacenter-facility 层的租赁/互联需求校验。DLR 不直接解释 GPU、光模块或电力设备，而是验证 AI 数据中心需求是否转化为真实租约、backlog、互联节点和开发容量。2026Q2 财报（2026-07-23）：Core FFO/share（ex net promote）$2.13、cash renewal spread +25.4%；公司签下 $307M 年化 GAAP base rent 的 bookings（100% share）/ $208M（DLR share），其中 0-1MW + interconnection 贡献 $108M、占 DLR-share bookings 的 52%；季度末 signed-but-not-commenced backlog 为 record $1.9B（100% share）/ $1.4B（DLR share），但后者含约 $380M 收购相关增量，不能全部解释为本季有机签约；新签租约加权平均开租滞后从 19 个月收窄至 9 个月，future-development capacity 升至约 9GW。管理层把 2026 Core FFO/share（ex net promote）指引从 $8.00-8.10 上修至 $8.15-8.20。2026-07-31 完成此前推迟的当前价格估值复核：以 2026-07-30 收盘 $193.19 计，市值约 $69.1B、EV 约 $84.7B，对照上修后指引约 23.6x P/Core FFO、约 13.3x EV/TTM revenue，隐含要求升至约 18.3% Core FFO/share CAGR，高于中双位数的牛市情景。经营证据依然强劲，但股价跑在前面，立场由偏多调整为 neutral-watch / 中确信。</description>
-    </item>
-    <item>
-      <title>康宁 深度研究报告 - AI 基础设施的光连接卖铲人 / Corning Deep Research Report - The Optical-Connectivity Pick-and-Shovel of AI Infrastructure</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=corning-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=corning-2026#corning-2026@2026-07-31</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <description>2026-07-31 立场重新裁定：GLW 收于 $135.22（2026-07-30），较 07-29 低点反弹 +9.0%、较 6 月 26 日锚点 −38.8%，市值约 $1,162 亿、EV 约 $1,234 亿。按报告原有一致预期重算，前瞻 P/E 约 43.4 倍（2026E 核心 EPS $3.12）、约 34.9 倍（2027E $3.86），EV/Sales 约 7.7 倍 / 6.8 倍。报告此前把当时的前瞻倍数称为本覆盖中最贵者——该说法已废止。07-28 并入的 Q2 2026 经营数据（光通信 +32%、企业网络 +65%、核心 EPS $0.78）不变。Springboard 阶梯与 30%+ 光通信增速的持久性仍未证明；按所有者 Q1 裁定以当前价格复核后，维持中性观察/中确信，网格权重保留。</description>
     </item>
     <item>
       <title>GE Vernova 深度研究报告 - AI 电力侧的卖铲人与燃气轮机超级周期 / GE Vernova Deep Research Report - The Pick-and-Shovel of AI's Power Side and the Gas-Turbine Super-Cycle</title>
