@@ -3062,5 +3062,28 @@
       "sk-hynix-2026:hbm4-competition",
       "sk-hynix-2026:nvidia-lockin"
     ]
+  },
+  {
+    "id": "broadcom-anthropic-spv-residual-value-support-2026-10-27",
+    "date": "2026-10-27",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Broadcom 为 Anthropic XPU 机架 $630 亿 SPV 提供残值支持，8-K 披露最高未折现责任约 $430 亿",
+      "en": "Broadcom backs a $63B SPV leasing XPU racks to Anthropic; 8-K puts maximum undiscounted residual-value liability at about $43B"
+    },
+    "detail": {
+      "zh": "据 Broadcom 投资者关系页 2026-10-26 发行人稿（https://investors.broadcom.com/news-releases/news-release-details/bank-america-blackstone-citi-and-morgan-stanley-announce）：新设 SPV 获美银、黑石、花旗、摩根士丹利 $630 亿承诺融资，用于购买 Broadcom XPU AI 加速器与网络方案并租给 Anthropic，属 Broadcom 此前公布的算力容量协议的一部分，预计 2027 日历年起交付；Broadcom 向 SPV 提供相当于第一留置权部分的残值支持。据 2026-10-27 的 8-K（Item 2.03，https://www.sec.gov/Archives/edgar/data/1730168/000119312526434271/d148323d8k.htm）：该残值支持（Backstop）为或有负债，潜在责任等于租赁未付额 72.5% 与机架处置价值之差，随交付部署增加、随客户付租减少，部署完成后最高未折现约 $430 亿；违约时的缓释包括承接租约、在特定条件下按固定价回售给卖方或安排出售。本轮读数：xpu-customer-concentration unclear（Anthropic 项目获发行人确认；其余项目仍是公开报道口径）。证据边界：$630 亿是 SPV 的融资承诺，不是 Broadcom 的订单、收入或 backlog 数字；第一/第二留置权各自金额、租期、租金与会计处理未披露；8-K 未点名客户，客户身份来自发行人新闻稿。本条不挂 neocloud-financing（该规则主语为 CoreWeave）。估值仍按 2026-09-03 历史口径，或有敞口影响待 Mode B。",
+      "en": "Per Broadcom's investor-relations release of October 26, 2026 (https://investors.broadcom.com/news-releases/news-release-details/bank-america-blackstone-citi-and-morgan-stanley-announce): a newly formed SPV has $63B of committed financing from Bank of America, Blackstone, Citi and Morgan Stanley to purchase Broadcom XPU AI accelerators and networking solutions to be leased to Anthropic, as part of Broadcom's previously announced compute capacity agreement, with deliveries expected starting in calendar 2027; Broadcom provides residual value support to the SPV for the amount equivalent to the first-lien portion. Per the 8-K of October 27, 2026 (Item 2.03, https://www.sec.gov/Archives/edgar/data/1730168/000119312526434271/d148323d8k.htm): the residual value support (the Backstop) is a contingent liability equal to any difference between 72.5% of the outstanding lease amounts and the value of the AI racks on sale, rising as racks are delivered and deployed and falling as the customer pays, with a maximum potential undiscounted liability of about $43B upon deployment; remedies on default include assuming the lease, reselling the racks to the seller at a fixed price under certain conditions, or arranging a sale. Reading this pass: xpu-customer-concentration unclear (the Anthropic program has issuer confirmation; other programs remain public-reporting inputs). Evidence limits: the $63B is the SPV's financing commitment, not a Broadcom order, revenue or backlog figure; the first- and second-lien amounts, lease term, rent and accounting are undisclosed; the 8-K does not name the customer, whose identity comes from the issuer release. Not attached to neocloud-financing (that rule's subject is CoreWeave). Valuation remains on the historical 2026-09-03 basis; the effect of the contingent exposure awaits Mode B."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "AVGO"
+    ],
+    "reportIds": [
+      "broadcom-2026"
+    ],
+    "monitoringRefs": [
+      "broadcom-2026:xpu-customer-concentration"
+    ]
   }
 ]
