@@ -3207,5 +3207,30 @@
       "microsoft-2026:openai-rpo-concentration",
       "microsoft-2026:depreciation-policy-tailwind"
     ]
+  },
+  {
+    "id": "vertiv-q3-2026-results-20261028",
+    "date": "2026-10-28",
+    "title": {
+      "zh": "Vertiv Q3 2026 净销售额 $43.13 亿（+61%、有机 +55%）、有机订单同比增长逾 100%；FY2026 调整后 EPS 指引上调至 $7.10-7.20",
+      "en": "Vertiv Q3 2026 net sales $4.313B (+61%, +55% organic) with organic orders up more than 100%; FY2026 adjusted EPS guide raised to $7.10-7.20"
+    },
+    "detail": {
+      "zh": "Q3 2026（截至2026-09-30，10-28发布）净销售额$4.313B（同比+61%、有机+55%），调整后营业利润率25.2%（+290bps）、摊薄EPS $1.95、调整后EPS $2.21、经营现金流$794M、调整后FCF $652M。公司称有机订单同比增长逾100%，未给订单金额；本轮所读业绩稿与演示稿未给本季backlog金额或book-to-bill，不能据增长率判复合监测全部未触发。FY2026净销售额指引$14.45–14.85B、调整后EPS $7.10–7.20、调整后FCF $2.6–2.8B，仅作为指引事实，不替换旧估值分母。10-27 8-K Item 2.01确认当日完成UIG收购：约$1.45B交割现金及最高$1.15B或有现金，后者按EBITDA目标计，不能当全额已付或直接并入EV。 订单/backlog与hyperscaler capex复合读数仍unclear；Q3 10-Q本轮未能独立读取、电话会未读，不认证该10-Q的缺失项或XBRL日期冲突。 估值仍按2026-08-17历史基础；新实绩、指引或交易资本影响待Mode B，价格、估值数字、立场和确信度未更新。 https://www.sec.gov/Archives/edgar/data/1674101/000162828026067707/q32026exhibit991vrt10282026.htm https://www.sec.gov/Archives/edgar/data/1674101/000162828026067393/vrt-20261027.htm",
+      "en": "Q3 2026 (ended 2026-09-30, released 10-28) net sales were $4.313B (+61% YoY, +55% organic), adjusted operating margin 25.2% (+290bps), diluted EPS $1.95, adjusted EPS $2.21, OCF $794M and adjusted FCF $652M. Management reports organic orders growth above 100% YoY without an orders dollar amount. The release and presentation read this pass give no quarterly backlog balance or book-to-bill; the growth rate cannot clear every composite monitoring leg. FY2026 guidance is net sales $14.45–14.85B, adjusted EPS $7.10–7.20 and adjusted FCF $2.6–2.8B, recorded as guidance facts without replacing historical valuation denominators. The October 27 8-K Item 2.01 confirms UIG closed that day for about $1.45B of closing cash plus up to $1.15B contingent cash based on EBITDA targets; the latter is not fully paid consideration or an automatic EV adjustment. Orders/backlog and hyperscaler-capex composite readings remain unclear. The Q3 10-Q was unavailable for independent reading this pass and the call was not read; no claim about that 10-Q's omissions or an XBRL-date conflict is certified. Valuation remains anchored to the historical 2026-08-17 basis; new actuals, guidance or transaction capital effects await Mode B. Price, valuation numbers, stance and conviction are unchanged. https://www.sec.gov/Archives/edgar/data/1674101/000162828026067707/q32026exhibit991vrt10282026.htm https://www.sec.gov/Archives/edgar/data/1674101/000162828026067393/vrt-20261027.htm"
+    },
+    "crossChecks": [
+      "buildout-orders"
+    ],
+    "tickers": [
+      "VRT"
+    ],
+    "reportIds": [
+      "vertiv-2026"
+    ],
+    "monitoringRefs": [
+      "vertiv-2026:orders-backlog-cadence",
+      "vertiv-2026:ai-capex-digestion"
+    ]
   }
 ]
