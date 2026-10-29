@@ -3180,5 +3180,32 @@
     "monitoringRefs": [
       "amkr-2026:prepayments-and-subsidy-stack"
     ]
+  },
+  {
+    "id": "microsoft-q1-fy2027-results-20261028",
+    "date": "2026-10-28",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Microsoft FY2027 Q1 Azure 收入 +48%（固定汇率 +48%，新口径）、PP&E 增置 $39.4B（+103%）；商业 RPO $677B",
+      "en": "Microsoft Q1 FY2027: Azure revenue +48% (+48% cc, redefined metric), PP&E additions $39.4B (+103%), commercial RPO $677B"
+    },
+    "detail": {
+      "zh": "据 Microsoft 2026-10-28 FY2027 Q1 业绩稿（8-K Item 2.02，Exhibit 99.1，https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-ex99_1.htm）与同日 10-Q（https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm）：季度截至 2026-09-30 收入 $92.279B（同比 +19%）、营业利润 $45.915B（+21%）、GAAP 摊薄 EPS $4.92（+32%）、剔除 OpenAI 投资影响的非 GAAP 摊薄 EPS $4.89（+18%）；自 FY2027 起按 2026 年 9 月公布的 Agents and Infra（收入 $76.795B，+25%）与 Devices and Consumer（$15.484B，−3%）两个分部报告，同日 8-K（https://www.sec.gov/Archives/edgar/data/789019/000119312526436149/msft-20261028.htm）按新分部重述 FY2026 10-K 财务信息（非财务重述）。Azure 收入 $33.165B，同比 +48%（固定汇率 +48%；指标口径本季更新），Microsoft Cloud $63.9B（+30%）；商业 RPO $677B（+73%，6 月 30 日 $678B）；经营现金流 $58.000B，PP&E 增置 $39.367B（同比 +103%），按报告口径 TTM FCF 约 $60.0B（自算）；10-Q 按关联方口径披露当季来自 OpenAI 商业安排的收入 $10.0B。本轮读数：azure-growth-vs-capex unclear（低于 30% 中段的腿未触发；指标口径更新，与 7 月约 45% 指引无法同口径判定）、fy2027-capex-slope unclear（公司口径总 capex 与 $50B／约 $175B 框架未在 8-K／10-Q 中披露）、fcf-trough within、openai-rpo-concentration unclear（OpenAI 占 RPO 比例未披露）、depreciation-policy-tailwind unclear（10-Q 未量化寿命变更）。本条以 report-monitoring 范围记录、不挂 crossCheck：超大规模厂商 capex 美元不是任何具体供应商处的订单，也未剔除投入品涨价影响，不能据此推断任何在覆盖供应商的份额或交付节奏。证据边界：未读电话会与 IR 演示（Azure 指引、含融资租赁总 capex、日历 2026 capex 框架均未更新）；业绩稿不含前瞻指引。股东回报、股本与现金债务数字属估值输入，留待 Mode B。估值仍为 2026-07-30 历史基础。",
+      "en": "Per Microsoft's FY2027 Q1 results of October 28, 2026 (8-K Item 2.02, Exhibit 99.1, https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-ex99_1.htm) and the same-day 10-Q (https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm): for the quarter ended 2026-09-30, revenue was $92.279B (+19% YoY), operating income $45.915B (+21%), GAAP diluted EPS $4.92 (+32%) and non-GAAP diluted EPS $4.89 (+18%, excluding the impact of the OpenAI investment); from FY2027 Microsoft reports the two segments announced in September 2026, Agents and Infra (revenue $76.795B, +25%) and Devices and Consumer ($15.484B, -3%), and a same-day 8-K (https://www.sec.gov/Archives/edgar/data/789019/000119312526436149/msft-20261028.htm) recasts the FY2026 10-K financials for the new segments (not a restatement). Azure revenue was $33.165B, +48% (+48% constant currency; the metric was redefined this quarter), and Microsoft Cloud $63.9B (+30%); commercial RPO was $677B (+73%; $678B at June 30); operating cash flow was $58.000B and additions to property and equipment $39.367B (+103% YoY), putting trailing-twelve-month FCF at about $60.0B on the report's definition (our arithmetic); the 10-Q discloses $10.0B of quarterly revenue from commercial arrangements with OpenAI on a related-party basis. Readings this pass: azure-growth-vs-capex unclear (the below-mid-30s leg is not met; the metric was redefined, so the July ~45% guide leg cannot be graded like-for-like), fy2027-capex-slope unclear (company-basis total capex and the $50B / ~$175B frames are not disclosed in the 8-K or 10-Q), fcf-trough within, openai-rpo-concentration unclear (OpenAI share of RPO undisclosed), depreciation-policy-tailwind unclear (the 10-Q does not quantify the useful-life change). Recorded at report-monitoring scope with no crossCheck: hyperscaler capex dollars are not orders at any specific supplier and are not deflated for input-price inflation, so no covered supplier's share or delivery cadence can be inferred. Evidence limits: the call and IR deck were not read (Azure guidance, total capex including finance leases and the calendar-2026 capex frame are not updated), and the release carries no forward guidance. Shareholder-return, share-count and cash/debt figures are valuation inputs left to Mode B. Valuation retains the historical 2026-07-30 basis."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "MSFT"
+    ],
+    "reportIds": [
+      "microsoft-2026"
+    ],
+    "monitoringRefs": [
+      "microsoft-2026:azure-growth-vs-capex",
+      "microsoft-2026:fy2027-capex-slope",
+      "microsoft-2026:fcf-trough",
+      "microsoft-2026:openai-rpo-concentration",
+      "microsoft-2026:depreciation-policy-tailwind"
+    ]
   }
 ]
