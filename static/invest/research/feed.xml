@@ -6,6 +6,13 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>Amkor Technology 深度研究报告 - 先进封装的瓶颈究竟在 OSAT 还是在代工厂的架构校验 / Amkor Technology Deep Research Report - Architecture Check on Whether the Advanced-Packaging Bottleneck Sits at the OSAT or Inside the Foundry</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=amkr-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amkr-2026#amkr-2026@2026-10-29</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+      <description>2026-10-29更新（Mode A事实增量，无估值重锚）：2026-10-27提交的2026 Q3 10-Q（季度截至2026-09-30）披露：合同负债$547.6M（2026-06-30为$393.0M、2025年末$390.8M），其中短期部分$127.5M；公司称截至9月30日预计未来12个月收到约$19亿客户预付款（其中$2亿到账时需备用信用证），并于2026年10月与一名未具名客户签署预付款协议、预计2027年收到约$13亿；10-Q未重述Q2 10-Q所列“预计2027年收到约$15亿”的7月协议，也未给出三个数字之间的对账；最高$4.07亿的CHIPS直接拨款仍“至今未收到任何资金”，未披露削减、终止或追回；亚利桑那工厂累计建设成本$553.3M（含资本化利息$8.5M），10-Q未重述投产时点。同期业绩稿数字不变：收入$1,990.6M、毛利率18.3%、摊薄EPS $0.76。估值仍锚定2026-07-30历史基础，合同负债与预期预付款未计入任何现金、债务或企业价值口径，当前估值待Mode B重算；本次未重新裁定立场（中性观察／中确信，2026-07-31裁定）。</description>
+    </item>
+    <item>
       <title>Seagate 深度研究报告 - 先定价、后兑现的 HAMR 领先 / Seagate Deep Research Report - A HAMR Lead Priced Before It Pays</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=seagate-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=seagate-2026#seagate-2026@2026-10-28</guid>
@@ -39,13 +46,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=paypal-2026#paypal-2026@2026-10-28</guid>
       <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
       <description>2026-10-28更新（Mode A）：Q3 2026营收$8,584M（+2%），剔除客户余额利息的TM$为$3,661M（+3%），非GAAP EPS $1.45；FY2026非GAAP EPS指引约$5.60。回购$1.5B，FCF $1,431M、调整后FCF $2,047M。品牌结账、Venmo与全年FCF指引本轮未独立读演示稿，相关未知腿不判未触发。估值仍按2026-10-02历史基础，当前股价、股本、净现金及分母待Mode B；既有偏多／低确信未重新裁定。</description>
-    </item>
-    <item>
-      <title>Amkor Technology 深度研究报告 - 先进封装的瓶颈究竟在 OSAT 还是在代工厂的架构校验 / Amkor Technology Deep Research Report - Architecture Check on Whether the Advanced-Packaging Bottleneck Sits at the OSAT or Inside the Foundry</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=amkr-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amkr-2026#amkr-2026@2026-10-27</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
-      <description>2026-10-27更新（Mode A事实增量，无估值重锚）：2026-10-26发布的2026 Q3收入$1,990.6M（同比+0.2%、环比+4.9%，落在$19.5-20.5亿指引内）、毛利率18.3%（低于18.5-19.5%的Q3指引区间，Q2为16.8%）、经营利润率11.3%、摊薄EPS $0.76、EBITDA $435M；前十大客户占比66%；终端市场通信37%／计算26%／汽车工业22%／消费15%；Q4指引收入$19-20亿、毛利率18.0-19.0%、EPS $0.65-0.75；FY2026资本开支指引更新为约$25亿（原$25-30亿）。估值仍锚定2026-07-30历史基础，当前价格、股本、现金债务与财务分母待Mode B重算；本次未重新裁定立场。</description>
     </item>
     <item>
       <title>Cadence Design Systems 深度研究报告 - AI 设计复杂度的 EDA/IP backlog 仪表盘 / Cadence Design Systems Deep Research Report - EDA/IP Backlog Dashboard For AI Design Complexity</title>

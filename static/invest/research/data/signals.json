@@ -3157,5 +3157,28 @@
       "paypal-2026:eps-guidance-delivery",
       "paypal-2026:buyback-capacity"
     ]
+  },
+  {
+    "id": "amkor-q3-2026-10q-prepayments-20261027",
+    "date": "2026-10-27",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Amkor Q3 2026 10-Q：合同负债 $547.6M；预计未来 12 个月收到约 $19 亿客户预付款，10 月新签协议预计 2027 年收到约 $13 亿",
+      "en": "Amkor Q3 2026 10-Q: contract liabilities $547.6M; about $1.9B of customer advance payments expected in the next 12 months, and an October agreement expected to bring about $1.3B in 2027"
+    },
+    "detail": {
+      "zh": "据 Amkor 2026-10-27 提交的截至 2026-09-30 季度 Form 10-Q（https://www.sec.gov/Archives/edgar/data/1047127/000104712726000052/amkr-20260930.htm）：合同负债 $547.6M（2026-06-30 为 $393.0M，据 Q2 10-Q；2025-12-31 为 $390.8M），短期部分 $127.5M；与已收客户预付款相关的备用信用证 $200.0M 在外。公司称截至 9 月 30 日预计未来 12 个月收到约 $19 亿客户预付款（其中 $2 亿到账时需备用信用证），并于 2026 年 10 月与一名客户签署预付款协议、预计 2027 年收到约 $13 亿；文件未指名该客户。10-Q 未重述 Q2 10-Q 所列 7 月协议“预计 2027 年收到约 $15 亿”，也未给出 $15 亿、$19 亿与 $13 亿之间的对账；$19 亿为“未来 12 个月”（至 2027 年 9 月）口径。最高 $4.07 亿的 CHIPS 直接资助仍“至今未收到任何资金”，未披露削减、终止或追回；投资税收抵免应收为其他流动资产 $33.6M 与其他资产 $129.9M，附注未按计划或项目拆分。本轮读数：prepayments-and-subsidy-stack unclear（CHIPS 腿已核；约 $15 亿时点腿未知；35% ITC 腿须待资产投入使用；上调腿未触发）。arizona-execution-and-margin-drag、gross-margin-and-utilization、capex-and-free-cash-flow 未改：10-Q 的亚利桑那成本 $553.3M 未触及时点、点名合约量或投产后毛利率各腿，毛利率归因只提产品结构、未给稼动率数字，资本开支约 $25 亿与前九个月 $1,236.8M 已在现有读数内。证据边界：只读 10-Q 与 Q2 10-Q 可比数，未读 Q3 电话会与演示稿；10-Q 未点名客户、未把预付款与具体产能、平台或定价挂钩，故本条不挂 advanced-packaging-ownership。合同负债与预期预付款未计入任何现金、债务或企业价值口径；估值仍为 2026-07-30 历史基础，当前估值待 Mode B；本次未重新裁定立场。",
+      "en": "Per Amkor's Form 10-Q for the quarter ended 2026-09-30, filed 2026-10-27 (https://www.sec.gov/Archives/edgar/data/1047127/000104712726000052/amkr-20260930.htm): contract liabilities were $547.6M (June 30, 2026: $393.0M per the Q2 10-Q; December 31, 2025: $390.8M), of which $127.5M short-term, and $200.0M of standby letters of credit were outstanding related to customer advance payments received. As of September 30 Amkor expects to receive approximately $1.9 billion of customer advance payments in the next 12 months ($200 million of which will require a standby letter of credit upon receipt), and in October 2026 it entered into an advance payment agreement with a customer under which it expects approximately $1.3 billion in 2027; the filing does not name the customer. The 10-Q does not restate the July agreement's approximately $1.5 billion \"in 2027\" from the Q2 10-Q and gives no bridge between the $1.5B, $1.9B and $1.3B figures; the $1.9B is a next-12-months figure (through September 2027). The up-to-$407M CHIPS direct funding still shows \"no funds have been received to date\", with no reduction, termination or clawback disclosed; investment tax credits receivable were $33.6M in other current assets and $129.9M in other assets, not attributed to a program or project in the note. Reading this pass: prepayments-and-subsidy-stack unclear (CHIPS leg verified; ~$1.5B timing leg unknown; 35% ITC leg awaits placed-in-service; upgrade leg not met). arizona-execution-and-margin-drag, gross-margin-and-utilization and capex-and-free-cash-flow are unchanged: the 10-Q's Arizona costs of $553.3M do not speak to the timing, named-contract or post-start-up margin legs, the gross-margin attribution cites product mix only with no utilization figure, and the ~$2.5B capex guide and $1,236.8M nine-month capex are already in the existing readings. Evidence limits: only the 10-Q and the Q2 10-Q comparatives were read, not the Q3 call or deck; the 10-Q names no customer and ties the advance payments to no specific capacity, platform or pricing, so this entry is not attached to advanced-packaging-ownership. Contract liabilities and expected advance payments are not netted into any cash, debt or enterprise-value figure; valuation retains the historical 2026-07-30 basis, with current valuation pending Mode B, and the stance is not re-adjudicated."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "AMKR"
+    ],
+    "reportIds": [
+      "amkr-2026"
+    ],
+    "monitoringRefs": [
+      "amkr-2026:prepayments-and-subsidy-stack"
+    ]
   }
 ]
