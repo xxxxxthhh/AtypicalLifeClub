@@ -8824,8 +8824,8 @@
     "priceSymbol": "MSFT",
     "title": "Microsoft 深度研究报告 - Azure AI 收入与 capex 吸收的需求锚",
     "titleEn": "Microsoft Deep Research Report - Demand Anchor for Azure AI Revenue vs Capex Absorption",
-    "summary": "AI 基础设施书 demand-risk 层的需求锚初始覆盖：Microsoft 是全球最大 AI capex 买方，本书此前给 GPU/HBM/电力稀缺性打分却没有覆盖这些开支落地的资产负债表。FY2026 Q4（季度截至 2026-06-30，07-29 发布）：收入 $90.007B（+18%）、Azure 及其他云 +43% 加速、FY2026 Azure 收入首破 $100B（+41%）、商业 RPO $678B（+84%）、Q4 含融资租赁 capex $41B（+69%）、FY2026 经营现金流 $182.9B、现金 capex $115.9B、FCF 约 $67B——demand 层最强的 capex 吸收答卷。风险同样清晰：2026 年 1 月披露的 $625B RPO 中约 45% 系于 OpenAI；FY2027 Q1 capex 指引超 $50B；数据中心/办公楼寿命 15→25 年重分类把日历 2026 capex 框架由约 $190B 改列约 $175B。以 2026-07-30 收盘 $451.10 为锚（财报后单日 +15.5%），市值约 $3.35T、约 25.1x 追溯 GAAP EPS、约 10.1x FY2026 收入、约 49x EV/FY2026 FCF。30% 牛市 / 40% 基准 / 30% 熊市网格读出略偏负到中性的预期差，初始立场中性观察 / 中确信。",
-    "summaryEn": "Initial demand-anchor coverage for the AI-infrastructure book's demand-risk layer: Microsoft is the largest AI-capex buyer in the world, and until now the book scored GPU/HBM/power scarcity without covering the balance sheet that spending lands on. FY2026 Q4 (quarter ended 2026-06-30, reported 07-29): revenue $90.007B (+18%), Azure and other cloud +43% and accelerating, FY2026 Azure revenue above $100B for the first time (+41%), commercial RPO $678B (+84%), Q4 capex incl. finance leases $41B (+69%), FY2026 operating cash flow $182.9B against $115.9B cash capex leaving ~$67B FCF - the strongest capex-absorption print in the demand layer. The risks are equally clear: ~45% of the $625B RPO disclosed in January 2026 was tied to OpenAI; FY2027 Q1 capex is guided above $50B; and the 15-to-25-year useful-life reclassification moved the calendar-2026 capex frame from ~$190B to ~$175B. Anchored to the 2026-07-30 close of $451.10 (+15.5% on the post-earnings session), market cap is ~$3.35T at ~25.1x trailing GAAP EPS, ~10.1x FY2026 revenue, and ~49x EV/FY2026 FCF. The 30% bull / 40% base / 30% bear grid reads a slightly negative-to-neutral expectation gap; the initiation opens at neutral-watch / medium conviction.",
+    "summary": "2026-10-29 — FY2027 Q1（截至2026-09-30，10-28发布）收入$92.279B（同比+19%）、营业利润$45.915B（+21%）、GAAP摊薄EPS $4.92、剔除OpenAI投资影响的非GAAP EPS $4.89。新分部Agents and Infra收入$76.795B、Devices and Consumer $15.484B；以往期间按新分部重列，不是财报差错重述。Azure收入$33.165B、同比及固定汇率均+48%，指标因分部调整变更，与7月约45%指引尚未完成同口径桥接。商业RPO $677B（同比+73%）；OpenAI商业安排关联方收入$10.0B不代表其RPO占比。经营现金流$58.000B、现金PP&E增置$39.367B（同比+103%）；按经营现金流减PP&E口径自算季度FCF $18.633B、TTM $59.957B，仍高于$50B监测阈值；此口径不含其它投资现金流出$12.949B。折旧费用$11.1B（去年$7.1B）不能单独证明寿命政策对利润率的贡献。 Azure可比指引、公司口径含融资租赁capex、OpenAI RPO集中度与折旧贡献仍unclear；电话会及IR演示未读。 估值仍按2026-07-30历史基础；新实绩、指引或交易资本影响待Mode B，价格、估值数字、立场和确信度未更新。",
+    "summaryEn": "2026-10-29 — FY2027 Q1 (ended 2026-09-30, released 10-28) revenue was $92.279B (+19% YoY), operating income $45.915B (+21%), GAAP diluted EPS $4.92 and non-GAAP EPS $4.89 excluding the OpenAI investment impact. Revenue in the new Agents and Infra and Devices and Consumer segments was $76.795B and $15.484B; prior periods were recast for segments, not restated for an error. Azure revenue was $33.165B, up 48% both reported and in constant currency; the metric changed with the segment recast and has not been bridged here to the July ~45% guide. Commercial RPO was $677B (+73%); $10.0B of related-party revenue from commercial arrangements with OpenAI does not establish its RPO share. OCF was $58.000B and cash PP&E additions $39.367B (+103% YoY). On OCF minus PP&E, calculated quarterly FCF was $18.633B and TTM FCF $59.957B, above the $50B monitoring threshold; this definition excludes $12.949B of other investing outflows. Depreciation of $11.1B (prior year $7.1B) alone does not quantify the useful-life policy contribution to margins. Comparable Azure guidance, company-basis capex including finance leases, OpenAI RPO concentration and depreciation contribution remain unclear; call and IR deck were not read. Valuation remains anchored to the historical 2026-07-30 basis; new actuals, guidance or transaction capital effects await Mode B. Price, valuation numbers, stance and conviction are unchanged.",
     "tags": [
       "AI基础设施",
       "超大规模云",
@@ -8834,7 +8834,7 @@
     ],
     "category": "tech",
     "date": "2026-07-31",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-10-29",
     "file": "/invest/research/reports/view.html?id=microsoft-2026",
     "markdownFiles": {
       "zh": "/invest/research/Microsoft_深度研究报告_2026-07.md",
@@ -8844,11 +8844,8 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "demand-risk 层需求锚：全球最大 AI capex 买方首次入册；核心读数是 Azure AI 收入 vs capex 吸收",
-      "FY2026 Q4 收入 $90.007B（+18%）、Azure +43% 加速、FY2026 Azure 收入首破 $100B、商业 RPO $678B（+84%）",
-      "吸收已被证明：FY2026 经营现金流 $182.9B、现金 capex $115.9B、FCF 约 $67B、营业利润率 46.8% 扩张、净现金约 $36.5B",
-      "风险集中：1 月披露 $625B RPO 中约 45% 系于 OpenAI；FY2027 Q1 capex 指引超 $50B；寿命 15→25 年重分类美化后续折旧口径",
-      "股价 $451.10（2026-07-30 收盘、财报后单日 +15.5%）：约 25.1x 追溯 GAAP、约 49x EV/FY2026 FCF；30/40/30 网格，初始中性观察 / 中确信"
+      "FY2027 Q1（截至2026-09-30，10-28发布）收入$92.279B（同比+19%）、营业利润$45.915B（+21%）、GAAP摊薄EPS $4.92、剔除OpenAI投资影响的非GAAP EPS $4.89。新分部Agents and Infra收入$76.795B、Devices and Consumer $15.484B；以往期间按新分部重列，不是财报差错重述。Azure收入$33.165B、同比及固定汇率均+48%，指标因分部调整变更，与7月约45%指引尚未完成同口径桥接。商业RPO $677B（同比+73%）；OpenAI商业安排关联方收入$10.0B不代表其RPO占比。经营现金流$58.000B、现金PP&E增置$39.367B（同比+103%）；按经营现金流减PP&E口径自算季度FCF $18.633B、TTM $59.957B，仍高于$50B监测阈值；此口径不含其它投资现金流出$12.949B。折旧费用$11.1B（去年$7.1B）不能单独证明寿命政策对利润率的贡献。",
+      "估值仍按2026-07-30历史基础；新实绩、指引或交易资本影响待Mode B，价格、估值数字、立场和确信度未更新。"
     ],
     "chainLayer": "demand-risk",
     "coverageTier": "full",
@@ -8856,7 +8853,7 @@
     "stance": "neutral-watch",
     "conviction": "medium",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "FY2026 Q4",
+    "reportedPeriod": "FY2027 Q1",
     "related": [
       "meta-2026",
       "oracle-2026",
@@ -8878,11 +8875,14 @@
           "en": "Azure constant-currency growth falls below the mid-30s while quarterly capex still grows, or FY2027 Q1 misses the ~45% cc guide"
         },
         "latest": {
-          "zh": "FY2026 Q4 Azure 及其他云 +43%（Q3 +40%）；FY2026 Azure 收入首破 $100B（+41%）；FY2027 Q1 指引约 45% cc",
-          "en": "FY2026 Q4 Azure and other cloud grew +43% (from +40% in Q3); FY2026 Azure revenue topped $100B (+41%); FY2027 Q1 guided to ~45% cc"
+          "zh": "FY2027 Q1（2026-10-28 发布，季度截至 2026-09-30）：Azure 收入 $33.165B，同比 +48%（固定汇率 +48%；上年同期按新口径为 $22.384B），Microsoft Cloud 收入 $63.9B（+30%，固定汇率 +31%）；公司本季随分部调整更新了 Azure 增速指标口径（部分组成项移动；10-Q 将 Azure 界定为跨非 GPU 负载与 GPU 负载的消费型服务，GPU 负载含 GPU IaaS 与 Foundry）。同季 PP&E 增置（现金 capex）$39.367B，同比 +103%（上年同期 $19.394B），季度 capex 仍在增长。Azure 固定汇率增速远高于 30% 中段（第一腿未触发）；但 Azure 指标口径本季更新，7 月约 45% cc 指引为旧口径、其是否按新口径重述不在所读 8-K／10-Q 中，第二腿无法同口径判定。",
+          "en": "FY2027 Q1 (released 2026-10-28, quarter ended 2026-09-30): Azure revenue was $33.165B, +48% YoY (+48% constant currency; the prior-year quarter is $22.384B on the new basis), and Microsoft Cloud revenue was $63.9B (+30%, +31% cc); with the segment change the company updated the Azure growth metric this quarter (movement of certain components; the 10-Q describes Azure as consumption-based services across non-GPU workloads and GPU workloads, the latter including GPU infrastructure-as-a-service and Foundry). Additions to property and equipment (cash capex) were $39.367B, +103% YoY (prior-year quarter $19.394B), so quarterly capex is still growing. Azure constant-currency growth is far above the mid-30s (first leg not met); but the Azure metric was redefined this quarter, the July ~45% cc guide is on the prior basis, and whether it was restated on the new basis is not in the 8-K or 10-Q read, so the second leg cannot be graded like-for-like."
         },
         "nextCheck": "FY2027 Q1 财报（2026 年 10 月下旬）/ FY2027 Q1 earnings (late Oct 2026)",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "unclear",
+        "readingAsOf": "2026-10-28",
+        "readingNote": "Azure +48% cc 与现金 capex 增长已核（8-K Ex 99.1、10-Q），低于 30% 中段的腿未触发；Azure 指标本季改口径，7 月约 45% 指引为旧口径且未出现在所读文件中，指引腿无法同口径判定，按未知腿处理。 / Azure +48% cc and cash-capex growth verified (8-K Ex 99.1, 10-Q) and the below-mid-30s leg is not met; the Azure metric was redefined this quarter and the July ~45% guide is on the prior basis and absent from the documents read, so the guide leg cannot be graded like-for-like and is treated as unknown."
       },
       {
         "id": "openai-rpo-concentration",
@@ -8897,10 +8897,13 @@
           "en": "an OpenAI financing stress, renegotiation, or impairment event, or updated disclosure showing the OpenAI share rising further"
         },
         "latest": {
-          "zh": "商业 RPO $678B（+84%）；2026 年 1 月披露当时 $625B 中约 45% 与 OpenAI 相关；Q4 环比增长主要来自大型 AI 实验室之外的客户",
-          "en": "commercial RPO is $678B (+84%); ~45% of the $625B disclosed in January 2026 was OpenAI-linked; Q4 sequential growth came mainly from customers outside the large AI labs"
+          "zh": "FY2027 Q1商业RPO $677B（同比+73%）；OpenAI商业安排关联方收入$10.0B，不能替代RPO占比；本轮未取得OpenAI RPO集中度的新披露。",
+          "en": "FY2027 Q1 commercial RPO was $677B (+73% YoY); $10.0B of related-party revenue from OpenAI commercial arrangements is not its RPO share. No new OpenAI RPO-concentration disclosure was established this pass."
         },
-        "nextCheck": "OpenAI 融资/合作事件与季度集中度披露 / OpenAI financing or partnership events and quarterly concentration disclosure"
+        "nextCheck": "OpenAI 融资/合作事件与季度集中度披露 / OpenAI financing or partnership events and quarterly concentration disclosure",
+        "reading": "unclear",
+        "readingAsOf": "2026-10-28",
+        "readingNote": "RPO 与 OpenAI 关联方收入／应收已核；OpenAI 占 RPO 比例未披露，所读文件之外的 OpenAI 融资压力事件未核，未知腿不判未触发。 / RPO and OpenAI related-party revenue/receivables verified; the OpenAI share of RPO is undisclosed and OpenAI financing-stress events outside the documents read were not checked, so unknown legs are not graded within."
       },
       {
         "id": "fy2027-capex-slope",
@@ -8915,11 +8918,14 @@
           "en": "quarterly capex runs materially above the $50B rate without matching Azure/RPO conversion, or the calendar-2026 ~$175B frame is raised again"
         },
         "latest": {
-          "zh": "Q4 含融资租赁 capex $41B（+69%）；FY2027 Q1 指引超 $50B、全年同比增长；日历 2026 框架经重分类约 $175B",
-          "en": "Q4 capex incl. finance leases was $41B (+69%); FY2027 Q1 guided above $50B with the full year growing; the calendar-2026 frame is ~$175B after reclassification"
+          "zh": "FY2027 Q1（10-Q，2026-10-28）：现金流量表 PP&E 增置 $39.367B（同比 +103%，上年同期 $19.394B）；以融资租赁取得的使用权资产 $5.192B（上年同期 $9.147B），以经营租赁取得 $6.523B（上年同期 $1.417B）；9 月 30 日应付账款中的 PP&E 采购款 $26.5B（6 月 30 日 $26.7B）。公司口径的含融资租赁总 capex、Q1 超 $50B 指引的兑现情况与日历 2026 约 $175B 框架均未在 8-K／10-Q 中披露（通常见于电话会与 IR 演示，本轮未读）。转化侧：Azure +48%；商业 RPO $677B（+73%，6 月 30 日为 $678B，环比基本持平），约 30% 预计在未来 12 个月内确认。",
+          "en": "FY2027 Q1 (10-Q, 2026-10-28): cash-flow-statement additions to property and equipment were $39.367B (+103% YoY; prior-year quarter $19.394B); right-of-use assets obtained under finance leases were $5.192B (prior-year quarter $9.147B) and under operating leases $6.523B ($1.417B); PP&E purchases remaining in accounts payable were $26.5B at September 30 ($26.7B at June 30). The company-basis total capex including finance leases, delivery against the Q1 >$50B guide and the calendar-2026 ~$175B frame are not disclosed in the 8-K or 10-Q (the call and IR deck, where these are normally given, were not read in this pass). Conversion side: Azure +48%; commercial RPO $677B (+73%; $678B at June 30, roughly flat sequentially), about 30% of which is expected to be recognized within 12 months."
         },
         "nextCheck": "FY2027 Q1 财报 capex 指引 / FY2027 Q1 earnings capex guide",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "unclear",
+        "readingAsOf": "2026-10-28",
+        "readingNote": "现金 capex、租赁组成与 Azure／RPO 转化已核；公司口径总 capex 与 $50B／约 $175B 框架未在 8-K／10-Q 中披露，电话会本轮未读，未知腿不判未触发。 / Cash capex, lease components and Azure/RPO conversion verified; company-basis total capex and the $50B / ~$175B frames are not disclosed in the 8-K/10-Q and the call was not read, so the unknown legs are not graded within."
       },
       {
         "id": "fcf-trough",
@@ -8934,11 +8940,13 @@
           "en": "TTM FCF breaks below ~$50B with no stated capex downshift path"
         },
         "latest": {
-          "zh": "FY2026 FCF 约 $67.0B（OCF $182.935B − 现金 capex $115.9B）；仍低于 FY2024 约 $74B",
-          "en": "FY2026 FCF was ~$67.0B (OCF $182.935B minus cash capex $115.9B), still below the ~$74B of FY2024"
+          "zh": "按报告口径（经营现金流 − PP&E 增置）：FY2027 Q1 为 $58.000B − $39.367B = 约 $18.6B（上年同期 $45.057B − $19.394B = 约 $25.7B）；截至 2026-09-30 的 TTM 经营现金流约 $195.9B − PP&E 增置约 $135.9B = 约 $60.0B（FY2026 全年 $182.935B／$115.948B，减 FY2026 Q1、加 FY2027 Q1，自算），高于约 $50B，触发条件未发生。证据边界：同季其他投资活动现金流出 $12.949B（上年同期 $6.209B），10-Q 称其增量主要用于促成零部件采购，不在 PP&E 增置口径内。 复核算术：182.935−45.057+58.000=195.878；115.948−19.394+39.367=135.921；相减=59.957（均为十亿美元），FY2026基数见发行人2026年报。",
+          "en": "On the report's definition (operating cash flow minus additions to property and equipment): FY2027 Q1 was $58.000B - $39.367B = about $18.6B (prior-year quarter $45.057B - $19.394B = about $25.7B); trailing-twelve-month OCF to 2026-09-30 of about $195.9B less PP&E additions of about $135.9B gives about $60.0B (FY2026 full year $182.935B / $115.948B, minus FY2026 Q1, plus FY2027 Q1; our arithmetic), above ~$50B, so the trigger has not fired. Evidence limit: other investing outflows were $12.949B in the quarter (prior-year quarter $6.209B), and the 10-Q attributes the increase primarily to facilitating the purchase of components; these sit outside additions to property and equipment. Reviewer arithmetic in billions: 182.935−45.057+58.000=195.878; 115.948−19.394+39.367=135.921; difference=59.957. FY2026 bases are from the issuer 2026 annual report."
         },
         "nextCheck": "每季现金流量表 / quarterly cash-flow statements",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-10-28"
       },
       {
         "id": "depreciation-policy-tailwind",
@@ -8953,10 +8961,13 @@
           "en": "FY2027 margin expansion proves mainly attributable to the useful-life change rather than real absorption, or further optics-flattering accounting changes appear"
         },
         "latest": {
-          "zh": "数据中心与办公楼寿命自 FY2027 起 15→25 年、部分融资租赁转经营租赁；日历 2026 capex 框架由约 $190B 重分类为约 $175B，底层投资计划不变",
-          "en": "datacenter and office-building useful lives extend from 15 to 25 years effective FY2027 with some finance leases moving to operating leases; the calendar-2026 capex frame was reclassified from ~$190B to ~$175B with the underlying plan unchanged"
+          "zh": "FY2027 Q1 10-Q（2026-10-28）未提及数据中心／办公楼可用寿命变更，也未量化其对折旧或利润率的影响；当季折旧费用 $11.1B（上年同期 $7.1B），营业利润率约 49.8%（上年同期约 48.9%，自算），MD&A 将营业利润率小幅上升归因于收入增长、平台效率与聚焦投资，部分被向 Azure 的收入结构转移抵消。本季的分部重述与 Azure 等指标口径更新属列报／指标变更，所读 10-Q 未见新的会计政策或估计变更披露。",
+          "en": "The FY2027 Q1 10-Q (2026-10-28) does not mention the datacenter/office-building useful-life change or quantify its effect on depreciation or margin; depreciation expense was $11.1B (prior-year quarter $7.1B) and operating margin about 49.8% (about 48.9% a year earlier, our arithmetic), with MD&A attributing the slight margin increase to revenue growth, platform efficiency gains and focused investments, partly offset by sales mix shift to Azure. This quarter's segment recast and Azure metric updates are presentation and metric changes; the 10-Q read discloses no new accounting-policy or estimate change."
         },
-        "nextCheck": "FY2027 10-K/10-Q 折旧披露 / FY2027 10-K and 10-Q depreciation disclosures"
+        "nextCheck": "FY2027 10-K/10-Q 折旧披露 / FY2027 10-K and 10-Q depreciation disclosures",
+        "reading": "unclear",
+        "readingAsOf": "2026-10-28",
+        "readingNote": "折旧费用与利润率已核；寿命变更对利润率的贡献未在 10-Q 中量化，未知腿不判未触发。 / Depreciation expense and margin verified; the useful-life change's contribution to margin is not quantified in the 10-Q, so the leg is not graded within."
       }
     ],
     "stanceRationale": {

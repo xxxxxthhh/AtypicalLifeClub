@@ -1,7 +1,7 @@
 # Microsoft (MSFT) Deep Research Report
 
 Coverage date: 2026-07-31
-Last updated: 2026-07-31
+Last updated: 2026-10-29
 Ticker: NASDAQ: MSFT
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -11,17 +11,19 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 > **Framework note:** This report is a demand anchor in the AI-infrastructure book's demand-risk layer. Microsoft is the single largest AI-capex buyer in the world, yet until now this book scored GPU, HBM, power, and optical scarcity without covering the balance sheet most of that spending lands on. The core read-through is **Azure AI revenue versus capex absorption**: if Azure keeps converting a $100B+ run-rate at 40%+ growth while free cash flow stays intact, the demand narratives behind NVIDIA, AMD, Broadcom, SK hynix, Micron, Vertiv, GE Vernova, CoreWeave, and Nebius get their strongest single confirmation. If Azure decelerates while capex keeps climbing, or the OpenAI-heavy order book impairs, the entire chain's scarcity assumptions must be retested from the top down.
 
-**One-line thesis:** Microsoft's FY2026 Q4 (quarter ended June 30, 2026, reported July 29, 2026) is the cleanest capex-absorption print any hyperscaler has delivered this cycle — revenue $90.0B (+18%), Azure and other cloud services +43% and accelerating, FY2026 Azure revenue above $100B for the first time, commercial RPO $678B (+84%), and still roughly $67B of full-year free cash flow after $115.9B of cash capex — but the stock repriced +15.5% in a single session on exactly this news, and about 45% of the January 2026 RPO disclosure was tied to one counterparty, OpenAI.
+Historical valuation basis: **One-line thesis:** Microsoft's FY2026 Q4 (quarter ended June 30, 2026, reported July 29, 2026) is the cleanest capex-absorption print any hyperscaler has delivered this cycle — revenue $90.0B (+18%), Azure and other cloud services +43% and accelerating, FY2026 Azure revenue above $100B for the first time, commercial RPO $678B (+84%), and still roughly $67B of full-year free cash flow after $115.9B of cash capex — but the stock repriced +15.5% in a single session on exactly this news, and about 45% of the January 2026 RPO disclosure was tied to one counterparty, OpenAI.
 
-**Current view:** **Neutral-watch, medium conviction.** As a company, Microsoft is the best capex-absorber in the demand-risk layer: unlike Oracle (FY2026 FCF −$23.7B) or Meta (Q2 2026 FCF $0.78B), it funded a $115.9B capex year from $182.9B of operating cash flow and still returned $48.7B to shareholders. As a chain signal, the print validates downstream AI demand. As a stock at $451.10 (July 30, 2026 close), the market has already re-capitalized much of that surprise: ~25.1x trailing GAAP EPS, ~10.1x FY2026 sales, and ~49x EV/FY2026 FCF, with FCF structurally suppressed while the capex ramp continues into FY2027 (Q1 guided above $50B).
+> **2026-10-29 factual update**: FY2027 Q1 (ended 2026-09-30, released 10-28) revenue was $92.279B (+19% YoY), operating income $45.915B (+21%), GAAP diluted EPS $4.92 and non-GAAP EPS $4.89 excluding the OpenAI investment impact. Revenue in the new Agents and Infra and Devices and Consumer segments was $76.795B and $15.484B; prior periods were recast for segments, not restated for an error. Azure revenue was $33.165B, up 48% both reported and in constant currency; the metric changed with the segment recast and has not been bridged here to the July ~45% guide. Commercial RPO was $677B (+73%); $10.0B of related-party revenue from commercial arrangements with OpenAI does not establish its RPO share. OCF was $58.000B and cash PP&E additions $39.367B (+103% YoY). On OCF minus PP&E, calculated quarterly FCF was $18.633B and TTM FCF $59.957B, above the $50B monitoring threshold; this definition excludes $12.949B of other investing outflows. Depreciation of $11.1B (prior year $7.1B) alone does not quantify the useful-life policy contribution to margins. Comparable Azure guidance, company-basis capex including finance leases, OpenAI RPO concentration and depreciation contribution remain unclear; call and IR deck were not read. Valuation remains anchored to the historical 2026-07-30 basis; new actuals, guidance or transaction capital effects await Mode B. Price, valuation numbers, stance and conviction are unchanged. [SEC primary source](https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm) [FY2026 annual report](https://www.microsoft.com/investor/reports/ar26/index.html)
+
+Historical valuation basis: **Current view:** **Neutral-watch, medium conviction.** As a company, Microsoft is the best capex-absorber in the demand-risk layer: unlike Oracle (FY2026 FCF −$23.7B) or Meta (Q2 2026 FCF $0.78B), it funded a $115.9B capex year from $182.9B of operating cash flow and still returned $48.7B to shareholders. As a chain signal, the print validates downstream AI demand. As a stock at $451.10 (July 30, 2026 close), the market has already re-capitalized much of that surprise: ~25.1x trailing GAAP EPS, ~10.1x FY2026 sales, and ~49x EV/FY2026 FCF, with FCF structurally suppressed while the capex ramp continues into FY2027 (Q1 guided above $50B).
 
 **Quick stats:**
 
 | Metric | Value |
 |--------|-------|
-| Share price | $451.10 (Jul 30, 2026 close, Yahoo/yfinance); +15.5% on the post-earnings session from $390.54 on Jul 29 |
-| 52-week range | $352.83 (2026-06-25) – $538.66 (2025-10-28); still ~16% below the October 2025 high |
-| Market cap / shares | About $3.35T; about 7.426B shares outstanding (FY2026 weighted diluted 7,453M) |
+| Historical valuation basis: Share price | $451.10 (Jul 30, 2026 close, Yahoo/yfinance); +15.5% on the post-earnings session from $390.54 on Jul 29 |
+| Historical valuation basis: 52-week range | $352.83 (2026-06-25) – $538.66 (2025-10-28); still ~16% below the October 2025 high |
+| Historical valuation basis: Market cap / shares | About $3.35T; about 7.426B shares outstanding (FY2026 weighted diluted 7,453M) |
 | Latest reported period | FY2026 Q4, quarter ended 2026-06-30 (reported 2026-07-29) |
 | Q4 revenue / YoY | $90.007B, +18% (+17% cc) |
 | Q4 operating income / margin | $40.6B, about 45.1% |
@@ -31,7 +33,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Azure | Q4 +43% (from +40% in Q3); FY2026 Azure revenue above $100B for the first time, +41% |
 | Commercial RPO | $678B, +84% YoY; ~45% of the $625B disclosed in January 2026 was tied to OpenAI |
 | Q4 total capex incl. finance leases | $41B (+69% YoY); FY2027 Q1 guided above $50B; calendar-2026 frame ~$175B after reclassification |
-| Cash+ST investments / total debt / net cash | $76.843B / $40.3B / about $36.5B net cash (excluding lease liabilities) |
+| Historical valuation basis: Cash+ST investments / total debt / net cash | $76.843B / $40.3B / about $36.5B net cash (excluding lease liabilities) |
 | FY2026 capital returns | $26.4B dividends + $22.3B buybacks = $48.7B |
 | Chain role | demand-risk anchor: Azure AI revenue vs capex absorption, OpenAI order-book concentration |
 
@@ -81,7 +83,7 @@ The FY2026 income statement answers the question this book has been asking all y
 | Operating margin | FY2026 46.8% (+21% operating-income growth); Q4 45.1% | Margin expanded through the capex ramp — the single most important absorption datum | A |
 | Net income quality | FY2026 GAAP $133.7B (+31%); non-GAAP $128.8B (+22%); Q4 GAAP EPS $4.81 includes ~$0.27 of investment gains (Anthropic $3.2B) | GAAP flattered by mark-ups on AI equity stakes; use non-GAAP $17.28 FY EPS for multiples | B+ |
 | Free cash flow | FY2026 OCF $182.935B − cash capex $115.9B = ~$67.0B FCF; Q4 OCF $55.4B − $35.8B = ~$19.6B | Positive and large, but FY FCF is well below the ~$74B of FY2024 despite two years of profit growth — capex is consuming the growth | B |
-| Balance sheet | Cash+STI $76.843B vs total debt $40.3B → ~$36.5B net cash (ex-leases); equity $442.4B | The only net-cash balance sheet among the big AI-capex buyers; lease obligations are the growing off-metric item | A− |
+| Historical valuation basis: Balance sheet | Cash+STI $76.843B vs total debt $40.3B → ~$36.5B net cash (ex-leases); equity $442.4B | The only net-cash balance sheet among the big AI-capex buyers; lease obligations are the growing off-metric item | A− |
 | Capital expenditure | FY2026 cash PP&E $115.9B; Q4 incl. finance leases $41B (+69%); FY2027 Q1 guided >$50B, FY2027 to grow YoY | Capex intensity ~35% of revenue and still rising; this is the book's largest single demand line | Caution |
 | Order book | Commercial RPO $678B (+84%), ~2x annual revenue | Extreme visibility, but ~45% of the Jan-2026 $625B was OpenAI-linked | B+ |
 | Capital returns | FY2026 dividends $26.4B + buybacks $22.3B | Returns continue but buybacks no longer offset dilution+capex cycle as dominantly as pre-AI years | B+ |
@@ -120,21 +122,21 @@ The bull case is that Microsoft is the only company in the world currently provi
 2. **Absorption is proven, not promised.** FY2026 operating margin expanded to 46.8% while cash capex nearly doubled the pre-AI run-rate. Oracle burns cash to build; Meta's FCF fell 91%; Microsoft still produced ~$67B FCF and $48.7B of shareholder returns.
 3. **The order book de-risks the ramp.** $678B RPO (+84%) is ~2x revenue, and the latest sequential growth came mainly from enterprises outside the big AI labs — early evidence the AI demand base is broadening past OpenAI.
 4. **Copilot is the cleanest AI-monetization proof anywhere.** 30M+ paid M365 Copilot seats and 50M+ GitHub Copilot users are direct, per-seat AI revenue — not ad uplift, not internal cost savings.
-5. **Balance sheet and model optionality.** ~$36.5B net cash, plus equity exposure to both OpenAI and Anthropic (the latter marked from $350B to $900B this quarter), positions Microsoft to win regardless of which lab leads.
+5. Historical valuation basis: **Balance sheet and model optionality.** ~$36.5B net cash, plus equity exposure to both OpenAI and Anthropic (the latter marked from $350B to $900B this quarter), positions Microsoft to win regardless of which lab leads.
 
-Upside frame: if Azure sustains 40%+ into FY2027 and total revenue compounds in the high-teens, FY2027 non-GAAP EPS can plausibly reach $20-21; at 28-30x — a premium the market has paid repeatedly for this franchise — the stock supports $560-630 without multiple heroics. That requires FCF to trough in FY2027 and the OpenAI book to stay solvent.
+Historical valuation basis: Upside frame: if Azure sustains 40%+ into FY2027 and total revenue compounds in the high-teens, FY2027 non-GAAP EPS can plausibly reach $20-21; at 28-30x — a premium the market has paid repeatedly for this franchise — the stock supports $560-630 without multiple heroics. That requires FCF to trough in FY2027 and the OpenAI book to stay solvent.
 
 ## 6. Bear Case
 
 The bear case is not that Azure is weak — it is that the stock has just re-priced a quarter that also embedded the cycle's biggest unresolved liabilities.
 
-1. **The surprise is spent.** +15.5% in one session took the stock from ~$390 to $451.10; at ~49x EV/FY2026 FCF, the market is again capitalizing the absorption story, leaving little cushion if Azure's next print merely meets the raised ~45% bar.
+1. Historical valuation basis: **The surprise is spent.** +15.5% in one session took the stock from ~$390 to $451.10; at ~49x EV/FY2026 FCF, the market is again capitalizing the absorption story, leaving little cushion if Azure's next print merely meets the raised ~45% bar.
 2. **OpenAI is a single point of failure inside the order book.** ~45% of the January $625B RPO — roughly $280B — depends on one unprofitable counterparty whose own financing needs are enormous. An OpenAI funding stumble, renegotiation, or model-market share loss would turn the book's best demand signal into its largest writedown risk. Open-source model commoditization directly attacks this dependency.
 3. **FCF is structurally suppressed and the ramp continues.** FY2026 FCF (~$67B) remains below the FY2024 level despite two years of ~20% profit growth; FY2027 opens with a >$50B capex quarter. If Azure growth normalizes before capex does, the FCF trough deepens and the multiple has to carry it.
 4. **The accounting tailwind flatters the next two years.** Extending datacenter/building lives 15→25 years and shifting finance leases to operating leases reduces reported depreciation and capex optics exactly as the AI build's D&A wave was due. Underlying cash spend is unchanged (~$175B calendar-2026). Margin expansion in FY2027 will be partly geometry, and the market may eventually discount it.
 5. **Competition compresses the prize.** Alphabet ($44.9B quarterly capex) and AWS are not ceding AI cloud share; Google's model stack is arguably first-party in a way Azure's is not. If model access commoditizes, Azure's growth premium narrows while its capex commitment does not.
 
-Downside frame: on FY2026 non-GAAP EPS of $17.28, a de-rate to 21-23x — the multiple the stock actually traded at in late June 2026 — maps to roughly $365-400. That is not a tail scenario; it is where the stock was five weeks ago.
+Historical valuation basis: Downside frame: on FY2026 non-GAAP EPS of $17.28, a de-rate to 21-23x — the multiple the stock actually traded at in late June 2026 — maps to roughly $365-400. That is not a tail scenario; it is where the stock was five weeks ago.
 
 ## 7. Key Uncertainties
 
@@ -154,28 +156,30 @@ Thesis-breaking conditions:
 
 ## 8. Valuation Context
 
-The following is valuation context, not a target price or recommendation. All market-cap and multiple arithmetic uses the July 30, 2026 close of $451.10 and ~7.426B shares outstanding.
+Historical valuation basis: The following is valuation context, not a target price or recommendation. All market-cap and multiple arithmetic uses the July 30, 2026 close of $451.10 and ~7.426B shares outstanding.
+
+> Historical 2026-07-30 valuation basis: **Valuation boundary (2026-10-29, Mode A):** the readouts below remain on the 2026-07-30 basis ($451.10 close); FY2027 Q1 results (released 2026-10-28) change the trailing denominators, and current price, share count and cash/debt await Mode B recomputation.
 
 | Method | Current readout | Key assumptions | Interpretation |
 |--------|-----------------|-----------------|----------------|
-| Trailing P/E (GAAP) | $451.10 / $17.95 = ~25.1x | FY2026 GAAP EPS includes ~$4.9B of net one-time gains (Anthropic et al.) | Middle of MSFT's 10-year 24-38x band |
-| Trailing P/E (non-GAAP) | $451.10 / $17.28 = ~26.1x | Excludes investment marks | The cleaner earnings denominator |
-| P/S | ~$3.35T / $331.8B = ~10.1x | FY2026 revenue | Rich vs. history but paired with 47% operating margins |
-| EV / operating income | ~$3.31T / $155.2B = ~21.3x | EV = market cap − ~$36.5B net cash | Below Meta-style ad-platform volatility, above pre-AI MSFT norms |
-| EV / FCF | ~$3.31T / ~$67.0B = ~49x | FY2026 FCF = OCF $182.935B − cash PP&E $115.9B | The stressed metric: capex suppresses FCF while the ramp runs |
-| FCF yield | ~$67.0B / ~$3.35T = ~2.0% | Same | Thin; the market is paying for the post-capex-peak FCF, not today's |
+| Historical valuation basis: Trailing P/E (GAAP) | $451.10 / $17.95 = ~25.1x | FY2026 GAAP EPS includes ~$4.9B of net one-time gains (Anthropic et al.) | Middle of MSFT's 10-year 24-38x band |
+| Historical valuation basis: Trailing P/E (non-GAAP) | $451.10 / $17.28 = ~26.1x | Excludes investment marks | The cleaner earnings denominator |
+| Historical valuation basis: P/S | ~$3.35T / $331.8B = ~10.1x | FY2026 revenue | Rich vs. history but paired with 47% operating margins |
+| Historical valuation basis: EV / operating income | ~$3.31T / $155.2B = ~21.3x | EV = market cap − ~$36.5B net cash | Below Meta-style ad-platform volatility, above pre-AI MSFT norms |
+| Historical valuation basis: EV / FCF | ~$3.31T / ~$67.0B = ~49x | FY2026 FCF = OCF $182.935B − cash PP&E $115.9B | The stressed metric: capex suppresses FCF while the ramp runs |
+| Historical valuation basis: FCF yield | ~$67.0B / ~$3.35T = ~2.0% | Same | Thin; the market is paying for the post-capex-peak FCF, not today's |
 | Capex intensity | $115.9B / $331.8B = ~35% | FY2026 cash basis | Infrastructure-company territory; triple the pre-AI norm |
-| Shareholder yield | $48.7B / ~$3.35T = ~1.5% | FY2026 dividends + buybacks | Secondary to the capex story this cycle |
+| Historical valuation basis: Shareholder yield | $48.7B / ~$3.35T = ~1.5% | FY2026 dividends + buybacks | Secondary to the capex story this cycle |
 
 **Scenario grid:**
 
 | Scenario | Driver assumptions (Azure growth / capex absorption / OpenAI book / FCF path) | Valuation implication (rich / fair / cheap vs today) | Subjective probability weight |
 |----------|--------------------------------------------------------------------------------|------------------------------------------------------|-------------------------------|
-| Bull | Azure sustains 40%+ cc through FY2027 (Q1 guide ~45% delivered); operating margin holds ≥45% even ex-accounting tailwind; RPO grows with OpenAI share declining; TTM FCF troughs in FY2027 and reaccelerates | $451.10 proves fair-to-cheap: FY2027 non-GAAP EPS toward $20-21 at a sustained ~28-30x franchise multiple maps to $560-630 | 30% |
-| Base | Azure decelerates gradually into the mid-30s as comps harden; capex grows as guided, FCF flat around $60-70B; OpenAI book performs but concentration stays; margin expansion partly attributable to useful-life change | Today's price is broadly fair with limited margin of safety: ~26x non-GAAP trailing for high-teens growth is defensible, but the July 30 pop already spent the surprise | 40% |
-| Bear | Azure slows to low-30s or below while FY2027 capex still steps up; an OpenAI financing/renegotiation event forces RPO-quality questions; FCF breaks below $50B; the market re-discounts the accounting tailwind | Stock re-rates toward the 21-23x it carried in late June 2026: roughly $365-400 on FY2026 non-GAAP EPS, lower if EPS estimates also fall | 30% |
+| Historical valuation basis: Bull | Azure sustains 40%+ cc through FY2027 (Q1 guide ~45% delivered); operating margin holds ≥45% even ex-accounting tailwind; RPO grows with OpenAI share declining; TTM FCF troughs in FY2027 and reaccelerates | $451.10 proves fair-to-cheap: FY2027 non-GAAP EPS toward $20-21 at a sustained ~28-30x franchise multiple maps to $560-630 | 30% |
+| Historical valuation basis: Base | Azure decelerates gradually into the mid-30s as comps harden; capex grows as guided, FCF flat around $60-70B; OpenAI book performs but concentration stays; margin expansion partly attributable to useful-life change | Today's price is broadly fair with limited margin of safety: ~26x non-GAAP trailing for high-teens growth is defensible, but the July 30 pop already spent the surprise | 40% |
+| Historical valuation basis: Bear | Azure slows to low-30s or below while FY2027 capex still steps up; an OpenAI financing/renegotiation event forces RPO-quality questions; FCF breaks below $50B; the market re-discounts the accounting tailwind | Stock re-rates toward the 21-23x it carried in late June 2026: roughly $365-400 on FY2026 non-GAAP EPS, lower if EPS estimates also fall | 30% |
 
-**What's priced in & the expectation gap:** At $451.10, the market has re-embraced the absorption thesis it abandoned in June (the stock touched $352.83 on June 25 amid the AI-infra drawdown, a −34.5% peak-to-trough from October 2025): it is paying ~26x cleaned trailing earnings for a company guiding Azure to accelerate again and capex above $50B a quarter. What is priced in: Azure 40%+ persisting near-term, no OpenAI accident, and FCF recovering once the build normalizes. What is not fully priced: the depreciation-policy tailwind unwinding analytically, or any wobble in the OpenAI ~45%-of-RPO dependency. Our 30% bull / 40% base / 30% bear grid reads the expectation gap as slightly negative-to-neutral after the one-day +15.5% repricing — the operating evidence is the best in the demand layer, but the entry price now assumes it continues, which is why this initiation opens at neutral-watch rather than constructive.
+Historical valuation basis: **What's priced in & the expectation gap:** At $451.10, the market has re-embraced the absorption thesis it abandoned in June (the stock touched $352.83 on June 25 amid the AI-infra drawdown, a −34.5% peak-to-trough from October 2025): it is paying ~26x cleaned trailing earnings for a company guiding Azure to accelerate again and capex above $50B a quarter. What is priced in: Azure 40%+ persisting near-term, no OpenAI accident, and FCF recovering once the build normalizes. What is not fully priced: the depreciation-policy tailwind unwinding analytically, or any wobble in the OpenAI ~45%-of-RPO dependency. Our 30% bull / 40% base / 30% bear grid reads the expectation gap as slightly negative-to-neutral after the one-day +15.5% repricing — the operating evidence is the best in the demand layer, but the entry price now assumes it continues, which is why this initiation opens at neutral-watch rather than constructive.
 
 ## 9. Catalysts & Timeline
 
@@ -196,7 +200,7 @@ Microsoft closes the most important hole in this book. The demand-risk layer exi
 
 At the chain level, this print is the strongest single demand confirmation the book has recorded this cycle, and it arrived in the same week as Meta's $31B capex quarter and Alphabet's $44.9B print: the three best-capitalized buyers are all still accelerating. The read-through supports the scarcity assumptions under the GPU, HBM, power, optical, and facility layers — with the standing caveat that a capex dollar guided is not a purchase order at any specific supplier.
 
-At the stock level, discipline matters more. The market repriced MSFT +15.5% in one session on exactly this evidence; at $451.10 it trades at ~26x cleaned trailing earnings and ~49x FY2026 FCF while the capex ramp is still steepening and ~45% of the January order book hangs on one counterparty. The operating case is the best in the layer; the entry price now assumes it continues.
+Historical valuation basis: At the stock level, discipline matters more. The market repriced MSFT +15.5% in one session on exactly this evidence; at $451.10 it trades at ~26x cleaned trailing earnings and ~49x FY2026 FCF while the capex ramp is still steepening and ~45% of the January order book hangs on one counterparty. The operating case is the best in the layer; the entry price now assumes it continues.
 
 The initiation stance is **neutral-watch, medium conviction**. Medium, not high, because the two variables that decide the thesis — the FY2027 Azure-vs-capex race and OpenAI's financial trajectory — are both outside the current disclosure window.
 
@@ -210,5 +214,5 @@ Upgrade trigger: Azure sustains ≥40% cc growth into FY2027 with operating marg
 - The January 2026 disclosure that about 45% of the then-$625B commercial RPO was tied to OpenAI is from Constellation Research's Q2 FY2026 coverage; the Q4 commentary that sequential RPO growth was driven mainly by customers outside large AI-model developers is from Q4 earnings coverage: [Constellation Research](https://www.constellationr.com/insights/news/microsoft-q2-strong-azure-growth-39-openai-45-rpo).
 - Q1 FY2027 Azure constant-currency growth guidance of ~45% and consensus-beat context are from TradingKey's Q4 recap: [TradingKey](https://www.tradingkey.com/analysis/stocks/us-stocks/262062848-microsoft-q4-earnings-sweep-expectations-why-microsoft-stock-surge-9-tradingkey).
 - Alphabet quarterly capex of $44.9B and Meta Q2 2026 capex/FCF comparison figures are from this hub's verified signal ledger entries (`alphabet-q2-2026-capex`, `meta-q2-2026-*`) and the meta-2026 report; Oracle FY2026 figures are from the oracle-2026 report in this hub.
-- Share price ($451.10, 2026-07-30 close), the 07-29 close of $390.54, the 52-week range ($352.83 on 2026-06-25 to $538.66 on 2025-10-28), and shares outstanding (~7.426B) were pulled via Yahoo Finance/yfinance on 2026-07-31. US markets had not completed the 2026-07-31 session at the time of writing, so the last completed close is 2026-07-30. Market cap (~$3.35T), enterprise value (~$3.31T using ~$36.5B net cash excluding lease liabilities), and all multiples are computed from these inputs and labeled with the anchor date. This market-data snapshot can be revised by the data provider and is subsequently maintained by `static/invest/research/update_prices.py`.
+- Historical valuation basis: Share price ($451.10, 2026-07-30 close), the 07-29 close of $390.54, the 52-week range ($352.83 on 2026-06-25 to $538.66 on 2025-10-28), and shares outstanding (~7.426B) were pulled via Yahoo Finance/yfinance on 2026-07-31. US markets had not completed the 2026-07-31 session at the time of writing, so the last completed close is 2026-07-30. Market cap (~$3.35T), enterprise value (~$3.31T using ~$36.5B net cash excluding lease liabilities), and all multiples are computed from these inputs and labeled with the anchor date. This market-data snapshot can be revised by the data provider and is subsequently maintained by `static/invest/research/update_prices.py`.
 - FY2024 FCF (~$74B) referenced for trend context is from Microsoft's FY2024 10-K (OCF $118.5B − capex $44.5B). This report does not use non-public information. OpenAI-related RPO share is as of the January 2026 disclosure; Microsoft did not update the percentage in the Q4 release.

@@ -3180,5 +3180,32 @@
     "monitoringRefs": [
       "amkr-2026:prepayments-and-subsidy-stack"
     ]
+  },
+  {
+    "id": "microsoft-q1-fy2027-results-20261028",
+    "date": "2026-10-28",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Microsoft FY2027 Q1 Azure 收入 +48%（固定汇率 +48%，新口径）、PP&E 增置 $39.4B（+103%）；商业 RPO $677B",
+      "en": "Microsoft Q1 FY2027: Azure revenue +48% (+48% cc, redefined metric), PP&E additions $39.4B (+103%), commercial RPO $677B"
+    },
+    "detail": {
+      "zh": "FY2027 Q1（截至2026-09-30，10-28发布）收入$92.279B（同比+19%）、营业利润$45.915B（+21%）、GAAP摊薄EPS $4.92、剔除OpenAI投资影响的非GAAP EPS $4.89。新分部Agents and Infra收入$76.795B、Devices and Consumer $15.484B；以往期间按新分部重列，不是财报差错重述。Azure收入$33.165B、同比及固定汇率均+48%，指标因分部调整变更，与7月约45%指引尚未完成同口径桥接。商业RPO $677B（同比+73%）；OpenAI商业安排关联方收入$10.0B不代表其RPO占比。经营现金流$58.000B、现金PP&E增置$39.367B（同比+103%）；按经营现金流减PP&E口径自算季度FCF $18.633B、TTM $59.957B，仍高于$50B监测阈值；此口径不含其它投资现金流出$12.949B。折旧费用$11.1B（去年$7.1B）不能单独证明寿命政策对利润率的贡献。 Azure可比指引、公司口径含融资租赁capex、OpenAI RPO集中度与折旧贡献仍unclear；电话会及IR演示未读。 估值仍按2026-07-30历史基础；新实绩、指引或交易资本影响待Mode B，价格、估值数字、立场和确信度未更新。 https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
+      "en": "FY2027 Q1 (ended 2026-09-30, released 10-28) revenue was $92.279B (+19% YoY), operating income $45.915B (+21%), GAAP diluted EPS $4.92 and non-GAAP EPS $4.89 excluding the OpenAI investment impact. Revenue in the new Agents and Infra and Devices and Consumer segments was $76.795B and $15.484B; prior periods were recast for segments, not restated for an error. Azure revenue was $33.165B, up 48% both reported and in constant currency; the metric changed with the segment recast and has not been bridged here to the July ~45% guide. Commercial RPO was $677B (+73%); $10.0B of related-party revenue from commercial arrangements with OpenAI does not establish its RPO share. OCF was $58.000B and cash PP&E additions $39.367B (+103% YoY). On OCF minus PP&E, calculated quarterly FCF was $18.633B and TTM FCF $59.957B, above the $50B monitoring threshold; this definition excludes $12.949B of other investing outflows. Depreciation of $11.1B (prior year $7.1B) alone does not quantify the useful-life policy contribution to margins. Comparable Azure guidance, company-basis capex including finance leases, OpenAI RPO concentration and depreciation contribution remain unclear; call and IR deck were not read. Valuation remains anchored to the historical 2026-07-30 basis; new actuals, guidance or transaction capital effects await Mode B. Price, valuation numbers, stance and conviction are unchanged. https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "MSFT"
+    ],
+    "reportIds": [
+      "microsoft-2026"
+    ],
+    "monitoringRefs": [
+      "microsoft-2026:azure-growth-vs-capex",
+      "microsoft-2026:fy2027-capex-slope",
+      "microsoft-2026:fcf-trough",
+      "microsoft-2026:openai-rpo-concentration",
+      "microsoft-2026:depreciation-policy-tailwind"
+    ]
   }
 ]
