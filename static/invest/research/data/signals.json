@@ -3157,5 +3157,28 @@
       "paypal-2026:eps-guidance-delivery",
       "paypal-2026:buyback-capacity"
     ]
+  },
+  {
+    "id": "amkor-q3-2026-10q-prepayments-20261027",
+    "date": "2026-10-27",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Amkor Q3 2026 10-Q：合同负债 $547.6M；预计未来 12 个月收到约 $19 亿客户预付款，10 月新签协议预计 2027 年收到约 $13 亿",
+      "en": "Amkor Q3 2026 10-Q: contract liabilities $547.6M; about $1.9B of customer advance payments expected in the next 12 months, and an October agreement expected to bring about $1.3B in 2027"
+    },
+    "detail": {
+      "zh": "2026-10-27提交的Q3 2026 10-Q披露：9月30日合同负债$547.6M（6月30日$393.0M），其中短期$127.5M，其余预计1–5年确认$406.3M、5–10年确认$13.9M；相关已收预付款的在外备用信用证$200M。公司预计未来12个月收到约$1.9B客户预付款（其中$200M到账时需信用证）；10月与未点名客户新签协议，预计2027年收到约$1.3B。两数字不能相加，也不能与Q2披露的7月协议约$1.5B作无证据对账。CHIPS最高$407M直接资助仍未到账，35%税收抵免资格不等于已收现金。亚利桑那在建成本$553.3M、含资本化利息$8.5M，不证明投产。Q3毛利率同比提升主要由低材料含量产品占比提高解释；未给稼动率百分比。 预付款与补贴复合腿仍unclear；电话会与演示稿未读。 估值仍按2026-07-30历史基础；新实绩、指引或交易资本影响待Mode B，价格、估值数字、立场和确信度未更新。 https://www.sec.gov/Archives/edgar/data/1047127/000104712726000052/amkr-20260930.htm",
+      "en": "The Q3 2026 10-Q filed 2026-10-27 reports September 30 contract liabilities of $547.6M (June 30: $393.0M), including $127.5M short-term, with $406.3M expected to become revenue over 1–5 years and $13.9M over 5–10 years; outstanding standby letters of credit related to advances received were $200M. Amkor expects about $1.9B of customer advances in the next 12 months ($200M requiring a letter of credit upon receipt); an October agreement with an unnamed customer is expected to bring about $1.3B in 2027. These figures cannot be added or reconciled without evidence to the Q2 disclosure of about $1.5B under a July agreement. The up-to-$407M CHIPS direct award remains undisbursed; eligibility for the 35% investment tax credit is not cash received. Arizona construction costs of $553.3M, including $8.5M capitalized interest, do not establish production. The Q3 gross-margin increase is primarily attributed to a greater mix of lower-material-content products; no utilization percentage is given. The composite advance-payment/subsidy reading remains unclear; call and deck were not read. Valuation remains anchored to the historical 2026-07-30 basis; new actuals, guidance or transaction capital effects await Mode B. Price, valuation numbers, stance and conviction are unchanged. https://www.sec.gov/Archives/edgar/data/1047127/000104712726000052/amkr-20260930.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "AMKR"
+    ],
+    "reportIds": [
+      "amkr-2026"
+    ],
+    "monitoringRefs": [
+      "amkr-2026:prepayments-and-subsidy-stack"
+    ]
   }
 ]
