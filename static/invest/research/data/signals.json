@@ -3207,5 +3207,30 @@
       "microsoft-2026:openai-rpo-concentration",
       "microsoft-2026:depreciation-policy-tailwind"
     ]
+  },
+  {
+    "id": "vertiv-q3-2026-results-20261028",
+    "date": "2026-10-28",
+    "title": {
+      "zh": "Vertiv Q3 2026 净销售额 $43.13 亿（+61%、有机 +55%）、有机订单同比增长逾 100%；FY2026 调整后 EPS 指引上调至 $7.10-7.20",
+      "en": "Vertiv Q3 2026 net sales $4.313B (+61%, +55% organic) with organic orders up more than 100%; FY2026 adjusted EPS guide raised to $7.10-7.20"
+    },
+    "detail": {
+      "zh": "据 Vertiv 2026-10-28 Q3 2026 业绩稿（8-K Items 2.02/7.01，Exhibit 99.1，https://www.sec.gov/Archives/edgar/data/1674101/000162828026067707/q32026exhibit991vrt10282026.htm；季度截至 2026-09-30）：净销售额 $43.13 亿（同比 +61%、有机 +55%，并购贡献约 6%；美洲 +75%／有机 +66%、亚太 +50%／有机 +48%、EMEA +23%／有机 +19%），营业利润 $9.84 亿（+90%）、调整后营业利润 $10.87 亿（+83%）、调整后营业利润率 25.2%（+290bps），摊薄 EPS $1.95（+91%）、调整后摊薄 EPS $2.21（+78%），经营现金流 $7.94 亿（+64%）、调整后自由现金流 $6.52 亿（+50%）；新闻稿称有机订单同比增长逾 100%。FY2026 指引上调至净销售额 $144.5-148.5 亿（有机 +37-39%）、调整后营业利润率 23.5-24.5%、调整后 EPS $7.10-7.20（此前 $6.65-6.75）、调整后自由现金流 $26-28 亿；Q4 指引净销售额 $43.13-45.13 亿、调整后 EPS $2.22-2.28。另据 2026-10-27 8-K Exhibit 99.1（https://www.sec.gov/Archives/edgar/data/1674101/000162828026067393/exhibit991vrt-q42026102720.htm）与 Q3 10-Q 期后事项附注（https://www.sec.gov/Archives/edgar/data/1674101/000162828026067893/vrt-20260930.htm），公司于 2026-10-27 完成收购 UtilityInnovation Group，预付现金约 $14.5 亿、另有最高 $11.5 亿与 12/24 个月 EBITDA 目标挂钩的或有现金对价。本轮读数：orders-backlog-cadence unclear（订单腿未见降温，backlog 与 book-to-bill 未披露）、ai-capex-digestion unclear（仅有供应商自身读数，hyperscaler capex 指引未读）。证据边界：本季 backlog 金额与 book-to-bill 在新闻稿、业绩演示（https://s205.q4cdn.com/554782763/files/content_files/Vertiv-Third-Quarter-2026-Results-Presentation.pdf）与 10-Q 中均未披露，订单增速无金额基数；电话会未读；新闻稿、演示与 10-Q 均未提及 KES 收购；hyperscaler 同期一手资料未读。收购对价、流动性与资产负债表数字属资本／估值输入，留待 Mode B，不在本条推导。估值仍为 2026-08-17 历史基础，立场（谨慎／中确信，2026-08-18）未重新裁定。",
+      "en": "Per Vertiv's Q3 2026 results of October 28, 2026 (8-K Items 2.02/7.01, Exhibit 99.1, https://www.sec.gov/Archives/edgar/data/1674101/000162828026067707/q32026exhibit991vrt10282026.htm; quarter ended September 30, 2026): net sales $4.313B (+61% YoY, +55% organic, approximately 6% from acquisitions; Americas +75% / +66% organic, APAC +50% / +48% organic, EMEA +23% / +19% organic), operating profit $984M (+90%), adjusted operating profit $1.087B (+83%) at a 25.2% adjusted operating margin (+290bps), diluted EPS $1.95 (+91%) and adjusted diluted EPS $2.21 (+78%), operating cash flow $794M (+64%) and adjusted free cash flow $652M (+50%); the release reports organic orders growth of more than 100% year over year. FY2026 guidance was raised to net sales of $14.45-14.85B (+37-39% organic), adjusted operating margin 23.5-24.5%, adjusted EPS $7.10-7.20 (prior $6.65-6.75) and adjusted FCF $2.6-2.8B; the Q4 guide is net sales $4.313-4.513B and adjusted EPS $2.22-2.28. Separately, per the 8-K Exhibit 99.1 of October 27, 2026 (https://www.sec.gov/Archives/edgar/data/1674101/000162828026067393/exhibit991vrt-q42026102720.htm) and the Q3 10-Q subsequent-event note (https://www.sec.gov/Archives/edgar/data/1674101/000162828026067893/vrt-20260930.htm), the company completed its acquisition of UtilityInnovation Group on 2026-10-27 for about $1.45B of upfront cash plus up to $1.15B of contingent cash consideration tied to 12- and 24-month EBITDA targets. Readings this pass: orders-backlog-cadence unclear (the orders leg shows no cooling; backlog and book-to-bill undisclosed), ai-capex-digestion unclear (supplier-side readings only; hyperscaler capex guides not read). Evidence limits: this quarter's backlog balance and book-to-bill are not disclosed in the release, the results presentation (https://s205.q4cdn.com/554782763/files/content_files/Vertiv-Third-Quarter-2026-Results-Presentation.pdf) or the 10-Q, and the orders growth rate has no dollar base; the call was not read; none of the release, presentation or 10-Q mentions the KES acquisition; no hyperscaler same-period primary source was read. Acquisition consideration, liquidity and balance-sheet figures are capital and valuation inputs left to Mode B and are not derived here. Valuation retains the historical 2026-08-17 basis, and the stance (cautious / medium, 2026-08-18) was not re-adjudicated."
+    },
+    "crossChecks": [
+      "buildout-orders"
+    ],
+    "tickers": [
+      "VRT"
+    ],
+    "reportIds": [
+      "vertiv-2026"
+    ],
+    "monitoringRefs": [
+      "vertiv-2026:orders-backlog-cadence",
+      "vertiv-2026:ai-capex-digestion"
+    ]
   }
 ]
