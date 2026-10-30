@@ -3323,8 +3323,8 @@
     "priceSymbol": "GEV",
     "title": "GE Vernova 深度研究报告 - AI 电力侧的卖铲人与燃气轮机超级周期",
     "titleEn": "GE Vernova Deep Research Report - The Pick-and-Shovel of AI's Power Side and the Gas-Turbine Super-Cycle",
-    "summary": "2026-07-23 雷达更新（Q2 监测）：GE Vernova Q2 2026 订单 $24.2B（有机 +88%）、总 backlog 环比 +$13B 至 $176B；燃气设备的 53 GW backlog + 63 GW slot 预留合计 116 GW，年底目标上调至 ≥125 GW。调整后 EBITDA $1.2B（利润率 11.3%），FY2026 营收/FCF 指引升至 $45.5-46.5B/$11.5-12.5B，利润率指引维持 12-14%；Wind Q2 亏损同比扩大、环比改善。价格锚点 $981.98、市值约 $2,640 亿、约 44x EV/2026E 调整后 EBITDA 均为 2026-06-26 口径，本次未重估，继续为谨慎/中确信。",
-    "summaryEn": "July 23, 2026 radar update (Q2 monitoring): GE Vernova reported Q2 orders of $24.2B (+88% organic) and total backlog up $13B QoQ to $176B. Gas equipment totaled 116 GW: 53 GW of backlog plus 63 GW of slot reservations; the year-end target rose to >=125 GW. Adjusted EBITDA was $1.2B (11.3% margin), FY2026 revenue/FCF guidance rose to $45.5-46.5B/$11.5-12.5B, and the margin guide stayed at 12-14%; Wind's Q2 loss widened YoY but improved sequentially. The $981.98 price anchor, ~$264B market cap, and ~44x EV/2026E adjusted EBITDA remain the dated 2026-06-26 frame and are not re-marked here; stance remains cautious / medium conviction.",
+    "summary": "2026-10-30 — 2026-10-28 发布的 Q3 2026：订单 $29.3B（有机 +96%），总 backlog（RPO）$196.7B（发布稿 $197B、环比 +$20B）；燃气设备 backlog 64 GW + slot 预留 58 GW 合计 122 GW（Q3 将 13 GW 预留转为订单），管理层预计年底至少 130 GW。营收 $12.6B（+27%，有机 +18%），调整后 EBITDA $1.943B、利润率 15.4%（有机 14.7%），Wind 分部 EBITDA +$72M；FCF $5.409B。FY2026 指引上调至营收 $46.5-47.5B、调整后 EBITDA 利润率 13.5-14.5%、FCF $16-17B，Wind 全年亏损指引放宽至 $400-500M。年底 GW 一腿与数据中心订单拆分尚无法判定。估值仍按 2026-07-30 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。",
+    "summaryEn": "2026-10-30 — Q3 2026 (released 2026-10-28): orders $29.3B (+96% organic) and total backlog (RPO) $196.7B (release basis $197B, +$20B sequentially); gas equipment backlog of 64 GW plus 58 GW of slot reservations totaled 122 GW after 13 GW of reservations converted to orders, and management now anticipates at least 130 GW by year-end. Revenue was $12.6B (+27%, +18% organic), adjusted EBITDA $1.943B at a 15.4% margin (14.7% organic), Wind segment EBITDA +$72M, and FCF $5.409B. FY2026 guidance rose to revenue $46.5-47.5B, adjusted EBITDA margin 13.5-14.5% and FCF $16-17B, while the Wind full-year loss guide widened to $400-500M. The year-end GW leg and the data-center order split cannot yet be decided. Valuation remains anchored to the historical 2026-07-30 basis; new actuals/guidance await Mode B. Price, valuation numbers, stance and conviction are unchanged.",
     "tags": [
       "AI电力",
       "燃气轮机",
@@ -3333,7 +3333,7 @@
     ],
     "category": "energy",
     "date": "2026-06-27",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-10-30",
     "file": "/invest/research/reports/view.html?id=gevernova-2026",
     "markdownFiles": {
       "zh": "/invest/research/GE_Vernova_深度研究报告_2026-06.md",
@@ -3343,17 +3343,15 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "Q2 2026 订单 $24.2B（有机 +88%），backlog 环比 +$13B 至 $176B；2027 目标 $200B（从 2028 提前）；Electrification 数据中心订单上半年累计 >$5B（超过 2025 全年总额两倍）",
-      "燃气设备 53 GW backlog + 63 GW slot 预留合计 116 GW（年底目标上调至 ≥125 GW）；上调 FY2026 指引：营收 $45.5-46.5B、FCF $11.5-12.5B（调整后 EBITDA 利润率指引维持 12-14%）",
-      "利润率从 FY2025 的 8.4% 向中两位数爬坡是估值核心变量；Q1 现金 $10.2B、senior notes $2.6B，粗略净现金约 $7.6B，与背 $64.9B 总债务的 Broadcom 形成对比",
-      "股价约 $981.98、市值约 $2,640 亿（2026-06-26），EV/2026E 调整后 EBITDA 约 44x；20%牛市/50%基准/30%熊市情景推导为谨慎/中确信"
+      "Q3 2026（2026-10-28 发布）订单 $29.3B（有机 +96%）、总 backlog（RPO）$196.7B（环比 +$20B）；燃气设备 64 GW backlog + 58 GW slot 预留合计 122 GW，年底预期至少 130 GW；调整后 EBITDA 利润率 15.4%（有机 14.7%），FY2026 指引上调至营收 $46.5-47.5B、调整后 EBITDA 利润率 13.5-14.5%、FCF $16-17B；Wind 全年亏损指引放宽至 $400-500M。",
+      "估值仍按 2026-07-30 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。"
     ],
     "chainLayer": "power",
     "coverageTier": "full",
     "chainRole": "common-constraint",
     "stance": "cautious",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q2 2026",
+    "reportedPeriod": "Q3 2026",
     "related": [
       "vertiv-2026",
       "bloom-energy-2026"
@@ -3372,13 +3370,14 @@
           "en": "orders/backlog cool — signalling buildout speed lags the chip-side narrative"
         },
         "latest": {
-          "zh": "Q2（2026-07-22）订单 $24.2B（有机 +88%）、backlog 环比 +$13B 至 $176B（2027 目标 $200B）；电气化数据中心订单上半年累计 >$5B（超过 2025 全年总额两倍）",
-          "en": "Q2 (2026-07-22) orders $24.2B (+88% organic), backlog +$13B QoQ to $176B (2027 target $200B); Electrification data-center orders >$5B YTD (more than 2x the full-year 2025 total)"
+          "zh": "Q3 2026（2026-10-28 发布）订单 $29.3B（有机 +96%；Power $21.8B、有机 +178%；Electrification $5.4B、有机 -9%，因上年同期大额同步调相机订单形成高基数，book-to-bill 约 1.4；Wind $2.1B）；总 backlog（RPO）$196.7B（发布稿口径 $197B、环比 +$20B），其中设备 $104.1B、服务 $92.7B；Electrification 设备 backlog $42.2B（同比 +60%，含 Prolec GE 的 $5B）。管理层预计 Q4 backlog 超过 $200B。本次检索的发布稿与 10-Q 文本中未找到数据中心订单金额。",
+          "en": "Q3 2026 (released 2026-10-28) orders $29.3B (+96% organic; Power $21.8B, +178% organic; Electrification $5.4B, -9% organic against large prior-year synchronous-condenser orders, book-to-bill ~1.4; Wind $2.1B); total backlog (RPO) $196.7B (release basis $197B, +$20B sequentially), of which equipment $104.1B and services $92.7B; Electrification equipment backlog $42.2B (+60% YoY, including $5B from Prolec GE). Management expects backlog to exceed $200B in Q4. No data-center order dollar figure was found in the release or 10-Q text searched this pass."
         },
         "nextCheck": "2026-Q3 财报 / Q3 earnings",
         "nextCheckDate": "2026-10",
         "reading": "within",
-        "readingAsOf": "2026-07-22"
+        "readingAsOf": "2026-10-28",
+        "readingNote": "订单（有机 +96%）与 backlog（环比 +$20B）均在增长，触发条件「订单/backlog 降温」未出现 ⇒ within；注意 Electrification 订单有机 -9%（高基数），且本季未披露数据中心订单金额，AI 数据中心归因未单独验证。 / Orders (+96% organic) and backlog (+$20B sequentially) both grew, so the trigger condition 'orders/backlog cool' is not met ⇒ within; caveats: Electrification orders fell 9% organically on a tough comp, and no data-center order amount was disclosed this quarter, so AI data-center attribution is not separately verified."
       },
       {
         "id": "margin-ramp",
@@ -3393,12 +3392,13 @@
           "en": "adjusted EBITDA margin climbs from 8.4% toward 12-14% and mid-teens"
         },
         "latest": {
-          "zh": "Q2（2026-07-22）调整后 EBITDA $1.2B（利润率 11.3%，有机 +340bps）；FY2026 指引上调至营收 $45.5-46.5B、FCF $11.5-12.5B，EBITDA 利润率指引维持 12-14%（Q2 11.3% 仍低于该区间）",
-          "en": "Q2 (2026-07-22) adj EBITDA $1.2B (11.3% margin, +340bps organic); FY2026 guide raised to revenue $45.5-46.5B and FCF $11.5-12.5B, with the EBITDA-margin guide unchanged at 12-14% (Q2 11.3% still below the range)"
+          "zh": "Q3 2026（2026-10-28 发布）调整后 EBITDA $1.943B、利润率 15.4%（同比 +730bps；调整后有机利润率 14.7%、+690bps）；前九个月调整后 EBITDA 利润率 12.4%。分部 EBITDA 利润率：Power 21.4%、Electrification 19.1%、Wind 2.6%（Wind 分部 EBITDA +$72M，上年同期 -$61M；前九个月 -$585M）。FY2026 指引上调：营收 $46.5-47.5B、调整后 EBITDA 利润率 13.5-14.5%（此前 12-14%）、FCF $16-17B（此前 $11.5-12.5B）；Wind 全年分部 EBITDA 亏损指引放宽至 $400-500M（此前约 $400M）。Q3 经营现金流 $6.057B、FCF $5.409B；前九个月经营现金流主要来自合同负债流入（Power 订单与 slot 预留的客户预付款）。",
+          "en": "Q3 2026 (released 2026-10-28) adjusted EBITDA $1.943B at a 15.4% margin (+730bps YoY; adjusted organic margin 14.7%, +690bps); 9M adjusted EBITDA margin 12.4%. Segment EBITDA margins: Power 21.4%, Electrification 19.1%, Wind 2.6% (Wind segment EBITDA +$72M vs -$61M a year earlier; 9M -$585M). FY2026 guidance raised to revenue $46.5-47.5B, adjusted EBITDA margin 13.5-14.5% (from 12-14%) and FCF $16-17B (from $11.5-12.5B); the Wind full-year segment EBITDA-loss guide widened to $400-500M (from ~$400M). Q3 operating cash flow $6.057B and FCF $5.409B; 9M operating cash flow was driven mainly by contract-liability inflows (customer down payments on orders and slot reservations at Power)."
         },
         "nextCheck": "季度利润率 / quarterly margins",
         "reading": "within",
-        "readingAsOf": "2026-07-22"
+        "readingAsOf": "2026-10-28",
+        "readingNote": "触发条件为调整后 EBITDA 利润率从 8.4% 向 12-14% 及中两位数爬坡：Q3 单季 15.4%、FY 指引上调至 13.5-14.5% ⇒ 爬坡方向兑现，within；注意单季（15.4%）与前九个月（12.4%）口径差，且 Wind 全年亏损指引放宽。 / The trigger is the adjusted EBITDA margin climbing from 8.4% toward 12-14% and the mid-teens: Q3 single-quarter 15.4% and the FY guide raised to 13.5-14.5% ⇒ ramp on track, within; note the single-quarter (15.4%) vs 9M (12.4%) basis difference and the widened Wind full-year loss guide."
       },
       {
         "id": "gas-turbine-slots",
@@ -3413,12 +3413,13 @@
           "en": "the 63 GW of slot reservations convert into equipment backlog and the combined year-end total reaches the raised >=125 GW target"
         },
         "latest": {
-          "zh": "Q2（2026-07-22）燃气设备合计 116 GW：53 GW 设备 backlog + 63 GW slot 预留；Q2 将 10 GW 既有预留转为订单，年底合计目标上调至 ≥125 GW",
-          "en": "Q2 (2026-07-22) gas equipment totaled 116 GW: 53 GW of equipment backlog plus 63 GW of slot reservations; 10 GW of prior reservations converted to orders in Q2 and the combined year-end target rose to >=125 GW"
+          "zh": "Q3 2026（2026-10-28 发布）新签 11 GW 燃气设备合同（8 GW slot 预留 + 3 GW 订单），将 13 GW 既有预留转为订单并发运 5 GW；设备 backlog 由 53 GW 增至 64 GW，slot 预留由 63 GW 降至 58 GW，合计由 116 GW 增至 122 GW。管理层现预计 2026 年底至少达到 130 GW（此前 ≥125 GW）。10-Q 显示 Q3 燃气轮机订单 112 台、16.6 GW。",
+          "en": "Q3 2026 (released 2026-10-28) GE Vernova signed 11 GW of new gas equipment contracts (8 GW of slot reservations + 3 GW of orders), converted 13 GW of existing reservations to orders and shipped 5 GW; equipment backlog rose from 53 to 64 GW and slot reservations fell from 63 to 58 GW, taking the combined total from 116 to 122 GW. Management now anticipates at least 130 GW by year-end 2026 (previously >=125 GW). The 10-Q shows Q3 gas turbine orders of 112 units / 16.6 GW."
         },
         "nextCheck": "年末披露 / year-end disclosure",
-        "reading": "within",
-        "readingAsOf": "2026-07-22"
+        "reading": "unclear",
+        "readingAsOf": "2026-10-28",
+        "readingNote": "触发条件含「年底 backlog+预留合计数达到 ≥125 GW」一腿，Q3 的 122 GW 无法判定年底腿 ⇒ unclear；转化腿有进展（Q3 13 GW 预留转为订单）。触发文本仍写 ≥125 GW，本次未改。 / The trigger includes a year-end combined-total leg (>=125 GW) that a Q3 figure (122 GW) cannot decide ⇒ unclear; the conversion leg shows progress (13 GW of reservations converted to orders in Q3). The trigger text still names >=125 GW and is not changed here."
       },
       {
         "id": "valuation-wind-drag",
