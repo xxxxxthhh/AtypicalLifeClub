@@ -1836,7 +1836,7 @@
     "priceSymbol": "EQIX",
     "title": "Equinix 深度研究报告 - AI 数据中心设施层的互联溢价仪表盘",
     "titleEn": "Equinix Deep Research Report - The Interconnection-Premium Dashboard for AI Data-Center Facilities",
-    "summary": "2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30）：收入 $2.625B（同比 +16%，包含一次性 xScale fees）、recurring revenue $2.377B（MRR 同比 +11%）、AFFO $1.168B（+20%）、AFFO/share $11.78（+19%）；Q2 新增 interconnections 创纪录 9,700 个、annualized gross bookings $424M（+23%）。管理层上调 FY2026 指引与长期展望。互联、bookings 与 MRR 同向走强，facility-interconnection-leasing 证伪条件未触发；这些指标与网络密集部署一致，但公司未将其具体归因于 AI，不能作为 AI 因果证明。下文 $1,047.53（2026-07-30 收盘）为重新锚定后的估值基准。AI 基础设施 datacenter-facility 层的 DLR 对照组：EQIX 用 Platform Equinix interconnection、retail colocation、xScale JV 和 AFFO/share 来验证 AI 需求是否不只是 hyperscale shell leasing。2026Q1 收入 $2.444B（reported YoY +10%）、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；MRR 同比 +12% reported / +10% normalized constant currency，annualized gross bookings $378M，annualized presales 约 $140M，largest deals 约 60% AI-related。2025 年报披露 280 个数据中心、10,500+ 客户、507,000+ interconnections，Q1 2026 interconnection revenue $446M。当前 $1,047.53（2026-07-02）、市值约 $103.3B、EV 约 $125.3B，约 24.4x 2026 AFFO/share 指引中点、约 12.2x 2026 revenue 指引。中性观察 / 中确信：质量高但估值高，关键监控是 interconnection revenue、AI bookings/presales、xScale economics、MRR/cabinet yield 与 power availability。",
+    "summary": "2026-10-30 — Q3 2026（季度截至 2026-09-30；8-K Ex 99.1 与 10-Q 于 2026-10-28 提交）收入 $2.571B（同比 +11% reported、+12% normalized and constant currency），recurring revenue $2.442B（据 10-Q 同比 +10%，reported 与 constant currency 一致），营业利润 $600M（+27%），调整后 EBITDA $1.321B（+15% reported、+14% normalized and constant currency）。全球 interconnection revenue $465M（Q3 2025 为 $422M；据新闻稿 reported 与 normalized constant currency 均 +10%），Fabric revenue 增长 24%，本季净增 interconnections 6,900 个（Q2 2026 为 9,700 个）。Annualized gross bookings 创纪录 $533M（同比 +35%；前九个月 $1.3B、+23%）；据 10-Q，该指标只计入预计 90 天内开始产生收入的合同，且不含合资企业的 recurring revenue。2026-09-30 cabinet utilization 约 78%，与 2025-09-30 持平。Q3 资本开支 $1,558M（Q3 2025 为 $1,136M）；新闻稿称 2026 年计划交付的 cabinets 比最初预期多近 40%。FY2026 指引（新闻稿称为连续第三个季度上调）：收入 $10.325–10.365B（约 +12%）、调整后 EBITDA $5.290–5.330B（利润率约 51%）、总 capex $5–6B；仅作为指引事实记录，不作为新的估值分母。所读文件未给出 AI 相关交易占比、presales 金额、计费 cabinet 增量或 xScale 产能数据，因此 AI bookings、MRR/cabinet yield、xScale 与 power/capex 读数仍为 unclear；电话会与投资者演示本轮未读。 估值仍按 2026-07-30 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。",
     "tags": [
       "数据中心",
       "互联",
@@ -1845,7 +1845,7 @@
     ],
     "category": "tech",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-10-30",
     "file": "/invest/research/reports/view.html?id=eqix-2026",
     "markdownFiles": {
       "zh": "/invest/research/Equinix_深度研究报告_2026-07.md",
@@ -1855,12 +1855,10 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "补齐 datacenter-facility 层 DLR 对照组：EQIX 验证 AI 需求是否穿透到 interconnection、retail colocation、xScale JV 和 AFFO/share，而不只是 hyperscale leasing",
-      "2026Q1 收入 $2.444B、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；全年 AFFO/share 指引上修至 $42.69-$43.29",
-      "MRR 同比 +12% reported / +10% normalized constant currency；Q1 annualized gross bookings $378M、annualized presales 约 $140M、largest deals 约 60% AI-related",
-      "2025 年末 280 个数据中心、10,500+ 客户、507,000+ interconnections；当前 $1,047.53、市值约 $103.3B、EV 约 $125.3B、约 24.4x 2026 AFFO/share 指引中点"
+      "Q3 2026（季度截至 2026-09-30；8-K Ex 99.1 与 10-Q 于 2026-10-28 提交）收入 $2.571B（同比 +11% reported、+12% normalized and constant currency），recurring revenue $2.442B（据 10-Q 同比 +10%，reported 与 constant currency 一致），营业利润 $600M（+27%），调整后 EBITDA $1.321B（+15% reported、+14% normalized and constant currency）。全球 interconnection revenue $465M（Q3 2025 为 $422M；据新闻稿 reported 与 normalized constant currency 均 +10%），Fabric revenue 增长 24%，本季净增 interconnections 6,900 个（Q2 2026 为 9,700 个）。Annualized gross bookings 创纪录 $533M（同比 +35%；前九个月 $1.3B、+23%）；据 10-Q，该指标只计入预计 90 天内开始产生收入的合同，且不含合资企业的 recurring revenue。2026-09-30 cabinet utilization 约 78%，与 2025-09-30 持平。Q3 资本开支 $1,558M（Q3 2025 为 $1,136M）；新闻稿称 2026 年计划交付的 cabinets 比最初预期多近 40%。FY2026 指引（新闻稿称为连续第三个季度上调）：收入 $10.325–10.365B（约 +12%）、调整后 EBITDA $5.290–5.330B（利润率约 51%）、总 capex $5–6B；仅作为指引事实记录，不作为新的估值分母。所读文件未给出 AI 相关交易占比、presales 金额、计费 cabinet 增量或 xScale 产能数据，因此 AI bookings、MRR/cabinet yield、xScale 与 power/capex 读数仍为 unclear；电话会与投资者演示本轮未读。",
+      "估值仍按 2026-07-30 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。"
     ],
-    "summaryEn": "July 30, 2026 monitoring update (Q2 2026, quarter ended June 30, 2026): revenue was $2.625B (+16% YoY, including one-time xScale fees), recurring revenue $2.377B (MRR +11%), AFFO $1.168B (+20%), and AFFO/share $11.78 (+19%); Q2 added a record 9,700 net interconnections and annualized gross bookings were $424M (+23%). Management raised FY2026 guidance and its long-term outlook. Interconnection, bookings, and MRR strengthened together, so the facility-interconnection-leasing falsifier was not triggered; the metrics are consistent with network-dense deployment, but the company did not attribute them specifically to AI and they are not causal proof of AI demand. The $1,047.53 (Jul 30, 2026 close) is the re-anchored valuation basis by this monitoring pass. DLR's paired check in the AI-infrastructure data-center facility layer. EQIX uses Platform Equinix interconnection, retail colocation, xScale JVs and AFFO/share to test whether AI demand is more than hyperscale shell leasing. Q1 2026 revenue was $2.444B (+10% reported YoY), operating income was $577M, net income was $415M, adjusted EBITDA was $1.245B, and AFFO/share was $10.79. MRR grew 12% reported / 10% normalized constant-currency YoY, annualized gross bookings were $378M, annualized presales were about $140M, and about 60% of largest deals were AI-related. The 2025 annual report disclosed 280 data centers, 10,500+ customers and 507,000+ interconnections, while Q1 2026 interconnection revenue was $446M. At $1,047.53 (2026-07-02), about $103.3B market cap and about $125.3B EV, EQIX trades around 24.4x the midpoint of 2026 AFFO/share guidance and about 12.2x 2026 revenue guidance. Neutral watch / medium conviction: high quality but high valuation; key monitors are interconnection revenue, AI bookings/presales, xScale economics, MRR/cabinet yield and power availability.",
+    "summaryEn": "2026-10-30 — Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1 and 10-Q filed 2026-10-28) revenue was $2.571B (+11% YoY as reported, +12% normalized and constant currency), recurring revenue $2.442B (+10% YoY as reported and in constant currency per the 10-Q), income from operations $600M (+27%) and adjusted EBITDA $1.321B (+15% as reported, +14% normalized and constant currency). Worldwide interconnection revenue was $465M (Q3 2025: $422M; +10% on both as-reported and normalized constant-currency bases per the release), Fabric revenue grew 24%, and the quarter added 6,900 net interconnections (Q2 2026: 9,700). Annualized gross bookings were a record $533M (+35% YoY; nine months $1.3B, +23%); per the 10-Q this measure only includes contracts expected to start generating revenue within 90 days and excludes joint-venture recurring revenue. Cabinet utilization was approximately 78% at 2026-09-30, the same as at 2025-09-30. Q3 capital expenditures were $1,558M (Q3 2025: $1,136M), and the release says nearly 40% more cabinets are planned for delivery in 2026 than initially anticipated. FY2026 guidance (raised for the third consecutive quarter per the release): revenue $10.325–10.365B (~12%), adjusted EBITDA $5.290–5.330B (~51% margin), total capex $5–6B; recorded as guidance, not as a new valuation denominator. The documents read give no AI-related share of deals, no presales figure, no billed-cabinet additions and no xScale capacity figures, so the AI-bookings, MRR/cabinet-yield, xScale and power/capex readings remain unclear; the earnings call and investor presentation were not read. Valuation remains anchored to the historical 2026-07-30 basis; new actuals/guidance await Mode B. Price, valuation numbers, stance and conviction are unchanged.",
     "chainLayer": "datacenter-facility",
     "coverageTier": "full",
     "chainRole": "dashboard",
@@ -1908,7 +1906,7 @@
       }
     ],
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "2026Q2",
+    "reportedPeriod": "2026Q3",
     "related": [
       "digital-realty-2026",
       "coreweave-2026",
@@ -1929,11 +1927,14 @@
           "en": "interconnection revenue and total interconnections keep growing, validating the AI/cloud/network proximity moat"
         },
         "latest": {
-          "zh": "Q2 2026 新增 interconnections 创纪录 9,700 个（Q1 interconnection revenue $446M、2025 年末 507,000+ 为上次披露的收入/存量口径）",
-          "en": "Q2 2026 added a record 9,700 net interconnections (the last disclosed revenue/stock figures were Q1 interconnection revenue $446M and 507,000+ interconnections at 2025 year-end)"
+          "zh": "Q3 2026（季度截至 2026-09-30；8-K Ex 99.1，2026-10-28）：全球 interconnection revenue $465M，Q3 2025 为 $422M（据新闻稿 reported 与 normalized constant currency 均同比 +10%），Q2 2026 为 $453M；Fabric revenue 同比 +24%；本季净增 interconnections 6,900 个（Q2 2026 为创纪录的 9,700 个）。所读文件未给出期末 interconnections 总数，总量增长由正的净增量推出。",
+          "en": "Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1, 2026-10-28): worldwide interconnection revenue was $465M versus $422M in Q3 2025 (+10% YoY on both as-reported and normalized constant-currency bases per the release) and $453M in Q2 2026; Fabric revenue +24% YoY; the quarter added 6,900 net interconnections (Q2 2026: a record 9,700). The documents read give no period-end total interconnection count; growth in the total is inferred from the positive net additions."
         },
         "nextCheck": "2026-Q3 interconnection revenue and platform metrics",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-10-28",
+        "readingNote": "两腿均已核：interconnection revenue 同比 +10%、环比由 $453M 增至 $465M；净增 6,900 个表明 interconnections 总量继续增长（期末总数未在所读文件中披露）。触发条件中“验证 proximity moat”属解读，不另作认证；本季净增量低于 Q2 的 9,700 个，仅记录。 / Both legs verified: interconnection revenue +10% YoY and up from $453M to $465M QoQ; 6,900 net additions mean total interconnections kept growing (the period-end total is not disclosed in the documents read). The trigger's \"validating the proximity moat\" clause is interpretive and is not separately certified; net adds were below Q2's 9,700, recorded only."
       },
       {
         "id": "ai-bookings-presales",
@@ -1948,11 +1949,14 @@
           "en": "AI-related largest deals remain elevated and convert into commenced recurring revenue"
         },
         "latest": {
-          "zh": "Q2 2026 annualized gross bookings $424M（同比 +23%）；Q1 presales 约 $140M、largest deals 约 60% AI-related 为上次披露口径",
-          "en": "Q2 2026 annualized gross bookings $424M (+23% YoY); the last disclosed presales (~$140M) and about-60%-AI-related largest deals were Q1 figures"
+          "zh": "Q3 2026（8-K Ex 99.1 与 10-Q，2026-10-28）：annualized gross bookings 创纪录 $533M（同比 +35%；前九个月 $1.3B、+23%）；据 10-Q，该指标只计入预计 90 天内开始产生收入的合同，不含合资企业 recurring revenue 与电价调整。2026-09-30 remaining performance obligations 约 $15.9B。新闻稿与 10-Q 未给出 presales 金额或 AI 相关 largest deals 占比（10-Q 中 \"presales\"、\"largest deals\" 无检索结果）；MD&A 将各区域收入增长部分归因于 \"realization of strong bookings\"，未区分 AI。",
+          "en": "Q3 2026 (8-K Ex 99.1 and 10-Q, 2026-10-28): record annualized gross bookings of $533M (+35% YoY; nine months $1.3B, +23%); per the 10-Q the measure only includes contracts expected to start generating revenue within 90 days and excludes joint-venture recurring revenue and power price adjustments. Remaining performance obligations were about $15.9B at 2026-09-30. The release and 10-Q give no presales figure or AI-related share of largest deals (searches of the 10-Q for \"presales\" and \"largest deals\" returned nothing); the MD&A attributes regional revenue growth in part to the \"realization of strong bookings\" without an AI split."
         },
         "nextCheck": "2026-Q3 bookings and presales",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "unclear",
+        "readingAsOf": "2026-10-28",
+        "readingNote": "总 bookings 与 RPO 已核；AI 相关 largest deals 占比与 presales 本季未在所读文件中披露，电话会与投资者演示未读，AI 腿与转化腿无法判定。 / Total bookings and RPO verified; the AI-related largest-deal share and presales are not disclosed in the documents read, and the call and investor presentation were not read, so the AI and conversion legs cannot be graded."
       },
       {
         "id": "xscale-jv-economics",
@@ -1967,11 +1971,14 @@
           "en": "Hampton / AMER 3 and other xScale JVs add capacity without excessive VIE exposure"
         },
         "latest": {
-          "zh": "Q1 xScale JV equity investments $678M；Hampton campus $459M consideration 转入 AMER 3 JV；2026-07-29 Q2 财报未披露新的 xScale JV 股权投资或产能数据，本项读数维持 Q1 口径不变",
-          "en": "Q1 xScale JV equity investments $678M; Hampton campus transferred to AMER 3 JV for $459M consideration; the 2026-07-29 Q2 release did not disclose new xScale JV equity-investment or capacity figures, so this item's reading is still on a Q1 basis"
+          "zh": "Q3 2026（8-K Ex 99.1 与 10-Q，2026-10-28）：新闻稿及所读 10-Q 章节（附注 4 权益法投资与 VIE、MD&A 概览／扩张机会／流动性）中未见 xScale 产能、lease-up 或 JV 经济性数据；9 月完成的 atNorth 合资企业在 10-Q 中与 xScale 合资企业分列。VIE 风险暴露属资本／资产负债表输入，留待 Mode B。",
+          "en": "Q3 2026 (8-K Ex 99.1 and 10-Q, 2026-10-28): no xScale capacity, lease-up or JV-economics figures were found in the release or in the 10-Q sections read (Note 4 equity method investments and VIEs; MD&A overview, expansion opportunities and liquidity); the atNorth joint venture completed in September is presented separately from the xScale joint ventures in the 10-Q. VIE exposure is a capital/balance-sheet input left to Mode B."
         },
         "nextCheck": "2026-Q3 xScale JV disclosures and capacity updates",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "unclear",
+        "readingAsOf": "2026-10-28",
+        "readingNote": "产能腿无本季披露，VIE 暴露腿属资本输入、本包不判，两腿均未知。 / The capacity leg has no Q3 disclosure and the VIE-exposure leg is a capital input not graded in this package; both legs are unknown."
       },
       {
         "id": "mrr-cabinet-yield",
@@ -1986,11 +1993,14 @@
           "en": "MRR growth matches or exceeds cabinet additions and utilization, avoiding footprint growth without yield"
         },
         "latest": {
-          "zh": "Q2 2026 MRR 同比 +11%（reported 与 normalized constant currency 一致）；recurring revenue $2.377B（Q1 为 +12% reported / +10% normalized）",
-          "en": "Q2 2026 MRR +11% YoY (consistent on as-reported and normalized constant-currency bases); recurring revenue $2.377B (Q1 was +12% reported / +10% normalized)"
+          "zh": "Q3 2026（8-K Ex 99.1 与 10-Q，2026-10-28）：recurring revenue $2.442B（Q3 2025 为 $2.215B；据 10-Q 同比 +10%，reported 与 constant currency 一致）；新闻稿称 MRR 连续第四个季度同比双位数增长，未给精确百分比。2026-09-30 与 2025-09-30 cabinet utilization 均约 78%。新闻稿称 2026 年计划交付的 cabinets 比最初预期多近 40%（计划产能，不是计费 cabinet 增量）；所读文件未披露计费 cabinet 数量或增量。",
+          "en": "Q3 2026 (8-K Ex 99.1 and 10-Q, 2026-10-28): recurring revenue was $2.442B (Q3 2025: $2.215B; +10% YoY as reported and in constant currency per the 10-Q); the release says MRR grew double digits YoY for the fourth consecutive quarter without an exact percentage. Cabinet utilization was approximately 78% at both 2026-09-30 and 2025-09-30. The release says nearly 40% more cabinets are planned for delivery in 2026 than initially anticipated (planned capacity, not billed-cabinet additions); billed-cabinet counts or additions are not disclosed in the documents read."
         },
         "nextCheck": "MRR, cabinet and utilization disclosures",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "unclear",
+        "readingAsOf": "2026-10-28",
+        "readingNote": "MRR／recurring revenue 增速与 utilization 已核；cabinet additions 未披露，无法比较 MRR 增速与 cabinet 增量，未知腿不判未触发。 / Recurring-revenue growth and utilization verified; cabinet additions are undisclosed, so MRR growth cannot be compared with cabinet additions and the unknown leg is not graded within."
       },
       {
         "id": "power-capex-availability",
@@ -2005,11 +2015,14 @@
           "en": "power, grid interconnects, supply chain or capex inflation delay capacity or compress returns"
         },
         "latest": {
-          "zh": "2026-07-29 Q2 财报把 FY2026 总 capex 指引上调至 $5.0-6.0B，并将剔除 xScale 与房地产收购的非经常性 capex 指引重述为 $4.710-5.690B；power 与 supply chain 仍为明确风险",
-          "en": "The 2026-07-29 Q2 release raised FY2026 total capex guidance to $5.0-6.0B and restated non-recurring capex excluding xScale and real-estate acquisitions at $4.710-5.690B; power and supply chain remain explicit risks"
+          "zh": "Q3 2026（8-K Ex 99.1 与 10-Q，2026-10-28）：Q3 capex $1,558M（Q3 2025 为 $1,136M），前九个月 $4,392M（上年同期 $2,875M）；FY2026 总 capex 指引 $5–6B 与 non-recurring capex 指引（不含 xScale 与房地产收购）$4,710–5,690M 不变。新闻稿称加快新产能交付，2026 年计划交付 cabinets 比最初预期多近 40%。10-Q：Americas 成本中 utilities 费用增加 $17M，主要因电价上涨；风险因素仍称 \"currently experiencing permitting delays in most metros\"，公司目前不预期重大长期负面影响（与 Q2 10-Q 措辞相同）。调整后 EBITDA 利润率 51%（上年同期 50%）。",
+          "en": "Q3 2026 (8-K Ex 99.1 and 10-Q, 2026-10-28): Q3 capex was $1,558M (Q3 2025: $1,136M) and nine-month capex $4,392M (prior-year period $2,875M); FY2026 total capex guidance of $5–6B and non-recurring capex guidance (excluding xScale and real-estate acquisitions) of $4,710–5,690M are unchanged. The release says new capacity delivery accelerated, with nearly 40% more cabinets planned for delivery in 2026 than initially anticipated. 10-Q: Americas cost of revenues included $17M of higher utilities expense, primarily from power prices; the risk factors still say the company is \"currently experiencing permitting delays in most metros\" while not currently anticipating a material long-term negative impact (same wording as the Q2 10-Q). Adjusted EBITDA margin was 51% (prior-year quarter 50%)."
         },
         "nextCheck": "2026-Q3 capex, power and project timing updates",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "unclear",
+        "readingAsOf": "2026-10-28",
+        "readingNote": "capex、指引、产能交付表述与电价成本已核；项目层面的产能延迟与 returns 未在所读文件中量化，审批延迟表述沿用 Q2，未知腿不判。 / Capex, guidance, the capacity-delivery statement and power-price cost are verified; project-level capacity delay and returns are not quantified in the documents read and the permitting-delay language carries over from Q2, so the unknown legs are not graded."
       }
     ]
   },

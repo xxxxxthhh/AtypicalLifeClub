@@ -6,6 +6,13 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>Equinix 深度研究报告 - AI 数据中心设施层的互联溢价仪表盘 / Equinix Deep Research Report - The Interconnection-Premium Dashboard for AI Data-Center Facilities</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=eqix-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=eqix-2026#eqix-2026@2026-10-30</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+      <description>2026-10-30 — Q3 2026（季度截至 2026-09-30；8-K Ex 99.1 与 10-Q 于 2026-10-28 提交）收入 $2.571B（同比 +11% reported、+12% normalized and constant currency），recurring revenue $2.442B（据 10-Q 同比 +10%，reported 与 constant currency 一致），营业利润 $600M（+27%），调整后 EBITDA $1.321B（+15% reported、+14% normalized and constant currency）。全球 interconnection revenue $465M（Q3 2025 为 $422M；据新闻稿 reported 与 normalized constant currency 均 +10%），Fabric revenue 增长 24%，本季净增 interconnections 6,900 个（Q2 2026 为 9,700 个）。Annualized gross bookings 创纪录 $533M（同比 +35%；前九个月 $1.3B、+23%）；据 10-Q，该指标只计入预计 90 天内开始产生收入的合同，且不含合资企业的 recurring revenue。2026-09-30 cabinet utilization 约 78%，与 2025-09-30 持平。Q3 资本开支 $1,558M（Q3 2025 为 $1,136M）；新闻稿称 2026 年计划交付的 cabinets 比最初预期多近 40%。FY2026 指引（新闻稿称为连续第三个季度上调）：收入 $10.325–10.365B（约 +12%）、调整后 EBITDA $5.290–5.330B（利润率约 51%）、总 capex $5–6B；仅作为指引事实记录，不作为新的估值分母。所读文件未给出 AI 相关交易占比、presales 金额、计费 cabinet 增量或 xScale 产能数据，因此 AI bookings、MRR/cabinet yield、xScale 与 power/capex 读数仍为 unclear；电话会与投资者演示本轮未读。 估值仍按 2026-07-30 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。</description>
+    </item>
+    <item>
       <title>Microsoft 深度研究报告 - Azure AI 收入与 capex 吸收的需求锚 / Microsoft Deep Research Report - Demand Anchor for Azure AI Revenue vs Capex Absorption</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=microsoft-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=microsoft-2026#microsoft-2026@2026-10-29</guid>
@@ -424,13 +431,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=kla-2026#kla-2026@2026-07-31</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
       <description>【2026-07-31 立场重新裁定：KLAC 于 2026-07-30 收于 $180.33，较 07-29 低点反弹 +6.0%、较原锚点 -23.4%，市值约 $235.5B；按所有者 Q1 裁定，立场由谨慎调整为观望中性（中确信）。】2026-07-28 监测更新：AI 基础设施 semicap-equipment 层的过程控制/良率仪表盘。FY2026 Q4（季度截至 2026-06-30）：总营收 $3.658B（较 Q3 的 $3.416B 环比约 +7%）；Semiconductor Process Control revenue $3.257B；Specialty Semiconductor Process $160M、PCB / Component Inspection $241M。季度自由现金流 $817.1M，较上年同期 $1.065B 下降约 23%；全年 FY2026 FCF $3.767B，较 FY2025 的 $3.747B 增长约 0.5%。KLA 的 1 拆 10 于 2026-06-11 生效，Q4 财报已追溯调整所有股数与每股数据：Q4 GAAP / non-GAAP 摊薄 EPS $1.04 / $1.05，Q3 比较数 $0.91 / $0.94；4 月原始 Q3 财报的 $9.12 / $9.40 为拆股前口径。管理层给出 9 月季度（FY2027 Q1）指引：营收 $4.0B ± $200M、non-GAAP 摊薄 EPS $1.16。按 2026-07-30 收盘重算：约 17.3x EV/annualized revenue（7 月 2 日基数；旧口径 22.6x）、LTM FCF yield 约 1.7%；立场调整为观望中性 / 中确信。</description>
-    </item>
-    <item>
-      <title>Equinix 深度研究报告 - AI 数据中心设施层的互联溢价仪表盘 / Equinix Deep Research Report - The Interconnection-Premium Dashboard for AI Data-Center Facilities</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=eqix-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=eqix-2026#eqix-2026@2026-07-31</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <description>2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30）：收入 $2.625B（同比 +16%，包含一次性 xScale fees）、recurring revenue $2.377B（MRR 同比 +11%）、AFFO $1.168B（+20%）、AFFO/share $11.78（+19%）；Q2 新增 interconnections 创纪录 9,700 个、annualized gross bookings $424M（+23%）。管理层上调 FY2026 指引与长期展望。互联、bookings 与 MRR 同向走强，facility-interconnection-leasing 证伪条件未触发；这些指标与网络密集部署一致，但公司未将其具体归因于 AI，不能作为 AI 因果证明。下文 $1,047.53（2026-07-30 收盘）为重新锚定后的估值基准。AI 基础设施 datacenter-facility 层的 DLR 对照组：EQIX 用 Platform Equinix interconnection、retail colocation、xScale JV 和 AFFO/share 来验证 AI 需求是否不只是 hyperscale shell leasing。2026Q1 收入 $2.444B（reported YoY +10%）、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；MRR 同比 +12% reported / +10% normalized constant currency，annualized gross bookings $378M，annualized presales 约 $140M，largest deals 约 60% AI-related。2025 年报披露 280 个数据中心、10,500+ 客户、507,000+ interconnections，Q1 2026 interconnection revenue $446M。当前 $1,047.53（2026-07-02）、市值约 $103.3B、EV 约 $125.3B，约 24.4x 2026 AFFO/share 指引中点、约 12.2x 2026 revenue 指引。中性观察 / 中确信：质量高但估值高，关键监控是 interconnection revenue、AI bookings/presales、xScale economics、MRR/cabinet yield 与 power availability。</description>
     </item>
     <item>
       <title>ASML 深度研究报告 - EUV / High-NA 作为设备层公共约束 / ASML Deep Research Report - EUV / High-NA as the Equipment-Layer Common Constraint</title>
