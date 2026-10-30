@@ -1,10 +1,10 @@
 # SanDisk (SNDK) Deep Research Report
 
 Coverage date: 2026-06-27
-Last updated: 2026-08-18
+Last updated: 2026-10-30
 Ticker: NASDAQ: SNDK
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
-Reported period: FY2026 Form 10-K / Q4 FY2026; price anchor: $1,786.85 close on 2026-08-17; stance: neutral-watch / medium conviction. Financial results are per Sandisk unless stated otherwise. FY2026 figures are finalized by the Form 10-K filed August 17, 2026.
+Reported period: FY2026 Form 10-K / Q4 FY2026, with a Q1 FY2027 factual update (quarter ended October 2, 2026; Form 8-K filed October 29, 2026). Historical valuation basis: price anchor: $1,786.85 close on 2026-08-17; stance: neutral-watch / medium conviction. Financial results are per Sandisk unless stated otherwise. FY2026 figures are finalized by the Form 10-K filed August 17, 2026.
 
 Previous report: [FY2026 pre-rerun archive](/invest/research/reports/view.html?id=sandisk-2026-pre-rerun).
 
@@ -12,11 +12,13 @@ Previous report: [FY2026 pre-rerun archive](/invest/research/reports/view.html?i
 
 ## Executive Summary
 
+> **2026-10-30 factual update**: Fiscal Q1 FY2027 (quarter ended October 2, 2026; 8-K Exhibit 99.1 released October 29, 2026) revenue was **$11.031B**, up 23% sequentially and 378% year over year, above the prior $10.3-10.8B guide. GAAP gross margin was **85.0%** and non-GAAP **85.1%** (Q4 FY2026: 84.6%), above the 83.0-84.9% GAAP / 83.0-85.0% non-GAAP guide; GAAP operating income was $8.780B (79.6% operating margin). GAAP diluted EPS was $52.60 and non-GAAP $49.51 (guide $44-46); GAAP net income of $8.101B includes a $513M gain on equity securities. Datacenter revenue was **$4.802B** (+61% Q/Q), Edge $5.832B (+7%) and Consumer $0.397B (-29%); Datacenter was about 43.5% of revenue versus about 33.2% in Q4 (calculated from the release table). Operating cash flow was $6.363B, capex $54M and free cash flow $6.309B; company-defined adjusted free cash flow was $5.696B after the $148M net Flash Ventures adjustment and the exclusion of $465M of NBM prepayments and deposits. Contract liabilities were $777M current and $752M non-current (July 3, 2026: $849M and $393M) and refund liabilities $1.597B (July 3, 2026: $1.5B). Q2 FY2027 guidance: revenue $12.2-12.6B, gross margin 84.4-85.4% GAAP / 84.5-85.5% non-GAAP, non-GAAP diluted EPS $55.00-57.00. The same 8-K (Item 8.01) announced an eight-for-one forward stock split; every per-share figure in this note is on the pre-split basis presented in the release. The release does not mention the ~$42B NBM minimum contracted revenue, RPO, FY2027 committed-bit coverage or delivery against the agreements, and gives no NAND contract-price, industry-capacity or bit-mix data; the Q1 FY2027 Form 10-Q was not on EDGAR when checked and the call and presentation were not read, so those legs remain unknown. Valuation remains anchored to the historical 2026-08-17 basis; new actuals/guidance await Mode B. Price, valuation numbers, stance and conviction are unchanged.
+
 SanDisk is the pure-play NAND leg of the AI infrastructure chain. Q4 FY2026 revenue reached **$8.965B**, up 51% sequentially and 372% year over year, while GAAP and non-GAAP gross margin both reached **84.6%**. FY2026 revenue was **$20.248B**, up 175%. Datacenter revenue grew to **$2.977B** in Q4 and **$5.153B** for the year. These results confirm that AI storage demand and tight NAND supply are reaching the income statement with exceptional force.
 
-The counterweight is valuation against peak-cycle earnings. At the August 17 close of **$1,786.85** and **146,419,001** shares on the 10-K cover, market capitalization is roughly **$261.6B**. That is 12.92x FY2026 sales, 24.2x FY2026 GAAP EPS, 25.2x FY2026 non-GAAP EPS, and about 11.4x annualized Q4 non-GAAP EPS. FY2026 free cash flow of **$11.494B** implies a 4.39% equity FCF yield. A 12-15x through-cycle earnings frame implies sustainable EPS of roughly **$119.12-$148.90**, still below current peak run-rate earnings but now 1.68-2.10x the most recent full-year average.
+Historical valuation basis: The counterweight is valuation against peak-cycle earnings. At the August 17 close of **$1,786.85** and **146,419,001** shares on the 10-K cover, market capitalization is roughly **$261.6B**. That is 12.92x FY2026 sales, 24.2x FY2026 GAAP EPS, 25.2x FY2026 non-GAAP EPS, and about 11.4x annualized Q4 non-GAAP EPS. FY2026 free cash flow of **$11.494B** implies a 4.39% equity FCF yield. A 12-15x through-cycle earnings frame implies sustainable EPS of roughly **$119.12-$148.90**, still below current peak run-rate earnings but now 1.68-2.10x the most recent full-year average.
 
-The stance remains **neutral-watch / medium conviction** after re-deriving it on 2026-08-18. The sustainable-EPS band remains below the $157 Q4 annualized and $180 Q1-guide midpoint annualized, and the existing roughly $1,884 downgrade threshold has not fired, so cautious is not yet supported by the arithmetic. The buffer is thin: the 12x end is 94.8% of Q4 annualized. The 10-K materially improves contract evidence by disclosing $59.8B of NBM remaining performance obligations, $1.242B of contract liabilities, $1.5B of refund liabilities, specified multi-year volumes, fixed and variable pricing, and financial guarantees. It does not disclose FY2027 committed-bit coverage, and delivery remains untested, so the full constructive trigger has not fired either.
+Historical valuation basis: The stance remains **neutral-watch / medium conviction** after re-deriving it on 2026-08-18. The sustainable-EPS band remains below the $157 Q4 annualized and $180 Q1-guide midpoint annualized, and the existing roughly $1,884 downgrade threshold has not fired, so cautious is not yet supported by the arithmetic. The buffer is thin: the 12x end is 94.8% of Q4 annualized. The 10-K materially improves contract evidence by disclosing $59.8B of NBM remaining performance obligations, $1.242B of contract liabilities, $1.5B of refund liabilities, specified multi-year volumes, fixed and variable pricing, and financial guarantees. It does not disclose FY2027 committed-bit coverage, and delivery remains untested, so the full constructive trigger has not fired either.
 
 ### Current evidence spine
 
@@ -35,11 +37,11 @@ The stance remains **neutral-watch / medium conviction** after re-deriving it on
 | Datacenter revenue | $2.977B | $5.153B | Q4 +103% Q/Q; FY +437% |
 | Edge revenue | $5.432B | $12.160B | Q4 +48% Q/Q |
 | Consumer revenue | $0.556B | $2.935B | Q4 -32% Q/Q |
-| Cash | $4.762B | $4.762B | Quarter-end |
-| Marketable equity securities | $1.777B | $1.777B | Volatile, not operating cash |
-| Debt | $0 | $0 | Balance-sheet strength |
-| Repurchases | $4.524B | — | Large peak-cycle capital return |
-| Remaining authorization | $15.5B | $15.5B | After additional $14B authorization |
+| Historical valuation basis: Cash | $4.762B | $4.762B | Quarter-end |
+| Historical valuation basis: Marketable equity securities | $1.777B | $1.777B | Volatile, not operating cash |
+| Historical valuation basis: Debt | $0 | $0 | Balance-sheet strength |
+| Historical valuation basis: Repurchases | $4.524B | — | Large peak-cycle capital return |
+| Historical valuation basis: Remaining authorization | $15.5B | $15.5B | After additional $14B authorization |
 
 ---
 
@@ -71,7 +73,7 @@ Q4 GAAP diluted EPS of $43.97 included an **$804M non-operating gain on equity s
 
 Cash flow requires a second adjustment. Q4 free cash flow was $7.083B, but company-defined adjusted free cash flow was $5.035B after excluding **$1.938B of NBM prepayments and deposits**. The difference is real cash, but it is not equivalent to recurring product-margin cash flow. FY2026 free cash flow of $11.494B is therefore useful for historical valuation while the adjusted quarterly figure is more conservative for run-rate analysis.
 
-The balance sheet is strong: $4.762B cash, $1.777B marketable equity securities, and no debt. Accounts receivable of $4.708B and inventory of $2.698B rose with the revenue scale. The 10-K reports $1.242B of contract liabilities and $1.5B of refund liabilities. It also describes specified multi-year volumes, fixed and variable pricing, financial guarantees, and third-party collateral. Those protections are now filed evidence, although they still do not quantify FY2027 committed bits or guarantee the realized earnings floor.
+Historical valuation basis: The balance sheet is strong: $4.762B cash, $1.777B marketable equity securities, and no debt. Accounts receivable of $4.708B and inventory of $2.698B rose with the revenue scale. The 10-K reports $1.242B of contract liabilities and $1.5B of refund liabilities. It also describes specified multi-year volumes, fixed and variable pricing, financial guarantees, and third-party collateral. Those protections are now filed evidence, although they still do not quantify FY2027 committed bits or guarantee the realized earnings floor.
 
 ---
 
@@ -79,7 +81,7 @@ The balance sheet is strong: $4.762B cash, $1.777B marketable equity securities,
 
 Management has executed the separation, accelerated Datacenter products, signed additional NBM agreements and returned substantial capital. Five new or expanded agreements in Q4 brought the announced total to ten. The 10-K now reports $59.8B of NBM remaining performance obligations, approximately 19% expected within twelve months, alongside fixed and variable pricing and financial guarantees. FY2027 bit coverage and actual customer delivery remain outside the verified evidence set.
 
-Q4 repurchases were $4.524B. The board authorized another $14B, leaving $15.5B available. Buying back shares during a highly profitable cycle can create value if the price discounts a trough, but it can also consume liquidity before a supply downturn. The zero-debt balance sheet reduces this risk, yet capital allocation must be judged across the cycle rather than by one quarter's EPS accretion.
+Historical valuation basis: Q4 repurchases were $4.524B. The board authorized another $14B, leaving $15.5B available. Buying back shares during a highly profitable cycle can create value if the price discounts a trough, but it can also consume liquidity before a supply downturn. The zero-debt balance sheet reduces this risk, yet capital allocation must be judged across the cycle rather than by one quarter's EPS accretion.
 
 Governance monitoring should focus on NBM delivery against the filed RPO, equity-security exposure, joint-venture commitments, and whether buybacks crowd out technology and capacity investment.
 
@@ -90,8 +92,8 @@ Governance monitoring should focus on NBM delivery against the filed RPO, equity
 1. **AI storage broadens the infrastructure cycle.** Datacenter revenue more than doubled sequentially in Q4 and grew 437% for FY2026.
 2. **Supply remains disciplined.** Price generated about two-thirds of sequential revenue growth, and Q1 FY2027 guidance keeps gross margin in the 83-85% zone.
 3. **Contracts may lift the trough.** The 10-K confirms multi-year product volumes, $59.8B of NBM RPO, pricing mechanisms, and financial guarantees, making demand and cash flow less spot-sensitive if customers perform.
-4. **Balance-sheet capacity is substantial.** Zero debt, $6.539B of cash plus marketable equity securities, and strong FCF support buybacks and investment.
-5. **Valuation is still below peak earnings.** The stock is about 10.5x annualized Q4 non-GAAP EPS and 9.1x annualized Q1-guidance midpoint EPS, leaving room if earnings remain structurally above prior cycles, though that cushion is much thinner than in early August.
+4. Historical valuation basis: **Balance-sheet capacity is substantial.** Zero debt, $6.539B of cash plus marketable equity securities, and strong FCF support buybacks and investment.
+5. Historical valuation basis: **Valuation is still below peak earnings.** The stock is about 10.5x annualized Q4 non-GAAP EPS and 9.1x annualized Q1-guidance midpoint EPS, leaving room if earnings remain structurally above prior cycles, though that cushion is much thinner than in early August.
 
 ---
 
@@ -101,7 +103,7 @@ Governance monitoring should focus on NBM delivery against the filed RPO, equity
 2. **Contract protection is incomplete, not absent.** The 10-K quantifies RPO and balance-sheet protections, but not FY2027 committed-bit coverage, customer-level concentration, or a realized trough earnings floor.
 3. **Cash flow includes customer financing.** Q4 FCF exceeded adjusted FCF by about $2.048B, mainly because of NBM receipts excluded by the company.
 4. **Pure-play concentration cuts both ways.** SanDisk lacks DRAM/HBM diversification when NAND prices fall.
-5. **Buybacks amplify timing risk.** $4.524B was repurchased in one peak quarter, before the full annual filing was available.
+5. Historical valuation basis: **Buybacks amplify timing risk.** $4.524B was repurchased in one peak quarter, before the full annual filing was available.
 6. **Delivery can diverge from contractual headline values.** RPO is not revenue and financial guarantees need not replace the full economics of customer performance.
 
 ---
@@ -118,36 +120,36 @@ The 10-K gate is closed. Q1 FY2027 delivery and NAND contract pricing are now th
 
 ## 8. Valuation Context
 
-The valuation uses the **$1,786.85** August 17 close and **146,419,001** shares from the 10-K cover. Market cap is **$261.63B**. Cash-only enterprise value is **$256.87B**; subtracting marketable equity securities as well gives **$255.09B**, but the cash-only convention is primary because equity securities are volatile.
+Historical valuation basis: The valuation uses the **$1,786.85** August 17 close and **146,419,001** shares from the 10-K cover. Market cap is **$261.63B**. Cash-only enterprise value is **$256.87B**; subtracting marketable equity securities as well gives **$255.09B**, but the cash-only convention is primary because equity securities are volatile.
 
 | Metric | Calculation | Result |
 |---|---|---:|
-| Market capitalization | $1,786.85 × 146,419,001 | $261.63B |
-| Cash-only enterprise value | $261.63B - $4.762B | $256.87B |
-| Liquid-assets enterprise value | $261.63B - $4.762B - $1.777B | $255.09B |
-| FY2026 P/S | $261.63B / $20.248B | 12.92x |
-| FY2026 GAAP P/E | $1,786.85 / $73.76 | 24.23x |
-| FY2026 non-GAAP P/E | $1,786.85 / $70.88 | 25.21x |
-| Q4 annualized non-GAAP P/E | $1,786.85 / ($39.25 × 4) | 11.38x |
-| Q1 guide-midpoint annualized P/E | $1,786.85 / ($45 × 4) | 9.93x |
-| FY2026 FCF yield | $11.494B / $261.63B | 4.39% |
-| Cash-only EV / FY2026 FCF | $256.87B / $11.494B | 22.35x |
-| EBITDA proxy | $12.389B operating income + $0.149B D&A | $12.538B |
-| Cash-only EV / EBITDA proxy | $256.87B / $12.538B | 20.49x |
-| Implied sustainable EPS at 15x | $1,786.85 / 15 | $119.12 |
-| Implied sustainable EPS at 12x | $1,786.85 / 12 | $148.90 |
+| Historical valuation basis: Market capitalization | $1,786.85 × 146,419,001 | $261.63B |
+| Historical valuation basis: Cash-only enterprise value | $261.63B - $4.762B | $256.87B |
+| Historical valuation basis: Liquid-assets enterprise value | $261.63B - $4.762B - $1.777B | $255.09B |
+| Historical valuation basis: FY2026 P/S | $261.63B / $20.248B | 12.92x |
+| Historical valuation basis: FY2026 GAAP P/E | $1,786.85 / $73.76 | 24.23x |
+| Historical valuation basis: FY2026 non-GAAP P/E | $1,786.85 / $70.88 | 25.21x |
+| Historical valuation basis: Q4 annualized non-GAAP P/E | $1,786.85 / ($39.25 × 4) | 11.38x |
+| Historical valuation basis: Q1 guide-midpoint annualized P/E | $1,786.85 / ($45 × 4) | 9.93x |
+| Historical valuation basis: FY2026 FCF yield | $11.494B / $261.63B | 4.39% |
+| Historical valuation basis: Cash-only EV / FY2026 FCF | $256.87B / $11.494B | 22.35x |
+| Historical valuation basis: EBITDA proxy | $12.389B operating income + $0.149B D&A | $12.538B |
+| Historical valuation basis: Cash-only EV / EBITDA proxy | $256.87B / $12.538B | 20.49x |
+| Historical valuation basis: Implied sustainable EPS at 15x | $1,786.85 / 15 | $119.12 |
+| Historical valuation basis: Implied sustainable EPS at 12x | $1,786.85 / 12 | $148.90 |
 
-Note: the P/E rows in this table use different denominators. The FY2026 GAAP/non-GAAP rows divide by **realized full-year** earnings (approximately trailing-twelve-month), while the Q4-annualized and Q1-guide-annualized rows divide by **forward run-rate extrapolations of a single quarter**. At a storage-cycle peak the gap between the two denominator families is extreme ($70.88 versus $157-$180), so the multiples are not directly comparable across rows.
+Historical valuation basis: Note: the P/E rows in this table use different denominators. The FY2026 GAAP/non-GAAP rows divide by **realized full-year** earnings (approximately trailing-twelve-month), while the Q4-annualized and Q1-guide-annualized rows divide by **forward run-rate extrapolations of a single quarter**. At a storage-cycle peak the gap between the two denominator families is extreme ($70.88 versus $157-$180), so the multiples are not directly comparable across rows.
 
-The reverse-multiple frame is more informative than a peak-year target. The stock requires sustainable EPS of about $119-$149 at a 12-15x cycle multiple. That is still below Q4 annualized non-GAAP EPS of $157 and Q1-guidance midpoint annualized EPS of $180, but it is now 1.68-2.10x FY2026 non-GAAP EPS of $70.88, and the 12x end is about 94.8% of Q4 annualized. The market still prices some normalization, but the buffer is thin. Above roughly $1,884 the 12x-implied requirement would no longer sit below Q4 annualized and the stance would need re-adjudication.
+Historical valuation basis: The reverse-multiple frame is more informative than a peak-year target. The stock requires sustainable EPS of about $119-$149 at a 12-15x cycle multiple. That is still below Q4 annualized non-GAAP EPS of $157 and Q1-guidance midpoint annualized EPS of $180, but it is now 1.68-2.10x FY2026 non-GAAP EPS of $70.88, and the 12x end is about 94.8% of Q4 annualized. The market still prices some normalization, but the buffer is thin. Above roughly $1,884 the 12x-implied requirement would no longer sit below Q4 annualized and the stance would need re-adjudication.
 
 | Scenario | Operating assumptions | Valuation reading | Weight |
 |---|---|---|---:|
-| Bull | NBM delivery proves protective; AI Datacenter demand compounds; gross margin remains above 70%; sustainable EPS exceeds $149 | Current price offers upside on a structural-cycle shift | 20% |
-| Base | Q1 guide is met; margins normalize toward 55-65%; sustainable EPS settles near $119-$149 | Current price is broadly balanced with a thin buffer | 50% |
-| Bear | Supply catches demand; margins fall below 50%; NBM protection disappoints; sustainable EPS falls below $119 | Earnings and multiple compress together | 30% |
+| Historical valuation basis: Bull | NBM delivery proves protective; AI Datacenter demand compounds; gross margin remains above 70%; sustainable EPS exceeds $149 | Current price offers upside on a structural-cycle shift | 20% |
+| Historical valuation basis: Base | Q1 guide is met; margins normalize toward 55-65%; sustainable EPS settles near $119-$149 | Current price is broadly balanced with a thin buffer | 50% |
+| Historical valuation basis: Bear | Supply catches demand; margins fall below 50%; NBM protection disappoints; sustainable EPS falls below $119 | Earnings and multiple compress together | 30% |
 
-This is not a price target. It explains why the stance is neutral rather than cautious or constructive.
+Historical valuation basis: This is not a price target. It explains why the stance is neutral rather than cautious or constructive.
 
 ---
 
@@ -155,20 +157,20 @@ This is not a price target. It explains why the stance is neutral rather than ca
 
 | Evidence item | Current reading | Next check | Timing |
 |---|---|---|---|
-| Peak-cycle gross margin | Within: Q4 84.6%; Q1 guide 83-85% | Q1 FY2027 actual margin | Next earnings |
-| NBM contract protection | Unclear: $59.8B RPO and guarantees filed; delivery and FY2027 bit coverage unverified | Q1 delivery and committed-bit coverage | Q1 FY2027 |
-| Datacenter mix | Within: $2.977B Q4; 38% of bits | Revenue, bit mix, customer concentration | Q1 FY2027 |
-| Cycle valuation | Within, thin buffer: $1,786.85 implies $119-$149 sustainable EPS | Price, NAND contract pricing, normalized EPS | Continuous |
-| Capital allocation | Watch: $4.524B Q4 repurchases | Buyback pace and liquidity | Q1 FY2027 |
+| Peak-cycle gross margin | Within: Q4 84.6%; Q1 guide 83-85%. **Q1 FY2027 (released 2026-10-29): GAAP 85.0% / non-GAAP 85.1%, above the guide; Q2 FY2027 guide 84.4-85.4% GAAP / 84.5-85.5% non-GAAP.** | Q1 FY2027 actual margin | Next earnings |
+| NBM contract protection | Unclear: $59.8B RPO and guarantees filed; delivery and FY2027 bit coverage unverified. **Q1 FY2027 (released 2026-10-29): the release does not address the ~$42B, RPO or delivery; adjusted FCF excludes $465M of NBM prepayments and deposits; the 10-Q was not on EDGAR when checked.** | Q1 delivery and committed-bit coverage | Q1 FY2027 |
+| Datacenter mix | Within: $2.977B Q4; 38% of bits. **Q1 FY2027 (released 2026-10-29): $4.802B (+61% Q/Q), about 43.5% of revenue (calculated); bit mix not in the release.** | Revenue, bit mix, customer concentration | Q1 FY2027 |
+| Historical valuation basis: Cycle valuation | Within, thin buffer: $1,786.85 implies $119-$149 sustainable EPS | Price, NAND contract pricing, normalized EPS | Continuous |
+| Historical valuation basis: Capital allocation | Watch: $4.524B Q4 repurchases | Buyback pace and liquidity | Q1 FY2027 |
 | Filing finality | Within: FY2026 Form 10-K filed and audited | Future amendments or restatements | Continuous |
 
-Upgrade toward constructive only if filed evidence confirms meaningful FY2027 contract coverage and financial protection, Q1 meets guidance, and supply discipline persists. Downgrade toward cautious if contract pricing weakens for two periods, gross margin falls below 70% without a mix explanation, contract terms disappoint, capacity growth points to oversupply, or the price rises above roughly $1,884 so the 12x-implied sustainable EPS no longer sits below the $157 Q4 non-GAAP annualized.
+Historical valuation basis: Upgrade toward constructive only if filed evidence confirms meaningful FY2027 contract coverage and financial protection, Q1 meets guidance, and supply discipline persists. Downgrade toward cautious if contract pricing weakens for two periods, gross margin falls below 70% without a mix explanation, contract terms disappoint, capacity growth points to oversupply, or the price rises above roughly $1,884 so the 12x-implied sustainable EPS no longer sits below the $157 Q4 non-GAAP annualized.
 
 ---
 
 ## 10. Conclusion
 
-SanDisk has demonstrated that AI demand is reaching the storage layer: Q4 revenue, Datacenter growth, margins, and cash generation all accelerated. The full-cycle question is whether those economics survive beyond shortage pricing. At $1,786.85, the market still assumes earnings below the current annualized peak, but the sustainable EPS it requires ($119-$149) is 1.68-2.10x the recent full-year average. Filed NBM economics improve the trough case, while unverified delivery and the thin valuation buffer keep the expectation gap balanced enough for **neutral-watch / medium conviction**.
+Historical valuation basis: SanDisk has demonstrated that AI demand is reaching the storage layer: Q4 revenue, Datacenter growth, margins, and cash generation all accelerated. The full-cycle question is whether those economics survive beyond shortage pricing. At $1,786.85, the market still assumes earnings below the current annualized peak, but the sustainable EPS it requires ($119-$149) is 1.68-2.10x the recent full-year average. Filed NBM economics improve the trough case, while unverified delivery and the thin valuation buffer keep the expectation gap balanced enough for **neutral-watch / medium conviction**.
 
 The next decision should be evidence-driven: Q1 FY2027 delivery, committed-bit coverage, and NAND pricing. The $59.8B RPO is filed backlog-like evidence, but it is not delivered revenue and should not be capitalized as a guaranteed trough.
 
@@ -183,6 +185,8 @@ Primary sources:
 - [SanDisk FY2026 Form 10-K](https://www.sec.gov/Archives/edgar/data/2023554/000162828026057406/sndk-20260703.htm), filed August 17, 2026.
 - [SanDisk SEC submissions index](https://data.sec.gov/submissions/CIK0002023554.json), checked August 18, 2026.
 - [SanDisk Q4 FY2026 financial-results presentation](https://investor.sandisk.com/static-files/c75d1bee-c5c9-4e5a-8605-302c1aeac59b), used only where the same fact is also present in Exhibit 99.1.
+- [SanDisk Q1 FY2027 Form 8-K](https://www.sec.gov/Archives/edgar/data/2023554/000162828026068243/sndk-20261029.htm) (Items 2.02, 8.01 and 9.01), filed October 29, 2026.
+- [SanDisk Q1 FY2027 8-K Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/2023554/000162828026068243/sndkq1-27ex991xpressrelease.htm), released October 29, 2026.
 
 ### Primary-source financial factbook
 
@@ -247,9 +251,9 @@ The table below transcribes the unaudited Exhibit 99.1 statements in **$ million
 
 Assumptions and calculations:
 
-- Price is the research-hub ledger's August 17, 2026 close of $1,786.85.
-- Share count is the 146,419,001 common shares outstanding on the Form 10-K cover.
-- Cash-only EV subtracts $4.762B cash and does not subtract $1.777B marketable equity securities. Both conventions are shown.
-- EBITDA proxy adds FY2026 depreciation and amortization of $149M to GAAP operating income; it is not company-reported adjusted EBITDA.
-- Q4 and Q1 annualizations are sensitivity tools, not forecasts.
+- Historical valuation basis: Price is the research-hub ledger's August 17, 2026 close of $1,786.85.
+- Historical valuation basis: Share count is the 146,419,001 common shares outstanding on the Form 10-K cover.
+- Historical valuation basis: Cash-only EV subtracts $4.762B cash and does not subtract $1.777B marketable equity securities. Both conventions are shown.
+- Historical valuation basis: EBITDA proxy adds FY2026 depreciation and amortization of $149M to GAAP operating income; it is not company-reported adjusted EBITDA.
+- Historical valuation basis: Q4 and Q1 annualizations are sensitivity tools, not forecasts.
 - NBM RPO, balances, pricing mechanisms and guarantees come from the filed Form 10-K. FY2027 committed-bit coverage remains excluded because the filing does not quantify it.
