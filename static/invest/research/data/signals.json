@@ -3339,5 +3339,33 @@
       "axti-2026:customer-prepayments",
       "axti-2026:tongmei-minority-listing"
     ]
+  },
+  {
+    "id": "kla-q1-fy2027-results-20261028",
+    "date": "2026-10-29",
+    "title": {
+      "zh": "KLA FY2027 Q1 营收 $41.36 亿（环比 +13%）、过程控制 $37.54 亿（环比 +15%）；12 月季度营收指引 $4.7B ± $200M",
+      "en": "KLA Q1 FY2027 revenue $4.136B (+13% QoQ), process control $3.754B (+15% QoQ); December-quarter revenue guide $4.7B +/- $200M"
+    },
+    "detail": {
+      "zh": "来源：KLA 8-K Item 2.02 附件99.1业绩稿（2026-10-28）、FY2027 Q1 10-Q（2026-10-29提交）及10-28致股东信。FY2027 Q1（季度截至2026-09-30，10-28发布）营收$4.136B（环比+13%、同比+29%），GAAP摊薄EPS $1.18、non-GAAP摊薄EPS $1.22（拆股调整后口径）。Semiconductor Process Control营收$3.754B（环比+15%、同比+29%）；Specialty Semiconductor Process $139.5M（环比-13%、同比+16%，10-Q称主要因系统出货时点）；PCB and Component Inspection $242.2M（环比持平、同比+28%）；Services $850.5M（环比+4%、同比+14%）。经营现金流$1.531B、资本开支$194.8M、FCF $1.336B（LTM经营现金流$4.512B、LTM FCF $4.038B）。12月季度指引：营收$4.7B±$200M、non-GAAP毛利率62.5%±1.0%、GAAP／non-GAAP摊薄EPS $1.41／$1.44±$0.11，仅作为指引事实，不作为估值分母。10-Q（10-29提交）将过程控制增长归因于memory、foundry/logic与advanced packaging先进制程客户；营收环比增加的$478.5M中$469.0M来自中国（foundry/logic，尤其成熟制程），台湾与北美先进制程foundry/logic交付环比下降。10-28致股东信：Semi Process Control仅系统收入约72% foundry/logic／28% memory；KLA将2026日历年晶圆设备市场预期上调至约$150B中段（公司预测）。 未知腿：所读文件未给出按终端市场的美元收入与backlog金额；FCF监测中的分红／回购腿不在本次事实更新范围内。 信号日期取较晚的10-Q日期（含10-Q归因事实）；电话会未读。 估值仍按 2026-07-30 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。 https://www.sec.gov/Archives/edgar/data/319201/000031920126000032/exhibit991earningsrelease0.htm https://www.sec.gov/Archives/edgar/data/319201/000031920126000034/klac-20260930.htm https://d1io3yog0oux5.cloudfront.net/_3a034dffd9dd75e789bd5c0c859681ae/klatencor/db/1117/10679/letter_to_shareholders/KLA_Earnings_Shareholder_Letter_-_Q1_FY27.pdf",
+      "en": "Sources: KLA 8-K Item 2.02 Exhibit 99.1 release (2026-10-28), Q1 FY2027 10-Q (filed 2026-10-29) and the 10-28 shareholder letter. Q1 FY2027 (quarter ended 2026-09-30, released 10-28) revenue was $4.136B (+13% QoQ, +29% YoY); GAAP diluted EPS was $1.18 and non-GAAP diluted EPS $1.22 (split-adjusted basis). Semiconductor Process Control revenue was $3.754B (+15% QoQ, +29% YoY); Specialty Semiconductor Process $139.5M (-13% QoQ, +16% YoY; the 10-Q cites primarily timing of system shipments); PCB and Component Inspection $242.2M (flat QoQ, +28% YoY); Services $850.5M (+4% QoQ, +14% YoY). Operating cash flow was $1.531B, capex $194.8M and FCF $1.336B (LTM operating cash flow $4.512B, LTM FCF $4.038B). December-quarter guidance is revenue $4.7B +/- $200M, non-GAAP gross margin 62.5% +/- 1.0% and GAAP / non-GAAP diluted EPS $1.41 / $1.44 +/- $0.11, recorded as guidance facts, not valuation denominators. The 10-Q (filed 10-29) attributes process-control growth to leading-edge memory, foundry/logic and advanced-packaging customers; China supplied $469.0M of the $478.5M sequential revenue increase (foundry/logic, particularly mature nodes) while Taiwan and North America leading-edge foundry/logic deliveries fell QoQ. The 10-28 shareholder letter puts the Semi Process Control systems-only mix at about 72% foundry/logic / 28% memory and raises KLA's CY2026 wafer-equipment market expectation to about the mid-$150 billion range (company forecast). Unknown legs: the documents read give no dollar revenue by end market and no backlog amount; the dividend/buyback leg of the FCF monitor is outside this factual pass. The signal date uses the later 10-Q date because the detail includes 10-Q attribution facts; the earnings call was not read. Valuation remains anchored to the historical 2026-07-30 basis; new actuals/guidance await Mode B. Price, valuation numbers, stance and conviction are unchanged. https://www.sec.gov/Archives/edgar/data/319201/000031920126000032/exhibit991earningsrelease0.htm https://www.sec.gov/Archives/edgar/data/319201/000031920126000034/klac-20260930.htm https://d1io3yog0oux5.cloudfront.net/_3a034dffd9dd75e789bd5c0c859681ae/klatencor/db/1117/10679/letter_to_shareholders/KLA_Earnings_Shareholder_Letter_-_Q1_FY27.pdf"
+    },
+    "crossChecks": [
+      "semicap-eda-capex-commitment"
+    ],
+    "tickers": [
+      "KLAC"
+    ],
+    "reportIds": [
+      "kla-2026"
+    ],
+    "monitoringRefs": [
+      "kla-2026:process-control-revenue",
+      "kla-2026:ai-growth-vectors",
+      "kla-2026:fcf-capital-return",
+      "kla-2026:segment-breadth",
+      "kla-2026:cy2026-outlook"
+    ]
   }
 ]
