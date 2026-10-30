@@ -3260,5 +3260,31 @@
       "eqix-2026:mrr-cabinet-yield",
       "eqix-2026:power-capex-availability"
     ]
+  },
+  {
+    "id": "sandisk-q1-fy2027-nand-margin-datacenter",
+    "date": "2026-10-29",
+    "title": {
+      "zh": "Sandisk FY2027 Q1 收入 $110.31 亿（环比 +23%）、GAAP 毛利率 85.0%、数据中心收入 $48.02 亿（环比 +61%）",
+      "en": "Sandisk Q1 FY2027: revenue $11.031B (+23% Q/Q), GAAP gross margin 85.0%, Datacenter revenue $4.802B (+61% Q/Q)"
+    },
+    "detail": {
+      "zh": "来源：Sandisk 2026-10-29 Form 8-K 附件 99.1（Q1 FY2027 业绩新闻稿）。Q1 FY2027（季度截至 2026-10-02，2026-10-29 发布）收入 $110.31 亿（环比 +23%、同比 +378%），高于原 $103-108 亿指引；GAAP 毛利率 85.0%、非 GAAP 85.1%（Q4 FY2026：84.6%），高于 GAAP 83.0-84.9% / 非 GAAP 83.0-85.0% 指引；GAAP 营业利润 $87.80 亿（营业利润率 79.6%）。数据中心收入 $48.02 亿（环比 +61%），按新闻稿表格自算约占收入 43.5%（Q4 约 33.2%）；Edge $58.32 亿（+7%）、消费 $3.97 亿（-29%）。经营现金流 $63.63 亿、资本开支 $0.54 亿、自由现金流 $63.09 亿；公司定义的调整后自由现金流 $56.96 亿（扣除 $1.48 亿 Flash Ventures 净活动与 $4.65 亿 NBM 预付款及保证金；63.09 − 1.48 − 4.65 = 56.96 亿美元）。Q2 FY2027 指引收入 $122-126 亿、毛利率 GAAP 84.4-85.4% / 非 GAAP 84.5-85.5%。新闻稿未涉及约 $420 亿 NBM 最低合同收入、RPO、FY2027 committed-bit 覆盖或交付，也无 NAND 合同价与 bit 结构数据；本轮未独立读取该期 10-Q。同一份 8-K Item 8.01 宣布八比一正向拆股，新闻稿每股数据为拆股前口径。证据限制：仅读新闻稿与 8-K 正文，电话会与演示材料未读，本轮未独立读取该期 10-Q；毛利率与数据中心均为卖方口径，无买方成本归因。估值仍按 2026-08-17 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。 https://www.sec.gov/Archives/edgar/data/2023554/000162828026068243/sndkq1-27ex991xpressrelease.htm",
+      "en": "Source: Sandisk Form 8-K Exhibit 99.1 (Q1 FY2027 earnings release), 2026-10-29. Q1 FY2027 (quarter ended 2026-10-02, released 2026-10-29) revenue was $11.031B (+23% Q/Q, +378% Y/Y), above the prior $10.3-10.8B guide; GAAP gross margin was 85.0% and non-GAAP 85.1% (Q4 FY2026: 84.6%), above the 83.0-84.9% GAAP / 83.0-85.0% non-GAAP guide; GAAP operating income was $8.780B (79.6% operating margin). Datacenter revenue was $4.802B (+61% Q/Q), about 43.5% of revenue on a calculation from the release table (Q4: about 33.2%); Edge was $5.832B (+7%) and Consumer $0.397B (-29%). Operating cash flow was $6.363B, capex $54M and free cash flow $6.309B; company-defined adjusted free cash flow was $5.696B (less $148M of net Flash Ventures activity and $465M of NBM prepayments and deposits; $6.309B - $0.148B - $0.465B = $5.696B). Q2 FY2027 guidance is revenue of $12.2-12.6B and gross margin of 84.4-85.4% GAAP / 84.5-85.5% non-GAAP. The release does not address the ~$42B NBM minimum contracted revenue, RPO, FY2027 committed-bit coverage or delivery, and gives no NAND contract-price or bit-mix data; the current-period 10-Q was not independently read in this review. Item 8.01 of the same 8-K announced an eight-for-one forward stock split; per-share data in the release are pre-split. Evidence limits: only the release and the 8-K body were read; the call and presentation were not read and the current-period 10-Q was not independently read in this review; margin and Datacenter data are seller-side, with no buyer-side cost attribution. Valuation remains anchored to the historical 2026-08-17 basis; new actuals/guidance await Mode B. Price, valuation numbers, stance and conviction are unchanged. https://www.sec.gov/Archives/edgar/data/2023554/000162828026068243/sndkq1-27ex991xpressrelease.htm"
+    },
+    "crossChecks": [
+      "memory-cycle"
+    ],
+    "tickers": [
+      "SNDK"
+    ],
+    "reportIds": [
+      "sandisk-2026"
+    ],
+    "monitoringRefs": [
+      "sandisk-2026:nand-cycle-margin-peak",
+      "sandisk-2026:nbm-contract-lockin",
+      "sandisk-2026:datacenter-mix"
+    ]
   }
 ]
