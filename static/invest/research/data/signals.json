@@ -3312,5 +3312,32 @@
       "gevernova-2026:margin-ramp",
       "gevernova-2026:gas-turbine-slots"
     ]
+  },
+  {
+    "id": "axti-q3-2026-results",
+    "date": "2026-10-29",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "AXT Q3 2026：收入 $73.4M、GAAP 毛利率 56.0%",
+      "en": "AXT Q3 2026: revenue $73.4M, GAAP gross margin 56.0%"
+    },
+    "detail": {
+      "zh": "来源：AXT 2026-10-29 提交的 8-K Item 2.02 业绩稿（Exhibit 99.1），并参照 2026-10-28 提交的 8-K Item 1.01/7.01。Q3 2026 收入 $73.4M（Q2 $47.6M）、GAAP 毛利率 56.0%（Q2 44.9%）、GAAP 营业利润 $28.4M、归属 AXT 净利润 $25.7M（稀释每股 $0.39）；收入高于出口许可监测项的 $60M 门槛且环比上升，本轮未独立核查商务部全部现行措施；毛利率连续两季不低于 40%。2026-10-27 的通美协议仅作为日期事实记入 tongmei-minority-listing。证据局限：业绩稿无 InP 收入、地区拆分、合同负债或指引；电话会无一手转写未采用；Q3 本轮未独立读取该期 10-Q；InP 产能与客户预付款两项为不确定。",
+      "en": "Source: AXT's 8-K Item 2.02 earnings release (Exhibit 99.1) furnished 2026-10-29, with the 8-K Items 1.01/7.01 filed 2026-10-28. Q3 2026 revenue was $73.4M (Q2 $47.6M), GAAP gross margin 56.0% (Q2 44.9%), GAAP income from operations $28.4M and net income attributable to AXT $25.7M ($0.39 diluted); revenue cleared the export-permit item's $60M threshold and rose sequentially, current MOFCOM measures were not independently reviewed, and gross margin has held at or above 40% for two quarters. The 2026-10-27 Tongmei agreements are recorded only as a dated fact under tongmei-minority-listing. Evidence limits: the release gives no InP revenue, geographic split, contract liabilities or guidance; no primary call transcript was used; the Q3 10-Q was not independently read in this review; the InP-capacity and customer-prepayment items are unclear."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "AXTI"
+    ],
+    "reportIds": [
+      "axti-2026"
+    ],
+    "monitoringRefs": [
+      "axti-2026:inp-revenue-capacity",
+      "axti-2026:export-permits",
+      "axti-2026:gross-margin",
+      "axti-2026:customer-prepayments",
+      "axti-2026:tongmei-minority-listing"
+    ]
   }
 ]

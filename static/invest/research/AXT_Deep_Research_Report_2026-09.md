@@ -1,18 +1,20 @@
 # AXT Inc. (AXTI) Deep Research Report
 
 Coverage date: 2026-09-25
-Last updated: 2026-09-25
+Last updated: 2026-10-30
 Ticker: NASDAQ: AXTI
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
-Reported period: Q2 2026 Form 10-Q (quarter ended 2026-06-30) and FY2025 Form 10-K; price anchor: $72.98 close on 2026-09-23; stance: cautious / medium conviction. Financial data is taken from AXT's SEC filings and earnings releases unless stated otherwise. AXT's Q2 2026 earnings release contains **no guidance**; every forward figure (the Q3 revenue floor, EPS range, capacity targets, indium phosphide revenue by quarter) comes from the earnings calls and is labelled "(call)" — the transcripts are third-party (Motley Fool), not company-hosted.
+Historical valuation basis: Reported period: Q2 2026 Form 10-Q (quarter ended 2026-06-30) and FY2025 Form 10-K; price anchor: $72.98 close on 2026-09-23; stance: cautious / medium conviction. Financial data is taken from AXT's SEC filings and earnings releases unless stated otherwise. AXT's Q2 2026 earnings release contains **no guidance**; every forward figure (the Q3 revenue floor, EPS range, capacity targets, indium phosphide revenue by quarter) comes from the earnings calls and is labelled "(call)" — the transcripts are third-party (Motley Fool), not company-hosted.
 
 ---
 
 ## Executive Summary <!-- report-module:overview -->
 
-**One-line thesis:** AXT is one of three primary suppliers of indium phosphide (InP) substrates — the starting wafer for the EML lasers and photodetectors inside 800G/1.6T optical modules — and 2026 has turned it from a loss-making compound-semiconductor wafer maker into a supply-constrained one: Q2 revenue $47.6M (+165% Y/Y), GAAP gross margin 44.9%, InP revenue $30.7M (call), and a call-level Q3 revenue floor of about $66M. But every wafer is grown in China and needs a per-customer export permit from China's Ministry of Commerce (MOFCOM), and at the 2026-09-23 close of $72.98 the market already prices roughly the company's own exit-2027 capacity target, sold in full at about 50% gross margin.
+> **2026-10-30 factual update**: AXT's Q3 2026 release (quarter ended 2026-09-30; 8-K furnished 2026-10-29) reports record revenue of $73.4M (Q2 2026 $47.6M, Q3 2025 $28.0M; up 54% Q/Q and 162% Y/Y per the CEO), GAAP gross margin 56.0% (Q2 44.9%), non-GAAP gross margin 56.1%, GAAP income from operations $28.4M, GAAP net income attributable to AXT $25.7M ($0.39 diluted) and non-GAAP net income $26.8M ($0.41). The CEO attributed the quarter to "exceptionally strong customer demand for our indium phosphide material" and said AXT has surpassed its 2026 commitment to double InP capacity and "more than quadrupled our 2026 indium phosphide revenue opportunity". The release gives no InP revenue, geographic split, contract-liability balance or guidance, the earnings call was not used (no primary transcript), and the Q3 10-Q was not independently read in this review, so the InP-capacity and customer-prepayment legs remain unclear. Valuation remains anchored to the historical 2026-09-23 basis; new actuals/guidance await Mode B. Price, valuation numbers, stance and conviction are unchanged.
 
-**Investment judgment:**
+Historical valuation basis: **One-line thesis:** AXT is one of three primary suppliers of indium phosphide (InP) substrates — the starting wafer for the EML lasers and photodetectors inside 800G/1.6T optical modules — and 2026 has turned it from a loss-making compound-semiconductor wafer maker into a supply-constrained one: Q2 revenue $47.6M (+165% Y/Y), GAAP gross margin 44.9%, InP revenue $30.7M (call), and a call-level Q3 revenue floor of about $66M. But every wafer is grown in China and needs a per-customer export permit from China's Ministry of Commerce (MOFCOM), and at the 2026-09-23 close of $72.98 the market already prices roughly the company's own exit-2027 capacity target, sold in full at about 50% gross margin.
+
+Historical valuation basis: **Investment judgment:**
 - **Stance:** cautious
 - **Confidence:** medium — the demand, the customer prepayments and the balance sheet are in primary filings; the negative skew comes from an exit multiple and a capacity path that exist today only as call-level targets, and from a regulator that already cut one quarter's revenue (Q4 2025)
 - **Key catalysts:** Q3 2026 results (expected late October 2026, date not announced by the issuer; Q3 2025 was reported 2025-10-30) against the call-level $66M floor and $0.30-$0.32 non-GAAP EPS; the exit-2026 InP capacity target of about $60M per quarter (call); the first US InP export permit; receipt of Lumentum's $43.5M deposit; Tongmei's Hong Kong filing
@@ -22,25 +24,25 @@ Reported period: Q2 2026 Form 10-Q (quarter ended 2026-06-30) and FY2025 Form 10
 
 | Metric | Value | Basis |
 |---|---:|---|
-| Share price (2026-09-23 close) | $72.98 | Nasdaq, three handles agree (see appendix) |
-| 52-week closing range | $4.03 (2025-10-10) - $140.83 (2026-05-22) | Current price 48.2% below the closing high and 18.1x the closing low; intraday range $4.00-$143.16 |
-| Shares outstanding | 65,573,212 | Q2 10-Q cover, 2026-08-03 |
-| Market capitalization | $4.786B | $72.98 x 65,573,212 |
-| Net cash, including long-term Treasuries and bonds | $649.1M | $748.8M of cash, restricted cash and investments less $99.7M of bank loans (2026-06-30) |
-| Enterprise value | $4.136B | Excluding long-term investments from cash: $4.435B |
+| Historical valuation basis: Share price (2026-09-23 close) | $72.98 | Nasdaq, three handles agree (see appendix) |
+| Historical valuation basis: 52-week closing range | $4.03 (2025-10-10) - $140.83 (2026-05-22) | Current price 48.2% below the closing high and 18.1x the closing low; intraday range $4.00-$143.16 |
+| Historical valuation basis: Shares outstanding | 65,573,212 | Q2 10-Q cover, 2026-08-03 |
+| Historical valuation basis: Market capitalization | $4.786B | $72.98 x 65,573,212 |
+| Historical valuation basis: Net cash, including long-term Treasuries and bonds | $649.1M | $748.8M of cash, restricted cash and investments less $99.7M of bank loans (2026-06-30) |
+| Historical valuation basis: Enterprise value | $4.136B | Excluding long-term investments from cash: $4.435B |
 | TTM revenue (Q3 2025 - Q2 2026) | $125.5M | $27.955M + $23.041M + $26.924M + $47.589M |
-| EV / TTM revenue | 33.0x | AAOI 13.9x at the same close |
-| Q3 2026 revenue floor x 4 | $264M | "Approximately $66 million ... that can be realized in Q3" (call); EV / that run rate 15.7x |
-| Q3 2026 non-GAAP EPS x 4 | $1.24 | $0.30-$0.32 (call); P/E 58.9x at the midpoint |
+| Historical valuation basis: EV / TTM revenue | 33.0x | AAOI 13.9x at the same close |
+| Historical valuation basis: Q3 2026 revenue floor x 4 | $264M | "Approximately $66 million ... that can be realized in Q3" (call); EV / that run rate 15.7x |
+| Historical valuation basis: Q3 2026 non-GAAP EPS x 4 | $1.24 | $0.30-$0.32 (call); P/E 58.9x at the midpoint |
 | Q2 2026 InP revenue | $30.7M (call) | 64.5% of revenue, 81.7% of substrates; Q1 $13.6M (call) |
 | Customer prepayments contracted / received at 2026-06-30 | $47.7M / $12.7M | 10-Q; plus Lumentum $43.5M signed 2026-07-26 (post-period) |
-| Equity raised since December 2025 | $694.0M net | December 2025 $93.9M + April 2026 $600.1M; shares +39.2% from 47,110,894 |
+| Historical valuation basis: Equity raised since December 2025 | $694.0M net | December 2025 $93.9M + April 2026 $600.1M; shares +39.2% from 47,110,894 |
 
 AXT's Q2 2026 GAAP net income attributable to the company was $11.1M ($0.17 diluted), its first meaningful profit in two years; but $4.7M of the $15.1M pre-tax income was interest earned on the equity it raised, so the operating business earned $10.4M. H1 operating cash flow was -$0.9M and H1 capital expenditure only $8.6M: of the roughly $694M raised, about $604M sits in cash, US Treasuries and corporate bonds at the parent level, while the Chinese subsidiaries that make every wafer borrow $84.2M from PRC banks.
 
 This report carries the `common-constraint` role for the optical layer. The question it answers is whether InP substrate supply becomes a shared constraint on the 800G/1.6T ramp across aaoi-2026 (modules), coherent-2026 (a direct AXT customer and an InP device maker) and innolight-2026 (module architecture check). The 2026 evidence says **yes, and the constraint has two layers**: physical capacity (backlog "well over $100 million" that "exceeds 2 quarters", call; capacity targets raised in one quarter from about $35M to $60M per quarter for exit-2026) and regulatory permission (China's MOFCOM licenses each export; North America was $161K of Q2 revenue). Customers are paying to jump the queue: Coherent agreed a $22.3M prepayment, Casela committed RMB 173M with 50% up front, and Lumentum agreed to two $43.5M deposits.
 
-Valuation decides the stance. At $72.98, subtracting $9.58 per share of net cash (on the 67.79M fully diluted count) leaves $63.40 of operating value; at a 28x exit multiple that needs about $2.26 per share of attributable after-tax operating earnings, or about $234M of EBIT — for example, FY2028 revenue of roughly $620M at a 50% gross margin, which is the company's own exit-2027 InP capacity target sold in full. A 30 / 40 / 30 scenario grid weights to **$55.86** per share, **-11.1% annualized** over 2.27 years to 2028-12-31, 19.1 points below an 8% required return. The bull case alone returns **+16.6% annualized**, so the stance is **cautious**, not bearish-avoid. The hypothesis that AXTI's outperformance against AAOI reflects a better financing model is tested in §5: the answer is **partly on the shape of the dilution, not on its size, and mostly on per-share results**.
+Historical valuation basis: Valuation decides the stance. At $72.98, subtracting $9.58 per share of net cash (on the 67.79M fully diluted count) leaves $63.40 of operating value; at a 28x exit multiple that needs about $2.26 per share of attributable after-tax operating earnings, or about $234M of EBIT — for example, FY2028 revenue of roughly $620M at a 50% gross margin, which is the company's own exit-2027 InP capacity target sold in full. A 30 / 40 / 30 scenario grid weights to **$55.86** per share, **-11.1% annualized** over 2.27 years to 2028-12-31, 19.1 points below an 8% required return. The bull case alone returns **+16.6% annualized**, so the stance is **cautious**, not bearish-avoid. The hypothesis that AXTI's outperformance against AAOI reflects a better financing model is tested in §5: the answer is **partly on the shape of the dilution, not on its size, and mostly on per-share results**.
 
 ---
 
@@ -59,6 +61,7 @@ AXT Inc. (Fremont, California; incorporated in Delaware, founded 1986, public si
 | Q4 2025 | 23.04 | — | — | — | — | — | 20.9% |
 | Q1 2026 | 26.92 | 19.28 (derived) | 7.64 (derived) | 13.6 | 5.4 | 0.2 | 29.6% |
 | Q2 2026 | 47.59 | 37.56 | 10.03 | 30.7 | 6.6 | 0.27 | 44.9% |
+| **Q3 2026 (released 2026-10-29)** | 73.41 | — | — | — | — | — | 56.0% |
 | H1 2026 | 74.51 | 56.84 | 17.67 | 44.3 | 12.0 | 0.47 | 39.4% |
 | FY2025 | 88.33 | 58.90 | 29.43 | — | — | — | 12.7% |
 
@@ -105,7 +108,7 @@ InP substrates sit at the very start of the optical chain: an epitaxy house grow
 
 **What the moat is, stated both ways.** In favor: InP crystal growth is a proprietary-process business with few qualified suppliers; customers are prepaying for capacity (three agreements in seven weeks), which they rarely do for a commodity; and AXT is the one supplier whose raw-material chain (gallium, InP starting material, pBN crucibles, quartz) is inside its own group. Against: the two Japanese suppliers sit outside China's licensing regime, so every MOFCOM delay is an argument for customers to dual-source away from AXT; the capacity metric AXT reports is dollars, so "tripling" includes price; and the three agreements are with only three customers while the top five customers were 30% of Q2 revenue (no customer above 10%).
 
-**Market reaction as a revealed preference.** On 2026-07-29 both stocks fell about 13%; on 2026-07-30, before AXT's release that evening and a day after the Lumentum 8-K (filed 2026-07-29), AXTI rose 27.0% ($36.97 to $46.94) and AAOI 17.8%. On 2026-07-31, the first session after the Q2 release, AXTI rose another 28.7% (to $60.43) while AAOI rose 4.7% — the AXT-specific move is that second day. At 2026-09-23 the market pays AXT 33.0x EV/TTM revenue against AAOI's 13.9x and 15.7x the call-level Q3 floor annualized against AAOI's 7.6x its annualized Q3 guidance midpoint.
+Historical valuation basis: **Market reaction as a revealed preference.** On 2026-07-29 both stocks fell about 13%; on 2026-07-30, before AXT's release that evening and a day after the Lumentum 8-K (filed 2026-07-29), AXTI rose 27.0% ($36.97 to $46.94) and AAOI 17.8%. On 2026-07-31, the first session after the Q2 release, AXTI rose another 28.7% (to $60.43) while AAOI rose 4.7% — the AXT-specific move is that second day. At 2026-09-23 the market pays AXT 33.0x EV/TTM revenue against AAOI's 13.9x and 15.7x the call-level Q3 floor annualized against AAOI's 7.6x its annualized Q3 guidance midpoint.
 
 ### Position on the AI optical chain
 
@@ -178,7 +181,7 @@ Operating income by quarter is gross profit less operating expenses from each re
 | Capital expenditure | H1 $8.6M cash (+$6.4M paid in notes) | H1 2025 $0.8M | Small against the capacity targets | Watch |
 | Liquidity | $748.8M of cash, restricted cash and investments | $128.4M at 2025-12-31 | Up 5.8x | Strong |
 | Bank loans | $99.7M ($84.2M short-term, $15.5M long-term), at 2.0%-3.8% short-term | $58.6M short-term at 2025-12-31 | Rising at the PRC subsidiaries | Medium |
-| Net cash (including long-term investments) | $649.1M ($9.90 per share) | — | — | Strong |
+| Historical valuation basis: Net cash (including long-term investments) | $649.1M ($9.90 per share) | — | — | Strong |
 | Days sales outstanding | About 70 days (Q2 annualized) | — | — | Medium |
 | Inventory | $96.3M, about 335 days of Q2 cost of revenue annualized; net of $32.0M of reserves | $81.7M at 2025-12-31 | Work in process $60.5M | Watch |
 | Stock-based compensation | $1.8M in H1 (2.4% of revenue) | $1.3M | Small | Strong |
@@ -204,9 +207,9 @@ Operating income by quarter is gross profit less operating expenses from each re
 
 | Basis | Shares | Source and limits |
 |---|---:|---|
-| **Q2 10-Q cover (2026-08-03), used for valuation** | **65,573,212** | Primary disclosure |
+| Historical valuation basis: **Q2 10-Q cover (2026-08-03), used for valuation** | **65,573,212** | Primary disclosure |
 | Call-level Q3 diluted estimate | About 66.5M | Q2 call |
-| Fully diluted ceiling | About 67.79M | Cover + 468K options (weighted exercise price $5.30) + 1,377K unvested restricted stock + 371K performance shares; restricted stock may already be in the cover count, so this is a ceiling; used in the §10 grid |
+| Historical valuation basis: Fully diluted ceiling | About 67.79M | Cover + 468K options (weighted exercise price $5.30) + 1,377K unvested restricted stock + 371K performance shares; restricted stock may already be in the cover count, so this is a ceiling; used in the §10 grid |
 
 ---
 
@@ -220,7 +223,7 @@ Operating income by quarter is gross profit less operating expenses from each re
 |---|---|---|
 | Form | Two underwritten offerings: 2025-12-30, 8,163,265 shares at $12.25 (net $93.9M); 2026-04-22, 9,844,357 shares at $64.25 including the full over-allotment (gross $632.5M, net $600.1M), priced 18.4% below the prior close of $78.76 | Standing ATMs: $250M (2026-02-26), raised to $500M (03-12), $600M (05-14), a new $600M (08-21); H1 sales 7,775,523 shares at a weighted $135.02 (gross $1,049.8M, net $1,028.8M), plus 332,428 shares (about $49.2M) after 06-30 |
 | Cost | Underwriting discount 5% ($3.2125 per share) | Agent commission up to 2% |
-| 2026 net equity / current market cap | $600.1M / $4.786B = **12.5%** (14.5% including December) | $1,028.8M / $8.581B = **12.0%** (floor; post-08-20 ATM use unknown) |
+| Historical valuation basis: 2026 net equity / current market cap | $600.1M / $4.786B = **12.5%** (14.5% including December) | $1,028.8M / $8.581B = **12.0%** (floor; post-08-20 ATM use unknown) |
 | Share count change in 2026 | 55.34M → 65.57M = **+18.5%** (+39.2% from before the December offering) | 75.00M → 84.91M = **+13.2%** (to 2026-08-20) |
 | Customer money | $47.7M contracted, $12.7M received by 06-30, Lumentum $43.5M first deposit post-period — about **$91M** of near-term deposits against $694M of equity | No customer-prepayment line in the Q2 10-Q |
 
@@ -272,20 +275,20 @@ Morris S. Young is co-founder and chief executive officer and Gary L. Fischer ch
 
 **Governance items.** The 2026-05-14 annual meeting failed to reach a quorum and was adjourned to 2026-06-04, where the authorized share increase from 70M to 120M passed (8-K 2026-06-09). On 2026-07-26 the board amended the bylaws, without a shareholder vote, to cut the shareholder-meeting quorum from a majority to one-third (8-K 2026-07-29). The share increase leaves 54.4M authorized but unissued shares.
 
-**Tongmei: the subsidiary-level cap table.** Tongmei's 2020-2021 pre-IPO round raised RMB 324,404,508 (about $49M) from 11 Chinese private-equity funds for 7.28%. Tongmei withdrew its STAR Market application (accepted 2026-07-08), which gives each fund the right to be redeemed at its original investment without interest; AXT says it has "sufficient funds to redeem" in full (8-K 2026-07-08). The CFO said the funds "currently ... all wish to continue their investment" (call). The company now intends a Hong Kong listing that "will likely take about a year" (call); a check of HKEXnews's active-application lists on 2026-09-24 found no Tongmei filing. A Hong Kong IPO would bring cash into Tongmei and reduce AXT's share of it — the grid in §10 assumes AXT's attributable share falls from about 85.5% to 80% in the base case.
+Historical valuation basis: **Tongmei: the subsidiary-level cap table.** Tongmei's 2020-2021 pre-IPO round raised RMB 324,404,508 (about $49M) from 11 Chinese private-equity funds for 7.28%. Tongmei withdrew its STAR Market application (accepted 2026-07-08), which gives each fund the right to be redeemed at its original investment without interest; AXT says it has "sufficient funds to redeem" in full (8-K 2026-07-08). The CFO said the funds "currently ... all wish to continue their investment" (call). The company now intends a Hong Kong listing that "will likely take about a year" (call); a check of HKEXnews's active-application lists on 2026-09-24 found no Tongmei filing. A Hong Kong IPO would bring cash into Tongmei and reduce AXT's share of it — the grid in §10 assumes AXT's attributable share falls from about 85.5% to 80% in the base case.
 
 ### Insider transactions since 2026-06-01 (every Form 4, all transaction blocks parsed)
 
 | Insider | Dates | Code | Shares | Value | 10b5-1 box | Note |
 |---|---|---|---:|---:|---|---|
-| Morris Young (CEO) | 06-01, 06-02 | M then S | 85,703 exercised at $5.21; 197,498 sold at about $112.39-$113.33 | About $22.31M | Unchecked | 111,795 of the shares sold were existing holdings (Form 144 lists a 2022 performance award), not exercise shares; direct holding after: 2,149,533 shares (about $156.9M at $72.98) |
+| Historical valuation basis: Morris Young (CEO) | 06-01, 06-02 | M then S | 85,703 exercised at $5.21; 197,498 sold at about $112.39-$113.33 | About $22.31M | Unchecked | 111,795 of the shares sold were existing holdings (Form 144 lists a 2022 performance award), not exercise shares; direct holding after: 2,149,533 shares (about $156.9M at $72.98) |
 | Morris Young | 06-12 | G | 1,200 (gift) | — | — | Footnote: "subject to a lock-up agreement that expires on June 20, 2026" |
 | Jesse Chen (director) | 06-01 to 06-15 | S (10 sales) | 60,005 | About $5.93M | Unchecked | Holding down about 54% to 50,275 |
 | David Chang (director) | 06-15 | S | 8,333 | About $0.93M | Unchecked | — |
 | Leonard LeBlanc (director) | 06-10, 08-07, 08-17 | S | 6,500 | About $0.61M | Unchecked | The 06-10 sale was reported on 08-19, about ten weeks late |
 | All insiders | 06-01 to 09-24 | P | 0 | — | — | No open-market purchases |
 
-Total code S sales were about $29.8M, all outside any 10b5-1 plan box, with no tax-withholding (F) transactions in the window. **Open question, not a conclusion:** the April offering's prospectus bound directors and officers to a 60-day lock-up (to about 2026-06-20), and the CEO's own 06-12 Form 4 cites it; yet he and two directors sold on 06-01 to 06-15. No filing states which lock-up exception or underwriter waiver applied; waivers need not be publicly disclosed. The sales were near $110 per share, roughly 50% above the $72.98 anchor.
+Historical valuation basis: Total code S sales were about $29.8M, all outside any 10b5-1 plan box, with no tax-withholding (F) transactions in the window. **Open question, not a conclusion:** the April offering's prospectus bound directors and officers to a 60-day lock-up (to about 2026-06-20), and the CEO's own 06-12 Form 4 cites it; yet he and two directors sold on 06-01 to 06-15. No filing states which lock-up exception or underwriter waiver applied; waivers need not be publicly disclosed. The sales were near $110 per share, roughly 50% above the $72.98 anchor.
 
 ---
 
@@ -297,11 +300,11 @@ Total code S sales were about $29.8M, all outside any 10b5-1 plan box, with no t
 
 3. **Operating leverage and margin have already shown up.** GAAP gross margin went from 8.0% to 44.9% in four quarters; Q2 incremental gross margin was 67%; management's gross-margin target "begins with a 4" and, with volume and diameter mix, the CFO said "we should definitely be targeting a number that begins with a 5" (call).
 
-4. **The balance sheet is paid for.** Net cash of $649.1M ($9.90 per share) covers the analyst-restated $100M 2027 capex and the ~$49M Tongmei redemption right several times; the next capacity step does not require more equity.
+4. Historical valuation basis: **The balance sheet is paid for.** Net cash of $649.1M ($9.90 per share) covers the analyst-restated $100M 2027 capex and the ~$49M Tongmei redemption right several times; the next capacity step does not require more equity.
 
 5. **Licensing can become a tailwind.** The first US InP permit would open the largest end market ("our material are being used in multiple U.S. hyperscalers", call), and a regime that makes China-origin InP scarce outside China supports price.
 
-**Valuation implication of the bull case:** FY2028 revenue $620M (InP near $130M per quarter, plus about $100M of GaAs, Ge and raw materials), 55% gross margin, $80M of operating expense, 18% tax, 85% attributable, 67.79M shares → $2.68 per share of attributable operating earnings; at 35x plus $9.58 of net cash per share, **$103.50** — +41.8% total, **+16.6% annualized** to 2028-12-31.
+Historical valuation basis: **Valuation implication of the bull case:** FY2028 revenue $620M (InP near $130M per quarter, plus about $100M of GaAs, Ge and raw materials), 55% gross margin, $80M of operating expense, 18% tax, 85% attributable, 67.79M shares → $2.68 per share of attributable operating earnings; at 35x plus $9.58 of net cash per share, **$103.50** — +41.8% total, **+16.6% annualized** to 2028-12-31.
 
 ---
 
@@ -309,7 +312,7 @@ Total code S sales were about $29.8M, all outside any 10b5-1 plan box, with no t
 
 1. **One regulator can cut a quarter.** Q4 2025 revenue fell to $23.0M from $28.0M "primarily due to fewer export control permits"; the Foreign Trade Law revision effective 2026-03-01 widened MOFCOM's powers; US InP permits have never been granted. Every dollar of the $66M Q3 floor is conditional on permits already in hand.
 
-2. **The market already pays for the exit-2027 target.** Net of cash, $63.40 per share of operating value at 28x needs about $234M of EBIT — roughly FY2028 revenue of $620M at 50% gross margin, the full exit-2027 capacity target sold. The base case below reaches $151M.
+2. Historical valuation basis: **The market already pays for the exit-2027 target.** Net of cash, $63.40 per share of operating value at 28x needs about $234M of EBIT — roughly FY2028 revenue of $620M at 50% gross margin, the full exit-2027 capacity target sold. The base case below reaches $151M.
 
 3. **The capacity metric is in dollars.** Capacity "per quarter" is revenue capacity, so price and diameter mix are inside it; a price normalization when Sumitomo and JX add capacity would shrink "capacity" without any tool being removed.
 
@@ -319,13 +322,13 @@ Total code S sales were about $29.8M, all outside any 10b5-1 plan box, with no t
 
 6. **Insiders sold into the rally.** About $29.8M of discretionary sales in June at around $110, none under a 10b5-1 plan box, some inside the 60-day lock-up window, no purchases.
 
-**Valuation implication of the bear case:** FY2028 revenue $250M (the Q3 floor annualized, no growth after a permit or price reset), 38% gross margin, $55M of operating expense, 75% attributable, net cash reduced by the ~$49M redemption → $0.36 per share of attributable operating earnings; at 18x plus $8.85 of net cash, **$15.38** — -78.9% total, -49.6% annualized. It is not a return to 2025: revenue is still 2.8x FY2025's $88.3M.
+Historical valuation basis: **Valuation implication of the bear case:** FY2028 revenue $250M (the Q3 floor annualized, no growth after a permit or price reset), 38% gross margin, $55M of operating expense, 75% attributable, net cash reduced by the ~$49M redemption → $0.36 per share of attributable operating earnings; at 18x plus $8.85 of net cash, **$15.38** — -78.9% total, -49.6% annualized. It is not a return to 2025: revenue is still 2.8x FY2025's $88.3M.
 
 ---
 
 ## 9. Key Uncertainties and Thesis-Breaking Conditions <!-- report-module:uncertainties -->
 
-**The core uncertainty is not whether InP is scarce — it is — but how much of AXT's share of that scarcity survives a licensing regime it does not control, and what multiple the market pays when capacity arrives.** By §10, earning 8% annualized from $72.98 on the base-case FY2028 path requires the market to pay **52.9x** attributable operating earnings at the end of 2028.
+Historical valuation basis: **The core uncertainty is not whether InP is scarce — it is — but how much of AXT's share of that scarcity survives a licensing regime it does not control, and what multiple the market pays when capacity arrives.** By §10, earning 8% annualized from $72.98 on the base-case FY2028 path requires the market to pay **52.9x** attributable operating earnings at the end of 2028.
 
 The unknowns, each with a confirmation point:
 
@@ -353,47 +356,49 @@ The unknowns, each with a confirmation point:
 
 ## 10. Valuation Context <!-- report-module:valuation -->
 
-Valuation uses the **2026-09-23 close of $72.98** (the 2026-09-24 US session was in progress when this section was finalized, so the anchor is the latest completed close; no company event lies between the anchor and finalization) and the 10-Q cover count of **65,573,212 shares** for market value. The grid uses the fully diluted ceiling of 67.79M shares.
+Historical valuation basis: Valuation uses the **2026-09-23 close of $72.98** (the 2026-09-24 US session was in progress when this section was finalized, so the anchor is the latest completed close; no company event lies between the anchor and finalization) and the 10-Q cover count of **65,573,212 shares** for market value. The grid uses the fully diluted ceiling of 67.79M shares.
+
+> **Valuation boundary (2026-10-30, Mode A):** this section remains on the 2026-09-23 basis; Q3 2026 actuals (released 2026-10-29) and the Tongmei private equity agreements signed 2026-10-27 change the inputs, which await Mode B recomputation.
 
 ### Multiples
 
 | Metric | Calculation | Result |
 |---|---|---:|
-| Market capitalization | $72.98 x 65,573,212 | $4.786B |
-| Net cash excluding long-term investments | $412.2M + $33.1M + $5.0M - $84.2M - $15.5M | $350.5M ($5.35 per share) |
-| Net cash including long-term investments | $350.5M + $298.6M | $649.1M ($9.90 per share) |
-| Enterprise value (including long-term investments) | $4.786B - $0.649B | $4.136B |
-| Enterprise value (excluding long-term investments) | $4.786B - $0.351B | $4.435B |
-| EV / TTM revenue | $4.136B / $125.5M | 33.0x (35.3x on the narrower cash basis) |
-| Price / TTM revenue | $4.786B / $125.5M | 38.1x |
-| EV / Q3 floor annualized | $4.136B / ($66M x 4) | 15.7x |
-| P/E on Q2 GAAP EPS annualized | $72.98 / ($0.17 x 4) | 107.3x |
-| P/E on Q2 non-GAAP EPS annualized | $72.98 / ($0.19 x 4) | 96.0x |
-| P/E on Q3 non-GAAP EPS annualized (call) | $72.98 / ($0.31 x 4) | 58.9x (57.0x-60.8x across the range) |
-| EV / Q2 operating income annualized | $4.136B / ($10.42M x 4) | 99.2x |
-| Minority claims not deducted above | Redeemable NCI $39.7M book (~$49M redemption); NCI $24.8M book | About 14.5% of Tongmei |
+| Historical valuation basis: Market capitalization | $72.98 x 65,573,212 | $4.786B |
+| Historical valuation basis: Net cash excluding long-term investments | $412.2M + $33.1M + $5.0M - $84.2M - $15.5M | $350.5M ($5.35 per share) |
+| Historical valuation basis: Net cash including long-term investments | $350.5M + $298.6M | $649.1M ($9.90 per share) |
+| Historical valuation basis: Enterprise value (including long-term investments) | $4.786B - $0.649B | $4.136B |
+| Historical valuation basis: Enterprise value (excluding long-term investments) | $4.786B - $0.351B | $4.435B |
+| Historical valuation basis: EV / TTM revenue | $4.136B / $125.5M | 33.0x (35.3x on the narrower cash basis) |
+| Historical valuation basis: Price / TTM revenue | $4.786B / $125.5M | 38.1x |
+| Historical valuation basis: EV / Q3 floor annualized | $4.136B / ($66M x 4) | 15.7x |
+| Historical valuation basis: P/E on Q2 GAAP EPS annualized | $72.98 / ($0.17 x 4) | 107.3x |
+| Historical valuation basis: P/E on Q2 non-GAAP EPS annualized | $72.98 / ($0.19 x 4) | 96.0x |
+| Historical valuation basis: P/E on Q3 non-GAAP EPS annualized (call) | $72.98 / ($0.31 x 4) | 58.9x (57.0x-60.8x across the range) |
+| Historical valuation basis: EV / Q2 operating income annualized | $4.136B / ($10.42M x 4) | 99.2x |
+| Historical valuation basis: Minority claims not deducted above | Redeemable NCI $39.7M book (~$49M redemption); NCI $24.8M book | About 14.5% of Tongmei |
 
 **Denominator warning:** TTM rows include two loss-making quarters; the Q3 row annualizes a call-level floor that includes interest income; all rows move sharply in an up-leg and are not comparable across rows.
 
 ### Scenario grid (FY2028; exit at 2028-12-31)
 
-| Scenario | Driver assumptions (revenue / gross margin / exit multiple on attributable operating earnings) | Valuation implication (expensive / fair / cheap versus $72.98) | Probability weight |
+| Historical valuation basis: Scenario | Driver assumptions (revenue / gross margin / exit multiple on attributable operating earnings) | Valuation implication (expensive / fair / cheap versus $72.98) | Probability weight |
 |---|---|---|---:|
-| Bull scenario | $620M (InP near the $130M-per-quarter exit-2027 target); 55%; $80M opex; 85% attributable; 35x | $103.50 per share, +41.8% total, +16.6% annualized — the price is **cheap** only if the full target is permitted, sold and priced | 30% |
-| Base scenario | $450M (InP about two-thirds of the exit-2027 target); 48%; $65M opex; 80% attributable after a Hong Kong listing; 28x | $50.49 per share, -30.8% total, -15.0% annualized — the price is **expensive**; earning 8% on this path needs 52.9x | 40% |
-| Bear scenario | $250M (the Q3 floor annualized, then permits or price reset); 38%; $55M opex; 75% attributable; 18x; net cash less the ~$49M redemption | $15.38 per share, -78.9% total, -49.6% annualized | 30% |
+| Historical valuation basis: Bull scenario | $620M (InP near the $130M-per-quarter exit-2027 target); 55%; $80M opex; 85% attributable; 35x | $103.50 per share, +41.8% total, +16.6% annualized — the price is **cheap** only if the full target is permitted, sold and priced | 30% |
+| Historical valuation basis: Base scenario | $450M (InP about two-thirds of the exit-2027 target); 48%; $65M opex; 80% attributable after a Hong Kong listing; 28x | $50.49 per share, -30.8% total, -15.0% annualized — the price is **expensive**; earning 8% on this path needs 52.9x | 40% |
+| Historical valuation basis: Bear scenario | $250M (the Q3 floor annualized, then permits or price reset); 38%; $55M opex; 75% attributable; 18x; net cash less the ~$49M redemption | $15.38 per share, -78.9% total, -49.6% annualized | 30% |
 
-The probability-weighted value is **$55.86** per share, **23.5% below $72.98**, or **-11.1% annualized** over 2.27 years — 19.1 points below an 8% required return. Value per share = exit multiple x attributable operating earnings per share + net cash per share; operating earnings exclude interest income so that cash is not double counted.
+Historical valuation basis: The probability-weighted value is **$55.86** per share, **23.5% below $72.98**, or **-11.1% annualized** over 2.27 years — 19.1 points below an 8% required return. Value per share = exit multiple x attributable operating earnings per share + net cash per share; operating earnings exclude interest income so that cash is not double counted.
 
-**Why 30 / 40 / 30 and not the 30 / 50 / 20 used for Seagate.** Seagate's downside required a pricing cycle; AXT's downside can be delivered by a single regulator, and it already was, for one quarter, in Q4 2025. The bull tail is kept at 30% because the demand, the deposits and the raised targets are documented.
+Historical valuation basis: **Why 30 / 40 / 30 and not the 30 / 50 / 20 used for Seagate.** Seagate's downside required a pricing cycle; AXT's downside can be delivered by a single regulator, and it already was, for one quarter, in Q4 2025. The bull tail is kept at 30% because the demand, the deposits and the raised targets are documented.
 
-**Robustness check.** Lifting all three exit multiples by 4x (39x / 32x / 22x) raises the weighted value to $61.85, **-7.0% annualized**. Adding 10% to revenue and 3 points to gross margin in every scenario on top gives $74.00, **+0.6% annualized** — still 7.4 points below 8%. The negative skew survives generous assumptions. Conversely, the bull scenario alone returns +16.6%, so this is a price-and-regulator judgment, not a judgment that the business is weak.
+Historical valuation basis: **Robustness check.** Lifting all three exit multiples by 4x (39x / 32x / 22x) raises the weighted value to $61.85, **-7.0% annualized**. Adding 10% to revenue and 3 points to gross margin in every scenario on top gives $74.00, **+0.6% annualized** — still 7.4 points below 8%. The negative skew survives generous assumptions. Conversely, the bull scenario alone returns +16.6%, so this is a price-and-regulator judgment, not a judgment that the business is weak.
 
 ### What is priced in, and the expectation gap
 
-At $72.98, subtracting $9.58 of net cash per share (on the 67.79M fully diluted count) leaves $63.40 per share of operating value. At a 28x multiple that requires $2.26 per share of attributable operating earnings — about $234M of EBIT at 18% tax and 80% attribution, or roughly **$620M of FY2028 revenue at a 50% gross margin with $75M of operating expense**. That is the company's own exit-2027 InP capacity target, sold in full and permitted in full, a year after it is supposed to exist. **The expectation gap: the market prices the target; the base case prices about two-thirds of it.**
+Historical valuation basis: At $72.98, subtracting $9.58 of net cash per share (on the 67.79M fully diluted count) leaves $63.40 per share of operating value. At a 28x multiple that requires $2.26 per share of attributable operating earnings — about $234M of EBIT at 18% tax and 80% attribution, or roughly **$620M of FY2028 revenue at a 50% gross margin with $75M of operating expense**. That is the company's own exit-2027 InP capacity target, sold in full and permitted in full, a year after it is supposed to exist. **The expectation gap: the market prices the target; the base case prices about two-thirds of it.**
 
-Against the optical peers: AXTI at 33.0x EV/TTM revenue and 15.7x the annualized Q3 floor; AAOI ($101.06) at 13.9x EV/TTM revenue and 7.6x its annualized Q3 guidance midpoint; Innolight at about 16.6x TTM price-to-sales at its 2026-09-23 close (innolight-2026 frame, 16.4x at RMB 908.90 scaled to RMB 922.50). The premium over the module makers is defensible for a supply-constrained component with prepaying customers and positive margins; its size — about twice the multiple of the module makers on either denominator — is what the grid rejects.
+Historical valuation basis: Against the optical peers: AXTI at 33.0x EV/TTM revenue and 15.7x the annualized Q3 floor; AAOI ($101.06) at 13.9x EV/TTM revenue and 7.6x its annualized Q3 guidance midpoint; Innolight at about 16.6x TTM price-to-sales at its 2026-09-23 close (innolight-2026 frame, 16.4x at RMB 908.90 scaled to RMB 922.50). The premium over the module makers is defensible for a supply-constrained component with prepaying customers and positive margins; its size — about twice the multiple of the module makers on either denominator — is what the grid rejects.
 
 ---
 
@@ -404,11 +409,11 @@ Against the optical peers: AXTI at 33.0x EV/TTM revenue and 15.7x the annualized
 | Catalyst | Timing | Impact |
 |---|---|---|
 | Lumentum first deposit ($43.5M) | Due within 30 business days of 2026-07-26 (about early September) | Confirmed only by the Q3 10-Q contract liabilities |
-| Q3 2026 results and call | Late October 2026 (not announced by the issuer; Q3 2025 was 2025-10-30) | First test against the $66M floor and $0.30-$0.32 non-GAAP EPS (call) |
+| Q3 2026 results and call | Late October 2026 (not announced by the issuer; Q3 2025 was 2025-10-30) | First test against the $66M floor and $0.30-$0.32 non-GAAP EPS (call); **Q3 2026 (released 2026-10-29): revenue $73.4M, GAAP gross margin 56.0%, GAAP diluted EPS $0.39, non-GAAP $0.41; the release contains no guidance; call not used (no primary transcript)** |
 | Q3 2026 Form 10-Q | Mid-November 2026 (inferred) | Contract liabilities, redemption elections, capex, cover share count |
 | Casela second 50% payment | By 2026-12-31 | RMB 86.5M |
 | Exit-2026 InP capacity target | Q4 2026 (reported February 2027) | About $60M per quarter (call) |
-| Tongmei Hong Kong filing | "About a year" from 2026-07-30 (call) | Subsidiary-level dilution and valuation marker |
+| Tongmei Hong Kong filing | "About a year" from 2026-07-30 (call) | Subsidiary-level dilution and valuation marker; **HKEX active applications were not independently reviewed this run** |
 | Casela 2027 delivery term begins | 2027-01-01 | Converts prepaid contract into revenue |
 | Exit-2027 InP capacity target | Q4 2027 | About $130M per quarter (call); second Lumentum deposit terms set during 2028 |
 
@@ -416,11 +421,11 @@ Against the optical peers: AXTI at 33.0x EV/TTM revenue and 15.7x the annualized
 
 | Monitored item | Latest reading | Trigger | Next check |
 |---|---|---|---|
-| InP revenue and capacity | Q2 InP $30.7M, Q1 $13.6M (call); exit-2026 capacity about $60M per quarter and exit-2027 about $130M (call), raised from about $35M and $65-70M; H1 capex $8.6M | Q4 2026 InP revenue below $45M or the capacity target withdrawn | Q3 2026 call |
-| Export permits | Q3 floor $66M "for which we either already have a permit ... or for which an export permit is not required" (call); North America $161K of Q2 revenue; Q4 2025 revenue cut by permit shortfall | Q3 revenue below $60M or sequential decline attributed to permits; any new InP-specific MOFCOM measure | Q3 2026 release |
-| Gross margin | Q2 GAAP 44.9% (Q1 29.6%, Q2 2025 8.0%); management target "begins with a 4", CFO "targeting a number that begins with a 5" (call) | Downside: below 40% for two quarters. Upside: 50% or more for two quarters with revenue at or above $80M | Q3 2026 release |
-| Customer prepayments | $47.7M contracted, $12.7M received; current contract liabilities $12.078M, long-term about $1.9M; RPO $98.5M through 1H 2029; Lumentum $43.5M post-period | Refund or termination of the Coherent or Lumentum agreement, or contract liabilities falling with revenue | Q3 2026 10-Q |
-| Tongmei minority and listing | ~85.5% owned (86.09% after the pending purchase); RMB 324.4M redemption right triggered 2026-07-08; funds "currently" wish to stay (call); no HKEX filing at 2026-09-24 | Full redemption plus a Hong Kong offering that cuts AXT below 75% of Tongmei | Q3 2026 10-Q Note 18 and HKEXnews |
+| InP revenue and capacity | Q2 InP $30.7M, Q1 $13.6M (call); exit-2026 capacity about $60M per quarter and exit-2027 about $130M (call), raised from about $35M and $65-70M; H1 capex $8.6M; **Q3 2026 (released 2026-10-29): revenue $73.4M; the release does not quantify InP revenue or restate the ~$60M-per-quarter target, and the CEO said the 2026 commitment to double InP capacity was surpassed; call not used (no primary transcript)** | Q4 2026 InP revenue below $45M or the capacity target withdrawn | Q3 2026 call |
+| Export permits | Q3 floor $66M "for which we either already have a permit ... or for which an export permit is not required" (call); North America $161K of Q2 revenue; Q4 2025 revenue cut by permit shortfall; **Q3 2026 (released 2026-10-29): revenue $73.4M, up from $47.6M — above $60M and up sequentially; current MOFCOM measures were not independently reviewed; that leg remains unknown** | Q3 revenue below $60M or sequential decline attributed to permits; any new InP-specific MOFCOM measure | Q3 2026 release |
+| Gross margin | Q2 GAAP 44.9% (Q1 29.6%, Q2 2025 8.0%); management target "begins with a 4", CFO "targeting a number that begins with a 5" (call); **Q3 2026 (released 2026-10-29): GAAP 56.0% on revenue of $73.4M (non-GAAP 56.1%)** | Downside: below 40% for two quarters. Upside: 50% or more for two quarters with revenue at or above $80M | Q3 2026 release |
+| Customer prepayments | $47.7M contracted, $12.7M received; current contract liabilities $12.078M, long-term about $1.9M; RPO $98.5M through 1H 2029; Lumentum $43.5M post-period; **Q3 2026 (released 2026-10-29): the release does not show contract liabilities separately; Q3 10-Q not independently read in this review** | Refund or termination of the Coherent or Lumentum agreement, or contract liabilities falling with revenue | Q3 2026 10-Q |
+| Tongmei minority and listing | ~85.5% owned (86.09% after the pending purchase); RMB 324.4M redemption right triggered 2026-07-08; funds "currently" wish to stay (call); no HKEX filing at 2026-09-24; **2026-10-27: Tongmei and AXT signed private equity agreements for institutional investment in Tongmei ordinary shares (8-K filed 2026-10-28); closing expected December 2026, not assured; HKEX active applications were not independently reviewed this run** | Full redemption plus a Hong Kong offering that cuts AXT below 75% of Tongmei | Q3 2026 10-Q Note 18 and HKEXnews |
 
 ---
 
@@ -430,13 +435,13 @@ Against the optical peers: AXTI at 33.0x EV/TTM revenue and 15.7x the annualized
 
 **(2) The financing question.** AXT and AAOI both financed 2026 mainly with equity, about 12% of market value each, and AXT diluted faster. What differs is form (one discounted block against a standing ATM), deployment ($8.6M of capex against about $625M) and, above all, per-share results (revenue per share +53.9% Q/Q at AXT against +18.4% at AAOI). The price ratio moved mainly on AXT's Q2 print and on AAOI's new ATM, not on who funds capacity.
 
-**(3) The expectation gap.** At $72.98 the market prices FY2028 revenue near $620M at a 50% gross margin — the exit-2027 target, fully sold and permitted. The base case reaches $450M.
+Historical valuation basis: **(3) The expectation gap.** At $72.98 the market prices FY2028 revenue near $620M at a 50% gross margin — the exit-2027 target, fully sold and permitted. The base case reaches $450M.
 
-**(4) Stance and confidence.** The 30 / 40 / 30 grid weights to $55.86, **-11.1% annualized**, 19.1 points below 8%; +4x on every exit multiple gives -7.0%, and adding revenue and margin as well gives +0.6%. The bull case alone returns +16.6% and the business has already inflected, so the stance is **cautious / medium conviction**, not bearish-avoid. Confidence is medium because the decisive variables — permits and the capacity path — are regulator- and call-level, not reported.
+Historical valuation basis: **(4) Stance and confidence.** The 30 / 40 / 30 grid weights to $55.86, **-11.1% annualized**, 19.1 points below 8%; +4x on every exit multiple gives -7.0%, and adding revenue and margin as well gives +0.6%. The bull case alone returns +16.6% and the business has already inflected, so the stance is **cautious / medium conviction**, not bearish-avoid. Confidence is medium because the decisive variables — permits and the capacity path — are regulator- and call-level, not reported.
 
 **(5) Upgrade and downgrade triggers.** Upgrade: two quarters of revenue at or above $80M with gross margin at or above 50%; first US InP permits with North America above 5% of revenue; or a price near $50 without a change in fundamentals. Downgrade to bearish-avoid: Q3 revenue below $60M or two sequential declines attributed to permits; a new InP-specific MOFCOM measure; gross margin below 40% for two quarters; the exit-2026 capacity target withdrawn or Q4 InP revenue below $45M; termination or refund of the Coherent or Lumentum agreements; or AXT falling below 75% of Tongmei.
 
-AXT has the scarce input, the customers queueing for it and the cash to expand it. It does not control the permit that turns a wafer into revenue, and the market is already paying for the capacity it has promised to build by the end of 2027.
+Historical valuation basis: AXT has the scarce input, the customers queueing for it and the cash to expand it. It does not control the permit that turns a wafer into revenue, and the market is already paying for the capacity it has promised to build by the end of 2027.
 
 ---
 
@@ -444,6 +449,7 @@ AXT has the scarce input, the customers queueing for it and the cash to expand i
 
 ### Primary sources
 
+- 2026-10-30 Mode A: [AXT Q3 2026 issuer release](https://investors.axt.com/Investors/news/news-details/2026/AXT-Inc--Announces-Third-Quarter-2026-Financial-Results/default.aspx); [Tongmei 8-K](https://www.sec.gov/Archives/edgar/data/1051627/000121390026113058/ea0309774-8k_axt.htm). the MOFCOM/HKEX searches and Q3 10-Q were not independently verified in this review.
 - [AXT Q2 2026 Form 10-Q](https://www.sec.gov/Archives/edgar/data/1051627/000143774926027677/axti20260630_10q.htm), filed 2026-08-13 (balance sheet, investments, contract liabilities, RPO, loans, redeemable NCI, product and geographic revenue, export-control and tariff history, customer agreements, Tongmei share purchase, cover share count 65,573,212 at 2026-08-03).
 - [AXT Q1 2026 Form 10-Q](https://www.sec.gov/Archives/edgar/data/1051627/000143774926017054/axti20260331_10q.htm), filed 2026-05-14.
 - [AXT FY2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/1051627/000143774926008612/axti20251231_10k.htm), filed 2026-03-17 (three primary InP suppliers, competitors, customer concentration, tariffs paid, North America share).
@@ -463,9 +469,9 @@ AXT has the scarce input, the customers queueing for it and the cash to expand i
 
 ### Price and share-count assumptions
 
-- The price used is the **2026-09-23 close of $72.98**, confirmed three ways: the Nasdaq `/historical` endpoint shows a 09/23/2026 close of $72.98; `/info` showed $77.28 at 12:41 PM ET on 2026-09-24 with netChange +4.30 ($77.28 - $4.30 = $72.98); `/summary` shows PreviousClose $72.98. The `/info` 52-week label reads $4.00-$143.16 (intraday); closing extremes come from `/historical`.
-- AAOI's 2026-09-23 close was $101.06 (Nasdaq `/historical`).
-- Shares: 65,573,212 on the Q2 10-Q cover (2026-08-03). The fully diluted ceiling of about 67.79M adds 468K options, 1,377K unvested restricted stock and 371K performance shares.
+- Historical valuation basis: The price used is the **2026-09-23 close of $72.98**, confirmed three ways: the Nasdaq `/historical` endpoint shows a 09/23/2026 close of $72.98; `/info` showed $77.28 at 12:41 PM ET on 2026-09-24 with netChange +4.30 ($77.28 - $4.30 = $72.98); `/summary` shows PreviousClose $72.98. The `/info` 52-week label reads $4.00-$143.16 (intraday); closing extremes come from `/historical`.
+- Historical valuation basis: AAOI's 2026-09-23 close was $101.06 (Nasdaq `/historical`).
+- Historical valuation basis: Shares: 65,573,212 on the Q2 10-Q cover (2026-08-03). The fully diluted ceiling of about 67.79M adds 468K options, 1,377K unvested restricted stock and 371K performance shares.
 
 ### Calculation assumptions
 
@@ -474,29 +480,29 @@ AXT has the scarce input, the customers queueing for it and the cash to expand i
 - InP shares of revenue are call figures divided by 10-Q revenue.
 - The Casela/Coherent split of the $47.7M contracted and $12.7M received is derived: Casela RMB 173M (about $25.4M) + Coherent $22.29M = $47.7M, and 50% of Casela = $12.7M; the 10-Q does not itemize.
 - Ratio windows use Nasdaq closes; log changes are ln(end/start).
-- The scenario window runs from 2026-09-23 to 2028-12-31 (2.27 years). No dividends. The 8% required return is this report's own hurdle.
-- Net cash at the end of 2028 is held at the 2026-06-30 level in the bull and base cases (operating cash flow assumed to fund capex and absorb deposit timing) and reduced by the ~$49M redemption in the bear case.
+- Historical valuation basis: The scenario window runs from 2026-09-23 to 2028-12-31 (2.27 years). No dividends. The 8% required return is this report's own hurdle.
+- Historical valuation basis: Net cash at the end of 2028 is held at the 2026-06-30 level in the bull and base cases (operating cash flow assumed to fund capex and absorb deposit timing) and reduced by the ~$49M redemption in the bear case.
 
 ### Scenario grid detail
 
-| Scenario | FY2028 revenue ($M) | Gross margin | Operating expense ($M) | EBIT ($M) | Tax | Attributable | Attributable operating earnings ($M) | Shares (M) | Per share | Exit multiple | Net cash per share | Value per share | Annualized return | Weight |
+| Historical valuation basis: Scenario | FY2028 revenue ($M) | Gross margin | Operating expense ($M) | EBIT ($M) | Tax | Attributable | Attributable operating earnings ($M) | Shares (M) | Per share | Exit multiple | Net cash per share | Value per share | Annualized return | Weight |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Optimistic | 620 | 55% | 80 | 261.0 | 18% | 85% | 181.9 | 67.79 | $2.684 | 35x | $9.58 | $103.50 | +16.6% | 30% |
-| Central | 450 | 48% | 65 | 151.0 | 18% | 80% | 99.1 | 67.79 | $1.461 | 28x | $9.58 | $50.49 | -15.0% | 40% |
-| Pessimistic | 250 | 38% | 55 | 40.0 | 18% | 75% | 24.6 | 67.79 | $0.363 | 18x | $8.85 | $15.38 | -49.6% | 30% |
+| Historical valuation basis: Optimistic | 620 | 55% | 80 | 261.0 | 18% | 85% | 181.9 | 67.79 | $2.684 | 35x | $9.58 | $103.50 | +16.6% | 30% |
+| Historical valuation basis: Central | 450 | 48% | 65 | 151.0 | 18% | 80% | 99.1 | 67.79 | $1.461 | 28x | $9.58 | $50.49 | -15.0% | 40% |
+| Historical valuation basis: Pessimistic | 250 | 38% | 55 | 40.0 | 18% | 75% | 24.6 | 67.79 | $0.363 | 18x | $8.85 | $15.38 | -49.6% | 30% |
 
 The starting point: Q2 2026 revenue $47.6M (annualized $190M), GAAP gross margin 44.9%, operating expense $10.9M per quarter; H1 effective tax rate 18.0% ($2.5M on $14.1M).
 
 ### Peer comparison (2026-09-23 closes)
 
-| Company | Report | Share price | TTM revenue | EV / TTM revenue | Next-quarter reference | Operating profile |
+| Historical valuation basis: Company | Report | Share price | TTM revenue | EV / TTM revenue | Next-quarter reference | Operating profile |
 |---|---|---:|---:|---:|---|---|
-| AXT | this report | $72.98 | $125.5M | 33.0x | Q3 floor $66M (call); 15.7x annualized | Q2 operating margin 21.9%; H1 OCF -$0.9M |
-| AAOI | aaoi-2026 | $101.06 | $596.0M | 13.9x | Q3 guidance midpoint $272.5M; 7.6x annualized | Q2 operating loss $24.7M; H1 OCF -$73.8M |
-| Innolight | innolight-2026 | RMB 922.50 | RMB 65.229B | About 16.6x price-to-sales | — | 2026 H1 parent net profit RMB 13.651B |
-| Coherent | coherent-2026 | $300.60 | FY2026 $7.118B | Not recomputed here | — | FY2026 capex $1.103B; direct AXT customer |
+| Historical valuation basis: AXT | this report | $72.98 | $125.5M | 33.0x | Q3 floor $66M (call); 15.7x annualized | Q2 operating margin 21.9%; H1 OCF -$0.9M |
+| Historical valuation basis: AAOI | aaoi-2026 | $101.06 | $596.0M | 13.9x | Q3 guidance midpoint $272.5M; 7.6x annualized | Q2 operating loss $24.7M; H1 OCF -$73.8M |
+| Historical valuation basis: Innolight | innolight-2026 | RMB 922.50 | RMB 65.229B | About 16.6x price-to-sales | — | 2026 H1 parent net profit RMB 13.651B |
+| Historical valuation basis: Coherent | coherent-2026 | $300.60 | FY2026 $7.118B | Not recomputed here | — | FY2026 capex $1.103B; direct AXT customer |
 
-Innolight's multiple is scaled from its report's 2026-09-09 frame by price only; Coherent's enterprise value was not recomputed for this report.
+Historical valuation basis: Innolight's multiple is scaled from its report's 2026-09-09 frame by price only; Coherent's enterprise value was not recomputed for this report.
 
 ### Evidence limits
 
