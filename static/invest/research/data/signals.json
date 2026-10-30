@@ -3367,5 +3367,34 @@
       "kla-2026:segment-breadth",
       "kla-2026:cy2026-outlook"
     ]
+  },
+  {
+    "id": "quanta-q3-2026-rpo-share-guidance-raise",
+    "date": "2026-10-29",
+    "title": {
+      "zh": "Quanta 2026 Q3：剩余履约义务占在手订单升至 65.5%，全年收入指引第三次上调",
+      "en": "Quanta Q3 2026: RPO rises to 65.5% of backlog as the FY2026 revenue guide is raised a third time"
+    },
+    "detail": {
+      "zh": "来源：Quanta 2026-10-29 以 Form 8-K（Item 2.02/7.01）报送的 Q3 新闻稿（附件 99.1）、同日提交的 Form 10-Q，以及 IR 网站发布的 Q3 运营与财务评论和 2026 指引摘要。2026 Q3 收入 120.15 亿美元（+57.4%，公司对账内生 +37.1%）；电力分部收入 98.00 亿美元（+58.8%），营业利润率 12.6%（追溯四季 11.1%，由季度分部数据推导）。总在手订单 637.3 亿美元（+62.7%），剩余履约义务 417.5 亿美元（+99.1%）占比由 62.8% 升至 65.5%。2026 全年收入指引上调至 413-416 亿美元（中值 +19.5 亿，其中公司口径约 1 亿美元来自二季度后并购），调整后摊薄每股收益 17.90-18.30 美元。证据边界：电话会问答未读；约 13 亿美元并购带入的在手订单未拆分硬/软；电力分部在手订单混合电网、发电与科技/负荷中心工作，无法单独看出输电建设；科技/负荷中心只有方向性估计；10-Q 无 10% 以上客户；所读文件中未见 2027 财年初始指引。",
+      "en": "Source: Quanta's Q3 release (Ex 99.1) furnished on Form 8-K (Items 2.02/7.01) on 2026-10-29, the Form 10-Q filed the same day, and the Q3 Operational and Financial Commentary and 2026 Outlook Expectations Summary posted on its IR site. Q3 2026 revenue was US$12.015B (+57.4%; organic +37.1% per the company's reconciliation); Electric revenue was US$9.800B (+58.8%) at a 12.6% operating margin (11.1% trailing four quarters, derived from quarterly segment figures). Total backlog reached US$63.73B (+62.7%), and remaining performance obligations of US$41.75B (+99.1%) rose from 62.8% to 65.5% of backlog. FY2026 revenue guidance was raised to US$41.3-41.6B (+US$1.95B at the midpoint, about US$100M of it company-sized as post-Q2 acquisitions) and adjusted diluted EPS to US$17.90-18.30. Evidence limits: the call Q&A was not read; the ~US$1.3B of acquired backlog has no RPO/MSA split; Electric backlog mixes grid, generation and technology/load-centre work, so transmission buildout cannot be isolated; technology/load-centre revenue exists only as a directional estimate; the 10-Q shows no 10%+ customer; no initial FY2027 guidance appears in the documents read."
+    },
+    "crossChecks": [
+      "grid-epc-delivery"
+    ],
+    "tickers": [
+      "PWR"
+    ],
+    "reportIds": [
+      "quanta-services-2026"
+    ],
+    "monitoringRefs": [
+      "quanta-services-2026:backlog-quality-mix",
+      "quanta-services-2026:craft-labor-headroom",
+      "quanta-services-2026:organic-vs-acquired-growth",
+      "quanta-services-2026:ai-attribution-disclosure",
+      "quanta-services-2026:cash-conversion-tangible-book",
+      "quanta-services-2026:guidance-durability-vs-2030-target"
+    ]
   }
 ]
