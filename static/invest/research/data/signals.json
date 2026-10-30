@@ -3286,5 +3286,31 @@
       "sandisk-2026:nbm-contract-lockin",
       "sandisk-2026:datacenter-mix"
     ]
+  },
+  {
+    "id": "gevernova-q3-2026-orders-backlog-slots",
+    "date": "2026-10-28",
+    "title": {
+      "zh": "GE Vernova Q3 2026：订单 $29.3B、backlog $196.7B、燃气合计 122 GW，指引上调",
+      "en": "GE Vernova Q3 2026: orders $29.3B, backlog $196.7B, gas total 122 GW, guidance raised"
+    },
+    "detail": {
+      "zh": "来源：GE Vernova 2026-10-28 8-K（Item 2.02，Ex 99 业绩稿）与同日 Q3 10-Q。Q3 订单 $29.3B（有机 +96%，Power $21.8B、有机 +178%；Electrification 有机 -9%，高基数，book-to-bill 约 1.4）；RPO $196.7B（环比 +$20B，设备 $104.1B）；燃气设备 backlog 53→64 GW、slot 预留 63→58 GW、合计 116→122 GW，Q3 转化 13 GW，年底预期至少 130 GW。调整后 EBITDA 利润率 15.4%（有机 14.7%）；FY2026 指引上调至营收 $46.5-47.5B、调整后 EBITDA 利润率 13.5-14.5%、FCF $16-17B，Wind 全年亏损指引放宽至 $400-500M。证据边界：未读电话会与演示材料；发布稿与 10-Q 未给出数据中心订单金额；年底 GW 一腿须待年末披露；估值、立场未更新。",
+      "en": "Source: GE Vernova 8-K dated 2026-10-28 (Item 2.02, Ex 99 earnings release) and the Q3 10-Q filed the same day. Q3 orders were $29.3B (+96% organic; Power $21.8B, +178% organic; Electrification -9% organic on a tough comp, book-to-bill ~1.4); RPO was $196.7B (+$20B sequentially; equipment $104.1B); gas equipment backlog rose 53→64 GW and slot reservations fell 63→58 GW for a 116→122 GW combined total after 13 GW converted, with at least 130 GW anticipated by year-end. Adjusted EBITDA margin was 15.4% (14.7% organic); FY2026 guidance rose to revenue $46.5-47.5B, adjusted EBITDA margin 13.5-14.5% and FCF $16-17B, while the Wind full-year loss guide widened to $400-500M. Evidence limits: the call and slides were not read; neither the release nor the 10-Q gives a data-center order amount; the year-end GW leg awaits year-end disclosure; valuation and stance are not updated."
+    },
+    "crossChecks": [
+      "buildout-orders"
+    ],
+    "tickers": [
+      "GEV"
+    ],
+    "reportIds": [
+      "gevernova-2026"
+    ],
+    "monitoringRefs": [
+      "gevernova-2026:orders-backlog",
+      "gevernova-2026:margin-ramp",
+      "gevernova-2026:gas-turbine-slots"
+    ]
   }
 ]
