@@ -1,7 +1,9 @@
 # Equinix 深度研究报告 - AI 数据中心设施层的互联溢价仪表盘
 
+> **2026-10-30 监测复核**: 互联收入与净增量支持密度方向，不能独立认证 proximity moat；interconnection-revenue-density 为 unclear。
+
 标的收录日期：2026-07-05
-最近更新日期：2026-07-31
+最近更新日期：2026-10-30
 代码：NASDAQ: EQIX
 免责声明：本报告仅用于信息与研究交流，不构成任何投资建议，请自行完成尽职调查。
 
@@ -9,26 +11,28 @@
 
 ## 执行摘要
 
+> **2026-10-30 事实更新**: Q3 2026（季度截至 2026-09-30；8-K Ex 99.1 与 10-Q 于 2026-10-28 提交）收入 $2.571B（同比 +11% reported、+12% normalized and constant currency），recurring revenue $2.442B（据 10-Q 同比 +10%，reported 与 constant currency 一致），营业利润 $600M（+27%），调整后 EBITDA $1.321B（+15% reported、+14% normalized and constant currency）。全球 interconnection revenue $465M（Q3 2025 为 $422M；据新闻稿 reported 与 normalized constant currency 均 +10%），Fabric revenue 增长 24%，本季净增 interconnections 6,900 个（Q2 2026 为 9,700 个）。Annualized gross bookings 创纪录 $533M（同比 +35%；前九个月 $1.3B、+23%）；据 10-Q，该指标只计入预计 90 天内开始产生收入的合同，且不含合资企业的 recurring revenue。2026-09-30 cabinet utilization 约 78%，与 2025-09-30 持平。Q3 资本开支 $1,558M（Q3 2025 为 $1,136M）；新闻稿称 2026 年计划交付的 cabinets 比最初预期多近 40%。FY2026 指引（新闻稿称为连续第三个季度上调）：收入 $10.325–10.365B（约 +12%）、调整后 EBITDA $5.290–5.330B（利润率约 51%）、总 capex $5–6B；仅作为指引事实记录，不作为新的估值分母。 所读文件未给出 AI 相关交易占比、presales 金额、计费 cabinet 增量或 xScale 产能数据，因此 AI bookings、MRR/cabinet yield、xScale 与 power/capex 读数仍为 unclear；电话会与投资者演示本轮未读。 估值仍按 2026-07-30 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。
+
 > **框架角色：** Equinix 是 AI 基建 数据中心设施 层的仪表盘。本报告的任务是验证链条信号，而不是把单一公司数据直接变成投资建议。
 
-> **2026-07-30 事实更新（Q2 2026，季度截至 2026-06-30）：** Equinix 收入 **$2.625B（同比 +16%，包含一次性 xScale fees）**、recurring revenue **$2.377B**（MRR 同比 **+11%**）、AFFO **$1.168B（+20%）**、AFFO/share **$11.78（+19%）**。**Q2 新增 interconnections 创纪录 9,700 个**、annualized gross bookings **$424M（+23%）**。管理层上调 **FY2026 指引**（收入 $10.205-10.285B、调整后 EBITDA $5.21-5.27B、AFFO/share $42.69-43.29、总 capex $5.0-6.0B）与长期展望。作为 facility-interconnection-leasing 读数，interconnection、bookings 与 MRR 同向走强，因此规则的证伪条件本季未触发。这些指标与网络密集部署一致，但新闻稿没有将其具体归因于 AI，不能作为 AI 需求穿透到该层的因果证明。下文 $1,002.02、约 23.5x 2026 AFFO/share 为**冻结的 2026-07-02 估值快照**；本次监测增加经营证据，但**不**刷新股价、AFFO 估计、估值倍数、stance 或 conviction。立场维持 **中性观察 / 中确信**。
+> 历史估值口径：**2026-07-30 事实更新（Q2 2026，季度截至 2026-06-30）：** Equinix 收入 **$2.625B（同比 +16%，包含一次性 xScale fees）**、recurring revenue **$2.377B**（MRR 同比 **+11%**）、AFFO **$1.168B（+20%）**、AFFO/share **$11.78（+19%）**。**Q2 新增 interconnections 创纪录 9,700 个**、annualized gross bookings **$424M（+23%）**。管理层上调 **FY2026 指引**（收入 $10.205-10.285B、调整后 EBITDA $5.21-5.27B、AFFO/share $42.69-43.29、总 capex $5.0-6.0B）与长期展望。作为 facility-interconnection-leasing 读数，interconnection、bookings 与 MRR 同向走强，因此规则的证伪条件本季未触发。这些指标与网络密集部署一致，但新闻稿没有将其具体归因于 AI，不能作为 AI 需求穿透到该层的因果证明。下文 $1,002.02、约 23.5x 2026 AFFO/share 为**冻结的 2026-07-02 估值快照**；本次监测增加经营证据，但**不**刷新股价、AFFO 估计、估值倍数、stance 或 conviction。立场维持 **中性观察 / 中确信**。
 
-**一句话论点：** AI 基础设施 datacenter-facility 层的 DLR 对照组：EQIX 用 Platform Equinix interconnection、retail colocation、xScale JV 和 AFFO/share 来验证 AI 需求是否不只是 hyperscale shell leasing。2026Q1 收入 $2.444B（reported YoY +10%）、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；MRR 同比 +12% reported / +10% normalized constant currency，annualized gross bookings $378M，annualized presales 约 $140M，largest deals 约 60% AI-related。2025 年报披露 280 个数据中心、10,500+ 客户、507,000+ interconnections，Q1 2026 interconnection revenue $446M。以 2026-07-30 收盘 $1,047.53 计、市值约 $103.3B、EV 约 $125.3B，约 24.4x 上修后 2026 AFFO/share 指引中点、约 12.2x 2026 revenue 指引。中性观察 / 中确信：质量高但估值高，关键监控是 interconnection revenue、AI bookings/presales、xScale economics、MRR/cabinet yield 与 power availability。
+历史估值口径：**一句话论点：** AI 基础设施 datacenter-facility 层的 DLR 对照组：EQIX 用 Platform Equinix interconnection、retail colocation、xScale JV 和 AFFO/share 来验证 AI 需求是否不只是 hyperscale shell leasing。2026Q1 收入 $2.444B（reported YoY +10%）、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；MRR 同比 +12% reported / +10% normalized constant currency，annualized gross bookings $378M，annualized presales 约 $140M，largest deals 约 60% AI-related。2025 年报披露 280 个数据中心、10,500+ 客户、507,000+ interconnections，Q1 2026 interconnection revenue $446M。以 2026-07-30 收盘 $1,047.53 计、市值约 $103.3B、EV 约 $125.3B，约 24.4x 上修后 2026 AFFO/share 指引中点、约 12.2x 2026 revenue 指引。中性观察 / 中确信：质量高但估值高，关键监控是 interconnection revenue、AI bookings/presales、xScale economics、MRR/cabinet yield 与 power availability。
 
-**当前判断：** **中性观察 / 中确信。** v5 情景网格显示 EQIX 的平台质量、互联密度和 xScale 期权大体被当前价格资本化；需要下一轮 interconnection、AI bookings/presales 与 AFFO/share 证据才能打破平衡。
+历史估值口径：**当前判断：** **中性观察 / 中确信。** v5 情景网格显示 EQIX 的平台质量、互联密度和 xScale 期权大体被当前价格资本化；需要下一轮 interconnection、AI bookings/presales 与 AFFO/share 证据才能打破平衡。
 
-> **旧价格复核批注 —— 按其写法已失效，被下方的重新裁定取代。** ~~2026-07-31 价格复核：EQIX 于 2026-07-29 收于 $1,008.02，对照 $1,002.02 锚点为 +0.6%，因此下文锚点在该误差范围内依然准确，估值框架、情景网格、立场与确信度均不变，无需修改。~~
+> 历史估值口径：**旧价格复核批注 —— 按其写法已失效，被下方的重新裁定取代。** ~~2026-07-31 价格复核：EQIX 于 2026-07-29 收于 $1,008.02，对照 $1,002.02 锚点为 +0.6%，因此下文锚点在该误差范围内依然准确，估值框架、情景网格、立场与确信度均不变，无需修改。~~
 
-> **2026-07-31 立场重新裁定（锚定 2026-07-30 收盘）。** 业主裁决（2026-07-31）：已发布的立场及其理由必须在**当前价格**上成立。EQIX 于 **2026-07-30** 收于 **$1,047.53**，较 2026-07-02 的旧锚点 $1,002.02 为 **+4.5%**。按约 9,860 万股与约 $22.0B 净债务计，市值约 **$103.3B**、企业价值约 **$125.3B**；对照 2026-07-30 上修至 $42.69-43.29 的 FY2026 AFFO/share 指引，约为 **24.4x P/AFFO**（旧约 23.5x）、约 **12.2x** 上修后 2026 收入指引。本次没有编造任何预估：只改了价格输入，分母用的是公司自己上修后的指引。代入本报告自身的反推公式（三年内向约 20x 正常化、要求回报 8%），`(24.4 / 20)^(1/3) x 1.08 - 1` 隐含 AFFO/share CAGR 约 **15%**，高于旧锚点的约 14%。**本轮令 digital-realty-2026 下调的同一项检验在此跑过，但没有触发。** DLR 的要求升到了基准与牛市情景之上、也高于实际兑现速度；EQIX 只上升约 1 个百分点，而 Q2 实际 AFFO/share 为 $11.78、**同比 +19%，明显高于约 15% 的要求**，同时新增 interconnections 创纪录 9,700、gross bookings $424M（+23%）、全年指引与长期展望双双上修。溢价确实更重了一些，但支撑溢价的证据比价格涨得更多。**因此立场维持中性观察（中确信），并按更高倍数重新表述。**
+> 历史估值口径：**2026-07-31 立场重新裁定（锚定 2026-07-30 收盘）。** 业主裁决（2026-07-31）：已发布的立场及其理由必须在**当前价格**上成立。EQIX 于 **2026-07-30** 收于 **$1,047.53**，较 2026-07-02 的旧锚点 $1,002.02 为 **+4.5%**。按约 9,860 万股与约 $22.0B 净债务计，市值约 **$103.3B**、企业价值约 **$125.3B**；对照 2026-07-30 上修至 $42.69-43.29 的 FY2026 AFFO/share 指引，约为 **24.4x P/AFFO**（旧约 23.5x）、约 **12.2x** 上修后 2026 收入指引。本次没有编造任何预估：只改了价格输入，分母用的是公司自己上修后的指引。代入本报告自身的反推公式（三年内向约 20x 正常化、要求回报 8%），`(24.4 / 20)^(1/3) x 1.08 - 1` 隐含 AFFO/share CAGR 约 **15%**，高于旧锚点的约 14%。**本轮令 digital-realty-2026 下调的同一项检验在此跑过，但没有触发。** DLR 的要求升到了基准与牛市情景之上、也高于实际兑现速度；EQIX 只上升约 1 个百分点，而 Q2 实际 AFFO/share 为 $11.78、**同比 +19%，明显高于约 15% 的要求**，同时新增 interconnections 创纪录 9,700、gross bookings $424M（+23%）、全年指引与长期展望双双上修。溢价确实更重了一些，但支撑溢价的证据比价格涨得更多。**因此立场维持中性观察（中确信），并按更高倍数重新表述。**
 
 | 指标 | 当前读数 |
 | --- | --- |
 | Report id | eqix-2026 |
 | 链条层级 / 角色 | datacenter-facility / dashboard |
-| 最新报告期 | ~~2026Q1~~ **2026Q2（2026-07-30 监测）** |
-| 价格快照 | $1,047.53，截至 2026-07-30 |
+| 最新报告期 | ~~2026Q1~~ **2026Q2（2026-07-30 监测）**；**2026Q3（2026-10-28 发布；2026-10-30 Mode A 事实更新）** |
+| 历史估值口径：价格快照 | $1,047.53，截至 2026-07-30 |
 | 本次升级后 coverageTier | full |
-| Stance | 中性观察 / 中确信 |
+| 历史估值口径：Stance | 中性观察 / 中确信 |
 | 估值用途 | 情景与风险容错率，不是目标价 |
 
 ## 1. 业务与链条角色
@@ -64,11 +68,11 @@
 
 | 维度 | 当前证据 | 链条读法 | 评分 |
 | --- | --- | --- | --- |
-| 收入 / 需求 | 2026Q1 收入 $2.444B、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；全年 AFFO/share 指引 $42.31-$43.11 | 确认链条信号是否进入报告数字 | A-/B+ |
+| 收入 / 需求 | 2026Q1 收入 $2.444B、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；全年 AFFO/share 指引 $42.31-$43.11；**Q3 2026（2026-10-28 发布）：收入 $2.571B（同比 +11% reported、+12% normalized and constant currency）、recurring revenue $2.442B（+10%）、营业利润 $600M（+27%）、调整后 EBITDA $1.321B（+15%）** | 确认链条信号是否进入报告数字 | A-/B+ |
 | 利润率 / 盈利 | 沿用原报告披露的报告期利润率、EPS、EBITDA、AFFO 或 FCF 口径 | 检验增长是有利润还是仅有规模 | B+ |
 | 现金流 / 资产负债表 | 债务、现金、FCF、AFFO、EBITDA 或回购背景保留自原报告披露 | 决定公司能否承受本轮周期 | B |
-| Backlog / bookings / RPO | MRR 同比 +12% reported / +10% normalized constant currency；Q1 annualized gross bookings $378M、annualized presales 约 $140M、largest deals 约 60% AI-related | 区分承诺需求和叙事需求 | B+ |
-| 估值容错率 | 当前价格锚点：$1,047.53（2026-07-30） | 高预期标的必须有更干净的兑现 | Caution |
+| Backlog / bookings / RPO | MRR 同比 +12% reported / +10% normalized constant currency；Q1 annualized gross bookings $378M、annualized presales 约 $140M、largest deals 约 60% AI-related；**Q3 2026（2026-10-28 发布）：annualized gross bookings 创纪录 $533M（同比 +35%；只计预计 90 天内开始产生收入的合同、不含合资企业）；据 10-Q，2026-09-30 remaining performance obligations 约 $15.9B；新闻稿与 10-Q 未给 presales 或 AI 相关交易占比** | 区分承诺需求和叙事需求 | B+ |
+| 历史估值口径：估值容错率 | 当前价格锚点：$1,047.53（2026-07-30） | 高预期标的必须有更干净的兑现 | Caution |
 
 ## 4. 管理层与口径校验
 
@@ -77,7 +81,7 @@
 | 检查项 | 当前处理 | 为什么重要 |
 | --- | --- | --- |
 | 公司披露 actuals | 报告期和财务数字保留自原报告 | 避免发明新季度 |
-| 市场数据 | 价格快照重新锚定为 $1,047.53，日期 2026-07-30 | 防止 stale valuation math |
+| 历史估值口径：市场数据 | 价格快照重新锚定为 $1,047.53，日期 2026-07-30 | 防止 stale valuation math |
 | 情景假设 | 用 AFFO/share、interconnection、xScale、power/capex 和 P/AFFO 倍数区间刻画预期 | 不是建议或目标价 |
 | 来源质量 | 公司公告、filing、issuer page 或已列 source 继续留在附录 | 保持审计线索 |
 
@@ -92,7 +96,7 @@
 | 需求穿透 | 补齐 datacenter-facility 层 DLR 对照组：EQIX 验证 AI 需求是否穿透到 interconnection、retail colocation、xScale JV 和 AFFO/share，而不只是 hyperscale leasing | 下一报告期继续确认同一方向 |
 | 财务转化 | 2026Q1 收入 $2.444B、营业利润 $577M、净利润 $415M、调整后 EBITDA $1.245B、AFFO/share $10.79；全年 AFFO/share 指引 $42.31-$43.11 | 收入转化为利润率、现金流或 backlog |
 | 交叉校验支持 | DLR, VRT, ORCL | 相邻报告同向移动 |
-| 估值韧性 | 互联收入、AI presales 和 xScale lease-up 支撑 AFFO/share 低十几位数以上增长 | 基本面继续验证，倍数不收缩 |
+| 历史估值口径：估值韧性 | 互联收入、AI presales 和 xScale lease-up 支撑 AFFO/share 低十几位数以上增长 | 基本面继续验证，倍数不收缩 |
 
 建设性情景不只是股价上涨，而是支持本公司的同一组数据也让整条链条 read-through 更紧。
 
@@ -102,10 +106,10 @@
 
 | 熊市驱动 | 风险证据 | thesis-breaking signal |
 | --- | --- | --- |
-| 预期风险 | 当前价格锚点 $1,047.53（2026-07-30） | 公司表现不错但已经无法超过内嵌预期 |
+| 历史估值口径：预期风险 | 当前价格锚点 $1,047.53（2026-07-30） | 公司表现不错但已经无法超过内嵌预期 |
 | 链条分化 | 相邻报告无法确认同一信号 | 瓶颈在其他 layer，或需求被提前拉动 |
 | 执行风险 | guidance、backlog 或产能转化放缓 | 报告证据停止支持该角色 |
-| 估值压缩 | AFFO/share 增长低于隐含要求，或 P/AFFO 从低二十倍向高十几倍收缩 | 长期故事未变但倍数先收缩 |
+| 历史估值口径：估值压缩 | AFFO/share 增长低于隐含要求，或 P/AFFO 从低二十倍向高十几倍收缩 | 长期故事未变但倍数先收缩 |
 
 偏空读法不否认公司质量，而是追问质量是否已经被资本化，以及本报告是否过度外推了现有证据。
 
@@ -131,13 +135,15 @@
 
 **情景网格：**
 
-| 情景 | 驱动假设（lease-up / interconnection / capex-debt / multiple） | 估值含义（贵 / 合理 / 便宜 vs 现价） | 概率权重 |
-| --- | --- | --- | --- |
-| 牛市情景 | AI-related largest deals 与 annualized presales 继续转为 commenced recurring revenue；interconnection revenue 和 507,000+ connections 的密度继续提高；xScale JV 扩容不过度扩大 VIE 风险；power/capex 成本可控，AFFO/share CAGR 达到中双位数；P/AFFO 维持低二十倍溢价 | 若互联溢价与 AI lease-up 同时兑现，当前价格可被 AFFO 增长消化，显得合理到略便宜 | 30% |
-| 基准情景 | MRR 维持高个位数到低十几位数增长；AI bookings/presales 正常开租但不再加速；xScale 提供容量期权但回报率需要继续观察；2026 non-recurring capex 约 $3.8B、利息成本和 power availability 抵消部分增长；P/AFFO 向约 20x 溢价倍数收敛 | 当前价格大致已经资本化基准情景：EQIX 质量高，但安全边际有限 | 40% |
-| 熊市情景 | AI presales 转化慢于预期，interconnection 或 MRR/cabinet yield 放缓；power、grid interconnect、供应链或 capex inflation 推迟容量；xScale JV 或利息成本压缩 AFFO/share 增长；P/AFFO 回到高十几倍 | 当前价格会显得偏贵；风险主要来自增长低于隐含要求与倍数收缩，而不是平台质量消失 | 30% |
+> **估值边界（2026-10-30，Mode A）：** 本节仍按 2026-07-30 基础；Q3 2026 实绩与 2026-10-28 上调的 FY2026 指引改变了输入，待 Mode B 重算。
 
-**已定价预期与预期差（2026-07-31 按 2026-07-30 收盘重新推导）：** 以 2026-07-30 收盘 $1,047.53、约 24.4x 上修后 2026 AFFO/share 指引中点计，如果 P/AFFO 溢价倍数三年内向约 20x 正常化、要求回报为 8%，反推倍数框架隐含 AFFO/share CAGR 约为 `(24.4 / 20)^(1/3) x 1.08 - 1`，即约 **15%**（旧锚点约 14%），而 Q2 实际兑现的 AFFO/share 增速为 +19%，高于该要求。我们的基准情景需要 MRR、AI presales、xScale lease-up 与 AFFO/share 共同维持低十几位数增长，和这个隐含要求接近但不明显高于它。因此 EQIX 是高质量、强平台，但在当前带日期价格下预期差大体均衡。*（本次 2026-07-30 监测增加 Q2 2026 经营证据——收入 $2.625B（+16%）、AFFO/share $11.78（+19%）、创纪录 9,700 净增 interconnections、gross bookings $424M（+23%）、FY2026 指引与长期展望上调——但**不**刷新 $1,002.02 股价、AFFO 估计、估值倍数、stance 或 conviction。上调后的 AFFO/share 指引（$42.69-43.29 vs 此前 $42.31-43.11）使 2026-07-02 价格对应倍数小幅下移，若据此前移估值框架需一次单独的、以当前价格为基准的估值复核；财报后单纯的股价变动不构成可记录信号。）*
+| 历史估值口径：情景 | 驱动假设（lease-up / interconnection / capex-debt / multiple） | 估值含义（贵 / 合理 / 便宜 vs 现价） | 概率权重 |
+| --- | --- | --- | --- |
+| 历史估值口径：牛市情景 | AI-related largest deals 与 annualized presales 继续转为 commenced recurring revenue；interconnection revenue 和 507,000+ connections 的密度继续提高；xScale JV 扩容不过度扩大 VIE 风险；power/capex 成本可控，AFFO/share CAGR 达到中双位数；P/AFFO 维持低二十倍溢价 | 若互联溢价与 AI lease-up 同时兑现，当前价格可被 AFFO 增长消化，显得合理到略便宜 | 30% |
+| 历史估值口径：基准情景 | MRR 维持高个位数到低十几位数增长；AI bookings/presales 正常开租但不再加速；xScale 提供容量期权但回报率需要继续观察；2026 non-recurring capex 约 $3.8B、利息成本和 power availability 抵消部分增长；P/AFFO 向约 20x 溢价倍数收敛 | 当前价格大致已经资本化基准情景：EQIX 质量高，但安全边际有限 | 40% |
+| 历史估值口径：熊市情景 | AI presales 转化慢于预期，interconnection 或 MRR/cabinet yield 放缓；power、grid interconnect、供应链或 capex inflation 推迟容量；xScale JV 或利息成本压缩 AFFO/share 增长；P/AFFO 回到高十几倍 | 当前价格会显得偏贵；风险主要来自增长低于隐含要求与倍数收缩，而不是平台质量消失 | 30% |
+
+历史估值口径：**已定价预期与预期差（2026-07-31 按 2026-07-30 收盘重新推导）：** 以 2026-07-30 收盘 $1,047.53、约 24.4x 上修后 2026 AFFO/share 指引中点计，如果 P/AFFO 溢价倍数三年内向约 20x 正常化、要求回报为 8%，反推倍数框架隐含 AFFO/share CAGR 约为 `(24.4 / 20)^(1/3) x 1.08 - 1`，即约 **15%**（旧锚点约 14%），而 Q2 实际兑现的 AFFO/share 增速为 +19%，高于该要求。我们的基准情景需要 MRR、AI presales、xScale lease-up 与 AFFO/share 共同维持低十几位数增长，和这个隐含要求接近但不明显高于它。因此 EQIX 是高质量、强平台，但在当前带日期价格下预期差大体均衡。*（本次 2026-07-30 监测增加 Q2 2026 经营证据——收入 $2.625B（+16%）、AFFO/share $11.78（+19%）、创纪录 9,700 净增 interconnections、gross bookings $424M（+23%）、FY2026 指引与长期展望上调——但**不**刷新 $1,002.02 股价、AFFO 估计、估值倍数、stance 或 conviction。上调后的 AFFO/share 指引（$42.69-43.29 vs 此前 $42.31-43.11）使 2026-07-02 价格对应倍数小幅下移，若据此前移估值框架需一次单独的、以当前价格为基准的估值复核；财报后单纯的股价变动不构成可记录信号。）*
 
 关键估值问题是：下一组证据能否让 AFFO/share 与平台密度增长快于市场给的 P/AFFO 溢价要求。
 
@@ -145,11 +151,11 @@
 
 | 监测项 | 最新读数 | 触发器 | 下次检查 |
 | --- | --- | --- | --- |
-| Interconnection revenue 与平台密度 | ~~Q1 interconnection revenue $446M；2025 年末 507,000+ interconnections~~ **Q2 2026 新增 interconnections 创纪录 9,700 个（Q1 interconnection revenue $446M、2025 年末 507,000+ 为上次收入/存量口径）** | interconnection revenue 和 total interconnections 继续增长，验证 AI/云/网络 proximity moat | 2026-Q3 interconnection revenue and platform metrics |
-| AI bookings 与 annualized presales | ~~Q1 annualized gross bookings $378M、presales 约 $140M、largest deals 约 60% AI-related~~ **Q2 2026 annualized gross bookings $424M（+23% Y/Y）；presales 约 $140M、largest deals 约 60% AI-related 为 Q1 口径** | AI-related largest deals 维持高位并转化为 commenced recurring revenue | 2026-Q3 bookings and presales |
-| xScale JV capacity 与经济性 | Q1 xScale JV equity investments $678M；Hampton campus $459M consideration 转入 AMER 3 JV | Hampton / AMER 3 与其他 xScale JVs 增加容量，同时不过度扩大 VIE 风险暴露 | xScale JV disclosures and capacity updates |
-| MRR / cabinet yield proxy | ~~MRR 同比 +12% reported；2025 增加 23,250 个 retail cabinets~~ **Q2 2026 MRR 同比 +11%（reported 与 normalized constant currency 一致）；recurring revenue $2.377B** | MRR 增长高于或匹配 cabinet additions 与 utilization，避免只扩 footprint 不扩收益 | MRR, cabinet and utilization disclosures |
-| 电力可得性与 capex 约束 | 2026 non-recurring capex 指引约 $3.8B（不含 xScale/land），power 与 supply chain 为明确风险 | power、grid interconnect、供应链或 capex inflation 推迟 capacity 或压缩 returns | capex, power and project timing updates |
+| Interconnection revenue 与平台密度 | ~~Q1 interconnection revenue $446M；2025 年末 507,000+ interconnections~~ **Q2 2026 新增 interconnections 创纪录 9,700 个（Q1 interconnection revenue $446M、2025 年末 507,000+ 为上次收入/存量口径）**；**Q3 2026（2026-10-28 发布）：interconnection revenue $465M（Q3 2025 为 $422M，同比 +10%，reported 与 normalized constant currency 一致；Q2 2026 为 $453M）；Fabric revenue +24%；净增 interconnections 6,900 个** | interconnection revenue 和 total interconnections 继续增长，验证 AI/云/网络 proximity moat | 2026-Q3 interconnection revenue and platform metrics |
+| AI bookings 与 annualized presales | ~~Q1 annualized gross bookings $378M、presales 约 $140M、largest deals 约 60% AI-related~~ **Q2 2026 annualized gross bookings $424M（+23% Y/Y）；presales 约 $140M、largest deals 约 60% AI-related 为 Q1 口径**；**Q3 2026（2026-10-28 发布）：annualized gross bookings 创纪录 $533M（同比 +35%；前九个月 $1.3B、+23%）；新闻稿与 10-Q 未给 presales 金额或 AI 相关交易占比** | AI-related largest deals 维持高位并转化为 commenced recurring revenue | 2026-Q3 bookings and presales |
+| xScale JV capacity 与经济性 | Q1 xScale JV equity investments $678M；Hampton campus $459M consideration 转入 AMER 3 JV；**Q3 2026（2026-10-28 发布）：新闻稿及所读 10-Q 章节（权益法投资附注、MD&A）中未见 xScale 产能或 lease-up 数据** | Hampton / AMER 3 与其他 xScale JVs 增加容量，同时不过度扩大 VIE 风险暴露 | xScale JV disclosures and capacity updates |
+| MRR / cabinet yield proxy | ~~MRR 同比 +12% reported；2025 增加 23,250 个 retail cabinets~~ **Q2 2026 MRR 同比 +11%（reported 与 normalized constant currency 一致）；recurring revenue $2.377B**；**Q3 2026（2026-10-28 发布）：recurring revenue $2.442B（同比 +10%，reported 与 constant currency 一致）；新闻稿称 MRR 同比双位数增长；cabinet utilization 在 2026-09-30 与 2025-09-30 均约 78%；所读文件未披露计费 cabinet 增量** | MRR 增长高于或匹配 cabinet additions 与 utilization，避免只扩 footprint 不扩收益 | MRR, cabinet and utilization disclosures |
+| 电力可得性与 capex 约束 | 2026 non-recurring capex 指引约 $3.8B（不含 xScale/land），power 与 supply chain 为明确风险；**Q3 2026（2026-10-28 发布）：Q3 capex $1,558M（Q3 2025 为 $1,136M）；FY2026 总 capex 指引 $5–6B 与 non-recurring capex 指引 $4,710–5,690M 不变；新闻稿称 2026 年计划交付 cabinets 比最初预期多近 40%；10-Q 仍称多数都会区存在审批延迟、电价上涨推高 utilities 费用** | power、grid interconnect、供应链或 capex inflation 推迟 capacity 或压缩 returns | capex, power and project timing updates |
 
 未来 rerun 应由这些项目触发。只有当 monitoring update 改变链条 read-through 或估值容错率时，报告才需要实质更新。
 
@@ -164,19 +170,21 @@
 
 Equinix 仍是 数据中心设施 层的互联溢价仪表盘。它的链条验证任务，是判断 AI/云需求是否不仅进入 hyperscale shell leasing，也进入 Platform Equinix 的 interconnection、retail colocation、xScale JV 和 AFFO/share。如果 interconnection revenue、AI bookings/presales 与 MRR/cabinet yield 同向改善，上游 AI capex 更像真实需求；如果这些读数分化，设施层需求就更可能只是局部租赁热度。
 
-预期差大体均衡：以 2026-07-30 收盘 $1,047.53、约 24.4x 上修后 2026 AFFO/share 指引中点计，市场大致要求 AFFO/share 未来三年约 15% CAGR，同时维持 interconnection 与 xScale 溢价；我们的 30% 牛市 / 40% 基准 / 30% 熊市情景与此接近，且 Q2 实际 +19% 已越过该门槛。
+历史估值口径：预期差大体均衡：以 2026-07-30 收盘 $1,047.53、约 24.4x 上修后 2026 AFFO/share 指引中点计，市场大致要求 AFFO/share 未来三年约 15% CAGR，同时维持 interconnection 与 xScale 溢价；我们的 30% 牛市 / 40% 基准 / 30% 熊市情景与此接近，且 Q2 实际 +19% 已越过该门槛。
 
-当前 stance 是 **中性观察，中确信**。中性不是回避判断，而是情景网格显示平台质量和估值要求暂时匹配；中确信来自 EQIX 的披露质量、互联平台韧性和 REIT/AFFO 口径可验证性，但 power availability、capex inflation、利息成本和 xScale JV 经济性仍会限制上行偏斜。
+历史估值口径：当前 stance 是 **中性观察，中确信**。中性不是回避判断，而是情景网格显示平台质量和估值要求暂时匹配；中确信来自 EQIX 的披露质量、互联平台韧性和 REIT/AFFO 口径可验证性，但 power availability、capex inflation、利息成本和 xScale JV 经济性仍会限制上行偏斜。
 
-升级触发条件：如果 Q2/Q3 interconnection revenue、AI-related bookings/presales 与 xScale lease-up 同时加速，AFFO/share 路径明确高于约 14% 隐含 CAGR，且 power/capex 成本没有压缩 returns，则上调至 constructive。降级触发条件：如果 interconnection revenue 或 MRR/cabinet yield 放缓，AI presales 难以转为 commenced recurring revenue，或 power、capex、利息成本与 xScale VIE 风险使 AFFO/share 增长低于隐含要求，则下调至 cautious。
+历史估值口径：升级触发条件：如果 Q2/Q3 interconnection revenue、AI-related bookings/presales 与 xScale lease-up 同时加速，AFFO/share 路径明确高于约 14% 隐含 CAGR，且 power/capex 成本没有压缩 returns，则上调至 constructive。降级触发条件：如果 interconnection revenue 或 MRR/cabinet yield 放缓，AI presales 难以转为 commenced recurring revenue，或 power、capex、利息成本与 xScale VIE 风险使 AFFO/share 增长低于隐含要求，则下调至 cautious。
 
 ## 附录：来源与假设
 
 | Equinix Q2 2026 results (newsroom) | https://newsroom.equinix.com/2026-07-29-Equinix-Reports-Second-Quarter-Results,-Raises-2026-Guidance-and-Long-Term-Outlook | 2026-07-29 发布，季度截至 2026-06-30：revenue $2.625B、recurring revenue、AFFO/share、MRR、record net interconnections、annualized gross bookings 与上调后的 FY2026 指引/长期展望 |
 | Equinix 2026Q1 10-Q | https://www.sec.gov/Archives/edgar/data/1101239/000110123926000091/eqix-20260331.htm | revenue、operating income、net income、interconnection revenue、capex 与 segment tables |
+| Equinix Q3 2026 earnings release (8-K Ex 99.1) | https://www.sec.gov/Archives/edgar/data/1101239/000110123926000178/a991eqix-q326xpr.htm | 2026-10-28 提交，季度截至 2026-09-30：收入、recurring revenue、营业利润、调整后 EBITDA、分区域 interconnection revenue、Fabric 增速、净增 interconnections、annualized gross bookings 与 FY2026 指引 |
+| Equinix 2026Q3 10-Q | https://www.sec.gov/Archives/edgar/data/1101239/000110123926000180/eqix-20260930.htm | 2026-10-28 提交：Annualized Gross Bookings 定义、cabinet utilization、remaining performance obligations、分部 capex、审批与电力风险表述 |
 | Equinix Q1 2026 earnings release | https://www.sec.gov/Archives/edgar/data/1101239/000110123926000089/eqix-q126xpr.htm | adjusted EBITDA、AFFO/share、MRR growth、bookings、presales、AI-related largest-deal mix 与 guidance |
 | Equity Method Investments / VIE note | https://www.sec.gov/Archives/edgar/data/1101239/000110123926000091/R10.htm | xScale JV investment balances、Hampton transaction value 与 VIE exposure |
 | Equinix 2025 annual report | https://www.sec.gov/Archives/edgar/data/1101239/000110123926000075/EQIXAnnualRpt2025PRINT.pdf | 280 个数据中心、10,500+ 客户、507,000+ interconnections、MRR 与 cabinet context |
 
 - 2026-07-06 深度升级保留原先已核验事实基础，并补齐结构、表格、同行比较和 monitoring parity。
-- 2026-07-07 v5 情景网格与已定价预期段落使用同一个 2026-07-02 价格台账锚点。反推 P/AFFO 只用于说明市场隐含预期，不是目标价。
+- 历史估值口径：2026-07-07 v5 情景网格与已定价预期段落使用同一个 2026-07-02 价格台账锚点。反推 P/AFFO 只用于说明市场隐含预期，不是目标价。

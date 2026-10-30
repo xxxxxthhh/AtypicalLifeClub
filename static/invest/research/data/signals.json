@@ -3232,5 +3232,33 @@
       "vertiv-2026:orders-backlog-cadence",
       "vertiv-2026:ai-capex-digestion"
     ]
+  },
+  {
+    "id": "equinix-q3-2026-results-20261028",
+    "date": "2026-10-28",
+    "title": {
+      "zh": "Equinix Q3 2026 interconnection revenue $465M（+10%）、annualized gross bookings 创纪录 $533M（+35%）；FY2026 收入指引上调至 $10.325–10.365B",
+      "en": "Equinix Q3 2026 interconnection revenue $465M (+10%) and record annualized gross bookings of $533M (+35%); FY2026 revenue guide raised to $10.325–10.365B"
+    },
+    "detail": {
+      "zh": "来源：2026-10-28 8-K Item 2.02 Ex 99.1 与同日 10-Q。Q3 2026（季度截至 2026-09-30；8-K Ex 99.1 与 10-Q 于 2026-10-28 提交）收入 $2.571B（同比 +11% reported、+12% normalized and constant currency），recurring revenue $2.442B（据 10-Q 同比 +10%，reported 与 constant currency 一致），营业利润 $600M（+27%），调整后 EBITDA $1.321B（+15% reported、+14% normalized and constant currency）。全球 interconnection revenue $465M（Q3 2025 为 $422M；据新闻稿 reported 与 normalized constant currency 均 +10%），Fabric revenue 增长 24%，本季净增 interconnections 6,900 个（Q2 2026 为 9,700 个）。Annualized gross bookings 创纪录 $533M（同比 +35%；前九个月 $1.3B、+23%）；据 10-Q，该指标只计入预计 90 天内开始产生收入的合同，且不含合资企业的 recurring revenue。2026-09-30 cabinet utilization 约 78%，与 2025-09-30 持平。Q3 资本开支 $1,558M（Q3 2025 为 $1,136M）；新闻稿称 2026 年计划交付的 cabinets 比最初预期多近 40%。FY2026 指引（新闻稿称为连续第三个季度上调）：收入 $10.325–10.365B（约 +12%）、调整后 EBITDA $5.290–5.330B（利润率约 51%）、总 capex $5–6B；仅作为指引事实记录，不作为新的估值分母。所读文件未给出 AI 相关交易占比、presales 金额、计费 cabinet 增量或 xScale 产能数据，因此 AI bookings、MRR/cabinet yield、xScale 与 power/capex 读数仍为 unclear；电话会与投资者演示本轮未读。 估值仍按 2026-07-30 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。 https://www.sec.gov/Archives/edgar/data/1101239/000110123926000178/a991eqix-q326xpr.htm https://www.sec.gov/Archives/edgar/data/1101239/000110123926000180/eqix-20260930.htm",
+      "en": "Sources: 8-K Item 2.02 Ex 99.1 and the 10-Q, both filed 2026-10-28. Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1 and 10-Q filed 2026-10-28) revenue was $2.571B (+11% YoY as reported, +12% normalized and constant currency), recurring revenue $2.442B (+10% YoY as reported and in constant currency per the 10-Q), income from operations $600M (+27%) and adjusted EBITDA $1.321B (+15% as reported, +14% normalized and constant currency). Worldwide interconnection revenue was $465M (Q3 2025: $422M; +10% on both as-reported and normalized constant-currency bases per the release), Fabric revenue grew 24%, and the quarter added 6,900 net interconnections (Q2 2026: 9,700). Annualized gross bookings were a record $533M (+35% YoY; nine months $1.3B, +23%); per the 10-Q this measure only includes contracts expected to start generating revenue within 90 days and excludes joint-venture recurring revenue. Cabinet utilization was approximately 78% at 2026-09-30, the same as at 2025-09-30. Q3 capital expenditures were $1,558M (Q3 2025: $1,136M), and the release says nearly 40% more cabinets are planned for delivery in 2026 than initially anticipated. FY2026 guidance (raised for the third consecutive quarter per the release): revenue $10.325–10.365B (~12%), adjusted EBITDA $5.290–5.330B (~51% margin), total capex $5–6B; recorded as guidance, not as a new valuation denominator. The documents read give no AI-related share of deals, no presales figure, no billed-cabinet additions and no xScale capacity figures, so the AI-bookings, MRR/cabinet-yield, xScale and power/capex readings remain unclear; the earnings call and investor presentation were not read. Valuation remains anchored to the historical 2026-07-30 basis; new actuals/guidance await Mode B. Price, valuation numbers, stance and conviction are unchanged. https://www.sec.gov/Archives/edgar/data/1101239/000110123926000178/a991eqix-q326xpr.htm https://www.sec.gov/Archives/edgar/data/1101239/000110123926000180/eqix-20260930.htm"
+    },
+    "crossChecks": [
+      "facility-interconnection-leasing"
+    ],
+    "tickers": [
+      "EQIX"
+    ],
+    "reportIds": [
+      "eqix-2026"
+    ],
+    "monitoringRefs": [
+      "eqix-2026:interconnection-revenue-density",
+      "eqix-2026:ai-bookings-presales",
+      "eqix-2026:xscale-jv-economics",
+      "eqix-2026:mrr-cabinet-yield",
+      "eqix-2026:power-capex-availability"
+    ]
   }
 ]
