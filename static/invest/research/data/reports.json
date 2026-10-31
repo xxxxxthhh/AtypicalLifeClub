@@ -6064,7 +6064,7 @@
     "ticker": "NYSE: SPOT",
     "title": "Spotify 深度研究报告 - 全球音频科技平台的盈利转型与估值再评估",
     "titleEn": "Spotify Deep Research Report - The Global Audio Tech Platform's Profitability Transformation and Valuation Reassessment",
-    "summary": "2026-10-02 立场补录与重锚（Q2 2026 证据层）：Q2 营收€4.777B（+14%，恒定汇率+15%）、毛利率33.4%、营业利润€655M、FCF€797M、Premium 3.00亿、MAU 7.77亿。按2026-10-01收盘$491.40及ECB EUR/USD 1.1298，市值$101,024.1M、企业价值€80,495.7M，对应TTM营业利润30.3倍、TTM报告净利26.8倍（正常化约41.0倍）、FY2026一致预期EPS 35.5倍（第三方）、FCF收益率3.65%。30/40/30情景网格加权每股$643.53、至2028年底年化+12.7%，高于8%门槛；但退出倍数下调4倍即降至+5.1%，重算DCF基准$431.92低于股价。立场 constructive / 确信度 low。Q3业绩2026-10-22盘前发布。",
+    "summary": "2026-10-31 Mode B 重锚（Q3 2026 证据层）：Q3 营收€4,969M（+16%，恒定汇率+14%）、毛利率33.0%、营业利润€672M、FCF€735M，MAU 7.88亿、Premium 3.06亿，均符合或高于指引；Q4指引营业利润€820M；LTM FCF降至€3,190M。按2026-10-30收盘$593.44及ECB 1.1172，市值$121,967.0M、企业价值€99,736.1M，对应TTM营业利润36.4倍，触发已发布的35倍下调腿；重建的30/40/30网格加权每股$631.73、至2028年底年化+2.9%，低于8%门槛，DCF基准$422.10。立场由constructive下调为neutral-watch / 确信度low。下一节点为Q4 2026业绩（预计2027年2月，公司未确认）。",
     "tags": [
       "流媒体",
       "音频平台",
@@ -6073,7 +6073,7 @@
     ],
     "category": "tech",
     "date": "2026-02-10",
-    "lastUpdate": "2026-10-02",
+    "lastUpdate": "2026-10-31",
     "coverageTier": "full",
     "file": "/invest/research/reports/view.html?id=spotify-2026",
     "markdownFiles": {
@@ -6081,17 +6081,17 @@
       "en": "/invest/research/Spotify_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "立场补录：constructive / low（2026-10-02，锚定2026-10-01收盘$491.40、ECB 1.1298）",
-      "市值$101,024.1M、EV €80,495.7M；TTM营业利润30.3倍、报告P/E 26.8倍（正常化约41.0倍）、FCF收益率3.65%",
-      "30/40/30网格：牛市$903.68 / 基准$663.00 / 熊市$357.42，加权$643.53、年化+12.7%；退出倍数-4倍降至+5.1%",
-      "Q2 2026：营收€4.777B、毛利率33.4%、营业利润€655M、FCF€797M；Q3指引MAU 7.88亿、Premium 3.05亿、营收€5.0B、营业利润€670M",
-      "Q3 2026业绩定于2026-10-22盘前；2026-08-20回购授权增额15亿美元，总授权约22.23亿美元"
+      "立场下调：neutral-watch / low（2026-10-31，锚定2026-10-30收盘$593.44、ECB 1.1172）",
+      "市值$121,967.0M、EV €99,736.1M；TTM营业利润36.4倍（35倍下调腿触发）、报告P/E 36.9倍（正常化约48.5倍）、FCF收益率2.92%",
+      "重建30/40/30网格：牛市$886.76 / 基准$651.05 / 熊市$350.95，加权$631.73、年化+2.9%；约$535.26时回到8%",
+      "Q3 2026：营收€4,969M、毛利率33.0%、营业利润€672M、FCF€735M；Q4指引MAU 8.18亿、Premium 3.16亿、营收€5.2B、营业利润€820M",
+      "LTM FCF €3,190M低于「约€3.3B」监测阈值；2026年回购截至10-21约11亿美元，09-30剩余授权约18.8亿美元"
     ],
-    "summaryEn": "Stance backfill and re-anchor on 2026-10-02 (Q2 2026 evidence layer): Q2 revenue €4.777B (+14%, +15% FX-neutral), gross margin 33.4%, operating income €655M, FCF €797M, Premium 300M, MAUs 777M. At the 2026-10-01 close of $491.40 and ECB EUR/USD 1.1298, market cap is $101,024.1M and enterprise value €80,495.7M: 30.3x TTM operating income, 26.8x TTM reported net income (about 41.0x normalized), 35.5x third-party FY2026 consensus EPS, and a 3.65% FCF yield. A 30/40/30 scenario grid weights to $643.53 per share, +12.7% annualized to end-2028, above the 8% hurdle; but four turns of exit-multiple compression take it to +5.1%, and the rebuilt DCF base of $431.92 sits below the price. Stance constructive / conviction low. Q3 results are due 2026-10-22 before market open.",
+    "summaryEn": "Mode B re-anchor on 2026-10-31 (Q3 2026 evidence layer): Q3 revenue €4,969M (+16%, +14% FX-neutral), gross margin 33.0%, operating income €672M, FCF €735M, 788M MAUs and 306M Premium subscribers, all in line with or above guidance; the Q4 operating-income guide is €820M; LTM FCF slipped to €3,190M. At the 2026-10-30 close of $593.44 and ECB 1.1172, market cap is $121,967.0M and enterprise value €99,736.1M, 36.4x TTM operating income, which trips the published 35x downgrade leg; the rebuilt 30/40/30 grid weights to $631.73 per share, +2.9% annualized to end-2028, below the 8% hurdle, with a DCF base of $422.10. Stance moves from constructive to neutral-watch / conviction low. The next node is the Q4 2026 results (estimated February 2027, not issuer-confirmed).",
     "period": "2026H1",
     "versionType": "incremental",
-    "versionLabel": "2026H1 Q2 Incremental Update",
-    "reportedPeriod": "Q2 2026",
+    "versionLabel": "2026H1 Q3 Incremental Update (Mode B re-anchor)",
+    "reportedPeriod": "Q3 2026",
     "monitoring": [
       {
         "id": "q3-user-revenue-guide",
@@ -6106,13 +6106,13 @@
           "en": "MAUs fall below 788M, Premium subscribers below 305M, or revenue materially below €5.0B"
         },
         "latest": {
-          "zh": "Q2 MAU 7.77亿，比指引少100万；Premium 3.00亿，比指引多100万；营收€4.777B，按公司四舍五入口径符合€4.8B指引。Q3 €5.0B 指引以 Q2 末 USD:EUR 0.8756（约 1 欧元兑 1.142 美元）为假设；2026-10-01 ECB 汇率 1.1298 意味着欧元更弱，对以欧元报告的营收是折算顺风",
-          "en": "Q2 MAUs were 777M, 1M below guidance; Premium subscribers were 300M, 1M above; revenue was €4.777B, in line with the company's rounded €4.8B guide. The €5.0B Q3 guide assumed USD:EUR 0.8756 at Q2 close (about 1.142 USD per EUR); the ECB rate of 1.1298 on 2026-10-01 means a weaker euro, a translation tailwind for euro-reported revenue"
+          "zh": "Q3 2026（2026-10-22 6-K 附件 99.1）：MAU 7.88 亿（不低于 7.88 亿）；Premium 3.06 亿（高于 3.05 亿）；营收 €4,969M，比 €5.0B 少 €31M（0.6%），公司按四舍五入称符合，不构成「显著低于」。下一期参照：Q4 指引 MAU 8.18 亿、Premium 3.16 亿、营收 €5.2B",
+          "en": "Q3 2026 (2026-10-22 6-K Exhibit 99.1): MAUs 788M (not below 788M); Premium subscribers 306M (above 305M); revenue €4,969M, €31M (0.6%) short of €5.0B, which the company calls in line on rounding — not materially below. Next reference: the Q4 guide of 818M MAUs, 316M Premium subscribers and €5.2B revenue"
         },
-        "nextCheck": "Q3 2026 财报（2026-10-22 盘前，公司已确认） / Q3 2026 results (2026-10-22 before market open, issuer-confirmed)",
-        "nextCheckDate": "2026-10",
-        "reading": "unclear",
-        "readingAsOf": "2026-08-04"
+        "nextCheck": "Q4 2026 财报（预计 2027-02，月度估计，公司未确认） / Q4 2026 results (estimated February 2027, month-level, not issuer-confirmed)",
+        "nextCheckDate": "2027-02",
+        "reading": "within",
+        "readingAsOf": "2026-10-22"
       },
       {
         "id": "q3-margin-cash-flow",
@@ -6127,13 +6127,14 @@
           "en": "gross margin falls below 31.5%, Q3 operating income materially misses €670M, or LTM FCF falls below about €3.3B"
         },
         "latest": {
-          "zh": "Q2毛利率33.4%、营业利润€655M、FCF€797M，LTM FCF为€3.261B（公司四舍五入为 €3.3B）；Q3指引毛利率32.9%、营业利润€670M",
-          "en": "Q2 gross margin was 33.4%, operating income €655M, FCF €797M, and LTM FCF €3.261B (the company rounds it to €3.3B); Q3 guidance is 32.9% gross margin and €670M operating income"
+          "zh": "Q3 2026（2026-10-22 6-K 附件 99.1）：毛利率 33.0%、营业利润 €672M（均未触发）；LTM FCF €3,190M（公司称 €3.2B）。边界裁定：「约 €3.3B」按四舍五入为 €3.3B 的下限 €3,250M 理解，€3,190M 低 €60M，FCF 腿字面成立；触发条件为析取式。原因：Q3 FCF €735M（上年同期 €806M），实付所得税 €75M（上年同期 €5M）及营运资本占用",
+          "en": "Q3 2026 (2026-10-22 6-K Exhibit 99.1): gross margin 33.0% and operating income €672M (neither triggered); LTM FCF €3,190M (company: €3.2B). Boundary ruling: \"about €3.3B\" is read as €3,250M, the floor of what rounds to €3.3B; €3,190M is €60M below it, so the FCF leg is literally met; the trigger is disjunctive. Cause: Q3 FCF of €735M (€806M a year earlier), with €75M of income tax paid (€5M a year earlier) and working-capital absorption"
         },
-        "nextCheck": "Q3 2026 财报（2026-10-22 盘前，公司已确认） / Q3 2026 results (2026-10-22 before market open, issuer-confirmed)",
-        "nextCheckDate": "2026-10",
-        "reading": "within",
-        "readingAsOf": "2026-08-04"
+        "nextCheck": "Q4 2026 财报（预计 2027-02，月度估计，公司未确认） / Q4 2026 results (estimated February 2027, month-level, not issuer-confirmed)",
+        "nextCheckDate": "2027-02",
+        "reading": "breached",
+        "readingAsOf": "2026-10-22",
+        "readingNote": "LTM FCF 腿按 €3,250M 四舍五入下限字面判定成立；毛利率与营业利润腿未触发。该项不是立场下调腿。 / The LTM FCF leg is literally met against the €3,250M rounding floor; the gross-margin and operating-income legs are not triggered. This item is not a stance downgrade leg."
       },
       {
         "id": "ad-supported-reacceleration",
@@ -6148,13 +6149,14 @@
           "en": "H2 Ad-Supported revenue returns to double-digit FX-neutral growth while sustaining positive gross-margin progress"
         },
         "latest": {
-          "zh": "Q2广告支持收入€446M，同比+1%、恒定汇率+3%；毛利率19.1%，同比提高179bps",
-          "en": "Q2 Ad-Supported revenue was €446M, +1% Y/Y and +3% FX-neutral; gross margin was 19.1%, up 179 bps Y/Y"
+          "zh": "Q3 2026（2026-10-22 6-K 附件 99.1）：广告支持收入 €482M，同比 +10%、恒定汇率 +9%（报告口径双位数含汇率帮助）；毛利率 18.7%，同比 +105bps。按 H2 整体判定、在 H2 合计出现前以已披露 H2 季度为准：唯一的 H2 季度恒定汇率 +9%，低于双位数（较 Q2 的 +3% 明显改善）",
+          "en": "Q3 2026 (2026-10-22 6-K Exhibit 99.1): Ad-Supported revenue €482M, +10% Y/Y and +9% FX-neutral (the reported double digit is FX-assisted); gross margin 18.7%, up 105 bps Y/Y. Graded on H2 as a whole, using the H2 quarters disclosed so far until the H2 aggregate exists: the only H2 quarter grew 9% FX-neutral, below double digits (a clear improvement from +3% in Q2)"
         },
-        "nextCheck": "Q3 2026 分部业绩（2026-10-22 盘前，公司已确认） / Q3 2026 segment results (2026-10-22 before market open, issuer-confirmed)",
-        "nextCheckDate": "2026-10",
+        "nextCheck": "Q4 2026 分部业绩（预计 2027-02，公司未确认） / Q4 2026 segment results (estimated February 2027, not issuer-confirmed)",
+        "nextCheckDate": "2027-02",
         "reading": "breached",
-        "readingAsOf": "2026-08-04"
+        "readingAsOf": "2026-10-22",
+        "readingNote": "毛利率腿满足；恒定汇率增速腿未达双位数。若 Q4 使 H2 合计恒定汇率增速达到 10% 以上则改判。 / The gross-margin leg is met; the FX-neutral growth leg is short of double digits. It flips if Q4 lifts H2 aggregate FX-neutral growth to 10% or more."
       },
       {
         "id": "q4-operating-income-guide",
@@ -6169,11 +6171,13 @@
           "en": "Q4 2026 operating-income guidance below €750M (the grid assumes about €820M)"
         },
         "latest": {
-          "zh": "Q4 2025 营业利润 €701M；网格 FY2026E 营业利润 €2,860M 假设 Q4 2026 约 €820M（同比 +17%）。Q4 指引将随 Q3 业绩发布",
-          "en": "Q4 2025 operating income was €701M; the grid's FY2026E operating income of €2,860M assumes Q4 2026 at about €820M (+17% y/y). Q4 guidance is due with the Q3 results"
+          "zh": "2026-10-22 发布的 Q4 2026 营业利润指引为 €820M（含 €6M 社保费用），等于网格假设、高于 €750M；同时低于旧上调腿的 €850M。下一期：Q4 实际对照 €820M（下调腿为低于 €770M）",
+          "en": "The Q4 2026 operating-income guide issued on 2026-10-22 is €820M (including €6M of social charges), equal to the grid assumption and above €750M; it is also below the old €850M upgrade leg. Next: Q4 actual against €820M (the downgrade leg is below €770M)"
         },
-        "nextCheck": "Q3 2026 财报及 Q4 展望（2026-10-22 盘前） / Q3 2026 results and Q4 outlook (2026-10-22 before market open)",
-        "nextCheckDate": "2026-10"
+        "nextCheck": "Q4 2026 实际业绩（预计 2027-02，公司未确认） / Q4 2026 actual results (estimated February 2027, not issuer-confirmed)",
+        "nextCheckDate": "2027-02",
+        "reading": "within",
+        "readingAsOf": "2026-10-22"
       },
       {
         "id": "premium-pricing-churn",
@@ -6188,11 +6192,13 @@
           "en": "Premium net additions below 2M for two consecutive quarters, or FX-neutral Premium ARPU growth turns negative year over year"
         },
         "latest": {
-          "zh": "净增 Q3 2025 +500 万、Q4 2025 +900 万、Q1 2026 +300 万、Q2 2026 +700 万；Q2 Premium ARPU €4.89，同比 +7%（恒定汇率 +7.4%），由提价驱动，部分被产品与市场组合抵消",
-          "en": "Net additions were +5M in Q3 2025, +9M in Q4 2025, +3M in Q1 2026 and +7M in Q2 2026; Q2 Premium ARPU was €4.89, +7% y/y (+7.4% FX-neutral), driven by price increases and partly offset by product and market mix"
+          "zh": "Premium 净增 Q2 2026 +700 万、Q3 2026 +600 万（Q4 指引约 +1,000 万）；Q3 Premium ARPU €4.95，同比 +9.3%（恒定汇率 +7.5%），剔除汇率后由提价驱动、部分被产品与市场组合抵消（2026-10-22 6-K 附件 99.1）",
+          "en": "Premium net additions were +7M in Q2 2026 and +6M in Q3 2026 (Q4 guide about +10M); Q3 Premium ARPU was €4.95, +9.3% Y/Y (+7.5% FX-neutral), driven excluding FX by price increases partly offset by product and market mix (2026-10-22 6-K Exhibit 99.1)"
         },
-        "nextCheck": "Q3 2026 财报（2026-10-22 盘前，公司已确认） / Q3 2026 results (2026-10-22 before market open, issuer-confirmed)",
-        "nextCheckDate": "2026-10"
+        "nextCheck": "Q4 2026 财报（预计 2027-02，月度估计，公司未确认） / Q4 2026 results (estimated February 2027, month-level, not issuer-confirmed)",
+        "nextCheckDate": "2027-02",
+        "reading": "within",
+        "readingAsOf": "2026-10-22"
       },
       {
         "id": "valuation-exit-multiple",
@@ -6207,40 +6213,43 @@
           "en": "Above 35x (the grid's highest exit multiple is 28x), or below 22x without a cut to guidance"
         },
         "latest": {
-          "zh": "2026-10-01 收盘价 $491.40 下为 30.3 倍（EV €80,495.7M / TTM 营业利润 €2,653M，ECB 1.1298）。在 TTM 营业利润与净现金不变时，35 倍约对应 $559，22 倍约对应 $370",
-          "en": "30.3x at the 2026-10-01 close of $491.40 (EV €80,495.7M / TTM operating income €2,653M, ECB 1.1298). On unchanged TTM operating income and net cash, 35x corresponds to about $559 and 22x to about $370"
+          "zh": "2026-10-30 收盘价 $593.44 下为 36.4 倍（EV €99,736.1M / TTM 营业利润 €2,743M，ECB 1.1172）；10-22 收盘 $583.66（ECB 1.1205）时为 35.589 倍，首次越过 35 倍（每日复核人独立核验）。当前 TTM 与净现金下，35 倍约对应 $573.16，22 倍约对应 $379.32。已在 2026-10-31 立场重裁中处理（下调至 neutral-watch）",
+          "en": "36.4x at the 2026-10-30 close of $593.44 (EV €99,736.1M / TTM operating income €2,743M, ECB 1.1172); 35.589x at the 10-22 close of $583.66 (ECB 1.1205), the first close above 35x (independently verified by the daily reviewer). At current TTM and net cash, 35x corresponds to about $573.16 and 22x to about $379.32. Handled in the 2026-10-31 stance re-adjudication (downgrade to neutral-watch)"
         },
-        "nextCheck": "持续跟踪；Q3 业绩（2026-10-22）后重新定基 / Continuous; re-base on the Q3 results (2026-10-22)",
-        "nextCheckDate": "2026-10"
+        "nextCheck": "持续跟踪；Q4 2026 业绩后以计入 Q4 的 TTM 重新定基（上调腿 ≤31 倍、下调腿 >37 倍） / Continuous; re-base on a TTM including Q4 2026 after the Q4 results (upgrade leg ≤31x, downgrade leg >37x)",
+        "nextCheckDate": "2027-02",
+        "reading": "breached",
+        "readingAsOf": "2026-10-30"
       }
     ],
     "priceSymbol": "SPOT",
-    "priceAsOf": "2026-10-01",
-    "stance": "constructive",
+    "priceAsOf": "2026-10-30",
+    "stance": "neutral-watch",
     "conviction": "low",
     "stanceRationale": {
-      "zh": "以 2026-10-01 收盘 $491.40、2026-06-30 流通股 2.05584 亿股计，市值 $101,024.1M（按 2026-10-01 ECB 汇率 1.1298 折合 €89,417.7M），扣除 €8,922M 净现金后企业价值 €80,495.7M，对应 TTM 营业利润 30.3 倍、TTM 报告净利 26.8 倍（TTM 有效税率仅 4.7% 且含 €852M 净财务收益，正常化约 41.0 倍）、FY2026 第三方一致预期 EPS 35.5 倍、TTM FCF 收益率 3.65%。决定立场的是加权预期回报：30% 牛市 / 40% 基准 / 30% 熊市（FY2028 营收 €26,026M / €24,692M / €22,335M，营业利润率 20.0% / 17.5% / 14.0%，退出 EV/EBIT 28x / 24x / 16x）每股价值 $903.68 / $663.00 / $357.42，加权 $643.53，较 $491.40 为 +31.0%，2.248 年（2026-10-02 至 2028-12-31，821 天）年化 +12.7%，高于 8% 门槛 4.7 个百分点、高于 10% 2.7 个百分点；牛市 +83.9% 对熊市 -27.3%，偏斜为正。敏感性：所有退出倍数下调 4 倍降至 +5.1%、下调 6 倍降至 +1.0%，10/40/50 权重降至 +3.8%；但增长放缓 3 个百分点（+10.3%）、利润率少 150bps（+8.8%）、欧元走弱 5%（+10.2%）与 20/40/40 权重（+8.4%）仍过门槛。反推：24 倍退出下获得 8% 只需营收年增约 5.0%，20 倍退出下需约 14.4%。确信度为低而非中，因为正偏斜取决于退出倍数，且重算后的 DCF（WACC 9.5%、终值增长 2.5%）基准价值 $431.92 比股价低 12.1%；不是 neutral-watch，因为中枢假设下加权回报超过门槛区间上限，且公司持有净现金、无金融负债。这是 $491.40 下的估值与偏斜判断，不是声称广告业务已经好转（Q2 广告支持收入恒定汇率仅 +3%）。",
-      "en": "At the 2026-10-01 close of $491.40 on 205.584M shares outstanding at 2026-06-30, market capitalization is $101,024.1M (€89,417.7M at the 2026-10-01 ECB rate of 1.1298) and, net of €8,922M of net cash, enterprise value is €80,495.7M: 30.3x TTM operating income, 26.8x TTM reported net income (about 41.0x normalized, because TTM net income carries a 4.7% effective tax rate and €852M of net finance income), 35.5x third-party FY2026 consensus EPS and a 3.65% TTM FCF yield. What settles the stance is the probability-weighted expected return: weighting 30% bull / 40% base / 30% bear (FY2028 revenue of €26,026M / €24,692M / €22,335M, operating margins of 20.0% / 17.5% / 14.0%, exit EV/EBIT of 28x / 24x / 16x) gives $903.68 / $663.00 / $357.42 per share and a weighted $643.53, +31.0% against $491.40, or +12.7% annualized over 2.248 years (2026-10-02 to 2028-12-31, 821 days) - 4.7 points above the 8% hurdle and 2.7 points above 10%, with a positive skew of +83.9% in the bull case against -27.3% in the bear case. Sensitivity: cutting every exit multiple by four turns drops it to +5.1%, by six turns to +1.0%, and a 10/40/50 weighting to +3.8%; slower growth by 3 points (+10.3%), a 150 bp margin miss (+8.8%), a 5% weaker euro (+10.2%) and a 20/40/40 weighting (+8.4%) still clear the hurdle. Working backwards, earning 8% needs only about 5.0% annual revenue growth at a 24x exit but about 14.4% at 20x. Conviction is low rather than medium because the positive skew depends on the exit multiple and the rebuilt DCF (9.5% WACC, 2.5% terminal growth) puts base value at $431.92, 12.1% below the price; it is not neutral-watch because at central assumptions the weighted return clears the top of the hurdle range and the company holds net cash with no financial debt. This is a valuation-and-skew judgment at $491.40, not a claim that the advertising business has turned (Q2 Ad-Supported revenue grew only 3% FX-neutral)."
+      "zh": "以 2026-10-30 收盘 $593.44、2026-09-30 流通股 205,525,454 股计，市值 $121,967.0M（按 2026-10-30 ECB 1.1172 折合 €109,172.1M），扣除 €9,436M 净现金（现金 €6,032M + 短期投资 €3,856M − 租赁负债 €452M）后企业价值 €99,736.1M，对应 TTM 营业利润 36.4 倍、TTM 报告净利 36.9 倍（正常化约 48.5 倍）、FY2026 第三方一致预期 EPS 44.7 倍、TTM FCF 收益率 2.92%。已发布的下调腿「EV / TTM 营业利润高于 35 倍」字面成立（35 倍约对应 $573.16）；其余下调腿（Q3 毛利率 33.0%、营业利润 €672M、Q4 营业利润指引 €820M、Premium 净增 +700 万 / +600 万、恒定汇率 ARPU +7.5%）均未触发；上调腿未满足（营收 €4,969M 字面低于 €5.0B、Q4 指引 €820M < €850M、Q3 广告恒定汇率 +9%、36.4 倍 > 28 倍）。重建网格独立得出同一方向：30% 牛市 / 40% 基准 / 30% 熊市（FY2028 营收 €25,985M / €24,653M / €22,300M，营业利润率 20.0% / 17.5% / 14.0%，退出 EV/EBIT 28x / 24x / 16x）每股 $886.76 / $651.05 / $350.95，加权 $631.73，较 $593.44 为 +6.5%，2.168 年（2026-10-31 至 2028-12-31，792 天）年化 +2.9%，比 8% 门槛低 5.1 个百分点；DCF 基准 $422.10 比股价低 28.9%。不维持 constructive：一条下调腿成立、中枢回报低于门槛、12 项敏感性中只有退出倍数 +4 倍（+9.5%）超过 8%。不是 cautious：加权价值仍高于股价，牛市 +49.4% 对熊市 -40.9% 大致对称，公司持有净现金且 Q3 经营指标符合或高于指引。确信度为低：退出倍数 −4 倍（-4.2%）、利润率少 150bps（-0.8%）、20/40/40 权重（-1.2%）等 6 项使回报转负，股价约 $535.26 时回到 8%、约 $631.29 时降至 0%。这是 $593.44 下的估值判断，不是经营面恶化。",
+      "en": "At the 2026-10-30 close of $593.44 on 205,525,454 shares outstanding at 2026-09-30, market capitalization is $121,967.0M (€109,172.1M at the 2026-10-30 ECB rate of 1.1172) and, net of €9,436M of net cash (cash €6,032M + short-term investments €3,856M − lease liabilities €452M), enterprise value is €99,736.1M: 36.4x TTM operating income, 36.9x TTM reported net income (about 48.5x normalized), 44.7x third-party FY2026 consensus EPS and a 2.92% TTM FCF yield. The published downgrade leg \"EV / TTM operating income above 35x\" is literally met (35x corresponds to about $573.16); the other downgrade legs (Q3 gross margin 33.0%, operating income €672M, Q4 operating-income guide €820M, Premium net additions +7M / +6M, FX-neutral ARPU +7.5%) are not; the upgrade legs fail (revenue €4,969M is literally below €5.0B, the €820M Q4 guide is below €850M, Q3 Ad-Supported grew 9% FX-neutral, and 36.4x exceeds 28x). The rebuilt grid independently points the same way: weighting 30% bull / 40% base / 30% bear (FY2028 revenue of €25,985M / €24,653M / €22,300M, operating margins of 20.0% / 17.5% / 14.0%, exit EV/EBIT of 28x / 24x / 16x) gives $886.76 / $651.05 / $350.95 per share and a weighted $631.73, +6.5% against $593.44, or +2.9% annualized over 2.168 years (2026-10-31 to 2028-12-31, 792 days), 5.1 points below the 8% hurdle; the DCF base of $422.10 is 28.9% below the price. Not constructive: a downgrade leg is met, the central return is below the hurdle, and only one of 12 sensitivities (+4 exit turns, +9.5%) clears 8%. Not cautious: the weighted value is still above the price, bull +49.4% against bear -40.9% is roughly symmetric, and the company holds net cash with every Q3 operating metric in line with or above guidance. Conviction is low: six sensitivities, including −4 exit turns (-4.2%), a 150 bp margin miss (-0.8%) and a 20/40/40 weighting (-1.2%), turn the return negative; about $535.26 restores 8% and about $631.29 takes it to 0%. This is a valuation judgment at $593.44, not a claim that the business is deteriorating."
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "若 Q3 2026 MAU 不低于 7.88 亿、Premium 订户不低于 3.05 亿且营收不低于 €5.0B，Q4 2026 营业利润指引不低于 €850M，H2 2026 广告支持收入恢复双位数恒定汇率增长，并且届时 EV / TTM 营业利润不高于 28 倍，则上调至 bullish。",
-        "en": "Move to bullish if Q3 2026 MAUs are at least 788M, Premium subscribers at least 305M and revenue at least €5.0B, Q4 2026 operating-income guidance is at least €850M, Ad-Supported revenue is back to double-digit FX-neutral growth in H2 2026, and EV / TTM operating income is at or below 28x at the time.",
+        "zh": "若在 Q4 2026 / FY2026 业绩时同时满足：EV / TTM 营业利润（计入 Q4 2026 的 TTM）不高于 31 倍（若 Q4 营业利润为 €820M，按 09-30 净现金与 ECB 1.1172 约对应 $533.57）；Q4 2026 营业利润不低于 €820M 且毛利率不低于 33.8%；Q4 2026 Premium 订户不低于 3.16 亿且 MAU 不低于 8.18 亿；恒定汇率 Premium ARPU 同比仍为正，则上调至 constructive。",
+        "en": "Move to constructive if, at the Q4 2026 / FY2026 print, all of the following hold: EV / TTM operating income (TTM including Q4 2026) is at or below 31x (about $533.57 if Q4 operating income is €820M, at 09-30 net cash and ECB 1.1172); Q4 2026 operating income is at least €820M and gross margin at least 33.8%; Q4 2026 Premium subscribers are at least 316M and MAUs at least 818M; and FX-neutral Premium ARPU growth is still positive year over year.",
         "monitoringIds": [
-          "q3-user-revenue-guide",
+          "valuation-exit-multiple",
           "q4-operating-income-guide",
-          "ad-supported-reacceleration",
-          "valuation-exit-multiple"
+          "q3-user-revenue-guide",
+          "premium-pricing-churn"
         ]
       },
       "downgrade": {
-        "zh": "若 Q3 2026 毛利率低于 31.5% 或 Q3 营业利润低于 €640M（较 €670M 指引少 €30M 以上）；或 Q4 2026 营业利润指引低于 €750M；或 Premium 净增连续两个季度低于 200 万、或恒定汇率 Premium ARPU 同比转负；或 EV / TTM 营业利润高于 35 倍，则下调至 neutral-watch。",
-        "en": "Move to neutral-watch if Q3 2026 gross margin is below 31.5% or Q3 operating income is below €640M (more than €30M short of the €670M guide); or Q4 2026 operating-income guidance is below €750M; or Premium net additions are below 2M for two consecutive quarters, or FX-neutral Premium ARPU growth turns negative year over year; or EV / TTM operating income is above 35x.",
+        "zh": "若在 Q4 2026 / FY2026 业绩时出现任一：EV / TTM 营业利润（计入 Q4 2026 的 TTM）高于 37 倍（约 $626.9）；Q4 2026 营业利润低于 €770M 或毛利率低于 32.8%；Q4 2026 Premium 订户低于 3.12 亿或 MAU 低于 8.08 亿；恒定汇率 Premium ARPU 同比转负；或 FY2026 LTM FCF 低于 €3.0B，则下调至 cautious。",
+        "en": "Move to cautious if, at the Q4 2026 / FY2026 print, any one of the following holds: EV / TTM operating income (TTM including Q4 2026) is above 37x (about $626.9); Q4 2026 operating income is below €770M or gross margin below 32.8%; Q4 2026 Premium subscribers are below 312M or MAUs below 808M; FX-neutral Premium ARPU growth turns negative year over year; or FY2026 LTM FCF is below €3.0B.",
         "monitoringIds": [
-          "q3-margin-cash-flow",
+          "valuation-exit-multiple",
           "q4-operating-income-guide",
-          "premium-pricing-churn",
-          "valuation-exit-multiple"
+          "q3-margin-cash-flow",
+          "q3-user-revenue-guide",
+          "premium-pricing-churn"
         ]
       }
     },
@@ -6253,6 +6262,16 @@
         "note": {
           "zh": "立场补录。以 2026-10-01 收盘 $491.40 与 ECB 1.1298 重锚；30/40/30 情景网格加权每股 $643.53，2.248 年年化 +12.7%，高于 8% 门槛 4.7 个百分点；但退出倍数整体下调 4 倍即降至 +5.1%，且重算 DCF 基准 $431.92 低于股价 12.1%，故确信度为低。",
           "en": "Stance backfill. Re-anchored to the 2026-10-01 close of $491.40 and ECB 1.1298; the 30/40/30 scenario grid weights to $643.53 per share, +12.7% annualized over 2.248 years, 4.7 points above the 8% hurdle; but cutting every exit multiple by four turns drops it to +5.1% and the rebuilt DCF base of $431.92 sits 12.1% below the price, so conviction is low."
+        }
+      },
+      {
+        "date": "2026-10-31",
+        "stance": "neutral-watch",
+        "conviction": "low",
+        "price": 593.44,
+        "note": {
+          "zh": "Mode B 重锚，由 constructive / low 下调。2026-10-30 收盘 $593.44、ECB 1.1172：EV €99,736.1M / TTM 营业利润 €2,743M = 36.4 倍，触发已发布的 35 倍下调腿（10-22 收盘时已为 35.589 倍）；其余下调腿未触发，上调腿未满足。重建 30/40/30 网格每股 $886.76 / $651.05 / $350.95，加权 $631.73，792 天（2.168 年）年化 +2.9%，低于 8% 门槛 5.1 个百分点；DCF 基准 $422.10。敏感性横跨 0% 与 8% 两侧，故确信度为低。",
+          "en": "Mode B re-anchor, downgraded from constructive / low. At the 2026-10-30 close of $593.44 and ECB 1.1172: EV €99,736.1M / TTM operating income €2,743M = 36.4x, which trips the published 35x downgrade leg (already 35.589x at the 10-22 close); the other downgrade legs are not met and the upgrade legs fail. The rebuilt 30/40/30 grid gives $886.76 / $651.05 / $350.95 per share, a weighted $631.73, +2.9% annualized over 792 days (2.168 years), 5.1 points below the 8% hurdle; DCF base $422.10. The sensitivities straddle both 0% and 8%, so conviction is low."
         }
       }
     ]

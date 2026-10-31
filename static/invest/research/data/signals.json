@@ -3547,5 +3547,33 @@
       "coinbase-2026:adj-ebitda-expense",
       "coinbase-2026:market-structure-regulation"
     ]
+  },
+  {
+    "id": "spotify-q3-2026-results-20261022",
+    "date": "2026-10-22",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Spotify Q3 营业利润 €672M，EV/TTM 营业利润越过 35 倍",
+      "en": "Spotify Q3 operating income €672M; EV/TTM operating income crosses 35x"
+    },
+    "detail": {
+      "zh": "来源：2026-10-22 Form 6-K 附件 99.1（Q3 2026 Update）与中期财务报表。MAU 7.88亿、Premium 3.06亿、营收€4,969M、毛利率33.0%、营业利润€672M，均符合或高于指引；Q4指引营业利润€820M；Premium ARPU恒定汇率+7.5%；广告支持收入恒定汇率+9%，未达双位数；LTM FCF €3,190M，低于约€3.3B阈值。按2026-10-30收盘$593.44与ECB 1.1172，EV/TTM营业利润36.4倍（10-22收盘35.589倍），触发35倍下调腿；重建网格年化+2.9%。立场由constructive / low下调为neutral-watch / low。",
+      "en": "Sources: Form 6-K Exhibit 99.1 (Q3 2026 Update) and interim financial statements dated 2026-10-22. MAUs 788M, Premium 306M, revenue €4,969M, gross margin 33.0% and operating income €672M, all in line with or above guidance; Q4 operating-income guide €820M; Premium ARPU +7.5% FX-neutral; Ad-Supported +9% FX-neutral, short of double digits; LTM FCF €3,190M, below the about-€3.3B threshold. At the 2026-10-30 close of $593.44 and ECB 1.1172, EV/TTM operating income is 36.4x (35.589x at the 10-22 close), tripping the 35x downgrade leg; the rebuilt grid returns +2.9% annualized. Stance moves from constructive / low to neutral-watch / low."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "SPOT"
+    ],
+    "reportIds": [
+      "spotify-2026"
+    ],
+    "monitoringRefs": [
+      "spotify-2026:q3-user-revenue-guide",
+      "spotify-2026:q3-margin-cash-flow",
+      "spotify-2026:ad-supported-reacceleration",
+      "spotify-2026:q4-operating-income-guide",
+      "spotify-2026:premium-pricing-churn",
+      "spotify-2026:valuation-exit-multiple"
+    ]
   }
 ]

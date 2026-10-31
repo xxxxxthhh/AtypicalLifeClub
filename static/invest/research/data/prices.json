@@ -366,11 +366,11 @@
       "symbol": "SPOT",
       "status": "ok",
       "attemptedAt": "2026-10-30",
-      "baseDate": "2026-10-01",
-      "basePrice": 491.4,
+      "baseDate": "2026-10-30",
+      "basePrice": 593.44,
       "lastDate": "2026-10-30",
       "lastClose": 593.44,
-      "changePct": 20.8,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
