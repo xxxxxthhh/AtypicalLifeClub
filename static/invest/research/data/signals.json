@@ -3547,5 +3547,30 @@
       "coinbase-2026:adj-ebitda-expense",
       "coinbase-2026:market-structure-regulation"
     ]
+  },
+  {
+    "id": "seagate-q1-fy2027-exabytes-allocation-20261029",
+    "date": "2026-10-29",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Seagate Q1 FY2027 近线 EB 198（环比 +1.5%、同比 +24.5%），混合每 EB 收入约 $19.24 百万，近线供给分配至 2028 年、部分云协议至 2030 年",
+      "en": "Seagate Q1 FY2027 nearline exabytes 198 (+1.5% sequentially, +24.5% year over year), blended revenue per exabyte about $19.24M, nearline supply allocated through 2028 with some cloud agreements to 2030"
+    },
+    "detail": {
+      "zh": "据 Seagate Q1 FY2027 补充财务资料（2026-10-27 美股收盘后随业绩发布，https://s24.q4cdn.com/101481333/files/doc_financials/2027/q1/STX-FQ1-27-Supplemental.pdf）第 5–6 页：季度截至 2026-10-02 收入 $4,233M，HDD EB 出货总计 220（Q4 FY2026 218），其中近线 198（Q4 195、Q1 FY2026 159）、非近线 22；数据中心收入 $3,449M。本报告自算混合每 EB 收入 $19.24 百万（Q4 $16.65 百万）、数据中心每近线 EB 收入 $17.42 百万（Q4 $15.04 百万）。发行人发布的修正电话会转写稿（2026-10-27，https://s24.q4cdn.com/101481333/files/content_files/STX-US-CORRECTED-TRANSCRIPT-Seagate-Technology-Holdings-PlcSTXUS-Q1-2027-Earnings-Call-27-ET-PM-26-10-2026-2026-10-26-0.pdf）：绝大部分近线 EB 供给已按长期供应协议分配至 2028 年，部分云客户协议延伸至 2030 年；BTO 合同确定 2027 年配置与价格；管理层称 9 月季度 EB 环比放缓是 Mozaic 4 备货时点，预期 12 月季度显著提升（公司预期）。Q1 10-Q（2026-10-29 提交，https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm）全文未见季度客户集中度、订单推迟或取消费用的披露（检索范围限于所读文件）。本轮读数：revenue-per-exabyte within（最近两季均高于 $15.5 百万）；nearline-exabyte-growth 由 within 改为 unclear（环比腿未触发，FY2027 全年腿尚不可观测）；allocation-visibility 由 within 改为 unclear（分配腿未触发，季度单一客户占比不可观测）。股本、现金、债务与股东回报是估值输入，留待 Mode B；估值仍为 2026-09-22 历史基础。",
+      "en": "Per pages 5-6 of Seagate's Q1 FY2027 supplemental financial information (released with results after the US close on 2026-10-27, https://s24.q4cdn.com/101481333/files/doc_financials/2027/q1/STX-FQ1-27-Supplemental.pdf): revenue for the quarter ended 2026-10-02 was $4,233M and HDD exabytes shipped totalled 220 (Q4 FY2026 218), of which 198 nearline (Q4 195, Q1 FY2026 159) and 22 non-nearline; Data Center revenue was $3,449M. This report calculates blended revenue per exabyte of $19.24M (Q4 $16.65M) and Data Center revenue per nearline exabyte of $17.42M (Q4 $15.04M). The issuer-posted corrected call transcript (2026-10-27, https://s24.q4cdn.com/101481333/files/content_files/STX-US-CORRECTED-TRANSCRIPT-Seagate-Technology-Holdings-PlcSTXUS-Q1-2027-Earnings-Call-27-ET-PM-26-10-2026-2026-10-26-0.pdf): the vast majority of nearline exabyte supply is allocated under long-term supply agreements through calendar 2028, with some cloud customer agreements extending through calendar 2030; build-to-order contracts set calendar 2027 configuration and pricing; management attributed the slower sequential exabyte growth in the September quarter to Mozaic 4 staging and expects a meaningful December-quarter step-up (a company expectation). The full text of the Q1 10-Q (filed 2026-10-29, https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm) shows no disclosure of quarterly customer concentration, order push-outs or cancellation charges (search scope limited to the documents read). Readings this pass: revenue-per-exabyte within (both of the last two quarters above $15.5M); nearline-exabyte-growth moved from within to unclear (the sequential leg has not fired; the FY2027 full-year leg is not yet observable); allocation-visibility moved from within to unclear (the allocation leg has not fired; the quarterly single-customer share is unobservable). Share count, cash, debt and shareholder returns are valuation inputs left to Mode B; valuation retains the historical 2026-09-22 basis."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "STX"
+    ],
+    "reportIds": [
+      "seagate-2026"
+    ],
+    "monitoringRefs": [
+      "seagate-2026:nearline-exabyte-growth",
+      "seagate-2026:revenue-per-exabyte",
+      "seagate-2026:allocation-visibility"
+    ]
   }
 ]

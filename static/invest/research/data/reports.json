@@ -12433,8 +12433,8 @@
     "priceSymbol": "STX",
     "title": "Seagate 深度研究报告 - 先定价、后兑现的 HAMR 领先",
     "titleEn": "Seagate Deep Research Report - A HAMR Lead Priced Before It Pays",
-    "summary": "2026-10-28更新（Mode A事实增量，无估值重锚）：2026-10-27美股收盘后发布的Q1 FY2027（季度截至2026-10-02）收入$42.33亿（上年同期$26.29亿）、非GAAP毛利率57.8%（GAAP 57.3%；Q4 FY2026为52.7%）、非GAAP营业利润率50.7%（GAAP 48.8%）、非GAAP摊薄EPS $7.68（GAAP $7.59）；经营现金流约$17亿、自由现金流约$15亿；向股东返还$5.68亿，季度股息上调约3%至$0.76；Q2 FY2027指引收入$48亿±$1亿、非GAAP EPS $9.20±$0.20。新闻稿未给出EB、每EB收入或HAMR数据（另见补充财务资料，本轮未读）。估值仍按2026-09-22锚定的旧口径，当前股价、股本、现金债务与年化分母待Mode B重算；本次未重新裁定立场（谨慎／中确信，2026-09-23首次覆盖）。",
-    "summaryEn": "Updated 2026-10-28 (Mode A factual increment, no valuation re-anchor): Q1 FY2027 results (quarter ended 2026-10-02), released after the US close on 2026-10-27, showed revenue of $4.233B (year-earlier $2.629B), non-GAAP gross margin of 57.8% (GAAP 57.3%; Q4 FY2026 was 52.7%), non-GAAP operating margin of 50.7% (GAAP 48.8%) and non-GAAP diluted EPS of $7.68 (GAAP $7.59); operating cash flow was about $1.7B and free cash flow about $1.5B; the company returned $568M to shareholders and raised the quarterly dividend about 3% to $0.76; the Q2 FY2027 guide is revenue of $4.8B +/- $100M and non-GAAP EPS of $9.20 +/- $0.20. The release gives no exabyte, revenue-per-exabyte or HAMR figures (these are in a supplemental document not read in this pass). Valuation remains anchored to the 2026-09-22 basis; current price, share count, cash/debt and the annualized denominators await Mode B recomputation, and the stance was not re-adjudicated in this pass (cautious / medium, initiated 2026-09-23).",
+    "summary": "2026-10-28更新（Mode A事实增量，无估值重锚）：2026-10-27美股收盘后发布的Q1 FY2027（季度截至2026-10-02）收入$42.33亿（上年同期$26.29亿）、非GAAP毛利率57.8%（GAAP 57.3%；Q4 FY2026为52.7%）、非GAAP营业利润率50.7%（GAAP 48.8%）、非GAAP摊薄EPS $7.68（GAAP $7.59）；经营现金流约$17亿、自由现金流约$15亿；向股东返还$5.68亿，季度股息上调约3%至$0.76；Q2 FY2027指引收入$48亿±$1亿、非GAAP EPS $9.20±$0.20。2026-11-01补充（Mode A）：Q1补充财务资料显示近线EB 198（环比+1.5%、同比+24.5%）、总EB 220，混合每EB收入约$19.24百万（本报告自算，Q4 FY2026为$16.65百万）；电话会称绝大部分近线供给已按长期协议分配至2028年、部分云客户协议延伸至2030年；10-Q未披露季度客户集中度。HAMR数据本轮未更新。估值仍按2026-09-22锚定的旧口径，当前股价、股本、现金债务与年化分母待Mode B重算；本次未重新裁定立场（谨慎／中确信，2026-09-23首次覆盖）。",
+    "summaryEn": "Updated 2026-10-28 (Mode A factual increment, no valuation re-anchor): Q1 FY2027 results (quarter ended 2026-10-02), released after the US close on 2026-10-27, showed revenue of $4.233B (year-earlier $2.629B), non-GAAP gross margin of 57.8% (GAAP 57.3%; Q4 FY2026 was 52.7%), non-GAAP operating margin of 50.7% (GAAP 48.8%) and non-GAAP diluted EPS of $7.68 (GAAP $7.59); operating cash flow was about $1.7B and free cash flow about $1.5B; the company returned $568M to shareholders and raised the quarterly dividend about 3% to $0.76; the Q2 FY2027 guide is revenue of $4.8B +/- $100M and non-GAAP EPS of $9.20 +/- $0.20. Supplement of 2026-11-01 (Mode A): the Q1 supplemental financial information shows 198 nearline exabytes (+1.5% sequentially, +24.5% year over year) and 220 total exabytes, or about $19.24M of blended revenue per exabyte (this report's calculation; $16.65M in Q4 FY2026); on the call management said the vast majority of nearline supply is allocated under long-term agreements through calendar 2028, with some cloud agreements extending through calendar 2030; the 10-Q does not disclose quarterly customer concentration. HAMR figures were not updated in this pass. Valuation remains anchored to the 2026-09-22 basis; current price, share count, cash/debt and the annualized denominators await Mode B recomputation, and the stance was not re-adjudicated in this pass (cautious / medium, initiated 2026-09-23).",
     "tags": [
       "近线HDD",
       "HAMR",
@@ -12443,14 +12443,15 @@
     ],
     "category": "tech",
     "date": "2026-09-23",
-    "lastUpdate": "2026-10-28",
+    "lastUpdate": "2026-11-01",
     "file": "/invest/research/reports/view.html?id=seagate-2026",
     "markdownFiles": {
       "zh": "/invest/research/Seagate_深度研究报告_2026-09.md",
       "en": "/invest/research/Seagate_Deep_Research_Report_2026-09.md"
     },
     "highlights": [
-      "2026-10-27发布Q1 FY2027：收入$42.33亿、非GAAP毛利率57.8%（Q4 FY2026为52.7%）、非GAAP营业利润率50.7%、EPS $7.68；季内外合计偿债约$19.5亿；Q2指引收入$48亿±$1亿；EB／HAMR数据未在新闻稿中披露；估值仍按2026-09-22口径，待Mode B重算"
+      "2026-10-27发布Q1 FY2027：收入$42.33亿、非GAAP毛利率57.8%（Q4 FY2026为52.7%）、非GAAP营业利润率50.7%、EPS $7.68；季内外合计偿债约$19.5亿；Q2指引收入$48亿±$1亿；EB／HAMR数据未在新闻稿中披露；估值仍按2026-09-22口径，待Mode B重算",
+      "2026-11-01补充：Q1 FY2027近线EB 198（环比+1.5%、同比+24.5%），混合每EB收入约$19.24百万（自算，Q4 $16.65百万）；近线供给分配至2028年、部分云协议至2030年（电话会）；季度单一客户占比未披露"
     ],
     "period": "FY2026",
     "versionType": "initial",
@@ -12484,12 +12485,12 @@
           "en": "Nearline exabytes decline sequentially for two consecutive quarters, or FY2027 nearline exabyte growth falls below 15%"
         },
         "latest": {
-          "zh": "据 2026-07-28 Q4 FY2026 补充财务资料：Q4 近线 EB 195（Q4 FY2025 137，同比 +42.3%、环比 +11.4%），季度序列 159 / 165 / 175 / 195；10-K 口径 FY2026 近线 695 EB（+39.8%）、总 789 EB（+32.6%）。管理层目标未来几年近线 EB 增长「mid-20%」，据 CFO（电话会）FY2026 硬盘台数持平、磁头与盘片增长 15%–20%——EB 增长来自面密度而非台数。",
-          "en": "Per the Q4 FY2026 supplemental financial information dated 2026-07-28: Q4 nearline exabytes were 195 (Q4 FY2025 137, +42.3% Y/Y and +11.4% Q/Q) on a quarterly path of 159 / 165 / 175 / 195; the 10-K reports FY2026 nearline exabytes of 695 (+39.8%) and total exabytes of 789 (+32.6%). Management targets mid-20% nearline exabyte growth over the next few years, and per the CFO (call) FY2026 drive units were flat while heads and disks grew 15%-20% - exabyte growth came from areal density, not units."
+          "zh": "据 2026-10-27 Q1 FY2027 补充财务资料第 6 页：Q1 近线 EB 198（Q4 FY2026 195，环比 +1.5%；Q1 FY2026 159，同比 +24.5%），季度序列 159 / 165 / 175 / 195 / 198；总 EB 220（环比 +0.9%、同比 +20.9%），近线占 90.0%。环比增速由 Q4 的 +11.4% 放缓至 +1.5%，管理层（电话会）称这是 Mozaic 4 在客户认证前备货的时点因素，并预期 12 月季度 EB 显著提升——这是公司预期，不是实绩。触发器两条腿：「连续两个季度环比下降」未触发（本季环比上升）；「FY2027 近线 EB 增速低于 15%」要到 FY2027 结束才能判定，Q1 同比 +24.5% 与管理层「mid-20%」复合增长目标都不是全年实绩，因此整体评 unclear——由 within 改为 unclear 是因为全年腿尚不可观测，不是读数转弱。",
+          "en": "Per page 6 of the Q1 FY2027 supplemental financial information dated 2026-10-27: Q1 nearline exabytes were 198 (Q4 FY2026 195, +1.5% sequentially; Q1 FY2026 159, +24.5% year over year) on a quarterly path of 159 / 165 / 175 / 195 / 198; total exabytes were 220 (+0.9% sequentially, +20.9% year over year), with nearline at 90.0%. Sequential growth slowed from +11.4% in Q4 to +1.5%; management (call) described this as timing while Mozaic 4 is staged ahead of customer qualification and expects a meaningful step-up in the December quarter - a company expectation, not a result. The trigger has two legs: two consecutive sequential declines has not fired (this quarter rose sequentially); FY2027 nearline exabyte growth below 15% cannot be graded until FY2027 ends, and neither the Q1 +24.5% year-over-year rate nor management's mid-20% compound target is a full-year result, so the item is graded unclear - the move from within to unclear reflects the unobservable full-year leg, not a weaker reading."
         },
-        "reading": "within",
-        "readingAsOf": "2026-07-28",
-        "nextCheck": "Q1 FY2027 补充财务资料的 EB 表 / the exabyte table in the Q1 FY2027 supplemental financial information",
+        "reading": "unclear",
+        "readingAsOf": "2026-10-27",
+        "nextCheck": "Q2 FY2027 补充财务资料的 EB 表（发行人尚未公布发布日）/ the exabyte table in the Q2 FY2027 supplemental financial information (release date not yet issuer-announced)",
         "nextCheckDate": "2026-10"
       },
       {
@@ -12505,12 +12506,12 @@
           "en": "Below $15.5M per exabyte for two consecutive quarters"
         },
         "latest": {
-          "zh": "Q4 FY2026 $16.65 百万 / EB（Q4 FY2025 $15.09 百万，同比 +10.3%）；FY2026 全年 $15.46 百万（仅 +1.1%，全年是出货量年）。混合口径含 Edge IoT 结构：只看数据中心，FY2026 每近线 EB 收入 $14.08 百万，低于 WDC Cloud 的 $14.67 百万（定义不同，仅作参考）。",
-          "en": "Q4 FY2026 $16.65M per exabyte (Q4 FY2025 $15.09M, +10.3% Y/Y); FY2026 full year $15.46M (only +1.1% - a volume year). The blended figure carries Edge IoT mix: on a data-center-only basis FY2026 revenue per nearline exabyte was $14.08M, below WDC Cloud's $14.67M (definitions differ; indicative only)."
+          "zh": "Q1 FY2027 $19.24 百万 / EB（收入 $4,233M ÷ 总 EB 220，本报告自算；Q4 FY2026 $16.65 百万，环比 +15.6%；Q1 FY2026 $14.45 百万，同比 +33.2%）；数据中心每近线 EB 收入 $17.42 百万（$3,449M ÷ 198 EB；Q4 FY2026 $15.04 百万）。触发条件为连续两个季度低于 $15.5 百万：最近两季 $16.65 百万与 $19.24 百万均高于门槛，未触发。证据：2026-10-27 Q1 FY2027 补充财务资料第 5–6 页的收入与 EB 表；电话会称价格继续改善，反映价值定价框架与外部零部件成本上升。混合口径含 Edge IoT 结构，不是公司披露的 ASP。",
+          "en": "Q1 FY2027 $19.24M per exabyte ($4,233M of revenue divided by 220 total exabytes, this report's calculation; Q4 FY2026 $16.65M, +15.6% sequentially; Q1 FY2026 $14.45M, +33.2% year over year); Data Center revenue per nearline exabyte was $17.42M ($3,449M divided by 198 EB; Q4 FY2026 $15.04M). The trigger is below $15.5M for two consecutive quarters: the last two quarters, $16.65M and $19.24M, are both above the threshold, so it has not fired. Evidence: the revenue and exabyte tables on pages 5-6 of the Q1 FY2027 supplemental financial information dated 2026-10-27; on the call management said pricing continues to improve, reflecting its value-based pricing framework and higher external component costs. The blended figure carries Edge IoT mix and is not a company-disclosed ASP."
         },
         "reading": "within",
-        "readingAsOf": "2026-07-28",
-        "nextCheck": "Q1 FY2027 收入 ÷ EB / Q1 FY2027 revenue divided by exabytes",
+        "readingAsOf": "2026-10-27",
+        "nextCheck": "Q2 FY2027 收入 ÷ EB（发行人尚未公布发布日）/ Q2 FY2027 revenue divided by exabytes (release date not yet issuer-announced)",
         "nextCheckDate": "2026-10"
       },
       {
@@ -12568,12 +12569,12 @@
           "en": "Management drops the \"allocated into calendar 2028\" framing, discloses order push-outs or cancellation charges, or a single customer exceeds 20% of revenue"
         },
         "latest": {
-          "zh": "电话会：绝大部分近线 EB 已分配至 2028 年，BTO 合同约定配置与价格、覆盖 2027 年全年；10-K：采用可选豁免未披露剩余履约义务（不可撤销订单均不足一年），对照 sandisk-2026 的 $598 亿 NBM 剩余履约义务；FY2026 单一客户占收入 14%（FY2025 10%，FY2024 无客户超过 10%），前十大客户占比未披露。",
-          "en": "Call: the vast majority of nearline exabytes are allocated into calendar 2028, and BTO contracts define configuration and pricing and cover all of calendar 2027. 10-K: the optional exemption is applied and remaining performance obligations are not disclosed (all non-cancellable orders are under one year), against sandisk-2026's $59.8B of NBM remaining performance obligations; one customer was 14% of FY2026 revenue (FY2025 10%, FY2024 none above 10%), with the top-ten share undisclosed."
+          "zh": "Q1 FY2027 电话会（2026-10-27，发行人发布的修正转写稿）与补充财务资料：绝大部分近线 EB 供给已按长期供应协议分配至 2028 年，部分云客户协议延伸至 2030 年；BTO 合同确定 2027 年全年近线出货的配置与价格，未来几个季度开始敲定 2028 年的配置与价格——分配表述保留并延长，该腿未触发。推迟／取消费用腿：已检索 Q1 10-Q（2026-10-29 提交）全文、补充资料与电话会，未见订单推迟或取消费用的披露，只有风险因素中的一般性表述（电话会中「pushing more exabytes out」指增加出货，不是推迟）；这是所读文件范围内的观察，不是全来源阴性证明。单一客户腿：10-Q 不披露季度客户集中度，最新可得仍是 FY2026 10-K 的单一客户 14%，季度口径要到 FY2027 10-K，该腿当前不可观测。析取触发器仍有未知腿，评 unclear。",
+          "en": "Q1 FY2027 call (2026-10-27, issuer-posted corrected transcript) and supplemental financial information: the vast majority of nearline exabyte supply is allocated under long-term supply agreements through calendar 2028, with some cloud customer agreements extending through calendar 2030; build-to-order contracts set configuration and pricing for nearline shipments through calendar 2027, and the company expects to begin finalizing calendar 2028 configuration and pricing over the next few quarters - the allocation framing is retained and extended, so that leg has not fired. Push-out / cancellation-charge leg: the full text of the Q1 10-Q (filed 2026-10-29), the supplemental and the call were searched and show no disclosure of order push-outs or cancellation charges, only generic risk-factor language (\"pushing more exabytes out\" on the call means shipping more, not deferral); this is an observation within the documents read, not an all-source negative. Single-customer leg: the 10-Q does not disclose quarterly customer concentration, the latest available figure is still one customer at 14% in the FY2026 10-K, and the next reading is the FY2027 10-K, so the leg is currently unobservable. The disjunctive trigger still has an unknown leg, so it is graded unclear."
         },
-        "reading": "within",
-        "readingAsOf": "2026-07-28",
-        "nextCheck": "Q1 FY2027 电话会与 10-Q / the Q1 FY2027 call and 10-Q",
+        "reading": "unclear",
+        "readingAsOf": "2026-10-29",
+        "nextCheck": "Q2 FY2027 电话会与 10-Q；单一客户占比待 FY2027 10-K / the Q2 FY2027 call and 10-Q; single-customer share awaits the FY2027 10-K",
         "nextCheckDate": "2026-10"
       }
     ],
