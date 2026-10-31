@@ -11519,8 +11519,8 @@
     "priceSymbol": "ASX",
     "title": "ASE Technology Holding 深度研究报告 - 第三方 OSAT 能否拥有独立先进封装份额的架构校验",
     "titleEn": "ASE Technology Holding Deep Research Report - Architecture Check on Whether a Merchant OSAT Can Own Independent Advanced-Packaging Share",
-    "summary": "AI 基础设施书 advanced-packaging 层的第二个架构校验。2026 Q2 合并收入 NT$191.064B（+26.7%）、ATM 收入 NT$126.148B（+36.3%）、ATM 毛利率 27.3%、经营利润率 15.7%，计算占 ATM 收入由一年前 24% 升至 30%；ASE 的 VIPack、2.5D/3D、FOCoS 与测试组合证明第三方 OSAT 能承接有价值的 AI/HPC 工作。但公司仍未点名任何 AI 加速器在台积电之外完成全流程封装，也未披露独立价格或 CoWoS 外包量，因此本层继续是归属与架构读数，不升级为约束读数。以 2026-08-07 收盘 $37.39 计，Q2 加权基本至稀释股权价值约 $82.0-84.2B、企业价值约 $88.3-90.5B，约 15.2-15.6x Q2 年化 EBITDA、32.0x Q2 年化 ADS EPS；三年、11x 退出和 8% 年化回报反推需要约 20%-21% EBITDA CAGR，高于 15%-18% 基准假设。20/50/30 情景网格支持中性观察 / 中确信。",
-    "summaryEn": "The second architecture check in the AI-infrastructure book's advanced-packaging layer. Q2 2026 consolidated revenue was NT$191.064B (+26.7%), ATM revenue NT$126.148B (+36.3%), ATM gross margin 27.3%, operating margin 15.7%, and computing rose from 24% to 30% of ATM revenue. ASE's VIPack, 2.5D/3D, FOCoS and test portfolio proves that a merchant OSAT can capture valuable AI/HPC work. Yet the company names no accelerator program packaged end-to-end outside TSMC and discloses neither independent pricing nor outsourced CoWoS volume, so the layer remains an ownership and architecture read rather than a constraint read. At the 2026-08-07 close of $37.39, Q2 weighted basic-to-diluted shares imply equity value of $82.0-84.2B and EV of $88.3-90.5B, or roughly 15.2-15.6x annualized Q2 EBITDA and 32.0x annualized Q2 ADS EPS. A three-year reverse test at an 11x exit and 8% annual return requires about 20-21% EBITDA CAGR, above the 15-18% base case. The 20/50/30 scenario grid supports neutral-watch / medium conviction.",
+    "summary": "2026-10-31 — 日月光投控 2026 Q3（季度截至 2026-09-30；业绩稿与业绩简报均以 Form 6-K 报送，日期 2026-10-29）：合并营收 NT$244,161 百万（同比 +44.8%、环比 +27.8%），毛利率 22.1%、经营利润率 13.6%，归属母公司股东净利 NT$26,996 百万。ATM 营收 NT$151,485 百万（同比 +51.0%、环比 +20.1%），毛利率 30.6%、经营利润率 20.0%（Q2 27.3% / 15.7%）；计算占 ATM 营收 34%（Q2 30%、2025 Q3 25%）。设备资本开支 US$2,104 百万，高于业绩简报美元图表所列 EBITDA US$1,814 百万（Q2 为 US$1,695 百万对 US$1,450 百万）；Q3 简单自由现金流约 -NT$75,390 百万。ATM 口径前五大客户约 46%、前十大 63%。两份文件均未点名台积电之外的 AI 加速器封装项目，电话会转写未读。估值、立场与确信度仍按 2026-08-07 历史基础，新实绩待 Mode B。",
+    "summaryEn": "2026-10-31 — ASE Technology Holding Q3 2026 (quarter ended 2026-09-30; press release and earnings presentation furnished on Form 6-K, dated 2026-10-29): consolidated net revenues NT$244,161 million (+44.8% YoY, +27.8% QoQ), gross margin 22.1%, operating margin 13.6%, net income attributable to shareholders of the parent NT$26,996 million. ATM net revenues were NT$151,485 million (+51.0% YoY, +20.1% QoQ) at a 30.6% gross and 20.0% operating margin (Q2 27.3% / 15.7%); computing was 34% of ATM revenue (Q2 30%, Q3 2025 25%). Equipment capex of US$2,104 million exceeded EBITDA of US$1,814 million on the deck's US$ chart (Q2: US$1,695 million vs US$1,450 million); Q3 simple FCF was about -NT$75,390 million. On an ATM basis the top five customers were approximately 46% and the top ten 63%. Neither document names an accelerator program packaged outside TSMC; the call transcript was not read. Valuation, stance and conviction remain on the historical 2026-08-07 basis; new actuals await Mode B.",
     "tags": [
       "AI基础设施",
       "先进封装",
@@ -11529,7 +11529,7 @@
     ],
     "category": "tech",
     "date": "2026-08-07",
-    "lastUpdate": "2026-08-08",
+    "lastUpdate": "2026-10-31",
     "file": "/invest/research/reports/view.html?id=ase-technology-2026",
     "markdownFiles": {
       "zh": "/invest/research/ASE_Technology_深度研究报告_2026-08.md",
@@ -11540,11 +11540,8 @@
     "versionType": "initial",
     "versionLabel": "2026H2 Initial Coverage",
     "highlights": [
-      "advanced-packaging 层第二个架构校验：ASE 证明第三方 OSAT 能承接高价值 AI/HPC 工序，但仍无点名项目证明其在台积电之外拥有独立封装队列",
-      "2026 Q2 合并收入 NT$191.064B（+26.7%），ATM 收入 NT$126.148B（+36.3%）、毛利率 27.3%、经营利润率 15.7%",
-      "ATM 计算占比由一年前 24% 升至 30%；凸块/倒装/晶圆级/SiP 占 49%，测试占 19%",
-      "Q2 设备资本开支 $1.695B，高于约 $1.45B 的季度 EBITDA；H1 简单自由现金流约 -NT$40.5B",
-      "股价 $37.39（2026-08-07 收盘）：约 15.2-15.6x Q2 年化 EBITDA、32.0x Q2 年化 ADS EPS；20/50/30 网格，初始中性观察 / 中确信"
+      "2026 Q3（2026-10-29 发布）：合并营收 NT$244,161 百万（同比 +44.8%）；ATM 营收 NT$151,485 百万（同比 +51.0%），毛利率 30.6%、经营利润率 20.0%，计算占 ATM 34%；设备资本开支 US$2,104 百万高于 EBITDA US$1,814 百万，Q3 简单自由现金流约 -NT$75,390 百万；ATM 前五大客户约 46%、前十大 63%",
+      "估值仍按 2026-08-07 历史基础；新实绩待 Mode B，价格、估值数字、立场和确信度未更新。"
     ],
     "chainLayer": "advanced-packaging",
     "coverageTier": "full",
@@ -11552,7 +11549,7 @@
     "stance": "neutral-watch",
     "conviction": "medium",
     "priceAsOf": "2026-08-07",
-    "reportedPeriod": "Q2 2026",
+    "reportedPeriod": "Q3 2026",
     "related": [
       "amkr-2026",
       "tsmc-2026",
@@ -11573,13 +11570,14 @@
           "en": "Computing progresses toward 35% while ATM operating margin holds above 17% for two quarters (upgrade evidence), or computing falls while ATM gross margin breaks below 24% (downgrade evidence)"
         },
         "latest": {
-          "zh": "2026 Q2 计算占 ATM 收入 30%，一年前 24%；ATM 收入 NT$126.148B（+36.3%），毛利率 27.3%、经营利润率 15.7%",
-          "en": "In Q2 2026 computing was 30% of ATM revenue versus 24% a year earlier; ATM revenue was NT$126.148B (+36.3%), gross margin 27.3% and operating margin 15.7%"
+          "zh": "2026 Q3（6-K 业绩稿与业绩简报，2026-10-29）：计算占 ATM 营收 34%（Q2 30%、2025 Q3 25%）；ATM 营收 NT$151,485 百万（同比 +51.0%、环比 +20.1%），毛利率 30.6%、经营利润率 20.0%（Q2 27.3% / 15.7%）",
+          "en": "Q3 2026 (6-K press release and earnings presentation, 2026-10-29): computing was 34% of ATM revenue (Q2 30%, Q3 2025 25%); ATM net revenues NT$151,485 million (+51.0% YoY, +20.1% QoQ), gross margin 30.6% and operating margin 20.0% (Q2 27.3% / 15.7%)"
         },
         "nextCheck": "2026 Q3 业绩与应用组合 / Q3 2026 results and application mix",
         "nextCheckDate": "2026-11",
         "reading": "within",
-        "readingAsOf": "2026-08-05"
+        "readingAsOf": "2026-10-29",
+        "readingNote": "Q3 ATM 经营利润率 20.0% 只是升级腿所需两个季度中第一个高于 17% 的季度（Q2 为 15.7%），升级腿尚未满足；计算占比上升且 ATM 毛利率 30.6% 远高于 24%，降级腿未触发。 / Q3's 20.0% ATM operating margin is only the first of the two quarters above 17% the upgrade leg requires (Q2 was 15.7%), so that leg is not yet met; computing rose and ATM gross margin of 30.6% is far above 24%, so the downgrade leg is not met."
       },
       {
         "id": "ownership-outside-tsmc",
@@ -11594,12 +11592,13 @@
           "en": "A named accelerator program dual-sources end-to-end 2.5D/3D packaging outside TSMC with customer, wafer-source or independent-pricing evidence"
         },
         "latest": {
-          "zh": "ASE 已披露 VIPack、FOCoS、FOCoS-Bridge、TSV 2.5D/3D 与 CPO 能力，但截至 2026-08-07 未点名满足上述门槛的 AI 加速器项目；因此本项不可把能力当订单或所有权",
-          "en": "ASE discloses VIPack, FOCoS, FOCoS-Bridge, TSV 2.5D/3D and CPO capability, but as of 2026-08-07 names no accelerator program that meets this threshold; capability cannot be graded as an order or ownership"
+          "zh": "2026 Q3 的 6-K 业绩稿（0000950103-26-016324，含 Business Review）与 6-K 业绩简报（0000950103-26-016323），日期均为 2026-10-29，全文均未点名任何在台积电之外双源 2.5D/3D 全流程封装的 AI 加速器项目、客户、晶圆来源或独立定价；电话会转写未读",
+          "en": "ASE's Q3 2026 6-K press release (0000950103-26-016324, including the Business Review) and 6-K earnings presentation (0000950103-26-016323), both dated 2026-10-29, name in their full text no accelerator program, customer, wafer source or independent pricing for end-to-end 2.5D/3D packaging outside TSMC; the earnings-call transcript was not read"
         },
         "nextCheck": "每季业绩、客户公告与供应链备案（事件驱动）/ quarterly results, customer announcements and supply-chain filings (event-driven)",
         "reading": "unclear",
-        "readingAsOf": "2026-08-07"
+        "readingAsOf": "2026-10-29",
+        "readingNote": "两份已读文件没有点名项目，但未披露不等于不存在，且电话会转写未读，故维持 unclear。 / The two documents read name no program, but non-disclosure is not a negative and the call transcript was not read, so the item stays unclear."
       },
       {
         "id": "capex-and-free-cash-flow",
@@ -11614,13 +11613,14 @@
           "en": "Equipment capex exceeds EBITDA and simple free cash flow stays negative for two quarters while net debt rises and ATM revenue growth fails to remain above 20%"
         },
         "latest": {
-          "zh": "2026 Q2 EBITDA NT$45.779B（约 $1.45B），设备资本开支 $1.695B；Q2 简单自由现金流约 -NT$32.835B、H1 约 -NT$40.540B，公司口径净债务 NT$198.857B",
-          "en": "Q2 2026 EBITDA was NT$45.779B (~$1.45B) against $1.695B of equipment capex; simple FCF was about -NT$32.835B in Q2 and -NT$40.540B in H1, with company-defined net debt of NT$198.857B"
+          "zh": "2026 Q3（6-K 业绩稿与业绩简报，2026-10-29）：设备资本开支 US$2,104 百万（封装 US$991 百万、测试 US$1,067 百万），EBITDA NT$57,963 百万（业绩简报美元图表 US$1,814 百万）；Q2 按同一图表为 US$1,695 百万对 US$1,450 百万。简单自由现金流（经营活动净现金流减不动产、厂房及设备净支付）Q3 约 -NT$75,390 百万（50,462 减 125,852），前九个月约 -NT$115,929 百万（133,863 减 249,792），Q2 约 -NT$32,835 百万；ATM 营收同比 +51.0%",
+          "en": "Q3 2026 (6-K press release and earnings presentation, 2026-10-29): equipment capex US$2,104 million (packaging US$991 million, testing US$1,067 million) against EBITDA of NT$57,963 million (US$1,814 million on the deck's US$ chart); Q2 on the same chart was US$1,695 million vs US$1,450 million. Simple FCF (net cash from operating activities less net payments for property, plant and equipment) was about -NT$75,390 million in Q3 (50,462 less 125,852) and about -NT$115,929 million for the nine months (133,863 less 249,792), versus about -NT$32,835 million in Q2; ATM revenue grew 51.0% YoY"
         },
         "nextCheck": "2026 Q3 现金流量表与设备资本开支表 / Q3 2026 cash-flow and equipment-capex tables",
         "nextCheckDate": "2026-11",
         "reading": "within",
-        "readingAsOf": "2026-08-05"
+        "readingAsOf": "2026-10-29",
+        "readingNote": "设备资本开支高于 EBITDA、简单自由现金流为负两腿已连续两个季度（Q2、Q3）成立，但该触发器为合取条件，公司口径 ATM 营收同比 +51.0%（Q2 +36.3%）仍高于 20%，故未触发；净债务腿不在本次事实更新中评估。 / Capex above EBITDA and negative simple FCF have now held for two consecutive quarters (Q2, Q3), but the trigger is conjunctive and issuer-stated ATM revenue growth of +51.0% YoY (Q2 +36.3%) remains above 20%, so it is not met; the net-debt leg is not assessed in this factual pass."
       },
       {
         "id": "capacity-milestones",
@@ -11653,13 +11653,14 @@
           "en": "Top-five concentration rises above 50%, top ten above 65%, or the customer currently above 10% is lost without replacement volume"
         },
         "latest": {
-          "zh": "2026 Q2 ATM 前五大客户占 44%、前十大占 60%，一家客户超过 10%；仍在触发阈值以内",
-          "en": "In Q2 2026 ATM's top five were 44% and top ten 60% of revenue, with one customer above 10%; all remain inside the published thresholds"
+          "zh": "2026 Q3（6-K 业绩稿，2026-10-29），ATM 口径：前五大客户约占营收 46%（Q2 44%），前十大 63%（Q2 60%），有一家客户超过 10%",
+          "en": "Q3 2026 (6-K press release, 2026-10-29), ATM basis: the five largest customers were approximately 46% of net revenues (Q2 44%) and the top ten 63% (Q2 60%), with one customer above 10%"
         },
         "nextCheck": "每季 ATM 客户集中度表 / quarterly ATM customer-concentration table",
         "nextCheckDate": "2026-11",
         "reading": "within",
-        "readingAsOf": "2026-08-05"
+        "readingAsOf": "2026-10-29",
+        "readingNote": "前五 46% 低于 50%、前十 63% 低于 65%，仍有一家客户超过 10%（公司未披露是否为同一客户）。 / Top five at 46% is below 50% and top ten at 63% below 65%; one customer remains above 10% (the release does not say whether it is the same customer)."
       }
     ],
     "stanceRationale": {

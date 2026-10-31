@@ -3446,5 +3446,31 @@
       "digital-realty-2026:interconnection-0-1mw",
       "digital-realty-2026:development-power-capacity"
     ]
+  },
+  {
+    "id": "ase-technology-q3-2026-results-20261029",
+    "date": "2026-10-29",
+    "title": {
+      "zh": "日月光投控 2026 Q3：ATM 营收 NT$151,485 百万（同比 +51.0%），ATM 经营利润率 20.0%，计算占 ATM 34%",
+      "en": "ASE Technology Q3 2026: ATM revenue NT$151,485 million (+51.0% YoY), ATM operating margin 20.0%, computing 34% of ATM"
+    },
+    "detail": {
+      "zh": "据日月光投控 2026-10-29 以 Form 6-K 报送的 Q3 业绩稿与业绩简报：合并营收 NT$244,161 百万（同比 +44.8%、环比 +27.8%）；ATM 营收 NT$151,485 百万（同比 +51.0%、环比 +20.1%），毛利率 30.6%、经营利润率 20.0%（Q2 27.3% / 15.7%）；计算占 ATM 营收 34%（Q2 30%）。设备资本开支 US$2,104 百万，高于业绩简报美元图表所列 EBITDA US$1,814 百万（Q2 为 US$1,695 百万对 US$1,450 百万）；Q3 简单自由现金流约 -NT$75,390 百万。ATM 口径前五大客户约 46%、前十大 63%。证据边界：ATM 经营利润率高于 17% 目前只有一个季度；两份文件均未点名台积电之外的 AI 加速器封装项目、客户、晶圆来源或独立定价，也未重述产能里程碑日期；电话会转写未读。",
+      "en": "Per ASE Technology Holding's Q3 press release and earnings presentation furnished on Form 6-K on 2026-10-29: consolidated net revenues were NT$244,161 million (+44.8% YoY, +27.8% QoQ); ATM net revenues were NT$151,485 million (+51.0% YoY, +20.1% QoQ) at a 30.6% gross and 20.0% operating margin (Q2 27.3% / 15.7%); computing was 34% of ATM revenue (Q2 30%). Equipment capex of US$2,104 million exceeded EBITDA of US$1,814 million on the deck's US$ chart (Q2: US$1,695 million vs US$1,450 million); Q3 simple FCF was about -NT$75,390 million. On an ATM basis the top five customers were approximately 46% and the top ten 63%. Evidence limits: ATM operating margin has been above 17% for one quarter only; neither document names an accelerator program, customer, wafer source or independent pricing for packaging outside TSMC, or restates capacity-milestone dates; the call transcript was not read."
+    },
+    "crossChecks": [],
+    "scope": "report-monitoring",
+    "tickers": [
+      "ASX"
+    ],
+    "reportIds": [
+      "ase-technology-2026"
+    ],
+    "monitoringRefs": [
+      "ase-technology-2026:computing-mix-and-atm-margin",
+      "ase-technology-2026:ownership-outside-tsmc",
+      "ase-technology-2026:capex-and-free-cash-flow",
+      "ase-technology-2026:customer-concentration"
+    ]
   }
 ]
