@@ -3472,5 +3472,29 @@
       "ase-technology-2026:capex-and-free-cash-flow",
       "ase-technology-2026:customer-concentration"
     ]
+  },
+  {
+    "id": "innolight-q3-2026-results-20261030",
+    "date": "2026-10-30",
+    "title": {
+      "zh": "中际旭创 2026 Q3：收入 277.69 亿元（+171.83%），推算单季经营现金流转化率约 72.3%",
+      "en": "Zhongji Innolight Q3 2026: revenue RMB 27.769B (+171.83%), derived standalone operating-cash conversion about 72.3%"
+    },
+    "detail": {
+      "zh": "来源：中际旭创 2026-10-30 于巨潮资讯网披露的《2026 年第三季度报告》（未经审计，报告期截至 2026-09-30；董事会 2026-10-29 审议通过）。Q3 营业收入 277.69 亿元（+171.83%）、归母净利 85.87 亿元（+173.74%）、扣非归母净利 90.18 亿元（+190.13%），Q3 非经常性损益合计 −4.31 亿元（公司称上市公司股权投资公允价值变动损失减少归母净利约 4.40 亿元）；1–9 月收入 695.47 亿元（+178.13%）、归母净利 222.38 亿元（+211.81%）、经营现金流 80.08 亿元（+46.81%）。按 1–9 月减半年报推算：Q3 经营现金流约 62.09 亿元、转化率约 72.3%（Q2 −19.8%），Q3 合并毛利率约 46.61%（Q2 约 46.42%）；9 月末应收账款 173.09 亿元、存货 238.78 亿元，较 6 月末 +15.39%、+20.44%，低于单季收入环比 +24.63%。公司称 1–9 月汇兑损失约 13.87 亿元（Q3 约 6.78 亿元）、利息收入约 3.38 亿元（Q3 约 1.83 亿元）。证据边界：季报未经审计，全文 14 页（第一至四节及季度财务报表）已通读；Q3 营业成本与经营现金流为推算值；不含产能/产量/销量、ASP、模块毛利率、前五名客户或可插拔/NPO/CPO 分形态披露，因此量价拆解与架构校验本期无新证据。",
+      "en": "Source: Zhongji Innolight's 2026 Third Quarter Report, disclosed on CNINFO on 2026-10-30 (unaudited, period ended 2026-09-30; approved by the board on 2026-10-29). Q3 revenue was RMB 27.769B (+171.83%), parent net profit RMB 8.587B (+173.74%) and parent net profit ex-exceptionals RMB 9.018B (+190.13%); Q3 net non-recurring items were -RMB 0.431B (the company says fair-value losses on listed equity investments reduced parent net profit by about RMB 0.440B). 9M revenue was RMB 69.547B (+178.13%), parent net profit RMB 22.238B (+211.81%) and operating cash flow RMB 8.008B (+46.81%). Deriving Q3 as 9M less the interim: operating cash flow about RMB 6.209B, conversion about 72.3% (Q2 -19.8%), and consolidated gross margin about 46.61% (Q2 about 46.42%); receivables of RMB 17.309B and inventory of RMB 23.878B at end-September were +15.39% and +20.44% from end-June, below the +24.63% sequential rise in standalone revenue. The company cites 9M FX losses of about RMB 1.387B (Q3 about RMB 0.678B) and interest income of about RMB 0.338B (Q3 about RMB 0.183B). Evidence limits: the quarterly report is unaudited and was read in full (14 pages: Sections 1-4 and the quarterly financial statements); Q3 cost of sales and operating cash flow are derived; it contains no capacity/output/unit-sales, ASP, module gross margin, top-five customer or pluggable/NPO/CPO form-factor disclosure, so the volume-price decomposition and the architecture check receive no new evidence this period."
+    },
+    "crossChecks": [],
+    "scope": "report-monitoring",
+    "tickers": [
+      "300308.SZ"
+    ],
+    "reportIds": [
+      "innolight-2026"
+    ],
+    "monitoringRefs": [
+      "innolight-2026:module-gross-margin",
+      "innolight-2026:cash-conversion"
+    ]
   }
 ]
