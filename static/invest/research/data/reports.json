@@ -9850,7 +9850,7 @@
     "priceSymbol": "DLR",
     "title": "Digital Realty 深度研究报告 - AI 数据中心租赁与互联需求仪表盘",
     "titleEn": "Digital Realty Deep Research Report - Leasing and Interconnection Dashboard for AI Data Centers",
-    "summary": "AI 基础设施 datacenter-facility 层的租赁/互联需求校验。DLR 不直接解释 GPU、光模块或电力设备，而是验证 AI 数据中心需求是否转化为真实租约、backlog、互联节点和开发容量。2026Q2 财报（2026-07-23）：Core FFO/share（ex net promote）$2.13、cash renewal spread +25.4%；公司签下 $307M 年化 GAAP base rent 的 bookings（100% share）/ $208M（DLR share），其中 0-1MW + interconnection 贡献 $108M、占 DLR-share bookings 的 52%；季度末 signed-but-not-commenced backlog 为 record $1.9B（100% share）/ $1.4B（DLR share），但后者含约 $380M 收购相关增量，不能全部解释为本季有机签约；新签租约加权平均开租滞后从 19 个月收窄至 9 个月，future-development capacity 升至约 9GW。管理层把 2026 Core FFO/share（ex net promote）指引从 $8.00-8.10 上修至 $8.15-8.20。2026-07-31 完成此前推迟的当前价格估值复核：以 2026-07-30 收盘 $193.19 计，市值约 $69.1B、EV 约 $84.7B，对照上修后指引约 23.6x P/Core FFO、约 13.3x EV/TTM revenue，隐含要求升至约 18.3% Core FFO/share CAGR，高于中双位数的牛市情景。经营证据依然强劲，但股价跑在前面，立场由偏多调整为 neutral-watch / 中确信。",
+    "summary": "2026-10-31 — Q3 2026（季度截至 2026-09-30；8-K Ex 99.1/99.2 于 2026-10-29 发布，10-Q 于 2026-10-30 提交）总营业收入 $1.902B（据新闻稿同比 +21%，剔除 Q2 $201M promote income 后环比 +10%），Adjusted EBITDA $978M（同比 +13%，环比持平），Core FFO/share（ex net promote）$2.10（Q2 2026 为 $2.13，Q3 2025 为 $1.89）。总 bookings 创纪录：年化 GAAP base rent $855M（100% share）/ $627M（DLR share）（Q2 2026 为 $307M / $208M），其中 >1MW 创纪录 $474M、0-1MW $129.6M、interconnection $22.2M；0-1MW + interconnection 合计创纪录 $152M，占 DLR-share bookings 的 24%（Q2 2026 为 52%），演示材料称新增 155 个客户 logo。续约租约对应年化 cash rent $261M，续约租金 cash 口径 +11.8%、GAAP 口径 +17.0%（Q2 2026 cash 口径为 +25.4%）。本季新签租约至合同开租日的加权平均滞后为 17 个月（Q2 2026 为 9 个月）。Signed-but-not-commenced backlog 创纪录：$2.5B（100% share）/ $1,846M（DLR share）（Q2 末 $1,427M 加本季签约 $627M、减本季开租 $207M），其中计划 2026 年开租 $371M、2027 年 $831M、2028 年及以后 $643M（按签约时预计开租日）。Interconnection and other 收入 $131.4M（Q2 2026 为 $130.4M，Q3 2025 为 $120.4M），cross-connects 约 237,500 个（Q2 2026 约 235,500 个）。截至 2026-09-30，演示材料显示 in-place IT capacity 约 3GW、future development 约 10GW（合计约 13GW，100% share），在建约 1.5GW；补充材料开发表显示在建 1,464MW、已租 63%；Q3 土地收购合计 $742M。FY2026 指引上修：收入（不含 promote income）$7.050–7.125B、Adjusted EBITDA $3.800–3.850B、cash renewal spread 10.0–12.0%、Core FFO/share（ex net promote）$8.30–8.35；仅作为指引事实记录，不作为新的估值分母。所读文件未按 AI 与其他需求拆分 bookings，也未给出项目级电力获取或许可状态（10-Q 第二部分 Item 1A 未新增风险因素）；电话会本轮未读。估值仍按 2026-07-30 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。",
     "tags": [
       "AI数据中心",
       "REIT",
@@ -9859,7 +9859,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-10-31",
     "file": "/invest/research/reports/view.html?id=digital-realty-2026",
     "markdownFiles": {
       "zh": "/invest/research/Digital_Realty_深度研究报告_2026-07.md",
@@ -9869,12 +9869,10 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "补齐 datacenter-facility 层租赁校验：DLR 把上游 chip/neocloud/buildout 叙事接到真实租约、backlog、cross-connects 和开发容量",
-      "2026Q2（2026-07-23）Core FFO/share（ex net promote）$2.13、cash renewal spread +25.4%；2026 Core FFO/share 指引上修至 $8.15-8.20（ex net promote，Q1 为 $8.00-8.10）",
-      "Q2 bookings $307M（100% share）/$208M（DLR share），环比低于 Q1；0-1MW + interconnection $108M、占 DLR-share bookings 的 52%；backlog $1.9B/$1.4B，但 DLR-share 口径含约 $380M 收购相关增量，开租滞后收窄至 9 个月",
-      "2026-07-30 收盘 $193.19、市值约 $69.1B、EV 约 $84.7B、约 23.6x P/Core FFO，隐含要求约 18.3% Core FFO/share CAGR；需求仍强但股价已跑在基本面前面，立场下调为 neutral-watch"
+      "Q3 2026（季度截至 2026-09-30；8-K Ex 99.1/99.2 于 2026-10-29 发布，10-Q 于 2026-10-30 提交）：总 bookings 创纪录 $855M（100% share）/ $627M（DLR share），其中 >1MW 创纪录 $474M，0-1MW + interconnection 创纪录 $152M（占 DLR-share 24%，新增 155 个客户 logo）；续约 cash 口径 +11.8%（Q2 +25.4%）；新签租约开租滞后 17 个月（Q2 为 9 个月）；backlog 创纪录 $2.5B / $1,846M（2026 年 $371M、2027 年 $831M、2028 年及以后 $643M）；总营业收入 $1.902B（同比 +21%）、Adjusted EBITDA $978M、Core FFO/share（ex net promote）$2.10；约 3GW in-place + 约 10GW future development，在建 1,464MW（已租 63%）；FY2026 Core FFO/share（ex net promote）指引上修至 $8.30–8.35（仅记为指引事实）。",
+      "估值仍按 2026-07-30 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。"
     ],
-    "summaryEn": "Leasing and interconnection demand check for the AI-infrastructure data-center facility layer. DLR does not directly explain GPUs, optical modules or power equipment; it tests whether AI data-center demand converts into real leases, backlog, interconnection nodes and development capacity. Q2 2026 results (July 23, 2026): Core FFO/share (excluding net promote) was $2.13 and cash renewal spreads were +25.4%. The company signed $307M of annualized GAAP base-rent bookings at 100% share, or $208M at DLR share, including $108M from 0-1MW plus interconnection, or 52% of DLR-share bookings. Signed-but-not-commenced backlog was a record $1.9B at 100% share and $1.4B at DLR share, but the latter included about $380M of acquisition-related incremental backlog and cannot be read entirely as organic quarterly leasing; the weighted-average commencement lag narrowed from 19 months to nine months and future-development capacity rose to about 9GW. Management raised 2026 Core FFO/share (excluding net promote) guidance to $8.15-8.20. The 2026-07-31 pass completed the deferred current-price valuation review: at the $193.19 close on 2026-07-30, market cap is about $69.1B and EV about $84.7B, or about 23.6x P/Core FFO and 13.3x EV/TTM revenue on the raised guide, lifting the implied requirement to roughly 18.3% Core FFO/share CAGR — above the mid-teens bull case. Operating evidence remains strong but the share price has run ahead of it, so the stance moves from constructive to neutral-watch / medium conviction.",
+    "summaryEn": "2026-10-31 — Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1/99.2 released 2026-10-29, 10-Q filed 2026-10-30) total operating revenues were $1.902B (per the release +21% YoY, and +10% QoQ excluding $201M of Q2 promote income), Adjusted EBITDA was $978M (+13% YoY, in line QoQ) and Core FFO/share (excluding net promote) was $2.10 (Q2 2026 $2.13; Q3 2025 $1.89). Total bookings were a record $855M of annualized GAAP base rent at 100% share / $627M at DLR share (Q2 2026: $307M / $208M), including a record $474M from >1MW, $129.6M from 0-1MW and $22.2M from interconnection; 0-1MW plus interconnection was a record $152M, or 24% of DLR-share bookings (Q2 2026: 52%), and the presentation reports 155 new logos. Renewal leases representing $261M of annualized cash rent re-priced +11.8% on a cash basis and +17.0% on a GAAP basis (Q2 2026: +25.4% cash). The weighted-average lag between new leases signed and contractual commencement was 17 months (Q2 2026: nine months). Signed-but-not-commenced backlog was a record $2.5B at 100% share / $1,846M at DLR share (Q2-end $1,427M plus $627M signed less $207M commenced), with $371M scheduled to commence in 2026, $831M in 2027 and $643M in 2028+ (estimated commencement dates at signing). Interconnection and other revenue was $131.4M (Q2 2026 $130.4M; Q3 2025 $120.4M) and cross-connects were about 237,500 (Q2 2026 about 235,500). As of 2026-09-30 the presentation shows about 3GW in-place and about 10GW future-development IT capacity (about 13GW total, 100% share) and about 1.5GW under construction; the supplement's development table shows 1,464MW under construction, 63% leased; Q3 land acquisitions totalled $742M. FY2026 guidance was raised to revenue (excluding promote income) of $7.050–7.125B, Adjusted EBITDA of $3.800–3.850B, a cash renewal spread of 10.0–12.0% and Core FFO/share (excluding net promote) of $8.30–8.35, recorded as guidance facts, not valuation denominators. The documents read do not split bookings by AI versus other demand and give no project-level power-availability or permitting status (the 10-Q's Part II Item 1A adds no new risk factors); the earnings call was not read. Valuation remains anchored to the historical 2026-07-30 basis; new actuals/guidance await Mode B. Price, valuation numbers, stance and conviction are unchanged.",
     "chainLayer": "datacenter-facility",
     "coverageTier": "full",
     "chainRole": "dashboard",
@@ -9927,7 +9925,7 @@
       }
     ],
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "2026Q2",
+    "reportedPeriod": "2026Q3",
     "related": [
       "coreweave-2026",
       "nebius-2026",
@@ -9990,13 +9988,14 @@
           "en": "smaller-scale and interconnection bookings keep growing, proving demand is not only from single large tenants"
         },
         "latest": {
-          "zh": "2026Q2 0-1MW + interconnection bookings 为 record $108M（Q1 为 $98M），占 DLR-share bookings 的 52%；同期 cash renewal spread +25.4%。",
-          "en": "Q2 2026 0-1MW plus interconnection bookings were a record $108M (Q1 was $98M), representing 52% of DLR-share bookings; cash renewal rate increases were +25.4% in the quarter."
+          "zh": "Q3 2026（8-K Ex 99.1/99.2，2026-10-29）：0-1MW + interconnection bookings 创纪录 $152M（DLR share；0-1MW $129.6M、interconnection $22.2M；Q2 为 $108M，其中 0-1MW $87.8M、interconnection $20.5M），新增 155 个客户 logo；因 >1MW 同期创纪录 $474M，该类占 DLR-share bookings 降至 24%（Q2 为 52%）。Interconnection and other 收入 $131.4M（Q2 为 $130.4M，Q3 2025 为 $120.4M）；cross-connects 约 237,500 个（Q2 约 235,500 个）。",
+          "en": "Q3 2026 (8-K Ex 99.1/99.2, 2026-10-29): 0-1MW plus interconnection bookings were a record $152M at DLR share (0-1MW $129.6M, interconnection $22.2M; Q2: $108M, of which 0-1MW $87.8M and interconnection $20.5M), with 155 new logos added; the category fell to 24% of DLR-share bookings (Q2: 52%) because >1MW bookings rose to a record $474M in the same quarter. Interconnection and other revenue was $131.4M (Q2 $130.4M; Q3 2025 $120.4M); cross-connects were about 237,500 (Q2 about 235,500)."
         },
         "nextCheck": "2026-Q3 product mix",
         "nextCheckDate": "2026-10",
         "reading": "within",
-        "readingAsOf": "2026-07-23"
+        "readingAsOf": "2026-10-29",
+        "readingNote": "0-1MW 与 interconnection 两类 bookings 均环比增长、合计创纪录，并新增 155 个客户 logo，满足“继续增长”；占比下降源于同期 >1MW 创纪录，不是该触发器的反向条件。 / Both 0-1MW and interconnection bookings grew QoQ to a combined record with 155 new logos, meeting 'keep growing'; the lower share reflects record >1MW bookings in the same quarter and is not the trigger's adverse condition."
       },
       {
         "id": "development-power-capacity",
@@ -10011,13 +10010,14 @@
           "en": "about 9GW of future development secures power, permits and capital, or slows due to grid/equipment/capital constraints"
         },
         "latest": {
-          "zh": "2026Q2 presentation（2026-07-23）：约 3GW in-place + 约 9GW future development，总 IT capacity 约 12GW；future development 的兑现仍取决于电力、许可与资本。",
-          "en": "Q2 2026 presentation (2026-07-23): about 3GW in-place plus about 9GW future development, or about 12GW total IT capacity; conversion of future development still depends on power, permitting, and capital."
+          "zh": "Q3 2026 演示材料与补充材料（2026-10-29；截至 2026-09-30，100% share）：in-place 约 3GW + future development 约 10GW，合计约 13GW（Q2 为约 3GW + 约 9GW）；演示材料称开发容量环比增长 17%（含土地与 shell），在建约 1.5GW；补充材料开发表显示待开发土地 7,850MW、shell 500MW、在建 1,464MW（已租 63%）。Q3 土地收购 $742M（含印第安纳波利斯附近可支持逾 1GW 的地块、夏洛特最多 600MW）。Q3 开发 capex $1,154.5M（Q2 为 $747.1M）；FY2026 开发 capex 指引（扣除合作方出资）维持 $4,250–4,750M。10-Q 称 Q3 稳定资产 utilities 费用同比增加 $63.7M，主要因部分物业电价上涨（主要在 EMEA 与 APAC）。新闻稿、补充材料、演示材料与 10-Q 均未给出项目级电力获取或许可状态（10-Q 第二部分 Item 1A 未新增风险因素）。",
+          "en": "Q3 2026 presentation and supplement (2026-10-29; as of 2026-09-30, 100% share): about 3GW in-place plus about 10GW future development, about 13GW total (Q2: about 3GW + about 9GW); the presentation states 17% QoQ development-capacity growth (including land and shell) and about 1.5GW under construction; the supplement's development table shows 7,850MW of land and 500MW of shell held for future development and 1,464MW under construction, 63% leased. Q3 land acquisitions were $742M (including a site near Indianapolis to support over 1GW and Charlotte land for up to 600MW). Q3 development capex was $1,154.5M (Q2 $747.1M); the FY2026 development capex guide (net of partner contributions) is unchanged at $4,250–4,750M. The 10-Q says Q3 stabilized utilities expense rose $63.7M YoY primarily due to higher power pricing at certain properties, mainly in EMEA and APAC. No project-level power-availability or permitting status appears in the release, supplement, presentation or 10-Q (Part II Item 1A adds no new risk factors)."
         },
         "nextCheck": "Q3 2026 development pipeline update",
         "nextCheckDate": "2026-10",
         "reading": "unclear",
-        "readingAsOf": "2026-07-23"
+        "readingAsOf": "2026-10-29",
+        "readingNote": "容量、在建与开发 capex 事实已核；电力获取与许可两腿在所读文件中无项目级披露，资本腿属资本输入、本包不判，未知腿不判 within。 / Capacity, under-construction and development-capex facts are verified; the power and permitting legs have no project-level disclosure in the documents read and the capital leg is a capital input not graded here, so the unknown legs are not graded within."
       },
       {
         "id": "leverage-valuation-risk",
