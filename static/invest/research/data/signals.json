@@ -3496,5 +3496,30 @@
       "innolight-2026:module-gross-margin",
       "innolight-2026:cash-conversion"
     ]
+  },
+  {
+    "id": "cameco-q3-2026-results-20261030",
+    "date": "2026-10-30",
+    "title": {
+      "zh": "Cameco 2026 Q3：产量指引上沿由 2,150 万磅降至 2,050 万磅，Key Lake 停修延续至 Q4（相关监测项待复核裁定）",
+      "en": "Cameco Q3 2026: production guide top end lowered to 20.5M lb as the Key Lake outage runs into Q4 (related items await reviewer adjudication)"
+    },
+    "detail": {
+      "zh": "来源：Cameco 2026-10-30 以 Form 6-K 报送的 Q3 新闻稿（附件 99.1）与 MD&A（附件 99.2），美韩框架另见 2026-09-30 新闻稿（2026-10-01 报送的 6-K）。Q3 收入 6.19 亿加元、净利润 0.43 亿加元、调整后净亏损 0.02 亿加元、调整后 EBITDA 2.67 亿加元；铀分部交付 560 万磅、权益产量 350 万磅、平均实现价格 65.78 美元/磅。2026 年权益产量指引由 1,950-2,150 万磅收窄至 1,950-2,050 万磅（集中在 McArthur River/Key Lake，公司归因于时点确定性），交付收窄至 2,950-3,050 万磅，单位销售成本指引上调至 67.00-70.00 加元/磅；Key Lake 选厂停修延续至 Q4。Westinghouse 权益份额调整后 EBITDA 1.43 亿加元（前九个月 4.27 亿），3.70-4.30 亿美元指引维持；美韩至多 1,200 亿美元框架不具约束力。2026-09-30 交付承诺仍为年均约 2,800 万磅；Cameco 转载长期价 96.50、现货 89.63 美元/磅。本信号对 realized-vs-market-price-gap 与 mine-supply-reliability 两个监测项不作评级，待复核人裁定。证据边界：未读电话会；中期财务报表（附件 99.3）未单独阅读；本季新签合同量与定价机制未披露；Key Lake 完工日期未公布；与美国政府的最终协议截至 MD&A 日期未签署。",
+      "en": "Source: Cameco's Q3 release (Exhibit 99.1) and MD&A (Exhibit 99.2) furnished on Form 6-K on 2026-10-30, with the US-Korea framework also in its 2026-09-30 release (6-K filed 2026-10-01). Q3 revenue was C$619M, net earnings C$43M, adjusted net loss C$2M and adjusted EBITDA C$267M; the uranium segment delivered 5.6M lb, produced 3.5M lb (our share) and realized US$65.78/lb on average. The 2026 production guide was narrowed from 19.5-21.5M lb to 19.5-20.5M lb our share (at McArthur River/Key Lake, attributed by the company to timing certainty), deliveries to 29.5-30.5M lb, and unit cost of sales guidance raised to C$67.00-70.00/lb; the Key Lake mill outage carried into Q4. Westinghouse our-share adjusted EBITDA was C$143M (C$427M for nine months) with the US$370-430M guide maintained; the up-to-US$120B US-Korea framework is non-binding. Commitments at 2026-09-30 still average about 28M lb/year; Cameco-reported prices were US$96.50/lb long-term and US$89.63/lb spot. This signal assigns no grade to the realized-vs-market-price-gap or mine-supply-reliability items, which await reviewer adjudication. Evidence limits: the call was not read; the interim financial statements (Exhibit 99.3) were not separately read; volumes and pricing mechanisms of contracts signed in the quarter are not disclosed; no Key Lake completion date is published; definitive agreements with the US government were unsigned at the MD&A date."
+    },
+    "crossChecks": [],
+    "scope": "report-monitoring",
+    "tickers": [
+      "CCJ"
+    ],
+    "reportIds": [
+      "cameco-2026"
+    ],
+    "monitoringRefs": [
+      "cameco-2026:term-vs-spot-spread",
+      "cameco-2026:contract-book-depth",
+      "cameco-2026:westinghouse-doe-conversion"
+    ]
   }
 ]
