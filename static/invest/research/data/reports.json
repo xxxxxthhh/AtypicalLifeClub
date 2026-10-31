@@ -10265,8 +10265,8 @@
     },
     "title": "Cameco 深度研究报告 - 核燃料循环对核电基荷叙事的上游约束检验",
     "titleEn": "Cameco Deep Research Report - Upstream Constraint Check on the Nuclear Baseload Story",
-    "summary": "AI 基础设施书 resources 层的公共约束初始覆盖：电力层用 constellation-energy-2026 和 oklo-2026 押注核电基荷，但前者全文没有出现过『铀』字，后者把 fuel-supply 列为常设监测项却没有上游报告可对照。本报告提供这份读数，结论是否定的：按 2026 年披露，铀矿供应并非绑定约束——现货在 85 美元/磅附近横盘五个月而成交量从 1,200 万磅升至 1,800 万磅，最大的西方生产商 Cameco 自己要买走所卖量的约三分之一（2026 年交付 2,900-3,200 万磅 vs 产量 1,950-2,150 万磅），真正吃紧的是转化与浓缩（转化现货 62.50 美元/kgU 高于北美长期价 55.25 美元/kgU），而卡住先进堆的 HALEU 是 Cameco 不生产的浓缩产品——Cameco 自己的 MD&A 记录的是 Centrus 而非 Cameco 与 Oklo 签署 HALEU 商业协议。公司层面：2026 Q1（季度截至 2026-03-31、05-05 发布）收入 8.45 亿加元（+7%）、调整后 EBITDA 5.09 亿加元（+44%），但平均实现价格仅 66.21 美元/磅，而公司自己的敏感性表显示现货每涨 5 美元/磅调整后净利润反而减少 100 万加元；2026 年收入指引在 Q2 财报中上调至 33.20-35.70 亿加元，但其 34.45 亿加元中值仍低于 2025 财年的 34.82 亿加元。以 2026-07-30 收盘 88.23 美元为锚（较 1 月 28 日高点 134.09 美元低 34.2%），市值约 384 亿美元 / 539 亿加元、按截至 2026-06-30 追溯十二个月计约 152x 报告盈利、约 102x 调整后净利润、约 29.9x 企业价值/调整后 EBITDA、股息率 0.19%。30% 牛市 / 40% 基准 / 30% 熊市对称网格，初始立场中性观察 / 中确信。 2026-07-31 更新：Q2 已发布（净利润 0.25 亿加元、调整后净利润 0.77 亿加元、调整后 EBITDA 3.91 亿加元），铀分部指引上调、产量指引不变，不及一致预期源于 Westinghouse 转为 0.10 亿加元净亏损；同日 Westinghouse 就拟议 IPO 保密递交 Form S-1。立场维持中性观察 / 中确信。",
-    "summaryEn": "Initial common-constraint coverage for the AI-infrastructure book's resources layer. The power layer bets on nuclear baseload through constellation-energy-2026 and oklo-2026, but the former never mentions uranium anywhere in its body and the latter carries fuel-supply as a standing monitoring item with no upstream report to grade it against. This report supplies that reading, and the answer is negative: on 2026 disclosure, uranium mine supply is not the binding constraint. Spot went sideways near US$85/lb for five months while quarterly volume rose from 12M to 18M lb, and Cameco - the largest western producer - buys roughly a third of what it sells (29-32M lb of 2026 deliveries against 19.5-21.5M lb of production). The genuinely tight steps are conversion and enrichment (conversion spot at US$62.50/kgU sits above the North American long-term price of US$55.25/kgU), and HALEU, the fuel that gates advanced reactors, is an enrichment product Cameco does not make - its own MD&A records Centrus, not Cameco, signing a HALEU agreement with Oklo. At the company level, Q1 2026 (quarter ended 2026-03-31, reported 05-05) delivered revenue of C$845M (+7%) and adjusted EBITDA of C$509M (+44%), but the average realized price was only US$66.21/lb, and Cameco's own sensitivity table shows a US$5/lb rise in spot lowering adjusted net earnings by C$1M; 2026 revenue guidance was raised on the Q2 print to C$3,320-3,570M, but its C$3,445M midpoint still sits below FY2025's C$3,482M. Anchored to the 2026-07-30 close of US$88.23 (34.2% below the January 28 high of US$134.09), market cap is ~US$38.4B / C$53.9B at ~152x trailing reported earnings, ~102x trailing adjusted net earnings and ~29.9x EV/trailing adjusted EBITDA on the twelve months ended 2026-06-30 and a 0.19% dividend yield. A symmetric 30% bull / 40% base / 30% bear grid opens the initiation at neutral-watch / medium conviction. Updated 2026-07-31: Q2 landed (net earnings C$25M, adjusted net earnings C$77M, adjusted EBITDA C$391M); the uranium outlook was raised and the production outlook held, and the consensus miss came from Westinghouse swinging to a C$10M net loss. Westinghouse separately submitted a confidential draft Form S-1 for a proposed IPO the same day. Stance holds at neutral-watch / medium conviction.",
+    "summary": "2026-10-31 — 2026 Q3（季度截至 2026-09-30，2026-10-30 以 Form 6-K 发布）收入 6.19 亿加元、净利润 0.43 亿加元、调整后净亏损 0.02 亿加元、调整后 EBITDA 2.67 亿加元；铀分部权益产量 350 万磅、交付 560 万磅、平均实现价格 65.78 美元/磅（91.76 加元/磅）、调整后 EBITDA 1.79 亿加元。Westinghouse 权益份额净亏损 0.24 亿加元、调整后 EBITDA 1.43 亿加元，前九个月 4.27 亿加元，2026 年 3.70-4.30 亿美元权益份额指引维持。2026 年权益产量指引由 1,950-2,150 万磅收窄至 1,950-2,050 万磅（McArthur River/Key Lake 1,000-1,150 → 1,000-1,050 万磅权益），交付由 2,900-3,200 万磅收窄至 2,950-3,050 万磅，单位销售成本指引上调至 67.00-70.00 加元/磅；Key Lake 选厂检修停产延续至 Q4、新设施调试中。2026-09-30 交付承诺仍为 2026-2030 年年均约 2,800 万磅（2029-2030 低于均值）；Cameco 转载的 2026-09-30 长期价 96.50 美元/磅、现货 89.63 美元/磅。估值、价格锚、情景网格、立场与确信度仍按 2026-07-30 历史基础，Q3 实绩待 Mode B。",
+    "summaryEn": "2026-10-31 — Q3 2026 (quarter ended 2026-09-30, furnished on Form 6-K 2026-10-30): revenue C$619M, net earnings C$43M, an adjusted net loss of C$2M and adjusted EBITDA of C$267M; the uranium segment produced 3.5M lb (our share), delivered 5.6M lb at an average realized price of US$65.78/lb (C$91.76/lb) and earned C$179M of adjusted EBITDA. Westinghouse contributed an our-share net loss of C$24M and adjusted EBITDA of C$143M (C$427M for nine months), with the US$370-430M our-share 2026 guide maintained. The 2026 production outlook was narrowed from 19.5-21.5M lb to 19.5-20.5M lb our share (McArthur River/Key Lake 10.0-11.5M to 10.0-10.5M lb our share), deliveries from 29-32M lb to 29.5-30.5M lb, and unit cost of sales guidance raised to C$67.00-70.00/lb; the Key Lake mill outage carried into Q4 with commissioning underway. Commitments at 2026-09-30 still average about 28M lb/year for 2026-2030 (2029-2030 below average); Cameco-reported prices at 2026-09-30 were US$96.50/lb long-term and US$89.63/lb spot. Valuation, the price anchor, the scenario grid, stance and conviction remain on the 2026-07-30 historical basis; Q3 actuals await Mode B.",
     "tags": [
       "核能",
       "铀",
@@ -10275,7 +10275,7 @@
     ],
     "category": "nuclear",
     "date": "2026-07-31",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-10-31",
     "file": "/invest/research/reports/view.html?id=cameco-2026",
     "markdownFiles": {
       "zh": "/invest/research/Cameco_深度研究报告_2026-07.md",
@@ -10285,11 +10285,8 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "上游约束检验的答案是否定的：铀矿供应不卡核电基荷，真正紧的是转化与浓缩；HALEU 属于 Centrus/Urenco/DOE，不属于 Cameco",
-      "oklo-2026 的 fuel-supply 监测项应改按浓缩产能评级——Cameco 的 MD&A 记录的是 Centrus 与 Oklo 签 HALEU 协议；constellation-energy-2026 全文无『铀』字",
-      "2026 Q1 收入 8.45 亿加元（+7%）、调整后 EBITDA 5.09 亿加元（+44%），但实现价格仅 66.21 美元/磅 vs 现货 84.25、长期价 91.50 美元",
-      "公司自公布的敏感性：现货每涨 5 美元/磅，调整后净利润 −100 万加元、现金流 −1,600 万加元；即使现货翻两番到 160 美元，2026 实现价也只到 70 美元",
-      "股价 88.23 美元（2026-07-30 收盘、较 1 月高点 −34.2%）：按截至 2026-06-30 追溯十二个月计约 102x 调整后净利润、约 29.9x 企业价值/调整后 EBITDA、股息率 0.19%；30/40/30 对称网格，初始中性观察 / 中确信"
+      "2026 Q3（2026-10-30 发布）：收入 6.19 亿加元、调整后 EBITDA 2.67 亿加元；铀实现价格 65.78 美元/磅；权益产量指引收窄至 1,950-2,050 万磅、交付 2,950-3,050 万磅，Key Lake 停修延续至 Q4；Westinghouse 3.70-4.30 亿美元权益份额指引维持；2026-09-30 长期价 96.50、现货 89.63 美元/磅",
+      "估值仍按 2026-07-30 历史基础；新实绩待 Mode B，价格、估值数字、立场和确信度未更新。"
     ],
     "chainLayer": "resources",
     "coverageTier": "full",
@@ -10297,7 +10294,7 @@
     "stance": "neutral-watch",
     "conviction": "medium",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q2 2026",
+    "reportedPeriod": "Q3 2026",
     "related": [
       "oklo-2026",
       "constellation-energy-2026",
@@ -10339,12 +10336,13 @@
           "en": "the long-term indicator falls back toward or below spot, or stalls below about US$90/lb for two consecutive quarters"
         },
         "latest": {
-          "zh": "2026 上半年长期价连续六个月上涨：1 月 89.00 至 6 月 95.50 美元/磅，同期现货由 94.28 降至 85.00 美元并横盘五个月；6 月价差 +10.50 美元，Cameco 称长期价以不变价计接近 2012 年以来最高（来源为 Cameco 转载的 UxC/TradeTech 月末均价）",
-          "en": "the long-term price rose in each of the first six months of 2026, from US$89.00 in January to US$95.50 in June, while spot fell from US$94.28 to US$85.00 and went sideways for five months; the June spread was +US$10.50 and Cameco describes the long-term price as approaching its highest since 2012 in constant dollars (source: Cameco's republished UxC/TradeTech month-end averages)"
+          "zh": "Cameco 2026 Q3 MD&A（季度截至 2026-09-30；2026-10-30 以 Form 6-K 报送）转载的 TradeTech 与 UxC 平均价：2026-09-30 长期价 96.50 美元/磅（2026-06-30 为 95.50、2026-03-31 为 91.50），现货 89.63 美元/磅（85.00、84.25）；长期价减现货的价差由 +10.50 美元收窄至 +6.87 美元，原因是现货涨幅大于长期价；Cameco 称长期价以 2026 年不变价计接近 2011 年以来最高。",
+          "en": "Cameco's Q3 2026 MD&A (quarter ended 2026-09-30; furnished on Form 6-K 2026-10-30) republishes the average of TradeTech and UxC prices: at 2026-09-30 the long-term price was US$96.50/lb (US$95.50 at 2026-06-30, US$91.50 at 2026-03-31) and spot US$89.63/lb (US$85.00, US$84.25); the term-minus-spot spread narrowed from +US$10.50 to +US$6.87 because spot rose more than the term price, and Cameco describes the long-term price as approaching its highest level since 2011 in 2026 constant dollars."
         },
         "nextCheck": "每月 UxC/TradeTech 月末均价 / monthly UxC and TradeTech month-end averages",
         "reading": "within",
-        "readingAsOf": "2026-06-30"
+        "readingAsOf": "2026-10-30",
+        "readingNote": "阈内：长期价 96.50 美元高于现货 89.63 美元且本季上升 1.00 美元，既未回落至现货附近或以下，也未停在 90 美元以下；价差收窄来自现货上涨而非长期价回落。 / Within: the US$96.50 long-term price sits above the US$89.63 spot and rose US$1.00 in the quarter, so it neither fell back toward or below spot nor stalled below US$90; the narrower spread reflects spot rising, not the term price falling."
       },
       {
         "id": "realized-vs-market-price-gap",
@@ -10379,12 +10377,13 @@
           "en": "the five-year average commitment falls below about 25M lb, or the 2029-2030 slots fill at base-escalated rather than high-ceiling market-related pricing"
         },
         "latest": {
-          "zh": "2026-03-31 时点：2026 至 2030 年年均约 2,800 万磅交付承诺，2026-2028 年高于该均值、2029-2030 年低于该均值；管理层表示预期继续以市场挂钩机制铺入能捕捉更大上行的量",
-          "en": "at 2026-03-31, commitments average about 28M lb per year from 2026 through 2030, above that average in 2026-2028 and below it in 2029-2030, with management saying it expects to keep layering in volumes that capture greater upside using market-related mechanisms"
+          "zh": "2026-09-30（Q3 MD&A，2026-10-30 以 Form 6-K 报送）：交付承诺为 2026 至 2030 年年均约 2,800 万磅（新闻稿表述为『超过 2,800 万磅』），2026-2028 年高于该均值、2029-2030 年低于该均值；管理层称预期继续以市场挂钩定价机制铺入能捕捉更大上行的量。新闻稿与 MD&A 的营销、合同与价格敏感性章节均未披露本季新签合同的量或定价机制。",
+          "en": "At 2026-09-30 (Q3 MD&A, furnished on Form 6-K 2026-10-30), commitments require delivery of an average of about 28M lb per year from 2026 through 2030 (the release says 'over 28 million pounds'), above that average in 2026-2028 and below it in 2029-2030; management says it expects to continue layering in volumes that capture greater upside using market-related pricing mechanisms. Neither the release nor the MD&A's marketing, contracting and price-sensitivity sections discloses the volumes or pricing mechanisms of contracts signed in the quarter."
         },
         "nextCheck": "每季 MD&A 的合同签订说明 / quarterly MD&A contracting commentary",
-        "reading": "within",
-        "readingAsOf": "2026-05-05"
+        "reading": "unclear",
+        "readingAsOf": "2026-10-30",
+        "readingNote": "读数不明：五年均值约 2,800 万磅，高于约 2,500 万磅的门槛，第一条未触发；但 Q3 文件未披露本季新签合同的量与定价机制，2029-2030 年空档以何种条款填充无法观察（管理层表述是意向而非证据），第二条未知。 / Unclear: the about-28M lb five-year average sits above the ~25M lb threshold, so the first clause did not fire; but the Q3 documents disclose no volumes or pricing mechanisms for contracts signed in the quarter, so the terms on which 2029-2030 fill cannot be observed (management's statement is intent, not evidence) and the second clause is unknown."
       },
       {
         "id": "westinghouse-doe-conversion",
@@ -10399,12 +10398,13 @@
           "en": "definitive agreements slip past 2026, the DOE conditional commitment lapses, or the US$370-430M our-share Westinghouse adjusted EBITDA guide is cut"
         },
         "latest": {
-          "zh": "2025 年 10 月与美国政府签署战略伙伴关系，总投资价值至少 800 亿美元；2026-06-23 能源部就至多 10 台 AP1000 的长周期设备给出至多 175 亿美元的有条件承诺，尚需技术、法律、环境与财务条件与最终协议；2026 年 Westinghouse 指引本身即以签署最终协议、年内至少一个项目开工为假设；2026 Q1 权益口径净亏损 4,600 万加元、调整后 EBITDA 1.22 亿加元；公司已撤回 Westinghouse 五年展望　**2026-07-31 更新：** 2026 Q2 权益收益转为给 Cameco 带来 0.10 亿加元净亏损（调整后 EBITDA 权益份额 1.63 亿加元），而 2025 Q2 曾因捷克 Dukovany 项目贡献约 1.70 亿美元；同日 Westinghouse 就拟议 IPO 保密递交 Form S-1 注册草案——发行股数、价格区间与时间表均未确定，取决于市场条件，Cameco 持股 49%、Brookfield 51%。该备案确立的是流程而非估值，也未解决 49% 与 100% 收入口径之争。　Q2 披露 Westinghouse 调整后 EBITDA 权益份额为 1.63 亿加元（2025 Q2 为 3.52 亿加元），上半年为 2.84 亿加元（2025 年同期 4.45 亿加元）；Q2 新闻稿既未重述也未下调 3.70-4.30 亿美元的全年权益份额指引，而 2.84 亿加元在半年时点约为指引低端的一半，按运行率计进度在轨，尽管同比下降约 36%。该条因此评为读数不明而非已触发；仍未解决的是触发条件同时点名的最终协议与能源部转化时点。",
-          "en": "the October 2025 US government strategic partnership carries an aggregate investment value of at least US$80B; on 2026-06-23 the DOE gave a conditional commitment of up to US$17.5B for long-lead items for up to 10 AP1000s, still subject to technical, legal, environmental and financial conditions and to definitive agreements; the FY2026 Westinghouse guide itself assumes those agreements are signed and that work advances on at least one project this year; Q1 2026 showed an our-share net loss of C$46M on adjusted EBITDA of C$122M; the five-year Westinghouse outlook has been withdrawn **Updated 2026-07-31:** Q2 2026 equity earnings swung to a net loss of C$10M to Cameco (adjusted EBITDA share C$163M) against roughly US$170M in Q2 2025 from the Czech Dukovany award, and Westinghouse confidentially submitted a draft Form S-1 for a proposed IPO on 2026-07-31 — share count, price range and timetable undetermined, subject to market conditions, Cameco 49% / Brookfield 51%. The filing establishes a process, not a value, and does not resolve the 49%-vs-100% revenue-basis ambiguity. Q2 disclosed our-share Westinghouse adjusted EBITDA of C$163M (Q2 2025: C$352M) and C$284M for the six months (2025: C$445M); the Q2 release neither restated nor cut the US$370-430M full-year our-share guide, and C$284M is roughly half the low end at the half-year mark, so the guide is on pace on a run-rate basis despite the 36% year-over-year decline. Graded unclear rather than breached on that leg; what remains unresolved is the definitive-agreement and DOE-conversion timing the trigger also names."
+          "zh": "2026 Q3（2026-10-30 以 Form 6-K 报送；Cameco 49% 权益份额，按加元权益法入账）：Westinghouse 净亏损 0.24 亿加元（2025 Q3 净亏损 0.32 亿），调整后 EBITDA 1.43 亿加元（1.24 亿），收入 8.95 亿加元；前九个月净亏损 0.80 亿加元（2025 年同期净利润 0.32 亿），调整后 EBITDA 4.27 亿加元（5.69 亿）。Cameco 继续预期 2026 年 Westinghouse 调整后 EBITDA 权益份额为 3.70-4.30 亿美元；该指引仍假设就美国新建 AP1000 签署最终协议、年内至少一个项目推进，MD&A 称与美国政府最终协议的延迟可能影响指引。能源部 175 亿美元长周期设备承诺仍为有条件，须满足技术、法律、环境与财务条件。另：2026-09-30 美国商务部与韩国宣布不具约束力的框架，预期韩国投资至多 1,200 亿美元，用于在美建设至多八座反应堆（六座 AP1000、两座 APR1400；Westinghouse 在每座 APR1400 的预期范围约 20 亿美元），须以最终协议等为前提，并预期于 2026 年底前转移 100 亿美元预付款。",
+          "en": "Q3 2026 (Form 6-K furnished 2026-10-30; Cameco's 49% share, equity-accounted in C$): Westinghouse net loss C$24M (Q3 2025: C$32M loss), adjusted EBITDA C$143M (C$124M) on revenue of C$895M; nine months net loss C$80M (2025: C$32M earnings), adjusted EBITDA C$427M (C$569M). Cameco continues to expect its 2026 share of Westinghouse adjusted EBITDA of US$370-430M; the outlook still assumes definitive agreements for new US AP1000s and work advancing on at least one project this year, and the MD&A says delays in finalizing the definitive agreements with the US government may affect it. The DOE's US$17.5B long-lead-item commitment remains conditional on technical, legal, environmental and financial conditions. Separately, on 2026-09-30 the US Department of Commerce and the Republic of Korea announced a non-binding framework anticipating up to US$120B of Korean investment for up to eight US reactors (six AP1000s and two APR1400s; Westinghouse's contemplated scope about US$2B per APR1400), subject to definitive agreements, with a US$10B advance payment anticipated by end-2026."
         },
         "nextCheck": "能源部与 Westinghouse 的最终协议公告及首个 AP1000 最终投资决定（事件驱动）/ DOE and Westinghouse definitive-agreement announcements and the first AP1000 FID (event-driven)",
         "reading": "unclear",
-        "readingAsOf": "2026-07-31"
+        "readingAsOf": "2026-10-30",
+        "readingNote": "读数不明：3.70-4.30 亿美元权益份额指引维持，该腿未触发；能源部承诺仍为有条件、未见失效；截至 MD&A 日期最终协议仍未签署，但 2026 年尚未结束，『滑出 2026 年』一腿要到年底才能判定；韩美框架不具约束力，不构成最终协议。 / Unclear: the US$370-430M our-share guide was maintained, so that leg did not fire; the DOE commitment is still conditional and not reported as lapsed; definitive agreements were still unsigned at the MD&A date, but 2026 has not ended, so the slip-past-2026 leg cannot be graded until year-end; the US-Korea framework is non-binding and is not a definitive agreement."
       },
       {
         "id": "mine-supply-reliability",
