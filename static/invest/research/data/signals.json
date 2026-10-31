@@ -3496,5 +3496,31 @@
       "innolight-2026:module-gross-margin",
       "innolight-2026:cash-conversion"
     ]
+  },
+  {
+    "id": "coinbase-q3-2026-results-20261029",
+    "date": "2026-10-29",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Coinbase Q3 订阅服务收入 $570.2M，交易份额10.7%",
+      "en": "Coinbase Q3 subscription revenue $570.2M, trading share 10.7%"
+    },
+    "detail": {
+      "zh": "来源：2026-10-29 发行人演示稿及10-Q。总收入$1,215.6M，订阅服务$570.2M在$500–580M指引内，Q4指引$550–630M；调整后EBITDA$332.9M，FY2026费用指引$4,150–4,300M仍是预测。公司交易份额10.3%→10.7%，本期定义已按Stablecoin Conversion调整。新泽西拟撤令不等于完成。监管复合读数unclear，未认证当前全部立法状态。估值仍按2026-10-01历史基础；新实绩待Mode B，价格与立场未改。",
+      "en": "Sources: issuer earnings deck and 10-Q dated 2026-10-29. Total revenue $1,215.6M; subscription/services $570.2M within the $500–580M outlook, Q4 guide $550–630M. Adjusted EBITDA $332.9M; FY2026 expense guide $4,150–4,300M remains a forecast. Company trading share rose from 10.3% to 10.7%, with the definition adjusted for Stablecoin Conversion. New Jersey intends rescission, not completed action. The regulatory composite stays unclear without certification of all current legislative status. Valuation remains on the historical 2026-10-01 basis; new actuals await Mode B, with price and stance unchanged."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "COIN"
+    ],
+    "reportIds": [
+      "coinbase-2026"
+    ],
+    "monitoringRefs": [
+      "coinbase-2026:subscription-services-guide",
+      "coinbase-2026:trading-market-share",
+      "coinbase-2026:adj-ebitda-expense",
+      "coinbase-2026:market-structure-regulation"
+    ]
   }
 ]

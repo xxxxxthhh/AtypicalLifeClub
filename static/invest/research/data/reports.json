@@ -5379,7 +5379,7 @@
     "ticker": "NASDAQ: COIN",
     "title": "Coinbase 深度研究报告 - 合规加密基础设施平台",
     "titleEn": "Coinbase Deep Research Report - Regulated Crypto Infrastructure Platform",
-    "summary": "2026-10-02 立场补录：以 2026-10-01 收盘 $189.29（市值 $49.94B、EV/TTM 收入 7.53x）重建估值，立场 cautious、确信度低。30/40/30 情景网格加权每股 $199.46、年化 +2.4%，低于 8% 门槛；在 7x 退出下，保本即需 FY2028 收入回到 FY2025 的 $7.18B。股价自 7-31 收盘 +29.4%，主要跟随 BTC 反弹，Q3 尚未报告；CLARITY Act 9-15 程序性表决失败，美联储 9-16 加息 25bp。",
+    "summary": "2026-10-31 事实更新：Q3 2026（2026-10-29 发布，8-K 附件 99.1 财报演示与 10-Q）总收入 $1,215.6M（公司口径环比持平），订阅与服务 $570.2M（占净收入 49%，落在 $500-580M 展望内），调整后 EBITDA $332.9M（连续第 15 个季度为正），公司口径加密交易量市场份额 10.7%（Q2 为 10.3%）；GAAP 净利润 $718.7M 含 $715.0M 投资性加密资产收益。Q4 订阅与服务展望 $550-630M，FY2026 调整后费用指引下调至 $4,150-4,300M。估值与立场仍按 2026-10-01 收盘的历史基础，新实绩／指引待 Mode B；价格、估值数字、立场和确信度未更新。",
     "tags": [
       "加密货币",
       "交易所",
@@ -5388,7 +5388,7 @@
     ],
     "category": "tech",
     "date": "2026-02-11",
-    "lastUpdate": "2026-10-02",
+    "lastUpdate": "2026-10-31",
     "coverageTier": "full",
     "file": "/invest/research/reports/view.html?id=coinbase-2026",
     "markdownFiles": {
@@ -5396,12 +5396,10 @@
       "en": "/invest/research/Coinbase_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "2026-10-01 收盘 $189.29、市值 $49.94B；EV/TTM 收入 7.53x，EV/TTM 调整后 EBITDA 25.2x",
-      "立场 cautious / 低确信：30/40/30 加权每股 $199.46，年化 +2.4% 对 8% 门槛；退出倍数整体 +1 倍即触及门槛",
-      "Q2 2026 收入 $1,220M（同比 -18.5%），调整后 EBITDA $208M 连续 14 季为正；份额 10.3%、订阅占比 48% 创新高",
-      "7-31 以来：BTC 约 +35% 至约 $84.8K，CLARITY Act 程序性表决失败，美联储加息至 3.75%-4.00%"
+      "Q3 2026（2026-10-29 发布）：总收入 $1,215.6M、订阅与服务 $570.2M（占净收入 49%，落在 $500-580M 展望内）、调整后 EBITDA $332.9M（连续第 15 季为正）、公司口径交易量份额 10.7%（Q2 10.3%）；Q4 订阅与服务展望 $550-630M，FY2026 调整后费用指引下调至 $4,150-4,300M",
+      "估值仍按 2026-10-01 历史基础；新实绩待 Mode B，价格、估值数字、立场和确信度未更新。"
     ],
-    "summaryEn": "Stance backfill on 2026-10-02: valuation rebuilt at the 2026-10-01 close of $189.29 ($49.94B market cap, 7.53x EV/TTM revenue); stance cautious, conviction low. The 30/40/30 scenario grid weights to $199.46 per share, +2.4% annualized against an 8% hurdle; at a 7x exit, merely holding value requires FY2028 revenue back at FY2025's $7.18B. The shares are up 29.4% since the 07-31 close, mostly tracking the BTC rebound, with Q3 not yet reported; the CLARITY Act failed a Senate procedural vote on 09-15 and the Fed raised rates 25bp on 09-16.",
+    "summaryEn": "Factual update on 2026-10-31: Q3 2026 (released 2026-10-29 in the 8-K Exhibit 99.1 earnings presentation and the 10-Q) total revenue was $1,215.6M (flat Q/Q per the company), subscription and services revenue $570.2M (49% of net revenue, inside the $500-580M outlook), adjusted EBITDA $332.9M (15th consecutive positive quarter) and company-defined crypto trading volume market share 10.7% (Q2: 10.3%); GAAP net income of $718.7M includes $715.0M of gains on crypto assets held for investment. The Q4 subscription and services outlook is $550-630M and FY2026 adjusted expense guidance was lowered to $4,150-4,300M. Valuation and stance remain on the historical 2026-10-01 close basis; new actuals/guidance await Mode B, and price, valuation numbers, stance and conviction are unchanged.",
     "period": "2026H1",
     "versionType": "full-cycle",
     "versionLabel": "2026H1 Full Rerun",
@@ -5492,11 +5490,14 @@
           "en": "Q3 2026 subscription and services revenue below the $500M low end of guidance, or a Q4 2026 subscription and services guide midpoint below the Q3 actual (negative); Q3 2026 subscription and services revenue at or above the $580M top of guidance (positive)"
         },
         "latest": {
-          "zh": "Q2 2026 订阅与服务 $555M，低于公司 5 月给出的 $565-645M 指引下沿；稳定币收入 $292M；Q3 指引 $500-580M。美联储 2026-09-16 加息 25bp 至 3.75%-4.00%（7 月为 3.50%-3.75%），利率方向转为有利于 USDC 储备收益；但 CoinGecko 口径 Q3 USDC 平均市值 $73.3B，较 Q2 的 $76.6B 为 -4.3%",
-          "en": "Q2 2026 subscription and services revenue was $555M, below the low end of the $565-645M guide given in May; stablecoin revenue was $292M; the Q3 guide is $500-580M. The Fed raised its target range by 25bp to 3.75%-4.00% on 2026-09-16 (3.50%-3.75% in July), turning the rate direction in favor of USDC reserve income; but the Q3 average USDC market cap on CoinGecko was $73.3B, 4.3% below Q2's $76.6B"
+          "zh": "Q3 2026（8-K 附件 99.1 财报演示与 10-Q，2026-10-29）：订阅与服务收入 $570.2M（环比 +3%，占净收入 49%），对照 $500-580M 展望；稳定币收入 $307M（环比 +5%）；平台平均 USDC 余额 $22B、平均 USDC 市值 $73B。Q4 2026 订阅与服务展望 $550-630M（中值 $590M，自算），公司列出的驱动为更高的平均利率与 QTD 加密资产价格。",
+          "en": "Q3 2026 (8-K Exhibit 99.1 earnings presentation and 10-Q, 2026-10-29): subscription and services revenue $570.2M (+3% Q/Q, 49% of net revenue) against the $500-580M outlook; stablecoin revenue $307M (+5% Q/Q); average USDC held in Coinbase products $22B and average USDC market cap $73B. Q4 2026 subscription and services outlook $550-630M (midpoint $590M, calculated), with higher average interest rates and quarter-to-date crypto asset prices cited as drivers."
         },
         "nextCheck": "Q3 2026 财报（预计 10 月下旬至 11 月上旬，截至 2026-10-02 未公布日期） / Q3 2026 results (estimated late October to early November; date not announced as of 2026-10-02)",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-10-29",
+        "readingNote": "Q3 实际 $570.2M 不低于 $500M 下限，也未达到 $580M 上限；Q4 指引中值 $590M（自算）不低于 Q3 实际，三条腿均未触发。 / The Q3 actual of $570.2M is neither below the $500M floor nor at the $580M top, and the Q4 guide midpoint of $590M (calculated) is not below the Q3 actual, so none of the three legs fired."
       },
       {
         "id": "trading-market-share",
@@ -5511,11 +5512,14 @@
           "en": "Company-defined crypto trading volume market share declines quarter over quarter for two consecutive quarters"
         },
         "latest": {
-          "zh": "FY2025 6.4% → Q1 2026 9.1% → Q2 2026 10.3%，连续第三个季度创历史新高；衍生品份额同样连续三季创新高（Q2 财报演示）",
-          "en": "FY2025 6.4% -> Q1 2026 9.1% -> Q2 2026 10.3%, a third consecutive record quarter; derivatives share also set a third straight record (Q2 earnings deck)"
+          "zh": "Q3 2026 财报演示（2026-10-29）：公司口径加密交易量市场份额 10.7%，Q2 2026 为 10.3%、Q1 2026 为 9.1%，公司称为连续第四个季度增长，现货与衍生品份额均有提升；演示注明该定义与数字已按稳定币兑换（Stablecoin Conversion）活动调整，且部分依赖第三方数据与公司自定的竞争对手集合。",
+          "en": "Q3 2026 earnings presentation (2026-10-29): company-defined crypto trading volume market share 10.7%, versus 10.3% in Q2 2026 and 9.1% in Q1 2026, described as a fourth consecutive quarter of growth with gains in both spot and derivatives; the deck notes the definition and figures were adjusted for Stablecoin Conversion activity and that the measure relies in part on third-party data and a proprietary competitor set."
         },
         "nextCheck": "Q3 2026 财报演示 / Q3 2026 earnings deck",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-10-29",
+        "readingNote": "在同一份 Q3 演示序列内，Q3 较 Q2 上升，未出现环比下降，更无连续两季下降。 / Within the same Q3-deck series Q3 rose versus Q2, so there is no quarter-over-quarter decline, let alone two consecutive ones."
       },
       {
         "id": "adj-ebitda-expense",
@@ -5530,11 +5534,14 @@
           "en": "Negative adjusted EBITDA in any quarter, or FY2026 adjusted expenses above the $4,450M top of guidance"
         },
         "latest": {
-          "zh": "调整后 EBITDA：Q3 2025 $801M、Q4 2025 $566M、Q1 2026 $303M、Q2 2026 $208M（连续第 14 个季度为正，但逐季下滑）；Q3 调整后费用指引 $980-1,080M；FY2026 调整后费用指引 $4,200-4,450M；5 月裁员 14%、期末员工 4,321 人",
-          "en": "Adjusted EBITDA: Q3 2025 $801M, Q4 2025 $566M, Q1 2026 $303M, Q2 2026 $208M (14th consecutive positive quarter, but falling each quarter); Q3 adjusted expense guide $980-1,080M; FY2026 adjusted expense guide $4,200-4,450M; 14% workforce reduction in May, 4,321 employees at quarter end"
+          "zh": "Q3 2026（财报演示与 10-Q，2026-10-29）：调整后 EBITDA $332.9M（环比 +60%），连续第 15 个季度为正；Q3 调整后费用 $975.0M，对照 $980-1,080M 展望；Q4 调整后费用展望 $1,007-1,157M；FY2026 调整后费用指引由 $4,200-4,450M 下调至 $4,150-4,300M；员工 4,204 人。",
+          "en": "Q3 2026 (earnings presentation and 10-Q, 2026-10-29): adjusted EBITDA $332.9M (+60% Q/Q), the 15th consecutive positive quarter; Q3 adjusted expenses $975.0M against the $980-1,080M outlook; Q4 adjusted expense outlook $1,007-1,157M; FY2026 adjusted expense guidance lowered to $4,150-4,300M from $4,200-4,450M; FTEs 4,204."
         },
         "nextCheck": "Q3 2026 财报 / Q3 2026 results",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "unclear",
+        "readingAsOf": "2026-10-29",
+        "readingNote": "调整后 EBITDA 腿截至 Q3 未触发（Q3 为正）；费用腿要到 FY2026 结束才有实绩，$4,150-4,300M 只是指引而非已实现结果，故为 unclear。 / The adjusted EBITDA leg has not fired through Q3 (Q3 is positive), but the FY2026 expense leg is only guided ($4,150-4,300M) until the year is reported, so the item is unclear."
       },
       {
         "id": "market-structure-regulation",
@@ -5549,11 +5556,14 @@
           "en": "The CLARITY Act (H.R. 3633) is signed into law (positive), or a federal or state enforcement action the company describes as material (negative)"
         },
         "latest": {
-          "zh": "2026-09-15 参议院对 CLARITY Act 的程序性动议未获 60 票（CNBC 报道为 50 票赞成、49 票反对；另有媒体记为 49-50）；参议员 Lummis 表决前称若失败「就结束了」；参议院 10 月初休会至中期选举后。2026-07-30 以来公司 8-K 未披露重大执法行动（仅 2026-09-02 一份董事任命 8-K）",
-          "en": "On 2026-09-15 the Senate motion to proceed on the CLARITY Act fell short of the 60 votes needed (CNBC reports 50 for and 49 against; other outlets record 49-50); Senator Lummis had said before the vote that \"it's over\" if it failed; the Senate leaves in early October until after the midterm elections. No material enforcement action has been disclosed in company 8-Ks since 2026-07-30 (the only one is a 2026-09-02 director-appointment 8-K)"
+          "zh": "2026-10-29 10-Q：新泽西州证券监管机构通知拟撤销 summary penalty 和 cease-and-desist order，尚非已撤销；既有州质押案件不利结果仍可能有重大影响。参议院民主党团官方 2026-09-15 当日记录：H.R.3633 议事动议的 cloture 以49票赞成、50票反对未获通过。该历史表决不认证本轮全部立法／执法状态，故 unclear。",
+          "en": "The 2026-10-29 10-Q says New Jersey informed the company that it intends to rescind its summary penalty and cease-and-desist order; this is not a completed rescission. An adverse outcome in existing state staking matters could still be material. The Senate Democratic Caucus official 2026-09-15 record says cloture on the motion to proceed to H.R.3633 was not invoked, 49 for and 50 against. This historical vote does not certify all current legislative/enforcement status; unclear."
         },
         "nextCheck": "中期选举后的国会会期与公司 8-K / The post-midterm congressional session and company 8-Ks",
-        "nextCheckDate": "2026-11"
+        "nextCheckDate": "2026-11",
+        "reading": "unclear",
+        "readingAsOf": "2026-10-29",
+        "readingNote": "历史表决和公司披露已核；本轮完整当前法律状态未核，不以未发现替代阴性证明。 / Historical vote and issuer disclosure verified; complete current legal status is not certified."
       },
       {
         "id": "valuation-hurdle-price",
@@ -5576,7 +5586,7 @@
       }
     ],
     "priceAsOf": "2026-10-01",
-    "reportedPeriod": "Q2 2026"
+    "reportedPeriod": "Q3 2026"
   },
   {
     "id": "amzn-2026",
