@@ -6134,7 +6134,7 @@
         "nextCheckDate": "2027-02",
         "reading": "breached",
         "readingAsOf": "2026-10-22",
-        "readingNote": "LTM FCF 腿按 €3,250M 四舍五入下限字面判定成立；毛利率与营业利润腿未触发。该项不属于 10-31 之前的下调触发条件；10-31 重设后的立场下调腿为 LTM FCF 低于 €3.0B，比本项阈值宽松。 / The LTM FCF leg is literally met against the €3,250M rounding floor; the gross-margin and operating-income legs are not triggered. This item was not a leg of the pre-10-31 downgrade trigger; the re-based 10-31 stance leg is LTM FCF below €3.0B, looser than this item's threshold."
+        "readingNote": "LTM FCF 腿按 €3,250M 四舍五入下限字面判定成立；毛利率与营业利润腿未触发。本项的毛利率与营业利润腿在 10-31 之前属于立场下调腿且未触发，只有 FCF 腿从来不是立场腿；10-31 重设后的立场下调腿为 LTM FCF 低于 €3.0B，比本项阈值宽松。 / The LTM FCF leg is literally met against the €3,250M rounding floor; the gross-margin and operating-income legs are not triggered. This item's gross-margin and operating-income legs were pre-10-31 stance downgrade legs and are not met; only its FCF leg was never a stance leg. The re-based 10-31 stance leg is LTM FCF below €3.0B, looser than this item's threshold."
       },
       {
         "id": "ad-supported-reacceleration",
@@ -6232,14 +6232,15 @@
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "若在 Q4 2026 / FY2026 业绩时同时满足：EV / TTM 营业利润（计入 Q4 2026 的 TTM）不高于 31 倍（若 Q4 营业利润为 €820M，按 09-30 净现金与 ECB 1.1172 约对应 $533.57）；Q4 2026 营业利润不低于 €820M 且毛利率不低于 33.8%；Q4 2026 Premium 订户不低于 3.16 亿且 MAU 不低于 8.18 亿；恒定汇率 Premium ARPU 同比仍为正，则上调至 constructive。",
-        "en": "Move to constructive if, at the Q4 2026 / FY2026 print, all of the following hold: EV / TTM operating income (TTM including Q4 2026) is at or below 31x (about $533.57 if Q4 operating income is €820M, at 09-30 net cash and ECB 1.1172); Q4 2026 operating income is at least €820M and gross margin at least 33.8%; Q4 2026 Premium subscribers are at least 316M and MAUs at least 818M; and FX-neutral Premium ARPU growth is still positive year over year.",
+        "zh": "若在 Q4 2026 / FY2026 业绩时同时满足：EV / TTM 营业利润（计入 Q4 2026 的 TTM）不高于 31 倍（若 Q4 营业利润为 €820M，按 09-30 净现金与 ECB 1.1172 约对应 $533.57）；Q4 2026 营业利润不低于 €820M 且毛利率不低于 33.8%；Q4 2026 Premium 订户不低于 3.16 亿且 MAU 不低于 8.18 亿；恒定汇率 Premium ARPU 同比仍为正；H2 2026 广告支持收入恒定汇率增速不低于 10%，则上调至 constructive。",
+        "en": "Move to constructive if, at the Q4 2026 / FY2026 print, all of the following hold: EV / TTM operating income (TTM including Q4 2026) is at or below 31x (about $533.57 if Q4 operating income is €820M, at 09-30 net cash and ECB 1.1172); Q4 2026 operating income is at least €820M and gross margin at least 33.8%; Q4 2026 Premium subscribers are at least 316M and MAUs at least 818M; FX-neutral Premium ARPU growth is still positive year over year; and H2 2026 Ad-Supported revenue grows at least 10% FX-neutral.",
         "monitoringIds": [
           "valuation-exit-multiple",
           "q4-operating-income-guide",
           "q3-margin-cash-flow",
           "q3-user-revenue-guide",
-          "premium-pricing-churn"
+          "premium-pricing-churn",
+          "ad-supported-reacceleration"
         ]
       },
       "downgrade": {
