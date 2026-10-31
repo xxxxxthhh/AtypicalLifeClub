@@ -11705,7 +11705,7 @@
     "priceSymbol": "300308.SZ",
     "title": "中际旭创深度研究报告 - 可插拔光模块量价拆解的架构校验",
     "titleEn": "Zhongji Innolight Deep Research Report - Architecture Check on the Volume-and-Price Decomposition of Pluggable Optics",
-    "summary": "2026-09-09 首次覆盖：以深交所收盘 908.90 元、总股本 1,177,909,641 股计市值 10,706.02 亿元，TTM（2025Q3–2026Q2）收入 652.29 亿元、归母净利 204.53 亿元，对应 52.3x TTM P/E、16.4x TTM P/S。2026 半年报（2026-08-22）显示收入 417.78 亿元（+182.49%）、归母净利 136.51 亿元（+241.70%），模块销量 1,899 万只（+109.8%）、推算混合 ASP 约 2,178 元/只（+36.6%）、模块毛利率 46.59%（上年同期 39.96%），确认了合计模块需求；但上半年经营现金流仅 18.00 亿元、转化率 13.2%，其中 Q1 为 33.68 亿元（58.7%）、Q2 转为 −15.68 亿元（−19.8%）；前五名应收集中度由 2025 年末 65.66% 升至 72.49%；长期应付款（港股附注 19 识别为 TeraHop 投资者回购权的赎回负债）由 9.00 亿元增至 50.57 亿元，计入后 2026-06-30 为净负债 4.89 亿元而非净现金。把盈利增长期（3.5 年）与持有期（2026-09-09 至 2029-12-31，3.31 年）分开后，25 倍退出、8%–10% 要求回报下现价隐含归母净利自 Q2 年化 316.67 亿元复合增长 17.2%–19.3%，基准情景 15.6%；30/40/30 加权后的权益价值 12,593–13,224 亿元，对应 5.0%–6.6% 年化，低于门槛 1.4–5.0 个百分点（单独放宽牛市或熊市退出倍数仍不达标，仅两者同时放宽才达 6.8%–8.3%，上沿越过 8% 但不到 10%），故为谨慎 / 中确信。",
+    "summary": "2026-10-31 事实更新：2026-10-30 于巨潮资讯网披露的《2026 年第三季度报告》（未经审计，报告期截至 2026-09-30）显示，Q3 营业收入 277.69 亿元（+171.83%）、归母净利 85.87 亿元（+173.74%）、扣非归母净利 90.18 亿元（+190.13%）；1–9 月营业收入 695.47 亿元（+178.13%）、归母净利 222.38 亿元（+211.81%）、经营活动现金流量净额 80.08 亿元（+46.81%）。按 1–9 月减半年报推算，Q3 经营现金流约 62.09 亿元、对归母净利转化率约 72.3%（Q2 −19.8%），Q3 合并毛利率约 46.61%（Q2 约 46.42%）；2026-09-30 应收账款与存货较 6 月末分别 +15.39%、+20.44%，低于单季收入环比 +24.63%。三季报全文 14 页已通读，不披露销量、模块毛利率、客户集中度或分形态数据。估值仍按 2026-09-09 历史基础；新实绩待 Mode B，价格、估值数字、立场和确信度未更新。",
     "tags": [
       "AI光连接",
       "光模块",
@@ -11714,23 +11714,17 @@
     ],
     "category": "tech",
     "date": "2026-09-09",
-    "lastUpdate": "2026-09-13",
+    "lastUpdate": "2026-10-31",
     "file": "/invest/research/reports/view.html?id=innolight-2026",
     "markdownFiles": {
       "zh": "/invest/research/中际旭创_深度研究报告_2026-09.md",
       "en": "/invest/research/Zhongji_Innolight_Deep_Research_Report_2026-09.md"
     },
     "highlights": [
-      "2026-09-09 收盘 908.90 元、市值 10,706.02 亿元：52.3x TTM P/E、16.4x TTM P/S；上半年年化 39.2x、第二季度年化 33.8x",
-      "2026 H1 收入 417.78 亿元（+182.49%）、归母净利 136.51 亿元（+241.70%）、扣非 130.92 亿元（+229.32%）",
-      "量价可分解（合计口径，乘性、非各占一半）：合计销量 1,899 万只（+109.8%）× 推算混合 ASP 约 2,178 元/只（+36.6%）；模块毛利率 46.59%",
-      "现金流：H1 经营现金流 18.00 亿元、转化率 13.2%；Q1 58.7%、Q2 −19.8%（Q2 经营现金流 −15.68 亿元）",
-      "资产负债表：赎回负债（长期应付款）由 9.00 亿元增至 50.57 亿元，2026-06-30 净头寸为净负债 4.89 亿元；备考净现金 440.27 亿元仅计已确认的 H 股首发募资",
-      "集中度：2025 年前五名客户占收入 75.98%；前五名应收集中度由 65.66% 升至 72.49%（上升 6.83 个百分点）",
-      "地缘：2026-06-08 列入 1260H 清单；FY2024 NDAA §805 的国防部采购限制直接条款 2026-06-30 已生效、间接条款 2027-06-30 生效",
-      "情景 30/40/30 加权年化回报 5.0%–6.6%，低于 8%–10% 要求回报 1.4–5.0 个百分点（敏感性上沿 8.3%）⇒ 谨慎 / 中确信"
+      "2026 Q3（2026-10-30 披露，未经审计）营业收入 277.69 亿元（+171.83%）、归母净利 85.87 亿元（+173.74%）；1–9 月收入 695.47 亿元（+178.13%）、归母净利 222.38 亿元（+211.81%）、经营现金流 80.08 亿元（+46.81%）；推算 Q3 经营现金流约 62.09 亿元、转化率约 72.3%（Q2 −19.8%），推算 Q3 合并毛利率约 46.61%（Q2 约 46.42%）；三季报不披露销量与模块毛利率",
+      "估值仍按 2026-09-09 历史基础；新实绩待 Mode B，价格、估值数字、立场和确信度未更新。"
     ],
-    "summaryEn": "Initiation on September 9, 2026. At the RMB 908.90 Shenzhen close on 1,177,909,641 shares, market capitalization is RMB 1,070.60B; TTM (2025Q3-2026Q2) revenue of RMB 65.229B and parent net profit of RMB 20.453B give 52.3x TTM P/E and 16.4x TTM P/S. The 2026 semi-annual report (filed 2026-08-22) shows revenue of RMB 41.778B (+182.49%) and parent net profit of RMB 13.651B (+241.70%), with module unit sales of 18.99M (+109.8%), a derived blended ASP of about RMB 2,178 per unit (+36.6%) and module gross margin of 46.59% against 39.96% a year earlier, confirming aggregate module demand. But first-half operating cash flow was only RMB 1.800B, converting at 13.2%, split between RMB 3.368B in Q1 (58.7%) and -RMB 1.568B in Q2 (-19.8%); top-five receivables concentration rose from 65.66% at end-2025 to 72.49%; and long-term payables - identified in Hong Kong note 19 as a redemption liability for TeraHop investors' repurchase rights - grew from RMB 0.900B to RMB 5.057B, leaving the group in net debt of RMB 0.489B at 2026-06-30 rather than net cash. Separating the 3.5-year earnings-growth horizon from the 3.31-year holding period (2026-09-09 to 2029-12-31), a 25x exit at an 8%-10% required return implies parent net profit compounding 17.2%-19.3% from the Q2-annualized RMB 31.667B, against a base case of 15.6%; weighting the scenarios 30/40/30 gives equity value of RMB 1,259.3-1,322.4B, or 5.0%-6.6% annualized - 1.4 to 5.0 points below the hurdle (widening the bull or bear exit multiple alone still falls short; only widening both reaches 6.8%-8.3%, whose upper end clears 8% but not 10%). Hence cautious at medium conviction.",
+    "summaryEn": "2026-10-31 factual update: The 2026 Third Quarter Report (unaudited, period ended 2026-09-30), disclosed on CNINFO on 2026-10-30, shows Q3 revenue of RMB 27.769B (+171.83%), parent net profit of RMB 8.587B (+173.74%) and parent net profit ex-exceptionals of RMB 9.018B (+190.13%); 9M revenue was RMB 69.547B (+178.13%), parent net profit RMB 22.238B (+211.81%) and net cash from operating activities RMB 8.008B (+46.81%). Deriving Q3 as 9M less the interim, Q3 operating cash flow was about RMB 6.209B, converting at about 72.3% of parent net profit (Q2 −19.8%), and Q3 consolidated gross margin was about 46.61% (Q2 about 46.42%); receivables and inventory at 2026-09-30 were +15.39% and +20.44% from end-June, below the +24.63% sequential rise in standalone revenue. The full 14-page Q3 report was read and gives no unit sales, module gross margin, customer concentration or form-factor data. Valuation remains on the historical 2026-09-09 basis; new actuals await Mode B, and price, valuation numbers, stance and conviction are unchanged.",
     "period": "2026H2",
     "versionType": "initial",
     "versionLabel": "2026H2 Initial Coverage",
@@ -11741,7 +11735,7 @@
     "stance": "cautious",
     "conviction": "medium",
     "priceAsOf": "2026-09-09",
-    "reportedPeriod": "H1 2026",
+    "reportedPeriod": "Q3 2026",
     "related": [
       "coherent-2026",
       "aaoi-2026",
@@ -11784,13 +11778,14 @@
           "en": "gross margin falls from 46.59% - the highest across the verified span - toward below 40% and the company attributes it to price rather than product mix"
         },
         "latest": {
-          "zh": "2026-08-22 披露的半年报：光通信收发模块毛利率 46.59%，上年同期 39.96%（+6.63 个百分点），2025 全年 42.61%；由 2025 年报全年数减半年报上半年数推算的 2025 下半年约 44.27%。按中国企业会计准则编制的 A 股半年报口径，上半年合并毛利率 46.25%（收入 417.78 亿元、营业成本 224.55 亿元）。净利率 32.68%，2023/2024/2025 分别为 20.28%/21.67%/28.24%。评级：within——毛利率仍在上行，触发条件未成立。证据边界：46.59% 是本报告已核验区间（2024 全年 34.65%、2025 上半年 39.96%、2025 全年 42.61%、2026 上半年 46.59%）内的最高值，更早年度的完整序列未取数，故不作无界的「历史最高」断言，公司未给出成本结构拆解或毛利率指引，因此「结构性还是周期性」这一问题本身无法由本期披露回答；分产品毛利率只在年报与半年报披露，三季度报告只能推算合并口径。",
-          "en": "The semi-annual report disclosed 2026-08-22 shows optical-transceiver gross margin of 46.59% against 39.96% a year earlier (+6.63 points) and 42.61% for full-year 2025; subtracting the interim from the full-year 2025 annual report implies about 44.27% for H2 2025. On the A-share semi-annual report basis under Chinese Accounting Standards for Business Enterprises, consolidated first-half gross margin was 46.25% (revenue RMB 41.778B, cost of sales RMB 22.455B). Net margin was 32.68%, against 20.28% / 21.67% / 28.24% in 2023 / 2024 / 2025. Reading: within - margin is still rising and the trigger does not fire. Evidence limits: 46.59% is the highest across the span this report verified (FY2024 34.65%, 2025 H1 39.96%, FY2025 42.61%, 2026 H1 46.59%); the complete earlier series was not retrieved, so no unbounded all-time-high claim is made, and the company provides no cost bridge or margin guidance, so this period's disclosure cannot itself answer whether the level is structural or cyclical; product-level gross margin appears only in annual and interim reports, and the Q3 report supports a consolidated derivation only."
+          "zh": "2026-10-30 披露的《2026 年第三季度报告》（未经审计，报告期截至 2026-09-30）全文 14 页（第一至四节及季度财务报表）已通读：只含合并利润表，不披露光通信收发模块毛利率、分产品收入或成本拆解，也没有把毛利率变化归因于价格或产品结构的表述。按合并口径推算：1–9 月营业收入 695.47 亿元、营业成本 372.81 亿元，合并毛利率 46.39%；减去 2026-08-22 半年报（收入 417.78 亿元、营业成本 224.55 亿元）得 Q3 收入 277.69 亿元、营业成本 148.26 亿元，Q3 合并毛利率约 46.61%；Q2（半年报减 2026-04-17 一季报：收入 222.81 亿元、营业成本 119.38 亿元）约 46.42%，Q3 较 Q2 +0.19 个百分点。评级：unclear——触发条件的指标是模块毛利率，且要求公司把回落归因于价格，两者三季报均未披露；合并毛利率只是代理指标（2026 H1 模块收入占 99.0%，Q3 的模块收入占比未披露）。证据边界：上述合并毛利率均为推算值，非发行人披露口径；分产品毛利率待 2026 年年度报告。",
+          "en": "The 2026 Third Quarter Report disclosed 2026-10-30 (unaudited, period ended 2026-09-30) was read in full (14 pages: Sections 1-4 and the quarterly financial statements) and contains only the consolidated income statement: it discloses no optical-transceiver module gross margin, no product revenue or cost breakdown, and no attribution of margin movement to price or mix. On the consolidated basis: 9M revenue of RMB 69.547B and cost of sales of RMB 37.281B give a 46.39% consolidated gross margin; subtracting the 2026-08-22 interim (revenue RMB 41.778B, cost of sales RMB 22.455B) gives Q3 revenue of RMB 27.769B and cost of sales of RMB 14.826B, a Q3 consolidated gross margin of about 46.61%; Q2 (interim less the 2026-04-17 Q1 report: revenue RMB 22.281B, cost of sales RMB 11.938B) was about 46.42%, so Q3 is +0.19 points on Q2. Reading: unclear - the trigger's metric is module gross margin together with a company price attribution, and the Q3 report discloses neither; consolidated margin is only a proxy (modules were 99.0% of 2026 H1 revenue, but the Q3 module share is not disclosed). Evidence limits: all consolidated margins above are derived, not issuer-stated; product-level margin awaits the 2026 annual report."
         },
         "nextCheck": "2026 年三季度报告可推算的合并毛利率，分产品毛利率待年报 / consolidated gross margin derivable from the Q3 2026 report, with product-level margin in the annual report",
         "nextCheckDate": "2026-10",
-        "reading": "within",
-        "readingAsOf": "2026-08-22"
+        "reading": "unclear",
+        "readingAsOf": "2026-10-30",
+        "readingNote": "三季报不披露模块毛利率与价格归因，触发条件两条腿均不可观测；推算的 Q3 合并毛利率约 46.61% 仅为代理指标。 / The Q3 report discloses neither module gross margin nor a price attribution, so both legs of the trigger are unobservable; the derived Q3 consolidated margin of about 46.61% is only a proxy."
       },
       {
         "id": "cash-conversion",
@@ -11805,13 +11800,14 @@
           "en": "standalone-quarter operating cash flow stays below 30% of parent net profit for two consecutive quarters while receivables and inventory keep growing faster than revenue"
         },
         "latest": {
-          "zh": "公式：转化率＝经营活动产生的现金流量净额 ÷ 归属于上市公司股东的净利润。2026-08-22 半年报：H1 经营现金流 17.997 亿元（上年同期 32.185 亿元，-44.08%），对 136.51 亿元归母净利转化率 13.2%（上年同期 80.6%、2025 全年 100.9%）。结合 2026-04-17 一季报（经营现金流 33.676 亿元、归母净利 57.345 亿元）倒推单季：**Q1 为 58.7%，Q2 为 −15.679/79.166＝−19.8%，即第二季度经营现金流为负**。上半年存货增加 72.39 亿元、经营性应收增加 92.42 亿元；应收账款期末 150.01 亿元（期初 62.77 亿元）、存货 198.26 亿元（期初 126.81 亿元）。触发条件的第二个分支问的是**余额增速是否快于收入**，故直接按季度环比评估：Q2 应收账款由 95.36 亿元增至 150.01 亿元（+57.32%）、存货由 156.72 亿元增至 198.26 亿元（+26.50%），同期收入由 194.96 亿元增至 222.81 亿元（+14.29%）——**两者均快于收入，该分支本期成立**。周转天数另按**期末余额**（非平均余额）推算：DSO 由 2025 年约 60 天升至约 65 天（恶化），存货周转由约 209 天降至约 160 天（改善）；在余额上升期，期末余额法算出的天数**高于**平均余额法（本期 DSO 64.99 天 vs 46.09 天、存货 159.81 天 vs 131.01 天）。评级：unclear。触发条件为合取：余额增速分支成立，但转化率分支要求「连续两个季度低于 30%」，目前只有 Q2 一个负季度（Q1 为 58.7%），故合取未成立。证据边界：营运资金占用可以解释现金流缺口，但**回款质量本期未获验证**——半年报未披露应收账龄结构的同比变化或回款率，不能据此断言回款质量良好或恶化。",
-          "en": "Formula: conversion = net cash from operating activities / net profit attributable to shareholders of the listed company. Per the 2026-08-22 semi-annual report, H1 operating cash flow was RMB 1.7997B (RMB 3.2185B a year earlier, -44.08%), converting at 13.2% of RMB 13.651B of parent net profit (80.6% a year earlier, 100.9% in FY2025). Backing out the standalone quarters against the 2026-04-17 Q1 report (operating cash flow RMB 3.3676B, parent net profit RMB 5.7345B): **Q1 was 58.7% and Q2 was -1.5679/7.9166 = -19.8%, i.e. second-quarter operating cash flow was negative**. Inventory rose RMB 7.239B and operating receivables RMB 9.242B in the half; receivables ended at RMB 15.001B (RMB 6.277B at period start) and inventory at RMB 19.826B (RMB 12.681B). The trigger's second branch asks whether balances outgrew revenue, so it is evaluated directly on a sequential quarterly basis: in Q2 receivables rose from RMB 9.536B to RMB 15.001B (+57.32%) and inventory from RMB 15.672B to RMB 19.826B (+26.50%), against revenue rising from RMB 19.496B to RMB 22.281B (+14.29%) - **both outgrew revenue, so that branch holds this period**. Turnover days are separately computed on **ending balances** (not averages): DSO rose from about 60 days in 2025 to about 65 days (worse) while inventory turnover fell from about 209 to about 160 days (better); with balances rising, the ending-balance convention produces **higher** days than the average-balance convention (this period DSO 64.99 versus 46.09, inventory 159.81 versus 131.01). Reading: unclear. The trigger is conjunctive: the balance-growth branch holds, but the conversion branch requires two consecutive quarters below 30% and only Q2 is negative (Q1 was 58.7%), so the conjunction does not hold. Evidence limits: working-capital absorption explains the cash-flow gap, but **collection quality is unverified this period** - the interim discloses no year-over-year receivable-ageing shift or collection rate, so neither sound nor deteriorating collection quality can be asserted."
+          "zh": "公式：转化率＝经营活动产生的现金流量净额 ÷ 归属于上市公司股东的净利润。2026-10-30 披露的《2026 年第三季度报告》（未经审计，报告期截至 2026-09-30）：1–9 月经营活动现金流量净额 80.08 亿元（+46.81%）、归母净利 222.38 亿元，1–9 月转化率 36.0%；Q3 归母净利 85.87 亿元（发行人单列）。三季报的本报告期经营现金流栏为「--」，故按 1–9 月减 2026-08-22 半年报推算：Q3 经营现金流＝80.084 − 17.997＝62.088 亿元，转化率 62.088/85.868＝**72.3%**；Q2（半年报减 2026-04-17 一季报）为 −15.679/79.166＝−19.8%。余额分支按季度环比：应收账款由 2026-06-30 的 150.01 亿元增至 2026-09-30 的 173.09 亿元（+15.39%），存货由 198.26 亿元增至 238.78 亿元（+20.44%），同期单季收入由 Q2 推算的 222.81 亿元增至 Q3 的 277.69 亿元（+24.63%）。评级：within——触发条件为合取：转化率分支要求连续两个季度低于 30%，Q2 −19.8% 之后 Q3 为 72.3%，不构成连续两个季度；余额分支本季也不成立（应收与存货增速均低于收入）。证据边界：Q3 经营现金流为推算值，发行人未单列；1–9 月经营现金流入含收到的税费返还 52.18 亿元；公司把经营现金流增加归因于「销售回款相应增加」，但三季报未披露应收账龄或回款率，回款质量本期仍未获验证。",
+          "en": "Formula: conversion = net cash from operating activities / net profit attributable to shareholders of the listed company. Per the 2026 Third Quarter Report disclosed 2026-10-30 (unaudited, period ended 2026-09-30), 9M operating cash flow was RMB 8.008B (+46.81%) against 9M parent net profit of RMB 22.238B, a 9M conversion of 36.0%; Q3 parent net profit was RMB 8.587B (issuer-stated). The report shows '--' for the quarter's operating cash flow, so Q3 is derived as 9M less the 2026-08-22 interim: RMB 8.0084B - RMB 1.7997B = RMB 6.2088B, converting at 6.2088/8.5868 = **72.3%**; Q2 (interim less the 2026-04-17 Q1 report) was -1.5679/7.9166 = -19.8%. On the balance leg, sequentially: receivables rose from RMB 15.001B at 2026-06-30 to RMB 17.309B at 2026-09-30 (+15.39%) and inventory from RMB 19.826B to RMB 23.878B (+20.44%), while standalone revenue rose from a derived RMB 22.281B in Q2 to RMB 27.769B in Q3 (+24.63%). Reading: within - the trigger is a conjunction: the conversion leg requires two consecutive quarters below 30%, and Q3 at 72.3% after Q2 at -19.8% does not make two consecutive quarters; the balance leg also does not hold this quarter (both receivables and inventory grew more slowly than revenue). Evidence limits: Q3 operating cash flow is derived, not separately stated by the issuer; 9M operating inflows include RMB 5.218B of tax refunds received; the company attributes the higher operating cash flow to correspondingly higher sales collections, but the Q3 report gives no receivables ageing or collection rate, so collection quality remains unverified."
         },
         "nextCheck": "2026 年三季度报告的经营活动现金流量净额与应收/存货余额 / operating cash flow and receivable/inventory balances in the Q3 2026 report",
         "nextCheckDate": "2026-10",
-        "reading": "unclear",
-        "readingAsOf": "2026-08-22"
+        "reading": "within",
+        "readingAsOf": "2026-10-30",
+        "readingNote": "合取的两个分支本季均不成立：推算 Q3 转化率 72.3% 打断了连续两季低于 30%，应收与存货环比增速均低于收入。 / Neither leg of the conjunction holds this quarter: derived Q3 conversion of 72.3% breaks any two-quarter run below 30%, and receivables and inventory grew more slowly than revenue sequentially."
       },
       {
         "id": "customer-concentration",
