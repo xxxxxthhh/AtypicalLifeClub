@@ -46,8 +46,8 @@
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "升级至偏积极（constructive）——须同时满足：Q4 2026 总 DAUq 不低于 114.7M（较 Q3 的 130.3M 下滑不超过 12%）且全球登录 DAUq 较 Q3 的 53.5M 环比增长；Q4 2026 收入不低于 $1,000M 且美国 ARPU 同比增长至少 +35%（相对 Q4 2025 的 $10.79，即至少约 $14.57）；Q1 2027 收入指引中值不低于约 $829M（相对 Q1 2026 的 $663.41M 增长 +25%）。",
-        "en": "Upgrade to constructive — all of the following: Q4 2026 total DAUq of at least 114.7M (a decline of no more than 12% from Q3's 130.3M), with global logged-in DAUq up sequentially from Q3's 53.5M; Q4 2026 revenue of at least $1,000M, with U.S. ARPU up at least +35% YoY (at least about $14.57 against Q4 2025's $10.79); a Q1 2027 revenue guidance midpoint of at least about $829M (+25% against Q1 2026's $663.41M).",
+        "zh": "升级至偏积极（constructive）——须同时满足：Q4 2026 总 DAUq 不低于 114.7M（较 Q3 的 130.3M 下滑不超过 12%）且全球登录 DAUq 较 Q3 的 53.5M 环比增长（若不披露则该腿无法满足）；Q4 2026 收入不低于 $1,000M 且美国 ARPU 同比增长至少 +35%（相对 Q4 2025 的 $10.79，即至少约 $14.57）；Q1 2027 收入指引中值不低于约 $829M（相对 Q1 2026 的 $663.41M 增长 +25%）。",
+        "en": "Upgrade to constructive — all of the following: Q4 2026 total DAUq of at least 114.7M (a decline of no more than 12% from Q3's 130.3M), with global logged-in DAUq up sequentially from Q3's 53.5M (not met if the split is not disclosed); Q4 2026 revenue of at least $1,000M, with U.S. ARPU up at least +35% YoY (at least about $14.57 against Q4 2025's $10.79); a Q1 2027 revenue guidance midpoint of at least about $829M (+25% against Q1 2026's $663.41M).",
         "monitoringIds": [
           "us-dau-direction",
           "ad-revenue-growth",
@@ -55,8 +55,8 @@
         ]
       },
       "downgrade": {
-        "zh": "降级至谨慎（cautious）——满足任一即触发：Q4 2026 总 DAUq 低于 110.8M（环比下滑超过 15%），或全球登录 DAUq 环比下滑；Q4 2026 收入低于 $1,000M，或 Q1 2027 收入指引中值低于约 $763M（同比 +15%）；Q4 2026 美国 ARPU 同比增速低于 +25%（低于约 $13.49）；Q4 2026 调整后 EBITDA 利润率低于 Q4 2025 的 45.1%；Google 协议确认不续签。",
-        "en": "Downgrade to cautious — any one of the following: Q4 2026 total DAUq below 110.8M (a decline of more than 15% QoQ), or global logged-in DAUq declines sequentially; Q4 2026 revenue below $1,000M, or a Q1 2027 revenue guidance midpoint below about $763M (+15% YoY); Q4 2026 U.S. ARPU growth below +25% YoY (below about $13.49); a Q4 2026 adjusted EBITDA margin below Q4 2025's 45.1%; the Google agreement is confirmed not to renew.",
+        "zh": "降级至谨慎（cautious）——满足任一即触发：Q4 2026 总 DAUq 低于 110.8M（环比下滑超过 15%），或全球登录 DAUq 环比下滑（若 Q4 不披露登录拆分，该腿记为 unclear、仅按总 DAUq 判定）；Q4 2026 收入低于 $1,000M，或 Q1 2027 收入指引中值低于约 $763M（同比 +15%）；Q4 2026 美国 ARPU 同比增速低于 +25%（低于约 $13.49）；Q4 2026 调整后 EBITDA 利润率低于 Q4 2025 的 45.1%；Google 协议确认不续签。",
+        "en": "Downgrade to cautious — any one of the following: Q4 2026 total DAUq below 110.8M (a decline of more than 15% QoQ), or global logged-in DAUq declines sequentially (if Q4 does not disclose the logged-in split, this clause is recorded unclear and the leg is graded on total DAUq alone); Q4 2026 revenue below $1,000M, or a Q1 2027 revenue guidance midpoint below about $763M (+15% YoY); Q4 2026 U.S. ARPU growth below +25% YoY (below about $13.49); a Q4 2026 adjusted EBITDA margin below Q4 2025's 45.1%; the Google agreement is confirmed not to renew.",
         "monitoringIds": [
           "us-dau-direction",
           "ad-revenue-growth",
@@ -186,8 +186,8 @@
           "en": "Bear: the Google agreement is confirmed not to renew and the company simultaneously discloses a sharp decline in search referrals. Bull: the Google agreement renews on flat or better terms, or a new AI licensing agreement of comparable scale is signed"
         },
         "latest": {
-          "zh": "两条腿均未满足。Q3 2026 其他收入 $48.0M（同比 +34.8%）；2026-09-30 剩余履约义务 $62.4M 主要为长期内容授权（10-Q 附注 3）。不续签未获确认：CEO 称对 Google 与 OpenAI『没有更新可分享，正在积极讨论』（电话会，第三方文字稿）。偏空腿后半条现已由公司披露：搜索引流在 Q3 显著下降，10 月每周减少超过 100 万次（附件 99.2）；偏空腿为合取条件，故未触发。",
-          "en": "Neither leg is met. Q3 2026 other revenue was $48.0M (+34.8% YoY); remaining performance obligations of $62.4M at 2026-09-30 are primarily long-term content licensing (10-Q, Note 3). Non-renewal is not confirmed: on Google and OpenAI the CEO said 'we don't have any updates to share, so we're in active discussions' (call, third-party transcript). The bear leg's second half is now issuer-disclosed: search referrals fell meaningfully in Q3 and by more than 1 million a week in October (Ex 99.2). The bear leg is conjunctive, so it is not met."
+          "zh": "两条腿均未满足。Q3 2026 其他收入 $48.0M（同比 +34.8%）；2026-09-30 剩余履约义务 $62.4M 主要为长期内容授权（10-Q 附注 3）。不续签未获确认：被问及内容授权时 CEO 称『没有更新可分享，正在积极讨论』（电话会，第三方文字稿）。偏空腿后半条现已由公司披露：搜索引流在 Q3 显著下降，10 月每周减少超过 100 万次（附件 99.2）；偏空腿为合取条件，故未触发。",
+          "en": "Neither leg is met. Q3 2026 other revenue was $48.0M (+34.8% YoY); remaining performance obligations of $62.4M at 2026-09-30 are primarily long-term content licensing (10-Q, Note 3). Non-renewal is not confirmed: asked about content licensing, the CEO said 'we don't have any updates to share, so we're in active discussions' (call, third-party transcript). The bear leg's second half is now issuer-disclosed: search referrals fell meaningfully in Q3 and by more than 1 million a week in October (Ex 99.2). The bear leg is conjunctive, so it is not met."
         },
         "nextCheck": "Q4 2026 业绩电话会（预估 2027 年 2 月上旬）及 2027 年上半年到期前的任何续约公告 / Q4 2026 call (estimated early February 2027) and any renewal announcement before the H1 2027 expiry",
         "nextCheckDate": "2027-02",
