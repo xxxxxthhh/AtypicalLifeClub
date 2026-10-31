@@ -3396,5 +3396,30 @@
       "quanta-services-2026:cash-conversion-tangible-book",
       "quanta-services-2026:guidance-durability-vs-2030-target"
     ]
+  },
+  {
+    "id": "kioxia-q2-fy2026-results-20261030",
+    "date": "2026-10-30",
+    "title": {
+      "zh": "铠侠 Q2 FY2026：营收 ¥2,480.0B、营业利润率 80.43%，Q3 展望大致持平，仍不提供全年指引",
+      "en": "Kioxia Q2 FY2026: revenue ¥2,480.0B at an 80.43% operating margin; Q3 outlook broadly flat, still no full-year guidance"
+    },
+    "detail": {
+      "zh": "来源：铠侠控股 2026-10-30 经 TDnet 发布的截至 2026-09-30 六个月合并业绩（IFRS，未经审计师审阅）、同日 Q2 FY2026 演示文稿（含讲稿）及发行人编辑的电话会 Q&A 摘要。Q2（2026 年 7–9 月）营收 ¥2,480.0B（Q1 ¥1,767.1B），营业利润 ¥1,994.7B（营业利润率 80.43%，Q1 71.87%），归母净利润 ¥1,355.7B；业绩稿将环比增长主要归因于生成式 AI 数据中心需求带来的 ASP 大幅上升及 bit 出货增加，演示文稿称混合 ASP 环比 mid-20s %、bit 出货环比 low-teens %。Q3 展望（公司预测）营收 ¥2,500.0B、营业利润 ¥1,995.0B，业绩稿称受汇率负面影响，Q3 营收与利润与 Q2 大致持平；业绩稿重申不提供全年度计划。Q&A 摘要称预计 CY2027 全年供给短缺持续、CY2027 产能已大部分分配、CY2028 已有远超 50% 的 GB 量以多年期 LTA 承诺——均为发行人表述，LTA 不等于订单或收入。K3 场地前期工作进行中，FY2026 总资本开支计划 ¥470B。证据边界：电话会仅读编辑版 Q&A 摘要；ASP 与 bit 仅有百分比区间；需求确认仅为供应商表述，无买方成本归因证据。",
+      "en": "Source: Kioxia Holdings' consolidated results for the six months ended 2026-09-30 (IFRS, not reviewed by auditors) released via TDnet on 2026-10-30, the same-day Q2 FY2026 presentation (with script) and the issuer's edited earnings-call Q&A summary. Q2 (July–September 2026) revenue was ¥2,480.0B (Q1 ¥1,767.1B), operating profit ¥1,994.7B (80.43% operating margin vs Q1's 71.87%) and profit attributable to owners of parent ¥1,355.7B; the release attributes the sequential increase primarily to a significant ASP increase on generative-AI data-center demand plus higher bit shipments, and the presentation puts blended ASP up a mid-20s % and bits up a low-teens % QoQ. The Q3 outlook (company forecast) is revenue ¥2,500.0B and operating profit ¥1,995.0B; the release says FX headwinds leave Q3 revenue and profit broadly in line with Q2, and repeats that it does not provide full-fiscal-year plans. The Q&A summary says supply shortages are expected to continue throughout CY2027, CY2027 capacity is largely allocated and well over 50% of CY2028 GB volumes are committed under multi-year LTAs — all issuer statements; LTAs are not orders or revenue. K3 site preparation is underway and FY2026 gross capex is planned at ¥470B. Evidence limits: the call was read only through the edited Q&A summary; ASP and bit changes are percentage bands only; demand confirmation here is supplier commentary, with no buyer-side cost attribution."
+    },
+    "crossChecks": [
+      "memory-cycle"
+    ],
+    "tickers": [
+      "285A.T"
+    ],
+    "reportIds": [
+      "kioxia-2026"
+    ],
+    "monitoringRefs": [
+      "kioxia-2026:peak-margin-mean-reversion",
+      "kioxia-2026:capacity-discipline"
+    ]
   }
 ]
