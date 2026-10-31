@@ -3446,5 +3446,31 @@
       "digital-realty-2026:interconnection-0-1mw",
       "digital-realty-2026:development-power-capacity"
     ]
+  },
+  {
+    "id": "ase-technology-q3-2026-results-20261029",
+    "date": "2026-10-29",
+    "title": {
+      "zh": "日月光 Q3 ATM 营收 NT$151,485 百万，经营利润率 20.0%，简单 FCF 为负",
+      "en": "ASE Q3 ATM revenue NT$151,485M, operating margin 20.0%, negative simple FCF"
+    },
+    "detail": {
+      "zh": "来源：发行人 2026-10-29 Q3 业绩稿（https://www.prnewswire.com/news-releases/ase-technology-holding-co-ltd-reports-its-unaudited-consolidated-financial-results-for-the-third-quarter-of-2026-302923021.html）。2026-10-31 事实更新：发行人 2026-10-29 委托 PRNewswire 发布的未经审计 Q3 业绩：合并营收 NT$244,161 百万（同比 +44.8%、环比 +27.8%），毛利率 22.1%、经营利润率 13.6%，归母净利 NT$26,996 百万；ATM 营收 NT$151,485 百万（同比 +51.0%、环比 +20.1%），毛利率 30.6%、经营利润率 20.0%。设备资本开支 US$2,104 百万；EBITDA NT$57,963 百万，未以未经核实汇率相互比较。Q3 简单自由现金流为 NT$50,462−125,852=−75,390 百万，九个月为 NT$133,863−249,792=−115,929 百万。ATM 前五客户约 46%、前十 63%，一家超过 10%，客户身份不可比。简报和电话会本轮不可读，计算占比、美元 EBITDA 图表和 Q4 简报预测未采用。估值仍按 2026-08-07 历史基础；新实绩待 Mode B，价格、估值数字、立场和确信度未更新。",
+      "en": "Source: issuer Q3 release, 2026-10-29 (https://www.prnewswire.com/news-releases/ase-technology-holding-co-ltd-reports-its-unaudited-consolidated-financial-results-for-the-third-quarter-of-2026-302923021.html). Factual update on 2026-10-31: the issuer-distributed, unaudited Q3 release dated 2026-10-29 reports consolidated revenue NT$244,161M (+44.8% YoY, +27.8% QoQ), gross margin 22.1%, operating margin 13.6% and parent net income NT$26,996M. ATM revenue was NT$151,485M (+51.0% YoY, +20.1% QoQ), gross margin 30.6% and operating margin 20.0%. Equipment capex was US$2,104M; EBITDA was NT$57,963M, without comparison through an unverified exchange rate. Simple FCF was NT$50,462M minus NT$125,852M = -NT$75,390M in Q3, and NT$133,863M minus NT$249,792M = -NT$115,929M for nine months. ATM top-five customers were about 46%, top-ten 63%, and one exceeded 10%, without comparable customer identities. The deck and call were inaccessible in this review; computing mix, the US-dollar EBITDA chart and Q4 deck forecasts were excluded. Valuation remains anchored to the historical 2026-08-07 basis; new actuals await Mode B. Price, valuation numbers, stance and conviction are unchanged."
+    },
+    "crossChecks": [],
+    "scope": "report-monitoring",
+    "tickers": [
+      "ASX"
+    ],
+    "reportIds": [
+      "ase-technology-2026"
+    ],
+    "monitoringRefs": [
+      "ase-technology-2026:computing-mix-and-atm-margin",
+      "ase-technology-2026:ownership-outside-tsmc",
+      "ase-technology-2026:capex-and-free-cash-flow",
+      "ase-technology-2026:customer-concentration"
+    ]
   }
 ]
