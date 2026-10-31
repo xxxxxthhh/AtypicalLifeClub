@@ -17,7 +17,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 - ~~**Stance:** Neutral-to-constructive (on valuation) / low conviction (on visibility)~~
 - ~~**Update (2026-10-02) — Stance:** constructive. **Conviction:** low. At the 2026-10-01 close of $149.53, the 30/50/20 scenario grid in §8 weights to $200.44 per share at end-2028, or +13.9% annualized over 2.248 years against an 8% hurdle. The skew is positive but multiple-fragile: cutting every exit multiple by three turns takes the weighted return to +4.5%, which is why conviction stays low.~~
-- **Update (2026-10-31) — Stance:** neutral-watch. **Conviction:** low. The pre-committed downgrade leg "U.S. DAUq declines sequentially in two consecutive quarters" is literally met; the other four downgrade legs are not. At the 2026-10-30 close of $91.73, the rebuilt §8 grid (10/50/40) weights to $113.14 per share at end-2028, or +10.2% annualized over 2.168 years, at the top edge of the 8%-10% hurdle. A single 10-point shift from base to bear (10/40/50) gives +7.0%, and two turns lower on every exit multiple gives +1.4%. The verdict flips across the hurdle on one weight step, so the scenario work says balanced and the pre-commitment sets the landing.
+- **Update (2026-10-31) — Stance:** neutral-watch. **Conviction:** low. The pre-committed downgrade leg "U.S. DAUq declines sequentially in two consecutive quarters" is literally met; the other four downgrade legs are not. At the 2026-10-30 close of $91.73, the rebuilt §8 grid (10/50/40) weights to $113.14 per share at end-2028, or +10.2% annualized over 2.168 years, just above the top of the 8%-10% hurdle (0.2 points over 10%). A single 10-point shift from base to bear (10/40/50) gives +7.0%, and two turns lower on every exit multiple gives +1.4%. The verdict flips across the hurdle on one weight step, so the scenario work says balanced and the pre-commitment sets the landing.
 - **Confidence:** Low. The positive skew comes from valuation arithmetic, while the variable that decides the thesis — search referral traffic — is one management itself describes as having "low visibility." Any higher confidence would be false precision. **Update (2026-10-31):** still low. The decisive variable is now moving against the thesis, the issuer frames its own Q4 DAUq warning as conditional, and the planned logged-in-only transition trades reach for engagement with no disclosed size.
 - **Key catalysts:** Q3 2026 results in late October 2026 (the first independent test of U.S. DAU and ad growth), the outcome of the Google data-licensing renewal (expires H1 2027), and any new AI licensing agreement. **Update (2026-10-02):** the Q3 date had not been announced by 2026-10-02; data providers estimate 2026-10-29 after the close (stockanalysis.com, an estimate, not a company announcement). **Update (2026-10-31):** Q3 was released on 2026-10-29 after the close (8-K accession 0001713445-26-000114; 10-Q accession 0001713445-26-000116, accepted 2026-10-29 17:40:41 ET). The next test is Q4 2026 results, estimated for early February 2027 (Q4 2025 results came on 2026-02-05; the issuer has not announced a date).
 - **Monitoring window:** 3–12 months
@@ -536,7 +536,7 @@ What each scenario requires:
 | Bull restored | 20/40/40 | $121.43 | +13.8% | Yes |
 | 2026-10-02 weights | 30/50/20 | $143.45 | +22.9% | Yes |
 
-Holding bull at 10%, the weighted return falls below 10% once the bear weight passes 40.6%, below 8% at 47.0% and below zero at 71.2%. Holding the base-case operating path fixed and varying only its exit multiple: 12x gives $153.54 (+26.8% a year), 8x gives $111.13 (+9.3%), 7x gives $100.53 (+4.3%) and 6x gives $89.93 (-0.9%).
+Holding bull at 10%, the weighted return falls below 10% once the bear weight passes 40.5%, below 8% at 46.9% and below zero at 71.2%. Holding the base-case operating path fixed and varying only its exit multiple: 12x gives $153.54 (+26.8% a year), 8x gives $111.13 (+9.3%), 7x gives $100.53 (+4.3%) and 6x gives $89.93 (-0.9%).
 
 **What the sensitivity table shows:**
 - **What it survives:** moving 10 points from bear to base, or restoring a 20% bull weight.
@@ -612,7 +612,7 @@ The fragility of this derivation must be stated alongside it: it assumes Reddit 
 4. **Active advertiser count growth** — ~~currently +70% YoY~~ (Q2: +70% YoY; Q3: no total disclosed), a leading indicator for ARPU sustainability.
    - Monitoring id: `active-advertiser-growth`.
    - Trigger: Active advertiser YoY growth falls below +30%, or management stops disclosing it.
-   - Latest reading (Update 2026-10-31), **breached** (disclosure disjunct): no total active-advertiser growth figure was given for Q3 2026. The only Q3 figure is "mid-market active advertisers grew more than 50% year-over-year" (COO Jen Wong, call of 2026-10-29), with Max advertiser adoption "more than tripled quarter-over-quarter". Call-sourced via two third-party transcripts (Motley Fool, Investing.com); the issuer's IR site returned 403 here, and the shareholder letter gives no total either.
+   - Latest reading (Update 2026-10-31), **unclear**: no total active-advertiser growth figure was given for Q3 2026. The only Q3 figure is "mid-market active advertisers grew more than 50% year-over-year" (COO Jen Wong, call of 2026-10-29), with Max advertiser adoption "more than tripled quarter-over-quarter". Call-sourced via two third-party transcripts (Motley Fool, Investing.com); the issuer's IR site returned 403 here, and the shareholder letter gives no total either. One quarter's omission, established without reading the issuer's own webcast, is not yet evidence that management has stopped disclosing the metric, so the disclosure disjunct is not graded as met; re-grade at Q4.
    - Prior reading (2026-10-02, historical): Active advertisers grew +70% YoY in Q2 2026 (earnings call, 2026-07-30), and Reddit Max revenue grew +150% QoQ (call). This metric is not a 10-Q line item.
    - Next check: ~~Q3 2026 earnings call.~~ Q4 2026 earnings call (estimated early February 2027).
 5. **Other revenue (data licensing), YoY and absolute** — ~~currently $43M per quarter~~ $48.0M in Q3 2026. Renewal outcomes will show up in this line first.
@@ -648,7 +648,7 @@ The fragility of this derivation must be stated alongside it: it assumes Reddit 
 
 **Update (2026-10-31) — stance and conviction: neutral-watch, low conviction.**
 - **The trigger:** the pre-committed downgrade leg "U.S. DAUq declines sequentially in two consecutive quarters" is literally met (53.5M → 53.2M → 50.7M; Q3 -4.7% QoQ, which the 10-Q MD&A reports as a 5% decline). The other four downgrade legs are not met (table below). The default landing is neutral-watch.
-- **The grid at $91.73:** the rebuilt 10/50/40 grid (bull $215.18 / base $132.34 / bear $63.64) weights to **$113.14 per share, +23.3% against $91.73, or +10.2% annualized** over 2.168 years. That is at the top edge of the 8%-10% hurdle, not 5.9 points above it as on 2026-10-02. The base case alone earns +18.4% a year; the bear case -15.5%.
+- **The grid at $91.73:** the rebuilt 10/50/40 grid (bull $215.18 / base $132.34 / bear $63.64) weights to **$113.14 per share, +23.3% against $91.73, or +10.2% annualized** over 2.168 years. That is just above the top of the 8%-10% hurdle (0.2 points over 10%), not 5.9 points above it as on 2026-10-02. The base case alone earns +18.4% a year; the bear case -15.5%.
 - **Why the scenario work says balanced:** one 10-point step from base to bear (10/40/50) gives +7.0%; two turns lower on every exit multiple gives +1.4%; slower growth gives +4.7%; margins 4-5 points lower give +5.5%. Only a 20% bull weight (+13.8%) or the old 30/50/20 (+22.9%) restores a clear margin, and both weight a bull case whose precondition the issuer has just contradicted. When a single weight step flips the verdict across the hurdle, the call is balanced, and the pre-commitment sets the landing.
 - **Why not stay constructive:** departing from a literally-hit trigger would need the grid to clear the hurdle under bear-leaning weights, and it does not (10/40/50 = +7.0%). The 39% fall from the old $149.53 anchor is real valuation relief: EV/FY2026E adjusted EBITDA went from the old 17.7x to 9.8x. But the relief was paid for with evidence that the funnel risk the bear case described is happening.
 - **Why not cautious:** the price already sits close to what a 6x-8x exit with compressed margins implies (reverse test). Q3 revenue of $895.0M beat the $870M top of guidance. The Q4 guide midpoint ($1,015M, +39.9% YoY) and its 48.8% implied adjusted EBITDA margin show monetization still compounding. Net cash is $15.55 per share (16.9% of the price). The downgrade-to-cautious triggers below name the Q4 readings that would make the skew negative.
@@ -666,7 +666,7 @@ The fragility of this derivation must be stated alongside it: it assumes Reddit 
 | Upgrade (all required) | U.S. DAUq up QoQ in Q3 and Q4 | Both quarters up | Q3 down 4.7% | Not met |
 | Upgrade (all required) | Google renewal or comparable deal | Flat or better renewal, or comparable new deal | No disclosure | Not met |
 | Upgrade (all required) | Q3 revenue | At or above $870M | $895.0M | Met |
-| Monitoring | Active-advertiser growth | Below +30%, or disclosure stops | No total disclosed; mid-market only (>50%) | **Breached** (disclosure) |
+| Monitoring | Active-advertiser growth | Below +30%, or disclosure stops | No total disclosed; mid-market only (>50%); issuer webcast not read | **Unclear** (one-quarter omission, not yet a disclosure stop) |
 | Monitoring | Buyback execution | Net share count up in both Q3 and Q4 | Q3 +0.79M (192.32M → 193.12M) | First of two quarters |
 
 The upgrade side meets one of three legs and is not satisfied.
@@ -692,14 +692,15 @@ One point should be stated plainly: this report does not view the post-print -21
 - ~~Q4 2026 revenue guidance implies less than +35% YoY growth; or~~
 - ~~the Google agreement is confirmed not to renew and the company simultaneously discloses a sharp decline in search referrals.~~
 
-**Update (2026-10-31) — re-based triggers from neutral-watch (identical clause by clause to `stanceTriggers` in reports.json):**
+**Update (2026-10-31) — re-based triggers from neutral-watch (same clauses as `stanceTriggers` in reports.json; the bullets below add explanatory notes):**
 
 - **Upgrade to constructive — all of the following:**
-  - Q4 2026 total DAUq of at least 114.7M (a decline of no more than 12% from Q3's 130.3M, inside the issuer's low-double-digit warning), with global logged-in DAUq up sequentially from Q3's 53.5M.
+  - Q4 2026 total DAUq of at least 114.7M (a decline of no more than 12% from Q3's 130.3M, inside the issuer's low-double-digit warning), with global logged-in DAUq up sequentially from Q3's 53.5M, and U.S. DAUq of at least Q3's 50.7M (no third consecutive U.S. decline; U.S. users carry about 80% of revenue, and the logged-in clause alone can be lifted mechanically by the logged-in-only tests).
   - Q4 2026 revenue of at least $1,000M (the low end of guidance), with U.S. ARPU up at least +35% YoY (at least about $14.57 against Q4 2025's $10.79).
   - A Q1 2027 revenue guidance midpoint of at least about $829M (+25% against Q1 2026's $663.41M).
 - **Downgrade to cautious — any one of the following:**
   - Q4 2026 total DAUq below 110.8M (a decline of more than 15% QoQ), or global logged-in DAUq declines sequentially. If the Q4 materials do not disclose the logged-in / logged-out split (the 10-Q commits to it only for the quarter ended 2026-09-30), the logged-in clause cannot be met for the upgrade and is recorded `unclear` for the downgrade, which is then graded on total DAUq alone; the logged-in-only tests starting in Q4 mechanically lift logged-in DAUq, so a logged-in increase is not on its own evidence of recovery.
+  - Q4 2026 U.S. DAUq below 48.2M (a further sequential decline of more than about 5%, worse than Q3's -4.7%).
   - Q4 2026 revenue below $1,000M, or a Q1 2027 revenue guidance midpoint below about $763M (+15% YoY).
   - Q4 2026 U.S. ARPU growth below +25% YoY (below about $13.49).
   - A Q4 2026 adjusted EBITDA margin below Q4 2025's 45.1%.
