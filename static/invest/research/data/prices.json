@@ -6,11 +6,11 @@
       "symbol": "RDDT",
       "status": "ok",
       "attemptedAt": "2026-10-30",
-      "baseDate": "2026-10-01",
-      "basePrice": 149.53,
+      "baseDate": "2026-10-30",
+      "basePrice": 91.73,
       "lastDate": "2026-10-30",
       "lastClose": 91.73,
-      "changePct": -38.7,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {

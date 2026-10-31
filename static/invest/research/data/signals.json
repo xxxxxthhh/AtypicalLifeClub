@@ -3575,5 +3575,34 @@
       "spotify-2026:premium-pricing-churn",
       "spotify-2026:valuation-exit-multiple"
     ]
+  },
+  {
+    "id": "reddit-q3-2026-results-20261029",
+    "date": "2026-10-29",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Reddit Q3 美国 DAUq 连续两季环比下滑至 50.7M，立场下调为中性观察",
+      "en": "Reddit Q3 U.S. DAUq falls for a second quarter to 50.7M; stance cut to neutral-watch"
+    },
+    "detail": {
+      "zh": "来源：2026-10-29 8-K（0001713445-26-000114）附件 99.1 新闻稿与 99.2 股东信、Q3 10-Q（0001713445-26-000116，2026-10-29 17:40:41 ET 受理）及第三方电话会文字稿。收入 $895.0M（+53%），Q4 指引 $1,000-1,030M；美国 DAUq 53.5M→53.2M→50.7M 连续两季环比下滑，触发降级腿；美国 ARPU $13.82（+52.9%）；调整后 EBITDA 利润率 44.9%（上年 40.3%）。公司称搜索引流显著下降，10 月每周减少超过 100 万次，Q4 总 DAUq 可能下降低双位数百分比。Q3 未披露活跃广告主总数；回购 $100.4M 但净股数升至 193.12M；Google 未确认续约结果。按 2026-10-30 收盘 $91.73 重锚，10/50/40 网格年化 +10.2%：立场由偏积极调整为中性观察，低确信。",
+      "en": "Sources: 8-K of 2026-10-29 (0001713445-26-000114) Ex 99.1 release and Ex 99.2 shareholder letter, the Q3 10-Q (0001713445-26-000116, accepted 2026-10-29 17:40:41 ET), and third-party call transcripts. Revenue $895.0M (+53%), Q4 guide $1,000-1,030M. U.S. DAUq fell 53.5M → 53.2M → 50.7M, two consecutive sequential declines, meeting the downgrade leg; U.S. ARPU $13.82 (+52.9%); adjusted EBITDA margin 44.9% (40.3% a year earlier). The company says search referrals fell meaningfully, by more than 1 million a week in October, and total DAUq could fall by a low-double-digit percentage in Q4. No total active-advertiser figure was given for Q3; $100.4M of buybacks still left the net share count up at 193.12M; no Google renewal outcome. Re-anchored at the 2026-10-30 close of $91.73, the 10/50/40 grid gives +10.2% annualized: stance moves from constructive to neutral-watch, low conviction."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "RDDT"
+    ],
+    "reportIds": [
+      "reddit-2026"
+    ],
+    "monitoringRefs": [
+      "reddit-2026:us-dau-direction",
+      "reddit-2026:us-arpu-growth",
+      "reddit-2026:ad-revenue-growth",
+      "reddit-2026:active-advertiser-growth",
+      "reddit-2026:google-data-licensing",
+      "reddit-2026:adj-ebitda-margin",
+      "reddit-2026:buyback-execution"
+    ]
   }
 ]
