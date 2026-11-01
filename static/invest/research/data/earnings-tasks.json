@@ -1,18 +1,82 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T22:10:22Z",
+  "generatedAt": "2026-11-01T22:10:04Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-10-31T22:10:22Z"
+    "value": "2026-11-01T22:10:04Z"
   },
   "tasks": [
     {
-      "id": "earnings:cameco-2026:2026-10-30:T+1",
-      "reportId": "cameco-2026",
-      "type": "research-update",
-      "window": "T+1",
+      "id": "earnings:ase-technology-2026:2026-10-29:stale",
+      "reportId": "ase-technology-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-29",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:innolight-2026:2026-10:complete-date",
+      "reportId": "innolight-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-10",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:jinpan-2026:unknown:unknown",
+      "reportId": "jinpan-2026",
+      "type": "calendar-maintenance",
+      "window": "unknown",
+      "expectedDate": null,
+      "reason": "Resolve unknown earnings calendar data."
+    },
+    {
+      "id": "earnings:kioxia-2026:2026-10-30:stale",
+      "reportId": "kioxia-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
       "expectedDate": "2026-10-30",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:minimax-2026:2027-03:complete-date",
+      "reportId": "minimax-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2027-03",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:pltr-2026:2026-11-02:T-1",
+      "reportId": "pltr-2026",
+      "type": "research-update",
+      "window": "T-1",
+      "expectedDate": "2026-11-02",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
+    },
+    {
+      "id": "earnings:sk-hynix-2026:2026-10-28:stale",
+      "reportId": "sk-hynix-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-28",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:tempus-ai-2026:2026-11-02:T-1",
+      "reportId": "tempus-ai-2026",
+      "type": "research-update",
+      "window": "T-1",
+      "expectedDate": "2026-11-02",
+      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
+    },
+    {
+      "id": "earnings:tsmc-2026:2026-10-15:stale",
+      "reportId": "tsmc-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-15",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
     }
   ]
 }
