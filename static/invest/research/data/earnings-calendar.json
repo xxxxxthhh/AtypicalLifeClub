@@ -681,13 +681,13 @@
       "reportId": "innolight-2026",
       "company": "中际旭创",
       "timezone": "Asia/Shanghai",
-      "expectedDate": "2026-10",
-      "precision": "month",
-      "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
+      "expectedDate": "2026-10-29",
+      "precision": "day",
+      "status": "stale",
+      "session": "unspecified",
+      "sourceUrl": "https://finance.eastmoney.com/a/202610293914777591.html",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-09-09"
+      "verifiedAt": "2026-11-02"
     },
     {
       "reportId": "onds-2026",
