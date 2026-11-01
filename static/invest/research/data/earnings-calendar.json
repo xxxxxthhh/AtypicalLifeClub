@@ -670,11 +670,11 @@
       "company": "ASE Technology Holding",
       "expectedDate": "2026-10-29",
       "precision": "day",
-      "status": "estimated",
+      "status": "stale",
       "session": "unspecified",
       "sourceUrl": "https://ir.aseglobal.com/html/ir_events_details.php?id=22006",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-10-09",
+      "verifiedAt": "2026-11-02",
       "timezone": "Asia/Taipei"
     },
     {
