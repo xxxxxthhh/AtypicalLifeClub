@@ -648,11 +648,11 @@
       "timezone": "Asia/Tokyo",
       "expectedDate": "2026-10-30",
       "precision": "day",
-      "status": "issuer-confirmed",
+      "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://www.kioxia-holdings.com/en-jp/ir/news.html",
       "sourceType": "issuer-ir",
-      "verifiedAt": "2026-10-01"
+      "verifiedAt": "2026-11-02"
     },
     {
       "reportId": "pltr-2026",
