@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-01T22:10:04Z",
+  "generatedAt": "2026-11-01T23:14:23Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-11-01T22:10:04Z"
+    "value": "2026-11-01T23:14:23Z"
   },
   "tasks": [
     {
@@ -15,12 +15,20 @@
       "reason": "Earnings date has passed; roll the entry to the next cycle."
     },
     {
-      "id": "earnings:innolight-2026:2026-10:complete-date",
-      "reportId": "innolight-2026",
+      "id": "earnings:asml-2026:2027-01-27:complete-date",
+      "reportId": "asml-2026",
       "type": "date-completion",
       "window": "complete-date",
-      "expectedDate": "2026-10",
+      "expectedDate": "2027-01-27",
       "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:innolight-2026:2026-10-29:stale",
+      "reportId": "innolight-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-29",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
     },
     {
       "id": "earnings:jinpan-2026:unknown:unknown",
@@ -71,12 +79,12 @@
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     },
     {
-      "id": "earnings:tsmc-2026:2026-10-15:stale",
+      "id": "earnings:tsmc-2026:unknown:unknown",
       "reportId": "tsmc-2026",
       "type": "calendar-maintenance",
-      "window": "stale",
-      "expectedDate": "2026-10-15",
-      "reason": "Earnings date has passed; roll the entry to the next cycle."
+      "window": "unknown",
+      "expectedDate": null,
+      "reason": "Resolve unknown earnings calendar data."
     }
   ]
 }
