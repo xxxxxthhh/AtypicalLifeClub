@@ -592,11 +592,11 @@
       "company": "Amkor Technology",
       "expectedDate": "2026-10-26",
       "precision": "day",
-      "status": "issuer-confirmed",
+      "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://ir.amkor.com/news-releases/news-release-details/amkor-technology-announce-third-quarter-2026-financial-results",
       "sourceType": "issuer-ir",
-      "verifiedAt": "2026-10-08"
+      "verifiedAt": "2026-11-03"
     },
     {
       "reportId": "kioxia-2026",
