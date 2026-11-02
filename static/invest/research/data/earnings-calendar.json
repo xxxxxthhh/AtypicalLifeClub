@@ -198,11 +198,11 @@
       "company": "SanDisk",
       "expectedDate": "2026-10-29",
       "precision": "day",
-      "status": "estimated",
+      "status": "stale",
       "session": "unspecified",
       "sourceUrl": "https://investor.sandisk.com/news-releases/news-release-details/sandisk-report-first-quarter-fiscal-year-2027-results-october-29",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-10-06"
+      "verifiedAt": "2026-11-03"
     },
     {
       "reportId": "tempus-ai-2026",
