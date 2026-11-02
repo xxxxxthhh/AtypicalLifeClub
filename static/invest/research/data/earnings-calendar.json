@@ -310,11 +310,11 @@
       "company": "Netflix",
       "expectedDate": "2026-10-20",
       "precision": "day",
-      "status": "issuer-confirmed",
+      "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://ir.netflix.net/investor-news-and-events/financial-releases/press-release-details/2026/Netflix-to-Announce-Third-Quarter-2026-Financial-Results/default.aspx",
       "sourceType": "issuer-ir",
-      "verifiedAt": "2026-09-15"
+      "verifiedAt": "2026-11-03"
     },
     {
       "reportId": "spotify-2026",
