@@ -648,13 +648,24 @@
     {
       "reportId": "onds-2026",
       "company": "Ondas Inc.",
-      "expectedDate": "2026-11",
-      "precision": "month",
+      "expectedDate": "2026-11-12",
+      "precision": "day",
       "status": "estimated",
-      "session": "not-applicable",
-      "sourceUrl": null,
+      "session": "unspecified",
+      "sourceUrl": "https://ir.ondas.com/press-releases/detail/336/ondas-to-report-third-quarter-2026-financial-results-on",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-09-21"
+      "verifiedAt": "2026-11-03",
+      "call": {
+        "eventType": "call",
+        "timezone": "America/New_York",
+        "expectedDate": "2026-11-12",
+        "localTime": "08:30",
+        "precision": "day",
+        "status": "issuer-confirmed",
+        "sourceUrl": "https://ir.ondas.com/press-releases/detail/336/ondas-to-report-third-quarter-2026-financial-results-on",
+        "sourceType": "issuer-ir",
+        "verifiedAt": "2026-11-03"
+      }
     },
     {
       "reportId": "wdc-2026",
