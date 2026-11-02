@@ -535,11 +535,11 @@
       "company": "Digital Realty",
       "expectedDate": "2026-10-29",
       "precision": "day",
-      "status": "issuer-confirmed",
+      "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://digitalrealtytrust.gcs-web.com/news-releases/news-release-details/digital-realty-schedules-third-quarter-2026-earnings-release-and",
       "sourceType": "issuer-ir",
-      "verifiedAt": "2026-10-06"
+      "verifiedAt": "2026-11-03"
     },
     {
       "reportId": "minimax-2026",
