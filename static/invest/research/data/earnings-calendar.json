@@ -265,11 +265,11 @@
       "company": "Bloom Energy",
       "expectedDate": "2026-10-22",
       "precision": "day",
-      "status": "issuer-confirmed",
+      "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://investor.bloomenergy.com/press-releases/press-release-details/2026/Bloom-Energy-to-Announce-Third-Quarter-2026-Financial-Results-on-October-22-2026/default.aspx",
       "sourceType": "issuer-ir",
-      "verifiedAt": "2026-10-13"
+      "verifiedAt": "2026-11-03"
     },
     {
       "reportId": "salesforce-2026",
