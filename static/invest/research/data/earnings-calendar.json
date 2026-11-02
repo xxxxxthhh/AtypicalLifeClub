@@ -96,13 +96,13 @@
     {
       "reportId": "nrg-2026",
       "company": "NRG Energy",
-      "expectedDate": "2026-11-05",
+      "expectedDate": "2026-11-09",
       "precision": "day",
       "status": "estimated",
       "session": "unspecified",
-      "sourceUrl": "https://www.marketbeat.com/stocks/NYSE/NRG/earnings/",
+      "sourceUrl": "https://www.businesswire.com/news/home/20261026403687/en/NRG-Energy-to-Report-Third-Quarter-2026-Financial-Results-on-November-9-2026/",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-09-08"
+      "verifiedAt": "2026-11-03"
     },
     {
       "reportId": "eqix-2026",
