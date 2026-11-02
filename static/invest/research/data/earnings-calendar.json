@@ -185,13 +185,13 @@
     {
       "reportId": "gevernova-2026",
       "company": "GE Vernova",
-      "expectedDate": "2026-10-28",
+      "expectedDate": "2027-01-28",
       "precision": "day",
-      "status": "issuer-confirmed",
-      "session": "before-open",
-      "sourceUrl": "https://www.gevernova.com/investors/events",
-      "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-18"
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://www.ajbell.co.uk/market-research/sub/NYSE:GEV/company-info",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-11-03"
     },
     {
       "reportId": "sandisk-2026",
