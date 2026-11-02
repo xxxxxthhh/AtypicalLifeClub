@@ -98,23 +98,12 @@
       "company": "Equinix",
       "expectedDate": "2026-10-28",
       "precision": "day",
-      "status": "estimated",
+      "status": "stale",
       "session": "unspecified",
       "sourceUrl": "https://newsroom.equinix.com/2026-10-01-MEDIA-ALERT-Equinix-Sets-Conference-Call-for-Third-Quarter-Results",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-10-06",
-      "fiscalPeriod": "Q3 2026",
-      "call": {
-        "eventType": "call",
-        "timezone": "America/New_York",
-        "expectedDate": "2026-10-28",
-        "localTime": "17:30",
-        "precision": "day",
-        "status": "issuer-confirmed",
-        "sourceUrl": "https://newsroom.equinix.com/2026-10-01-MEDIA-ALERT-Equinix-Sets-Conference-Call-for-Third-Quarter-Results",
-        "sourceType": "issuer-ir",
-        "verifiedAt": "2026-10-20"
-      }
+      "verifiedAt": "2026-11-03",
+      "fiscalPeriod": "Q3 2026"
     },
     {
       "reportId": "nebius-2026",
