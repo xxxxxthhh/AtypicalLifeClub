@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01",
+  "generatedAt": "2026-11-02",
   "dataAsOf": "2026-10-30",
   "benchmark": "SMH",
   "entries": [
@@ -957,21 +957,14 @@
     },
     {
       "reportId": "axti-2026",
-      "stance": "cautious",
-      "conviction": "medium",
-      "stanceDate": "2026-09-25",
-      "priceAtStance": 72.98,
+      "stance": "neutral-watch",
+      "conviction": "low",
+      "stanceDate": "2026-11-02",
+      "priceAtStance": 55.06,
       "benchmarkSymbol": "SMH",
-      "monitoringOverdue": true,
-      "lastDate": "2026-10-30",
-      "lastClose": 55.06,
-      "changePct": -24.6,
-      "benchmarkChangePct": -13.9,
-      "relativePct": -10.7,
-      "bookBenchmarkSymbol": "SMH",
-      "bookBenchmarkChangePct": -13.9,
-      "bookRelativePct": -10.7,
-      "daysHeld": 35,
+      "monitoringOverdue": false,
+      "status": "pending",
+      "daysHeld": 0,
       "stale": false
     },
     {
@@ -2740,6 +2733,25 @@
       "bookBenchmarkChangePct": 11.6,
       "bookRelativePct": 2.6,
       "daysHeld": 72,
+      "migration": false,
+      "benchmarkSymbol": "SMH"
+    },
+    {
+      "reportId": "axti-2026",
+      "fromStance": "cautious",
+      "toStance": "neutral-watch",
+      "toConviction": "low",
+      "startDate": "2026-09-25",
+      "startPrice": 72.98,
+      "endDate": "2026-11-02",
+      "endPrice": 55.06,
+      "changePct": -24.6,
+      "benchmarkChangePct": -13.9,
+      "relativePct": -10.7,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -13.9,
+      "bookRelativePct": -10.7,
+      "daysHeld": 38,
       "migration": false,
       "benchmarkSymbol": "SMH"
     }

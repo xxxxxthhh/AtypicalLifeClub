@@ -3547,5 +3547,32 @@
       "coinbase-2026:adj-ebitda-expense",
       "coinbase-2026:market-structure-regulation"
     ]
+  },
+  {
+    "id": "axti-q3-call-tongmei-mode-b-20261102",
+    "date": "2026-11-02",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "AXT Q4 指引约 $90M、在手超 $5 亿；通美私募压低归属至 73.4%",
+      "en": "AXT guides Q4 to about $90M with backlog above $500M; Tongmei placement cuts attribution to 73.4%"
+    },
+    "detail": {
+      "zh": "来源：2026-10-29 Q3 业绩稿（8-K 附件 99.1）、Q3 电话会第三方转写（Motley Fool）、2026-10-28 通美私募 8-K、2026-11-02 商务部公告列表与 HKEXnews 核查。Q3 收入 $73.4M、GAAP 毛利率 56.0%、InP $54.3M（电话会）；Q4 约 $90M、非 GAAP EPS $0.57–$0.59；产能 2.75–3 倍、2027 年再翻倍、在手超过 $5 亿（电话会）；Lumentum $43.5M 已收（电话会）。商务部公告无 InP 专项新措施。私募最低约 $2.85 亿、最高约 $5.45 亿，AXT 增资 $4 亿，满额后持股 73.4%，8% 复利赎回权，最低额须 2026-12-20 前交割。按 2026-10-30 收盘 $55.06 重建网格，加权 $58.43、年化 +2.8%，立场由 cautious / medium 调整为 neutral-watch / low。Q3 10-Q 未出，合同负债与长期借款 review-pending。",
+      "en": "Sources: the Q3 release of 2026-10-29 (8-K Exhibit 99.1), the third-party Q3 call transcript (Motley Fool), the Tongmei placement 8-K of 2026-10-28, and checks of MOFCOM's announcement list and HKEXnews on 2026-11-02. Q3 revenue $73.4M, GAAP gross margin 56.0%, InP $54.3M (call); Q4 about $90M, non-GAAP EPS $0.57-$0.59; capacity 2.75-3x, doubling again in 2027, backlog above $500M (call); Lumentum's $43.5M received (call). MOFCOM's announcements show no new InP-specific measure. Placement minimum about $285M, maximum about $545M, AXT recapitalization $400M, 73.4% at the maximum, 8% compounding redemption right, minimum to close by 2026-12-20. The grid rebuilt at the 2026-10-30 close of $55.06 weights to $58.43, +2.8% annualized; stance moves from cautious / medium to neutral-watch / low. The Q3 10-Q is not out; contract liabilities and long-term loans are review-pending."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "AXTI"
+    ],
+    "reportIds": [
+      "axti-2026"
+    ],
+    "monitoringRefs": [
+      "axti-2026:inp-revenue-capacity",
+      "axti-2026:export-permits",
+      "axti-2026:gross-margin",
+      "axti-2026:customer-prepayments",
+      "axti-2026:tongmei-minority-listing"
+    ]
   }
 ]
