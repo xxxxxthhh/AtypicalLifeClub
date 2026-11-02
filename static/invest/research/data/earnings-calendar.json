@@ -661,11 +661,11 @@
       "company": "Western Digital",
       "expectedDate": "2026-10-22",
       "precision": "day",
-      "status": "issuer-confirmed",
+      "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://investor.wdc.com/news-releases/news-release-details/wd-announce-first-quarter-fiscal-year-2027-financial-results",
       "sourceType": "issuer-ir",
-      "verifiedAt": "2026-10-09"
+      "verifiedAt": "2026-11-03"
     },
     {
       "reportId": "seagate-2026",
