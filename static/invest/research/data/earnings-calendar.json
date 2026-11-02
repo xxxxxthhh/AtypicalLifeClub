@@ -672,11 +672,11 @@
       "company": "Seagate Technology",
       "expectedDate": "2026-10-27",
       "precision": "day",
-      "status": "issuer-confirmed",
+      "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://investors.seagate.com/news/news-details/2026/Seagate-Technology-to-Report-Fiscal-First-Quarter-2027-Financial-Results-on-October-27-2026/default.aspx",
       "sourceType": "issuer-ir",
-      "verifiedAt": "2026-10-14"
+      "verifiedAt": "2026-11-03"
     },
     {
       "reportId": "axti-2026",
