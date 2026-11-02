@@ -75,23 +75,12 @@
       "company": "Cadence Design Systems",
       "expectedDate": "2026-10-26",
       "precision": "day",
-      "status": "estimated",
+      "status": "stale",
       "session": "unspecified",
       "sourceUrl": "https://investor.cadence.com/news/news-details/2026/Cadence-Announces-Third-Quarter-2026-Financial-Results-Webcast/default.aspx",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-10-09",
-      "fiscalPeriod": "Q3 2026",
-      "call": {
-        "eventType": "call",
-        "timezone": "America/Los_Angeles",
-        "expectedDate": "2026-10-26",
-        "localTime": "14:00",
-        "precision": "day",
-        "status": "issuer-confirmed",
-        "sourceUrl": "https://investor.cadence.com/news/news-details/2026/Cadence-Announces-Third-Quarter-2026-Financial-Results-Webcast/default.aspx",
-        "sourceType": "issuer-ir",
-        "verifiedAt": "2026-10-20"
-      }
+      "verifiedAt": "2026-11-03",
+      "fiscalPeriod": "Q3 2026"
     },
     {
       "reportId": "nrg-2026",
