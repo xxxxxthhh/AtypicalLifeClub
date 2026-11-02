@@ -480,11 +480,11 @@
       "company": "Microsoft",
       "expectedDate": "2026-10-28",
       "precision": "day",
-      "status": "issuer-confirmed",
+      "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://news.microsoft.com/source/2026/10/07/microsoft-announces-quarterly-earnings-release-date-69/",
       "sourceType": "issuer-ir",
-      "verifiedAt": "2026-10-08"
+      "verifiedAt": "2026-11-03"
     },
     {
       "reportId": "meta-2026",
