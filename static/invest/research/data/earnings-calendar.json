@@ -29,13 +29,24 @@
     {
       "reportId": "applied-materials-2026",
       "company": "Applied Materials",
-      "expectedDate": "2026-08-13",
+      "expectedDate": "2026-11-12",
       "precision": "day",
-      "status": "stale",
-      "session": "after-close",
-      "sourceUrl": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-report-fiscal-third-quarter-2026-results-aug",
-      "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-24"
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-report-fourth-quarter-and-fiscal-2026-results",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-11-03",
+      "call": {
+        "eventType": "call",
+        "timezone": "America/New_York",
+        "expectedDate": "2026-11-12",
+        "localTime": "16:30",
+        "precision": "day",
+        "status": "issuer-confirmed",
+        "sourceUrl": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-report-fourth-quarter-and-fiscal-2026-results",
+        "sourceType": "issuer-ir",
+        "verifiedAt": "2026-11-03"
+      }
     },
     {
       "reportId": "lam-research-2026",
