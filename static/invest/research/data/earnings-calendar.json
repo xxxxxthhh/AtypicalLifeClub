@@ -683,11 +683,11 @@
       "company": "AXT Inc.",
       "expectedDate": "2026-10-29",
       "precision": "day",
-      "status": "issuer-confirmed",
+      "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://investors.axt.com/Investors/news/news-details/2026/AXT-Inc--Schedules-Third-Quarter-2026-Earnings-Release-for-October-29-2026/default.aspx",
       "sourceType": "issuer-ir",
-      "verifiedAt": "2026-10-08"
+      "verifiedAt": "2026-11-03"
     },
     {
       "reportId": "applovin-2026",
