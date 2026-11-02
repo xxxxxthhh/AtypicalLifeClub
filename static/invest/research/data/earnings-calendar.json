@@ -8,11 +8,11 @@
       "company": "Reddit",
       "expectedDate": "2026-10-29",
       "precision": "day",
-      "status": "issuer-confirmed",
+      "status": "stale",
       "session": "after-close",
       "sourceUrl": "https://investor.redditinc.com/news-events/news-releases/news-details/2026/Reddit-to-Announce-Third-Quarter-Results-on-Thursday-October-29-2026/default.aspx",
       "sourceType": "issuer-ir",
-      "verifiedAt": "2026-10-16"
+      "verifiedAt": "2026-11-03"
     },
     {
       "reportId": "asml-2026",
