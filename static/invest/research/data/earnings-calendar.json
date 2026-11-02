@@ -42,11 +42,11 @@
       "company": "Lam Research",
       "expectedDate": "2026-10-21",
       "precision": "day",
-      "status": "estimated",
+      "status": "stale",
       "session": "unspecified",
       "sourceUrl": "https://newsroom.lamresearch.com/2026-09-30-Lam-Research-Corporation-Announces-September-Quarter-Financial-Conference-Call",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-10-08"
+      "verifiedAt": "2026-11-03"
     },
     {
       "reportId": "kla-2026",
