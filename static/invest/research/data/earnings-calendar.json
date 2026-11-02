@@ -410,13 +410,13 @@
     {
       "reportId": "micron-2026",
       "company": "Micron Technology",
-      "expectedDate": "2026-09-30",
+      "expectedDate": "2026-12-16",
       "precision": "day",
-      "status": "stale",
-      "session": "after-close",
-      "sourceUrl": "https://investors.micron.com/news/press-release/2026/Micron-Technology-to-Report-Fiscal-Fourth-Quarter-Results-on-September-30-2026/default.aspx",
-      "sourceType": "issuer-ir",
-      "verifiedAt": "2026-09-01"
+      "status": "estimated",
+      "session": "unspecified",
+      "sourceUrl": "https://days.to/micron-earnings",
+      "sourceType": "monitoring",
+      "verifiedAt": "2026-11-03"
     },
     {
       "reportId": "constellation-energy-2026",
