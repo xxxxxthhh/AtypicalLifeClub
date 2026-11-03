@@ -9449,8 +9449,8 @@
     "priceSymbol": "MRVL",
     "title": "Marvell Technology 深度研究报告 - Broadcom 之外的 custom ASIC 与光互连架构校验",
     "titleEn": "Marvell Technology Deep Research Report - Custom ASIC and Optical Interconnect Check Beyond Broadcom",
-    "summary": "2026-08-28 监测更新：FY2027 Q2 净收入 $2,739.3M（同比 +37%），Data center $2,171.5M（同比 +46%，前季 +27%），Q3 指引 $3.150B±5%。发行人称本季 Data Center 强度来自 Connectivity，并把 Custom 业务显著加速定在 FY2027 下半年，因此具名 hyperscaler 项目转收入仍为 unclear。公司称再度上调 FY2027/FY2028 收入展望但未给数字，故 2026-07-30 的 $183.30 与约 14.1x/9.8x 倍数仅作历史口径，不冒充当前估值；维持谨慎/中确信。",
-    "summaryEn": "Monitoring update dated August 28, 2026: FY2027 Q2 net revenue was $2,739.3M (+37% year over year), Data center revenue $2,171.5M (+46% versus +27% in Q1), and Q3 guidance is $3.150B +/- 5%. The issuer attributes this quarter's Data Center strength to Connectivity and dates significant Custom acceleration to the second half of FY2027, so named-hyperscaler conversion remains unclear. The company says it again raised its FY2027/FY2028 outlook but gives no figures; the July 30 close of $183.30 and ~14.1x/~9.8x multiples therefore remain a historical caliber, not a current valuation. Cautious / medium conviction is unchanged.",
+    "summary": "2026-11-03 — 并购（8-K Item 1.01，2026-11-02；协议日 2026-11-01）：Marvell 与 Lumentum 签署最终协议，以全股票方式收购 Lumentum，固定换股比例为每股 Lumentum 换 4.500 股 Marvell，Matt Murphy 续任董事长兼 CEO，含 Lumentum CEO Michael Hurlston 在内的三名 Lumentum 董事将进入 Marvell 董事会。公司预计 2028 年上半年交割，尚需双方股东批准（含增加授权股本的章程修订）、HSR 及其他监管批准、S-4 生效等条件；协议外部日为 2027-11-01，在监管批准未取得等情形下可延至 2028-08-01。交易尚未完成。 同一联合新闻稿（8-K Ex 99.1，0001193125-26-442714）称 FY2027 Q3 初步收入与此前指引一致，维持中值（2026-08-27 指引 $3.150B），区间由 ±5% 收窄至 ±2%；未给分部或客户拆分。 估值、网格与立场仍按 2026-07-30 历史基础，均以独立公司为前提；并购条款待 Mode B 重算，价格、估值数字、立场和确信度本包未更新。",
+    "summaryEn": "2026-11-03 — Merger (8-K Item 1.01, 2026-11-02; agreement dated 2026-11-01): Marvell and Lumentum signed a definitive agreement for Marvell to acquire Lumentum in an all-stock transaction at a fixed 4.500 Marvell shares per Lumentum share; Matt Murphy remains Chairman and CEO, and three Lumentum directors including CEO Michael Hurlston will join the Marvell board. The companies expect closing in the first half of calendar 2028, subject to both stockholder votes (including a charter amendment increasing authorized shares), HSR and other regulatory approvals, S-4 effectiveness and other conditions; the outside date is 2027-11-01, extendable to 2028-08-01 in certain circumstances where required regulatory approvals are outstanding. The transaction has not closed. The same joint release (8-K Ex 99.1, 0001193125-26-442714) reports FY2027 Q3 preliminary revenue consistent with prior guidance, keeping the midpoint (the $3.150B guide of 2026-08-27) and narrowing the range from +/-5% to +/-2%; it gives no segment or customer split. Valuation, the grid and the stance remain on the 2026-07-30 historical basis , all on a standalone premise; the merger terms await Mode B recomputation, and price, valuation figures, stance and conviction are not updated in this package.",
     "tags": [
       "AI计算",
       "自定义ASIC",
@@ -9459,7 +9459,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-08-28",
+    "lastUpdate": "2026-11-03",
     "file": "/invest/research/reports/view.html?id=marvell-2026",
     "markdownFiles": {
       "zh": "/invest/research/Marvell_深度研究报告_2026-07.md",
@@ -9469,11 +9469,10 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "股价 $183.30（2026-07-30 收盘），较 07-29 低点反弹 +12.2%、较 7 月 2 日锚点仍 −25.3%；市值约 $160.5B、EV 约 $161.9B",
-      "历史口径 EV/Sales 约 14.1x（FY2027 $11.5B）、FY2028 口径约 9.8x；发行人 2026-08-27 称再次上调两年展望但未给数字，故不视为当前倍数",
-      "“这不是便宜的半导体股”按旧倍数校准；本轮不以过期价格或二手分母冒充当前估值",
+      "2026-11-01 签署最终协议：全股票收购 Lumentum，固定比例 4.500 股 Marvell／股 Lumentum，公司预计 2028 年上半年交割，尚需双方股东与监管批准；交易未完成",
+      "FY2027 Q3 初步收入与指引一致：维持 $3.150B 中值，区间由 ±5% 收窄至 ±2%；分部与客户拆分未披露",
       "FY2027 Q2（2026-08-27 公布）：净收入 $2,739.3M、Data center $2,171.5M（同比 +46%，前一季 +27%）；公司把 Custom 业务的显著加速定在 FY2027 下半年，Q2 强度归因于 Connectivity",
-      "所有者 Q1 裁定已适用：约 14.1x 的分母是未交付的展望，负预期差以减弱形式成立——维持谨慎/中确信，网格权重保留"
+      "估值仍按 2026-07-30 历史基础；并购条款待 Mode B，价格、估值数字、立场和确信度未更新。"
     ],
     "chainLayer": "custom-merchant-silicon",
     "coverageTier": "full",
@@ -9577,13 +9576,14 @@
           "en": "FY2027 / FY2028 revenue outlook is cut, removing denominator support from roughly 19x FY2027E EV/Sales"
         },
         "latest": {
-          "zh": "2026-08-27 的 FY2027 Q2 新闻稿中，董事长兼 CEO 表示公司「再次上调 FY2027 与 FY2028 的收入展望」。评级：within。本项触发原文问的是**收入展望被下修**，从而抽掉约 19x FY2027E EV/Sales 的分母支撑；发行人明示的方向是上调，该触发条件因此被证伪，而非被满足。证据边界：**该新闻稿未给出任何 FY2027 或 FY2028 的收入数字**，公司称将在 2026-10-06 的投资者日进一步说明长期战略，故新分母无法从一手来源取得，本处不代填、不重算任何倍数。下方及正文已发布的约 14.1x／9.8x 仍锚定在 **2026-07-30 收盘价**与**来自公开报道（非发行人）的 $11.5B／$16.5B 展望**上；该分母口径现已被发行人自身的上调表述取代，故已发布倍数应作**历史口径**读，不代表当前口径。本季实际交付：净收入 $2,739.3M，FY2027 上半年合计 $5,157.1M；FY2027 Q3 指引 $3.150B ±5%。",
-          "en": "In the FY2027 Q2 press release dated 2026-08-27 the Chairman and CEO states that the company is 'again raising our revenue outlook for both fiscal 2027 and fiscal 2028.' Reading: within. This item's trigger asks whether the **revenue outlook is cut**, removing denominator support from roughly 19x FY2027E EV/Sales; the direction the issuer states is a raise, so the trigger condition is disconfirmed rather than met. Evidence limits: **the release gives no FY2027 or FY2028 revenue figure**, and the company says it will set out its long-term strategy further at its Investor Day on 2026-10-06, so the new denominator is not available from a primary source; none is supplied here and no multiple is recomputed. The published ~14.1x and ~9.8x below and in the report body remain anchored to the **2026-07-30 close** and to the **$11.5B / $16.5B outlook taken from public reports rather than from the issuer**; that denominator caliber has now been superseded by the issuer's own statement of a raise, so the published multiples should be read as a **historical caliber**, not a current one. Delivered this quarter: net revenue $2,739.3M, with first-half FY2027 revenue of $5,157.1M; FY2027 Q3 guidance is $3.150B +/- 5%."
+          "zh": "联合新闻稿（8-K Ex 99.1，0001193125-26-442714，2026-11-02）称 FY2027 Q3 初步收入与此前指引一致，维持中值（2026-08-27 指引 $3.150B），区间由 ±5% 收窄至 ±2%。本轮所读并购文件未重述 FY2027／FY2028 收入展望数字，2026-10-06 Investor Day 材料本轮未读。约 14.1x／约 9.8x 仍锚定 2026-07-30 收盘与公开报道的 $11.5B／$16.5B 分母，只作历史口径。",
+          "en": "The joint release (8-K Ex 99.1, 0001193125-26-442714, 2026-11-02) reports FY2027 Q3 preliminary revenue consistent with prior guidance, keeping the midpoint (the $3.150B guide of 2026-08-27) and narrowing the range from +/-5% to +/-2%. The merger documents read this run do not restate a FY2027 or FY2028 revenue outlook figure, and the 2026-10-06 Investor Day materials were not read this run. The ~14.1x and ~9.8x remain anchored to the 2026-07-30 close and the publicly reported $11.5B / $16.5B denominators, as a historical caliber only."
         },
         "nextCheck": "投资者日（2026-10-06）与 FY2027 Q3 指引 / Investor Day (2026-10-06) and FY2027 Q3 guidance",
         "nextCheckDate": "2026-10",
-        "reading": "within",
-        "readingAsOf": "2026-08-27"
+        "reading": "unclear",
+        "readingAsOf": "2026-11-02",
+        "readingNote": "本季初步收入未低于指引，但两年展望数字未在所读文件中出现，「展望下修」腿无法观察，未知腿不判 within。 / Preliminary quarterly revenue is not below guidance, but no two-year outlook figure appears in the documents read, so the outlook-cut leg cannot be observed and is not graded within."
       }
     ],
     "conviction": "medium",

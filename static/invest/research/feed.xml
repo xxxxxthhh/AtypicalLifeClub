@@ -20,6 +20,13 @@
       <description>2026-10-28更新（Mode A事实增量，无估值重锚）：2026-10-27美股收盘后发布的Q1 FY2027（季度截至2026-10-02）收入$42.33亿（上年同期$26.29亿）、非GAAP毛利率57.8%（GAAP 57.3%；Q4 FY2026为52.7%）、非GAAP营业利润率50.7%（GAAP 48.8%）、非GAAP摊薄EPS $7.68（GAAP $7.59）；经营现金流约$17亿、自由现金流约$15亿；向股东返还$5.68亿，季度股息上调约3%至$0.76；Q2 FY2027指引收入$48亿±$1亿、非GAAP EPS $9.20±$0.20。2026-11-01补充（Mode A）：Q1补充财务资料显示近线EB 198（环比+1.5%、同比+24.5%）、总EB 220，混合每EB收入约$19.24百万（本报告自算，Q4 FY2026为$16.65百万）；电话会称绝大部分近线供给已按长期协议分配至2028年、部分云客户协议延伸至2030年；本次复核未能独立取得10-Q，季度客户集中度未核实。HAMR数据本轮未更新。估值仍按2026-09-22锚定的旧口径，当前股价、股本、现金债务与年化分母待Mode B重算；本次未重新裁定立场（谨慎／中确信，2026-09-23首次覆盖）。</description>
     </item>
     <item>
+      <title>Marvell Technology 深度研究报告 - Broadcom 之外的 custom ASIC 与光互连架构校验 / Marvell Technology Deep Research Report - Custom ASIC and Optical Interconnect Check Beyond Broadcom</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=marvell-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=marvell-2026#marvell-2026@2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <description>2026-11-03 — 并购（8-K Item 1.01，2026-11-02；协议日 2026-11-01）：Marvell 与 Lumentum 签署最终协议，以全股票方式收购 Lumentum，固定换股比例为每股 Lumentum 换 4.500 股 Marvell，Matt Murphy 续任董事长兼 CEO，含 Lumentum CEO Michael Hurlston 在内的三名 Lumentum 董事将进入 Marvell 董事会。公司预计 2028 年上半年交割，尚需双方股东批准（含增加授权股本的章程修订）、HSR 及其他监管批准、S-4 生效等条件；协议外部日为 2027-11-01，在监管批准未取得等情形下可延至 2028-08-01。交易尚未完成。 同一联合新闻稿（8-K Ex 99.1，0001193125-26-442714）称 FY2027 Q3 初步收入与此前指引一致，维持中值（2026-08-27 指引 $3.150B），区间由 ±5% 收窄至 ±2%；未给分部或客户拆分。 估值、网格与立场仍按 2026-07-30 历史基础，均以独立公司为前提；并购条款待 Mode B 重算，价格、估值数字、立场和确信度本包未更新。</description>
+    </item>
+    <item>
       <title>AXT 深度研究报告 - 被许可证把守的磷化铟瓶颈 / AXT Deep Research Report - An Indium Phosphide Bottleneck Guarded by an Export Permit</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=axti-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=axti-2026#axti-2026@2026-11-02</guid>
@@ -312,13 +319,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=synopsys-2026#synopsys-2026@2026-08-28</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
       <description>AI 基础设施 eda-ip 层的公共约束：SNPS 验证 AI silicon 需求是否穿透到 design automation、verification、simulation、IP blocks 和 system-level complexity。最新披露的 FY2026 Q3（截至 2026-07-31）revenue $2,476.8M（去年同期 $1,739.7M）、GAAP EPS $2.84、non-GAAP EPS $3.91；分部为 Design Automation $2,003.0M（同比 +53%）与 Design IP $473.8M（同比 +11%，但前九个月仍同比 -1%），backlog $10.9B。FY2026 指引上调至 revenue $9,690-9,740M、non-GAAP EPS $15.04-15.10、FCF 约 $2.6B，含约 $2.98B Ansys revenue，并假设没有进一步 export-control / Entity List 变化。以 2026-07-30 收盘 $372.33 计，市值约 $71.3B、EV 约 $79.7B，约 8.2x EV/FY2026E sales、约 25.2x non-GAAP P/E —— 该组倍数按**当时**的 FY2026 指引口径计算，未按 2026-08-26 上调后的指引与 Q3 实际数重算，属明确标注日期的历史估值快照。偏多 / 中确信：倍数在 2026 年 7 月链条重定价中压缩，同一套指引框架反而更便宜，温和正预期差变宽；但整合、出口和客户周期性仍限制确信度。</description>
-    </item>
-    <item>
-      <title>Marvell Technology 深度研究报告 - Broadcom 之外的 custom ASIC 与光互连架构校验 / Marvell Technology Deep Research Report - Custom ASIC and Optical Interconnect Check Beyond Broadcom</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=marvell-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=marvell-2026#marvell-2026@2026-08-28</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
-      <description>2026-08-28 监测更新：FY2027 Q2 净收入 $2,739.3M（同比 +37%），Data center $2,171.5M（同比 +46%，前季 +27%），Q3 指引 $3.150B±5%。发行人称本季 Data Center 强度来自 Connectivity，并把 Custom 业务显著加速定在 FY2027 下半年，因此具名 hyperscaler 项目转收入仍为 unclear。公司称再度上调 FY2027/FY2028 收入展望但未给数字，故 2026-07-30 的 $183.30 与约 14.1x/9.8x 倍数仅作历史口径，不冒充当前估值；维持谨慎/中确信。</description>
     </item>
     <item>
       <title>NVIDIA 深度研究报告 - AI 计算中枢的高质量与高预期 / NVIDIA Deep Research Report - The AI Compute Hub, High Quality Meets High Expectations</title>
