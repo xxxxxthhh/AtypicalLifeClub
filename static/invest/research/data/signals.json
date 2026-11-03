@@ -3622,5 +3622,30 @@
     "monitoringRefs": [
       "marvell-2026:valuation-revenue-ramp"
     ]
+  },
+  {
+    "id": "palantir-q3-2026-results-20261102",
+    "date": "2026-11-02",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Palantir Q3 2026 收入 $2,313.4M（+96%），美国商业 +148% 首超美国政府；美国商业 TCV +11%",
+      "en": "Palantir Q3 2026 revenue of $2,313.4M (+96%), US commercial +148% exceeds US government for the first time; US commercial TCV +11%"
+    },
+    "detail": {
+      "zh": "来源：Palantir 2026-11-02 8-K Ex 99.1（0001321655-26-000045）。Q3 2026（季度截至 2026-09-30；8-K Ex 99.1，2026-11-02 盘后）收入 $2,313.4M（同比 +96%、环比 +20%）；美国商业 $984M（同比 +148%、环比 +29%）首次超过美国政府 $953M（同比 +96%、环比 +18%）；美国商业 TCV $1.463B（同比 +11%），总 TCV $2.918B（同比 +6%）；美国商业 RDV $6.517B（同比 +79%、环比 +4%）。GAAP／调整后营业利润率 47%／62%，调整后自由现金流 $1.216B（利润率 53%）。FY2026 指引上调至收入 $8.530–8.534B、美国商业逾 $3.559B（至少 +143%）、调整后营业利润 $5.245–5.249B、调整后自由现金流 $4.8–5.0B；Q4 收入指引 $2.649–2.653B。 证据边界：国际收入为相减推算；Q3 10-Q 与电话会未读；TCV／RDV 与 SBC 两项监测读数未更新。",
+      "en": "Source: Palantir 8-K Ex 99.1 of 2026-11-02 (0001321655-26-000045). Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1, released after the 2026-11-02 close) revenue was $2,313.4M (+96% YoY, +20% QoQ); US commercial $984M (+148% YoY, +29% QoQ) exceeded US government $953M (+96% YoY, +18% QoQ) for the first time; US commercial TCV was $1.463B (+11% YoY) and total TCV $2.918B (+6% YoY); US commercial RDV was $6.517B (+79% YoY, +4% QoQ). GAAP / adjusted operating margin was 47% / 62% and adjusted free cash flow $1.216B (53% margin). FY2026 guidance was raised to revenue of $8.530-8.534B, US commercial above $3.559B (at least +143%), adjusted operating income of $5.245-5.249B and adjusted free cash flow of $4.8-5.0B; the Q4 revenue guide is $2.649-2.653B. Evidence limits: international revenue is derived by subtraction; the Q3 10-Q and earnings call were not read; the TCV/RDV and SBC monitoring readings were not updated."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "PLTR"
+    ],
+    "reportIds": [
+      "pltr-2026"
+    ],
+    "monitoringRefs": [
+      "pltr-2026:valuation-allowance-tax-transition",
+      "pltr-2026:international-inflection",
+      "pltr-2026:government-concentration"
+    ]
   }
 ]

@@ -11351,8 +11351,8 @@
     "priceSymbol": "PLTR",
     "title": "Palantir 深度研究报告 - AI 应用变现跑通了，但价格在跟倍数赛跑",
     "titleEn": "Palantir Deep Research Report - Application-Layer AI Monetization Works, but the Price Is Racing the Multiple",
-    "summary": "AI 基础设施书 demand-risk 层的应用层订单质量仪表盘首次覆盖：本书此前只有 AI 基础设施的买方（MSFT/META/GOOG/AMZN/ORCL）、转租方（CRWV/NBIS）和模型方（MiniMax），缺一个能证明「最后一公里」跑通的标的——终端企业真的为 AI 应用付大钱，而卖方还能赚到真实利润。2026 Q2（季度截至 2026-06-30，08-03 盘后发布）给出了本覆盖书最强的一份经营答卷：收入 $19.35 亿（+93%，连续五个季度加速）、美国商业 +149%、GAAP 营业利润率 47%（一年前 26.8%）、调整后自由现金流 $12.20 亿（利润率 63%）、Rule of 40 达 155%、美国商业 TCV +153% 快于收入增速、现金 $92 亿对债务 $2.12 亿。风险不在生意而在价格：以 2026-08-03 收盘 $125.65 为主锚（Q2 于该收盘后发布，盘后指示价 $144.42），市值约 $3,012 亿、约 107 倍追溯 GAAP 盈利（还原 1.3% 有效税率后约 134 倍）、约 48.9 倍追溯收入、约 36.9 倍 FY2026 指引收入。决定性证据是它自己的历史：2025-11-03 至 2026-06-25 股价跌 48%，同期季度增速却从 63% 加速到 85%——倍数压缩快于生意复利。30% 牛市 / 40% 基准 / 30% 熊市网格读出负向预期差，初始立场谨慎 / 中确信，且明确是估值与倍数风险判断，不是生意质量判断。",
-    "summaryEn": "Initial application-layer order-quality dashboard coverage for the AI-infrastructure book's demand-risk layer. Until now the book held buyers of AI infrastructure (MSFT/META/GOOG/AMZN/ORCL), renters of it (CRWV/NBIS), and a model builder (MiniMax), but nothing that proved the last mile works: that an end enterprise writes a large cheque for an AI application and the vendor selling it earns a real margin. Q2 2026 (quarter ended 2026-06-30, reported 08-03 after the close) is the strongest operating print in this entire book: revenue $1.935B (+93%, a fifth consecutive quarter of acceleration), US commercial +149%, a 47% GAAP operating margin (from 26.8% a year ago), adjusted free cash flow $1.220B at a 63% margin, a Rule of 40 score of 155%, US commercial TCV growing 153% - faster than revenue - and $9.2B of cash against $212M of debt. The risk is not the business but the price. Anchored to the 2026-08-03 close of $125.65 (Q2 landed after that close; the post-market indication was $144.42), market cap is ~$301.2B at ~107x trailing GAAP earnings - ~134x once the ~1.3% effective tax rate is normalized - ~48.9x trailing sales and ~36.9x FY2026 guided revenue. The decisive evidence is the stock's own history: it fell 48% between 2025-11-03 and 2026-06-25 while quarterly growth accelerated from 63% to 85%, because the multiple compressed faster than the business compounded. The 30% bull / 40% base / 30% bear grid reads a negative expectation gap; the initiation opens at cautious / medium conviction, explicitly as a valuation and multiple-risk call rather than a business-quality one.",
+    "summary": "2026-11-03 — Q3 2026（季度截至 2026-09-30；8-K Ex 99.1，2026-11-02 盘后）收入 $2,313.4M（同比 +96%、环比 +20%）；美国商业 $984M（同比 +148%、环比 +29%）首次超过美国政府 $953M（同比 +96%、环比 +18%）；美国商业 TCV $1.463B（同比 +11%），总 TCV $2.918B（同比 +6%）；美国商业 RDV $6.517B（同比 +79%、环比 +4%）。GAAP／调整后营业利润率 47%／62%，调整后自由现金流 $1.216B（利润率 53%）。FY2026 指引上调至收入 $8.530–8.534B、美国商业逾 $3.559B（至少 +143%）、调整后营业利润 $5.245–5.249B、调整后自由现金流 $4.8–5.0B；Q4 收入指引 $2.649–2.653B。 估值与立场仍按 2026-08-03 历史基础（$125.65）；Q3 实绩与新指引待 Mode B 重算，价格、估值数字、立场和确信度本包未更新。",
+    "summaryEn": "2026-11-03 — Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1, released after the 2026-11-02 close) revenue was $2,313.4M (+96% YoY, +20% QoQ); US commercial $984M (+148% YoY, +29% QoQ) exceeded US government $953M (+96% YoY, +18% QoQ) for the first time; US commercial TCV was $1.463B (+11% YoY) and total TCV $2.918B (+6% YoY); US commercial RDV was $6.517B (+79% YoY, +4% QoQ). GAAP / adjusted operating margin was 47% / 62% and adjusted free cash flow $1.216B (53% margin). FY2026 guidance was raised to revenue of $8.530-8.534B, US commercial above $3.559B (at least +143%), adjusted operating income of $5.245-5.249B and adjusted free cash flow of $4.8-5.0B; the Q4 revenue guide is $2.649-2.653B. Valuation and stance remain on the 2026-08-03 historical basis ($125.65); Q3 actuals and the new guidance await Mode B recomputation, and price, valuation figures, stance and conviction are not updated in this package.",
     "tags": [
       "AI基础设施",
       "AI应用层",
@@ -11361,7 +11361,7 @@
     ],
     "category": "tech",
     "date": "2026-08-04",
-    "lastUpdate": "2026-08-04",
+    "lastUpdate": "2026-11-03",
     "file": "/invest/research/reports/view.html?id=pltr-2026",
     "markdownFiles": {
       "zh": "/invest/research/Palantir_深度研究报告_2026-08.md",
@@ -11371,11 +11371,11 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "demand-risk 层应用层订单质量仪表盘：本书首次覆盖「AI 支出是否转化为终端客户应用收入与利润」这条最后一公里；ORCL/AMZN 盯基础设施订单质量，PLTR 盯应用层订单质量",
-      "2026 Q2 收入 $19.35 亿（+93%，连续五季加速 48→63→70→85→93）、美国商业 $7.64 亿（+149%）、美国政府 $8.09 亿（+90%）、国际约 $3.62 亿（约 +33%，唯一没跟上的一条线）",
-      "单位经济已证明：GAAP 营业利润率 47%（一年前 26.8%）、调整后 62%、调整后 FCF $12.20 亿（利润率 63%）、Rule of 40 155%、现金 $92 亿对债务 $2.12 亿、无外部融资需求",
-      "盈利质量与稀释是主要瑕疵：追溯有效税率约 1.3%（美英递延税资产仍全额估值备抵，转回后税率结构性抬升）；单季股权激励 $2.65209 亿占收入 13.7%，回购可忽略",
-      "股价 $125.65（2026-08-03 收盘，Q2 盘后发布、指示价 $144.42）：约 107 倍追溯 GAAP、约 36.9 倍 FY2026 指引收入；2025-11-03 至 2026-06-25 跌 48% 而增速从 63% 加速到 85%——30/40/30 网格，初始谨慎 / 中确信"
+      "Q3 2026（2026-11-02 盘后发布）：收入 $2,313.4M（+96%），美国商业 $984M（+148%）首次超过美国政府 $953M（+96%）；国际约 $376M（由总收入减美国收入推算，约占 16.3%）",
+      "订单：美国商业 TCV $1.463B（+11%），明显低于上季 +153%；美国商业 RDV $6.517B（+79%、环比 +4%）",
+      "盈利：GAAP／调整后营业利润率 47%／62%，调整后自由现金流 $1.216B（利润率 53%）；所得税费用 $13.56M 对税前利润 $1,148.0M",
+      "FY2026 指引上调至收入 $8.530–8.534B、美国商业逾 $3.559B（至少 +143%）；Q4 收入指引 $2.649–2.653B",
+      "估值仍按 2026-08-03 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。"
     ],
     "chainLayer": "demand-risk",
     "coverageTier": "full",
@@ -11383,7 +11383,7 @@
     "stance": "cautious",
     "conviction": "medium",
     "priceAsOf": "2026-08-03",
-    "reportedPeriod": "Q2 2026",
+    "reportedPeriod": "Q3 2026",
     "related": [
       "microsoft-2026",
       "oracle-2026",
@@ -11424,11 +11424,14 @@
           "en": "the company releases the valuation allowance on US and UK deferred tax assets, producing a one-time non-cash GAAP gain and structurally lifting the effective tax rate toward a normal level, so subsequent GAAP EPS growth runs materially slower than the headline"
         },
         "latest": {
-          "zh": "追溯有效税率约 1.3%（FY2025 为 1.4%）；截至 2026-03-31 对美英递延所得税资产仍计提全额估值备抵，FY2025 披露 NOL 结转 $26.18 亿、估值备抵 $34.52 亿，公司自述未来存在转回的合理可能性；按 21% 还原，追溯 EPS 由 $1.17 降至约 $0.94",
-          "en": "the trailing effective tax rate is ~1.3% (1.4% for FY2025); a full valuation allowance on US and UK deferred tax assets was still in place at 2026-03-31, with $2.618B of NOL carryforwards and a $3.452B allowance disclosed for FY2025, and the company states there is a reasonable possibility of a future release; normalized to 21%, trailing EPS falls from $1.17 to ~$0.94"
+          "zh": "Q3 2026（8-K Ex 99.1，2026-11-02）所得税费用 $13.56M，税前利润 $1,148.0M（约 1.2%），净利润表未见一次性税收收益。业绩稿未提及估值备抵；本轮 EDGAR 扫描窗内未见 Q3 10-Q。",
+          "en": "Q3 2026 (8-K Ex 99.1, 2026-11-02) income-tax provision was $13.56M on pre-tax income of $1,148.0M (about 1.2%), with no one-time tax gain in the income statement. The release does not mention the valuation allowance, and no Q3 10-Q appears in this run's EDGAR window."
         },
         "nextCheck": "每季 10-Q 税务附注，下次为 2026 年 11 月初 / Quarterly 10-Q tax footnote, next early Nov 2026",
-        "nextCheckDate": "2026-11"
+        "nextCheckDate": "2026-11",
+        "reading": "within",
+        "readingAsOf": "2026-11-02",
+        "readingNote": "触发器是备抵转回并产生一次性收益；本季损益表为正的所得税费用，该事件未发生。附注文字待 10-Q。 / The trigger is an allowance release producing a one-time gain; this quarter's income statement shows a positive tax provision, so the event did not occur. Note disclosure awaits the 10-Q."
       },
       {
         "id": "sbc-dilution-intensity",
@@ -11462,11 +11465,14 @@
           "en": "international revenue growth breaks above ~50% YoY, validating the bull case's upside frame, or stays in the low 30s and its revenue share keeps falling, confirming the thesis as a US-only story"
         },
         "latest": {
-          "zh": "2026 Q2 国际收入约 $3.62 亿、约占总收入 19%、同比约 +33%（由总收入减披露的美国收入推算）；同期美国收入 +115%",
-          "en": "Q2 2026 international revenue was ~$362M, ~19% of the total, growing ~33% YoY (derived as total less disclosed US revenue), against US revenue growing 115%"
+          "zh": "Q3 2026（8-K Ex 99.1，2026-11-02）总收入 $2,313.4M、美国收入 $1.937B，国际收入约 $376M（相减推算），约占 16.3%（Q2 约 19%）；按美国收入 +119% 与上年同期总收入 $1,181.1M 推算，同比约 +27%（Q2 约 +33%）。",
+          "en": "Q3 2026 (8-K Ex 99.1, 2026-11-02) total revenue was $2,313.4M and US revenue $1.937B, implying international revenue of about $376M (derived), about 16.3% of the total (Q2: about 19%); from +119% US growth and prior-year total revenue of $1,181.1M, growth is about +27% YoY by derivation (Q2: about +33%)."
         },
         "nextCheck": "每季分部披露与欧洲商业客户数 / Quarterly segment disclosure and European commercial customer counts",
-        "nextCheckDate": "2026-11"
+        "nextCheckDate": "2026-11",
+        "reading": "unclear",
+        "readingAsOf": "2026-11-02",
+        "readingNote": "未突破约 50%；约 +27% 低于「low 30s」但占比继续下降，方向上偏不利腿，文本未规定低于 low 30s 的读法，且数字为推算。 / Growth did not break above about 50%; about +27% sits below the \"low 30s\" while the share keeps falling, directionally toward the adverse leg, but the text does not define a reading below the low 30s and the figure is derived."
       },
       {
         "id": "government-concentration",
@@ -11481,10 +11487,13 @@
           "en": "an appropriations, administration-change, procurement-protest, or major contract-loss event impairs the government base, or a political event spills over through the reputational channel and suppresses commercial growth"
         },
         "latest": {
-          "zh": "2026 Q2 美国政府收入 $8.09 亿、占总收入 42%、同比 +90%、环比 +18%；该需求由拨款驱动而非按 AI 投资回报审批，并含存在政治争议的民口机构业务",
-          "en": "Q2 2026 US government revenue was $809M, 42% of total revenue, +90% YoY and +18% QoQ; this demand is appropriated rather than budgeted against AI ROI and includes politically contested civil-agency work"
+          "zh": "Q3 2026（8-K Ex 99.1，2026-11-02）美国政府收入 $953M（同比 +96%、环比 +18%），约占总收入 41.2%，首次低于美国商业 $984M。业绩稿未见拨款、合同损失或抗议事件；未检索其他来源。",
+          "en": "Q3 2026 (8-K Ex 99.1, 2026-11-02) US government revenue was $953M (+96% YoY, +18% QoQ), about 41.2% of total revenue and below US commercial $984M for the first time. The release shows no appropriations, contract-loss or protest event; other sources were not searched."
         },
-        "nextCheck": "FY2027 拨款流程、合同授予与质疑、政府政策变化（事件驱动）/ FY2027 appropriations process, contract awards and protests, administration policy changes (event-driven)"
+        "nextCheck": "FY2027 拨款流程、合同授予与质疑、政府政策变化（事件驱动）/ FY2027 appropriations process, contract awards and protests, administration policy changes (event-driven)",
+        "reading": "unclear",
+        "readingAsOf": "2026-11-02",
+        "readingNote": "收入增长不等于事件腿已排除；拨款、抗议与声誉溢出腿未逐项核查，未知腿不判 within。 / Revenue growth does not exclude the event legs; the appropriations, protest and reputational legs were not individually checked, so the unknown legs are not graded within."
       }
     ],
     "stanceRationale": {
