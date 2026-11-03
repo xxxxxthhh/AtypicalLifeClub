@@ -11427,8 +11427,8 @@
           "en": "the company releases the valuation allowance on US and UK deferred tax assets, producing a one-time non-cash GAAP gain and structurally lifting the effective tax rate toward a normal level, so subsequent GAAP EPS growth runs materially slower than the headline"
         },
         "latest": {
-          "zh": "Q3 2026（8-K Ex 99.1，2026-11-02）所得税费用 $13.56M，税前利润 $1,148.0M（约 1.2%），净利润表未见一次性税收收益。业绩稿未提及估值备抵；本轮 EDGAR 扫描窗内未见 Q3 10-Q。",
-          "en": "Q3 2026 (8-K Ex 99.1, 2026-11-02) income-tax provision was $13.56M on pre-tax income of $1,148.0M (about 1.2%). The release does not mention the valuation allowance, and no Q3 10-Q appears in this run's EDGAR window."
+          "zh": "Q3 2026发行人业绩稿：税前利润$1,148.001M、净所得税费用$13.560M，净有效税率约1.18%。新闻稿未解释估值备抵变化，本次未核Q3税务附注，不能由净费用排除被抵销的一次性收益。",
+          "en": "Q3 2026 issuer release: pre-tax income $1,148.001M and net tax provision $13.560M, about 1.18% effective tax. The release does not explain valuation-allowance movements; the Q3 tax note was not verified, and a net provision cannot exclude an offsetting one-time gain."
         },
         "nextCheck": "每季 10-Q 税务附注，下次为 2026 年 11 月初 / Quarterly 10-Q tax footnote, next early Nov 2026",
         "nextCheckDate": "2026-11",
@@ -13368,8 +13368,8 @@
           "en": "Withdrawal/material delay of OCS objectives, or initial late-2027 CPO shipments delayed beyond 2028"
         },
         "latest": {
-          "zh": "8-K Ex 99.1（2026-11-02）：CEO 称本季获得第二个重大 NPO/CPO 项目，由超过 $5B 的采购承诺支撑；OCS 需求能见度显著扩大，称其将成为年收入数十亿美元的业务流（未给时点）。同日并购电话会转写（Rule 425，0001193125-26-443876）称该项目预计带来超过 $5B 收入。所读文件未给 OCS 季度实际收入、客户名称或收入时点，也未重述 CPO 首批出货时间。",
-          "en": "8-K Ex 99.1 (2026-11-02): the CEO says the quarter secured a second major NPO/CPO win backed by purchase commitments exceeding $5B, and that OCS demand visibility expanded significantly, positioning it to become a multi-billion-dollar annual revenue stream (no date given). The same-day merger-call transcript (Rule 425, 0001193125-26-443876) says the win is expected to generate over $5B of revenue. The documents read give no quarterly OCS actual, customer name or revenue timing, and do not restate the initial CPO shipment date."
+          "zh": "8-K Ex 99.1（2026-11-02）：CEO 称本季获得第二个重大 NPO/CPO 项目，由超过 $5B 的采购承诺支撑；OCS 需求能见度显著扩大，称其将成为年收入数十亿美元的业务流（未给时点）。所读文件未给 OCS 季度实际收入、客户名称或收入时点，也未重述 CPO 首批出货时间。",
+          "en": "8-K Ex 99.1 (2026-11-02): the CEO says the quarter secured a second major NPO/CPO win backed by purchase commitments exceeding $5B, and that OCS demand visibility expanded significantly, positioning it to become a multi-billion-dollar annual revenue stream (no date given).  The documents read give no quarterly OCS actual, customer name or revenue timing, and do not restate the initial CPO shipment date."
         },
         "nextCheck": "Q1/Q2 FY2027 业绩及产品公告 / Q1/Q2 FY2027 results and product announcements",
         "nextCheckDate": "2026-11",
