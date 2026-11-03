@@ -13346,8 +13346,8 @@
           "en": "Q1 revenue below $1.225B or non-GAAP operating margin below 39.5% prompts downgrade review; above $1.275B/40.5% requires an upside rebuild"
         },
         "latest": {
-          "zh": "Q1 FY2027（季度截至 2026-09-26；8-K Ex 99.1，2026-11-02）收入 $1,262.6M，非 GAAP 营业利润率 42.3%（指引 $1.225B–$1.275B、39.5%–40.5%）。Q2 FY2027 指引：收入 $1.575B–$1.625B、非 GAAP 营业利润率 45.0%–46.0%。",
-          "en": "Q1 FY2027 (quarter ended 2026-09-26; 8-K Ex 99.1, 2026-11-02) revenue was $1,262.6M and non-GAAP operating margin 42.3% (guide $1.225B-$1.275B, 39.5%-40.5%). The Q2 FY2027 outlook is revenue of $1.575B-$1.625B and non-GAAP operating margin of 45.0%-46.0%."
+          "zh": "Q1 FY2027（2026-11-02）：收入$1,262.6M、非GAAP营业利润率42.3%，原指引$1.225B–$1.275B／39.5%–40.5%。收入未超上沿、利润率超上沿；下行腿未触发，上行斜线语义未定，整体unclear。Q2指引$1.575B–$1.625B／45.0%–46.0%，不代入旧估值。",
+          "en": "Q1 FY2027 (2026-11-02): revenue $1,262.6M and non-GAAP operating margin 42.3%, against guidance of $1.225B-$1.275B / 39.5%-40.5%. Revenue did not exceed the upper end; margin did. The downside leg is unmet, but the slash in the upside condition has no settled semantics; overall unclear. Q2 guidance is $1.575B-$1.625B / 45.0%-46.0%, not substituted into historical valuation."
         },
         "nextCheck": "2026-11-05 盘后 Q1 FY2027 业绩 / Q1 FY2027 results after close",
         "nextCheckDate": "2026-11",
@@ -13368,8 +13368,8 @@
           "en": "Withdrawal/material delay of OCS objectives, or initial late-2027 CPO shipments delayed beyond 2028"
         },
         "latest": {
-          "zh": "8-K Ex 99.1（2026-11-02）：CEO 称本季获得第二个重大 NPO/CPO 项目，由超过 $5B 的采购承诺支撑；OCS 需求能见度显著扩大，称其将成为年收入数十亿美元的业务流（未给时点）。所读文件未给 OCS 季度实际收入、客户名称或收入时点，也未重述 CPO 首批出货时间。",
-          "en": "8-K Ex 99.1 (2026-11-02): the CEO says the quarter secured a second major NPO/CPO win backed by purchase commitments exceeding $5B, and that OCS demand visibility expanded significantly, positioning it to become a multi-billion-dollar annual revenue stream (no date given).  The documents read give no quarterly OCS actual, customer name or revenue timing, and do not restate the initial CPO shipment date."
+          "zh": "2026-11-02发行人Q1 FY2027业绩稿：公司称获得第二个重大NPO/CPO项目，由超过$5B采购承诺支撑，OCS有望成为年收入数十亿美元的业务；这是公司前瞻陈述，未给季度OCS实绩、客户名称或CPO首批出货时点。",
+          "en": "The issuer Q1 FY2027 release of 2026-11-02 says the company secured a second major NPO/CPO win backed by purchase commitments exceeding $5B and positions OCS as a multi-billion-dollar annual revenue opportunity. These are company forward-looking statements; quarterly OCS actuals, customer identity and initial CPO shipment timing are not given."
         },
         "nextCheck": "Q1/Q2 FY2027 业绩及产品公告 / Q1/Q2 FY2027 results and product announcements",
         "nextCheckDate": "2026-11",
