@@ -3599,5 +3599,28 @@
       "lumentum-2026:architecture-ramp",
       "lumentum-2026:margin-cash"
     ]
+  },
+  {
+    "id": "marvell-lumentum-merger-q3-prelim-20261102",
+    "date": "2026-11-02",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Marvell 签署全股票收购 Lumentum 协议（4.500 股／股），FY2027 Q3 初步收入维持指引中值",
+      "en": "Marvell signs all-stock agreement to acquire Lumentum (4.500 shares per share); FY2027 Q3 preliminary revenue keeps the guidance midpoint"
+    },
+    "detail": {
+      "zh": "来源：Marvell 2026-11-02 8-K Item 1.01（0001193125-26-442717）、8-K Item 2.02/7.01 联合新闻稿与演示材料（0001193125-26-442714）。并购（8-K Item 1.01，2026-11-02；协议日 2026-11-01）：Marvell 与 Lumentum 签署最终协议，以全股票方式收购 Lumentum，固定换股比例为每股 Lumentum 换 4.500 股 Marvell，Matt Murphy 续任董事长兼 CEO，含 Lumentum CEO Michael Hurlston 在内的三名 Lumentum 董事将进入 Marvell 董事会。公司预计 2028 年上半年交割，尚需双方股东批准（含增加授权股本的章程修订）、HSR 及其他监管批准、S-4 生效等条件；协议外部日为 2027-11-01，在监管批准未取得等情形下可延至 2028-08-01。交易尚未完成。 同一联合新闻稿（8-K Ex 99.1，0001193125-26-442714）称 FY2027 Q3 初步收入与此前指引一致，维持中值（2026-08-27 指引 $3.150B），区间由 ±5% 收窄至 ±2%；未给分部或客户拆分。 证据边界：初步收入未经审计且无分部拆分；公司的协同与增厚表述只是预期，本条不采用。",
+      "en": "Sources: Marvell 8-K Item 1.01 of 2026-11-02 (0001193125-26-442717), 8-K Items 2.02/7.01 joint release and presentation (0001193125-26-442714). Merger (8-K Item 1.01, 2026-11-02; agreement dated 2026-11-01): Marvell and Lumentum signed a definitive agreement for Marvell to acquire Lumentum in an all-stock transaction at a fixed 4.500 Marvell shares per Lumentum share; Matt Murphy remains Chairman and CEO, and three Lumentum directors including CEO Michael Hurlston will join the Marvell board. The companies expect closing in the first half of calendar 2028, subject to both stockholder votes (including a charter amendment increasing authorized shares), HSR and other regulatory approvals, S-4 effectiveness and other conditions; the outside date is 2027-11-01, extendable to 2028-08-01 in certain circumstances where required regulatory approvals are outstanding. The transaction has not closed. The same joint release (8-K Ex 99.1, 0001193125-26-442714) reports FY2027 Q3 preliminary revenue consistent with prior guidance, keeping the midpoint (the $3.150B guide of 2026-08-27) and narrowing the range from +/-5% to +/-2%; it gives no segment or customer split. Evidence limits: preliminary revenue is unaudited with no segment split; the company's synergy and accretion statements are expectations and are not adopted here."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "MRVL"
+    ],
+    "reportIds": [
+      "marvell-2026"
+    ],
+    "monitoringRefs": [
+      "marvell-2026:valuation-revenue-ramp"
+    ]
   }
 ]
