@@ -3735,7 +3735,7 @@
     "ticker": "NASDAQ: TEM",
     "title": "Tempus AI 深度研究报告 - 精准医疗数据飞轮的高增长与高风险",
     "titleEn": "Tempus AI Deep Research Report - Precision Medicine Data Flywheel's High Growth and High Risk",
-    "summary": "2026-08-25更新（FDA清除Tempus ECG-PH，并按2026-08-24收盘重锚估值）：公司2026-08-24宣布获FDA 510(k)清除Tempus ECG-PH（肺动脉高压），为其心血管组合第三款获清除设备；新闻稿未披露任何收入、定价或报销指引，FY2026收入指引$15.95-16.05亿与调整后EBITDA约$6500万不变。Q2基本面沿用：营收$382.5M（+21.6% YoY）、经营亏损同比走阔至$(75.9)M，单季GAAP净利+$5.6M主要来自$98.5M证券未实现收益。按TEM 2026-08-24收盘$66.17、Q2 Form 10-Q封面披露的截至2026-07-24约1.8043亿股重锚：市值约$119.4亿、P/S(TTM)约8.3x、EV/2026E EBITDA约192x；Personalis仍待交割。反向倍数隐含约38%三年营收CAGR——已高于公司约25%的指引与21.6%的最近实际季度，执行缓冲转负；维持谨慎/中确信。",
+    "summary": "2026-11-03 — Q3 2026（季度截至 2026-09-30；8-K Ex 99.1 与 10-Q，2026-11-02）收入 $411.5M（同比 +23%），诊断 $303.5M（同比 +20%，肿瘤检测量 +32%、遗传业务收入 +3%），数据与应用 $108.1M（同比 +33%，Insights +29%）；毛利 $266.7M（同比 +27%）；经营亏损 $(56.9)M（上年 $(61.0)M）；调整后 EBITDA $25.6M（上年 $1.5M）；净亏损 $(14.9)M（上年 $(80.0)M）。FY2026 收入指引上调至 $16.0–16.05 亿，调整后 EBITDA 约 $6500 万不变。 Personalis（10-Q，2026-11-02）：每股 $16.25，对价计划全部为 A 类普通股，公司可选择至多 50% 现金；HSR 等待期已届满、英国 CMA 已放行、S-4 于 2026-10-21 生效，Personalis 股东特别会议定于 2026-11-30，预计 2026 年第四季度交割。 估值与立场仍按 2026-08-24 历史基础；Q3 实绩与新指引待 Mode B 重算，价格、估值数字、立场和确信度本包未更新。",
     "tags": [
       "精准医疗",
       "AI医疗",
@@ -3744,7 +3744,7 @@
     ],
     "category": "tech",
     "date": "2026-02-27",
-    "lastUpdate": "2026-08-25",
+    "lastUpdate": "2026-11-03",
     "coverageTier": "full",
     "file": "/invest/research/reports/view.html?id=tempus-ai-2026",
     "markdownFiles": {
@@ -3752,13 +3752,13 @@
       "en": "/invest/research/Tempus_AI_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "2026-08-24：FDA 510(k)清除Tempus ECG-PH（肺动脉高压），心血管组合第三款；公司未随之给出任何收入/报销指引，FY2026指引不变",
-      "Q2 2026：营收$382.5M（+21.6%）、诊断$289.3M（+20%、肿瘤检测量+31%）、数据与应用$93.2M（+28%）；调整后EBITDA转正$8.0M",
-      "GAAP盈利质量未确立：经营亏损同比走阔至$(75.9)M，$5.6M单季净利主要来自$98.5M证券未实现收益；H1仍净亏$(120.3)M",
-      "独立估值锚点：TEM 2026-08-24收盘$66.17、市值约$119.4亿、P/S(TTM)约8.3x、EV/2026E EBITDA约192x；反向倍数隐含约38%三年营收CAGR，高于约25%指引",
-      "Personalis每股$16.25待完成交易仍未并入；维持谨慎/中确信，重点监测Q3增长、经营亏损与交易对价"
+      "Q3 2026（2026-11-02）：收入 $411.5M（+23%）、诊断 $303.5M（+20%，肿瘤检测量 +32%）、数据与应用 $108.1M（+33%）；调整后 EBITDA $25.6M",
+      "经营亏损 $(56.9)M，同比收窄（上年 $(61.0)M）；净亏损 $(14.9)M；FY2026 收入指引上调至 $16.0–16.05 亿，调整后 EBITDA 约 $6500 万不变",
+      "数据与应用占收入 26.3%（上年同期 24.3%）；年内数据授权订单累计逾 $5.5 亿（公司口径）",
+      "Personalis：HSR 届满、CMA 放行、S-4 生效，股东会 2026-11-30，预计 Q4 交割；对价现金／股票选择尚未确定",
+      "估值仍按 2026-08-24 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。"
     ],
-    "summaryEn": "Updated 2026-08-25 (FDA clearance for Tempus ECG-PH, plus a valuation re-anchor to the 2026-08-24 close): on 2026-08-24 the company announced FDA 510(k) clearance for Tempus ECG-PH (pulmonary hypertension), the third cleared device in its cardiovascular portfolio. The release disclosed no revenue, pricing, or reimbursement guidance, and FY2026 guidance of $1.595-1.605B revenue and about $65M adjusted EBITDA is unchanged. Q2 fundamentals carry over: revenue $382.5M (+21.6% YoY), operating loss widened to $(75.9)M, and $5.6M of GAAP net income came mainly from $98.5M of unrealized securities gains. Re-anchored to TEM's 2026-08-24 close of $66.17 and the Q2 Form 10-Q cover-page count of about 180.43M shares as of 2026-07-24: approximately $11.94B market cap, 8.3x TTM P/S, and about 192x EV/2026E EBITDA; Personalis remains pending. Reverse-multiple math now implies roughly 38% three-year revenue CAGR — above the company's ~25% guide and its 21.6% latest actual quarter, so the execution cushion has gone negative; the stance stays cautious / medium conviction.",
+    "summaryEn": "2026-11-03 — Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1 and 10-Q, 2026-11-02) revenue was $411.5M (+23% YoY), with Diagnostics $303.5M (+20% YoY; oncology volume +32%, hereditary revenue +3%) and Data and Applications $108.1M (+33% YoY; Insights +29%); gross profit was $266.7M (+27% YoY); operating loss was $(56.9)M versus $(61.0)M; adjusted EBITDA was $25.6M versus $1.5M; net loss was $(14.9)M versus $(80.0)M. FY2026 revenue guidance was raised to $1.60-1.605B, and adjusted EBITDA remains about $65M. Personalis (10-Q, 2026-11-02): $16.25 per share, with consideration planned entirely in Class A common stock and an option to pay up to 50% in cash; the HSR waiting period has expired, UK CMA clearance is obtained, the S-4 became effective on 2026-10-21, the Personalis special meeting is scheduled for 2026-11-30, and closing is anticipated in Q4 2026. Valuation and stance remain on the 2026-08-24 historical basis ; Q3 actuals and the new guidance await Mode B recomputation, and price, valuation figures, stance and conviction are not updated in this package.",
     "period": "2026H1",
     "versionType": "full-cycle",
     "versionLabel": "2026H1 Full Rerun",
@@ -3775,7 +3775,7 @@
       "summary": "归档的2026H1重跑前版本，保留FY2025收入、诊断/数据分部、数据飞轮护城河和旧市值/估值倍数框架。",
       "summaryEn": "Archived pre-rerun 2026H1 baseline preserving FY2025 revenue, the diagnostics/data segments, the data-flywheel moat, and the old market-cap/valuation-multiple framework."
     },
-    "reportedPeriod": "Q2 2026",
+    "reportedPeriod": "Q3 2026",
     "priceSymbol": "TEM",
     "priceAsOf": "2026-08-24",
     "stance": "cautious",
@@ -3830,13 +3830,14 @@
           "en": "revenue growth falls below 20%, the operating loss widens again year over year, or FY2026 guidance is cut"
         },
         "latest": {
-          "zh": "Q2营收$382.5M（+21.6%），经营亏损$(75.9)M（上年$(61.8)M），调整后EBITDA $8.0M；FY2026收入指引$15.95-16.05亿、调整后EBITDA约$6500万",
-          "en": "Q2 revenue was $382.5M (+21.6%), operating loss $(75.9)M versus $(61.8)M, and adjusted EBITDA $8.0M; FY2026 guidance is $1.595-1.605B revenue and about $65M adjusted EBITDA"
+          "zh": "Q3 2026（8-K Ex 99.1 与 10-Q，2026-11-02）收入 $411.5M（同比 +23%），经营亏损 $(56.9)M（上年 $(61.0)M），调整后 EBITDA $25.6M；FY2026 收入指引由 $15.95–16.05 亿上调至 $16.0–16.05 亿，调整后 EBITDA 约 $6500 万不变。",
+          "en": "Q3 2026 (8-K Ex 99.1 and 10-Q, 2026-11-02) revenue was $411.5M (+23% YoY), operating loss $(56.9)M versus $(61.0)M, and adjusted EBITDA $25.6M; FY2026 revenue guidance moved from $1.595-1.605B to $1.60-1.605B, with adjusted EBITDA unchanged at about $65M."
         },
         "nextCheck": "Q3 2026 results (around Nov 2026)",
         "nextCheckDate": "2026-11",
-        "reading": "unclear",
-        "readingAsOf": "2026-07-30"
+        "reading": "within",
+        "readingAsOf": "2026-11-02",
+        "readingNote": "三腿全部可观察：增速未跌破 20%、经营亏损同比收窄、指引未下修。 / All three legs are observable: growth did not fall below 20%, the operating loss narrowed year over year, and guidance was not cut."
       },
       {
         "id": "data-apps-mix",
@@ -3851,13 +3852,14 @@
           "en": "Data & Applications keeps outgrowing Diagnostics and expands the higher-margin revenue mix"
         },
         "latest": {
-          "zh": "Q2数据与应用营收$93.2M（+28%），Insights增长36%，当季新签约约$200M许可",
-          "en": "Q2 Data & Applications revenue was $93.2M (+28%), Insights grew 36%, and about $200M of new licenses were signed"
+          "zh": "Q3 2026（10-Q，2026-11-02）数据与应用收入 $108.1M（同比 +33%，Insights +29%），诊断 $303.5M（同比 +20%）；数据与应用占收入 26.3%（上年同期 24.3%）；按 10-Q 分部成本算毛利率，数据与应用 71.5%、诊断 62.4%。公司称含 10 月 BMS 合作在内，年内数据授权订单累计逾 $5.5 亿。",
+          "en": "Q3 2026 (10-Q, 2026-11-02) Data and Applications revenue was $108.1M (+33% YoY; Insights +29%) versus Diagnostics $303.5M (+20% YoY); Data and Applications was 26.3% of revenue (24.3% a year earlier); from 10-Q product-line costs, gross margin was 71.5% for Data and Applications and 62.4% for Diagnostics. The company says data-licensing bookings exceed $550M year to date including the October BMS collaboration."
         },
         "nextCheck": "Q3 2026 segment results (around Nov 2026)",
         "nextCheckDate": "2026-11",
         "reading": "within",
-        "readingAsOf": "2026-07-30"
+        "readingAsOf": "2026-11-02",
+        "readingNote": "增速继续高于诊断、收入占比扩大，且其分部毛利率高于诊断（由 10-Q 成本行计算）。 / Growth stays above Diagnostics, the revenue share expanded, and its segment gross margin exceeds Diagnostics (calculated from 10-Q cost lines)."
       },
       {
         "id": "personalis-closing-liquidity",
@@ -3872,12 +3874,13 @@
           "en": "the cash election or new borrowing materially raises net debt, or stock consideration dilutes beyond the current agreement framework"
         },
         "latest": {
-          "zh": "交易仍待股东、监管及其他批准；默认换股、比率上限0.3356，Tempus可选择最多50%现金；Q2流动性$820.7M、债务账面值约$1.361B",
-          "en": "The transaction remains subject to stockholder, regulatory, and other approvals; stock is the default, the exchange ratio is capped at 0.3356, and Tempus may elect up to 50% cash; Q2 liquidity was $820.7M against about $1.361B of debt carrying value"
+          "zh": "Personalis（10-Q，2026-11-02）：每股 $16.25，对价计划全部为 A 类普通股，公司可选择至多 50% 现金；HSR 等待期已届满、英国 CMA 已放行、S-4 于 2026-10-21 生效，Personalis 股东特别会议定于 2026-11-30，预计 2026 年第四季度交割。 现金选择与新增借款尚未发生或未披露。",
+          "en": "Personalis (10-Q, 2026-11-02): $16.25 per share, with consideration planned entirely in Class A common stock and an option to pay up to 50% in cash; the HSR waiting period has expired, UK CMA clearance is obtained, the S-4 became effective on 2026-10-21, the Personalis special meeting is scheduled for 2026-11-30, and closing is anticipated in Q4 2026."
         },
         "nextCheck": "Personalis approval, consideration election, and closing disclosures (event-driven)",
         "reading": "unclear",
-        "readingAsOf": "2026-07-30"
+        "readingAsOf": "2026-11-02",
+        "readingNote": "交易未完成、对价组合未定，净债务与稀释腿都无法判定。 / The deal has not closed and the consideration mix is undecided, so the net-debt and dilution legs cannot be graded."
       }
     ]
   },

@@ -3672,5 +3672,30 @@
       "pltr-2026:international-inflection",
       "pltr-2026:government-concentration"
     ]
+  },
+  {
+    "id": "tempus-q3-2026-results-20261102",
+    "date": "2026-11-02",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Tempus AI Q3 2026 收入 $411.5M（+23%），FY2026 收入指引上调至 $16.0–16.05 亿；Personalis 监管已放行",
+      "en": "Tempus AI Q3 2026 revenue of $411.5M (+23%), FY2026 revenue guidance raised to $1.60-1.605B; Personalis regulatory review cleared"
+    },
+    "detail": {
+      "zh": "来源：Tempus 2026-11-02 8-K Ex 99.1（0001193125-26-442619）与 10-Q（0001193125-26-442624）。Q3 2026（季度截至 2026-09-30；8-K Ex 99.1 与 10-Q，2026-11-02）收入 $411.5M（同比 +23%），诊断 $303.5M（同比 +20%，肿瘤检测量 +32%、遗传业务收入 +3%），数据与应用 $108.1M（同比 +33%，Insights +29%）；毛利 $266.7M（同比 +27%）；经营亏损 $(56.9)M（上年 $(61.0)M）；调整后 EBITDA $25.6M（上年 $1.5M）；净亏损 $(14.9)M（上年 $(80.0)M）。FY2026 收入指引上调至 $16.0–16.05 亿，调整后 EBITDA 约 $6500 万不变。 Personalis（10-Q，2026-11-02）：每股 $16.25，对价计划全部为 A 类普通股，公司可选择至多 50% 现金；HSR 等待期已届满、英国 CMA 已放行、S-4 于 2026-10-21 生效，Personalis 股东特别会议定于 2026-11-30，预计 2026 年第四季度交割。 证据边界：对价组合未定；电话会未读。",
+      "en": "Sources: Tempus 8-K Ex 99.1 of 2026-11-02 (0001193125-26-442619) and 10-Q (0001193125-26-442624). Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1 and 10-Q, 2026-11-02) revenue was $411.5M (+23% YoY), with Diagnostics $303.5M (+20% YoY; oncology volume +32%, hereditary revenue +3%) and Data and Applications $108.1M (+33% YoY; Insights +29%); gross profit was $266.7M (+27% YoY); operating loss was $(56.9)M versus $(61.0)M; adjusted EBITDA was $25.6M versus $1.5M; net loss was $(14.9)M versus $(80.0)M. FY2026 revenue guidance was raised to $1.60-1.605B, and adjusted EBITDA remains about $65M. Personalis (10-Q, 2026-11-02): $16.25 per share, with consideration planned entirely in Class A common stock and an option to pay up to 50% in cash; the HSR waiting period has expired, UK CMA clearance is obtained, the S-4 became effective on 2026-10-21, the Personalis special meeting is scheduled for 2026-11-30, and closing is anticipated in Q4 2026. Evidence limits: the consideration mix is undecided; the earnings call was not read."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "TEM"
+    ],
+    "reportIds": [
+      "tempus-ai-2026"
+    ],
+    "monitoringRefs": [
+      "tempus-ai-2026:q3-growth-profitability",
+      "tempus-ai-2026:data-apps-mix",
+      "tempus-ai-2026:personalis-closing-liquidity"
+    ]
   }
 ]
