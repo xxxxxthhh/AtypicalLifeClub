@@ -20,6 +20,13 @@
       <description>2026-10-28更新（Mode A事实增量，无估值重锚）：2026-10-27美股收盘后发布的Q1 FY2027（季度截至2026-10-02）收入$42.33亿（上年同期$26.29亿）、非GAAP毛利率57.8%（GAAP 57.3%；Q4 FY2026为52.7%）、非GAAP营业利润率50.7%（GAAP 48.8%）、非GAAP摊薄EPS $7.68（GAAP $7.59）；经营现金流约$17亿、自由现金流约$15亿；向股东返还$5.68亿，季度股息上调约3%至$0.76；Q2 FY2027指引收入$48亿±$1亿、非GAAP EPS $9.20±$0.20。2026-11-01补充（Mode A）：Q1补充财务资料显示近线EB 198（环比+1.5%、同比+24.5%）、总EB 220，混合每EB收入约$19.24百万（本报告自算，Q4 FY2026为$16.65百万）；电话会称绝大部分近线供给已按长期协议分配至2028年、部分云客户协议延伸至2030年；本次复核未能独立取得10-Q，季度客户集中度未核实。HAMR数据本轮未更新。估值仍按2026-09-22锚定的旧口径，当前股价、股本、现金债务与年化分母待Mode B重算；本次未重新裁定立场（谨慎／中确信，2026-09-23首次覆盖）。</description>
     </item>
     <item>
+      <title>Palantir 深度研究报告 - AI 应用变现跑通了，但价格在跟倍数赛跑 / Palantir Deep Research Report - Application-Layer AI Monetization Works, but the Price Is Racing the Multiple</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=pltr-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=pltr-2026#pltr-2026@2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <description>2026-11-03 — Q3 2026（季度截至 2026-09-30；8-K Ex 99.1，2026-11-02 盘后）收入 $2,313.4M（同比 +96%、环比 +20%）；美国商业 $984M（同比 +148%、环比 +29%）首次超过美国政府 $953M（同比 +96%、环比 +18%）；美国商业 TCV $1.463B（同比 +11%），总 TCV $2.918B（同比 +6%）；美国商业 RDV $6.517B（同比 +79%、环比 +4%）。GAAP／调整后营业利润率 47%／62%，调整后自由现金流 $1.216B（利润率 53%）。FY2026 指引上调至收入 $8.530–8.534B、美国商业逾 $3.559B（至少 +143%）、调整后营业利润 $5.245–5.249B、调整后自由现金流 $4.8–5.0B；Q4 收入指引 $2.649–2.653B。 估值与立场仍按 2026-08-03 历史基础；Q3 实绩与新指引待 Mode B 重算，价格、估值数字、立场和确信度本包未更新。</description>
+    </item>
+    <item>
       <title>Marvell Technology 深度研究报告 - Broadcom 之外的 custom ASIC 与光互连架构校验 / Marvell Technology Deep Research Report - Custom ASIC and Optical Interconnect Check Beyond Broadcom</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=marvell-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=marvell-2026#marvell-2026@2026-11-03</guid>
@@ -431,13 +438,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amd-2026#amd-2026@2026-08-05</guid>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
       <description>v5 回填：AMD Q1 2026 营收 $10.253B、Data Center 约 $5.8B，Meta 6GW、Helios/MI450、EPYC 与 ROCm 让 AI infrastructure 第二平台叙事更强。以 2026-07-30 收盘 $485.39、约 $7,920 亿 EV 和约 21.2x EV/TTM Sales 计，市场依然提前定价 Meta/Helios、MI450、ROCm 改善、Data Center 增长和利润率扩张；按 Q1 Non-GAAP EPS 年化仍约 89x、FCF 收益率约 1.3%。20% 牛市 / 40% 基准 / 40% 熊市情景仍给出负偏斜，维持谨慎 / 中确信。</description>
-    </item>
-    <item>
-      <title>Palantir 深度研究报告 - AI 应用变现跑通了，但价格在跟倍数赛跑 / Palantir Deep Research Report - Application-Layer AI Monetization Works, but the Price Is Racing the Multiple</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=pltr-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=pltr-2026#pltr-2026@2026-08-04</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施书 demand-risk 层的应用层订单质量仪表盘首次覆盖：本书此前只有 AI 基础设施的买方（MSFT/META/GOOG/AMZN/ORCL）、转租方（CRWV/NBIS）和模型方（MiniMax），缺一个能证明「最后一公里」跑通的标的——终端企业真的为 AI 应用付大钱，而卖方还能赚到真实利润。2026 Q2（季度截至 2026-06-30，08-03 盘后发布）给出了本覆盖书最强的一份经营答卷：收入 $19.35 亿（+93%，连续五个季度加速）、美国商业 +149%、GAAP 营业利润率 47%（一年前 26.8%）、调整后自由现金流 $12.20 亿（利润率 63%）、Rule of 40 达 155%、美国商业 TCV +153% 快于收入增速、现金 $92 亿对债务 $2.12 亿。风险不在生意而在价格：以 2026-08-03 收盘 $125.65 为主锚（Q2 于该收盘后发布，盘后指示价 $144.42），市值约 $3,012 亿、约 107 倍追溯 GAAP 盈利（还原 1.3% 有效税率后约 134 倍）、约 48.9 倍追溯收入、约 36.9 倍 FY2026 指引收入。决定性证据是它自己的历史：2025-11-03 至 2026-06-25 股价跌 48%，同期季度增速却从 63% 加速到 85%——倍数压缩快于生意复利。30% 牛市 / 40% 基准 / 30% 熊市网格读出负向预期差，初始立场谨慎 / 中确信，且明确是估值与倍数风险判断，不是生意质量判断。</description>
     </item>
     <item>
       <title>Alphabet 深度研究报告 - TPU 外部化与 capex 融资质量的架构校验 / Alphabet Deep Research Report - Architecture Check on TPU Externalization and Capex Funding Quality</title>
