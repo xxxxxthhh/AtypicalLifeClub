@@ -1,32 +1,41 @@
 # Lumentum (LITE) Deep Research Report — Laser Economics, Architecture Migration and Growth Pricing
 
 Coverage date: 2026-10-19
-Last updated: 2026-10-19
+Last updated: 2026-11-03
 Ticker: NASDAQ: LITE
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 Reporting period: FY2026, ended 2026-06-27, incorporating issuer updates available through 2026-10-19. Common price anchor: the completed U.S. regular-session close on 2026-10-16. Dollar amounts are USD millions (M) unless specified; B denotes billions. Actual results, company objectives and research assumptions are identified separately.
 
 ## Executive Summary <!-- report-module:overview -->
 
-**One-line thesis:** Lumentum supplies EML/CW lasers for pluggable transceivers, external laser sources for CPO and optical circuit switches (OCS), while also manufacturing modules through Cloud Light. FY2026 revenue growth of 83.2% and Q4 non-GAAP operating margin of 36.6% show that bottleneck economics have reached its financial statements. At $824.13, however, working diluted EV/revenue remains 27.5x. The model needs roughly $12B of FY2029 revenue and a 43% adjusted operating margin merely to approach an 8% annualized return hurdle. Investment appeal still depends on how quickly capacity becomes cash.
+> **2026-11-03 factual update**: Q1 FY2027 (quarter ended 2026-09-26; 8-K Ex 99.1, 2026-11-02) revenue was $1,262.6M (+25.5% QoQ, +136.5% YoY), with Components $754.2M (59.7%, +98.9% YoY) and Systems $508.4M (40.3%, +228.8% YoY); GAAP / non-GAAP gross margin 51.0% / 53.2% and GAAP / non-GAAP operating margin 28.5% / 42.3%. The Q2 FY2027 outlook is revenue of $1.575B-$1.625B and non-GAAP operating margin of 45.0%-46.0%. The company says it secured a second major NPO/CPO win backed by purchase commitments exceeding $5B and that OCS is positioned to become a multi-billion-dollar annual revenue stream; the documents read give no quarterly OCS actual, customer name or revenue timing.
+>
+> **2026-11-03 merger fact**: Merger (8-K Item 1.01, 2026-11-02; agreement dated 2026-11-01): Marvell and Lumentum signed a definitive agreement for Marvell to acquire Lumentum in an all-stock transaction at a fixed 4.500 Marvell shares per Lumentum share. The companies expect closing in the first half of calendar 2028, subject to both stockholder votes, HSR and other regulatory approvals, S-4 effectiveness and other conditions; the outside date is 2027-11-01, extendable to 2028-08-01 in certain circumstances where required regulatory approvals are outstanding. The transaction has not closed.
+>
+> **2026-11-03 review of monitoring**: revenue-margin unclear; architecture-ramp unclear (initial CPO shipment date not restated); margin-cash unclear (no current-period cash-flow data). The concentration-dilution and valuation-hurdle readings were not updated. Sources: 8-K 0001628280-26-068655 Ex 99.1 (Q1 FY2027 release), 8-K 0001193125-26-442758 (merger agreement, joint release, presentation), Rule 425 0001193125-26-443876 (call transcript).
+>
+> **Valuation boundary (2026-11-03, Mode A):** Valuation, the scenario grid and the stance remain on the 2026-10-16 historical basis ($824.13), all on a standalone premise; Q1 actuals, the new outlook and the merger terms await Mode B recomputation, and price, valuation figures, stance and conviction are not updated in this package.
 
-**Investment judgment:** Neutral-watch, low conviction. The 30% bull / 40% base / 30% bear FY2029 grid produces a weighted future scenario value of $1,007.63 per share, 22.3% above the 2026-10-16 close, or 7.7% annualized over 2.705 years, slightly below the 8% hurdle. Four fewer turns on every exit multiple reduce that return to 1.3%. These are conditional valuation outcomes, not price targets.
 
-**Catalysts and window:** Q1 FY2027 results after the close on 2026-11-05, followed by two quarters of OCS, CPO laser, margin and cash-conversion evidence. The longer window extends to architecture production in late 2027 and the Greensboro fab ramp in 2028.
+Historical valuation basis: **One-line thesis:** Lumentum supplies EML/CW lasers for pluggable transceivers, external laser sources for CPO and optical circuit switches (OCS), while also manufacturing modules through Cloud Light. FY2026 revenue growth of 83.2% and Q4 non-GAAP operating margin of 36.6% show that bottleneck economics have reached its financial statements. At $824.13, however, working diluted EV/revenue remains 27.5x. The model needs roughly $12B of FY2029 revenue and a 43% adjusted operating margin merely to approach an 8% annualized return hurdle. Investment appeal still depends on how quickly capacity becomes cash.
+
+Historical valuation basis: **Investment judgment:** Neutral-watch, low conviction. The 30% bull / 40% base / 30% bear FY2029 grid produces a weighted future scenario value of $1,007.63 per share, 22.3% above the 2026-10-16 close, or 7.7% annualized over 2.705 years, slightly below the 8% hurdle. Four fewer turns on every exit multiple reduce that return to 1.3%. These are conditional valuation outcomes, not price targets.
+
+**Catalysts and window:** ~~Q1 FY2027 results after the close on 2026-11-05~~ Q1 FY2027 was released on 2026-11-02, ahead of the announced date; then Q2 FY2027 results and the merger approvals, with two quarters of OCS, CPO laser, margin and cash-conversion evidence. The longer window extends to architecture production in late 2027 and the Greensboro fab ramp in 2028.
 
 | Key statistic | Latest reading | Definition and limitation |
 |---|---:|---|
-| Share price, 2026-10-16 close | $824.13 | Same completed session as COHR $232.90 and AAOI $75.57; excludes after-hours quotes |
+| Historical valuation basis: Share price, 2026-10-16 close | $824.13 | Same completed session as COHR $232.90 and AAOI $75.57; excludes after-hours quotes |
 | Issued economic shares / market cap | 93.459M / $77.02B | September 24 common shares of 90.582856M plus NVIDIA preferred shares of 2.876415M, assumed converted 1:1 |
-| Working diluted shares / market cap | 102.0M / $84.06B | Uses the company's Q1 weighted diluted guidance as a valuation assumption, not a verified point-in-time share count |
-| Net cash / working EV | $1,091.3M / $82.97B | June cash and short-term investments of $2,738.4M less convertible principal of $1,554.3M and Japan loans of $92.8M |
+| Historical valuation basis: Working diluted shares / market cap | 102.0M / $84.06B | Uses the company's Q1 weighted diluted guidance as a valuation assumption, not a verified point-in-time share count |
+| Historical valuation basis: Net cash / working EV | $1,091.3M / $82.97B | June cash and short-term investments of $2,738.4M less convertible principal of $1,554.3M and Japan loans of $92.8M |
 | FY2026 revenue / growth | $3,014.0M / +83.2% | Actual; Components 66.5%, Systems 33.5% |
 | Q4 revenue / GAAP operating margin | $1,006.3M / 27.8% | Revenue +109.3% YoY and +24.5% sequentially |
 | Q4 non-GAAP gross / operating margin | 50.4% / 36.6% | Excludes SBC and other adjustments; do not mix with GAAP |
 | Q1 FY2027 guidance midpoint | Revenue $1,250M; operating margin 40.0%; EPS $4.20 | Last two measures are non-GAAP; annualization is a run rate, not annual guidance |
-| EV / TTM revenue; EV / annualized guidance revenue | 27.5x; 16.6x | Working diluted convention |
-| Working diluted market cap / FY2026 non-GAAP income | 107.5x | $84.06B / $782.3M; differs from 95.1x price/historical EPS |
-| Annualized guidance non-GAAP P/E | 49.1x | $824.13 / ($4.20 × 4) |
+| Historical valuation basis: EV / TTM revenue; EV / annualized guidance revenue | 27.5x; 16.6x | Working diluted convention |
+| Historical valuation basis: Working diluted market cap / FY2026 non-GAAP income | 107.5x | $84.06B / $782.3M; differs from 95.1x price/historical EPS |
+| Historical valuation basis: Annualized guidance non-GAAP P/E | 49.1x | $824.13 / ($4.20 × 4) |
 | FY2026 OCF / cash capex / FCF | $751.4M / $451.3M / $300.1M | FCF is OCF less capex; working market-cap FCF yield 0.36% |
 | Top two end-customer revenue shares | 26.6% + 15.0% = 41.6% | Customers are unnamed; do not identify Customer A as Google or NVIDIA |
 
@@ -151,7 +160,7 @@ Sources: [proxy compensation and governance](https://www.sec.gov/Archives/edgar/
 3. **Near-term guidance exceeds the formal model.** At $1.25B of quarterly revenue, 40% guided operating margin exceeds the OFC model's 33%–37%. If that efficiency persists, FY2029 scenario margins of 43%–46% are not entirely disconnected from current leverage.
 4. **Route coverage reduces single-point risk.** EML, CW, UHP, OCS and the newly demonstrated VCSEL route address different distances and topologies. Silicon-photonics growth need not eliminate laser revenue.
 
-Quantified upside scenario: FY2027–FY2029 revenue of $6.6B / $11B / $16B, adjusted operating margins of 41% / 44% / 46%, 108M FY2029 shares, a 16.5% tax rate and a 28x operating-earnings exit multiple yield $1,647.20 per share at exit, +99.9% versus $824.13 and +29.2% annualized. This requires materially exceeding the company's $8B annualized model and rapid new-fab delivery. It receives only 30% weight and is not company guidance.
+Historical valuation basis: Quantified upside scenario: FY2027–FY2029 revenue of $6.6B / $11B / $16B, adjusted operating margins of 41% / 44% / 46%, 108M FY2029 shares, a 16.5% tax rate and a 28x operating-earnings exit multiple yield $1,647.20 per share at exit, +99.9% versus $824.13 and +29.2% annualized. This requires materially exceeding the company's $8B annualized model and rapid new-fab delivery. It receives only 30% weight and is not company guidance.
 
 ## 6. Bear Case <!-- report-module:bullBear -->
 
@@ -180,9 +189,12 @@ The bear case still permits $7.5B of revenue rather than a collapse. A 33% FY202
 
 ## 8. Valuation Context and Investment Appeal <!-- report-module:valuation -->
 
+> **Valuation boundary (2026-11-03, Mode A):** this section remains on the 2026-10-16 standalone basis; Q1 FY2027 actuals, the new outlook and the merger terms change the inputs, which await Mode B recomputation.
+
+
 ### Share-count conventions and multiples at the same price anchor
 
-| Metric, 2026-10-16 $824.13 | Issued economic shares 93.459M | Working diluted shares 102M |
+| Historical valuation basis: Metric, 2026-10-16 $824.13 | Issued economic shares 93.459M | Working diluted shares 102M |
 |---|---:|---:|
 | Market capitalization | $77.02B | $84.06B |
 | EV after $1.091B net cash | $75.93B | $82.97B |
@@ -198,7 +210,7 @@ The report does not remove a GAAP loss mechanically and label the result GAAP P/
 
 | Company | Close | Issued economic shares / date | Market cap | EV | TTM revenue | EV/TTM | EV/annualized guidance revenue |
 |---|---:|---|---:|---:|---:|---:|---:|
-| LITE | $824.13 | 93.459M, September 24, including preferred | $77.02B | $75.93B | $3.014B | 25.2x | 15.2x |
+| Historical valuation basis: LITE | $824.13 | 93.459M, September 24, including preferred | $77.02B | $75.93B | $3.014B | 25.2x | 15.2x |
 | COHR | $232.90 | 196.935M, August 31 | $45.87B | $47.49B | $7.118B | 6.7x | 5.2x |
 | AAOI, illustrative known-event bridge | $75.57 | About 90.601M, August 20 base plus disclosed ATM | $6.85B | About $6.00B | $0.596B | About 10.1x | About 5.5x |
 
@@ -261,7 +273,7 @@ The base case's **58.5%** three-year revenue CAGR and roughly fourfold FY2026 re
 
 | Timing | Catalyst | Evidence to verify |
 |---|---|---|
-| After U.S. close, 2026-11-05 | Q1 FY2027 results, announced October 5 | Revenue $1.225B–$1.275B; non-GAAP operating margin 39.5%–40.5%; EPS $4.05–$4.35 |
+| ~~After U.S. close, 2026-11-05~~ Released 2026-11-02 | Q1 FY2027 results, announced October 5 | Guide: revenue $1.225B–$1.275B; non-GAAP operating margin 39.5%–40.5%; EPS $4.05–$4.35. Actual: $1,262.6M; 42.3%; non-GAAP EPS $4.57 |
 | 10-Q accompanying Q1 results | Financial structure and share base | Convertible balances, cash, net dilution, concentration and commitments |
 | FY2027 Q2 results, expected early 2027 | Second-half OCS and EML capacity delivery | Target delivery versus actual revenue and qualified yield rather than nominal capacity |
 | During 2027 | OCS run rate and CPO revenue | Retention of >$1B OCS objective; conversion of several-hundred-million-dollar CPO opportunity into revenue |
@@ -271,7 +283,7 @@ Only the first item has a specific issuer-announced date. Others are fiscal or p
 
 | Monitoring ID | Latest reading | Upgrade / downgrade trigger | Next check |
 |---|---|---|---|
-| revenue-margin | Q4 $1,006.3M and 36.6%; Q1 midpoint $1,250M and 40% | Q1 revenue below $1.225B or margin below 39.5%; above $1.275B/40.5% requires an upside rebuild | 2026-11-05 |
+| revenue-margin | ~~Q4 $1,006.3M and 36.6%; Q1 midpoint $1,250M and 40%~~ Q1 FY2027 $1,262.6M and 42.3% | Q1 revenue below $1.225B or margin below 39.5%; above $1.275B/40.5% requires an upside rebuild | ~~2026-11-05~~ Released 2026-11-02 |
 | architecture-ramp | FY26 OCS >$90M; October >$100M quarterly run rate; 2027 >$1B objective | Withdrawal/delay of OCS targets or initial late-2027 CPO shipments delayed beyond 2028 | Q1/Q2 results and product announcements |
 | margin-cash | Non-GAAP GM 50.4%; FCF $300.1M; RSU cash withholding $281M | Two quarters below 47% GM with component cuts, or cash retention persistently unable to fund expansion | Each earnings/10-Q |
 | concentration-dilution | Top two customers 41.6%; working shares 102M, range 100M–104M | Single customer above 35%; diluted denominator above 104M without better cash retention | Q1 10-Q |
@@ -281,9 +293,9 @@ Only the first item has a specific issuer-announced date. Others are fiscal or p
 
 **(1) Chain-validation job.** LITE is an optical-layer architecture check: EML/CW component profits, OCS and CPO revenue test upstream profit migration and additive architectures. COHR/AAOI comparisons show real margin differences, but common hyperscaler spending means broader coverage does not establish independent demand. October's VCSEL demonstration also requires room for short-reach solutions outside InP.
 
-**(2) Expectations gap.** At the 2026-10-16 close of $824.13, working EV of $82.97B and 27.5x TTM sales, FY2029 revenue of approximately $12.17B and a 43% adjusted operating margin are needed to earn 8% annualized at a 24x exit. Our base is $12B. Revenue growth alone is insufficient evidence of excess returns.
+Historical valuation basis: **(2) Expectations gap.** At the 2026-10-16 close of $824.13, working EV of $82.97B and 27.5x TTM sales, FY2029 revenue of approximately $12.17B and a 43% adjusted operating margin are needed to earn 8% annualized at a 24x exit. Our base is $12B. Revenue growth alone is insufficient evidence of excess returns.
 
-**(3) Stance and conviction.** The 30/40/30 grid weights to $1,007.63 and +7.7% annualized over 2.705 years, close to the 8% hurdle: **neutral-watch**. Four fewer exit turns reduce return to +1.3%, 20% lower revenue to -0.7%, and mature-cash-flow values are much lower: **low conviction**. Operating improvement warrants attention, but the model does not establish robust positive return asymmetry.
+Historical valuation basis: **(3) Stance and conviction.** The 30/40/30 grid weights to $1,007.63 and +7.7% annualized over 2.705 years, close to the 8% hurdle: **neutral-watch**. Four fewer exit turns reduce return to +1.3%, 20% lower revenue to -0.7%, and mature-cash-flow values are much lower: **low conviction**. Operating improvement warrants attention, but the model does not establish robust positive return asymmetry.
 
 **(4) Upgrade and downgrade conditions.** Upgrade to constructive around $740 or below without operating/cash deterioration, or if a higher long-term model and near-term revenue/margin above guidance lift the rebuilt annualized grid to at least 12%. Downgrade to cautious for Q1 revenue below $1.225B or non-GAAP operating margin below 39.5%; withdrawn/materially delayed OCS objectives; two quarters of GM below 47% with component price cuts; dilution above 104M without better cash retention; or a price above roughly $910 without stronger earnings/cash assumptions. Each trigger requires recalculation rather than mechanical trading.
 
@@ -304,3 +316,5 @@ Only the first item has a specific issuer-announced date. Others are fiscal or p
 **Market data:** [LITE historical prices](https://stockanalysis.com/stocks/lite/history/), [independent LITE historical cross-check](https://ph.investing.com/equities/lumentum-holdings-inc-historical-data), [COHR historical prices](https://stockanalysis.com/stocks/cohr/history/), [AAOI historical prices](https://stockanalysis.com/stocks/aaoi/history/). The common close is October 16; at the October 19 Singapore research date, no newer U.S. regular session had completed.
 
 **Calculation and uncertainty boundary:** Scenario revenue, margins, 18x/24x/28x multiples, 30/40/30 weights and 108M future shares are research assumptions, not consensus or commitments. Exit is June 30, 2029; annualization uses actual days/365.25. The weighted future value is annualized after weighting, rather than averaging the three annualized returns. June cash/debt balances are not presented as live October balances. External CAGR estimates without a verifiable period and data source are not inputs. Capacity, backlog, quarterly run rates and recognized revenue remain separate measures.
+
+Primary sources independently reviewed on 2026-11-03: [Source 1](https://www.sec.gov/Archives/edgar/data/1633978/000162828026068655/lite_ex991xq1fy27.htm); [Source 2](https://www.sec.gov/Archives/edgar/data/1835632/000119312526442728/d352474d425.htm)
