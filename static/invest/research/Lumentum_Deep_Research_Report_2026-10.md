@@ -290,9 +290,9 @@ Only the first item has a specific issuer-announced date. Others are fiscal or p
 | Monitoring ID | Latest reading | Upgrade / downgrade trigger | Next check |
 |---|---|---|---|
 | revenue-margin | ~~Q4 $1,006.3M and 36.6%; Q1 midpoint $1,250M and 40%~~ Q1 FY2027 $1,262.6M and 42.3% | Q1 revenue below $1.225B or margin below 39.5%; above $1.275B/40.5% requires an upside rebuild | ~~2026-11-05~~ Released 2026-11-02 |
-| architecture-ramp | FY26 OCS >$90M; October >$100M quarterly run rate; 2027 >$1B objective | Withdrawal/delay of OCS targets or initial late-2027 CPO shipments delayed beyond 2028 | Q1/Q2 results and product announcements |
+| architecture-ramp | FY26 OCS >$90M; November 3 10-Q reports Q1 actual >$108M; 2027 >$1B objective | Withdrawal/delay of OCS targets or initial late-2027 CPO shipments delayed beyond 2028 | Q1/Q2 results and product announcements |
 | margin-cash | Non-GAAP GM 50.4%; FCF $300.1M; RSU cash withholding $281M | Two quarters below 47% GM with component cuts, or cash retention persistently unable to fund expansion | Each earnings/10-Q |
-| concentration-dilution | Top two customers 41.6%; working shares 102M, range 100M–104M | Single customer above 35%; diluted denominator above 104M without better cash retention | Q1 10-Q |
+| concentration-dilution | Q1 end customers at 37% and 11%; 37% exceeds 35%. Historical working shares of 102M, range 100M–104M, await a rebuild | Single customer above 35%; diluted denominator above 104M without better cash retention | Q1 10-Q |
 | valuation-hurdle | Main annualized return +7.7%; minus four exit turns +1.3% | Around $740 without deterioration prompts upgrade review; above about $910 without higher earnings prompts downgrade review | Price or earnings change |
 
 ## 10. Conclusion <!-- report-module:conclusion -->

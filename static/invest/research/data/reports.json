@@ -13360,7 +13360,7 @@
           "zh": "Q1 FY2027（2026-11-02）：收入$1,262.6M、非GAAP营业利润率42.3%，原指引$1.225B–$1.275B／39.5%–40.5%。收入未超上沿、利润率超上沿；下行腿未触发，上行斜线语义未定，整体unclear。Q2指引$1.575B–$1.625B／45.0%–46.0%，不代入旧估值。",
           "en": "Q1 FY2027 (2026-11-02): revenue $1,262.6M and non-GAAP operating margin 42.3%, against guidance of $1.225B-$1.275B / 39.5%-40.5%. Revenue did not exceed the upper end; margin did. The downside leg is unmet, but the slash in the upside condition has no settled semantics; overall unclear. Q2 guidance is $1.575B-$1.625B / 45.0%-46.0%, not substituted into historical valuation."
         },
-        "nextCheck": "2026-11-05 盘后 Q1 FY2027 业绩 / Q1 FY2027 results after close",
+        "nextCheck": "Q1 FY2027 已于 2026-11-02 发布；下次核 Q2 FY2027 业绩 / Q1 FY2027 was released on 2026-11-02; next review Q2 FY2027 results",
         "nextCheckDate": "2026-11",
         "reading": "unclear",
         "readingAsOf": "2026-11-02",
@@ -13423,8 +13423,8 @@
           "en": "Single customer above 35%; diluted denominator above 104M without better cash retention"
         },
         "latest": {
-          "zh": "FY2026 两大客户 41.6%；9 月已发行经济股数 93.459M，工作稀释假设 102M，敏感区间 100M–104M",
-          "en": "FY2026 top two customers 41.6%; September issued economic shares 93.459M, working diluted assumption 102M, sensitivity range 100M–104M"
+          "zh": "2026-11-03 10-Q：Q1 FY2027 最大两家终端客户占净收入 37% 和 11%（上年同期 22% 和 21%）；37% 超过 35% 门槛。完全稀释分母与现金留存条件待 Mode B。",
+          "en": "The November 3 10-Q puts the two largest end customers at 37% and 11% of Q1 FY2027 net revenue (22% and 21% a year earlier). The 37% share crosses the 35% threshold. The fully diluted denominator and cash-retention condition await Mode B."
         },
         "nextCheck": "Q1 FY2027 10-Q",
         "nextCheckDate": "2026-11"
