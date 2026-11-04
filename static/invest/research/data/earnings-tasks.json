@@ -1,65 +1,73 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T02:04:18Z",
+  "generatedAt": "2026-11-04T23:04:26Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-11-04T02:04:18Z"
+    "value": "2026-11-04T23:04:26Z"
   },
   "tasks": [
     {
-      "id": "earnings:alab-2026:2026-11-03:T",
+      "id": "earnings:aaoi-2026:2026-11-05:T-1",
+      "reportId": "aaoi-2026",
+      "type": "research-update",
+      "window": "T-1",
+      "expectedDate": "2026-11-05",
+      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
+    },
+    {
+      "id": "earnings:airbnb-2026:2026-11-05:T-1",
+      "reportId": "airbnb-2026",
+      "type": "research-update",
+      "window": "T-1",
+      "expectedDate": "2026-11-05",
+      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
+    },
+    {
+      "id": "earnings:alab-2026:2026-11-03:T+1",
       "reportId": "alab-2026",
       "type": "research-update",
-      "window": "T",
+      "window": "T+1",
       "expectedDate": "2026-11-03",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     },
     {
-      "id": "earnings:amd-2026:2026-11-03:T",
+      "id": "earnings:amd-2026:2026-11-03:T+1",
       "reportId": "amd-2026",
       "type": "research-update",
-      "window": "T",
+      "window": "T+1",
       "expectedDate": "2026-11-03",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     },
     {
-      "id": "earnings:applovin-2026:2026-11-04:T-1",
+      "id": "earnings:applovin-2026:2026-11-04:T",
       "reportId": "applovin-2026",
       "type": "research-update",
-      "window": "T-1",
+      "window": "T",
       "expectedDate": "2026-11-04",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     },
     {
-      "id": "earnings:arista-2026:2026-11-03:T",
+      "id": "earnings:arista-2026:2026-11-03:T+1",
       "reportId": "arista-2026",
       "type": "research-update",
-      "window": "T",
+      "window": "T+1",
       "expectedDate": "2026-11-03",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     },
     {
-      "id": "earnings:coherent-2026:2026-11-04:T-1",
+      "id": "earnings:coherent-2026:2026-11-04:T",
       "reportId": "coherent-2026",
       "type": "research-update",
-      "window": "T-1",
+      "window": "T",
       "expectedDate": "2026-11-04",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     },
     {
-      "id": "earnings:pltr-2026:2026-11-02:T+1",
-      "reportId": "pltr-2026",
+      "id": "earnings:mp-2026:2026-11-05:T-1",
+      "reportId": "mp-2026",
       "type": "research-update",
-      "window": "T+1",
-      "expectedDate": "2026-11-02",
-      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
-    },
-    {
-      "id": "earnings:tempus-ai-2026:2026-11-02:T+1",
-      "reportId": "tempus-ai-2026",
-      "type": "research-update",
-      "window": "T+1",
-      "expectedDate": "2026-11-02",
+      "window": "T-1",
+      "expectedDate": "2026-11-05",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     }
   ]
