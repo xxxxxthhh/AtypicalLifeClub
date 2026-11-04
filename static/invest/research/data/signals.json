@@ -3792,5 +3792,29 @@
     "monitoringRefs": [
       "lumentum-2026:margin-cash"
     ]
+  },
+  {
+    "id": "pltr-q3-2026-10q-tax-geography-20261102",
+    "date": "2026-11-02",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Palantir Q3 10-Q：美英递延所得税资产维持全额估值备抵；国际收入 $376.2M（+26.0%）",
+      "en": "Palantir Q3 10-Q: full valuation allowance maintained on U.S. and U.K. deferred tax assets; international revenue $376.2M (+26.0%)"
+    },
+    "detail": {
+      "zh": "来源：Palantir 2026-11-02 10-Q（0001321655-26-000048）所得税附注与地理信息表。公司称截至 2026-09-30 对美国与英国递延所得税资产维持全额估值备抵，并称未来有合理可能释放全部或部分；国际（Rest of world）收入 $376.2M（同比 +26.0%），占总收入 16%（上年同期 25%）。证据边界：同比由 10-Q 两期数字计算；SBC、TCV／RDV 两项本包未更新。",
+      "en": "Source: income-tax note and geographic table in the Palantir 10-Q of 2026-11-02 (0001321655-26-000048). The company says it maintained a full valuation allowance on its u.s. and u.k. deferred tax assets as of 2026-09-30, and that there is a reasonable possibility of releasing all or a portion in the future; international (rest of world) revenue was $376.2M (+26.0% YoY), 16% of total revenue (25% a year earlier). Evidence limits: the YoY rate is calculated from the two periods in the 10-Q; the SBC and TCV/RDV items are not updated in this package."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "PLTR"
+    ],
+    "reportIds": [
+      "pltr-2026"
+    ],
+    "monitoringRefs": [
+      "pltr-2026:valuation-allowance-tax-transition",
+      "pltr-2026:international-inflection"
+    ]
   }
 ]
