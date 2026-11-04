@@ -2240,7 +2240,7 @@
     "priceSymbol": "ANET",
     "title": "Arista Networks 深度研究报告 - AI 集群开放以太网 fabric 的系统软件卖铲人",
     "titleEn": "Arista Networks Deep Research Report - The Open Ethernet Fabric of AI Clusters",
-    "summary": "AI 集群网络层首次覆盖：Arista 是开放以太网/AI spine/scale-out 网络的系统软件卖铲人，正面回答 NVIDIA Spectrum-X/InfiniBand/NVLink 一体化 vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet 生态的路线之争。Q1 2026 营收 $2.709B(+35.1%)、GAAP/非GAAP营业利润率 42.7%/47.8%、非GAAP EPS $0.87、经营现金流 $1.69B；Q2 指引营收约 $2.8B。FY2025 Cloud and AI Titans/AI Specialty Providers 占收入 48%/20%，Core AI/Cloud/Data Center Networking 占 65%。但两大匿名终端客户合计约 42% 收入(26%/16%)、高度依赖 Broadcom merchant silicon，且 Jun 29 2026 市值约 $206.6B、约 58x TTM GAAP P/E、约 49x 当前非GAAP EPS运行率。neutral-watch / 中等确信：高质量，但大多已定价。",
+    "summary": "2026-11-04 — Q3 2026（季度截至 2026-09-30；8-K Ex 99.1，2026-11-03）收入 $3,657.6M（同比 +58.5%、环比 +20.5%），指引约 $3.3B；GAAP／非 GAAP 毛利率 63.6%／64.0%，GAAP／非 GAAP 营业利润率 44.9%／49.1%；GAAP／非 GAAP 摊薄 EPS $1.22／$1.20（GAAP 含战略投资收益 $134.5M，非 GAAP 已剔除）。递延收入合计 $6,839.5M（流动 $5,102.2M＋非流动 $1,737.3M，2025-12-31 为 $5,372.4M）；前九个月经营现金流 $3,977.4M。Q4 2026 指引：收入 $3.9–4.0B、非 GAAP 营业利润率 48–49%、非 GAAP 摊薄 EPS $1.26–1.30。 估值与立场仍按 2026-07-30 历史基础；Q3 实绩与新指引待 Mode B 重算，价格、估值数字、立场和确信度本包未更新。",
     "tags": [
       "AI网络",
       "以太网",
@@ -2249,7 +2249,7 @@
     ],
     "category": "tech",
     "date": "2026-06-30",
-    "lastUpdate": "2026-08-05",
+    "lastUpdate": "2026-11-04",
     "file": "/invest/research/reports/view.html?id=arista-2026",
     "markdownFiles": {
       "zh": "/invest/research/Arista_Networks_深度研究报告_2026-06.md",
@@ -2259,18 +2259,19 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "AI 集群网络层补位：ANET 不是光模块/光纤层，而是开放以太网交换系统、EOS、CloudVision、遥测与 AI fabric 控制点；可交叉校验 NVDA/AVGO/AAOI/GLW/VRT/CRWV",
-      "Q1 2026 营收 $2.709B(+35.1%)、非GAAP营业利润率 47.8%、非GAAP EPS $0.87、经营现金流 $1.69B；现金+可交易证券约 $12.35B、基本无债，Q2 指引收入约 $2.8B",
-      "路线之争：NVIDIA 一体化网络栈(Spectrum-X/InfiniBand/NVLink) vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet；ANET 更像 Broadcom 生态客户/伙伴，而非直接替代",
-      "neutral-watch / 中等确信：价格约 $171.02、约 21x EV/TTM 收入，市场已要求多年高 20% 至 30% 中段增长与优秀利润率，等待更好价格或更强开放以太网份额证据"
+      "Q3 2026（2026-11-03 发布）：收入 $3,657.6M（+58.5%），高于约 $3.3B 指引；非 GAAP 营业利润率 49.1%、毛利率 64.0%",
+      "GAAP 摊薄 EPS $1.22 高于非 GAAP $1.20，差异来自战略投资收益 $134.5M 等项",
+      "递延收入合计 $6,839.5M（2025-12-31 为 $5,372.4M）；Q4 指引收入 $3.9–4.0B、非 GAAP 营业利润率 48–49%",
+      "开放以太网份额腿：发行人稿列出开放机架架构发布，未给相对 NVIDIA Spectrum-X／InfiniBand 的 AI 后端份额；客户集中待 Q3 10-Q",
+      "估值仍按 2026-07-30 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。"
     ],
-    "summaryEn": "Initial coverage of the AI cluster networking layer: Arista is the open Ethernet / AI spine / scale-out systems-software pick-and-shovel, directly testing NVIDIA Spectrum-X/InfiniBand/NVLink integration vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet. Q1 2026 revenue was $2.709B (+35.1%), GAAP/non-GAAP operating margin 42.7%/47.8%, non-GAAP EPS $0.87, and operating cash flow $1.69B; Q2 guide is about $2.8B revenue. FY2025 Cloud and AI Titans / AI Specialty Providers were 48%/20% of revenue, and Core AI/Cloud/Data Center Networking was 65%. But two anonymous end customers were ~42% of revenue (26%/16%), Arista is highly reliant on Broadcom merchant silicon, and at the Jun 29 2026 market cap of ~$206.6B the stock trades around 58x TTM GAAP earnings and ~49x current non-GAAP EPS run-rate. Neutral-watch / medium conviction: high quality, but mostly priced in.",
+    "summaryEn": "2026-11-04 — Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1, 2026-11-03) revenue was $3,657.6M (+58.5% YoY, +20.5% QoQ) against guidance of about $3.3B; GAAP / non-GAAP gross margin 63.6% / 64.0%; GAAP / non-GAAP operating margin 44.9% / 49.1%; GAAP / non-GAAP diluted EPS $1.22 / $1.20 (GAAP includes $134.5M of strategic-investment gains, excluded from non-GAAP). Total deferred revenue was $6,839.5M (current $5,102.2M plus non-current $1,737.3M, versus $5,372.4M at 2025-12-31); nine-month operating cash flow was $3,977.4M. Q4 2026 guidance: revenue $3.9-4.0B, non-GAAP operating margin 48-49%, non-GAAP diluted EPS $1.26-1.30. Valuation and stance remain on the 2026-07-30 historical basis; Q3 actuals and the new guidance await Mode B recomputation, and price, valuation figures, stance and conviction are not updated in this package.",
     "chainLayer": "networking",
     "coverageTier": "full",
     "chainRole": "architecture-check",
     "stance": "neutral-watch",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q2 2026 monitoring / 2026-07-30 valuation frame",
+    "reportedPeriod": "Q3 2026 monitoring / 2026-07-30 valuation frame",
     "related": [
       "broadcom-2026",
       "aaoi-2026",
@@ -2311,12 +2312,13 @@
           "en": "NVIDIA Spectrum-X/InfiniBand/NVLink erodes open-Ethernet AI back-end share (or open Ethernet wins clearer share evidence)"
         },
         "latest": {
-          "zh": "2026-08-04 Q2 2026 业绩（季度截至 2026-06-30）：收入 $3.036B（同比 +37.7%），公司首次单季突破 $30 亿；GAAP 毛利率 62.9%、非 GAAP 63.4%；GAAP 营业利润率 45.4%、非 GAAP 49.9%；GAAP 每股收益 $0.95、非 GAAP $1.02。Q3 2026 指引收入约 $3.3B、非 GAAP 营业利润率 48–49%、非 GAAP 每股收益 $1.06–1.08。开放以太网营收与利润率延续强势；但本次发布未给出更新的 AI 后端相对 NVIDIA Spectrum-X/InfiniBand 的份额数据，份额层面的确认仍需 10-Q 与客户拆分。",
-          "en": "2026-08-04 Q2 2026 results (quarter ended 2026-06-30): revenue $3.036B (+37.7% YoY), the first quarter above $3B; GAAP gross margin 62.9% / non-GAAP 63.4%; GAAP operating margin 45.4% / non-GAAP 49.9%; GAAP EPS $0.95 / non-GAAP $1.02. Q3 2026 guided to revenue of about $3.3B, non-GAAP operating margin of 48-49%, and non-GAAP EPS of $1.06-1.08. Open-Ethernet revenue and margin strength continued; but this release did not provide updated AI-back-end share data versus NVIDIA Spectrum-X/InfiniBand, so share-level confirmation still requires the 10-Q and customer detail."
+          "zh": "2026-11-03 Q3 2026 业绩稿（季度截至 2026-09-30）：收入 $3,657.6M（同比 +58.5%），非 GAAP 营业利润率 49.1%；公司称与 AMD、Arm、Broadcom、d-Matrix、Meta、Microsoft、Qualcomm 合作推出基于开放标准的机架级架构（Etherlink SU-144，单机架最多 144 个加速器）。这是产品发布，不是份额数据：稿内没有相对 NVIDIA Spectrum-X／InfiniBand／NVLink 的 AI 后端份额，电话会未读。",
+          "en": "2026-11-03 Q3 2026 release (quarter ended 2026-09-30): revenue $3,657.6M (+58.5% YoY) and non-GAAP operating margin 49.1%; the company says it launched open standards-based rack-scale architectures in partnership with AMD, Arm, Broadcom, d-Matrix, Meta, Microsoft and Qualcomm (Etherlink SU-144, up to 144 accelerators per rack). This is a product launch, not share data: the release gives no AI back-end share against NVIDIA Spectrum-X / InfiniBand / NVLink, and the call was not read."
         },
         "nextCheck": "hyperscaler 网络架构公告与 Q3 兑现 / architecture announcements and Q3 delivery",
-        "reading": "within",
-        "readingAsOf": "2026-08-04"
+        "reading": "unclear",
+        "readingAsOf": "2026-11-03",
+        "readingNote": "收入与利润不能代替份额证据；trigger 的份额腿未被所读文件覆盖。 / Revenue and margin do not substitute for share evidence; the read documents do not cover the share leg of the trigger."
       },
       {
         "id": "broadcom-silicon-dependency",

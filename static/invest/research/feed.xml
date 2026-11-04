@@ -6,6 +6,13 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>Arista Networks 深度研究报告 - AI 集群开放以太网 fabric 的系统软件卖铲人 / Arista Networks Deep Research Report - The Open Ethernet Fabric of AI Clusters</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=arista-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=arista-2026#arista-2026@2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>2026-11-04 — Q3 2026（季度截至 2026-09-30；8-K Ex 99.1，2026-11-03）收入 $3,657.6M（同比 +58.5%、环比 +20.5%），指引约 $3.3B；GAAP／非 GAAP 毛利率 63.6%／64.0%，GAAP／非 GAAP 营业利润率 44.9%／49.1%；GAAP／非 GAAP 摊薄 EPS $1.22／$1.20（GAAP 含战略投资收益 $134.5M，非 GAAP 已剔除）。递延收入合计 $6,839.5M（流动 $5,102.2M＋非流动 $1,737.3M，2025-12-31 为 $5,372.4M）；前九个月经营现金流 $3,977.4M。Q4 2026 指引：收入 $3.9–4.0B、非 GAAP 营业利润率 48–49%、非 GAAP 摊薄 EPS $1.26–1.30。 估值与立场仍按 2026-07-30 历史基础；Q3 实绩与新指引待 Mode B 重算，价格、估值数字、立场和确信度本包未更新。</description>
+    </item>
+    <item>
       <title>Lumentum 深度研究报告 - 光源利润、架构迁移与增长定价 / Lumentum Deep Research Report - Laser Economics, Architecture Migration and Growth Pricing</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=lumentum-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=lumentum-2026#lumentum-2026@2026-11-03</guid>
@@ -424,13 +431,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=nrg-2026#nrg-2026@2026-08-05</guid>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
       <description>2026-07-07 v5更新：NRG仍是AI基础设施power层的merchant + retail dashboard，价格锚点$133.97（2026-07-02）、市值约$28.3B、EV约$52.2B，约15.1x 2026调整后EPS指引中点、约9.3x 2026调整后EBITDA指引中点。20%牛市/50%基准/30%熊市情景显示合同转化尚未证明而杠杆/回购纪律仍是约束，v5立场迁移为谨慎/中确信。</description>
-    </item>
-    <item>
-      <title>Arista Networks 深度研究报告 - AI 集群开放以太网 fabric 的系统软件卖铲人 / Arista Networks Deep Research Report - The Open Ethernet Fabric of AI Clusters</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=arista-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=arista-2026#arista-2026@2026-08-05</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
-      <description>AI 集群网络层首次覆盖：Arista 是开放以太网/AI spine/scale-out 网络的系统软件卖铲人，正面回答 NVIDIA Spectrum-X/InfiniBand/NVLink 一体化 vs Broadcom merchant silicon + Arista EOS/CloudVision/800G Ethernet 生态的路线之争。Q1 2026 营收 $2.709B(+35.1%)、GAAP/非GAAP营业利润率 42.7%/47.8%、非GAAP EPS $0.87、经营现金流 $1.69B；Q2 指引营收约 $2.8B。FY2025 Cloud and AI Titans/AI Specialty Providers 占收入 48%/20%，Core AI/Cloud/Data Center Networking 占 65%。但两大匿名终端客户合计约 42% 收入(26%/16%)、高度依赖 Broadcom merchant silicon，且 Jun 29 2026 市值约 $206.6B、约 58x TTM GAAP P/E、约 49x 当前非GAAP EPS运行率。neutral-watch / 中等确信：高质量，但大多已定价。</description>
     </item>
     <item>
       <title>AMD 深度研究报告 - AI时代的半导体挑战者 / AMD Deep Research Report - AI Era Semiconductor Challenger</title>
