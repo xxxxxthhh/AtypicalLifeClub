@@ -3697,5 +3697,28 @@
       "tempus-ai-2026:data-apps-mix",
       "tempus-ai-2026:personalis-closing-liquidity"
     ]
+  },
+  {
+    "id": "arista-q3-2026-results-20261103",
+    "date": "2026-11-03",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Arista Q3 2026 收入 $3,657.6M（+58.5%），Q4 指引 $3.9–4.0B；稿内无 AI 后端份额数据",
+      "en": "Arista Q3 2026 revenue of $3,657.6M (+58.5%), Q4 guidance $3.9-4.0B; no AI back-end share data in the release"
+    },
+    "detail": {
+      "zh": "来源：Arista 2026-11-03 8-K Ex 99.1（0001596532-26-000252）。Q3 2026（季度截至 2026-09-30；8-K Ex 99.1，2026-11-03）收入 $3,657.6M（同比 +58.5%、环比 +20.5%），指引约 $3.3B；GAAP／非 GAAP 毛利率 63.6%／64.0%，GAAP／非 GAAP 营业利润率 44.9%／49.1%；GAAP／非 GAAP 摊薄 EPS $1.22／$1.20（GAAP 含战略投资收益 $134.5M，非 GAAP 已剔除）。递延收入合计 $6,839.5M（流动 $5,102.2M＋非流动 $1,737.3M，2025-12-31 为 $5,372.4M）；前九个月经营现金流 $3,977.4M。Q4 2026 指引：收入 $3.9–4.0B、非 GAAP 营业利润率 48–49%、非 GAAP 摊薄 EPS $1.26–1.30。 证据边界：稿内没有相对 NVIDIA 的份额数据；本次所读业绩稿无客户集中度表，客户集中项未更新。",
+      "en": "Source: Arista 8-K Ex 99.1 of 2026-11-03 (0001596532-26-000252). Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1, 2026-11-03) revenue was $3,657.6M (+58.5% YoY, +20.5% QoQ) against guidance of about $3.3B; GAAP / non-GAAP gross margin 63.6% / 64.0%; GAAP / non-GAAP operating margin 44.9% / 49.1%; GAAP / non-GAAP diluted EPS $1.22 / $1.20 (GAAP includes $134.5M of strategic-investment gains, excluded from non-GAAP). Total deferred revenue was $6,839.5M (current $5,102.2M plus non-current $1,737.3M, versus $5,372.4M at 2025-12-31); nine-month operating cash flow was $3,977.4M. Q4 2026 guidance: revenue $3.9-4.0B, non-GAAP operating margin 48-49%, non-GAAP diluted EPS $1.26-1.30. Evidence limits: the release has no share data against NVIDIA; the earnings release has no customer concentration table."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "ANET"
+    ],
+    "reportIds": [
+      "arista-2026"
+    ],
+    "monitoringRefs": [
+      "arista-2026:open-ethernet-vs-integrated"
+    ]
   }
 ]
