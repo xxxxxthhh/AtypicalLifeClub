@@ -3769,5 +3769,29 @@
       "alab-2026:revenue-growth-and-scorpio-mix",
       "alab-2026:gross-margin-trajectory"
     ]
+  },
+  {
+    "id": "lumentum-q1-fy2027-10q-cash-20261103",
+    "date": "2026-11-03",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Lumentum Q1 FY2027 10-Q：经营现金流 $267.7M、资本开支 $229.8M、RSU 代扣税 $306.9M",
+      "en": "Lumentum Q1 FY2027 10-Q: operating cash flow $267.7M, capex $229.8M, RSU withholding taxes $306.9M"
+    },
+    "detail": {
+      "zh": "来源：Lumentum 2026-11-03 10-Q（0001628280-26-069615）现金流量表。Q1 FY2027 10-Q（0001628280-26-069615，2026-11-03）：经营现金流 $267.7M（上年同期 $57.9M），资本开支 $229.8M（上年同期 $76.2M），二者之差约 $37.9M（推算）；融资现金流中的 RSU 净额结算代扣税 $306.9M（上年同期 $47.4M）。 证据边界：差额为推算，不是公司口径；交易未完成。 11-03 10-Q 的 MD&A 披露，OCS 本季度贡献超过 $108M 收入。采购承诺、未来收入与 CPO 首批出货仍需分别验证。",
+      "en": "Source: cash-flow statement in the Lumentum 10-Q of 2026-11-03 (0001628280-26-069615). Q1 FY2027 10-Q (0001628280-26-069615, 2026-11-03): operating cash flow $267.7M (prior-year quarter $57.9M) and capital expenditure $229.8M (prior-year quarter $76.2M), a difference of about $37.9M (derived); RSU net share settlement withholding taxes in financing cash flow were $306.9M (prior-year quarter $47.4M). Evidence limits: the difference is derived, not a company measure; the merger has not closed. The November 3 Form 10-Q MD&A reports that OCS contributed over $108M of quarterly revenue. Purchase commitments, future revenue, and first CPO shipments require separate evidence."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "LITE"
+    ],
+    "reportIds": [
+      "lumentum-2026"
+    ],
+    "monitoringRefs": [
+      "lumentum-2026:margin-cash",
+      "lumentum-2026:architecture-ramp"
+    ]
   }
 ]

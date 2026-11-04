@@ -1,14 +1,20 @@
 # Lumentum (LITE) Deep Research Report — Laser Economics, Architecture Migration and Growth Pricing
 
 Coverage date: 2026-10-19
-Last updated: 2026-11-03
+Last updated: 2026-11-04
 Ticker: NASDAQ: LITE
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 Reporting period: FY2026, ended 2026-06-27, incorporating issuer updates available through 2026-10-19. Common price anchor: the completed U.S. regular-session close on 2026-10-16. Dollar amounts are USD millions (M) unless specified; B denotes billions. Actual results, company objectives and research assumptions are identified separately.
 
 ## Executive Summary <!-- report-module:overview -->
 
-> **2026-11-03 factual update**: Q1 FY2027 (quarter ended 2026-09-26; 8-K Ex 99.1, 2026-11-02) revenue was $1,262.6M (+25.5% QoQ, +136.5% YoY), with Components $754.2M (59.7%, +98.9% YoY) and Systems $508.4M (40.3%, +228.8% YoY); GAAP / non-GAAP gross margin 51.0% / 53.2% and GAAP / non-GAAP operating margin 28.5% / 42.3%. The Q2 FY2027 outlook is revenue of $1.575B-$1.625B and non-GAAP operating margin of 45.0%-46.0%. The company says it secured a second major NPO/CPO win backed by purchase commitments exceeding $5B and that OCS is positioned to become a multi-billion-dollar annual revenue stream; the documents read give no quarterly OCS actual, customer name or revenue timing.
+> **2026-11-04 factual update**: Q1 FY2027 10-Q (0001628280-26-069615, 2026-11-03): operating cash flow $267.7M (prior-year quarter $57.9M) and capital expenditure $229.8M (prior-year quarter $76.2M), a difference of about $37.9M (derived); RSU net share settlement withholding taxes in financing cash flow were $306.9M (prior-year quarter $47.4M). [Source document](https://www.stocktitan.net/sec-filings/LITE/10-q-lumentum-holdings-inc-quarterly-earnings-report-ce7098029772.html).
+> The November 3 Form 10-Q MD&A reports that OCS contributed over $108M of quarterly revenue. Purchase commitments, future revenue, and first CPO shipments require separate evidence. The segment note shows two end customers at 37% and 11% of quarterly net revenue (22% and 21% a year earlier). The 37% share crosses the published 35% single-customer threshold. Customer identities and the fully diluted denominator remain open.
+>
+> **2026-11-04 review of monitoring**: margin-cash unclear. Source: 10-Q 0001628280-26-069615. Valuation stays on the 2026-10-16 historical basis ($824.13); Mode B pending, and price, valuation figures, stance and conviction are not updated in this package.
+
+
+> **2026-11-03 factual update**: Q1 FY2027 (quarter ended 2026-09-26; 8-K Ex 99.1, 2026-11-02) revenue was $1,262.6M (+25.5% QoQ, +136.5% YoY), with Components $754.2M (59.7%, +98.9% YoY) and Systems $508.4M (40.3%, +228.8% YoY); GAAP / non-GAAP gross margin 51.0% / 53.2% and GAAP / non-GAAP operating margin 28.5% / 42.3%. The Q2 FY2027 outlook is revenue of $1.575B-$1.625B and non-GAAP operating margin of 45.0%-46.0%. The company says it secured a second major NPO/CPO win backed by purchase commitments exceeding $5B and that OCS is positioned to become a multi-billion-dollar annual revenue stream; the 8-K gave no quarterly OCS actual. The November 3 Form 10-Q MD&A reports that OCS contributed over $108M of quarterly revenue. Purchase commitments, future revenue, and first CPO shipments require separate evidence.
 >
 > **2026-11-03 merger fact**: Merger (8-K Item 1.01, 2026-11-02; agreement dated 2026-11-01): Marvell and Lumentum signed a definitive agreement for Marvell to acquire Lumentum in an all-stock transaction at a fixed 4.500 Marvell shares per Lumentum share. The companies expect closing in the first half of calendar 2028, subject to both stockholder votes, HSR and other regulatory approvals, S-4 effectiveness and other conditions; the outside date is 2027-11-01, extendable to 2028-08-01 in certain circumstances where required regulatory approvals are outstanding. The transaction has not closed.
 >
@@ -85,7 +91,7 @@ COHR and LITE report fiscal Q4 ending in June; AAOI reports calendar Q2. Differe
 
 | Architecture reading | Verified actual or company objective | What it does and does not establish |
 |---|---|---|
-| OCS | FY2026 revenue >$90M; October 6 shareholder letter describes rapidly scaling beyond a $100M quarterly revenue run rate | Expansion is real; a run rate is not reported Q1 actual revenue |
+| OCS | FY2026 revenue >$90M; October 6 shareholder letter describes rapidly scaling beyond a $100M quarterly revenue run rate | Expansion is real; the November 3 10-Q separately reports Q1 actual OCS revenue over $108M |
 | Near-term OCS objectives | March OFC materials: $400M+ backlog for delivery in 2H 2026; >$1B 2027 run rate | Company objectives requiring verification against November and subsequent-quarter revenue and customer breadth |
 | CPO/UHP | OFC: existing capacity supports several hundred million dollars in 2027 revenue; first scale-up shipments expected in late 2027 | Opportunity beyond pluggables; not proof of production shipments or protected legacy module share |
 | Greensboro | Disclosed annual revenue capacity of $5B, with ramp expected in early 2028 | Theoretical capacity, not orders, yield or utilization; cannot simply be added to revenue forecasts |
@@ -176,7 +182,7 @@ The bear case still permits $7.5B of revenue rather than a collapse. A 33% FY202
 
 | Uncertainty | Known and unknown | Verification / invalidation |
 |---|---|---|
-| OCS run rate versus actual quarter | FY2026 >$90M; October >$100M quarterly run rate, with no reported Q1 actual yet | Q1/Q2 results; withdrawing $400M second-half delivery or >$1B run-rate objectives weakens upside |
+| OCS run rate versus actual quarter | FY2026 >$90M; October >$100M quarterly run rate, the November 3 10-Q reports Q1 OCS revenue over $108M | Q1/Q2 results; withdrawing $400M second-half delivery or >$1B run-rate objectives weakens upside |
 | 2027–2028 CPO shipments | OFC anticipates initial scale-up shipments in late 2027; a demonstration is not production | Delay beyond 2028 requires lower FY2028/FY2029 revenue |
 | Component-profit durability | Latest non-GAAP gross margin 50.4%; EML/CW/module profits not disaggregated | Two quarters below 47% alongside component price cuts indicate profit migration |
 | Cash and net dilution | $300.1M FCF, $281M RSU withholding; working shares 102M | Q1 10-Q; substantially above 104M diluted shares or meaningful net-cash deterioration requires a valuation rebuild |
