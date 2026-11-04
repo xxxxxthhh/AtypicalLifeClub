@@ -1,12 +1,17 @@
 # Lumentum (LITE) Deep Research Report — Laser Economics, Architecture Migration and Growth Pricing
 
 Coverage date: 2026-10-19
-Last updated: 2026-11-03
+Last updated: 2026-11-04
 Ticker: NASDAQ: LITE
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 Reporting period: FY2026, ended 2026-06-27, incorporating issuer updates available through 2026-10-19. Common price anchor: the completed U.S. regular-session close on 2026-10-16. Dollar amounts are USD millions (M) unless specified; B denotes billions. Actual results, company objectives and research assumptions are identified separately.
 
 ## Executive Summary <!-- report-module:overview -->
+
+> **2026-11-04 factual update**: Q1 FY2027 10-Q (0001628280-26-069615, 2026-11-03): operating cash flow $267.7M (prior-year quarter $57.9M) and capital expenditure $229.8M (prior-year quarter $76.2M), a difference of about $37.9M (derived); withholding taxes on net share settlement of RSUs were $306.9M (prior-year quarter $47.4M).
+>
+> **2026-11-04 review of monitoring**: margin-cash unclear. Source: 10-Q 0001628280-26-069615. Valuation stays on the 2026-10-16 historical basis ($824.13); Mode B pending, and price, valuation figures, stance and conviction are not updated in this package.
+
 
 > **2026-11-03 factual update**: Q1 FY2027 (quarter ended 2026-09-26; 8-K Ex 99.1, 2026-11-02) revenue was $1,262.6M (+25.5% QoQ, +136.5% YoY), with Components $754.2M (59.7%, +98.9% YoY) and Systems $508.4M (40.3%, +228.8% YoY); GAAP / non-GAAP gross margin 51.0% / 53.2% and GAAP / non-GAAP operating margin 28.5% / 42.3%. The Q2 FY2027 outlook is revenue of $1.575B-$1.625B and non-GAAP operating margin of 45.0%-46.0%. The company says it secured a second major NPO/CPO win backed by purchase commitments exceeding $5B and that OCS is positioned to become a multi-billion-dollar annual revenue stream; the documents read give no quarterly OCS actual, customer name or revenue timing.
 >
