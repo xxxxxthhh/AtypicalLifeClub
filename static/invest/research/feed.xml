@@ -6,6 +6,13 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>Astera Labs 深度研究报告 - 机架级 fan-out 是否构成独立瓶颈的架构校验 / Astera Labs Deep Research Report - Architecture Check on Whether Rack-Scale Fan-Out Is a Distinct Bottleneck</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=alab-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=alab-2026#alab-2026@2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>2026-11-04 — Q3 2026（季度截至 2026-09-30；8-K Ex 99.1，2026-11-03）收入 $584.9M（环比 +49%、同比 +154%），指引 $540–560M；公司称 Scorpio 成为收入最大的产品家族；GAAP／非 GAAP 毛利率 72.3%／72.4%，GAAP／非 GAAP 营业利润率 30.6%／44.7%，GAAP／非 GAAP 摊薄 EPS $0.99／$1.32。Q4 2026 指引：收入 $730–750M、毛利率约 72%（GAAP 与非 GAAP）、非 GAAP 摊薄 EPS $1.62–1.66。 估值与立场仍按 2026-10-09 历史基础；Q3 实绩与新指引待 Mode B 重算，客户表与权证项未更新，价格、估值数字、立场和确信度本包未更新。</description>
+    </item>
+    <item>
       <title>Arista Networks 深度研究报告 - AI 集群开放以太网 fabric 的系统软件卖铲人 / Arista Networks Deep Research Report - The Open Ethernet Fabric of AI Clusters</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=arista-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=arista-2026#arista-2026@2026-11-04</guid>
@@ -256,13 +263,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=cerebras-2026#cerebras-2026@2026-10-19</guid>
       <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
       <description>2026-10-19 首次完整覆盖：以 2026-10-16 常规收盘 $127.21、2026-08-05 已发行 237.564041M 股为锚，市值 $30.221B；6/30 不受限现金投资 $7.922B 扣 OpenAI 贷款 $0.918B 后 EV $23.217B，34.11x EV/TTM GAAP 收入、26.23x EV/FY2026 core 收入指引中点。谨慎／低确信：20/50/30 情景加权 2029 年每股终值 $126.43、年化 -0.20%，低于 8% 参照及 10% 门槛；保持现价需 FY2030E core 收入 $7.89B，10% 回报需 $10.80B。RPO $25.4B 相当大部分归属 OpenAI，Q2 MBZUAI／G42／OpenAI 合计约 75% 收入；TTM FCF -$680.2M，完全稀释代理约 313.6M 股。</description>
-    </item>
-    <item>
-      <title>Astera Labs 深度研究报告 - 机架级 fan-out 是否构成独立瓶颈的架构校验 / Astera Labs Deep Research Report - Architecture Check on Whether Rack-Scale Fan-Out Is a Distinct Bottleneck</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=alab-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=alab-2026#alab-2026@2026-10-11</guid>
-      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
-      <description>2026-10-11 独立复核：下调至回避 / 中确信。Q2 10-Q 的客户表由 Q1 五家超过 10% 变为四家（29%/25%/15%/13%，合计 82%），命中表格观察条件，但不证明终端客户流失；最大客户仍为 29%，未触发 35% 阈值。权证冲减 $10.2M / 收入 $392.4M = 2.60%，命中现有单季约 2% 降级条件。以 $342.21（2026-10-09 收盘）、最新披露 173,485,104 股及 Q2 净现金 $1.253B 计，EV 约 $58.12B、48.4x 追溯收入、31.6x 本报告自估的 CY2026 收入中点。增长强劲，但客户经济让利与情景负偏度支持降级；interconnect 架构校验角色不变。</description>
     </item>
     <item>
       <title>AppLovin 深度研究报告 - 增长不再自我复利之后，价格已经打了多少折 / AppLovin Deep Research Report - How Much the Price Already Discounts Once Growth Stops Compounding on Its Own</title>

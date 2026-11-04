@@ -1,7 +1,7 @@
 # Astera Labs (ALAB) Deep Research Report
 
 Coverage date: 2026-07-31
-Last updated: 2026-10-11
+Last updated: 2026-11-04
 Ticker: NASDAQ: ALAB
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -9,7 +9,14 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 ## Executive Summary
 
-**2026-10-11 independent review — current view: bearish-avoid, medium conviction.** The prior cautious judgment is superseded. The price anchor is **$342.21, the 2026-10-09 regular-session close**, independently refreshed from [Yahoo market data](https://query1.finance.yahoo.com/v8/finance/chart/ALAB?range=1y&interval=1d); October 11 is a weekend, not another trading observation. The current facts are the filed Q2 2026 statements, not merely the preliminary August 4 release. The chain role remains architecture-check; reviewed sources do not establish a separate supply bottleneck.
+> **2026-11-04 factual update**: Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1, 2026-11-03) revenue was $584.9M (+49% QoQ, +154% YoY) against guidance of $540-560M; the company says Scorpio became its largest product family by revenue; GAAP / non-GAAP gross margin 72.3% / 72.4%, GAAP / non-GAAP operating margin 30.6% / 44.7%, GAAP / non-GAAP diluted EPS $0.99 / $1.32. Q4 2026 guidance: revenue $730-750M, gross margin about 72% (GAAP and non-GAAP), non-GAAP diluted EPS $1.62-1.66.
+>
+> **2026-11-04 review of monitoring**: revenue-growth-and-scorpio-mix within; gross-margin-trajectory unclear; customer-concentration and customer-warrant-contra-revenue not updated. Source: 8-K 0001736297-26-000044 Ex 99.1. The Q3 10-Q is not yet filed and the earnings call was not read.
+>
+> **Valuation boundary (2026-11-04, Mode A):** Valuation and stance remain on the 2026-10-09 historical basis ($342.21); Q3 actuals and the new guidance await Mode B recomputation, the customer table and warrant items are not updated, and price, valuation figures, stance and conviction are not updated in this package.
+
+
+Historical valuation basis: **2026-10-11 independent review — current view: bearish-avoid, medium conviction.** The prior cautious judgment is superseded. The price anchor is **$342.21, the 2026-10-09 regular-session close**, independently refreshed from [Yahoo market data](https://query1.finance.yahoo.com/v8/finance/chart/ALAB?range=1y&interval=1d); October 11 is a weekend, not another trading observation. The current facts are the filed Q2 2026 statements, not merely the preliminary August 4 release. The chain role remains architecture-check; reviewed sources do not establish a separate supply bottleneck.
 
 Two monitoring conditions require different interpretations. Q1 had five direct customers above 10%, Q2 four: the count observation fires, but anonymous letters do not reliably identify an end customer across filings and manufacturing partners can shift production. The largest direct-customer share remains 29%, below the separate ~35% adverse threshold. Q2 warrant contra-revenue was $10.2M / $392.4M = **2.60%**, versus the existing ~2% quarterly downgrade condition. Even with pre-reduction revenue ($402.6M) the ratio is 2.53%. That is an observed economic give-back, not evidence of a new cash payment or exercised dilution. The Q2 10-Q reports 1,663,042 vested/exercisable shares, another 24,722 probable of vesting, and no exercise by the Holder through June 30. The charge covers the warrants collectively; neither the anonymous largest customer nor one particular tranche can be assigned the full charge. [Q2 10-Q](https://www.sec.gov/Archives/edgar/data/1736297/000173629726000035/alab-20260630.htm); [Q1 comparator](https://www.sec.gov/Archives/edgar/data/1736297/000173629726000020/alab-20260331.htm).
 
@@ -17,14 +24,14 @@ The filed Q2 growth of 104.5%, issuer non-GAAP gross margin of 73.7%, and Q3 $54
 
 | Current metric | 2026-10-11 review |
 |---|---|
-| Completed-session price | $342.21, 2026-10-09, USD |
+| Historical valuation basis: Completed-session price | $342.21, 2026-10-09, USD |
 | Equity-value share proxy | 173,485,104 shares disclosed as of 2026-07-31; $59.37B implied market cap |
 | Cash / securities / financial debt | $111.453M / $1,141.505M / no interest-bearing financial debt disclosed at 2026-06-30; leases are not included as financial debt |
-| Net cash / EV | $1.253B / $58.12B; using dated balance-sheet and share proxies, not an asserted October share count |
+| Historical valuation basis: Net cash / EV | $1.253B / $58.12B; using dated balance-sheet and share proxies, not an asserted October share count |
 | Q2 revenue / growth | $392.400M, +104.5% YoY, +27.3% QoQ |
 | TTM revenue / GAAP operating income / net income | $1,201.919M / $273.445M / $369.494M, ended 2026-06-30 |
 | TTM OCF / capex / FCF | $335.712M / $59.036M / $276.676M |
-| Valuation | 48.4x EV/TTM revenue; 31.6x own CY2026E midpoint; 160.7x GAAP P/E; 210.0x EV/TTM FCF; 0.47% FCF yield |
+| Historical valuation basis: Valuation | 48.4x EV/TTM revenue; 31.6x own CY2026E midpoint; 160.7x GAAP P/E; 210.0x EV/TTM FCF; 0.47% FCF yield |
 | Direct customers / warrant observation | Four above 10%, 82% combined, largest 29%; warrant contra-revenue 2.60% |
 | Next actual financial checkpoint | Q3 release November 3, 2026 after market close, issuer-confirmed |
 
@@ -296,18 +303,18 @@ Thesis-breaking conditions:
 
 ## 9. Valuation Context
 
-**2026-10-11 current valuation; supersedes the historical July grid below.** Market cap = $342.21 × 173,485,104 = $59.368B; EV = $59.368B - ($111.453M + $1,141.505M) = $58.115B. The share count is the latest disclosed cover count dated July 31, not a verified October count. As a dilution sensitivity, using the issuer's Q3 guide of 185M weighted-average diluted shares instead gives ~$63.31B equity value and ~$62.06B EV; weighted-average diluted shares are not shares outstanding. The base proxy may understate fully diluted value.
+Historical valuation basis: **2026-10-11 current valuation; supersedes the historical July grid below.** Market cap = $342.21 × 173,485,104 = $59.368B; EV = $59.368B - ($111.453M + $1,141.505M) = $58.115B. The share count is the latest disclosed cover count dated July 31, not a verified October count. As a dilution sensitivity, using the issuer's Q3 guide of 185M weighted-average diluted shares instead gives ~$63.31B equity value and ~$62.06B EV; weighted-average diluted shares are not shares outstanding. The base proxy may understate fully diluted value.
 
 | Current method | Recomputed value | Input boundary |
 |---|---|---|
 | P / TTM revenue | $59.368B / $1.201919B = 49.4x | Filed trailing revenue |
-| EV / TTM revenue | $58.115B / $1.201919B = **48.4x** | Same market and balance-sheet proxy |
-| GAAP P/E | $59.368B / $0.369494B = 160.7x | Tax-benefit-flattered net income |
-| EV / TTM FCF | $58.115B / $0.276676B = 210.0x | OCF less property/equipment capex |
+| Historical valuation basis: EV / TTM revenue | $58.115B / $1.201919B = **48.4x** | Same market and balance-sheet proxy |
+| Historical valuation basis: GAAP P/E | $59.368B / $0.369494B = 160.7x | Tax-benefit-flattered net income |
+| Historical valuation basis: EV / TTM FCF | $58.115B / $0.276676B = 210.0x | OCF less property/equipment capex |
 | FCF yield | $0.276676B / $59.368B = 0.47% | Historical cash generation, not guidance |
 | CY2026E revenue | $0.700761B H1 + $0.540-0.560B Q3 guide + $0.560-0.620B own Q4 assumption = $1.801-1.881B | Q4 range is this report's assumption; no issuer annual guide |
-| EV / CY2026E | 30.9-32.3x, **31.6x** at midpoint | Own estimate, not a reported multiple |
-| Reverse test | $58.115B × 1.08³ / 12 = ~$6.10B horizon revenue | ~49.1% three-year CAGR from CY2026E midpoint; 12x terminal sales and 8% required return are assumptions |
+| Historical valuation basis: EV / CY2026E | 30.9-32.3x, **31.6x** at midpoint | Own estimate, not a reported multiple |
+| Historical valuation basis: Reverse test | $58.115B × 1.08³ / 12 = ~$6.10B horizon revenue | ~49.1% three-year CAGR from CY2026E midpoint; 12x terminal sales and 8% required return are assumptions |
 
 **Current subjective scenario test:** a three-year discount convention for a 2029 revenue horizon; enterprise-value scenarios, no single-point share-price target. Revenue, margin and terminal multiples are assumptions, not issuer forecasts. The 20/50/30 weights remain explicit judgment inputs, not measured probabilities.
 
@@ -317,7 +324,7 @@ Thesis-breaking conditions:
 | Base | $3.5-4.3B, 70-74%; strong ramp then deceleration, continued warrant/mix drag, shared switch socket | 10-12x | $35-51.6B | 50% |
 | Bear | $2.4-3.0B, <70%; sharper growth normalization, platform absorption or stronger customer bargaining | 6-8x | $14.4-24B | 30% |
 
-Using each revenue and multiple midpoint gives 20% × $103.125B + 50% × $42.90B + 30% × $18.90B = **$47.745B** terminal EV; at 8% for three years, present EV is **$37.902B**, about **34.8% below** the $58.115B anchor. This is a sensitivity-based negative skew, not a valuation fact or target. The shortfall exists despite the strongest current operating counterevidence: Q2 +104.5% growth and a Q3 guide implying +138.5% YoY at midpoint. No refreshed peer table or full DCF has been produced; all July peer rankings, five-year reverse tests and old price scenarios below are stale and not current conclusions.
+Historical valuation basis: Using each revenue and multiple midpoint gives 20% × $103.125B + 50% × $42.90B + 30% × $18.90B = **$47.745B** terminal EV; at 8% for three years, present EV is **$37.902B**, about **34.8% below** the $58.115B anchor. This is a sensitivity-based negative skew, not a valuation fact or target. The shortfall exists despite the strongest current operating counterevidence: Q2 +104.5% growth and a Q3 guide implying +138.5% YoY at midpoint. No refreshed peer table or full DCF has been produced; all July peer rankings, five-year reverse tests and old price scenarios below are stale and not current conclusions.
 
 **Historical initiation evidence (2026-07-31); current changes above supersede it.**
 
@@ -373,7 +380,7 @@ The structured monitoring fields track seven readouts: revenue growth and Scorpi
 
 ## 11. Conclusion
 
-**2026-10-11 judgment change:** ~~Cautious, medium conviction.~~ **Bearish-avoid, medium conviction**, at the independently refreshed $342.21 October 9 close. The customer-table count alert and the investment downgrade are distinct: the former calls for investigation and does not prove end-customer loss; the warrant charge does fire the existing ~2% quarterly economic condition. The new 20/50/30 grid also yields negative expected skew at $58.12B EV. This conclusion does not require asserting that growth has collapsed, that a customer has left, that warrants were exercised, or that a product roadmap already generated revenue. Q2 growth and Q3 guidance are important bull counterevidence; medium conviction reflects that strength and the uncertainty around the 2027 socket rather than uncertainty about the 2.60% arithmetic.
+Historical valuation basis: **2026-10-11 judgment change:** ~~Cautious, medium conviction.~~ **Bearish-avoid, medium conviction**, at the independently refreshed $342.21 October 9 close. The customer-table count alert and the investment downgrade are distinct: the former calls for investigation and does not prove end-customer loss; the warrant charge does fire the existing ~2% quarterly economic condition. The new 20/50/30 grid also yields negative expected skew at $58.12B EV. This conclusion does not require asserting that growth has collapsed, that a customer has left, that warrants were exercised, or that a product roadmap already generated revenue. Q2 growth and Q3 guidance are important bull counterevidence; medium conviction reflects that strength and the uncertainty around the 2027 socket rather than uncertainty about the 2.60% arithmetic.
 
 Return to cautious requires contra-revenue below ~2%, non-GAAP gross margin at or above ~70%, and observed Scorpio mix/growth evidence. Neutral-watch requires the additional 2027 conversion, <~25% largest-customer share, >~75% margins, <~20x forward EV/revenue and a fresh scenario review. Further growth below ~40%, sustained margins below ~70%, >~35% largest-customer concentration or confirmed platform absorption would reinforce the avoid view. November 3 results are the next financial checkpoint; no review date is backdated to August. The original cautious call is closed in the ledger at this review, with the new call pending until a post-review session exists.
 

@@ -3745,5 +3745,29 @@
       "amd-2026:datacenter-growth",
       "amd-2026:rocm-helios-competitiveness"
     ]
+  },
+  {
+    "id": "astera-q3-2026-results-20261103",
+    "date": "2026-11-03",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Astera Labs Q3 2026 收入 $584.9M（+154%），Scorpio 成为最大产品家族，Q4 指引 $730–750M",
+      "en": "Astera Labs Q3 2026 revenue of $584.9M (+154%), Scorpio becomes the largest product family, Q4 guidance $730-750M"
+    },
+    "detail": {
+      "zh": "来源：Astera Labs 2026-11-03 8-K Ex 99.1（0001736297-26-000044）。Q3 2026（季度截至 2026-09-30；8-K Ex 99.1，2026-11-03）收入 $584.9M（环比 +49%、同比 +154%），指引 $540–560M；公司称 Scorpio 成为收入最大的产品家族；GAAP／非 GAAP 毛利率 72.3%／72.4%，GAAP／非 GAAP 营业利润率 30.6%／44.7%，GAAP／非 GAAP 摊薄 EPS $0.99／$1.32。Q4 2026 指引：收入 $730–750M、毛利率约 72%（GAAP 与非 GAAP）、非 GAAP 摊薄 EPS $1.62–1.66。 证据边界：Scorpio 为发行人陈述，无产品线金额；Q3 10-Q 尚未提交，客户表未更新；电话会未读。",
+      "en": "Source: Astera Labs 8-K Ex 99.1 of 2026-11-03 (0001736297-26-000044). Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1, 2026-11-03) revenue was $584.9M (+49% QoQ, +154% YoY) against guidance of $540-560M; the company says Scorpio became its largest product family by revenue; GAAP / non-GAAP gross margin 72.3% / 72.4%, GAAP / non-GAAP operating margin 30.6% / 44.7%, GAAP / non-GAAP diluted EPS $0.99 / $1.32. Q4 2026 guidance: revenue $730-750M, gross margin about 72% (GAAP and non-GAAP), non-GAAP diluted EPS $1.62-1.66. Evidence limits: Scorpio is an issuer statement without product-line amounts; the Q3 10-Q is not yet filed, so the customer table is not updated; the earnings call was not read."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "ALAB"
+    ],
+    "reportIds": [
+      "alab-2026"
+    ],
+    "monitoringRefs": [
+      "alab-2026:revenue-growth-and-scorpio-mix",
+      "alab-2026:gross-margin-trajectory"
+    ]
   }
 ]
