@@ -1,13 +1,18 @@
 # Palantir Technologies (PLTR) Deep Research Report
 
 Coverage date: 2026-08-04
-Last updated: 2026-11-03
+Last updated: 2026-11-04
 Ticker: NASDAQ: PLTR
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
 ## Executive Summary
+
+> **2026-11-04 factual update**: Q3 2026 10-Q (0001321655-26-000048, filing date 2026-11-03): the company says it maintained a full valuation allowance on its U.S. and U.K. deferred tax assets as of 2026-09-30, and that there is a reasonable possibility of releasing all or a portion in the future; international (rest of world) revenue was $376.2M (+26.0% YoY), 16% of total revenue (25% a year earlier). [Source document](https://financialfilings.com/filings/palantir-technologies-inc/interim-quarterly-report/2026/75421551/).
+>
+> **2026-11-04 review of monitoring**: valuation-allowance-tax-transition within; international-inflection unclear. Valuation stays on the 2026-08-03 historical basis; Mode B pending, and price, valuation figures, stance and conviction are not updated in this package.
+
 
 > **2026-11-03 factual update**: Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1, released after the 2026-11-02 close) revenue was $2,313.4M (+96% YoY, +20% QoQ); US commercial $984M (+148% YoY, +29% QoQ) exceeded US government $953M (+96% YoY, +18% QoQ) for the first time; US commercial TCV was $1.463B (+11% YoY) and total TCV $2.918B (+6% YoY); US commercial RDV was $6.517B (+79% YoY, +4% QoQ). GAAP / adjusted operating margin was 47% / 62% and adjusted free cash flow $1.216B (53% margin). FY2026 guidance was raised to revenue of $8.530-8.534B, US commercial above $3.559B (at least +143%), adjusted operating income of $5.245-5.249B and adjusted free cash flow of $4.8-5.0B; the Q4 revenue guide is $2.649-2.653B.
 >
