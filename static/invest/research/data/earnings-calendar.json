@@ -396,13 +396,13 @@
     {
       "reportId": "neov-2026",
       "company": "NeoVolta",
-      "expectedDate": "2026-09-23",
+      "expectedDate": "2026-11-12",
       "precision": "day",
-      "status": "stale",
+      "status": "issuer-confirmed",
       "session": "after-close",
-      "sourceUrl": "https://neovolta.com/blog/neovolta-q4-fy26-earnings-call-timing",
+      "sourceUrl": "https://neovolta.com/blog/neovolta-announces-timing-of-first-quarter-fiscal-year-2027-earnings-release-and",
       "sourceType": "issuer-ir",
-      "verifiedAt": "2026-09-09"
+      "verifiedAt": "2026-11-03"
     },
     {
       "reportId": "amd-2026",
