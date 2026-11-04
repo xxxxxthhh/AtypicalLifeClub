@@ -3720,5 +3720,30 @@
     "monitoringRefs": [
       "arista-2026:open-ethernet-vs-integrated"
     ]
+  },
+  {
+    "id": "amd-q3-2026-results-20261103",
+    "date": "2026-11-03",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "AMD Q3 2026 收入 $13,377M、Data Center $8,546M（+97%），Q4 指引约 $17B；首个 1GW 无出货数字",
+      "en": "AMD Q3 2026 revenue of $13,377M, Data Center $8,546M (+97%), Q4 guidance about $17B; no shipment figure for the first 1GW"
+    },
+    "detail": {
+      "zh": "来源：AMD 2026-11-03 8-K Ex 99.1 与 Ex 99.2（0000002488-26-000188）。Q3 2026（季度截至 2026-09-26；8-K Ex 99.1 与演示稿，2026-11-03）收入 $13,377M（同比 +45%、环比 +16%），公司称超过指引上沿；Data Center 收入 $8,546M（同比 +97%、环比 +27%），分部营业利润 $2,882M；GAAP／非 GAAP 毛利率 54%／56%，GAAP／非 GAAP 摊薄 EPS $1.46／$2.09。Q4 2026 指引：收入约 $17B（±3%）、非 GAAP 毛利率约 55%。 公司称 Anthropic、Meta、Microsoft、OpenAI、Oracle Cloud Infrastructure 已在首批 Helios 机架上运行模型和负载，MI450 系列已上市并计入 Data Center 增长驱动；稿内没有已出货吉瓦数或 Meta 首个 1GW 的完成情况。ROCm 10 已发布。公司另称已宣布收购 World Labs 与 Taalas 的协议，稿内未给对价。 证据边界：Q3 10-Q 尚未提交；电话会未读。",
+      "en": "Sources: AMD 8-K Ex 99.1 and Ex 99.2 of 2026-11-03 (0000002488-26-000188). Q3 2026 (quarter ended 2026-09-26; 8-K Ex 99.1 and slides, 2026-11-03) revenue was $13,377M (+45% YoY, +16% QoQ), which the company says exceeded the high end of guidance; Data Center revenue was $8,546M (+97% YoY, +27% QoQ) with segment operating income of $2,882M; GAAP / non-GAAP gross margin 54% / 56%; GAAP / non-GAAP diluted EPS $1.46 / $2.09. Q4 2026 guidance: revenue of about $17B (plus or minus 3%) and non-GAAP gross margin of about 55%. The company says Anthropic, Meta, Microsoft, OpenAI and Oracle Cloud Infrastructure are running models and workloads on the first Helios racks, and lists the MI450 Series launch among Data Center growth drivers; the release gives no shipped gigawatts and no completion status for the first Meta 1GW. ROCm 10 was released. The company also says it announced agreements to acquire World Labs and Taalas; the release states no consideration. Evidence limits: the Q3 10-Q is not yet filed; the earnings call was not read."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "AMD"
+    ],
+    "reportIds": [
+      "amd-2026"
+    ],
+    "monitoringRefs": [
+      "amd-2026:meta-6gw-ramp",
+      "amd-2026:datacenter-growth",
+      "amd-2026:rocm-helios-competitiveness"
+    ]
   }
 ]

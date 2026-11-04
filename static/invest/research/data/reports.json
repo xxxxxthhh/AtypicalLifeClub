@@ -6650,8 +6650,8 @@
     },
     "title": "AMD 深度研究报告 - AI时代的半导体挑战者",
     "titleEn": "AMD Deep Research Report - AI Era Semiconductor Challenger",
-    "summary": "v5 回填：AMD Q1 2026 营收 $10.253B、Data Center 约 $5.8B，Meta 6GW、Helios/MI450、EPYC 与 ROCm 让 AI infrastructure 第二平台叙事更强。以 2026-07-30 收盘 $485.39、约 $7,920 亿 EV 和约 21.2x EV/TTM Sales 计，市场依然提前定价 Meta/Helios、MI450、ROCm 改善、Data Center 增长和利润率扩张；按 Q1 Non-GAAP EPS 年化仍约 89x、FCF 收益率约 1.3%。20% 牛市 / 40% 基准 / 40% 熊市情景仍给出负偏斜，维持谨慎 / 中确信。",
-    "summaryEn": "July 7, 2026 v5 update: AMD Q1 2026 revenue was $10.253B and Data Center was about $5.8B, while Meta 6GW, Helios/MI450, EPYC, and ROCm strengthen the second-platform AI infrastructure story. At the $485.39 close on 2026-07-30, about $792B EV, and roughly 21.2x EV/TTM Sales, the market still prices Meta/Helios, MI450, ROCm improvement, Data Center growth, and margin expansion; annualized Q1 non-GAAP EPS is still about 89x with a roughly 1.3% FCF yield. A 20% bull / 40% base / 40% bear grid still gives negative skew, so the stance stays cautious / medium conviction.",
+    "summary": "2026-11-04 — Q3 2026（季度截至 2026-09-26；8-K Ex 99.1 与演示稿，2026-11-03）收入 $13,377M（同比 +45%、环比 +16%），公司称超过指引上沿；Data Center 收入 $8,546M（同比 +97%、环比 +27%），分部营业利润 $2,882M；GAAP／非 GAAP 毛利率 54%／56%，GAAP／非 GAAP 摊薄 EPS $1.46／$2.09。Q4 2026 指引：收入约 $17B（±3%）、非 GAAP 毛利率约 55%。 公司称 Anthropic、Meta、Microsoft、OpenAI、Oracle Cloud Infrastructure 已在首批 Helios 机架上运行模型和负载，MI450 系列已上市并计入 Data Center 增长驱动；稿内没有已出货吉瓦数或 Meta 首个 1GW 的完成情况。ROCm 10 已发布。公司另称已宣布收购 World Labs 与 Taalas 的协议，稿内未给对价。 估值与立场仍按 2026-07-30 历史基础；Q3 实绩与新指引待 Mode B 重算，价格、估值数字、立场和确信度本包未更新。",
+    "summaryEn": "2026-11-04 — Q3 2026 (quarter ended 2026-09-26; 8-K Ex 99.1 and slides, 2026-11-03) revenue was $13,377M (+45% YoY, +16% QoQ), which the company says exceeded the high end of guidance; Data Center revenue was $8,546M (+97% YoY, +27% QoQ) with segment operating income of $2,882M; GAAP / non-GAAP gross margin 54% / 56%; GAAP / non-GAAP diluted EPS $1.46 / $2.09. Q4 2026 guidance: revenue of about $17B (plus or minus 3%) and non-GAAP gross margin of about 55%. The company says Anthropic, Meta, Microsoft, OpenAI and Oracle Cloud Infrastructure are running models and workloads on the first Helios racks, and lists the MI450 Series launch among Data Center growth drivers; the release gives no shipped gigawatts and no completion status for the first Meta 1GW. ROCm 10 was released. The company also says it announced agreements to acquire World Labs and Taalas; the release states no consideration. Valuation and stance remain on the 2026-07-30 historical basis; Q3 actuals and the new guidance await Mode B recomputation, and price, valuation figures, stance and conviction are not updated in this package.",
     "tags": [
       "半导体",
       "AI加速器",
@@ -6660,7 +6660,7 @@
     ],
     "category": "tech",
     "date": "2026-02-04",
-    "lastUpdate": "2026-08-05",
+    "lastUpdate": "2026-11-04",
     "file": "/invest/research/reports/view.html?id=amd-2026",
     "markdownFiles": {
       "zh": "/invest/research/AMD_深度研究报告_2026-02.md",
@@ -6668,17 +6668,18 @@
     },
     "moduleContract": "heading-comment-v1",
     "highlights": [
-      "完整重跑后结论为谨慎/观察：基本面增强，但估值容错依然极低",
-      "Q1 2026营收$102.53亿（+38% YoY），Data Center约$58亿（+57% YoY）",
-      "Meta多年6GW Instinct GPU合作，首个1GW预计2026下半年出货，是H2验证核心",
-      "2026-07-30 收盘 $485.39、市值约$8,010亿；EV/TTM Sales约21.2x、Q1年化Non-GAAP约89x、FCF收益率约1.3%"
+      "Q3 2026（2026-11-03 发布）：收入 $13,377M（+45%），Data Center $8,546M（+97%、环比 +27%）；非 GAAP 毛利率 56%、摊薄 EPS $2.09",
+      "Q4 指引：收入约 $17B（±3%）、非 GAAP 毛利率约 55%",
+      "Meta 首个 1GW 仍未判定：公司称首批 Helios 已运行模型和负载，稿内没有已出货吉瓦数",
+      "ROCm 10 已发布；稿内没有可审计的客户迁移数据。已宣布收购 World Labs 与 Taalas，稿内未给对价",
+      "估值仍按 2026-07-30 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。"
     ],
     "chainLayer": "compute",
     "coverageTier": "full",
     "chainRole": "architecture-check",
     "stance": "cautious",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q2 2026 monitoring / 2026-07-30 valuation frame",
+    "reportedPeriod": "Q3 2026 monitoring / 2026-07-30 valuation frame",
     "related": [
       "nvidia-2026",
       "broadcom-2026"
@@ -6697,12 +6698,13 @@
           "en": "the first 1GW ships on schedule in H2 2026 — the core H2 test"
         },
         "latest": {
-          "zh": "多年期 6GW 协议仍是核心锚点；在 2026-08-04 Q2 2026 电话会上，AMD 称 Helios（MI450 机架系统）正被 Anthropic、Cirrascale、HUMAIN、Meta、Microsoft、OpenAI、Oracle、Tensorwave、Vultr 等部署，与 Anthropic 的合作提及最多 2GW 的 MI450——这些均为已宣布的部署计划，而非已披露的出货量或已完成出货。H2 2026 的核心检验（首个 1GW 是否按期出货）尚未落定。",
-          "en": "The multi-year 6GW deal remains the anchor; on the 2026-08-04 Q2 2026 call AMD described Helios (MI450 rack systems) as being deployed by Anthropic, Cirrascale, HUMAIN, Meta, Microsoft, OpenAI, Oracle, Tensorwave, Vultr and others, with the Anthropic partnership referencing up to 2GW of MI450 - these are stated deployment plans, not disclosed shipment volumes or completed shipments. The core H2 2026 test (first 1GW shipping on schedule) is not yet resolved."
+          "zh": "2026-11-03 Q3 2026 业绩稿：公司称 Anthropic、Meta、Microsoft、OpenAI、Oracle Cloud Infrastructure 已在首批 Helios 机架上运行模型和负载，MI450 系列已上市。这是发行人对部署状态的描述；稿内与演示稿都没有已出货吉瓦数，也没有 Meta 首个 1GW 的完成情况，电话会未读。",
+          "en": "2026-11-03 Q3 2026 release: the company says Anthropic, Meta, Microsoft, OpenAI and Oracle Cloud Infrastructure are running models and workloads on the first Helios racks, and that the MI450 Series has launched. This is the issuer describing deployment status; neither the release nor the slides give shipped gigawatts or the completion status of the first Meta 1GW, and the call was not read."
         },
         "nextCheck": "2026-H2 出货确认 / H2 shipment confirmation",
         "reading": "unclear",
-        "readingAsOf": "2026-08-04"
+        "readingAsOf": "2026-11-03",
+        "readingNote": "「按期出货首个 1GW」未被所读文件证实或否定。 / The read documents neither confirm nor refute the first 1GW shipping on schedule."
       },
       {
         "id": "datacenter-growth",
@@ -6717,12 +6719,13 @@
           "en": "a DC growth stall directly hits the high-expectations pricing"
         },
         "latest": {
-          "zh": "2026-08-04 Q2 2026 业绩（季度截至 2026-06-27）：季度收入 $11.5B（同比 +50%，GAAP），数据中心分部 $6.7B（同比 +107%、约占总收入 58%）；GAAP 毛利率 54%、非 GAAP 56%；GAAP 稀释每股收益 $1.38、非 GAAP $1.66。Q3 2026 指引收入约 $13B（±$300M）、非 GAAP 毛利率约 56%。数据中心增速由 Q1 的 +57% 进一步加速至 +107%，未见增长失速。",
-          "en": "2026-08-04 Q2 2026 results (quarter ended 2026-06-27): quarterly revenue $11.5B (+50% YoY, GAAP) and Data Center segment $6.7B (+107% YoY, about 58% of total revenue); GAAP gross margin 54% / non-GAAP 56%; GAAP diluted EPS $1.38 / non-GAAP $1.66. Q3 2026 guided to revenue of about $13B (±$300M) and non-GAAP gross margin of about 56%. Data-center growth accelerated from +57% in Q1 to +107%, with no growth stall."
+          "zh": "2026-11-03 Q3 2026 业绩稿（季度截至 2026-09-26）：Data Center 收入 $8,546M（同比 +97%、环比 +27%；Q2 为 $6,718M、同比 +107%），占总收入约 64%（$13,377M，同比 +45%）；分部营业利润 $2,882M。Q4 指引总收入约 $17B（±3%）、非 GAAP 毛利率约 55%。",
+          "en": "2026-11-03 Q3 2026 release (quarter ended 2026-09-26): Data Center revenue $8,546M (+97% YoY, +27% QoQ; Q2 was $6,718M, +107% YoY), about 64% of total revenue ($13,377M, +45% YoY); segment operating income $2,882M. Q4 guidance is total revenue of about $17B (plus or minus 3%) and non-GAAP gross margin of about 55%."
         },
         "nextCheck": "2026-Q3 财报与数据中心增速 / Q3 earnings and Data Center growth",
         "reading": "within",
-        "readingAsOf": "2026-08-04"
+        "readingAsOf": "2026-11-03",
+        "readingNote": "Data Center 环比 +27%、同比增速高于公司整体，未出现增长停滞。 / Data Center grew 27% sequentially and faster than the company overall, so no growth stall appeared."
       },
       {
         "id": "rocm-helios-competitiveness",
@@ -6737,10 +6740,13 @@
           "en": "ROCm produces auditable customer-migration cases, or migration evidence stays absent while custom ASICs and NVIDIA Rubin compress AMD's rack-level price-performance window"
         },
         "latest": {
-          "zh": "CUDA 约 400 万开发者，ROCm 2026 年目标 10 万（约 1/40）；实际性能差距由约 40-50% 收窄至约 10-30%，AMD 通常需低于 NVIDIA 约 15-40% 定价成交；2025 年 NVIDIA AI 加速器份额约 86-90%，AMD 数据中心份额同比反而少约 1 个百分点",
-          "en": "CUDA has roughly 4M developers against ROCm's 100K target for 2026 (about 1/40); the real-world performance gap narrowed from roughly 40-50% to roughly 10-30%, and AMD typically prices roughly 15-40% below NVIDIA to win deals. NVIDIA's AI accelerator share was roughly 86-90% in 2025, while AMD lost about one point of data-center share year over year"
+          "zh": "2026-11-03 Q3 2026 业绩稿：ROCm 10 已发布（ROCm.AI、性能与工具链更新），Helion 参考架构发布。稿内没有可审计的客户迁移案例或开发者数，也没有相对 NVIDIA Rubin 或定制 ASIC 的机架级性价比数据。",
+          "en": "2026-11-03 Q3 2026 release: ROCm 10 was released (ROCm.AI, performance and tooling updates) and the Helion reference architecture was introduced. The release has no auditable customer-migration case or developer count, and no rack-level price-performance data against NVIDIA Rubin or custom ASICs."
         },
-        "nextCheck": "2026-H2 迁移案例与 Helios/MI450 出货证据 / H2 2026 migration cases and Helios/MI450 shipment evidence"
+        "nextCheck": "2026-H2 迁移案例与 Helios/MI450 出货证据 / H2 2026 migration cases and Helios/MI450 shipment evidence",
+        "reading": "unclear",
+        "readingAsOf": "2026-11-03",
+        "readingNote": "产品发布不是迁移证据；trigger 两腿都未被所读文件覆盖。 / A product release is not migration evidence; the read documents cover neither leg of the trigger."
       },
       {
         "id": "valuation-tolerance",

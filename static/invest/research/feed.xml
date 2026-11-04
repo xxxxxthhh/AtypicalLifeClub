@@ -13,6 +13,13 @@
       <description>2026-11-04 — Q3 2026（季度截至 2026-09-30；8-K Ex 99.1，2026-11-03）收入 $3,657.6M（同比 +58.5%、环比 +20.5%），指引约 $3.3B；GAAP／非 GAAP 毛利率 63.6%／64.0%，GAAP／非 GAAP 营业利润率 44.9%／49.1%；GAAP／非 GAAP 摊薄 EPS $1.22／$1.20（GAAP 含战略投资收益 $134.5M，非 GAAP 已剔除）。递延收入合计 $6,839.5M（流动 $5,102.2M＋非流动 $1,737.3M，2025-12-31 为 $5,372.4M）；前九个月经营现金流 $3,977.4M。Q4 2026 指引：收入 $3.9–4.0B、非 GAAP 营业利润率 48–49%、非 GAAP 摊薄 EPS $1.26–1.30。 估值与立场仍按 2026-07-30 历史基础；Q3 实绩与新指引待 Mode B 重算，价格、估值数字、立场和确信度本包未更新。</description>
     </item>
     <item>
+      <title>AMD 深度研究报告 - AI时代的半导体挑战者 / AMD Deep Research Report - AI Era Semiconductor Challenger</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=amd-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amd-2026#amd-2026@2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>2026-11-04 — Q3 2026（季度截至 2026-09-26；8-K Ex 99.1 与演示稿，2026-11-03）收入 $13,377M（同比 +45%、环比 +16%），公司称超过指引上沿；Data Center 收入 $8,546M（同比 +97%、环比 +27%），分部营业利润 $2,882M；GAAP／非 GAAP 毛利率 54%／56%，GAAP／非 GAAP 摊薄 EPS $1.46／$2.09。Q4 2026 指引：收入约 $17B（±3%）、非 GAAP 毛利率约 55%。 公司称 Anthropic、Meta、Microsoft、OpenAI、Oracle Cloud Infrastructure 已在首批 Helios 机架上运行模型和负载，MI450 系列已上市并计入 Data Center 增长驱动；稿内没有已出货吉瓦数或 Meta 首个 1GW 的完成情况。ROCm 10 已发布。公司另称已宣布收购 World Labs 与 Taalas 的协议，稿内未给对价。 估值与立场仍按 2026-07-30 历史基础；Q3 实绩与新指引待 Mode B 重算，价格、估值数字、立场和确信度本包未更新。</description>
+    </item>
+    <item>
       <title>Lumentum 深度研究报告 - 光源利润、架构迁移与增长定价 / Lumentum Deep Research Report - Laser Economics, Architecture Migration and Growth Pricing</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=lumentum-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=lumentum-2026#lumentum-2026@2026-11-03</guid>
@@ -431,13 +438,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=nrg-2026#nrg-2026@2026-08-05</guid>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
       <description>2026-07-07 v5更新：NRG仍是AI基础设施power层的merchant + retail dashboard，价格锚点$133.97（2026-07-02）、市值约$28.3B、EV约$52.2B，约15.1x 2026调整后EPS指引中点、约9.3x 2026调整后EBITDA指引中点。20%牛市/50%基准/30%熊市情景显示合同转化尚未证明而杠杆/回购纪律仍是约束，v5立场迁移为谨慎/中确信。</description>
-    </item>
-    <item>
-      <title>AMD 深度研究报告 - AI时代的半导体挑战者 / AMD Deep Research Report - AI Era Semiconductor Challenger</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=amd-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amd-2026#amd-2026@2026-08-05</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
-      <description>v5 回填：AMD Q1 2026 营收 $10.253B、Data Center 约 $5.8B，Meta 6GW、Helios/MI450、EPYC 与 ROCm 让 AI infrastructure 第二平台叙事更强。以 2026-07-30 收盘 $485.39、约 $7,920 亿 EV 和约 21.2x EV/TTM Sales 计，市场依然提前定价 Meta/Helios、MI450、ROCm 改善、Data Center 增长和利润率扩张；按 Q1 Non-GAAP EPS 年化仍约 89x、FCF 收益率约 1.3%。20% 牛市 / 40% 基准 / 40% 熊市情景仍给出负偏斜，维持谨慎 / 中确信。</description>
     </item>
     <item>
       <title>Alphabet 深度研究报告 - TPU 外部化与 capex 融资质量的架构校验 / Alphabet Deep Research Report - Architecture Check on TPU Externalization and Capex Funding Quality</title>
