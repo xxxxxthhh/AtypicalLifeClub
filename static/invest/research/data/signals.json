@@ -3845,5 +3845,33 @@
       "coherent-2026:cpo-npo-roadmap",
       "coherent-2026:valuation-fcf-risk"
     ]
+  },
+  {
+    "id": "applovin-q3-2026-results-20261104",
+    "date": "2026-11-04",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "AppLovin Q3 2026 收入 $2,184.8M（+55%），Q4 指引 $2,365–2,395M；10-Q 无电商收入拆分",
+      "en": "AppLovin Q3 2026 revenue of $2,184.8M (+55%), Q4 guidance $2,365-2,395M; no e-commerce revenue split in the 10-Q"
+    },
+    "detail": {
+      "zh": "来源：AppLovin 2026-11-04 8-K Ex 99.1（0001751008-26-000068）、10-Q（0001751008-26-000069）。Q3 2026（季度截至 2026-09-30；8-K Ex 99.1 与 10-Q，2026-11-04）收入 $2,184.8M（同比 +55%），指引 $2,055–2,085M；净利润 $1,438.9M，调整后 EBITDA $1,842M（利润率 84%），GAAP 摊薄 EPS $4.30；经营现金流 $1,428.8M，自由现金流 $1,418.4M。10-Q：单次安装净收入 +55%、安装量 +2%。Q4 2026 指引：收入 $2,365–2,395M、调整后 EBITDA $1,995–2,025M（利润率 84–85%）。 证据边界：公司财务更新与电话会未读；10-Q 没有消费品或电商收入拆分；全年自由现金流比例要到 Q4 才能定。",
+      "en": "Source: AppLovin 8-K Ex 99.1 of 2026-11-04 (0001751008-26-000068) and 10-Q (0001751008-26-000069). Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1 and 10-Q, 2026-11-04) revenue was $2,184.8M (+55% YoY) against guidance of $2,055-2,085M; net income $1,438.9M, adjusted EBITDA $1,842M (84% margin), GAAP diluted EPS $4.30; operating cash flow $1,428.8M and free cash flow $1,418.4M. 10-Q: net revenue per installation +55% and installations +2%. Q4 2026 guidance: revenue $2,365-2,395M, adjusted EBITDA $1,995-2,025M (84-85% margin). Evidence limits: the company financial update and earnings call were not read; the 10-Q has no consumer or e-commerce revenue split; the full-year free-cash-flow ratio cannot be set until Q4."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "APP"
+    ],
+    "reportIds": [
+      "applovin-2026"
+    ],
+    "monitoringRefs": [
+      "applovin-2026:revenue-growth-vs-guide",
+      "applovin-2026:nrpi-vs-installs",
+      "applovin-2026:ebitda-margin-spread",
+      "applovin-2026:ecommerce-traction",
+      "applovin-2026:fcf-conversion",
+      "applovin-2026:litigation-unity-dispute"
+    ]
   }
 ]

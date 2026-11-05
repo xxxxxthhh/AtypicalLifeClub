@@ -1,7 +1,7 @@
 # AppLovin Corporation (NASDAQ: APP) Deep Research Report
 
 Coverage date: 2026-10-02
-Last updated: 2026-10-02
+Last updated: 2026-11-05
 Ticker: NASDAQ: APP
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -9,7 +9,14 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 ## 1. Executive Summary and Current View <!-- report-module:overview -->
 
-**One-line thesis:** AppLovin is still one of the most profitable growth businesses in listed technology. Q2 2026 revenue was $1,923.7M (+53% year over year) at an 83.9% adjusted EBITDA margin, and trailing-twelve-month free cash flow was $4.51B. Yet the stock has fallen 58.25% this year, to $281.31, because the market has stopped believing the growth engine compounds on its own. Every dollar of growth in the 10-Q comes from monetization per install (net revenue per installation +58% in Q2) on flat-to-shrinking install volume (−2%). The tool that was supposed to open a second engine, e-commerce advertising through generative AI video creatives, is still "a work in progress". At $281.31 the shares trade at 16.5x trailing adjusted EBITDA and 21.6x trailing GAAP earnings. **On a 13x exit multiple, earning the 8% hurdle from here requires revenue growth of only about 10% a year from 2026 to 2028**, against a base case of 21%; merely holding value requires about 1%. The disagreement with the market is therefore mostly about the exit multiple, not the next quarter.
+> **2026-11-05 factual update**: Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1 and 10-Q, 2026-11-04) revenue was $2,184.8M (+55% YoY) against guidance of $2,055-2,085M; net income $1,438.9M, adjusted EBITDA $1,842M (84% margin), GAAP diluted EPS $4.30; operating cash flow $1,428.8M and free cash flow $1,418.4M. 10-Q: net revenue per installation +55% and installations +2%. Q4 2026 guidance: revenue $2,365-2,395M, adjusted EBITDA $1,995-2,025M (84-85% margin).
+>
+> **2026-11-05 review of monitoring**: revenue-growth-vs-guide, nrpi-vs-installs and ebitda-margin-spread within; ecommerce-traction, fcf-conversion and litigation-unity-dispute unclear; platform-policy not updated. Sources: [8-K Ex 99.1](https://www.sec.gov/Archives/edgar/data/1751008/000175100826000068/exhibit991-3q26earningspre.htm), [10-Q](https://www.sec.gov/Archives/edgar/data/1751008/000175100826000069/app-20260930.htm). The company financial update and earnings call were not read.
+>
+> **Valuation boundary (2026-11-05, Mode A):** Valuation and stance remain on the 2026-10-01 historical basis ($281.31); Q3 actuals and the new guidance await Mode B recomputation, the first full post-release session has not finished, and price, valuation figures, stance and conviction are not updated in this package.
+
+
+Historical valuation basis: **One-line thesis:** AppLovin is still one of the most profitable growth businesses in listed technology. Q2 2026 revenue was $1,923.7M (+53% year over year) at an 83.9% adjusted EBITDA margin, and trailing-twelve-month free cash flow was $4.51B. Yet the stock has fallen 58.25% this year, to $281.31, because the market has stopped believing the growth engine compounds on its own. Every dollar of growth in the 10-Q comes from monetization per install (net revenue per installation +58% in Q2) on flat-to-shrinking install volume (−2%). The tool that was supposed to open a second engine, e-commerce advertising through generative AI video creatives, is still "a work in progress". At $281.31 the shares trade at 16.5x trailing adjusted EBITDA and 21.6x trailing GAAP earnings. **On a 13x exit multiple, earning the 8% hurdle from here requires revenue growth of only about 10% a year from 2026 to 2028**, against a base case of 21%; merely holding value requires about 1%. The disagreement with the market is therefore mostly about the exit multiple, not the next quarter.
 
 **Investment view:**
 
@@ -30,26 +37,26 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 | Metric | Value |
 |--------|-------|
-| Share price (2026-10-01 close) | $281.31 |
-| 52-week closing range | $281.31 (2026-10-01) - $733.60 (2025-12-22) |
+| Historical valuation basis: Share price (2026-10-01 close) | $281.31 |
+| Historical valuation basis: 52-week closing range | $281.31 (2026-10-01) - $733.60 (2025-12-22) |
 | 52-week intraday range (CNBC) | $275.13 (2026-10-01) - $738.01 (2025-12-22) |
 | Year-to-date (from the 2025-12-31 close of $673.82) | −58.25% |
 | Since the Q2 print (2026-08-05 close of $417.80) | −32.67% |
 | Shares outstanding (10-Q cover, as of 2026-07-31: Class A 304,443K + Class B 30,208K) | 334.651M |
-| Market capitalization | $94,140.7M |
+| Historical valuation basis: Market capitalization | $94,140.7M |
 | Cash and cash equivalents (2026-06-30) | $3,053.3M |
 | Senior notes, principal (2029/2031/2034/2054) | $3,550.0M (revolver of $1.0B undrawn) |
-| Net debt | $496.7M (0.09x TTM adjusted EBITDA) |
-| Enterprise value | $94,637.4M |
+| Historical valuation basis: Net debt | $496.7M (0.09x TTM adjusted EBITDA) |
+| Historical valuation basis: Enterprise value | $94,637.4M |
 | TTM revenue (Q3 2025 - Q2 2026) | $6,829.1M |
 | TTM adjusted EBITDA / margin | $5,727.1M / 83.9% |
 | TTM free cash flow | $4,508.2M |
 | TTM diluted EPS (continuing operations) | $13.01 |
-| EV / TTM adjusted EBITDA | 16.52x |
-| P/E (TTM GAAP) | 21.62x |
+| Historical valuation basis: EV / TTM adjusted EBITDA | 16.52x |
+| Historical valuation basis: P/E (TTM GAAP) | 21.62x |
 | EV / TTM revenue | 13.86x |
-| FCF yield on market cap (TTM) | 4.79% |
-| EV / FY2026E adjusted EBITDA (consensus revenue $8.10B, about $6,775M) | 13.97x |
+| Historical valuation basis: FCF yield on market cap (TTM) | 4.79% |
+| Historical valuation basis: EV / FY2026E adjusted EBITDA (consensus revenue $8.10B, about $6,775M) | 13.97x |
 | P/E on FY2026 consensus EPS ($15.76 Zacks / $16.67 S&P Global) | 17.8x / 16.9x |
 | Probability-weighted annualized return (2.248 years to 2028-12-31) | **+16.0%**, 8.0 points above the 8% hurdle |
 
@@ -147,7 +154,7 @@ The economic engine is simple to state. Axon predicts, impression by impression,
 
 | Company | Ticker | Close | Market cap | TTM P/E | Latest-quarter revenue growth | YTD |
 |---------|--------|-------|-----------|---------|-------------------------------|-----|
-| AppLovin | APP | $281.31 | $94.14B | 21.62x | +53% (Q2 2026) | −58.25% |
+| Historical valuation basis: AppLovin | APP | $281.31 | $94.14B | 21.62x | +53% (Q2 2026) | −58.25% |
 | Unity | U | $43.61 | $19.19B | n/m (loss) | +24% total, Grow +35% (Q2 2026) | −1.3% |
 | Meta | META | $725.93 | $1,849B | 25.14x | +28% (Q2 2026) | +10.0% |
 | Alphabet | GOOGL | $338.24 | $4,064B | 16.97x | +24.2% (Q2 2026) | +8.1% |
@@ -262,7 +269,7 @@ The four 2025 quarters sum exactly to the FY2025 figures on every line: revenue 
 | **Total** | **$3,550.0M** | | Unsecured, investment grade |
 | Revolver (2024 Credit Agreement) | $1.0B commitment, undrawn | Term SOFR + 0.10% + 1.125%-2.000% | 2029-12-05 |
 
-Net debt is $496.7M, 0.09x TTM adjusted EBITDA. The revolver covenant caps net leverage at 3.50x. **A discrepancy we cannot reconcile:** on the Q2 call the CFO cited "$3.7 billion of total debt", while the filings show $3,550.0M of note principal and no revolver draw. The $150M gap may be finance leases but is not confirmed. Using $3.7B instead would raise enterprise value by $150M, which does not change any conclusion. The company also carries a minimum $1.3B three-year cloud-computing commitment, of which $953.5M had been paid by 2026-06-30.
+Historical valuation basis: Net debt is $496.7M, 0.09x TTM adjusted EBITDA. The revolver covenant caps net leverage at 3.50x. **A discrepancy we cannot reconcile:** on the Q2 call the CFO cited "$3.7 billion of total debt", while the filings show $3,550.0M of note principal and no revolver draw. The $150M gap may be finance leases but is not confirmed. Using $3.7B instead would raise enterprise value by $150M, which does not change any conclusion. The company also carries a minimum $1.3B three-year cloud-computing commitment, of which $953.5M had been paid by 2026-06-30.
 
 **Red-flag checklist:**
 
@@ -315,7 +322,7 @@ Source: 2026 proxy, beneficial ownership at 2026-03-31. Class B carries 20 votes
 
 **Capital allocation: buybacks were aggressive, and mostly well above today's price.**
 
-| Period | Shares repurchased | Amount (incl. costs) | Average price (derived) | Versus $281.31 |
+| Historical valuation basis: Period | Shares repurchased | Amount (incl. costs) | Average price (derived) | Versus $281.31 |
 |--------|--------------------|----------------------|-------------------------|----------------|
 | FY2025 | 5.511M | $2,197.9M | ~$398.8 | +41.8% |
 | Q1 2026 | 2.170M | $1,013.8M | ~$467.2 | +66.1% |
@@ -323,7 +330,7 @@ Source: 2026 proxy, beneficial ownership at 2026-03-31. Class B carries 20 votes
 | H1 2026 | 3.275M | $1,545.5M | ~$471.9 | +67.7% |
 | Remaining authorization (2026-06-30) | - | $1,756M | - | - |
 
-Shares outstanding fell from 340.0M (2024-12-31) to 334.65M (2026-07-31), −1.6% in nineteen months after stock compensation. The company has "never paid cash dividends". **The judgment:** the buyback program is real shrinkage funded by real free cash flow, not a cosmetic offset to dilution. But 2026's $1.55B was spent at an average of about $472, 68% above today's price, and Q2 purchases ($531.7M) were half of Q1's ($1,013.8M) even as Q2's monthly average prices rose ($425.69 → $481.10 → $511.61); the CFO tied the smaller Q2 program to that quarter's lower free cash flow. No buyback data after 2026-06-30 has been disclosed, so whether the company bought into the August-September decline is unknown. At $281.31 the remaining $1,756M authorization would retire about 6.2M shares, 1.9% of the count. A larger or accelerated authorization at these prices would be the most direct signal that management believes its own guidance.
+Historical valuation basis: Shares outstanding fell from 340.0M (2024-12-31) to 334.65M (2026-07-31), −1.6% in nineteen months after stock compensation. The company has "never paid cash dividends". **The judgment:** the buyback program is real shrinkage funded by real free cash flow, not a cosmetic offset to dilution. But 2026's $1.55B was spent at an average of about $472, 68% above today's price, and Q2 purchases ($531.7M) were half of Q1's ($1,013.8M) even as Q2's monthly average prices rose ($425.69 → $481.10 → $511.61); the CFO tied the smaller Q2 program to that quarter's lower free cash flow. No buyback data after 2026-06-30 has been disclosed, so whether the company bought into the August-September decline is unknown. At $281.31 the remaining $1,756M authorization would retire about 6.2M shares, 1.9% of the count. A larger or accelerated authorization at these prices would be the most direct signal that management believes its own guidance.
 
 **Legal and regulatory record:**
 
@@ -343,8 +350,8 @@ Shares outstanding fell from 340.0M (2024-12-31) to 334.65M (2026-07-31), −1.6
 
 1. **The engine is not broken; the cadence slipped.** Q2's shortfall was $1.2M of EBITDA against the bottom of the guide. Management said the next model step-up "landed just after quarter end", and the Q3 guide of +46-48% excludes any further model releases. Morgan Stanley's read on 2026-08-06 was "short term misexecution, not structural headwinds". If Q3 lands at or above the $2,085M top, the "growth is over" narrative loses its main evidence.
 2. **E-commerce is real, early, and not in the base numbers.** AppLovin Ads opened to all advertisers only on 2026-06-22, so Q2 contained a week of general availability. Citi/Store Leads counted 13,105 e-commerce clients by 2026-09-18, up from 10,471 on 2026-07-10. Management says consumer spend was 28% above the Q4 2025 peak, and the CEO has claimed "well over $70,000 a year" per new customer. Even a few points of the web performance-advertising market would be a second curve. The bull scenario needs 2027 growth of +32%, close to management's own "roughly 30%" compounding claim.
-3. **The cash machine funds its own re-rating.** On base-case FCF, AppLovin generates about $15.1B of free cash flow from Q4 2026 through 2028, roughly 16% of today's market cap. At $281.31 the same buyback dollars retire about 68% more shares than they did in H1 2026.
-4. **The multiple is already low for the quality.** At 21.6x trailing earnings, APP trades below Meta's 25.1x trailing P/E despite roughly twice the revenue growth and a far higher margin; on forward numbers it is 13.97x FY2026E EBITDA and 13.9x FY2027 consensus EPS. BofA called it "reasonable" at 17x CY2027 EBITDA as recently as July. The bull case assumes only that today's 16x trailing multiple holds through 2028.
+3. Historical valuation basis: **The cash machine funds its own re-rating.** On base-case FCF, AppLovin generates about $15.1B of free cash flow from Q4 2026 through 2028, roughly 16% of today's market cap. At $281.31 the same buyback dollars retire about 68% more shares than they did in H1 2026.
+4. Historical valuation basis: **The multiple is already low for the quality.** At 21.6x trailing earnings, APP trades below Meta's 25.1x trailing P/E despite roughly twice the revenue growth and a far higher margin; on forward numbers it is 13.97x FY2026E EBITDA and 13.9x FY2027 consensus EPS. BofA called it "reasonable" at 17x CY2027 EBITDA as recently as July. The bull case assumes only that today's 16x trailing multiple holds through 2028.
 
 **Upside-case valuation implication:**
 - **Revenue:** FY2026 at $8,150M, then +32% in 2027 and +27% in 2028, to $13,663M in FY2028 (a 29.5% two-year CAGR).
@@ -398,18 +405,18 @@ Shares outstanding fell from 340.0M (2024-12-31) to 334.65M (2026-07-31), −1.6
 
 **Choice of method.** AppLovin has high, stable margins and minimal capex, so the exit basis is **EV/adjusted EBITDA** on FY2028, cross-checked against P/E. This report gives no price target; what follows are assumption ranges, not forecasts.
 
-**Current multiples (anchor: 2026-10-01 close of $281.31):**
+Historical valuation basis: **Current multiples (anchor: 2026-10-01 close of $281.31):**
 
 | Method | Value | Key assumption | Confidence |
 |--------|-------|----------------|------------|
-| Market capitalization | $94,140.7M | 334.651M shares (10-Q cover, 2026-07-31) | High (primary filing) |
-| Enterprise value | $94,637.4M | Market cap + $3,550.0M note principal − $3,053.3M cash (2026-06-30). Excludes the Tripledot stake ($290.0M) and PE fund interests ($173.0M), together about $1.38 per share | High |
-| EV / TTM adjusted EBITDA ($5,727.1M) | **16.52x** | Q3 2025 - Q2 2026 | High |
+| Historical valuation basis: Market capitalization | $94,140.7M | 334.651M shares (10-Q cover, 2026-07-31) | High (primary filing) |
+| Historical valuation basis: Enterprise value | $94,637.4M | Market cap + $3,550.0M note principal − $3,053.3M cash (2026-06-30). Excludes the Tripledot stake ($290.0M) and PE fund interests ($173.0M), together about $1.38 per share | High |
+| Historical valuation basis: EV / TTM adjusted EBITDA ($5,727.1M) | **16.52x** | Q3 2025 - Q2 2026 | High |
 | EV / (TTM adjusted EBITDA − SBC) | 17.39x | SBC $283.5M treated as a real cost | High |
-| P/E (TTM, continuing diluted EPS $13.01) | **21.62x** | Sum of four quarterly EPS figures | High |
+| Historical valuation basis: P/E (TTM, continuing diluted EPS $13.01) | **21.62x** | Sum of four quarterly EPS figures | High |
 | EV / TTM revenue ($6,829.1M) | 13.86x | - | High |
-| P / TTM FCF ($4,508.2M) | 20.88x (yield 4.79%) | TTM FCF benefits from the pre-2026 lower cash-tax rate; forward conversion guided ~75% | Medium |
-| EV / FY2026E adjusted EBITDA (~$6,775M) | **13.97x** | H1 actual + Q3 guide midpoint + Q4 implied by $8.10B consensus at 83% margin | Medium |
+| Historical valuation basis: P / TTM FCF ($4,508.2M) | 20.88x (yield 4.79%) | TTM FCF benefits from the pre-2026 lower cash-tax rate; forward conversion guided ~75% | Medium |
+| Historical valuation basis: EV / FY2026E adjusted EBITDA (~$6,775M) | **13.97x** | H1 actual + Q3 guide midpoint + Q4 implied by $8.10B consensus at 83% margin | Medium |
 | P/E on FY2026 consensus EPS | 17.8x (Zacks $15.76) / 16.9x (S&P Global $16.67) | Providers differ on definition; not averaged | Medium |
 | P/E on FY2027 consensus EPS | 13.9x (Zacks $20.25) / 13.4x (S&P Global $20.98) | Same | Medium |
 
@@ -419,11 +426,11 @@ Shares outstanding fell from 340.0M (2024-12-31) to 334.65M (2026-07-31), −1.6
 
 Common mechanics:
 - **Exit value:** exit enterprise value is FY2028 adjusted EBITDA × the exit multiple.
-- **Net cash:** exit net cash is today's −$496.7M, plus cumulative free cash flow from Q4 2026 through FY2028 at the stated EBITDA conversion, minus buybacks.
+- Historical valuation basis: **Net cash:** exit net cash is today's −$496.7M, plus cumulative free cash flow from Q4 2026 through FY2028 at the stated EBITDA conversion, minus buybacks.
 - **Buybacks:** 60% of FCF, at a scenario-specific average price.
 - **Dilution:** gross issuance of 3M shares a year from stock compensation.
 
-| Scenario | FY2028 revenue (2026-28 CAGR) / EBITDA margin / FY2028 EBITDA | Exit EV/EBITDA | FCF conversion; buyback price | Exit shares / exit net cash | Value per share | Versus $281.31 | Annualized | Weight |
+| Historical valuation basis: Scenario | FY2028 revenue (2026-28 CAGR) / EBITDA margin / FY2028 EBITDA | Exit EV/EBITDA | FCF conversion; buyback price | Exit shares / exit net cash | Value per share | Versus $281.31 | Annualized | Weight |
 |----------|---------------------------------------------------------------|----------------|-------------------------------|-----------------------------|-----------------|----------------|-----------|--------|
 | Bull | $13,663M (29.5%; +32% then +27%) / 82% / $11,203M | **16x** (today's trailing level) | 78%; $450 | 318.6M / $6,350M | **$582.62** | +107.1% | **+38.3%** | 30% |
 | Base | $11,852M (21.0%; +24% then +18%) / 81% / $9,600M | **13x** | 77%; $380 | 317.5M / $5,545M | **$410.48** | +45.9% | **+18.3%** | 40% |
@@ -448,7 +455,7 @@ The FY2026 starting points are $8,150M (bull), $8,100M (base, consensus) and $7,
 
 **The positive skew is real at central assumptions but not robust.** It survives a heavier bear weight up to about 20/40/40. It does not survive a three-turn compression of every exit multiple, or a base case where 2027 growth falls to +12%. That is the honest shape of the call: the market has already priced much of the deceleration, but the remaining upside depends on the multiple not de-rating further. That is why conviction is low.
 
-**What is priced in: the expectations gap.** Working backwards, to earn 8% (10%) annualized the shares must be worth $334.44 ($348.52) at the end of 2028; merely holding today's price requires $281.31. For each exit multiple, the table solves for the constant 2027-2028 revenue growth rate (applied to the $8,100M FY2026 base) that produces that value. Free cash flow, buybacks and the share count move with the revenue path: 81% margin, 77% FCF conversion, 60% of FCF to buybacks at $380, and 3M shares a year of gross issuance.
+Historical valuation basis: **What is priced in: the expectations gap.** Working backwards, to earn 8% (10%) annualized the shares must be worth $334.44 ($348.52) at the end of 2028; merely holding today's price requires $281.31. For each exit multiple, the table solves for the constant 2027-2028 revenue growth rate (applied to the $8,100M FY2026 base) that produces that value. Free cash flow, buybacks and the share count move with the revenue path: 81% margin, 77% FCF conversion, 60% of FCF to buybacks at $380, and 3M shares a year of gross issuance.
 
 | Exit EV/EBITDA | Break-even (0%): implied 2026-28 CAGR | FY2028 revenue needed for 8% (at 81% margin) | Implied CAGR | Needed for 10% | Implied CAGR |
 |----------------|---------------------------------------|----------------------------------------------|--------------|----------------|--------------|
@@ -458,7 +465,7 @@ The FY2026 starting points are $8,150M (bull), $8,100M (base, consensus) and $7,
 
 Holding the base-case operating path fixed and varying only the exit multiple: 9x gives $289.55 (+1.3% annualized) and 8x gives $259.32 (−3.6%).
 
-**The expectations gap in one sentence:** at $281.31, earning the 8% hurdle requires revenue growth of only about 10% a year through 2028 at a 13x exit (merely holding value needs about 1%), or about 24% a year at a 10x exit. In other words, the price is consistent with the market valuing AppLovin as close to ex-growth by 2028. Our base case is 21% growth and a 13x exit. **We agree that growth decelerates; we disagree that it falls to around 10% within two years while the business still earns an 80%-plus margin.**
+Historical valuation basis: **The expectations gap in one sentence:** at $281.31, earning the 8% hurdle requires revenue growth of only about 10% a year through 2028 at a 13x exit (merely holding value needs about 1%), or about 24% a year at a 10x exit. In other words, the price is consistent with the market valuing AppLovin as close to ex-growth by 2028. Our base case is 21% growth and a 13x exit. **We agree that growth decelerates; we disagree that it falls to around 10% within two years while the business still earns an 80%-plus margin.**
 
 ## 9. Catalysts and Monitoring Checklist <!-- report-module:catalysts -->
 
@@ -508,10 +515,10 @@ Holding the base-case operating path fixed and varying only the exit multiple: 9
 
 **(1) What this report answers.** AppLovin is not an AI-infrastructure company, and this report sits outside the book's chain layers. The question it answers is how to value a business with an 84% EBITDA margin when the market has decided its growth is no longer self-compounding. The analytical spine is the 10-Q's own decomposition. Since mid-2025, revenue growth has come entirely from net revenue per install, on flat-to-shrinking volume. The question is therefore not "is AppLovin a good business" — it plainly is — but **how long monetization intensity can keep compounding before competitors and the gaming ceiling cap it, and whether e-commerce arrives before it does.**
 
-**(2) The expectations gap in one sentence.** At $281.31, earning the 8% hurdle requires revenue growth of about 10% a year from 2026 to 2028 at a 13x exit (holding value needs about 1%), or about 24% at a 10x exit. Our base case is 21% at 13x: we agree growth decelerates, but not to around 10% within two years at an 80%-plus margin.
+Historical valuation basis: **(2) The expectations gap in one sentence.** At $281.31, earning the 8% hurdle requires revenue growth of about 10% a year from 2026 to 2028 at a 13x exit (holding value needs about 1%), or about 24% at a 10x exit. Our base case is 21% at 13x: we agree growth decelerates, but not to around 10% within two years at an 80%-plus margin.
 
 **(3) Stance and conviction, derived from the scenario weights.**
-- **The grid:** the 30/40/30 grid (bull $582.62 / base $410.48 / bear $178.10) weights to **$392.41 per share, +39.5% against $281.31, or +16.0% annualized** over 2.248 years. That is 8.0 points above the 8% hurdle. The skew is positive: +107% in the bull case against −37% in the bear case, with the base case at +18.3% annualized. Hence **stance: constructive**.
+- Historical valuation basis: **The grid:** the 30/40/30 grid (bull $582.62 / base $410.48 / bear $178.10) weights to **$392.41 per share, +39.5% against $281.31, or +16.0% annualized** over 2.248 years. That is 8.0 points above the 8% hurdle. The skew is positive: +107% in the bull case against −37% in the bear case, with the base case at +18.3% annualized. Hence **stance: constructive**.
 - **Why not bullish:** the skew is multiple-fragile. Three turns of exit-multiple compression take the weighted return to +3.8%. Slower growth alone (+12% base-case 2027) takes it to +7.1%. Both together give −4.1%.
 - **Why conviction is low:**
   - (a) The fragility above.
@@ -519,7 +526,7 @@ Holding the base-case operating path fixed and varying only the exit multiple: 9
   - (c) The largest risks are outside the grid: platform enforcement, the Unity dispute, and two securities class actions.
 - **Why not neutral-watch:** at central assumptions the weighted return clears the hurdle by 8 points. The base case is set below consensus. The balance sheet is nearly unlevered. A neutral label would describe the uncertainty, not the arithmetic.
 
-**This is a valuation-and-skew judgment, made after a 58% decline.** It does not dismiss the evidence of deceleration, competitive pressure and insider selling; it holds that the price at $281.31 already discounts most of it.
+Historical valuation basis: **This is a valuation-and-skew judgment, made after a 58% decline.** It does not dismiss the evidence of deceleration, competitive pressure and insider selling; it holds that the price at $281.31 already discounts most of it.
 
 **(4) Upgrade and downgrade triggers (identical clause by clause to `stanceTriggers` in reports.json).**
 
@@ -540,9 +547,9 @@ Holding the base-case operating path fixed and varying only the exit multiple: 9
 
 **A. Price and share-count basis**
 
-- **Price anchor:** the **regular-session close of $281.31 on Thursday 2026-10-01**, from the Nasdaq `/historical` daily endpoint, cross-checked against the CNBC quote ("last" 281.31, dated 2026-10-01) and the investor-relations quote widget.
+- Historical valuation basis: **Price anchor:** the **regular-session close of $281.31 on Thursday 2026-10-01**, from the Nasdaq `/historical` daily endpoint, cross-checked against the CNBC quote ("last" 281.31, dated 2026-10-01) and the investor-relations quote widget.
 - **Timing:** this report was written at about 08:00 ET on 2026-10-02, before that day's session opened. The 07:26 ET pre-market indication of $268.00 (−4.73%) is not a close and is not used. No news explaining it had been found as of 07:44 ET.
-- **52-week range:** computed from Nasdaq daily closes for 2025-10-02 to 2026-10-01. The closing high was $733.60 (2025-12-22) and the closing low $281.31 (2026-10-01). The CNBC intraday range was $738.01 to $275.13.
+- Historical valuation basis: **52-week range:** computed from Nasdaq daily closes for 2025-10-02 to 2026-10-01. The closing high was $733.60 (2025-12-22) and the closing low $281.31 (2026-10-01). The CNBC intraday range was $738.01 to $275.13.
 - **Share count:** the market-cap denominator of 334.651M shares is the Q2 2026 10-Q cover count as of 2026-07-31 (Class A 304,443K + Class B 30,208K). No data-vendor share figure was used. Herald Chen converted 143,791 Class B shares into Class A on 2026-08-13, which leaves the total unchanged.
 - **Coverage scope:** this is a non-chain report. AppLovin sells advertising, not AI infrastructure, so it carries no `chainLayer` and is not scored in the verdict ledger.
 
@@ -586,7 +593,7 @@ Holding the base-case operating path fixed and varying only the exit multiple: 9
 | 2026-09-23 | Edgewater channel check | −4.10% |
 | 2026-09-24 | Meta Horizon Create / Horizon Studio | −0.88% |
 | 2026-09-30 | Wells Fargo pixel "false start" note | −4.98% ($290.43) |
-| 2026-10-01 | Coverage of the Unity dispute and Unity's response | −3.14% ($281.31) |
+| Historical valuation basis: 2026-10-01 | Coverage of the Unity dispute and Unity's response | −3.14% ($281.31) |
 
 **E. Source list (each URL, when opened, displays the claim it is cited for)**
 
