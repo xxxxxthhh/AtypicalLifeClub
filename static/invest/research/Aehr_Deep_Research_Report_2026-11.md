@@ -9,7 +9,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 ## Executive summary <!-- report-module:overview -->
 
-**One-line thesis:** The $150M FY2027 guide is about 93% covered by $109.3M of effective backlog, so the debate is not about this year. At the 2026-11-04 close of $60.84, the stock needs about $310M of FY2028 revenue (2.07x the FY2027 guide) just to break even at the base-case multiple. That figure is reachable only if a customer that has not placed a production order moves to wafer-level burn-in.
+**One-line thesis:** Effective backlog of $109.3M equals about 93% of remaining FY2027 revenue, so the debate is not about this year. At the 2026-11-04 close of $60.84, the stock needs about $310M of FY2028 revenue (2.07x the FY2027 guide) just to break even at the base-case multiple. That figure is reachable only if a customer that has not placed a production order moves to wafer-level burn-in.
 
 **Stance derivation:** Net judgment: the business is improving and the stock is 58% below its August high. But the price still includes nearly 60% of the increment from full conversion by the evaluation customer (($310M - $213M) / $167M, see §8). The 30/40/30 grid (FY2028 revenue $380M / $230M / $110M) gives $97.65 / $36.08 / $15.80 per share, weighted $48.47, -12.8% annualized to 2028-06-30, 20.8 points below an 8% required return. The ruling is **cautious / low conviction**. This is a valuation call, not a business call. The bull case returns +33.1% annualized, so the ruling is not bearish-avoid; the evaluation decision is expected in 1H CY2027, so conviction can only be low.
 
@@ -32,11 +32,11 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 **The five facts that matter most:**
 
-1. Q1 FY2027 (06-27 to 09-25) revenue was $33.007M, +200% YoY and +75% QoQ; GAAP gross margin 47.5%; net income $7.181M, including a $0.254M tax benefit. [Release](https://www.sec.gov/Archives/edgar/data/1040470/000165495426009385/aehr_ex991.htm)
+1. Q1 FY2027 (06-27 to 09-25) revenue was $33.007M, +200% YoY (against the quarter ended 2025-08-29, not a calendar-aligned quarter) and +75% QoQ (against the 05-29 quarter, skipping the transition month); GAAP gross margin 47.5%; net income $7.181M, including a $0.254M tax benefit. [Release](https://www.sec.gov/Archives/edgar/data/1040470/000165495426009385/aehr_ex991.htm)
 2. Operating cash flow was -$3.054M, and RSU tax withholding took another $4.474M. Cash has fallen $11.456M since 05-29. FY2026 ATM sales raised $97.4M net; without that money, 09-25 cash and equivalents would be about $7.5M (derived). [10-K](https://www.sec.gov/Archives/edgar/data/1040470/000165495426006919/aehr_10k.htm)
 3. The evaluation customer described as one of the largest opportunities has so far decided only to buy one fully configured FOX-XP test cell, to evaluate at a Taiwan OSAT, with installation in early 2027. This is not a production order.
 4. The company has run a very similar script before: the FY2024 revenue guide went from at least $100M to $75-85M to above $65M, and the actual was $66.2M, with the largest customer at 67% of revenue. The stock fell from a $53.69 close on 2023-08-01 to $10.17 on 2024-06-26.
-5. Since 2026-04, insiders have sold 712,349 shares for about $62.47M in the open market; the 10b5-1 box is unchecked on all 64 transaction lines, and purchases are zero.
+5. Since 2026-04, insiders have sold 677,349 shares for about $60.10M in the open market; the 10b5-1 box is unchecked on all 61 transaction lines, and purchases are zero. Sales were $11.15M on 08-12, the day the $22M order was announced.
 
 **Open at publication:** The Q1 FY2027 10-Q had not been filed when this report was finalized. Customer concentration, product-line split, restricted-cash detail and the cover share count are `review-pending`; see §7.
 
@@ -53,19 +53,33 @@ Aehr makes semiconductor burn-in and reliability-screening equipment. Burn-in ru
 | Package-level product lines | $1.6M (2%) | $19.8M (34%) | $18.5M (37%) | Incal consolidated |
 | Systems (derived) | $24.169M | $21.978M | $28.669M | Total less contactors and services |
 | Contactors | $37.560M | $30.848M | $14.887M | Fell hardest when silicon carbide weakened |
+| Contactor share (derived) | 56.7% | 52.3% | 29.8% | Moves a lot within one cycle |
 | Services | $4.489M | $6.142M | $6.445M | |
 | EV and power semiconductor share | 92% | 41% | 17% | 10-K ESG section basis |
 | Asia / US / Europe and Middle East | 87.7% / 5.3% / 7.0% | 62.9% / 30.0% / 7.1% | 45.6% / 41.3% / 13.1% | By ship-to location |
 
-**New Q1 FY2027 readings (call):** Contactors and related products (WaferPaks, burn-in modules or BIMs, burn-in boards or BIBs) were $13.5M, 41% of revenue, against $2.6M a year earlier. Management expects about 35% for FY2027, about 30% in the long-term model, and about 29-30% in FY2026. At 35%, FY2027 is about $52.5M (derived).
+**New Q1 FY2027 readings (call):** Contactors and related products (WaferPaks, burn-in modules or BIMs, burn-in boards or BIBs) were $13.5M, 41% of revenue, against $2.6M a year earlier. Management expects about 35% for FY2027 and about 30% in the long-term model; for FY2026 the CFO's figures on the call varied, and the 10-K gives 29.8%. At 35%, FY2027 is about $52.5M (derived). The CEO also says it could reach 50% even in a good year; that is an expectation and should be read against the decline in the table above.
 
 **Be clear about what the consumables are.** WaferPaks are custom per device with a typical life of two to seven years (10-K). The CEO says about one-third of each sale is WaferPaks, and customers buy another round when new devices launch (call). This is repurchase driven by capacity additions and new devices, not usage-based recurring revenue. Contactor revenue fell 60.4% from FY2024 to FY2026, which proves it shrinks with the cycle.
 
-**The CEO's unit economics (call, company framing):** A 9-wafer FOX-XP with consumables sells for about $6-7M or more. Each million devices of annual output needs 5-10 systems, or $35-70M per million. He estimates about 25 million accelerators in 2027, with CPUs at double that.
+**The CEO's unit economics (call, company framing):** A 9-wafer FOX-XP with consumables sells for about $7M (transcripts differ, "$6.7-plus" and "$6 million, $7 million plus"; $35-70M over 5-10 systems implies $7M). Each million devices of annual output needs 5-10 systems, or $35-70M per million. He estimates about 25 million accelerators in 2027, with CPUs at double that.
 
 Our read (inference): the $35-70M applies to **incremental** annual capacity, not to revenue that recurs each year. A system bought once runs for years, so equipment revenue follows the change in output rather than its level. That makes this company's revenue steeper than AI chip shipments, and more prone to drawdowns.
 
-**Manufacturing is asset-light:** Q1 capex was just $0.049M. Sonoma is finally assembled and shipped directly by a Southeast Asian contract manufacturer; the CFO says this adds capacity of more than 20 systems per month. The CEO says more than a dozen per month are shipping and installing now, and that Fremont assembly hours per wafer-level system can fall to about one-third by year-end (call). Sonoma pricing, margin and contract terms are not disclosed and stay `review-pending`.
+**Manufacturing is asset-light:** Q1 capex was just $0.049M. Sonoma is finally assembled and shipped directly by a Southeast Asian contract manufacturer; the CFO says this adds capacity of more than 20 systems per month. The CEO says more than a dozen per month are shipping and installing now, and that Fremont assembly hours per wafer-level system can fall to about one-third by year-end (call). Sonoma pricing, margin and contract terms are not disclosed and stay `review-pending`. The price above is on a FOX-XP basis and cannot be used to back into Sonoma revenue; "more than a dozen per month" is present tense in November and is not a Q1 average. This report does not estimate Sonoma revenue by multiplying units by price.
+
+**Announced orders with amounts (company press releases, no 8-K):**
+
+| Date | Product and customer | Amount | Delivery |
+|---|---|---:|---|
+| 2026-01-08 | Sonoma, multiple customers | over $5.5M | not itemized |
+| 2026-02-26 | FOX-XP, first AI-processor production customer | $14M | see release |
+| 2026-04-16 | Sonoma, lead hyperscale customer, largest in company history | $41M | from FY2027 |
+| 2026-07-14 | Silicon carbide WaferPaks | over $8M | see release |
+| 2026-08-12 | FOX-XP, first AI-processor production customer | $22M | next six months |
+| 2026-10-07 | Sonoma, second processor | about $6M | next six months |
+
+These announcements are only part of bookings and cannot be summed into backlog. The CFO says Q1 bookings came mainly from FOX systems, WaferPaks and aligners for AI processors and silicon photonics, not Sonoma (call).
 
 ## 2. Industry, competition and architecture check <!-- report-module:competition -->
 
@@ -75,7 +89,9 @@ Our read (inference): the $35-70M applies to **incremental** annual capacity, no
 |---|---|---|---|
 | Wafer-level burn-in | Aehr FOX (the company says only it can run this in volume today) | First AI-processor production customer added $22M in August, for its Taiwan manufacturing partner | One customer's production evidence: strong but narrow |
 | Package-level burn-in | Aehr Sonoma; customer-built or affiliated suppliers (10-K, call) | Lead hyperscale customer ramping at more than a dozen per month | The revenue engine, and the concentration source |
-| System-level test derivatives | Hon Precision, Chroma, AEM, Teradyne (CEO on the call) | CEO says package-level prospects are not raising SLT alternatives | A competitor's account, not independently verified |
+| System-level test derivatives | Hon Precision (Cohu in one transcript), Chroma, AEM, Teradyne (CEO on the call) | CEO says package-level prospects are not raising SLT alternatives | Aehr's own account; the next two rows are contrary evidence |
+| Teradyne Titan HP | [2026-10-06 announcement (trade-press reprint; the original page could not be retrieved)](https://iconnect007.com/article/151877/teradyne-introduces-titan-hp-platform-for-ai-data-center-devices/151874/ein) | Described as a "production-ready" enhanced burn-in system; says AI accelerators are entering the category needing burn-in | A large vendor targets the same budget. No production customer verified. AEHR -11.7% and SMH -0.2% that day; a date match only, causation unverified |
+| AEM AMPS-BI | [2024-07-09 company release](https://aem.com.sg/news/aem-introduces-the-new-generation-of-automated-burn-in-systems-for-ai-and-high-performance-compute-chip-testing/) | Says it was selected as Plan-of-Record by an unnamed major fabless HPC and AI chip company | A rival already claims a production selection in package level |
 | ATE plus prober | Advantest V93000, Teradyne UltraFLEX (CEO on the call) | Low parallelism but already on every line | Not burn-in, but may absorb some screening budget |
 | Rack-level burn-in | Server makers (CEO on the call) | The earliest stopgap | Highest cost; the source of the demand |
 | Chinese domestic rival | Suzhou Semight (10-K Note 9, patent suit) | Part of the claims upheld after two invalidation petitions | IP position in China is not fully secure |
@@ -88,7 +104,7 @@ Our read (inference): the $35-70M applies to **incremental** annual capacity, no
 | A second major customer will convert | Has not happened | Only the evaluation cell is bought; the company says the decision comes months after installation and validation |
 | Second hyperscale processor out-volumes the first | Customer forecast, relayed by the company | October release: about $6M follow-on for initial production sampling and expected ramp |
 | More than a dozen future customers | Management judgment | Release; no dollar split |
-| Silicon carbide recovery | Partly fact | 17% of FY2026 (10-K EV and power basis); on the call the CEO said both "less than 10%" and "about $10 million", which do not reconcile; we use the 10-K |
+| Silicon carbide recovery | Partly fact | 17% of FY2026 (10-K EV and power basis); on the call the CEO said both "less than 10%" and "about $10 million", while 10% of $50M is $5M, so the figures do not reconcile; we use the 10-K; over $8M of new orders announced 07-14 |
 
 **This report names no customer.** Company documents say only "lead hyperscale customer", "lead AI processor customer" and "a major supplier of AI accelerators, CPUs, and network processors". The CEO said on the call that the first wafer-level customer uses TSMC wafers, which is a process fact. Any naming is inference and is not written here.
 
@@ -107,7 +123,7 @@ Aehr's market cap is close to Cohu's, but Cohu's quarterly revenue of $173M is m
 
 ## 3. Financial health, cash quality and red flags <!-- report-module:financial -->
 
-**Fiscal-year change:** On 2026-04-02 the board moved the year-end from the Friday nearest May 31 to the Friday nearest June 30. FY2027 runs 2026-06-27 to 2027-06-25. The period 2026-05-30 to 06-26 is a separately reported 28-day transition period. The `fiscalYearEnd: 1231` in SEC metadata is not usable. [8-K](https://www.sec.gov/Archives/edgar/data/1040470/000165495426003310/aehr_8k.htm)
+**Fiscal-year change:** On 2026-04-02 the board moved the year-end from the Friday nearest May 31 to the Friday nearest June 30. FY2027 runs 2026-06-27 to 2027-06-25. The period 2026-05-30 to 06-26 is a separately reported 28-day transition period. Neither `fiscalYearEnd: 1231` in SEC metadata nor `--12-31` in the 10-K's XBRL is usable. [8-K](https://www.sec.gov/Archives/edgar/data/1040470/000165495426003310/aehr_8k.htm)
 
 **Quarters and transition period ($ thousands):**
 
@@ -120,9 +136,9 @@ Aehr's market cap is close to Cohu's, but Cohu's quarterly revenue of $173M is m
 | Transition | 2026-06-26 | 638 | (1,012) | n/a | (3,995) | (2,743) | not disclosed | not disclosed |
 | Q1 FY27 | 2026-09-25 | 33,007 | 15,663 | 47.5% | 6,047 | 7,181 | 46.7 | 100.9 |
 
-Q2 FY26 net income is derived as the FY2026 total less the other three quarters. Backlog roll-forward: $80.6M + $46.7M - $33.007M - $0.638M = $93.655M, $7.245M short of the reported $100.9M, implying about $7.2M of transition-month bookings (derived; not disclosed by the company).
+Q2 FY26 net income is derived as the FY2026 total less the other three quarters. Backlog roll-forward: $80.6M + $46.7M - $33.007M - $0.638M = $93.655M, $7.245M short of the reported $100.9M, implying about $7.2M of transition-month bookings (derived; not disclosed by the company). The CFO's "up from $80.6 million" skips the transition month: without deducting transition revenue, $94.3M is $6.6M short of $100.9M. Backlog is defined as shipping within 12 months, which does not mean all of it lands in FY2027, so 93% is an upper bound on coverage; whether the evaluation cell is in backlog is also undisclosed.
 
-**How the spliced TTM is built:** The company gives no continuous 52-week figure. This report uses Q2-Q4 FY26 plus Q1 FY27: $50.001M - $10.969M + $33.007M = **$72.039M**, skipping the transition month. Adding the transition month's $0.638M gives $72.677M, but that spans 56 weeks, not a year. Over the same window net income was $2.139M (-$0.604M with the transition month) and operating cash flow -$6.082M (-$9.894M with the transition month). The $150M FY2027 figure excludes the transition month.
+**How the spliced TTM is built:** The company gives no continuous 52-week figure. This report uses Q2-Q4 FY26 plus Q1 FY27: $50.001M - $10.969M + $33.007M = **$72.039M**, skipping the transition month. Adding the transition month's $0.638M gives $72.677M, but that spans 56 weeks, not a year. Over the same window net income was +$2.139M and -$0.604M with the transition month, so **including the transition month flips the sign of net income**; operating cash flow was -$6.082M, or -$9.894M with the transition month. The $150M FY2027 figure excludes the transition month.
 
 **Financial health matrix:**
 
@@ -141,12 +157,12 @@ Q2 FY26 net income is derived as the FY2026 total less the other three quarters.
 **Red flags and explanations:**
 
 - **Earnings quality.** Q1 pre-tax income was $6.927M and net income was higher at $7.181M. The CFO attributes the tax benefit mainly to disqualifying dispositions of options and excess RSU tax benefits (call), which track a high share price and will not persist. The non-GAAP measure does not normalize tax either: non-GAAP pre-tax $9.103M, net income $9.357M. Normalized at 21% that is $7.19M, 21.8% of revenue, not the reported 28.3% (derived).
-- **The guide's implied fade.** Non-GAAP net income of at least 20% of revenue is $30M. Q1 already supplied $9.357M, so the remaining three quarters need only $20.643M, 17.6% of $116.993M. This may reflect tax normalization and Q2 mix, or simple conservatism; the CEO himself says "trying to be conservative" (call).
+- **The guide's implied fade.** The 07-14 guide was 18-22%; it is now at least 20%, or $30M. Q1 already supplied $9.357M, so the remaining three quarters need only $20.643M, 17.6% of $116.993M, below Q1's 28.3%. This is a floor, not a forecast, and Q1 includes a tax benefit. It may reflect tax normalization and Q2 mix, or simple conservatism; the CEO himself says "trying to be conservative" (call).
 - **Deferred tax asset $25.120M.** This is 11.3% of equity. The 10-K says plainly that one basis for carrying no allowance is the expected return to profit in FY2027 and the backlog. If the forecast fails, an allowance is possible. Federal NOLs are $51.5M, of which $38.1M do not expire but carry an 80% limit. Near-term cash tax therefore runs below the book rate; this report does not add that to valuation (sensitivity in §8.2).
 - **One-offs.** FY2026 other income includes a $1.3M employee retention credit refund; Q1 FY26 other income was $1.051M. Neither touches Q1 FY27.
 - **Quarter-end revenue concentration.** The 10-K says a substantial portion of revenue is realized near quarter-end and that non-standard products defer revenue until customer specifications are met. Quarterly swings are structural.
 
-**Incal's effect on EV:** Acquired 2024-07-31 for $22.153M fair value: $10.631M cash, 552,355 restricted shares at $9.381M, $2.381M escrow payable, -$0.240M working capital adjustment. After the $1.8M escrow release in FY2026, the 10-K shows a zero escrow payable balance. No contingent consideration was found. Incal is therefore not an EV adjustment. Q1 FY27 acquisition adjustments are $296K on both the operating and pre-tax lines, which indicates no remaining escrow accretion; the release's footnote wording is a leftover (inference).
+**Incal's effect on EV:** Acquired 2024-07-31 for $22.153M fair value: $10.631M cash, 552,355 restricted shares at $9.381M, $2.381M escrow payable, -$0.240M working capital adjustment. The $2.5M escrow was released as $0.7M in FY2025 and $1.8M in FY2026, and the 10-K shows a zero escrow payable balance. The 10-K contains no acquisition-related contingent consideration. Incal is therefore not an EV adjustment. Q1 FY27 acquisition adjustments are $296K on both the operating and pre-tax lines, against $342K and $365K a year earlier, which shows escrow accretion has reached zero; the release's footnote wording is a leftover.
 
 **Cash bridge (05-29 to 09-25, $ thousands):**
 
@@ -168,10 +184,10 @@ The company has no repurchase plan (10-K). The largest financing outflow in Q1 i
 
 | Period | What the company said | Outcome |
 |---|---|---|
-| FY2024 | At least $100M in 2023; cut to $75-85M in 2024-01; cut to above $65M in 2024-03 | Actual $66.2M, 34% below the first guide. Backlog was only $3.0M at 2023-11-30, with Q2 bookings of $2.2M, as EV customers slowed |
-| FY2025 | Guidance withdrawn in 2025-04 on tariffs; not reinstated by 2025-10 | FY2025 $59.0M; FY2026 $50.0M |
+| FY2024 | At least $100M in 2023-07; cut to $75-85M in 2024-01; cut to above $65M in 2024-03 | Actual $66.2M, 34% below the first guide. Effective backlog of $39.7M in 2023-07 became backlog of $3.0M at 2023-11-30 in about 4.5 months, with bookings of $2.2M that quarter, as EV customers slowed |
+| FY2025 | At least $70M in 2024-07; withdrawn in 2025-04 on tariffs; not reinstated by 2025-10 | FY2025 $59.0M, net loss $3.9M; FY2026 $50.0M |
 | 2H FY2026 | In 2026-01, guided revenue $25-30M and bookings $60-80M | Revenue $29.1M in range; bookings $97.9M above the top |
-| FY2027 | Guided $130-150M in 2026-07; moved to $150M in 2026-11 | To be tested; effective backlog covers about 93% of remaining revenue |
+| FY2027 | Guided $130-150M in 2026-07; moved to $150M in 2026-11 | To be tested; effective backlog equals about 93% of remaining revenue |
 
 Our read: the latest record is clearly better than FY2024, and $100.9M of backlog is a different foundation from $3.0M. But both times management used customer forecasts to carry the narrative at a cycle turn. The difference this time is that orders have arrived; the FY2028 portion still rests on forecasts.
 
@@ -185,23 +201,34 @@ Our read: the latest record is clearly better than FY2024, and $100.9M of backlo
 | 2026-04 | $60M ATM (William Blair, Craig-Hallum, commission up to 3%) | 812,185 | $73.87 | about $60.0M |
 | Total | $100M shelf fully used | 1,942,653 | $51.48 | about $100M; FY2026 net $97.4M |
 
-On 2026-07-27 the company filed an S-3ASR automatic shelf; the registration statement text lists no offering cap. Per our 11-05 poll of SEC submissions, no 424B5 has been filed since 2026-04-08, so **there is no sign a new ATM has started**. Authorized shares are 75 million against 32.66 million issued. On timing, management sold stock near $74, the shares then reached $145, and they are now back at $60.84. The financing was a rational response to cash needs and valuation, and it is also a precedent for future dilution.
+On 2026-07-27 the company filed an S-3ASR automatic shelf; the registration statement text lists no offering cap (the fee exhibit was not read). Per our 11-05 poll of SEC submissions, no 424B5 has been filed since 2026-04-08: **there is no ATM today, but the shelf is effective and one prospectus supplement can start one**. Authorized shares are 75 million against 32.66 million issued. On timing, management sold stock near $74, the shares then reached $145, and they are now back at $60.84. The financing was a rational response to cash needs and valuation, and it is also a precedent for future dilution.
 
-**Insider transactions (parsed from Form 4s since 2026-03, 219 transaction lines):**
+**Insider transactions (parsed from Form 4s since 2026-03, excluding originals superseded by a 4/A, 213 transaction lines):**
 
 | Month | Sales (code S) shares | Amount | Avg. price | Main sellers |
 |---|---:|---:|---:|---|
-| 2026-04 (9th to 22nd) | 547,991 | $42.59M | $77.72 | CEO $10.79M, director Scott $10.75M, director Posedel $7.20M |
+| 2026-04 (9th to 22nd) | 512,991 | $40.22M | $78.40 | CEO $10.79M, director Scott $8.38M, chairman Posedel $7.20M |
 | 2026-05 | 8,889 | $0.94M | $105.27 | Director Slayen, CFO Siu |
 | 2026-07 | 20,000 | $1.64M | $82.13 | Director Scott |
 | 2026-08 (4th to 17th) | 135,469 | $17.30M | $127.74 | CEO $5.23M, Slayen $2.92M, Scott $2.63M |
-| Total | 712,349 | $62.47M | $87.70 | Purchases (code P): zero |
+| Total | 677,349 | $60.10M | $88.73 | Purchases (code P): zero |
 
-- None of this is tax withholding: the 10b5-1 box is unchecked on every code S line. Withholding (code F) is separate; 2026-07 was 54,886 shares, $4.40M, matching the $4.474M in Q1 cash flow.
-- April sales overlap the company's ATM (04-08 to 04-17) in time: insiders averaged $77.72, the company $73.87.
-- Sales on August 12 alone were $11.15M, the same day the company announced the $22M order. This is a date fact; we make no judgment about motive.
-- The 10-13 to 11-02 cluster of filings contains no code S: code F withholding, ESPP purchases (code J), Posedel's exercise of 18,000 options, and a 2,169-share new-director grant.
+- The 10b5-1 box is unchecked on all 61 code S lines. Withholding (code F) is not a sale and is counted separately: 55,903 shares and $4,474,357 in the Q1 window, 682 shares and $70,811 in the transition month, matching the $4,474K and $71K in cash flow exactly.
+- April sales overlap the company's ATM (04-08 to 04-17) in time: insiders averaged $78.40 in April, the company $73.87. Scott's 04-09 sale is counted at the 40,000 shares corrected by the 4/A.
+- On 08-12 the company announced the $22M order, and code S sales that day totaled 85,130 shares and $11.15M: the CEO (indirect) 40,000 shares and $5.23M, Scott $2.63M, COO Engineer $1.97M, Posedel $1.09M, Oliphant $0.23M.
+- On 04-16 the company announced the $41M order, and code S sales that day totaled 36,381 shares and $3.01M: Posedel, Danesh, Oliphant, Rogers, Sporck.
+- These are date facts; we make no judgment about motive.
+- There is no code S from 09-01 to 11-05: code F 15,854 shares and $1.47M, ESPP purchases (code J) 9,606 shares, Posedel's exercise and hold of 18,000 options, and a 2,169-share new-director grant.
 - Proxy basis (08-27): all directors and executive officers beneficially held 1,488,042 shares, 4.6%.
+
+**Large holders (13G, event-date basis):**
+
+| Holder | Event date | Shares | Share | Read |
+|---|---|---:|---:|---|
+| Jane Street Group | 2026-07-24 | 1,648,523 | 5.1% | New; a market maker, so the position may include hedges or trading inventory (inference). The proxy shows 5.0% on a different denominator |
+| FMR LLC | 2026-06-30 | 1,006,830 | 3.2% | Exit-type amendment below 5%; 2,142,639 shares and 7.0% at 2026-03-31 |
+| AWM Investment | 2026-06-30 | 374,808 | 1.1% | Exit-type amendment below 5% |
+| BlackRock | 2024-01 13G | 2,077,807 | 6.4% | The proxy reuses a nearly three-year-old 13G; not a current holding |
 
 **Governance:** On 2026-10-24 the board went from six seats to seven. Narsing Vijayrao (formerly VP of Infrastructure at Meta, 2013-04 to 2026-08; before that at AMD) joined effective 10-28 and sits on the Compensation Committee; the 8-K reports no Item 404(a) transactions. At the 10-19 annual meeting, founder and chairman Posedel drew 13,494,820 votes for and 2,583,535 withheld, the most withheld of the six nominees. The auditor is BPM LLP. The company discloses manual-process risk in its SOX 404 work and is a non-accelerated filer (FY2026 10-K cover).
 
@@ -225,8 +252,9 @@ On 2026-07-27 the company filed an S-3ASR automatic shelf; the registration stat
 4. **This is an incremental-capacity business.** AI chip output can keep rising at a slower rate and equipment revenue can still fall. The 10-K says most orders can be cancelled or rescheduled with limited penalties and that backlog does not assure revenue. The -60.4% in contactors from FY2024 to FY2026 is a real sample.
 5. **Screening intensity can fall.** The 10-K says customers may shorten burn-in or move to sampling as yields improve. Burn-in is heaviest early in a device's ramp and may not stay there as it matures.
 6. **Cash did not come from operations.** TTM operating cash flow is -$6.082M, and a revenue ramp consumes working capital first. A shelf is in place, and the company has sold stock when prices were strong.
-7. **Insiders only sell.** About $62.47M sold, zero purchases. It proves nothing by itself, but there is no offsetting signal.
-8. **Volatility is its own risk.** Beta to SMH is about 2.5 (88 sessions since 07-01, correlation 0.73, computed here). The 2025-04-08 close of $6.78 put EV at about 2.9x FY2025 revenue.
+7. **Insiders only sell.** About $60.10M sold, zero purchases; FMR went from 7.0% to 3.2%. It proves nothing by itself, but there is no offsetting signal.
+8. **Its own product and large vendors compete for the same budget.** The CEO says the real competition to package level is FOX, so a wafer-level win would offset some Sonoma demand. Teradyne launched a burn-in offering in October, and AEM claims a Plan-of-Record customer.
+9. **Volatility is its own risk.** Beta to SMH is about 2.5 (88 sessions since 07-01, correlation 0.73, computed here). The 2025-04-08 close of $6.78 put EV at about 2.9x FY2025 revenue.
 
 **Valuation implication:** Base $36.08 (-40.7%), bear $15.80 (-74.0%, -55.8% annualized). The bear-case revenue of $110M is still 2.2x FY2026, so this is not a return to the trough.
 
@@ -244,20 +272,19 @@ On 2026-07-27 the company filed an S-3ASR automatic shelf; the registration stat
 **`review-pending` (waiting on the Q1 FY2027 10-Q; a non-accelerated filer's 45-day deadline implies about 2026-11-09, derived):**
 
 - Latest cover share count; this report uses 32.663M at 09-25 as the floor and 33.584M diluted.
-- Restricted cash detail (only the $0.150M difference is known).
 - Q1 customer concentration, geography and product split.
 - Transition-month bookings and further detail.
 - Purchase commitments and vendor prepayments.
 
-**Other unknowns:** The company does not disclose AI-processor share of revenue, Sonoma pricing, the evaluation cell's value and payment terms, or how much of the $22M order lands in FY2027. **Transcript-based figures:** call content comes from third-party transcripts; the company's IR webcast is the canonical source, and we did not compare against the audio word for word.
+**Other unknowns:** The company does not disclose AI-processor share of revenue, Sonoma pricing and product-level margins, the evaluation cell's value, payment terms and whether it is in backlog, or how much of the $22M order lands in FY2027. **Transcript-based figures:** call content comes from third-party transcripts; the company's IR webcast is the canonical source, and we did not compare against the audio word for word.
 
 **Thesis-breaking conditions:** A production order from the evaluation customer large enough to support FY2028 revenue above $310M breaks this report's negative-skew conclusion. A cut in the FY2027 guide below $130M, or cancellation of the second processor, should reduce the bull weight.
 
 ## 8. Valuation context, reverse growth and scenario returns <!-- report-module:valuation -->
 
-**Price and share basis:** $60.84 is the 2026-11-04 close (Nasdaq and CNBC agree). Results came after the 11-02 close, so 11-03 and 11-04 are both post-earnings closes and no price fork is needed. Shares use the treasury method: 32.663M (issued at 09-25) + 0.693M RSUs (07-23) + 0.228M options (0.252M × (1 - $5.81/$60.84)) = **33.584M**, market cap $2.043B. The quarter's diluted weighted average of 33.520M uses the quarter's average price and serves only as a check; 32.663M basic gives $1.987B. The RSU count is as of 07-23 and overlaps slightly with 09-25 issued shares, an error under 0.05M.
+**Price and share basis:** $60.84 is the 2026-11-04 close (Nasdaq and CNBC agree). Results came after the 11-02 close, so 11-03 and 11-04 are both post-earnings closes and no price fork is needed. Shares use the treasury method: 32.663M (issued at 09-25) + 0.693M RSUs (07-23) + 0.228M options (0.252M × (1 - $5.81/$60.84)) = **33.584M**, market cap $2.043B. The quarter's diluted weighted average of 33.520M uses the quarter's average price and serves only as a check; 32.663M basic gives $1.987B. The RSU count is as of 07-23, includes the 07-01 grants, and overlaps slightly with 09-25 issued shares, an error under 0.05M. PRSU over-achievement (up to about 0.07M shares) and future grant capacity are not counted.
 
-**Cash:** Cash and equivalents of $104.902M go into EV; the $105.1M figure includes $0.150M restricted cash and is not used. No financial debt. Operating leases of $9.804M are excluded. Incal has no contingent consideration. EV = $2.043B - $104.9M = **$1.938B**.
+**Cash:** Cash and equivalents of $104.902M go into EV; the $105.1M figure includes $0.150M restricted cash and is not used. That $0.150M is identical at 05-29, 06-26 and 09-25, and the 10-K describes restricted cash as a manufacturing and office lease deposit (rounded to $0.2M), so we treat it as the same item (inference). No financial debt. Operating leases of $9.804M are excluded. Incal has no contingent consideration. EV = $2.043B - $104.9M = **$1.938B**.
 
 | Valuation method | Input | Result | Meaning |
 |---|---|---:|---|
@@ -337,7 +364,7 @@ Expectation gap: at $60.84 the market prices about $310-337M; our base case is $
 
 No single favorable sensitivity brings the weighted return to 8%; only moving the bull weight to 60% does. Weights are research judgment, and no objective frequency proves them.
 
-**Price action (no causal claim):** 11-03 was +26.5% on 8.75M shares with SMH +2.0%; 11-04 was -6.6% with SMH -2.7%. Facts: Q1 exceeded consensus (CFO), and the guide moved to the top of its range; short interest on 10-15 was 5,622,469 shares, 17.2% of issued shares, about 2.0 days to cover, and the 10-30 reading is not yet published; before earnings, from 10-12 to 11-02, the stock fell 34.2% and SMH 14.0%, a ratio of 2.4, close to the 2.5 beta. Inference: the 11-04 pullback is largely explained by beta (about -6.8%); how much of the 11-03 gain was fundamental re-rating and how much short covering cannot be determined. From 08-17 to 08-28 the stock fell 44.5% against SMH -6.9%, far beyond beta, and we found no company-level cause; third-party articles call it profit-taking, unconfirmed. Insider sales of $17.30M in August are a fact but cannot be used to attribute the move.
+**Price action (no causal claim):** 11-03 was +26.5% on 8.75M shares with SMH +2.0%; 11-04 was -6.6% with SMH -2.7%. Facts: Q1 exceeded consensus (CFO; the specific consensus figure was not verified), and the guide moved to the top of its range; short interest on 10-15 was 5,622,469 shares, 17.2% of issued shares (not a free-float basis), about 2.0 days to cover, up about 29% from 08-14, and the 10-30 reading is not yet published; peers on 11-03 were TER +3.2%, FORM +10.9%, COHU +3.4%, and on 11-04 -6.8%, -11.9%, -12.1%; before earnings, from 10-12 to 11-02, the stock fell 34.2% and SMH 14.0%, a ratio of 2.4, close to the 2.5 beta. Inference: the 11-04 pullback coincides with a broad decline in test names and is close to what beta implies (about -6.8%), so it is not attributed to AEHR alone. The cause of the 11-03 gain is **undetermined**: results and guidance were a catalyst and covering is possible, but the split between re-rating and covering cannot be determined. From 08-17 to 08-28 the stock fell 44.5% against SMH -6.9%, far beyond beta, and we found no company-level cause; third-party articles call it profit-taking, unconfirmed. Insider sales of $17.30M from 08-04 to 08-17, before that fall, are a fact but cannot be used to attribute the move.
 
 ## 9. Catalysts, timeline and monitoring <!-- report-module:catalysts -->
 
@@ -345,7 +372,7 @@ No single favorable sensitivity brings the weighted return to 8%; only moving th
 |---|---|---|---|
 | 2026-11 (by about 11-09, derived) | Q1 FY27 10-Q | Customer concentration, shares, contract terms | Clears `review-pending` |
 | 2026-12-15 | NYC CEO Summit (mentioned on the call) | Any change in framing | Small |
-| 2027-01 to 02 (derived) | Q2 FY27 results | Revenue above Q1, gross margin below Q1, bookings | Bookings matter most |
+| About late 2027-01 to early 02 (derived from past lags) | Q2 FY27 results | Revenue above Q1, gross margin below Q1, bookings | Bookings matter most |
 | Early 2027 | Evaluation cell installed at Taiwan OSAT | On schedule or not | A delay is negative |
 | 1H CY2027 | Production decision | The order amount, not the wording | Decides the bull and bear cases |
 | CY2027 | Second processor ramp | Sonoma follow-on orders | Decides the base case |
@@ -358,8 +385,8 @@ No single favorable sensitivity brings the weighted return to 8%; only moving th
 | `benchmark-wlbi-decision` | Evaluation customer's production decision | Rejection, or no production order by 2027-09-30 | Decided to buy one FOX-XP test cell, to install at a Taiwan OSAT in early 2027; no production order | Q3 FY27 results, about 2027-04/05 |
 | `sonoma-second-processor` | Hyperscale customer's Sonoma cadence | Monthly shipments below a dozen with no follow-on for the second device, or second-device ramp slips past 2027 | More than a dozen per month (call); second device qualified, about $6M follow-on | Q2 FY27 results |
 | `bookings-backlog` | Bookings and backlog | Book-to-bill below 1.0 in both FY27 Q2 and Q3, or backlog below $80M | Q1 bookings $46.7M, about 1.4; backlog $100.9M, effective $109.3M | Q2 FY27 results |
-| `fy27-guide-margin` | FY2027 guide and gross margin | Revenue guide below $130M, or full-year non-GAAP gross margin below 47% | $150M; at least 20%; Q1 non-GAAP 48.5%; CFO says about 48.5% for the year, plus or minus half a point | Q2 FY27 results |
-| `cash-and-dilution` | Cash and dilution | Cash below $75M, or a new ATM or offering under the S-3ASR | Cash $104.902M; Q1 operating cash flow -$3.054M; no new 424B5 since 04-08 | Each report and 424B filing |
+| `fy27-guide-margin` | FY2027 guide and gross margin | Revenue guide below $130M, or full-year non-GAAP gross margin below 47% | $150M; at least 20% (was 18-22%); Q1 non-GAAP 48.5%; CFO says about 48.5% for the year, plus or minus half a point | Q2 FY27 results |
+| `cash-and-dilution` | Cash and dilution | Cash below $75M, or a new ATM or offering under the S-3ASR | Cash $104.902M; Q1 operating cash flow -$3.054M; the old $100M shelf is used up, the S-3ASR is effective, and with no new 424B5 since 04-08 there is no ATM today but one can start at any time | Each report and 424B filing |
 
 ## 10. Conclusion <!-- report-module:conclusion -->
 
@@ -399,13 +426,14 @@ No single favorable sensitivity brings the weighted return to 8%; only moving th
 - [S-3ASR (2026-07-27)](https://www.sec.gov/Archives/edgar/data/1040470/000165495426006922/aehr_s3asr.htm): 32,620,450 shares at 07-20; 252,489 options (average $5.81) and 692,905 RSUs at 07-23.
 - [424B5 (2026-04-08)](https://www.sec.gov/Archives/edgar/data/1040470/000165495426003353/aehr_424b5.htm), [8-K ATM agreement (2026-04-08)](https://www.sec.gov/Archives/edgar/data/1040470/000165495426003355/aehr_8k.htm), [8-K ATM completed (2026-04-20)](https://www.sec.gov/Archives/edgar/data/1040470/000165495426003746/aehr_8k.htm).
 - [8-K fiscal-year change (2026-04-07)](https://www.sec.gov/Archives/edgar/data/1040470/000165495426003310/aehr_8k.htm), [8-K new director (2026-10-29)](https://www.sec.gov/Archives/edgar/data/1040470/000165495426009242/aehr_8k.htm), [8-K annual meeting (2026-10-20)](https://www.sec.gov/Archives/edgar/data/1040470/000165495426009056/aehr_8k.htm), [Proxy statement (2026-09-09)](https://www.sec.gov/Archives/edgar/data/1040470/000165495426008222/aehr_def14a.htm).
-- Earlier releases: [Q4 FY26](https://www.sec.gov/Archives/edgar/data/1040470/000165495426006655/aehr_ex991.htm), [Q3 FY26](https://www.sec.gov/Archives/edgar/data/1040470/000165495426003310/aehr_ex991.htm), [Q2 FY26](https://www.sec.gov/Archives/edgar/data/1040470/000165495426000197/aehr_ex991.htm), [Q1 FY26](https://www.sec.gov/Archives/edgar/data/1040470/000165495425011494/aehr_ex991.htm), [Q3 FY25 guidance withdrawal](https://www.sec.gov/Archives/edgar/data/1040470/000165495425004020/aehr_ex991.htm), [Q3 FY24](https://www.sec.gov/Archives/edgar/data/1040470/000165495424004414/aehr_ex991.htm), [Q2 FY24](https://www.sec.gov/Archives/edgar/data/1040470/000165495424000372/aehr_ex991.htm).
-- Company announcements: [$22M follow-on order (2026-08-12)](https://www.aehr.com/2026/08/aehr-receives-22-million-follow-on-order-for-ai-processor-wafer-level-burn-in-systems/), [about $6M Sonoma follow-on orders (2026-10-07)](https://www.aehr.com/2026/10/aehr-receives-follow-on-sonoma-production-orders-for-lead-hyperscale-customer-s-next-generation-ai-processor/), [silicon photonics follow-on order (2026-08-04)](https://www.aehr.com/2026/08/aehr-test-systems-expands-silicon-photonics-production-momentum-with-follow-on-production-order-from-lead-customer/).
-- [Form 4 filing list (SEC)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1040470&type=4): XML parsed line by line, including codes F, S, M, J, G and A.
+- Earlier releases: [Q4 FY26](https://www.sec.gov/Archives/edgar/data/1040470/000165495426006655/aehr_ex991.htm), [Q3 FY26](https://www.sec.gov/Archives/edgar/data/1040470/000165495426003310/aehr_ex991.htm), [Q2 FY26](https://www.sec.gov/Archives/edgar/data/1040470/000165495426000197/aehr_ex991.htm), [Q1 FY26](https://www.sec.gov/Archives/edgar/data/1040470/000165495425011494/aehr_ex991.htm), [Q3 FY25 guidance withdrawal](https://www.sec.gov/Archives/edgar/data/1040470/000165495425004020/aehr_ex991.htm), [FY25 guide (2024-07-16)](https://www.sec.gov/Archives/edgar/data/1040470/000165495424009013/aehr_ex991.htm), [Q3 FY24](https://www.sec.gov/Archives/edgar/data/1040470/000165495424004414/aehr_ex991.htm), [Q2 FY24](https://www.sec.gov/Archives/edgar/data/1040470/000165495424000372/aehr_ex991.htm), [FY24 guide (2023-07-13)](https://www.sec.gov/Archives/edgar/data/1040470/000165495423009130/aehr_ex991.htm).
+- Company announcements: [$14M order (2026-02-26)](https://www.aehr.com/2026/02/aehr-receives-14-million-order-from-lead-ai-processor-customer-for-multiple-new-fully-automated-fox-xp-wafer-level-burn-in-systems/), [$41M order (2026-04-16)](https://www.aehr.com/2026/04/aehr-receives-record-41-million-production-order-from-lead-hyperscale-ai-customer-second-half-bookings-exceed-92-million/), [over $8M silicon carbide orders (2026-07-14)](https://www.aehr.com/2026/07/aehr-receives-more-than-8-million-in-new-silicon-carbide-wafer-level-burn-in-orders-as-global-electric-vehicle-programs-accelerate/), [$22M follow-on order (2026-08-12)](https://www.aehr.com/2026/08/aehr-receives-22-million-follow-on-order-for-ai-processor-wafer-level-burn-in-systems/), [about $6M Sonoma follow-on orders (2026-10-07)](https://www.aehr.com/2026/10/aehr-receives-follow-on-sonoma-production-orders-for-lead-hyperscale-customer-s-next-generation-ai-processor/), [silicon photonics follow-on order (2026-08-04)](https://www.aehr.com/2026/08/aehr-test-systems-expands-silicon-photonics-production-momentum-with-follow-on-production-order-from-lead-customer/).
+- [Form 4 filing list (SEC)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1040470&type=4): XML parsed line by line, including codes F, S, M, J, G and A; Scott's 04-09 sale follows the [4/A](https://www.sec.gov/Archives/edgar/data/1040470/000165495426003553/).
+- 13G: [Jane Street (2026-07-29)](https://www.sec.gov/Archives/edgar/data/1040470/000159588826000075/xslSCHEDULE_13G_X02/primary_doc.xml), [FMR (2026-08-06)](https://www.sec.gov/Archives/edgar/data/1040470/000031506626001938/xslSCHEDULE_13G_X02/primary_doc.xml), [FMR (2026-05-06)](https://www.sec.gov/Archives/edgar/data/1040470/000031506626001114/xslSCHEDULE_13G_X02/primary_doc.xml), [AWM (2026-08-14)](https://www.sec.gov/Archives/edgar/data/1040470/000153526426000048/xslSCHEDULE_13G_X02/primary_doc.xml).
 
 **Figures sourced to the call (third-party transcript, [StockAnalysis/Quartr](https://stockanalysis.com/stocks/aehr/transcripts/708298-q1-2027/), compared with the [Motley Fool transcript](https://www.fool.com/earnings/call-transcripts/2026/11/03/aehr-test-systems-aehr-q1-2027-earnings-call-transcript/)):** contactors and related $13.5M/41%, prior year $2.6M/24%; consumables about 35% in FY2027 and about 30% long term; 5-10 systems and $35-70M per million units, $6-7M or more per system, 25 million units in 2027; more than 20 per month in Southeast Asia; FY2027 non-GAAP gross margin about 48.5%, plus or minus half a point; prior-year Q1 bookings $11.4M (also in the release); tax explanation; FY2026 silicon carbide spoken figures.
 
-**One transcript trap:** Some summaries say management guided Q2 revenue below Q1. In the original, that CFO line is an answer about gross margin ("Q2 would probably be lower"). On revenue, the CEO says each remaining quarter grows a little, with Q4 highest. This report follows the original.
+**Transcript traps:** Some summaries say management guided Q2 revenue below Q1. In the original, that CFO line is an answer about gross margin ("Q2 would probably be lower"). On revenue, the CEO says each remaining quarter grows a little, with Q4 highest. This report follows the original. Transcripts also render the CFO as Chris Hsu (the 8-K signature is Chris P. Siu), present 163% as GAAP growth (the release says non-GAAP), turn "150" into "51", and give non-GAAP opex growth as +36% (the release shows $7,801K against $5,949K, about +31%). The Motley Fool page says parts were created with large language models, and its summary section is not cited.
 
 **Market data:** [Nasdaq historical prices](https://www.nasdaq.com/market-activity/stocks/aehr/historical), [Nasdaq short interest](https://www.nasdaq.com/market-activity/stocks/aehr/short-interest); peer market caps use 11-04 closes times SEC cover shares, and TTM is spliced from SEC XBRL data without adjusting for non-recurring items.
 
