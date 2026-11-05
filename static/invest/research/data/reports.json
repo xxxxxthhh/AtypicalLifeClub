@@ -10680,8 +10680,8 @@
     "priceSymbol": "ALAB",
     "title": "Astera Labs 深度研究报告 - 机架级 fan-out 是否构成独立瓶颈的架构校验",
     "titleEn": "Astera Labs Deep Research Report - Architecture Check on Whether Rack-Scale Fan-Out Is a Distinct Bottleneck",
-    "summary": "2026-11-04 — Q3 2026（季度截至 2026-09-30；8-K Ex 99.1，2026-11-03）收入 $584.9M（环比 +49%、同比 +154%），指引 $540–560M；公司称 Scorpio 成为收入最大的产品家族；GAAP／非 GAAP 毛利率 72.3%／72.4%，GAAP／非 GAAP 营业利润率 30.6%／44.7%，GAAP／非 GAAP 摊薄 EPS $0.99／$1.32。Q4 2026 指引：收入 $730–750M、毛利率约 72%（GAAP 与非 GAAP）、非 GAAP 摊薄 EPS $1.62–1.66。 估值与立场仍按 2026-10-09 历史基础；Q3 实绩与新指引待 Mode B 重算，客户表与权证项未更新，价格、估值数字、立场和确信度本包未更新。",
-    "summaryEn": "2026-11-04 — Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1, 2026-11-03) revenue was $584.9M (+49% QoQ, +154% YoY) against guidance of $540-560M; the company says Scorpio became its largest product family by revenue; GAAP / non-GAAP gross margin 72.3% / 72.4%, GAAP / non-GAAP operating margin 30.6% / 44.7%, GAAP / non-GAAP diluted EPS $0.99 / $1.32. Q4 2026 guidance: revenue $730-750M, gross margin about 72% (GAAP and non-GAAP), non-GAAP diluted EPS $1.62-1.66. Valuation and stance remain on the 2026-10-09 historical basis; Q3 actuals and the new guidance await Mode B recomputation, the customer table and warrant items are not updated, and price, valuation figures, stance and conviction are not updated in this package.",
+    "summary": "2026-11-05 — Q3 2026 10-Q（0001736297-26-000045，2026-11-04 申报）：MD&A 把 GAAP 毛利率同比下降 390 个基点至 72.3% 归因于存货相关费用、制造费用上升和认股权证。存货 $200.9M（其中在制品 $160.7M；2025-12-31 为 $59.0M），经营现金流讨论称前九个月存货增加 $139.1M 主要为支持预期需求。购买承诺 $163.6M，主要是软件许可和云托管。 2026-11-04 — Q3 2026（季度截至 2026-09-30；8-K Ex 99.1，2026-11-03）收入 $584.9M（环比 +49%、同比 +154%），指引 $540–560M；公司称 Scorpio 成为收入最大的产品家族；GAAP／非 GAAP 毛利率 72.3%／72.4%，GAAP／非 GAAP 营业利润率 30.6%／44.7%，GAAP／非 GAAP 摊薄 EPS $0.99／$1.32。Q4 2026 指引：收入 $730–750M、毛利率约 72%（GAAP 与非 GAAP）、非 GAAP 摊薄 EPS $1.62–1.66。 估值与立场仍按 2026-10-09 历史基础；Q3 实绩与新指引待 Mode B 重算，客户表与权证项未更新，价格、估值数字、立场和确信度本包未更新。",
+    "summaryEn": "2026-11-05 — Q3 2026 10-Q (0001736297-26-000045, filed 2026-11-04): MD&A attributes the 390 bp YoY decline in GAAP gross margin to 72.3% to higher inventory-related charges, higher manufacturing overhead and the warrants. Inventory was $200.9M (work-in-progress $160.7M; $59.0M at 2025-12-31), and the cash-flow discussion says the $139.1M nine-month inventory increase was primarily a build to support anticipated demand. Purchase commitments were $163.6M, primarily software licenses and cloud hosting. 2026-11-04 — Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1, 2026-11-03) revenue was $584.9M (+49% QoQ, +154% YoY) against guidance of $540-560M; the company says Scorpio became its largest product family by revenue; GAAP / non-GAAP gross margin 72.3% / 72.4%, GAAP / non-GAAP operating margin 30.6% / 44.7%, GAAP / non-GAAP diluted EPS $0.99 / $1.32. Q4 2026 guidance: revenue $730-750M, gross margin about 72% (GAAP and non-GAAP), non-GAAP diluted EPS $1.62-1.66. Valuation and stance remain on the 2026-10-09 historical basis; Q3 actuals and the new guidance await Mode B recomputation, the customer table and warrant items are not updated, and price, valuation figures, stance and conviction are not updated in this package.",
     "tags": [
       "AI基础设施",
       "芯片互连",
@@ -10690,7 +10690,7 @@
     ],
     "category": "tech",
     "date": "2026-07-31",
-    "lastUpdate": "2026-11-04",
+    "lastUpdate": "2026-11-05",
     "file": "/invest/research/reports/view.html?id=alab-2026",
     "markdownFiles": {
       "zh": "/invest/research/Astera_Labs_深度研究报告_2026-07.md",
@@ -10701,7 +10701,7 @@
     "versionLabel": "2026H1 + 2026-10-11 Independent Review",
     "highlights": [
       "Q3 2026（2026-11-03 发布）：收入 $584.9M（+154%），高于 $540–560M 指引；公司称 Scorpio 成为收入最大的产品家族",
-      "毛利率：非 GAAP 72.4%（Q2 为 73.7%），Q4 指引约 72%；未低于约 70%，新结构性折让腿待 Q3 10-Q",
+      "毛利率：非 GAAP 72.4%（Q2 为 73.7%），Q4 指引约 72%；未低于约 70%。10-Q 把 GAAP 毛利率下降归因于存货费用、制造费用和认股权证，未提新折让",
       "Q4 指引：收入 $730–750M、非 GAAP 摊薄 EPS $1.62–1.66",
       "业绩稿无客户集中度表，客户表未更新；Aries 7 仍是 Q4 送样预期，不是已实现订单或收入",
       "估值仍按 2026-10-09 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。"
@@ -10757,14 +10757,14 @@
           "en": "Non-GAAP gross margin settles below ~70% for two consecutive quarters, or a new structural discount appears beyond the warrant contra-revenue"
         },
         "latest": {
-          "zh": "Q3 2026（8-K Ex 99.1，2026-11-03）GAAP／非 GAAP 毛利率 72.3%／72.4%（Q2 为 73.3%／73.7%），Q4 指引约 72%。未低于约 70%；是否出现权证之外的新结构性折让，要等 Q3 10-Q，业绩稿未说明。",
-          "en": "Q3 2026 (8-K Ex 99.1, 2026-11-03) GAAP / non-GAAP gross margin was 72.3% / 72.4% (Q2: 73.3% / 73.7%), and Q4 guidance is about 72%. It is not below ~70%; whether a new structural discount beyond the warrants has appeared awaits the Q3 10-Q, and the release does not address it."
+          "zh": "Q3 2026 GAAP／非 GAAP 毛利率 72.3%／72.4%（Q2：73.3%／73.7%），Q4 指引约 72%，未低于约 70%。10-Q（2026-11-04 申报）MD&A 把 GAAP 毛利率同比下降 390 个基点归因于存货相关费用、制造费用上升和认股权证，没有提到认股权证以外的新折让；这是公司的归因，不能证明不存在其他定价让步。",
+          "en": "Q3 2026 GAAP / non-GAAP gross margin was 72.3% / 72.4% (Q2: 73.3% / 73.7%), and Q4 guidance is about 72%, so it is not below about 70%. The 10-Q (filed 2026-11-04) MD&A attributes the 390 bp YoY GAAP decline to higher inventory-related charges, higher manufacturing overhead and the warrants, and mentions no new discount beyond the warrants; this is the issuer's attribution and does not prove that no other pricing concession exists."
         },
         "nextCheck": "每季毛利率与 Q3 指引兑现情况 / quarterly gross margin and delivery against the Q3 guide",
         "reading": "unclear",
-        "readingAsOf": "2026-11-03",
+        "readingAsOf": "2026-11-04",
         "nextCheckDate": "2026-11",
-        "readingNote": "两季低于约 70% 的腿未成立；结构性折让腿未被所读文件覆盖。 / The two-quarter below-~70% leg is not met; the read document does not cover the structural-discount leg."
+        "readingNote": "两季低于约 70% 的腿未成立；新结构性折让腿缺少可证伪的披露。 / The two-quarter-below-70% leg is not met; the new-structural-discount leg lacks falsifying disclosure."
       },
       {
         "id": "customer-concentration",
@@ -10842,13 +10842,14 @@
           "en": "Astera or a peer states that retimers or fabric switches are on allocation or that lead times have extended materially, or a customer cluster slips for want of interconnect silicon - any of which would upgrade this layer from an architecture read to a constraint read"
         },
         "latest": {
-          "zh": "Q2 库存 $113.781M、采购承诺 $181.669M；这些余额不证明配给、缺货、交期或已执行订单。旧 within 依赖 Q1 电话会供应口径，本轮未取得足够新的公开供应/交期证据来维持当前 within，因此改为 unclear，独立瓶颈仍未获证实。",
-          "en": "Q2 inventory was $113.781M and purchase commitments $181.669M; balances do not establish allocation, shortages, lead times or executed orders. The old within relied on Q1 call commentary; this review lacks sufficient refreshed public supply/lead-time evidence to maintain a current within reading, so it is unclear. An independent bottleneck remains unproven."
+          "zh": "Q3 10-Q（2026-11-04 申报）：存货 $200.9M（在制品 $160.7M；Q2 为 $113.8M），公司称增加主要为支持预期需求；购买承诺 $163.6M，主要是软件许可和云托管，不是晶圆或封装承诺。所读章节没有配额、短缺或交期延长的表述；风险因素部分称相对 10-K 无重大变化。",
+          "en": "Q3 10-Q (filed 2026-11-04): inventory was $200.9M (work-in-progress $160.7M; $113.8M at Q2), which the company says was primarily built to support anticipated demand; purchase commitments of $163.6M are primarily software licenses and cloud hosting, not wafer or packaging commitments. The sections read have no statement of allocation, shortage or extended lead times; the risk-factor item reports no material change from the 10-K."
         },
         "nextCheck": "Astera 与同层竞争者每季的供应与交期口径 / quarterly supply and lead-time commentary from Astera and its peers",
         "nextCheckDate": "2026-11",
         "reading": "unclear",
-        "readingAsOf": "2026-08-05"
+        "readingAsOf": "2026-11-04",
+        "readingNote": "存货余额不能证明配额或交期变化。 / Inventory balances do not establish allocation or lead-time changes."
       },
       {
         "id": "valuation-multiple-vs-growth",

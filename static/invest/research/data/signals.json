@@ -3919,5 +3919,29 @@
     "monitoringRefs": [
       "amd-2026:meta-6gw-ramp"
     ]
+  },
+  {
+    "id": "alab-q3-2026-10q-margin-inventory-20261104",
+    "date": "2026-11-04",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Astera Q3 10-Q：毛利率下降归因于存货与制造费用及认股权证；存货 $200.9M",
+      "en": "Astera Q3 10-Q: gross-margin decline attributed to inventory and overhead charges and warrants; inventory of $200.9M"
+    },
+    "detail": {
+      "zh": "来源：Astera Labs 2026-11-04 10-Q（0001736297-26-000045）。Q3 2026 10-Q（0001736297-26-000045，2026-11-04 申报）：MD&A 把 GAAP 毛利率同比下降 390 个基点至 72.3% 归因于存货相关费用、制造费用上升和认股权证。存货 $200.9M（其中在制品 $160.7M；2025-12-31 为 $59.0M），经营现金流讨论称前九个月存货增加 $139.1M 主要为支持预期需求。购买承诺 $163.6M，主要是软件许可和云托管。 证据边界：毛利率归因是公司口径；存货余额不能证明配额或交期变化；客户表与认股权证项本条未更新。",
+      "en": "Source: Astera Labs 10-Q of 2026-11-04 (0001736297-26-000045). Q3 2026 10-Q (0001736297-26-000045, filed 2026-11-04): MD&A attributes the 390 bp YoY decline in GAAP gross margin to 72.3% to higher inventory-related charges, higher manufacturing overhead and the warrants. Inventory was $200.9M (work-in-progress $160.7M; $59.0M at 2025-12-31), and the cash-flow discussion says the $139.1M nine-month inventory increase was primarily a build to support anticipated demand. Purchase commitments were $163.6M, primarily software licenses and cloud hosting. Evidence limits: the margin attribution is the issuer's; inventory balances do not establish allocation or lead-time changes; the customer table and warrant items are not updated by this signal."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "ALAB"
+    ],
+    "reportIds": [
+      "alab-2026"
+    ],
+    "monitoringRefs": [
+      "alab-2026:gross-margin-trajectory",
+      "alab-2026:interconnect-supply-constraint"
+    ]
   }
 ]
