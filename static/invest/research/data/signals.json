@@ -3873,5 +3873,28 @@
       "applovin-2026:fcf-conversion",
       "applovin-2026:litigation-unity-dispute"
     ]
+  },
+  {
+    "id": "arista-q3-2026-10q-concentration-20261104",
+    "date": "2026-11-04",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Arista Q3 10-Q 所读章节无季度客户占比；不可撤销采购承诺 $11.4B",
+      "en": "Arista Q3 10-Q sections read carry no quarterly customer share; non-cancellable purchase commitments of $11.4B"
+    },
+    "detail": {
+      "zh": "来源：Arista 2026-11-04 10-Q（0001596532-26-000254）。Q3 2026 10-Q（0001596532-26-000254，2026-11-04 申报）：风险因素只重述年度客户占比（两家终端客户 2025 年 26%／16%），所读章节没有季度客户占比；Americas 收入占比 81.4%（上年同期 79.8%）；不可撤销采购承诺 $11.4B，其中 $9.3B 预计 12 个月内到货。 证据边界：只说明所读章节，不代表公司内部没有季度数据；采购承诺是对供应商的义务，不是客户订单。 原文：https://cdn.yahoofinance.com/prod/sec-filings/0001596532/000159653226000254/anet-20260930.htm",
+      "en": "Source: Arista 10-Q of 2026-11-04 (0001596532-26-000254). Q3 2026 10-Q (0001596532-26-000254, filed 2026-11-04): the risk factor restates only annual customer shares (two end customers at 26% and 16% in 2025), and the sections read carry no quarterly customer share; Americas revenue was 81.4% of the total (79.8% a year earlier); non-cancellable purchase commitments were $11.4B, of which $9.3B is expected within 12 months. Evidence limits: this describes the sections read and does not mean the company has no quarterly data; purchase commitments are obligations to suppliers, not customer orders. Filing text: https://cdn.yahoofinance.com/prod/sec-filings/0001596532/000159653226000254/anet-20260930.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "ANET"
+    ],
+    "reportIds": [
+      "arista-2026"
+    ],
+    "monitoringRefs": [
+      "arista-2026:customer-concentration"
+    ]
   }
 ]

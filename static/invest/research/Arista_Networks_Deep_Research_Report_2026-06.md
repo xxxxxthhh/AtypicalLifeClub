@@ -1,7 +1,7 @@
 # Arista Networks (NYSE: ANET) Deep Research Report
 
 Coverage date: 2026-06-30
-Last updated: 2026-11-04
+Last updated: 2026-11-05
 Ticker: NYSE: ANET
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence. All prices and market caps are point-in-time snapshots; financial figures are per company disclosure unless noted otherwise.
 
@@ -10,6 +10,11 @@ Disclaimer: This report is for informational and research purposes only. It does
 ---
 
 ## Executive Summary
+
+> **2026-11-05 factual update**: Q3 2026 10-Q (0001596532-26-000254, filed 2026-11-04): the risk factor restates only annual customer shares (two end customers at 26% and 16% in 2025), and the sections read carry no quarterly customer share; Americas revenue was 81.4% of the total (79.8% a year earlier); non-cancellable purchase commitments were $11.4B, of which $9.3B is expected within 12 months. [10-Q](https://www.sec.gov/Archives/edgar/data/1596532/000159653226000254/anet-20260930.htm) [Filing text read for this update](https://cdn.yahoofinance.com/prod/sec-filings/0001596532/000159653226000254/anet-20260930.htm).
+>
+> **2026-11-05 review of monitoring**: customer-concentration unclear. Valuation stays on the 2026-07-30 historical basis ($171.02); Mode B pending, and price, valuation figures, stance and conviction are not updated in this package.
+
 
 > **2026-11-04 factual update**: Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1, 2026-11-03) revenue was $3,657.6M (+58.5% YoY, +20.5% QoQ) against guidance of about $3.3B; GAAP / non-GAAP gross margin 63.6% / 64.0%; GAAP / non-GAAP operating margin 44.9% / 49.1%; GAAP / non-GAAP diluted EPS $1.22 / $1.20 (GAAP includes $134.5M of strategic-investment gains, excluded from non-GAAP). Total deferred revenue was $6,839.5M (current $5,102.2M plus non-current $1,737.3M, versus $5,372.4M at 2025-12-31); nine-month operating cash flow was $3,977.4M. Q4 2026 guidance: revenue $3.9-4.0B, non-GAAP operating margin 48-49%, non-GAAP diluted EPS $1.26-1.30. [Source document](https://www.sec.gov/Archives/edgar/data/1596532/000159653226000252/ex991q326-earningsrelease.htm).
 >
