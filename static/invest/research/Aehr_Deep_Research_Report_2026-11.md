@@ -9,9 +9,9 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 ## Executive summary <!-- report-module:overview -->
 
-**One-line thesis:** Effective backlog of $109.3M equals about 93% of remaining FY2027 revenue, so the debate is not about this year. At the 2026-11-04 close of $60.84, the stock needs about $310M of FY2028 revenue (2.07x the FY2027 guide) just to break even at the base-case multiple. That figure is reachable only if a customer that has not placed a production order moves to wafer-level burn-in.
+**One-line thesis:** Effective backlog of $109.3M equals about 93% of remaining FY2027 revenue, so the debate is not about this year. At the 2026-11-04 close of $60.84, the stock needs about $310M of FY2028 revenue (2.07x the FY2027 guide) just to break even at the base-case multiple. On this report's bridge (derived), the path excluding the evaluation customer reaches about $213M, so $310M also needs that customer, which has no disclosed production order, to convert in time and at sufficient scale. Sonoma economics are undisclosed, so a larger second-processor path cannot be ruled out.
 
-**Stance derivation:** Net judgment: the business is improving and the stock is 58% below its August high. But the price still includes nearly 60% of the increment from full conversion by the evaluation customer (($310M - $213M) / $167M, see §8). The 30/40/30 grid (FY2028 revenue $380M / $230M / $110M) gives $97.65 / $36.08 / $15.80 per share, weighted $48.47, -12.8% annualized to 2028-06-30, 20.8 points below an 8% required return. The ruling is **cautious / low conviction**. This is a valuation call, not a business call. The bull case returns +33.1% annualized, so the ruling is not bearish-avoid; the evaluation decision is expected in 1H CY2027, so conviction can only be low.
+**Stance derivation:** Net judgment: the business is improving and the stock is 58% below its August high. But the price still includes nearly 60% of the increment from full conversion by the evaluation customer (($310M - $213M) / $167M, see §8). The 30/40/30 grid (FY2028 revenue $380M / $230M / $110M) gives $97.65 / $36.08 / $15.80 per share, weighted $48.47, -12.8% annualized to 2028-06-30, 20.8 points below an 8% required return. The ruling is **cautious / low conviction**. This is a valuation call, not a business call. The bull case returns +33.1% annualized, so the ruling is not bearish-avoid. The bull and base cases both include conversion and together already carry 70%, yet the weighted value is below the price: the price requires not just conversion, but conversion whose timing and scale both reach bull-case levels. We expect the production decision in 1H CY2027 (derived). The decision itself is close to binary, the valuation outcome is not, so conviction can only be low.
 
 **Chain job:** This report tests whether AI-processor burn-in moves from package level to wafer level (`architecture-check`). Test-platform names such as Teradyne and Advantest do not answer that question, and neither does KLA's process-control reading.
 
@@ -28,7 +28,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Market cap / Q1 annualized tax-normalized GAAP net income | 93.3x | $6.927M × 79% × 4 = $21.9M, derived here |
 | Backlog | $100.9M / $109.3M | 09-25 / 11-01 effective |
 | Bookings / book-to-bill | $46.7M / about 1.4 | Q1 FY2027 |
-| Next hard node | 1H CY2027 | Evaluation customer's production decision (company framing) |
+| Next hard node | 1H CY2027 (derived) | Evaluation customer's production decision. The company says only installation in early 2027 and a decision within several months after validation |
 
 **The five facts that matter most:**
 
@@ -36,7 +36,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 2. Operating cash flow was -$3.054M, and RSU tax withholding took another $4.474M. Cash has fallen $11.456M since 05-29. FY2026 ATM sales raised $97.4M net; without that money, 09-25 cash and equivalents would be about $7.5M (derived). [10-K](https://www.sec.gov/Archives/edgar/data/1040470/000165495426006919/aehr_10k.htm)
 3. The evaluation customer described as one of the largest opportunities has so far decided only to buy one fully configured FOX-XP test cell, to evaluate at a Taiwan OSAT, with installation in early 2027. This is not a production order.
 4. The company has run a very similar script before: the FY2024 revenue guide went from at least $100M to $75-85M to above $65M, and the actual was $66.2M, with the largest customer at 67% of revenue. The stock fell from a $53.69 close on 2023-08-01 to $10.17 on 2024-06-26.
-5. Since 2026-04, insiders have sold 677,349 shares for about $60.10M in the open market; the 10b5-1 box is unchecked on all 61 transaction lines, and purchases are zero. Sales were $11.15M on 08-12, the day the $22M order was announced.
+5. Since 2026-04, insiders have sold 677,349 shares for about $60.10M in the open market; the 10b5-1 box is unchecked on all 61 transaction lines, and purchases are zero. Sales were $11.15M on 08-12, the day the $22M order was announced. These are date facts; we make no judgment about motive.
 
 **Open at publication:** The Q1 FY2027 10-Q had not been filed when this report was finalized. Customer concentration, product-line split, restricted-cash detail and the cover share count are `review-pending`; see §7.
 
@@ -66,7 +66,7 @@ Aehr makes semiconductor burn-in and reliability-screening equipment. Burn-in ru
 
 Our read (inference): the $35-70M applies to **incremental** annual capacity, not to revenue that recurs each year. A system bought once runs for years, so equipment revenue follows the change in output rather than its level. That makes this company's revenue steeper than AI chip shipments, and more prone to drawdowns.
 
-**Manufacturing is asset-light:** Q1 capex was just $0.049M. Sonoma is finally assembled and shipped directly by a Southeast Asian contract manufacturer; the CFO says this adds capacity of more than 20 systems per month. The CEO says more than a dozen per month are shipping and installing now, and that Fremont assembly hours per wafer-level system can fall to about one-third by year-end (call). Sonoma pricing, margin and contract terms are not disclosed and stay `review-pending`. The price above is on a FOX-XP basis and cannot be used to back into Sonoma revenue; "more than a dozen per month" is present tense in November and is not a Q1 average. This report does not estimate Sonoma revenue by multiplying units by price.
+**Manufacturing is asset-light:** Q1 capex was just $0.049M. Sonoma is finally assembled and shipped directly by a Southeast Asian contract manufacturer; the CFO says this adds capacity of more than 20 systems per month. The release says more than a dozen per month are shipping and installing now; the CEO says Fremont assembly hours per wafer-level system can fall to about one-third by year-end (call). Sonoma pricing, margin and contract terms are not disclosed and stay `review-pending`. The price above is on a FOX-XP basis and cannot be used to back into Sonoma revenue; "more than a dozen per month" is present tense in November and is not a Q1 average. This report does not estimate Sonoma revenue by multiplying units by price.
 
 **Announced orders with amounts (company press releases, no 8-K):**
 
@@ -83,7 +83,7 @@ These announcements are only part of bookings and cannot be summed into backlog.
 
 ## 2. Industry, competition and architecture check <!-- report-module:competition -->
 
-**The architecture question:** AI processors put several compute dies, HBM and I/O chips into one expensive package. A bad die found after packaging scraps the whole package, and dies on one substrate heat differently, so package-level burn-in struggles to bring each one to its optimal screening temperature. The company says that is the case for wafer level (release, call). The opposing case is just as real: wafer level adds dedicated contactor and system spend, and the 10-K explicitly lists customers shortening burn-in times or moving to sampling as yields improve.
+**The architecture question:** AI processors put several compute dies, HBM and I/O chips into one expensive package. A bad die found after packaging scraps the whole package, and dies on one substrate heat differently; the CEO says that for certain devices package-level burn-in struggles to bring each die to its own optimal screening condition. The company says that is the case for wafer level (release, call). But the company's [2026-10-07 release](https://www.aehr.com/2026/10/aehr-receives-follow-on-sonoma-production-orders-for-lead-hyperscale-customer-s-next-generation-ai-processor/) also says Sonoma manages temperature independently across different areas of a device, and that customers may choose WLBI or PLBI or use both at different stages. Zone control is not necessarily per-die optimal control, so this does not negate a wafer-level advantage, but it shows the two paths are not a simple substitution. The opposing case is just as real: wafer level adds dedicated contactor and system spend, and the 10-K explicitly lists customers shortening burn-in times or moving to sampling as yields improve.
 
 | Path | Participants (source) | Current evidence | Our read |
 |---|---|---|---|
@@ -101,10 +101,10 @@ These announcements are only part of bookings and cannot be summed into backlog.
 | Claim | Evidence level | Basis |
 |---|---|---|
 | Wafer-level burn-in is in AI-processor production | Fact (company announcement) | 2026-08-12 $22M follow-on production order, nine 300mm wafer configuration |
-| A second major customer will convert | Has not happened | Only the evaluation cell is bought; the company says the decision comes months after installation and validation |
+| A second major customer will convert | Has not happened | It has decided to buy one evaluation unit, and no production order has been disclosed; the company says the decision comes months after installation and validation |
 | Second hyperscale processor out-volumes the first | Customer forecast, relayed by the company | October release: about $6M follow-on for initial production sampling and expected ramp |
 | More than a dozen future customers | Management judgment | Release; no dollar split |
-| Silicon carbide recovery | Partly fact | 17% of FY2026 (10-K EV and power basis); on the call the CEO said both "less than 10%" and "about $10 million", while 10% of $50M is $5M, so the figures do not reconcile; we use the 10-K; over $8M of new orders announced 07-14 |
+| Silicon carbide recovery | Partly fact | 17% of FY2026 (10-K EV and power basis); on the call management said both "less than 10%" and "about $10 million" (two transcripts attribute the speakers differently), while 10% of $50M is $5M, so the figures do not reconcile; we use the 10-K; over $8M of new orders announced 07-14 |
 
 **This report names no customer.** Company documents say only "lead hyperscale customer", "lead AI processor customer" and "a major supplier of AI accelerators, CPUs, and network processors". The CEO said on the call that the first wafer-level customer uses TSMC wafers, which is a process fact. Any naming is inference and is not written here.
 
@@ -115,9 +115,9 @@ These announcements are only part of bookings and cannot be summed into backlog.
 | Teradyne (TER) | $39.19B | 7.8x | 7.5x | 28.5x | Platform test leader |
 | FormFactor (FORM) | $6.68B | 6.8x | 6.0x | 38.5x | Probe cards; net income not adjusted for one-offs |
 | Cohu (COHU) | $2.08B | not computed | 3.0x | n/a | Near break-even; TTM could not be spliced reliably |
-| Aehr (AEHR) | $2.04B | 28.4x | 15.5x | n/a | Spliced TTM; FY2026 was a net loss |
+| Aehr (AEHR) | $2.04B | 28.4x | 15.5x | NM | Spliced window and low profit base (spliced net income +$2.139M, arithmetically about 955x), and the transition month flips the sign |
 
-Aehr's market cap is close to Cohu's, but Cohu's quarterly revenue of $173M is more than five times Aehr's. The difference is what is being paid for the architecture option.
+Aehr's market cap is close to Cohu's, but Cohu's quarterly revenue of $173M is more than five times Aehr's. The difference is what is being paid for the architecture option. These peer figures are only a rough reference, on bases that differ from the grid in §8. Sources: [TER 10-Q](https://www.sec.gov/Archives/edgar/data/97210/000119312526441091/ter-20260927.htm), [FORM 10-Q](https://www.sec.gov/Archives/edgar/data/1039399/000103939926000043/form-20260926.htm), [COHU 10-Q](https://www.sec.gov/Archives/edgar/data/21535/000143774926033843/cohu20260926_10q.htm), with TTM spliced using FY2025 figures in SEC XBRL.
 
 **Direction of the cross-checks:** The ASE and Amkor reports address packaging ownership, Broadcom and Marvell address custom-silicon volume, and KLA addresses fab yield. This report asks whether one specific process step moves forward. Tool orders prove neither final yield nor customer identity.
 
@@ -138,7 +138,7 @@ Aehr's market cap is close to Cohu's, but Cohu's quarterly revenue of $173M is m
 
 Q2 FY26 net income is derived as the FY2026 total less the other three quarters. Backlog roll-forward: $80.6M + $46.7M - $33.007M - $0.638M = $93.655M, $7.245M short of the reported $100.9M, implying about $7.2M of transition-month bookings (derived; not disclosed by the company). The CFO's "up from $80.6 million" skips the transition month: without deducting transition revenue, $94.3M is $6.6M short of $100.9M. Backlog is defined as shipping within 12 months, which does not mean all of it lands in FY2027, so 93% is an upper bound on coverage; whether the evaluation cell is in backlog is also undisclosed.
 
-**How the spliced TTM is built:** The company gives no continuous 52-week figure. This report uses Q2-Q4 FY26 plus Q1 FY27: $50.001M - $10.969M + $33.007M = **$72.039M**, skipping the transition month. Adding the transition month's $0.638M gives $72.677M, but that spans 56 weeks, not a year. Over the same window net income was +$2.139M and -$0.604M with the transition month, so **including the transition month flips the sign of net income**; operating cash flow was -$6.082M, or -$9.894M with the transition month. The $150M FY2027 figure excludes the transition month.
+**How the spliced TTM is built:** The company gives no continuous 52-week figure. This report uses Q2-Q4 FY26 plus Q1 FY27: $50.001M - $10.969M + $33.007M = **$72.039M**, skipping the transition month. Adding the transition month's $0.638M gives $72.677M, but that spans 56 weeks, not a year. Over the same window net income was +$2.139M and -$0.604M with the transition month, so **including the transition month flips the sign of net income**, which leaves TTM P/E without explanatory value (NM); operating cash flow was -$6.082M, or -$9.894M with the transition month. The $150M FY2027 figure excludes the transition month.
 
 **Financial health matrix:**
 
@@ -235,18 +235,18 @@ On 2026-07-27 the company filed an S-3ASR automatic shelf; the registration stat
 ## 5. Bull case <!-- report-module:bullBear -->
 
 1. **Orders have shown this is not just a story.** Three straight quarters of bookings at $37.2M / $60.7M / $46.7M total $144.6M, almost 3x FY2026 revenue. Backlog went from $11.8M to $100.9M.
-2. **The evaluation customer alone could reshape the company.** On the CEO's $35-70M per million, if 3.3 million of this customer's units move to wafer level, about 13% of his 25 million accelerator estimate for 2027, that is about $167M at the $50M midpoint, more than all of FY2027 revenue.
-3. **There is a physical reason for the step to move forward.** The CEO says dies in a multi-chip package heat differently, so package level cannot bring each to the same burn-in condition; the new DiTC contactor controls temperature per die on the wafer and will be used in the evaluation cell (call). If true, the Sonoma relationship becomes a sales channel for FOX.
+2. **The evaluation customer alone could reshape the company.** On the CEO's $35-70M per million, our bull case assumes $167M from this customer, more than all of FY2027 revenue; at the $50M midpoint that backs into about 3.3 million units, about 13% of his 25 million accelerator estimate for 2027.
+3. **For some devices there is a physical reason for the step to move forward.** The CEO says that in some multi-chip packages dies heat differently, so package level struggles to bring each to its own optimal burn-in condition; the new DiTC contactor controls temperature per die on the wafer and will be used in the evaluation cell (call). This is the company's claim, and its 10-07 release also says Sonoma has zone control and that customers may choose either or both. If wafer level does win, the Sonoma relationship becomes a sales channel for FOX.
 4. **The second hyperscale processor buys time.** It has completed Sonoma qualification, about $6M of follow-on orders came in October, and the customer forecasts ultimately higher volume than the first device, at higher power.
 5. **Operating leverage is visible.** Q1 revenue was 3x the prior year while opex rose only 24%, for an 18.3% GAAP operating margin.
 6. **FY2027 looks conservative.** The remaining three quarters need $117M, effective backlog is $109.3M, and the CEO says supply is not the limit and orders can still ship this year.
 7. **The price has already fallen hard.** $60.84 is 58% below the 08-17 close of $145.61.
 
-**Valuation implication:** The bull case has FY2028 revenue of $380M and $97.65 per share, +60.5% from the price, +33.1% annualized (construction in §8.1). It requires the evaluation customer to decide on conversion in 1H CY2027 and take delivery of equipment for about 3.3 million units within FY2028.
+**Valuation implication:** The bull case has FY2028 revenue of $380M and $97.65 per share, +60.5% from the price, +33.1% annualized (construction in §8.1). It requires the evaluation customer to decide on conversion in 1H CY2027, take delivery of equipment for about 3.3 million units within FY2028, and for the case to reach a 50% gross margin and a 35x exit multiple. These are all this report's assumptions.
 
 ## 6. Bear case <!-- report-module:bullBear -->
 
-1. **What is priced is not this year.** At the base-case multiple, a zero return needs about $310M of FY2028 revenue and an 8% return about $337M, both above our $230M base case. Going from the roughly $168M annualized Q4 FY2027 run rate (derived) to $310M leaves a gap that essentially only the evaluation customer can fill.
+1. **What is priced is not this year.** At the base-case multiple, a zero return needs about $310M of FY2028 revenue and an 8% return about $337M, both above our $230M base case. Going from the roughly $168M annualized Q4 FY2027 run rate (derived) to $310M leaves a gap that, on this report's bridge, relies mainly on the evaluation customer; Sonoma economics are undisclosed, so a larger second-processor path cannot be ruled out.
 2. **An evaluation is not an order.** Installation is in early 2027, with the decision months later; the company itself notes features still to be proven in a volume-production configuration. The CEO used the words "upside and risk". This customer's visibility at a Taiwan OSAT means failure would be just as public.
 3. **Concentration changed names but did not leave.** FY2026 top five were 70%, with three at 26%/14%/11%; the largest was 67% in FY2024. The two main Q1 revenue contributors named are single-customer programs. "More than a dozen" is potential, not revenue.
 4. **This is an incremental-capacity business.** AI chip output can keep rising at a slower rate and equipment revenue can still fall. The 10-K says most orders can be cancelled or rescheduled with limited penalties and that backlog does not assure revenue. The -60.4% in contactors from FY2024 to FY2026 is a real sample.
@@ -262,7 +262,7 @@ On 2026-07-27 the company filed an S-3ASR automatic shelf; the registration stat
 
 | Uncertainty | Why it matters | When it can be confirmed | What it falsifies |
 |---|---|---|---|
-| Whether the evaluation customer converts | Decides $230M versus $380M | 1H CY2027; CEO framing is next steps after seeing data | A production order falsifies cautious; a rejection or no decision falsifies the bull case |
+| Whether, when and how much the evaluation customer converts | Decides whether FY2028 sits nearer $230M or $380M | 1H CY2027 (derived); CEO framing is next steps after seeing data | An order delivering in FY2028 at a scale that supports about $310M falsifies cautious; a rejection or no decision falsifies the bull case |
 | Timing of the second processor | Main increment in the base case | Follow-on orders during CY2027 | Slipping past 2027 weakens the base case |
 | FY2027 Q2 and Q3 bookings | Only new bookings can support FY2028 | Next two reports | Persistently under $40M points down; $60M or more points to an upgrade |
 | Sonoma margin structure | Size of the Q2 gross margin dip | Q2 FY27 | Full-year non-GAAP gross margin under 47% weakens the base case |
@@ -282,7 +282,7 @@ On 2026-07-27 the company filed an S-3ASR automatic shelf; the registration stat
 
 ## 8. Valuation context, reverse growth and scenario returns <!-- report-module:valuation -->
 
-**Price and share basis:** $60.84 is the 2026-11-04 close (Nasdaq and CNBC agree). Results came after the 11-02 close, so 11-03 and 11-04 are both post-earnings closes and no price fork is needed. Shares use the treasury method: 32.663M (issued at 09-25) + 0.693M RSUs (07-23) + 0.228M options (0.252M × (1 - $5.81/$60.84)) = **33.584M**, market cap $2.043B. The quarter's diluted weighted average of 33.520M uses the quarter's average price and serves only as a check; 32.663M basic gives $1.987B. The RSU count is as of 07-23, includes the 07-01 grants, and overlaps slightly with 09-25 issued shares, an error under 0.05M. PRSU over-achievement (up to about 0.07M shares) and future grant capacity are not counted.
+**Price and share basis:** $60.84 is the 2026-11-04 close (Nasdaq and CNBC agree). Results came after the 11-02 close, so 11-03 and 11-04 are both post-earnings closes and no price fork is needed. Shares use the treasury method: 32.663M (issued at 09-25) + 0.693M RSUs (07-23) + 0.228M options (0.252M × (1 - $5.81/$60.84)) = **33.584M** (a mixed-date estimate), market cap $2.043B. The quarter's diluted weighted average of 33.520M uses the quarter's average price and serves only as a check; 32.663M basic gives $1.987B. The RSU count is as of 07-23, includes the 07-01 grants, and overlaps slightly with 09-25 issued shares. We estimate an error on the order of 0.05M, but all-employee instruments were not rolled forward to 09-25, so this is not a proven bound. PRSU over-achievement (up to about 0.07M shares) and future grant capacity are not counted.
 
 **Cash:** Cash and equivalents of $104.902M go into EV; the $105.1M figure includes $0.150M restricted cash and is not used. That $0.150M is identical at 05-29, 06-26 and 09-25, and the 10-K describes restricted cash as a manufacturing and office lease deposit (rounded to $0.2M), so we treat it as the same item (inference). No financial debt. Operating leases of $9.804M are excluded. Incal has no contingent consideration. EV = $2.043B - $104.9M = **$1.938B**.
 
@@ -305,21 +305,23 @@ On 2026-07-27 the company filed an S-3ASR automatic shelf; the registration stat
 | Second hyperscale processor increment | +$25M | Customer forecast; only about $6M ordered |
 | Silicon photonics, SiC, GaN and other increment | +$20M | Multiple follow-on orders; no dollar guide |
 | Subtotal excluding the evaluation customer | $213M | |
-| Evaluation customer: partial or late conversion | +$17M | About 0.33 million units × $50M |
-| Evaluation customer: converts 1H CY2027, delivers in FY2028 | +$167M | About 3.3 million units × $50M, about 13% of 25 million |
+| Evaluation customer: partial or late conversion | +$17M | This report's assumption; backed out of the revenue difference, $17M ÷ $50M per million ≈ 0.33 million units |
+| Evaluation customer: converts 1H CY2027, delivers in FY2028 | +$167M | This report's assumption; backed out of the revenue difference, $167M ÷ $50M per million ≈ 3.3 million units, about 13% of 25 million |
 | Revenue drawdown path | $110M | 27% below FY2027; FY2024 to FY2026 was -24.5% |
 
 ## 8.1 Valuation scenario grid <!-- report-module:valuation -->
 
-Returns run from 2026-11-04 to 2028-06-30, 604 days or 1.654 years. Exit uses full-year FY2028 figures, a trailing multiple; the market will be looking at FY2029 by then, so this setting leans conservative. GAAP basis, with opex including SBC. Tax is 21% throughout.
+Returns run from 2026-11-04 to 2028-06-30, 604 days or 1.654 years. Exit uses full-year FY2028 figures on a trailing multiple. This is not a conservative setting: §1 explains that equipment revenue follows incremental capacity, so the bull case's FY2028 includes a one-time $167M build, and 35x on that peak leans optimistic. Whether FY2029 holds that level is outside the grid. GAAP basis, with opex including SBC. Tax is 21% throughout.
 
 | Scenario | FY2028 revenue and driver | GAAP gross margin / opex / operating margin | After-tax operating income × exit multiple | Ending cash / shares | Per share / vs $60.84 / annualized | Probability weight |
 |---|---|---|---|---|---|---:|
-| Bull case | $380M: evaluation customer converts and ramps | 50% / $72M / 31.1% | $93.22M × 35 = $3,262.7M | $155M / 35.0M | $97.65 / +60.5% / +33.1% | 30% |
+| Bull case | $380M: evaluation customer converts in time, FY2028 delivery on schedule | 50% / $72M / 31.1% | $93.22M × 35 = $3,262.7M | $155M / 35.0M | $97.65 / +60.5% / +33.1% | 30% |
 | Base case | $230M: existing programs continue, evaluation customer late and small | 48% / $60M / 21.9% | $39.82M × 28 = $1,114.8M | $130M / 34.5M | $36.08 / -40.7% / -27.1% | 40% |
 | Bear case | $110M: evaluation customer stays out, hyperscale digestion after the ramp | 42% / $48M / -1.6% | Too little profit, so 4x revenue = $440.0M | $105M / 34.5M | $15.80 / -74.0% / -55.8% | 30% |
 
 **Weighted $48.47, -20.3% from the price, -12.8% annualized, 20.8 points below the 8% hurdle.**
+
+The weights are for three joint scenarios, not conversion probabilities. The bull and base cases both include conversion and together carry 70%; they differ on the timing and scale of conversion, and on margin and multiple.
 
 ## 8.2 Valuation inputs, reverse expectations and sensitivity <!-- report-module:valuation -->
 
@@ -328,9 +330,9 @@ Returns run from 2026-11-04 to 2028-06-30, 604 days or 1.654 years. Exit uses fu
 - **Gross margin.** The CFO gives about 48.5% non-GAAP for FY2027, plus or minus half a point; GAAP runs about 1 point lower. 50% needs a high consumables mix and scale, near FY2024's 49.1%. 42% sits between FY2025's 40.6% and today.
 - **Opex.** Q1 annualizes to $38.5M. The company says it will add engineering, support and sales (call). $60M is 26% of revenue, below Q1's 29%.
 - **Tax.** 21% is the federal statutory rate, unlike Q1's -3.7% and the company's non-GAAP treatment. State taxes push it up; R&D credits and FDII push it down. Near-term cash tax is below this, and NOLs are not in the valuation.
-- **Exit multiples.** 28x is about TER's current 28.5x TTM P/E; 35x is below FORM's 38.5x, but for a smaller and more concentrated company the growth premium has to come from here. 4x revenue is above Cohu's 3.0x annualized and Aehr's roughly 2.9x at its 2025-04 low.
+- **Exit multiples.** 28x, 35x and 4x are independent research assumptions. Peer figures are only a rough reference: TER's 28.5x and FORM's 38.5x are market cap to GAAP net income, Cohu's 3.0x is market cap to annualized revenue, and Aehr's roughly 2.9x at its 2025-04 low is EV to revenue, while the grid uses EV to after-tax operating income and EV to revenue. Applying a P/E level to after-tax operating income and then adding back cash double-counts slightly, which we estimate lifts the weighted value by about 1%.
 - **Ending cash.** From $104.9M, add two years of after-tax operating income and SBC, less working capital (about 25% of the revenue increase), capex and RSU withholding. The bear case assumes working capital release offsets inventory write-downs and withholding, so it stays flat.
-- **Shares.** From 33.584M, using FY2026's non-ATM net increase of about 0.66M a year, 1.65 years adds about 0.9M to reach 34.5M. The 35.0M in the bull case reflects PRSU over-achievement and larger grants. No scenario assumes a new ATM. A raise at high prices would add cash and shares together, with little per-share effect.
+- **Shares.** 34.5M is an assumption for future net dilution, about 0.9M above 33.584M, implying about 0.55M shares a year. FY2026's non-ATM net increase in basic shares was about 0.66M; a straight line over 1.654 years adds 1.09M, for 34.68M. We did not use that because part of the historical net issuance is RSU vesting and option exercises already counted in the diluted starting point. At 34.68M, per-share values are about 0.5% lower. The 35.0M in the bull case reflects PRSU over-achievement and larger grants. No scenario assumes a new ATM. A raise at high prices would add cash and shares together, with little per-share effect.
 
 **What is priced in (reverse):** Using the base-case structure (48%, $60M opex, 21% tax, 28x, $130M cash, 34.5M shares):
 
@@ -339,16 +341,16 @@ Returns run from 2026-11-04 to 2028-06-30, 604 days or 1.654 years. Exit uses fu
 | Zero return | $60.84 | $1,969.0M | $89.0M | $310.4M | 2.07x |
 | 8% annualized | $69.10 | $2,253.9M | $101.9M | $337.3M | 2.25x |
 
-Expectation gap: at $60.84 the market prices about $310-337M; our base case is $230M. Against the $213M that excludes the evaluation customer, the $97M increment a zero return requires is about 58% of the $167M from full conversion.
+Expectation gap: at $60.84 the market prices about $310-337M; our base case is $230M. Against the $213M that excludes the evaluation customer, the $97M increment a zero return requires is about 58% of the $167M from full conversion. This is revenue arithmetic, not a probability.
 
 **Balance price and balance multiple:**
 
 - The $48.47 weighted value discounted at 8% is **$42.67**, the 8% balance price. The zero-return balance price is $48.47.
 - Raising only the base-case multiple, reaching today's price takes 49.5x and an 8% return takes 56.6x.
 - For the weighted value to return 8%: moving only the base case takes 72.7x; moving the bull and base cases together takes +16.4x each (51.4x / 44.4x).
-- Weight reverse: with the bear weight fixed at 30%, the bull-case weight must reach **50.1%** for a zero return and 63.5% for 8%.
+- Weight reverse: with the bear weight fixed at 30% and other inputs unchanged, the bull-case weight must reach about **50.1%** for the weighted value to equal the price, and about 63.5% for 8%. This is the weight of a joint scenario, conversion in time, FY2028 delivery to $380M, and bull-case margin and multiple. It is not a conversion probability.
 
-**In one sentence: the price is neutral only if the evaluation customer's conversion is more likely than not.** That can be falsified, and it is the core of this report's stance.
+**In one sentence: the price requires not just conversion, but conversion whose timing and scale both reach bull-case levels.** The two cases that include conversion already carry 70%, and the weighted value is still 20.3% below the price. That can be falsified, and it is the core of this report's stance. This report gives no conversion-probability threshold, which would need a separate tree of mutually exclusive events.
 
 | Sensitivity | Change | Weighted per share | vs price | Annualized |
 |---|---|---:|---:|---:|
@@ -356,10 +358,10 @@ Expectation gap: at $60.84 the market prices about $310-337M; our base case is $
 | Multiples down | Bull 31x, base 24x | $43.42 | -28.6% | -18.4% |
 | Mid-case revenue up | Base $260M, opex $62M, that case $44.03 | $51.65 | -15.1% | -9.4% |
 | Upside revenue down | Bull $330M, that case $77.90 | $42.54 | -30.1% | -19.5% |
-| Weights 40/40/20 | Conversion more likely | $56.65 | -6.9% | -4.2% |
-| Weights 50/30/20 | Conversion above even | $62.81 | +3.2% | +1.9% |
+| Weights 40/40/20 | Higher bull weight, lower bear weight | $56.65 | -6.9% | -4.2% |
+| Weights 50/30/20 | Bull weight at one half | $62.81 | +3.2% | +1.9% |
 | Weights 60/30/10 | Clearly optimistic | $70.99 | +16.7% | +9.8% |
-| Weights 20/50/30 | Conversion less likely | $42.31 | -30.5% | -19.7% |
+| Weights 20/50/30 | Lower bull weight | $42.31 | -30.5% | -19.7% |
 | Adding the deferred tax asset | +$0.73 per share | $49.19 | -19.1% | -12.1% |
 
 No single favorable sensitivity brings the weighted return to 8%; only moving the bull weight to 60% does. Weights are research judgment, and no objective frequency proves them.
@@ -374,7 +376,7 @@ No single favorable sensitivity brings the weighted return to 8%; only moving th
 | 2026-12-15 | NYC CEO Summit (mentioned on the call) | Any change in framing | Small |
 | About late 2027-01 to early 02 (derived from past lags) | Q2 FY27 results | Revenue above Q1, gross margin below Q1, bookings | Bookings matter most |
 | Early 2027 | Evaluation cell installed at Taiwan OSAT | On schedule or not | A delay is negative |
-| 1H CY2027 | Production decision | The order amount, not the wording | Decides the bull and bear cases |
+| 1H CY2027 (derived) | Production decision | The order amount and delivery timing, not the wording | Sets the direction; timing and scale set the valuation |
 | CY2027 | Second processor ramp | Sonoma follow-on orders | Decides the base case |
 | 2027-06-25 | FY2027 ends | Whether $150M and 20% are met | Delivery check |
 
@@ -383,7 +385,7 @@ No single favorable sensitivity brings the weighted return to 8%; only moving th
 | id | Metric | Trigger | Latest reading | Next check |
 |---|---|---|---|---|
 | `benchmark-wlbi-decision` | Evaluation customer's production decision | Rejection, or no production order by 2027-09-30 | Decided to buy one FOX-XP test cell, to install at a Taiwan OSAT in early 2027; no production order | Q3 FY27 results, about 2027-04/05 |
-| `sonoma-second-processor` | Hyperscale customer's Sonoma cadence | Monthly shipments below a dozen with no follow-on for the second device, or second-device ramp slips past 2027 | More than a dozen per month (call); second device qualified, about $6M follow-on | Q2 FY27 results |
+| `sonoma-second-processor` | Hyperscale customer's Sonoma cadence | Monthly shipments below a dozen with no follow-on for the second device, or second-device ramp slips past 2027 | More than a dozen per month (release); second device qualified, about $6M follow-on | Q2 FY27 results |
 | `bookings-backlog` | Bookings and backlog | Book-to-bill below 1.0 in both FY27 Q2 and Q3, or backlog below $80M | Q1 bookings $46.7M, about 1.4; backlog $100.9M, effective $109.3M | Q2 FY27 results |
 | `fy27-guide-margin` | FY2027 guide and gross margin | Revenue guide below $130M, or full-year non-GAAP gross margin below 47% | $150M; at least 20% (was 18-22%); Q1 non-GAAP 48.5%; CFO says about 48.5% for the year, plus or minus half a point | Q2 FY27 results |
 | `cash-and-dilution` | Cash and dilution | Cash below $75M, or a new ATM or offering under the S-3ASR | Cash $104.902M; Q1 operating cash flow -$3.054M; the old $100M shelf is used up, the S-3ASR is effective, and with no new 424B5 since 04-08 there is no ATM today but one can start at any time | Each report and 424B filing |
@@ -394,13 +396,13 @@ No single favorable sensitivity brings the weighted return to 8%; only moving th
 
 **Expectation gap:** $60.84 prices about $310-337M of FY2028 revenue; our base case is $230M.
 
-**Stance and conviction:** The 30/40/30 grid gives $97.65 / $36.08 / $15.80 per share, weighted $48.47, -12.8% annualized, below the 8% required return. The bull-case weight needs to reach 50.1% for a zero return. The ruling is **cautious / low conviction**. It is not `bearish-avoid` because the bull case returns +33.1% annualized at a 30% weight, and the last three quarters of bookings are real. Low conviction has four sources: the conversion decision is binary and resolves within a year; customer identity and Sonoma economics are undisclosed; the 10-Q is not out; and with beta near 2.5, the stock can cross every price line in this report within weeks.
+**Stance and conviction:** The 30/40/30 grid gives $97.65 / $36.08 / $15.80 per share, weighted $48.47, -12.8% annualized, below the 8% required return. The bull and base cases, which both include conversion, already carry 70%, and the weighted value is still below the price; with the bear weight fixed at 30%, the bull-case weight must reach about 50.1% for the weighted value to equal the price, and that is a joint scenario in which timing, scale, margin and multiple all hit, not a conversion probability. The price requires conversion whose timing and scale both reach bull-case levels, which is harder than conversion alone, so the reason for cautious still holds. The ruling is **cautious / low conviction**. It is not `bearish-avoid` because the bull case returns +33.1% annualized at a 30% weight, and the last three quarters of bookings are real. Low conviction has four sources: the conversion decision is close to binary and is expected within a year, while the valuation outcome is not binary, since timing, scale, margin and multiple must all still deliver; customer identity and Sonoma economics are undisclosed; the 10-Q is not out; and with beta near 2.5, the stock can cross every price line in this report within weeks.
 
 **Upgrade to neutral-watch (any one):**
 
-- The evaluation customer places a production order of at least $30M, single or cumulative (the evaluation cell and small add-ons do not count).
+- The evaluation customer places a production order of at least $30M, single or cumulative, with delivery scheduled within FY2028 (the evaluation cell and small add-ons do not count). This tests timing but not yet scale, so it reaches only neutral.
 - FY27 Q2 and Q3 bookings are each at least $60M, and the FY2027 revenue guide moves above $150M.
-- The stock falls to about $46 or lower with fundamentals unchanged (weighted value then about +3.2% annualized).
+- The stock falls to about $46 or lower with fundamentals unchanged (weighted value then about +3.2% annualized). Neutral needs only a positive expected return with a buffer: $46 is about 5% below the $48.47 zero-return balance price. The $42.67 8% balance price is the line for considering constructive, not this trigger.
 
 **Downgrade to bearish-avoid (any one):**
 
@@ -435,7 +437,7 @@ No single favorable sensitivity brings the weighted return to 8%; only moving th
 
 **Transcript traps:** Some summaries say management guided Q2 revenue below Q1. In the original, that CFO line is an answer about gross margin ("Q2 would probably be lower"). On revenue, the CEO says each remaining quarter grows a little, with Q4 highest. This report follows the original. Transcripts also render the CFO as Chris Hsu (the 8-K signature is Chris P. Siu), present 163% as GAAP growth (the release says non-GAAP), turn "150" into "51", and give non-GAAP opex growth as +36% (the release shows $7,801K against $5,949K, about +31%). The Motley Fool page says parts were created with large language models, and its summary section is not cited.
 
-**Market data:** [Nasdaq historical prices](https://www.nasdaq.com/market-activity/stocks/aehr/historical), [Nasdaq short interest](https://www.nasdaq.com/market-activity/stocks/aehr/short-interest); peer market caps use 11-04 closes times SEC cover shares, and TTM is spliced from SEC XBRL data without adjusting for non-recurring items.
+**Market data:** [Nasdaq historical prices](https://www.nasdaq.com/market-activity/stocks/aehr/historical), [Nasdaq short interest](https://www.nasdaq.com/market-activity/stocks/aehr/short-interest); peer market caps use 11-04 closes times 10-Q cover shares, and TTM is spliced from SEC XBRL data without adjusting for non-recurring items. The Teradyne Titan HP wording was checked against a trade-press reprint; neither the Business Wire nor the Teradyne original could be opened.
 
 **Signal log:** No entry was added to `signals.json` this time, because no existing cross-check rule's predicate matches.
 
