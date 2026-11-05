@@ -1,13 +1,18 @@
 # Advanced Micro Devices (AMD) Deep Research Report
 
 Coverage date: 2026-02-04
-Last updated: 2026-11-04
+Last updated: 2026-11-05
 Ticker: NASDAQ: AMD
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
 ## June 22, 2026 Full Rerun Summary <!-- report-module:overview -->
+
+> **2026-11-05 factual update**: Q3 2026 10-Q (0000002488-26-000191, filed 2026-11-04): AMD issued warrants to two customers in October 2025 and February 2026, each for up to 160 million shares; as of 2026-09-26 no warrant shares had vested or become exercisable. The 10-Q says the company supplies certain products used in Helios and does not manufacture or sell the completed Helios rack-scale solutions. [10-Q](https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm)
+>
+> **2026-11-05 review of monitoring**: meta-6gw-ramp unclear. Valuation stays on the 2026-07-30 historical basis ($485.39); Mode B pending, and price, valuation figures, stance and conviction are not updated in this package.
+
 
 > **2026-11-04 factual update**: Q3 2026 (quarter ended 2026-09-26; 8-K Ex 99.1 and slides, 2026-11-03) revenue was $13,377M (+45% YoY, +16% QoQ), which the company says exceeded the high end of guidance; Data Center revenue was $8,546M (+97% YoY, +27% QoQ) with segment operating income of $2,882M; GAAP / non-GAAP gross margin 54% / 56%; GAAP / non-GAAP diluted EPS $1.46 / $2.09. Q4 2026 guidance: revenue of about $17B (plus or minus 3%) and non-GAAP gross margin of about 55%. [Source document](https://www.sec.gov/Archives/edgar/data/2488/000000248826000188/q32026991.htm).
 >
