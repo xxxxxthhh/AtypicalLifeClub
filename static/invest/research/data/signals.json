@@ -3818,5 +3818,32 @@
       "pltr-2026:valuation-allowance-tax-transition",
       "pltr-2026:international-inflection"
     ]
+  },
+  {
+    "id": "coherent-q1-fy2027-results-20261104",
+    "date": "2026-11-04",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Coherent Q1 FY2027 收入 $2,370.3M、D&C +79%；经营现金流 -$92.7M、资本开支 $775.5M",
+      "en": "Coherent Q1 FY2027 revenue of $2,370.3M, D&C +79%; operating cash flow -$92.7M, capex $775.5M"
+    },
+    "detail": {
+      "zh": "来源：Coherent 2026-11-04 8-K Ex 99.1 与 Ex 99.2（0001193125-26-447200）、10-Q（0000820318-26-000023）。Q1 FY2027（季度截至 2026-09-30；8-K Ex 99.1 与 10-Q，2026-11-04）收入 $2,370.3M（同比 +49.9%、环比 +15.9%）；GAAP／非 GAAP 毛利率 39.1%／40.6%，GAAP／非 GAAP 摊薄 EPS $1.90／$2.09。10-Q 分部：Datacenter & Communications 收入 $1,951.7M（+79%）、分部利润 $508.7M（上年同期 $269.3M），Industrial 收入 $418.6M（-15%，主要因业务出售）。经营现金流 -$92.7M，资本开支 $775.5M，差额约 -$868.2M（推算）；存货 $3,341.4M（2026-06-30 为 $2,581.0M）；合同负债 $333M（2026-06-30 为 $63M）。Q2 FY2027 指引：收入 $2.55–2.75B、非 GAAP 毛利率 40–42%、非 GAAP 摊薄 EPS $2.28–2.48。 证据边界：合同负债未归属到具体客户；约 $20B PhotonLink 协议对手未具名，不是积压；差额为推算；电话会未读。 原文：https://cdn.yahoofinance.com/prod/sec-filings/0000820318/000082031826000023/iivi-20260930.htm",
+      "en": "Source: Coherent 8-K Ex 99.1 and Ex 99.2 of 2026-11-04 (0001193125-26-447200) and 10-Q (0000820318-26-000023). Q1 FY2027 (quarter ended 2026-09-30; 8-K Ex 99.1 and 10-Q, 2026-11-04) revenue was $2,370.3M (+49.9% YoY, +15.9% QoQ); GAAP / non-GAAP gross margin 39.1% / 40.6%; GAAP / non-GAAP diluted EPS $1.90 / $2.09. 10-Q segments: Datacenter & Communications revenue $1,951.7M (+79%) with segment profit $508.7M (prior-year quarter $269.3M); Industrial revenue $418.6M (-15%, primarily divestitures). Operating cash flow was -$92.7M and capital expenditure $775.5M, a difference of about -$868.2M (derived); inventories were $3,341.4M ($2,581.0M at 2026-06-30); contract liabilities were $333M ($63M at 2026-06-30). Q2 FY2027 guidance: revenue $2.55-2.75B, non-GAAP gross margin 40-42%, non-GAAP diluted EPS $2.28-2.48. Evidence limits: contract liabilities are not attributed to a specific customer; the counterparty to the roughly $20B PhotonLink agreement is not named and the amount is not backlog; the cash difference is derived; the earnings call was not read. Filing text: https://cdn.yahoofinance.com/prod/sec-filings/0000820318/000082031826000023/iivi-20260930.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "COHR"
+    ],
+    "reportIds": [
+      "coherent-2026"
+    ],
+    "monitoringRefs": [
+      "coherent-2026:nvidia-optics-lta",
+      "coherent-2026:datacenter-communications-mix",
+      "coherent-2026:inp-capacity-ramp",
+      "coherent-2026:cpo-npo-roadmap",
+      "coherent-2026:valuation-fcf-risk"
+    ]
   }
 ]
