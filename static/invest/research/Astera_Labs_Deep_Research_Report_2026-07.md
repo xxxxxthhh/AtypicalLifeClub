@@ -1,13 +1,19 @@
 # Astera Labs (ALAB) Deep Research Report
 
 Coverage date: 2026-07-31
-Last updated: 2026-11-04
+Last updated: 2026-11-05
 Ticker: NASDAQ: ALAB
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
 ## Executive Summary
+
+> **2026-11-05 factual update**: Q3 2026 10-Q (0001736297-26-000045, filed 2026-11-04): MD&A attributes the 390 bp YoY decline in GAAP gross margin to 72.3% to higher inventory-related charges, higher manufacturing overhead and the warrants. Inventory was $200.9M (work-in-progress $160.7M; $59.0M at 2025-12-31), and the cash-flow discussion says the $139.1M nine-month cash-flow inventory adjustment was primarily a build to support anticipated demand. Purchase commitments were $163.6M and also include software licenses and cloud services; no category breakdown is disclosed. [10-Q](https://www.sec.gov/Archives/edgar/data/1736297/000173629726000045/alab-20260930.htm) [Filing text read for this update](https://ir.asteralabs.com/node/9376/html).
+> The Q3 10-Q lists direct customers A/B/C at 53%/14%/10%, 77% combined. Some direct customers are manufacturing partners; letters cannot be matched across filings or treated as end-customer demand. Note 9 reports about $18.1M of quarterly warrant contra-revenue; the equity statement gives $18.084M / revenue of $584.899M = 3.09% (ratio recomputed). The numerical legs of the two published thresholds are met; another warrant to the same Holder does not meet the second-customer leg. These are facts, not a new stance or current-valuation adjudication.
+>
+> **2026-11-05 review of monitoring**: gross-margin-trajectory and interconnect-supply-constraint unclear. The new Q3 customer and warrant facts are recorded above; their structured grades retain the prior adjudication pending an independent review. Valuation stays on the 2026-10-09 historical basis ($342.21); Mode B pending, and price, valuation figures, stance and conviction are not updated in this package.
+
 
 > **2026-11-04 factual update**: Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1, 2026-11-03) revenue was $584.9M (+49% QoQ, +154% YoY) against guidance of $540-560M; the company says Scorpio became its largest product family by revenue; GAAP / non-GAAP gross margin 72.3% / 72.4%, GAAP / non-GAAP operating margin 30.6% / 44.7%, GAAP / non-GAAP diluted EPS $0.99 / $1.32. Q4 2026 guidance: revenue $730-750M, gross margin about 72% (GAAP and non-GAAP), non-GAAP diluted EPS $1.62-1.66. [Source document](https://www.sec.gov/Archives/edgar/data/1736297/000173629726000044/q326exhibit991.htm).
 >
