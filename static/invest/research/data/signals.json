@@ -3896,5 +3896,28 @@
     "monitoringRefs": [
       "arista-2026:customer-concentration"
     ]
+  },
+  {
+    "id": "amd-q3-2026-10q-warrants-20261104",
+    "date": "2026-11-04",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "AMD Q3 10-Q：截至 9-26 两家客户认股权证均未归属；10-Q 无出货吉瓦数",
+      "en": "AMD Q3 10-Q: neither customer warrant had vested as of 9-26; no shipped-gigawatt figure in the 10-Q"
+    },
+    "detail": {
+      "zh": "来源：AMD 2026-11-04 10-Q（0000002488-26-000191）。Q3 2026 10-Q（0000002488-26-000191，2026-11-04 申报）：AMD 分别于 2025 年 10 月和 2026 年 2 月向两家客户发行认股权证，各可购买至多 1.6 亿股；截至 2026-09-26 没有任何认股权证股份归属或可行权。10-Q 称公司只供应 Helios 所用的部分产品，不制造也不销售完整的 Helios 机架方案。 证据边界：归属条件包含采购、股价、技术和商业条件，未归属不能反推未出货；10-Q 未具名两家客户。 原文：https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000191/amd-20260926.htm",
+      "en": "Source: AMD 10-Q of 2026-11-04 (0000002488-26-000191). Q3 2026 10-Q (0000002488-26-000191, filed 2026-11-04): AMD issued warrants to two customers in October 2025 and February 2026, each for up to 160 million shares; as of 2026-09-26 no warrant shares had vested or become exercisable. The 10-Q says the company supplies certain products used in Helios and does not manufacture or sell the completed Helios rack-scale solutions. Evidence limits: vesting conditions cover purchases, stock price and technical and commercial terms, so non-vesting cannot be read back as non-shipment; the 10-Q does not name the two customers. Filing text: https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000191/amd-20260926.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "AMD"
+    ],
+    "reportIds": [
+      "amd-2026"
+    ],
+    "monitoringRefs": [
+      "amd-2026:meta-6gw-ramp"
+    ]
   }
 ]
