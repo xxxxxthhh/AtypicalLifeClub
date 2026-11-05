@@ -400,13 +400,13 @@
     {
       "reportId": "amd-2026",
       "symbol": "AMD",
-      "status": "carried-forward",
+      "status": "ok",
       "attemptedAt": "2026-11-05",
-      "baseDate": "2026-07-30",
-      "basePrice": 485.39,
-      "lastDate": "2026-11-03",
-      "lastClose": 483.9,
-      "changePct": -0.3,
+      "baseDate": "2026-11-05",
+      "basePrice": 404.4,
+      "lastDate": "2026-11-05",
+      "lastClose": 404.4,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {

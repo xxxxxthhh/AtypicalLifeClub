@@ -6652,8 +6652,8 @@
     },
     "title": "AMD 深度研究报告 - AI时代的半导体挑战者",
     "titleEn": "AMD Deep Research Report - AI Era Semiconductor Challenger",
-    "summary": "2026-11-05 — Q3 2026 10-Q（0000002488-26-000191，2026-11-04 申报）：AMD 分别于 2025 年 10 月和 2026 年 2 月向两家客户发行认股权证，各可购买至多 1.6 亿股；截至 2026-09-26 没有任何认股权证股份归属或可行权。10-Q 称公司只供应 Helios 所用的部分产品，不制造也不销售完整的 Helios 机架方案。 2026-11-04 — Q3 2026（季度截至 2026-09-26；8-K Ex 99.1 与演示稿，2026-11-03）收入 $13,377M（同比 +45%、环比 +16%），公司称超过指引上沿；Data Center 收入 $8,546M（同比 +97%、环比 +27%），分部营业利润 $2,882M；GAAP／非 GAAP 毛利率 54%／56%，GAAP／非 GAAP 摊薄 EPS $1.46／$2.09。Q4 2026 指引：收入约 $17B（±3%）、非 GAAP 毛利率约 55%。 公司称 Anthropic、Meta、Microsoft、OpenAI、Oracle Cloud Infrastructure 已在首批 Helios 机架上运行模型和负载，MI450 系列已上市并计入 Data Center 增长驱动；稿内没有已出货吉瓦数或 Meta 首个 1GW 的完成情况。ROCm 10 已发布。公司另称已宣布拟收购 World Labs 与 Taalas 的协议，稿内未给对价。 估值与立场仍按 2026-07-30 历史基础；Q3 实绩与新指引待 Mode B 重算，价格、估值数字、立场和确信度本包未更新。",
-    "summaryEn": "2026-11-05 — Q3 2026 10-Q (0000002488-26-000191, filed 2026-11-04): AMD issued warrants to two customers in October 2025 and February 2026, each for up to 160 million shares; as of 2026-09-26 no warrant shares had vested or become exercisable. The 10-Q says the company supplies certain products used in Helios and does not manufacture or sell the completed Helios rack-scale solutions. 2026-11-04 — Q3 2026 (quarter ended 2026-09-26; 8-K Ex 99.1 and slides, 2026-11-03) revenue was $13,377M (+45% YoY, +16% QoQ), which the company says exceeded the high end of guidance; Data Center revenue was $8,546M (+97% YoY, +27% QoQ) with segment operating income of $2,882M; GAAP / non-GAAP gross margin 54% / 56%; GAAP / non-GAAP diluted EPS $1.46 / $2.09. Q4 2026 guidance: revenue of about $17B (plus or minus 3%) and non-GAAP gross margin of about 55%. The company says Anthropic, Meta, Microsoft, OpenAI and Oracle Cloud Infrastructure are running models and workloads on the first Helios racks, and lists the MI450 Series launch among Data Center growth drivers; the release gives no shipped gigawatts and no completion status for the first Meta 1GW. ROCm 10 was released. The company also says it announced agreements to acquire World Labs and Taalas; the release states no consideration. Valuation and stance remain on the 2026-07-30 historical basis; Q3 actuals and the new guidance await Mode B recomputation, and price, valuation figures, stance and conviction are not updated in this package.",
+    "summary": "2026-11-06 Mode B 重锚：以 2026-11-05 常规时段收盘 $404.40（最近一个已完成收盘；当日下跌 17.26%，当天没有 AMD 申报或新闻稿，原因未定）、封面股本 1,640.087M 计，市值 $663.3B、EV $654.6B、EV/TTM Sales 14.4x（TTM 收入 $45,436M）。相对 2026-07-31 旧框架，EV/TTM Sales 下降 6.7x，其中约一半来自股价，约一半来自收入分母。Q3 2026（季度截至 2026-09-26）收入 $13,377M（同比 +45%），Data Center $8,546M（+97%），非 GAAP 毛利率 56%、摊薄 EPS $2.09；Q4 指引约 $17B（±3%）、非 GAAP 毛利率约 55%。发行人在电话会上称预计 2027 年收入增长超过 80%（第三方转写，未对照回放；业绩稿、演示稿、10-Q 中均无此标记）；2026-10-27 新闻稿称首批 Helios 机架已在 Meta 安装测试，AMD 将投资 $1B 认购 Meta 的股权发行；没有已出货吉瓦数。FY2028 20/40/40 网格按交割后股本重建（封面股本加 World Labs 约 20.3M 股、Taalas 0-3.7M 股、员工摊薄 21M 股，约 1,681-1,685M）：$891.49-$893.26 / $562.02-$563.17 / $186.82-$187.21，加权 $477.84-$478.81，2.15 年年化 +8.1% 到 +8.2%，落在 8% 门槛上；中性路径年化约 +16.5%，下行路径 -53.8%。权重维持 2026-07-31 已发布的 20/40/40：11-05 当天没有 AMD 申报或新闻稿，原因未定的价格变动不是关于 2028 年的证据。立场由谨慎 / 中确信调整为中性观察 / 低确信：按当前价格，偏斜是平衡而不是负的；悲观权重 40.2-40.4% 即跌破门槛，加权对数增长率约 -0.9%，所以确信度为低。下调侧逐腿未触发或未观测，整体读 unclear。10-Q 披露至多 $8.5B 担保、$13.3B 未起租租约、至多 $6.2B 云算力承诺，以及两份至多各 1.6 亿股的客户认股权证（截至 2026-09-26 未归属）。",
+    "summaryEn": "2026-11-06 Mode B re-anchor: at the 2026-11-05 regular-session close of $404.40 (the latest completed close; down 17.26% that day with no AMD filing or release, cause undetermined) and 1,640.087M cover shares, market cap is $663.3B, EV $654.6B and EV/TTM sales 14.4x on TTM revenue of $45,436M. Of the 6.7x decline in EV/TTM sales from the old 2026-07-31 frame, roughly half came from the share price and half from the revenue denominator. Q3 2026 (quarter ended 2026-09-26) revenue was $13,377M (+45% YoY), Data Center $8,546M (+97%), non-GAAP gross margin 56% and diluted EPS $2.09; Q4 guidance is about $17B (plus or minus 3%) with non-GAAP gross margin of about 55%. On the call, the issuer said it expects 2027 revenue to grow more than 80% (third-party transcripts, not checked against the replay; the marker is not in the release, slides or 10-Q). A 2026-10-27 release says the first Helios racks were installed and in testing at Meta and that AMD will invest $1 billion in Meta's equity offering; no shipped-gigawatt figure exists. The FY2028 20/40/40 grid is built on a post-closing share count (cover shares plus about 20.3M for World Labs, 0-3.7M for Taalas and 21M of employee dilution, about 1,681-1,685M): $891.49-$893.26 / $562.02-$563.17 / $186.82-$187.21, a weighted $477.84-$478.81, or +8.1% to +8.2% annualized over 2.15 years, on the 8% hurdle; the central path returns about +16.5% a year and the downside path -53.8%. Weights stay at the 20/40/40 published on 2026-07-31: AMD filed and released nothing on 11-05, and an unexplained price move is not evidence about 2028. Stance moves from cautious / medium to neutral-watch / low: at the current price the skew is balanced rather than negative; a 40.2-40.4% pessimistic weight takes the return below the hurdle and the weighted log growth rate is about -0.9%, so conviction is low. The downgrade clauses are untriggered or unobserved, so that side reads unclear. The 10-Q discloses up to $8.5B of guarantees, $13.3B of leases not yet commenced, up to $6.2B of cloud-compute commitments and two customer warrants for up to 160 million shares each, unvested at 2026-09-26.",
     "tags": [
       "半导体",
       "AI加速器",
@@ -6662,7 +6662,7 @@
     ],
     "category": "tech",
     "date": "2026-02-04",
-    "lastUpdate": "2026-11-05",
+    "lastUpdate": "2026-11-06",
     "file": "/invest/research/reports/view.html?id=amd-2026",
     "markdownFiles": {
       "zh": "/invest/research/AMD_深度研究报告_2026-02.md",
@@ -6670,18 +6670,18 @@
     },
     "moduleContract": "heading-comment-v1",
     "highlights": [
-      "Q3 2026（2026-11-03 发布）：收入 $13,377M（+45%），Data Center $8,546M（+97%、环比 +27%）；非 GAAP 毛利率 56%、摊薄 EPS $2.09",
-      "Q4 指引：收入约 $17B（±3%）、非 GAAP 毛利率约 55%",
-      "Meta 首个 1GW 仍未判定：公司称首批 Helios 已运行模型和负载，稿内没有已出货吉瓦数；10-Q 称截至 9-26 无认股权证股份归属",
-      "ROCm 10 已发布；稿内没有可审计的客户迁移数据。已宣布收购 World Labs 与 Taalas，稿内未给对价",
-      "估值仍按 2026-07-30 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。"
+      "2026-11-06 重锚：$404.40（2026-11-05 收盘）、市值 $663.3B、EV $654.6B、EV/TTM Sales 14.4x；当日下跌 17.26%，原因未定",
+      "20/40/40 网格（按交割后股本重建）$891.49-$893.26 / $562.02-$563.17 / $186.82-$187.21，加权 $477.84-$478.81，年化 +8.1% 到 +8.2%，落在 8% 门槛上；立场由谨慎 / 中确信调整为中性观察 / 低确信",
+      "Q3 2026 收入 $13,377M（+45%），Data Center $8,546M（+97%）；Q4 指引约 $17B、非 GAAP 毛利率约 55%，低于 56% 的上调门槛",
+      "发行人称预计 2027 年收入增长超过 80%（电话会，第三方转写，未对照回放）；按该标记推算 EPS 约 $16.51，约 24.5x",
+      "首个 1GW 仍未判定：10-27 首批 Helios 机架在 Meta 测试，没有已出货吉瓦数；两份认股权证至多各 1.6 亿股未归属；担保至多 $8.5B"
     ],
     "chainLayer": "compute",
     "coverageTier": "full",
     "chainRole": "architecture-check",
-    "stance": "cautious",
-    "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q3 2026 monitoring / 2026-07-30 valuation frame",
+    "stance": "neutral-watch",
+    "priceAsOf": "2026-11-05",
+    "reportedPeriod": "Q3 2026",
     "related": [
       "nvidia-2026",
       "broadcom-2026"
@@ -6700,13 +6700,13 @@
           "en": "the first 1GW ships on schedule in H2 2026 — the core H2 test"
         },
         "latest": {
-          "zh": "2026-11-03 Q3 2026 业绩稿：公司称 Anthropic、Meta、Microsoft、OpenAI、Oracle Cloud Infrastructure 已在首批 Helios 机架上运行模型和负载，MI450 系列已上市。这是发行人对部署状态的描述；稿内与演示稿都没有已出货吉瓦数，也没有 Meta 首个 1GW 的完成情况，电话会未读。 2026-11-04 Q3 10-Q：两家客户的认股权证截至 2026-09-26 均无股份归属或可行权；归属取决于采购里程碑、股价目标及技术和商业条件，所以未归属不等于未出货。10-Q 未给出已出货吉瓦数。",
-          "en": "2026-11-03 Q3 2026 release: the company says Anthropic, Meta, Microsoft, OpenAI and Oracle Cloud Infrastructure are running models and workloads on the first Helios racks, and that the MI450 Series has launched. This is the issuer describing deployment status; neither the release nor the slides give shipped gigawatts or the completion status of the first Meta 1GW, and the call was not read. 2026-11-04 Q3 10-Q: no warrant shares for either customer had vested or become exercisable as of 2026-09-26; vesting depends on purchase milestones, stock-price targets and technical and commercial conditions, so non-vesting does not mean non-shipment. The 10-Q gives no shipped-gigawatt figure."
+          "zh": "2026-10-27 AMD 与 Meta 新闻稿：首批 Helios 机架级方案 “are installed and being tested by Meta on the path to a broader deployment in the near future”；Meta 将部署定制 Instinct GPU；AMD 将投资 $1B 认购 Meta 的股权发行；没有吉瓦数。2026-11-03 Q3 2026 业绩稿：公司称 Anthropic、Meta、Microsoft、OpenAI、Oracle Cloud Infrastructure 已在首批 Helios 机架上运行模型和负载，MI450 系列已上市；稿内与演示稿都没有已出货吉瓦数，也没有 Meta 首个 1GW 的完成情况。2026-11-03 电话会（第三方转写，未对照回放）：发行人称 Q3 是首次为收入出货 MI455 和 Helios 机架的季度，Q4 大幅增加；Jean Hu 称 AMD 会在 2027 年就归属给出指引。Ex 99.2 第 24 页称 Q4 股本预计不受认股权证影响。2026-11-04 Q3 10-Q：两家客户的认股权证截至 2026-09-26 均无股份归属或可行权；归属取决于采购里程碑、股价目标及技术和商业条件，所以未归属不等于未出货。认股权证负债 $1.2B（\"attributable to qualifying customer revenue recorded to date\"），也没有给出吉瓦数。按 10-Q，AMD 不制造也不销售完整的 Helios 机架。",
+          "en": "2026-10-27 AMD and Meta release: initial Helios rack-scale solutions \"are installed and being tested by Meta on the path to a broader deployment in the near future\"; Meta will deploy a custom Instinct GPU; AMD will invest $1 billion in Meta's equity offering; no gigawatt figure. 2026-11-03 Q3 2026 release: the company says Anthropic, Meta, Microsoft, OpenAI and Oracle Cloud Infrastructure are running models and workloads on the first Helios racks, and that the MI450 Series has launched; neither the release nor the slides give shipped gigawatts or the completion status of the first Meta 1GW. 2026-11-03 call (third-party transcripts, not checked against the replay): the issuer said Q3 was the first quarter it shipped MI455 and Helios racks for revenue, with a large step up in Q4; Jean Hu said AMD will guide on vesting during 2027. Slide 24 of Ex 99.2 says Q4 share count is not expected to be affected by the warrants. 2026-11-04 Q3 10-Q: no warrant shares for either customer had vested or become exercisable as of 2026-09-26; vesting depends on purchase milestones, stock-price targets and technical and commercial conditions, so non-vesting does not mean non-shipment. The $1.2B warrant liability (\"attributable to qualifying customer revenue recorded to date\") gives no gigawatt figure either. Per the 10-Q, AMD does not manufacture or sell completed Helios racks."
         },
-        "nextCheck": "2026-H2 出货确认 / H2 shipment confirmation",
+        "nextCheck": "Q4 2026 财报与 FY2026 10-K：已出货吉瓦数与首档认股权证状态 / Q4 2026 results and FY2026 10-K: shipped gigawatts and first-tranche warrant status",
         "reading": "unclear",
         "readingAsOf": "2026-11-04",
-        "readingNote": "下半年未结束，且 10-Q 仍无出货量；未归属只说明截至 9-26 的权证状态。 / H2 has not ended and the 10-Q has no shipment figure; non-vesting only describes warrant status at 9-26."
+        "readingNote": "下半年未结束。10-27 首批机架在 Meta 测试、更大范围部署被描述为近期，这不是延期披露。10-Q 称认股权证负债 attributable to qualifying customer revenue recorded to date，说明合格收入已开始，但没有吉瓦数；未归属只说明截至 9-26 的权证状态。 / H2 has not ended. On 10-27 the first racks were in testing at Meta with broader deployment described as near, which is not a disclosed delay. The 10-Q calls the warrant liability attributable to qualifying customer revenue recorded to date, so qualifying revenue has begun, but no gigawatt figure exists, and non-vesting only describes warrant status at 9-26."
       },
       {
         "id": "datacenter-growth",
@@ -6721,10 +6721,10 @@
           "en": "a DC growth stall directly hits the high-expectations pricing"
         },
         "latest": {
-          "zh": "2026-11-03 Q3 2026 业绩稿（季度截至 2026-09-26）：Data Center 收入 $8,546M（同比 +97%、环比 +27%；Q2 为 $6,718M、同比 +107%），占总收入约 64%（$13,377M，同比 +45%）；分部营业利润 $2,882M。Q4 指引总收入约 $17B（±3%）、非 GAAP 毛利率约 55%。",
-          "en": "2026-11-03 Q3 2026 release (quarter ended 2026-09-26): Data Center revenue $8,546M (+97% YoY, +27% QoQ; Q2 was $6,718M, +107% YoY), about 64% of total revenue ($13,377M, +45% YoY); segment operating income $2,882M. Q4 guidance is total revenue of about $17B (plus or minus 3%) and non-GAAP gross margin of about 55%."
+          "zh": "2026-11-03 Q3 2026 业绩稿（季度截至 2026-09-26）：Data Center 收入 $8,546M（同比 +97%、环比 +27%；Q2 为 $6,718M、同比 +107%），占总收入约 64%（$13,377M，同比 +45%）；分部营业利润 $2,882M。Q4 指引总收入约 $17B（±3%）、非 GAAP 毛利率约 55%。电话会（第三方转写）：Q4 Data Center 环比约 +50%，全年收入超过 2025 年两倍，2027 年占总收入超过 80%。",
+          "en": "2026-11-03 Q3 2026 release (quarter ended 2026-09-26): Data Center revenue $8,546M (+97% YoY, +27% QoQ; Q2 was $6,718M, +107% YoY), about 64% of total revenue ($13,377M, +45% YoY); segment operating income $2,882M. Q4 guidance is total revenue of about $17B (plus or minus 3%) and non-GAAP gross margin of about 55%. Call (third-party transcripts): Q4 Data Center up about 50% QoQ, full-year revenue more than double 2025, and more than 80% of total revenue in 2027."
         },
-        "nextCheck": "2026-Q3 财报与数据中心增速 / Q3 earnings and Data Center growth",
+        "nextCheck": "Q4 2026 财报与数据中心增速（发行人尚未公布日期） / Q4 2026 results and Data Center growth (date not yet announced by the issuer)",
         "reading": "within",
         "readingAsOf": "2026-11-03",
         "readingNote": "Data Center 环比 +27%、同比增速高于公司整体，未出现增长停滞。 / Data Center grew 27% sequentially and faster than the company overall, so no growth stall appeared."
@@ -6742,13 +6742,13 @@
           "en": "ROCm produces auditable customer-migration cases, or migration evidence stays absent while custom ASICs and NVIDIA Rubin compress AMD's rack-level price-performance window"
         },
         "latest": {
-          "zh": "2026-11-03 Q3 2026 业绩稿：ROCm 10 已发布（ROCm.AI、性能与工具链更新），Helion 参考架构发布。稿内没有可审计的客户迁移案例或开发者数，也没有相对 NVIDIA Rubin 或定制 ASIC 的机架级性价比数据。",
-          "en": "2026-11-03 Q3 2026 release: ROCm 10 was released (ROCm.AI, performance and tooling updates) and the Helion reference architecture was introduced. The release has no auditable customer-migration case or developer count, and no rack-level price-performance data against NVIDIA Rubin or custom ASICs."
+          "zh": "2026-11-03 Q3 2026 业绩稿：ROCm 10 已发布（ROCm.AI、性能与工具链更新），Helion 参考架构发布。稿内没有可审计的客户迁移案例或开发者数，也没有相对 NVIDIA Rubin 或定制 ASIC 的机架级性价比数据。电话会（第三方转写）：管理层称 Helios 总拥有成本领先，并讲述 Anthropic 一名工程师在一个周末把模型跑上 MI355X 机架；这些是发行人的说法和个案，不是可审计记录。",
+          "en": "2026-11-03 Q3 2026 release: ROCm 10 was released (ROCm.AI, performance and tooling updates) and the Helion reference architecture was introduced. The release has no auditable customer-migration case or developer count, and no rack-level price-performance data against NVIDIA Rubin or custom ASICs. Call (third-party transcripts): management claims a leading total cost of ownership for Helios and recounted one Anthropic engineer bringing up a model on MI355X racks over a weekend; these are issuer statements and an anecdote, not an auditable record."
         },
-        "nextCheck": "2026-H2 迁移案例与 Helios/MI450 出货证据 / H2 2026 migration cases and Helios/MI450 shipment evidence",
+        "nextCheck": "Q4 2026 财报：迁移案例与 Helios/MI450 出货证据 / Q4 2026 results: migration cases and Helios/MI450 shipment evidence",
         "reading": "unclear",
         "readingAsOf": "2026-11-03",
-        "readingNote": "产品发布不是迁移证据；trigger 两腿都未被所读文件覆盖。 / A product release is not migration evidence; the read documents cover neither leg of the trigger."
+        "readingNote": "产品发布和个案不是迁移证据；trigger 两腿都未被所读文件覆盖。 / A product release and an anecdote are not migration evidence; the read documents cover neither leg of the trigger."
       },
       {
         "id": "valuation-tolerance",
@@ -6759,25 +6759,70 @@
           "en": "Valuation tolerance"
         },
         "trigger": {
-          "zh": "约 23.4x EV/TTM Sales、价格接近 bull case 下沿时的倍数压缩",
-          "en": "multiple compression from ~23.4x EV/TTM Sales with price near the bull-case floor"
+          "zh": "EV/TTM Sales 从约 14.4x 再次压缩时，股价下跌贡献超过一半（按每次财报后首个完整交易日收盘计算），即倍数不再由收入分母消化，而由价格下跌实现",
+          "en": "a further compression of EV/TTM Sales from about 14.4x in which the falling share price contributes more than half, measured at the first full close after each earnings release, so that price rather than the revenue denominator is doing the work"
         },
         "latest": {
-          "zh": "2026-07-31 估值重锚（非财报，仅价格）：2026-07-30 收盘 $485.39（较 2026-06-18 旧锚点 $537.37 跌约 9.7%）；市值约 $801B、EV 约 $792B，EV/TTM Sales 约 21.2x（旧口径约 23.4x）、EV/Forward Sales 约 15.8-17.3x、约 89x 年化 Q1 非 GAAP EPS、FCF 收益率约 1.3%。2026-08-04 Q2 业绩只作为事实监测纳入，尚未重算这些倍数、情景网格、立场或确信度；下一步是用当前价格进行完整估值复核。",
-          "en": "2026-07-31 valuation re-anchor (price-only, not an earnings update): AMD closed at $485.39 on 2026-07-30 (about -9.7% from the old 2026-06-18 anchor of $537.37); market cap about $801B, EV about $792B, EV/TTM Sales about 21.2x (old caliber about 23.4x), EV/Forward Sales about 15.8-17.3x, about 89x annualized Q1 non-GAAP EPS, and FCF yield about 1.3%. The 2026-08-04 Q2 print is incorporated only as factual monitoring and these multiples, the scenario grid, stance, and conviction have not been recomputed; the next step is a full valuation review using a current price."
+          "zh": "2026-11-05 收盘 $404.40，封面股本 1,640.087M，市值 $663.3B；现金及短投 $15,776M、债务 $7,079M，EV $654.6B；TTM 收入 $45,436M，EV/TTM Sales 14.41x。较 2026-07-31 框架（EV $791.8B / TTM $37,454M = 21.14x，公布约 21.2x）下降 6.73x：先算价格时，股价 -3.57x、股本口径 -0.11x、净现金 +0.01x、收入分母 -3.07x；先算分母时，分母 -3.72x、价格 -2.94x。约一半来自价格。其他读数：FY2026E 12.5x，2027 标记下限 7.0x；非 GAAP P/E 60.8x TTM、50.3x FY2026E、约 24.5x 2027 标记；TTM FCF 收益率 1.02%。按第 8 节，加权年化 +8.1% 到 +8.2%；要赚 8%，中性路径需要 20.2x 退出倍数。",
+          "en": "2026-11-05 close $404.40 on 1,640.087M cover shares gives $663.3B of market cap; with $15,776M of cash and short-term investments and $7,079M of debt, EV is $654.6B; on TTM revenue of $45,436M, EV/TTM Sales is 14.41x. That is 6.73x below the 2026-07-31 frame (EV $791.8B / TTM $37,454M = 21.14x, published as about 21.2x): taking price first, share price -3.57x, share-count basis -0.11x, net cash +0.01x and revenue denominator -3.07x; taking the denominator first, denominator -3.72x and price -2.94x. About half is price. Other readings: 12.5x FY2026E and 7.0x on the 2027 marker floor; non-GAAP P/E of 60.8x TTM, 50.3x FY2026E and about 24.5x on 2027 markers; TTM FCF yield 1.02%. Per section 8, the weighted return is +8.1% to +8.2% annualized, and earning 8% on the central path needs a 20.2x exit multiple."
         },
-        "nextCheck": "Q2 后的完整估值复核 / full valuation re-adjudication after Q2"
+        "nextCheck": "Q4 2026 财报后首个完整交易日收盘重算 / recompute at the first full close after Q4 2026 results",
+        "reading": "unclear",
+        "readingAsOf": "2026-11-05",
+        "readingNote": "对照已发布的旧文（约 23.4x、价格接近 bull case 下沿时的倍数压缩）读 unclear：压缩已经发生（23.4x 到 14.4x），约一半来自价格，但 bull case 下沿从未定义。新文以 2026-11-05 的 14.4x 为基准，首次测量在 Q4 2026 财报后，目前没有读数。基准取 11-05 收盘，因为 11-05 单日下跌就是 3.05x 由价格造成的压缩，以下跌前的水平为起点会在任何财报测量前就已触发。 / Read against the published old text (multiple compression from about 23.4x with price near the bull-case floor) this is unclear: compression has happened, from 23.4x to 14.4x, about half of it by price, but the bull-case floor was never defined. The new text is based at 14.4x on 2026-11-05 and is first measured after Q4 2026 results, so it has no reading yet. The base is the 11-05 close because the 11-05 fall alone was a 3.05x price-driven compression, so a base set before that fall would start tripped before any earnings measurement."
+      },
+      {
+        "id": "fy2027-revenue-marker",
+        "thesis": "either",
+        "theme": "demand",
+        "metric": {
+          "zh": "2027 年收入增长标记（超过 80%）",
+          "en": "2027 revenue growth marker (more than 80%)"
+        },
+        "trigger": {
+          "zh": "管理层撤回 2027 收入增长标记，或把标记或正式 2027 收入指引中点下调至隐含增长低于 70%",
+          "en": "management withdraws the 2027 revenue growth marker, or cuts the marker or the formal 2027 revenue guidance midpoint to imply growth below 70%"
+        },
+        "latest": {
+          "zh": "2026-11-03 电话会（第三方转写；业绩稿、演示稿和 10-Q 均无此内容）：Lisa Su 称现预计 2027 年收入增长超过 80%，服务器约翻倍、数据中心 AI 增速更快，并称这些是 markers。按 FY2026E $52,166M，下限约 $93.9B。CFO 称 opex 增速低于收入增速的一半，未给出 2027 年毛利率。2026-11-06 复核：在 Ex 99.1、Ex 99.2、8-K 封面和 10-Q 的文本中搜索 “2027”、“80%”、“marker”，没有找到 2027 年收入数字或增长标记；仍待对照 ir.amd.com 回放。",
+          "en": "2026-11-03 call (third-party transcripts; not in the release, slides or 10-Q): Lisa Su said AMD now expects 2027 revenue to grow more than 80%, with server about doubling and data center AI growing faster, and called these markers. On FY2026E of $52,166M, the floor is about $93.9B. The CFO said opex should grow less than half as fast as revenue and gave no 2027 gross margin. 2026-11-06 check: a search of the text of Ex 99.1, Ex 99.2, the 8-K cover and the 10-Q for \"2027\", \"80%\" and \"marker\" found no 2027 revenue figure or growth marker; the ir.amd.com replay is still to be checked."
+        },
+        "nextCheck": "Q4 2026 财报与 2027 展望；核对 ir.amd.com 回放 / Q4 2026 results and the 2027 outlook; check against the ir.amd.com replay",
+        "reading": "unclear",
+        "readingAsOf": "2026-11-03",
+        "readingNote": "标记仍在，未被撤回或下调。正式 2027 指引尚不存在，这部分未观测。按析取规则读 unclear。来源是第三方转写，未对照回放。 / The marker stands and has not been withdrawn or cut. No formal 2027 guidance exists, so that part is unobserved. Under the disjunction rule this reads unclear. The source is third-party transcripts, not checked against the replay."
+      },
+      {
+        "id": "ecosystem-credit-support",
+        "thesis": "bear",
+        "theme": "execution",
+        "metric": {
+          "zh": "对商业伙伴的担保与算力、租约承诺",
+          "en": "Guarantees and compute and lease commitments for commercial partners"
+        },
+        "trigger": {
+          "zh": "依担保累计实际付款超过 $500M，或违约涉及的担保敞口超过 $1B",
+          "en": "cumulative payments under the guarantees exceed $500M, or a default involves guaranteed exposure above $1B"
+        },
+        "latest": {
+          "zh": "2026-11-04 Q3 10-Q（截至 2026-09-26）：担保上限 $8.5B（租约 $7.7B、债务 $750M），没有伙伴违约，也没有发生付款；云算力承诺最高 $6,175M；未起租、预计转给伙伴的数据中心租约 $13.3B。对比净现金 $8,697M。披露未点名伙伴。10-Q 另称 2026 年 10 月对某上市公司投资 $1.0B（未点名）；AMD 2026-10-27 新闻稿称将投资 $1B 认购 Meta 的股权发行，我们推断是同一笔。",
+          "en": "2026-11-04 Q3 10-Q (as of 2026-09-26): guarantees of up to $8.5B ($7.7B leases, $750M debt), with no partner in default and nothing paid; cloud-compute commitments of up to $6,175M; $13.3B of data center leases not yet commenced and expected to pass to partners. Net cash is $8,697M for comparison. The disclosure does not name the partners. The 10-Q also reports a $1.0B investment in an unnamed public company in October 2026; AMD's 2026-10-27 release says AMD will invest $1 billion in Meta's equity offering, and we infer it is the same investment."
+        },
+        "nextCheck": "FY2026 10-K 的担保总额、违约与付款 / FY2026 10-K: guarantee totals, defaults and payments",
+        "reading": "within",
+        "readingAsOf": "2026-11-04",
+        "readingNote": "10-Q 明确称截至 2026-09-26 没有伙伴违约、没有付款。 / The 10-Q states that as of 2026-09-26 no partner was in default and no amounts had been paid."
       }
     ],
-    "conviction": "medium",
+    "conviction": "low",
     "stanceRationale": {
-      "zh": "以 2026-07-30 收盘 $485.39、约 $7,920 亿 EV 和约 21.2x EV/TTM Sales 计，市场依然把 Meta/Helios、MI450、ROCm 改善、Data Center 增速和利润率扩张放进价格：按 Q1 Non-GAAP EPS 年化约 89x、即使按 FY2026 $6.00 仍约 81x、FCF 收益率仅约 1.3%。基准情景同意基本面变强，但这些证据仍不足以覆盖当前 multiple，预期差仍偏负。需要指出：倍数由 23.4x 降至 21.2x 完全来自股价下跌，并非升级触发条件所要求的“被收入分母消化”，因此不构成上调理由。",
-      "en": "At the $485.39 close on 2026-07-30, roughly $792B EV, and about 21.2x EV/TTM Sales, the market still prices Meta/Helios, MI450, ROCm improvement, Data Center growth, and margin expansion: annualized Q1 non-GAAP EPS is about 89x, about 81x even on $6.00 of FY2026 EPS, and the FCF yield is only about 1.3%. The base case agrees fundamentals are stronger, but that evidence still does not cover the current multiple, so the expectation gap stays negative. Note explicitly that the fall from 23.4x to 21.2x comes entirely from a lower share price and is not the absorption 'by the revenue denominator' the upgrade trigger requires, so it is not a reason to upgrade."
+      "zh": "以 2026-11-05 收盘 $404.40、封面股本 1,640.087M 计，市值 $663.3B、EV $654.6B、EV/TTM Sales 14.4x。trailing 估值仍然偏高：TTM 非 GAAP P/E 60.8x，FCF 收益率 1.02%；只有 2027 标记（第三方转写，未对照回放）兑现时，前瞻倍数才是约 24.5x。已定价预期：要赚 8%，中性路径只需 20.2x 退出（我们用 24x），或在 24x 下 FY2028 收入约 $109.6B，即标记兑现后 2028 年再增长约 14%，而中性路径假设 35%。网格按交割后股本重建：封面股本加 World Labs 约 20.3M 股（股数按交割前 10 日成交量加权均价浮动，2026-09-28 8-K）、Taalas 股票部分 0-3.7M 股（未披露，review-pending）和员工摊薄 21M 股。FY2028 牛市／基准／熊市为 $891.49-$893.26 / $562.02-$563.17 / $186.82-$187.21；按 20/40/40 加权 $477.84-$478.81，2.15 年年化 +8.1% 到 +8.2%，落在 8% 门槛上；中性路径约 +16.5%，下行路径 -53.8%。净额判断：相对 2026-07-31 已发布的 20/40/40，我们仍无法写出新增负面（担保、未起租租约、云算力承诺、Q3 FCF 降至 $554M、约 $11.1B 收购、$1B 投入 Meta 股权发行）小于已缩小的近期执行风险，因为把 2026 年连到 2028 年的证据只有未核实的电话会；11-05 当天没有 AMD 申报或新闻稿，原因未定的价格变动不是关于 2028 年的证据，所以权重不变。立场由谨慎调整为中性观察：我们按重建后的数字依偏斜定义重新推导，加权回报落在门槛上，偏斜平衡而不是负的。执行腿（首个 1GW 未观察到、ROCm 迁移未证实、毛利率尚未达到 56%、现金转化下降、客户融资依赖 AMD 信用）正是下行权重 40% 的原因，已包含在网格中，不能再次用来推翻网格。先例：书中没有高于 +6.6% 的谨慎标签，Lumentum +7.7% 与 SMH +9.5% 都是中性观察 / 低确信。确信度为低：结果距门槛不到 0.2 个百分点，若 Taalas 或有对价也以股票支付就略低于门槛，加权对数增长率约 -0.9%，2028 年没有指引，标记未核实。下调侧逐腿未触发或未观测，整体读 unclear。",
+      "en": "At the 2026-11-05 close of $404.40 on 1,640.087M cover shares, market cap is $663.3B, EV $654.6B and EV/TTM Sales 14.4x. Trailing valuation is still high: TTM non-GAAP P/E is 60.8x and the FCF yield 1.02%; the forward multiple is about 24.5x only if the 2027 marker (third-party transcripts, not checked against the replay) is met. What's priced in: earning 8% needs only a 20.2x exit on the central path (we use 24x), or about $109.6B of FY2028 revenue at 24x, which is the marker met and then about 14% growth in 2028 against the 35% the central path assumes. The grid is built on a post-closing share count: cover shares plus about 20.3M for World Labs (the count floats with the 10-day VWAP before closing, 8-K of 2026-09-28), 0-3.7M for the Taalas stock portion (undisclosed, review-pending) and 21M of employee dilution. FY2028 bull / base / bear values are $891.49-$893.26 / $562.02-$563.17 / $186.82-$187.21; 20/40/40 gives $477.84-$478.81, or +8.1% to +8.2% annualized over 2.15 years, on the 8% hurdle, with the central path at about +16.5% and the downside path at -53.8%. Net judgement: against the 20/40/40 published on 2026-07-31, we still cannot write that the new negatives (guarantees, leases not yet commenced, cloud-compute commitments, Q3 FCF down to $554M, about $11.1B of deals, $1 billion into Meta's equity offering) are smaller than the shrunken near-term execution risk, because the only link from 2026 to 2028 is the unverified call; AMD filed and released nothing on 11-05, and an unexplained price move is not evidence about 2028, so the weights are unchanged. The stance moves from cautious to neutral-watch: re-derived from the rebuilt numbers under the skew definition, the weighted return sits on the hurdle and the skew is balanced rather than negative. The execution legs (first 1GW unobserved, ROCm migration unproven, gross margin not yet at 56%, lower cash conversion, customer funding that draws on AMD's credit) are why the downside weight is 40%; they are already in the grid and cannot be used again to override it. Precedents: no cautious label in the book sits above +6.6%, and Lumentum at +7.7% and SMH at +9.5% are both neutral-watch / low. Conviction is low: the result is within 0.2 points of the hurdle and just below it if the contingent Taalas consideration is also paid in stock, the weighted log growth rate is about -0.9%, 2028 is unguided and the marker is unverified. The downgrade clauses are untriggered or unobserved, so that side reads unclear."
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "若 2026H2 首个 1GW Meta deployment 按期出货并进入收入、Data Center 增速和 56%+ non-GAAP gross margin 同时兑现，ROCm/Helios 证明可重复客户迁移，且 EV/TTM Sales 从当前约 21.2x 被收入分母消化（股价下跌造成的倍数下降不算），则上调至 neutral-watch 或 constructive。",
-        "en": "Move to neutral-watch or constructive if the first 1GW Meta deployment ships on schedule in H2 2026 and enters revenue, Data Center growth and 56%+ non-GAAP gross margin both deliver, ROCm/Helios prove repeatable customer migration, and EV/TTM Sales is absorbed from the current roughly 21.2x by the revenue denominator (a multiple decline caused by a falling share price does not count).",
+        "zh": "若 2026H2 首个 1GW Meta deployment 按期出货并进入收入（下一检查点：Q4 2026 财报和 FY2026 10-K）、Data Center 收入增速在 Q4 2026 和 Q1 2027 两份财报中都高于公司整体收入增速，业绩稿公布的 Q4 2026 非 GAAP 毛利率不低于 56%，ROCm/Helios 证明可重复客户迁移，且 EV/TTM Sales 从当前约 14.4x 继续被收入分母消化（股价下跌造成的倍数下降不算），则上调至 constructive。",
+        "en": "Move to constructive if the first 1GW Meta deployment ships on schedule in H2 2026 and enters revenue (next checkpoint: Q4 2026 results and the FY2026 10-K), Data Center revenue growth stays above company revenue growth in both the Q4 2026 and Q1 2027 results, Q4 2026 non-GAAP gross margin is 56% or higher as reported in the earnings release, ROCm/Helios prove repeatable customer migration, and EV/TTM Sales keeps being absorbed from the current roughly 14.4x by the revenue denominator (a multiple decline caused by a falling share price does not count).",
         "monitoringIds": [
           "meta-6gw-ramp",
           "datacenter-growth",
@@ -6786,12 +6831,14 @@
         ]
       },
       "downgrade": {
-        "zh": "若 Meta 1GW 或 6GW 路径延期/缩小、Data Center 增速低于公司整体、ROCm 没有可审计迁移证据，或 custom ASIC/NVIDIA Rubin 压缩 AMD 的 rack-level 性价比窗口，则下调至 bearish-avoid。",
-        "en": "Move to bearish-avoid if the Meta 1GW or 6GW path is delayed/reduced, Data Center growth falls below company-level growth, ROCm lacks auditable migration evidence, or custom ASICs / NVIDIA Rubin compress AMD's rack-level price-performance window.",
+        "zh": "若 Meta 1GW 或 6GW 路径延期/缩小、Data Center 增速低于公司整体、ROCm 迁移证据持续缺位且定制 ASIC 与 NVIDIA Rubin 压缩 AMD 的机架级价格性能窗口、管理层撤回 2027 收入增长标记，或把标记或正式 2027 收入指引中点下调至隐含增长低于 70%，或依担保累计实际付款超过 $500M 或违约涉及的担保敞口超过 $1B，则下调至 cautious。",
+        "en": "Move to cautious if the Meta 1GW or 6GW path is delayed/reduced, Data Center growth falls below company-level growth, ROCm migration evidence stays absent while custom ASICs and NVIDIA Rubin compress AMD's rack-level price-performance window, management withdraws the 2027 revenue growth marker or cuts the marker or the formal 2027 revenue guidance midpoint to imply growth below 70%, or cumulative payments under the guarantees exceed $500M or a default involves guaranteed exposure above $1B.",
         "monitoringIds": [
           "meta-6gw-ramp",
           "datacenter-growth",
-          "rocm-helios-competitiveness"
+          "rocm-helios-competitiveness",
+          "fy2027-revenue-marker",
+          "ecosystem-credit-support"
         ]
       }
     },
@@ -6812,6 +6859,12 @@
         "stance": "cautious",
         "conviction": "medium",
         "price": 485.39
+      },
+      {
+        "date": "2026-11-06",
+        "stance": "neutral-watch",
+        "conviction": "low",
+        "price": 404.4
       }
     ]
   },

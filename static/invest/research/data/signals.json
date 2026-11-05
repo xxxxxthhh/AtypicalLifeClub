@@ -3945,5 +3945,33 @@
       "alab-2026:customer-concentration",
       "alab-2026:customer-warrant-contra-revenue"
     ]
+  },
+  {
+    "id": "amd-q3-2026-mode-b-reanchor-20261105",
+    "date": "2026-11-05",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "AMD Q3 后重锚：$404.40、EV/TTM Sales 14.41x，自 21.2x 的降幅约一半来自股价；网格年化 +8.1% 到 +8.2%，落在门槛上，立场调整为中性观察 / 低确信；首批 Helios 机架 10-27 在 Meta 测试",
+      "en": "AMD post-Q3 re-anchor: $404.40 and 14.41x EV/TTM Sales, with about half of the decline from 21.2x coming from price; the grid gives +8.1% to +8.2% annualized, on the hurdle, and the stance moves to neutral-watch / low; first Helios racks in testing at Meta on 10-27"
+    },
+    "detail": {
+      "zh": "来源：CNBC 报价服务与 Google Finance（2026-11-05 常规时段收盘 $404.40，当日下跌 17.26%；SEC EDGAR 与 AMD 新闻稿页于 2026-11-06 均未见 11-05 的发行人公告，原因未定）；AMD Q3 10-Q（0000002488-26-000191）封面股本 1,640,087,251 股（2026-10-28）、现金及短投 $15,776M、债务 $7,079M；8-K Ex 99.1（0000002488-26-000188）及 Q4 2025 8-K 的收入；AMD 2026-10-27 与 Meta 的新闻稿；2026-09-28 8-K（0000002488-26-000182，World Labs 股数按交割前 10 日成交量加权均价浮动）。算术：市值 $663.3B，EV $654.6B，TTM 收入 $45,436M，EV/TTM Sales 14.41x。较 2026-07-31 框架 21.14x 下降 6.73x：先算价格时股价 -3.57x、股本口径 -0.11x、净现金 +0.01x、收入分母 -3.07x；先算分母时分母 -3.72x、价格 -2.94x。valuation-tolerance 读 unclear：对照已发布旧文，压缩已发生但 bull case 下沿从未定义；新文以 2026-11-05 的 14.4x 为基准，首次测量在 Q4 2026 财报后。meta-6gw-ramp 读 unclear：10-27 新闻稿称首批 Helios 机架已在 Meta 安装测试、近期走向更大范围部署，没有吉瓦数，下半年未结束。ecosystem-credit-support 读 within：10-Q 称截至 2026-09-26 无违约、无付款；10-Q 另有对未点名上市公司的 $1.0B 投资，10-27 新闻稿称 AMD 将投资 $1B 认购 Meta 的股权发行，我们推断是同一笔。fy2027-revenue-marker 读 unclear：标记仍在（2026-11-03 电话会，第三方转写，Motley Fool 与 StockAnalysis 交叉核对，未对照回放），正式 2027 指引一腿未观测；Ex 99.1、Ex 99.2、8-K 封面和 10-Q 文本中均未找到该标记。下调条款逐腿：Meta 路径 unclear；Data Center 增速未触发；ROCm 与 ASIC/Rubin 合并条款 unclear（已发布旧文的 ROCm 腿“ROCm 没有可审计迁移证据”自发布起按字面一直成立，属发布即成立的缺陷，本版改写为合取）；2027 标记 unclear；担保未触发；整体读 unclear。立场裁定（2026-11-06）：网格按交割后股本约 1,681-1,685M 重建（含 World Labs 约 20.3M 股、Taalas 0-3.7M 股），20/40/40 加权 $477.84-$478.81，年化 +8.1% 到 +8.2%，落在 8% 门槛上；权重维持 2026-07-31 已发布的 20/40/40，11-05 当天没有 AMD 申报或新闻稿；由谨慎 / 中确信调整为中性观察 / 低确信。证据边界：没有任何来源给出已出货吉瓦数。本条为事实性监测，不含投资建议。",
+      "en": "Sources: CNBC quote service and Google Finance (2026-11-05 regular-session close of $404.40, down 17.26% on the day; SEC EDGAR and the AMD press-release page showed no issuer announcement dated 11-05 when checked on 2026-11-06, so the cause is undetermined); AMD Q3 10-Q (0000002488-26-000191) cover share count of 1,640,087,251 at 2026-10-28, cash and short-term investments of $15,776M and debt of $7,079M; revenue from 8-K Ex 99.1 (0000002488-26-000188) and the Q4 2025 8-K; AMD's 2026-10-27 release with Meta; the 2026-09-28 8-K (0000002488-26-000182: World Labs shares float with the 10-day VWAP before closing). Arithmetic: market cap $663.3B, EV $654.6B, TTM revenue $45,436M, EV/TTM Sales 14.41x. The 6.73x decline from the 2026-07-31 frame of 21.14x is, taking price first, share price -3.57x, share-count basis -0.11x, net cash +0.01x and revenue denominator -3.07x; taking the denominator first, denominator -3.72x and price -2.94x. valuation-tolerance reads unclear: against the published old text, compression has happened but the bull-case floor was never defined; the new text is based at 14.4x on 2026-11-05 and is first measured after Q4 2026 results. meta-6gw-ramp reads unclear: the 10-27 release says the first Helios racks were installed and in testing at Meta on the path to broader deployment in the near future, with no gigawatt figure, and H2 has not ended. ecosystem-credit-support reads within: the 10-Q says no default and no payment as of 2026-09-26; the 10-Q also reports a $1.0B investment in an unnamed public company, and the 10-27 release says AMD will invest $1 billion in Meta's equity offering, which we infer is the same investment. fy2027-revenue-marker reads unclear: the marker stands (2026-11-03 call, third-party transcripts, Motley Fool cross-checked against StockAnalysis, not checked against the replay) and the formal 2027 guidance leg is unobserved; the text of Ex 99.1, Ex 99.2, the 8-K cover and the 10-Q contains no such marker. Downgrade clauses leg by leg: Meta path unclear; Data Center growth not triggered; the merged ROCm and ASIC/Rubin clause unclear (the published ROCm leg, \"ROCm lacks auditable migration evidence\", had been literally true since publication, a defect this version rewrites as a conjunction); 2027 marker unclear; guarantees not triggered; the side as a whole reads unclear. Stance decision (2026-11-06): the grid is rebuilt on a post-closing count of about 1,681-1,685M shares (including about 20.3M for World Labs and 0-3.7M for Taalas), and 20/40/40 gives a weighted $477.84-$478.81, +8.1% to +8.2% annualized, on the 8% hurdle; weights stay at the 20/40/40 published on 2026-07-31, with no AMD filing or release on 11-05; cautious / medium moves to neutral-watch / low. Evidence limits: no source gives shipped gigawatts. This is factual monitoring without investment advice."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "AMD"
+    ],
+    "reportIds": [
+      "amd-2026"
+    ],
+    "monitoringRefs": [
+      "amd-2026:valuation-tolerance",
+      "amd-2026:meta-6gw-ramp",
+      "amd-2026:fy2027-revenue-marker",
+      "amd-2026:ecosystem-credit-support",
+      "amd-2026:datacenter-growth",
+      "amd-2026:rocm-helios-competitiveness"
+    ]
   }
 ]

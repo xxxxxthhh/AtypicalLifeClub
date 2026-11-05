@@ -6,6 +6,13 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>AMD 深度研究报告 - AI时代的半导体挑战者 / AMD Deep Research Report - AI Era Semiconductor Challenger</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=amd-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amd-2026#amd-2026@2026-11-06</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+      <description>2026-11-06 Mode B 重锚：以 2026-11-05 常规时段收盘 $404.40（最近一个已完成收盘；当日下跌 17.26%，当天没有 AMD 申报或新闻稿，原因未定）、封面股本 1,640.087M 计，市值 $663.3B、EV $654.6B、EV/TTM Sales 14.4x（TTM 收入 $45,436M）。相对 2026-07-31 旧框架，EV/TTM Sales 下降 6.7x，其中约一半来自股价，约一半来自收入分母。Q3 2026（季度截至 2026-09-26）收入 $13,377M（同比 +45%），Data Center $8,546M（+97%），非 GAAP 毛利率 56%、摊薄 EPS $2.09；Q4 指引约 $17B（±3%）、非 GAAP 毛利率约 55%。发行人在电话会上称预计 2027 年收入增长超过 80%（第三方转写，未对照回放；业绩稿、演示稿、10-Q 中均无此标记）；2026-10-27 新闻稿称首批 Helios 机架已在 Meta 安装测试，AMD 将投资 $1B 认购 Meta 的股权发行；没有已出货吉瓦数。FY2028 20/40/40 网格按交割后股本重建（封面股本加 World Labs 约 20.3M 股、Taalas 0-3.7M 股、员工摊薄 21M 股，约 1,681-1,685M）：$891.49-$893.26 / $562.02-$563.17 / $186.82-$187.21，加权 $477.84-$478.81，2.15 年年化 +8.1% 到 +8.2%，落在 8% 门槛上；中性路径年化约 +16.5%，下行路径 -53.8%。权重维持 2026-07-31 已发布的 20/40/40：11-05 当天没有 AMD 申报或新闻稿，原因未定的价格变动不是关于 2028 年的证据。立场由谨慎 / 中确信调整为中性观察 / 低确信：按当前价格，偏斜是平衡而不是负的；悲观权重 40.2-40.4% 即跌破门槛，加权对数增长率约 -0.9%，所以确信度为低。下调侧逐腿未触发或未观测，整体读 unclear。10-Q 披露至多 $8.5B 担保、$13.3B 未起租租约、至多 $6.2B 云算力承诺，以及两份至多各 1.6 亿股的客户认股权证（截至 2026-09-26 未归属）。</description>
+    </item>
+    <item>
       <title>Aehr Test Systems 深度研究报告 - 老化工序是否前移到晶圆级 / Aehr Test Systems Deep Research Report - Whether Burn-In Moves To The Wafer</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=aehr-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=aehr-2026#aehr-2026@2026-11-05</guid>
@@ -39,13 +46,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=arista-2026#arista-2026@2026-11-05</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
       <description>2026-11-05 — Q3 2026 10-Q（0001596532-26-000254，2026-11-04 申报）：风险因素只重述年度客户占比（两家终端客户 2025 年 26%／16%），所读章节没有季度客户占比；Americas 收入占比 81.4%（上年同期 79.8%）；不可撤销采购承诺 $11.4B，其中 $9.3B 预计 12 个月内到货。 2026-11-04 — Q3 2026（季度截至 2026-09-30；8-K Ex 99.1，2026-11-03）收入 $3,657.6M（同比 +58.5%、环比 +20.5%），指引约 $3.3B；GAAP／非 GAAP 毛利率 63.6%／64.0%，GAAP／非 GAAP 营业利润率 44.9%／49.1%；GAAP／非 GAAP 摊薄 EPS $1.22／$1.20（GAAP 含战略投资收益 $134.5M，非 GAAP 已剔除）。递延收入合计 $6,839.5M（流动 $5,102.2M＋非流动 $1,737.3M，2025-12-31 为 $5,372.4M）；前九个月经营现金流 $3,977.4M。Q4 2026 指引：收入 $3.9–4.0B、非 GAAP 营业利润率 48–49%、非 GAAP 摊薄 EPS $1.26–1.30。 估值与立场仍按 2026-07-30 历史基础；Q3 实绩与新指引待 Mode B 重算，价格、估值数字、立场和确信度本包未更新。</description>
-    </item>
-    <item>
-      <title>AMD 深度研究报告 - AI时代的半导体挑战者 / AMD Deep Research Report - AI Era Semiconductor Challenger</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=amd-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amd-2026#amd-2026@2026-11-05</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
-      <description>2026-11-05 — Q3 2026 10-Q（0000002488-26-000191，2026-11-04 申报）：AMD 分别于 2025 年 10 月和 2026 年 2 月向两家客户发行认股权证，各可购买至多 1.6 亿股；截至 2026-09-26 没有任何认股权证股份归属或可行权。10-Q 称公司只供应 Helios 所用的部分产品，不制造也不销售完整的 Helios 机架方案。 2026-11-04 — Q3 2026（季度截至 2026-09-26；8-K Ex 99.1 与演示稿，2026-11-03）收入 $13,377M（同比 +45%、环比 +16%），公司称超过指引上沿；Data Center 收入 $8,546M（同比 +97%、环比 +27%），分部营业利润 $2,882M；GAAP／非 GAAP 毛利率 54%／56%，GAAP／非 GAAP 摊薄 EPS $1.46／$2.09。Q4 2026 指引：收入约 $17B（±3%）、非 GAAP 毛利率约 55%。 公司称 Anthropic、Meta、Microsoft、OpenAI、Oracle Cloud Infrastructure 已在首批 Helios 机架上运行模型和负载，MI450 系列已上市并计入 Data Center 增长驱动；稿内没有已出货吉瓦数或 Meta 首个 1GW 的完成情况。ROCm 10 已发布。公司另称已宣布拟收购 World Labs 与 Taalas 的协议，稿内未给对价。 估值与立场仍按 2026-07-30 历史基础；Q3 实绩与新指引待 Mode B 重算，价格、估值数字、立场和确信度本包未更新。</description>
     </item>
     <item>
       <title>Lumentum 深度研究报告 - 光源利润、架构迁移与增长定价 / Lumentum Deep Research Report - Laser Economics, Architecture Migration and Growth Pricing</title>

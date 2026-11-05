@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-11-05",
-  "dataAsOf": "2026-11-04",
+  "dataAsOf": "2026-11-05",
   "benchmark": "SMH",
   "entries": [
     {
@@ -442,21 +442,14 @@
     },
     {
       "reportId": "amd-2026",
-      "stance": "cautious",
-      "conviction": "medium",
-      "stanceDate": "2026-07-31",
-      "priceAtStance": 485.39,
+      "stance": "neutral-watch",
+      "conviction": "low",
+      "stanceDate": "2026-11-06",
+      "priceAtStance": 404.4,
       "benchmarkSymbol": "SMH",
       "monitoringOverdue": false,
-      "lastDate": "2026-11-03",
-      "lastClose": 483.9,
-      "changePct": -0.3,
-      "benchmarkChangePct": -4.1,
-      "relativePct": 3.8,
-      "bookBenchmarkSymbol": "SMH",
-      "bookBenchmarkChangePct": -4.1,
-      "bookRelativePct": 3.8,
-      "daysHeld": 95,
+      "status": "pending",
+      "daysHeld": 0,
       "stale": false
     },
     {
@@ -2182,6 +2175,25 @@
       "bookBenchmarkChangePct": -7.0,
       "bookRelativePct": -2.7,
       "daysHeld": 24,
+      "migration": false,
+      "benchmarkSymbol": "SMH"
+    },
+    {
+      "reportId": "amd-2026",
+      "fromStance": "cautious",
+      "toStance": "neutral-watch",
+      "toConviction": "low",
+      "startDate": "2026-07-31",
+      "startPrice": 485.39,
+      "endDate": "2026-11-06",
+      "endPrice": 404.4,
+      "changePct": -16.7,
+      "benchmarkChangePct": -17.2,
+      "relativePct": 0.5,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -17.2,
+      "bookRelativePct": 0.5,
+      "daysHeld": 98,
       "migration": false,
       "benchmarkSymbol": "SMH"
     },
