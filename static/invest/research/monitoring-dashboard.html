@@ -1465,6 +1465,11 @@
             renderPage();
             revealHashTarget();
             window.addEventListener("hashchange", revealHashTarget);
+            // Clicking a link to the current hash fires no hashchange, so a row folded since would stay shut.
+            document.addEventListener("click", (event) => {
+                const link = event.target.closest?.('a[href^="#signal-"]');
+                if (link && link.getAttribute("href") === window.location.hash) revealHashTarget();
+            });
         });
 
         // Sections render after the data fetch, so the browser's own fragment scroll finds no target on load.
@@ -1473,6 +1478,11 @@
             if (!target) return;
             if (target.tagName === "DETAILS") target.open = true;
             target.scrollIntoView({ block: "start" });
+        }
+
+        function hashTargetInView() {
+            const rect = document.getElementById(window.location.hash.slice(1))?.getBoundingClientRect();
+            return Boolean(rect) && rect.bottom > 0 && rect.top < window.innerHeight;
         }
 
         async function loadData() {
@@ -2389,6 +2399,7 @@
             const root = document.getElementById("monitoringEvents");
             if (!root) return;
             const labels = getLabels();
+            const expanded = new Set([...root.querySelectorAll("details[open]")].map((row) => row.id));
             const events = state.signals.filter((signal) =>
                 !Array.isArray(signal.crossChecks) || !signal.crossChecks.length);
             if (!events.length) {
@@ -2402,7 +2413,7 @@
                     ${events.map((signal) => {
                         const anchor = signalAnchor(signal);
                         return `
-                            <details class="radar-signal monitoring-event" id="${escapeHtml(anchor)}"${window.location.hash === `#${anchor}` ? " open" : ""}>
+                            <details class="radar-signal monitoring-event" id="${escapeHtml(anchor)}"${expanded.has(anchor) || window.location.hash === `#${anchor}` ? " open" : ""}>
                                 <summary class="radar-signal-head">
                                     <span class="chip">${escapeHtml(signal.date || "")}</span>
                                     <span>${escapeHtml(localize(signal.title))}</span>
@@ -2770,9 +2781,11 @@
                 btn.addEventListener("click", () => {
                     const next = btn.dataset.lang === "en" ? "en" : "zh";
                     if (next === currentLang) return;
+                    const keepTarget = hashTargetInView();
                     currentLang = next;
                     saveLanguage(next);
                     renderPage();
+                    if (keepTarget) revealHashTarget();
                 });
             });
         }
