@@ -1127,7 +1127,8 @@
       "lam-research-2026",
       "tsmc-2026",
       "micron-2026",
-      "sk-hynix-2026"
+      "sk-hynix-2026",
+      "aehr-2026"
     ],
     "monitoring": [
       {
@@ -7508,7 +7509,8 @@
     "related": [
       "nvidia-2026",
       "arista-2026",
-      "amd-2026"
+      "amd-2026",
+      "aehr-2026"
     ],
     "monitoring": [
       {
@@ -9496,7 +9498,8 @@
       "broadcom-2026",
       "nvidia-2026",
       "arista-2026",
-      "amd-2026"
+      "amd-2026",
+      "aehr-2026"
     ],
     "monitoring": [
       {
@@ -10959,7 +10962,8 @@
       "micron-2026",
       "sk-hynix-2026",
       "nvidia-2026",
-      "alab-2026"
+      "alab-2026",
+      "aehr-2026"
     ],
     "monitoring": [
       {
@@ -11596,7 +11600,8 @@
       "amkr-2026",
       "tsmc-2026",
       "nvidia-2026",
-      "broadcom-2026"
+      "broadcom-2026",
+      "aehr-2026"
     ],
     "monitoring": [
       {
@@ -13332,7 +13337,8 @@
       "innolight-2026",
       "axti-2026",
       "nvidia-2026",
-      "crdo-2026"
+      "crdo-2026",
+      "aehr-2026"
     ],
     "priceAsOf": "2026-10-16",
     "stance": "neutral-watch",
