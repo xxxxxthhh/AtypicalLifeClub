@@ -2240,7 +2240,7 @@
     "priceSymbol": "ANET",
     "title": "Arista Networks 深度研究报告 - AI 集群开放以太网 fabric 的系统软件卖铲人",
     "titleEn": "Arista Networks Deep Research Report - The Open Ethernet Fabric of AI Clusters",
-    "summary": "2026-11-04 — Q3 2026（季度截至 2026-09-30；8-K Ex 99.1，2026-11-03）收入 $3,657.6M（同比 +58.5%、环比 +20.5%），指引约 $3.3B；GAAP／非 GAAP 毛利率 63.6%／64.0%，GAAP／非 GAAP 营业利润率 44.9%／49.1%；GAAP／非 GAAP 摊薄 EPS $1.22／$1.20（GAAP 含战略投资收益 $134.5M，非 GAAP 已剔除）。递延收入合计 $6,839.5M（流动 $5,102.2M＋非流动 $1,737.3M，2025-12-31 为 $5,372.4M）；前九个月经营现金流 $3,977.4M。Q4 2026 指引：收入 $3.9–4.0B、非 GAAP 营业利润率 48–49%、非 GAAP 摊薄 EPS $1.26–1.30。 估值与立场仍按 2026-07-30 历史基础；Q3 实绩与新指引待 Mode B 重算，价格、估值数字、立场和确信度本包未更新。",
+    "summary": "2026-11-05 — Q3 2026 10-Q（0001596532-26-000254，2026-11-04 申报）：风险因素只重述年度客户占比（两家终端客户 2025 年 26%／16%），所读章节没有季度客户占比；Americas 收入占比 81.4%（上年同期 79.8%）；不可撤销采购承诺 $11.4B，其中 $9.3B 预计 12 个月内到货。 2026-11-04 — Q3 2026（季度截至 2026-09-30；8-K Ex 99.1，2026-11-03）收入 $3,657.6M（同比 +58.5%、环比 +20.5%），指引约 $3.3B；GAAP／非 GAAP 毛利率 63.6%／64.0%，GAAP／非 GAAP 营业利润率 44.9%／49.1%；GAAP／非 GAAP 摊薄 EPS $1.22／$1.20（GAAP 含战略投资收益 $134.5M，非 GAAP 已剔除）。递延收入合计 $6,839.5M（流动 $5,102.2M＋非流动 $1,737.3M，2025-12-31 为 $5,372.4M）；前九个月经营现金流 $3,977.4M。Q4 2026 指引：收入 $3.9–4.0B、非 GAAP 营业利润率 48–49%、非 GAAP 摊薄 EPS $1.26–1.30。 估值与立场仍按 2026-07-30 历史基础；Q3 实绩与新指引待 Mode B 重算，价格、估值数字、立场和确信度本包未更新。",
     "tags": [
       "AI网络",
       "以太网",
@@ -2249,7 +2249,7 @@
     ],
     "category": "tech",
     "date": "2026-06-30",
-    "lastUpdate": "2026-11-04",
+    "lastUpdate": "2026-11-05",
     "file": "/invest/research/reports/view.html?id=arista-2026",
     "markdownFiles": {
       "zh": "/invest/research/Arista_Networks_深度研究报告_2026-06.md",
@@ -2262,10 +2262,10 @@
       "Q3 2026（2026-11-03 发布）：收入 $3,657.6M（+58.5%），高于约 $3.3B 指引；非 GAAP 营业利润率 49.1%、毛利率 64.0%",
       "GAAP 摊薄 EPS $1.22 高于非 GAAP $1.20，差异来自战略投资收益 $134.5M 等项",
       "递延收入合计 $6,839.5M（2025-12-31 为 $5,372.4M）；Q4 指引收入 $3.9–4.0B、非 GAAP 营业利润率 48–49%",
-      "开放以太网份额腿：发行人稿列出开放机架架构发布，未给相对 NVIDIA Spectrum-X／InfiniBand 的 AI 后端份额；客户集中待 Q3 10-Q",
+      "开放以太网份额腿：发行人稿列出开放机架架构发布，未给相对 NVIDIA Spectrum-X／InfiniBand 的 AI 后端份额；Q3 10-Q 所读章节仍无季度客户占比，只重述 2025 年 26%／16%",
       "估值仍按 2026-07-30 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。"
     ],
-    "summaryEn": "2026-11-04 — Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1, 2026-11-03) revenue was $3,657.6M (+58.5% YoY, +20.5% QoQ) against guidance of about $3.3B; GAAP / non-GAAP gross margin 63.6% / 64.0%; GAAP / non-GAAP operating margin 44.9% / 49.1%; GAAP / non-GAAP diluted EPS $1.22 / $1.20 (GAAP includes $134.5M of strategic-investment gains, excluded from non-GAAP). Total deferred revenue was $6,839.5M (current $5,102.2M plus non-current $1,737.3M, versus $5,372.4M at 2025-12-31); nine-month operating cash flow was $3,977.4M. Q4 2026 guidance: revenue $3.9-4.0B, non-GAAP operating margin 48-49%, non-GAAP diluted EPS $1.26-1.30. Valuation and stance remain on the 2026-07-30 historical basis; Q3 actuals and the new guidance await Mode B recomputation, and price, valuation figures, stance and conviction are not updated in this package.",
+    "summaryEn": "2026-11-05 — Q3 2026 10-Q (0001596532-26-000254, filed 2026-11-04): the risk factor restates only annual customer shares (two end customers at 26% and 16% in 2025), and the sections read carry no quarterly customer share; Americas revenue was 81.4% of the total (79.8% a year earlier); non-cancellable purchase commitments were $11.4B, of which $9.3B is expected within 12 months. 2026-11-04 — Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1, 2026-11-03) revenue was $3,657.6M (+58.5% YoY, +20.5% QoQ) against guidance of about $3.3B; GAAP / non-GAAP gross margin 63.6% / 64.0%; GAAP / non-GAAP operating margin 44.9% / 49.1%; GAAP / non-GAAP diluted EPS $1.22 / $1.20 (GAAP includes $134.5M of strategic-investment gains, excluded from non-GAAP). Total deferred revenue was $6,839.5M (current $5,102.2M plus non-current $1,737.3M, versus $5,372.4M at 2025-12-31); nine-month operating cash flow was $3,977.4M. Q4 2026 guidance: revenue $3.9-4.0B, non-GAAP operating margin 48-49%, non-GAAP diluted EPS $1.26-1.30. Valuation and stance remain on the 2026-07-30 historical basis; Q3 actuals and the new guidance await Mode B recomputation, and price, valuation figures, stance and conviction are not updated in this package.",
     "chainLayer": "networking",
     "coverageTier": "full",
     "chainRole": "architecture-check",
@@ -2291,13 +2291,14 @@
           "en": "the two anonymous end customers (~42% combined, 26%/16%) rise further or order cadence swings"
         },
         "latest": {
-          "zh": "2026-08-05 提交的 2026 Q2 10-Q（季度截至 2026-06-30）未披露季度客户集中度：风险因素只重述年度口径——一家终端客户占总收入 16%、15%、21%，另一家占 26%、20%、18%，分别对应 2025、2024、2023 财年，与已发布的 FY2025 合计约 42%（26%/16%）一致；财务报表附注无集中度专节，Q2 无更新的两大客户占比。触发条款第一支「占比进一步上升」本季不可观测。第二支「订单节奏骤变」可观测且被证伪：Q2 收入 $3,035.7M，同比 +37.7%、环比 +12.1%，Q3 指引约 $3.3B。析取触发中有一支不可观测，故评 unclear。",
-          "en": "The Q2 2026 Form 10-Q filed 2026-08-05 (quarter ended 2026-06-30) discloses no quarterly customer concentration: the risk factor restates only the annual figures - one end customer at 16%, 15% and 21% of total revenue and the other at 26%, 20% and 18% for fiscal 2025, 2024 and 2023 - consistent with the published roughly 42% combined (26%/16%) for FY2025, and the financial-statement notes contain no concentration section, so there is no updated two-customer share for Q2. The trigger's first leg, the share rising further, is not observable this quarter. The second leg, an abrupt swing in order cadence, is observable and falsified: Q2 revenue was $3,035.7M, up 37.7% year over year and 12.1% sequentially, with Q3 guided to about $3.3B. One leg of the disjunction is unobservable, so the reading is unclear."
+          "zh": "Q3 2026 10-Q（2026-11-04 申报，季度截至 2026-09-30）：风险因素只重述年度数字——一家终端客户 2025、2024、2023 年占 16%、15%、21%，另一家占 26%、20%、18%；所读章节没有季度客户占比。Americas 占比 81.4%（上年同期 79.8%）。10-Q 另称部分大客户安排含延长付款条件，可能造成营运资金和经营现金流的时间差。",
+          "en": "Q3 2026 10-Q (filed 2026-11-04, quarter ended 2026-09-30): the risk factor restates only annual figures — one end customer at 16%, 15% and 21% of total revenue in 2025, 2024 and 2023 and the other at 26%, 20% and 18%; the sections read carry no quarterly customer share. Americas revenue was 81.4% of the total (79.8% a year earlier). The 10-Q also says certain large customer arrangements include extended payment terms that can create timing differences in working capital and operating cash flow."
         },
         "nextCheck": "Q3 2026 10-Q 与 FY2026 10-K 的年度集中度披露 / the Q3 2026 Form 10-Q and the annual concentration disclosure in the FY2026 Form 10-K",
         "nextCheckDate": "2026-11",
         "reading": "unclear",
-        "readingAsOf": "2026-08-05"
+        "readingAsOf": "2026-11-04",
+        "readingNote": "没有季度占比，无法判断是否继续上升；订单节奏未量化。 / With no quarterly share, a further rise cannot be judged, and order cadence is not quantified."
       },
       {
         "id": "open-ethernet-vs-integrated",
