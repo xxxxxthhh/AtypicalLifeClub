@@ -13838,5 +13838,203 @@
       "2026-10-16 close $50.84, reconstructed economic shares approximately 668.711M and equity $33.997B; known-cash bridge EV approximately $29.720B and 38.64x TTM",
       "Conditional weighted value $38.19, -6.90% annualized over four years; 15% hurdle price approximately $21.84 is a review threshold only if operations remain intact: cautious, medium conviction"
     ]
+  },
+  {
+    "id": "aehr-2026",
+    "company": "Aehr Test Systems",
+    "ticker": "NASDAQ: AEHR",
+    "priceSymbol": "AEHR",
+    "title": "Aehr Test Systems 深度研究报告 - 老化工序是否前移到晶圆级",
+    "titleEn": "Aehr Test Systems Deep Research Report - Whether Burn-In Moves To The Wafer",
+    "summary": "2026-11-05 首次完整覆盖：谨慎 / 低确信。按 2026-11-04 收盘 $60.84、摊薄 33.584M 股，市值 $20.43 亿，现金 $1.049 亿、无金融负债，EV $19.38 亿，对应 FY2027 指引 $150M 12.9 倍。Q1 FY2027（至 09-25）收入 $33.007M、GAAP 毛利率 47.5%、经营现金流 -$3.054M；预订 $46.7M，有效在手 $109.3M，覆盖其余收入约 93%。分歧在 FY2028：零回报需收入约 $310M（FY2027 指引的 2.07 倍），基准 $230M。30/40/30 网格 $97.65 / $36.08 / $15.80，加权 $48.47，至 2028-06-30 年化 -12.8%；牛市权重要到 50.1% 才零回报。评估客户只买了一套 FOX-XP 测试单元，尚无量产单。Q1 10-Q 未出，客户集中度与产品拆分 review-pending。",
+    "summaryEn": "2026-11-05 initial full coverage: cautious / low conviction. At the 2026-11-04 close of $60.84 and 33.584M diluted shares, market cap is $2.043B, cash $104.9M with no financial debt, and EV $1.938B, 12.9x the $150M FY2027 guide. Q1 FY2027 (to 09-25) revenue was $33.007M, GAAP gross margin 47.5%, and operating cash flow -$3.054M; bookings were $46.7M and effective backlog of $109.3M covers about 93% of remaining revenue. The debate is FY2028: a zero return needs about $310M of revenue (2.07x the FY2027 guide) against our base case of $230M. The 30/40/30 grid gives $97.65 / $36.08 / $15.80, weighted $48.47, -12.8% annualized to 2028-06-30; the bull-case weight must reach 50.1% for a zero return. The evaluation customer has bought one FOX-XP test cell and placed no production order. The Q1 10-Q is not out; customer concentration and product split are review-pending.",
+    "tags": [
+      "半导体设备",
+      "老化测试",
+      "晶圆级老化",
+      "AI处理器"
+    ],
+    "category": "tech",
+    "date": "2026-11-05",
+    "lastUpdate": "2026-11-05",
+    "file": "/invest/research/reports/view.html?id=aehr-2026",
+    "markdownFiles": {
+      "zh": "/invest/research/Aehr_深度研究报告_2026-11.md",
+      "en": "/invest/research/Aehr_Deep_Research_Report_2026-11.md"
+    },
+    "highlights": [
+      "立场：谨慎 / 低确信（2026-11-05，锚定 2026-11-04 收盘 $60.84）。这是估值判断，不是业务判断",
+      "市值 $20.43 亿（摊薄 33.584M 股）、EV $19.38 亿；FY2027 指引 12.9 倍、Q1 年化 14.7 倍、拼接 TTM 26.9 倍",
+      "30/40/30 网格：$97.65 / $36.08 / $15.80，加权 $48.47，年化 -12.8%；8% 平衡价 $42.67；牛市权重 50.1% 才零回报",
+      "Q1 FY2027：收入 $33.007M、预订 $46.7M、有效在手 $109.3M；经营现金流 -$3.054M，RSU 代扣税 $4.474M；FY2026 ATM 净额 $97.4M 是现金来源",
+      "自 2026-04 内部人卖出 $62.47M、买入为零；FY2024 指引曾从 $100M 以上降到实绩 $66.2M；Q1 10-Q 未出，部分项 review-pending"
+    ],
+    "period": "2026H2",
+    "versionType": "initial",
+    "versionLabel": "2026H2 Initial Full Coverage",
+    "moduleContract": "heading-comment-v1",
+    "isCurrent": true,
+    "chainLayer": "semicap-equipment",
+    "chainRole": "architecture-check",
+    "coverageTier": "full",
+    "stance": "cautious",
+    "conviction": "low",
+    "priceAsOf": "2026-11-04",
+    "reportedPeriod": "FY2027 Q1",
+    "related": [
+      "kla-2026",
+      "amkr-2026",
+      "ase-technology-2026",
+      "broadcom-2026",
+      "marvell-2026",
+      "lumentum-2026"
+    ],
+    "monitoring": [
+      {
+        "id": "benchmark-wlbi-decision",
+        "thesis": "either",
+        "theme": "optionality",
+        "metric": {
+          "zh": "评估客户量产决定",
+          "en": "Evaluation customer's production decision"
+        },
+        "trigger": {
+          "zh": "评估客户拒绝转产，或 2027-09-30 前没有量产订单",
+          "en": "The evaluation customer rejects conversion, or there is no production order by 2027-09-30"
+        },
+        "latest": {
+          "zh": "2026-11-02：客户决定购买一套完整 FOX-XP 测试单元，2027 年初装于台湾 OSAT，用已通过基准测试的同一器件评估；公司称安装验证后数月决定量产。没有量产订单。",
+          "en": "2026-11-02: the customer decided to buy one fully configured FOX-XP test cell, to install at a Taiwan OSAT in early 2027 and evaluate on the same device used in the benchmark; the company expects a production decision months after installation and validation. No production order."
+        },
+        "nextCheck": "Q3 FY27 业绩，约 2027-04/05（事件驱动）/ Q3 FY27 results, about 2027-04/05 (event-driven)",
+        "reading": "within",
+        "readingAsOf": "2026-11-05",
+        "readingNote": "未拒绝，且距 2027-09-30 尚早；触发未发生。 / No rejection and well before 2027-09-30; the trigger has not fired."
+      },
+      {
+        "id": "sonoma-second-processor",
+        "thesis": "either",
+        "theme": "concentration",
+        "metric": {
+          "zh": "超大规模客户 Sonoma 节奏与第二款处理器",
+          "en": "Hyperscale customer's Sonoma cadence and second processor"
+        },
+        "trigger": {
+          "zh": "月出货低于一打且第二款没有跟进订单，或第二款放量推迟到 2027 年之后",
+          "en": "Monthly shipments fall below a dozen with no follow-on for the second device, or the second-device ramp slips past 2027"
+        },
+        "latest": {
+          "zh": "2026-11-02：每月出货安装超过一打（业绩稿）；第二款完成资格认证，10 月公告约 $6M 跟进订单，预期 2027 日历年爬坡；「产量更高」是客户预测，公司转述。",
+          "en": "2026-11-02: more than a dozen shipped and installed per month (release); the second device is qualified, about $6M of follow-on orders announced in October, with a ramp expected in CY2027; higher volume is a customer forecast relayed by the company."
+        },
+        "nextCheck": "Q2 FY27 业绩 / Q2 FY27 results",
+        "nextCheckDate": "2027-02",
+        "reading": "within",
+        "readingAsOf": "2026-11-05",
+        "readingNote": "月出货超过一打，第二款有跟进订单且爬坡仍在 2027 年。 / Shipments above a dozen a month, follow-on orders exist, and the ramp is still in 2027."
+      },
+      {
+        "id": "bookings-backlog",
+        "thesis": "bear",
+        "theme": "demand",
+        "metric": {
+          "zh": "预订与在手订单",
+          "en": "Bookings and backlog"
+        },
+        "trigger": {
+          "zh": "FY27 Q2、Q3 连续两季 book-to-bill 低于 1.0，或期末在手低于 $80M",
+          "en": "Book-to-bill below 1.0 in both FY27 Q2 and Q3, or ending backlog below $80M"
+        },
+        "latest": {
+          "zh": "Q1 FY2027：预订 $46.7M，book-to-bill 约 1.4；09-25 在手 $100.9M；11-01 有效在手 $109.3M，其余 $116.993M 收入约 93% 已覆盖。",
+          "en": "Q1 FY2027: bookings $46.7M, book-to-bill about 1.4; backlog $100.9M at 09-25; effective backlog $109.3M at 11-01, covering about 93% of the remaining $116.993M of revenue."
+        },
+        "nextCheck": "Q2 FY27 业绩 / Q2 FY27 results",
+        "nextCheckDate": "2027-02",
+        "reading": "within",
+        "readingAsOf": "2026-11-05",
+        "readingNote": "Q2、Q3 尚未发生；在手高于 $80M。 / Q2 and Q3 have not occurred; backlog is above $80M."
+      },
+      {
+        "id": "fy27-guide-margin",
+        "thesis": "bear",
+        "theme": "execution",
+        "metric": {
+          "zh": "FY2027 指引与毛利率",
+          "en": "FY2027 guide and gross margin"
+        },
+        "trigger": {
+          "zh": "FY2027 收入指引低于 $130M，或全年非 GAAP 毛利率低于 47%",
+          "en": "FY2027 revenue guide below $130M, or full-year non-GAAP gross margin below 47%"
+        },
+        "latest": {
+          "zh": "2026-11-02：收入 $150M（原 $130–150M），非 GAAP 净利至少 20%；Q1 非 GAAP 毛利率 48.5%；CFO 称 Q2 因 Sonoma 占比低于 Q1，全年约 48.5% 上下 0.5 个点（电话会，第三方转写）。",
+          "en": "2026-11-02: revenue $150M (was $130-150M), non-GAAP net income at least 20%; Q1 non-GAAP gross margin 48.5%; the CFO says Q2 will be below Q1 on Sonoma mix and the year about 48.5%, plus or minus half a point (call, third-party transcript)."
+        },
+        "nextCheck": "Q2 FY27 业绩 / Q2 FY27 results",
+        "nextCheckDate": "2027-02",
+        "reading": "within",
+        "readingAsOf": "2026-11-05",
+        "readingNote": "指引高于 $130M；全年毛利率尚无实绩，Q1 与 CFO 口径都在 47% 以上。 / The guide is above $130M; there is no full-year margin yet, and both Q1 and the CFO's framing are above 47%."
+      },
+      {
+        "id": "cash-and-dilution",
+        "thesis": "bear",
+        "theme": "leverage-solvency",
+        "metric": {
+          "zh": "现金与稀释",
+          "en": "Cash and dilution"
+        },
+        "trigger": {
+          "zh": "现金及等价物低于 $75M，或在 S-3ASR 下启动新 ATM 或增发",
+          "en": "Cash and equivalents below $75M, or a new ATM or offering under the S-3ASR"
+        },
+        "latest": {
+          "zh": "09-25：现金及等价物 $104.902M，无金融负债；Q1 经营现金流 -$3.054M，RSU 代扣税 $4.474M；S-3ASR 于 07-27 提交；截至 11-05 轮询，04-08 之后没有新 424B5。",
+          "en": "09-25: cash and equivalents $104.902M, no financial debt; Q1 operating cash flow -$3.054M, RSU withholding $4.474M; S-3ASR filed 07-27; per an 11-05 poll, no new 424B5 since 04-08."
+        },
+        "nextCheck": "每次财报及 424B 申报 / Each report and 424B filing",
+        "reading": "within",
+        "readingAsOf": "2026-11-05",
+        "readingNote": "现金高于 $75M；EDGAR 未见新 424B5。 / Cash is above $75M; EDGAR shows no new 424B5."
+      }
+    ],
+    "stanceRationale": {
+      "zh": "以 2026-11-04 收盘 $60.84、库藏股法摊薄 33.584M 股计，市值 $20.43 亿，现金及等价物 $1.049 亿、无金融负债，EV $19.38 亿，对应 FY2027 收入指引 $150M 12.9 倍。FY2027 已被 $109.3M 有效在手覆盖其余收入约 93%，分歧在 FY2028：按 48% 毛利率、$60M 费用、21% 税、28 倍、$130M 现金、34.5M 股，零回报需 FY2028 收入约 $310M，8% 回报约 $337M，而基准为 $230M。30% 牛市 / 40% 基准 / 30% 熊市（FY2028 收入 $380M / $230M / $110M）每股 $97.65 / $36.08 / $15.80，加权 $48.47，至 2028-06-30（1.654 年）年化 -12.8%，低于 8% 要求回报 20.8 个百分点；8% 平衡价 $42.67；牛市权重需达 50.1% 才零回报。牛市年化 +33.1% 故不取 bearish-avoid；评估客户决定二元且 10-Q 未出，故低确信。",
+      "en": "At the 2026-11-04 close of $60.84 and 33.584M treasury-method diluted shares, market cap is $2.043B, cash and equivalents $104.9M with no financial debt, and EV $1.938B, 12.9x the $150M FY2027 revenue guide. FY2027 is about 93% covered by $109.3M of effective backlog, so the debate is FY2028: at 48% gross margin, $60M opex, 21% tax, 28x, $130M cash and 34.5M shares, a zero return needs about $310M of FY2028 revenue and an 8% return about $337M, against our base case of $230M. The 30% bull / 40% base / 30% bear grid (FY2028 revenue $380M / $230M / $110M) gives $97.65 / $36.08 / $15.80 per share, weighted $48.47, -12.8% annualized to 2028-06-30 (1.654 years), 20.8 points below an 8% required return; the 8% balance price is $42.67; the bull-case weight must reach 50.1% for a zero return. The bull case returns +33.1% annualized, so the ruling is not bearish-avoid; the evaluation decision is binary and the 10-Q is not out, so conviction is low."
+    },
+    "stanceTriggers": {
+      "upgrade": {
+        "zh": "若评估客户下达至少 $30M 的量产订单（单笔或累计，评估单元及小额追加不计）；或 FY27 Q2 与 Q3 预订均不低于 $60M 且 FY2027 收入指引提到 $150M 以上；或基本面不变而股价跌到约 $46 以下（加权值年化约 +3.2%），则上调至 neutral-watch。",
+        "en": "Move to neutral-watch if the evaluation customer places a production order of at least $30M, single or cumulative (the evaluation cell and small add-ons do not count); or FY27 Q2 and Q3 bookings are each at least $60M and the FY2027 revenue guide moves above $150M; or the stock falls to about $46 or lower with fundamentals unchanged (weighted value then about +3.2% annualized).",
+        "monitoringIds": [
+          "benchmark-wlbi-decision",
+          "bookings-backlog",
+          "fy27-guide-margin"
+        ]
+      },
+      "downgrade": {
+        "zh": "若评估客户明确不转产或 2027-09-30 前没有量产订单；或 FY2027 收入指引降到 $130M 以下或全年非 GAAP 毛利率低于 47%；或 FY27 Q2、Q3 连续两季 book-to-bill 低于 1.0；或第二款处理器放量推迟到 2027 年之后；或基本面不变而股价升到约 $85 以上（此时牛市情景年化也只有约 +8.8%），则下调至 bearish-avoid。",
+        "en": "Move to bearish-avoid if the evaluation customer clearly declines to convert or there is no production order by 2027-09-30; or the FY2027 revenue guide falls below $130M or full-year non-GAAP gross margin falls below 47%; or book-to-bill is below 1.0 in both FY27 Q2 and Q3; or the second-processor ramp slips past 2027; or the stock rises to about $85 or higher with fundamentals unchanged (the bull case then returns only about +8.8% annualized).",
+        "monitoringIds": [
+          "benchmark-wlbi-decision",
+          "fy27-guide-margin",
+          "bookings-backlog",
+          "sonoma-second-processor"
+        ]
+      }
+    },
+    "stanceHistory": [
+      {
+        "date": "2026-11-05",
+        "stance": "cautious",
+        "conviction": "low",
+        "price": 60.84,
+        "note": {
+          "zh": "首次完整覆盖，以 2026-11-04 收盘 $60.84 建立全部估值；30/40/30 加权 $48.47、年化 -12.8%，低于 8% 门槛；牛市年化 +33.1% 故不取 bearish-avoid；评估决定二元且 10-Q 未出，故低确信。",
+          "en": "Initial full coverage with valuation built at the 2026-11-04 close of $60.84. The 30/40/30 weighted value is $48.47, -12.8% annualized, below the 8% hurdle; the bull case returns +33.1% annualized, so the ruling is not bearish-avoid; the evaluation decision is binary and the 10-Q is not out, so conviction is low."
+        }
+      }
+    ]
   }
 ]

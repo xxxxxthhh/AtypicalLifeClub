@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-11-03",
+  "asOf": "2026-11-05",
   "defaultTimezone": "America/New_York",
   "entries": [
     {
@@ -834,6 +834,17 @@
       "sourceType": "issuer-ir",
       "verifiedAt": "2026-10-21",
       "fiscalPeriod": "Q3 2026"
+    },
+    {
+      "reportId": "aehr-2026",
+      "company": "Aehr Test Systems",
+      "expectedDate": null,
+      "precision": "unknown",
+      "status": "unknown",
+      "session": "not-applicable",
+      "sourceUrl": null,
+      "sourceType": "none",
+      "verifiedAt": "2026-11-05"
     }
   ]
 }

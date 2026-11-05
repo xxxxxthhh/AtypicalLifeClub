@@ -29,8 +29,8 @@
         "en": "Semicap Equipment"
       },
       "description": {
-        "zh": "光刻、沉积、刻蚀、过程控制与先进封装设备，用来检验 AI 资本开支是否真正进入工具订单和交付瓶颈。",
-        "en": "Lithography, deposition, etch, process control, and advanced-packaging tools test whether AI capex is truly entering equipment orders and delivery bottlenecks."
+        "zh": "光刻、沉积、刻蚀、过程控制、测试老化与先进封装设备，用来检验 AI 资本开支是否真正进入工具订单和交付瓶颈。",
+        "en": "Lithography, deposition, etch, process control, test and burn-in, and advanced-packaging tools test whether AI capex is truly entering equipment orders and delivery bottlenecks."
       }
     },
     {
