@@ -705,6 +705,7 @@
         }
 
         .radar-signal {
+            scroll-margin-top: 4.5rem;
             padding: 0.68rem 0.9rem;
             border-bottom: 1px solid color-mix(in srgb, var(--border) 55%, transparent);
             display: grid;
@@ -728,6 +729,49 @@
         .radar-signal p {
             margin: 0;
             color: var(--secondary);
+        }
+
+        .monitoring-events {
+            margin-top: 1.2rem;
+        }
+
+        .monitoring-events h3 {
+            margin: 0;
+            font-size: 0.98rem;
+            color: var(--content);
+        }
+
+        .monitoring-events > p {
+            margin: 0.3rem 0 0.7rem;
+            color: var(--secondary);
+            font-size: 0.83rem;
+        }
+
+        .monitoring-event {
+            display: block;
+        }
+
+        .monitoring-event summary {
+            cursor: pointer;
+            list-style: none;
+        }
+
+        .monitoring-event summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .monitoring-event summary::before {
+            content: "▸";
+            color: var(--tertiary);
+        }
+
+        .monitoring-event[open] summary::before {
+            content: "▾";
+        }
+
+        .monitoring-event p {
+            margin-top: 0.4rem;
+            overflow-wrap: anywhere;
         }
 
         .radar-empty {
@@ -857,6 +901,10 @@
         }
 
         @media (max-width: 760px) {
+            .radar-signal {
+                scroll-margin-top: 6.75rem;
+            }
+
             .monitor-hero-top {
                 flex-direction: column;
             }
@@ -1007,6 +1055,7 @@
             <div class="radar-stack" id="radarStack">
                 <div class="loading-state">Loading cross-check radar...</div>
             </div>
+            <div class="monitoring-events" id="monitoringEvents"></div>
         </section>
 
         <section class="section" id="nextCheckSection">
@@ -1151,6 +1200,8 @@
                 ifLabel: "If",
                 thenLabel: "Then",
                 radarNoSignals: "暂无信号记录",
+                monitoringEventsHeading: (count) => `公司监测事件（${count}）`,
+                monitoringEventsIntro: "单家公司的监测读数和事件。它们不确认任何跨公司规则，所以不放进上面的雷达。按事件日倒序，点开看正文和来源。",
                 retiredRule: "历史规则",
                 supersededBy: (id) => `已由 ${id} 取代`,
                 nextCheckHeading: "下次核查时间轴",
@@ -1296,6 +1347,8 @@
                 ifLabel: "If",
                 thenLabel: "Then",
                 radarNoSignals: "No recorded signals yet",
+                monitoringEventsHeading: (count) => `Company monitoring events (${count})`,
+                monitoringEventsIntro: "Readings and events for a single company. They confirm no cross-company rule, so they sit outside the radar above. Newest first; expand a row for the detail and source.",
                 retiredRule: "Retired rule",
                 supersededBy: (id) => `Superseded by ${id}`,
                 nextCheckHeading: "Next-Check Timeline",
@@ -1410,7 +1463,17 @@
             bindBoardControls();
             await loadData();
             renderPage();
+            revealHashTarget();
+            window.addEventListener("hashchange", revealHashTarget);
         });
+
+        // Sections render after the data fetch, so the browser's own fragment scroll finds no target on load.
+        function revealHashTarget() {
+            const target = document.getElementById(window.location.hash.slice(1));
+            if (!target) return;
+            if (target.tagName === "DETAILS") target.open = true;
+            target.scrollIntoView({ block: "start" });
+        }
 
         async function loadData() {
             try {
@@ -1533,6 +1596,7 @@
             renderStanceLedger();
             renderRerunQueue();
             renderRadar();
+            renderMonitoringEvents();
             renderNextCheckTimeline();
             renderCriteriaBoard();
             renderThemeLayerMatrix();
@@ -2318,6 +2382,39 @@
                     </article>
                 `;
             }).join("");
+        }
+
+        // Signals with no crossChecks never reach a radar card, so this is their only rendered target.
+        function renderMonitoringEvents() {
+            const root = document.getElementById("monitoringEvents");
+            if (!root) return;
+            const labels = getLabels();
+            const events = state.signals.filter((signal) =>
+                !Array.isArray(signal.crossChecks) || !signal.crossChecks.length);
+            if (!events.length) {
+                root.innerHTML = "";
+                return;
+            }
+            root.innerHTML = `
+                <h3>${escapeHtml(labels.monitoringEventsHeading(events.length))}</h3>
+                <p>${escapeHtml(labels.monitoringEventsIntro)}</p>
+                <div class="radar-card">
+                    ${events.map((signal) => {
+                        const anchor = signalAnchor(signal);
+                        return `
+                            <details class="radar-signal monitoring-event" id="${escapeHtml(anchor)}"${window.location.hash === `#${anchor}` ? " open" : ""}>
+                                <summary class="radar-signal-head">
+                                    <span class="chip">${escapeHtml(signal.date || "")}</span>
+                                    <span>${escapeHtml(localize(signal.title))}</span>
+                                    ${(Array.isArray(signal.tickers) ? signal.tickers : [])
+                                        .map(renderSignalTicker).join("")}
+                                </summary>
+                                <p>${escapeHtml(localize(signal.detail))}</p>
+                            </details>
+                        `;
+                    }).join("")}
+                </div>
+            `;
         }
 
         function signalAnchorAttribute(signal, anchoredSignals) {

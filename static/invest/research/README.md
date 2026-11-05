@@ -10,7 +10,7 @@ static/invest/research/
 ├── app.js                     # 首页渲染逻辑（读取 reports.json）
 ├── data/reports.json          # 研报卡片元数据（唯一列表入口）
 ├── data/coverage-map.json     # AI 基建覆盖地图配置（层级 / 角色 / crossChecks 校验规则）
-├── data/signals.json          # 交叉校验信号日志（链级事件，引用 crossChecks 的 id）
+├── data/signals.json          # 信号日志（链级事件引用 crossChecks 的 id；单公司监测事件用 scope: report-monitoring）
 ├── validate_reports.py        # 元数据校验脚本
 ├── validate_coverage_map.py   # 覆盖地图 + 信号日志校验脚本
 ├── coverage-map.html          # AI 基建覆盖地图页面

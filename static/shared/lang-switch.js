@@ -34,7 +34,7 @@ function saveLanguage(lang) {
 function syncLanguageQuery(lang) {
     const params = new URLSearchParams(window.location.search);
     params.set(LANG_QUERY_KEY, lang);
-    window.history.replaceState({}, "", `${window.location.pathname}?${params.toString()}`);
+    window.history.replaceState({}, "", `${window.location.pathname}?${params.toString()}${window.location.hash}`);
 }
 
 function renderLanguageSwitchUI(currentLang) {
