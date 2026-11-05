@@ -9663,7 +9663,7 @@
     "priceSymbol": "COHR",
     "title": "Coherent 深度研究报告 - AI 光连接层的全栈光子仪表盘",
     "titleEn": "Coherent Deep Research Report - Full-Stack Photonics Dashboard for AI Optical Connectivity",
-    "summary": "2026-08-15 监测更新：Coherent FY2026 Form 10-K（2026-08-14 提交）首次披露分部利润——Datacenter & Communications 收入 $5,275M（+40%）、分部利润 $1,330M（+47%），Industrial 收入 $1,844M（-10%）、分部利润 $423M（+4%）；并披露 fiscal 2026 有两家客户各自贡献超过 10% 收入，合并合同负债 2026-06-30 为 $63M。全财年收入 $7,118.2M（+22.5%），FY2026 经营现金流 $79.5M、资本开支 $1,102.9M，按同口径自由现金流约 -$1,023.4M。datacenter-communications-mix 维持 within（分部利润率约 25.2% 对上年约 24.1%，但分部利润非毛利率口径）；nvidia-optics-lta 首次评级为 unclear——10-K 未披露经营性 backlog，也未披露可归属该协议的产能预付款，$2B NVIDIA 投资记为股权私募而非客户预付款；valuation-fcf-risk 维持 unclear，等待完整当前价估值重锚。观望中性／低确信仍沿用 2026-07-30 收盘 $249.06 的完整裁定，本次未重算任何估值。",
+    "summary": "2026-11-05 — Q1 FY2027（季度截至 2026-09-30；8-K Ex 99.1 与 10-Q，2026-11-04）收入 $2,370.3M（同比 +49.9%、环比 +15.9%）；GAAP／非 GAAP 毛利率 39.1%／40.6%，GAAP／非 GAAP 摊薄 EPS $1.90／$2.09。10-Q 分部：Datacenter & Communications 收入 $1,951.7M（+79%）、分部利润 $508.7M（上年同期 $269.3M），Industrial 收入 $418.6M（-15%，主要因业务出售）。经营现金流 -$92.7M，资本开支 $775.5M，差额约 -$868.2M（推算）；存货 $3,341.4M（2026-06-30 为 $2,581.0M）；合同负债 $333M（2026-06-30 为 $63M）。Q2 FY2027 指引：收入 $2.55–2.75B、非 GAAP 毛利率 40–42%、非 GAAP 摊薄 EPS $2.28–2.48。 估值与立场仍按 2026-07-30 历史基础；Q1 实绩与新指引待 Mode B 重算，价格、估值数字、立场和确信度本包未更新。",
     "tags": [
       "AI光连接",
       "光模块",
@@ -9672,7 +9672,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-08-15",
+    "lastUpdate": "2026-11-05",
     "file": "/invest/research/reports/view.html?id=coherent-2026",
     "markdownFiles": {
       "zh": "/invest/research/Coherent_深度研究报告_2026-07.md",
@@ -9682,19 +9682,19 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "2026-07-31 完整裁定：$249.06（2026-07-30 收盘）；观望中性 / 低确信，本次监测未重算估值",
-      "FY2026 Form 10-K（2026-08-14）首披分部利润：D&C 收入 $5,275M（+40%）、分部利润 $1,330M（+47%）",
-      "10-K 新增：fiscal 2026 两家客户各占收入 10% 以上；合并合同负债 2026-06-30 $63M（上年 $72M，推导值）",
-      "全财年收入 $7,118.2M（+22.5%）；经营现金流 $79.5M、资本开支 $1,102.9M，自由现金流约 -$1,023.4M",
-      "监测：datacenter-communications-mix within；nvidia-optics-lta 首评 unclear（无 backlog／无可归属预付款）；valuation-fcf-risk unclear"
+      "Q1 FY2027（2026-11-04 发布）：收入 $2,370.3M（+49.9%）；非 GAAP 毛利率 40.6%、摊薄 EPS $2.09；Q2 指引收入 $2.55–2.75B",
+      "10-Q 分部：D&C 收入 $1,951.7M（+79%）、分部利润 $508.7M；Industrial 收入 $418.6M（-15%，主要因业务出售）",
+      "现金：经营现金流 -$92.7M、资本开支 $775.5M，差额约 -$868.2M（推算）；存货增至 $3,341.4M；合同负债 $333M（6 月底 $63M），未归属到具体客户",
+      "公司称 PhotonLink 协议价值约 $20B、为期五年，收入约 2028 年初开始爬坡；内部 InP 产能同比翻倍。这些是公司陈述，不是已确认收入",
+      "估值仍按 2026-07-30 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。"
     ],
-    "summaryEn": "August 15, 2026 monitoring update: Coherent's FY2026 Form 10-K (filed 2026-08-14) discloses segment profit for the first time — Datacenter & Communications revenue $5,275M (+40%) with segment profit $1,330M (+47%), Industrial revenue $1,844M (-10%) with segment profit $423M (+4%) — along with two customers each contributing more than 10% of revenue in fiscal 2026 and consolidated contract liabilities of $63M at 2026-06-30. Full-year revenue was $7,118.2M (+22.5%); FY2026 operating cash flow was $79.5M against capex of $1,102.9M, for free cash flow of about -$1,023.4M on the same convention. datacenter-communications-mix stays within (segment profit margin about 25.2% against about 24.1%, though segment profit is not a gross-margin measure); nvidia-optics-lta is graded for the first time as unclear — the 10-K discloses no operational backlog and no capacity prepayment attributable to the agreement, and books the $2B NVIDIA investment as an equity private placement rather than a customer prepayment; valuation-fcf-risk remains unclear pending a complete current-price valuation re-anchor. Neutral-watch / low conviction still rests on the full 2026-07-30 adjudication at the $249.06 close, and no valuation was recomputed here.",
+    "summaryEn": "2026-11-05 — Q1 FY2027 (quarter ended 2026-09-30; 8-K Ex 99.1 and 10-Q, 2026-11-04) revenue was $2,370.3M (+49.9% YoY, +15.9% QoQ); GAAP / non-GAAP gross margin 39.1% / 40.6%; GAAP / non-GAAP diluted EPS $1.90 / $2.09. 10-Q segments: Datacenter & Communications revenue $1,951.7M (+79%) with segment profit $508.7M (prior-year quarter $269.3M); Industrial revenue $418.6M (-15%, primarily divestitures). Operating cash flow was -$92.7M and capital expenditure $775.5M, a difference of about -$868.2M (derived); inventories were $3,341.4M ($2,581.0M at 2026-06-30); contract liabilities were $333M ($63M at 2026-06-30). Q2 FY2027 guidance: revenue $2.55-2.75B, non-GAAP gross margin 40-42%, non-GAAP diluted EPS $2.28-2.48. Valuation and stance remain on the 2026-07-30 historical basis; Q1 actuals and the new guidance await Mode B recomputation, and price, valuation figures, stance and conviction are not updated in this package.",
     "chainLayer": "optical",
     "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "neutral-watch",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "FY2026",
+    "reportedPeriod": "Q1 FY2027 monitoring / 2026-07-30 valuation frame",
     "related": [
       "nvidia-2026",
       "aaoi-2026",
@@ -9717,13 +9717,14 @@
           "en": "multi-year, multi-billion-dollar purchase commitments convert into backlog, revenue and capacity prepayments"
         },
         "latest": {
-          "zh": "FY2026 Form 10-K（2026-08-14 提交，财年截至 2026-06-30）：10-K 将 2026-03-02 协议描述为非排他性，含数十亿美元级采购承诺与未来产能访问权，并记载另行进行的 $2B NVIDIA 投资系普通股私募配售，所得款项用于研发、未来产能与运营——属股权而非客户预付款。对照本项自身触发条件（承诺转化为 backlog、收入与产能预付款）：文件全文未披露任何经营性 backlog，也未披露可归属于该协议的产能预付款；合并合同负债 2026-06-30 为 $63M，上年度合计 $72M（由已披露的其他应计负债 $63M 加其他负债 $9M 推导，与现金流量表 -$9,307 千美元变动相互印证）。fiscal 2026 有两家客户各自贡献超过 10% 的收入，但 10-K 未指名，收入无法归属。评级为 unclear。证据边界：合同负债为合并口径，其下降不能证明不存在 NVIDIA 预付款（其他客户余额可抵销）；且截至财年末协议仅约四个月，文件本身把相关权利描述为未来权利。本次并未断言承诺未能转化——这是证据不足评级，缺的是归属与 backlog 披露。",
-          "en": "FY2026 Form 10-K (filed 2026-08-14, fiscal year ended 2026-06-30): the 10-K describes the 2026-03-02 agreement as non-exclusive, carrying a multi-billion-dollar purchase commitment together with future access and capacity rights, and records the separate $2B NVIDIA investment as a private placement of common stock whose proceeds support R&D, future capacity and operations — equity, not a customer prepayment. Graded against this item's own trigger, which asks whether commitments convert into backlog, revenue and capacity prepayments: the filing discloses no operational backlog anywhere, and no capacity prepayment attributable to the agreement. Consolidated contract liabilities were $63M at 2026-06-30; the prior-year total of $72M is derived from the two disclosed components ($63M within other accrued liabilities plus $9M within other liabilities) and reconciles to the cash-flow statement's -$9,307 thousand change. Two customers each contributed more than 10% of revenue in fiscal 2026, but the 10-K does not name them, so no revenue is attributable. The reading is unclear. Evidence limits: contract liabilities are a consolidated line, so a decline does not establish that no NVIDIA prepayment exists because other customers' balances can offset it, and the agreement was roughly four months old at fiscal year-end against rights the filing itself describes as future. Non-conversion is not asserted — this is an evidence-insufficiency grade, and what is missing is the attribution and the backlog disclosure."
+          "zh": "2026-11-04 Q1 FY2027 10-Q：合同负债 $333M（流动 $172M、非流动 $161M；2026-06-30 为 $63M），公司把「客户预付资金」列为现金来源之一，但未把这笔增加归属到具体客户或协议。10-Q 称与 NVIDIA 投资同时签订的多年产能协议可能要求追加设备、人工和营运资金，季末未因此单独确认重大负债。演示稿称客户订单越来越多地延伸到 2028 年、长期协议通常延续到本年代末，未给积压金额。",
+          "en": "2026-11-04 Q1 FY2027 10-Q: contract liabilities were $333M ($172M current, $161M non-current; $63M at 2026-06-30). The company lists advance funding from customers among its sources of cash but does not attribute the increase to a specific customer or agreement. The 10-Q says the multi-year capacity agreement entered with the NVIDIA investment may require incremental equipment, labor and working capital, with no material liability recorded at quarter-end solely from the agreement. The earnings deck says customer orders increasingly extend into CY28 and LTAs typically extend through the end of the decade, with no backlog amount."
         },
         "nextCheck": "FY2027 Q1 财报与订单/backlog 披露 / FY2027 Q1 results and order-backlog disclosure",
         "nextCheckDate": "2026-11",
         "reading": "unclear",
-        "readingAsOf": "2026-08-14"
+        "readingAsOf": "2026-11-04",
+        "readingNote": "预付款规模上升，但无法归属到这份协议；未披露经营性积压。 / Prepayments rose, but they cannot be attributed to this agreement, and no operating backlog is disclosed."
       },
       {
         "id": "datacenter-communications-mix",
@@ -9738,13 +9739,14 @@
           "en": "datacenter communications revenue keeps growing without diluting gross margin"
         },
         "latest": {
-          "zh": "FY2026 Form 10-K（2026-08-14 提交）首次按 2025-07-01 起采用的双分部结构披露分部利润：Datacenter & Communications 收入 $5,275M（+40%），分部利润 $1,330M（+47%，上财年 $904M）；Industrial 收入 $1,844M（-10%），分部利润 $423M（+4%，上财年 $407M）。据此计算 Datacenter & Communications 分部利润率约 25.2%，上年同期约 24.1%（依公司披露数字计算，两年均按重述后口径列示，定义上可比）。对照本项自身触发条件——数据中心通信收入持续增长且不稀释毛利率——两个分支均成立，维持 within。此前（2026-08-12 新闻稿）读数：第四财季 Datacenter & Communications 收入 $1,615.0M，环比 +18.6%、同比 +58.6%，全财年 $5,274.6M 对上财年 $3,755.2M；合并收入 $2,045.5M，GAAP 毛利率 38.5%（环比 +82bps、同比 +277bps），全财年 GAAP 毛利率 37.5%（+233bps）；FY2027 Q1 指引收入 $2.2-2.4B、non-GAAP 毛利率 39.5%-41.5%。证据边界：分部利润是公司自定义口径，不含股份薪酬、并购与整合费用、无形资产摊销与减值、重组费用及未分摊的公司层面研发／市场／管理费用，位置在毛利率之下，因此它只在分部利润这一行确认未稀释；公司仍不公布分部毛利率，毛利率本身的未稀释结论仍只在合并口径成立。该扩张同时伴随 Industrial 收入由 $511.1M 降至 $430.5M。",
-          "en": "FY2026 Form 10-K (filed 2026-08-14) discloses segment profit for the first time under the two-segment structure adopted 2025-07-01: Datacenter & Communications revenue $5,275M (+40%) with segment profit $1,330M (+47%) against $904M; Industrial revenue $1,844M (-10%) with segment profit $423M (+4%) against $407M. On those disclosed figures the Datacenter & Communications segment profit margin is about 25.2% against about 24.1% a year earlier — computed from the company's own numbers, both years stated on the recast two-segment basis, so definitionally matched. Graded against this item's own trigger — datacenter communications revenue keeps growing without diluting gross margin — both legs hold and the reading stays within. The prior reading, from the 2026-08-12 release, remains current: FY26 Q4 Datacenter & Communications revenue was $1,615.0M, up 18.6% sequentially and 58.6% year over year, with the full year at $5,274.6M against $3,755.2M; consolidated revenue was $2,045.5M at a 38.5% GAAP gross margin (+82bps sequentially, +277bps year over year) and full-year GAAP gross margin of 37.5% (+233bps); FY2027 Q1 guidance is $2.2-2.4B at a 39.5-41.5% non-GAAP gross margin. Evidence limits: segment profit is a company-defined measure excluding share-based compensation, acquisition and integration costs, intangible amortization and impairment, restructuring, and unallocated corporate R&D, marketing and G&A, and it sits below the gross-margin line, so it confirms non-dilution at the segment profit line only; the company still publishes no segment gross margin, so on gross margin proper the no-dilution leg remains established at consolidated level only. That expansion also coincided with Industrial revenue falling to $430.5M from $511.1M."
+          "zh": "2026-11-04 Q1 FY2027 10-Q：Datacenter & Communications 收入 $1,951.7M（同比 +79%，占总收入约 82%）、分部利润 $508.7M（上年同期 $269.3M），分部利润率约 26.1%（上年同期约 24.7%，推算）。合并 GAAP 毛利率 39.1%（上年同期 36.6%）；MD&A 把提升主要归因于该分部投入成本下降、制造效率和良率改善，以及定价优化。自 2026-07-01 起部分业务单元跨分部调整，上年未重述，公司称影响不重大。",
+          "en": "2026-11-04 Q1 FY2027 10-Q: Datacenter & Communications revenue was $1,951.7M (+79% YoY, about 82% of total revenue) with segment profit of $508.7M (prior-year quarter $269.3M), a segment profit margin of about 26.1% (about 24.7% a year earlier, derived). Consolidated GAAP gross margin was 39.1% (36.6% a year earlier); MD&A attributes the increase primarily to lower product input costs, manufacturing efficiencies and yield improvements within this segment, plus pricing optimization. Certain business units moved across segments effective 2026-07-01; prior periods were not recast, and the company says the effect is not material."
         },
         "nextCheck": "FY2027 Q1 segment mix 与毛利率 / FY2027 Q1 segment mix and gross margin",
         "nextCheckDate": "2026-11",
         "reading": "within",
-        "readingAsOf": "2026-08-14"
+        "readingAsOf": "2026-11-04",
+        "readingNote": "收入增长，合并毛利率上升且 MD&A 归因于该分部；分部利润率不是毛利率口径。 / Revenue grew and consolidated gross margin rose with MD&A attributing it to this segment; segment profit margin is not a gross-margin measure."
       },
       {
         "id": "inp-capacity-ramp",
@@ -9759,11 +9761,14 @@
           "en": "internal InP output doubles by year-end and more than doubles again by 2027 with yield/margin improvement, or the ramp slips"
         },
         "latest": {
-          "zh": "公司称 6-inch 平台生产 EML、CW lasers 与 photodiodes",
-          "en": "company says the 6-inch platform produces EMLs, CW lasers and photodiodes"
+          "zh": "2026-11-04 演示稿：内部 InP 产能同比翻倍，比计划早一个季度，公司预计到 2027 年底再增加一倍以上。10-Q 称正在德州 Sherman 和瑞典扩产以应对客户需求和行业短缺。这是公司对产能的陈述，不是产量；未披露良率数字，第二段翻倍仍是预测。",
+          "en": "2026-11-04 earnings deck: internal InP output capacity doubled year over year, one quarter ahead of plan, and the company expects it to more than double again by the end of CY27. The 10-Q says it is expanding InP capacity in Sherman, Texas and Sweden to address customer demand and an industry-wide shortage. This is the issuer describing capacity, not output; no yield figure is disclosed, and the second doubling is a forecast."
         },
         "nextCheck": "产能与毛利更新 / capacity and margin update",
-        "nextCheckDate": "2026-12"
+        "nextCheckDate": "2026-12",
+        "reading": "unclear",
+        "readingAsOf": "2026-11-04",
+        "readingNote": "第一段公司称已达成但口径是产能；良率／利润率腿与第二段翻倍未被证实。 / The issuer says the first leg is met on a capacity basis; the yield/margin leg and the second doubling are unproven."
       },
       {
         "id": "cpo-npo-roadmap",
@@ -9778,11 +9783,14 @@
           "en": "1.6T/3.2T/6.4T ZR/ZR+, CPO/NPO and optical circuit switching enter the new-revenue phase"
         },
         "latest": {
-          "zh": "公司材料指向 H2 2026/H1 2027 的新增长窗口",
-          "en": "company materials point to H2 2026/H1 2027 as new-growth windows"
+          "zh": "2026-11-04 演示稿：公司称 PhotonLink（CPO／NPO 与芯片间连接平台）收入预计在 2027 年 3 月季度超过 $100M、2027 年底前达到每季 $250M 以上，另有一份价值约 $20B、为期五年的 PhotonLink 协议，收入约 2028 年初开始爬坡；scale-across／DCI Q1 收入超过 $200M。交易对手未具名，协议价值不是积压或已确认收入。电话会未读。",
+          "en": "2026-11-04 earnings deck: the company expects PhotonLink (a CPO / NPO and chip-to-chip platform) revenue above $100M in the March 2027 quarter and above $250M per quarter before the end of CY27, and cites a PhotonLink agreement valued at about $20B over five years with revenue beginning to ramp in early CY2028; scale-across / DCI revenue exceeded $200M in Q1. The counterparty is not named, and the agreement value is neither backlog nor recognized revenue. The earnings call was not read."
         },
         "nextCheck": "产品出货与客户平台公告 / product shipments and customer-platform announcements",
-        "nextCheckDate": "2026-12"
+        "nextCheckDate": "2026-12",
+        "reading": "unclear",
+        "readingAsOf": "2026-11-04",
+        "readingNote": "都是公司预期或未具名协议；CPO／NPO 新收入阶段尚未由已报告收入证实。 / These are issuer expectations or an unnamed agreement; reported revenue does not yet confirm the new-revenue phase for CPO / NPO."
       },
       {
         "id": "valuation-fcf-risk",
@@ -9797,13 +9805,14 @@
           "en": "growth relies on negative FCF, inventory/receivable build or capex expansion while the multiple stays elevated"
         },
         "latest": {
-          "zh": "FY2026 全年业绩（2026-08-12）：新闻稿 Table 4 仅披露全财年现金流、未披露单季——FY2026 经营活动净现金流入 $79.5M（上财年 $633.6M），购置物业、厂房及设备 $1,102.9M（上财年 $440.8M）。沿用前一读数的“经营现金流减资本开支”口径，FY2026 自由现金流约为 -$1,023.4M，上财年约为 +$192.8M；由于未披露单季拆分，前一读数中 FY26 Q3 的 -$383M 仅在全年层面被取代。读数维持 unclear，但理由已改变：本触发条件为合取——增长依赖负自由现金流、存货／应收堆积或资本开支扩张，且倍数维持在高位——其第一个分支现已明确成立；但用以检验第二个分支的已发布倍数（约 7.4x P/S TTM、约 7.5x EV/TTM sales，均锚定 2026-07-30 收盘 $249.06）是以截至 FY26 Q3 的 TTM 为分母计算的，而本次财报正是取代该分母的事件。因此当前不存在可供检验第二分支的有效倍数，而重建倍数属于完整估值重锚，不在本次纯监测更新的授权范围内。该点已作为提案写入本次运行回执，未予应用。此处未改变任何估值、立场或确信度。",
-          "en": "FY2026 full-year results (2026-08-12): Table 4 of the release discloses full-year cash flows only and no quarterly split — net cash provided by operating activities was $79.5M against $633.6M in FY2025, and additions to property, plant and equipment were $1,102.9M against $440.8M. On the operating-cash-flow-less-capex convention used in the prior reading, FY2026 free cash flow was approximately -$1,023.4M against approximately +$192.8M in FY2025; because no quarterly split is published, the -$383M FY26 Q3 figure in the prior reading is superseded at the full-year level only. The reading stays unclear but the reason has changed. The trigger is conjunctive — growth relies on negative FCF, inventory or receivable build, or capex expansion, while the multiple stays elevated — and its first clause is now decisively satisfied. The published multiple against which the second clause would be tested (about 7.4x P/S on a trailing-twelve-month basis and about 7.5x EV/TTM sales, both anchored to the 2026-07-30 close of $249.06) was computed on a TTM ending FY26 Q3, which is precisely the denominator this print superseded. There is therefore no currently valid multiple against which the second clause can be evaluated, and rebuilding one would be a complete valuation re-anchor outside the scope of this monitoring-only update. It is filed as a proposal in the run receipt and is not applied. No valuation, stance or conviction is changed here."
+          "zh": "2026-11-04 Q1 FY2027 10-Q：经营现金流 -$92.7M（上年同期 +$46.0M），资本开支 $775.5M（上年同期 $103.9M），差额约 -$868.2M（推算）；另有 $527.7M 资本开支计入应付账款。存货增加 $737.1M 至 $3,341.4M，公司归因于支持更高收入增长。现金腿字面成立；「倍数仍高」腿要等当前价重算，本包未重算。",
+          "en": "2026-11-04 Q1 FY2027 10-Q: operating cash flow was -$92.7M (+$46.0M a year earlier) and capital expenditure $775.5M ($103.9M a year earlier), a difference of about -$868.2M (derived); a further $527.7M of capital additions sat in accounts payable. Inventories rose by $737.1M to $3,341.4M, which the company attributes to supporting higher revenue growth. The cash leg is literally met; the \"multiple stays elevated\" leg needs a current-price recomputation, which this package does not perform."
         },
         "nextCheck": "FY2027 Q1 现金流与营运资金，以及一次完整的当前价估值重锚 / FY2027 Q1 cash flow and working capital, plus a complete current-price valuation re-anchor",
         "nextCheckDate": "2026-11",
         "reading": "unclear",
-        "readingAsOf": "2026-08-12"
+        "readingAsOf": "2026-11-04",
+        "readingNote": "现金腿成立，但估值腿未重算，整条不能定级。 / The cash leg is met, but the valuation leg is not recomputed, so the item as a whole cannot be graded."
       }
     ],
     "conviction": "low",
