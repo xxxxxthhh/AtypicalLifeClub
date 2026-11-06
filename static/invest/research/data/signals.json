@@ -3970,5 +3970,32 @@
       "aaoi-2026:cash-burn-dilution",
       "aaoi-2026:customer-concentration"
     ]
+  },
+  {
+    "id": "airbnb-q3-2026-results-20261105",
+    "date": "2026-11-05",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Airbnb Q3 收入 $4,869M 高于指引上沿、剔除汇率 +16%；间夜 +16%，全年利润率指引上调",
+      "en": "Airbnb Q3 revenue of $4,869M beats the top of the guide, +16% ex-FX; nights +16% and the full-year margin guide raised"
+    },
+    "detail": {
+      "zh": "来源：Airbnb 2026-11-05 股东信 8-K Ex 99.1（0001193125-26-449727）与 10-Q（0001559720-26-000032）。Q3 2026（季度截至 2026-09-30；股东信 8-K Ex 99.1 与 10-Q，2026-11-05 盘后）收入 $4,869M（同比 +19%、剔除汇率 +16%），对照 $4.69–4.77B 指引；间夜及座位预订 1.550 亿（+16%）；GBV $27.7B（+21%，剔除汇率 +21%）；隐含 take rate（收入÷GBV）17.6%，公司称低于上年同期，主要因「先订后付」扩大。净利润 $1.9B（利润率 39%）、调整后 EBITDA $2.5B（利润率 52%，上年同期 50%）、自由现金流 $1.4B。Q3 回购 $0.7B，截至 9-30 剩余授权 $2.7B，另宣布新增 $12B 回购授权。Q4 2026 指引：收入 $3.22–3.28B（同比 +16% 至 +18%，含约 2 个百分点汇率顺风），take rate 同比略升，GBV 增速十几个百分点；全年收入增速上调至「high teens」，全年调整后 EBITDA 利润率上调至约 36%。10-Q 称风险因素较 10-K 及前两份 10-Q 无重大变化。 证据边界：FY2026 利润率为指引而非实际；take rate 为公司口径；电话会未读。",
+      "en": "Source: Airbnb shareholder letter 8-K Ex 99.1 (0001193125-26-449727) and 10-Q (0001559720-26-000032), 2026-11-05. Q3 2026 (quarter ended 2026-09-30; shareholder letter 8-K Ex 99.1 and 10-Q, after the close on 2026-11-05) revenue was $4,869M (+19% YoY, +16% ex-FX) against the $4.69-4.77B guide; Nights and Seats Booked 155.0M (+16%); GBV $27.7B (+21%, +21% ex-FX); the implied take rate (revenue / GBV) was 17.6%, which the company says was down year over year, mainly from the expansion of Reserve Now, Pay Later. Net income $1.9B (39% margin), adjusted EBITDA $2.5B (52% margin vs 50%), free cash flow $1.4B. Q3 repurchases were $0.7B with $2.7B of authorization remaining at 9-30, and a new $12B authorization was announced. Q4 2026 guide: revenue $3.22-3.28B (+16% to +18% YoY, including about two points of FX tailwind), implied take rate up slightly YoY, GBV growth in the mid-teens; full-year revenue growth raised to the high teens and full-year adjusted EBITDA margin raised to about 36%. The 10-Q reports no material change in risk factors from the 10-K and the two prior 10-Qs. Evidence limits: the FY2026 margin is guidance, not an actual; the take rate is company-defined; the earnings call was not read."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "ABNB"
+    ],
+    "reportIds": [
+      "airbnb-2026"
+    ],
+    "monitoringRefs": [
+      "airbnb-2026:organic-growth-ex-fx",
+      "airbnb-2026:nights-booked-growth",
+      "airbnb-2026:take-rate-ai-agents",
+      "airbnb-2026:adj-ebitda-margin",
+      "airbnb-2026:regulation-supply"
+    ]
   }
 ]
