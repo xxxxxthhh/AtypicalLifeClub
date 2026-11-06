@@ -743,13 +743,13 @@
     {
       "reportId": "seagate-2026",
       "symbol": "STX",
-      "status": "carried-forward",
+      "status": "ok",
       "attemptedAt": "2026-11-05",
-      "baseDate": "2026-09-22",
-      "basePrice": 919.84,
-      "lastDate": "2026-11-03",
-      "lastClose": 606.38,
-      "changePct": -34.1,
+      "baseDate": "2026-11-05",
+      "basePrice": 466.53,
+      "lastDate": "2026-11-05",
+      "lastClose": 466.53,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {

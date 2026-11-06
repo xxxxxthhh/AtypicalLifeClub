@@ -3999,5 +3999,30 @@
       "sandisk-2026:datacenter-mix",
       "sandisk-2026:cycle-derating"
     ]
+  },
+  {
+    "id": "seagate-mode-b-reanchor-20261106",
+    "date": "2026-11-06",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Seagate Mode B 重锚：$466.53 下网格加权年化 +21.4%，立场由谨慎调整为偏多 / 低确信；Q1 未对 WDC 报出成本交叉",
+      "en": "Seagate Mode B re-anchor: grid weights to +21.4% annualized at $466.53, stance moves from cautious to constructive / low; no cost crossover against WDC in Q1"
+    },
+    "detail": {
+      "zh": "来源：Seagate Q1 FY2027 10-Q（0001137789-26-000309，2026-10-29 申报，2026-11-06 读取）、Q1 FY2027 业绩稿（8-K 附件 99.1，0001137789-26-000300）、发行人托管的 Q1 补充财务资料与修正电话会转写、WDC Q1 FY2027 业绩稿（8-K 附件 99.1，0001628280-26-066882）、CNBC 报价（2026-11-05 收盘 $466.53，前收盘 $557.06）。10-Q 封面 229,561,109 股（2026-10-26）；2026-10-02 本金 $23.83 亿、现金 $12.58 亿、净债务 $11.25 亿；2026-10-15 赎回 $7.5 亿 2032 年票据；capped call 名义 $15 亿未变。市值 $1,071.0 亿、企业价值 $1,082.2 亿，TTM 收入 7.84 倍、Q2 指引年化 P/E 12.68 倍。30/50/20 网格加权 $771.53、年化 +21.4%（已发布股数路径 +19.0%），立场由谨慎 / 中确信调整为偏多 / 低确信。读数：hamr-transition 由 within 改为 unclear（2026 年末与 2027 年 6 月两腿不可观测；CFO 称 HAMR 目标「no changes」）；gross-margin-crossover 触发文字重设（已用掉的 Q1 营业利润率腿改为滚动形式「最近一个已报 FY2027 季度低于 48%」，单季毛利率环比下降腿改为「连续两个季度环比下降或任一季度低于 55%」，上行加入不低于 WDC），按 Q1 评 within（57.8% 对 WDC 58.1%，交叉未报出）；allocation-visibility 维持 unclear，10-Q 未披露客户推迟或取消费用、无季度客户占比。2026-11-05 存储板块单日下跌（STX -16.25%、WDC -17.35%、SNDK -22.26%）无发行人申报，原因未定。",
+      "en": "Sources: Seagate's Q1 FY2027 10-Q (0001137789-26-000309, filed 2026-10-29, read 2026-11-06), the Q1 FY2027 release (8-K Exhibit 99.1, 0001137789-26-000300), the issuer-hosted Q1 supplemental financial information and corrected call transcript, WDC's Q1 FY2027 release (8-K Exhibit 99.1, 0001628280-26-066882), and CNBC quotes (2026-11-05 close $466.53, prior close $557.06). 10-Q cover: 229,561,109 shares (2026-10-26); at 2026-10-02 principal $2.383B, cash $1.258B, net debt $1.125B; $750M of 2032 notes redeemed 2026-10-15; the $1.5B capped-call notional is unchanged. Market capitalization $107.10B, enterprise value $108.22B, 7.84x TTM revenue, 12.68x Q2 guidance-annualized EPS. The 30/50/20 grid weights to $771.53, +21.4% annualized (+19.0% on the published share path); stance moves from cautious / medium to constructive / low. Readings: hamr-transition moves from within to unclear (the end-2026 and June 2027 legs are unobservable; the CFO said \"no changes\" to the HAMR targets); gross-margin-crossover trigger text rebased (the consumed Q1 operating-margin leg becomes a rolling leg at the published 48% (most recently reported FY2027 quarter), and the single-quarter gross-margin decline leg becomes two consecutive sequential declines or any quarter below 55%; the upside adds at or above WDC's), within on Q1 (57.8% against WDC's 58.1%, no crossover); allocation-visibility stays unclear, with no customer push-outs or cancellation charges and no quarterly customer share in the 10-Q. The 2026-11-05 one-day fall across storage (STX -16.25%, WDC -17.35%, SNDK -22.26%) came with no issuer filing; cause undetermined."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "STX"
+    ],
+    "reportIds": [
+      "seagate-2026"
+    ],
+    "monitoringRefs": [
+      "seagate-2026:hamr-transition",
+      "seagate-2026:gross-margin-crossover",
+      "seagate-2026:allocation-visibility"
+    ]
   }
 ]
