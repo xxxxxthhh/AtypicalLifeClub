@@ -3503,7 +3503,7 @@
     "priceSymbol": "SNDK",
     "title": "SanDisk 深度研究报告 - NAND寡头格局中的AI存储周期暴露",
     "titleEn": "SanDisk Deep Research Report - AI Storage Cycle Exposure in the NAND Oligopoly",
-    "summary": "2026-10-30 — Q1 FY2027（季度截至 2026-10-02，2026-10-29 发布）收入 $110.31 亿（环比 +23%、同比 +378%），高于原 $103-108 亿指引；GAAP 毛利率 85.0%、非 GAAP 85.1%（Q4 FY2026：84.6%），高于 GAAP 83.0-84.9% / 非 GAAP 83.0-85.0% 指引；GAAP 营业利润 $87.80 亿（营业利润率 79.6%）。数据中心收入 $48.02 亿（环比 +61%），按新闻稿表格自算约占收入 43.5%（Q4 约 33.2%）；Edge $58.32 亿（+7%）、消费 $3.97 亿（-29%）。经营现金流 $63.63 亿、资本开支 $0.54 亿、自由现金流 $63.09 亿；公司定义的调整后自由现金流 $56.96 亿（扣除 $1.48 亿 Flash Ventures 净活动与 $4.65 亿 NBM 预付款及保证金；63.09 − 1.48 − 4.65 = 56.96 亿美元）。Q2 FY2027 指引收入 $122-126 亿、毛利率 GAAP 84.4-85.4% / 非 GAAP 84.5-85.5%。新闻稿未涉及约 $420 亿 NBM 最低合同收入、RPO、FY2027 committed-bit 覆盖或交付，也无 NAND 合同价与 bit 结构数据；本轮未独立读取该期 10-Q。估值仍按 2026-08-17 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。",
+    "summary": "2026-11-06 — 估值重锚与立场重新推导：按 2026-11-05 收盘 $806.43（11-04 收盘 $1,037.40，单日 -22.26%，原因未定）与 Q1 FY2027 10-Q 封面 142,289,365 股，市值 $1,147.5 亿；仅扣现金 EV $1,096.1 亿为 TTM 收入 $289.71 亿的 3.78x，股价为 TTM 非 GAAP EPS $118.37 的 6.81x；12-15x 通周期框架隐含可持续 EPS 仅 $53.76-67.20，低于 FY2026 平均 $70.88。重建的 20/50/30 网格（至 2028-12-31，2.152 年）每股 $2,123.56 / $859.34 / $294.91，加权 $942.86，年化 +7.53%，比 8% 门槛低 0.47 个百分点；中性路径年化 +3.0%，敏感性 -2.72% 至 +16.22%。维持观望中性，确信度由中降为低。Q1 FY2027 10-Q：收入 $110.31 亿、非 GAAP 毛利率 85.1%，均超指引；NBM RPO $889 亿（7 月 3 日 $598 亿）、第三方抵押品 $128 亿；但全公司出货 EB 同比仅约 +10%，增长主要来自价格。所有每股数字为拆股前口径，2026-11-20 起按八比一拆股后除以 8。",
     "tags": [
       "NAND闪存",
       "AI存储",
@@ -3512,7 +3512,7 @@
     ],
     "category": "tech",
     "date": "2026-06-27",
-    "lastUpdate": "2026-10-30",
+    "lastUpdate": "2026-11-06",
     "file": "/invest/research/reports/view.html?id=sandisk-2026",
     "markdownFiles": {
       "zh": "/invest/research/SanDisk_深度研究报告_2026-08.md",
@@ -3535,15 +3535,17 @@
       "summaryEn": "Archived pre-rerun FY2026 version preserving the Q4 monitoring update and historical 2026-07-30 valuation frame."
     },
     "highlights": [
-      "Q1 FY2027（季度截至 2026-10-02，2026-10-29 发布）收入 $110.31 亿（环比 +23%、同比 +378%），高于原 $103-108 亿指引；GAAP 毛利率 85.0%、非 GAAP 85.1%（Q4 FY2026：84.6%），高于 GAAP 83.0-84.9% / 非 GAAP 83.0-85.0% 指引；GAAP 营业利润 $87.80 亿（营业利润率 79.6%）。数据中心收入 $48.02 亿（环比 +61%），按新闻稿表格自算约占收入 43.5%（Q4 约 33.2%）；Edge $58.32 亿（+7%）、消费 $3.97 亿（-29%）。经营现金流 $63.63 亿、资本开支 $0.54 亿、自由现金流 $63.09 亿；公司定义的调整后自由现金流 $56.96 亿（扣除 $1.48 亿 Flash Ventures 净活动与 $4.65 亿 NBM 预付款及保证金；63.09 − 1.48 − 4.65 = 56.96 亿美元）。Q2 FY2027 指引收入 $122-126 亿、毛利率 GAAP 84.4-85.4% / 非 GAAP 84.5-85.5%。新闻稿未涉及约 $420 亿 NBM 最低合同收入、RPO、FY2027 committed-bit 覆盖或交付，也无 NAND 合同价与 bit 结构数据；本轮未独立读取该期 10-Q。",
-      "估值仍按 2026-08-17 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。"
+      "2026-11-06 估值重锚：$806.43（2026-11-05 收盘）× 142,289,365 股 = 市值 $1,147.5 亿；仅扣现金 EV $1,096.1 亿；EV/TTM 收入 3.78x、TTM 非 GAAP P/E 6.81x、TTM FCF 收益率 15.13%；12-15x 隐含可持续 EPS $53.76-67.20。",
+      "重建网格 20/50/30（2026-11-06 至 2028-12-31，786 天、2.152 年）：$2,123.56 / $859.34 / $294.91，加权 $942.86、年化 +7.53%（门槛 8%；股数与回购额度均取 10-02 口径，约 1.52 亿摊薄股；按指引 1.51 亿口径为 $949.59 / +7.89%）；新负面（增长几乎全是价格、Edge 与消费出货下降、两家客户各占 12%）小于缩小的风险（RPO $889 亿、抵押品 $128 亿），因为 10-Q 把出货结构变化部分归因于公司自身的产品分配决策，但合同保护的是数量与回款而非价格，而三条路径按价格区分，故权重不变。",
+      "立场维持观望中性，确信度由中降为低；上调腿中「Q1 FY2027 兑现指引」已字面成立，改为 Q2 FY2027 兑现 $122-126 亿与 84.5-85.5% 非 GAAP 毛利率；上调腿 (a) 改为要求文件披露 FY2027 committed-bit 覆盖或 NBM 收入占比；下调价格腿改为连续十个交易日收盘高于 $942.86（拆股后 $117.86）。",
+      "八比一拆股：登记日 2026-11-09，2026-11-20 起按拆股后价格交易；报告内所有每股数字为拆股前口径。11-05 单日 -22.26% 未找到一手来源解释，原因未定。"
     ],
-    "summaryEn": "2026-10-30 — Q1 FY2027 (quarter ended 2026-10-02, released 2026-10-29) revenue was $11.031B (+23% Q/Q, +378% Y/Y), above the prior $10.3-10.8B guide; GAAP gross margin was 85.0% and non-GAAP 85.1% (Q4 FY2026: 84.6%), above the 83.0-84.9% GAAP / 83.0-85.0% non-GAAP guide; GAAP operating income was $8.780B (79.6% operating margin). Datacenter revenue was $4.802B (+61% Q/Q), about 43.5% of revenue on a calculation from the release table (Q4: about 33.2%); Edge was $5.832B (+7%) and Consumer $0.397B (-29%). Operating cash flow was $6.363B, capex $54M and free cash flow $6.309B; company-defined adjusted free cash flow was $5.696B (less $148M of net Flash Ventures activity and $465M of NBM prepayments and deposits; $6.309B - $0.148B - $0.465B = $5.696B). Q2 FY2027 guidance is revenue of $12.2-12.6B and gross margin of 84.4-85.4% GAAP / 84.5-85.5% non-GAAP. The release does not address the ~$42B NBM minimum contracted revenue, RPO, FY2027 committed-bit coverage or delivery, and gives no NAND contract-price or bit-mix data; the current-period 10-Q was not independently read in this review. Valuation remains anchored to the historical 2026-08-17 basis; new actuals/guidance await Mode B. Price, valuation numbers, stance and conviction are unchanged.",
+    "summaryEn": "2026-11-06 — Valuation re-anchor and stance re-derivation: at the 2026-11-05 close of $806.43 (prior close $1,037.40, a one-day -22.26% with cause undetermined) and 142,289,365 shares on the Q1 FY2027 10-Q cover, market capitalization is $114.75B; cash-only EV of $109.61B is 3.78x TTM revenue of $28.971B, and the price is 6.81x TTM non-GAAP EPS of $118.37; the 12-15x through-cycle frame implies sustainable EPS of only $53.76-67.20, below the FY2026 average of $70.88. The rebuilt 20/50/30 grid (to 2028-12-31, 2.152 years) gives $2,123.56 / $859.34 / $294.91 per share and a weighted $942.86, +7.53% annualized, 0.47 points below the 8% hurdle; the central path earns +3.0% a year and the sensitivities run from -2.72% to +16.22%. Neutral-watch holds and conviction moves from medium to low. Q1 FY2027 10-Q: revenue $11.031B and non-GAAP gross margin 85.1%, both above guide; NBM RPO $88.9B (July 3: $59.8B) and third-party collateral $12.8B; but total exabytes rose only about 10% year over year, so growth is mainly price. All per-share figures are pre-split; divide by 8 after the eight-for-one split from 2026-11-20.",
     "chainLayer": "memory-storage",
     "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "neutral-watch",
-    "priceAsOf": "2026-08-17",
+    "priceAsOf": "2026-11-05",
     "reportedPeriod": "Q1 FY2027",
     "related": [
       "sk-hynix-2026"
@@ -3562,14 +3564,14 @@
           "en": "78-80% peak gross margins roll over — cycle turns hit earnings and multiple together"
         },
         "latest": {
-          "zh": "2026-10-29 发布的 Q1 FY2027（截至 2026-10-02）：GAAP 毛利率 85.0%、非 GAAP 85.1%，较 Q4 FY2026 的 84.6% 再升 0.4／0.5 个百分点，高于 GAAP 83.0-84.9% / 非 GAAP 83.0-85.0% 指引；GAAP 营业利润 $8,780M（营业利润率 79.6%），收入 $11,031M（环比 +23%）。Q2 FY2027 指引毛利率 GAAP 84.4-85.4%、非 GAAP 84.5-85.5%。顶峰毛利率尚未转向，读数在框架内。新闻稿未给出价格／出货量拆分或 NAND 合同价数据（演示材料与电话会未读）；证据为卖方口径，本窗口内无买方成本归因佐证。",
-          "en": "Q1 FY2027 (quarter ended 2026-10-02), released 2026-10-29: GAAP gross margin 85.0% and non-GAAP 85.1%, up 0.4/0.5 ppt from 84.6% in Q4 FY2026 and above the 83.0-84.9% GAAP / 83.0-85.0% non-GAAP guide; GAAP operating income $8,780M (79.6% operating margin) on revenue of $11,031M (+23% Q/Q). Q2 FY2027 guidance is 84.4-85.4% GAAP and 84.5-85.5% non-GAAP gross margin. The peak margin has not rolled over, so the reading sits within the frame. The release gives no price/volume split or NAND contract-price data (presentation and call not read); this is seller-side evidence, with no buyer-side cost attribution in this window."
+          "zh": "Q1 FY2027（季度截至 2026-10-02；10-Q 于 2026-10-30 提交）：GAAP 毛利率 85.0%、非 GAAP 85.1%，较 Q4 FY2026 的 84.6% 再升 0.4／0.5 个百分点，高于 83-85% 指引；GAAP 营业利润 $87.80 亿（营业利润率 79.6%），收入 $110.31 亿（环比 +23%）。Q2 FY2027 指引毛利率 GAAP 84.4-85.4%、非 GAAP 84.5-85.5%。10-Q 给出量价拆分：全公司出货 EB 同比约 +10%，数据中心 EB 近 +330%、每 GB 收入近 +320%，Edge 每 GB 收入超过 +450%、EB -20%，消费 EB 下降超过 70%——毛利率几乎完全来自价格。顶峰毛利率尚未转向。NAND 合同价无一手数据；证据为卖方口径。",
+          "en": "Q1 FY2027 (quarter ended 2026-10-02; 10-Q filed 2026-10-30): GAAP gross margin 85.0% and non-GAAP 85.1%, up 0.4/0.5 ppt from 84.6% in Q4 FY2026 and above the 83-85% guide; GAAP operating income $8.780B (79.6% margin) on revenue of $11.031B (+23% Q/Q). Q2 FY2027 guidance is 84.4-85.4% GAAP and 84.5-85.5% non-GAAP gross margin. The 10-Q gives the price/volume split: total exabytes up about 10% Y/Y, Datacenter exabytes up almost 330% with revenue per gigabyte up almost 320%, Edge revenue per gigabyte up more than 450% with exabytes down 20%, and Consumer exabytes down more than 70% — the margin is almost entirely price. The peak margin has not rolled over. No primary NAND contract-price data; evidence is seller-side."
         },
-        "nextCheck": "FY2027 Q1 财报 / Q1 FY2027 earnings",
-        "nextCheckDate": "2026-11",
+        "nextCheck": "Q2 FY2027 财报 / Q2 FY2027 earnings",
+        "nextCheckDate": "2027-01",
         "reading": "within",
-        "readingAsOf": "2026-10-29",
-        "readingNote": "触发条件是 78-80% 顶峰毛利率「转向」；Q1 GAAP 85.0%／非 GAAP 85.1% 高于 Q4 的 84.6%，Q2 指引 GAAP 84.4-85.4% / 非 GAAP 84.5-85.5% 亦未指向转向，唯一可观测的毛利率腿未触发；「盈利与倍数同时收缩」是转向后的后果描述，尚未发生。证据仅为卖方新闻稿口径。 / The trigger is a roll-over of 78-80% peak gross margins; Q1 GAAP 85.0% / non-GAAP 85.1% sits above Q4's 84.6% and the Q2 guide (84.4-85.4% GAAP / 84.5-85.5% non-GAAP) does not point to a roll-over, so the only observable leg, gross margin, has not fired; 'earnings and multiple compress together' describes the consequence of a roll-over that has not occurred. Evidence is seller-side release data only."
+        "readingAsOf": "2026-10-30",
+        "readingNote": "触发条件是 78-80% 顶峰毛利率「转向」；Q1 GAAP 85.0%／非 GAAP 85.1% 高于 Q4 的 84.6%，Q2 指引亦未指向转向，唯一可观测的毛利率腿未触发。另：8 月上调条件中的「Q1 FY2027 兑现 $103-108 亿收入与 83-85% 非 GAAP 毛利率指引」一腿已字面成立（$110.31 亿、85.1%），2026-11-06 起该腿改为 Q2 FY2027 兑现其自身指引。 / The trigger is a roll-over of 78-80% peak gross margins; Q1 GAAP 85.0% / non-GAAP 85.1% sits above Q4's 84.6% and the Q2 guide does not point to a roll-over, so the only observable leg has not fired. Separately, the August upgrade leg 'Q1 FY2027 delivers the $10.3-10.8B revenue and 83-85% non-GAAP gross-margin guide' was met word for word ($11.031B, 85.1%); from 2026-11-06 that leg is replaced by Q2 FY2027 delivering its own guide."
       },
       {
         "id": "nbm-contract-lockin",
@@ -3584,14 +3586,14 @@
           "en": "the ~$42B minimum contracted revenue across five NBM agreements (management framing) gets confirmed in filings and delivery"
         },
         "latest": {
-          "zh": "2026-10-29 发布的 Q1 FY2027 新闻稿（8-K 附件 99.1）未提及约 $420 亿 NBM 最低合同收入、协议数量、RPO、FY2027 committed-bit 覆盖或协议交付情况；可见的 NBM 相关数据仅为：公司定义的调整后自由现金流剔除 $465M「NBM 预付款与保证金影响」（Q4 FY2026 为 $1,938M），资产负债表合同负债流动部分 $777M、非流动部分 $752M（2026-07-03：$849M 与 $393M），退款负债 $1,597M（2026-07-03：$1,500M）——新闻稿未将这些余额归属于 NBM。2026-10-30 检查 EDGAR 提交索引时，最新文件为 10-29 的 8-K，尚无 Q1 FY2027 10-Q，电话会与演示材料未读。触发条件要求文件确认与兑现双重验证，本季两腿均无新证据，读数仍不明。",
-          "en": "The Q1 FY2027 release of 2026-10-29 (8-K Exhibit 99.1) does not mention the ~$42B NBM minimum contracted revenue, the agreement count, RPO, FY2027 committed-bit coverage or delivery against the agreements. The only NBM-related data visible are: company-defined adjusted free cash flow excludes a $465M 'Impact of NBM prepayments and deposits' (Q4 FY2026: $1,938M); balance-sheet contract liabilities were $777M current and $752M non-current (2026-07-03: $849M and $393M) and refund liabilities $1,597M (2026-07-03: $1,500M), balances the release does not attribute to NBMs. As checked on 2026-10-30, the latest filing in the EDGAR submissions index was the 2026-10-29 8-K, with no Q1 FY2027 10-Q, and the call and presentation were not read. The trigger requires both filing confirmation and delivery; neither leg has new evidence this quarter, so the reading remains unclear."
+          "zh": "Q1 FY2027 10-Q（2026-10-30 提交）：截至 2026-10-02，分配至剩余履约义务的交易价格为 $889 亿（$874 亿尚未开票、$15 亿已记为合同负债），约 20% 预计在未来十二个月确认，且全部与 NBM 相关（2026-07-03：$598 亿，约 19%）；第三方金融机构出具或持有的抵押品合计 $128 亿（2026-07-03：$50 亿），为客户违约时公司可获得的最高金额；退款负债（主要为 NBM 保证金）$16 亿；期初合同负债中 $2.81 亿在 Q1 确认为收入，合同负债增加由新 NBM 驱动。10-Q 称 NBM 预计成为公司最主要的经营方式。文件未披露 FY2027 committed-bit 覆盖、各协议交付量或 NBM 收入金额。",
+          "en": "Q1 FY2027 10-Q (filed 2026-10-30): at 2026-10-02 the transaction price allocated to remaining performance obligations was $88.9B ($87.4B unbilled, $1.5B recorded as contract liabilities), about 20% expected within twelve months and entirely related to NBMs (2026-07-03: $59.8B, about 19%); collateral issued or held by third-party financial institutions was $12.8B (2026-07-03: $5.0B), the maximum proceeds available on customer default; refund liabilities, mainly NBM deposits, were $1.6B; $281M of the opening contract liabilities were recognized as revenue in Q1, and the increase in contract liabilities was driven by new NBMs. The 10-Q says NBMs are expected to become the company's predominant way of doing business. The filing does not disclose FY2027 committed-bit coverage, delivered volumes by agreement or NBM revenue."
         },
-        "nextCheck": "Q1 FY2027 交付与 bit 覆盖 / Q1 FY2027 delivery and committed-bit coverage",
-        "nextCheckDate": "2026-11",
+        "nextCheck": "Q2 FY2027 交付与 bit 覆盖 / Q2 FY2027 delivery and committed-bit coverage",
+        "nextCheckDate": "2027-01",
         "reading": "unclear",
-        "readingAsOf": "2026-10-29",
-        "readingNote": "新闻稿未确认约 $420 亿或其兑现，10-Q 未提交；文件与交付两腿均未知，按未知腿处理。 / The release does not confirm the ~$42B or its delivery and the current-period 10-Q was not independently read in this review; both the filing and delivery legs are unknown and treated as such."
+        "readingAsOf": "2026-10-30",
+        "readingNote": "触发条件要求约 $420 亿最低合同收入「在文件与交付中」得到确认。文件腿：10-Q 的 $889 亿 NBM RPO 已超过该管理层口径；交付腿：仅知期初合同负债中 $2.81 亿确认为收入，NBM 收入与交付量未披露，未观测。合取式一腿成立、一腿未观测，读数为不明。 / The trigger requires the ~$42B minimum contracted revenue to be confirmed in filings and delivery. Filing leg: the 10-Q's $88.9B of NBM RPO exceeds that management framing. Delivery leg: only $281M of opening contract liabilities recognized as revenue is known; NBM revenue and delivered volumes are not disclosed, so it is unobserved. A conjunction with one leg met and one unobserved reads unclear."
       },
       {
         "id": "datacenter-mix",
@@ -3606,14 +3608,14 @@
           "en": "data-center revenue keeps compounding and lifting mix"
         },
         "latest": {
-          "zh": "Q1 FY2027（2026-10-29 发布，季度截至 2026-10-02）数据中心收入 $4,802M，环比 +61%（Q4 FY2026 $2,977M；上年同期 $269M，新闻稿标注同比无意义）；按新闻稿表格自算，数据中心占总收入约 43.5%（$4,802M / $11,031M），Q4 约 33.2%（$2,977M / $8,965M）。同期 Edge $5,832M（环比 +7%）、消费 $397M（环比 −29%）。放量与收入结构占比抬升同时成立。新闻稿未披露数据中心 bit 占比（Q4 的 38% 出自演示材料，本季演示材料未读），客户集中度亦未披露。",
-          "en": "Q1 FY2027 (released 2026-10-29, quarter ended 2026-10-02): Datacenter revenue $4,802M, up 61% Q/Q (Q4 FY2026 $2,977M; prior-year quarter $269M, Y/Y marked not meaningful in the release). Calculated from the release table, Datacenter was about 43.5% of total revenue ($4,802M / $11,031M) versus about 33.2% in Q4 ($2,977M / $8,965M). Over the same quarter Edge was $5,832M (up 7% Q/Q) and Consumer $397M (down 29% Q/Q). Both the ramp and the rising revenue share hold. The release does not give Datacenter's share of bits (Q4's 38% came from the presentation, which was not read this quarter) or customer concentration."
+          "zh": "Q1 FY2027（10-Q 于 2026-10-30 提交，季度截至 2026-10-02）数据中心收入 $48.02 亿，环比 +61%（Q4 FY2026 $29.77 亿；上年同期 $2.69 亿，同比 +1,685%）；按报表自算约占总收入 43.5%（Q4 约 33.2%）。10-Q 称数据中心按 EB 计出货同比增长近 330%、每 GB 收入增长近 320%。同期 Edge $58.32 亿（环比 +7%）、消费 $3.97 亿（环比 −29%）。两家客户各占 Q1 收入 12%（FY2026 无一超过 10%），未披露分部归属。放量与收入结构占比抬升同时成立；数据中心 bit 占比未在文件中披露。",
+          "en": "Q1 FY2027 (10-Q filed 2026-10-30, quarter ended 2026-10-02): Datacenter revenue $4.802B, up 61% Q/Q (Q4 FY2026 $2.977B; prior-year quarter $269M, +1,685% Y/Y). Calculated from the statements, Datacenter was about 43.5% of total revenue versus about 33.2% in Q4. The 10-Q says Datacenter products sold rose almost 330% on an exabyte basis and revenue per gigabyte almost 320%. Edge was $5.832B (+7% Q/Q) and Consumer $397M (-29% Q/Q). Two customers were each 12% of Q1 revenue (FY2026: none above 10%), segment not disclosed. Both the ramp and the rising revenue share hold; Datacenter's share of bits is not disclosed in the filing."
         },
-        "nextCheck": "FY2027 Q1 财报 / Q1 FY2027 earnings",
-        "nextCheckDate": "2026-11",
+        "nextCheck": "Q2 FY2027 财报 / Q2 FY2027 earnings",
+        "nextCheckDate": "2027-01",
         "reading": "within",
-        "readingAsOf": "2026-10-29",
-        "readingNote": "数据中心收入环比 +61%（持续放量）且收入占比约 33.2%→43.5%（自算，抬升结构占比），触发条件两腿均有一手数据。 / Datacenter revenue +61% Q/Q (keeps compounding) and revenue share about 33.2% to 43.5% (calculated; lifting mix); both trigger legs are covered by primary data."
+        "readingAsOf": "2026-10-30",
+        "readingNote": "数据中心收入环比 +61%、出货 EB 同比近 +330%（持续放量），收入占比约 33.2%→43.5%（自算，抬升结构占比），触发条件两腿均有一手数据。 / Datacenter revenue +61% Q/Q with exabytes up almost 330% Y/Y (keeps compounding) and revenue share about 33.2% to 43.5% (calculated; lifting mix); both trigger legs are covered by primary data."
       },
       {
         "id": "cycle-derating",
@@ -3628,32 +3630,33 @@
           "en": "the 12-15x through-cycle frame implies EPS above a verifiable trough and earnings plus the multiple compress together"
         },
         "latest": {
-          "zh": "2026-08-18 按 2026-08-17 收盘 $1,786.85 与 10-K 封面 146,419,001 股重锚：市值约 $2,616.3 亿；FY2026 P/S 12.92x、非 GAAP P/E 25.21x、FCF 收益率 4.39%。12-15x 框架隐含可持续 EPS $119.12-148.90，仍低于 Q4 非 GAAP 年化 $157 与 Q1 指引中点年化 $180，读数仍在框架内；但隐含要求已达 FY2026 非 GAAP 平均 $70.88 的 1.68-2.10 倍，12x 端约为 Q4 年化的 94.8%，正常化缓冲进一步收窄。约 $1,884 的既有降级阈值仍未触发。",
-          "en": "Re-anchored on 2026-08-18 at the 2026-08-17 close of $1,786.85 and 146,419,001 shares from the Form 10-K cover: market cap about $261.6B; FY2026 P/S 12.92x, non-GAAP P/E 25.21x, and FCF yield 4.39%. The 12-15x frame implies $119.12-$148.90 of sustainable EPS, still below the $157 Q4 non-GAAP annualized and $180 Q1-guide midpoint annualized, so the reading stays within the frame. The requirement is now 1.68-2.10x the FY2026 non-GAAP average of $70.88 and the 12x end is about 94.8% of Q4 annualized, leaving a thinner normalization buffer. The existing roughly $1,884 downgrade threshold has not fired."
+          "zh": "2026-11-06 按 2026-11-05 收盘 $806.43 与 Q1 FY2027 10-Q 封面 142,289,365 股重锚：市值 $1,147.5 亿、仅扣现金 EV $1,096.1 亿；EV/TTM 收入 3.78x、TTM 非 GAAP P/E 6.81x、TTM FCF 收益率 15.13%。12-15x 框架隐含可持续 EPS $53.76-67.20，为 FY2026 非 GAAP 平均 $70.88 的 0.76-0.95 倍、TTM $118.37 的 45-57%，仍高于可验证谷底（FY2025 GAAP EPS -$11.32；Q1 FY2026 非 GAAP $1.22）。但盈利仍在上升（Q1 非 GAAP EPS $49.51，Q2 指引 $55-57），倍数收缩并非与盈利同时发生。11-05 单日 -22.26% 原因未定。每股为拆股前口径。",
+          "en": "Re-anchored on 2026-11-06 at the 2026-11-05 close of $806.43 and 142,289,365 shares from the Q1 FY2027 10-Q cover: market cap $114.75B and cash-only EV $109.61B; EV/TTM sales 3.78x, TTM non-GAAP P/E 6.81x and TTM FCF yield 15.13%. The 12-15x frame implies $53.76-67.20 of sustainable EPS, 0.76-0.95x the FY2026 non-GAAP average of $70.88 and 45-57% of TTM $118.37, still above the verifiable trough (FY2025 GAAP EPS -$11.32; Q1 FY2026 non-GAAP $1.22). Earnings are still rising (Q1 non-GAAP EPS $49.51, Q2 guide $55-57), so the multiple compression is not happening together with earnings compression. The cause of the 11-05 one-day -22.26% is undetermined. Per-share figures are pre-split."
         },
-        "nextCheck": "行业 bit 供需、合同价与 Q1 FY2027 盈利 / industry bit supply-demand, contract pricing and Q1 FY2027 earnings",
-        "nextCheckDate": "2026-11",
+        "nextCheck": "行业 bit 供需、合同价与 Q2 FY2027 盈利 / industry bit supply-demand, contract pricing and Q2 FY2027 earnings",
+        "nextCheckDate": "2027-01",
         "reading": "within",
-        "readingAsOf": "2026-08-17"
+        "readingAsOf": "2026-11-05",
+        "readingNote": "合取式两腿：「隐含 EPS 高于可验证谷底」成立（$53.76-67.20 对 FY2025 亏损）；「盈利与倍数同时收缩」不成立（盈利上升、仅倍数收缩）。整体未触发。 / Two conjunctive legs: 'implied EPS above a verifiable trough' holds ($53.76-67.20 against the FY2025 loss); 'earnings plus the multiple compress together' does not (earnings rising, only the multiple compressed). The trigger has not fired."
       }
     ],
-    "conviction": "medium",
+    "conviction": "low",
     "stanceRationale": {
-      "zh": "2026-08-18 按当前价格与 FY2026 Form 10-K 重新推导。按 2026-08-17 收盘 $1,786.85 与 146,419,001 股，市值约 $2,616.3 亿；FY2026 P/S 12.92x、非 GAAP P/E 25.21x、FCF 收益率 4.39%。12-15x 通周期框架隐含可持续 EPS $119.12-148.90，仍低于 Q4 非 GAAP 年化 $157 与 Q1 指引中点年化 $180，约 $1,884 的降级阈值尚未触发，因此算术仍不支持谨慎；但区间已达 FY2026 平均 $70.88 的 1.68-2.10 倍，缓冲很薄。10-K 确认 NBM 多年期数量、固定/浮动定价、$598 亿 RPO 与财务担保，证据集改善；但升级条件还要求 FY2027 有意义的数量覆盖、Q1 兑现与行业供给纪律，尚未全部满足，维持观望中性/中确信。",
-      "en": "Re-derived on 2026-08-18 at the current price and against the FY2026 Form 10-K. At the 2026-08-17 close of $1,786.85 and 146,419,001 shares, market cap is about $261.6B; FY2026 P/S is 12.92x, non-GAAP P/E 25.21x, and FCF yield 4.39%. A 12-15x through-cycle frame implies $119.12-$148.90 of sustainable EPS, still below the $157 Q4 non-GAAP annualized and $180 Q1-guide midpoint annualized. The roughly $1,884 downgrade threshold has not fired, so the arithmetic still does not support cautious, although the 1.68-2.10x band versus FY2026 average EPS of $70.88 leaves little cushion. The 10-K improves the evidence set by confirming multi-year NBM volumes, fixed and variable pricing, $59.8B of RPO, and financial guarantees. The upgrade path also requires meaningful FY2027 coverage, Q1 delivery, and industry supply discipline; those legs are not all met, so neutral-watch / medium holds."
+      "zh": "2026-11-06 按当前价格与 Q1 FY2027 10-Q 重新推导。按 2026-11-05 收盘 $806.43 与 10-Q 封面 142,289,365 股，市值 $1,147.5 亿，扣 10-02 现金 $51.36 亿、无债务，EV $1,096.1 亿为 TTM 收入 $289.71 亿的 3.78x；股价为 TTM 非 GAAP EPS $118.37 的 6.81x、Q2 指引中点年化 EPS 的 3.60x；12-15x 通周期框架隐含可持续 EPS $53.76-67.20，为 FY2026 平均 $70.88 的 0.76-0.95 倍。网格把顶峰现金与通周期盈利分开估值（9 个季度采用 Q2 指引每季 $5.5 亿营业费用、通周期每年 $24 亿，14.3% 税率、75% 现金转换、期初净现金扣除 $15.97 亿可退还保证金、股数与回购额度均取 10-02 口径：约 1.52 亿摊薄股（1.44 亿基本股加约 800 万 Q1 稀释，推导值），按路径价格执行 $105 亿剩余回购；这是口径修正，按 Q2 指引 1.51 亿口径为 $949.59 / 年化 +7.89%，标签不变）：乐观（通周期收入 $380 亿、毛利率 60%、15x）$2,123.56，中性（2027 自然年初转向，通周期 $250 亿、45%、12x）$859.34，悲观（一年内毛利率降至 30%，通周期 $180 亿、30%、10x）$294.91。新负面（Q1 全公司出货 EB 同比仅约 +10%、Edge -20%、消费 -70%，库存天数 166，两家客户各占 12%）小于缩小的风险（RPO 由 $598 亿增至 $889 亿、抵押品由 $50 亿增至 $128 亿），因为 10-Q 把终端市场结构变化部分归因于公司自身的产品分配决策、并称库存为满足需求而建，而合同与抵押品是客户一个季度内承诺多年期数量的已入文件证据；但合同保护的是数量与回款而非价格（固定与浮动比例未披露），三条路径按通周期价格与毛利率区分，因此净改善不改变路径相对可能性，权重维持 20/50/30（10/60/30 将为年化 +0.57%）。加权 $942.86，较现价 +16.9%，按 2.152 年（786 天，2026-11-06 起）（至 2028-12-31）年化 +7.53%，比 8% 门槛低 0.47 个百分点；中性路径年化 +3.0%，两端 +163.3% / -63.4%，稳健性区间 -2.72% 至 +16.22%。谨慎先例最高为 +6.6%（innolight-2026），本报告 +7.53% 介于 lumentum-2026（+7.7%）与 innolight-2026 之间；中性路径低于门槛按 airbnb-2026（10-01）规则支持谨慎，但其后 lumentum-2026（10-16，中性路径约 +7.46%）与 axti-2026（10-30，中性路径 -2.5%）均维持观望中性，且按概率加权的牛市尾部 +32.7 个百分点大于熊市尾部 -19.0 个百分点，维持观望中性；结果略低于门槛、敏感性跨越零、合同价未观测、11-05 跌幅原因未定，确信度降为低。按 11-04 收盘 $1,037.40，同一网格年化为 -4.33%：这是维持，不是价格驱动的翻转。",
+      "en": "Re-derived on 2026-11-06 at the current price and against the Q1 FY2027 10-Q. At the 2026-11-05 close of $806.43 and 142,289,365 shares on the 10-Q cover, market capitalization is $114.75B; less $5.136B of cash at October 2 and no debt, EV of $109.61B is 3.78x TTM revenue of $28.971B; the price is 6.81x TTM non-GAAP EPS of $118.37 and 3.60x annualized Q2-guide-midpoint EPS. A 12-15x through-cycle frame implies sustainable EPS of $53.76-67.20, 0.76-0.95x the FY2026 average of $70.88. The grid values peak cash and through-cycle earnings separately ($0.55B quarterly operating expense from the Q2 guide over nine quarters and $2.4B a year through the cycle, 14.3% tax, 75% cash conversion, starting net cash net of $1.597B of refundable deposits, shares and buyback capacity both on the October 2 basis: about 152M diluted shares, derived as 144M basic plus about 8M of Q1 dilution, with the $10.5B remaining buyback executed at each path's price; this is a basis correction, and on the Q2 guide's 151M basis the result is $949.59 / +7.89% with the same label): bull (through-cycle revenue $38B at 60% gross margin, 15x) $2,123.56, central (turn from early CY2027, $25B at 45%, 12x) $859.34, bear (gross margin to 30% within a year, $18B at 30%, 10x) $294.91. The new negative (total exabytes up only about 10% in Q1, Edge -20%, Consumer -70%, 166 days of inventory, two customers at 12% each) is smaller than the narrowed risk (RPO up from $59.8B to $88.9B, collateral up from $5.0B to $12.8B), because the 10-Q attributes the end-market shifts partly to the company's own product-allocation decisions and says inventory was built to meet demand, while the contract and collateral figures are filed evidence of multi-year volume commitments made within one quarter; but the contracts protect volume and collections rather than price (the fixed/variable split is undisclosed), and the three paths are separated by through-cycle price and gross margin, so the net does not change their relative likelihood and the weights stay 20/50/30 (10/60/30 would give +0.57% a year). The weighted value is $942.86, +16.9% against the price, or +7.53% annualized over 2.152 years (786 days from 2026-11-06) to 2028-12-31, 0.47 points below the 8% hurdle; the central path earns +3.0% a year, the tails are +163.3% / -63.4%, and the robustness range runs from -2.72% to +16.22%. Cautious precedents top out at +6.6% (innolight-2026), and +7.53% sits between lumentum-2026 (+7.7%) and innolight-2026. The central path is below the hurdle, which the airbnb-2026 rule (2026-10-01) reads as cautious, but two later precedents, lumentum-2026 (2026-10-16, central path about +7.46%) and axti-2026 (2026-10-30, central path -2.5%), stayed neutral-watch, and the probability-weighted bull tail (+32.7 points) outweighs the bear tail (-19.0 points), so neutral-watch holds. Conviction falls to low because the result sits just below the hurdle, the sensitivities cross zero, contract prices are unobserved and the 11-05 decline has no identified cause. At the 11-04 close of $1,037.40 the same grid reads -4.33% a year: this is a hold, not a price-driven flip."
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "若文件确认 NBM 对 FY2027 有意义的数量覆盖与财务保护、Q1 FY2027 兑现收入 $103-108 亿与非 GAAP 毛利率 83-85% 指引，且 NAND 合同价与行业产能仍显示供给纪律，则上调至 constructive。",
-        "en": "move to constructive if filings confirm meaningful FY2027 NBM volume coverage and financial protection, Q1 FY2027 delivers the $10.3-10.8B revenue and 83-85% non-GAAP gross-margin guide, and NAND contract prices plus industry capacity still show supply discipline.",
+        "zh": "若文件披露有意义的 FY2027 committed-bit 覆盖（或 NBM 收入占比）且财务保护得到确认、Q2 FY2027 兑现收入 $122-126 亿与非 GAAP 毛利率 84.5-85.5% 指引，且 NAND 合同价与行业产能仍显示供给纪律，则上调至 constructive。",
+        "en": "move to constructive if filings disclose meaningful FY2027 committed-bit coverage (or the NBM share of revenue) with financial protection confirmed, Q2 FY2027 delivers the $12.2-12.6B revenue and 84.5-85.5% non-GAAP gross-margin guide, and NAND contract prices plus industry capacity still show supply discipline.",
         "monitoringIds": [
           "nand-cycle-margin-peak",
           "nbm-contract-lockin"
         ]
       },
       "downgrade": {
-        "zh": "若 NAND 合同价连续两个周期转弱、毛利率无结构解释地跌破 70%、NBM 条款不及预期、SanDisk/铠侠新增产能指向供给过剩，或价格升破约 $1,884 使 12x 隐含可持续 EPS 不再低于 Q4 非 GAAP 年化 $157，则下调至 cautious。",
-        "en": "move to cautious if NAND contract prices weaken for two consecutive periods, gross margin falls below 70% without a mix explanation, NBM terms disappoint, SanDisk/Kioxia capacity additions point to oversupply, or the price rises above roughly $1,884 so the 12x-implied sustainable EPS no longer sits below the $157 Q4 non-GAAP annualized.",
+        "zh": "若 NAND 合同价连续两个周期转弱、毛利率无结构解释地跌破 70%、NBM 条款不及预期、SanDisk/铠侠新增产能指向供给过剩，或连续十个交易日收盘高于 $942.86（拆股前；2026-11-20 八比一拆股后 $117.86），使 2026-11-06 网格加权价值不再高于股价，则下调至 cautious。",
+        "en": "move to cautious if NAND contract prices weaken for two consecutive periods, gross margin falls below 70% without a mix explanation, NBM terms disappoint, SanDisk/Kioxia capacity additions point to oversupply, or the price closes above $942.86 for ten consecutive sessions (pre-split; $117.86 after the 2026-11-20 eight-for-one split), so the 2026-11-06 grid's weighted value no longer exceeds the price.",
         "monitoringIds": [
           "nand-cycle-margin-peak",
           "nbm-contract-lockin",
@@ -3697,6 +3700,16 @@
         "note": {
           "zh": "价格与 10-K 重锚：2026-08-17 收盘 $1,786.85 下，12-15x 框架隐含 EPS $119.12-148.90，12x 端约为 Q4 年化的 94.8%，但尚未跨过约 $1,884 的降级阈值。10-K 确认 $598 亿 NBM RPO、数量承诺、定价机制与财务担保；FY2027 bit 覆盖和 Q1 交付未验证，维持观望中性/中确信。",
           "en": "Price and 10-K re-anchor: at the 2026-08-17 close of $1,786.85, the 12-15x frame implies $119.12-$148.90 of EPS and the 12x end is about 94.8% of Q4 annualized, but the roughly $1,884 downgrade threshold has not fired. The 10-K confirms $59.8B of NBM RPO, volume commitments, pricing mechanisms, and financial guarantees; FY2027 bit coverage and Q1 delivery remain unverified, so neutral-watch / medium holds."
+        }
+      },
+      {
+        "date": "2026-11-06",
+        "stance": "neutral-watch",
+        "conviction": "low",
+        "price": 806.43,
+        "note": {
+          "zh": "价格与 Q1 FY2027 10-Q 重锚：2026-11-05 收盘 $806.43 下 12-15x 框架隐含可持续 EPS $53.76-67.20；重建 20/50/30 网格 $2,123.56 / $859.34 / $294.91，加权 $942.86、年化 +7.53%（门槛 8%），中性路径 +3.0%，敏感性 -2.72% 至 +16.22%。维持观望中性，确信度由中降为低；每股口径为拆股前。",
+          "en": "Price and Q1 FY2027 10-Q re-anchor: at the 2026-11-05 close of $806.43 the 12-15x frame implies $53.76-67.20 of sustainable EPS; the rebuilt 20/50/30 grid gives $2,123.56 / $859.34 / $294.91, weighted $942.86, +7.53% annualized against an 8% hurdle, central path +3.0%, sensitivities -2.72% to +16.22%. Neutral-watch holds and conviction moves from medium to low; per-share figures are pre-split."
         }
       }
     ]

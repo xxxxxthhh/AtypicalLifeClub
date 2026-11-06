@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05",
+  "generatedAt": "2026-11-06",
   "dataAsOf": "2026-11-05",
   "benchmark": "SMH",
   "entries": [
@@ -310,20 +310,13 @@
     {
       "reportId": "sandisk-2026",
       "stance": "neutral-watch",
-      "conviction": "medium",
-      "stanceDate": "2026-08-18",
-      "priceAtStance": 1786.85,
+      "conviction": "low",
+      "stanceDate": "2026-11-06",
+      "priceAtStance": 806.43,
       "benchmarkSymbol": "SMH",
       "monitoringOverdue": false,
-      "lastDate": "2026-11-03",
-      "lastClose": 1126.52,
-      "changePct": -37.0,
-      "benchmarkChangePct": -9.0,
-      "relativePct": -28.0,
-      "bookBenchmarkSymbol": "SMH",
-      "bookBenchmarkChangePct": -9.0,
-      "bookRelativePct": -28.0,
-      "daysHeld": 77,
+      "status": "pending",
+      "daysHeld": 0,
       "stale": false
     },
     {
@@ -1033,7 +1026,7 @@
       "benchmarkSymbol": "SMH",
       "monitoringOverdue": false,
       "status": "pending",
-      "daysHeld": 0,
+      "daysHeld": 1,
       "stale": false
     }
   ],
@@ -1833,6 +1826,25 @@
       "bookBenchmarkChangePct": 5.4,
       "bookRelativePct": 34.2,
       "daysHeld": 18,
+      "migration": false,
+      "benchmarkSymbol": "SMH"
+    },
+    {
+      "reportId": "sandisk-2026",
+      "fromStance": "neutral-watch",
+      "toStance": "neutral-watch",
+      "toConviction": "low",
+      "startDate": "2026-08-18",
+      "startPrice": 1786.85,
+      "endDate": "2026-11-06",
+      "endPrice": 806.43,
+      "changePct": -54.9,
+      "benchmarkChangePct": -21.4,
+      "relativePct": -33.5,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -21.4,
+      "bookRelativePct": -33.5,
+      "daysHeld": 80,
       "migration": false,
       "benchmarkSymbol": "SMH"
     },

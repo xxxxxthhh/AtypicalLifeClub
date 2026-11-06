@@ -220,13 +220,13 @@
     {
       "reportId": "sandisk-2026",
       "symbol": "SNDK",
-      "status": "carried-forward",
+      "status": "ok",
       "attemptedAt": "2026-11-05",
-      "baseDate": "2026-08-17",
-      "basePrice": 1786.85,
-      "lastDate": "2026-11-03",
-      "lastClose": 1126.52,
-      "changePct": -37.0,
+      "baseDate": "2026-11-05",
+      "basePrice": 806.43,
+      "lastDate": "2026-11-05",
+      "lastClose": 806.43,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {

@@ -3973,5 +3973,31 @@
       "amd-2026:datacenter-growth",
       "amd-2026:rocm-helios-competitiveness"
     ]
+  },
+  {
+    "id": "sandisk-q1-fy2027-10q-reanchor-20261106",
+    "date": "2026-11-06",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Sandisk 10-Q：NBM RPO 升至 $889 亿、抵押品 $128 亿，但出货 EB 同比仅约 +10%；按 $806.43 重锚，网格年化 +7.53%",
+      "en": "Sandisk 10-Q: NBM RPO rises to $88.9B and collateral to $12.8B, but exabytes grow only about 10% Y/Y; re-anchored at $806.43, the grid earns +7.53% a year"
+    },
+    "detail": {
+      "zh": "来源：Sandisk Q1 FY2027 Form 10-Q（2026-10-30 提交，季度截至 2026-10-02）、2026-10-29 Form 8-K（Item 8.01 八比一拆股）与 2026-11-05 收盘价。10-Q：NBM 剩余履约义务 $889 亿（7 月 3 日 $598 亿），约 20% 在十二个月内确认，全部与 NBM 相关；第三方抵押品 $128 亿（7 月 3 日 $50 亿）；退款负债 $16 亿、合同负债 $15 亿；全公司出货 EB 同比约 +10%，数据中心近 +330%，Edge -20%，消费下降超过 70%；两家客户各占收入 12%；库存天数 166；Q1 以约 $1,587 均价回购 3,150,369 股、金额 $50 亿，剩余授权 $105 亿；封面股数 142,289,365（10-26）。按 2026-11-05 收盘 $806.43（11-04 收盘 $1,037.40，单日 -22.26%，未找到一手来源解释，原因未定），市值 $1,147.5 亿、仅扣现金 EV $1,096.1 亿为 TTM 收入的 3.78x，股价为 TTM 非 GAAP EPS 的 6.81x。重建 20/50/30 网格每股 $2,123.56 / $859.34 / $294.91，加权 $942.86，2026-11-06 至 2028-12-31（786 天、2.152 年）年化 +7.53%（门槛 8%；股数与回购额度均取 10-02 口径，约 1.52 亿摊薄股）。立场维持观望中性，确信度由中降为低；上调腿「Q1 兑现指引」已字面成立，改为 Q2 FY2027 兑现指引，上调腿 (a) 改为要求文件披露 FY2027 committed-bit 覆盖或 NBM 收入占比；下调价格腿改为连续十个交易日收盘高于 $942.86。所有每股数字为拆股前口径，2026-11-20 起除以 8。https://www.sec.gov/Archives/edgar/data/2023554/000162828026068601/sndk-20261002.htm",
+      "en": "Sources: Sandisk's Q1 FY2027 Form 10-Q (filed 2026-10-30, quarter ended 2026-10-02), the 2026-10-29 Form 8-K (Item 8.01 eight-for-one split) and the 2026-11-05 close. 10-Q: NBM remaining performance obligations $88.9B (July 3: $59.8B), about 20% within twelve months and entirely NBM; third-party collateral $12.8B (July 3: $5.0B); refund liabilities $1.6B and contract liabilities $1.5B; total exabytes up about 10% Y/Y, Datacenter up almost 330%, Edge -20%, Consumer down more than 70%; two customers at 12% of revenue each; 166 days of inventory; Q1 repurchases of 3,150,369 shares for $5.0B at about $1,587, with $10.5B of authorization left; cover count 142,289,365 (October 26). At the 2026-11-05 close of $806.43 (prior close $1,037.40, a one-day -22.26% with no primary-source explanation found, cause undetermined), market cap is $114.75B, cash-only EV of $109.61B is 3.78x TTM sales and the price is 6.81x TTM non-GAAP EPS. The rebuilt 20/50/30 grid gives $2,123.56 / $859.34 / $294.91 per share, weighted $942.86, +7.53% annualized over 786 days (2.152 years) from 2026-11-06 to 2028-12-31 against an 8% hurdle, with shares and buyback capacity both on the October 2 basis (about 152M diluted shares). Neutral-watch holds and conviction moves from medium to low; the upgrade leg 'Q1 delivers the guide' was met word for word and is replaced by Q2 FY2027 delivering its guide, upgrade leg (a) now requires filed FY2027 committed-bit coverage or NBM revenue share, and the downgrade price leg becomes ten consecutive closes above $942.86. All per-share figures are pre-split; divide by 8 from 2026-11-20. https://www.sec.gov/Archives/edgar/data/2023554/000162828026068601/sndk-20261002.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "SNDK"
+    ],
+    "reportIds": [
+      "sandisk-2026"
+    ],
+    "monitoringRefs": [
+      "sandisk-2026:nand-cycle-margin-peak",
+      "sandisk-2026:nbm-contract-lockin",
+      "sandisk-2026:datacenter-mix",
+      "sandisk-2026:cycle-derating"
+    ]
   }
 ]

@@ -6,6 +6,13 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>SanDisk 深度研究报告 - NAND寡头格局中的AI存储周期暴露 / SanDisk Deep Research Report - AI Storage Cycle Exposure in the NAND Oligopoly</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=sandisk-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=sandisk-2026#sandisk-2026@2026-11-06</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+      <description>2026-11-06 — 估值重锚与立场重新推导：按 2026-11-05 收盘 $806.43（11-04 收盘 $1,037.40，单日 -22.26%，原因未定）与 Q1 FY2027 10-Q 封面 142,289,365 股，市值 $1,147.5 亿；仅扣现金 EV $1,096.1 亿为 TTM 收入 $289.71 亿的 3.78x，股价为 TTM 非 GAAP EPS $118.37 的 6.81x；12-15x 通周期框架隐含可持续 EPS 仅 $53.76-67.20，低于 FY2026 平均 $70.88。重建的 20/50/30 网格（至 2028-12-31，2.152 年）每股 $2,123.56 / $859.34 / $294.91，加权 $942.86，年化 +7.53%，比 8% 门槛低 0.47 个百分点；中性路径年化 +3.0%，敏感性 -2.72% 至 +16.22%。维持观望中性，确信度由中降为低。Q1 FY2027 10-Q：收入 $110.31 亿、非 GAAP 毛利率 85.1%，均超指引；NBM RPO $889 亿（7 月 3 日 $598 亿）、第三方抵押品 $128 亿；但全公司出货 EB 同比仅约 +10%，增长主要来自价格。所有每股数字为拆股前口径，2026-11-20 起按八比一拆股后除以 8。</description>
+    </item>
+    <item>
       <title>AMD 深度研究报告 - AI时代的半导体挑战者 / AMD Deep Research Report - AI Era Semiconductor Challenger</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=amd-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amd-2026#amd-2026@2026-11-06</guid>
@@ -151,13 +158,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=eqix-2026#eqix-2026@2026-10-30</guid>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
       <description>2026-10-30 — Q3 2026（季度截至 2026-09-30；8-K Ex 99.1 与 10-Q 于 2026-10-28 提交）收入 $2.571B（同比 +11% reported、+12% normalized and constant currency），recurring revenue $2.442B（据 10-Q 同比 +10%，reported 与 constant currency 一致），营业利润 $600M（+27%），调整后 EBITDA $1.321B（+15% reported、+14% normalized and constant currency）。全球 interconnection revenue $465M（Q3 2025 为 $422M；据新闻稿 reported 与 normalized constant currency 均 +10%），Fabric revenue 增长 24%，本季净增 interconnections 6,900 个（Q2 2026 为 9,700 个）。Annualized gross bookings 创纪录 $533M（同比 +35%；前九个月 $1.3B、+23%）；据 10-Q，该指标只计入预计 90 天内开始产生收入的合同，且不含合资企业的 recurring revenue。2026-09-30 cabinet utilization 约 78%，与 2025-09-30 持平。Q3 资本开支 $1,558M（Q3 2025 为 $1,136M）；新闻稿称 2026 年计划交付的 cabinets 比最初预期多近 40%。FY2026 指引（新闻稿称为连续第三个季度上调）：收入 $10.325–10.365B（约 +12%）、调整后 EBITDA $5.290–5.330B（利润率约 51%）、总 capex $5–6B；仅作为指引事实记录，不作为新的估值分母。所读文件未给出 AI 相关交易占比、presales 金额、计费 cabinet 增量或 xScale 产能数据，因此 AI bookings、MRR/cabinet yield、xScale 与 power/capex 读数仍为 unclear；电话会与投资者演示本轮未读。 估值仍按 2026-07-30 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。</description>
-    </item>
-    <item>
-      <title>SanDisk 深度研究报告 - NAND寡头格局中的AI存储周期暴露 / SanDisk Deep Research Report - AI Storage Cycle Exposure in the NAND Oligopoly</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=sandisk-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=sandisk-2026#sandisk-2026@2026-10-30</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-      <description>2026-10-30 — Q1 FY2027（季度截至 2026-10-02，2026-10-29 发布）收入 $110.31 亿（环比 +23%、同比 +378%），高于原 $103-108 亿指引；GAAP 毛利率 85.0%、非 GAAP 85.1%（Q4 FY2026：84.6%），高于 GAAP 83.0-84.9% / 非 GAAP 83.0-85.0% 指引；GAAP 营业利润 $87.80 亿（营业利润率 79.6%）。数据中心收入 $48.02 亿（环比 +61%），按新闻稿表格自算约占收入 43.5%（Q4 约 33.2%）；Edge $58.32 亿（+7%）、消费 $3.97 亿（-29%）。经营现金流 $63.63 亿、资本开支 $0.54 亿、自由现金流 $63.09 亿；公司定义的调整后自由现金流 $56.96 亿（扣除 $1.48 亿 Flash Ventures 净活动与 $4.65 亿 NBM 预付款及保证金；63.09 − 1.48 − 4.65 = 56.96 亿美元）。Q2 FY2027 指引收入 $122-126 亿、毛利率 GAAP 84.4-85.4% / 非 GAAP 84.5-85.5%。新闻稿未涉及约 $420 亿 NBM 最低合同收入、RPO、FY2027 committed-bit 覆盖或交付，也无 NAND 合同价与 bit 结构数据；本轮未独立读取该期 10-Q。估值仍按 2026-08-17 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。</description>
     </item>
     <item>
       <title>GE Vernova 深度研究报告 - AI 电力侧的卖铲人与燃气轮机超级周期 / GE Vernova Deep Research Report - The Pick-and-Shovel of AI's Power Side and the Gas-Turbine Super-Cycle</title>
