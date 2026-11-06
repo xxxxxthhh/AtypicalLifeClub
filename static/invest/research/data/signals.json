@@ -3997,5 +3997,29 @@
       "airbnb-2026:adj-ebitda-margin",
       "airbnb-2026:regulation-supply"
     ]
+  },
+  {
+    "id": "mp-q3-2026-results-20261105",
+    "date": "2026-11-05",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "MP Materials Q3：PPA 收入降至 $8.1M，扣除 PPA 的 Materials EBITDA 为正；GM 磁体认证完成",
+      "en": "MP Materials Q3: PPA income falls to $8.1M, Materials EBITDA excluding PPA is positive; GM magnet qualification completed"
+    },
+    "detail": {
+      "zh": "来源：MP Materials 2026-11-05 8-K Ex 99.1 业绩稿（0001801368-26-000056）。Q3 2026（季度截至 2026-09-30；8-K Ex 99.1 业绩稿，2026-11-05 盘后；10-Q 尚未提交）收入 $147.7M（同比 +176%）另加价格保护协议（PPA）收入 $8.1M（Q2 为 $17.58M）；NdPr 产量 1,018 吨（+41%）、销量 1,020 吨（+94%）。Materials 分部收入 $133.5M（含向一家美国航空航天与国防客户出售 SEG+ 的 $31.6M）、分部调整后 EBITDA $47.8M，扣除 PPA 约 $39.7M（推算）；Magnetics 分部收入 $18.6M（全部为磁材前驱体）、分部调整后 EBITDA $5.3M。合并调整后 EBITDA $41.1M，净亏损 $20.7M。9-30 现金及短期投资 $1,337.9M、长期债务 $936.3M；九个月经营现金流 −$7.8M、购置固定资产 $420.3M。公司称已完成 GM 磁体认证，可销售磁体交付与收入从第四季度开始。 证据边界：扣除 PPA 的分部 EBITDA 为推算；成品磁体收入为公司预期；10-Q 与电话会未读。",
+      "en": "Source: MP Materials 8-K Ex 99.1 results release (0001801368-26-000056), 2026-11-05. Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1 results release, after the close on 2026-11-05; the 10-Q has not been filed) revenue was $147.7M (+176% YoY) plus $8.1M of price protection agreement (PPA) income (Q2: $17.58M); NdPr production was 1,018 MT (+41%) and NdPr sales 1,020 MT (+94%). Materials segment revenue was $133.5M (including a $31.6M sale of SEG+ to a US aerospace and defense customer) with segment adjusted EBITDA of $47.8M, about $39.7M excluding PPA (derived); Magnetics segment revenue was $18.6M, all magnetic precursor products, with segment adjusted EBITDA of $5.3M. Consolidated adjusted EBITDA was $41.1M and net loss $20.7M. At 9-30 cash and short-term investments were $1,337.9M and long-term debt $936.3M; nine-month operating cash flow was -$7.8M and purchases of property, plant and equipment $420.3M. The company says it completed GM magnet qualification, with saleable magnet deliveries and revenue beginning in the fourth quarter. Evidence limits: ex-PPA segment EBITDA is derived; finished-magnet revenue is the issuer's expectation; the 10-Q and the earnings call were not read."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "MP"
+    ],
+    "reportIds": [
+      "mp-2026"
+    ],
+    "monitoringRefs": [
+      "mp-2026:q2-2026-ppa-income",
+      "mp-2026:magnet-revenue-h2-2026"
+    ]
   }
 ]
