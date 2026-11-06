@@ -6,6 +6,13 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>AppLovin 深度研究报告 - 增长不再自我复利之后，价格已经打了多少折 / AppLovin Deep Research Report - How Much the Price Already Discounts Once Growth Stops Compounding on Its Own</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=applovin-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=applovin-2026#applovin-2026@2026-11-06</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+      <description>2026-11-06 — Mode B 重锚：按 2026-11-05 收盘 $356.10（Q3 发布后首个完整交易时段）、Q3 10-Q 封面 331.322M 股，市值 $117,983.8M、企业价值 $118,360.0M，对应 TTM 调整后 EBITDA 18.46 倍、TTM 市盈率 23.96 倍。重建的 30/40/30 网格（乐观 $605.82 / 中性 $427.59 / 悲观 $189.24）加权 $409.55，2.152 年年化 +6.7%，低于 8% 门槛；立场由偏多 / 低调整为中性观察 / 低，属价格驱动，已发布的下调腿均未触发。Q3 2026 收入 $2,184.8M（+55%）高于 $2,055–2,085M 指引上沿，安装量 +2%，Q4 指引 $2,365–2,395M。</description>
+    </item>
+    <item>
       <title>MP Materials 深度研究报告 - 稀土磁材对 AI 基建的约束检验与政府托底的真实代价 / MP Materials Deep Research Report - Rare-Earth Magnets as an AI-Buildout Constraint, and What the Government Floor Actually Cost</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=mp-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=mp-2026#mp-2026@2026-11-06</guid>
@@ -32,13 +39,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=aehr-2026#aehr-2026@2026-11-05</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
       <description>2026-11-05 首次完整覆盖：谨慎 / 低确信。按 2026-11-04 收盘 $60.84、摊薄 33.584M 股，市值 $20.43 亿，现金 $1.049 亿、无金融负债，EV $19.38 亿，对应 FY2027 指引 $150M 12.9 倍。Q1 FY2027（至 09-25）收入 $33.007M、GAAP 毛利率 47.5%、经营现金流 -$3.054M；预订 $46.7M，有效在手 $109.3M，相当于其余收入的约 93%。分歧在 FY2028：零回报需收入约 $310M（FY2027 指引的 2.07 倍），基准 $230M。30/40/30 网格 $97.65 / $36.08 / $15.80，加权 $48.47，至 2028-06-30 年化 -12.8%；在此网格下含转产本身不足以支撑现价，基准的 40% 只含 +$17M 的较晚、较小转产；按基准结构，FY2028 总收入约 $310M 可持平、约 $337M 可取得 8% 年化。权重是本报告的设定，不是证据。评估客户已决定购买一套评估单元，尚未披露量产订单。Q1 10-Q 未出，客户集中度与产品拆分 review-pending。</description>
-    </item>
-    <item>
-      <title>AppLovin 深度研究报告 - 增长不再自我复利之后，价格已经打了多少折 / AppLovin Deep Research Report - How Much the Price Already Discounts Once Growth Stops Compounding on Its Own</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=applovin-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=applovin-2026#applovin-2026@2026-11-05</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
-      <description>2026-11-05 — Q3 2026（季度截至 2026-09-30；8-K Ex 99.1 与 10-Q，2026-11-04）收入 $2,184.8M（同比 +55%），指引 $2,055–2,085M；净利润 $1,438.9M，调整后 EBITDA $1,842M（利润率 84%），GAAP 摊薄 EPS $4.30；经营现金流 $1,428.8M，自由现金流 $1,418.4M。10-Q：单次安装净收入 +55%、安装量 +2%。Q4 2026 指引：收入 $2,365–2,395M、调整后 EBITDA $1,995–2,025M（利润率 84–85%）。 估值与立场仍按 2026-10-01 历史基础；Q3 实绩与新指引待 Mode B 重算，发布后首个完整交易时段尚未结束，价格、估值数字、立场和确信度本包未更新。</description>
     </item>
     <item>
       <title>Astera Labs 深度研究报告 - 机架级 fan-out 是否构成独立瓶颈的架构校验 / Astera Labs Deep Research Report - Architecture Check on Whether Rack-Scale Fan-Out Is a Distinct Bottleneck</title>

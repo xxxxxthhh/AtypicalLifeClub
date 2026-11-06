@@ -4021,5 +4021,35 @@
       "mp-2026:q2-2026-ppa-income",
       "mp-2026:magnet-revenue-h2-2026"
     ]
+  },
+  {
+    "id": "applovin-q3-2026-mode-b-reanchor-20261105",
+    "date": "2026-11-05",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "AppLovin Q3 后重锚：$356.10、EV/TTM 调整后 EBITDA 18.46x；30/40/30 网格加权 $409.55、年化 +6.7%，低于 8% 门槛，立场由偏多调整为中性观察 / 低确信（价格驱动，下调腿均未触发）",
+      "en": "AppLovin post-Q3 re-anchor: $356.10 and 18.46x EV/TTM adjusted EBITDA; the 30/40/30 grid weights to $409.55, +6.7% annualized, below the 8% hurdle, and the stance moves from constructive to neutral-watch / low (price-driven; no downgrade leg tripped)"
+    },
+    "detail": {
+      "zh": "来源：CNBC 报价（2026-11-05 常规时段收盘 $356.10，+31.04%，前收 $271.75）与 Nasdaq /historical 日线（同为 $356.10），本条不对涨幅作归因；AppLovin Q3 10-Q（0001751008-26-000069）封面股本 331.322M（2026-10-31）、现金 $3,173.7M；票据本金 $3,550.0M（FY2025 10-K 附注 9 分项；Q3 10-Q 写作 $3.6B，九个月现金流量表无还款）；8-K Ex 99.1（0001751008-26-000068）与 Q4 2025 8-K 的收入、调整后 EBITDA、自由现金流；8-K 第 5.07 项（2026-10-29 书面同意迁册至 Nevada）。算术：市值 $117,983.8M，EV $118,360.0M，TTM 调整后 EBITDA $6,411.7M，EV/TTM 调整后 EBITDA 18.46x（首覆 16.52x），TTM 市盈率 23.96x，FCF 收益率 4.13%。网格（FY2028，786 天=2.152 年，回购价取现价与退出价值中点）：乐观 $605.82 / 中性 $427.59 / 悲观 $189.24，30/40/30 加权 $409.55，年化 +6.7%；8% 盈亏平衡价 $347.32；13 倍退出下 8% 所需年均增速 20.0%，中性路径 21.0%。权重经评估维持 30/40/30。监测读数：revenue-growth-vs-guide unclear（触发条件改写为 Q4 实绩对 $2,365M 与 Q1 2027 指引同比 +15% 下行腿 / +33% 上行腿，两腿待 Q4 发布首次测量；按已发布 Q3 文字，2026-11-04 为 within）；nrpi-vs-installs within（+55% / +2%）；ebitda-margin-spread within（83.9%、84.3%）；ecommerce-traction unclear（CFO 称消费品支出环比双位数增长，第三方文字稿；10-K 腿未到期）；fcf-conversion unclear（前九个月 71.2%，全年未出）；litigation-unity-dispute unclear（Brownback 未裁决；Unity 临时禁令据二手报道被驳回，不限制 AppLovin；新增 2026-10-07 派生诉讼）；platform-policy unclear（首次评级，Android 未深查）；新增 valuation-hurdle within（$356.10 介于 $322 与 $410）。下调条款逐腿均不成立或未观测。证据边界：电话会只读到 Quartr 第三方文字稿；财报后一致预期不可得；Unity 裁定未见原文。本条为事实性监测，不含投资建议。",
+      "en": "Sources: CNBC quote (2026-11-05 regular-session close of $356.10, +31.04%, previous close $271.75) and the Nasdaq /historical daily row (also $356.10); this entry does not attribute the move. AppLovin Q3 10-Q (0001751008-26-000069): cover count of 331.322M shares (2026-10-31), cash of $3,173.7M; note principal of $3,550.0M (itemized in FY2025 10-K Note 9; the Q3 10-Q states $3.6B and the nine-month cash-flow statement shows no repayments); revenue, adjusted EBITDA and free cash flow from 8-K Ex 99.1 (0001751008-26-000068) and the Q4 2025 8-K; 8-K Item 5.07 (written consent of 2026-10-29 to reincorporate in Nevada). Arithmetic: market cap $117,983.8M, EV $118,360.0M, TTM adjusted EBITDA $6,411.7M, EV/TTM adjusted EBITDA 18.46x (16.52x at initiation), TTM P/E 23.96x, FCF yield 4.13%. Grid (FY2028, 786 days = 2.152 years, buybacks at the midpoint of price and exit value): optimistic $605.82 / central $427.59 / pessimistic $189.24, 30/40/30 weighted $409.55, +6.7% annualized; 8% break-even $347.32; at a 13x exit the 8% hurdle needs 20.0% annual growth against a 21.0% central path. Weights evaluated and kept at 30/40/30. Monitoring readings: revenue-growth-vs-guide unclear (trigger rewritten to the Q4 actual against $2,365M and the Q1 2027 guide with a +15% y/y downside leg and a +33% upside leg, both first measured at the Q4 release; under the published Q3 text the 2026-11-04 reading was within); nrpi-vs-installs within (+55% / +2%); ebitda-margin-spread within (83.9%, 84.3%); ecommerce-traction unclear (the CFO said consumer spend grew double digits q/q, third-party transcript; the 10-K leg is not due); fcf-conversion unclear (nine months 71.2%, full year not reported); litigation-unity-dispute unclear (Brownback undecided; the Unity TRO was reported denied, which does not restrict AppLovin; new derivative suit on 2026-10-07); platform-policy unclear (first graded reading; Android not searched in depth); new valuation-hurdle within ($356.10 sits between $322 and $410). No downgrade leg holds or each is unobserved. Evidence limits: the call was read only in a Quartr third-party transcript; post-release consensus is not available; the Unity order was not seen. This is factual monitoring without investment advice."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "APP"
+    ],
+    "reportIds": [
+      "applovin-2026"
+    ],
+    "monitoringRefs": [
+      "applovin-2026:revenue-growth-vs-guide",
+      "applovin-2026:nrpi-vs-installs",
+      "applovin-2026:ebitda-margin-spread",
+      "applovin-2026:ecommerce-traction",
+      "applovin-2026:fcf-conversion",
+      "applovin-2026:litigation-unity-dispute",
+      "applovin-2026:platform-policy",
+      "applovin-2026:valuation-hurdle"
+    ]
   }
 ]

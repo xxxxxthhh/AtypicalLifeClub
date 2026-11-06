@@ -12890,8 +12890,8 @@
     "priceSymbol": "APP",
     "title": "AppLovin 深度研究报告 - 增长不再自我复利之后，价格已经打了多少折",
     "titleEn": "AppLovin Deep Research Report - How Much the Price Already Discounts Once Growth Stops Compounding on Its Own",
-    "summary": "2026-11-05 — Q3 2026（季度截至 2026-09-30；8-K Ex 99.1 与 10-Q，2026-11-04）收入 $2,184.8M（同比 +55%），指引 $2,055–2,085M；净利润 $1,438.9M，调整后 EBITDA $1,842M（利润率 84%），GAAP 摊薄 EPS $4.30；经营现金流 $1,428.8M，自由现金流 $1,418.4M。10-Q：单次安装净收入 +55%、安装量 +2%。Q4 2026 指引：收入 $2,365–2,395M、调整后 EBITDA $1,995–2,025M（利润率 84–85%）。 估值与立场仍按 2026-10-01 历史基础；Q3 实绩与新指引待 Mode B 重算，发布后首个完整交易时段尚未结束，价格、估值数字、立场和确信度本包未更新。",
-    "summaryEn": "2026-11-05 — Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1 and 10-Q, 2026-11-04) revenue was $2,184.8M (+55% YoY) against guidance of $2,055-2,085M; net income $1,438.9M, adjusted EBITDA $1,842M (84% margin), GAAP diluted EPS $4.30; operating cash flow $1,428.8M and free cash flow $1,418.4M. 10-Q: net revenue per installation +55% and installations +2%. Q4 2026 guidance: revenue $2,365-2,395M, adjusted EBITDA $1,995-2,025M (84-85% margin). Valuation and stance remain on the 2026-10-01 historical basis; Q3 actuals and the new guidance await Mode B recomputation, the first full post-release session has not finished, and price, valuation figures, stance and conviction are not updated in this package.",
+    "summary": "2026-11-06 — Mode B 重锚：按 2026-11-05 收盘 $356.10（Q3 发布后首个完整交易时段）、Q3 10-Q 封面 331.322M 股，市值 $117,983.8M、企业价值 $118,360.0M，对应 TTM 调整后 EBITDA 18.46 倍、TTM 市盈率 23.96 倍。重建的 30/40/30 网格（乐观 $605.82 / 中性 $427.59 / 悲观 $189.24）加权 $409.55，2.152 年年化 +6.7%，低于 8% 门槛；立场由偏多 / 低调整为中性观察 / 低，属价格驱动，已发布的下调腿均未触发。Q3 2026 收入 $2,184.8M（+55%）高于 $2,055–2,085M 指引上沿，安装量 +2%，Q4 指引 $2,365–2,395M。",
+    "summaryEn": "2026-11-06 — Mode B re-anchor: at the 2026-11-05 close of $356.10 (the first full session after the Q3 release) and the Q3 10-Q cover count of 331.322M shares, market capitalization is $117,983.8M and enterprise value $118,360.0M, or 18.46x TTM adjusted EBITDA and 23.96x TTM earnings. The rebuilt 30/40/30 grid (optimistic $605.82 / central $427.59 / pessimistic $189.24) weights to $409.55, +6.7% annualized over 2.152 years, below the 8% hurdle; the stance moves from constructive / low to neutral-watch / low on price, with no published downgrade leg tripped. Q3 2026 revenue of $2,184.8M (+55%) beat the top of $2,055-2,085M guidance, installs grew 2%, and Q4 guidance is $2,365-2,395M.",
     "tags": [
       "数字广告",
       "移动游戏",
@@ -12900,7 +12900,7 @@
     ],
     "category": "tech",
     "date": "2026-10-02",
-    "lastUpdate": "2026-11-05",
+    "lastUpdate": "2026-11-06",
     "coverageTier": "full",
     "file": "/invest/research/reports/view.html?id=applovin-2026",
     "markdownFiles": {
@@ -12908,23 +12908,22 @@
       "en": "/invest/research/AppLovin_Deep_Research_Report_2026-10.md"
     },
     "highlights": [
-      "Q3 2026（2026-11-04 发布）：收入 $2,184.8M（+55%），高于 $2,055–2,085M 指引；调整后 EBITDA $1,842M、利润率 84%",
-      "Q4 指引：收入 $2,365–2,395M，中值环比约 +8.9%（推算）；调整后 EBITDA 利润率 84–85%",
-      "增长结构：10-Q 单次安装净收入 +55%、安装量 +2%（Q2 为 +58%／-2%）",
-      "现金：自由现金流 $1,418.4M，约为调整后 EBITDA 的 77%（推算）；全年比例要到 Q4 才能定",
-      "电商：10-Q 没有消费品或电商收入拆分；电话会未读",
-      "诉讼：Brownback 驳回动议截至 10-Q 仍无裁决；2026 证券集体诉讼于 9-16 提起；Unity 争议未见于 10-Q 法律程序节",
-      "估值仍按 2026-10-01 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。"
+      "立场（2026-11-06 Mode B）：中性观察 / 低确信，由偏多 / 低调整；$356.10 下 30/40/30 网格加权 $409.55，年化 +6.7%，低于 8% 门槛",
+      "估值：市值 $117,983.8M、企业价值 $118,360.0M；EV/TTM 调整后 EBITDA 18.46 倍，TTM 市盈率 23.96 倍，FCF 收益率 4.13%",
+      "预期差：13 倍退出下获得 8% 需 2028 年前年均约 20.0% 收入增长，中性路径为 21.0%",
+      "Q3 2026：收入 $2,184.8M（+55%），比指引上沿高 4.8%；调整后 EBITDA $1,842.2M、利润率 84.3%；单次安装净收入 +55%、安装量 +2%",
+      "Q4 指引 $2,365–2,395M（中值环比 +8.9%）；Q3 纯回购 4.054M 股、$1,375.2M，授权增至约 $3.6B（授权非执行）",
+      "仍无游戏与消费品收入拆分；电话会口径来自第三方文字稿；Unity 临时禁令申请据报被驳回，新增 2026 派生诉讼，拟迁册 Nevada"
     ],
     "period": "2026H2",
     "versionType": "initial",
     "versionLabel": "2026H2 Initial Coverage",
     "moduleContract": "heading-comment-v1",
     "isCurrent": true,
-    "stance": "constructive",
+    "stance": "neutral-watch",
     "conviction": "low",
-    "priceAsOf": "2026-10-01",
-    "reportedPeriod": "Q3 2026 monitoring / 2026-10-01 valuation frame",
+    "priceAsOf": "2026-11-05",
+    "reportedPeriod": "Q3 2026 / 2026-11-05 valuation anchor",
     "monitoring": [
       {
         "id": "revenue-growth-vs-guide",
@@ -12935,18 +12934,18 @@
           "en": "Revenue growth versus guidance"
         },
         "trigger": {
-          "zh": "Q3 2026 收入低于 $2,055M 指引下限，或 Q4 指引中值隐含环比增长不足 +5%",
-          "en": "Q3 2026 revenue below the $2,055M low end of guidance, or a Q4 guide midpoint implying less than +5% q/q growth"
+          "zh": "下行：Q4 2026 收入低于 $2,365M 指引下沿，或 Q1 2027 指引中值隐含同比增长不足 +15%（低于约 $2,119M）；上行：Q4 2026 收入达到或超过 $2,395M 指引上沿，且 Q1 2027 指引中值隐含同比至少 +33%（约 $2,450M 或以上）。门槛按 Q1 占全年 22.1% 套用网格各情景 FY2027 得出（悲观约 +7.8%、中性 +24.0%、乐观 +33.0%）；上行腿未作指引折让，比乐观路径更严",
+          "en": "Downside: Q4 2026 revenue below the $2,365M low end of guidance, or a Q1 2027 guide midpoint implying less than +15% year-over-year growth (below about $2,119M); upside: Q4 2026 revenue at or above the $2,395M top of guidance and a Q1 2027 guide midpoint implying at least +33% year over year (about $2,450M or more). Thresholds come from applying Q1's 22.1% share of the year to each grid scenario's FY2027 (pessimistic about +7.8%, central +24.0%, optimistic +33.0%); the upside leg takes no guidance allowance, so it is stricter than the optimistic path"
         },
         "latest": {
           "zh": "2026-11-04 Q3 2026：收入 $2,184.8M（同比 +55%、环比约 +13.6%，推算），高于 $2,055–2,085M 指引上沿。Q4 指引 $2,365–2,395M，中值 $2,380M 隐含环比约 +8.9%（推算）。",
           "en": "2026-11-04 Q3 2026: revenue was $2,184.8M (+55% YoY, about +13.6% QoQ, derived), above the top of the $2,055-2,085M guidance. Q4 guidance is $2,365-2,395M; the $2,380M midpoint implies about +8.9% QoQ (derived)."
         },
-        "nextCheck": "Q3 2026 财报（2026 年 11 月上旬，估计） / Q3 2026 results (early November 2026, estimated)",
-        "nextCheckDate": "2026-11",
-        "reading": "within",
+        "nextCheck": "Q4 2026 财报（约 2027 年 2 月中旬，估计） / Q4 2026 results (about mid-February 2027, estimated)",
+        "nextCheckDate": "2027-02",
+        "reading": "unclear",
         "readingAsOf": "2026-11-04",
-        "readingNote": "收入高于下沿；Q4 指引中值隐含环比高于 +5%。两条腿都未触发。 / Revenue is above the low end and the Q4 midpoint implies more than +5% QoQ; neither leg fires."
+        "readingNote": "按改写后的触发条件读 unclear：Q4 实绩与 Q1 2027 指引两腿都要等 Q4 2026 发布。按已发布的 Q3 文字，2026-11-04 的读数为 within（收入高于 $2,055M 下沿，Q4 指引中值环比 +8.9% 高于 +5%）。触发条件于 2026-11-06 改写，Q1 腿改为同比以免被季节性触发，首次测量在 Q4 2026 发布时。 / Unclear under the rewritten trigger: both the Q4 actual and the Q1 2027 guide await the Q4 2026 release. Under the published Q3 text the 2026-11-04 reading was within (revenue above the $2,055M low end; the Q4 midpoint implies +8.9% q/q, above +5%). The trigger was rewritten on 2026-11-06, with the Q1 leg year over year so seasonality does not fire it; the first measurement is the Q4 2026 release."
       },
       {
         "id": "nrpi-vs-installs",
@@ -12964,8 +12963,8 @@
           "zh": "2026-11-04 Q3 10-Q MD&A：单次安装净收入 +55%，安装量 +2%（Q2 为 +58%／-2%）。前九个月单次安装净收入 +68%，安装量 -7%。",
           "en": "2026-11-04 Q3 10-Q MD&A: net revenue per installation +55% and installation volume +2% (Q2: +58% / -2%). For the nine months, net revenue per installation was +68% and installation volume -7%."
         },
-        "nextCheck": "Q3 2026 10-Q 管理层讨论与分析 / Q3 2026 10-Q MD&A",
-        "nextCheckDate": "2026-11",
+        "nextCheck": "FY2026 10-K 管理层讨论与分析 / FY2026 10-K MD&A",
+        "nextCheckDate": "2027-02",
         "reading": "within",
         "readingAsOf": "2026-11-04",
         "readingNote": "单次安装净收入远高于 +20%，当季安装量未下降。 / Net revenue per installation is well above +20% and quarterly installation volume did not decline."
@@ -12983,14 +12982,14 @@
           "en": "Adjusted EBITDA margin below 80% for two consecutive quarters"
         },
         "latest": {
-          "zh": "2026-11-04 Q3 2026：调整后 EBITDA $1,842M，利润率约 84%（Q2 为 83.9%）；Q4 指引 84–85%。",
-          "en": "2026-11-04 Q3 2026: adjusted EBITDA was $1,842M at about an 84% margin (Q2: 83.9%); Q4 guidance is 84-85%."
+          "zh": "2026-11-04 Q3 2026：调整后 EBITDA $1,842.2M，利润率 84.3%（Q2 为 83.9%）；Q4 指引 84–85%。数据中心成本 $194.6M，占收入 8.9%（Q2 为 9.4%）。",
+          "en": "2026-11-04 Q3 2026: adjusted EBITDA was $1,842.2M at an 84.3% margin (Q2: 83.9%); Q4 guidance is 84-85%. Datacenter costs were $194.6M, 8.9% of revenue (Q2: 9.4%)."
         },
-        "nextCheck": "Q3 2026 财报 / Q3 2026 results",
-        "nextCheckDate": "2026-11",
+        "nextCheck": "Q4 2026 财报 / Q4 2026 results",
+        "nextCheckDate": "2027-02",
         "reading": "within",
         "readingAsOf": "2026-11-04",
-        "readingNote": "连续两季高于 80%。 / Above 80% in both quarters."
+        "readingNote": "连续两季高于 80%；触发条件最早要到 Q1 2027 财报才可能成立。 / Above 80% in both quarters; the trigger cannot be met before Q1 2027 results."
       },
       {
         "id": "ecommerce-traction",
@@ -13005,14 +13004,14 @@
           "en": "Management describes consumer advertiser spend as down quarter over quarter, or there is still no quantitative consumer-revenue disclosure by the FY2026 10-K"
         },
         "latest": {
-          "zh": "2026-11-04 Q3 10-Q：只提到向游戏以外的垂直领域（如电商、CTV）扩展，没有消费品或电商收入拆分。公司发布的财务更新与电话会本包未读，因此未判断管理层是否描述消费品广告支出环比下降。",
-          "en": "2026-11-04 Q3 10-Q: the filing mentions expanding into verticals outside gaming such as e-commerce and CTV, with no consumer or e-commerce revenue split. The company financial update and earnings call were not read in this package, so whether management described consumer advertiser spend as down quarter over quarter is not determined."
+          "zh": "2026-11-04 Q3：CFO 称消费品广告主支出环比双位数、同比三位数增长；CEO 称游戏同比近 +50%（电话会，第三方文字稿，未与 IR 音频核对）。Q3 10-Q 与 3Q26 Financial Update 仍没有消费品或电商收入拆分。",
+          "en": "2026-11-04 Q3: the CFO said consumer advertiser spend grew double digits quarter over quarter and triple digits year over year; the CEO said gaming grew nearly 50% year over year (call, third-party transcript, not checked against the IR audio). The Q3 10-Q and the 3Q26 Financial Update still give no consumer or e-commerce revenue split."
         },
-        "nextCheck": "Q3 2026 电话会与 10-Q / Q3 2026 call and 10-Q",
-        "nextCheckDate": "2026-11",
+        "nextCheck": "Q4 2026 电话会与 FY2026 10-K / Q4 2026 call and FY2026 10-K",
+        "nextCheckDate": "2027-02",
         "reading": "unclear",
         "readingAsOf": "2026-11-04",
-        "readingNote": "电话会未读；10-K 截止点未到。 / The call was not read and the FY2026 10-K deadline has not arrived."
+        "readingNote": "第一腿未触发（消费品支出环比增长，仅第三方文字稿）；第二腿要到 FY2026 10-K 才到期，增速不算收入披露。 / The first leg does not fire (consumer spend grew q/q, third-party transcript only); the second leg is not due until the FY2026 10-K, and growth rates are not a revenue disclosure."
       },
       {
         "id": "fcf-conversion",
@@ -13027,11 +13026,11 @@
           "en": "FY2026 free cash flow below 70% of adjusted EBITDA"
         },
         "latest": {
-          "zh": "2026-11-04 Q3 2026：自由现金流 $1,418.4M，约为调整后 EBITDA 的 77%（推算）。前九个月经营现金流 $3,589.3M，约为调整后 EBITDA $5,013M 的 71.6%（推算；经营现金流不是自由现金流）。 10-Q 同口径前九个月自由现金流 $3,568.508M（扣除设备购买与融资租赁本金），占调整后 EBITDA $5,013M 的 71.2%（推算）。",
-          "en": "2026-11-04 Q3 2026: free cash flow was $1,418.4M, about 77% of adjusted EBITDA (derived). Nine-month operating cash flow was $3,589.3M, about 71.6% of adjusted EBITDA of $5,013M (derived; operating cash flow is not free cash flow). The 10-Q reports nine-month free cash flow of $3,568.508M after equipment purchases and finance-lease principal payments, or 71.2% of adjusted EBITDA of $5,013M (derived)."
+          "zh": "2026-11-04 Q3 2026：自由现金流 $1,418.4M，为调整后 EBITDA 的 77.0%；前九个月 $3,568.5M，为 71.2%（推算）。全年守住 70% 需 Q4 自由现金流至少 $1,347.6M。CFO 称 FY2026 约 70%–75%（电话会，第三方文字稿）。",
+          "en": "2026-11-04 Q3 2026: free cash flow was $1,418.4M, 77.0% of adjusted EBITDA; nine months $3,568.5M, 71.2% (derived). Holding 70% for the year needs Q4 free cash flow of at least $1,347.6M. The CFO said roughly 70%-75% for FY2026 (call, third-party transcript)."
         },
-        "nextCheck": "Q3 2026 与 FY2026 现金流量表 / Q3 2026 and FY2026 cash-flow statements",
-        "nextCheckDate": "2026-11",
+        "nextCheck": "FY2026 现金流量表 / FY2026 cash-flow statement",
+        "nextCheckDate": "2027-02",
         "reading": "unclear",
         "readingAsOf": "2026-11-04",
         "readingNote": "trigger 按 FY2026 全年，Q4 未出。 / The trigger is on full-year FY2026, and Q4 has not been reported."
@@ -13045,18 +13044,18 @@
           "en": "Securities litigation and the Unity dispute"
         },
         "trigger": {
-          "zh": "Brownback 挺过驳回动议，或 Unity 争议中的裁决或反诉限制 MAX 数据使用，或出现任何监管执法行动",
-          "en": "Brownback survives the motion to dismiss, or a ruling or counter-claim in the Unity dispute restricts the use of MAX data, or any regulator enforcement action"
+          "zh": "Brownback 挺过驳回动议，或 Unity 争议中的裁决或反诉限制 AppLovin 使用 MAX 数据，或出现任何监管执法行动",
+          "en": "Brownback survives the motion to dismiss, or a ruling or counter-claim in the Unity dispute restricts AppLovin's use of MAX data, or any regulator enforcement action"
         },
         "latest": {
-          "zh": "2026-11-04 Q3 10-Q：2025 证券诉讼（Brownback）的驳回动议自 2026 年 2 月已完成书面陈述，未报告裁决；2026-09-16 Stephen Talbot 提起 2026 证券集体诉讼（集体期间 2026-02-12 至 2026-08-05）。法律程序节未提 Unity 争议，也未列出具体的监管执法行动；此处只说明所读章节内容，不等于这些事项不存在。",
-          "en": "2026-11-04 Q3 10-Q: the motion to dismiss in the 2025 securities litigation (Brownback) has been fully briefed since February 2026, with no ruling reported; on 2026-09-16 Stephen Talbot filed the 2026 securities class action (class period 2026-02-12 to 2026-08-05). The legal-proceedings section does not discuss the Unity dispute or list a specific regulator enforcement action; this describes the section read and does not establish that such matters do not exist."
+          "zh": "2026-11-04 Q3 10-Q：Brownback 驳回动议仍未报告裁决；2026 证券集体诉讼由 Stephen Talbot 于 2026-09-16 提起；2026-10-07 新增 Amit Patel 派生诉讼；监管只有泛称的「governmental and other regulatory investigations」，未列具体执法行动；法律程序节未提 Unity。二手报道称 AppLovin 的临时禁令申请约于 2026-10-02 被驳回（只涉临时救济，未见书面裁定），这意味着 Unity 未被临时禁止，不限制 AppLovin 使用 MAX 数据。",
+          "en": "2026-11-04 Q3 10-Q: still no ruling reported on the Brownback motion to dismiss; the 2026 securities class action was filed by Stephen Talbot on 2026-09-16; a new derivative suit by Amit Patel followed on 2026-10-07; regulators appear only as generic \"governmental and other regulatory investigations\" with no specific enforcement action; the legal section does not mention Unity. Secondary reports say AppLovin's TRO application was denied around 2026-10-02 (temporary relief only; no written order seen), which leaves Unity not temporarily enjoined and does not restrict AppLovin's use of MAX data."
         },
-        "nextCheck": "法院案卷与 Q3 2026 10-Q / Court dockets and the Q3 2026 10-Q",
+        "nextCheck": "法院案卷、2026-11-16 后的首席原告指定与 FY2026 10-K / Court dockets, the lead-plaintiff appointment after 2026-11-16, and the FY2026 10-K",
         "nextCheckDate": "2026-11",
         "reading": "unclear",
         "readingAsOf": "2026-11-04",
-        "readingNote": "Brownback 腿未裁决；Unity 与监管腿未被所读文件覆盖。 / The Brownback leg is undecided; the read filing does not cover the Unity and regulator legs."
+        "readingNote": "Brownback 未裁决；Unity 临时禁令被驳回不触发该腿，但仲裁与反诉未知；监管腿未观测到具体行动。有腿未观测，读 unclear。 / Brownback is undecided; the Unity TRO denial does not fire the leg, but arbitration and any counter-claim are unknown; no specific regulator action is observed. With legs unobserved, the reading is unclear."
       },
       {
         "id": "platform-policy",
@@ -13071,31 +13070,56 @@
           "en": "An Apple or Google policy or enforcement change affecting AppLovin's SDK, attribution or data use that the company describes as material"
         },
         "latest": {
-          "zh": "2026 年未发现影响 APP 的应用内或 IDFA 变更；iOS 27（2026-09-14）只在 Safari 屏蔽部分广告技术域名；10-Q 称公司「in part on IDFA」，并依赖其中「some of which are direct competitors」的平台；Android 政策未深入检索",
-          "en": "No in-app or IDFA change affecting APP found in 2026; iOS 27 (2026-09-14) blocks some ad-tech domains in Safari only; the 10-Q says the company relies \"in part on IDFA\" and on platforms \"some of which are direct competitors\"; Android policy not searched in depth"
+          "zh": "2026-11-04：Q3 10-Q 风险因素与 Q2 相比未见新的 Apple 或 Google 事件，仍称历史影响较温和；Q3 电话会管理层未提及两家平台（第三方文字稿）；iOS 27（2026-09-14）只在 Safari 屏蔽部分广告技术域名；Android 政策未深入检索",
+          "en": "2026-11-04: the Q3 10-Q risk factors show no new Apple or Google event against Q2 and still describe past impacts as modest; management did not mention either platform on the Q3 call (third-party transcript); iOS 27 (2026-09-14) blocks some ad-tech domains in Safari only; Android policy not searched in depth"
         },
         "nextCheck": "Apple 与 Google 开发者政策更新（持续） / Apple and Google developer-policy updates (continuous)",
-        "nextCheckDate": "2026-11"
+        "nextCheckDate": "2026-11",
+        "reading": "unclear",
+        "readingAsOf": "2026-11-04",
+        "readingNote": "首次评级：所读公司文件没有描述此类变化，但 Android 未深入检索，未发现不是阴性结论。 / First graded reading: no company document read describes such a change, but Android was not searched in depth, so not finding one is not a negative finding."
+      },
+      {
+        "id": "valuation-hurdle",
+        "thesis": "either",
+        "theme": "valuation",
+        "metric": {
+          "zh": "估值回报门槛",
+          "en": "Valuation return hurdle"
+        },
+        "trigger": {
+          "zh": "经营输入未变时，连续十个收盘价不高于约 $322（加权回报 12% 或以上）触发上调复核，连续十个收盘价高于约 $410（加权回报低于零）触发下调复核；每次都重算网格",
+          "en": "With operating inputs unchanged, ten consecutive closes at or below about $322 (weighted return 12% or more) prompt an upgrade review, and ten consecutive closes above about $410 (weighted return below zero) prompt a downgrade review; the grid is recomputed each time"
+        },
+        "latest": {
+          "zh": "2026-11-05 收盘 $356.10：30/40/30 网格加权 $409.55，年化 +6.7%；8% 盈亏平衡价 $347.32，10% 为 $334.29，12% 为 $321.96，0% 为 $407.76",
+          "en": "2026-11-05 close of $356.10: the 30/40/30 grid weights to $409.55, +6.7% annualized; the 8% break-even is $347.32, 10% $334.29, 12% $321.96 and 0% $407.76"
+        },
+        "nextCheck": "股价大幅变动或 Q4 2026 发布时 / On a material price move or the Q4 2026 release",
+        "nextCheckDate": "2027-02",
+        "reading": "within",
+        "readingAsOf": "2026-11-05",
+        "readingNote": "2026-11-06 新增，首次测量：$356.10 介于 $322 与 $410 之间。 / New on 2026-11-06, first measurement: $356.10 sits between $322 and $410."
       }
     ],
     "stanceRationale": {
-      "zh": "以 2026-10-01 收盘 $281.31、334.651M 股计市值 $94,140.7M、企业价值 $94,637.4M，对应 TTM 调整后 EBITDA 16.52 倍、TTM 市盈率 21.62 倍、FY2026E EBITDA 约 13.97 倍。决定立场的是加权预期回报：30% 牛市 / 40% 基准 / 30% 熊市（FY2028 收入 $13,663M / $11,852M / $8,586M，EBITDA 利润率 82% / 81% / 76%，退出 EV/EBITDA 16x / 13x / 8x，退出股数 318.6M / 317.5M / 315.5M）加权每股价值 $392.41，较 $281.31 为 +39.5%，2.248 年（2026-10-02 至 2028-12-31，821 天）年化 +16.0%，高于 8% 门槛 8.0 个百分点；牛市 +107.1% 对熊市 −36.7%，偏斜为正。反推在 13 倍退出下，获得 8% 门槛回报只需 2026-2028 年约 9.7% 的收入复合增速（保本约 0.8%），本报告基准为 21.0%。确信度为低而非中，因为正偏斜对倍数敏感：退出倍数整体下调 3 倍降至 +3.8%，增长放缓（基准 2027 年 +12%）降至 +7.1%，两者叠加 −4.1%；增长驱动（模型迭代节奏、电商收入）没有披露；平台执法、Unity 争议与两起证券集体诉讼的尾部风险不在网格内。这是在年初至今 −58.25% 之后的估值与偏斜判断，不是对减速、竞争与内部人卖出证据的否认。",
-      "en": "At the 2026-10-01 close of $281.31 on 334.651M shares, market capitalization is $94,140.7M and enterprise value $94,637.4M, or 16.52x TTM adjusted EBITDA, 21.62x TTM earnings and about 13.97x FY2026E EBITDA. What settles the stance is the probability-weighted expected return: weighting 30% bull / 40% base / 30% bear (FY2028 revenue of $13,663M / $11,852M / $8,586M, EBITDA margins of 82% / 81% / 76%, exit EV/EBITDA of 16x / 13x / 8x, exit share counts of 318.6M / 317.5M / 315.5M) gives a weighted value of $392.41 per share, +39.5% against $281.31, or +16.0% annualized over 2.248 years (2026-10-02 to 2028-12-31, 821 days) - 8.0 points above the 8% hurdle, with a positive skew of +107.1% in the bull case against −36.7% in the bear case. Working backwards, at a 13x exit, earning the 8% hurdle requires only about 9.7% annual revenue growth over 2026-2028 (about 0.8% to break even), against a 21.0% base case. Conviction is low rather than medium because the positive skew is multiple-fragile: cutting all exit multiples by three turns drops it to +3.8%, slower growth (+12% base-case 2027) to +7.1%, and both together to −4.1%; the growth drivers (model-release cadence, e-commerce revenue) are undisclosed; and the platform-enforcement, Unity-dispute and securities-litigation tails sit outside the grid. This is a valuation-and-skew judgment made after a 58.25% year-to-date decline, not a denial of the evidence of deceleration, competition and insider selling."
+      "zh": "以 2026-11-05 收盘 $356.10（Q3 发布后首个完整交易时段）、331.322M 股（Q3 10-Q 封面）计市值 $117,983.8M、企业价值 $118,360.0M，对应 TTM 调整后 EBITDA 18.46 倍、TTM 市盈率 23.96 倍、FY2026E 调整后 EBITDA 16.85 倍。决定立场的是加权预期回报：重建的 30% 乐观 / 40% 中性 / 30% 悲观网格（FY2028 收入 $14,067M / $12,190M / $8,981M，EBITDA 利润率 82% / 81% / 76%，退出 EV/EBITDA 16x / 13x / 8x，回购价取现价与退出价值的中点）给出每股 $605.82 / $427.59 / $189.24，加权 $409.55，较 $356.10 为 +15.0%，2.152 年（2026-11-06 至 2028-12-31，786 天）年化 +6.7%，低于 8% 门槛 1.3 个百分点；中性情景单独年化 +8.9%，乐观 +70.1% 对悲观 −46.9%（至 2028 年累计），偏斜平衡。反推在 13 倍退出下获得 8% 需 2028 年前年均约 20.0% 的收入增长，中性路径为 21.0%：价格要求的大致就是中性情景。不是偏多，因为加权回报过不了门槛（本书偏多报告的加权年化在 +12.7% 至 +14.2%）；不是谨慎，因为加权价值仍高于股价、偏斜未转负（谨慎报告在 +5.5% 及以下）。确信度为低：退出倍数 −3 倍降至 −4.5%，增长放缓 −1.5%，20/40/40 权重 +1.5%，而从悲观挪 5 个百分点到乐观（35/40/25）即为 +9.2%，所以这一标签建立在守住 30% 悲观权重之上；收入拆分与模型节奏不披露，电话会口径来自第三方文字稿；平台、Unity 与诉讼尾部风险不在网格内。这是现价政策下由价格驱动的重推：Q3 收入高于指引上沿 4.8%、安装量转正，已发布的下调腿一条都没有触发，但股价上涨 26.6% 而加权价值只上升 4.4%。",
+      "en": "At the 2026-11-05 close of $356.10 (the first full session after the Q3 release) on 331.322M shares (Q3 10-Q cover), market capitalization is $117,983.8M and enterprise value $118,360.0M, or 18.46x TTM adjusted EBITDA, 23.96x TTM earnings and 16.85x FY2026E adjusted EBITDA. What settles the stance is the probability-weighted expected return: the rebuilt 30% optimistic / 40% central / 30% pessimistic grid (FY2028 revenue of $14,067M / $12,190M / $8,981M, EBITDA margins of 82% / 81% / 76%, exit EV/EBITDA of 16x / 13x / 8x, buybacks at the midpoint of the price and the exit value) gives $605.82 / $427.59 / $189.24 per share, weighting to $409.55, +15.0% against $356.10, or +6.7% annualized over 2.152 years (2026-11-06 to 2028-12-31, 786 days), 1.3 points below the 8% hurdle; the central case alone returns +8.9% a year, and +70.1% optimistic against −46.9% pessimistic (cumulative to 2028) is a balanced skew. Working backwards, at a 13x exit the 8% hurdle needs about 20.0% annual revenue growth through 2028 against a 21.0% central path: the price asks for roughly the central case. Not constructive, because the weighted return does not clear the hurdle (constructive reports in this book state +12.7% to +14.2%); not cautious, because the weighted value is still above the price and the skew has not turned negative (cautious reports state +5.5% and below). Conviction is low: cutting exit multiples by three turns gives −4.5%, slower growth −1.5% and a 20/40/40 weighting +1.5%, while moving five points of weight from pessimistic to optimistic (35/40/25) gives +9.2%, so the label rests on holding the 30% pessimistic weight; the revenue split and model cadence are undisclosed and call statements come from a third-party transcript; the platform, Unity and litigation tails sit outside the grid. This is a price-driven re-derivation under the current-price policy: Q3 beat the top of guidance by 4.8% and installs turned positive, and no published downgrade leg tripped, but the price rose 26.6% while the weighted value rose 4.4%."
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "若 Q3 2026 收入达到或超过 $2,085M 指引上限、Q4 指引中值隐含环比至少 +10%，公司披露量化的消费品或电商收入指标且显示占收入至少 10%，并且 Brownback 被驳回或 Unity 争议在不限制 MAX 数据的前提下解决，则上调至 bullish。",
-        "en": "Move to bullish if Q3 2026 revenue reaches or exceeds the $2,085M top of guidance, the Q4 guide midpoint implies at least +10% q/q, the company discloses a quantitative consumer or e-commerce revenue metric showing at least 10% of revenue, and Brownback is dismissed or the Unity dispute is resolved without restricting MAX data.",
+        "zh": "若经营输入未恶化而连续十个收盘价不高于约 $322（在 $321.96 重建网格年化 12%），则上调至 constructive；若 Q4 2026 收入达到或超过 $2,395M 指引上沿且 Q1 2027 指引中值隐含同比至少 +33%（约 $2,450M 或以上，即乐观路径），则重算网格并复核上调，只有重建后的网格年化达到 12% 或以上才上调至 constructive。",
+        "en": "Move to constructive if there are ten consecutive closes at or below about $322 without a deterioration in the operating inputs (at $321.96 the rebuilt grid returns 12% annualized); or review an upgrade, with the grid recomputed, if Q4 2026 revenue reaches or exceeds the $2,395M top of guidance and the Q1 2027 guide midpoint implies at least +33% year over year (about $2,450M or more, the optimistic path), upgrading only if the rebuilt grid returns 12% annualized or more.",
         "monitoringIds": [
-          "revenue-growth-vs-guide",
-          "ecommerce-traction",
-          "litigation-unity-dispute"
+          "valuation-hurdle",
+          "revenue-growth-vs-guide"
         ]
       },
       "downgrade": {
-        "zh": "若 Q3 2026 收入低于 $2,055M 指引下限或 Q4 指引中值隐含环比不足 +5%；或调整后 EBITDA 利润率连续两个季度低于 80%；或 NRPI 同比增速低于 +20% 且安装量仍在下降；或 Apple / Google 出台公司称为重大的平台政策或执法行动；或出现限制 MAX 数据使用的裁决或反诉；或监管机构对公司采取执法行动，则下调至 neutral-watch。",
-        "en": "Move to neutral-watch if Q3 2026 revenue falls below the $2,055M low end of guidance or the Q4 guide midpoint implies less than +5% q/q; or the adjusted EBITDA margin is below 80% for two consecutive quarters; or NRPI growth falls below +20% year over year while install volume is still declining; or Apple or Google takes a platform-policy or enforcement action the company describes as material; or a ruling or counter-claim restricts the use of MAX data; or a regulator brings an enforcement action against the company.",
+        "zh": "若经营输入未提高而连续十个收盘价高于约 $410（高于约 $407.76 时加权回报为负；加权价值为 $409.55）；或 Q4 2026 收入低于 $2,365M 指引下沿，或 Q1 2027 指引中值隐含同比不足 +15%（低于约 $2,119M）；或调整后 EBITDA 利润率连续两个季度低于 80%；或 NRPI 同比增速低于 +20% 且安装量同比下降；或 Apple / Google 出台公司称为重大的平台政策或执法行动；或出现限制 AppLovin 使用 MAX 数据的裁决或反诉；或监管机构对公司采取执法行动，则下调至 cautious。",
+        "en": "Move to cautious if there are ten consecutive closes above about $410 without higher operating inputs (above about $407.76 the weighted return is negative; the weighted value is $409.55); or Q4 2026 revenue falls below the $2,365M low end of guidance, or the Q1 2027 guide midpoint implies less than +15% year over year (below about $2,119M); or the adjusted EBITDA margin is below 80% for two consecutive quarters; or NRPI growth falls below +20% year over year while install volume declines year over year; or Apple or Google takes a platform-policy or enforcement action the company describes as material; or a ruling or counter-claim restricts AppLovin's use of MAX data; or a regulator brings an enforcement action against the company.",
         "monitoringIds": [
+          "valuation-hurdle",
           "revenue-growth-vs-guide",
           "ebitda-margin-spread",
           "nrpi-vs-installs",
@@ -13113,6 +13137,16 @@
         "note": {
           "zh": "首次覆盖裁定。30/40/30 情景网格加权每股价值 $392.41，2.248 年年化 +16.0%，高于 8% 门槛 8.0 个百分点；但退出倍数整体下调 3 倍即降至 +3.8%、增长放缓降至 +7.1%，正偏斜对倍数敏感，故确信度为低。",
           "en": "Initiation ruling. The 30/40/30 scenario grid weights to $392.41 per share, or +16.0% annualized over 2.248 years, 8.0 points above the 8% hurdle; but cutting all exit multiples by three turns drops it to +3.8% and slower growth to +7.1%, so the positive skew is multiple-fragile and conviction is low."
+        }
+      },
+      {
+        "date": "2026-11-06",
+        "stance": "neutral-watch",
+        "conviction": "low",
+        "price": 356.1,
+        "note": {
+          "zh": "Mode B 重裁（Q3 2026 后），现价政策下由价格驱动：已发布的下调腿一条都没有触发（Q3 收入 $2,184.8M 高于 $2,055M；Q4 指引中值环比 +8.9%；利润率 83.9% 与 84.3%；NRPI +55%、安装量 +2%）。2026-10-02 的偏多区间按 $356.10 以 +26.6% 收口（非链内，不进 verdict 账本计分）。重建的 30/40/30 网格加权 $409.55，2.152 年年化 +6.7%，低于 8% 门槛；中性情景年化 +8.9%，乐观 +70.1% 对悲观 −46.9%（至 2028 年累计），偏斜平衡，故为中性观察；主要敏感性全部低于 8% 门槛、其中两项转负，确信度为低。权重经评估未调整：Q3 降低的近期风险已体现在输入里，没有证据表明 2027 年停滞的概率下降。",
+          "en": "Mode B re-adjudication after Q3 2026, price-driven under the current-price policy: no published downgrade leg tripped (Q3 revenue $2,184.8M above $2,055M; Q4 guide midpoint +8.9% q/q; margins 83.9% and 84.3%; NRPI +55% with installs +2%). The 2026-10-02 constructive interval closes at +26.6% at $356.10 (non-chain, not scored in the verdict ledger). The rebuilt 30/40/30 grid weights to $409.55, +6.7% annualized over 2.152 years, below the 8% hurdle; the central case is +8.9% a year and +70.1% optimistic against −46.9% pessimistic (cumulative to 2028) is a balanced skew, hence neutral-watch; every main sensitivity falls below the 8% hurdle and two turn negative, so conviction is low. Weights were evaluated and left unchanged: the near-term risk Q3 reduced is already in the inputs, and nothing shows the probability of a 2027 stall fell."
         }
       }
     ]
