@@ -3945,5 +3945,30 @@
       "alab-2026:customer-concentration",
       "alab-2026:customer-warrant-contra-revenue"
     ]
+  },
+  {
+    "id": "aaoi-q3-2026-results-20261105",
+    "date": "2026-11-05",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "AAOI Q3 收入 $269.9M 落在指引内，非 GAAP 毛利率 28.7% 低于指引；季后完成第三轮 ATM",
+      "en": "AAOI Q3 revenue of $269.9M lands inside the guide, non-GAAP gross margin of 28.7% falls below it; third ATM completed after the quarter"
+    },
+    "detail": {
+      "zh": "来源：Applied Optoelectronics 2026-11-05 8-K Ex 99.1（0001683168-26-008351）与 10-Q（0001437749-26-035282）。Q3 2026（季度截至 2026-09-30；8-K Ex 99.1 与 10-Q，2026-11-05 盘后）收入 $269.9M（Q2 $191.9M、上年同期 $118.6M），落在 $255–290M 指引内；数据中心 $155.6M、CATV $110.9M。GAAP／非 GAAP 毛利率 28.2%／28.7%，非 GAAP 低于 29%–30.5% 指引区间；GAAP 净利润 $6.3M。Q4 2026 指引：收入 $385–420M、非 GAAP 毛利率 29.5%–31%。九个月经营现金流 −$76.653M，减去 H1 的 −$73.781M，得 Q3 单季约 −$2.9M（推算）；九个月购置固定资产 $702.1M。10-Q 期后事项：第三轮 ATM 于 2026-10-01 完成（约 570 万股、均价 $105.36、净约 $588M）；2026-10-30 签 $200M East West Bank 信贷并终止 BOKF 额度；与一家大型超大规模数据中心客户签 3 年长期协议（附条件地在 2026 年 6 月至 2029 年 5 月采购部分 1.6T 产品的 10%，AAOI 承诺最高价格）；2026-11-02 签五年关键原材料供应框架（年度合同最高约 $194.4M、预付款最高 $40.0M）。公司现预计 2026 年底 800G／1.6T 设备产能超过每月 50 万只（Q2 时称约 65 万只），并称美国 2027 扩产因取得电力时间较长将延后。 证据边界：Q3 单季现金流与 Digicomm 单季收入为推算；产能为公司所称设备产能；长期协议客户未具名、采购量附条件；电话会未读。 复核边界：800g-ramp 不明（11 月陈述未给 Q3 投运日），customer-concentration 不明（收入/应收集中度不证明订单节奏）；cash-burn-dilution 阈内。",
+      "en": "Source: Applied Optoelectronics 8-K Ex 99.1 (0001683168-26-008351) and 10-Q (0001437749-26-035282), 2026-11-05. Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1 and 10-Q, after the close on 2026-11-05) revenue was $269.9M (Q2 $191.9M; Q3 2025 $118.6M), inside the $255-290M guide; datacenter $155.6M, CATV $110.9M. GAAP / non-GAAP gross margin 28.2% / 28.7%, the non-GAAP figure below the 29%-30.5% guide range; GAAP net income $6.3M. Q4 2026 guide: revenue $385-420M at a 29.5%-31% non-GAAP gross margin. Nine-month operating cash flow was -$76.653M against -$73.781M for H1, so derived Q3 operating cash flow is about -$2.9M; nine-month purchases of property, plant and equipment were $702.1M. Subsequent events in the 10-Q: the third ATM was completed on 2026-10-01 (about 5.7M shares at a $105.36 average, about $588M net); a $200M East West Bank credit agreement was signed on 2026-10-30, replacing the BOKF facility; a three-year long-term agreement with a major hyperscale datacenter customer obliges that customer, with conditions, to buy 10% of certain 1.6T transceiver products from June 2026 to May 2029, with AAOI agreeing to maximum price levels; and a five-year supply framework for a key raw material was signed on 2026-11-02 (annual contract up to about $194.4M, prepayments up to $40.0M). The company now expects more than 500,000 pieces per month of 800G and 1.6T equipment capacity by the end of 2026 (about 650,000 stated at Q2) and says its US 2027 expansion will take longer because obtaining electrical power is taking longer than expected. Evidence limits: single-quarter cash flow and Digicomm Q3 revenue are derived; capacity is the issuer's stated equipment capacity; the LTA customer is unnamed and its volumes are conditional; the earnings call was not read. Review limits: 800g-ramp is unclear because the November statement gives no Q3 commissioning date; customer-concentration is unclear because revenue/receivables concentration does not establish order cadence; cash-burn-dilution is within."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "AAOI"
+    ],
+    "reportIds": [
+      "aaoi-2026"
+    ],
+    "monitoringRefs": [
+      "aaoi-2026:800g-ramp",
+      "aaoi-2026:cash-burn-dilution",
+      "aaoi-2026:customer-concentration"
+    ]
   }
 ]
