@@ -10514,8 +10514,8 @@
     },
     "title": "MP Materials 深度研究报告 - 稀土磁材对 AI 基建的约束检验与政府托底的真实代价",
     "titleEn": "MP Materials Deep Research Report - Rare-Earth Magnets as an AI-Buildout Constraint, and What the Government Floor Actually Cost",
-    "summary": "AI 基础设施书 resources 层的第二份公共约束覆盖，检验的候选约束是钕铁硼永磁材料，结论同样是否定的：按 MP 自己的备案文件，「data center」一词在 2025 财年 10-K 与 2026 Q1 10-Q 中各出现 0 次，「artificial intelligence」在 10-K 中出现两次——一次是「physical artificial intelligence and robotics」，一次是网络安全风险因素；MP 自己点名的 AI 是具身 AI 与机器人，已具名的需求关系是通用汽车（汽车）、苹果（消费电子）与 DoW（国防），10X 工厂的全部磁体在合同上归 DoW。公司层面最被误读的是 DoW 安排：2025-07-09 的对价分摊表显示 MP 收到 5.500 亿美元现金加一项计量为 2.186 亿美元的价格下限权利，交出的证券计量为 7.686 亿美元——这份 110 美元/公斤的下限是买来的，不是赠款，且正以每季约 1,120 万美元通过折旧摊销回冲。剥掉这笔支付，Materials 分部在下限生效后的头三个期间都是负的调整后 EBITDA（2026 Q1 −550 万、2025 Q4 −1,080 万、2025 全年 −3,420 万美元），2026 Q2 则首次转正为 +1,490 万美元；截至 2026-03-31 的追溯十二个月合并调整后 EBITDA 由 5,070 万变为 −4,260 万美元。10X 在合同上是成本加成：DoW 保证每年至少 1.40 亿美元 EBITDA、并按 2% 上调，但超额部分的头 3,000 万美元归 DoW、此后再对半分——下行被移除，上行也被削掉。以 2026-07-30 收盘 41.66 美元为锚（较 2025 年 10 月高点 −57.8%，较前一日低点 +9.3%），市值约 74.2 亿美元、企业价值约 71.9 亿美元，约 28.3 倍追溯收入、20.7 倍收入加下限收入、141.8 倍追溯调整后 EBITDA，无盈利、无股息。30% 牛市 / 40% 基准 / 30% 熊市对称网格，首次覆盖立场中性观察 / 中确信。",
-    "summaryEn": "The second common-constraint coverage in the AI-infrastructure book's resources layer. The candidate constraint is NdFeB permanent magnets and the reading is again negative: on MP's own filings, the phrase 'data center' appears zero times in both the FY2025 10-K and the Q1 2026 10-Q, and 'artificial intelligence' appears twice in the 10-K - once as 'physical artificial intelligence and robotics', once as a cybersecurity risk factor. The AI MP itself names is embodied AI and robotics; its named demand relationships are General Motors (automotive), Apple (consumer devices) and the Department of War (defense), and 100% of the 10X facility's magnets are contracted to the DoW. At the company level the most misread item is the DoW arrangement itself: the 2025-07-09 allocation table shows MP receiving US$550.0M of cash plus a price-floor right measured at US$218.6M against securities it issued measured at US$768.6M - the US$110/kg floor was purchased, not granted, and is being amortized back through D&A at about US$11.2M a quarter. Strip that payment out and the Materials segment produced negative adjusted EBITDA in the first three periods after the floor began (-US$5.5M in Q1 2026, -US$10.8M in Q4 2025, -US$34.2M in FY2025), turning positive for the first time at +US$14.9M in Q2 2026; consolidated adjusted EBITDA for the twelve months ended 2026-03-31 falls from US$50.7M to -US$42.6M. The 10X facility is contractually cost-plus: the DoW guarantees at least US$140M of annual EBITDA escalating at 2%, but takes the first US$30M of any excess and half of everything beyond - the downside is removed and the upside is clipped by the same counterparty. Anchored to the 2026-07-30 close of US$41.66 (57.8% below the October 2025 high, 9.3% above a low set the previous session), market cap is about US$7.42B and enterprise value about US$7.19B, at roughly 28.3x trailing revenue, 20.7x revenue plus floor income and 141.8x trailing adjusted EBITDA, with no earnings and no dividend. A symmetric 30% bull / 40% base / 30% bear grid opens the initiation at neutral-watch / medium conviction.",
+    "summary": "2026-11-06 — Q3 2026（季度截至 2026-09-30；8-K Ex 99.1 业绩稿，2026-11-05 盘后；10-Q 尚未提交）收入 $147.7M（同比 +176%）另加价格保护协议（PPA）收入 $8.1M（Q2 为 $17.58M）；NdPr 产量 1,018 吨（+41%）、销量 1,020 吨（+94%）。Materials 分部收入 $133.5M（含向一家美国航空航天与国防客户出售 SEG+ 的 $31.6M；分部收入合计需抵销内部交易 $4.507M 才得到合并收入）、分部调整后 EBITDA $47.8M，扣除 PPA 约 $39.7M（推算）；Magnetics 分部收入 $18.6M（全部为磁材前驱体）、分部调整后 EBITDA $5.3M。合并调整后 EBITDA $41.1M，净亏损 $20.7M。9-30 现金及短期投资 $1,337.9M、长期债务 $936.3M；九个月经营现金流 −$7.8M、购置固定资产 $420.3M。公司称已完成 GM 磁体认证，可销售磁体交付与收入从第四季度开始。 估值与立场仍按 2026-07-30 历史基础；Q3 实绩待 Mode B 重算，价格、估值数字、立场和确信度本包未更新。",
+    "summaryEn": "2026-11-06 — Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1 results release, after the close on 2026-11-05; the evidence reviewed here is the results release, not a Q3 10-Q) revenue was $147.7M (+176% YoY) plus $8.1M of price protection agreement (PPA) income (Q2: $17.58M); NdPr production was 1,018 MT (+41%) and NdPr sales 1,020 MT (+94%). Materials segment revenue was $133.5M (including a $31.6M sale of SEG+ to a US aerospace and defense customer; segment revenue totals require $4.507M of intercompany eliminations to reconcile to consolidated revenue) with segment adjusted EBITDA of $47.8M, about $39.7M excluding PPA (derived); Magnetics segment revenue was $18.6M, all magnetic precursor products, with segment adjusted EBITDA of $5.3M. Consolidated adjusted EBITDA was $41.1M and net loss $20.7M. At 9-30 cash and short-term investments were $1,337.9M and long-term debt $936.3M; nine-month operating cash flow was -$7.8M and purchases of property, plant and equipment $420.3M. The company says it completed GM magnet qualification, with saleable magnet deliveries and revenue beginning in the fourth quarter. Valuation and stance remain on the 2026-07-30 historical basis; Q3 actuals await Mode B recomputation, and price, valuation figures, stance and conviction are not updated in this package.",
     "tags": [
       "稀土",
       "永磁材料",
@@ -10525,7 +10525,7 @@
     ],
     "category": "energy",
     "date": "2026-07-31",
-    "lastUpdate": "2026-08-09",
+    "lastUpdate": "2026-11-06",
     "file": "/invest/research/reports/view.html?id=mp-2026",
     "markdownFiles": {
       "zh": "/invest/research/MP_Materials_深度研究报告_2026-07.md",
@@ -10535,11 +10535,11 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "AI 关联性检验的答案是否定的：「data center」在 2025 财年 10-K 与 2026 Q1 10-Q 中各出现 0 次；MP 自己点名的 AI 是具身 AI 与机器人，已签约需求是通用汽车、苹果与 DoW",
-      "价格下限是买来的：MP 收到 5.500 亿美元现金 + 计量 2.186 亿美元的下限权利，交出计量 7.686 亿美元的证券（优先股 4.184 亿、认股权证 2.642 亿、钐项目贷款 0.860 亿）",
-      "剥掉政府支付后 Materials 分部每一期都亏损：2026 Q1 −550 万、2025 Q4 −1,080 万、2025 全年 −3,420 万美元；追溯十二个月合并调整后 EBITDA 由 5,070 万变 −4,260 万美元",
-      "10X 是成本加成且上行被封顶：DoW 保证每年至少 1.40 亿美元 EBITDA（年增 2%），但超额的头 3,000 万归 DoW、此后对半分；NdPr 高于 110 美元/公斤的部分在 10X 满产后分走 30%",
-      "股价 41.66 美元（2026-07-30 收盘、较 2025 年 10 月高点 −57.8%）：市值约 74.2 亿美元、企业价值约 71.9 亿美元，约 28.3 倍追溯收入、141.8 倍追溯调整后 EBITDA，无盈利无股息；30/40/30 对称网格，初始中性观察 / 中确信"
+      "Q3 2026（2026-11-05 盘后）：收入 $147.7M（+176%）另加 PPA 收入 $8.1M；NdPr 产量 1,018 吨、销量 1,020 吨",
+      "Materials 分部调整后 EBITDA $47.8M，扣除 PPA 约 $39.7M（推算）；收入含一次性 SEG+ 出售 $31.6M",
+      "合并调整后 EBITDA $41.1M（Q1 为 $36.6M）；净亏损 $20.7M",
+      "公司称完成 GM 磁体认证，可销售磁体交付与收入从 Q4 开始；Q3 Magnetics 收入仍全部是前驱体",
+      "现金及短期投资 $1,337.9M；10-Q 未出，三项监测待附注；估值与立场未更新"
     ],
     "chainLayer": "resources",
     "coverageTier": "full",
@@ -10547,7 +10547,7 @@
     "stance": "neutral-watch",
     "conviction": "medium",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q2 2026 monitoring / 2026-07-30 valuation frame",
+    "reportedPeriod": "Q3 2026 monitoring / 2026-07-30 valuation frame",
     "related": [
       "cameco-2026",
       "almonty-2026",
@@ -10567,11 +10567,14 @@
           "en": "PPA income falls as the benchmark rises above US$110/kg without product revenue replacing it roughly one-for-one, leaving Materials segment adjusted EBITDA excluding PPA still negative; or consolidated adjusted EBITDA falls below Q1 2026's US$36.6M"
         },
         "latest": {
-          "zh": "2026 Q2（季度截至 2026-06-30、2026-08-06 盘后发布，Q2 10-Q 于 2026-08-07 提交）：PPA 收入 1,758 万美元，较 Q1 的 4,230 万美元下降；Materials 分部收入 9,563 万美元、分部调整后 EBITDA 3,250 万美元，剔除 PPA 后为 +1,490 万美元（Q1 为 −550 万美元）；合并调整后 EBITDA 2,849 万美元、净亏损 2,030 万美元；NdPr 产量 840 吨（同比 +41%）、NdPr 销量 1,006 吨（同比 +127%）。本项自身的触发条件由「或」连接的两条分句在本季给出相反的业务方向，故维持未评级：第一条分句未发生且朝有利方向解决——Materials 分部收入增加 2,340 万美元，对应 PPA 收入减少 2,470 万美元，大致就是该分句要求的一比一接替，且剔除 PPA 后的分部调整后 EBITDA 已由负转正；第二条分句则已发生——合并调整后 EBITDA 2,849 万美元低于该分句写明的 2026 Q1 的 3,660 万美元（2026 上半年调整后 EBITDA 6,510.3 万美元减 Q2 的 2,849.3 万美元，得 Q1 为 3,661.0 万美元，未被重述，口径一致）；该缺口的构成中包含当季 1,359 万美元的初始启动费用（Q1 为 485 万美元）与下游扩张带来的 SG&A 上升。已发布规则没有说明这种混合结果应如何评级，需先裁决资格规则；立场、确信度与 2026-07-30 的估值锚点均未改动。",
-          "en": "Q2 2026 (quarter ended 2026-06-30, reported after the close on 2026-08-06; Q2 10-Q filed 2026-08-07): PPA income US$17.58M, down from US$42.3M in Q1; Materials segment revenue US$95.6M and segment adjusted EBITDA US$32.5M, which is +US$14.9M excluding PPA (Q1: -US$5.5M); consolidated adjusted EBITDA US$28.5M on a US$20.3M net loss; NdPr production 840 MT (+41% YoY) and NdPr sales 1,006 MT (+127% YoY). This item's own trigger joins two clauses with 'or', and in this quarter they point in opposite business directions, so it remains ungraded: the first clause did not occur and in fact resolved favourably - Materials segment revenue rose US$23.4M against a US$24.7M decline in PPA income, roughly the one-for-one substitution the clause asks for, and Materials segment adjusted EBITDA excluding PPA turned positive; the second clause did occur - consolidated adjusted EBITDA of US$28.5M is below the Q1 2026 US$36.6M the clause names (H1 2026 adjusted EBITDA of US$65.103M less Q2's US$28.493M puts Q1 at US$36.610M, unrestated and on the same measure) - with the shortfall including US$13.59M of initial start-up costs in the quarter (Q1: US$4.85M) and higher SG&A from the downstream expansion. The published rule does not say how to grade this mixed result, so its qualification rule must be adjudicated first; stance, conviction and the 2026-07-30 valuation anchor are unchanged."
+          "zh": "Q3 2026 业绩稿（2026-11-05）：PPA 收入 $8.1M（Q2 $17.58M、Q1 $42.3M）继续下降；Materials 分部收入 $133.5M、分部调整后 EBITDA $47.8M，扣除 PPA 约 $39.7M（推算），为正；合并调整后 EBITDA $41.1M，高于 Q1 的 $36.6M。两条下行路径都不成立，评级为阈内。证据边界：业绩稿未给 NdPr 基准价；分部收入含一次性 SEG+ 出售 $31.6M，若扣除，扣除 PPA 后的分部 EBITDA 仍需 10-Q 才能拆分。",
+          "en": "Q3 2026 results release (2026-11-05): PPA income kept falling to $8.1M (Q2 $17.58M, Q1 $42.3M); Materials segment revenue was $133.5M and segment adjusted EBITDA $47.8M, about $39.7M excluding PPA (derived) and positive; consolidated adjusted EBITDA was $41.1M, above Q1's $36.6M. Neither downside path holds, so the item is graded within. Evidence limits: the release gives no NdPr benchmark price; segment revenue includes a one-time $31.6M SEG+ sale, and stripping its contribution out of the ex-PPA segment EBITDA needs the 10-Q."
         },
         "nextCheck": "2026 Q3 业绩与 10-Q（约 2026-11）/ Q3 2026 results and 10-Q (around 2026-11)",
-        "nextCheckDate": "2026-11"
+        "nextCheckDate": "2026-11",
+        "reading": "within",
+        "readingAsOf": "2026-11-05",
+        "readingNote": "扣除 PPA 后分部 EBITDA 为正，合并 EBITDA 高于 $36.6M。 / Ex-PPA segment EBITDA is positive and consolidated EBITDA is above $36.6M."
       },
       {
         "id": "magnet-revenue-h2-2026",
@@ -10586,13 +10589,14 @@
           "en": "no finished-magnet revenue is recognized during 2026, or the company moves out the Independence 3,000 MT commitment timeline"
         },
         "latest": {
-          "zh": "钕铁硼磁体制造于 2025 年 12 月在 Independence 的商业化设备上启动；2026 Q1 磁材分部收入 2,110 万美元全部为磁材前驱体（通用汽车协议下的 NdPr 金属），分部调整后 EBITDA 960 万美元。公司在 2026-05-07 的业绩沟通中重申仍预计 2026 下半年产生首批磁体收入（来源为业绩发布与电话会报道，非备案指引）。评级为阈内：本项发布的触发条件是磁体收入滑出 2026 年或 3,000 吨时间表后移，两者均未发生；但需注意 2026 下半年尚未过去，因此这是「尚未触发」而非「已兑现」。",
-          "en": "NdFeB magnet manufacturing began on commercial-scale equipment at Independence in December 2025; Q1 2026 magnetics segment revenue of US$21.1M was entirely magnetic precursor (NdPr metal under the GM agreement) on US$9.6M of segment adjusted EBITDA. At the 2026-05-07 results the company reiterated that it still expects initial magnet revenue in the second half of 2026 (source: results release and earnings-call coverage, not filed guidance). Graded within: this item's published trigger is magnet revenue slipping out of 2026 or the 3,000 MT timeline moving out, neither of which has happened - but H2 2026 has not yet elapsed, so this reads as not-yet-triggered rather than delivered."
+          "zh": "Q3 2026 业绩稿（2026-11-05）：Magnetics 分部收入 $18.6M 全部来自磁材前驱体，尚无成品磁体收入；公司称已完成 GM 磁体认证，可销售磁体交付与收入从第四季度开始。评级为不明：「2026 年内确认成品磁体收入」要到 Q4 才能观测，业绩稿未提及 Independence 3,000 吨承诺的时间表。",
+          "en": "Q3 2026 results release (2026-11-05): Magnetics segment revenue of $18.6M came entirely from magnetic precursor products, with no finished-magnet revenue yet; the company says it completed GM magnet qualification, with saleable magnet deliveries and revenue beginning in the fourth quarter. Graded unclear: finished-magnet revenue within 2026 can only be observed in Q4, and the release does not address the timeline of the Independence 3,000 MT commitment."
         },
         "nextCheck": "2026 Q3 与 Q4 业绩中的磁材分部收入构成 / magnetics segment revenue composition in the Q3 and Q4 2026 results",
         "nextCheckDate": "2026-11",
-        "reading": "within",
-        "readingAsOf": "2026-05-07"
+        "reading": "unclear",
+        "readingAsOf": "2026-11-05",
+        "readingNote": "两条腿都尚未可观测。 / Neither leg is observable yet."
       },
       {
         "id": "dow-package-durability",
