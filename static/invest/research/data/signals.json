@@ -4046,5 +4046,31 @@
       "vistra-2026:cogentrix-integration",
       "vistra-2026:leverage-fcf-discipline"
     ]
+  },
+  {
+    "id": "oklo-q3-2026-10q-20261106",
+    "date": "2026-11-06",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Oklo Q3 10-Q：首座目标改写为 2028–2029 年，与 Centrus 签 HALEU 供应协议",
+      "en": "Oklo Q3 10-Q: first-powerhouse target rewritten as 2028-2029; HALEU supply agreement signed with Centrus"
+    },
+    "detail": {
+      "zh": "来源：Oklo 2026-11-06 Q3 2026 10-Q（0001628280-26-071319）。Q3 2026 10-Q（季度截至 2026-09-30；2026-11-06 提交）收入 $1.861M（九个月 $3.071M），主要为工程咨询与制造服务；Q3 净亏损 $41.746M（上年同期 $29.722M，Q2 2026 为 $48.536M）。九个月经营活动现金净流出 $110.941M，减去 H1 的 $65.459M，Q3 单季约 $45.5M（推算）；九个月购置固定资产 $280.874M。9-30 现金及现金等价物 $1,550.061M、有价债务证券 $1,580.724M（流动 $951.768M、非流动 $628.956M），合计约 $3.131B，另有受限现金 $81.9M；负债合计 $120.037M。Q3 通过 ATM 增发 9,519,950 股、净额 $401.761M；9 月新签 $1.0B ATM（2026 ATM Program 2），截至 9-30 已售 2,260,556 股、平均净价 $39.30。在外流通股 9-30 为 195,161,750 股（6-30 为 185,090,155 股），11-04 为 195,289,593 股。10-Q 现称首座 powerhouse 的目标部署时间为 2028–2029 年（Q2 10-Q 为 2028 年）。9-30 与 Centrus 签订 HALEU 供应协议（与 Meta 预付协议相关，附若干条件）；11-02 Meta 的首笔资金从托管账户释放，直接支付给 Centrus，作为燃料订单的抵免。10 月与 U.S. Forged Rings 签战略制造协议，为大型反应堆部件预留产能，首批成品部件预计 2030 年交付。客户层面仍是不具约束力的意向书（Equinix、Diamondback Energy、Prometheus Hyperscale），另有 Switch 主电力协议与 Meta 预付框架；未披露约束性 PPA。 证据边界：Q3 单季现金流为推算；Centrus 协议数量、价格、交付时间与条件未披露；Meta 资金金额未披露；未读业绩稿与电话会。",
+      "en": "Source: Oklo Q3 2026 Form 10-Q (0001628280-26-071319), 2026-11-06. Q3 2026 Form 10-Q (quarter ended 2026-09-30; filed on 2026-11-06) revenue was $1.861M (nine months $3.071M), mainly engineering, consulting and fabrication services; Q3 net loss was $41.746M (Q3 2025: $29.722M; Q2 2026: $48.536M). Nine-month net cash used in operating activities was $110.941M against $65.459M for H1, so derived Q3 operating cash use is about $45.5M; nine-month purchases of property, plant and equipment were $280.874M. At 9-30 cash and cash equivalents were $1,550.061M and marketable debt securities $1,580.724M ($951.768M current, $628.956M non-current), about $3.131B combined, plus $81.9M of restricted cash; total liabilities were $120.037M. Q3 at-the-market sales added 9,519,950 shares for $401.761M net; a new $1.0B ATM (2026 ATM Program 2) was entered in September and had sold 2,260,556 shares at a $39.30 average net price by 9-30. Shares outstanding were 195,161,750 at 9-30 (185,090,155 at 6-30) and 195,289,593 at 11-04. The 10-Q now states a target of deploying the first powerhouse in 2028-2029 (the Q2 10-Q said 2028). On 9-30 Oklo signed a HALEU supply agreement with Centrus in connection with the Meta prepayment agreement, subject to certain conditions; on 11-02 an initial Meta funding amount was released from escrow and paid directly to Centrus as a credit towards fuel orders. In October Oklo signed a strategic manufacturing agreement with U.S. Forged Rings reserving capacity for large reactor components, with initial finished component deliveries contemplated in 2030. Customer engagements remain non-binding letters of intent (Equinix, Diamondback Energy, Prometheus Hyperscale) alongside the Switch master power agreement and the Meta prepayment framework; no binding PPA was disclosed. Evidence limits: single-quarter cash flow is derived; the Centrus agreement volumes, prices, delivery dates and conditions are not disclosed; the Meta funding amount is not disclosed; no earnings release or call was read."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "OKLO"
+    ],
+    "reportIds": [
+      "oklo-2026"
+    ],
+    "monitoringRefs": [
+      "oklo-2026:cash-burn-dilution",
+      "oklo-2026:fuel-supply",
+      "oklo-2026:customer-conversion",
+      "oklo-2026:first-reactor-cost-timeline"
+    ]
   }
 ]
