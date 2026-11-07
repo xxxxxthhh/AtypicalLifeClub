@@ -39,6 +39,9 @@ jobs:
       - name: Run research Python unit tests
         run: python3 -m unittest discover -s static/invest/research -p "test_*.py"
 
+      - name: Run briefing Python unit tests
+        run: python3 -m unittest discover -s static/invest/briefing -p "test_*.py"
+
       - name: Run research JavaScript unit tests
         run: node --test static/invest/research/reports/report-module-parser.test.mjs static/invest/research/test_tracking_rules.mjs
 
