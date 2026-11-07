@@ -1,64 +1,48 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-06T02:08:44Z",
+  "generatedAt": "2026-11-07T01:44:47Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-11-06T02:08:44Z"
+    "value": "2026-11-07T01:44:47Z"
   },
   "tasks": [
     {
-      "id": "earnings:aaoi-2026:2026-11-05:T",
+      "id": "earnings:aaoi-2026:2026-11-05:T+1",
       "reportId": "aaoi-2026",
       "type": "research-update",
-      "window": "T",
+      "window": "T+1",
       "expectedDate": "2026-11-05",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     },
     {
-      "id": "earnings:airbnb-2026:2026-11-05:T",
+      "id": "earnings:airbnb-2026:2026-11-05:T+1",
       "reportId": "airbnb-2026",
       "type": "research-update",
-      "window": "T",
+      "window": "T+1",
       "expectedDate": "2026-11-05",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     },
     {
-      "id": "earnings:applovin-2026:2026-11-04:T+1",
-      "reportId": "applovin-2026",
-      "type": "research-update",
-      "window": "T+1",
-      "expectedDate": "2026-11-04",
-      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
-    },
-    {
-      "id": "earnings:coherent-2026:2026-11-04:T+1",
-      "reportId": "coherent-2026",
-      "type": "research-update",
-      "window": "T+1",
-      "expectedDate": "2026-11-04",
-      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
-    },
-    {
-      "id": "earnings:mp-2026:2026-11-05:T",
+      "id": "earnings:mp-2026:2026-11-05:T+1",
       "reportId": "mp-2026",
       "type": "research-update",
-      "window": "T",
+      "window": "T+1",
       "expectedDate": "2026-11-05",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     },
     {
-      "id": "earnings:oklo-2026:2026-11-06:T-1",
+      "id": "earnings:oklo-2026:2026-11-06:T",
       "reportId": "oklo-2026",
       "type": "research-update",
-      "window": "T-1",
+      "window": "T",
       "expectedDate": "2026-11-06",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     },
     {
-      "id": "earnings:vistra-2026:call-2026-11-06:T-1",
+      "id": "earnings:vistra-2026:call-2026-11-06:T",
       "reportId": "vistra-2026",
       "type": "research-update",
-      "window": "T-1",
+      "window": "T",
       "expectedDate": "2026-11-06",
       "reason": "Issuer-confirmed earnings call window (release time unconfirmed); first verify actual release filing/press release, then update the research package."
     }
