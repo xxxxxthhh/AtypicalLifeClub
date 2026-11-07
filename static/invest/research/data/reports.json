@@ -7267,7 +7267,7 @@
     "priceSymbol": "OKLO",
     "title": "Oklo 深度研究报告 - 前商业化核能期权与AI电力需求",
     "titleEn": "Oklo Deep Research Report - Pre-Commercial Nuclear Optionality Meets AI Power Demand",
-    "summary": "【2026-08-08 当前价格重新裁定：OKLO 于 2026-08-07 收于 $48.42；按 2026-08-04 在外流通股 186,017,650 股，股权价值约 $90.1 亿，扣除 $30.06 亿现金及有价债务证券并加回约 $0.7M 长期债务后，EV 约 $60.0 亿。相对约 $126 亿网格加权项目参考，算术仍有约 40% 正偏斜；但客户管线全为非约束性、2028 首堆与 2029 燃料交付存在时序张力、首堆资本成本未披露，维持看多 / 低确信。】Q2 10-Q 同时确认 Groves 同位素试验堆首次临界、Aurora-INL PDSA 获批、上半年 ATM 净募资 $18.52 亿；这些是技术与资金里程碑，不是商业供电或约束性合同。",
+    "summary": "2026-11-07 — Q3 2026 10-Q（季度截至 2026-09-30；2026-11-06 盘前提交；扫描期间 EDGAR 未见业绩 8-K）收入 $1.861M（九个月 $3.071M），主要为工程咨询与制造服务；Q3 净亏损 $41.746M（上年同期 $29.722M，Q2 2026 为 $48.536M）。九个月经营活动现金净流出 $110.941M，减去 H1 的 $65.459M，Q3 单季约 $45.5M（推算）；九个月购置固定资产 $280.874M。9-30 现金及现金等价物 $1,550.061M、有价债务证券 $1,580.724M（流动 $951.768M、非流动 $628.956M），合计约 $3.131B，另有受限现金 $81.9M；负债合计 $120.037M。Q3 通过 ATM 增发 9,519,950 股、净额 $401.761M；9 月新签 $1.0B ATM（2026 ATM Program 2），截至 9-30 已售 2,260,556 股、平均净价 $39.30。在外流通股 9-30 为 195,161,750 股（6-30 为 185,090,155 股），11-04 为 195,289,593 股。10-Q 现称首座 powerhouse 的目标部署时间为 2028–2029 年（Q2 10-Q 为 2028 年）。9-30 与 Centrus 签订 HALEU 供应协议（与 Meta 预付协议相关，附若干条件）；11-02 Meta 的首笔资金从托管账户释放，直接支付给 Centrus，作为燃料订单的抵免。10 月与 U.S. Forged Rings 签战略制造协议，为大型反应堆部件预留产能，首批成品部件预计 2030 年交付。客户层面仍是不具约束力的意向书（Equinix、Diamondback Energy、Prometheus Hyperscale），另有 Switch 主电力协议与 Meta 预付框架；未披露约束性 PPA。 估值与立场仍按 2026-08-07 历史基础；Q3 现金、股本与新 ATM 待 Mode B 重算，价格、估值数字、立场和确信度本包未更新。",
     "tags": [
       "核能",
       "SMR",
@@ -7276,20 +7276,20 @@
     ],
     "category": "nuclear",
     "date": "2026-02-10",
-    "lastUpdate": "2026-08-08",
+    "lastUpdate": "2026-11-07",
     "file": "/invest/research/reports/view.html?id=oklo-2026",
     "markdownFiles": {
       "zh": "/invest/research/Oklo_深度研究报告_2026-02.md",
       "en": "/invest/research/Oklo_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "2026-08-08 重新裁定：$48.42（2026-08-07 收盘），股权价值约 $90.1 亿、EV 约 $60.0 亿；维持看多 / 低确信",
-      "2026-06-30 现金及有价债务证券 $30.06 亿；2026-08-04 在外流通股 186,017,650 股",
-      "30%牛市/40%基准/30%熊市项目NAV情景表给出约$12.6B粗略参考",
-      "stance改为偏多/低确信：偏多来自正偏斜，低确信来自零收入、无运行首堆和高执行风险",
-      "NRC许可、燃料供应、首堆时间线和约束性客户结构是核心验证点"
+      "Q3 2026 10-Q（2026-11-06）：收入 $1.861M，净亏损 $41.746M；Q3 经营现金流出约 $45.5M（推算）",
+      "9-30 现金及有价债务证券约 $3.131B；Q3 ATM 净额 $401.761M，9 月新签 $1.0B ATM",
+      "在外流通股 9-30 为 195,161,750 股、11-04 为 195,289,593 股",
+      "首座 powerhouse 目标改写为 2028–2029 年（Q2 为 2028 年）；首堆资本成本仍未披露",
+      "9-30 与 Centrus 签 HALEU 供应协议（附条件），11-02 Meta 首笔资金付给 Centrus；客户仍无约束性 PPA；估值与立场未更新"
     ],
-    "summaryEn": "[2026-08-08 current-price re-adjudication: OKLO closed at $48.42 on 2026-08-07. Using 186,017,650 shares outstanding at 2026-08-04 gives about $9.01B equity value; subtracting $3.006B of cash and marketable debt securities and adding about $0.7M of long-term debt gives about $6.00B EV. Against the ~$12.6B grid-weighted project reference the arithmetic still has about 40% positive skew, but the customer pipeline remains entirely non-binding, the 2028 first-powerhouse target conflicts with a 2029 fuel-delivery start, and first-powerhouse capital cost is undisclosed, so constructive / low conviction holds.] The Q2 10-Q also confirms Groves isotope-test-reactor criticality, Aurora-INL PDSA approval, and $1.852B of first-half net ATM proceeds; these are technical and financing milestones, not commercial power or binding contracts.",
+    "summaryEn": "2026-11-07 — Q3 2026 Form 10-Q (quarter ended 2026-09-30; filed before the open on 2026-11-06; no earnings 8-K was found in EDGAR during the scan) revenue was $1.861M (nine months $3.071M), mainly engineering, consulting and fabrication services; Q3 net loss was $41.746M (Q3 2025: $29.722M; Q2 2026: $48.536M). Nine-month net cash used in operating activities was $110.941M against $65.459M for H1, so derived Q3 operating cash use is about $45.5M; nine-month purchases of property, plant and equipment were $280.874M. At 9-30 cash and cash equivalents were $1,550.061M and marketable debt securities $1,580.724M ($951.768M current, $628.956M non-current), about $3.131B combined, plus $81.9M of restricted cash; total liabilities were $120.037M. Q3 at-the-market sales added 9,519,950 shares for $401.761M net; a new $1.0B ATM (2026 ATM Program 2) was entered in September and had sold 2,260,556 shares at a $39.30 average net price by 9-30. Shares outstanding were 195,161,750 at 9-30 (185,090,155 at 6-30) and 195,289,593 at 11-04. The 10-Q now states a target of deploying the first powerhouse in 2028-2029 (the Q2 10-Q said 2028). On 9-30 Oklo signed a HALEU supply agreement with Centrus in connection with the Meta prepayment agreement, subject to certain conditions; on 11-02 an initial Meta funding amount was released from escrow and paid directly to Centrus as a credit towards fuel orders. In October Oklo signed a strategic manufacturing agreement with U.S. Forged Rings reserving capacity for large reactor components, with initial finished component deliveries contemplated in 2030. Customer engagements remain non-binding letters of intent (Equinix, Diamondback Energy, Prometheus Hyperscale) alongside the Switch master power agreement and the Meta prepayment framework; no binding PPA was disclosed. Valuation and stance remain on the 2026-08-07 historical basis; Q3 cash, share count and the new ATM await Mode B recomputation, and price, valuation figures, stance and conviction are not updated in this package.",
     "period": "2026H1",
     "versionType": "full-cycle",
     "versionLabel": "2026H1 Full Rerun",
@@ -7379,7 +7379,7 @@
       }
     ],
     "priceAsOf": "2026-08-07",
-    "reportedPeriod": "Q2 2026 / 2026-08-07 valuation frame",
+    "reportedPeriod": "Q3 2026 / 2026-08-07 valuation frame",
     "related": [
       "gevernova-2026"
     ],
@@ -7417,12 +7417,13 @@
           "en": "first-plant cost overruns or schedule slips"
         },
         "latest": {
-          "zh": "2026-08-07 提交的 Q2 2026 10-Q 表述首堆部署目标为 **2028 年**，并自陈这是『雄心目标』，面临供应链、施工、宏观与设计等一系列复杂度；本报告下方关键数据表记录的旧目标为『2027 年底 - 2028 年初』，两者口径不一致，且 10-Q 未披露任何首堆资本成本数字。因此『成本超支』一腿完全未受检验，『时间线滑坡』一腿指向旧区间的偏晚端。",
-          "en": "The Q2 2026 Form 10-Q filed 2026-08-07 states a first-powerhouse deployment target of **2028**, self-described as an ambitious target set against a range of supply-chain, construction, macroeconomic and design complexities. The Quick Stats table below records the older target as late 2027 to early 2028, so the two calibres do not line up, and the 10-Q discloses no first-plant capital cost at all. The cost-overrun leg is therefore entirely untested, and the schedule leg points to the later end of the previously recorded range."
+          "zh": "Q3 2026 10-Q（2026-11-06）：首座 powerhouse 的目标部署时间写为 2028–2029 年（Q2 10-Q 为 2028 年），公司仍称其为面对供应链、地缘、宏观与设计复杂性的激进目标；10 月与 U.S. Forged Rings 签订的大型部件制造协议预计 2030 年首批交付成品部件（协议未说明是否用于首座）。10-Q 仍未披露首座资本成本，只称 INL 首座因增加燃料与堆芯测试能力会有额外独特成本。成本腿未经检验；时间表上限后移一年，是否构成本项触发条件所说的进度延误需复核人判断，评级为不明。",
+          "en": "Q3 2026 Form 10-Q (2026-11-06): the first-powerhouse deployment target is now written as 2028-2029 (the Q2 10-Q said 2028), still described as an ambitious target against supply-chain, geopolitical, macroeconomic and design complexities; the October U.S. Forged Rings large-component manufacturing agreement contemplates initial finished component deliveries in 2030 (it does not say whether these serve the first unit). The 10-Q still discloses no first-plant capital cost, saying only that the INL first powerhouse will carry additional unique costs from enhanced fuel and core testing capabilities. The cost leg is untested; the outer bound of the schedule moved out by a year, and whether that is a schedule slip under this item trigger needs reviewer judgement, so graded unclear."
         },
         "nextCheck": "公司项目里程碑 / project milestones",
         "reading": "unclear",
-        "readingAsOf": "2026-08-07"
+        "readingAsOf": "2026-11-06",
+        "readingNote": "目标改为 2028–2029，成本未披露。 / Target now 2028-2029; cost undisclosed."
       },
       {
         "id": "fuel-supply",
@@ -7437,12 +7438,13 @@
           "en": "fuel-supply arrangements fail to land"
         },
         "latest": {
-          "zh": "2026-08-07 提交的 Q2 2026 10-Q：燃料安排在推进但未落地为约束性供应。与 Centrus 的**意向书**拟供应足以支持最多五台 Aurora 电源堆多年所需的国产 HALEU，**交付预计自 2029 年开始**，仍需谈判并签署正式供应协议，可能包含预付款，用于支持规划中的俄亥俄州南部 1.2GW 电力园区。另有 DOE 授予的 5 公吨 HALEU 燃料（自 INL 已辐照 EBR-II 燃料回收）用于爱达荷商用 Aurora；Aurora 燃料制造设施已获 DOE 多项安全审批并入选 DOE 燃料线试点计划（FLPP）。证据边界：2029 年起的交付晚于 2028 年首堆目标，且核心商业供应仍为非约束性意向书。",
-          "en": "Q2 2026 Form 10-Q filed 2026-08-07: fuel arrangements are advancing but have not landed as binding supply. The **letter of intent** with Centrus contemplates domestically produced HALEU sufficient for multiple years of fuel for up to five Aurora powerhouses, with **deliveries expected to begin in 2029**, still subject to negotiation and execution of a definitive supply agreement, possibly including prepayments, in support of the planned 1.2-GW southern Ohio power campus. Separately, DOE awarded five metric tons of HALEU recovered from previously irradiated EBR-II fuel at INL for a commercial Aurora powerhouse in Idaho, and the Aurora Fuel Fabrication Facility has cleared several DOE safety approvals and was selected under the DOE Fuel Line Pilot Program. Evidence limits: a 2029 delivery start sits after the 2028 first-powerhouse target, and the core commercial supply is still a non-binding letter of intent."
+          "zh": "Q3 2026 10-Q（2026-11-06）：2026-09-30 Oklo 与 Centrus 签订 HALEU 供应协议，与 Meta 预付协议相关，用于为 Meta 部署 powerhouse，附若干条件；2026-11-02 Meta 的首笔资金从托管账户释放、直接支付给 Centrus，作为燃料订单的抵免。首座部署所需的 5 吨 EBR-II 回收 HALEU 已落实。按本项触发条件（燃料供应安排未能落地）评级：已签署供应协议并有资金实际支付，评级为阈内。证据边界：协议数量、价格、交付时间与条件内容 10-Q 均未披露；6 月意向书所称 2029 年开始交付是否适用于此协议未说明。",
+          "en": "Q3 2026 Form 10-Q (2026-11-06): on 2026-09-30 Oklo signed a HALEU supply agreement with Centrus in connection with the Meta prepayment agreement, to support powerhouse deployments for Meta and subject to certain conditions; on 2026-11-02 an initial Meta funding amount was released from escrow and paid directly to Centrus as a credit towards fuel orders. The 5 metric tons of recovered EBR-II HALEU for the first deployment remain secured. Graded against this item trigger (fuel-supply arrangements fail to land): a supply agreement has been signed and funds have actually been paid, so graded within. Evidence limits: the 10-Q discloses no volumes, prices, delivery dates or the content of the conditions, and does not say whether the 2029 delivery start in the June letter of intent applies to this agreement."
         },
         "nextCheck": "燃料协议 / fuel agreements",
-        "reading": "unclear",
-        "readingAsOf": "2026-08-07"
+        "reading": "within",
+        "readingAsOf": "2026-11-06",
+        "readingNote": "供应协议已签署且有资金支付。 / A supply agreement is signed and funds have been paid."
       },
       {
         "id": "customer-conversion",
@@ -7457,12 +7459,13 @@
           "en": "Meta/Switch-type demand converts into binding contracts"
         },
         "latest": {
-          "zh": "2026-08-07 提交的 Q2 2026 10-Q：管线仍为非约束性，未披露任何具约束力的 PPA 转化。10-Q 列示与 Equinix、Diamondback Energy、Prometheus Hyperscale 的**非约束性意向书**；国防创新单元代表空军部**初步选定** Oklo 为 Eielson 空军基地供电供热（规划至少 5 MWe）；另与 TVA 就新设施及未来售电进行评估。本监测项的触发条件为『需求转化为具约束力合同』，本季未满足。",
-          "en": "Q2 2026 Form 10-Q filed 2026-08-07: the pipeline remains non-binding and no binding PPA conversion was disclosed. The 10-Q lists **non-binding letters of intent** with Equinix, Diamondback Energy and Prometheus Hyperscale; a **tentative** selection by the Defense Innovation Unit on behalf of the Department of the Air Force for Eielson Air Force Base (an Aurora-derived powerhouse planned at at least 5 MWe); and an evaluation with TVA covering a new facility and potential future power sales. This item's trigger is demand converting into binding contracts, and that did not happen this quarter."
+          "zh": "Q3 2026 10-Q（2026-11-06）：客户管线仍是不具约束力的意向书（Equinix、Diamondback Energy、Prometheus Hyperscale），另有 2024 年 12 月的 Switch 12GW 主电力协议与 2026-01-05 的 Meta 预付协议框架；Eielson 空军基地仍是暂定选定。新增事实：2026-11-02 Meta 的首笔资金从托管账户释放，但支付对象是 Centrus（燃料订单抵免），不是电力购买。10-Q 计划中仍写「把意向书转为约束性 PPA」，未披露任何约束性 PPA，评级为不明。证据边界：Meta 资金金额未披露。",
+          "en": "Q3 2026 Form 10-Q (2026-11-06): the pipeline is still non-binding letters of intent (Equinix, Diamondback Energy, Prometheus Hyperscale), alongside the December 2024 Switch 12GW master power agreement and the 2026-01-05 Meta prepayment framework; Eielson Air Force Base remains a tentative selection. New fact: on 2026-11-02 an initial Meta funding amount was released from escrow, but it was paid to Centrus as a credit towards fuel orders, not as a power purchase. The 10-Q plan still lists converting letters of intent into binding PPAs, and no binding PPA is disclosed, so graded unclear. Evidence limits: the Meta funding amount is not disclosed."
         },
         "nextCheck": "客户合同公告 / customer contract announcements",
         "reading": "unclear",
-        "readingAsOf": "2026-08-07"
+        "readingAsOf": "2026-11-06",
+        "readingNote": "仍无约束性 PPA。 / Still no binding PPA."
       },
       {
         "id": "cash-burn-dilution",
@@ -7477,12 +7480,13 @@
           "en": "quarterly cash burn or dilution rises without milestone progress"
         },
         "latest": {
-          "zh": "2026-08-07 提交的 Q2 2026 10-Q：消耗与摊薄同时上升，但本季**有**已披露的里程碑进展（Groves 启动授权与首次临界、Aurora-INL PDSA 批准），故本项触发条件『在里程碑无进展的情况下上升』未满足。上半年：经营活动现金流出 $65,459K、净亏损 $81,601K、经营亏损 $124,166K、股权激励 $29,944K、累计亏损 $322,373K；Q2 单季净亏损 $48,536K、每股 $(0.28)。2026-06-30 现金、现金等价物与有价债务证券 $3,006,289K（约 $30.1 亿）。摊薄：上半年 ATM 合计发行 23,088,406 股，毛额 $1,880,239K、净额 $1,851,944K，平均净价 $81.44（2025 ATM 计划 12,376,352 股 @ $96.95；2026 ATM 计划 10,712,054 股 @ $63.51）；股本自 2025-12-31 的 160,514,103 股增至 2026-06-30 的 185,090,155 股，2026-08-04 为 186,017,650 股。口径提示：现金已远高于本报告关键数据表的『~$1.2B（Q3 2025）』与 2026-07-31 企业价值算式使用的『约 $22 亿』，该估值算术已被取代但本次未重算。",
-          "en": "Q2 2026 Form 10-Q filed 2026-08-07: burn and dilution both rose, but the quarter **did** carry disclosed milestone progress (Groves startup authorization and first criticality, Aurora-INL PDSA approval), so this item's trigger — a rise *without* milestone progress — was not met. First half: net cash used in operating activities $65,459K, net loss $81,601K, loss from operations $124,166K, stock-based compensation $29,944K, accumulated deficit $322,373K; Q2 alone had a net loss of $48,536K, or $(0.28) per share. Cash, cash equivalents and marketable debt securities were $3,006,289K (about $3.01B) at 2026-06-30. Dilution: 23,088,406 shares were issued under the ATM programs in the first half for $1,880,239K gross and $1,851,944K net at an average net price of $81.44 (2025 ATM Program 12,376,352 shares at $96.95; 2026 ATM Program 10,712,054 shares at $63.51); shares outstanding went from 160,514,103 at 2025-12-31 to 185,090,155 at 2026-06-30, and 186,017,650 as of 2026-08-04. Caliber note: cash is now far above both the Quick Stats line of about $1.2B (Q3 2025) and the about-$2.2B figure used in the 2026-07-31 enterprise-value arithmetic; that valuation arithmetic is superseded but was deliberately not recomputed here."
+          "zh": "Q3 2026 10-Q（2026-11-06）：九个月经营现金净流出 $110.941M，减去 H1 的 $65.459M，Q3 单季约 $45.5M（推算）；Q3 净亏损 $41.746M（Q2 $48.536M）。Q3 ATM 增发 9,519,950 股、净额 $401.761M，在外流通股由 6-30 的 185,090,155 股增至 9-30 的 195,161,750 股（+5.4%）；9 月新签 $1.0B ATM，截至 9-30 已售 2,260,556 股、平均净价 $39.30。本季有已披露的里程碑进展（Groves 同位素试验堆 7-23 获 DOE 启动授权、8-05 首次临界），所以本项触发条件（在缺少里程碑进展的情况下消耗或稀释上升）不成立，评级为阈内。证据边界：Q3 单季现金流为推算；ATM 平均净价低于此前各轮，但本项触发条件不以价格衡量。",
+          "en": "Q3 2026 Form 10-Q (2026-11-06): nine-month net cash used in operating activities was $110.941M against $65.459M for H1, so derived Q3 cash use is about $45.5M; Q3 net loss was $41.746M (Q2: $48.536M). Q3 ATM sales added 9,519,950 shares for $401.761M net, taking shares outstanding from 185,090,155 at 6-30 to 195,161,750 at 9-30 (+5.4%); a new $1.0B ATM entered in September had sold 2,260,556 shares at a $39.30 average net price by 9-30. The quarter carried disclosed milestone progress (DOE startup authorization for the Groves isotope test reactor on 7-23 and first criticality on 8-05), so this item trigger — burn or dilution rising without milestone progress — is not met; graded within. Evidence limits: single-quarter cash flow is derived; the ATM average net price is below earlier programs, but this item trigger is not a price test."
         },
         "nextCheck": "季度现金消耗、ATM 增发与项目资本开支披露 / quarterly cash burn, ATM issuance and project-capex disclosure",
         "reading": "within",
-        "readingAsOf": "2026-08-07"
+        "readingAsOf": "2026-11-06",
+        "readingNote": "本季有已披露里程碑，触发条件不成立。 / Disclosed milestones in the quarter, so the trigger is not met."
       }
     ]
   },
