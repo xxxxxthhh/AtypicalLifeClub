@@ -4021,5 +4021,30 @@
       "mp-2026:q2-2026-ppa-income",
       "mp-2026:magnet-revenue-h2-2026"
     ]
+  },
+  {
+    "id": "vistra-q3-2026-results-cogentrix-close-20261106",
+    "date": "2026-11-06",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Vistra Q3 调整后 EBITDA $2,378M、首次给出 2027 指引；Cogentrix 10-30 交割",
+      "en": "Vistra Q3 adjusted EBITDA of $2,378M and first 2027 guidance; Cogentrix closed on 10-30"
+    },
+    "detail": {
+      "zh": "来源：Vistra 2026-11-06 8-K Ex 99.1（0001692819-26-000023）与 2026-11-05 8-K Item 2.01（0001140361-26-042013）。Q3 2026（季度截至 2026-09-30；8-K Ex 99.1 业绩稿，2026-11-06 盘前）GAAP 净利润 $1,140M（上年同期 $652M），含预计在以后年度结算的套保未实现收益 $559M；Ongoing Operations 调整后 EBITDA $2,378M（上年同期 $1,581M，增加 $797M），公司归因于已实现电价与容量价格上升、Lotus 电厂三个月贡献以及 Martin Lake 1 号机组恢复运行。分部调整后 EBITDA：Texas $1,227M（上年 $784M）、East $979M（$719M）、Retail $98M（$37M）、West $76M（$63M）。2026 年指引收窄为 Ongoing Operations 调整后 EBITDA $7.1–7.5B、调整后 FCFbG $4.3–4.7B；首次给出 2027 年区间 $7.7–8.5B 与 $4.3–5.1B。董事会追加 $1.5B 回购授权（剩余约 $2.5B，预计不晚于 2028 年底用完）；2026-11-02 在外流通股约 3.39 亿股。与 Odessa 燃气联合循环电厂签订 20 年、207MW 购电协议（对手方 New Era Energy and Digital）。Cogentrix 收购于 2026-10-30 完成（8-K，2026-11-05 提交）：现金约 $2.2B（已扣除营运资本、所得现金及承担约 $1.7B 债务等调整），另发行 5,000,000 股 Vistra 普通股（约定价每股 $185），取得约 5,500MW 燃气装机。10–11 月 Vistra 赎回全部 $1B A 系列优先股、支付上述约 $2.2B、提满应收账款融资额度并偿还约 $1.7B 承担债务，备考可用流动性由 9-30 的 $8,923M 降至约 $5.4B。业绩稿未说明 2026／2027 指引是否包含 Cogentrix，未附资产负债表，也未提及 Meta 核电 PPA。 证据边界：业绩稿未拆分价格与 Lotus 贡献、未附资产负债表；原定交割时间表与协同目标未在本次文件中给出；电话会与演示稿未读。",
+      "en": "Source: Vistra 8-K Ex 99.1 (0001692819-26-000023), 2026-11-06, and 8-K Item 2.01 (0001140361-26-042013), 2026-11-05. Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1 results release, before the open on 2026-11-06) GAAP net income was $1,140M (Q3 2025: $652M), including a $559M unrealized hedge gain expected to settle in future years; Ongoing Operations Adjusted EBITDA was $2,378M (Q3 2025: $1,581M, up $797M), which the company attributes to higher realized energy and capacity prices, three months of contribution from the Lotus plants and Martin Lake Unit 1 returning to service. Segment adjusted EBITDA: Texas $1,227M (Q3 2025: $784M), East $979M ($719M), Retail $98M ($37M), West $76M ($63M). 2026 guidance was narrowed to Ongoing Operations Adjusted EBITDA of $7.1-7.5B and Adjusted FCFbG of $4.3-4.7B; 2027 ranges were initiated at $7.7-8.5B and $4.3-5.1B. The board authorized an additional $1.5B of repurchases (about $2.5B remaining, expected to be completed no later than year-end 2028); about 339M shares were outstanding on 2026-11-02. Vistra signed a 20-year, 207MW power purchase agreement with New Era Energy and Digital at its Odessa combined-cycle gas plant. The Cogentrix acquisition closed on 2026-10-30 (8-K filed 2026-11-05): about $2.2B of cash, net of adjustments for working capital, acquired cash and the assumption of about $1.7B of debt, plus 5,000,000 Vistra shares at an agreed $185 per share, for about 5,500MW of gas capacity. In October and November Vistra redeemed all $1B of its Series A preferred stock, paid the roughly $2.2B, drew the full accounts receivable financing capacity and repaid about $1.7B of the assumed debt, taking pro forma available liquidity to about $5.4B from $8,923M at 9-30. The release does not say whether the 2026 or 2027 guidance includes Cogentrix, carries no balance sheet, and does not mention the Meta nuclear PPAs. Evidence limits: the release does not split price from the Lotus contribution and carries no balance sheet; neither filing restates the original closing timetable or synergy targets; the earnings call and slides were not read."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "VST"
+    ],
+    "reportIds": [
+      "vistra-2026"
+    ],
+    "monitoringRefs": [
+      "vistra-2026:gas-capacity-market",
+      "vistra-2026:cogentrix-integration",
+      "vistra-2026:leverage-fcf-discipline"
+    ]
   }
 ]

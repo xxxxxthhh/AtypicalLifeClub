@@ -8266,7 +8266,7 @@
     "priceSymbol": "VST",
     "title": "Vistra 深度研究报告 - AI 电力约束的核电与燃气高 beta 仪表盘",
     "titleEn": "Vistra Deep Research Report - Nuclear and Gas High-Beta Dashboard for AI Power",
-    "summary": "2026-07-07 v5更新：VST是AI基础设施power层的nuclear-plus-gas高beta dashboard。价格锚点$148.62（2026-07-30 收盘）、市值约$50.1B、EV约$69.4B、约22.6x TTM GAAP P/E、约3.6x EV/TTM sales，并含约$19.3B净债务。30%牛市/40%基准/30%熊市情景显示上行真实但下行更快，v5立场迁移为谨慎/中确信。",
+    "summary": "2026-11-07 — Q3 2026（季度截至 2026-09-30；8-K Ex 99.1 业绩稿，2026-11-06 盘前）GAAP 净利润 $1,140M（上年同期 $652M），含预计在以后年度结算的套保未实现收益 $559M；Ongoing Operations 调整后 EBITDA $2,378M（上年同期 $1,581M，增加 $797M），公司归因于已实现电价与容量价格上升、Lotus 电厂三个月贡献以及 Martin Lake 1 号机组恢复运行。分部调整后 EBITDA：Texas $1,227M（上年 $784M）、East $979M（$719M）、Retail $98M（$37M）、West $76M（$63M）。2026 年指引收窄为 Ongoing Operations 调整后 EBITDA $7.1–7.5B、调整后 FCFbG $4.3–4.7B；首次给出 2027 年区间 $7.7–8.5B 与 $4.3–5.1B。董事会追加 $1.5B 回购授权（剩余约 $2.5B，预计不晚于 2028 年底用完）；2026-11-02 在外流通股约 3.39 亿股。与 Odessa 燃气联合循环电厂签订 20 年、207MW 购电协议（对手方 New Era Energy and Digital）。Cogentrix 收购于 2026-10-30 完成（8-K，2026-11-05 提交）：现金约 $2.2B（已扣除营运资本、所得现金及承担约 $1.7B 债务等调整），另发行 5,000,000 股 Vistra 普通股（约定价每股 $185），取得约 5,500MW 燃气装机。10–11 月 Vistra 赎回全部 $1B A 系列优先股、支付上述约 $2.2B、提满应收账款融资额度并偿还约 $1.7B 承担债务，备考可用流动性由 9-30 的 $8,923M 降至约 $5.4B。业绩稿未说明 2026／2027 指引是否包含 Cogentrix，未附资产负债表，也未提及 Meta 核电 PPA。 估值与立场仍按 2026-07-30 历史基础；Q3 实绩与 Cogentrix 交割后的资本结构待 Mode B 重算，价格、估值数字、立场和确信度本包未更新。",
     "tags": [
       "AI电力",
       "核电",
@@ -8275,7 +8275,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-08-11",
+    "lastUpdate": "2026-11-07",
     "file": "/invest/research/reports/view.html?id=vistra-2026",
     "markdownFiles": {
       "zh": "/invest/research/Vistra_深度研究报告_2026-07.md",
@@ -8285,18 +8285,19 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "与 CEG 成对覆盖 power 层：VST 是核电 + 燃气 + merchant power 的高 beta 仪表盘，检验 AI 电力需求是否扩散到可调度容量",
-      "2026Q1 收入 $5.64B、净利润 $1.03B、营业利润 $1.50B、FCF $316M；Q1 净债务约 $19.3B",
-      "Meta 20 年核电协议覆盖 Perry、Davis-Besse、Beaver Valley uprates，公开报道约 2.2GW；Cogentrix 交易主口径约 $4B net purchase price，seller-side 公开报道也有约 $4.7B total consideration 口径，将增加约 5,500MW 燃气容量",
-      "2026-07-30 收盘 $148.62、市值约 $50.1B、EV 约 $69.4B、约 22.6x TTM GAAP P/E、约 3.6x EV/TTM sales；30%牛市/40%基准/30%熊市情景推导为谨慎/中确信"
+      "Q3 2026（2026-11-06 盘前）：Ongoing Operations 调整后 EBITDA $2,378M（上年同期 $1,581M）；GAAP 净利润 $1,140M 含 $559M 套保未实现收益",
+      "Texas 分部 $1,227M、East 分部 $979M；公司归因于已实现电价与容量价格上升及 Lotus 电厂贡献",
+      "2026 指引收窄为 EBITDA $7.1–7.5B、FCFbG $4.3–4.7B；2027 区间 $7.7–8.5B 与 $4.3–5.1B；追加 $1.5B 回购",
+      "Cogentrix 2026-10-30 交割：现金约 $2.2B＋500 万股（约定 $185），约 5,500MW；已偿还约 $1.7B 承担债务，备考流动性约 $5.4B",
+      "与 New Era Energy and Digital 签 Odessa 电厂 20 年 207MW 购电协议；估值与立场未更新"
     ],
-    "summaryEn": "July 7, 2026 v5 update: VST is the nuclear-plus-gas high-beta dashboard for the AI-infrastructure power layer. The price anchor is $148.62 (Jul 30, 2026 close), about $50.1B market cap, about $69.4B EV, about 3.6x EV/TTM sales, and about $19.3B net debt. A 30% bull / 40% base / 30% bear grid shows real upside but faster downside, moving the v5 stance to cautious / medium conviction.",
+    "summaryEn": "2026-11-07 — Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1 results release, before the open on 2026-11-06) GAAP net income was $1,140M (Q3 2025: $652M), including a $559M unrealized hedge gain expected to settle in future years; Ongoing Operations Adjusted EBITDA was $2,378M (Q3 2025: $1,581M, up $797M), which the company attributes to higher realized energy and capacity prices, three months of contribution from the Lotus plants and Martin Lake Unit 1 returning to service. Segment adjusted EBITDA: Texas $1,227M (Q3 2025: $784M), East $979M ($719M), Retail $98M ($37M), West $76M ($63M). 2026 guidance was narrowed to Ongoing Operations Adjusted EBITDA of $7.1-7.5B and Adjusted FCFbG of $4.3-4.7B; 2027 ranges were initiated at $7.7-8.5B and $4.3-5.1B. The board authorized an additional $1.5B of repurchases (about $2.5B remaining, expected to be completed no later than year-end 2028); about 339M shares were outstanding on 2026-11-02. Vistra signed a 20-year, 207MW power purchase agreement with New Era Energy and Digital at its Odessa combined-cycle gas plant. The Cogentrix acquisition closed on 2026-10-30 (8-K filed 2026-11-05): about $2.2B of cash, net of adjustments for working capital, acquired cash and the assumption of about $1.7B of debt, plus 5,000,000 Vistra shares at an agreed $185 per share, for about 5,500MW of gas capacity. In October and November Vistra redeemed all $1B of its Series A preferred stock, paid the roughly $2.2B, drew the full accounts receivable financing capacity and repaid about $1.7B of the assumed debt, taking pro forma available liquidity to about $5.4B from $8,923M at 9-30. The release does not say whether the 2026 or 2027 guidance includes Cogentrix, carries no balance sheet, and does not mention the Meta nuclear PPAs. Valuation and stance remain on the 2026-07-30 historical basis; Q3 actuals and the post-Cogentrix capital structure await Mode B recomputation, and price, valuation figures, stance and conviction are not updated in this package.",
     "chainLayer": "power",
     "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "cautious",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q2 2026 monitoring / 2026-07-30 valuation frame",
+    "reportedPeriod": "Q3 2026 monitoring / 2026-07-30 valuation frame",
     "related": [
       "constellation-energy-2026",
       "gevernova-2026",
@@ -8339,13 +8340,14 @@
           "en": "the about $4B net-purchase-price deal (public seller-side reporting also frames it near $4.7B total consideration) closes on time and converts about 5,500MW of gas capacity into data-center/capacity-market value, or suffers delays and missed synergies"
         },
         "latest": {
-          "zh": "2026-08-07 Q2 财报：已取得 FERC 对 Cogentrix 收购的批准，交易尚未交割，公司未披露新的交割日或协同指引；2026/2027 指引仍不含 Cogentrix。严格对照本项触发条件：正向一腿要求『按期完成**且**把约 5,500MW 转化为数据中心/容量市场收益』，负向一腿要求『延期或协同落空』——两腿本季均未触发。FERC 批准是朝向交割条件的进展，而不是条件本身。",
-          "en": "2026-08-07 Q2 release: FERC approval of the Cogentrix acquisition has been received. The deal has not closed, and no revised close date or synergy guidance was given; 2026 and 2027 guidance still exclude Cogentrix. Graded strictly against this item own trigger: the positive branch requires an on-time close **and** conversion of about 5,500MW into data-center/capacity-market value, and the negative branch requires delays or missed synergies — neither branch fired this quarter. FERC approval is progress toward a closing condition, not the condition itself."
+          "zh": "2026-11-05 8-K（Item 2.01）与 2026-11-06 业绩稿：Cogentrix 收购于 2026-10-30 完成，对价为现金约 $2.2B（已扣除营运资本、所得现金及承担约 $1.7B 债务等调整）加 5,000,000 股 Vistra 普通股（约定价每股 $185，卖方锁定至 2027-01-30），取得约 5,500MW 燃气装机；10–11 月已偿还约 $1.7B 承担债务。按本项自身触发条件评级：正向分支要求按期交割且把约 5,500MW 转化为数据中心或容量市场收益，交割已发生，但转化尚无披露；负向分支（延期或协同落空）也未出现。评级为不明。证据边界：原定交割时间表与协同目标未在本次文件中给出，业绩稿也未说明 2026／2027 指引是否包含 Cogentrix。",
+          "en": "2026-11-05 8-K (Item 2.01) and 2026-11-06 results release: the Cogentrix acquisition closed on 2026-10-30 for about $2.2B of cash (net of adjustments for working capital, acquired cash and the assumption of about $1.7B of debt) plus 5,000,000 Vistra shares at an agreed $185 per share (seller lock-up to 2027-01-30), adding about 5,500MW of gas capacity; about $1.7B of the assumed debt was repaid in October and November. Graded strictly against this item own trigger: the positive branch requires an on-time close and conversion of about 5,500MW into data-center or capacity-market value — the close happened, but no conversion has been disclosed; the negative branch (delays or missed synergies) has not appeared either. Graded unclear. Evidence limits: neither filing restates the original closing timetable or synergy targets, and the release does not say whether the 2026 or 2027 guidance includes Cogentrix."
         },
         "nextCheck": "交易完成与协同指引 / close and synergy guidance",
         "nextCheckDate": "2026-12",
         "reading": "unclear",
-        "readingAsOf": "2026-08-07"
+        "readingAsOf": "2026-11-06",
+        "readingNote": "已交割，但 5,500MW 转化腿未观测。 / Closed, but the 5,500MW conversion leg is not observed."
       },
       {
         "id": "gas-capacity-market",
@@ -8360,13 +8362,14 @@
           "en": "PJM/Texas data-center load pushes capacity prices or dispatchable generation value higher, or the capacity premium fades quickly"
         },
         "latest": {
-          "zh": "2026-08-07 Q2 财报：持续经营调整后 EBITDA $1,767M，同比增加 $418M（>30%），公司归因于已实现电价与容量价格上升*以及* Lotus 收购电厂三个月的贡献——因此增幅并非纯有机价格。分部：Texas $311M（2025Q2 $142M）、East $642M（$418M）、Retail $773M（$756M）、West $68M（$49M）。容量溢价未见快速回落。",
-          "en": "2026-08-07 Q2 release: Ongoing Operations Adjusted EBITDA of $1,767M, up $418M (more than 30%) year over year, which the company attributes to higher realized energy and capacity prices *and* three months of contribution from the plants acquired from Lotus — so the increase is not purely organic pricing. By segment: Texas $311M (Q2 2025: $142M), East $642M ($418M), Retail $773M ($756M), West $68M ($49M). The capacity premium did not fade."
+          "zh": "Q3 2026 业绩稿（2026-11-06）：Ongoing Operations 调整后 EBITDA $2,378M，较上年同期 $1,581M 增加 $797M，公司归因于已实现电价与容量价格上升、Lotus 电厂三个月贡献以及 Martin Lake 1 号机组恢复运行，所以增幅并非全部来自价格。分部：Texas $1,227M（上年 $784M）、East $979M（$719M）。另与 New Era Energy and Digital 签 Odessa 燃气电厂 20 年、207MW 购电协议。容量溢价没有快速回落，评级为阈内。证据边界：业绩稿未拆分价格与 Lotus 贡献，也未给出 PJM／ERCOT 容量价格本身。",
+          "en": "Q3 2026 results release (2026-11-06): Ongoing Operations Adjusted EBITDA was $2,378M, up $797M from $1,581M, which the company attributes to higher realized energy and capacity prices, three months of Lotus plant contribution and Martin Lake Unit 1 returning to service, so the increase is not purely price. By segment: Texas $1,227M (Q3 2025: $784M), East $979M ($719M). Vistra also signed a 20-year, 207MW power purchase agreement with New Era Energy and Digital at its Odessa gas plant. The capacity premium did not fade quickly, so the item is graded within. Evidence limits: the release does not split price from the Lotus contribution and gives no PJM or ERCOT capacity prices themselves."
         },
         "nextCheck": "PJM/Texas 容量价格",
         "nextCheckDate": "2026-09",
         "reading": "within",
-        "readingAsOf": "2026-08-07"
+        "readingAsOf": "2026-11-06",
+        "readingNote": "已实现电价与容量价格上升被列为 Q3 EBITDA 增长主因之一，溢价未回落。 / Higher realized energy and capacity prices are named among the main Q3 EBITDA drivers; the premium did not fade."
       },
       {
         "id": "leverage-fcf-discipline",
@@ -8381,13 +8384,14 @@
           "en": "Cogentrix, capex, buybacks or fuel/operating volatility raises net-debt/EBITDA and FCF pressure"
         },
         "latest": {
-          "zh": "Vistra 已于 2026-08-10 提交 2026 年第二季度 10-Q（报告期至 2026-06-30），补上了 2026-08-07 财报缺失的资产负债表。2026-06-30 与 2026-03-31 的资产负债表科目对比（两个日期均取自 Vistra 的 10-Q）：含一年内到期部分的长期债务 $19,595M 对 $19,163M；未摊销溢价、折价与发行费用前的长期债务 $19,764M 对 $19,332M；短期借款 $0 对 $0；应收账款融资 $300M 对 $750M；一年内到期的远期回购义务 $613M 对 $641M；现金及现金等价物 $435M 对 $634M。上述类债务科目减去现金后，2026-06-30 合计 $20,073M，2026-03-31 合计 $19,920M，环比上升约 0.8%。上半年经营活动产生的现金为 $2,222M，2025 年上半年为 $1,171M；含核燃料采购与 LTSA 预付款的资本开支为 $1,572M，去年同期 $1,458M。严格对照本监测项自身的触发条件：类债务净额环比仅上升约 0.8%，持续经营调整后 EBITDA 同比增长逾 30%（Q2 为 $1,767M），上半年经营现金流亦同比接近翻倍；合并来看，本次披露没有显示负向分支所要求的显著杠杆或 FCF 压力。这里不是正式的净债务/EBITDA 环比计算：Vistra 并未列示“净债务”小计，EBITDA 对比口径也是同比而非环比；本报告的估值框架未变，也不因本次读数而重述。Cogentrix 收购尚未交割，触发条件中的这一腿仍未被检验，其对价亦未体现在本张资产负债表上。上半年偿还长期债务 $3,859M 含再融资，并非净债务变动。",
-          "en": "Vistra filed its Q2 2026 10-Q on 2026-08-10 (period ended 2026-06-30), supplying the balance sheet the 2026-08-07 release lacked. Balance-sheet lines at 2026-06-30 against 2026-03-31, both taken from Vistra 10-Q filings: long-term debt including amounts due currently $19,595M vs $19,163M; long-term debt before unamortized premiums, discounts and issuance costs $19,764M vs $19,332M; short-term borrowings $0 vs $0; accounts receivable financing $300M vs $750M; forward repurchase obligation due currently $613M vs $641M; cash and cash equivalents $435M vs $634M. Those debt-like lines less cash total $20,073M at 2026-06-30 against $19,920M at 2026-03-31, up about 0.8% quarter over quarter. First-half cash provided by operating activities was $2,222M against $1,171M in H1 2025, with capital expenditures including nuclear fuel purchases and LTSA prepayments of $1,572M against $1,458M. Graded against this item's trigger: debt-like obligations net of cash rose only about 0.8%, while Ongoing Operations Adjusted EBITDA rose more than 30% year over year ($1,767M in Q2) and first-half operating cash flow nearly doubled year over year; taken together, the filing does not show the meaningful leverage or FCF pressure required by the negative branch. This is not a formal quarter-over-quarter net-debt/EBITDA calculation: Vistra presents no \"net debt\" subtotal, and the EBITDA comparison is year over year rather than quarter over quarter. The report's valuation frame is unchanged. The Cogentrix acquisition has not closed, so that leg of the trigger remains untested and none of its consideration appears on this balance sheet. First-half repayments of long-term debt of $3,859M include refinancing and are not a net-debt movement."
+          "zh": "Q3 2026 业绩稿（2026-11-06）：九个月经营现金流 $4,330M（上年同期 $2,638M），资本开支（含核燃料与 LTSA 预付）$2,319M；九个月发债 $7,985M、偿债 $3,862M、回购 $917M。季后：赎回全部 $1B A 系列优先股、支付 Cogentrix 现金约 $2.2B、提满应收账款融资额度并偿还约 $1.7B 承担债务，备考可用流动性由 9-30 的 $8,923M 降至约 $5.4B；董事会追加 $1.5B 回购。2026 年 FCFbG 指引 $4.3–4.7B、2027 年 $4.3–5.1B。评级为不明：业绩稿未附资产负债表，季末与交割后的净债务／EBITDA 无法计算，需 Q3 10-Q。",
+          "en": "Q3 2026 results release (2026-11-06): nine-month operating cash flow was $4,330M (prior-year period $2,638M) and capital expenditures including nuclear fuel and LTSA prepayments $2,319M; nine-month debt issuance was $7,985M, repayments $3,862M and buybacks $917M. After the quarter Vistra redeemed all $1B of Series A preferred stock, paid about $2.2B of Cogentrix cash, drew the full accounts receivable financing capacity and repaid about $1.7B of assumed debt, taking pro forma available liquidity to about $5.4B from $8,923M at 9-30; the board added a $1.5B repurchase authorization. 2026 FCFbG guidance is $4.3-4.7B and 2027 $4.3-5.1B. Graded unclear: the release carries no balance sheet, so quarter-end and post-close net debt/EBITDA cannot be computed until the Q3 10-Q."
         },
         "nextCheck": "Q3 10-Q 资产负债表与经营现金流 / Q3 10-Q balance sheet and operating cash flow",
         "nextCheckDate": "2026-11",
-        "reading": "within",
-        "readingAsOf": "2026-08-10"
+        "reading": "unclear",
+        "readingAsOf": "2026-11-06",
+        "readingNote": "缺资产负债表，净债务／EBITDA 无法计算。 / No balance sheet, so net debt/EBITDA cannot be computed."
       },
       {
         "id": "merchant-power-valuation",
