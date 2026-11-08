@@ -11660,7 +11660,7 @@
   {
     "date": "2026-11-06",
     "scoredCount": 120,
-    "medianRelativePct": -1.9,
+    "medianRelativePct": -1.6,
     "nonNeutralBeatRate": 0.4177215189873418,
     "byBenchmark": {
       "COPX": {
@@ -11676,12 +11676,12 @@
       },
       "PAVE": {
         "scoredCount": 1,
-        "medianRelativePct": -7.8,
+        "medianRelativePct": -8.5,
         "nonNeutralBeatRate": null,
         "byStance": {
           "neutral-watch": {
             "scoredCount": 1,
-            "medianRelativePct": -7.8
+            "medianRelativePct": -8.5
           }
         }
       },
@@ -11696,7 +11696,7 @@
           },
           "neutral-watch": {
             "scoredCount": 4,
-            "medianRelativePct": 6.5
+            "medianRelativePct": 6.2
           },
           "cautious": {
             "scoredCount": 10,
@@ -11710,12 +11710,12 @@
       },
       "REMX": {
         "scoredCount": 1,
-        "medianRelativePct": 4.4,
+        "medianRelativePct": 7.1,
         "nonNeutralBeatRate": null,
         "byStance": {
           "neutral-watch": {
             "scoredCount": 1,
-            "medianRelativePct": 4.4
+            "medianRelativePct": 7.1
           }
         }
       },
@@ -11738,13 +11738,13 @@
           },
           "bearish-avoid": {
             "scoredCount": 1,
-            "medianRelativePct": -21.8
+            "medianRelativePct": -21.2
           }
         }
       },
       "SRVR": {
         "scoredCount": 4,
-        "medianRelativePct": 6.0,
+        "medianRelativePct": 5.8,
         "nonNeutralBeatRate": 1.0,
         "byStance": {
           "constructive": {
@@ -11783,7 +11783,7 @@
           },
           "cautious": {
             "scoredCount": 12,
-            "medianRelativePct": -10.6
+            "medianRelativePct": -7.6
           }
         }
       }
