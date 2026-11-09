@@ -6,6 +6,13 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>Credo 深度研究报告 - 从有源铜缆到光学的架构与每股现金流检验 / Credo Deep Research Report - Testing Architecture and Cash per Share from Copper to Optics</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=crdo-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=crdo-2026#crdo-2026@2026-11-09</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+      <description>2026-11-09 完整估值复核，以 2026-11-06 常规收盘 $120.51、最近披露的 2026-08-25 普通股 187.951918M 为代理：市值 $22.650B、EV $21.896B，13.76x EV/TTM 收入、9.95x 自估 FY2027E 收入。中性观察／低确信：固定 2029-10-19 终点，剩余 1,075 天／2.9432 年；重算现金桥后 20/50/30 加权终值 $179.30、年化 +14.45%，但 10/50/40 权重仅 +7.71%，DCF 中点 $85.42 低于市价。资本数据为发行人最近披露（股数 2026-08-25、现金 2026-08-01；截至 2026-11-09 无更新披露），不是 11 月实际余额；光学、集中度和期后资本未知仍保留。</description>
+    </item>
+    <item>
       <title>Vistra 深度研究报告 - AI 电力约束的核电与燃气高 beta 仪表盘 / Vistra Deep Research Report - Nuclear and Gas High-Beta Dashboard for AI Power</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=vistra-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=vistra-2026#vistra-2026@2026-11-07</guid>
@@ -305,13 +312,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=rklb-2026#rklb-2026@2026-10-20</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
       <description>首次完整双语覆盖。Q2 2026 收入 $234.066M（+61.99%），约 81% 来自 Space Systems，但单季 FCF -$110.122M。10 月 14 日 Neutron 首飞目标移至 2027，Iridium 仍待交割；9 月 $1.944B 毛额 ATM 已发行约 29.3M 股。2026-10-16 收盘 $50.84，重建经济股数约 668.711M、市值 $33.997B；已知现金桥 EV 约 $29.720B、38.64x TTM，非实时认证余额。成交条件下 20%/50%/30% 牛/基准/熊终值 $86.80/$36.45/$8.69，加权 $38.19、四年年化 -6.90%，对照 8% 参考与 15% 执行门槛；谨慎、中确信。</description>
-    </item>
-    <item>
-      <title>Credo 深度研究报告 - 从有源铜缆到光学的架构与每股现金流检验 / Credo Deep Research Report - Testing Architecture and Cash per Share from Copper to Optics</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=crdo-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=crdo-2026#crdo-2026@2026-10-19</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
-      <description>2026-10-19 首次完整覆盖：以 2026-10-16 常规收盘 $169.70、187.951918M 股为锚，市值 $31.895B、EV $31.141B，19.57x EV/TTM 收入、14.16x 自估 FY2027E 收入。谨慎／中确信：20/50/30 情景加权 2029 年每股终值 $179.50、年化 +1.89%，低于 8% 参照及 10% 风险调整门槛；基准 FY2027—2030 CAGR 29.7%，10% 回报反需 38.3%。AEC 超过 90% 是收入增量口径，四家终端占 84%；光学超过 $500M 为公司 FY2027 预期，非 DustPhotonics 单体实际。</description>
     </item>
     <item>
       <title>Cerebras 深度研究报告 - 晶圆级推理被一份 OpenAI 合同定价 / Cerebras Deep Research Report - Wafer-Scale Inference Priced by One OpenAI Contract</title>

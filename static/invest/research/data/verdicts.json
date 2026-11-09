@@ -2773,6 +2773,25 @@
       "daysHeld": 38,
       "migration": false,
       "benchmarkSymbol": "SMH"
+    },
+    {
+      "reportId": "crdo-2026",
+      "fromStance": "cautious",
+      "toStance": "neutral-watch",
+      "toConviction": "low",
+      "startDate": "2026-10-19",
+      "startPrice": 169.7,
+      "endDate": "2026-11-09",
+      "endPrice": 120.51,
+      "changePct": -29.0,
+      "benchmarkChangePct": -15.4,
+      "relativePct": -13.6,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -15.4,
+      "bookRelativePct": -13.6,
+      "daysHeld": 21,
+      "migration": false,
+      "benchmarkSymbol": "SMH"
     }
   ]
 }
