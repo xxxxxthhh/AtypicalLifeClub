@@ -1,7 +1,7 @@
 # Credo (CRDO) Deep Research Report
 
 Coverage date: 2026-10-19
-Last updated: 2026-10-19
+Last updated: 2026-11-09
 Ticker: NASDAQ: CRDO
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -9,26 +9,39 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 ## Executive summary <!-- report-module:overview -->
 
-**One-line thesis:** Credo has converted demand for high-speed connectivity into substantial revenue and profit and is expanding from active electrical cables into optical DSPs, silicon photonics and optical transceivers. At the **$169.70 regular-session close on 2026-10-16**, however, **19.57x EV/TTM revenue and 14.16x this report's FY2027E revenue** still require sustained growth in cash flow per share. It is cheaper than ALAB's same-date 40.21x EV/TTM revenue without yet offering a sufficient margin of safety.
+~~**One-line thesis:** Credo has converted demand for high-speed connectivity into substantial revenue and profit and is expanding from active electrical cables into optical DSPs, silicon photonics and optical transceivers. At the **$169.70 regular-session close on 2026-10-16**, however, **19.57x EV/TTM revenue and 14.16x this report's FY2027E revenue** still require sustained growth in cash flow per share. It is cheaper than ALAB's same-date 40.21x EV/TTM revenue without yet offering a sufficient margin of safety.~~
 
-**Current stance: cautious / medium conviction.** The 20% bull / 50% base / 30% bear grid produces conditional values of $346.71 / $188.49 / $53.05 per share on 2029-10-19. Its weighted terminal value of $179.50 implies **+1.89% annualized**, below this report's 10% hurdle. The probability-weighted average of the individual annualized returns is **-2.48%**; these statistics differ, and neither guarantees an attainable return. Conviction is medium because a single favorable adjustment of one exit-multiple turn or five revenue-CAGR points still misses the hurdle; optical conversion, customer structure and architecture can nevertheless change the distribution.
+~~**Current stance: cautious / medium conviction.** The 20% bull / 50% base / 30% bear grid produces conditional values of $346.71 / $188.49 / $53.05 per share on 2029-10-19. Its weighted terminal value of $179.50 implies **+1.89% annualized**, below this report's 10% hurdle. The probability-weighted average of the individual annualized returns is **-2.48%**; these statistics differ, and neither guarantees an attainable return. Conviction is medium because a single favorable adjustment of one exit-multiple turn or five revenue-CAGR points still misses the hurdle; optical conversion, customer structure and architecture can nevertheless change the distribution.~~
 
-**Catalysts and window:** Over the next 6-12 months, test the company's expectation for more than $500M of FY2027 optical-portfolio revenue, the 1.6T transition and cash conversion; test actual ALC shipments in 2027. The latest reported quarter ended 2026-08-01. Unreported FY2027 Q2 is not treated as an actual result. The investment window extends from late 2026 through 2029. Its role in the interconnect layer is an **architecture check**, rather than inferring an independent supply bottleneck from growth alone.
+**2026-11-09 update:** Full valuation review dated 2026-11-09 at the 2026-11-06 regular close of $120.51, using the latest disclosed 187.951918M ordinary shares dated 2026-08-25 as a proxy: $22.650B market cap and $21.896B EV, 13.76x EV/TTM revenue and 9.95x report-estimated FY2027E revenue. Neutral-watch / low conviction: the fixed 2029-10-19 endpoint leaves 1,075 days / 2.9432 years. The rebuilt cash bridge gives $179.30 weighted terminal value at 20/50/30 and +14.45% annualized, but 10/50/40 weights give only +7.71% and the $85.42 DCF midpoint is below the market. Capital inputs are the latest issuer disclosures (shares 2026-08-25, cash 2026-08-01; none newer as of 2026-11-09), not actual November balances; optical, concentration and subsequent-capital unknowns remain open.
 
-| Key measure | Current anchor and definition |
+**Catalysts and window:** Over the next 6-12 months, test the company's expectation for more than $500M of FY2027 optical-portfolio revenue, the 1.6T transition and cash conversion; test ALC commercial shipment timing (the 2027 shipment plan is review-pending/unverified this run). The latest reported quarter ended 2026-08-01. Unreported FY2027 Q2 is not treated as an actual result. The investment window extends from late 2026 through 2029. Its role in the interconnect layer is an **architecture check**, rather than inferring an independent supply bottleneck from growth alone.
+
+| Historical Key measure | Historical anchor, 2026-10-19 |
 |---|---|
-| Share price | $169.70, regular-session US close, 2026-10-16; after-hours excluded |
-| Ordinary shares / market capitalization | 187.951918M, 10-Q cover dated 2026-08-25; implied $31.895B, not a claim about actual October shares |
-| Cash and short-term investments | $764.258M at 2026-08-01, after the DustPhotonics closing |
-| Adjusted net cash / EV | $754.258M / $31.141B; cash less the $10M cash-contingent acquisition liability; no bank-borrowing or bond financing line reported, with lease and procurement obligations discussed separately |
-| FY2026 revenue / GAAP net income | $1,335.116M / $472.279M; fiscal year ended 2026-05-02 |
-| TTM revenue / GAAP net income | $1,591.045M / $538.305M, calculated as FY2026 + Q1FY2027 - Q1FY2026 |
-| TTM CFO / cash capex / cash FCF | $500.355M / $61.757M / $438.598M; FCF means CFO less cash capex |
-| TTM SBC / FCF-SBC sensitivity | $235.162M / $203.436M; the latter is not a company-reported cash-flow measure |
-| Valuation | 19.57x EV/TTM revenue; 14.16x EV/estimated FY2027E revenue; 59.25x market cap/TTM GAAP net income; 71.00x EV/TTM FCF |
-| FCF yield | 1.38%; the sensitivity after an economic charge for SBC is 0.64%, both against ordinary-share market cap |
-| Latest quarter | Q1FY2027 revenue $479.003M, +114.7% year over year and +9.6% sequentially; GAAP / non-GAAP gross margin 64.5% / 68.0% |
-| Customers | Four end customers represented 84% of Q1 revenue; the two largest billing customers were 43% / 28%, a different measure |
+| Historical Share price | $169.70, regular-session US close, 2026-10-16; after-hours excluded |
+| Historical Ordinary shares / market capitalization | 187.951918M, 10-Q cover dated 2026-08-25; implied $31.895B, not a claim about actual October shares |
+| Historical Cash and short-term investments | $764.258M at 2026-08-01, after the DustPhotonics closing |
+| Historical Adjusted net cash / EV | $754.258M / $31.141B; cash less the $10M cash-contingent acquisition liability; no bank-borrowing or bond financing line reported, with lease and procurement obligations discussed separately |
+| Historical FY2026 revenue / GAAP net income | $1,335.116M / $472.279M; fiscal year ended 2026-05-02 |
+| Historical TTM revenue / GAAP net income | $1,591.045M / $538.305M, calculated as FY2026 + Q1FY2027 - Q1FY2026 |
+| Historical TTM CFO / cash capex / cash FCF | $500.355M / $61.757M / $438.598M; FCF means CFO less cash capex |
+| Historical TTM SBC / FCF-SBC sensitivity | $235.162M / $203.436M; the latter is not a company-reported cash-flow measure |
+| Historical Valuation | 19.57x EV/TTM revenue; 14.16x EV/estimated FY2027E revenue; 59.25x market cap/TTM GAAP net income; 71.00x EV/TTM FCF |
+| Historical FCF yield | 1.38%; the sensitivity after an economic charge for SBC is 0.64%, both against ordinary-share market cap |
+| Historical Latest quarter | Q1FY2027 revenue $479.003M, +114.7% year over year and +9.6% sequentially; GAAP / non-GAAP gross margin 64.5% / 68.0% |
+| Historical Customers | Four end customers represented 84% of Q1 revenue; the two largest billing customers were 43% / 28%, a different measure |
+
+| Current key facts, reviewed 2026-11-09 | Convention |
+|---|---|
+| Regular close | $120.51 / 2026-11-06 |
+| Dated shares / equity cap proxy | 187.951918M / $22.650B |
+| Dated adjusted cash / EV proxy | $754.258M / $21.896B |
+| EV/TTM revenue / EV/FY2027E | 13.76x / 9.95x |
+| Market cap/TTM net income / EV/TTM FCF | 42.08x / 49.92x |
+| FCF yield / after-SBC sensitivity | 1.94% / 0.90% |
+| Weighted terminal / horizon / annualized | $179.30 / 2.9432 years / +14.45% |
+| Stance / conviction | neutral-watch / low |
 
 Sources: [10-Q](https://www.sec.gov/Archives/edgar/data/1807794/000162828026060111/crdo-20260801.htm), [FY2026 10-K](https://www.sec.gov/Archives/edgar/data/1807794/000162828026043303/crdo-20260502.htm), [Q1 release](https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Technology-Group-Holding-Ltd-Reports-First-Quarter-of-Fiscal-Year-2027-Financial-Results/default.aspx), [CRDO price history](https://stockanalysis.com/stocks/crdo/history/). All model forecasts are this report's assumptions, not company guidance or consensus. External CAGR estimates without a verifiable period and data source are not used.
 
@@ -44,11 +57,11 @@ There is one reportable segment and no current revenue or profit breakdown by pr
 | Toucan PCIe / CXL retimers and PCIe AEC | PCIe Gen6 / CXL3, 64G per lane; listed PCIe AEC reach up to 7m | Products and demonstrations exist; stand-alone revenue is undisclosed | Direct overlap with ALAB Aries, without making it a full substitute for Scorpio fabric switching |
 | Optical DSP and ZeroFlap optical transceivers | Listed 800G and 1.6T products, with DR / FR variants around 500m / 2km; 224G-per-lane DSP technology supports faster ports | The 1.6T family expanded on 2026-09-15; announcement and volume revenue are separate milestones | Selling complete connections expands addressable revenue and manufacturing, inventory and channel responsibility |
 | DustPhotonics SiPho PIC | 400G / 800G / 1.6T PICs, with 3.2T, NPO and CPO roadmaps | Acquisition closed 2026-05-28; purchase accounting consideration $1.251B | Internal optical capability complements DSPs and modules, with acquisition returns still to be demonstrated |
-| ZeroFlap ALC | Wide-parallel micro-emitter optical architecture at 1.6T; company targets up to 50m and 12W per end | Announced 2026-10-12 for shipping in 2027; reliability figures are targets | Potential reach beyond copper, not evidence of current volume profit |
-| OmniConnect Weaver | AXI-over-VSR / LPDDR5X memory fan-out; product page lists 112G, 12 lanes, 250mm chiplet reach | Working emulation on AMD Versal shown on 2026-10-13; no quantified order book or material revenue | Adds an inference-memory option without establishing a realized market or earnings stream |
+| ZeroFlap ALC | Wide-parallel micro-emitter optical architecture at 1.6T; company targets up to 50m and 12W per end | Issuer newsroom dates the announcement 2026-10-12; the 2027 shipment plan is review-pending/unverified this run (original release unreadable, HTTP 403) and is not used as valuation or stance support; reliability figures are targets | Potential reach beyond copper, not evidence of current volume profit |
+| OmniConnect Weaver | AXI-over-VSR / LPDDR5X memory fan-out; product page lists 112G, 12 lanes, 250mm chiplet reach | Issuer newsroom lists the 2026-10-13 AMD programmable-logic accelerator release; the AMD Versal working-emulation detail is review-pending/unverified this run (original release unreadable, HTTP 403) and is not used as valuation or stance support; no quantified order book or material revenue | Adds an inference-memory option without establishing a realized market or earnings stream |
 | PILOT / SerDes IP | Link telemetry, diagnostics and underlying IP | Software revenue is not separately reported; historical IP-license revenue is verifiable | Supports qualification and debugging, without justifying subscription-software multiples |
 
-Product sources: [AEC](https://credosemi.com/products/zeroflapaec/), [PCIe](https://credosemi.com/products/pcie/), [optical modules](https://credosemi.com/products/zeroflap-optical-transceivers/), [1.6T launch](https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Expands-ZeroFlap-Portfolio-with-224G-Based-1-6T-Optical-Transceivers-Addressing-the-Growing-Demand-for-AI-Network-Infrastructure/default.aspx), [ALC](https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Unveils-1-6T-ZeroFlap-Active-Light-Cable-Industrys-First-Row-Scale-Wide-Parallel-Optical-Interconnect-for-AI-Data-Centers/default.aspx), [Weaver](https://credosemi.com/products/omniconnect/), [AMD demonstration](https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Breaks-the-Memory-Wall-Using-AMD-Programmable-Logic-Based-AI-Accelerators/default.aspx). Power, reach and reliability are issuer specifications or targets, not independent tests by this report.
+Product sources: [AEC](https://credosemi.com/products/zeroflapaec/), [PCIe](https://credosemi.com/products/pcie/), [optical modules](https://credosemi.com/products/zeroflap-optical-transceivers/), [1.6T launch](https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Expands-ZeroFlap-Portfolio-with-224G-Based-1-6T-Optical-Transceivers-Addressing-the-Growing-Demand-for-AI-Network-Infrastructure/default.aspx), [ALC](https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Unveils-1-6T-ZeroFlap-Active-Light-Cable-Industrys-First-Row-Scale-Wide-Parallel-Optical-Interconnect-for-AI-Data-Centers/default.aspx), [Weaver](https://credosemi.com/products/omniconnect/), [AMD demonstration](https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Breaks-the-Memory-Wall-Using-AMD-Programmable-Logic-Based-AI-Accelerators/default.aspx), [issuer newsroom](https://credosemi.com/news/). Power, reach and reliability are issuer specifications or targets, not independent tests by this report. **Review-pending (2026-11-09):** the ALC and AMD release pages returned HTTP 403 this run; the newsroom confirms only their 2026-10-12 / 2026-10-13 dates and the product pages confirm the listed specifications. The 2027 ALC shipment plan and the AMD Versal working-emulation detail remain unverified and do not support the valuation or stance.
 
 | Auditable revenue classification, $M | FY2024 | FY2025 | FY2026 / Q1FY2027 |
 |---|---:|---:|---|
@@ -67,14 +80,14 @@ Connectivity is not a single socket. Ethernet scale-out, PCIe/CXL, proprietary s
 |---|---|---|---|
 | Established growth driver | AECs; Q1 revenue $479.0M, +114.7% year over year | PCIe conditioning / fabrics; Q2 revenue $392.4M, +104.5% | Both show real ramps; different quarters and absolute revenue do not establish market shares |
 | Ethernet copper connectivity | ZeroFlap AECs between boards, within and around racks | Taurus smart cable modules | Most direct competitive overlap; compare end power, distance, failure rates and total cost |
-| PCIe / CXL | Toucan retimers / AECs; listed PCIe AEC reach up to 7m | Aries retimers; Aries7 announces copper and optical capabilities | Overlap exists, but a product announcement does not establish a migrated design win |
+| PCIe / CXL | Toucan retimers / AECs; listed PCIe AEC reach up to 7m | Aries retimers; Astera's product page describes Aries 7 as a PCIe 7 portfolio comprising copper connectivity and the first optical products | Overlap exists, but a product announcement does not establish a migrated design win |
 | Fabric switching | Current core evidence concerns connectivity and retiming, not disclosed large-scale merchant fabric-switch revenue | Scorpio P / X intelligent fabric switches | AEC strength does not imply replacing Scorpio; platform decisions determine the socket |
 | Memory connectivity | Weaver, AXI-over-VSR / LPDDR fan-out | Leo, CXL memory controller | Related goals, different protocols, reach and integration; not interchangeable units |
 | Optical expansion | DSP + SiPho PIC + modules, with ALC targeting up to 50m | Aries7 optical-interface roadmap alongside board-level qualification and software | Copper/optical boundaries are moving; each supplier must demonstrate cash returns |
 | Telemetry / platform control | PILOT; software revenue undisclosed | COSMOS; software revenue undisclosed | Aids deployment and switching costs without proving control of the whole platform |
 | Profit and customer economics | Q1 non-GAAP gross margin 68.0%; SBC/revenue 18.4% | Q2 non-GAAP gross margin 73.7%; customer warrants reduced revenue by $10.2M / 2.60% | Higher ALAB margins are not free of customer concessions; CRDO has substantial equity costs too |
 
-ALAB sources: [Q2 10-Q](https://www.sec.gov/Archives/edgar/data/1736297/000173629726000035/alab-20260630.htm), [Aries7 announcement](https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-announces-aries-7-industrys-first-pcie-7-signal), [existing ALAB report](/invest/research/reports/view.html?id=alab-2026). Its old October 9 valuation is not imported; Section 8 refreshes both prices to the same date. The unnamed ALAB warrant Holder cannot be identified as a specific customer from this filing, and billing-customer and end-customer concentration are not ranked together.
+ALAB sources: [Q2 10-Q](https://www.sec.gov/Archives/edgar/data/1736297/000173629726000035/alab-20260630.htm), [Aries7 announcement](https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-announces-aries-7-industrys-first-pcie-7-signal) (HTTP 403 this run; copper-and-optical scope checked on the [Aries optical-driver product page](https://www.asteralabs.com/products/aries-smart-optical-drivers/)), [existing ALAB report](/invest/research/reports/view.html?id=alab-2026). Its old October 9 valuation is not imported; the original comparison is historical context; this revision makes no current ALAB valuation claim. The unnamed ALAB warrant Holder cannot be identified as a specific customer from this filing, and billing-customer and end-customer concentration are not ranked together.
 
 | Competition / substitution path | Conditions for success | CRDO exposure and evidence to monitor |
 |---|---|---|
@@ -82,7 +95,7 @@ ALAB sources: [Q2 10-Q](https://www.sec.gov/Archives/edgar/data/1736297/00017362
 | Broadcom / Marvell | Strong SerDes, switching and custom-ASIC platforms co-designed with endpoints | Integrated functions reduce external sockets, or module makers choose rival DSPs; actual platform/order evidence is required |
 | DAC / ACC / AEC migration | Short links can use simpler cheaper solutions; longer/faster links need conditioning | Connectivity content per accelerator is not fixed and cannot mechanically track GPU growth |
 | Optical modules, LPO, NPO / CPO | Longer reach / bandwidth density or lower power from a changed placement | The AEC reach boundary can shrink; CRDO's optical portfolio helps hedge this, with different margins and supply responsibilities |
-| Micro-emitter ALC / SRMO | Volume shipment, interoperability, yield and system reliability in 2027 | A new architecture can expand demand and reduce traditional DSP/module content; net benefit is unknown |
+| Micro-emitter ALC / SRMO | Volume shipment (2027 timing review-pending/unverified), interoperability, yield and system reliability | A new architecture can expand demand and reduce traditional DSP/module content; net benefit is unknown |
 
 The $6B SiPho PIC market estimate for 2030 cited by Credo and LightCounting is an issuer-cited market forecast, not CRDO revenue guidance or an exclusive revenue pool. This report does not multiply it by an invented share. Observable defenses include production qualification, stable links and roughly 68% non-GAAP gross margin. Independent market share, product profits and durable exclusive shares remain unverified. The October [SRMO working-group announcement](https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Launches-Short-Reach-Micro-Emitter-Optics-SRMO-Standardization-for-AI-Data-Center-Scale-Up-and-Scale-Out-Applications/default.aspx) targets OCP approval in 2027; a working group is not an approved standard. The chain role therefore remains an architecture check, without upgrading it to a supply constraint.
 
@@ -145,7 +158,9 @@ The acquisition can reduce external PIC dependence while bringing yield, invento
 
 **Second, optics can expand share of customer spending.** If the company expectation for more than $500M of FY2027 optical revenue becomes verifiable shipment and collection data, growth can broaden beyond predominantly AEC-driven increments. Internal PICs and DSPs can reduce module costs and qualification friction. The necessary condition is that incremental optical profit exceeds displaced copper or externally sold component profit; all additional BOM spending cannot be counted as net new value.
 
-**Third, ALC and memory connectivity can extend the growth runway.** Planned 2027 ALC shipments targeting 50m mean the company need not only defend a few meters of copper. Weaver adds a separate memory-capacity option. Neither has sufficient revenue evidence today; success is allowed in the bull case without separate base-case option value. Bull FY2030E revenue is $7.0B, a 47.1% three-year CAGR from this report's $2.2B FY2027 estimate, with a 10x exit EV/revenue multiple, 35% cash FCF margin and 212M shares. The 2029 conditional value is $346.71, +104.3% from $169.70. It requires growth, profit, architectural expansion and an elevated exit multiple together; 20% weight reflects a possible outcome rather than the default.
+~~**Third, ALC and memory connectivity can extend the growth runway.** Planned 2027 ALC shipments targeting 50m mean the company need not only defend a few meters of copper. Weaver adds a separate memory-capacity option. Neither has sufficient revenue evidence today; success is allowed in the bull case without separate base-case option value. Bull FY2030E revenue is $7.0B, a 47.1% three-year CAGR from this report's $2.2B FY2027 estimate, with a 10x exit EV/revenue multiple, 35% cash FCF margin and 212M shares. The 2029 conditional value is $346.71, +104.3% from $169.70. It requires growth, profit, architectural expansion and an elevated exit multiple together; 20% weight reflects a possible outcome rather than the default.~~
+
+**Updated 2026-11-09:** The optimistic path still requires $7.0B FY2030E revenue, 47.1% fiscal CAGR, 10x exit revenue, 35% cash FCF margin and 212M net shares. The rebuilt cash bridge gives $346.41 / +187.46% cumulative / +43.16% annualized. Neither the higher return at the lower price nor the 20% weight establishes optical or ALC delivery; these remain conditional assumptions.
 
 ## 6. Bear case <!-- report-module:bullBear -->
 
@@ -155,7 +170,9 @@ The acquisition can reduce external PIC dependence while bringing yield, invento
 
 **Third, hedging copper with optics requires investment.** Micro-emitters, SiPho, DSPs, modules and PCIe cross different supply chains and qualification processes. Customers for stand-alone DSPs can become competitors to complete transceivers. Roadmap success does not guarantee the old margin structure, while failure can leave inventory and goodwill. These risks are not erased by a broader product list.
 
-**Fourth, a reasonable business can generate a poor stock return when multiples compress.** Bear FY2030E revenue of $2.8B still exceeds estimated FY2027 revenue, an 8.4% CAGR rather than disappearance. At 4x exit EV/revenue, 20% cash FCF margin and 230M shares, however, the conditional value is $53.05, down 68.7%. The current 19.57x TTM revenue multiple offers limited protection against slower but still profitable growth. The bear receives 30%, not zero, because concentration, capital needs and technological transition have factual foundations; its magnitude is not a claim that a specific design loss has already occurred.
+~~**Fourth, a reasonable business can generate a poor stock return when multiples compress.** Bear FY2030E revenue of $2.8B still exceeds estimated FY2027 revenue, an 8.4% CAGR rather than disappearance. At 4x exit EV/revenue, 20% cash FCF margin and 230M shares, however, the conditional value is $53.05, down 68.7%. The current 19.57x TTM revenue multiple offers limited protection against slower but still profitable growth. The bear receives 30%, not zero, because concentration, capital needs and technological transition have factual foundations; its magnitude is not a claim that a specific design loss has already occurred.~~
+
+**Updated 2026-11-09:** The same $2.8B revenue / 4x exit / 230M share stress now gives $52.94 after the shortened cash bridge, -56.07% from $120.51. At 13.76x EV/TTM revenue, slower but profitable growth still carries material downside; 30% pessimistic weight remains a judgment grounded in concentration and capital risk, not a claim of a proven design loss.
 
 ## 7. Key uncertainties and thesis-breaking conditions <!-- report-module:uncertainties -->
 
@@ -165,83 +182,79 @@ The acquisition can reduce external PIC dependence while bringing yield, invento
 | More than $500M optical conversion | Management's April expectation for FY2027, not reported actual revenue | FY2027 disclosure, expected around mid-2027; remain unverified if the company does not separate it |
 | Platforms and customer diversification | Four end customers at 84%, without identities or multi-year shares | Quarterly end-customer concentration and explicit design/dual-source evidence; no guesses from ODM destinations |
 | Cash collection and compensation | Q1 FCF-SBC -$5.0M, TTM +$203.4M | Two consecutive quarters alongside inventory/receivables; distinguish cash FCF and economic sensitivity |
-| Commercial stage of 1.6T / ALC / SRMO | Specifications and demonstrations; ALC shipment and SRMO approval targeted for 2027 | Customer volume, interoperability, revenue, yield and cash collection; a target is not approval |
+| Commercial stage of 1.6T / ALC / SRMO | Specifications and demonstrations; SRMO approval targeted for 2027; the 2027 ALC shipment plan is review-pending/unverified | Customer volume, interoperability, revenue, yield and cash collection; a target is not approval |
 | Dilution and capital spending | 187.95M ordinary shares, unvested/contingent equity, subsequent $102.4M deposits | Quarterly actual shares and cash uses; compare FY2027 ending shares with the 200.25M observation line |
 
-These unknowns can change the probabilities. Medium conviction concerns the evidence for insufficient returns at the present price, not certainty about an eventual architectural winner. Q2 revenue below the $525M guidance floor, non-GAAP gross margin below 65% for two consecutive quarters, a largest end customer above 40%, or FY2027 ending ordinary shares above 200.25M triggers a downgrade review. Thresholds are this report's discipline, not issuer commitments.
+~~These unknowns can change the probabilities. Medium conviction concerns the evidence for insufficient returns at the present price, not certainty about an eventual architectural winner. Q2 revenue below the $525M guidance floor, non-GAAP gross margin below 65% for two consecutive quarters, a largest end customer above 40%, or FY2027 ending ordinary shares above 200.25M triggers a downgrade review. Thresholds are this report's discipline, not issuer commitments.~~
 
-## 8. Valuation, reverse growth and scenario returns <!-- report-module:valuation -->
+## 8. Current valuation, capital bridge and expectations <!-- report-module:valuation -->
 
-**Common price and equity convention.** The market anchor is the 2026-10-16 regular close. October 19 in Singapore is not a completed new US trading session. Market cap is $169.70 x 187.951918M = $31.895B; EV is $31.895B - $764.258M + $10M cash-contingent consideration = $31.141B. Equity-contingent consideration is not also treated as debt, and operating leases/procurement commitments are not classified as funded debt. Ignoring the $10M liability would produce simplified EV of $31.131B, changing EV/TTM revenue by only about 0.006x; future dilution is materially more important.
+~~Historical ruling (2026-10-19): $169.70, $31.895B market cap, $31.141B EV, 19.57x / 14.16x revenue multiples; 20/50/30 values of $346.71 / $188.49 / $53.05 weighted to $179.50, +1.89% annualized, cautious / medium conviction. Old DCF $69.28-$111.30, midpoint $85.06.~~
 
-| Same-date comparison, 2026-10-16 | CRDO | ALAB |
-|---|---:|---:|
-| Regular close | $169.70 | $285.82 |
-| Dated issued-ordinary-share proxy, M | 187.951918, August 25 | 173.485104, July 31 |
-| Ordinary equity market cap, $B | 31.895 | 49.586 |
-| Cash, short-term / marketable securities, $B | 0.764 | 1.253 |
-| EV, $B | 31.141, including $0.010B cash-contingent liability | 48.333 |
-| Latest TTM revenue, $B | 1.591, through August 1 | 1.202, through June 30 |
-| EV/TTM revenue | **19.57x** | **40.21x** |
-| Quarterly non-GAAP gross margin | 68.0% | 73.7% |
-| Equity / customer economics to inspect | Q1 SBC $87.979M and acquisition-contingent equity | Q2 warrant revenue reduction $10.2M; unexercised warrants and SBC |
+**Updated 2026-11-09:** The latest completed regular close is [$120.51 on 2026-11-06](https://stockanalysis.com/stocks/crdo/history/); the $123.00 pre-market indication in the same source at 2026-11-09 08:50 EST is excluded because it is not a completed regular session. All figures are USD with no ADR or FX conversion. The [10-Q cover](https://www.sec.gov/Archives/edgar/data/1807794/000162828026060111/crdo-20260801.htm) gives 187.951918M ordinary shares dated August 25. August 1 cash of $466.869M plus short-term investments of $297.389M equals $764.258M; less $10M cash-contingent acquisition consideration gives $754.258M adjusted net cash. Market cap = $120.51 x 187.951918M = $22,650.086M; EV = $22,650.086M - $754.258M = $21,895.828M. Weighted diluted shares do not replace issued shares, and the already recorded $735.619M acquisition cash outflow is not deducted again. Leases and procurement commitments are separate from funded debt.
 
-ALAB TTM revenue is $852.525M - $351.367M + $700.761M = $1,201.919M. Sources: [FY2025 release](https://www.asteralabs.com/news/astera-labs-reports-fourth-quarter-and-full-year-2025-financial-results/), [Q2 10-Q](https://www.sec.gov/Archives/edgar/data/1736297/000173629726000035/alab-20260630.htm), [same-date ALAB history](https://stockanalysis.com/stocks/alab/history/). Both market caps use **issued ordinary shares**, not fully diluted equity. Different quarter ends are not forcibly calendarized. CRDO's 194.378M GAAP / 197.505M non-GAAP quarterly diluted weighted shares and ALAB's 183.340M quarterly diluted shares cannot replace current issued shares. CRDO deserves examination at its lower multiple, but an expensive ALAB is not a fair-value benchmark.
+**Capital boundary:** These are the latest disclosed inputs reopened this run, not actual November 6 shares or cash. Vesting, actual deposit payments and operating cash since August cannot be inferred from an index. The October 16 8-K reports shareholder votes, not a new capital denominator. As of 2026-11-09 the issuer's [EDGAR filing list](https://data.sec.gov/submissions/CIK0001807794.json) shows no newer total-share or balance-sheet disclosure after this 10-Q (filed 2026-09-02): later filings are Forms 4/144, a 2026-09-02 [S-8](https://www.sec.gov/Archives/edgar/data/1807794/000162828026060117/forms-82026.htm) and the 2026-10-16 8-K; the S-8 registers 9,807,841 + 297,379 plan-reserve shares, which is not an outstanding-share count. A same-period capital statement for the 2026-11-06 close does not exist publicly, so this review uses the latest available disclosure: shares as of 2026-08-25 and cash/debt as of 2026-08-01. Individual Form 4 holdings do not represent total company shares, and the absence of a newer disclosure does not establish unchanged capital. The model reserves the full additional $102.4M deposits and 212M-230M exit shares, with +5% / +10% exit-share stresses. The source limitation lowers conviction and requires rebuilding when subsequent statements change the bridge.
 
-**FY2027E denominator:** This report's $2.2B comprises Q1 actual revenue of $479M, Q2 guidance midpoint $530M and report estimates of $570M / $621M for Q3/Q4. The last two are not management guidance. A $2.10B-$2.35B range implies 14.83x-13.25x EV/revenue. Annualizing one quarter's non-GAAP EPS of $1.20 to $4.80 is merely multiplication by four, not a formal FY2027 EPS forecast, so it is not used to manufacture a forward P/E.
+**Denominators recomputed from originals:** [FY2026 10-K](https://www.sec.gov/Archives/edgar/data/1807794/000162828026043303/crdo-20260502.htm) + [Q1FY2027 10-Q](https://www.sec.gov/Archives/edgar/data/1807794/000162828026060111/crdo-20260801.htm) - prior Q1: revenue 1,335.116 + 479.003 - 223.074 = $1,591.045M; net income 472.279 + 129.425 - 63.399 = $538.305M; CFO 464.292 + 90.231 - 54.168 = $500.355M; capex 57.296 + 7.282 - 2.821 = $61.757M; FCF = $438.598M; SBC 182.638 + 87.979 - 35.455 = $235.162M; FCF-SBC = $203.436M. FY2027E $2.2B remains an analytical assumption: Q1 $479M, Q2 guidance midpoint $530M and report Q3/Q4 estimates of $570M/$621M, not new actuals.
 
-| Valuation method | Explicit inputs | Meaning / limitation |
-|---|---|---|
-| Current trading multiples | 19.57x EV/TTM revenue; 14.16x EV/report FY2027E revenue; 59.25x market cap/TTM GAAP net income | A profitable business still carrying a substantial growth premium |
-| Cash-flow check | 71.00x EV/TTM FCF; cash FCF yield 1.38%; after-SBC sensitivity 0.64% | Cash generation does not eliminate equity costs; financing-classified license payments remain separate |
-| Three-year exit scenarios | FY2030E revenue $2.8B-$7.0B; 4x-10x exit multiples; future net shares 212M-230M | Conditional 2029 values $53.05-$346.71, not present-day price targets |
-| Owner-cash-flow DCF | Five future rolling 12-month periods with revenue $2.6 / $3.3 / $4.1 / $5.0 / $5.8B; cash-flow margins after an economic cost for new SBC of 19% / 22% / 25% / 27% / 28%; discount rates 10%-12%, perpetual growth 2%-4% | Present values about $69.28-$111.30 per share; 11% / 3% midpoint $85.06 highlights post-growth multiple normalization |
+| Measure / convention | Current recalculation |
+|---|---|
+| EV/TTM revenue / EV/FY2027E | 13.76x / 9.95x |
+| Market cap/TTM GAAP net income / EV/TTM FCF | 42.08x / 49.92x |
+| FCF yield / FCF-SBC sensitivity | 1.94% / 0.90% |
+| FY2027E revenue sensitivity $2.10B–$2.35B | 10.43x–9.32x EV/revenue |
 
-The DCF uses 197.505M shares as an existing diluted proxy. New SBC is charged economically, so future awards do not also increase its share denominator. This is not a detailed conventional FCFF forecast: economic cash-flow margins summarize taxes, reinvestment, working capital and equity compensation. Known license and deposit requirements are not assumed free. Starting adjusted net cash of $754.258M is added once; projected cash flow is already discounted and the scenario grid's accumulated cash is not added again. The exit-multiple method instead uses cash FCF margins and future net shares and **does not subtract SBC again**. These are alternative ways to represent equity cost, not values to add or average together.
 
-| DCF value per share | Perpetual 2% | Perpetual 3% | Perpetual 4% |
-|---|---:|---:|---:|
-| Discount rate 10% | $87.90 | $97.93 | $111.30 |
-| Discount rate 11% | $77.54 | $85.06 | $94.73 |
-| Discount rate 12% | $69.28 | $75.08 | $82.34 |
+## 8.1 Current valuation scenarios and remaining horizon <!-- report-module:valuation -->
 
-## 8.1 Valuation scenario grid <!-- report-module:valuation -->
+The endpoint stays 2029-10-19, not a fresh rolling three years. From 2026-11-09 it leaves 1,075 days / 2.9432 years, using the preceding completed market session. FY2027-FY2030 revenue CAGR still spans three fiscal years and differs from the holding period. Revenue, multiple and probability assumptions are retained after reconsideration: no newly verified quarter or quantified evidence supports raising optical conversion probabilities. This is a model judgment, not proof of unchanged fundamentals. Only 344/365 of first-period revenue remains from 2026-11-09 to 2027-10-19; the other two calendar periods stay fixed. Forecast revenue or cash for the elapsed 21 days is not added as an actual.
 
-Returns run from the report date, 2026-10-19, to 2029-10-19: 1,096 days / 3.0007 years. Exit EV capitalizes then-forward FY2030E revenue, not a present-day fair value. The 10% hurdle is this report's required return, not a market observation. It adds two percentage points to an 8% cross-company reference for 84% end-customer concentration, equity costs and optical-integration uncertainty. The +1.89% result also misses 8%; at 8%, the conditional entry line is $142.49, so the conclusion does not depend on the hurdle difference. Exit sales multiples imply approximately 28.6x / 26.7x / 20.0x cash FCF for bull/base/bear, before SBC. Even the base case retains a quality-growth premium rather than holding today's approximately 20x sales indefinitely.
-
-| Scenario | FY2030E revenue / FY2027-2030 CAGR | Cash FCF margin / exit EV/revenue | Exit shares / adjusted net cash | Per-share terminal value / versus $169.70 / annualized | Probability |
+| Scenario | FY2030E revenue / fiscal CAGR | FCF margin / exit multiple | Exit shares / adjusted net cash | Per-share value / cumulative / annualized | Weight |
 |---|---|---|---|---|---|
-| Bull case | $7.0B / 47.1%; AEC and optics grow together and new architectures contribute meaningfully | 35% / 10x | 212M / $3.502B | $346.71 / +104.3% / +26.88% | 20% |
-| Base case | $4.8B / 29.7%; optical expectations convert, AEC growth slows, no separate ALC/Weaver option valuation | 30% / 8x | 217M / $2.502B | $188.49 / +11.1% / +3.56% | 50% |
-| Bear case | $2.8B / 8.4%; share/pricing pressure, delayed optics and persistent equity costs | 20% / 4x | 230M / $1.002B | $53.05 / -68.7% / -32.12% | 30% |
+| Bull case | $7.0B / 47.1% | 35% / 10x | 212M / $3.439433B | $346.41 / +187.46% / +43.16% | 20% |
+| Base case | $4.8B / 29.7% | 30% / 8x | 217M / $2.456981B | $188.28 / +56.24% / +16.37% | 50% |
+| Bear case | $2.8B / 8.4% | 20% / 4x | 230M / $0.975392B | $52.94 / -56.07% / -24.38% | 30% |
 
-The 20%/50%/30% weighting is a research judgment. Proven shipments, profits and the optical objective support the largest base weight. Missing optical segment actuals, 84% end-customer concentration and capital needs justify a bear weight above the bull. No objective frequency validates the probabilities. Exit shares exceed current ordinary shares by approximately 12.8% bull, 15.5% base and 22.4% bear. Equal-dollar equity awards require more shares at lower prices, and the model allows room for acquisition milestones. Board compensation price hurdles do not become valuation assumptions.
 
-## 8.2 Valuation cash bridge, reverse expectations and sensitivity <!-- report-module:valuation -->
+## 8.2 Cash bridge, reverse expectations and two-sided sensitivity <!-- report-module:valuation -->
 
-| Exit cash bridge, $B | Bull | Base | Bear |
+| Exit cash bridge, $M | Optimistic | Central | Pessimistic |
 |---|---:|---:|---:|
-| Starting adjusted net cash | 0.754258 | 0.754258 | 0.754258 |
-| Assumed cumulative revenue in three model years | 14.0 | 10.0 | 7.5 |
-| Cumulative cash at the scenario cash FCF margin | 4.900 | 3.000 | 1.500 |
-| Reserve for subsequent new deposits | -0.102400 | -0.102400 | -0.102400 |
-| Other capital allocation, equity-tax and additional-spending budget | -2.050 | -1.150 | -1.150 |
-| Exit adjusted net cash | 3.501858 | 2.501858 | 1.001858 |
+| Starting adjusted net cash | 754.258 | 754.258 | 754.258 |
+| Remaining modeled revenue | 13,821.644 | 9,850.411 | 7,367.671 |
+| Modeled cash FCF | 4,837.575 | 2,955.123 | 1,473.534 |
+| Full additional deposit reserve | -102.400 | -102.400 | -102.400 |
+| Capital allocation / equity-tax budget | -2,050.000 | -1,150.000 | -1,150.000 |
+| Exit adjusted net cash | 3,439.433 | 2,456.981 | 975.392 |
 
-The three model years run from 2026-10-19 to 2027-10-19, then to 2028-10-19 and 2029-10-19. Annual revenues are $3.1 / $4.6 / $6.3B bull, $2.6 / $3.3 / $4.1B base and $2.3 / $2.5 / $2.7B bear. These rolling 12-month model periods are separate from reported actuals through August 2026 and do not add the full historical FY2027 cash period again; the exit capitalizes the subsequent forward FY2030E revenue. Cumulative revenues and budgets are model assumptions, not contracted orders; the budget is not an already-announced new acquisition. Other budgets cover equity-settlement tax cash, possible new acquisitions and investment beyond ordinary cash-margin assumptions, all outside CFO-capex; shares are net of tax withholding/repurchases, and SBC itself is not charged again in cash. Paid deposits and ordinary working capital are embedded in cash margins. The incremental $102.4M is separately reserved without assuming a pre-exit refund. Value per share = (FY2030E revenue x exit multiple + exit adjusted net cash) / exit net shares; accumulated cash is added once. The bridge provides an audit convention rather than a precise prediction of the 2029 balance sheet. Conservatively fixing exit adjusted net cash in every scenario at starting cash less new deposits, $651.858M, and recognizing no incremental cash accumulation gives a $172.09 weighted terminal value and +0.47% annualized, leaving the stance unchanged. The insufficient-return judgment is not manufactured by accumulated cash.
+Untrimmed annual paths remain 3,100/4,600/6,300, 2,600/3,300/4,100 and 2,300/2,500/2,700M; the first period is multiplied by 344/365. Full capital budgets are retained rather than prorated to avoid overstating cash. All paths, multiples, shares and weights are analytical assumptions, not orders. Net exit shares already represent equity costs, so SBC is not deducted again from this cash bridge. Value per share = (exit revenue x multiple + exit net cash) / exit shares.
 
-**Priced-in expectations and the gap:** With base-case 8x exit revenue, 217M shares and $2.502B adjusted net cash, retaining today's $169.70 requires **$4.290B FY2030E revenue**, a **24.9% CAGR** from $2.2B FY2027E. Earning 10% annually instead requires **$5.814B and 38.3% CAGR**. This report's $4.8B / 29.7% base exceeds the break-even line but misses the required-return line. The price needs more than continued business growth: it needs faster growth or a higher durable multiple.
+Weighted value is $179.30, +14.45% annualized; the probability-weighted individual annualized return is only +9.50%. These are different statistics. Conditional entry lines are $135.45 at 10%, $142.96 at 8%, and $128.45 at 12%, not purchase instructions. At the central 8x / 217M shares / $2,456.981M net cash, preserving $120.51 needs $2.962B FY2030E revenue / 10.4% three-year CAGR; a 10% annual return needs $4.020B / 22.3%, below the $4.8B / 29.7% central assumption.
 
-Weighted value = 20% x $346.7069 + 50% x $188.4878 + 30% x $53.0516 = **$179.50**. Annualizing that expected terminal value gives +1.89%; weighting the individual annualized returns gives -2.48%, exposing distribution asymmetry. With all scenario values fixed, the 10% hurdle corresponds to an entry price around **$134.85**. Monitoring uses $134 to leave rounding room. It is a conditional observation line, not a purchase instruction.
-
-| One-variable sensitivity, other values fixed | Weighted terminal value | Annualized weighted-terminal-value return |
+| One-variable stress, others fixed | Weighted value | Annualized |
 |---|---:|---:|
-| Original weights and inputs | $179.50 | +1.89% |
-| All exit multiples -1x / +1x | $158.18 / $200.82 | -2.31% / +5.77% |
-| Each scenario's three-year revenue CAGR -5 / +5 percentage points | $161.22 / $199.22 | -1.69% / +5.49% |
-| Bull / base / bear weights 30% / 50% / 20% | $208.87 | +7.17% |
+| Exit multiples -1x | $157.99 | +9.64% |
+| Exit multiples +1x | $200.62 | +18.91% |
+| Revenue CAGR -5 pp | $161.02 | +10.35% |
+| Revenue CAGR +5 pp | $199.02 | +18.58% |
+| Weights 30/50/20 | $208.65 | +20.50% |
+| Weights 10/50/40 | $149.96 | +7.71% |
+| Exit shares +5% | $170.77 | +12.57% |
+| Exit shares +10% | $163.00 | +10.81% |
+| No incremental cash accumulation | $172.09 | +12.87% |
 
-Sensitivity holds the cash bridge and share count fixed to isolate variables; it is not a fully linked reforecast. Two favorable changes together can clear 10%. Caution is therefore a judgment about the current distribution, not a claim that every reasonable model loses money.
+
+
+**DCF rebuilt separately:** Cash-flow dates stay October 19 in 2027-2031. Rolling revenue assumptions are 2.6/3.3/4.1/5.0/5.8B, with economic cash-flow margins after new SBC of 19/22/25/27/28%. First-period cash is multiplied by 344/365 and each flow is discounted by its actual remaining days/365.25; growth assumptions are otherwise retained. Terminal value = fifth flow x (1+g)/(r-g). Add $754.258M net cash once and divide by the existing 197.505M diluted proxy; do not add scenario accumulated cash or future SBC shares again.
+
+| DCF per share | Perpetual 2% | Perpetual 3% | Perpetual 4% |
+|---|---:|---:|---:|
+| 10% | $88.23 | $98.32 | $111.77 |
+| 11% | $77.85 | $85.42 | $95.15 |
+| 12% | $69.58 | $75.42 | $82.73 |
+
+**Ruling: neutral-watch / low conviction.** The price trigger requires reconsidering caution without adding a multi-day condition or raising the old $134 threshold. Improved modeled returns at the lower price outweigh the removal of elapsed forecast cash (old $179.50 terminal value versus current $179.30). But more pessimistic weights give only +7.71%, the 11%/3% DCF value of $85.42 is below $120.51, and public capital dates lag. These limits prevent a constructive ruling. No new optical actuals or customer diversification is established. Neutral-watch reflects disagreement between price-sensitive exit scenarios and conservative cash valuation, not proven fundamental delivery or a guaranteed probability of success. Actual financing, dilution, deposits or new-quarter cash require rebuilding.
+
 
 ## 9. Catalysts, timeline and monitoring <!-- report-module:catalysts -->
 
@@ -249,7 +262,7 @@ Sensitivity holds the cash bridge and share count fixed to isolate variables; it
 |---|---|---|
 | FY2027 Q2 results | Quarter ends 2026-10-31; publication expected late 2026, with no formal date confirmed in this report's verified sources | Revenue against $525M-$535M guidance, margins, receivables, inventory and cash conversion |
 | FY2027 optical objective | Fiscal year through 2027-05-01; full-year disclosure expected around mid-2027 | Auditable more-than-$500M combined optical revenue and its profit/cash contribution |
-| ALC / SRMO | ALC shipments planned in 2027; SRMO approval targeted for 2027 | Targets become customer volume, standardization and reliability evidence |
+| ALC / SRMO | ALC shipment timing review-pending/unverified (2027 plan not re-verified); SRMO approval targeted for 2027 | Targets become customer volume, standardization and reliability evidence |
 | Weaver / PCIe / 1.6T | Next 6-18 months | Demonstrations and samples become production; undisclosed revenue is not invented |
 | Cash and equity allocation | Quarterly and FY2027 year-end | New $102.4M deposits, contingent payouts, actual net shares and liquidity |
 
@@ -261,19 +274,38 @@ The following five items match structured monitoring. Thresholds are set by this
 | margin-and-owner-cash / Margin and economic cash flow | Non-GAAP gross margin below 65% for two consecutive quarters is negative; FCF-SBC positive for two consecutive quarters is one upgrade prerequisite | 2026-08-01: non-GAAP gross margin 68.0%; Q1 FCF-SBC -$5.030M, TTM +$203.436M | Quarterly, starting with Q2 |
 | end-customer-concentration / End-customer concentration | Largest end customer above 40% is negative; top four at or below 75% is one upgrade prerequisite | 2026-08-01: largest 33%, four customers 84%; the largest billing customer's 43% is not this metric | Each 10-Q / 10-K |
 | dilution-and-capital / Shares and capital allocation | FY2027 ending ordinary shares above 200.25M, approximately +8% from FY2026, is negative | 2026-08-25: 187.951918M shares; subsequent new deposits $102.4M, acquisition-contingent shares subject to milestones | Quarterly and FY2027 year-end |
-| valuation-hurdle-price / Price and return hurdle | With scenario values unchanged, a regular close at or below $134 triggers review for an upgrade to neutral-watch | 2026-10-16: $169.70; weighted terminal value $179.50, annualized +1.89%; 10% hurdle entry $134.85 | Latest completed session; rebuild before relying on changed facts |
+| valuation-hurdle-price / price trigger | Original $134 threshold retained | 2026-11-06: $120.51; 2026-11-09: neutral-watch / low; $179.30 / +14.45% | Latest completed session; rebuild on new capital disclosure |
 
 ## 10. Conclusion <!-- report-module:conclusion -->
 
+**2026-11-09 current conclusion:** Full valuation review dated 2026-11-09 at the 2026-11-06 regular close of $120.51, using the latest disclosed 187.951918M ordinary shares dated 2026-08-25 as a proxy: $22.650B market cap and $21.896B EV, 13.76x EV/TTM revenue and 9.95x report-estimated FY2027E revenue. Neutral-watch / low conviction: the fixed 2029-10-19 endpoint leaves 1,075 days / 2.9432 years. The rebuilt cash bridge gives $179.30 weighted terminal value at 20/50/30 and +14.45% annualized, but 10/50/40 weights give only +7.71% and the $85.42 DCF midpoint is below the market. Capital inputs are the latest issuer disclosures (shares 2026-08-25, cash 2026-08-01; none newer as of 2026-11-09), not actual November balances; optical, concentration and subsequent-capital unknowns remain open.
+
+
 CRDO's chain task is testing whether merchant connectivity vendors retain value per end as speed, distance and architecture change, and turn expansion across copper, optics and memory into cash per share. It complements ALAB as an architecture check. Longer-reach optics, rack-level PCIe and fabric switches are priced separately; one vendor cannot simply be declared a replacement for the other.
 
-The expectation gap is a pricing question. At an 8x base exit, preserving the current share price requires 24.9% FY2027-FY2030 revenue CAGR, whereas earning 10% annually requires 38.3%. Our 29.7% base is already strong but yields only approximately +3.56% annually. A 19.57x TTM revenue multiple versus ALAB's 40.21x establishes relative cheapness, not automatic absolute value.
+~~The expectation gap is a pricing question. At an 8x base exit, preserving the current share price requires 24.9% FY2027-FY2030 revenue CAGR, whereas earning 10% annually requires 38.3%. Our 29.7% base is already strong but yields only approximately +3.56% annually. A 19.57x TTM revenue multiple versus ALAB's 40.21x establishes relative cheapness, not automatic absolute value.~~
 
-The stance is therefore **cautious / medium conviction**. The 20%/50%/30% grid gives $179.50 weighted terminal value and +1.89% annualized, below 10%. A single favorable sensitivity remains below the hurdle, while the bear case loses 68.7% without requiring revenue collapse. Upside is retained without merging company quality and investment attractiveness into one judgment.
+~~The stance is therefore **cautious / medium conviction**. The 20%/50%/30% grid gives $179.50 weighted terminal value and +1.89% annualized, below 10%. A single favorable sensitivity remains below the hurdle, while the bear case loses 68.7% without requiring revenue collapse. Upside is retained without merging company quality and investment attractiveness into one judgment.~~
+
+**2026-11-09 trigger disposition:** The original $134 path has received the neutral-watch ruling in this package. Original trigger text below is retained for traceability; it does not authorize a further constructive upgrade or erase unknown fundamental legs.
 
 **Upgrade triggers:** With scenarios unchanged, review an upgrade to neutral-watch after a regular close at or below $134; alternatively, confirmed FY2027 combined optical revenue above $500M, positive FCF-SBC for two consecutive quarters and top-four end-customer concentration at or below 75% must all hold, followed by a rebuilt scenario return of at least 10%, before upgrading. **Downgrade triggers:** Review a downgrade to bearish-avoid if any one occurs: Q2FY2027 revenue below $525M; non-GAAP gross margin below 65% for two consecutive quarters; the largest end customer above 40%; or FY2027 ending ordinary shares above 200.25M. Every trigger requires the corresponding official financial evidence and a full valuation rebuild; a marketing announcement alone is not conversion.
 
 ## Appendix: sources, definitions and reproducible assumptions <!-- report-module:appendix -->
+
+**Historical peer frame (2026-10-16), not a current ALAB valuation:**
+
+| Historical Same-date comparison, 2026-10-16 | CRDO | ALAB |
+|---|---:|---:|
+| Historical Regular close | $169.70 | $285.82 |
+| Historical Dated issued-ordinary-share proxy, M | 187.951918, August 25 | 173.485104, July 31 |
+| Historical Ordinary equity market cap, $B | 31.895 | 49.586 |
+| Historical Cash, short-term / marketable securities, $B | 0.764 | 1.253 |
+| Historical EV, $B | 31.141, including $0.010B cash-contingent liability | 48.333 |
+| Historical Latest TTM revenue, $B | 1.591, through August 1 | 1.202, through June 30 |
+| Historical EV/TTM revenue | **19.57x** | **40.21x** |
+| Historical Quarterly non-GAAP gross margin | 68.0% | 73.7% |
+| Historical Equity / customer economics to inspect | Q1 SBC $87.979M and acquisition-contingent equity | Q2 warrant revenue reduction $10.2M; unexercised warrants and SBC |
 
 | Source | Date / scope | Purpose |
 |---|---|---|
@@ -284,10 +316,10 @@ The stance is therefore **cautious / medium conviction**. The 20%/50%/30% grid g
 | [Proxy](https://www.sec.gov/Archives/edgar/data/1807794/000162828026058936/crdo-20260825.htm) | 2026-08-25 | Ownership, board, bonuses, PSUs and pay |
 | [DustPhotonics agreement](https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Agrees-to-Acquire-DustPhotonics-Accelerating-Expansion-into-Silicon-Photonics-and-Next-Generation-Optical-Connectivity/default.aspx) / [closing](https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Completes-Acquisition-of-DustPhotonics/default.aspx) | 2026-04-13 / 05-28 | Optical objectives and strategy; subsequent SEC filings control exact closing figures |
 | [1.6T optical modules](https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Expands-ZeroFlap-Portfolio-with-224G-Based-1-6T-Optical-Transceivers-Addressing-the-Growing-Demand-for-AI-Network-Infrastructure/default.aspx) | 2026-09-15 | Product stage, not a substitute for revenue |
-| [ALC](https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Unveils-1-6T-ZeroFlap-Active-Light-Cable-Industrys-First-Row-Scale-Wide-Parallel-Optical-Interconnect-for-AI-Data-Centers/default.aspx) / [SRMO](https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Launches-Short-Reach-Micro-Emitter-Optics-SRMO-Standardization-for-AI-Data-Center-Scale-Up-and-Scale-Out-Applications/default.aspx) | 2026-10-12 | 2027 objectives and standards stage |
-| [AMD / Weaver](https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Breaks-the-Memory-Wall-Using-AMD-Programmable-Logic-Based-AI-Accelerators/default.aspx) | 2026-10-13 | Working emulation, not volume revenue |
+| [ALC](https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Unveils-1-6T-ZeroFlap-Active-Light-Cable-Industrys-First-Row-Scale-Wide-Parallel-Optical-Interconnect-for-AI-Data-Centers/default.aspx) / [SRMO](https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Launches-Short-Reach-Micro-Emitter-Optics-SRMO-Standardization-for-AI-Data-Center-Scale-Up-and-Scale-Out-Applications/default.aspx) | 2026-10-12 (date per issuer newsroom; release HTTP 403) | SRMO 2027 objective and standards stage; 2027 ALC shipment plan review-pending/unverified |
+| [AMD / Weaver](https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Breaks-the-Memory-Wall-Using-AMD-Programmable-Logic-Based-AI-Accelerators/default.aspx) | 2026-10-13 (date per issuer newsroom; release HTTP 403) | Working-emulation detail review-pending/unverified; not volume revenue |
 | [AGM results 8-K](https://www.sec.gov/Archives/edgar/data/1807794/000162828026066139/crdo-20261016.htm) | 2026-10-16 | Voting results; not a new financial statement or share-count anchor |
-| [CRDO history](https://stockanalysis.com/stocks/crdo/history/) / [Yahoo history](https://finance.yahoo.com/quote/CRDO/history/); [ALAB history](https://stockanalysis.com/stocks/alab/history/) | 2026-10-16 regular close | Common $169.70 / $285.82 anchors, excluding after-hours |
+| [CRDO history](https://stockanalysis.com/stocks/crdo/history/) / [Yahoo history](https://finance.yahoo.com/quote/CRDO/history/); [ALAB history](https://stockanalysis.com/stocks/alab/history/) | Historical 2026-10-16 regular close | Historical $169.70 / $285.82 anchors; current CRDO anchor is $120.51 on 2026-11-06, excluding after-hours |
 | [ALAB Q2 10-Q](https://www.sec.gov/Archives/edgar/data/1736297/000173629726000035/alab-20260630.htm) / [FY2025 results](https://www.asteralabs.com/news/astera-labs-reports-fourth-quarter-and-full-year-2025-financial-results/) | Through 2026-06-30 / 2025-12-31 | Peer TTM, cash, shares and customer warrants |
 
 **Calculation conventions:** Dollar amounts are US dollars; M means million and B billion. TTM = FY2026 + latest Q1 - prior Q1. Cash FCF = CFO - cash PPE purchases, excluding acquisitions and financing-classified technology-license or equity-tax payments. FCF-SBC is an economic-cost sensitivity, not a second cash payment. Ordinary market cap, diluted weighted EPS shares and future model net shares retain separate denominators. DCF cash flows and terminal value are discounted at period end. Terminal value = fifth-period economic cash flow x (1+g)/(discount rate-g); starting adjusted net cash is added once before dividing by 197.505M shares.

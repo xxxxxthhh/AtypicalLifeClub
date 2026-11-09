@@ -13132,8 +13132,8 @@
     "priceSymbol": "CRDO",
     "title": "Credo 深度研究报告 - 从有源铜缆到光学的架构与每股现金流检验",
     "titleEn": "Credo Deep Research Report - Testing Architecture and Cash per Share from Copper to Optics",
-    "summary": "2026-10-19 首次完整覆盖：以 2026-10-16 常规收盘 $169.70、187.951918M 股为锚，市值 $31.895B、EV $31.141B，19.57x EV/TTM 收入、14.16x 自估 FY2027E 收入。谨慎／中确信：20/50/30 情景加权 2029 年每股终值 $179.50、年化 +1.89%，低于 8% 参照及 10% 风险调整门槛；基准 FY2027—2030 CAGR 29.7%，10% 回报反需 38.3%。AEC 超过 90% 是收入增量口径，四家终端占 84%；光学超过 $500M 为公司 FY2027 预期，非 DustPhotonics 单体实际。",
-    "summaryEn": "Initial full coverage on 2026-10-19 at the 2026-10-16 regular close of $169.70 and 187.951918M issued shares: $31.895B market cap, $31.141B EV, 19.57x EV/TTM revenue and 14.16x report-estimated FY2027E revenue. Cautious / medium conviction: the 20/50/30 grid gives $179.50 weighted 2029 terminal value and +1.89% annualized, below both the 8% reference and 10% risk-adjusted hurdle. Base FY2027-2030 revenue CAGR is 29.7%, versus 38.3% needed for a 10% return. AECs contributed more than 90% of the revenue increment, not total revenue; four end customers represented 84%. More than $500M of FY2027 optical revenue is a portfolio expectation, not actual DustPhotonics stand-alone revenue.",
+    "summary": "2026-11-09 完整估值复核，以 2026-11-06 常规收盘 $120.51、最近披露的 2026-08-25 普通股 187.951918M 为代理：市值 $22.650B、EV $21.896B，13.76x EV/TTM 收入、9.95x 自估 FY2027E 收入。中性观察／低确信：固定 2029-10-19 终点，剩余 1,075 天／2.9432 年；重算现金桥后 20/50/30 加权终值 $179.30、年化 +14.45%，但 10/50/40 权重仅 +7.71%，DCF 中点 $85.42 低于市价。资本数据为发行人最近披露（股数 2026-08-25、现金 2026-08-01；截至 2026-11-09 无更新披露），不是 11 月实际余额；光学、集中度和期后资本未知仍保留。",
+    "summaryEn": "Full valuation review dated 2026-11-09 at the 2026-11-06 regular close of $120.51, using the latest disclosed 187.951918M ordinary shares dated 2026-08-25 as a proxy: $22.650B market cap and $21.896B EV, 13.76x EV/TTM revenue and 9.95x report-estimated FY2027E revenue. Neutral-watch / low conviction: the fixed 2029-10-19 endpoint leaves 1,075 days / 2.9432 years. The rebuilt cash bridge gives $179.30 weighted terminal value at 20/50/30 and +14.45% annualized, but 10/50/40 weights give only +7.71% and the $85.42 DCF midpoint is below the market. Capital inputs are the latest issuer disclosures (shares 2026-08-25, cash 2026-08-01; none newer as of 2026-11-09), not actual November balances; optical, concentration and subsequent-capital unknowns remain open.",
     "category": "tech",
     "tags": [
       "AI基础设施",
@@ -13142,7 +13142,7 @@
       "光连接"
     ],
     "date": "2026-10-19",
-    "lastUpdate": "2026-10-19",
+    "lastUpdate": "2026-11-09",
     "file": "/invest/research/reports/view.html?id=crdo-2026",
     "markdownFiles": {
       "zh": "/invest/research/Credo_深度研究报告_2026-10.md",
@@ -13156,7 +13156,7 @@
     "coverageTier": "full",
     "chainLayer": "interconnect",
     "chainRole": "architecture-check",
-    "priceAsOf": "2026-10-16",
+    "priceAsOf": "2026-11-06",
     "reportedPeriod": "Q1 FY2027 / quarter ended 2026-08-01",
     "related": [
       "alab-2026",
@@ -13166,16 +13166,16 @@
       "aaoi-2026"
     ],
     "highlights": [
-      "2026-10-16 收盘 $169.70；EV $31.141B，19.57x EV/TTM 收入、14.16x 自估 FY2027E 收入；同日 ALAB 40.21x EV/TTM 收入",
-      "谨慎／中确信：20/50/30 网格加权终值 $179.50、年化 +1.89%；逐档年化回报的概率加权 -2.48%，均低于门槛",
-      "Q1FY2027 收入 $479.003M、同比 +114.7%；非 GAAP 毛利率 68.0%，四家终端客户合计 84%",
-      "TTM FCF $438.598M、SBC $235.162M；Q1 FCF-SBC -$5.030M；并购交割现金已入账，季后新增押金 $102.4M另需资金"
+      "2026-11-06 常规收盘 $120.51；市值／EV 披露代理 $22.650B／$21.896B，13.76x EV/TTM 收入、9.95x 自估 FY2027E。",
+      "中性观察／低确信：固定 2029-10-19 终点，剩余 1,075 天；加权终值 $179.30、年化 +14.45%。",
+      "10/50/40 权重仅 +7.71%；DCF 中点 $85.42 低于市价；资本披露滞后与光学未知仍在。",
+      "Q1 收入 $479.003M、非 GAAP 毛利率 68.0%、终端集中 84%；无新增季度实际，不推断已去集中。"
     ],
-    "stance": "cautious",
-    "conviction": "medium",
+    "stance": "neutral-watch",
+    "conviction": "low",
     "stanceRationale": {
-      "zh": "以 2026-10-16 常规收盘 $169.70、2026-08-25 已发行普通股 187.951918M 计，市值 $31.895B；2026-08-01 现金短投 $764.258M 减 $10M 现金或有收购负债，调整净现金 $754.258M、EV $31.141B，19.57x TTM 收入及 14.16x 自估 FY2027E $2.2B 收入。2026-10-19 至 2029-10-19 的 20%牛市/50%基准/30%熊市（FY2030E 前瞻收入 $7.0B/$4.8B/$2.8B、退出10x/8x/4x、净股数212M/217M/230M、调整净现金$3.502B/$2.502B/$1.002B）对应每股终值$346.71/$188.49/$53.05，加权$179.50、年化+1.89%；逐档年化的概率加权为-2.48%。10%风险调整门槛高于8%参照以补偿集中及执行风险，结果低于两者。基准FY2027—2030收入CAGR29.7%，保持现价需24.9%，获10%回报需38.3%。单项退出倍数+1x为+5.77%、CAGR+5个百分点为+5.49%、权重30/50/20为+7.17%，仍未过10%，支持谨慎／中确信；光学转化与架构胜负可改变分布。",
-      "en": "At the 2026-10-16 regular close of $169.70 on 187.951918M issued shares dated 2026-08-25, market cap is $31.895B. Cash and short-term investments of $764.258M at August 1 less $10M cash-contingent acquisition consideration give $754.258M adjusted net cash and $31.141B EV, or 19.57x TTM revenue and 14.16x report-estimated FY2027E revenue of $2.2B. From 2026-10-19 to 2029-10-19, 20% bull/50% base/30% bear scenarios use FY2030E forward revenue $7.0B/$4.8B/$2.8B, exit multiples 10x/8x/4x, shares 212M/217M/230M and adjusted net cash $3.502B/$2.502B/$1.002B. Values of $346.71/$188.49/$53.05 weight to $179.50 and +1.89% annualized; the probability-weighted individual annualized returns equal -2.48%. The 10% risk-adjusted hurdle exceeds an 8% reference for concentration and execution risk; results miss both. Base FY2027-2030 CAGR is 29.7%, versus 24.9% to preserve the price and 38.3% for a 10% return. One extra exit-multiple turn gives +5.77%, five extra CAGR points +5.49%, and 30/50/20 weights +7.17%, still below 10%, supporting cautious/medium conviction. Optical conversion and architecture outcomes can change the distribution."
+      "zh": "2026-11-09 完整估值复核，以 2026-11-06 常规收盘 $120.51、最近披露的 2026-08-25 普通股 187.951918M 为代理：市值 $22.650B、EV $21.896B，13.76x EV/TTM 收入、9.95x 自估 FY2027E 收入。中性观察／低确信：固定 2029-10-19 终点，剩余 1,075 天／2.9432 年；重算现金桥后 20/50/30 加权终值 $179.30、年化 +14.45%，但 10/50/40 权重仅 +7.71%，DCF 中点 $85.42 低于市价。资本数据为发行人最近披露（股数 2026-08-25、现金 2026-08-01；截至 2026-11-09 无更新披露），不是 11 月实际余额；光学、集中度和期后资本未知仍保留。",
+      "en": "Full valuation review dated 2026-11-09 at the 2026-11-06 regular close of $120.51, using the latest disclosed 187.951918M ordinary shares dated 2026-08-25 as a proxy: $22.650B market cap and $21.896B EV, 13.76x EV/TTM revenue and 9.95x report-estimated FY2027E revenue. Neutral-watch / low conviction: the fixed 2029-10-19 endpoint leaves 1,075 days / 2.9432 years. The rebuilt cash bridge gives $179.30 weighted terminal value at 20/50/30 and +14.45% annualized, but 10/50/40 weights give only +7.71% and the $85.42 DCF midpoint is below the market. Capital inputs are the latest issuer disclosures (shares 2026-08-25, cash 2026-08-01; none newer as of 2026-11-09), not actual November balances; optical, concentration and subsequent-capital unknowns remain open."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -13208,6 +13208,16 @@
         "note": {
           "zh": "首次完整覆盖，以2026-10-16收盘$169.70重建全部估值；20/50/30加权终值$179.50、年化+1.89%，单项有利敏感性仍不足10%门槛。",
           "en": "Initial full coverage with valuation rebuilt at the 2026-10-16 close of $169.70. The 20/50/30 weighted terminal value is $179.50, +1.89% annualized; single favorable sensitivities still miss the 10% hurdle."
+        }
+      },
+      {
+        "date": "2026-11-09",
+        "stance": "neutral-watch",
+        "conviction": "low",
+        "price": 120.51,
+        "note": {
+          "zh": "2026-11-09 完整估值复核，以 2026-11-06 常规收盘 $120.51、最近披露的 2026-08-25 普通股 187.951918M 为代理：市值 $22.650B、EV $21.896B，13.76x EV/TTM 收入、9.95x 自估 FY2027E 收入。中性观察／低确信：固定 2029-10-19 终点，剩余 1,075 天／2.9432 年；重算现金桥后 20/50/30 加权终值 $179.30、年化 +14.45%，但 10/50/40 权重仅 +7.71%，DCF 中点 $85.42 低于市价。资本数据为发行人最近披露（股数 2026-08-25、现金 2026-08-01；截至 2026-11-09 无更新披露），不是 11 月实际余额；光学、集中度和期后资本未知仍保留。",
+          "en": "Full valuation review dated 2026-11-09 at the 2026-11-06 regular close of $120.51, using the latest disclosed 187.951918M ordinary shares dated 2026-08-25 as a proxy: $22.650B market cap and $21.896B EV, 13.76x EV/TTM revenue and 9.95x report-estimated FY2027E revenue. Neutral-watch / low conviction: the fixed 2029-10-19 endpoint leaves 1,075 days / 2.9432 years. The rebuilt cash bridge gives $179.30 weighted terminal value at 20/50/30 and +14.45% annualized, but 10/50/40 weights give only +7.71% and the $85.42 DCF midpoint is below the market. Capital inputs are the latest issuer disclosures (shares 2026-08-25, cash 2026-08-01; none newer as of 2026-11-09), not actual November balances; optical, concentration and subsequent-capital unknowns remain open."
         }
       }
     ],
@@ -13301,12 +13311,21 @@
           "en": "With scenario values unchanged, a regular close at or below $134 triggers review for an upgrade to neutral-watch"
         },
         "latest": {
-          "zh": "2026-10-16：$169.70；加权终值 $179.50、年化 +1.89%，10% 门槛价 $134.85",
-          "en": "2026-10-16: $169.70; weighted terminal value $179.50, annualized +1.89%; 10% hurdle entry $134.85"
+          "zh": "2026-11-06 常规收盘 $120.51，低于原 $134 复核线；2026-11-09 完整模型：终值 $179.30、年化 +14.45%，裁定中性观察／低确信。资本仍为最新披露代理，未知腿不关闭。",
+          "en": "2026-11-06 regular close $120.51 is below the original $134 review line. The 2026-11-09 full model gives $179.30 terminal value and +14.45% annualized, ruled neutral-watch / low. Capital remains latest-disclosed proxies; unknown legs stay open."
         },
         "nextCheck": "最新完成交易日；事实改变时先重算 / Latest completed session; rebuild before relying on changed facts",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "breached",
+        "readingAsOf": "2026-11-06",
+        "readingNote": "原价格复核条件已成立；2026-11-09 立场裁定晚于读数，不添加持续多日条件。 / The original price-review trigger is met; the 2026-11-09 ruling follows the reading without an added multi-day requirement."
       }
+    ],
+    "highlightsEn": [
+      "2026-11-06 regular close $120.51; dated market-cap/EV proxies $22.650B/$21.896B, 13.76x EV/TTM revenue and 9.95x report FY2027E.",
+      "Neutral-watch / low: fixed 2029-10-19 endpoint, 1,075 days remaining; $179.30 weighted terminal value and +14.45% annualized.",
+      "10/50/40 weights give only +7.71%; the $85.42 DCF midpoint is below price; public-capital lag and optical unknowns persist.",
+      "Q1 revenue $479.003M, non-GAAP margin 68.0%, end-customer concentration 84%; no new-quarter actual or inferred diversification."
     ]
   },
   {

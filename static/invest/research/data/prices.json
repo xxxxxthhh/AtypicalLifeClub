@@ -781,11 +781,11 @@
       "symbol": "CRDO",
       "status": "carried-forward",
       "attemptedAt": "2026-11-09",
-      "baseDate": "2026-10-16",
-      "basePrice": 169.7,
+      "baseDate": "2026-11-06",
+      "basePrice": 120.51,
       "lastDate": "2026-11-06",
       "lastClose": 120.51,
-      "changePct": -29.0,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
