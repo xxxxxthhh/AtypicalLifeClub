@@ -4072,5 +4072,28 @@
       "oklo-2026:customer-conversion",
       "oklo-2026:first-reactor-cost-timeline"
     ]
+  },
+  {
+    "id": "crdo-valuation-price-review-2026-11-06",
+    "date": "2026-11-06",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Credo 价格触发完整估值复核：本地研究裁定中性观察／低确信",
+      "en": "Credo price trigger receives full valuation review: neutral-watch / low research ruling"
+    },
+    "detail": {
+      "zh": "2026-11-09 完整估值复核，以 2026-11-06 常规收盘 $120.51、最近披露的 2026-08-25 普通股 187.951918M 为代理：市值 $22.650B、EV $21.896B，13.76x EV/TTM 收入、9.95x 自估 FY2027E 收入。中性观察／低确信：固定 2029-10-19 终点，剩余 1,075 天／2.9432 年；重算现金桥后 20/50/30 加权终值 $179.30、年化 +14.45%，但 10/50/40 权重仅 +7.71%，DCF 中点 $85.42 低于市价。资本数据为发行人最近披露（股数 2026-08-25、现金 2026-08-01；截至 2026-11-09 无更新披露），不是 11 月实际余额；光学、集中度和期后资本未知仍保留。 原始来源：https://stockanalysis.com/stocks/crdo/history/；https://www.sec.gov/Archives/edgar/data/1807794/000162828026060111/crdo-20260801.htm；https://www.sec.gov/Archives/edgar/data/1807794/000162828026043303/crdo-20260502.htm。事件日为常规收盘日；研究裁定日为 11-09。不证明资本未变化，不新增跨公司判断。",
+      "en": "Full valuation review dated 2026-11-09 at the 2026-11-06 regular close of $120.51, using the latest disclosed 187.951918M ordinary shares dated 2026-08-25 as a proxy: $22.650B market cap and $21.896B EV, 13.76x EV/TTM revenue and 9.95x report-estimated FY2027E revenue. Neutral-watch / low conviction: the fixed 2029-10-19 endpoint leaves 1,075 days / 2.9432 years. The rebuilt cash bridge gives $179.30 weighted terminal value at 20/50/30 and +14.45% annualized, but 10/50/40 weights give only +7.71% and the $85.42 DCF midpoint is below the market. Capital inputs are the latest issuer disclosures (shares 2026-08-25, cash 2026-08-01; none newer as of 2026-11-09), not actual November balances; optical, concentration and subsequent-capital unknowns remain open. Original sources: https://stockanalysis.com/stocks/crdo/history/; https://www.sec.gov/Archives/edgar/data/1807794/000162828026060111/crdo-20260801.htm; https://www.sec.gov/Archives/edgar/data/1807794/000162828026043303/crdo-20260502.htm. The event date is the regular close; the research ruling is dated November 9. No unchanged-capital or cross-company conclusion is inferred."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "CRDO"
+    ],
+    "reportIds": [
+      "crdo-2026"
+    ],
+    "monitoringRefs": [
+      "crdo-2026:valuation-hurdle-price"
+    ]
   }
 ]
