@@ -4072,5 +4072,33 @@
       "oklo-2026:customer-conversion",
       "oklo-2026:first-reactor-cost-timeline"
     ]
+  },
+  {
+    "id": "hims-q3-2026-results-downgrade-legs-20261109",
+    "date": "2026-11-09",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Hims & Hers Q3：GAAP 毛利率 57%、订阅用户环比降至 278.8 万，两条下调析取腿触发；全年 EBITDA 指引下调",
+      "en": "Hims & Hers Q3: 57% GAAP gross margin and subscribers down sequentially to 2.788M trip two downgrade legs; full-year EBITDA guidance cut"
+    },
+    "detail": {
+      "zh": "来源：Hims & Hers 2026-11-09 8-K Ex 99.1（0001773751-26-000242，https://www.sec.gov/Archives/edgar/data/1773751/000177375126000242/hims-20260930x8xkearningsr.htm）、Q3 10-Q（0001773751-26-000246，https://www.sec.gov/Archives/edgar/data/1773751/000177375126000246/hims-20260930.htm），Q2 订阅基数来自 2026-08-10 8-K Ex 99.1（0001773751-26-000161，https://www.sec.gov/Archives/edgar/data/1773751/000177375126000161/hims-20260630x8xkearningsr.htm）。Q3 2026 收入 $890.373M（同比 +49%）、毛利 $509.199M ⇒ GAAP 毛利率 57.19%（推算，公司列示 57%，上年 74%）；期末订阅 278.8 万，Q2 末 289.1 万 ⇒ 环比 −10.3 万、−3.56%（推算）；调整后 EBITDA $82.4M、自由现金流 $26.0M；FY2026 调整后 EBITDA 指引下调至 $257–277M。9-30 现金及短期投资 $712.221M（推算），循环信贷未动用；FTC 诉讼驳回动议听证 2027-01-14，计提约 $60M。按已发布 stanceTriggers.downgrade，毛利率 <62% 与订阅环比下降两条析取腿已触发；本信号只记录事实与触发，不改变立场（谨慎、低确信），立场与估值须独立 Mode B／owner 裁定。证据边界：电话会未读；DOJ/FDA/法院状态依 10-Q 披露。",
+      "en": "Sources: Hims & Hers 8-K Ex 99.1 of 2026-11-09 (0001773751-26-000242, https://www.sec.gov/Archives/edgar/data/1773751/000177375126000242/hims-20260930x8xkearningsr.htm) and the Q3 10-Q (0001773751-26-000246, https://www.sec.gov/Archives/edgar/data/1773751/000177375126000246/hims-20260930.htm); the Q2 subscriber base is from the 2026-08-10 8-K Ex 99.1 (0001773751-26-000161, https://www.sec.gov/Archives/edgar/data/1773751/000177375126000161/hims-20260630x8xkearningsr.htm). Q3 2026 revenue was $890.373M (+49% YoY) and gross profit $509.199M, a 57.19% GAAP gross margin (derived; the company shows 57%, against 74% a year earlier); period-end subscribers were 2.788M against 2.891M at the end of Q2, down 103K or 3.56% sequentially (derived); Adjusted EBITDA was $82.4M and free cash flow $26.0M; FY2026 Adjusted EBITDA guidance was cut to $257-277M. Cash and short-term investments were $712.221M at 9-30 (derived) and the revolver is undrawn; the FTC motion-to-dismiss hearing is set for 2027-01-14 with about $60M accrued. Under the published stanceTriggers.downgrade, the gross-margin-below-62% and sequential-subscriber-decline legs have both fired; this signal records the facts and the trigger only and does not change the stance (cautious, low conviction), which with valuation needs a separate Mode B / owner ruling. Evidence limits: the earnings call was not reviewed; DOJ/FDA/court status rests on 10-Q disclosure."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "HIMS"
+    ],
+    "reportIds": [
+      "hims-2026"
+    ],
+    "monitoringRefs": [
+      "hims-2026:q3-guide-delivery",
+      "hims-2026:gross-margin",
+      "hims-2026:liquidity-acquisition-payments",
+      "hims-2026:ftc-billing-privacy",
+      "hims-2026:glp1-doj-fda",
+      "hims-2026:subscribers-arpu"
+    ]
   }
 ]
