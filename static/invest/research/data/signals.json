@@ -4152,5 +4152,32 @@
       "constellation-energy-2026:pjm-capacity-pricing",
       "constellation-energy-2026:debt-capex-discipline"
     ]
+  },
+  {
+    "id": "nrg-q3-2026-results-4b-asset-sale-20261109",
+    "date": "2026-11-09",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "NRG Q3：调整后 EBITDA $2,013M、首发 2027 指引；以 $4B 向 LS Power 出售 4.9GW 燃气电厂，追加 $1B 回购",
+      "en": "NRG Q3: Adjusted EBITDA of $2,013M and first 2027 guidance; agreement to sell 4.9GW of gas plants to LS Power for $4B, plus a $1B incremental buyback"
+    },
+    "detail": {
+      "zh": "来源：NRG 2026-11-09 8-K Item 2.02 Ex 99.1（0001013871-26-000022，https://www.sec.gov/Archives/edgar/data/1013871/000101387126000022/nrgq32026ex991.htm）、8-K Item 7.01 Ex 99.1（0001104659-26-124147，https://www.sec.gov/Archives/edgar/data/1013871/000110465926124147/tm2629302d1_ex99-1.htm）与 Q3 10-Q（0001013871-26-000025，https://www.sec.gov/Archives/edgar/data/1013871/000101387126000025/nrg-20260930.htm）。Q3 2026 GAAP 净利润 $561M、调整后 EBITDA $2,013M（上年 $1,205M）、FCFbG $1,242M；分部 Texas $1,018M、East $614M、Vivint $317M。2026 指引维持（EBITDA $5,325–5,825M），2027 首发 EBITDA $5,500–6,000M（未计出售）。以 $4B 现金出售 6 座燃气电厂 4.9GW（NYISO、ISO-NE、ERCOT），公司称隐含 2027 EV/调整后 EBITDA 8.0 倍，保留全部 PJM 组合与 CPower，目标 2027 Q2 交割（HSR/FERC/NYSPSC）；2026–2027 合计回购 $3B，增量 $1B 预计 2026 Q4 结束前开始，交割后减债 $2B「以维持当前杠杆水平」。9-30 债务及融资租赁 $22,923M、现金 $148M。1.2GW BYOP 项目仍未具名。估值与立场仍按 2026-07-30 历史基础，资产出售的估值影响须 Mode B。证据边界：电话会与演示稿未读；公司口径杠杆率未给出。",
+      "en": "Sources: NRG 8-K Item 2.02 Ex 99.1 of 2026-11-09 (0001013871-26-000022, https://www.sec.gov/Archives/edgar/data/1013871/000101387126000022/nrgq32026ex991.htm), 8-K Item 7.01 Ex 99.1 (0001104659-26-124147, https://www.sec.gov/Archives/edgar/data/1013871/000110465926124147/tm2629302d1_ex99-1.htm) and the Q3 10-Q (0001013871-26-000025, https://www.sec.gov/Archives/edgar/data/1013871/000101387126000025/nrg-20260930.htm). Q3 2026 GAAP net income was $561M, Adjusted EBITDA $2,013M ($1,205M a year earlier) and FCFbG $1,242M; segments were Texas $1,018M, East $614M and Vivint $317M. 2026 guidance is reaffirmed (EBITDA $5,325-5,825M) and 2027 initiated at EBITDA $5,500-6,000M (excluding the sale). Six gas plants totalling 4.9GW (NYISO, ISO-NE, ERCOT) are being sold for $4B cash, an implied 2027 EV/Adjusted EBITDA of 8.0x per the company, keeping the entire PJM portfolio and CPower, with closing targeted for Q2 2027 (HSR/FERC/NYSPSC); repurchases total $3B across 2026-2027, with an incremental $1B expected to begin before the end of Q4 2026, and $2B of post-closing debt reduction 'to maintain the Company's current leverage profile'. Debt and finance leases were $22,923M at 9-30 with $148M of cash. The 1.2GW BYOP project counterparty is still unnamed. Valuation and stance stay on the 2026-07-30 historical basis; the valuation effect of the asset sale needs Mode B. Evidence limits: the call and presentation were not reviewed; no company-basis leverage ratio is given."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "NRG"
+    ],
+    "reportIds": [
+      "nrg-2026"
+    ],
+    "monitoringRefs": [
+      "nrg-2026:ls-power-integration",
+      "nrg-2026:data-center-contract-conversion",
+      "nrg-2026:ercot-pjm-capacity-pricing",
+      "nrg-2026:retail-vivint-margin",
+      "nrg-2026:leverage-buyback-discipline"
+    ]
   }
 ]
