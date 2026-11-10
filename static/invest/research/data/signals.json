@@ -4126,5 +4126,31 @@
       "rklb-2026:cash-backlog-quality",
       "rklb-2026:iridium-financing-dilution"
     ]
+  },
+  {
+    "id": "constellation-q3-2026-results-risec-doe-20261109",
+    "date": "2026-11-09",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Constellation Q3：调整后营运 EPS $5.06、指引收窄至 $12.50–12.80；拟 $715M 收购 RISEC，DOE 至多 $5.0B 担保为有条件承诺",
+      "en": "Constellation Q3: adjusted operating EPS $5.06, guidance narrowed to $12.50-12.80; $715M RISEC acquisition agreed, DOE guarantee of up to $5.0B is conditional"
+    },
+    "detail": {
+      "zh": "来源：Constellation 2026-11-09 8-K Ex 99.1（0001868275-26-000116，https://www.sec.gov/Archives/edgar/data/1868275/000186827526000116/ceg-20261109991.htm）与 Q3 10-Q（0001868275-26-000119，https://www.sec.gov/Archives/edgar/data/1868275/000186827526000119/ceg-20260930.htm）。Q3 2026 GAAP 每股净利 $5.19（上年 $2.97）、调整后营运每股收益 $5.06（$3.04）；全年调整后营运 EPS 指引收窄至 $12.50–12.80。拟以 $715M 收购 609MW 燃气联合循环 RISEC，待监管批准；首笔 Peak+ 20 年 270MW 协议（对手方未具名）；与 DOE 签有条件贷款承诺（签署贷款协议后才发出至多 $5.0B 担保）。Amazon 690MW 与 Google 约 890MW＋2,700MW 协议已在 2026-09-30、2026-10-06 signal 记录，本条不重复计入。9-30 毛债务 $23,387M、扣现金 $22,784M（推算，Q2 口径 $24,700M／$24,003M）；九个月资本开支 $3,461M（上年 $1,963M）。PJM 一次性兜底容量采购暂缓至 2027 年，PJM 10-29 提案 2027-05-10 公布结果，尚无价格读数。估值与立场仍按 2026-07-30 历史基础，新 EPS 指引代入估值须 Mode B。证据边界：电话会与 Ex 99.2 未逐项复核。",
+      "en": "Sources: Constellation 8-K Ex 99.1 of 2026-11-09 (0001868275-26-000116, https://www.sec.gov/Archives/edgar/data/1868275/000186827526000116/ceg-20261109991.htm) and the Q3 10-Q (0001868275-26-000119, https://www.sec.gov/Archives/edgar/data/1868275/000186827526000119/ceg-20260930.htm). Q3 2026 GAAP net income was $5.19 per share ($2.97 a year earlier) and adjusted operating earnings $5.06 per share ($3.04); full-year adjusted operating EPS guidance was narrowed to $12.50-12.80. Constellation agreed to buy the 609MW gas combined-cycle RISEC for $715M, subject to regulatory approval; signed its first Peak+ agreement, 20 years and 270MW (counterparty not named); and signed a conditional DOE loan commitment (a guarantee of up to $5.0B is issued only after a loan agreement is executed). The Amazon 690MW and Google ~890MW + 2,700MW agreements are already recorded in the 2026-09-30 and 2026-10-06 signals and are not counted again. Gross debt was $23,387M at 9-30 and $22,784M net of cash (derived; Q2 basis $24,700M / $24,003M); nine-month capital expenditures were $3,461M ($1,963M a year earlier). PJM's one-time backstop capacity procurement is suspended into 2027, with PJM's 10-29 proposal putting results on 2027-05-10, so there is no price reading yet. Valuation and stance stay on the 2026-07-30 historical basis; using the new EPS guidance in valuation needs Mode B. Evidence limits: the earnings call and Ex 99.2 were not reviewed line by line."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "CEG"
+    ],
+    "reportIds": [
+      "constellation-energy-2026"
+    ],
+    "monitoringRefs": [
+      "constellation-energy-2026:nuclear-ppa-execution",
+      "constellation-energy-2026:crane-restart-regulatory",
+      "constellation-energy-2026:pjm-capacity-pricing",
+      "constellation-energy-2026:debt-capex-discipline"
+    ]
   }
 ]
