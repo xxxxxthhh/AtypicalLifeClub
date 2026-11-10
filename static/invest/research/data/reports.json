@@ -1648,7 +1648,7 @@
     "priceSymbol": "NRG",
     "title": "NRG Energy 深度研究报告 - AI 电力需求是否穿透到 merchant gas 与零售电力",
     "titleEn": "NRG Energy Deep Research Report - Does AI Power Demand Reach Merchant Gas and Retail Power?",
-    "summary": "2026-07-07 v5更新：NRG仍是AI基础设施power层的merchant + retail dashboard，价格锚点$133.97（2026-07-02）、市值约$28.3B、EV约$52.2B，约15.1x 2026调整后EPS指引中点、约9.3x 2026调整后EBITDA指引中点。20%牛市/50%基准/30%熊市情景显示合同转化尚未证明而杠杆/回购纪律仍是约束，v5立场迁移为谨慎/中确信。",
+    "summary": "2026-11-10 更新（Mode A 事实增量，无估值重锚）：Q3 2026 调整后 EBITDA $2,013M，首发 2027 指引；以 $4B 向 LS Power 出售 4.9GW 燃气电厂（目标 2027 Q2 交割），2026–2027 回购合计 $3B。估值与立场仍按 2026-07-30 旧口径，待 Mode B 重算。2026-07-07 v5更新：NRG仍是AI基础设施power层的merchant + retail dashboard，价格锚点$133.97（2026-07-02）、市值约$28.3B、EV约$52.2B，约15.1x 2026调整后EPS指引中点、约9.3x 2026调整后EBITDA指引中点。20%牛市/50%基准/30%熊市情景显示合同转化尚未证明而杠杆/回购纪律仍是约束，v5立场迁移为谨慎/中确信。",
     "tags": [
       "电力",
       "AI基础设施",
@@ -1657,7 +1657,7 @@
     ],
     "category": "energy",
     "date": "2026-07-05",
-    "lastUpdate": "2026-08-05",
+    "lastUpdate": "2026-11-10",
     "file": "/invest/research/reports/view.html?id=nrg-2026",
     "markdownFiles": {
       "zh": "/invest/research/NRG_Energy_深度研究报告_2026-07.md",
@@ -1672,13 +1672,13 @@
       "2026Q1 收入 $10.26B、GAAP 净利润 $125M、调整后 EBITDA $1.08B、FCFbG -$66M；2026 指引调整后 EBITDA $5.325-5.825B、调整后 EPS $7.90-9.90、FCFbG $2.8-3.3B",
       "当前 $133.97（2026-07-02）、市值约 $28.3B、EV 约 $52.2B；20%牛市/50%基准/30%熊市情景推导为谨慎/中确信，合同转化和去杠杆是关键"
     ],
-    "summaryEn": "July 7, 2026 v5 update: NRG remains the merchant plus retail dashboard for the AI-infrastructure power layer. The price anchor is $133.97 (Jul 2, 2026), about $28.3B market cap and about $52.2B EV, around 15.1x midpoint 2026 adjusted EPS guidance and 9.3x midpoint 2026 adjusted EBITDA guidance. A 20% bull / 50% base / 30% bear grid shows contract conversion is still unproven while leverage and buyback discipline remain constraints, moving the v5 stance to cautious / medium conviction.",
+    "summaryEn": "2026-11-10 update (Mode A factual increment, no valuation re-anchor): Q3 2026 Adjusted EBITDA was $2,013M with first 2027 guidance; 4.9GW of gas plants are being sold to LS Power for $4B (closing targeted for Q2 2027), and repurchases total $3B across 2026-2027. Valuation and stance stay on the 2026-07-30 basis pending Mode B recomputation. July 7, 2026 v5 update: NRG remains the merchant plus retail dashboard for the AI-infrastructure power layer. The price anchor is $133.97 (Jul 2, 2026), about $28.3B market cap and about $52.2B EV, around 15.1x midpoint 2026 adjusted EPS guidance and 9.3x midpoint 2026 adjusted EBITDA guidance. A 20% bull / 50% base / 30% bear grid shows contract conversion is still unproven while leverage and buyback discipline remain constraints, moving the v5 stance to cautious / medium conviction.",
     "chainLayer": "power",
     "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "cautious",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "2026Q2 monitoring / 2026-07-30 valuation frame",
+    "reportedPeriod": "Q3 2026 monitoring / 2026-07-30 valuation frame",
     "related": [
       "vistra-2026",
       "constellation-energy-2026",
@@ -1699,10 +1699,13 @@
           "en": "realized adjusted EBITDA, synergies, plant availability and CPower contribution match the $12B deal logic"
         },
         "latest": {
-          "zh": "2026 Q2 adjusted EBITDA $1.217B；LS Power 已并入口径，但本次新闻稿未单独量化协同、plant availability 或 CPower 贡献",
-          "en": "Q2 2026 adjusted EBITDA was $1.217B; LS Power is consolidated, but the release did not separately quantify synergies, plant availability, or CPower contribution"
+          "zh": "Q3 2026（8-K Ex 99.1，2026-11-09 盘前）：调整后 EBITDA $2,013M（上年同期 $1,205M）；East 分部 $614M（$107M），公司归因于新收购机组与 CPower 贡献及自有机组容量价格上升，抵消冬季风暴 Fern 期间供电成本与天然气利润下降。同日 8-K 7.01：以 $4B 现金向 LS Power 出售 6 座燃气电厂共 4.9GW（NYISO Ravenswood；ISO-NE Ocean State Power、Wallingford；ERCOT Jack County、Johnson County、R.W. Miller），公司称隐含 2027 年 EV/调整后 EBITDA 8.0 倍，保留全部 PJM 组合与 CPower，目标 2027 Q2 交割，须 HSR、FERC 与 NYSPSC 批准；交割后约 20GW（ERCOT、PJM 各约 10GW）。",
+          "en": "Q3 2026 (8-K Ex 99.1, before the open on 2026-11-09): Adjusted EBITDA was $2,013M (Q3 2025: $1,205M); the East segment was $614M ($107M), which the company attributes to the newly acquired assets and CPower plus higher capacity prices for owned generation, partly offset by higher power supply costs during Winter Storm Fern and lower natural gas margins. Same-day 8-K Item 7.01: NRG agreed to sell six gas plants totalling 4.9GW (NYISO Ravenswood; ISO-NE Ocean State Power and Wallingford; ERCOT Jack County, Johnson County and R.W. Miller) to LS Power for $4B cash, an implied 2027 EV/Adjusted EBITDA of 8.0x per the company, keeping the entire PJM portfolio and CPower; closing is targeted for Q2 2027, subject to HSR, FERC and NYSPSC approval, leaving about 20GW (about 10GW each in ERCOT and PJM)."
         },
-        "nextCheck": "H2 协同、plant availability 与 CPower 拆分 / H2 synergies, plant availability and CPower detail"
+        "nextCheck": "H2 协同、plant availability 与 CPower 拆分 / H2 synergies, plant availability and CPower detail",
+        "reading": "unclear",
+        "readingAsOf": "2026-11-09",
+        "readingNote": "收购贡献与容量价格混合披露，协同、机组可用率与 CPower 贡献仍未单独量化，无法对照 $12B 交易逻辑，评不明。资产出售的估值影响属 Mode B。 / Acquisition contribution and capacity prices are disclosed together and synergies, plant availability and the CPower contribution are still not quantified separately, so the $12B deal logic cannot be tested; unclear. The valuation effect of the asset sale belongs to Mode B."
       },
       {
         "id": "data-center-contract-conversion",
@@ -1717,12 +1720,13 @@
           "en": "NRG discloses named hyperscaler or tariff-backed C&I power supply wins"
         },
         "latest": {
-          "zh": "2026-08-04 Q2 2026 业绩：NRG 披露与一家未具名的『全球领先云与 AI 超大规模厂商』就在得州开发一座 1.2GW 联合循环天然气发电设施『达成主要商业条款』，但『仍需最终文件与批准』。这是迄今最具体的数据中心供电项目披露，但对手方仍未具名、且尚处主要条款阶段——本项触发条件要求『具名超大规模厂商或关税支撑的 C&I 供电成交』，具名条件仍未满足。（此前坊间报道的约 $3.2B 投资、2029 年底投产、约 $500M 年 EBITDA、可扩展至 2.4GW 等来自电话会二手转述，未见于官方新闻稿，故不计入。）",
-          "en": "2026-08-04 Q2 2026 results: NRG disclosed that 'the parties are aligned on principal commercial terms for the development of a 1.2 GW combined cycle natural gas generation facility in Texas' with an unnamed 'leading global cloud and AI hyperscaler,' and that it 'remains subject to final documentation and approvals.' This is the most concrete data-center power project disclosed so far, but the counterparty is still unnamed and it is only at principal-terms stage - this item's trigger requires a NAMED hyperscaler or tariff-backed C&I supply win, so the named-win condition is still not met. (Figures circulating in secondary call coverage - a ~$3.2B investment, late-2029 COD, ~$500M annual EBITDA, expandability to 2.4GW - are not in the official release and are excluded.)"
+          "zh": "2026-11-09 Q3 业绩稿：此前披露的 1.2GW BYOP（Bring Your Own Power）数据中心项目「仍按计划推进」，对手方仍未具名，未披露最终文件或新的具名超大规模厂商／关税支撑 C&I 合同。",
+          "en": "2026-11-09 Q3 release: the previously disclosed 1.2GW BYOP (Bring Your Own Power) data-center project 'remains on track'; the counterparty is still unnamed, and no final documents or new named hyperscaler / tariff-backed C&I contract are disclosed."
         },
         "nextCheck": "最终文件、具名对手方与项目批准 / final documentation, named counterparty and project approvals",
         "reading": "unclear",
-        "readingAsOf": "2026-08-04"
+        "readingAsOf": "2026-11-09",
+        "readingNote": "具名条件仍未满足，维持不明。 / The naming condition is still unmet, so the reading stays unclear."
       },
       {
         "id": "ercot-pjm-capacity-pricing",
@@ -1737,13 +1741,14 @@
           "en": "PJM data-center capacity process, Texas reliability scarcity or capacity auctions lift realized capacity value"
         },
         "latest": {
-          "zh": "2026-08-04 Q2 2026 财报：East 分部调整后 EBITDA $469M（2025Q2 $99M），公司归因于 LS Power 收购机组与 CPower 的贡献*以及*自有机组容量价格上升；合并层面同样明述 East 已实现容量价格上升。触发条款中「容量拍卖推升已实现容量价值」一支由发行人自述坐实，故评 within；但增幅与收购贡献混合披露，价格部分无法单独拆出。Texas 一支方向相反：调整后 EBITDA $381M（2025Q2 $512M），供暖度日数同比约 −30% 的暖冬压低零售负荷、供电成本上升，未见 reliability scarcity 溢价。415MW T.H. Wharton 已投入商业运营，其余两个 Texas Energy Fund 项目按期按预算。PJM 数据中心容量采购仍定于 2026-09，尚未产生结果。",
-          "en": "Q2 2026 results (2026-08-04): East segment adjusted EBITDA was $469M against $99M in Q2 2025, which the company attributes to the LS Power generation assets and CPower *and* to higher capacity prices for owned generation; the consolidated discussion likewise cites higher realized capacity prices in the East. The trigger's 'capacity auctions lift realized capacity value' leg is confirmed in the issuer's own words, so the reading is within; the increase is nonetheless co-attributed to the acquisition, so the price contribution cannot be isolated. Texas ran the other way: adjusted EBITDA of $381M against $512M in Q2 2025, with heating degree days down about 30% year over year cutting retail load and higher supply costs, and no reliability-scarcity premium. The 415 MW T.H. Wharton facility reached commercial operations and the remaining two Texas Energy Fund projects are on time and on budget. PJM's data-center capacity procurement remains set for September 2026 and has not yet produced a result."
+          "zh": "Q3 2026（2026-11-09 8-K Ex 99.1）：East 分部调整后 EBITDA $614M（上年 $107M），公司把增长部分归因于自有机组容量价格上升（与收购贡献合并披露）；Texas 分部 $1,018M（上年 $807M），归因于零售利润率上升与有利天气，未提 reliability scarcity；前九个月 Texas $1,615M（$1,618M）。",
+          "en": "Q3 2026 (2026-11-09 8-K Ex 99.1): East segment Adjusted EBITDA was $614M ($107M a year earlier), with part of the increase attributed by the company to higher capacity prices for owned generation (disclosed together with the acquisition contribution); Texas was $1,018M ($807M), attributed to higher retail margins and favorable weather, with no mention of reliability scarcity; nine-month Texas was $1,615M ($1,618M)."
         },
         "nextCheck": "2026-09 PJM 数据中心容量采购结果 / PJM September data-center capacity procurement result",
         "nextCheckDate": "2026-10",
         "reading": "within",
-        "readingAsOf": "2026-08-04"
+        "readingAsOf": "2026-11-09",
+        "readingNote": "「容量拍卖推升已实现容量价值」腿仍由发行人自述坐实，维持阈内；价格贡献不能单独拆出，Texas 无 scarcity 证据。 / The 'capacity auctions lift realized capacity value' leg is still confirmed by the issuer's own statement, so within; the price contribution cannot be separated and Texas shows no scarcity evidence."
       },
       {
         "id": "retail-vivint-margin",
@@ -1758,13 +1763,14 @@
           "en": "retail load, supply costs, customer count and Vivint monthly recurring service margin stay resilient or weaken"
         },
         "latest": {
-          "zh": "2026-08-04 Q2 2026 财报：Vivint Smart Home 调整后 EBITDA $301M（2025Q2 $259M，+$42M），上半年 $595M（$539M，+$56M），公司归因于新增客户数增加与单客户月度经常性服务毛利提升——客户数与 Vivint margin 两个变量呈韧性。同一季 Texas 分部调整后 EBITDA $381M（$512M，−$131M），公司归因于供电成本上升、暖冬（供暖度日数同比约 −30%）压低零售负荷、以及新建机组的运营费用——零售负荷与供电成本两个变量转弱。触发条款点名的四个变量分列两侧，无一侧在全集上成立，故评 unclear。原读数引用的 Q1 Vivint 调整后 EBITDA $294M 已由本季数据取代。",
-          "en": "Q2 2026 results (2026-08-04): Vivint Smart Home adjusted EBITDA was $301M against $259M in Q2 2025 (+$42M), and $595M against $539M for the first six months (+$56M), which the company attributes to higher new customer adds and an increase in monthly recurring service margin per customer - the customer-count and Vivint-margin variables both read resilient. In the same quarter the Texas segment posted adjusted EBITDA of $381M against $512M (-$131M), attributed to higher supply costs, mild winter weather with heating degree days down about 30% year over year cutting retail load, and operating expenses for new generation assets - the retail-load and supply-cost variables both read weaker. The four variables the trigger names split across both sides with neither holding across the set, so the reading is unclear. The Q1 Vivint adjusted EBITDA of $294M cited in the prior reading is superseded by this quarter's figures."
+          "zh": "Q3 2026（2026-11-09 8-K Ex 99.1）：Vivint Smart Home 调整后 EBITDA $317M（上年 $278M），前九个月 $912M（$817M），公司归因于新增客户增加与单客户月度经常性服务毛利提升；Texas 分部 $1,018M（$807M），归因于零售利润率上升与有利天气，前九个月基本持平（$1,615M 对 $1,618M），抵消上半年暖冬影响。",
+          "en": "Q3 2026 (2026-11-09 8-K Ex 99.1): Vivint Smart Home Adjusted EBITDA was $317M ($278M a year earlier) and $912M for nine months ($817M), attributed to higher new customer adds and higher monthly recurring service margin per customer; Texas was $1,018M ($807M), attributed to higher retail margins and favorable weather, roughly flat for nine months ($1,615M vs $1,618M) after offsetting the mild first-half winter."
         },
         "nextCheck": "2026-Q3 财报的零售与 Vivint 分部结果 / Q3 2026 retail and Vivint segment results",
         "nextCheckDate": "2026-11",
         "reading": "unclear",
-        "readingAsOf": "2026-08-04"
+        "readingAsOf": "2026-11-09",
+        "readingNote": "Vivint 新增客户与单客户月度服务毛利改善，但不能替代原触发的零售负荷与供电成本。Q3 10-Q 显示 Texas 供电成本下降、负荷增加，而 East 供电成本上升，四变量未呈现一致方向，维持不明。 / Higher Vivint customer adds and monthly service margin per customer do not substitute for the trigger's retail-load and supply-cost variables. The Q3 10-Q shows lower cost to serve and higher load in Texas but higher cost to serve in the East; the four variables do not establish a uniform direction, so the reading remains unclear."
       },
       {
         "id": "leverage-buyback-discipline",
@@ -1779,10 +1785,13 @@
           "en": "net debt / adjusted EBITDA fails to move toward the <3.0x target, or buybacks crowd out credit quality"
         },
         "latest": {
-          "zh": "公司计划 2026 年通过回购返还 $1.0B，截至 2026-07-31 已完成 $932M；本次新闻稿未提供可替代 Q1 债务口径的完整杠杆复核",
-          "en": "The company plans to return $1.0B through repurchases in 2026 and completed $932M through 2026-07-31; the release did not provide a full leverage re-read that supersedes the Q1 debt frame"
+          "zh": "2026-11-09 Q3 业绩稿与 10-Q：截至 2026-10-31 已回购 $977M（2026 年计划 $1.0B）；公司计划 2026–2027 年合计回购 $3B，其中增量 $1B 预计在 2026 Q4 结束前开始（早于 2027 Q2 资产出售交割）；交割后再减债 $2B「以维持当前杠杆水平」，2027 年计划减债合计 $3B。2026-09-30 一年内到期长期债务及融资租赁 $1,079M＋长期债务及融资租赁 $21,844M＝$22,923M（2025 年末 $16,443M），现金 $148M，总流动性 $6,027M。2026 调整后 EBITDA 指引 $5,325–5,825M 维持；2027 首发 $5,500–6,000M（未计入资产出售）。",
+          "en": "2026-11-09 Q3 release and 10-Q: $977M of shares had been repurchased through 2026-10-31 (2026 plan $1.0B); the company plans $3B of repurchases across 2026-2027, including an incremental $1B expected to begin before the end of Q4 2026 (ahead of the Q2 2027 asset-sale closing); after closing it plans a further $2B of debt reduction 'to maintain the Company's current leverage profile', for $3B of planned 2027 debt reduction. At 2026-09-30, current long-term debt and finance leases of $1,079M plus long-term debt and finance leases of $21,844M total $22,923M (year-end 2025: $16,443M), with $148M of cash and $6,027M of total liquidity. 2026 Adjusted EBITDA guidance of $5,325-5,825M is reaffirmed; 2027 is initiated at $5,500-6,000M (excluding the asset sale)."
         },
-        "nextCheck": "H2 debt、FCFbG 与资本配置 / H2 debt, FCFbG and capital allocation"
+        "nextCheck": "H2 debt、FCFbG 与资本配置 / H2 debt, FCFbG and capital allocation",
+        "reading": "unclear",
+        "readingAsOf": "2026-11-09",
+        "readingNote": "审阅文件未给出公司口径 net debt／adjusted EBITDA，无法判断是否向 <3.0x 下降；公司表述为「维持」而非下降，且增量回购早于出售所得。条件未能确认成立或不成立，评不明。 / The reviewed documents give no company-basis net debt / adjusted EBITDA, so movement toward <3.0x cannot be judged; the company's wording is 'maintain' rather than reduce, and the incremental buyback precedes the sale proceeds. The condition can be neither confirmed nor ruled out, so unclear."
       }
     ],
     "conviction": "medium",

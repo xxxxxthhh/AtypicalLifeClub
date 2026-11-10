@@ -1,13 +1,19 @@
 # NRG Energy Deep Research Report - Does AI Power Demand Reach Merchant Gas and Retail Power?
 
 Coverage date: 2026-07-05
-Last updated: 2026-08-05
+Last updated: 2026-11-10
 Ticker: NYSE: NRG
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
 ## Executive Summary
+
+> **2026-11-10 factual update**: Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1 before the open on 2026-11-09; 10-Q the same day) GAAP net income was $561M, Adjusted EBITDA $2,013M ($1,205M a year earlier) and FCFbG $1,242M; segments were Texas $1,018M ($807M; higher retail margins and favorable weather), East $614M ($107M; new assets and CPower plus higher capacity prices for owned generation) and Vivint $317M ($278M; higher customer adds and monthly recurring service margin per customer). 2026 guidance is reaffirmed (Adjusted EBITDA $5,325-5,825M) and 2027 initiated at $5,500-6,000M (excluding the sale). The same day NRG agreed to sell six gas plants totalling 4.9GW (NYISO, ISO-NE, ERCOT) to LS Power for $4B cash, an implied 2027 EV/Adjusted EBITDA of 8.0x per the company, keeping the entire PJM portfolio and CPower, with closing targeted for Q2 2027 (HSR/FERC/NYSPSC) and about 20GW remaining. $977M had been repurchased through 10-31; repurchases total $3B across 2026-2027, with an incremental $1B expected to begin before the end of Q4 2026; post-closing debt reduction of $2B is planned 'to maintain the Company's current leverage profile'. At 9-30 debt and finance leases were $22,923M, cash $148M and total liquidity $6,027M. The 1.2GW BYOP project 'remains on track' with the counterparty unnamed.
+>
+> **2026-11-10 monitoring review**: ercot-pjm-capacity-pricing is within; retail-vivint-margin, ls-power-integration, data-center-contract-conversion and leverage-buyback-discipline are unclear. Vivint customer adds and service margin improved, while the Q3 10-Q shows different retail-load and supply-cost directions across regions, so a uniform resilience finding is not established. Sources: [8-K Ex 99.1](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000022/nrgq32026ex991.htm), [asset-sale 8-K Ex 99.1](https://www.sec.gov/Archives/edgar/data/1013871/000110465926124147/tm2629302d1_ex99-1.htm), [Q3 10-Q](https://www.sec.gov/Archives/edgar/data/1013871/000101387126000025/nrg-20260930.htm). The call and presentation were not reviewed; no company-basis leverage ratio is given.
+>
+> **Valuation boundary (2026-11-10, Mode A):** valuation and stance remain on the 2026-07-30 historical basis; Q3 actuals, the new guidance and the asset sale's effect on the generation mix, EBITDA and capital allocation await Mode B recomputation, and price, valuation figures, stance and conviction are not updated in this package. The first full post-release session is 2026-11-09.
 
 > **Framework role:** NRG Energy is the dashboard for the AI-infrastructure power and energy layer. The report's job is to test the chain signal, not to turn one company print into a recommendation.
 
