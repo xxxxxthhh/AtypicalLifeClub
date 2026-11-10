@@ -1,13 +1,19 @@
 # Hims & Hers Health (NYSE: HIMS) Deep Research Report
 
 Coverage date: 2026-02-13
-Last updated: 2026-10-02
+Last updated: 2026-11-10
 Ticker: NYSE: HIMS
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
 ## 2026H1 Full Rerun Summary
+
+> **2026-11-10 factual update**: Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1 and 10-Q, after the close on 2026-11-09) revenue was $890.373M (+49% YoY) and gross profit $509.199M, a 57.19% GAAP gross margin (derived; the company shows 57%, against 74% a year earlier); Adjusted EBITDA was $82.4M, net loss $33.0M, operating cash flow $65.4M and free cash flow $26.0M. Period-end subscribers were 2.788M, down 103K (-3.56%, derived) from 2.891M at the end of Q2 and +13% YoY; monthly revenue per average subscriber was $105. FY2026 revenue guidance was narrowed to $3.13-3.15B and Adjusted EBITDA guidance cut to $257-277M; Q4 guidance is $875-895M revenue and $70-90M Adjusted EBITDA. Cash and short-term investments were $712.221M at 9-30 (derived) and the revolver is undrawn; the FTC motion-to-dismiss hearing is set for 2027-01-14 with about $60M accrued; Novo has not refiled.
+>
+> **2026-11-10 monitoring review**: the published triggers of gross-margin and subscribers-arpu have fired (the formal breached grade is recorded with the Mode B / owner stance review); q3-guide-delivery, liquidity-acquisition-payments, ftc-billing-privacy and glp1-doj-fda are within. **Two disjunctive legs of the published downgrade trigger (gross margin below 62% or a sequential subscriber decline) have fired.** Sources: [8-K Ex 99.1](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000242/hims-20260930x8xkearningsr.htm), [Q3 10-Q](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000246/hims-20260930.htm), [Q2 8-K Ex 99.1](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000161/hims-20260630x8xkearningsr.htm). The earnings call was not reviewed; DOJ/FDA/court status rests on 10-Q disclosure.
+>
+> **Valuation boundary (2026-11-10, Mode A):** the published stance and conviction, the $29.30 price anchor (2026-10-01) and the scenario grid remain on the 2026-10-02 historical basis and are not updated in this package; the stance and valuation ruling after the downgrade trigger fired needs a separate Mode B / owner review, which this package does not make. Results were released after the close on 2026-11-09, so the first full post-release session is 2026-11-10.
 
 This report is the full rerun successor to `hims-2026-pre-rerun`; the archived baseline is available at `/invest/research/reports/view.html?id=hims-2026-pre-rerun`.
 
