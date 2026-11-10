@@ -13728,8 +13728,8 @@
     "priceSymbol": "RKLB",
     "title": "Rocket Lab 深度研究报告 - 现有交付、Neutron 风险与每股资本回报",
     "titleEn": "Rocket Lab Deep Research Report - Delivery, Neutron Risk and Per-Share Capital Returns",
-    "summary": "首次完整双语覆盖。Q2 2026 收入 $234.066M（+61.99%），约 81% 来自 Space Systems，但单季 FCF -$110.122M。10 月 14 日 Neutron 首飞目标移至 2027，Iridium 仍待交割；9 月 $1.944B 毛额 ATM 已发行约 29.3M 股。2026-10-16 收盘 $50.84，重建经济股数约 668.711M、市值 $33.997B；已知现金桥 EV 约 $29.720B、38.64x TTM，非实时认证余额。成交条件下 20%/50%/30% 牛/基准/熊终值 $86.80/$36.45/$8.69，加权 $38.19、四年年化 -6.90%，对照 8% 参考与 15% 执行门槛；谨慎、中确信。",
-    "summaryEn": "Initial full bilingual coverage. Q2 2026 revenue $234.066M (+61.99%), approximately 81% Space Systems, but quarterly FCF -$110.122M. The October 14 update moved Neutron first flight to 2027 and Iridium remains pending; September’s $1.944B gross ATM issued approximately 29.3M shares. At the 2026-10-16 close of $50.84, reconstructed economic shares are approximately 668.711M and equity $33.997B. A known-cash bridge gives approximately $29.720B EV and 38.64x TTM, not certified live balances. Conditional on closing, 20%/50%/30% bull/base/bear outcomes of $86.80/$36.45/$8.69 weight to $38.19 and -6.90% annualized over four years versus 8% reference and 15% execution hurdles: cautious, medium conviction.",
+    "summary": "2026-11-10 更新（Mode A 事实增量，无估值重锚）：Q3 2026 收入 $267.8M、GAAP 毛利率 33.6%，命中重建上行腿；单季经营现金流 +$7.2M、CFO−capex −$23.9M（推算），backlog $3.57B；Neutron 首飞仍为不早于 2027 年。估值与立场仍为下述 2026-10-20 口径。首次完整双语覆盖。Q2 2026 收入 $234.066M（+61.99%），约 81% 来自 Space Systems，但单季 FCF -$110.122M。10 月 14 日 Neutron 首飞目标移至 2027，Iridium 仍待交割；9 月 $1.944B 毛额 ATM 已发行约 29.3M 股。2026-10-16 收盘 $50.84，重建经济股数约 668.711M、市值 $33.997B；已知现金桥 EV 约 $29.720B、38.64x TTM，非实时认证余额。成交条件下 20%/50%/30% 牛/基准/熊终值 $86.80/$36.45/$8.69，加权 $38.19、四年年化 -6.90%，对照 8% 参考与 15% 执行门槛；谨慎、中确信。",
+    "summaryEn": "2026-11-10 update (Mode A factual increment, no valuation re-anchor): Q3 2026 revenue was $267.8M with a 33.6% GAAP gross margin, meeting the rebuild-upside leg; quarterly operating cash flow was +$7.2M and CFO-capex -$23.9M (derived), with $3.57B of backlog; Neutron's first launch is still no earlier than 2027. Valuation and stance remain on the 2026-10-20 basis below. Initial full bilingual coverage. Q2 2026 revenue $234.066M (+61.99%), approximately 81% Space Systems, but quarterly FCF -$110.122M. The October 14 update moved Neutron first flight to 2027 and Iridium remains pending; September’s $1.944B gross ATM issued approximately 29.3M shares. At the 2026-10-16 close of $50.84, reconstructed economic shares are approximately 668.711M and equity $33.997B. A known-cash bridge gives approximately $29.720B EV and 38.64x TTM, not certified live balances. Conditional on closing, 20%/50%/30% bull/base/bear outcomes of $86.80/$36.45/$8.69 weight to $38.19 and -6.90% annualized over four years versus 8% reference and 15% execution hurdles: cautious, medium conviction.",
     "tags": [
       "商业航天",
       "卫星制造",
@@ -13739,11 +13739,11 @@
     ],
     "category": "tech",
     "date": "2026-10-20",
-    "lastUpdate": "2026-10-20",
+    "lastUpdate": "2026-11-10",
     "period": "2026H2",
     "versionType": "initial",
     "versionLabel": "2026H2 Initial Coverage",
-    "reportedPeriod": "Q2 2026 / H1 2026",
+    "reportedPeriod": "Q3 2026 monitoring / Q2-H1 2026 valuation frame (2026-10-20)",
     "isCurrent": true,
     "moduleContract": "heading-comment-v1",
     "coverageTier": "full",
@@ -13804,10 +13804,13 @@
           "en": "A maiden-flight objective beyond 2027, major test failure or material customer cancellation prompts downgrade review; orbital first flight and subsequent reliability evidence require a scenario rebuild"
         },
         "latest": {
-          "zh": "2026-10-14：首飞目标为 2027；Q1 2027 为条件性一级测试窗口，尚无首飞日期承诺",
-          "en": "2026-10-14: maiden flight objective 2027; Q1 2027 is a conditional stage-one test window, without a promised flight date"
+          "zh": "2026-11-09 Q3 业绩稿：Neutron 首飞「目标不早于 2027 年」，Q3 新签逾 $515M Neutron 发射合同、Neutron backlog 16 次任务，首飞硬件已交付 3 号发射场。2027 首飞时间表已于 2026-10-14 披露（signal rklb-neutron-inaugural-launch-2027-update），本次不是新的推迟。",
+          "en": "2026-11-09 Q3 release: Neutron's first launch is 'targeted for no earlier than 2027'; more than $515M of Neutron launch contracts were signed in Q3, the Neutron backlog is 16 missions, and first-flight hardware has been delivered to Launch Complex 3. The 2027 timing was already disclosed on 2026-10-14 (signal rklb-neutron-inaugural-launch-2027-update), so this is not a new delay."
         },
-        "nextCheck": "官方测试更新、Q1 2027 测试与 2027 首飞 / Official test updates, Q1 2027 tests and 2027 first flight"
+        "nextCheck": "官方测试更新、Q1 2027 测试与 2027 首飞 / Official test updates, Q1 2027 tests and 2027 first flight",
+        "reading": "within",
+        "readingAsOf": "2026-11-09",
+        "readingNote": "首飞目标仍在 2027，未见重大试验失败或重要客户取消，未触发降级腿；轨道首飞尚未发生，上行腿未成熟。 / The first-flight objective remains 2027 and no major test failure or material cancellation is disclosed, so the downgrade leg did not fire; orbital first flight has not happened, so the upside leg is not mature."
       },
       {
         "id": "revenue-margin-delivery",
@@ -13822,8 +13825,8 @@
           "en": "Q3 revenue below $250M or GAAP gross margin below 29% prompts downgrade review; revenue above $265M and margin above 31% require an upside rebuild"
         },
         "latest": {
-          "zh": "Q2 收入 $234.066M、GAAP 毛利率 36.13%；8 月 10 日 Q3 指引 $250M—$265M、29%—31%，非实绩",
-          "en": "Q2 revenue $234.066M, GAAP gross margin 36.13%; August 10 Q3 guidance $250M–$265M and 29%–31%, not actual results"
+          "zh": "Q3 2026（8-K Ex 99.1，2026-11-09 盘后）：收入 $267.834M（上年同期 $155.080M），毛利 $90.071M＝GAAP 毛利率 33.63%（推算；非 GAAP 38.4%）；经营亏损 $79.189M。Q4 指引收入 $270–290M、GAAP 毛利率 34%–36%（公司预测）。「收入高于 $265M 且 GAAP 毛利率高于 31%」的重建上行腿已命中（不是降级腿）；正式评级与情景重建须在 Mode B 复核中一并完成，本 Mode A 包不代为评级。",
+          "en": "Q3 2026 (8-K Ex 99.1, after the close on 2026-11-09): revenue was $267.834M (Q3 2025: $155.080M) and gross profit $90.071M, a 33.63% GAAP gross margin (derived; non-GAAP 38.4%); operating loss was $79.189M. Q4 guidance is $270-290M revenue and a 34%-36% GAAP gross margin (company forecast). The 'revenue above $265M and GAAP gross margin above 31%' rebuild-upside leg has been met (not the downgrade leg); the formal grade and scenario rebuild belong together in a Mode B review, so this Mode A package does not grade it."
         },
         "nextCheck": "Q3 2026 财报，正式发布日期尚未核实 / Q3 2026 results; official date not confirmed"
       },
@@ -13840,10 +13843,13 @@
           "en": "H2 2026 CFO-capex below -$250M, quarterly unfavorable contract-revenue adjustments above $10M, or material unrecovered project damages require funding and stance review"
         },
         "latest": {
-          "zh": "Q2 FCF -$110.122M、H1 -$187.519M；6 月 backlog $2.355949B、45% 预计 12 个月确认，未披露 funded 拆分；一个政府客户占 H1 收入 42%",
-          "en": "Q2 FCF -$110.122M, H1 -$187.519M; June backlog $2.355949B, 45% expected within 12 months, funded split undisclosed; one government customer supplied 42% of H1 revenue"
+          "zh": "Q3 2026（10-Q）：九个月经营现金流 −$127.254M、Q2 10-Q 上半年 −$134.407M ⇒ Q3 +$7.153M；购置固定资产九个月 $84.185M、上半年 $53.112M ⇒ Q3 $31.073M；Q3 CFO−capex −$23.920M（均为推算）。9-30 现金及现金等价物 $4,447.665M、流动有价证券 $160.290M。9-30 backlog $3,572.965M（约 33% 预计 12 个月内确认），6 月为 $2.355949B。Q3 以前期履约义务估计变动影响「不重大」，九个月净上调 $7.279M；MDA 合同交付延迟可能产生违约金，金额无法确定。",
+          "en": "Q3 2026 (10-Q): nine-month operating cash flow was -$127.254M against -$134.407M for H1 in the Q2 10-Q, so Q3 was +$7.153M; nine-month purchases of property, equipment and software were $84.185M against $53.112M for H1, so Q3 was $31.073M; Q3 CFO-capex was -$23.920M (all derived). At 9-30 cash and cash equivalents were $4,447.665M and current marketable securities $160.290M. Backlog was $3,572.965M at 9-30 (about 33% expected within 12 months), against $2.355949B in June. The Q3 impact of estimate changes on prior-period performance obligations was 'not material', with a nine-month net upward adjustment of $7.279M; the delayed MDA contract may give rise to liquidated damages whose amount cannot be determined."
         },
-        "nextCheck": "每季现金流、合同估计及项目交付；先看 Q3 / Quarterly cash flow, contract estimates and deliveries, starting Q3"
+        "nextCheck": "每季现金流、合同估计及项目交付；先看 Q3 / Quarterly cash flow, contract estimates and deliveries, starting Q3",
+        "reading": "unclear",
+        "readingAsOf": "2026-11-09",
+        "readingNote": "H2 2026 尚未结束，CFO−capex 腿只有 Q3 一个季度（−$23.9M，远离 −$250M），不能宣称 H2 条件成熟；未见单季 >$10M 不利调整；MDA 违约金未量化。整体评不明。 / H2 2026 has not ended and the CFO-capex leg has only Q3 (-$23.9M, far from -$250M), so the H2 condition cannot be called mature; no quarterly unfavorable adjustment above $10M is disclosed; MDA liquidated damages are unquantified. Overall unclear."
       },
       {
         "id": "iridium-financing-dilution",
@@ -13858,10 +13864,13 @@
           "en": "A closing objective beyond 2027, acquisition cash uses over $200M above the $3.55B model allowance, or an unfunded liquidity shortfall prompts downgrade review; rebuild with actual closing cash, debt and shares"
         },
         "latest": {
-          "zh": "9 月 15 日 ATM 约 $1.944B 毛收入／29.3M 股已完成，$3.6B 过桥取消，约 $1.775B 目标贷款交割后保留；9 月 24 日股东批准，预计 2027 年中交割，仍待条件",
-          "en": "September 15 ATM completed approximately $1.944B gross / 29.3M shares, $3.6B bridge canceled, approximately $1.775B target loan retained upon closing; September 24 shareholder approval, expected mid-2027 closing still conditional"
+          "zh": "Q3 2026 10-Q 与业绩稿：Iridium 交易「预计 2027 年完成」，仍待 FCC 等监管批准；公司称已通过已完成的 ATM 全额融资，Iridium 贷款人同意交割后保留其信贷额度，Iridium 股东已批准。",
+          "en": "Q3 2026 10-Q and release: the Iridium transaction is 'expected to close in 2027', still subject to FCC and other regulatory approvals; the company says it is fully funded through the completed ATM offering, Iridium's lenders approved keeping its credit facility after the transaction, and Iridium shareholders approved it."
         },
-        "nextCheck": "后续监管／交易文件、Q3 股本现金及交割；2030 年再融资 / Regulatory/transaction filings, Q3 cap table and cash, closing, and 2030 refinancing"
+        "nextCheck": "后续监管／交易文件、Q3 股本现金及交割；2030 年再融资 / Regulatory/transaction filings, Q3 cap table and cash, closing, and 2030 refinancing",
+        "reading": "within",
+        "readingAsOf": "2026-11-09",
+        "readingNote": "交割目标仍在 2027、无未落实融资缺口披露，未触发；收购现金实际使用待交割后核对。 / The closing objective remains 2027 and no unfunded gap is disclosed, so not triggered; actual acquisition cash use is checked after closing."
       },
       {
         "id": "valuation-hurdle-price",

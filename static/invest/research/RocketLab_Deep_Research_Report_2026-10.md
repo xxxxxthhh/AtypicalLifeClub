@@ -1,12 +1,18 @@
 # Rocket Lab (RKLB) Deep Research Report — Delivery, Neutron Risk and Per-Share Capital Returns
 
 Coverage date: 2026-10-20
-Last updated: 2026-10-20
+Last updated: 2026-11-10
 Ticker: NASDAQ: RKLB
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 Reporting period: Q2/H1 2026, ended 2026-06-30; material developments published by 2026-10-20 Singapore / the 2026-10-19 U.S. session in progress are incorporated. The common market anchor is the completed 2026-10-16 U.S. regular close. Unless stated otherwise, amounts are U.S. dollars; M means million and B billion. Facts, company objectives and analytical assumptions are distinguished.
 
 ## Executive summary <!-- report-module:overview -->
+
+> **2026-11-10 factual update**: Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1 and 10-Q, after the close on 2026-11-09) revenue was $267.834M (Q3 2025: $155.080M) and gross profit $90.071M, a 33.63% GAAP gross margin (derived; non-GAAP 38.4%), with an operating loss of $79.189M. Nine-month operating cash flow of -$127.254M against H1's -$134.407M gives Q3 +$7.153M; Q3 capex of $31.073M gives Q3 CFO-capex of -$23.920M (all derived). Cash and cash equivalents were $4,447.665M at 9-30; backlog was $3,572.965M ($2.355949B in June; about 33% expected within 12 months). Neutron's first launch is 'targeted for no earlier than 2027', consistent with the 2027 timing disclosed on 2026-10-14 and not a new delay; the Iridium transaction is expected to close in 2027. Q4 guidance is $270-290M revenue and a 34%-36% GAAP gross margin.
+>
+> **2026-11-10 monitoring review**: revenue-margin-delivery meets the 'revenue above $265M and gross margin above 31%' rebuild-upside leg (not the downgrade leg; the formal grade is recorded with the Mode B review); neutron-execution and iridium-financing-dilution are within; cash-backlog-quality is unclear (H2 has not ended). Sources: [8-K Ex 99.1](https://www.sec.gov/Archives/edgar/data/1819994/000181999426000073/rklb-11092026ex991.htm), [Q3 10-Q](https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm), [Q2 10-Q](https://www.sec.gov/Archives/edgar/data/1819994/000181999426000062/rklb-20260630.htm). The earnings call was not reviewed; MDA contract liquidated damages are unquantified.
+>
+> **Valuation boundary (2026-11-10, Mode A):** valuation, the price anchor (2026-10-16 close of $50.84), scenarios, and the published stance and conviction remain on the 2026-10-20 historical basis and are not updated in this package; valuation-hurdle-price is not updated here. Rebuilding the upside scenario needs a separate Mode B. Results were released after the close on 2026-11-09, so the first full post-release session is 2026-11-10.
 
 **One-line thesis:** Rocket Lab has a business with real deliveries: Space Systems supplied approximately 81% of Q2 revenue. Nevertheless, Neutron's maiden flight has shifted to 2027, Iridium has not closed, and growth still needs to become per-share cash. At the **2026-10-16 close of $50.84** and approximately 668.711M reconstructed economic shares after completed financing, indicated equity value is $33.997B. A mechanical June-cash-plus-September-financing bridge gives approximately $29.720B EV and **38.64x TTM revenue**. The price paid for future success substantially exceeds what existing cash generation supports.
 
