@@ -4100,5 +4100,31 @@
       "hims-2026:glp1-doj-fda",
       "hims-2026:subscribers-arpu"
     ]
+  },
+  {
+    "id": "rklb-q3-2026-results-20261109",
+    "date": "2026-11-09",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Rocket Lab Q3：收入 $267.8M、GAAP 毛利率 33.6% 命中重建上行腿；单季经营现金流转正，backlog $3.57B",
+      "en": "Rocket Lab Q3: $267.8M revenue and 33.6% GAAP gross margin meet the rebuild-upside leg; quarterly operating cash flow turns positive, backlog $3.57B"
+    },
+    "detail": {
+      "zh": "来源：Rocket Lab 2026-11-09 8-K Ex 99.1（0001819994-26-000073，https://www.sec.gov/Archives/edgar/data/1819994/000181999426000073/rklb-11092026ex991.htm）、Q3 10-Q（0001819994-26-000074，https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm）与 Q2 10-Q（0001819994-26-000062，https://www.sec.gov/Archives/edgar/data/1819994/000181999426000062/rklb-20260630.htm）。Q3 2026 收入 $267.834M（上年 $155.080M），毛利 $90.071M ⇒ GAAP 毛利率 33.63%（推算）；九个月 CFO −$127.254M 减上半年 −$134.407M ⇒ Q3 +$7.153M，capex $84.185M 减 $53.112M ⇒ $31.073M，Q3 CFO−capex −$23.920M（推算）；9-30 backlog $3,572.965M（6 月 $2.355949B）。Neutron 首飞「目标不早于 2027 年」，与 2026-10-14 已披露的 2027 时间表一致，不是新推迟；Iridium 交易预计 2027 年完成、已通过 ATM 融资。H2 现金条件尚无完整半年数据；本信号不改估值、立场或确信度（谨慎／中确信），重建上行情景属 Mode B。证据边界：电话会未读；MDA 合同违约金未量化。",
+      "en": "Sources: Rocket Lab 8-K Ex 99.1 of 2026-11-09 (0001819994-26-000073, https://www.sec.gov/Archives/edgar/data/1819994/000181999426000073/rklb-11092026ex991.htm), the Q3 10-Q (0001819994-26-000074, https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm) and the Q2 10-Q (0001819994-26-000062, https://www.sec.gov/Archives/edgar/data/1819994/000181999426000062/rklb-20260630.htm). Q3 2026 revenue was $267.834M (Q3 2025: $155.080M) and gross profit $90.071M, a 33.63% GAAP gross margin (derived); nine-month CFO of -$127.254M less H1's -$134.407M gives Q3 +$7.153M, capex of $84.185M less $53.112M gives $31.073M, so Q3 CFO-capex was -$23.920M (derived); backlog was $3,572.965M at 9-30 ($2.355949B in June). Neutron's first launch is 'targeted for no earlier than 2027', consistent with the 2027 timing disclosed on 2026-10-14 and not a new delay; the Iridium transaction is expected to close in 2027 and is funded through the ATM. The H2 cash condition does not yet have a full half-year; this signal changes no valuation, stance or conviction (cautious / medium), and rebuilding the upside scenario belongs to Mode B. Evidence limits: the earnings call was not reviewed; MDA contract liquidated damages are unquantified."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "RKLB"
+    ],
+    "reportIds": [
+      "rklb-2026"
+    ],
+    "monitoringRefs": [
+      "rklb-2026:neutron-execution",
+      "rklb-2026:revenue-margin-delivery",
+      "rklb-2026:cash-backlog-quality",
+      "rklb-2026:iridium-financing-dilution"
+    ]
   }
 ]
