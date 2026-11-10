@@ -594,7 +594,18 @@
       "session": "after-close",
       "sourceUrl": "https://investor.marvell.com/news-events/press-releases/detail/1029/marvell-technology-inc-announces-conference-call-to-review-second-quarter-of-fiscal-year-2027-financial-results-announces-investor-day-on-october-6-2026",
       "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-10"
+      "verifiedAt": "2026-08-10",
+      "call": {
+        "eventType": "call",
+        "timezone": "America/Los_Angeles",
+        "expectedDate": "2026-12-01",
+        "localTime": "13:30",
+        "precision": "day",
+        "status": "issuer-confirmed",
+        "sourceUrl": "https://investor.marvell.com/news-events/press-releases/detail/1041/marvell-technology-inc-announces-conference-call-to-review-third-quarter-of-fiscal-year-2027-financial-results",
+        "sourceType": "issuer-ir",
+        "verifiedAt": "2026-11-11"
+      }
     },
     {
       "reportId": "coherent-2026",
