@@ -1,13 +1,19 @@
 # Constellation Energy Deep Research Report - Nuclear and Calpine Integrated Power Anchor for AI
 
 Coverage date: 2026-07-04
-Last updated: 2026-10-23
+Last updated: 2026-11-10
 Ticker: NASDAQ: CEG
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
 ## Executive Summary
+
+> **2026-11-10 factual update**: Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1 before the open on 2026-11-09; 10-Q the same day) GAAP net income was $5.19 per share ($2.97 a year earlier) and adjusted operating earnings $5.06 per share ($3.04); full-year adjusted operating EPS guidance was narrowed to $12.50-12.80. Constellation agreed to buy the 609MW gas combined-cycle RISEC for $715M (subject to regulatory approval); signed its first Peak+ agreement, 20 years and 270MW (counterparty not named, from 2028); and signed a conditional DOE loan commitment (a guarantee of up to $5.0B is issued only after a loan agreement is executed). The Amazon 690MW PPA and the Google ~890MW uprate PPA plus 2,700MW load-following agreement were recorded in signals on 2026-09-30 and 2026-10-06 and are not counted again here. Gross debt was $23,387M at 9-30 and $22,784M net of cash (derived; Q2 basis $24,700M / $24,003M), with $5,661M of assets held for sale; nine-month operating cash flow was $4,979M and capital expenditures $3,461M ($1,963M a year earlier). Brazos Valley was sold in October for $860M before adjustments. PJM's one-time backstop capacity procurement is suspended into 2027, with PJM's 10-29 proposal putting results on 2027-05-10.
+>
+> **2026-11-10 monitoring review**: crane-restart-regulatory is within; nuclear-ppa-execution (no price disclosed), pjm-capacity-pricing (no procurement price result yet) and debt-capex-discipline are unclear. Sources: [8-K Ex 99.1](https://www.sec.gov/Archives/edgar/data/1868275/000186827526000116/ceg-20261109991.htm), [Q3 10-Q](https://www.sec.gov/Archives/edgar/data/1868275/000186827526000119/ceg-20260930.htm). The earnings call and Ex 99.2 were not reviewed line by line.
+>
+> **Valuation boundary (2026-11-10, Mode A):** valuation and stance remain on the 2026-07-30 historical basis ($263.56); the new 2026 EPS guidance, Q3 debt and RISEC await Mode B recomputation, and price, valuation figures, stance and conviction are not updated in this package. ai-power-valuation-risk is not updated here. The first full post-release session is 2026-11-09.
 
 > **Framework role:** Constellation Energy is the common constraint for the AI-infrastructure power and energy layer. The report's job is to test the chain signal, not to turn one company print into a recommendation.
 
