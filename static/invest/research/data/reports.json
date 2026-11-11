@@ -4806,7 +4806,7 @@
     "ticker": "NYSE: HIMS",
     "title": "Hims & Hers 深度研究报告 - 增长质量与GLP-1监管考验",
     "titleEn": "Hims & Hers Deep Research Report - Growth Quality and GLP-1 Regulatory Test",
-    "summary": "2026-11-10 更新（Mode A 事实增量，无估值重锚）：Q3 2026 收入 $890.4M（同比 +49%），GAAP 毛利率 57%、订阅用户环比降至 278.8 万，已发布下调触发的两条析取腿命中；FY2026 调整后 EBITDA 指引下调至 $257–277M。立场与估值仍为下述 2026-10-02 口径，待 Mode B／owner 复核。2026-10-02 立场补录（按 2026-10-01 收盘 $29.30 重锚）：谨慎、低确信。Q2 2026（2026-08-10 的 8-K 与 10-Q）收入 $753.2M（同比 +38%）、订阅 289.1 万（+19%），但毛利率降至 64%、净亏损 $86.3M、单季自由现金流 $(68.2)M；FY2026 指引收入 $31-33 亿、调整后 EBITDA $275-325M。按 233,313,413 股计市值 $6,836.1M，窄口径企业价值 $7,397.6M（可转债本金 $1,402.5M 扣现金与短期投资 $841.0M）＝ FY2026 收入中值 2.31 倍、EBITDA 中值 24.7 倍；计入 Eucalyptus 递延与或有对价 $866.0M 后为 $8,263.6M。30/40/30 情景网格加权每股 $32.60，至 2028 年底年化 +4.9%，低于 8% 门槛；反推在 15 倍退出下需收入年增约 24.5%，快于管理层 2030 目标隐含的约 19.4%。确信度低：退出倍数 +3 倍即升至 +14.1%。2026-10-02 同步更正：Novo 已于 2026-03-09 撤诉，公司 3 月转向品牌 GLP-1，FTC 诉讼已计提约 $60M。",
+    "summary": "2026-11-11 Mode B 重锚（按 2026-11-10 收盘 $19.13，即 2026-11-09 盘后发布业绩后第一个完整交易时段）：立场维持谨慎，确信度低。Q3 2026 收入 $890.4M（同比 +49%），但 GAAP 毛利率 57%、订阅用户环比降至 278.8 万，已发布下调规则的两条析取腿命中并评为 breached；FY2026 调整后 EBITDA 指引下调至 $257–277M，中值 $267M 低于旧熊市情景的 $275M（上限 $277M 仅高 $2M）。按 234,412,422 股（10-Q 封面）计市值 $4,484.3M，窄口径企业价值 $5,174.6M（可转债本金 $1,402.5M 扣现金与短期投资 $712.2M）＝FY2026 收入指引中值 1.65 倍、调整后 EBITDA 中值 19.4 倍；计入收购递延与或有对价 $733.9M（主要为 Eucalyptus）后为 $5,908.5M。权重已据 Q3 调为 20/40/40，网格加权每股 $21.59，至 2028 年底年化 +5.8%，低于 8% 门槛 2.2 个百分点，基准情景 +10.3%；按所有者“立场须在最新收盘价下成立”的裁定，现价下回避的前提（加权回报为负）不成立，故不机械执行下调。确信度低：多数单一有利输入即越过 8%，单一不利输入则转负；约 $15 亿净索偿放大敏感度。2026-10-02 口径（谨慎、低确信，加权 +4.9%）为历史。",
     "tags": [
       "远程医疗",
       "DTC",
@@ -4815,7 +4815,7 @@
     ],
     "category": "tech",
     "date": "2026-02-13",
-    "lastUpdate": "2026-11-10",
+    "lastUpdate": "2026-11-11",
     "coverageTier": "full",
     "file": "/invest/research/reports/view.html?id=hims-2026",
     "markdownFiles": {
@@ -4823,14 +4823,14 @@
       "en": "/invest/research/Hims_Hers_Deep_Research_Report_2026-02.md"
     },
     "highlights": [
-      "Q2 2026：收入 $753.2M（同比 +38%，美国 +16%），订阅 289.1 万（+19%），单用户月均收入 $92（+21%）",
-      "质量恶化：毛利率 64%（去年同期 76%），净亏损 $86.3M，Q2 自由现金流 $(68.2)M；FY2026 指引收入 $31-33 亿、调整后 EBITDA $275-325M",
-      "资本结构：可转债本金 $1,402.5M（2032 票据转股价 $29.53），现金与短期投资 $841.0M，Eucalyptus 递延与或有对价 $866.0M 至约 2027 年 12 月分期支付",
-      "股价 $29.30（2026-10-01 收盘）、市值 $6,836.1M；窄口径 EV $7,397.6M ＝ FY2026 收入中值 2.31 倍、EBITDA 中值 24.7 倍",
-      "谨慎、低确信：30/40/30 网格加权每股 $32.60、年化 +4.9%，低于 8% 门槛；退出倍数 +3 倍即升至 +14.1%",
-      "事实更正：Novo 已于 2026-03-09 撤诉；3 月转向品牌 GLP-1；FTC 诉讼计提约 $60M"
+      "Q3 2026：收入 $890.4M（同比 +49%），调整后 EBITDA $82.4M，净亏损 $33.0M，自由现金流 $26.0M；订阅用户 278.8 万（环比 −10.3 万）",
+      "质量恶化：GAAP 毛利率 57%（Q2 为 64%、上年同期 74%）；FY2026 调整后 EBITDA 指引下调至 $257–277M，收入收窄至 $31.3–31.5 亿",
+      "资本结构：可转债本金 $1,402.5M，现金与短期投资 $712.2M，收购递延与或有对价 $733.9M（主要为 Eucalyptus）；9-30 循环信贷无未偿借款（不时动用）",
+      "股价 $19.13（2026-11-10 收盘，业绩后首个完整交易时段）、市值 $4,484.3M；窄口径 EV $5,174.6M ＝ FY2026 收入中值 1.65 倍、EBITDA 中值 19.4 倍",
+      "维持谨慎、低确信（2026-11-11 Mode B）：20/40/40 网格加权每股 $21.59、年化 +5.8%，低于 8% 门槛；约 $18.28 达门槛，约 $21.69 以上加权回报转负",
+      "已发布下调触发两条腿（毛利率 <62%、订阅用户环比下降）评为 breached 并计入权重；2026-11-06 与礼来签自付价协议，未披露财务条款"
     ],
-    "summaryEn": "2026-11-10 update (Mode A factual increment, no valuation re-anchor): Q3 2026 revenue was $890.4M (+49% YoY); a 57% GAAP gross margin and a sequential subscriber decline to 2.788M trip two disjunctive legs of the published downgrade trigger; FY2026 Adjusted EBITDA guidance was cut to $257-277M. Stance and valuation remain on the 2026-10-02 basis below, pending Mode B / owner review. 2026-10-02 stance backfill, re-anchored to the 2026-10-01 close of $29.30: cautious, low conviction. Q2 2026 (the 2026-08-10 8-K and 10-Q) delivered revenue of $753.2M (+38% YoY) and 2.891M subscribers (+19%), but gross margin fell to 64%, the net loss was $86.3M and quarterly free cash flow $(68.2)M; FY2026 guidance is $3.1-3.3B revenue and $275-325M Adjusted EBITDA. On 233,313,413 shares, market cap is $6,836.1M and narrow enterprise value $7,397.6M ($1,402.5M of note principal less $841.0M of cash and short-term investments), or 2.31x the FY2026 revenue midpoint and 24.7x the EBITDA midpoint; adding $866.0M of Eucalyptus deferred and contingent consideration gives $8,263.6M. The 30/40/30 scenario grid weights to $32.60 per share, +4.9% a year to end-2028, below the 8% hurdle; working backwards, a 15x exit needs about 24.5% annual revenue growth, faster than the roughly 19.4% implied by management's 2030 target. Conviction is low: three more turns of exit multiple lift the result to +14.1%. Also corrected on 2026-10-02: Novo dismissed its suit on 2026-03-09, the company moved to branded GLP-1s in March, and about $60M is accrued for the FTC case.",
+    "summaryEn": "2026-11-11 Mode B re-anchor (on the 2026-11-10 close of $19.13, the first completed session after the 2026-11-09 after-close release): the stance stays cautious, conviction low. Q3 2026 revenue was $890.4M (+49% YoY), but a 57% GAAP gross margin and a sequential subscriber decline to 2.788M fired two disjunctive legs of the published downgrade rule, now graded breached; FY2026 Adjusted EBITDA guidance was cut to $257-277M, whose $267M midpoint is below the old bear case's $275M (the $277M top is only $2M above it). On 234,412,422 shares (10-Q cover), market cap is $4,484.3M and narrow enterprise value $5,174.6M ($1,402.5M of note principal less $712.2M of cash and short-term investments), or 1.65x the FY2026 revenue guidance midpoint and 19.4x the Adjusted EBITDA midpoint; adding $733.9M of acquisition deferred and contingent consideration (mainly Eucalyptus) gives $5,908.5M. With the weights moved to 20/40/40 on the Q3 facts, the grid weights to $21.59 per share, +5.8% a year to end-2028, 2.2 points below the 8% hurdle, with the base case at +10.3%; under the owner's ruling that a stance must hold at the latest close, the premise of bearish-avoid (a negative weighted return) does not hold at this price, so the downgrade is not applied mechanically. Conviction is low: most single favourable inputs clear 8% and single unfavourable ones turn it negative; roughly $1.5B of net claims magnify the sensitivity. The 2026-10-02 frame (cautious, low conviction, weighted +4.9%) is historical.",
     "period": "2026H1",
     "versionType": "full-cycle",
     "versionLabel": "2026H1 Full Rerun",
@@ -4848,34 +4848,32 @@
       "summaryEn": "Archived pre-rerun 2026H1 baseline preserving the February GLP-1 regulatory binary and old revenue/valuation framework."
     },
     "priceSymbol": "HIMS",
-    "priceAsOf": "2026-10-01",
-    "reportedPeriod": "Q3 2026 monitoring / Q2 2026 valuation frame (2026-10-02)",
+    "priceAsOf": "2026-11-10",
+    "reportedPeriod": "Q3 2026 (8-K / 10-Q 2026-11-09; Mode B valuation re-anchor 2026-11-11 on the 2026-11-10 close)",
     "stance": "cautious",
     "conviction": "low",
     "stanceRationale": {
-      "zh": "以 2026-10-01 收盘 $29.30、233,313,413 股（10-Q 封面）计市值 $6,836.1M，窄口径企业价值 $7,397.6M（可转债本金 $1,402.5M 扣现金与短期投资 $841.0M），为 FY2026 收入指引中值 $32 亿的 2.31 倍、调整后 EBITDA 指引中值 $300M 的 24.7 倍；计入 Eucalyptus 递延与或有对价 $866.0M 后宽口径 $8,263.6M、27.5 倍；GAAP 为亏损（TTM 净亏损 $142.0M），TTM 自由现金流收益率仅 0.9%。决定立场的是加权预期回报：30% 牛市 / 40% 基准 / 30% 熊市（FY2028 收入 $5,035.6M / $4,416.0M / $3,448.4M，调整后 EBITDA 利润率 16% / 13% / 9%，退出 EV/EBITDA 20x / 15x / 10x，退出净索偿 −$955.0M / −$1,081.3M / −$1,532.7M，退出股数 243.9M / 248.4M / 257.2M）得每股 $62.14 / $30.31 / $6.11，加权 $32.60，较 $29.30 为 +11.3%，2.248 年（2026-10-02 至 2028-12-31，821 天）年化 +4.9%，低于 8% 门槛 3.1 个百分点；基准本身年化仅 +1.5%。反推在 15 倍退出、13% 利润率下，获得 8% 门槛需要 2027-2028 年收入每年增长约 24.5%，快于管理层 2030 年目标隐含的约 19.4%，本报告基准为 17.5%。确信度为低而非中，因为约 $14-15 亿净索偿把经营假设放大到每股价值：退出倍数整体上调 3 倍即升至 +14.1%，增速每年加 5 个百分点升至 +9.4%，FY2028 利润率加 2 个百分点升至 +12.5%，权重 40/40/20 升至 +12.5%；放宽熊市（每股 $9.28）后加权仍只有 +6.2%，故不是中性。这是对当前价格所需增长与利润率组合的估值与偏斜判断，不是对 Q2 2026 收入 +38%、订阅 +19% 等增长证据的否认；FTC、DOJ 与品牌 GLP-1 转向后的业务结构不在网格内。",
-      "en": "At the 2026-10-01 close of $29.30 on 233,313,413 shares (10-Q cover), market capitalization is $6,836.1M and narrow enterprise value $7,397.6M ($1,402.5M of convertible-note principal less $841.0M of cash and short-term investments), or 2.31x the $3.2B FY2026 revenue guidance midpoint and 24.7x the $300M Adjusted EBITDA midpoint; counting $866.0M of Eucalyptus deferred and contingent consideration, wide enterprise value is $8,263.6M, or 27.5x; GAAP results are loss-making (TTM net loss $142.0M) and the TTM free-cash-flow yield is only 0.9%. What settles the stance is the probability-weighted expected return: weighting 30% bull / 40% base / 30% bear (FY2028 revenue of $5,035.6M / $4,416.0M / $3,448.4M, Adjusted EBITDA margins of 16% / 13% / 9%, exit EV/EBITDA of 20x / 15x / 10x, exit net claims of −$955.0M / −$1,081.3M / −$1,532.7M and exit share counts of 243.9M / 248.4M / 257.2M) gives $62.14 / $30.31 / $6.11 per share and a weighted $32.60, +11.3% against $29.30, or +4.9% annualized over 2.248 years (2026-10-02 to 2028-12-31, 821 days) - 3.1 points below the 8% hurdle, with the base case alone at +1.5% a year. Working backwards, at a 15x exit and a 13% margin, earning the 8% hurdle requires about 24.5% annual revenue growth in 2027-2028, faster than the roughly 19.4% implied by management's 2030 target, against a 17.5% base case. Conviction is low rather than medium because roughly $1.4-1.5B of net claims magnify operating assumptions into value per share: raising all exit multiples by three turns lifts the result to +14.1%, adding 5 points a year to growth to +9.4%, adding 2 points to the FY2028 margin to +12.5%, and 40/40/20 weights to +12.5%; softening the bear case to $9.28 per share still leaves only +6.2%, which is why the call is not neutral. This is a valuation-and-skew judgment on the growth-and-margin combination the current price requires, not a denial of growth evidence such as Q2 2026 revenue +38% and subscribers +19%; the FTC and DOJ outcomes and the post-shift GLP-1 business mix sit outside the grid."
+      "zh": "以 2026-11-10 收盘 $19.13（2026-11-09 盘后发布业绩后第一个完整交易时段）、234,412,422 股（Q3 10-Q 封面）计市值 $4,484.3M，窄口径企业价值 $5,174.6M（可转债本金 $1,402.5M 扣 2026-09-30 现金与短期投资 $712.2M），为 FY2026 收入指引中值 $31.4 亿的 1.65 倍、调整后 EBITDA 指引中值 $267M 的 19.4 倍；计入收购递延与或有对价 $733.9M（主要为 Eucalyptus）后宽口径 $5,908.5M、22.1 倍；GAAP 为亏损（TTM 净亏损 $190.8M），TTM 自由现金流收益率仅 0.2%。决定立场的是加权预期回报：20% 牛市 / 40% 基准 / 40% 熊市（FY2028 收入 $4,687.2M / $4,044.3M / $3,352.2M，调整后 EBITDA 利润率 15% / 12% / 8%，退出 EV/EBITDA 20x / 15x / 10x，退出净索偿 −$846.5M（牛市另计上限外转股摊薄 $32.7M）/ −$1,129.4M / −$1,533.5M，退出股数 250.9M / 260.6M / 280.8M）得每股 $52.55 / $23.60 / $4.09，加权 $21.59，较 $19.13 为 +12.8%，2.138 年（2026-11-11 至 2028-12-31，781 天）年化 +5.8%，低于 8% 门槛 2.2 个百分点；基准本身年化 +10.3%。权重由 30/40/30 调为 20/40/40：Q3 兑现了旧熊市前提（FY2026 EBITDA 指引 $257–277M 的中值 $267M 低于旧熊市的 $275M、上限 $277M 仅高 $2M，毛利率 57% 低于约 64% 的假设、订阅用户首次环比下降），旧牛市前提（指引上沿）已被证伪。已发布下调规则的毛利率与订阅用户两条腿已触发，这些事实已计入权重；但按所有者 2026-07-31 裁定，立场须在最新完整收盘价下成立，而在 $19.13 加权回报为正（股价高于约 $21.69 才转负），回避的前提不成立，故立场维持谨慎。确信度为低：结果距门槛仅 2.2 个百分点，退出倍数 +3 倍升至 +17.1%、旧权重 +16.3%、FY2028 利润率 +2 个百分点 +15.7%、放宽悲观路径 +8.3%，而倍数 −3 倍为 −7.0%、10/40/50 权重为 −6.0%；约 $15 亿净索偿放大了敏感度；本轮未读电话会，FTC 与 DOJ 结果不在网格内。反推在 15 倍退出、12% 利润率下，获得 8% 需 2027-2028 年收入每年增长约 11.5%，低于 15% 的基准；使加权回报低于门槛的是占 40% 的熊市路径（每股约 $4）。这是对当前价格的估值与偏斜判断，不否认 Q3 收入 +49% 的增长证据，也不否认已触发的下调腿。",
+      "en": "At the 2026-11-10 close of $19.13 (the first completed session after the 2026-11-09 after-close release) on 234,412,422 shares (Q3 10-Q cover), market capitalization is $4,484.3M and narrow enterprise value $5,174.6M ($1,402.5M of convertible-note principal less $712.2M of cash and short-term investments at 2026-09-30), or 1.65x the $3.14B FY2026 revenue guidance midpoint and 19.4x the $267M Adjusted EBITDA midpoint; counting $733.9M of acquisition deferred and contingent consideration (mainly Eucalyptus), wide enterprise value is $5,908.5M, or 22.1x; GAAP results are loss-making (TTM net loss $190.8M) and the TTM free-cash-flow yield is only 0.2%. What settles the stance is the probability-weighted expected return: weighting 20% bull / 40% base / 40% bear (FY2028 revenue of $4,687.2M / $4,044.3M / $3,352.2M, Adjusted EBITDA margins of 15% / 12% / 8%, exit EV/EBITDA of 20x / 15x / 10x, exit net claims of -$846.5M (plus $32.7M of above-cap conversion dilution in the bull case) / -$1,129.4M / -$1,533.5M and exit share counts of 250.9M / 260.6M / 280.8M) gives $52.55 / $23.60 / $4.09 per share and a weighted $21.59, +12.8% against $19.13, or +5.8% annualized over 2.138 years (2026-11-11 to 2028-12-31, 781 days) - 2.2 points below the 8% hurdle, with the base case alone at +10.3% a year. The weights moved from 30/40/30 to 20/40/40 because Q3 realized the old bear premises (the $267M midpoint of FY2026 EBITDA guidance of $257-277M below the old bear case's $275M, with the $277M top only $2M above it; a 57% gross margin below the roughly 64% assumed; the first sequential subscriber decline) and falsified the old bull premise (the top of guidance). The gross-margin and subscriber legs of the published downgrade rule fired and are carried into those weights; but under the owner's 2026-07-31 ruling a stance must hold at the latest completed close, and at $19.13 the weighted return is positive (it turns negative only above about $21.69), so the premise of bearish-avoid does not hold and the stance stays cautious. Conviction is low: the result is 2.2 points from the hurdle; three more turns of exit multiple give +17.1%, the old weights +16.3%, two more points of FY2028 margin +15.7% and a softer downside path +8.3%, while three fewer turns give -7.0% and 10/40/50 weights -6.0%; roughly $1.5B of net claims magnify the sensitivity; the earnings call was not reviewed and the FTC and DOJ outcomes sit outside the grid. Working backwards, at a 15x exit and a 12% margin, earning 8% requires about 11.5% annual revenue growth in 2027-2028, below the 15% base case; what keeps the weighted return below the hurdle is the 40% bear path (about $4 a share). This is a valuation-and-skew judgment at the current price, not a denial of the +49% Q3 revenue growth or of the fired downgrade legs."
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "若 Q3 2026 收入达到或超过 $890M 指引中值且调整后 EBITDA 达到或超过 $85M 指引中值，Q3 2026 GAAP 毛利率回升至 66% 或以上，并且 Q3 2026 自由现金流为正、支付 Eucalyptus 分期款后季末现金与短期投资仍不低于 $700M，则上调至 neutral-watch。",
-        "en": "Move to neutral-watch if Q3 2026 revenue reaches or exceeds the $890M guidance midpoint and Adjusted EBITDA reaches or exceeds the $85M midpoint, Q3 2026 GAAP gross margin recovers to 66% or higher, and Q3 2026 free cash flow is positive with quarter-end cash and short-term investments of at least $700M after the Eucalyptus installment.",
+        "zh": "若 Q4 2026 业绩同时满足以下全部条件，则上调至 neutral-watch（中性观察）：期末订阅用户高于 Q3 2026 的 278.8 万；季度 GAAP 毛利率回升至 62% 或以上；2026-12-31 现金与短期投资不低于 $500M，且 $175.0M 循环信贷额度无未偿借款。",
+        "en": "Move up to neutral-watch if the Q4 2026 results meet all of the following: period-end subscribers above Q3 2026's 2.788M; quarterly GAAP gross margin back at 62% or higher; and cash and short-term investments of at least $500M at 2026-12-31 with no loans outstanding under the $175.0M revolving credit facility.",
         "monitoringIds": [
-          "q3-guide-delivery",
+          "subscribers-arpu",
           "gross-margin",
           "liquidity-acquisition-payments"
         ]
       },
       "downgrade": {
-        "zh": "若 Q3 2026 收入低于 $880M 指引下限或调整后 EBITDA 低于 $75M 指引下限；或季度 GAAP 毛利率低于 62%；或任一季末现金与短期投资低于 $500M 或动用 $175.0M 循环信贷额度；或法院对公司计费、取消流程或数据共享做出初步禁令，或 FTC 金钱和解 / 法律计提超过 $160M；或 DOJ 对公司提起民事或刑事指控、FDA 采取点名公司的正式执法行动或 Novo Nordisk 重新提起专利诉讼；或订阅用户数环比下降，则下调至 bearish-avoid。",
-        "en": "Move to bearish-avoid if Q3 2026 revenue falls below the $880M low end of guidance or Adjusted EBITDA falls below the $75M low end; or quarterly GAAP gross margin falls below 62%; or cash and short-term investments fall below $500M at any quarter-end or the $175.0M revolving credit facility is drawn; or a court orders a preliminary injunction against the company's billing, cancellation or data-sharing practices, or an FTC monetary resolution or legal accrual exceeds $160M; or the DOJ files civil or criminal charges against the company, the FDA takes a formal enforcement action naming the company, or Novo Nordisk refiles its patent suit; or subscribers decline quarter over quarter.",
+        "zh": "出现以下任一项则下调至 bearish-avoid（回避）：Q4 2026 订阅用户再次环比下降（低于 278.8 万）；任一季度末现金与短期投资低于 $500M；法院对公司计费、取消流程或数据共享做出初步禁令，或 FTC 金钱和解 / 法律计提超过 $160M；DOJ 对公司提起民事或刑事指控、FDA 采取点名公司的正式执法行动或 Novo Nordisk 重新提起专利诉讼；或网格不变时某个完整常规交易时段收盘达到或高于约 $21.69（加权价值与股价持平之处，须按该收盘重新推导）。",
+        "en": "Move down to bearish-avoid if any of the following occurs: subscribers decline quarter over quarter again in Q4 2026 (below 2.788M); cash and short-term investments fall below $500M at any quarter-end; a court orders a preliminary injunction against the company's billing, cancellation or data-sharing practices, or an FTC monetary resolution or legal accrual exceeds $160M; the DOJ files civil or criminal charges against the company, the FDA takes a formal enforcement action naming the company, or Novo Nordisk refiles its patent suit; or, with the grid unchanged, a completed regular-session close at or above about $21.69, where the weighted value equals the price (re-derive at that close).",
         "monitoringIds": [
-          "q3-guide-delivery",
-          "gross-margin",
+          "subscribers-arpu",
           "liquidity-acquisition-payments",
           "ftc-billing-privacy",
-          "glp1-doj-fda",
-          "subscribers-arpu"
+          "glp1-doj-fda"
         ]
       }
     },
@@ -4888,6 +4886,16 @@
         "note": {
           "zh": "立场补录 / Stance backfill。按 2026-10-01 收盘 $29.30 重锚：30/40/30 情景网格加权每股 $32.60，2.248 年年化 +4.9%，低于 8% 门槛 3.1 个百分点，基准本身仅 +1.5%；但退出倍数 +3 倍即升至 +14.1%、增速 +5 个百分点升至 +9.4%，约 $14-15 亿净索偿放大了对假设的敏感度，故确信度为低。此前正文中的中性 / 观察（2026-08-12）未做 2028 年情景网格。",
           "en": "Stance backfill. Re-anchored to the 2026-10-01 close of $29.30: the 30/40/30 scenario grid weights to $32.60 per share, +4.9% annualized over 2.248 years, 3.1 points below the 8% hurdle, with the base case alone at +1.5%; but three more turns of exit multiple lift it to +14.1% and 5 more points of growth to +9.4%, and roughly $1.4-1.5B of net claims magnify that sensitivity, so conviction is low. The body's earlier neutral / watchlist view (2026-08-12) had no scenario grid to 2028."
+        }
+      },
+      {
+        "date": "2026-11-11",
+        "stance": "cautious",
+        "conviction": "low",
+        "price": 19.13,
+        "note": {
+          "zh": "Mode B 重锚，立场维持。Q3 2026 触发已发布下调规则的两条腿（GAAP 毛利率 57.19% < 62%、订阅用户 289.1 万 → 278.8 万），权重据此由 30/40/30 调为 20/40/40；按 2026-11-10 收盘（业绩后首个完整交易时段）重建网格，加权每股 $21.59，2.138 年年化 +5.8%，低于 8% 门槛，基准 +10.3%；按所有者 2026-07-31“立场须在最新收盘价下成立”的裁定，现价下回避的前提不成立，维持谨慎；结果距门槛仅 2.2 个百分点，确信度为低。",
+          "en": "Mode B re-anchor, stance maintained. Q3 2026 fired two legs of the published downgrade rule (GAAP gross margin 57.19% < 62%; subscribers 2.891M -> 2.788M), and the weights moved from 30/40/30 to 20/40/40 accordingly; the grid rebuilt on the 2026-11-10 close (the first completed post-release session) weights to $21.59 per share, +5.8% annualized over 2.138 years, below the 8% hurdle, base case +10.3%; under the owner's 2026-07-31 ruling that a stance must hold at the latest close, the premise of bearish-avoid does not hold at this price, so cautious is maintained; the result is only 2.2 points from the hurdle, so conviction is low."
         }
       }
     ],
@@ -4927,11 +4935,14 @@
           "en": "Quarterly GAAP gross margin below 62%"
         },
         "latest": {
-          "zh": "Q3 2026（2026-11-09 8-K Ex 99.1）：毛利 $509.199M／收入 $890.373M＝GAAP 毛利率 57.19%（推算；公司列示 57%，上年同期 74%）；前九个月 GAAP 毛利率 62%（剔除重组费用后 63%）。Q2 2026 为 64%。季度 GAAP 毛利率低于 62% 的已发布触发已命中（stanceTriggers.downgrade 析取腿之一）；正式 breached 评级与立场裁定须在同一次 Mode B／owner 复核中完成，本 Mode A 包不代为评级或改立场。",
-          "en": "Q3 2026 (2026-11-09 8-K Ex 99.1): gross profit of $509.199M on revenue of $890.373M is a 57.19% GAAP gross margin (derived; the company shows 57%, against 74% a year earlier); the nine-month GAAP gross margin was 62% (63% excluding restructuring charges). Q2 2026 was 64%. The published trigger (quarterly GAAP gross margin below 62%) has fired - one disjunctive leg of stanceTriggers.downgrade; the formal breached grade and the stance ruling must be made together in a Mode B / owner review, so this Mode A package neither grades it nor changes the stance."
+          "zh": "Q3 2026（2026-11-09 8-K Ex 99.1）：毛利 $509.199M／收入 $890.373M＝GAAP 毛利率 57.19%（推算；公司列示 57%，上年同期 74%）；前九个月 GAAP 毛利率 62%（剔除重组费用后 63%）。Q2 2026 为 64%。按 2026-11-09 评为 breached；2026-11-11 Mode B 重锚将其计入网格权重，并按 2026-11-10 收盘重新推导立场（维持谨慎，确信度低）。",
+          "en": "Q3 2026 (2026-11-09 8-K Ex 99.1): gross profit of $509.199M on revenue of $890.373M is a 57.19% GAAP gross margin (derived; the company shows 57%, against 74% a year earlier); the nine-month GAAP gross margin was 62% (63% excluding restructuring charges). Q2 2026 was 64%. Graded breached as of 2026-11-09; the 2026-11-11 Mode B re-anchor carries it into the grid weights and re-derives the stance at the 2026-11-10 close (cautious maintained, conviction low)."
         },
         "nextCheck": "Q3 2026 财报（2026 年 11 月上旬，估计） / Q3 2026 results (early November 2026, estimated)",
-        "nextCheckDate": "2026-11"
+        "nextCheckDate": "2026-11",
+        "reading": "breached",
+        "readingAsOf": "2026-11-09",
+        "readingNote": "Q3 2026 GAAP 毛利率 57.19%（推算；公司列示 57%）低于 62% 触发线，评为已触发；Q3 营业成本中无重组费用，调整后毛利率同为 57%，故不是一次性费用所致。2026-11-11 Mode B 重锚（按 2026-11-10 收盘）。 / Q3 2026 GAAP gross margin of 57.19% (derived; company 57%) is below the 62% trigger, so the item is breached; Q3 cost of revenue carries no restructuring charge and the adjusted gross margin is also 57%, so the miss is not a one-off charge. Mode B re-anchor 2026-11-11 (on the 2026-11-10 close)."
       },
       {
         "id": "liquidity-acquisition-payments",
@@ -4946,14 +4957,14 @@
           "en": "Cash and short-term investments below $500M at any quarter-end, or any draw on the $175.0M revolving credit facility"
         },
         "latest": {
-          "zh": "2026-09-30（10-Q）：现金及现金等价物 $605.604M＋短期可供出售投资 $106.617M＝$712.221M（推算；长期可供出售投资为零，年初 $351.263M）；循环信贷无借款，$14.0M 信用证占用、可用 $161.0M。Eucalyptus 递延对价分六个季度支付至交割后第 18 个月，公司可选以 A 类股支付绝大部分（上限 19.9%）。Q3 自由现金流 $26.0M。",
-          "en": "At 2026-09-30 (10-Q): cash and cash equivalents of $605.604M plus short-term available-for-sale investments of $106.617M total $712.221M (derived; long-term available-for-sale investments are nil, against $351.263M at the start of the year); the revolver has no loans outstanding, with $14.0M of letters of credit and $161.0M available. Eucalyptus deferred consideration is payable in six quarterly installments through the 18-month anniversary of closing, with a company option to settle most of it in Class A stock (capped at 19.9%). Q3 free cash flow was $26.0M."
+          "zh": "2026-09-30（10-Q）：现金及现金等价物 $605.604M＋短期可供出售投资 $106.617M＝$712.221M（推算；长期可供出售投资为零，年初 $351.263M）；9-30 循环信贷无未偿借款，$14.0M 信用证占用、可用 $161.0M；10-Q 称公司“不时”动用该信贷额度，并把前九个月利息费用上升部分归因于循环信贷借款利息，但未披露动用日期或金额。Eucalyptus 递延对价分六个季度支付至交割后第 18 个月，公司可选以 A 类股支付绝大部分（上限 19.9%）。Q3 自由现金流 $26.0M。",
+          "en": "At 2026-09-30 (10-Q): cash and cash equivalents of $605.604M plus short-term available-for-sale investments of $106.617M total $712.221M (derived; long-term available-for-sale investments are nil, against $351.263M at the start of the year); no loans were outstanding under the revolver at 9-30, with $14.0M of letters of credit and $161.0M available; the 10-Q states that the company \"draws on the Credit Facility from time to time\" and attributes part of the nine-month rise in interest expense to \"interest on borrowings under our revolving credit facility\", but discloses no draw dates or amounts. Eucalyptus deferred consideration is payable in six quarterly installments through the 18-month anniversary of closing, with a company option to settle most of it in Class A stock (capped at 19.9%). Q3 free cash flow was $26.0M."
         },
         "nextCheck": "Q3 2026 10-Q 资产负债表 / Q3 2026 10-Q balance sheet",
         "nextCheckDate": "2026-11",
-        "reading": "within",
+        "reading": "unclear",
         "readingAsOf": "2026-11-09",
-        "readingNote": "$712.2M 高于 $500M 触发线且循环信贷未动用，未触发。 / $712.2M is above the $500M trigger and the revolver is undrawn, so the item is not triggered."
+        "readingNote": "现金腿阈内：$712.2M 高于 $500M。动用腿不明确：9-30 无未偿借款，但 10-Q 称公司不时动用并披露前九个月有循环信贷借款利息，未给动用日期或金额，故不能据季末余额推断从未动用，也不机械判定触发；已发布下调规则已由另两条腿命中，本项评级不改变立场结论。 / Cash leg within: $712.2M is above $500M. Draw leg unclear: no loans were outstanding at 9-30, but the 10-Q says the company draws on the facility from time to time and reports interest on revolver borrowings in the nine months, without draw dates or amounts, so neither an undrawn period nor a breach can be inferred from the quarter-end balance; the published downgrade rule already fired on two other legs, so this grade does not change the stance outcome."
       },
       {
         "id": "ftc-billing-privacy",
@@ -5012,11 +5023,14 @@
           "en": "Subscribers decline quarter over quarter"
         },
         "latest": {
-          "zh": "Q3 2026（2026-11-09 8-K Ex 99.1）：期末订阅用户 278.8 万（上年同期 247.1 万，同比 +13%），低于 Q2 2026 期末 289.1 万（2026-08-10 8-K Ex 99.1）——环比减少 10.3 万、−3.56%（推算）；单用户月均收入 $105（同比 +30%）。订阅用户环比下降的已发布触发已命中（stanceTriggers.downgrade 析取腿之一）；正式 breached 评级与立场裁定须在同一次 Mode B／owner 复核中完成，本 Mode A 包不代为评级或改立场。",
-          "en": "Q3 2026 (2026-11-09 8-K Ex 99.1): period-end subscribers were 2.788M (2.471M a year earlier, +13% YoY), down from 2.891M at the end of Q2 2026 (2026-08-10 8-K Ex 99.1) - a sequential decline of 103K, or -3.56% (derived); monthly revenue per average subscriber was $105 (+30% YoY). The published trigger (subscribers decline quarter over quarter) has fired - one disjunctive leg of stanceTriggers.downgrade; the formal breached grade and the stance ruling must be made together in a Mode B / owner review, so this Mode A package neither grades it nor changes the stance."
+          "zh": "Q3 2026（2026-11-09 8-K Ex 99.1）：期末订阅用户 278.8 万（上年同期 247.1 万，同比 +13%），低于 Q2 2026 期末 289.1 万（2026-08-10 8-K Ex 99.1）——环比减少 10.3 万、−3.56%（推算）；单用户月均收入 $105（同比 +30%）。按 2026-11-09 评为 breached；2026-11-11 Mode B 重锚将其计入网格权重，并按 2026-11-10 收盘重新推导立场（维持谨慎，确信度低）。",
+          "en": "Q3 2026 (2026-11-09 8-K Ex 99.1): period-end subscribers were 2.788M (2.471M a year earlier, +13% YoY), down from 2.891M at the end of Q2 2026 (2026-08-10 8-K Ex 99.1) - a sequential decline of 103K, or -3.56% (derived); monthly revenue per average subscriber was $105 (+30% YoY). Graded breached as of 2026-11-09; the 2026-11-11 Mode B re-anchor carries it into the grid weights and re-derives the stance at the 2026-11-10 close (cautious maintained, conviction low)."
         },
         "nextCheck": "Q3 2026 财报（2026 年 11 月上旬，估计） / Q3 2026 results (early November 2026, estimated)",
-        "nextCheckDate": "2026-11"
+        "nextCheckDate": "2026-11",
+        "reading": "breached",
+        "readingAsOf": "2026-11-09",
+        "readingNote": "期末订阅用户由 Q2 的 289.1 万降至 Q3 的 278.8 万，环比减少 10.3 万（−3.56%，推算），评为已触发。2026-11-11 Mode B 重锚（按 2026-11-10 收盘）。 / Period-end subscribers fell from 2.891M (Q2) to 2.788M (Q3), a sequential decline of 103K (-3.56%, derived), so the item is breached. Mode B re-anchor 2026-11-11 (on the 2026-11-10 close)."
       }
     ]
   },

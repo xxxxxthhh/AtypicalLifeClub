@@ -294,11 +294,11 @@
       "symbol": "HIMS",
       "status": "carried-forward",
       "attemptedAt": "2026-11-11",
-      "baseDate": "2026-10-01",
-      "basePrice": 29.3,
-      "lastDate": "2026-11-09",
-      "lastClose": 22.94,
-      "changePct": -21.7,
+      "baseDate": "2026-11-10",
+      "basePrice": 19.13,
+      "lastDate": "2026-11-10",
+      "lastClose": 19.13,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
