@@ -1,41 +1,57 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T01:47:53Z",
+  "generatedAt": "2026-11-11T16:35:42Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-11-11T01:47:53Z"
+    "value": "2026-11-11T16:35:42Z"
   },
   "tasks": [
     {
-      "id": "earnings:coreweave-2026:call-2026-11-10:T",
+      "id": "earnings:applied-materials-2026:call-2026-11-12:T-1",
+      "reportId": "applied-materials-2026",
+      "type": "research-update",
+      "window": "T-1",
+      "expectedDate": "2026-11-12",
+      "reason": "Issuer-confirmed earnings call window (release time unconfirmed); first verify actual release filing/press release, then update the research package."
+    },
+    {
+      "id": "earnings:cerebras-2026:2026-11-12:T-1",
+      "reportId": "cerebras-2026",
+      "type": "research-update",
+      "window": "T-1",
+      "expectedDate": "2026-11-12",
+      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
+    },
+    {
+      "id": "earnings:coreweave-2026:call-2026-11-10:T+1",
       "reportId": "coreweave-2026",
       "type": "research-update",
-      "window": "T",
+      "window": "T+1",
       "expectedDate": "2026-11-10",
       "reason": "Issuer-confirmed earnings call window (release time unconfirmed); first verify actual release filing/press release, then update the research package."
     },
     {
-      "id": "earnings:hims-2026:2026-11-09:T+1",
-      "reportId": "hims-2026",
+      "id": "earnings:nebius-2026:2026-11-12:T-1",
+      "reportId": "nebius-2026",
       "type": "research-update",
-      "window": "T+1",
-      "expectedDate": "2026-11-09",
+      "window": "T-1",
+      "expectedDate": "2026-11-12",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     },
     {
-      "id": "earnings:nrg-2026:2026-11-09:T+1",
-      "reportId": "nrg-2026",
+      "id": "earnings:neov-2026:2026-11-12:T-1",
+      "reportId": "neov-2026",
       "type": "research-update",
-      "window": "T+1",
-      "expectedDate": "2026-11-09",
+      "window": "T-1",
+      "expectedDate": "2026-11-12",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     },
     {
-      "id": "earnings:rklb-2026:2026-11-09:T+1",
-      "reportId": "rklb-2026",
+      "id": "earnings:onds-2026:2026-11-12:T-1",
+      "reportId": "onds-2026",
       "type": "research-update",
-      "window": "T+1",
-      "expectedDate": "2026-11-09",
+      "window": "T-1",
+      "expectedDate": "2026-11-12",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     }
   ]
