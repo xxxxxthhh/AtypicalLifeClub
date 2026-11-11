@@ -4204,5 +4204,28 @@
       "coreweave-2026:solvency-gpu-life-stress",
       "coreweave-2026:self-build-pricing-crack"
     ]
+  },
+  {
+    "id": "hims-q3-2026-liquidity-revolver-correction-20261111",
+    "date": "2026-11-11",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "更正 hims-q3-2026-results-downgrade-legs-20261109：9-30 循环信贷无未偿借款不等于期间未动用，流动性腿评为不明确",
+      "en": "Correction to hims-q3-2026-results-downgrade-legs-20261109: no revolver loans outstanding at 9-30 does not mean the facility was undrawn; liquidity leg graded unclear"
+    },
+    "detail": {
+      "zh": "本信号更正 2026-11-09 信号 hims-q3-2026-results-downgrade-legs-20261109 中“循环信贷未动用”的表述；原信号作为历史记录保留、不删改。来源：Hims & Hers Q3 2026 10-Q（0001773751-26-000246，https://www.sec.gov/Archives/edgar/data/1773751/000177375126000246/hims-20260930.htm）。10-Q 原文：公司“draws on the Credit Facility from time to time and, as of September 30, 2026, no loans were outstanding under the Credit Facility”，$14.0M 信用证占用、可用 $161.0M；MD&A 把前九个月利息费用上升部分归因于“interest on borrowings under our revolving credit facility”，但未披露动用日期或金额。因此 9-30 无未偿借款只证明季末余额为零，不证明期间未动用。hims-2026:liquidity-acquisition-payments 的触发为“任一季度末现金与短期投资低于 $500M 或动用 $175.0M 循环信贷”：现金腿阈内（$605.604M＋$106.617M＝$712.221M，推算），动用腿既不能据季末余额推断为未动用，也不能机械判为触发，整体评为不明确（unclear），不改评为阈内。该更正不改变毛利率与订阅用户两条已触发腿的事实，也不单独改变立场；2026-11-11 Mode B 重锚按 2026-11-10 收盘 $19.13 重新推导后维持谨慎、低确信，立场仍待 owner 裁定发布。",
+      "en": "This signal corrects the statement that \"the revolver is undrawn\" in the 2026-11-09 signal hims-q3-2026-results-downgrade-legs-20261109; the original signal is kept unchanged as a historical record. Source: Hims & Hers Q3 2026 10-Q (0001773751-26-000246, https://www.sec.gov/Archives/edgar/data/1773751/000177375126000246/hims-20260930.htm). The 10-Q says the company \"draws on the Credit Facility from time to time and, as of September 30, 2026, no loans were outstanding under the Credit Facility\", with $14.0M of letters of credit and $161.0M available, and MD&A attributes part of the nine-month rise in interest expense to \"interest on borrowings under our revolving credit facility\", without disclosing draw dates or amounts. No loans outstanding at 9-30 therefore proves only a zero quarter-end balance, not an undrawn period. The trigger of hims-2026:liquidity-acquisition-payments is cash and short-term investments below $500M at any quarter-end or any draw on the $175.0M revolver: the cash leg is within ($605.604M + $106.617M = $712.221M, derived), while the draw leg can be neither inferred as undrawn from the quarter-end balance nor mechanically graded as fired, so the item is graded unclear, not within. The correction does not change the two fired legs (gross margin and subscribers) and does not by itself change the stance; the 2026-11-11 Mode B re-anchor on the 2026-11-10 close of $19.13 keeps cautious with low conviction, pending owner publication."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "HIMS"
+    ],
+    "reportIds": [
+      "hims-2026"
+    ],
+    "monitoringRefs": [
+      "hims-2026:liquidity-acquisition-payments"
+    ]
   }
 ]
