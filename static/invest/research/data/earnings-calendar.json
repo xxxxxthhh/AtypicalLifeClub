@@ -511,11 +511,11 @@
       "company": "Vistra",
       "expectedDate": "2026-11-06",
       "precision": "day",
-      "status": "estimated",
+      "status": "stale",
       "session": "unspecified",
       "sourceUrl": "https://investor.vistracorp.com/2026-09-29-Vistra-to-Report-Third-Quarter-Results-on-Nov-6,-2026",
       "sourceType": "monitoring",
-      "verifiedAt": "2026-10-07",
+      "verifiedAt": "2026-11-11",
       "timezone": "America/New_York",
       "fiscalPeriod": "Q3 2026",
       "call": {
@@ -524,7 +524,7 @@
         "expectedDate": "2026-11-06",
         "localTime": "10:00",
         "precision": "day",
-        "status": "issuer-confirmed",
+        "status": "stale",
         "sourceUrl": "https://investor.vistracorp.com/2026-09-29-Vistra-to-Report-Third-Quarter-Results-on-Nov-6,-2026",
         "sourceType": "issuer-ir",
         "verifiedAt": "2026-10-20"
