@@ -4204,5 +4204,30 @@
       "coreweave-2026:solvency-gpu-life-stress",
       "coreweave-2026:self-build-pricing-crack"
     ]
+  },
+  {
+    "id": "rklb-mode-b-valuation-rebuild-20261110",
+    "date": "2026-11-10",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Rocket Lab Mode B 重建：Q3 上行腿处理后加权 $39.33、年化 -9.72%，15% 复核线 $22.60，维持谨慎",
+      "en": "Rocket Lab Mode B rebuild: after the Q3 upside leg, weighted value $39.33 and -9.72% annualized; 15% review level $22.60, cautious maintained"
+    },
+    "detail": {
+      "zh": "来源：Rocket Lab 2026-11-09 8-K Ex 99.1（https://www.sec.gov/Archives/edgar/data/1819994/000181999426000073/rklb-11092026ex991.htm）、Q3 10-Q（https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm）、Q2 10-Q（https://www.sec.gov/Archives/edgar/data/1819994/000181999426000062/rklb-20260630.htm）、FY2025 10-K（https://www.sec.gov/Archives/edgar/data/1819994/000181999426000013/rklb-20251231.htm）、Iridium Q3 10-Q（https://www.sec.gov/Archives/edgar/data/1418819/000141881926000052/irdm-20260930.htm）；收盘价：Nasdaq 历史行情（https://api.nasdaq.com/api/quote/RKLB/historical?assetclass=stocks&fromdate=2026-10-01&todate=2026-11-10&limit=60）与 stockanalysis.com（https://stockanalysis.com/stocks/rklb/history/）。按 2026-11-09 收盘 $58.86（Q3 盘后发布前）、11-04 封面普通股 632.020915M＋forward 质押股 7.4512M＋优先股 40.95125M＝680.423365M 经济股数，市值 $40.050B；9-30 现金及有价证券 $4.703849B、融资本金 $3.026M，EV 约 $35.349B、TTM 收入 $881.900M 的 40.08x（均为推算）。研究假设：Neutron 实现率牛市 $70M／基准 $65M（公司称若干任务基础价提至 $70M），其余收入、倍数、权重与 2027—2030 现金路径不变；成交条件 2030 值 $90.43／$37.23／$8.77，加权 $39.33，至 2030-10-20 的 3.94 年年化 -9.72%；15% 折现 $22.67，复核线 $22.60。revenue-margin-delivery 的 Q3 条件已到期，按同一设计顺延至 Q4 指引（<$270M 或 <34% 降级复核；>$290M 且 >36% 上行重建）。立场维持谨慎／中确信；writer 草稿，待独立 counter／advisor 复核及 owner 人工发布。",
+      "en": "Sources: Rocket Lab 8-K Ex 99.1 of 2026-11-09 (https://www.sec.gov/Archives/edgar/data/1819994/000181999426000073/rklb-11092026ex991.htm), Q3 10-Q (https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm), Q2 10-Q (https://www.sec.gov/Archives/edgar/data/1819994/000181999426000062/rklb-20260630.htm), FY2025 10-K (https://www.sec.gov/Archives/edgar/data/1819994/000181999426000013/rklb-20251231.htm), Iridium Q3 10-Q (https://www.sec.gov/Archives/edgar/data/1418819/000141881926000052/irdm-20260930.htm); close: Nasdaq historical (https://api.nasdaq.com/api/quote/RKLB/historical?assetclass=stocks&fromdate=2026-10-01&todate=2026-11-10&limit=60) and stockanalysis.com (https://stockanalysis.com/stocks/rklb/history/). At the 2026-11-09 close of $58.86 (before the after-close Q3 release) and 680.423365M economic shares (632.020915M common on the 11-04 cover + 7.4512M pledged forward shares + 40.95125M preferred), equity is $40.050B; with $4.703849B of 9-30 cash and marketable securities and $3.026M of financing principal, EV is approximately $35.349B, 40.08x TTM revenue of $881.900M (all derived). Research assumptions: Neutron realization of $70M (bull) / $65M (base) per launch after the company said it lifted the base price to $70M for several missions; other revenue, multiples, weights and 2027-2030 cash paths unchanged. Conditional 2030 values are $90.43/$37.23/$8.77, weighted $39.33, -9.72% annualized over 3.94 years to 2030-10-20; the 15% discount is $22.67 and the review level $22.60. The expired Q3 revenue-margin-delivery condition is rolled to Q4 guidance on the same design (below $270M or 34% for downgrade review; above $290M and 36% for upside rebuild). Stance stays cautious / medium; writer draft pending independent counter/advisor review and manual owner publication."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "RKLB",
+      "IRDM"
+    ],
+    "reportIds": [
+      "rklb-2026"
+    ],
+    "monitoringRefs": [
+      "rklb-2026:revenue-margin-delivery",
+      "rklb-2026:valuation-hurdle-price"
+    ]
   }
 ]
