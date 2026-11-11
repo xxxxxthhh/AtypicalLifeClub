@@ -2415,7 +2415,7 @@
     "priceSymbol": "CRWV",
     "title": "CoreWeave 深度研究报告 - AI 建设的风险锚：真实需求还是杠杆与循环融资？",
     "titleEn": "CoreWeave Deep Research Report - The AI Buildout's Risk Anchor: Real Demand or Leverage & Circular Financing?",
-    "summary": "2026-08-13 监测更新：CoreWeave 2026 年二季度收入 $2,575M（同比 +112%），RPO $103.7B、公司口径 revenue backlog 约 $104B；总有息负债 $35.6B、经营租赁负债 $16.3B、现金 $5,524M。客户集中度明显下降，前三大客户占收入 36%／26%／10%，去年同期为单一客户 71%。收入转化改善，但 backlog 仍约为单季收入 40 倍，且 NVIDIA 需求兜底在本次申报中未被重述，因此 real-demand-vs-financing 严格判为 unclear。此次仅更新监测事实；未重算估值，bearish-avoid／中确信仍沿用 2026-07-30 收盘 $73.90 的完整裁定。",
+    "summary": "2026-11-11 更新（Mode A 事实增量，无估值重锚；据 2026-11-10 的 8-K Item 2.02 与 Ex 99.1）：2026 年三季度收入 $3,661M（环比 +42.2%、同比 +168.2%），公司口径 revenue backlog 约 $132.5B（6 月约 $104B），约为单季收入 36 倍（二季度约 40 倍，推算）；营业利润 $207M、利息净支出 $846M（二季度 $640M）、净亏损 $709M。资产负债表债务账面值合计 $46,873M（推算；与 Q2 10-Q 的本金口径 $35.6B 不完全可比）、经营租赁负债 $18,697M、现金 $4,122M；FY2026 收入指引上调至 $13.0–13.3B，资本开支指引 $37–39B。Q3 10-Q 截至采集时未提交，客户集中度与到期表待核；三条监测读数维持 unclear，revenue-quality-circularity 未更新。估值未重算，立场与确信度仍为下述 2026-07-30 收盘 $73.90 的完整裁定。2026-08-13 监测更新：CoreWeave 2026 年二季度收入 $2,575M（同比 +112%），RPO $103.7B、公司口径 revenue backlog 约 $104B；总有息负债 $35.6B、经营租赁负债 $16.3B、现金 $5,524M。客户集中度明显下降，前三大客户占收入 36%／26%／10%，去年同期为单一客户 71%。收入转化改善，但 backlog 仍约为单季收入 40 倍，且 NVIDIA 需求兜底在本次申报中未被重述，因此 real-demand-vs-financing 严格判为 unclear。此次仅更新监测事实；未重算估值，bearish-avoid／中确信仍沿用 2026-07-30 收盘 $73.90 的完整裁定。",
     "tags": [
       "AI云",
       "AI基础设施",
@@ -2424,7 +2424,7 @@
     ],
     "category": "tech",
     "date": "2026-06-30",
-    "lastUpdate": "2026-08-13",
+    "lastUpdate": "2026-11-11",
     "file": "/invest/research/reports/view.html?id=coreweave-2026",
     "markdownFiles": {
       "zh": "/invest/research/CoreWeave_深度研究报告_2026-06.md",
@@ -2440,13 +2440,13 @@
       "总有息负债 $35.6B、经营租赁负债 $16.3B、现金 $5,524M；高杠杆与期限错配仍是核心风险",
       "监测：revenue-quality-circularity within；real-demand-vs-financing、solvency-gpu-life-stress、self-build-pricing-crack 均 unclear"
     ],
-    "summaryEn": "August 13, 2026 monitoring update: CoreWeave reported Q2 2026 revenue of $2,575M (+112% YoY), RPO of $103.7B and company-defined revenue backlog of about $104B. Total indebtedness was $35.6B, operating lease liabilities were $16.3B and cash was $5,524M. Concentration fell materially: the top three customers were 36% / 26% / 10% of revenue versus one customer at 71% a year earlier. Revenue conversion improved, but backlog remains about 40 times quarterly revenue and the NVIDIA demand backstop was not restated in this filing, so real-demand-vs-financing is strictly unclear. This is a monitoring-only update; valuation was not recomputed, and bearish-avoid / medium conviction remains the full adjudication anchored to the July 30, 2026 close of $73.90.",
+    "summaryEn": "November 11, 2026 update (Mode A fact increment, no valuation re-anchor; from the 8-K Item 2.02 and Ex 99.1 dated November 10, 2026): Q3 2026 revenue was $3,661M (+42.2% QoQ, +168.2% YoY) and company-defined revenue backlog about $132.5B (about $104B in June), about 36x quarterly revenue (about 40x in Q2, derived); operating income was $207M, interest expense, net $846M (Q2: $640M) and net loss $709M. Balance-sheet debt carrying amounts total $46,873M (derived; not fully comparable with the $35.6B principal basis in the Q2 10-Q), operating lease liabilities $18,697M and cash $4,122M; FY2026 revenue guidance was raised to $13.0-13.3B and capex guidance is $37-39B. The Q3 10-Q had not been filed at capture, so concentration and the maturity table are pending; three monitoring readings stay unclear and revenue-quality-circularity is not updated. Valuation was not recomputed; stance and conviction remain the full adjudication anchored to the July 30, 2026 close of $73.90 described below. August 13, 2026 monitoring update: CoreWeave reported Q2 2026 revenue of $2,575M (+112% YoY), RPO of $103.7B and company-defined revenue backlog of about $104B. Total indebtedness was $35.6B, operating lease liabilities were $16.3B and cash was $5,524M. Concentration fell materially: the top three customers were 36% / 26% / 10% of revenue versus one customer at 71% a year earlier. Revenue conversion improved, but backlog remains about 40 times quarterly revenue and the NVIDIA demand backstop was not restated in this filing, so real-demand-vs-financing is strictly unclear. This is a monitoring-only update; valuation was not recomputed, and bearish-avoid / medium conviction remains the full adjudication anchored to the July 30, 2026 close of $73.90.",
     "chainLayer": "demand-risk",
     "coverageTier": "full",
     "chainRole": "risk-anchor",
     "stance": "bearish-avoid",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q2 2026",
+    "reportedPeriod": "Q3 2026 monitoring / 2026-07-30 valuation frame",
     "related": [
       "nebius-2026",
       "nvidia-2026"
@@ -2465,13 +2465,14 @@
           "en": "recognized revenue keeps lagging revenue backlog; a material share of bookings is supplier-backstopped/single-customer"
         },
         "latest": {
-          "zh": "2026 年二季度（2026-08-11 公布业绩，2026-08-12 提交 10-Q）：收入 $2,575M，对一季度 $2,078M、去年同期 $1,212M（同比 +112%）。2026-06-30 未履约 RPO 为 $103.7B，公司口径 revenue backlog 约 $104B，且不含 Q3 初新增的逾 $25B 净客户承诺；41% RPO 预计在截至 2028-06-30 的头 24 个月确认。收入转化改善，backlog 对单季收入的倍数由约 47 倍收敛至约 40 倍，但已确认收入仍大幅落后于 backlog；前三大客户仍占 36%／26%／10%，Meta 与 OpenAI 的具名承诺分别最高约 $21.0B 与 $6.5B。NVIDIA 合约产能兜底在本次申报中未被重述。读数为 unclear：收入追赶有所改善，但触发条件的 backlog 落后分支仍有实质证据，供应商兜底分支则缺少本期重述，不能据此判为 within。证据边界：revenue backlog 是含估计金额的公司自定义指标，不等同于 RPO；文件不披露利用率或 GPU 租赁 ASP。",
-          "en": "Q2 2026 (results released August 11, 2026; Form 10-Q filed August 12): revenue was $2,575M versus $2,078M in Q1 and $1,212M a year earlier (+112% YoY). Unsatisfied RPO was $103.7B at June 30, 2026 and company-defined revenue backlog was about $104B, excluding more than $25B of net new customer commitments added in early Q3; 41% of RPO is expected to be recognized in the first 24 months through June 30, 2028. Conversion improved and backlog-to-quarterly-revenue narrowed from about 47x to about 40x, but recognized revenue still materially lags backlog; the top three customers remained 36% / 26% / 10%, and named Meta and OpenAI commitments were up to about $21.0B and $6.5B. The NVIDIA contracted capacity backstop was not restated in this filing. Reading: unclear. Revenue catch-up improved, but the backlog-lag clause still has material evidence while the supplier-backstop clause lacks a current restatement, so the item cannot be graded within. Evidence limits: revenue backlog is a company-defined measure that includes estimates and is not the same caliber as RPO; neither utilization nor GPU rental ASP is disclosed."
+          "zh": "2026 年三季度（8-K Item 2.02 与 Ex 99.1，2026-11-10）：收入 $3,661M，对二季度 $2,575M（环比 +$1,086M、+42.2%）与上年同期 $1,365M（同比 +168.2%）。2026-09-30 公司口径 revenue backlog 约 $132.5B（6 月约 $104B）；backlog 对单季收入约 36.2 倍，二季度约 40.4 倍（均为推算）。公司称未来三个月预计约 $9B 客户预付款与押金；三季度现金流量表中递延收入变动 +$2,127M。backlog 对单季收入的比率收窄，但仅凭该比率无法衡量订单转化。新闻稿未披露客户集中度，也未提及 NVIDIA 合约产能兜底；Q3 10-Q 截至采集时尚未提交。读数为 unclear：backlog 落后分支仍有实质证据，供应商兜底／单一客户分支缺少本期披露。证据边界：revenue backlog 是含估计金额的公司自定义指标，不等同于 RPO；本季 RPO 与 24 个月确认比例待 10-Q。",
+          "en": "Q3 2026 (8-K Item 2.02 and Ex 99.1, 2026-11-10): revenue was $3,661M against $2,575M in Q2 (+$1,086M, +42.2% QoQ) and $1,365M a year earlier (+168.2% YoY). Company-defined revenue backlog was about $132.5B at 2026-09-30 (about $104B in June), about 36.2x quarterly revenue against about 40.4x in Q2 (both derived). The company expects about $9B of customer prepayments and deposits in the next three months, and the Q3 cash-flow statement shows a +$2,127M change in deferred revenue. The backlog-to-quarterly-revenue ratio narrowed. That ratio alone does not measure backlog conversion. The release discloses neither customer concentration nor any NVIDIA contracted-capacity backstop, and the Q3 10-Q had not been filed at capture. Reading: unclear. The backlog-lag clause still has material evidence and the supplier-backstop / single-customer clause lacks a current disclosure. Evidence limits: revenue backlog is a company-defined measure that includes estimates and is not RPO; the quarter's RPO and 24-month recognition share await the 10-Q."
         },
         "nextCheck": "2026-Q3 backlog 转化与 RPO 披露 / Q3 backlog conversion and RPO disclosures",
         "nextCheckDate": "2026-11",
         "reading": "unclear",
-        "readingAsOf": "2026-08-12"
+        "readingAsOf": "2026-11-10",
+        "readingNote": "backlog 倍数由约 40 倍降至约 36 倍，但收入仍大幅落后 backlog，供应商兜底／单一客户分支待 10-Q，维持 unclear。 / The backlog multiple fell from about 40x to about 36x, but revenue still materially lags backlog and the supplier-backstop / single-customer clause awaits the 10-Q, so the reading stays unclear."
       },
       {
         "id": "revenue-quality-circularity",
@@ -2507,13 +2508,14 @@
           "en": "24-month debt service + lease/purchase commitments exceed contracted + liquid coverage under a 'GPU life = 3 years' stress"
         },
         "latest": {
-          "zh": "2026-08-12 提交的 10-Q：2026-06-30 总有息负债 $35.6B（前一读数约 $24.9B），另有 $10.0B 未提取额度；债务本金到期表为 2026 年剩余 $4,413M、2027 年 $6,184M、2028 年 $4,416M、2029 年 $2,421M、2030 年 $3,221M、其后 $14,896M，合计 $35,551M。经营租赁负债 $16.3B，融资租赁负债合计 $221M；现金及等价物 $5,524M，另有受限现金流动 $873M、非流动 $507M。二季度利息净支出 $640M（合约利息 $592M，资本化利息 $79M），去年同期 $267M。截至 2028-06-30 的 24 个月内已签约收入仅以 RPO 的 41%（约 $42.5B）形式披露。读数为 unclear：本监测项的触发条件要求在“GPU 使用寿命 3 年”的压力情景下，把 24 个月的还本付息加租赁与采购承诺，与已签约加可动用流动性的覆盖度作比较；而申报文件按自然年度而非 24 个月窗口披露本金，未提供任何 GPU 使用寿命敏感性或残值假设，且 RPO 是收入口径而非现金毛利口径，因此该压力测试无法由已披露输入计算得出。此处withheld的理由是压力测试本身的证据不足，而非各分项数据缺失。",
-          "en": "Form 10-Q filed 2026-08-12: total indebtedness was $35.6B at 2026-06-30 against about $24.9B in the prior reading, with $10.0B of undrawn availability. Scheduled principal payments are $4,413M for the remainder of 2026, $6,184M in 2027, $4,416M in 2028, $2,421M in 2029, $3,221M in 2030 and $14,896M thereafter, totalling $35,551M. Operating lease liabilities are $16.3B and finance lease liabilities total $221M; cash and equivalents are $5,524M with restricted cash of $873M current and $507M non-current. Q2 interest expense net was $640M, comprising $592M of contractual interest less $79M of capitalized interest, against $267M a year earlier. Contracted revenue over the 24 months to 2028-06-30 is disclosed only as 41% of $103.7B of RPO, about $42.5B. Reading: unclear. This item's trigger requires 24-month debt service plus lease and purchase commitments to be set against contracted plus liquid coverage under a GPU-life-equals-three-years stress, and the filing discloses principal by calendar year rather than over a 24-month window, provides no GPU useful-life sensitivity or residual-value assumption, and states RPO as revenue rather than cash margin, so that stress cannot be computed from the disclosed inputs. The grade is withheld for evidence insufficiency on the stress itself, not because the individual components are unavailable."
+          "zh": "2026 年三季度（8-K Ex 99.1，2026-11-10）：2026-09-30 资产负债表债务账面值为有追索权流动 $9,183M＋非流动 $32,417M、无追索权流动 $1,389M＋非流动 $3,884M，合计 $46,873M（推算；为账面值，与 Q2 10-Q 本金口径 $35.6B 不完全可比）；经营租赁负债 $668M＋$18,029M＝$18,697M，融资租赁负债 $296M＋$353M＝$649M；现金及等价物 $4,122M，受限现金流动 $1,405M、非流动 $877M。三季度利息净支出 $846M（二季度 $640M），公司指引四季度利息支出 $1.05–1.15B；GAAP 营业利润 $207M、调整后营业利润 $379M，对利息净支出分别约 0.24 倍与 0.45 倍（推算）。三季度经营现金流 $1,975M、购置物业及设备（含资本化内部使用软件）的现金支出 $9,441M（差额 −$7,466M，推算）；FY2026 资本开支指引 $37–39B（原 $35–39B）。季内约 $4.2B 可转债发行、设立至多 3,500 万股 ATM 计划、$2.6B DDTL 5.5 额度交割。读数为 unclear：触发条件要求在“GPU 寿命 3 年”压力下比较 24 个月债务服务＋租赁／采购义务与已签约＋流动性覆盖；新闻稿未提供到期表、GPU 寿命敏感性或残值假设，Q3 10-Q 截至采集时尚未提交，该压力测试仍无法由已披露输入计算。",
+          "en": "Q3 2026 (8-K Ex 99.1, 2026-11-10): balance-sheet debt at 2026-09-30 was recourse $9,183M current plus $32,417M non-current and non-recourse $1,389M current plus $3,884M non-current, $46,873M in total (derived; carrying amounts, not fully comparable with the Q2 10-Q principal basis of $35.6B). Operating lease liabilities were $668M + $18,029M = $18,697M and finance lease liabilities $296M + $353M = $649M; cash and equivalents were $4,122M with restricted cash of $1,405M current and $877M non-current. Q3 interest expense, net was $846M (Q2: $640M) and the company guides Q4 interest expense to $1.05-1.15B; GAAP operating income of $207M and adjusted operating income of $379M cover net interest about 0.24x and 0.45x (derived). Q3 operating cash flow was $1,975M against $9,441M of cash purchases of property and equipment, including capitalized internal-use software (a -$7,466M gap, derived); FY2026 capex guidance is $37-39B (was $35-39B). In the quarter the company raised about $4.2B of convertible notes, set up an at-the-market program for up to 35 million shares and closed the $2.6B DDTL 5.5 facility. Reading: unclear. The trigger compares 24-month debt service plus lease and purchase commitments with contracted plus liquid coverage under a three-year GPU-life stress; the release gives no maturity table, GPU-life sensitivity or residual-value assumption, and the Q3 10-Q had not been filed at capture, so the stress still cannot be computed from disclosed inputs."
         },
         "nextCheck": "到期结构、利息覆盖与折旧政策的进一步披露 / further maturity, coverage and depreciation-policy disclosure",
         "nextCheckDate": "2026-11",
         "reading": "unclear",
-        "readingAsOf": "2026-08-12"
+        "readingAsOf": "2026-11-10",
+        "readingNote": "债务与租赁规模继续上升、营业利润对利息覆盖不足 1 倍，但 3 年 GPU 寿命压力测试所需到期表与敏感性未披露，维持 unclear。 / Debt and leases keep rising and operating income covers net interest less than 1x, but the maturity table and sensitivity needed for the three-year GPU-life stress are undisclosed, so the reading stays unclear."
       },
       {
         "id": "self-build-pricing-crack",
@@ -2528,13 +2530,14 @@
           "en": "a top customer publicly cuts commitments, or GPU rental ASPs fall alongside utilization"
         },
         "latest": {
-          "zh": "2026-08-11 业绩与 2026-08-12 提交的 10-Q：期内没有任何主要客户削减承诺。10-Q 载明 OpenAI 承诺最高约 $6.5B（至 2031-05-31）、Meta 初始承诺最高约 $21.0B；新闻稿称 Q3 初新增逾 $250 亿净新增客户承诺，并点名 Bentley Systems、Caterpillar、Grammarly、Isomorphic Labs、Sunday Robotics 等新客户，以及 Cognition、Databricks、Hudson River Trading、Periodic Labs、Rescale、Runway ML 等既有客户扩容。季内 active power 增加近 500MW 至 1.5GW，contracted power 增至约 3.7GW。读数为 unclear：本触发条件为析取（主要客户公开削减承诺，或 GPU 租金 ASP 随利用率一同下滑），第一分支已明确为否（承诺是扩张而非削减），但新闻稿与 10-Q 均未披露 GPU 租金 ASP 或利用率，第二分支无法检验，因此整个析取式未定。",
-          "en": "Q2 2026 results 2026-08-11 and Form 10-Q filed 2026-08-12: no top customer reduced its commitments in the period. The 10-Q states OpenAI committed up to approximately $6.5B through 2031-05-31 and Meta initially committed up to approximately $21.0B, and the release states more than $25B of net new customer commitments were added in early Q3, naming new customers including Bentley Systems, Caterpillar, Grammarly, Isomorphic Labs and Sunday Robotics and expanded relationships including Cognition, Databricks, Hudson River Trading, Periodic Labs, Rescale and Runway ML. Active power grew by nearly 500MW during the quarter to 1.5GW and total contracted power to approximately 3.7GW. Reading: unclear. This trigger is disjunctive — a top customer publicly cuts commitments, or GPU rental ASPs fall alongside utilization — and its first clause is decisively negative because commitments expanded rather than being cut, but neither the release nor the 10-Q discloses GPU rental ASPs or utilization, so the second clause cannot be tested and the disjunction as a whole is undetermined."
+          "zh": "2026 年三季度（8-K Ex 99.1，2026-11-10）：新闻稿未披露任何主要客户削减承诺，反而列出与 Chan Zuckerberg Initiative、Cohere、Hippocratic AI、Jane Street、OpenAI、Perplexity 等既有客户扩大合作，并点名 Canva、Mirendil、Parallel Web Systems、Serve Robotics、Substack、Wayve 等合作客户；active power 增加逾 200MW 至逾 1.7GW，contracted power 增加逾 900MW 至逾 4.6GW；调整后 EBITDA 利润率 62%（上年同期 61%）。读数为 unclear：业绩稿未提供主要客户公开削减承诺的证据，但新闻稿未披露 GPU 租金 ASP 或利用率，第二分支仍无法检验。",
+          "en": "Q3 2026 (8-K Ex 99.1, 2026-11-10): the release discloses no top-customer commitment cut; instead it lists expanded relationships with existing customers including Chan Zuckerberg Initiative, Cohere, Hippocratic AI, Jane Street, OpenAI and Perplexity, and names customers including Canva, Mirendil, Parallel Web Systems, Serve Robotics, Substack and Wayve. Active power grew by more than 200MW to over 1.7GW and contracted power by more than 900MW to over 4.6GW; the adjusted EBITDA margin was 62% (61% a year earlier). Reading: unclear. The release gives no evidence of a public top-customer commitment cut, but the release discloses no GPU rental ASP or utilization, so the second clause still cannot be tested."
         },
         "nextCheck": "微软/OpenAI 产能表态、租金 ASP 与利用率 / capacity commentary, ASP and utilization",
         "nextCheckDate": "2026-11",
         "reading": "unclear",
-        "readingAsOf": "2026-08-12"
+        "readingAsOf": "2026-11-10",
+        "readingNote": "业绩稿未披露主要客户削减承诺，也未披露 GPU 租金 ASP 或利用率，维持 unclear。 / The release reports neither top-customer commitment cuts nor GPU rental ASP or utilization, so the reading stays unclear."
       }
     ],
     "conviction": "medium",
