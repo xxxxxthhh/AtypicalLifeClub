@@ -817,11 +817,11 @@
       "symbol": "RKLB",
       "status": "carried-forward",
       "attemptedAt": "2026-11-11",
-      "baseDate": "2026-10-16",
-      "basePrice": 50.84,
+      "baseDate": "2026-11-09",
+      "basePrice": 58.86,
       "lastDate": "2026-11-09",
       "lastClose": 58.86,
-      "changePct": 15.8,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
