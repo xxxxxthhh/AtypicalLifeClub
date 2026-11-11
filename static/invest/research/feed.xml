@@ -6,6 +6,13 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>CoreWeave 深度研究报告 - AI 建设的风险锚：真实需求还是杠杆与循环融资？ / CoreWeave Deep Research Report - The AI Buildout's Risk Anchor: Real Demand or Leverage &amp; Circular Financing?</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=coreweave-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=coreweave-2026#coreweave-2026@2026-11-11</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+      <description>2026-11-11 更新（Mode A 事实增量，无估值重锚；据 2026-11-10 盘后 8-K Item 2.02 与 Ex 99.1）：2026 年三季度收入 $3,661M（环比 +42.2%、同比 +168.2%），公司口径 revenue backlog 约 $132.5B（6 月约 $104B），约为单季收入 36 倍（二季度约 40 倍，推算）；营业利润 $207M、利息净支出 $846M（二季度 $640M）、净亏损 $709M。资产负债表债务账面值合计 $46,873M（推算；与 Q2 10-Q 的本金口径 $35.6B 不完全可比）、经营租赁负债 $18,697M、现金 $4,122M；FY2026 收入指引上调至 $13.0–13.3B，资本开支指引 $37–39B。Q3 10-Q 截至采集时未提交，客户集中度与到期表待核；三条监测读数维持 unclear，revenue-quality-circularity 未更新。估值未重算，立场与确信度仍为下述 2026-07-30 收盘 $73.90 的完整裁定。2026-08-13 监测更新：CoreWeave 2026 年二季度收入 $2,575M（同比 +112%），RPO $103.7B、公司口径 revenue backlog 约 $104B；总有息负债 $35.6B、经营租赁负债 $16.3B、现金 $5,524M。客户集中度明显下降，前三大客户占收入 36%／26%／10%，去年同期为单一客户 71%。收入转化改善，但 backlog 仍约为单季收入 40 倍，且 NVIDIA 需求兜底在本次申报中未被重述，因此 real-demand-vs-financing 严格判为 unclear。此次仅更新监测事实；未重算估值，bearish-avoid／中确信仍沿用 2026-07-30 收盘 $73.90 的完整裁定。</description>
+    </item>
+    <item>
       <title>Rocket Lab 深度研究报告 - 现有交付、Neutron 风险与每股资本回报 / Rocket Lab Deep Research Report - Delivery, Neutron Risk and Per-Share Capital Returns</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=rklb-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=rklb-2026#rklb-2026@2026-11-10</guid>
@@ -438,13 +445,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=applied-materials-2026#applied-materials-2026@2026-08-14</guid>
       <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
       <description>【2026-08-14 监测与估值重锚：AMAT 于 2026-08-13 收于 $534.54；按 Q3 公告的 794M 基本加权平均股数，市值约 $424.4B，窄口径 EV 约 $421.7B；约 10.3x EV/Q4 年化收入、33.2x Q4 指引 EPS 年化。立场维持观望中性 / 中确信。】AI 基础设施 semicap-equipment 层的广谱设备仪表盘：FY2026 Q3（截至 2026-07-26）收入创纪录 $9,115M（同比 +25%），GAAP gross margin 50.3%、non-GAAP EPS $3.50，均高于 $8,950M / $3.36 的指引中点；Semiconductor Systems 收入 $7,040M，其中 foundry/logic/other 67%、DRAM 26%、Flash 7%。Q4 指引收入 $10,250M +/- $500M、non-GAAP EPS $4.02 +/- $0.20。中国是唯一同比收入下降地区（$2,506M，占比 28%，去年同期 35%），公告未作归因；订单/backlog 也未披露。尽管股价较 2026-07-30 上升 6.5%，下一季度口径销售倍数降至 10.3x；中国归因与订单转化仍未闭合，因此不升至 constructive。</description>
-    </item>
-    <item>
-      <title>CoreWeave 深度研究报告 - AI 建设的风险锚：真实需求还是杠杆与循环融资？ / CoreWeave Deep Research Report - The AI Buildout's Risk Anchor: Real Demand or Leverage &amp; Circular Financing?</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=coreweave-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=coreweave-2026#coreweave-2026@2026-08-13</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
-      <description>2026-08-13 监测更新：CoreWeave 2026 年二季度收入 $2,575M（同比 +112%），RPO $103.7B、公司口径 revenue backlog 约 $104B；总有息负债 $35.6B、经营租赁负债 $16.3B、现金 $5,524M。客户集中度明显下降，前三大客户占收入 36%／26%／10%，去年同期为单一客户 71%。收入转化改善，但 backlog 仍约为单季收入 40 倍，且 NVIDIA 需求兜底在本次申报中未被重述，因此 real-demand-vs-financing 严格判为 unclear。此次仅更新监测事实；未重算估值，bearish-avoid／中确信仍沿用 2026-07-30 收盘 $73.90 的完整裁定。</description>
     </item>
     <item>
       <title>Alphabet 深度研究报告 - TPU 外部化与 capex 融资质量的架构校验 / Alphabet Deep Research Report - Architecture Check on TPU Externalization and Capex Funding Quality</title>
