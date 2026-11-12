@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "mode": "historical-preview",
+  "entries": [
+    {
+      "id": "hims-20261110",
+      "publishedDate": "2026-11-10",
+      "evidenceDate": "2026-11-09",
+      "type": "facts",
+      "reportId": "hims-2026",
+      "signalId": "hims-q3-2026-results-downgrade-legs-20261109",
+      "company": "Hims & Hers",
+      "ticker": "HIMS",
+      "title": {"zh": "增长还在，但两条下调条件已经触发", "en": "Growth continues, but two downgrade conditions have fired"},
+      "change": {"zh": "本次补入 Q3 财报后，研究重点转向增长的质量：收入同比增长 49%，同时毛利率降至 57%，订阅用户环比减少。全年调整后 EBITDA 指引也被下调。", "en": "The Q3 update shifts attention to the quality of growth: revenue rose 49% year over year, while gross margin fell to 57% and subscribers declined sequentially. Full-year adjusted EBITDA guidance was also lowered."},
+      "meaning": {"zh": "毛利率与订阅变化分别命中此前写下的下调条件。新事实已补入报告，但尚未据此完成估值与立场重裁；已发布的谨慎、低确信仍属于旧裁定。", "en": "Margin and subscriber performance each meet a previously published downgrade condition. The facts are in the report, but valuation and stance have not yet been re-adjudicated; cautious / low conviction remains the historical ruling."},
+      "next": {"zh": "单独复核新盈利指引与用户趋势对估值的影响，完成立场重裁。", "en": "Review the valuation implications of lower profit guidance and subscriber trends, then re-adjudicate the stance."}
+    },
+    {
+      "id": "rklb-20261110",
+      "publishedDate": "2026-11-10",
+      "evidenceDate": "2026-11-09",
+      "type": "facts",
+      "reportId": "rklb-2026",
+      "signalId": "rklb-q3-2026-results-20261109",
+      "company": "Rocket Lab",
+      "ticker": "RKLB",
+      "title": {"zh": "交付表现达到上行复核条件，现金转化仍待验证", "en": "Delivery clears the upside review threshold; cash conversion still needs proof"},
+      "change": {"zh": "Q3 收入和毛利率同时超过报告预设的上行复核门槛。单季经营现金流转正，在手订单扩大；但扣除资本开支后，单季现金流仍为负。", "en": "Q3 revenue and gross margin both exceeded the report’s thresholds for an upside review. Quarterly operating cash flow turned positive and backlog grew, but cash flow after capital spending remained negative."},
+      "meaning": {"zh": "本次更新提供了重建上行情景的依据，还没有形成新的估值结论。Neutron 首飞仍以不早于 2027 年为目标，与此前披露一致，不应写成又一次延期。", "en": "The update provides grounds to rebuild the upside scenario, without establishing a new valuation conclusion. Neutron still targets no earlier than 2027, consistent with prior disclosure rather than another delay."},
+      "next": {"zh": "重建上行情景，并用完整下半年数据检验现金与订单质量。", "en": "Rebuild the upside scenario and use full second-half results to assess cash generation and backlog quality."}
+    },
+    {
+      "id": "nrg-20261110",
+      "publishedDate": "2026-11-10",
+      "evidenceDate": "2026-11-09",
+      "type": "facts",
+      "reportId": "nrg-2026",
+      "signalId": "nrg-q3-2026-results-4b-asset-sale-20261109",
+      "company": "NRG Energy",
+      "ticker": "NRG",
+      "title": {"zh": "资产出售改变了下一轮估值需要回答的问题", "en": "The planned asset sale changes the questions for the next valuation review"},
+      "change": {"zh": "报告补入 Q3 业绩、首次发布的 2027 年指引，以及以 40 亿美元出售 4.9GW 燃气电厂的计划。公司同时披露回购与交割后减债安排。", "en": "The report adds Q3 results, initial 2027 guidance and a plan to sell 4.9GW of gas plants for $4 billion, alongside buyback and post-closing debt-reduction plans."},
+      "meaning": {"zh": "后续估值需要同时考虑售出资产的盈利贡献、出售所得与资本分配。交易目标为 2027 年第二季度交割且仍待审批；已公布的 2027 年指引尚未计入此次出售。", "en": "The next valuation must consider earnings leaving with the assets, sale proceeds and capital allocation together. Closing is targeted for Q2 2027 and remains subject to approvals; published 2027 guidance excludes the sale."},
+      "next": {"zh": "核实审批与交割进展，并在独立估值复核中重算出售后的盈利和债务。", "en": "Track approvals and closing, then rebuild post-sale earnings and debt in a separate valuation review."}
+    },
+    {
+      "id": "ceg-20261110",
+      "publishedDate": "2026-11-10",
+      "evidenceDate": "2026-11-09",
+      "type": "facts",
+      "reportId": "constellation-energy-2026",
+      "signalId": "constellation-q3-2026-results-risec-doe-20261109",
+      "company": "Constellation Energy",
+      "ticker": "CEG",
+      "title": {"zh": "盈利指引收窄，收购与融资承诺仍有待落地", "en": "Earnings guidance narrows while acquisition and financing remain conditional"},
+      "change": {"zh": "本次补入 Q3 业绩、收窄后的全年盈利指引，以及拟收购 RISEC 的进展。报告同时更新债务事实与 DOE 担保的条件边界。", "en": "This update adds Q3 results, a narrower full-year earnings range and the proposed RISEC acquisition, together with debt facts and the conditions attached to the DOE guarantee."},
+      "meaning": {"zh": "拟议收购仍待批准，DOE 至多 50 亿美元担保也只是有条件承诺。两者都不能直接当作已完成交易或已到位资金计入新的估值结论。", "en": "The acquisition still awaits approval and the DOE guarantee of up to $5 billion is a conditional commitment. Neither establishes a completed transaction or funding already received for a new valuation conclusion."},
+      "next": {"zh": "跟踪交易审批与融资条件，并在估值重算时统一处理债务及新指引。", "en": "Track approvals and financing conditions, then reconcile debt and new guidance in a valuation rebuild."}
+    },
+    {
+      "id": "axti-20261102",
+      "publishedDate": "2026-11-02",
+      "evidenceDate": "2026-11-02",
+      "type": "stance",
+      "reportId": "axti-2026",
+      "signalId": "axti-q3-call-tongmei-mode-b-20261102",
+      "company": "AXT Inc.",
+      "ticker": "AXTI",
+      "title": {"zh": "重新估值后，从谨慎调整为中性观察", "en": "A rebuilt valuation moves the stance from cautious to neutral-watch"},
+      "change": {"zh": "按 10 月 30 日收盘价重建估值，并纳入 Q3 业绩、Q4 指引及通美私募影响。立场由谨慎、中确信调整为中性观察、低确信。", "en": "Valuation was rebuilt at the October 30 close using Q3 results, Q4 guidance and the Tongmei placement. The stance moves from cautious / medium to neutral-watch / low conviction."},
+      "meaning": {"zh": "这次调整来自价格与情景分布的变化，并非此前的上调条件已经触发。重建后的牛熊分布大致对称，加权年化回报仍低于要求门槛，因此没有转为偏多。", "en": "The change is driven by price and the scenario distribution, rather than a previously published upgrade condition firing. Bull and bear outcomes are roughly symmetric, while the weighted annualized return remains below the hurdle, so the stance does not become constructive."},
+      "next": {"zh": "继续核实 Q3 10-Q、出口许可与私募交割条件；相关未知项仍限制确信度。", "en": "Verify the Q3 10-Q, export permits and placement closing conditions; unresolved items continue to limit conviction."}
+    }
+  ]
+}
