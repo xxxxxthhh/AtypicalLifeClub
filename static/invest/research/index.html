@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/invest/theme-adapter.css">
     <link rel="stylesheet" href="/invest/styles.css">
     <link rel="stylesheet" href="/invest/research/styles.css">
+    <link rel="stylesheet" href="/invest/research/daily-updates.css">
 </head>
 <body>
     <header class="shell-header">
@@ -87,6 +88,12 @@
 
         <section class="market-context-strip" id="marketContextStrip" hidden></section>
 
+        <section id="daily-updates" aria-labelledby="daily-updates-title">
+            <h2 id="daily-updates-title">Research updates</h2>
+            <p>Loading historical research updates…</p>
+            <noscript>Enable JavaScript to view the research updates preview.</noscript>
+        </section>
+
         <section class="section" id="report-list">
             <div class="research-header-row">
                 <h2 data-i18n="listTitle">Report List</h2>
@@ -125,5 +132,6 @@
     <script src="/shared/report-utils.js"></script>
     <script src="/invest/research/tracking-rules.js"></script>
     <script src="/invest/research/app.js"></script>
+    <script type="module" src="/invest/research/daily-updates.mjs"></script>
 </body>
 </html>
