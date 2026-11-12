@@ -40,7 +40,7 @@ jobs:
         run: python3 -m unittest discover -s static/invest/research -p "test_*.py"
 
       - name: Run research JavaScript unit tests
-        run: node --test static/invest/research/reports/report-module-parser.test.mjs static/invest/research/test_tracking_rules.mjs
+        run: node --test static/invest/research/reports/report-module-parser.test.mjs static/invest/research/test_tracking_rules.mjs static/invest/research/daily-updates.test.mjs
 
       - name: Validate research metadata
         run: python3 static/invest/research/validate_reports.py
