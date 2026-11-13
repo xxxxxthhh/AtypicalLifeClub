@@ -176,7 +176,7 @@
         "expectedDate": "2026-11-10",
         "localTime": "17:00",
         "precision": "day",
-        "status": "issuer-confirmed",
+        "status": "stale",
         "sourceUrl": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Date-of-Third-Quarter-2026-Financial-Results-and-Conference-Call/default.aspx",
         "sourceType": "issuer-ir",
         "verifiedAt": "2026-11-03"
