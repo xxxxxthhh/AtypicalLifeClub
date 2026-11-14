@@ -2452,6 +2452,25 @@
       "benchmarkSymbol": "XLU"
     },
     {
+      "reportId": "vistra-2026",
+      "fromStance": "cautious",
+      "toStance": "cautious",
+      "toConviction": "medium",
+      "startDate": "2026-07-31",
+      "startPrice": 148.62,
+      "endDate": "2026-11-13",
+      "endPrice": 133.01,
+      "changePct": -10.5,
+      "benchmarkChangePct": -0.7,
+      "relativePct": -9.8,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -9.9,
+      "bookRelativePct": -0.6,
+      "daysHeld": 105,
+      "migration": false,
+      "benchmarkSymbol": "XLU"
+    },
+    {
       "reportId": "meta-2026",
       "fromStance": "neutral-watch",
       "toStance": "neutral-watch",

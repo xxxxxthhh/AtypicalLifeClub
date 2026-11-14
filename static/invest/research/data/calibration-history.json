@@ -12320,7 +12320,7 @@
   {
     "date": "2026-11-13",
     "scoredCount": 120,
-    "medianRelativePct": -2.4,
+    "medianRelativePct": -2.3,
     "nonNeutralBeatRate": 0.3924050632911392,
     "byBenchmark": {
       "COPX": {
@@ -12443,7 +12443,7 @@
           },
           "cautious": {
             "scoredCount": 12,
-            "medianRelativePct": -5.2
+            "medianRelativePct": -5.9
           }
         }
       }
