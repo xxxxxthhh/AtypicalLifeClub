@@ -1,48 +1,48 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T03:09:17Z",
+  "generatedAt": "2026-11-14T02:08:50Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-11-13T03:09:17Z"
+    "value": "2026-11-14T02:08:50Z"
   },
   "tasks": [
     {
-      "id": "earnings:applied-materials-2026:call-2026-11-12:T",
+      "id": "earnings:applied-materials-2026:call-2026-11-12:T+1",
       "reportId": "applied-materials-2026",
       "type": "research-update",
-      "window": "T",
+      "window": "T+1",
       "expectedDate": "2026-11-12",
       "reason": "Issuer-confirmed earnings call window (release time unconfirmed); first verify actual release filing/press release, then update the research package."
     },
     {
-      "id": "earnings:cerebras-2026:2026-11-12:T",
+      "id": "earnings:cerebras-2026:2026-11-12:T+1",
       "reportId": "cerebras-2026",
       "type": "research-update",
-      "window": "T",
+      "window": "T+1",
       "expectedDate": "2026-11-12",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     },
     {
-      "id": "earnings:nebius-2026:2026-11-12:T",
+      "id": "earnings:nebius-2026:2026-11-12:T+1",
       "reportId": "nebius-2026",
       "type": "research-update",
-      "window": "T",
+      "window": "T+1",
       "expectedDate": "2026-11-12",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     },
     {
-      "id": "earnings:neov-2026:2026-11-12:T",
+      "id": "earnings:neov-2026:2026-11-12:T+1",
       "reportId": "neov-2026",
       "type": "research-update",
-      "window": "T",
+      "window": "T+1",
       "expectedDate": "2026-11-12",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     },
     {
-      "id": "earnings:onds-2026:2026-11-12:T",
+      "id": "earnings:onds-2026:2026-11-12:T+1",
       "reportId": "onds-2026",
       "type": "research-update",
-      "window": "T",
+      "window": "T+1",
       "expectedDate": "2026-11-12",
       "reason": "Issuer-confirmed earnings window; verify release and update the research package."
     }
