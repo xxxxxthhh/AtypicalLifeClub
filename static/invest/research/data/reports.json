@@ -8300,7 +8300,7 @@
     "priceSymbol": "VST",
     "title": "Vistra 深度研究报告 - AI 电力约束的核电与燃气高 beta 仪表盘",
     "titleEn": "Vistra Deep Research Report - Nuclear and Gas High-Beta Dashboard for AI Power",
-    "summary": "2026-11-07 — Q3 2026（季度截至 2026-09-30；8-K Ex 99.1 业绩稿，2026-11-06 盘前）GAAP 净利润 $1,140M（上年同期 $652M），含预计在以后年度结算的套保未实现收益 $559M；Ongoing Operations 调整后 EBITDA $2,378M（上年同期 $1,581M，增加 $797M），公司归因于已实现电价与容量价格上升、Lotus 电厂三个月贡献以及 Martin Lake 1 号机组恢复运行。分部调整后 EBITDA：Texas $1,227M（上年 $784M）、East $979M（$719M）、Retail $98M（$37M）、West $76M（$63M）。2026 年指引收窄为 Ongoing Operations 调整后 EBITDA $7.1–7.5B、调整后 FCFbG $4.3–4.7B；首次给出 2027 年区间 $7.7–8.5B 与 $4.3–5.1B。董事会追加 $1.5B 回购授权（剩余约 $2.5B，预计不晚于 2028 年底用完）；2026-11-02 在外流通股约 3.39 亿股。与 Odessa 燃气联合循环电厂签订 20 年、207MW 购电协议（对手方 New Era Energy and Digital）。Cogentrix 收购于 2026-10-30 完成（8-K，2026-11-05 提交）：现金约 $2.2B（已扣除营运资本、所得现金及承担约 $1.7B 债务等调整），另发行 5,000,000 股 Vistra 普通股（约定价每股 $185），取得约 5,500MW 燃气装机。10–11 月 Vistra 赎回全部 $1B A 系列优先股、支付上述约 $2.2B、提满应收账款融资额度并偿还约 $1.7B 承担债务，备考可用流动性由 9-30 的 $8,923M 降至约 $5.4B。业绩稿未说明 2026／2027 指引是否包含 Cogentrix，未附资产负债表，也未提及 Meta 核电 PPA。 估值与立场仍按 2026-07-30 历史基础；Q3 实绩与 Cogentrix 交割后的资本结构待 Mode B 重算，价格、估值数字、立场和确信度本包未更新。",
+    "summary": "2026-11-15 Mode B 估值与立场复核（writer 草稿，待独立 counter／advisor 复核与 owner 人工发布）：Q3 2026（10-Q 于 11-09 提交；业绩稿 11-06）收入 $6,347M、GAAP 净利润 $1,140M（含 $559M 未实现套保收益）、Ongoing Operations 调整后 EBITDA $2,378M（同比 +$797M）；2026 指引收窄至 EBITDA $7.1–7.5B／FCFbG $4.3–4.7B，2027 首发 $7.7–8.5B／$4.3–5.1B。9-30 现金 $2,743M、长期债务 $21,146M（$2,877M 一年内到期）、远期回购 $622M，净债务 $19,025M；季后赎回 $1B A 系列优先股、支付 Cogentrix 现金约 $2.2B、提满应收账款与回购融资额度 $1,375M 并偿还承接债务约 $1.7B，备考净债务约 $23,925M、备考流动性约 $5.4B。按 11-13 收盘 $133.01、约 3.39 亿股，市值 $45.14B；加 B／C 系列优先股 $1.476B 与少数股东权益 $0.157B，EV 约 $70.70B，9.69x 2026E／8.73x 2027E EBITDA、3.43x TTM 收入、18.0x TTM GAAP P/E。2027E EBITDA 情景（10.5x／9.0x／7.0x）每股 $187.66／$139.49／$83.51，30／40／30 加权 $137.15（+3.1%，约 1.13 年年化 2.7%），低于 8% 参考；Cogentrix 转化／协同与 Meta PPA 定价仍未披露；Q3 10-Q 已披露 Meta PPA 2,609MW 容量与交付节奏。维持谨慎、中确信；8% 复核价约 $125.71。",
     "tags": [
       "AI电力",
       "核电",
@@ -8309,7 +8309,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-11-07",
+    "lastUpdate": "2026-11-15",
     "file": "/invest/research/reports/view.html?id=vistra-2026",
     "markdownFiles": {
       "zh": "/invest/research/Vistra_深度研究报告_2026-07.md",
@@ -8319,19 +8319,19 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "Q3 2026（2026-11-06 盘前）：Ongoing Operations 调整后 EBITDA $2,378M（上年同期 $1,581M）；GAAP 净利润 $1,140M 含 $559M 套保未实现收益",
-      "Texas 分部 $1,227M、East 分部 $979M；公司归因于已实现电价与容量价格上升及 Lotus 电厂贡献",
-      "2026 指引收窄为 EBITDA $7.1–7.5B、FCFbG $4.3–4.7B；2027 区间 $7.7–8.5B 与 $4.3–5.1B；追加 $1.5B 回购",
-      "Cogentrix 2026-10-30 交割：现金约 $2.2B＋500 万股（约定 $185），约 5,500MW；已偿还约 $1.7B 承担债务，备考流动性约 $5.4B",
-      "与 New Era Energy and Digital 签 Odessa 电厂 20 年 207MW 购电协议；估值与立场未更新"
+      "Q3 2026：收入 $6,347M、GAAP 净利润 $1,140M（含 $559M 未实现套保收益）、Ongoing Operations 调整后 EBITDA $2,378M（+$797M）",
+      "9M 2026 经营现金流 $4,330M；资本开支（含核燃料与 LTSA 预付）$2,319M；2026/2027 FCFbG 指引 $4.3–4.7B／$4.3–5.1B",
+      "9-30 现金 $2,743M、长期债务 $21,146M、远期回购 $622M；季后 A 系列优先股 $1B、Cogentrix 现金约 $2.2B，备考净债务约 $23.9B",
+      "Cogentrix 2026-10-30 交割：现金约 $2.2B＋500 万股（约定 $185）＋承接债务约 $1.7B；约 5,500MW；已偿还承接债务",
+      "估值重锚：$133.01、EV 约 $70.70B、9.69x 2026E／8.73x 2027E EBITDA；情景加权 $137.15（+3.1%，年化约 2.7%）；维持谨慎、中确信"
     ],
-    "summaryEn": "2026-11-07 — Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1 results release, before the open on 2026-11-06) GAAP net income was $1,140M (Q3 2025: $652M), including a $559M unrealized hedge gain expected to settle in future years; Ongoing Operations Adjusted EBITDA was $2,378M (Q3 2025: $1,581M, up $797M), which the company attributes to higher realized energy and capacity prices, three months of contribution from the Lotus plants and Martin Lake Unit 1 returning to service. Segment adjusted EBITDA: Texas $1,227M (Q3 2025: $784M), East $979M ($719M), Retail $98M ($37M), West $76M ($63M). 2026 guidance was narrowed to Ongoing Operations Adjusted EBITDA of $7.1-7.5B and Adjusted FCFbG of $4.3-4.7B; 2027 ranges were initiated at $7.7-8.5B and $4.3-5.1B. The board authorized an additional $1.5B of repurchases (about $2.5B remaining, expected to be completed no later than year-end 2028); about 339M shares were outstanding on 2026-11-02. Vistra signed a 20-year, 207MW power purchase agreement with New Era Energy and Digital at its Odessa combined-cycle gas plant. The Cogentrix acquisition closed on 2026-10-30 (8-K filed 2026-11-05): about $2.2B of cash, net of adjustments for working capital, acquired cash and the assumption of about $1.7B of debt, plus 5,000,000 Vistra shares at an agreed $185 per share, for about 5,500MW of gas capacity. In October and November Vistra redeemed all $1B of its Series A preferred stock, paid the roughly $2.2B, drew the full accounts receivable financing capacity and repaid about $1.7B of the assumed debt, taking pro forma available liquidity to about $5.4B from $8,923M at 9-30. The release does not say whether the 2026 or 2027 guidance includes Cogentrix, carries no balance sheet, and does not mention the Meta nuclear PPAs. Valuation and stance remain on the 2026-07-30 historical basis; Q3 actuals and the post-Cogentrix capital structure await Mode B recomputation, and price, valuation figures, stance and conviction are not updated in this package.",
+    "summaryEn": "2026-11-15 Mode B valuation and stance review (writer draft pending independent counter/advisor review and manual owner publication): Q3 2026 (10-Q filed 2026-11-09; results release 2026-11-06) revenue was $6,347M, GAAP net income $1,140M (including a $559M unrealized hedge gain) and Ongoing Operations Adjusted EBITDA $2,378M, up $797M year over year; 2026 guidance was narrowed to EBITDA of $7.1-7.5B and FCFbG of $4.3-4.7B, with 2027 initiated at $7.7-8.5B and $4.3-5.1B. At 9-30, cash was $2,743M, long-term debt $21,146M (including $2,877M due currently) and the forward repurchase obligation $622M, for $19,025M of net debt; after the quarter the $1B Series A preferred redemption, about $2.2B of Cogentrix cash, $1,375M of receivables/repurchase drawings and about $1.7B of assumed-debt repayment take pro forma net debt to about $23,925M and liquidity to about $5.4B. At the 2026-11-13 close of $133.01 and about 339M shares, equity is $45.14B; adding $1.476B of Series B/C preferred and $0.157B of noncontrolling interest gives EV of about $70.70B, 9.69x 2026E and 8.73x 2027E EBITDA, 3.43x TTM revenue and 18.0x TTM GAAP P/E. The 2027E EBITDA scenarios (10.5x/9.0x/7.0x) give $187.66/$139.49/$83.51 per share, and the 30/40/30 weighted value is $137.15 (+3.1%, about 2.7% annualized over 1.13 years), below the 8% reference; Cogentrix conversion/synergies and Meta PPA pricing remain undisclosed; the Q3 10-Q disclosed 2,609MW of Meta PPA capacity and its delivery cadence. Cautious, medium conviction maintained; the 8% review price is about $125.71.",
     "chainLayer": "power",
     "coverageTier": "full",
     "chainRole": "dashboard",
     "stance": "cautious",
-    "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q3 2026 monitoring / 2026-07-30 valuation frame",
+    "priceAsOf": "2026-11-13",
+    "reportedPeriod": "Q3 2026 (ended 2026-09-30); valuation re-anchored 2026-11-15 at the 2026-11-13 close",
     "related": [
       "constellation-energy-2026",
       "gevernova-2026",
@@ -8353,13 +8353,13 @@
           "en": "capacity, price, regulatory and delivery cadence for Perry, Davis-Besse and Beaver Valley uprates becomes clearer"
         },
         "latest": {
-          "zh": "2026-08-07 Q2 财报：2026 与 2027 指引均明确*不含* Meta 已签 PPA 的贡献，并说明其中一部分预计自 2027 年起计入调整后 EBITDA。这是新增的时间口径；Perry、Davis-Besse、Beaver Valley uprates 的容量、价格与监管进度本次未披露，仍停留在公开报道的约 2.2GW 口径。",
-          "en": "2026-08-07 Q2 release: both the 2026 and 2027 guidance ranges explicitly *exclude* the signed Meta PPAs, and state that part of them is expected to contribute to Adjusted EBITDA from 2027. That adds delivery timing only; capacity, price and regulatory cadence for the Perry, Davis-Besse and Beaver Valley uprates were not disclosed, so the about-2.2GW figure remains public reporting rather than company disclosure."
+          "zh": "2026-11-15 复核：Q3 10-Q（11-09 提交）在『PJM Nuclear Power Purchase Agreements and Uprates』披露 Meta PPA 合计 2,609MW：Perry 1,268MW 与 Davis-Besse 908MW 为运营中能源与容量，另有 Perry uprate 213MW、Davis-Besse uprate 80MW、Beaver Valley uprate 140MW 共 433MW；运营部分自 2026 年末起分批交付、2027 年底全部交付，uprate 部分自 2031 年起分批、2034 年底全部交付；uprate 资本开支 2026–2034 年发生、2028 年底前不超过总额 20%，取决于监管批准、工程评估与资本配置。PPA 价格仍未披露，监管路径仍为定性；容量与上线节奏已明确，价格与监管未明，评级维持不明。",
+          "en": "2026-11-15 review: the Q3 10-Q (filed 11-09), under 'PJM Nuclear Power Purchase Agreements and Uprates', discloses a total of 2,609MW of Meta PPA capacity: 1,268MW at Perry and 908MW at Davis-Besse of operating energy and capacity, plus 433MW of uprates (Perry 213MW, Davis-Besse 80MW, Beaver Valley 140MW); operating delivery begins in late 2026 and is complete by year-end 2027, while uprates begin in 2031 and are complete by year-end 2034; uprate capex runs 2026-2034, with less than 20% by year-end 2028, subject to regulatory approvals, engineering evaluations and capital allocation. PPA pricing is still undisclosed and the regulatory path is still qualitative; capacity and delivery cadence are now clear but price and regulation are not, so the reading remains unclear."
         },
         "nextCheck": "PPA 与 uprate 进度 / PPA and uprate progress",
         "nextCheckDate": "2026-12",
         "reading": "unclear",
-        "readingAsOf": "2026-08-07"
+        "readingAsOf": "2026-11-15"
       },
       {
         "id": "cogentrix-integration",
@@ -8374,13 +8374,13 @@
           "en": "the about $4B net-purchase-price deal (public seller-side reporting also frames it near $4.7B total consideration) closes on time and converts about 5,500MW of gas capacity into data-center/capacity-market value, or suffers delays and missed synergies"
         },
         "latest": {
-          "zh": "2026-11-05 8-K（Item 2.01）与 2026-11-06 业绩稿：Cogentrix 收购于 2026-10-30 完成，对价为现金约 $2.2B（已扣除营运资本、所得现金及承担约 $1.7B 债务等调整）加 5,000,000 股 Vistra 普通股（约定价每股 $185，卖方锁定至 2027-01-30），取得约 5,500MW 燃气装机；10–11 月已偿还约 $1.7B 承担债务。按本项自身触发条件评级：正向分支要求按期交割且把约 5,500MW 转化为数据中心或容量市场收益，交割已发生，但转化尚无披露；负向分支（延期或协同落空）也未出现。评级为不明。证据边界：原定交割时间表与协同目标未在本次文件中给出，业绩稿也未说明 2026／2027 指引是否包含 Cogentrix。",
-          "en": "2026-11-05 8-K (Item 2.01) and 2026-11-06 results release: the Cogentrix acquisition closed on 2026-10-30 for about $2.2B of cash (net of adjustments for working capital, acquired cash and the assumption of about $1.7B of debt) plus 5,000,000 Vistra shares at an agreed $185 per share (seller lock-up to 2027-01-30), adding about 5,500MW of gas capacity; about $1.7B of the assumed debt was repaid in October and November. Graded strictly against this item own trigger: the positive branch requires an on-time close and conversion of about 5,500MW into data-center or capacity-market value — the close happened, but no conversion has been disclosed; the negative branch (delays or missed synergies) has not appeared either. Graded unclear. Evidence limits: neither filing restates the original closing timetable or synergy targets; new guidance is not substituted into valuation arithmetic."
+          "zh": "2026-11-15 复核（Q3 10-Q 11-09 提交）：确认交割对价为现金约 $2.2B（已扣除营运资本、所得现金及承接约 $1.7B 债务）、5,000,000 股 Vistra 普通股（约定价 $185，卖方锁定至 2027-01-30）、约 5,500MW；11-05 已用现金及应收账款/回购融资偿还承接债务。收益转化与协同仍无披露，按本项自身条件评级为不明。",
+          "en": "2026-11-15 review (Q3 10-Q filed 11-09): confirms consideration of about $2.2B cash, net of working capital, acquired cash and the assumption of about $1.7B of debt, plus 5,000,000 Vistra shares at an agreed $185 (seller lock-up to 2027-01-30) and about 5,500MW; the assumed debt was repaid on 11-05 with cash and receivables/repurchase financing. Earnings conversion and synergies are still undisclosed, so the item remains unclear on its own terms."
         },
         "nextCheck": "交易完成与协同指引 / close and synergy guidance",
         "nextCheckDate": "2026-12",
         "reading": "unclear",
-        "readingAsOf": "2026-11-06",
+        "readingAsOf": "2026-11-15",
         "readingNote": "已交割，但 5,500MW 转化腿未观测。 / Closed, but the 5,500MW conversion leg is not observed."
       },
       {
@@ -8396,13 +8396,13 @@
           "en": "PJM/Texas data-center load pushes capacity prices or dispatchable generation value higher, or the capacity premium fades quickly"
         },
         "latest": {
-          "zh": "Q3 2026 业绩稿（2026-11-06）：Ongoing Operations 调整后 EBITDA $2,378M，较上年同期 $1,581M 增加 $797M，公司归因于已实现电价与容量价格上升、Lotus 电厂三个月贡献以及 Martin Lake 1 号机组恢复运行，所以增幅并非全部来自价格。分部：Texas $1,227M（上年 $784M）、East $979M（$719M）。另与 New Era Energy and Digital 签 Odessa 燃气电厂 20 年、207MW 购电协议。容量溢价没有快速回落，评级为阈内。证据边界：业绩稿未拆分价格与 Lotus 贡献，也未给出 PJM／ERCOT 容量价格本身。",
-          "en": "Q3 2026 results release (2026-11-06): Ongoing Operations Adjusted EBITDA was $2,378M, up $797M from $1,581M, which the company attributes to higher realized energy and capacity prices, three months of Lotus plant contribution and Martin Lake Unit 1 returning to service, so the increase is not purely price. By segment: Texas $1,227M (Q3 2025: $784M), East $979M ($719M). Vistra also signed a 20-year, 207MW power purchase agreement with New Era Energy and Digital at its Odessa gas plant. The capacity premium did not fade quickly, so the item is graded within. Evidence limits: the release does not split price from the Lotus contribution and gives no PJM or ERCOT capacity prices themselves."
+          "zh": "Q3 2026 业绩稿与 10-Q：Ongoing Operations 调整后 EBITDA $2,378M（同比 +$797M），分部 Texas $1,227M、East $979M、Retail $98M、West $76M；公司归因于已实现电价与容量价格上升、Lotus 电厂三个月贡献及 Martin Lake 1 号机组恢复。容量溢价未快速回落，维持阈内。证据边界：未拆分价格与 Lotus 贡献；指引是否含 Cogentrix 未说明。",
+          "en": "Q3 2026 release and 10-Q: Ongoing Operations Adjusted EBITDA was $2,378M (up $797M year over year), with segments Texas $1,227M, East $979M, Retail $98M and West $76M; the company attributes the increase to higher realized energy and capacity prices, three months of Lotus contribution and Martin Lake Unit 1 returning to service. The capacity premium has not rolled over, so the reading stays within. Evidence limit: price and Lotus contributions are not split out, and guidance does not say whether Cogentrix is included."
         },
         "nextCheck": "PJM/Texas 容量价格",
         "nextCheckDate": "2026-09",
         "reading": "within",
-        "readingAsOf": "2026-11-06",
+        "readingAsOf": "2026-11-15",
         "readingNote": "已实现电价与容量价格上升被列为 Q3 EBITDA 增长主因之一，溢价未回落。 / Higher realized energy and capacity prices are named among the main Q3 EBITDA drivers; the premium did not fade."
       },
       {
@@ -8418,14 +8418,14 @@
           "en": "Cogentrix, capex, buybacks or fuel/operating volatility raises net-debt/EBITDA and FCF pressure"
         },
         "latest": {
-          "zh": "Q3 2026 业绩稿（2026-11-06）：九个月经营现金流 $4,330M（上年同期 $2,638M），资本开支（含核燃料与 LTSA 预付）$2,319M；九个月发债 $7,985M、偿债 $3,862M、回购 $917M。季后：赎回全部 $1B A 系列优先股、支付 Cogentrix 现金约 $2.2B、提满应收账款融资额度并偿还约 $1.7B 承担债务，备考可用流动性由 9-30 的 $8,923M 降至约 $5.4B；董事会追加 $1.5B 回购。2026 年 FCFbG 指引 $4.3–4.7B、2027 年 $4.3–5.1B。评级为不明：业绩稿未附资产负债表，季末与交割后的净债务／EBITDA 无法计算，需 Q3 10-Q。",
-          "en": "Q3 2026 results release (2026-11-06): nine-month operating cash flow was $4,330M (prior-year period $2,638M) and capital expenditures including nuclear fuel and LTSA prepayments $2,319M; nine-month debt issuance was $7,985M, repayments $3,862M and buybacks $917M. After the quarter Vistra redeemed all $1B of Series A preferred stock, paid about $2.2B of Cogentrix cash, drew the full accounts receivable financing capacity and repaid about $1.7B of assumed debt, taking pro forma available liquidity to about $5.4B from $8,923M at 9-30; the board added a $1.5B repurchase authorization. 2026 FCFbG guidance is $4.3-4.7B and 2027 $4.3-5.1B. Graded unclear: the release carries no balance sheet, so quarter-end and post-close net debt/EBITDA cannot be computed until the Q3 10-Q."
+          "zh": "9-30 10-Q：现金 $2,743M；长期债务 $21,146M（$2,877M 一年内到期）；远期回购义务 $622M；类债务减现金的净债务 $19,025M。季后：A 系列优先股 $1B 赎回、Cogentrix 现金约 $2.2B、应收账款/回购融资 $1,375M 提款、偿还承接债务约 $1.7B，备考净债务约 $23.9B、备考流动性约 $5.4B；9M 经营现金流 $4,330M、capex $2,319M；2026/2027 FCFbG 指引 $4.3–4.7B／$4.3–5.1B。评级不明：Cogentrix 的 EBITDA 贡献与指引纳入口径未披露，尚不能判定净债务/EBITDA 压力是否上升。",
+          "en": "9-30 10-Q: cash $2,743M; long-term debt $21,146M (including $2,877M due currently); forward repurchase obligation $622M; debt-like items less cash give $19,025M of net debt. After the quarter: the $1B Series A redemption, about $2.2B of Cogentrix cash, $1,375M of receivables/repurchase drawings and about $1.7B of assumed-debt repayment take pro forma net debt to about $23.9B and liquidity to about $5.4B; 9M operating cash flow was $4,330M and capex $2,319M; 2026/2027 FCFbG guidance is $4.3-4.7B / $4.3-5.1B. Reading unclear: Cogentrix EBITDA contribution and guidance inclusion are undisclosed, so it cannot yet be determined whether net-debt/EBITDA pressure has risen."
         },
         "nextCheck": "Q3 10-Q 资产负债表与经营现金流 / Q3 10-Q balance sheet and operating cash flow",
         "nextCheckDate": "2026-11",
         "reading": "unclear",
-        "readingAsOf": "2026-11-06",
-        "readingNote": "缺资产负债表，净债务／EBITDA 无法计算。 / No balance sheet, so net debt/EBITDA cannot be computed."
+        "readingAsOf": "2026-11-15",
+        "readingNote": "9-30 资产负债表已读：净债务 $19,025M、备考约 $23,925M（约 3.3x 2026E EBITDA 中值）；Cogentrix 的 EBITDA 贡献与指引口径未披露，杠杆压力方向不明。 / 9-30 balance sheet read: net debt $19,025M, pro forma about $23,925M (about 3.3x 2026E midpoint EBITDA); Cogentrix EBITDA contribution and guidance inclusion are undisclosed, so the direction of leverage pressure is unclear."
       },
       {
         "id": "merchant-power-valuation",
@@ -8440,36 +8440,38 @@
           "en": "Vistra's high-beta multiple compresses faster if AI power-demand expectations or capacity prices roll over"
         },
         "latest": {
-          "zh": "$151.05、约 $50.9B 市值、约 $70.2B EV",
-          "en": "$151.05, about $50.9B market cap and about $70.2B EV"
+          "zh": "2026-11-13 收盘 $133.01；约 3.39 亿股、市值约 $45.14B；备考净债务 $23.925B、B／C 系列优先股 $1.476B、少数股东权益 $0.157B，EV 约 $70.70B；9.69x 2026E／8.73x 2027E EBITDA、3.43x TTM 收入、18.0x TTM GAAP P/E；2027E EBITDA 情景加权 $137.15。",
+          "en": "2026-11-13 close of $133.01; about 339M shares and about $45.14B equity; $23.925B pro forma net debt, $1.476B of Series B/C preferred and $0.157B of noncontrolling interest give EV of about $70.70B; 9.69x 2026E / 8.73x 2027E EBITDA, 3.43x TTM revenue and 18.0x TTM GAAP P/E; the 2027E EBITDA weighted scenario value is $137.15."
         },
         "nextCheck": "电力股估值与容量价格 / power-equity multiples and capacity prices"
       }
     ],
     "conviction": "medium",
     "stanceRationale": {
-      "zh": "在$148.62、约3.6x EV/TTM sales、约22.6x TTM GAAP P/E和约$19.3B净债务上，市场已经定价Meta核电PPA、Cogentrix燃气容量和PJM/Texas容量稀缺；30%牛市/40%基准/30%熊市情景显示上行真实但下行更快，偏斜温和向下。",
-      "en": "At $148.62, about 3.6x EV/TTM sales, about 22.6x TTM GAAP P/E, and about $19.3B net debt, the market already prices Meta nuclear PPAs, Cogentrix gas capacity, and PJM/Texas capacity scarcity; a 30% bull / 40% base / 30% bear grid shows real upside but faster downside, leaving a mildly negative skew."
+      "zh": "2026-11-13 收盘 $133.01；约 3.39 亿股，市值 $45.14B；9-30 净债务 $19.025B，季后备考 $23.925B（A 系列优先股 $1B＋Cogentrix 现金约 $2.2B；应收账款/回购融资与承接债务滚动后与公司 $5.4B 流动性桥一致），加 B／C 系列优先股 $1.476B 与少数股东权益 $0.157B 后 EV 约 $70.70B；9.69x 2026E／8.73x 2027E EBITDA 中值、3.43x TTM 收入、18.0x TTM GAAP P/E。Q3 业绩与上修指引改善盈利基础，但 Cogentrix 转化/协同与 Meta PPA 细节未披露，备考净债务较 9-30 增加约 $4.9B。2027E EBITDA 情景 10.5x/9.0x/7.0x 对应 $187.66/$139.49/$83.51，加权 $137.15（+3.1%，约 1.13 年年化约 2.7%），低于 8% 参考；维持谨慎、中确信，8% 复核价约 $125.71。",
+      "en": "At the 2026-11-13 close of $133.01 and about 339M shares, equity is $45.14B; 9-30 net debt was $19.025B and pro forma net debt is $23.925B (the $1B Series A redemption plus about $2.2B of Cogentrix cash, with the receivables/repurchase financing and assumed-debt repayment rolling through consistently with the company's $5.4B liquidity bridge). Adding $1.476B of Series B/C preferred and $0.157B of noncontrolling interest gives EV of about $70.70B, 9.69x 2026E and 8.73x 2027E midpoint EBITDA, 3.43x TTM revenue and 18.0x TTM GAAP P/E. Q3 results and higher guidance improve the earnings base, but Cogentrix conversion/synergies and Meta PPA detail remain undisclosed, and pro forma net debt is about $4.9B above 9-30. The 2027E EBITDA 10.5x/9.0x/7.0x scenarios give $187.66/$139.49/$83.51, and the weighted value is $137.15 (+3.1%, about 2.7% annualized over about 1.13 years), below the 8% reference; cautious / medium conviction is maintained and the 8% review price is about $125.71."
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "如果Meta PPA容量/价格/uprate路径更明确，Cogentrix按期完成并把约5,500MW燃气容量转化为数据中心或容量市场收益，PJM/Texas容量价格继续上行，且FCF支持去杠杆，则上调至neutral-watch或constructive。",
-        "en": "Move to neutral-watch or constructive if Meta PPA capacity / price / uprate path becomes clearer, Cogentrix closes on time and converts about 5,500MW of gas capacity into data-center or capacity-market earnings, PJM/Texas capacity prices keep rising, and FCF supports deleveraging.",
+        "zh": "上调至 neutral-watch 的复核：常规收盘不高于约 $125.71（使当前情景加权年化达到 8% 参考回报）且情景与融资未恶化；或 Cogentrix 把约 5,500MW 转化为数据中心/容量市场收益、Meta PPA 容量/价格/uprate 路径更明确、PJM/Texas 容量价格继续上行且 FCF 支持去杠杆。均须重新核对净债务、股本与经营，不自动买入。",
+        "en": "Review for neutral-watch with scenarios and funding intact and a regular close at or below about $125.71 (which lifts the current weighted annualized return to the 8% reference), or if Cogentrix converts about 5,500MW into data-center or capacity-market earnings, the Meta PPA capacity/price/uprate path becomes clearer, PJM/Texas capacity prices keep rising and FCF supports deleveraging. Recheck net debt, shares and operations in either path; no automatic purchase.",
         "monitoringIds": [
           "meta-nuclear-ppa",
           "cogentrix-integration",
           "gas-capacity-market",
-          "leverage-fcf-discipline"
+          "leverage-fcf-discipline",
+          "merchant-power-valuation"
         ]
       },
       "downgrade": {
-        "zh": "如果Cogentrix延期或协同落空、Meta PPA经济性低于预期、PJM/Texas容量溢价回落，或净债务/FCF压力因capex、回购、燃料或监管因素上升，则下调至bearish-avoid。",
-        "en": "Move to bearish-avoid if Cogentrix is delayed or synergies miss, Meta PPA economics disappoint, PJM/Texas capacity premiums fade, or net-debt / FCF pressure rises from capex, buybacks, fuel, or regulation.",
+        "zh": "下调至 bearish-avoid 的复核：备考净债务/2026E EBITDA 升破约 4.0x，或 2027 FCFbG 指引低于 $4.3B 下沿，或 Cogentrix 协同落空、Meta PPA 经济性低于预期、PJM/Texas 容量溢价回落。事件后依官方资料重做情景。",
+        "en": "Review for bearish-avoid if pro forma net debt / 2026E EBITDA rises above about 4.0x, 2027 FCFbG guidance falls below the $4.3B low end, Cogentrix synergies miss, Meta PPA economics disappoint, or PJM/Texas capacity premiums fade. Rebuild scenarios from official evidence after the event.",
         "monitoringIds": [
           "meta-nuclear-ppa",
           "cogentrix-integration",
           "gas-capacity-market",
-          "leverage-fcf-discipline"
+          "leverage-fcf-discipline",
+          "merchant-power-valuation"
         ]
       }
     },
@@ -8490,6 +8492,16 @@
         "stance": "cautious",
         "conviction": "medium",
         "price": 148.62
+      },
+      {
+        "date": "2026-11-13",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 133.01,
+        "note": {
+          "zh": "2026-11-15 Mode B 复核：Q3 实绩与上修指引改善盈利基础，但 Cogentrix 与优先股赎回使备考净债务升至约 $23.9B；按 $133.01 重建的情景加权 $137.15（+3.1%，年化约 2.7%）低于 8% 参考，维持谨慎、中确信。writer 草稿，待独立复核与 owner 发布。",
+          "en": "2026-11-15 Mode B review: Q3 actuals and higher guidance improved the earnings base, but Cogentrix and the preferred redemption lifted pro forma net debt to about $23.9B; rebuilt at $133.01, the $137.15 weighted value (+3.1%, about 2.7% annualized) is below the 8% reference, so cautious / medium conviction is maintained. Writer draft pending independent review and owner publication."
+        }
       }
     ]
   },
