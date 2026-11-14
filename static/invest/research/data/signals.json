@@ -4204,5 +4204,32 @@
       "coreweave-2026:solvency-gpu-life-stress",
       "coreweave-2026:self-build-pricing-crack"
     ]
+  },
+  {
+    "id": "vistra-mode-b-q3-2026-reanchor-20261114",
+    "date": "2026-11-14",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Vistra Mode B 重锚：Q3 业绩与 Cogentrix 交割后 EV 约 $70.70B、情景加权 $137.15，维持谨慎",
+      "en": "Vistra Mode B re-anchor: after Q3 and the Cogentrix close, EV about $70.70B and weighted value $137.15; cautious maintained"
+    },
+    "detail": {
+      "zh": "来源：Vistra Q3 2026 业绩稿（8-K Ex 99.1，2026-11-06，https://www.sec.gov/Archives/edgar/data/1692819/000169281926000023/vistra-20260930xearningsre.htm）、Q3 10-Q（2026-11-09 提交，https://www.sec.gov/Archives/edgar/data/1692819/000169281926000025/vistra-20260930.htm）、Cogentrix 交割 8-K Item 2.01（2026-11-05，https://www.sec.gov/Archives/edgar/data/1692819/000114036126042013/ef20084950_8k.htm）与交割稿（https://www.sec.gov/Archives/edgar/data/1692819/000114036126042013/ef20084950_ex99-1.htm）；收盘价：Nasdaq 历史行情（https://api.nasdaq.com/api/quote/VST/historical?assetclass=stocks&fromdate=2026-10-01&todate=2026-11-14&limit=60），并经 stockanalysis／S&P Global（https://stockanalysis.com/stocks/vst/history/）交叉核对。按 2026-11-13 收盘 $133.01、约 3.39 亿股，市值 $45.14B；9-30 现金 $2,743M、长期债务 $21,146M、远期回购 $622M，净债务 $19,025M；季后 A 系列优先股 $1B、Cogentrix 现金约 $2.2B、应收账款/回购融资 $1,375M 与承接债务约 $1.7B 滚动，备考净债务 $23,925M；加 B／C 系列优先股 $1,476M（B 系列 $1,000M 定于 12-15 赎回；C 系列 $476M）与少数股东权益 $157M，EV 约 $70.70B；9.69x 2026E／8.73x 2027E 调整后 EBITDA 中值、3.43x TTM 收入 $20,588M、18.0x TTM GAAP P/E（TTM EPS $7.40）。2027E EBITDA 情景 10.5x/9.0x/7.0x 对应每股 $187.66／$139.49／$83.51，30/40/30 加权 $137.15（+3.1%，约 1.13 年年化约 2.7%），低于 8% 参考；8% 复核价约 $125.71。维持谨慎、中确信。writer 草稿，待独立 counter／advisor 复核与 owner 人工发布。",
+      "en": "Sources: Vistra Q3 2026 earnings release (8-K Ex 99.1, 2026-11-06, https://www.sec.gov/Archives/edgar/data/1692819/000169281926000023/vistra-20260930xearningsre.htm), Q3 10-Q (filed 2026-11-09, https://www.sec.gov/Archives/edgar/data/1692819/000169281926000025/vistra-20260930.htm), Cogentrix closing 8-K Item 2.01 (2026-11-05, https://www.sec.gov/Archives/edgar/data/1692819/000114036126042013/ef20084950_8k.htm) and the closing release (https://www.sec.gov/Archives/edgar/data/1692819/000114036126042013/ef20084950_ex99-1.htm); close: Nasdaq historical (https://api.nasdaq.com/api/quote/VST/historical?assetclass=stocks&fromdate=2026-10-01&todate=2026-11-14&limit=60), cross-checked with stockanalysis / S&P Global (https://stockanalysis.com/stocks/vst/history/). At the 2026-11-13 close of $133.01 and about 339M shares, equity is $45.14B; 9-30 cash was $2,743M, long-term debt $21,146M and the forward repurchase obligation $622M, for $19,025M of net debt; the $1B Series A redemption, about $2.2B of Cogentrix cash, $1,375M of receivables/repurchase drawings and about $1.7B of assumed-debt repayment roll through to $23,925M of pro forma net debt; adding $1,476M of Series B/C preferred (Series B $1,000M to be redeemed 12-15; Series C $476M) and $157M of noncontrolling interest gives EV of about $70.70B, 9.69x 2026E and 8.73x 2027E midpoint adjusted EBITDA, 3.43x TTM revenue of $20,588M and 18.0x TTM GAAP P/E (TTM EPS $7.40). The 2027E EBITDA 10.5x/9.0x/7.0x scenarios give $187.66 / $139.49 / $83.51 per share, and the 30/40/30 weighted value is $137.15 (+3.1%, about 2.7% annualized over about 1.13 years), below the 8% reference; the 8% review price is about $125.71. Cautious, medium conviction maintained. Writer draft pending independent counter/advisor review and manual owner publication."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "VST"
+    ],
+    "reportIds": [
+      "vistra-2026"
+    ],
+    "monitoringRefs": [
+      "vistra-2026:meta-nuclear-ppa",
+      "vistra-2026:cogentrix-integration",
+      "vistra-2026:gas-capacity-market",
+      "vistra-2026:leverage-fcf-discipline",
+      "vistra-2026:merchant-power-valuation"
+    ]
   }
 ]
