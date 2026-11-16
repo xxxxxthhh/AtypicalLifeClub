@@ -1,11 +1,13 @@
 # Ondas Inc. (formerly Ondas Holdings Inc., NASDAQ: ONDS) Deep Research Report
 
 Coverage date: 2026-09-21
-Last updated: 2026-09-21
+Last updated: 2026-11-17
 Ticker: NASDAQ: ONDS
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
+
+> **2026-11-17 factual addendum (evidence dated 2026-11-12) — Ondas Q3: $167.5M revenue; organic growth is management-estimated and Q4 leverage remains unproven：** The November 12, 2026 release reports approximately $167.5M of Q3 revenue, above the original $140M floor, and raises the FY2026 target from $525-550M to at least $550M. Neither original adverse leg is met, so within. Company-defined backlog is $835M with $214M of new orders. Targets of more than $250M Q4 revenue and at least $1.1B FY2027 revenue are forward-looking, not recognized revenue; backlog is not GAAP RPO or immediately collectible cash. For Q3 2026 management reports 64% pro forma organic YoY growth assuming the current portfolio was owned in both periods, above the original 30% floor: within on that issuer-defined basis. It is not the roughly sixteen-fold reported-revenue comparison. The 64% is management-defined and calculated; this unit does not have independently reconstructible numerator and denominator for each acquisition cohort, and does not present it as an independently recomputed organic rate or proof of DZYNE standalone quality. Q3 2026 adjusted cash operating expense of $118.7M divided by revenue of $167.5M is approximately 70.9% (derived from rounded disclosures); adjusted EBITDA was a $59.7M loss and GAAP operating loss $189.5M. The ratio is below 80% this quarter, but the original condition explicitly names Q4 2026: Q3 does not mature that future-period test, so unclear. Management still targets Q4 platform-level EBITDA break-even and moves company-wide break-even forward to Q3 2027. Neither is achieved profit, and platform and consolidated scopes are not interchangeable. This is a factual update of the named monitoring items only. Older facts below retain their original dates and do not certify all monitoring as current. Valuation retains the published 2026-09-18 historical anchor; current capital and financial denominators await Mode B. The published stance and conviction are unchanged. [Primary source](https://www.sec.gov/Archives/edgar/data/1646188/000119312526457088/onds-ex99_1.htm)
 
 ## 1. Executive Summary and Current View <!-- report-module:overview -->
 

@@ -12053,7 +12053,7 @@
     "priceSymbol": "ONDS",
     "title": "Ondas Inc. 深度研究报告 - 用股权买来的收入增长与一台仍在运转的稀释机器",
     "titleEn": "Ondas Inc. Deep Research Report - Revenue Growth Bought with Equity and a Dilution Machine Still Running",
-    "summary": "2026-09-21 首次覆盖，锚定 2026-09-18 收盘 $7.39。以 581,241,996 股（10-Q 封面 2026-08-11 的 570,552,341 股 + 2026-09-14 Gate/Bron 对价股 10,689,655 股）计市值 $4,295.4M，备考现金 $940.665M、有息负债仅 $6.408M，企业价值 $3,495.2M，对应 TTM（$174.103M）EV/Sales 20.08x、FY2026 指引中值（$537.5M）EV/Sales 6.50x。核心发现：报告口径上半年收入增长 +1,172.5%，但备考同口径只有 +112.4%——增长的绝大部分是买来的；全年 $525-550M 目标在上半年 $133.894M、Q3 指引 $140-155M 之下，隐含第四季度必须做到 $251.1-261.1M。Ondas Networks 已于 2026-01-16 去合并（保留约 47.5% 权益），公司现在只有一个报告分部。上半年 GAAP 净利 +$273.073M 由认股权证公允价值收益 $404.8M 等非经营项主导，同期经营亏损 -$205.617M、经营现金流 -$137.379M、股权激励 $88.753M（占收入 66.3%）。情景权重 30/40/30 加权年化回报 -6.8%，低于 8%-10% 要求回报 14.8-16.8 个百分点，立场谨慎/中确信。",
+    "summary": "2026-11-16 事实补充（证据日 2026-11-12）：2026-11-12 业绩稿：Q3 2026 收入约 $167.5M，超过原 $140M 下沿；FY2026 目标从 $525–550M 调为至少 $550M，非下调，原两条负面腿均未满足，reading=within。公司口径 backlog $835M、新订单 $214M；Q4 收入目标逾 $250M，FY2027 目标至少 $1.1B，均为前瞻而非已确认收入；backlog 不等于 GAAP RPO 或可随时回收的现金。 Q3 2026 公司称假设当前组合在两期均持有，备考同口径有机同比增长 64%，高于原 30% 下限，按该公司口径 reading=within；不是报告收入的同比 16 倍。该 64% 是管理层定义/计算的指标，本单元未取得逐收购组合的可独立重建分子与分母，因此不把它当独立核数后的有机增速，亦不用于判定 DZYNE 独立质量。 Q3 2026 调整后现金经营费用 $118.7M÷收入 $167.5M≈70.9%（按披露四舍五入数自算），调整后 EBITDA 亏损 $59.7M；GAAP 经营亏损 $189.5M。本季比率低于 80%，但原触发条件点名 Q4 2026，不能用 Q3 代替 Q4 成熟判定，故 unclear。管理层仍预计 Q4 经营平台层面 EBITDA 盈亏平衡，全公司目标提前至 Q3 2027；均不是已实现利润，且平台与全公司口径不能混用。 以上仅为指定监测项的事实更新。下文旧期事实按其原日期保留，不代表已核实所有监测项为当前期；估值沿用已发布的 2026-09-18 历史锚，当前资本及财务分母待 Mode B，已发布立场及确信度不变。 历史摘要：2026-09-21 首次覆盖，锚定 2026-09-18 收盘 $7.39。以 581,241,996 股（10-Q 封面 2026-08-11 的 570,552,341 股 + 2026-09-14 Gate/Bron 对价股 10,689,655 股）计市值 $4,295.4M，备考现金 $940.665M、有息负债仅 $6.408M，企业价值 $3,495.2M，对应 TTM（$174.103M）EV/Sales 20.08x、FY2026 指引中值（$537.5M）EV/Sales 6.50x。核心发现：报告口径上半年收入增长 +1,172.5%，但备考同口径只有 +112.4%——增长的绝大部分是买来的；全年 $525-550M 目标在上半年 $133.894M、Q3 指引 $140-155M 之下，隐含第四季度必须做到 $251.1-261.1M。Ondas Networks 已于 2026-01-16 去合并（保留约 47.5% 权益），公司现在只有一个报告分部。上半年 GAAP 净利 +$273.073M 由认股权证公允价值收益 $404.8M 等非经营项主导，同期经营亏损 -$205.617M、经营现金流 -$137.379M、股权激励 $88.753M（占收入 66.3%）。情景权重 30/40/30 加权年化回报 -6.8%，低于 8%-10% 要求回报 14.8-16.8 个百分点，立场谨慎/中确信。",
     "tags": [
       "国防科技",
       "无人机",
@@ -12062,7 +12062,7 @@
     ],
     "category": "tech",
     "date": "2026-09-21",
-    "lastUpdate": "2026-09-21",
+    "lastUpdate": "2026-11-17",
     "coverageTier": "full",
     "file": "/invest/research/reports/view.html?id=onds-2026",
     "markdownFiles": {
@@ -12070,6 +12070,7 @@
       "en": "/invest/research/Ondas_Holdings_Deep_Research_Report_2026-09.md"
     },
     "highlights": [
+      "Ondas Q3：收入 $167.5M；同口径增长为公司估计，Q4 经营杠杆仍待验证",
       "市场数据（2026-09-18 收盘）：股价 $7.39、市值 $4,295.4M、企业价值 $3,495.2M；52 周盘中区间 $4.95-$15.28，距 2026-01-08 的 $14.01 收盘高点回撤 47.3%",
       "增长来源拆解：H1 2026 报告收入 $133.894M（+1,172.5%），但备考同口径 $156.583M vs $73.737M 仅 +112.4%；Q2 收入 $83.772M（环比 +67.1%）",
       "指引算术：FY2026 目标 $525-550M，在 H1 $133.894M 与 Q3 指引 $140-155M 之下，隐含 Q4 须做到 $251.1-261.1M（较 Q3 再增 68.5%-79.4%）",
@@ -12083,7 +12084,7 @@
       "在手订单为公司自定义口径：2026-06-30 报告 $613M、含 DZYNE/Cyberhawk 备考 $757M（2025 年底 $68M），业绩稿未定义 backlog，10-Q 全文无 GAAP 剩余履约义务披露",
       "估值：情景 30/40/30 加权每股价值 $5.86（-20.7%），3.28 年年化 -6.8%，低于 8%-10% 门槛 14.8-16.8 个百分点；放宽退出倍数得 -0.9%、放宽收入路径得 +1.0%，仍不达标 ⇒ 谨慎 / 中确信"
     ],
-    "summaryEn": "Initial coverage dated 2026-09-21, anchored on the 2026-09-18 close of $7.39. On 581,241,996 shares (570,552,341 from the 10-Q cover dated 2026-08-11 plus 10,689,655 Gate/Bron consideration shares issued 2026-09-14) the market capitalization is $4,295.4M; with pro forma cash of $940.665M and only $6.408M of interest-bearing debt, enterprise value is $3,495.2M, or 20.08x TTM revenue of $174.103M and 6.50x the FY2026 guidance midpoint of $537.5M. Core finding: reported first-half revenue grew 1,172.5% but pro forma same-portfolio growth was only 112.4% - almost all of the growth was purchased; and the $525-550M full-year target, against first-half revenue of $133.894M and Q3 guidance of $140-155M, implies a fourth quarter of $251.1-261.1M. Ondas Networks was deconsolidated on 2026-01-16 (a roughly 47.5% stake is retained) and the company now reports a single segment. First-half GAAP net income of +$273.073M is dominated by non-operating items including a $404.8M warrant fair-value gain, against an operating loss of $205.617M, operating cash flow of -$137.379M and stock-based compensation of $88.753M (66.3% of revenue). The 30/40/30 scenario grid weights to -6.8% annualized, 14.8 to 16.8 points below the 8%-10% required return: cautious, medium conviction.",
+    "summaryEn": "November 16, 2026 factual addendum (evidence dated November 12): The November 12, 2026 release reports approximately $167.5M of Q3 revenue, above the original $140M floor, and raises the FY2026 target from $525-550M to at least $550M. Neither original adverse leg is met, so within. Company-defined backlog is $835M with $214M of new orders. Targets of more than $250M Q4 revenue and at least $1.1B FY2027 revenue are forward-looking, not recognized revenue; backlog is not GAAP RPO or immediately collectible cash. For Q3 2026 management reports 64% pro forma organic YoY growth assuming the current portfolio was owned in both periods, above the original 30% floor: within on that issuer-defined basis. It is not the roughly sixteen-fold reported-revenue comparison. The 64% is management-defined and calculated; this unit does not have independently reconstructible numerator and denominator for each acquisition cohort, and does not present it as an independently recomputed organic rate or proof of DZYNE standalone quality. Q3 2026 adjusted cash operating expense of $118.7M divided by revenue of $167.5M is approximately 70.9% (derived from rounded disclosures); adjusted EBITDA was a $59.7M loss and GAAP operating loss $189.5M. The ratio is below 80% this quarter, but the original condition explicitly names Q4 2026: Q3 does not mature that future-period test, so unclear. Management still targets Q4 platform-level EBITDA break-even and moves company-wide break-even forward to Q3 2027. Neither is achieved profit, and platform and consolidated scopes are not interchangeable. This is a factual update of the named monitoring items only. Older facts below retain their original dates and do not certify all monitoring as current. Valuation retains the published 2026-09-18 historical anchor; current capital and financial denominators await Mode B. The published stance and conviction are unchanged. Historical summary: Initial coverage dated 2026-09-21, anchored on the 2026-09-18 close of $7.39. On 581,241,996 shares (570,552,341 from the 10-Q cover dated 2026-08-11 plus 10,689,655 Gate/Bron consideration shares issued 2026-09-14) the market capitalization is $4,295.4M; with pro forma cash of $940.665M and only $6.408M of interest-bearing debt, enterprise value is $3,495.2M, or 20.08x TTM revenue of $174.103M and 6.50x the FY2026 guidance midpoint of $537.5M. Core finding: reported first-half revenue grew 1,172.5% but pro forma same-portfolio growth was only 112.4% - almost all of the growth was purchased; and the $525-550M full-year target, against first-half revenue of $133.894M and Q3 guidance of $140-155M, implies a fourth quarter of $251.1-261.1M. Ondas Networks was deconsolidated on 2026-01-16 (a roughly 47.5% stake is retained) and the company now reports a single segment. First-half GAAP net income of +$273.073M is dominated by non-operating items including a $404.8M warrant fair-value gain, against an operating loss of $205.617M, operating cash flow of -$137.379M and stock-based compensation of $88.753M (66.3% of revenue). The 30/40/30 scenario grid weights to -6.8% annualized, 14.8 to 16.8 points below the 8%-10% required return: cautious, medium conviction.",
     "period": "2026H2",
     "versionType": "initial",
     "versionLabel": "2026H2 Initial Coverage",
@@ -12092,7 +12093,7 @@
     "stance": "cautious",
     "conviction": "medium",
     "priceAsOf": "2026-09-18",
-    "reportedPeriod": "Q2 2026",
+    "reportedPeriod": "Q3 2026 selected operating monitoring / 2026-09-18 valuation frame",
     "monitoring": [
       {
         "id": "backlog-conversion",
@@ -12107,11 +12108,13 @@
           "en": "Q3 2026 revenue below the $140M low end of guidance, or management cutting the FY2026 $525-550M target"
         },
         "latest": {
-          "zh": "2026-08-13 业绩稿：2026-06-30 在手订单约 $613M（含 DZYNE 与 Cyberhawk 的备考口径 $757M），2025 年底为 $68M、2026-03-31 备考 $457M；Q2 新增订单 $175M，Q3 截至 8/10 再新增 $105M。Q3 指引 $140-155M，在 H1 实际 $133.894M 之下隐含 Q4 须做到 $251.1-261.1M（较 Q3 再增 68.5%-79.4%）。口径边界：业绩稿未定义 backlog，2026Q2 10-Q 全文无 GAAP 剩余履约义务（RPO）披露，亦无期限拆分，因此该数字不可与同业 funded backlog 机械比较。",
-          "en": "Per the 2026-08-13 earnings release, backlog was approximately $613M at 2026-06-30 ($757M pro forma including DZYNE and Cyberhawk), against $68M at the end of 2025 and $457M pro forma at 2026-03-31; Q2 new orders were $175M with a further $105M captured through 8/10. Q3 guidance of $140-155M, against first-half actuals of $133.894M, implies a fourth quarter of $251.1-261.1M, a further 68.5%-79.4% above Q3. Evidence limits: the release never defines backlog, the Q2 2026 10-Q contains no GAAP remaining-performance-obligation disclosure, and no tenor breakdown is given, so the figure is not mechanically comparable with peers' funded backlog."
+          "zh": "2026-11-12 业绩稿：Q3 2026 收入约 $167.5M，超过原 $140M 下沿；FY2026 目标从 $525–550M 调为至少 $550M，非下调，原两条负面腿均未满足，reading=within。公司口径 backlog $835M、新订单 $214M；Q4 收入目标逾 $250M，FY2027 目标至少 $1.1B，均为前瞻而非已确认收入；backlog 不等于 GAAP RPO 或可随时回收的现金。 来源：https://www.sec.gov/Archives/edgar/data/1646188/000119312526457088/onds-ex99_1.htm",
+          "en": "The November 12, 2026 release reports approximately $167.5M of Q3 revenue, above the original $140M floor, and raises the FY2026 target from $525-550M to at least $550M. Neither original adverse leg is met, so within. Company-defined backlog is $835M with $214M of new orders. Targets of more than $250M Q4 revenue and at least $1.1B FY2027 revenue are forward-looking, not recognized revenue; backlog is not GAAP RPO or immediately collectible cash. Source: https://www.sec.gov/Archives/edgar/data/1646188/000119312526457088/onds-ex99_1.htm"
         },
         "nextCheck": "Q3 2026 财报与 10-Q，对照 $140-155M 指引 / Q3 2026 results and 10-Q against the $140-155M guidance",
-        "nextCheckDate": "2026-11"
+        "nextCheckDate": "2026-11",
+        "reading": "within",
+        "readingAsOf": "2026-11-12"
       },
       {
         "id": "organic-vs-acquired-growth",
@@ -12126,11 +12129,13 @@
           "en": "Pro forma same-portfolio year-over-year growth falling below 30%, the basis management set for the FY2026 midpoint"
         },
         "latest": {
-          "zh": "2026Q2 10-Q Note 5：假设 Rotron、Bird、World View、Mistral、Omnisys 自 2025-01-01 即持有，H1 2026 备考收入 $156.583M vs H1 2025 的 $73.737M，增长 112.4%；同期报告口径为 $133.894M vs $10.522M，增长 1,172.5%——差额来自 2025 年基数被抬升约 $63.2M。管理层在业绩稿中称 Q2 备考同口径同比 +85%、FY2026 中值对应备考同口径超过 30%。证据边界：备考表不含 DZYNE，10-Q 明示 High Point 按公司会计政策编制的历史经营成果截至签发日无法取得。",
-          "en": "Q2 2026 10-Q Note 5 presents pro forma first-half 2026 revenue of $156.583M against $73.737M a year earlier - up 112.4% - assuming Rotron, Bird, World View, Mistral and Omnisys had been owned since 2025-01-01, versus reported figures of $133.894M against $10.522M, up 1,172.5%; the difference comes from lifting the 2025 base by roughly $63.2M. In the release management states Q2 pro forma organic growth of +85% and greater than 30% implied by the FY2026 midpoint. Evidence limits: the pro forma table excludes DZYNE, and the 10-Q states High Point's historical results on a conforming basis are not available as of the filing date."
+          "zh": "Q3 2026 公司称假设当前组合在两期均持有，备考同口径有机同比增长 64%，高于原 30% 下限，按该公司口径 reading=within；不是报告收入的同比 16 倍。该 64% 是管理层定义/计算的指标，本单元未取得逐收购组合的可独立重建分子与分母，因此不把它当独立核数后的有机增速，亦不用于判定 DZYNE 独立质量。 来源：https://www.sec.gov/Archives/edgar/data/1646188/000119312526457088/onds-ex99_1.htm",
+          "en": "For Q3 2026 management reports 64% pro forma organic YoY growth assuming the current portfolio was owned in both periods, above the original 30% floor: within on that issuer-defined basis. It is not the roughly sixteen-fold reported-revenue comparison. The 64% is management-defined and calculated; this unit does not have independently reconstructible numerator and denominator for each acquisition cohort, and does not present it as an independently recomputed organic rate or proof of DZYNE standalone quality. Source: https://www.sec.gov/Archives/edgar/data/1646188/000119312526457088/onds-ex99_1.htm"
         },
         "nextCheck": "Q3 2026 10-Q 首次将 DZYNE 纳入备考表 / the Q3 2026 10-Q, which first includes DZYNE in the pro forma table",
-        "nextCheckDate": "2026-11"
+        "nextCheckDate": "2026-11",
+        "reading": "within",
+        "readingAsOf": "2026-11-12"
       },
       {
         "id": "operating-leverage",
@@ -12145,11 +12150,13 @@
           "en": "Adjusted cash operating expense failing to fall below 80% of revenue by Q4 2026"
         },
         "latest": {
-          "zh": "2026-08-13 业绩稿非 GAAP 表：Q2 2026 调整后现金经营费用 $93.244M ＝ 当季收入 $83.772M 的 111.3%（Q2 2025 为 $9.352M，占 $6.273M 的 149.1%）；调整后 EBITDA -$50.629M（利润率 -60.4%），H1 为 -$61.506M。GAAP 侧 Q2 经营费用 $199.077M ＝ 收入的 237.6%，其中管理费用 $128.007M 单项即为收入的 152.8%；公司称 Q2 经营费用中 $105.8M 为非现金项（股权激励 $67.6M、或有对价公允价值变动 $19.2M、摊销 $14.0M）另加 $4.4M 交易费用。管理层指引经营平台层面（OAS ＋ Ondas Sentinel）Q4 2026 调整后 EBITDA 转正、全公司 Q4 2027 转正。",
-          "en": "Per the non-GAAP tables in the 2026-08-13 release, Q2 2026 adjusted cash operating expense was $93.244M, or 111.3% of the quarter's $83.772M of revenue (Q2 2025: $9.352M, or 149.1% of $6.273M); adjusted EBITDA was -$50.629M (a -60.4% margin), and -$61.506M for the first half. On a GAAP basis Q2 operating expense of $199.077M was 237.6% of revenue, with general and administrative expense alone at $128.007M, or 152.8% of revenue; the company attributes $105.8M of Q2 operating expense to non-cash items ($67.6M stock-based compensation, $19.2M contingent-consideration fair-value change, $14.0M amortization) plus $4.4M of transaction expense. Management guides platform-level adjusted EBITDA (OAS plus Ondas Sentinel) to break even in Q4 2026 and company-wide in Q4 2027."
+          "zh": "Q3 2026 调整后现金经营费用 $118.7M÷收入 $167.5M≈70.9%（按披露四舍五入数自算），调整后 EBITDA 亏损 $59.7M；GAAP 经营亏损 $189.5M。本季比率低于 80%，但原触发条件点名 Q4 2026，不能用 Q3 代替 Q4 成熟判定，故 unclear。管理层仍预计 Q4 经营平台层面 EBITDA 盈亏平衡，全公司目标提前至 Q3 2027；均不是已实现利润，且平台与全公司口径不能混用。 来源：https://www.sec.gov/Archives/edgar/data/1646188/000119312526457088/onds-ex99_1.htm",
+          "en": "Q3 2026 adjusted cash operating expense of $118.7M divided by revenue of $167.5M is approximately 70.9% (derived from rounded disclosures); adjusted EBITDA was a $59.7M loss and GAAP operating loss $189.5M. The ratio is below 80% this quarter, but the original condition explicitly names Q4 2026: Q3 does not mature that future-period test, so unclear. Management still targets Q4 platform-level EBITDA break-even and moves company-wide break-even forward to Q3 2027. Neither is achieved profit, and platform and consolidated scopes are not interchangeable. Source: https://www.sec.gov/Archives/edgar/data/1646188/000119312526457088/onds-ex99_1.htm"
         },
         "nextCheck": "Q3 2026 财报的调整后 EBITDA 与调整后现金经营费用 / adjusted EBITDA and adjusted cash operating expense in the Q3 2026 results",
-        "nextCheckDate": "2026-11"
+        "nextCheckDate": "2026-11",
+        "reading": "unclear",
+        "readingAsOf": "2026-11-12"
       },
       {
         "id": "share-dilution",
