@@ -7730,7 +7730,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-09-11",
+    "lastUpdate": "2026-11-17",
     "file": "/invest/research/reports/view.html?id=tsmc-2026",
     "markdownFiles": {
       "zh": "/invest/research/TSMC_深度研究报告_2026-07.md",
@@ -7791,7 +7791,7 @@
       }
     ],
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "2026Q2",
+    "reportedPeriod": "Q3 2026 statutory node monitoring / 2026-07-30 historical valuation frame",
     "related": [
       "nvidia-2026",
       "broadcom-2026",
@@ -7813,13 +7813,13 @@
           "en": "7nm-and-below mix or monthly revenue falls materially below Q3 / full-year trajectory"
         },
         "latest": {
-          "zh": "2026 年 8 月合并营收 NT$514,806M，环比 +10.1%、同比 +53.3%；1 至 8 月累计 NT$3,386,870M，同比 +39.3%（2026-09-10 Form 6-K）。本次 advanced-node-utilization 评为 unclear：正增长不能单独证明达到 Q3／全年轨迹；公告没有新的制程结构或稼动率，且本次未完成同币种指引对账。Q2 结构读数仅作历史背景，不能代替 8 月证据。未重新裁定立场、确信度或估值；既有估值仍是标注日期的历史快照。",
-          "en": "August 2026 consolidated revenue was NT$514,806M, up 10.1% sequentially and 53.3% year over year; January-August revenue was NT$3,386,870M, up 39.3% (Form 6-K dated 2026-09-10). advanced-node-utilization is graded unclear: positive growth alone does not establish performance against the Q3 / full-year trajectory. The release supplies no new node mix or utilization, and this review has not reconciled guidance on a consistent currency basis. Q2 mix is historical context, not August evidence. Stance, conviction and valuation are not re-adjudicated; existing valuations remain historical snapshots at their stated dates."
+          "zh": "main 已有 2026-10-15 的 Q3 摘要信号；本项补录 11-13 正式附表金额，并校正报告元数据仍停留 Q2 的监测背景，不是又一次 Q3 需求增长事件。 2026-11-13 Form 6-K 所附 Q3 合并财务报告的 Resolution 表：Q3 2nm/3nm/5nm/7nm 晶圆收入分别为 NT$103,129,543/396,618,245/337,110,388/123,141,757 千元，晶圆收入分母 NT$1,219,768,395 千元。由此自算占比约 8.45%/32.52%/27.64%/10.10%，7nm 及以下合计约 78.70%。这不是产能利用率、HPC 占比或 GPU/ASIC 客户收入；不能与总收入 NT$1,494,243,284 千元混作分母。节点占比本身不完成原条件的月度收入/全年轨迹比较，advanced-node-utilization 仍 unclear。",
+          "en": "Main already contains the October 15, 2026 Q3 summary signal. This unit reconciles the November 13 statutory amounts and updates monitoring metadata still on Q2; it is not another Q3 demand-growth event. The Resolution table in the Q3 consolidated financial report furnished on Form 6-K November 13, 2026 gives Q3 wafer revenue of NT$103,129,543/396,618,245/337,110,388/123,141,757 thousand for 2nm/3nm/5nm/7nm, on NT$1,219,768,395 thousand of wafer revenue. Derived shares are about 8.45%/32.52%/27.64%/10.10%, or 78.70% at 7nm and below. These are not capacity utilization, HPC share or GPU/ASIC customer revenue; total revenue of NT$1,494,243,284 thousand is not the denominator. Mix alone does not complete the original monthly-revenue/full-year-trajectory test, so advanced-node-utilization remains unclear."
         },
         "nextCheck": "月度收入与 2026Q3 财报 / monthly revenue and 2026Q3 results",
         "nextCheckDate": "2026-09",
         "reading": "unclear",
-        "readingAsOf": "2026-09-10"
+        "readingAsOf": "2026-11-13"
       },
       {
         "id": "n3-n2-ramp",
@@ -7834,13 +7834,13 @@
           "en": "N3 / N2 ramp misses customer schedules, or depreciation / yield drag is worse than expected"
         },
         "latest": {
-          "zh": "2026Q2 wafer revenue 中 2nm 首次贡献 3%、3nm 30%、5nm 33%；管理报告显示 inventory days 从 80 天升至 87 天，主要由于 N2 ramp",
-          "en": "2nm contributed 3% of Q2 2026 wafer revenue for the first time, with 3nm at 30% and 5nm at 33%; the management report says inventory days rose from 80 to 87, primarily due to the N2 ramp"
+          "zh": "同份 Q3 正式附表已给出 N2/N3 的收入金额，以上述晶圆收入为分母分别约 8.45%/32.52%（自算）；这取代 Q2 2nm 3%/3nm 30% 作为新期节点收入背景，但没有给出可逐客户核对的排产计划、良率或新节点折旧拖累。原 trigger 是客户排产偏离或折旧/良率超预期，不是节点收入份额上升；仅凭份额不能证明这些腿都未触发，故 n3-n2-ramp 从旧 within 改 unclear，不解释为已确认生产受挫。",
+          "en": "The same Q3 statutory table supplies N2/N3 revenue amounts, deriving to about 8.45%/32.52% of wafer revenue. This supersedes Q2’s 3%/30% as new-period node-revenue context, but does not provide customer-by-customer schedules, yield or new-node depreciation drag. The original trigger is schedule slippage or worse-than-expected depreciation/yield, not rising revenue mix; mix cannot establish that every adverse leg is absent, so n3-n2-ramp changes from the old within to unclear, not a finding of a production setback."
         },
         "nextCheck": "节点收入 mix 与 2026Q3 财报 / node revenue mix and 2026Q3 results",
         "nextCheckDate": "2026-10",
-        "reading": "within",
-        "readingAsOf": "2026-07-16"
+        "reading": "unclear",
+        "readingAsOf": "2026-11-13"
       },
       {
         "id": "cowos-3dfabric-capacity",

@@ -1,11 +1,13 @@
 # TSMC (TSM) Deep Research Report
 
 Coverage date: 2026-07-04
-Last updated: 2026-09-11
+Last updated: 2026-11-17
 Ticker: NYSE: TSM / TWSE: 2330
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
+
+> **2026-11-17 factual update:** Main already contains the October 15, 2026 Q3 summary signal. This unit reconciles the November 13 statutory amounts and updates monitoring metadata still on Q2; it is not another Q3 demand-growth event. The Resolution table in the Q3 consolidated financial report furnished on Form 6-K November 13, 2026 gives Q3 wafer revenue of NT$103,129,543/396,618,245/337,110,388/123,141,757 thousand for 2nm/3nm/5nm/7nm, on NT$1,219,768,395 thousand of wafer revenue. Derived shares are about 8.45%/32.52%/27.64%/10.10%, or 78.70% at 7nm and below. These are not capacity utilization, HPC share or GPU/ASIC customer revenue; total revenue of NT$1,494,243,284 thousand is not the denominator. Mix alone does not complete the original monthly-revenue/full-year-trajectory test, so advanced-node-utilization remains unclear. The same Q3 statutory table supplies N2/N3 revenue amounts, deriving to about 8.45%/32.52% of wafer revenue. This supersedes Q2’s 3%/30% as new-period node-revenue context, but does not provide customer-by-customer schedules, yield or new-node depreciation drag. The original trigger is schedule slippage or worse-than-expected depreciation/yield, not rising revenue mix; mix cannot establish that every adverse leg is absent, so n3-n2-ramp changes from the old within to unclear, not a finding of a production setback. Only the exact monitoring items named by this update are refreshed; historical failures and other unknown legs are not cleared. Valuation retains the published 2026-07-30 historical anchor; current capital and financial denominators await Mode B. The published stance and conviction are unchanged. [Primary source](https://www.sec.gov/Archives/edgar/data/1046179/000104617926000801/a2026q3consolidatedreport-.htm)
 
 ## Executive Summary
 
