@@ -4278,5 +4278,28 @@
       "applied-materials-2026:q3-guidance-conversion",
       "applied-materials-2026:supply-chain-readiness"
     ]
+  },
+  {
+    "id": "nebius-q3-2026-operating-income-20261112",
+    "date": "2026-11-12",
+    "title": {
+      "zh": "Nebius Q3：GAAP 经营利润转正，但经营现金流仍为负",
+      "en": "Nebius Q3: positive GAAP operating income, but negative operating cash flow"
+    },
+    "detail": {
+      "zh": "2026-11-12 发行人 Q3 业绩稿：持续经营收入 $980.8M，经营成本费用 $930.4M，故 GAAP 经营利润为 $50.4M（自算，约 5.1% 利润率）；持续经营净亏损 $37.5M、调整后 EBITDA $465.8M。季度经营现金流为 -$273.0M，购置物业设备与无形资产现金流出 $7,300.4M。严格对照“利润持续依赖非现金重估而非经营转正”，本季 GAAP 经营线已转正，故本季 reading=within；净亏损不当作重估盈利。单季改善不证明九个月整体已经营盈利，更不证明正现金流、自筹 capex 或 ARR/backlog 高利用率转化，其余监测保留各自证据日。 来源：https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm",
+      "en": "The issuer's November 12, 2026 Q3 release reports continuing-operations revenue of $980.8M and operating costs and expenses of $930.4M: GAAP operating income is therefore $50.4M (derived, about 5.1% margin). Continuing-operations net loss was $37.5M and adjusted EBITDA $465.8M. Quarterly operating cash flow was -$273.0M, with $7,300.4M of cash purchases of property, equipment and intangible assets. Against the trigger of profit remaining driven by non-cash marks rather than operations turning positive, the quarterly GAAP operating line did turn positive, supporting within for this quarter; a net loss is not mark-driven profit. One quarter does not establish nine-month operating profitability, positive cash flow, self-funded capex or high-utilization ARR/backlog conversion. Other monitoring evidence dates are unchanged. Source: https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm"
+    },
+    "scope": "report-monitoring",
+    "crossChecks": [],
+    "tickers": [
+      "NBIS"
+    ],
+    "reportIds": [
+      "nebius-2026"
+    ],
+    "monitoringRefs": [
+      "nebius-2026:earnings-quality-ex-marks"
+    ]
   }
 ]
