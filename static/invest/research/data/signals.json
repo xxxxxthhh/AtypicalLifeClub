@@ -4373,5 +4373,28 @@
     "monitoringRefs": [
       "axti-2026:customer-prepayments"
     ]
+  },
+  {
+    "id": "almonty-apt-quotation-cooling-20261112",
+    "date": "2026-11-12",
+    "title": {
+      "zh": "Almonty MD&A：APT 11 月报价低于 9 月末，不能延续“仍上涨”或直接重估",
+      "en": "Almonty MD&A: November APT quote below September-end; neither continued-rise nor a valuation reset is established"
+    },
+    "detail": {
+      "zh": "2026-11-12 Q3 MD&A 引述欧洲 APT 市场报价：2026 年 9 月末 US$2,800/MTU，11 月 6 日约 US$2,650/MTU，按两端点自算约 -5.4%。同稿亦以年初 US$862.5 为基准描述全年上涨，不能把年内上涨等同于 9 月后未回落；业绩稿的 Q3 平均价 US$2,800 不与 11-06 单日报价混比。本项旧“公开报价上涨，故 within”的当前含义由此取代：端点回落已有证据，但该跌幅是否使历史估值前提失效未获当前项目经济与估值桥验证，按原完整条件改为 unclear。报价是发行人引用的第三方 MB 市场读数，不是 Almonty 实现单价；没有借此改任何估值或立场，也不宣称 US$400 的另一独立下调门槛已触发。 来源：https://www.sec.gov/Archives/edgar/data/1670061/000149315226051508/ex99-3.htm",
+      "en": "The November 12, 2026 Q3 MD&A cites European APT market quotations of US$2,800/MTU at September-end and approximately US$2,650/MTU on November 6, a derived end-point decline of about 5.4%. It also describes a year-to-date rise from US$862.5 in early January; that does not imply no decline since September. The release's Q3 average of US$2,800 is not compared with a single-day November quote. This supersedes the current meaning of the old \"quotation rose, therefore within\" assessment: the end-point decline is evidenced, but whether it undermines the historical valuation premise lacks a current project-economics/valuation bridge, so unclear against the complete original condition. These are third-party MB market readings quoted by the issuer, not Almonty's realized price. No valuation or stance is changed, and the separate US$400 downgrade threshold is not claimed met. Source: https://www.sec.gov/Archives/edgar/data/1670061/000149315226051508/ex99-3.htm"
+    },
+    "scope": "report-monitoring",
+    "crossChecks": [],
+    "tickers": [
+      "ALM"
+    ],
+    "reportIds": [
+      "almonty-2026"
+    ],
+    "monitoringRefs": [
+      "almonty-2026:tungsten-price"
+    ]
   }
 ]
