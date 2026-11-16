@@ -1,7 +1,267 @@
 {
   "schemaVersion": 1,
-  "mode": "historical-preview",
+  "mode": "live",
   "entries": [
+    {
+      "reportId": "almonty-2026",
+      "signalId": "almonty-apt-quotation-cooling-20261112",
+      "type": "facts",
+      "evidenceDate": "2026-11-12",
+      "title": {
+        "en": "Almonty MD&A: November APT quote below September-end; neither continued-rise nor a valuation reset is established",
+        "zh": "Almonty MD&A：APT 11 月报价低于 9 月末，不能延续“仍上涨”或直接重估"
+      },
+      "change": {
+        "en": "The November 12, 2026 Q3 MD&A cites European APT market quotations of US$2,800/MTU at September-end and approximately US$2,650/MTU on November 6, a derived end-point decline of about 5.4%. It also describes a year-to-date rise from US$862.5 in early January; that does not imply no decline since September. The release's Q3 average of US$2,800 is not compared with a single-day November quote. This supersedes the current meaning of the old \"quotation rose, therefore within\" assessment: the end-point decline is evidenced, but whether it undermines the historical valuation premise lacks a current project-economics/valuation bridge, so unclear against the complete original condition. These are third-party MB market readings quoted by the issuer, not Almonty's realized price. No valuation or stance is changed, and the separate US$400 downgrade threshold is not claimed met.",
+        "zh": "2026-11-12 Q3 MD&A 引述欧洲 APT 市场报价：2026 年 9 月末 US$2,800/MTU，11 月 6 日约 US$2,650/MTU，按两端点自算约 -5.4%。同稿亦以年初 US$862.5 为基准描述全年上涨，不能把年内上涨等同于 9 月后未回落；业绩稿的 Q3 平均价 US$2,800 不与 11-06 单日报价混比。本项旧“公开报价上涨，故 within”的当前含义由此取代：端点回落已有证据，但该跌幅是否使历史估值前提失效未获当前项目经济与估值桥验证，按原完整条件改为 unclear。报价是发行人引用的第三方 MB 市场读数，不是 Almonty 实现单价；没有借此改任何估值或立场，也不宣称 US$400 的另一独立下调门槛已触发。"
+      },
+      "meaning": {
+        "en": "Record new-period evidence only against the named monitoring items; guidance is not actual performance and unobserved compound legs remain open.",
+        "zh": "只对照具名监测项记录新期事实；指引不当实绩，未观测的复合腿仍保留。"
+      },
+      "next": {
+        "en": "Seek the missing original execution, cash or contract evidence; original nextCheck/nextCheckDate and historical valuation anchors remain unchanged.",
+        "zh": "继续核对尚缺的原始履约、现金或合约证据；原 nextCheck/nextCheckDate 与历史估值锚不变。"
+      },
+      "id": "research-9952f712a66991a1203d0a3d742e88468e11a737e927daefe56bf6d01c094c69",
+      "publishedDate": "2026-11-17",
+      "company": "Almonty Industries",
+      "ticker": "ALM"
+    },
+    {
+      "reportId": "almonty-2026",
+      "signalId": "almonty-sangdong-first-concentrate-container-loading-20261112",
+      "type": "facts",
+      "evidenceDate": "2026-11-12",
+      "title": {
+        "en": "Almonty: first Sangdong concentrate and subsequent loading; MD&A still describes Q4 commissioning/ramp",
+        "zh": "Almonty：Sangdong 首批精矿及季后装载；MD&A 仍称 Q4 试车爬坡"
+      },
+      "change": {
+        "en": "The issuer's November 12, 2026 Q3 release discloses first Sangdong tungsten concentrate in September 2026 and loading of the first container at Busan after quarter-end for shipment to an overseas customer. Loading does not establish delivery, recognized revenue or cash collection. The project section of the same-date MD&A still describes the processing plant as in commissioning and ramp-up during Q4 2026; Phase II could be completed in 2027 subject to Phase I performance and market conditions. Against the original trigger of missing the mine ramp plan, first concentrate and loading do not establish on-plan attainment. The inspected project sections provide no comparable quarterly ramp plan, absolute output or unit cash cost, so sangdong-ramp remains unclear.",
+        "zh": "2026-11-12 发行人三季度业绩稿披露，Sangdong 于 2026 年 9 月产出首批钨精矿；季后首个精矿集装箱在釜山港装载、拟运往海外客户。装载不等于已交付、已确认收入或已回款。同日 MD&A 的项目章节仍称选矿厂在 2026 年四季度处于试车与爬坡，二期在一期运行及市场条件允许下可能于 2027 年完成。对照“矿山未按计划放量”原触发条件，首批产出和装载尚不能证明按计划达产，所核项目段没有可比季度爬坡计划、绝对产量或单位现金成本，sangdong-ramp 维持 unclear。"
+      },
+      "meaning": {
+        "en": "Record new evidence against the item's own trigger, distinguishing completed events, plans and unknowns while retaining the historical valuation boundary.",
+        "zh": "仅按本监测项自身触发条件记录新证据，不将已发生、计划及未知混同；历史估值边界保留。"
+      },
+      "next": {
+        "en": "Seek the execution, cash or contract evidence still missing from the original item; unresolved conditions remain open and original nextCheck/nextCheckDate are unchanged.",
+        "zh": "继续核实原条目尚缺的执行、现金或合约证据；未闭合条件仍开放，原 nextCheck/nextCheckDate 不变。"
+      },
+      "id": "research-1e90952ff24a74281cb18aae06253cb39362d54eed0e89d4c32820e3b67db383",
+      "publishedDate": "2026-11-17",
+      "company": "Almonty Industries",
+      "ticker": "ALM"
+    },
+    {
+      "reportId": "applied-materials-2026",
+      "signalId": "amat-q4-fy2026-results-monitoring-20261112",
+      "type": "facts",
+      "evidenceDate": "2026-11-12",
+      "title": {
+        "en": "AMAT Q4 FY2026: systems growth and source-verified revenue, EPS and margin delivery",
+        "zh": "AMAT FY2026 Q4：系统业务增长，实际收入、EPS 与利润率完成原指引比较"
+      },
+      "change": {
+        "en": "The November 12, 2026 release reports Q4 FY2026 (ended October 25) Semiconductor Systems revenue of $7,996M versus $4,879M a year earlier, +63.9% (derived); GAAP operating margin was 38.8% versus 29.3%, and non-GAAP 39.0% versus 29.6%. Both systems-revenue and operating-margin legs support within. Management attributes incremental demand to AI; one issuer segment does not independently prove the whole WFE cycle or HBM orders. Q4 FY2026 systems mix was foundry/logic 58%, DRAM 33% and flash 9%, versus 66%/28%/6% a year earlier. Multiplying rounded shares by segment revenue gives estimated foundry/logic revenue of about $4,637.7M and DRAM $2,638.7M, versus about $3,220.1M/$1,366.1M a year earlier; both grew YoY. These are derived estimates, not separately reported revenue, and are not split into HBM. Different quarters' foundry/logic/other labels do not establish identical scope. Both categories grew YoY, but HBM-specific revenue is undisclosed and category scope across quarters is unreconciled. YoY growth alone does not establish the full stays-strong/HBM condition, so reading=unclear; no customer orders or all sequential directions are inferred. Q4 FY2026 China revenue was $2,642M (25%; prior year $1,964M/29%) and Taiwan $2,916M (28%; $1,834M/27%), about +34.5%/+59.0% YoY (derived). The prior quarter's China YoY-decline observation does not describe this new period. The geography table does not attribute these changes to export controls or customer timing; that causal trigger leg remains unobserved, so unclear. Growth is not proof that restrictions were lifted. Q4 FY2026 actual revenue of $10,409M exceeded the published trigger's $10,250M midpoint by $159M (+1.6%, derived). Non-GAAP EPS was $4.16; GAAP/non-GAAP gross margins were 50.4%/50.6% and operating margins 35.1%/35.3%. The original August 13, 2026 Q3 release supplies Q4 guidance of: $10,250M revenue and $4.02 non-GAAP EPS at the midpoints. Q4 revenue exceeded the midpoint by 1.6%, and $4.16 non-GAAP EPS exceeded $4.02 by about 3.5%; GAAP/non-GAAP gross margins increased from Q3's 50.3%/50.4% to 50.4%/50.6%, and operating margins from 33.7%/34.0% to 35.1%/35.3%. On comparable quarterly actuals and original guidance, revenue, EPS and margins did not slip, so q3-guidance-conversion is within. This is not a change to valuation or full-year earnings estimates. Next-quarter revenue of $11,100M +/- $500M and non-GAAP EPS of $4.35 +/- $0.20 are guidance, not achieved results, and do not replace historical valuation denominators. At October 25, 2026 inventories were $6,889M versus $5,915M at the prior fiscal year-end (+16.5%) and receivables $8,998M versus $5,185M (+73.5%, derived). These are end-point balance comparisons, not the same measurement period as quarterly YoY revenue. The release gives no order or backlog amount; recognized revenue and inventory changes do not establish the original order-conversion or logistics-capacity requirement, so unclear. Source: https://www.sec.gov/Archives/edgar/data/6951/000162828026073360/exhibit991q42026earningsre.htm Original Q3 guidance source: https://www.sec.gov/Archives/edgar/data/6951/000162828026056699/exhibit991q32026earningsre.htm",
+        "zh": "2026-11-12 业绩稿：FY2026 Q4（截至 2026-10-25）Semiconductor Systems 收入 $7,996M，对上年同期 $4,879M 增长 63.9%（自算）；GAAP 营业利润率 38.8%（上年 29.3%）、non-GAAP 39.0%（29.6%）。按系统收入与营业利润率两腿评 within；公司称 AI 推动增量需求，但单一公司的分部数据不独立证明整个 WFE 周期或 HBM 订单。 FY2026 Q4 系统收入结构为 foundry/logic 58%、DRAM 33%、Flash 9%（上年 66%/28%/6%）。按已四舍五入占比乘分部收入估算，foundry/logic 约 $4,637.7M、DRAM 约 $2,638.7M，上年约 $3,220.1M/$1,366.1M，均同比增长。该估算不是公司单列收入，分类也未按 HBM 拆分；不同季度的 foundry/logic/other 标签不保证同口径。两类同比增长已获支持，但未披露 HBM 专项收入，且不同季度的分类范围未对账，不能仅据同比增长确认完整“保持强势/验证 HBM”条件，故 reading=unclear；不推断客户订单或全部环比方向。 FY2026 Q4 中国收入 $2,642M（占 25%，上年 $1,964M/29%）；台湾 $2,916M（28%，上年 $1,834M/27%），同比约 +34.5%/+59.0%（自算）。新期中国同比下降的旧现象已不适用；但表格没有把本期变化归因于出口管制或客户节奏，原触发条件的因果腿仍缺，故 unclear，不把收入增长解释成出口限制解除。 FY2026 Q4 实际收入 $10,409M，高于已发布触发器的 $10,250M 中点 $159M（+1.6%，自算）；non-GAAP EPS 为 $4.16，GAAP/non-GAAP 毛利率 50.4%/50.6%、营业利润率 35.1%/35.3%。已复核 2026-08-13 原 Q3 业绩稿所载 Q4 指引：收入中点 $10,250M、non-GAAP EPS 中点 $4.02。Q4 实际收入高于中点 1.6%，non-GAAP EPS $4.16 高于 $4.02 约 3.5%；GAAP/non-GAAP 毛利率由 Q3 的 50.3%/50.4% 升至 50.4%/50.6%，营业利润率由 33.7%/34.0% 升至 35.1%/35.3%。按同口径季度实际与原指引比较，收入、EPS 与利润率未失速，故 q3-guidance-conversion 评 within；这不是估值或全年盈利预测上调。下一季度 $11,100M±$500M 与 non-GAAP EPS $4.35±$0.20 是指引，不是已实现结果，不替换历史估值分母。 2026-10-25 存货 $6,889M，对上年财年末 $5,915M 为 +16.5%；应收账款 $8,998M 对 $5,185M 为 +73.5%（自算）；两者是期末对期末比较，不是与单季收入同比同一期间。业绩稿未给出订单或 backlog 金额；收入实现和存货变化不能证明原条目要求的订单转化或物流能力，故维持 unclear。 来源：https://www.sec.gov/Archives/edgar/data/6951/000162828026073360/exhibit991q42026earningsre.htm 原 Q3 指引来源：https://www.sec.gov/Archives/edgar/data/6951/000162828026056699/exhibit991q32026earningsre.htm"
+      },
+      "meaning": {
+        "en": "Record new-period evidence only against the named monitoring items; guidance is not actual performance and unobserved compound legs remain open.",
+        "zh": "只对照具名监测项记录新期事实；指引不当实绩，未观测的复合腿仍保留。"
+      },
+      "next": {
+        "en": "Seek the missing original execution, cash or contract evidence; original nextCheck/nextCheckDate and historical valuation anchors remain unchanged.",
+        "zh": "继续核对尚缺的原始履约、现金或合约证据；原 nextCheck/nextCheckDate 与历史估值锚不变。"
+      },
+      "id": "research-bd2c1ba20218429a4bee19938ffa000507838174faf9e8dfb84947f5d09a559c",
+      "publishedDate": "2026-11-17",
+      "company": "Applied Materials",
+      "ticker": "AMAT"
+    },
+    {
+      "reportId": "axti-2026",
+      "signalId": "axt-q3-2026-contract-liabilities-20261112",
+      "type": "facts",
+      "evidenceDate": "2026-11-12",
+      "title": {
+        "en": "AXT Q3 10-Q: contract liabilities and refund conditions; refundable does not mean refunded",
+        "zh": "AXT Q3 10-Q：合同负债与退款条件披露，不把可退款当实际退款"
+      },
+      "change": {
+        "en": "The Q3 10-Q filed November 12, 2026, Note 15, reports September 30 current contract liabilities of $82.512M plus non-current $25.707M = $108.219M (recomputed, matching the table; $0.103M at year-end 2025). The listed long-term agreements have approximately $293.5M of RPO, with $15.5M expected in the remainder of 2026, $196.4M in 2027 and $81.6M thereafter, summing to $293.5M; contractual advances total about $179.5M, with about $92.4M received. Advances and total contract liabilities are not reconciled in scope and are not forced equal or assigned to a named customer. Unused advances may be refundable under contractual conditions, not proof of an actual refund or termination. This section does not give customer-specific performance/refund status for Coherent/Lumentum; that original leg remains unknown, so unclear.",
+        "zh": "2026-11-12 Q3 10-Q Note 15：2026-09-30 合同负债流动 $82.512M＋非流动 $25.707M＝$108.219M（自算，与表内合计一致；2025 年末 $0.103M）。所列长期协议 RPO 约 $293.5M，预计 2026 剩余期间确认 $15.5M、2027 年 $196.4M、以后 $81.6M，三项合计 $293.5M；合约预付款约 $179.5M，已收约 $92.4M。预付款与全部合同负债范围未对账，不强行相等或指认为某一客户。未用完预付款在协议规定条件下可退，不是已退款/终止证据；该节未给出 Coherent/Lumentum 分户履约及退款状态，原退款/终止腿仍未知，维持 unclear。"
+      },
+      "meaning": {
+        "en": "Record new-period evidence only against the named monitoring items; guidance is not actual performance and unobserved compound legs remain open.",
+        "zh": "只对照具名监测项记录新期事实；指引不当实绩，未观测的复合腿仍保留。"
+      },
+      "next": {
+        "en": "Seek the missing original execution, cash or contract evidence; original nextCheck/nextCheckDate and historical valuation anchors remain unchanged.",
+        "zh": "继续核对尚缺的原始履约、现金或合约证据；原 nextCheck/nextCheckDate 与历史估值锚不变。"
+      },
+      "id": "research-c10c532799d760dd66b19b5ef3cd1259afa1b4d3946b654a74c6d54764e9a864",
+      "publishedDate": "2026-11-17",
+      "company": "AXT Inc.",
+      "ticker": "AXTI"
+    },
+    {
+      "reportId": "cerebras-2026",
+      "signalId": "cerebras-q3-2026-core-rpo-20261112",
+      "type": "facts",
+      "evidenceDate": "2026-11-12",
+      "title": {
+        "en": "Cerebras Q3: core revenue clears original floor and RPO is $26.1B; new-customer value and full-year actuals still unproven",
+        "zh": "Cerebras Q3：core 收入过原下限，RPO $26.1B；新客户金额及全年实绩仍待核"
+      },
+      "change": {
+        "en": "The November 12, 2026 release gives September 30 RPO of $26.1B, above the $24.0B floor. It names an Oracle relationship for planned service availability in 2027 and an additional top-three-hyperscaler deal without naming the counterparty or sizing attributable RPO. Total RPO or the number of new customers does not prove at least $3B of additional named non-OpenAI/non-UAE contracts. Silence on termination does not establish unchanged OpenAI commitments. The original positive and negative compound conditions remain incompletely observed, so unclear. Q3 2026 core revenue was $230.9M (non-GAAP; GAAP revenue $210.8M), $16.9M or 7.9% above the original $214M downside floor (derived). Core gross margin was 41% versus GAAP 20%; the measures are not interchangeable. FY2026 core revenue of $940-960M and Q4 core gross margin of 47-49% are guidance. Although above the favorable thresholds, the original test requires full-year and Q4 actuals and has not matured. The Q3 downside leg is not met and the future favorable leg remains unknown, so unclear, not completed on guidance.",
+        "zh": "2026-11-12 业绩稿：2026-09-30 RPO $26.1B，高于 $24.0B 下限；稿件点名 Oracle 合作（计划 2027 年提供服务），另称一项前三大 hyperscaler 合同但未具名、未给可归属 RPO 金额。不能把总 RPO 或新客户数量当作非 OpenAI/非 UAE 具名合同新增至少 $3B 的证明，也不能由稿件未谈终止推断 OpenAI 承诺未变。原正负复合腿仍未全闭合，reading=unclear。 Q3 2026 core 收入 $230.9M（非 GAAP；GAAP 收入 $210.8M），高于原 $214M 负面下限 $16.9M（+7.9%，自算）；core 毛利率 41%，GAAP 20%，不可混用。FY2026 core 收入 $940–960M 与 Q4 core 毛利率 47–49% 均为指引，虽跨过正面门槛，但原条件要求全年与 Q4 实绩，尚未成熟。因此 Q3 负面腿未触发，未来正面腿未知，reading=unclear，不把指引直接升为完成。"
+      },
+      "meaning": {
+        "en": "Record new-period evidence only against the named monitoring items; guidance is not actual performance and unobserved compound legs remain open.",
+        "zh": "只对照具名监测项记录新期事实；指引不当实绩，未观测的复合腿仍保留。"
+      },
+      "next": {
+        "en": "Seek the missing original execution, cash or contract evidence; original nextCheck/nextCheckDate and historical valuation anchors remain unchanged.",
+        "zh": "继续核对尚缺的原始履约、现金或合约证据；原 nextCheck/nextCheckDate 与历史估值锚不变。"
+      },
+      "id": "research-a1499249bd5329535604963ec0b4e211a98346520e116493c22e56dee94da12f",
+      "publishedDate": "2026-11-17",
+      "company": "Cerebras Systems",
+      "ticker": "CBRS"
+    },
+    {
+      "reportId": "coreweave-2026",
+      "signalId": "coreweave-q3-10q-concentration-rpo-20261112",
+      "type": "facts",
+      "evidenceDate": "2026-11-12",
+      "title": {
+        "en": "CoreWeave Q3 10-Q: top-two revenue share 54%, RPO $132.3B; cancellable-contract liability reclassification is not a refund",
+        "zh": "CoreWeave Q3 10-Q：前二客户占收入 54%，RPO $132.3B；可取消合约负债重分类不等于退款"
+      },
+      "change": {
+        "en": "Note 2 of the Q3 10-Q filed November 12, 2026: for the three months ended September 30, 2026 Customer A represented 24% of revenue and Customer B 30%, with every other customer below 10%; 24%+30%=54% for the top two, below the original roughly two-thirds threshold. Nine-month A/B shares are 33%/26%, not quarterly figures. The filing explicitly warns that A-D labels may represent different customers from prior periods. Do not identify A/B as Microsoft, OpenAI or NVIDIA, or track an identical customer by letter. On this item's conjunctive trigger the concentration leg is decisively not met, so reading=within; this does not establish cancellation of NVIDIA's backstop or close circular-financing risk or other unknown legs. Note 2 of the same 10-Q reports $132.3B of unsatisfied RPO at September 30, 2026: 36% expected over the initial 24 months ending September 30, 2028, 38% in months 25-48 and the balance in months 49-86. RPO is not company-defined revenue backlog. During the quarter, $1.9B of beginning-of-period deferred revenue was reclassified to customer liabilities within other current liabilities as contracts became cancellable; that is not proof of an actual refund, cancelled order or recognized revenue. The revenue-concentration table and Note 14 related-party disclosures do not resolve the share of bookings that is supplier-backstopped/single-customer required by the original trigger. real-demand-vs-financing remains unclear; a narrowing backlog-to-quarterly-revenue ratio alone does not establish improved conversion.",
+        "zh": "2026-11-12 提交的 Q3 10-Q 附注 2：截至 2026-09-30 的三个月，客户 A 占收入 24%、客户 B 占 30%，其余客户均不足 10%；前两大合计 24%+30%=54%，低于原触发条件约三分之二。九个月 A/B 为 33%/26%，不得与单季混用。申报明确 A-D 标签可能代表与以前期间不同的客户，不据此把 A/B 指认为微软、OpenAI 或 NVIDIA，也不按字母追踪同一客户。按原条目合取条件，集中度腿已明确不满足，故 reading=within；这不等于证明 NVIDIA 兜底已取消，也不关闭循环融资风险或其他未知腿。 同份 10-Q 附注 2 披露 2026-09-30 未履约 RPO $132.3B，其中 36% 预计在截至 2028-09-30 的头 24 个月确认、38% 在第 25-48 个月、余量在第 49-86 个月确认；RPO 不等于公司口径 revenue backlog。季度内因合约变为可取消，期初递延收入中的 $1.9B 被重分类至其他流动负债中的客户负债；这不是已发生退款、已取消订单或已确认收入的证明。原触发条件要求的供应商兜底/单一客户订单占比仍未由这张收入集中度表或附注 14 的关联交易披露闭合，real-demand-vs-financing 维持 unclear；不能仅凭 backlog/单季收入比率收窄认定转化改善。"
+      },
+      "meaning": {
+        "en": "Record new evidence against the item's own trigger, distinguishing completed events, plans and unknowns while retaining the historical valuation boundary.",
+        "zh": "仅按本监测项自身触发条件记录新证据，不将已发生、计划及未知混同；历史估值边界保留。"
+      },
+      "next": {
+        "en": "Seek the execution, cash or contract evidence still missing from the original item; unresolved conditions remain open and original nextCheck/nextCheckDate are unchanged.",
+        "zh": "继续核实原条目尚缺的执行、现金或合约证据；未闭合条件仍开放，原 nextCheck/nextCheckDate 不变。"
+      },
+      "id": "research-8f3c2c065d3922ca524a029b5e4e2ac5530f86abb22ad63a4d7c64575981caab",
+      "publishedDate": "2026-11-17",
+      "company": "CoreWeave",
+      "ticker": "CRWV"
+    },
+    {
+      "reportId": "nebius-2026",
+      "signalId": "nebius-q3-2026-operating-income-20261112",
+      "type": "facts",
+      "evidenceDate": "2026-11-12",
+      "title": {
+        "en": "Nebius Q3: positive GAAP operating income, but negative operating cash flow",
+        "zh": "Nebius Q3：GAAP 经营利润转正，但经营现金流仍为负"
+      },
+      "change": {
+        "en": "The issuer's November 12, 2026 Q3 release reports continuing-operations revenue of $980.8M and operating costs and expenses of $930.4M: GAAP operating income is therefore $50.4M (derived, about 5.1% margin). Continuing-operations net loss was $37.5M and adjusted EBITDA $465.8M. Quarterly operating cash flow was -$273.0M, with $7,300.4M of cash purchases of property, equipment and intangible assets. Against the trigger of profit remaining driven by non-cash marks rather than operations turning positive, the quarterly GAAP operating line did turn positive, supporting within for this quarter; a net loss is not mark-driven profit. One quarter does not establish nine-month operating profitability, positive cash flow, self-funded capex or high-utilization ARR/backlog conversion. Other monitoring evidence dates are unchanged.",
+        "zh": "2026-11-12 发行人 Q3 业绩稿：持续经营收入 $980.8M，经营成本费用 $930.4M，故 GAAP 经营利润为 $50.4M（自算，约 5.1% 利润率）；持续经营净亏损 $37.5M、调整后 EBITDA $465.8M。季度经营现金流为 -$273.0M，购置物业设备与无形资产现金流出 $7,300.4M。严格对照“利润持续依赖非现金重估而非经营转正”，本季 GAAP 经营线已转正，故本季 reading=within；净亏损不当作重估盈利。单季改善不证明九个月整体已经营盈利，更不证明正现金流、自筹 capex 或 ARR/backlog 高利用率转化，其余监测保留各自证据日。"
+      },
+      "meaning": {
+        "en": "Record new-period evidence only against the named monitoring items; guidance is not actual performance and unobserved compound legs remain open.",
+        "zh": "只对照具名监测项记录新期事实；指引不当实绩，未观测的复合腿仍保留。"
+      },
+      "next": {
+        "en": "Seek the missing original execution, cash or contract evidence; original nextCheck/nextCheckDate and historical valuation anchors remain unchanged.",
+        "zh": "继续核对尚缺的原始履约、现金或合约证据；原 nextCheck/nextCheckDate 与历史估值锚不变。"
+      },
+      "id": "research-5f74e337ca7bbd7a75f439d5eb213a85fa947f07db18a0b6d8a467498c54acfb",
+      "publishedDate": "2026-11-17",
+      "company": "Nebius Group",
+      "ticker": "NBIS"
+    },
+    {
+      "reportId": "neov-2026",
+      "signalId": "neov-master-agreement-loi-identity-20261112",
+      "type": "facts",
+      "evidenceDate": "2026-11-12",
+      "title": {
+        "en": "NeoVolta: new $116M master agreement not identified as the original Infinite Grid LOI",
+        "zh": "NeoVolta：新 $116M 主协议尚未与原 Infinite Grid LOI 具名对账"
+      },
+      "change": {
+        "en": "The November 12, 2026 release says a $116M master purchase agreement was signed, with deliveries anchoring the Georgia plant’s 2027 ramp. It does not name the buyer or explicitly connect that agreement to the original Infinite Grid 1.1GWh/$200M LOI. The consulting-agreement section of the September 30 10-Q (EDGAR filingDate November 13, accepted November 12 at 22:57:56Z) only states that no related offtake had been executed or was probable at September 30; that period-end state is not a claim of no contract in November. These two inspected documents do not provide named terms reconciling the new agreement to the original LOI, so the exact conversion condition remains unclear. A master agreement, specific orders, delivery, recognized revenue and cash collection are not interchangeable. https://www.sec.gov/Archives/edgar/data/1748137/000168316826008635/neovolta_i10q-093026.htm ; https://www.sec.gov/Archives/edgar/data/1748137/000168316826008619/neovolta_ex9901.htm",
+        "zh": "2026-11-12 业绩稿称已签 $116M master purchase agreement，交付将支持 Georgia 工厂 2027 年爬坡；本稿未点名买方，亦未将新协议明确对应原 Infinite Grid 1.1GWh/$200M LOI。期间截至 2026-09-30 的 10-Q（EDGAR filingDate 为 11-13、受理时间为 11-12T22:57:56Z）的顾问协议段只称在 9 月末没有已执行或很可能执行的相关 offtake，不能把期末状态外推为 11 月仍无合同。所核两份材料未提供新协议与旧 LOI 的具名条款对账，精确转换条件仍 unclear；主协议、具体订单、交付、收入确认和回款不可互换。 https://www.sec.gov/Archives/edgar/data/1748137/000168316826008635/neovolta_i10q-093026.htm ; https://www.sec.gov/Archives/edgar/data/1748137/000168316826008619/neovolta_ex9901.htm"
+      },
+      "meaning": {
+        "en": "Record verifiable facts against the original monitoring identity; contract summaries and node mix do not clear unobserved legs, historical failures or valuation conditions.",
+        "zh": "只对照原监测对象记录可核事实，不用合同摘要或节点份额清除未观测腿、历史失败和估值条件。"
+      },
+      "next": {
+        "en": "Seek the missing named-contract, schedule or yield evidence; retain original nextCheck/nextCheckDate and the historical valuation anchor.",
+        "zh": "核验尚缺具名合同、排产或良率原证据；保留原nextCheck/nextCheckDate与历史估值锚。"
+      },
+      "id": "research-7049a097e4a3b050b2aadcc59110dce6deb93ca5dd89cb52c6b008d35ad162d9",
+      "publishedDate": "2026-11-17",
+      "company": "NeoVolta",
+      "ticker": "NEOV"
+    },
+    {
+      "reportId": "onds-2026",
+      "signalId": "ondas-q3-2026-revenue-organic-opex-20261112",
+      "type": "facts",
+      "evidenceDate": "2026-11-12",
+      "title": {
+        "en": "Ondas Q3: $167.5M revenue; organic growth is management-estimated and Q4 leverage remains unproven",
+        "zh": "Ondas Q3：收入 $167.5M；同口径增长为公司估计，Q4 经营杠杆仍待验证"
+      },
+      "change": {
+        "en": "The November 12, 2026 release reports approximately $167.5M of Q3 revenue, above the original $140M floor, and raises the FY2026 target from $525-550M to at least $550M. Neither original adverse leg is met, so within. Company-defined backlog is $835M with $214M of new orders. Targets of more than $250M Q4 revenue and at least $1.1B FY2027 revenue are forward-looking, not recognized revenue; backlog is not GAAP RPO or immediately collectible cash. For Q3 2026 management reports 64% pro forma organic YoY growth assuming the current portfolio was owned in both periods, above the original 30% floor: within on that issuer-defined basis. It is not the roughly sixteen-fold reported-revenue comparison. The 64% is management-defined and calculated; this unit does not have independently reconstructible numerator and denominator for each acquisition cohort, and does not present it as an independently recomputed organic rate or proof of DZYNE standalone quality. Q3 2026 adjusted cash operating expense of $118.7M divided by revenue of $167.5M is approximately 70.9% (derived from rounded disclosures); adjusted EBITDA was a $59.7M loss and GAAP operating loss $189.5M. The ratio is below 80% this quarter, but the original condition explicitly names Q4 2026: Q3 does not mature that future-period test, so unclear. Management still targets Q4 platform-level EBITDA break-even and moves company-wide break-even forward to Q3 2027. Neither is achieved profit, and platform and consolidated scopes are not interchangeable.",
+        "zh": "2026-11-12 业绩稿：Q3 2026 收入约 $167.5M，超过原 $140M 下沿；FY2026 目标从 $525–550M 调为至少 $550M，非下调，原两条负面腿均未满足，reading=within。公司口径 backlog $835M、新订单 $214M；Q4 收入目标逾 $250M，FY2027 目标至少 $1.1B，均为前瞻而非已确认收入；backlog 不等于 GAAP RPO 或可随时回收的现金。 Q3 2026 公司称假设当前组合在两期均持有，备考同口径有机同比增长 64%，高于原 30% 下限，按该公司口径 reading=within；不是报告收入的同比 16 倍。该 64% 是管理层定义/计算的指标，本单元未取得逐收购组合的可独立重建分子与分母，因此不把它当独立核数后的有机增速，亦不用于判定 DZYNE 独立质量。 Q3 2026 调整后现金经营费用 $118.7M÷收入 $167.5M≈70.9%（按披露四舍五入数自算），调整后 EBITDA 亏损 $59.7M；GAAP 经营亏损 $189.5M。本季比率低于 80%，但原触发条件点名 Q4 2026，不能用 Q3 代替 Q4 成熟判定，故 unclear。管理层仍预计 Q4 经营平台层面 EBITDA 盈亏平衡，全公司目标提前至 Q3 2027；均不是已实现利润，且平台与全公司口径不能混用。"
+      },
+      "meaning": {
+        "en": "Record new-period evidence only against the named monitoring items; guidance is not actual performance and unobserved compound legs remain open.",
+        "zh": "只对照具名监测项记录新期事实；指引不当实绩，未观测的复合腿仍保留。"
+      },
+      "next": {
+        "en": "Seek the missing original execution, cash or contract evidence; original nextCheck/nextCheckDate and historical valuation anchors remain unchanged.",
+        "zh": "继续核对尚缺的原始履约、现金或合约证据；原 nextCheck/nextCheckDate 与历史估值锚不变。"
+      },
+      "id": "research-7a907c02d10fca656e0a0ea38a6972d24b8ccd712de364af1ea873ac33d1f448",
+      "publishedDate": "2026-11-17",
+      "company": "Ondas Inc.",
+      "ticker": "ONDS"
+    },
+    {
+      "reportId": "tsmc-2026",
+      "signalId": "tsmc-q3-2026-statutory-node-revenue-20261113",
+      "type": "facts",
+      "evidenceDate": "2026-11-13",
+      "title": {
+        "en": "TSMC Q3 statutory node revenue: about 78.70% advanced-node wafer mix, not schedule or yield confirmation",
+        "zh": "TSMC Q3 正式节点收入表：晶圆口径先进节点约 78.70%，不等于排产或良率确认"
+      },
+      "change": {
+        "en": "Main already contains the October 15, 2026 Q3 summary signal. This unit reconciles the November 13 statutory amounts and updates monitoring metadata still on Q2; it is not another Q3 demand-growth event. The Resolution table in the Q3 consolidated financial report furnished on Form 6-K November 13, 2026 gives Q3 wafer revenue of NT$103,129,543/396,618,245/337,110,388/123,141,757 thousand for 2nm/3nm/5nm/7nm, on NT$1,219,768,395 thousand of wafer revenue. Derived shares are about 8.45%/32.52%/27.64%/10.10%, or 78.70% at 7nm and below. These are not capacity utilization, HPC share or GPU/ASIC customer revenue; total revenue of NT$1,494,243,284 thousand is not the denominator. Mix alone does not complete the original monthly-revenue/full-year-trajectory test, so advanced-node-utilization remains unclear. The same Q3 statutory table supplies N2/N3 revenue amounts, deriving to about 8.45%/32.52% of wafer revenue. This supersedes Q2’s 3%/30% as new-period node-revenue context, but does not provide customer-by-customer schedules, yield or new-node depreciation drag. The original trigger is schedule slippage or worse-than-expected depreciation/yield, not rising revenue mix; mix cannot establish that every adverse leg is absent, so n3-n2-ramp changes from the old within to unclear, not a finding of a production setback. https://www.sec.gov/Archives/edgar/data/1046179/000104617926000801/a2026q3consolidatedreport-.htm",
+        "zh": "main 已有 2026-10-15 的 Q3 摘要信号；本项补录 11-13 正式附表金额，并校正报告元数据仍停留 Q2 的监测背景，不是又一次 Q3 需求增长事件。 2026-11-13 Form 6-K 所附 Q3 合并财务报告的 Resolution 表：Q3 2nm/3nm/5nm/7nm 晶圆收入分别为 NT$103,129,543/396,618,245/337,110,388/123,141,757 千元，晶圆收入分母 NT$1,219,768,395 千元。由此自算占比约 8.45%/32.52%/27.64%/10.10%，7nm 及以下合计约 78.70%。这不是产能利用率、HPC 占比或 GPU/ASIC 客户收入；不能与总收入 NT$1,494,243,284 千元混作分母。节点占比本身不完成原条件的月度收入/全年轨迹比较，advanced-node-utilization 仍 unclear。 同份 Q3 正式附表已给出 N2/N3 的收入金额，以上述晶圆收入为分母分别约 8.45%/32.52%（自算）；这取代 Q2 2nm 3%/3nm 30% 作为新期节点收入背景，但没有给出可逐客户核对的排产计划、良率或新节点折旧拖累。原 trigger 是客户排产偏离或折旧/良率超预期，不是节点收入份额上升；仅凭份额不能证明这些腿都未触发，故 n3-n2-ramp 从旧 within 改 unclear，不解释为已确认生产受挫。 https://www.sec.gov/Archives/edgar/data/1046179/000104617926000801/a2026q3consolidatedreport-.htm"
+      },
+      "meaning": {
+        "en": "Record verifiable facts against the original monitoring identity; contract summaries and node mix do not clear unobserved legs, historical failures or valuation conditions.",
+        "zh": "只对照原监测对象记录可核事实，不用合同摘要或节点份额清除未观测腿、历史失败和估值条件。"
+      },
+      "next": {
+        "en": "Seek the missing named-contract, schedule or yield evidence; retain original nextCheck/nextCheckDate and the historical valuation anchor.",
+        "zh": "核验尚缺具名合同、排产或良率原证据；保留原nextCheck/nextCheckDate与历史估值锚。"
+      },
+      "id": "research-0d86954b743451c40b83f393fd53663c1e7e79ef3cf3b20ff5d3ad74fc00f7d6",
+      "publishedDate": "2026-11-17",
+      "company": "Taiwan Semiconductor Manufacturing Company",
+      "ticker": "TSM"
+    },
     {
       "id": "hims-20261110",
       "publishedDate": "2026-11-10",
@@ -11,10 +271,22 @@
       "signalId": "hims-q3-2026-results-downgrade-legs-20261109",
       "company": "Hims & Hers",
       "ticker": "HIMS",
-      "title": {"zh": "增长还在，但两条下调条件已经触发", "en": "Growth continues, but two downgrade conditions have fired"},
-      "change": {"zh": "本次补入 Q3 财报后，研究重点转向增长的质量：收入同比增长 49%，同时毛利率降至 57%，订阅用户环比减少。全年调整后 EBITDA 指引也被下调。", "en": "The Q3 update shifts attention to the quality of growth: revenue rose 49% year over year, while gross margin fell to 57% and subscribers declined sequentially. Full-year adjusted EBITDA guidance was also lowered."},
-      "meaning": {"zh": "毛利率与订阅变化分别命中此前写下的下调条件。新事实已补入报告，但尚未据此完成估值与立场重裁；已发布的谨慎、低确信仍属于旧裁定。", "en": "Margin and subscriber performance each meet a previously published downgrade condition. The facts are in the report, but valuation and stance have not yet been re-adjudicated; cautious / low conviction remains the historical ruling."},
-      "next": {"zh": "单独复核新盈利指引与用户趋势对估值的影响，完成立场重裁。", "en": "Review the valuation implications of lower profit guidance and subscriber trends, then re-adjudicate the stance."}
+      "title": {
+        "zh": "增长还在，但两条下调条件已经触发",
+        "en": "Growth continues, but two downgrade conditions have fired"
+      },
+      "change": {
+        "zh": "本次补入 Q3 财报后，研究重点转向增长的质量：收入同比增长 49%，同时毛利率降至 57%，订阅用户环比减少。全年调整后 EBITDA 指引也被下调。",
+        "en": "The Q3 update shifts attention to the quality of growth: revenue rose 49% year over year, while gross margin fell to 57% and subscribers declined sequentially. Full-year adjusted EBITDA guidance was also lowered."
+      },
+      "meaning": {
+        "zh": "毛利率与订阅变化分别命中此前写下的下调条件。新事实已补入报告，但尚未据此完成估值与立场重裁；已发布的谨慎、低确信仍属于旧裁定。",
+        "en": "Margin and subscriber performance each meet a previously published downgrade condition. The facts are in the report, but valuation and stance have not yet been re-adjudicated; cautious / low conviction remains the historical ruling."
+      },
+      "next": {
+        "zh": "单独复核新盈利指引与用户趋势对估值的影响，完成立场重裁。",
+        "en": "Review the valuation implications of lower profit guidance and subscriber trends, then re-adjudicate the stance."
+      }
     },
     {
       "id": "rklb-20261110",
@@ -25,10 +297,22 @@
       "signalId": "rklb-q3-2026-results-20261109",
       "company": "Rocket Lab",
       "ticker": "RKLB",
-      "title": {"zh": "交付表现达到上行复核条件，现金转化仍待验证", "en": "Delivery clears the upside review threshold; cash conversion still needs proof"},
-      "change": {"zh": "Q3 收入和毛利率同时超过报告预设的上行复核门槛。单季经营现金流转正，在手订单扩大；但扣除资本开支后，单季现金流仍为负。", "en": "Q3 revenue and gross margin both exceeded the report’s thresholds for an upside review. Quarterly operating cash flow turned positive and backlog grew, but cash flow after capital spending remained negative."},
-      "meaning": {"zh": "本次更新提供了重建上行情景的依据，还没有形成新的估值结论。Neutron 首飞仍以不早于 2027 年为目标，与此前披露一致，不应写成又一次延期。", "en": "The update provides grounds to rebuild the upside scenario, without establishing a new valuation conclusion. Neutron still targets no earlier than 2027, consistent with prior disclosure rather than another delay."},
-      "next": {"zh": "重建上行情景，并用完整下半年数据检验现金与订单质量。", "en": "Rebuild the upside scenario and use full second-half results to assess cash generation and backlog quality."}
+      "title": {
+        "zh": "交付表现达到上行复核条件，现金转化仍待验证",
+        "en": "Delivery clears the upside review threshold; cash conversion still needs proof"
+      },
+      "change": {
+        "zh": "Q3 收入和毛利率同时超过报告预设的上行复核门槛。单季经营现金流转正，在手订单扩大；但扣除资本开支后，单季现金流仍为负。",
+        "en": "Q3 revenue and gross margin both exceeded the report’s thresholds for an upside review. Quarterly operating cash flow turned positive and backlog grew, but cash flow after capital spending remained negative."
+      },
+      "meaning": {
+        "zh": "本次更新提供了重建上行情景的依据，还没有形成新的估值结论。Neutron 首飞仍以不早于 2027 年为目标，与此前披露一致，不应写成又一次延期。",
+        "en": "The update provides grounds to rebuild the upside scenario, without establishing a new valuation conclusion. Neutron still targets no earlier than 2027, consistent with prior disclosure rather than another delay."
+      },
+      "next": {
+        "zh": "重建上行情景，并用完整下半年数据检验现金与订单质量。",
+        "en": "Rebuild the upside scenario and use full second-half results to assess cash generation and backlog quality."
+      }
     },
     {
       "id": "nrg-20261110",
@@ -39,10 +323,22 @@
       "signalId": "nrg-q3-2026-results-4b-asset-sale-20261109",
       "company": "NRG Energy",
       "ticker": "NRG",
-      "title": {"zh": "资产出售改变了下一轮估值需要回答的问题", "en": "The planned asset sale changes the questions for the next valuation review"},
-      "change": {"zh": "报告补入 Q3 业绩、首次发布的 2027 年指引，以及以 40 亿美元出售 4.9GW 燃气电厂的计划。公司同时披露回购与交割后减债安排。", "en": "The report adds Q3 results, initial 2027 guidance and a plan to sell 4.9GW of gas plants for $4 billion, alongside buyback and post-closing debt-reduction plans."},
-      "meaning": {"zh": "后续估值需要同时考虑售出资产的盈利贡献、出售所得与资本分配。交易目标为 2027 年第二季度交割且仍待审批；已公布的 2027 年指引尚未计入此次出售。", "en": "The next valuation must consider earnings leaving with the assets, sale proceeds and capital allocation together. Closing is targeted for Q2 2027 and remains subject to approvals; published 2027 guidance excludes the sale."},
-      "next": {"zh": "核实审批与交割进展，并在独立估值复核中重算出售后的盈利和债务。", "en": "Track approvals and closing, then rebuild post-sale earnings and debt in a separate valuation review."}
+      "title": {
+        "zh": "资产出售改变了下一轮估值需要回答的问题",
+        "en": "The planned asset sale changes the questions for the next valuation review"
+      },
+      "change": {
+        "zh": "报告补入 Q3 业绩、首次发布的 2027 年指引，以及以 40 亿美元出售 4.9GW 燃气电厂的计划。公司同时披露回购与交割后减债安排。",
+        "en": "The report adds Q3 results, initial 2027 guidance and a plan to sell 4.9GW of gas plants for $4 billion, alongside buyback and post-closing debt-reduction plans."
+      },
+      "meaning": {
+        "zh": "后续估值需要同时考虑售出资产的盈利贡献、出售所得与资本分配。交易目标为 2027 年第二季度交割且仍待审批；已公布的 2027 年指引尚未计入此次出售。",
+        "en": "The next valuation must consider earnings leaving with the assets, sale proceeds and capital allocation together. Closing is targeted for Q2 2027 and remains subject to approvals; published 2027 guidance excludes the sale."
+      },
+      "next": {
+        "zh": "核实审批与交割进展，并在独立估值复核中重算出售后的盈利和债务。",
+        "en": "Track approvals and closing, then rebuild post-sale earnings and debt in a separate valuation review."
+      }
     },
     {
       "id": "ceg-20261110",
@@ -53,10 +349,22 @@
       "signalId": "constellation-q3-2026-results-risec-doe-20261109",
       "company": "Constellation Energy",
       "ticker": "CEG",
-      "title": {"zh": "盈利指引收窄，收购与融资承诺仍有待落地", "en": "Earnings guidance narrows while acquisition and financing remain conditional"},
-      "change": {"zh": "本次补入 Q3 业绩、收窄后的全年盈利指引，以及拟收购 RISEC 的进展。报告同时更新债务事实与 DOE 担保的条件边界。", "en": "This update adds Q3 results, a narrower full-year earnings range and the proposed RISEC acquisition, together with debt facts and the conditions attached to the DOE guarantee."},
-      "meaning": {"zh": "拟议收购仍待批准，DOE 至多 50 亿美元担保也只是有条件承诺。两者都不能直接当作已完成交易或已到位资金计入新的估值结论。", "en": "The acquisition still awaits approval and the DOE guarantee of up to $5 billion is a conditional commitment. Neither establishes a completed transaction or funding already received for a new valuation conclusion."},
-      "next": {"zh": "跟踪交易审批与融资条件，并在估值重算时统一处理债务及新指引。", "en": "Track approvals and financing conditions, then reconcile debt and new guidance in a valuation rebuild."}
+      "title": {
+        "zh": "盈利指引收窄，收购与融资承诺仍有待落地",
+        "en": "Earnings guidance narrows while acquisition and financing remain conditional"
+      },
+      "change": {
+        "zh": "本次补入 Q3 业绩、收窄后的全年盈利指引，以及拟收购 RISEC 的进展。报告同时更新债务事实与 DOE 担保的条件边界。",
+        "en": "This update adds Q3 results, a narrower full-year earnings range and the proposed RISEC acquisition, together with debt facts and the conditions attached to the DOE guarantee."
+      },
+      "meaning": {
+        "zh": "拟议收购仍待批准，DOE 至多 50 亿美元担保也只是有条件承诺。两者都不能直接当作已完成交易或已到位资金计入新的估值结论。",
+        "en": "The acquisition still awaits approval and the DOE guarantee of up to $5 billion is a conditional commitment. Neither establishes a completed transaction or funding already received for a new valuation conclusion."
+      },
+      "next": {
+        "zh": "跟踪交易审批与融资条件，并在估值重算时统一处理债务及新指引。",
+        "en": "Track approvals and financing conditions, then reconcile debt and new guidance in a valuation rebuild."
+      }
     },
     {
       "id": "axti-20261102",
@@ -67,10 +375,22 @@
       "signalId": "axti-q3-call-tongmei-mode-b-20261102",
       "company": "AXT Inc.",
       "ticker": "AXTI",
-      "title": {"zh": "重新估值后，从谨慎调整为中性观察", "en": "A rebuilt valuation moves the stance from cautious to neutral-watch"},
-      "change": {"zh": "按 10 月 30 日收盘价重建估值，并纳入 Q3 业绩、Q4 指引及通美私募影响。立场由谨慎、中确信调整为中性观察、低确信。", "en": "Valuation was rebuilt at the October 30 close using Q3 results, Q4 guidance and the Tongmei placement. The stance moves from cautious / medium to neutral-watch / low conviction."},
-      "meaning": {"zh": "这次调整来自价格与情景分布的变化，并非此前的上调条件已经触发。重建后的牛熊分布大致对称，加权年化回报仍低于要求门槛，因此没有转为偏多。", "en": "The change is driven by price and the scenario distribution, rather than a previously published upgrade condition firing. Bull and bear outcomes are roughly symmetric, while the weighted annualized return remains below the hurdle, so the stance does not become constructive."},
-      "next": {"zh": "继续核实 Q3 10-Q、出口许可与私募交割条件；相关未知项仍限制确信度。", "en": "Verify the Q3 10-Q, export permits and placement closing conditions; unresolved items continue to limit conviction."}
+      "title": {
+        "zh": "重新估值后，从谨慎调整为中性观察",
+        "en": "A rebuilt valuation moves the stance from cautious to neutral-watch"
+      },
+      "change": {
+        "zh": "按 10 月 30 日收盘价重建估值，并纳入 Q3 业绩、Q4 指引及通美私募影响。立场由谨慎、中确信调整为中性观察、低确信。",
+        "en": "Valuation was rebuilt at the October 30 close using Q3 results, Q4 guidance and the Tongmei placement. The stance moves from cautious / medium to neutral-watch / low conviction."
+      },
+      "meaning": {
+        "zh": "这次调整来自价格与情景分布的变化，并非此前的上调条件已经触发。重建后的牛熊分布大致对称，加权年化回报仍低于要求门槛，因此没有转为偏多。",
+        "en": "The change is driven by price and the scenario distribution, rather than a previously published upgrade condition firing. Bull and bear outcomes are roughly symmetric, while the weighted annualized return remains below the hurdle, so the stance does not become constructive."
+      },
+      "next": {
+        "zh": "继续核实 Q3 10-Q、出口许可与私募交割条件；相关未知项仍限制确信度。",
+        "en": "Verify the Q3 10-Q, export permits and placement closing conditions; unresolved items continue to limit conviction."
+      }
     }
   ]
 }
