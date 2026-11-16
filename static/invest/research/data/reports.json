@@ -6316,7 +6316,7 @@
     "priceSymbol": "NEOV",
     "title": "NeoVolta 深度研究报告 - 美国住宅储能新势力",
     "titleEn": "NeoVolta Deep Research Report - Emerging U.S. Residential Energy Storage Player",
-    "summary": "【2026-08-18 价格重锚：NEOV 于 2026-08-18 收于 $3.64，较 07-30 锚点 $2.13 上涨 +70.9%，期间无新财报事实（FY2026 Q4/全年业绩预计 8 月下旬）；股本按 S-3 重锚为 58,863,247 股（2026-08-03），市值约 $214M、P/S（TTM）约 11.9x，比 07-31 复核时显著更贵；立场依据的收入下滑/稀释/跑道风险无一被价格修复，维持谨慎（低确信）。】Q3 FY2026 营收骤降至 $2.02M（环比 -56%）；股价 2026-02 高点 $4.21、06 月低点约 $1.93，5 月公开发行大幅稀释。佐治亚工厂目标 8 月底完成调试投产、Infinite Grid $2 亿 LOI 仍非约束——08-11 S-3 披露其持股 4.5M 股（2026-02 定向 $2.50/股 + 顾问签约费股），是利益绑定信号而非订单转化。极高风险。",
+    "summary": "2026-11-17 合约身份核对（仅此项更新）：2026-11-12 业绩稿称已签 $116M master purchase agreement，交付将支持 Georgia 工厂 2027 年爬坡；本稿未点名买方，亦未将新协议明确对应原 Infinite Grid 1.1GWh/$200M LOI。期间截至 2026-09-30 的 10-Q（EDGAR filingDate 为 11-13、受理时间为 11-12T22:57:56Z）的顾问协议段只称在 9 月末没有已执行或很可能执行的相关 offtake，不能把期末状态外推为 11 月仍无合同。所核两份材料未提供新协议与旧 LOI 的具名条款对账，精确转换条件仍 unclear；主协议、具体订单、交付、收入确认和回款不可互换。 原收入萎缩、Georgia 历史时点和融资风险未被该合同摘要清除；下列旧叙述仅保留其原日期背景：【2026-08-18 价格重锚：NEOV 于 2026-08-18 收于 $3.64，较 07-30 锚点 $2.13 上涨 +70.9%，期间无新财报事实（FY2026 Q4/全年业绩预计 8 月下旬）；股本按 S-3 重锚为 58,863,247 股（2026-08-03），市值约 $214M、P/S（TTM）约 11.9x，比 07-31 复核时显著更贵；立场依据的收入下滑/稀释/跑道风险无一被价格修复，维持谨慎（低确信）。】Q3 FY2026 营收骤降至 $2.02M（环比 -56%）；股价 2026-02 高点 $4.21、06 月低点约 $1.93，5 月公开发行大幅稀释。佐治亚工厂目标 8 月底完成调试投产、Infinite Grid $2 亿 LOI 仍非约束——08-11 S-3 披露其持股 4.5M 股（2026-02 定向 $2.50/股 + 顾问签约费股），是利益绑定信号而非订单转化。极高风险。",
     "tags": [
       "储能",
       "新能源",
@@ -6325,7 +6325,7 @@
     ],
     "category": "energy",
     "date": "2026-02-09",
-    "lastUpdate": "2026-08-18",
+    "lastUpdate": "2026-11-17",
     "file": "/invest/research/reports/view.html?id=neov-2026",
     "markdownFiles": {
       "zh": "/invest/research/NeoVolta_深度研究报告_2026-02.md",
@@ -6341,12 +6341,12 @@
       "佐治亚工厂目标 2026-08 底完成调试投产（FEOC 合规已确认），尚无投产确认公告；Infinite Grid 1.1 GWh LOI（~$2 亿）仍为非约束",
       "08-11 S-3 披露 Infinite Grid 持股 4.5M 股（2026-02-05 定向 $2.50/股 ×4M + 0.5M 顾问签约费股，注册转售）；现金 $11.48M（2026-03-31，未含 5 月发行募资）；FY2026 全年业绩预计 8 月下旬"
     ],
-    "summaryEn": "[2026-08-18 price re-anchor: NEOV closed at $3.64 on 2026-08-18, +70.9% off the 07-30 anchor of $2.13, with no new reported fundamentals in between (Q4/FY2026 results expected late August); share base re-anchored to 58,863,247 (S-3, as of 2026-08-03), for about $214M market cap and ~11.9x P/S (TTM) — much richer than at the 07-31 check. None of the cautious legs — contraction, dilution, runway risk — is repaired by the move, so cautious (low conviction) holds.] Q3 FY2026 revenue collapsed to $2.02M (-56% QoQ); the stock's February 2026 high was $4.21 and its June low ~$1.93, with heavy dilution from the May offering. The Georgia factory targets end-August commissioning; Infinite Grid's ~$200M 1.1 GWh LOI remains non-binding — the 08-11 S-3 shows IGC holds 4.5M shares (Feb 2026 placement at $2.50 plus consulting signing-fee shares), an alignment signal, not order conversion. Very high risk.",
+    "summaryEn": "2026-11-17 agreement-identity check (only this item updated): The November 12, 2026 release says a $116M master purchase agreement was signed, with deliveries anchoring the Georgia plant’s 2027 ramp. It does not name the buyer or explicitly connect that agreement to the original Infinite Grid 1.1GWh/$200M LOI. The consulting-agreement section of the September 30 10-Q (EDGAR filingDate November 13, accepted November 12 at 22:57:56Z) only states that no related offtake had been executed or was probable at September 30; that period-end state is not a claim of no contract in November. These two inspected documents do not provide named terms reconciling the new agreement to the original LOI, so the exact conversion condition remains unclear. A master agreement, specific orders, delivery, recognized revenue and cash collection are not interchangeable. This contract summary does not clear historical contraction, Georgia-timing or financing risks. Older context below retains its original dates: [2026-08-18 price re-anchor: NEOV closed at $3.64 on 2026-08-18, +70.9% off the 07-30 anchor of $2.13, with no new reported fundamentals in between (Q4/FY2026 results expected late August); share base re-anchored to 58,863,247 (S-3, as of 2026-08-03), for about $214M market cap and ~11.9x P/S (TTM) — much richer than at the 07-31 check. None of the cautious legs — contraction, dilution, runway risk — is repaired by the move, so cautious (low conviction) holds.] Q3 FY2026 revenue collapsed to $2.02M (-56% QoQ); the stock's February 2026 high was $4.21 and its June low ~$1.93, with heavy dilution from the May offering. The Georgia factory targets end-August commissioning; Infinite Grid's ~$200M 1.1 GWh LOI remains non-binding — the 08-11 S-3 shows IGC holds 4.5M shares (Feb 2026 placement at $2.50 plus consulting signing-fee shares), an alignment signal, not order conversion. Very high risk.",
     "chainLayer": "power",
     "coverageTier": "lite",
     "stance": "cautious",
     "priceAsOf": "2026-08-17",
-    "reportedPeriod": "Q3 FY2026",
+    "reportedPeriod": "Quarter ended 2026-09-30 agreement monitoring / 2026-08-17 historical valuation frame",
     "monitoring": [
       {
         "id": "revenue-collapse",
@@ -6424,12 +6424,12 @@
           "en": "the 1.1 GWh (~$200M) LOI converts into binding orders"
         },
         "latest": {
-          "zh": "无任何确认 LOI 已转化的披露——无宣布具约束力 offtake 协议的 8-K；08-11 S-3 仅将 IGC 的角色描述为协助谈判「条款清单、意向书与最终 offtake 协议」，成功费按未来「合格 offtake 协议」的收入计提。缺的是：公司对 1.1 GWh LOI 约束力状态的明确说明。IGC 持股 4.5M 股（2026-02-05 定向 $2.50/股 ×4M + 0.5M 顾问签约费股，现已注册转售）是利益绑定信号，同时构成潜在卖压，不等于订单转化",
-          "en": "No affirmative disclosure that the LOI converted — no 8-K announcing a definitive offtake agreement, and the 08-11 S-3 describes IGC's role only as assisting in negotiating \"term sheets, letters of intent and definitive offtake agreements,\" with success fees payable on future \"qualifying offtake agreements.\" Missing: a company statement on the 1.1 GWh LOI's binding status. IGC's 4.5M-share stake (Feb 5, 2026 placement at $2.50 ×4M plus 0.5M consulting signing-fee shares, now registered for resale) is alignment — and potential selling pressure — not order conversion"
+          "zh": "2026-11-12 业绩稿称已签 $116M master purchase agreement，交付将支持 Georgia 工厂 2027 年爬坡；本稿未点名买方，亦未将新协议明确对应原 Infinite Grid 1.1GWh/$200M LOI。期间截至 2026-09-30 的 10-Q（EDGAR filingDate 为 11-13、受理时间为 11-12T22:57:56Z）的顾问协议段只称在 9 月末没有已执行或很可能执行的相关 offtake，不能把期末状态外推为 11 月仍无合同。所核两份材料未提供新协议与旧 LOI 的具名条款对账，精确转换条件仍 unclear；主协议、具体订单、交付、收入确认和回款不可互换。",
+          "en": "The November 12, 2026 release says a $116M master purchase agreement was signed, with deliveries anchoring the Georgia plant’s 2027 ramp. It does not name the buyer or explicitly connect that agreement to the original Infinite Grid 1.1GWh/$200M LOI. The consulting-agreement section of the September 30 10-Q (EDGAR filingDate November 13, accepted November 12 at 22:57:56Z) only states that no related offtake had been executed or was probable at September 30; that period-end state is not a claim of no contract in November. These two inspected documents do not provide named terms reconciling the new agreement to the original LOI, so the exact conversion condition remains unclear. A master agreement, specific orders, delivery, recognized revenue and cash collection are not interchangeable."
         },
         "nextCheck": "LOI→合同公告 / LOI-to-contract announcements",
         "reading": "unclear",
-        "readingAsOf": "2026-08-18"
+        "readingAsOf": "2026-11-12"
       }
     ],
     "conviction": "low",

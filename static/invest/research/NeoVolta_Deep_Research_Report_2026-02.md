@@ -1,11 +1,13 @@
 # NeoVolta (NEOV) Deep Research Report
 
 Coverage date: 2026-02-09
-Last updated: 2026-08-18
+Last updated: 2026-11-17
 Ticker: NASDAQ: NEOV
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
+
+> **2026-11-17 factual update:** The November 12, 2026 release says a $116M master purchase agreement was signed, with deliveries anchoring the Georgia plant’s 2027 ramp. It does not name the buyer or explicitly connect that agreement to the original Infinite Grid 1.1GWh/$200M LOI. The consulting-agreement section of the September 30 10-Q (EDGAR filingDate November 13, accepted November 12 at 22:57:56Z) only states that no related offtake had been executed or was probable at September 30; that period-end state is not a claim of no contract in November. These two inspected documents do not provide named terms reconciling the new agreement to the original LOI, so the exact conversion condition remains unclear. A master agreement, specific orders, delivery, recognized revenue and cash collection are not interchangeable. Only the exact monitoring items named by this update are refreshed; historical failures and other unknown legs are not cleared. Valuation retains the published 2026-08-17 historical anchor; current capital and financial denominators await Mode B. The published stance and conviction are unchanged. [Primary source](https://www.sec.gov/Archives/edgar/data/1748137/000168316826008635/neovolta_i10q-093026.htm); [Primary source](https://www.sec.gov/Archives/edgar/data/1748137/000168316826008619/neovolta_ex9901.htm)
 
 > **[2026-02-17 Update]** Updated with Q2 FY2026 earnings data (quarter ended Dec 31, 2025). Revenue $4.65M (beat estimate), but gross margin declined to 17% and net loss widened to -$5.54M. Georgia factory financing of ~$23M secured.
 >
