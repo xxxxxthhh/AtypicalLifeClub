@@ -1,13 +1,15 @@
 # NVIDIA (NVDA) Deep Research Report
 
 Coverage date: 2026-06-26
-Last updated: 2026-08-27
+Last updated: 2026-11-17
 Ticker: NASDAQ: NVDA
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 > **Fiscal-year note:** NVIDIA's fiscal year ends in late January. In this report **FY2026** is the year ended 2026-01-25; **Q1 FY2027** is the quarter ended 2026-04-26 (reported 2026-05-20), the latest quarter as of publication. Unlike the calendar-quarter convention used in this center's other reports, NVIDIA figures always use the company's official fiscal labels. Read alongside this center's Broadcom, AMD, GE Vernova and Bloom Energy reports — NVIDIA and Broadcom form the "compute side" of AI infrastructure, while GE Vernova and Bloom are the "power side"; only together can the full AI-infrastructure chain be assessed.
 
 ---
+
+> **2026-11-17 governance factual correction:** Item 5.02 of the 8-K filed November 12, 2026 states that the Board accepted Jensen Huang’s resignation as President, CEO and director effective immediately on November 11. CFO Colette Kress became interim CEO while retaining the CFO role as the Board searches for a permanent successor; Harvey C. Jones was appointed Board Chair on the same day. The attached release is dated November 12: it is the same disclosure family, not independent corroboration, and does not replace the 8-K’s November 11 effective date. The company’s expectation of uninterrupted customer commitments and product roadmap is not an operating outcome independently observed in this run. No reason for the resignation is given, and no reason or price causation is inferred. This corrects the current-tense founder-CEO statement in Section 4 without re-grading management or changing the four operating-monitoring items. Valuation retains the published July 30, 2026 historical anchor; the published stance and conviction are unchanged. [8-K Item 5.02](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm); [Ex 99.1](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvidiaannouncesceotransiti.htm)
 
 ## Executive Summary
 
@@ -138,7 +140,7 @@ Two implications:
 
 ## 4. Management & Governance
 
-Founder-CEO **Jensen Huang** has led since 1993 and is one of the most successful founder-CEOs in semiconductor history: the decade-plus of "no visible return" investment in CUDA, the early bet on the data-center pivot, and reshaping the company from a gaming-graphics vendor into an AI-infrastructure platform all validate his long-term strategic judgment and execution. Management's track record on product cadence and guidance delivery is excellent.
+Founder and former CEO **Jensen Huang** led from 1993 until 2026-11-11 and is one of the most successful founder-CEOs in semiconductor history: the decade-plus of "no visible return" investment in CUDA, the early bet on the data-center pivot, and reshaping the company from a gaming-graphics vendor into an AI-infrastructure platform all validate his long-term strategic judgment and execution. Management's track record on product cadence and guidance delivery is excellent.
 
 **Governance and points to monitor:**
 
@@ -146,7 +148,7 @@ Founder-CEO **Jensen Huang** has led since 1993 and is one of the most successfu
 - **Insider selling:** at all-time-high prices, track founder/executive routine (10b5-1) selling cadence as a sentiment/valuation reference, not a short thesis.
 - **Key-person dependence:** strategy is tightly bound to Jensen Huang — a tail consideration to include in long-term governance.
 
-**Management grade: A (outstanding execution + long-term strategic foresight); the new capital-allocation direction remains to be proven.**
+**Historical management grade from the original report: A (outstanding execution + long-term strategic foresight); this is not a grade of the interim leadership, and the new capital-allocation direction remains to be proven.**
 
 ## 5. Bull Case
 
