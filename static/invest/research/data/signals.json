@@ -4227,5 +4227,29 @@
     "monitoringRefs": [
       "almonty-2026:sangdong-ramp"
     ]
+  },
+  {
+    "id": "coreweave-q3-10q-concentration-rpo-20261112",
+    "date": "2026-11-12",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "CoreWeave Q3 10-Q：前二客户占收入 54%，RPO $132.3B；可取消合约负债重分类不等于退款",
+      "en": "CoreWeave Q3 10-Q: top-two revenue share 54%, RPO $132.3B; cancellable-contract liability reclassification is not a refund"
+    },
+    "detail": {
+      "zh": "来源（披露日 2026-11-12）：https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm. 2026-11-12 提交的 Q3 10-Q 附注 2：截至 2026-09-30 的三个月，客户 A 占收入 24%、客户 B 占 30%，其余客户均不足 10%；前两大合计 24%+30%=54%，低于原触发条件约三分之二。九个月 A/B 为 33%/26%，不得与单季混用。申报明确 A-D 标签可能代表与以前期间不同的客户，不据此把 A/B 指认为微软、OpenAI 或 NVIDIA，也不按字母追踪同一客户。按原条目合取条件，集中度腿已明确不满足，故 reading=within；这不等于证明 NVIDIA 兜底已取消，也不关闭循环融资风险或其他未知腿。 同份 10-Q 附注 2 披露 2026-09-30 未履约 RPO $132.3B，其中 36% 预计在截至 2028-09-30 的头 24 个月确认、38% 在第 25-48 个月、余量在第 49-86 个月确认；RPO 不等于公司口径 revenue backlog。季度内因合约变为可取消，期初递延收入中的 $1.9B 被重分类至其他流动负债中的客户负债；这不是已发生退款、已取消订单或已确认收入的证明。原触发条件要求的供应商兜底/单一客户订单占比仍未由这张收入集中度表或附注 14 的关联交易披露闭合，real-demand-vs-financing 维持 unclear；不能仅凭 backlog/单季收入比率收窄认定转化改善。 仅记事实，不改估值、立场或监测日期。",
+      "en": "Sources (disclosed November 12, 2026): https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm. Note 2 of the Q3 10-Q filed November 12, 2026: for the three months ended September 30, 2026 Customer A represented 24% of revenue and Customer B 30%, with every other customer below 10%; 24%+30%=54% for the top two, below the original roughly two-thirds threshold. Nine-month A/B shares are 33%/26%, not quarterly figures. The filing explicitly warns that A-D labels may represent different customers from prior periods. Do not identify A/B as Microsoft, OpenAI or NVIDIA, or track an identical customer by letter. On this item's conjunctive trigger the concentration leg is decisively not met, so reading=within; this does not establish cancellation of NVIDIA's backstop or close circular-financing risk or other unknown legs. Note 2 of the same 10-Q reports $132.3B of unsatisfied RPO at September 30, 2026: 36% expected over the initial 24 months ending September 30, 2028, 38% in months 25-48 and the balance in months 49-86. RPO is not company-defined revenue backlog. During the quarter, $1.9B of beginning-of-period deferred revenue was reclassified to customer liabilities within other current liabilities as contracts became cancellable; that is not proof of an actual refund, cancelled order or recognized revenue. The revenue-concentration table and Note 14 related-party disclosures do not resolve the share of bookings that is supplier-backstopped/single-customer required by the original trigger. real-demand-vs-financing remains unclear; a narrowing backlog-to-quarterly-revenue ratio alone does not establish improved conversion. Facts only; no valuation, stance or monitoring-date changes."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "CRWV"
+    ],
+    "reportIds": [
+      "coreweave-2026"
+    ],
+    "monitoringRefs": [
+      "coreweave-2026:revenue-quality-circularity",
+      "coreweave-2026:real-demand-vs-financing"
+    ]
   }
 ]
