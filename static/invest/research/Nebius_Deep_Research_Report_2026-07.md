@@ -1,7 +1,7 @@
 # Nebius Group (NASDAQ: NBIS) Deep Research Report
 
 Coverage date: 2026-07-01
-Last updated: 2026-10-23
+Last updated: 2026-11-17
 Ticker: NASDAQ: NBIS
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence. All prices and market caps are point-in-time snapshots; financial figures are per company disclosure unless noted otherwise.
 
@@ -10,6 +10,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 > **Background & framing note:** Nebius is an AI "neocloud" — like CoreWeave, it builds and rents NVIDIA-GPU compute to AI labs and hyperscalers. It is the Amsterdam-headquartered, NASDAQ-listed successor to the former **Yandex N.V.**, which sold its Russian businesses in 2024, kept the international AI-infrastructure engineering base and a large cash pile, and renamed itself Nebius Group. This report is **initial coverage**, and its job in this center's AI-infrastructure book is specific: it is the **cross-check ("architecture check") on [CoreWeave](/invest/research/reports/view.html?id=coreweave-2026), the layer's bear-led risk anchor.** CoreWeave asks whether the AI buildout is real demand or leverage-and-circularity. Nebius is the natural control group — a neocloud that funds the same GPU buildout with **cash, customer prepayments, convertibles and equity instead of GPU-collateralized term debt**, is **operating-cash-flow positive**, and carries a portfolio of non-cloud assets. The question this report answers is therefore not "is Nebius cheap" (it is not) but: **does CoreWeave's fragility come from the neocloud *model* — or only from CoreWeave's *balance sheet*?**
 
 ---
+
+> **2026-11-17 factual addendum (evidence dated 2026-11-12) — Nebius Q3: positive GAAP operating income, but negative operating cash flow：** The issuer's November 12, 2026 Q3 release reports continuing-operations revenue of $980.8M and operating costs and expenses of $930.4M: GAAP operating income is therefore $50.4M (derived, about 5.1% margin). Continuing-operations net loss was $37.5M and adjusted EBITDA $465.8M. Quarterly operating cash flow was -$273.0M, with $7,300.4M of cash purchases of property, equipment and intangible assets. Against the trigger of profit remaining driven by non-cash marks rather than operations turning positive, the quarterly GAAP operating line did turn positive, supporting within for this quarter; a net loss is not mark-driven profit. One quarter does not establish nine-month operating profitability, positive cash flow, self-funded capex or high-utilization ARR/backlog conversion. Other monitoring evidence dates are unchanged. This is a factual update of the named monitoring items only. Older facts below retain their original dates and do not certify all monitoring as current. Valuation retains the published 2026-07-30 historical anchor; current capital and financial denominators await Mode B. The published stance and conviction are unchanged. [Primary source](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm)
 
 ## Executive Summary
 
