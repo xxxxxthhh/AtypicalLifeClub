@@ -1,11 +1,13 @@
 # Cerebras Systems (CBRS) Deep Research Report
 
 Coverage date: 2026-10-19
-Last updated: 2026-10-19
+Last updated: 2026-11-17
 Ticker: NASDAQ: CBRS
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
+
+> **2026-11-17 factual addendum (evidence dated 2026-11-12) — Cerebras Q3: core revenue clears original floor and RPO is $26.1B; new-customer value and full-year actuals still unproven：** The November 12, 2026 release gives September 30 RPO of $26.1B, above the $24.0B floor. It names an Oracle relationship for planned service availability in 2027 and an additional top-three-hyperscaler deal without naming the counterparty or sizing attributable RPO. Total RPO or the number of new customers does not prove at least $3B of additional named non-OpenAI/non-UAE contracts. Silence on termination does not establish unchanged OpenAI commitments. The original positive and negative compound conditions remain incompletely observed, so unclear. Q3 2026 core revenue was $230.9M (non-GAAP; GAAP revenue $210.8M), $16.9M or 7.9% above the original $214M downside floor (derived). Core gross margin was 41% versus GAAP 20%; the measures are not interchangeable. FY2026 core revenue of $940-960M and Q4 core gross margin of 47-49% are guidance. Although above the favorable thresholds, the original test requires full-year and Q4 actuals and has not matured. The Q3 downside leg is not met and the future favorable leg remains unknown, so unclear, not completed on guidance. This is a factual update of the named monitoring items only. Older facts below retain their original dates and do not certify all monitoring as current. Valuation retains the published 2026-10-16 historical anchor; current capital and financial denominators await Mode B. The published stance and conviction are unchanged. [Primary source](https://www.sec.gov/Archives/edgar/data/2021728/000162828026073366/cbrsannouncesfinancialresu.htm)
 
 ## Executive summary <!-- report-module:overview -->
 
