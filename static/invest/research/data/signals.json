@@ -4396,5 +4396,28 @@
     "monitoringRefs": [
       "almonty-2026:tungsten-price"
     ]
+  },
+  {
+    "id": "neov-master-agreement-loi-identity-20261112",
+    "date": "2026-11-12",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "NeoVolta：新 $116M 主协议尚未与原 Infinite Grid LOI 具名对账",
+      "en": "NeoVolta: new $116M master agreement not identified as the original Infinite Grid LOI"
+    },
+    "detail": {
+      "zh": "2026-11-12 业绩稿称已签 $116M master purchase agreement，交付将支持 Georgia 工厂 2027 年爬坡；本稿未点名买方，亦未将新协议明确对应原 Infinite Grid 1.1GWh/$200M LOI。期间截至 2026-09-30 的 10-Q（EDGAR filingDate 为 11-13、受理时间为 11-12T22:57:56Z）的顾问协议段只称在 9 月末没有已执行或很可能执行的相关 offtake，不能把期末状态外推为 11 月仍无合同。所核两份材料未提供新协议与旧 LOI 的具名条款对账，精确转换条件仍 unclear；主协议、具体订单、交付、收入确认和回款不可互换。 https://www.sec.gov/Archives/edgar/data/1748137/000168316826008635/neovolta_i10q-093026.htm ; https://www.sec.gov/Archives/edgar/data/1748137/000168316826008619/neovolta_ex9901.htm",
+      "en": "The November 12, 2026 release says a $116M master purchase agreement was signed, with deliveries anchoring the Georgia plant’s 2027 ramp. It does not name the buyer or explicitly connect that agreement to the original Infinite Grid 1.1GWh/$200M LOI. The consulting-agreement section of the September 30 10-Q (EDGAR filingDate November 13, accepted November 12 at 22:57:56Z) only states that no related offtake had been executed or was probable at September 30; that period-end state is not a claim of no contract in November. These two inspected documents do not provide named terms reconciling the new agreement to the original LOI, so the exact conversion condition remains unclear. A master agreement, specific orders, delivery, recognized revenue and cash collection are not interchangeable. https://www.sec.gov/Archives/edgar/data/1748137/000168316826008635/neovolta_i10q-093026.htm ; https://www.sec.gov/Archives/edgar/data/1748137/000168316826008619/neovolta_ex9901.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "NEOV"
+    ],
+    "reportIds": [
+      "neov-2026"
+    ],
+    "monitoringRefs": [
+      "neov-2026:infinite-grid-conversion"
+    ]
   }
 ]
