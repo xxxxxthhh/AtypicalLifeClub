@@ -1,11 +1,15 @@
 # Almonty Industries Deep Research Report
 
 Coverage date: 2026-02-19
-Last updated: 2026-08-18
+Last updated: 2026-11-17
 Ticker: NASDAQ: ALM / TSX: AII
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
+
+> **2026-11-17 factual addendum (evidence dated 2026-11-12) — Almonty MD&A: November APT quote below September-end; neither continued-rise nor a valuation reset is established：** The November 12, 2026 Q3 MD&A cites European APT market quotations of US$2,800/MTU at September-end and approximately US$2,650/MTU on November 6, a derived end-point decline of about 5.4%. It also describes a year-to-date rise from US$862.5 in early January; that does not imply no decline since September. The release's Q3 average of US$2,800 is not compared with a single-day November quote. This supersedes the current meaning of the old "quotation rose, therefore within" assessment: the end-point decline is evidenced, but whether it undermines the historical valuation premise lacks a current project-economics/valuation bridge, so unclear against the complete original condition. These are third-party MB market readings quoted by the issuer, not Almonty's realized price. No valuation or stance is changed, and the separate US$400 downgrade threshold is not claimed met. This is a factual update of the named monitoring items only. Older facts below retain their original dates and do not certify all monitoring as current. Valuation retains the published 2026-08-17 historical anchor; current capital and financial denominators await Mode B. The published stance and conviction are unchanged. [Primary source](https://www.sec.gov/Archives/edgar/data/1670061/000149315226051508/ex99-3.htm)
+
+> **2026-11-17 operating-fact update (evidence dated 2026-11-12):** The issuer's November 12, 2026 Q3 release discloses first Sangdong tungsten concentrate in September 2026 and loading of the first container at Busan after quarter-end for shipment to an overseas customer. Loading does not establish delivery, recognized revenue or cash collection. The project section of the same-date MD&A still describes the processing plant as in commissioning and ramp-up during Q4 2026; Phase II could be completed in 2027 subject to Phase I performance and market conditions. Against the original trigger of missing the mine ramp plan, first concentrate and loading do not establish on-plan attainment. The inspected project sections provide no comparable quarterly ramp plan, absolute output or unit cash cost, so sangdong-ramp remains unclear. This update records operating milestones only and does not roll the historical valuation anchor forward. Valuation retains the published August 2026 historical basis; current share count, cash/debt and financial denominators await Mode B reconstruction. The published stance and conviction are unchanged. Apart from the separately recorded tungsten-price update, other monitoring items retain their own evidence dates and are not certified as current Q3 readings. [Issuer release](https://almonty.com/third-quarter-2026-financial-results/); [MD&A, project section](https://www.sec.gov/Archives/edgar/data/1670061/000149315226051508/ex99-3.htm)
 
 ## 2026H1 Full Rerun Summary
 
@@ -261,7 +265,7 @@ Valuation is expectation calibration, not a target price or recommendation. ALM 
 
 **Key monitoring metrics:** Sangdong production, cash cost, and commercial revenue; tungsten/APT prices and Chinese export policy; convertible terms and share count; Plansee/GTP offtake execution, customer payments, and inventory.
 
-**2026-08-17 monitoring readings**, each graded strictly against its own published trigger:
+**Historical 2026-08-17 monitoring readings (Sangdong and tungsten-price superseded by the 2026-11-12 evidence above; other items not updated)**, each graded strictly against its own published trigger:
 
 | Item | Reading | As of | Basis |
 |------|---------|-------|-------|
