@@ -1,12 +1,14 @@
 # AXT Inc. (AXTI) Deep Research Report
 
 Coverage date: 2026-09-25
-Last updated: 2026-11-02
+Last updated: 2026-11-17
 Ticker: NASDAQ: AXTI
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 Valuation basis (updated 2026-11-02): Reported period: Q3 2026 earnings release (quarter ended 2026-09-30; 8-K furnished 2026-10-29); balance-sheet detail, geographic revenue and contract liabilities still cite the Q2 2026 Form 10-Q wherever marked (the Q3 10-Q had not been filed as of 2026-11-02); FY2025 Form 10-K. Price anchor: $55.06 close on 2026-10-30; stance: neutral-watch / low conviction. Financial data is taken from AXT's SEC filings and earnings releases unless stated otherwise. AXT's earnings releases contain **no guidance**; every forward figure (Q4 revenue of about $90M, the EPS range, capacity multiples, indium phosphide revenue by quarter) comes from the earnings calls and is labelled "(call)" — the transcripts are third-party (Motley Fool), not company-hosted. ~~Reported period: Q2 2026 Form 10-Q (quarter ended 2026-06-30) and FY2025 Form 10-K; price anchor: $72.98 close on 2026-09-23; stance: cautious / medium conviction. Financial data is taken from AXT's SEC filings and earnings releases unless stated otherwise. AXT's Q2 2026 earnings release contains **no guidance**; every forward figure (the Q3 revenue floor, EPS range, capacity targets, indium phosphide revenue by quarter) comes from the earnings calls and is labelled "(call)" — the transcripts are third-party (Motley Fool), not company-hosted.~~
 
 ---
+
+> **2026-11-17 factual addendum (evidence dated 2026-11-12) — AXT Q3 10-Q: contract liabilities and refund conditions; refundable does not mean refunded：** The Q3 10-Q filed November 12, 2026, Note 15, reports September 30 current contract liabilities of $82.512M plus non-current $25.707M = $108.219M (recomputed, matching the table; $0.103M at year-end 2025). The listed long-term agreements have approximately $293.5M of RPO, with $15.5M expected in the remainder of 2026, $196.4M in 2027 and $81.6M thereafter, summing to $293.5M; contractual advances total about $179.5M, with about $92.4M received. Advances and total contract liabilities are not reconciled in scope and are not forced equal or assigned to a named customer. Unused advances may be refundable under contractual conditions, not proof of an actual refund or termination. This section does not give customer-specific performance/refund status for Coherent/Lumentum; that original leg remains unknown, so unclear. This is a factual update of the named monitoring items only. Older facts below retain their original dates and do not certify all monitoring as current. Valuation retains the published 2026-10-30 historical anchor; current capital and financial denominators await Mode B. The published stance and conviction are unchanged. [Primary source](https://www.sec.gov/Archives/edgar/data/1051627/000143774926036542/axti20261101_10q.htm)
 
 ## Executive Summary <!-- report-module:overview -->
 
