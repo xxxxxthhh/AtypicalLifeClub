@@ -4204,5 +4204,28 @@
       "coreweave-2026:solvency-gpu-life-stress",
       "coreweave-2026:self-build-pricing-crack"
     ]
+  },
+  {
+    "id": "almonty-sangdong-first-concentrate-container-loading-20261112",
+    "date": "2026-11-12",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Almonty：Sangdong 首批精矿及季后装载；MD&A 仍称 Q4 试车爬坡",
+      "en": "Almonty: first Sangdong concentrate and subsequent loading; MD&A still describes Q4 commissioning/ramp"
+    },
+    "detail": {
+      "zh": "来源（披露日 2026-11-12）：https://almonty.com/third-quarter-2026-financial-results/ ; https://www.sec.gov/Archives/edgar/data/1670061/000149315226051508/ex99-3.htm. 2026-11-12 发行人三季度业绩稿披露，Sangdong 于 2026 年 9 月产出首批钨精矿；季后首个精矿集装箱在釜山港装载、拟运往海外客户。装载不等于已交付、已确认收入或已回款。同日 MD&A 的项目章节仍称选矿厂在 2026 年四季度处于试车与爬坡，二期在一期运行及市场条件允许下可能于 2027 年完成。对照“矿山未按计划放量”原触发条件，首批产出和装载尚不能证明按计划达产，所核项目段没有可比季度爬坡计划、绝对产量或单位现金成本，sangdong-ramp 维持 unclear。 仅记事实，不改估值、立场或监测日期。",
+      "en": "Sources (disclosed November 12, 2026): https://almonty.com/third-quarter-2026-financial-results/ ; https://www.sec.gov/Archives/edgar/data/1670061/000149315226051508/ex99-3.htm. The issuer's November 12, 2026 Q3 release discloses first Sangdong tungsten concentrate in September 2026 and loading of the first container at Busan after quarter-end for shipment to an overseas customer. Loading does not establish delivery, recognized revenue or cash collection. The project section of the same-date MD&A still describes the processing plant as in commissioning and ramp-up during Q4 2026; Phase II could be completed in 2027 subject to Phase I performance and market conditions. Against the original trigger of missing the mine ramp plan, first concentrate and loading do not establish on-plan attainment. The inspected project sections provide no comparable quarterly ramp plan, absolute output or unit cash cost, so sangdong-ramp remains unclear. Facts only; no valuation, stance or monitoring-date changes."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "ALM"
+    ],
+    "reportIds": [
+      "almonty-2026"
+    ],
+    "monitoringRefs": [
+      "almonty-2026:sangdong-ramp"
+    ]
   }
 ]
