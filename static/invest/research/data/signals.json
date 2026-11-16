@@ -4350,5 +4350,28 @@
       "cerebras-2026:rpo-and-openai",
       "cerebras-2026:core-revenue-margin"
     ]
+  },
+  {
+    "id": "axt-q3-2026-contract-liabilities-20261112",
+    "date": "2026-11-12",
+    "title": {
+      "zh": "AXT Q3 10-Q：合同负债与退款条件披露，不把可退款当实际退款",
+      "en": "AXT Q3 10-Q: contract liabilities and refund conditions; refundable does not mean refunded"
+    },
+    "detail": {
+      "zh": "2026-11-12 Q3 10-Q Note 15：2026-09-30 合同负债流动 $82.512M＋非流动 $25.707M＝$108.219M（自算，与表内合计一致；2025 年末 $0.103M）。所列长期协议 RPO 约 $293.5M，预计 2026 剩余期间确认 $15.5M、2027 年 $196.4M、以后 $81.6M，三项合计 $293.5M；合约预付款约 $179.5M，已收约 $92.4M。预付款与全部合同负债范围未对账，不强行相等或指认为某一客户。未用完预付款在协议规定条件下可退，不是已退款/终止证据；该节未给出 Coherent/Lumentum 分户履约及退款状态，原退款/终止腿仍未知，维持 unclear。 来源：https://www.sec.gov/Archives/edgar/data/1051627/000143774926036542/axti20261101_10q.htm",
+      "en": "The Q3 10-Q filed November 12, 2026, Note 15, reports September 30 current contract liabilities of $82.512M plus non-current $25.707M = $108.219M (recomputed, matching the table; $0.103M at year-end 2025). The listed long-term agreements have approximately $293.5M of RPO, with $15.5M expected in the remainder of 2026, $196.4M in 2027 and $81.6M thereafter, summing to $293.5M; contractual advances total about $179.5M, with about $92.4M received. Advances and total contract liabilities are not reconciled in scope and are not forced equal or assigned to a named customer. Unused advances may be refundable under contractual conditions, not proof of an actual refund or termination. This section does not give customer-specific performance/refund status for Coherent/Lumentum; that original leg remains unknown, so unclear. Source: https://www.sec.gov/Archives/edgar/data/1051627/000143774926036542/axti20261101_10q.htm"
+    },
+    "scope": "report-monitoring",
+    "crossChecks": [],
+    "tickers": [
+      "AXTI"
+    ],
+    "reportIds": [
+      "axti-2026"
+    ],
+    "monitoringRefs": [
+      "axti-2026:customer-prepayments"
+    ]
   }
 ]
