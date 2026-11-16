@@ -4419,5 +4419,29 @@
     "monitoringRefs": [
       "neov-2026:infinite-grid-conversion"
     ]
+  },
+  {
+    "id": "tsmc-q3-2026-statutory-node-revenue-20261113",
+    "date": "2026-11-13",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "TSMC Q3 正式节点收入表：晶圆口径先进节点约 78.70%，不等于排产或良率确认",
+      "en": "TSMC Q3 statutory node revenue: about 78.70% advanced-node wafer mix, not schedule or yield confirmation"
+    },
+    "detail": {
+      "zh": "main 已有 2026-10-15 的 Q3 摘要信号；本项补录 11-13 正式附表金额，并校正报告元数据仍停留 Q2 的监测背景，不是又一次 Q3 需求增长事件。 2026-11-13 Form 6-K 所附 Q3 合并财务报告的 Resolution 表：Q3 2nm/3nm/5nm/7nm 晶圆收入分别为 NT$103,129,543/396,618,245/337,110,388/123,141,757 千元，晶圆收入分母 NT$1,219,768,395 千元。由此自算占比约 8.45%/32.52%/27.64%/10.10%，7nm 及以下合计约 78.70%。这不是产能利用率、HPC 占比或 GPU/ASIC 客户收入；不能与总收入 NT$1,494,243,284 千元混作分母。节点占比本身不完成原条件的月度收入/全年轨迹比较，advanced-node-utilization 仍 unclear。 同份 Q3 正式附表已给出 N2/N3 的收入金额，以上述晶圆收入为分母分别约 8.45%/32.52%（自算）；这取代 Q2 2nm 3%/3nm 30% 作为新期节点收入背景，但没有给出可逐客户核对的排产计划、良率或新节点折旧拖累。原 trigger 是客户排产偏离或折旧/良率超预期，不是节点收入份额上升；仅凭份额不能证明这些腿都未触发，故 n3-n2-ramp 从旧 within 改 unclear，不解释为已确认生产受挫。 https://www.sec.gov/Archives/edgar/data/1046179/000104617926000801/a2026q3consolidatedreport-.htm",
+      "en": "Main already contains the October 15, 2026 Q3 summary signal. This unit reconciles the November 13 statutory amounts and updates monitoring metadata still on Q2; it is not another Q3 demand-growth event. The Resolution table in the Q3 consolidated financial report furnished on Form 6-K November 13, 2026 gives Q3 wafer revenue of NT$103,129,543/396,618,245/337,110,388/123,141,757 thousand for 2nm/3nm/5nm/7nm, on NT$1,219,768,395 thousand of wafer revenue. Derived shares are about 8.45%/32.52%/27.64%/10.10%, or 78.70% at 7nm and below. These are not capacity utilization, HPC share or GPU/ASIC customer revenue; total revenue of NT$1,494,243,284 thousand is not the denominator. Mix alone does not complete the original monthly-revenue/full-year-trajectory test, so advanced-node-utilization remains unclear. The same Q3 statutory table supplies N2/N3 revenue amounts, deriving to about 8.45%/32.52% of wafer revenue. This supersedes Q2’s 3%/30% as new-period node-revenue context, but does not provide customer-by-customer schedules, yield or new-node depreciation drag. The original trigger is schedule slippage or worse-than-expected depreciation/yield, not rising revenue mix; mix cannot establish that every adverse leg is absent, so n3-n2-ramp changes from the old within to unclear, not a finding of a production setback. https://www.sec.gov/Archives/edgar/data/1046179/000104617926000801/a2026q3consolidatedreport-.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "TSM"
+    ],
+    "reportIds": [
+      "tsmc-2026"
+    ],
+    "monitoringRefs": [
+      "tsmc-2026:advanced-node-utilization",
+      "tsmc-2026:n3-n2-ramp"
+    ]
   }
 ]
