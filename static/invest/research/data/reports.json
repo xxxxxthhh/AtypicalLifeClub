@@ -437,7 +437,7 @@
     ],
     "category": "tech",
     "date": "2026-07-05",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-11-18",
     "file": "/invest/research/reports/view.html?id=asml-2026",
     "markdownFiles": {
       "zh": "/invest/research/ASML_深度研究报告_2026-07.md",
@@ -499,7 +499,7 @@
       }
     ],
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "2026Q2 / Q4 2025 bookings",
+    "reportedPeriod": "Q3 2026",
     "related": [
       "tsmc-2026",
       "micron-2026",
@@ -522,13 +522,14 @@
           "en": "EUV bookings stay strong and support 2026+ customer long-term agreements"
         },
         "latest": {
-          "zh": "Q2 2026（2026-07-15）：管理层称上半年订单流强劲，并计划把 2027 年 low-NA EUV（2026 年约 65 套）与 DUV immersion（约 130 套）产能各增加 30%，同时研究 2028 年再各增 30%；本次未披露季度 net bookings",
-          "en": "Q2 2026 (2026-07-15): management said H1 order intake was strong and plans to add 30% to 2027 low-NA EUV capacity (about 65 systems in 2026) and DUV immersion capacity (about 130), while investigating another 30% for each in 2028; quarterly net bookings were not disclosed"
+          "zh": "Q3 2026（2026-10-14）：管理层称本年订单簿势头逐季增强，部分客户有意下 2029–2030 年订单；现有计划供给预计不足以满足 2027–2028 年需求，正在研究追加 2028 年扩产。该业绩稿未披露季度 EUV bookings 或客户长期协议执行量。",
+          "en": "Q3 2026 (2026-10-14): management described improving order-book momentum and customer interest in placing 2029–2030 orders. Planned supply is expected to fall short of 2027–2028 demand and further 2028 capacity is under investigation. This release provides no quarterly EUV bookings or execution volumes under customer long-term agreements."
         },
         "nextCheck": "Q3 2026 shipments and customer-capacity commentary",
         "nextCheckDate": "2026-10",
-        "reading": "within",
-        "readingAsOf": "2026-07-15"
+        "reading": "unclear",
+        "readingAsOf": "2026-10-14",
+        "readingNote": "整体订单簿定性进展不能单独认证 EUV bookings 或长期协议，意向与研究扩产不是订单／承诺产能；原触发器尚有未知腿。 / Aggregate order-book commentary alone does not verify EUV bookings or long-term agreements; interest and investigated capacity are not orders or committed capacity. The original trigger retains unknown legs."
       },
       {
         "id": "backlog-conversion",
@@ -543,13 +544,14 @@
           "en": "EUR 38.797B backlog converts into 2026-2027 revenue without cancellations or delays"
         },
         "latest": {
-          "zh": "Q2 2026 net sales EUR 9.326B、gross margin 54.0%；FY2026 指引第二次上调至 net sales EUR 43-45B、gross margin 54-56%，但本次未披露 backlog，无法直接验证取消或延期状态",
-          "en": "Q2 2026 net sales were EUR 9.326B at 54.0% gross margin; FY2026 guidance was raised for the second time to EUR 43-45B net sales at 54-56% gross margin, but backlog was not disclosed, so cancellation or delay status cannot be directly verified"
+          "zh": "发行人 2026-10-14 Q3 业绩：净销售 EUR 11.662B、毛利率 57.5%；订单簿势头为定性描述。本稿未给 backlog 金额、原 EUR 38.797B backlog 的逐项转化或取消／延期对账，不能用收入增长代替原触发器验证。",
+          "en": "The issuer’s 2026-10-14 Q3 release reports EUR 11.662B net sales and a 57.5% gross margin, with qualitative order-book commentary. It gives no backlog amount, conversion schedule or cancellation/delay reconciliation for the original EUR 38.797B backlog; revenue growth cannot substitute for that trigger’s evidence."
         },
         "nextCheck": "Q3 2026 revenue and any backlog-conversion disclosure",
         "nextCheckDate": "2026-10",
         "reading": "unclear",
-        "readingAsOf": "2026-07-15"
+        "readingAsOf": "2026-10-14",
+        "readingNote": "收入实绩已核，但原 backlog 转收入且无取消／延期仍未核实，保持 unclear。 / Revenue is verified, but conversion of the original backlog without cancellations or delays is not; retain unclear."
       },
       {
         "id": "export-control-china",
@@ -583,11 +585,14 @@
           "en": "service revenue keeps growing and cushions system-order cyclicality"
         },
         "latest": {
-          "zh": "Q2 2026 installed-base management sales EUR 2.762B（Q1 为 EUR 2.488B）",
-          "en": "Q2 2026 installed-base management sales were EUR 2.762B (Q1 was EUR 2.488B)"
+          "zh": "Q3 2026（2026-10-14）：Installed Base Management 销售 EUR 3.289B（Q2 EUR 2.762B），环比约 +19.1%；公司定义为净服务及现场选件销售，并称生产率升级需求强。服务增长已核；对系统订单周期的缓冲未量化核实。",
+          "en": "Q3 2026 (2026-10-14): Installed Base Management sales were EUR 3.289B (Q2 EUR 2.762B), up about 19.1% sequentially. The issuer defines this as net service and field option sales and cited strong productivity-upgrade demand. Growth is verified; cushioning of system-order cyclicality has not been quantified."
         },
         "nextCheck": "Q3 2026 installed-base service growth",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "readingNote": "只证服务销售增长；原 trigger 还要求缓冲系统订单周期，本稿无季度订单序列可单独认证该腿，评 unclear。 / Service-sales growth is verified, but the original trigger also requires cushioning system-order cyclicality; no quarterly order series in this release independently verifies that leg, so unclear.",
+        "reading": "unclear",
+        "readingAsOf": "2026-10-14"
       },
       {
         "id": "valuation-backlog-quality",
