@@ -3,6 +3,32 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "asml-2026",
+      "signalId": "asml-q3-2026-service-sales-order-book-monitoring-20261014",
+      "type": "facts",
+      "evidenceDate": "2026-10-14",
+      "title": {
+        "en": "ASML Q3 service sales reach EUR 3.289B; composite evidence gaps retained",
+        "zh": "ASML Q3 服务销售增至 EUR 3.289B，复合监测缺口保留"
+      },
+      "change": {
+        "en": "Q3 net sales were EUR 11.662B with 57.5% gross margin; net service and field option sales reached EUR 3.289B, up about 19.1% from EUR 2.762B in Q2.",
+        "zh": "Q3 净销售 EUR 11.662B、毛利率 57.5%；服务与现场选件销售 EUR 3.289B，较 Q2 EUR 2.762B 增约 19.1%。"
+      },
+      "meaning": {
+        "en": "Qualitative order-book progress and service growth do not verify EUV bookings, customer agreements, cancellation-free original-backlog conversion or cycle cushioning. All three original monitors remain unclear; the valuation basis is retained.",
+        "zh": "定性订单簿进展和服务增长不认证 EUV bookings、客户协议、原 backlog 无取消／延期或周期缓冲；三个原监测均为 unclear，估值基础保持。"
+      },
+      "next": {
+        "en": "Seek primary evidence on EUV orders and agreement execution, backlog conversion and cancellations/delays, service-cycle cushioning and export controls; retain the existing monitoring dates.",
+        "zh": "后续需 EUV 订单与协议执行量、backlog 转化和取消／延期对账、服务缓冲订单周期及出口管制的一手证据；不滚动旧监测日期。"
+      },
+      "id": "research-d2cc9f4a273ac467e715bbb428d554c6ca257c7af74063f4503843eb25d78607",
+      "publishedDate": "2026-11-18",
+      "company": "ASML Holding",
+      "ticker": "ASML"
+    },
+    {
       "reportId": "almonty-2026",
       "signalId": "almonty-apt-quotation-cooling-20261112",
       "type": "facts",
