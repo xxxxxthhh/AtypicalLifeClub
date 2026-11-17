@@ -1,13 +1,15 @@
 # ASML Deep Research Report - EUV / High-NA as the Equipment-Layer Common Constraint
 
 Coverage date: 2026-07-05
-Last updated: 2026-07-31
+Last updated: 2026-11-18
 Ticker: NASDAQ: ASML / Euronext Amsterdam: ASML
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
 ## Executive Summary <!-- report-module:overview -->
+
+> **2026-11-18 factual monitoring update; evidence dated 2026-10-14**: On 2026-11-18, the issuer’s unaudited Q3 release dated 2026-10-14 was independently checked: net sales were EUR 11.662B and gross margin 57.5%. Installed Base Management sales were EUR 3.289B versus EUR 2.762B in Q2, up about 19.1% sequentially; the measure is net service and field option sales. Management described improving order-book momentum and customer interest in 2029–2030 orders; interest is not placed orders. This release gives neither quarterly EUV bookings nor a backlog amount or cancellation/delay reconciliation for the original backlog. The original order, backlog-conversion and service-cycle triggers remain unclear; qualitative progress does not verify every leg. Source: [ASML Q3 release, SEC Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/pressreleasefinancialresul.htm). Valuation remains anchored to the historical 2026-07-30 price basis and its prior denominators; subsequent actuals and guidance await Mode B for valuation use. The published stance and conviction are unchanged. Earlier dated passages retain their historical context.
 
 > **Framework role:** ASML Holding is the common constraint for the AI-infrastructure semiconductor equipment layer. The report's job is to test the chain signal, not to turn one company print into a recommendation.
 
@@ -25,7 +27,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 | --- | --- |
 | Report id | asml-2026 |
 | Chain layer / role | semicap-equipment / common-constraint |
-| Latest reported period | 2026Q2 / Q4 2025 bookings |
+| Latest reported period | Q3 2026; Q4 2025 bookings remain a historical baseline |
 | Price snapshot | $1,651.44 as of 2026-07-30 |
 | Coverage tier after this upgrade | full |
 | Stance | neutral watch / medium conviction |
@@ -143,10 +145,10 @@ Valuation is used as risk context, not as a recommendation. The v5 question is w
 
 | Monitor | Latest reading | Trigger | Next check |
 | --- | --- | --- | --- |
-| EUV / High-NA order cadence | H1 order intake was strong; ASML plans 30% more 2027 low-NA EUV and DUV immersion capacity, but did not disclose quarterly net bookings | EUV bookings stay strong and support 2026+ customer long-term agreements | Q3 2026 shipments and customer-capacity commentary |
-| Backlog-to-revenue conversion | Q2 net sales were EUR 9.326B at 54.0% gross margin; FY2026 guidance is EUR 43-45B / 54-56%, but backlog was not disclosed | EUR 38.797B backlog converts into 2026-2027 revenue without cancellations or delays | Q3 2026 revenue and any backlog-conversion disclosure |
+| EUV / High-NA order cadence | Q3: improving aggregate order-book momentum and interest in 2029–2030 orders; quarterly EUV bookings and agreement execution remain unverified (unclear) | EUV bookings stay strong and support 2026+ customer long-term agreements | Q3 2026 shipments and customer-capacity commentary |
+| Backlog-to-revenue conversion | Q3 net sales EUR 11.662B, gross margin 57.5%; original backlog conversion and cancellation/delay reconciliation remain unverified (unclear) | EUR 38.797B backlog converts into 2026-2027 revenue without cancellations or delays | Q3 2026 revenue and any backlog-conversion disclosure |
 | Export controls and China shippable market | FY2026 guidance range incorporates possible export-control discussion outcomes | tighter export controls reduce system shipments, service access, or customer plans | export-control and geography disclosures |
-| Installed-base management sales | Q2 Installed Base Management sales were EUR 2.762B (EUR 2.488B in Q1) | service revenue keeps growing and cushions system-order cyclicality | Q3 2026 installed-base service growth |
+| Installed-base management sales | Q3 EUR 3.289B versus Q2 EUR 2.762B (+19.1%); net service and field option sales, with strong productivity-upgrade demand; cycle cushioning unverified (unclear) | service revenue keeps growing and cushions system-order cyclicality | Q3 2026 installed-base service growth |
 | Valuation and backlog quality | $1,651.44 ADR, about $636.5B market cap, about 14.6x EV/2026E sales | around 14.6x 2026E sales still leaves valuation exposed to order or margin misses | price, backlog and margin reset |
 
 These are the items that should drive future reruns. A monitoring update should change the report only when it changes the chain read-through or the valuation tolerance.
@@ -179,3 +181,5 @@ Upgrade trigger: move to constructive if Q2 2026 orders and customer-capacity co
 - This 2026-07-06 depth upgrade preserves the existing vetted fact base and expands structure, tables, peer comparison, scenario levels, and monitoring parity.
 - The v5 scenario grid and priced-in paragraph use the same July 2, 2026 market snapshot as the price ledger. The assumption ranges calibrate embedded expectations; they are not target prices.
 - The 2026-07-15 update records only Q2 facts and monitoring readings; the July 2, 2026 valuation snapshot above was not recomputed and should not be read as a current July 15 valuation.
+
+- ASML Q3 2026 issuer release, dated 2026-10-14: [SEC Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/pressreleasefinancialresul.htm). Service growth is calculated as (3,289 / 2,762 − 1) × 100 = 19.0804%, rounded to 19.1%.
