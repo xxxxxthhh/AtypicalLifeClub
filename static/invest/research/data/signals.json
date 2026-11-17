@@ -4443,5 +4443,30 @@
       "tsmc-2026:advanced-node-utilization",
       "tsmc-2026:n3-n2-ramp"
     ]
+  },
+  {
+    "id": "asml-q3-2026-service-sales-order-book-monitoring-20261014",
+    "date": "2026-10-14",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "ASML Q3 服务销售增至 EUR 3.289B，复合监测缺口保留",
+      "en": "ASML Q3 service sales reach EUR 3.289B; composite evidence gaps retained"
+    },
+    "detail": {
+      "zh": "ASML 2026-10-14 Q3 业绩稿（Form 6-K 附件 99.1，https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/pressreleasefinancialresul.htm）：Q3 净销售 EUR 11.662B、毛利率 57.5%；Installed Base Management 销售（公司定义为净服务与现场选件销售）EUR 3.289B，Q2 为 EUR 2.762B，自算 (3,289/2,762−1)×100≈19.1%。管理层称订单簿势头本年逐季增强，部分客户有意下 2029–2030 年订单；意向不是已下订单。该稿未披露季度 EUV bookings、客户长期协议执行量，也未给出 backlog 金额或原 EUR 38.797B backlog 的取消／延期对账。因此 euv-high-na-orders 由 within 改为 unclear，backlog-conversion 保持 unclear，installed-base-services 记为 unclear：服务销售增长已核，但对系统订单周期的缓冲腿未核。本条只记录事实读数，不改变估值输入、已发布的立场和确信度；出口管制监测项本稿未作核对，保持原状。",
+      "en": "ASML's 2026-10-14 Q3 release (Form 6-K Exhibit 99.1, https://www.sec.gov/Archives/edgar/data/937966/000162828026065813/pressreleasefinancialresul.htm) reports net sales of EUR 11.662B and a 57.5% gross margin. Installed Base Management sales, which the company defines as net service and field option sales, were EUR 3.289B versus EUR 2.762B in Q2, about 19.1% higher by our calculation, (3,289/2,762−1)×100. Management said order-book momentum has increased quarter on quarter this year and that some customers are interested in placing orders for 2029–2030; interest is not placed orders. The release gives neither quarterly EUV bookings, execution volumes under customer long-term agreements, a backlog amount, nor a cancellation/delay reconciliation of the original EUR 38.797B backlog. euv-high-na-orders therefore moves from within to unclear, backlog-conversion stays unclear, and installed-base-services is recorded as unclear: service-sales growth is verified but the leg on cushioning the system-order cycle is not. This entry records factual readings only and changes neither the valuation inputs nor the published stance and conviction; the export-control monitor is not addressed by this release and is left unchanged."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "ASML"
+    ],
+    "reportIds": [
+      "asml-2026"
+    ],
+    "monitoringRefs": [
+      "asml-2026:euv-high-na-orders",
+      "asml-2026:backlog-conversion",
+      "asml-2026:installed-base-services"
+    ]
   }
 ]
