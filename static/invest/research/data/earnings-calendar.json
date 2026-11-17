@@ -760,7 +760,7 @@
         "expectedDate": "2026-11-12",
         "localTime": "08:30",
         "precision": "day",
-        "status": "issuer-confirmed",
+        "status": "stale",
         "sourceUrl": "https://ir.ondas.com/press-releases/detail/336/ondas-to-report-third-quarter-2026-financial-results-on",
         "sourceType": "issuer-ir",
         "verifiedAt": "2026-11-03"
