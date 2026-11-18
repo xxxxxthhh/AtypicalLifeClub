@@ -11276,7 +11276,7 @@
     ],
     "category": "tech",
     "date": "2026-07-31",
-    "lastUpdate": "2026-10-31",
+    "lastUpdate": "2026-11-18",
     "file": "/invest/research/reports/view.html?id=kioxia-2026",
     "markdownFiles": {
       "zh": "/invest/research/Kioxia_深度研究报告_2026-07.md",
@@ -11412,13 +11412,14 @@
           "en": "Buyback execution lagging far below the ceiling or a still-absent dividend policy weakens the capital-return case; enlargement after reaching net cash strengthens it"
         },
         "latest": {
-          "zh": "2026-09-29补录8月10日发行人公告：8月3–10日已回购16,133,500股、支付¥799,997,689,000，并宣布完成该计划。现金上限完成99.9997%，股数上限53.7783%；未证明注销或新增分红。回购后现金及股数待Q2披露。",
-          "en": "Recorded 2026-09-29 from the August 10 issuer notice: 16,133,500 shares purchased August 3–10 for ¥799,997,689,000; the program was completed. Cash-ceiling usage 99.9997%, share-ceiling usage 53.7783%; no inference of cancellation or a new dividend. Post-buyback cash and shares await Q2 disclosure."
+          "en": "Kioxia Holdings’ November 6 semiannual securities report, covering the six months ended September 30, discloses a board-approved interim dividend of ¥47.937 billion. The board resolved on October 30 to pay ¥90 per share on the pre-split basis, equivalent to ¥30 per share after the October 1 three-for-one split. September 30 is the record date and December 8 is the effective date. The filing also confirms 16,133,500 pre-split treasury shares acquired for ¥799.998 billion against the ¥800 billion cash ceiling. The disclosure establishes one interim distribution, while payment, future dividend policy and any buyback expansion remain to be verified.",
+          "zh": "铠侠控股 11 月 6 日提交的半年度证券报告（截至 9 月 30 日的六个月）披露，董事会于 10 月 30 日决议派发中期股息，合计 479.37 亿日元，拆股前每股 90 日元，按 10 月 1 日一股拆为三股换算为拆股后每股 30 日元。股权登记日为 9 月 30 日，股息生效日为 12 月 8 日。报告同时确认按拆股前口径回购 16,133,500 股，金额 7,999.98 亿日元，接近 8,000 亿日元的现金上限。该披露确认一次中期分配，实际付款、后续分红政策与回购是否加码仍待核实。"
         },
         "nextCheck": "Q2 FY2026 disclosure (~Nov 2026)",
         "nextCheckDate": "2026-11",
         "reading": "unclear",
-        "readingAsOf": "2026-08-10"
+        "readingAsOf": "2026-11-06",
+        "readingNote": "现金回购上限几乎用足，已批准一次中期股息。持续分红政策与回购加码仍未证实。 / Nearly all the buyback cash ceiling was used and one interim dividend was approved. Ongoing dividend policy and additional repurchases remain unverified."
       },
       {
         "id": "nand-supply-gap",
