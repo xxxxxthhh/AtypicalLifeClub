@@ -4448,5 +4448,29 @@
       "tsmc-2026:advanced-node-utilization",
       "tsmc-2026:n3-n2-ramp"
     ]
+  },
+  {
+    "id": "nvidia-q3-fy2027-results-20261117",
+    "date": "2026-11-17",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "NVIDIA Q3 FY2027 数据中心营收环比增长 21%",
+      "en": "NVIDIA Q3 FY2027 Data Center revenue grew 21% sequentially"
+    },
+    "detail": {
+      "zh": "NVIDIA 于 2026-11-17 公布截至 2026-10-25 的 Q3 FY2027 业绩。总营收 $115.844B，环比 +20%、同比 +103%，高于上季 $108.0B±2% 指引上限 $110.16B。Data Center 营收 $107.6B，环比 +21%、同比 +110%。GAAP／非 GAAP 毛利率为 74.8%／74.9%，摊薄每股收益 $2.70／$2.68。包含额外一周的 Q4 FY2027 指引为营收 $130.0B±3%，两种口径毛利率均为 71.0%–72.0%，并假设中国 Data Center compute 收入为零。 Q3 FY2027（截至 2026-10-25）Data Center 营收 $107.6B，环比 +21%、同比 +110%。总营收 $115.844B 高于 $108.0B±2% 上限 $110.16B。环比失速分句不成立。买方资本开支指引需逐家查证，NVIDIA 的业绩稿无法完成这一分句的核对，复合读数仍为 unclear。 Q3 FY2027 CFO Commentary 披露当季向中国出货的 Data Center Hopper 产品金额为 $2.4B，Q4 指引仍假设中国 Data Center compute 收入为零。披露给出了一个季度的特定产品出货金额。政策是否进一步收紧、收入能否持续恢复仍需后续可比披露，维持 unclear。 https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027 https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm",
+      "en": "NVIDIA reported Q3 FY2027, ended October 25, 2026, on November 17, 2026. Revenue of $115.844B rose 20% sequentially and 103% year over year, above the $110.16B upper end of the prior $108.0B plus or minus 2% guide. Data Center revenue of $107.6B rose 21% sequentially and 110% year over year. GAAP and non-GAAP gross margins were 74.8% and 74.9%, and diluted EPS was $2.70 and $2.68. Q4 FY2027 includes an additional week. NVIDIA guides to $130.0B of revenue plus or minus 3%, GAAP and non-GAAP gross margins of 71.0%–72.0%, and assumes zero Data Center compute revenue from China. Q3 FY2027 Data Center revenue was $107.6B, up 21% sequentially and 110% year over year. Total revenue of $115.844B exceeded the $110.16B upper end of the prior $108.0B plus or minus 2% guide. The sequential-stall clause is not met. Buyer capex guidance requires separate issuer evidence, and the overall reading remains unclear. The Q3 FY2027 CFO Commentary reports $2.4B in quarterly shipments of Data Center Hopper products to China. The Q4 outlook assumes zero Data Center compute revenue from China. The disclosed figure covers one quarter and one product family. Further tightening and the durability of revenue recovery remain unresolved, so the overall reading stays unclear. https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027 https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "NVDA"
+    ],
+    "reportIds": [
+      "nvidia-2026"
+    ],
+    "monitoringRefs": [
+      "nvidia-2026:ai-capex-durability",
+      "nvidia-2026:china-structural-loss"
+    ]
   }
 ]
