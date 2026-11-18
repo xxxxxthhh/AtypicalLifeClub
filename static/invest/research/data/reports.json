@@ -13582,7 +13582,7 @@
       "IPO"
     ],
     "date": "2026-10-19",
-    "lastUpdate": "2026-11-17",
+    "lastUpdate": "2026-11-18",
     "file": "/invest/research/reports/view.html?id=cerebras-2026",
     "markdownFiles": {
       "zh": "/invest/research/Cerebras_深度研究报告_2026-10.md",
@@ -13707,11 +13707,14 @@
           "en": "FCF worse than -$1.0B for two consecutive quarters without new signed RPO is negative"
         },
         "latest": {
-          "zh": "2026-06-30：Q2 FCF -$476.7M、H1 capex $548.9M；不受限现金投资 $7.922B；$850M 循环信贷未提用",
-          "en": "2026-06-30: Q2 FCF -$476.7M, H1 capex $548.9M; unrestricted cash and investments $7.922B; $850M revolver undrawn"
+          "zh": "按 10-Q 累计数相减，Q3 单季经营现金净流出 3.414 亿美元，现金购建固定资产 4.972 亿美元，合计自由现金流为负 8.386 亿美元。Q2 同口径为负 4.767 亿美元。 现金消耗环比加快，但两季均未跌破负 10 亿美元，连续两季的门槛未触发。新增合同 RPO 金额无需用于判定本轮现金流门槛。",
+          "en": "Subtracting the cumulative cash-flow statements gives Q3 operating cash outflow of US$341.4M and cash purchases of property and equipment of US$497.2M, implying free cash flow of negative US$838.6M. Q2 free cash flow was negative US$476.7M on the same basis. Cash burn accelerated sequentially. Both quarters were above negative US$1.0B, so the consecutive-quarter threshold was not met. The attributable RPO from newly signed contracts is not needed to determine this cash-flow leg."
         },
         "nextCheck": "每季 10-Q／10-K / Each 10-Q / 10-K",
-        "nextCheckDate": "2026-11"
+        "nextCheckDate": "2026-11",
+        "reading": "within",
+        "readingAsOf": "2026-11-12",
+        "readingNote": "现金消耗环比加快，但两季均未跌破负 10 亿美元，连续两季的门槛未触发。新增合同 RPO 金额无需用于判定本轮现金流门槛。 / Cash burn accelerated sequentially. Both quarters were above negative US$1.0B, so the consecutive-quarter threshold was not met. The attributable RPO from newly signed contracts is not needed to determine this cash-flow leg."
       },
       {
         "id": "dilution-and-lockup",
