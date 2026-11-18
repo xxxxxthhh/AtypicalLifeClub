@@ -3,6 +3,58 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "cameco-2026",
+      "signalId": "cameco-uranium-price-spread-20261030",
+      "type": "facts",
+      "evidenceDate": "2026-10-30",
+      "title": {
+        "en": "Cameco’s October long-term uranium indicator rose to US$98/lb",
+        "zh": "Cameco 转引的 10 月长期铀价升至 98 美元/磅"
+      },
+      "change": {
+        "en": "Cameco’s month-end UxC and TradeTech averages on October 30, 2026 were US$98.00/lb long-term and US$91.55/lb spot, both above the September 30 values of US$96.50 and US$89.63/lb. The derived long-term premium narrowed from US$6.87 to US$6.45/lb.",
+        "zh": "Cameco 转引 UxC 与 TradeTech 的月末均价。2026-10-30 长期价与现货分别为 98.00 与 91.55 美元/磅，较 2026-09-30 的 96.50 与 89.63 美元均上升。长期价减现货的价差从 6.87 收窄至 6.45 美元/磅（自算）。"
+      },
+      "meaning": {
+        "en": "The long-term indicator rose and remains above spot. Both Q2 and Q3 quarter-end long-term readings exceeded about US$90/lb, keeping the original condition within range.",
+        "zh": "长期价上涨且仍高于现货。Q2 和 Q3 季末长期价均高于约 90 美元/磅，原条件维持阈内。"
+      },
+      "next": {
+        "en": "Check the next published month-end spot and long-term indicators.",
+        "zh": "后续继续核对发行人转引的月末现货及长期指标。"
+      },
+      "id": "research-29c376fc70d74b2b488d296eb1d82c65d3ed17146535b8962f416b6fc8a16576",
+      "publishedDate": "2026-11-18",
+      "company": "Cameco Corporation",
+      "ticker": "CCJ"
+    },
+    {
+      "reportId": "cerebras-2026",
+      "signalId": "cerebras-q3-cash-burn-capex-20261112",
+      "type": "facts",
+      "evidenceDate": "2026-11-12",
+      "title": {
+        "en": "Cerebras Q3 free cash flow was negative US$838.6 million",
+        "zh": "Cerebras Q3 单季自由现金流为负 8.386 亿美元"
+      },
+      "change": {
+        "en": "Subtracting the cumulative cash-flow statements gives Q3 operating cash outflow of US$341.4M and cash purchases of property and equipment of US$497.2M, implying free cash flow of negative US$838.6M. Q2 free cash flow was negative US$476.7M on the same basis.",
+        "zh": "按 10-Q 累计数相减，Q3 单季经营现金净流出 3.414 亿美元，现金购建固定资产 4.972 亿美元，合计自由现金流为负 8.386 亿美元。Q2 同口径为负 4.767 亿美元。"
+      },
+      "meaning": {
+        "en": "Cash burn accelerated sequentially. Both quarters were above negative US$1.0B, so the consecutive-quarter threshold was not met. The attributable RPO from newly signed contracts is not needed to determine this cash-flow leg.",
+        "zh": "现金消耗环比加快，但两季均未跌破负 10 亿美元，连续两季的门槛未触发。新增合同 RPO 金额无需用于判定本轮现金流门槛。"
+      },
+      "next": {
+        "en": "Use the next 10-Q or 10-K to reconcile quarterly operating cash flow and cash capital expenditure on the same basis.",
+        "zh": "下一份 10-Q 或 10-K 继续用同口径核对单季经营现金流和现金资本开支。"
+      },
+      "id": "research-e2a73e7591aaca97c6344afa4219e667fb642178d97163f8a4cb46bc3ead64a6",
+      "publishedDate": "2026-11-18",
+      "company": "Cerebras Systems",
+      "ticker": "CBRS"
+    },
+    {
       "reportId": "kioxia-2026",
       "signalId": "kioxia-interim-dividend-semiannual-20261106",
       "type": "facts",
