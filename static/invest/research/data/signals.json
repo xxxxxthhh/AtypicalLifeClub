@@ -4492,5 +4492,28 @@
       "nvidia-2026:ai-capex-durability",
       "nvidia-2026:china-structural-loss"
     ]
+  },
+  {
+    "id": "oklo-centrus-separate-fuel-supply-20261117",
+    "date": "2026-11-17",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Oklo 披露另一份 Centrus 燃料供应协议",
+      "en": "Oklo discloses a separate Centrus fuel supply agreement"
+    },
+    "detail": {
+      "zh": "Oklo 11 月 17 日提交的 8-K 披露，子公司于 11 月 11 日与 Centrus 签订另一份 HALEU 燃料供应协议。协议规定，在约定条件满足后，Oklo 将按照付不议条款采购 2029 至 2031 年交付的指定数量浓缩服务。两笔预付款合计 3,500 万美元，一笔在指定日期到期，另一笔以 Centrus 达成指定商业里程碑为条件。预付款可抵扣未来采购。披露确认了签约和条款，实际付款、供应商里程碑和交付仍待核实。 https://www.sec.gov/Archives/edgar/data/1849056/000184905626000055/oklo-20261111.htm",
+      "en": "In its November 17 Form 8-K, Oklo disclosed that a subsidiary signed a separate HALEU fuel supply agreement with Centrus on November 11. Subject to specified conditions, Oklo committed to take-or-pay purchases of specified quantities of enrichment services for delivery during 2029–2031. Two prepayments total $35 million, with one due on a specified date and the other due upon a Centrus commercial milestone. The prepayments are credited against future purchases. Actual payments, supplier milestones and deliveries remain to be verified. https://www.sec.gov/Archives/edgar/data/1849056/000184905626000055/oklo-20261111.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "OKLO"
+    ],
+    "reportIds": [
+      "oklo-2026"
+    ],
+    "monitoringRefs": [
+      "oklo-2026:fuel-supply"
+    ]
   }
 ]
