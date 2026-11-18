@@ -4561,5 +4561,28 @@
     "monitoringRefs": [
       "cameco-2026:term-vs-spot-spread"
     ]
+  },
+  {
+    "id": "cerebras-q3-cash-burn-capex-20261112",
+    "date": "2026-11-12",
+    "title": {
+      "zh": "Cerebras Q3 单季自由现金流为负 8.386 亿美元",
+      "en": "Cerebras Q3 free cash flow was negative US$838.6 million"
+    },
+    "detail": {
+      "zh": "按 10-Q 累计数相减，Q3 单季经营现金净流出 3.414 亿美元，现金购建固定资产 4.972 亿美元，合计自由现金流为负 8.386 亿美元。Q2 同口径为负 4.767 亿美元。 现金消耗环比加快，但两季均未跌破负 10 亿美元，连续两季的门槛未触发。新增合同 RPO 金额无需用于判定本轮现金流门槛。 来源 https://www.sec.gov/Archives/edgar/data/2021728/000162828026044981/cbrs-20260331.htm https://www.sec.gov/Archives/edgar/data/2021728/000162828026056357/cbrs-20260630.htm https://www.sec.gov/Archives/edgar/data/2021728/000162828026073494/cbrs-20260930.htm",
+      "en": "Subtracting the cumulative cash-flow statements gives Q3 operating cash outflow of US$341.4M and cash purchases of property and equipment of US$497.2M, implying free cash flow of negative US$838.6M. Q2 free cash flow was negative US$476.7M on the same basis. Cash burn accelerated sequentially. Both quarters were above negative US$1.0B, so the consecutive-quarter threshold was not met. The attributable RPO from newly signed contracts is not needed to determine this cash-flow leg. Sources https://www.sec.gov/Archives/edgar/data/2021728/000162828026044981/cbrs-20260331.htm https://www.sec.gov/Archives/edgar/data/2021728/000162828026056357/cbrs-20260630.htm https://www.sec.gov/Archives/edgar/data/2021728/000162828026073494/cbrs-20260930.htm"
+    },
+    "scope": "report-monitoring",
+    "crossChecks": [],
+    "tickers": [
+      "CBRS"
+    ],
+    "reportIds": [
+      "cerebras-2026"
+    ],
+    "monitoringRefs": [
+      "cerebras-2026:cash-burn-capex"
+    ]
   }
 ]
