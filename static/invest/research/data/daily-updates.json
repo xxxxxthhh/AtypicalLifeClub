@@ -3,6 +3,84 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "kioxia-2026",
+      "signalId": "kioxia-interim-dividend-semiannual-20261106",
+      "type": "facts",
+      "evidenceDate": "2026-11-06",
+      "title": {
+        "en": "Kioxia discloses its interim dividend in the semiannual filing",
+        "zh": "铠侠在半年度证券报告中披露中期股息"
+      },
+      "change": {
+        "en": "The board approved a ¥47.937 billion interim dividend, equivalent to ¥30 per share after the stock split.",
+        "zh": "董事会批准中期股息合计 479.37 亿日元，折合拆股后每股 30 日元。"
+      },
+      "meaning": {
+        "en": "The semiannual filing also confirms the executed buyback amount, close to the cash ceiling. The resolution covers the interim dividend.",
+        "zh": "半年度原文同时确认已执行回购金额，现金上限几乎用足。本次决议只覆盖中期股息。"
+      },
+      "next": {
+        "en": "Verify payment after the December 8 effective date and track subsequent dividend policy and buyback disclosures.",
+        "zh": "核对 12 月 8 日生效后的实际付款，以及后续股息政策和回购披露。"
+      },
+      "id": "research-91b57f3c9192dc0b986daa9cc1742a20f506c42c1e5d7e0fab1e26567d13a2a6",
+      "publishedDate": "2026-11-18",
+      "company": "Kioxia Holdings",
+      "ticker": "285A.T"
+    },
+    {
+      "reportId": "nvidia-2026",
+      "signalId": "nvidia-q3-fy2027-results-20261117",
+      "type": "facts",
+      "evidenceDate": "2026-11-17",
+      "title": {
+        "en": "NVIDIA Q3 FY2027 Data Center revenue grew 21% sequentially",
+        "zh": "NVIDIA Q3 FY2027 数据中心营收环比增长 21%"
+      },
+      "change": {
+        "en": "Revenue of $115.844 billion exceeded the prior guidance ceiling. Data Center revenue rose 21% sequentially to $107.6 billion.",
+        "zh": "总营收 1,158.44 亿美元超过前次指引上限。数据中心营收 1,076 亿美元，环比增长 21%。"
+      },
+      "meaning": {
+        "en": "Data Center revenue did not stall sequentially. The compound condition still depends on buyer capex and separate risks.",
+        "zh": "当季数据中心营收没有环比失速。复合触发条件中的买方资本开支和风险分句仍待核实。"
+      },
+      "next": {
+        "en": "Check buyer capex guidance and the durability of China revenue. The fourth-quarter outlook includes an additional week.",
+        "zh": "核对买方资本开支和中国收入持续性。第四季度指引涵盖额外一周。"
+      },
+      "id": "research-c5297a3b364e4a8dea95b314ef532af31e99b48f1ac12d92f271293707c28dcd",
+      "publishedDate": "2026-11-18",
+      "company": "NVIDIA",
+      "ticker": "NVDA"
+    },
+    {
+      "reportId": "oklo-2026",
+      "signalId": "oklo-centrus-separate-fuel-supply-20261117",
+      "type": "facts",
+      "evidenceDate": "2026-11-17",
+      "title": {
+        "en": "Oklo discloses a separate Centrus fuel supply agreement",
+        "zh": "Oklo 披露另一份 Centrus 燃料供应协议"
+      },
+      "change": {
+        "en": "The separate contract covers conditional purchases of enrichment services for 2029–2031 delivery and two prepayments totaling $35 million.",
+        "zh": "另一份协议规定在条件满足后采购 2029 至 2031 年交付的浓缩服务，两笔预付款合计 3,500 万美元。"
+      },
+      "meaning": {
+        "en": "Signing adds a fuel procurement arrangement. Payment and delivery remain subject to contract milestones.",
+        "zh": "签约增加一项燃料采购安排，付款及交付仍须按合同节点核实。"
+      },
+      "next": {
+        "en": "Check the first prepayment, the supplier milestone and actual deliveries.",
+        "zh": "跟踪首笔付款、供应商商业里程碑及交付。"
+      },
+      "id": "research-5446fb4efa44bb101dde463647ee1bd00e02553cb09a6a22333b40087a1796da",
+      "publishedDate": "2026-11-18",
+      "company": "Oklo Inc.",
+      "ticker": "OKLO"
+    },
+    {
       "reportId": "asml-2026",
       "signalId": "asml-q3-2026-service-sales-order-book-monitoring-20261014",
       "type": "facts",
