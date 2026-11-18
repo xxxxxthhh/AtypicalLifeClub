@@ -7311,7 +7311,7 @@
     ],
     "category": "nuclear",
     "date": "2026-02-10",
-    "lastUpdate": "2026-11-07",
+    "lastUpdate": "2026-11-18",
     "file": "/invest/research/reports/view.html?id=oklo-2026",
     "markdownFiles": {
       "zh": "/invest/research/Oklo_深度研究报告_2026-02.md",
@@ -7473,13 +7473,13 @@
           "en": "fuel-supply arrangements fail to land"
         },
         "latest": {
-          "zh": "Q3 2026 10-Q（2026-11-06）：2026-09-30 Oklo 与 Centrus 签订 HALEU 供应协议，与 Meta 预付协议相关，用于为 Meta 部署 powerhouse，附若干条件；2026-11-02 Meta 的首笔资金从托管账户释放、直接支付给 Centrus，作为燃料订单的抵免。首座部署所需的 5 吨 EBR-II 回收 HALEU 已落实。按本项触发条件（燃料供应安排未能落地）评级：已签署供应协议并有资金实际支付，评级为阈内。证据边界：协议数量、价格、交付时间与条件内容 10-Q 均未披露；6 月意向书所称 2029 年开始交付是否适用于此协议未说明。",
-          "en": "Q3 2026 Form 10-Q (2026-11-06): on 2026-09-30 Oklo signed a HALEU supply agreement with Centrus in connection with the Meta prepayment agreement, to support powerhouse deployments for Meta and subject to certain conditions; on 2026-11-02 an initial Meta funding amount was released from escrow and paid directly to Centrus as a credit towards fuel orders. The 5 metric tons of recovered EBR-II HALEU for the first deployment remain secured. Graded against this item trigger (fuel-supply arrangements fail to land): a supply agreement has been signed and funds have actually been paid, so graded within. Evidence limits: the 10-Q discloses no volumes, prices, delivery dates or the content of the conditions, and does not say whether the 2029 delivery start in the June letter of intent applies to this agreement."
+          "zh": "Oklo 11 月 17 日提交的 8-K 披露，子公司于 11 月 11 日与 Centrus 签订另一份 HALEU 燃料供应协议。协议规定，在约定条件满足后，Oklo 将按照付不议条款采购 2029 至 2031 年交付的指定数量浓缩服务。两笔预付款合计 3,500 万美元，一笔在指定日期到期，另一笔以 Centrus 达成指定商业里程碑为条件。预付款可抵扣未来采购。披露确认了签约和条款，实际付款、供应商里程碑和交付仍待核实。 Q3 2026 10-Q（2026-11-06）：2026-09-30 Oklo 与 Centrus 签订 HALEU 供应协议，与 Meta 预付协议相关，用于为 Meta 部署 powerhouse，附若干条件；2026-11-02 Meta 的首笔资金从托管账户释放、直接支付给 Centrus，作为燃料订单的抵免。首座部署所需的 5 吨 EBR-II 回收 HALEU 已落实。按本项触发条件（燃料供应安排未能落地）评级：已签署供应协议并有资金实际支付，评级为阈内。证据边界：协议数量、价格、交付时间与条件内容 10-Q 均未披露；6 月意向书所称 2029 年开始交付是否适用于此协议未说明。",
+          "en": "In its November 17 Form 8-K, Oklo disclosed that a subsidiary signed a separate HALEU fuel supply agreement with Centrus on November 11. Subject to specified conditions, Oklo committed to take-or-pay purchases of specified quantities of enrichment services for delivery during 2029–2031. Two prepayments total $35 million, with one due on a specified date and the other due upon a Centrus commercial milestone. The prepayments are credited against future purchases. Actual payments, supplier milestones and deliveries remain to be verified. Q3 2026 Form 10-Q (2026-11-06): on 2026-09-30 Oklo signed a HALEU supply agreement with Centrus in connection with the Meta prepayment agreement, to support powerhouse deployments for Meta and subject to certain conditions; on 2026-11-02 an initial Meta funding amount was released from escrow and paid directly to Centrus as a credit towards fuel orders. The 5 metric tons of recovered EBR-II HALEU for the first deployment remain secured. Graded against this item trigger (fuel-supply arrangements fail to land): a supply agreement has been signed and funds have actually been paid, so graded within. Evidence limits: the 10-Q discloses no volumes, prices, delivery dates or the content of the conditions, and does not say whether the 2029 delivery start in the June letter of intent applies to this agreement."
         },
         "nextCheck": "燃料协议 / fuel agreements",
         "reading": "within",
-        "readingAsOf": "2026-11-06",
-        "readingNote": "供应协议已签署且有资金支付。 / A supply agreement is signed and funds have been paid."
+        "readingAsOf": "2026-11-17",
+        "readingNote": "新协议已签署。阈内读数沿用既有协议已签署及首笔款项已支付的证据，新协议的付款和交付仍待后续核实。 / New agreement signed. The within reading still relies on the earlier signed and initially funded arrangement. Payments and deliveries under the new agreement remain open."
       },
       {
         "id": "customer-conversion",
