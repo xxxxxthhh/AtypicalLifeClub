@@ -3,11 +3,15 @@
 > **2026-10-31 review of monitoring**: Against the Q3 2026 release and MD&A (2026-10-30), term-vs-spot-spread reads within (long-term US$96.50 vs spot US$89.63 at 2026-09-30); contract-book-depth reads unclear (the terms on which 2029-2030 fill are undisclosed) and westinghouse-doe-conversion reads unclear (definitive agreements remain pending with 2026 not yet over). The realized-vs-market-price-gap and mine-supply-reliability readings were not updated pending reviewer adjudication.
 
 Coverage date: 2026-07-31
-Last updated: 2026-10-31
+Last updated: 2026-11-18
 Ticker: NYSE: CCJ
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
+
+> **Cameco’s October long-term uranium indicator rose to US$98/lb** Cameco’s month-end UxC and TradeTech averages on October 30, 2026 were US$98.00/lb long-term and US$91.55/lb spot, both above the September 30 values of US$96.50 and US$89.63/lb. The derived long-term premium narrowed from US$6.87 to US$6.45/lb. The long-term indicator rose and remains above spot. Both Q2 and Q3 quarter-end long-term readings exceeded about US$90/lb, keeping the original condition within range. [Source 1](https://www.cameco.com/invest/markets/uranium-price)
+
+> This factual monitoring update retains the historical valuation anchor dated 2026-07-30 and the published stance and conviction.
 
 ## Executive Summary
 

@@ -10363,7 +10363,7 @@
     ],
     "category": "nuclear",
     "date": "2026-07-31",
-    "lastUpdate": "2026-10-31",
+    "lastUpdate": "2026-11-18",
     "file": "/invest/research/reports/view.html?id=cameco-2026",
     "markdownFiles": {
       "zh": "/invest/research/Cameco_深度研究报告_2026-07.md",
@@ -10424,13 +10424,13 @@
           "en": "the long-term indicator falls back toward or below spot, or stalls below about US$90/lb for two consecutive quarters"
         },
         "latest": {
-          "zh": "Cameco 2026 Q3 MD&A（季度截至 2026-09-30；2026-10-30 以 Form 6-K 报送）转载的 TradeTech 与 UxC 平均价：2026-09-30 长期价 96.50 美元/磅（2026-06-30 为 95.50、2026-03-31 为 91.50），现货 89.63 美元/磅（85.00、84.25）；长期价减现货的价差由 +10.50 美元收窄至 +6.87 美元，原因是现货涨幅大于长期价；Cameco 称长期价以 2026 年不变价计接近 2011 年以来最高。",
-          "en": "Cameco's Q3 2026 MD&A (quarter ended 2026-09-30; furnished on Form 6-K 2026-10-30) republishes the average of TradeTech and UxC prices: at 2026-09-30 the long-term price was US$96.50/lb (US$95.50 at 2026-06-30, US$91.50 at 2026-03-31) and spot US$89.63/lb (US$85.00, US$84.25); the term-minus-spot spread narrowed from +US$10.50 to +US$6.87 because spot rose more than the term price, and Cameco describes the long-term price as approaching its highest level since 2011 in 2026 constant dollars."
+          "zh": "Cameco 转引 UxC 与 TradeTech 的月末均价。2026-10-30 长期价与现货分别为 98.00 与 91.55 美元/磅，较 2026-09-30 的 96.50 与 89.63 美元均上升。长期价减现货的价差从 6.87 收窄至 6.45 美元/磅（自算）。 长期价上涨且仍高于现货。Q2 和 Q3 季末长期价均高于约 90 美元/磅，原条件维持阈内。",
+          "en": "Cameco’s month-end UxC and TradeTech averages on October 30, 2026 were US$98.00/lb long-term and US$91.55/lb spot, both above the September 30 values of US$96.50 and US$89.63/lb. The derived long-term premium narrowed from US$6.87 to US$6.45/lb. The long-term indicator rose and remains above spot. Both Q2 and Q3 quarter-end long-term readings exceeded about US$90/lb, keeping the original condition within range."
         },
         "nextCheck": "每月 UxC/TradeTech 月末均价 / monthly UxC and TradeTech month-end averages",
         "reading": "within",
         "readingAsOf": "2026-10-30",
-        "readingNote": "阈内：长期价 96.50 美元高于现货 89.63 美元且本季上升 1.00 美元，既未回落至现货附近或以下，也未停在 90 美元以下；价差收窄来自现货上涨而非长期价回落。 / Within: the US$96.50 long-term price sits above the US$89.63 spot and rose US$1.00 in the quarter, so it neither fell back toward or below spot nor stalled below US$90; the narrower spread reflects spot rising, not the term price falling."
+        "readingNote": "长期价上涨且仍高于现货。Q2 和 Q3 季末长期价均高于约 90 美元/磅，原条件维持阈内。 / The long-term indicator rose and remains above spot. Both Q2 and Q3 quarter-end long-term readings exceeded about US$90/lb, keeping the original condition within range."
       },
       {
         "id": "realized-vs-market-price-gap",
