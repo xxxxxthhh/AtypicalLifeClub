@@ -1,13 +1,17 @@
 # Oklo Inc. (NYSE: OKLO) Deep Research Report
 
 Coverage date: 2026-02-10
-Last updated: 2026-11-07
+Last updated: 2026-11-18
 Ticker: NYSE: OKLO
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
 ## 2026H1 Full Rerun Summary
+
+> **2026-11-18 Fuel supply factual update**
+>
+> In its November 17 Form 8-K, Oklo disclosed that a subsidiary signed a separate HALEU fuel supply agreement with Centrus on November 11. Subject to specified conditions, Oklo committed to take-or-pay purchases of specified quantities of enrichment services for delivery during 2029–2031. Two prepayments total $35 million, with one due on a specified date and the other due upon a Centrus commercial milestone. The prepayments are credited against future purchases. Actual payments, supplier milestones and deliveries remain to be verified. The published historical anchor and financial denominators continue to apply. The published stance and conviction are unchanged. [Form 8-K](https://www.sec.gov/Archives/edgar/data/1849056/000184905626000055/oklo-20261111.htm)
 
 > **2026-11-07 factual update**: Q3 2026 Form 10-Q (quarter ended 2026-09-30; filed on 2026-11-06) revenue was $1.861M (nine months $3.071M), mainly engineering, consulting and fabrication services; Q3 net loss was $41.746M (Q3 2025: $29.722M; Q2 2026: $48.536M). Nine-month net cash used in operating activities was $110.941M against $65.459M for H1, so derived Q3 operating cash use is about $45.5M; nine-month purchases of property, plant and equipment were $280.874M. At 9-30 cash and cash equivalents were $1,550.061M and marketable debt securities $1,580.724M ($951.768M current, $628.956M non-current), about $3.131B combined, plus $81.9M of restricted cash; total liabilities were $120.037M. Q3 at-the-market sales added 9,519,950 shares for $401.761M net; a new $1.0B ATM (2026 ATM Program 2) was entered in September and had sold 2,260,556 shares at a $39.30 average net price by 9-30. Shares outstanding were 195,161,750 at 9-30 (185,090,155 at 6-30) and 195,289,593 at 11-04. The 10-Q now states a target of deploying the first powerhouse in 2028-2029 (the Q2 10-Q said 2028). On 9-30 Oklo signed a HALEU supply agreement with Centrus in connection with the Meta prepayment agreement, subject to certain conditions; on 11-02 an initial Meta funding amount was released from escrow and paid directly to Centrus as a credit towards fuel orders. In October Oklo signed a strategic manufacturing agreement with U.S. Forged Rings reserving capacity for large reactor components, with initial finished component deliveries contemplated in 2030. Customer engagements remain non-binding letters of intent (Equinix, Diamondback Energy, Prometheus Hyperscale) alongside the Switch master power agreement and the Meta prepayment framework; no binding PPA was disclosed.
 >
