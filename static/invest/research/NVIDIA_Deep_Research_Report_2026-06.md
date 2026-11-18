@@ -1,7 +1,7 @@
 # NVIDIA (NVDA) Deep Research Report
 
 Coverage date: 2026-06-26
-Last updated: 2026-11-17
+Last updated: 2026-11-18
 Ticker: NASDAQ: NVDA
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -10,6 +10,14 @@ Disclaimer: This report is for informational and research purposes only. It does
 ---
 
 > **2026-11-17 governance factual correction:** Item 5.02 of the 8-K filed November 12, 2026 states that the Board accepted Jensen Huang’s resignation as President, CEO and director effective immediately on November 11. CFO Colette Kress became interim CEO while retaining the CFO role as the Board searches for a permanent successor; Harvey C. Jones was appointed Board Chair on the same day. The attached release is dated November 12: it is the same disclosure family, not independent corroboration, and does not replace the 8-K’s November 11 effective date. The company’s expectation of uninterrupted customer commitments and product roadmap is not an operating outcome independently observed in this run. No reason for the resignation is given, and no reason or price causation is inferred. This corrects the current-tense founder-CEO statement in Section 4 without re-grading management or changing the four operating-monitoring items. Valuation retains the published July 30, 2026 historical anchor; the published stance and conviction are unchanged. [8-K Item 5.02](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm); [Ex 99.1](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvidiaannouncesceotransiti.htm)
+
+> **2026-11-18 Q3 FY2027 factual update**
+>
+> NVIDIA reported Q3 FY2027, ended October 25, 2026, on November 17, 2026. Revenue of $115.844B rose 20% sequentially and 103% year over year, above the $110.16B upper end of the prior $108.0B plus or minus 2% guide. Data Center revenue of $107.6B rose 21% sequentially and 110% year over year. GAAP and non-GAAP gross margins were 74.8% and 74.9%, and diluted EPS was $2.70 and $2.68. Q4 FY2027 includes an additional week. NVIDIA guides to $130.0B of revenue plus or minus 3%, GAAP and non-GAAP gross margins of 71.0%–72.0%, and assumes zero Data Center compute revenue from China. The Q2 figures and Q3 outlook in the summary below are historical comparatives.
+>
+> Q3 FY2027 Data Center revenue was $107.6B, up 21% sequentially and 110% year over year. Total revenue of $115.844B exceeded the $110.16B upper end of the prior $108.0B plus or minus 2% guide. The sequential-stall clause is not met. Buyer capex guidance requires separate issuer evidence, and the overall reading remains unclear. The Q3 FY2027 CFO Commentary reports $2.4B in quarterly shipments of Data Center Hopper products to China. The Q4 outlook assumes zero Data Center compute revenue from China. The disclosed figure covers one quarter and one product family. Further tightening and the durability of revenue recovery remain unresolved, so the overall reading stays unclear.
+>
+> Valuation retains the published July 30, 2026 historical anchor and original financial denominators. The published stance and conviction are unchanged. [NVIDIA release](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027) · [8-K Item 2.02](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm) · [CFO Commentary](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm) · [Q2 release with Q3 guidance](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm)
 
 ## Executive Summary
 

@@ -2976,8 +2976,8 @@
     "priceSymbol": "NVDA",
     "title": "NVIDIA 深度研究报告 - AI 计算中枢的高质量与高预期",
     "titleEn": "NVIDIA Deep Research Report - The AI Compute Hub, High Quality Meets High Expectations",
-    "summary": "2026-11-17 治理事实更正（不更新经营监测或估值）：2026-11-12 提交的 8-K Item 5.02 明确：董事会于 2026-11-11 接受黄仁勋辞去总裁、CEO 及董事职务，即时生效；CFO Colette Kress 出任临时 CEO 并继续兼任 CFO，董事会寻找永久继任者；Harvey C. Jones 同日获任董事会主席。附件新闻稿日期为 11-12，不把它与 8-K 当作两个独立发布族，也不将附件日期覆盖 8-K 的 11-11 生效日。公司称客户承诺和产品路线将不受中断，是管理层预期，不是本轮已观察到的经营结果。原文没有给出辞任原因，不推测原因或价格因果。 下列财务与估值叙述保留其原证据日期：v5 回填：NVIDIA 仍是 AI compute profit pool 的中枢。最新披露的 Q2 FY2027（截至 2026-07-26）营收 $96.2B（同比 +106%）、Data Center $89.0B（同比 +117%、环比 +18%），毛利率 75.0%；Q3 FY2027 指引营收 $108.0B±2%，且不假设任何来自中国的 Data Center compute 收入。同一份 10-Q 显示供应与产能采购承诺由上季 $119B 升至 $279B，公司称主要用于采购内存。以 **2026-07-30 收盘 $195.04** 计的约 $4.74T 市值与 mid-20s forward P/E 是明确标注日期的历史估值快照，其分母仍为 Q1 FY2027 口径、未按 Q2 FY2027 重算：市场定价的不是泛泛 AI CAGR，而是 GPU+networking+systems+software 继续保护盈利分母。30% 牛市 / 50% 基准 / 20% 熊市情景给出温和正偏斜，因此改为偏多 / 中确信；风险仍是 hyperscaler capex、自定义 ASIC、中国和循环融资减值。",
-    "summaryEn": "2026-11-17 governance-fact correction (no operating-monitoring or valuation update): Item 5.02 of the 8-K filed November 12, 2026 states that the Board accepted Jensen Huang’s resignation as President, CEO and director effective immediately on November 11. CFO Colette Kress became interim CEO while retaining the CFO role as the Board searches for a permanent successor; Harvey C. Jones was appointed Board Chair on the same day. The attached release is dated November 12: it is the same disclosure family, not independent corroboration, and does not replace the 8-K’s November 11 effective date. The company’s expectation of uninterrupted customer commitments and product roadmap is not an operating outcome independently observed in this run. No reason for the resignation is given, and no reason or price causation is inferred. Financial and valuation context below retains its original evidence dates: July 7, 2026 v5 update: NVIDIA remains the center of the AI compute profit pool. The latest print, Q2 FY2027 (quarter ended 2026-07-26), showed revenue of $96.2B (+106% year over year) and Data Center of $89.0B (+117% year over year, +18% sequentially) at a 75.0% gross margin; the Q3 FY2027 outlook is $108.0B plus or minus 2% and assumes no China Data Center compute revenue. The same 10-Q shows supply-and-capacity purchase commitments rising from $119B in the prior quarter to $279B, which the company attributes primarily to memory procurement. The roughly $4.74T market cap and mid-20s forward P/E computed at the **2026-07-30 close of $195.04** remain a clearly dated historical valuation snapshot whose denominators are still the Q1 FY2027 caliber and have not been recomputed on Q2 FY2027: the market is underwriting GPU+networking+systems+software protection of the earnings denominator, not a generic AI CAGR. A 30% bull / 50% base / 20% bear grid gives modest positive skew, so stance moves to constructive / medium conviction; the risks remain hyperscaler capex, custom ASICs, China, and circular-financing impairments.",
+    "summary": "NVIDIA 于 2026-11-17 公布截至 2026-10-25 的 Q3 FY2027 业绩。总营收 $115.844B，环比 +20%、同比 +103%，高于上季 $108.0B±2% 指引上限 $110.16B。Data Center 营收 $107.6B，环比 +21%、同比 +110%。GAAP／非 GAAP 毛利率为 74.8%／74.9%，摊薄每股收益 $2.70／$2.68。包含额外一周的 Q4 FY2027 指引为营收 $130.0B±3%，两种口径毛利率均为 71.0%–72.0%，并假设中国 Data Center compute 收入为零。 Q3 FY2027 CFO Commentary 披露当季向中国出货的 Data Center Hopper 产品金额为 $2.4B，Q4 指引仍假设中国 Data Center compute 收入为零。披露给出了一个季度的特定产品出货金额。政策是否进一步收紧、收入能否持续恢复仍需后续可比披露，维持 unclear。 估值沿用已发布的 2026-07-30 历史锚与原财务分母。已发布立场及确信度不变。 2026-11-17 治理事实更正（不更新经营监测或估值）：2026-11-12 提交的 8-K Item 5.02 明确：董事会于 2026-11-11 接受黄仁勋辞去总裁、CEO 及董事职务，即时生效；CFO Colette Kress 出任临时 CEO 并继续兼任 CFO，董事会寻找永久继任者；Harvey C. Jones 同日获任董事会主席。附件新闻稿日期为 11-12，不把它与 8-K 当作两个独立发布族，也不将附件日期覆盖 8-K 的 11-11 生效日。公司称客户承诺和产品路线将不受中断，是管理层预期，不是本轮已观察到的经营结果。原文没有给出辞任原因，不推测原因或价格因果。 下列财务与估值叙述保留其原证据日期：v5 回填：NVIDIA 仍是 AI compute profit pool 的中枢。此前披露的 Q2 FY2027（截至 2026-07-26）营收 $96.2B（同比 +106%）、Data Center $89.0B（同比 +117%、环比 +18%），毛利率 75.0%；Q3 FY2027 指引营收 $108.0B±2%，且不假设任何来自中国的 Data Center compute 收入。同一份 10-Q 显示供应与产能采购承诺由上季 $119B 升至 $279B，公司称主要用于采购内存。以 **2026-07-30 收盘 $195.04** 计的约 $4.74T 市值与 mid-20s forward P/E 是明确标注日期的历史估值快照，其分母仍为 Q1 FY2027 口径、未按 Q2 FY2027 重算：市场定价的不是泛泛 AI CAGR，而是 GPU+networking+systems+software 继续保护盈利分母。30% 牛市 / 50% 基准 / 20% 熊市情景给出温和正偏斜，因此改为偏多 / 中确信；风险仍是 hyperscaler capex、自定义 ASIC、中国和循环融资减值。",
+    "summaryEn": "NVIDIA reported Q3 FY2027, ended October 25, 2026, on November 17, 2026. Revenue of $115.844B rose 20% sequentially and 103% year over year, above the $110.16B upper end of the prior $108.0B plus or minus 2% guide. Data Center revenue of $107.6B rose 21% sequentially and 110% year over year. GAAP and non-GAAP gross margins were 74.8% and 74.9%, and diluted EPS was $2.70 and $2.68. Q4 FY2027 includes an additional week. NVIDIA guides to $130.0B of revenue plus or minus 3%, GAAP and non-GAAP gross margins of 71.0%–72.0%, and assumes zero Data Center compute revenue from China. The Q3 FY2027 CFO Commentary reports $2.4B in quarterly shipments of Data Center Hopper products to China. The Q4 outlook assumes zero Data Center compute revenue from China. The disclosed figure covers one quarter and one product family. Further tightening and the durability of revenue recovery remain unresolved, so the overall reading stays unclear. Valuation retains the published July 30, 2026 historical anchor and original financial denominators. The published stance and conviction are unchanged. 2026-11-17 governance-fact correction (no operating-monitoring or valuation update): Item 5.02 of the 8-K filed November 12, 2026 states that the Board accepted Jensen Huang’s resignation as President, CEO and director effective immediately on November 11. CFO Colette Kress became interim CEO while retaining the CFO role as the Board searches for a permanent successor; Harvey C. Jones was appointed Board Chair on the same day. The attached release is dated November 12: it is the same disclosure family, not independent corroboration, and does not replace the 8-K’s November 11 effective date. The company’s expectation of uninterrupted customer commitments and product roadmap is not an operating outcome independently observed in this run. No reason for the resignation is given, and no reason or price causation is inferred. Financial and valuation context below retains its original evidence dates: July 7, 2026 v5 update: NVIDIA remains the center of the AI compute profit pool. The preceding print, Q2 FY2027 (quarter ended 2026-07-26), showed revenue of $96.2B (+106% year over year) and Data Center of $89.0B (+117% year over year, +18% sequentially) at a 75.0% gross margin; the Q3 FY2027 outlook is $108.0B plus or minus 2% and assumes no China Data Center compute revenue. The same 10-Q shows supply-and-capacity purchase commitments rising from $119B in the prior quarter to $279B, which the company attributes primarily to memory procurement. The roughly $4.74T market cap and mid-20s forward P/E computed at the **2026-07-30 close of $195.04** remain a clearly dated historical valuation snapshot whose denominators are still the Q1 FY2027 caliber and have not been recomputed on Q2 FY2027: the market is underwriting GPU+networking+systems+software protection of the earnings denominator, not a generic AI CAGR. A 30% bull / 50% base / 20% bear grid gives modest positive skew, so stance moves to constructive / medium conviction; the risks remain hyperscaler capex, custom ASICs, China, and circular-financing impairments.",
     "tags": [
       "AI计算",
       "GPU",
@@ -2986,7 +2986,7 @@
     ],
     "category": "tech",
     "date": "2026-06-26",
-    "lastUpdate": "2026-11-17",
+    "lastUpdate": "2026-11-18",
     "file": "/invest/research/reports/view.html?id=nvidia-2026",
     "markdownFiles": {
       "zh": "/invest/research/NVIDIA_深度研究报告_2026-06.md",
@@ -2996,6 +2996,7 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
+      "Q3 FY2027 营收 $115.844B（环比 +20%、同比 +103%），Data Center $107.6B（环比 +21%、同比 +110%）。Q4 有额外一周，指引 $130.0B±3%，假设中国 Data Center compute 收入为零。",
       "2026-11-11 黄仁勋离任总裁/CEO/董事；Colette Kress 临时兼任 CEO/CFO，Harvey C. Jones 任董事会主席（11-12 8-K）；永久继任者尚在遴选，不推断经营或估值影响",
       "Q2 FY2027（截至 2026-07-26）营收 $96.2B（+106% YoY、+18% QoQ），数据中心 $89.0B（+117% YoY），GAAP 与 non-GAAP 毛利率均 75.0%；Q3 FY2027 指引营收 $108.0B±2%，且不假设任何中国数据中心 compute 收入（历史口径：Q1 FY2027 营收 $81.6B、数据中心 $75.2B、Q2 指引 $91.0B）",
       "供应与产能采购承诺由上季 $119B 升至截至 2026-07-26 的 $279B，10-Q 称「primarily memory and manufacturing facilities」、CFO Commentary 称主要用于采购内存；采购义务总表 $366B。发行人明示部分协议在正式下单前可取消／可重排，故为买方承诺口径而非供应商已确认订单",
@@ -3008,7 +3009,7 @@
     "chainRole": "architecture-check",
     "stance": "constructive",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q2 FY2027 monitoring / 2026-07-30 valuation frame",
+    "reportedPeriod": "Q3 FY2027 monitoring / 2026-07-30 valuation frame",
     "related": [
       "amd-2026",
       "broadcom-2026",
@@ -3028,13 +3029,13 @@
           "en": "hyperscaler capex guides weaken or Data Center revenue stalls sequentially"
         },
         "latest": {
-          "zh": "Q2 FY2027（截至 2026-07-26）Data Center 营收 $89.0B，环比 +18%、同比 +117%，未出现环比失速；总营收 $96.221B 超过此前 $91.0B 指引。Q3 FY2027 指引营收 $108.0B±2%（较 Q2 再 +12% 环比），且明确不假设任何来自中国的 Data Center compute 收入。证据边界：本读数直接证伪的是「Data Center 收入环比失速」这一分句；「hyperscaler capex 指引转弱」一节本窗口内没有超大规模厂商自身的新指引可对照，NVIDIA 自身的出货与指引不能代替买方的资本开支指引。",
-          "en": "Q2 FY2027 (quarter ended 2026-07-26) Data Center revenue was $89.0B, up 18% sequentially and 117% year over year, with no sequential stall; total revenue of $96.221B exceeded the prior $91.0B guide. The Q3 FY2027 outlook is $108.0B of revenue plus or minus 2%, a further 12% sequential step, and assumes no Data Center compute revenue from China. Evidence limit: this reading directly disconfirms the 'Data Center revenue stalls sequentially' clause; for the 'hyperscaler capex guides weaken' clause there was no new hyperscaler capex guidance inside this window, and NVIDIA's own shipments and outlook cannot substitute for a buyer's capex guide."
+          "zh": "Q3 FY2027（截至 2026-10-25）Data Center 营收 $107.6B，环比 +21%、同比 +110%。总营收 $115.844B 高于 $108.0B±2% 上限 $110.16B。环比失速分句不成立。买方资本开支指引需逐家查证，NVIDIA 的业绩稿无法完成这一分句的核对，复合读数仍为 unclear。",
+          "en": "Q3 FY2027 Data Center revenue was $107.6B, up 21% sequentially and 110% year over year. Total revenue of $115.844B exceeded the $110.16B upper end of the prior $108.0B plus or minus 2% guide. The sequential-stall clause is not met. Buyer capex guidance requires separate issuer evidence, and the overall reading remains unclear."
         },
         "nextCheck": "Q3 FY2027 财报（季度约截至 2026-10 下旬，按发行人季度节奏约 2026-11 披露）/ Q3 FY2027 earnings",
         "nextCheckDate": "2026-11",
         "reading": "unclear",
-        "readingAsOf": "2026-08-26"
+        "readingAsOf": "2026-11-17"
       },
       {
         "id": "custom-asic-substitution",
@@ -3067,12 +3068,12 @@
           "en": "export controls tighten further or China revenue never recovers"
         },
         "latest": {
-          "zh": "中国 Data Center compute 收入在 Q3 FY2027 指引中仍按零假设。截至 2026-07-26 季度的 Form 10-Q 补充：美国政府自 2026 年 2 月起授予许可，允许向特定中国客户出货少量 H200，但相关销售受中国政府限制，公司未能售出全部已获许可产品；FY2027 上半年就 H200 的过剩存货与采购义务计提 $0.4B 费用；计提后已在该许可项目下完成一小部分出货，占最近一个季度 Data Center 收入**不足 1%**；许可要求 H200 出货前在美国接受检验，因此按该项目出货的 H200 在输入美国时**适用 25% 关税**，公司未能也不预期能将该关税转嫁给客户。评为 `unclear`：**本窗口内出口管制姿态没有发生任何变化**——H200 许可项目自 2026 年 2 月起即已存在，本次 10-Q 是首次量化该既有项目的实际效果，而非窗内新增的放宽。既未「进一步收紧」，收入亦未恢复——已恢复部分在收入口径上不重大，且发行人自身对下一季度仍按零假设编制指引，故「中国收入永久缺口」既未被证实也未被证伪。",
-          "en": "China Data Center compute revenue is still assumed at zero in the Q3 FY2027 outlook. The Form 10-Q for the quarter ended 2026-07-26 adds that beginning in February 2026 the U.S. government granted licenses allowing small amounts of H200 to ship to specific China-based customers, but those sales were restricted by the PRC government and the company has been unable to sell all licensed products; a $0.4B charge for H200 excess inventory and purchase obligations was incurred in the first half of fiscal 2027; after that charge a fraction of the allowed shipments were made, accounting for **less than 1%** of Data Center revenue in the most recent quarter; the licenses require U.S. inspection before shipment, so H200s shipped under the program are **subject to a 25% tariff** on importation into the United States, which the company has been unable and does not expect to pass to customers. Graded `unclear`: **there was no change in export-control posture inside this window** — the H200 licensing program has existed since February 2026, and this 10-Q is the first quantification of that standing program's effect rather than an in-window loosening. Controls did not 'tighten further', and revenue has not recovered either, since the restored portion is immaterial to revenue and the issuer still builds its next-quarter outlook on a zero assumption, so a permanent China revenue gap is neither confirmed nor disconfirmed."
+          "zh": "Q3 FY2027 CFO Commentary 披露当季向中国出货的 Data Center Hopper 产品金额为 $2.4B，Q4 指引仍假设中国 Data Center compute 收入为零。披露给出了一个季度的特定产品出货金额。政策是否进一步收紧、收入能否持续恢复仍需后续可比披露，维持 unclear。",
+          "en": "The Q3 FY2027 CFO Commentary reports $2.4B in quarterly shipments of Data Center Hopper products to China. The Q4 outlook assumes zero Data Center compute revenue from China. The disclosed figure covers one quarter and one product family. Further tightening and the durability of revenue recovery remain unresolved, so the overall reading stays unclear."
         },
         "nextCheck": "出口管制政策动态 / export-control developments",
         "reading": "unclear",
-        "readingAsOf": "2026-08-26"
+        "readingAsOf": "2026-11-17"
       },
       {
         "id": "circular-financing-exposure",
