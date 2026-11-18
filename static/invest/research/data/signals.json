@@ -4495,5 +4495,28 @@
     "monitoringRefs": [
       "oklo-2026:fuel-supply"
     ]
+  },
+  {
+    "id": "kioxia-interim-dividend-semiannual-20261106",
+    "date": "2026-11-06",
+    "scope": "report-monitoring",
+    "title": {
+      "en": "Kioxia discloses its interim dividend in the semiannual filing",
+      "zh": "铠侠在半年度证券报告中披露中期股息"
+    },
+    "detail": {
+      "en": "Kioxia Holdings’ November 6 semiannual securities report, covering the six months ended September 30, discloses a board-approved interim dividend of ¥47.937 billion. The board resolved on October 30 to pay ¥90 per share on the pre-split basis, equivalent to ¥30 per share after the October 1 three-for-one split. September 30 is the record date and December 8 is the effective date. The filing also confirms 16,133,500 pre-split treasury shares acquired for ¥799.998 billion against the ¥800 billion cash ceiling. The disclosure establishes one interim distribution, while payment, future dividend policy and any buyback expansion remain to be verified. https://www.kioxia-holdings.com/content/dam/kioxia-hd/en-jp/ir/library/securities/asset/Semi-Annual-Securities-Report-FY2026-EN.pdf",
+      "zh": "铠侠控股 11 月 6 日提交的半年度证券报告（截至 9 月 30 日的六个月）披露，董事会于 10 月 30 日决议派发中期股息，合计 479.37 亿日元，拆股前每股 90 日元，按 10 月 1 日一股拆为三股换算为拆股后每股 30 日元。股权登记日为 9 月 30 日，股息生效日为 12 月 8 日。报告同时确认按拆股前口径回购 16,133,500 股，金额 7,999.98 亿日元，接近 8,000 亿日元的现金上限。该披露确认一次中期分配，实际付款、后续分红政策与回购是否加码仍待核实。 https://www.kioxia-holdings.com/content/dam/kioxia-hd/en-jp/ir/library/securities/asset/Semi-Annual-Securities-Report-FY2026-EN.pdf"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "285A.T"
+    ],
+    "reportIds": [
+      "kioxia-2026"
+    ],
+    "monitoringRefs": [
+      "kioxia-2026:capital-returns-execution"
+    ]
   }
 ]
