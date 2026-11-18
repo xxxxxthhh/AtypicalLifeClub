@@ -4538,5 +4538,28 @@
     "monitoringRefs": [
       "kioxia-2026:capital-returns-execution"
     ]
+  },
+  {
+    "id": "cameco-uranium-price-spread-20261030",
+    "date": "2026-10-30",
+    "title": {
+      "zh": "Cameco 转引的 10 月长期铀价升至 98 美元/磅",
+      "en": "Cameco’s October long-term uranium indicator rose to US$98/lb"
+    },
+    "detail": {
+      "zh": "Cameco 转引 UxC 与 TradeTech 的月末均价。2026-10-30 长期价与现货分别为 98.00 与 91.55 美元/磅，较 2026-09-30 的 96.50 与 89.63 美元均上升。长期价减现货的价差从 6.87 收窄至 6.45 美元/磅（自算）。 长期价上涨且仍高于现货。Q2 和 Q3 季末长期价均高于约 90 美元/磅，原条件维持阈内。 来源 https://www.cameco.com/invest/markets/uranium-price",
+      "en": "Cameco’s month-end UxC and TradeTech averages on October 30, 2026 were US$98.00/lb long-term and US$91.55/lb spot, both above the September 30 values of US$96.50 and US$89.63/lb. The derived long-term premium narrowed from US$6.87 to US$6.45/lb. The long-term indicator rose and remains above spot. Both Q2 and Q3 quarter-end long-term readings exceeded about US$90/lb, keeping the original condition within range. Sources https://www.cameco.com/invest/markets/uranium-price"
+    },
+    "scope": "report-monitoring",
+    "crossChecks": [],
+    "tickers": [
+      "CCJ"
+    ],
+    "reportIds": [
+      "cameco-2026"
+    ],
+    "monitoringRefs": [
+      "cameco-2026:term-vs-spot-spread"
+    ]
   }
 ]
