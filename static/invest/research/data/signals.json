@@ -4607,5 +4607,28 @@
     "monitoringRefs": [
       "tempus-ai-2026:data-apps-mix"
     ]
+  },
+  {
+    "id": "aaoi-new-atm-20261117",
+    "date": "2026-11-17",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "AAOI 签订 5.50 亿美元 ATM 协议",
+      "en": "AAOI signs a $550M ATM agreement"
+    },
+    "detail": {
+      "zh": "AAOI 于 2026-11-17 签订新的按市价发行协议，可通过两家销售代理不时发行普通股，发行总额上限为 5.50 亿美元。 公司没有出售义务，公告也未披露该协议下已发行股数、实际所得或收入／股。Q3 现金流与收入／股监控仍按该季已经披露的读数。 https://www.sec.gov/Archives/edgar/data/1158114/000110465926129055/tm2629531d2_8k.htm https://www.sec.gov/Archives/edgar/data/1158114/000110465926129055/tm2629531d2_ex1-1.htm",
+      "en": "AAOI signed a new at-the-market agreement on November 17, 2026 to sell common stock from time to time through two sales agents for up to $550 million in aggregate gross proceeds. The company has no obligation to sell. The filing gives no shares issued, actual proceeds or revenue per share under this agreement. The Q3 cash-flow and revenue-per-share reading still refers to the reported quarter. https://www.sec.gov/Archives/edgar/data/1158114/000110465926129055/tm2629531d2_8k.htm https://www.sec.gov/Archives/edgar/data/1158114/000110465926129055/tm2629531d2_ex1-1.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "AAOI"
+    ],
+    "reportIds": [
+      "aaoi-2026"
+    ],
+    "monitoringRefs": [
+      "aaoi-2026:cash-burn-dilution"
+    ]
   }
 ]
