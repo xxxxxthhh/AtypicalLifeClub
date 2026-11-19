@@ -1,13 +1,15 @@
 # Tempus AI (TEM) Deep Research Report
 
 Coverage date: 2026-02-27
-Last updated: 2026-11-03
+Last updated: 2026-11-19
 Ticker: NASDAQ: TEM
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
 ## 2026H1 Full Rerun Summary
+
+> **AstraZeneca contract update (signed November 16, 2026):** The fifth amendment to the Master Services Agreement is effective January 1, 2027 and extends the renewal term through December 31, 2031, subject to the contractual shortfall extension through 2032. AstraZeneca commits $200M in total qualifying fees across the renewal term, with a $40M annual target and a $32M annual floor subject to the agreement's terms. This is a multiyear contractual commitment. Timing, revenue recognition and the contribution to Data and Applications margins require subsequent disclosures. The valuation retains its August 24 historical anchor. The published stance and conviction are unchanged. [Form 8-K](https://www.sec.gov/Archives/edgar/data/1717115/000119312526466240/d138111d8k.htm) · [Exhibit 10.1](https://www.sec.gov/Archives/edgar/data/1717115/000119312526466240/d138111dex101.htm)
 
 > **2026-11-03 factual update**: Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1 and 10-Q, 2026-11-02) revenue was $411.5M (+23% YoY), with Diagnostics $303.5M (+20% YoY; oncology volume +32%, hereditary revenue +3%) and Data and Applications $108.1M (+33% YoY; Insights +29%); gross profit was $266.7M (+27% YoY); operating loss was $(56.9)M versus $(61.0)M; adjusted EBITDA was $25.6M versus $1.5M; net loss was $(14.9)M versus $(80.0)M. FY2026 revenue guidance was raised to $1.60-1.605B, and adjusted EBITDA remains about $65M.
 >
