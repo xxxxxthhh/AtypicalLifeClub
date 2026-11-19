@@ -1,13 +1,15 @@
 # Applied Optoelectronics (AAOI) Deep Research Report
 
 Coverage date: 2026-06-23
-Last updated: 2026-11-06
+Last updated: 2026-11-19
 Ticker: NASDAQ: AAOI
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
 ## Executive Summary
+
+> **AAOI signs a $550M ATM agreement**  AAOI signed a new at-the-market agreement on November 17, 2026 to sell common stock from time to time through two sales agents for up to $550 million in aggregate gross proceeds. The company has no obligation to sell. The filing gives no shares issued, actual proceeds or revenue per share under this agreement. The Q3 cash-flow and revenue-per-share reading still refers to the reported quarter. The report retains its historical valuation basis and published stance and conviction. [Source 1](https://www.sec.gov/Archives/edgar/data/1158114/000110465926129055/tm2629531d2_8k.htm) · [Source 2](https://www.sec.gov/Archives/edgar/data/1158114/000110465926129055/tm2629531d2_ex1-1.htm)
 
 > **2026-11-06 factual update**: Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1 and 10-Q, after the close on 2026-11-05) revenue was $269.9M (Q2 $191.9M; Q3 2025 $118.6M), inside the $255-290M guide; datacenter $155.6M, CATV $110.9M. GAAP / non-GAAP gross margin 28.2% / 28.7%, the non-GAAP figure below the 29%-30.5% guide range; GAAP net income $6.3M. Q4 2026 guide: revenue $385-420M at a 29.5%-31% non-GAAP gross margin. Nine-month operating cash flow was -$76.653M against -$73.781M for H1, so derived Q3 operating cash flow is about -$2.9M; nine-month purchases of property, plant and equipment were $702.1M. Subsequent events in the 10-Q: the third ATM was completed on 2026-10-01 (about 5.7M shares at a $105.36 average, about $588M net); a $200M East West Bank credit agreement was signed on 2026-10-30, replacing the BOKF facility; a three-year long-term agreement with a major hyperscale datacenter customer obliges that customer, with conditions, to buy 10% of certain 1.6T transceiver products from June 2026 to May 2029, with AAOI agreeing to maximum price levels; and a five-year supply framework for a key raw material was signed on 2026-11-02 (annual contract up to about $194.4M, prepayments up to $40.0M). The company now expects more than 500,000 pieces per month of 800G and 1.6T equipment capacity by the end of 2026 (about 650,000 stated at Q2) and says its US 2027 expansion will take longer because obtaining electrical power is taking longer than expected.
 >
