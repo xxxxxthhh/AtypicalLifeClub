@@ -4584,5 +4584,28 @@
     "monitoringRefs": [
       "cerebras-2026:cash-burn-capex"
     ]
+  },
+  {
+    "id": "tempus-astrazeneca-renewal-20261116",
+    "date": "2026-11-16",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Tempus 与阿斯利康续签多年期服务承诺",
+      "en": "Tempus and AstraZeneca renew their multiyear services commitment"
+    },
+    "detail": {
+      "zh": "Tempus 与阿斯利康于 2026-11-16 签订第五次修订，续约期自 2027 年起至 2031 年底。合格费用承诺合计 2 亿美元，年度目标 4,000 万美元，合同约定年度最低支出 3,200 万美元并受具体条款约束。 协议给出多年期需求承诺。年度支出下限受合同条款约束，分部收入及产品组合影响还有待财报确认。 https://www.sec.gov/Archives/edgar/data/1717115/000119312526466240/d138111d8k.htm https://www.sec.gov/Archives/edgar/data/1717115/000119312526466240/d138111dex101.htm",
+      "en": "Tempus and AstraZeneca signed the fifth amendment on November 16, 2026. The 2027–2031 renewal carries $200M of qualifying fee commitments, a $40M annual target and a $32M annual floor subject to the agreement’s terms. The agreement provides a multiyear demand commitment. Terms govern the annual floor, and financial statements will establish revenue and product-mix effects. https://www.sec.gov/Archives/edgar/data/1717115/000119312526466240/d138111d8k.htm https://www.sec.gov/Archives/edgar/data/1717115/000119312526466240/d138111dex101.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "TEM"
+    ],
+    "reportIds": [
+      "tempus-ai-2026"
+    ],
+    "monitoringRefs": [
+      "tempus-ai-2026:data-apps-mix"
+    ]
   }
 ]
