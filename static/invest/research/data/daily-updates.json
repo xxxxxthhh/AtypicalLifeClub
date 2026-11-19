@@ -3,6 +3,84 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "aaoi-2026",
+      "signalId": "aaoi-new-atm-20261117",
+      "type": "facts",
+      "evidenceDate": "2026-11-17",
+      "title": {
+        "en": "AAOI signs a $550M ATM agreement",
+        "zh": "AAOI 签订 5.50 亿美元 ATM 协议"
+      },
+      "change": {
+        "en": "AAOI signed a new at-the-market agreement on November 17, 2026 to sell common stock from time to time through two sales agents for up to $550 million in aggregate gross proceeds.",
+        "zh": "AAOI 于 2026-11-17 签订新的按市价发行协议，可通过两家销售代理不时发行普通股，发行总额上限为 5.50 亿美元。"
+      },
+      "meaning": {
+        "en": "The company has no obligation to sell. The filing gives no shares issued, actual proceeds or revenue per share under this agreement. The Q3 cash-flow and revenue-per-share reading still refers to the reported quarter.",
+        "zh": "公司没有出售义务，公告也未披露该协议下已发行股数、实际所得或收入／股。Q3 现金流与收入／股监控仍按该季已经披露的读数。"
+      },
+      "next": {
+        "en": "Check subsequent filings for shares issued and net proceeds, then recheck the compound trigger against Q4 cash flow and revenue per share.",
+        "zh": "核对后续文件中的实际发行股数及净所得，再用 Q4 现金流与收入／股复验合取条件。"
+      },
+      "id": "research-84b668ac6c8c8c0bc73295168b33b4de2fe595856dae555b3fab3aa2b85f0e59",
+      "publishedDate": "2026-11-19",
+      "company": "Applied Optoelectronics",
+      "ticker": "AAOI"
+    },
+    {
+      "reportId": "sandisk-2026",
+      "signalId": "sandisk-nbm-rpo-q1-fy2027",
+      "type": "facts",
+      "evidenceDate": "2026-10-30",
+      "title": {
+        "en": "Sandisk files $88.9B of NBM remaining performance obligations",
+        "zh": "SanDisk 季报披露 889 亿美元 NBM 剩余履约义务"
+      },
+      "change": {
+        "en": "Sandisk’s Q1 FY2027 10-Q, filed October 30, 2026, reports $88.9 billion of NBM remaining performance obligations at October 2. Of that total, $87.4 billion was unbilled and $1.5 billion recorded as contract liabilities. The company expects to recognize about 20% over the next 12 months.",
+        "zh": "SanDisk 2026-10-30 提交的 Q1 FY2027 10-Q 披露，截至 10 月 2 日，NBM 剩余履约义务为 889 亿美元，其中 874 亿美元未开票，约 15 亿美元计入合同负债，约 20% 预计未来 12 个月确认为收入。"
+      },
+      "meaning": {
+        "en": "The company recognized $281 million of opening contract liabilities as revenue during the quarter. The footnote does not reconcile the aggregate RPO to the minimum revenue management attributed to five agreements. FY2027 bit coverage and deliveries against those five agreements remain unverified.",
+        "zh": "本季从期初合同负债确认收入 2.81 亿美元。该附注没有把 RPO 总额与管理层提及的五份协议最低收入逐项对账。FY2027 bit 覆盖和五份协议的逐单兑现仍待证实。"
+      },
+      "next": {
+        "en": "Track recognition, delivery by contract and explicit FY2027 bit coverage in subsequent filings.",
+        "zh": "追踪财报中的实际确认收入、逐协议交付与具名 FY2027 bit 覆盖。"
+      },
+      "id": "research-f90d04f942339eb249f8f007e3340e487e6399b09f16e7e5960e777a2e0e9303",
+      "publishedDate": "2026-11-19",
+      "company": "SanDisk",
+      "ticker": "SNDK"
+    },
+    {
+      "reportId": "tempus-ai-2026",
+      "signalId": "tempus-astrazeneca-renewal-20261116",
+      "type": "facts",
+      "evidenceDate": "2026-11-16",
+      "title": {
+        "en": "Tempus and AstraZeneca renew their multiyear services commitment",
+        "zh": "Tempus 与阿斯利康续签多年期服务承诺"
+      },
+      "change": {
+        "en": "Tempus and AstraZeneca signed the fifth amendment on November 16, 2026. The 2027–2031 renewal carries $200M of qualifying fee commitments, a $40M annual target and a $32M annual floor subject to the agreement’s terms.",
+        "zh": "Tempus 与阿斯利康于 2026-11-16 签订第五次修订，续约期自 2027 年起至 2031 年底。合格费用承诺合计 2 亿美元，年度目标 4,000 万美元，合同约定年度最低支出 3,200 万美元并受具体条款约束。"
+      },
+      "meaning": {
+        "en": "The agreement provides a multiyear demand commitment. Terms govern the annual floor, and financial statements will establish revenue and product-mix effects.",
+        "zh": "协议给出多年期需求承诺。年度支出下限受合同条款约束，分部收入及产品组合影响还有待财报确认。"
+      },
+      "next": {
+        "en": "Track recognized revenue, spend against the commitment and Data and Applications mix from 2027.",
+        "zh": "跟踪自 2027 年起的收入确认、支出履约以及数据与应用分部的组合。"
+      },
+      "id": "research-02dac6528836eed207a46a646999c2cf3f1d8213b2cb8f86554c3cf36a31c81c",
+      "publishedDate": "2026-11-19",
+      "company": "Tempus AI",
+      "ticker": "TEM"
+    },
+    {
       "reportId": "cameco-2026",
       "signalId": "cameco-uranium-price-spread-20261030",
       "type": "facts",
