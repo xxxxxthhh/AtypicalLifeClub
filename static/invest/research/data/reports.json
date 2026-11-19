@@ -3224,8 +3224,8 @@
         ]
       },
       "downgrade": {
-        "zh": "已处于最低档（bearish-avoid），不设更低档位；以下任一成立即维持回避并将确信度由低上调至中（仅一次）：Q4 2026 起任一季度收入低于该季公司指引下沿（Q4 2026 为 $385M），或非 GAAP 毛利率低于该季公司指引下沿（Q4 2026 为 29.5%）；单季经营现金流为负（相邻两份申报年初至今数相减推算）且收入/股（单季收入 ÷ 该季申报封面流通股）环比下降；公司在申报或业绩稿中披露占收入 10% 或以上的单一客户（含 Digicomm）推迟、削减或取消订单。",
-        "en": "Already at the lowest stance (bearish-avoid); there is no lower tier. Any one of the following keeps the avoid call and raises conviction from low to medium (once only): from Q4 2026, revenue in any quarter below the low end of that quarter's company guidance ($385M for Q4 2026), or non-GAAP gross margin below the low end of that quarter's company guidance (29.5% for Q4 2026); single-quarter operating cash flow negative (derived by subtracting adjacent filings' year-to-date figures) and revenue per share (single-quarter revenue / that quarter's filing cover share count) declining quarter over quarter; the company discloses in a filing or earnings release that a single customer with 10% or more of revenue (Digicomm included) has delayed, reduced or cancelled orders.",
+        "zh": "已处于最低档（bearish-avoid），不设更低档位；以下任一成立即维持回避并将确信度由低上调至中（仅一次）：Q4 2026 起任一季度收入低于该季公司指引下沿（Q4 2026 为 $385M），或非 GAAP 毛利率低于该季公司指引下沿（Q4 2026 为 29.5%）；单季经营现金流为负（同一财年内相邻两份申报的年初至今数相减推算；财年第一季直接取该季申报的年初至今数）且收入/股（单季收入 ÷ 该季申报封面流通股）环比下降；公司在申报或业绩稿中披露占收入 10% 或以上的单一客户（含 Digicomm）推迟、削减或取消订单。",
+        "en": "Already at the lowest stance (bearish-avoid); there is no lower tier. Any one of the following keeps the avoid call and raises conviction from low to medium (once only): from Q4 2026, revenue in any quarter below the low end of that quarter's company guidance ($385M for Q4 2026), or non-GAAP gross margin below the low end of that quarter's company guidance (29.5% for Q4 2026); single-quarter operating cash flow negative (derived by subtracting the prior filing's year-to-date figure from the current one within the same fiscal year; for the first fiscal quarter, the quarter's year-to-date figure is used directly) and revenue per share (single-quarter revenue / that quarter's filing cover share count) declining quarter over quarter; the company discloses in a filing or earnings release that a single customer with 10% or more of revenue (Digicomm included) has delayed, reduced or cancelled orders.",
         "monitoringIds": [
           "guide-delivery",
           "cash-burn-dilution",
@@ -3352,8 +3352,8 @@
           "en": "Cash burn & ATM dilution"
         },
         "trigger": {
-          "zh": "单季经营现金流为负（相邻两份申报年初至今数相减推算）且收入/股（单季收入 ÷ 该季申报封面流通股）环比下降",
-          "en": "Single-quarter operating cash flow negative (derived by subtracting adjacent filings' year-to-date figures) and revenue per share (single-quarter revenue / that quarter's filing cover share count) declining quarter over quarter"
+          "zh": "单季经营现金流为负（同一财年内相邻两份申报的年初至今数相减推算；财年第一季直接取该季申报的年初至今数）且收入/股（单季收入 ÷ 该季申报封面流通股）环比下降",
+          "en": "Single-quarter operating cash flow negative (derived by subtracting the prior filing's year-to-date figure from the current one within the same fiscal year; for the first fiscal quarter, the quarter's year-to-date figure is used directly) and revenue per share (single-quarter revenue / that quarter's filing cover share count) declining quarter over quarter"
         },
         "latest": {
           "zh": "Q3 2026 10-Q（2026-11-05）：九个月经营现金流 −$76.653M，减去 H1 的 −$73.781M，得 Q3 单季约 −$2.872M（推算），现金流腿成立。收入/股：Q3 收入 $269.875M ÷ 10-Q 封面流通股 90,770,732 股（2026-11-02）≈ $2.97，高于 Q2 约 $2.27，稀释腿不成立。两腿须同时成立，故评级为阈内。证据边界：封面股本已含 2026-10-01 完成的第三轮 ATM（约 570 万股、净约 $588M），这是季后发行；九个月购置固定资产 $702.1M。 AAOI 于 2026-11-17 签订新的按市价发行协议，可通过两家销售代理不时发行普通股，发行总额上限为 5.50 亿美元。 公司没有出售义务，公告也未披露该协议下已发行股数、实际所得或收入／股。Q3 现金流与收入／股监控仍按该季已经披露的读数。 2026-11-19：触发文本与 stanceTriggers 逐字对齐，口径与 2026-08-23 修订相同（“10-Q”改为“申报”，以覆盖 Q4 的 10-K）。",
