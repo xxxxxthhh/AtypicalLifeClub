@@ -20,6 +20,13 @@
       <description>SanDisk 2026-10-30 提交的 Q1 FY2027 10-Q 披露，截至 10 月 2 日，NBM 剩余履约义务为 889 亿美元，其中 874 亿美元未开票，约 15 亿美元计入合同负债，约 20% 预计未来 12 个月确认为收入。 2026-10-30 — Q1 FY2027（季度截至 2026-10-02，2026-10-29 发布）收入 $110.31 亿（环比 +23%、同比 +378%），高于原 $103-108 亿指引；GAAP 毛利率 85.0%、非 GAAP 85.1%（Q4 FY2026：84.6%），高于 GAAP 83.0-84.9% / 非 GAAP 83.0-85.0% 指引；GAAP 营业利润 $87.80 亿（营业利润率 79.6%）。数据中心收入 $48.02 亿（环比 +61%），按新闻稿表格自算约占收入 43.5%（Q4 约 33.2%）；Edge $58.32 亿（+7%）、消费 $3.97 亿（-29%）。经营现金流 $63.63 亿、资本开支 $0.54 亿、自由现金流 $63.09 亿；公司定义的调整后自由现金流 $56.96 亿（扣除 $1.48 亿 Flash Ventures 净活动与 $4.65 亿 NBM 预付款及保证金；63.09 − 1.48 − 4.65 = 56.96 亿美元）。Q2 FY2027 指引收入 $122-126 亿、毛利率 GAAP 84.4-85.4% / 非 GAAP 84.5-85.5%。新闻稿未涉及约 $420 亿 NBM 最低合同收入、RPO、FY2027 committed-bit 覆盖或交付，也无 NAND 合同价与 bit 结构数据；上述新闻稿读数为当时口径。估值仍按 2026-08-17 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。</description>
     </item>
     <item>
+      <title>NVIDIA 深度研究报告 - AI 计算中枢的高质量与高预期 / NVIDIA Deep Research Report - The AI Compute Hub, High Quality Meets High Expectations</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=nvidia-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=nvidia-2026#nvidia-2026@2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <description>2026-11-17 治理事实更正（不更新经营监测或估值）：2026-11-12 提交的 8-K Item 5.02 明确：董事会于 2026-11-11 接受黄仁勋辞去总裁、CEO 及董事职务，即时生效；CFO Colette Kress 出任临时 CEO 并继续兼任 CFO，董事会寻找永久继任者；Harvey C. Jones 同日获任董事会主席。附件新闻稿日期为 11-12，不把它与 8-K 当作两个独立发布族，也不将附件日期覆盖 8-K 的 11-11 生效日。公司称客户承诺和产品路线将不受中断，是管理层预期，不是本轮已观察到的经营结果。原文没有给出辞任原因，不推测原因或价格因果。 下列财务与估值叙述保留其原证据日期：v5 回填：NVIDIA 仍是 AI compute profit pool 的中枢。最新披露的 Q2 FY2027（截至 2026-07-26）营收 $96.2B（同比 +106%）、Data Center $89.0B（同比 +117%、环比 +18%），毛利率 75.0%；Q3 FY2027 指引营收 $108.0B±2%，且不假设任何来自中国的 Data Center compute 收入。同一份 10-Q 显示供应与产能采购承诺由上季 $119B 升至 $279B，公司称主要用于采购内存。以 **2026-07-30 收盘 $195.04** 计的约 $4.74T 市值与 mid-20s forward P/E 是明确标注日期的历史估值快照，其分母仍为 Q1 FY2027 口径、未按 Q2 FY2027 重算：市场定价的不是泛泛 AI CAGR，而是 GPU+networking+systems+software 继续保护盈利分母。30% 牛市 / 50% 基准 / 20% 熊市情景给出温和正偏斜，因此改为偏多 / 中确信；风险仍是 hyperscaler capex、自定义 ASIC、中国和循环融资减值。</description>
+    </item>
+    <item>
       <title>AAOI 深度研究报告 - AI数据中心光模块高弹性与估值重定价 / AAOI Deep Research Report - AI Data Center Optics High Beta and Valuation Re-Rating</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=aaoi-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=aaoi-2026#aaoi-2026@2026-11-19</guid>
@@ -60,13 +67,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=asml-2026#asml-2026@2026-11-18</guid>
       <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
       <description>AI 基础设施 semicap-equipment 层的公共约束：ASML 验证 foundry / memory capex 是否真正穿过光刻、EUV、High-NA、长期协议和出口管制这道最硬瓶颈。Q2 2026 net sales EUR 9.326B、gross margin 54.0%、net income EUR 2.918B；FY2026 指引第二次上调至 net sales EUR 43-45B、gross margin 54-56%，并计划把 2027 年 low-NA EUV 与 DUV immersion 产能各较 2026 年增加 30%。本次监测没有季度 net bookings 或 backlog 披露，因此只加强设备侧确认，不证明客户特定 capex 已全部承诺。2026-07-31 重新锚定至 2026-07-30 收盘 ADR $1,651.44、市值约 $636.5B、约 14.6x EV/2026E sales；倍数仍高于基准情景所设的高个位数至低十几倍区间，且立场并不主要依赖倍数，维持中性观察 / 中确信。</description>
-    </item>
-    <item>
-      <title>NVIDIA 深度研究报告 - AI 计算中枢的高质量与高预期 / NVIDIA Deep Research Report - The AI Compute Hub, High Quality Meets High Expectations</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=nvidia-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=nvidia-2026#nvidia-2026@2026-11-18</guid>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
-      <description>2026-11-17 治理事实更正（不更新经营监测或估值）：2026-11-12 提交的 8-K Item 5.02 明确：董事会于 2026-11-11 接受黄仁勋辞去总裁、CEO 及董事职务，即时生效；CFO Colette Kress 出任临时 CEO 并继续兼任 CFO，董事会寻找永久继任者；Harvey C. Jones 同日获任董事会主席。附件新闻稿日期为 11-12，不把它与 8-K 当作两个独立发布族，也不将附件日期覆盖 8-K 的 11-11 生效日。公司称客户承诺和产品路线将不受中断，是管理层预期，不是本轮已观察到的经营结果。原文没有给出辞任原因，不推测原因或价格因果。 下列财务与估值叙述保留其原证据日期：v5 回填：NVIDIA 仍是 AI compute profit pool 的中枢。最新披露的 Q2 FY2027（截至 2026-07-26）营收 $96.2B（同比 +106%）、Data Center $89.0B（同比 +117%、环比 +18%），毛利率 75.0%；Q3 FY2027 指引营收 $108.0B±2%，且不假设任何来自中国的 Data Center compute 收入。同一份 10-Q 显示供应与产能采购承诺由上季 $119B 升至 $279B，公司称主要用于采购内存。以 **2026-07-30 收盘 $195.04** 计的约 $4.74T 市值与 mid-20s forward P/E 是明确标注日期的历史估值快照，其分母仍为 Q1 FY2027 口径、未按 Q2 FY2027 重算：市场定价的不是泛泛 AI CAGR，而是 GPU+networking+systems+software 继续保护盈利分母。30% 牛市 / 50% 基准 / 20% 熊市情景给出温和正偏斜，因此改为偏多 / 中确信；风险仍是 hyperscaler capex、自定义 ASIC、中国和循环融资减值。</description>
     </item>
     <item>
       <title>Oklo 深度研究报告 - 前商业化核能期权与AI电力需求 / Oklo Deep Research Report - Pre-Commercial Nuclear Optionality Meets AI Power Demand</title>

@@ -1,11 +1,11 @@
 # NVIDIA (NVDA) Deep Research Report
 
 Coverage date: 2026-06-26
-Last updated: 2026-11-18
+Last updated: 2026-11-19
 Ticker: NASDAQ: NVDA
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
-> **Fiscal-year note:** NVIDIA's fiscal year ends in late January. In this report **FY2026** is the year ended 2026-01-25; **Q1 FY2027** is the quarter ended 2026-04-26 (reported 2026-05-20), the latest quarter as of publication. Unlike the calendar-quarter convention used in this center's other reports, NVIDIA figures always use the company's official fiscal labels. Read alongside this center's Broadcom, AMD, GE Vernova and Bloom Energy reports — NVIDIA and Broadcom form the "compute side" of AI infrastructure, while GE Vernova and Bloom are the "power side"; only together can the full AI-infrastructure chain be assessed.
+> **Fiscal-year note:** NVIDIA's fiscal year ends in late January. In this report **FY2026** is the year ended 2026-01-25; **Q1 FY2027** is the quarter ended 2026-04-26 (reported 2026-05-20), the latest quarter at initial publication; as of 2026-11-19 the latest reported quarter is **Q3 FY2027** (ended 2026-10-25, reported 2026-11-17). Unlike the calendar-quarter convention used in this center's other reports, NVIDIA figures always use the company's official fiscal labels. Read alongside this center's Broadcom, AMD, GE Vernova and Bloom Energy reports — NVIDIA and Broadcom form the "compute side" of AI infrastructure, while GE Vernova and Bloom are the "power side"; only together can the full AI-infrastructure chain be assessed.
 
 ---
 
@@ -19,9 +19,11 @@ Disclaimer: This report is for informational and research purposes only. It does
 >
 > Valuation remains on the 2026-07-30 historical basis; financial denominators, share count and forward-earnings inputs await Mode B recomputation with the Q3 FY2027 results. The published stance and conviction are unchanged. [NVIDIA release](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027) · [8-K Item 2.02](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm) · [CFO Commentary](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm) · [Q2 release with Q3 guidance](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm)
 
+> **2026-11-19 body factual sync:** the executive-summary thesis line, the Key data table, Section 1 Business Overview, Section 3 Financial Health, Section 4 Management & Governance, Section 9 catalysts and the appendix sources are synced to the Q3 FY2027 press release, the CFO Commentary (Exhibit 99.2 to the Item 2.02 8-K) and the Item 5.02 8-K. The Q3 FY2027 Form 10-Q has not been filed (the CFO Commentary says it will be filed in the coming weeks), so details disclosed only in a 10-Q are unverified in this run. The Sections 5–7 theses, the Section 8 valuation context and scenario grid, and the Section 10 conclusion keep their original as-written basis and have not been recomputed on Q3 FY2027; the published stance and conviction are unchanged.
+
 ## Executive Summary
 
-**One-line thesis:** NVIDIA is the indispensable hub of this AI-compute cycle — the CUDA software ecosystem + a full-stack system (GPU + NVLink + networking) + an annual product cadence form the strongest moat in the market today. Q2 FY2027 revenue reached $96.2B (+106% YoY) with Data Center at $89.0B (+117% YoY, +18% sequentially), while Q3 guidance of $108.0B±2% assumes zero China Data Center compute revenue. **The core question is not "is it good" but "at what slope can a base this large keep beating expectations, with custom-ASIC competition rising, China structurally impaired, and buyer-side AI capex durability still unproven."**
+**One-line thesis:** NVIDIA is the indispensable hub of this AI-compute cycle — the CUDA software ecosystem + a full-stack system (GPU + NVLink + networking) + an annual product cadence form the strongest moat in the market today. Q3 FY2027 revenue reached $115.8B (+103% YoY, +20% sequentially) with Data Center at $107.6B (+110% YoY, +21% sequentially), while Q4 guidance of $130.0B±3%, which includes an additional week, still assumes zero China Data Center compute revenue. **The core question is not "is it good" but "at what slope can a base this large keep beating expectations, with custom-ASIC competition rising, China structurally impaired, and buyer-side AI capex durability still unproven."**
 
 **Verdict:** **Constructive / medium conviction.** The v5 scenario grid separates skew from conviction: NVIDIA's accelerator profit pool, rack/system attach, networking/software moat, and annual platform cadence still make the base case positively skewed; custom ASICs, China at zero, AI capex slope, and circular-financing impairment would reset the earnings denominator, so the stance does not move to bullish.
 
@@ -63,19 +65,21 @@ Disclaimer: This report is for informational and research purposes only. It does
 | Forward P/E (FY2027E) | ~25x (vs AMD ~58x, Broadcom ~33x) |
 | P/E (FY2026 GAAP) | ~39x ($4.74T / FY2026 net income $120.1B) |
 | EV/TTM Sales | ~18-19x (TTM revenue ~$253B) |
-| Q1 FY2027 revenue | $81.6B (+85% YoY, +20% QoQ) |
-| Q1 FY2027 Data Center | $75.2B (+92% YoY, +21% QoQ) |
-| Q1 FY2027 Gaming | $7.07B (+58% YoY) |
-| Q1 FY2027 gross margin (GAAP / non-GAAP) | 74.9% / 75.0% |
-| Q1 FY2027 EPS (GAAP / non-GAAP) | $2.39 / $1.87 (GAAP includes a $15.9B unrealized equity gain) |
-| Q2 FY2027 guidance | revenue $91.0B ±2%, GM ~75% (**assumes no China Data Center compute revenue**) |
+| Q3 FY2027 revenue | $115.8B ($115,844M; +103% YoY, +20% QoQ; above the upper end of the $108.0B ±2% Q3 guide) |
+| Q3 FY2027 Data Center | $107.6B (+110% YoY, +21% QoQ; of which Hyperscale $60.1B and AI Clouds, Industrial, & Enterprise $47.5B) |
+| Q3 FY2027 Edge Computing | $8.2B (+42% YoY, +14% QoQ) |
+| Q3 FY2027 gross margin (GAAP / non-GAAP) | 74.8% / 74.9% |
+| Q3 FY2027 EPS (GAAP / non-GAAP) | $2.70 / $2.68 (GAAP includes $1.8B of net gains from equity securities) |
+| Q4 FY2027 guidance | revenue $130.0B ±3% (includes an additional week), GAAP and non-GAAP GM 71.0%–72.0% (**assumes no China Data Center compute revenue**) |
 | FY2026 revenue | $215.9B (+65% YoY) |
 | FY2026 Data Center | ~$193.7B |
 | FY2026 GAAP net income / EPS | $120.1B / $4.90 |
 | FY2026 gross margin (GAAP / non-GAAP) | 71.1% / 71.3% |
-| Cash & marketable securities | $50.3B |
-| Capital return | +$80B buyback authorization + quarterly dividend $0.01→$0.25 |
-| AI ecosystem equity investments / commitments (public reporting) | 2026 H1 public-report estimate >$40B (incl. OpenAI, CoreWeave, etc.); not all of it is company-disclosed cash deployment |
+| Cash, cash equivalents & marketable debt securities | $53.5B (end of Q3 FY2027) |
+| Capital return | Q3 buybacks + cash dividends $28.1B; buyback authorization raised by $150B in Sep 2026 (no expiration), $227.3B remaining at Q3 end; quarterly dividend $0.25 |
+| AI ecosystem equity investments / commitments | Company-disclosed: $20B of future equity-investment commitments as of 2026-10-25, plus $32B of contingent neocloud-agreement commitments; Q3 net loss of $1.0B on non-marketable equity securities (including $1.8B of impairment). The 2026 H1 public-report estimate of >$40B is a historical reading |
+
+Note: the price, market cap, 52-week range, P/E and EV/TTM Sales rows are a 2026-07-30 historical snapshot whose denominators keep their as-written basis and have not been recomputed on Q3 FY2027; the remaining operating and balance-sheet rows are synced to Q3 FY2027.
 
 ---
 
@@ -85,9 +89,9 @@ Founded in 1993, NVIDIA started in graphics (GPUs) and, with the 2006 launch of 
 
 **Revenue is heavily concentrated in Data Center:**
 
-- **Data Center (~92% of Q1 FY2027):** the absolute core. It includes GPUs for AI training/inference (Hopper → Blackwell → Blackwell Ultra/GB300 → Rubin), rack-scale systems (GB200/GB300 NVL72), networking (NVLink, InfiniBand, Spectrum-X Ethernet) and the software stack. Q1 FY2027 Data Center revenue was $75.2B (+92% YoY), driven by the Blackwell 300 (GB300) ramp and strong networking demand.
-- **Gaming (~9%):** GeForce RTX; Q1 FY2027 revenue $7.07B (+58% YoY) — still a steady cash cow, but a supporting act next to Data Center.
-- **Pro Visualization, Auto & Robotics:** smaller, long-dated optionality (autonomous driving, humanoid robotics via Jetson/Thor, Omniverse digital twins), with limited revenue contribution today.
+- **Data Center (~93% of Q3 FY2027):** the absolute core. It includes GPUs for AI training/inference (Hopper → Blackwell → Blackwell Ultra/GB300 → Vera Rubin), rack-scale systems (GB200/GB300/Vera Rubin NVL72), Vera CPUs, networking (NVLink, InfiniBand, Spectrum-X Ethernet) and the software stack. Q3 FY2027 Data Center revenue was $107.6B (+110% YoY, +21% QoQ), of which Hyperscale was $60.1B (+71% YoY) and AI Clouds, Industrial, & Enterprise $47.5B (+195% YoY); the company attributes the growth to the introduction of its Rubin infrastructure (its fastest architecture ramp ever), standalone Vera CPUs and continued Blackwell Ultra growth, and Vera Rubin NVL72 has begun shipping.
+- **Edge Computing (~7%):** Q3 FY2027 revenue $8.2B (+42% YoY, +14% QoQ), which the company attributes to Blackwell workstation sales and edge compute for Physical AI, while higher memory and system prices continue to affect consumer PC demand. The Q3 FY2027 CFO Commentary reports two market platforms, Data Center and Edge Computing (reportable segments: Compute & Networking $106.0B, Graphics $9.8B); its tables do not break out Gaming, Pro Visualization or Automotive revenue.
+- **Robotics, autonomous driving & Physical AI:** disclosed under Edge Computing in the press release (Alpamayo/Halos autonomous-driving tools, the Isaac and Jetson Thor robotics platforms, Cosmos world models); still long-dated optionality with no separate revenue disclosed.
 
 **The business model:** NVIDIA does not sell a single GPU; it sells the full design of an "AI factory." Customers (clouds, sovereign AI, enterprises) buy a system that directly produces tokens — silicon + interconnect + a software stack (CUDA, cuDNN, TensorRT, NIM microservices). That hardware-software bundle makes switching costs enormous once a customer builds on CUDA, and is the root cause of durable 70%+ gross margins.
 
@@ -121,7 +125,17 @@ Data Center revenue is concentrated in a few hyperscalers (Microsoft, Amazon, Go
 
 ## 3. Financial Health
 
-### 3.1 Q1 FY2027: a record set with "China at zero"
+### 3.1 Q3 FY2027: the first Rubin quarter, revenue of $115.8B
+
+Q3 FY2027 (ended 2026-10-25, reported 2026-11-17):
+
+- Total revenue **$115.8B** ($115,844M; +103% YoY, +20% QoQ), above the $110.16B upper end of the prior $108.0B ±2% guide; Data Center **$107.6B** (+110% YoY, +21% QoQ); Edge Computing **$8.2B** (+42% YoY). Reportable segments: Compute & Networking $106.0B, Graphics $9.8B.
+- GAAP / non-GAAP gross margin **74.8% / 74.9%**: up year over year on improved Blackwell Ultra mix, down slightly sequentially, which the company attributes to the initial Rubin ramp. GAAP / non-GAAP operating expenses $9.2B / $8.8B (+57% / +52% YoY).
+- GAAP / non-GAAP diluted EPS **$2.70 / $2.68**, GAAP / non-GAAP net income $65.3B / $64.9B. The gap narrowed sharply from Q2: Q3 net gains from equity securities were **$1.8B**, made up of $2.8B of net gains on publicly held equity securities and a $1.0B net loss on non-marketable equity securities (**including $1.8B of impairment**); the CFO Commentary does not identify the investees behind the impairment.
+- China: shipments of Data Center Hopper products to China were **$2.4B** in the quarter. **The Q4 FY2027 outlook (revenue $130.0B ±3%, including an additional week) still assumes no Data Center compute revenue from China**; GAAP and non-GAAP gross margins are guided to 71.0%–72.0% and operating expenses to about $11.0B / $10.7B; the full-year FY2027 tax rate is expected at 16.0%–18.0%.
+- Commitments: supply commitments rose from $279B last quarter to **$390B**, which the company attributes primarily to multi-year memory procurement; cloud service agreements and data-center lease commitments total $102B (from $74B), with the not-yet-commenced leases expected to commence between Q4 FY2027 and FY2033. As with Q2, this is a buyer-side commitment caliber and no named supplier's orders or revenue are inferred from it.
+
+### 3.2 Historical comparative · Q1 FY2027: a record set with "China at zero"
 
 Q1 FY2027 (ended 2026-04-26) is a "still accelerating despite missing a leg" print:
 
@@ -130,7 +144,7 @@ Q1 FY2027 (ended 2026-04-26) is a "still accelerating despite missing a leg" pri
 - Non-GAAP diluted EPS **$1.87** (+140% YoY).
 - **The single most important sentence: guidance (Q2 FY2027 revenue $91.0B ±2%) assumes no China Data Center compute revenue**, and there were no Hopper Data Center shipments to China in the quarter (vs $4.6B a year earlier). In other words, this record print was achieved with the China market essentially zeroed.
 
-### 3.2 GAAP profit is inflated by a $15.9B unrealized equity gain — read with care
+### 3.3 GAAP profit is inflated by a $15.9B unrealized equity gain — read with care (Q1 FY2027 basis)
 
 Q1 FY2027 shows an anomaly: **GAAP EPS ($2.39) is higher than non-GAAP EPS ($1.87)**. The cause is **net gains from equity securities of $15.9B** in the quarter, primarily **unrealized** appreciation in publicly-held and non-marketable equity stakes (e.g., CoreWeave).
 
@@ -140,11 +154,12 @@ Two implications:
 2. **It ties the income statement directly to the AI capital cycle.** When AI valuations rise, NVIDIA's GAAP profit is amplified by the mark-ups; if AI private/public valuations pull back, this flows the other way — a new source of income-statement volatility that moves with the AI cycle.
 3. **Concentration risk in the equity portfolio is not fully transparent.** The CoreWeave stake (~$2B at IPO) accounts for only a fraction of the $15.9B Q1 gain; the bulk likely comes from private-company mark-ups whose valuations are mark-to-model rather than mark-to-market, and whose concentration across a few large positions is not publicly broken out. A concentrated pullback in AI private valuations would flow through GAAP earnings disproportionately.
 
-### 3.3 Balance sheet solid, capital return turning aggressive
+### 3.4 Balance sheet solid, capital return turning aggressive
 
-- Cash and marketable securities of **$50.3B**, small debt, positive net cash — a sound structure.
-- Capital return stepped up sharply: a **new $80B buyback authorization** and the quarterly dividend raised from $0.01 to **$0.25** (25x). This usually signals management's high confidence in free-cash-flow durability.
-- But read it alongside 2026 H1 public reports of **>$40B** in AI ecosystem equity investments / commitments (Section 7). "Large buybacks/dividends and large outbound investing at the same time" is not contradictory (FCF is ample), but the direction of the investing (into ecosystem partners / potential customers) is the heart of the valuation debate.
+- Cash, cash equivalents and marketable debt securities of **$53.5B** at the end of Q3 FY2027 (from $56.6B last quarter); $1.0B of senior notes repaid in the quarter; Q3 operating cash flow $48.3B and free cash flow $43.8B ($43,777M). Debt is small and the structure is sound.
+- Capital return stepped up again: a record **$28.1B** returned in Q3 through buybacks and cash dividends; in September 2026 the Board added **$150B** to the buyback authorization (no expiration), leaving **$227.3B** at Q3 end, which the company plans to use through FY2028; the quarterly dividend is **$0.25**, next payable on 2026-12-23. (Earlier, a new $80B authorization was added and the quarterly dividend was raised from $0.01 to $0.25.)
+- Working capital is absorbing more: accounts receivable $81.0B with DSO up from 60 to 64 days, which the company attributes to Rubin shipment linearity and extended payment terms on large multi-quarter agreements with certain investment-grade customers; inventory rose from $31.6B to **$39.7B** to support the Rubin ramp.
+- But read it alongside the company's disclosed commitments as of 2026-10-25: future commitments of **$518B** (supply and capacity $390B, cloud services $28B, data-center leases not commenced $74B, equity investments $20B, capex $6B), $32B of contingent neocloud-agreement commitments, and maximum gross guarantee exposure of **$118.0B** (SB Energy $105.0B, neocloud land/power/shell $3.5B, power and systems credit support $9.5B), with no payments made on the guarantees to date. "Large buybacks/dividends and large outbound investing and guarantees at the same time" is not contradictory (FCF is ample), but the direction of the investing (into ecosystem partners / potential customers) is the heart of the valuation debate.
 
 ## 4. Management & Governance
 
@@ -152,9 +167,11 @@ Founder and former CEO **Jensen Huang** led from 1993 until 2026-11-11 and is on
 
 **Governance and points to monitor:**
 
-- **Capital allocation enters a new phase:** from "almost no dividend, asset-light" to "$80B buyback + dividend + large AI ecosystem equity investments / commitments." The latter (investing in customers/ecosystem) is a new, sizeable capital-allocation bet whose returns need to be validated over coming quarters.
+- **Leadership transition (Item 5.02 8-K filed 2026-11-12):** on 2026-11-11 the Board accepted Jen-Hsun Huang's resignation as President, CEO and director; Colette M. Kress (59), CFO since 2013, became interim CEO while continuing as CFO as the Board searches for a new CEO; Harvey C. Jones (73), a director since 1993, was appointed Board Chair. The Q3 FY2027 Item 2.02 8-K is signed by Kress as Interim CEO, EVP and CFO. The filing gives no reason for the resignation.
+- **Independent board-committee investigation:** the forward-looking-statement lists in the Q3 FY2027 press release and CFO Commentary refer to "the ongoing investigation by an independent committee of our board of directors and related matters"; the sources used in this run disclose neither the subject, scope, start date nor findings (unverified), and no cause or impact is inferred.
+- **Capital allocation enters a new phase:** from "almost no dividend, asset-light" to "large buybacks + dividend + large AI ecosystem equity investments / commitments / guarantees": $150B more buyback authorization in September 2026 ($227.3B remaining at Q3 end), alongside $20B of future equity-investment commitments, $32B of contingent neocloud commitments and $118.0B of maximum gross guarantee exposure as of 2026-10-25, plus an announced agreement to acquire Hugging Face. The latter (investing in customers/ecosystem) is a new, sizeable capital-allocation bet whose returns need to be validated over coming quarters.
 - **Insider selling:** at all-time-high prices, track founder/executive routine (10b5-1) selling cadence as a sentiment/valuation reference, not a short thesis.
-- **Key-person dependence:** strategy is tightly bound to Jensen Huang — a tail consideration to include in long-term governance.
+- **Key-person dependence:** strategy was long tightly bound to Jensen Huang; he left on 2026-11-11 and a permanent CEO is still being sought, so execution and strategic continuity through the transition are governance variables to track.
 
 **Historical management grade from the original report: A (outstanding execution + long-term strategic foresight); this is not a grade of the interim leadership, and the new capital-allocation direction remains to be proven.**
 
@@ -213,10 +230,12 @@ Founder and former CEO **Jensen Huang** led from 1993 until 2026-11-11 and is on
 ## 9. Catalysts & Monitoring Checklist
 
 **Near-term (0-6 months):**
-- Q2 FY2027 results (~August 2026): whether it delivers the $91B guide, holds 75% gross margin, and the next-quarter guidance slope.
+- Q4 FY2027 results (a quarter with an additional week): whether it delivers the $130.0B ±3% revenue guide, lands gross margin inside the 71.0%–72.0% guide, and the next-quarter guidance slope.
+- Q3 FY2027 Form 10-Q (the CFO Commentary says it will be filed in the coming weeks): detail and counterparties behind the guarantees, purchase commitments and non-marketable equity impairment.
 - Hyperscaler (MSFT/GOOG/META/AMZN) quarterly capex-guidance direction.
 - Any change in China export policy.
-- Rubin platform launch/shipment timeline and early orders.
+- The Vera Rubin NVL72 ramp (now shipping) and its effect on gross margin, inventory ($39.7B at Q3 end) and receivables (64 days DSO).
+- Further disclosure on the permanent CEO search and the independent board-committee investigation; progress on the Hugging Face acquisition.
 
 **Medium-term (6-18 months):**
 - Actual custom-ASIC penetration data in inference workloads.
@@ -249,6 +268,9 @@ Move to bullish if Q3 FY2027 delivers the $108.0B plus-or-minus-2% revenue guide
 - [NVIDIA 8-K Exhibit 99.1 press release, 2026-08-17](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/sbeoainvidia-portsrelease.htm) — PORTS-Pike LPS partnership with SB Energy, US$1.5B SB Energy investment, 8 IT-GW customer framing, 10 GW generation and US$4.2B AEP Ohio grid plan
 - [NVIDIA Form 10-Q, quarter ended 2026-07-26, filed 2026-08-26](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm) — supply-and-capacity commitments $119B→$279B, total purchase obligations $366B, maximum gross guarantee exposure $108.5B, Exhibit 10.1 Form of Residual Value Guaranty (terms redacted), H200 and the 25% tariff
 - [NVIDIA Q2 FY2027 press release, Exhibit 99.1, 2026-08-26](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm) — revenue $96.221B, Data Center $89.0B, 75.0% gross margin, Q3 guide $108.0B ±2% excluding China DC compute revenue
+- [NVIDIA Q3 FY2027 press release, 2026-11-17](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027) — revenue $115.8B, Data Center $107.6B, Q4 guide $130.0B ±3% excluding China DC compute revenue, $150B buyback-authorization increase, Hugging Face acquisition agreement
+- [NVIDIA Item 2.02 8-K, 2026-11-17](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm) and [Q3 FY2027 CFO Commentary, Exhibit 99.2](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm) — supply commitments $279B→$390B, total future commitments $518B, maximum gross guarantee exposure $118.0B, $1.8B non-marketable equity impairment, $2.4B Hopper shipments to China, inventory $39.7B, 64 days DSO; Q3 10-Q not yet filed
+- [NVIDIA Item 5.02 8-K, filed 2026-11-12](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm) — Jen-Hsun Huang's departure effective 2026-11-11, Colette M. Kress interim CEO and CFO, Harvey C. Jones Board Chair
 - [NVIDIA Q2 FY2027 CFO Commentary, Exhibit 99.2, 2026-08-26](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm) — commitments to $279B "primarily related to the procurement of memory", inventory $31.6B
 - Quote & market cap: [Yahoo Finance NVDA](https://finance.yahoo.com/quote/NVDA/), [CompaniesMarketCap NVDA](https://companiesmarketcap.com/nvidia/marketcap/), [Macrotrends market cap/shares](https://www.macrotrends.net/stocks/charts/NVDA/nvidia/market-cap)
 - Competition & valuation comps: Broadcom custom ASIC and AMD MI450 (public reporting / industry breakdowns, 2026 H1; not all items are direct company disclosures)
@@ -258,5 +280,5 @@ Move to bullish if Q3 FY2027 delivers the $108.0B plus-or-minus-2% revenue guide
 - Market cap estimated at ~24.30B shares × $195.04; different sources put market cap in the ~$4.6-5.0T range depending on date and methodology.
 - TTM revenue ≈ FY2026 $215.9B − Q1 FY26 ~$44B + Q1 FY27 $81.6B ≈ $253B; EV nets out ~$42B of net cash.
 - Forward P/E ~25x, AMD ~58x, Broadcom ~33x reflect a mid-2026 (~May) market read and move with price and expectations.
-- Figures labeled FY2026 / Q1 FY2027 are company-reported; competitor figures are public-reporting estimates and should be reconciled to the latest 10-Q/results at the next review.
+- Figures labeled FY2026 / Q1–Q3 FY2027 are company-reported; competitor figures are public-reporting estimates and should be reconciled to the latest 10-Q/results at the next review.
 - This report is **initial coverage**; it includes no prior-cycle comparison. The 2026-07-07 v5 backfill adds the stance/conviction frame through scenario assumptions, probability weights, and priced-in expectations. Refresh price, guidance and valuation anchors once subsequent quarters are disclosed.
