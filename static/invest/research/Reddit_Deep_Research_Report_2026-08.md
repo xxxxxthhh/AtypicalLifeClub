@@ -1,7 +1,7 @@
 # Reddit, Inc. (RDDT) Deep Research Report
 
 Coverage date: 2026-08-01
-Last updated: 2026-10-02
+Last updated: 2026-11-19
 Ticker: NYSE: RDDT
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -9,14 +9,17 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 ## 1. Executive Summary and Current View <!-- report-module:overview -->
 
+> **Update (2026-11-19): Q3 2026 results and stance flip to neutral-watch.** Reddit reported Q3 2026 (quarter ended 2026-09-30) on 2026-10-29 (8-K `0001713445-26-000114`, Exhibit 99.1 earnings release and Exhibit 99.2 shareholder letter) and filed its Q3 10-Q (`0001713445-26-000116`). **Results:** revenue **$895.0M (+53%)**, above the $860–870M guide; advertising revenue $847.0M (+54%), other revenue $48.0M (+35%); net income $283.3M, diluted EPS $1.40; adjusted EBITDA **$402.3M, a 44.9% margin** (40.3% in Q3'25). **Users:** U.S. DAUq **50.7M**, after 53.5M in Q1 and 53.2M in Q2, so **−0.6% and −4.7% sequentially** (−2% YoY); U.S. ARPU **$13.82 (+53% YoY)**. The release still reports the logged-in / logged-out split, so the expectation recorded below that it would end with Q3 did not materialize: U.S. logged-in DAUq rose from 23.1M to 23.4M while U.S. logged-out DAUq fell from 30.1M to 27.3M. The letter says search referral traffic was "down meaningfully" in Q3, with the decline accelerating late in the quarter and continuing into early Q4, and that if October's rate continues, total DAUq could fall by a low-double-digit percentage in Q4 from about 130M. **Guidance:** Q4 revenue $1,000–1,030M (midpoint $1,015M, about +39.9% YoY), adjusted EBITDA $480–510M. **Stance: neutral-watch | Conviction: low (moved from constructive on 2026-11-19)** — the pre-committed downgrade leg "U.S. DAUq declines sequentially in two consecutive quarters" fired verbatim, so the stance flips. No other downgrade leg fired (U.S. ARPU +53% against a +25% floor; Q3 revenue and the Q4 guide midpoint above their lines; adjusted EBITDA margin up year over year in Q2 and Q3; no disclosed Google renewal or non-renewal). **The valuation is not re-derived:** the §8 grid stays anchored at the 2026-10-01 close of $149.53 (weighted $200.44 per share, +13.9% annualized) as a historical anchor, not a reason to hold. The latest close is **$94.09 (2026-11-18)**, −37.1% from that anchor (Sections 9 and 10). **Sources:** the Q3 earnings release and shareholder letter (8-K Exhibits 99.1 and 99.2) and the Q3 10-Q, SEC EDGAR; the Q1 and Q2 earnings releases for the earlier U.S. DAUq readings.
+
 **One-line thesis:** Reddit delivered a nearly flawless Q2 2026 on the financials, but the composition of that growth has changed — the primary source of revenue growth has shifted from user acquisition to per-user monetization, while the U.S. daily-active base that generates roughly 78% of revenue went flat-to-slightly-down. At the same time, a single Google contract bundles both licensing revenue and search distribution, and it expires in the first half of 2027. The market erased 21% of the company's value in one session after the print; what it repriced was not the quarter, but visibility into the top of the funnel.
 
 **Investment judgment:**
 
 - ~~**Stance:** Neutral-to-constructive (on valuation) / low conviction (on visibility)~~
-- **Update (2026-10-02) — Stance:** constructive. **Conviction:** low. At the 2026-10-01 close of $149.53, the 30/50/20 scenario grid in §8 weights to $200.44 per share at end-2028, or +13.9% annualized over 2.248 years against an 8% hurdle. The skew is positive but multiple-fragile: cutting every exit multiple by three turns takes the weighted return to +4.5%, which is why conviction stays low.
+- ~~**Update (2026-10-02) — Stance:** constructive. **Conviction:** low. At the 2026-10-01 close of $149.53, the 30/50/20 scenario grid in §8 weights to $200.44 per share at end-2028, or +13.9% annualized over 2.248 years against an 8% hurdle. The skew is positive but multiple-fragile: cutting every exit multiple by three turns takes the weighted return to +4.5%, which is why conviction stays low.~~
+- **Update (2026-11-19) — Stance:** neutral-watch. **Conviction:** low. Moved from constructive: the pre-committed downgrade leg "U.S. DAUq declines sequentially in two consecutive quarters" fired with the Q3 release (53.5M → 53.2M → 50.7M). The 2026-10-01 grid in §8 is not re-derived; it stays as the historical anchor and is not a reason to hold. The latest close is $94.09 (2026-11-18). See §10 for the return-to-constructive and cautious conditions.
 - **Confidence:** Low. The positive skew comes from valuation arithmetic, while the variable that decides the thesis — search referral traffic — is one management itself describes as having "low visibility." Any higher confidence would be false precision.
-- **Key catalysts:** Q3 2026 results in late October 2026 (the first independent test of U.S. DAU and ad growth), the outcome of the Google data-licensing renewal (expires H1 2027), and any new AI licensing agreement. **Update (2026-10-02):** the Q3 date had not been announced by 2026-10-02; data providers estimate 2026-10-29 after the close (stockanalysis.com, an estimate, not a company announcement).
+- **Key catalysts:** Q3 2026 results in late October 2026 (the first independent test of U.S. DAU and ad growth), the outcome of the Google data-licensing renewal (expires H1 2027), and any new AI licensing agreement. **Update (2026-10-02):** the Q3 date had not been announced by 2026-10-02; data providers estimate 2026-10-29 after the close (stockanalysis.com, an estimate, not a company announcement). **Update (2026-11-19):** Q3 was reported on 2026-10-29; next are the Q4 2026 results (expected February 2027), the Google renewal outcome and the logged-in-only tests the company says begin in Q4 in select markets outside the U.S.
 - **Monitoring window:** 3–12 months
 
 **What changed between 2026-08-01 and 2026-10-02 (Update (2026-10-02)):**
@@ -400,7 +403,7 @@ What each scenario requires:
 - **Base:** U.S. DAU stays flat, ARPU growth converges down from +51%, and the Google agreement renews on neutral terms. FY2027 growth of +25% is set below the +31.8% consensus.
 - **Bear:** the Google agreement is not renewed and the decline in referrals carries through to U.S. DAU and ad inventory. The multiple compresses to between Pinterest and Snap.
 
-**The probability-weighted annualized return of +13.9% is 5.9 points above the 8% hurdle and 3.9 points above 10%.** The skew is positive: +92% in the bull case against -38% in the bear case.
+**The probability-weighted annualized return of +13.9% is 5.9 points above the 8% hurdle and 3.9 points above 10%.** The skew is positive: +92% in the bull case against -38% in the bear case. **Update (2026-11-19):** the stance is not set by this arithmetic. The pre-committed U.S. DAUq downgrade leg fired with the Q3 release, so the stance moved to neutral-watch (§10). This grid, anchored at the 2026-10-01 close of $149.53, is not re-derived in this update and is kept as the historical anchor.
 
 **Sensitivity test (this is what sets conviction at low):**
 
@@ -447,11 +450,11 @@ The fragility of this derivation must be stated alongside it: it assumes Reddit 
 
 | Catalyst | Timing | Impact |
 |----------|--------|--------|
-| **Q3 2026 results** | Late October 2026 (estimated; Update 2026-10-02: date not announced, providers estimate 2026-10-29) | **The single most important event this year.** Tests: whether U.S. DAU returns to sequential growth, whether U.S. ARPU YoY growth holds, delivery against the $860-870M revenue guide, and the Q4 guide |
+| **Q3 2026 results** | Late October 2026 (estimated; Update 2026-10-02: date not announced, providers estimate 2026-10-29) | **The single most important event this year.** Tests: whether U.S. DAU returns to sequential growth, whether U.S. ARPU YoY growth holds, delivery against the $860-870M revenue guide, and the Q4 guide. **Update (2026-11-19):** reported 2026-10-29. U.S. DAUq fell for a second straight quarter (50.7M, −4.7% QoQ), which fired the downgrade leg; U.S. ARPU +53%, revenue $895.0M against the guide, Q4 guide $1,000–1,030M |
 | Google data-licensing renewal | Before H1 2027 (contract expiry); announcement timing uncertain | Dual impact (revenue plus the distribution inference, see §6.2). Any leaked terms or company confirmation would reprice the stock materially |
 | A new AI licensing agreement | Event-driven, no fixed date | The strongest single catalyst for the bull case: it would simultaneously prove competing demand for the data asset and the viability of a dynamic-pricing structure |
 | Pace of the remaining $760M buyback authorization | Ongoing; disclosed with Q3 results | Repurchase intensity after a 21% decline is management's real statement on its own valuation view |
-| Discontinuation of the logged-in / logged-out split | Effective from Q3 2026 | Already confirmed; the effect is reduced external verifiability and a longer time to thesis confirmation |
+| Discontinuation of the logged-in / logged-out split | ~~Effective from Q3 2026~~ **Update (2026-11-19):** not effective; the Q3 2026 release still reports the split | ~~Already confirmed; the effect is reduced external verifiability and a longer time to thesis confirmation~~ **Update (2026-11-19):** the split remains available (Q3 U.S. logged-in 23.4M / logged-out 27.3M); it does not by itself quantify search referrals |
 | Q4 2026 results and FY2027 guidance | February 2027 (estimated) | The first FY2027 framework, testing the base-case assumptions in the §8 scenario grid directly |
 | Third-party traffic monitoring data | Ongoing (monthly) | Independent readings on Reddit's search referrals from services such as Similarweb — the only high-frequency verification source between prints |
 | Effective tax-rate normalization | Timing unknown | A one-time depression of EPS growth that could trigger an earnings-quality re-rating |
@@ -463,18 +466,21 @@ The fragility of this derivation must be stated alongside it: it assumes Reddit 
 1. **Sequential direction of U.S. DAUq** — the single most important metric. Two consecutive quarters of sequential decline breaks the bull case.
    - Monitoring id: `us-dau-direction`.
    - Trigger: U.S. DAUq declines sequentially in two consecutive quarters.
-   - Latest reading (Update 2026-10-02): Q2 2026 U.S. DAUq was 53.2M against 53.5M in Q1 2026, -0.6% QoQ, which is inside rounding and seasonal noise. It was +6% YoY, down from +7% in Q1. From Q3 2026 the company no longer discloses the logged-in / logged-out split.
-   - Next check: Q3 2026 results (expected late October 2026; date not announced as of 2026-10-02).
+   - Latest reading (Update 2026-11-19; graded **breached** as of 2026-10-29): U.S. DAUq was 53.5M in Q1 2026, 53.2M in Q2 and 50.7M in Q3, falling 0.6% and 4.7% sequentially; Q3 fell 2% YoY (51.6M a year earlier). The Q3 release still includes the logged-in / logged-out split: U.S. logged-in DAUq 23.4M (Q2: 23.1M), logged-out 27.3M (Q2: 30.1M). The shareholder letter says search referral traffic was down meaningfully in Q3, accelerating late in the quarter and continuing into early Q4, and that if October's rate continues total DAUq could fall by a low-double-digit percentage in Q4 from about 130M. The two consecutive declines meet the stated condition; the stance moved from constructive to neutral-watch on 2026-11-19 on this leg.
+   - ~~Latest reading (Update 2026-10-02): Q2 2026 U.S. DAUq was 53.2M against 53.5M in Q1 2026, -0.6% QoQ, which is inside rounding and seasonal noise. It was +6% YoY, down from +7% in Q1. From Q3 2026 the company no longer discloses the logged-in / logged-out split.~~ (historical; the split was in fact still reported for Q3)
+   - Next check: Q4 2026 results (expected February 2027; date not announced).
 2. **U.S. quarterly ARPU YoY growth** — the rate of convergence down from +51%. Falling below +25% signals the monetization dividend has peaked.
    - Monitoring id: `us-arpu-growth`.
    - Trigger: U.S. ARPU year-over-year growth falls below +25%.
-   - Latest reading (Update 2026-10-02): Q2 2026 U.S. ARPU was $11.85, +51% YoY (Q1 2026: $9.63). Q2 U.S. revenue by billing address was $638.1M, +56% YoY (Q2 2026 10-Q).
-   - Next check: Q3 2026 results (expected late October 2026; date not announced as of 2026-10-02).
+   - Latest reading (Update 2026-11-19; graded within as of 2026-10-29): Q3 2026 U.S. ARPU was $13.82 versus $9.04 a year earlier, up about 53% YoY, above the +25% floor.
+   - Previous reading (2026-10-02, historical): Q2 2026 U.S. ARPU was $11.85, +51% YoY (Q1 2026: $9.63). Q2 U.S. revenue by billing address was $638.1M, +56% YoY (Q2 2026 10-Q).
+   - Next check: Q4 2026 results (expected February 2027; date not announced).
 3. **Advertising revenue YoY growth** — Q3 guidance implies +47% to +49% total revenue growth; watch whether ad growth keeps pace.
    - Monitoring id: `ad-revenue-growth`.
    - Trigger: Q3 2026 revenue below the $860M low end of guidance, or a Q4 2026 revenue guidance midpoint implying less than +35% YoY (below about $979.6M against Q4 2025's $725.61M).
-   - Latest reading (Update 2026-10-02): Q2 2026 revenue was $804.9M (+61% YoY) and advertising revenue was $761.6M (+64%). Q3 guidance is $860-870M (+47% to +49%). This report's FY2026E assumes Q4 revenue of about $1,017M (+40.1% YoY). The S&P Global consensus of $3.39B for FY2026 implies a Q4 of about $1,057M.
-   - Next check: Q3 2026 results (expected late October 2026; date not announced as of 2026-10-02).
+   - Latest reading (Update 2026-11-19; graded within as of 2026-10-29): Q3 2026 revenue was $895.0M (+53% YoY) against guidance of $860–870M, with advertising revenue of $847.0M (+54%). The $1.00–1.03B Q4 guide implies a $1.015B midpoint (about +39.9% against Q4 2025's $725.61M), above the approximately $979.6M threshold.
+   - Previous reading (2026-10-02, historical): Q2 2026 revenue was $804.9M (+61% YoY) and advertising revenue was $761.6M (+64%). Q3 guidance is $860-870M (+47% to +49%). This report's FY2026E assumes Q4 revenue of about $1,017M (+40.1% YoY). The S&P Global consensus of $3.39B for FY2026 implies a Q4 of about $1,057M.
+   - Next check: Q4 2026 results (expected February 2027; date not announced).
 4. **Active advertiser count growth** — currently +70% YoY, a leading indicator for ARPU sustainability.
    - Monitoring id: `active-advertiser-growth`.
    - Trigger: Active advertiser YoY growth falls below +30%, or management stops disclosing it.
@@ -483,13 +489,15 @@ The fragility of this derivation must be stated alongside it: it assumes Reddit 
 5. **Other revenue (data licensing), YoY and absolute** — currently $43M per quarter. Renewal outcomes will show up in this line first.
    - Monitoring id: `google-data-licensing`.
    - Trigger: Bear: the Google agreement is confirmed not to renew and the company simultaneously discloses a sharp decline in search referrals. Bull: the Google agreement renews on flat or better terms, or a new AI licensing agreement of comparable scale is signed.
-   - Latest reading (Update 2026-10-02): Q2 2026 other revenue was $43.3M (+24% YoY). The Google agreement is known only from media reports: roughly $60M a year, signed February 2024 and expiring H1 2027. The latest report is the WSJ's of 2026-07-22 that Reddit was weighing cutting Google's AI access. There was no company disclosure by 2026-10-02. Separately, media reported on 2026-09-22 that a California judge found Anthropic bound by Reddit's user agreement; the procedural posture is unverified.
-   - Next check: Q3 2026 call and any renewal announcement.
+   - Latest reading (Update 2026-11-19; graded within as of 2026-10-29): Q3 2026 other revenue was $48.0M (+35% YoY). Neither the Q3 release, the shareholder letter nor the 10-Q discloses a renewal or non-renewal of the Google agreement; the 10-Q says only that existing content licensing deals may or may not be renewed. The letter discloses that search referral traffic was "down meaningfully" in Q3. The bear condition needs a confirmed non-renewal and a sharp search-referral decline together: the second is now disclosed, the first is not, so it has not fired; the bull condition is not met either.
+   - Previous reading (2026-10-02, historical): Q2 2026 other revenue was $43.3M (+24% YoY). The Google agreement is known only from media reports: roughly $60M a year, signed February 2024 and expiring H1 2027. The latest report is the WSJ's of 2026-07-22 that Reddit was weighing cutting Google's AI access. There was no company disclosure by 2026-10-02. Separately, media reported on 2026-09-22 that a California judge found Anthropic bound by Reddit's user agreement; the procedural posture is unverified.
+   - Next check: Q4 2026 results and any renewal announcement.
 6. **Adjusted EBITDA margin** — Q3 guided to roughly 45%. If margins retreat while revenue decelerates, operating leverage has topped out.
    - Monitoring id: `adj-ebitda-margin`.
    - Trigger: Adjusted EBITDA margin contracts year over year in two consecutive quarters.
-   - Latest reading (Update 2026-10-02): Q2 2026 adjusted EBITDA was $342.8M, a 42.6% margin, against $166.7M (33.4%) in Q2 2025. Q3 guidance is $385-395M (+63% to +67% YoY) on revenue guided +47% to +49%, which implies further year-over-year margin expansion.
-   - Next check: Q3 2026 results (expected late October 2026; date not announced as of 2026-10-02).
+   - Latest reading (Update 2026-11-19; graded within as of 2026-10-29): Q3 2026 adjusted EBITDA was $402.3M with a 44.9% margin versus 40.3% a year earlier; Q2 was 42.6% (33.4%), so both quarters expanded year over year. Q4 adjusted EBITDA guidance is $480-510M.
+   - Previous reading (2026-10-02, historical): Q2 2026 adjusted EBITDA was $342.8M, a 42.6% margin, against $166.7M (33.4%) in Q2 2025. Q3 guidance is $385-395M (+63% to +67% YoY) on revenue guided +47% to +49%, which implies further year-over-year margin expansion.
+   - Next check: Q4 2026 results (expected February 2027; date not announced).
 7. **Buyback execution** — the quarterly burn rate against the remaining $760M authorization.
    - Monitoring id: `buyback-execution`.
    - Trigger: Net share count rises in both Q3 and Q4 2026, meaning repurchases fail to offset issuance.
@@ -502,17 +510,25 @@ The fragility of this derivation must be stated alongside it: it assumes Reddit 
 
 ~~**The expectations gap in one sentence:** at $140.67 the market implicitly requires roughly 22% FY2027 revenue growth (on a mature-platform 6x EV/Sales basis); this report's base case is +22% to +28%, landing right at or above that bar — the current price pays for a growth slowdown, but not for a collapse, and not for the international-monetization and AI-licensing-dynamic-pricing options.~~
 
-**Update (2026-10-02) — the expectations gap in one sentence:** at $149.53, earning 8% a year to end-2028 requires 2026-28 revenue growth of about 17% a year at a 14x exit EV/adjusted EBITDA; our base case is 21% and consensus FY2027 is +32%. The price already discounts a deceleration from +61% to the high teens, but not the bear case's single digits.
+**Update (2026-10-02, historical; not re-derived at the 2026-11-19 price) — the expectations gap in one sentence:** at $149.53, earning 8% a year to end-2028 requires 2026-28 revenue growth of about 17% a year at a 14x exit EV/adjusted EBITDA; our base case is 21% and consensus FY2027 is +32%. The price already discounts a deceleration from +61% to the high teens, but not the bear case's single digits.
 
 ~~**Stance and conviction: neutral-to-constructive, low conviction.** Scenario weights of 30/50/20 — bull (cheap) 30%, base (fair) 50%, bear (expensive) 20% — produce a positive weighted skew.~~
 
-**Update (2026-10-02) — stance and conviction: constructive, low conviction.**
-- **The grid:** the 30/50/20 grid (bull $286.56 / base $191.88 / bear $92.67) weights to **$200.44 per share, +34.0% against $149.53, or +13.9% annualized** over 2.248 years. That is 5.9 points above the 8% hurdle and 3.9 points above 10%. The skew is positive, +92% in the bull case against -38% in the bear case, and the base case alone earns +11.7% a year. Hence **stance: constructive**.
+**Update (2026-11-19) — stance and conviction: neutral-watch (from constructive), low conviction.**
+- **The pre-committed clause fired, so the stance flips.** The 10-02 downgrade list is disjunctive (any one leg triggers it), and one leg reads "U.S. DAUq declines sequentially in two consecutive quarters". It was written when the grid already showed +13.9% a year, and it carried no "unless the grid still clears the hurdle" or "unless the other metrics beat their lines" exception. The 2026-10-29 Q3 release shows U.S. DAUq at 53.5M (Q1), 53.2M (Q2) and 50.7M (Q3), −0.6% and −4.7% sequentially, so the leg fired word for word, `us-dau-direction` is graded breached, and on 2026-11-19 the stance moves from constructive to **neutral-watch**.
+- **The other legs did not fire, and the rule has no "unless":** U.S. ARPU $13.82, +53% YoY (floor +25%); Q3 revenue $895.0M (guide floor $860M) and a Q4 guide midpoint of $1,015M (line about $979.6M); adjusted EBITDA margin 44.9% in Q3 (40.3%) and 42.6% in Q2 (33.4%), no year-over-year contraction; no disclosed Google renewal or non-renewal. The Google leg needs a confirmed non-renewal and a sharp search-referral decline together; the letter now discloses the second, but not the first.
+- **Why this leg matters:** the report's core finding is that growth switched from users to monetization, and how far monetization can run depends on the U.S. base not shrinking. The Q3 decline sits in logged-out users (U.S. logged-out DAUq 30.1M → 27.3M) while U.S. logged-in DAUq rose (23.1M → 23.4M). The letter says search referrals were down meaningfully in Q3 and kept falling into early Q4, by more than 1 million referrals a week on average in October, and that total DAUq could fall by a low-double-digit percentage in Q4 if that rate continues. The search-referral risk flagged at initiation as the decisive variable has moved from expectation to company disclosure.
+- **Valuation is not re-derived:** the 2026-10-01 grid below stays as the historical anchor. The latest close is $94.09 (2026-11-18), −37.1% from $149.53, but the price fall is not by itself a reason to hold the old stance or to return early; the way back to constructive runs through the user evidence in the upgrade condition below.
+- **Why not cautious:** only the DAUq leg fired; revenue, ARPU and margin are well above their lines, U.S. logged-in DAUq still grew sequentially, and period-end cash and marketable securities were $3.03B. Cautious is the next step if the forward legs below fire.
+- **Why conviction is low:** the search-referral decline is still under way, the company itself flags further DAUq downside in Q4, and the user-base and exit-multiple assumptions behind the grid have not been retested at the new price.
+
+~~**Update (2026-10-02) — stance and conviction: constructive, low conviction.**~~ (historical; superseded on 2026-11-19)
+- **The grid:** the 30/50/20 grid (bull $286.56 / base $191.88 / bear $92.67) weights to **$200.44 per share, +34.0% against $149.53, or +13.9% annualized** over 2.248 years. That is 5.9 points above the 8% hurdle and 3.9 points above 10%. The skew is positive, +92% in the bull case against -38% in the bear case, and the base case alone earns +11.7% a year. Hence **stance: constructive** (2026-10-02; superseded).
 - **Why not bullish:** the skew is multiple-fragile. Three turns of exit-multiple compression take the weighted return to +4.5%, slower growth combined with that compression takes it to +0.2%, and a 20/40/40 weighting gives +6.2%.
-- **Why not neutral-watch:** at central assumptions the weighted return clears the hurdle by about 6 points. The base case is set below consensus (FY2027 +25% against +31.8%). The balance sheet holds $14.37 per share of net cash and no debt. A neutral label would describe the uncertainty, not the arithmetic.
+- ~~**Why not neutral-watch:** at central assumptions the weighted return clears the hurdle by about 6 points. The base case is set below consensus (FY2027 +25% against +31.8%). The balance sheet holds $14.37 per share of net cash and no debt. A neutral label would describe the uncertainty, not the arithmetic.~~ **Update (2026-11-19):** superseded; the pre-committed DAUq leg fired, and the downgrade condition carried no grid-arithmetic exception.
 - **Why conviction is low:** the reasons below are unchanged from initiation, and the sensitivity table adds a third. The 2026-08 to 2026-09 price drift (+6.3%) came mainly from S&P 500 inclusion flows, not from new fundamental evidence.
 
-Initiation reasoning on conviction, still valid: conviction is set at low because the variable that determines that skew, search referral traffic, is the one management itself describes as having "low visibility" with continued volatility expected, and because the most direct public metric for verifying it (the logged-in / logged-out split) is discontinued starting next quarter. **The positive skew comes from valuation arithmetic, not from high confidence in the fundamentals; the two should not be conflated.**
+Initiation reasoning on conviction, still valid: conviction is set at low because the variable that determines that skew, search referral traffic, is the one management itself describes as having "low visibility" with continued volatility expected, and because the most direct public metric for verifying it (the logged-in / logged-out split) is discontinued starting next quarter (**Update 2026-11-19:** that did not happen; the Q3 release still reports the split, and the letter now describes the search-referral decline directly, with an October figure). **The positive skew comes from valuation arithmetic, not from high confidence in the fundamentals; the two should not be conflated.**
 
 One point should be stated plainly: this report does not view the post-print -21% as a mispricing. Q2 did expose a real structural change — the growth engine switched from users to monetization, and monetization has a ceiling. Repricing for that is rational. This report's judgment is narrower: after the repricing, the price is not expensive for the base case.
 
@@ -527,20 +543,25 @@ One point should be stated plainly: this report does not view the post-print -21
 - ~~Q4 2026 revenue guidance implies less than +35% YoY growth; or~~
 - ~~the Google agreement is confirmed not to renew and the company simultaneously discloses a sharp decline in search referrals.~~
 
-**Update (2026-10-02) — upgrade and downgrade triggers (identical clause by clause to `stanceTriggers` in reports.json):**
+**Update (2026-11-19) — upgrade and downgrade triggers (identical clause by clause to `stanceTriggers` in reports.json):**
 
-- **Upgrade to bullish — all of the following:**
-  - U.S. DAUq grows sequentially in both Q3 and Q4 2026.
-  - The Google agreement renews on flat or better terms, or a new AI licensing agreement of comparable scale is signed.
-  - Q3 2026 revenue is at or above the $870M top of guidance.
-- **Downgrade to neutral-watch — any one of the following:**
-  - U.S. DAUq declines sequentially in two consecutive quarters.
+- ~~**Upgrade to bullish — all of the following:**~~ **Update (2026-11-19):** superseded by the flip to neutral-watch; the 10-02 conditions are kept, struck, below:
+  - ~~U.S. DAUq grows sequentially in both Q3 and Q4 2026.~~ **No longer reachable (Q3 U.S. DAUq fell, 2026-10-29).**
+  - ~~The Google agreement renews on flat or better terms, or a new AI licensing agreement of comparable scale is signed.~~
+  - ~~Q3 2026 revenue is at or above the $870M top of guidance.~~ (met on 2026-10-29: $895.0M)
+- **Update (2026-11-19) — return to constructive: all of the following:**
+  - U.S. DAUq grows sequentially again (first testable in the Q4 2026 results, against Q3's 50.7M).
+  - Revenue in the same quarter is at or above the low end of company guidance ($1,000M for Q4 2026).
+  - U.S. ARPU year-over-year growth in the same quarter is at least +25%.
+- **Downgrade to ~~neutral-watch~~ cautious (target updated 2026-11-19) — any one of the following:**
+  - ~~U.S. DAUq declines sequentially in two consecutive quarters.~~ **Fired 2026-10-29 (breached: 53.5M → 53.2M → 50.7M); the stance flipped to neutral-watch on 2026-11-19 on this leg.**
+  - **Update (2026-11-19):** U.S. DAUq falls sequentially by more than 5% in another quarter (below about 48.17M in Q4 2026), or U.S. logged-in DAUq declines sequentially (Q3: 23.4M).
   - U.S. ARPU year-over-year growth falls below +25%.
   - Q3 2026 revenue below the $860M low end of guidance, or a Q4 2026 revenue guidance midpoint implying less than +35% YoY (below about $979.6M).
   - The Google agreement is confirmed not to renew and the company simultaneously discloses a sharp decline in search referrals.
   - Adjusted EBITDA margin contracts year over year in two consecutive quarters.
 
-~~This is a monitoring perspective, not an allocation recommendation: a beta of 1.94, short interest at 8.83% of shares outstanding, and a 52-week range of $119.27-$282.95 (the high is 2.4x the low) describe an extremely volatile stock, and the next meaningful verification point (Q3 results) is roughly three months away.~~ **Update (2026-10-02):** this is a monitoring perspective, not an allocation recommendation. A beta of 2.05, short interest at 10.32% of shares outstanding and a 52-week range of $119.27-$263.50 (the high is 2.2x the low) describe an extremely volatile stock. The next meaningful verification point, Q3 results, is about four weeks away. Any position should sit within a risk budget appropriate to a high-volatility asset, and the Q3 U.S. DAU reading should be treated as a more important signal than the price action.
+~~This is a monitoring perspective, not an allocation recommendation: a beta of 1.94, short interest at 8.83% of shares outstanding, and a 52-week range of $119.27-$282.95 (the high is 2.4x the low) describe an extremely volatile stock, and the next meaningful verification point (Q3 results) is roughly three months away.~~ **Update (2026-10-02):** this is a monitoring perspective, not an allocation recommendation. A beta of 2.05, short interest at 10.32% of shares outstanding and a 52-week range of $119.27-$263.50 (the high is 2.2x the low) describe an extremely volatile stock. The next meaningful verification point, Q3 results, is about four weeks away. Any position should sit within a risk budget appropriate to a high-volatility asset, and the Q3 U.S. DAU reading should be treated as a more important signal than the price action. **Update (2026-11-19):** the Q3 U.S. DAU reading fired the downgrade leg; the next verification point is the Q4 2026 results (expected February 2027), where U.S. DAUq and U.S. logged-in DAUq against Q3 decide between the return-to-constructive and cautious conditions above.
 
 ## 11. Appendix: Assumptions and Sources <!-- report-module:appendix -->
 
@@ -599,6 +620,11 @@ One point should be stated plainly: this report does not view the post-print -21
   - **stockanalysis.com statistics and forecast pages, retrieved 2026-10-02:** market cap, EV, multiples, beta, short interest, the S&P Global consensus (FY2026 revenue $3.39B and non-GAAP EPS $7.68; FY2027 $4.46B and $9.69), and the target-price distribution.
   - **Reddit v. Anthropic ruling:** Yahoo Finance and other media, 2026-09-22. **Media reporting; the procedural posture is unverified.**
   - **Google renewal talks:** CNBC, 2026-07-22, citing the WSJ. **Media reporting.**
+- **Added 2026-11-19:**
+  - **Reddit Form 8-K filed 2026-10-29** (`0001713445-26-000114`): Exhibit 99.1, the Q3 2026 earnings release (`earningspressreleaseq326.htm`: revenue, advertising and other revenue, adjusted EBITDA and margin, DAUq by geography including the logged-in / logged-out split, ARPU, Q4 guidance), and Exhibit 99.2, the Q3 2026 shareholder letter (`exhibit992q326.htm`: the search-referral commentary, the Q4 DAUq warning, the logged-in-only tests), retrieved from SEC EDGAR.
+  - **Reddit Form 10-Q for the period ended 2026-09-30** (`0001713445-26-000116`, `rddt-20260930.htm`): revenue disaggregation and the content-licensing risk factors.
+  - **Reddit Q1 and Q2 2026 earnings releases** (8-K Exhibits 99.1 of 2026-04-30 and 2026-07-30): Q1 and Q2 U.S. DAUq (53.5M and 53.2M) and adjusted EBITDA margins.
+  - **Price data:** the 2026-11-18 close of $94.09 from the site's price ledger (`data/prices.json`); the valuation grid is not re-anchored to it.
 
 **Caliber notes and limitations:**
 
