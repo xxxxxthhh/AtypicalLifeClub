@@ -220,7 +220,7 @@
         "expectedDate": "2026-11-17",
         "localTime": "14:00",
         "precision": "day",
-        "status": "issuer-confirmed",
+        "status": "stale",
         "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx",
         "sourceType": "issuer-ir",
         "verifiedAt": "2026-11-03"
