@@ -4630,5 +4630,30 @@
     "monitoringRefs": [
       "aaoi-2026:cash-burn-dilution"
     ]
+  },
+  {
+    "id": "sandisk-nbm-rpo-q1-fy2027",
+    "date": "2026-10-30",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "SanDisk 季报披露 889 亿美元 NBM 剩余履约义务",
+      "en": "Sandisk files $88.9B of NBM remaining performance obligations"
+    },
+    "detail": {
+      "zh": "SanDisk 2026-10-30 提交的 Q1 FY2027 10-Q 披露，截至 10 月 2 日，NBM 剩余履约义务为 889 亿美元，其中 874 亿美元未开票，约 15 亿美元计入合同负债，约 20% 预计未来 12 个月确认为收入。 本季从期初合同负债确认收入 2.81 亿美元。该附注没有把 RPO 总额与管理层提及的五份协议最低收入逐项对账。FY2027 bit 覆盖和五份协议的逐单兑现仍待证实。 https://www.sec.gov/Archives/edgar/data/2023554/000162828026068601/sndk-20261002.htm",
+      "en": "Sandisk’s Q1 FY2027 10-Q, filed October 30, 2026, reports $88.9 billion of NBM remaining performance obligations at October 2. Of that total, $87.4 billion was unbilled and $1.5 billion recorded as contract liabilities. The company expects to recognize about 20% over the next 12 months. The company recognized $281 million of opening contract liabilities as revenue during the quarter. The footnote does not reconcile the aggregate RPO to the minimum revenue management attributed to five agreements. FY2027 bit coverage and deliveries against those five agreements remain unverified. https://www.sec.gov/Archives/edgar/data/2023554/000162828026068601/sndk-20261002.htm"
+    },
+    "crossChecks": [
+      "memory-cycle"
+    ],
+    "tickers": [
+      "SNDK"
+    ],
+    "reportIds": [
+      "sandisk-2026"
+    ],
+    "monitoringRefs": [
+      "sandisk-2026:nbm-contract-lockin"
+    ]
   }
 ]
