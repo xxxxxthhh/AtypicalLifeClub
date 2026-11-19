@@ -1,7 +1,7 @@
 # Hims & Hers Health (NYSE: HIMS) Deep Research Report
 
 Coverage date: 2026-02-13
-Last updated: 2026-11-10
+Last updated: 2026-11-19
 Ticker: NYSE: HIMS
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -9,19 +9,27 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 ## 2026H1 Full Rerun Summary
 
+> **2026-11-19 stance review: downgraded from cautious to bearish-avoid / low conviction.** The downgrade list published on 2026-10-02 is disjunctive (any one leg triggers it), and two of its legs fired word for word with the Q3 2026 release of 2026-11-09: **"quarterly GAAP gross margin below 62%"** — gross profit of $509.199M on revenue of $890.373M is a **57.19%** GAAP gross margin (derived; the company shows 57%, against 64% in Q2) — and **"subscribers decline quarter over quarter"** — period-end subscribers of **2.788M** against 2.891M at the end of Q2 (2026-08-10 8-K Ex 99.1), down 103K or **-3.56%** (derived). The stance therefore moves to **bearish-avoid**. The other legs did not fire: Q3 revenue of $890.373M and Adjusted EBITDA of $82.4M were above the $880M and $75M guidance low ends; cash and short-term investments of $712.221M (derived) were above $500M, with no revolving loans outstanding at quarter-end; the FTC case has no preliminary injunction and about $60M accrued; the 10-Q discloses no DOJ charges, new formal FDA action naming the company or Novo refiling. The 2026-10-01 scenario grid ($29.30 anchor, weighted $32.60 per share, +4.9% annualized) is **not re-derived** and is not a reason to hold; the latest close is **$17.05 (2026-11-18)**, -41.8% from that anchor. Conviction stays low: the downgrade is mechanical and the grid has not been retested at the new price or the new operating base. See §10 for the return-to-cautious condition and the further adverse checks. Sources: [Q3 2026 8-K Ex 99.1](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000242/hims-20260930x8xkearningsr.htm), [Q2 2026 8-K Ex 99.1](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000161/hims-20260630x8xkearningsr.htm), [Q3 2026 10-Q](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000246/hims-20260930.htm).
+
 > **2026-11-10 factual update**: Q3 2026 (quarter ended 2026-09-30; 8-K Ex 99.1 and 10-Q, after the close on 2026-11-09) revenue was $890.373M (+49% YoY) and gross profit $509.199M, a 57.19% GAAP gross margin (derived; the company shows 57%, against 74% a year earlier); Adjusted EBITDA was $82.4M, net loss $33.0M, operating cash flow $65.4M and free cash flow $26.0M. Period-end subscribers were 2.788M, down 103K (-3.56%, derived) from 2.891M at the end of Q2 and +13% YoY; monthly revenue per average subscriber was $105. FY2026 revenue guidance was narrowed to $3.13-3.15B and Adjusted EBITDA guidance cut to $257-277M; Q4 guidance is $875-895M revenue and $70-90M Adjusted EBITDA. Cash and short-term investments were $712.221M at 9-30 (derived) and the revolver is undrawn; the FTC motion-to-dismiss hearing is set for 2027-01-14 with about $60M accrued; Novo has not refiled.
 >
 > **2026-11-10 monitoring review**: the published triggers of gross-margin and subscribers-arpu have fired (the formal breached grade is recorded with the Mode B / owner stance review); q3-guide-delivery, liquidity-acquisition-payments, ftc-billing-privacy and glp1-doj-fda are within. **Two disjunctive legs of the published downgrade trigger (gross margin below 62% or a sequential subscriber decline) have fired.** Sources: [8-K Ex 99.1](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000242/hims-20260930x8xkearningsr.htm), [Q3 10-Q](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000246/hims-20260930.htm), [Q2 8-K Ex 99.1](https://www.sec.gov/Archives/edgar/data/1773751/000177375126000161/hims-20260630x8xkearningsr.htm). The earnings call was not reviewed; DOJ/FDA/court status rests on 10-Q disclosure.
 >
-> **Valuation boundary (2026-11-10, Mode A):** the published stance and conviction, the $29.30 price anchor (2026-10-01) and the scenario grid remain on the 2026-10-02 historical basis and are not updated in this package; the stance and valuation ruling after the downgrade trigger fired needs a separate Mode B / owner review, which this package does not make. Results were released after the close on 2026-11-09, so the first full post-release session is 2026-11-10.
+> **Valuation boundary (2026-11-10, Mode A):** the published stance and conviction, the $29.30 price anchor (2026-10-01) and the scenario grid remain on the 2026-10-02 historical basis and are not updated in this package; the stance and valuation ruling after the downgrade trigger fired needs a separate Mode B / owner review, which this package does not make. Results were released after the close on 2026-11-09, so the first full post-release session is 2026-11-10. **2026-11-19 update:** the stance ruling has been made — both fired legs are applied on the published wording and the stance moves to bearish-avoid (see the stance-review block at the top); the price anchor and the scenario grid are still not re-derived.
 
 This report is the full rerun successor to `hims-2026-pre-rerun`; the archived baseline is available at `/invest/research/reports/view.html?id=hims-2026-pre-rerun`.
 
 **One-line thesis:** Hims & Hers is the leading U.S. DTC telehealth platform with a powerful subscription engine, but the 2026H1 debate has shifted from an acute GLP-1 regulatory storm to a growth-quality audit: GLP-1/compound-drug durability, Novo/FDA risk, non-GLP-1 retention, and whether growth converts to cash.
 
-**Current view (2026-10-02 stance backfill, re-anchored to the 2026-10-01 close — this is the current frame):**
+**Current view (2026-11-19 stance review — this is the current frame):**
 
-- **Stance:** cautious
+- **Stance:** bearish-avoid (from cautious). **Conviction:** low.
+- **Why:** two pre-committed downgrade legs fired with the Q3 2026 release — GAAP gross margin of 57.19% (below 62%) and a sequential subscriber decline (2.891M → 2.788M). The rule has no exception for the legs that held (revenue and Adjusted EBITDA above the Q3 guidance low ends, $712.221M of cash and short-term investments, no FTC, DOJ, FDA or Novo trigger event).
+- **Valuation:** the 2026-10-01 frame below is kept as the historical anchor and is not re-derived; the latest close is $17.05 (2026-11-18). See §10 for the return-to-cautious condition.
+
+**Previous view (2026-10-02 stance backfill, re-anchored to the 2026-10-01 close — historical; superseded by the 2026-11-19 stance review above, valuation figures not re-derived):**
+
+- ~~**Stance:** cautious~~
 - **Conviction:** low
 - **Price anchor:** the 2026-10-01 regular-session close of **$29.30** (Nasdaq historical data and the CNBC quote agree), −3.97% against the old 2026-08-11 anchor. On the 233,313,413 shares on the 10-Q cover as of 2026-08-07 (Class A 224,935,790 + Class V 8,377,623), market capitalization is **$6,836.1M**.
 - **Current multiples:** narrow enterprise value is **$7,397.6M** (market cap + $1,402.5M of convertible-note principal − $841.0M of cash and short-term investments), i.e. **2.31x** the $3.2B FY2026 revenue guidance midpoint and **24.7x** the $300M Adjusted EBITDA midpoint. Counting the $866.0M of Eucalyptus deferred and contingent consideration, wide enterprise value is **$8,263.6M**, or **2.58x** and **27.5x**.
@@ -290,11 +298,13 @@ Holding the base-case operating path fixed and varying only the exit multiple: 1
 
 **The expectations gap in one sentence:** at $29.30, earning the 8% hurdle at a 15x exit and a 13% FY2028 margin requires revenue growth of about 24.5% a year in 2027-2028 (FY2028 about $4.96B), faster than the roughly 19.4% a year implied by management's own $6.5B 2030 target; at an 18x exit it needs only about 14.0%. Our base case is 17.5% and 15x. **In other words, the price requires either growth faster than management's own long-term path, or that a GAAP-loss-making company facing an FTC lawsuit still commands an EBITDA multiple above 18x in 2028. We do not think either is the central case.** In the old frame's language: at the $7,397.6M narrow EV, 25x EBITDA implies about $295.9M, now slightly below the $300M guidance midpoint, and 20x requires about $369.9M, still above the $325M top of guidance. As of 2026-08-11, the old frame's 25x reading was about $306M and its 20x reading about $382M; those historical readings are updated here.
 
+**Update (2026-11-19):** the stance is not set by this arithmetic. Two pre-committed downgrade legs (gross margin below 62%, a sequential subscriber decline) fired with the Q3 release, so the stance moved to bearish-avoid (§10). This grid, anchored at the 2026-10-01 close of $29.30 and built on Q2's 64% gross margin and +19% subscriber growth, is not re-derived in this update and is kept as the historical anchor; the 2026-11-18 close of $17.05 is below its $32.60 weighted value, but that comparison uses inputs Q3 overturned and is not a reason to hold.
+
 ## 9. Catalysts & Monitoring
 
 | Catalyst | Timing | Impact |
 |----------|--------|--------|
-| Q3 2026 results and 10-Q | Early November 2026 (estimated; no date announced as of 2026-10-02; Q3 2025 was reported on 2025-11-03) | **Highest weight.** Revenue against $880-900M and Adjusted EBITDA against $75-95M; whether gross margin recovers from 64%; whether quarterly free cash flow turns positive; whether FY2026 guidance holds |
+| Q3 2026 results and 10-Q | Early November 2026 (estimated; no date announced as of 2026-10-02; Q3 2025 was reported on 2025-11-03) | **Highest weight.** Revenue against $880-900M and Adjusted EBITDA against $75-95M; whether gross margin recovers from 64%; whether quarterly free cash flow turns positive; whether FY2026 guidance holds. **Update (2026-11-19):** reported 2026-11-09. Revenue $890.373M and Adjusted EBITDA $82.4M inside the guide; GAAP gross margin 57.19% and a sequential subscriber decline fired two downgrade legs (stance to bearish-avoid); free cash flow $26.0M; FY2026 Adjusted EBITDA guidance cut to $257-277M |
 | Eucalyptus deferred-consideration installments | H2 2026 through around December 2027, six quarters | Cash or stock settlement decides whether liquidity or dilution takes the strain first |
 | FTC litigation | Ongoing in N.D. Cal. | A preliminary injunction or a settlement above the accrual directly affects the subscription-billing model |
 | *Velanki* securities class action lead-plaintiff deadline | 2026-11-02 (law-firm notices, third-party) | Procedural |
@@ -313,14 +323,18 @@ Holding the base-case operating path fixed and varying only the exit multiple: 1
 
 **Monitoring checklist (each item corresponds one-to-one with `monitoring[]` in reports.json):**
 
-1. **Q3 2026 guidance delivery (q3-guide-delivery).**
-   - Trigger: Q3 2026 revenue below the $880M low end of guidance, or Adjusted EBITDA below the $75M low end.
-   - Latest reading: Q2 2026 revenue was $753.2M (+38% YoY) and Adjusted EBITDA $60.3M (8% margin); Q3 guidance is $880-900M revenue and $75-95M Adjusted EBITDA; FY2026 guidance is $3.1-3.3B revenue and $275-325M Adjusted EBITDA.
-   - Next check: Q3 2026 results (early November 2026, estimated).
+1. **Quarterly guidance delivery (q3-guide-delivery; rolled to Q4 2026 on 2026-11-19).**
+   - Trigger (2026-11-19): Q4 2026 revenue below the $875M low end of guidance, or Adjusted EBITDA below the $70M low end.
+   - ~~Trigger: Q3 2026 revenue below the $880M low end of guidance, or Adjusted EBITDA below the $75M low end.~~ (Q3 graded within: $890.373M and $82.4M.)
+   - Latest reading (Update 2026-11-19; graded unclear as of 2026-11-09): Q3 2026 revenue was $890.373M (+49% YoY) and Adjusted EBITDA $82.4M, both above the old low ends; Q4 guidance is $875-895M revenue and $70-90M Adjusted EBITDA, and FY2026 guidance is $3.13-3.15B revenue and $257-277M Adjusted EBITDA. Both legs of the new clause need the Q4 2026 actuals, so no leg is currently assessable.
+   - Previous reading (historical): Q2 2026 revenue was $753.2M (+38% YoY) and Adjusted EBITDA $60.3M (8% margin); Q3 guidance was $880-900M revenue and $75-95M Adjusted EBITDA; FY2026 guidance was $3.1-3.3B revenue and $275-325M Adjusted EBITDA.
+   - Next check: Q4 2026 results (date not announced; estimated February 2027).
 2. **Gross margin (gross-margin).**
-   - Trigger: quarterly GAAP gross margin below 62%.
-   - Latest reading: 64% in Q2 2026 (76% a year earlier); H1 2026 64% GAAP and 67% excluding restructuring; FY2025 73.8%.
-   - Next check: Q3 2026 results.
+   - Trigger (2026-11-19): quarterly GAAP gross margin (derived as gross profit / revenue) below 57% (the Q3 2026 figure the company shows; a site research setting, as the company gives no gross-margin guidance).
+   - ~~Trigger: quarterly GAAP gross margin below 62%.~~ (**Fired 2026-11-09 at 57.19%; downgraded 2026-11-19.**)
+   - Latest reading (Update 2026-11-19; graded within under the new clause as of 2026-11-09): Q3 2026 gross profit of $509.199M on revenue of $890.373M is 57.19% (derived; the company shows 57%, 74% a year earlier); nine-month 62% (63% excluding restructuring charges). Under the current clause Q3 is not below 57%. The old condition fired on 2026-11-09 and was handled by the 2026-11-19 stance downgrade.
+   - Previous reading (historical): 64% in Q2 2026 (76% a year earlier); H1 2026 64% GAAP and 67% excluding restructuring; FY2025 73.8%.
+   - Next check: Q4 2026 results.
 3. **Liquidity and acquisition payments (liquidity-acquisition-payments).**
    - Trigger: cash and short-term investments below $500M at any quarter-end, or any draw on the $175.0M revolving credit facility.
    - Latest reading: $841.0M of cash and short-term investments at 2026-06-30; Q2 free cash flow $(68.2)M; $703.0M of Eucalyptus deferred payable and $163.0M of contingent consideration, with the deferred part payable in six quarterly installments through around December 2027 and a company option to settle most of it in stock (capped at 19.9% of Class A shares); the revolver has no loans outstanding, with $12.6M of letters of credit and $162.4M available.
@@ -334,9 +348,11 @@ Holding the base-case operating path fixed and varying only the exit multiple: 1
    - Latest reading: HHS referred the company to the DOJ in February 2026 with no further disclosure as of the Q2 10-Q; Novo dismissed without prejudice on 2026-03-09; the company moved to branded GLP-1s in March 2026, with compounded drugs offered only on a limited scale; no new regulatory action after 2026-08-12 was found in this pass.
    - Next check: legal-proceedings note in the Q3 2026 10-Q.
 6. **Subscribers and revenue per subscriber (subscribers-arpu).**
-   - Trigger: subscribers decline quarter over quarter.
-   - Latest reading: 2.891M subscribers in Q2 2026 (+19% YoY) at $92 monthly revenue per average subscriber (+21%); 2.511M at the end of FY2025.
-   - Next check: Q3 2026 results.
+   - Trigger (2026-11-19): from Q4 2026, period-end subscribers decline quarter over quarter in any quarter (the Q4 2026 comparison base is the Q3 period-end 2.788M).
+   - ~~Trigger: subscribers decline quarter over quarter.~~ (**Fired 2026-11-09: 2.891M → 2.788M; downgraded 2026-11-19.**)
+   - Latest reading (Update 2026-11-19; graded within under the new clause as of 2026-11-09): Q3 2026 period-end subscribers were 2.788M (+13% YoY), down 103K or -3.56% (derived) from 2.891M at the end of Q2; monthly revenue per average subscriber was $105 (+30% YoY). Q3 was adjudicated by the stance downgrade and is not counted again; the Q4 2026 leg is not yet due.
+   - Previous reading (historical): 2.891M subscribers in Q2 2026 (+19% YoY) at $92 monthly revenue per average subscriber (+21%); 2.511M at the end of FY2025.
+   - Next check: Q4 2026 results.
 
 ## 10. Conclusion & Review
 
@@ -348,37 +364,60 @@ Hims is a well-executed DTC telehealth company with **2.891M subscribers as of Q
 
 **(1) The expectations gap in one sentence.** At $29.30, earning the 8% hurdle at a 15x exit and a 13% FY2028 margin requires revenue growth of about 24.5% a year in 2027-2028 (FY2028 about $4.96B), faster than the roughly 19.4% implied by management's 2030 target; our base case is 17.5% — we agree growth continues, but not that it outruns management's own long-term path while gross margin is 64%, GAAP results are loss-making and the FTC case is live.
 
-**(2) Stance and conviction, derived from the scenario weights.**
-- **The grid:** the 30/40/30 grid (bull $62.14 / base $30.31 / bear $6.11) weights to **$32.60 per share, +11.3% against $29.30, or +4.9% annualized** over 2.248 years — 3.1 points below the 8% hurdle; the base case alone earns only +1.5% a year. Hence **stance: cautious**.
+**(2) Update (2026-11-19) — stance and conviction: bearish-avoid (from cautious), low conviction.**
+- **The pre-committed clause fired, so the stance moves down.** The 10-02 downgrade list is disjunctive (any one leg triggers it). Two of its legs, "quarterly GAAP gross margin below 62%" and "subscribers decline quarter over quarter", carried no "unless revenue meets guidance" or "unless the price is already below the grid's weighted value" exception. The 2026-11-09 Q3 release shows a 57.19% GAAP gross margin ($509.199M / $890.373M, derived; the company shows 57%) and period-end subscribers of 2.788M against 2.891M at the end of Q2 (-3.56%, derived), so both legs fired word for word and on 2026-11-19 the stance moves from cautious to **bearish-avoid**.
+- **The other legs did not fire, and the rule has no "unless":** Q3 revenue of $890.373M (low end $880M) and Adjusted EBITDA of $82.4M (low end $75M); cash and short-term investments of $712.221M (line $500M), with no revolving loans outstanding at quarter-end (the filings do not say whether the revolver was drawn during the quarter; this does not affect the ruling); no FTC preliminary injunction and an accrual of about $60M (line $160M); no DOJ charges, new formal FDA action naming the company or Novo refiling in the 10-Q (10-Q disclosure only, not an exhaustive search).
+- **Why these legs matter:** the grid started from Q2's 64% gross margin and +19% subscriber growth. In Q3 gross margin fell another ~6.8 points, subscribers fell sequentially, and FY2026 Adjusted EBITDA guidance was cut from $275-325M to $257-277M. Revenue grew +49% YoY and free cash flow turned positive at $26.0M in the same quarter, but the rule wrote in no exception for them.
+- **Valuation:** the grid below is not re-derived; it stays as the historical anchor. The 2026-11-18 close of $17.05 is -41.8% from the $29.30 anchor and below the $32.60 weighted value, but that comparison uses inputs Q3 overturned. The price fall is not by itself a reason to keep the old stance or to return early.
+- **Conviction stays low:** this is a mechanical downgrade, the grid has not been retested at the new price or the new operating base, and roughly $1.4-1.5B of net claims magnify the equity's sensitivity in both directions.
+
+**(2a) Stance and conviction, derived from the scenario weights (2026-10-02, historical).**
+- **The grid:** the 30/40/30 grid (bull $62.14 / base $30.31 / bear $6.11) weights to **$32.60 per share, +11.3% against $29.30, or +4.9% annualized** over 2.248 years — 3.1 points below the 8% hurdle; the base case alone earns only +1.5% a year. Hence ~~**stance: cautious**~~ the 2026-10-02 stance of cautious.
 - **Why not neutral-watch:** both the weighted and the base-case returns sit below the hurdle at central assumptions; softening the bear case to $9.28 per share still leaves only +6.2%; and the reverse test shows the price needs growth faster than management's own long-term path. A neutral label would hide that arithmetic.
-- **Why not bearish-avoid:** the bull case's +112.1% is a real upside path; revenue growth has re-accelerated, guidance was raised, narrow EV is only 2.31x FY2026 revenue, and the weighted return is still positive.
+- ~~**Why not bearish-avoid:** the bull case's +112.1% is a real upside path; revenue growth has re-accelerated, guidance was raised, narrow EV is only 2.31x FY2026 revenue, and the weighted return is still positive.~~ (Superseded 2026-11-19: the pre-committed gross-margin and subscriber legs fired.)
 - **Why conviction is low:** (a) single inputs flip it: exit multiples +3 turns give +14.1%, growth +5 points gives +9.4%, a FY2028 margin 2 points higher gives +12.5%, and 40/40/20 weights give +12.5%; (b) roughly $1.4-1.5B of net claims magnify the equity's sensitivity to operating assumptions; (c) the post-shift business mix is undisclosed, and the FTC and DOJ outcomes sit outside the grid (the bear case carries only an extra $100M of legal outflows).
 
 **This is a valuation-and-skew judgment at today's price, not a denial of the growth evidence.** The 2026-08-12 neutral / watchlist call was made without a scenario grid to 2028; once the grid and hurdle test were done, the conclusion changed to cautious.
 
-**(3) Upgrade and downgrade triggers (identical clause by clause to `stanceTriggers` in reports.json).**
+**(3) Triggers from 2026-11-19 (identical clause by clause to `stanceTriggers` in reports.json).**
 
-- **Upgrade to neutral-watch:** all of the following:
-  - Q3 2026 revenue at or above the $890M guidance midpoint and Adjusted EBITDA at or above the $85M midpoint.
-  - Q3 2026 GAAP gross margin back at 66% or higher.
-  - Positive Q3 2026 free cash flow, with quarter-end cash and short-term investments of at least $700M after the Eucalyptus installment.
-- **Downgrade to bearish-avoid:** any one of the following:
-  - Q3 2026 revenue below the $880M low end of guidance, or Adjusted EBITDA below the $75M low end.
-  - Quarterly GAAP gross margin below 62%.
+- **Return to cautious:** all of the following in the same quarter (first test: Q4 2026; results date not announced):
+  - Quarterly GAAP gross margin back at 62% or higher (the old downgrade line, a site research setting; the company gives no gross-margin guidance).
+  - Period-end subscribers up quarter over quarter (above the Q3 period-end 2.788M for Q4 2026).
+  - Revenue at or above the low end of that quarter's company guidance ($875M for Q4 2026) and Adjusted EBITDA at or above the low end of that quarter's company guidance ($70M for Q4 2026).
+- **Further adverse checks:** already at the lowest stance, so no further downgrade; any one of the following keeps the avoid call and raises conviction from low to medium:
+  - Q4 2026 revenue below the $875M low end of guidance, or Adjusted EBITDA below the $70M low end.
+  - Quarterly GAAP gross margin (derived as gross profit / revenue) below 57% (the Q3 2026 figure the company shows; a site research setting, as the company gives no gross-margin guidance).
   - Cash and short-term investments below $500M at any quarter-end, or any draw on the $175.0M revolving credit facility.
   - A court-ordered preliminary injunction against the company's billing, cancellation or data-sharing practices, or an FTC monetary resolution or legal accrual above $160M.
   - The DOJ files civil or criminal charges against the company, the FDA takes a formal enforcement action naming the company, or Novo Nordisk refiles its patent suit.
-  - Subscribers decline quarter over quarter.
+  - From Q4 2026, period-end subscribers decline quarter over quarter in any quarter (the Q4 2026 comparison base is the Q3 period-end 2.788M).
+
+**(3a) Upgrade and downgrade triggers of 2026-10-02 (historical).**
+
+- ~~**Upgrade to neutral-watch:** all of the following:~~ (Not reached: Q3 GAAP gross margin 57.19%.)
+  - ~~Q3 2026 revenue at or above the $890M guidance midpoint and Adjusted EBITDA at or above the $85M midpoint.~~
+  - ~~Q3 2026 GAAP gross margin back at 66% or higher.~~
+  - ~~Positive Q3 2026 free cash flow, with quarter-end cash and short-term investments of at least $700M after the Eucalyptus installment.~~
+- **Downgrade to bearish-avoid:** any one of the following:
+  - Q3 2026 revenue below the $880M low end of guidance, or Adjusted EBITDA below the $75M low end. (Not fired.)
+  - ~~Quarterly GAAP gross margin below 62%.~~ (**Fired 2026-11-09 at 57.19%; downgraded 2026-11-19.**)
+  - Cash and short-term investments below $500M at any quarter-end, or any draw on the $175.0M revolving credit facility.
+  - A court-ordered preliminary injunction against the company's billing, cancellation or data-sharing practices, or an FTC monetary resolution or legal accrual above $160M.
+  - The DOJ files civil or criminal charges against the company, the FDA takes a formal enforcement action naming the company, or Novo Nordisk refiles its patent suit.
+  - ~~Subscribers decline quarter over quarter.~~ (**Fired 2026-11-09: 2.891M → 2.788M; downgraded 2026-11-19.**)
 
 ## 11. Appendix & Sources
 
-**Key assumptions (current):** the price anchor is the 2026-10-01 regular-session close of $29.30; the share count of 233,313,413 is from the Q2 10-Q cover (2026-08-07); FY2026 revenue and Adjusted EBITDA follow company guidance issued 2026-08-10 ($3.1-3.3B and $275-325M); enterprise value is computed on $1,402.5M of convertible-note principal net of $841.0M of cash and short-term investments, with the wider $866.0M acquisition-obligation variant shown alongside. Growth, margins, exit multiples, free-cash-flow conversion, the ~$170M annual stock compensation and the share-count path in the scenario grid are all this report's estimates. *Historical assumptions retained for the superseded baseline: FY2025 revenue per company guidance of $2.34-2.36B (actual $2,347.6M); non-GLP-1 ~70% of revenue per management's February disclosures, not updated since; retention >85% per company data; international (ZAVA) not yet contributing material revenue — that last assumption is now stale, with Rest of World revenue at $131.4M in Q2 2026. The old 2026-08-11 anchor used 233,297,933 shares from the 2026-06-30 balance sheet.*
+**Key assumptions (current):** the 2026-11-19 stance review records the 2026-11-18 close of $17.05 from the repo price ledger (`prices.json`) as the stance-history price, without recomputing the valuation; the price anchor is the 2026-10-01 regular-session close of $29.30; the share count of 233,313,413 is from the Q2 10-Q cover (2026-08-07); FY2026 revenue and Adjusted EBITDA follow company guidance issued 2026-08-10 ($3.1-3.3B and $275-325M); enterprise value is computed on $1,402.5M of convertible-note principal net of $841.0M of cash and short-term investments, with the wider $866.0M acquisition-obligation variant shown alongside. Growth, margins, exit multiples, free-cash-flow conversion, the ~$170M annual stock compensation and the share-count path in the scenario grid are all this report's estimates. *Historical assumptions retained for the superseded baseline: FY2025 revenue per company guidance of $2.34-2.36B (actual $2,347.6M); non-GLP-1 ~70% of revenue per management's February disclosures, not updated since; retention >85% per company data; international (ZAVA) not yet contributing material revenue — that last assumption is now stale, with Rest of World revenue at $131.4M in Q2 2026. The old 2026-08-11 anchor used 233,297,933 shares from the 2026-06-30 balance sheet.*
 
 **Data gaps:** the weight-management revenue share and gross margin after the branded-GLP-1 shift are not disclosed; the Q3 2026 results date was not announced as of 2026-10-02; no verifiable primary driver was found for the three large sessions of 2026-08-19 (+13.5%), 2026-08-24 (−8.0%) and 2026-08-28 (−8.9%) (08-24 lines up in time with the Visa report, but causality is not established); the Visa monitoring program and the *Velanki* suit have third-party sources only; this pass's search for FDA / DOJ actions after 2026-08-12 was not exhaustive.
 
 **Sources:**
 
 - Archived baseline: `hims-2026-pre-rerun`
+- **Q3 2026 earnings release, 8-K exhibit 99.1 filed 2026-11-09: `https://www.sec.gov/Archives/edgar/data/1773751/000177375126000242/hims-20260930x8xkearningsr.htm`** — Q3 revenue, gross profit, subscribers, Adjusted EBITDA, free cash flow and Q4/FY2026 guidance used in the 2026-11-19 stance review.
+- **Q3 2026 Form 10-Q filed 2026-11-09: `https://www.sec.gov/Archives/edgar/data/1773751/000177375126000246/hims-20260930.htm`** — balance sheet, revolver status and legal proceedings used in the 2026-11-19 stance review.
 - **Q2 2026 earnings release, 8-K Item 2.02 filed 2026-08-10, accession `0001773751-26-000161` (exhibit 99.1): `https://www.sec.gov/Archives/edgar/data/1773751/000177375126000161/hims-20260630x8xkearningsr.htm`** — source for all Q2 operating results, the Adjusted EBITDA and free-cash-flow reconciliations, and FY2026/Q3 2026 guidance.
 - **Q2 2026 Form 10-Q filed 2026-08-10, accession `0001773751-26-000163`: `https://www.sec.gov/Archives/edgar/data/1773751/000177375126000163/hims-20260630.htm`** — cover share count; note 3 Eucalyptus acquisition terms; note 9 accrued liabilities; note 13 convertible notes, capped calls and revolving credit facility; legal proceedings (Novo dismissal, FTC accrual, *Doe* suit); the March 2026 U.S. weight-loss strategic shift; buyback authorization.
 - Q4 / FY2025 earnings release, 8-K Item 2.02 filed 2026-02-23, accession `0001773751-26-000019`: FY2025 Adjusted EBITDA of $318.0M, free cash flow of $57.4M, 2.511M subscribers and the original FY2026 guidance.
