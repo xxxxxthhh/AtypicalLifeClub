@@ -1,18 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T03:04:03Z",
+  "generatedAt": "2026-11-19T05:01:01Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-11-19T03:04:03Z"
+    "value": "2026-11-19T05:01:01Z"
   },
-  "tasks": [
-    {
-      "id": "earnings:nvidia-2026:2026-11-17:T+1",
-      "reportId": "nvidia-2026",
-      "type": "research-update",
-      "window": "T+1",
-      "expectedDate": "2026-11-17",
-      "reason": "Issuer-confirmed earnings window; verify release and update the research package."
-    }
-  ]
+  "tasks": []
 }
