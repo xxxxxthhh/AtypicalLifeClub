@@ -1,13 +1,15 @@
 # Advanced Micro Devices (AMD) Deep Research Report
 
 Coverage date: 2026-02-04
-Last updated: 2026-11-05
+Last updated: 2026-11-20
 Ticker: NASDAQ: AMD
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
 ## June 22, 2026 Full Rerun Summary <!-- report-module:overview -->
+
+> **2026-11-20 factual update** AMD’s November 16 Form 8-K/A (Item 3.02) discloses that the World Labs acquisition closed on November 13 and that AMD issued 14,978,322 common shares to former World Labs holders. The filing restates the approximately $8.2 billion in stock consideration agreed at signing, subject to adjustment, and confirms the shares issued at closing. The World Labs transaction moved from announced to closed. The amendment addresses World Labs and supplies no Taalas closing, ROCm migration, rack-level price-performance or shipment data. The published stance and conviction are unchanged. The historical valuation retains the report’s dated basis. [Original filing](https://www.sec.gov/Archives/edgar/data/2488/000119312526462340/d105780d8ka.htm)
 
 > **2026-11-05 factual update**: Q3 2026 10-Q (0000002488-26-000191, filed 2026-11-04): AMD issued warrants to two customers in October 2025 and February 2026, each for up to 160 million shares; as of 2026-09-26 no warrant shares had vested or become exercisable. The 10-Q says the company supplies certain products used in Helios and does not manufacture or sell the completed Helios rack-scale solutions. [10-Q](https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm) [Filing text read for this update](https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000191/amd-20260926.htm).
 >
