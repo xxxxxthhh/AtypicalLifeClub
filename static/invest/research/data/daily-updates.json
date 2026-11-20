@@ -3,6 +3,58 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "amd-2026",
+      "signalId": "amd-world-labs-closing-20261113",
+      "type": "facts",
+      "evidenceDate": "2026-11-13",
+      "title": {
+        "en": "AMD completes World Labs acquisition and issues 14,978,322 shares",
+        "zh": "AMD 完成收购 World Labs 并发行 14,978,322 股"
+      },
+      "change": {
+        "en": "AMD’s November 16 Form 8-K/A (Item 3.02) discloses that the World Labs acquisition closed on November 13 and that AMD issued 14,978,322 common shares to former World Labs holders. The filing restates the approximately $8.2 billion in stock consideration agreed at signing, subject to adjustment, and confirms the shares issued at closing.",
+        "zh": "AMD 于 11 月 16 日提交的 8-K/A（Item 3.02）披露，World Labs 收购已于 11 月 13 日交割，向原股东发行 14,978,322 股 AMD 普通股。申报重述签约时约 82 亿美元的股票对价，金额依协议可调整，股数已由交割披露确认。"
+      },
+      "meaning": {
+        "en": "The World Labs transaction moved from announced to closed. The amendment addresses World Labs and supplies no Taalas closing, ROCm migration, rack-level price-performance or shipment data.",
+        "zh": "收购由已宣布协议进入已交割状态。该修订针对 World Labs，未提供 Taalas 交割、ROCm 客户迁移、机架性价比或出货数据。"
+      },
+      "next": {
+        "en": "Use subsequent financial filings to distinguish closing shares, purchase accounting, and later product and customer disclosures.",
+        "zh": "在后续季报中区分交割股数、购买会计及整合后的产品和客户披露。"
+      },
+      "id": "research-1f809396c014d71e78975f45f92a4de934502b0c29cb64a65b9909dd553ed6da",
+      "publishedDate": "2026-11-20",
+      "company": "AMD",
+      "ticker": "AMD"
+    },
+    {
+      "reportId": "coherent-2026",
+      "signalId": "coherent-repurchase-authorization-20261118",
+      "type": "facts",
+      "evidenceDate": "2026-11-18",
+      "title": {
+        "en": "Coherent board authorizes up to $2.0 billion in repurchases",
+        "zh": "Coherent 董事会授权最多 20 亿美元回购"
+      },
+      "change": {
+        "en": "In its November 19 Form 8-K (Item 7.01), Coherent disclosed that its board authorized up to $2.0 billion of common-stock repurchases on November 18, excluding related expenses. The program has no expiry and can be suspended or discontinued.",
+        "zh": "Coherent 11 月 19 日提交的 8-K（Item 7.01）披露，董事会于 11 月 18 日授权公司回购最多 20 亿美元普通股，额度不含相关费用。计划无到期日，可暂停或终止。"
+      },
+      "meaning": {
+        "en": "The authorization sets a capital-allocation limit. The 8-K gives no repurchase execution amount, share count or funding source. The November 4 quarterly filing remains the basis for quarterly free cash flow.",
+        "zh": "授权明确了资本配置上限。该 8-K 未披露已执行的回购金额、股数或资金来源，季度自由现金流仍按 11 月 4 日季报口径。"
+      },
+      "next": {
+        "en": "Check the next results or filing for actual repurchases, funding and cash flow.",
+        "zh": "用下一次财报或申报核对实际回购、资金来源和现金流。"
+      },
+      "id": "research-9ba9d28129b5df2b94e9b42225edf3fbc5ed3256919a381d4de7068cce023d55",
+      "publishedDate": "2026-11-20",
+      "company": "Coherent",
+      "ticker": "COHR"
+    },
+    {
       "reportId": "aaoi-2026",
       "signalId": "aaoi-new-atm-20261117",
       "type": "facts",
