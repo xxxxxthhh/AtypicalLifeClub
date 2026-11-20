@@ -1,13 +1,15 @@
 # Coherent Deep Research Report - Full-Stack Photonics Dashboard for AI Optical Connectivity
 
 Coverage date: 2026-07-04
-Last updated: 2026-11-05
+Last updated: 2026-11-20
 Ticker: NYSE: COHR
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
 ## Executive Summary
+
+> **2026-11-20 factual update** In its November 19 Form 8-K (Item 7.01), Coherent disclosed that its board authorized up to $2.0 billion of common-stock repurchases on November 18, excluding related expenses. The program has no expiry and can be suspended or discontinued. The authorization sets a capital-allocation limit. The 8-K gives no repurchase execution amount, share count or funding source. The November 4 quarterly filing remains the basis for quarterly free cash flow. The published stance and conviction are unchanged. The historical valuation retains the report’s dated basis. [Original filing](https://www.sec.gov/Archives/edgar/data/820318/000119312526467737/d867801d8k.htm)
 
 > **2026-11-05 factual update**: Q1 FY2027 (quarter ended 2026-09-30; 8-K Ex 99.1 and 10-Q, 2026-11-04) revenue was $2,370.3M (+49.9% YoY, +15.9% QoQ); GAAP / non-GAAP gross margin 39.1% / 40.6%; GAAP / non-GAAP diluted EPS $1.90 / $2.09. 10-Q segments: Datacenter & Communications revenue $1,951.7M (+79%) with segment profit $508.7M (prior-year quarter $269.3M); Industrial revenue $418.6M (-15%, primarily divestitures). Operating cash flow was -$92.7M and capital expenditure $775.5M, a difference of about -$868.2M (derived); inventories were $3,341.4M ($2,581.0M at 2026-06-30); contract liabilities were $333M ($63M at 2026-06-30). Q2 FY2027 guidance: revenue $2.55-2.75B, non-GAAP gross margin 40-42%, non-GAAP diluted EPS $2.28-2.48. [Filing text read for this update](https://cdn.yahoofinance.com/prod/sec-filings/0000820318/000082031826000023/iivi-20260930.htm).
 >
