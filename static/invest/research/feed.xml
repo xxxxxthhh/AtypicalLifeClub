@@ -6,6 +6,13 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>Rocket Lab 深度研究报告 - 现有交付、Neutron 风险与每股资本回报 / Rocket Lab Deep Research Report - Delivery, Neutron Risk and Per-Share Capital Returns</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=rklb-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=rklb-2026#rklb-2026@2026-11-20</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <description>2026-11-20 更新（2026-11-10 Mode B 估值与立场复核；独立复核已完成，Owner 于 2026-11-20 批准发布；下列 $58.86 锚点与年化为 2026-11-09 复核截点读数，非当前回报）：Q3 2026 收入 $267.8M、GAAP 毛利率 33.6%，命中重建上行腿；单季 CFO−capex −$23.9M（推算），9-30 现金及有价证券 $4.704B，backlog $3.57B。按 2026-11-09 收盘 $58.86（盘后业绩发布前）、680.423M 经济股数，市值 $40.050B、EV 约 $35.349B、40.08x TTM 收入 $881.9M。Neutron 实现率上调至 $70M／$65M 后，成交条件下 20%/50%/30% 牛/基准/熊 2030 值 $90.43/$37.23/$8.77，加权 $39.33、3.94 年年化 -9.72%，低于 8% 参考与 15% 门槛；15% 复核线 $22.60。Neutron 首飞仍为不早于 2027 年，Iridium 预计 2027 年交割。维持谨慎、中确信。</description>
+    </item>
+    <item>
       <title>Coherent 深度研究报告 - AI 光连接层的全栈光子仪表盘 / Coherent Deep Research Report - Full-Stack Photonics Dashboard for AI Optical Connectivity</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=coherent-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=coherent-2026#coherent-2026@2026-11-20</guid>
@@ -151,13 +158,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=neov-2026#neov-2026@2026-11-17</guid>
       <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
       <description>2026-11-17 合约身份核对（仅此项更新）：2026-11-12 业绩稿称已签 $116M master purchase agreement，交付将支持 Georgia 工厂 2027 年爬坡；本稿未点名买方，亦未将新协议明确对应原 Infinite Grid 1.1GWh/$200M LOI。期间截至 2026-09-30 的 10-Q（EDGAR filingDate 为 11-13、受理时间为 11-12T22:57:56Z）的顾问协议段只称在 9 月末没有已执行或很可能执行的相关 offtake，不能把期末状态外推为 11 月仍无合同。所核两份材料未提供新协议与旧 LOI 的具名条款对账，精确转换条件仍 unclear；主协议、具体订单、交付、收入确认和回款不可互换。 原收入萎缩、Georgia 历史时点和融资风险未被该合同摘要清除；下列旧叙述仅保留其原日期背景：【2026-08-18 价格重锚：NEOV 于 2026-08-18 收于 $3.64，较 07-30 锚点 $2.13 上涨 +70.9%，期间无新财报事实（FY2026 Q4/全年业绩预计 8 月下旬）；股本按 S-3 重锚为 58,863,247 股（2026-08-03），市值约 $214M、P/S（TTM）约 11.9x，比 07-31 复核时显著更贵；立场依据的收入下滑/稀释/跑道风险无一被价格修复，维持谨慎（低确信）。】Q3 FY2026 营收骤降至 $2.02M（环比 -56%）；股价 2026-02 高点 $4.21、06 月低点约 $1.93，5 月公开发行大幅稀释。佐治亚工厂目标 8 月底完成调试投产、Infinite Grid $2 亿 LOI 仍非约束——08-11 S-3 披露其持股 4.5M 股（2026-02 定向 $2.50/股 + 顾问签约费股），是利益绑定信号而非订单转化。极高风险。</description>
-    </item>
-    <item>
-      <title>Rocket Lab 深度研究报告 - 现有交付、Neutron 风险与每股资本回报 / Rocket Lab Deep Research Report - Delivery, Neutron Risk and Per-Share Capital Returns</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=rklb-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=rklb-2026#rklb-2026@2026-11-10</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-      <description>2026-11-10 更新（Mode A 事实增量，无估值重锚）：Q3 2026 收入 $267.8M、GAAP 毛利率 33.6%，命中重建上行腿；单季经营现金流 +$7.2M、CFO−capex −$23.9M（推算），backlog $3.57B；Neutron 首飞仍为不早于 2027 年。估值与立场仍为下述 2026-10-20 口径。首次完整双语覆盖。Q2 2026 收入 $234.066M（+61.99%），约 81% 来自 Space Systems，但单季 FCF -$110.122M。10 月 14 日 Neutron 首飞目标移至 2027，Iridium 仍待交割；9 月 $1.944B 毛额 ATM 已发行约 29.3M 股。2026-10-16 收盘 $50.84，重建经济股数约 668.711M、市值 $33.997B；已知现金桥 EV 约 $29.720B、38.64x TTM，非实时认证余额。成交条件下 20%/50%/30% 牛/基准/熊终值 $86.80/$36.45/$8.69，加权 $38.19、四年年化 -6.90%，对照 8% 参考与 15% 执行门槛；谨慎、中确信。</description>
     </item>
     <item>
       <title>NRG Energy 深度研究报告 - AI 电力需求是否穿透到 merchant gas 与零售电力 / NRG Energy Deep Research Report - Does AI Power Demand Reach Merchant Gas and Retail Power?</title>
