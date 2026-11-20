@@ -6797,7 +6797,7 @@
     ],
     "category": "tech",
     "date": "2026-02-04",
-    "lastUpdate": "2026-11-05",
+    "lastUpdate": "2026-11-20",
     "file": "/invest/research/reports/view.html?id=amd-2026",
     "markdownFiles": {
       "zh": "/invest/research/AMD_深度研究报告_2026-02.md",
@@ -6877,13 +6877,13 @@
           "en": "ROCm produces auditable customer-migration cases, or migration evidence stays absent while custom ASICs and NVIDIA Rubin compress AMD's rack-level price-performance window"
         },
         "latest": {
-          "zh": "2026-11-03 Q3 2026 业绩稿：ROCm 10 已发布（ROCm.AI、性能与工具链更新），Helion 参考架构发布。稿内没有可审计的客户迁移案例或开发者数，也没有相对 NVIDIA Rubin 或定制 ASIC 的机架级性价比数据。",
-          "en": "2026-11-03 Q3 2026 release: ROCm 10 was released (ROCm.AI, performance and tooling updates) and the Helion reference architecture was introduced. The release has no auditable customer-migration case or developer count, and no rack-level price-performance data against NVIDIA Rubin or custom ASICs."
+          "zh": "2026-11-03 Q3 2026 业绩稿：ROCm 10 已发布（ROCm.AI、性能与工具链更新），Helion 参考架构发布。稿内没有可审计的客户迁移案例或开发者数，也没有相对 NVIDIA Rubin 或定制 ASIC 的机架级性价比数据。 AMD 于 11 月 16 日提交的 8-K/A（Item 3.02）披露，World Labs 收购已于 11 月 13 日交割，向原股东发行 14,978,322 股 AMD 普通股。申报重述签约时约 82 亿美元的股票对价，金额依协议可调整，股数已由交割披露确认。 收购由已宣布协议进入已交割状态。该修订针对 World Labs，未提供 Taalas 交割、ROCm 客户迁移、机架性价比或出货数据。",
+          "en": "2026-11-03 Q3 2026 release: ROCm 10 was released (ROCm.AI, performance and tooling updates) and the Helion reference architecture was introduced. The release has no auditable customer-migration case or developer count, and no rack-level price-performance data against NVIDIA Rubin or custom ASICs. AMD’s November 16 Form 8-K/A (Item 3.02) discloses that the World Labs acquisition closed on November 13 and that AMD issued 14,978,322 common shares to former World Labs holders. The filing restates the approximately $8.2 billion in stock consideration agreed at signing, subject to adjustment, and confirms the shares issued at closing. The World Labs transaction moved from announced to closed. The amendment addresses World Labs and supplies no Taalas closing, ROCm migration, rack-level price-performance or shipment data."
         },
         "nextCheck": "2026-H2 迁移案例与 Helios/MI450 出货证据 / H2 2026 migration cases and Helios/MI450 shipment evidence",
         "reading": "unclear",
-        "readingAsOf": "2026-11-03",
-        "readingNote": "产品发布不是迁移证据；trigger 两腿都未被所读文件覆盖。 / A product release is not migration evidence; the read documents cover neither leg of the trigger."
+        "readingAsOf": "2026-11-16",
+        "readingNote": "World Labs 交割属战略交易事实，原监测定义中的迁移案例与机架性价比仍为 unclear。 / The strategic transaction has closed. The original migration and rack-level price-performance tests remain unclear."
       },
       {
         "id": "valuation-tolerance",
