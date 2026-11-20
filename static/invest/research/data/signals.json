@@ -4655,5 +4655,28 @@
     "monitoringRefs": [
       "sandisk-2026:nbm-contract-lockin"
     ]
+  },
+  {
+    "id": "coherent-repurchase-authorization-20261118",
+    "date": "2026-11-18",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Coherent 董事会授权最多 20 亿美元回购",
+      "en": "Coherent board authorizes up to $2.0 billion in repurchases"
+    },
+    "detail": {
+      "zh": "Coherent 11 月 19 日提交的 8-K（Item 7.01）披露，董事会于 11 月 18 日授权公司回购最多 20 亿美元普通股，额度不含相关费用。计划无到期日，可暂停或终止。 授权明确了资本配置上限。该 8-K 未披露已执行的回购金额、股数或资金来源，季度自由现金流仍按 11 月 4 日季报口径。 https://www.sec.gov/Archives/edgar/data/820318/000119312526467737/d867801d8k.htm",
+      "en": "In its November 19 Form 8-K (Item 7.01), Coherent disclosed that its board authorized up to $2.0 billion of common-stock repurchases on November 18, excluding related expenses. The program has no expiry and can be suspended or discontinued. The authorization sets a capital-allocation limit. The 8-K gives no repurchase execution amount, share count or funding source. The November 4 quarterly filing remains the basis for quarterly free cash flow. https://www.sec.gov/Archives/edgar/data/820318/000119312526467737/d867801d8k.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "COHR"
+    ],
+    "reportIds": [
+      "coherent-2026"
+    ],
+    "monitoringRefs": [
+      "coherent-2026:valuation-fcf-risk"
+    ]
   }
 ]
