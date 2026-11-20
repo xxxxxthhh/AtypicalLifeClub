@@ -89,10 +89,42 @@
         return history[history.length - 1].date || null;
     }
 
+    // Host-written trigger-duties.json (W5): {reportId, status, since, decidedOn,
+    // monitors:[{id, readingAsOf}]}. Only display state; a duty never hides a row.
+    const DUTY_STATUS_ORDER = ['awaiting_owner', 'submitted', 'owner_maintained'];
+
+    function dutyIndex(duties) {
+        const list = duties && Array.isArray(duties.duties) ? duties.duties : (Array.isArray(duties) ? duties : []);
+        const index = new Map();
+        list.forEach((duty) => {
+            if (!duty || typeof duty.reportId !== 'string' || !Array.isArray(duty.monitors)) return;
+            duty.monitors.forEach((monitor) => {
+                if (!monitor || typeof monitor.id !== 'string') return;
+                const key = `${duty.reportId}\u0000${monitor.id}\u0000${monitor.readingAsOf || ''}`;
+                if (!index.has(key)) index.set(key, []);
+                index.get(key).push(duty);
+            });
+        });
+        return index;
+    }
+
+    function rowDuty(index, reportId, items) {
+        let best = null;
+        items.forEach((item) => {
+            (index.get(`${reportId}\u0000${item.id}\u0000${item.readingAsOf || ''}`) || []).forEach((duty) => {
+                const rank = DUTY_STATUS_ORDER.indexOf(duty.status);
+                if (rank < 0) return;
+                if (!best || rank < DUTY_STATUS_ORDER.indexOf(best.status)) best = duty;
+            });
+        });
+        return best;
+    }
+
     // v7 §3.4: chain and non-chain reports follow the same unadjudicated-breach
     // rule; only archived versions (isCurrent === false) are skipped.
-    function buildTriggerWatchRows(reports, today = currentUtcDay()) {
+    function buildTriggerWatchRows(reports, today = currentUtcDay(), duties = null) {
         const rows = [];
+        const index = dutyIndex(duties);
         (Array.isArray(reports) ? reports : []).forEach((report) => {
             if (!report || report.isCurrent === false) return;
             const linked = linkedMonitoringIds(report);
@@ -108,6 +140,8 @@
             if (!breached.length) return;
             // The longest-standing breach dates the row.
             const oldest = breached.slice().sort((a, b) => a.readingAsOf.localeCompare(b.readingAsOf))[0];
+            const duty = rowDuty(index, report.id, breached);
+            const since = duty && dateFromYmd(duty.since) ? duty.since : null;
             rows.push({
                 report,
                 reportId: report.id,
@@ -116,7 +150,12 @@
                 stanceDate,
                 items: breached,
                 readingAsOf: oldest.readingAsOf,
-                daysSinceBreach: ageDays(oldest.readingAsOf, today)
+                daysSinceBreach: ageDays(oldest.readingAsOf, today),
+                duty: duty ? {
+                    status: duty.status,
+                    day: since ? ageDays(since, today) + 1 : null,
+                    decidedOn: dateFromYmd(duty.decidedOn) ? duty.decidedOn : null
+                } : null
             });
         });
         return rows.sort((a, b) => (
@@ -131,12 +170,31 @@
         return `${rounded > 0 ? '+' : ''}${rounded.toFixed(1)}%`;
     }
 
+    // Owner-approved public wording (2026-11-20); no internal terms such as "escalated".
+    function triggerDutyLabel(duty, lang = 'zh') {
+        if (!duty) return null;
+        const day = Number.isFinite(duty.day) ? duty.day : null;
+        const en = lang === 'en';
+        if (duty.status === 'awaiting_owner') {
+            return en ? `Awaiting Owner decision${day ? ` · day ${day}` : ''}` : `待 Owner 裁决${day ? ` · 第 ${day} 天` : ''}`;
+        }
+        if (duty.status === 'submitted') {
+            return en ? `Submitted for decision${day ? ` · day ${day}` : ''}` : `已提交裁决${day ? ` · 第 ${day} 天` : ''}`;
+        }
+        if (duty.status === 'owner_maintained') {
+            const date = duty.decidedOn ? (en ? ` (${duty.decidedOn})` : `（${duty.decidedOn}）`) : '';
+            return en ? `Owner kept the stance${date}` : `Owner 已裁决维持${date}`;
+        }
+        return null;
+    }
+
     window.ResearchTracking = {
         RERUN_AGE_DAYS,
         RERUN_DRIFT_PCT,
         buildRerunItem,
         isRerunCandidate,
         buildTriggerWatchRows,
+        triggerDutyLabel,
         formatPercent
     };
 }());

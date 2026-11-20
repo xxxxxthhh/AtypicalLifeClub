@@ -279,6 +279,7 @@
         const VERDICTS_DATA_URL = "/invest/research/data/verdicts.json";
         const BENCHMARKS_DATA_URL = "/invest/research/data/benchmarks.json";
         const CALIBRATION_HISTORY_DATA_URL = "/invest/research/data/calibration-history.json";
+        const TRIGGER_DUTIES_DATA_URL = "/invest/research/data/trigger-duties.json";
 
         const STANCE_ORDER = ["bullish", "constructive", "neutral-watch", "cautious", "bearish-avoid"];
         const BOOK_BENCHMARK = "SMH";
@@ -428,6 +429,7 @@
             reportsById: new Map(),
             open: [],
             closed: [],
+            triggerDuties: null,
             openSortDir: "desc",
             loadFailed: false
         };
@@ -463,10 +465,23 @@
                 state.calibrationHistory = Array.isArray(calibrationHistory) ? calibrationHistory : [];
                 state.open = Array.isArray(verdicts.entries) ? verdicts.entries : [];
                 state.closed = Array.isArray(verdicts.closed) ? verdicts.closed : [];
+                state.triggerDuties = await loadTriggerDuties();
                 state.loadFailed = false;
             } catch (error) {
                 console.error("Failed to load verdict ledger:", error);
                 state.loadFailed = true;
+            }
+        }
+
+        // Host-written duty states are optional display data; absence keeps the plain tag.
+        async function loadTriggerDuties() {
+            try {
+                const response = await fetch(TRIGGER_DUTIES_DATA_URL, { cache: "no-store" });
+                if (!response.ok) return null;
+                const value = await response.json();
+                return value && typeof value === "object" ? value : null;
+            } catch (error) {
+                return null;
             }
         }
 
@@ -635,7 +650,7 @@
                     <th>${escapeHtml(labels.colFlag)}</th>
                 </tr>`;
             const rows = window.ResearchTracking
-                ? window.ResearchTracking.buildTriggerWatchRows(state.reports)
+                ? window.ResearchTracking.buildTriggerWatchRows(state.reports, undefined, state.triggerDuties)
                 : [];
             if (!rows.length) {
                 body.innerHTML = `<tr><td colspan="6" class="muted-cell">${escapeHtml(labels.emptyTriggerWatch)}</td></tr>`;
@@ -648,7 +663,7 @@
                         <td>${escapeHtml(row.items.map(monitoringMetricName).join(" · "))}</td>
                         <td class="muted-cell">${escapeHtml(row.readingAsOf)}</td>
                         <td class="num">${Number.isFinite(row.daysSinceBreach) ? row.daysSinceBreach : "—"}</td>
-                        <td><span class="flag-tag">${escapeHtml(labels.triggerWatchTag)}</span></td>
+                        <td><span class="flag-tag">${escapeHtml((row.duty && window.ResearchTracking.triggerDutyLabel(row.duty, currentLang)) || labels.triggerWatchTag)}</span></td>
                     </tr>`).join("");
         }
 

@@ -145,10 +145,42 @@ test('the upgrade side also links a watched item', () => {
     assert.equal(buildTriggerWatchRows([report], today).length, 1);
 });
 
-test('the real book currently has no breached-and-unreviewed report', async () => {
-    const { readFileSync } = await import('node:fs');
-    const { fileURLToPath } = await import('node:url');
-    const path = fileURLToPath(new URL('./data/reports.json', import.meta.url));
-    const reports = JSON.parse(readFileSync(path, 'utf-8'));
-    assert.deepEqual(buildTriggerWatchRows(reports), []);
+// W5: the real-data sentinel moved to the Host ledger (trigger_duties). No test here
+// reads data/reports.json — a live breach must never block the daily publication.
+
+test('Host duty states label matching rows without hiding them', () => {
+    const { triggerDutyLabel } = window.ResearchTracking;
+    const duties = {
+        schema_version: 1,
+        duties: [{
+            reportId: 'fixture-2026', status: 'awaiting_owner', since: '2026-04-08', decidedOn: null,
+            monitors: [{ id: 'linked-item', readingAsOf: '2026-04-08' }]
+        }]
+    };
+    const rows = buildTriggerWatchRows([watchReport()], today, duties);
+    assert.equal(rows.length, 1);
+    assert.deepEqual(rows[0].duty, { status: 'awaiting_owner', day: 8, decidedOn: null });
+    assert.equal(triggerDutyLabel(rows[0].duty), '待 Owner 裁决 · 第 8 天');
+    assert.equal(triggerDutyLabel({ status: 'submitted', day: 2 }), '已提交裁决 · 第 2 天');
+    assert.equal(triggerDutyLabel({ status: 'owner_maintained', decidedOn: '2026-04-12' }), 'Owner 已裁决维持（2026-04-12）');
+});
+
+test('a duty for another reading or monitor does not label the row', () => {
+    const duties = { duties: [
+        { reportId: 'fixture-2026', status: 'owner_maintained', decidedOn: '2026-04-01', since: '2026-03-01',
+          monitors: [{ id: 'linked-item', readingAsOf: '2026-03-01' }] },
+        { reportId: 'fixture-2026', status: 'submitted', since: '2026-04-08', monitors: [{ id: 'other-item', readingAsOf: '2026-04-08' }] }
+    ] };
+    const rows = buildTriggerWatchRows([watchReport()], today, duties);
+    assert.equal(rows.length, 1);
+    assert.equal(rows[0].duty, null);
+    assert.equal(buildTriggerWatchRows([watchReport()], today)[0].duty, null);
+});
+
+test('an Owner-maintained duty keeps the row visible with its decision date', () => {
+    const duties = { duties: [{ reportId: 'fixture-2026', status: 'owner_maintained', since: '2026-04-08', decidedOn: '2026-04-12',
+        monitors: [{ id: 'linked-item', readingAsOf: '2026-04-08' }] }] };
+    const rows = buildTriggerWatchRows([watchReport()], today, duties);
+    assert.equal(rows[0].duty.status, 'owner_maintained');
+    assert.equal(window.ResearchTracking.triggerDutyLabel(rows[0].duty, 'en'), 'Owner kept the stance (2026-04-12)');
 });
