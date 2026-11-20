@@ -9825,7 +9825,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-11-05",
+    "lastUpdate": "2026-11-20",
     "file": "/invest/research/reports/view.html?id=coherent-2026",
     "markdownFiles": {
       "zh": "/invest/research/Coherent_深度研究报告_2026-07.md",
@@ -9958,14 +9958,14 @@
           "en": "growth relies on negative FCF, inventory/receivable build or capex expansion while the multiple stays elevated"
         },
         "latest": {
-          "zh": "2026-11-04 Q1 FY2027 10-Q：经营现金流 -$92.7M（上年同期 +$46.0M），资本开支 $775.5M（上年同期 $103.9M），差额约 -$868.2M（推算）；另有 $527.7M 资本开支计入应付账款。存货现金流调整 $737.1M；期末存货余额由 $2,581.0M 增至 $3,341.4M，增加 $760.3M，公司归因于支持更高收入增长。现金腿字面成立；「倍数仍高」腿要等当前价重算，本包未重算。",
-          "en": "2026-11-04 Q1 FY2027 10-Q: operating cash flow was -$92.7M (+$46.0M a year earlier) and capital expenditure $775.5M ($103.9M a year earlier), a difference of about -$868.2M (derived); a further $527.7M of capital additions sat in accounts payable. The cash-flow inventory adjustment was $737.1M; the inventory balance rose by $760.3M from $2,581.0M to $3,341.4M, which the company attributes to supporting higher revenue growth. The cash leg is literally met; the \"multiple stays elevated\" leg needs a current-price recomputation, which this package does not perform."
+          "zh": "2026-11-04 Q1 FY2027 10-Q：经营现金流 -$92.7M（上年同期 +$46.0M），资本开支 $775.5M（上年同期 $103.9M），差额约 -$868.2M（推算）；另有 $527.7M 资本开支计入应付账款。存货现金流调整 $737.1M；期末存货余额由 $2,581.0M 增至 $3,341.4M，增加 $760.3M，公司归因于支持更高收入增长。现金腿字面成立；「倍数仍高」腿要等当前价重算，本包未重算。 Coherent 11 月 19 日提交的 8-K（Item 7.01）披露，董事会于 11 月 18 日授权公司回购最多 20 亿美元普通股，额度不含相关费用。计划无到期日，可暂停或终止。 授权明确了资本配置上限。该 8-K 未披露已执行的回购金额、股数或资金来源，季度自由现金流仍按 11 月 4 日季报口径。",
+          "en": "2026-11-04 Q1 FY2027 10-Q: operating cash flow was -$92.7M (+$46.0M a year earlier) and capital expenditure $775.5M ($103.9M a year earlier), a difference of about -$868.2M (derived); a further $527.7M of capital additions sat in accounts payable. The cash-flow inventory adjustment was $737.1M; the inventory balance rose by $760.3M from $2,581.0M to $3,341.4M, which the company attributes to supporting higher revenue growth. The cash leg is literally met; the \"multiple stays elevated\" leg needs a current-price recomputation, which this package does not perform. In its November 19 Form 8-K (Item 7.01), Coherent disclosed that its board authorized up to $2.0 billion of common-stock repurchases on November 18, excluding related expenses. The program has no expiry and can be suspended or discontinued. The authorization sets a capital-allocation limit. The 8-K gives no repurchase execution amount, share count or funding source. The November 4 quarterly filing remains the basis for quarterly free cash flow."
         },
         "nextCheck": "FY2027 Q1 现金流与营运资金，以及一次完整的当前价估值重锚 / FY2027 Q1 cash flow and working capital, plus a complete current-price valuation re-anchor",
         "nextCheckDate": "2026-11",
         "reading": "unclear",
-        "readingAsOf": "2026-11-04",
-        "readingNote": "现金腿成立，但估值腿未重算，整条不能定级。 / The cash leg is met, but the valuation leg is not recomputed, so the item as a whole cannot be graded."
+        "readingAsOf": "2026-11-19",
+        "readingNote": "8-K Item 7.01 的授权没有新的经营现金流、回购执行或估值证据，既有复合条件仍为 unclear。 / The Item 7.01 authorization supplies no new operating cash flow, execution or valuation evidence. The existing composite remains unclear."
       }
     ],
     "conviction": "low",
