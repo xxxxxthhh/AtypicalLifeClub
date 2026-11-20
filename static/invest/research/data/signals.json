@@ -4678,5 +4678,28 @@
     "monitoringRefs": [
       "coherent-2026:valuation-fcf-risk"
     ]
+  },
+  {
+    "id": "amd-world-labs-closing-20261113",
+    "date": "2026-11-13",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "AMD 完成收购 World Labs 并发行 14,978,322 股",
+      "en": "AMD completes World Labs acquisition and issues 14,978,322 shares"
+    },
+    "detail": {
+      "zh": "AMD 于 11 月 16 日提交的 8-K/A（Item 3.02）披露，World Labs 收购已于 11 月 13 日交割，向原股东发行 14,978,322 股 AMD 普通股。申报重述签约时约 82 亿美元的股票对价，金额依协议可调整，股数已由交割披露确认。 收购由已宣布协议进入已交割状态。该修订针对 World Labs，未提供 Taalas 交割、ROCm 客户迁移、机架性价比或出货数据。 https://www.sec.gov/Archives/edgar/data/2488/000119312526462340/d105780d8ka.htm",
+      "en": "AMD’s November 16 Form 8-K/A (Item 3.02) discloses that the World Labs acquisition closed on November 13 and that AMD issued 14,978,322 common shares to former World Labs holders. The filing restates the approximately $8.2 billion in stock consideration agreed at signing, subject to adjustment, and confirms the shares issued at closing. The World Labs transaction moved from announced to closed. The amendment addresses World Labs and supplies no Taalas closing, ROCm migration, rack-level price-performance or shipment data. https://www.sec.gov/Archives/edgar/data/2488/000119312526462340/d105780d8ka.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "AMD"
+    ],
+    "reportIds": [
+      "amd-2026"
+    ],
+    "monitoringRefs": [
+      "amd-2026:rocm-helios-competitiveness"
+    ]
   }
 ]
