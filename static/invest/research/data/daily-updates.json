@@ -3,6 +3,188 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "alphabet-2026",
+      "signalId": "alphabet-q3-2026-cloud-backlog-search-fcf-20261028",
+      "type": "facts",
+      "evidenceDate": "2026-10-28",
+      "title": {
+        "en": "Google Cloud revenue doubled while Alphabet’s quarterly cash deficit widened",
+        "zh": "Google Cloud 收入翻倍，Alphabet 季度自由现金流缺口扩大"
+      },
+      "change": {
+        "en": "In Q3, Google Cloud revenue was $30.709B (+103% YoY), operating income was $11.121B (36.2% margin), and quarter-end Cloud backlog was $560.8B. Search & other revenue was $63.350B (+12%). Quarterly free cash flow was −$9.065B, while trailing free cash flow remained positive at $19.747B.",
+        "zh": "Q3 Google Cloud 收入 307.09 亿美元（同比 +103%），营业利润 111.21 亿美元（利润率 36.2%），季末 Cloud 积压收入 5,608 亿美元。搜索及其他收入 633.50 亿美元（+12%）。季度自由现金流为负 90.65 亿美元，TTM 自由现金流仍为正 197.47 亿美元。"
+      },
+      "meaning": {
+        "en": "Cloud volumes and profitability grew while heavier capital spending squeezed cash. Search revenue data does not isolate monetization per AI query.",
+        "zh": "云业务收入和盈利增长，资本开支加重现金压力。搜索收入未拆分 AI 查询的单次变现。"
+      },
+      "next": {
+        "en": "Check backlog conversion, Search monetization, and whether trailing free cash flow approaches zero.",
+        "zh": "跟踪积压收入转化、搜索变现和 TTM 自由现金流是否接近零。"
+      },
+      "id": "research-bd5ddd8be0a7d2019c613db1290de8b908c3d922f4035d6ea6555c305d2f40e7",
+      "publishedDate": "2026-11-21",
+      "company": "Alphabet",
+      "ticker": "GOOG"
+    },
+    {
+      "reportId": "amzn-2026",
+      "signalId": "amazon-q3-2026-aws-cash-flow-20261029",
+      "type": "facts",
+      "evidenceDate": "2026-10-29",
+      "title": {
+        "en": "AWS grew 39.3% as Amazon’s trailing free cash flow fell to −$42.4B",
+        "zh": "AWS 收入增长 39.3%，Amazon 过去十二个月自由现金流降至负 424 亿美元"
+      },
+      "change": {
+        "en": "Q3 AWS net sales were $45.984B and operating income was $17.773B, implying a 38.7% margin. Trailing operating cash flow of $168.300B less $210.657B of net property and equipment purchases left free cash flow of −$42.357B, versus −$7.604B a quarter earlier.",
+        "zh": "Q3 AWS 净销售额 459.84 亿美元，营业利润 177.73 亿美元，计算得营业利润率 38.7%。TTM 经营现金流 1,683.00 亿美元减去净购置物业设备支出 2,106.57 亿美元，自由现金流为负 423.57 亿美元，前一季度为负 76.04 亿美元。"
+      },
+      "meaning": {
+        "en": "AWS growth and margin remain above the report’s downside levels. The trailing cash shortfall crossed $25B in Q3. Persistence into 2027 remains untested.",
+        "zh": "AWS 增长与利润率仍高于报告的下行阈值。Q3 的 TTM 现金缺口已超过 250 亿美元，能否延续至 2027 年仍待核验。"
+      },
+      "next": {
+        "en": "Check the next trailing cash flow and long-term debt together with AWS margin.",
+        "zh": "同步复核下一期 TTM 自由现金流、长期债务及 AWS 利润率。"
+      },
+      "id": "research-8fb3b3228fa97633c0c21442df0481a1ef64d035f00c348a6bfc6f1251e8b34f",
+      "publishedDate": "2026-11-21",
+      "company": "Amazon",
+      "ticker": "AMZN"
+    },
+    {
+      "reportId": "bloom-energy-2026",
+      "signalId": "bloom-energy-q3-2026-revenue-margin-cash-20261022",
+      "type": "facts",
+      "evidenceDate": "2026-10-22",
+      "title": {
+        "en": "Bloom Energy raised its annual revenue outlook as operating cash flow turned negative",
+        "zh": "Bloom Energy 上调全年收入指引，季度经营现金流转负"
+      },
+      "change": {
+        "en": "Bloom reported Q3 revenue of $1.236B (+138.1% YoY), product revenue of $1.074B (+179.4%), non-GAAP gross margin of 34.5% and operating cash outflow of $27.1M, versus inflow of $226.4M in Q2. It raised FY2026 revenue guidance to $4.4–4.6B.",
+        "zh": "Bloom Q3 收入 12.358 亿美元（同比 +138.1%），产品收入 10.736 亿美元（+179.4%），非 GAAP 毛利率 34.5%。经营现金流净流出 2,714.7 万美元，Q2 净流入 2.264 亿美元。公司上调 FY2026 收入指引至 44–46 亿美元。"
+      },
+      "meaning": {
+        "en": "Revenue and margins advanced while quarterly cash conversion weakened. The results do not quantify incremental data-center orders separately.",
+        "zh": "收入与毛利率改善，季度现金转化走弱。业绩稿未单列数据中心新增订单。"
+      },
+      "next": {
+        "en": "Check Q4 operating cash flow and named order conversion.",
+        "zh": "跟踪 Q4 经营现金流及具名订单转化。"
+      },
+      "id": "research-abb5740fd43b360c83471810de102cae7133621495251feb81a920d3fb259f92",
+      "publishedDate": "2026-11-21",
+      "company": "Bloom Energy",
+      "ticker": "BE"
+    },
+    {
+      "reportId": "meta-2026",
+      "signalId": "meta-q3-2026-capex-margins-20261021",
+      "type": "facts",
+      "evidenceDate": "2026-10-21",
+      "title": {
+        "en": "Meta’s ad metrics grew as reported margin and free cash flow weakened",
+        "zh": "Meta 广告指标增长，报告利润率与自由现金流走弱"
+      },
+      "change": {
+        "en": "Q3 revenue rose 26% to $64.60B, ad impressions rose 10% and average ad price rose 14%. Reported operating margin was 20%, versus 40% a year earlier. The quarter included a $9.9B legal charge. Free cash flow was −$2.12B and the 2026 capex range rose at the low end to $135–145B, including finance-lease principal.",
+        "zh": "Q3 营收同比 +26% 至 646.0 亿美元，广告展示量 +10%，平均广告价格 +14%。报告营业利润率 20%，上年同期为 40%，本季计入 99 亿美元诉讼费用。自由现金流为负 21.2 亿美元。含融资租赁本金的 2026 年资本开支指引下限上调，区间为 1,350–1,450 亿美元。"
+      },
+      "meaning": {
+        "en": "The reported margin is below the 35% operating monitor, alongside a quantified legal charge. The 2026 capex guide’s upper end is still $145B. This release gives no quantified 2027 capex range.",
+        "zh": "报告营业利润率低于监控项的 35%，同季包含已量化的诉讼费用。2026 年资本开支指引上限仍为 1,450 亿美元。该业绩稿未给出 2027 年资本开支区间。"
+      },
+      "next": {
+        "en": "Check 2027 capex guidance and whether margin recovers after the legal charge.",
+        "zh": "核对 2027 年资本开支指引及诉讼费用后的利润率能否恢复。"
+      },
+      "id": "research-51634860898dd6feb4bfe53c3c74eb059068723712420d0bc5d3bf7d49c0eedf",
+      "publishedDate": "2026-11-21",
+      "company": "Meta Platforms",
+      "ticker": "META"
+    },
+    {
+      "reportId": "micron-2026",
+      "signalId": "micron-q4-fy2026-revenue-gross-margin-20260930",
+      "type": "facts",
+      "evidenceDate": "2026-09-30",
+      "title": {
+        "en": "Micron beat fiscal Q4 guidance with $54.23B revenue and 87.0% adjusted gross margin",
+        "zh": "美光 FY2026 Q4 收入 542.3 亿美元，调整后毛利率 87.0%，超过指引"
+      },
+      "change": {
+        "en": "Fiscal Q4 revenue was $54.229B versus guidance of $49–51B. GAAP gross margin was 86.8% and non-GAAP gross margin was 87.0%. Fiscal Q1 FY2027 guidance was $61.5B ± $1.5B in revenue and about 86.25% non-GAAP gross margin.",
+        "zh": "FY2026 Q4 收入 542.29 亿美元，高于 490–510 亿美元指引。GAAP 与非 GAAP 毛利率分别为 86.8% 和 87.0%。FY2027 Q1 收入指引为 615 亿美元上下 15 亿美元，非 GAAP 毛利率约 86.25%。"
+      },
+      "meaning": {
+        "en": "Reported and guided gross margin remain above 80%. The release does not quantify the volume of the 2027 HBM order book or the revenue mix from strategic customer agreements.",
+        "zh": "实际与指引毛利率仍高于 80%。业绩稿未量化 2027 年 HBM 订单覆盖或长期战略客户协议收入占比。"
+      },
+      "next": {
+        "en": "Check the fiscal Q1 margin and open the original HBM and agreement disclosures when quantities are available.",
+        "zh": "核对 FY2027 Q1 毛利率，待披露数量后复核 HBM 及长期战略客户协议原文。"
+      },
+      "id": "research-afcf5ea4e3a68542d688a160ec98f6d4106c8f9de26fcbd79924e55cafd7c2bb",
+      "publishedDate": "2026-11-21",
+      "company": "Micron Technology",
+      "ticker": "MU"
+    },
+    {
+      "reportId": "sandisk-2026",
+      "signalId": "sandisk-8-for-1-stock-split-first-session-20261120",
+      "type": "facts",
+      "evidenceDate": "2026-11-20",
+      "title": {
+        "en": "Sandisk’s eight-for-one split took effect",
+        "zh": "Sandisk 一股拆八股生效"
+      },
+      "change": {
+        "en": "Sandisk’s certificate amendment took effect at 4:01 p.m. Eastern Time on November 19 and provided for an eight-for-one forward split. Nasdaq shows the November 20 regular-session close on the post-split share basis at $79.24.",
+        "zh": "Sandisk 的章程修订于美东时间 11 月 19 日 16:01 生效，每股拆分为八股。Nasdaq 显示 11 月 20 日常规盘收盘为拆股后的每股 79.24 美元。"
+      },
+      "meaning": {
+        "en": "Historical per-share anchors in the report are pre-split. Comparable per-share readings require the eight-for-one conversion.",
+        "zh": "报告的历史每股基准采用拆股前口径，比对时需按一股拆八股统一单位。"
+      },
+      "next": {
+        "en": "Use one split basis for subsequent per-share comparisons.",
+        "zh": "后续每股比较使用统一拆股口径。"
+      },
+      "id": "research-57383d10d2347895f4ba2334e01dffa6afc11639788d4a75d3750baa85ec630d",
+      "publishedDate": "2026-11-21",
+      "company": "SanDisk",
+      "ticker": "SNDK"
+    },
+    {
+      "reportId": "spotify-2026",
+      "signalId": "spotify-q3-2026-kpis-margin-cash-20261022",
+      "type": "facts",
+      "evidenceDate": "2026-10-22",
+      "title": {
+        "en": "Spotify reached 788M listeners and 306M subscribers, while quarterly free cash flow fell",
+        "zh": "Spotify 月活达 7.88 亿、付费用户 3.06 亿，季度自由现金流下滑"
+      },
+      "change": {
+        "en": "Q3 MAUs were 788M, Premium subscribers 306M and revenue €4.969B (+16% YoY). Spotify marked revenue in line at the rounded €5.0B guidance precision. Gross margin was 33.0%, operating income €672M and free cash flow €735M (−9% YoY). Ad-Supported revenue was €482M (+10%, or +14% currency-neutral). The Q4 operating-income guide was €820M.",
+        "zh": "Q3 月活 7.88 亿、付费用户 3.06 亿，收入 49.69 亿欧元（同比 +16%）。按 50 亿欧元指引的披露精度，公司判为符合指引。毛利率 33.0%，营业利润 6.72 亿欧元，自由现金流 7.35 亿欧元（同比 −9%）。广告支持业务收入 4.82 亿欧元（+10%，固定汇率 +14%）。Q4 营业利润指引为 8.20 亿欧元。"
+      },
+      "meaning": {
+        "en": "Premium subscribers and profitability exceeded guidance. Exact reported revenue is €31M below €5.0B, while the issuer reports in-line at rounded precision. Quarterly free cash flow and ad segment margin were below Q2.",
+        "zh": "付费用户及盈利水平超过指引。精确收入较 50 亿欧元低 3,100 万欧元，公司按四舍五入口径判为合规。季度自由现金流和广告分部毛利率低于 Q2。"
+      },
+      "next": {
+        "en": "Compare the Q4 print with the €820M operating-income guide and check ad-margin durability.",
+        "zh": "用 Q4 实际营业利润核对 8.20 亿欧元指引，并复查广告毛利率能否维持。"
+      },
+      "id": "research-3da464bfe787ecc11e236168a3eaec93032f8725ab76d2653bf1bed4b2c02f71",
+      "publishedDate": "2026-11-21",
+      "company": "Spotify",
+      "ticker": "SPOT"
+    },
+    {
       "reportId": "amd-2026",
       "signalId": "amd-world-labs-closing-20261113",
       "type": "facts",

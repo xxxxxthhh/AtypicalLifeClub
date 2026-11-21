@@ -6,6 +6,55 @@
     <description>Company research updates from Atypical Life Club.</description>
     <language>zh-CN</language>
     <item>
+      <title>Alphabet 深度研究报告 - TPU 外部化与 capex 融资质量的架构校验 / Alphabet Deep Research Report - Architecture Check on TPU Externalization and Capex Funding Quality</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=alphabet-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=alphabet-2026#alphabet-2026@2026-11-21</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+      <description>AI 基础设施书 demand-risk 层的架构校验初始覆盖：本层已有两篇公共约束（Microsoft、Meta）和一篇仪表盘（Oracle），Alphabet 承担只有它能做的买方架构检验——全球最大自研芯片项目开始向第三方出售 TPU 系统，使它同时是商用芯片的前二大客户和竞争者。2026 Q2（季度截至 2026-06-30、07-22 发布）：收入 $119.796B（+24%）、Google Cloud +82% 至 $24.768B 且分部利润率 20.7%→35.6%、Search 及其他 +17%、合并经营利润率 34.0%、收入积压 $519.5B（Cloud $513.9B）。10-Q 首次写明 Cloud 产品收入主要来自 TPU 系统销售，存货半年由 $2.439B 升至 $9.991B。但同一季度自由现金流为 −$5.855B、回购连续两季为 $0（$69.5B 授权未动用）、6 月增发股权净额 $49.6B、股本 12,088M→12,230M，FY2026 capex 指引上调至 $195-205B、2027 年将显著更高。以 2026-07-30 收盘 $333.68 为锚（财报次日 07-23 单日 −6.9%），市值约 $4.081T、约 9.2x TTM 收入、约 26.7x EV/TTM 经营利润、约 73.9x EV/TTM 自由现金流；追溯 GAAP 市盈率约 16.7x 不可用，因 Q2 每股 $9.11 中 $6.26 来自权益证券估值变动，清洗后至少约 29.7x。30% 牛市 / 50% 基准 / 20% 熊市网格读出轻度正偏度但建立在预测之上，初始立场中性观察 / 中确信。</description>
+    </item>
+    <item>
+      <title>Micron Technology 深度研究报告 - AI memory 周期的 HBM/DRAM/NAND 仪表盘 / Micron Technology Deep Research Report - HBM, DRAM, and NAND Dashboard for the AI Memory Cycle</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=micron-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=micron-2026#micron-2026@2026-11-21</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+      <description>【2026-07-31 立场重新裁定：MU 于 2026-07-30 收于 $874.66，较 07-29 低点反弹 +18.4%、较原锚点 -10.3%，市值约 $987.9B；按所有者 Q1 裁定按当前价格复核，维持谨慎（中确信）——隐含可持续 EPS 约 $58-73 仍高于网格加权约 $53，负预期差收窄但仍成立。】AI 基础设施书 memory-storage 层补位：Micron 是 HBM、DDR5、数据中心 SSD 和长期供货协议共同构成的 AI 供给瓶颈仪表盘。FY2026 Q3 收入 $41.46B、毛利率约 84.6%、营业利润 $33.32B、净利润 $28.24B，Q4 指引收入 $49-51B、调整后 EPS $30-32、毛利率约 86%。HBM 产能公开报道显示已售罄至 2026，16 个战略客户协议中 14 个最低合同收入约 $100B、约 $22B 现金存款/承诺。2026-07-07 v5 更新：以 $975.56（2026-07-02 收盘，旧锚点）、市值约 $1.10T 计，20% 牛市 / 50% 基准 / 30% 熊市情景网格给出温和负偏斜，判断改为谨慎 / 中确信。2026-07-09 官方公告最多 $3B 的美国供应链投入、拟向 GlobalWafers 融资 $500M 并签 10 年 300mm 原始硅片协议，强化长期供给响应证据，但不代表新增 bit supply 已上线，也不刷新 2026-07-02 估值快照。</description>
+    </item>
+    <item>
+      <title>Meta Platforms 深度研究报告 - AI 基建书的需求锚与算力外售压力测试 / Meta Platforms Deep Research Report - Demand Anchor and Compute-Resale Stress Test for the AI-Infra Book</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=meta-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=meta-2026#meta-2026@2026-11-21</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+      <description>2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30）：收入 $60.80B（同比 +28%）、营业利润 $18.775B、营业利润率 31%（去年同期 43%）、净利润 $15.848B（同比 -14%）、摊薄 EPS $6.18；总成本费用 $42.026B（同比 +55%）。经营现金流 $31.862B（+25%），但 $31.078B capex 把自由现金流压至 $0.784B（-91%）；FY2026 capex 指引收窄至 $130-145B。application-monetization 是混合读数：收入与经营现金流增长，营业利润率、净利润与 FCF 恶化。本中心 AI 基础设施书 demand-risk 层的需求锚覆盖：Meta 不是 GPU/HBM/电力/光模块供应商，而是整条链最重要的终端买方之一。2026-07-31 重新锚定至 2026-07-30 收盘 $539.03：市值约 $1.37T、EV 约 $1.41T，约 6.4x TTM P/S、约 15.9x EV/TTM 营业利润，按 Q1 剔除税益 EPS 年化约 18.4x（按 Q2 实际 EPS 年化约 21.8x）。倍数较旧锚点更宽松，立场按当前价格算术维持 neutral-watch / 中确信；上述 TTM 口径为 Q2'25-Q1'26，不含 2026 Q2，Q2 的 FCF 与利润率恶化关系到偏斜，须由 Q2 后重建口径的重新承保处理。</description>
+    </item>
+    <item>
+      <title>SanDisk 深度研究报告 - NAND寡头格局中的AI存储周期暴露 / SanDisk Deep Research Report - AI Storage Cycle Exposure in the NAND Oligopoly</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=sandisk-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=sandisk-2026#sandisk-2026@2026-11-21</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+      <description>SanDisk 2026-10-30 提交的 Q1 FY2027 10-Q 披露，截至 10 月 2 日，NBM 剩余履约义务为 889 亿美元，其中 874 亿美元未开票，约 15 亿美元计入合同负债，约 20% 预计未来 12 个月确认为收入。 2026-10-30 — Q1 FY2027（季度截至 2026-10-02，2026-10-29 发布）收入 $110.31 亿（环比 +23%、同比 +378%），高于原 $103-108 亿指引；GAAP 毛利率 85.0%、非 GAAP 85.1%（Q4 FY2026：84.6%），高于 GAAP 83.0-84.9% / 非 GAAP 83.0-85.0% 指引；GAAP 营业利润 $87.80 亿（营业利润率 79.6%）。数据中心收入 $48.02 亿（环比 +61%），按新闻稿表格自算约占收入 43.5%（Q4 约 33.2%）；Edge $58.32 亿（+7%）、消费 $3.97 亿（-29%）。经营现金流 $63.63 亿、资本开支 $0.54 亿、自由现金流 $63.09 亿；公司定义的调整后自由现金流 $56.96 亿（扣除 $1.48 亿 Flash Ventures 净活动与 $4.65 亿 NBM 预付款及保证金；63.09 − 1.48 − 4.65 = 56.96 亿美元）。Q2 FY2027 指引收入 $122-126 亿、毛利率 GAAP 84.4-85.4% / 非 GAAP 84.5-85.5%。新闻稿未涉及约 $420 亿 NBM 最低合同收入、RPO、FY2027 committed-bit 覆盖或交付，也无 NAND 合同价与 bit 结构数据；上述新闻稿读数为当时口径。估值仍按 2026-08-17 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。</description>
+    </item>
+    <item>
+      <title>Bloom Energy 深度研究报告 - AI电力基础设施高弹性与估值重定价 / Bloom Energy Deep Research Report - AI Power Infrastructure Upside After a Sharp Valuation Reset</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=bloom-energy-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=bloom-energy-2026#bloom-energy-2026@2026-11-21</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+      <description>2026-07-31 立场重新裁定（并入 Q2 2026）：Q2 收入 $1.0654B（同比 +165.5%，首个十亿美元季度）、非 GAAP 毛利率 34.3%（越过报告自设的 32%+ 门槛）、非 GAAP 摊薄 EPS $0.78，FY2026 指引上调至收入 $3.9-4.2B、非 GAAP EPS $2.55-2.85。价格锚点重设为 2026-07-30 收盘 $207.12、市值约 $610 亿，约为上调后指引中值的 15.1x——设定谨慎立场时的约 26x 前提已不成立。按所有者 Q1 裁定，立场由谨慎调整为观望中性（中确信）：15.1x 前瞻销售额仍偏高，2 GW 扩产待 H2 2026 交付量验证，故不转为看多；网格权重（20/40/40）保留。</description>
+    </item>
+    <item>
+      <title>Amazon 深度研究报告 - AWS 建设速度与现金吸收的需求仪表盘 / Amazon Deep Research Report - Demand Dashboard for AWS Buildout Velocity and Cash Absorption</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=amzn-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amzn-2026#amzn-2026@2026-11-21</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+      <description>2026H1 全周期重写，把 Amazon 升级为 AI 基础设施书 demand-risk 层的 dashboard 节点。2026 Q2（截至 06-30、07-30 盘后发布）：营收 $200.606B（+20%），AWS $42.232B（+37%、18 季最快、年化运行率 $169B）、分部营业利润 $16.621B / 利润率 39.4%，合并营业利润 $27.461B、利润率创纪录 13.7%，广告 +26%。净利润 $62.647B 含 $53.415B 非经营性其他收益（主要为 Anthropic 重估），不代表经营盈利。TTM 经营现金流 $161.403B，但 PP&amp;E 净购置 $169.007B 使 TTM 自由现金流降至 -$7.604B；据电话会报道全年现金资本开支指引由约 $200B 上调至约 $220B，其中约 $20B 归因于内存涨价而非产能，AWS backlog 达 $496B。2026-08-13 S-4/A 补充了待交割 Globalstar 收购的公司级卫星 / 频谱可选性，但监管与 C-3 授权仍待完成，且该交易不构成现有 AI 链信号。估值锚为 2026-07-30 收盘 $235.50，该价格早于盘后财报数小时：市值约 $2.539T、窄口径 EV 约 $2.545T、EV/TTM 销售额约 3.28x（含长期租赁约 3.40x）。30/40/30 情景网格在这个新闻前锚点上读出温和为正的预期差，立场偏多、中确信。</description>
+    </item>
+    <item>
+      <title>Spotify 深度研究报告 - 全球音频科技平台的盈利转型与估值再评估 / Spotify Deep Research Report - The Global Audio Tech Platform's Profitability Transformation and Valuation Reassessment</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=spotify-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=spotify-2026#spotify-2026@2026-11-21</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+      <description>2026-10-02 立场补录与重锚（Q2 2026 证据层）：Q2 营收€4.777B（+14%，恒定汇率+15%）、毛利率33.4%、营业利润€655M、FCF€797M、Premium 3.00亿、MAU 7.77亿。按2026-10-01收盘$491.40及ECB EUR/USD 1.1298，市值$101,024.1M、企业价值€80,495.7M，对应TTM营业利润30.3倍、TTM报告净利26.8倍（正常化约41.0倍）、FY2026一致预期EPS 35.5倍（第三方）、FCF收益率3.65%。30/40/30情景网格加权每股$643.53、至2028年底年化+12.7%，高于8%门槛；但退出倍数下调4倍即降至+5.1%，重算DCF基准$431.92低于股价。立场 constructive / 确信度 low。Q3业绩2026-10-22盘前发布。</description>
+    </item>
+    <item>
       <title>Rocket Lab 深度研究报告 - 现有交付、Neutron 风险与每股资本回报 / Rocket Lab Deep Research Report - Delivery, Neutron Risk and Per-Share Capital Returns</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=rklb-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=rklb-2026#rklb-2026@2026-11-20</guid>
@@ -32,13 +81,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=reddit-2026#reddit-2026@2026-11-19</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
       <description>2026-11-19 立场复核：由 constructive 下调至 neutral-watch（中性观察）/ 低确信度。预先承诺的降级条件“美国 DAUq 连续两个季度环比下滑”随 2026-10-29 Q3 2026 业绩逐字命中：美国 DAUq Q1、Q2、Q3 依次为 5,350 万、5,320 万、5,070 万（Q1–Q3 各季 Exhibit 99.1 业绩稿；Q3 股东信第 3 页亦列出该序列）（环比 −0.6%、−4.7%，同比 −2%；breached），因此翻转。其余降级腿均未触发：Q3 收入 $895.0M（同比 +53%，高于 $860-870M 指引），Q4 收入指引 $1,000-1,030M（中值 $1,015M，高于约 $979.6M 阈值）；Q3 美国 ARPU $13.82（同比 +53%，阈值 +25%）；Q3 调整后 EBITDA $402.3M、利润率 44.9%（上年 40.3%），Q2 亦同比扩张；公司未披露 Google 协议续约或不续约。股东信称 Q3 搜索引流明显下滑、季末加速并延续至 Q4 初，若 10 月趋势持续，Q4 总 DAUq 可能较 1.3 亿下降低双位数百分比；同期美国登录 DAUq 由 2,310 万升至 2,340 万。估值网格不重算：2026-10-01 锚点 $149.53 下的 30/50/20 网格加权每股 $200.44、年化 +13.9%，保留为历史锚点，不作为维持理由；2026-11-18 收盘 $94.09，较锚点 −37.1%。回到 constructive 须同一季度同时满足：美国 DAUq 环比增长且美国登录 DAUq 不低于 2,340 万；收入不低于该季公司指引下沿；美国收入（美国 DAUq×美国 ARPU）同比不低于 +25%。首次覆盖 2026-08-01，立场补录 2026-10-02。</description>
-    </item>
-    <item>
-      <title>SanDisk 深度研究报告 - NAND寡头格局中的AI存储周期暴露 / SanDisk Deep Research Report - AI Storage Cycle Exposure in the NAND Oligopoly</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=sandisk-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=sandisk-2026#sandisk-2026@2026-11-19</guid>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <description>SanDisk 2026-10-30 提交的 Q1 FY2027 10-Q 披露，截至 10 月 2 日，NBM 剩余履约义务为 889 亿美元，其中 874 亿美元未开票，约 15 亿美元计入合同负债，约 20% 预计未来 12 个月确认为收入。 2026-10-30 — Q1 FY2027（季度截至 2026-10-02，2026-10-29 发布）收入 $110.31 亿（环比 +23%、同比 +378%），高于原 $103-108 亿指引；GAAP 毛利率 85.0%、非 GAAP 85.1%（Q4 FY2026：84.6%），高于 GAAP 83.0-84.9% / 非 GAAP 83.0-85.0% 指引；GAAP 营业利润 $87.80 亿（营业利润率 79.6%）。数据中心收入 $48.02 亿（环比 +61%），按新闻稿表格自算约占收入 43.5%（Q4 约 33.2%）；Edge $58.32 亿（+7%）、消费 $3.97 亿（-29%）。经营现金流 $63.63 亿、资本开支 $0.54 亿、自由现金流 $63.09 亿；公司定义的调整后自由现金流 $56.96 亿（扣除 $1.48 亿 Flash Ventures 净活动与 $4.65 亿 NBM 预付款及保证金；63.09 − 1.48 − 4.65 = 56.96 亿美元）。Q2 FY2027 指引收入 $122-126 亿、毛利率 GAAP 84.4-85.4% / 非 GAAP 84.5-85.5%。新闻稿未涉及约 $420 亿 NBM 最低合同收入、RPO、FY2027 committed-bit 覆盖或交付，也无 NAND 合同价与 bit 结构数据；上述新闻稿读数为当时口径。估值仍按 2026-08-17 历史基础；新实绩／指引待 Mode B，价格、估值数字、立场和确信度未更新。</description>
     </item>
     <item>
       <title>NVIDIA 深度研究报告 - AI 计算中枢的高质量与高预期 / NVIDIA Deep Research Report - The AI Compute Hub, High Quality Meets High Expectations</title>
@@ -412,13 +454,6 @@
       <description>2026-10-02 立场补录（锚点 2026-10-01 收盘 $108.23，NAV $108.15、溢价 0.07%）：基金净资产 $14.276B，iShares P/E 35.13 倍（09-30），按本报告持仓加权一致预期估算为 33.05 倍 CY2027 盈利。30/40/30 情景网格加权每份额 $111.03，至 2028 年末年化 +1.1%，低于 8% 门槛 6.9 个百分点，只有倍数与增速同时上调才过门槛。立场：谨慎 / 中确信。前 10 大持仓 61.71%（PANW、PLTR、CRWD 居前），加密资产关联持仓 4.47%。</description>
     </item>
     <item>
-      <title>Spotify 深度研究报告 - 全球音频科技平台的盈利转型与估值再评估 / Spotify Deep Research Report - The Global Audio Tech Platform's Profitability Transformation and Valuation Reassessment</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=spotify-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=spotify-2026#spotify-2026@2026-10-02</guid>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
-      <description>2026-10-02 立场补录与重锚（Q2 2026 证据层）：Q2 营收€4.777B（+14%，恒定汇率+15%）、毛利率33.4%、营业利润€655M、FCF€797M、Premium 3.00亿、MAU 7.77亿。按2026-10-01收盘$491.40及ECB EUR/USD 1.1298，市值$101,024.1M、企业价值€80,495.7M，对应TTM营业利润30.3倍、TTM报告净利26.8倍（正常化约41.0倍）、FY2026一致预期EPS 35.5倍（第三方）、FCF收益率3.65%。30/40/30情景网格加权每股$643.53、至2028年底年化+12.7%，高于8%门槛；但退出倍数下调4倍即降至+5.1%，重算DCF基准$431.92低于股价。立场 constructive / 确信度 low。Q3业绩2026-10-22盘前发布。</description>
-    </item>
-    <item>
       <title>Oracle 深度研究报告 - AI 云 RPO 仪表盘与资本开支融资压力 / Oracle Deep Research Report - AI Cloud RPO Dashboard and Capex Financing Pressure</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=oracle-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=oracle-2026#oracle-2026@2026-09-24</guid>
@@ -445,41 +480,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=jinpan-2026#jinpan-2026@2026-08-21</guid>
       <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
       <description>2026-08-21 半年报监测更新：金盘科技 H1 2026 营收 35.56 亿元（同比 +12.73%）、归母净利 3.03 亿元（+14.23%）；数据中心收入 12.65 亿元（+122.57%）、期末在手订单 50.92 亿元，但 SST 仍仅披露样机与研发进展。同期经营现金流转为 -0.24 亿元，应收及合同资产较期初 +5.91%，回款质量尚不能判定，因此相关读数均为 unclear。估值没有重算；中性／观察、中确信仍沿用 2026-07-31 收盘 64.30 元的历史裁定。</description>
-    </item>
-    <item>
-      <title>Amazon 深度研究报告 - AWS 建设速度与现金吸收的需求仪表盘 / Amazon Deep Research Report - Demand Dashboard for AWS Buildout Velocity and Cash Absorption</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=amzn-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amzn-2026#amzn-2026@2026-08-16</guid>
-      <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
-      <description>2026H1 全周期重写，把 Amazon 升级为 AI 基础设施书 demand-risk 层的 dashboard 节点。2026 Q2（截至 06-30、07-30 盘后发布）：营收 $200.606B（+20%），AWS $42.232B（+37%、18 季最快、年化运行率 $169B）、分部营业利润 $16.621B / 利润率 39.4%，合并营业利润 $27.461B、利润率创纪录 13.7%，广告 +26%。净利润 $62.647B 含 $53.415B 非经营性其他收益（主要为 Anthropic 重估），不代表经营盈利。TTM 经营现金流 $161.403B，但 PP&amp;E 净购置 $169.007B 使 TTM 自由现金流降至 -$7.604B；据电话会报道全年现金资本开支指引由约 $200B 上调至约 $220B，其中约 $20B 归因于内存涨价而非产能，AWS backlog 达 $496B。2026-08-13 S-4/A 补充了待交割 Globalstar 收购的公司级卫星 / 频谱可选性，但监管与 C-3 授权仍待完成，且该交易不构成现有 AI 链信号。估值锚为 2026-07-30 收盘 $235.50，该价格早于盘后财报数小时：市值约 $2.539T、窄口径 EV 约 $2.545T、EV/TTM 销售额约 3.28x（含长期租赁约 3.40x）。30/40/30 情景网格在这个新闻前锚点上读出温和为正的预期差，立场偏多、中确信。</description>
-    </item>
-    <item>
-      <title>Alphabet 深度研究报告 - TPU 外部化与 capex 融资质量的架构校验 / Alphabet Deep Research Report - Architecture Check on TPU Externalization and Capex Funding Quality</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=alphabet-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=alphabet-2026#alphabet-2026@2026-07-31</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施书 demand-risk 层的架构校验初始覆盖：本层已有两篇公共约束（Microsoft、Meta）和一篇仪表盘（Oracle），Alphabet 承担只有它能做的买方架构检验——全球最大自研芯片项目开始向第三方出售 TPU 系统，使它同时是商用芯片的前二大客户和竞争者。2026 Q2（季度截至 2026-06-30、07-22 发布）：收入 $119.796B（+24%）、Google Cloud +82% 至 $24.768B 且分部利润率 20.7%→35.6%、Search 及其他 +17%、合并经营利润率 34.0%、收入积压 $519.5B（Cloud $513.9B）。10-Q 首次写明 Cloud 产品收入主要来自 TPU 系统销售，存货半年由 $2.439B 升至 $9.991B。但同一季度自由现金流为 −$5.855B、回购连续两季为 $0（$69.5B 授权未动用）、6 月增发股权净额 $49.6B、股本 12,088M→12,230M，FY2026 capex 指引上调至 $195-205B、2027 年将显著更高。以 2026-07-30 收盘 $333.68 为锚（财报次日 07-23 单日 −6.9%），市值约 $4.081T、约 9.2x TTM 收入、约 26.7x EV/TTM 经营利润、约 73.9x EV/TTM 自由现金流；追溯 GAAP 市盈率约 16.7x 不可用，因 Q2 每股 $9.11 中 $6.26 来自权益证券估值变动，清洗后至少约 29.7x。30% 牛市 / 50% 基准 / 20% 熊市网格读出轻度正偏度但建立在预测之上，初始立场中性观察 / 中确信。</description>
-    </item>
-    <item>
-      <title>Micron Technology 深度研究报告 - AI memory 周期的 HBM/DRAM/NAND 仪表盘 / Micron Technology Deep Research Report - HBM, DRAM, and NAND Dashboard for the AI Memory Cycle</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=micron-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=micron-2026#micron-2026@2026-07-31</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <description>【2026-07-31 立场重新裁定：MU 于 2026-07-30 收于 $874.66，较 07-29 低点反弹 +18.4%、较原锚点 -10.3%，市值约 $987.9B；按所有者 Q1 裁定按当前价格复核，维持谨慎（中确信）——隐含可持续 EPS 约 $58-73 仍高于网格加权约 $53，负预期差收窄但仍成立。】AI 基础设施书 memory-storage 层补位：Micron 是 HBM、DDR5、数据中心 SSD 和长期供货协议共同构成的 AI 供给瓶颈仪表盘。FY2026 Q3 收入 $41.46B、毛利率约 84.6%、营业利润 $33.32B、净利润 $28.24B，Q4 指引收入 $49-51B、调整后 EPS $30-32、毛利率约 86%。HBM 产能公开报道显示已售罄至 2026，16 个战略客户协议中 14 个最低合同收入约 $100B、约 $22B 现金存款/承诺。2026-07-07 v5 更新：以 $975.56（2026-07-02 收盘，旧锚点）、市值约 $1.10T 计，20% 牛市 / 50% 基准 / 30% 熊市情景网格给出温和负偏斜，判断改为谨慎 / 中确信。2026-07-09 官方公告最多 $3B 的美国供应链投入、拟向 GlobalWafers 融资 $500M 并签 10 年 300mm 原始硅片协议，强化长期供给响应证据，但不代表新增 bit supply 已上线，也不刷新 2026-07-02 估值快照。</description>
-    </item>
-    <item>
-      <title>Meta Platforms 深度研究报告 - AI 基建书的需求锚与算力外售压力测试 / Meta Platforms Deep Research Report - Demand Anchor and Compute-Resale Stress Test for the AI-Infra Book</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=meta-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=meta-2026#meta-2026@2026-07-31</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <description>2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30）：收入 $60.80B（同比 +28%）、营业利润 $18.775B、营业利润率 31%（去年同期 43%）、净利润 $15.848B（同比 -14%）、摊薄 EPS $6.18；总成本费用 $42.026B（同比 +55%）。经营现金流 $31.862B（+25%），但 $31.078B capex 把自由现金流压至 $0.784B（-91%）；FY2026 capex 指引收窄至 $130-145B。application-monetization 是混合读数：收入与经营现金流增长，营业利润率、净利润与 FCF 恶化。本中心 AI 基础设施书 demand-risk 层的需求锚覆盖：Meta 不是 GPU/HBM/电力/光模块供应商，而是整条链最重要的终端买方之一。2026-07-31 重新锚定至 2026-07-30 收盘 $539.03：市值约 $1.37T、EV 约 $1.41T，约 6.4x TTM P/S、约 15.9x EV/TTM 营业利润，按 Q1 剔除税益 EPS 年化约 18.4x（按 Q2 实际 EPS 年化约 21.8x）。倍数较旧锚点更宽松，立场按当前价格算术维持 neutral-watch / 中确信；上述 TTM 口径为 Q2'25-Q1'26，不含 2026 Q2，Q2 的 FCF 与利润率恶化关系到偏斜，须由 Q2 后重建口径的重新承保处理。</description>
-    </item>
-    <item>
-      <title>Bloom Energy 深度研究报告 - AI电力基础设施高弹性与估值重定价 / Bloom Energy Deep Research Report - AI Power Infrastructure Upside After a Sharp Valuation Reset</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=bloom-energy-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=bloom-energy-2026#bloom-energy-2026@2026-07-31</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <description>2026-07-31 立场重新裁定（并入 Q2 2026）：Q2 收入 $1.0654B（同比 +165.5%，首个十亿美元季度）、非 GAAP 毛利率 34.3%（越过报告自设的 32%+ 门槛）、非 GAAP 摊薄 EPS $0.78，FY2026 指引上调至收入 $3.9-4.2B、非 GAAP EPS $2.55-2.85。价格锚点重设为 2026-07-30 收盘 $207.12、市值约 $610 亿，约为上调后指引中值的 15.1x——设定谨慎立场时的约 26x 前提已不成立。按所有者 Q1 裁定，立场由谨慎调整为观望中性（中确信）：15.1x 前瞻销售额仍偏高，2 GW 扩产待 H2 2026 交付量验证，故不转为看多；网格权重（20/40/40）保留。</description>
     </item>
     <item>
       <title>COPX 深度研究报告 - 铜超级周期的杠杆化敞口 / COPX Deep Research Report - Leveraged Exposure to the Copper Supercycle</title>
