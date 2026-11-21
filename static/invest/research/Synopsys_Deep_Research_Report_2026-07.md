@@ -1,7 +1,7 @@
 # Synopsys Deep Research Report - EDA/IP And Simulation Constraint For AI Silicon Design
 
 Coverage date: 2026-07-05
-Last updated: 2026-08-28
+Last updated: 2026-11-21
 Ticker: NASDAQ: SNPS
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -9,182 +9,136 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 ## Executive Summary
 
-> **Framework role:** Synopsys is the common constraint for the AI-infrastructure EDA/IP layer. The report's job is to test the chain signal, not to turn one company print into a recommendation.
+**November 21, 2026 valuation review. Constructive / low conviction.** The 2026-11-20 close of **$396.17** implies **8.48x EV/FY2026E sales**, **26.29x FY2026E non-GAAP P/E** and a **3.43% FY2026E equity FCF yield**, using Q3 reported capital and the midpoint of the August guidance. The FY2028 scenario-weighted outcome of **$465.41** implies **8.63% annualized** through October 31, 2028, before distributions. Moving five percentage points from the optimistic case to the adverse case reduces that to **6.14%**, below the 8% research hurdle. The constructive call holds, with lower conviction because comparable Design IP growth, full-year cash conversion and post-buyback capital remain open.
 
-**One-line thesis:** Common-constraint coverage for the AI-infrastructure eda-ip layer. SNPS tests whether AI silicon demand is flowing into design automation, verification, simulation, IP blocks, and system-level complexity. Q3 FY2026 revenue was $2.4768B, Design Automation grew 53%, Design IP grew 11% for the quarter but remained down 1% over nine months, and backlog was $10.9B. FY2026 guidance is now $9.690-9.740B revenue, $15.04-15.10 non-GAAP EPS, and about $2.6B FCF, including about $2.98B of Ansys revenue. The $372.33 close and associated multiples remain an explicitly dated 2026-07-30 valuation snapshot, not a current valuation. Constructive / medium conviction is unchanged: EDA and Ansys evidence strengthened, while post-divestiture Design IP, integration, export, and customer-cycle risks keep conviction capped.
-
-**Current view:** **constructive / medium conviction.** The v5 scenario grid decomposes the old neutral watch view: SNPS is less crowded than CDNS on valuation, Ansys joins simulation to EDA/IP durability in one platform, and the 30% bull / 50% base / 20% bear weights create a modest positive skew; FY2026 Ansys integration, export-control assumptions, and customer design cycles still need verification.
-
-> **Old price-check note — stale as written, superseded by the re-adjudication below.** ~~2026-07-31 price check (no new quarter integrated in this pass): SNPS closed at $373.69 on 2026-07-29, the last completed session, versus the $437.16 anchor dated below — a -14.5% move during the verified July 2026 chain-wide AI-infrastructure repricing. The dated price, market-cap and multiple figures below remain correct as of their stated dates and are not rewritten here, but they are no longer current levels; read them as of their labels. The drift is below this report's own rerun threshold (25%), so the valuation frame, scenario grid, stance and conviction are unchanged and `priceAsOf` is deliberately left in place so the report stays in the normal rerun queue.~~
-
-> **2026-07-31 stance re-adjudication at the 2026-07-30 close — this replaces the old "figures read as of their labels / `priceAsOf` deliberately left in place" handling above.** Owner ruling (2026-07-31): a published stance and its rationale must hold at the CURRENT price, so the report is re-anchored to the latest completed close rather than left reading against an old label. SNPS closed at **$372.33** on **2026-07-30**, **-14.8%** from the old $437.16 anchor of 2026-07-02. On the report's own unchanged frames — about 191.5M diluted shares, about $8.4B net debt, the $9.625-9.705B FY2026 revenue guide and the $14.72-14.80 non-GAAP EPS guide — market cap is about **$71.3B**, EV about **$79.7B**, **about 8.2x EV/FY2026E sales** and **about 25.2x FY2026E non-GAAP P/E** (old caliber: ~9.5x and ~29.6x). No estimate or actual was changed; only the price input moved. The re-derivation **strengthens rather than breaks the premise**: the constructive call rested on a modestly positive expectation gap against an embedded requirement of AI EDA/IP durability plus Ansys consolidation plus FCF repair, and the same guidance frame is now bought about 15% cheaper, so the gap widens at the current price. **Stance stays constructive (medium conviction) — held on this restated current-price arithmetic, not on the old ~9.5x / ~29.6x claim.** Conviction is not raised, because the upgrade trigger asks for Q3 FY2026 execution evidence (Ansys revenue conversion, FCF tracking the ~$2.0B guide) that a price move does not supply.
-
-> **2026-08-27 radar update: Synopsys reported Q3 FY2026 and filed its 10-Q on 2026-08-26 — Design Automation grew 53% year over year with $10.9B of backlog, while nine-month Design IP is still down 1%. Monitoring updates and current-cycle corrections to superseded figures only; no valuation multiple has been recomputed and neither stance nor conviction is re-adjudicated here.**
->
-> **What was filed.** Per Exhibit 99.1 to the Form 8-K filed 2026-08-26 (Item 2.02, accession 0001193125-26-368620) and the Form 10-Q filed the same day (accession 0000883241-26-000025, quarter ended 2026-07-31): Q3 FY2026 revenue was **$2,476.8M** against $1,739.7M a year earlier (+42%), with GAAP diluted EPS of **$2.84** and non-GAAP of **$3.91**. By segment, **Design Automation was $2,003.0M (+53% year over year)** and **Design IP was $473.8M (+11% year over year)**; on a nine-month basis Design Automation was $5,826.6M (+69%) while **Design IP was $1,335.0M against $1,344.7M a year earlier, down 1%**. Contracted but unsatisfied performance obligations (backlog) were **$10.9B** as of 2026-07-31, including **$1.9B of non-cancellable FSA** commitments; excluding non-cancellable FSA, about 49% is expected to be recognized within twelve months. The company **raised** FY2026 guidance to **$9,690-9,740M** of revenue and **$15.04-15.10** non-GAAP EPS, and set full-year operating cash flow at about **$2,800M**, free cash flow at about **$2,600M** and capital expenditures at about **$225M**; **actual** nine-month net cash provided by operating activities was **$2,298.6M** against $878.9M a year earlier. Full-year revenue guidance includes about **$2.98B** of expected Ansys revenue, with Ansys contributing $622.2M in the quarter and $2.2B over nine months. Separately, per the Form 8-K/A of 2026-08-26 (Item 2.05, accession 0001193125-26-368858), the Board on **2026-08-21** raised the pre-tax charge estimate for the 2025-11-09 restructuring plan from **$300M-$350M** to **$425M-$500M**: the endpoints increased by **$125M-$150M** and the midpoint rose from **$325M** to **$462.5M**, or **42.3%**. The charges consist primarily of severance and other one-time termination benefits and costs such as certain site closures under its global site strategy; the filing does **not** connect the restructuring to Ansys integration, and this report does not impute such a link.
->
-> **Current-cycle correction, applied this run.** ~~Q2 FY2026 revenue of $2.276B, GAAP EPS of $0.09, non-GAAP EPS of $3.35; FY2026 guidance of $9.625-9.705B revenue, $14.72-14.80 non-GAAP EPS, about $2.0B FCF and about $2.96B of Ansys revenue~~ — those are the Q2 FY2026 cycle caliber and are superseded by the Q3 actuals and raised guidance of 2026-08-26. Wherever the executive summary, the "Latest reported period" row, and the catalysts-and-monitoring section are written on the Q2 FY2026 caliber, this entry governs.
->
-> **Five monitoring items re-graded (readingAsOf 2026-08-26 for all).** `design-automation-growth` → **`within`**; `ansys-integration` → **`within`**; `fcf-conversion` → **`within`**; `export-control-assumption` → **`within`**; `design-ip-pullthrough` → **`unclear`**. The last is the only item not graded `within` this cycle, and the reason matters: its trigger names memory interface IP, embedded memories, security IP and **processors** spreading with custom AI silicon, but on **2026-06-01** the company sold its **Processor IP Solutions** business to **GlobalFoundries** for **$443.3M** of cash consideration (a $425.4M pre-tax gain, $380.5M net of $44.9M of expenses), describing it as part of reallocating Design IP resources to its highest-growth opportunities and not presenting it as discontinued operations — so **one of the categories the trigger names has been moved out of the segment**. Combined with a positive quarter (+11%) coexisting with a still-negative nine-month figure (-1%), and with the 10-Q stating that certain BIS China restrictions imposed in the third quarter of 2025 and subsequently rescinded negatively impacted its business in China including the Design IP segment, the caliber is insufficient to judge whether IP is spreading with custom AI silicon; hence `unclear`.
->
-> **Evidence limits.** (1) Year-over-year growth compares **a full period of Ansys against a partial prior-year period** and is **not an organic caliber**. (2) The company expressly states the backlog amount is **not indicative** of future sales or revenue. (3) FY2026 ends **2026-10-31**, so delivery for `fcf-conversion` can only be confirmed once annual results are reported, and $2,600M is **guidance**, not realised free cash flow. (4) The 8-K/A restructuring increase **is not connected to the Ansys integration by that filing**, and no such attribution is made here. (5) Grading `export-control-assumption` `within` says only that no new disruptive change occurred inside this window; it does **not** say the risk has fallen — the company states it anticipates further changes but cannot forecast their scope or timing.
->
-> This update touches monitoring facts and statements superseded by the company's own print only; it does not re-adjudicate the **constructive / medium-conviction** stance. The **2026-07-30 / $372.33** frame — about $71.3B market cap, $79.7B EV, roughly 8.2x EV/FY2026E sales and about 25.2x non-GAAP P/E — was computed on the FY2026 guidance caliber **as it then stood**, has **not** been recomputed on the guidance raised on 2026-08-26 or on Q3 actuals, and is a clearly dated historical snapshot rather than a current 2026-08-27 valuation. Sources: [Q3 FY2026 press release, 8-K Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/883241/000119312526368620/d157153dex991.htm); [Form 10-Q, quarter ended 2026-07-31](https://www.sec.gov/Archives/edgar/data/883241/000088324126000025/snps-20260731.htm); [Form 8-K/A, Item 2.05](https://www.sec.gov/Archives/edgar/data/883241/000119312526368858/d135796d8ka.htm).
+Synopsys is the EDA/IP and simulation common constraint. FY2026 Q3 sales reached $2.4768B, with Design Automation up 53% year over year and Design IP up 11%. Nine-month Design IP revenue fell about 1% year over year while remaining positive in dollars. The August FY2026 guide is $9.690–9.740B sales, $15.04–15.10 non-GAAP EPS and about $2.6B FCF. The November price uses that guide and July 31 capital, with the subsequent accelerated share repurchase (ASR) shown separately. Synopsys expects to report Q4 and FY2026 results after the US market close on December 8.
 
 | Metric | Current readout |
 | --- | --- |
 | Report id | synopsys-2026 |
 | Chain layer / role | eda-ip / common-constraint |
-| Latest reported period | FY2026 Q3 (monitoring) / 2026-07-30 valuation frame |
-| Price snapshot | $372.33 as of 2026-07-30 |
-| Coverage tier after this upgrade | full |
-| Stance | constructive / medium conviction |
-| Primary valuation use | scenario context and risk tolerance, not a target price |
+| Financial statements | FY2026 Q3, ended 2026-07-31 |
+| Capital event | $1.0B ASR announced 2026-10-05 |
+| Price snapshot | $396.17 as of 2026-11-20 |
+| Coverage tier | full |
+| Stance | constructive / low conviction |
 
 ## 1. Business And Chain Role
 
-The business question is where Synopsys sits in the AI infrastructure value chain. The original report already established the key point: this is a EDA/IP common constraint, so the company matters only insofar as its orders, revenue mix, balance sheet, and monitoring items confirm or falsify the wider chain.
+Synopsys combines chip design, verification and reusable IP with Ansys simulation. The research question is whether that breadth turns complex silicon and systems design into recurring tool use, comparable IP sales and cash. A single quarter of reported growth cannot isolate either an organic EDA acceleration or customer-specific custom-silicon commitments.
 
-EDA/IP common-constraint fill-in: SNPS tests whether AI design starts and complexity are reaching design automation, verification, simulation and IP.
-
-| Chain variable | Evidence from current fact base | Research implication |
+| Chain variable | Reported evidence | Research implication |
 | --- | --- | --- |
-| Layer job | eda-ip / common-constraint | Defines what this report is allowed to prove |
-| Demand signal | EDA/IP common-constraint fill-in: SNPS tests whether AI design starts and complexity are reaching design automation, verification, simulation and IP | Should confirm real AI-infrastructure pull-through |
-| Financial anchor | FY2026 Q3 revenue $2.4768B, non-GAAP EPS $3.91; FY2026 revenue guidance $9.690-9.740B and FCF guidance about $2.6B | Must be visible in revenue, margin, backlog, or cash flow |
-| Valuation anchor | $372.33 on 2026-07-30; the resulting multiples are a historical snapshot and have not been recomputed on Q3 | Sets the tolerance for disappointment without presenting a stale frame as current |
-| Cross-check job | Compare with adjacent reports and coverage-map crossChecks | Prevents one-company storytelling |
+| Design Automation | $2.0030B in Q3 (+53% YoY); $5.8266B in nine months (+69%) | The year-over-year comparison includes a full period of Ansys versus a partial prior-year period |
+| Ansys | $622.2M in Q3 and about $2.2B in nine months. About $2.98B in FY2026 guidance | Contribution is visible. Cross-sell and organic growth require separate evidence |
+| Design IP | $473.8M in Q3 (+11%); $1.3350B in nine months versus $1.3447B (about −1%) | Revenue remained positive. The Processor IP disposal changed segment composition |
+| Contracted backlog | $10.9B, including $1.9B non-cancellable FSA commitments. Excluding those commitments, about 49% expected within 12 months | Reported contracted performance obligations, with conversion timing contingent on execution |
 
 ## 2. Industry And Competition
 
-The competitive read is not generic sector ranking. It is whether adjacent nodes in the chain confirm the same buildout. A strong report should be supported by nearby layers; if peers diverge, the chain interpretation becomes weaker.
-
-| Comparable / cross-check | Why it matters | What would confirm the thesis |
+| Comparison | Evidence to check | Use in this report |
 | --- | --- | --- |
-| CDNS | EDA execution peer | Evidence moves in the same direction as this report |
-| TSM | advanced-node design pull | Evidence moves in the same direction as this report |
-| AVGO | custom silicon demand | Evidence moves in the same direction as this report |
-| MRVL | custom ASIC architecture check | Evidence moves in the same direction as this report |
+| Cadence (CDNS) | Verification and system-design demand | Tests whether strong EDA demand extends across vendors |
+| TSMC (TSM) | Advanced-node design and customer timing | Tests whether design demand progresses toward fabrication |
+| Broadcom (AVGO) and Marvell (MRVL) | Custom silicon launches and design schedules | Tests whether design effort reaches programs with concrete milestones |
+| Ansys inside Synopsys | Simulation contribution and comparable organic disclosure | Separates a common design constraint from acquisition-driven reported growth |
 
-Competitive risk is also asymmetric. A company can be structurally high quality and still be a poor confirmation signal if the market has already priced in the upside or if the relevant bottleneck shifts to another layer.
+The Q3 sales mix was about 81% Design Automation and 19% Design IP. The peer comparison is qualitative. The scenario uses Synopsys earnings and explicitly chosen terminal multiples.
 
 ## 3. Financial Health Matrix
 
-The financial section converts the prose fact base into a repeatable scorecard. The grades are analytical shorthand, not credit ratings.
-
-| Area | Current evidence | Read-through | Grade |
-| --- | --- | --- | --- |
-| Revenue / demand | FY2026 Q3 revenue $2.4768B; Design Automation $2.0030B (+53%), Design IP $473.8M (+11% quarterly, -1% over nine months) | Confirms strong EDA demand while keeping the mixed IP reading visible | A-/B+ |
-| Margin / profitability | Use the current reported period and company-disclosed margin or EPS figures in the source notes | Tests whether growth is profitable or merely volume-led | B+ |
-| Cash flow / balance sheet | Debt, cash, FCF, AFFO, EBITDA, or buyback context preserved from the original report where disclosed | Determines whether the company can fund the cycle | B |
-| Backlog / bookings / RPO | Backlog $10.9B including $1.9B non-cancellable FSA; excluding that FSA, about 49% is expected within twelve months | Separates contracted demand from narrative demand without treating backlog as guaranteed revenue | B+ |
-| Valuation tolerance | Current price context: $372.33 (2026-07-30) | High expectation names need cleaner execution | Caution |
+| Area | FY2026 Q3 or year-to-date evidence | Read-through |
+| --- | --- | --- |
+| Sales and earnings | $2.4768B quarterly sales, $2.84 GAAP and $3.91 non-GAAP diluted EPS | Compare both earnings series, especially with acquisition amortization and disposition gains |
+| Cash flow | Nine-month OCF $2.298603B. Net property and equipment purchases $0.156089B. Implied FCF $2.142514B | Annual FCF guidance of about $2.6B still requires Q4 actuals |
+| Liquidity | $3.606286B cash and equivalents plus $0.001383B short-term investments | Cash available in the reported-capital bridge totals $3.607669B. Restricted cash is excluded |
+| Borrowings | $1.020247B short-term plus $9.017113B long-term debt | $10.037360B book debt and $6.429691B net debt before subsequent capital changes |
+| Equity base | 191.605M common shares outstanding on July 31 | The capitalization uses point-in-time common shares. Issuer EPS uses weighted diluted shares |
 
 ## 4. Management And Caliber Check
 
-This module checks source caliber and management execution rather than adding a new forecast. The guiding rule is to keep company-disclosed figures separate from inferred valuation context.
-
-| Check | Current treatment | Why it matters |
+| Disclosure | What it supports | Remaining evidence |
 | --- | --- | --- |
-| Company-disclosed actuals | Reported period and financial figures are preserved from the original report | Avoids inventing a new quarter |
-| Market-data values | Price snapshot re-anchored to $372.33 and dated 2026-07-30 | Prevents stale valuation math |
-| Scenario assumptions | Reverse-engineer market expectations through growth, margin, FCF, and multiple regime | Not a recommendation or target price |
-| Source quality | Primary company releases, filings, or issuer pages remain in the appendix | Keeps the audit trail visible |
-
-Management gets credit when reported execution lines up with the chain role, and loses credit when guidance, bookings, or capital allocation rely on assumptions the report cannot verify yet.
+| August 26 FY2026 guidance | $9.690–9.740B revenue, $15.04–15.10 non-GAAP EPS, approximately $2.8B OCF and $0.225B capex | The rounded OCF and capex imply about $2.575B FCF, consistent with roughly $2.6B guidance. Q4 results will establish actuals |
+| October 5 ASR announcement | $1.0B aggregate repurchase agreement with JPMorgan, approximately 1.735M shares specified for initial delivery, remaining settlement if any by January 5, 2027 | Final share count depends on VWAP and other agreement terms. Quarter-end share issuance and cash movements await the filing |
+| August 26 restructuring amendment | The Board increased estimated pretax charges from $300–350M to $425–500M, from $325M to $462.5M at the midpoints (+42.3%) | The filing describes severance, termination benefits and certain site closures. It provides no attribution to the Ansys integration |
 
 ## 5. Bull Case
 
-The bull case is the strongest version of why the report's chain signal could strengthen from here.
-
-| Bull driver | Evidence | What would make it stronger |
+| Driver | Evidence | Condition for the optimistic case |
 | --- | --- | --- |
-| Demand pull-through | EDA/IP common-constraint fill-in: SNPS tests whether AI design starts and complexity are reaching design automation, verification, simulation and IP | Next reported period confirms the same direction |
-| Financial conversion | FY2026 Q2 revenue $2.276B, non-GAAP EPS $3.35; FY2026 revenue guidance $9.625-9.705B | Revenue converts into margin, cash flow, or backlog |
-| Cross-check support | CDNS, TSM, AVGO | Adjacent reports move in the same direction |
-| Valuation resilience | $372.33 equals roughly 8.2x EV/FY2026E sales and 25.2x non-GAAP P/E | Fundamentals can absorb the multiple without requiring further expansion |
-
-The constructive scenario is not simply that the stock rises. It is that the same data that supports this company also tightens the whole chain read-through.
+| Design and simulation | Design Automation grew 53% in reported Q3 with an Ansys contribution of $622.2M | Comparable EDA and simulation demand supports the modeled FY2027 revenue increase of 16% |
+| IP | Positive quarter against a slightly negative nine-month comparison | Post-disposition comparable growth improves across the retained business |
+| Cash conversion | $2.142514B nine-month implied FCF versus about $2.6B FY2026 guidance | FY2026 cash delivery and subsequent operating leverage justify the 34% FY2028 modeled non-GAAP net margin |
+| Applied valuation | 30x FY2028 terminal non-GAAP EPS in the optimistic case | A premium requires both recurring demand and successful simulation integration |
 
 ## 6. Bear Case
 
-The bear case is the strongest version of why the report's chain signal could be misleading or already priced.
-
-| Bear driver | Risk evidence | Thesis-breaking signal |
+| Risk | Evidence | Model expression |
 | --- | --- | --- |
-| Expectation risk | Current price context $372.33 (2026-07-30) | Good company performance no longer beats embedded expectations |
-| Chain divergence | Adjacent reports fail to confirm the same signal | The bottleneck sits elsewhere or demand was pulled forward |
-| Execution risk | Guidance, backlog, or capacity conversion slows | Reported evidence stops supporting the role |
-| Valuation compression | Ansys integration, export limits, or slower customer design starts push the sales multiple below the roughly 8.2x level reached after the July 2026 repricing | Multiple regime contracts before the long-term story changes |
-
-The bearish read should not ignore quality. It asks whether quality is already capitalized and whether the report is overclaiming what the current evidence can prove.
+| Slower IP demand | Nine-month Design IP revenue fell roughly 1%; Processor IP was sold June 1 | Comparable IP growth remains weak and total revenue grows 3% in both model years |
+| Integration and regulation | The August guidance assumes no further export-control or Entity List changes | Weaker cash conversion and a 27% non-GAAP net margin in the adverse case |
+| Multiple compression | Current guided P/E of 26.29x and FCF yield of 3.43% leave limited margin for execution misses | The adverse 19x terminal multiple yields $272.54 per share, or −17.48% annualized |
 
 ## 7. Key Uncertainties And Thesis Breakers
 
-| Uncertainty | Why it matters | When to revisit |
+| Uncertainty | Current evidence boundary | When to revisit |
 | --- | --- | --- |
-| Ansys integration | Ansys revenue and simulation synergies expand the platform rather than dilute execution | Q3 FY2026 integration update |
-| Design Automation growth | AI architecture diversity drives verification, manufacturing software, and system-integration demand | segment and product demand update |
-| Design IP pull-through | memory interface IP, embedded memories, security IP, and processors spread with custom AI silicon | IP segment update |
-| Export-control assumption | further export-control / Entity List changes disrupt guidance assumptions | regulatory disclosures |
-| FCF conversion | about $2.6B FY2026 FCF guidance is delivered and improves as integration noise fades | actual Q4/FY2026 cash flow |
-
-Thesis breakers:
-
-- Bull case breaks if the next report shows weaker demand, lower conversion, or peer divergence.
-- Bear case breaks if fundamentals keep improving while valuation remains supported by cash flow, backlog, or order evidence.
-- The chain read breaks if this report moves alone while adjacent layers do not confirm it.
+| Ansys integration | $622.2M Q3 contribution. Comparable growth and realized cross-sell remain to be shown | Q4 and FY2026 disclosures |
+| Design Automation | Q3 +53% and nine-month +69% are reported growth with different Ansys consolidation periods | Segment and product updates |
+| Design IP | The existing four-part trigger names memory-interface IP, embedded memory, security IP and processors. Processor IP Solutions was sold for $443.3M cash consideration. A comparable product breakdown remains unavailable | Post-sale product and comparable segment disclosures |
+| Export control | August targets assume no further restrictions; Q3 historically assessed the window then available | New issuer and regulatory disclosures |
+| Cash conversion and capital | FY2026 delivery and integration-related cash trends await the full-year statement. Final ASR impact awaits share and cash disclosures | December 8 earnings and the ASR settlement disclosure |
 
 ## 8. Valuation Context
 
-Valuation is used as risk context, not as a recommendation. v5 no longer uses a single price point or mechanical range; it uses business assumptions, multiple regime, and subjective probability weights to state what the current $372.33 price embeds.
-
-**Scenario grid:**
-
-| Scenario | Driver assumptions (growth / backlog / margin / multiple regime) | Valuation implication (rich / fair / cheap vs today) | Subjective probability weight |
+| Current basis at $396.17 (2026-11-20) | Calculation | Result |
 | --- | --- | --- |
-| Bull | Ansys simulation and EDA cross-sell smoothly; Design IP turns positive on a comparable post-divestiture basis; actual FY2026 FCF delivers about $2.6B; the market keeps a durable software/IP multiple | The dated July valuation frame would gain denominator support without requiring multiple expansion | 30% |
-| Base | Raised FY2026 revenue and EPS guidance is broadly delivered; Ansys contributes about $2.98B; Design Automation stays strong while post-divestiture Design IP remains mixed | The dated July valuation frame retains modest positive skew, pending a current-price re-anchor | 50% |
-| Bear | Ansys integration dilutes execution, Design IP remains negative on a comparable basis, FCF misses the roughly $2.6B guide, or export-control changes break guidance | Both the earnings denominator and the dated valuation premise would come under pressure | 20% |
+| Equity value | $396.17 × 191.605M Q3 period-end common shares | $75.908153B |
+| Net debt | $1.020247B short-term debt + $9.017113B long-term debt − $3.606286B cash − $0.001383B short-term investments | $6.429691B |
+| Enterprise value | $75.908153B + $6.429691B | $82.337844B |
+| EV/FY2026E revenue | $82.337844B / $9.715B midpoint | 8.48x |
+| Guided non-GAAP P/E | $396.17 / $15.07 midpoint | 26.29x |
+| Equity FCF yield on guidance | $2.6B / $75.908153B | 3.43% |
 
-**What's priced in & the expectation gap (re-derived 2026-07-31 at the 2026-07-30 close):** At the $372.33 close on Jul 30, 2026 and roughly $79.7B EV, SNPS traded at about 8.2x EV/FY2026E sales and 25.2x FY2026E non-GAAP EPS on the guidance then available. That dated price required AI EDA/IP durability, Ansys entering FY2026 revenue, and FCF recovering after temporary pressure. Q3 strengthened the operating denominator, but no current-price valuation re-anchor was performed in this monitoring update, so the present expectation gap is not re-adjudicated.
+**Illustrative ASR sensitivity.** Deducting the announced approximate 1.735M initial shares and assuming the full $1.0B is paid from cash, with every other Q3 capital input held fixed, gives 189.870M shares, $75.220798B equity value, $7.429691B net debt and $82.650489B EV, or 8.51x the same FY2026 revenue midpoint. This is a sensitivity to disclosed terms. It does not establish current shares, actual cash, funding mix, final retirement or final settlement. Reported capital remains the main basis. Operating leases and restricted cash are excluded from this EV convention.
+
+**Scenario grid through October 31, 2028.** Start with the $9.715B FY2026 sales and $15.07 non-GAAP EPS guidance midpoints. FY2027–FY2028 are analyst scenarios. The modeled margin is non-GAAP net income attributable to Synopsys as a percentage of sales. FY2027/FY2028 EPS = modeled sales × net margin / modeled diluted shares. Stock-based compensation, integration costs and amortization can widen the GAAP/non-GAAP gap, so the terminal P/E depends on cash conversion. The modeled diluted-share assumptions apply in both forecast years. They do not represent confirmed ASR settlement.
+
+| Scenario | Drivers | FY2027 growth / sales / net margin / EPS | FY2028 growth / sales / net margin / EPS | Diluted shares / exit P/E | FY2028 outcome per share / annualized | Weight |
+| --- | --- | --- | --- | --- | --- | --- |
+| Bull | Strong simulation cross-sell, comparable IP recovery, operating leverage | +16% / $11.269B / 32.5% / $19.08 | +14% / $12.847B / 34.0% / $22.75 | 192M / 30x | $682.50 / +32.24% | 20% |
+| Base | Guidance broadly delivered, EDA grows, IP improvement is gradual | +10% / $10.687B / 30.5% / $16.89 | +9% / $11.648B / 31.5% / $19.01 | 193M / 26x | $494.30 / +12.04% | 50% |
+| Bear | Weak comparable IP, integration friction and less pricing power | +3% / $10.006B / 27.0% / $13.93 | +3% / $10.307B / 27.0% / $14.34 | 194M / 19x | $272.54 / −17.48% | 30% |
+
+Weighted outcome = sum of unrounded scenario prices times their weights = **$465.41**. The holding period is 711 days / 365.25, or 1.9466 years. The annualized return of the weighted outcome is `($465.41 / $396.17)^(1 / 1.9466) − 1`, about **8.63%**. The primary grid assigns 50% to guidance broadly delivering, 20% to a stronger comparable-IP recovery and 30% to execution misses. The 8% hurdle requires $460.20 at exit, or **$17.70** FY2028 EPS at 26x versus model central EPS of $19.01. The weighted outcome clears the hurdle up to an entry price of about $400.66. Moving five weight points from the optimistic case to the adverse case gives $444.91 and 6.14% annualized. The reverse shift gives $485.91 and 11.06%. No distributions enter these returns.
 
 ## 9. Catalysts And Monitoring
 
-| Monitor | Latest reading | Trigger | Next check |
-| --- | --- | --- | --- |
-| Ansys integration | FY2026 guidance includes about $2.98B of Ansys revenue; Ansys contributed $622.2M in Q3 and $2.2B over nine months | Ansys revenue and simulation synergies expand the platform rather than dilute execution | Q4/FY2026 results |
-| Design Automation growth | Q3 revenue was $2.0030B, +53% YoY; nine-month revenue was $5.8266B, +69% | AI architecture diversity drives verification, manufacturing software, and system-integration demand | segment and product demand update |
-| Design IP pull-through | Q3 revenue was $473.8M (+11%), but nine-month revenue remained down 1%; Processor IP was sold June 1 | memory interface, embedded-memory, and security IP expand on a comparable post-divestiture basis | post-divestiture comparable update |
-| Export-control assumption | company guidance assumes no further export-control / Entity List changes | further export-control / Entity List changes disrupt guidance assumptions | regulatory disclosures |
-| FCF conversion | FY2026 operating cash flow guidance is about $2.8B and FCF about $2.6B; nine-month operating cash flow was $2.2986B | about $2.6B FY2026 FCF guidance is delivered and improves as integration noise fades | actual Q4/FY2026 cash flow |
-
-These are the items that should drive future reruns. A monitoring update should change the report only when it changes the chain read-through or the valuation tolerance.
+| Monitor | Latest supported reading | Next check |
+| --- | --- | --- |
+| Ansys integration | Q3 contribution $622.2M, about $2.98B in FY2026 company guidance. Acquisition comparison effects persist | FY2026 actuals and disclosure of comparable growth |
+| Design Automation growth | Q3 revenue $2.0030B (+53%). Nine months $5.8266B (+69%) | Segment disclosure, including Ansys comparisons |
+| Design IP pull-through | Q3 +11%. Nine-month revenue $1.3350B versus $1.3447B (about −1% YoY). Original four-part trigger remains unclear | Comparable revenue by retained category and the effect of the processor sale |
+| Export-control assumption | August guidance still assumes no further changes to existing restrictions | Issuer exposure and any new export measures |
+| FCF conversion | FY2026 guide about $2.6B. Nine-month implied FCF $2.142514B. Full-year delivery remains unclear | December 8 Q4/FY2026 release and 10-K |
+| Scenario-weighted annualized return | 8.63% at the November 20 close, above the 8% threshold on the primary weights | Next verified close or capital and earnings disclosure |
 
 ## 10. Peer Comparison And Conclusion
 
-| Peer / benchmark | Role in the book | How to read against this report |
-| --- | --- | --- |
-| CDNS | EDA execution peer | Confirms, contradicts, or bounds the same chain question |
-| TSM | advanced-node design pull | Confirms, contradicts, or bounds the same chain question |
-| AVGO | custom silicon demand | Confirms, contradicts, or bounds the same chain question |
-| MRVL | custom ASIC architecture check | Confirms, contradicts, or bounds the same chain question |
+| Comparator | Reassessment test |
+| --- | --- |
+| CDNS | Verification and systems demand broadens independently of acquisition comparisons |
+| TSM / AVGO / MRVL | Confirmed design and implementation schedules support recurring tool and IP use in complex designs |
+| Synopsys FY2026 and FY2027 | Cash, integration and comparable IP disclosures substantiate the modeled path |
 
-The chain-validation job is unchanged: Synopsys is the EDA/IP common constraint, used to test whether AI silicon demand truly reaches design automation, verification, simulation, IP blocks, and system-level complexity.
-
-The expectation gap was modestly positive at the dated 2026-07-30 frame of $372.33, roughly 8.2x EV/FY2026E sales and about 25.2x non-GAAP P/E. Q3 strengthened the operating denominator, but this monitoring update does not present that old frame as a current valuation or re-adjudicate the gap.
-
-The current stance is **constructive, medium conviction**. The 30% bull / 50% base / 20% bear scenario grid gives positive skew: the bull case comes from Ansys+EDA/IP platformization, the base case from FY2026 guide delivery and FCF recovery, and the bear case mainly from integration, export, and customer cyclicality. Conviction is medium because the fact base is solid, but Ansys integration and the export-control assumption are not fully verified.
-
-Move to bullish if actual FY2026 free cash flow delivers the roughly $2.6B guide, Ansys and Design Automation continue to grow on plan, Design IP returns to positive growth on a comparable post-Processor-IP-divestiture basis, and no new export-control / Entity List shock occurs. Move to neutral-watch or cautious if Ansys integration dilutes execution, Design IP remains negative on a comparable post-divestiture basis, Design Automation growth falls short of the AI-complexity narrative, actual full-year FCF misses the roughly $2.6B guide, or a new export-control / Entity List change breaks FY2026 guidance.
+**Constructive / low conviction as of November 21.** The 8.63% annualized weighted outcome modestly exceeds the 8% hurdle, and the 26x central case models $19.01 FY2028 non-GAAP EPS against the $17.70 hurdle. The 3.43% guided equity FCF yield, 6.14% adverse-weight sensitivity and open reporting questions cap conviction. Upgrade if actual FY2026 FCF reaches roughly $2.6B, Ansys and Design Automation progress, comparable Design IP growth becomes positive, and guidance survives export-control changes. Reassess downward if the current evidence or price pushes weighted annualized return below 8%, or if integration, comparable IP, guidance or cash delivery materially deteriorates.
 
 ## Appendix: Sources And Assumptions
 
-- Synopsys Q2 FY2026 10-Q: [SEC filing](https://www.sec.gov/Archives/edgar/data/883241/000088324126000018/snps-20260430.htm).
-- Synopsys Q2 FY2026 earnings release: [Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/883241/000119312526241911/d126227dex991.htm).
-- Synopsys Q3 FY2026 press release (2026-08-26, 8-K Item 2.02 Exhibit 99.1): [Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/883241/000119312526368620/d157153dex991.htm) — revenue $2,476.8M, Design Automation $2,003.0M, Design IP $473.8M, FY2026 guidance raised
-- Synopsys Q3 FY2026 10-Q (quarter ended 2026-07-31, filed 2026-08-26): [SEC filing](https://www.sec.gov/Archives/edgar/data/883241/000088324126000025/snps-20260731.htm) — segment and nine-month caliber, $10.9B backlog, $2,298.6M nine-month operating cash flow, Processor IP divestiture, export-control discussion
-- Synopsys Form 8-K/A (2026-08-26, Item 2.05): [SEC filing](https://www.sec.gov/Archives/edgar/data/883241/000119312526368858/d135796d8ka.htm) — restructuring pre-tax charge estimate raised to $425M-$500M (Board approved 2026-08-21)
-
-- This 2026-07-06 depth upgrade preserves the existing vetted fact base and expands structure, tables, peer comparison, and monitoring parity.
-- The 2026-07-07 v5 backfill replaces old mechanical price markers with scenario assumptions, probability weights, and priced-in expectations; these are an expectations-calibration frame, not investment advice, forecasts, or target prices.
+- FY2026 Q3 segment results, July 31 capital and cash flows. [Synopsys Form 10-Q](https://www.sec.gov/Archives/edgar/data/883241/000088324126000025/snps-20260731.htm)
+- August 26 actuals and FY2026 guidance, including the non-GAAP reconciliation, Ansys and FCF. [Q3 release, Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/883241/000119312526368620/d157153dex991.htm)
+- October 5 ASR terms and the August 26 restructuring change. [ASR, Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/883241/000119312526413359/d830308dex991.htm) · [Form 8-K/A](https://www.sec.gov/Archives/edgar/data/883241/000119312526368858/d135796d8ka.htm)
+- Confirmed December 8 results release timing. [Synopsys IR](https://news.synopsys.com/2026-11-05-Synopsys-Announces-Earnings-Release-Date-For-Fourth-Quarter-and-Fiscal-Year-2026)
+- Independent 2026-11-20 raw USD close checks. [Nasdaq historical](https://api.nasdaq.com/api/quote/SNPS/historical?assetclass=stocks&fromdate=2026-11-19&todate=2026-11-20&limit=5) · [Yahoo Finance daily bars](https://query1.finance.yahoo.com/v8/finance/chart/SNPS?range=5d&interval=1d)
+- Historical, superseded valuation basis. ~~The 2026-07-30 close of $372.33 gave roughly $71.3B equity value, $79.7B EV, 8.2x EV/FY2026E sales and 25.2x FY2026E non-GAAP P/E, with a constructive / medium-conviction call.~~ The August monitoring-only update used that dated valuation. The November capital, valuation and conviction assessment above supersedes it.

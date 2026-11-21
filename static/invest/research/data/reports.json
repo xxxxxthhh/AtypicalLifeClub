@@ -1283,8 +1283,8 @@
     "priceSymbol": "SNPS",
     "title": "Synopsys 深度研究报告 - AI 芯片设计的 EDA/IP 与仿真约束",
     "titleEn": "Synopsys Deep Research Report - EDA/IP And Simulation Constraint For AI Silicon Design",
-    "summary": "AI 基础设施 eda-ip 层的公共约束：SNPS 验证 AI silicon 需求是否穿透到 design automation、verification、simulation、IP blocks 和 system-level complexity。最新披露的 FY2026 Q3（截至 2026-07-31）revenue $2,476.8M（去年同期 $1,739.7M）、GAAP EPS $2.84、non-GAAP EPS $3.91；分部为 Design Automation $2,003.0M（同比 +53%）与 Design IP $473.8M（同比 +11%，但前九个月仍同比 -1%），backlog $10.9B。FY2026 指引上调至 revenue $9,690-9,740M、non-GAAP EPS $15.04-15.10、FCF 约 $2.6B，含约 $2.98B Ansys revenue，并假设没有进一步 export-control / Entity List 变化。以 2026-07-30 收盘 $372.33 计，市值约 $71.3B、EV 约 $79.7B，约 8.2x EV/FY2026E sales、约 25.2x non-GAAP P/E —— 该组倍数按**当时**的 FY2026 指引口径计算，未按 2026-08-26 上调后的指引与 Q3 实际数重算，属明确标注日期的历史估值快照。偏多 / 中确信：倍数在 2026 年 7 月链条重定价中压缩，同一套指引框架反而更便宜，温和正预期差变宽；但整合、出口和客户周期性仍限制确信度。",
-    "summaryEn": "Common-constraint coverage for the AI-infrastructure eda-ip layer. SNPS tests whether AI silicon demand is flowing into design automation, verification, simulation, IP blocks, and system-level complexity. The latest print, Q3 FY2026 (quarter ended 2026-07-31), showed revenue of $2,476.8M versus $1,739.7M a year ago, GAAP EPS of $2.84 and non-GAAP EPS of $3.91; by segment, Design Automation was $2,003.0M (+53% year over year) and Design IP was $473.8M (+11% year over year, though nine-month Design IP is still down 1%), with backlog of $10.9B. FY2026 guidance was raised to $9,690-9,740M of revenue, $15.04-15.10 non-GAAP EPS and about $2.6B FCF, including about $2.98B of Ansys revenue and assuming no further export-control / Entity List changes. At the $372.33 close on 2026-07-30, about $71.3B market cap and $79.7B EV, SNPS trades around 8.2x EV/FY2026E sales and 25.2x non-GAAP P/E — multiples computed on the FY2026 guidance caliber **as it then stood**, not recomputed on the guidance raised on 2026-08-26 or on Q3 actuals, and therefore a clearly dated historical valuation snapshot. Constructive / medium conviction: the multiple compressed in the July 2026 chain repricing so the same guidance frame is cheaper and the modestly positive expectation gap widens, while integration, export, and customer-cycle risks keep conviction capped.",
+    "summary": "Synopsys 是 EDA/IP 与仿真环节的公共约束。FY2026 Q3 收入 $2.4768B，Design Automation 同比 +53%，Design IP 单季 +11%、前九个月同比约 −1% 且收入仍为正。FY2026 指引为收入 $9.690–9.740B、non-GAAP EPS $15.04–15.10 和 FCF 约 $2.6B。以 2026-11-20 收盘 $396.17 和 7 月 31 日已披露资本结构计，EV $82.34B、8.48x EV/FY2026E 收入、26.29x non-GAAP 市盈率。约 $1.0B ASR 的初始交付条款单列敏感性。FY2028 情景加权 $465.41、年化 8.63%。偏熊权重下为 6.14%。维持偏多，确信度降至低，等待全年现金兑现、可比 IP 和更新的资本披露。",
+    "summaryEn": "Synopsys is the EDA/IP and simulation common constraint. FY2026 Q3 sales were $2.4768B. Design Automation rose 53% year over year and Design IP rose 11% in the quarter, while nine-month Design IP sales fell about 1% and remained positive in dollars. FY2026 guidance is $9.690–9.740B revenue, $15.04–15.10 non-GAAP EPS and about $2.6B FCF. The $396.17 close on 2026-11-20 and July 31 reported capital imply $82.34B EV, 8.48x EV/FY2026E sales and 26.29x non-GAAP P/E. The $1.0B ASR initial-delivery terms are modeled as a separate sensitivity. FY2028 weighted outcome is $465.41, or 8.63% annualized. Adverse weighting gives 6.14%. Constructive holds with low conviction pending full-year cash delivery, comparable IP and updated capital disclosure.",
     "tags": [
       "EDA",
       "半导体IP",
@@ -1293,7 +1293,7 @@
     ],
     "category": "tech",
     "date": "2026-07-05",
-    "lastUpdate": "2026-08-28",
+    "lastUpdate": "2026-11-21",
     "file": "/invest/research/reports/view.html?id=synopsys-2026",
     "markdownFiles": {
       "zh": "/invest/research/Synopsys_深度研究报告_2026-07.md",
@@ -1303,19 +1303,19 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "补齐 EDA/IP 公共约束：SNPS 验证 AI design starts 与复杂度是否进入 design automation、verification、simulation 和 IP",
-      "FY2026 Q3（截至 2026-07-31）revenue $2,476.8M、GAAP EPS $2.84、non-GAAP EPS $3.91；Design Automation $2,003.0M（+53% YoY）、Design IP $473.8M（+11% YoY，但前九个月 $1,335.0M 仍同比 -1%）；backlog $10.9B（含 $1.9B 不可撤销 FSA）（历史口径：Q2 revenue $2.276B、non-GAAP EPS $3.35）",
-      "FY2026 指引上调至 revenue $9,690-9,740M、non-GAAP EPS $15.04-15.10、经营现金流约 $2.8B、FCF 约 $2.6B（前九个月实际经营现金流 $2,298.6M）；含约 $2.98B Ansys revenue，且假设没有进一步 export-control / Entity List 变化",
-      "2026-07-30 收盘 $372.33、EV 约 $79.7B，约 8.2x FY2026E sales、约 25.2x non-GAAP P/E；v5 偏多 / 中确信（该组倍数按当时 FY2026 指引口径计算，未按 2026-08-26 上调后的指引重算）"
+      "FY2026 Q3 收入 $2.4768B。Design Automation +53%，Design IP +11%，但前九个月 Design IP 同比约 −1%。",
+      "FY2026 收入指引 $9.690–9.740B、non-GAAP EPS $15.04–15.10、FCF 约 $2.6B。$1.0B ASR 的最终结算待披露。",
+      "2026-11-20 收盘 $396.17，按 Q3 已披露资本结构为 8.48x EV/FY2026E 收入、26.29x non-GAAP 市盈率。",
+      "FY2028 加权情景 $465.41、年化 8.63%。偏熊权重下为 6.14%。立场偏多 / 低确信。"
     ],
     "chainLayer": "eda-ip",
     "coverageTier": "full",
     "chainRole": "common-constraint",
     "stance": "constructive",
-    "conviction": "medium",
+    "conviction": "low",
     "stanceRationale": {
-      "zh": "以 2026-07-30 收盘 $372.33、约 8.2x EV/FY2026E sales 和约 25.2x non-GAAP P/E 计，市场仍然要求 AI EDA/IP durability、Ansys 并表和 FCF 修复，但同一套 FY2026 指引框架在 7 月链条重定价后便宜了约 15%，因此我们基准情景中 simulation pull-through、Design IP 和 verification 复杂度高于隐含要求的那部分预期差反而变宽。",
-      "en": "At the $372.33 close on 2026-07-30, roughly 8.2x EV/FY2026E sales, and about 25.2x non-GAAP P/E, the market still requires AI EDA/IP durability, Ansys consolidation, and FCF repair, but the same FY2026 guidance frame is about 15% cheaper after the July chain repricing, so the gap by which our base case sees simulation pull-through, Design IP, and verification complexity running ahead of that embedded requirement has widened."
+      "zh": "以 $396.17 计，FY2028 加权结果 $465.41，年化 8.63%，略超 8% 门槛。将牛市权重转移 5 个百分点至熊市后年化为 6.14%，且指引 FCF 收益率为 3.43%。维持偏多，因可比 Design IP、全年 FCF 和回购后资本待核，确信度降至低。",
+      "en": "At $396.17 the FY2028 weighted outcome of $465.41 annualizes to 8.63%, modestly above the 8% hurdle. Shifting five optimistic weight points to the adverse scenario gives 6.14%, and guided FCF yield is 3.43%. Constructive holds at low conviction pending comparable Design IP, actual full-year FCF and post-buyback capital disclosure."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -1330,14 +1330,15 @@
         ]
       },
       "downgrade": {
-        "zh": "若 Ansys 整合稀释执行、Design IP 在出售后的可比口径仍未转正、Design Automation 增长低于 AI 复杂度叙事、全年自由现金流低于约 $2.6B 指引，或新增 export-control / Entity List 变化破坏 FY2026 指引，则下调至 neutral-watch 或 cautious。",
-        "en": "Move to neutral-watch or cautious if Ansys integration dilutes execution, Design IP remains negative on a comparable post-divestiture basis, Design Automation growth falls short of the AI-complexity narrative, actual full-year FCF misses the roughly $2.6B guide, or a new export-control / Entity List change breaks FY2026 guidance.",
+        "zh": "若 Ansys 整合稀释执行、Design IP 在出售后的可比口径仍未转正、Design Automation 增长低于 AI 复杂度叙事、全年自由现金流低于约 $2.6B 指引，或新增 export-control / Entity List 变化破坏 FY2026 指引，则下调至 neutral-watch 或 cautious。 若可核验价格或基本面使重算加权年化跌破 8%，复核至 neutral-watch。",
+        "en": "Move to neutral-watch or cautious if Ansys integration dilutes execution, Design IP remains negative on a comparable post-divestiture basis, Design Automation growth falls short of the AI-complexity narrative, actual full-year FCF misses the roughly $2.6B guide, or a new export-control / Entity List change breaks FY2026 guidance. Reassess to neutral-watch if verified price or fundamentals reduce recomputed weighted annualized return below 8%.",
         "monitoringIds": [
           "ansys-integration",
           "design-automation-growth",
           "design-ip-pullthrough",
           "fcf-conversion",
-          "export-control-assumption"
+          "export-control-assumption",
+          "valuation-return-hurdle"
         ]
       }
     },
@@ -1358,10 +1359,16 @@
         "stance": "constructive",
         "conviction": "medium",
         "price": 372.33
+      },
+      {
+        "date": "2026-11-21",
+        "stance": "constructive",
+        "conviction": "low",
+        "price": 396.17
       }
     ],
-    "priceAsOf": "2026-07-30",
-    "reportedPeriod": "FY2026 Q3 monitoring / 2026-07-30 valuation frame",
+    "priceAsOf": "2026-11-20",
+    "reportedPeriod": "FY2026 Q3 (2026-07-31)",
     "related": [
       "cadence-2026",
       "nvidia-2026",
@@ -1426,8 +1433,8 @@
           "en": "memory interface IP, embedded memories, security IP, and processors spread with custom AI silicon"
         },
         "latest": {
-          "zh": "Q3 FY2026 Design IP 营收 $473.8M，同比 +11%，公司称 Design IP 业务已恢复同比增长；但**前九个月 Design IP 为 $1,335.0M，对上年同期 $1,344.7M 同比 -1%**，尚未转正。同时该分部结构本身已改变：公司于 2026-06-01 将 Processor IP Solutions 业务以现金对价 $443.3M 出售给 GlobalFoundries（税前处置收益 $425.4M，扣除 $44.9M 费用后净额 $380.5M），称此为 Design IP 分部资源向高增长机会再配置的一部分，未按终止经营列示。10-Q 另载明 2025 年第三季度实施并其后撤销的部分 BIS 对华限制曾对公司在华业务、含 Design IP 分部产生负面影响。评为 `unclear`：触发条件点名的四类之一「processors」已因该出售从分部内移出，季度回正与九个月仍为负并存，口径不足以判定 IP 是否随 custom AI silicon 扩散。",
-          "en": "Q3 FY2026 Design IP revenue was $473.8M, up 11% year over year, and the company said the design IP business returned to year-over-year growth; however **nine-month Design IP was $1,335.0M against $1,344.7M a year earlier, down 1%**, and has not yet turned positive. The segment's composition also changed: on 2026-06-01 the company sold its Processor IP Solutions business to GlobalFoundries for $443.3M of cash consideration, recognising a $425.4M pre-tax gain and a $380.5M net pre-tax gain after $44.9M of expenses, describing it as part of reallocating Design IP resources to its highest-growth opportunities and not presenting it as discontinued operations. The 10-Q separately states that certain BIS China restrictions imposed in the third quarter of 2025 and subsequently rescinded negatively impacted its business in China including the Design IP segment. Graded `unclear`: one of the four categories the trigger names — processors — has been moved out of the segment by that divestiture, a positive quarter coexists with a still-negative nine-month figure, and the caliber is insufficient to judge whether IP is spreading with custom AI silicon."
+          "zh": "Q3 FY2026 Design IP 营收 $473.8M，同比 +11%，公司称 Design IP 业务已恢复同比增长；但**前九个月 Design IP 为 $1,335.0M，对上年同期 $1,344.7M 同比约 -1%**，收入金额为正而同比增速仍为负。同时该分部结构本身已改变：公司于 2026-06-01 将 Processor IP Solutions 业务以现金对价 $443.3M 出售给 GlobalFoundries（税前处置收益 $425.4M，扣除 $44.9M 费用后净额 $380.5M），称此为 Design IP 分部资源向高增长机会再配置的一部分，未按终止经营列示。10-Q 另载明 2025 年第三季度实施并其后撤销的部分 BIS 对华限制曾对公司在华业务、含 Design IP 分部产生负面影响。评为 `unclear`：触发条件点名的四类之一「processors」已因该出售从分部内移出，季度同比增长与九个月同比下降并存，口径不足以判定 IP 是否随 custom AI silicon 扩散。",
+          "en": "Q3 FY2026 Design IP revenue was $473.8M, up 11% year over year, and the company said the design IP business returned to year-over-year growth; however **nine-month Design IP was $1,335.0M against $1,344.7M a year earlier, down approximately 1%**. Revenue remained positive in dollars. The segment's composition also changed: on 2026-06-01 the company sold its Processor IP Solutions business to GlobalFoundries for $443.3M of cash consideration, recognising a $425.4M pre-tax gain and a $380.5M net pre-tax gain after $44.9M of expenses, describing it as part of reallocating Design IP resources to its highest-growth opportunities and not presenting it as discontinued operations. The 10-Q separately states that certain BIS China restrictions imposed in the third quarter of 2025 and subsequently rescinded negatively impacted its business in China including the Design IP segment. Graded `unclear`: one of the four categories the trigger names — processors — has been moved out of the segment by that divestiture, positive quarterly growth coexists with negative nine-month growth, and the caliber is insufficient to judge whether IP is spreading with custom AI silicon."
         },
         "nextCheck": "IP 分部更新与出售后可比口径 / IP segment update on a post-divestiture comparable basis",
         "nextCheckDate": "2026-12",
@@ -1468,13 +1475,33 @@
           "en": "about $2.6B FY2026 FCF guidance is delivered and improves as integration noise fades"
         },
         "latest": {
-          "zh": "公司将 FY2026 全年经营现金流指引给到约 $2,800M、自由现金流约 $2,600M、资本开支约 $225M —— 相对本项此前跟踪的「经营现金流约 $2.3B、FCF 约 $2.0B」为上调。前九个月**实际**经营活动净现金流为 $2,298.6M（上年同期 $878.9M），公司归因于 Ansys 贡献、剔除 Ansys 的有机增长、应收回款改善，以及上年同期 $121.6M 利率锁定结算未实现损失的不再发生。评为 `within`。证据边界：FY2026 于 2026-10-31 结束，全年「兑现」只能在年度结果披露后确认；上述 $2,600M 为指引而非已实现自由现金流。",
-          "en": "The company set FY2026 full-year operating cash flow guidance at about $2,800M, free cash flow at about $2,600M and capital expenditures at about $225M — an increase from the roughly $2.3B operating cash flow and roughly $2.0B FCF this item previously tracked. **Actual** nine-month net cash provided by operating activities was $2,298.6M against $878.9M a year earlier, which the company attributes to contributions from Ansys, organic growth excluding Ansys, higher accounts receivable collections, and the non-recurrence of a $121.6M unrealized loss on settlement of an interest rate treasury lock in the prior-year period. Graded `within`. Evidence limits: FY2026 ends 2026-10-31, so full-year delivery can only be confirmed once annual results are reported, and the $2,600M figure is guidance rather than realised free cash flow."
+          "zh": "8 月 26 日指引为 FY2026 经营现金流约 $2.8B、资本开支约 $0.225B、FCF 约 $2.6B。前九个月实际经营现金流 $2.298603B 减购置物业和设备净额 $0.156089B，推算 FCF $2.142514B。全年现金兑现和整合期间现金趋势待 12 月 8 日财报核验，故原复合条件评为 unclear。",
+          "en": "August 26 FY2026 guidance is approximately $2.8B operating cash flow, $0.225B capex and $2.6B FCF. Nine-month operating cash flow of $2.298603B less $0.156089B net property and equipment purchases implies $2.142514B FCF. Actual annual delivery and cash trends during integration await the December 8 release, so the original compound trigger is unclear."
         },
         "nextCheck": "Q4/FY2026 现金流实际数 / actual Q4 and FY2026 cash flow",
         "nextCheckDate": "2026-12",
-        "reading": "within",
+        "reading": "unclear",
         "readingAsOf": "2026-08-26"
+      },
+      {
+        "id": "valuation-return-hurdle",
+        "thesis": "bear",
+        "theme": "valuation",
+        "metric": {
+          "zh": "情景加权年化回报",
+          "en": "Scenario-weighted annualized return"
+        },
+        "trigger": {
+          "zh": "以可核验收盘与最新可用基本面重算的加权年化回报跌破 8%",
+          "en": "Recomputed weighted annualized return at a verified close and latest available fundamentals falls below 8%"
+        },
+        "latest": {
+          "zh": "2026-11-20 收盘 $396.17。按 20% / 50% / 30% 权重为 $465.41、年化 8.63%，偏熊权重敏感性为 6.14%。以主权重读数核对触发器。",
+          "en": "At the $396.17 close on 2026-11-20, 20% / 50% / 30% weights yield $465.41 and 8.63% annualized versus 6.14% on adverse weights. The trigger uses the primary weighting."
+        },
+        "nextCheck": "下次经核验收盘或资本暨盈利披露 / Next verified close or capital and earnings disclosure",
+        "reading": "within",
+        "readingAsOf": "2026-11-20"
       }
     ]
   },

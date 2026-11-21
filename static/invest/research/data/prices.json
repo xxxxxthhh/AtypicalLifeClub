@@ -76,13 +76,13 @@
     {
       "reportId": "synopsys-2026",
       "symbol": "SNPS",
-      "status": "carried-forward",
+      "status": "ok",
       "attemptedAt": "2026-11-20",
-      "baseDate": "2026-07-30",
-      "basePrice": 372.33,
-      "lastDate": "2026-11-19",
-      "lastClose": 430.91,
-      "changePct": 15.7,
+      "baseDate": "2026-11-20",
+      "basePrice": 396.17,
+      "lastDate": "2026-11-20",
+      "lastClose": 396.17,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
