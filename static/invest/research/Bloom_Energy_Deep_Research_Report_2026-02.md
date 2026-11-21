@@ -1,13 +1,15 @@
 # Bloom Energy (NYSE: BE) Deep Research Report
 
 Coverage date: 2026-02-11
-Last updated: 2026-07-31
+Last updated: 2026-11-21
 Ticker: NYSE: BE
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
 ## 2026H1 Full Rerun Summary
+
+> **2026-10-22 Factual update · Bloom Energy raised its annual revenue outlook as operating cash flow turned negative** Bloom reported Q3 revenue of $1.236B (+138.1% YoY), product revenue of $1.074B (+179.4%), non-GAAP gross margin of 34.5% and operating cash outflow of $27.1M, versus inflow of $226.4M in Q2. It raised FY2026 revenue guidance to $4.4–4.6B. Revenue and margins advanced while quarterly cash conversion weakened. The results do not quantify incremental data-center orders separately. The published stance and conviction are unchanged. The report retains its historical valuation basis. [Source 1](https://www.sec.gov/Archives/edgar/data/1664703/000162828026066890/ex991_q326financialresults.htm)
 
 This report is the full rerun successor to `bloom-energy-2026-pre-rerun`; the archived baseline is available at `/invest/research/reports/view.html?id=bloom-energy-2026-pre-rerun`.
 

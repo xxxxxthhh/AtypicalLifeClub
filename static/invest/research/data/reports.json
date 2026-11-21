@@ -5165,7 +5165,7 @@
     ],
     "category": "energy",
     "date": "2026-02-11",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-11-21",
     "file": "/invest/research/reports/view.html?id=bloom-energy-2026",
     "markdownFiles": {
       "zh": "/invest/research/Bloom_Energy_深度研究报告_2026-02.md",
@@ -5200,7 +5200,7 @@
     "chainRole": "dashboard",
     "stance": "neutral-watch",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q2 2026",
+    "reportedPeriod": "Q3 2026 operating monitoring / July 2026 historical valuation frame",
     "related": [
       "vertiv-2026",
       "gevernova-2026"
@@ -5257,11 +5257,14 @@
           "en": "margins or operating cash flow miss during the capacity ramp"
         },
         "latest": {
-          "zh": "Q2 2026 非 GAAP 毛利率 34.3%（GAAP 33.4%）已越过 32% 门槛；非 GAAP 经营利润 $239.6M、调整后 EBITDA $253.4M、现金 $2.667B",
-          "en": "Q2 2026 non-GAAP gross margin 34.3% (GAAP 33.4%) cleared the 32% bar; non-GAAP operating income $239.6M, adj. EBITDA $253.4M, cash $2.667B"
+          "zh": "Q3 非 GAAP 毛利率由 Q2 的 34.3% 升至 34.5%；经营现金流由净流入 2.264 亿美元转为净流出 2,714.7 万美元。业绩稿没有可用于判定低于预期的季度经营现金流目标。",
+          "en": "Q3 non-GAAP gross margin was 34.5%, up from 34.3% in Q2. Operating cash flow fell from +$226.4M to -$27.1M. The release supplies no specific quarterly operating cash flow target for a miss comparison."
         },
         "nextCheck": "季度利润率与现金流 / quarterly margins & cash flow",
-        "nextCheckDate": "2026-11"
+        "nextCheckDate": "2026-11",
+        "reading": "unclear",
+        "readingAsOf": "2026-10-22",
+        "readingNote": "Q3 非 GAAP 毛利率由 Q2 的 34.3% 升至 34.5%；经营现金流由净流入 2.264 亿美元转为净流出 2,714.7 万美元。业绩稿没有可用于判定低于预期的季度经营现金流目标。 / Q3 non-GAAP gross margin was 34.5%, up from 34.3% in Q2. Operating cash flow fell from +$226.4M to -$27.1M. The release supplies no specific quarterly operating cash flow target for a miss comparison."
       }
     ],
     "conviction": "medium",
