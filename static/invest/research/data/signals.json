@@ -4775,5 +4775,30 @@
       "amzn-2026:aws-growth-vs-segment-margin",
       "amzn-2026:ttm-free-cash-flow-trough"
     ]
+  },
+  {
+    "id": "alphabet-q3-2026-cloud-backlog-search-fcf-20261028",
+    "date": "2026-10-28",
+    "title": {
+      "en": "Google Cloud revenue doubled while Alphabet’s quarterly cash deficit widened",
+      "zh": "Google Cloud 收入翻倍，Alphabet 季度自由现金流缺口扩大"
+    },
+    "detail": {
+      "zh": "Q3 Google Cloud 收入 307.09 亿美元（同比 +103%），营业利润 111.21 亿美元（利润率 36.2%），季末 Cloud 积压收入 5,608 亿美元。搜索及其他收入 633.50 亿美元（+12%）。季度自由现金流为负 90.65 亿美元，TTM 自由现金流仍为正 197.47 亿美元。 云业务收入和盈利增长，资本开支加重现金压力。搜索收入未拆分 AI 查询的单次变现。 跟踪积压收入转化、搜索变现和 TTM 自由现金流是否接近零。 https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+      "en": "In Q3, Google Cloud revenue was $30.709B (+103% YoY), operating income was $11.121B (36.2% margin), and quarter-end Cloud backlog was $560.8B. Search & other revenue was $63.350B (+12%). Quarterly free cash flow was −$9.065B, while trailing free cash flow remained positive at $19.747B. Cloud volumes and profitability grew while heavier capital spending squeezed cash. Search revenue data does not isolate monetization per AI query. Check backlog conversion, Search monetization, and whether trailing free cash flow approaches zero. https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
+    },
+    "crossChecks": [
+      "semicap-eda-capex-commitment"
+    ],
+    "tickers": [
+      "GOOG"
+    ],
+    "reportIds": [
+      "alphabet-2026"
+    ],
+    "monitoringRefs": [
+      "alphabet-2026:search-vs-ai-answers",
+      "alphabet-2026:cloud-backlog-conversion"
+    ]
   }
 ]
