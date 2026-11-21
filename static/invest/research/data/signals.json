@@ -4726,5 +4726,29 @@
       "rklb-2026:revenue-margin-delivery",
       "rklb-2026:valuation-hurdle-price"
     ]
+  },
+  {
+    "id": "bloom-energy-q3-2026-revenue-margin-cash-20261022",
+    "date": "2026-10-22",
+    "title": {
+      "en": "Bloom Energy raised its annual revenue outlook as operating cash flow turned negative",
+      "zh": "Bloom Energy 上调全年收入指引，季度经营现金流转负"
+    },
+    "detail": {
+      "zh": "Bloom Q3 收入 12.358 亿美元（同比 +138.1%），产品收入 10.736 亿美元（+179.4%），非 GAAP 毛利率 34.5%。经营现金流净流出 2,714.7 万美元，Q2 净流入 2.264 亿美元。公司上调 FY2026 收入指引至 44–46 亿美元。 收入与毛利率改善，季度现金转化走弱。业绩稿未单列数据中心新增订单。 跟踪 Q4 经营现金流及具名订单转化。 https://www.sec.gov/Archives/edgar/data/1664703/000162828026066890/ex991_q326financialresults.htm",
+      "en": "Bloom reported Q3 revenue of $1.236B (+138.1% YoY), product revenue of $1.074B (+179.4%), non-GAAP gross margin of 34.5% and operating cash outflow of $27.1M, versus inflow of $226.4M in Q2. It raised FY2026 revenue guidance to $4.4–4.6B. Revenue and margins advanced while quarterly cash conversion weakened. The results do not quantify incremental data-center orders separately. Check Q4 operating cash flow and named order conversion. https://www.sec.gov/Archives/edgar/data/1664703/000162828026066890/ex991_q326financialresults.htm"
+    },
+    "crossChecks": [
+      "buildout-orders"
+    ],
+    "tickers": [
+      "BE"
+    ],
+    "reportIds": [
+      "bloom-energy-2026"
+    ],
+    "monitoringRefs": [
+      "bloom-energy-2026:margin-cash-delivery"
+    ]
   }
 ]
