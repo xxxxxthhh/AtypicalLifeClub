@@ -4873,5 +4873,28 @@
       "spotify-2026:q3-margin-cash-flow"
     ],
     "scope": "report-monitoring"
+  },
+  {
+    "id": "sandisk-8-for-1-stock-split-first-session-20261120",
+    "date": "2026-11-20",
+    "title": {
+      "en": "Sandisk’s eight-for-one split took effect",
+      "zh": "Sandisk 一股拆八股生效"
+    },
+    "detail": {
+      "zh": "Sandisk 的章程修订于美东时间 11 月 19 日 16:01 生效，每股拆分为八股。Nasdaq 显示 11 月 20 日常规盘收盘为拆股后的每股 79.24 美元。 报告的历史每股基准采用拆股前口径，比对时需按一股拆八股统一单位。 后续每股比较使用统一拆股口径。 https://www.sec.gov/Archives/edgar/data/2023554/000162828026075127/sndk-20261119.htm https://api.nasdaq.com/api/quote/SNDK/info?assetclass=stocks",
+      "en": "Sandisk’s certificate amendment took effect at 4:01 p.m. Eastern Time on November 19 and provided for an eight-for-one forward split. Nasdaq shows the November 20 regular-session close on the post-split share basis at $79.24. Historical per-share anchors in the report are pre-split. Comparable per-share readings require the eight-for-one conversion. Use one split basis for subsequent per-share comparisons. https://www.sec.gov/Archives/edgar/data/2023554/000162828026075127/sndk-20261119.htm https://api.nasdaq.com/api/quote/SNDK/info?assetclass=stocks"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "SNDK"
+    ],
+    "reportIds": [
+      "sandisk-2026"
+    ],
+    "monitoringRefs": [
+      "sandisk-2026:cycle-derating"
+    ],
+    "scope": "report-monitoring"
   }
 ]
