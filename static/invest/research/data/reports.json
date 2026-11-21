@@ -8837,7 +8837,7 @@
     ],
     "category": "tech",
     "date": "2026-07-31",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-11-21",
     "file": "/invest/research/reports/view.html?id=alphabet-2026",
     "markdownFiles": {
       "zh": "/invest/research/Alphabet_深度研究报告_2026-07.md",
@@ -8859,7 +8859,7 @@
     "stance": "neutral-watch",
     "conviction": "medium",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q2 2026",
+    "reportedPeriod": "Q3 2026 operating monitoring / July 2026 historical valuation frame",
     "related": [
       "microsoft-2026",
       "meta-2026",
@@ -8881,13 +8881,14 @@
           "en": "Search & other YoY growth falls below ~10%, or disclosure shows AI Mode / AI Overviews monetizing below classic results and depressing revenue per query"
         },
         "latest": {
-          "zh": "2026 Q2 Search 及其他 $63.271B、+17%（2026 Q1 为 +19%）；AI Mode 全球推出后月活跃用户突破 10 亿，AI Overviews 与 AI Mode 已合并为一个 Search 体验",
-          "en": "Q2 2026 Search & other was $63.271B, +17% (from +19% in Q1 2026); AI Mode passed 1B monthly active users after its global rollout, and AI Overviews and AI Mode were merged into one Search experience"
+          "zh": "Q3 搜索及其他收入 633.50 亿美元，上年同期 565.67 亿美元，同比约 +12%，高于约 10% 阈值。申报未对照披露 AI 与经典搜索单次查询收入。",
+          "en": "Q3 Search & other revenue grew about 12% ($63.350B versus $56.567B), above the roughly 10% threshold. The filing does not isolate revenue per AI query against classic search."
         },
         "nextCheck": "2026 Q3 财报（2026 年 10 月下旬）/ Q3 2026 earnings (late Oct 2026)",
         "nextCheckDate": "2026-10",
-        "reading": "within",
-        "readingAsOf": "2026-07-22"
+        "reading": "unclear",
+        "readingAsOf": "2026-10-28",
+        "readingNote": "Q3 搜索及其他收入 633.50 亿美元，上年同期 565.67 亿美元，同比约 +12%，高于约 10% 阈值。申报未对照披露 AI 与经典搜索单次查询收入。 / Q3 Search & other revenue grew about 12% ($63.350B versus $56.567B), above the roughly 10% threshold. The filing does not isolate revenue per AI query against classic search."
       },
       {
         "id": "cloud-backlog-conversion",
@@ -8902,13 +8903,14 @@
           "en": "Cloud revenue growth falls below ~40% while backlog stops growing sequentially or the 24-month conversion guidance is cut"
         },
         "latest": {
-          "zh": "2026 Q2 Cloud 收入 $24.768B、+82%，分部经营利润 $8.814B、利润率 35.6%（上年同期 20.7%）；收入积压合计 $519.5B、其中 Cloud $513.9B、环比增加超 $50B、预计略超 50% 在 24 个月内确认",
-          "en": "Q2 2026 Cloud revenue was $24.768B (+82%) with segment operating income of $8.814B at a 35.6% margin (20.7% a year earlier); revenue backlog was $519.5B in total with $513.9B at Google Cloud, up more than $50B sequentially, and just over 50% is expected to convert within 24 months"
+          "zh": "Q3 Cloud 收入同比 +103% 至 307.09 亿美元。营业利润 111.21 亿美元，对应 36.2% 利润率。10-Q 披露 Cloud 积压收入 5,608 亿美元。",
+          "en": "Q3 Cloud revenue grew 103% to $30.709B. Operating income of $11.121B implies 36.2% margin. The 10-Q reports $560.8B of Cloud backlog."
         },
         "nextCheck": "2026 Q3 财报的 Cloud 收入与 backlog 披露 / Q3 2026 Cloud revenue and backlog disclosure",
         "nextCheckDate": "2026-10",
         "reading": "within",
-        "readingAsOf": "2026-07-22"
+        "readingAsOf": "2026-10-28",
+        "readingNote": "Q3 Cloud 收入同比 +103% 至 307.09 亿美元。营业利润 111.21 亿美元，对应 36.2% 利润率。10-Q 披露 Cloud 积压收入 5,608 亿美元。 / Q3 Cloud revenue grew 103% to $30.709B. Operating income of $11.121B implies 36.2% margin. The 10-Q reports $560.8B of Cloud backlog."
       },
       {
         "id": "fcf-and-funding-mix",

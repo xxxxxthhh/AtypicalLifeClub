@@ -1,13 +1,15 @@
 # Alphabet (GOOG) Deep Research Report
 
 Coverage date: 2026-07-31
-Last updated: 2026-07-31
+Last updated: 2026-11-21
 Ticker: NASDAQ: GOOG
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
 ## Executive Summary
+
+> **2026-10-28 Factual update · Google Cloud revenue doubled while Alphabet’s quarterly cash deficit widened** In Q3, Google Cloud revenue was $30.709B (+103% YoY), operating income was $11.121B (36.2% margin), and quarter-end Cloud backlog was $560.8B. Search & other revenue was $63.350B (+12%). Quarterly free cash flow was −$9.065B, while trailing free cash flow remained positive at $19.747B. Cloud volumes and profitability grew while heavier capital spending squeezed cash. Search revenue data does not isolate monetization per AI query. The published stance and conviction are unchanged. The report retains its historical valuation basis. [Source 1](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm) · [Source 2](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm)
 
 > **Framework note:** This report joins the AI-infrastructure book's demand-risk layer as an **architecture check**. The layer already carries two common-constraint reports (Microsoft, Meta) whose job is to prove that hyperscaler capex is real, and one dashboard (Oracle) tracking order quality. Alphabet does not need to repeat that job. What only Alphabet can do is test the **buyer-side architecture question**: the largest own-silicon program in the world has just started selling TPU systems to third parties, which makes Alphabet simultaneously a top-two merchant-silicon customer and a merchant-silicon competitor. That is a different architecture axis from the one nebius-2026 carries in this layer (neocloud versus hyperscaler economics), and it is the demand-side mirror of broadcom-2026's supply-side architecture check. Together the two form a two-sided test of whether custom accelerators are genuinely displacing merchant GPUs or merely riding alongside them.
 
