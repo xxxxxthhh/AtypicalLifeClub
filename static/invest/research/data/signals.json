@@ -4800,5 +4800,30 @@
       "alphabet-2026:search-vs-ai-answers",
       "alphabet-2026:cloud-backlog-conversion"
     ]
+  },
+  {
+    "id": "meta-q3-2026-capex-margins-20261021",
+    "date": "2026-10-21",
+    "title": {
+      "en": "Meta’s ad metrics grew as reported margin and free cash flow weakened",
+      "zh": "Meta 广告指标增长，报告利润率与自由现金流走弱"
+    },
+    "detail": {
+      "zh": "Q3 营收同比 +26% 至 646.0 亿美元，广告展示量 +10%，平均广告价格 +14%。报告营业利润率 20%，上年同期为 40%，本季计入 99 亿美元诉讼费用。自由现金流为负 21.2 亿美元。含融资租赁本金的 2026 年资本开支指引下限上调，区间为 1,350–1,450 亿美元。 报告营业利润率低于监控项的 35%，同季包含已量化的诉讼费用。2026 年资本开支指引上限仍为 1,450 亿美元。该业绩稿未给出 2027 年资本开支区间。 核对 2027 年资本开支指引及诉讼费用后的利润率能否恢复。 https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+      "en": "Q3 revenue rose 26% to $64.60B, ad impressions rose 10% and average ad price rose 14%. Reported operating margin was 20%, versus 40% a year earlier. The quarter included a $9.9B legal charge. Free cash flow was −$2.12B and the 2026 capex range rose at the low end to $135–145B, including finance-lease principal. The reported margin is below the 35% operating monitor, alongside a quantified legal charge. The 2026 capex guide’s upper end is still $145B. This release gives no quantified 2027 capex range. Check 2027 capex guidance and whether margin recovers after the legal charge. https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm"
+    },
+    "crossChecks": [
+      "application-monetization"
+    ],
+    "tickers": [
+      "META"
+    ],
+    "reportIds": [
+      "meta-2026"
+    ],
+    "monitoringRefs": [
+      "meta-2026:capex-intensity",
+      "meta-2026:ad-ai-roi"
+    ]
   }
 ]
