@@ -1,13 +1,15 @@
 # Amazon.com (AMZN) Deep Research Report
 
 Coverage date: 2026-02-11
-Last updated: 2026-08-16
+Last updated: 2026-11-21
 Ticker: NASDAQ: AMZN
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
 ## Executive Summary
+
+> **2026-10-29 Factual update · AWS grew 39.3% as Amazon’s trailing free cash flow fell to −$42.4B** Q3 AWS net sales were $45.984B and operating income was $17.773B, implying a 38.7% margin. Trailing operating cash flow of $168.300B less $210.657B of net property and equipment purchases left free cash flow of −$42.357B, versus −$7.604B a quarter earlier. AWS growth and margin remain above the report’s downside levels. The trailing cash shortfall crossed $25B in Q3. Persistence into 2027 remains untested. The published stance and conviction are unchanged. The report retains its historical valuation basis. [Source 1](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm)
 
 > **Framework note:** This is the 2026H1 full-cycle rewrite that promotes Amazon from a standalone company file into the AI-infrastructure book's **demand-risk** layer, with the chain role of **dashboard**. The prior-cycle version is preserved unchanged at [`amzn-2026-pre-chain`](/invest/research/reports/view.html?id=amzn-2026-pre-chain). Amazon earns the dashboard role because it publishes the densest near-real-time instrument panel of any buyer in the layer: an AWS annualized run rate, a contracted backlog, a separately-quantified AI business and chips business, a mid-year capital-expenditure guide with an explicit input-cost attribution, and a trailing free-cash-flow line that has now gone negative. The core read-through is sharper than for any other demand-layer name: **AWS is simultaneously the largest single buyer of AI infrastructure and, through Trainium and Graviton, a direct competitor to the merchant silicon this book covers** — and it is funding that dual position with a trailing twelve-month free-cash-flow outflow of $7.604B against record segment profit.
 

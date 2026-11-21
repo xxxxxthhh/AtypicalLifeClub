@@ -5751,7 +5751,7 @@
     ],
     "category": "tech",
     "date": "2026-02-11",
-    "lastUpdate": "2026-08-16",
+    "lastUpdate": "2026-11-21",
     "file": "/invest/research/reports/view.html?id=amzn-2026",
     "markdownFiles": {
       "zh": "/invest/research/AMZN_深度研究报告_2026-07.md",
@@ -5787,7 +5787,7 @@
     "stance": "constructive",
     "conviction": "medium",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "2026 Q2",
+    "reportedPeriod": "Q3 2026 operating monitoring / 2026 H1 historical valuation frame",
     "related": [
       "microsoft-2026",
       "meta-2026",
@@ -5811,13 +5811,14 @@
           "en": "AWS year-over-year growth falls to the mid-20s or below while capex still rises, or the segment margin breaks below 35%"
         },
         "latest": {
-          "zh": "2026 Q2 AWS 收入 $42.232B、+37%（精确 +36.7%），连续第五个季度加速；分部营业利润 $16.621B、利润率 39.4%；TTM 分部利润率 36.8%（据 2026-07-30 官方财报稿）",
-          "en": "Q2 2026 AWS revenue was $42.232B, +37% (+36.7% precisely), a fifth consecutive quarter of acceleration; segment operating income was $16.621B at a 39.4% margin, with a 36.8% TTM segment margin (official release, 2026-07-30)"
+          "zh": "Q3 AWS 净销售额 459.84 亿美元，上年同期 330.06 亿美元，同比 +39.3%。营业利润 177.73 亿美元，计算得营业利润率 38.7%，高于 35% 阈值。",
+          "en": "Q3 AWS net sales of $45.984B versus $33.006B grew 39.3% year over year. Operating income of $17.773B implies a 38.7% segment margin, above the 35% line."
         },
         "reading": "within",
-        "readingAsOf": "2026-07-30",
+        "readingAsOf": "2026-10-29",
         "nextCheck": "2026 Q3 财报（2026 年 10 月下旬）/ Q3 2026 results (late Oct 2026)",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "readingNote": "Q3 AWS 净销售额 459.84 亿美元，上年同期 330.06 亿美元，同比 +39.3%。营业利润 177.73 亿美元，计算得营业利润率 38.7%，高于 35% 阈值。 / Q3 AWS net sales of $45.984B versus $33.006B grew 39.3% year over year. Operating income of $17.773B implies a 38.7% segment margin, above the 35% line."
       },
       {
         "id": "ttm-free-cash-flow-trough",
@@ -5832,13 +5833,14 @@
           "en": "TTM free cash flow fails to trough and turn up during 2026, or stays below -$25B while long-term debt keeps growing"
         },
         "latest": {
-          "zh": "TTM 自由现金流由 FY2025 年末的 +$11.194B 降至 2026 Q2 的 -$7.604B（TTM 经营现金流 $161.403B − PP&E 净购置 $169.007B）；长期债务半年内由 $65.648B 增至 $128.894B，TTM 长期债务发行所得 $81.925B。上一周期的 2026 下半年修复预期未兑现，且资本开支仍在环比上行",
-          "en": "TTM free cash flow fell from +$11.194B at FY2025 year end to -$7.604B in Q2 2026 (TTM OCF $161.403B minus $169.007B of net PP&E purchases); long-term debt rose from $65.648B to $128.894B in six months on $81.925B of TTM long-term-debt proceeds. The prior cycle's H2-2026 recovery expectation did not materialise and capex is still rising sequentially"
+          "zh": "TTM 自由现金流从负 76.04 亿美元降至负 423.57 亿美元。Q3 缺口超过 250 亿美元，是否持续以及能否在 2026 年见底仍需后续报告。",
+          "en": "TTM FCF fell from −$7.604B to −$42.357B. The cash deficit is beyond $25B in Q3. A sustained shortfall or a turn in 2026 requires subsequent periods."
         },
         "reading": "unclear",
-        "readingAsOf": "2026-07-30",
+        "readingAsOf": "2026-10-29",
         "nextCheck": "2026 Q3 与 Q4 现金流量表 / Q3 and Q4 2026 cash-flow statements",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "readingNote": "TTM 自由现金流从负 76.04 亿美元降至负 423.57 亿美元。Q3 缺口超过 250 亿美元，是否持续以及能否在 2026 年见底仍需后续报告。 / TTM FCF fell from −$7.604B to −$42.357B. The cash deficit is beyond $25B in Q3. A sustained shortfall or a turn in 2026 requires subsequent periods."
       },
       {
         "id": "capex-price-versus-capacity-mix",
