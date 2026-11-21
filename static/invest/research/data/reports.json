@@ -3599,7 +3599,7 @@
     ],
     "category": "tech",
     "date": "2026-06-27",
-    "lastUpdate": "2026-11-19",
+    "lastUpdate": "2026-11-21",
     "file": "/invest/research/reports/view.html?id=sandisk-2026",
     "markdownFiles": {
       "zh": "/invest/research/SanDisk_深度研究报告_2026-08.md",
@@ -3716,13 +3716,14 @@
           "en": "the 12-15x through-cycle frame implies EPS above a verifiable trough and earnings plus the multiple compress together"
         },
         "latest": {
-          "zh": "2026-08-18 按 2026-08-17 收盘 $1,786.85 与 10-K 封面 146,419,001 股重锚：市值约 $2,616.3 亿；FY2026 P/S 12.92x、非 GAAP P/E 25.21x、FCF 收益率 4.39%。12-15x 框架隐含可持续 EPS $119.12-148.90，仍低于 Q4 非 GAAP 年化 $157 与 Q1 指引中点年化 $180，读数仍在框架内；但隐含要求已达 FY2026 非 GAAP 平均 $70.88 的 1.68-2.10 倍，12x 端约为 Q4 年化的 94.8%，正常化缓冲进一步收窄。约 $1,884 的既有降级阈值仍未触发。",
-          "en": "Re-anchored on 2026-08-18 at the 2026-08-17 close of $1,786.85 and 146,419,001 shares from the Form 10-K cover: market cap about $261.6B; FY2026 P/S 12.92x, non-GAAP P/E 25.21x, and FCF yield 4.39%. The 12-15x frame implies $119.12-$148.90 of sustainable EPS, still below the $157 Q4 non-GAAP annualized and $180 Q1-guide midpoint annualized, so the reading stays within the frame. The requirement is now 1.68-2.10x the FY2026 non-GAAP average of $70.88 and the 12x end is about 94.8% of Q4 annualized, leaving a thinner normalization buffer. The existing roughly $1,884 downgrade threshold has not fired."
+          "zh": "一股拆八股于美东 11 月 19 日 16:01 生效。Nasdaq 11 月 20 日常规盘收盘为拆股后 79.24 美元，按报告的拆股前每股口径折合 633.92 美元。拆股与收盘不足以判定穿越周期的盈利。",
+          "en": "The eight-for-one split took legal effect November 19 at 4:01 p.m. ET. Nasdaq’s November 20 regular close was $79.24 post-split, equivalent to $633.92 on the report's historical pre-split per-share basis. The split and close do not establish through-cycle earnings."
         },
         "nextCheck": "行业 bit 供需、合同价与 Q1 FY2027 盈利 / industry bit supply-demand, contract pricing and Q1 FY2027 earnings",
         "nextCheckDate": "2026-11",
-        "reading": "within",
-        "readingAsOf": "2026-08-17"
+        "reading": "unclear",
+        "readingAsOf": "2026-11-20",
+        "readingNote": "一股拆八股于美东 11 月 19 日 16:01 生效。Nasdaq 11 月 20 日常规盘收盘为拆股后 79.24 美元，按报告的拆股前每股口径折合 633.92 美元。拆股与收盘不足以判定穿越周期的盈利。 / The eight-for-one split took legal effect November 19 at 4:01 p.m. ET. Nasdaq’s November 20 regular close was $79.24 post-split, equivalent to $633.92 on the report's historical pre-split per-share basis. The split and close do not establish through-cycle earnings."
       }
     ],
     "conviction": "medium",

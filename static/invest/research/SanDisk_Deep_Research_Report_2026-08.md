@@ -1,7 +1,7 @@
 # SanDisk (SNDK) Deep Research Report
 
 Coverage date: 2026-06-27
-Last updated: 2026-11-19
+Last updated: 2026-11-21
 Ticker: NASDAQ: SNDK
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 Reported period: FY2026 Form 10-K / Q4 FY2026, with a Q1 FY2027 factual update (quarter ended October 2, 2026; Form 8-K filed October 29, 2026). Historical valuation basis: price anchor: $1,786.85 close on 2026-08-17; stance: neutral-watch / medium conviction. Financial results are per Sandisk unless stated otherwise. FY2026 figures are finalized by the Form 10-K filed August 17, 2026.
@@ -11,6 +11,8 @@ Previous report: [FY2026 pre-rerun archive](/invest/research/reports/view.html?i
 ---
 
 ## Executive Summary
+
+> **2026-11-20 Factual update · Sandisk’s eight-for-one split took effect** Sandisk’s certificate amendment took effect at 4:01 p.m. Eastern Time on November 19 and provided for an eight-for-one forward split. Nasdaq shows the November 20 regular-session close on the post-split share basis at $79.24. Historical per-share anchors in the report are pre-split. Comparable per-share readings require the eight-for-one conversion. The published stance and conviction are unchanged. The report retains its historical valuation basis. [Source 1](https://www.sec.gov/Archives/edgar/data/2023554/000162828026075127/sndk-20261119.htm) · [Source 2](https://api.nasdaq.com/api/quote/SNDK/info?assetclass=stocks)
 
 > **Sandisk files $88.9B of NBM remaining performance obligations**  Sandisk’s Q1 FY2027 10-Q, filed October 30, 2026, reports $88.9 billion of NBM remaining performance obligations at October 2. Of that total, $87.4 billion was unbilled and $1.5 billion recorded as contract liabilities. The company expects to recognize about 20% over the next 12 months. The company recognized $281 million of opening contract liabilities as revenue during the quarter. The footnote does not reconcile the aggregate RPO to the minimum revenue management attributed to five agreements. FY2027 bit coverage and deliveries against those five agreements remain unverified. The report retains its historical valuation basis and published stance and conviction. [Source 1](https://www.sec.gov/Archives/edgar/data/2023554/000162828026068601/sndk-20261002.htm)
 
