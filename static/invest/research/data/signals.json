@@ -4825,5 +4825,29 @@
       "meta-2026:capex-intensity",
       "meta-2026:ad-ai-roi"
     ]
+  },
+  {
+    "id": "micron-q4-fy2026-revenue-gross-margin-20260930",
+    "date": "2026-09-30",
+    "title": {
+      "en": "Micron beat fiscal Q4 guidance with $54.23B revenue and 87.0% adjusted gross margin",
+      "zh": "美光 FY2026 Q4 收入 542.3 亿美元，调整后毛利率 87.0%，超过指引"
+    },
+    "detail": {
+      "zh": "FY2026 Q4 收入 542.29 亿美元，高于 490–510 亿美元指引。GAAP 与非 GAAP 毛利率分别为 86.8% 和 87.0%。FY2027 Q1 收入指引为 615 亿美元上下 15 亿美元，非 GAAP 毛利率约 86.25%。 实际与指引毛利率仍高于 80%。业绩稿未量化 2027 年 HBM 订单覆盖或长期战略客户协议收入占比。 核对 FY2027 Q1 毛利率，待披露数量后复核 HBM 及长期战略客户协议原文。 https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/a2026q4ex991-pressrelease.htm",
+      "en": "Fiscal Q4 revenue was $54.229B versus guidance of $49–51B. GAAP gross margin was 86.8% and non-GAAP gross margin was 87.0%. Fiscal Q1 FY2027 guidance was $61.5B ± $1.5B in revenue and about 86.25% non-GAAP gross margin. Reported and guided gross margin remain above 80%. The release does not quantify the volume of the 2027 HBM order book or the revenue mix from strategic customer agreements. Check the fiscal Q1 margin and open the original HBM and agreement disclosures when quantities are available. https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/a2026q4ex991-pressrelease.htm"
+    },
+    "crossChecks": [
+      "memory-cycle"
+    ],
+    "tickers": [
+      "MU"
+    ],
+    "reportIds": [
+      "micron-2026"
+    ],
+    "monitoringRefs": [
+      "micron-2026:valuation-cycle-risk"
+    ]
   }
 ]
