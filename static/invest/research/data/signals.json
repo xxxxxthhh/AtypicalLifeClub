@@ -4896,5 +4896,29 @@
       "sandisk-2026:cycle-derating"
     ],
     "scope": "report-monitoring"
+  },
+  {
+    "id": "synopsys-2026-11-20-valuation-reanchor",
+    "date": "2026-11-20",
+    "title": {
+      "zh": "Synopsys 重锚至 $396.17，维持偏多并下调确信度",
+      "en": "Synopsys re-anchors at $396.17, stays constructive at lower conviction"
+    },
+    "detail": {
+      "zh": "据 Nasdaq 11 月 20 日收盘（https://api.nasdaq.com/api/quote/SNPS/historical?assetclass=stocks&fromdate=2026-11-19&todate=2026-11-20&limit=5）及 FY2026 Q3 10-Q（https://www.sec.gov/Archives/edgar/data/883241/000088324126000025/snps-20260731.htm），以 $396.17、191.605M 期末普通股和 $6.429691B 净债务计算，EV 为 $82.34B。8 月指引（https://www.sec.gov/Archives/edgar/data/883241/000119312526368620/d157153dex991.htm）的收入中点为 $9.715B，EV 倍数 8.48x。约 $2.6B FCF 为指引，前九个月推算 FCF 为 $2.142514B。10 月 ASR（https://www.sec.gov/Archives/edgar/data/883241/000119312526413359/d830308dex991.htm）初始股数和现金支付只列备考敏感性。FY2028 研究情景加权年化 8.63%，偏熊权重为 6.14%，故维持偏多、确信度降至低。12 月 8 日盘后财报（https://news.synopsys.com/2026-11-05-Synopsys-Announces-Earnings-Release-Date-For-Fourth-Quarter-and-Fiscal-Year-2026）复核现金兑现。",
+      "en": "With Nasdaq’s November 20 close (https://api.nasdaq.com/api/quote/SNPS/historical?assetclass=stocks&fromdate=2026-11-19&todate=2026-11-20&limit=5) and FY2026 Q3 Form 10-Q (https://www.sec.gov/Archives/edgar/data/883241/000088324126000025/snps-20260731.htm), the $396.17 close, 191.605M period-end shares and $6.429691B net debt imply $82.34B EV. The August guidance midpoint (https://www.sec.gov/Archives/edgar/data/883241/000119312526368620/d157153dex991.htm) of $9.715B yields 8.48x EV/sales. About $2.6B FCF is guidance. Implied nine-month FCF is $2.142514B. The October ASR (https://www.sec.gov/Archives/edgar/data/883241/000119312526413359/d830308dex991.htm) initial-share and cash terms are modeled as a separate pro forma sensitivity. The FY2028 author scenario yields 8.63% annualized on main weights and 6.14% on adverse weights, supporting constructive with lower conviction. The December 8 after-close release (https://news.synopsys.com/2026-11-05-Synopsys-Announces-Earnings-Release-Date-For-Fourth-Quarter-and-Fiscal-Year-2026) is the next cash-delivery check."
+    },
+    "crossChecks": [],
+    "tickers": [
+      "SNPS"
+    ],
+    "reportIds": [
+      "synopsys-2026"
+    ],
+    "scope": "report-monitoring",
+    "monitoringRefs": [
+      "synopsys-2026:valuation-return-hurdle",
+      "synopsys-2026:fcf-conversion"
+    ]
   }
 ]
