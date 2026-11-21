@@ -1,13 +1,15 @@
 # Spotify (NYSE: SPOT) Deep Research Report
 
 Coverage date: 2026-02-10
-Last updated: 2026-10-02
+Last updated: 2026-11-21
 Ticker: NYSE: SPOT
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
 ## Executive Summary
+
+> **2026-10-22 Factual update · Spotify reached 788M listeners and 306M subscribers, while quarterly free cash flow fell** Q3 MAUs were 788M, Premium subscribers 306M and revenue €4.969B (+16% YoY). Spotify marked revenue in line at the rounded €5.0B guidance precision. Gross margin was 33.0%, operating income €672M and free cash flow €735M (−9% YoY). Ad-Supported revenue was €482M (+10%, or +14% currency-neutral). The Q4 operating-income guide was €820M. Premium subscribers and profitability exceeded guidance. Exact reported revenue is €31M below €5.0B, while the issuer reports in-line at rounded precision. Quarterly free cash flow and ad segment margin were below Q2. The published stance and conviction are unchanged. The report retains its historical valuation basis. [Source 1](https://www.sec.gov/Archives/edgar/data/1639920/000114036126040435/ef20084028_ex99-1.htm)
 
 **One-Line Thesis:** Spotify has successfully transformed from a chronically unprofitable music streaming platform into a profitable "global audio technology platform," but current valuation still requires digesting high growth expectations even after a significant pullback.
 

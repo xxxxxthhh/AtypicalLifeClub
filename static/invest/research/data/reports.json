@@ -6221,7 +6221,7 @@
     ],
     "category": "tech",
     "date": "2026-02-10",
-    "lastUpdate": "2026-10-02",
+    "lastUpdate": "2026-11-21",
     "coverageTier": "full",
     "file": "/invest/research/reports/view.html?id=spotify-2026",
     "markdownFiles": {
@@ -6239,7 +6239,7 @@
     "period": "2026H1",
     "versionType": "incremental",
     "versionLabel": "2026H1 Q2 Incremental Update",
-    "reportedPeriod": "Q2 2026",
+    "reportedPeriod": "Q3 2026 operating monitoring / 2026-10-01 historical valuation frame",
     "monitoring": [
       {
         "id": "q3-user-revenue-guide",
@@ -6254,13 +6254,14 @@
           "en": "MAUs fall below 788M, Premium subscribers below 305M, or revenue materially below €5.0B"
         },
         "latest": {
-          "zh": "Q2 MAU 7.77亿，比指引少100万；Premium 3.00亿，比指引多100万；营收€4.777B，按公司四舍五入口径符合€4.8B指引。Q3 €5.0B 指引以 Q2 末 USD:EUR 0.8756（约 1 欧元兑 1.142 美元）为假设；2026-10-01 ECB 汇率 1.1298 意味着欧元更弱，对以欧元报告的营收是折算顺风",
-          "en": "Q2 MAUs were 777M, 1M below guidance; Premium subscribers were 300M, 1M above; revenue was €4.777B, in line with the company's rounded €4.8B guide. The €5.0B Q3 guide assumed USD:EUR 0.8756 at Q2 close (about 1.142 USD per EUR); the ECB rate of 1.1298 on 2026-10-01 means a weaker euro, a translation tailwind for euro-reported revenue"
+          "zh": "月活 7.88 亿达到 7.88 亿阈值，付费用户 3.06 亿超过 3.05 亿。收入实报 49.69 亿欧元，指引 50 亿欧元，公司按指引披露精度判为符合。",
+          "en": "788M MAUs met the 788M line and 306M Premium subscribers cleared 305M. Reported revenue was €4.969B vs €5.0B, which management labels in line at its rounded guidance precision."
         },
         "nextCheck": "Q3 2026 财报（2026-10-22 盘前，公司已确认） / Q3 2026 results (2026-10-22 before market open, issuer-confirmed)",
         "nextCheckDate": "2026-10",
         "reading": "unclear",
-        "readingAsOf": "2026-08-04"
+        "readingAsOf": "2026-10-22",
+        "readingNote": "月活 7.88 亿达到 7.88 亿阈值，付费用户 3.06 亿超过 3.05 亿。收入实报 49.69 亿欧元，指引 50 亿欧元，公司按指引披露精度判为符合。 / 788M MAUs met the 788M line and 306M Premium subscribers cleared 305M. Reported revenue was €4.969B vs €5.0B, which management labels in line at its rounded guidance precision."
       },
       {
         "id": "q3-margin-cash-flow",
@@ -6275,13 +6276,14 @@
           "en": "gross margin falls below 31.5%, Q3 operating income materially misses €670M, or LTM FCF falls below about €3.3B"
         },
         "latest": {
-          "zh": "Q2毛利率33.4%、营业利润€655M、FCF€797M，LTM FCF为€3.261B（公司四舍五入为 €3.3B）；Q3指引毛利率32.9%、营业利润€670M",
-          "en": "Q2 gross margin was 33.4%, operating income €655M, FCF €797M, and LTM FCF €3.261B (the company rounds it to €3.3B); Q3 guidance is 32.9% gross margin and €670M operating income"
+          "zh": "Q3 毛利率 33.0%、营业利润 6.72 亿欧元，超过 32.9% 和 6.70 亿欧元指引。季度自由现金流 7.35 亿欧元，低于 Q2 的 7.97 亿和上年同期的 8.06 亿欧元。",
+          "en": "Q3 gross margin 33.0% and operating income €672M exceeded 32.9% and €670M guidance. Quarterly FCF was €735M, down from €797M in Q2 and €806M a year earlier."
         },
         "nextCheck": "Q3 2026 财报（2026-10-22 盘前，公司已确认） / Q3 2026 results (2026-10-22 before market open, issuer-confirmed)",
         "nextCheckDate": "2026-10",
         "reading": "within",
-        "readingAsOf": "2026-08-04"
+        "readingAsOf": "2026-10-22",
+        "readingNote": "Q3 毛利率 33.0%、营业利润 6.72 亿欧元，超过 32.9% 和 6.70 亿欧元指引。季度自由现金流 7.35 亿欧元，低于 Q2 的 7.97 亿和上年同期的 8.06 亿欧元。 / Q3 gross margin 33.0% and operating income €672M exceeded 32.9% and €670M guidance. Quarterly FCF was €735M, down from €797M in Q2 and €806M a year earlier."
       },
       {
         "id": "ad-supported-reacceleration",
