@@ -13,6 +13,13 @@
       <description>AI 基础设施书 demand-risk 层的架构校验初始覆盖：本层已有两篇公共约束（Microsoft、Meta）和一篇仪表盘（Oracle），Alphabet 承担只有它能做的买方架构检验——全球最大自研芯片项目开始向第三方出售 TPU 系统，使它同时是商用芯片的前二大客户和竞争者。2026 Q2（季度截至 2026-06-30、07-22 发布）：收入 $119.796B（+24%）、Google Cloud +82% 至 $24.768B 且分部利润率 20.7%→35.6%、Search 及其他 +17%、合并经营利润率 34.0%、收入积压 $519.5B（Cloud $513.9B）。10-Q 首次写明 Cloud 产品收入主要来自 TPU 系统销售，存货半年由 $2.439B 升至 $9.991B。但同一季度自由现金流为 −$5.855B、回购连续两季为 $0（$69.5B 授权未动用）、6 月增发股权净额 $49.6B、股本 12,088M→12,230M，FY2026 capex 指引上调至 $195-205B、2027 年将显著更高。以 2026-07-30 收盘 $333.68 为锚（财报次日 07-23 单日 −6.9%），市值约 $4.081T、约 9.2x TTM 收入、约 26.7x EV/TTM 经营利润、约 73.9x EV/TTM 自由现金流；追溯 GAAP 市盈率约 16.7x 不可用，因 Q2 每股 $9.11 中 $6.26 来自权益证券估值变动，清洗后至少约 29.7x。30% 牛市 / 50% 基准 / 20% 熊市网格读出轻度正偏度但建立在预测之上，初始立场中性观察 / 中确信。</description>
     </item>
     <item>
+      <title>Synopsys 深度研究报告 - AI 芯片设计的 EDA/IP 与仿真约束 / Synopsys Deep Research Report - EDA/IP And Simulation Constraint For AI Silicon Design</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=synopsys-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=synopsys-2026#synopsys-2026@2026-11-21</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Synopsys 是 EDA/IP 与仿真环节的公共约束。FY2026 Q3 收入 $2.4768B，Design Automation 同比 +53%，Design IP 单季 +11%、前九个月同比约 −1% 且收入仍为正。FY2026 指引为收入 $9.690–9.740B、non-GAAP EPS $15.04–15.10 和 FCF 约 $2.6B。以 2026-11-20 收盘 $396.17 和 7 月 31 日已披露资本结构计，EV $82.34B、8.48x EV/FY2026E 收入、26.29x non-GAAP 市盈率。约 $1.0B ASR 的初始交付条款单列敏感性。FY2028 情景加权 $465.41、年化 8.63%。偏熊权重下为 6.14%。维持偏多，确信度降至低，等待全年现金兑现、可比 IP 和更新的资本披露。</description>
+    </item>
+    <item>
       <title>Micron Technology 深度研究报告 - AI memory 周期的 HBM/DRAM/NAND 仪表盘 / Micron Technology Deep Research Report - HBM, DRAM, and NAND Dashboard for the AI Memory Cycle</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=micron-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=micron-2026#micron-2026@2026-11-21</guid>
@@ -466,13 +473,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=minimax-2026#minimax-2026@2026-09-16</guid>
       <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
       <description>2026-08-26 港交所 H1 业绩：收入 US$116.573M、+283.1%，AI-native 产品 US$42.644M、+100.9%、占比 36.6%，Open Platform 与其他 AI 企业服务 US$73.929M、+703.1%、占比 63.4%；毛利率 17.9%，期内亏损 US$358.0M，调整后净亏损 US$293.0M。公告不含现金流量表，也未披露 MAU、付费用户或 ARPU。2026-08-17 价格与 FY2025 分母形成的旧估值快照已被 H1 实际数取代；谨慎 / 低确信仅暂时保留，并未重新验证，须待当前价格、股本、EV、前瞻分母、现金流与完整论文复核。</description>
-    </item>
-    <item>
-      <title>Synopsys 深度研究报告 - AI 芯片设计的 EDA/IP 与仿真约束 / Synopsys Deep Research Report - EDA/IP And Simulation Constraint For AI Silicon Design</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=synopsys-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=synopsys-2026#synopsys-2026@2026-08-28</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
-      <description>AI 基础设施 eda-ip 层的公共约束：SNPS 验证 AI silicon 需求是否穿透到 design automation、verification、simulation、IP blocks 和 system-level complexity。最新披露的 FY2026 Q3（截至 2026-07-31）revenue $2,476.8M（去年同期 $1,739.7M）、GAAP EPS $2.84、non-GAAP EPS $3.91；分部为 Design Automation $2,003.0M（同比 +53%）与 Design IP $473.8M（同比 +11%，但前九个月仍同比 -1%），backlog $10.9B。FY2026 指引上调至 revenue $9,690-9,740M、non-GAAP EPS $15.04-15.10、FCF 约 $2.6B，含约 $2.98B Ansys revenue，并假设没有进一步 export-control / Entity List 变化。以 2026-07-30 收盘 $372.33 计，市值约 $71.3B、EV 约 $79.7B，约 8.2x EV/FY2026E sales、约 25.2x non-GAAP P/E —— 该组倍数按**当时**的 FY2026 指引口径计算，未按 2026-08-26 上调后的指引与 Q3 实际数重算，属明确标注日期的历史估值快照。偏多 / 中确信：倍数在 2026 年 7 月链条重定价中压缩，同一套指引框架反而更便宜，温和正预期差变宽；但整合、出口和客户周期性仍限制确信度。</description>
     </item>
     <item>
       <title>金盘科技深度研究报告 - AI电力设备的高估值兑现考验 / Jinpan Technology Deep Research Report - AI Power Equipment Execution at a Demanding Valuation</title>

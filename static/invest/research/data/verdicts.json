@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-20",
-  "dataAsOf": "2026-11-19",
+  "generatedAt": "2026-11-21",
+  "dataAsOf": "2026-11-20",
   "benchmark": "SMH",
   "entries": [
     {
@@ -1244,6 +1244,25 @@
       "bookBenchmarkChangePct": -8.7,
       "bookRelativePct": -6.1,
       "daysHeld": 29,
+      "migration": false,
+      "benchmarkSymbol": "SMH"
+    },
+    {
+      "reportId": "synopsys-2026",
+      "fromStance": "constructive",
+      "toStance": "constructive",
+      "toConviction": "low",
+      "startDate": "2026-07-31",
+      "startPrice": 372.33,
+      "endDate": "2026-11-21",
+      "endPrice": 396.17,
+      "changePct": 6.4,
+      "benchmarkChangePct": -26.0,
+      "relativePct": 32.4,
+      "bookBenchmarkSymbol": "SMH",
+      "bookBenchmarkChangePct": -26.0,
+      "bookRelativePct": 32.4,
+      "daysHeld": 113,
       "migration": false,
       "benchmarkSymbol": "SMH"
     },
