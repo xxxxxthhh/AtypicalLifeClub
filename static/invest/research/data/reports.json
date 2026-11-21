@@ -9233,7 +9233,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-11-21",
     "file": "/invest/research/reports/view.html?id=meta-2026",
     "markdownFiles": {
       "zh": "/invest/research/Meta_Platforms_深度研究报告_2026-07.md",
@@ -9255,7 +9255,7 @@
     "chainRole": "common-constraint",
     "stance": "neutral-watch",
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q2 2026",
+    "reportedPeriod": "Q3 2026 operating monitoring / 2026-07-30 historical valuation frame",
     "related": [
       "coreweave-2026",
       "nebius-2026",
@@ -9278,11 +9278,14 @@
           "en": "2026 capex guide moves above $145B or early 2027 framing does not decline"
         },
         "latest": {
-          "zh": "Q2 2026 季度 capex $31.078B（含融资租赁本金：$30.116B PP&E + $0.962B）；FY2026 指引收窄至 $130-145B（下限自 $125B 上调、上限不变）",
-          "en": "Q2 2026 quarterly capex was $31.078B including finance-lease principal ($30.116B property and equipment + $0.962B); FY2026 guidance narrowed to $130-145B (low end raised from $125B, high end unchanged)"
+          "zh": "FY2026 资本开支指引（含融资租赁本金）由 1,300–1,450 亿美元收窄至 1,350–1,450 亿美元，上限没有超过 1,450 亿美元。业绩稿未量化 2027 年区间。",
+          "en": "FY2026 capex guidance including finance-lease principal moved from $130–145B to $135–145B. The top did not rise above $145B. The release lacks a quantified 2027 capex range."
         },
         "nextCheck": "2026-Q3 财报与 capex 指引 / Q3 earnings and capex guide",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "unclear",
+        "readingAsOf": "2026-10-21",
+        "readingNote": "FY2026 资本开支指引（含融资租赁本金）由 1,300–1,450 亿美元收窄至 1,350–1,450 亿美元，上限没有超过 1,450 亿美元。业绩稿未量化 2027 年区间。 / FY2026 capex guidance including finance-lease principal moved from $130–145B to $135–145B. The top did not rise above $145B. The release lacks a quantified 2027 capex range."
       },
       {
         "id": "capacity-resale-pivot",
@@ -9315,11 +9318,14 @@
           "en": "revenue and ad pricing/impressions keep outrunning capex growth while operating margin stays above 35%"
         },
         "latest": {
-          "zh": "Q2 2026 收入 $60.80B（+28%）、营业利润率 31%（去年同期 43%）、净利润 -14%；经营现金流 $31.862B（+25%），但 capex $31.078B 使 FCF 降至 $0.784B（-91%），为混合读数",
-          "en": "Q2 2026 revenue was $60.80B (+28%), operating margin 31% (down from 43%), and net income -14%; operating cash flow rose 25% to $31.862B, but $31.078B of capex cut FCF 91% to $0.784B, a mixed reading"
+          "zh": "收入同比 +26%，广告展示量 +10%，平均广告价格 +14%。报告营业利润率 20%，低于监控要求的 35%。本季计入 99 亿美元诉讼费用，申报未单列广告业务营业利润率。",
+          "en": "Revenue +26%, ad impressions +10%, and average price +14% YoY. Reported operating margin of 20% was below the monitor’s 35% condition. The quarter included a $9.9B legal charge. These disclosures do not isolate the operating margin of the advertising business."
         },
         "nextCheck": "2026-Q3 收入、广告指标与利润率 / Q3 revenue, ad metrics, and margin",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "unclear",
+        "readingAsOf": "2026-10-21",
+        "readingNote": "收入同比 +26%，广告展示量 +10%，平均广告价格 +14%。报告营业利润率 20%，低于监控要求的 35%。本季计入 99 亿美元诉讼费用，申报未单列广告业务营业利润率。 / Revenue +26%, ad impressions +10%, and average price +14% YoY. Reported operating margin of 20% was below the monitor’s 35% condition. The quarter included a $9.9B legal charge. These disclosures do not isolate the operating margin of the advertising business."
       },
       {
         "id": "supplier-diversification-delivery",

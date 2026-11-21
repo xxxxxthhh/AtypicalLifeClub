@@ -1,13 +1,15 @@
 # Meta Platforms (META) Deep Research Report
 
 Coverage date: 2026-07-04
-Last updated: 2026-07-31
+Last updated: 2026-11-21
 Ticker: NASDAQ: META
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
 ## Executive Summary
+
+> **2026-10-21 Factual update · Meta’s ad metrics grew as reported margin and free cash flow weakened** Q3 revenue rose 26% to $64.60B, ad impressions rose 10% and average ad price rose 14%. Reported operating margin was 20%, versus 40% a year earlier. The quarter included a $9.9B legal charge. Free cash flow was −$2.12B and the 2026 capex range rose at the low end to $135–145B, including finance-lease principal. The reported margin is below the 35% operating monitor, alongside a quantified legal charge. The 2026 capex guide’s upper end is still $145B. This release gives no quantified 2027 capex range. The published stance and conviction are unchanged. The report retains its historical valuation basis. [Source 1](https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm)
 
 > **Framework note:** This report is the demand anchor in the AI-infrastructure book's demand-risk layer. Meta is not a GPU, HBM, optical, power-equipment, or neocloud supplier. It is one of the most important end customers in the chain. If Meta keeps expanding capex and absorbs that spend through advertising and AI products, the demand narratives for NVIDIA, AMD, Broadcom, SK hynix, SanDisk, Vertiv, GE Vernova, CoreWeave, and Nebius get support. If Meta starts reselling excess compute or cuts outside procurement materially, the whole compute-scarcity assumption needs to be retested.
 
