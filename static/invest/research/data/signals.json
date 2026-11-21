@@ -4750,5 +4750,30 @@
     "monitoringRefs": [
       "bloom-energy-2026:margin-cash-delivery"
     ]
+  },
+  {
+    "id": "amazon-q3-2026-aws-cash-flow-20261029",
+    "date": "2026-10-29",
+    "title": {
+      "en": "AWS grew 39.3% as Amazon’s trailing free cash flow fell to −$42.4B",
+      "zh": "AWS 收入增长 39.3%，Amazon 过去十二个月自由现金流降至负 424 亿美元"
+    },
+    "detail": {
+      "zh": "Q3 AWS 净销售额 459.84 亿美元，营业利润 177.73 亿美元，计算得营业利润率 38.7%。TTM 经营现金流 1,683.00 亿美元减去净购置物业设备支出 2,106.57 亿美元，自由现金流为负 423.57 亿美元，前一季度为负 76.04 亿美元。 AWS 增长与利润率仍高于报告的下行阈值。Q3 的 TTM 现金缺口已超过 250 亿美元，能否延续至 2027 年仍待核验。 同步复核下一期 TTM 自由现金流、长期债务及 AWS 利润率。 https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm",
+      "en": "Q3 AWS net sales were $45.984B and operating income was $17.773B, implying a 38.7% margin. Trailing operating cash flow of $168.300B less $210.657B of net property and equipment purchases left free cash flow of −$42.357B, versus −$7.604B a quarter earlier. AWS growth and margin remain above the report’s downside levels. The trailing cash shortfall crossed $25B in Q3. Persistence into 2027 remains untested. Check the next trailing cash flow and long-term debt together with AWS margin. https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm"
+    },
+    "crossChecks": [
+      "semicap-eda-capex-commitment"
+    ],
+    "tickers": [
+      "AMZN"
+    ],
+    "reportIds": [
+      "amzn-2026"
+    ],
+    "monitoringRefs": [
+      "amzn-2026:aws-growth-vs-segment-margin",
+      "amzn-2026:ttm-free-cash-flow-trough"
+    ]
   }
 ]
