@@ -4849,5 +4849,29 @@
     "monitoringRefs": [
       "micron-2026:valuation-cycle-risk"
     ]
+  },
+  {
+    "id": "spotify-q3-2026-kpis-margin-cash-20261022",
+    "date": "2026-10-22",
+    "title": {
+      "en": "Spotify reached 788M listeners and 306M subscribers, while quarterly free cash flow fell",
+      "zh": "Spotify 月活达 7.88 亿、付费用户 3.06 亿，季度自由现金流下滑"
+    },
+    "detail": {
+      "zh": "Q3 月活 7.88 亿、付费用户 3.06 亿，收入 49.69 亿欧元（同比 +16%）。按 50 亿欧元指引的披露精度，公司判为符合指引。毛利率 33.0%，营业利润 6.72 亿欧元，自由现金流 7.35 亿欧元（同比 −9%）。广告支持业务收入 4.82 亿欧元（+10%，固定汇率 +14%）。Q4 营业利润指引为 8.20 亿欧元。 付费用户及盈利水平超过指引。精确收入较 50 亿欧元低 3,100 万欧元，公司按四舍五入口径判为合规。季度自由现金流和广告分部毛利率低于 Q2。 用 Q4 实际营业利润核对 8.20 亿欧元指引，并复查广告毛利率能否维持。 https://www.sec.gov/Archives/edgar/data/1639920/000114036126040435/ef20084028_ex99-1.htm",
+      "en": "Q3 MAUs were 788M, Premium subscribers 306M and revenue €4.969B (+16% YoY). Spotify marked revenue in line at the rounded €5.0B guidance precision. Gross margin was 33.0%, operating income €672M and free cash flow €735M (−9% YoY). Ad-Supported revenue was €482M (+10%, or +14% currency-neutral). The Q4 operating-income guide was €820M. Premium subscribers and profitability exceeded guidance. Exact reported revenue is €31M below €5.0B, while the issuer reports in-line at rounded precision. Quarterly free cash flow and ad segment margin were below Q2. Compare the Q4 print with the €820M operating-income guide and check ad-margin durability. https://www.sec.gov/Archives/edgar/data/1639920/000114036126040435/ef20084028_ex99-1.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "SPOT"
+    ],
+    "reportIds": [
+      "spotify-2026"
+    ],
+    "monitoringRefs": [
+      "spotify-2026:q3-user-revenue-guide",
+      "spotify-2026:q3-margin-cash-flow"
+    ],
+    "scope": "report-monitoring"
   }
 ]
