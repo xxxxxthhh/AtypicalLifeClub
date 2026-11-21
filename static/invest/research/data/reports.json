@@ -8016,7 +8016,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-07-31",
+    "lastUpdate": "2026-11-21",
     "file": "/invest/research/reports/view.html?id=micron-2026",
     "markdownFiles": {
       "zh": "/invest/research/Micron_深度研究报告_2026-07.md",
@@ -8094,7 +8094,7 @@
       }
     ],
     "priceAsOf": "2026-07-30",
-    "reportedPeriod": "FY2026 Q3",
+    "reportedPeriod": "FY2026 Q4 operating monitoring / 2026-07-02 historical valuation frame",
     "related": [
       "sk-hynix-2026",
       "sandisk-2026",
@@ -8193,11 +8193,14 @@
           "en": "gross margin falls from 80%+ toward historical levels, compressing both EPS denominator and valuation multiple"
         },
         "latest": {
-          "zh": "股价 $975.56、市值约 $1.10T；Q3 毛利率约 84.6%、Q4 指引约 86%",
-          "en": "$975.56 share price and about $1.10T cap; Q3 gross margin about 84.6%, Q4 guide about 86%"
+          "zh": "FY2026 Q4 毛利率为 GAAP 86.8%、非 GAAP 87.0%。FY2027 Q1 非 GAAP 毛利率指引约 86.25%，毛利率尚未跌出 80% 区间。",
+          "en": "FY2026 Q4 gross margin was 86.8% GAAP and 87.0% non-GAAP. The FY2027 Q1 guide is approximately 86.25% non-GAAP, so the operating margin leg has not fallen out of the 80% range."
         },
         "nextCheck": "FY2026 Q4 毛利率与 FY2027 指引 / Q4 margin and FY2027 guide",
-        "nextCheckDate": "2026-09"
+        "nextCheckDate": "2026-09",
+        "reading": "within",
+        "readingAsOf": "2026-09-30",
+        "readingNote": "FY2026 Q4 毛利率为 GAAP 86.8%、非 GAAP 87.0%。FY2027 Q1 非 GAAP 毛利率指引约 86.25%，毛利率尚未跌出 80% 区间。 / FY2026 Q4 gross margin was 86.8% GAAP and 87.0% non-GAAP. The FY2027 Q1 guide is approximately 86.25% non-GAAP, so the operating margin leg has not fallen out of the 80% range."
       }
     ]
   },
