@@ -4896,5 +4896,32 @@
       "sandisk-2026:cycle-derating"
     ],
     "scope": "report-monitoring"
+  },
+  {
+    "id": "taiwan-october-2026-monthly-revenue-foundry-osat",
+    "date": "2026-11-10",
+    "title": {
+      "zh": "台积电与日月光封测 10 月营收同步增长",
+      "en": "TSMC and ASE’s assembly and test business both grew in October"
+    },
+    "detail": {
+      "zh": "10 月合并营收新台币 5,868.90 亿元，环比 +14.7%、同比 +59.7%，较同口径 Q3 月均值高约 17.8%。1 至 10 月累计 44,856.17 亿元、同比 +43.3%。日月光投控同期 ATM 营收新台币 568.40 亿元，环比 +7.9%、同比 +57.7%。仍待核对可比的全年营收轨迹和当月的制程占比。两家公司于 11 月 10 日分别提交 Form 6-K。https://www.sec.gov/Archives/edgar/data/1046179/000104617926000796/tsm-revenue20261110.htm https://www.sec.gov/Archives/edgar/data/1122411/000095010326017186/dp256592_6k.htm 两组营收支持代工和封测业务的收入方向，当月先进封装供给、客户排产与 GPU/ASIC 终端订单还需专门披露。",
+      "en": "October consolidated revenue was NT$586,890M (+14.7% MoM, +59.7% YoY), about 17.8% above Q3's monthly average on the same currency and consolidation basis. January–October revenue was NT$4,485,617M (+43.3% YoY). ASE Technology's October ATM net revenue was NT$56,840M (+7.9% MoM, +57.7% YoY). A comparable full-year trajectory and October node mix remain open. Separate Forms 6-K dated November 10. https://www.sec.gov/Archives/edgar/data/1046179/000104617926000796/tsm-revenue20261110.htm https://www.sec.gov/Archives/edgar/data/1122411/000095010326017186/dp256592_6k.htm The two monthly revenue series corroborate direction across foundry and OSAT. Current advanced-packaging supply, customer schedules, and GPU/ASIC end orders still need direct evidence."
+    },
+    "crossChecks": [
+      "advanced-packaging-chokepoint",
+      "chip-vs-downstream"
+    ],
+    "tickers": [
+      "TSM",
+      "ASX"
+    ],
+    "reportIds": [
+      "tsmc-2026",
+      "ase-technology-2026"
+    ],
+    "monitoringRefs": [
+      "tsmc-2026:advanced-node-utilization"
+    ]
   }
 ]
