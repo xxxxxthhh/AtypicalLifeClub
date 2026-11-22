@@ -3,6 +3,32 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "tsmc-2026",
+      "signalId": "taiwan-october-2026-monthly-revenue-foundry-osat",
+      "type": "facts",
+      "evidenceDate": "2026-11-10",
+      "title": {
+        "en": "TSMC and ASE reported higher October revenue",
+        "zh": "台积电和日月光封测 10 月营收增长"
+      },
+      "change": {
+        "en": "TSMC’s October consolidated revenue rose 14.7% from September. ASE’s assembly, testing and materials revenue rose 7.9%.",
+        "zh": "台积电 10 月合并营收环比增长 14.7%，日月光封装、测试及材料营收环比增长 7.9%。"
+      },
+      "meaning": {
+        "en": "Both monthly series grew. The releases leave advanced packaging capacity and customer orders open.",
+        "zh": "代工与第三方封测两组月度营收同步增长。先进封装产能和客户订单仍需专门披露。"
+      },
+      "next": {
+        "en": "Check November revenue and Q4 disclosures for node mix and packaging capacity.",
+        "zh": "跟踪 11 月营收，并核对 Q4 制程结构及封装产能披露。"
+      },
+      "id": "research-845e72fb2f2eb74f761064ca2b77daf97d8a85f812ca9b5bc8367eaead2b28cd",
+      "publishedDate": "2026-11-22",
+      "company": "Taiwan Semiconductor Manufacturing Company",
+      "ticker": "TSM"
+    },
+    {
       "reportId": "alphabet-2026",
       "signalId": "alphabet-q3-2026-cloud-backlog-search-fcf-20261028",
       "type": "facts",
