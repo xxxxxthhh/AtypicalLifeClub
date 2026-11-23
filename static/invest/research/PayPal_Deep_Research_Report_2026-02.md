@@ -1,7 +1,7 @@
 # PayPal Holdings Inc. (PYPL) Deep Research Report
 
 Coverage date: 2026-02-03
-Last updated: 2026-10-28
+Last updated: 2026-11-23
 Ticker: NASDAQ: PYPL
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -1163,6 +1163,18 @@ Historical valuation basis: **The expectations gap in one sentence:** at $53.06,
 ---
 
 ## 9. Catalysts & Timeline
+
+**2026-10-27 · PayPal Q3 online branded checkout grew 1% and Venmo grew 14%**
+
+Slide 12 of PayPal’s Q3 2026 deck reports online branded checkout TPV up 1% year over year on an FX-neutral basis, at 27% of total TPV (Q2 +2% and 28%; prior-year quarter +5% and 29%). The company cited pressure from EU tariff changes alongside improvement in the U.S. and strength in BNPL and Pay with Venmo. The reported whole-percent figure is at the +1% threshold. The unrounded rate is unavailable. Neither Q2 nor Q3 reached +4%.
+
+Q3 2026 Venmo TPV was US$96.810B, up 14% year over year on an FX-neutral basis (Q2 +14%), and accounted for 20% of total TPV. The definition includes Venmo P2P, Pay with Venmo and Venmo debit. The issuer’s reading on slides 12 and 14 is above the +10% threshold.
+
+Q3 2026 transaction margin dollars excluding interest on customer balances were US$3.661B (+3% YoY). The full-year guide is about US$15.7B for total transaction margin dollars and US$14.6B excluding that interest. Quarterly growth was positive and below +5%. The full-year figures on slide 9 are guidance.
+
+Q3 2026 repurchases were about US$1.5B, as in Q2. Cash, cash equivalents and investments of US$15.1B less debt of US$13.5B at September 30 imply net cash of about US$1.6B (calculated). FY2026 guidance is US$6.5B or more of adjusted free cash flow and US$6B of repurchases. Both quarterly repurchase amounts exceed US$1B, the adjusted cash-flow guide is above US$6B and the net cash measure is positive.
+
+This update records factual monitoring. The published historical valuation basis, stance and conviction still apply. [Issuer slides](https://s205.q4cdn.com/875401827/files/content_files/PYPL-3Q-26-Earnings-Presentation.pdf) [Results release](https://www.sec.gov/Archives/edgar/data/1633917/000163391726000086/pypl3q-26earningsrelease.htm)
 
 ### Near-Term Catalysts (0-6 Months)
 
