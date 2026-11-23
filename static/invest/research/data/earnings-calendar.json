@@ -297,13 +297,14 @@
     {
       "reportId": "almonty-2026",
       "company": "Almonty Industries",
-      "expectedDate": "2026-11-17",
+      "expectedDate": "2026-11-12",
       "precision": "day",
-      "status": "estimated",
+      "status": "stale",
       "session": "unspecified",
-      "sourceUrl": "https://www.tipranks.com/stocks/alm/earnings",
-      "sourceType": "monitoring",
-      "verifiedAt": "2026-09-08"
+      "sourceUrl": "https://almonty.com/third-quarter-2026-financial-results/",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-11-23",
+      "fiscalPeriod": "Q3 2026"
     },
     {
       "reportId": "airbnb-2026",
