@@ -3,6 +3,32 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "cerebras-2026",
+      "signalId": "cerebras-q3-dilution-and-lockup-20261112",
+      "type": "facts",
+      "evidenceDate": "2026-11-12",
+      "title": {
+        "en": "Cerebras Q3 dilution proxy of about 315.6M shares was below the 330M threshold",
+        "zh": "Cerebras Q3 稀释代理约 3.156 亿股，低于 3.30 亿股门槛"
+      },
+      "change": {
+        "en": "At 2026-09-30, the Q3 10-Q shows 243.290M shares issued and outstanding and 72.326M potential shares excluded from diluted EPS. The existing proxy sums to about 315.616M shares.",
+        "zh": "截至 2026-09-30，Q3 10-Q 列示已发行在外股约 2.43290 亿股，另有 7,232.6 万股潜在股份未纳入稀释每股收益。按原定义加总约为 3.15616 亿股。"
+      },
+      "meaning": {
+        "en": "The Q3 reading was below the original 330M threshold. The prospectus terms and actual earnings release date imply a final lock-up expiry of 2026-11-09. The calculation cannot establish how many shares were sold.",
+        "zh": "Q3 读数低于原 3.30 亿股门槛。按招股书条款和实际业绩发布日期，最终锁定期对应 2026-11-09。该推算无法确认实际售股数量。"
+      },
+      "next": {
+        "en": "Reconcile issued and outstanding shares and anti-dilutive potential shares on the same basis when the next 10-Q or 10-K is filed.",
+        "zh": "下一份 10-Q 或 10-K 披露后，继续按同一口径核对已发行在外股及反稀释潜在股份。"
+      },
+      "id": "research-c47a410abd0f092a37be823bd47f07de4eb27f57f24d4b2994a044daf32c8f84",
+      "publishedDate": "2026-11-24",
+      "company": "Cerebras Systems",
+      "ticker": "CBRS"
+    },
+    {
       "reportId": "paypal-2026",
       "signalId": "paypal-q3-2026-deck-checkout-venmo-fcf-20261027",
       "type": "facts",
