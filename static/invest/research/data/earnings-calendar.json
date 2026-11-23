@@ -494,7 +494,18 @@
       "session": "after-close",
       "sourceUrl": "https://investors.micron.com/news/press-release/2026/Micron-Technology-to-Report-Fiscal-Fourth-Quarter-Results-on-September-30-2026/default.aspx",
       "sourceType": "issuer-ir",
-      "verifiedAt": "2026-09-01"
+      "verifiedAt": "2026-09-01",
+      "call": {
+        "eventType": "call",
+        "timezone": "America/Denver",
+        "expectedDate": "2026-12-17",
+        "localTime": "14:30",
+        "precision": "day",
+        "status": "issuer-confirmed",
+        "sourceUrl": "https://micron.gcs-web.com/latest-news?modal=%7bFAF63C7C-978B-4802-84CD-D8484781D769%7d",
+        "sourceType": "issuer-ir",
+        "verifiedAt": "2026-11-23"
+      }
     },
     {
       "reportId": "constellation-energy-2026",
