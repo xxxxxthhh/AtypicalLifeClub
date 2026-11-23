@@ -1,7 +1,7 @@
 # Cerebras Systems (CBRS) Deep Research Report
 
 Coverage date: 2026-10-19
-Last updated: 2026-11-18
+Last updated: 2026-11-24
 Ticker: NASDAQ: CBRS
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -299,7 +299,7 @@ The five items below match the structured monitoring basis; thresholds are set b
 | rpo-and-openai / RPO and OpenAI delivery | OpenAI partly terminates or lowers committed capacity, or RPO below $24.0B, is negative; new named contracts with customers other than OpenAI and the UAE entities adding at least $3B to RPO are positive (judged by the company-announced contract value or the same-period RPO increase) | 2026-06-30: RPO $25.4B; Q2 OpenAI MRA revenue $56.8M (about 31.5%); MBZUAI 34%, G42 9% | Q3 10-Q, expected 2026-11 |
 | core-revenue-margin / Core revenue and gross margin | Q3 core revenue below $214M is negative; FY2026 core revenue at least $885M with Q4 core gross margin at least 45% is positive | 2026-06-30: Q2 core revenue $209.869M, core gross margin 40.6%; Q3 guide $214M-$216M, 38%-40% | Q3 results, date not announced; Q4/FY2026 |
 | cash-burn-capex / Cash consumption and capex | FCF worse than -$1.0B for two consecutive quarters without new signed RPO is negative | 2026-06-30: Q2 FCF -$476.7M, H1 capex $548.9M; unrestricted cash and investments $7.922B; $850M revolver undrawn | Each 10-Q / 10-K |
-| dilution-and-lockup / Dilution and lock-up | Fully diluted proxy (issued + anti-dilutive securities) above 330M is negative | 2026-08-05: issued 237.564M; anti-dilutive securities 76.0M at 6/30, proxy about 313.6M; about 19.4M shares unlock on 10/28, the rest no later than 11/9 | End of lock-up in 2026-11 and Q3 10-Q |
+| dilution-and-lockup / Dilution and lock-up | Fully diluted proxy (issued + anti-dilutive securities) above 330M is negative | The [Q3 10-Q](https://www.sec.gov/Archives/edgar/data/2021728/000162828026073494/cbrs-20260930.htm) filed 2026-11-12 gives 243.290M shares issued and outstanding across Classes A, B and N at 2026-09-30 plus 72.326M potential shares excluded from diluted EPS: a proxy of about 315.616M, below 330M. The [prospectus](https://www.sec.gov/Archives/edgar/data/2021728/000162828026035214/cerebras-424b4.htm) dated 2026-05-13 set the final lock-up expiry at the earlier of 180 days or the second trading day after Q3 results. With [results released on 2026-11-12](https://www.sec.gov/Archives/edgar/data/2021728/000162828026073366/cbrsannouncesfinancialresu.htm), the original terms imply 2026-11-09. That date does not establish how many shares were sold. The 2026-10-16 historical valuation anchor and published stance and conviction are unchanged. | End of lock-up in 2026-11 and Q3 10-Q |
 | valuation-hurdle-price / Price and return hurdle | With scenarios unchanged, a regular close at or below $94 triggers review for an upgrade to neutral-watch | 2026-10-16: $127.21; weighted terminal value $126.43, annualized -0.20%, 10% hurdle price $94.98 | Latest completed session; rebuild before relying on changed facts |
 
 ## 10. Conclusion <!-- report-module:conclusion -->
