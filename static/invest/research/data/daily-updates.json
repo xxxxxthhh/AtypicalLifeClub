@@ -3,6 +3,32 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "paypal-2026",
+      "signalId": "paypal-q3-2026-deck-checkout-venmo-fcf-20261027",
+      "type": "facts",
+      "evidenceDate": "2026-10-27",
+      "title": {
+        "en": "PayPal Q3 online branded checkout grew 1% and Venmo grew 14%",
+        "zh": "PayPal 第三季度线上品牌结账增长 1%，Venmo 增长 14%"
+      },
+      "change": {
+        "en": "Q3 online branded checkout TPV rose 1% and Venmo rose 14% to US$96.810B on an FX-neutral year-over-year basis. The full-year adjusted free cash flow guide is US$6.5B or more.",
+        "zh": "Q3 线上品牌结账 TPV 汇率中性同比增 1%，Venmo 增 14% 至 968.10 亿美元。全年调整后自由现金流指引为 65 亿美元以上。"
+      },
+      "meaning": {
+        "en": "Online branded checkout sits at the reported-precision threshold and the unrounded growth rate remains unknown. Venmo held up better and full-year adjusted free cash flow guidance exceeded the US$6B threshold.",
+        "zh": "线上品牌结账位于已披露精度的观察线，未四舍五入增速仍待核实。Venmo 相对更强，全年调整后自由现金流指引高于 60 亿美元观察线。"
+      },
+      "next": {
+        "en": "Check next quarter’s online branded checkout growth, Venmo volume and realized adjusted free cash flow.",
+        "zh": "核对下一季线上品牌结账增速、Venmo 交易额与调整后自由现金流实际。"
+      },
+      "id": "research-a60424035b7dc1cd80c03f90e59af1972713e023255786c1bc05968558f8d914",
+      "publishedDate": "2026-11-23",
+      "company": "PayPal Holdings Inc.",
+      "ticker": "PYPL"
+    },
+    {
       "reportId": "tsmc-2026",
       "signalId": "taiwan-october-2026-monthly-revenue-foundry-osat",
       "type": "facts",
