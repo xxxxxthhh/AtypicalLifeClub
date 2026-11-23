@@ -4923,5 +4923,31 @@
     "monitoringRefs": [
       "tsmc-2026:advanced-node-utilization"
     ]
+  },
+  {
+    "id": "paypal-q3-2026-deck-checkout-venmo-fcf-20261027",
+    "date": "2026-10-27",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "PayPal 第三季度线上品牌结账增长 1%，Venmo 增长 14%",
+      "en": "PayPal Q3 online branded checkout grew 1% and Venmo grew 14%"
+    },
+    "detail": {
+      "zh": "2026 Q3 发行人演示第 12 页：品牌结账（线上）TPV 汇率中性同比 +1%，占总 TPV 的 27%（Q2 +2%、占 28%，上年同期 +5%、占 29%）。公司将欧洲关税调整列为压力，同时提及美国改善及 BNPL、Pay with Venmo 的增长。 2026 Q3 Venmo TPV 968.10 亿美元，汇率中性同比 +14%（Q2 +14%），占总 TPV 的 20%。该定义涵盖 Venmo P2P、Pay with Venmo 和 Venmo 借记卡。 2026 Q3 剔除客户余额利息的交易利润额为 36.61 亿美元（同比 +3%）。2026 全年指引为总交易利润额约 157 亿美元、剔除客户余额利息后约 146 亿美元。 2026 Q3 回购约 15 亿美元，Q2 亦约 15 亿美元。9 月末现金、现金等价物及投资 151 亿美元、债务 135 亿美元，净额约 16 亿美元（自算）。2026 全年调整后自由现金流指引为 65 亿美元以上，回购指引为 60 亿美元。 线上品牌结账位于已披露精度的观察线，未四舍五入增速仍待核实。Venmo 相对更强，全年调整后自由现金流指引高于 60 亿美元观察线。 https://s205.q4cdn.com/875401827/files/content_files/PYPL-3Q-26-Earnings-Presentation.pdf https://www.sec.gov/Archives/edgar/data/1633917/000163391726000086/pypl3q-26earningsrelease.htm",
+      "en": "Slide 12 of PayPal’s Q3 2026 deck reports online branded checkout TPV up 1% year over year on an FX-neutral basis, at 27% of total TPV (Q2 +2% and 28%; prior-year quarter +5% and 29%). The company cited pressure from EU tariff changes alongside improvement in the U.S. and strength in BNPL and Pay with Venmo. Q3 2026 Venmo TPV was US$96.810B, up 14% year over year on an FX-neutral basis (Q2 +14%), and accounted for 20% of total TPV. The definition includes Venmo P2P, Pay with Venmo and Venmo debit. Q3 2026 transaction margin dollars excluding interest on customer balances were US$3.661B (+3% YoY). The full-year guide is about US$15.7B for total transaction margin dollars and US$14.6B excluding that interest. Q3 2026 repurchases were about US$1.5B, as in Q2. Cash, cash equivalents and investments of US$15.1B less debt of US$13.5B at September 30 imply net cash of about US$1.6B (calculated). FY2026 guidance is US$6.5B or more of adjusted free cash flow and US$6B of repurchases. Online branded checkout sits at the reported-precision threshold and the unrounded growth rate remains unknown. Venmo held up better and full-year adjusted free cash flow guidance exceeded the US$6B threshold. https://s205.q4cdn.com/875401827/files/content_files/PYPL-3Q-26-Earnings-Presentation.pdf https://www.sec.gov/Archives/edgar/data/1633917/000163391726000086/pypl3q-26earningsrelease.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "PYPL"
+    ],
+    "reportIds": [
+      "paypal-2026"
+    ],
+    "monitoringRefs": [
+      "paypal-2026:branded-checkout-growth",
+      "paypal-2026:venmo-momentum",
+      "paypal-2026:tm-dollar-ex-interest",
+      "paypal-2026:buyback-capacity"
+    ]
   }
 ]
