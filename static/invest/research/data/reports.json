@@ -7147,7 +7147,7 @@
     "ticker": "NASDAQ: PYPL",
     "title": "PayPal 深度调研报告 - 2025-2026年度分析",
     "titleEn": "PayPal Deep Research Report - 2025-2026 Analysis",
-    "summary": "2026-10-28更新（Mode A）：Q3 2026营收$8,584M（+2%），剔除客户余额利息的TM$为$3,661M（+3%），非GAAP EPS $1.45；FY2026非GAAP EPS指引约$5.60。回购$1.5B，FCF $1,431M、调整后FCF $2,047M。品牌结账、Venmo与全年FCF指引本轮未独立读演示稿，相关未知腿不判未触发。估值仍按2026-10-02历史基础，当前股价、股本、净现金及分母待Mode B；既有偏多／低确信未重新裁定。",
+    "summary": "Q3 线上品牌结账 TPV 汇率中性同比增 1%，Venmo 增 14% 至 968.10 亿美元。全年调整后自由现金流指引为 65 亿美元以上。 线上品牌结账位于已披露精度的观察线，未四舍五入增速仍待核实。Venmo 相对更强，全年调整后自由现金流指引高于 60 亿美元观察线。 Q3 营收 85.84 亿美元（同比 +2%），剔除客户余额利息的交易利润额 36.61 亿美元（+3%），非 GAAP 每股收益 1.45 美元。沿用 2026-10-02 历史估值口径和已发布的立场及确信度。",
     "tags": [
       "金融科技",
       "数字支付",
@@ -7156,7 +7156,7 @@
     ],
     "category": "tech",
     "date": "2026-02-03",
-    "lastUpdate": "2026-10-28",
+    "lastUpdate": "2026-11-23",
     "coverageTier": "full",
     "period": "2026H1",
     "versionType": "incremental",
@@ -7226,11 +7226,14 @@
           "en": "Below +1% in any quarter (downgrade trigger); at or above +4% for two consecutive quarters (one of the upgrade conditions)"
         },
         "latest": {
-          "zh": "2Q'26 业绩演示：Q2 2026 为 +2%（Q1 2026 +2%、Q2 2025 +5%），占总 TPV 的 28%；Q4 2025 约 +1%（2026-02 报道口径）。公司称品牌结账进一步企稳，但仍远低于牛市所需的中个位数增速。",
-          "en": "Per the 2Q'26 earnings presentation: +2% in Q2 2026 (Q1 2026 +2%, Q2 2025 +5%), 28% of total TPV; about +1% in Q4 2025 (February 2026 reporting). The company says branded checkout further stabilized, but growth remains well below the mid-single digits the bull case needs."
+          "zh": "2026 Q3 发行人演示第 12 页：品牌结账（线上）TPV 汇率中性同比 +1%，占总 TPV 的 27%（Q2 +2%、占 28%，上年同期 +5%、占 29%）。公司将欧洲关税调整列为压力，同时提及美国改善及 BNPL、Pay with Venmo 的增长。",
+          "en": "Slide 12 of PayPal’s Q3 2026 deck reports online branded checkout TPV up 1% year over year on an FX-neutral basis, at 27% of total TPV (Q2 +2% and 28%; prior-year quarter +5% and 29%). The company cited pressure from EU tariff changes alongside improvement in the U.S. and strength in BNPL and Pay with Venmo."
         },
         "nextCheck": "Q3 2026 业绩与业绩演示（预计 2026 年 10 月下旬，发行人尚未公告日期） / Q3 2026 results and earnings presentation (expected late October 2026; date not yet announced by the issuer)",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "unclear",
+        "readingAsOf": "2026-10-27",
+        "readingNote": "披露精度下正好位于 +1% 观察线，无法判定未四舍五入值是否低于该线。Q2 和 Q3 均未达到 +4%。 / The reported whole-percent figure is at the +1% threshold. The unrounded rate is unavailable. Neither Q2 nor Q3 reached +4%."
       },
       {
         "id": "venmo-momentum",
@@ -7245,11 +7248,14 @@
           "en": "Below +10% in any quarter"
         },
         "latest": {
-          "zh": "2Q'26 业绩演示：Q2 2026 Venmo TPV $93,806M，汇率中性同比 +14%（Q1 2026 亦为 +14%，Q2 2025 为 +12%）；Venmo 借记卡月活账户增长超过 50%，Pay with Venmo 月活账户增长约 30%。",
-          "en": "Per the 2Q'26 earnings presentation: Q2 2026 Venmo TPV of $93,806M, +14% FX-neutral (Q1 2026 also +14%, Q2 2025 +12%); Venmo debit card monthly active accounts grew more than 50% and Pay with Venmo monthly active accounts about 30%."
+          "zh": "2026 Q3 Venmo TPV 968.10 亿美元，汇率中性同比 +14%（Q2 +14%），占总 TPV 的 20%。该定义涵盖 Venmo P2P、Pay with Venmo 和 Venmo 借记卡。",
+          "en": "Q3 2026 Venmo TPV was US$96.810B, up 14% year over year on an FX-neutral basis (Q2 +14%), and accounted for 20% of total TPV. The definition includes Venmo P2P, Pay with Venmo and Venmo debit."
         },
         "nextCheck": "Q3 2026 业绩与业绩演示（预计 2026 年 10 月下旬，发行人尚未公告日期） / Q3 2026 results and earnings presentation (expected late October 2026; date not yet announced by the issuer)",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-10-27",
+        "readingNote": "发行人演示第 12、14 页的读数高于 +10% 观察线。 / The issuer’s reading on slides 12 and 14 is above the +10% threshold."
       },
       {
         "id": "tm-dollar-ex-interest",
@@ -7264,13 +7270,14 @@
           "en": "Negative year over year in any quarter (downgrade trigger); up 5% or more year over year in a quarter (one of the upgrade conditions)"
         },
         "latest": {
-          "zh": "Q3 2026 TM$ 剔除客户余额利息 $3,661M，同比 +3%（Q3 2025 $3,550M）；TM$ $3,950M，同比 +2%（$3,871M）；公司称上调全年非 GAAP TM$ 指引（具体数在业绩演示，本轮未读）。未出现同比负增长，也未达到 +5% 的上调条件。",
-          "en": "Q3 2026 TM$ excluding interest on customer balances was $3,661M, +3% year over year (Q3 2025: $3,550M); TM$ was $3,950M, +2% ($3,871M); the company says it raised full-year non-GAAP TM$ guidance (the figure is in the earnings presentation, not read in this pass). Growth is neither negative nor at the +5% upgrade condition."
+          "zh": "2026 Q3 剔除客户余额利息的交易利润额为 36.61 亿美元（同比 +3%）。2026 全年指引为总交易利润额约 157 亿美元、剔除客户余额利息后约 146 亿美元。",
+          "en": "Q3 2026 transaction margin dollars excluding interest on customer balances were US$3.661B (+3% YoY). The full-year guide is about US$15.7B for total transaction margin dollars and US$14.6B excluding that interest."
         },
         "nextCheck": "Q4 2026 业绩与业绩演示（发行人尚未公告日期） / Q4 2026 results and earnings presentation (date not yet announced by the issuer)",
         "nextCheckDate": "2026-10",
         "reading": "within",
-        "readingAsOf": "2026-10-27"
+        "readingAsOf": "2026-10-27",
+        "readingNote": "当季同比为正，未达 +5%。全年数取自发行人演示第 9 页，属指引。 / Quarterly growth was positive and below +5%. The full-year figures on slide 9 are guidance."
       },
       {
         "id": "eps-guidance-delivery",
@@ -7306,14 +7313,14 @@
           "en": "Quarterly repurchases below $1.0B for two consecutive quarters, or FY2026 adjusted FCF guidance cut below $6B, or corporate net cash turning negative"
         },
         "latest": {
-          "zh": "Q3 2026 回购约 2,800 万股、$1.5B（TTM 约 1.17 亿股、$6.0B），第二个连续不低于 $1.0B 的季度；Q3 自由现金流 $1,431M、调整后自由现金流 $2,047M；9 月末现金、现金等价物及投资 $15.1B，债务 $13.5B（发行人口径）。FY2026 调整后 FCF 指引在业绩演示中，本轮未读；季度回购腿未触发。",
-          "en": "Q3 2026 repurchases were about 28M shares for $1.5B (trailing twelve months about 117M shares for $6.0B), a second consecutive quarter at or above $1.0B; Q3 free cash flow was $1,431M and adjusted free cash flow $2,047M; at September 30 cash, cash equivalents and investments were $15.1B and debt $13.5B (issuer figures). The FY2026 adjusted-FCF guide is in the earnings presentation, not read in this pass; the quarterly-repurchase leg has not fired."
+          "zh": "2026 Q3 回购约 15 亿美元，Q2 亦约 15 亿美元。9 月末现金、现金等价物及投资 151 亿美元、债务 135 亿美元，净额约 16 亿美元（自算）。2026 全年调整后自由现金流指引为 65 亿美元以上，回购指引为 60 亿美元。",
+          "en": "Q3 2026 repurchases were about US$1.5B, as in Q2. Cash, cash equivalents and investments of US$15.1B less debt of US$13.5B at September 30 imply net cash of about US$1.6B (calculated). FY2026 guidance is US$6.5B or more of adjusted free cash flow and US$6B of repurchases."
         },
         "nextCheck": "Q3 2026 10-Q 现金流量表与资产负债表（已于 2026-10-27 提交，本轮未读）及 Q4 业绩 / Q3 2026 10-Q cash-flow statement and balance sheet (filed 2026-10-27, not read in this pass) and Q4 results",
         "nextCheckDate": "2026-10",
-        "reading": "unclear",
+        "reading": "within",
         "readingAsOf": "2026-10-27",
-        "readingNote": "回购腿已核；FY2026 调整后 FCF 指引本轮未读，净现金腿按 Mode A 边界不计算，未知腿不判未触发。 / Repurchase leg verified; the FY2026 adjusted-FCF guide was not read and the net-cash leg is left to Mode B, so unknown legs are ungraded."
+        "readingNote": "两季回购均高于 10 亿美元，调整后现金流指引未低于 60 亿美元，现金与投资净额为正。 / Both quarterly repurchase amounts exceed US$1B, the adjusted cash-flow guide is above US$6B and the net cash measure is positive."
       },
       {
         "id": "valuation-skew",
@@ -7354,7 +7361,7 @@
         "nextCheckDate": "2026-10"
       }
     ],
-    "summaryEn": "Updated 2026-10-28 (Mode A): Q3 2026 revenue was $8,584M (+2%); TM$ excluding customer-balance interest was $3,661M (+3%), and non-GAAP EPS $1.45. FY2026 non-GAAP EPS guidance is about $5.60. Repurchases were $1.5B, FCF $1,431M and adjusted FCF $2,047M. Branded checkout, Venmo and the full-year FCF guide were not independently read in the presentation; unknown legs remain ungraded. Valuation retains the historical 2026-10-02 basis; current price, shares, net cash and denominators await Mode B. The existing constructive / low stance was not re-adjudicated."
+    "summaryEn": "Q3 online branded checkout TPV rose 1% and Venmo rose 14% to US$96.810B on an FX-neutral year-over-year basis. The full-year adjusted free cash flow guide is US$6.5B or more. Online branded checkout sits at the reported-precision threshold and the unrounded growth rate remains unknown. Venmo held up better and full-year adjusted free cash flow guidance exceeded the US$6B threshold. Q3 revenue was US$8.584B (+2% YoY), transaction margin dollars excluding customer-balance interest were US$3.661B (+3%), and non-GAAP EPS was US$1.45. The historical 2026-10-02 valuation basis and the published stance and conviction still apply."
   },
   {
     "id": "oklo-2026-pre-rerun",
