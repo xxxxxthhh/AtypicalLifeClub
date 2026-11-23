@@ -1,11 +1,107 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T02:25:38Z",
+  "generatedAt": "2026-11-23T07:35:14Z",
   "reference": {
     "mode": "instant",
-    "value": "2026-11-23T02:25:38Z"
+    "value": "2026-11-23T07:35:14Z"
   },
   "tasks": [
+    {
+      "id": "earnings:aaoi-2026:2026-11-05:stale",
+      "reportId": "aaoi-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-11-05",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:aehr-2026:unknown:unknown",
+      "reportId": "aehr-2026",
+      "type": "calendar-maintenance",
+      "window": "unknown",
+      "expectedDate": null,
+      "reason": "Resolve unknown earnings calendar data."
+    },
+    {
+      "id": "earnings:airbnb-2026:2026-11-05:stale",
+      "reportId": "airbnb-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-11-05",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:alab-2026:2026-11-03:stale",
+      "reportId": "alab-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-11-03",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:almonty-2026:2026-11-17:stale",
+      "reportId": "almonty-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-11-17",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:alphabet-2026:2026-10-28:stale",
+      "reportId": "alphabet-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-28",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:amd-2026:2026-11-03:stale",
+      "reportId": "amd-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-11-03",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:amkr-2026:2026-10-26:stale",
+      "reportId": "amkr-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-26",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:amzn-2026:2026-10-29:stale",
+      "reportId": "amzn-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-29",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:applied-materials-2026:2026-08-13:stale",
+      "reportId": "applied-materials-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-08-13",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:applovin-2026:2026-11-04:stale",
+      "reportId": "applovin-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-11-04",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:arista-2026:2026-11-03:stale",
+      "reportId": "arista-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-11-03",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
     {
       "id": "earnings:ase-technology-2026:2026-10-29:stale",
       "reportId": "ase-technology-2026",
@@ -21,6 +117,126 @@
       "window": "complete-date",
       "expectedDate": "2027-01-27",
       "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:axti-2026:2026-10-29:stale",
+      "reportId": "axti-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-29",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:bloom-energy-2026:2026-10-22:stale",
+      "reportId": "bloom-energy-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-22",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:cadence-2026:2026-10-26:stale",
+      "reportId": "cadence-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-26",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:cameco-2026:2026-10-30:stale",
+      "reportId": "cameco-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-30",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:cerebras-2026:2026-11-12:stale",
+      "reportId": "cerebras-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-11-12",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:coherent-2026:2026-11-04:stale",
+      "reportId": "coherent-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-11-04",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:coinbase-2026:2026-10-29:stale",
+      "reportId": "coinbase-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-29",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:constellation-energy-2026:2026-11-09:stale",
+      "reportId": "constellation-energy-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-11-09",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:coreweave-2026:2026-11-16:stale",
+      "reportId": "coreweave-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-11-16",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:corning-2026:2026-10-27:stale",
+      "reportId": "corning-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-27",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:crdo-2026:unknown:unknown",
+      "reportId": "crdo-2026",
+      "type": "calendar-maintenance",
+      "window": "unknown",
+      "expectedDate": null,
+      "reason": "Resolve unknown earnings calendar data."
+    },
+    {
+      "id": "earnings:digital-realty-2026:2026-10-29:stale",
+      "reportId": "digital-realty-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-29",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:eqix-2026:2026-10-28:stale",
+      "reportId": "eqix-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-28",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:gevernova-2026:2026-10-28:stale",
+      "reportId": "gevernova-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-28",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:hims-2026:2026-11-09:stale",
+      "reportId": "hims-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-11-09",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
     },
     {
       "id": "earnings:innolight-2026:2026-10:complete-date",
@@ -47,12 +263,204 @@
       "reason": "Earnings date has passed; roll the entry to the next cycle."
     },
     {
+      "id": "earnings:kla-2026:2026-10-28:stale",
+      "reportId": "kla-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-28",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:lam-research-2026:2026-10-21:stale",
+      "reportId": "lam-research-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-21",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:lumentum-2026:2026-11-02:stale",
+      "reportId": "lumentum-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-11-02",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:marvell-2026:2026-08-27:stale",
+      "reportId": "marvell-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-08-27",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:meta-2026:2026-10-21:stale",
+      "reportId": "meta-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-21",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:micron-2026:2026-09-30:stale",
+      "reportId": "micron-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-09-30",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:microsoft-2026:2026-10-28:stale",
+      "reportId": "microsoft-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-28",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
       "id": "earnings:minimax-2026:2027-03:complete-date",
       "reportId": "minimax-2026",
       "type": "date-completion",
       "window": "complete-date",
       "expectedDate": "2027-03",
       "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:mp-2026:2026-11-05:stale",
+      "reportId": "mp-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-11-05",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:nebius-2026:2026-11-12:stale",
+      "reportId": "nebius-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-11-12",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:neov-2026:2026-11-12:stale",
+      "reportId": "neov-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-11-12",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:netflix-2026:2026-10-20:stale",
+      "reportId": "netflix-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-20",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:nrg-2026:2026-11-09:stale",
+      "reportId": "nrg-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-11-09",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:nvidia-2026:2026-11-17:stale",
+      "reportId": "nvidia-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-11-17",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:oklo-2026:2026-11-06:stale",
+      "reportId": "oklo-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-11-06",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:onds-2026:2026-11-12:stale",
+      "reportId": "onds-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-11-12",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:oracle-2026:2026-12:complete-date",
+      "reportId": "oracle-2026",
+      "type": "date-completion",
+      "window": "complete-date",
+      "expectedDate": "2026-12",
+      "reason": "Replace the estimate with an issuer-sourced day."
+    },
+    {
+      "id": "earnings:paypal-2026:2026-10-27:stale",
+      "reportId": "paypal-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-27",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:pltr-2026:2026-11-02:stale",
+      "reportId": "pltr-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-11-02",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:quanta-services-2026:2026-10-29:stale",
+      "reportId": "quanta-services-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-29",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:reddit-2026:2026-10-29:stale",
+      "reportId": "reddit-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-29",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:rklb-2026:2026-11-09:stale",
+      "reportId": "rklb-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-11-09",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:salesforce-2026:2026-08-26:stale",
+      "reportId": "salesforce-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-08-26",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:sandisk-2026:2026-10-29:stale",
+      "reportId": "sandisk-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-29",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:seagate-2026:2026-10-27:stale",
+      "reportId": "seagate-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-27",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
     },
     {
       "id": "earnings:sk-hynix-2026:2026-10-28:stale",
@@ -63,11 +471,51 @@
       "reason": "Earnings date has passed; roll the entry to the next cycle."
     },
     {
+      "id": "earnings:spotify-2026:2026-10-22:stale",
+      "reportId": "spotify-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-22",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:tempus-ai-2026:2026-11-02:stale",
+      "reportId": "tempus-ai-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-11-02",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
       "id": "earnings:tsmc-2026:2026-10-15:stale",
       "reportId": "tsmc-2026",
       "type": "calendar-maintenance",
       "window": "stale",
       "expectedDate": "2026-10-15",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:vertiv-2026:2026-10-28:stale",
+      "reportId": "vertiv-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-28",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:vistra-2026:2026-11-06:stale",
+      "reportId": "vistra-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-11-06",
+      "reason": "Earnings date has passed; roll the entry to the next cycle."
+    },
+    {
+      "id": "earnings:wdc-2026:2026-10-22:stale",
+      "reportId": "wdc-2026",
+      "type": "calendar-maintenance",
+      "window": "stale",
+      "expectedDate": "2026-10-22",
       "reason": "Earnings date has passed; roll the entry to the next cycle."
     }
   ]
