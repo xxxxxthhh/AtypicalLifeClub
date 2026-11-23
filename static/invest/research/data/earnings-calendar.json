@@ -342,13 +342,14 @@
     {
       "reportId": "salesforce-2026",
       "company": "Salesforce",
-      "expectedDate": "2026-08-26",
+      "expectedDate": "2026-12-02",
       "precision": "day",
-      "status": "stale",
+      "status": "issuer-confirmed",
       "session": "after-close",
-      "sourceUrl": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-Second-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/default.aspx",
+      "sourceUrl": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Announces-Date-of-Third-Quarter-Fiscal-2027-Earnings-Release-and-Webcast/default.aspx",
       "sourceType": "issuer-ir",
-      "verifiedAt": "2026-08-22"
+      "verifiedAt": "2026-11-23",
+      "fiscalPeriod": "Q3 FY2027"
     },
     {
       "reportId": "coinbase-2026",
