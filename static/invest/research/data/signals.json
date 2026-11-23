@@ -4949,5 +4949,28 @@
       "paypal-2026:tm-dollar-ex-interest",
       "paypal-2026:buyback-capacity"
     ]
+  },
+  {
+    "id": "cerebras-q3-dilution-and-lockup-20261112",
+    "date": "2026-11-12",
+    "title": {
+      "zh": "Cerebras Q3 稀释代理约 3.156 亿股，低于 3.30 亿股门槛",
+      "en": "Cerebras Q3 dilution proxy of about 315.6M shares was below the 330M threshold"
+    },
+    "detail": {
+      "zh": "2026-11-12 提交的 Q3 10-Q 显示，截至 2026-09-30，A、B、N 三类已发行在外股合计 2.43290 亿股。加上稀释每股收益计算中排除的 7,232.6 万股潜在股份，按原口径计算的代理约 3.15616 亿股，低于 3.30 亿股门槛。招股书规定最终锁定期在 180 天届满或 Q3 业绩发布后第二个交易日两者中较早的一日到期。业绩于 2026-11-12 发布，因此原条款对应 2026-11-09。该日期无法确认实际卖出数量。 来源 https://www.sec.gov/Archives/edgar/data/2021728/000162828026073494/cbrs-20260930.htm https://www.sec.gov/Archives/edgar/data/2021728/000162828026035214/cerebras-424b4.htm https://www.sec.gov/Archives/edgar/data/2021728/000162828026073366/cbrsannouncesfinancialresu.htm",
+      "en": "The Q3 10-Q filed on 2026-11-12 shows 243.290M shares issued and outstanding across Classes A, B and N at 2026-09-30. Adding 72.326M potential shares excluded from diluted EPS gives a proxy of about 315.616M under the existing definition, below the 330M threshold. The prospectus sets the final lock-up expiry at the earlier of 180 days or the second trading day after Q3 results. Results were released on 2026-11-12, so the original terms imply 2026-11-09. That date does not establish how many shares were sold. Sources: https://www.sec.gov/Archives/edgar/data/2021728/000162828026073494/cbrs-20260930.htm https://www.sec.gov/Archives/edgar/data/2021728/000162828026035214/cerebras-424b4.htm https://www.sec.gov/Archives/edgar/data/2021728/000162828026073366/cbrsannouncesfinancialresu.htm"
+    },
+    "scope": "report-monitoring",
+    "crossChecks": [],
+    "tickers": [
+      "CBRS"
+    ],
+    "reportIds": [
+      "cerebras-2026"
+    ],
+    "monitoringRefs": [
+      "cerebras-2026:dilution-and-lockup"
+    ]
   }
 ]
