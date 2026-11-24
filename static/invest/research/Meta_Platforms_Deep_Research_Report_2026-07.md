@@ -1,11 +1,13 @@
 # Meta Platforms (META) Deep Research Report
 
 Coverage date: 2026-07-04
-Last updated: 2026-11-21
+Last updated: 2026-11-24
 Ticker: NASDAQ: META
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
+
+> **2026-11-23 — Meta pauses Class C common stock issuance during recapitalization proceedings.** Meta’s November 23 Form 8-K says it agreed to suspend Class C common stock issuance, including issuance through a stock dividend, during the pretrial and trial proceedings in Delaware Chancery Court. Trial is scheduled to begin April 19, 2027. Zuckerberg waived the original stock-dividend deadline. Meta expects the stock dividend and commencement of Class C trading to precede launch of the previously announced at-the-market program. The scheduled trial start does not establish an issuance date. The historical 2026-07-30 valuation anchor and the published stance and conviction remain in place. [Source 1](https://www.sec.gov/Archives/edgar/data/1326801/000162828026075541/meta-20261118.htm)
 
 ## Executive Summary
 
