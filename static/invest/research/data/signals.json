@@ -5065,5 +5065,28 @@
     "monitoringRefs": [
       "paypal-2026:strategic-optionality"
     ]
+  },
+  {
+    "id": "alphabet-q3-atm-draw-20261028",
+    "date": "2026-10-28",
+    "title": {
+      "zh": "Alphabet Q3 实际动用按市价发行计划",
+      "en": "Alphabet draws on its at-the-market program in Q3"
+    },
+    "detail": {
+      "zh": "Alphabet 10 月 28 日披露，第三季度通过按市价发行计划发行 1,200 万股 A 类股和 2,400 万股 C 类股，分别筹得净额 43 亿及 81 亿美元，合计 124 亿美元。9 月末计划剩余约 276 亿美元额度。 这是已经发生的股权融资，满足原现金流及融资监控项中的 ATM 分句。公司披露第三季度自由现金流为负 90.65 亿美元，过去十二个月仍为正 197.47 亿美元。 https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+      "en": "Alphabet disclosed on October 28 that its at-the-market program sold 12 million Class A and 24 million Class C shares in Q3, with net proceeds of $4.3 billion and $8.1 billion, respectively, or $12.4 billion combined. Approximately $27.6 billion remained available at September 30. The executed equity issuance meets the ATM clause of the funding monitor. Reported Q3 free cash flow was negative $9.065 billion, while trailing twelve-month free cash flow remained positive at $19.747 billion. https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "GOOG"
+    ],
+    "reportIds": [
+      "alphabet-2026"
+    ],
+    "scope": "report-monitoring",
+    "monitoringRefs": [
+      "alphabet-2026:fcf-and-funding-mix"
+    ]
   }
 ]
