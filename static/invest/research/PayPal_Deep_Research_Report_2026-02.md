@@ -1,11 +1,13 @@
 # PayPal Holdings Inc. (PYPL) Deep Research Report
 
 Coverage date: 2026-02-03
-Last updated: 2026-11-23
+Last updated: 2026-11-24
 Ticker: NASDAQ: PYPL
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
+
+> **2026-11-20 — PayPal appoints Claire Bramley as its next CFO.** PayPal’s November 20 Form 8-K says the board appointed Claire Bramley as EVP and CFO effective February 3, 2027. Jamie Miller will step down as EVP, chief financial and operating officer effective February 2. The release gives February 1 as Bramley’s start date. The 8-K says Miller’s departure did not result from a disagreement over reported financial statements or related financial results. The historical 2026-10-01 valuation anchor and the published stance and conviction remain in place. [Source 1](https://www.sec.gov/Archives/edgar/data/1633917/000119312526469335/d196713d8k.htm) · [Source 2](https://www.sec.gov/Archives/edgar/data/1633917/000119312526469335/d196713dex991.htm)
 
 ## Update — October 28, 2026 (Q3 2026 results · primary-source 8-K · Mode A, no re-anchor)
 

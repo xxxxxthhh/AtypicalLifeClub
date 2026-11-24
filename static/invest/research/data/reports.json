@@ -7147,7 +7147,7 @@
     "ticker": "NASDAQ: PYPL",
     "title": "PayPal 深度调研报告 - 2025-2026年度分析",
     "titleEn": "PayPal Deep Research Report - 2025-2026 Analysis",
-    "summary": "Q3 线上品牌结账 TPV 汇率中性同比增 1%，Venmo 增 14% 至 968.10 亿美元。全年调整后自由现金流指引为 65 亿美元以上。 线上品牌结账位于已披露精度的观察线，未四舍五入增速仍待核实。Venmo 相对更强，全年调整后自由现金流指引高于 60 亿美元观察线。 Q3 营收 85.84 亿美元（同比 +2%），剔除客户余额利息的交易利润额 36.61 亿美元（+3%），非 GAAP 每股收益 1.45 美元。沿用 2026-10-02 历史估值口径和已发布的立场及确信度。",
+    "summary": "PayPal 11 月 20 日的 8-K 载明，董事会任命 Claire Bramley 为执行副总裁兼 CFO，2027 年 2 月 3 日生效。Jamie Miller 将于 2 月 2 日卸任执行副总裁、财务长兼营运长。 Q3 线上品牌结账 TPV 汇率中性同比增 1%，Venmo 增 14% 至 968.10 亿美元。全年调整后自由现金流指引为 65 亿美元以上。 线上品牌结账位于已披露精度的观察线，未四舍五入增速仍待核实。Venmo 相对更强，全年调整后自由现金流指引高于 60 亿美元观察线。 Q3 营收 85.84 亿美元（同比 +2%），剔除客户余额利息的交易利润额 36.61 亿美元（+3%），非 GAAP 每股收益 1.45 美元。沿用 2026-10-02 历史估值口径和已发布的立场及确信度。",
     "tags": [
       "金融科技",
       "数字支付",
@@ -7156,7 +7156,7 @@
     ],
     "category": "tech",
     "date": "2026-02-03",
-    "lastUpdate": "2026-11-23",
+    "lastUpdate": "2026-11-24",
     "coverageTier": "full",
     "period": "2026H1",
     "versionType": "incremental",
@@ -7361,7 +7361,7 @@
         "nextCheckDate": "2026-10"
       }
     ],
-    "summaryEn": "Q3 online branded checkout TPV rose 1% and Venmo rose 14% to US$96.810B on an FX-neutral year-over-year basis. The full-year adjusted free cash flow guide is US$6.5B or more. Online branded checkout sits at the reported-precision threshold and the unrounded growth rate remains unknown. Venmo held up better and full-year adjusted free cash flow guidance exceeded the US$6B threshold. Q3 revenue was US$8.584B (+2% YoY), transaction margin dollars excluding customer-balance interest were US$3.661B (+3%), and non-GAAP EPS was US$1.45. The historical 2026-10-02 valuation basis and the published stance and conviction still apply."
+    "summaryEn": "PayPal’s November 20 Form 8-K says the board appointed Claire Bramley as EVP and CFO effective February 3, 2027. Jamie Miller will step down as EVP, chief financial and operating officer effective February 2. Q3 online branded checkout TPV rose 1% and Venmo rose 14% to US$96.810B on an FX-neutral year-over-year basis. The full-year adjusted free cash flow guide is US$6.5B or more. Online branded checkout sits at the reported-precision threshold and the unrounded growth rate remains unknown. Venmo held up better and full-year adjusted free cash flow guidance exceeded the US$6B threshold. Q3 revenue was US$8.584B (+2% YoY), transaction margin dollars excluding customer-balance interest were US$3.661B (+3%), and non-GAAP EPS was US$1.45. The historical 2026-10-02 valuation basis and the published stance and conviction still apply."
   },
   {
     "id": "oklo-2026-pre-rerun",
