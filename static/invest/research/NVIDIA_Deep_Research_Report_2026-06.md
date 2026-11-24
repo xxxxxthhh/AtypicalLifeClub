@@ -1,13 +1,15 @@
 # NVIDIA (NVDA) Deep Research Report
 
 Coverage date: 2026-06-26
-Last updated: 2026-11-19
+Last updated: 2026-11-24
 Ticker: NASDAQ: NVDA
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 > **Fiscal-year note:** NVIDIA's fiscal year ends in late January. In this report **FY2026** is the year ended 2026-01-25; **Q1 FY2027** is the quarter ended 2026-04-26 (reported 2026-05-20), the latest quarter at initial publication; as of 2026-11-19 the latest reported quarter is **Q3 FY2027** (ended 2026-10-25, reported 2026-11-17). Unlike the calendar-quarter convention used in this center's other reports, NVIDIA figures always use the company's official fiscal labels. Read alongside this center's Broadcom, AMD, GE Vernova and Bloom Energy reports — NVIDIA and Broadcom form the "compute side" of AI infrastructure, while GE Vernova and Bloom are the "power side"; only together can the full AI-infrastructure chain be assessed.
 
 ---
+
+> **2026-11-23 — NVIDIA reinstates Jensen Huang as president, CEO and director.** The November 23 Form 8-K says NVIDIA’s board reinstated Jensen Huang as president, CEO and director, effective immediately on November 22. Colette M. Kress continues as EVP and CFO, and Harvey C. Jones remains board chair. The press release says the independent board committee will continue its investigation. A separate independent National Security and Export Control Committee was formed, and a chief compliance officer search is beginning. The reinstatement changes the management facts while the investigation remains in progress. The historical 2026-07-30 valuation anchor and the published stance and conviction remain in place. [Source 1](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm) · [Source 2](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nov23pressrelease.htm) · [Source 3](https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director)
 
 > **2026-11-17 governance factual correction:** Item 5.02 of the 8-K filed November 12, 2026 states that the Board accepted Jensen Huang’s resignation as President, CEO and director effective immediately on November 11. CFO Colette Kress became interim CEO while retaining the CFO role as the Board searches for a permanent successor; Harvey C. Jones was appointed Board Chair on the same day. The attached release is dated November 12: it is the same disclosure family, not independent corroboration, and does not replace the 8-K’s November 11 effective date. The company’s expectation of uninterrupted customer commitments and product roadmap is not an operating outcome independently observed in this run. No reason for the resignation is given, and no reason or price causation is inferred. This corrects the current-tense founder-CEO statement in Section 4 without re-grading management or changing the four operating-monitoring items. Valuation retains the published July 30, 2026 historical anchor; the published stance and conviction are unchanged. [8-K Item 5.02](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm); [Ex 99.1](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvidiaannouncesceotransiti.htm)
 
@@ -163,15 +165,15 @@ Two implications:
 
 ## 4. Management & Governance
 
-Founder and former CEO **Jensen Huang** led from 1993 until 2026-11-11 and is one of the most successful founder-CEOs in semiconductor history: the decade-plus of "no visible return" investment in CUDA, the early bet on the data-center pivot, and reshaping the company from a gaming-graphics vendor into an AI-infrastructure platform all validate his long-term strategic judgment and execution. Management's track record on product cadence and guidance delivery is excellent.
+Founder and CEO **Jensen Huang** led from 1993 until 2026-11-11 and returned on 2026-11-22. He is one of the most successful founder-CEOs in semiconductor history: the decade-plus of "no visible return" investment in CUDA, the early bet on the data-center pivot, and reshaping the company from a gaming-graphics vendor into an AI-infrastructure platform all validate his long-term strategic judgment and execution. Management's track record on product cadence and guidance delivery is excellent.
 
 **Governance and points to monitor:**
 
 - **Leadership transition (Item 5.02 8-K filed 2026-11-12):** on 2026-11-11 the Board accepted Jen-Hsun Huang's resignation as President, CEO and director; Colette M. Kress (59), CFO since 2013, became interim CEO while continuing as CFO as the Board searches for a new CEO; Harvey C. Jones (73), a director since 1993, was appointed Board Chair. The Q3 FY2027 Item 2.02 8-K is signed by Kress as Interim CEO, EVP and CFO. The filing gives no reason for the resignation.
-- **Independent board-committee investigation:** the forward-looking-statement lists in the Q3 FY2027 press release and CFO Commentary refer to "the ongoing investigation by an independent committee of our board of directors and related matters"; the sources used in this run disclose neither the subject, scope, start date nor findings (unverified), and no cause or impact is inferred.
+- **Independent board-committee investigation:** the November 23 release says the board formed a committee and retained independent counsel after reporting that Huang was the target of a foreign intelligence effort. The board says it considered input from senior U.S. government officials in making the reinstatement decision. The committee’s investigation continues and the release gives no findings.
 - **Capital allocation enters a new phase:** from "almost no dividend, asset-light" to "large buybacks + dividend + large AI ecosystem equity investments / commitments / guarantees": $150B more buyback authorization in September 2026 ($227.3B remaining at Q3 end), alongside $20B of future equity-investment commitments, $32B of contingent neocloud commitments and $118.0B of maximum gross guarantee exposure as of 2026-10-25, plus an announced agreement to acquire Hugging Face. The latter (investing in customers/ecosystem) is a new, sizeable capital-allocation bet whose returns need to be validated over coming quarters.
 - **Insider selling:** at all-time-high prices, track founder/executive routine (10b5-1) selling cadence as a sentiment/valuation reference, not a short thesis.
-- **Key-person dependence:** strategy was long tightly bound to Jensen Huang; he left on 2026-11-11 and a permanent CEO is still being sought, so execution and strategic continuity through the transition are governance variables to track.
+- **Key-person dependence:** strategy has long been tied to Jensen Huang. His November 11 departure and November 22 reinstatement leave execution and strategic continuity as governance items to track.
 
 **Historical management grade from the original report: A (outstanding execution + long-term strategic foresight); this is not a grade of the interim leadership, and the new capital-allocation direction remains to be proven.**
 
@@ -235,7 +237,7 @@ Founder and former CEO **Jensen Huang** led from 1993 until 2026-11-11 and is on
 - Hyperscaler (MSFT/GOOG/META/AMZN) quarterly capex-guidance direction.
 - Any change in China export policy.
 - The Vera Rubin NVL72 ramp (now shipping) and its effect on gross margin, inventory ($39.7B at Q3 end) and receivables (64 days DSO).
-- Further disclosure on the permanent CEO search and the independent board-committee investigation; progress on the Hugging Face acquisition.
+- Further disclosure on the independent board-committee investigation and the chief compliance officer search; progress on the Hugging Face acquisition.
 
 **Medium-term (6-18 months):**
 - Actual custom-ASIC penetration data in inference workloads.
