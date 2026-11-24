@@ -4972,5 +4972,28 @@
       "paypal-2026:tm-dollar-ex-interest",
       "paypal-2026:buyback-capacity"
     ]
+  },
+  {
+    "id": "nvidia-huang-reinstatement-20261123",
+    "date": "2026-11-23",
+    "title": {
+      "zh": "NVIDIA 恢复黄仁勋总裁、CEO 及董事职务",
+      "en": "NVIDIA reinstates Jensen Huang as president, CEO and director"
+    },
+    "detail": {
+      "zh": "11 月 23 日提交的 8-K 载明，NVIDIA 董事会于 11 月 22 日恢复黄仁勋的总裁、CEO 及董事职务，即时生效。Colette M. Kress 继续任 EVP 兼 CFO，Harvey C. Jones 继续任董事会主席。 公司新闻稿称独立董事委员会会继续调查。董事会另设由独立董事组成的国家安全与出口管制委员会，并开始物色首席合规官。复任更新了治理状态，调查仍在进行。 出口管制委员会属于治理背景，本条不提供中国收入或监管规则的新读数。 https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nov23pressrelease.htm https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "en": "The November 23 Form 8-K says NVIDIA’s board reinstated Jensen Huang as president, CEO and director, effective immediately on November 22. Colette M. Kress continues as EVP and CFO, and Harvey C. Jones remains board chair. The press release says the independent board committee will continue its investigation. A separate independent National Security and Export Control Committee was formed, and a chief compliance officer search is beginning. The reinstatement changes the management facts while the investigation remains in progress. The export-control committee supplies governance context. This signal supplies no new observation on China revenue or the rules. https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nov23pressrelease.htm https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "NVDA"
+    ],
+    "reportIds": [
+      "nvidia-2026"
+    ],
+    "scope": "report-monitoring",
+    "monitoringRefs": [
+      "nvidia-2026:china-structural-loss"
+    ]
   }
 ]
