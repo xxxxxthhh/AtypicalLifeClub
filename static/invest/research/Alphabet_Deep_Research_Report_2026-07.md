@@ -1,11 +1,13 @@
 # Alphabet (GOOG) Deep Research Report
 
 Coverage date: 2026-07-31
-Last updated: 2026-11-21
+Last updated: 2026-11-24
 Ticker: NASDAQ: GOOG
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
+
+> **2026-10-28 — Alphabet draws on its at-the-market program in Q3.** Alphabet disclosed on October 28 that its at-the-market program sold 12 million Class A and 24 million Class C shares in Q3, with net proceeds of $4.3 billion and $8.1 billion, respectively, or $12.4 billion combined. Approximately $27.6 billion remained available at September 30. The executed equity issuance meets the ATM clause of the funding monitor. Reported Q3 free cash flow was negative $9.065 billion, while trailing twelve-month free cash flow remained positive at $19.747 billion. The historical 2026-07-30 valuation anchor and the published stance and conviction remain in place. [Source 1](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm) · [Source 2](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm)
 
 ## Executive Summary
 
