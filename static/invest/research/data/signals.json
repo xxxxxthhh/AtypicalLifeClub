@@ -4995,5 +4995,28 @@
     "monitoringRefs": [
       "nvidia-2026:china-structural-loss"
     ]
+  },
+  {
+    "id": "meta-class-c-issuance-pause-20261123",
+    "date": "2026-11-23",
+    "title": {
+      "zh": "Meta 在重组诉讼审前及庭审期间暂停发行 C 类普通股",
+      "en": "Meta pauses Class C common stock issuance during recapitalization proceedings"
+    },
+    "detail": {
+      "zh": "Meta 11 月 23 日提交的 8-K 载明，公司同意在特拉华州衡平法院相关诉讼的审前及庭审期间暂停发行 C 类普通股，包括以股票股息方式发行。庭审计划于 2027 年 4 月 19 日开始。 扎克伯格豁免了股息原定派发期限。公司预计要先派发股息并启动 C 类股交易，之后才会启动此前宣布的按市价发行计划。庭审开始日期不等于发行日期。 发行计划是资本开支监控的融资背景，本条未披露开支金额或指引变化。 https://www.sec.gov/Archives/edgar/data/1326801/000162828026075541/meta-20261118.htm",
+      "en": "Meta’s November 23 Form 8-K says it agreed to suspend Class C common stock issuance, including issuance through a stock dividend, during the pretrial and trial proceedings in Delaware Chancery Court. Trial is scheduled to begin April 19, 2027. Zuckerberg waived the original stock-dividend deadline. Meta expects the stock dividend and commencement of Class C trading to precede launch of the previously announced at-the-market program. The scheduled trial start does not establish an issuance date. The offering is financing context for the capex monitor. This filing gives no change to spending or guidance. https://www.sec.gov/Archives/edgar/data/1326801/000162828026075541/meta-20261118.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "META"
+    ],
+    "reportIds": [
+      "meta-2026"
+    ],
+    "scope": "report-monitoring",
+    "monitoringRefs": [
+      "meta-2026:capex-intensity"
+    ]
   }
 ]
