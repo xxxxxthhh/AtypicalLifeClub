@@ -3,6 +3,162 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "alphabet-2026",
+      "signalId": "alphabet-q3-atm-draw-20261028",
+      "type": "facts",
+      "evidenceDate": "2026-10-28",
+      "title": {
+        "en": "Alphabet draws on its at-the-market program in Q3",
+        "zh": "Alphabet Q3 实际动用按市价发行计划"
+      },
+      "change": {
+        "en": "Alphabet disclosed on October 28 that its at-the-market program sold 12 million Class A and 24 million Class C shares in Q3, with net proceeds of $4.3 billion and $8.1 billion, respectively, or $12.4 billion combined. Approximately $27.6 billion remained available at September 30.",
+        "zh": "Alphabet 10 月 28 日披露，第三季度通过按市价发行计划发行 1,200 万股 A 类股和 2,400 万股 C 类股，分别筹得净额 43 亿及 81 亿美元，合计 124 亿美元。9 月末计划剩余约 276 亿美元额度。"
+      },
+      "meaning": {
+        "en": "The executed equity issuance meets the ATM clause of the funding monitor. Reported Q3 free cash flow was negative $9.065 billion, while trailing twelve-month free cash flow remained positive at $19.747 billion.",
+        "zh": "这是已经发生的股权融资，满足原现金流及融资监控项中的 ATM 分句。公司披露第三季度自由现金流为负 90.65 亿美元，过去十二个月仍为正 197.47 亿美元。"
+      },
+      "next": {
+        "en": "Independently review the funding signal under the published condition and follow the next cash-flow and issuance disclosures.",
+        "zh": "按原条款独立复核融资信号，并跟进下一期现金流与新增发行。"
+      },
+      "id": "research-e92fe2bafd43acfbf6aaa05a6567faec6d756bc1320135eefd22380f4372e976",
+      "publishedDate": "2026-11-24",
+      "company": "Alphabet",
+      "ticker": "GOOG"
+    },
+    {
+      "reportId": "meta-2026",
+      "signalId": "meta-class-c-issuance-pause-20261123",
+      "type": "facts",
+      "evidenceDate": "2026-11-23",
+      "title": {
+        "en": "Meta pauses Class C common stock issuance during recapitalization proceedings",
+        "zh": "Meta 在重组诉讼审前及庭审期间暂停发行 C 类普通股"
+      },
+      "change": {
+        "en": "Meta’s November 23 Form 8-K says it agreed to suspend Class C common stock issuance, including issuance through a stock dividend, during the pretrial and trial proceedings in Delaware Chancery Court. Trial is scheduled to begin April 19, 2027.",
+        "zh": "Meta 11 月 23 日提交的 8-K 载明，公司同意在特拉华州衡平法院相关诉讼的审前及庭审期间暂停发行 C 类普通股，包括以股票股息方式发行。庭审计划于 2027 年 4 月 19 日开始。"
+      },
+      "meaning": {
+        "en": "Zuckerberg waived the original stock-dividend deadline. Meta expects the stock dividend and commencement of Class C trading to precede launch of the previously announced at-the-market program. The scheduled trial start does not establish an issuance date.",
+        "zh": "扎克伯格豁免了股息原定派发期限。公司预计要先派发股息并启动 C 类股交易，之后才会启动此前宣布的按市价发行计划。庭审开始日期不等于发行日期。"
+      },
+      "next": {
+        "en": "Watch for the case outcome, the waiver’s expiration and any new filing on the dividend or offering.",
+        "zh": "关注案件结果、豁免到期及公司对股息和发行计划的新公告。"
+      },
+      "id": "research-4070971c9d09dd8751bfe3567691b09f7979cf2c1b41a521fb5457475f733c74",
+      "publishedDate": "2026-11-24",
+      "company": "Meta Platforms",
+      "ticker": "META"
+    },
+    {
+      "reportId": "nvidia-2026",
+      "signalId": "nvidia-huang-reinstatement-20261123",
+      "type": "facts",
+      "evidenceDate": "2026-11-23",
+      "title": {
+        "en": "NVIDIA reinstates Jensen Huang as president, CEO and director",
+        "zh": "NVIDIA 恢复黄仁勋总裁、CEO 及董事职务"
+      },
+      "change": {
+        "en": "The November 23 Form 8-K says NVIDIA’s board reinstated Jensen Huang as president, CEO and director, effective immediately on November 22. Colette M. Kress continues as EVP and CFO, and Harvey C. Jones remains board chair.",
+        "zh": "11 月 23 日提交的 8-K 载明，NVIDIA 董事会于 11 月 22 日恢复黄仁勋的总裁、CEO 及董事职务，即时生效。Colette M. Kress 继续任 EVP 兼 CFO，Harvey C. Jones 继续任董事会主席。"
+      },
+      "meaning": {
+        "en": "The press release says the independent board committee will continue its investigation. A separate independent National Security and Export Control Committee was formed, and a chief compliance officer search is beginning. The reinstatement changes the management facts while the investigation remains in progress.",
+        "zh": "公司新闻稿称独立董事委员会会继续调查。董事会另设由独立董事组成的国家安全与出口管制委员会，并开始物色首席合规官。复任更新了治理状态，调查仍在进行。"
+      },
+      "next": {
+        "en": "Watch for the independent committee’s findings and the appointment of a chief compliance officer.",
+        "zh": "跟进独立委员会调查结论以及首席合规官任命。"
+      },
+      "id": "research-2df0925430f3e4ec4495a19b998059ba4b3db3fd09446b77a917702619d09216",
+      "publishedDate": "2026-11-24",
+      "company": "NVIDIA",
+      "ticker": "NVDA"
+    },
+    {
+      "reportId": "onds-2026",
+      "signalId": "ondas-q3-cover-share-growth-20261112",
+      "type": "facts",
+      "evidenceDate": "2026-11-12",
+      "title": {
+        "en": "Ondas shares outstanding rise 60.52% year over year",
+        "zh": "Ondas 同日口径在外股数同比增加 60.52%"
+      },
+      "change": {
+        "en": "The two Form 10-Q covers show 368,459,664 and 591,442,459 common shares outstanding on November 10, 2025 and November 10, 2026 respectively. The calculated 60.52% increase exceeds the monitor’s 25% threshold.",
+        "zh": "两份 10-Q 封面分别披露 2025 年和 2026 年 11 月 10 日在外普通股 368,459,664 股和 591,442,459 股。同比增加 60.52%，超过在外股数监控项的 25% 阈值。"
+      },
+      "meaning": {
+        "en": "The 2026 Form 10-Q lists 44,999,998 deferred DZYNE consideration shares for delivery on January 4, 2027. They are excluded from the comparison, which uses the actual cover-page share counts.",
+        "zh": "2026 年 10-Q 将 44,999,998 股 DZYNE 递延对价列为 2027 年 1 月 4 日待交付，该笔未计入上述在外股数。股数为封面实报口径。"
+      },
+      "next": {
+        "en": "Independently review the funding and share-count condition, then follow the deferred delivery and the next disclosed share count.",
+        "zh": "独立复核融资和股数条件，再跟进递延对价交付与最新总股数。"
+      },
+      "id": "research-e6c7e7332914f4492aeaa750cda8dfce7e3badb331fe6f57e6dbee81eb7c7c4a",
+      "publishedDate": "2026-11-24",
+      "company": "Ondas Inc.",
+      "ticker": "ONDS"
+    },
+    {
+      "reportId": "onds-2026",
+      "signalId": "ondas-shareholder-letter-capital-discipline-20261123",
+      "type": "facts",
+      "evidenceDate": "2026-11-23",
+      "title": {
+        "en": "Ondas reaffirms revenue targets and plans to slow acquisitions",
+        "zh": "Ondas 股东信重申营收目标并拟放缓收购"
+      },
+      "change": {
+        "en": "Ondas’s November 23 shareholder letter reaffirmed revenue targets of at least $550 million for FY2026 and an initial $1.1 billion for FY2027, excluding additional acquisitions. Management intends to substantially slow new acquisitions, raise approval thresholds and prioritize delivery, integration and working capital.",
+        "zh": "Ondas 11 月 23 日股东信重申 FY2026 营收至少 5.50 亿美元和 FY2027 初步目标至少 11 亿美元，均不含新增收购。管理层称拟大幅放缓新增收购，提高资本投放门槛，优先投入交付、整合和营运资本。"
+      },
+      "meaning": {
+        "en": "The new disclosure is management’s intended capital-allocation priority. The revenue targets carry over from the prior release. The letter contains no Q4 actuals establishing operating leverage.",
+        "zh": "新增信息是管理层提出的资本配置重点。营收目标延续前次披露，股东信尚未提供证明 Q4 经营杠杆改善的实绩。"
+      },
+      "next": {
+        "en": "Test execution against actual Q4 delivery, cash flow and adjusted cash operating expenses as a share of revenue.",
+        "zh": "用 Q4 实际交付、现金流和调整后现金经营费用率检验执行。"
+      },
+      "id": "research-9aa1cbd7bb3961dc78e0abf8578e34151efccbb60a945f7d13e1ba86d9f56e84",
+      "publishedDate": "2026-11-24",
+      "company": "Ondas Inc.",
+      "ticker": "ONDS"
+    },
+    {
+      "reportId": "paypal-2026",
+      "signalId": "paypal-cfo-transition-20261120",
+      "type": "facts",
+      "evidenceDate": "2026-11-20",
+      "title": {
+        "en": "PayPal appoints Claire Bramley as its next CFO",
+        "zh": "PayPal 任命 Claire Bramley 为下一任财务长"
+      },
+      "change": {
+        "en": "PayPal’s November 20 Form 8-K says the board appointed Claire Bramley as EVP and CFO effective February 3, 2027. Jamie Miller will step down as EVP, chief financial and operating officer effective February 2.",
+        "zh": "PayPal 11 月 20 日的 8-K 载明，董事会任命 Claire Bramley 为执行副总裁兼 CFO，2027 年 2 月 3 日生效。Jamie Miller 将于 2 月 2 日卸任执行副总裁、财务长兼营运长。"
+      },
+      "meaning": {
+        "en": "The release gives February 1 as Bramley’s start date. The 8-K says Miller’s departure did not result from a disagreement over reported financial statements or related financial results.",
+        "zh": "公告所说的 2 月 1 日是 Bramley 到岗日。8-K 称 Miller 离任并非因双方对报告财务报表或相关业绩有分歧。"
+      },
+      "next": {
+        "en": "Follow post-transition financial disclosures and the next annual outlook.",
+        "zh": "跟进交接后财务披露与最新年度指引。"
+      },
+      "id": "research-f2ec3ad258d7a46b29cda8d4e7fa8a26cdc321eea9aadc40c3b74d02878c39da",
+      "publishedDate": "2026-11-24",
+      "company": "PayPal Holdings Inc.",
+      "ticker": "PYPL"
+    },
+    {
       "reportId": "cerebras-2026",
       "signalId": "cerebras-q3-dilution-and-lockup-20261112",
       "type": "facts",
