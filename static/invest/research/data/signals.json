@@ -5088,5 +5088,28 @@
     "monitoringRefs": [
       "alphabet-2026:fcf-and-funding-mix"
     ]
+  },
+  {
+    "id": "ondas-q3-cover-share-growth-20261112",
+    "date": "2026-11-12",
+    "title": {
+      "zh": "Ondas 同日口径在外股数同比增加 60.52%",
+      "en": "Ondas shares outstanding rise 60.52% year over year"
+    },
+    "detail": {
+      "zh": "两份 10-Q 封面分别披露 2025 年和 2026 年 11 月 10 日在外普通股 368,459,664 股和 591,442,459 股。同比增加 60.52%，超过在外股数监控项的 25% 阈值。 2026 年 10-Q 将 44,999,998 股 DZYNE 递延对价列为 2027 年 1 月 4 日待交付，该笔未计入上述在外股数。股数为封面实报口径。 https://www.sec.gov/Archives/edgar/data/1646188/000119312526458517/onds-20260930.htm https://www.sec.gov/Archives/edgar/data/1646188/000121390025109604/ea0264505-10q_ondas.htm",
+      "en": "The two Form 10-Q covers show 368,459,664 and 591,442,459 common shares outstanding on November 10, 2025 and November 10, 2026 respectively. The calculated 60.52% increase exceeds the monitor’s 25% threshold. The 2026 Form 10-Q lists 44,999,998 deferred DZYNE consideration shares for delivery on January 4, 2027. They are excluded from the comparison, which uses the actual cover-page share counts. https://www.sec.gov/Archives/edgar/data/1646188/000119312526458517/onds-20260930.htm https://www.sec.gov/Archives/edgar/data/1646188/000121390025109604/ea0264505-10q_ondas.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "ONDS"
+    ],
+    "reportIds": [
+      "onds-2026"
+    ],
+    "scope": "report-monitoring",
+    "monitoringRefs": [
+      "onds-2026:share-dilution"
+    ]
   }
 ]
