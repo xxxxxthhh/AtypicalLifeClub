@@ -5018,5 +5018,29 @@
     "monitoringRefs": [
       "meta-2026:capex-intensity"
     ]
+  },
+  {
+    "id": "ondas-shareholder-letter-capital-discipline-20261123",
+    "date": "2026-11-23",
+    "title": {
+      "zh": "Ondas 股东信重申营收目标并拟放缓收购",
+      "en": "Ondas reaffirms revenue targets and plans to slow acquisitions"
+    },
+    "detail": {
+      "zh": "Ondas 11 月 23 日股东信重申 FY2026 营收至少 5.50 亿美元和 FY2027 初步目标至少 11 亿美元，均不含新增收购。管理层称拟大幅放缓新增收购，提高资本投放门槛，优先投入交付、整合和营运资本。 新增信息是管理层提出的资本配置重点。营收目标延续前次披露，股东信尚未提供证明 Q4 经营杠杆改善的实绩。 https://www.sec.gov/Archives/edgar/data/1646188/000121390026122950/ea031321601ex99-1.htm https://www.sec.gov/Archives/edgar/data/1646188/000121390026122950/ea0313216-8k_ondas.htm",
+      "en": "Ondas’s November 23 shareholder letter reaffirmed revenue targets of at least $550 million for FY2026 and an initial $1.1 billion for FY2027, excluding additional acquisitions. Management intends to substantially slow new acquisitions, raise approval thresholds and prioritize delivery, integration and working capital. The new disclosure is management’s intended capital-allocation priority. The revenue targets carry over from the prior release. The letter contains no Q4 actuals establishing operating leverage. https://www.sec.gov/Archives/edgar/data/1646188/000121390026122950/ea031321601ex99-1.htm https://www.sec.gov/Archives/edgar/data/1646188/000121390026122950/ea0313216-8k_ondas.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "ONDS"
+    ],
+    "reportIds": [
+      "onds-2026"
+    ],
+    "scope": "report-monitoring",
+    "monitoringRefs": [
+      "onds-2026:backlog-conversion",
+      "onds-2026:operating-leverage"
+    ]
   }
 ]
