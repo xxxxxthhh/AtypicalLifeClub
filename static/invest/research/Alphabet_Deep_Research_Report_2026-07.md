@@ -7,6 +7,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 ---
 
+> **2026-11-24 Factual update · Alphabet closes C$6 billion senior notes offering.** The Form 8-K lists C$2.00 billion at 4.100% due 2029, C$1.25 billion at 4.800% due 2034, C$1.50 billion at 5.325% due 2038, and C$1.25 billion at 6.000% due 2066. These are principal amounts in Canadian dollars. The notes add a debt financing event alongside the separately reported Q3 ATM equity issuance. The published stance and conviction are unchanged. The report retains its historical valuation basis. [Form 8-K](https://www.sec.gov/Archives/edgar/data/1652044/000119312526475973/d91615d8k.htm)
+
 > **2026-10-28 — Alphabet draws on its at-the-market program in Q3.** Alphabet disclosed on October 28 that its at-the-market program sold 12 million Class A and 24 million Class C shares in Q3, with net proceeds of $4.3 billion and $8.1 billion, respectively, or $12.4 billion combined. Approximately $27.6 billion remained available at September 30. The executed equity issuance meets the ATM clause of the funding monitor. Reported Q3 free cash flow was negative $9.065 billion, while trailing twelve-month free cash flow remained positive at $19.747 billion. The historical 2026-07-30 valuation anchor and the published stance and conviction remain in place. [Source 1](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm) · [Source 2](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm)
 
 ## Executive Summary
