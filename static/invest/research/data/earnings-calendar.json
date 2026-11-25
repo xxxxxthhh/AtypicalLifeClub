@@ -889,13 +889,14 @@
     {
       "reportId": "aehr-2026",
       "company": "Aehr Test Systems",
-      "expectedDate": null,
-      "precision": "unknown",
-      "status": "unknown",
-      "session": "not-applicable",
-      "sourceUrl": null,
-      "sourceType": "none",
-      "verifiedAt": "2026-11-05"
+      "expectedDate": "2026-11-02",
+      "precision": "day",
+      "status": "stale",
+      "session": "after-close",
+      "sourceUrl": "https://www.aehr.com/2026/11/aehr-test-systems-reports-record-first-quarter-fiscal-2027-revenue-of-33-0-million-raises-full-year-revenue-outlook-to-150-million-triple-fiscal-2026-revenue/",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-11-25",
+      "fiscalPeriod": "Q1 FY2027"
     }
   ]
 }
