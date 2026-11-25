@@ -5111,5 +5111,28 @@
     "monitoringRefs": [
       "onds-2026:share-dilution"
     ]
+  },
+  {
+    "id": "alphabet-cad-senior-notes-20261124",
+    "date": "2026-11-24",
+    "title": {
+      "zh": "Alphabet 完成 60 亿加元优先票据发行",
+      "en": "Alphabet closes C$6 billion senior notes offering"
+    },
+    "detail": {
+      "zh": "Alphabet 的 Form 8-K 披露，11 月 24 日完成 60 亿加元优先票据发行。四批本金分别为 20 亿加元（4.100%，2029 年到期）、12.5 亿加元（4.800%，2034 年到期）、15 亿加元（5.325%，2038 年到期）和 12.5 亿加元（6.000%，2066 年到期）。本次票据计入债务融资观察，Q3 按市价发行股权的读数单独保留。https://www.sec.gov/Archives/edgar/data/1652044/000119312526475973/d91615d8k.htm",
+      "en": "Alphabet's Form 8-K reports the November 24 closing of C$6 billion of senior notes: C$2.00 billion at 4.100% due 2029, C$1.25 billion at 4.800% due 2034, C$1.50 billion at 5.325% due 2038, and C$1.25 billion at 6.000% due 2066. The notes add a debt financing event to the funding-mix monitor. The Q3 ATM equity issuance remains a separate reading. https://www.sec.gov/Archives/edgar/data/1652044/000119312526475973/d91615d8k.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "GOOG"
+    ],
+    "reportIds": [
+      "alphabet-2026"
+    ],
+    "scope": "report-monitoring",
+    "monitoringRefs": [
+      "alphabet-2026:fcf-and-funding-mix"
+    ]
   }
 ]
