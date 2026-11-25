@@ -4,6 +4,32 @@
   "entries": [
     {
       "reportId": "alphabet-2026",
+      "signalId": "alphabet-cad-senior-notes-20261124",
+      "type": "facts",
+      "evidenceDate": "2026-11-24",
+      "title": {
+        "en": "Alphabet closes C$6 billion senior notes offering",
+        "zh": "Alphabet 完成 60 亿加元优先票据发行"
+      },
+      "change": {
+        "en": "Alphabet closed four tranches of senior notes totaling C$6 billion on November 24, with maturities in 2029, 2034, 2038 and 2066.",
+        "zh": "Alphabet 于 11 月 24 日完成四档合计 60 亿加元的优先票据发行，到期年份为 2029、2034、2038 和 2066。"
+      },
+      "meaning": {
+        "en": "The transaction adds Canadian-dollar debt financing. The Q3 ATM equity issuance remains a separate funding observation.",
+        "zh": "这次融资增加了加元债务。Q3 的 ATM 股权发行仍按原披露单独跟踪。"
+      },
+      "next": {
+        "en": "Check how the next filing reflects the notes in debt balances, financing cash flow and interest expense.",
+        "zh": "在下一份财报中核对发行计入债务余额、融资现金流及利息成本的情况。"
+      },
+      "id": "research-6b440daf9db87576696f540fcf01841751e223a3518a91cd3b78241b580c7b2c",
+      "publishedDate": "2026-11-25",
+      "company": "Alphabet",
+      "ticker": "GOOG"
+    },
+    {
+      "reportId": "alphabet-2026",
       "signalId": "alphabet-q3-atm-draw-20261028",
       "type": "facts",
       "evidenceDate": "2026-10-28",
