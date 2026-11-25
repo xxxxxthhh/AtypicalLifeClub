@@ -855,11 +855,11 @@
       "company": "Lumentum",
       "expectedDate": "2026-11-02",
       "precision": "day",
-      "status": "recorded",
+      "status": "stale",
       "session": "unspecified",
-      "sourceUrl": "https://atypicallife.club/invest/research/Lumentum_Deep_Research_Report_2026-10.md",
-      "sourceType": "report-body",
-      "verifiedAt": "2026-11-03",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026068655/lite_ex991xq1fy27.htm",
+      "sourceType": "issuer-ir",
+      "verifiedAt": "2026-11-25",
       "fiscalPeriod": "Q1 FY2027"
     },
     {
