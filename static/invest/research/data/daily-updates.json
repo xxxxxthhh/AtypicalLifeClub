@@ -3,6 +3,58 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "jinpan-2026",
+      "signalId": "jinpan-q3-2026-aidc-cash-flow-20261014",
+      "type": "facts",
+      "evidenceDate": "2026-10-14",
+      "title": {
+        "en": "Jinpan Q3: data-center revenue rises, cash conversion remains under review",
+        "zh": "金盘科技三季报：数据中心收入增长，现金转化仍待验证"
+      },
+      "change": {
+        "en": "Jinpan’s Q3 data-center revenue reached RMB 1.133B, up 179.41% year over year. Nine-month operating cash flow was RMB 90.74M, or 16.68% of profit attributable to shareholders.",
+        "zh": "金盘第三季度数据中心营收 11.33 亿元，同比 +179.41%。前三季度经营现金流净额 9,074.36 万元，约为归母净利润的 16.68%。"
+      },
+      "meaning": {
+        "en": "Data-center sales are being recognized. The filing does not separately identify SST commercialization or provide the comparable receivables evidence needed to grade collections.",
+        "zh": "数据中心业务已确认收入。季报未单列 SST 商业化，也缺同基期应收证据，暂不能判定回款质量。"
+      },
+      "next": {
+        "en": "Check the next filing for SST order fulfillment, recognized sales and comparable receivables or collections.",
+        "zh": "查下一份发行人文件中的 SST 交付、确认收入及可比应收或回款。"
+      },
+      "id": "research-a307885ca6aad299cce8b67b4f46e494ea1d8e0b0ceb2f9bc744f4071717c2eb",
+      "publishedDate": "2026-11-26",
+      "company": "金盘科技",
+      "ticker": "688676.SS"
+    },
+    {
+      "reportId": "tempus-ai-2026",
+      "signalId": "tempus-personalis-cash-election-credit-20261125",
+      "type": "facts",
+      "evidenceDate": "2026-11-25",
+      "title": {
+        "en": "Tempus discloses Personalis cash election and credit commitments",
+        "zh": "Tempus 披露 Personalis 现金对价和信贷承诺"
+      },
+      "change": {
+        "en": "Tempus elected about $600M in cash and expects roughly $900M in stock for Personalis. The new agreement provides $385M in term loan commitments and $115M in revolving commitments.",
+        "zh": "Tempus 选择以约 6 亿美元现金支付部分 Personalis 对价，另预计支付约 9 亿美元股票，并签订 3.85 亿美元定期贷款及 1.15 亿美元循环承诺。"
+      },
+      "meaning": {
+        "en": "The election fixes a proposed cash component and adds conditional financing capacity. Funded debt, the closing cash position and the final shares issued still need verification.",
+        "zh": "披露明确了拟用现金和有条件的信贷额度，实际借款、交割现金及发行股数仍待核实。"
+      },
+      "next": {
+        "en": "Check the stockholder approval and closing disclosures for actual cash, debt drawings and issued shares.",
+        "zh": "查股东批准和交割文件中的实付现金、提款额及实际发股数。"
+      },
+      "id": "research-48a92cd795a5883a1eef7faf7dab78337251b4558e35bc6972d156de01aebe98",
+      "publishedDate": "2026-11-26",
+      "company": "Tempus AI",
+      "ticker": "TEM"
+    },
+    {
       "reportId": "alphabet-2026",
       "signalId": "alphabet-cad-senior-notes-20261124",
       "type": "facts",
