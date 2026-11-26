@@ -3,6 +3,32 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "micron-2026",
+      "signalId": "micron-fy2026-10k-sca-deposits-20261009",
+      "type": "facts",
+      "evidenceDate": "2026-10-09",
+      "title": {
+        "en": "Micron discloses $12.75B in strategic customer deposits",
+        "zh": "美光披露战略客户协议现金押金 127.5 亿美元"
+      },
+      "change": {
+        "en": "Micron’s FY2026 filing reports $12.75B of realized cash deposits under multiyear strategic customer agreements, with nearly all scheduled for repayment in 2029–2031.",
+        "zh": "美光 FY2026 年报披露多年期战略客户协议实收现金押金 127.5 亿美元，几乎全部预计在 2029–2031 年返还。"
+      },
+      "meaning": {
+        "en": "The filing identifies a financing cash inflow and describes take-or-pay pricing terms. The realized SCA revenue share and margin effect remain open.",
+        "zh": "年报确认了融资现金流入，并披露照付不议及定价条款。协议实际收入占比和对毛利率的影响仍待核实。"
+      },
+      "next": {
+        "en": "Check future filings for realized SCA revenue and margin data and any customer or regulatory pushback.",
+        "zh": "继续核查后续文件中的协议实际收入与毛利率，以及客户或监管方是否反弹。"
+      },
+      "id": "research-973d3d33a8546399e1010722e7924b1b6e6e41fd573e15a9002b68015c09e8fc",
+      "publishedDate": "2026-11-27",
+      "company": "Micron Technology",
+      "ticker": "MU"
+    },
+    {
       "reportId": "meta-2026",
       "signalId": "meta-us-teen-product-changes-20261022",
       "type": "facts",

@@ -5324,29 +5324,6 @@
     ]
   },
   {
-    "id": "meta-us-teen-product-changes-20261022",
-    "date": "2026-10-22",
-    "scope": "report-monitoring",
-    "title": {
-      "en": "Meta says U.S. teen mental health agreement includes product changes",
-      "zh": "Meta 披露美国青少年心理健康协议包含产品改动"
-    },
-    "detail": {
-      "en": "Meta’s Q3 10-Q says its August 2026 agreement with state attorneys general over teen mental health includes changes to Facebook and Instagram features for U.S. users under 18. Meta says an independent auditor will report to the states annually on compliance for five years. The issuer’s filing identifies concrete youth-product obligations beyond a litigation reserve. The filing does not specify the full set of feature changes or confirm that they have been rolled out. Check the underlying agreement or regulator materials for the exact scope, effective dates and implementation. https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
-      "zh": "Meta 在 Q3 10-Q 披露，2026 年 8 月与美国各司法辖区总检察长达成的青少年心理健康协议包含面向美国未满 18 岁用户的 Facebook 和 Instagram 功能改动。Meta 称独立审计人将连续五年每年向各州报告合规情况。 发行人申报披露了具体的青少年产品整改义务。完整功能清单、执行时间及落地情况仍需协议原文和后续披露。 取得协议或监管原文后，核对整改细项、生效日期和执行情况。 https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm"
-    },
-    "crossChecks": [],
-    "tickers": [
-      "META"
-    ],
-    "reportIds": [
-      "meta-2026"
-    ],
-    "monitoringRefs": [
-      "meta-2026:regulatory-social-risk"
-    ]
-  },
-  {
     "id": "micron-fy2026-10k-sca-deposits-20261009",
     "date": "2026-10-09",
     "scope": "report-monitoring",
@@ -5367,6 +5344,29 @@
     ],
     "monitoringRefs": [
       "micron-2026:strategic-customer-agreements"
+    ]
+  },
+  {
+    "id": "meta-us-teen-product-changes-20261022",
+    "date": "2026-10-22",
+    "scope": "report-monitoring",
+    "title": {
+      "en": "Meta says U.S. teen mental health agreement includes product changes",
+      "zh": "Meta 披露美国青少年心理健康协议包含产品改动"
+    },
+    "detail": {
+      "en": "Meta’s Q3 10-Q says its August 2026 agreement with state attorneys general over teen mental health includes changes to Facebook and Instagram features for U.S. users under 18. Meta says an independent auditor will report to the states annually on compliance for five years. The issuer’s filing identifies concrete youth-product obligations beyond a litigation reserve. The filing does not specify the full set of feature changes or confirm that they have been rolled out. Check the underlying agreement or regulator materials for the exact scope, effective dates and implementation. https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+      "zh": "Meta 在 Q3 10-Q 披露，2026 年 8 月与美国各司法辖区总检察长达成的青少年心理健康协议包含面向美国未满 18 岁用户的 Facebook 和 Instagram 功能改动。Meta 称独立审计人将连续五年每年向各州报告合规情况。 发行人申报披露了具体的青少年产品整改义务。完整功能清单、执行时间及落地情况仍需协议原文和后续披露。 取得协议或监管原文后，核对整改细项、生效日期和执行情况。 https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "META"
+    ],
+    "reportIds": [
+      "meta-2026"
+    ],
+    "monitoringRefs": [
+      "meta-2026:regulatory-social-risk"
     ]
   }
 ]
