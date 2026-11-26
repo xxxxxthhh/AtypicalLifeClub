@@ -5134,5 +5134,28 @@
     "monitoringRefs": [
       "alphabet-2026:fcf-and-funding-mix"
     ]
+  },
+  {
+    "id": "tempus-personalis-cash-election-credit-20261125",
+    "date": "2026-11-25",
+    "title": {
+      "zh": "Tempus 披露 Personalis 现金对价和信贷承诺",
+      "en": "Tempus discloses Personalis cash election and credit commitments"
+    },
+    "detail": {
+      "zh": "11 月 25 日 8-K：Tempus 选择支付约 6 亿美元现金，另预计交付约 9 亿美元 A 类普通股，并签署 3.85 亿美元定期贷款及 1.15 亿美元循环信贷承诺。实际提款、最终发行股数及交割净债务待确认。 现金选择于 11 月 24 日作出，金额可按协议下调。初次提款须满足交割相关条件。 https://www.sec.gov/Archives/edgar/data/1717115/000119312526478564/d51820d8k.htm",
+      "en": "November 25 Form 8-K: Tempus elected approximately $600M in cash consideration and expects approximately $900M in Class A common stock. Its new credit agreement provides $385M in term loan commitments and $115M in revolving commitments. Actual funding, final share issuance and closing net debt remain to be confirmed. The election was made on November 24 and the cash amount can be reduced under the agreement. Initial funding is subject to closing-related conditions. https://www.sec.gov/Archives/edgar/data/1717115/000119312526478564/d51820d8k.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "TEM"
+    ],
+    "reportIds": [
+      "tempus-ai-2026"
+    ],
+    "scope": "report-monitoring",
+    "monitoringRefs": [
+      "tempus-ai-2026:personalis-closing-liquidity"
+    ]
   }
 ]
