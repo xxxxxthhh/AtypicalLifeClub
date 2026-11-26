@@ -5299,5 +5299,28 @@
       "spotify-2026:q3-margin-cash-flow",
       "spotify-2026:q4-operating-income-guide"
     ]
+  },
+  {
+    "id": "micron-fy2026-10k-us-wafer-timeline-20261009",
+    "date": "2026-10-09",
+    "scope": "report-monitoring",
+    "title": {
+      "en": "Micron’s FY2026 10-K gives first-wafer timelines for three U.S. fabs",
+      "zh": "美光 FY2026 10-K 披露美国三座晶圆厂的首批产出时间"
+    },
+    "detail": {
+      "en": "Micron projects first DRAM wafer output at its first Idaho fab in mid-calendar 2027, initial wafer output at its second Idaho fab by late calendar 2028, and initial wafer output at its first New York fab in calendar 2030. These are projected first-wafer dates. Micron’s FY2026 filing describes AI memory and storage demand growing faster than industry supply. The projections cannot yet establish the rate of saleable bit output or the effect of U.S. and Korean expansion on pricing. Compare actual saleable bit shipments and ramp milestones with AI demand growth and comparable contract prices. https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
+      "zh": "美光预计爱达荷州第一座厂于 2027 年年中产出首批 DRAM 晶圆，第二座厂于 2028 年底前产出首批晶圆，纽约州第一座厂于 2030 年产出首批晶圆。 这些是首批晶圆的计划时间。美光在 FY2026 年报中称 AI 内存及存储需求增速高于行业供给。上述计划尚不足以判断可售 bit 供给增速或美韩扩产对价格的影响。 后续将实际可售 bit 出货、爬坡里程碑与 AI 需求增速及可比合约价格对照。 https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "MU"
+    ],
+    "reportIds": [
+      "micron-2026"
+    ],
+    "monitoringRefs": [
+      "micron-2026:capex-supply-response"
+    ]
   }
 ]
