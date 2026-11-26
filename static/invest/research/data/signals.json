@@ -5273,5 +5273,31 @@
     "monitoringRefs": [
       "reddit-2026:buyback-execution"
     ]
+  },
+  {
+    "id": "spotify-q3-2026-monitoring-correction-20261022",
+    "date": "2026-10-22",
+    "scope": "report-monitoring",
+    "title": {
+      "en": "Spotify Q3 monitoring correction and follow-up",
+      "zh": "Spotify Q3 监控勘误与补充"
+    },
+    "detail": {
+      "en": "Spotify’s Q3 shareholder update reports €482M of Ad-Supported revenue, up 10% YoY and 9% at constant currency. The 14% previously cited in spotify-q3-2026-kpis-margin-cash-20261022 applies to total revenue. Ad-Supported gross margin was 18.7%, up 105 bps YoY. Premium net additions were 7M in Q2 and 6M in Q3, and Q3 Premium ARPU was €4.95, up 7.5% at constant currency. Q3 gross margin was 33.0%, operating income €672M and LTM FCF €3.190B. Q4 operating-income guidance was €820M. Q4 segment figures are needed for the combined H2 advertising assessment. The monitor gives no tolerance for the approximate €3.3B LTM FCF threshold. https://www.sec.gov/Archives/edgar/data/1639920/000114036126040435/ef20084028_ex99-1.htm https://www.sec.gov/Archives/edgar/data/1639920/000114036126040435/0001140361-26-040435.txt https://www.sec.gov/Archives/edgar/data/1639920/000114036126031044/0001140361-26-031044.txt",
+      "zh": "Spotify Q3 股东更新披露广告支持收入 €482M，同比增 10%，恒定汇率增 9%。旧信号 spotify-q3-2026-kpis-margin-cash-20261022 所引的 14% 是总收入的恒定汇率增速。广告支持毛利率 18.7%，同比提高 105 个基点。Premium Q2、Q3 分别净增 700 万和 600 万，Q3 ARPU 为 €4.95，恒定汇率同比增 7.5%。Q3 毛利率 33.0%、营业利润 €672M、LTM 自由现金流 €3.190B。Q4 营业利润指引 €820M。H2 广告条件待 Q4 分部数据，LTM 自由现金流约 €3.3B 的触发线仍待明确容差。https://www.sec.gov/Archives/edgar/data/1639920/000114036126040435/ef20084028_ex99-1.htm https://www.sec.gov/Archives/edgar/data/1639920/000114036126040435/0001140361-26-040435.txt https://www.sec.gov/Archives/edgar/data/1639920/000114036126031044/0001140361-26-031044.txt"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "SPOT"
+    ],
+    "reportIds": [
+      "spotify-2026"
+    ],
+    "monitoringRefs": [
+      "spotify-2026:ad-supported-reacceleration",
+      "spotify-2026:premium-pricing-churn",
+      "spotify-2026:q3-margin-cash-flow",
+      "spotify-2026:q4-operating-income-guide"
+    ]
   }
 ]
