@@ -3,6 +3,84 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "kioxia-2026",
+      "signalId": "kioxia-q2-full-year-guidance-20261030",
+      "type": "facts",
+      "evidenceDate": "2026-10-30",
+      "title": {
+        "en": "Kioxia’s Q2 actuals exceed implied guidance while full-year guidance stays absent",
+        "zh": "铠侠 Q2 实绩超过隐含指引，全年指引持续缺席"
+      },
+      "change": {
+        "en": "Q2 revenue and attributable profit exceeded the implied guide by ¥90.0B and ¥85.7B. Full-year guidance remained absent.",
+        "zh": "Q2 营收和归母净利润较隐含指引分别高 900 亿和 857 亿日元，全年指引持续缺席。"
+      },
+      "meaning": {
+        "en": "The issuer continued to withhold full-year guidance even though Q2 exceeded the guide; evaluation of the original alternative trigger is referred to Mode B.",
+        "zh": "尽管 Q2 实绩超出隐含指引，发行人仍未提供全年指引；原监测条件的评估交由 Mode B。"
+      },
+      "next": {
+        "en": "Check the next filing for any change in full-year disclosure policy and review investment implications separately.",
+        "zh": "核查下一份财报是否改变全年指引披露政策，并另行复核投资含义。"
+      },
+      "id": "research-521aa698f194aa6e3c4a5165c790529ec0bf26e611c8d2f260f4327f05310a30",
+      "publishedDate": "2026-11-26",
+      "company": "Kioxia Holdings",
+      "ticker": "285A.T"
+    },
+    {
+      "reportId": "kioxia-2026",
+      "signalId": "kioxia-shareholder-return-policy-20261030",
+      "type": "facts",
+      "evidenceDate": "2026-10-30",
+      "title": {
+        "en": "Kioxia adopts a formal shareholder return policy",
+        "zh": "铠侠通过正式股东回报方针"
+      },
+      "change": {
+        "en": "Kioxia approved progressive dividends and flexible repurchases, following execution of nearly the full ¥800B original buyback ceiling.",
+        "zh": "铠侠正式批准渐进式分红和灵活回购；已有回购执行金额几乎达到 8,000 亿日元上限。"
+      },
+      "meaning": {
+        "en": "The board resolution answers the previously open dividend-policy question. It establishes a framework for future allocation.",
+        "zh": "董事会决议确认正式分红方针，明确未来资金分配框架。"
+      },
+      "next": {
+        "en": "Verify payment of the first interim shareholder dividend and watch for a separate additional buyback resolution.",
+        "zh": "核实首次中期股息支付，并跟踪是否另行授权新增回购。"
+      },
+      "id": "research-35b43778037010ece3936962c4f77d99146eaed0aff38361fcf1e37f320ebc4c",
+      "publishedDate": "2026-11-26",
+      "company": "Kioxia Holdings",
+      "ticker": "285A.T"
+    },
+    {
+      "reportId": "kla-2026",
+      "signalId": "kla-fcf-capital-return-20261105",
+      "type": "facts",
+      "evidenceDate": "2026-11-05",
+      "title": {
+        "en": "KLA quarterly free cash flow covers cash dividends and repurchases",
+        "zh": "KLA 本季自由现金流覆盖现金分红和回购"
+      },
+      "change": {
+        "en": "Cash dividends and buybacks totaled $1,240.9M against $1,336.2M of quarterly FCF. KLA declared the next regular dividend at $0.23 per share.",
+        "zh": "本季现金分红和回购合计 12.41 亿美元，自由现金流为 13.36 亿美元。KLA 宣告下次常规股息每股 0.23 美元。"
+      },
+      "meaning": {
+        "en": "Quarterly FCF covered capital returns with about $95.3M remaining. Process-control revenue also grew in the quarter.",
+        "zh": "本季自由现金流覆盖资本回报，余约 0.95 亿美元，过程控制业务营收同期增长。"
+      },
+      "next": {
+        "en": "Check the next filing for cash-flow coverage of distributions and whether process-control demand stays resilient.",
+        "zh": "用后续财报复核现金流对分红和回购的覆盖，并跟踪过程控制需求。"
+      },
+      "id": "research-4a950c0aef762a5f5b7a32c9e0d363df419344188d46deb0e18c309ac57053bf",
+      "publishedDate": "2026-11-26",
+      "company": "KLA",
+      "ticker": "KLAC"
+    },
+    {
       "reportId": "jinpan-2026",
       "signalId": "jinpan-q3-2026-aidc-cash-flow-20261014",
       "type": "facts",
