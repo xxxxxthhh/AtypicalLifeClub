@@ -1,13 +1,15 @@
 # Micron Technology (MU) Deep Research Report
 
 Coverage date: 2026-07-04
-Last updated: 2026-11-21
+Last updated: 2026-11-27
 Ticker: NASDAQ: MU
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
 ## Executive Summary
+
+> **2026-10-09 · Micron’s FY2026 10-K gives first-wafer timelines for three U.S. fabs** Micron projects first DRAM wafer output at its first Idaho fab in mid-calendar 2027, initial wafer output at its second Idaho fab by late calendar 2028, and initial wafer output at its first New York fab in calendar 2030. These are projected first-wafer dates. Micron’s FY2026 filing describes AI memory and storage demand growing faster than industry supply. The projections cannot yet establish the rate of saleable bit output or the effect of U.S. and Korean expansion on pricing. [SEC source 1](https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm)
 
 > **2026-09-30 Factual update · Micron beat fiscal Q4 guidance with $54.23B revenue and 87.0% adjusted gross margin** Fiscal Q4 revenue was $54.229B versus guidance of $49–51B. GAAP gross margin was 86.8% and non-GAAP gross margin was 87.0%. Fiscal Q1 FY2027 guidance was $61.5B ± $1.5B in revenue and about 86.25% non-GAAP gross margin. Reported and guided gross margin remain above 80%. The release does not quantify the volume of the 2027 HBM order book or the revenue mix from strategic customer agreements. The published stance and conviction are unchanged. The report retains its historical valuation basis. [Source 1](https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/a2026q4ex991-pressrelease.htm)
 

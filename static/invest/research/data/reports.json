@@ -8021,8 +8021,8 @@
     "priceSymbol": "MU",
     "title": "Micron Technology 深度研究报告 - AI memory 周期的 HBM/DRAM/NAND 仪表盘",
     "titleEn": "Micron Technology Deep Research Report - HBM, DRAM, and NAND Dashboard for the AI Memory Cycle",
-    "summary": "【2026-07-31 立场重新裁定：MU 于 2026-07-30 收于 $874.66，较 07-29 低点反弹 +18.4%、较原锚点 -10.3%，市值约 $987.9B；按所有者 Q1 裁定按当前价格复核，维持谨慎（中确信）——隐含可持续 EPS 约 $58-73 仍高于网格加权约 $53，负预期差收窄但仍成立。】AI 基础设施书 memory-storage 层补位：Micron 是 HBM、DDR5、数据中心 SSD 和长期供货协议共同构成的 AI 供给瓶颈仪表盘。FY2026 Q3 收入 $41.46B、毛利率约 84.6%、营业利润 $33.32B、净利润 $28.24B，Q4 指引收入 $49-51B、调整后 EPS $30-32、毛利率约 86%。HBM 产能公开报道显示已售罄至 2026，16 个战略客户协议中 14 个最低合同收入约 $100B、约 $22B 现金存款/承诺。2026-07-07 v5 更新：以 $975.56（2026-07-02 收盘，旧锚点）、市值约 $1.10T 计，20% 牛市 / 50% 基准 / 30% 熊市情景网格给出温和负偏斜，判断改为谨慎 / 中确信。2026-07-09 官方公告最多 $3B 的美国供应链投入、拟向 GlobalWafers 融资 $500M 并签 10 年 300mm 原始硅片协议，强化长期供给响应证据，但不代表新增 bit supply 已上线，也不刷新 2026-07-02 估值快照。",
-    "summaryEn": "[2026-07-31 stance re-adjudication: MU closed at $874.66 on 2026-07-30, +18.4% off the 07-29 low and -10.3% from its old anchor, for about $987.9B market cap; re-checked at the current price under the owner's Q1 ruling, cautious (medium conviction) holds — implied sustainable EPS of ~$58-73 still exceeds the grid-weighted ~$53, a narrowed but intact negative gap.] Memory-storage coverage for the AI-infrastructure book: Micron is the dashboard for HBM, DDR5, data-center SSDs, and long-term supply agreements as AI supply constraints move into memory. FY2026 Q3 revenue was $41.46B, gross margin about 84.6%, operating income $33.32B, and net income $28.24B; Q4 guidance is $49-51B revenue, $30-32 adjusted EPS, and about 86% gross margin. Public reports say HBM capacity is sold out through 2026, and 14 of 16 strategic customer agreements have about $100B of minimum contract revenue plus roughly $22B deposits / commitments. July 7, 2026 v5 update: at $975.56 (Jul 2, 2026 close, old anchor) and about $1.10T market cap, a 20% bull / 50% base / 30% bear grid moves the stance to cautious / medium conviction. Micron's official 2026-07-09 release adds up to $3B of U.S. supply-chain investment, proposed $500M GlobalWafers financing, and a 10-year 300mm raw-wafer agreement; this strengthens long-term supply-response evidence without putting new bit supply online or refreshing the 2026-07-02 valuation snapshot.",
+    "summary": "FY2026 10-K 预计爱达荷州两座厂分别于 2027 年年中和 2028 年底前产出首批晶圆，纽约州首座厂预计 2030 年初始出片。对可售 bit 供给和价格的影响仍待核实。 【2026-07-31 立场重新裁定：MU 于 2026-07-30 收于 $874.66，较 07-29 低点反弹 +18.4%、较原锚点 -10.3%，市值约 $987.9B；按所有者 Q1 裁定按当前价格复核，维持谨慎（中确信）——隐含可持续 EPS 约 $58-73 仍高于网格加权约 $53，负预期差收窄但仍成立。】AI 基础设施书 memory-storage 层补位：Micron 是 HBM、DDR5、数据中心 SSD 和长期供货协议共同构成的 AI 供给瓶颈仪表盘。FY2026 Q3 收入 $41.46B、毛利率约 84.6%、营业利润 $33.32B、净利润 $28.24B，Q4 指引收入 $49-51B、调整后 EPS $30-32、毛利率约 86%。HBM 产能公开报道显示已售罄至 2026，16 个战略客户协议中 14 个最低合同收入约 $100B、约 $22B 现金存款/承诺。2026-07-07 v5 更新：以 $975.56（2026-07-02 收盘，旧锚点）、市值约 $1.10T 计，20% 牛市 / 50% 基准 / 30% 熊市情景网格给出温和负偏斜，判断改为谨慎 / 中确信。2026-07-09 官方公告最多 $3B 的美国供应链投入、拟向 GlobalWafers 融资 $500M 并签 10 年 300mm 原始硅片协议，强化长期供给响应证据，但不代表新增 bit supply 已上线，也不刷新 2026-07-02 估值快照。",
+    "summaryEn": "The FY2026 10-K projects first wafers from the two Idaho fabs in mid-2027 and by late 2028, and from the first New York fab in 2030. The impact on saleable bit supply and prices remains open. [2026-07-31 stance re-adjudication: MU closed at $874.66 on 2026-07-30, +18.4% off the 07-29 low and -10.3% from its old anchor, for about $987.9B market cap; re-checked at the current price under the owner's Q1 ruling, cautious (medium conviction) holds — implied sustainable EPS of ~$58-73 still exceeds the grid-weighted ~$53, a narrowed but intact negative gap.] Memory-storage coverage for the AI-infrastructure book: Micron is the dashboard for HBM, DDR5, data-center SSDs, and long-term supply agreements as AI supply constraints move into memory. FY2026 Q3 revenue was $41.46B, gross margin about 84.6%, operating income $33.32B, and net income $28.24B; Q4 guidance is $49-51B revenue, $30-32 adjusted EPS, and about 86% gross margin. Public reports say HBM capacity is sold out through 2026, and 14 of 16 strategic customer agreements have about $100B of minimum contract revenue plus roughly $22B deposits / commitments. July 7, 2026 v5 update: at $975.56 (Jul 2, 2026 close, old anchor) and about $1.10T market cap, a 20% bull / 50% base / 30% bear grid moves the stance to cautious / medium conviction. Micron's official 2026-07-09 release adds up to $3B of U.S. supply-chain investment, proposed $500M GlobalWafers financing, and a 10-year 300mm raw-wafer agreement; this strengthens long-term supply-response evidence without putting new bit supply online or refreshing the 2026-07-02 valuation snapshot.",
     "tags": [
       "HBM",
       "DRAM",
@@ -8031,7 +8031,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-11-21",
+    "lastUpdate": "2026-11-27",
     "file": "/invest/research/reports/view.html?id=micron-2026",
     "markdownFiles": {
       "zh": "/invest/research/Micron_深度研究报告_2026-07.md",
@@ -8188,12 +8188,13 @@
           "en": "2027 / 2028 new supply arrives faster than AI demand, or Korea / U.S. expansion weakens pricing"
         },
         "latest": {
-          "zh": "Idaho/New York 扩产在路上；Micron 2026-07-09 宣布最多 $3B 的美国供应链投入（含拟向 GlobalWafers 融资 $500M 与 10 年 300mm 原始硅片协议），并在纽约 fab 浇筑首块混凝土；有效供给仍主要滞后到 2027/2030 后",
-          "en": "Idaho / New York expansions are underway; on 2026-07-09 Micron announced up to $3B of U.S. supply-chain investment, including proposed $500M financing for GlobalWafers and a 10-year 300mm raw-wafer agreement, and poured first concrete at its New York fab; effective supply still mostly lags into 2027 / 2030 and beyond"
+          "en": "The FY2026 10-K projects first wafers from the two Idaho fabs in mid-2027 and by late 2028, and from the first New York fab in 2030. The impact on saleable bit supply and prices remains open.",
+          "zh": "FY2026 10-K 预计爱达荷州两座厂分别于 2027 年年中和 2028 年底前产出首批晶圆，纽约州首座厂预计 2030 年初始出片。对可售 bit 供给和价格的影响仍待核实。"
         },
         "nextCheck": "行业 capex 与 bit supply / industry capex and bit supply",
-        "reading": "within",
-        "readingAsOf": "2026-07-09"
+        "reading": "unclear",
+        "readingAsOf": "2026-10-09",
+        "readingNote": "这些是首批晶圆的计划时间。美光在 FY2026 年报中称 AI 内存及存储需求增速高于行业供给。上述计划尚不足以判断可售 bit 供给增速或美韩扩产对价格的影响。 / These are projected first-wafer dates. Micron’s FY2026 filing describes AI memory and storage demand growing faster than industry supply. The projections cannot yet establish the rate of saleable bit output or the effect of U.S. and Korean expansion on pricing."
       },
       {
         "id": "valuation-cycle-risk",
