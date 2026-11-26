@@ -1,7 +1,7 @@
 # Reddit, Inc. (RDDT) Deep Research Report
 
 Coverage date: 2026-08-01
-Last updated: 2026-11-19
+Last updated: 2026-11-27
 Ticker: NYSE: RDDT
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -505,8 +505,10 @@ The fragility of this derivation must be stated alongside it: it assumes Reddit 
 7. **Buyback execution** — the quarterly burn rate against the remaining $760M authorization.
    - Monitoring id: `buyback-execution`.
    - Trigger: Net share count rises in both Q3 and Q4 2026, meaning repurchases fail to offset issuance.
-   - Latest reading (Update 2026-10-02): In Q2 2026 the company repurchased 1,488,812 shares for $234.6M (H1: 1,523,502 shares for $239.6M) against about 1.40M shares issued. The net count fell from 192.41M at 2026-03-31 to 192.32M at 2026-06-30, and was 192.40M at 2026-07-29. $760.4M of authorization remained at 2026-06-30 (Q2 2026 10-Q).
+   - Latest reading (2026-11-27 update, evidence dated 2026-10-30): The [Q3 10-Q](https://www.sec.gov/Archives/edgar/data/1713445/000171344526000116/rddt-20260930.htm) shows 669,959 Class A shares repurchased in Q3 for $100.369 million, with $660.0 million of authorization remaining at September 30. Quarter-end Class A plus Class B shares outstanding rose from 192,321,417 at June 30 ([Q2 10-Q](https://www.sec.gov/Archives/edgar/data/1713445/000171344526000100/rddt-20260630.htm)) to 193,116,334 at September 30, an increase of 794,917 shares (+0.41%). Q3 meets the first leg. The two-quarter condition remains unclear pending Q4 quarter-end shares outstanding.
+   - Previous reading (2026-10-02, historical): In Q2 2026 the company repurchased 1,488,812 shares for $234.6M (H1: 1,523,502 shares for $239.6M) against about 1.40M shares issued. The net count fell from 192.41M at 2026-03-31 to 192.32M at 2026-06-30, and was 192.40M at 2026-07-29. $760.4M of authorization remained at 2026-06-30 (Q2 2026 10-Q).
    - Next check: Q3 2026 10-Q.
+   - The 2026-10-01 valuation basis remains historical. The published stance and conviction are unchanged.
 
 ## 10. Conclusion <!-- report-module:conclusion -->
 
@@ -646,7 +648,7 @@ One point should be stated plainly: this report does not view the post-print -21
 3. ~~Two market-cap conventions exist: $27.06B on 192.40M shares outstanding, and roughly $28.6B on approximately 203M TTM diluted shares. All multiples in this report use the former; readers comparing against third-party diluted-basis data should note the difference.~~ **Update (2026-10-02):** two market-cap conventions exist at $149.53: $28.77B on 192.40M shares outstanding, and $30.21B on 202.03M Q2 2026 diluted weighted-average shares. All multiples use the former, and the §8 grid carries dilution explicitly through gross issuance.
 4. This is an initial coverage report; no prior-cycle version exists for comparison. **Update (2026-10-02):** this incremental update adds the formal stance (constructive, low conviction), the re-anchored scenario grid, the sensitivity and reverse tests, and the monitoring links. It is a stance backfill on the initiation, not a new research cycle.
 5. **Data gaps (Update 2026-10-02):**
-   - Q3 2026 buyback pace and share count are unknown until the Q3 10-Q.
+   - **Update (2026-11-27):** The Q3 10-Q provides the buyback and share-count figures in §9. The Q4 quarter-end comparison is still pending.
    - The NOL balance and the cash-tax path after a valuation-allowance release were not pulled; the FCF-conversion settings are assumptions.
    - Peer multiples are not refreshed beyond 2026-07-31.
    - Third-party traffic data (e.g., Similarweb) for August-September 2026 was not verified, so no traffic reading is used.
