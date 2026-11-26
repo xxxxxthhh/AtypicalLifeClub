@@ -3,6 +3,32 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "spotify-2026",
+      "signalId": "spotify-q3-2026-monitoring-correction-20261022",
+      "type": "facts",
+      "evidenceDate": "2026-10-22",
+      "title": {
+        "en": "Spotify Q3 monitoring correction and follow-up",
+        "zh": "Spotify Q3 监控勘误与补充"
+      },
+      "change": {
+        "en": "Q3 Ad-Supported revenue grew 9% at constant currency. Premium added 6M net subscribers and LTM free cash flow was €3.190B.",
+        "zh": "Q3 广告支持收入恒定汇率增长 9%，Premium 净增 600 万，过去十二个月自由现金流为 €3.190B。"
+      },
+      "meaning": {
+        "en": "Ad gross margin improved year over year, while constant-currency ad growth remained below double digits. Q4 operating-income guidance of €820M was €70M above the monitoring threshold.",
+        "zh": "广告毛利率同比改善，广告收入的恒定汇率增速仍低于双位数。Q4 营业利润指引 €820M，高于监控阈值 €70M。"
+      },
+      "next": {
+        "en": "Use Q4 segment disclosures to evaluate the H2 advertising condition and clarify the tolerance around the approximate €3.3B LTM free cash flow threshold.",
+        "zh": "结合 Q4 分部披露核对下半年广告条件，并明确过去十二个月自由现金流约 €3.3B 的阈值容差。"
+      },
+      "id": "research-a6858dbb5864b25c5c37a44fca1283a76f3c589482b88b832633fe7b614fcba3",
+      "publishedDate": "2026-11-27",
+      "company": "Spotify",
+      "ticker": "SPOT"
+    },
+    {
       "reportId": "reddit-2026",
       "signalId": "reddit-q3-2026-buyback-execution-20261030",
       "type": "facts",
