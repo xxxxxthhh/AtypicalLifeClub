@@ -5227,5 +5227,28 @@
     "monitoringRefs": [
       "kioxia-2026:capital-returns-execution"
     ]
+  },
+  {
+    "id": "kla-fcf-capital-return-20261105",
+    "date": "2026-11-05",
+    "scope": "report-monitoring",
+    "title": {
+      "en": "KLA quarterly free cash flow covers cash dividends and repurchases",
+      "zh": "KLA 本季自由现金流覆盖现金分红和回购"
+    },
+    "detail": {
+      "en": "For Q1 FY2027, KLA reported $1,530.939M of operating cash flow and $194.756M of capex, yielding $1,336.183M of free cash flow. Cash dividends of $305.145M and common-stock repurchases of $935.776M totaled $1,240.921M, or 92.9% of FCF, leaving $95.262M. Semiconductor Process Control revenue rose 15% sequentially and 29% year over year. On November 5 KLA declared its next quarterly dividend of $0.23 per share, payable December 1. The observed quarter’s FCF covered its cash returns; sustained coverage over the cycle remains open. https://ir.kla.com/news-events/press-releases/detail/523/kla-corporation-reports-fiscal-2027-first-quarter-results https://ir.kla.com/news-events/press-releases/detail/524/kla-declares-regular-cash-dividend",
+      "zh": "KLA FY2027 Q1 经营现金流 15.30939 亿美元，资本开支 1.94756 亿美元，自由现金流 13.36183 亿美元。现金分红 3.05145 亿美元与普通股回购 9.35776 亿美元合计 12.40921 亿美元，占自由现金流 92.9%，余 0.95262 亿美元。半导体过程控制业务营收环比增长 15%、同比增长 29%。KLA 11 月 5 日宣告下一次季度股息为每股 0.23 美元，12 月 1 日派发。本季自由现金流覆盖现金回报，跨周期能否维持覆盖仍待观察。 https://ir.kla.com/news-events/press-releases/detail/523/kla-corporation-reports-fiscal-2027-first-quarter-results https://ir.kla.com/news-events/press-releases/detail/524/kla-declares-regular-cash-dividend"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "KLAC"
+    ],
+    "reportIds": [
+      "kla-2026"
+    ],
+    "monitoringRefs": [
+      "kla-2026:fcf-capital-return"
+    ]
   }
 ]
