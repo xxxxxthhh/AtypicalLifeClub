@@ -1,7 +1,7 @@
 # Spotify (NYSE: SPOT) Deep Research Report
 
 Coverage date: 2026-02-10
-Last updated: 2026-11-21
+Last updated: 2026-11-27
 Ticker: NYSE: SPOT
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -9,7 +9,7 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 ## Executive Summary
 
-> **2026-10-22 Factual update · Spotify reached 788M listeners and 306M subscribers, while quarterly free cash flow fell** Q3 MAUs were 788M, Premium subscribers 306M and revenue €4.969B (+16% YoY). Spotify marked revenue in line at the rounded €5.0B guidance precision. Gross margin was 33.0%, operating income €672M and free cash flow €735M (−9% YoY). Ad-Supported revenue was €482M (+10%, or +14% currency-neutral). The Q4 operating-income guide was €820M. Premium subscribers and profitability exceeded guidance. Exact reported revenue is €31M below €5.0B, while the issuer reports in-line at rounded precision. Quarterly free cash flow and ad segment margin were below Q2. The published stance and conviction are unchanged. The report retains its historical valuation basis. [Source 1](https://www.sec.gov/Archives/edgar/data/1639920/000114036126040435/ef20084028_ex99-1.htm)
+> **2026-10-22 Factual update · Spotify reached 788M listeners and 306M subscribers, while quarterly free cash flow fell** Q3 MAUs were 788M, Premium subscribers 306M and revenue €4.969B (+16% YoY). Spotify marked revenue in line at the rounded €5.0B guidance precision. Gross margin was 33.0%, operating income €672M and free cash flow €735M (−9% YoY). Ad-Supported revenue was €482M (+10%, or +9% currency-neutral). The Q4 operating-income guide was €820M. Premium subscribers and profitability exceeded guidance. Exact reported revenue is €31M below €5.0B, while the issuer reports in-line at rounded precision. Quarterly free cash flow and ad segment margin were below Q2. The published stance and conviction are unchanged. The report retains its historical valuation basis. [Source 1](https://www.sec.gov/Archives/edgar/data/1639920/000114036126040435/ef20084028_ex99-1.htm)
 
 **One-Line Thesis:** Spotify has successfully transformed from a chronically unprofitable music streaming platform into a profitable "global audio technology platform," but current valuation still requires digesting high growth expectations even after a significant pullback.
 
@@ -409,19 +409,19 @@ Added on 2026-10-02; each item corresponds one-to-one with `monitoring[]` in rep
    - Next check: Q3 2026 results, 2026-10-22 before market open (issuer-confirmed).
 2. **Gross margin, operating income, and LTM free cash flow** (`q3-margin-cash-flow`).
    - Trigger: gross margin falls below 31.5%, Q3 operating income materially misses €670M, or LTM FCF falls below about €3.3B.
-   - Latest reading: Q2 gross margin was 33.4%, operating income €655M, FCF €797M, and LTM FCF €3.261B (the company rounds it to €3.3B); Q3 guidance is 32.9% gross margin and €670M operating income.
+   - Latest reading: Q3 gross margin was 33.0% and operating income was €672M, above the 31.5% and €670M trigger levels. Quarterly FCF was €735M, down from €797M in Q2 and €806M a year earlier. LTM FCF was €3.190B, €110M below the nominal €3.3B reference. The trigger does not quantify the tolerance around €3.3B.
    - Next check: Q3 2026 results, 2026-10-22.
 3. **Ad-Supported revenue reacceleration** (`ad-supported-reacceleration`).
    - Trigger: H2 Ad-Supported revenue returns to double-digit FX-neutral growth while sustaining positive gross-margin progress.
-   - Latest reading: Q2 Ad-Supported revenue was €446M, +1% Y/Y and +3% FX-neutral; gross margin was 19.1%, up 179 bps Y/Y.
+   - Latest reading: Q3 Ad-Supported revenue was €482M, up 10% YoY and 9% at constant currency. Segment gross margin was 18.7%, up 105 bps YoY and down from 19.1% in Q2. H2 assessment awaits Q4 segment results.
    - Next check: Q3 2026 segment results, 2026-10-22.
 4. **Q4 2026 operating-income guidance against the grid's FY2026 starting point** (`q4-operating-income-guide`).
    - Trigger: Q4 2026 operating-income guidance below €750M (the grid assumes about €820M).
-   - Latest reading: Q4 2025 operating income was €701M; the grid's FY2026E operating income of €2,860M assumes Q4 2026 at about €820M (+17% y/y). Q4 guidance is due with the Q3 results.
+   - Latest reading: Q4 2025 operating income was €701M; the grid's FY2026E operating income of €2,860M assumes Q4 2026 at about €820M (+17% y/y). On 2026-10-22 Spotify guided to €820M of Q4 2026 operating income, including €6M of social charges. The guide was €70M above the €750M trigger.
    - Next check: Q3 2026 results and Q4 outlook, 2026-10-22.
 5. **Premium net additions and FX-neutral ARPU after price increases** (`premium-pricing-churn`).
    - Trigger: Premium net additions below 2M for two consecutive quarters, or FX-neutral Premium ARPU growth turns negative year over year.
-   - Latest reading: net additions were +5M in Q3 2025, +9M in Q4 2025, +3M in Q1 2026 and +7M in Q2 2026; Q2 Premium ARPU was €4.89, +7% y/y (+7.4% FX-neutral), driven by price increases and partly offset by product and market mix.
+   - Latest reading: Premium net additions were 7M in Q2 and 6M in Q3, both above 2M. Q3 Premium ARPU was €4.95, up 9.3% YoY and 7.5% at constant currency.
    - Next check: Q3 2026 results, 2026-10-22.
 6. **EV / TTM operating income at the current price** (`valuation-exit-multiple`).
    - Trigger: above 35x (the grid's highest exit multiple is 28x), or below 22x without a cut to guidance.
