@@ -6215,7 +6215,7 @@
     "ticker": "NYSE: SPOT",
     "title": "Spotify 深度研究报告 - 全球音频科技平台的盈利转型与估值再评估",
     "titleEn": "Spotify Deep Research Report - The Global Audio Tech Platform's Profitability Transformation and Valuation Reassessment",
-    "summary": "2026-10-02 立场补录与重锚（Q2 2026 证据层）：Q2 营收€4.777B（+14%，恒定汇率+15%）、毛利率33.4%、营业利润€655M、FCF€797M、Premium 3.00亿、MAU 7.77亿。按2026-10-01收盘$491.40及ECB EUR/USD 1.1298，市值$101,024.1M、企业价值€80,495.7M，对应TTM营业利润30.3倍、TTM报告净利26.8倍（正常化约41.0倍）、FY2026一致预期EPS 35.5倍（第三方）、FCF收益率3.65%。30/40/30情景网格加权每股$643.53、至2028年底年化+12.7%，高于8%门槛；但退出倍数下调4倍即降至+5.1%，重算DCF基准$431.92低于股价。立场 constructive / 确信度 low。Q3业绩2026-10-22盘前发布。",
+    "summary": "Q3 2026 监控更新：广告支持收入恒定汇率增 9%，LTM 自由现金流 €3.190B，Q4 营业利润指引 €820M。2026-10-02 立场补录与重锚（Q2 2026 证据层）：Q2 营收€4.777B（+14%，恒定汇率+15%）、毛利率33.4%、营业利润€655M、FCF€797M、Premium 3.00亿、MAU 7.77亿。按2026-10-01收盘$491.40及ECB EUR/USD 1.1298，市值$101,024.1M、企业价值€80,495.7M，对应TTM营业利润30.3倍、TTM报告净利26.8倍（正常化约41.0倍）、FY2026一致预期EPS 35.5倍（第三方）、FCF收益率3.65%。30/40/30情景网格加权每股$643.53、至2028年底年化+12.7%，高于8%门槛；但退出倍数下调4倍即降至+5.1%，重算DCF基准$431.92低于股价。立场 constructive / 确信度 low。",
     "tags": [
       "流媒体",
       "音频平台",
@@ -6224,7 +6224,7 @@
     ],
     "category": "tech",
     "date": "2026-02-10",
-    "lastUpdate": "2026-11-21",
+    "lastUpdate": "2026-11-27",
     "coverageTier": "full",
     "file": "/invest/research/reports/view.html?id=spotify-2026",
     "markdownFiles": {
@@ -6238,7 +6238,7 @@
       "Q2 2026：营收€4.777B、毛利率33.4%、营业利润€655M、FCF€797M；Q3指引MAU 7.88亿、Premium 3.05亿、营收€5.0B、营业利润€670M",
       "Q3 2026业绩定于2026-10-22盘前；2026-08-20回购授权增额15亿美元，总授权约22.23亿美元"
     ],
-    "summaryEn": "Stance backfill and re-anchor on 2026-10-02 (Q2 2026 evidence layer): Q2 revenue €4.777B (+14%, +15% FX-neutral), gross margin 33.4%, operating income €655M, FCF €797M, Premium 300M, MAUs 777M. At the 2026-10-01 close of $491.40 and ECB EUR/USD 1.1298, market cap is $101,024.1M and enterprise value €80,495.7M: 30.3x TTM operating income, 26.8x TTM reported net income (about 41.0x normalized), 35.5x third-party FY2026 consensus EPS, and a 3.65% FCF yield. A 30/40/30 scenario grid weights to $643.53 per share, +12.7% annualized to end-2028, above the 8% hurdle; but four turns of exit-multiple compression take it to +5.1%, and the rebuilt DCF base of $431.92 sits below the price. Stance constructive / conviction low. Q3 results are due 2026-10-22 before market open.",
+    "summaryEn": "Q3 2026 monitoring update: Ad-Supported revenue grew 9% at constant currency, LTM free cash flow was €3.190B and Q4 operating-income guidance was €820M. Stance backfill and re-anchor on 2026-10-02 (Q2 2026 evidence layer): Q2 revenue €4.777B (+14%, +15% FX-neutral), gross margin 33.4%, operating income €655M, FCF €797M, Premium 300M, MAUs 777M. At the 2026-10-01 close of $491.40 and ECB EUR/USD 1.1298, market cap is $101,024.1M and enterprise value €80,495.7M: 30.3x TTM operating income, 26.8x TTM reported net income (about 41.0x normalized), 35.5x third-party FY2026 consensus EPS, and a 3.65% FCF yield. A 30/40/30 scenario grid weights to $643.53 per share, +12.7% annualized to end-2028, above the 8% hurdle; but four turns of exit-multiple compression take it to +5.1%, and the rebuilt DCF base of $431.92 sits below the price. Stance constructive / conviction low.",
     "period": "2026H1",
     "versionType": "incremental",
     "versionLabel": "2026H1 Q2 Incremental Update",
@@ -6279,14 +6279,14 @@
           "en": "gross margin falls below 31.5%, Q3 operating income materially misses €670M, or LTM FCF falls below about €3.3B"
         },
         "latest": {
-          "zh": "Q3 毛利率 33.0%、营业利润 6.72 亿欧元，超过 32.9% 和 6.70 亿欧元指引。季度自由现金流 7.35 亿欧元，低于 Q2 的 7.97 亿和上年同期的 8.06 亿欧元。",
-          "en": "Q3 gross margin 33.0% and operating income €672M exceeded 32.9% and €670M guidance. Quarterly FCF was €735M, down from €797M in Q2 and €806M a year earlier."
+          "zh": "Q3 毛利率 33.0%、营业利润 €672M，高于 31.5% 和 €670M 触发线。季度自由现金流 €735M，低于 Q2 的 €797M 和上年同期的 €806M。LTM 自由现金流 €3.190B，低于约 €3.3B 的名义参考值 €110M。",
+          "en": "Q3 gross margin was 33.0% and operating income was €672M, above the 31.5% and €670M trigger levels. Quarterly FCF was €735M, down from €797M in Q2 and €806M a year earlier. LTM FCF was €3.190B, €110M below the nominal €3.3B reference."
         },
         "nextCheck": "Q3 2026 财报（2026-10-22 盘前，公司已确认） / Q3 2026 results (2026-10-22 before market open, issuer-confirmed)",
         "nextCheckDate": "2026-10",
-        "reading": "within",
+        "reading": "unclear",
         "readingAsOf": "2026-10-22",
-        "readingNote": "Q3 毛利率 33.0%、营业利润 6.72 亿欧元，超过 32.9% 和 6.70 亿欧元指引。季度自由现金流 7.35 亿欧元，低于 Q2 的 7.97 亿和上年同期的 8.06 亿欧元。 / Q3 gross margin 33.0% and operating income €672M exceeded 32.9% and €670M guidance. Quarterly FCF was €735M, down from €797M in Q2 and €806M a year earlier."
+        "readingNote": "LTM 自由现金流低于名义参考值，原条件的「约」未定义容差，触发判断待确认。 / LTM FCF was below the nominal reference. The original trigger gives no tolerance for ‘about,’ so the trigger judgment remains open."
       },
       {
         "id": "ad-supported-reacceleration",
@@ -6301,13 +6301,14 @@
           "en": "H2 Ad-Supported revenue returns to double-digit FX-neutral growth while sustaining positive gross-margin progress"
         },
         "latest": {
-          "zh": "Q2广告支持收入€446M，同比+1%、恒定汇率+3%；毛利率19.1%，同比提高179bps",
-          "en": "Q2 Ad-Supported revenue was €446M, +1% Y/Y and +3% FX-neutral; gross margin was 19.1%, up 179 bps Y/Y"
+          "zh": "Q3 广告支持收入 €482M，同比 +10%，恒定汇率 +9%；毛利率 18.7%，同比提高 105 个基点，低于 Q2 的 19.1%。",
+          "en": "Q3 Ad-Supported revenue was €482M, up 10% YoY and 9% at constant currency. Segment gross margin was 18.7%, up 105 bps YoY and down from 19.1% in Q2."
         },
         "nextCheck": "Q3 2026 分部业绩（2026-10-22 盘前，公司已确认） / Q3 2026 segment results (2026-10-22 before market open, issuer-confirmed)",
         "nextCheckDate": "2026-10",
-        "reading": "breached",
-        "readingAsOf": "2026-08-04"
+        "reading": "unclear",
+        "readingAsOf": "2026-10-22",
+        "readingNote": "Q3 恒定汇率增速低于双位数，毛利率同比改善。H2 两项合并判断须等 Q4 分部数据。 / Q3 constant-currency growth was below double digits and segment gross margin improved year over year. The combined H2 judgment requires Q4 segment results."
       },
       {
         "id": "q4-operating-income-guide",
@@ -6322,11 +6323,13 @@
           "en": "Q4 2026 operating-income guidance below €750M (the grid assumes about €820M)"
         },
         "latest": {
-          "zh": "Q4 2025 营业利润 €701M；网格 FY2026E 营业利润 €2,860M 假设 Q4 2026 约 €820M（同比 +17%）。Q4 指引将随 Q3 业绩发布",
-          "en": "Q4 2025 operating income was €701M; the grid's FY2026E operating income of €2,860M assumes Q4 2026 at about €820M (+17% y/y). Q4 guidance is due with the Q3 results"
+          "zh": "Spotify 于 2026-10-22 发布 Q4 2026 营业利润指引 €820M，含 €6M 社保费用，较 €750M 触发线高 €70M。",
+          "en": "On 2026-10-22 Spotify guided to €820M of Q4 2026 operating income, including €6M of social charges. The guide was €70M above the €750M trigger."
         },
         "nextCheck": "Q3 2026 财报及 Q4 展望（2026-10-22 盘前） / Q3 2026 results and Q4 outlook (2026-10-22 before market open)",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-10-22"
       },
       {
         "id": "premium-pricing-churn",
@@ -6341,11 +6344,13 @@
           "en": "Premium net additions below 2M for two consecutive quarters, or FX-neutral Premium ARPU growth turns negative year over year"
         },
         "latest": {
-          "zh": "净增 Q3 2025 +500 万、Q4 2025 +900 万、Q1 2026 +300 万、Q2 2026 +700 万；Q2 Premium ARPU €4.89，同比 +7%（恒定汇率 +7.4%），由提价驱动，部分被产品与市场组合抵消",
-          "en": "Net additions were +5M in Q3 2025, +9M in Q4 2025, +3M in Q1 2026 and +7M in Q2 2026; Q2 Premium ARPU was €4.89, +7% y/y (+7.4% FX-neutral), driven by price increases and partly offset by product and market mix"
+          "zh": "Q2、Q3 Premium 分别净增 700 万和 600 万，均高于 200 万。Q3 Premium ARPU 为 €4.95，同比 +9.3%，恒定汇率 +7.5%。",
+          "en": "Premium net additions were 7M in Q2 and 6M in Q3, both above 2M. Q3 Premium ARPU was €4.95, up 9.3% YoY and 7.5% at constant currency."
         },
         "nextCheck": "Q3 2026 财报（2026-10-22 盘前，公司已确认） / Q3 2026 results (2026-10-22 before market open, issuer-confirmed)",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-10-22"
       },
       {
         "id": "valuation-exit-multiple",
