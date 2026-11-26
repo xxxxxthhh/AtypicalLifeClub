@@ -1,13 +1,15 @@
 # Jinpan Technology (688676.SH) Deep Research Report
 
 Coverage date: 2026-02-03
-Last updated: 2026-08-21
+Last updated: 2026-11-26
 Ticker: 688676.SH
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
 ## 2026H1 Full Rerun Summary
+
+> **Q3 2026 factual update, filed October 14.** Quarterly revenue was RMB 2.549B (+24.92% YoY), including RMB 1.133B of data-center revenue (+179.41%) and RMB 1.033B of overseas revenue (+45.36%). The categories can overlap. Period-end AIDC product backlog was RMB 5.565B. The filing gives no separate commercial solid-state transformer orders or recognized SST revenue. Nine-month gross margin was 27.19% and operating cash flow was RMB 90.74M (−49.04% YoY), or 16.68% of RMB 544.01M in net profit attributable to shareholders. September 30 trade receivables were RMB 3.030B versus RMB 2.368B at year-end 2025. That comparison does not establish year-over-year receivables growth or collection quality. The valuation retains its July 31 historical anchor. The published stance and conviction are unchanged. [Issuer's filed quarterly report, PDF copy](https://pdf.dfcfw.com/pdf/H2_AN202610131830410800_1.pdf)
 
 This report is the full rerun successor to `jinpan-2026-pre-rerun`; the archived baseline is available at `/invest/research/reports/view.html?id=jinpan-2026-pre-rerun`.
 
