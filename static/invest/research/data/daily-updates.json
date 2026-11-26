@@ -3,6 +3,58 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "meta-2026",
+      "signalId": "meta-us-teen-product-changes-20261022",
+      "type": "facts",
+      "evidenceDate": "2026-10-22",
+      "title": {
+        "en": "Meta says U.S. teen mental health agreement includes product changes",
+        "zh": "Meta 披露美国青少年心理健康协议包含产品改动"
+      },
+      "change": {
+        "en": "Meta’s Q3 10-Q says its August 2026 agreement with state attorneys general over teen mental health includes changes to Facebook and Instagram features for U.S. users under 18. Meta says an independent auditor will report to the states annually on compliance for five years.",
+        "zh": "Meta 在 Q3 10-Q 披露，2026 年 8 月与美国各司法辖区总检察长达成的青少年心理健康协议包含面向美国未满 18 岁用户的 Facebook 和 Instagram 功能改动。Meta 称独立审计人将连续五年每年向各州报告合规情况。"
+      },
+      "meaning": {
+        "en": "The issuer’s filing identifies concrete youth-product obligations beyond a litigation reserve. The filing does not specify the full set of feature changes or confirm that they have been rolled out.",
+        "zh": "发行人申报披露了具体的青少年产品整改义务。完整功能清单、执行时间及落地情况仍需协议原文和后续披露。"
+      },
+      "next": {
+        "en": "Check the underlying agreement or regulator materials for the exact scope, effective dates and implementation.",
+        "zh": "取得协议或监管原文后，核对整改细项、生效日期和执行情况。"
+      },
+      "id": "research-c3640571f324661dacbcff464958a77bf0d8ff2e76c0bb1f55bcba0de3577daa",
+      "publishedDate": "2026-11-27",
+      "company": "Meta Platforms",
+      "ticker": "META"
+    },
+    {
+      "reportId": "micron-2026",
+      "signalId": "micron-fy2026-10k-us-wafer-timeline-20261009",
+      "type": "facts",
+      "evidenceDate": "2026-10-09",
+      "title": {
+        "en": "Micron’s FY2026 10-K gives first-wafer timelines for three U.S. fabs",
+        "zh": "美光 FY2026 10-K 披露美国三座晶圆厂的首批产出时间"
+      },
+      "change": {
+        "en": "Micron projects first DRAM wafer output at its first Idaho fab in mid-calendar 2027, initial wafer output at its second Idaho fab by late calendar 2028, and initial wafer output at its first New York fab in calendar 2030.",
+        "zh": "美光预计爱达荷州第一座厂于 2027 年年中产出首批 DRAM 晶圆，第二座厂于 2028 年底前产出首批晶圆，纽约州第一座厂于 2030 年产出首批晶圆。"
+      },
+      "meaning": {
+        "en": "These are projected first-wafer dates. Micron’s FY2026 filing describes AI memory and storage demand growing faster than industry supply. The projections cannot yet establish the rate of saleable bit output or the effect of U.S. and Korean expansion on pricing.",
+        "zh": "这些是首批晶圆的计划时间。美光在 FY2026 年报中称 AI 内存及存储需求增速高于行业供给。上述计划尚不足以判断可售 bit 供给增速或美韩扩产对价格的影响。"
+      },
+      "next": {
+        "en": "Compare actual saleable bit shipments and ramp milestones with AI demand growth and comparable contract prices.",
+        "zh": "后续将实际可售 bit 出货、爬坡里程碑与 AI 需求增速及可比合约价格对照。"
+      },
+      "id": "research-79933f92c7ef8c28ccff1a4d9590390196dd31715050dccf76904f80fabda785",
+      "publishedDate": "2026-11-27",
+      "company": "Micron Technology",
+      "ticker": "MU"
+    },
+    {
       "reportId": "spotify-2026",
       "signalId": "spotify-q3-2026-monitoring-correction-20261022",
       "type": "facts",
