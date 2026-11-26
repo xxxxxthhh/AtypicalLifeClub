@@ -5204,5 +5204,28 @@
     "monitoringRefs": [
       "kioxia-2026:h1-guidance-delivery"
     ]
+  },
+  {
+    "id": "kioxia-shareholder-return-policy-20261030",
+    "date": "2026-10-30",
+    "scope": "report-monitoring",
+    "title": {
+      "en": "Kioxia adopts a formal shareholder return policy",
+      "zh": "铠侠通过正式股东回报方针"
+    },
+    "detail": {
+      "en": "Kioxia’s October 30 board resolution formalized a policy of maintaining net cash, making flexible buybacks and paying progressive dividends after allowing for future investment, with a medium- to long-term goal of returning 100% of excess funds. The November 6 filing confirms ¥799.998B repurchased against the ¥800B ceiling and an approved ¥47.937B first interim dividend, effective December 8. Payment and additional repurchase authorization remain to be verified. https://ssl4.eir-parts.net/doc/285A/tdnet/2902682/00.pdf https://www.kioxia-holdings.com/content/dam/kioxia-hd/en-jp/ir/library/securities/asset/Semi-Annual-Securities-Report-FY2026-EN.pdf",
+      "zh": "铠侠 10 月 30 日董事会通过股东回报方针：在为未来投资预留资金后维持净现金、灵活回购并实施渐进式分红，中长期将全部盈余资金用于股东回报。11 月 6 日半年度报告确认，已执行回购 7,999.98 亿日元，上限为 8,000 亿日元；首次中期派息获批，合计 479.37 亿日元，12 月 8 日生效。实际付款和新增回购授权仍待核实。 https://ssl4.eir-parts.net/doc/285A/tdnet/2902682/00.pdf https://www.kioxia-holdings.com/content/dam/kioxia-hd/en-jp/ir/library/securities/asset/Semi-Annual-Securities-Report-FY2026-EN.pdf"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "285A.T"
+    ],
+    "reportIds": [
+      "kioxia-2026"
+    ],
+    "monitoringRefs": [
+      "kioxia-2026:capital-returns-execution"
+    ]
   }
 ]
