@@ -3,6 +3,32 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "reddit-2026",
+      "signalId": "reddit-q3-2026-buyback-execution-20261030",
+      "type": "facts",
+      "evidenceDate": "2026-10-30",
+      "title": {
+        "en": "Reddit’s Q3 net share count rose despite buybacks",
+        "zh": "Reddit Q3 执行回购，期末净股数仍上升"
+      },
+      "change": {
+        "en": "Reddit repurchased 669,959 shares in Q3. Quarter-end Class A plus Class B shares outstanding rose by 794,917 (+0.41%).",
+        "zh": "Reddit Q3 回购 669,959 股，期末 A 类与 B 类流通股数合计净增 794,917 股（+0.41%）。"
+      },
+      "meaning": {
+        "en": "The Q3 increase meets the first leg of the two-quarter monitoring condition.",
+        "zh": "Q3 净股数上升，满足两季监测条件的第一条。"
+      },
+      "next": {
+        "en": "Compare the Q4 quarter-end Class A plus Class B count with the Q3 count when the filing is available.",
+        "zh": "取得 Q4 期末同口径流通股数后，与 Q3 期末读数比较。"
+      },
+      "id": "research-9559bf5e516dc58521a19323c6c0f36dc5766fb3a00e54005ac1a872ede50669",
+      "publishedDate": "2026-11-27",
+      "company": "Reddit",
+      "ticker": "RDDT"
+    },
+    {
       "reportId": "kioxia-2026",
       "signalId": "kioxia-q2-full-year-guidance-20261030",
       "type": "facts",
