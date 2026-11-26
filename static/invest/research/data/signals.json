@@ -5250,5 +5250,28 @@
     "monitoringRefs": [
       "kla-2026:fcf-capital-return"
     ]
+  },
+  {
+    "id": "reddit-q3-2026-buyback-execution-20261030",
+    "date": "2026-10-30",
+    "scope": "report-monitoring",
+    "title": {
+      "en": "Reddit’s Q3 net share count rose despite buybacks",
+      "zh": "Reddit Q3 执行回购，期末净股数仍上升"
+    },
+    "detail": {
+      "en": "Reddit’s Q3 10-Q records 669,959 Class A shares repurchased for $100.369 million and $660.0 million of authorization remaining. Comparing the Q2 and Q3 filings, quarter-end Class A plus Class B shares outstanding rose from 192,321,417 to 193,116,334 (+794,917, or +0.41%). Q3 meets the first leg of the monitoring condition. The two-quarter condition remains unresolved pending the Q4 quarter-end count. https://www.sec.gov/Archives/edgar/data/1713445/000171344526000116/rddt-20260930.htm https://www.sec.gov/Archives/edgar/data/1713445/000171344526000100/rddt-20260630.htm",
+      "zh": "Reddit Q3 10-Q 披露回购 669,959 股 A 类股，金额 1.00369 亿美元，剩余授权 6.60 亿美元。对照 Q2 和 Q3 申报，期末 A 类与 B 类流通股数合计由 192,321,417 股增至 193,116,334 股（净增 794,917 股，+0.41%）。Q3 满足监测条件的第一条，两季条件仍须等待 Q4 期末股数。 https://www.sec.gov/Archives/edgar/data/1713445/000171344526000116/rddt-20260930.htm https://www.sec.gov/Archives/edgar/data/1713445/000171344526000100/rddt-20260630.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "RDDT"
+    ],
+    "reportIds": [
+      "reddit-2026"
+    ],
+    "monitoringRefs": [
+      "reddit-2026:buyback-execution"
+    ]
   }
 ]
