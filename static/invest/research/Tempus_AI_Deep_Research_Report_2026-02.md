@@ -1,13 +1,15 @@
 # Tempus AI (TEM) Deep Research Report
 
 Coverage date: 2026-02-27
-Last updated: 2026-11-19
+Last updated: 2026-11-25
 Ticker: NASDAQ: TEM
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
 ## 2026H1 Full Rerun Summary
+
+> **2026-11-25 Personalis financing update.** Tempus elected on November 24 to pay approximately $600M in cash and expects approximately $900M in Tempus Class A common stock as consideration for the pending acquisition. On November 25 it signed a senior secured credit agreement with $385M of term loan commitments and $115M of revolving commitments. Initial funding depends on the acquisition having closed or being reasonably expected to close within one business day, among other conditions. The cash amount may be reduced under the merger agreement. The filing does not establish funded balances, final share issuance or the closing net-debt position. The valuation retains its August 24 historical anchor. The published stance and conviction are unchanged. [Form 8-K](https://www.sec.gov/Archives/edgar/data/1717115/000119312526478564/d51820d8k.htm)
 
 > **AstraZeneca contract update (signed November 16, 2026):** The fifth amendment to the Master Services Agreement is effective January 1, 2027 and extends the renewal term through December 31, 2031, subject to the contractual shortfall extension through 2032. AstraZeneca commits $200M in total qualifying fees across the renewal term, with a $40M annual target and a $32M annual floor subject to the agreement's terms. This is a multiyear contractual commitment. Timing, revenue recognition and the contribution to Data and Applications margins require subsequent disclosures. The valuation retains its August 24 historical anchor. The published stance and conviction are unchanged. [Form 8-K](https://www.sec.gov/Archives/edgar/data/1717115/000119312526466240/d138111d8k.htm) · [Exhibit 10.1](https://www.sec.gov/Archives/edgar/data/1717115/000119312526466240/d138111dex101.htm)
 
