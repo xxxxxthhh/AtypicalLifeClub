@@ -5181,5 +5181,30 @@
       "jinpan-2026:aidc-sst-revenue-recognition",
       "jinpan-2026:receivables-cash-quality"
     ]
+  },
+  {
+    "id": "airbnb-mode-b-reanchor-20261125",
+    "date": "2026-11-25",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Airbnb Q3 经营门槛达标，按 $172.15 重锚并上调至中性观察",
+      "en": "Airbnb meets the Q3 operating hurdle, re-anchors at $172.15 and moves to neutral-watch"
+    },
+    "detail": {
+      "zh": "原上调经营分支成立：Q3 收入 $48.69 亿 ≥ $47.70 亿、剔除汇率 +16% ≥ +14%、Q4 指引中点同比 +16.99% ≥ +13%。据此由谨慎上调至中性观察。11 月 25 日收盘 $172.15，五日均收 $172.53，位于原价格门槛之间。按 5.87542197 亿 A+B 股和面值净现金 $100.90 亿计，市值 $1,011.45 亿、EV $910.55 亿。至 2028 年底 767 天，牛/基/熊 30/40/30 对应 $249.57/$180.72/$104.58，加权 $178.53、年化 +1.75%，低于 8% 门槛。熊市总回报 −39.25%，退出倍数上调四档等敏感性可跨过门槛，维持低确信度。 电话会的第三方代理归因待核。来源：https://www.sec.gov/Archives/edgar/data/1559720/000119312526337928/d70413dex991.htm https://www.sec.gov/Archives/edgar/data/1559720/000119312526449727/d437988dex991.htm https://www.sec.gov/Archives/edgar/data/1559720/000155972026000032/abnb-20260930.htm https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm https://api.nasdaq.com/api/quote/ABNB/info?assetclass=stocks https://api.nasdaq.com/api/quote/ABNB/historical?assetclass=stocks&fromdate=2026-11-17&todate=2026-11-26",
+      "en": "The original operating branch is met: Q3 revenue of $4.869B ≥ $4.77B, ex-FX growth of 16% ≥ 14%, and Q4 guide midpoint growth of 16.99% ≥ 13%. This moves cautious to neutral-watch. The November 25 close was $172.15 and the five-session mean was $172.53, between the existing price thresholds. On 587.542197M A+B shares and $10.090B net cash on face debt, market cap is $101.145B and EV $91.055B. The 767-day end-2028 bull/base/bear grid weights $249.57/$180.72/$104.58 at 30/40/30 to $178.53, or +1.75% annualized versus the 8% hurdle. Bear total return is −39.25%. An upside sensitivity such as four extra turns of exit P/E can clear the hurdle, supporting low conviction. Third-party agent attribution on the earnings call awaits verification. Sources: https://www.sec.gov/Archives/edgar/data/1559720/000119312526337928/d70413dex991.htm https://www.sec.gov/Archives/edgar/data/1559720/000119312526449727/d437988dex991.htm https://www.sec.gov/Archives/edgar/data/1559720/000155972026000032/abnb-20260930.htm https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm https://api.nasdaq.com/api/quote/ABNB/info?assetclass=stocks https://api.nasdaq.com/api/quote/ABNB/historical?assetclass=stocks&fromdate=2026-11-17&todate=2026-11-26"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "ABNB"
+    ],
+    "reportIds": [
+      "airbnb-2026"
+    ],
+    "monitoringRefs": [
+      "airbnb-2026:organic-growth-ex-fx",
+      "airbnb-2026:valuation-hurdle-price",
+      "airbnb-2026:take-rate-ai-agents"
+    ]
   }
 ]
