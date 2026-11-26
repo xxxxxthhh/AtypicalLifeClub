@@ -280,13 +280,13 @@
     {
       "reportId": "airbnb-2026",
       "symbol": "ABNB",
-      "status": "carried-forward",
+      "status": "ok",
       "attemptedAt": "2026-11-25",
-      "baseDate": "2026-10-01",
-      "basePrice": 160.47,
-      "lastDate": "2026-11-24",
-      "lastClose": 173.39,
-      "changePct": 8.1,
+      "baseDate": "2026-11-25",
+      "basePrice": 172.15,
+      "lastDate": "2026-11-25",
+      "lastClose": 172.15,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
