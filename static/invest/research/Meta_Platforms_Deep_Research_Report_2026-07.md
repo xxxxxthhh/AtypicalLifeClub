@@ -1,7 +1,7 @@
 # Meta Platforms (META) Deep Research Report
 
 Coverage date: 2026-07-04
-Last updated: 2026-11-24
+Last updated: 2026-11-27
 Ticker: NASDAQ: META
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -10,6 +10,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 > **2026-11-23 — Meta pauses Class C common stock issuance during recapitalization proceedings.** Meta’s November 23 Form 8-K says it agreed to suspend Class C common stock issuance, including issuance through a stock dividend, during the pretrial and trial proceedings in Delaware Chancery Court. Trial is scheduled to begin April 19, 2027. Zuckerberg waived the original stock-dividend deadline. Meta expects the stock dividend and commencement of Class C trading to precede launch of the previously announced at-the-market program. The scheduled trial start does not establish an issuance date. The historical 2026-07-30 valuation anchor and the published stance and conviction remain in place. [Source 1](https://www.sec.gov/Archives/edgar/data/1326801/000162828026075541/meta-20261118.htm)
 
 ## Executive Summary
+
+> **2026-10-22 · Meta says U.S. teen mental health agreement includes product changes** Meta’s Q3 10-Q says its August 2026 agreement with state attorneys general over teen mental health includes changes to Facebook and Instagram features for U.S. users under 18. Meta says an independent auditor will report to the states annually on compliance for five years. The issuer’s filing identifies concrete youth-product obligations beyond a litigation reserve. The filing does not specify the full set of feature changes or confirm that they have been rolled out. [SEC source 1](https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm)
 
 > **2026-10-21 Factual update · Meta’s ad metrics grew as reported margin and free cash flow weakened** Q3 revenue rose 26% to $64.60B, ad impressions rose 10% and average ad price rose 14%. Reported operating margin was 20%, versus 40% a year earlier. The quarter included a $9.9B legal charge. Free cash flow was −$2.12B and the 2026 capex range rose at the low end to $135–145B, including finance-lease principal. The reported margin is below the 35% operating monitor, alongside a quantified legal charge. The 2026 capex guide’s upper end is still $145B. This release gives no quantified 2027 capex range. The published stance and conviction are unchanged. The report retains its historical valuation basis. [Source 1](https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm)
 

@@ -9239,7 +9239,7 @@
     "priceSymbol": "META",
     "title": "Meta Platforms 深度研究报告 - AI 基建书的需求锚与算力外售压力测试",
     "titleEn": "Meta Platforms Deep Research Report - Demand Anchor and Compute-Resale Stress Test for the AI-Infra Book",
-    "summary": "Meta 11 月 23 日提交的 8-K 载明，公司同意在特拉华州衡平法院相关诉讼的审前及庭审期间暂停发行 C 类普通股，包括以股票股息方式发行。庭审计划于 2027 年 4 月 19 日开始。 2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30）：收入 $60.80B（同比 +28%）、营业利润 $18.775B、营业利润率 31%（去年同期 43%）、净利润 $15.848B（同比 -14%）、摊薄 EPS $6.18；总成本费用 $42.026B（同比 +55%）。经营现金流 $31.862B（+25%），但 $31.078B capex 把自由现金流压至 $0.784B（-91%）；FY2026 capex 指引收窄至 $130-145B。application-monetization 是混合读数：收入与经营现金流增长，营业利润率、净利润与 FCF 恶化。本中心 AI 基础设施书 demand-risk 层的需求锚覆盖：Meta 不是 GPU/HBM/电力/光模块供应商，而是整条链最重要的终端买方之一。2026-07-31 重新锚定至 2026-07-30 收盘 $539.03：市值约 $1.37T、EV 约 $1.41T，约 6.4x TTM P/S、约 15.9x EV/TTM 营业利润，按 Q1 剔除税益 EPS 年化约 18.4x（按 Q2 实际 EPS 年化约 21.8x）。倍数较旧锚点更宽松，立场按当前价格算术维持 neutral-watch / 中确信；上述 TTM 口径为 Q2'25-Q1'26，不含 2026 Q2，Q2 的 FCF 与利润率恶化关系到偏斜，须由 Q2 后重建口径的重新承保处理。",
+    "summary": "Q3 10-Q 披露，Meta 与美国各司法辖区总检察长达成的协议包含面向美国未满 18 岁用户的 Facebook 和 Instagram 功能改动，以及五年的独立合规报告。 Meta 11 月 23 日提交的 8-K 载明，公司同意在特拉华州衡平法院相关诉讼的审前及庭审期间暂停发行 C 类普通股，包括以股票股息方式发行。庭审计划于 2027 年 4 月 19 日开始。 2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30）：收入 $60.80B（同比 +28%）、营业利润 $18.775B、营业利润率 31%（去年同期 43%）、净利润 $15.848B（同比 -14%）、摊薄 EPS $6.18；总成本费用 $42.026B（同比 +55%）。经营现金流 $31.862B（+25%），但 $31.078B capex 把自由现金流压至 $0.784B（-91%）；FY2026 capex 指引收窄至 $130-145B。application-monetization 是混合读数：收入与经营现金流增长，营业利润率、净利润与 FCF 恶化。本中心 AI 基础设施书 demand-risk 层的需求锚覆盖：Meta 不是 GPU/HBM/电力/光模块供应商，而是整条链最重要的终端买方之一。2026-07-31 重新锚定至 2026-07-30 收盘 $539.03：市值约 $1.37T、EV 约 $1.41T，约 6.4x TTM P/S、约 15.9x EV/TTM 营业利润，按 Q1 剔除税益 EPS 年化约 18.4x（按 Q2 实际 EPS 年化约 21.8x）。倍数较旧锚点更宽松，立场按当前价格算术维持 neutral-watch / 中确信；上述 TTM 口径为 Q2'25-Q1'26，不含 2026 Q2，Q2 的 FCF 与利润率恶化关系到偏斜，须由 Q2 后重建口径的重新承保处理。",
     "tags": [
       "AI基础设施",
       "广告平台",
@@ -9248,7 +9248,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-11-24",
+    "lastUpdate": "2026-11-27",
     "file": "/invest/research/reports/view.html?id=meta-2026",
     "markdownFiles": {
       "zh": "/invest/research/Meta_Platforms_深度研究报告_2026-07.md",
@@ -9264,7 +9264,7 @@
       "2026-07-30 收盘 $539.03、市值约 $1.37T、约 6.4x TTM P/S、约 15.9x EV/TTM 营业利润、约 18.4x 剔除税益年化 EPS；倍数较旧锚点更宽松",
       "2026-07-31 重新裁定：立场按当前价格算术维持 neutral-watch / 中确信；TTM 口径不含 Q2，偏斜问题留待 Q2 后重新承保"
     ],
-    "summaryEn": "Meta’s November 23 Form 8-K says it agreed to suspend Class C common stock issuance, including issuance through a stock dividend, during the pretrial and trial proceedings in Delaware Chancery Court. Trial is scheduled to begin April 19, 2027. July 30, 2026 monitoring update (Q2 2026, quarter ended June 30, 2026): revenue was $60.80B (+28% YoY), operating income $18.775B, operating margin 31% (down from 43%), net income $15.848B (-14%), and diluted EPS $6.18; total costs were $42.026B (+55%). Operating cash flow was $31.862B (+25%), but $31.078B of capex compressed free cash flow to $0.784B (-91%); FY2026 capex guidance narrowed to $130-145B. Application-monetization is a mixed read: revenue and operating cash flow grew, while operating margin, net income, and FCF deteriorated. Demand-anchor coverage for this center's AI-infrastructure demand-risk layer: Meta is not a GPU/HBM/power/optical supplier, but one of the most important end customers in the chain. Re-anchored on 2026-07-31 to the $539.03 close of 2026-07-30: market cap is about $1.37T and EV about $1.41T, or about 6.4x TTM sales, 15.9x EV/TTM operating income, and 18.4x annualized Q1 EPS ex-tax-benefit (21.8x on annualized Q2 reported EPS). The multiple is less demanding than at the old anchor, so the stance is held at neutral-watch / medium conviction on current-price arithmetic; note the TTM window is Q2'25-Q1'26 and excludes Q2 2026, whose FCF and margin deterioration bears on the skew and is carried to a post-Q2 re-underwrite.",
+    "summaryEn": "The Q3 10-Q says Meta’s agreement with state attorneys general includes changes to Facebook and Instagram features for U.S. users under 18, with five years of independent compliance reporting. Meta’s November 23 Form 8-K says it agreed to suspend Class C common stock issuance, including issuance through a stock dividend, during the pretrial and trial proceedings in Delaware Chancery Court. Trial is scheduled to begin April 19, 2027. July 30, 2026 monitoring update (Q2 2026, quarter ended June 30, 2026): revenue was $60.80B (+28% YoY), operating income $18.775B, operating margin 31% (down from 43%), net income $15.848B (-14%), and diluted EPS $6.18; total costs were $42.026B (+55%). Operating cash flow was $31.862B (+25%), but $31.078B of capex compressed free cash flow to $0.784B (-91%); FY2026 capex guidance narrowed to $130-145B. Application-monetization is a mixed read: revenue and operating cash flow grew, while operating margin, net income, and FCF deteriorated. Demand-anchor coverage for this center's AI-infrastructure demand-risk layer: Meta is not a GPU/HBM/power/optical supplier, but one of the most important end customers in the chain. Re-anchored on 2026-07-31 to the $539.03 close of 2026-07-30: market cap is about $1.37T and EV about $1.41T, or about 6.4x TTM sales, 15.9x EV/TTM operating income, and 18.4x annualized Q1 EPS ex-tax-benefit (21.8x on annualized Q2 reported EPS). The multiple is less demanding than at the old anchor, so the stance is held at neutral-watch / medium conviction on current-price arithmetic; note the TTM window is Q2'25-Q1'26 and excludes Q2 2026, whose FCF and margin deterioration bears on the skew and is carried to a post-Q2 re-underwrite.",
     "chainLayer": "demand-risk",
     "coverageTier": "full",
     "chainRole": "common-constraint",
@@ -9373,10 +9373,13 @@
           "en": "U.S. or EU regulators force changes to ad targeting, recommendation systems, or youth-safety controls"
         },
         "latest": {
-          "zh": "2026 年社交媒体青少年安全和隐私诉讼/监管风险仍在，并可能影响核心广告引擎",
-          "en": "in 2026, youth-safety and privacy litigation/regulatory risk remains active and can affect the core ad engine"
+          "en": "The Q3 10-Q says Meta’s agreement with state attorneys general includes changes to Facebook and Instagram features for U.S. users under 18, with five years of independent compliance reporting.",
+          "zh": "Q3 10-Q 披露，Meta 与美国各司法辖区总检察长达成的协议包含面向美国未满 18 岁用户的 Facebook 和 Instagram 功能改动，以及五年的独立合规报告。"
         },
-        "nextCheck": "监管/诉讼裁决与产品整改 / regulatory or litigation rulings and product remedies"
+        "nextCheck": "监管/诉讼裁决与产品整改 / regulatory or litigation rulings and product remedies",
+        "reading": "breached",
+        "readingAsOf": "2026-10-22",
+        "readingNote": "发行人申报披露了具体的青少年产品整改义务。完整功能清单、执行时间及落地情况仍需协议原文和后续披露。 / The issuer’s filing identifies concrete youth-product obligations beyond a litigation reserve. The filing does not specify the full set of feature changes or confirm that they have been rolled out."
       }
     ],
     "conviction": "medium",
