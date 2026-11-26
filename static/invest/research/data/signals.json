@@ -5157,5 +5157,29 @@
     "monitoringRefs": [
       "tempus-ai-2026:personalis-closing-liquidity"
     ]
+  },
+  {
+    "id": "jinpan-q3-2026-aidc-cash-flow-20261014",
+    "date": "2026-10-14",
+    "title": {
+      "zh": "金盘科技三季报：数据中心收入增长，现金转化仍待验证",
+      "en": "Jinpan Q3: data-center revenue rises, cash conversion remains under review"
+    },
+    "detail": {
+      "zh": "2026-10-14 三季报：Q3 数据中心收入 11.33 亿元（同比 +179.41%），海外收入 10.33 亿元（+45.36%），两项可能重叠。期末 AIDC 相关产品在手订单为 55.65 亿元。该季报未单列 SST 商业订单或确认收入。 2026-10-14 三季报：前三季度经营现金流净额 9,074.36 万元（同比 −49.04%），约为归母净利 5.44 亿元的 16.68%。应收账款由 2025 年末 23.68 亿元增至 2026 年 9 月末 30.30 亿元。该比较无法建立应收同比增速或回款质量。 https://pdf.dfcfw.com/pdf/H2_AN202610131830410800_1.pdf",
+      "en": "October 14 Q3 filing: quarterly data-center revenue was RMB 1.133B (+179.41% YoY) and overseas revenue was RMB 1.033B (+45.36%). The categories can overlap. Period-end AIDC product backlog was RMB 5.565B. The filing gives no separate commercial SST orders or recognized SST revenue. October 14 Q3 filing: nine-month operating cash flow was RMB 90.74M (−49.04% YoY), or 16.68% of RMB 544.01M in net profit attributable to shareholders. Trade receivables increased from RMB 2.368B at year-end 2025 to RMB 3.030B at September 30, 2026. This comparison does not establish year-over-year receivables growth or collection quality. https://pdf.dfcfw.com/pdf/H2_AN202610131830410800_1.pdf"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "688676.SH"
+    ],
+    "reportIds": [
+      "jinpan-2026"
+    ],
+    "scope": "report-monitoring",
+    "monitoringRefs": [
+      "jinpan-2026:aidc-sst-revenue-recognition",
+      "jinpan-2026:receivables-cash-quality"
+    ]
   }
 ]
