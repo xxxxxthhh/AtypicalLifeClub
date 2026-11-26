@@ -5181,5 +5181,28 @@
       "jinpan-2026:aidc-sst-revenue-recognition",
       "jinpan-2026:receivables-cash-quality"
     ]
+  },
+  {
+    "id": "kioxia-q2-full-year-guidance-20261030",
+    "date": "2026-10-30",
+    "scope": "report-monitoring",
+    "title": {
+      "en": "Kioxia’s Q2 actuals exceed implied guidance while full-year guidance stays absent",
+      "zh": "铠侠 Q2 实绩超过隐含指引，全年指引持续缺席"
+    },
+    "detail": {
+      "en": "Kioxia reported Q2 FY2026 revenue of ¥2,480.0B and profit attributable to owners of parent of ¥1,355.7B on October 30. These exceeded the implied Q2 guide of ¥2,390.0B and ¥1,270.0B by ¥90.0B and ¥85.7B, respectively. The issuer continued to withhold full-year guidance, explicitly stating it does not provide full-fiscal-year plans or progress reports. https://ssl4.eir-parts.net/doc/285A/tdnet/2859908/00.pdf https://ssl4.eir-parts.net/doc/285A/tdnet/2902678/00.pdf",
+      "zh": "铠侠 10 月 30 日公布 FY2026 Q2 营收 24,800 亿日元、归母净利润 13,557 亿日元，分别较隐含 Q2 指引 23,900 亿和 12,700 亿日元高 900 亿和 857 亿日元。公司继续未提供全年指引，并明确表示不提供全财年的计划或进度报告。 https://ssl4.eir-parts.net/doc/285A/tdnet/2859908/00.pdf https://ssl4.eir-parts.net/doc/285A/tdnet/2902678/00.pdf"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "285A.T"
+    ],
+    "reportIds": [
+      "kioxia-2026"
+    ],
+    "monitoringRefs": [
+      "kioxia-2026:h1-guidance-delivery"
+    ]
   }
 ]
