@@ -5345,5 +5345,28 @@
     "monitoringRefs": [
       "meta-2026:regulatory-social-risk"
     ]
+  },
+  {
+    "id": "micron-fy2026-10k-sca-deposits-20261009",
+    "date": "2026-10-09",
+    "scope": "report-monitoring",
+    "title": {
+      "en": "Micron reports $12.75B of FY2026 strategic customer agreement deposits",
+      "zh": "美光披露 FY2026 战略客户协议现金押金为 127.5 亿美元"
+    },
+    "detail": {
+      "en": "Micron's FY2026 10-K describes multiyear take-or-pay commitments, with pricing bands in most strategic customer agreements. The cash flow statement records $12.747B of customer contract liability deposits as financing inflows. Micron expects nearly all of the deposits to be repaid in 2029–2031. At September 3, transaction price allocated to companywide remaining performance obligations was about $134B, including about $13B recorded as contract liabilities. The realized revenue mix, effect on realized gross margin, and any customer or regulatory pushback remain open. https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
+      "zh": "美光 FY2026 10-K 披露多年期照付不议承诺，多数战略客户协议设有价格上下限。现金流量表将 127.47 亿美元客户合同负债押金列为融资流入。美光预计几乎所有押金都将在 2029–2031 年返还。截至 9 月 3 日，分配至全公司剩余履约义务的交易价格约为 1,340 亿美元，其中约 130 亿美元已列入合同负债。实际收入占比、对已实现毛利率的影响，以及客户或监管方是否反弹仍待核实。 https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "MU"
+    ],
+    "reportIds": [
+      "micron-2026"
+    ],
+    "monitoringRefs": [
+      "micron-2026:strategic-customer-agreements"
+    ]
   }
 ]
