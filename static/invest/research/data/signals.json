@@ -5460,5 +5460,28 @@
     "monitoringRefs": [
       "wdc-2026:share-count-dilution"
     ]
+  },
+  {
+    "id": "lumentum-q1-fy2027-customer-diluted-eps-basis-20261103",
+    "date": "2026-11-03",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Lumentum Q1 FY2027 客户集中度与季度摊薄股数",
+      "en": "Lumentum Q1 FY2027 customer concentration and quarterly diluted shares"
+    },
+    "detail": {
+      "zh": "截至 2026-09-26 的季度，最大两家终端客户占净收入 37% 和 11%（上年同期 22% 和 21%）。10-Q 附注 3 的 GAAP 每股收益采用 101.7M 加权摊薄股，业绩稿的非 GAAP 口径为 101.0M。 37% 已超过单一客户 35% 门槛。两项股数是季度每股收益的加权分母，尚不足以核定研究所用的完全稀释分母与现金留存条件。 https://www.sec.gov/Archives/edgar/data/1633978/000162828026069615/lite-20260926.htm https://www.sec.gov/Archives/edgar/data/1633978/000162828026068655/lite_ex991xq1fy27.htm",
+      "en": "For the quarter ended September 26, 2026, the two largest end customers accounted for 37% and 11% of net revenue (22% and 21% a year earlier). Form 10-Q Note 3 used 101.7M weighted-average diluted shares for GAAP EPS. The earnings release used 101.0M for non-GAAP EPS. The 37% share crosses the 35% customer threshold. The two share counts are period-weighted EPS denominators. The working fully diluted share count and cash-retention condition still require separate evidence. https://www.sec.gov/Archives/edgar/data/1633978/000162828026069615/lite-20260926.htm https://www.sec.gov/Archives/edgar/data/1633978/000162828026068655/lite_ex991xq1fy27.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "LITE"
+    ],
+    "reportIds": [
+      "lumentum-2026"
+    ],
+    "monitoringRefs": [
+      "lumentum-2026:concentration-dilution"
+    ]
   }
 ]
