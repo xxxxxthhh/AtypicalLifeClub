@@ -5647,5 +5647,28 @@
     "monitoringRefs": [
       "nvidia-2026:circular-financing-exposure"
     ]
+  },
+  {
+    "id": "almonty-q3-2026-executed-repurchase-20261112",
+    "date": "2026-11-12",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Almonty 第三季度实际回购并注销 291 万股",
+      "en": "Almonty repurchased and cancelled 2.91 million shares in Q3"
+    },
+    "detail": {
+      "zh": "Almonty 11 月 12 日的三季度 MD&A 和报表披露，当季按加权均价 16.58 美元回购并注销 2,914,739 股，季后又回购并注销 703,053 股。公司披露的在外股数由 6 月末 288,109,013 股降至 9 月末 285,670,318 股，环比净减 2,438,695 股（0.85%）。 三季度股数下降，披露的当季融资与股本变化支持本期维持阈内。九个月股本变动包括 1 月旧债转换发行的 15,047,619 股、行使期权/CDI 期权/认股权证及结算限制性股票单位发行的 10,761,210 股，另有回购注销 2,914,739 股，季后另有结算限制性股票单位发行的 266,666 股。 https://www.sec.gov/Archives/edgar/data/1670061/000149315226051508/0001493152-26-051508.txt https://www.sec.gov/Archives/edgar/data/1670061/000149315226037264/ex99-2.htm",
+      "en": "Almonty’s November 12 Q3 MD&A and financial statements report the repurchase and cancellation of 2,914,739 shares at a weighted average US$16.58 and another 703,053 after quarter-end. Reported shares outstanding fell from 288,109,013 at June 30 to 285,670,318 at September 30, a net sequential decrease of 2,438,695 shares (0.85%). The Q3 share count fell, and disclosed financing and equity activity support a within reading for the quarter. The nine-month share movement includes 15,047,619 shares issued in January on conversion of an older debenture and 10,761,210 shares issued on exercises of options, CDI options and warrants and on RSU settlement, against 2,914,739 shares repurchased. A further 266,666 shares were issued after quarter-end to settle restricted stock units. https://www.sec.gov/Archives/edgar/data/1670061/000149315226051508/0001493152-26-051508.txt https://www.sec.gov/Archives/edgar/data/1670061/000149315226037264/ex99-2.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "ALM"
+    ],
+    "reportIds": [
+      "almonty-2026"
+    ],
+    "monitoringRefs": [
+      "almonty-2026:financing-dilution"
+    ]
   }
 ]
