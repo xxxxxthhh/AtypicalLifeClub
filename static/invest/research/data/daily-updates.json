@@ -3,6 +3,84 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "alphabet-2026",
+      "signalId": "alphabet-euro-senior-notes-20261105",
+      "type": "facts",
+      "evidenceDate": "2026-11-05",
+      "title": {
+        "en": "Alphabet closes €6 billion senior notes offering",
+        "zh": "Alphabet 完成 60 亿欧元优先票据发行"
+      },
+      "change": {
+        "en": "Alphabet closed €6 billion of senior notes on November 5 and a separate C$6 billion offering on November 24. Both were debt financings. In Q3, Alphabet sold 12 million Class A and 24 million Class C shares under its ATM program for net proceeds of $4.3 billion and $8.1 billion, respectively. Approximately $27.6 billion remained available at September 30. Quarterly free cash flow was negative $9.065 billion and trailing twelve-month free cash flow was positive $19.747 billion.",
+        "zh": "Alphabet 于 11 月 5 日完成 60 亿欧元优先票据发行，11 月 24 日另完成 60 亿加元优先票据发行。两笔均为债务融资。三季度通过 ATM 计划发行 1,200 万股 A 类股和 2,400 万股 C 类股，分别筹得净额 43 亿及 81 亿美元，计划于 9 月末剩余约 276 亿美元。季度自由现金流为负 90.65 亿美元，过去十二个月为正 197.47 亿美元。"
+      },
+      "meaning": {
+        "en": "The executed Q3 ATM equity sales met the financing clause. Trailing free cash flow remained positive. The two senior-note offerings are separate debt events.",
+        "zh": "三季度已执行的 ATM 股权发行触发融资分句。过去十二个月自由现金流仍为正，两笔优先票据属于分开记录的债务融资。"
+      },
+      "next": {
+        "en": "Check trailing free cash flow, ATM sales and remaining authorization in the next cash-flow statement and financing note.",
+        "zh": "在下一期现金流量表和融资附注核对 TTM 自由现金流、ATM 发行及剩余额度。"
+      },
+      "id": "research-aebc87e6b99805465a25c7febf0c27c475b19d119e68d579c9dacf700a0484d9",
+      "publishedDate": "2026-11-28",
+      "company": "Alphabet",
+      "ticker": "GOOG"
+    },
+    {
+      "reportId": "alphabet-2026",
+      "signalId": "alphabet-q3-tpu-recognition-and-inventory-20261029",
+      "type": "facts",
+      "evidenceDate": "2026-10-29",
+      "title": {
+        "en": "Alphabet reiterates 2027 timing for most TPU agreement revenue as consolidated inventory rises",
+        "zh": "Alphabet 重申 TPU 系统协议收入绝大部分在 2027 年确认，合并存货继续上升"
+      },
+      "change": {
+        "en": "Alphabet's Q3 Form 10-Q says it began recognizing revenue in Q2 from a limited number of TPU system supply agreements, with the significant majority expected in 2027. Consolidated inventory rose from $9.991 billion at June 30 to $13.308 billion at September 30, up $3.317 billion or about 33.2% sequentially. Alphabet says inventory primarily includes TPU system hardware and consumer devices, and Cloud product revenue comes primarily from TPU system sales.",
+        "zh": "Alphabet 三季度 10-Q 称，面向特定客户的少数 TPU 系统供应协议自二季度开始确认收入，绝大部分预计于 2027 年确认。合并存货由 6 月末 99.91 亿美元升至 9 月末 133.08 亿美元，环比增加 33.17 亿美元，约 33.2%。公司称存货主要包括 TPU 系统硬件和消费设备，Cloud 产品收入主要来自 TPU 系统销售。"
+      },
+      "meaning": {
+        "en": "The filing still puts most agreement revenue in 2027. Consolidated inventory includes consumer devices, and the two Forms 10-Q provide no separate Cloud product revenue or TPU sales line to test whether sales kept pace with inventory. The composite reading remains unclear.",
+        "zh": "申报仍指向 2027 年确认绝大部分协议收入。合并存货包含消费设备，且两份 10-Q 均未单列 Cloud 产品收入或 TPU 销售金额，无法判断销售是否追上存货增长。综合读数仍不明确。"
+      },
+      "next": {
+        "en": "Check the FY2026 Form 10-K and 2027 quarterly filings for TPU agreement revenue, Cloud product revenue and an inventory breakdown.",
+        "zh": "关注 FY2026 10-K 和 2027 年季报对 TPU 协议收入、Cloud 产品收入和存货拆分的披露。"
+      },
+      "id": "research-c9c7ce72ba3663118379d307ceb768ff5832263bbe9a5cd70c3bd1c8b3866d73",
+      "publishedDate": "2026-11-28",
+      "company": "Alphabet",
+      "ticker": "GOOG"
+    },
+    {
+      "reportId": "amkr-2026",
+      "signalId": "amkor-q3-arizona-construction-costs-20261027",
+      "type": "facts",
+      "evidenceDate": "2026-10-27",
+      "title": {
+        "en": "Amkor's Arizona construction costs rose $219.7 million from June to September",
+        "zh": "Amkor 亚利桑那项目在建成本较六月末增加 2.197 亿美元"
+      },
+      "change": {
+        "en": "Amkor's Q3 Form 10-Q reports $553.3 million of cumulative construction costs for the Arizona Facility at September 30, including $8.5 million of capitalized interest. The June 30 filing showed $333.6 million, a $219.7 million increase by subtraction. The Q3 filing still expects the transaction for approximately 67 additional acres to close in Q4 2026.",
+        "zh": "Amkor 三季度 10-Q 披露，截至 9 月末亚利桑那项目累计发生建设成本 5.533 亿美元，含资本化利息 850 万美元。6 月末为 3.336 亿美元，按两期披露相减增加 2.197 亿美元。三季度申报仍预计 67 英亩追加土地交易于 2026 年四季度交割。"
+      },
+      "meaning": {
+        "en": "Construction costs and an expected land closing do not establish Phase 1 completion or production. The FY2025 Form 10-K put production in H1 2028. The Q3 filing does not restate Phase 1 timing or quantify named multiyear volumes. Q3 company-wide gross margin was 18.3% in a period before the original startup window. The three trigger legs remain unresolved.",
+        "zh": "建设成本和预计土地交割均不证明一期完工或投产。FY2025 10-K 的投产基线为 2028 年上半年；三季度 10-Q 未重列一期时点或点名多年期合约量。三季度公司整体毛利率为 18.3%，该时期早于项目原计划投产期。三条触发腿仍无法全面判定。"
+      },
+      "next": {
+        "en": "Look for Phase 1 completion and production milestones, named contracted volumes, and comparable gross margins after startup.",
+        "zh": "等待一期完工和投产里程碑、点名客户的合约量，以及投产后可比较的毛利率披露。"
+      },
+      "id": "research-e582fcecadcb225a02ac868ed4d87821b03e7ab08032a3bbc26fb6a523d2eb1b",
+      "publishedDate": "2026-11-28",
+      "company": "Amkor Technology",
+      "ticker": "AMKR"
+    },
+    {
       "reportId": "almonty-2026",
       "signalId": "almonty-q3-2026-executed-repurchase-20261112",
       "type": "facts",
