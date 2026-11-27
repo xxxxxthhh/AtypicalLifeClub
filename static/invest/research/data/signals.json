@@ -5600,5 +5600,29 @@
     "monitoringRefs": [
       "nvidia-2026:circular-financing-exposure"
     ]
+  },
+  {
+    "id": "ondas-q3-2026-cash-burn-acquisition-disclosures",
+    "date": "2026-11-12",
+    "title": {
+      "zh": "Ondas Q3 单季经营现金流流出 $140.648M",
+      "en": "Ondas Q3 operating cash outflow was $140.648M"
+    },
+    "detail": {
+      "zh": "2026 年前九个月经营现金流 −$278.027M，扣除上半年 −$137.379M 得到 Q3 单季 −$140.648M。9 月末 $820.336M 流动性合计含 $31.463M 受限现金，PDW 季后 $50M 已支付。三季报另披露 DZYNE 并表后 $30.1M 收入和 $22.2M 净亏损，初步对价 $850.493M。 https://www.sec.gov/Archives/edgar/data/1646188/000119312526458517/onds-20260930.htm https://ir.ondas.com/all-sec-filings/content/0001193125-26-349288/onds-20260630.htm",
+      "en": "Subtracting first-half operating cash flow of −$137.379M from nine-month cash flow of −$278.027M gives Q3 operating cash flow of −$140.648M. Quarter-end liquidity of $820.336M includes $31.463M restricted cash, with $50M of completed post-quarter PDW funding. DZYNE contributed $30.1M of revenue and $22.2M net loss post-close, with $850.493M of preliminary consideration. https://www.sec.gov/Archives/edgar/data/1646188/000119312526458517/onds-20260930.htm https://ir.ondas.com/all-sec-filings/content/0001193125-26-349288/onds-20260630.htm"
+    },
+    "scope": "report-monitoring",
+    "crossChecks": [],
+    "tickers": [
+      "ONDS"
+    ],
+    "reportIds": [
+      "onds-2026"
+    ],
+    "monitoringRefs": [
+      "onds-2026:cash-burn-refinancing",
+      "onds-2026:dzyne-integration"
+    ]
   }
 ]
