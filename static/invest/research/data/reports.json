@@ -8849,8 +8849,8 @@
     "priceSymbol": "GOOG",
     "title": "Alphabet 深度研究报告 - TPU 外部化与 capex 融资质量的架构校验",
     "titleEn": "Alphabet Deep Research Report - Architecture Check on TPU Externalization and Capex Funding Quality",
-    "summary": "Alphabet 于 11 月 24 日完成 60 亿加元优先票据发行。10 月 28 日披露，第三季度通过按市价发行计划发行 1,200 万股 A 类股和 2,400 万股 C 类股，分别筹得净额 43 亿及 81 亿美元，合计 124 亿美元。9 月末计划剩余约 276 亿美元额度。 AI 基础设施书 demand-risk 层的架构校验初始覆盖：本层已有两篇公共约束（Microsoft、Meta）和一篇仪表盘（Oracle），Alphabet 承担只有它能做的买方架构检验——全球最大自研芯片项目开始向第三方出售 TPU 系统，使它同时是商用芯片的前二大客户和竞争者。2026 Q2（季度截至 2026-06-30、07-22 发布）：收入 $119.796B（+24%）、Google Cloud +82% 至 $24.768B 且分部利润率 20.7%→35.6%、Search 及其他 +17%、合并经营利润率 34.0%、收入积压 $519.5B（Cloud $513.9B）。10-Q 首次写明 Cloud 产品收入主要来自 TPU 系统销售，存货半年由 $2.439B 升至 $9.991B。但同一季度自由现金流为 −$5.855B、回购连续两季为 $0（$69.5B 授权未动用）、6 月增发股权净额 $49.6B、股本 12,088M→12,230M，FY2026 capex 指引上调至 $195-205B、2027 年将显著更高。以 2026-07-30 收盘 $333.68 为锚（财报次日 07-23 单日 −6.9%），市值约 $4.081T、约 9.2x TTM 收入、约 26.7x EV/TTM 经营利润、约 73.9x EV/TTM 自由现金流；追溯 GAAP 市盈率约 16.7x 不可用，因 Q2 每股 $9.11 中 $6.26 来自权益证券估值变动，清洗后至少约 29.7x。30% 牛市 / 50% 基准 / 20% 熊市网格读出轻度正偏度但建立在预测之上，初始立场中性观察 / 中确信。",
-    "summaryEn": "Alphabet closed C$6 billion of senior notes on November 24. The company disclosed on October 28 that its at-the-market program sold 12 million Class A and 24 million Class C shares in Q3, with net proceeds of $4.3 billion and $8.1 billion, respectively, or $12.4 billion combined. Approximately $27.6 billion remained available at September 30. Initial architecture-check coverage for the AI-infrastructure book's demand-risk layer. The layer already carries two common-constraint reports (Microsoft, Meta) and one dashboard (Oracle); Alphabet takes the buyer-side architecture test only it can run - the largest own-silicon program in the world has begun selling TPU systems to third parties, making it simultaneously a top-two merchant-silicon customer and a merchant-silicon competitor. Q2 2026 (quarter ended 2026-06-30, reported 07-22): revenue $119.796B (+24%), Google Cloud +82% to $24.768B with segment margin going from 20.7% to 35.6%, Search and other +17%, consolidated operating margin 34.0%, revenue backlog $519.5B (Google Cloud $513.9B). The 10-Q states for the first time that Cloud product revenue comes primarily from TPU system sales, and inventory rose from $2.439B to $9.991B in six months. The same quarter produced free cash flow of -$5.855B, a second straight quarter of $0 buybacks (with $69.5B of authorization unused), a $49.6B net equity raise in June, share count rising from 12,088M to 12,230M, and an FY2026 capex guide raised to $195-205B with 2027 to be significantly higher. Anchored to the 2026-07-30 close of $333.68 (the stock fell 6.9% on 07-23, the session after the print), market cap is ~$4.081T at ~9.2x TTM revenue, ~26.7x EV/TTM operating income and ~73.9x EV/TTM free cash flow; the ~16.7x trailing GAAP P/E is unusable because $6.26 of Q2's $9.11 EPS came from equity-securities marks, leaving at least ~29.7x on cleaned earnings. The 30% bull / 50% base / 20% bear grid shows a mild positive skew that rests on forecasts, so the initiation opens at neutral-watch / medium conviction.",
+    "summary": "Alphabet Q3 收入 $127.577B（+25%），Google Cloud $30.709B（+103%），Search 及其他约 +12%。Q3 FCF 为 −$9.065B、TTM 为 +$19.747B，ATM 净筹 $12.4B 已触发原下调条件。11 月另有 €6B 和 C$6B 优先票据交割。以 2026-11-25 GOOG 收盘 $270.98 重估，EV/TTM 经营利润 21.05x、FCF / 普通股市值 0.59%。2028 年底情景加权价 $287.08，价格年化 +2.8%，立场谨慎 / 中确信。",
+    "summaryEn": "Alphabet Q3 revenue rose 25% to $127.577B, with Google Cloud up 103% to $30.709B and Search & other up about 12%. Q3 FCF was −$9.065B and trailing FCF $19.747B. The $12.4B net ATM issuance met the original downgrade condition. Separate €6B and C$6B senior notes closed in November. At the 2026-11-25 GOOG close of $270.98, EV/TTM operating income is 21.05x and FCF is 0.59% of common market capitalization. The weighted end-2028 scenario price is $287.08, or +2.8% annualized price return. Cautious / medium conviction.",
     "tags": [
       "AI基础设施",
       "超大规模云",
@@ -8859,7 +8859,7 @@
     ],
     "category": "tech",
     "date": "2026-07-31",
-    "lastUpdate": "2026-11-24",
+    "lastUpdate": "2026-11-27",
     "file": "/invest/research/reports/view.html?id=alphabet-2026",
     "markdownFiles": {
       "zh": "/invest/research/Alphabet_深度研究报告_2026-07.md",
@@ -8869,19 +8869,19 @@
     "versionType": "initial",
     "versionLabel": "2026H1 Initial Coverage",
     "highlights": [
-      "demand-risk 层架构校验：TPU 外部化对阵商用芯片，与供给侧 broadcom-2026 配对形成双向检验",
-      "2026 Q2 收入 $119.796B（+24%）、Cloud +82% 至 $24.768B、分部利润率 20.7%→35.6%、Search 及其他 +17%、合并经营利润率 34.0%",
-      "TPU 成为财务对象：10-Q 写明 Cloud 产品收入主要来自 TPU 系统销售，存货半年 $2.439B→$9.991B，现有协议绝大部分收入指引在 2027 年",
-      "融资结构反转：Q2 自由现金流 −$5.855B、上半年回购 $0（$69.5B 授权未动用）、6 月增发净额 $49.6B、股本 12,088M→12,230M",
-      "股价 $333.68（2026-07-30 收盘、财报次日 −6.9%）：约 9.2x TTM 收入、约 73.9x EV/TTM 自由现金流；30/50/20 网格，初始中性观察 / 中确信"
+      "需求层架构校验：Q3 Cloud $30.709B，积压 $560.8B；10-Q 仍预计现有 TPU 协议收入主要在 2027 年确认。",
+      "Q3 $42.290B 经营现金流低于 $51.355B 现金 capex，FCF 为 −$9.065B；TTM 仍正 $19.747B。",
+      "ATM 发行 36M 股、净筹 $12.4B，满足原下调条件；11 月 €6B 和 C$6B 票据单列。",
+      "以 $270.98 重锚，普通股市值 $3.346T，EV $3.305T，EV/TTM 经营利润 21.05x。",
+      "谨慎 / 中确信；20% / 50% / 30% 情景加权 $287.08、年化 +2.8%，下行情景 $146.81。"
     ],
     "chainLayer": "demand-risk",
     "coverageTier": "full",
     "chainRole": "architecture-check",
-    "stance": "neutral-watch",
+    "stance": "cautious",
     "conviction": "medium",
-    "priceAsOf": "2026-07-30",
-    "reportedPeriod": "Q3 2026 operating monitoring / July 2026 historical valuation frame",
+    "priceAsOf": "2026-11-25",
+    "reportedPeriod": "Q3 2026 results / 2026-11-25 valuation close",
     "related": [
       "microsoft-2026",
       "meta-2026",
@@ -8947,12 +8947,14 @@
           "en": "TTM free cash flow turns negative, or Alphabet draws on the $40B ATM Program or issues further equity beyond the June 2026 raise"
         },
         "latest": {
-          "zh": "Alphabet 10 月 28 日披露，第三季度通过按市价发行计划发行 1,200 万股 A 类股和 2,400 万股 C 类股，分别筹得净额 43 亿及 81 亿美元，合计 124 亿美元。9 月末计划剩余约 276 亿美元额度。 这是已经发生的股权融资，满足原现金流及融资监控项中的 ATM 分句。公司披露第三季度自由现金流为负 90.65 亿美元，过去十二个月仍为正 197.47 亿美元。11 月 24 日另完成 60 亿加元优先票据发行，四批分别于 2029、2034、2038 及 2066 年到期。此次为债务融资，Q3 股权融资读数单独保留。",
-          "en": "Alphabet disclosed on October 28 that its at-the-market program sold 12 million Class A and 24 million Class C shares in Q3, with net proceeds of $4.3 billion and $8.1 billion, respectively, or $12.4 billion combined. Approximately $27.6 billion remained available at September 30. The executed equity issuance meets the ATM clause of the funding monitor. Reported Q3 free cash flow was negative $9.065 billion, while trailing twelve-month free cash flow remained positive at $19.747 billion. On November 24 it separately closed C$6 billion of senior notes due in 2029, 2034, 2038 and 2066. This is a debt financing event recorded separately from the Q3 equity issuance."
+          "zh": "Q3 动用原 $40B ATM，发行 12M 股 A 类募净额 $4.3B、24M 股 C 类募净额 $8.1B，余 $27.6B。原融资分句成立。Q3 FCF −$9.065B、TTM +$19.747B。其后 €6B 和 C$6B 票据属独立债务交易。后续观察 Q3 以后新增融资与 TTM 现金流。",
+          "en": "The original $40B ATM clause was met in Q3: 12M Class A shares yielded $4.3B net and 24M Class C shares yielded $8.1B net, leaving $27.6B available. Q3 FCF was −$9.065B and TTM FCF $19.747B. The subsequent €6B and C$6B notes were separate debt transactions. Track incremental financing and TTM FCF after Q3."
         },
         "nextCheck": "每季现金流量表与融资活动 / quarterly cash-flow statement and financing activities",
         "nextCheckDate": "2026-10",
-        "readingNote": "Q3 已披露 ATM 发行，原条件融资分句满足，正式评级待独立复核。 / Q3 ATM issuance meets the financing clause. Formal grading awaits independent review."
+        "readingNote": "Q3 动用原 $40B ATM，发行 12M 股 A 类募净额 $4.3B、24M 股 C 类募净额 $8.1B，余 $27.6B。原融资分句成立。Q3 FCF −$9.065B、TTM +$19.747B。其后 €6B 和 C$6B 票据属独立债务交易。后续观察 Q3 以后新增融资与 TTM 现金流。 / The original $40B ATM clause was met in Q3: 12M Class A shares yielded $4.3B net and 24M Class C shares yielded $8.1B net, leaving $27.6B available. Q3 FCF was −$9.065B and TTM FCF $19.747B. The subsequent €6B and C$6B notes were separate debt transactions. Track incremental financing and TTM FCF after Q3.",
+        "reading": "breached",
+        "readingAsOf": "2026-10-28"
       },
       {
         "id": "tpu-external-monetization",
@@ -8967,10 +8969,13 @@
           "en": "2027 revenue recognition on existing TPU system agreements slips, or inventory keeps building without matching growth in Cloud product revenue"
         },
         "latest": {
-          "zh": "10-Q 首次写明 Google Cloud 产品收入主要来自 TPU 系统销售；存货自 2025-12-31 的 $2.439B 升至 2026-06-30 的 $9.991B，定义为主要用于向企业客户销售的 TPU 系统硬件与设备；电话会称本季已开始向客户数据中心交付并确认少量收入，现有协议绝大部分收入在 2027 年，且计入 $513.9B 的 Cloud backlog；公司未单列 TPU 出货量或收入",
-          "en": "The 10-Q states for the first time that Google Cloud product revenue comes primarily from TPU system sales; inventory rose from $2.439B at 2025-12-31 to $9.991B at 2026-06-30 and is defined as primarily hardware related to TPU systems for sale to enterprise customers and devices; the call said deliveries into customer data centers began this quarter with a small amount recognized, the vast majority of existing agreements landing in 2027, and TPU sales sitting inside the $513.9B Cloud backlog; no TPU unit volume or revenue line is disclosed"
+          "zh": "10-Q 仍预计有限几份已签 TPU 协议的收入主要在 2027 年确认；存货 $13.308B，业绩稿称 TPU 对 Cloud 增长有实质贡献。出货量和产品收入没有独立金额，无法完成两项验证。",
+          "en": "The 10-Q still expects most revenue under the limited signed TPU agreements in 2027. Inventory rose to $13.308B and the release calls TPU systems a meaningful contributor to growth. Separate volume and revenue remain undisclosed."
         },
-        "nextCheck": "FY2026 10-K 的 TPU 系统披露与 2027 年季度 Cloud 产品收入 / FY2026 10-K TPU system disclosure and 2027 quarterly Cloud product revenue"
+        "nextCheck": "FY2026 10-K 的 TPU 系统披露与 2027 年季度 Cloud 产品收入 / FY2026 10-K TPU system disclosure and 2027 quarterly Cloud product revenue",
+        "reading": "unclear",
+        "readingAsOf": "2026-10-29",
+        "readingNote": "10-Q 仍预计有限几份已签 TPU 协议的收入主要在 2027 年确认；存货 $13.308B，业绩稿称 TPU 对 Cloud 增长有实质贡献。出货量和产品收入没有独立金额，无法完成两项验证。 / The 10-Q still expects most revenue under the limited signed TPU agreements in 2027. Inventory rose to $13.308B and the release calls TPU systems a meaningful contributor to growth. Separate volume and revenue remain undisclosed."
       },
       {
         "id": "depreciation-wave",
@@ -8985,13 +8990,14 @@
           "en": "Consolidated operating margin falls below ~30%, or Cloud segment margin retraces below ~25%, with depreciation and datacenter operating costs cited as the driver"
         },
         "latest": {
-          "zh": "2026 Q2 物业与设备折旧 $7.104B，仅为同期 capex $44.924B 的 15.8%；净物业与设备半年内自 $246.597B 升至 $321.212B；合并经营利润率 34.0%、Cloud 35.6%；管理层在电话会上称基建投入将继续以更高折旧与数据中心运营成本的形式压制损益表，且 Q3 租用第三方产能会带来温和的利润率压力",
-          "en": "Q2 2026 depreciation of property and equipment was $7.104B, only 15.8% of the same quarter's $44.924B of capex; net property and equipment rose from $246.597B to $321.212B in six months; consolidated operating margin was 34.0% and Cloud 35.6%; management said on the call that infrastructure investment will continue to pressure the P&L through higher depreciation and datacenter operating costs, and that renting third-party capacity in Q3 brings modest margin pressure"
+          "zh": "合并经营利润率 31.8%，Cloud 36.2%，分别高于约 30% 与 25% 阈值。PP&E 折旧 $8.369B，现金 capex $51.355B，投入继续领先折旧。",
+          "en": "Consolidated operating margin of 31.8% and Cloud margin of 36.2% are above the roughly 30% and 25% thresholds. PP&E depreciation of $8.369B trails $51.355B of cash capex."
         },
         "nextCheck": "每季营业成本明细与分部利润率 / quarterly cost-of-revenues detail and segment margins",
         "nextCheckDate": "2026-10",
         "reading": "within",
-        "readingAsOf": "2026-07-22"
+        "readingAsOf": "2026-10-28",
+        "readingNote": "合并经营利润率 31.8%，Cloud 36.2%，分别高于约 30% 与 25% 阈值。PP&E 折旧 $8.369B，现金 capex $51.355B，投入继续领先折旧。 / Consolidated operating margin of 31.8% and Cloud margin of 36.2% are above the roughly 30% and 25% thresholds. PP&E depreciation of $8.369B trails $51.355B of cash capex."
       },
       {
         "id": "adtech-remedy-outcome",
@@ -9006,30 +9012,33 @@
           "en": "The Eastern District of Virginia orders a structural remedy (divestiture of publisher-side ad tech) that survives appeal, or the D.C. Circuit expands the December 2025 Search remedies"
         },
         "latest": {
-          "zh": "广告技术案自 2025 年 11 月结案陈词后终审判决仍未作出，DOJ 的方案包含 10-Q 自述可能对业务产生重大不利影响的结构性救济；Search 案 2025 年 12 月终审为行为性救济，Google 于 2026 年 1 月上诉、DOJ 与各州于 2026 年 2 月上诉，口头辩论预计 2026 年底至 2027 年初；直接被指向的 Google Network 为 2026 Q2 收入的 6% 且在收缩；短期计提法律与监管罚款及和解 $17.4B",
-          "en": "The ad-tech case has been awaiting final judgment since November 2025 closing arguments, with the DOJ proposing structural remedies that the 10-Q itself says could have a material adverse effect on the business; the Search case ended in behavioural remedies in December 2025, Google appealed in January 2026 and the DOJ and state AGs in February 2026, with argument expected late 2026 or early 2027; Google Network, the most directly implicated line, was 6% of Q2 2026 revenue and shrinking; short-term accrued legal and regulatory fines and settlements were $17.4B"
+          "zh": "Q3 10-Q 披露 9 月弗吉尼亚东区命令行为救济、驳回结构性剥离。按该申报，终局判决、后续上诉以及 Search 上诉结果仍待案卷验证。",
+          "en": "The Q3 10-Q reports that EDVA denied the structural divestiture request and ordered behavioral remedies in September. Final judgment and subsequent ad-tech and Search appeals require docket confirmation."
         },
-        "nextCheck": "弗吉尼亚东区终审判决与哥伦比亚特区巡回法院口头辩论（事件驱动）/ EDVA final judgment and D.C. Circuit argument (event-driven)"
+        "nextCheck": "弗吉尼亚东区终审判决与哥伦比亚特区巡回法院口头辩论（事件驱动）/ EDVA final judgment and D.C. Circuit argument (event-driven)",
+        "reading": "unclear",
+        "readingAsOf": "2026-10-29",
+        "readingNote": "Q3 10-Q 披露 9 月弗吉尼亚东区命令行为救济、驳回结构性剥离。按该申报，终局判决、后续上诉以及 Search 上诉结果仍待案卷验证。 / The Q3 10-Q reports that EDVA denied the structural divestiture request and ordered behavioral remedies in September. Final judgment and subsequent ad-tech and Search appeals require docket confirmation."
       }
     ],
     "stanceRationale": {
-      "zh": "以 $333.68（2026-07-30 收盘）计，市场在财报次日把 Alphabet 下调了 6.9%，股价较 5 月 13 日 $398.80 的收盘高点低约 16.3%——与 Microsoft 同期 +15.5% 的跳涨恰好相反。但折价本身不等于机会：约 9.2x TTM 收入、约 26.7x EV/TTM 经营利润、约 73.9x EV/TTM 自由现金流、以及清洗后至少约 29.7x 追溯盈利，仍假设自由现金流低谷是浅而暂时的。30% 牛市 / 50% 基准 / 20% 熊市网格的算术偏度轻度正向，但正向的一侧依赖 2027 年尚不可验证的事件（TPU 收入确认、自由现金流转正），负向的一侧已经印在 2026 上半年的现金流量表上（自由现金流转负、回购归零、增发 $49.6B、股本上升），因此以中性观察而非偏多开局。",
-      "en": "At $333.68 (2026-07-30 close) the market marked Alphabet down 6.9% on the session after the print, leaving it ~16.3% below the 2026-05-13 closing high of $398.80 - the mirror image of Microsoft's +15.5% pop over the same weeks. The de-rating is not by itself an opportunity: ~9.2x TTM revenue, ~26.7x EV/TTM operating income, ~73.9x EV/TTM free cash flow, and at least ~29.7x cleaned trailing earnings still assume the free-cash-flow trough is shallow and temporary. The 30% bull / 50% base / 20% bear grid carries a mild positive arithmetic skew, but the positive side depends on 2027 events nobody can yet verify (TPU revenue recognition, FCF turning positive) while the negative side is already printed on the H1 2026 cash-flow statement (FCF negative, buybacks at zero, $49.6B of equity issued, share count rising) - so the initiation opens at neutral-watch rather than constructive."
+      "zh": "2026-11-25 GOOG 收盘 $270.98，股类估值法得到普通股市值 $3.346T，受限现金、融资租赁及优先股桥后 EV $3.305T。EV/TTM 经营利润 21.05x，FCF 仅为普通股市值的 0.59%。Q3 ATM 已净筹 $12.4B，满足原独立下调分句。Cloud 强势和 9 月行为救济减轻部分经营与监管风险。情景加权 $287.08，价格年化 +2.8%，低于 8% 研究门槛；下行情景为 $146.81。中确信反映估值对权重敏感及 TPU 与监管实施成本缺乏量化披露。",
+      "en": "The November 25 GOOG close of $270.98 implies $3.346T of class-weighted common equity and $3.305T of EV after accounting for restricted assets, finance leases and preferred equity. EV/TTM operating income is 21.05x and FCF is 0.59% of common market capitalization. Q3 ATM proceeds of $12.4B satisfy the original independently sufficient downgrade clause. Cloud growth and September’s behavioral remedies ease some operating and regulatory risks. The weighted scenario is $287.08 and +2.8% annualized price return against an 8% hurdle, with an adverse case of $146.81. Conviction is medium given sensitivity to scenario weights and limited reporting on TPU and remedy economics."
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "季度自由现金流在 2027 年转正且 TTM 自由现金流重新扩张、Cloud 维持 50% 以上增长且 backlog 按期转化、TPU 外部收入按指引在 2027 年确认并在 Cloud 产品收入中变得可见、回购恢复且无进一步股权发行、且合并经营利润率在折旧爬坡时保持 32% 以上，则上调至偏多。",
-        "en": "Quarterly free cash flow turns positive during 2027 with TTM FCF re-expanding, Cloud holds above 50% growth with backlog converting on schedule, external TPU revenue recognizes in 2027 as guided and becomes visible in Cloud product revenue, buybacks resume without further equity issuance, and consolidated operating margin stays above 32% as depreciation ramps - upgrade to constructive.",
+        "zh": "连续两个季度自由现金流为正、期间无新增筹资性普通股发行、两季合并经营利润率均至少 30%，并核查 Cloud 积压转化与 TPU 里程碑后，上调至中性观察。第 8 节沿用 7 月熊市论点失效测试，另有合并经营利润率高于 32% 的要求。",
+        "en": "Upgrade to neutral-watch after two consecutive quarters of positive free cash flow, no new financing-related common issuance during that period, and consolidated operating margin of at least 30% in both quarters, with Cloud backlog conversion and TPU milestones checked. The July bear-case invalidation test in Section 8 separately retains its above-32% margin requirement.",
         "monitoringIds": [
           "fcf-and-funding-mix",
+          "depreciation-wave",
           "cloud-backlog-conversion",
-          "tpu-external-monetization",
-          "depreciation-wave"
+          "tpu-external-monetization"
         ]
       },
       "downgrade": {
-        "zh": "TTM 自由现金流转负、或 Alphabet 动用 $40B ATM 计划或进一步增发股权、Cloud 增速跌破约 40% 且 backlog 转化滑期、合并经营利润率随折旧浪潮落地跌破约 30%、TPU 外部收入滑出 2027 年、或结构性广告技术救济被判决，则下调至谨慎。",
-        "en": "TTM free cash flow turns negative, or Alphabet draws the $40B ATM or issues further equity, Cloud growth decelerates below ~40% while backlog conversion slips, consolidated operating margin falls below ~30% as the depreciation wave lands, external TPU revenue slips out of 2027, or a structural ad-tech remedy is ordered - downgrade to cautious.",
+        "zh": "Q3 已执行的 ATM 发行满足原「中性观察下调至谨慎」条件。进入谨慎后，任一原下调分句再次出现或首次成立即及时复核进一步下调：TTM 自由现金流转负、Alphabet 在 Q3 后再次动用 $40B ATM 计划或进一步增发股权、Cloud 增速跌破约 40% 且积压转化滑期、合并经营利润率随折旧爬坡跌破约 30%、TPU 外部收入滑出 2027 年、或法院判决结构性广告技术救济。任一分句均可独立启动新一轮裁定。下调至偏空规避须明确复核证据和估值。Q3 已执行的发行记入立场历史。",
+        "en": "Q3 ATM issuance satisfied the original neutral-watch to cautious trigger. From cautious, promptly reassess for a further downgrade if any of the original alternatives occurs: TTM free cash flow turns negative, Alphabet makes a new draw under the $40B ATM program or issues further equity after Q3, Cloud growth drops below about 40% while backlog conversion slips, consolidated operating margin falls below about 30% as depreciation ramps, external TPU revenue slips out of 2027, or a structural ad-tech remedy is ordered. Each remains an independent trigger for a new decision. A bearish-avoid stance requires an explicit review of the evidence and valuation. The completed Q3 issuance is logged in stance history.",
         "monitoringIds": [
           "fcf-and-funding-mix",
           "cloud-backlog-conversion",
@@ -9045,6 +9054,12 @@
         "stance": "neutral-watch",
         "conviction": "medium",
         "price": 333.68
+      },
+      {
+        "date": "2026-11-25",
+        "stance": "cautious",
+        "conviction": "medium",
+        "price": 270.98
       }
     ]
   },

@@ -522,11 +522,11 @@
       "symbol": "GOOG",
       "status": "carried-forward",
       "attemptedAt": "2026-11-27",
-      "baseDate": "2026-07-30",
-      "basePrice": 333.68,
+      "baseDate": "2026-11-25",
+      "basePrice": 270.98,
       "lastDate": "2026-11-25",
       "lastClose": 270.98,
-      "changePct": -18.8,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
