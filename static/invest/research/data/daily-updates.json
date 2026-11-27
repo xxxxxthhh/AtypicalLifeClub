@@ -3,6 +3,32 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "vertiv-2026",
+      "signalId": "vertiv-q3-2026-guide-delivery-20261028",
+      "type": "facts",
+      "evidenceDate": "2026-10-28",
+      "title": {
+        "en": "Vertiv Q3 results exceeded the high end of guidance on all six metrics",
+        "zh": "Vertiv 第三季度六项实绩超过指引上限"
+      },
+      "change": {
+        "en": "All six Q3 results exceeded the July guidance ceiling. Adjusted diluted EPS was $0.38 above the ceiling and adjusted operating margin was 0.2 percentage points higher.",
+        "zh": "六项 Q3 实绩超过 7 月指引上限，调整后摊薄 EPS 高出 $0.38，调整后营业利润率高出 0.2 个百分点。"
+      },
+      "meaning": {
+        "en": "Q3 did not meet the guide-miss prerequisite.",
+        "zh": "Q3 未出现指引落空这一监测前提。"
+      },
+      "next": {
+        "en": "Compare the next reported quarterly results with guidance for the same period.",
+        "zh": "用下一次公布的季度实绩核对同期间指引。"
+      },
+      "id": "research-5c1da1998d0a4557f3c145920ceca07a00169879e6a9947c831d74477039950e",
+      "publishedDate": "2026-11-27",
+      "company": "Vertiv",
+      "ticker": "VRT"
+    },
+    {
       "reportId": "axti-2026",
       "signalId": "axt-tongmei-tongzhou-land-agreement-20261112",
       "type": "facts",

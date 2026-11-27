@@ -41,6 +41,13 @@
       <description>Q3 10-Q 披露，Meta 与美国各司法辖区总检察长达成的协议包含面向美国未满 18 岁用户的 Facebook 和 Instagram 功能改动，以及五年的独立合规报告。 Meta 11 月 23 日提交的 8-K 载明，公司同意在特拉华州衡平法院相关诉讼的审前及庭审期间暂停发行 C 类普通股，包括以股票股息方式发行。庭审计划于 2027 年 4 月 19 日开始。 2026-07-30 监测更新（Q2 2026，季度截至 2026-06-30）：收入 $60.80B（同比 +28%）、营业利润 $18.775B、营业利润率 31%（去年同期 43%）、净利润 $15.848B（同比 -14%）、摊薄 EPS $6.18；总成本费用 $42.026B（同比 +55%）。经营现金流 $31.862B（+25%），但 $31.078B capex 把自由现金流压至 $0.784B（-91%）；FY2026 capex 指引收窄至 $130-145B。application-monetization 是混合读数：收入与经营现金流增长，营业利润率、净利润与 FCF 恶化。本中心 AI 基础设施书 demand-risk 层的需求锚覆盖：Meta 不是 GPU/HBM/电力/光模块供应商，而是整条链最重要的终端买方之一。2026-07-31 重新锚定至 2026-07-30 收盘 $539.03：市值约 $1.37T、EV 约 $1.41T，约 6.4x TTM P/S、约 15.9x EV/TTM 营业利润，按 Q1 剔除税益 EPS 年化约 18.4x（按 Q2 实际 EPS 年化约 21.8x）。倍数较旧锚点更宽松，立场按当前价格算术维持 neutral-watch / 中确信；上述 TTM 口径为 Q2'25-Q1'26，不含 2026 Q2，Q2 的 FCF 与利润率恶化关系到偏斜，须由 Q2 后重建口径的重新承保处理。</description>
     </item>
     <item>
+      <title>Vertiv 深度研究报告 - AI 数据中心电力与散热的卖铲人（建设速度仪表盘） / Vertiv Deep Research Report - The Power &amp; Cooling Pick-and-Shovel of AI Data Centers (Buildout Dashboard)</title>
+      <link>https://atypicallife.club/invest/research/reports/view.html?id=vertiv-2026</link>
+      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=vertiv-2026#vertiv-2026@2026-11-27</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+      <description>2026-10-29 — Q3 2026（截至2026-09-30，10-28发布）净销售额$4.313B（同比+61%、有机+55%），调整后营业利润率25.2%（+290bps）、摊薄EPS $1.95、调整后EPS $2.21、经营现金流$794M、调整后FCF $652M。公司称有机订单同比增长逾100%，未给订单金额；本轮所读业绩稿与演示稿未给本季backlog金额或book-to-bill，不能据增长率判复合监测全部未触发。FY2026净销售额指引$14.45–14.85B、调整后EPS $7.10–7.20、调整后FCF $2.6–2.8B，仅作为指引事实，不替换旧估值分母。10-27 8-K Item 2.01确认当日完成UIG收购：约$1.45B交割现金及最高$1.15B或有现金，后者按EBITDA目标计，不能当全额已付或直接并入EV。 订单/backlog与hyperscaler capex复合读数仍unclear；Q3 10-Q本轮未能独立读取、电话会未读，不认证该10-Q的缺失项或XBRL日期冲突。 估值仍按2026-08-17历史基础；新实绩、指引或交易资本影响待Mode B，价格、估值数字、立场和确信度未更新。</description>
+    </item>
+    <item>
       <title>Spotify 深度研究报告 - 全球音频科技平台的盈利转型与估值再评估 / Spotify Deep Research Report - The Global Audio Tech Platform's Profitability Transformation and Valuation Reassessment</title>
       <link>https://atypicallife.club/invest/research/reports/view.html?id=spotify-2026</link>
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=spotify-2026#spotify-2026@2026-11-27</guid>
@@ -375,13 +382,6 @@
       <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=amkr-2026#amkr-2026@2026-10-29</guid>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
       <description>2026-10-29 — 2026-10-27提交的Q3 2026 10-Q披露：9月30日合同负债$547.6M（6月30日$393.0M），其中短期$127.5M，其余预计1–5年确认$406.3M、5–10年确认$13.9M；相关已收预付款的在外备用信用证$200M。公司预计未来12个月收到约$1.9B客户预付款（其中$200M到账时需信用证）；10月与未点名客户新签协议，预计2027年收到约$1.3B。两数字不能相加，也不能与Q2披露的7月协议约$1.5B作无证据对账。CHIPS最高$407M直接资助仍未到账，35%税收抵免资格不等于已收现金。亚利桑那在建成本$553.3M、含资本化利息$8.5M，不证明投产。Q3毛利率同比提升主要由低材料含量产品占比提高解释；未给稼动率百分比。 预付款与补贴复合腿仍unclear；电话会与演示稿未读。 估值仍按2026-07-30历史基础；新实绩、指引或交易资本影响待Mode B，价格、估值数字、立场和确信度未更新。</description>
-    </item>
-    <item>
-      <title>Vertiv 深度研究报告 - AI 数据中心电力与散热的卖铲人（建设速度仪表盘） / Vertiv Deep Research Report - The Power &amp; Cooling Pick-and-Shovel of AI Data Centers (Buildout Dashboard)</title>
-      <link>https://atypicallife.club/invest/research/reports/view.html?id=vertiv-2026</link>
-      <guid isPermaLink="false">https://atypicallife.club/invest/research/reports/view.html?id=vertiv-2026#vertiv-2026@2026-10-29</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-      <description>2026-10-29 — Q3 2026（截至2026-09-30，10-28发布）净销售额$4.313B（同比+61%、有机+55%），调整后营业利润率25.2%（+290bps）、摊薄EPS $1.95、调整后EPS $2.21、经营现金流$794M、调整后FCF $652M。公司称有机订单同比增长逾100%，未给订单金额；本轮所读业绩稿与演示稿未给本季backlog金额或book-to-bill，不能据增长率判复合监测全部未触发。FY2026净销售额指引$14.45–14.85B、调整后EPS $7.10–7.20、调整后FCF $2.6–2.8B，仅作为指引事实，不替换旧估值分母。10-27 8-K Item 2.01确认当日完成UIG收购：约$1.45B交割现金及最高$1.15B或有现金，后者按EBITDA目标计，不能当全额已付或直接并入EV。 订单/backlog与hyperscaler capex复合读数仍unclear；Q3 10-Q本轮未能独立读取、电话会未读，不认证该10-Q的缺失项或XBRL日期冲突。 估值仍按2026-08-17历史基础；新实绩、指引或交易资本影响待Mode B，价格、估值数字、立场和确信度未更新。</description>
     </item>
     <item>
       <title>康宁 深度研究报告 - AI 基础设施的光连接卖铲人 / Corning Deep Research Report - The Optical-Connectivity Pick-and-Shovel of AI Infrastructure</title>
