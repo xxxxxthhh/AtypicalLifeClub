@@ -5739,5 +5739,28 @@
     "monitoringRefs": [
       "alphabet-2026:fcf-and-funding-mix"
     ]
+  },
+  {
+    "id": "alphabet-q3-tpu-recognition-and-inventory-20261029",
+    "date": "2026-10-29",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Alphabet 重申 TPU 系统协议收入绝大部分在 2027 年确认，合并存货继续上升",
+      "en": "Alphabet reiterates 2027 timing for most TPU agreement revenue as consolidated inventory rises"
+    },
+    "detail": {
+      "zh": "Alphabet 三季度 10-Q 称，面向特定客户的少数 TPU 系统供应协议自二季度开始确认收入，绝大部分预计于 2027 年确认。合并存货由 6 月末 99.91 亿美元升至 9 月末 133.08 亿美元，环比增加 33.17 亿美元，约 33.2%。公司称存货主要包括 TPU 系统硬件和消费设备，Cloud 产品收入主要来自 TPU 系统销售。 申报仍指向 2027 年确认绝大部分协议收入。合并存货包含消费设备，且两份 10-Q 均未单列 Cloud 产品收入或 TPU 销售金额，无法判断销售是否追上存货增长。综合读数仍不明确。 https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
+      "en": "Alphabet's Q3 Form 10-Q says it began recognizing revenue in Q2 from a limited number of TPU system supply agreements, with the significant majority expected in 2027. Consolidated inventory rose from $9.991 billion at June 30 to $13.308 billion at September 30, up $3.317 billion or about 33.2% sequentially. Alphabet says inventory primarily includes TPU system hardware and consumer devices, and Cloud product revenue comes primarily from TPU system sales. The filing still puts most agreement revenue in 2027. Consolidated inventory includes consumer devices, and the two Forms 10-Q provide no separate Cloud product revenue or TPU sales line to test whether sales kept pace with inventory. The composite reading remains unclear. https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "GOOG"
+    ],
+    "reportIds": [
+      "alphabet-2026"
+    ],
+    "monitoringRefs": [
+      "alphabet-2026:tpu-external-monetization"
+    ]
   }
 ]
