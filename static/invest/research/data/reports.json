@@ -2196,12 +2196,12 @@
           "en": "the '>90% secured' 2026 capex ($20-25B, ~7x revenue) breaks in a tighter capital market"
         },
         "latest": {
-          "zh": "2026-10-22 提交的 Form 6-K（accession 0001104659-26-117978）及附件 99.1 新闻稿：Nebius 三家借款主体于 2026-10-17 与 Citibank, N.A. 签署 Bridge Facility Agreement，提供 **35 亿美元高级担保定期贷款**，用于 GPU 基础设施产能建设及一般公司用途；利率 Term SOFR 加 2.75% 起、每 90 天上调 0.25%、最高 3.50%（可受其他调整影响）；可无溢价提前还款；**2027-10-16 到期**；含最低流动性财务契约，以各借款人几乎全部资产作担保（排除资产与允许留置权除外）。附件99.1新闻稿称仍可依托「超过 400 亿美元长期合同的投资级客户承诺」做资产支持融资。评级：unclear。新增额度表明融资渠道仍可获得，不证明「>90% 已锁定」的 2026 资本开支框架失效；但这是 364 天、利差逐季上调的过桥贷款，若提款后到期仍有未偿余额，则须在 2027-10-16 偿还或再融资，提款金额、费用与最低流动性水平均未披露，发行人仍未重述已锁定比例；35 亿美元约为 $200-250 亿区间的 14%-18%。证据既不证明框架失效，也不足以重新验证其成立。本次不重算估值、稀释或净现金，保留 2026-07-30 收盘 $188.43 的历史估值边界。（上一读数：2026-08-24 可转债 57.5 亿美元交割，unclear。）",
-          "en": "Form 6-K furnished 2026-10-22 (accession 0001104659-26-117978) with its Exhibit 99.1 press release: on 2026-10-17 the three Nebius borrowers entered into a Bridge Facility Agreement with Citibank, N.A. providing a **US$3.5B senior secured term loan facility** for GPU infrastructure capacity build-out and general corporate purposes, at Term SOFR plus a margin starting at 2.75% and rising 0.25% every 90 days to 3.50% (subject to other adjustments), prepayable without premium, **maturing 2027-10-16**, with a minimum-liquidity financial covenant and security over substantially all of each borrower's assets, subject to excluded assets and permitted liens. The release says asset-backed financing based on \"investment-grade customer commitments of more than $40 billion of long-term contracts\" remains available. Reading: unclear. The new facility shows funding remains accessible and does not show the \">90% secured\" 2026 capex frame breaking; but this is a 364-day bridge with a stepping margin that requires repayment or refinancing on 2027-10-16 only to the extent drawn and still outstanding, drawdown, fees and the minimum-liquidity level are undisclosed, and the issuer still does not restate the secured percentage; US$3.5B is roughly 14%-18% of the US$20-25B range. The evidence neither proves the frame has broken nor re-verifies that it holds. Valuation, dilution and net cash are not recomputed; the historical valuation boundary remains the 2026-07-30 close of $188.43. (Prior reading: 2026-08-24 US$5.75B convertible closing, unclear.)"
+          "en": "In Exhibit 99.2 to the November 12 Form 6-K, Nebius disclosed a $773.3M secured July term loan, with $751.8M of principal outstanding at September 30 and covenant compliance, including a minimum debt-service coverage ratio of 1.15:1. The separate $3.5B Citi bridge agreed in October appears as a subsequent event. The shareholder letter’s more-than-100% prepayment coverage applies to capex associated with Q3 agreements. Its 75%–85% figure is expected financing coverage for 2027 capex. The original claim that more than 90% of 2026 capex was secured still lacks a comparable update, leaving the reading unclear.",
+          "zh": "11 月 12 日 6-K 附件 99.2 显示，7 月签订的有担保定期贷款金额为 $773.3M，截至 9 月 30 日本金余额 $751.8M，借款人符合包括 1.15:1 最低偿债覆盖率在内的财务契约。10 月签订的 $3.5B Citi 过桥额度在期后事项中单列。 股东信所称预付款覆盖超过 100% 指第三季度新签协议对应的资本开支。其 75%–85% 指 2027 年资本开支的预期资金覆盖率。原先「2026 年资本开支超过 90% 已锁定」的说法仍缺可比数据，读数维持 unclear。"
         },
         "nextCheck": "Q3 2026 业绩中的提款／契约披露；如有未偿提款，2027-10-16 前偿还或置换贷款及其成本；已锁定比例是否重述 / drawdown and covenant disclosures in Q3 2026 results; repayment or take-out funding before 2027-10-16, if amounts are drawn and outstanding, and its cost; whether the secured percentage is restated",
         "reading": "unclear",
-        "readingAsOf": "2026-10-22"
+        "readingAsOf": "2026-11-12"
       },
       {
         "id": "optionality-crystallization",
@@ -2216,10 +2216,12 @@
           "en": "Toloka/Avride/TripleTen/ClickHouse stakes get monetized or partnered"
         },
         "latest": {
-          "zh": "ClickHouse 按约 $150 亿轮重估 +$7.806 亿",
-          "en": "ClickHouse marked +$780.6M on a ~$15B round"
+          "en": "Note 6 of Exhibit 99.2 to the November 12 Form 6-K says Avride issued an additional SAFE to SMB Holding after meeting specified milestones in June 2026 and received $75.0M in cash. The instrument is classified as a liability. Note 5 records zero quarterly upward adjustment for ClickHouse and attributes the $780.6M nine-month adjustment to remeasurement following the January financing. The SAFE confirms outside funding paid to Avride. The ClickHouse movement was a non-cash remeasurement. A stake sale, cash proceeds to the parent or an equity conversion of this SAFE still requires evidence, so the reading is unclear.",
+          "zh": "11 月 12 日 6-K 附件 99.2 附注 6 显示，Avride 于 2026 年 6 月在达到约定里程碑后向 SMB Holding 发行额外 SAFE 并收到 $75.0M，账上列为负债。附注 5 显示 ClickHouse 投资本季账面上调为零，前九个月的 $780.6M 上调来自 1 月融资的重估。 SAFE 确认 Avride 获得外部融资，现金收款方为 Avride。ClickHouse 的变动是非现金重估。股权出售、向母公司回款或本次 SAFE 转成股权仍待证据，读数为 unclear。"
         },
-        "nextCheck": "伙伴/股权出售公告 / stake-sale announcements"
+        "nextCheck": "伙伴/股权出售公告 / stake-sale announcements",
+        "reading": "unclear",
+        "readingAsOf": "2026-11-12"
       }
     ],
     "conviction": "medium",
