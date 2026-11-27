@@ -5601,5 +5601,28 @@
     "monitoringRefs": [
       "nvidia-2026:circular-financing-exposure"
     ]
+  },
+  {
+    "id": "alphabet-q3-adtech-remedies-disclosure-20261029",
+    "date": "2026-10-29",
+    "title": {
+      "zh": "Alphabet 披露美国广告技术案 9 月行为救济",
+      "en": "Alphabet discloses September U.S. ad-tech behavioral remedies"
+    },
+    "detail": {
+      "zh": "Q3 10-Q 附注 10 披露，弗吉尼亚东区法院 9 月驳回结构性剥离请求，要求互操作性、数据访问及拍卖行为救济。Search 交叉上诉按该申报仍待决。 https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+      "en": "Note 10 says EDVA denied the structural divestiture request in September and ordered behavioral remedies for interoperability, data access and auction conduct. Search cross-appeals remained pending in that filing. https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "GOOG"
+    ],
+    "reportIds": [
+      "alphabet-2026"
+    ],
+    "scope": "report-monitoring",
+    "monitoringRefs": [
+      "alphabet-2026:adtech-remedy-outcome"
+    ]
   }
 ]
