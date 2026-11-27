@@ -3,6 +3,84 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "almonty-2026",
+      "signalId": "almonty-q3-2026-executed-repurchase-20261112",
+      "type": "facts",
+      "evidenceDate": "2026-11-12",
+      "title": {
+        "en": "Almonty repurchased and cancelled 2.91 million shares in Q3",
+        "zh": "Almonty 第三季度实际回购并注销 291 万股"
+      },
+      "change": {
+        "en": "Almonty’s November 12 Q3 MD&A and financial statements report the repurchase and cancellation of 2,914,739 shares at a weighted average US$16.58 and another 703,053 after quarter-end. Reported shares outstanding fell from 288,109,013 at June 30 to 285,670,318 at September 30, a net sequential decrease of 2,438,695 shares (0.85%).",
+        "zh": "Almonty 11 月 12 日的三季度 MD&A 和报表披露，当季按加权均价 16.58 美元回购并注销 2,914,739 股，季后又回购并注销 703,053 股。公司披露的在外股数由 6 月末 288,109,013 股降至 9 月末 285,670,318 股，环比净减 2,438,695 股（0.85%）。"
+      },
+      "meaning": {
+        "en": "The Q3 share count fell, and disclosed financing and equity activity support a within reading for the quarter. The nine-month share movement includes 15,047,619 shares issued in January on conversion of an older debenture and 10,761,210 shares issued on exercises of options, CDI options and warrants and on RSU settlement, against 2,914,739 shares repurchased. A further 266,666 shares were issued after quarter-end to settle restricted stock units.",
+        "zh": "三季度股数下降，披露的当季融资与股本变化支持本期维持阈内。九个月股本变动包括 1 月旧债转换发行的 15,047,619 股、行使期权/CDI 期权/认股权证及结算限制性股票单位发行的 10,761,210 股，另有回购注销 2,914,739 股，季后另有结算限制性股票单位发行的 266,666 股。"
+      },
+      "next": {
+        "en": "Check new funding, actual convertible settlement and executed repurchases in the next filing.",
+        "zh": "下一期核对新增融资、可转债实际结算及已执行回购。"
+      },
+      "id": "research-cf1913a2606b33c94689a1cda28524c774fd9e01977e14059c3e64b3456cd432",
+      "publishedDate": "2026-11-28",
+      "company": "Almonty Industries",
+      "ticker": "ALM"
+    },
+    {
+      "reportId": "alphabet-2026",
+      "signalId": "alphabet-q3-adtech-remedies-disclosure-20261029",
+      "type": "facts",
+      "evidenceDate": "2026-10-29",
+      "title": {
+        "en": "Alphabet discloses behavioral remedies in the US ad-tech case",
+        "zh": "Alphabet 披露美国广告技术案的行为性救济决定"
+      },
+      "change": {
+        "en": "In its Q3 Form 10-Q filed October 29, Alphabet said the Eastern District of Virginia denied the DOJ’s request for structural divestitures of advertising technology assets in September 2026 and ordered remedies concerning interoperability, data access and auction conduct. Alphabet said that after the court enters final judgment it plans to appeal the adverse portion of the April 2025 decision and may also appeal aspects of the September 2026 remedies decision, and that the Search appeals were still pending.",
+        "zh": "Alphabet 在 10 月 29 日申报的三季度 10-Q 中披露，弗吉尼亚东区法院于 2026 年 9 月驳回 DOJ 要求剥离广告技术资产的请求，并作出涉及互操作、数据访问和竞价行为的救济决定。Alphabet 称，法院登记终局判决后，将就 2025 年 4 月判决中的不利部分提起上诉，并可能对 2026 年 9 月救济决定的部分内容提起上诉；Search 案双方上诉仍待决。"
+      },
+      "meaning": {
+        "en": "Both legs support a within reading as of that filing. The ad-tech disclosure describes the remedies decision, while the Search disclosure describes the status of the appeals.",
+        "zh": "以这份申报为限，本次读数为阈内。广告技术案披露的是救济决定，Search 案披露的是上诉状态。"
+      },
+      "next": {
+        "en": "Check the Eastern District of Virginia’s final judgment and any resulting appeal, as well as the D.C. Circuit’s disposition of the Search remedies.",
+        "zh": "核对弗吉尼亚东区终局判决及相关上诉结果，并跟踪哥伦比亚特区巡回法院对 Search 救济范围的裁定。"
+      },
+      "id": "research-8e0b7aa1f47f8f60f7c7f0cf0c94c591114d41da2154136886f3f12d2235e954",
+      "publishedDate": "2026-11-28",
+      "company": "Alphabet",
+      "ticker": "GOOG"
+    },
+    {
+      "reportId": "alphabet-2026",
+      "signalId": "alphabet-q3-depreciation-margins-20261028",
+      "type": "facts",
+      "evidenceDate": "2026-10-28",
+      "title": {
+        "en": "Alphabet’s Q3 depreciation rose and both margins stayed above monitoring thresholds",
+        "zh": "Alphabet Q3 折旧上升，合并与 Cloud 利润率仍高于监测阈值"
+      },
+      "change": {
+        "en": "Alphabet’s October 28 Q3 release reports depreciation of property and equipment of US$8.369 billion, up from US$5.611 billion a year earlier. Consolidated operating income of US$40.576 billion on revenue of US$127.577 billion gives a 31.8% margin. Google Cloud operating income of US$11.121 billion on segment revenue of US$30.709 billion gives a 36.2% margin.",
+        "zh": "Alphabet 10 月 28 日公布的三季度业绩显示，物业与设备折旧为 83.69 亿美元，上年同期为 56.11 亿美元。合并经营利润 405.76 亿美元除以收入 1,275.77 亿美元得 31.8%。Google Cloud 营业利润 111.21 亿美元除以分部收入 307.09 亿美元得 36.2%。"
+      },
+      "meaning": {
+        "en": "Both margins remained above their respective thresholds of about 30% and 25%, supporting a within reading for the quarter. The depreciation figure is consolidated and the Cloud margin is segment-level.",
+        "zh": "本季两个利润率均高于约 30% 和 25% 的对应阈值，监测读数维持阈内。折旧金额属于集团披露，Cloud 利润率是分部口径。"
+      },
+      "next": {
+        "en": "Recalculate both margins on the same basis next quarter and check the disclosed contribution of depreciation and data-center operating costs.",
+        "zh": "下一期用同口径重算两项营业利润率，并核对折旧与数据中心运营成本的归因。"
+      },
+      "id": "research-41f3fdd034185bae8f52b2284f6ae45dd895670d4a0c0e39e4288c9d7d1d8020",
+      "publishedDate": "2026-11-28",
+      "company": "Alphabet",
+      "ticker": "GOOG"
+    },
+    {
       "reportId": "airbnb-2026",
       "signalId": "airbnb-spain-short-term-rental-surety-bond-20261105",
       "type": "facts",
