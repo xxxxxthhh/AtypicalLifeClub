@@ -4046,6 +4046,29 @@
     ]
   },
   {
+    "id": "airbnb-spain-short-term-rental-surety-bond-20261105",
+    "date": "2026-11-05",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Airbnb Q3 10-Q 披露西班牙短租罚款案的 7,000 万欧元保函",
+      "en": "Airbnb Q3 10-Q discloses a EUR 70 million surety bond in the Spanish short-term rental fine case"
+    },
+    "detail": {
+      "zh": "Airbnb 在 2026-11-05 提交的 Q3 10-Q（0001559720-26-000032）附注 9 披露：2026 年 5 月，公司根据法院命令签订协议取得 7,000 万欧元（8,000 万美元）保函，以在案件解决前暂缓执行约 6,500 万欧元（7,600 万美元）的拟议罚款，并覆盖相关利息。公司仍对罚款和规则适用有争议，称潜在损失既非很可能发生，也无法估计。该披露涉及现有罚款程序，所读 10-Q 和业绩 8-K 未把一项主要市场短租禁令或上限列为重大。原文：https://www.sec.gov/Archives/edgar/data/1559720/000155972026000032/abnb-20260930.htm",
+      "en": "In Note 9 of its Q3 10-Q filed November 5, 2026 (0001559720-26-000032), Airbnb disclosed that in May 2026 it entered into an agreement to obtain a EUR 70 million ($80 million) surety bond under a court order to suspend enforcement of the proposed EUR 65 million ($76 million) fine and cover related interest pending resolution. Airbnb continues to dispute the fine and the applicability of the rules and says the potential loss is neither probable nor estimable. The filing concerns an existing fine proceeding. The 10-Q and earnings 8-K reviewed did not identify a major-market short-term rental ban or cap as material. Source: https://www.sec.gov/Archives/edgar/data/1559720/000155972026000032/abnb-20260930.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "ABNB"
+    ],
+    "reportIds": [
+      "airbnb-2026"
+    ],
+    "monitoringRefs": [
+      "airbnb-2026:regulation-supply"
+    ]
+  },
+  {
     "id": "mp-q3-2026-results-20261105",
     "date": "2026-11-05",
     "scope": "report-monitoring",
@@ -5623,29 +5646,6 @@
     ],
     "monitoringRefs": [
       "nvidia-2026:circular-financing-exposure"
-    ]
-  },
-  {
-    "id": "airbnb-spain-short-term-rental-surety-bond-20261105",
-    "date": "2026-11-05",
-    "scope": "report-monitoring",
-    "title": {
-      "zh": "Airbnb Q3 10-Q 披露西班牙短租罚款案的 7,000 万欧元保函",
-      "en": "Airbnb Q3 10-Q discloses a EUR 70 million surety bond in the Spanish short-term rental fine case"
-    },
-    "detail": {
-      "zh": "Airbnb 在 2026-11-05 提交的 Q3 10-Q（0001559720-26-000032）附注 9 披露：2026 年 5 月，公司根据法院命令签订协议取得 7,000 万欧元（8,000 万美元）保函，以在案件解决前暂缓执行约 6,500 万欧元（7,600 万美元）的拟议罚款，并覆盖相关利息。公司仍对罚款和规则适用有争议，称潜在损失既非很可能发生，也无法估计。该披露涉及现有罚款程序，所读 10-Q 和业绩 8-K 未把一项主要市场短租禁令或上限列为重大。原文：https://www.sec.gov/Archives/edgar/data/1559720/000155972026000032/abnb-20260930.htm",
-      "en": "In Note 9 of its Q3 10-Q filed November 5, 2026 (0001559720-26-000032), Airbnb disclosed that in May 2026 it entered into an agreement to obtain a EUR 70 million ($80 million) surety bond under a court order to suspend enforcement of the proposed EUR 65 million ($76 million) fine and cover related interest pending resolution. Airbnb continues to dispute the fine and the applicability of the rules and says the potential loss is neither probable nor estimable. The filing concerns an existing fine proceeding. The 10-Q and earnings 8-K reviewed did not identify a major-market short-term rental ban or cap as material. Source: https://www.sec.gov/Archives/edgar/data/1559720/000155972026000032/abnb-20260930.htm"
-    },
-    "crossChecks": [],
-    "tickers": [
-      "ABNB"
-    ],
-    "reportIds": [
-      "airbnb-2026"
-    ],
-    "monitoringRefs": [
-      "airbnb-2026:regulation-supply"
     ]
   }
 ]

@@ -3,6 +3,32 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "airbnb-2026",
+      "signalId": "airbnb-spain-short-term-rental-surety-bond-20261105",
+      "type": "facts",
+      "evidenceDate": "2026-11-05",
+      "title": {
+        "en": "Airbnb’s surety bond in the Spanish short-term rental fine case",
+        "zh": "Airbnb 西班牙短租罚款案的保函"
+      },
+      "change": {
+        "en": "Note 9 of the Q3 10-Q says Airbnb entered into a May 2026 agreement to obtain a EUR 70 million surety bond covering a proposed Spanish fine of about EUR 65 million and related interest.",
+        "zh": "Q3 10-Q 附注 9 披露，公司于 2026 年 5 月签订协议取得 7,000 万欧元保函，为西班牙约 6,500 万欧元的拟议罚款及相关利息提供担保。"
+      },
+      "meaning": {
+        "en": "The bond suspends enforcement pending resolution. Airbnb disputes the fine and the applicability of the rules and says a potential loss is neither probable nor estimable.",
+        "zh": "保函用于在案件解决前暂缓执行。Airbnb 仍对罚款及规则适用有争议，称潜在损失既非很可能发生，也无法估计。"
+      },
+      "next": {
+        "en": "Check later filings for a court decision, a change to the bond, or a major-market short-term rental ban or cap that Airbnb identifies as material.",
+        "zh": "核对后续申报是否披露法院裁决、保函变动，或公司认定为重大的主要市场短租禁令或上限。"
+      },
+      "id": "research-e8f6dd4006763e31b62ea8c7cbe0f9ad0a8b97c65e3866d593bb2bd6a760dad7",
+      "publishedDate": "2026-11-28",
+      "company": "Airbnb",
+      "ticker": "ABNB"
+    },
+    {
       "reportId": "pltr-2026",
       "signalId": "pltr-q3-2026-rdv-sbc-monitoring-20261103",
       "type": "facts",
