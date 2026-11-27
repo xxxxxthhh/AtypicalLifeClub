@@ -5670,5 +5670,28 @@
     "monitoringRefs": [
       "almonty-2026:financing-dilution"
     ]
+  },
+  {
+    "id": "alphabet-q3-adtech-remedies-disclosure-20261029",
+    "date": "2026-10-29",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Alphabet 披露美国广告技术案的行为性救济决定",
+      "en": "Alphabet discloses behavioral remedies in the US ad-tech case"
+    },
+    "detail": {
+      "zh": "Alphabet 在 10 月 29 日申报的三季度 10-Q 中披露，弗吉尼亚东区法院于 2026 年 9 月驳回 DOJ 要求剥离广告技术资产的请求，并作出涉及互操作、数据访问和竞价行为的救济决定。Alphabet 称，法院登记终局判决后，将就 2025 年 4 月判决中的不利部分提起上诉，并可能对 2026 年 9 月救济决定的部分内容提起上诉；Search 案双方上诉仍待决。 以这份申报为限，本次读数为阈内。广告技术案披露的是救济决定，Search 案披露的是上诉状态。 https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+      "en": "In its Q3 Form 10-Q filed October 29, Alphabet said the Eastern District of Virginia denied the DOJ’s request for structural divestitures of advertising technology assets in September 2026 and ordered remedies concerning interoperability, data access and auction conduct. Alphabet said that after the court enters final judgment it plans to appeal the adverse portion of the April 2025 decision and may also appeal aspects of the September 2026 remedies decision, and that the Search appeals were still pending. Both legs support a within reading as of that filing. The ad-tech disclosure describes the remedies decision, while the Search disclosure describes the status of the appeals. https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "GOOG"
+    ],
+    "reportIds": [
+      "alphabet-2026"
+    ],
+    "monitoringRefs": [
+      "alphabet-2026:adtech-remedy-outcome"
+    ]
   }
 ]
