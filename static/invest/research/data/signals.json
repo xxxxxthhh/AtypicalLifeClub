@@ -5577,5 +5577,28 @@
     "monitoringRefs": [
       "nebius-2026:optionality-crystallization"
     ]
+  },
+  {
+    "id": "nvidia-q3-guarantee-exposure-20261117",
+    "date": "2026-11-17",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "NVIDIA 披露担保最高总敞口升至 $118.0B",
+      "en": "NVIDIA discloses $118.0B maximum gross guarantee exposure"
+    },
+    "detail": {
+      "en": "Exhibit 99.2 to the November 17 Form 8-K reports $118.0B maximum gross guarantee exposure as of October 25. This comprises $105.0B for SB Energy, $3.5B for neocloud land, power and shell guarantees, and $9.5B for power and systems credit support. The disclosed ceiling rose $9.5B from the Q2 Form 10-Q figure of $108.5B. NVIDIA reported no guarantee payments to date. The disclosure distinguishes the guarantee ceiling from payments. NVIDIA also recorded $1.8B of non-marketable equity impairment. The exhibit does not name the impaired investees or provide enough detail to verify independent demand and repayment capacity for the new credit support. The trigger reading remains unclear. https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/0001045810-26-000088.txt https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+      "zh": "11 月 17 日 8-K 附件 99.2 显示，截至 10 月 25 日，担保最高总敞口为 $118.0B。SB Energy 为 $105.0B，neocloud 土地、电力和厂房担保为 $3.5B，电力与系统信用支持为 $9.5B。相对 Q2 10-Q 的 $108.5B，披露上限增加 $9.5B。发行人称截至披露时未就担保付款。 披露区分了担保上限与实际付款。同期非上市股权证券减值 $1.8B，附件未列明对应被投对象，也未提供足以核验新信用支持独立需求及偿付能力的条款。原触发条件读数维持 unclear。 https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/0001045810-26-000088.txt https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "NVDA"
+    ],
+    "reportIds": [
+      "nvidia-2026"
+    ],
+    "monitoringRefs": [
+      "nvidia-2026:circular-financing-exposure"
+    ]
   }
 ]
