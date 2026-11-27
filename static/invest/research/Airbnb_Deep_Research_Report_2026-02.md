@@ -1,7 +1,7 @@
 # Airbnb (NASDAQ: ABNB) Deep Research Report
 
 Coverage date: 2026-02-13
-Last updated: 2026-11-06
+Last updated: 2026-11-28
 Ticker: NASDAQ: ABNB
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -16,6 +16,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 > **[June 25, 2026 Update — historical, superseded by the August 7, 2026 version above]** Valuation refresh and Q1 2026 earnings incorporation. Key changes: Stock price rose from ~$119 to ~~$142.90~~ (+20%), market cap from ~$71.4B to ~~$85.7B~~. Q1 2026 revenue grew +17.9% YoY (beating 14-16% guidance), but earnings grew only +3.9% (margin compression). TTM P/E expanded from ~29x to ~~35.4x~~, P/S from ~5.9x to 6.8x, P/FCF from ~15.5x to ~~26.9x~~ (TTM levered FCF ~~$3.19B~~ vs FY2025 $4.6B). Valuation has materially expanded, shifting the core tension from "can growth re-accelerate?" to "has the price already priced in the optimism?" Q1 delivered on the growth re-acceleration promise, but margin and FCF quality warrant monitoring.
 
 ## Executive Summary
+
+> **2026-11-28 regulatory monitoring update:** In its [November 5 Q3 2026 Form 10-Q, Note 9](https://www.sec.gov/Archives/edgar/data/1559720/000155972026000032/abnb-20260930.htm), Airbnb states that in May it entered into an agreement to obtain a EUR 70 million ($80 million) surety bond under a court order. The bond suspends enforcement of the proposed EUR 65 million ($76 million) Spanish short-term rental fine and covers related interest pending resolution. Airbnb disputes the fine and the applicability of the rules and says the potential loss is neither probable nor estimable. The Q3 disclosures reviewed identify no major-market short-term rental ban or cap that Airbnb describes as material, so `regulation-supply` remains within its threshold. The historical valuation basis still applies, and the published stance and conviction are unchanged.
 
 > **2026-11-06 factual update**: Q3 2026 (quarter ended 2026-09-30; shareholder letter 8-K Ex 99.1 and 10-Q, after the close on 2026-11-05) revenue was $4,869M (+19% YoY, +16% ex-FX) against the $4.69-4.77B guide; Nights and Seats Booked 155.0M (+16%); GBV $27.7B (+21%, +21% ex-FX); the implied take rate (revenue / GBV) was 17.6%, which the company says was down year over year, mainly from the expansion of Reserve Now, Pay Later. Net income $1.9B (39% margin), adjusted EBITDA $2.5B (52% margin vs 50%), free cash flow $1.4B. Q3 repurchases were $0.7B with $2.7B of authorization remaining at 9-30, and a new $12B authorization was announced. Q4 2026 guide: revenue $3.22-3.28B (+16% to +18% YoY, including about two points of FX tailwind), implied take rate up slightly YoY, GBV growth in the mid-teens; full-year revenue growth raised to the high teens and full-year adjusted EBITDA margin raised to about 36%. The 10-Q reports no material change in risk factors from the 10-K and the two prior 10-Qs.
 >
