@@ -3,6 +3,58 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "axti-2026",
+      "signalId": "axt-tongmei-tongzhou-land-agreement-20261112",
+      "type": "facts",
+      "evidenceDate": "2026-11-12",
+      "title": {
+        "en": "AXT discloses Tongmei industrial site acquisition agreement",
+        "zh": "AXT 披露通美工业用地项目收购协议"
+      },
+      "change": {
+        "en": "Tongmei agreed to buy a company holding approximately 69,452 m² of industrial land-use rights in Beijing for RMB 115,132,900.",
+        "zh": "通美签约，拟以 115,132,900 元人民币收购一家持有北京约 69,452 平方米工业土地使用权的公司。"
+      },
+      "meaning": {
+        "en": "The agreement identifies a site for possible future expansion. The filing gives no completion date or output target.",
+        "zh": "协议明确了未来扩产的候选用地，申报未给出交割日期或产量目标。"
+      },
+      "next": {
+        "en": "Track the closing, commissioning timetable and actual 2027 output disclosures.",
+        "zh": "跟踪交割、投产时间表及 2027 年实际产量披露。"
+      },
+      "id": "research-c3990559c4e3a7aacdc8a5122c12ee68375cbe85a57f22cc5e7c8f0a6777f4db",
+      "publishedDate": "2026-11-27",
+      "company": "AXT Inc.",
+      "ticker": "AXTI"
+    },
+    {
+      "reportId": "vistra-2026",
+      "signalId": "vistra-q3-2026-10q-pre-close-leverage-20261109",
+      "type": "facts",
+      "evidenceDate": "2026-11-09",
+      "title": {
+        "en": "Vistra files Q3 balance sheet before the Cogentrix close",
+        "zh": "Vistra 披露 Cogentrix 交割前的第三季资产负债表"
+      },
+      "change": {
+        "en": "Vistra’s Q3 10-Q shows comparable quarter-end debt-like obligations less cash down 5.2% to $19.025B. Nine-month operating cash flow less the stated capital spending rose to $2.011B from $722M.",
+        "zh": "Vistra 第三季申报显示，按同一口径计算的季末债务类项目减现金环比下降 5.2% 至 190.25 亿美元。前九个月经营现金流减指定资本开支由 7.22 亿美元升至 20.11 亿美元。"
+      },
+      "meaning": {
+        "en": "The September balance sheet predates Cogentrix. Repayment of the assumed debt used cash and facility borrowing, so comparable post-close leverage remains open.",
+        "zh": "九月资产负债表早于 Cogentrix 交割。承担债务以现金及融资工具借款偿还，交割后同口径杠杆仍待核。"
+      },
+      "next": {
+        "en": "Check acquisition-date balances and supplemental pro forma results in the 2026 Form 10-K.",
+        "zh": "在 2026 年 10-K 中核对收购日余额与补充备考业绩。"
+      },
+      "id": "research-600ce7aba3598bd173df3a0ac24c8b76a05bc732ae97a954ade2ea564f87b1f0",
+      "publishedDate": "2026-11-27",
+      "company": "Vistra",
+      "ticker": "VST"
+    },
+    {
       "reportId": "micron-2026",
       "signalId": "micron-fy2026-10k-sca-deposits-20261009",
       "type": "facts",
