@@ -3,6 +3,32 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "pltr-2026",
+      "signalId": "pltr-q3-2026-rdv-sbc-monitoring-20261103",
+      "type": "facts",
+      "evidenceDate": "2026-11-03",
+      "title": {
+        "en": "Palantir US commercial RDV growth trails revenue for two quarters",
+        "zh": "Palantir 美国商业 RDV 增速连续两季低于收入"
+      },
+      "change": {
+        "en": "Q2/Q3 US commercial RDV grew 124%/79% YoY against 149%/148% revenue growth. Q3 stock-based compensation was 13.78% of revenue, versus 13.70% in Q2 and 14.59% a year earlier.",
+        "zh": "Q2／Q3 美国商业 RDV 同比增长 124%／79%，收入增长 149%／148%。Q3 股权激励占收入 13.78%，Q2 为 13.70%，上年同期为 14.59%。"
+      },
+      "meaning": {
+        "en": "RDV meets the existing two-quarter monitor. TCV lagged revenue only in Q3.",
+        "zh": "RDV 达到原连续两季监测门槛。TCV 只落后一季，不能据此判为两个季度的 TCV 增速逆转。"
+      },
+      "next": {
+        "en": "Compare like-for-like RDV, TCV and revenue growth next quarter and check whether stock-based compensation intensity falls.",
+        "zh": "复核下一季同口径 RDV、TCV 与收入增速，并检验股权激励占比能否回落。"
+      },
+      "id": "research-2fe195cdd82158b9468e00c548d9b47bd00c527b849d9c5d8e8a0722729753e8",
+      "publishedDate": "2026-11-28",
+      "company": "Palantir Technologies",
+      "ticker": "PLTR"
+    },
+    {
       "reportId": "nebius-2026",
       "signalId": "nebius-q3-avride-milestone-safe-20261112",
       "type": "facts",
