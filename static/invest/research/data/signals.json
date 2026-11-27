@@ -5414,5 +5414,28 @@
     "monitoringRefs": [
       "axti-2026:inp-revenue-capacity"
     ]
+  },
+  {
+    "id": "vertiv-q3-2026-guide-delivery-20261028",
+    "date": "2026-10-28",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Vertiv 第三季度六项实绩超过指引上限",
+      "en": "Vertiv Q3 results exceeded the high end of guidance on all six metrics"
+    },
+    "detail": {
+      "zh": "对照 Vertiv 7 月 29 日发布的第三季度指引，10 月 28 日实际披露的净销售额、有机销售增速、调整后营业利润、调整后营业利润率、调整后摊薄 EPS 及其同比增速均高于上限。调整后摊薄 EPS 高出 $0.38，调整后营业利润率高出 0.2 个百分点。第三季度未出现指引落空这一触发前提。https://www.sec.gov/Archives/edgar/data/1674101/000162828026050323/q22026exhibit991vrt07292026.htm https://www.sec.gov/Archives/edgar/data/1674101/000162828026067707/q32026exhibit991vrt10282026.htm",
+      "en": "Against Vertiv's July 29 quarterly guidance, the October 28 results exceeded the high end for net sales, organic sales growth, adjusted operating profit, adjusted operating margin, adjusted diluted EPS and its year-over-year growth. Adjusted diluted EPS was $0.38 above the high end and adjusted operating margin was 0.2 percentage points above it. The guide-miss prerequisite was absent in Q3. https://www.sec.gov/Archives/edgar/data/1674101/000162828026050323/q22026exhibit991vrt07292026.htm https://www.sec.gov/Archives/edgar/data/1674101/000162828026067707/q32026exhibit991vrt10282026.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "VRT"
+    ],
+    "reportIds": [
+      "vertiv-2026"
+    ],
+    "monitoringRefs": [
+      "vertiv-2026:valuation-multiple"
+    ]
   }
 ]
