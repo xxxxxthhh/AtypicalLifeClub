@@ -1,11 +1,15 @@
 # Alphabet (GOOG) Deep Research Report
 
 Coverage date: 2026-07-31
-Last updated: 2026-11-24
+Last updated: 2026-11-28
 Ticker: NASDAQ: GOOG
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
+
+> **2026-11-28 · Alphabet discloses behavioral remedies in the US ad-tech case (evidence dated 2026-10-29).** In its Q3 Form 10-Q filed October 29, Alphabet said the Eastern District of Virginia denied the DOJ’s request for structural divestitures of advertising technology assets in September 2026 and ordered remedies concerning interoperability, data access and auction conduct. Alphabet said that after the court enters final judgment it plans to appeal the adverse portion of the April 2025 decision and may also appeal aspects of the September 2026 remedies decision, and that the Search appeals were still pending. Both legs support a within reading as of that filing. The ad-tech disclosure describes the remedies decision, while the Search disclosure describes the status of the appeals. The report retains its historical valuation basis. The published stance and conviction are unchanged. [Source 1](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm)
+
+> **2026-11-28 · Alphabet’s Q3 depreciation rose and both margins stayed above monitoring thresholds (evidence dated 2026-10-28).** Alphabet’s October 28 Q3 release reports depreciation of property and equipment of US$8.369 billion, up from US$5.611 billion a year earlier. Consolidated operating income of US$40.576 billion on revenue of US$127.577 billion gives a 31.8% margin. Google Cloud operating income of US$11.121 billion on segment revenue of US$30.709 billion gives a 36.2% margin. Both margins remained above their respective thresholds of about 30% and 25%, supporting a within reading for the quarter. The depreciation figure is consolidated and the Cloud margin is segment-level. The report retains its historical valuation basis. The published stance and conviction are unchanged. [Source 1](https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf) · [Source 2](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm)
 
 > **2026-11-24 Factual update · Alphabet closes C$6 billion senior notes offering.** The Form 8-K lists C$2.00 billion at 4.100% due 2029, C$1.25 billion at 4.800% due 2034, C$1.50 billion at 5.325% due 2038, and C$1.25 billion at 6.000% due 2066. These are principal amounts in Canadian dollars. The notes add a debt financing event alongside the separately reported Q3 ATM equity issuance. The published stance and conviction are unchanged. The report retains its historical valuation basis. [Form 8-K](https://www.sec.gov/Archives/edgar/data/1652044/000119312526475973/d91615d8k.htm)
 
