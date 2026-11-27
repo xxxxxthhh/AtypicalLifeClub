@@ -1,7 +1,7 @@
 # Nebius Group (NASDAQ: NBIS) Deep Research Report
 
 Coverage date: 2026-07-01
-Last updated: 2026-11-17
+Last updated: 2026-11-27
 Ticker: NASDAQ: NBIS
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence. All prices and market caps are point-in-time snapshots; financial figures are per company disclosure unless noted otherwise.
 
@@ -12,6 +12,13 @@ Disclaimer: This report is for informational and research purposes only. It does
 ---
 
 > **2026-11-17 factual addendum (evidence dated 2026-11-12) — Nebius Q3: positive GAAP operating income, but negative operating cash flow：** The issuer's November 12, 2026 Q3 release reports continuing-operations revenue of $980.8M and operating costs and expenses of $930.4M: GAAP operating income is therefore $50.4M (derived, about 5.1% margin). Continuing-operations net loss was $37.5M and adjusted EBITDA $465.8M. Quarterly operating cash flow was -$273.0M, with $7,300.4M of cash purchases of property, equipment and intangible assets. Against the trigger of profit remaining driven by non-cash marks rather than operations turning positive, the quarterly GAAP operating line did turn positive, supporting within for this quarter; a net loss is not mark-driven profit. One quarter does not establish nine-month operating profitability, positive cash flow, self-funded capex or high-utilization ARR/backlog conversion. Other monitoring evidence dates are unchanged. This is a factual update of the named monitoring items only. Older facts below retain their original dates and do not certify all monitoring as current. Valuation retains the published 2026-07-30 historical anchor; current capital and financial denominators await Mode B. The published stance and conviction are unchanged. [Primary source](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm)
+
+
+> **2026-11-27 monitoring addendum (evidence dated 2026-11-12)**
+>
+> The November 12, 2026 Form 6-K financial statements (Exhibit 99.2) and earnings release report Q3 GAAP operating income of $50.4M versus a $130.2M operating loss a year earlier, a $37.5M continuing-operations net loss and no quarterly equity-investment revaluation gain. The quarter stays within on the operating-income trigger. Quarterly cash flow from continuing operations was negative $273.0M and purchases of property, equipment and intangible assets were $7,300.4M. For the first nine months, the company reported a $253.5M operating loss and $393.3M of continuing-operations net income, including a $780.6M non-cash ClickHouse remeasurement gain. Subtracting only that gain before any tax or other adjustments gives an illustrative negative $387.3M. The quarterly operating improvement has yet to remove year-to-date dependence on the remeasurement.
+>
+> The report retains its historical valuation basis dated 2026-07-30. Current financial denominators require separate review. The published stance and conviction are unchanged. [SEC filing](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm) [Earnings release](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm)
 
 ## Executive Summary
 
