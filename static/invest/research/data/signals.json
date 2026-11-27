@@ -5716,5 +5716,28 @@
     "monitoringRefs": [
       "alphabet-2026:depreciation-wave"
     ]
+  },
+  {
+    "id": "alphabet-euro-senior-notes-20261105",
+    "date": "2026-11-05",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Alphabet 完成 60 亿欧元优先票据发行",
+      "en": "Alphabet closes €6 billion senior notes offering"
+    },
+    "detail": {
+      "zh": "Alphabet 于 11 月 5 日完成 60 亿欧元优先票据发行，11 月 24 日另完成 60 亿加元优先票据发行。两笔均为债务融资。三季度通过 ATM 计划发行 1,200 万股 A 类股和 2,400 万股 C 类股，分别筹得净额 43 亿及 81 亿美元，计划于 9 月末剩余约 276 亿美元。季度自由现金流为负 90.65 亿美元，过去十二个月为正 197.47 亿美元。 三季度已执行的 ATM 股权发行触发融资分句。过去十二个月自由现金流仍为正，两笔优先票据属于分开记录的债务融资。 https://www.sec.gov/Archives/edgar/data/1652044/000119312526449835/d174184d8k.htm https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf https://www.sec.gov/Archives/edgar/data/1652044/000119312526475973/d91615d8k.htm",
+      "en": "Alphabet closed €6 billion of senior notes on November 5 and a separate C$6 billion offering on November 24. Both were debt financings. In Q3, Alphabet sold 12 million Class A and 24 million Class C shares under its ATM program for net proceeds of $4.3 billion and $8.1 billion, respectively. Approximately $27.6 billion remained available at September 30. Quarterly free cash flow was negative $9.065 billion and trailing twelve-month free cash flow was positive $19.747 billion. The executed Q3 ATM equity sales met the financing clause. Trailing free cash flow remained positive. The two senior-note offerings are separate debt events. https://www.sec.gov/Archives/edgar/data/1652044/000119312526449835/d174184d8k.htm https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf https://www.sec.gov/Archives/edgar/data/1652044/000119312526475973/d91615d8k.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "GOOG"
+    ],
+    "reportIds": [
+      "alphabet-2026"
+    ],
+    "monitoringRefs": [
+      "alphabet-2026:fcf-and-funding-mix"
+    ]
   }
 ]
