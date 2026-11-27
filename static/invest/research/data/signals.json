@@ -5554,5 +5554,28 @@
     "monitoringRefs": [
       "nebius-2026:funding-durability"
     ]
+  },
+  {
+    "id": "nebius-q3-avride-milestone-safe-20261112",
+    "date": "2026-11-12",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Nebius 申报确认 Avride 收到 $75M SAFE 资金",
+      "en": "Nebius filing confirms Avride received $75M of SAFE funding"
+    },
+    "detail": {
+      "en": "Note 6 of Exhibit 99.2 to the November 12 Form 6-K says Avride issued an additional SAFE to SMB Holding after meeting specified milestones in June 2026 and received $75.0M in cash. The instrument is classified as a liability. Note 5 records zero quarterly upward adjustment for ClickHouse and attributes the $780.6M nine-month adjustment to remeasurement following the January financing. The SAFE confirms outside funding paid to Avride. The ClickHouse movement was a non-cash remeasurement. A stake sale, cash proceeds to the parent or an equity conversion of this SAFE still requires evidence, so the reading is unclear. https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm",
+      "zh": "11 月 12 日 6-K 附件 99.2 附注 6 显示，Avride 于 2026 年 6 月在达到约定里程碑后向 SMB Holding 发行额外 SAFE 并收到 $75.0M，账上列为负债。附注 5 显示 ClickHouse 投资本季账面上调为零，前九个月的 $780.6M 上调来自 1 月融资的重估。 SAFE 确认 Avride 获得外部融资，现金收款方为 Avride。ClickHouse 的变动是非现金重估。股权出售、向母公司回款或本次 SAFE 转成股权仍待证据，读数为 unclear。 https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "NBIS"
+    ],
+    "reportIds": [
+      "nebius-2026"
+    ],
+    "monitoringRefs": [
+      "nebius-2026:optionality-crystallization"
+    ]
   }
 ]
