@@ -1,11 +1,13 @@
 # Amkor Technology (AMKR) Deep Research Report
 
 Coverage date: 2026-07-31
-Last updated: 2026-10-29
+Last updated: 2026-11-28
 Ticker: NASDAQ: AMKR
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
+
+> **2026-11-28 · Amkor's Arizona construction costs rose $219.7 million from June to September (evidence dated 2026-10-27).** Amkor's Q3 Form 10-Q reports $553.3 million of cumulative construction costs for the Arizona Facility at September 30, including $8.5 million of capitalized interest. The June 30 filing showed $333.6 million, a $219.7 million increase by subtraction. The Q3 filing still expects the transaction for approximately 67 additional acres to close in Q4 2026. Construction costs and an expected land closing do not establish Phase 1 completion or production. The FY2025 Form 10-K put production in H1 2028. The Q3 filing does not restate Phase 1 timing or quantify named multiyear volumes. Q3 company-wide gross margin was 18.3% in a period before the original startup window. The three trigger legs remain unresolved. The report retains its historical valuation basis. The published stance and conviction are unchanged. [Source 1](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000052/amkr-20260930.htm) · [Source 2](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000046/amkr-20260630.htm) · [Source 3](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000014/amkr-20251231.htm) · [Source 4](https://www.sec.gov/Archives/edgar/data/1047127/000104712726000049/amkr9302026erex-991.htm)
 
 ## Executive Summary
 
