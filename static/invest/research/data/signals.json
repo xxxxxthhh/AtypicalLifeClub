@@ -4830,8 +4830,8 @@
       "zh": "Google Cloud 收入翻倍，Alphabet 季度自由现金流缺口扩大"
     },
     "detail": {
-      "zh": "Q3 Google Cloud 收入 307.09 亿美元（同比 +103%），营业利润 111.21 亿美元（利润率 36.2%），季末 Cloud 积压收入 5,608 亿美元。搜索及其他收入 633.50 亿美元（+12%）。季度自由现金流为负 90.65 亿美元，TTM 自由现金流仍为正 197.47 亿美元。 云业务收入和盈利增长，资本开支加重现金压力。搜索收入未拆分 AI 查询的单次变现。 跟踪积压收入转化、搜索变现和 TTM 自由现金流是否接近零。 https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
-      "en": "In Q3, Google Cloud revenue was $30.709B (+103% YoY), operating income was $11.121B (36.2% margin), and quarter-end Cloud backlog was $560.8B. Search & other revenue was $63.350B (+12%). Quarterly free cash flow was −$9.065B, while trailing free cash flow remained positive at $19.747B. Cloud volumes and profitability grew while heavier capital spending squeezed cash. Search revenue data does not isolate monetization per AI query. Check backlog conversion, Search monetization, and whether trailing free cash flow approaches zero. https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
+      "zh": "Q3 Google Cloud 收入 307.09 亿美元（同比 +103%），营业利润 111.21 亿美元（利润率 36.2%），季末 Cloud 积压收入 5,608 亿美元。搜索及其他收入 633.50 亿美元（+12%）。季度自由现金流为负 90.65 亿美元，TTM 自由现金流仍为正 197.47 亿美元。 云业务收入和盈利增长，资本开支加重现金压力。搜索收入未拆分 AI 查询的单次变现。 跟踪积压收入转化、搜索变现和 TTM 自由现金流是否接近零。 https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm Q3 合并经营率 31.8%，Cloud 36.2%，均高于监测阈值。PP&E 折旧 $8.369B，约为现金 capex 的 16.3%。 https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+      "en": "In Q3, Google Cloud revenue was $30.709B (+103% YoY), operating income was $11.121B (36.2% margin), and quarter-end Cloud backlog was $560.8B. Search & other revenue was $63.350B (+12%). Quarterly free cash flow was −$9.065B, while trailing free cash flow remained positive at $19.747B. Cloud volumes and profitability grew while heavier capital spending squeezed cash. Search revenue data does not isolate monetization per AI query. Check backlog conversion, Search monetization, and whether trailing free cash flow approaches zero. https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm Q3 consolidated operating margin of 31.8% and Cloud margin of 36.2% remained above their monitoring thresholds. PP&E depreciation of $8.369B was about 16.3% of cash capex. https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm"
     },
     "crossChecks": [
       "semicap-eda-capex-commitment"
@@ -4844,7 +4844,8 @@
     ],
     "monitoringRefs": [
       "alphabet-2026:search-vs-ai-answers",
-      "alphabet-2026:cloud-backlog-conversion"
+      "alphabet-2026:cloud-backlog-conversion",
+      "alphabet-2026:depreciation-wave"
     ]
   },
   {
