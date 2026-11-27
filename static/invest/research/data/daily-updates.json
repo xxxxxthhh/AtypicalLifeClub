@@ -3,6 +3,58 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "mp-2026",
+      "signalId": "mp-q3-2026-10q-funding-ppa-20261106",
+      "type": "facts",
+      "evidenceDate": "2026-11-06",
+      "title": {
+        "en": "MP Materials Q3 10-Q: capex guidance holds and first-half PPA cash was collected",
+        "zh": "MP Materials Q3 10-Q：资本开支指引持平，上半年 PPA 款项已收"
+      },
+      "change": {
+        "en": "The subsequently filed Q3 10-Q confirms $500M–$600M of annual net capex guidance, $1,337.911M of quarter-end liquidity and approximately $110.9M of PPA cash receipts by September 30 for Q4 2025 and H1 2026.",
+        "zh": "随后提交的 Q3 10-Q 确认年度净资本开支仍指引 $500M–$600M，期末流动性 $1,337.911M，并披露截至 9 月末已收到对应 2025 Q4 与 2026 上半年 PPA 收入的约 $110.9M。"
+      },
+      "meaning": {
+        "en": "Liquidity exceeds the monitoring threshold and the filing directly supports collection of prior-period PPA accruals. Segment earnings excluding PPA are positive and include a one-time sale whose profit was not disclosed separately.",
+        "zh": "期末流动性高于监测门槛，PPA 前期已确认款项有直接收款依据。剔除 PPA 后分部利润为正，其中仍含未单列利润的一次性交付。"
+      },
+      "next": {
+        "en": "Use the subsequent filings to check collection of the Q3 PPA accrual and the next period’s capex, liquidity and segment profitability.",
+        "zh": "在后续申报核对 Q3 新增 PPA 应收的到账及下一期资本开支、流动性和分部利润。"
+      },
+      "id": "research-9877a2ece4f93f211de0ba2516e2688e0b5a256ce615d9535b86b6d442805563",
+      "publishedDate": "2026-11-27",
+      "company": "MP Materials",
+      "ticker": "MP"
+    },
+    {
+      "reportId": "nebius-2026",
+      "signalId": "nebius-q3-2026-ytd-clickhouse-bridge-20261112",
+      "type": "facts",
+      "evidenceDate": "2026-11-12",
+      "title": {
+        "en": "Nebius turns an operating profit in Q3 while the nine-month result still depends on the ClickHouse mark",
+        "zh": "Nebius Q3 经营转正，前九个月累计利润仍受 ClickHouse 重估支撑"
+      },
+      "change": {
+        "en": "The accompanying 6-K financial statements report a $253.5M nine-month operating loss and $393.3M of continuing-operations net income, including a $780.6M ClickHouse remeasurement gain.",
+        "zh": "同期 6-K 财务报表披露，前九个月累计经营亏损 $253.5M，持续经营净利润 $393.3M，其中包含 $780.6M 的 ClickHouse 投资重估收益。"
+      },
+      "meaning": {
+        "en": "The quarterly operating improvement coexists with a year-to-date operating loss. Year-to-date net income does not establish sustained operating profitability.",
+        "zh": "单季经营改善与累计经营亏损同时成立。累计净利润不能作为经营已持续转正的证据。"
+      },
+      "next": {
+        "en": "Check the next quarterly and full-year operating results and isolate any investment remeasurement.",
+        "zh": "用下一份业绩披露核对单季度和全年经营利润，单列任何投资重估影响。"
+      },
+      "id": "research-ff33882cbfd63503ea1878c8cbc759f43409e44600622c55141d136522687ad8",
+      "publishedDate": "2026-11-27",
+      "company": "Nebius Group",
+      "ticker": "NBIS"
+    },
+    {
       "reportId": "lumentum-2026",
       "signalId": "lumentum-q1-fy2027-customer-diluted-eps-basis-20261103",
       "type": "facts",
