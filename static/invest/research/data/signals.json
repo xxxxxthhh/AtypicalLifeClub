@@ -5624,5 +5624,28 @@
     "monitoringRefs": [
       "alphabet-2026:adtech-remedy-outcome"
     ]
+  },
+  {
+    "id": "alphabet-q3-tpu-timing-disclosure-20261029",
+    "date": "2026-10-29",
+    "title": {
+      "zh": "Alphabet Q3 10-Q 重申 TPU 协议收入主要落在 2027 年",
+      "en": "Alphabet Q3 10-Q still places most contracted TPU system sales in 2027"
+    },
+    "detail": {
+      "zh": "9 月末存货 $13.308B，6 月末 $9.991B。有限几份 TPU 协议在 Q2 开始确认收入，10-Q 预计主要在 2027 年确认。Cloud 均值不能代替 TPU 单列收入。 https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+      "en": "Inventory increased from $9.991B in June to $13.308B in September. Most revenue under the limited agreements is still expected in 2027 after recognition began in Q2. TPU product revenue remains unquantified. https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "GOOG"
+    ],
+    "reportIds": [
+      "alphabet-2026"
+    ],
+    "scope": "report-monitoring",
+    "monitoringRefs": [
+      "alphabet-2026:tpu-external-monetization"
+    ]
   }
 ]
