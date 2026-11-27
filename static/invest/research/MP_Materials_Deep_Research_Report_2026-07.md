@@ -1,7 +1,7 @@
 # MP Materials (MP) Deep Research Report
 
 Coverage date: 2026-07-31
-Last updated: 2026-11-06
+Last updated: 2026-11-27
 Ticker: NYSE: MP
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -14,6 +14,17 @@ Disclaimer: This report is for informational and research purposes only. It does
 > **2026-11-06 review of monitoring**: q2-2026-ppa-income within; magnet-revenue-h2-2026 unclear. Source: [8-K Ex 99.1 results release](https://www.sec.gov/Archives/edgar/data/1801368/000180136826000056/mpmcq32026er.htm). The 10-Q and the earnings call were not read.
 >
 > **Valuation boundary (2026-11-06, Mode A):** Valuation and stance remain on the 2026-07-30 historical basis ($41.66); Q3 actuals await Mode B recomputation, and price, valuation figures, stance and conviction are not updated in this package. dow-package-durability, china-export-control-listing and capex-funding-to-10x need the 10-Q notes and are not updated here. The first full post-release session is 2026-11-06.
+
+> **2026-11-27 monitoring addendum (evidence dated 2026-11-06)**
+>
+> November 6, 2026 Form 10-Q (quarter ended September 30): 2026 capital-cost guidance remains $500M–$600M net of government awards. Cash and equivalents of $260.336M plus $1,077.575M of short-term investments total $1,337.911M. Total capital expenditures per the segment note were $112.539M for the quarter, and cash purchases of property, plant and equipment were $420.250M for the nine months (before $6.5M of government-award proceeds). The equity statement lists employee equity settlements, 77,640 shares for services and 43,573 shares for an intangible asset acquired in a prior period, with no quarterly common-stock offering for cash. The disclosed financing activity and the two numeric thresholds support a within reading for the quarter.
+>
+> The November 6, 2026 Form 10-Q says MP received approximately $110.9M from the DoW by September 30 for PPA income recognized in Q4 2025 and H1 2026, explicitly covering the prior quarter. The September 30 PPA receivable of $8.109M matches Q3 income. Collection of the new accrual remains to be checked in a later filing. The notes continue to disclose the DoW guarantee of at least $140M of 10X EBITDA, as defined in the agreement and subject to annual escalation. The filing discloses no impairment of the arrangement. The reading stays within for the disclosed period.
+>
+> The November 6, 2026 Form 10-Q confirms $8.109M of Q3 PPA income based on the shortfall from $110/kg to the quarterly weighted benchmark. Most of the accrual pertained to third-party sales. The benchmark itself is undisclosed. Materials segment adjusted EBITDA was $47.828M, or $39.719M excluding PPA (derived). Consolidated adjusted EBITDA of $41.138M remained above Q1 2026’s $36.6M. Neither downside path was met on the reported quarter. The 10-Q identifies the $31.6M SEG+ transaction as a one-time bill-and-hold sale. Its profit contribution was not separately disclosed, so the quarter does not establish durable one-for-one substitution.
+>
+> The report retains its historical valuation basis dated 2026-07-30. Current financial denominators require separate review. The published stance and conviction are unchanged. [SEC filing](https://www.sec.gov/Archives/edgar/data/1801368/000180136826000057/mp-20260930.htm)
+
 
 
 > Historical valuation basis: **2026-08-09 monitoring update:** This is a monitoring-only update based on MP's Q2 2026 results, released after the close on **2026-08-06** (8-K Exhibit 99.1), and the Q2 10-Q filed **2026-08-07**. **Valuation, stance, conviction and the price anchor are all unchanged**: every valuation figure in this report remains anchored to the **2026-07-30 close of US$41.66** and has not been recomputed on Q2 data. One published factual claim was overturned this quarter and is struck through in the text below: Materials segment adjusted EBITDA excluding PPA income **turned positive for the first time in Q2 2026, at +$14.9M** (segment adjusted EBITDA of $32.5M less $17.6M of PPA income), ending three consecutive reported periods of negative readings. At the same time the `q2-2026-ppa-income` monitoring item's trigger joins two clauses with "or", and this quarter they point in opposite business directions: the first (PPA income falling without product revenue replacing it one-for-one) **did not occur**, while the second (consolidated adjusted EBITDA below Q1 2026's $36.6M) **did** — Q2 2026 came in at $28.5M, including $13.59M of initial start-up costs in the quarter against $4.85M in Q1. The published rule does not say how to grade that mixed result, so **the item remains ungraded pending a qualification-rule decision**. No mechanical repository rule requires a stance change for a `within` or ungraded reading; the existing stance is preserved because rebuilding the current valuation and thesis is outside this monitoring update.
