@@ -1,13 +1,19 @@
 # Palantir Technologies (PLTR) Deep Research Report
 
 Coverage date: 2026-08-04
-Last updated: 2026-11-04
+Last updated: 2026-11-28
 Ticker: NASDAQ: PLTR
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
 
 ## Executive Summary
+
+> **2026-11-28 monitoring addendum (Q3 2026):** US commercial revenue rose 148% YoY to $984M, and total revenue of $2,313.411M exceeded the $2,160–2,164M guide. US commercial remaining deal value (RDV) grew 124% in Q2 and 79% in Q3, below the respective US commercial revenue growth rates of 149% and 148%. That meets the original two-quarter RDV test. Total contract value (TCV) grew 153% and 11%, trailing revenue growth only in Q3. [Q2 results](https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/a2026q2ex991pressrelease.htm) · [Q3 results](https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm)
+>
+> Stock-based compensation of $318.889M was 13.78% of Q3 revenue, up from 13.70% in Q2 and down from 14.59% a year earlier (calculated). The ratio stayed above the monitoring threshold of about 13%. The three common-share classes on the 10-Q cover totaled 2.4095B on October 26, up about 1.09% YoY, below the 3% share-growth threshold. Common-stock repurchases were $1.5M in the first nine months. [Q3 10-Q](https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm) · [Q2 10-Q](https://www.sec.gov/Archives/edgar/data/1321655/000132165526000041/pltr-20260630.htm) · [Prior-year Q3 10-Q](https://www.sec.gov/Archives/edgar/data/1321655/000132165525000131/pltr-20250930.htm)
+>
+> Valuation retains the historical 2026-08-03 basis. The published stance and conviction are unchanged.
 
 > **2026-11-04 factual update**: Q3 2026 10-Q (0001321655-26-000048, filing date 2026-11-03): the company says it maintained a full valuation allowance on its U.S. and U.K. deferred tax assets as of 2026-09-30, and that there is a reasonable possibility of releasing all or a portion in the future; international (rest of world) revenue was $376.2M (+26.0% YoY), 16% of total revenue (25% a year earlier). [Source document](https://financialfilings.com/filings/palantir-technologies-inc/interim-quarterly-report/2026/75421551/).
 >

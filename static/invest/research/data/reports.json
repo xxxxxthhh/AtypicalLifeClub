@@ -11586,7 +11586,7 @@
     ],
     "category": "tech",
     "date": "2026-08-04",
-    "lastUpdate": "2026-11-04",
+    "lastUpdate": "2026-11-28",
     "file": "/invest/research/reports/view.html?id=pltr-2026",
     "markdownFiles": {
       "zh": "/invest/research/Palantir_深度研究报告_2026-08.md",
@@ -11630,11 +11630,12 @@
           "en": "US commercial YoY growth falls below ~60%, or Q3 2026 revenue misses the $2,160-2,164M guide, or US commercial TCV / remaining deal value growth runs below revenue growth for two consecutive quarters"
         },
         "latest": {
-          "zh": "2026 Q2 美国商业 $7.64 亿（+149% 同比、+28% 环比），客户数 +35%；美国商业 TCV $21.32 亿（+153%）快于收入增速；美国商业剩余合同价值 $62.38 亿（+124%）；FY2026 美国商业指引上调至 ≥$34.24 亿（+134%）",
-          "en": "Q2 2026 US commercial revenue was $764M (+149% YoY, +28% QoQ) with customer count +35%; US commercial TCV of $2,132M (+153%) is growing faster than revenue; US commercial remaining deal value is $6,238M (+124%); the FY2026 US commercial guide was raised to at least $3,424M (+134%)"
+          "zh": "2026 Q3 美国商业收入 $984M（同比 +148%），总收入 $2,313.411M，高于 Q2 给出的 $2,160–2,164M 指引。美国商业剩余合同价值（RDV）在 Q2、Q3 分别同比 +124%、+79%，两季均低于同口径收入增速 +149%、+148%；美国商业合同总额（TCV）分别 +153%、+11%，只有 Q3 低于收入增速。",
+          "en": "Q3 2026 US commercial revenue was $984M (+148% YoY). Total revenue of $2,313.411M exceeded the $2,160–2,164M guide issued with Q2 results. US commercial remaining deal value (RDV) grew 124% and 79% YoY in Q2 and Q3, below US commercial revenue growth of 149% and 148% in both quarters. US commercial total contract value (TCV) grew 153% and 11%, trailing revenue growth only in Q3."
         },
         "nextCheck": "2026 Q3 财报（2026 年 11 月初）/ Q3 2026 earnings (early Nov 2026)",
-        "nextCheckDate": "2026-11"
+        "nextCheckDate": "2026-11",
+        "readingNote": "RDV 连续两季低于收入增速，命中原监测条件的 RDV 分项；TCV 只低一季（Q2 TCV +153% 快于收入 +149%）。美国商业增速仍高于约 60%，总收入高于指引。立场规则所称订单增速是否包含 RDV 属估值与立场判断，交由 Mode B 评估，本次 Mode A 不改动。 / RDV meets the RDV leg of the original two-quarter monitoring test. TCV trails for one quarter only (Q2 TCV growth of 153% was above revenue growth of 149%). US commercial growth remains above ~60% and total revenue exceeded guidance. Whether the stance rule’s bookings measure includes RDV is a valuation and stance judgement for Mode B; Mode A leaves it untouched."
       },
       {
         "id": "valuation-allowance-tax-transition",
@@ -11671,11 +11672,12 @@
           "en": "SBC fails to fall as a share of revenue (holding above ~13%), or share count keeps growing above 3% YoY while buybacks stay negligible"
         },
         "latest": {
-          "zh": "2026 Q2 股权激励 $2.65209 亿，占收入 13.7%；流通股约 23.97 亿股、同比 +3.2%；加权稀释股 25.687 亿股，比流通股高约 7%；经营现金流与调整后 FCF 均未扣除该项",
-          "en": "Q2 2026 SBC was $265.209M, or 13.7% of revenue; shares outstanding are ~2.397B, up 3.2% YoY; weighted diluted shares of 2,568.7M sit ~7% above shares outstanding; neither operating cash flow nor adjusted FCF charges it"
+          "zh": "2026 Q3 股权激励费用 $318.889M，占收入 13.78%（Q2 为 13.70%，上年同期为 14.59%，均为推算）。10-Q 封面 A/B/F 三类普通股合计 24.095 亿股（10 月 26 日），同比约 +1.09%（上年 10 月 27 日）。前九个月普通股回购 $1.5M。",
+          "en": "Q3 2026 stock-based compensation was $318.889M, or 13.78% of revenue (13.70% in Q2 and 14.59% a year earlier, derived). Class A, B and F common shares on the 10-Q cover totaled 2.4095B on October 26, up about 1.09% from October 27, 2025. Nine-month common-stock repurchases were $1.5M."
         },
         "nextCheck": "每季现金流量表与股本披露 / Quarterly cash-flow statement and share-count disclosure",
-        "nextCheckDate": "2026-11"
+        "nextCheckDate": "2026-11",
+        "readingNote": "股权激励占比环比未降、仍高于约 13%，但同比下降。原监测条件未指定比较期间，保留两种比较。封面流通股同比低于 3%，未命中股数与回购的组合条件。 / SBC intensity remained above ~13% and did not decline sequentially, while it fell year over year. The original monitor does not specify the comparison period. Cover-page shares grew below 3% YoY, so the combined share-count and buyback test did not fire."
       },
       {
         "id": "international-inflection",
