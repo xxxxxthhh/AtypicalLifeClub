@@ -3,6 +3,84 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "nebius-2026",
+      "signalId": "nebius-q3-avride-milestone-safe-20261112",
+      "type": "facts",
+      "evidenceDate": "2026-11-12",
+      "title": {
+        "en": "Nebius filing confirms Avride received $75M of SAFE funding",
+        "zh": "Nebius 申报确认 Avride 收到 $75M SAFE 资金"
+      },
+      "change": {
+        "en": "Note 6 of Exhibit 99.2 to the November 12 Form 6-K says Avride issued an additional SAFE to SMB Holding after meeting specified milestones in June 2026 and received $75.0M in cash. The instrument is classified as a liability. Note 5 records zero quarterly upward adjustment for ClickHouse and attributes the $780.6M nine-month adjustment to remeasurement following the January financing.",
+        "zh": "11 月 12 日 6-K 附件 99.2 附注 6 显示，Avride 于 2026 年 6 月在达到约定里程碑后向 SMB Holding 发行额外 SAFE 并收到 $75.0M，账上列为负债。附注 5 显示 ClickHouse 投资本季账面上调为零，前九个月的 $780.6M 上调来自 1 月融资的重估。"
+      },
+      "meaning": {
+        "en": "The SAFE confirms outside funding paid to Avride. The ClickHouse movement was a non-cash remeasurement. A stake sale, cash proceeds to the parent or an equity conversion of this SAFE still requires evidence, so the reading is unclear.",
+        "zh": "SAFE 确认 Avride 获得外部融资，现金收款方为 Avride。ClickHouse 的变动是非现金重估。股权出售、向母公司回款或本次 SAFE 转成股权仍待证据，读数为 unclear。"
+      },
+      "next": {
+        "en": "Check for a SAFE conversion, a named equity partnership or a stake disposal, distinguishing proceeds to a subsidiary from monetization by the parent.",
+        "zh": "核对后续 SAFE 转股、具名股权合作或股权处置公告，并区分子公司融资与母公司变现。"
+      },
+      "id": "research-38121b4653e1342ea5108ba07e06f236160c8022f680d9ff16bb9a16b039072d",
+      "publishedDate": "2026-11-27",
+      "company": "Nebius Group",
+      "ticker": "NBIS"
+    },
+    {
+      "reportId": "nebius-2026",
+      "signalId": "nebius-q3-secured-funding-disclosure-20261112",
+      "type": "facts",
+      "evidenceDate": "2026-11-12",
+      "title": {
+        "en": "Nebius discloses its July term-loan balance and covenant compliance",
+        "zh": "Nebius 披露 7 月定期贷款余额及履约情况"
+      },
+      "change": {
+        "en": "In Exhibit 99.2 to the November 12 Form 6-K, Nebius disclosed a $773.3M secured July term loan, with $751.8M of principal outstanding at September 30 and covenant compliance, including a minimum debt-service coverage ratio of 1.15:1. The separate $3.5B Citi bridge agreed in October appears as a subsequent event.",
+        "zh": "11 月 12 日 6-K 附件 99.2 显示，7 月签订的有担保定期贷款金额为 $773.3M，截至 9 月 30 日本金余额 $751.8M，借款人符合包括 1.15:1 最低偿债覆盖率在内的财务契约。10 月签订的 $3.5B Citi 过桥额度在期后事项中单列。"
+      },
+      "meaning": {
+        "en": "The shareholder letter’s more-than-100% prepayment coverage applies to capex associated with Q3 agreements. Its 75%–85% figure is expected financing coverage for 2027 capex. The original claim that more than 90% of 2026 capex was secured still lacks a comparable update, leaving the reading unclear.",
+        "zh": "股东信所称预付款覆盖超过 100% 指第三季度新签协议对应的资本开支。其 75%–85% 指 2027 年资本开支的预期资金覆盖率。原先「2026 年资本开支超过 90% 已锁定」的说法仍缺可比数据，读数维持 unclear。"
+      },
+      "next": {
+        "en": "Look for comparable full-year 2026 capex coverage, actual Citi drawdowns and covenant compliance, and repayment or long-term take-out financing for any drawn balance.",
+        "zh": "核对全年 2026 年资本开支的可比已锁定比例、Citi 实际提款与契约履约，以及已提款部分的偿还或长期置换安排。"
+      },
+      "id": "research-68528cab8534be1e2a5eaef7fac4612ed182d799f0730d38c23e72bc32d6bb3d",
+      "publishedDate": "2026-11-27",
+      "company": "Nebius Group",
+      "ticker": "NBIS"
+    },
+    {
+      "reportId": "nvidia-2026",
+      "signalId": "nvidia-q3-guarantee-exposure-20261117",
+      "type": "facts",
+      "evidenceDate": "2026-11-17",
+      "title": {
+        "en": "NVIDIA discloses $118.0B maximum gross guarantee exposure",
+        "zh": "NVIDIA 披露担保最高总敞口升至 $118.0B"
+      },
+      "change": {
+        "en": "Exhibit 99.2 to the November 17 Form 8-K reports $118.0B maximum gross guarantee exposure as of October 25. This comprises $105.0B for SB Energy, $3.5B for neocloud land, power and shell guarantees, and $9.5B for power and systems credit support. The disclosed ceiling rose $9.5B from the Q2 Form 10-Q figure of $108.5B. NVIDIA reported no guarantee payments to date.",
+        "zh": "11 月 17 日 8-K 附件 99.2 显示，截至 10 月 25 日，担保最高总敞口为 $118.0B。SB Energy 为 $105.0B，neocloud 土地、电力和厂房担保为 $3.5B，电力与系统信用支持为 $9.5B。相对 Q2 10-Q 的 $108.5B，披露上限增加 $9.5B。发行人称截至披露时未就担保付款。"
+      },
+      "meaning": {
+        "en": "The disclosure distinguishes the guarantee ceiling from payments. NVIDIA also recorded $1.8B of non-marketable equity impairment. The exhibit does not name the impaired investees or provide enough detail to verify independent demand and repayment capacity for the new credit support. The trigger reading remains unclear.",
+        "zh": "披露区分了担保上限与实际付款。同期非上市股权证券减值 $1.8B，附件未列明对应被投对象，也未提供足以核验新信用支持独立需求及偿付能力的条款。原触发条件读数维持 unclear。"
+      },
+      "next": {
+        "en": "Check the Q3 Form 10-Q or later exhibits for terms of new credit support, the impaired investees, actual guarantee payments and evidence of counterparties’ repayment capacity.",
+        "zh": "核对 Q3 10-Q 或后续附件的新增信用支持条款、减值标的、实际付款及交易对手偿付依据。"
+      },
+      "id": "research-c8d94cc400a42012ccb1fdb8d4af4052067227b4ff752e7000fb75d74a10e640",
+      "publishedDate": "2026-11-27",
+      "company": "NVIDIA",
+      "ticker": "NVDA"
+    },
+    {
       "reportId": "mp-2026",
       "signalId": "mp-q3-2026-10q-funding-ppa-20261106",
       "type": "facts",
