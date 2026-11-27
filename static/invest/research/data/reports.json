@@ -12185,9 +12185,9 @@
     "company": "Ondas Inc.",
     "ticker": "NASDAQ: ONDS",
     "priceSymbol": "ONDS",
-    "title": "Ondas Inc. 深度研究报告 - 用股权买来的收入增长与一台仍在运转的稀释机器",
-    "titleEn": "Ondas Inc. Deep Research Report - Revenue Growth Bought with Equity and a Dilution Machine Still Running",
-    "summary": "两份 10-Q 封面分别披露 2025 年和 2026 年 11 月 10 日在外普通股 368,459,664 股和 591,442,459 股。同比增加 60.52%，超过在外股数监控项的 25% 阈值。 Ondas 11 月 23 日股东信重申 FY2026 营收至少 5.50 亿美元和 FY2027 初步目标至少 11 亿美元，均不含新增收购。管理层称拟大幅放缓新增收购，提高资本投放门槛，优先投入交付、整合和营运资本。 2026-11-16 事实补充（证据日 2026-11-12）：2026-11-12 业绩稿：Q3 2026 收入约 $167.5M，超过原 $140M 下沿；FY2026 目标从 $525–550M 调为至少 $550M，非下调，原两条负面腿均未满足，reading=within。公司口径 backlog $835M、新订单 $214M；Q4 收入目标逾 $250M，FY2027 目标至少 $1.1B，均为前瞻而非已确认收入；backlog 不等于 GAAP RPO 或可随时回收的现金。 Q3 2026 公司称假设当前组合在两期均持有，备考同口径有机同比增长 64%，高于原 30% 下限，按该公司口径 reading=within；不是报告收入的同比 16 倍。该 64% 是管理层定义/计算的指标，本单元未取得逐收购组合的可独立重建分子与分母，因此不把它当独立核数后的有机增速，亦不用于判定 DZYNE 独立质量。 Q3 2026 调整后现金经营费用 $118.7M÷收入 $167.5M≈70.9%（按披露四舍五入数自算），调整后 EBITDA 亏损 $59.7M；GAAP 经营亏损 $189.5M。本季比率低于 80%，但原触发条件点名 Q4 2026，不能用 Q3 代替 Q4 成熟判定，故 unclear。管理层仍预计 Q4 经营平台层面 EBITDA 盈亏平衡，全公司目标提前至 Q3 2027；均不是已实现利润，且平台与全公司口径不能混用。 以上仅为指定监测项的事实更新。下文旧期事实按其原日期保留，不代表已核实所有监测项为当前期；估值沿用已发布的 2026-09-18 历史锚，当前资本及财务分母待 Mode B，已发布立场及确信度不变。 历史摘要：2026-09-21 首次覆盖，锚定 2026-09-18 收盘 $7.39。以 581,241,996 股（10-Q 封面 2026-08-11 的 570,552,341 股 + 2026-09-14 Gate/Bron 对价股 10,689,655 股）计市值 $4,295.4M，备考现金 $940.665M、有息负债仅 $6.408M，企业价值 $3,495.2M，对应 TTM（$174.103M）EV/Sales 20.08x、FY2026 指引中值（$537.5M）EV/Sales 6.50x。核心发现：报告口径上半年收入增长 +1,172.5%，但备考同口径只有 +112.4%——增长的绝大部分是买来的；全年 $525-550M 目标在上半年 $133.894M、Q3 指引 $140-155M 之下，隐含第四季度必须做到 $251.1-261.1M。Ondas Networks 已于 2026-01-16 去合并（保留约 47.5% 权益），公司现在只有一个报告分部。上半年 GAAP 净利 +$273.073M 由认股权证公允价值收益 $404.8M 等非经营项主导，同期经营亏损 -$205.617M、经营现金流 -$137.379M、股权激励 $88.753M（占收入 66.3%）。情景权重 30/40/30 加权年化回报 -6.8%，低于 8%-10% 要求回报 14.8-16.8 个百分点，立场谨慎/中确信。",
+    "title": "Ondas Inc. 深度研究报告 - 交付放量、现金消耗与股本稀释",
+    "titleEn": "Ondas Inc. Deep Research Report - Delivery Growth, Cash Burn and Share Dilution",
+    "summary": "按两份 10-Q 的同日披露，在外普通股由 368,459,664 增至 591,442,459 股，同比 60.52%，超过原降级规则 25% 阈值。1 月 4 日待交付的 44,999,998 股 DZYNE 对价股未计入。以 11 月 25 日收盘 $3.90、11 月 17 日披露 591,522,397 股、9 月末财务并扣已完成的 PDW 投资计算，市值 $2,306.9M、EV $1,577.6M、TTM EV/Sales 4.76 倍。情景 20%/45%/35% 加权终值 $4.92，以 3.099 年折合 7.77%，低于 8% 至 10% 门槛，熊市下行 69.80%。较低价格改善上行情景，实际稀释、Q3 经营现金流流出 $140.648M 和较大下行仍支持拟议看空回避、中等确信度。",
     "tags": [
       "国防科技",
       "无人机",
@@ -12196,7 +12196,7 @@
     ],
     "category": "tech",
     "date": "2026-09-21",
-    "lastUpdate": "2026-11-24",
+    "lastUpdate": "2026-11-27",
     "coverageTier": "full",
     "file": "/invest/research/reports/view.html?id=onds-2026",
     "markdownFiles": {
@@ -12204,30 +12204,22 @@
       "en": "/invest/research/Ondas_Holdings_Deep_Research_Report_2026-09.md"
     },
     "highlights": [
-      "Ondas Q3：收入 $167.5M；同口径增长为公司估计，Q4 经营杠杆仍待验证",
-      "市场数据（2026-09-18 收盘）：股价 $7.39、市值 $4,295.4M、企业价值 $3,495.2M；52 周盘中区间 $4.95-$15.28，距 2026-01-08 的 $14.01 收盘高点回撤 47.3%",
-      "增长来源拆解：H1 2026 报告收入 $133.894M（+1,172.5%），但备考同口径 $156.583M vs $73.737M 仅 +112.4%；Q2 收入 $83.772M（环比 +67.1%）",
-      "指引算术：FY2026 目标 $525-550M，在 H1 $133.894M 与 Q3 指引 $140-155M 之下，隐含 Q4 须做到 $251.1-261.1M（较 Q3 再增 68.5%-79.4%）",
-      "分部变更：Ondas Networks 于 2026-01-16 去合并、确认收益 $51.5M，保留约 47.5% 权益（2026-06-30 账面 $26.802M）；公司现仅有一个报告分部",
-      "GAAP 净利是会计产物：H1 归属股东净利 +$273.073M 由认股权证公允价值净收益 $404.8M、去合并收益 $51.5M、Indo 取得损失 -$46.2M 主导；同期经营亏损 -$205.617M",
-      "现金与烧钱：2026-06-30 现金＋受限现金＋短期投资 $1,392.965M，扣 Q3 并购现金 $322.3M 与 Gate/Bron $130.0M 后备考 $940.665M；H1 经营现金流 -$137.379M，Q2 单季 -$86.081M",
-      "稀释：在外股数 15 个月 +181.2%（206,732,666 → 581,241,996）；全口径摊薄 955,350,116 股（1.64x），授权上限 1,200,000,000 股仅剩 244,649,884 股空间；2027-01-04 另须交付 44,999,998 股 DZYNE 递延对价",
-      "权证：October 2025 的 73,920,000 份（行权价 $20.00）与 January 2026 的 121,580,548 份（行权价 $28.00）在三个情景退出价下均不行权；认股权证负债 $1,043,740 千美元不计入 EV",
-      "治理：CEO 于 2026-02-11 获授 13,500,000 份 RSU（按当日收盘 $9.23 计约 $124.6M，占当时股本 2.88%），而 FY2025 薪酬总额仅 $426,066；2025-06 以来 35 份 Form 4 中代码-P 公开市场买入为 0 笔，代码-S 卖出 3,826,090 股约 $44.31M，其中 Brock 的 $36.55M 经脚注核实为归属/换股代扣税，但原董事 Stern 850,000 股（约 $6.73M）无代扣税脚注、属清仓式自主减持，卖出后 16 天辞任；审计师自 FY2026 由 RRBB 更替为 BDO USA, P.C.（FY2023/FY2024 审计意见含持续经营疑虑段，FY2025 干净）",
-      "质量红旗：商誉 $661,362 千美元＋无形 $583,268 千美元＝总资产 41.6%（DZYNE 再带来 $493,460 千美元）；客户 A 占 Q2 收入 40%、应收 43%；H1 股权激励 $88.753M＝收入 66.3%；未确认股权激励费用合计约 $403.9M（期权 $101.7M／2.55 年 ＋ RSU $302.2M／2.32 年），零新增授予也须入账",
-      "在手订单为公司自定义口径：2026-06-30 报告 $613M、含 DZYNE/Cyberhawk 备考 $757M（2025 年底 $68M），业绩稿未定义 backlog，10-Q 全文无 GAAP 剩余履约义务披露",
-      "估值：情景 30/40/30 加权每股价值 $5.86（-20.7%），3.28 年年化 -6.8%，低于 8%-10% 门槛 14.8-16.8 个百分点；放宽退出倍数得 -0.9%、放宽收入路径得 +1.0%，仍不达标 ⇒ 谨慎 / 中确信"
+      "两份 10-Q 封面在外普通股同比增加 60.52%，超过 25% 稀释阈值。11 月 17 日最新可核股数为 591,522,397 股。",
+      "Q3 收入 $167.489M、GAAP 经营亏损 $189.506M、按半年至前九月差额计经营现金流 −$140.648M。",
+      "9 月末流动性含受限现金共 $820.336M。排除受限现金及已完成的 $50M PDW 投资后，可用流动性备考 $738.873M，有息债务 $6.108M。",
+      "11 月 25 日收盘 $3.90 对应市值 $2,306.9M、企业价值 $1,577.6M、TTM EV/Sales 4.76 倍。全额计入收购对价应计负债的敏感性口径为 5.57 倍。",
+      "加权终值 $4.92，折合年化 7.77%，熊市下行 69.80%。拟议立场为看空回避，中等确信度。"
     ],
-    "summaryEn": "The two Form 10-Q covers show 368,459,664 and 591,442,459 common shares outstanding on November 10, 2025 and November 10, 2026 respectively. The calculated 60.52% increase exceeds the monitor’s 25% threshold. Ondas’s November 23 shareholder letter reaffirmed revenue targets of at least $550 million for FY2026 and an initial $1.1 billion for FY2027, excluding additional acquisitions. Management intends to substantially slow new acquisitions, raise approval thresholds and prioritize delivery, integration and working capital. November 16, 2026 factual addendum (evidence dated November 12): The November 12, 2026 release reports approximately $167.5M of Q3 revenue, above the original $140M floor, and raises the FY2026 target from $525-550M to at least $550M. Neither original adverse leg is met, so within. Company-defined backlog is $835M with $214M of new orders. Targets of more than $250M Q4 revenue and at least $1.1B FY2027 revenue are forward-looking, not recognized revenue; backlog is not GAAP RPO or immediately collectible cash. For Q3 2026 management reports 64% pro forma organic YoY growth assuming the current portfolio was owned in both periods, above the original 30% floor: within on that issuer-defined basis. It is not the roughly sixteen-fold reported-revenue comparison. The 64% is management-defined and calculated; this unit does not have independently reconstructible numerator and denominator for each acquisition cohort, and does not present it as an independently recomputed organic rate or proof of DZYNE standalone quality. Q3 2026 adjusted cash operating expense of $118.7M divided by revenue of $167.5M is approximately 70.9% (derived from rounded disclosures); adjusted EBITDA was a $59.7M loss and GAAP operating loss $189.5M. The ratio is below 80% this quarter, but the original condition explicitly names Q4 2026: Q3 does not mature that future-period test, so unclear. Management still targets Q4 platform-level EBITDA break-even and moves company-wide break-even forward to Q3 2027. Neither is achieved profit, and platform and consolidated scopes are not interchangeable. This is a factual update of the named monitoring items only. Older facts below retain their original dates and do not certify all monitoring as current. Valuation retains the published 2026-09-18 historical anchor; current capital and financial denominators await Mode B. The published stance and conviction are unchanged. Historical summary: Initial coverage dated 2026-09-21, anchored on the 2026-09-18 close of $7.39. On 581,241,996 shares (570,552,341 from the 10-Q cover dated 2026-08-11 plus 10,689,655 Gate/Bron consideration shares issued 2026-09-14) the market capitalization is $4,295.4M; with pro forma cash of $940.665M and only $6.408M of interest-bearing debt, enterprise value is $3,495.2M, or 20.08x TTM revenue of $174.103M and 6.50x the FY2026 guidance midpoint of $537.5M. Core finding: reported first-half revenue grew 1,172.5% but pro forma same-portfolio growth was only 112.4% - almost all of the growth was purchased; and the $525-550M full-year target, against first-half revenue of $133.894M and Q3 guidance of $140-155M, implies a fourth quarter of $251.1-261.1M. Ondas Networks was deconsolidated on 2026-01-16 (a roughly 47.5% stake is retained) and the company now reports a single segment. First-half GAAP net income of +$273.073M is dominated by non-operating items including a $404.8M warrant fair-value gain, against an operating loss of $205.617M, operating cash flow of -$137.379M and stock-based compensation of $88.753M (66.3% of revenue). The 30/40/30 scenario grid weights to -6.8% annualized, 14.8 to 16.8 points below the 8%-10% required return: cautious, medium conviction.",
+    "summaryEn": "The same-date Form 10-Q covers show 368,459,664 and 591,442,459 shares, up 60.52% against the original 25% downgrade threshold. The 44,999,998 DZYNE shares due January 4 sit outside those counts. The $3.90 November 25 close, 591,522,397 shares disclosed as of November 17 and September 30 accounts adjusted for completed PDW funding imply $2,306.9M of market cap, $1,577.6M of EV and 4.76x TTM EV/sales. The 20%/45%/35% grid yields $4.92 weighted terminal value and 7.77% annualized over 3.099 years against an 8–10% hurdle. The bear case loses 69.80%. The lower close improves upside, while verified dilution, $140.648M of Q3 operating cash burn and large downside support proposed bearish-avoid at medium conviction.",
     "period": "2026H2",
     "versionType": "initial",
     "versionLabel": "2026H2 Initial Coverage",
     "moduleContract": "heading-comment-v1",
     "isCurrent": true,
-    "stance": "cautious",
+    "stance": "bearish-avoid",
     "conviction": "medium",
-    "priceAsOf": "2026-09-18",
-    "reportedPeriod": "Q3 2026 selected operating monitoring / 2026-09-18 valuation frame",
+    "priceAsOf": "2026-11-25",
+    "reportedPeriod": "Q3 2026 / 2026-11-25 valuation anchor",
     "monitoring": [
       {
         "id": "backlog-conversion",
@@ -12242,13 +12234,13 @@
           "en": "Q3 2026 revenue below the $140M low end of guidance, or management cutting the FY2026 $525-550M target"
         },
         "latest": {
-          "zh": "2026-11-12 业绩稿：Q3 2026 收入约 $167.5M，超过原 $140M 下沿；FY2026 目标从 $525–550M 调为至少 $550M，非下调，原两条负面腿均未满足，reading=within。公司口径 backlog $835M、新订单 $214M；Q4 收入目标逾 $250M，FY2027 目标至少 $1.1B，均为前瞻而非已确认收入；backlog 不等于 GAAP RPO 或可随时回收的现金。 来源：https://www.sec.gov/Archives/edgar/data/1646188/000119312526457088/onds-ex99_1.htm",
-          "en": "The November 12, 2026 release reports approximately $167.5M of Q3 revenue, above the original $140M floor, and raises the FY2026 target from $525-550M to at least $550M. Neither original adverse leg is met, so within. Company-defined backlog is $835M with $214M of new orders. Targets of more than $250M Q4 revenue and at least $1.1B FY2027 revenue are forward-looking, not recognized revenue; backlog is not GAAP RPO or immediately collectible cash. Source: https://www.sec.gov/Archives/edgar/data/1646188/000119312526457088/onds-ex99_1.htm"
+          "zh": "Q3 已确认营收 $167.489M，高于 $140M 下沿。11 月 23 日重申 FY2026 至少 $550M 和 FY2027 初步 $1,100M，均不含新并购。$835M 在手订单与 $214M 季内订单为公司口径。Q4 逾 $250M 仍属目标。 https://www.sec.gov/Archives/edgar/data/1646188/000119312526458517/onds-20260930.htm https://www.sec.gov/Archives/edgar/data/1646188/000119312526457088/onds-ex99_1.htm https://ir.ondas.com/all-sec-filings/content/0001213900-26-122950/ea031321601ex99-1.htm",
+          "en": "Actual Q3 revenue of $167.489M exceeded the $140M floor. On November 23 management reaffirmed at least $550M FY2026 and an initial $1,100M FY2027 target excluding additional acquisitions. The issuer defined $835M of backlog and $214M of Q3 orders. More than $250M of Q4 revenue remains a target. https://www.sec.gov/Archives/edgar/data/1646188/000119312526458517/onds-20260930.htm https://www.sec.gov/Archives/edgar/data/1646188/000119312526457088/onds-ex99_1.htm https://ir.ondas.com/all-sec-filings/content/0001213900-26-122950/ea031321601ex99-1.htm"
         },
         "nextCheck": "Q3 2026 财报与 10-Q，对照 $140-155M 指引 / Q3 2026 results and 10-Q against the $140-155M guidance",
         "nextCheckDate": "2026-11",
         "reading": "within",
-        "readingAsOf": "2026-11-12"
+        "readingAsOf": "2026-11-23"
       },
       {
         "id": "organic-vs-acquired-growth",
@@ -12263,8 +12255,8 @@
           "en": "Pro forma same-portfolio year-over-year growth falling below 30%, the basis management set for the FY2026 midpoint"
         },
         "latest": {
-          "zh": "Q3 2026 公司称假设当前组合在两期均持有，备考同口径有机同比增长 64%，高于原 30% 下限，按该公司口径 reading=within；不是报告收入的同比 16 倍。该 64% 是管理层定义/计算的指标，本单元未取得逐收购组合的可独立重建分子与分母，因此不把它当独立核数后的有机增速，亦不用于判定 DZYNE 独立质量。 来源：https://www.sec.gov/Archives/edgar/data/1646188/000119312526457088/onds-ex99_1.htm",
-          "en": "For Q3 2026 management reports 64% pro forma organic YoY growth assuming the current portfolio was owned in both periods, above the original 30% floor: within on that issuer-defined basis. It is not the roughly sixteen-fold reported-revenue comparison. The 64% is management-defined and calculated; this unit does not have independently reconstructible numerator and denominator for each acquisition cohort, and does not present it as an independently recomputed organic rate or proof of DZYNE standalone quality. Source: https://www.sec.gov/Archives/edgar/data/1646188/000119312526457088/onds-ex99_1.htm"
+          "zh": "按管理层定义，Q3 备考同组合增速 64%，高于 30% 原下限。10-Q 附注 5 的备考营收 $182.996M 对 $96.908M 是另一口径，增幅 88.83%。逐组合输入未披露，64% 不能独立复算。 https://www.sec.gov/Archives/edgar/data/1646188/000119312526458517/onds-20260930.htm https://www.sec.gov/Archives/edgar/data/1646188/000119312526457088/onds-ex99_1.htm",
+          "en": "Management-defined Q3 same-portfolio growth of 64% exceeds the original 30% floor. Note 5 combination pro forma revenue of $182.996M against $96.908M grew 88.83% on a separate basis. Cohort-level inputs for reproducing the 64% remain unavailable. https://www.sec.gov/Archives/edgar/data/1646188/000119312526458517/onds-20260930.htm https://www.sec.gov/Archives/edgar/data/1646188/000119312526457088/onds-ex99_1.htm"
         },
         "nextCheck": "Q3 2026 10-Q 首次将 DZYNE 纳入备考表 / the Q3 2026 10-Q, which first includes DZYNE in the pro forma table",
         "nextCheckDate": "2026-11",
@@ -12284,8 +12276,8 @@
           "en": "Adjusted cash operating expense failing to fall below 80% of revenue by Q4 2026"
         },
         "latest": {
-          "zh": "Q3 2026 调整后现金经营费用 $118.7M÷收入 $167.5M≈70.9%（按披露四舍五入数自算），调整后 EBITDA 亏损 $59.7M；GAAP 经营亏损 $189.5M。本季比率低于 80%，但原触发条件点名 Q4 2026，不能用 Q3 代替 Q4 成熟判定，故 unclear。管理层仍预计 Q4 经营平台层面 EBITDA 盈亏平衡，全公司目标提前至 Q3 2027；均不是已实现利润，且平台与全公司口径不能混用。 来源：https://www.sec.gov/Archives/edgar/data/1646188/000119312526457088/onds-ex99_1.htm",
-          "en": "Q3 2026 adjusted cash operating expense of $118.7M divided by revenue of $167.5M is approximately 70.9% (derived from rounded disclosures); adjusted EBITDA was a $59.7M loss and GAAP operating loss $189.5M. The ratio is below 80% this quarter, but the original condition explicitly names Q4 2026: Q3 does not mature that future-period test, so unclear. Management still targets Q4 platform-level EBITDA break-even and moves company-wide break-even forward to Q3 2027. Neither is achieved profit, and platform and consolidated scopes are not interchangeable. Source: https://www.sec.gov/Archives/edgar/data/1646188/000119312526457088/onds-ex99_1.htm"
+          "zh": "Q3 调整后现金经营费用 $118.671M ÷ $167.489M 为 70.85%，调整后 EBITDA 亏损约 $59.7M，业绩稿对照 Q2 为 $46.2M。原阈值明确针对 Q4，平台和集团盈亏平衡目标仍待实绩。 https://www.sec.gov/Archives/edgar/data/1646188/000119312526458517/onds-20260930.htm https://www.sec.gov/Archives/edgar/data/1646188/000119312526457088/onds-ex99_1.htm",
+          "en": "Q3 adjusted cash operating expense of $118.671M divided by $167.489M was 70.85%. Adjusted EBITDA loss was about $59.7M versus $46.2M for Q2 in the current release. The original threshold names Q4, with platform and group break-even targets pending actuals. https://www.sec.gov/Archives/edgar/data/1646188/000119312526458517/onds-20260930.htm https://www.sec.gov/Archives/edgar/data/1646188/000119312526457088/onds-ex99_1.htm"
         },
         "nextCheck": "Q3 2026 财报的调整后 EBITDA 与调整后现金经营费用 / adjusted EBITDA and adjusted cash operating expense in the Q3 2026 results",
         "nextCheckDate": "2026-11",
@@ -12305,8 +12297,8 @@
           "en": "Twelve-month growth in shares outstanding above 25%, excluding the known DZYNE deferred consideration shares"
         },
         "latest": {
-          "zh": "两份 10-Q 封面分别披露 2025 年和 2026 年 11 月 10 日在外普通股 368,459,664 股和 591,442,459 股。同比增加 60.52%，超过在外股数监控项的 25% 阈值。 2026 年 10-Q 将 44,999,998 股 DZYNE 递延对价列为 2027 年 1 月 4 日待交付，该笔未计入上述在外股数。股数为封面实报口径。",
-          "en": "The two Form 10-Q covers show 368,459,664 and 591,442,459 common shares outstanding on November 10, 2025 and November 10, 2026 respectively. The calculated 60.52% increase exceeds the monitor’s 25% threshold. The 2026 Form 10-Q lists 44,999,998 deferred DZYNE consideration shares for delivery on January 4, 2027. They are excluded from the comparison, which uses the actual cover-page share counts."
+          "zh": "两份 10-Q 封面同日股数为 368,459,664 和 591,442,459，同比增长 60.52%，超过 25%。2027-01-04 待交付的 44,999,998 股 DZYNE 对价未计入。11 月 18 日招股补充书给出 11 月 17 日更新的 591,522,397 股，单独用于市值。 https://www.sec.gov/Archives/edgar/data/1646188/000119312526458517/onds-20260930.htm https://www.sec.gov/Archives/edgar/data/1646188/000121390025109604/ea0264505-10q_ondas.htm https://ir.ondas.com/all-sec-filings/content/0001213900-26-121845/ea0312644-424b7_ondas.htm",
+          "en": "Comparable Form 10-Q cover counts of 368,459,664 and 591,442,459 yield 60.52% growth, above 25%. The 44,999,998 DZYNE shares due January 4, 2027 were excluded. The November 18 prospectus supplement discloses 591,522,397 as of November 17, used separately for market cap. https://www.sec.gov/Archives/edgar/data/1646188/000119312526458517/onds-20260930.htm https://www.sec.gov/Archives/edgar/data/1646188/000121390025109604/ea0264505-10q_ondas.htm https://ir.ondas.com/all-sec-filings/content/0001213900-26-121845/ea0312644-424b7_ondas.htm"
         },
         "nextCheck": "Q3 2026 10-Q 封面页股数 / the share count on the Q3 2026 10-Q cover page",
         "nextCheckDate": "2026-11",
@@ -12326,11 +12318,13 @@
           "en": "Customer A falling below 10% of quarterly revenue with no replacement, or receivables concentration climbing back above 60%"
         },
         "latest": {
-          "zh": "2026Q2 10-Q Note 2：客户 A 占 Q2 2026 收入 40%、H1 2026 收入 37%（2025 年同期客户 A 19%、客户 B 27%、客户 C 50%）；客户 A 占 2026-06-30 应收账款 43%，2025-12-31 为 73%。地区上以色列占 H1 2026 收入 44.1%（$59.058M），欧洲 23.5%、北美 15.4%。证据边界：公司未披露客户 A 的身份、国别或合同期限，因此无法确认其与以色列收入的关系。",
-          "en": "Q2 2026 10-Q Note 2: Customer A was 40% of Q2 2026 revenue and 37% of first-half revenue (a year earlier Customer A was 19%, Customer B 27% and Customer C 50%); Customer A was 43% of accounts receivable at 2026-06-30, down from 73% at 2025-12-31. Geographically Israel was 44.1% of first-half 2026 revenue ($59.058M), Europe 23.5% and North America 15.4%. Evidence limits: the company discloses neither Customer A's identity nor its country or contract term, so its relationship to the Israeli revenue cannot be confirmed."
+          "zh": "Q3 10-Q 附注 2：客户 A 占当季收入 15%、9 月末应收 22%，未达到原触发阈值。客户 D、E 占当季收入 21% 和 13%。客户代号无法验证具体替代关系。 https://www.sec.gov/Archives/edgar/data/1646188/000119312526458517/onds-20260930.htm",
+          "en": "Q3 Note 2 shows Customer A at 15% of Q3 revenue and 22% of September receivables, within both thresholds. Customers D and E were 21% and 13% of Q3 revenue. The anonymized labels do not establish replacement relationships. https://www.sec.gov/Archives/edgar/data/1646188/000119312526458517/onds-20260930.htm"
         },
         "nextCheck": "Q3 2026 10-Q 的集中度表 / the concentration table in the Q3 2026 10-Q",
-        "nextCheckDate": "2026-11"
+        "nextCheckDate": "2026-11",
+        "reading": "within",
+        "readingAsOf": "2026-11-12"
       },
       {
         "id": "goodwill-impairment",
@@ -12345,11 +12339,13 @@
           "en": "Recognition of a goodwill impairment in any period, or market capitalization persistently below carrying equity"
         },
         "latest": {
-          "zh": "2026-06-30 商誉 $661,362 千美元（2026-01-01 为 $251,809 千美元，期内取得 $432,342 千美元、计量期调整 -$21,870 千美元、汇兑 -$919 千美元）＋无形资产净额 $583,268 千美元 ＝ 总资产 $2,993,497 千美元的 41.6%；商誉占股东权益 $1,569,992 千美元的 42.1%。2026-07-02 交割的 High Point UAS（DZYNE）另带来 $493,460 千美元商誉，将于 Q3 入表。10-Q 明示 2025 与 2026 全部收购的购买价格分摊均为初步，最终分摊可能与初步分摊存在重大差异；公司仅有一个报告单元，减值测试颗粒度极粗。当前市值 $4,295.4M 为股东权益的 2.74 倍。",
-          "en": "At 2026-06-30 goodwill was $661,362 thousand (from $251,809 thousand at 2026-01-01, with $432,342 thousand acquired, -$21,870 thousand of measurement-period adjustments and -$919 thousand of currency translation) and net intangibles $583,268 thousand, together 41.6% of total assets of $2,993,497 thousand; goodwill is 42.1% of stockholders' equity of $1,569,992 thousand. High Point UAS (DZYNE), which closed 2026-07-02, adds a further $493,460 thousand of goodwill in the third quarter. The 10-Q states that every 2025 and 2026 purchase-price allocation remains preliminary and that the final allocation could differ materially; with only one reporting unit, impairment testing is very coarse. The current market capitalization of $4,295.4M is 2.74x carrying equity."
+          "zh": "Q3 未发现期中减值迹象，商誉和无形资产合计占总资产 62.72%。11 月 25 日估值市值为 9 月末归母权益 0.97 倍，单点不足以判定持续低于账面。年度测试未到。 https://www.sec.gov/Archives/edgar/data/1646188/000119312526458517/onds-20260930.htm https://ir.ondas.com/all-sec-filings/content/0001213900-26-121845/ea0312644-424b7_ondas.htm https://api.nasdaq.com/api/quote/ONDS/historical?assetclass=stocks&fromdate=2026-11-23&todate=2026-11-25&limit=10",
+          "en": "The issuer found no interim impairment indicators at Q3. Goodwill and intangibles were 62.72% of assets. Market cap on the November 25 price basis was 0.97x September parent book, a single comparison that does not establish persistence. The annual test remains ahead. https://www.sec.gov/Archives/edgar/data/1646188/000119312526458517/onds-20260930.htm https://ir.ondas.com/all-sec-filings/content/0001213900-26-121845/ea0312644-424b7_ondas.htm https://api.nasdaq.com/api/quote/ONDS/historical?assetclass=stocks&fromdate=2026-11-23&todate=2026-11-25&limit=10"
         },
         "nextCheck": "FY2026 年报的首次完整年度商誉测试 / the first full-year goodwill test in the FY2026 annual report",
-        "nextCheckDate": "2027-03"
+        "nextCheckDate": "2027-03",
+        "reading": "unclear",
+        "readingAsOf": "2026-11-25"
       },
       {
         "id": "cash-burn-refinancing",
@@ -12364,11 +12360,13 @@
           "en": "Pro forma cash falling below $500M, or equity issued at a price below $7.39"
         },
         "latest": {
-          "zh": "2026-06-30 现金及等价物 $657.906M ＋ 受限现金 $8.472M ＋ 短期投资 $726.587M ＝ $1,392.965M；扣除 10-Q 披露的 DZYNE 与 Cyberhawk 现金对价 $322.3M 及 2026-09-14 8-K 的 Gate/Bron 现金 $105.0M 与营运资金调整 $25.0M 后，备考约 $940.665M。有息负债仅 $6.408M（应付票据 $1.562M ＋ $0.194M、可转债 $0.718M ＋ $3.934M），无在外优先股。H1 经营现金流 -$137.379M（Q1 -$51.298M、Q2 -$86.081M）。证据边界：备考现金未扣除 Q3 经营现金消耗与利息收入，是刻意偏乐观的口径。融资史：October 2025 发行净额 $407.208M（$11.50/单位）、January 2026 发行净额 $959.1M（$16.45/单位），10-Q 与 10-K 全文未见任何 ATM 销售协议。",
-          "en": "At 2026-06-30 cash and equivalents of $657.906M plus restricted cash of $8.472M and short-term investments of $726.587M totalled $1,392.965M; deducting the $322.3M of DZYNE and Cyberhawk cash consideration disclosed in the 10-Q and the $105.0M of Gate/Bron cash plus a $25.0M working-capital adjustment from the 2026-09-14 8-K leaves roughly $940.665M pro forma. Interest-bearing debt is only $6.408M (notes payable of $1.562M and $0.194M; convertible notes of $0.718M and $3.934M), with no preferred stock outstanding. First-half operating cash flow was -$137.379M (-$51.298M in Q1 and -$86.081M in Q2). Evidence limits: the pro forma cash figure deliberately excludes third-quarter operating burn and interest income, so it is an optimistic basis. Financing history: the October 2025 offering raised $407.208M net at $11.50 per unit and the January 2026 offering $959.1M net at $16.45 per unit; neither the 10-Q nor the 10-K discloses any at-the-market sales agreement."
+          "zh": "9 月末非受限现金及短投 $788.873M，季后 PDW 已支付 $50M，部分备考 $738.873M。Q3 经营现金流流出 $140.648M。11 月 18 日转售备案限此前发出的 World View 股票，发行人无转售所得。季后实际现金及后续融资仍待核。 https://www.sec.gov/Archives/edgar/data/1646188/000119312526458517/onds-20260930.htm https://ir.ondas.com/all-sec-filings/content/0001193125-26-349288/onds-20260630.htm https://ir.ondas.com/all-sec-filings/content/0001213900-26-121852/ea0312644-8k_ondas.htm https://ir.ondas.com/all-sec-filings/content/0001213900-26-121845/ea0312644-424b7_ondas.htm",
+          "en": "September unrestricted cash and investments were $788.873M and the known completed PDW cash use was $50M, yielding partial pro forma liquidity of $738.873M. Q3 operating cash outflow was $140.648M. The November 18 resale filing covered previously issued World View shares and offered no issuer proceeds. Actual post-quarter liquidity and later financing remain open. https://www.sec.gov/Archives/edgar/data/1646188/000119312526458517/onds-20260930.htm https://ir.ondas.com/all-sec-filings/content/0001193125-26-349288/onds-20260630.htm https://ir.ondas.com/all-sec-filings/content/0001213900-26-121852/ea0312644-8k_ondas.htm https://ir.ondas.com/all-sec-filings/content/0001213900-26-121845/ea0312644-424b7_ondas.htm"
         },
         "nextCheck": "Q3 2026 10-Q 的现金流量表与资产负债表 / the cash-flow statement and balance sheet in the Q3 2026 10-Q",
-        "nextCheckDate": "2026-11"
+        "nextCheckDate": "2026-11",
+        "reading": "unclear",
+        "readingAsOf": "2026-11-18"
       },
       {
         "id": "dzyne-integration",
@@ -12383,16 +12381,18 @@
           "en": "The DZYNE pro forma revenue and earnings first disclosed in the Q3 10-Q failing to confirm standalone operating quality commensurate with the $878.994M consideration, or a materially adverse change from the preliminary allocation"
         },
         "latest": {
-          "zh": "2026Q2 10-Q Note 18：2026-07-02 以 $878.994M 取得 High Point UAS 100% 权益（现金 $204.094M 含 $12.0M 托管、股权 $674.900M，即交割时 39,999,998 股加 2027-01-04 交付的 44,999,998 股），确认商誉 $493,460 千美元、无形资产 $313.1M（开发技术 $168.3M、客户关系 $144.8M），净资产 $385,534 千美元。10-Q 明示：截至财报签发日，High Point 按公司会计政策编制的三个月与六个月历史经营成果无法取得，故备考收入与盈利信息推迟至 Q3 10-Q 披露；无形资产使用年限尚未确定；税基与可抵扣商誉金额的认定仍在进行中。预计并购相关费用合计约 $6.9M，其中 $1.6M 已于 Q2 确认。",
-          "en": "Q2 2026 10-Q Note 18: on 2026-07-02 the company acquired 100% of High Point UAS for $878.994M ($204.094M of cash including $12.0M in escrow, plus $674.900M of equity - 39,999,998 shares at closing and 44,999,998 shares due 2027-01-04), recognizing goodwill of $493,460 thousand, intangibles of $313.1M ($168.3M of developed technology and $144.8M of customer relationships) and net assets of $385,534 thousand. The 10-Q states that as of the filing date High Point's three- and six-month historical results prepared on a conforming basis are not available, so pro forma revenue and earnings are deferred to the Q3 10-Q; intangible useful lives are not yet determined; and the determination of tax basis and deductible goodwill is in process and incomplete. Total acquisition-related costs are expected to be roughly $6.9M, of which $1.6M was recognized in Q2."
+          "zh": "Q3 初步购买对价 $850.493M，含现金 $175.593M 和权益 $674.900M，商誉 $536.148M；DZYNE 并表后贡献收入 $30.1M、净亏损 $22.2M。单列 FY2025 审计收入 $104.786M、净亏损 $11.685M。集团备考表未认证 DZYNE 可持续盈利，分摊仍初步。 https://www.sec.gov/Archives/edgar/data/1646188/000119312526458517/onds-20260930.htm https://ir.ondas.com/all-sec-filings/content/0001193125-26-344860/onds-ex99_1.htm",
+          "en": "Q3 preliminary consideration of $850.493M includes $175.593M cash and $674.900M equity, with $536.148M of goodwill. DZYNE contributed $30.1M of sales and $22.2M net loss post-close. FY2025 standalone audited sales and net loss were $104.786M and $11.685M. The portfolio pro forma does not verify sustainable DZYNE earnings. The allocation remains preliminary. https://www.sec.gov/Archives/edgar/data/1646188/000119312526458517/onds-20260930.htm https://ir.ondas.com/all-sec-filings/content/0001193125-26-344860/onds-ex99_1.htm"
         },
         "nextCheck": "Q3 2026 10-Q 的 DZYNE 备考数据与 PPA 进度 / DZYNE pro forma data and PPA progress in the Q3 2026 10-Q",
-        "nextCheckDate": "2026-11"
+        "nextCheckDate": "2026-11",
+        "reading": "unclear",
+        "readingAsOf": "2026-11-12"
       }
     ],
     "stanceRationale": {
-      "zh": "以 2026-09-18 收盘 $7.39、581,241,996 股计市值 $4,295.4M、企业价值 $3,495.2M，对应 TTM EV/Sales 20.08x、FY2026 指引中值 EV/Sales 6.50x（同业 AVAV 4.73x、KTOS 4.89x）。决定立场的是加权预期回报：30% 牛市 / 40% 基准 / 30% 熊市（FY2029 收入 $1,450M / $1,181M / $600M，退出 EV/Sales 5.0x / 3.5x / 1.5x，退出股数 793M / 742M / 765M）加权每股价值 $5.86，较 $7.39 为 -20.7%，3.28 年（2026-09-21 至 2029-12-31，1,197 天）年化 -6.8%，低于 8%-10% 要求回报 14.8-16.8 个百分点。负偏斜对假设不敏感：退出倍数整体上调至 6.0x/4.5x/2.0x 仍为 -0.9%，FY2029 收入路径整体上调至 $2,000M/$1,500M/$800M 仍为 +1.0%，两者距 8% 门槛尚差 7-9 个百分点。反推可知现价隐含 2026-2029 年 35.3%-55.6% 的收入复合增速（取决于 3.5x-5.0x 退出倍数），本报告基准情景为 30.0%。更关键的是牛市情景本身也只交付 +9.8% 年化，即勉强触及门槛下沿，而基准 -5.6%、熊市 -40.2%。这是估值与资本结构判断，不是生意质量判断——订单与客户可在一手申报中核到，备考净现金约 $934M、有息负债仅 $6.408M，观察窗口内不存在被迫结局；我们反对的是在 $7.39 上为一个尚未经完整周期检验的整合叙事支付 35%-56% 复合增速预期，同时承担 1.64 倍的全口径摊薄与占总资产 41.6% 的商誉与无形资产。",
-      "en": "At the 2026-09-18 close of $7.39 on 581,241,996 shares, market capitalization is $4,295.4M and enterprise value $3,495.2M, or 20.08x TTM revenue and 6.50x the FY2026 guidance midpoint (against AVAV at 4.73x and KTOS at 4.89x). What settles the stance is the probability-weighted expected return: weighting 30% bull / 40% base / 30% bear (FY2029 revenue of $1,450M / $1,181M / $600M, exit EV/Sales of 5.0x / 3.5x / 1.5x, exit share counts of 793M / 742M / 765M) gives a weighted value of $5.86 per share, 20.7% below $7.39, or -6.8% annualized over 3.28 years (2026-09-21 to 2029-12-31, 1,197 days) - 14.8 to 16.8 points below the 8%-10% required return. The negative skew is insensitive to the assumptions: lifting every exit multiple to 6.0x/4.5x/2.0x still gives -0.9%, and raising the whole FY2029 revenue path to $2,000M/$1,500M/$800M still gives +1.0%, both 7 to 9 points short of the 8% hurdle. Working backwards, today's price implies a 2026-2029 revenue CAGR of 35.3%-55.6% depending on a 3.5x-5.0x exit multiple, against this report's base case of 30.0%. More tellingly, the bull case itself delivers only +9.8% annualized - merely reaching the bottom of the hurdle - while the base case is -5.6% and the bear case -40.2%. This is a valuation and capital-structure judgment, not a business-quality judgment: the orders and customers verify against primary filings, and with roughly $934M of pro forma net cash against $6.408M of interest-bearing debt no outcome is forced within the window. What we object to is paying, at $7.39, for a 35%-56% compound growth expectation on an integration story no complete cycle has tested, while carrying 1.64x fully diluted shares and goodwill and intangibles equal to 41.6% of total assets."
+      "zh": "按两份 10-Q 的同日披露，在外普通股由 368,459,664 增至 591,442,459 股，同比 60.52%，超过原降级规则 25% 阈值。1 月 4 日待交付的 44,999,998 股 DZYNE 对价股未计入。以 11 月 25 日收盘 $3.90、11 月 17 日披露 591,522,397 股、9 月末财务并扣已完成的 PDW 投资计算，市值 $2,306.9M、EV $1,577.6M、TTM EV/Sales 4.76 倍。情景 20%/45%/35% 加权终值 $4.92，以 3.099 年折合 7.77%，低于 8% 至 10% 门槛，熊市下行 69.80%。较低价格改善上行情景，实际稀释、Q3 经营现金流流出 $140.648M 和较大下行仍支持拟议看空回避、中等确信度。",
+      "en": "The same-date Form 10-Q covers show 368,459,664 and 591,442,459 shares, up 60.52% against the original 25% downgrade threshold. The 44,999,998 DZYNE shares due January 4 sit outside those counts. The $3.90 November 25 close, 591,522,397 shares disclosed as of November 17 and September 30 accounts adjusted for completed PDW funding imply $2,306.9M of market cap, $1,577.6M of EV and 4.76x TTM EV/sales. The 20%/45%/35% grid yields $4.92 weighted terminal value and 7.77% annualized over 3.099 years against an 8–10% hurdle. The bear case loses 69.80%. The lower close improves upside, while verified dilution, $140.648M of Q3 operating cash burn and large downside support proposed bearish-avoid at medium conviction."
     },
     "stanceTriggers": {
       "upgrade": {
@@ -12427,6 +12427,16 @@
         "note": {
           "zh": "首次覆盖裁定。30/40/30 情景网格加权每股价值 $5.86，3.28 年年化 -6.8%，低于 8%-10% 要求回报 14.8-16.8 个百分点；放宽退出倍数与收入路径后仍为 -0.9% 至 +1.0%，负偏斜成立。",
           "en": "Initiation ruling. The 30/40/30 scenario grid weights to $5.86 per share, or -6.8% annualized over 3.28 years, 14.8 to 16.8 points below the 8%-10% required return; widening both the exit multiples and the revenue paths still gives -0.9% to +1.0%, establishing a negative skew."
+        }
+      },
+      {
+        "date": "2026-11-27",
+        "stance": "bearish-avoid",
+        "conviction": "medium",
+        "price": 3.9,
+        "note": {
+          "zh": "11 月 27 日拟议裁定，使用 11 月 25 日常规收盘。原稀释规则的同比 60.52% 已满足，当前加权终值折算年化 7.77%、熊市下行 69.80%。",
+          "en": "November 27 proposed decision at the November 25 regular close. Comparable share-count growth of 60.52% meets the original rule. Annualized return from the weighted terminal value is 7.77%, with 69.80% downside in the bear case."
         }
       }
     ]

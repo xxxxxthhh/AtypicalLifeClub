@@ -721,11 +721,11 @@
       "symbol": "ONDS",
       "status": "carried-forward",
       "attemptedAt": "2026-11-27",
-      "baseDate": "2026-09-18",
-      "basePrice": 7.39,
+      "baseDate": "2026-11-25",
+      "basePrice": 3.9,
       "lastDate": "2026-11-25",
       "lastClose": 3.9,
-      "changePct": -47.2,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {
