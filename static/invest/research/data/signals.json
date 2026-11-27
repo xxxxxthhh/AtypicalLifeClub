@@ -5531,5 +5531,28 @@
       "mp-2026:dow-package-durability",
       "mp-2026:q2-2026-ppa-income"
     ]
+  },
+  {
+    "id": "nebius-q3-secured-funding-disclosure-20261112",
+    "date": "2026-11-12",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Nebius 披露 7 月定期贷款余额及履约情况",
+      "en": "Nebius discloses its July term-loan balance and covenant compliance"
+    },
+    "detail": {
+      "en": "In Exhibit 99.2 to the November 12 Form 6-K, Nebius disclosed a $773.3M secured July term loan, with $751.8M of principal outstanding at September 30 and covenant compliance, including a minimum debt-service coverage ratio of 1.15:1. The separate $3.5B Citi bridge agreed in October appears as a subsequent event. The shareholder letter’s more-than-100% prepayment coverage applies to capex associated with Q3 agreements. Its 75%–85% figure is expected financing coverage for 2027 capex. The original claim that more than 90% of 2026 capex was secured still lacks a comparable update, leaving the reading unclear. https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-2.htm",
+      "zh": "11 月 12 日 6-K 附件 99.2 显示，7 月签订的有担保定期贷款金额为 $773.3M，截至 9 月 30 日本金余额 $751.8M，借款人符合包括 1.15:1 最低偿债覆盖率在内的财务契约。10 月签订的 $3.5B Citi 过桥额度在期后事项中单列。 股东信所称预付款覆盖超过 100% 指第三季度新签协议对应的资本开支。其 75%–85% 指 2027 年资本开支的预期资金覆盖率。原先「2026 年资本开支超过 90% 已锁定」的说法仍缺可比数据，读数维持 unclear。 https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-2.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "NBIS"
+    ],
+    "reportIds": [
+      "nebius-2026"
+    ],
+    "monitoringRefs": [
+      "nebius-2026:funding-durability"
+    ]
   }
 ]
