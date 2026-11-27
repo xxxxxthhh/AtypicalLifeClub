@@ -1,13 +1,19 @@
 # NVIDIA (NVDA) Deep Research Report
 
 Coverage date: 2026-06-26
-Last updated: 2026-11-24
+Last updated: 2026-11-27
 Ticker: NASDAQ: NVDA
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 > **Fiscal-year note:** NVIDIA's fiscal year ends in late January. In this report **FY2026** is the year ended 2026-01-25; **Q1 FY2027** is the quarter ended 2026-04-26 (reported 2026-05-20), the latest quarter at initial publication; as of 2026-11-19 the latest reported quarter is **Q3 FY2027** (ended 2026-10-25, reported 2026-11-17). Unlike the calendar-quarter convention used in this center's other reports, NVIDIA figures always use the company's official fiscal labels. Read alongside this center's Broadcom, AMD, GE Vernova and Bloom Energy reports — NVIDIA and Broadcom form the "compute side" of AI infrastructure, while GE Vernova and Bloom are the "power side"; only together can the full AI-infrastructure chain be assessed.
 
 ---
+
+> **2026-11-27 monitoring addendum**
+>
+> **NVIDIA discloses $118.0B maximum gross guarantee exposure** Exhibit 99.2 to the November 17 Form 8-K reports $118.0B maximum gross guarantee exposure as of October 25. This comprises $105.0B for SB Energy, $3.5B for neocloud land, power and shell guarantees, and $9.5B for power and systems credit support. The disclosed ceiling rose $9.5B from the Q2 Form 10-Q figure of $108.5B. NVIDIA reported no guarantee payments to date. The disclosure distinguishes the guarantee ceiling from payments. NVIDIA also recorded $1.8B of non-marketable equity impairment. The exhibit does not name the impaired investees or provide enough detail to verify independent demand and repayment capacity for the new credit support. The trigger reading remains unclear. [Source 1](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/0001045810-26-000088.txt) · [Source 2](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm)
+>
+> The report retains the historical valuation basis dated 2026-07-30. The published stance and conviction are unchanged.
 
 > **2026-11-23 — NVIDIA reinstates Jensen Huang as president, CEO and director.** The November 23 Form 8-K says NVIDIA’s board reinstated Jensen Huang as president, CEO and director, effective immediately on November 22. Colette M. Kress continues as EVP and CFO, and Harvey C. Jones remains board chair. The press release says the independent board committee will continue its investigation. A separate independent National Security and Export Control Committee was formed, and a chief compliance officer search is beginning. The reinstatement changes the management facts while the investigation remains in progress. The historical 2026-07-30 valuation anchor and the published stance and conviction remain in place. [Source 1](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm) · [Source 2](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nov23pressrelease.htm) · [Source 3](https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director)
 
