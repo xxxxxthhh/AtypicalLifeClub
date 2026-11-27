@@ -5600,5 +5600,29 @@
     "monitoringRefs": [
       "nvidia-2026:circular-financing-exposure"
     ]
+  },
+  {
+    "id": "pltr-q3-2026-rdv-sbc-monitoring-20261103",
+    "date": "2026-11-03",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Palantir Q3 监测补录：美国商业 RDV 增速连续两季低于收入，股权激励占比 13.78%",
+      "en": "Palantir Q3 monitoring: US commercial RDV growth trails revenue for two quarters, SBC is 13.78% of revenue"
+    },
+    "detail": {
+      "zh": "Q2／Q3 美国商业收入同比 +149%／+148%，RDV +124%／+79%，触发连续两季监测条件；TCV +153%／+11%，仅 Q3 低于收入增速。Q3 总收入 $2,313.411M，高于 $2,160–2,164M 指引。11-03 申报的 Q3 10-Q：股权激励 $318.889M，占收入 13.78%（Q2 13.70%、上年同期 14.59%，均为推算），仍高于约 13% 的监测线。两年 Q3 10-Q 封面 A/B/F 普通股合计同比约 +1.09%，低于 3%；前九个月回购 $1.5M。来源：https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/a2026q2ex991pressrelease.htm https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm https://www.sec.gov/Archives/edgar/data/1321655/000132165526000041/pltr-20260630.htm https://www.sec.gov/Archives/edgar/data/1321655/000132165525000131/pltr-20250930.htm",
+      "en": "Q2/Q3 US commercial revenue grew 149%/148% YoY and RDV grew 124%/79%, meeting the two-quarter monitoring test. TCV grew 153%/11%, trailing revenue only in Q3. Q3 total revenue of $2,313.411M exceeded $2,160–2,164M guidance. The Q3 10-Q filed November 3 shows SBC of $318.889M, or 13.78% of revenue, against 13.70% in Q2 and 14.59% a year earlier (calculated), above the roughly 13% monitoring threshold. Class A/B/F shares across the two Q3 10-Q covers rose about 1.09%, below 3%. Nine-month repurchases were $1.5M. Sources: https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/a2026q2ex991pressrelease.htm https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm https://www.sec.gov/Archives/edgar/data/1321655/000132165526000041/pltr-20260630.htm https://www.sec.gov/Archives/edgar/data/1321655/000132165525000131/pltr-20250930.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "PLTR"
+    ],
+    "reportIds": [
+      "pltr-2026"
+    ],
+    "monitoringRefs": [
+      "pltr-2026:us-commercial-growth-vs-guide",
+      "pltr-2026:sbc-dilution-intensity"
+    ]
   }
 ]
