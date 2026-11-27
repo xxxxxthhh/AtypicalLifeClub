@@ -2656,7 +2656,7 @@
     ],
     "category": "tech",
     "date": "2026-06-30",
-    "lastUpdate": "2026-10-29",
+    "lastUpdate": "2026-11-27",
     "file": "/invest/research/reports/view.html?id=vertiv-2026",
     "markdownFiles": {
       "zh": "/invest/research/Vertiv_深度研究报告_2026-06.md",
@@ -2780,13 +2780,14 @@
           "en": "the ~43.6x forward (~65x trailing GAAP) multiple compresses on any guide miss"
         },
         "latest": {
-          "zh": "2026-08-18 估值重锚：2026-08-17 收盘 $292.43（较 07-31 裁定锚点两周 +28.5%，指引未变、纯倍数再扩张）；市值约 $112.6B、EV 约 $112.7B、P/S(TTM) 约 9.8x、滚动 GAAP 约 65x；对照上修后 FY2026 指引（调整后 EPS $6.65-6.75）前瞻倍数约 43.6x，反向倍数框架隐含约 20% EPS CAGR。立场由 neutral-watch 下调为 cautious / 中确信。",
-          "en": "2026-08-18 valuation re-anchor: VRT closed at $292.43 on 2026-08-17 (+28.5% in two weeks from the 07-31 adjudication anchor with guidance unchanged — pure multiple re-expansion); market cap about $112.6B, EV about $112.7B, P/S (TTM) about 9.8x, trailing GAAP about 65x; on the raised FY2026 guide (adjusted EPS $6.65-6.75) the forward multiple is about 43.6x, and the reverse-multiple frame implies roughly 20% EPS CAGR. Stance moved from neutral-watch down to cautious / medium conviction."
+          "zh": "Vertiv 2026 年第三季度净销售额 $43.13 亿，有机销售额同比增长 55%，调整后营业利润 $10.87 亿、营业利润率 25.2%，调整后摊薄 EPS $2.21、同比增长 78%。上述六项均高于 7 月 29 日发布的季度指引上限。EPS 高出 $0.38，调整后营业利润率高出 0.2 个百分点。历史口径：2026-08-18 估值重锚：2026-08-17 收盘 $292.43（较 07-31 裁定锚点两周 +28.5%，指引未变、纯倍数再扩张）；市值约 $112.6B、EV 约 $112.7B、P/S(TTM) 约 9.8x、滚动 GAAP 约 65x；对照上修后 FY2026 指引（调整后 EPS $6.65-6.75）前瞻倍数约 43.6x，反向倍数框架隐含约 20% EPS CAGR。立场由 neutral-watch 下调为 cautious / 中确信。",
+          "en": "Vertiv Q3 2026 net sales were $4.313B, organic sales grew 55% year over year, adjusted operating profit was $1.087B at a 25.2% margin, and adjusted diluted EPS was $2.21, up 78% year over year. All six metrics exceeded the top of the July 29 quarterly guidance. EPS was $0.38 above the high end and adjusted operating margin was 0.2 percentage points above it. Historical basis: 2026-08-18 valuation re-anchor: VRT closed at $292.43 on 2026-08-17 (+28.5% in two weeks from the 07-31 adjudication anchor with guidance unchanged — pure multiple re-expansion); market cap about $112.6B, EV about $112.7B, P/S (TTM) about 9.8x, trailing GAAP about 65x; on the raised FY2026 guide (adjusted EPS $6.65-6.75) the forward multiple is about 43.6x, and the reverse-multiple frame implies roughly 20% EPS CAGR. Stance moved from neutral-watch down to cautious / medium conviction."
         },
         "nextCheck": "2026-Q3 财报 backlog 与指引兑现 / Q3 earnings and guide delivery",
         "nextCheckDate": "2026-10",
         "reading": "within",
-        "readingAsOf": "2026-08-18"
+        "readingAsOf": "2026-10-28",
+        "readingNote": "Q3 未出现指引落空这一触发前提。保留 2026-08-17 历史估值口径。 / Q3 did not meet the guide-miss prerequisite. The historical August 17 valuation basis is retained."
       },
       {
         "id": "liquid-cooling-competition",

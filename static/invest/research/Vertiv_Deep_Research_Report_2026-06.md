@@ -1,7 +1,7 @@
 # Vertiv (VRT) Deep Research Report
 
 Coverage date: 2026-06-30
-Last updated: 2026-10-29
+Last updated: 2026-11-27
 Ticker: NYSE: VRT
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence. All prices and market caps are point-in-time snapshots; financial figures are per company disclosure unless noted otherwise.
 
@@ -10,6 +10,8 @@ Disclaimer: This report is for informational and research purposes only. It does
 ---
 
 ## Executive Summary
+
+> **2026-11-27 monitoring check.** Vertiv's October 28 results exceeded the high end of its July 29 guidance for all six reported Q3 metrics. Adjusted diluted EPS was $2.21 versus $1.77–1.83, and adjusted operating margin was 25.2% versus 24.0%–25.0%. Net sales were $4.313B versus $3.650B–$3.850B, organic sales growth was 55% versus 34%–36%, adjusted operating profit was $1.087B versus $898M–$938M, and adjusted diluted EPS growth was 78% versus 43%–48%. The guide-miss prerequisite for the multiple-compression trigger was absent in Q3. The historical August 17 valuation basis, published stance and conviction are unchanged. [July 29 guidance](https://www.sec.gov/Archives/edgar/data/1674101/000162828026050323/q22026exhibit991vrt07292026.htm) [October 28 results](https://www.sec.gov/Archives/edgar/data/1674101/000162828026067707/q32026exhibit991vrt10282026.htm)
 
 > **2026-10-29 factual update**: Q3 2026 (ended 2026-09-30, released 10-28) net sales were $4.313B (+61% YoY, +55% organic), adjusted operating margin 25.2% (+290bps), diluted EPS $1.95, adjusted EPS $2.21, OCF $794M and adjusted FCF $652M. Management reports organic orders growth above 100% YoY without an orders dollar amount. The release and presentation read this pass give no quarterly backlog balance or book-to-bill; the growth rate cannot clear every composite monitoring leg. FY2026 guidance is net sales $14.45–14.85B, adjusted EPS $7.10–7.20 and adjusted FCF $2.6–2.8B, recorded as guidance facts without replacing historical valuation denominators. The October 27 8-K Item 2.01 confirms UIG closed that day for about $1.45B of closing cash plus up to $1.15B contingent cash based on EBITDA targets; the latter is not fully paid consideration or an automatic EV adjustment. Orders/backlog and hyperscaler-capex composite readings remain unclear. The Q3 10-Q was unavailable for independent reading this pass and the call was not read; no claim about that 10-Q's omissions or an XBRL-date conflict is certified. Valuation remains anchored to the historical 2026-08-17 basis; new actuals, guidance or transaction capital effects await Mode B. Price, valuation numbers, stance and conviction are unchanged. [SEC primary source](https://www.sec.gov/Archives/edgar/data/1674101/000162828026067707/q32026exhibit991vrt10282026.htm) [UIG 8-K Item 2.01](https://www.sec.gov/Archives/edgar/data/1674101/000162828026067393/vrt-20261027.htm) [Results presentation](https://s205.q4cdn.com/554782763/files/content_files/Vertiv-Third-Quarter-2026-Results-Presentation.pdf)
 
