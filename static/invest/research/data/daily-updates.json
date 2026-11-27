@@ -3,6 +3,58 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "lumentum-2026",
+      "signalId": "lumentum-q1-fy2027-customer-diluted-eps-basis-20261103",
+      "type": "facts",
+      "evidenceDate": "2026-11-03",
+      "title": {
+        "en": "Lumentum Q1 FY2027 customer concentration and quarterly diluted shares",
+        "zh": "Lumentum Q1 FY2027 客户集中度与季度摊薄股数"
+      },
+      "change": {
+        "en": "For the quarter ended September 26, 2026, the two largest end customers accounted for 37% and 11% of net revenue (22% and 21% a year earlier). Form 10-Q Note 3 used 101.7M weighted-average diluted shares for GAAP EPS. The earnings release used 101.0M for non-GAAP EPS.",
+        "zh": "截至 2026-09-26 的季度，最大两家终端客户占净收入 37% 和 11%（上年同期 22% 和 21%）。10-Q 附注 3 的 GAAP 每股收益采用 101.7M 加权摊薄股，业绩稿的非 GAAP 口径为 101.0M。"
+      },
+      "meaning": {
+        "en": "The 37% share crosses the 35% customer threshold. The two share counts are period-weighted EPS denominators. The working fully diluted share count and cash-retention condition still require separate evidence.",
+        "zh": "37% 已超过单一客户 35% 门槛。两项股数是季度每股收益的加权分母，尚不足以核定研究所用的完全稀释分母与现金留存条件。"
+      },
+      "next": {
+        "en": "Use a same-date capitalization and cash-retention bridge to test the 104M condition and adjudicate how the concentration leg relates to the original compound trigger.",
+        "zh": "用同一截点的资本结构和现金留存桥核对 104M 条件，明确集中度腿与原复合条件的关系。"
+      },
+      "id": "research-fcb6770f0ead9f950f44b6606bd8feeeb7abd819e9c79b124ada5ff33c891246",
+      "publishedDate": "2026-11-27",
+      "company": "Lumentum",
+      "ticker": "LITE"
+    },
+    {
+      "reportId": "wdc-2026",
+      "signalId": "wdc-q1-fy2027-cover-shares-repurchases-20261023",
+      "type": "facts",
+      "evidenceDate": "2026-10-23",
+      "title": {
+        "en": "Western Digital Q1 FY2027 10-Q confirms pre-redemption shares and repurchases",
+        "zh": "西部数据 Q1 FY2027 10-Q 核实赎回前在外股数及回购"
+      },
+      "change": {
+        "en": "The 10-Q cover reports 374,323,269 shares outstanding at the October 15, 2026 close, up 13,782,325 from the August 7 10-K cover. The company repurchased 2.0M shares under its program for about $1.00B in cash during the quarter. The three subperiod purchase averages were $526.29, $488.15 and $461.59, all above the report’s historical $448.17 anchor.",
+        "zh": "10-Q 封面列示 2026-10-15 收盘在外 374,323,269 股，较 10-K 封面的 2026-08-07 多 13,782,325 股。季度内按计划回购 200 万股，现金成本约 10 亿美元。三段购股均价分别为 526.29、488.15、461.59 美元，均高于报告历史锚 448.17 美元。"
+      },
+      "meaning": {
+        "en": "Shares outstanding rose across the cover dates despite repurchases. The $141M of principal outstanding at October 2 and the $109,505,000 called in the September 14 announcement need reconciliation by date and settlement scope. The October cover count predates the November 16 redemption date.",
+        "zh": "在外股数在回购期间仍上升。10-Q 列示截至 10 月 2 日未偿本金 1.41 亿美元与 9 月 14 日新闻稿所列拟赎回的 109,505,000 美元需按日期及结算范围对账。10 月封面股数早于 11 月 16 日赎回日。"
+      },
+      "next": {
+        "en": "Review both original legs against issuer-reported redemption and conversion settlement, a post-redemption outstanding-share count and same-date capitalization.",
+        "zh": "以发行人披露的赎回和转股实绩、赎回后在外股数及同截点资本结构，复核两条原条件。"
+      },
+      "id": "research-7a683aea3febf71c99a1acb419e573d03045d18e36601b9beda06f8b8d13a015",
+      "publishedDate": "2026-11-27",
+      "company": "Western Digital",
+      "ticker": "WDC"
+    },
+    {
       "reportId": "vertiv-2026",
       "signalId": "vertiv-q3-2026-guide-delivery-20261028",
       "type": "facts",
