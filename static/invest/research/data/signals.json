@@ -5506,5 +5506,30 @@
     "monitoringRefs": [
       "nebius-2026:earnings-quality-ex-marks"
     ]
+  },
+  {
+    "id": "mp-q3-2026-10q-funding-ppa-20261106",
+    "date": "2026-11-06",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "MP Materials Q3 10-Q：资本开支指引持平，上半年 PPA 款项已收",
+      "en": "MP Materials Q3 10-Q: capex guidance holds and first-half PPA cash was collected"
+    },
+    "detail": {
+      "zh": "2026-11-06 10-Q（截至 9 月 30 日）：2026 年资本开支指引仍为扣除政府补助后 $500M–$600M。现金及等价物 $260.336M，短期投资 $1,077.575M，合计 $1,337.911M。分部附注披露的单季总资本开支为 $112.539M；前九个月购置物业、厂房及设备现金支出 $420.250M（未扣除 $6.5M 政府补助款）。权益变动表列示员工股权结算、77,640 股服务对价及 43,573 股用于支付前期取得的无形资产，未列示当季现金发行普通股融资。就披露的融资活动与两项数值阈值，本季维持阈内。 2026-11-06 10-Q 披露，截至 9 月 30 日共收到 DoW 约 $110.9M，款项对应 2025 Q4 和 2026 上半年确认的 PPA 收入，明确覆盖前一季度。9 月末 PPA 应收 $8.109M，等于 Q3 新确认的收入，本期款项后续到账仍待下一份申报。附注继续列示 DoW 对 10X 至少 $140M 的 EBITDA 保证（按协议定义并逐年递增）。本次申报未披露相关安排受损，已披露的季度读数维持阈内。 2026-11-06 10-Q 确认 Q3 PPA 收入 $8.109M，按协议为 $110/公斤和季度加权参考价之间的差额，多数对应第三方销售，未披露参考价本身。Materials 分部调整后 EBITDA 为 $47.828M，扣除 PPA 后为 $39.719M（推算）；合并调整后 EBITDA 为 $41.138M，超过 2026 Q1 的 $36.6M。两条下行路径在当季读数内均未触发。10-Q 将 $31.6M SEG+ 收入列为一次性、售后代管交易，未单列其利润贡献，因此不能用该季度数据推断可持续的一比一替代。 https://www.sec.gov/Archives/edgar/data/1801368/000180136826000057/mp-20260930.htm",
+      "en": "November 6, 2026 Form 10-Q (quarter ended September 30): 2026 capital-cost guidance remains $500M–$600M net of government awards. Cash and equivalents of $260.336M plus $1,077.575M of short-term investments total $1,337.911M. Total capital expenditures per the segment note were $112.539M for the quarter, and cash purchases of property, plant and equipment were $420.250M for the nine months (before $6.5M of government-award proceeds). The equity statement lists employee equity settlements, 77,640 shares for services and 43,573 shares for an intangible asset acquired in a prior period, with no quarterly common-stock offering for cash. The disclosed financing activity and the two numeric thresholds support a within reading for the quarter. The November 6, 2026 Form 10-Q says MP received approximately $110.9M from the DoW by September 30 for PPA income recognized in Q4 2025 and H1 2026, explicitly covering the prior quarter. The September 30 PPA receivable of $8.109M matches Q3 income. Collection of the new accrual remains to be checked in a later filing. The notes continue to disclose the DoW guarantee of at least $140M of 10X EBITDA, as defined in the agreement and subject to annual escalation. The filing discloses no impairment of the arrangement. The reading stays within for the disclosed period. The November 6, 2026 Form 10-Q confirms $8.109M of Q3 PPA income based on the shortfall from $110/kg to the quarterly weighted benchmark. Most of the accrual pertained to third-party sales. The benchmark itself is undisclosed. Materials segment adjusted EBITDA was $47.828M, or $39.719M excluding PPA (derived). Consolidated adjusted EBITDA of $41.138M remained above Q1 2026’s $36.6M. Neither downside path was met on the reported quarter. The 10-Q identifies the $31.6M SEG+ transaction as a one-time bill-and-hold sale. Its profit contribution was not separately disclosed, so the quarter does not establish durable one-for-one substitution. https://www.sec.gov/Archives/edgar/data/1801368/000180136826000057/mp-20260930.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "MP"
+    ],
+    "reportIds": [
+      "mp-2026"
+    ],
+    "monitoringRefs": [
+      "mp-2026:capex-funding-to-10x",
+      "mp-2026:dow-package-durability",
+      "mp-2026:q2-2026-ppa-income"
+    ]
   }
 ]
