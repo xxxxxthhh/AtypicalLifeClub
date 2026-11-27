@@ -5624,5 +5624,29 @@
       "onds-2026:cash-burn-refinancing",
       "onds-2026:dzyne-integration"
     ]
+  },
+  {
+    "id": "ondas-valuation-reanchor-20261125",
+    "date": "2026-11-25",
+    "title": {
+      "zh": "Ondas 按 11 月 25 日收盘重估并拟下调立场",
+      "en": "Ondas November 25 valuation re-anchor and proposed stance downgrade"
+    },
+    "detail": {
+      "zh": "11 月 27 日拟议裁定采用 11 月 25 日收盘 $3.90 和 11 月 17 日申报股数。两份 10-Q 复算同日股数同比 60.52%，高于 25% 阈值。新资本桥对应 TTM EV/Sales 4.76 倍，情景加权终值 $4.92、年化 7.77%、熊市下行 69.80%。拟从谨慎下调至看空回避、中等确信度。 https://api.nasdaq.com/api/quote/ONDS/historical?assetclass=stocks&fromdate=2026-11-23&todate=2026-11-25&limit=10 https://ir.ondas.com/all-sec-filings/content/0001213900-26-121845/ea0312644-424b7_ondas.htm https://www.sec.gov/Archives/edgar/data/1646188/000119312526458517/onds-20260930.htm https://www.sec.gov/Archives/edgar/data/1646188/000121390025109604/ea0264505-10q_ondas.htm https://ir.ondas.com/all-sec-filings/content/0001213900-26-035981/ea0282911-10k_ondas.htm",
+      "en": "The November 27 proposal uses the $3.90 November 25 close and the November 17 disclosed common share count. Comparable filing covers give 60.52% growth versus the original 25% threshold. The refreshed capital bridge gives 4.76x TTM EV/sales. Weighted terminal value of $4.92 yields 7.77% annualized and the bear case loses 69.80%. Proposed stance is bearish-avoid from cautious, at medium conviction. https://api.nasdaq.com/api/quote/ONDS/historical?assetclass=stocks&fromdate=2026-11-23&todate=2026-11-25&limit=10 https://ir.ondas.com/all-sec-filings/content/0001213900-26-121845/ea0312644-424b7_ondas.htm https://www.sec.gov/Archives/edgar/data/1646188/000119312526458517/onds-20260930.htm https://www.sec.gov/Archives/edgar/data/1646188/000121390025109604/ea0264505-10q_ondas.htm https://ir.ondas.com/all-sec-filings/content/0001213900-26-035981/ea0282911-10k_ondas.htm"
+    },
+    "scope": "report-monitoring",
+    "crossChecks": [],
+    "tickers": [
+      "ONDS"
+    ],
+    "reportIds": [
+      "onds-2026"
+    ],
+    "monitoringRefs": [
+      "onds-2026:share-dilution",
+      "onds-2026:cash-burn-refinancing"
+    ]
   }
 ]
