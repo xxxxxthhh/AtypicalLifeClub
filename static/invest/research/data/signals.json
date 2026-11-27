@@ -5693,5 +5693,28 @@
     "monitoringRefs": [
       "alphabet-2026:adtech-remedy-outcome"
     ]
+  },
+  {
+    "id": "alphabet-q3-depreciation-margins-20261028",
+    "date": "2026-10-28",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Alphabet Q3 折旧上升，合并与 Cloud 利润率仍高于监测阈值",
+      "en": "Alphabet’s Q3 depreciation rose and both margins stayed above monitoring thresholds"
+    },
+    "detail": {
+      "zh": "Alphabet 10 月 28 日公布的三季度业绩显示，物业与设备折旧为 83.69 亿美元，上年同期为 56.11 亿美元。合并经营利润 405.76 亿美元除以收入 1,275.77 亿美元得 31.8%。Google Cloud 营业利润 111.21 亿美元除以分部收入 307.09 亿美元得 36.2%。 本季两个利润率均高于约 30% 和 25% 的对应阈值，监测读数维持阈内。折旧金额属于集团披露，Cloud 利润率是分部口径。 https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+      "en": "Alphabet’s October 28 Q3 release reports depreciation of property and equipment of US$8.369 billion, up from US$5.611 billion a year earlier. Consolidated operating income of US$40.576 billion on revenue of US$127.577 billion gives a 31.8% margin. Google Cloud operating income of US$11.121 billion on segment revenue of US$30.709 billion gives a 36.2% margin. Both margins remained above their respective thresholds of about 30% and 25%, supporting a within reading for the quarter. The depreciation figure is consolidated and the Cloud margin is segment-level. https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "GOOG"
+    ],
+    "reportIds": [
+      "alphabet-2026"
+    ],
+    "monitoringRefs": [
+      "alphabet-2026:depreciation-wave"
+    ]
   }
 ]
