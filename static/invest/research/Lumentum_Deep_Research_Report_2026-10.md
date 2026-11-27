@@ -1,12 +1,15 @@
 # Lumentum (LITE) Deep Research Report — Laser Economics, Architecture Migration and Growth Pricing
 
 Coverage date: 2026-10-19
-Last updated: 2026-11-04
+Last updated: 2026-11-27
 Ticker: NASDAQ: LITE
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 Reporting period: FY2026, ended 2026-06-27, incorporating issuer updates available through 2026-10-19. Common price anchor: the completed U.S. regular-session close on 2026-10-16. Dollar amounts are USD millions (M) unless specified; B denotes billions. Actual results, company objectives and research assumptions are identified separately.
 
 ## Executive Summary <!-- report-module:overview -->
+
+> **2026-11-27 · Lumentum Q1 FY2027 customer concentration and quarterly diluted shares** (2026-11-03)
+> For the quarter ended September 26, 2026, the two largest end customers accounted for 37% and 11% of net revenue (22% and 21% a year earlier). Form 10-Q Note 3 used 101.7M weighted-average diluted shares for GAAP EPS. The earnings release used 101.0M for non-GAAP EPS. The 37% share crosses the 35% customer threshold. The two share counts are period-weighted EPS denominators. The working fully diluted share count and cash-retention condition still require separate evidence. Use a same-date capitalization and cash-retention bridge to test the 104M condition and adjudicate how the concentration leg relates to the original compound trigger. Primary sources [1](https://www.sec.gov/Archives/edgar/data/1633978/000162828026069615/lite-20260926.htm) · [2](https://www.sec.gov/Archives/edgar/data/1633978/000162828026068655/lite_ex991xq1fy27.htm)
 
 > **2026-11-04 factual update**: Q1 FY2027 10-Q (0001628280-26-069615, 2026-11-03): operating cash flow $267.7M (prior-year quarter $57.9M) and capital expenditure $229.8M (prior-year quarter $76.2M), a difference of about $37.9M (derived); RSU net share settlement withholding taxes in financing cash flow were $306.9M (prior-year quarter $47.4M). [Source document](https://www.stocktitan.net/sec-filings/LITE/10-q-lumentum-holdings-inc-quarterly-earnings-report-ce7098029772.html).
 > The November 3 Form 10-Q MD&A reports that OCS contributed over $108M of quarterly revenue. Purchase commitments, future revenue, and first CPO shipments require separate evidence. The segment note shows two end customers at 37% and 11% of quarterly net revenue (22% and 21% a year earlier). The 37% share crosses the published 35% single-customer threshold. Customer identities and the fully diluted denominator remain open.
