@@ -5368,5 +5368,28 @@
     "monitoringRefs": [
       "meta-2026:regulatory-social-risk"
     ]
+  },
+  {
+    "id": "vistra-q3-2026-10q-pre-close-leverage-20261109",
+    "date": "2026-11-09",
+    "scope": "report-monitoring",
+    "title": {
+      "en": "Vistra files Q3 balance sheet before the Cogentrix close",
+      "zh": "Vistra 披露 Cogentrix 交割前的第三季资产负债表"
+    },
+    "detail": {
+      "en": "Vistra’s Q3 10-Q (filed 2026-11-09) gives September 30 debt-like obligations less cash of $19,025M on the June review’s basis, down 5.2% from $20,073M. Nine-month operating cash flow less capital spending including nuclear fuel and LTSA prepayments was $2,011M versus $722M a year earlier. These figures predate the Cogentrix close. Vistra used cash and facility borrowings to repay $1.7B of assumed Cogentrix debt on November 5. The 2026 Form 10-K is due to provide acquisition-date balances and supplemental pro forma results. Post-close leverage and cash-flow pressure remain unverified. https://www.sec.gov/Archives/edgar/data/1692819/000169281926000025/vistra-20260930.htm https://www.sec.gov/Archives/edgar/data/1692819/000169281926000019/vistra-20260630.htm",
+      "zh": "Vistra Q3 10-Q（2026-11-09 提交）：截至 9 月 30 日，按六月复核同口径计算的债务类项目减现金为 190.25 亿美元，较 6 月 30 日的 200.73 亿美元下降 5.2%。前九个月经营现金流减含核燃料与 LTSA 预付款的资本开支为 20.11 亿美元，上年同期为 7.22 亿美元。上述为交割前读数。公司于 11 月 5 日用现金及融资工具借款偿还 17 亿美元 Cogentrix 承接债务，收购日余额与补充备考业绩待 2026 年 10-K。交割后杠杆和现金流压力仍待核实。 https://www.sec.gov/Archives/edgar/data/1692819/000169281926000025/vistra-20260930.htm https://www.sec.gov/Archives/edgar/data/1692819/000169281926000019/vistra-20260630.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "VST"
+    ],
+    "reportIds": [
+      "vistra-2026"
+    ],
+    "monitoringRefs": [
+      "vistra-2026:leverage-fcf-discipline"
+    ]
   }
 ]
