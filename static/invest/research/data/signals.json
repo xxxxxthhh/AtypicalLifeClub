@@ -5483,5 +5483,28 @@
     "monitoringRefs": [
       "lumentum-2026:concentration-dilution"
     ]
+  },
+  {
+    "id": "nebius-q3-2026-ytd-clickhouse-bridge-20261112",
+    "date": "2026-11-12",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Nebius Q3 经营转正，前九个月累计利润仍受 ClickHouse 重估支撑",
+      "en": "Nebius turns an operating profit in Q3 while the nine-month result still depends on the ClickHouse mark"
+    },
+    "detail": {
+      "zh": "2026-11-12 Form 6-K 附件 99.2 财务报表及同期业绩稿：Q3 GAAP 经营利润为 $50.4M（上年同期亏损 $130.2M），持续经营净亏损 $37.5M，当季未录得权益投资重估收益。本季评级维持阈内。单季持续经营现金流为 −$273.0M，购置物业、设备及无形资产支出 $7,300.4M。同期前九个月累计经营亏损 $253.5M，持续经营净利润为 $393.3M，其中 ClickHouse 投资非现金重估收益为 $780.6M。若仅扣除该笔收益、未调整所得税及其他项目，累计持续经营净额约为 −$387.3M（算术示意）。单季经营转正尚未改变累计利润对重估的依赖。 https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm",
+      "en": "The November 12, 2026 Form 6-K financial statements (Exhibit 99.2) and earnings release report Q3 GAAP operating income of $50.4M versus a $130.2M operating loss a year earlier, a $37.5M continuing-operations net loss and no quarterly equity-investment revaluation gain. The quarter stays within on the operating-income trigger. Quarterly cash flow from continuing operations was negative $273.0M and purchases of property, equipment and intangible assets were $7,300.4M. For the first nine months, the company reported a $253.5M operating loss and $393.3M of continuing-operations net income, including a $780.6M non-cash ClickHouse remeasurement gain. Subtracting only that gain before any tax or other adjustments gives an illustrative negative $387.3M. The quarterly operating improvement has yet to remove year-to-date dependence on the remeasurement. https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "NBIS"
+    ],
+    "reportIds": [
+      "nebius-2026"
+    ],
+    "monitoringRefs": [
+      "nebius-2026:earnings-quality-ex-marks"
+    ]
   }
 ]
