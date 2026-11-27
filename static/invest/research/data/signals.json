@@ -5391,5 +5391,28 @@
     "monitoringRefs": [
       "vistra-2026:leverage-fcf-discipline"
     ]
+  },
+  {
+    "id": "axt-tongmei-tongzhou-land-agreement-20261112",
+    "date": "2026-11-12",
+    "scope": "report-monitoring",
+    "title": {
+      "en": "AXT discloses Tongmei industrial site acquisition agreement",
+      "zh": "AXT 披露通美工业用地项目收购协议"
+    },
+    "detail": {
+      "en": "AXT’s Q3 Form 10-Q (filed 2026-11-12) says Tongmei signed an agreement to acquire a company holding industrial land-use rights over approximately 69,452 m² in Tongzhou, Beijing, for RMB 115,132,900. AXT ties the planned acquisition to future manufacturing expansion. The filing gives no closing or commissioning date, and the Q4 revenue and 2027 capacity conditions remain open. https://www.sec.gov/Archives/edgar/data/1051627/000143774926036542/axti20261101_10q.htm",
+      "zh": "AXT Q3 10-Q（2026-11-12 提交）：通美签署协议，拟以 115,132,900 元人民币收购一家持有北京通州约 69,452 平方米工业土地使用权的公司。发行人将拟收购与未来制造扩产联系起来，未给出交割或投产时间，Q4 收入实绩和 2027 年产能目标仍待核实。 https://www.sec.gov/Archives/edgar/data/1051627/000143774926036542/axti20261101_10q.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "AXTI"
+    ],
+    "reportIds": [
+      "axti-2026"
+    ],
+    "monitoringRefs": [
+      "axti-2026:inp-revenue-capacity"
+    ]
   }
 ]
