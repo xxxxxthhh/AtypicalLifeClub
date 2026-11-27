@@ -5647,5 +5647,28 @@
     "monitoringRefs": [
       "alphabet-2026:tpu-external-monetization"
     ]
+  },
+  {
+    "id": "alphabet-eur-senior-notes-20261105",
+    "date": "2026-11-05",
+    "title": {
+      "zh": "Alphabet 完成 60 亿欧元优先票据发行",
+      "en": "Alphabet closes €6 billion senior notes offering"
+    },
+    "detail": {
+      "zh": "11 月 5 日交割的七档欧元优先票据合计本金 €6B。列为独立的期后债务交易，9 月测算保持同一资产负债表截点。 https://www.sec.gov/Archives/edgar/data/1652044/000119312526449835/d174184d8k.htm",
+      "en": "Seven euro senior note tranches totaling €6B principal closed on November 5. This post-quarter debt event is tracked separately from the September capital structure. https://www.sec.gov/Archives/edgar/data/1652044/000119312526449835/d174184d8k.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "GOOG"
+    ],
+    "reportIds": [
+      "alphabet-2026"
+    ],
+    "scope": "report-monitoring",
+    "monitoringRefs": [
+      "alphabet-2026:fcf-and-funding-mix"
+    ]
   }
 ]
