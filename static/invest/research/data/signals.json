@@ -5437,5 +5437,28 @@
     "monitoringRefs": [
       "axti-2026:inp-revenue-capacity"
     ]
+  },
+  {
+    "id": "wdc-q1-fy2027-cover-shares-repurchases-20261023",
+    "date": "2026-10-23",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "西部数据 Q1 FY2027 10-Q 核实赎回前在外股数及回购",
+      "en": "Western Digital Q1 FY2027 10-Q confirms pre-redemption shares and repurchases"
+    },
+    "detail": {
+      "zh": "10-Q 封面列示 2026-10-15 收盘在外 374,323,269 股，较 10-K 封面的 2026-08-07 多 13,782,325 股。季度内按计划回购 200 万股，现金成本约 10 亿美元。三段购股均价分别为 526.29、488.15、461.59 美元，均高于报告历史锚 448.17 美元。 在外股数在回购期间仍上升。10-Q 列示截至 10 月 2 日未偿本金 1.41 亿美元与 9 月 14 日新闻稿所列拟赎回的 109,505,000 美元需按日期及结算范围对账。10 月封面股数早于 11 月 16 日赎回日。 https://www.sec.gov/Archives/edgar/data/106040/000162828026066933/wdc-20261002.htm https://www.sec.gov/Archives/edgar/data/106040/000162828026057139/wdc-20260703.htm https://www.sec.gov/Archives/edgar/data/106040/000119312526389859/d23939dex991.htm",
+      "en": "The 10-Q cover reports 374,323,269 shares outstanding at the October 15, 2026 close, up 13,782,325 from the August 7 10-K cover. The company repurchased 2.0M shares under its program for about $1.00B in cash during the quarter. The three subperiod purchase averages were $526.29, $488.15 and $461.59, all above the report’s historical $448.17 anchor. Shares outstanding rose across the cover dates despite repurchases. The $141M of principal outstanding at October 2 and the $109,505,000 called in the September 14 announcement need reconciliation by date and settlement scope. The October cover count predates the November 16 redemption date. https://www.sec.gov/Archives/edgar/data/106040/000162828026066933/wdc-20261002.htm https://www.sec.gov/Archives/edgar/data/106040/000162828026057139/wdc-20260703.htm https://www.sec.gov/Archives/edgar/data/106040/000119312526389859/d23939dex991.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "WDC"
+    ],
+    "reportIds": [
+      "wdc-2026"
+    ],
+    "monitoringRefs": [
+      "wdc-2026:share-count-dilution"
+    ]
   }
 ]
