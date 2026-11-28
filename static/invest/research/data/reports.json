@@ -1584,13 +1584,13 @@
           "en": "$8.1B backlog and $4.2B next-12-month RPO convert into the raised guidance"
         },
         "latest": {
-          "zh": "2026Q3 财报（2026-10-26）：季度末 backlog $8.2B（公司口径 record，Q2 为 $8.1B），未来 12 个月预计从 RPO 确认收入 $4.2B（与 Q2 持平）；Q3 revenue $1.633B（同比 +22%），高于 $1.595-1.625B 的 Q3 指引上沿；FY2026 指引再上修至 revenue $6.387-6.417B（约 +21%，前值 $6.26-6.34B）、non-GAAP EPS $8.37-8.43（前值 $8.05-8.15）；Q4 指引 revenue $1.695-1.725B。读数与转化方向一致，但公司仍未披露 backlog 的 gross additions / burn 明细，不能据此直接量化转化率。",
-          "en": "Q3 2026 results (2026-10-26): quarter-end backlog was a company-stated record $8.2B (Q2: $8.1B) and next-12-month RPO revenue was $4.2B (flat vs Q2); Q3 revenue was $1.633B (+22% YoY), above the top of the $1.595-1.625B Q3 guide; FY2026 guidance was raised again to $6.387-6.417B revenue (about +21%, previously $6.26-6.34B) and $8.37-8.43 non-GAAP EPS (previously $8.05-8.15); the Q4 guide is $1.695-1.725B revenue. The reading is consistent with conversion, but the company still does not disclose backlog gross additions or burn, so it does not directly quantify a conversion rate."
+          "zh": "2026Q3 财报（2026-10-26）：季度末 backlog $8.2B（Q2 为 $8.1B），未来 12 个月预计从 RPO 确认收入 $4.2B（与 Q2 持平）；Q3 收入 $1.633B（同比 +22%），高于 $1.595–1.625B 指引上沿。FY2026 收入指引上修至 $6.387–6.417B、non-GAAP EPS 至 $8.37–8.43，Q4 收入指引为 $1.695–1.725B。10 月 28 日提交的 10-Q 附注 3 披露，$8.2B 尚未履约金额含 $0.9B 不可取消但产品和数量待定的承诺；公司预计未来 12 个月确认剔除该类承诺后金额的 58%，按披露的舍入值计算约 $4.23B，与业绩稿的 $4.2B 预期一致。Q3 实际确认了 $104.3M 年初递延收入（上年同期 $102.5M），这一口径只覆盖部分已履约收入，无法据此计算 Q2 backlog 的总体转化率或确认 FY2026 指引已经兑现。来源：https://www.sec.gov/Archives/edgar/data/813672/000081367226000121/cdns-20260930.htm",
+          "en": "In the October 26 Q3 2026 results, quarter-end backlog was $8.2B (Q2: $8.1B) and expected next-12-month RPO revenue was unchanged at $4.2B. Q3 revenue of $1.633B (+22% YoY) exceeded the $1.595–1.625B guide. The company raised FY2026 guidance to $6.387–6.417B revenue and $8.37–8.43 non-GAAP EPS and guided to $1.695–1.725B of Q4 revenue. Note 3 of the Form 10-Q filed October 28 says the $8.2B of unsatisfied obligations includes $0.9B of non-cancelable commitments with product and quantity choices still pending. Cadence expects to recognize 58% of the balance excluding those commitments over 12 months, or about $4.23B from the rounded disclosures, consistent with the $4.2B estimate. Actual Q3 revenue included $104.3M of beginning-of-year deferred revenue (prior year: $102.5M). This narrower measure cannot establish the overall conversion rate of the Q2 backlog or whether the FY2026 guide was achieved. Source: https://www.sec.gov/Archives/edgar/data/813672/000081367226000121/cdns-20260930.htm"
         },
         "nextCheck": "Q4 2026 results (release date not yet issuer-announced)",
         "nextCheckDate": "2026-10",
         "reading": "within",
-        "readingAsOf": "2026-10-26"
+        "readingAsOf": "2026-10-28"
       },
       {
         "id": "agentic-design-workflow",

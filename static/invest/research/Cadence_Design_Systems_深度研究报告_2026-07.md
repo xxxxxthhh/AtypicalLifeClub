@@ -153,6 +153,8 @@
 
 **2026-07-27 监测更新（不改变立场）：** Cadence 官方 Q2 2026 财报（8-K Exhibits 99.01/99.02，2026-07-27）显示：revenue $1,584.5M（同比 +24.2%，Q2 2025 为 $1,275.4M）、GAAP 营业利润率 28.4%、non-GAAP 营业利润率 45.5%、GAAP 摊薄 EPS $1.33、non-GAAP 摊薄 EPS $2.11。季度末 backlog 为公司口径 record $8.1B（环比 Q1 $8.0B 约持平），未来 12 个月预计从 remaining performance obligations 确认收入 $4.2B（Q1 为 $4.0B）。Core EDA / Semiconductor IP / System Design & Analysis 收入同比 +18% / 超过 +40% / +37%；IP 增长归因于 Star IP、与 Intel 的重要协议及其他领先半导体客户 wins，SDA 增长归因于 PCB、advanced packaging 与 Hexagon D&E 整合。管理层把 FY2026 指引上修至 revenue $6.26-6.34B、non-GAAP EPS $8.05-8.15、operating cash flow 约 $2B；Q3 收入指引 $1.595-1.625B。作为 semicap-eda-capex-commitment 读数，EDA/IP backlog 与 RPO 没有和下游 capex 上修背离，只降低而不消除 design-completion 风险。证据边界：backlog 环比约持平、公司未披露 gross backlog additions / burn、未量化 agentic workflow 收入，也未把 Q2 IP 增长拆分到 HBM、PCIe 或 SerDes。2026-07-02 估值快照使用当时 Q1 指引，本次不重算；谨慎 / 中确信留待单独的当前价格估值复核。
 
+**Q3 backlog 与 RPO 明细（10 月 28 日提交）。** 10-Q 附注 3 显示，$8.2B 尚未履约金额包含 $0.9B 不可取消的承诺，客户仍须选定产品与数量。剔除这类承诺后，公司预计未来 12 个月确认余额的 58%，按披露的舍入值计算约 $4.23B，与业绩稿的 $4.2B 预期一致。Q3 实际确认 $104.3M 年初递延收入，上年同期为 $102.5M。该实际兑现口径覆盖范围较窄，Q2 backlog 的总体转化率及上修后全年指引是否兑现仍待核实。[Q3 2026 Form 10-Q 附注 3](https://www.sec.gov/Archives/edgar/data/813672/000081367226000121/cdns-20260930.htm)
+
 未来 rerun 应由这些项目触发。只有当 monitoring update 改变链条 read-through 或估值容错率时，报告才需要实质更新。
 
 ## 10. 同行比较与结论
