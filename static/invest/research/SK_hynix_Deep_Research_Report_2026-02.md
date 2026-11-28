@@ -1,11 +1,13 @@
 # SK hynix (000660) Deep Research Report
 
 Coverage date: 2026-02-25
-Last updated: 2026-10-28
+Last updated: 2026-11-28
 Ticker: KRX: 000660 / NASDAQ: SKHY
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
 ---
+
+> **2026-11-28 factual update:** SK hynix’s November 25 Form 6-K describes an FY2026 shareholder-return objective of approximately ₩100 trillion, including at least ₩30 trillion of cash dividends and at least ₩60 trillion of treasury-share purchases and cancellations. The company reported net cash of ₩99 trillion as of September 30. The return objective is forward-looking and requires separate evidence of execution. In its November 27 Form 6-K, SK hynix said Solidigm was evaluating ways to expand production and had made no decision on the reported U.S. NAND facility. It plans a further disclosure when details are confirmed or within three months. Monitor actual dividends and cancellations, and wait for a confirmed site and investment decision before counting any new capacity. The historical valuation basis and the published stance and conviction remain in place. [November 25 Form 6-K](https://www.sec.gov/Archives/edgar/data/2120882/000119312526476869/d135553d6k.htm) · [November 27 Form 6-K](https://www.sec.gov/Archives/edgar/data/2120882/000119312526479067/d139543d6k.htm)
 
 ## 2026 Full Rerun Summary
 
