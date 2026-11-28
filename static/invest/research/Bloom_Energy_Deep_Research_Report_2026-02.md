@@ -1,7 +1,7 @@
 # Bloom Energy (NYSE: BE) Deep Research Report
 
 Coverage date: 2026-02-11
-Last updated: 2026-11-21
+Last updated: 2026-11-28
 Ticker: NYSE: BE
 Disclaimer: This report is for informational and research purposes only. It does not constitute investment advice. Please conduct your own due diligence.
 
@@ -213,6 +213,8 @@ The honest statement of the gap is therefore that **its sign is no longer establ
 **Long-term (18+ months):** the path to sustained GAAP profitability and positive FCF at scale; international expansion; hydrogen-economy development; utility partnerships beyond AEP.
 
 **Key monitoring metrics:** 2026 guidance/backlog and customer-project progress; AI customer count and single-customer concentration; product and service gross margins and free cash flow; capacity expansion, inventory, capex, and supply-chain constraints; fuel costs, policy subsidies, and competing-solution pricing.
+
+**2026-11-05 on-site power agreement.** Bloom Energy and NTT DATA announced an agreement to deploy 900 MW of on-site power across multiple data center projects globally. NTT Global Data Centers will use Bloom’s fuel cells, with initial shipments scheduled to start in 2027. The named agreement improves visibility into project demand. The announcement gives no project-level shipment volumes, recognized revenue, or cash collections. The July valuation frame remains historical, and the published stance and conviction are unchanged. [Bloom Energy announcement](https://www.bloomenergy.com/news/ntt-data-announces-agreement-with-bloom-energy-for-900-mw-of-onsite-power-generation-across-multiple-data-center-projects/)
 
 ## 10. Conclusion & Review
 

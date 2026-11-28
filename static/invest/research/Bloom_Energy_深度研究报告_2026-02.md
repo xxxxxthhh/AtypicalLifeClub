@@ -1,7 +1,7 @@
 # Bloom Energy (NYSE: BE) 深度研究报告
 
 标的收录日期：2026-02-11
-最近更新日期：2026-11-21
+最近更新日期：2026-11-28
 代码：NYSE: BE
 免责声明：本报告仅用于信息与研究交流，不构成任何投资建议，请自行完成尽职调查。
 
@@ -213,6 +213,8 @@ Bloom 已从多年亏损向盈利改善过渡；FY2025 收入约 $2.02B，订单
 | 服务成本走势 | Q2 业绩发布未披露 | **未决** —— 仍停留在 2 月基线 | 后续披露 / 10-Q |
 | 客户集中度 | Q2 业绩发布未重述 | **未决** —— 仍停留在 2 月基线（3 大客户集中、积压中 6 家超大规模客户） | 后续披露 / 10-Q |
 | 盈利拐点 | GAAP 摊薄 EPS $0.62、非 GAAP $0.78；调整后 EBITDA $253.4M（约占收入 24%）；现金 $2.667B | **已改善** —— 显著超出“首个 GAAP 转正季度”的基线 | Q3 2026 业绩 |
+
+**2026-11-05 现场电力协议。** Bloom Energy 与 NTT DATA 公布协议，拟在全球多个数据中心项目部署 900 MW 现场电力。NTT Global Data Centers 将采用 Bloom 的燃料电池，首批出货计划于 2027 年开始。具名协议提高了项目需求的可见度，公告未披露逐项目出货量、已确认收入或回款。七月估值框架是历史口径，已发布的立场与确信度维持原值。[Bloom Energy 公告](https://www.bloomenergy.com/news/ntt-data-announces-agreement-with-bloom-energy-for-900-mw-of-onsite-power-generation-across-multiple-data-center-projects/)
 
 ## 10. 结论与复盘
 
