@@ -7732,12 +7732,12 @@
           "en": "a visible wave of customer churn follows the price increases, weakening software growth and cash quality"
         },
         "latest": {
-          "zh": "Q3 FY2026 基础设施软件收入 $8,752M（同比 +29%，Q2 为 +9%），增速加快；季度 FCF $13,665M（占收入 46%）。**但触发器的「客户流失潮」这条腿无法据此判定**：发行人既未披露 VMware 独立收入，也未披露续约率、流失率或客户数。分部增长不等于留存证据。",
-          "en": "Q3 FY2026 Infrastructure Software revenue was $8,752M (+29% YoY, up from +9% in Q2), an acceleration; quarterly FCF was $13,665M (46% of revenue). **The trigger's customer-churn leg cannot be judged from this**: the issuer discloses neither VMware standalone revenue nor renewal rates, churn or customer counts. Segment growth is not retention evidence."
+          "zh": "FY2026 Q3 基础设施软件收入 $8,752M（同比 +29%，Q2 为 +9%），合并 FCF $13,665M（占合并收入 46%）。9 月 10 日提交的 10-Q 将软件分部收入和营业利润增长主要归因于 VMware Cloud Foundation 的强劲需求，包括从客户无权终止的合同中确认的额外许可收入。截至该季度末，多数新软件合同已不含便利终止条款。合同条款与收入确认口径解释了部分增长，但所核披露未单列 VMware 续约率、流失率、客户数或软件分部现金流，仍无法判断涨价后是否出现客户流失潮及软件现金质量是否走弱。来源：https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+          "en": "FY2026 Q3 Infrastructure Software revenue was $8,752M (+29% YoY, up from +9% in Q2), and consolidated FCF was $13,665M (46% of consolidated revenue). The Form 10-Q filed September 10 mainly attributes the segment's revenue and operating income growth to strong VMware Cloud Foundation demand, including additional license revenue recognized on contracts customers had no right to terminate. By quarter-end, most new software contracts no longer had termination-for-convenience provisions. The contract terms and revenue recognition explain part of the reported growth. The reviewed disclosures do not isolate VMware renewal rates, churn, customer counts or segment cash flow, leaving post-price-increase churn and software cash quality unclear. Source: https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm"
         },
         "nextCheck": "季报基础设施软件收入与续约/流失口径 / quarterly Infrastructure Software revenue and renewal/churn commentary",
         "reading": "unclear",
-        "readingAsOf": "2026-09-02"
+        "readingAsOf": "2026-09-10"
       },
       {
         "id": "debt-load",

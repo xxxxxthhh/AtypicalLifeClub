@@ -201,6 +201,8 @@ Historical valuation basis: **What's priced in & the expectation gap (2026-09-04
 
 **Metrics to monitor continuously:** AI-semi sequential revenue, AI backlog, customer concentration, software retention, net debt/EBITDA, non-GAAP operating margin and FCF.
 
+**FY2026 Q3 software contracts (September 10 filing).** Broadcom attributed growth in infrastructure software revenue and operating income primarily to VMware Cloud Foundation demand, including additional license revenue recognized on contracts customers had no right to terminate. Most new software contracts no longer included termination-for-convenience provisions by quarter-end. The filing explains part of the reported segment growth. It provides no separate VMware renewal or churn rate and no segment cash flow to assess the retention and cash-quality trigger. [FY2026 Q3 Form 10-Q](https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm)
+
 ## 10. Conclusion
 
 Broadcom's chain-validation job is to test the custom-AI-silicon counterweight to NVIDIA. When hyperscalers want to reduce dependence on general-purpose GPUs, Broadcom is the biggest enabler, with VMware software cash underneath. If AI semi revenue, backlog conversion, and XPU customer confirmations keep compounding, the custom-silicon side of the AI-compute map strengthens; if they slip, the whole "hyperscaler self-designed silicon" narrative needs a lower weight.

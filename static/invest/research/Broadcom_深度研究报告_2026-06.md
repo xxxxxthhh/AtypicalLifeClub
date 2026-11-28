@@ -201,6 +201,8 @@ CEO **Hock Tan（陈福阳）** 是半导体史上最成功的并购整合者之
 
 **需要持续监控的指标：** AI 半导体收入环比、AI backlog、客户集中度、软件留存、净债务/EBITDA、非 GAAP 营业利润率与 FCF。
 
+**FY2026 Q3 软件合同（9 月 10 日提交）。** Broadcom 将基础设施软件收入和营业利润增长主要归因于 VMware Cloud Foundation 的需求，其中包括从客户无权终止的合同中确认的额外许可收入。截至该季度末，多数新软件合同已不含便利终止条款。申报解释了部分分部增长，仍缺 VMware 独立续约率、流失率和分部现金流，客户留存及现金质量触发条件仍待核实。[FY2026 Q3 Form 10-Q](https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm)
+
 ## 10. 结论
 
 Broadcom 的链条验证任务，是检验 NVIDIA 之外的 custom AI silicon 对照轴。当 hyperscaler 想减少对通用 GPU 的依赖时，Broadcom 是最大的使能者，下面还有 VMware 软件现金流。若 AI 半导体收入、backlog 转化和 XPU 客户确认继续复合，AI compute map 里的 custom silicon 权重会提高；若它们滑坡，整条“hyperscaler 自研 silicon”叙事都要降权。
