@@ -282,11 +282,11 @@
       "symbol": "ABNB",
       "status": "carried-forward",
       "attemptedAt": "2026-11-28",
-      "baseDate": "2026-10-01",
-      "basePrice": 160.47,
+      "baseDate": "2026-11-27",
+      "basePrice": 179.16,
       "lastDate": "2026-11-27",
       "lastClose": 179.16,
-      "changePct": 11.6,
+      "changePct": 0.0,
       "currency": "USD"
     },
     {

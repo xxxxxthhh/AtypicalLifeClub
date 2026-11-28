@@ -4652,7 +4652,7 @@
     "ticker": "NASDAQ: ABNB",
     "title": "Airbnb 深度研究报告 - 全球短租霸主的增长再加速之问",
     "titleEn": "Airbnb Deep Research Report - Can the Global Short-Term Rental Leader Re-Accelerate Growth?",
-    "summary": "2026-11-06 — Q3 2026（季度截至 2026-09-30；股东信 8-K Ex 99.1 与 10-Q，2026-11-05 盘后）收入 $4,869M（同比 +19%、剔除汇率 +16%），对照 $4.69–4.77B 指引；间夜及座位预订 1.550 亿（+16%）；GBV $27.7B（+21%，剔除汇率 +21%）；隐含 take rate（收入÷GBV）17.6%，公司称低于上年同期，主要因「先订后付」扩大。净利润 $1.9B（利润率 39%）、调整后 EBITDA $2.5B（利润率 52%，上年同期 50%）、自由现金流 $1.4B。Q3 回购 $0.7B，截至 9-30 剩余授权 $2.7B，另宣布新增 $12B 回购授权。Q4 2026 指引：收入 $3.22–3.28B（同比 +16% 至 +18%，含约 2 个百分点汇率顺风），take rate 同比略升，GBV 增速十几个百分点；全年收入增速上调至「high teens」，全年调整后 EBITDA 利润率上调至约 36%。10-Q 称风险因素较 10-K 及前两份 10-Q 无重大变化。附注 9 披露 7,000 万欧元保函，以暂缓执行西班牙短租拟议罚款并覆盖相关利息。 估值仍按 2026-10-01 历史基础；新实绩与指引待 Mode B 重算，上调触发第（2）条字面成立并已提交复核人裁决，价格、估值数字、立场和确信度本包未更新。",
+    "summary": "Airbnb Q3 2026 营收 48.69 亿美元（同比 +19%，剔除汇率 +16%），超 47.70 亿美元指引上沿。Q4 指引隐含同比 +15.9% 至 +18.1%。三项经营门槛同时达到，立场上调为中性观察、低确信度。11 月 27 日收盘 $179.16，五日均价 $173.804。Q3 口径 TTM P/E 32.8×、P/FCF 21.5×。FY2028 中心网格加权 $178.19，年化 −0.26%，低于 8% 门槛。Q3 回购 7.12 亿美元，11 月额外授权 120 亿美元。西班牙短租罚款仍在争议中，10-Q 附注 9 披露了 7,000 万欧元保函。 五日均价曾于 11 月 10–19 日八个交易日达到旧 $181 线。11 月 5 日 Q3 实绩和上调指引已改变原网格假设，因此触价触发重算，经重算不单独下调立场。",
     "tags": [
       "在线旅游",
       "共享经济",
@@ -4663,9 +4663,9 @@
     "date": "2026-02-13",
     "lastUpdate": "2026-11-28",
     "coverageTier": "full",
-    "period": "2026H1",
+    "period": "2026H2",
     "versionType": "incremental",
-    "versionLabel": "Q2 2026 Incremental Update + 2026-08-08 Re-anchor",
+    "versionLabel": "Q3 2026 Incremental Update + 2026-11-27 Valuation Re-anchor",
     "file": "/invest/research/reports/view.html?id=airbnb-2026",
     "markdownFiles": {
       "zh": "/invest/research/Airbnb_深度研究报告_2026-02.md",
@@ -4676,30 +4676,30 @@
       "间夜及座位预订 1.550 亿（+16%，Q2 为 +10%）；GBV $27.7B（+21%）；隐含 take rate 17.6%，公司称同比下降、主要因先订后付",
       "调整后 EBITDA 利润率 52%（上年同期 50%）；全年利润率指引上调至约 36%，全年收入增速上调至 high teens",
       "Q4 指引收入 $3.22–3.28B（+16% 至 +18%，含约 2 个百分点汇率顺风）；新增 $12B 回购授权",
-      "上调触发第（2）条三项同时字面成立，已提交复核人裁决；估值仍按 2026-10-01 历史基础，立场未更新"
+      "按原第（2）条上调至中性观察、低确信度。11 月 27 日收盘 $179.16，FY2028 中心网格加权 $178.19、年化 −0.26%，低于 8% 门槛。"
     ],
-    "summaryEn": "2026-11-06 — Q3 2026 (quarter ended 2026-09-30; shareholder letter 8-K Ex 99.1 and 10-Q, after the close on 2026-11-05) revenue was $4,869M (+19% YoY, +16% ex-FX) against the $4.69-4.77B guide; Nights and Seats Booked 155.0M (+16%); GBV $27.7B (+21%, +21% ex-FX); the implied take rate (revenue / GBV) was 17.6%, which the company says was down year over year, mainly from the expansion of Reserve Now, Pay Later. Net income $1.9B (39% margin), adjusted EBITDA $2.5B (52% margin vs 50%), free cash flow $1.4B. Q3 repurchases were $0.7B with $2.7B of authorization remaining at 9-30, and a new $12B authorization was announced. Q4 2026 guide: revenue $3.22-3.28B (+16% to +18% YoY, including about two points of FX tailwind), implied take rate up slightly YoY, GBV growth in the mid-teens; full-year revenue growth raised to the high teens and full-year adjusted EBITDA margin raised to about 36%. The 10-Q reports no material change in risk factors from the 10-K and the two prior 10-Qs. Note 9 discloses a EUR 70 million surety bond to suspend enforcement of the proposed Spanish short-term rental fine and cover related interest. Valuation remains on the 2026-10-01 historical basis; the new actuals and guidance await Mode B recomputation, branch (2) of the upgrade trigger is literally met and filed for reviewer adjudication, and price, valuation figures, stance and conviction are not updated in this package.",
+    "summaryEn": "Airbnb Q3 2026 revenue was $4.869B (+19% reported, +16% ex-FX), above the $4.770B guide high. The Q4 guide implies +15.9% to +18.1% YoY. All three operating thresholds are met, moving the stance to neutral-watch with low conviction. The November 27 close was $179.16 and the five-session mean was $173.804. The close implies 32.8× Q3-based TTM P/E and 21.5× P/FCF. The FY2028 grid weights to $178.19 and −0.26% annualized, below the 8% hurdle. Q3 repurchases totaled $712M and November added $12B in authorization. The Spanish short-term rental fine is disputed and Q3 Form 10-Q Note 9 discloses a EUR 70M surety bond. The five-session mean reached the old $181 line on eight sessions from November 10 through 19. The November 5 Q3 results and raised guidance had changed the old grid inputs, so the touch prompted a re-anchor and does not independently downgrade the stance after recomputation.",
     "reportedPeriod": "Q3 2026",
     "priceSymbol": "ABNB",
-    "priceAsOf": "2026-10-01",
-    "stance": "cautious",
+    "priceAsOf": "2026-11-27",
+    "stance": "neutral-watch",
     "conviction": "low",
     "stanceRationale": {
-      "zh": "以 2026-10-01 收盘 $160.47、A+B 类 5.896 亿股计市值 $946.1亿、EV $849.5亿（净现金 $96.6亿），对应 TTM P/E 35.2x（股价/摊薄 EPS 口径 36.4x）、P/FCF 19.6x、P/S 7.2x、EV/调整后 EBITDA 约 18.3x，按第三方一致预期 FY2026E / FY2027E P/E 为 30.3x / 25.4x。因 SBC 约占营收 13%、约占调整后 EBITDA 37%，退出估值以 FY2028 GAAP EPS × P/E 为基础：30% 牛市 / 40% 基准 / 30% 熊市（FY2028 营收 $190.8亿 / $176.2亿 / $157.3亿，EBITDA 利润率 37.5% / 36% / 33.5%，EPS $7.92 / $7.04 / $5.86，退出 P/E 32x / 26x / 18x，退出股数 5.473 亿 / 5.428 亿 / 5.355 亿）对应每股 $253.47 / $182.98 / $105.43，加权 $180.86，较 $160.47 为 +12.7%，2.248 年（2026-10-02 至 2028-12-31）年化 +5.5%，低于 8% 门槛 2.5 个百分点；基准情景本身仅 +6.0%。反推在 26x 退出下赚 8% 需 2027–2028 年营收每年约 +13.9%，而一致预期 FY2027 为 +11.6%、Q2 剔除汇率为 +13%。敏感性：退出 P/E +4 倍升至 +12.4%、权重 40/40/20 升至 +9.2%、增长 +3pp 为 +7.9%，P/E −4 倍降至 −2.1%。确信度为低而非中，因为结论离翻转只隔一档敏感性，且 AI 代理分流（Meta Muse）与监管两项尾部风险不在网格内；不选 neutral-watch，因为中心假设下的算术低于门槛。这是价格判断（价格回落至约 $152 时中心网格即赚到 8%），不是对生意的否定：Q2 营收 +17%、FCF 利润率 35%、净现金充裕；但内生增速在放缓、内部人 08-07 至 09-28 卖出约 $2.257 亿且零买入。",
-      "en": "At the 2026-10-01 close of $160.47 on 589.6M Class A+B shares, market cap is $94.61B and EV $84.95B (net cash $9.66B), or 35.2x TTM earnings (36.4x on price over diluted EPS), 19.6x P/FCF, 7.2x P/S and about 18.3x EV/adjusted EBITDA; on third-party consensus the FY2026E / FY2027E P/E is 30.3x / 25.4x. Because SBC is about 13% of revenue and about 37% of adjusted EBITDA, the exit is valued as FY2028 GAAP EPS x P/E: weighting 30% bull / 40% base / 30% bear (FY2028 revenue $19.08B / $17.62B / $15.73B, EBITDA margins 37.5% / 36% / 33.5%, EPS $7.92 / $7.04 / $5.86, exit P/E 32x / 26x / 18x, exit shares 547.3M / 542.8M / 535.5M) gives $253.47 / $182.98 / $105.43 per share and a weighted $180.86, +12.7% against $160.47, or +5.5% annualized over 2.248 years (2026-10-02 to 2028-12-31) - 2.5 points below the 8% hurdle; the base case alone earns only +6.0%. Working backwards, earning 8% at a 26x exit requires about 13.9% annual revenue growth in 2027-2028, against +11.6% consensus for FY2027 and +13% ex-FX in Q2. Sensitivity: four more turns of exit P/E lift it to +12.4%, a 40/40/20 weighting to +9.2%, and 3 points faster growth to +7.9%, while four fewer turns cut it to −2.1%. Conviction is low rather than medium because the conclusion is one sensitivity notch from flipping, and the AI-agent (Meta Muse) and regulatory tails sit outside the grid; it is not neutral-watch because the arithmetic at central assumptions is below the hurdle. This is a price call (the central grid earns 8% at about $152), not a verdict against the business: Q2 revenue grew 17% with a 35% FCF margin and ample net cash, but organic growth is slowing and insiders sold about $225.7M from 08-07 to 09-28 with zero purchases."
+      "zh": "中性观察（neutral-watch），低确信度。已发布的上调触发第（2）条成立：Q3 营收 48.69 亿美元超过 47.70 亿美元，剔除汇率增速 +16% 达到 +14%，Q4 指引按上年 27.78 亿美元重算为 +15.9% 至 +18.1%，下沿达到 +13%。Nasdaq 历史行情显示，截至 11 月 10、11、12、13、16、17、18、19 日的五日均价依次为 $182.736、$183.688、$185.888、$185.246、$184.426、$183.234、$183.050、$181.382，均触及旧 $181 下调价。11 月 20 日回落至 $178.098。11 月 5 日发布的 Q3 实际营收与上调后的全年指引已改变旧网格的经营起点，故旧价格条款所要求的「网格假设不变」不成立。此次触价触发重算，经重算不单独下调立场。按 2026-11-27 收盘 $179.16，Q3 口径的 TTM P/E 为 32.8×、P/FCF 21.5×、EV/调整后 EBITDA 18.7×。至 2028 年底，30/40/30 网格加权 $178.19、年化 −0.26%，基准年化 +0.34%，均低于 8% 门槛。运营触发支持中性观察，当前入场价缺乏达到 8% 的回报空间。退出倍数和未来增长对结果影响显著，AI 分流和监管仍需核查。",
+      "en": "Neutral-watch with low conviction. The published operating upgrade branch (2) is met. Q3 revenue of $4.869B exceeded $4.770B, ex-FX growth of 16% cleared 14%, and the Q4 guide implies 15.9%–18.1% on the prior-year $2.778B base, with the low end above 13%. Nasdaq historical data put the five-session means ending November 10, 11, 12, 13, 16, 17, 18 and 19 at $182.736, $183.688, $185.888, $185.246, $184.426, $183.234, $183.050 and $181.382, each at or above the old $181 downgrade level. The mean receded to $178.098 on November 20. Q3 actual revenue and raised full-year guidance released November 5 had already changed the operating inputs to the old grid, so the unchanged-assumptions proviso was not satisfied. The touch prompted a re-anchor and does not independently downgrade the stance after recomputation. At the November 27 close of $179.16 the Q3-based TTM P/E is 32.8×, P/FCF 21.5× and EV/adjusted EBITDA 18.7×. The 30/40/30 grid weights to $178.19 at end-2028 and −0.26% annualized, with the base case at +0.34%, both below the 8% hurdle. The operating trigger supports neutral-watch. The current entry price offers insufficient return to meet the hurdle. Exit multiples and future growth materially affect results, and AI disintermediation and regulation warrant further evidence."
     },
     "stanceTriggers": {
       "upgrade": {
-        "zh": "满足任一条件即上调至 neutral-watch：（1）5 个交易日平均收盘价回落至 $152 或以下，且情景网格假设不变；（2）Q3 2026 营收达到或超过 $47.7亿指引上限、剔除汇率营收增速不低于 +14%，且 Q4 指引隐含同比增速不低于 +13%。",
-        "en": "Move to neutral-watch if any one of the following holds: (1) the 5-session average close falls to $152 or below, with the scenario-grid assumptions unchanged; (2) Q3 2026 revenue reaches or exceeds the $4.77B top of guidance, ex-FX revenue growth is at least +14%, and the Q4 guide implies at least +13% year-over-year growth.",
+        "zh": "中性观察上调至偏多（constructive）须同时满足：Q4 2026 实际营收至少 32.20 亿美元且公司披露的剔除汇率同比增速至少 +14%，五日平均收盘价使当前网格加权年化回报至少达到 8%（本轮约 $151.66 或以下），且复核未确认任何下调条件。关键假设改变时先重算网格。",
+        "en": "Move from neutral-watch to constructive only if Q4 2026 actual revenue is at least $3.220B and company-reported ex-FX growth is at least +14%, the five-session mean close implies at least an 8% weighted annualized return on the current grid (about $151.66 or less on this grid), and the review confirms no downgrade condition. Recompute the grid first if key assumptions change.",
         "monitoringIds": [
-          "valuation-hurdle-price",
-          "organic-growth-ex-fx"
+          "organic-growth-ex-fx",
+          "valuation-hurdle-price"
         ]
       },
       "downgrade": {
-        "zh": "满足任一条件即下调至 bearish-avoid：（1）Q3 2026 营收低于 $46.9亿指引下限，或剔除汇率营收增速低于 +10%；（2）间夜及座位预订同比增速低于 +7%；（3）implied take rate 连续两个季度低于 12.7%，或管理层把流量或预订放缓归因于第三方 AI 代理；（4）FY2026 调整后 EBITDA 利润率低于 35.5% 指引下限；（5）主要市场出台公司在财报或 8-K 中称为重大的短租禁令或上限；（6）5 个交易日平均收盘价升至 $181 或以上，且情景网格假设不变。",
-        "en": "Move to bearish-avoid if any one of the following holds: (1) Q3 2026 revenue falls below the $4.69B low end of guidance, or ex-FX revenue growth falls below +10%; (2) Nights and Seats Booked growth falls below +7% year over year; (3) the implied take rate is below 12.7% for two consecutive quarters, or management attributes a slowdown in traffic or bookings to third-party AI agents; (4) the FY2026 Adjusted EBITDA Margin comes in below the 35.5% guided floor; (5) a major market enacts a short-term-rental ban or cap that the company describes as material in its results or an 8-K; (6) the 5-session average close rises to $181 or above, with the scenario-grid assumptions unchanged.",
+        "zh": "满足任一条件即从中性观察下调至谨慎（cautious）：（1）Q4 2026 实际营收低于 32.20 亿美元或公司披露的剔除汇率同比增速低于 +10%；（2）间夜及座位预订同比增速低于 +7%；（3）隐含 take rate 连续两个季度低于 12.7%，或管理层把流量或预订放缓归因于第三方 AI 代理；（4）FY2026 实际调整后 EBITDA 利润率低于 35.5%；（5）主要市场出台公司在财报或 8-K 中称为重大的短租禁令或上限；（6）五日平均收盘价高于当前网格的零回报价（本轮约 $178.19）。若关键假设改变，先重算价格门槛。",
+        "en": "Move from neutral-watch to cautious if any one holds: (1) Q4 2026 actual revenue is below $3.220B or company-reported ex-FX growth is below +10%. (2) Nights and Seats Booked growth falls below +7% YoY. (3) The implied take rate is below 12.7% for two consecutive quarters or management attributes a slowdown in traffic or bookings to third-party AI agents. (4) Actual FY2026 Adjusted EBITDA Margin comes in below 35.5%. (5) A major market enacts a short-term-rental ban or cap that the company describes as material in its results or an 8-K. (6) The five-session mean close exceeds the current grid’s zero-return price (about $178.19 on this grid). Recompute the price level first if key assumptions change.",
         "monitoringIds": [
           "organic-growth-ex-fx",
           "nights-booked-growth",
@@ -4720,6 +4720,16 @@
           "zh": "立场补录 / Stance backfill。按 2026-10-01 收盘 $160.47 推导：30/40/30 情景网格（FY2028 GAAP EPS × 32x / 26x / 18x）加权每股 $180.86，2.248 年年化 +5.5%，低于 8% 门槛 2.5 个百分点；退出 P/E +4 倍或权重 40/40/20 即越过门槛，故确信度为低。此前正文为“中性偏积极 / 中等”（2026-08-08 版，无情景网格、前瞻 EPS 待复核）。",
           "en": "Stance backfill. Derived at the 2026-10-01 close of $160.47: the 30/40/30 scenario grid (FY2028 GAAP EPS x 32x / 26x / 18x) weights to $180.86 per share, +5.5% annualized over 2.248 years, 2.5 points below the 8% hurdle; four more turns of exit P/E or a 40/40/20 weighting clears the hurdle, so conviction is low. The body previously read Neutral-to-Positive / Medium (2026-08-08 version, with no scenario grid and forward EPS pending review)."
         }
+      },
+      {
+        "date": "2026-11-28",
+        "stance": "neutral-watch",
+        "conviction": "low",
+        "price": 179.16,
+        "note": {
+          "zh": "按原触发第（2）条上调至中性观察，按 2026-11-27 收盘 $179.16 估值。Q3 营收 48.69 亿美元、剔除汇率 +16%、Q4 指引同比 +15.9% 至 +18.1% 同时达到门槛。中心网格每股 $178.19，年化 −0.26%，低于 8% 门槛，维持低确信度。",
+          "en": "Upgrade to neutral-watch under original clause (2) with valuation at the November 27 close of $179.16. Q3 revenue of $4.869B, +16% ex-FX growth and implied Q4 guidance growth of +15.9% to +18.1% each meet the threshold. The weighted exit value is $178.19 with −0.26% annualized, below the 8% hurdle, supporting low conviction."
+        }
       }
     ],
     "monitoring": [
@@ -4732,15 +4742,18 @@
           "en": "Ex-FX revenue growth versus guidance"
         },
         "trigger": {
-          "zh": "下调信号：Q3 2026 营收低于 $46.9亿指引下限，或剔除汇率营收增速低于 +10%；上调信号：Q3 2026 营收达到或超过 $47.7亿指引上限、剔除汇率营收增速不低于 +14%，且 Q4 指引隐含同比增速不低于 +13%",
-          "en": "Downgrade signal: Q3 2026 revenue below the $4.69B low end of guidance, or ex-FX revenue growth below +10%; upgrade signal: Q3 2026 revenue at or above the $4.77B top of guidance, ex-FX revenue growth of at least +14%, and a Q4 guide implying at least +13% year-over-year growth"
+          "zh": "Q4 2026 实际营收至少达到 32.20 亿美元且公司披露的剔除汇率同比增速至少 +14%，作为上调的经营条件。实际营收低于 32.20 亿美元或剔除汇率同比增速低于 +10%，触发下调。",
+          "en": "Q4 2026 actual revenue of at least $3.220B and company-reported ex-FX growth of at least +14% are the operating tests for an upgrade. Revenue below $3.220B or ex-FX growth below +10% triggers a downgrade."
         },
         "latest": {
-          "zh": "Q3 2026（2026-11-05 盘后）：收入 $4,869M，高于 $4.69–4.77B 指引上沿；同比 +19%、剔除汇率 +16%。Q4 指引收入 $3.22–3.28B，同比 +16% 至 +18%（含约 2 个百分点汇率顺风）。按本项触发文字：下调信号（低于 $4.69B 或剔除汇率增速低于 +10%）未出现；上调信号三项——收入达到或超过 $4.77B、剔除汇率增速至少 +14%、Q4 指引隐含至少 +13%——同时字面成立。结构化评级随立场裁决一并由复核人处理，本包不写入。",
-          "en": "Q3 2026 (after the close on 2026-11-05): revenue was $4,869M, above the $4.69-4.77B guide, +19% YoY and +16% ex-FX. The Q4 guide is $3.22-3.28B, +16% to +18% YoY including about two points of FX tailwind. Against this item's trigger text, the downgrade signal (below $4.69B or ex-FX growth below +10%) did not occur, and all three legs of the upgrade signal - revenue at or above $4.77B, ex-FX growth of at least +14%, and a Q4 guide implying at least +13% - are literally met. The structured reading is left to the reviewer together with the stance adjudication and is not written in this package."
+          "zh": "Q3 2026：收入 48.69 亿美元，高于 47.70 亿美元指引上沿，报告口径同比 +19%、剔除汇率 +16%。Q4 指引 32.20–32.80 亿美元，对上年同期 27.78 亿美元为 +15.9% 至 +18.1%，公司披露四舍五入为 +16% 至 +18%（约 2 个百分点汇率顺风）。原上调第（2）条三项成立，已用于本次裁决。新阈值按 Q4 实际值判断，尚待披露。",
+          "en": "Q3 2026 revenue of $4.869B was above the $4.770B guide high, +19% reported and +16% ex-FX. Against Q4 2025 revenue of $2.778B, the $3.220B–$3.280B Q4 guide implies +15.9% to +18.1%, which the issuer reports as +16% to +18% including about two percentage points of FX tailwind. All three parts of historical upgrade branch (2) were met and adjudicated in this update. The new test awaits Q4 actual results."
         },
         "nextCheck": "Q3 2026 财报（2026 年 11 月上旬，估计） / Q3 2026 results (early November 2026, estimated)",
-        "nextCheckDate": "2026-11"
+        "nextCheckDate": "2026-11",
+        "reading": "unclear",
+        "readingAsOf": "2026-11-05",
+        "readingNote": "原 Q3 经营条款已裁决。Q4 实际值待发布。 / The original Q3 operating clause was adjudicated. The live test awaits Q4 actual results."
       },
       {
         "id": "nights-booked-growth",
@@ -4782,9 +4795,9 @@
         },
         "nextCheck": "Q3 2026 财报与电话会 / Q3 2026 results and call",
         "nextCheckDate": "2026-11",
-        "reading": "within",
+        "reading": "unclear",
         "readingAsOf": "2026-11-05",
-        "readingNote": "两季均高于 12.7%，无第三方 AI 代理归因。 / Both quarters are above 12.7%, with no attribution to third-party AI agents."
+        "readingNote": "两季隐含 take rate 均高于 12.7%。仅核对了股东信和 10-Q，电话会的第三方 AI 代理归因待核。 / Both take rates exceed 12.7%. The shareholder letter and 10-Q were reviewed. Third-party AI attribution on the call remains unverified."
       },
       {
         "id": "adj-ebitda-margin",
@@ -4839,15 +4852,18 @@
           "en": "Valuation hurdle price"
         },
         "trigger": {
-          "zh": "5 个交易日平均收盘价回落至 $152 或以下（中心网格恰好赚 8%，上调复核），或升至 $181 或以上（中心网格加权回报降至 0% 以下，下调复核），且情景网格假设不变",
-          "en": "The 5-session average close falls to $152 or below (where the central grid earns exactly 8%; upgrade review), or rises to $181 or above (where the central grid's weighted return falls below 0%; downgrade review), with the scenario-grid assumptions unchanged"
+          "zh": "五日平均收盘价处于或低于当前网格 8% 年化入场价（本轮约 $151.66）时，核对经营条件后复核上调。五日均价高于当前网格零回报价（本轮约 $178.19）时，复核下调。若关键假设改变，先重算门槛。",
+          "en": "Review for upgrade when the five-session mean close is at or below the current grid’s 8% annualized entry price (about $151.66 in this grid), subject to the operating tests. Review for downgrade when the mean is above the grid’s zero-return price (about $178.19). Recompute the levels if key assumptions change."
         },
         "latest": {
-          "zh": "2026-10-01 收盘 $160.47，加权年化 +5.5%；09-23 收 $149.58、09-24 收 $151.39，但 5 个交易日平均收盘价自 08-07 以来最低约 $154.30（09-23 至 09-29），从未触及 $152；截至 10-01 的 5 日均价约 $158.33；52 周收盘区间 $111.54–$190.50",
-          "en": "2026-10-01 close of $160.47, +5.5% weighted annualized; closes of $149.58 on 09-23 and $151.39 on 09-24, but the lowest 5-session average close since 08-07 was about $154.30 (09-23 to 09-29), never at or below $152; the 5-session average to 10-01 is about $158.33; 52-week closing range $111.54-$190.50"
+          "zh": "Nasdaq 历史行情显示，截至 11 月 10、11、12、13、16、17、18、19 日的五日均价依次为 $182.736、$183.688、$185.888、$185.246、$184.426、$183.234、$183.050、$181.382，均触及旧 $181 下调价。11 月 20 日回落至 $178.098。11 月 5 日发布的 Q3 实际营收与上调后的全年指引已改变旧网格的经营起点，故旧价格条款所要求的「网格假设不变」不成立。此次触价触发重算，经重算不单独下调立场。 截至 11 月 27 日，五日均价 $173.804，位于新网格约 $151.66（8% 入场）和 $178.19（零回报）之间。单日收盘 $179.16，对应加权年化 −0.26%。评级为当前五日均价阈内。",
+          "en": "Nasdaq historical data put the five-session means ending November 10, 11, 12, 13, 16, 17, 18 and 19 at $182.736, $183.688, $185.888, $185.246, $184.426, $183.234, $183.050 and $181.382, each at or above the old $181 downgrade level. The mean receded to $178.098 on November 20. Q3 actual revenue and raised full-year guidance released November 5 had already changed the operating inputs to the old grid, so the unchanged-assumptions proviso was not satisfied. The touch prompted a re-anchor and does not independently downgrade the stance after recomputation. The November 27 five-session mean of $173.804 lies between the refreshed 8% entry price of about $151.66 and zero-return price of about $178.19. The single-session close of $179.16 implies a weighted −0.26% annualized return. The current five-session reading is within the refreshed levels."
         },
         "nextCheck": "每日价格账本 / Daily price ledger",
-        "nextCheckDate": "2026-10"
+        "nextCheckDate": "2026-10",
+        "reading": "within",
+        "readingAsOf": "2026-11-27",
+        "readingNote": "旧 $181 线曾触及，11 月 5 日披露使旧网格假设不再适用。截至 11 月 27 日的均价按新网格判为阈内。 / The old $181 level was reached after the November 5 disclosures changed the old grid inputs. Within refers to the November 27 mean on the refreshed grid."
       }
     ]
   },

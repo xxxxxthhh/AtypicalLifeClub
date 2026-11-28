@@ -17,13 +17,17 @@ Disclaimer: This report is for informational and research purposes only. It does
 
 ## Executive Summary
 
-> **2026-11-28 regulatory monitoring update:** In its [November 5 Q3 2026 Form 10-Q, Note 9](https://www.sec.gov/Archives/edgar/data/1559720/000155972026000032/abnb-20260930.htm), Airbnb states that in May it entered into an agreement to obtain a EUR 70 million ($80 million) surety bond under a court order. The bond suspends enforcement of the proposed EUR 65 million ($76 million) Spanish short-term rental fine and covers related interest pending resolution. Airbnb disputes the fine and the applicability of the rules and says the potential loss is neither probable nor estimable. The Q3 disclosures reviewed identify no major-market short-term rental ban or cap that Airbnb describes as material, so `regulation-supply` remains within its threshold. The historical valuation basis still applies, and the published stance and conviction are unchanged.
+**November 28, 2026 · Q3-based investment verdict**
+
+Neutral-watch with low conviction. The published operating upgrade branch (2) is met. Q3 revenue of $4.869B exceeded $4.770B, ex-FX growth of 16% cleared 14%, and the Q4 guide implies 15.9%–18.1% on the prior-year $2.778B base, with the low end above 13%. The five-session mean reached the old $181 line on eight sessions from November 10 through 19. The November 5 Q3 results and raised guidance had changed the old grid inputs, so the touch prompted a re-anchor and does not independently downgrade the stance after recomputation. At the November 27 close of $179.16 the Q3-based TTM P/E is 32.8×, P/FCF 21.5× and EV/adjusted EBITDA 18.7×. The 30/40/30 grid weights to $178.19 at end-2028 and −0.26% annualized, with the base case at +0.34%, both below the 8% hurdle. The operating trigger supports neutral-watch. The current entry price offers insufficient return to meet the hurdle. Exit multiples and future growth materially affect results, and AI disintermediation and regulation warrant further evidence.
+
+> **2026-11-28 regulatory monitoring update:** In its [November 5 Q3 2026 Form 10-Q, Note 9](https://www.sec.gov/Archives/edgar/data/1559720/000155972026000032/abnb-20260930.htm), Airbnb states that in May it entered into an agreement to obtain a EUR 70 million ($80 million) surety bond under a court order. The bond suspends enforcement of the proposed EUR 65 million ($76 million) Spanish short-term rental fine and covers related interest pending resolution. Airbnb disputes the fine and the applicability of the rules and says the potential loss is neither probable nor estimable. The Q3 disclosures reviewed identify no major-market short-term rental ban or cap that Airbnb describes as material, so `regulation-supply` remains within its threshold. The operating and valuation update is above.
 
 > **2026-11-06 factual update**: Q3 2026 (quarter ended 2026-09-30; shareholder letter 8-K Ex 99.1 and 10-Q, after the close on 2026-11-05) revenue was $4,869M (+19% YoY, +16% ex-FX) against the $4.69-4.77B guide; Nights and Seats Booked 155.0M (+16%); GBV $27.7B (+21%, +21% ex-FX); the implied take rate (revenue / GBV) was 17.6%, which the company says was down year over year, mainly from the expansion of Reserve Now, Pay Later. Net income $1.9B (39% margin), adjusted EBITDA $2.5B (52% margin vs 50%), free cash flow $1.4B. Q3 repurchases were $0.7B with $2.7B of authorization remaining at 9-30, and a new $12B authorization was announced. Q4 2026 guide: revenue $3.22-3.28B (+16% to +18% YoY, including about two points of FX tailwind), implied take rate up slightly YoY, GBV growth in the mid-teens; full-year revenue growth raised to the high teens and full-year adjusted EBITDA margin raised to about 36%. The 10-Q reports no material change in risk factors from the 10-K and the two prior 10-Qs.
 >
 > **2026-11-06 review of monitoring**: nights-booked-growth, take-rate-ai-agents and regulation-supply within; adj-ebitda-margin unclear; organic-growth-ex-fx records the facts and leaves the structured reading to the reviewer; valuation-hurdle-price is not updated. Sources: [shareholder letter, 8-K Ex 99.1](https://www.sec.gov/Archives/edgar/data/1559720/000119312526449727/d437988dex991.htm), [10-Q](https://www.sec.gov/Archives/edgar/data/1559720/000155972026000032/abnb-20260930.htm). The earnings call was not read.
 >
-> **Valuation boundary (2026-11-06, Mode A):** Valuation remains on the 2026-10-01 historical basis ($160.47); Q3 actuals, the new guidance and the new repurchase authorization await Mode B recomputation. Q3 revenue, ex-FX growth and the Q4 guide together literally meet branch (2) of the published upgrade trigger; this is filed for reviewer adjudication, and price, valuation figures, stance and conviction are not updated in this package. The first full post-release session is 2026-11-06.
+> **Historical valuation boundary (November 6, Mode A):** Valuation remains on the 2026-10-01 historical basis ($160.47); Q3 actuals, the new guidance and the new repurchase authorization await Mode B recomputation. Q3 revenue, ex-FX growth and the Q4 guide together literally meet branch (2) of the published upgrade trigger; this is filed for reviewer adjudication, and price, valuation figures, stance and conviction are not updated in this package. The first full post-release session is 2026-11-06.
 
 
 Historical valuation basis: **One-Line Thesis:** ~~Airbnb is the global short-term rental market's defining brand and leader. Q1 2026 revenue +17.9% beat expectations, providing the first hard data point supporting the growth re-acceleration narrative, but valuation has expanded from 29x to 35.4x P/E, pricing in much of this improvement. Margins and TTM FCF quality warrant monitoring.~~ **(Rewritten 2026-08-07)** Airbnb is the global short-term rental market's defining brand and leader, combining a brand moat, a 35%+ FCF margin and an asset-light model. **Q2 2026 revenue +17% and Nights and Seats Booked +10% (accelerating from Q1), with full-year revenue and margin guidance both raised — the growth re-acceleration narrative now has two consecutive quarters of hard data behind it. Just as important, the prior version's loudest warning (TTM FCF falling from $4.6B to ~~$3.19B~~) has been repaired by this quarter's $1.253B of FCF, lifting TTM FCF to $4.827B.** **(Re-anchored 2026-08-08)** The first completed post-release session closed at ~~$178.07~~ (+17.43% in one day), which handed back the whole of the August 7 de-rating and then some: P/FCF ~~18.5x~~ → ~~21.8x~~, P/E ~~33.2x~~ → ~~39.0x~~. ~~**The judgment on the business is unchanged; what changed is the price.** The residual tension is still not cash flow quality but whether a 39x TTM P/E has already borrowed against 2027 growth — a sharper question than it was one session ago, not a softer one.~~ **Update (2026-10-02)** With the price back at **$160.47**, the multiples fall to a TTM P/E of **35.2x** and P/FCF of **19.6x**. But once stock-based compensation (TTM $1.71B, about 13% of revenue) is treated as a real cost and the exit is valued on FY2028 GAAP EPS, the scenario grid weights to only **+5.5%** a year, below the 8% hurdle. The tension is no longer whether 39x borrows against the future; it is that **the market is pricing a business that compounds revenue at about 14% a year, and we see one that compounds at about 12%** (Q2 ex-FX +13%; FY2027 consensus revenue +11.6%).
@@ -36,14 +40,14 @@ Historical valuation basis: **One-Line Thesis:** ~~Airbnb is the global short-te
 >
 > The August 7 version was anchored to **~~$151.64~~ (the 2026-08-06 close)**, which preceded the release; those multiples are all superseded and are kept struck through below for comparison. **That version's deferred re-anchor is hereby discharged.**
 
-**Investment Verdict:**
+**Historical investment verdict (October 2):**
 - Historical valuation basis: ~~Neutral-to-Positive | Conviction: Medium (unchanged after the 2026-08-07 review)~~ **Update (2026-10-02): Cautious | Conviction: Low** (stance backfill, derived at the 2026-10-01 close of $160.47)
 - Historical valuation basis: Core logic: ~~Premium cash flow machine, but the ability to re-accelerate growth is the key to sustaining its valuation~~ ~~Phase 1 of growth re-acceleration delivered (Q1 +17.9%), but the stock is already +20%. Current valuation requires sustained momentum through Q2-Q4~~ **(Re-adjudicated 2026-08-08) Growth re-acceleration has now delivered for two straight quarters with guidance raised, and the cash-flow-quality alarm is cleared — the bull-side evidence still stands. But re-anchored to the 2026-08-07 close, a ~~33.2x~~ ~~39.0x~~ TTM P/E against roughly 17% revenue growth is a PEG of ~~about 1.9x~~ ~~about 2.3x~~. Bull evidence and price both strengthened, and this time the price moved faster. ~~A complete Q2 thesis and current-valuation review retains Neutral-to-Positive / Medium conviction: stronger growth and cash conversion offset the higher multiple, but the entry-price margin of safety is thinner.~~** **Update (2026-10-02), core logic:** the business evidence is still good (Q2 revenue +17%, a 35% FCF margin, $9.66B of net cash), but the price asks for a little more than the business delivers. Valuing the exit on FY2028 GAAP EPS (with SBC treated as a cost), the 30/40/30 grid (bull $253.47 / base $182.98 / bear $105.43) weights to **$180.86**, **+12.7% against $160.47, or +5.5% annualized**, 2.5 points below the 8% hurdle; the base case alone earns only +6.0% a year. The bull case is +58.0% against −34.3% in the bear case.
 - ~~**No upgrade to Positive:** 39.0x TTM earnings and roughly 20.5x EV/adjusted EBITDA already capitalize much of the raised operating trajectory; Q3 organic growth net of FX remains the next decisive gate.~~
 - **Update (2026-10-02), why not neutral-watch:** at central assumptions the weighted return is below the hurdle, and a neutral label would describe the uncertainty, not the arithmetic. But the price only has to fall about 5%, to **$152** (the price at which the central grid earns exactly 8%; the stock closed at $149.58 / $151.39 on 09-23 / 09-24), for the call to move to neutral-watch. This is a price call, not a verdict against the business.
 - **Update (2026-10-02), why conviction is low:** raising every exit P/E by four turns lifts the result to +12.4%, re-weighting to 40/40/20 lifts it to +9.2%, and a growth path 3 points faster lifts it to +7.9%. The conclusion is one sensitivity notch from flipping. Two tail risks also sit outside the grid: AI-agent disintermediation (Meta Muse) and major-market regulation.
 
-**Quick Stats:**
+**Historical quick stats (October 2 valuation basis):**
 
 > Historical valuation basis: This table was fully rebuilt on **2026-08-07** from primary Q2 2026 filings. "TTM" always means **the trailing twelve months ended 2026-06-30**, derived as `FY2025 + H1 2026 − H1 2025` from the XBRL detail of the 10-K and 10-Qs. **Update (2026-10-02):** the price and its derived multiples are recomputed at the 2026-10-01 close of $160.47; the company has not reported since Q2, so the operating denominators are unchanged.
 
@@ -142,6 +146,8 @@ Airbnb is a classic asset-light platform:
 ---
 
 ## 3. Financial Analysis
+
+Through Q3 2026, revenue was $11.155B, GAAP operating income $2.865B, GAAP net income $2.866B and SBC $1.359B. Q3 adjusted EBITDA was $2.509B and free cash flow $1.426B. The balance sheet, cash and repurchase reconciliation is in §8. [Q3 10-Q](https://www.sec.gov/Archives/edgar/data/1559720/000155972026000032/abnb-20260930.htm) · [Shareholder letter](https://www.sec.gov/Archives/edgar/data/1559720/000119312526449727/d437988dex991.htm)
 
 ### Growth Trajectory
 
@@ -276,7 +282,65 @@ Historical valuation basis: **Downside Scenario:** ~~If 2026 revenue growth fail
 
 ## 8. Valuation Context
 
-### Current Valuation
+### Current valuation at the November 27, 2026 close
+
+Airbnb closed at **$179.16** at the 13:00 ET close of the post-Thanksgiving shortened regular session. The five completed closes (November 20, 23, 24, 25, 27) were $170.36, $173.96, $173.39, $172.15 and $179.16, averaging **$173.80**. Nasdaq's historical table supplied the first four observations. Nasdaq and the regular-session field in CNBC's November 27 quote both show $179.16. CNBC lists the subsequent extended-hours quote separately at $179.00. November 26 was a market holiday. [Nasdaq session calendar](https://www.nasdaq.com/market-activity/stock-market-holiday-schedule) · [Nasdaq historical](https://api.nasdaq.com/api/quote/ABNB/historical?assetclass=stocks&fromdate=2026-10-26&limit=40&todate=2026-11-28) · [Nasdaq quote](https://api.nasdaq.com/api/quote/ABNB/info?assetclass=stocks) · [CNBC quote](https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=ABNB&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json)
+
+**Capital and buybacks.** The October 15 cover-page counts are 424,579,862 Class A and 162,962,335 Class B shares, totaling 587,542,197, plus zero Class C and 9.2M Class H. The Q3 balance sheet shows about 589M A+B and zero Class H outstanding on a consolidated basis at September 30. Calendar-year 2025 Form 10-K says the outstanding H shares were held by the wholly owned Host Endowment Fund and convert one-for-one to A on a sale outside the subsidiary. The $105.264B market capitalization uses A+B. The grid includes an all-H-converted sensitivity. Q3 repurchases were 4.4M shares for $712M (the 10-Q reports $161.95 per share including commissions), and nine-month repurchases were 20.4M shares ($2.851B of cash outflow). The board announced $12B of additional authorization in November, alongside $2.7B remaining at September 30. The modeled repurchases depend on cash generation and execution. [Q3 Form 10-Q](https://www.sec.gov/Archives/edgar/data/1559720/000155972026000032/abnb-20260930.htm) · [FY2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/1559720/000155972026000004/abnb-20251231.htm)
+
+**Corporate cash and debt.** September 30 cash and equivalents of $7.272B plus $5.318B of short-term investments give $12.590B. Less $2.371B of debt carrying value gives **$10.219B net cash** and **$95.045B EV**. On $2.500B of face debt, net cash is $10.090B and EV is $95.174B. The $12.649B investor-letter liquidity figure includes $59M of restricted cash. Both net-cash calculations exclude that restricted cash, the $7.420B of funds receivable and held for customers matched by $7.420B of customer payables, and $1.536B of unearned fees. The earliest senior note maturity is March 2029. [Q3 Form 10-Q](https://www.sec.gov/Archives/edgar/data/1559720/000155972026000032/abnb-20260930.htm) · [Q3 shareholder letter](https://www.sec.gov/Archives/edgar/data/1559720/000119312526449727/d437988dex991.htm)
+
+| Current valuation measure | Q3-based calculation |
+| --- | --- |
+| TTM revenue, GAAP net income, EBIT, SBC | **$13.933B / $3.207B / $3.134B / $1.770B**, each FY2025 + 9M 2026 − 9M 2025 |
+| TTM adjusted EBITDA, free cash flow | **$5.075B** = $0.786B + $0.519B + $1.261B + $2.509B. **$4.904B** = $0.521B + $1.704B + $1.253B + $1.426B |
+| TTM P/E and price over summed diluted EPS | **32.8×** ($105.264B / $3.207B), **33.6×** ($179.16 / $5.33, summing Q4 2025 $0.56 and 9M 2026 $4.77) |
+| TTM P/FCF and FCF yield | **21.5× / 4.7%**, using $4.904B |
+| TTM P/S | **7.6×**, using $13.933B |
+| TTM EV/adjusted EBITDA and EV/EBIT | **18.7× / 30.3×**, using $95.045B EV |
+| FY2026 guide-implied EV/adjusted EBITDA | **18.3×** using $14.405B revenue × 36% = $5.186B at the Q4 guidance midpoint |
+
+The operating denominators end September 30, 2026. Subtracting $82M of capex from $1.508B of Q3 operating cash flow yields $1.426B of quarterly FCF. TTM SBC is 12.7% of revenue and 34.9% of adjusted EBITDA. The historical October consensus figures below are dated benchmarks. This update uses the issuer's revenue and margin guidance to anchor the forecast. [Q3 Form 10-Q](https://www.sec.gov/Archives/edgar/data/1559720/000155972026000032/abnb-20260930.htm) · [Q3 shareholder letter](https://www.sec.gov/Archives/edgar/data/1559720/000119312526449727/d437988dex991.htm) · [FY2025 shareholder letter](https://www.sec.gov/Archives/edgar/data/1559720/000119312526048670/d58192dex991.htm)
+
+### FY2028 scenario grid
+
+**Horizon and starting point.** November 27, 2026 to December 31, 2028 is 765 days (2.094 years on ACT/365.25). The $179.16 close needs $210.50 at exit for 8% annualized or $218.74 for 10%. Q4 revenue runs from $3.220B to $3.280B across the guide. Adding $11.155B of actual nine-month revenue gives $14.375B–$14.435B for FY2026. Each case starts at a 36% FY2026 adjusted EBITDA margin, roughly the company guide. At the $14.405B midpoint, subtract $4.289B of actual nine-month adjusted EBITDA from $5.186B to get about $897M of implied Q4 adjusted EBITDA. [Q3 shareholder letter](https://www.sec.gov/Archives/edgar/data/1559720/000119312526449727/d437988dex991.htm)
+
+**Forecast mechanics.** All figures below are forecast assumptions beyond the cited actuals and guidance. Apply the stated FCF conversion to FY2026–28 adjusted EBITDA and deduct the $4.383B of FCF already earned through Q3. Spend 80% of remaining FCF on buybacks, capped at $14.7B in this model, using each case's average purchase price. Start the share bridge at 589M consolidated A+B at September 30 to align with the Q4 2026 start of the projected cash bridge. Add 18M net shares issued from employee awards and subtract repurchased shares to get exit basic shares, then add 8M at exit for dilution. Cash evolves from $10.219B of net cash plus remaining FCF less buybacks and $1.4B assumed for withholding on equity awards. GAAP net income is `(FY2028 adjusted EBITDA − 11.5% of revenue for SBC − $180M of D&A and other adjustments + $700M gross interest income − $120M debt interest − $50M other expense) × 81%`. The debt interest assumption is near four times the $31M Q3 expense identified in Note 7 as primarily related to senior notes. Total consolidated interest expense was $45M. Exit value is GAAP EPS times the scenario P/E. The EV/adjusted EBITDA cross-check uses exit basic shares and net cash. Interest is already in the EPS bridge. [Q3 Form 10-Q](https://www.sec.gov/Archives/edgar/data/1559720/000155972026000032/abnb-20260930.htm)
+
+| Case / weight | FY26 / FY27 / FY28 revenue | FY27 / FY28 growth and adj. EBITDA margins | FY28 adj. EBITDA / net income | Q4 2026–FY28 FCF / conversion | Buyback price / spend / shares | Exit basic / diluted shares and net cash | EPS × exit P/E | Exit value / total return / annualized | Exit EV/adj. EBITDA |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Bull / 30% | $14.435B / $16.745B / $19.256B | +16% / +15%, 37.0% / 37.5% | $7.221B / $4.339B | $15.161B / 105% | $210 / $12.129B / 57.76M | 549.24M / 557.24M, $11.851B | $7.7863 × 32 | $249.16 / +39.1% / +17.1% | 17.3× |
+| Base / 40% | $14.405B / $16.134B / $17.908B | +12% / +11%, 36.0% / 36.0% | $6.447B / $3.837B | $13.581B / 103% | $175 / $10.865B / 62.09M | 544.91M / 552.91M, $11.535B | $6.9403 × 26 | $180.45 / +0.7% / +0.34% | 13.5× |
+| Bear / 30% | $14.375B / $15.381B / $16.150B | +7% / +5%, 34.5% / 33.5% | $5.410B / $3.161B | $11.191B / 98% | $130 / $8.953B / 68.87M | 538.13M / 546.13M, $11.057B | $5.7889 × 18 | $104.20 / −41.8% / −22.8% | 8.3× |
+| Weighted | | | | | | | | **$178.19 / −0.54% / −0.26%** | |
+
+The bull case extends recent ex-FX momentum and assumes operating leverage, with an exit multiple near the current trailing multiple. The base case assumes growth normalizes into the low teens, a stable margin and a 26× exit near the October framework's historical trough. The bear case combines mid-single-digit growth by 2028, margin pressure and an 18× mature-platform multiple. Weight the exit values first, then annualize. The fresh grid implies an **8% entry price of $151.66** and a zero-return price of $178.19 at this horizon.
+
+### Sensitivity and expectations at $179.16
+
+| Sensitivity | Weighted exit value | Annualized |
+| --- | --- | --- |
+| Center | $178.19 | −0.26% |
+| All exit P/E multiples +4× / −4× | $205.58 / $150.79 | +6.79% / −7.90% |
+| 2027 and 2028 growth +3 pp / −3 pp | $187.95 / $168.76 | +2.31% / −2.81% |
+| 2028 margin −1.5 pp | $167.74 | −3.09% |
+| Bull/base/bear weights 40/40/20 or 20/40/40 | $192.68 / $163.69 | +3.54% / −4.22% |
+| All 9.2M Class H shares convert by exit | $175.27 | −1.04% |
+
+Re-run the base cash, buyback and diluted share bridge with the same annual revenue growth in 2027 and 2028. The required growth at each exit multiple is:
+
+| Exit P/E | Break even | Earn 8% | Earn 10% |
+| --- | --- | --- | --- |
+| 20× | 26.3% | 36.4% | 39.0% |
+| 24× | 15.6% | 25.0% | 27.4% |
+| 26× | 11.1% | **20.3%** | 22.6% |
+| 30× | 3.4% | 12.1% | 14.3% |
+| 32× | 0.1% | 8.6% | 10.7% |
+
+At a 26× exit, earning 8% requires about 20.3% growth in each of 2027 and 2028, versus +12% and +11% respectively in the modeled base path. Reaching 8% with that base path would require about 30.3× exit earnings ($210.50 / $6.9403).
+
+### Historical (October 2) · Current Valuation
 
 > Historical valuation basis: **Update (2026-10-02): current anchor = 2026-10-01 close of $160.47, market cap $94.61B, EV $84.95B** (net cash $9.66B at 2026-06-30). The operating denominators are unchanged; only the price and its derived multiples moved, and the forward P/E is rebuilt from third-party consensus.
 >
@@ -294,7 +358,7 @@ Historical valuation basis: **Downside Scenario:** ~~If 2026 revenue growth fail
 | EV/EBIT (TTM) | ~~29.1x~~ ~~34.8x~~ **31.0x** | Updated 2026-10-02: EV $84.95B / TTM EBIT $2.738B. The old ~~29.1x~~ equalled the old "EV/EBITDA 29.1x", which is precisely the evidence that the old row was EBIT | High |
 | ~~P/S (TTM) 6.8x ($85.7B / $12.65B)~~ P/S (TTM) | ~~~5.9x~~ ~~6.8x~~ ~~8.0x~~ **7.2x** | Updated 2026-10-02: $94.61B market cap / $13.159B TTM revenue | High |
 
-### Analyst Consensus
+### Historical (October 2) · Analyst Consensus
 
 - ~~Among 29 analysts: 28% Strong Buy, 21% Buy, 45% Hold, 6% Sell~~
 - ~~Median price target: $145-148 (vs current $119, implying ~22-25% upside)~~
@@ -303,14 +367,14 @@ Historical valuation basis: **Downside Scenario:** ~~If 2026 revenue growth fail
 - ~~**(2026-08-07) This entire section is marked `review-pending`.** The ratings distribution and price targets above are all sell-side figures from before the Q2 report; after a Q2 beat plus raised full-year guidance they will necessarily be revised. No verifiable updated consensus was obtained this run, so the old values are neither carried forward nor replaced with an extrapolation.~~
 - Historical valuation basis: **Update (2026-10-02): `review-pending` lifted, using two citable third-party sources (both as of 2026-10-01):** Nasdaq (data from Zacks) shows a mean price target of **$188.65**, a $150-220 range, and 21 Buy / 11 Hold / 1 Sell; S&P Global (via stockanalysis) shows a mean target of **$184.35** from 45 analysts, a $135-220 range and a consensus Buy, with FY2026E revenue of $14.17B (+15.8%) and FY2027E $15.82B (+11.6%). The sell-side means imply about 15-18% upside from $160.47. This report does not use price targets as an input; they are shown for comparison only.
 
-### Historical Valuation Context
+### Historical (October 2) · Historical Valuation Context
 
 ~~Airbnb's P/E has ranged roughly 25-60x since IPO. The current ~35.4x is in the mid-range historically, while growth has recovered from FY2025's 10% to Q1 2026's 17.9%.~~
 **(Re-anchored 2026-08-08)** Airbnb's P/E has ranged roughly 25-60x since IPO. Re-anchored to the 2026-08-07 close, ~~39.0x~~ sits in the upper half of that historical mid-range, no longer in the "lower half" the August 7 version described at ~~33.2x~~. Growth is still +17.9% in Q1 and +17% in Q2 — **the numerator did not move; the worse position is entirely the price.**
 Historical valuation basis: **Update (2026-10-02)** At $160.47 the TTM P/E of **35.2x** sits in the lower half of the 25-60x range. The troughs observed over the past year: about 26.6x at the 2025-11-20 closing low of $111.54 (TTM net income of about $2.63B on about 626M diluted shares, derived in this report), and about 29.5x at roughly $119 in February 2026 (FY2025 diluted EPS of $4.03). Revenue growth was then about 10%. This report's base case sets the end-2028 exit P/E at 26x, the bottom of that observed trough.
 ~~The current ~29x is at the historical low-to-mid range, but growth is also at historical lows.~~
 
-### Key Valuation Considerations
+### Historical (October 2) · Key Valuation Considerations
 
 - ~~P/FCF of 15.5x is low for a platform with 38% FCF margins: If growth sustains at 10%+, this valuation is attractive~~
 - ~~**P/FCF has moved from 15.5x to 26.9x (TTM levered FCF) or 18.6x (FY2025 basis): On FY2025's $4.6B FCF, valuation remains reasonable; on TTM levered FCF of $3.19B, it's stretched**~~
@@ -323,7 +387,7 @@ Historical valuation basis: **Update (2026-10-02)** At $160.47 the TTM P/E of **
 
 - Historical valuation basis: **Update (2026-10-02):** at $160.47 a P/E of **35.2x** against 17% reported revenue growth is a PEG of about **2.1x**; on Q2's 13% ex-FX growth it is about 2.7x. On a forward basis it is 30.3x FY2026E and 25.4x FY2027E. **The larger basis issue is stock-based compensation**: TTM SBC is $1.71B, about 13% of revenue and about 37% of adjusted EBITDA. An EV/adjusted EBITDA of about 18.3x looks undemanding, but it leaves a cost the company pays every year out of the denominator. The scenario grid below therefore values the exit on GAAP EPS.
 
-### Scenario Grid (added 2026-10-02)
+### Historical (October 2) · Scenario Grid (added 2026-10-02)
 
 **Choice of method.** The exit is valued mainly as FY2028 GAAP EPS x an exit P/E, with the implied EV/adjusted EBITDA shown only as a cross-check. The reason: SBC is about 37% of adjusted EBITDA, so an EV/adjusted EBITDA exit would capitalize away a recurring cost (a grid built on that basis gives a materially higher return, and this report does not use it). Interest income, including interest on funds held for customers, is already in GAAP net income, so net cash is not added back separately, to avoid double counting; this is slightly conservative on cash. This report gives no price target; what follows are assumption ranges, not forecasts.
 
@@ -337,7 +401,7 @@ Historical valuation basis: **Update (2026-10-02)** At $160.47 the TTM P/E of **
 
 | Historical valuation basis: Scenario | FY2028 revenue (2025-28 CAGR; 2027/2028 growth) / 2028 EBITDA margin / FY2028 adjusted EBITDA | FY2028 net income / diluted shares / EPS | Exit P/E (anchor) | Cumulative FCF; buyback price | Exit shares / exit net cash | Value per share | Versus $160.47 | Annualized | Implied EV/EBITDA | Weight |
 |------|------|------|------|------|------|------|------|------|------|------|
-| Bull | $19.08B (15.9%; +16% / +15%) / 37.5% / $7.15B | $4.40B / 555.3M / $7.92 | **32x** (today's 35.2x TTM, slightly lower; about today's 30.3x FY2026E) | $16.36B; $210 | 547.3M / $11.33B | **$253.47** | +58.0% | **+22.6%** | 17.8x | 30% |
+| Bull | $19.08B (15.9%; +16% / +15%) / 37.5% / $7.15B | $4.40B / 555.3M / $7.92 | **32x** (historical valuation basis: slightly below the October 2 TTM P/E of 35.2x and near FY2026E 30.3x) | $16.36B; $210 | 547.3M / $11.33B | **$253.47** | +58.0% | **+22.6%** | 17.8x | 30% |
 | Base | $17.62B (12.9%; +12% / +11%) / 36.0% / $6.34B | $3.88B / 550.8M / $7.04 | **26x** (bottom of the 26.6-29.5x TTM P/E trough observed over the past year) | $14.60B; $175 | 542.8M / $10.98B | **$182.98** | +14.0% | **+6.0%** | 13.9x | 40% |
 | Bear | $15.73B (8.7%; +7% / +5%) / 33.5% / $5.27B | $3.18B / 543.5M / $5.86 | **18x** (a mature-OTA de-rating, below any level since the IPO; AI-agent disintermediation, growth down to mid single digits) | $12.04B; $130 | 535.5M / $10.47B | **$105.43** | −34.3% | **−17.0%** | 8.7x | 30% |
 | **Weighted** | - | - | - | - | - | **$180.86** | **+12.7%** | **+5.5%** | - | **100%** |
@@ -346,7 +410,7 @@ Historical valuation basis: **Update (2026-10-02)** At $160.47 the TTM P/E of **
 
 **The weighted annualized return of +5.5% is 2.5 points below the 8% hurdle and 4.5 points below 10%.** The base case alone earns +6.0% a year, also below the hurdle.
 
-### Sensitivity Test (added 2026-10-02; this is what sets conviction at low)
+### Historical (October 2) · Sensitivity Test (added 2026-10-02; this is what sets conviction at low)
 
 | Test | Setting | Weighted value per share | Weighted annualized return | Clears 8%? |
 |------|------|------|------|------|
@@ -364,7 +428,7 @@ Historical valuation basis: **Update (2026-10-02)** At $160.47 the TTM P/E of **
 
 **The negative skew against the 8% hurdle holds at central assumptions, but it is not robust.** Raising every exit P/E by four turns, or weighting toward the bull case (40/40/20), lifts the weighted return above 8%; a growth path 3 points faster comes within a tenth of a point (+7.9%). The downside range is wider: cutting multiples by four turns turns the return negative. The conclusion is one sensitivity notch from the hurdle, which is why conviction is low.
 
-### Reverse Test: What the Price Implies (expectations gap, added 2026-10-02)
+### Historical (October 2) · Reverse Test: What the Price Implies (expectations gap, added 2026-10-02)
 
 Historical valuation basis: Method: for each exit P/E, solve for the constant 2027-2028 revenue growth rate (from the FY2026 base of $14.17B) that makes the end-2028 value per share equal $160.47 (break-even), $190.78 (8%) and $198.81 (10%). Margins, FCF, buybacks and the share count move with the path (base margin path 35.5% → 36%, 103% FCF conversion, buybacks at $175).
 
@@ -407,33 +471,41 @@ Historical valuation basis: **The expectations gap in one sentence:** at $160.47
 ### Monitoring Checklist (added 2026-10-02; one-to-one with `monitoring[]` in reports.json)
 
 1. **Ex-FX revenue growth versus guidance (`organic-growth-ex-fx`)**
-   - Trigger: downgrade signal - Q3 2026 revenue below the $4.69B low end of guidance, or ex-FX revenue growth below +10%; upgrade signal - Q3 2026 revenue at or above the $4.77B top of guidance, ex-FX revenue growth of at least +14%, and a Q4 guide implying at least +13% year-over-year growth.
-   - Latest reading: Q2 2026 revenue was $3.608B, +17% reported and +13% ex-FX (Q1 2026: +18% / +15%); the Q3 guide of $4.69-4.77B (+15-17%) includes about 3 points of FX tailwind, i.e. roughly +12-14% ex-FX; S&P Global FY2027E revenue growth is +11.6%.
+   - Trigger: Q4 2026 actual revenue of at least $3.220B and company-reported ex-FX growth of at least +14% are the operating tests for an upgrade. Revenue below $3.220B or ex-FX growth below +10% triggers a downgrade.
+   - Latest reading: Q3 2026 revenue of $4.869B was above the $4.770B guide high, +19% reported and +16% ex-FX. Against Q4 2025 revenue of $2.778B, the $3.220B–$3.280B Q4 guide implies +15.9% to +18.1%, which the issuer reports as +16% to +18% including about two percentage points of FX tailwind. All three parts of historical upgrade branch (2) were met and adjudicated in this update. The new test awaits Q4 actual results.
    - Next check: Q3 2026 results (early November 2026, estimated).
 2. **Nights and Seats Booked growth (`nights-booked-growth`)**
    - Trigger: Nights and Seats Booked growth below +7% year over year.
-   - Latest reading: 148.3M in Q2 2026, +10% (Q1 +9%); Q3 guided to "low double-digit" growth.
+   - Latest reading: +16% YoY to 155.0M in Q3, above +7%.
    - Next check: Q3 2026 results.
 3. **Take rate and AI-agent disintermediation (`take-rate-ai-agents`)**
    - Trigger: implied take rate (revenue / GBV) below 12.7% for two consecutive quarters, or management attributing a slowdown in traffic or bookings to third-party AI agents.
-   - Latest reading: Q2 2026 implied take rate was 13.2%, in line with Q2 2025; the company guides the Q3 take rate roughly flat year over year. Per third-party reporting, Meta Muse launched in September 2026, and the reported booking partners are mainly OTAs and hotel groups, not Airbnb; ABNB fell 7.56% on 09-23.
+   - Latest reading: Q2 and Q3 implied take rates were 13.2% and 17.6%. The Q3 shareholder letter discusses Airbnb’s own AI tools. The earnings call attribution leg remains open.
    - Next check: Q3 2026 results and call.
 4. **Adjusted EBITDA margin (`adj-ebitda-margin`)**
    - Trigger: FY2026 Adjusted EBITDA Margin below the 35.5% guided floor.
-   - Latest reading: 35% in Q2 2026 (34% in Q2 2025); H1 2026 adjusted EBITDA of $1.780B at a 28.3% margin (seasonal); Q3 margin guided slightly below Q3 2025's 50.1%; FY2026 guided at no less than 35.5% (FY2025: 35%).
+   - Latest reading: Q3 actual was 52% on the rounded disclosure basis and the full-year guide is about 36%. The FY2026 actual remains pending.
    - Next check: Q3 2026 results (first read), with FY2026 results in February 2027.
 5. **Major-market regulation (`regulation-supply`)**
    - Trigger: a major market enacts a short-term-rental ban or cap that the company describes as material in its results or an 8-K.
-   - Latest reading: the EU short-term-rental registration rules took effect in May 2026; Barcelona bans tourist apartments from 2028; this check (as of 2026-10-02) found no new regulatory event the company has described as material, and there has been no 8-K since 2026-08-06.
+   - Latest reading: Q3 10-Q Note 9 documents the Spanish surety bond and outstanding dispute. The reviewed Q3 filings keep the prior threshold reading.
    - Next check: Q3 2026 10-Q risk factors and legal proceedings.
 6. **Valuation hurdle price (`valuation-hurdle-price`)**
-   - Trigger: the 5-session average close falls to $152 or below (where the central grid earns exactly 8%; upgrade review), or rises to $181 or above (where the central grid's weighted return falls below 0%; downgrade review), with the scenario-grid assumptions unchanged.
-Historical valuation basis:    - Latest reading: 2026-10-01 close of $160.47, +5.5% weighted annualized; closes of $149.58 on 09-23 and $151.39 on 09-24, but the lowest 5-session average close since 08-07 was about $154.30 (09-23 to 09-29), never at or below $152; the 5-session average to 10-01 is about $158.33; 52-week closing range $111.54-$190.50.
+   - Trigger: Review for upgrade when the five-session mean close is at or below the current grid’s 8% annualized entry price (about $151.66 in this grid), subject to the operating tests. Review for downgrade when the mean is above the grid’s zero-return price (about $178.19). Recompute the levels if key assumptions change.
+   - Latest reading: Nasdaq historical data put the five-session means ending November 10, 11, 12, 13, 16, 17, 18 and 19 at $182.736, $183.688, $185.888, $185.246, $184.426, $183.234, $183.050 and $181.382, each at or above the old $181 downgrade level. The mean receded to $178.098 on November 20. Q3 actual revenue and raised full-year guidance released November 5 had already changed the operating inputs to the old grid, so the unchanged-assumptions proviso was not satisfied. The touch prompted a re-anchor and does not independently downgrade the stance after recomputation. The November 27 five-session mean of $173.804 lies between the refreshed 8% entry price of about $151.66 and zero-return price of about $178.19. The single-session close of $179.16 implies a weighted −0.26% annualized return. The current five-session reading is within the refreshed levels. [Nasdaq extended price history](https://api.nasdaq.com/api/quote/ABNB/historical?assetclass=stocks&fromdate=2026-10-26&limit=40&todate=2026-11-28)
    - Next check: daily price ledger.
 
 ---
 
 ## 10. Conclusion
+
+**Draft stance · neutral-watch, low conviction.** The Q3 operating branch independently meets all three original thresholds. Nasdaq historical data put the five-session means ending November 10, 11, 12, 13, 16, 17, 18 and 19 at $182.736, $183.688, $185.888, $185.246, $184.426, $183.234, $183.050 and $181.382, each at or above the old $181 downgrade level. The mean receded to $178.098 on November 20. Q3 actual revenue and raised full-year guidance released November 5 had already changed the operating inputs to the old grid, so the unchanged-assumptions proviso was not satisfied. The touch prompted a re-anchor and does not independently downgrade the stance after recomputation. The November 27 five-session mean of $173.804 is below the refreshed zero-return price of about $178.19. At the $179.16 close the weighted and base-case annualized returns are −0.26% and +0.34%. An 8% return requires $210.50 at exit. At 26×, that requires about 20.3% revenue growth in each of 2027 and 2028, versus the base case’s +12% and +11%. Q4 results, margin, buyback execution and attribution on the earnings call remain review priorities. [Nasdaq historical data](https://api.nasdaq.com/api/quote/ABNB/historical?assetclass=stocks&fromdate=2026-10-26&limit=40&todate=2026-11-28)
+
+**Current upgrade conditions.** Move from neutral-watch to constructive only if Q4 2026 actual revenue is at least $3.220B and company-reported ex-FX growth is at least +14%, the five-session mean close implies at least an 8% weighted annualized return on the current grid (about $151.66 or less on this grid), and the review confirms no downgrade condition. Recompute the grid first if key assumptions change.
+
+**Current downgrade conditions.** Move from neutral-watch to cautious if any one holds: (1) Q4 2026 actual revenue is below $3.220B or company-reported ex-FX growth is below +10%. (2) Nights and Seats Booked growth falls below +7% YoY. (3) The implied take rate is below 12.7% for two consecutive quarters or management attributes a slowdown in traffic or bookings to third-party AI agents. (4) Actual FY2026 Adjusted EBITDA Margin comes in below 35.5%. (5) A major market enacts a short-term-rental ban or cap that the company describes as material in its results or an 8-K. (6) The five-session mean close exceeds the current grid’s zero-return price (about $178.19 on this grid). Recompute the price level first if key assumptions change.
+
+### Historical conclusions and trigger record
 
 Airbnb is a rare internet platform that combines a powerful brand, high margins, and an asset-light model. ~~$4.6B in FCF, a 38% FCF margin, and a $6B buyback program~~ **(2026-08-07) TTM FCF of $4.827B, a 37% TTM FCF margin, and $3.4B of remaining buyback authorization ($1.1B repurchased in Q2)** — from a cash flow perspective, this is a well-oiled money-printing machine.
 
@@ -474,7 +546,7 @@ Historical valuation basis: **(1) The expectations gap.** At $160.47, earning th
 - **What changed from the 2026-08-08 Neutral-to-Positive / Medium call:** that older version had no scenario grid, left forward EPS `review-pending` and did not treat SBC as a cost; since then Q2 ex-FX growth slowed (+15% → +13%), AI-agent disintermediation emerged as a new tail risk, and insider selling continued.
 - **This is a price call, not a verdict against the business:** the price only has to fall about 5%, to $152, for the central grid to earn exactly 8%.
 
-**(3) Upgrade and downgrade triggers (identical clause by clause to `stanceTriggers` in reports.json):**
+**(3) Historical October 2 upgrade and downgrade triggers (re-adjudicated in this update):**
 - **Upgrade to neutral-watch (any one of the following):**
   - The 5-session average close falls to $152 or below, with the scenario-grid assumptions unchanged.
   - Q3 2026 revenue reaches or exceeds the $4.77B top of guidance, ex-FX revenue growth is at least +14%, and the Q4 guide implies at least +13% year-over-year growth.
