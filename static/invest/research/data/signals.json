@@ -5827,5 +5827,29 @@
     "reportIds": [
       "tsmc-2026"
     ]
+  },
+  {
+    "id": "airbnb-q3-2026-mode-b-reanchor-20261127",
+    "date": "2026-11-27",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Airbnb Q3 经营触发达到门槛，按 $179.16 重算估值",
+      "en": "Airbnb clears the Q3 operating trigger and re-anchors at $179.16"
+    },
+    "detail": {
+      "zh": "Q3 2026：收入 48.69 亿美元，高于 47.70 亿美元指引上沿，报告口径同比 +19%、剔除汇率 +16%。Q4 指引 32.20–32.80 亿美元，对上年同期 27.78 亿美元为 +15.9% 至 +18.1%，公司披露四舍五入为 +16% 至 +18%（约 2 个百分点汇率顺风）。上调第（2）条三项成立。 Nasdaq 历史行情显示，截至 11 月 10、11、12、13、16、17、18、19 日的五日均价依次为 $182.736、$183.688、$185.888、$185.246、$184.426、$183.234、$183.050、$181.382，均触及旧 $181 下调价。11 月 20 日回落至 $178.098。11 月 5 日发布的 Q3 实际营收与上调后的全年指引已改变旧网格的经营起点，故旧价格条款所要求的「网格假设不变」不成立。此次触价触发重算，经重算不单独下调立场。 截至 11 月 27 日，五日均价 $173.804，位于新网格约 $151.66（8% 入场）和 $178.19（零回报）之间。单日收盘 $179.16，对应加权年化 −0.26%。评级为当前五日均价阈内。 30/40/30 网格加权 $178.19、年化 −0.26%。原经营触发支持中性观察、低确信度。来源 https://www.sec.gov/Archives/edgar/data/1559720/000119312526337928/d70413dex991.htm https://www.sec.gov/Archives/edgar/data/1559720/000119312526449727/d437988dex991.htm https://www.sec.gov/Archives/edgar/data/1559720/000155972026000032/abnb-20260930.htm https://www.sec.gov/Archives/edgar/data/1559720/000119312526048670/d58192dex991.htm https://api.nasdaq.com/api/quote/ABNB/info?assetclass=stocks https://api.nasdaq.com/api/quote/ABNB/historical?assetclass=stocks&fromdate=2026-11-10&limit=30&todate=2026-11-28 https://www.nasdaq.com/market-activity/stock-market-holiday-schedule https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=ABNB&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json https://api.nasdaq.com/api/quote/ABNB/historical?assetclass=stocks&fromdate=2026-10-26&limit=40&todate=2026-11-28",
+      "en": "Q3 2026 revenue of $4.869B was above the $4.770B guide high, +19% reported and +16% ex-FX. Against Q4 2025 revenue of $2.778B, the $3.220B–$3.280B Q4 guide implies +15.9% to +18.1%, which the issuer reports as +16% to +18% including about two percentage points of FX tailwind. All three parts of upgrade branch (2) are met. Nasdaq historical data put the five-session means ending November 10, 11, 12, 13, 16, 17, 18 and 19 at $182.736, $183.688, $185.888, $185.246, $184.426, $183.234, $183.050 and $181.382, each at or above the old $181 downgrade level. The mean receded to $178.098 on November 20. Q3 actual revenue and raised full-year guidance released November 5 had already changed the operating inputs to the old grid, so the unchanged-assumptions proviso was not satisfied. The touch prompted a re-anchor and does not independently downgrade the stance after recomputation. The November 27 five-session mean of $173.804 lies between the refreshed 8% entry price of about $151.66 and zero-return price of about $178.19. The single-session close of $179.16 implies a weighted −0.26% annualized return. The current five-session reading is within the refreshed levels. The 30/40/30 grid weights to $178.19 and −0.26% annualized. The original operating trigger supports neutral-watch with low conviction. Sources https://www.sec.gov/Archives/edgar/data/1559720/000119312526337928/d70413dex991.htm https://www.sec.gov/Archives/edgar/data/1559720/000119312526449727/d437988dex991.htm https://www.sec.gov/Archives/edgar/data/1559720/000155972026000032/abnb-20260930.htm https://www.sec.gov/Archives/edgar/data/1559720/000119312526048670/d58192dex991.htm https://api.nasdaq.com/api/quote/ABNB/info?assetclass=stocks https://api.nasdaq.com/api/quote/ABNB/historical?assetclass=stocks&fromdate=2026-11-10&limit=30&todate=2026-11-28 https://www.nasdaq.com/market-activity/stock-market-holiday-schedule https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=ABNB&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json https://api.nasdaq.com/api/quote/ABNB/historical?assetclass=stocks&fromdate=2026-10-26&limit=40&todate=2026-11-28"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "ABNB"
+    ],
+    "reportIds": [
+      "airbnb-2026"
+    ],
+    "monitoringRefs": [
+      "airbnb-2026:organic-growth-ex-fx",
+      "airbnb-2026:valuation-hurdle-price"
+    ]
   }
 ]
