@@ -5873,5 +5873,28 @@
     "monitoringRefs": [
       "broadcom-2026:vmware-retention"
     ]
+  },
+  {
+    "id": "cadence-2026-q3-rpo-composition-and-deferred-revenue-10q",
+    "date": "2026-10-28",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Cadence Q3 2026 10-Q 说明 RPO 构成及年初递延收入兑现",
+      "en": "Cadence Q3 2026 Form 10-Q details RPO composition and deferred revenue recognized"
+    },
+    "detail": {
+      "zh": "10-Q 附注 3 披露，$8.2B 尚未履约金额包含 $0.9B 产品和数量待定的不可取消承诺。公司预计未来 12 个月确认剔除该类承诺后金额的 58%，按披露的舍入值计算约 $4.23B，与业绩稿的 $4.2B 预期一致。Q3 实际确认 $104.3M 年初递延收入，上年同期为 $102.5M。该实际值仅覆盖部分已履约收入，Q2 backlog 的总体转化率与全年指引是否兑现仍待核实。 https://www.sec.gov/Archives/edgar/data/813672/000081367226000121/cdns-20260930.htm",
+      "en": "Note 3 of the Form 10-Q says the $8.2B in unsatisfied obligations includes $0.9B of non-cancelable commitments with product and quantity choices pending. Cadence expects to recognize 58% of the balance excluding those commitments within 12 months, or about $4.23B from rounded inputs, consistent with the release's $4.2B estimate. Q3 revenue included $104.3M of beginning-of-year deferred revenue versus $102.5M a year earlier. That actual figure captures only part of fulfilled revenue, leaving the overall Q2 backlog conversion rate and full-year guidance attainment unverified. https://www.sec.gov/Archives/edgar/data/813672/000081367226000121/cdns-20260930.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "CDNS"
+    ],
+    "reportIds": [
+      "cadence-2026"
+    ],
+    "monitoringRefs": [
+      "cadence-2026:backlog-rpo-conversion"
+    ]
   }
 ]
