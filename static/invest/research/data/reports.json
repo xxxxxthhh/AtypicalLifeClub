@@ -7836,8 +7836,8 @@
     "priceSymbol": "TSM",
     "title": "TSMC 深度研究报告 - AI 基建链的先进制程与封装公共约束",
     "titleEn": "TSMC Deep Research Report - The Advanced-Node and Packaging Constraint in AI Infrastructure",
-    "summary": "AI 基础设施书 foundry 层补位：TSMC 是整条链最硬的制造瓶颈，而不是又一个芯片设计公司。2026Q2 收入 US$40.20B（同比 +33.7%）落在指引区间上沿，毛利率 67.7% 高于 65.5-67.5% 指引；2nm 首次贡献 3% wafer revenue、7nm 及以下占 77%，HPC 占收入 66%。管理层把全年收入增速展望上调至略高于 40%，并把 2026 capex 从原 $52-56B 区间上调至 $60-64B；Q3 指引 US$44.6-45.8B。2026-07-31 重新锚定：ADR $403.31（2026-07-30 收盘）、约 $2.09T 市值、约 12.8x 2026E EV/Sales，隐含收入 CAGR 要求降至约 17%，低于未变的 20-22% 基准情景，预期差转为温和正向，立场由中性观察上调为偏多 / 中确信。",
-    "summaryEn": "Foundry-layer coverage for the AI-infrastructure book: TSMC is the hard manufacturing bottleneck in the chain, not another chip designer. Q2 2026 revenue was US$40.20B (+33.7% YoY), at the top of guidance, with gross margin of 67.7% above the 65.5-67.5% guide; 2nm contributed 3% of wafer revenue for the first time, 7nm-and-below reached 77%, and HPC was 66% of revenue. Management lifted full-year revenue growth to slightly above 40% and raised 2026 capex from the prior $52-56B range to $60-64B, while guiding Q3 revenue to US$44.6-45.8B. Re-anchored on 2026-07-31: the ADR closed at $403.31 on 2026-07-30, about $2.09T market cap and about 12.8x 2026E EV/Sales, cutting the implied revenue CAGR requirement to roughly 17% — below the unchanged 20-22% base case. The expectation gap turns modestly positive, so the stance moves from neutral watch to constructive / medium conviction.",
+    "summary": "11 月 25 日 Form 6-K 披露，台积电及子公司 10 月取得房屋及设施共新台币 388 亿元。当月无董事会批准的资本拨款。 AI 基础设施书 foundry 层补位：TSMC 是整条链最硬的制造瓶颈，而不是又一个芯片设计公司。2026Q2 收入 US$40.20B（同比 +33.7%）落在指引区间上沿，毛利率 67.7% 高于 65.5-67.5% 指引；2nm 首次贡献 3% wafer revenue、7nm 及以下占 77%，HPC 占收入 66%。管理层把全年收入增速展望上调至略高于 40%，并把 2026 capex 从原 $52-56B 区间上调至 $60-64B；Q3 指引 US$44.6-45.8B。2026-07-31 重新锚定：ADR $403.31（2026-07-30 收盘）、约 $2.09T 市值、约 12.8x 2026E EV/Sales，隐含收入 CAGR 要求降至约 17%，低于未变的 20-22% 基准情景，预期差转为温和正向，立场由中性观察上调为偏多 / 中确信。",
+    "summaryEn": "The November 25 Form 6-K lists NT$38.8 billion in October buildings and facilities acquisitions by TSMC and its subsidiaries. It reports no board-approved capital appropriations for the month. Foundry-layer coverage for the AI-infrastructure book: TSMC is the hard manufacturing bottleneck in the chain, not another chip designer. Q2 2026 revenue was US$40.20B (+33.7% YoY), at the top of guidance, with gross margin of 67.7% above the 65.5-67.5% guide; 2nm contributed 3% of wafer revenue for the first time, 7nm-and-below reached 77%, and HPC was 66% of revenue. Management lifted full-year revenue growth to slightly above 40% and raised 2026 capex from the prior $52-56B range to $60-64B, while guiding Q3 revenue to US$44.6-45.8B. Re-anchored on 2026-07-31: the ADR closed at $403.31 on 2026-07-30, about $2.09T market cap and about 12.8x 2026E EV/Sales, cutting the implied revenue CAGR requirement to roughly 17% — below the unchanged 20-22% base case. The expectation gap turns modestly positive, so the stance moves from neutral watch to constructive / medium conviction.",
     "tags": [
       "晶圆代工",
       "AI基础设施",
@@ -7846,7 +7846,7 @@
     ],
     "category": "tech",
     "date": "2026-07-04",
-    "lastUpdate": "2026-11-22",
+    "lastUpdate": "2026-11-28",
     "file": "/invest/research/reports/view.html?id=tsmc-2026",
     "markdownFiles": {
       "zh": "/invest/research/TSMC_深度研究报告_2026-07.md",
