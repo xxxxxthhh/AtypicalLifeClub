@@ -5162,7 +5162,7 @@
     "priceSymbol": "BE",
     "title": "Bloom Energy 深度研究报告 - AI电力基础设施高弹性与估值重定价",
     "titleEn": "Bloom Energy Deep Research Report - AI Power Infrastructure Upside After a Sharp Valuation Reset",
-    "summary": "2026-07-31 立场重新裁定（并入 Q2 2026）：Q2 收入 $1.0654B（同比 +165.5%，首个十亿美元季度）、非 GAAP 毛利率 34.3%（越过报告自设的 32%+ 门槛）、非 GAAP 摊薄 EPS $0.78，FY2026 指引上调至收入 $3.9-4.2B、非 GAAP EPS $2.55-2.85。价格锚点重设为 2026-07-30 收盘 $207.12、市值约 $610 亿，约为上调后指引中值的 15.1x——设定谨慎立场时的约 26x 前提已不成立。按所有者 Q1 裁定，立场由谨慎调整为观望中性（中确信）：15.1x 前瞻销售额仍偏高，2 GW 扩产待 H2 2026 交付量验证，故不转为看多；网格权重（20/40/40）保留。",
+    "summary": "2026-11-05，Bloom Energy 与 NTT DATA 公布 900 MW 数据中心现场供电协议，首批出货计划于 2027 年开始。2026-07-31 立场重新裁定（并入 Q2 2026）：Q2 收入 $1.0654B（同比 +165.5%，首个十亿美元季度）、非 GAAP 毛利率 34.3%（越过报告自设的 32%+ 门槛）、非 GAAP 摊薄 EPS $0.78，FY2026 指引上调至收入 $3.9-4.2B、非 GAAP EPS $2.55-2.85。价格锚点重设为 2026-07-30 收盘 $207.12、市值约 $610 亿，约为上调后指引中值的 15.1x——设定谨慎立场时的约 26x 前提已不成立。按所有者 Q1 裁定，立场由谨慎调整为观望中性（中确信）：15.1x 前瞻销售额仍偏高，2 GW 扩产待 H2 2026 交付量验证，故不转为看多；网格权重（20/40/40）保留。",
     "tags": [
       "燃料电池",
       "AI数据中心",
@@ -5171,7 +5171,7 @@
     ],
     "category": "energy",
     "date": "2026-02-11",
-    "lastUpdate": "2026-11-21",
+    "lastUpdate": "2026-11-28",
     "file": "/invest/research/reports/view.html?id=bloom-energy-2026",
     "markdownFiles": {
       "zh": "/invest/research/Bloom_Energy_深度研究报告_2026-02.md",
@@ -5184,7 +5184,7 @@
       "牛市情景的 32%+ 产品毛利率门槛已达成；2 GW 扩产仍待 H2 2026 交付量验证，触发条件仅部分满足",
       "所有者 Q1 裁定已适用：立场调整为观望中性/中确信；2 GW 扩产、服务成本与客户集中度仍待 H2 2026 验证"
     ],
-    "summaryEn": "July 31, 2026 stance re-adjudication (with Q2 2026 integrated): Q2 revenue $1.0654B (+165.5% YoY, first billion-dollar quarter), non-GAAP gross margin 34.3% (clearing the report's own 32%+ bar), non-GAAP diluted EPS $0.78, and FY2026 guidance raised to $3.9-4.2B revenue and $2.55-2.85 non-GAAP EPS. The price anchor is re-set to the 2026-07-30 close of $207.12 and roughly $61.0B market cap, about 15.1x the raised guidance midpoint — the ~26x premise on which cautious was set no longer holds. Under the owner's Q1 ruling the stance moves from cautious to neutral-watch (medium conviction): 15.1x forward sales is still rich and the 2 GW ramp awaits H2 2026 delivery volumes, which keeps it from constructive; grid weights (20/40/40) retained.",
+    "summaryEn": "On November 5, 2026, Bloom Energy and NTT DATA announced a 900 MW data center on-site power agreement, with initial shipments scheduled to start in 2027. July 31, 2026 stance re-adjudication (with Q2 2026 integrated): Q2 revenue $1.0654B (+165.5% YoY, first billion-dollar quarter), non-GAAP gross margin 34.3% (clearing the report's own 32%+ bar), non-GAAP diluted EPS $0.78, and FY2026 guidance raised to $3.9-4.2B revenue and $2.55-2.85 non-GAAP EPS. The price anchor is re-set to the 2026-07-30 close of $207.12 and roughly $61.0B market cap, about 15.1x the raised guidance midpoint — the ~26x premise on which cautious was set no longer holds. Under the owner's Q1 ruling the stance moves from cautious to neutral-watch (medium conviction): 15.1x forward sales is still rich and the 2 GW ramp awaits H2 2026 delivery volumes, which keeps it from constructive; grid weights (20/40/40) retained.",
     "period": "2026H1",
     "versionType": "full-cycle",
     "versionLabel": "2026H1 Full Rerun",
@@ -5225,8 +5225,8 @@
           "en": "data-center on-site power orders keep landing, extending growth visibility"
         },
         "latest": {
-          "zh": "Q2 2026 收入 $1.0654B（同比 +165.5%，首个十亿美元季度），产品收入同比 +215.4%；FY2026 指引上调至 $3.9-4.2B",
-          "en": "Q2 2026 revenue $1.0654B (+165.5% YoY, first billion-dollar quarter), product revenue +215.4%; FY2026 guide raised to $3.9-4.2B"
+          "zh": "2026-11-05，Bloom Energy 与 NTT DATA 公布协议，拟在全球多个数据中心项目部署 900 MW 现场电力。NTT Global Data Centers 将采用 Bloom 的燃料电池，首批出货计划于 2027 年开始。具名协议提高了项目需求的可见度，公告未披露逐项目出货量、已确认收入或回款。",
+          "en": "On November 5, 2026, Bloom Energy and NTT DATA announced an agreement to deploy 900 MW of on-site power across multiple data center projects globally. NTT Global Data Centers will use Bloom’s fuel cells, with initial shipments scheduled to start in 2027. The named agreement improves visibility into project demand. The announcement does not give project-level shipment volumes, recognized revenue, or cash collections."
         },
         "nextCheck": "Q3 2026 财报 / Q3 2026 results",
         "nextCheckDate": "2026-11"
