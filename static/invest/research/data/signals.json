@@ -5850,5 +5850,28 @@
     "monitoringRefs": [
       "bloom-energy-2026:onsite-power-demand"
     ]
+  },
+  {
+    "id": "broadcom-fy2026-q3-vcf-contract-terms-10q",
+    "date": "2026-09-10",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Broadcom FY2026 Q3 10-Q 补充 VMware 软件许可收入与合同条款",
+      "en": "Broadcom FY2026 Q3 Form 10-Q details VMware license revenue and contract terms"
+    },
+    "detail": {
+      "zh": "Broadcom 将基础设施软件收入和营业利润增长主要归因于 VMware Cloud Foundation 的需求，包括不可由客户终止的合同带来的额外许可收入。多数新软件合同在季末已不含便利终止条款。该披露补充了分部收入确认背景，VMware 续约率、流失率及分部现金流仍待核实。 https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+      "en": "Broadcom attributed infrastructure software revenue and operating income growth primarily to VMware Cloud Foundation demand, including additional license revenue on contracts customers had no right to terminate. Most new software contracts had no termination-for-convenience provision at quarter-end. The filing adds context for license revenue recognition. VMware renewal rates, churn and segment cash flow remain unverified. https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "AVGO"
+    ],
+    "reportIds": [
+      "broadcom-2026"
+    ],
+    "monitoringRefs": [
+      "broadcom-2026:vmware-retention"
+    ]
   }
 ]
