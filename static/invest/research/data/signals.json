@@ -5827,5 +5827,28 @@
     "reportIds": [
       "tsmc-2026"
     ]
+  },
+  {
+    "id": "bloom-energy-ntt-data-onsite-power-20261105",
+    "date": "2026-11-05",
+    "scope": "report-monitoring",
+    "title": {
+      "zh": "Bloom Energy 与 NTT DATA 公布 900 MW 数据中心供电协议",
+      "en": "Bloom Energy and NTT DATA announce a 900 MW data center power agreement"
+    },
+    "detail": {
+      "zh": "Bloom Energy 与 NTT DATA 公布协议，拟在全球多个数据中心项目部署 900 MW 现场电力，首批燃料电池计划于 2027 年开始出货。具名协议提高了现场电力项目需求的可见度。继续核对逐项目出货、验收、收入确认和回款。 https://www.bloomenergy.com/news/ntt-data-announces-agreement-with-bloom-energy-for-900-mw-of-onsite-power-generation-across-multiple-data-center-projects/",
+      "en": "Bloom Energy and NTT DATA announced an agreement to deploy 900 MW of on-site power across multiple data center projects globally, with initial fuel cell shipments scheduled to start in 2027. The named agreement improves visibility into demand for on-site power. Follow up on project-level shipments, acceptance, revenue recognition, and cash collections. https://www.bloomenergy.com/news/ntt-data-announces-agreement-with-bloom-energy-for-900-mw-of-onsite-power-generation-across-multiple-data-center-projects/"
+    },
+    "crossChecks": [],
+    "tickers": [
+      "BE"
+    ],
+    "reportIds": [
+      "bloom-energy-2026"
+    ],
+    "monitoringRefs": [
+      "bloom-energy-2026:onsite-power-demand"
+    ]
   }
 ]
