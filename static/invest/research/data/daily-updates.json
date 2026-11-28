@@ -3,6 +3,58 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "broadcom-2026",
+      "signalId": "broadcom-fy2026-q3-vcf-contract-terms-10q",
+      "type": "facts",
+      "evidenceDate": "2026-09-10",
+      "title": {
+        "en": "Broadcom FY2026 Q3 Form 10-Q details VMware license revenue and contract terms",
+        "zh": "Broadcom FY2026 Q3 10-Q 补充 VMware 软件许可收入与合同条款"
+      },
+      "change": {
+        "en": "Broadcom said VCF demand drove segment growth, including additional license revenue from contracts customers had no right to terminate. Most new software contracts no longer had termination-for-convenience provisions.",
+        "zh": "Broadcom 披露，VCF 需求带动分部增长，包含从客户无权终止的合同中确认的额外许可收入。多数新软件合同已无便利终止条款。"
+      },
+      "meaning": {
+        "en": "The contract terms explain part of the reported segment growth. Customer retention and segment cash quality remain unverified.",
+        "zh": "合同条款补充了解读分部增长所需的收入确认背景。客户留存和分部现金质量仍待核实。"
+      },
+      "next": {
+        "en": "Check subsequent disclosures for renewals, churn, and software segment collections or cash flow.",
+        "zh": "核对后续续约、流失及软件分部回款或现金流披露。"
+      },
+      "id": "research-9b86d06f753b52adf5f17f7438d57ac314fa7bd51db5130bbde6e0e0eb79ec4c",
+      "publishedDate": "2026-11-28",
+      "company": "Broadcom",
+      "ticker": "AVGO"
+    },
+    {
+      "reportId": "cadence-2026",
+      "signalId": "cadence-2026-q3-rpo-composition-and-deferred-revenue-10q",
+      "type": "facts",
+      "evidenceDate": "2026-10-28",
+      "title": {
+        "en": "Cadence Q3 2026 Form 10-Q details RPO composition and deferred revenue recognized",
+        "zh": "Cadence Q3 2026 10-Q 说明 RPO 构成及年初递延收入兑现"
+      },
+      "change": {
+        "en": "Cadence disclosed $0.9B of commitments pending product and quantity selection within $8.2B of unsatisfied obligations. Q3 revenue included $104.3M of beginning-of-year deferred revenue.",
+        "zh": "Cadence 披露 $8.2B 尚未履约金额包含 $0.9B 产品和数量待定的承诺，Q3 实际确认 $104.3M 年初递延收入。"
+      },
+      "meaning": {
+        "en": "Applying the disclosed 58% to the balance excluding those commitments gives about $4.23B expected over 12 months. Actual recognition from beginning-of-year deferred revenue covers a narrower population than overall Q2 backlog conversion.",
+        "zh": "按剔除该类承诺后的余额和披露的 58% 计算，未来 12 个月预期约为 $4.23B。实际确认的年初递延收入范围较窄，无法给出 Q2 backlog 总体转化率。"
+      },
+      "next": {
+        "en": "Check Q4 and full-year actuals and comparable backlog/RPO conversion disclosures.",
+        "zh": "核对 Q4 和全年实绩及可比的 backlog/RPO 转化披露。"
+      },
+      "id": "research-9d20f68bf3d81e74278f9689524b42f7f50ac4ee8540f1dd86684f3c9ab4885e",
+      "publishedDate": "2026-11-28",
+      "company": "Cadence Design Systems",
+      "ticker": "CDNS"
+    },
+    {
       "reportId": "bloom-energy-2026",
       "signalId": "bloom-energy-ntt-data-onsite-power-20261105",
       "type": "facts",
