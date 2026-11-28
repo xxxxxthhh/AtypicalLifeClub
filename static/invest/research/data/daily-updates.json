@@ -3,6 +3,32 @@
   "mode": "live",
   "entries": [
     {
+      "reportId": "bloom-energy-2026",
+      "signalId": "bloom-energy-ntt-data-onsite-power-20261105",
+      "type": "facts",
+      "evidenceDate": "2026-11-05",
+      "title": {
+        "en": "Bloom Energy and NTT DATA announce a 900 MW data center power agreement",
+        "zh": "Bloom Energy 与 NTT DATA 公布 900 MW 数据中心供电协议"
+      },
+      "change": {
+        "en": "Bloom Energy and NTT DATA announced a 900 MW on-site power agreement for data centers, with initial fuel cell shipments scheduled to start in 2027.",
+        "zh": "Bloom Energy 与 NTT DATA 公布 900 MW 数据中心现场供电协议，首批燃料电池计划于 2027 年开始出货。"
+      },
+      "meaning": {
+        "en": "The named agreement improves visibility into project demand. Shipment volumes by project, recognized revenue, and cash collections were undisclosed.",
+        "zh": "具名协议提高了项目需求的可见度。公告未披露分项目出货量、已确认收入或回款。"
+      },
+      "next": {
+        "en": "Check project-level shipments, acceptance, revenue recognition, and cash collections.",
+        "zh": "核对逐项目出货、验收、收入确认和回款。"
+      },
+      "id": "research-e88d045eb0b01e892e06391f3f57cd14930e0ad851cf1bceda027554f7f9864e",
+      "publishedDate": "2026-11-28",
+      "company": "Bloom Energy",
+      "ticker": "BE"
+    },
+    {
       "reportId": "sk-hynix-2026",
       "signalId": "sk-hynix-2026-november-return-nand-20261127",
       "type": "facts",
