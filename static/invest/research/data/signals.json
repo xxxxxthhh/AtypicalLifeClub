@@ -5806,5 +5806,26 @@
     "reportIds": [
       "sk-hynix-2026"
     ]
+  },
+  {
+    "id": "tsmc-october-facility-acquisitions-20261125",
+    "date": "2026-11-25",
+    "title": {
+      "zh": "台积电披露 10 月取得新台币 388 亿元房屋及设施",
+      "en": "TSMC reports NT$38.8 billion of October buildings and facilities acquisitions"
+    },
+    "detail": {
+      "zh": "11 月 25 日 Form 6-K 披露，台积电及子公司 10 月取得房屋及设施共新台币 388 亿元。当月无董事会批准的资本拨款。 月度申报列出资产取得金额，现金付款进度、设备订单和投产时间仍待验证。 核对下一期现金流量表和项目披露，确认取得资产与现金开支的对应关系。 https://www.sec.gov/Archives/edgar/data/1046179/000104617926000805/tsm-monthend6kx20261125.htm",
+      "en": "The November 25 Form 6-K lists NT$38.8 billion in October buildings and facilities acquisitions by TSMC and its subsidiaries. It reports no board-approved capital appropriations for the month. The filing documents an asset acquisition amount. Cash payment timing, equipment orders and production milestones still require separate evidence. Reconcile asset acquisitions with the next cash-flow statement and project disclosures. https://www.sec.gov/Archives/edgar/data/1046179/000104617926000805/tsm-monthend6kx20261125.htm"
+    },
+    "crossChecks": [
+      "semicap-eda-capex-commitment"
+    ],
+    "tickers": [
+      "TSM"
+    ],
+    "reportIds": [
+      "tsmc-2026"
+    ]
   }
 ]
