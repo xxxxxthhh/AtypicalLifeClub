@@ -5785,5 +5785,26 @@
     "monitoringRefs": [
       "amkr-2026:arizona-execution-and-margin-drag"
     ]
+  },
+  {
+    "id": "sk-hynix-2026-november-return-nand-20261127",
+    "date": "2026-11-27",
+    "title": {
+      "zh": "SK hynix 披露股东回报目标及 Solidigm 扩产评估",
+      "en": "SK hynix discloses shareholder-return goals and Solidigm capacity review"
+    },
+    "detail": {
+      "zh": "11 月 25 日 Form 6-K 披露，FY2026 股东回报目标约 100 万亿韩元，包括至少 30 万亿韩元的现金股息及至少 60 万亿韩元的库存股购入与注销。公司披露 9 月末净现金为 99 万亿韩元。11 月 27 日 Form 6-K 称 Solidigm 仍在评估扩产方案，尚未就媒体报道的美国 NAND 工厂作出决定。 股东回报目标属于前瞻披露。供应端只有扩产方案评估，尚无可计入供应预测的项目承诺。 对照后续报表核实现金股息、回购和注销。公司将在项目细节确认时或自 11 月 27 日起三个月内再披露。 https://www.sec.gov/Archives/edgar/data/2120882/000119312526476869/d135553d6k.htm https://www.sec.gov/Archives/edgar/data/2120882/000119312526479067/d139543d6k.htm",
+      "en": "The November 25 Form 6-K sets out an FY2026 shareholder-return objective of about ₩100 trillion, including at least ₩30 trillion in cash dividends and at least ₩60 trillion in treasury-share purchases and cancellations. The company reported ₩99 trillion of net cash as of September 30. Its November 27 Form 6-K says Solidigm is still evaluating ways to expand capacity and has made no decision on the reported U.S. NAND facility. The return amounts are forward-looking. Solidigm’s capacity review leaves the project outside the confirmed NAND supply pipeline. Check subsequent filings for cash dividends, repurchases and cancellations. SK hynix plans a follow-up when the project details firm up or within three months of November 27. https://www.sec.gov/Archives/edgar/data/2120882/000119312526476869/d135553d6k.htm https://www.sec.gov/Archives/edgar/data/2120882/000119312526479067/d139543d6k.htm"
+    },
+    "crossChecks": [
+      "memory-cycle"
+    ],
+    "tickers": [
+      "000660.KS"
+    ],
+    "reportIds": [
+      "sk-hynix-2026"
+    ]
   }
 ]
